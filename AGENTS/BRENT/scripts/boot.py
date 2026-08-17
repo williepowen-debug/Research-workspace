@@ -75,16 +75,17 @@ BOOT_SEQUENCE = [
 
 # Output markers that promote an rc=0 run to FINDINGS.
 #
-# ⛔ WHY THIS EXISTS: `scripts/ledger_staleness.py` returns 0 EVEN WHEN IT FINDS STALE
-# LEDGERS (verified 2026-08-17: --days 1 reports 2 stale and still exits 0; its own rc=2
-# paths are reserved for MISCONFIGURED / LEDGERS-OUTSIDE-GLOB). Wired unmodified it would
-# render ✅ OK whether or not ledgers are rotting -- the identical silent-fallback-green
-# class killed in thresholds.py the same morning.
+# ⛔ ORIGIN (historical as of 2026-08-17 same-day): `scripts/ledger_staleness.py` returned 0
+# EVEN WHEN IT FOUND STALE LEDGERS (verified 2026-08-17: --days 1 reported 2 stale, exited 0).
+# Wired unmodified it would render ✅ OK whether or not ledgers rot -- the identical
+# silent-fallback-green class killed in thresholds.py the same morning. The guard was built
+# HERE because the shared script was not BRENT's to edit (flagged to PROME -- correct restraint).
 #
-# ⚠️ THE FIX IS HERE AND NOT IN THAT SCRIPT ON PURPOSE: ledger_staleness.py is a SHARED
-# fleet script at repo-root scripts/, outside AGENTS/BRENT/, and changing its exit contract
-# would change every agent's boot. Not mine to edit -- flagged to PROME instead. Mapping the
-# verdict on the CONSUMER side is the change that is mine to make.
+# ✅ RESOLVED UPSTREAM 2026-08-17 (DAEDALUS shared-script fix off that flag, PROME-approved):
+# the script's exit contract is now 0 clean · 1 stale FINDINGS · 2 CANNOT-CERTIFY
+# (MISCONFIGURED / LEDGERS-OUTSIDE-GLOB / usage); FINDINGS_RCS below maps rc to the verdict.
+# The marker promotion STAYS as defense-in-depth -- §8 rule 5 keeps marker-present the
+# authoritative wrapper channel, and it only ever UPGRADES OK -> FINDINGS.
 #
 # ✅ CANON, not a local workaround: this is the marker-keyed verdict form of DAEDALUS's
 # CHECK_STANDARD §8, RATIFIED by Will 2026-08-17 (verbatim "Ratify §8"; ruling record
@@ -98,6 +99,14 @@ FINDINGS_MARKERS = {
     "scripts/ledger_staleness.py": ("STALE", "MISCONFIGURED", "LEDGERS-OUTSIDE-GLOB"),
 }
 
+# rc values meaning "ran correctly, reported real problems" for scripts whose contract
+# differs from the desk convention (0 OK / 2 FINDINGS / else FAIL). ledger_staleness
+# (revised 2026-08-17): 1 = stale FINDINGS; 2 = cannot-certify, which the desk
+# convention already renders FINDINGS.
+FINDINGS_RCS = {
+    "scripts/ledger_staleness.py": (1, 2),
+}
+
 
 # Per-script timeout overrides. `eia_weekly.py` legitimately takes ~50-62s against the EIA
 # v2 API and was tripping the 60s default -- it showed ❌ FAIL in the boot summary on 8/4
@@ -107,7 +116,7 @@ FINDINGS_MARKERS = {
 TIMEOUTS = {"eia_weekly.py": 150, "instrument_check.py": 120, "thresholds.py": 90}
 
 
-def run_script(script_path, args, timeout=60, findings_markers=()):
+def run_script(script_path, args, timeout=60, findings_markers=(), findings_rcs=()):
     """Run a script and capture output.
 
     Returns (status, output, elapsed) where status is one of:
@@ -135,7 +144,8 @@ def run_script(script_path, args, timeout=60, findings_markers=()):
         output = result.stdout
         if result.returncode != 0 and result.stderr:
             output += f"\n  STDERR: {result.stderr[:500]}"
-        status = "OK" if result.returncode == 0 else ("FINDINGS" if result.returncode == 2 else "FAIL")
+        status = "OK" if result.returncode == 0 else (
+            "FINDINGS" if (result.returncode == 2 or result.returncode in findings_rcs) else "FAIL")
         # Marker-keyed promotion: a script that reports real problems on rc=0 would otherwise
         # render ✅ OK. Only ever UPGRADES OK -> FINDINGS; it can never downgrade a FAIL, and
         # it can never turn a genuine problem into a clean board. See FINDINGS_MARKERS.
@@ -184,6 +194,7 @@ def main():
             script_path, args,
             timeout=TIMEOUTS.get(script_name, 60),
             findings_markers=FINDINGS_MARKERS.get(script_name, ()),
+            findings_rcs=FINDINGS_RCS.get(script_name, ()),
         )
 
         if verbose:
