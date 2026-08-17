@@ -18,6 +18,9 @@ LAST="<last_run from REGISTRY>"
 git log --after="$LAST 00:00" --pretty=format:"%h | %cd | %s" --date=format:"%m-%d %H:%M"
 # who shipped (agent-prefix tally)
 git log --after="$LAST 00:00" --pretty=format:"%s" | sed -E 's/^([A-Z]+).*/\1/' | sort | uniq -c | sort -rn
+# scripted L0-L2 floor (wired 2026-08-17, self-audit F10 — this scan previously had NO invocation
+# site anywhere; run it here every review, diff hints against FLEET_MAP before step 2)
+python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/maturity_scan.py"
 ```
 
 ### 2. Per active agent (shipped since last review): read the STATUS delta + key commits, assess via the maturity/structure lens
