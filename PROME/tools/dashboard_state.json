@@ -1,5 +1,5 @@
 {
- "built": "2026-08-17 10:12",
+ "built": "2026-08-17 12:04",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -24,6 +24,7 @@
   "2026-08-20 BRENT discriminator forward checks (own-dated, registered fr",
   "2026-08-20 CFPB complaint re-pull, company=MOHELA \u2014 tests the SAVE wave",
   "2026-08-20 CPC DJF 2026-27 seasonal outlook (~8/20) \u2014 SUPERSEDES the co",
+  "2026-08-20 GATE-FERT-G5 first graded read \u2014 DTN weekly retail article (",
   "2026-08-20 JGB 20Y auction (Thu) \u2014 SAM-PROMOTED \ud83d\udd34 Pillar-2 ADJUDICATOR ",
   "2026-08-20 OSPREY Channel-3 (shadow-fleet) kill watch \u2014 21d clock lands",
   "2026-08-21 Baker Hughes rigs (~13:00 ET) \u2014 BRT-26 line 457, last print ",
@@ -79,7 +80,7 @@
   "OSPREY": "ok",
   "OZK": "elev",
   "PROME": "ok",
-  "RED": "watch",
+  "RED": "ok",
   "REGINALD": "watch",
   "SAM": "ok",
   "SHADE": "watch",
@@ -97,6 +98,8 @@
   "GATE-BRENT-SUSTAIN": "resolved:RESOLVED",
   "GATE-BRK-C1": "resolved:RESOLVED",
   "GATE-FALCON-001": "live:LIVE",
+  "GATE-FERT-G3": "live:LIVE",
+  "GATE-FERT-G5": "live:LIVE",
   "GATE-HY-REKILL": "live:LIVE",
   "GATE-LIQ-069": "live:LIVE",
   "GATE-LIQ-072": "live:LIVE",
@@ -130,16 +133,9 @@
  "pending": [
   "rule-batch (52-54)",
   "row-16 one-liners",
-  "FERT first-session call [<8/25]",
   "CRUISE re-class [row 55]",
-  "ESTAT key move [8/17]",
-  "FFIEC laptop hand-carry [convenience, next laptop stint]",
-  "TERRY sizing [open option]",
-  "REGINALD hidden-CRE [before 11/07]",
-  "broker export [normal]",
-  "N12 [9/30]",
-  "S1 [9/7]",
-  "item-8 [8/24]"
+  "INFRA_AGENDA [row 56]",
+  "SAM v1"
  ],
  "split": "Break 21 \u00b7 Grind 44 \u00b7 Unresolved 35",
  "v": 1
