@@ -1,6 +1,6 @@
 # DRAFT (Will-gated): trim root `CLAUDE.md:26` active-agents paragraph to a name-list + pointer
 
-**Date:** 2026-08-16 S4 · **Status:** DRAFT — root `CLAUDE.md` is a Will-gated shared surface; commit only on Will's word, named in-commit · **Origin:** RAV commit review ("root should answer 'is FERT active and where do I read detail,' not carry the full ruling trail"), Will: "Go on all four" · **Precedent:** the 8/5 mirror edit (`PROME/proposals/2026-08-05_root-claudemd-mirror-edit-DRAFT.md`) and ROSTER's own header doctrine — *"root points, it does not mirror the churny part"* (`PROME/ROSTER.md` line 8).
+**Date:** 2026-08-16 S4 · **Status:** ★ **EXECUTED 2026-08-16 S4 — Will's word in-session: "Approve the root trim according to your recs"** (replacement applied verbatim as drafted below; name-set diff run before AND after, 38/38 clean [31 ACTIVE + 4 Tier-2 + 3 Special]; line 26 = 2,552 → 1,053 bytes; ROSTER untouched per protocol). *Original gating note: root `CLAUDE.md` is a Will-gated shared surface; commit only on Will's word, named in-commit* · **Origin:** RAV commit review ("root should answer 'is FERT active and where do I read detail,' not carry the full ruling trail"), Will: "Go on all four" · **Precedent:** the 8/5 mirror edit (`PROME/proposals/2026-08-05_root-claudemd-mirror-edit-DRAFT.md`) and ROSTER's own header doctrine — *"root points, it does not mirror the churny part"* (`PROME/ROSTER.md` line 8).
 
 ## Problem
 
