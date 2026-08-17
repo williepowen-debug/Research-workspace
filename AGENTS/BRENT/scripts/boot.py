@@ -53,7 +53,42 @@ BOOT_SEQUENCE = [
     # a documented command is a remembered ritual (finding_mechanize_the_cap_not_the_ritual),
     # and this whole defect class survives precisely because nobody re-probes a spec they wrote.
     ("Instrument Check",      "instrument_check.py",   [], False),
+    # RE-WIRED 2026-08-17 (Will-approved). Retired from this boot on the explicit condition
+    # "do not re-wire without a live unfrozen surface for it to inspect" -- that condition is
+    # now MET (REGISTRY.tsv, board_log.tsv, docket/CATALYSTS.tsv and refinery_damage/
+    # INCIDENTS.tsv are all live and unfrozen), so this is the retirement clause working as
+    # written, not an override of it.
+    #
+    # WHAT IT BUYS: the two-clock PAT-044 header ("Last real data refresh:") had NO READER on
+    # this desk after the retirement. That is the measured root cause of TRADE.md:3 carrying an
+    # 8/10 stamp over an 8/14 body -- the THIRD instance of that class, flagged by DAEDALUS
+    # 7/28, 8/16 and 8/17. A stamp nothing reads is a comment.
+    #
+    # ⚠️ PRECONDITION, and it mattered: the script's DEFAULT glob is workbook/*.tsv, which sees
+    # 6 files here and MISSES board_log / CATALYSTS / INCIDENTS -- i.e. all three ledgers that
+    # actually rot. Wiring it on the default would have produced a check that reports CLEAN
+    # because it is not looking. workbook/LEDGER_GLOB now declares the real set (9 ledgers,
+    # verified by running it, not by reading it).
+    ("Ledger Staleness",      "scripts/ledger_staleness.py", ["BRENT"], False),
 ]
+
+
+# Output markers that promote an rc=0 run to FINDINGS.
+#
+# ⛔ WHY THIS EXISTS: `scripts/ledger_staleness.py` returns 0 EVEN WHEN IT FINDS STALE
+# LEDGERS (verified 2026-08-17: --days 1 reports 2 stale and still exits 0; its own rc=2
+# paths are reserved for MISCONFIGURED / LEDGERS-OUTSIDE-GLOB). Wired unmodified it would
+# render ✅ OK whether or not ledgers are rotting -- the identical silent-fallback-green
+# class killed in thresholds.py the same morning.
+#
+# ⚠️ THE FIX IS HERE AND NOT IN THAT SCRIPT ON PURPOSE: ledger_staleness.py is a SHARED
+# fleet script at repo-root scripts/, outside AGENTS/BRENT/, and changing its exit contract
+# would change every agent's boot. Not mine to edit -- flagged to PROME instead. Mapping the
+# verdict on the CONSUMER side is the change that is mine to make, and it is the marker-keyed
+# verdict form DAEDALUS's CHECK_STANDARD §8 proposes fleet-wide (Will-gate pending).
+FINDINGS_MARKERS = {
+    "scripts/ledger_staleness.py": ("STALE", "MISCONFIGURED", "LEDGERS-OUTSIDE-GLOB"),
+}
 
 
 # Per-script timeout overrides. `eia_weekly.py` legitimately takes ~50-62s against the EIA
@@ -64,7 +99,7 @@ BOOT_SEQUENCE = [
 TIMEOUTS = {"eia_weekly.py": 150, "instrument_check.py": 120, "thresholds.py": 90}
 
 
-def run_script(script_path, args, timeout=60):
+def run_script(script_path, args, timeout=60, findings_markers=()):
     """Run a script and capture output.
 
     Returns (status, output, elapsed) where status is one of:
@@ -93,6 +128,13 @@ def run_script(script_path, args, timeout=60):
         if result.returncode != 0 and result.stderr:
             output += f"\n  STDERR: {result.stderr[:500]}"
         status = "OK" if result.returncode == 0 else ("FINDINGS" if result.returncode == 2 else "FAIL")
+        # Marker-keyed promotion: a script that reports real problems on rc=0 would otherwise
+        # render ✅ OK. Only ever UPGRADES OK -> FINDINGS; it can never downgrade a FAIL, and
+        # it can never turn a genuine problem into a clean board. See FINDINGS_MARKERS.
+        if status == "OK" and findings_markers:
+            hay = (output or "") + (result.stderr or "")
+            if any(m in hay for m in findings_markers):
+                status = "FINDINGS"
         return status, output, elapsed
     except subprocess.TimeoutExpired:
         elapsed = time.time() - start
@@ -125,10 +167,16 @@ def main():
             results.append((label, "SKIP", 0))
             continue
 
-        script_path = SCRIPTS_DIR / script_name
+        # A name containing "/" is repo-root-relative (shared fleet scripts under scripts/);
+        # a bare name is one of BRENT's own in AGENTS/BRENT/scripts/.
+        script_path = (WORKSPACE / script_name) if "/" in script_name else (SCRIPTS_DIR / script_name)
 
         print(f"\n  ⏳ {label}...", flush=True)
-        success, output, elapsed = run_script(script_path, args, timeout=TIMEOUTS.get(script_name, 60))
+        success, output, elapsed = run_script(
+            script_path, args,
+            timeout=TIMEOUTS.get(script_name, 60),
+            findings_markers=FINDINGS_MARKERS.get(script_name, ()),
+        )
 
         if verbose:
             if output.strip():

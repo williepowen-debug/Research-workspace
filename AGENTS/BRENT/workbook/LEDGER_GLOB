@@ -1,0 +1,33 @@
+# BRENT ledger declaration for scripts/ledger_staleness.py
+# Created 2026-08-17 (Will-approved) as a PRECONDITION of re-wiring that script into boot.
+#
+# ⛔ WHY THIS FILE EXISTS, and it is the whole point: the script's DEFAULT glob is
+# `workbook/*.tsv`, which sees SIX files here and MISSES the three live ledgers that
+# actually rot — board_log.tsv (top level), docket/CATALYSTS.tsv and
+# refinery_damage/INCIDENTS.tsv. Wiring the script on the default would have produced a
+# check that reports CLEAN because it is not looking — a NEW silent-fallback-green, the
+# exact class killed in thresholds.py and found dead in the TRACKER guard the same day.
+# Measured before writing this: default glob = 6 files, 3 FROZEN, 0 of the rotting ones.
+#
+# ⚠️ GLOBS ARE RELATIVE TO THE AGENT DIR (AGENTS/BRENT/), **NOT** to this file's own
+# directory. First draft of this file used `../docket/*.tsv` — reading them as relative to
+# workbook/ — and it silently matched NOTHING but board_log.tsv. Caught only because the
+# script was RUN before being trusted. A glob that matches nothing is the same false-green
+# this file exists to prevent, so: after ANY edit here, re-run and count the rows.
+#
+# Frozen ledgers are matched deliberately — the script reports them as FROZEN (exempt),
+# which is the two-state contract working, and their absence would be indistinguishable
+# from a glob that missed them.
+
+# workbook TSVs — REGISTRY + LESSONS_INDEX + SCHEMA live; KB/VX/FLOW/GROUP_MAP frozen
+workbook/*.tsv
+
+# the cross-agent mail ledger — top level, live, 214 rows, written every session
+board_log.tsv
+
+# forward-state ledger — live, 8 cols, revised whenever a modeled date moves
+docket/*.tsv
+
+# facility-damage ledger — live, and the one with the standing re-verification backlog
+# (median ACTIVE row age 130d at 2026-08-17); this is the row the script most needs to see
+refinery_damage/*.tsv
