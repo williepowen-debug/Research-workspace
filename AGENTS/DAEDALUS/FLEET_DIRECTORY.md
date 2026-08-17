@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-16.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-17.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
@@ -8,7 +8,7 @@
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| PROME | Meta | L4 | Coordinator / chief of staff | L5 on: legs 1-2 BANKED (8/11 wave-acceptance PASS |
+| PROME | Meta | L5 | Coordinator / chief of staff | L5 CONFIRM at sweep run #2 ~9/6 — full 21d window, ZERO new unexecuted-… |
 | WALTER | Utility | L4 | Signal & news routing | L5 on remaining criteria (YEYOU leg WAIVED-while-dormant per Will 7/22… |
 | NEXUS | Utility | L4 | Cross-agent synthesis | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): residual polish (closeo… |
 | RED | Utility | L4 | Adversarial red-team | L4->L5 re-cut 8/12: (a) addendum-closeout subset defined in CLAUDE.md |
