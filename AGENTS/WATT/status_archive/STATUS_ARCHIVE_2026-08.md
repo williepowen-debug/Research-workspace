@@ -69,3 +69,11 @@
 ---
 
 ---
+
+## LIVE_READ_P1_HYPOTHESIS_TRAIL_2026-08-17 (rotated on refutation — both hypotheses dead, detail in KB)
+
+*Rotated because FL-WATT-10 and FL-WATT-13 are both REFUTED, so the in-line hypothesis trail is superseded state; STATUS keeps the eliminated-list and the KB pointers. Verbatim.*
+
+⚠️ **Tested 8/17: local congestion RULED OUT** (max $3.84 all day vs the $1,217.52 total ⇒ 99.6–99.8% system energy); **FL-WATT-10 REFUTED** on its crux (reserve 2,514 vs 2,571 MW on the peak day); successor **FL-WATT-13** registered. *Full tape, base rates, decomposition and reserve comparison → KB-WATT-068/069/086 (permanent record).*
+
+---
