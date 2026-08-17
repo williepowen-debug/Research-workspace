@@ -51,6 +51,27 @@ Zero PJM-RTO emergency-class postings 7/17–8/15; the July episodes were **heat
 7. **⚠️ Winter P1 registration is GATED and the gate HELD.** AEOLUS: winter **energy/mean DOWN (established)**; winter **PEAK — NO SIGN** (n=2, split). **2023-24 = warmest US winter on record AND PJM still peaked 134,777 MW Jan 17, running Cold Weather Advisory → Alert → Conservative Operations → NERC TLR-1.** ⇒ **never register "no EEA because El Niño."** Peak-based, sign-agnostic, weighted **mid-Jan–Feb**, not December. Vintage discipline: ONI is revised (use today's file); **never mix +2.03 and +1.2 in one sentence** (different baselines).
 8. **Lower urgency:** hedged-vs-floating share of neocloud load (owed VULCAN) · Oracle/We Energies $7B LC vs the Wisconsin PSC docket · Hut8 Beacon Point MW · TSMC-AZ timing · WSJ Trump/utilities full text · EIA-923 PJM-fleet heat rate · the "1-year-early" reconcile.
 
+## ✅ LATE 8/17 (Will: "test FL-WATT-13") — REFUTED TOO. Four explanations eliminated, none surviving.
+
+**THE TEST COULD NOT RUN AS PRE-REGISTERED — and finding out why was the session's best catch (L-37, KB-WATT-088).** Net load needs solar+wind. **`solar_gen` returned a FULL 24-row day of 0.0 MW for 8/16**, every area. A **7/16 control** returned a 12,345 MW peak; a **frontier walk** showed real values through **8/13**, all-zero from **8/14**. `wind_gen` identical.
+🔑 **Same API, same frontier as the LMP feed, OPPOSITE absence semantics: `rt_hrl_lmps` fails LOUD (0 rows), `solar_gen` fails SILENT (0.0 with a full row count).** I was one step from computing net load = load − solar − wind and silently deleting ~10–12 GW of solar — **passing every structural check** (row count, schema, date range, no error, no null). **Only the implausibility of zero solar at 2pm in August caught it.** ⚠️ Having just learned "unpublished = 0 rows" from the LMP feed, I was *primed* to trust a full row count. **Never infer absence semantics from a sibling feed.**
+
+**SO I RAN THE INVERSE, on 8/3–8/13 where every feed is populated (L-38, KB-WATT-087).** *If steep net-load ramps spike prices at all, the steepest should show it.*
+- **Top-20 net-load up-ramps (to +6,595 MW/hr): mean LMP $66.02, MAX $155.18 — ZERO cleared $300.**
+- All other up-ramp hours: mean $57.20, **max $266.08** — relationship absent and **slightly INVERTED at the extreme**.
+- **Window's highest hourly LMP ($266.08, 8/5 hr19) came on a +864 MW/hr ramp — rank 239 of 263.**
+⇒ **FL-WATT-13 REFUTED.** Kills the mechanism *regardless* of 8/16's own ramp. ⚠️ Scope: hourly ramps; a sub-hourly mechanism isn't directly excluded — but the hypothesis was registered around the sunset ramp, an hourly-scale phenomenon.
+
+**THE MUNDANE EXPLANATION DIED TOO (KB-WATT-089):** 8/16 forced outages **15,549 MW, z = +0.23** vs the 15-day window — not elevated. Total outages *were* 2nd-highest (27,132 MW) but on **scheduled weekend maintenance** (11,583 MW) — and **8/15 carried MORE (12,171 / 27,736 total) with NO spike** (max hourly $175.71). Contradicted by the adjacent day ⇒ **no id.**
+
+**▶ RUNNING TALLY — 8/16 explanations ELIMINATED: ① local congestion (max $3.84 vs $1,217.52) · ② thin online reserve / FL-WATT-10 (2,514 vs 2,571 MW) · ③ net-load ramp / FL-WATT-13 (steepest ramps max $155) · ④ large forced outage (z=+0.23) · ⑤ elevated maintenance (8/15 counter-example).**
+**NO surviving explanation. Recorded as UNEXPLAINED.** Remaining candidates are not testable by me in real time: unit-level **offer behaviour** (masked), a **market-software/pricing artifact**, a **reserve co-optimization edge case**.
+⚠️ **Do NOT reopen without new evidence, and do NOT let "unexplained" drift into "suspicious."** The RED band is re-specified so price alone cannot fire it. **The value of the work was ELIMINATION, not explanation.**
+
+⚠️ **Method error caught mid-run:** an `rt_hrl_lmps` query missing `pnode_id` returned all **3,814,800** pnode rows; the 20,000-row cap silently truncated the join to **n=2**. **An unfiltered query plus a row cap is silent truncation, not an error.**
+
+---
+
 ## ✅ AFTERNOON 8/17 (Will: "lets start working through these") — 4 of the 5 open items CLOSED
 
 **① VERIFIED-HOURLY LAG — I was wrong TWICE and the second one is the instructive one (L-34, KB-WATT-083).** Morning: *"posts next business day"* (assumed). Midday: *"lags ~4 days"* (**measured once**). At 09:20 EPT frontier = **8/13**; at ~09:55 EPT the identical query returned **8/15** — PJM published Fri+Sat **while I worked**. ⇒ **BATCH-PUBLISHED, variable ~1–4 day lag.** Standing form: ***measure the frontier at use time.*** **8/16 still unpublished — try ~8/18, not ~8/20.** Pre-registered estimate UNCHANGED ($502.28 @19:00, zero hours ≥$1,000). 🔑 *One probe establishes a POINT, not a RATE — and the correction FELT rigorous, which is what stopped me asking "is this stable?"*
