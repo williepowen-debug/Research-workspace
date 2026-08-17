@@ -194,6 +194,8 @@ Independently-launched sessions on the same box can now message each other direc
 
 **Interrupt hygiene (norm, not machinery):** message only when it unblocks, corrects, or was asked for. Messages consume the receiver's context — a focused mid-grade session owes you nothing mid-round; they drain at its next tool round.
 
+**The discovery step (added 8/16 late, off the same evening's miss):** the doorbell only fires if somebody looks — **at packet-commit time, when the packet carries an ASK of, or an answer owed to, a specific agent, run `ListAgents` (~free) and doorbell if that agent's session is live.** The night this channel was ratified, PROME and DAEDALUS ran a full two-round ASK/disposition exchange as live concurrent sessions on pure file packets, and Will hand-carried the coordination between the two open windows — the exact operator-as-relay load the channel had removed hours earlier. Both sessions knew the canon; neither checked for a peer. A channel without a discovery habit is a doorbell nobody rings.
+
 ## Related
 - `PROME/ORCHESTRAL_LAYER_DESIGN.md` — fleet-scan / ranking / revival-proxy layer (the *what to work on*; this doc is the *how to run it*).
 - Auto-memory: [[finding_fleet_selfreport_convergence]], [[finding_workflow_concurrency_529]], [[feedback_parallel_spawn_independent_agents]], [[feedback_named_spawn_teams_mode]], [[feedback_warm_parked_agent_collision]].
