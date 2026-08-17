@@ -230,7 +230,7 @@ SAM carries **no FXY position, and never opened one.** **$0 was at risk through 
 
 ## PREDICTIONS
 
-**5 OPEN — SAM-28** (≥1 tail-route fires ≥+3% FXY by Sep-18, 40%) · **SAM-31** (yen-haven re-couples by Sep-18, 35%) · **SAM-33** (no BOJ emergency long-end capping through Dec-31, 72%) · **SAM-39** (≥1 session ≥2.5y USD/JPY range 8/4→9/18, 55%) · 🔧 **SAM-41** (Pillar-1 revival: 5Y gap <2.25% **or** 10Y gap <1.80%, 5 consecutive closes, by 10/31, 40%).
+**5 OPEN — SAM-28** (≥1 tail-route fires ≥+3% FXY by Sep-18, 40%) · **SAM-31** (yen-haven re-couples by Sep-18, 35%) · 🔴 **SAM-33** (no BOJ emergency long-end capping through Dec-31, 72%) — **ACTIVATED 8/17: its VOID/UNTESTED clause ("30Y never tags ~4.0%+") is LIFTED.** The 30Y closed **4.002 on 8/13 AND 8/14** and ~4.080 on 8/17, so **this is no longer a free TRUE — it is now a genuine test earning its 72%**, and the BOJ's reaction to a super-long above 4.0% is the live question. Falsifier unchanged and un-fired. *(Caught by the DAEDALUS structure review; unstamped for 4 days because nothing in the boot sweep reads prediction PRECONDITIONS against live levels — the same 4.002 print was read as a Pillar-2 threshold event and never routed to the prediction keyed on it.)* · **SAM-39** (≥1 session ≥2.5y USD/JPY range 8/4→9/18, 55%) · 🔧 **SAM-41** (Pillar-1 revival: 5Y gap <2.25% **or** 10Y gap <1.80%, 5 consecutive closes, by 10/31, 40%).
 **Scoreboard 14 CONFIRMED / 14 FAILED / 1 special.** *(Count corrected 8/13 across all five surfaces — guard in compressed block item 2.)*
 
 🔴 **CLOSED 2026-08-07 — both FAILED:**
