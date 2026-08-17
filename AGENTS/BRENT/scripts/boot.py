@@ -84,8 +84,16 @@ BOOT_SEQUENCE = [
 # ⚠️ THE FIX IS HERE AND NOT IN THAT SCRIPT ON PURPOSE: ledger_staleness.py is a SHARED
 # fleet script at repo-root scripts/, outside AGENTS/BRENT/, and changing its exit contract
 # would change every agent's boot. Not mine to edit -- flagged to PROME instead. Mapping the
-# verdict on the CONSUMER side is the change that is mine to make, and it is the marker-keyed
-# verdict form DAEDALUS's CHECK_STANDARD §8 proposes fleet-wide (Will-gate pending).
+# verdict on the CONSUMER side is the change that is mine to make.
+#
+# ✅ CANON, not a local workaround: this is the marker-keyed verdict form of DAEDALUS's
+# CHECK_STANDARD §8, RATIFIED by Will 2026-08-17 (verbatim "Ratify §8"; ruling record
+# AGENTS/DAEDALUS/inbox/processed/2026-08-17_from-PROME_WILL-RULING-check-standard-s8-RATIFIED.md,
+# committed 2efa4f2f0). Verified at that artifact, not adopted on the relay that reported it.
+# ⚠️ This comment first read "(Will-gate pending)" and was stale within hours of being written
+# — §8 was ratified the same morning. Kept visible as the dated-carry-item class it is: a note
+# asserting an OPEN gate is a claim, and reading it never re-evaluates it.
+# ⇒ Do NOT unwire this as a BRENT-local hack; the fleet standard now has this shape.
 FINDINGS_MARKERS = {
     "scripts/ledger_staleness.py": ("STALE", "MISCONFIGURED", "LEDGERS-OUTSIDE-GLOB"),
 }
