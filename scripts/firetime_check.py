@@ -211,6 +211,15 @@ def git_time(path):
 # waved through by looking host-like.
 HOST_RE = re.compile(r"^[\w-]+(?:\.[\w-]+)*\.[A-Za-z]{2,6}$")
 
+# A line carrying a URL/domain is quoting an external-host path fragment beside
+# its host ("cftc.gov `dea/newcot/deafut.txt`" — RAV/PROME 8/16 class B): a
+# backticked token on such a line that fails ALL resolution bases is part of the
+# URL, not a dead repo path. Scan-scope note: a genuinely dead repo pointer
+# sharing a line with a URL is waved through by this — narrow by construction
+# (guard is tested only AFTER resolution fails; a live repo path on a URL line
+# resolves and never reaches it).
+URL_LINE_RE = re.compile(r"https?://|www\.|\b[\w-]+\.(?:gov|com|org|net|edu|io)\b")
+
 
 def extract_repo_paths(text):
     """Backtick-quoted repo-relative paths with a file extension."""
@@ -259,40 +268,57 @@ def check_artifact(path, docket_rows, covered_dates, today):
     #    Root-only resolution produced ~14 false DEAD flags at the 7/16 boot
     #    (HENRY-verified class; fixed 7/16 Will-approved).
     art_dir = os.path.dirname(full)
-    # Agent-home resolution (added 7/17): agents write home-relative paths
-    # ("inbox/x.md", "workbook/y.tsv") from files living in subdirs (setups/,
-    # research/) — those survive both the root and artifact-dir passes (the
-    # TERRY setups/->inbox/processed/ case). Resolve against the enclosing
-    # AGENTS/<NAME>/ home as a third base.
-    segs = rel.replace("\\", "/").split("/")
-    agent_home = (os.path.join(REPO, segs[0], segs[1])
-                  if segs[0] == "AGENTS" and len(segs) > 2 else None)
+    # Resolution bases — each may legitimately anchor a relative cite:
+    #   repo root · the citing file's own dir · EVERY ancestor dir up to the
+    #   repo root (subsumes the 7/17 AGENTS/<NAME>/ home base, and covers
+    #   session-dir cites like FORUM/<session>/<group>/x.md citing a sibling
+    #   group — RAV/PROME 8/16 class C-1) · the SENDER's home for packets
+    #   named from-<AGENT> (a packet in the recipient's inbox writes paths
+    #   relative to the sender's own dir — the HOMER case, class C-2).
+    bases = [REPO, art_dir]
+    _d = os.path.dirname(art_dir)
+    while _d.startswith(REPO) and _d not in bases:
+        bases.append(_d)
+        _d = os.path.dirname(_d)
+    _m_sender = re.search(r"from-([A-Z]+)", os.path.basename(full))
+    if _m_sender:
+        _sender_home = os.path.join(REPO, "AGENTS", _m_sender.group(1))
+        if os.path.isdir(_sender_home) and _sender_home not in bases:
+            bases.append(_sender_home)
 
     def _resolves(p):
-        return (os.path.exists(os.path.join(REPO, p))
-                or os.path.exists(os.path.join(art_dir, p))
-                or (agent_home is not None
-                    and os.path.exists(os.path.join(agent_home, p))))
+        return any(os.path.exists(os.path.join(b, p)) for b in bases)
 
-    # inbox→processed/ lifecycle (PROME 8/8, class 2, n≥5): a report cites a
-    # packet; the recipient git-mv's it to processed/ when actioned; the citation
+    # inbox→processed/ / outbox→delivered/ lifecycle (PROME 8/8, class 2, n≥5;
+    # delivered/ leg added 8/16 for symmetry with the target-level retry above —
+    # the TERRY arm-packet case): a report cites a packet; the owner git-mv's it
+    # to processed/ (inbox) or delivered/ (outbox) when actioned; the citation
     # "dies" BECAUSE the system worked. Before declaring a pointer dead, retry
-    # with processed/ inserted before the basename — resolves ⇒ designed
+    # with each lifecycle dir inserted before the basename — resolves ⇒ designed
     # disposition, reported as a · note (never a ⚠️ flag).
-    def _processed_twin(p):
+    def _lifecycle_twin(p):
         head, base = os.path.split(p)
-        if not base or head.rstrip("/").endswith("processed"):
+        if not base or head.rstrip("/").endswith(("processed", "delivered")):
             return None
-        twin = os.path.join(head, "processed", base) if head else os.path.join("processed", base)
-        return twin if _resolves(twin) else None
+        for sub in ("processed", "delivered"):
+            twin = os.path.join(head, sub, base) if head else os.path.join(sub, base)
+            if _resolves(twin):
+                return sub
+        return None
 
-    dead, moved = set(), set()
+    dead, moved = set(), {}
     for line in text.splitlines():
         if DEAD_OK_RE.search(line):
             continue
         for p in extract_repo_paths(line):
             if not _resolves(p):
-                (moved if _processed_twin(p) else dead).add(p)
+                if URL_LINE_RE.search(line):
+                    continue  # external-host fragment quoted beside its domain (class B)
+                sub = _lifecycle_twin(p)
+                if sub:
+                    moved[p] = sub
+                else:
+                    dead.add(p)
         for m in BARE_PATH_RE.finditer(line):
             tok = m.group(0).rstrip(".,;:/")
             if any(c in tok for c in "<>{}*$") or tok in dead or tok in moved:
@@ -301,20 +327,25 @@ def check_artifact(path, docket_rows, covered_dates, today):
             # Extension-less token whose tail segments are all CAPS/digits is an
             # agent/owner list or acronym prose ("PROME/LIQUID/WALTER",
             # "skills/MCP", "memory/2026-07-08"), not a path claim — skip.
+            # Title-case tails are the same class ("PROME/Will synthesis" —
+            # owner notation, RAV/PROME 8/16 class A ×4): repo dirs are
+            # lowercase or ALL-CAPS, so a Title-case segment reads as a NAME.
+            # Lowercase-leading segments (inbox, tools, workbook) stay live.
             if (not re.search(r"\.\w{2,4}$", tok)
-                    and all(re.fullmatch(r"[A-Z0-9_-]+", s) for s in segs[1:])):
+                    and all(re.fullmatch(r"[A-Z0-9_-]+|[A-Z][A-Za-z0-9_-]*", s)
+                            for s in segs[1:])):
                 continue
             prefix2 = "/".join(segs[:2])
             full_missing = bool(re.search(r"\.\w{2,4}$", tok)) and not _resolves(tok)
             prefix_missing = len(segs) >= 2 and not _resolves(prefix2)
-            if full_missing and _processed_twin(tok):
-                moved.add(tok)
+            if full_missing and _lifecycle_twin(tok):
+                moved[tok] = _lifecycle_twin(tok)
             elif prefix_missing or full_missing:
                 dead.add(tok if full_missing else prefix2)
     for p in sorted(dead):
         flags.append(f"DEAD POINTER: `{p}` does not exist")
     for p in sorted(moved):
-        infos.append(f"cited packet now in processed/ — designed disposition, not rot: `{p}`")
+        infos.append(f"cited packet now in {moved[p]}/ — designed disposition, not rot: `{p}`")
 
     # 2. Date drift vs docket — FUTURE dates only (past dates are provenance,
     #    not fire-path claims), skipping option expiries and annotation lines.
