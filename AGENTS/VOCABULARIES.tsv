@@ -53,6 +53,9 @@ MACRO	MULTIPLE	Broad macro indicators not owned by a single agent (GDP, PMI)
 POSITIONS	PROME	Portfolio holdings, entries, exits, P&L tracking
 META	MULTIPLE	System architecture, agent methodology, process notes
 
+FERTILIZER_N	FERT	Nitrogen fertilizer complex — urea/ammonia pricing (benchmark+unit+date mandatory), supply, tenders, China export policy
+PHOSPHATE	FERT	Phosphate complex — rock/DAP/MAP pricing, sulfur input, producer capacity, Morocco trade policy
+FOOD_CPI	FERT	Fertilizer->food-price transmission — BLS food-at-home, USDA ERS outlook, input-cost pass-through
 ---CANONICAL_ENTITIES---
 Canonical	Aliases	Type	Notes
 Kuwait	KWT	Country	
