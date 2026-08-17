@@ -42,8 +42,12 @@ SURFACE_PATTERNS = [
     (re.compile(r"(^|/)CHANGELOG\.md$", re.I), "changelog/pivot log"),
 ]
 # Subtrees that are NOT live falsification rails (packets, corpora, drafts, dead trees).
+# 2026-08-17 (SAM review, reader sam-ledgers): bare `red` REMOVED — SAM's red/ is a LIVE
+# adversarial rail (COUNTER_THESIS.md is even named in SURFACE_PATTERNS above; the exclusion
+# silently won over the include, hiding a 48d-stale rail with >=3 dead keys from sweep #3).
+# handoff_RED (packet lane) stays excluded.
 EXCLUDE = re.compile(r"(^|/)(_archive|archive|archived|sources|raw|processed|delivered|inbox|outbox"
-                     r"|research|reports|proposals|handoff_RED|red|audits|output|outputs|prompts"
+                     r"|research|reports|proposals|handoff_RED|audits|output|outputs|prompts"
                      r"|builds|domain|sweeps|BLUEPRINTS|templates|\.git)(/|$)", re.I)
 
 # ── Two surface KINDS, two correct vintage rules. Conflating them is a defect in both directions.
@@ -68,7 +72,14 @@ ENTRY_HEADING = re.compile(r"^#{2,4}\s+.*$", re.M)
 #  which is a fact about triggers not firing. Flagging it would punish a correctly-quiet ledger.
 EVENT_LOG = re.compile(r"(FIRED|FIRE)_?LOG", re.I)
 
-DEAD_BANNER = re.compile(r"\b(FROZEN|SUPERSEDED|RETIRED|ARCHIVED|ARCHIVED SNAPSHOT|DEPRECATED)\b")
+# 2026-08-17 (SAM review): banner FORM, not bare word — a live thesis NARRATING a channel
+# retirement ("...TAIL IS RETIRED TO LOW.") was classified as a dead doc. A real banner is
+# line-anchored (canon: prepend "FROZEN <date> — ...", possibly behind #/>/**/emoji prefixes)
+# OR the token is immediately followed by an ISO date ("FROZEN 2026-07-01" mid-line legacy).
+DEAD_BANNER = re.compile(
+    r"(?:^[\s>#*_\-—⛔🔴🟠⚠️✅\[\('\"]*(?:FROZEN|SUPERSEDED|RETIRED|ARCHIVED(?: SNAPSHOT)?|DEPRECATED)\b"
+    r"|\b(?:FROZEN|SUPERSEDED|RETIRED|ARCHIVED(?: SNAPSHOT)?|DEPRECATED)\s+20\d{2}-\d{2}-\d{2})",
+    re.M)
 ISO = re.compile(r"(20\d{2})-(\d{2})-(\d{2})")
 US = re.compile(r"\b(\d{1,2})/(\d{1,2})(?:/(\d{2,4}))?\b")
 VERSION = re.compile(r"\bv(\d+)\.(\d+)\b", re.I)
