@@ -173,12 +173,27 @@ def main() -> int:
         return 1
 
     names = parse_env_names(env_file)
+    # Secondary homes some consumers ALSO search (2026-08-17, SAM retraction
+    # f05e4fed0: this check certified ONE location while cpi_japan.load_env()
+    # reads the repo-root .env second — so a key alive in the union was pinned
+    # MISSING here and the instrument mis-diagnosed DEAD. A key found in a
+    # secondary home is MISPLACED (canon drift, consumers reading only the
+    # canonical home still fail), never MISSING (capability dead).
+    secondary_homes = [REPO / ".env"]
     for k in REQUIRED_KEYS:
         if k in names:
             notes.append(f"✓ {k} present in .env")
+            continue
+        found_in = [str(p) for p in secondary_homes
+                    if p.exists() and k in parse_env_names(p)]
+        if k in (__import__("os").environ or {}) and __import__("os").environ.get(k):
+            found_in.append("process env")
+        if found_in:
+            print(f"ENV-DOCTOR ✗ {k} MISPLACED — absent from canonical {env_file} but PRESENT in {', '.join(found_in)}; "
+                  f"consumers reading only the canonical home fail. MOVE the key (single-home canon), do NOT re-issue it")
         else:
-            print(f"ENV-DOCTOR ✗ {k} missing/empty in {env_file} — restore recipe: PROME/MACHINE_LOCAL.md, the row naming {k}")
-            problems += 1
+            print(f"ENV-DOCTOR ✗ {k} missing/empty in {env_file} AND in secondary homes ({', '.join(str(p) for p in secondary_homes)}, process env) — restore recipe: PROME/MACHINE_LOCAL.md, the row naming {k}")
+        problems += 1
 
     problems += jwt_expiry_check(env_file, notes)
 
