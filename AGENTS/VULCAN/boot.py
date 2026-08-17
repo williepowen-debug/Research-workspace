@@ -40,14 +40,16 @@ def run(cmd):
 
 
 def run_alert(cmd):
-    """Run an ALERT-CONTRACT script (ledger_staleness: exit code ALWAYS 0 by
-    documented contract). Relay its output; the flag is MARKER-PRESENT (a line
-    carrying ⚠️/🔴), never rc and never bare output-nonempty — rc 1 is never
-    emitted (dead-code fix 2026-07-31, PAT-074), and since 8/11 the script also
-    prints an unmarked SCOPE line ('trade perimeter: ...') even when clean, so
-    bare-nonempty false-REVIEWed every clean boot 8/11→8/16 (DAEDALUS marker
-    fix 2026-08-16, Will-approved; CHECKS.tsv ledger_staleness row = contract home).
-    Returns 0 quiet · 1 alert-marker printed (REVIEW) · 2 launch/usage failure."""
+    """Run the shared ledger_staleness check. rc contract REVISED 2026-08-17
+    (DAEDALUS shared-script fix, PROME-approved, CHECK_STANDARD §8 rule 3):
+    0 clean · 1 stale FINDINGS · 2 CANNOT-CERTIFY (MISCONFIGURED /
+    LEDGERS-OUTSIDE-GLOB / usage) — the old 'always 0' alert contract is
+    retired; rc now AGREES with the ⚠️/🔴 markers instead of contradicting
+    them. Verdict = rc 1 OR marker-present (§8 rule 5 keeps the marker channel
+    authoritative; still never bare output-nonempty — the 8/11→8/16 scope-line
+    false-REVIEW stays fixed; CHECKS.tsv ledger_staleness row = contract home).
+    rc 2 → leg failure (enforcement silently absent = never assume quiet).
+    Returns 0 quiet · 1 REVIEW · 2 failure/cannot-certify."""
     try:
         p = subprocess.run([sys.executable, *cmd], cwd=str(ROOT),
                            capture_output=True, text=True)
@@ -60,9 +62,9 @@ def run_alert(cmd):
         print(out)
     if err:
         print(err, file=sys.stderr)
-    if p.returncode != 0:
+    if p.returncode not in (0, 1):
         return 2
-    return 1 if ("⚠️" in out or "🔴" in out) else 0
+    return 1 if (p.returncode == 1 or "⚠️" in out or "🔴" in out) else 0
 
 
 def predictions_due():
