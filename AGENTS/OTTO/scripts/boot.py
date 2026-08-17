@@ -140,7 +140,11 @@ def main():
             rc, out, elapsed = run([str(VENV_PYTHON), str(STALENESS), "OTTO", "--quiet"] + sargs)
             line = out.strip() or f"✓ {slabel.lower()} surface current or FROZEN"
             print(f"    {line}")
-            results.append((f"{slabel} Staleness", "OK" if rc == 0 else "FAIL", elapsed))
+            # rc contract REVISED 2026-08-17 (DAEDALUS shared-script fix, CHECK_STANDARD
+            # §8 rule 3): 0 clean · 1 stale FINDINGS · 2 cannot-certify. FINDINGS = the
+            # check ran correctly and reported rot — never render it as script failure.
+            status = "OK" if rc == 0 else ("FINDINGS" if rc == 1 else "FAIL")
+            results.append((f"{slabel} Staleness", status, elapsed))
 
     # Summary
     total = time.time() - start_time
@@ -150,7 +154,7 @@ def main():
     print(f"\n  {'Step':<22} {'Status':>8} {'Time':>8}")
     print(f"  {'-'*42}")
     for label, status, elapsed in results:
-        icon = "✅" if status == "OK" else "⏩" if status == "SKIP" else "❌"
+        icon = "✅" if status == "OK" else "⏩" if status == "SKIP" else "⚠️" if status == "FINDINGS" else "❌"
         print(f"  {icon} {label:<20} {status:>6} {elapsed:>6.1f}s")
     print(f"\n  Total boot time: {total:.1f}s")
     print(f"  Date: {now.strftime('%Y-%m-%d')} ({now.strftime('%A')})")
