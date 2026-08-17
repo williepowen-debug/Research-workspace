@@ -278,7 +278,12 @@ def check_will_queue():
                     problems.append(f"PASSED #{cells[0]} {cells[1][:36]} (needed {d.group(0)})")
                 if not blocked:
                     actionable += 1
-            elif not blocked and cells[0].isdigit():
+            # `^\d` not .isdigit() (8/16, landed WITH the F2 ruling by design —
+            # sequenced on the record in the MISFILED write-back): lettered row
+            # IDs (32a, 36b…) failed .isdigit() and silently escaped BOTH the
+            # actionable count and the 21d age-trip. Post-F2 the escape class
+            # is mostly moved out anyway; this closes the hole for the future.
+            elif not blocked and re.match(r"\d", cells[0]):
                 actionable += 1
                 s = _mmdd(cells[4])
                 if s and (today - s).days > 21:
