@@ -327,22 +327,39 @@ def get_fxy_options(num_expiries=4):
         t = yf.Ticker("FXY")
         expiries = t.options
         if not expiries:
-            return [], None
+            return [], None, None
 
+        # ⚠️ SPOT PROVENANCE (added 2026-08-17, DAEDALUS SFG sweep ACTION 4).
+        # `spot` is not decoration — it anchors WHICH STRIKES get read: the ATM IV
+        # pick (`(strike - spot).abs().idxmin()`) and the 25-delta wing selection
+        # (`_bs_delta(side, spot, ...)`). This chain silently degrades
+        # regularMarketPrice → previousClose (a DIFFERENT SESSION) → history 1d,
+        # each behind a bare except; a stale spot therefore re-anchors the read and
+        # ATM IV / 25d RR still print clean lines with a directional thesis-side
+        # verdict, unmarked, rc=0. The 8/4 value-layer guards the VALUE
+        # (rr_is_readable / RR_IMPLAUSIBLE_ABS); nothing guarded the INPUT.
+        # Track which leg answered so the caller can refuse the directional read.
         current_price = None
+        spot_source = None
         try:
             info = t.info
-            current_price = info.get("regularMarketPrice") or info.get("previousClose")
+            if info.get("regularMarketPrice"):
+                current_price = info.get("regularMarketPrice")
+                spot_source = "regularMarketPrice"   # live — directional read OK
+            elif info.get("previousClose"):
+                current_price = info.get("previousClose")
+                spot_source = "previousClose"        # STALE: prior session
         except Exception:
             pass
         if not current_price:  # fallback if .info is flaky — needed for ATM/delta
             try:
                 current_price = float(t.history(period="1d")["Close"].iloc[-1])
+                spot_source = "history_1d"           # STALE: last daily close
             except Exception:
                 pass
     except Exception as e:
         print(f"  ERROR fetching FXY options: {e}")
-        return [], None
+        return [], None, None
 
     today = date.today()
 
@@ -362,7 +379,15 @@ def get_fxy_options(num_expiries=4):
                 zone_mask = (calls["strike"] >= THESIS_ZONE_LOW) & (calls["strike"] <= THESIS_ZONE_HIGH)
                 zone_call_oi = int(calls.loc[zone_mask, "openInterest"].sum())
 
-            pc_ratio = round(total_put_oi / total_call_oi, 2) if total_call_oi > 0 else 999.0
+            # ⚠️ None, NOT a 999.0 sentinel (fixed 2026-08-17, DAEDALUS SFG sweep
+            # ACTION 3). An empty call-OI DENOMINATOR means the chain gave us
+            # nothing to divide by — that is a data ABSENCE. The old 999.0 sentinel
+            # flowed straight into the "🔴 Put-heavy (bearish)" branch below, so
+            # "we got no data" rendered as the most bearish reading the script can
+            # produce, and one such row (2026-06-21: puts 0 / calls 0 / PC 999.0)
+            # is live in FXY_OPTIONS.tsv. Same class as the jgb_auctions and
+            # cpi_japan defects: absence rendering as evidence.
+            pc_ratio = round(total_put_oi / total_call_oi, 2) if total_call_oi > 0 else None
 
             # Vol proxy: ATM IV + 25d RR for this expiry (fail-safe — never raises)
             try:
@@ -406,7 +431,7 @@ def get_fxy_options(num_expiries=4):
         except Exception:
             continue
 
-    return results, current_price
+    return results, current_price, spot_source
 
 
 def _ensure_schema():
@@ -452,7 +477,8 @@ def _row_for(date_str, d):
     method = METHOD_VER if (iv is not None or rr is not None) else ""
     return [
         date_str, d["expiry"], str(d["total_put_oi"]), str(d["total_call_oi"]),
-        str(d["pc_ratio"]), str(d["zone_call_oi"]), str(d["top_put"][0]), str(d["top_put"][1]),
+        ("NA" if d["pc_ratio"] is None else str(d["pc_ratio"])),
+        str(d["zone_call_oi"]), str(d["top_put"][0]), str(d["top_put"][1]),
         str(d["top_call"][0]), str(d["top_call"][1]), puts_str, calls_str, iv_str, rr_str,
         method, quality,
     ]
@@ -529,13 +555,25 @@ def main():
     print(f"  SAM FXY Options Monitor — {now.strftime('%Y-%m-%d %H:%M')}")
     print(f"{'='*70}")
 
-    data, current_price = get_fxy_options(num_expiries=num_expiries)
+    data, current_price, spot_source = get_fxy_options(num_expiries=num_expiries)
     if not data:
         print("\n  ERROR: No FXY options data available.")
         return 1
 
+    # Spot provenance is printed, not assumed (ACTION 4). `spot` decides WHICH
+    # strikes the ATM IV and 25d RR are read off, so a fallback-sourced spot
+    # silently re-anchors the whole vol block.
+    _SPOT_LABEL = {"regularMarketPrice": "live", "previousClose": "PRIOR SESSION CLOSE",
+                   "history_1d": "LAST DAILY CLOSE"}
+    spot_is_live = (spot_source == "regularMarketPrice")
     if current_price:
-        print(f"\n  FXY spot: ${current_price:.2f}")
+        src = _SPOT_LABEL.get(spot_source, "UNKNOWN SOURCE")
+        print(f"\n  FXY spot: ${current_price:.2f}   [source: {src}]")
+        if not spot_is_live:
+            print(f"  ⚠️  SPOT CAME OFF THE FALLBACK CHAIN ({src}) — it anchors the ATM "
+                  f"strike and the 25d wings, so the vol block below is computed against "
+                  f"a stale reference. Levels are indicative; the RR DIRECTIONAL read is "
+                  f"suppressed.")
     print(f"  Thesis strike zone: ${THESIS_ZONE_LOW:.0f}–${THESIS_ZONE_HIGH:.0f} (target $60-62)")
     print(f"  Expiries scanned: {len(data)}")
 
@@ -543,22 +581,32 @@ def main():
     total_puts = sum(d["total_put_oi"] for d in data)
     total_calls = sum(d["total_call_oi"] for d in data)
     total_zone_calls = sum(d["zone_call_oi"] for d in data)
-    agg_pc = round(total_puts / total_calls, 2) if total_calls > 0 else 999.0
+    agg_pc = round(total_puts / total_calls, 2) if total_calls > 0 else None
     zone_pct = (total_zone_calls / total_calls * 100) if total_calls > 0 else 0
 
     print(f"\n  {'AGGREGATE'}")
     print(f"  {'-'*60}")
     print(f"  Total Put OI:          {total_puts:>10,}")
     print(f"  Total Call OI:         {total_calls:>10,}")
-    print(f"  P/C Ratio:             {agg_pc:>10.2f}x", end="")
-    if agg_pc < 0.5:
-        print("  🟢 Call-heavy (bullish)")
-    elif agg_pc < 1.0:
-        print("  🟢 Modestly bullish")
-    elif agg_pc < 1.5:
-        print("  ⚪ Balanced")
+    if agg_pc is None:
+        # ⚠️ NO directional verdict off an empty denominator (ACTION 3). The old
+        # code substituted 999.0 here and fell through to "🔴 Put-heavy (bearish)",
+        # printing the script's most bearish reading precisely when it had no data.
+        print(f"  P/C Ratio:             {'UNAVAILABLE':>10}")
+        print(f"  🔴 NO CALL OI — the denominator is empty. This is a DATA GAP, "
+              f"NOT a bearish signal. Do not read positioning off this run.")
+        unavailable = True
     else:
-        print("  🔴 Put-heavy (bearish)")
+        unavailable = False
+        print(f"  P/C Ratio:             {agg_pc:>10.2f}x", end="")
+        if agg_pc < 0.5:
+            print("  🟢 Call-heavy (bullish)")
+        elif agg_pc < 1.0:
+            print("  🟢 Modestly bullish")
+        elif agg_pc < 1.5:
+            print("  ⚪ Balanced")
+        else:
+            print("  🔴 Put-heavy (bearish)")
     print(f"  Thesis-zone Call OI:   {total_zone_calls:>10,}  ({zone_pct:.1f}% of total call OI)")
     if zone_pct > 25:
         print(f"  🟢 Meaningful positioning in ${THESIS_ZONE_LOW:.0f}-${THESIS_ZONE_HIGH:.0f} zone")
@@ -575,7 +623,14 @@ def main():
         iv_disp = f"{iv:.2f}%" if iv is not None else "n/a"
         rr_disp = f"{rr:+.2f}" if rr is not None else "n/a"
         print(f"  ATM IV (CVOL proxy):   {iv_disp:>10}  {_iv_flag(iv)}")
-        print(f"  25d RR (USDJPY-conv):  {rr_disp:>10}  {_rr_flag(rr)}")
+        if spot_is_live:
+            print(f"  25d RR (USDJPY-conv):  {rr_disp:>10}  {_rr_flag(rr)}")
+        else:
+            # ACTION 4: print the NUMBER (it is still the computed value) but refuse
+            # the thesis-side DIRECTIONAL verdict — the wings were selected against a
+            # stale spot, which is exactly what decides whether the sign is meaningful.
+            print(f"  25d RR (USDJPY-conv):  {rr_disp:>10}  ⚠️ DIRECTION NOT READABLE "
+                  f"(spot off fallback chain)")
         if note:
             print(f"  ⚠️  {note}")
         print(f"  (proxy: FXY ETF options ≠ CME CVOL / OTC RR — compare to own history)")
@@ -592,7 +647,17 @@ def main():
             elif cal["state"] == "calibrated":
                 print(f"  Self-cal ({cal['n']} priors, mean {cal['mean']:+.2f}, σ {cal['sd']:.2f}):  "
                       f"z={cal['z']:+.2f}  (Δ {cal['delta']:+.2f} vs norm)")
-                print(f"     {cal['interp']}")
+                # ⚠️ SIBLING OF THE RR VERDICT ABOVE — `cal['interp']` is a SECOND
+                # thesis-side directional read ("yen-strength demand intensifying"),
+                # computed off the same stale-spot-anchored wings. Suppressing only
+                # the first verdict would have left this one printing unmarked.
+                # (Caught by the ACTION-4 regression test, not by inspection.)
+                if spot_is_live:
+                    print(f"     {cal['interp']}")
+                else:
+                    print(f"     ⚠️ z-score shown, INTERPRETATION SUPPRESSED — spot off "
+                          f"the fallback chain, so the wings this RR was read from are "
+                          f"anchored to a stale reference.")
         except Exception:
             pass  # self-cal is a read-only enhancement; never let it break the sweep
 
@@ -601,7 +666,9 @@ def main():
     print(f"  {'-'*60}")
     for d in data:
         dte_disp = f", ~{d['dte']}d" if d.get("dte") else ""
-        print(f"\n  {d['expiry']}{dte_disp}  (P/C {d['pc_ratio']:.2f}x)")
+        pc_disp = ("P/C UNAVAILABLE — no call OI" if d["pc_ratio"] is None
+                   else f"P/C {d['pc_ratio']:.2f}x")
+        print(f"\n  {d['expiry']}{dte_disp}  ({pc_disp})")
         print(f"     Puts: {d['total_put_oi']:>7,}  Calls: {d['total_call_oi']:>7,}  Zone-call: {d['zone_call_oi']:>6,}")
         iv = d.get("atm_iv_pct"); rr = d.get("rr25")
         if iv is not None or rr is not None:
@@ -623,6 +690,11 @@ def main():
         print(f"\n  TSV already current for {date_str} — no change")
 
     print()
+    # Nonzero rc so boot surfaces an empty-denominator run instead of rendering it
+    # beside a green ✅ (ACTION 3). The rows are still written — with PC_Ratio="NA",
+    # never a sentinel — so the ledger records the gap as a gap.
+    if unavailable:
+        return 1
     return 0
 
 
