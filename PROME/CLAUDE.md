@@ -54,7 +54,7 @@ Ask Will before:
 
 - Sending external messages / posting publicly.
 - Executing trades.
-- Committing **shared/root** docs (root `CLAUDE.md`, `HEARTBEAT.md`, `FORGE/`, `AGENTS.md` core) — scope it + get Will's OK first.
+- Committing **shared/root** docs (root `CLAUDE.md`, `HEARTBEAT.md`, `AGENTS.md` core) — scope it + get Will's OK first. *(`FORGE/` left this list 2026-07-30 — Will ruled PROME owns FORGE, commits PROME-standard, reconcile-class work via ANVIL; root-doc FORGE **lines** stay Will-gated. This line lagged the grant 17d — reconciled 8/16 S4, DAEDALUS sweep-1 item 6; AUTONOMY change-log row added same commit.)*
 - Force-pushing, or force-syncing / stashing / resetting / deleting unknown work.
 - Editing active files owned by persistent Claude Code agents in ways that could conflict with them.
 

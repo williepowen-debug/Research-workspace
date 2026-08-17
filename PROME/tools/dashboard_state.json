@@ -1,5 +1,5 @@
 {
- "built": "2026-08-16 21:39",
+ "built": "2026-08-16 22:09",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -14,6 +14,8 @@
   "2026-08-07 Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14",
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
   "2026-08-17 BLAST 10-D panel hook (OTTO\u2194CARL cross-agent read)",
+  "2026-08-17 Japan Q2 GDP (landed overnight Sun ET \u2014 grade at SAM boot; f",
+  "2026-08-17 NAHB HMI + HOMER ATTOM re-check",
   "2026-08-17 OSPREY 8/8-understanding falsifier check (survived 8/12; ~8/",
   "2026-08-18 Forum-4 \u00a76 candidate-slate reconciliation \u2014 pull CURRENT sta",
   "2026-08-19 BOND C-36 adjudication backstop (NEXUS 8/7 escalation): if B",
@@ -23,7 +25,10 @@
   "2026-08-20 CFPB complaint re-pull, company=MOHELA \u2014 tests the SAVE wave",
   "2026-08-20 CPC DJF 2026-27 seasonal outlook (~8/20) \u2014 SUPERSEDES the co",
   "2026-08-20 OSPREY Channel-3 (shadow-fleet) kill watch \u2014 21d clock lands",
+  "2026-08-21 Baker Hughes rigs (~13:00 ET) \u2014 BRT-26 line 457, last print ",
   "2026-08-21 Bank-put OPEX \u2014 OZK residual rides to $0 or salvage (RULED R",
+  "2026-08-21 Japan July CPI \u2014 FIRST 2025-base print (rebase discontinuity",
+  "2026-08-21 \u2605 COT vintage #2 (as-of 8/18, posts Fri 15:30 ET): GATE-BREN",
   "2026-08-22 ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, ",
   "2026-08-22 S6 STATUS two-state PILOT grades (WATT/HENRY/CARL, ~2wk from",
   "2026-08-23 FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRI",
@@ -107,16 +112,21 @@
   "GATE-VIO-116": "resolved:RESOLVED"
  },
  "levels": {
+  "10Y Yield": 4.68,
+  "Brent": 87.07,
   "CCC OAS": 1024.0,
   "Cushing": 22.566,
   "HY OAS": 271.0,
-  "USD/JPY": 159.0
+  "Init Claims": 209000.0,
+  "OZK": 52.24,
+  "USD/JPY": 159.0,
+  "VIX": 14.63,
+  "WAL": 81.74
  },
  "one": "the week's positioning question got answered three times in one print window and the answer was the same in every market: the fuel was REPLACED, not spent. Crude MM shorts re-grossed straight through their frozen boundary (+8,078 WoW \u2014 the \"SPENT\" modifier un-fired at its own letter, by 5.3\u00d7 the pre-computed coin-flip distance); gold longs rebuilt to top-5% crowding of the full 1986\u20132026 record under a frame that honestly graded INDETERMINATE; and the JPY book neither rebuilt nor flipped \u2014 it emptied (OI \u221227,519, both sides). Meanwhile the priced side stayed asleep: HY flat at 271, a seventh consecutive sub-16 VIX close, 5y5y anchored at 2.27 and drifting *down* \u2014 and the 30Y at 5.24 still buying zero rate relief from disinflation. The bear that pays remains the real-rate grind (duration + gold, the two live legs), and the physical-side conclusion sharpened rather than changed: the squeeze accelerant behind the oil premium is re-armed, not exhausted \u2014 if a physical trigger comes, more fuel stands behind it than the fleet believed on Wednesday. No sizing changed anywhere; the state is simply now honest.",
  "pending": [
-  "** rule-batch sitting (rows 52-54)",
-  "row-16 one-liners (D-1 AAPL",
-  "D-10 MAIN\u2261IRA)",
+  "rule-batch sitting (rows 52-54)",
+  "row-16 one-liners (D-1 AAPL \u00b7 D-10 MAIN\u2261IRA)",
   "WATT spawn call [Mon]",
   "FERT first-session call [<8/25]",
   "CRUISE re-class [since 8/14]",
@@ -128,6 +138,6 @@
   "S1 [9/7]",
   "item-8 [8/24]"
  ],
- "split": "",
+ "split": "Break 21 \u00b7 Grind 44 \u00b7 Unresolved 35",
  "v": 1
 }

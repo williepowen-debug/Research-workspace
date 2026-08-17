@@ -380,6 +380,40 @@ def check_dashboard_state():
     except ValueError:
         record(ADVISE, "dashboard vintage", False, f"unparseable built stamp '{built}'",
                "PROME/tools/fleet_dashboard.py")
+    # PAT-105 content assertions (8/16, DAEDALUS sweep-1 guard rec, Will "go"):
+    # nonemptiness certifies presence, not truth — every live Will-facing
+    # failure this window was NONEMPTY (the one-liner rendered "SPENT", a
+    # kill-on-sight token). Four cheap truth checks, advisory tier:
+    bad = []
+    one = (s.get("one") or "").strip().strip('"“”')
+    hb_text = ""
+    try:
+        hb_text = (ROOT / "HEARTBEAT.md").read_text(errors="ignore")
+    except OSError:
+        pass
+    kill_line = next((ln for ln in hb_text.splitlines()
+                      if "kill-on-sight" in ln), "")
+    if len(one) < 40:
+        bad.append(f"one-liner suspiciously short ({len(one)} chars) — token-capture class")
+    elif kill_line and one[:60] in kill_line:
+        bad.append("one-liner text appears on HEARTBEAT's own kill-on-sight line")
+    if not (s.get("split") or "").strip():
+        bad.append("NEXUS split EMPTY (separator-drift class, blank 17d once)")
+    if len(s.get("levels") or {}) < 6:
+        bad.append(f"only {len(s.get('levels') or {})} gate tiles (<6 floor — "
+                   "token-rename attrition class, 13→4 once)")
+    try:
+        import agent_freshness
+        wrong = [n for n, cls in (s.get("fleet") or {}).items()
+                 if cls == "ok" and n != "PROME"
+                 and (agent_freshness.own_surface_age_days(n) or 0) > 7]
+        if wrong:
+            bad.append("fleet grid says ok but own-surface age >7d: " + ", ".join(wrong))
+    except Exception as e:
+        bad.append(f"grid-agreement check unavailable ({type(e).__name__})")
+    record(ADVISE, "dashboard content assertions (PAT-105)", not bad,
+           "; ".join(bad) or "one-liner sane · split populated · tile floor met · grid agrees with freshness",
+           "PROME/tools/fleet_dashboard.py (rebuild + fix the parser, never the state file)")
 
 
 def check_symmetry():

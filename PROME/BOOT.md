@@ -1,5 +1,7 @@
 # PROME Boot
 
+**Owner:** PROME · **Updated:** 2026-08-16 S4 (header stamp BORN — DAEDALUS sweep-1 trivia: this boot-spine file carried no stamp at all, the same class audit #8 fixed on COMPLETION_SPEC; no content change this touch beyond the stamp. Content-change history → `git log` on this file.)
+
 **Goal:** become operational fast without loading manuals.
 
 **Auto-loaded context (Claude Code):** only the `CLAUDE.md` files (root + `PROME/`, plus any `~/.claude/CLAUDE.md`) and the auto-memory `MEMORY.md` are genuinely auto-injected each session — don't re-read *those* unless debugging drift. **`AGENTS.md` and `USER.md` are NOT auto-loaded** (OpenClaw vestige — confirm by their absence from fresh boot context). **`USER.md` = every-boot explicit `Read`** (Will's operator model; `PROME/CLAUDE.md` step 1 owns this — the old "when a task needs it" line here contradicted it, reconciled 2026-07-10 doc-audit). `AGENTS.md` stays on-demand (roster/routing tasks only). (`SOUL.md` + `IDENTITY.md` no longer exist — deleted root-level in the 2026-06-30 public-prep cleanup.)

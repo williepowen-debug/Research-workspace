@@ -195,6 +195,7 @@ def parse_gates(today):
         if len(p) < 8:
             continue
         gate, _, owner, cond, _, state, last_checked, _ = p[:8]
+        consumed_by = p[8].strip() if len(p) > 8 else ""
         head = state.split("(")[0].strip()
         kind = ("crit" if head.startswith("FIRED-UNEXECUTED")
                 else "resolved" if head.startswith(("RESOLVED", "LAPSED", "RETIRED"))
@@ -205,7 +206,7 @@ def parse_gates(today):
             age = (today - dt.date(*map(int, m.groups()))).days
         rows.append({"gate": gate.strip(), "owner": owner.strip(), "kind": kind,
                      "state": trunc(md_clean(state), 220), "cond": trunc(md_clean(cond), 160),
-                     "checked_age": age})
+                     "checked_age": age, "consumed_by": consumed_by})
     return rows
 
 
@@ -248,7 +249,10 @@ def parse_heartbeat():
         q = re.search(r'[“"]([^”"]+)[”"]', m.group(1))
         one = q.group(1) if (q and len(q.group(1)) >= 0.6 * len(full)) else full
     split = ""
-    m = re.search(r"Break \d+ / Grind \d+ / Unresolved \d+", text)
+    # 8/16 (DAEDALUS sweep-1 item 4): NEXUS writes the split with either "/" or
+    # "·" — the /-only regex left the panel blank for 17d (~25 builds) after the
+    # 7/30 re-anchor switched separators.
+    m = re.search(r"Break \d+ [/·] Grind \d+ [/·] Unresolved \d+", text)
     if m:
         split = m.group(0)
     channels = []
@@ -295,7 +299,24 @@ def parse_pending_will():
     m = re.search(r"Pending Will:([^.\n]+)", text)
     if not m:
         return []
-    return [md_clean(x) for x in m.group(1).split("·") if x.strip()]
+    # 8/16 (sweep-1 trivia): split on `·` only OUTSIDE parentheses — the card
+    # writes grouped sub-items like "(D-1 AAPL · D-10 MAIN≡IRA)", which a bare
+    # split rendered as 13 items for 12. Leading "**" residue stripped by
+    # md_clean on the FIELD, not the line (the old artifact was the label's
+    # bold marker riding into item 1).
+    items, depth, cur = [], 0, []
+    for ch in m.group(1):
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth = max(0, depth - 1)
+        if ch == "·" and depth == 0:
+            items.append("".join(cur))
+            cur = []
+        else:
+            cur.append(ch)
+    items.append("".join(cur))
+    return [md_clean(x.strip().lstrip("*").strip()) for x in items if x.strip()]
 
 
 def parse_spine_stamp(today):
@@ -312,12 +333,19 @@ STATE_PATH = os.path.join(REPO, "PROME", "tools", "dashboard_state.json")
 
 # ticker-token prefix (HEARTBEAT stress dashboard) -> SERIES name (FORGE config.py).
 # Presentation wiring only — the levels and the bands both stay canon-owned.
+# 8/16 (DAEDALUS sweep-1 item 4): tile count had attrited 13→4 across the
+# 8/12+8/14 HEARTBEAT re-bases — token renames shipped without a consumer
+# re-check (PAT-069's named class). Longer prefixes MUST precede their stems
+# (the boundary-guard `break` stops the scan on first prefix hit): VIXCLS
+# before VIX, DGS10 alongside 10Y, bare lowercase "claims" LAST as fallback.
 TICKER_TILE_MAP = [
     ("Brent", "Brent"), ("HY OAS", "HY OAS"), ("CCC", "CCC OAS"),
-    ("10Y", "10Y Yield"), ("MOVE", "MOVE"), ("VIX", "VIX"),
+    ("DGS10", "10Y Yield"), ("10Y", "10Y Yield"), ("MOVE", "MOVE"),
+    ("VIXCLS", "VIX"), ("VIX", "VIX"),
     ("USD/JPY", "USD/JPY"), ("Cushing", "Cushing"), ("WAL", "WAL"), ("OZK", "OZK"),
     ("Init claims", "Init Claims"), ("Cont claims", "Cont Claims"),
     ("SOFR99-IORB", "SOFR-IORB"), ("SOFR-IORB", "SOFR-IORB"),
+    ("claims", "Init Claims"),
 ]
 
 
@@ -363,44 +391,54 @@ def parse_tiles(hb):
     like 'VIX lev-money', which would otherwise overwrite it)."""
     bands = load_bands()
     tiles, claimed = [], set()
-    for tok in hb["ticker"]:
-        for prefix, cname in TICKER_TILE_MAP:
-            if not tok.startswith(prefix) or cname not in bands:
-                continue
-            if tok[len(prefix):len(prefix) + 1].isalnum() or cname in claimed:
+    for tok0 in hb["ticker"]:
+        # 8/16 fixes (sweep-1 item 4): strip md-bold before prefix match
+        # ("**Brent" / "**DGS10**"); split spaced-slash-joined bank tokens
+        # ("KRE $x / WAL $y / OZK $z") into candidates — the [as-of] stamp is
+        # inherited from the FULL token when a candidate lacks its own.
+        stamp_full = re.search(r"\[([^\]]{1,90})\]", tok0)
+        subtoks = [t.lstrip("*").strip() for t in tok0.split(" / ")]
+        for tok in subtoks:
+            for prefix, cname in TICKER_TILE_MAP:
+                if not tok.startswith(prefix) or cname not in bands:
+                    continue
+                if tok[len(prefix):len(prefix) + 1].isalnum() or cname in claimed:
+                    break
+                rest = tok[len(prefix):].replace(",", "").replace("−", "-")
+                # never pull a number out of an instrument label — "(ICE front
+                # settle, `BZV26.NYM`)" would yield 26 as the Brent level
+                rest = re.sub(r"\([^)]*\)|`[^`]*`", "", rest)
+                m = re.search(r"-?\d+(?:\.\d+)?", rest)
+                if not m:
+                    break
+                val = float(m.group(0))
+                sfx = re.match(r"\s*([kKM]\b|bps?\b)", rest[m.end():])
+                if sfx:
+                    u = sfx.group(1)
+                    # bp tokens vs percentage-point bands (SOFR99-IORB "+5bp" / red 0.25)
+                    val *= 1e3 if u in "kK" else (1e6 if u == "M" else 1e-2)
+                s = bands[cname]
+                hw = s["direction"] == "higher_worse"
+                red_line = s["red"][0] if hw else s["red"][1]
+                if red_line:
+                    # unit-scale reconcile: HEARTBEAT writes "215k"/"20.04M"; config bands
+                    # are in native units (claims raw count, Cushing in millions).
+                    for scale in (1, 1e-3, 1e-6, 1e3, 1e6):
+                        if 0.05 <= abs(val * scale) / abs(red_line) <= 20:
+                            val *= scale
+                            break
+                    else:
+                        break  # magnitudes irreconcilable — no tile, never a wrong one
+                gap = (red_line - val) if hw else (val - red_line)
+                dist = (f"{_fmt(gap)} to red {_fmt(red_line)}" if gap > 0
+                        else f"{_fmt(-gap)} PAST red {_fmt(red_line)}")
+                stamp_m = re.search(r"\[([^\]]{1,90})\]", tok) or stamp_full
+                stamp = re.split(r"[;—]", stamp_m.group(1))[0].strip()[:14] if stamp_m else "?"
+                claimed.add(cname)
+                tiles.append({"name": cname, "val": val, "cls": _band_class(val, s),
+                              "dist": dist, "dir": "↑ worse" if hw else "↓ worse",
+                              "stamp": stamp, "yellow": s["yellow"], "red": s["red"]})
                 break
-            rest = tok[len(prefix):].replace(",", "").replace("−", "-")
-            m = re.search(r"-?\d+(?:\.\d+)?", rest)
-            if not m:
-                break
-            val = float(m.group(0))
-            sfx = re.match(r"\s*([kKM]\b|bps?\b)", rest[m.end():])
-            if sfx:
-                u = sfx.group(1)
-                # bp tokens vs percentage-point bands (SOFR99-IORB "+5bp" / red 0.25)
-                val *= 1e3 if u in "kK" else (1e6 if u == "M" else 1e-2)
-            s = bands[cname]
-            hw = s["direction"] == "higher_worse"
-            red_line = s["red"][0] if hw else s["red"][1]
-            if red_line:
-                # unit-scale reconcile: HEARTBEAT writes "215k"/"20.04M"; config bands
-                # are in native units (claims raw count, Cushing in millions).
-                for scale in (1, 1e-3, 1e-6, 1e3, 1e6):
-                    if 0.05 <= abs(val * scale) / abs(red_line) <= 20:
-                        val *= scale
-                        break
-                else:
-                    break  # magnitudes irreconcilable — no tile, never a wrong one
-            gap = (red_line - val) if hw else (val - red_line)
-            dist = (f"{_fmt(gap)} to red {_fmt(red_line)}" if gap > 0
-                    else f"{_fmt(-gap)} PAST red {_fmt(red_line)}")
-            stamp_m = re.search(r"\[([^\]]{1,90})\]", tok)
-            stamp = re.split(r"[;—]", stamp_m.group(1))[0].strip()[:14] if stamp_m else "?"
-            claimed.add(cname)
-            tiles.append({"name": cname, "val": val, "cls": _band_class(val, s),
-                          "dist": dist, "dir": "↑ worse" if hw else "↓ worse",
-                          "stamp": stamp, "yellow": s["yellow"], "red": s["red"]})
-            break
     return tiles
 
 
@@ -687,10 +725,11 @@ now owes you a proposal (TERRY live-re-marks the strikes against the current boo
 <tr><td><span class="chip crit">FILLED</span></td><td>you gave [Approve] against a live broker
 book and it executed. <b>You are the trigger, not the tape</b> — nothing reaches here on its
 own.</td></tr></table>
-<p>Live example: TRY-FIRE-004 is <b>ARMED</b>, but you chose <b>NO-ADD</b> — the book already
-owns the duration grind (~$1,150 across TBT + two TLT puts). The $500 is banked for a cleaner
-red-day re-entry; if that day comes, it returns as a one-click TERRY proposal, not an
-auto-fill.</p>
+<p>Worked example (July 2026, historical): TRY-FIRE-004's arm fired 7/13 → card ARMED. Will
+first ruled <b>NO-ADD</b> (7/16 — the book already owned the grind), then approved a $330
+re-fire on a clean red-day entry (7/20). Armed ≠ auto-fill in either direction — the fill
+returns as a TERRY proposal, and the current card state lives in GATES/FORGE, never in this
+example.</p>
 <p class="own">owner: AGENTS/TERRY/setups/ (fire cards) · PROME/GATES.tsv (gate rows)</p></div>
 
 <div class="panel"><h3>Break / Grind / Unresolved</h3>
@@ -752,8 +791,8 @@ vintage shown on Sunday is disclosure, not an error; refresh before acting</td><
 until its gate fires — so decision speed never requires decision haste</td></tr>
 <tr><td>env / firetime chips</td><td>boot health checks: machine keys present ·
 fire-path artifacts free of date-drift/dead pointers (known-benigns allowlisted)</td></tr>
-<tr><td>spine audit</td><td>weekly 5-reader reconciliation of PROME's core docs
-against canon — the age chip shows days since last run (&gt;7d = due)</td></tr></table></div>
+<tr><td>spine audit</td><td>weekly 7-reader (+1 anchor-leg) reconciliation of PROME's core
+docs against canon — the age chip shows days since last run (&gt;7d = due)</td></tr></table></div>
 </div>
 """
 
@@ -870,10 +909,26 @@ def build(today, now_iso):
         attn.append(("crit" if env_rc == -1 else "elev",
                      "env_doctor failing — machine-local keys/infra; fix before "
                      "citing FRED-dependent levels", "scripts/env_doctor.py"))
+    # 8/16 (DAEDALUS sweep-1 item 12): the >5d raw-age rule was RETIRED by the
+    # 8/7 forum ruling (consumed_by keys LIVE-row staleness) — the audit
+    # re-keyed three surfaces and missed this fourth; ~8 stale-age flags were
+    # firing here off the dead rule. Semantics mirror prome_gate's check:
+    # NONE-declared rows are fine; flag an empty/undated cell or a passed
+    # consumer date.
+    # Semantics MIRROR prome_gate.check_gates_tsv exactly (one rule, two
+    # surfaces): flag a PASSED leading consumer-date or an EMPTY cell; a
+    # non-empty undated cell (PRICE:/EVENT:/NONE classes) is quiet.
     for g in gates:
-        if g["kind"] == "live" and g["checked_age"] is not None and g["checked_age"] > 5:
-            attn.append(("elev", f"{g['gate']} last checked {g['checked_age']}d ago "
-                                 f"(boot rule: refresh at >5d)", "PROME/GATES.tsv"))
+        if g["kind"] != "live":
+            continue
+        cb = g["consumed_by"]
+        mcb = re.match(r"(\d{4})-(\d{2})-(\d{2})", cb)
+        if mcb and dt.date(*map(int, mcb.groups())) < today:
+            attn.append(("elev", f"{g['gate']} consumer date {mcb.group(0)} PASSED — "
+                                 "re-point or resolve (8/7 ruling)", "PROME/GATES.tsv"))
+        elif not cb:
+            attn.append(("elev", f"{g['gate']} consumed_by EMPTY (required since 8/7)",
+                         "PROME/GATES.tsv"))
     for b in hb["blocking"]:
         if b["cls"] in ("crit", "elev"):
             attn.append((b["cls"], b["text"], b["ref"]))

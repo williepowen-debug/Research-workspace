@@ -23,7 +23,7 @@
 5. **Leg-3 fire guard travels (unchanged):** LOADINGS/ROUTE gate NOT supply-loss; R3 = Will-ruled HOLD. Kill-on-sight: "R3 moved on the leg-3 fire."
 6. **Standing strikes carry:** HEARTBEAT §Retired + "fuel spent" crude / "~60.8%" BOJ / "+4.9% FL prices" / "FERT's $683 NOLA" (DTN retail mislabel) / "Qatar 77 mtpa offline" (actual 12.8).
 7. **CARL delinquent-dollars is vintage-dependent:** "+$0.23B ROSE" = same-vintage only; cross-vintage reads −$1.08B FELL.
-8. **Gate refresh ages:** LIQ-069/072/076/079 at 24-31d (owner-owed; LIQUID inbox has the 8/7 launch directive), VIOLET inbox at 17.
+8. **Gate refresh ages:** LIQ-069/072/076/079 at 23-30d *[8/16 S4 re-count — 24-31 was off by one, sweep-1 trivia]* (owner-owed; LIQUID inbox has the 8/7 launch directive), VIOLET inbox at 17.
 
 ## Operator Card
 - **Now: closed out Sun 8/16 (3 sessions) → next session Mon 8/17.** Levels [8/13-8/14 stamps, market closed since — re-pull before citing]: HY 271 [8/13] · VIXCLS 14.63 [8/13] 7th sub-16 · CCC 1024 [8/13] · 10Y 4.68 / 30Y 5.24 / real 2.42 [8/12] · Brent settle $87.07 [8/13] · crude MM shorts 110,638 [8/11] 35b NO-VERDICT · gold net/OI 54.44% [8/11] · JPY −42,085 [8/11] · USD/JPY ~159.0 [8/14] · claims 209K [w/e 8/8] · rigs 455 [8/14] · DXY 99.64 [8/14 close] · Yanbu leg-3 FIRED w/ route-guard [8/15] · urea retail $678 [DTN 8/3-7] · DAP $917/MAP $959 rising (phosphate = live leg; Morocco cliff 2027-02-28 DOCKETED) · PJM DM2 5-min max $1,217.52 [8/16, unverified — hourly post Monday].
