@@ -8,7 +8,7 @@
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| PROME | Meta | L4 | Coordinator / chief of staff | L5 on: 7/31-8/2 batch executed |
+| PROME | Meta | L4 | Coordinator / chief of staff | L5 on: legs 1-2 BANKED (8/11 wave-acceptance PASS |
 | WALTER | Utility | L4 | Signal & news routing | L5 on remaining criteria (YEYOU leg WAIVED-while-dormant per Will 7/22… |
 | NEXUS | Utility | L4 | Cross-agent synthesis | L5 (YEYOU leg WAIVED-while-dormant, Will 7/22): residual polish (closeo… |
 | RED | Utility | L4 | Adversarial red-team | L4->L5 re-cut 8/12: (a) addendum-closeout subset defined in CLAUDE.md |
