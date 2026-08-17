@@ -39,3 +39,25 @@ Found four times in one day (RED, 2026-08-12), and the pattern is *not* "a desk 
 **The audit that finds them, and it is cheap:** for every registered threshold, **name the exact command that returns its number.** If you cannot write the command, the gate is decorative. **Three of AEOLUS's thresholds failed that test in one afternoon.**
 
 **And the fix is often to COMPUTE rather than locate.** ACE closed by computing it from NHC HURDAT2 + ATCF best-track (normal 122.6) instead of hunting a publisher — which turned out strictly better: reproducible, self-validating (the same parse returns NOAA's published storm/hurricane normals), and **base-rateable**, so *"2.5% of normal"* mid-season could be corrected to the honest *"23% of the TO-DATE normal."* **A scraped total can never tell you that.**
+
+---
+
+**BRENT extension, 2026-08-17 — the SHADOWED case, and it is the one that DEFEATS THIS MEMORY'S OWN AUDIT.** Parent = instrument *ambiguous*. AEOLUS = instrument *absent*. Third variant: **the code contains BOTH the correct canonical read AND a later binding that silently overrides it.**
+
+`thresholds.py` assigned `FRED_THRESHOLDS` **twice** — once from `REGISTRY.tsv` via `_levels("fred")`, then ~10 lines below to a hardcoded literal. Python takes the second binding, so the registry-derived list was built and **discarded**, and the grader iterated the literal.
+
+⛔ **Why "diff the registry against the code that grades it" does not catch this: the diff PASSES.** The registry read is right there, correct, first. The docstring said the hardcoded tables were removed; the header comment said the same; **both were true of the line above and false of the line below.** A reader confirms the good binding and stops — the failure is not a missing correct line, it is a **second line that wins**.
+
+**Three consequences, all real, none visible from the declaration:**
+- The canonical store was **not** the machine home in fact, only in the docstring (a state-migration moved sibling rows and left this one).
+- A **ratified relabel** (declare BASIS + UNIT) reached the registry and **never reached the rendered board** — five days of a correction no consumer could see.
+- It **punched a hole in a same-day repair**: a guard promising *"every threshold is graded or reported UNGRADED"* was true only of the **iterated** list, so a row added to the registry tomorrow would be absent from the board **and** from the ungraded report. **The same defect, one layer up, inside its own fix.**
+
+★ **Independent same-day sibling (DAEDALUS, 2026-08-17), which is why this is a class and not an anecdote:** a scanner's `EXCLUDE` carried a bare `red` while its `SURFACE_PATTERNS` named `COUNTER_THESIS.md` — the include lost silently, and a **48-day-stale rail vanished from a sweep** that reported clean. **Same shape, opposite mechanism: two contradictory bindings in one file, the later/stronger silently wins, and every prose claim points at the loser.** Two routes, two desks, one day.
+
+**How to apply:**
+- **Grep for the NAME, not the concept — and count the bindings.** `^NAME =` twice in one file is the whole finding. Cheap enough to run on any config or threshold module.
+- **Trust execution over declaration.** Docstrings, header comments and migration notes describe *intent*; the last binding describes *behaviour*. When they disagree, the file is lying in the direction that feels most reassuring.
+- **After deleting a shadowing literal, prove the deletion is inert before trusting it:** compare the two lists key-by-key (identical levels ⇒ no graded state moves), then run a **same-moment A/B against the pre-fix binary** — a diff in output is either your bug or live data moving, and only the same-moment run separates them.
+- **Preserve any dated RULING that lived inside the deleted literal** — the canonical row usually carries the *level* but not the *argument for its direction*, so deleting the literal silently destroys the reasoning.
+- Related: [[finding_rejecting_an_instrument_is_an_audit_of_it]] · [[finding_a_ruling_governs_the_next_write_not_the_existing_state]] · [[finding_record_of_an_action_is_not_the_action]].
