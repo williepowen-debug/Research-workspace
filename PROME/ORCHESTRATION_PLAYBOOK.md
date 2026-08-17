@@ -157,6 +157,9 @@ Spawn domain agents on a **report-before-execute** mandate so Will directs what 
 ### 6. Route to the domain OWNER, not the adjacent agent
 Cross-domain findings go to the agent that owns the domain, even if another surfaced it. ([[feedback_route_to_domain_agent]], [[feedback_check_domain_owner_before_messaging]]). 6/26's single biggest value-add: routing the gate-cluster to BROCK (owner) instead of CARL (transmission-adjacent) surfaced 3 more gates + the compounding mechanic + the insurer-lender pathway.
 
+### 7. Proxy/coordinator writes carry the owner's vintage (PAT-112 — DAEDALUS PR#4 ask, PROME-adopted 2026-08-17)
+When a coordinator-driven session (forum slate, proxy spawn, fan-out) commits content into an owner's tree WITHOUT running that owner's closeout, do one of exactly two things: **(a)** re-cut the owner's BOTTOM LINE / vintage stamp as part of the same write, or **(b)** stamp the commit message `content-only, owner closeout owed` — which the owner's next boot treats as a due item. Never neither. Why: the 8/10 forum slate wrote into VIOLET/HENRY/LIQUID (and resolved BOND's BND-01) with the result that each desk's dated header no longer covered its newest body content, AND the commits re-armed every git-time staleness fallback — the surfaces read fresher than their own synthesis. ([[finding_hygiene_commit_rearms_the_staleness_lie]] is the same mechanism from the other side.)
+
 ---
 
 ## Anti-patterns (seen 6/26 — don't repeat)
