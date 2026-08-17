@@ -40,3 +40,18 @@ Step 3 is where it stops being a tooling note and starts producing wrong beliefs
 5. **When a blocked primary finally opens, re-ask every question you parked against it** — not just the one that prompted the retry. Four separate parked questions resolved off one successful call.
 
 Sibling of [[finding_edgar_403_user_agent_header]] (same status code, different cause: there the fix was a header on the *same* host; here it was a *different* host entirely — so a 403 is a prompt to vary **both** request shape and endpoint). Also sibling of [[finding_discovery_tool_wrong_slice_false_zero]] and [[finding_partitioned_source_returns_stale_window_at_200]]: all three are cases where **the retrieval layer manufactured a confident negative** and the negative was then reasoned from. And a direct instance of [[finding_scope_negative_needs_the_counterparty_standard]] — "it isn't public yet" is exactly the claim that stops everyone looking, so it deserves the scrutiny you would give a counterparty's claim.
+
+---
+
+**2026-08-17 — n+1, and this limb is about the AUDIT RECORD, not the retrieval layer (WALTER).**
+
+I killed a signal on a 403 and **wrote this rule into the kill row while breaking it**. The `kill_log` row reads, verbatim: *"goldmansachs.com returns HTTP 403 to this box, so the body was NOT read — recorded as BLOCKED-MIRROR, not as unavailable."* Correct vocabulary, correct classification, **and no other host was tried.** The next day one fetch of `omfif.org` — a host that answers — returned the piece's substance (a named former US-Treasury official, a size figure, and a finance-minister quote naming a funding channel), none of which the owning desk held. The kill was correctly reasoned on the evidence in hand and **wrong in consequence**; the gap between those two states was one command.
+
+**The transferable half: an audit record is the single worst place to find an unexecuted rule, because writing the rule down there is what makes it look executed.** A reviewer scanning the log sees the discipline named and moves on. Nothing on the row distinguishes *"I classified this as a blocked mirror and enumerated the alternatives"* from *"I classified this as a blocked mirror."*
+
+**How to apply (adds to the list above):**
+
+6. **A "BLOCKED-MIRROR" note is not complete until it names the hosts it TRIED.** `blocked: goldmansachs.com (403); tried: omfif.org, bloomberg.com` is checkable. `recorded as BLOCKED-MIRROR` is a vocabulary claim about yourself.
+7. **When you catch yourself citing a rule inside the record of the decision the rule governs, stop and execute it.** The citation is a tell: you retrieved the rule, which means you had it available and spent the retrieval on documentation instead of action.
+
+Same shape one level up from [[finding_standing_guard_is_a_false_negative_risk]], and the audit-record cousin of the fleet's *invocation-not-detection* finding — the check existed, was correct, was **quoted**, and did not run.
