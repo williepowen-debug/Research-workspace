@@ -29,3 +29,6 @@
 {"ts": "2026-08-16T22:20", "kind": "pressure", "text": "Japan / carry went quiet \u2192 watching."}
 {"ts": "2026-08-16T22:20", "kind": "pressure", "text": "War theaters + housing went quiet \u2192 elevated."}
 {"ts": "2026-08-17T10:12", "kind": "clock", "text": "New date 2026-08-22: ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, PROME systems "}
+{"ts": "2026-08-17T12:04", "kind": "gate", "text": "New gate registered: GATE-FERT-G5 (live)."}
+{"ts": "2026-08-17T12:04", "kind": "gate", "text": "New gate registered: GATE-FERT-G3 (live)."}
+{"ts": "2026-08-17T12:04", "kind": "queue", "text": "Added to your list: SAM INFRA_AGENDA.md disposition \u2014 Status: SCOPING \u2014 Will to decide, un"}

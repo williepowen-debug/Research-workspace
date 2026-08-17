@@ -22,6 +22,8 @@
   "GATE-BRENT-SUSTAIN": "RESOLVED",
   "GATE-BRK-C1": "RESOLVED",
   "GATE-FALCON-001": "LIVE",
+  "GATE-FERT-G3": "LIVE",
+  "GATE-FERT-G5": "LIVE",
   "GATE-HY-REKILL": "LIVE",
   "GATE-LIQ-069": "LIVE",
   "GATE-LIQ-072": "LIVE",
@@ -51,6 +53,7 @@
   "52": "OSPREY spec-batch (war-triad sweep 8/15, 4 items, rule as ONE batch): ",
   "53": "FALCON spec-batch (war-triad sweep 8/15, 3 items, rule as ONE batch): ",
   "54": "HAWK spec-batch (war-triad sweep 8/15, 5 items, rule as ONE batch): \u2460 ",
-  "55": "CRUISE re-classification + arm-CCL ladder registration \u2014 DAEDALUS's 8/"
+  "55": "CRUISE re-classification + arm-CCL ladder registration \u2014 DAEDALUS's 8/",
+  "56": "SAM INFRA_AGENDA.md disposition \u2014 Status: SCOPING \u2014 Will to decide, un"
  }
 }
