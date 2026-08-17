@@ -135,33 +135,52 @@ CONTEXT_TICKERS = ["BZ=F", "CL=F", "USO", "STNG", "LNG", "VG", "XLE", "XOP", "VL
 # (series_id, label, direction, level, classification, threshold_label)
 # ---------------------------------------------------------------------------
 
-FRED_THRESHOLDS = [
-    # Dated Brent (physical)
-    ("DCOILBRENTEU", "Dated Brent",        "above", 140.0, "stress",  "Dated Brent >$140 — extreme (ATH $144)"),
-    ("DCOILBRENTEU", "Dated Brent",        "above", 120.0, "stress",  "Dated Brent >$120 — physical scarcity confirmed"),
-    # ⚠️ v5.1 CORRECTION (2026-07-28) — third instance of the registry-restatement class, and
-    # the only one that was FIRING. This row read: below $100 = "risk" / "physical squeeze
-    # resolving". Two defects:
-    #   (1) It infers PHYSICAL tightness from FLAT PRICE — the exact inversion of v5.1's
-    #       central finding. Crude fell −15.6% off the 7/23 high with ZERO barrels returned,
-    #       Hormuz at 8% of pre-war and war-risk at cycle highs. Flat price is NOT the clean
-    #       instrument for physical tightness; CRACKS/DIESEL and transits are.
-    #   (2) Dated Brent has been under $100 nearly always, so it fired every boot = alert
-    #       fatigue, no signal. Below $100 is the BASELINE, not a breach.
-    # Kept as thesis-class context in the CORRECT direction only; no physical claim asserted.
-    ("DCOILBRENTEU", "Dated Brent",        "above", 100.0, "thesis",  "Dated Brent >$100 — KEY THRESHOLD #1 / Scenario-C confirmation (premium, not proof of barrels lost)"),
-    # WTI spot
-    ("DCOILWTICO",   "WTI Spot",           "above", 100.0, "thesis",  "WTI >$100 — broad Phase 1"),
-    # HY OAS — primary stress indicator (broad HY as energy proxy; no free energy-only series)
-    ("BAMLH0A0HYM2", "HY Total OAS",       "above",   4.5, "risk",    "HY OAS >450bps — credit dislocation"),
-    ("BAMLH0A0HYM2", "HY Total OAS",       "above",   3.5, "stress",  "HY OAS >350bps — stress threshold"),
-    ("BAMLH0A0HYM2", "HY Total OAS",       "above",   3.0, "stress",  "HY OAS >300bps — elevated (currently)"),
-    # Natural gas context
-    ("DHHNGSP",      "Henry Hub Natgas",   "above",   4.0, "stress",  "Henry Hub >$4 — gas market tight"),
-    # Retail gas (CARL owns primary, BRENT cross-ref)
-    ("GASREGW",      "US Retail Gas",      "above",   4.50, "risk",   "Retail >$4.50 — next CARL breakpoint"),
-    ("GASREGW",      "US Retail Gas",      "above",   4.00, "stress", "Retail >$4.00 — behavioral breakpoint (CONFIRMED)"),
-]
+# ⛔⛔ THE HARDCODED `FRED_THRESHOLDS` LITERAL THAT STOOD HERE WAS DELETED 2026-08-17.
+#
+# WHY, and it is a defect this script hid from itself: this file assigned `FRED_THRESHOLDS`
+# TWICE — once above (line ~127) from REGISTRY.tsv via `_levels("fred")`, and again HERE to a
+# hardcoded literal. Python takes the SECOND binding, so the registry-derived list was built
+# and then silently discarded, and `check_fred_thresholds` iterated the literal.
+#
+# THREE CONSEQUENCES (found by DAEDALUS's reader during the Will-directed structure review,
+# 2026-08-17; independently verified here before deleting):
+#   (1) REGISTRY.tsv was NOT the machine home for FRED rows, despite the module docstring and
+#       the header comment above both asserting the hardcoded tables were gone. The RAV
+#       state-replacement pilot moved MARKET rows and left this one behind.
+#   (2) The 2026-08-12 audit-convention relabel (F-2: declare BASIS + UNIT in the label)
+#       reached the REGISTRY and never reached the BOARD. Verified: 3 Dated Brent rows read
+#       "Dated Brent >$140 — extreme (ATH $144)" on the board while the registry carried
+#       "Dated Brent PHYSICAL SPOT (FRED DCOILBRENTEU) >$140 USD/bbl". Five days of a
+#       ratified relabel that no reader of the board could see.
+#   (3) IT PUNCHED A HOLE IN THE SAME-DAY false-green fix (97bbef457). That fix guarantees
+#       every threshold in the ITERATED list is either graded or reported UNGRADED — but a
+#       FRED row registered in REGISTRY.tsv tomorrow would never ENTER the iterated list, so
+#       it would be absent from the board AND absent from `ungraded`. The identical
+#       false-green, one layer up, inside the repair for it.
+#
+# SAFE TO DELETE, VERIFIED BEFORE DOING IT, NOT ASSUMED: the two lists were compared row by
+# row — 10 vs 10, IDENTICAL on (symbol, direction, level), so NO level changes and nothing
+# was mis-graded while the literal stood. The only differences were the 3 labels in (2),
+# where the registry text is the CORRECT post-F-2 wording. Deleting therefore fixes the
+# labels and changes no graded state.
+#
+# supersedes: the hardcoded FRED table. REGISTRY.tsv is now the machine home in FACT and not
+# only in the docstring — `FRED_THRESHOLDS` is built once, at line ~127, from `_levels("fred")`.
+#
+# ⚠️ THE ONE PIECE OF DATED REASONING THAT LIVED IN THE DELETED LITERAL, PRESERVED VERBATIM
+# BECAUSE IT IS A RULING AND NOT A COMMENT (it governs the Dated Brent >$100 row's DIRECTION,
+# and the registry row carries the level but not the argument):
+#
+#   ⚠️ v5.1 CORRECTION (2026-07-28) — third instance of the registry-restatement class, and
+#   the only one that was FIRING. This row read: below $100 = "risk" / "physical squeeze
+#   resolving". Two defects:
+#     (1) It infers PHYSICAL tightness from FLAT PRICE — the exact inversion of v5.1's
+#         central finding. Crude fell −15.6% off the 7/23 high with ZERO barrels returned,
+#         Hormuz at 8% of pre-war and war-risk at cycle highs. Flat price is NOT the clean
+#         instrument for physical tightness; CRACKS/DIESEL and transits are.
+#     (2) Dated Brent has been under $100 nearly always, so it fired every boot = alert
+#         fatigue, no signal. Below $100 is the BASELINE, not a breach.
+#   Kept as thesis-class context in the CORRECT direction only; no physical claim asserted.
 
 # Context FRED series (display only)
 CONTEXT_FRED = [
