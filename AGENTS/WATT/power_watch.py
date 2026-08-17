@@ -45,7 +45,13 @@ Five reads, one verdict line, each fail-LOUD (stderr + rc=2, never fabricated):
      EPT stamp. This closes the leg-4 blind spot (the 7/12 intraday spike class:
      e.g. 7/16 printed $410.55 @11:30 EPT while the proxy's newest row was days
      old). UNVERIFIED feed = operational read, NOT settlement data — PJM's
-     verified hourly feed (rt_hrl_lmps) posts next business day ~11 AM-12 PM;
+     verified hourly feed (rt_hrl_lmps) lags ~4 DAYS, NOT one business day
+     (MEASURED 2026-08-17 09:20 EPT: frontier 8/13 while 8/14, 8/15 and 8/16
+     all returned 0 rows, against a control pull of 7/23-8/2 that returned its
+     full 264 rows. The earlier "next business day ~11 AM-12 PM" written here
+     was assumed, never probed — see KB-WATT-081 / L-33. Re-measure with a
+     known-good-period control + a frontier walk before trusting any figure
+     here again);
      cite prints as "unverified 5-min". Key from FORGE .env (PJM_API_KEY,
      loaded by the fetch.py import); key ABSENT = leg prints a SKIP note, not
      a failure (laptop until the key is copied — env_doctor flags it at boot).
@@ -386,7 +392,7 @@ def main():
             cur_flag = f"  << {lmp_band(cur)}" if cur >= 150.0 else ""
             pk_flag = f"  << {lmp_band(pk)}" if pk >= 150.0 else ""
             print(f"\n  OFFICIAL LMP (Data Miner 2, PJM-RTO 5-min UNVERIFIED — operational "
-                  f"read, not settlement; verified hourly posts next business day):")
+                  f"read, not settlement; verified hourly lags ~4 days [measured 8/17]):")
             print(f"    latest:    ${cur:>9,.2f}/MWh  @{cur_ts}{cur_flag}")
             print(f"    today max: ${pk:>9,.2f}/MWh  @{pk_ts}  ({n} prints since 00:00 EPT){pk_flag}")
             if cur >= LMP_ORANGE or pk >= LMP_ORANGE:
