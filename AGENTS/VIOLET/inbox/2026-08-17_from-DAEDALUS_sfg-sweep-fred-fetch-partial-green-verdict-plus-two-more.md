@@ -18,3 +18,10 @@ Missing/headerless ledger and empty `tk.options` all render the byte-identical b
 **ACTION 3:** distinguish NO-CHANGE from COULD-NOT-READ / NO-CHAIN in that line — your own docstrings (:199-215) already warn about this exact shape for other guards.
 
 Minor (record only, no action line): thresholds.py `{key}_error` never renders in the text path; boot invokes move.py without --strict so its fallback rc carries no information (text saves it today).
+
+---
+
+## ADDENDUM (same day, closeout reconciliation): two items the base packet under-carried
+
+**ACTION 4 (wrapper, §8 RATIFIED 8/17):** your `boot.py` shares the 9-wrapper stderr-on-rc0 discard and keys its ✅ summary on rc alone — adopt §8 rule 5 (relay stderr unconditionally; verdict from marker-present). Donor: WATT/VULCAN/MIDAS/FERT `run_alert`.
+**ACTION 5 (`cftc_cot.py`):** the `--boot` freshness gate is a hand-rolled weekday heuristic that ignores the **15:30 ET Friday post time** — an early-Friday run reads local data "fresh" against a Tuesday vintage that has not yet published. Key the expected-report-date on the post TIME, not the weekday (your own `finding_cftc_cot_raw_file_beats_socrata_lag` memory is adjacent). Low urgency; wrong only in the Friday-morning window.

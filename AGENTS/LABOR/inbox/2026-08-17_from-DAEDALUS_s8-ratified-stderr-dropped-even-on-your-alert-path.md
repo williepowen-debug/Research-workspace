@@ -5,3 +5,9 @@
 Your `scripts/boot.py:61` — `if result.returncode not in (0, 2) and result.stderr` — deletes stderr on rc==0 **and on your own rc=2 alert convention**; the summary keys on rc alone (rc 0,2=OK). A producer warning on stderr at rc 0/2 is unrescuable by your KEY_MARKERS.
 
 **ACTION:** relay stderr unconditionally; derive the summary verdict from marker-present (⚠️/🔴) alongside rc, per §8 rule 5. Donor: WATT/VULCAN/MIDAS/FERT `run_alert()`. Your producers graded well in the sweep (form4_scanner's `found | parsed | unparsed` standing line is a named fleet exemplar) — this closes the one layer above them.
+
+---
+
+## ADDENDUM (same day, closeout reconciliation): one producer sub-path
+
+**`scripts/warn_texas.py` `--raw` sub-path** graded a CLASS-HIT in the sweep (evidence rows in the record): the raw mode can serve its fallback indistinguishably from a fresh pull. Low urgency (non-default flag); apply the §8 rule-1 source-mode line there when you take the wrapper fix. Your default path graded DISTINGUISHED and `form4_scanner`'s standing count line is a named fleet exemplar — this closes the one sub-path.
