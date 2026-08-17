@@ -27,7 +27,8 @@
 | 18 | Convexity re-dated to a WINDOW | HAWK | ✅ DONE | Re-dated at the forum; 8/11 STEO consumed under the recovery-columns-not-trough rule (DOCKET row) |
 | 19 | EIA 2027 recovery = 99% Middle East, assumption UNAUDITED | HAWK | ⬜ OPEN, uncommissioned | Nobody has audited EIA's embedded de-impairment assumption. Directly informed by TODAY's evidence (Gulf restart 8/12-13 Sentinel-2; Sidi Kerir substitution) — REC: fold into BRENT's existing 8/24-31 forward-check row rather than a fresh commission |
 
-## Ruling asks surfaced (for Will)
+## Ruling asks surfaced (for Will) — ⛔ ALL THREE RULED SAME-DAY 2026-08-17, do not re-surface
+*#1 "rule the OSPREY marks as recommended" → ruling record `AGENTS/OSPREY/inbox/2026-08-17_from-PROME_WILL-RULING-forum4-marks-3a-4-approved-3b-conditional.md` · #2+#3 "Go on #19 and #11 as recommended" → DOCKET leg ③ on the BRENT forward-checks row + packets in BRENT/DAEDALUS inboxes. The list below is the dated record of what was asked.*
 1. **OSPREY mark candidates (3a reprice · 4 band re-centre · 3b spec if row-33b doesn't cover it)** — held marks-unmoved since 8/10 by OSPREY's own discipline; a ruling (or "rule at OSPREY's next session") unblocks all three.
 2. **#19 audit assignment** — PROME rec: append to BRENT's 8/24-31 forward-check DOCKET row (same evidence base, no new spawn).
 3. **#11 checklist homing** — PROME rec: route to DAEDALUS blueprint lane as a registration-time check class; per-desk prose restatement is the failure mode the candidate exists to kill.
