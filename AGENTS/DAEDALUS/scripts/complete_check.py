@@ -4,7 +4,7 @@
 Sits beside the COMMITTED-checks (orphan_check/claim_check/safe-push all answer "did files
 reach origin?"). Born from the 2026-08-12 finding (PAT-101/PAT-102): 8 gaps in one day behind
 my own "closed", 0 found by my closeout — every one a COMPLETE-failure, every check a
-COMMITTED-check. Build-queue head since 8/12; built 2026-08-18 (self-audit open-items run).
+COMMITTED-check. Build-queue head since 8/12; built 2026-08-17 late (self-audit open-items run).
 
 Three legs (the three rules earned 8/12, STATUS item 3):
   (ii) PAIRING [mechanical, gates rc]: every commit in range touching BLUEPRINTS/* or

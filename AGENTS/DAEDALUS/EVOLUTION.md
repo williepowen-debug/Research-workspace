@@ -7,7 +7,7 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
-### 2026-08-18 — COMPLETE-check BUILT (build-queue head since 8/12 discharged) + a late pairing owed to its own first run
+### 2026-08-17 (i) — COMPLETE-check BUILT (build-queue head since 8/12 discharged) + a late pairing owed to its own first run
 
 **`scripts/complete_check.py` (DAEDALUS-local) — the check that certifies work-FINISHED beside the battery that certifies files-COMMITTED (PAT-101/PAT-102).** Three legs: (ii) BLUEPRINTS/UPGRADE_PROTOCOL↔EVOLUTION same-commit pairing [mechanical, gates rc] · (iii) READER_REPORTS pair symmetry w/ pair-by-pointer acceptance for sweeps-playbook and enumerated-cluster forms [mechanical, gates rc] · (i) side-effect claim enumeration over my authored docs in range [judgment walk-list, never gates rc — enumeration was the missing piece, verification stays judgment]. §9 rc 0/1/2; commit scope = DAEDALUS-subject-prefix only. **Its first capable-case run caught FOUR defects: one REAL violation by its author the same evening** — `1c0ad78b4` edited UPGRADE_PROTOCOL's PAT-100 contract with no EVOLUTION entry (THIS entry is that pairing, landed late in the checker's own commit and flagged as late) — **plus two design FPs (fleet-wide commit scope; strict same-prefix pair rule flagging 3 legitimate pointer-form pairs) and 2 edge-of-adoption 8/12 historical misses (97e08d08e, 03bb9ba3a — recorded, not retro-fixed).** The late-pairing record for 1c0ad78b4's content: PAT-100 contract disambiguated to filename-AND-substance w/ the enumerated-cluster index-stub clause (self-audit F31). Wired: charter closeout step 9 (named, replacing the 'when built' placeholder) + CHECKS.tsv row.
 
