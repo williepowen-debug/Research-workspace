@@ -113,7 +113,7 @@ BRIEF_SECTIONS = ["HEADLINE", "STORY", "QUESTION", "FALSIFIER",
 # WILL_QUEUE Type column -> is this a JUDGMENT call or an errand?
 # Rationale: approving capital and getting an API key are not the same species,
 # and rendering them in one list flattens the urgency of the first.
-DECISION_TYPES = {"[APPROVE]", "APPROVE", "LAUNCH", "RULE"}
+DECISION_TYPES = {"[APPROVE]", "APPROVE", "LAUNCH", "RULE", "DECISION"}
 
 failures = []           # (section, owner_file, reason) -> rendered as PARSE-FAILED
 
@@ -596,7 +596,39 @@ def render(brief_written, brief, feed, first_build, dates, dec, chore, money, fi
         A(f'<div class="alert">Gate fired and not acted on: {", ".join(html.escape(f) for f in fired)}'
           " — this blocks new work until it is cleared.</div>")
 
-    # ---- 1. what changed (the feed) — first, because checking in is the common case
+    # ---- 1. decisions waiting on you — FIRST (re-spec Will-ruled 8/16 S4,
+    # "Rewire with the re-spec"; DAEDALUS design input 8f0ba7711). One page,
+    # one job: if this section says nothing needs you, you're done — everything
+    # below is context. Count excludes ⛔-blocked rows (waiting on something
+    # else, not on Will).
+    n_open = sum(1 for a in dec if not a["blocked"])
+    A(f'<section><h2>Decisions waiting on you — {n_open}</h2>')
+    if dec:
+        A('<ul class="acts">')
+        for a in dec:
+            cls = " call"
+            if a["due"]:
+                dd = (dt.date.fromisoformat(a["due"]) - dt.date.today()).days
+                cls = " due" if dd <= 0 else (" soon" if dd <= 2 else " call")
+            nm = ("⛔ " if a["blocked"] else "") + a["item"]
+            A(f'<li class="act{cls}"><div class="top"><span class="name">{html.escape(nm)}</span>'
+              f'<span class="when">{html.escape(a["due_txt"]) or "no date"}</span></div>')
+            if a["rec"]:
+                A(f'<div class="rec">{html.escape(a["rec"])}</div>')
+            A("</li>")
+        A("</ul>")
+    else:
+        A('<p class="empty">Nothing needs a decision from you. You are done here — '
+          "everything below is context.</p>")
+    if chore:
+        A('<div class="sub">Errands (no judgment needed)</div><div class="chores">')
+        for a in chore:
+            A(f'<div class="chore"><span class="nm">{html.escape(a["item"])}</span>'
+              f'<span class="w">{html.escape(a["due_txt"]) or "no date"}</span></div>')
+        A("</div>")
+    A("</section>")
+
+    # ---- 2. what changed (the feed)
     A("<section><h2>What changed</h2>")
     if first_build:
         A('<p class="empty">Baseline recorded. Changes will appear here from the next '
@@ -612,7 +644,7 @@ def render(brief_written, brief, feed, first_build, dates, dec, chore, money, fi
         A('<p class="empty">Nothing has moved since the last rebuild.</p>')
     A("</section>")
 
-    # ---- 2. the story + the question + the falsifier
+    # ---- 3. the story + the question + the falsifier
     A("<section><h2>What is going on</h2>")
     A(f'<div class="prose">{md_block(brief.get("STORY",""))}</div>')
     if brief.get("QUESTION"):
@@ -622,12 +654,12 @@ def render(brief_written, brief, feed, first_build, dates, dec, chore, money, fi
           f'<div class="prose">{md_block(brief["FALSIFIER"])}</div></div>')
     A("</section>")
 
-    # ---- 3. where the desk disagrees — the thing only this system can show
+    # ---- 4. where the desk disagrees — the thing only this system can show
     if brief.get("DISAGREEMENT"):
         A("<section><h2>Where the desk disagrees</h2>")
         A(f'<div class="prose">{md_block(brief["DISAGREEMENT"])}</div></section>')
 
-    # ---- 4. the book
+    # ---- 5. the book
     A("<section><h2>Where you stand</h2>")
     if money:
         vs = " stale" if money["age"] > 4 else ""
@@ -640,7 +672,7 @@ def render(brief_written, brief, feed, first_build, dates, dec, chore, money, fi
         A(f'<div class="prose">{md_block(brief["POSITION"])}</div>')
     A("</section>")
 
-    # ---- 5. the clock
+    # ---- 6. the clock (+ the hand-written WATCH tail)
     A("<section><h2>What is coming</h2>")
     if dates:
         A('<ol class="days">')
@@ -653,34 +685,12 @@ def render(brief_written, brief, feed, first_build, dates, dec, chore, money, fi
               f'<span class="what">{html.escape(d["title"])}{also}</span>'
               f'<span class="in">{inn}</span></li>')
         A("</ol>")
-    A("</section>")
-
-    # ---- 6. what needs you — decisions ABOVE chores, visually different
-    A("<section><h2>What needs you</h2>")
-    if dec:
-        A('<div class="sub">Calls only you can make</div><ul class="acts">')
-        for a in dec:
-            cls = " call"
-            if a["due"]:
-                dd = (dt.date.fromisoformat(a["due"]) - dt.date.today()).days
-                cls = " due" if dd <= 0 else (" soon" if dd <= 2 else " call")
-            A(f'<li class="act{cls}"><div class="top"><span class="name">{html.escape(a["item"])}</span>'
-              f'<span class="when">{html.escape(a["due_txt"]) or "no date"}</span></div>')
-            if a["rec"]:
-                A(f'<div class="rec">{html.escape(a["rec"])}</div>')
-            A("</li>")
-        A("</ul>")
-    else:
-        A('<p class="empty">No decisions waiting on you.</p>')
-    if chore:
-        A('<div class="sub">Errands</div><div class="chores">')
-        for a in chore:
-            A(f'<div class="chore"><span class="nm">{html.escape(a["item"])}</span>'
-              f'<span class="w">{html.escape(a["due_txt"]) or "no date"}</span></div>')
-        A("</div>")
     if brief.get("WATCH"):
         A(f'<div class="prose">{md_block(brief["WATCH"])}</div>')
     A("</section>")
+
+    # (decisions/chores moved to section 1 — the 8/16 re-spec; WATCH rides the
+    # clock section above as the hand-written tail of "what is coming")
 
     if failures:
         A("<section><h2>Broken on this page</h2>")
