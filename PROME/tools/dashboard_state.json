@@ -1,5 +1,5 @@
 {
- "built": "2026-08-17 15:54",
+ "built": "2026-08-17 19:43",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -34,6 +34,7 @@
   "2026-08-22 ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, ",
   "2026-08-22 S6 STATUS two-state PILOT grades (WATT/HENRY/CARL, ~2wk from",
   "2026-08-23 FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRI",
+  "2026-08-24 0-OPEN prediction books counted as an ungradeable-desk class",
   "2026-08-24 DEFERRAL \u2014 forum slate item 8 (coverage-gap commissioning: s",
   "2026-08-24 FDIC Q2-2026 Quarterly Banking Profile expected window (FDIC",
   "2026-08-24 FORUM fin-cond T1+T4 grades: T1 MIGRATING withdrawal test (>",
@@ -134,12 +135,7 @@
  },
  "one": "the week's positioning question got answered three times in one print window and the answer was the same in every market: the fuel was REPLACED, not spent. Crude MM shorts re-grossed straight through their frozen boundary (+8,078 WoW \u2014 the \"SPENT\" modifier un-fired at its own letter, by 5.3\u00d7 the pre-computed coin-flip distance); gold longs rebuilt to top-5% crowding of the full 1986\u20132026 record under a frame that honestly graded INDETERMINATE; and the JPY book neither rebuilt nor flipped \u2014 it emptied (OI \u221227,519, both sides). Meanwhile the priced side stayed asleep: HY flat at 271, a seventh consecutive sub-16 VIX close, 5y5y anchored at 2.27 and drifting *down* \u2014 and the 30Y at 5.24 still buying zero rate relief from disinflation. The bear that pays remains the real-rate grind (duration + gold, the two live legs), and the physical-side conclusion sharpened rather than changed: the squeeze accelerant behind the oil premium is re-armed, not exhausted \u2014 if a physical trigger comes, more fuel stands behind it than the fleet believed on Wednesday. No sizing changed anywhere; the state is simply now honest.",
  "pending": [
-  "row-16 D-10 one-word",
-  "CRUISE row 55",
-  "INFRA_AGENDA row 56",
-  "war-risk source row 41 [after FALCON's free fetch]",
-  "Nov credentials row 31 [11/01]",
-  "SAM v1"
+  "**\u2605 six-ideas ruling (8/17 session-4): PROME's 6 second-level ideas, DAEDALUS 6\u00d7 CONCUR w/ 2 amendments (boot-arithmetic = measure-first as 8/28 sweep columns \u00b7 RAV option-not-cadence); artifacts = cd82b34c7 packet + 52814ffa4 verdicts; \"approve as amended\" = the one word \u2014 then DAEDALUS encodes 1/4/5 (~8/22 blueprint touch), 2+3a ride 8/28, 3b already in R7 spec, PROME drafts idea-6 onto MESSAGING for Will sign-off"
  ],
  "split": "Break 21 \u00b7 Grind 44 \u00b7 Unresolved 35",
  "v": 1
