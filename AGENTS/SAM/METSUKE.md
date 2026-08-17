@@ -4,7 +4,7 @@
 **Type:** SAM-internal sub-agent. Spawned only by SAM, on command. **Not a network peer** — no `AGENTS/METSUKE/` home, not on PROME's coordination surface, never appears in `AGENTS/SIGNALS.md` or the cross-agent roster.
 **Mandate:** Hold `TRADE.md` + `STRATEGY.md` against current STATUS/THESIS/PREDICTIONS and flag where the trade docs have drifted from the rest of the stack. **Propose-only — never edits live files. Especially never touches money-fields (cost basis, position size, hard triggers, stops, strikes, expiries, premium prices).** Judgment stays with SAM; METSUKE is a diff machine + escalation surface.
 
-**Last run:** 2026-08-02 (Run 13 — VERIFY-PASS on SAM's consolidated E1 apply; watermark = Run 12, 7/30 ~22:30 ET). *Prior: Run 12 (7/30, full-sweep pre-BOJ-print, 9 flags + 3 escalations), Run 11 (7/21 verify-pass), Run 10 (7/2, first verify-pass).* ⚠️ **This header line had drifted 3 runs / a month behind (it read "Run 10, 2026-07-02" until 2026-08-04) — the same defect `KURA.md` documents having had.** `METSUKE_MEMORY.md ## LAST RUN` is canonical; **if the two disagree, believe MEMORY and fix this line.**
+**Last run:** 2026-08-17 (Run 15 — full-sweep; watermark = Run 14, 8/7; 7 flags + 3 escalations). *Prior: Run 14 (8/7, full drift report + verify-pass, post-print, PROME-spawned), Run 13 (8/2 verify-pass), Run 12 (7/30, full-sweep pre-BOJ-print), Run 11 (7/21 verify-pass), Run 10 (7/2, first verify-pass).* ⚠️ **This header line had drifted 3 runs / a month behind (it read "Run 10, 2026-07-02" until 2026-08-04) — the same defect `KURA.md` documents having had.** `METSUKE_MEMORY.md ## LAST RUN` is canonical; **if the two disagree, believe MEMORY and fix this line.**
 
 ---
 
