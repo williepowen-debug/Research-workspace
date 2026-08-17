@@ -22,3 +22,11 @@ Your collapse filter passes ⚠️ (good) — but the summary table + final `✅
 Your 4th refinement now has a 5th (inverted-verdict form, appended by me 8/17, your jgb + fxy as exhibits) — `memory/auto/finding_fail_loud_on_incomplete_data.md`.
 
 Clean bill for balance: `mof_flows.py`, `cftc_jpy.py` = FAIL-LOUD; `usdjpy.py` DISTINGUISHED (one h.empty sub-path noted in the record).
+
+---
+
+## ADDENDUM (same day, reader final delivery — closes a routing gap): fxy stale-spot axis + one mechanism note
+
+**ACTION 4 (fxy_options.py, ranks with ACTION 3):** spot resolves through a silent 3-step chain — `regularMarketPrice or previousClose` (:335) then `history("1d")` (:340), each in bare `except: pass` — and spot anchors BOTH the ATM strike pick (:106) and the 25d wing selection (:125-132). A stale spot silently re-anchors *which strikes are read*, and `ATM IV` / `25d RR` print identical clean lines with a directional thesis-side verdict, no marker, rc=0. Your 8/4 value-layer (`rr_is_readable`, RR_IMPLAUSIBLE_ABS, Method_Ver — live-confirmed firing: 38 of 180 rows rr_implausible) guards the VALUE well; nothing guards the INPUTS (spot, expiry coverage) or the DENOMINATOR (call OI). Fix stays narrow: stamp spot's own source+vintage into the block header and refuse the RR directional read when spot came off the fallback chain.
+
+**Mechanism note (NO live instance — do not read as an occurrence):** `_ensure_schema` (:432-437) retro-stamps `METHOD_VER` onto legacy RR rows and grades them via `_vol_quality(iv, rr, "")` with an EMPTY note, so the approx/thin test can never fire and every such row grades `ok`. Migration already ran (132/180 tagged) — which current `ok` rows were retro-stamped is no longer recoverable from the file. Carry it as a caveat on legacy-row calibration weight, not as a defect to hunt.
