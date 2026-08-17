@@ -4,10 +4,10 @@
   "Credit": "crit",
   "Energy": "crit",
   "Equity-vol": "watch",
-  "Japan / carry": "none",
+  "Japan / carry": "watch",
   "Metals": "elev",
   "Rates": "crit",
-  "War theaters + housing": "none"
+  "War theaters + housing": "elev"
  },
  "docket": {
   "2026-08-17": "Japan Q2 GDP (landed overnight Sun ET",
