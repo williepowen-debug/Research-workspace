@@ -2,3 +2,27 @@
 {"ts": "2026-08-03T17:33", "kind": "queue", "text": "Off your list: QQQ 687P Aug-03 \u00d73 \u2014 SELL (your stated plan 8/2)"}
 {"ts": "2026-08-03T22:02", "kind": "queue", "text": "Off your list: PJM Data Miner 2 API key"}
 {"ts": "2026-08-04T12:33", "kind": "clock", "text": "New date 2026-08-09: Architecture SECOND WAVE (Will-approved 7/28; T2-b ALREADY SHIPPED 7/28 ev"}
+{"ts": "2026-08-16T21:55", "kind": "gate", "text": "GATE-BRK-C1 moved live \u2192 resolved."}
+{"ts": "2026-08-16T21:55", "kind": "gate", "text": "GATE-BRENT-DEPLOY-V2 moved live \u2192 retired."}
+{"ts": "2026-08-16T21:55", "kind": "gate", "text": "New gate registered: GATE-NEXUS-SEAT-01 (live)."}
+{"ts": "2026-08-16T21:55", "kind": "gate", "text": "New gate registered: GATE-OP-SCALE-01 (live)."}
+{"ts": "2026-08-16T21:55", "kind": "gate", "text": "New gate registered: GATE-BRENT-COT-35B (live)."}
+{"ts": "2026-08-16T21:55", "kind": "pressure", "text": "Japan / carry went critical \u2192 quiet."}
+{"ts": "2026-08-16T21:55", "kind": "book", "text": "Fresh broker export (2026-08-14): $36,578.93, 45.95% cash."}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Added to your list: OSPREY spec-batch (war-triad sweep 8/15, 4 items, rule as ONE batch): "}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Added to your list: FALCON spec-batch (war-triad sweep 8/15, 3 items, rule as ONE batch): "}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Added to your list: HAWK spec-batch (war-triad sweep 8/15, 5 items, rule as ONE batch): \u2460 "}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Added to your list: November credential sitting \u2014 TWO regenerations, one sitting (~Nov 1):"}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Added to your list: War-risk premium observability \u2014 source upgrade, BOTH legs, one item ("}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Added to your list: CRUISE re-classification + arm-CCL ladder registration \u2014 DAEDALUS's 8/"}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Off your list: HENRY standing boot-rule blessing"}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Off your list: FFIEC CDR account"}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Off your list: RAV charter review \u2192 formal ROSTER row"}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Off your list: Repo public flip"}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Off your list: Robinhood screenshot"}
+{"ts": "2026-08-16T21:55", "kind": "queue", "text": "Off your list: LAUNCH TERRY (own window) \u2014 clears three items in one session"}
+{"ts": "2026-08-16T21:55", "kind": "clock", "text": "New date 2026-08-17: Japan Q2 GDP (landed overnight Sun ET"}
+{"ts": "2026-08-16T21:55", "kind": "clock", "text": "New date 2026-08-18: Forum-4 \u00a76 candidate-slate reconciliation"}
+{"ts": "2026-08-16T21:55", "kind": "clock", "text": "New date 2026-08-19: FORUM fin-cond T7: FOMC-minutes resolver (BOND frozen text)"}
+{"ts": "2026-08-16T21:55", "kind": "clock", "text": "New date 2026-08-20: OSPREY Channel-3 (shadow-fleet) kill watch"}
+{"ts": "2026-08-16T21:55", "kind": "clock", "text": "New date 2026-08-21: \u2605 COT vintage #2 (as-of 8/18, posts Fri 15:30 ET): GATE-BRENT-COT-35B re-r"}

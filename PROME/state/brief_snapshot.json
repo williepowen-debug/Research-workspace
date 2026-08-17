@@ -4,27 +4,31 @@
   "Credit": "crit",
   "Energy": "crit",
   "Equity-vol": "watch",
-  "Japan / carry": "crit",
+  "Japan / carry": "none",
+  "Metals": "elev",
   "Rates": "crit",
-  "War-theater gates + housing recognition": "none"
+  "War theaters + housing": "none"
  },
  "docket": {
-  "2026-08-04": "BOJ current-account projections primary",
-  "2026-08-05": "Tricolor criminal: defense Rule 17 subpoena deadline on the Ch.7 TRUSTEE (",
-  "2026-08-06": "BDC Q2 marks cluster",
-  "2026-08-07": "\u2605 JPY COT attribution print (Aug-4 data, 3:30 PM ET) = GATE-SAM-30 pre-reg",
-  "2026-08-09": "Architecture SECOND WAVE (Will-approved 7/28; T2-b ALREADY SHIPPED 7/28 ev"
+  "2026-08-17": "Japan Q2 GDP (landed overnight Sun ET",
+  "2026-08-18": "Forum-4 \u00a76 candidate-slate reconciliation",
+  "2026-08-19": "FORUM fin-cond T7: FOMC-minutes resolver (BOND frozen text)",
+  "2026-08-20": "OSPREY Channel-3 (shadow-fleet) kill watch",
+  "2026-08-21": "\u2605 COT vintage #2 (as-of 8/18, posts Fri 15:30 ET): GATE-BRENT-COT-35B re-r"
  },
  "gates": {
-  "GATE-BRENT-DEPLOY-V2": "LIVE",
+  "GATE-BRENT-COT-35B": "LIVE",
+  "GATE-BRENT-DEPLOY-V2": "RETIRED",
   "GATE-BRENT-SUSTAIN": "RESOLVED",
-  "GATE-BRK-C1": "LIVE",
+  "GATE-BRK-C1": "RESOLVED",
   "GATE-FALCON-001": "LIVE",
   "GATE-HY-REKILL": "LIVE",
   "GATE-LIQ-069": "LIVE",
   "GATE-LIQ-072": "LIVE",
   "GATE-LIQ-076": "LIVE",
   "GATE-LIQ-079": "LIVE",
+  "GATE-NEXUS-SEAT-01": "LIVE",
+  "GATE-OP-SCALE-01": "LIVE",
   "GATE-OSPREY-001": "LIVE",
   "GATE-RESHAPE-BC": "RESOLVED-FIRED",
   "GATE-SAM-30": "RESOLVED",
@@ -36,17 +40,17 @@
   "GATE-VIO-116": "RESOLVED"
  },
  "money": {
-  "cash": "52.80",
-  "total": "39,514.28",
-  "vintage": "2026-08-02"
+  "cash": "45.95",
+  "total": "36,578.93",
+  "vintage": "2026-08-14"
  },
  "queue": {
-  "12": "HENRY standing boot-rule blessing",
-  "13": "FFIEC CDR account",
-  "15": "RAV charter review \u2192 formal ROSTER row",
   "16": "Broker-export residue (was: confirms bundle \u2014 MOSTLY RESOLVED by the 8",
-  "17": "Repo public flip",
-  "20": "Robinhood screenshot",
-  "22": "LAUNCH TERRY (own window) \u2014 clears three items in one session"
+  "31": "November credential sitting \u2014 TWO regenerations, one sitting (~Nov 1):",
+  "41": "War-risk premium observability \u2014 source upgrade, BOTH legs, one item (",
+  "52": "OSPREY spec-batch (war-triad sweep 8/15, 4 items, rule as ONE batch): ",
+  "53": "FALCON spec-batch (war-triad sweep 8/15, 3 items, rule as ONE batch): ",
+  "54": "HAWK spec-batch (war-triad sweep 8/15, 5 items, rule as ONE batch): \u2460 ",
+  "55": "CRUISE re-classification + arm-CCL ladder registration \u2014 DAEDALUS's 8/"
  }
 }
