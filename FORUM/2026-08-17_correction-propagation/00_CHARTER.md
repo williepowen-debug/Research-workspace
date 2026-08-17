@@ -1,5 +1,5 @@
 # FORUM — process bloc: correction propagation in a serial-session fleet
-**Session:** 2026-08-17 · convened by Will ~evening ("okay go forward with it", after PROME's composition + topic assessment) · PROME orchestrating
+**Session:** 2026-08-17 · convened by Will early afternoon ~14:0x ET ("okay go forward with it", after PROME's composition + topic assessment; "evening" label corrected same session on Will's clock check 14:19 ET — the day's sibling records share the mislabel) · PROME orchestrating
 **Participants:** PROME (coordination rails + record-keeping lane — participant AND orchestrator, adversarial self-inclusion applies in full) · DAEDALUS (mechanism/architecture lane) · WALTER (signal-routing/lanes lane) · NEXUS (consumer-of-record lane — the desk that boots off everyone's briefs)
 **Genre note:** first PROCESS forum (all five priors asked market questions). Convening basis = template §When-to-convene, clause 3: Will convenes a system review.
 **Run window:** at Will's spawn of the three seat windows — charter stands ready; PROME's recommendation of record is 8/18 eve or 8/19 (the quiet window before Thu 8/20). Fresh windows, not carried sessions.

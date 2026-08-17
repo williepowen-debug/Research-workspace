@@ -1,4 +1,5 @@
-# RULING RECORD — 2026-08-17 EVE "approve" batch (Will in-session, verbatim: **"approve"**, on PROME's three-item presentation)
+# RULING RECORD — 2026-08-17 "approve" batch (Will in-session, verbatim: **"approve"**, on PROME's three-item presentation)
+**⚠️ TIME-LABEL CORRECTION (same session, on Will's clock check 14:19 ET):** this session ran EARLY AFTERNOON Monday (~12:00-14:xx ET, markets OPEN), not evening — the "EVE" in this filename and the "evening" labels in tonight's sibling records were PROME's clock error. **Filename kept as-is deliberately: CHECK_STANDARD §9 cites this path** (`8d3c4d7cb`); renaming would break a canon pointer to fix a cosmetic label. Dates are correct everywhere; only time-of-day labels were wrong.
 
 **Presented items and rulings:**
 
