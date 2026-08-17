@@ -50,6 +50,44 @@ def run(cmd):
         return 2
 
 
+def run_rc_and_marker(cmd):
+    """Run a script that has REAL rc semantics AND may print alert markers, and
+    flag on EITHER. Returns max(rc-verdict, marker-verdict).
+
+    Why this exists (DAEDALUS SFG sweep 2026-08-17, §8 rule 5): power_watch used
+    plain run(), so its verdict was rc-ONLY. Its rc contract covers the cases it
+    knows to score (emergency-class posting, Orange-band LMP, negative spark,
+    fetch failure) — but any ⚠️ it prints for a case OUTSIDE that contract
+    (a vintage-mismatch refusal, a cache-provenance caveat, a future warning
+    added by a later edit) rendered at rc 0 and did NOT flip the boot verdict.
+    That is the silent-fallback-green class: a warning that prints green.
+
+    Unlike run_alert(), rc is NOT ignored here — power_watch's rc is meaningful
+    and authoritative for what it scores. This is strictly ADDITIVE: it can only
+    escalate a verdict, never suppress one. Output is captured and re-printed so
+    the marker test can see it; ordering is preserved (stdout then stderr).
+    """
+    try:
+        p = subprocess.run([PYTHON, *cmd], cwd=str(ROOT),
+                           capture_output=True, text=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"  boot.py: FAILED to launch {cmd[0]}: {e}", file=sys.stderr)
+        return 2
+    out = (p.stdout or "").rstrip()
+    err = (p.stderr or "").rstrip()
+    if out:
+        print(out)
+    if err:
+        print(err, file=sys.stderr)
+    rc = p.returncode if p.returncode in (0, 1, 2) else 2
+    # markers on EITHER stream — power_watch prints its fetch failures to stderr
+    marker = 1 if any(m in s for s in (out, err) for m in ("⚠️", "🔴")) else 0
+    if marker and rc == 0:
+        print("  boot.py: power_watch printed an alert MARKER at rc 0 "
+              "— escalating to REVIEW (SFG guard, 2026-08-17).")
+    return max(rc, marker)
+
+
 def run_alert(cmd):
     """Run an ALERT-CONTRACT script (ledger_staleness: prints only when something
     needs attention, exit code ALWAYS 0 by documented contract). Relay its output;
@@ -119,7 +157,10 @@ def main():
     rcs = []
 
     print("\n--- 1. power_watch (P1 stress->price live read) ---")
-    rcs.append(("power_watch", run([str(POWER_WATCH)])))
+    # rc AND marker (was rc-only until 2026-08-17). power_watch's rc scores the
+    # cases it knows about; the marker test catches anything it warns about
+    # outside that contract. DAEDALUS SFG sweep §8 rule 5.
+    rcs.append(("power_watch", run_rc_and_marker([str(POWER_WATCH)])))
 
     print("\n--- 2. ledger staleness (workbook + TRADE.md vs STATUS) ---")
     # --days 7, NOT the shared script's 30-day default. That default is tuned for

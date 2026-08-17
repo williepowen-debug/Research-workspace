@@ -81,7 +81,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -125,6 +125,13 @@ HEAT_RATE_MMBTU_PER_MWH = 7.0
 HEAT_RATE_LABEL = "EIA benchmark 7,000 Btu/kWh (efficient-CCGT proxy, not live marginal HR)"
 LMP_ORANGE = 500.0   # $/MWh — WATT THRESHOLDS Orange band
 LMP_RED = 1000.0     # $/MWh — WATT THRESHOLDS Red band / scarcity cap zone
+
+# Max allowed vintage gap (days) between the spark's power leg and its gas leg.
+# Beyond this the proxy-basis spread is REFUSED, not caveated (L-17 fix 2026-08-17;
+# N5 v1.1 capture-time clause). 3 days tolerates a weekend; the ICE file's real
+# lag is ~12 days, so in practice the proxy spark is refused and the same-vintage
+# DM2 figure carries. Chosen from the CADENCE of the gas leg (daily), not inherited.
+SPARK_MAX_VINTAGE_GAP_DAYS = 3
 
 
 def fetch_pjm_postings():
@@ -269,6 +276,52 @@ def read_pjm_lmp_official(api_key):
             (float(peak["total_lmp_rt"]), stamp(peak)), len(items))
 
 
+def read_pjm_onpeak_mean(api_key, days=6, end=None):
+    """SAME-VINTAGE power leg for the spark spread: mean PJM-RTO on-peak RT LMP
+    (HE08-23 EPT) over the `days` calendar days ENDING at `end` (default: the
+    most recent complete EPT day). Returns (mean_lmp, first_day, last_day, n).
+
+    WHY THIS EXISTS (L-17, 2026-08-04; reinforced by N5 v1.1's capture-time
+    clause 2026-08-13): leg-4's spark paired a ~12-day-stale ICE power print with
+    a SAME-DAY gas quote. On 2026-08-17 that printed +$59.37/MWh against a
+    same-vintage +$48.31 — an $11.06 overstatement, and the error GROWS the more
+    the market trends, because the stale leg is drawn from a different regime.
+    A derived metric across mismatched vintages is biased toward the regime its
+    stale leg came from; it is not a measurement.
+
+    BASIS NOTE, and it matters: this is RT on-peak LMP, NOT the ICE peak-period
+    OTC print. Different products. This series and the leg-4 proxy series are NOT
+    interchangeable, and a level change BETWEEN them is a basis change, not a
+    market move — never score that delta against P4's 'compresses 50%' trigger.
+    Uses the UNVERIFIED 5-min feed (the verified hourly lags ~4 days, measured
+    2026-08-17, KB-WATT-081), so it is an operational read, not settlement.
+    """
+    now_ept = datetime.now(ZoneInfo("America/New_York"))
+    last = end or (now_ept.date() - timedelta(days=1))
+    first = last - timedelta(days=days - 1)
+    fmt = lambda d: f"{d.month}/{d.day}/{d.year}"  # noqa: E731 — API wants no leading zeros
+    qs = urllib.parse.urlencode({
+        "rowCount": 6000, "startRow": 1,
+        "datetime_beginning_ept": f"{fmt(first)} 00:00to{fmt(last)} 23:59",
+        "pnode_id": PJM_RTO_PNODE_ID,
+        "fields": "datetime_beginning_ept,total_lmp_rt",
+    })
+    req = urllib.request.Request(
+        f"{PJM_DM2_BASE}/rt_unverified_fivemin_lmps?{qs}",
+        headers={"Ocp-Apim-Subscription-Key": api_key})
+    with urllib.request.urlopen(req, timeout=45) as resp:
+        payload = json.loads(resp.read().decode("utf-8"))
+    items = payload.get("items") or []
+    vals = [float(r["total_lmp_rt"]) for r in items
+            if 8 <= int(r["datetime_beginning_ept"][11:13]) <= 23]
+    if len(vals) < 100:  # ~12 prints/hr x 16 on-peak hrs x 6d ~= 1150; fail loud
+        raise ValueError(
+            f"DM2 on-peak window {first}..{last} returned only {len(vals)} on-peak "
+            f"prints ({len(items)} rows total) — feed gap or query break, refusing "
+            f"to compute a spark from a thin window")
+    return sum(vals) / len(vals), first, last, len(vals)
+
+
 def lmp_band(wtd):
     """WATT THRESHOLDS band label for a $/MWh print."""
     if wtd >= LMP_RED:
@@ -322,11 +375,28 @@ def main():
     try:
         retail = read_retail_prices()
         print(f"\n  RETAIL PRICE BACKDROP (US avg, EIA monthly, ~2mo lag):")
+        # (source-mode note printed once, after both EIA legs — see below)
         print(f"    Industrial:  {retail['IND'][0]:.2f} c/kWh ({retail['IND'][1]})")
         print(f"    Residential: {retail['RES'][0]:.2f} c/kWh ({retail['RES'][1]})")
     except Exception as e:
         failures.append(f"retail: {e}")
         print(f"\n  ERROR retail price backdrop FAILED: {e}", file=sys.stderr)
+
+    # --- EIA source-mode provenance (DAEDALUS SFG sweep §8 rule 1, 2026-08-17) ---
+    # Legs 2 and 3 call the shared FORGE fetch.py, which has a cache layer whose
+    # HITS CARRY NO MARKER in the returned payload (logged only to
+    # logs/market_data.log). So a cache-served value renders here exactly like a
+    # live pull. The TTL bounds the damage (<=1hr) and both legs already stamp the
+    # DATA vintage — which is the figure that matters for a claim — but the
+    # SOURCE-MODE is genuinely not distinguishable from this side.
+    # Stating the limit is the honest fix; asserting "live" would be the PAT-107
+    # error (my own: I published an instrument clock I had assumed, not probed).
+    # A real fix belongs in fetch.py = FORGE = shared: flagged to PROME, not
+    # edited here (root CLAUDE.md — do not commit outside your own dir).
+    print("\n  NOTE: EIA LEG PROVENANCE — date stamps above are DATA vintage (authoritative). "
+          "SOURCE-MODE (live pull vs <=1hr FORGE cache hit) is NOT distinguishable "
+          "from this side — fetch.py cache hits carry no payload marker. "
+          "Not an alert; a stated wall.")
 
     # --- 4. LMP-proxy + spark spread (EIA ICE wholesale, biweekly lag) ---
     lmp = None          # latest proxy row
@@ -352,20 +422,60 @@ def main():
 
         try:
             hh = read_henry_hub()
-            spread = lmp["wtd"] - HEAT_RATE_MMBTU_PER_MWH * hh[0]
-            spread_hi = lmp["wtd"] - 8.0 * hh[0]  # older-unit sensitivity (higher HR)
             print(f"\n  SPARK SPREAD (P4; heat rate {HEAT_RATE_MMBTU_PER_MWH} MMBtu/MWh "
                   f"= {HEAT_RATE_LABEL}):")
-            print(f"    power ${lmp['wtd']:,.2f} (deliv {lmp['deliv']}) - "
-                  f"{HEAT_RATE_MMBTU_PER_MWH} x HH ${hh[0]:.3f} ({hh[1]}) "
-                  f"= {'+' if spread >= 0 else ''}${spread:,.2f}/MWh")
-            print(f"    sensitivity @ HR 8.0 (older marginal unit): "
-                  f"{'+' if spread_hi >= 0 else ''}${spread_hi:,.2f}/MWh "
-                  f"(delta ${spread - spread_hi:,.2f} — low while gas is cheap)")
-            if lmp["deliv"] is not None and str(lmp["deliv"]) != hh[1]:
-                print(f"    (vintage mismatch: power leg {lmp['deliv']} vs gas leg {hh[1]} — "
-                      f"biweekly file lag; do not read as a same-day spread)")
-            if spread < 0:
+
+            # --- PRIMARY: same-vintage spark off DM2 on-peak (L-17 fix, 8/17) ---
+            api_key = os.environ.get("PJM_API_KEY")
+            if api_key:
+                try:
+                    opk, d0, d1, n = read_pjm_onpeak_mean(api_key, days=6)
+                    spread = opk - HEAT_RATE_MMBTU_PER_MWH * hh[0]
+                    spread_hi = opk - 8.0 * hh[0]
+                    print(f"    SAME-VINTAGE (primary): PJM-RTO on-peak mean "
+                          f"${opk:,.2f}/MWh (HE08-23 EPT, {d0}..{d1}, n={n:,}) - "
+                          f"{HEAT_RATE_MMBTU_PER_MWH} x HH ${hh[0]:.3f} ({hh[1]}) "
+                          f"= {'+' if spread >= 0 else ''}${spread:,.2f}/MWh")
+                    print(f"      sensitivity @ HR 8.0 (older marginal unit): "
+                          f"{'+' if spread_hi >= 0 else ''}${spread_hi:,.2f}/MWh "
+                          f"(delta ${spread - spread_hi:,.2f} — low while gas is cheap)")
+                except Exception as e:  # noqa: BLE001
+                    failures.append(f"DM2 on-peak: {e}")
+                    print(f"    ⚠️ SAME-VINTAGE spark NOT COMPUTED (DM2 on-peak leg "
+                          f"failed: {e})", file=sys.stderr)
+            else:
+                print("    ⚠️ SAME-VINTAGE spark SKIPPED — no PJM_API_KEY "
+                      "(proxy-basis figure below is vintage-mismatched; see refusal rule)")
+
+            # --- SECONDARY: ICE-proxy spark, REFUSED on a stale power leg -------
+            # L-17 / N5 v1.1 capture-time clause: do NOT print a spread whose two
+            # legs are days apart. It is not conservative to print it with a
+            # caveat — the number gets quoted and the caveat does not travel.
+            gap = None
+            if lmp["deliv"] is not None:
+                try:
+                    gap = (datetime.strptime(hh[1], "%Y-%m-%d").date() - lmp["deliv"]).days
+                except Exception:  # noqa: BLE001
+                    gap = None
+            proxy_spread = lmp["wtd"] - HEAT_RATE_MMBTU_PER_MWH * hh[0]
+            if gap is not None and gap > SPARK_MAX_VINTAGE_GAP_DAYS:
+                print(f"    NOTE: PROXY-BASIS spark REFUSED (by design) — power leg deliv {lmp['deliv']} "
+                      f"vs gas leg {hh[1]} = {gap}-day vintage gap "
+                      f"(> {SPARK_MAX_VINTAGE_GAP_DAYS}d limit). Would have printed "
+                      f"{'+' if proxy_spread >= 0 else ''}${proxy_spread:,.2f}/MWh — "
+                      f"a stale-regime power leg against today's gas. Use the "
+                      f"same-vintage figure above.")
+            else:
+                print(f"    proxy basis: power ${lmp['wtd']:,.2f} (deliv {lmp['deliv']}) - "
+                      f"{HEAT_RATE_MMBTU_PER_MWH} x HH ${hh[0]:.3f} ({hh[1]}) "
+                      f"= {'+' if proxy_spread >= 0 else ''}${proxy_spread:,.2f}/MWh "
+                      f"(gap {gap}d)")
+                if spread is None:
+                    spread = proxy_spread
+            print("      NOTE: BASIS — RT on-peak LMP != ICE peak-period OTC — different "
+                  "products. Never treat the two as one compression time-series.")
+
+            if spread is not None and spread < 0:
                 lmp_review = True
                 print(f"    SPREAD NEGATIVE — gas-fired uneconomic — REVIEW")
         except Exception as e:
