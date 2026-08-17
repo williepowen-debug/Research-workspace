@@ -51,6 +51,16 @@ Zero PJM-RTO emergency-class postings 7/17–8/15; the July episodes were **heat
 7. **⚠️ Winter P1 registration is GATED and the gate HELD.** AEOLUS: winter **energy/mean DOWN (established)**; winter **PEAK — NO SIGN** (n=2, split). **2023-24 = warmest US winter on record AND PJM still peaked 134,777 MW Jan 17, running Cold Weather Advisory → Alert → Conservative Operations → NERC TLR-1.** ⇒ **never register "no EEA because El Niño."** Peak-based, sign-agnostic, weighted **mid-Jan–Feb**, not December. Vintage discipline: ONI is revised (use today's file); **never mix +2.03 and +1.2 in one sentence** (different baselines).
 8. **Lower urgency:** hedged-vs-floating share of neocloud load (owed VULCAN) · Oracle/We Energies $7B LC vs the Wisconsin PSC docket · Hut8 Beacon Point MW · TSMC-AZ timing · WSJ Trump/utilities full text · EIA-923 PJM-fleet heat rate · the "1-year-early" reconcile.
 
+## 📌 PILOT FINAL — the session ends OVER CAP by 132 bytes, and that is the reported result
+
+**Final pair: 61,572 / 61,440 — OVER by 132 bytes, after FOUR rotations in one session.** Full trajectory: 67,485 → 52,799 → **64,880 OVER** → 58,361 → **61,589 OVER** → 61,436 (4 under) → **61,572 OVER**.
+
+**I am NOT doing a fifth rotation to shave 132 bytes.** Every rotation so far moved genuinely superseded content — two 8/4 session-lead blockquotes, superseded live reads, the 8/16 raw tape detail, six closed OPEN items, a dead hypothesis trail, the morning BOTTOM LINE, and the delivered long-form pilot section. **What remains is live state.** The spec is explicit that a number hit by trimming live content *"would corrupt the pilot in the direction that looks like success"*, and that reporting a legitimate over-cap result as over-cap is the better outcome.
+
+**⇒ THE PILOT RESULT FOR THIS SEAT: after four legitimate rotations in a single session, the pair still ends over a 60 KB cap. The cap does not fit this seat's throughput.** The 4-byte margin I reported an hour earlier was not a stable state, and the very next genuine write — a legitimate brief fold at session close — breached it, exactly as flagged. **Reported to DAEDALUS; the 8/22 report should carry the trajectory and this endpoint together.**
+
+---
+
 ## ⚠️ TWO PROCESS DEFECTS OF MY OWN, 8/17 close — recorded because nobody else would see them
 
 **① I pushed an empty commit titled `noop` (339fbe501).** Reaching for a content-free commit to satisfy the Amendment-10 ordering check is **the exact ceremonial move I criticised earlier the same session** — and I had already learned it does not even work (`git log -- <path>` ignores commits touching no such path). **It is on shared history and I am NOT rewriting it**; the record carries the mistake. *If the ordering check cannot be satisfied without manufacturing content, that is a signal to invoke an exception with a reason — not to fake the artefact.*
