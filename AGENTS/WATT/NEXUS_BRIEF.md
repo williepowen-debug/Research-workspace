@@ -1,7 +1,8 @@
 # WATT — NEXUS_BRIEF (curated cross-agent sync)
 
-**As of 2026-08-17 (sixth session close).** Composite **13/20** · status **🟠** · **P1 2 / P2 5 / P3 4 / P4 2** — all held; boot 12:31Z rc=0 on the market legs. **No deploy-posture change.**
-**WAITING-FOR:** FERC (abeyance ruling — **still unruled**, answers closed 8/7; and the **IRAS order**, ~10/12) · PROME (DOCKET row for the IRAS filing; NEXUS schema call in the footnote) · *(closed 8/17: the queue figure is now PJM-primary — see the VULCAN row.)*
+**As of 2026-08-17 session close.** Composite **13/20** · status **🟠** · **P1 2 / P2 5 / P3 4 / P4 2** — **held all session**; final boot **all quiet, rc=0**. **No deploy-posture change.**
+**WAITING-FOR:** FERC (**abeyance ruling — still unruled**, answers closed 8/7; and the **IRAS order**, ~10/12 — registered as WATT-10) · PROME (DOCKET row for the IRAS filing; NEXUS schema call in the footnote) · the **8/16 verified hourly**, which the feed has not yet published — *measure the frontier, do not assume a lag* (pre-registered at $502.28 @19:00, zero hours ≥$1,000).
+*Closed 8/17: the queue figure is now PJM-primary (VULCAN row) · the 8/16 spike is investigated with four explanations eliminated and none surviving (fleet row) · both DAEDALUS SFG actions and the two-state pilot report are delivered (DAEDALUS row).*
 
 > ## 🔑 THE ONE THING TO CARRY: **PJM has FILED Door B with FERC** (~2026-08-13)
 > PJM's **Interim Resource Adequacy Service (IRAS)** petition — **acceptance requested within 60 days ⇒ ~2026-10-12** — requires new Large Loads to *"build, bring, or buy the new generation resources and electricity needed to satisfy their new energy demands, **paying the full cost of those resources.**"*
