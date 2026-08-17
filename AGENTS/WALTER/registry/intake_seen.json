@@ -3,11 +3,9 @@
     "fred:UMCSENT:orange": "2026-07-31T23:49:10Z",
     "fred:PSAVERT:orange": "2026-07-02T23:30:01Z",
     "fred:MORTGAGE30US:orange": "2026-07-17T01:56:58Z",
-    "fred:BAMLH0A0HYM2:orange": "2026-08-07T22:19:11Z",
     "eia:commercial_crude_mbbl:orange": "2026-08-13T16:55:13Z",
-    "cftc:cftc_cot_VIX_lev_money_net_3773_orange_n:orange": "2026-08-10T16:33:14Z",
-    "news:NEW_ALERT:data/2026-08-14/news.json": "2026-08-15T01:45:23Z",
-    "news:NEW_WATCH:data/2026-08-14/news.json": "2026-08-15T01:45:23Z"
+    "news:NEW_ALERT:data/2026-08-17/news.json": "2026-08-17T16:53:48Z",
+    "news:NEW_WATCH:data/2026-08-17/news.json": "2026-08-17T16:53:48Z"
   },
-  "updated": "2026-08-15T01:45:23Z"
+  "updated": "2026-08-17T16:53:48Z"
 }
