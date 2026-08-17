@@ -76,3 +76,7 @@ Oil & energy markets — Brent/WTI spot + term structure, crack spreads, OPEC+, 
 - Does BRENT adopt the general-inbox boot step + outbox delivered-move step (its edit, its wording)? Verify at next touch.
 - thresholds.py repoint: registry-read vs parse-THESIS — which form does BRENT choose? (Feeds the blueprint THRESHOLDS.tsv item, n=2.)
 - FASTOW: resume runs or write the dormancy note?
+
+---
+## Δ 2026-08-17 — BODY SUPERSEDED IN PART (structure review; all 3 of this profile's own refresh triggers FIRED — rebuild queued)
+Triggers fired: THESIS **v5.1→v5.6** · TRADE ~160→**822 lines** · convergence matrix **ARCHIVED 8/13** (no live successor — L3 dimension deliberately vacant, honest banner, no rewrite trigger). §2 position table stale (STNG removed 8/04 as never-held; live book = 5 legs ~$5,131 broker-verified 8/04). §4's S1-S4 structural findings **ALL CLOSED** (verified 8/17); §6's L5 condition narrowed to the one derived-surface closeout leg (failed a 3rd time — TRADE:3 stamp class). thresholds.py re-pointed to REGISTRY **and** the FRED-shadow killed 8/17 (`bb0f1749f`). FASTOW still dormant, note still missing (3rd flag). **Read the three 8/17 reader reports + synthesis (`upgrades/BRENT_*_2026-08-17.md`, `SAM_BRENT_REVIEW_2026-08-17_SYNTHESIS.md`) before relying on any §-body claim.**
