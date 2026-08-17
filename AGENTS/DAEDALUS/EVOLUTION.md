@@ -329,3 +329,7 @@ WATT's first live wiring of the rule-5 marker contract inverted the failure it f
 ## 2026-08-17 (e) — byte-tier reference implementation named (WATT, same-night adoption)
 
 WATT implemented the byte tier hours after ratification (`bee36f441`) and it is the reference form: artifact-verified ruling → seat budget with on-surface rationale (the PAT-086 case cleanly: line cap 42%, default byte budget 129%) → byte tier ordered to bind before the line cap → advisory-by-design (never auto-rotate) → guard tested 4/4. Named in market-agent.md so later adopters meet the pattern, not just the rule. PAT-101 rule ii: entry rides the BLUEPRINTS commit.
+
+## 2026-08-17 (f) — byte-tier clause gains crc-at-rotation-time + contiguous-only (WATT reference self-audit)
+
+Being named reference made WATT re-read the convention against its own work and find the gap (verbatim but never checksummed — "a reference implementation that skips a clause teaches the next adopter to skip it"). Retroactive discharge: 10/11 blocks proven byte-identical via parent-revision matching (its first pass omitted parents, returned 7 false UNMATCHED, and WATT caught the CHECKER bug before reporting it as a rotation defect); the one REASSEMBLY recorded as unproven, not smoothed. Both proposed clauses encoded verbatim-intent: crc at rotation time; contiguous regions only. PAT-101 rule ii: rides the BLUEPRINTS commit.
