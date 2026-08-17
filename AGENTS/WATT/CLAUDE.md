@@ -178,10 +178,10 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** <250 lines. |
+| `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** **<250 lines AND <64,000 bytes** (byte tier, fleet convention Will-ratified 2026-08-17). ⚠️ **64,000 is set from MEASUREMENT, not the ~128 B/line default:** this file measured **392 B/line** on 2026-08-17 — **3.1×** the default assumption — so a 32,000 B default budget would read **129% while the LINE cap sat at 42%**, forcing rotation of LIVE state on day one. At **≥75% (48,000 B)** rotate the oldest history blocks **verbatim** into `status_archive/` until **<70% (44,800 B)**. **Rotation, never deletion; never trim live state to hit the number.** Checked at boot (leg 3). |
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas (IPP equities, power-event calls) feeding PROME synthesis. Carry a FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |
-| `boot.py` | Boot instrument: runs `power_watch.py` + ledger staleness + predictions-due. cwd-proof; self-locating. |
+| `boot.py` | Boot instrument: `power_watch.py` (rc **OR** alert-marker) + ledger staleness (`--days 7`) + **STATUS byte budget** + predictions-due. cwd-proof; self-locating. |
 | `power_watch.py` | PJM instrument, **5 legs**: ① emergency postings · ② EIA-930 demand vs 24h peak · ③ retail backdrop · ④ EIA ICE wholesale proxy + spark spread (**backdrop only — ~12-day lag**) · ⑤ official **Data Miner 2** 5-min LMP (`PJM_API_KEY`). ⚠️ **DM2 verified hourly (`rt_hrl_lmps`) lags ~4 DAYS, not 1 business day** — measured 8/17 (KB-WATT-081). Imports the shared FORGE `fetch.py`. |
 | `KILL_MEMO.md` | Pre-written cascade ladder — what to do WHEN a conjunction trigger fires, written cold and **decoupled from STATUS rewrites** (CLAUDE.md THRESHOLDS clause). |
 | `SCRATCH.md` | Immediate next-session continuity — "pick up here." Read at boot, append at closeout. |

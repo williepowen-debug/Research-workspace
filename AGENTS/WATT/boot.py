@@ -150,6 +150,51 @@ def predictions_due():
     return len(due), due
 
 
+# --- STATUS byte budget (fleet BYTE TIER convention, Will-ratified 2026-08-17) -----
+# The line cap alone measures the one dimension that stops moving (PAT-086). Every
+# STATUS cap carries a byte budget beside it; at >=75% the owner rotates the oldest
+# history blocks VERBATIM into a dated archive until <70%. Rotation, never deletion.
+#
+# WATT's budget is 64,000 B — NOT the ~128 B/line x 250 = 32,000 default — set from
+# measurement, per the convention's "owner sets it" clause:
+#   measured 2026-08-17: STATUS = 105 lines / 41,190 bytes = 392 B/line.
+# That is 3.1x the 128 B/line the default assumes. On the default budget this file
+# would sit at 129% while using only 42% of its LINE cap, forcing rotation of LIVE
+# state on day one — the opposite of the convention's intent. 64,000 B = 256 B/line
+# across the 250-line cap, still BINDING WELL BEFORE the line cap (~163 lines at
+# measured density), which is correct: for a dense file the byte budget should bind
+# first. Trigger 48,000 · rotate to <44,800.
+STATUS_BYTE_BUDGET = 64_000
+STATUS_ARCHIVE_DIR = HERE / "status_archive"
+
+
+def status_byte_budget():
+    """Byte-tier check on STATUS.md. Returns 0 quiet / 1 rotate-now / 2 unreadable.
+    ADVISORY BY DESIGN: it prints a marker and asks for a rotation decision; it never
+    rotates anything itself. Choosing WHAT is superseded is a judgment call, and an
+    auto-rotator would eventually move live state to hit a number — the exact
+    corruption the two-state pilot spec warns about."""
+    p = HERE / "STATUS.md"
+    try:
+        b = p.stat().st_size
+        lines = sum(1 for _ in p.open())
+    except Exception as e:  # noqa: BLE001
+        print(f"  STATUS byte budget: UNREADABLE ({e})", file=sys.stderr)
+        return 2
+    pct = b / STATUS_BYTE_BUDGET * 100
+    dens = b / lines if lines else 0
+    if pct >= 75.0:
+        target = int(STATUS_BYTE_BUDGET * 0.70)
+        print(f"  \u26a0\ufe0f STATUS {b:,} B = {pct:.0f}% of the {STATUS_BYTE_BUDGET:,} B budget "
+              f"({lines} lines, {dens:.0f} B/line) — ROTATE oldest history blocks "
+              f"verbatim into {STATUS_ARCHIVE_DIR.name}/ until < {target:,} B. "
+              f"Rotation, never deletion; never trim live state to hit the number.")
+        return 1
+    print(f"  \u2713 STATUS {b:,} B = {pct:.0f}% of {STATUS_BYTE_BUDGET:,} B budget "
+          f"({lines} lines = {lines/250*100:.0f}% of the 250-line cap, {dens:.0f} B/line)")
+    return 0
+
+
 def main():
     print("=" * 72)
     print("  WATT BOOT — power_watch · ledger staleness · predictions-due")
@@ -180,7 +225,10 @@ def main():
         print("  ✓ quiet (alert-contract: output only when stale/misconfigured)")
     rcs.append(("staleness", 2 if 2 in (sw, st) else (1 if 1 in (sw, st) else 0)))
 
-    print("\n--- 3. predictions-due scan ---")
+    print("\n--- 3. STATUS byte budget (byte-tier convention) ---")
+    rcs.append(("status_bytes", status_byte_budget()))
+
+    print("\n--- 4. predictions-due scan ---")
     n_due, due = predictions_due()
     if n_due == 0:
         print("  none due (or newborn ledger)")
