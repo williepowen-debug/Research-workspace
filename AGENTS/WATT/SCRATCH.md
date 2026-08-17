@@ -1,5 +1,70 @@
 # WATT — SCRATCH (next-session pickup)
 
+**2026-08-17 — SIXTH SESSION (Will-directed Monday boot; PROME doorbelled two perishables mid-boot). Two things fired and NEITHER was the summer heat this seat was built to catch.**
+
+**Composite 13/20, unchanged for a FOURTH session — and this time the COMPOSITION didn't move either (2/5/4/2). That is the honest result, not a shortfall:** both firings were **new information inside existing channels**, not escalations of them. Forcing a score move to signal "something happened" is the drift the #1 guard exists to stop.
+
+---
+
+## 🔑 HEADLINE — PJM HAS FILED DOOR B (~2026-08-13)
+
+PJM's **Interim Resource Adequacy Service (IRAS)** petition asks FERC to accept, **within 60 days (⇒ ~2026-10-12)**, a framework in which new Large Loads *"build, bring, or buy the new generation resources… **paying the full cost of those resources.**"* Components: Reliability Backstop Procurement (from **June 2027**) · a **Large Load Registry** · **emergency load reduction prioritizing large loads over residential** · from the **2029/30** BRA, new large loads without their own supply **excluded** from capacity procurement.
+
+- **This is WATT-08's question answered by the PROPOSING party ~10 months early.** Confidence **~65% → ~70% Door B, DATE UNCHANGED, NOT BANKED** (L-32). FERC's order registered as **WATT-10** (~10/12, outer bound 10/31).
+- **🔑 The under-noticed limb is (c)** — it writes **curtailment priority into TARIFF**, converting the DOE §202(c)/Manual 13 precedent from an *emergency action* into a **standing commercial term of service**.
+- ⚠️ **DOCKET NUMBER NOT VERIFIED.** FR combined-notice cycle runs **~4 days behind** (as of 8/17 it had published only filings received through 8/12); FR term-search for "Interim Resource Adequacy" returns **0**. Sourced to **PJM Inside Lines 8/13**, not eLibrary. **Cite no docket.** Relationship to **EL26-67 NOT established**.
+- **Routed to VULCAN, HENRY, CARL + PROME today.**
+
+**Abeyance still UNRULED, and there are now THREE motions** — **Silver Run Electric filed 8/3** for the same 90 days, and **FERC declined a shortened answer period for the SECOND time** (answers 5pm ET 8/7 both times) = weak evidence against a grant [FR 91 FR 51171-72, FR Doc 2026-16175, full text pulled]. ⚠️ A search summary ran the heading **"Abeyance Granted"** over text reciting only the MOTIONS — **fused claim, refuted by the primary.** And **every ISO/RTO** asked for the same 90 days (RTO Insider 8/4; EL26-67/68/70/71/72) — evidence about how hard large-load rules are to write.
+
+## 🔑 SECOND FIRING — MY OWN P1 RED BAND, ON A TECHNICALITY I SHOULD HAVE CLOSED WHEN I WROTE IT
+
+**Sunday 8/16: DM2 5-min max $1,217.52 @16:35 EPT — the season's first RED-band print.** 5 intervals ≥$1,000 in **two** episodes (16:20/16:35, then 19:40/19:50/19:55), 10 ≥$500, both retracing to $40–77 within 5–10 min, **day mean $78.41**.
+
+**Why it is a transient, and the evidence is clean:**
+- **Base rate (4,149 August 5-min intervals): 8/16 is the ONLY day with ANY print ≥$500.** Every other day's max = $73.16–$422.35. ≥$500 = 0.24%, ≥$1,000 = 0.12%, all one day.
+- **ANTI-correlated with demand** — 8/16 was the month's **LOWEST** peak (122,075 MW); the **highest** (145,375 MW, 8/6) maxed at **$422.35**.
+- **Zero PJM postings of any class** accompanied it.
+
+**⚠️ BUT: the old rule ("RT LMP >$1,000 sustained 2+ intervals" — no interval length, no scarcity qualifier) FIRED ON ITS LETTER** (19:50 + 19:55 consecutive ≥$1,000). Recorded as **FIRED-ON-LETTER / MECHANISM-REFUTED**; the old firing **stays in the record**; re-specified prospectively as a **conjunction**:
+> **LMP ≥$1,000 sustained 2+ CONSECUTIVE 5-min intervals AND (emergency posting live OR demand ≥97% of trailing 24h peak).**
+
+**⚠️ AND THE INVERSE GUARD — do not let next session dispose of this:** PJM **priced like scarcity at ~67% of installed capacity with no posting.** Logged as a live hypothesis, **FL-WATT-10 minimum-commitment fragility** (thin unit commitment in valley hours + a contingency or the sunset ramp), **with a test**. If real it moves P1 risk **from peak to valley** and couples to P3 (always-on load raises the valley floor).
+
+**P1 HELD at 2** — "cold channel with one unexplained transient" is a 2. **Registered upgrade trigger: a SECOND demand-decoupled RED print, or the 8/16 verified hourly confirming ≥$1,000 → 2→3.**
+
+## ✅ WATT-06 RESOLVED **MISS**
+
+Zero PJM-RTO emergency-class postings 7/17–8/15; the July episodes were **heat-clustered, not a cadence**. **Three independent legs** (the board is a rolling window and cannot certify a 30-day question): **(1) message-ID continuity** — 8/4 boot logged #105429 (8/3) latest; today #105434 (8/6) is **both the only posting and the latest ID** ⇒ nothing of any class issued 8/6→8/17, residue confined to IDs **105430–105433**; **(2) physical** — August's highest day 145,375 MW sat ~14 GW under the 159,046 MW at which the July EEA-1 fired; **(3) publisher** — PJM's **Hot Weather Alert 8/9-11** is *explicitly* "routine" and non-action-requiring, and no Max Gen/Load Management/EEA post all month. ⚠️ **The 8/16 spike does NOT count** — outside the window AND a price event where the bar is a **posting**.
+
+---
+
+## ▶ PICK UP HERE (priority order)
+
+1. **🔴 RE-PULL THE 8/16 DM2 VERIFIED HOURLY.** Not posted at 08:46 EPT 8/17 (Sunday → next business day ~11am–12pm). **PUBLIC-AND-UNFETCHED, NOT UNAVAILABLE.** `rt_hrl_lmps`, `pnode_id=1`, `8/16/2026 00:00to8/16/2026 23:59`. **Any hour ≥$1,000 → P1 2→3.** Expected to confirm the transient read — **grade on the instrument of record anyway** (L-16).
+2. **🟠 Verify 212,000 MW at a PJM primary AND establish its POPULATION.** Currently ONE secondary (law-firm digest). Whole active queue vs one cycle's intake vs EIT-eligible subset = **three different populations, only the first is the right denominator** for P3's `queue > 2× peak` rule (212 GW ÷ 160,451 MW = **~1.32×**; needs ~321,000 MW to trip). **Do not publish the ratio cross-agent until pulled.** *(PJM **EIT was ACCEPTED BY FERC 6/9/26** — the "targeted Aug-2026" item is CLOSED, two months early.)*
+3. **🟠 Pull the IRAS docket number** (retry FR API in a few days; or PJM eTariff FercDockets) **and establish its relationship to EL26-67.** Then **FERC's abeyance ruling**.
+4. **🟡 Test or kill FL-WATT-10.** PJM unit-commitment / reserve data for **8/16 16:20–16:35 and 19:35–20:00 EPT**; re-run demand-vs-price anti-correlation over a longer window than August.
+5. **🟡 P4 instrument fix — 13 days owed, and N5 now gives a SECOND independent argument for it.** Boot overstated by **$11.06** (+$59.37 vs same-vintage **+$48.31**). Also **undischarged under N5 (i-b): I have not established the settlement clock of the NG=F gas leg**, so every spark figure I publish is PROVISIONAL by default until I do (KB-WATT-079).
+6. **Predictions: 4 OPEN.** WATT-02 (9/7, EEA2+ — trending MISS; **do NOT bank the 8/16 price spike, its bar is a POSTING**) · WATT-08 (2027-06-30, ~70% Door B) · WATT-09 (~11/30, contingent) · **WATT-10 (NEW, 10/31 outer bound)**.
+7. **⚠️ Winter P1 registration is GATED and the gate HELD.** AEOLUS: winter **energy/mean DOWN (established)**; winter **PEAK — NO SIGN** (n=2, split). **2023-24 = warmest US winter on record AND PJM still peaked 134,777 MW Jan 17, running Cold Weather Advisory → Alert → Conservative Operations → NERC TLR-1.** ⇒ **never register "no EEA because El Niño."** Peak-based, sign-agnostic, weighted **mid-Jan–Feb**, not December. Vintage discipline: ONI is revised (use today's file); **never mix +2.03 and +1.2 in one sentence** (different baselines).
+8. **Lower urgency:** hedged-vs-floating share of neocloud load (owed VULCAN) · Oracle/We Energies $7B LC vs the Wisconsin PSC docket · Hut8 Beacon Point MW · TSMC-AZ timing · WSJ Trump/utilities full text · EIA-923 PJM-fleet heat rate · the "1-year-early" reconcile.
+
+## ▶ DUE 2026-08-22 — two-state STATUS pilot report to DAEDALUS
+
+**First rotation DONE: 10,902 B across 6 genuinely superseded blocks → `status_archive/STATUS_ARCHIVE_2026-08.md`. Pair 67,485 → 57,785 B, UNDER the 61,440 cap, nothing manufactured. Falsifier NOT hit.**
+**🔑 The finding that cuts against the pilot's premise (L-31):** DAEDALUS predicted I'd have **nothing** to rotate because my mass is *dense* (543 B/line) rather than accreted. **Density and accretion are INDEPENDENT.** I had no dated session *sections* — what its scanner matched on — but I did carry dated session lead **blockquotes** and live reads labelled *"retained for continuity."* **A scan keyed on headings cannot see accretion living inside prose.** Second time in two weeks the same detector class mis-read this agent (cf. the 8/3 falsification-rail mis-read). **Report it as an over-cap-solved-legitimately result, and say the scan was wrong about me in the direction of "clean."**
+
+---
+
+**INBOX: CLEARED** — 10 top-level packets + 7 WALTER signals all consumed and `git mv`'d to `processed/`. ⚠️ Note for next time: I moved all 7 WALTER signals first and only THEN read the 5 I hadn't consumed via VULCAN's relay — caught it, read them, logged KB-WATT-078/079/080. **Filing before reading is how a consumed-looking backlog hides unconsumed work.**
+
+**GIT:** local was **level with origin** at boot (fetched and verified) — no pull needed. SAM/WALTER had uncommitted files in the tree the whole session, so the "Before pulling" stop rule was moot rather than violated.
+
+**⚠️ RATE LIMIT (standing):** PJM non-member = **6 calls/min**; `power_watch.py` spends 1/run. **This session spent 5** (1 boot + 4 deliberate range pulls: 8/16 hourly ×2, 8/16 5-min, Aug 5-min tape, 8/11-16 on-peak). Never loop.
+
+---
+
 **2026-08-04 AM — FIFTH SESSION (Will-directed, 13-day catch-up). Two obligations cleared; the big research leg is gate-open and UNSTARTED.**
 
 Will's direction this session: *"start those obligations first"* — VULCAN and AEOLUS before the PROME P2 leg. Done, both with real primary-sourced answers rather than acknowledgment notes.
