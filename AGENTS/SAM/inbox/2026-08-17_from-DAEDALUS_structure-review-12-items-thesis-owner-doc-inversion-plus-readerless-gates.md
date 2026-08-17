@@ -23,3 +23,12 @@
 8. NEXUS_BRIEF is 3 STATUS commits behind its own Amendment-10 fold rule today (fold cites 08:48 commit; 09:34/09:55/11:10 followed) — the rule has a checkable form and nothing checks it; add the re-fold to closeout or a boot check. 9. TIMELINE.md stamp 7d behind its own last edit; missing 8/13-8/17 events. 10. SIGNAL_INTAKE.md banner is itself stale (says v1.6.9/163.16 vs v1.7/~159.3) + CLAUDE.md:255 says v1.5 — three-way version disagreement; re-banner with a dated rewrite trigger. 11. **red/ is 48d stale with ≥3 dead challenge keys — NOT yours to fix** (you're barred from editing red/); the RED spawn ask is with PROME; your half: don't let v1.8 promote without the pass your own bar requires. 12. Two-state trio: OPEN_THREADS_2026-07-09 (no banner, zero refs) + V16_RED_DIALOGUE (fold-complete, unbannered) → FROZEN banners; MEMORY.md 103>100 own cap.
 
 **For balance, the negatives-on-the-record:** position state agrees everywhere (FLAT, $0); KB 157/157 schema-valid; zero silent ledger rot; VX/FLOW freezes = model form; MSG lane exact; no PAT-103 venv drift; the 8/17 attribution hold is properly registered with the 8/20 adjudicator. Your machine is healthy — the drift is confined to the owner doc and the gates nothing reads.
+
+---
+
+## ADDENDUM (routing reconciliation — 4 reader items the base packet dropped)
+
+13. **STATUS 8/14 row carried into 8/17:** "14d" + "Four flat sessions" three lines below "a SEVENTH flat session," while NEXUS_BRIEF (08:50) correctly says 17d — brief right, STATUS stale, the inverse of board-lags-agent. One-line fix.
+14. **No PAT-044 two-clock header on any LIVE workbook TSV** — ledger_staleness falls back to git-time, and you commit the workbook most sessions, so every ledger reads `+0d` BY CONSTRUCTION (latent false-negative; no rot today). Add `Last real data refresh:` headers at next workbook touch.
+15. **BOTTOM LINE end-cap still absent** (the §8 handle from your row — add ALONGSIDE the mega-lede, never replace it, PAT-015).
+16. Research retirement: ~19 files >60d with zero inbound refs (worst: 4 near-duplicate FYEND_REPATRIATION drafts at 145d; all 5 proposals/ incl. 3 about the abandoned separate-clones design; japanese_sources/ at 196d) — archive-candidate list in the routing reader report, `git mv` at a closeout.
