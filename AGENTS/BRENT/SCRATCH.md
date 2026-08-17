@@ -1,113 +1,100 @@
-# BRENT SCRATCH — Fri Aug 14, 2026 **~16:0x ET** *(live session, PROME-directed spawn for the 15:30 COT window · FULL CLOSEOUT RUN)* · **THE SESSION WHERE A COIN FLIP LANDED ON THE UN-FIRE SIDE AT 5.3× THE FLIP DISTANCE — AND A SPEC GAP I NAMED BUT DID NOT FIX WAS COVERED BY EXACTLY THREE DAYS**
+# BRENT SCRATCH — Mon Aug 17, 2026 **~11:xx ET** *(live session, Will-directed · boot → commissioned discriminator → full closeout)* · **THE SESSION WHERE THE ANSWER CAME FROM REJECTING THE INSTRUMENT I REACHED FOR FIRST — AND REJECTING IT IS WHAT IMPEACHED IT**
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
-> # 🔴🔴 **THE HEADLINE: `FUEL SPENT` UN-FIRED. THE FULLER-SIZE BRANCH IS OFF. THE INCUMBENT BAND IS DEAD AND `COT-FUEL-35B` IS LIVE.**
-> **8/11 vintage: MM gross shorts `110,638` vs the frozen `≤104,072` bar ⇒ UN-FIRES by `6,566` contracts** (cum −18,434 vs a −25,000 bar; WoW re-gross **+8,078**; OI 1,892,429; share 5.8463%).
-> **Successor first read: Leg A 110,638 INSIDE the deadband ⇒ NO-VERDICT · Leg B 5.8463% vs ≤4.909% ⇒ NOT-SPENT ⇒ JOINT `NO-VERDICT` ⇒ sizing defaults to BASE CASE.**
-> ⇒ ★ **BOTH ROUTES LAND IN THE SAME PLACE: normal size within cap. No reading of this print supports fuller size.**
-> ⛔ **Nothing published reads "positioning exhaustion CONFIRMED" — and forum-4 §5's JOINT confirm cell is **EMPTY-IN-REGIME, not structurally empty** — ⚑ corrected same-day 2026-08-14 on MIDAS's own retraction: its `P(c)=0.00 / NC short <20,000 never in 449 weeks` was computed on an INHERITED 449-week window; the full CFTC COMEX gold series (1986-01-15, n=1,929) shows **299 occurrences**, most recent **2009-01-13**. ⇒ the cell is empty **because of the current regime (17.5 years)**, which a sufficient regime change could populate — NOT unreachable. **Weaker, more honest, and the practical near-term conclusion is unchanged: the 8/11 print did NOT populate it (MIDAS NC short 32,996, shorts ADDED +3,617, moving AWAY).****
+> # 🔴🔴 **THE HEADLINE: THE COMMISSIONED DISCRIMINATOR IS ANSWERED — `R3` HOLDS, BUT NOT FOR THE REASON ANYONE EXPECTED. AND THE BY-PRODUCT IS BIGGER THAN THE ANSWER: MY OWN HORMUZ TRANSIT SERIES IS IMPEACHED.**
+> **Gulf-coast reallocation does NOT explain the fired week — the Gulf restart is 8/12–8/13 (two Ju'aymah VLCCs + a Ras Tanura Suezmax, EU Sentinel-2), a WEEK AFTER the w/c-8/3 print. The proposed explanation POST-DATES the thing it was offered to explain.**
+> **R3 holds anyway because ① the decline's MAGNITUDE is unestablished (Kpler 1.78 / Vortexa 2.38 / AXSMarine 0.85 = 2.8× spread, disagreeing in SIGN, on cargo the trackers' own analysts call ~100% dark) and ② Saudi AGGREGATE exports are not shown to have fallen (Sidi Kerir ~1.0→2.17, then the Gulf coast).**
+> ⇒ ★ **REMOVING A COMPETING EXPLANATION IS NOT THE SAME AS SUPPLYING CONFIRMATION. A gate that stops being explained away is not thereby confirmed.**
 
-> # 🔴 **`$0` MOVED. NO POSITION CHANGED. NO THRESHOLD MOVED. NO GATE FIRED (there is none). NO CAPITAL AUTHORISED. NO PREDICTION RESOLVED (boot scan clean; no COT rows open — BRT-21 is VOID).**
-> **INBOX 12 → 1. TWO GRADES WRITTEN (COT + rigs). REGISTRY 48 → 49 rows.**
+> # 🔴 **`$0` MOVED. NO POSITION CHANGED. NO THRESHOLD MOVED. NO GATE FIRED OR UN-FIRED. NO PREDICTION RESOLVED. NO REGISTRY ROW EDITED.**
+> **INBOX 9 → 0 · WALTER LANE 2 → 0 · OUTBOX 7 → 0 · board_log 203 → 212 · STATUS 237 → 221 lines.**
 
 ---
 
-## ★ THE SESSION IN FIVE LINES
+## ★ THE SESSION IN SIX LINES
 
-**The card was built Thursday so Friday would be mechanical, and it was: the whole window was one pre-computed boundary, and the grade took one command.** The value was in the ORDER — grade → write → *then* register — and it held.
-**The silent-unfire hazard was REAL, not theoretical. Had the grade not been written, the branch's state would simply have been UNKNOWN and TERRY could have sized off a stale `LIVE`. Here silence would have been WRONG, not merely unverified.**
-**The 8/7 session named a spec gap — *"says NOTHING about what happens if it UN-FIRES; no rule exists for that"* — and did NOT fix it. Will's 35a REVERT ruling landed 8/11, three days before the print that needed it. The gap was covered by three days.**
-**The 8/7 base rate said the 1,512-contract margin was a coin flip (48.4%/50.0%). The next print moved +8,078 — 5.3× the flip distance. The margin really was below the instrument's noise floor.**
-**And grading the RIGS nearly manufactured a breach at my own line off a CSS class name — a `grep` for `45[0-9]` on an HTTP-200 page returned `457` twice, every hit a Drupal UUID fragment, on a page carrying no counts at all.**
+**The discriminator was answered by an instrument I do not own (EU Sentinel-2 satellite), because the instrument I DO own is disqualified for the question — and finding out why disqualified it for several other questions too.**
+**The tempting shortcut was arithmetic and wrong: "Gulf reallocation must exit Hormuz; PortWatch shows 10 tanker transits in all of w/c-8/3; therefore impossible." `[[finding_ais_port_export_darkfleet_blind]]` permits only the REFUTING direction — a NONZERO print — never a LOW count as proof of absence. The memory earned its keep before the session wasted itself.**
+**Chasing that turned up the real finding: PortWatch contradicts ITSELF, war-regime only — `n_tanker>0` AND `capacity_tanker=0` on 0 of 424 pre-crisis days and 19 of 113 war tanker-days.**
+**A near-miss in my own boot the same morning: `instrument_check` called FRED-GASREGW DEAD on SSL timeout while `thresholds.py` graded it fine — and `thresholds.py` could have rendered a GREEN board with the breach silently absent.**
+**WALTER's 8/15 Jazan packet rested on a date that had been dead for five days, and nobody in the chain had checked.**
+**Two of my own published findings were demoted by my own work today. Both are annotated in place, verbatim, not deleted.**
 
 ---
 
 ## ✅ WHAT WAS DONE
 
-### ① THE WINDOW (the reason this session existed) — executed in the ruled order, not collapsed
-- **Polled the raw `f_disagg.txt` primary from ~14:31 on THREE overlapping tripwires** (two background pollers + a Monitor) after noticing the first poller's 30-min horizon would expire before the release. **All converged at `15:30:27`.** Never Socrata.
-- **`report_date` verified IN-ROW (Trap 1). Re-pulled INDEPENDENTLY a second time before grading — both pulls identical.**
-- **Wrote a one-shot grader (`scripts/grade_2026_08_14.py`) with every constant copied from the card, and FALSIFIED IT BEFORE USE** (standing rule): run against the stale 8/4 vintage it **exits 3 and refuses to grade**, and it reproduces the card's verification figures (OI 1,886,816 / short 102,560) exactly.
-- **Incumbent graded → verdict WRITTEN on both surfaces → incumbent RETIRED (superseded text preserved verbatim) → ONLY THEN successor registered.** ⛔ The two bands never ran on the same vintage.
+### ① THE COMMISSIONED DISCRIMINATOR (the reason this session existed) — DELIVERED
+→ [`setups/2026-08-17_petroline-ras-tanura-discriminator.md`](setups/2026-08-17_petroline-ras-tanura-discriminator.md). Packets to **PROME** + **FALCON**, both **consumed and filed** by the recipients same day.
+- **Verdict `R3 = HOLD`**, on corrected grounds (above). PROME recorded it into `GATES.tsv` GATE-FALCON-001, the DOCKET sweep-#2 annotation and my forward-checks row.
+- ✅ **FALCON's ~4.0 crude baseline verified INDEPENDENTLY and is stronger than its own packet claimed** — Yanbu **>4 mb/d since June**, **4.7 mb/d ~7/13**, vs **973 kb/d** same period 2025 [marinelink 7/14], from a source independent of the fire relay.
+- ⚠️ **Ask ① only PARTIALLY satisfiable and said so:** Kpler/Vortexa terminals are commercial. FALCON's "dual-tracker, single relay chain" caveat stands **unchanged**.
+- ★ **Third mechanism named that neither FALCON nor PROME listed — a YANBU OFFTAKE CONSTRAINT** (embargo 7/20 → dark loadings from 7/23 → Petroline keeps delivering → tank-tops → Gulf route reopens ~8/12). **It makes constraint and reallocation SEQUENTIAL rather than competing**, and it is **the identical pattern WALTER documented at Sheskharis the same week** (`SIG-004`: halt *"because storage tanks had reached capacity"*). ⛔ **NOT registered — no Yanbu-tankage or Petroline instrument exists on my desk.**
 
-### ② CONSUMER CHECK — two real stale carriers, both packeted, neither file touched
-`consumer_check.py` flagged **`AGENTS/TERRY/STATUS.md:18`** and **`PROME/DOCKET.tsv:55`** carrying `FUEL SPENT` on live surfaces. **These are the genuine class, not the bare-figure false positives.** **TERRY packeted 🔴 urgently** (it owns the sizing downstream); **PROME's window report answers DOCKET row 55 — the fuel DID re-stack, that row can close.**
+### ② ⛔⛔ MY OWN TRANSIT INSTRUMENT IMPEACHED — the session's biggest finding
+- **INTERNAL (no external source needed): `n_tanker>0` AND `capacity_tanker=0` — 0 of 424 pre-crisis days (0.0%) vs 19 of 113 war tanker-days (16.8%).**
+- **EXTERNAL, one dated day: 7/31 `capacity_tanker` 282,046 DWT = 12.1%** of the 2.33M DWT/day baseline, against a reported **">8.4M bbl exited the gulf"** ⚠️ *(n=1, unnamed tracker, single outlet)*.
+- ⇒ **`KILL-LEG2-TRANSIT` MAY BE STRUCTURALLY UNFIREABLE** (fires on >35/day ×2; war-regime max ~8). Already a POST-HOC CONFIRMER on **latency** (F-4, 8/13) — **this is a second, worse COVERAGE defect, and latency was the only axis ever tested.**
+- **7/23 zero-transit headline + seven zero-tanker days → DEMOTED to candidate artefacts, annotated in place on STATUS, text preserved verbatim.**
+- ⚠️ **DEFECT MEASURED · CAUSE HYPOTHESISED · UNDERCOUNT FACTOR NOT QUANTIFIED.**
 
-### ③ RIGS — `BRT-26` GRADED, NOT BREACHED, and three near-misses recorded
-**US OIL rigs `455` (+1) vs the frozen `457` ⇒ 🟢 NOT BREACHED, 2 away.** Total 593 (+5).
-- ★★ **COMPOSITION IS THE FINDING: the total rose +5 but OIL rose only +1.** Anyone reading "US rig count +5" as a crude-supply response has it wrong.
-- ⛔ **TRAP: a bare `grep -oE "45[0-9]"` on the BH page returns `457` TWICE — every hit a Drupal CSS/UUID fragment**, on a page with no counts in its HTML at all. **It would have recorded a breach EXACTLY at my line, off a stylesheet identifier.** → promoted to auto-memory.
-- ⛔ **TRAP: the BH primary is REACHABLE again (HTTP 200, first non-403 in weeks) and still could not grade it** — its linked 11.8 MB workbook is stamped **2025-08-29, a YEAR stale**, with 169,320 real rows.
-- ⛔ **TRAP: five outlets "confirming" the 8/7 figure are ONE Reuters wire** ⇒ n=1. The 8/14 oil leg is also n=1 (TradingEconomics) **but ANCHORED** — its companion total ties to the BH primary table to the unit. **I named that difference rather than claiming two witnesses for both.**
-- **`BRT-26-RIGS` registry row had EMPTY direction+level** — the 457 line lived only in THESIS prose, so the row graded nothing. **MIGRATED, not re-levelled** (CUSHING-20M precedent).
+### ③ 🛠️ BOOT INTEGRITY — a false-green in my own board, KILLED (Will-approved in session)
+`scripts/thresholds.py`: DAEDALUS flagged **one** link; verification found **four** (stderr WARN · swallowed exceptions · **bare `continue` in BOTH graders** · **unconditional `return 0`**). ⇒ the key never had to be missing; **any** transient FRED failure produced the same silent green.
+- ✅ **Fixed:** ungraded thresholds RENDER with a reason and set **rc=2 (FINDINGS)**.
+- ✅ **FALSIFIED, not just run** — incl. a **COUNTERFACTUAL run of the pre-fix code** that rendered with the **entire structural-stress section ABSENT at rc=0**. The defect is demonstrated, not argued.
+- ★ **My re-keyed predicate — "bare `continue` on an unavailable input", not "FRED key handling" — found CARL's `thresholds.py` as an exact shape-twin on its first run.** DAEDALUS adopted the counterfactual as the sweep's evidence standard.
 
-### ④ PRE-WINDOW SLATE
-- **INBOX 12 dispositioned / 11 archived; board_log 190 → 202.** ⚠️ **Deliberate 12-rows/11-moves:** SAM's packet arrived mid-session **untracked — in-flight, not orphaned**; `git mv` correctly refused and bash `mv` would have raced SAM's uncommitted work (8/12 RED precedent). **It archives once SAM commits.**
-- **8/12 + 8/13 crude PUBLISHED**, re-split by the **14:30 ET settlement clock** (executes WALTER `SIG-020`'s ask). `BZV26.NYM` 8/12 $88.98 · 8/13 $87.07 · `CL=F` $83.27 / $81.25 · M1−M3 **+4.30 / +3.74**, backwardated across the strip both days. **Labelled COMPLETED-SESSION CLOSES, NOT asserted as the 14:30 settlements.**
-- **USO 150/165 net debit `$300.00` BROKER-CONFIRMED** — card marked. **Confirms the 7/25 verbal estimate rather than correcting it ⇒ nothing moves; only the evidence grade.**
-- **Concentration arithmetic DONE + TERRY packeted** (see below).
-- **SUMED answered** for `SIG-013`: Sidi Kerir ~2.3 mb/d vs a nameplate cited at ~2.5 / ~2.8 / ~3.0 ⇒ **77–92% utilised. I quoted the RANGE** — picking 2.5 would have manufactured a near-ceiling story out of a source disagreement.
+### ④ MAIL — both lanes to ZERO for the first time in weeks
+**Inbox 9 dispositioned + archived (9 moves == 9 ledger rows) · WALTER lane 2 → 0 · outbox 7 → `delivered/` (51).** Nothing of mine is pending at PROME.
+- 🔴 **The SIG-005 find: the Jazan 8/15 restart date was DEAD FIVE DAYS BEFORE the 8/15 packet called it "TOMORROW"** — pushed to **8/30** on 8/10–11 [IIR via Bloomberg]. **Catalyst revised on BOTH surfaces.** Caveat travels verbatim: **8/30 is an IIR consultancy estimate, not an Aramco commitment.** 🆕 **Confound: an 80,000 bpd Jazan reformer offline since MAY 27 on OPERATIONAL issues** — not all Jazan downtime is strike-attributable.
 
 ### ⑤ HYGIENE
-- **NEXUS_BRIEF: fixed a LIVE cross-agent defect** — it was still publishing my **wrong** capture-time boundary (session-end 18:00/17:00 ET) to the whole fleet. **Both crude settlements are struck 14:28–14:30 ET.** "Equities are exempt" carve-out retired with it. **185 → ~175 lines**; two fully-superseded blocks moved to `workbook/NEXUS_BRIEF_archive_2026-08-14.md`, **preserved verbatim, not deleted** (cross-agent correction records other desks consumed).
-- **Auto-memory promoted + committed + index-checked:** `finding_digit_regex_on_markup_can_match_the_threshold_value`.
-
----
-
-## 🔴 CONCENTRATION — MY HALF DONE, SIZING IS TERRY'S
-
-Oil sleeve **$5,886.05** mkt / $6,442.48 basis (−8.64%), one 8/14 broker capture. **USO-linked = 96.70%.** **29.6% of deployed positions · 16.0% of total book.**
-- **Effective LINES (Herfindahl) = `1.66`. Effective independent VIEWS = `N_eff 1`** — all four legs die on the same event.
-- ⚠️ **Flagged against my own alarm: `N_eff = 1` was ALREADY the 8/4 read. Same finding, bigger number — not a discovery, and I did not dress it as one.**
-- **NEW:** **74.70% of the sleeve is the undefended linear 35 shares (no floor)**; the **`USO 135C Oct-16 ×2` entered on NO rail** and is now the **2nd-largest oil leg (20.56%)**; two legs expire inside ~5 weeks, so the **FORWARD sleeve is 95.3% two USO lines**.
+- **STATUS 237 → 221**; the 7/27-basis dashboard block archived **because it actively contradicted live state** (Cushing 18.60M / "Boundary #3 BREACHED" — rescinded 8/12; SPR 307.65M; rigs 450), not merely for length.
+- **Kharg lane naming (PROME item 3): CHECKED, nothing owed** — only hit is an archived file, preserved by design.
+- **`gie_pull.py` owner-wire (PROME item 2): NOT ACTIONABLE — DEWEY has not shipped the script.** Waiting-on, not owed.
 
 ---
 
 ## ⏳ NEXT SESSION
 
-1. **🔴 Fri 8/21 COT (as-of Tue 8/18) — FIRST GRADE OF THE SUCCESSOR ON A CLEAN VINTAGE.** Leg A vs **113,745** / deadband **109,165–118,325**; Leg B OI-share vs **4.909%** (GATING). Ladder from **110,638** / OI 1,892,429 / share 5.8463%. ⛔ **`median_unit 9,160` is FROZEN — do NOT re-measure per print; re-basing is a NEW N1 BUILD + a fresh Will ruling.** ⛔ **The incumbent is RETIRED — do not re-grade it.**
-2. **🟠 Fri 8/21 Baker Hughes — `BRT-26` is now only 2 from the line** and closed 1 rig of distance this week. ⛔ **Grade the OIL count, NOT the total.** ⛔ **Never off a bare digit-regex on the BH HTML.**
-3. **🟡 TWO PACKETS LOGGED BUT NOT ARCHIVED — both UNTRACKED at closeout (senders still committing).** `git mv` each to `inbox/processed/` once its commit lands. ⚠️ **This is why board_log reads 203 rows against 11 moves today — a DELIBERATE, recorded exception, not a reconcile failure** (`finding_dirty_path_means_in_flight_not_orphaned`; 8/12 RED precedent).
-   - **SAM** (`…_ACCEPTED-the-agsi-feed-parked…`) — **nothing owed.** SAM accepted the AGSI+ feed and **PARKED** it with a stated reason (its frame is retired to LOW, so wiring an instrument into a desk with no live thesis would produce a feed nobody reads). **Correct call, endorsed** — my own retirement-ratchet logic from the other side.
-   - **🔴 MIDAS** (`…_your-CORRELATED-CONFIRM-cell-rests-on-a-number-of-mine-that-was-wrong`) — **ALREADY ACTED ON, same session.** It retracts its `P(c)=0.00 / "structurally unreachable"` (computed on a 449-week window **inherited from SAM's JPY pull**; the full COMEX gold series, 1986-01-15, n=1,929, has **299 occurrences**, most recent 2009-01-13). ⇒ **I corrected "confirm cell is EMPTY" → "EMPTY-IN-REGIME" on all five surfaces I had written it on TODAY.** **Practical conclusion unchanged — the 8/11 print did NOT populate it** (NC short 32,996, shorts **added** +3,617, moving away).
-     - ⛔ **The alarming half, and MIDAS leads with it: its OTHER "never observed" rate (ΔOI ≥ +28,449 from a sub-400k base, published 0-of-19) WAS REALISED SIX DAYS LATER at +28,758.** ✅ **What saved the claim: MIDAS refused to quote 0-of-19 as a probability and published a rule-of-three 95% upper bound of 15.8% instead — the corrected rate (1.81%) AND the realised outcome both sit inside it. THE POINT ESTIMATE FAILED AND THE INTERVAL HELD.**
-     - ★★ **AND IT CONVERGES INDEPENDENTLY WITH MY OWN 35b FINDING, from a different desk and a different market: "a window inherited from another desk's instrument is a FREE PARAMETER YOU DID NOT SET."** MIDAS found it in COMEX gold via an inherited JPY window; I found it in WTI COT via an undeclared median window worth 1,508 contracts. **Neither prompted the other. Two independent routes to one defect class is far stronger than either instance.** **ADOPTING MIDAS's one-line fix: state series FIRST DATE, LAST DATE and ROW COUNT before any base-rating.**
-4. **🟡 OWED FROM TODAY'S INBOX, named rather than silently dropped:**
-   - **Yanbu ↔ Sidi Kerir DOUBLE-COUNT SEAM** (`SIG-013` ask ②) — if a cargo loads at Yanbu, part-discharges at Ain Sokhna and reloads at Sidi Kerir it can appear in BOTH series, which would make Goldman's Yanbu −23.3% **a measurement seam rather than a decline.** ⛔ **Until resolved I do not net the two, and neither should anyone citing them.**
-   - **IIR-vs-NBS refinery-runs comparison** (`SIG-011` ask ①) — **constructible for the first time**; the two claims sit on **different axes** (official-vs-true vs 2026-vs-2025) and **must not be merged.**
-   - **Global visible-stocks counter** (`SIG-011` ask ②) — a **real named gap** in my kit (I hold US-only). ⛔ Not registered off a screenshot with no publication date.
-   - **War-risk cover instrumenting** (`SIG-015`) — **strongest instrument candidate in weeks** (a HARD GATE that moves BEFORE the decisions it produces; JWC Listed Areas are public and dated). ⛔ **NOT built — this is the third feed-less gap I have declared, and per the retirement ratchet a registration needs a read-path and base rates FIRST.** Gate on WALTER's own testable framing: *would JWC revisions have warned leg-3/R3 earlier than loadings did?*
-5. **🟡 TERRY's USOARM finding — MINE TO RULE, still open by choice.** A moment-graded gate (leg (b), ~40min half-life) cannot depend on a multi-day approval loop whose only pressure point is day 20. **Two candidate fixes offered (a DECISION-BY date, or a two-stage [Approve in principle]); NEITHER adopted** — no arm is live, `$0` at risk, and per TERRY's own 005/007 discipline any re-arm is a NEW card, so **the fix belongs ON that build, not floating as an amendment to a dead spec.**
-6. **🟡 Unchanged carry-overs:** P5 row-27 width-bias re-spec (must land BEFORE any re-arm) · Shell Q2 deck PRIMARY before Pearl-GTL touches GATE-1/FAL-01 wording · EIA imports-by-country primary · SPR "floor" ambiguity **252.4M vs 400.0** (147.6M under one word — read the rationale, don't find-and-replace) · **INCIDENTS: 17 ACTIVE rows past the 60d budget, worst RF-004 at 148d — the flag exists, the re-verification is research and has NOT been done** · Novorossiysk/Sheskharis INCIDENTS row (check HAWK's cross-theater `STRIKES.tsv` FIRST).
+1. **🔴 w/c-8/10 YANBU PRINT — DUE NOW (~8/17–19).** Forward check ①, **the highest-value datum on the board.** **Recovery toward 3–4 mb/d ⇒ w/c-8/3 was substantially an imputation artefact. Further fall + Gulf-coast rise ⇒ genuine westbound constraint + eastbound reallocation.**
+2. **🔴 Fri 8/21 COT (as-of Tue 8/18) — FIRST GRADE OF THE 35b SUCCESSOR ON A CLEAN VINTAGE.** Leg A vs **113,745**, deadband **109,165–118,325**; Leg B OI-share ≤ **4.909%** (**GATING**). Ladder from 110,638 / OI 1,892,429 / share 5.8463%. ⛔ **`median_unit 9,160` FROZEN — re-basing is a NEW N1 BUILD + a fresh Will ruling.** ⛔ **The incumbent is RETIRED — do not re-grade it.**
+3. **🟠 Fri 8/21 BAKER HUGHES — `BRT-26` is 2 rigs from the frozen 457** and closed 1 rig of distance last week. ⛔ **Grade the OIL count, NOT the total.** ⛔ **Never off a bare digit-regex against the BH HTML** (`[[finding_digit_regex_on_markup_can_match_the_threshold_value]]`).
+4. **🟡 ~8/20+ — THE DESIGNED TEST OF MY OWN INSTRUMENT.** When PortWatch publishes **8/12–8/14**, two Ju'aymah VLCCs are **KNOWN** to have loaded (Sentinel-2). **A missing Hormuz tanker signature confirms the coverage defect against a KNOWN-POSITIVE CONTROL** — the positive-control the memory demands. **Answer already known independently; this grades the instrument, not the world.**
+5. **🟡 ~8/24–31 — SIDI KERIR LAG TEST (forward check ②).** SUMED liftings **lag** Yanbu loadings by the Yanbu→Ain Sokhna→Sidi Kerir transit, so a REAL Yanbu decline must appear as a **Sidi Kerir fall with a lag.** If Sidi Kerir holds ~2.2 mb/d, the Yanbu decline was not a barrel decline. ★ **Cleanest available test and nobody is running it.**
+6. **🟡 8/20–8/31 DOCKET row leg ③ — forum-4 #19, Will-ruled.** Audit EIA's embedded assumption that the Gulf de-impairs on its 2027 schedule (~99% of the recovery is Middle East) — **a READ of checks ①② against the STEO recovery columns, no new fieldwork.** Routes to **HAWK + PROME**. **Guards: read the RECOVERY columns never the trough; forum #17 dark-vs-shadow-fleet ambiguity stays OPEN — flag, don't resolve.**
+7. **🟠 INCIDENTS is now TWO events behind on one facility** — the COVERAGE header already declares the **8/11–12 Novorossiysk/Sheskharis** event known-incomplete, and the **8/14 recurrence** is also unlogged. ⛔ **Check HAWK's cross-theater `STRIKES.tsv` FIRST** (`[[project_energy_strike_ledger]]`). **Also still 17 ACTIVE rows past the 60d re-verify budget, worst RF-004 at 151d.**
+8. **🟢 Mechanical carry:** `SCHEDULED_RUNS.md:40` dead pointer (`data/` does not exist) — one-line re-point or strike · **BRT-07's status string** reads *"outer bound set 2026-08-13"* which parses as a PAST bound; the real bound is **2027-03-06** — clarify the wording, touching neither claim, confidence, nor bound.
 
 ---
 
 ## OPEN THREADS / WATCHES
 
-- **⛔⛔ THE SESSION'S TRANSFERABLE FINDING: a bare digit-regex against HTML can return your EXACT threshold value out of markup containing no data at all — and because the false value EQUALS the number you were watching for, it reads as the SIGNAL rather than as noise.** Hex UUIDs make it likely, not freakish. **Rule adopted: anchor to a PARSED, LABELLED field or do not grade.** → auto-memory `finding_digit_regex_on_markup_can_match_the_threshold_value`.
-- **★ AND MY OWN 8/12 DEFECT ACCIDENTALLY GENERATED THE FIRST EVIDENCE ON WALTER'S OPEN §7 QUESTION.** The completed 8/12 bar closes **$88.98 — HIGHER than every late-session live print I took** (16:38 $88.61 → 17:07 $88.38; PROME $88.37/$88.40) ⇒ **the vendor's daily `Close` is NOT a session-end last price.** It also reproduces the corrected 8/10 ($87.72) and 8/11 ($88.91) settles to the cent. ⛔ **Routed to WALTER as a CANDIDATE, not a finding — n=3 days is not a backfill proof — and I re-labelled NOTHING "settle" on it.**
-- **⚠️ THE LIMIT THAT SURVIVES THE N5 FIX: A LATE PULL IS STILL A BAR.** Knowing the settlement was struck at 14:30 does not mean a 14:31 vendor pull returns it. **Waiting never converts a bar into a settlement; only a SETTLEMENT SOURCE does — and identifying one `fetch.py` can reach is still UNBUILT.**
-- **⛔ 85.7% OF GROSS SHORTS ARE STILL STANDING** (79.5% on 8/4). **The accelerant did not fire — it re-loaded.** Positioning descriptor only: **no price validation, n=0 genuine reopenings.**
-- **⛔ 35b's FREE PARAMETER IS THE LIVE RISK.** `median_unit 9,160` FROZEN. A future session re-measuring on a different window moves the bar ~**1,508** contracts **with no ruling and no record** — ≈ the incumbent's entire fatal margin. `[[finding_threshold_level_is_a_measurement_not_a_constant]]`
-- **⚠️ R1 (OVX close >68.97) remains a NAMED CANDIDATE, NOT a registered tripwire.** Re-arming requires a FRESH Will ruling.
-- **⛔ Still no freight/Worldscale feed anywhere in the kit** · **EXPORT-SIGN WARNING live** · **RUNS-DECLINE IS NOT CAPACITY-OFFLINE** · **Black Sea war risk UNPRINTED 20+ days — report it to nobody as flat.**
+- **⛔⛔ THE SESSION'S TRANSFERABLE FINDING: the instrument you reach for first is the one whose disqualification you are least likely to check.** PortWatch was the natural tool for a Hormuz question and is **structurally wrong for it in this regime** — and only checking *why* revealed the internal contradiction that impeaches it for the questions it IS used on. **Rejecting an instrument is an audit of it.**
+- **⛔ `KILL-LEG2-TRANSIT` is BLOCKING at boot (8d vs a 7d budget) AND coverage-impeached.** The budget-vs-lag mismatch is separate and also unfixed: **the registry row itself records a MEASURED 3–8 day publication lag against a 7-day budget**, so it will false-red at the top of its own normal range. ⛔ **Widening a falsifier's budget is RELAXING A GUARD — needs a ruling, not a maintenance edit.**
+- **⚠️ FOUR consecutive war-risk-relevant events I can name and cannot measure** (Tihamah mass-casualty 8/11 the latest). **VLCC/Worldscale RETIRED 7/31 for never having been measurable; JWC listed-areas instrumenting declared a candidate 8/14 and still unbuilt.** **A gap declared four times is a decision, not an oversight.**
+- **⚠️ HAWK reads are REDUCED-COVERAGE until its fix lands** — `war_monitor.py` has a dead `feeds.reuters.com` behind a bare `except` (DAEDALUS, live-verified 8/17). **Same defect class as my own: an unavailable input silently rendering as an all-clear. A dead source fails FALSE-NEGATIVE — it MANUFACTURES QUIET, and quiet is exactly what a "status quo holding" read asserts.**
+- **⛔ The Yanbu↔Sidi Kerir DOUBLE-COUNT SEAM is still open and is now load-bearing for MY OWN work, not just WALTER's ask** — if a cargo loads at Yanbu, part-discharges at Ain Sokhna and reloads at Sidi Kerir it can appear in BOTH series. **Until resolved I do not net the two, and neither should anyone citing them.**
+- **⛔ Still unresolved:** Petroline **5 vs 7 mb/d** (S&P Global 403'd; corroborators low-grade — routed to FALCON as a discrepancy to CHECK, not a correction to apply) · SPR floor **252.4M vs 400.0** (147.6M under one word) · P5 row-27 width-bias re-spec (must land BEFORE any re-arm) · Shell Q2 deck primary · EIA imports-by-country · IIR-vs-NBS runs comparison · global visible-stocks counter · TERRY's USOARM finding (mine to rule, open by choice).
+- **⛔ NO instrument for: freight/war-risk · Yanbu tankage · Petroline throughput · SAUDI AGGREGATE EXPORTS — the last is what `R3` actually needs and I do not have it** (JODI lags ~2 months; trackers publish route-level, not national totals).
+- **⛔ EXPORT-SIGN WARNING live · RUNS-DECLINE IS NOT CAPACITY-OFFLINE · Black Sea war risk UNPRINTED 20+ days — report it to nobody as flat.**
 
 ## POSITION DECISIONS PENDING
 
-- **NONE. `$0` at risk from any gate — there is no live gate.** Convex arm **RETIRED 8/7 by Will**; **`TRY-BRENT-USOARM` DIED 8/13 at arm expiry, day 20/20, UNFIRED, `$0` ever at risk.** Will's 8/4 fill decline is STANDING and untouched.
+- **NONE. `$0` at risk from any gate — there is no live gate.** Convex arm **RETIRED 8/7 by Will**; **`TRY-BRENT-USOARM` DIED 8/13 at arm expiry, day 20/20, UNFIRED.** Will's 8/4 fill decline is STANDING and untouched.
 - **★ THE REAL RISK IS UNCHANGED AND UNDEFENDED: USO 35 shares, 74.70% of the oil sleeve, no floor.** Not a trim recommendation (root rule #7 — thesis intact) and equally not an add.
-- **5 live oil expressions** (35sh · Oct-16 135C ×2 · Sep-18 150/165 · XLE Sep-30 65C ×2). **Marks are the 8/14 broker capture.** ⛔ **STNG is a TRACKED TICKER, not a holding.**
+- **5 live oil expressions** (35sh · Oct-16 135C ×2 · Sep-18 150/165 · XLE Sep-30 65C ×2). **Marks are the 8/14 broker capture — 3 days stale.** ⛔ **STNG is a TRACKED TICKER, not a holding.**
+- ⚠️ **`TRADE.md`'s header still stamps 2026-08-10** while its body carries the 8/14 broker capture — **a two-clock drift on the canonical trade surface. Not corrected this session; flagged.**
 
 ## MAIL STATE
 
-- **✅ INBOX 12 dispositioned → 11 archived, 1 held** (SAM's, untracked/in-flight). **board_log 190 → 202.**
-- **SENT (3):** → **TERRY** ×2 (concentration arithmetic; 🔴 the UN-FIRE state correction) · → **PROME** (window report / delivery packet).
-- **Owed TO me:** **Will — the war-risk-halves ruling · the WP3 call.** ✅ **The FORGE fill-price reconcile is CLOSED after 20 days — `$300.00` broker-confirmed.**
+- **✅ INBOX 0 · WALTER LANE 0 · OUTBOX 0 — all three empty. board_log 212 rows, validated 5 fields, zero ragged.**
+- **SENT (3):** → **PROME** (discriminator verdict + the PortWatch fleet read-through) · → **FALCON** (verdict + 3 corrections) · → **DAEDALUS** (ACTION 1 executed + the four-link correction). **All three CONSUMED and filed by their recipients same day.**
+- **Owed TO me:** **Will — the war-risk-halves ruling · the WP3 call.** **DEWEY — `gie_pull.py`, before my owner-wire can exist.**
 
 ## WORKBOOK HEALTH
 
-- **LIVE:** `TRADE.md` (**822 ln**) · `STATUS.md` (**236 ln** — 14 from the 250 cap; **archive overflow next session before writing anything large**) · `workbook/REGISTRY.tsv` (**49 rows, 21 cols uniform** — `COT-FUEL` retired, `COT-FUEL-35B` live) · **THESIS v5.6, unchanged today** · `docket/CATALYSTS.tsv` (**19 rows, 8 cols uniform**) · `refinery_damage/INCIDENTS.tsv` · `board_log.tsv` (**202 rows**) · `NEXUS_BRIEF.md` · SCRATCH.
-- **Boot 92.0s, 6/6 OK, ZERO blocking**, 2 warnings (`COT-FUEL`, `BRT-26-RIGS`) — **both cleared by today's grades.**
-- **Data pulled, all own primaries:** CFTC raw `f_disagg.txt` (067651, ×3 independent pulls) · Yahoo `BZ=F`/`CL=F`/`BZV26`/`BZX26`/`BZZ26`/`BZF27` daily bars · Baker Hughes primary overview + static workbook · TradingEconomics rig split · EIA weekly via boot.
-- ⚠️ **`instrument_check.py --quick` IS NOT A SUBSTITUTE FOR THE FULL CHECK** — it skips network probes and reports ~19 BLOCKING where the full run reports ZERO. **Deliberate fail-safe direction (false RED, never false green).**
+- **LIVE:** `STATUS.md` (**221 ln**, 29 from cap) · `TRADE.md` (⚠️ header stamp drift) · `workbook/REGISTRY.tsv` (49 rows) · **THESIS v5.6, unchanged today** · `docket/CATALYSTS.tsv` (**19 rows, 8 cols, Jazan row REVISED**) · `refinery_damage/INCIDENTS.tsv` (⚠️ 2 events behind on Novorossiysk/Sheskharis; 17 rows past the 60d budget) · `board_log.tsv` (**212**) · `NEXUS_BRIEF.md` · SCRATCH.
+- **Boot 65.9s, 6/6 RAN, 1 FINDINGS.** Blocking: `KILL-LEG2-TRANSIT` (real, reproduces). **The two FRED-GASREGW "DEAD" rows were TRANSIENT SSL timeouts — both probe clean on re-run; reported as such rather than relayed as spec defects.**
+- ⚠️ **TSV INCIDENT, self-caused and self-caught:** a `printf` board_log append died on a literal `%` and left a **481-byte PARTIAL row** that **passed the ragged-field check** (5 fields — it died INSIDE field 5) and had **no trailing newline**, so `wc -l` and `awk` disagreed 204-vs-205. Repaired atomically (`.tmp` + `os.replace`), rewritten via Python. **The append-without-trailing-newline mode is the blind spot in the existing guard** `[[finding_partial_record_written_as_final_never_heals]]`.
