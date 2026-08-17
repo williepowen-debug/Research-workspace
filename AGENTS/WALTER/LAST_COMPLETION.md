@@ -1,24 +1,33 @@
 # WALTER — LAST COMPLETION
 
 **Session:** **2026-08-17 (Mon) — ALL-DAY.** Boot 16:35Z on Will-Telegram *"Hi WALTER please boot up"* → *"route the lane items and apply the three corrections"* → **FORUM-6 seated, run and closed RULED** → *"run the tier-2 closeout."*
-**Closeout tier:** **Tier-2 FULL** (steps 12–16). *Clears the single `light-closeout — full deferred` breadcrumb from 8/14 S4; none outstanding.*
+**Closeout tier:** **Tier-2 FULL** (steps 12–16), run ~20:0xZ — **then a POST-CLOSEOUT TAIL to ~23:5xZ on Will's *"lets close out now"*, amended in place rather than rewritten.** *Clears the single `light-closeout — full deferred` breadcrumb from 8/14 S4; none outstanding.*
 **Shape:** **US markets OPEN through the routing half** ⇒ every equity/cash-index level in STATUS is **INTRADAY, not a settle.** 7 inbox packets at boot, **all read FIRST** — the ordering rule holds for a fifth consecutive session.
 
 ---
 
 ## STATUS
 
-**🟢 GREEN.** Doctor **0 HIGH / 11 MED at boot → 0 HIGH / 2 MED at close.** The 9 `registry_lag` MEDs were cleared; the remaining 2 are the **overdue DEWEY commissions — Will's open decision, not a defect** — and today they stopped being only a backlog and became **load-bearing evidence** (see FORUM-6, below). BOARD **737 → 740**, reconciling four ways (ToC = sections = files = TOTAL). Push clean-ff **×6**, **0 ahead / 0 behind verified BY CONTENT** each time (never off the `Pushed.` line). Reconcile **7 rows → `delivered`, 0 orphans**.
+**🟢 GREEN.** Doctor **0 HIGH / 11 MED at boot → 0 HIGH / 0 MED at final close** — clean for the first time all session. The 9 `registry_lag` MEDs cleared at the Tier-2; **the last 2 cleared in the post-closeout tail when the "overdue" DEWEY commissions turned out to have been COMPLETED on 2026-07-10.** ⚠️ **THIS LINE PREVIOUSLY READ *"the remaining 2 are the overdue DEWEY commissions — Will's open decision, not a defect."* THAT WAS FALSE WHEN WRITTEN AND I DID NOT KNOW IT** — corrected here rather than overwritten, because it is the session's own specimen of the class it kept finding. They did remain **load-bearing evidence** in FORUM-6, which is the one part that survives. BOARD **737 → 742**, reconciling four ways (ToC = sections = files = TOTAL). Push clean-ff **×11**, **0 ahead / 0 behind verified BY CONTENT** each time (never off the `Pushed.` line). Reconcile **7 + 9 rows → `delivered`, 0 orphans**.
+
+> **═══ POST-CLOSEOUT TAIL (~20:0x→23:5xZ) — THE TIER-2 CLOSED AND THEN THE SESSION'S TWO SHARPEST ITEMS ARRIVED.** **BOARD 740→742. Doctor 0 HIGH / 0 MED — clean for the first time all session.** Full narrative in `STATUS.md`; the load-bearing four:
+> **① I PUT `MIDAS-06` TO WILL AS AN OPEN DECISION TWICE AND HE HAD ALREADY RULED IT ON 8/14.** Off a line in THIS file that was true when written and false within hours, because his ruling landed later the same day. Caught only because he asked a follow-up and I read MIDAS's artifact instead of my own note. **Nothing was owed from him; the ENCODE is owed from MIDAS.**
+> **② BOTH "OVERDUE" DEWEY COMMISSIONS WERE COMPLETED 2026-07-10 — MY LEDGER SAT `QUEUED` FOR 38 DAYS.** Both prompts in `processed/`, both reports in `output/`, both dispatched (`-20260710-005`/`-006`), and **CARL logged `-005` INTEGRATED and trimmed `CRL-10` 75%→62% the same day citing it.** **Root cause: boot step 7d fires on a DEWEY HANDOFF reaching my inbox; these went straight to BOARD and the recipients, so the closing step had nothing to fire on and nothing else reads that ledger.** Closed `RESOLVED-LATE-CLOSED`. ⇒ **Together with ① and PROME's item-15 to me this morning, that is the SAME owed-row class THREE TIMES IN ONE DAY, and two of the three were mine.**
+> **③ BM-20260817-02 (Will-Telegram, 8 images, declared before triage, closed 8/8): 2 DISPATCH / 5 KILL / 1 folded — FIVE of eight already the owning desk's, usually better.** `-004` **refutes "Hormuz crossings turned to zero"** (Windward 12 transits 8/16; Bloomberg's own pieces say *trickle* / *barrels keep flowing*) **and supplies the finding underneath: ~58% ran DARK = external corroboration of BRENT's same-day PortWatch impeachment.** `-005` **`^TYX` CLOSED 5.31**, clearing the `T6` leg BOND called unreachable while `DGS30` hasn't printed since 5.21 — **plus an AI-capex→long-end pointer that returns nothing across a stated perimeter.**
+> **④ 🚦 THE TERRY GATE FIRED AND MY FIRST PASS MISSED IT.** `TRY-FIRE-004` is `FIRED/ACTIVE` — 25× TLT Sep-30 77P, the desk's only live position — and its own invalidation is a rates level (`10Y close <4.50`) that `^TNX` cleared by 22bp. **Qualifying T-1, no override budget consumed. Sent as a LEVEL with an explicit non-recommendation, because the card is underwater at 0.735× basis.**
+> **⑤ DAEDALUS assessment (Will-directed): MEANINGFUL, concentrated in ~3 of ~60 commits.** SFG sweep justified it alone — **it changed code in three desks' files the same day, and SAM's `jgb_auctions.py` fix landed BEFORE Wednesday's auction.** One pushback filed as a **design note**: `complete_check` leg (ii) prints **483 claim lines with no discharge path** — my own FORUM-6 finding, applied hours after it was ruled. **Delivered as message AND committed packet because DAEDALUS is DARK.**
 
 ## RESULT
 
-**3 DISPATCH · 11 KILL · 3 DUP · 7 handoffs · 3 corrections applied · 12 registry rows · 1 spec version (ROUTING_TABLE v0.26) · 4 FORUM-6 posts · 2 auto-memories.**
+**5 DISPATCH · 16 KILL · 3 DUP · 16 handoffs · 3 corrections applied · 2 batch manifests (16/16 + 8/8) · 12 registry rows · 1 spec version (ROUTING_TABLE v0.26) · 4 FORUM-6 posts · 2 auto-memories · 2 self-authored packets (MIDAS, DAEDALUS).**
 
 | # | Prec | Action → Info | What |
 |---|---|---|---|
 | `-001` | **PRIORITY** | SAM, BOND → LIQUID | **The Japanese leg of the 7/30-31 intervention is ~$75–85B, not the $52.8B on SAM's table** (7/30 only); the implied ~$22–32B residual **cannot** be the $5–10B US leg. **+ Japan's finance minister named FIMA as the FORWARD channel.** `corrects: SELF` |
 | `-002` | ROUTINE | VULCAN | **German DDR5 ~5× its JULY-2025 FIXED BASE** (an index, *not* a YoY rate) = the non-LTA leg of VULCAN's own `FL-VULCAN-09`, which its STATUS says has no instrument |
 | `-003` | ROUTINE | BROCK → SHADE, LIQUID | Blue Owl: wrapper is plaintiff-firm boilerplate; only the `§36(b)` advisory-fee cluster post-dates BROCK's Feb paper. **conf 0.35, "noise is the base case" on its face** |
+| `-004` | **PRIORITY** | BRENT → FALCON, HAWK, OSPREY | **~58% of Hormuz transits ran DARK** = external corroboration of BRENT's same-day PortWatch impeachment; **"crossings turned to zero" REFUTED** |
+| `-005` | **PRIORITY** | **BOND, TERRY** → LIQUID, VULCAN, HENRY | **`^TYX` CLOSED 5.31** — clears the `T6` leg BOND called unreachable; **TERRY gate T-1 FIRES** on a live TLT card |
 
 **Batch manifest BM-20260817-01 declared at 16 BEFORE triage, closed 16/16 complete.** `intake_scan --mark` reconciled (+2 / −4).
 
@@ -31,6 +40,7 @@
 - Logs: route **+3**, kill **+11**, delivery **+7** — all field-count validated whole-file, before and after.
 - **STATUS**: new lead + 8/17 session block; NETWORK-AWARENESS routing subsection regenerated from the refreshed REGISTRY; **20 stale `[Prior] Updated:` lines rolled to `SESSION_LOG.md` verbatim** (spine 3 → 1 lead).
 - **Auto-memory ×2** — NEW `finding_rows_leave_when_the_reader_can_discharge_them`; **audit-record limb appended to** `finding_blocked_mirror_is_not_an_unreachable_primary` (extended, not duplicated). Index hook trimmed 221→124 chars when the check flagged it.
+- **POST-CLOSEOUT:** `DEEP_RESEARCH_FLAGGED_LOG` — **2 rows closed `RESOLVED-LATE-CLOSED`** with the delivering signal, report path and consumption evidence, plus the root cause recorded in the notes cell (step 7d fires on a handoff that never came). · **`AGENTS/MIDAS/inbox/WALTER/`** — self-authored packet, both DIVERGE legs current + 3 owed items read from MIDAS's own surfaces. · **`AGENTS/DAEDALUS/inbox/`** — self-authored design note on `complete_check` leg (ii). · BOARD **+2** (`-004`/`-005`) + 2 INDEX rows + ToC; logs route **+2** / kill **+5** / delivery **+9**, all field-count validated. · **BM-20260817-02** declared at 8 before triage, md5-swept 8/8 unique, closed 8/8.
 
 ## GAPS
 
@@ -41,13 +51,21 @@
 - **Consumer check (1c): RUN, no packets owed.** The 51.0% was **SAM's** figure, not mine — I am a consumer of it, not its publisher, and my one carrier (row 479) is annotated. The scan returns **zero certified-stale / 526 🟠 candidates**, all on a **2-significant-figure needle**, and canon says send nothing on those.
 - **Claim check (1e): clean**, 4 files.
 - **Version drift: clean** after sweeping STATE.md in the ROUTING_TABLE commit.
+- **🔴 POST-CLOSEOUT, AND IT IS THE SESSION'S WORST: I PUT AN ALREADY-RULED ITEM TO WILL AS AN OPEN DECISION, TWICE.** `MIDAS-06` was ruled by Will on **8/14**; a line in THIS file said it *"must be ruled before 8/28"* — true when written, false within hours of his same-day ruling. **I carried it through boot into a priorities answer and only caught it because he asked a follow-up.** ⇒ **the item-15 owed-row class arriving in the OPERATOR's queue.**
+- **🔴 AND MY OWN LEDGER DID IT AGAIN, FOR 38 DAYS.** Both "overdue" DEWEY rows were completed 7/10 and dispatched; my ledger said `QUEUED`, my doctor printed 2 MEDs at every boot for weeks, and my 8/14 `WILL_NEEDS` called them *"MORE live than when queued."* **The detector was correct throughout — the DATA was wrong, and an overdue alarm on a completed row is indistinguishable from a real one.**
+- **⚠️ THE TERRY GATE FIRED AND MY FIRST PASS ON `-005` MISSED IT.** Caught only by opening `SETUPS.tsv` instead of relying on a carried note that TERRY had no live rates instrument. **Verifying the gate is cheap; the carried belief was what nearly skipped it.**
+- **⚠️ A commit failed because I used an inline `-m` for a multi-line message instead of the HEREDOC my own protocol specifies** — git read the trailer as a pathspec. Caught immediately, redone, nothing lost. **Second time today a shortcut around a written-down form cost a retry.**
 - **`trash` still not on PATH** (carried; needs Will).
 
 ## WILL_NEEDS
 
-**🟠 THE TWO OVERDUE DEWEY COMMISSIONS — unchanged as a decision, but their meaning changed today.** `REQ-DEWEY-20260702-007` (39d) and `-009` (34d) are the fleet's proof that **an operator-gated row cannot be cleared by any amount of boot-printing** — they became the counter-instance in FORUM-6 that established *unilateral dischargeability*. **They are now simultaneously an open decision and a working exhibit.** Options unchanged: **re-run · retire via `DROPPED-EVENT-PASSED` · leave queued.** *(`-009`'s FFIEC MI3 catalyst has now PASSED, which may make it §3.7 EXPIRED-class rather than backlog.)*
+**🟢 NOTHING. Both items that stood at the Tier-2 closeout dissolved when they were checked at their artifacts rather than read from this file.**
 
-**🟠 CARRIED:** `MIDAS-06`'s frozen boundary — *"gold ≥ $4,401.30 (the 8/7 close)"*, a close that never printed. **Gold traded $4,482 today, above that line.** Resolves **8/28**; must be ruled before then.
+- ~~The two overdue DEWEY commissions~~ — **COMPLETED 2026-07-10.** Never a decision; my ledger was stale. Closed.
+- ~~`MIDAS-06`'s frozen boundary~~ — **WILL RULED IT 2026-08-14** (`PROME/proposals/2026-08-14_afternoon-batch-RULED.md` §1, `$4,401.30` → `$4,340.70`). The **encode** is MIDAS's, outstanding since 8/14 and named *"next session's first job"* on its own STATUS; **L-12/L-13 are self-rulable by MIDAS** now `DELEGATION_TIER` has landed; **L-15's encode is DAEDALUS's.** Packet sent 8/17 with both DIVERGE legs current.
+- **Phone Part A** — Will-paused 8/10, re-raise was due ~8/17 and was **not raised**. Carried. WALTER's recommendation stands: **leave paused**; nothing has depended on it in a week.
+
+⚠️ **The pattern worth more than either item: BOTH were carried assertions in THIS file that were true when written and false later, and BOTH were put to Will as live decisions before anyone re-read the artifact.** That is the class FORUM-6 ruled on, arriving in the operator's queue. **Next boot: run the FOLLOW-UP list against artifacts before surfacing any of it to Will.**
 
 ## FOLLOW-UP (canonical running list — survives handoff via this file)
 
