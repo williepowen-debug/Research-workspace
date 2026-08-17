@@ -5,6 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 1cdcff3f-0ef5-483b-a7bb-738464843581
+  modified: 2026-08-17T12:47:20.019Z
 ---
 
 A boot/data-sweep script that prints "✅ no thresholds breached" whenever its flag-list is empty will report **health it never measured** when every fetch fails: 12/12 ERROR lines, then a green all-clear, exit 0. The empty flag-list is ambiguous — it means *either* "all clear" *or* "measured nothing."
@@ -45,3 +46,24 @@ See also [[finding_test_the_guard_not_just_the_guarded]] (the guard's own failur
 **(2) The recipe is the interface, so fix it at the TOOL.** Correcting the three doc strings was necessary and *not sufficient*: the next reader invokes from memory, from a spawn packet, or from a boot script, and you cannot patch all three. The fix that holds is self-healing — re-exec under the venv interpreter when the import fails, env-guarded against loops, still falling through to `ERR:` if no venv exists. Corollary for boot instruments: **a script that prints "run: `<command>`" must print a command that actually works — verify the printed recipe end-to-end at least once, from the cwd a real boot uses.** Cheap fleet audit: any tool whose deps live in `.venv/` while its documented recipe says bare `python3` has this latent.
 
 Sibling framing: [[finding_silent_blank_evades_review]] and [[finding_plausible_stale_value_evades_review]] are about *bad values surviving review*; this is the complement — **a loud, correct, honest failure that still yields a wrong read, because the missing leg was the one that would have changed the answer.** See also [[finding_verification_zero_is_ambiguous]] (a check certifies its SCOPE, not your capability) and [[finding_effect_below_instrument_detection_floor]].
+
+---
+
+**Fourth refinement — the case where NOTHING fails: a designed FALLBACK converts a dead data source into a SUCCESSFUL run over stale data, and every fix above misses it. (SAM, 2026-08-17.)**
+
+The three passes above all assume a failure exists somewhere — mis-counted (LABOR), mis-rendered (MARCO), or honestly reported and under-weighted (VULCAN). **This one has no failure to find.** `cpi_japan.py` is written so a missing `ESTAT_APPID` returns `{}` and the script **falls back to the cached TSV** — a deliberate, reasonable degradation. It raises nothing, **exits 0 honestly**, and prints real numbers. Boot rendered `✅ Japan CPI  OK` and displayed month-old vintages as the session's CPI read.
+
+**Why this defeats the earlier fixes, point by point:**
+- **Exit-code branching (MARCO's rule) cannot help** — the exit code is 0 and that is *correct*. The run genuinely succeeded; only the *data* is stale. Branching on a reliable signal fails when the reliable signal is honestly green.
+- **`ERR:`-on-broken-leg (VULCAN's rule) never triggers** — no leg is broken by the script's own lights. The fallback is the designed happy path for a missing credential.
+- **Audit-by-age ([[finding_plausible_stale_value_evades_review]]) is defeated by the display**, which reprints the cached row's own (old, correct) month label inside a *freshly stamped* boot run. The vintage is technically present and reads as "this boot's answer."
+
+The script *did* have a `⚠️ ESTAT_APPID not set` line — swallowed, because boot runs non-verbose and only surfaces a summary. **So the one honest signal existed and was filtered out by the layer above it**, which is MARCO's failure re-appearing one level up: there the *whitelist* dropped it, here the *verbosity setting* did.
+
+**The generalizable rule: a green check certifies that the RUN happened, never that the PULL was fresh — so a fetch instrument must report the VINTAGE IT SERVED, not merely that it finished.** A successful run over cached data and a successful run over a live pull must be **visually distinguishable in the summary line**, e.g. `✅ Japan CPI OK (LIVE 2026-08-17)` vs `⚠️ Japan CPI CACHED (2026-06, no live pull)`. Concretely: have the fetch return `(data, source)` where source ∈ {live, cache, partial}, propagate `source` into the summary, and **never let a non-live source render identically to a live one.** A fallback path that is invisible in the output is not a fallback, it is a silent substitution.
+
+**Two corollaries worth carrying:**
+1. **Audit fallbacks, not just error paths.** Grep your tooling for `return {}`, `return None`, `except: pass`, and "use cached/last-known" branches, then ask: *if this fires, does the caller's output look any different?* If not, that is this bug.
+2. **A stacked second break hides behind the first.** The same script also hardcoded `STATS_DATA_ID` to the **2020-base** CPI series while the next release (4 days out) was the **first 2025-base** print — a different series id. **Restoring the credential would have produced a confident green run that still could not fetch the release it was needed for.** When you find one break in an instrument, finish reading it before declaring the fix — the first defect is not evidence there is only one, and a credential fix is especially seductive because it *feels* like the whole answer.
+
+Related: [[finding_unversioned_local_secret_fails_silently]] (the credential half — check the local secret before debugging the service; note `.env` is gitignored, so **a restore does not travel between machines** and this defect is per-box) and [[finding_dated_stamp_is_a_trigger_not_a_shield]].
