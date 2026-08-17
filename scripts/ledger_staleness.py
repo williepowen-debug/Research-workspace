@@ -35,7 +35,19 @@ board_log.tsv is excluded from the outside-glob signature — it is the fleet-wi
 WALTER-consumption log, not a workbook ledger (would false-fire on ~15 agents).
 
 Timestamps use each file's last git-commit time (falls back to filesystem mtime
-for uncommitted files). Exit code is always 0 — this is an alert, not a gate.
+for uncommitted files).
+
+Exit-code contract (REVISED 2026-08-17 — DAEDALUS, PROME-approved, riding
+CHECK_STANDARD §8 rule 3; supersedes the founding "always 0, alert not gate"
+line, which left every rc-keyed consumer reading ✅ OK over stale findings —
+the silent-fallback-green class, BRENT-verified 8/17):
+  0 — clean: everything scanned, nothing stale, no enforcement warnings
+  1 — FINDINGS: stale ledger(s) found (workbook or --trade mode)
+  2 — CANNOT-CERTIFY: MISCONFIGURED LEDGER_GLOB / LEDGERS-OUTSIDE-GLOB /
+      agent-not-found / usage error. 2 dominates 1 when both occur (--all).
+Markers remain the primary wrapper contract per §8 rule 5 (⚠️/🔴 lines);
+rc now agrees with them instead of contradicting them. Consumers updated in
+the same batch: WATT/VULCAN/MIDAS/FERT run_alert, OTTO, MARCO, BRENT boots.
 
 ⚠️ KNOWN LIMIT (2026-07-28, VIOLET KB-VIO-142): this check compares AGES, so it
 PASSES a file that is brand new and affirmatively false (TRADE.md read 'ACTIVE
@@ -456,7 +468,11 @@ def main():
     if args.all and not args.quiet:
         tail = f"; {warnings} enforcement warning(s)" if warnings else ""
         print(f"\n== {total_stale} stale ledger(s) across {len(dirs)} agents (threshold {args.days}d behind STATUS){tail} ==")
-    return 0
+    # Exit-code contract (2026-08-17, header): 2 = enforcement/config warnings
+    # (cannot certify scope) dominates 1 = stale findings; 0 = clean.
+    if warnings:
+        return 2
+    return 1 if total_stale else 0
 
 
 if __name__ == "__main__":
