@@ -179,6 +179,17 @@ def fetch_hourly_sessions(days=HOURLY_LOOKBACK_DAYS):
         import yfinance as yf
         h = yf.Ticker("USDJPY=X").history(period=f"{days}d", interval="1h")
         if h.empty:
+            # ⚠️ Was a SILENT `return {}` until 2026-08-17 (DAEDALUS SFG sweep addendum 2;
+            # verified at source). The exception path below already printed; this one did
+            # not — and an empty frame is the MORE likely yfinance failure, since it is
+            # what a rate-limit or an out-of-range window returns without raising.
+            # The cost is specific and ironic: `hourly` is the ONLY input to the L3
+            # disagreement alarm, and L3 is this file's own stated "only free alarm" for
+            # truncated daily bars (see the L3 note above — a freshness check is blind to
+            # that class by construction). So a quiet empty here DISABLES THE GUARD
+            # rather than the data, and the run still exits 0 looking fully checked.
+            print("  ⚠️  hourly fetch returned an EMPTY frame (no exception) — "
+                  "falling back to daily bars only")
             return {}
         h = h.copy()
         h.index = h.index.tz_convert(SESSION_TZ)
@@ -366,6 +377,19 @@ def audit_source_quality(rows, hourly):
                       f"({gap:+.2f}y — stored {direction}-states)")
             print("      → rows inside the revision window self-heal on this run; "
                   "older rows need a manual pass.")
+    else:
+        # ⚠️ Test (a) requires the hourly series; with no hourly data it does not run.
+        # Saying so is the whole point: an un-evaluated alarm and a passed alarm printed
+        # identically before 2026-08-17, so a session could read "no disagreement found"
+        # off a check that never executed. A guard that cannot report its own
+        # non-execution is a guard you cannot rely on.
+        # (Class: a check certifies its SCOPE, not your capability —
+        # [[finding_verification_zero_is_ambiguous]].)
+        print("  ⚠️  hourly cross-check UNAVAILABLE — L3 test (a), the per-row range "
+              "DISAGREEMENT alarm, was NOT EVALUATED this run.")
+        print("      → this is the primary guard against truncated daily bars, and a "
+              "freshness check cannot substitute for it. Absence of an alarm below is "
+              "NOT evidence the rows agree. Test (b) still ran.")
 
     recent = sorted(rows, key=lambda r: r["date"])[-20:]
     if len(recent) >= 10:
