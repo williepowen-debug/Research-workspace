@@ -1,3 +1,14 @@
+# FROZEN 2026-08-17 — not maintained; STATUS/THESIS are canonical, do not cite rows as current.
+# RULING (SAM, 2026-08-17, on KURA Run-11 escalation 2). Root Data Hygiene allows exactly two states —
+# FROZEN, or LIVE with a boot-time staleness alert — and forbids the silent-rot middle. This ledger was
+# in the middle: last touched 2026-07-23, read by ZERO scripts, and its centrepiece row FLOW-JPN-5.02
+# 'Carry Unwind — ELEVATED-ARMED' asserts a frame RETIRED on 2026-08-07 (THESIS v1.7, leg-1 SPF fired).
+# A dead thesis wearing an ELEVATED-ARMED label is worse than no ledger: it reads as a live warning.
+# I chose FROZEN over LIVE because the honest test is consumption, and KURA staged updates here for
+# THREE consecutive runs without anyone applying them — that is the measurement, not an intention.
+# WHERE THE LIVE CONTENT LIVES: transmission mechanisms -> thesis/THESIS.md (channels + pillars);
+# carry state -> STATUS.md (RETIRED to LOW, buckets ~3/8/13, book FLAT); JGB/Pillar-2 -> THESIS Pillar 2.
+# UNFREEZE CONDITION: a successor thesis (v1.8+) that needs a mechanism map AND a named consumer for it.
 ID	Name	Speed	Layer	Status	Trigger	Current Position	Pathway	Key Insight	Last Updated
 FLOW-JPN-1.05	Rural Political Feedback Loop	MONTHS	1-Domestic	ACTIVE	Rural caucus Diet statements	¥1.3T capital extraction confirmed	Norinchukin losses → JA Co-op capital call → Dividend cuts → Rural distress → Political pressure on BOJ	"¥1.3T = ""Effective Tax on Japanese Agriculture"". (Reaffirmed 2026-05-28, v1.5 — structural, slow-moving; no change.)"	2026-05-28
 FLOW-JPN-1.06	Fiscal Doom Loop	WEEKS	1-Domestic	ACTIVE	Takaichi 316 seats = unconstrained spending; super-long auction softness	¥122T budget confirmed; 316 seats = unconstrained (+ 7/23 Takaichi ¥370T/FY2040 industrial-investment plan = more fiscal supply). JGB 30Y 3.901% / 40Y 3.842% (MOF 7/22 pub; ORDERLY, back below the 4.0% floor after the jawbone rally). Bid-real tests RESOLVED: 7/7 30Y FIRM (BTC 4.55x) + 7/22 40Y firm-lean (BTC 2.83x, SAM-35).	Takaichi spending → Bond market loses confidence → Yields surge → Debt servicing explodes → Fiscal worsens → Market questions funding → Yen weakens	"Structurally intact under Takaichi. J-ICS lifer demand-REDUCTION still the domestic driver, BUT v1.6.3: the demand-vacuum has a NAMED FLOOR ~4.0% 30Y (KB-206 — Meiji Yasuda doubled FY2026 super-long plan; SAM-32 FALSE) — the grind is cushioned, the disorderly tail thinner. Next tests: Jul-7 30Y / Jul-22 40Y (bid-real), Jul-31 BOJ FY2027 purchase plan (supply read). (Re-derived 2026-07-02 from the stale May-28 state.)"	2026-07-23

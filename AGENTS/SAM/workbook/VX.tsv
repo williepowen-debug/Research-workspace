@@ -1,3 +1,14 @@
+# FROZEN 2026-08-17 — not maintained; STATUS/THESIS are canonical, do not cite rows as current.
+# RULING (SAM, 2026-08-17, on KURA's three-run staging flag). Same call as FLOW.tsv, same reasoning:
+# 3 rows, read by ZERO scripts, last touched 2026-07-21/23, and VX-11.02 + the wage rows were staged
+# and unapplied across Runs 9, 10 and 11. KURA was right that the fourth restaging would be the wrong
+# question — the question is whether anyone reads this file, and the answer measured over three runs is no.
+# ⚠️ WHAT IS NOT FROZEN — the WAGE MECHANISM ITSELF REMAINS LOAD-BEARING. The BOJ reacts to wages, not
+# to spot CPI ([[finding_threshold_vs_mechanism]]), and nominal/real cash earnings stay a live input to
+# the next-hike path. Freezing this ledger retires the SURFACE, not the signal.
+# WHERE THE LIVE CONTENT LIVES: wages -> STATUS.md 'Durable reference rows' + thesis/THESIS.md Pillar 1/2;
+# trade balance -> workbook/TRADE_BALANCE.tsv (auto-pulled by boot, actually maintained).
+# UNFREEZE CONDITION: a script or boot step actually READS this file — a consumer, not an intention.
 ID	Name	Category	Current_Value	Yellow	Orange	Red	Status	Confidence	Last_Updated	Source	Notes
 VX-SAM-8.03	Nominal Wage Growth	Real Wage Tracking	+3.2% (May 2026)	2.5%	3.0%	3.5%	ORANGE	90%	2026-07-23	MHLW (May 2026 prelim, rel. Jul 7)	Refreshed 2026-07-23. May +3.2% YoY (¥311,165) — 4th straight month >3% (longest streak since 1992); slightly slower than Apr revised +3.6%; scheduled/base pay +3.0% (¥275,942), overtime +2.9%. Re-accelerated vs Mar +2.7% → YELLOW→ORANGE. Shunto 5.26% feed-through firm. Not auto-pulled (manual/MHLW). Next: June ~early Aug.
 VX-SAM-8.04	Real Wage Growth	Real Wage Tracking	+1.4% (May 2026)	0.0%	-0.5%	-1.0%	GREEN	90%	2026-07-23	MHLW (May 2026 prelim, rel. Jul 7)	Refreshed 2026-07-23. May +1.4% YoY (real index 84.3, 2020=100) — positive 5th straight month; nominal +3.2% beat MHLW-CPI +1.7%. Real cushion WIDER vs Mar +1.0% (growth decelerating vs some prior months but firmly positive). Not auto-pulled.
