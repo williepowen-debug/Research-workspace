@@ -41,6 +41,9 @@ import re
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import agent_freshness  # own-surface age — the grid's health instrument (8/16)
+
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 
@@ -235,10 +238,15 @@ def parse_heartbeat():
     one = ""
     m = re.search(r"^\*\*One-liner:?\*\*:?\s*(.*)$", text, re.M)
     if m:
-        # prefer a quoted phrase; a re-based HEARTBEAT may drop the quote marks
-        # entirely (7/24 regression class) — fall back to the unquoted remainder
+        # 8/16 (DAEDALUS sweep-1 URGENT-1): prefer-any-quoted-phrase rendered the
+        # single word "SPENT" — an incidental quoted token in the 8/14 one-liner,
+        # and a kill-on-sight claim INVERTED against canon — for 6 builds/3 days.
+        # A quote wins only when it carries most of the line (the 7/24 fully-
+        # quoted-one-liner class); incidental tokens fall through to the full
+        # cleaned sentence.
+        full = md_clean(m.group(1))
         q = re.search(r'[“"]([^”"]+)[”"]', m.group(1))
-        one = q.group(1) if q else md_clean(m.group(1))
+        one = q.group(1) if (q and len(q.group(1)) >= 0.6 * len(full)) else full
     split = ""
     m = re.search(r"Break \d+ / Grind \d+ / Unresolved \d+", text)
     if m:
@@ -811,6 +819,21 @@ def build(today, now_iso):
     fleet = []
     for name, dom in active:
         days, c30 = agent_git(name, today)
+        # 8/16 (DAEDALUS sweep-1 URGENT-3): dir-traffic counted commits INTO the
+        # agent's tree, so inbound packets read as agent health — grid said
+        # all-31 "ok" while gate-wired agent_freshness read 8 STALE>7d (the
+        # NEXUS 8/12 instrument defect). The grid now keys on the same
+        # instrument the gate trusts: own-surface age (non-inbox), CALENDAR
+        # days. agent_git stays for the 30d activity count only.
+        if name == "PROME":
+            # PROME's home is PROME/, not AGENTS/PROME (tree removed 7/24) —
+            # the shared helper hardcodes AGENTS/<name> and returns None here.
+            ts = agent_freshness.git("log", "-1", "--format=%ct", "--",
+                                     "PROME", ":(exclude)PROME/inbox")
+            own = (dt.datetime.now().timestamp() - int(ts)) / 86400 if ts else None
+        else:
+            own = agent_freshness.own_surface_age_days(name)
+        days = None if own is None else round(own)
         depth = inbox_depth(name)
         lvl, conf = fmap.get(name, ("—", ""))
         is_parked = name in parked
@@ -820,13 +843,13 @@ def build(today, now_iso):
         elif days is None:
             cls, word = "crit", "no git history"
         elif days <= 3:
-            cls, word = "ok", f"{days}bd ago"
+            cls, word = "ok", f"{days}d (own)"
         elif days <= 7:
-            cls, word = "watch", f"{days}bd ago"
+            cls, word = "watch", f"{days}d (own)"
         elif days <= 14:
-            cls, word = "elev", f"{days}bd — lagging"
+            cls, word = "elev", f"{days}d own — lagging"
         else:
-            cls, word = "crit", f"{days}bd — cold"
+            cls, word = "crit", f"{days}d own — cold"
         fleet.append({"name": name, "dom": dom, "days": 999 if days is None else days,
                       "word": word, "cls": cls, "c30": c30, "depth": depth,
                       "lvl": lvl, "conf": conf, "newborn": lvl == "L1",

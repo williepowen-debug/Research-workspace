@@ -1,5 +1,7 @@
 # BRIEF.md — the narrative block for Will's briefing page
 
+> ⚠️ **STALE — DO NOT ACT FROM THIS PAGE (bannered 2026-08-16 S4, DAEDALUS sweep-1 URGENT-2).** Narrative written 8/3 and superseded on at least four load-bearing claims: "wait-for-8/7" (resolver CLOSED 8/7) · "oil arm expires 8/13" (arm RETIRED 8/7) · "reshape due 8/5" (DEAD AS CHARTERED 8/4) · "~53% cash" (45.95% [FORGE 8/14]). Its own contract below mandates rewrite at picture-changing closeouts, but `will_brief` is wired into NO closeout step — **rewire-vs-retire is at Will**; this banner holds until that ruling. Live directives: `PROME/SCRATCH.md` + the Fleet-Ops dashboard.
+
 **Owner:** PROME. **This file is the ONLY hand-written half of the briefing** — everything else on the page is parsed from canon at build time (`PROME/tools/will_brief.py`).
 
 **Why it exists:** the facts (dates, gates, queue, cash) generate cleanly. The *story* — what the bet is, what would break it, what actually decides it — is judgment and cannot be parsed from a TSV. Splitting them means the page can say honestly which half is fresh.
