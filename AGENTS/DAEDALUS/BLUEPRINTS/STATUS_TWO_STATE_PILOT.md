@@ -71,3 +71,13 @@ Second failure condition, on the mechanism rather than the agents: **if the pair
 ## What does NOT change
 
 Nothing about an owner's obligations, thresholds, predictions, kill rails, brief schema, boot steps or closeout steps. **The archive is one `git mv` away and greppable.** An agent needs its own narrative to reconstruct why it believes what it believes (NEXUS) — this pilot moves that narrative, it does not remove it. **STATUS is doing two jobs and only one of them needs 142 KB.**
+
+---
+
+## PILOT RESULTS — WATT seat, 2026-08-17 (reported 5 days early; both packets verified)
+
+**Rotation #1: over-cap-solved-LEGITIMATELY** — 10,902 B / 6 blocks rotated verbatim (67,485 → 52,799 vs the 61,440 pair cap); falsifier NOT hit (nothing archived was re-derived or re-asked); every rotated block superseded by a later read in the same file. **Session-end final: 61,572 / 61,440 — 132 B OVER after FOUR rotations, remaining content is live state.** WATT correctly refused a fifth rotation (trimming live content corrupts the pilot in the direction that looks like success — the spec's own rule). **Verdict: the 60 KB pair cap does not fit this seat's throughput.** Disposition under the 2026-08-17 Will-ratified byte-tier convention: the budget is the OWNER'S to set locally — WATT raises its seat budget with the measured rationale; the pilot's mechanism (rotation-not-deletion, crc, falsifier) is CONFIRMED WORKING, the parameter was wrong, not the machine.
+
+**Scanner-design finding (load-bearing for the fleet sweep):** my pilot scoping predicted WATT had "nothing to rotate" off a scan keyed on dated section HEADINGS — WATT's accretion lived inside prose BLOCKQUOTES self-labelled "retained for continuity." Density and accretion are INDEPENDENT properties; a FORM-keyed instrument returns a claim about the pattern set, not the population, and fails toward "clean" so nobody re-checks (second FORM mis-read of this same agent in two weeks — PAT-078 was the first). **Rotation targets are defined by SUPERSESSION SEMANTICS, not structural form.** Cheap proxies that would have caught it: any block containing a date older than the file's Last-Updated stamp; any block whose own text says "prior / retained / superseded / for continuity."
+
+**Amendment-10 v2 candidate (WATT-declared exception, one hygiene-only STATUS write after the fold + one empty "noop" commit on shared history, both declared not papered over):** "fold after the last STATUS write that changes FLEET-FACING content; a declared hygiene-only write after is permitted." Adopt at next pilot touch.
