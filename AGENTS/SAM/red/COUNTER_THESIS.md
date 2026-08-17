@@ -1,5 +1,22 @@
 # RED COUNTER-THESIS
 
+**Last real data refresh:** 2026-06-30 (the argument below is unchanged from that date — **it is the record of a counter-case, not a live dashboard**)
+**Last RED sweep:** 2026-08-17 (write-back — **bannered, deliberately NOT rewritten**; dispositions live in `CHALLENGES.md`)
+
+> ⚠️ **STATUS BANNER — 2026-08-17. READ BEFORE CITING ANY LINE BELOW.**
+> This document argues against **THESIS v1.6.1**. **SAM retired that frame on 2026-08-07 (v1.7)** — leg-1 SPF fired, the carry-convexity tail went to **LOW**, the book is **FLAT**, and **no successor frame is declared**. The counter-thesis is **kept verbatim** because the argument is the record and rewriting it would corrupt what RED actually claimed on 6/30. **Cite it as history.** Where each of its six numbered arguments now stands:
+>
+> | # | Argument | Standing as of 2026-08-17 |
+> |---|---|---|
+> | 1 | Strong-form "no clearing price" is the widow-maker | **LIVE, tightened** → `CHALLENGES.md` CH-009. **Against RED:** the +56bp/13mo figure below is stale — it is **~+80-88bp / ~15mo**, and 30Y is **through 4.00%** (MOF 4.002, 8/13-8/14), so the "range-bound 3.5-4.0%" prediction in § WHAT THE WORLD LOOKS LIKE IF I'M RIGHT has **failed its level**. **For RED:** a *named* buyer now sits on the demand curve at ~4.0% (Meiji Yasuda, >¥2T) with **three consecutive auction confirmations** — the demand curve exists, which was the claim |
+> | 2 | The realized 13-month tape is an orderly grind | **LIVE, restated to 15 months.** Still a grind (~5.5bp/mo; 8/17 was +6.5bp), still no cascade, still no auction failure |
+> | 3 | The 4.5% forced-seller may have the sign backwards | ✅ **WON — twice.** THESIS **v1.6.3** (7/2) and **v1.6.7** (7/11): mechanism re-scoped to a disorderly-path-only J-GAAP impairment tail; base case **net-demand-POSITIVE**. CH-010 CLOSED-CONFIRMED |
+> | 4 | The carry-tail route is self-defeating | ✅ **MOOT — the route is retired** (v1.7), and the decoupling leg fired anyway: 8/17 saw a 30-yr-high 10Y and a long-end break against **USD/JPY −0.03%, 7th flat session**. CH-011 CLOSED |
+> | 5 | It's consensus and already in the price | **LIVE, and now genuinely testable** — +24bp (30Y) / +31bp (40Y) in 7 weeks vs the trailing grind. CH-012, adjudicators 8/20 and 9/3 |
+> | 6 | It changes no action | ✅ **HELD through the live test.** 30Y tagged 4.00% on 8/17 and SAM added nothing: *"No entry trigger exists … a threshold tag does not re-arm them."* CH-014 CLOSED-MITIGATED |
+>
+> **The successor question is now the live adversarial ground, and it is NOT covered by anything below:** the carry unwound, the fuel burned, the tank is emptying (OI −27,519 on 8/14) — **and USD/JPY sits at 159, having gone the wrong way since 8/7.** A counter-thesis against the v1.8 candidate is **owed** and is a separate spawn; the pre-registration is `CHALLENGES.md` **CH-017**.
+
 **Active pass:** 2026-06-30 — **JGB long-end DEMAND-VACUUM thesis** (THESIS v1.6.1 § Pillar 2 + `research/outputs/JGB_SUPPLY_DEMAND_THESIS.md` + SAM-32 + the new 30Y 4.5% disorderly threshold/carry-route). This is the brand-new, never-adversarially-reviewed work. The v1.6 carry-convexity-tail frame is NOT a target here (it cleared a separate 6-of-6 SAM⇄RED dialogue at finalize).
 **Prior pass (SUPERSEDED):** v1.5 single-path / June-BOJ-hike counter-thesis — retained at the bottom, flagged. Superseded by events (BOJ hiked Jun 16 as-priced) + the v1.6 re-center.
 
