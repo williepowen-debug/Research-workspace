@@ -8,7 +8,7 @@
 > ⇒ ★ **REMOVING A COMPETING EXPLANATION IS NOT THE SAME AS SUPPLYING CONFIRMATION. A gate that stops being explained away is not thereby confirmed.**
 
 > # 🔴 **`$0` MOVED. NO POSITION CHANGED. NO THRESHOLD MOVED. NO GATE FIRED OR UN-FIRED. NO PREDICTION RESOLVED. NO REGISTRY ROW EDITED.**
-> **INBOX 9 → 0 · WALTER LANE 2 → 0 · OUTBOX 7 → 0 · board_log 203 → 212 · STATUS 237 → 221 lines.**
+> **INBOX 9 → 0 · WALTER LANE 2 → 0 · OUTBOX 7 → 0 · board_log 203 → 214 · STATUS 237 → 226 lines (226/250 at final closeout).**
 
 ---
 
@@ -30,7 +30,7 @@
 - **Verdict `R3 = HOLD`**, on corrected grounds (above). PROME recorded it into `GATES.tsv` GATE-FALCON-001, the DOCKET sweep-#2 annotation and my forward-checks row.
 - ✅ **FALCON's ~4.0 crude baseline verified INDEPENDENTLY and is stronger than its own packet claimed** — Yanbu **>4 mb/d since June**, **4.7 mb/d ~7/13**, vs **973 kb/d** same period 2025 [marinelink 7/14], from a source independent of the fire relay.
 - ⚠️ **Ask ① only PARTIALLY satisfiable and said so:** Kpler/Vortexa terminals are commercial. FALCON's "dual-tracker, single relay chain" caveat stands **unchanged**.
-- ★ **Third mechanism named that neither FALCON nor PROME listed — a YANBU OFFTAKE CONSTRAINT** (embargo 7/20 → dark loadings from 7/23 → Petroline keeps delivering → tank-tops → Gulf route reopens ~8/12). **It makes constraint and reallocation SEQUENTIAL rather than competing**, and it is **the identical pattern WALTER documented at Sheskharis the same week** (`SIG-004`: halt *"because storage tanks had reached capacity"*). ⛔ **NOT registered — no Yanbu-tankage or Petroline instrument exists on my desk.**
+- ★ **Third mechanism named that neither FALCON nor PROME listed — a YANBU OFFTAKE CONSTRAINT** (embargo 7/20 → dark loadings from 7/23 → Petroline keeps delivering → tank-tops → Gulf route reopens ~8/11). **It makes constraint and reallocation SEQUENTIAL rather than competing**, and it is **the identical pattern WALTER documented at Sheskharis the same week** (`SIG-004`: halt *"because storage tanks had reached capacity"*). ⛔ **NOT registered — no Yanbu-tankage or Petroline instrument exists on my desk.**
 
 ### ② ⛔⛔ MY OWN TRANSIT INSTRUMENT IMPEACHED — the session's biggest finding
 - **INTERNAL (no external source needed): `n_tanker>0` AND `capacity_tanker=0` — 0 of 424 pre-crisis days (0.0%) vs 19 of 113 war tanker-days (16.8%).**
@@ -50,7 +50,7 @@
 - 🔴 **The SIG-005 find: the Jazan 8/15 restart date was DEAD FIVE DAYS BEFORE the 8/15 packet called it "TOMORROW"** — pushed to **8/30** on 8/10–11 [IIR via Bloomberg]. **Catalyst revised on BOTH surfaces.** Caveat travels verbatim: **8/30 is an IIR consultancy estimate, not an Aramco commitment.** 🆕 **Confound: an 80,000 bpd Jazan reformer offline since MAY 27 on OPERATIONAL issues** — not all Jazan downtime is strike-attributable.
 
 ### ⑤ HYGIENE
-- **STATUS 237 → 221**; the 7/27-basis dashboard block archived **because it actively contradicted live state** (Cushing 18.60M / "Boundary #3 BREACHED" — rescinded 8/12; SPR 307.65M; rigs 450), not merely for length.
+- **STATUS 237 → 226**; the 7/27-basis dashboard block archived **because it actively contradicted live state** (Cushing 18.60M / "Boundary #3 BREACHED" — rescinded 8/12; SPR 307.65M; rigs 450), not merely for length.
 - **Kharg lane naming (PROME item 3): CHECKED, nothing owed** — only hit is an archived file, preserved by design.
 - **`gie_pull.py` owner-wire (PROME item 2): NOT ACTIONABLE — DEWEY has not shipped the script.** Waiting-on, not owed.
 
@@ -95,6 +95,15 @@
 - **✅ INBOX 0 · WALTER LANE 0 · OUTBOX 0 — all three empty. board_log 212 rows, validated 5 fields, zero ragged.**
 - **SENT (3):** → **PROME** (discriminator verdict + the PortWatch fleet read-through) · → **FALCON** (verdict + 3 corrections) · → **DAEDALUS** (ACTION 1 executed + the four-link correction). **All three CONSUMED and filed by their recipients same day.**
 - **Owed TO me:** **Will — the war-risk-halves ruling · the WP3 call.** **DEWEY — `gie_pull.py`, before my owner-wire can exist.**
+
+## ⚙️ CLOSEOUT CHECKS — RUN 2026-08-17, RESULTS RECORDED SO THEY ARE NOT RE-LITIGATED
+
+- **`orphan_check` BRENT** — one entry, `AGENTS/WALTER/routed/delivery_log.tsv`, `[not yours]`. **WALTER's in-flight work; correctly NOT swept.**
+- **`memory_index_check --slug`** — **0 blocking**. **`check_memory_length`** — 27 lines (13%) / 16,502 B (**64%** of cap), under the 80% warn.
+- **`claim_check --check weekday`** — **2 flags, BOTH VERIFIED BENIGN. Do not find-replace them.**
+  - **The Aug-13 weekday flag on STATUS — ✅ RESOLVED, and it was never an error.** ⚠️ **CHECKER PARSE ARTEFACT:** the source text was my own *correct* verification pairing each date with its own weekday in a comma-separated list, and the regex read ACROSS the comma, binding the FIRST date's weekday to the SECOND date. **Fixed by rewriting the verification as prose (each date and weekday in its own clause)** — kills the false match, changes no claim, erases no history.
+  - **The Aug-14 weekday flag** — ✅ **A CORRECTLY-LABELLED QUOTE of a relay's error, immediately followed by my own correction naming the right weekdays.** **LEFT AS-IS DELIBERATELY — the quote IS the record; rewording it would erase the finding to satisfy a regex.** ⚠️ **AND A SMALL LESSON FROM WRITING THIS BULLET: my first draft DESCRIBED the flag by REPRODUCING the offending string, which created TWO MORE instances of the very pattern and doubled the advisory. Documenting a pattern-match false positive by quoting the pattern MULTIPLIES it — describe it instead.** Expect one standing flag here every session; it is the documented false-positive class in boot-doc step 1e.
+- **`consumer_check`** — no numeric level of mine was superseded today (no threshold moved). The one superseded PUBLISHED figure was the **Jazan restart date (8/15 → 8/30)**, handled by direct fleet grep + catalyst revision on both surfaces rather than the numeric tool, which does not fit a date.
 
 ## WORKBOOK HEALTH
 
