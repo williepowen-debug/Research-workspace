@@ -10,7 +10,7 @@
 
 ## Class 1 — Dead/static surface banners
 
-*Enforcement home: `scripts/ledger_staleness.py` `STATIC_BANNER_MARKERS` (:108). Inventory 2026-07-31, banner-position (first 4 lines), fleet-wide: FROZEN 146 · SUPERSEDED 52 · RETIRED 34 · ARCHIVED 10 · NOT MAINTAINED 4 · DO NOT CITE 4 · NOT CURRENT 2.*
+*Enforcement home: `scripts/ledger_staleness.py` `STATIC_BANNER_MARKERS` (cite the symbol, not a line number — it moves). Inventory 2026-07-31, banner-position (first 4 lines), fleet-wide: FROZEN 146 · SUPERSEDED 52 · RETIRED 34 · ARCHIVED 10 · NOT MAINTAINED 4 · DO NOT CITE 4 · NOT CURRENT 2.*
 
 | Canonical token | Meaning (one each — the STE rule) | Banner must carry |
 |---|---|---|
@@ -85,7 +85,7 @@
 - **In force immediately, no encode needed (fleet-binding restatement from the ruling):** no aggregate over a column carrying these tokens is quotable until the schema declares its unit — the tokens make units visible, they do not make the file summable.
 - **Local richness protected (PAT-015):** rich domain vocabularies (BRENT's `facility_key`, MIDAS's provenance ladder, any richer categorical alongside the token) stay canonical locally; this class binds only the state-token beside the number.
 
-## Class 6 — Source-authority distinction (added 2026-08-14; ruling: `PROME/proposals/2026-08-14_rows-49-50-RULED.md` §Row 49; provenance: HOMER 2026-08-14 issuer-primary-sourcing PROPOSAL, first application on `AGENTS/HOMER/RATES.tsv` from 2026-08-13)
+## Class 6 — Source-authority distinction (added 2026-08-14; ruling: `PROME/proposals/2026-08-14_rows-49-50-RULED.md` §Row 49; provenance: HOMER 2026-08-14 issuer-primary-sourcing PROPOSAL, first application on `AGENTS/HOMER/workbook/RATES.tsv` from 2026-08-13)
 
 *The defining defect: a mirror-as-primary delivers correct numbers stripped of the issuer's caveats. HOMER's live example (8/13): FRED's bare `6.67%` PMMS print vs Freddie's release carrying "applications rising" — same number, materially different read.* **This class is the state-token half of the convention; the writing rule lives in `STRICT_TEXT.md` rule 6 (issuer-primary-where-reachable).**
 
@@ -109,7 +109,7 @@
 | 2 (gates) | greps in sweeps/audits/screens (no single enforcer) | Any NEW check greps the canonical spellings + documents which legacy spellings it covers |
 | 3 (predictions) | boot due-scans, scoreboard tooling (per-agent) | New ledgers ship with the token enum in their header comment |
 | 4 (queue/disposition) | queue re-scan tooling, board_log audits (per-agent today; no single enforcer) | New queue surfaces ship the enum + TERMINAL marking in their header comment; any re-queue tooling keys on the TERMINAL flag, never on token spelling |
-| 5 (zero/UNKNOWN/NA) | `basis_check` (BRENT's F-7, ruled the convention's enforcement arm; scans NON-dated blocks only per BRENT's dated-history-exempt canon) — extend an existing checker where possible per anti-ratchet rider; a fleet-shared home is a follow-on question, not part of this encode | New quantitative TSV columns ship the enum in a header comment; existing columns adopting the class name what they supersede | ⛔ **CORRECTED 2026-08-17: basis_check never shipped as code (BRENT-confirmed — class-5 tokens live as INCIDENTS.tsv column enum + prose, no script check exists). Enforcement arm = UNBUILT; candidate home rides the forum-4 #11 registration-checklist build.**
-| 6 (source authority) | No dedicated enforcer today — reader-side convention; a fleet grep for `PRIMARY|MIRROR|MIRROR-WALLED` on threshold rows is a candidate follow-on | New citations on load-bearing figures carry one of the three tokens; HOMER `RATES.tsv` is the first-application worked example |
+| 5 (zero/UNKNOWN/NA) | ⛔ **UNBUILT — CORRECTED 2026-08-17: `basis_check` never shipped as code** (BRENT-confirmed — class-5 tokens live as INCIDENTS.tsv column enum + prose, no script check exists; this cell previously named it as the ruled enforcement arm, and the correction sat in an overflow 4th cell GFM silently dropped at render — self-audit F25). Candidate home rides the forum-4 #11 registration-checklist build; extend an existing checker per anti-ratchet rider | New quantitative TSV columns ship the enum in a header comment; existing columns adopting the class name what they supersede |
+| 6 (source authority) | No dedicated enforcer today — reader-side convention; a fleet grep for `PRIMARY`\|`MIRROR`\|`MIRROR-WALLED` on threshold rows is a candidate follow-on *(pipes escaped 2026-08-17 — unescaped they split this row and GFM dropped the obligation cell, self-audit F25)* | New citations on load-bearing figures carry one of the three tokens; HOMER `RATES.tsv` (`workbook/`) is the first-application worked example |
 
 **Build-time check (REGISTRATION_CHECKLIST row 15):** new agents' state-bearing surfaces use canonical tokens; DAEDALUS verifies at registration. Blueprint variants cite this file — they do not restate the tables.

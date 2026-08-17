@@ -70,3 +70,17 @@ Scope note: §7's retry rule handles the *transient* half; this section handles 
 - **Consumer half:** verdict = rc-1 OR marker-present (§8 rule 5 keeps the marker channel authoritative; rc agrees with it, never substitutes for it); rc-2 = the check cannot certify its scope — treat as leg failure, never assume quiet. rc-0 alone is never proof of clean.
 - **Contract-change discipline:** revising a shared check's rc contract means editing the producer AND every rc-keyed consumer in ONE batch — a producer-only ship re-creates the 8/16 marker-contract regression class (a stale finding rendering as boot FAILURE on every wired desk). Survey consumers BEFORE changing the contract.
 - Scope: binds new shared checks at build and existing ones at next material edit, per this standard's scope line. §8 rule 3 is the fetch-tool instance of the same principle; this section is the general shared-check form.
+
+## 10. Every mechanism declares whether its author's own directory is in scope — default IN — PROVISIONAL (Will-approved 2026-08-17 via self-audit batch ruling; PROME-proposed at the cross-read; ratify-after-first-live-application per the §8 flow)
+
+**Canon:** *Every new sweep, enforcement mechanism, check, or scope declaration MUST state whether the author's own directory/surfaces are in scope, and the default is IN. A scope-honesty line ("0 NOT READ", "all X covered") must enumerate the author's own dir as read-or-excluded — silence about self is a scope violation, not a neutral omission.*
+
+- **Why (measured, 2026-08-17 self-audit):** the self-inclusion clause has existed as prose since 7/12 (PAT-050) and held ONLY for the three sweeps it literally names. Every mechanism born since carried the exclusion unnoticed: the byte-tier convention (author's own STATUS at 391% of budget), the SFG sweep (author's own scripts out of scope with two live class-hits), CHECKS.tsv (scope predicate false for the author's own scripts), the closeout battery (never entered the author's charter). A remembered rule does not travel to new mechanisms; a template property does — same move as the messaging-pointer encode.
+- **Retroactive leg:** registered for the ~8/28 fleet wiring sweep (vehicle proposed in PROME's idea-3a packet, pending Will's confirmation of that packet) — audit existing sweep scopes + register readers fleet-wide while every boot surface is already open.
+
+## 11. No register ships without a named reader — PROVISIONAL (Will-approved 2026-08-17 via self-audit batch ruling; PROME-proposed; ratify-after-first-live-application)
+
+**Canon:** *A register's birth commit names its reading moment — WHO reads it (a person, a boot step, a sweep step, a script) and at WHAT cadence — or the register is born PAT-108 (a writer with no reader). "The owner will consult it" is not a reading moment; a reading moment is an executable or scheduled step that fails visibly when skipped.*
+
+- **Why (measured, 2026-08-17 self-audit — three same-week instances this rule would have blocked at birth):** SURFACES.tsv (readerless since creation → 4 of 11 rows false at their artifacts), PATTERNS.tsv (write-mostly → controlled vocabulary forked across 33 rows unnoticed), CHECK_STANDARD.md itself (twice-ratified, zero citation sites — an un-invoked standard is this rule's own class one level up, PAT-071).
+- **Existing registers:** at next material edit, add the reading moment or an explicit dated `NO-READER (accepted <why>)` cell — the two-state rule applied to registers.

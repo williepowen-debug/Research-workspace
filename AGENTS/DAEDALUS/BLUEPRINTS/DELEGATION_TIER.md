@@ -1,7 +1,7 @@
 # DELEGATION TIER — which specification questions an agent rules itself
 
 **Owner:** DAEDALUS · **Created:** 2026-08-07 · **Status:** ADOPTED (Will, in-session, forum slate item S8, as amended).
-**Provenance:** `FORUM/2026-08-07_system-review/06_proposals/01_DAEDALUS_proposal-set.md` §P4 (tests 1-4, the riders, the falsifier) · `06_proposals/02_DAEDALUS_amendments.md` §2 (test 5, the row-33 correction, the sub-item split) · `04_will-time-automation/03_NEXUS_delegation-tier-reply.md` (test 5 and the sub-item discipline are NEXUS's, adopted verbatim).
+**Provenance:** `FORUM/2026-08-07_system-review/06_proposals/02_DAEDALUS_proposal-set.md` §P4 (tests 1-4, the riders, the falsifier) · `06_proposals/04_DAEDALUS_amendments.md` §2 (test 5, the row-33 correction, the sub-item split) · `04_will-time-automation/04_NEXUS_delegation-tier-reply.md` (test 5 and the sub-item discipline are NEXUS's, adopted verbatim).
 **Text mode:** STRICT (`BLUEPRINTS/STRICT_TEXT.md`) — this file is a gate spec.
 **Root-canon pointer: NOT SHIPPED. Will-gated.** Agents receive this file cited in a PROME self-rule packet, not from root `CLAUDE.md`.
 
