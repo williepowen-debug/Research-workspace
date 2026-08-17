@@ -30,7 +30,7 @@ Four defect classes, all classes I police:
 
 ## §2 DEDUPED FINDINGS REGISTER
 
-36 unique findings after cross-reader dedup (source-reader IDs in parens; S=spine, T=tooling, B=blueprints, R=registers, W=workproduct). Convergent finds (two+ independent readers) marked ★.
+**37 unique findings** after cross-reader dedup — F1–F35 + PROME-additive F37/F38; **F36 was merged into F21 during drafting (S-D10, the Notes-only-edit/regen-skip fact) and the number is RETIRED, not missing.** *(Erratum owned: the first commit of this file said "36" here and "38" in the commit message while the enumeration held 37 — count drift inside a findings register, caught by PROME's cross-read within the hour; `feedback_verify_counts_before_propagating` on my own artifact.)* Source-reader IDs in parens; S=spine, T=tooling, B=blueprints, R=registers, W=workproduct. Convergent finds (two+ independent readers) marked ★.
 
 **CLASS 1 — Self-exclusion from own enforcement**
 | F# | Sev | Finding | Sources |
