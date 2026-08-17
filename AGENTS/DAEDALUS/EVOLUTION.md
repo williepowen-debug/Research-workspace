@@ -325,3 +325,7 @@ Will's batch ruling ("All approved as recommended…", ruling record in inbox/pr
 ## 2026-08-17 (d) — §8 rule 5 gains the ⚠️-vs-NOTE: vocabulary discipline (WATT first-live-use) + pilot results banked
 
 WATT's first live wiring of the rule-5 marker contract inverted the failure it fixes: three permanent ⚠️ lines (by-design refusal, standing basis caveat, provenance wall) flipped the verdict to permanent-REVIEW. Encoded: ⚠️ = state-dependent degradation only; standing walls print `NOTE:` — fix vocabulary, never weaken the guard. Same commit: STATUS_TWO_STATE_PILOT gains the WATT seat results (rotation mechanism CONFIRMED, 60 KB parameter wrong for the seat — owner re-budgets under the ratified byte-tier) + the FORM-vs-supersession scanner finding + the Amendment-10 v2 candidate. PAT-101 rule ii: entry rides the BLUEPRINTS commit.
+
+## 2026-08-17 (e) — byte-tier reference implementation named (WATT, same-night adoption)
+
+WATT implemented the byte tier hours after ratification (`bee36f441`) and it is the reference form: artifact-verified ruling → seat budget with on-surface rationale (the PAT-086 case cleanly: line cap 42%, default byte budget 129%) → byte tier ordered to bind before the line cap → advisory-by-design (never auto-rotate) → guard tested 4/4. Named in market-agent.md so later adopters meet the pattern, not just the rule. PAT-101 rule ii: entry rides the BLUEPRINTS commit.
