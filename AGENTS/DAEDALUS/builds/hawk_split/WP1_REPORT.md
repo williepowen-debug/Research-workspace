@@ -1,5 +1,7 @@
 # WP-1 Report — FALCON scaffold + content migration
 
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
+
 **Executed by:** DAEDALUS build sub-agent (WP-1) · **Date:** 2026-07-12 · **Scope:** `AGENTS/FALCON/` only (created), + this report.
 **Contract:** `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md` (§1 decisions, §2/§2b dispositions, §4 Tier-1 fixes, §5 scaffold structure) + `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md` + `builds/hawk_split/MANIFEST_{A,B,C}`.
 **Constraints honored:** read-only on everything outside `AGENTS/FALCON/` and this report; zero writes/moves/deletes under `AGENTS/HAWK/`; zero git commands executed (add/commit/mv) — verified via `git status --porcelain -- AGENTS/HAWK/` (empty) and `git status --porcelain -- AGENTS/FALCON/` (shows `?? AGENTS/FALCON/`, fully untracked) at report time. All TSV row migrations were done by `awk` extraction from the HAWK source files (never hand-retyped) to eliminate transcription risk — verified column counts match source schemas exactly (VX 11 cols/row, FLOW 9 cols/row, STRIKES 16 cols/row, SCHEMA byte-identical `diff`).

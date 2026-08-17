@@ -1,5 +1,7 @@
 # HAWK Split — Manifest B: Ledgers (VX.tsv, FLOW.tsv, STRIKES.tsv, SUMMARY.md, KB.tsv)
 
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
+
 **Reader:** DAEDALUS sub-agent B. **Scope:** `AGENTS/HAWK/workbook/*.tsv` + `AGENTS/HAWK/domain/energy-strikes/`. **Date:** 2026-07-12.
 **Read against:** `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md` (§4 content migration, §7 Tier-1 fixes).
 

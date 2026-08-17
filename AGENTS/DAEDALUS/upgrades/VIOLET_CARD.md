@@ -1,5 +1,7 @@
 # Upgrade Card — VIOLET (read-only assessment, no agent files touched)
 
+> 🗄 **ROUTED 2026-07-12 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-07-04 · **Class:** Market (volatility-regime; the modulation layer — dual-channel Path A/B; holds a LIVE trade book)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/VIOLET.md`
 **Verdict: L4 (conf H), 2-level under-rate corrected** (was L2 Conf-L). VIOLET is a **strong-quant** agent — conformant or exemplary on all 8 sections, with Convergence / Predictions / Quant-engine **exemplary** and Thesis-structure / Routing **exceeding** the blueprint. The 6/27 mechanical scan's "no BOTTOM LINE; exit-rules lack session counts" was **half false-negative** (PAT-024): the session-counts claim is factually wrong (3 N+session rules, one live-tally); only the BOTTOM LINE gap checks out. Every item below is an *added handle* or a *staleness refresh*, never a rewrite (PAT-015 floor-not-ceiling). **Nothing applied — this is the queue.**

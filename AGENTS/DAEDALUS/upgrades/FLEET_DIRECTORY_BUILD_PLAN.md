@@ -1,5 +1,7 @@
 # FLEET_DIRECTORY — Build Plan
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-22; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 > ✅ **EXECUTED** — `scripts/render_directory.py` + generated `FLEET_DIRECTORY.md` live since 7/10; regenerated at every FLEET_MAP change since. This plan is a dated build record.
 
 **By:** DAEDALUS · **Date:** 2026-07-10 · **Trigger:** Will — "DAEDALUS needs a reliable map/directory of what agents exist + what they do, and what's missing."

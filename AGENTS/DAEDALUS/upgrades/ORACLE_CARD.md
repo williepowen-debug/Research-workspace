@@ -1,5 +1,7 @@
 # Upgrade Card — ORACLE (read-only assessment, no agent files touched)
 
+> 🗄 **ROUTED 2026-07-03 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-06-29 · **Class:** Utility (prediction-market diagnostics — Polymarket + Kalshi real-money crowd-implied odds)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/utility-agent.md` (the floor; NOT `market-agent.md`) · comprehension in `profiles/ORACLE.md`
 **Verdict: L4 (conf H), adversarially verified 6/28.** ORACLE is the agent that **SURFACED** the utility-blueprint gap (blueprint authored 6/28, day after ORACLE's heavy 6/27 session). **Conformant or exemplary on 7 of 8 floor sections** — it is the blueprint's *named source* for boot↔closeout symmetry. The one floor handle-gap is a missing standardized 3-line CONTRACT block. The only real L5 build — a **Brier calibration scoreboard** — is already **HELD in BATCH_02 §C (pending PROME)** and is NOT re-proposed here. Every proposal below is an *added handle* or a *staleness refresh*, never a rewrite (PAT-015 floor-not-ceiling). Nothing applied — this is the queue.

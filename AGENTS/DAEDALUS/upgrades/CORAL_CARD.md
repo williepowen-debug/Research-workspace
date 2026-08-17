@@ -1,5 +1,7 @@
 # Upgrade Card — CORAL (read-only assessment, no files touched)
 
+> 🗄 **ROUTED 2026-07-25 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-06-27 · **Class:** Market (transmitter — FL household stress → bank loss)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md`
 **Note:** CORAL is RICH locally (10 pillars in `COVERAGE.md`, "Coral Bleaching" rails + confirm/falsify in `thesis/THESIS.md`, FL bank leg). Per floor-not-ceiling, every proposal below is an **added handle**, not a rewrite. Nothing here is applied — it's the work queue for your review.

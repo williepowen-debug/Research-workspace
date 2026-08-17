@@ -1,5 +1,7 @@
 # WP-3 Report — HAWK re-cut to synthesis + dormant book
 
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
+
 **Executed by:** DAEDALUS build sub-agent · **Date:** 2026-07-12 · **Scope:** `AGENTS/HAWK/` only (OSPREY/FALCON read-only, untouched — hard constraint honored throughout).
 **Contract:** `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md` §2 dispositions, §2b FLOW rulings, §3 pre-freeze hygiene (as amended), §6 HAWK residual + `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md` §5-6.
 

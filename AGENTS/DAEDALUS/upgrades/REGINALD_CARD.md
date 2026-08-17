@@ -1,5 +1,7 @@
 # Upgrade Card — REGINALD (read-only assessment, no agent files touched)
 
+> 🗄 **ROUTED 2026-06-29 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-06-29 · **Class:** Market (regional-bank **convergence HUB** — the named end-of-chain transmission terminus)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/REGINALD.md`
 **Verdict: L4 (conf H), adversarially verified 6/28 (firm-next7).** REGINALD is the fleet's **most complete market agent and the NAMED source for the blueprint's §1 thesis-structure** — conformant or exemplary on 5 of 8 sections, exemplary on 4. The FLEET_MAP "79d stale" flag was a **scanner column-misread** (79 = commits/30d — REGINALD is the *freshest* agent in the fleet; ~37 own-authored core-file commits/30d). Below L5 only on **hygiene + handles**, never substance. Every proposal below is an *added handle* or a *staleness refresh*, never a rewrite (PAT-015 floor-not-ceiling). Nothing applied — this is the queue.

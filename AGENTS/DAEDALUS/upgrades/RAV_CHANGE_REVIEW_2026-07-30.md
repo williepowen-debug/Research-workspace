@@ -1,5 +1,7 @@
 # RAV — Review of 2026-07-29 changes to WALTER (+ REGINALD, BOARD)
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-30; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **Date:** 2026-07-30 · **Reviewer:** DAEDALUS (Will-directed) · **Subject:** RAV Codex, 4 commits landed on master 2026-07-29 18:02–21:36 ET, during the ~8h Claude usage outage
 **Method:** full diff read of every commit; source-verification of every changelog claim against the spec files RAV cited; live execution of `walter_doctor.py`; empirical test of the new parser against the real TSVs; independent verification of WALTER's branch-hygiene claim
 **Read-only.** Nothing modified.

@@ -1,5 +1,7 @@
 # DAEDALUS Self-Sweep — 2026-07-22 (Will-directed; 148 files; ✅ FIX-BATCH EXECUTED same-session, Will-approved — all 3 HIGHs + time-sensitive + MED stamps + orphan dispositions + CORAL route + harness sweep #4 registered; PAT-058 banked)
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-22; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **Method:** mechanical layer by DAEDALUS direct (script health · TSV integrity · dangling-ref scan w/ subject-agent resolution · banner census · inbox/outbox inventory) + 3 parallel content auditors (root docs+blueprints / builds+sweeps+scripts+design / upgrades corpus+profiles). Prior instance: `DAEDALUS_SELF_SWEEP_2026-07-12.md` (33 findings). **This sweep: 3 HIGH · ~17 MED · ~12 LOW.** 7/12's fix-batch verified HELD on all 7 spot-checked findings — the new rot is the FLOW (items resolved 7/12→7/22 without closure stamps), not the stock.
 
 ## HIGH (3)

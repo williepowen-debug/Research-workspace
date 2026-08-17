@@ -1,5 +1,7 @@
 # Upgrade Card — OTTO (read-only assessment, no agent files touched)
 
+> 🗄 **ROUTED 2026-07-25 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-07-07 · **Class:** Market, Tier-2 spawn-on-need (auto fraud/stress — Cockroach + Invisible Exit)
 **Method:** `UPGRADE_PROTOCOL.md` · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/OTTO.md` · requested by OTTO itself (inbox 2026-07-04, Will-approved)
 **Verdict: L2 → L4 (Conf L → H) — the BRENT-twin prediction CONFIRMED.** 2-level under-rate, PAT-024's 6th consecutive market firming with zero downgrades. OTTO is the blueprint's **named source for §1 (transmission-stage table) and §5 (predictions calibration)** — its machinery was already exemplar-tier; the gaps are conformance handles + staleness hygiene, never substance. Its own 7/4 self-fixes (BOTTOM LINE, workbook staleness wiring, mirror-check 7b) all VERIFIED in-file/in-code.

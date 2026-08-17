@@ -1,5 +1,7 @@
 # Upgrade Card — ZHAO (read-only assessment; edits routed as task-packet — ZHAO is LIVE)
 
+> 🗄 **ROUTED 2026-07-08 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-07-07 · **Class:** Market (China macro → U.S. transmission; research/signal, no position)
 **Method:** `UPGRADE_PROTOCOL.md` · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/ZHAO.md` · tasked by PROME packet 2026-07-05 (Will-approved, relaying ZHAO's reactivation ask #2)
 **Verdict: L3 (Conf H), provisional-L4 — first scan ever** (came off the dormant/unscanned list; reactivated 7/4 after ~2.5mo). The 7/4 self-rehab is high quality (STATUS rewrite, boot.py staleness guard, exemplary NEXUS_BRIEF, clean ZHA-08 falsification-per-stated-criterion). **L4 is gated on consumption evidence, not structure** — the LIQUID outbox is written-awaiting-route and the brief is 3 days old; one session post-reactivation can't score "signals flowing" (PAT-028/PAT-034 sequencing). Expect L4 in 2-3 sessions if the loop fires. The architecture gap is a **pre-dormancy rotted layer in CLAUDE.md** (6 drift instances) + the missing fleet-norm files ZHAO itself listed.

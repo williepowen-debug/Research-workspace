@@ -1,5 +1,7 @@
 # HAWK Split — Manifest C: thesis/, LESSONS.md, scripts/
 
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
+
 **Reader:** C (thesis, predictions, lessons, scripts) | **Date:** 2026-07-12 | **Scope:** `AGENTS/HAWK/thesis/`, `AGENTS/HAWK/LESSONS.md`, `AGENTS/HAWK/scripts/`
 **Spec referenced:** `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md` (§4 migration table, §7 Tier-1 fixes, §8 prediction namespace)
 

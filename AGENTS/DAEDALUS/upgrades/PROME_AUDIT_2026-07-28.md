@@ -1,5 +1,7 @@
 # PROME FULL-DIRECTORY AUDIT — 2026-07-28
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-28; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **Directed by:** Will (in-session) · **Method:** Mode-A 4-reader fan-out (spine / rails / tools / flow) + DAEDALUS meta-layer checks · **Scope:** all of `PROME/` (309 files; archive/ at boundary level) · **Posture:** strictly READ-ONLY — PROME ran live during the audit (6+ commits this morning); every fix below is a proposal routed via packet, zero PROME files touched.
 **Verbatim reader reports:** `upgrades/PROME_AUDIT_2026-07-28_readers/` (4 files — the full 60+ finding tables with quoted fragments and verified negatives). This doc is the synthesis + ranked action view.
 

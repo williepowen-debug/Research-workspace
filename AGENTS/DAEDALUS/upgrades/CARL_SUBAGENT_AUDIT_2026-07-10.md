@@ -1,5 +1,7 @@
 # CARL Sub-Agent Structure Audit — 2026-07-10
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-12; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **By:** DAEDALUS (Will-requested: "I imagine they are not built out correctly") · **Method:** Mode-A 4-reader fan-out (STUE+HOMER / DOC+GIG / PHAN+POLLY / POP+META, every file read incl. TSVs) + DAEDALUS cross-cutting checks (CARL-side wiring, KB delegation, COOK trace). **Read-only — no CARL files touched.** CARL was LIVE during the audit.
 **Feeds:** `outbox/2026-07-10_to-CARL_upgrade-docket.md` item #9 (restructure) · FLEET_MAP CARL row · profiles/CARL.md refresh (pending CARL closeout).
 

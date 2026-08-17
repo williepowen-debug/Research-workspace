@@ -1,5 +1,7 @@
 # DAEDALUS Self-Sweep — 2026-07-12 (Will-directed)
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-22; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **Method:** 4 Sonnet readers over the full DAEDALUS tree (132 files): S1 core state/governance · S2 FLEET_MAP + 24 profiles · S3 upgrades/ work queue (~40 files) · S4 BLUEPRINTS/builds/outbox/reference. All HIGH flags grep-verified against live agent files by the readers. **Disposition: ✅ DISPOSITIONED SAME-DAY (fix-batch executed per `FIXBATCH_REPORT_2026-07-12.md`, Will-approved; PAT-050 banked [re-homed to canonical PATTERNS.tsv 7/22 after a stray-file misfile — 7/22 self-sweep H1]) — original framing: FLAG-ONLY** — nothing fixed pending Will's go. Raw findings: session scratchpad `selfsweep_S{1-4}.md`.
 
 **Headline:** 33 findings (11 HIGH / 13 MED / 9 LOW). Zero orphaned *decisions* — every batch item traces to a real disposition. The rot is almost entirely **record-lag on my own surfaces**: the fleet's work landed, my tracking layer didn't absorb it. Every HIGH is an instance of a pattern I already banked and enforce outward (PAT-024 under-rating, PAT-032 banner-drift, PAT-043 durable-end decay, dead-mail hygiene) — **enforced fleet-wide, never applied inward.**

@@ -1,4 +1,6 @@
 # HANS — Upgrade Card (graded vs BLUEPRINTS/market-agent.md)
+
+> 🗄 **ROUTED 2026-07-10 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
 **Graded:** 2026-07-10 · **L3 Conf-M-high** (L2→L3, PAT-024 #8) · Profile: `profiles/HANS.md` · Tier-2 spawn-as-needed: cadence capped BY DESIGN, level is not (OTTO ruling). **Not a retirement candidate — distinct Europe lane, no other owner.**
 
 **⚠️ Meta-fix first (NOT a HANS edit):** the fleet-wide "geopolitics-energy" label is drift (PAT-042) — charter = European macro via US-market lens. FLEET_MAP fixed 7/10 (DAEDALUS); `PROME/ROSTER.md:46` flagged to PROME; `HENRY/STATUS.md:119` = HENRY's own next-boot fix.

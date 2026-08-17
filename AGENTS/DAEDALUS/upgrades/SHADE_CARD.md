@@ -1,5 +1,7 @@
 # Upgrade Card — SHADE (read-only assessment, no agent files touched)
 
+> 🗄 **ROUTED 2026-07-27 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-06-28 · **Class:** Market (PE-owned insurer-lender stress → funding/credit fault line)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/SHADE.md`
 **Verdict: L2 (conf H), adversarially verified** ("generous, not overstating"). SHADE is a **richly-built, forensically-distinctive L2** — thesis, thresholds and standing disciplines are already at/near L3 grade. It is held below L3 by missing the discipline-layer **HANDLES**, and **most are missing-handle, not missing-substance** (PAT-022) → the climb is cheap. Every proposal is *additive*; nothing applied.

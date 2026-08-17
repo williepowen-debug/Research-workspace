@@ -1,5 +1,7 @@
 # WP-H2 Report — CARL-Side Shed + Cross-Agent Handoff Packets
 
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
+
 **Executor:** DAEDALUS build sub-agent · **Date:** 2026-07-12 · **Scope:** `AGENTS/CARL/` (own files) + 4 new inbox packets per `PROMOTION_REVIEW.md` WP-H2/WP-H3. `AGENTS/HOMER/` untouched (WP-H1's job, already complete). No git commands run.
 
 ---

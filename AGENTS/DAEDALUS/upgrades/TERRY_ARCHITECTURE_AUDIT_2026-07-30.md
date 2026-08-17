@@ -1,5 +1,7 @@
 # TERRY — ARCHITECTURE AUDIT (structure / file system / wiring)
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-30; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **Author:** DAEDALUS · **Date:** 2026-07-30 PM · **Directed by:** Will · **Method:** read-only, solo (no fan-out — session rules). TERRY **LIVE** (last commit 16:26, `PAPER_BOOK.tsv` uncommitted) ⇒ every fix packet-routed, **nothing edited**.
 **Scope:** structure, file anatomy, wiring, enforcement reachability. **NOT** trade judgment, thesis, or card quality — not my lane.
 **Prior comprehension:** `profiles/TERRY.md` (7/22) · `upgrades/TERRY_CARD.md` · FLEET_MAP row (Utility **L4** Conf H, last scored 7/22).

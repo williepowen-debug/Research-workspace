@@ -1,5 +1,7 @@
 # BRENT Architecture & Folder-Tree Audit — 2026-07-28 (Will-directed)
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-28; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **Method:** Mode-A 3-reader fan-out (CLAUDE.md wiring · live-state surfaces · workbook/thesis/tooling) + DAEDALUS mechanical checks (ledger_staleness workbook + --trade, git-tracking, outbox ages). **Read-only throughout — BRENT went LIVE ~21:42 ET mid-audit** (consuming PROME's fighting-shape packet); all fixes route via inbox packet per AUTHORITY (permission + idle).
 **Companion input:** PROME → BRENT fighting-shape packet 7/28 (`26d3d945d`, 9 items) — its 4 surface-rot minors all VERIFIED in-file here; this audit covers the structural/architecture layer PROME's queue-review did not.
 

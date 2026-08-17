@@ -1,5 +1,7 @@
 # Upgrade Card — CARL (read-only assessment, no agent files touched)
 
+> 🗄 **ROUTED 2026-07-10 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-06-29 · **Class:** Market (U.S. consumer financial stress → credit deterioration; **transmission MIDDLE** of `LABOR → CARL → REGINALD → HENRY`)
 **Method:** `UPGRADE_PROTOCOL.md` (section-by-section) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/CARL.md`
 **Verdict: L4 (conf H), adversarially verified 6/28 (firm-next7).** CARL is one of the most complete market agents in the fleet — **conformant or exemplary on 7 of 8 blueprint sections**, and the **named blueprint source for §5's if-falsified ACTION column**. It carries the **deepest falsification loop in the fleet** (§4). The FLEET_MAP previously under-rated it L3 on a false "no prediction track / thin falsification" premise (corrected; PAT-024). Every proposal below is an *added handle* or a *staleness refresh* — never a rewrite; all local richness preserved (PAT-015).

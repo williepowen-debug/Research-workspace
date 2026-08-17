@@ -1,4 +1,8 @@
 # SAM — DAEDALUS Comprehension Profile
+
+## Δ 2026-08-17 — BODY SUPERSEDED IN PART (structure review; full rebuild QUEUED FIRST in refresh queue) *(banner relocated to header 2026-08-17, self-audit F17 — was mid-file at line 37 below an unmodified header)*
+Anatomy + DO-NOT-TOUCH list still hold. **Every number moved:** THESIS v1.6.3→**v1.7** (convexity frame RETIRED 8/7 — the profile's FXY-modal-band flag is MOOT); predictions 9/11/7→14 CONFIRMED/14 FAILED/1 special/5 OPEN; STATUS 300→**248 ln UNDER cap but +59% bytes** (new class); staff trio re-verified LIVE 8/17. New load-bearing facts the body lacks: owner-doc inversion class (RECONCILIATION sweeps owner→derived only) · 3 readerless gates at the 8/17 4.00% break · red/ 48d stale (RED-spawn-only) · CLAUDE.md:85 HERMES-era mail line. **Read the three 8/17 reader reports + synthesis (`upgrades/SAM_*_2026-08-17.md`, `SAM_BRENT_REVIEW_2026-08-17_SYNTHESIS.md`) before relying on any §-body claim.**
+
 **Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L4 Conf-H (was L2 Conf-M — 2-level under-rate, PAT-024 #9) · **Class:** Market (Japan trigger — JGB/yen/carry, parallel trigger in the transmission chain) · **Staleness:** refresh when the Sep-18 LOCKED window advances a stage or FXY modal band re-derived or >45d
 
 ## Identity in one line
@@ -34,5 +38,3 @@ BOND STATUS:65,69,136 quotes SAM by name and uses its numbers ("JGB 30Y 7/7 FIRM
 **FXY modal band OVERDUE, confirmed** (tape 160-162.6 above band 2+ wks; both queued triggers landed; honestly triple-flagged "do not cite as current"; blocked on the CFTC Jun-30 pull carried-open 3+ sessions = the sharper flag) · STATUS compress shape identified (pointer-stub 6/30+7/1 notes + archive superseded 7/2 table → <250 without touching lede) · stale oil/MOU 8% EV cell = documented-divergence hold, not rot · ledger_staleness boot lines unwired (trivial; content clean) · SIGNAL_INTAKE.md self-labeled stale. **Korea/ZHAO overlap CLEAN** — boundary explicit both ways (ZHAO:62,86; SAM dispositions Korea items "ZHAO-primary, noted"), no two-figure conflict; BoK 7/16 = designed convergence point.
 
 ---
-## Δ 2026-08-17 — BODY SUPERSEDED IN PART (structure review; full rebuild QUEUED FIRST in refresh queue)
-Anatomy + DO-NOT-TOUCH list still hold. **Every number moved:** THESIS v1.6.3→**v1.7** (convexity frame RETIRED 8/7 — the profile's FXY-modal-band flag is MOOT); predictions 9/11/7→14 CONFIRMED/14 FAILED/1 special/5 OPEN; STATUS 300→**248 ln UNDER cap but +59% bytes** (new class); staff trio re-verified LIVE 8/17. New load-bearing facts the body lacks: owner-doc inversion class (RECONCILIATION sweeps owner→derived only) · 3 readerless gates at the 8/17 4.00% break · red/ 48d stale (RED-spawn-only) · CLAUDE.md:85 HERMES-era mail line. **Read the three 8/17 reader reports + synthesis (`upgrades/SAM_*_2026-08-17.md`, `SAM_BRENT_REVIEW_2026-08-17_SYNTHESIS.md`) before relying on any §-body claim.**

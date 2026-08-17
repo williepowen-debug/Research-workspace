@@ -1,5 +1,7 @@
 # Upgrade Card — LIQUID (read-only assessment, no agent files touched)
 
+> 🗄 **ROUTED 2026-07-12 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-07-04 · **Class:** Market (liquidity/Treasury-plumbing; the amplification node; holds NO trade book — signal/DATA agent, like CARL)
 **Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/LIQUID.md`
 **Verdict: L4 (conf H), 2-level under-rate corrected** (was L2 Conf-L) — **the fleet's highest under-rate bet, confirmed.** LIQUID holds the **fleet-best falsification pattern** (PAT-013: channel-kill-vs-thesis-kill + migration theorem, verbatim at THESIS.md:98) and is the blueprint's **named source for §1 migration-legs, §3 conjunction + KILL_MEMO, §6 crisis-outbox**. The 6/27 scan's "exit-rules lack session counts" is **factually wrong** (13+ instances, PAT-024); "no conv-matrix" is *half* right — the convergence substance exists in code/KILL_MEMO but the **5-pt handle is genuinely absent**. Every item below is an *added handle*, a *build-back*, or a *staleness fix* — never a rewrite (PAT-015). **Nothing applied — this is the queue.**

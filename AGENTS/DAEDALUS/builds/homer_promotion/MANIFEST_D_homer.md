@@ -1,4 +1,6 @@
 # MANIFEST D — HOMER Promotion Comprehension Pack
+
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
 **Reader:** DAEDALUS sub-agent · **Date:** 2026-07-12 · **Scope:** full file read of `AGENTS/CARL/sub_agents/HOMER/`, CARL housing-section STATUS/THESIS/CATALYSTS/PREDICTIONS, CREED structural read, external-consumer sweep.
 **Source case:** `AGENTS/DAEDALUS/inbox/2026-07-12_from-CARL_homer-promotion-case.md`
 

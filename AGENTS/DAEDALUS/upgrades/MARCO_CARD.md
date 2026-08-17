@@ -1,4 +1,6 @@
 # MARCO — Upgrade Card (graded vs BLUEPRINTS/market-agent.md)
+
+> 🗄 **ROUTED 2026-07-10 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
 **Graded:** 2026-07-10 · **L4 Conf-H** (L2→L4, PAT-024 #7) · Profile: `profiles/MARCO.md` · All items OWNER-LANE unless marked; MARCO is a blueprint donor — additive handles only, never conform its local forms (PAT-015).
 
 | § | Grade | Gap | Type | Fix (cheapest first) |

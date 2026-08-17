@@ -1,5 +1,9 @@
 # Agent Profile — BRENT
 
+## Δ 2026-08-17 — BODY SUPERSEDED IN PART (structure review; all 3 of this profile's own refresh triggers FIRED — rebuild queued) *(banner relocated to header 2026-08-17, self-audit F17 — was mid-file at line 81 below an unmodified header)*
+Triggers fired: THESIS **v5.1→v5.6** · TRADE ~160→**822 lines** · convergence matrix **ARCHIVED 8/13** (no live successor — L3 dimension deliberately vacant, honest banner, no rewrite trigger). §2 position table stale (STNG removed 8/04 as never-held; live book = 5 legs ~$5,131 broker-verified 8/04). §4's S1-S4 structural findings **ALL CLOSED** (verified 8/17); §6's L5 condition narrowed to the one derived-surface closeout leg (failed a 3rd time — TRADE:3 stamp class). thresholds.py re-pointed to REGISTRY **and** the FRED-shadow killed 8/17 (`bb0f1749f`). FASTOW still dormant, note still missing (3rd flag). **Read the three 8/17 reader reports + synthesis (`upgrades/BRENT_*_2026-08-17.md`, `SAM_BRENT_REVIEW_2026-08-17_SYNTHESIS.md`) before relying on any §-body claim.**
+
+
 **Built by:** DAEDALUS · **Original:** 2026-06-29 (firm7-profiles-cards) · **FULL REFRESH: 2026-07-28** (Will-directed architecture audit, 3-reader Mode-A fan-out — clears the 7/22 Δ-banner, was refresh priority #3)
 **Sources read (7/28):** CLAUDE.md (full), STATUS.md, TRADE.md, SCRATCH.md, NEXUS_BRIEF.md, LESSONS.md, thesis/{THESIS v5.1, PREDICTIONS.tsv, PREDICTIONS_ARCHIVE, CHANGELOG, TIMELINE}, workbook/* banners, demand_destruction/{TRACKER + corpus headers}, docket/*, refinery_damage/INCIDENTS.tsv, scripts/* (incl. code-level thresholds.py), inbox/outbox trees, full file tree (266 files) · **Staleness:** refresh when TRADE.md, THESIS version (currently v5.1), or the convergence matrix materially changes, or >45 days.
 
@@ -78,5 +82,3 @@ Oil & energy markets — Brent/WTI spot + term structure, crack spreads, OPEC+, 
 - FASTOW: resume runs or write the dormancy note?
 
 ---
-## Δ 2026-08-17 — BODY SUPERSEDED IN PART (structure review; all 3 of this profile's own refresh triggers FIRED — rebuild queued)
-Triggers fired: THESIS **v5.1→v5.6** · TRADE ~160→**822 lines** · convergence matrix **ARCHIVED 8/13** (no live successor — L3 dimension deliberately vacant, honest banner, no rewrite trigger). §2 position table stale (STNG removed 8/04 as never-held; live book = 5 legs ~$5,131 broker-verified 8/04). §4's S1-S4 structural findings **ALL CLOSED** (verified 8/17); §6's L5 condition narrowed to the one derived-surface closeout leg (failed a 3rd time — TRADE:3 stamp class). thresholds.py re-pointed to REGISTRY **and** the FRED-shadow killed 8/17 (`bb0f1749f`). FASTOW still dormant, note still missing (3rd flag). **Read the three 8/17 reader reports + synthesis (`upgrades/BRENT_*_2026-08-17.md`, `SAM_BRENT_REVIEW_2026-08-17_SYNTHESIS.md`) before relying on any §-body claim.**

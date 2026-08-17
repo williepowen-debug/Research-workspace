@@ -1,5 +1,7 @@
 # WP-2 Report — OSPREY Scaffold + Migration
 
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
+
 **Build agent:** DAEDALUS sub-agent (WP-2) · **Date:** 2026-07-12 · **Scope:** `AGENTS/OSPREY/` only (write), read-only everywhere else, zero git operations run (DAEDALUS commits after verification per build spec WP-4).
 **Contract:** `AGENTS/DAEDALUS/builds/OSPREY_FALCON_BUILD.md` §5 (scaffold structure) + OSPREY-specific notes in the WP-2 task packet.
 

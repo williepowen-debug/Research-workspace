@@ -1,5 +1,7 @@
 # WP-4 Report — GIG Reconciliation Draft (ECHO)
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-10; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **Date:** 2026-07-10 · **Analyst:** ECHO (named agent) · **Report author:** DAEDALUS (ECHO hit its session limit at ~13:01 ET *after* completing the deliverable but before filing this report; DAEDALUS verified the output and wrote this stub).
 
 **Deliverable:** `AGENTS/CARL/sub_agents/GIG/RECONCILIATION_DRAFT_2026-07-10.md` (23,177 bytes) — **verified complete** by DAEDALUS: all 6 sections + summary block present; nothing else touched (git status: single `??` file).

@@ -1,5 +1,7 @@
 # Upgrade Card — YEYOU (read-only assessment, no agent files touched)
 
+> 🗄 **ROUTED 2026-07-04 — CLOSED AS A QUEUE 2026-08-17 (self-audit F5 banner pass).** This card's findings were routed to the owner/FLEET_MAP when written; per-row states below are historical. Not maintained — current gaps live on the agent's FLEET_MAP row. Do not work rows from here without re-verifying at the agent.
+
 **By:** DAEDALUS · **Date:** 2026-07-04 · **Class:** Utility (repo-wide per-push conformance reviewer — the per-push analogue of RED)
 **Method:** re-verification of `UTILITY_FIRMING_2026-07-03.md`'s YEYOU row against YEYOU's **CURRENT** live files (fast-follow profile/card pass, per the firm-next7/firm-utility pattern: grade first, profiles/cards as the promotion) · graded vs `BLUEPRINTS/utility-agent.md` (the floor) · comprehension in `profiles/YEYOU.md`
 **Verdict: L2 (conf H), firmed 7/3, RE-VERIFIED 7/4 — NO DRIFT.** `reviews/REVIEW_LOG.tsv` is still empty (zero rows accrued), no new commits touched `AGENTS/YEYOU/` since PROME's 7/1 cwd-proofing pass, working tree clean. YEYOU is the **stalest agent in the utility cohort** (OpenClaw/GLM-era vestiges) and runs **manual/branch** (low cadence) — its apply-cluster was **HELD 7/3**, apply only when Will next spins it up. Every item below is exactly as scoped 7/3: nothing newly resolved, nothing newly broken.

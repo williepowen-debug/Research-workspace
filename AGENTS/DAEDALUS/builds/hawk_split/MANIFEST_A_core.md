@@ -1,5 +1,7 @@
 # HAWK Split — Manifest A (Core state + everything not workbook/energy-strikes/thesis/LESSONS/scripts)
 
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
+
 **Reader:** A (core surfaces + full-tree inventory) · **Date:** 2026-07-12 · **Spec:** `AGENTS/HAWK/design/2026-07-12_war-agent-split-spec.md`
 **Scope boundary:** Reader B owns `workbook/*.tsv` + `domain/energy-strikes/`; Reader C owns `thesis/`, `LESSONS.md`, `scripts/`. This manifest covers everything else.
 

@@ -1,5 +1,7 @@
 # FORGE — Full Architecture Audit
 
+> 🗄 **DATED AUDIT/WORK RECORD (last content 2026-07-30; bannered 2026-08-17, self-audit F5).** Findings were routed at write time; this doc is history, not a live queue. Closure state of individual findings lives with the owning agents.
+
 **Date:** 2026-07-30 (Thu, ~11:40 AM ET) · **Auditor:** DAEDALUS (Will-directed) · **Method:** solo read (no fan-out per session rules) — full file inventory, repo-wide reference graph, live tool execution (PAT-070), parser run against the 2-hour-old restructure
 **Scope:** `FORGE/` — 204 tracked files (696 on disk incl. gitignored cache), plus every live doc that references it
 **Read-only.** Nothing in FORGE or any agent dir was modified. All fixes below are proposals.

@@ -1,5 +1,7 @@
 # WP-H1 Report — HOMER Top-Level Surface Rebuild
 
+> 🗄 **DATED BUILD-EXECUTION RECORD (2026-07-12; bannered 2026-08-17, self-audit F5 — same class as the 8/11 upgrades/ pass, which was scoped to upgrades/ only).** One-shot record; not maintained.
+
 **Executor:** DAEDALUS build sub-agent · **Date:** 2026-07-12 · **Scope:** `AGENTS/HOMER/` only, per `PROMOTION_REVIEW.md` WP-H1. Read-only everywhere else (esp. `AGENTS/CARL/` — WP-H2's job, untouched). No git commands run — DAEDALUS commits.
 
 ---

@@ -1,6 +1,6 @@
 # STE / Controlled-Language Ideas — Fleet Adaptation Assessment
 
-**Date:** 2026-07-31 · **Requested by:** Will (YT transcript, https://www.youtube.com/watch?v=uJblcC4lKYw — ASD-STE100 applied to AI writing) · **Author:** DAEDALUS · **Status:** ASSESSMENT ONLY — nothing proposed here is built or wired without Will's approval.
+**Date:** 2026-07-31 · **Requested by:** Will (YT transcript, https://www.youtube.com/watch?v=uJblcC4lKYw — ASD-STE100 applied to AI writing) · **Author:** DAEDALUS · **Status:** 🗄 **EXECUTED SAME DAY — both recommendations SHIPPED 2026-07-31 (Will-approved) and are now fleet canon**: `BLUEPRINTS/STATE_VOCABULARY.md` + `BLUEPRINTS/STRICT_TEXT.md`, cited by root CLAUDE.md § Output Canon. *(Corrected 2026-08-17, self-audit F22 — this line still read "ASSESSMENT ONLY — nothing built or wired," inverting the record for any fresh reader.)* Historical assessment below unchanged.
 
 ---
 
