@@ -64,7 +64,13 @@ def _fred_key():
         for line in p.read_text().splitlines():
             if line.startswith("FRED_API_KEY="):
                 return line.split("=", 1)[1].strip()
-    print("WARN: FRED_API_KEY not found (env or FORGE/tools/market-data/.env) — FRED pulls will fail", file=sys.stderr)
+    # ⚠️ STDOUT, not stderr: boot.py only surfaces stderr when rc != 0, so a stderr-only
+    # warning here was deleted on every clean run — the board rendered green with every
+    # FRED threshold silently absent. (DAEDALUS SFG sweep 2026-08-17; verified same day.)
+    # Suppressed in --json mode only, where a bare line would corrupt the payload.
+    if "--json" not in sys.argv:
+        print("  ⚠️  FRED_API_KEY not found (env or FORGE/tools/market-data/.env) "
+              "— every FRED threshold below will be UNGRADED, not un-breached")
     return ""
 
 FRED_API_KEY = _fred_key()
@@ -222,11 +228,16 @@ def get_prices(symbols):
 
 def check_market_thresholds(prices):
     results = []
+    ungraded = []
     warning_candidates = {}
 
     for ticker, direction, level, clas, label in MARKET_THRESHOLDS:
         p = prices.get(ticker)
         if not p:
+            # ⚠️ NOT a silent skip: an un-fetched threshold is UNGRADED, never un-breached.
+            ungraded.append({"ticker": ticker, "label": label, "class": clas,
+                             "source": "market",
+                             "reason": "no price returned (fetch failed, or symbol dead)"})
             continue
         price = p["price"]
         dist = (price - level) / level * 100
@@ -257,20 +268,31 @@ def check_market_thresholds(prices):
                     warning_candidates[key] = cand
 
     results.extend(warning_candidates.values())
-    return results
+    return results, ungraded
 
 
 def check_fred_thresholds(fred_data):
     results = []
+    ungraded = []
     warning_candidates = {}
 
     for series_id, label, direction, level, clas, thresh_label in FRED_THRESHOLDS:
         obs = fred_data.get(series_id, [])
         if not obs or "error" in obs[0]:
+            # ⚠️ NOT a silent skip. This `continue` used to drop the row entirely, so a dead
+            # FRED key or a transient SSL timeout removed the threshold from the board with
+            # no signal at all. Near-miss 2026-08-17: instrument_check flagged FRED-GASREGW
+            # DEAD on SSL timeout while this script graded it fine in the same boot.
+            reason = (str(obs[0].get("error", "no data"))[:70] if obs else "no data returned")
+            ungraded.append({"ticker": series_id, "label": thresh_label, "class": clas,
+                             "source": "fred", "reason": reason})
             continue
         try:
             value = float(obs[0]["value"])
         except (ValueError, KeyError):
+            ungraded.append({"ticker": series_id, "label": thresh_label, "class": clas,
+                             "source": "fred",
+                             "reason": f"unparseable value: {obs[0].get('value', '<missing>')!r}"})
             continue
 
         dist = (value - level) / level * 100
@@ -305,7 +327,7 @@ def check_fred_thresholds(fred_data):
                     warning_candidates[key] = cand
 
     results.extend(warning_candidates.values())
-    return results
+    return results, ungraded
 
 
 # ---------------------------------------------------------------------------
@@ -372,19 +394,21 @@ def main():
         fred_data[sid] = fred_fetch(sid, limit=3)
 
     # Check thresholds
-    market_alerts = check_market_thresholds(prices)
-    fred_alerts = check_fred_thresholds(fred_data)
+    market_alerts, market_ungraded = check_market_thresholds(prices)
+    fred_alerts, fred_ungraded = check_fred_thresholds(fred_data)
     all_alerts = market_alerts + fred_alerts
+    ungraded = market_ungraded + fred_ungraded
 
     if json_mode:
         output = {
             "timestamp": now,
             "alerts": all_alerts,
+            "ungraded": ungraded,
             "prices": {s: prices[s] for s in sorted(prices)},
             "fred": {s: fred_data[s] for s in sorted(fred_data)},
         }
         print(json.dumps(output, indent=2))
-        return 0
+        return 2 if ungraded else 0
 
     # Display alerts
     breaches_risk = [a for a in all_alerts if a["status"] == "BREACHED" and a["class"] == "risk"]
@@ -497,8 +521,23 @@ def main():
         arrow = "🔴" if p["chg"] >= 0 else "🟢"  # rising VIX = risk-off
         print(f"  {arrow} {'VIX':<10} {p['price']:>10.2f}  ({p['chg']:+.2f}%)")
 
+    # ⚠️ UNGRADED — the whole point of the 2026-08-17 fix. An un-fetched threshold used to
+    # vanish from this board with no signal; absence read identically to "not breached".
+    if ungraded:
+        print(f"\n  ⚠️  UNGRADED — {len(ungraded)} registered threshold(s) COULD NOT BE GRADED")
+        print(f"  {'-'*64}")
+        for u in ungraded:
+            print(f"      ⚠️  {u['ticker']:<20} [{u['source']:<6}] {str(u['label'])[:40]}")
+            print(f"          reason: {u['reason']}")
+        print("      ⛔ These are NOT known to be un-breached — they were never evaluated.")
+        print("         A clean board above is clean ONLY over the thresholds that graded.")
+
     print()
-    return 0
+    # rc=2 == FINDINGS in boot.py's tri-state (same convention as instrument_check.py):
+    # the script RAN fine, but a registered test could not be evaluated. Previously this
+    # was an unconditional `return 0`, so no failure inside this script could ever reach
+    # boot's status line. supersedes: none (EXTENDS the existing rc contract).
+    return 2 if ungraded else 0
 
 
 if __name__ == "__main__":
