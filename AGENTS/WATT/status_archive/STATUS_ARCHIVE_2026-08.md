@@ -52,7 +52,7 @@
 
 ---
 
-## OPEN_ITEMS_CLOSED_2026-08-17 (rotated on closure — superseded state, full text preserved)
+## OPEN_ITEMS_CLOSED_2026-08-17 (⚠️ REASSEMBLED, not a verbatim contiguous excerpt — see CRC MANIFEST)
 
 *These were live OPEN items that closed during the 8/17 session. Rotated because a closed item is superseded state; STATUS keeps a one-line summary of each. Verbatim.*
 
@@ -107,3 +107,32 @@
 ---
 
 ---
+
+
+---
+
+# CRC MANIFEST (added 2026-08-17)
+
+*The byte-tier convention requires rotations be **verbatim, crc-verified**. My 2026-08-17 rotations were verbatim but were not checksummed at the time; this manifest is the **retroactive** verification, and the practice going forward. Method: for each block, substring-match the payload against every historical `STATUS.md` revision **and each revision's parent** — a block rotated in commit N exists only in N's parent, never in N itself.*
+
+| Block | crc32 | Verified byte-identical to a prior STATUS revision |
+|---|---|---|
+| LEAD_2026-08-04_AM | 2890115243 | ✓ |
+| LEAD_2026-08-04_PM2_closeout_audit | 989124918 | ✓ |
+| LIVE_READ_P1_2026-08-04 | 4208193257 | ✓ |
+| LIVE_READ_P1_2026-07-22_prior | 1011898361 | ✓ |
+| LIVE_READ_P4_2026-07-12 | 2659774739 | ✓ |
+| BOTTOM_LINE_2026-08-04_PM2 | 3919564880 | ✓ |
+| LIVE_READ_P1_8-16-EVENT_DETAIL_2026-08-17 | 641437061 | ✓ |
+| LIVE_READ_P1_HYPOTHESIS_TRAIL_2026-08-17 | 1003929026 | ✓ |
+| BOTTOM_LINE_2026-08-17_MORNING | 727473771 | ✓ |
+| PILOT_SECTION_LONGFORM_2026-08-17 | 1134463249 | ✓ |
+| **OPEN_ITEMS_CLOSED_2026-08-17** | 2054511786 | ⚠️ **REASSEMBLED — see below** |
+
+**10 of 11 blocks are proven byte-identical to their pre-rotation STATUS text.**
+
+⚠️ **The exception, stated precisely rather than smoothed over.** `OPEN_ITEMS_CLOSED_2026-08-17` is **not** a contiguous excerpt: the six closed items were **interleaved with live items** in the source, so I extracted and concatenated them. That concatenation **never existed as a contiguous string**, which is why it cannot substring-match. Per-item re-checking put **3 of 6 items** (10, 11, 12) byte-identical and **3** (2, 4, 5) unmatched under my splitter. **I have NOT proven those three are unaltered** — the likely cause is my split/strip boundary rather than any edit, but *likely* is not *verified*, and I am not going to record an unproven claim in a file whose whole purpose is fidelity.
+
+**Consequence for a reader:** treat this one block as a **faithful-intent extract of superseded items, not a verbatim passage.** The other ten carry the verbatim guarantee.
+
+**Practice going forward:** compute and record the crc32 **at rotation time**, and rotate only **contiguous** regions — if a rotation requires reassembling non-adjacent content, archive each piece as its own block so every entry keeps the verbatim guarantee.
