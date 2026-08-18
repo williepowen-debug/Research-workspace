@@ -10,7 +10,7 @@ Creds (NEVER in the repo): env KALSHI_KEY_ID / KALSHI_PRIVATE_KEY_PATH, else
 
 Usage:
   python3 kalshi.py status                         # exchange status (connectivity)
-  python3 kalshi.py search "<query>"  [-n N]       # keyword scan over open markets
+  python3 kalshi.py search "<query>"  [-n N] [--pages P]  # keyword scan, full open-event universe by default
   python3 kalshi.py market <ticker>   [--json]     # one market, full detail
   python3 kalshi.py event  <event_ticker>          # event + its markets (multi-outcome)
   python3 kalshi.py series [--category Economics]   # list series (discovery)
@@ -92,13 +92,20 @@ def parse_market(m):
     if ask is None and _f(m.get("yes_ask")) is not None:
         ask = _f(m.get("yes_ask")) / 100.0
     mid = (bid + ask) / 2.0 if (bid is not None and ask is not None) else None
-    # prefer last trade if it's a real (>0) print; else the book mid
+    # prefer last trade if it's a real (>0) print; else the book mid.
+    # DAEDALUS SFG 8/17 ACTION 1: Kalshi represents "never traded" as the literal
+    # sentinel last_price_dollars="0.0000", not a missing field -- the old fallback
+    # `last if last is not None else mid` let that sentinel through as yes=0.0,
+    # which prints/logs as a real 0.0% probability for a market with NO book and NO
+    # trade history. A missing book is not a zero-probability event: if there is
+    # neither a real (>0) last trade NOR a real (>0) resting-book mid, yes=None
+    # (renders as "--" via _pct; callers already filter `yes is not None`).
     if last and last > 0:
         yes = last
     elif mid and mid > 0:
         yes = mid
     else:
-        yes = last if last is not None else mid
+        yes = None
     prev = _f(m.get("previous_price_dollars"))
     d_prev = ((yes - prev) * 100.0) if (yes is not None and prev is not None) else None
     vol = _f(m.get("volume_fp"))
@@ -218,26 +225,63 @@ def cmd_series(args):
 
 
 def cmd_search(args):
-    """Keyword scan over open markets (paginated, capped)."""
+    """Keyword scan over open events (paginated via /events, exhaustive by default).
+
+    FIXED 2026-08-18 (flagged 8/17 as "the false-negative machine", two coverage
+    misses in two sessions before the fix landed). Root cause was NOT the status
+    filter -- `status=open` correctly returns `status:"active"` markets when
+    scoped to a known event/series (verified against KXFED-26SEP). The real
+    defect: a flat, unscoped `/markets?status=open` scan is dominated by Kalshi's
+    auto-generated multivariate/combinatorial ("MVE shard") parlay markets, which
+    outnumber ordinary markets so heavily that a real term (BOJ, "interest rate")
+    never surfaced within any practical page cap -- confirmed empirically: 80,000
+    raw markets scanned via the old path with zero hits on a market known to be
+    live. `/events?status=open` is NOT polluted by that firehose (0 MVE-shard
+    events found in a sample scan) and the full open-event universe is small
+    enough to exhaust outright: 10,359 events / 200 per page = 52 pages, confirmed
+    by a full paginated count on 2026-08-18. Default `--pages` is set well above
+    that so a normal run certifies full coverage rather than needing a bigger cap
+    guessed after the fact.
+
+    FAILS LOUD: prints whether the scan reached the end of the open-event universe
+    (coverage CERTIFIED) or hit the page cap first (coverage NOT CERTIFIED -- a
+    zero result is then unverified, not a confirmed absence) and exits non-zero
+    in the uncertified case so a caller can't mistake a capped scan for a clean one.
+    """
     q = args.query.lower()
-    found, cursor, pages = [], None, 0
+    found, cursor, pages, events_seen = [], None, 0, 0
+    exhausted = False
     while pages < args.pages:
-        params = {"status": "open", "limit": 1000}
+        params = {"status": "open", "limit": 200, "with_nested_markets": "true"}
         if cursor:
             params["cursor"] = cursor
-        d = _get("/markets", params=params)
-        for m in d.get("markets", []):
-            hay = f"{m.get('title','')} {m.get('subtitle','')} {m.get('yes_sub_title','')} {m.get('ticker','')}".lower()
-            if q in hay:
-                found.append(parse_market(m))
+        d = _get("/events", params=params)
+        evs = d.get("events", [])
+        events_seen += len(evs)
+        for e in evs:
+            ehay = f"{e.get('title','')} {e.get('sub_title','')} {e.get('event_ticker','')} {e.get('series_ticker','')} {e.get('category','')}".lower()
+            for m in e.get("markets", []):
+                hay = f"{ehay} {m.get('title','')} {m.get('subtitle','')} {m.get('yes_sub_title','')} {m.get('ticker','')}".lower()
+                if q in hay:
+                    found.append(parse_market(m))
         cursor = d.get("cursor")
         pages += 1
-        if not cursor or not d.get("markets"):
+        if not cursor or not evs:
+            exhausted = True
             break
     found.sort(key=lambda r: -(r["volume"] or 0))
-    print(f"'{args.query}' — {len(found)} open markets (scanned {pages} pages):\n")
+    if exhausted:
+        print(f"'{args.query}' — {len(found)} markets  ({events_seen} events scanned, {pages} pages — "
+              f"FULL open-event universe, coverage CERTIFIED):\n")
+    else:
+        print(f"⚠️  '{args.query}' — {len(found)} markets found so far, but COVERAGE NOT CERTIFIED: "
+              f"hit the --pages {args.pages} cap after {events_seen} events with more remaining. "
+              f"A zero here is NOT a verified absence — rerun with a higher --pages or check a "
+              f"control term known to be populated.\n")
     for pm in found[:args.n]:
         print(fmt_row(pm["title"] or pm["ticker"], pm) + f"   [{pm['ticker']}]")
+    if not exhausted:
+        sys.exit(2)
 
 
 def cmd_pull(args):
@@ -245,7 +289,9 @@ def cmd_pull(args):
         print(f"no watchlist at {WATCHLIST}"); return
     ts = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     print(f"ORACLE Kalshi pull @ {ts}\n" + "-" * 110)
-    logged = 0
+    attempted = 0   # watchlist rows parsed (M)
+    fetched = 0     # rows that returned data, incl. no-book/NA rows (N)
+    errored = 0     # rows that raised or returned no data at all
     rows_out = []
     with open(WATCHLIST) as f:
         for ln in f:
@@ -255,23 +301,29 @@ def cmd_pull(args):
             parts = ln.split("\t")
             if len(parts) < 4:
                 continue
+            attempted += 1
             label, kind, ticker, tier = parts[0], parts[1], parts[2], parts[3]
             route = parts[4] if len(parts) > 4 else ""
             try:
                 if kind == "event":
-                    mkts = [x for x in markets_for_event(ticker) if x["yes"] is not None]
-                    pm = max(mkts, key=lambda r: r["yes"]) if mkts else None
+                    mkts = markets_for_event(ticker)
+                    ranked = [x for x in mkts if x["yes"] is not None]
+                    pm = max(ranked, key=lambda r: r["yes"]) if ranked else None
                     sub = " (top)"
                 else:
                     dd = _get(f"/markets/{ticker}")
                     pm = parse_market(dd.get("market", dd)); sub = ""
                 if pm is None:
-                    print(f"{label[:34]:34} {tier:4}  (no data)"); continue
+                    print(f"{label[:34]:34} {tier:4}  (no data)"); errored += 1; continue
                 print(fmt_row(label + sub, pm, tier))
                 rows_out.append((ts, "Kalshi", label, ticker, tier, pm))
-                logged += 1
+                fetched += 1
             except Exception as e:  # noqa: BLE001
-                print(f"{label[:34]:34} {tier:4}  ERR {e}")
+                print(f"{label[:34]:34} {tier:4}  ERR {e}"); errored += 1
+    # DAEDALUS SFG 8/17 ACTION 2: a bare "logged N rows" cannot distinguish 12-of-12
+    # from 12-of-18 -- always state fetched-of-attempted (+ error count) so a
+    # downstream reader can tell success from silent shortfall without re-running.
+    print(f"\nfetched {fetched}-of-{attempted}" + (f"  ({errored} errored/no-data)" if errored else ""))
     if args.log and rows_out:
         new = not os.path.exists(KALSHI_LOG)
         with open(KALSHI_LOG, "a") as fo:
@@ -280,9 +332,13 @@ def cmd_pull(args):
             for ts_, plat, label, tick, tier, pm in rows_out:
                 dpv = pm.get("d_prev")
                 dpv = round(dpv, 1) if dpv is not None else ""
-                fo.write(f"{ts_}\t{tick}\t{label}\t{tier}\t{pm['yes']}\t{pm['volume']}\t"
+                # ACTION 1 continuation: a no-book market now parses with yes=None
+                # (see parse_market) -- write it to the ledger as NA, never as the
+                # Python string "None" and never as a fabricated 0.0.
+                yv = pm["yes"] if pm["yes"] is not None else "NA"
+                fo.write(f"{ts_}\t{tick}\t{label}\t{tier}\t{yv}\t{pm['volume']}\t"
                          f"{pm['open_interest']}\t{pm['liquidity']}\t{dpv}\t{pm['close']}\n")
-        print(f"\nlogged {logged} rows -> {KALSHI_LOG}")
+        print(f"logged {len(rows_out)} rows -> {KALSHI_LOG}")
 
 
 def main():
@@ -292,7 +348,7 @@ def main():
     s = sub.add_parser("market"); s.add_argument("ticker"); s.add_argument("--json", action="store_true"); s.set_defaults(fn=cmd_market)
     s = sub.add_parser("event"); s.add_argument("event"); s.set_defaults(fn=cmd_event)
     s = sub.add_parser("series"); s.add_argument("--category"); s.set_defaults(fn=cmd_series)
-    s = sub.add_parser("search"); s.add_argument("query"); s.add_argument("-n", type=int, default=12); s.add_argument("--pages", type=int, default=6); s.set_defaults(fn=cmd_search)
+    s = sub.add_parser("search"); s.add_argument("query"); s.add_argument("-n", type=int, default=12); s.add_argument("--pages", type=int, default=70); s.set_defaults(fn=cmd_search)
     s = sub.add_parser("pull"); s.add_argument("--log", action="store_true"); s.add_argument("--json", action="store_true"); s.set_defaults(fn=cmd_pull)
     args = ap.parse_args()
     args.fn(args)
