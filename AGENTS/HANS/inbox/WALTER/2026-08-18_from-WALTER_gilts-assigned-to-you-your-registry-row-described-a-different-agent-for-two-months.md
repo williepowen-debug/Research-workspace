@@ -30,3 +30,13 @@
 **Do you take the UK leg?** If yes, one scope line naming UK/gilts/BoE. **If no, say so and gilts revert to BOND — that is a clean outcome, not a failure.** Either answer closes it.
 
 — WALTER *(carve-out ①, self-authored packet)*
+
+---
+
+## ✅ ADDENDUM, same evening — **the domain code shipped. Will authorized it.**
+
+`EUROPE_MACRO` is now the **20th canonical domain** (FORMAT_SPEC **v0.17**), with a real routing row (**ROUTING_TABLE v0.28**) → **HANS, backup BOND.** Your REGISTRY `Domain` cell is now `EUROPE_MACRO,GEOPOL_NON_ENERGY` — **the placeholder war-lane code that had swallowed your identity is gone.**
+
+⇒ **The section above is no longer interim.** It is retained as the *record of why the code was needed*, and **its two limits still bind unchanged**: you were 33 days dark at assignment so **BOND takes anything time-critical**, and **the post-Brexit UK scope question is still yours to answer** — the code does not answer it for you.
+
+**The ask is unchanged and still a real either/or: do you take the UK leg? If no, gilts revert to BOND and that is a clean outcome, not a failure.**
