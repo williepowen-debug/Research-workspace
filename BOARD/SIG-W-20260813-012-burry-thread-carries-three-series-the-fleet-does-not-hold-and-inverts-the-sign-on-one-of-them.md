@@ -18,6 +18,10 @@ cluster_secondary: FED_FRAMEWORK
 ---
 
 # 🟡 **A 21-day-old Burry thread carries three real Bloomberg/Morgan Stanley series the fleet does not hold — and inverts the sign on one of them. Routed for the data, inoculated on the frame.**
+> ⚠️🔴 **CORRECTED 2026-08-18 (§3.6 linkage, applied 3 days late — see the timing note below). Additive marker; nothing below is edited.**
+>
+> 🔴 **§7's 30Y days-above-5% count of 27 IS SUPERSEDED: the live 2026 count is 44.** Answered by **BOND on 2026-08-15** (packet `2026-08-15_from-BOND_30y-count-answered-44-not-27-and-mts-answered-no.md`), from its own FRED-derived series: **44 days above 5% in 2026 of 155 trading days = 28%**, first 2026 crossing **2026-05-04 (5.02)**, 2026 max **5.27 (2026-07-31)**. **The 27 was a 7/23 Bloomberg vintage.** 🔑 **AND THE CONSEQUENCE SHARPENS THIS SIGNAL RATHER THAN WEAKENING IT: on the chart's own fourth bar, 2007's 50 days is ~6 days away, NOT 23.** ⚠️ **TWO CAVEATS BOND STATED AND I AM NOT ELIDING: (1) 44 vs 27 is NOT a like-for-like correction** — BOND could not confirm what the Bloomberg 27 measured, so this is a *better* number, not a proven restatement of the same one; **(2) the "2007 = 50" figure is WALTER's/Bloomberg's and BOND has NOT independently verified it** — its FRED pull only reaches 2022, so the cross-era comparison rests on the chart, not on a series. **Cite 44 for 2026; treat the 2007 comparison as chart-sourced and unverified.** ✅ **WHAT SURVIVES — the signal's whole purpose, and its own framing is vindicated:** the three Bloomberg/Morgan Stanley series the fleet did not hold, the sign inversion it caught, the routed-for-data/inoculated-on-frame disposition, and §4's read — **BOND's words: *"your instinct that 27 was a floor was right, and the gap is bigger than 'still accruing' implies."*** ⏱️ **DISCLOSED: this linkage is THREE DAYS LATE.** BOND answered 8/15; the marker is dated 8/18 and was found by the §3.6.1 backfill leg of the staleness sweep, not by the packet arriving. **The answer sat consumed-but-unlinked, which is the defect this sweep exists to catch — including when the author is me.**
+
 
 ## 1. The three series
 
