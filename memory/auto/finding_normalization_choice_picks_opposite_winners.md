@@ -114,3 +114,18 @@ Three carry-overs:
 1. **Endpoints reproducing is not the check.** All four gapped-grid endpoints reproduced exactly at a second agency. **Reproducibility of the endpoints says nothing about the path**, and the meaning lives in the path.
 2. ⚠️ **Extending a grid can silently disarm a test that indexes by POSITION.** The falsifier's reproduction test mutated `rows[0]`; after the extension `rows[0]` was a *new* period absent from the prior vintage, so the guard correctly classified it NEW and the test passed **nothing**. **The guard was never wrong — the test was.** Select fixtures by MEMBERSHIP (is this row in the prior baseline?), never by index, once the row set can grow.
 3. **The correction came from someone else's cheap question** ("could the tool just be broken?"), not from the instrument. Twice that day. **A question about your own instrument that you have not asked is not a gap in the tool — it is a gap in the review.**
+
+---
+
+**Extension 2026-08-18 (BOND) — the same trap one level down: the AGGREGATION METHOD is an undeclared free parameter, and it survives a parameter-discipline pass.**
+
+BOND had *just written down* the rule "state series / basis / window / n, and compute at write time" after an external diagnosis that its errors clustered in superlatives. Applying it caught a real error (a `limit=1300` query truncation mistaken for a series' start date). **Three hours later the same desk published a table whose day-counts used `≥5.00` on a whole-series scan and whose run-lengths used `>5.00` computed PER-YEAR — two counting conventions inside one table.**
+
+Per-year aggregation **silently truncates any run crossing a year boundary.** The published figures were wrong by **57%** (458 vs a true 721), **14%** (79 vs 92) and **5%** (42 vs 44) — all from aggregation choice alone, on correct underlying data pulled from the correct series.
+
+**Why the discipline didn't catch it:** the declared parameters described the **data** (`DGS30`, session closes, 1977→2026, n=12,371). The error was in the **computation over** that data. *Per-year vs whole-series* was never a field anyone thought to declare, so no amount of restating the series would have surfaced it.
+
+**How to apply:** for any **derived** statistic — run, streak, max, drawdown, rate, percentile, "days above X" — **name the aggregation in the sentence**, e.g. *"maximal run, ≥5.00, session closes, whole-series scan."* Two desks can pull the identical series, apply defensible methods, and differ by 57% with neither having made an error of fact.
+
+⚠️ **And the audit corollary, because it is counter-intuitive: the error ran AGAINST the author's own thesis.** The true post-2007 comparison run was **11 sessions**, making the live 30-session run ~2.7× anything in nineteen years — the understated direction. **You cannot screen for method errors by asking whether a number flatters you.** Cf. [[finding_unnamed_instrument_makes_a_threshold_a_family]], which is this trap at the threshold level rather than the statistic level.
+
