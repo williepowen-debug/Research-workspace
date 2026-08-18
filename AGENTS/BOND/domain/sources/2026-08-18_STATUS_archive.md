@@ -84,3 +84,16 @@
 | (b) Real term premium (marginal) | ~0 to +1bp | ~0-7% | 30Y−10Y **−3bp** (long end LAGGED); ACM TP flat over window |
 
 **Decisive tell:** belly-led bear-*flattener* (5Y +16 > 10Y +14 > 30Y +11) — a term-premium expansion produces the OPPOSITE (long-end-led steepening). **86%-real is correct; real ≠ term-premium.** LEVEL vs MOVE: ACM 10Y TP +0.73% [Jul-2026] elevated in the *level* (why the 10Y won't rally) but flat over the *move*. **Corrected label = "real-rate / higher-for-longer (policy-path-led) channel."** Falsifier shifts from oil-retrace → **dovish Fed repricing** (FOMC 7/28-29). Route-out to PROME for HEARTBEAT amendment (`outbox/2026-07-18_to-PROME_label-check-eu-reconcile-weld.md`). CARL weld (7/18) compounds: forward Aug-Sept core feed rides structural legs, not Hormuz → arm doubly-insulated from Mideast book (TERRY §9 softened).
+
+
+---
+
+## Part D — New Coverage Baseline (7/1): MBS/FHLB + EU rates, archived 2026-08-18
+
+**Why archived:** 7/1-vintage baselines for VX-17/18/19, none of which has earned matrix weight. The EU leg is explicitly **not actively monitored** (spreads last read 7/17) pending an ECB-calendar verify at the primary. **Levels here are stale by construction — the live owner of each vector is `workbook/VX.tsv`.**
+
+## New Coverage Baseline (7/1) — MBS/FHLB + EU rates
+
+- **MBS/housing (VX-17, score 1):** primary spread ~200–205bp (at/below median — but *policy-compressed* by the Jan-26 GSE $200B purchase directive); CC spread ~100–110bp [EST]; Fed MBS $1.96T — **post-QT, principal paydowns are reinvested into T-bills** (balance sheet no longer shrinking; QT ended Dec-1-2025), not into coupons. Catalyst-monitored: Warsh active-sales (deferred to 2027 lane), GSE-release execution.
+- **FHLB advances (VX-18, score 1):** $734B (3/31/26), +8.4% Q/Q (driver unattributed — read Q1 CFR narrative), ~30% below the 2023 SVB peak. Coordinate with REGINALD.
+- **EU rates (VX-19, score 2):** **ECB is HIKING** — depo 2.25% (6/11, first since 2023, war-inflation), ≥1 more priced, full QT. **Peripheral spreads-to-Bund [7/17, TE 10Y benchmark; Bund 3.14%]: BTP-Bund 83bp (Italy 3.97) · Bono-Bund 47bp (Spain 3.61) · GGB-Bund 71bp (Greece 3.85) · OAT-Bund 79bp (France 3.93).** All benign/convergence-tight (Italy≈France > Greece > Spain — Greece trades INSIDE the core-periphery). **LIQUID reconcile CLOSED 7/18:** BOND owns sovereign-curve spreads + ECB/TPI mechanics; LIQUID owns the EU-bank→US xccy-funding transmission (the contagion channel, NOT Bund-flight which is a haven/tightening effect). ONE trigger: **BTP-Bund >200bp sustained = benign→contagion-relevant** (ECB TPI caps blowout). ⚠️ **OWNED MISS (logged 7/28, not quietly dropped):** the "7/23-or-24 GovC — verify date" row was carried three sessions, **the date was never verified, and the window passed ungraded.** Low-cost (spreads benign at last read) but it is precisely the defect PROME's 7/25 frame-spec packet warned about — a leg keyed to an unverified event date cannot be graded when it fires. **Next action: verify the ECB 2026 GovC calendar from the ECB primary and re-docket with a confirmed date. Do not grade the missed window retroactively off secondaries.** Spread levels above are **[7/17 — 11 days stale]**; the EU leg is *not* actively monitored until re-docketed.
