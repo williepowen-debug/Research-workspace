@@ -98,11 +98,11 @@
 
 ## OPEN DESIGN DECISIONS (need Will)
 
-**🔴 ONE ACTIVE** *(was two — ② is now RESOLVED BY RULING)*:
-- **③ THE TWO OVERDUE DEWEY COMMISSIONS** (WILL_NEEDS) — and see the note there on `-009` possibly being EXPIRED-class rather than backlog.
+**🟢 NONE ACTIVE (verified 2026-08-18 against artifacts, not read off this file).**
+- ~~**③ THE TWO OVERDUE DEWEY COMMISSIONS**~~ — **CLOSED 2026-08-17: both were COMPLETED 2026-07-10.** ⚠️ **This line still read ACTIVE here on 8/18 while the WILL_NEEDS section four paragraphs above already recorded it closed — the same file contradicting itself for a day.** **Third instance of the stale-carried-item class in two days, and this one was purely internal.** The `-009` EXPIRED-vs-backlog note travels with §3.7, not with this row.
 
 **🟢 CLOSED THIS SESSION:** **② THE PULL-COMPLETE CONTRADICTION** — carried since 8/14 as *"one of the spec and the practice is wrong."* **FORUM-6 ruled it: R5 carves the CORRECTION class out of the exemption rather than killing the exemption**, on the reasoning that the failure only costs a wrong action for that one class. **In-lane, no gate, Will saw it and pulled none up.**
 
 **🟠 DEFERRED:** ⏸️ phone Part A (**Will-PAUSED 8/10, re-raise was due ~8/17 — TODAY, not raised; carry to next boot**) · DEWEY cadence · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope + OZK/WAL routing fix · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed-latency severity carve · newssweep defence-pact collection gap · batch-manifest `re-send` disposition class.
 
-**🔵 SURFACED (not WALTER-fixable):** **FRED 403 — CLEARED today, remove from the blocked list** · CNN 451 · **Goldman 403 (still live — and it is what bought `-001`'s lesson)** · gilts / China 10Y / HY breadth / EM carry / **potash** ownership · the Red Sea theater has no registered gate (FALCON) · the Iran anchor holds TWO unresolved multi-value facts and accumulates them faster than any owner retires them · `trash` not on PATH · VIOLET's STATUS lead still `[8/4 SETTLE]`.
+**🔵 SURFACED (not WALTER-fixable):** ~~FRED 403~~ **— CLEARED, re-confirmed 8/18 (both RED-FT-07 and FT-09 graded at primary)** · CNN 451 · **Goldman 403 (still live — and it is what bought `-001`'s lesson)** · gilts / China 10Y / HY breadth / EM carry / **potash** ownership · the Red Sea theater has no registered gate (FALCON) · the Iran anchor holds TWO unresolved multi-value facts and accumulates them faster than any owner retires them · ~~`trash` not on PATH~~ **— RESOLVED, verified 2026-08-18 (`command -v trash` returns a path). Carried as a Will-item after it had already been fixed; nothing announced it** · ~~VIOLET's STATUS lead still `[8/4 SETTLE]`~~ **— RESOLVED, verified 8/18: VIOLET's lead is current (8/18 boot, elevated-SKEW regime terminated)**.
