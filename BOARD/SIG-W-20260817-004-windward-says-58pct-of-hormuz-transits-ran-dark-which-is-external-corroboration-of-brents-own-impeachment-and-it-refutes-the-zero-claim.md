@@ -18,6 +18,16 @@ cluster_secondary: HYDROCARBON_INFRA
 ---
 
 # 🔴 **A third-party AIS vendor says ~58% of last week's Hormuz transits ran DARK — which is external corroboration of the impeachment BRENT reached today on internal evidence alone. And it refutes the "crossings went to zero" claim that arrived alongside it.**
+> ⚠️🔴 **SCOPE-CORRECTED 2026-08-18 by [`SIG-W-20260818-002`](SIG-W-20260818-002-four-instruments-give-0-3-and-12-hormuz-transits-for-the-same-day-and-the-one-the-zero-narrative-rests-on-is-9-days-stale-ais-only-and-self-impeaching.md). Additive marker — nothing below is edited.**
+>
+> ✅ **WHAT SURVIVES — the core claim, and it is STRONGER than when written.** The refutation of *"Hormuz crossings turned to zero"* **stands**. So does the finding underneath it (~58% of the 8/16 transits running dark, corroborating BRENT's same-day PortWatch impeachment). **And the artefact this signal PREDICTED — *"under a 58%-dark regime, 'transits fell to zero' headlines are EXPECTED artefacts"* — printed ONE DAY LATER, exactly as written**, when the 8/17-18 wire cluster repriced crude off a 0-and-3 transit count.
+>
+> 🔴 **WHAT IS CORRECTED — SCOPE, NOT FACT.** This signal presents Windward's **12 transits (8 in / 4 out)** as *the* 8/16 count. **It is Windward's count, not the count.** For the same or overlapping windows: a CBS-cited unnamed series gives **3** on 8/16 (and 19 on 8/11), CBS "commodity vessels" gives **5** Sat 8/15 and **0** Sun 8/16, and **IMF PortWatch's newest published print is 1 vessel on 2026-08-09** — nine days stale, AIS-only, with the publisher's own page warning true flow runs higher. **At least three different perimeters are in play** ("commodity vessels" ⊂ "crossings" ⊂ "all transits"), and the pre-war baseline is contested **at its own source** (88/day pinned by FALCON vs 73/day on PortWatch's public page).
+>
+> ⚠️ **TWO DIFFERENT 58s — DO NOT FUSE THEM.** The ~58 **PERCENT** in this signal is a Windward ratio. `straits.live` separately reports 58 **TANKERS** AIS-dark in 24h. A ratio and a count, not derivable from each other. Averaging or equating them would be a coincidence doing the work of evidence.
+>
+> ➡️ **A READER OF THIS FILE SHOULD NOT CITE 12 AS THE HORMUZ TRANSIT FIGURE.** The direction (traffic down enormously vs pre-war) is not in dispute on any instrument; **the LEVEL is not known**, and any threshold graded on the level inherits that.
+
 
 ## 1. The claim that came in, and why it does not survive
 
