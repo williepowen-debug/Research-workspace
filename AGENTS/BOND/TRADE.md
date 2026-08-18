@@ -11,7 +11,7 @@
 
 **Nothing has changed in the book and nothing is owed. TLT puts HOLD, no add; Will's NO-ADD (7/16) stands, $500 banked.**
 
-**The arm has RE-DEEPENED since the 8/15 closeout, and one gate is closing** — `^TYX` **closed 5.31 on 8/17, a 19-year high** (live 5.32); `DGS30` **29 consecutive sessions >5.00%**; 10Y **4.68** (live 4.74), 18bp over the arm line; **DFII10 2.41, now 9bp from the 2.5 add-gate and moving toward it** after three weeks of moving away. **No pre-registered add-gate has fired and I am not manufacturing one.**
+**The arm has RE-DEEPENED since the 8/15 closeout, and one gate is closing** — `^TYX` **closed 5.31 on 8/17, a 19-year high** (live 5.32); `DGS30` **29 consecutive sessions >5.00%**; 10Y **4.68** (live 4.74), 18bp over the arm line; **DFII10 2.44 [8/17] — 6bp from the 2.50 add-gate, +5bp in two sessions** after three weeks of moving away. **Closest approach this cycle remains 2.47 (7/31) = 3bp; this is the second-closest.** **No pre-registered add-gate has fired and I am not manufacturing one.**
 
 ⚠️ **Worth saying plainly, because both facts are true today and neither is an add-gate: the position is working AND the thesis channel is confirming.** TLT **$81.35** [8/17], −2.9% since 7/28. **That is exactly the configuration in which a desk talks itself into an unregistered add.**
 
@@ -19,7 +19,7 @@
 
 | Gate | Status |
 |---|---|
-| **(a) DFII10 >2.5 sustained** | 🟢 **LIVE — the ONLY survivor. 9bp away and closing.** Closest approach this cycle: **3bp (2.47, 7/31).** Never fired. |
+| **(a) DFII10 >2.5 sustained** | 🔴 **LIVE — the ONLY survivor, and now 6bp away** [2.44, FRED 8/17], **+5bp in two sessions.** Closest approach this cycle: **3bp (2.47, 7/31).** Never fired. |
 | (b) 30Y >5.0 / 10Y >4.6 held 5 sessions **+ a weak auction** | ❌ **DEAD.** Levels long met; **the auction leg was RE-TESTED at the August refunding and did not fire** — no composition failure at any tenor, indirect at/above median at all three. |
 | (c) Composition failure at the 7/28 7Y | ❌ **RESOLVED, DID NOT FIRE** (needed indirect <56.4% AND dealer >13.2%; printed 70.15% / 12.97%). |
 | (d) Hawkish FOMC repricing 7/29 | ❌ **RESOLVED, DID NOT FIRE — and it died the right way.** The post-FOMC repricing ran **dovish**: ORACLE aggregate hike-2026 71.5% → **54.5%** [8/12], Sept-specific **28.5% PM / 30.0% Kalshi** [measured 8/18]. |
@@ -98,6 +98,6 @@
 - **🟠 Tue 8/25 · Wed 8/26 · Thu 8/27 — 2Y / 5Y / 7Y month-end cluster.** The **5Y** is the one with a live question: it fired the 7/27 cover marker (BTC 2.28, lowest since Sept-2022). **A repeat with composition intact makes that a pattern rather than a print**, and bears on `KB-BND-092` (basis-trade withdrawal), still unadjudicated by LIQUID.
 - **🟡 Fri 8/28 _or_ Mon 8/31 — MOF monthly Japan FX reserves. ⚠️ DATE UNVERIFIED, verify asked of SAM.** First independent size read on the 7/30-31 operation. **n=3 of BOND's unverified-event-date class — the 7/23 ECB and 8/05 QRA windows both passed ungraded for exactly this.**
 - **🔴 Sat 8/29 — T6 hard close + HEN-42.** T6 trigger **MEASURED 8/18 and NOT FIRED** (PM 28.5% / Kalshi 30.0% vs the <25% line). **Three live spec defects flagged to LIQUID as co-owner; frozen text unedited.**
-- **Daily:** **DFII10 vs 2.5 — 9bp, the only live gate** · `DGS30` vs 5.0 (29-session run) · **watch for FRED to publish `DGS30` 8/17**, which is still absent and is what would grade the 19-year-high close · HY vs 300 (33bp, moving away) · CCC vs 1100 · USD/JPY vs 165 (159.65 — moving *away*).
+- **Daily:** **DFII10 vs 2.50 — 6bp [2.44, 8/17], the only live gate, and `BND-15` is registered against it firing** · `DGS30` vs 5.0 (29-session run) · **watch for FRED to publish `DGS30` 8/17**, which is still absent and is what would grade the 19-year-high close · HY vs 300 (33bp, moving away) · CCC vs 1100 · USD/JPY vs 165 (159.65 — moving *away*).
 
 > **Resolved and removed** (each had sat here as "live" — the point of the pruning rule): 7/28 7Y **(`BND-13` TRUE, branch B, no composition failure)** · 7/29 FOMC **(HELD; the repricing ran dovish, add-gate (d) resolved DID-NOT-FIRE)** · 7/31 **(`BND-01` FAILED — HY never within 63bp of 350)** · 8/03 P3 start gate **(passed 8/03, never started — still owed, tracked in SCRATCH not here)** · 8/05 QRA **(passed UNGRADED — date was pattern-inferred and never verified; do not grade retroactively off secondaries)** · **8/11–8/13 August refunding (GRADED 8/18, five days late — no composition failure at any tenor; it was never on this list because it was never docketed)**.
