@@ -34,8 +34,9 @@
 | **SKEW** | 🔴 **142.91** daily (**+4.55**) · **20d avg 139.86** ⬇ | **8/17 SETTLE** | 🟠 | [CONF A1] CBOE SKEW_History.csv. **Daily back ABOVE 140** (first since 7/31 141.23); path off the 8/4 low **126.41 → 133.32 → 134.73 → 132.57 → 137.13 → 135.59 → 136.54 → 134.37 → 138.36 → 142.91 = +16.50 pts in 9 sessions.** ⚠️ **20d-avg REGIME TERMINATED at 139.86** — opposite direction, same session. `final_5d_change` **+5.78**. → **KB-VIO-192** |
 | **★ M1:M2 contango (adj)** | **+9.40%** 🟠 COMPLACENCY_TOP_30PCT | **8/17 settle (T-1)** | 🟠 | [CONF] CBOE VX settlement (VX/U6:VX/V6), **T-1 stamped** per N5. ⚠️ **`m1m2_strict +15.63%` is ROLL-CONTAMINATED (2d to M1 expiry) — do not quote it as a level.** |
 | **★ MOVE (rates vol)** | **75.63** (+6.05 vs 8/14) | **8/17** | 🟠 | [CONF] move.py, investing.com PRIMARY (yfinance *agrees*). 🔑 **Re-crossed BOTH lines on 8/17 after breaking below:** 77.92 [8/11] → 72.09 → 69.23 → **69.58 [8/14, below F1]** → **75.63.** F1 72.41 **+3.22** · confirm-3 75.50 **+0.13 (marginal)**. **KB-VIO-190 re-arm (≥72.41 ×2) is at session 1 of 2 — today's print decides it.** |
-| **CCC OAS** | **10.12** | **8/14 [FRED]** | 🟠 | [CONF A1] fred_fetch. 🔴 **BIN-B BLOCK ACTIVE** (CCC 10.12 ≥ 9.55). |
-| **CCC−BB dispersion** | **8.55** | **8/14 [FRED]** | 🔴 | [CONF A1] — still through the registered 8.00 line. |
+| **CCC OAS** | **10.18** (+6bp) | **8/17 [FRED]** ✅ | 🟠 | [CONF A1] fred_fetch, refreshed 8/18 — **was carrying 8/14; the 8/17 print had landed.** 🔴 **BIN-B BLOCK ACTIVE** (10.18 ≥ 9.55). |
+| **CCC−BB dispersion** | **8.59** (+4bp) | **8/17 [FRED]** ✅ | 🔴 | [CONF A1] — still through the registered 8.00 line. |
+| **Credit breadth** | 🆕 **EVERY SERIES WIDENED ON 8/17** — CCC +6 · HY +3 · B +3 · BB +2 · BBB +1 · IG +1 bp | **8/17 [FRED]** ✅ | 🟠 | [CONF A1] — **a clean quality sort** (lower tranches widened more), on the **same session as the vol bid**. ⚠️ **DIRECTION AGREES, MAGNITUDE SAYS NOTHING HAPPENED:** 8/17 only retraces 8/14's tightening, and **HY 2.70 is still BELOW its 8/11–8/13 level of 2.71–2.72.** This is *not* credit confirmation of a stress event. Levels: HY 2.70 · BB 1.59 · B 2.88 · BBB 0.99 · IG 0.81 · EuroHY 2.53 · EM_HY 2.85. **LIQUID owns the level; I consume it as a VIX lead/lag comparator (KB-VIO-006).** → KB-VIO-199 |
 | **COT Lev Money NET** | ⚠️ **−12,127** / pct3y 76.3 · OI **382,010** | **8/11 report** | 🟡 | [CONF] cftc_cot --backfill (189 rows, 2023→). Gross legs 8/04→8/11: **long −11,415 · short +4,485.** Dealer +40,168 (p62.8) · Asset Mgr −27,104 (p16.7). ⚠️ **The `ELEVATED_LONG` flag sits on a NET SHORT book — a percentile label, not a position.** → KB-VIO-194 |
 | **★ JPY vol (canary)** | 🟢 **CALM** — RV10 **5.13%** / p20.1 · USDJPY **159.65** | **8/18** | 🟡 | [CONF] jpy_vol.py. 🔴 **RV still through IV (5.13% vs 2.6%)** — unwind-underway signature persists, but RV has collapsed from 12.94% [8/4]. Channel **unloaded**, not transmitted. |
 | **OVX oil-vol (canary)** | **49.52** (p84.7) · ratio **3.48** (p97.2) | **8/14** | 🟡 | [CONF] ovx.py — prints FIRE. ⚠️ **Ratio artifact continues:** OVX level is FALLING (53.45 [8/4] → 49.52) while the ratio hits p97 **because VIX fell further**. **Read the level.** ⚠️ 4 sessions stale. |
@@ -71,7 +72,7 @@
 | SKEW / tail bid | 🟠 3 | Daily +16.50 pts in 9 sessions, back >140. ⚠️ **20d-avg regime terminated** — the two legs disagree. |
 | Vol-of-vol (VVIX) | 🟡 2 | 93.92, +7.4%, highest since 7/29. Far from 120. |
 | Rates vol (MOVE) | 🟠 3 | Re-crossed both lines 8/17; re-arm session 1 of 2. |
-| Credit | 🟠 3 | BIN-B block active (CCC 10.12 ≥ 9.55); dispersion 8.55 through 8.00. ⚠️ 4 sessions stale. |
+| Credit | 🟠 3 | BIN-B block active (CCC 10.18 ≥ 9.55); dispersion 8.59 through 8.00. ✅ **Now current (8/17), was 4 sessions stale.** Widened with the vol bid but only retraced the prior session — **score unchanged, staleness removed.** |
 | Implied correlation | 🟠 3 | +25% off the episode low — **suppression unwinding.** Not yet a registered fire. |
 | Positioning (COT) | 🟡 2 | Net short vol into a rising-vol tape; failed 8/04 long. ⚠️ 5 sessions stale. |
 | Oil-vol (OVX) | ⚪ 1 | Level falling (49.52); ratio is an artifact. |
@@ -79,7 +80,7 @@
 | Equity level (HENRY-owned) | 🟡 2 | Not re-pulled this session. **[STALE — reference HENRY]** |
 | Cheap-tail window | ⚪ 1 | 2/4 on 8/14 data; **a live re-run prints 0/4.** |
 
-> 🔑 **THE SCORE ROSE 3 AND THIS TIME THE MOVE IS REAL, NOT A ROTATION.** Unlike 8/4 (where a 2-point move hid a re-composition — KB-VIO-178), **four vectors moved the same direction on one session**: front-curve, SKEW, MOVE and implied correlation all up on 8/17. ⚠️ **But three of the eleven vectors are 4–5 sessions stale** (credit, OVX, COT) and two of those are scored off data that predates the event. **The score is a lower bound on staleness, not a confidence statement.**
+> 🔑 **THE SCORE ROSE 3 AND THIS TIME THE MOVE IS REAL, NOT A ROTATION.** Unlike 8/4 (where a 2-point move hid a re-composition — KB-VIO-178), **four vectors moved the same direction on one session**: front-curve, SKEW, MOVE and implied correlation all up on 8/17. ⚠️ **Two of the eleven vectors are still 4–5 sessions stale** (OVX, COT) and are scored off data that predates the event. **Credit was the third and is now refreshed to 8/17** — and it widened, so the stale value was flattering the calm read, not the stressed one. **The score is a lower bound on staleness, not a confidence statement.**
 
 ---
 
@@ -105,6 +106,7 @@
 | To | Signal | Priority |
 |---|---|---|
 | **RED** | 🔴 **Your SKEW>140 line is crossed — SKEW 142.91 [8/17 CBOE close].** Also: FT-06's stated precondition (*"SKEW sub-140 ⇒ spring being dismantled"*) has reversed since the 8/11 fire, exactly as WALTER's Friction 1 warned. **Measurement only — the ruling is yours.** | 🔴 |
+| **RED / LIQUID** | 🟠 **RED-FT-01's exit is 10bp away, not 13 — HY OAS 2.70 [8/17 FRED, own pull], up from 2.67 [8/14].** WALTER flagged the 13bp proximity off the 8/14 print; the 8/17 print closes 3bp of it. **LIQUID owns the level, RED adjudicates the exit — routing the measurement only.** | 🟠 |
 | **WALTER** | ✅ **Your SIG-W-20260810-004 ask is ANSWERED with the gross legs you said you could not see: 93% new longs, 7% covering — and it round-tripped at a loss by 8/11.** Full decomposition in KB-VIO-194 / board_log. | 🟠 |
 | **HENRY** | 🟠 **Front-led vol bid 8/17 (VIX9D +16.8%) with no cause established on my side.** VIX Aug expiry is 8/19 (1d) — **pin/roll is an untested alternative to "fear" and I am not discriminating it.** Equity-side cause is yours. | 🟠 |
 | **NEXUS / PROME** | 🟠 Elevated-SKEW regime terminated 8/17 (49 td); dispersion-suppression unwinding (COR1M +25%). | 🟠 |
