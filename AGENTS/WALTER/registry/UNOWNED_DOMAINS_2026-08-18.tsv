@@ -1,0 +1,26 @@
+# UNOWNED-DOMAIN MEASUREMENT — 2026-08-18 (WALTER, on Will's "walk me through these each")
+# WHY THIS EXISTS: the five gaps had been carried as an undifferentiated list in LAST_COMPLETION for weeks ("gilts / China 10Y / HY breadth / EM carry / potash ownership").
+# Carrying them as a LIST implied they were the same object. They are not, and nobody had measured them.
+#
+# 🔴 THE MEASUREMENT OVERTURNED WALTER'S OWN PRIORITY ORDERING, STATED TO WILL HOURS EARLIER.
+#   At 14:0xZ WALTER told Will potash was "the newest and the one that changed recently" — implying it was the one to act on.
+#   Counted: potash has ZERO routed signals in four months. EM/FX carry has ~30 and is being absorbed by SIX different desks with no owner.
+#   ⇒ The lane WALTER named as most urgent is the quietest; the lane it listed blandly is the one actually causing scatter.
+#   `[[finding_base_rate_the_instrument_before_its_event_table]]` applied to ROUTING GAPS: count the traffic before ranking the hole.
+#
+# ⚠️ A FALSE NUMBER WAS CAUGHT MID-MEASUREMENT AND IS RECORDED RATHER THAN QUIETLY DROPPED.
+#   The first EM-carry count returned 226 BOARD files. The pattern included `\bTRY\b` for the Turkish lira — which matches every TERRY setup_id (`TRY-FIRE-006`, `TRY-BRENT-USOARM`, …).
+#   22 of the hits were TERRY cards, not currency signals. Re-measured clean: ~30. The 226 was never sent to Will.
+#   `[[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]` — a 3-letter ticker is an unqualified identifier, and this is the same class as the day's 20Y-auction and Hormuz-transit findings.
+#
+# METHOD: case-insensitive grep over BOARD/SIG-W-*.md for lane terms; "routed" = the signal carries an `action:` line naming a desk. Nearest-owner column read from REGISTRY.tsv + the agent's own CLAUDE.md Domain line, not from memory.
+#
+lane	board_mentions	routed_signals	who_actually_took_them	registered_owner	classification	walter_recommendation
+HY-BREADTH	25	yes, consistently	LIQUID (e.g. SIG-W-20260727-005 HY A/D line at a 1-yr low, action:[LIQUID,RED])	NONE	DE-FACTO OWNED — registration lag only	RATIFY LIQUID. Already happening; registration only guarantees it survives a session that lacks the history. ⚠️ Load-bearing reason: RED-FT-01/FT-02 both key on the OAS LEVEL, so an index that stays calm while breadth rots is invisible to both triggers BY CONSTRUCTION.
+EM-FX-CARRY	~30 (see false-number note above)	yes, but SCATTERED	SHADE+BROCK (2) · FALCON+BRENT (2) · VIOLET (1) · SAM (1) · SAM+BOND (1) · REGINALD (1) — SIX desks, no owner	NONE	🔴 THE REAL GAP — absorbed ad hoc by whoever was nearest	EXTEND SAM. 🔑 SAM's REGISTERED DOMAIN CODE IS ALREADY `CARRY_TRADE`, not `JAPAN` — so this is a scope CLARIFICATION, not a new agent. Same mechanism as the yen leg, different funding currency. Live adjacency: USD/JPY 159.59 with BOJ risk open.
+GILTS	3	yes (n=1)	BOND	NONE	SCOPE EXTENSION of an existing desk	EXTEND BOND. It already took the one that landed and already carries a Will-ruled sovereign-credibility scope claim (8/10 forum FINAL §5 item 4). Near-zero cost. Rationale: 2022 showed gilts as the fastest sovereign→pension-plumbing contagion path on record.
+CHINA-10Y	2	yes (n=1)	BOND	NONE	🟠 GENUINE JUDGMENT CALL — two desks have a real claim	THE ONLY ONE NEEDING A RULING RATHER THAN A RUBBER STAMP. ZHAO owns China macro (PBOC, property, capital flows); BOND owns rates-market structure. A CGB yield is both, and BOND took it. WALTER's lean: ZHAO, because the signal value is "what is Beijing doing" not "how is the CGB market functioning" — but BOND was not wrong to take it, and WALTER does not adjudicate.
+POTASH	3	NO — zero ever	nobody	NONE (explicitly excluded)	🔴 TRUE ORPHAN — and the QUIETEST of the five	LEAVE IT. Created by Will's own 2026-08-16 FERT re-charter (nitrogen+phosphate IN, potash OUT). A real hole, but ZERO routed traffic in four months and FERT is event-driven anyway. Revisit if a potash shock actually prints. Channel if it does: Russia/Belarus supply concentration -> sanctions shock -> food CPI (CARL's).
+#
+# INTERIM ROUTING UNTIL WILL RULES (unchanged, and it works): signals in these lanes route to PROME with the unowned caveat STATED ON THE SIGNAL, per root CLAUDE.md.
+# ⚠️ THE COST OF THE STATUS QUO IS NOT "SIGNALS GET DROPPED" — measurably they do not. The cost is that CONTINUITY depends on whichever desk happens to be nearest that day, which is exactly what the EM-carry row shows: six desks, no accumulation of expertise, and no one surface where the lane's history lives.
