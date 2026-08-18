@@ -20,4 +20,12 @@ metadata:
 3. **Do NOT repair it by amending a pushed commit.** `--amend` + push requires a force-push, which the repo protocol forbids outright. A cosmetically-damaged message with correct file content is not worth rewriting shared history — note it and move on.
 4. Same applies to `$(...)`, `$VAR`, and `!` inside double-quoted messages.
 
+## n=2 — RECURRED 2026-08-18 (TERRY, same desk, 23 days later), and the attempted REPAIR was far worse than the defect
+
+Backticked identifiers in a `git commit -m "..."` again produced `command not found` and again silently deleted the phrase from the stored message. **Discipline #1 is knowledge this desk already had and did not apply under batch tempo** — the same *"the failure is tempo, not knowledge"* pattern [[finding_concurrent_commit_index_race]] records for its own variants. *(Third instance, same session: the inline `python3 -c "..."` written to document this very finding was itself backtick-substituted. The hazard is the DOUBLE-QUOTED shell string, not `git` — it applies to every command, and the fix is a quoted heredoc `<<'EOF'` or single quotes.)*
+
+**⚠️ Discipline #3 needs widening, and this is the durable half.** It said: do not repair a **pushed** commit by amending. The repair attempt **rewrote a CONCURRENT AGENT'S commit**, because HEAD moved between the `git log -1` that read the message and the `--amend` two seconds later. 🔴 **And I initially recorded that commit as UNPUSHED — it was NOT. VIOLET had already pushed it (verified: `git merge-base --is-ancestor` ⇒ YES). I amended a PUBLIC commit.** So discipline #3's "pushed" caveat did not merely need widening — **it applied all along and I misread which case I was in.** On a shared repo where commit-and-push are fused in one call, **"unpushed" decays as fast as "mine," and you cannot tell either by looking at your own shell history.** Full incident, damage assessment and the `git reset --soft` repair → [[finding_concurrent_commit_index_race]] **n=5**.
+
+**⇒ The rule is now simply: DO NOT AMEND to fix a cosmetic message defect, pushed or not.** Get the message right the first time (single-quote it, or write identifiers bare); if it lands damaged and the FILES are correct, note it and move on. The message is documentation; the tree is the work.
+
 Sits with [[feedback_check_staged_before_commit]] and [[finding_pathspec_rename_needs_both_paths]] — the class of git mistakes that report success while quietly doing the wrong thing.
