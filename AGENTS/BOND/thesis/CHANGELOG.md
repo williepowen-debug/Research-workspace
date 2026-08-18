@@ -4,6 +4,30 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.4 — 2026-08-18 (staleness sweep: the 8/10 regime downgrade was MISSING from this document for 8 days; an internal contradiction, a stale unavailability blocker, and a hardcoded-single-tenor kill gate all fixed)
+
+**Trigger:** Will-tasked full staleness sweep of every BOND core document, run after a boot found the long end at a 19-year high and the August refunding ungraded.
+
+**⚠️ The headline is a process failure, not a market call: `STATUS.md` carried the 8/10 C-36 downgrade and THESIS did not.** For **8 days** the durable document — the one a reader consults for the standing argument — asserted "policy-path-led" as settled canon, including an explicit instruction *"do NOT restate this as term premium."* The desk had already moved that label to **CONTESTED ~50%.** *(Flagged as a risk in the 8/15 closeout — "THESIS has not been read end-to-end since 7/28 and the 8/10 downgrade may not be reflected in it — flagged, not assumed." It was not reflected. The flag was right and the verification was owed a session earlier.)*
+
+| # | Old view | New view | Basis |
+|---|---|---|---|
+| 1 | **Label:** "real-rate / higher-for-longer (policy-path-led)", stated as corrected canon; readers instructed not to say "term premium" | **CONTESTED ~50%**, banner at the top of the file; the do-not-say-term-premium instruction **suspended** | 8/10 forum, Will-ruled in-session |
+| 2 | Channel 4 posture: policy-path-led, term premium "flat over the move" | **Driver disputed and window-dependent.** 7/6→7/13 belly-led flattener (policy path — stands for its window); **7/13→8/07 long-end-led STEEPENER with term premium ≈83% of the 10Y move** | FRED `THREEFYTP10` (daily Kim-Wright), added to the dashboard 8/18 |
+| 3 | Status line: *"dealer long-end inventory is at a record"* | **Record retired; long-end stock −14.3% off the 6/24 peak** | ⚠️ **This CONTRADICTED item 1 of the same document, which had recorded the record as unwound on 7/28.** An internal contradiction that survived 21 days |
+| 4 | Thesis kill + TLT re-arm: **"indirect <56.4% AND dealer >13.2%"** | **Indirect below the tenor's own trailing-12 MIN and dealer above its MAX** — stated as the rule | ⚠️ Those were the **7Y** cut-offs, hardcoded as if general, **directly beside the file's own instruction not to reuse the 7Y numbers.** The 10Y's indirect min is 63.95% and the 30Y's is 59.52% — the 7Y bar applied to them is simply the wrong bar |
+| 5 | Dealer-absorption downgrade: *"UNSCOREABLE — no FR2004 print pulled since the 6/17 as-of; 5 owed. The vector is blind"* | **Fired 7/28; scoreable weekly and current through the 8/05 as-of** | ⚠️ **A stale unavailability blocker, live for 21 days after the gap closed** — telling every reader, this desk included, that a working scriptable instrument was unavailable. **n=2 with the `PROTOCOL.md` FR2004 line fixed 8/15** |
+| 6 | Credit: "re-activated, quality-INDISCRIMINATE" | **Fully round-tripped** — HY 268 → 287 → **267**, below where it started; the CCC tail's "new highs" clause also gone (1024 → 1012) | FRED direct, 8/14 |
+| 7 | Working model: **eleven straight** benign tests | **Twelve** — the August refunding ($125B, 8/11–8/13) cleared with **no composition failure at any tenor**, the 30Y clearing **5.216%, highest since 2001**, clearing its own failure bar by **7.33pp** | TreasuryDirect primaries, graded 8/18 (5 days late) |
+| 8 | Prediction scoreboard ended at BND-11 | **BND-12 FALSE · BND-13 TRUE · BND-01 FAILED**, and the book is **EMPTY** — zero OPEN predictions with T6/T7 running on frozen text | `thesis/PREDICTIONS.tsv` |
+
+**Spec changes: two of five adopted, three held — see the ADOPTION NOTE in THESIS §EXIT/FALSIFICATION.** Adopted **(d)** mandatory residual branch and **(e)** per-leg margin at resolution — both pure discipline, no calibration risk. **Held (a)/(b)/(c)** because all three change *what fires* and **none has been base-rated**, and the corpus that would base-rate them (`data/auction_history_*.csv`, 370 rows) is **stale to 2026-05-28 with a known destructive-write defect.** Refresh → base-rate → then adopt or reject. Also held: the VX-01 revert-rule speed question, now **n=2** (VX-01 round-tripped 2→3→2 in 11 hours on 7/28; the dealer trigger fired and was unfired by the next print on 8/18).
+
+**No conviction change, no position change.** TLT puts HOLD, no add; Will's 7/16 NO-ADD stands; composite unchanged 12/35 with no vector moved. **The label is CONTESTED and BOND has not moved it — that is forum/Will-gated, and the 8/10 ruling carries an explicit guard-rail against exactly the conflation this new evidence invites.** Routed to HENRY (HEN-42 resolves 8/29 on the same question) and PROME.
+
+---
+
+
 ## v1.1.3 — 2026-07-28 (falsifier RE-SPECIFIED after a self-caught mis-specification; oil→breakeven confirmed out-of-sample; credit re-activated)
 
 **Triggers:** HENRY's 7/28 challenge that the joint HEN-42 falsifier "passed on its letter but not on its evidence" + the 7/27 2Y+5Y grade off TreasuryDirect primaries + a 12-item mail drain that surfaced two stale load-bearing values on BOND's own surfaces.
