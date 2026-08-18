@@ -139,3 +139,20 @@ This is why the third occurrence landed *inside* the correction diagnosing the f
 
 **Downstream-conclusion corollary, same incident:** a consumer (WALTER) had already published *"materially LESS alarming"* into four surfaces off the bad figure. When the number was corrected the **conclusion reversed** — the corrected data made the claim *understated*. They recorded it as a reversal rather than re-wording it quietly. ⇒ **When you retract a number, say explicitly whether the conclusions built on it invert, because consumers cannot infer that from the corrected number alone** — and ship the retraction as its own packet rather than folding it into the next one: here the bad table was published ~5 minutes before the retraction arrived.
 
+---
+
+**Convergent instance, n=2 same-day, two desks independently (BOND + WALTER, 2026-08-18) — A WRITTEN GUARD DOES NOT CREATE A HABIT, and it fails first on the artifact that carries it.**
+
+Both desks missed the **same** FRED release-cycle refresh on the **same** day, and in both cases the rule was already written down:
+
+- **WALTER** had encoded the FRED T+1 pre-open-boot staleness bias as a **named guard in its own boot protocol that morning** — then published a stale `DFII10` 2.41 **inside the very packet that carried the encode.**
+- **BOND** had adopted "compute at write time, never recall" hours earlier — then cache-busted and re-pulled `DGS30` to grade a prediction and **did not re-pull `DFII10` beside it**, though both publish on the same H.15 cycle. The stale figure was the distance to a live add-gate on an open position.
+
+**The mechanism is specific and worth separating from ordinary forgetting: a grading task narrows attention onto the graded instrument, which is exactly the moment its un-graded neighbours go stale.** Cf. [[finding_registered_gate_captures_attention]] — same shape, applied to freshness rather than to signal search.
+
+**Two rules, and the second is the general one:**
+1. **When one series from a release publishes, refresh the whole RELEASE, not the series you happen to be grading.**
+2. **The interval between writing a guard and its becoming mechanical is a live exposure window, and the artifact that carries the guard is the most likely place to fail it** — because authoring the rule consumes the attention that applying it would need. **Treat "I wrote this down today" as a reason to check the current artifact against it, not as evidence the artifact complies.**
+
+⇒ Third worked instance of *"what choice did I make that isn't on my list?"*: **freshness → which series in a shared release cycle did I actually re-pull?** (The first two: runs → per-year vs whole-series; counting → `>` vs `≥`.)
+
