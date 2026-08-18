@@ -1,7 +1,7 @@
 # BOND Monitor — Dealer Capacity / Absorption
 
 **Owner:** BOND
-**Last Updated:** 2026-07-28 by BOND — **✅ GAP CLOSED. This monitor is live again, and the record has unwound.**
+**Last Updated:** 2026-08-18 by BOND — **staleness sweep. 3 prints recovered (7/22, 7/29, 8/05); the benign reading is now CONFIRMED by the August refunding rather than assumed.** ⚠️ **And a contradiction inside this file is fixed: the 7/28 header announced "the record has unwound" while the *Current Read* section below still said vector 3, fresh record highs, 4-trigger ARMED — the header was corrected and the body was not.** *(That is the third instance of this exact shape found today: `thesis/THESIS.md` v1.1.3 did it with the falsifier apparatus, its status line did it with this same dealer record, and this monitor did it here. **Updating a header is not updating a document.**)* *(Prior: 2026-07-28 — gap closed.)*
 
 > ## ✅ RESOLVED 2026-07-28 — it was never an access problem
 >
@@ -55,7 +55,21 @@
 
 ## Current Read
 
-**🟠 Dealer-absorption vector = 3 (elevated), 4-trigger ARMED.** FR2004 as-of **6/17** (pulled 7/1, KB-061): **FRESH HIGHS, not off the record** — 11–21Y **$74.6B = new all-time bucket record** (+$7.6B/+11.4% over the prior 5/27 record $67.0B, after sitting flat ~$66-67B on 6/3 and 6/10); 7–11Y $42.9B (vs 38.0 on 5/27); >21Y $57.0B (vs 49.7). Combined long-end **$174.5B = #2 print ever** ($1.2B below the 2/25/26 record). NUANCE intact: the build is NOT auction-forced — the 6/16 20Y PD take was only $1.1B vs a +$7.7B w/w bucket build, and the 6/23-25 cluster showed no dealer spike (10.2–12.9%) — this is secondary-market warehousing during FOMC week. The pre-registered →4 trigger (**fresh highs + weak auction**) is half-met; the weak-auction half is judgment (6/11 30Y dealer take 14.7% arguably qualifies; everything since is benign). **Decisive tests: the 6/24-week FR2004 print (released 7/2) and the 7/9 30Y reopening** — record stock + a 30Y stress marker = the demand-hole configuration. ⚠️ **The 6/24 print is PENDING PULL as of 7/6** (NY Fed raw API returns pre-2026 data in-env; need the tool/dashboard path) — carried the 6/17 record; re-grade 3-vs-4 when it lands. eSLR (effective 4/1/26) eased GSIB intermediation incrementally but did NOT exclude Treasuries from the SLR denominator. **Post-QT context (7/6): no Fed coupon backstop** — a warehoused long-end auction has no Fed bid to lean on (RMPs buy bills; KB-069), so dealer capacity is the *only* backstop at the coupon end.
+**🟡 Dealer-absorption vector = 2 (watch). The record is GONE and the 4-trigger is DISARMED.** FR2004 as-of **2026-08-05**, pulled 8/18 via `monitors/fr2004_fetch.py` (series break `SBN2024` resolved at runtime).
+
+| Bucket | 6/24 peak | 7/15 | 8/05 | Δ from peak |
+|---|--:|--:|--:|--:|
+| 11–21Y | **$77.4B** | $63.9B | **$64.1B** | **−$13.3B / −17.1%** |
+| Long-end total (7–11 + 11–21 + >21) | **$175.0B** | $159.2B | **$150.0B** | **−$25.0B / −14.3%** |
+
+**The week to 8/05 alone was −$9.3B — the largest weekly long-end drawdown in the window.**
+
+**★ READ = BENIGN DISTRIBUTION, and as of 8/18 this is CONFIRMED rather than inferred.** The monitor's own discriminator (below) requires *weak auctions and/or SOFR-IORB positive* for the forced-de-risking branch. **The 8/05 drawdown was immediately followed by the August refunding (8/11–8/13, $125B), which cleared with indirect at/above trailing-12 median at ALL THREE tenors and dealers at median** — the 30Y clearing 5.216% (highest since 2001) with indirect 66.85%. ⇒ **Dealers were clearing balance sheet AHEAD of supply and then did not have to eat it.** That is distribution into demand, not liquidation.
+
+⚠️ **Stated because it cuts against BOND's standing bear thesis:** "record dealer stock with no backstop" was one of three legs of the demand-hole configuration this desk published for six weeks. **It is gone, and its removal makes the bear case LESS pre-positioned, not more.**
+
+⚠️ **The one thing that could overturn this is outstanding and owed by LIQUID:** the refuse-or-confirm on **repo/funding stress over 7/01→7/15**, unanswered since 7/28. **If funding stress existed in that window, this same inventory decline re-reads as forced de-risking — which is MORE bearish.** Re-asked 8/18.
+
 
 ## Rolling Table
 
@@ -68,8 +82,16 @@
 | 2026-05-27 FR2004 | **11–21Y $67.0B (record); 7–11Y $38.0B (94th pctile); >21Y $49.7B** | — (positioning snapshot) | SOFR-IORB ~0 | 🟠 record *stock* | NY Fed FR2004 (KB-BND-047) |
 | 2026-06-10→16 June auctions | (pre-6/23 re-pull) | 10Y PD 9.5%, 20Y 8.5%, 30Y 14.7% — **flow benign** | SOFR-IORB -2bp (6/17) | 🟠 stock-high / flow-benign | TreasuryDirect |
 | 2026-06-17 FR2004 | **11–21Y $74.6B (NEW record, +11.4% w/w); 7–11Y $42.9B; >21Y $57.0B; combined $174.5B #2 ever** | 6/23-25 cluster takes 10.2–12.9% (benign) | SOFR-IORB +3bp 6/30 = clean qtr-end (SRF $0) | 🟠 fresh-record stock / flow-benign — **→4 trigger ARMED** | NY Fed FR2004 API (KB-BND-061) |
+| **2026-06-24 FR2004** | **11–21Y $77.4B = THE TRUE PEAK (not 6/17); 7–11Y $42.2B; >21Y $55.4B; total $175.0B** | 6/23–25 cluster benign | SOFR-IORB negative | 🟠 peak stock | NY Fed FR2004 *(added 8/18 — the 7/28 write called 6/17 the record; it was one week early)* |
+| 2026-07-01 → 07-15 FR2004 | 11–21Y 73.3 → 71.7 → **63.9**; total 170.9 → 166.9 → **159.2** | 7/09 30Y ind 77.7%; 7/22 20Y-R ind 69.1%; 7/23 TIPS ind 65.2% | SOFR-IORB negative | 🟡 benign distribution | NY Fed FR2004 |
+| **2026-07-22 → 07-29 FR2004** | 11–21Y **64.7 → 65.0** (two consecutive BUILDS); total 157.2 → 159.3 | 7/28 7Y ind 70.15%, dlr 12.97% — no composition failure | SOFR-IORB negative | 🟡 | NY Fed FR2004 *(added 8/18)* |
+| **2026-08-05 FR2004** | **11–21Y $64.1B; 7–11Y $33.4B; >21Y $52.5B; total $150.0B = −$9.3B w/w, the largest weekly drawdown of the window** | **August refunding 8/11–13 then cleared CLEAN at all three tenors** (3Y ind 64.24 / 10Y ind 76.73 / 30Y ind 66.85, dealers at-or-below median) | SOFR-IORB −3bp → **+1bp [8/17]**, inside its −3/+1 monthly range | 🟡 **benign distribution CONFIRMED** | NY Fed FR2004 + TreasuryDirect *(added 8/18)* |
 
 ## Triggers
+
+> ⚠️ **INSTRUMENT NAMED 2026-08-18 — the upgrade trigger was a threshold FAMILY, not a threshold.** The registered condition *"→3 on a fresh long-end high **or two consecutive weekly builds**"* never said **which series**. On **11–21Y it FIRED** (+0.8 then +0.3 on 7/22 and 7/29) **and the very next print (−0.9) unfired it.** On **long-end TOTAL** it never fired (one build, then −9.3). **The instrument is hereby LONG-END TOTAL**, on grounds independent of which way it points: that is what this monitor's headline and the vector's evidence cell have always cited, the 11–21Y builds are sub-1% noise (+1.3%, +0.5%), and the most recent print contradicts them. ⚠️ **Note the direction: firing the upgrade would have STRENGTHENED BOND's own bear thesis, and BOND declined it.** (`finding_unnamed_instrument_makes_a_threshold_a_family`.)
+> ⚠️ **This is also n=2 on revert-speed** — a trigger that fires and un-fires on consecutive weekly prints, alongside `VX-BND-01` round-tripping 2→3→2 in 11 hours on 7/28. **Queued with the v1.1.4 base-rating work, not fixed here** (`KB-BND-099`).
+
 
 | Trigger | Action |
 |---|---|

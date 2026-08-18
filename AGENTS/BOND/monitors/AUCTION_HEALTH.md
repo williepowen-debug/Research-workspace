@@ -1,7 +1,7 @@
 # BOND Monitor — Treasury Auction Health
 
 **Owner:** BOND
-**Last Updated:** 2026-07-28 by BOND *(rolling table had gone 27 days stale — 6 auctions back-filled 7/09→7/27)*
+**Last Updated:** 2026-08-18 by BOND — **full staleness sweep (Will-tasked).** ⚠️ **The rolling table was missing FOUR auctions, including the entire August quarterly refunding ($125B, the quarter's largest supply event).** The 7/28 7Y was graded the same day this file was last touched and never reached the table; 8/11–8/13 was never docketed at all. All four back-filled below off TreasuryDirect primaries, with per-tenor trailing-12 benchmarks recomputed 8/18. *(Prior: 2026-07-28 — rolling table 27 days stale, 6 auctions back-filled 7/09→7/27.)*
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
 
 > ⚠️ **TWO STANDING RULES FOR THIS TABLE (adopted 2026-07-28):**
@@ -56,10 +56,54 @@
 | 2026-07-23 | 10Y TIPS (new) | $23.3B | 2.30 | 2.438% (real) | **65.16** | 24.98 | 9.86 | 🟡 | TreasuryDirect R_20260723_3 | BTC at the softening boundary but composition strong: cleared **+26.9bp above 5/21** with ind/dealer 6.6x (vs 5.5x) = **real money buying a higher real yield with LESS dealer help.** |
 | 2026-07-27 | 2Y | $69B | **2.66** | 4.3150% | 56.59 | 34.05 | **9.36** | 🟢 | TreasuryDirect 91282CRB9 | STRONG. BTC highest since Jan-26; dealer lowest since Jan; indirect UP vs June (55.45). |
 | **2026-07-27** | **5Y** | **$70B** | **2.28** | **4.4080%** | **59.24** | 27.22 | 13.53 | 🟠 | TreasuryDirect 91282CRA1 | **★ FIRST REAL COVER MARKER OF THE CYCLE — lowest 5Y BTC since 2022-09-27 (2.27), by 0.01, in a 50-auction window.** Fires the `BTC<2.3` leg ⇒ vector 2→3. **But composition HELD: indirect ROSE with duration on the day (2Y 56.59 → 5Y 59.24)**, the opposite of a duration-demand step-back; dealer +0.64pp only. Concession is in PRICE (+20.8bp vs June). Threshold fired, mechanism intact. **"14th consecutive tail" (wire) NOT carried — unverifiable.** |
+| 2026-07-28 | 7Y | $44B | 2.49 | 4.4730% | **70.15** | 16.88 | 12.97 | 🟢 | TreasuryDirect 91282CRC7 | **`BND-13` RESOLVED TRUE on frozen branch B — no composition failure.** BTC dead on its trailing-12 median (2.495); dealer BELOW the trailing-12 max (13.14). The 7/27 5Y cover marker did NOT extend to the back-belly. ⚠️ **Added 8/18 — this grade was completed 7/28 and never reached this table.** End-user take 87.03% vs 87.25% in June = flat, so the headline indirect surge overstates real demand. |
+| **2026-08-11** | **3Y** | **$58B** | **2.71** | **4.2910%** | **64.24** | 24.02 | **11.74** | 🟢 | TreasuryDirect 91282CRG8 | **AUGUST REFUNDING leg 1.** BTC +0.07 vs trailing-12 median (2.64); indirect **+1.28pp** over median (62.96), well clear of the 53.99 min; dealer **below** median (12.11) and far below the 19.50 max. Healthy. |
+| **2026-08-12** | **10Y** | **$42B** | **2.53** | **4.6830%** | **76.73** | 14.67 | **8.60** | 🟢 | TreasuryDirect 91282CRF0 | **AUGUST REFUNDING leg 2 — the strongest leg.** Indirect **+8.41pp** over its trailing-12 median (68.32) = **2nd-strongest of the trailing 12**, against a failure bar of 63.95. Dealer 8.60 vs median 9.96. **Foreign/custodial demand for the 10Y is not what broke.** |
+| **2026-08-13** | **30Y** | **$25B** | **2.39** | **5.2160%** | **66.85** | 21.64 | **11.51** | 🟢 | TreasuryDirect 912810UW6 | **★ AUGUST REFUNDING leg 3 — THE FINDING. Cleared the HIGHEST 30Y AUCTION YIELD SINCE 2001 with indirect ABOVE its trailing-12 median (64.93) and dealers AT median (11.39).** Clears its own composition-failure bar (indirect <59.52) by **7.33pp**; dealer sits **5.95pp below** the 17.46 max. **The concession was paid in yield and the buyer base did not change — "expensive, not broken" at the hardest supply test of the quarter.** |
 
 *June bills (6/15–6/18) all cleared clean — BTCs 2.47–3.12; 13W softest (2.47, pre-FOMC re-investment caution), 6W strongest (3.12). No bill stress.*
 
 **Percentile context (PROME dataset v2, 369 rows 2023→5/28, refreshed 6/5):** late-May nominal coupons were **below-median to median on bid-to-cover** (2Y 28th, 5Y 24th, 7Y 50th pctile) — softer than the headline BTCs "look." But all cleared orderly with no tails/dysfunction and strong indirect. Read: **persistent duration fatigue / demand-at-a-discount, not dysfunction.** Note: the dataset's `tail_vs_cmt_bps` is a noisy prior-day-CMT proxy (e.g. -240bp for the 5/21 TIPS vs a nominal CMT is meaningless); rely on BTC percentiles + indirect mix, not that column.
+
+## Per-tenor trailing-12 benchmarks (recomputed 2026-08-18 — RE-DERIVE AT EVERY GRADE)
+
+**All percentages are of COMPETITIVE ACCEPTED.** These drift; the numbers below are a snapshot, not constants.
+
+| Tenor | BTC med | BTC min | Indirect med | **Indirect MIN** | Dealer med | **Dealer MAX** | Window |
+|---|--:|--:|--:|--:|--:|--:|---|
+| 3Y | 2.64 | 2.53 | 62.96 | **53.99** | 12.11 | **19.50** | 2025-08-05 → 2026-07-07 |
+| 7Y | — | — | — | **56.42** | — | **13.14** | (7/28 grade) |
+| 10Y | 2.46 | 2.35 | 68.32 | **63.95** | 9.96 | **16.16** | 2025-08-06 → 2026-07-08 |
+| 20Y | 2.67 | 2.36 | 64.95 | **55.17** | 9.88 | **17.59** | 2025-08-20 → 2026-07-22 |
+| 30Y | 2.38 | 2.27 | 64.93 | **59.52** | 11.39 | **17.46** | 2025-08-07 → 2026-07-09 |
+| 30Y TIPS | 2.75 | 2.48 | 77.48 | 70.44 | 4.46 | 7.24 | ⚠️ **n=3, 2025-02-20 → 2026-02-19 — NOT a trailing-12** |
+
+> ⚠️ **Composition failure = indirect below the tenor's own MIN _and_ dealer above its own MAX.** Never port one tenor's cut-offs to another: the 7Y's 56.42 indirect min against a 10Y auction (min 63.95) is simply the wrong bar. *(This exact error was live in `thesis/THESIS.md`'s kill criterion until 8/18 — it hardcoded the 7Y numbers as if general.)*
+> ⚠️ **The 20Y's indirect MIN and dealer MAX come from THE SAME auction (2026-02-18: 55.17 / 17.59)**, so the 20Y failure test is calibrated to reproduce one historical print and fires only on a repeat of it or worse. **A narrow gate, named at authorship rather than after it fails to fire.**
+> ⚠️ **The 30Y TIPS row cannot support a composition gate and none is set** — 3 observations spanning a year. Read that auction as a *level* referendum against DFII10. (`finding_base_rate_the_threshold_before_building_it`: "don't build it" is a real answer.)
+
+## Upcoming (dates + instruments VERIFIED at the TreasuryDirect primary, 2026-08-18)
+
+| Date | Instrument | CUSIP | Size | Failure test |
+|---|---|---|--:|---|
+| **Wed 8/19, 1PM ET** | 20-Year **NEW issue** (nominal) | `912810UX4` | $16B | indirect <55.17% **AND** dealer >17.59% |
+| **Thu 8/20, 1PM ET** | **30-Year TIPS REOPENING** (29Y-6M, 2.375%) | `912810US5` | $8B | **none set — n=3.** Level referendum vs DFII10 |
+| Tue 8/25 · Wed 8/26 · Thu 8/27 | 2Y · 5Y · 7Y | `91282CRH6` · `91282CRK9` · `91282CRJ2` | TBA | re-derive per tenor at grade time |
+
+⚠️ **8/19's 20Y prices at 1PM, one hour before the FOMC minutes at 2PM.** ⚠️ **8/20 also carries SAM's JGB 20Y — two long-end supply tests in two countries; hold them separately.**
+
+## ⚠️ TOOLING DEFECT — the reason this table went stale without anyone noticing
+
+**`data/auction_history_*.csv` (370 rows) is stale to 2026-05-28** and carries three defects reported by DAEDALUS 2026-08-17 (`sweeps/SILENT_FALLBACK_GREEN_SWEEP_2026-08-17.md`), which is why no automated surface flagged the missing August refunding:
+
+1. **Unstamped, unbounded CMT fallback** — `_cmt_for` serves the most-recent-prior close with no lookback bound and **records no date**, so a same-day close and a 90-day-old close write byte-identical `tail_vs_cmt_bps` cells. *(That column is keyed to the auction-tail metric this monitor formally RETIRED on 7/28 as unscoreable — so it should arguably be dropped, not fixed.)*
+2. **Documented-and-unguarded empty-200** — the file's own docstring warns that a bad `fields=` projection returns HTTP 200 with zero rows, and the code has no guard: `out.to_csv` **overwrites v1 with an empty file BEFORE validation.** Data destroyed, then a confusing traceback.
+3. **429 path** — 4×429 on FRED exits the retry loop without `break` ⇒ `obs=[]` ⇒ an all-null column written at **rc=0**.
+
+**⛔ DO NOT RUN THE REFRESH SCRIPT UNTIL (2) IS FIXED — it can destroy the corpus it is meant to extend.** Fix order: write-to-`.tmp` + validate row count and required columns + `os.replace`; then nonzero rc on the 429-exhausted path; then either stamp `cmt_asof` or drop the tail columns outright. **This corpus is also the blocker on the v1.1.4 spec changes (a)/(b)/(c), which cannot be base-rated without it** — see `thesis/THESIS.md` §ADOPTION NOTE.
+
+*(For balance, DAEDALUS rates `monitors/fr2004_fetch.py` near-exemplary — one gap: its `!! STALE` banner is stderr-only at rc=0, so a stdout-capture path keeps the confident table and loses the warning.)*
+
 
 ## Open Questions
 

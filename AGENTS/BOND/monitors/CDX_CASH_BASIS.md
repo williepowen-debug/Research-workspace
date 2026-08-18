@@ -1,8 +1,25 @@
 # BOND Monitor — CDX/Cash Credit Basis
 
 **Owner:** BOND
-**Last Updated:** 2026-07-28 by BOND — **proxy RE-RUN this session** (`cdx_proxy.py`, data through 7/27).
+**Last Updated:** 2026-08-18 by BOND — **proxy RE-RUN this session** (`cdx_proxy.py`, data through 8/14). ⚠️ **A CONFOUND IS NAMED FOR THE FIRST TIME — see Current Read.** *(Prior: 2026-07-28, data through 7/27.)*
 **Purpose:** Detect when faster synthetic/hedging credit demand leads cash spread repricing.
+
+## Current Read — 2026-08-18
+
+**Proxy run 8/18, data through 8/14:** HYG/IEF **0.8567** · z20 **+1.40** · **98th percentile of the 3-month range** (0.8377–0.8568) · 20d change **+0.73%**. LQD/IEF **1.1406**, z20 **−1.43**.
+
+**Verdict: credit-excess RICH, NO divergence. The basis is not signalling stress.** The registered divergence trigger (proxy z20 **< −1.5** *while cash HY stays TIGHT*) is nowhere — z20 is **positive** and near the top of its range.
+
+> ## ⚠️ CONFOUND NAMED 2026-08-18 — do not cite this ratio alone while the long end is repricing
+>
+> **HYG/IEF rises MECHANICALLY in a rates-led selloff, because the IEF denominator falls on duration.** Over the window this run covers, the 30Y rose to a **19-year high** and IEF fell with it. **So "98th percentile / credit-excess rich" is partly an artifact of the very move this desk is tracking, not an independent statement about credit.**
+>
+> **The read survives only because an independent instrument agrees:** cash **HY OAS 267 [FRED 8/14]** is at its tightest since the 263 cycle trough. **Two instruments, one of which is confounded ⇒ weight the unconfounded one.** Had cash HY been *widening* while this ratio sat at the 98th percentile, the correct reading would have been "the ratio is lying," not "divergence."
+>
+> ⚠️ **This monitor's whole purpose is to detect a sign-divergence between fast and slow credit layers. A denominator that moves with rates injects a rates signal into a credit instrument** — which is exactly the failure mode the 6/24–26 sign-check lesson was written for. **Fix when there is time: run the ratio against a duration-matched credit-free denominator, or report HYG total-return excess directly rather than versus IEF.** Logged, not fixed today.
+
+*LQD/IEF z20 has now been negative every session for ~5 weeks (−1.83 on 7/28 → −1.43). **IG credit-excess remains the more persistent signal, and it is the one this monitor keeps not acting on.*** IG OAS itself is **80bp and flat through the entire episode in both directions**, so the persistent negative z20 is not corroborated by cash IG — another reason to suspect the denominator.
+
 
 ## Working Model
 

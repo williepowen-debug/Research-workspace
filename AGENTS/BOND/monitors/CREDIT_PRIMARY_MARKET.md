@@ -1,8 +1,35 @@
 # BOND Monitor — Credit Primary Market Function
 
 **Owner:** BOND
-**Last Updated:** 2026-07-28 by BOND *(27 days stale — the +11bp two-session HY widening landed while this file read "boom, 275, flat")*
+**Last Updated:** 2026-08-18 by BOND — **staleness sweep.** *(Prior: 2026-07-28, itself 27 days stale — the +11bp two-session HY widening landed while this file read "boom, 275, flat".)*
 **Purpose:** Track whether HY/IG borrowers can access public debt markets, and when market access closes enough to transmit stress to banks/equities.
+
+## Current Read — 2026-08-18
+
+| Metric | Level | Date | vs threshold |
+|---|--:|---|---|
+| **HY OAS** | **267bp** | FRED 8/14 | 33bp below the 300 watch · **83bp below the 350 freeze line** |
+| **CCC OAS** | **1012bp** | FRED 8/14 | through the 1000 watch; 88bp below the 1100 escalation |
+| **IG OAS** | **80bp** | FRED 8/14 | flat; no threshold near |
+| **Pulled deals** | **ZERO** | 8/18 | the access test — unimpaired |
+| IG primary volume | **~$56B in the week to 8/14** | WALTER `-005`, **wire-level, NOT pulled at primary** | absorbed with no spread disruption |
+
+**Verdict: PRIMARY MARKET ACCESS IS FULLY OPEN. Credit is not transmitting stress, and the freeze thesis is further away than it was three weeks ago.**
+
+> ## ⚠️ THE HONEST ENTRY: this desk has made and retired a credit call TWICE in three weeks
+>
+> | Date | Call | What happened |
+> |---|---|---|
+> | 7/28 | *"Credit is no longer inert"* — HY +11bp in two sessions, quality-**indiscriminate** | HY ran on to a 287 cycle high (7/29) |
+> | 8/15 | *"Credit INVERTED — quality-**discriminating***" — HY retraced to 271 while CCC broke 1000 → 1024 and made new highs | **The index kept tightening to 267 and CCC gave back to 1012** |
+> | **8/18** | **Neither call survives at the index level.** HY is **below** where the July episode began; CCC is **off** its high | — |
+>
+> **What is left is narrow and worth stating precisely:** the **CCC/HY ratio** did make a fresh high at **3.79x** — but **it did so because HY fell faster, not because CCC rose.** A ratio extreme driven by the denominator is not the same claim as a widening quality tail, and this monitor should not report it as one.
+>
+> **⇒ Credit is not currently a BOND signal.** Saying that plainly is worth more than a third rewrite. **`VX-BND-11` is held at 3 — neither re-raised nor reverted** — and the registered conditions (→1 needs CCC <1000 **AND** HY <280 for 5 consecutive sessions; the HY leg is met, the **CCC leg is not**) will decide it rather than a judgement call.
+>
+> ⚠️ **`finding_plausible_stale_value_evades_review` applies to the pattern, not just to a value:** each of these three calls was *plausible when written*. The defect is not that any one was wrong — it is that a monthly-to-weekly instrument (index OAS) was being read at a two-session cadence. **Round-trips at that frequency are noise, and the desk has now paid for that lesson twice.** *(Same family as the ACM-monthly-vs-weekly-window defect found today: `finding_instrument_cadence_cannot_resolve_the_claims_window`.)*
+
 
 ## Core Thresholds
 
