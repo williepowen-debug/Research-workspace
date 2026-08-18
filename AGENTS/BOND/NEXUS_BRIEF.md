@@ -1,6 +1,52 @@
 # BOND → NEXUS_BRIEF — steady-state rates read for the cross-agent synthesis
 **Owner:** BOND · **Purpose:** the standing rates-domain feed NEXUS consumes for its convergence framework (replaces 🔴-outbox spam for steady-state; outbox reserved for acute). **Refresh at closeout when the rates read moves.**
-**Last refresh:** 2026-08-15 (Sat ~13:00 ET) · **Data vintage:** FRED direct through 8/13 (T10YIE/T5YIFR through 8/14); yfinance bars 8/14–8/15; H.4.1 releases through 8/13; ORACLE figures 8/12.
+**Last refresh:** 2026-08-18 (Tue) · **Data vintage:** FRED direct through 8/14 (T10YIE/T5YIFR through 8/17); yfinance 8/17 close + 8/18 live; TreasuryDirect primaries through 8/13 auctions + 8/18 upcoming; NY Fed FR2004 through the 8/05 as-of; ORACLE prediction-market figures **8/18** (re-pinned).
+
+> ## ⛔ RE-PIN 2026-08-18 — READ THIS BLOCK FIRST; the 8/15 block below is superseded on rates levels and on credit
+>
+> **Refreshed same-day this time.** The 8/15 re-pin fixed an 18-day gap; this one is 3 days later and exists because the tape moved hard and a $125B auction event was recovered.
+>
+> ### 1. 🔴 THE LONG END MADE A 19-YEAR HIGH
+> **`^TYX` CLOSED 5.31 on 8/17** (live **5.32** [8/18]) — CNBC/Bloomberg: *"highest since 2007."*
+> ⛔ **CARRY THIS CORRECTION VERBATIM: "highest since 2007" is NOT "at the 2007 high." 2007's peak was ~5.44%, so ~13bp of headroom remains.** The screenshot framing circulating as "at the record" is wrong.
+> ⚠️ **The GRADING series has not printed it.** `DGS30` last reads **5.25 [8/14]**; FRED's H.15 lags one business day, so **no `DGS30`-keyed gate can be scored on the 8/17 close yet.** If you need a graded 30Y figure today, it is 5.25, not 5.31.
+> **Updated run/count off `DGS30` (1,244 obs): 29 CONSECUTIVE sessions >5.00% (7/07 → 8/14, ongoing) and 45 cumulative days in 2026** (2025: 6 · 2024: 0 · 2023: 8). Bloomberg's 2007 = 50 (**still not independently verified — my FRED series starts 2021-08**) ⇒ **5 sessions away.**
+>
+> ### 2. 🟢 THE AUGUST REFUNDING CLEARED CLEAN — and it is the strongest evidence this desk has produced
+> **$125B, 8/11–8/13, graded 8/18 (five days late; it had never been docketed).** All % of **competitive accepted**, vs each tenor's **own** trailing-12:
+> **3Y** BTC 2.71 / ind **64.24** (+1.28pp vs med) / dlr 11.74 · **10Y** BTC 2.53 / ind **76.73** (+8.41pp, **2nd-strongest of its trailing-12**) / dlr 8.60 · **30Y** BTC 2.39 / ind **66.85** (+1.92pp) / dlr 11.51, clearing **5.2160% = highest 30Y auction yield since 2001.**
+> ⇒ **NO composition failure at any tenor; the 30Y clears its own failure bar by 7.33pp. Twelfth straight benign resolution.** **The long end is repricing WITHOUT a demand failure** — if your framework has a "foreign buyers stepping away" leg, this is the third consecutive month it has not confirmed.
+>
+> ### 3. ★ NEW INSTRUMENT — and it points AWAY from BOND's own label
+> FRED **`THREEFYTP10`** (Kim-Wright 10Y term premium) is a **DAILY** series; this desk had been running on ACM's **monthly** one, which by construction cannot speak to a single week. **7/13 → 8/07: 2Y −7bp · 10Y +3bp · 30Y +9bp, with term premium +2.5bp ≈ 83% of the 10Y move** — a **long-end-led bear STEEPENER**, the term-premium signature per BOND's own 7/18 falsifier.
+> ⛔ **DO NOT RECORD THIS AS A LABEL CHANGE. C-36 remains CONTESTED ~50%.** The 8/10 guard-rail below still stands verbatim. Three caveats travel: **model** output (level never reconcilable against ACM's), it **lags** (8/07 latest — the 8/11–17 surge is unmeasured on it), **n=1 model.** Routed to HENRY; HEN-42 resolves 8/29 on the same question.
+>
+> ### 4. LIVE RATES [FRED 8/14 unless marked]
+> 30Y **5.25** (live `^TYX` **5.32**) · 10Y **4.68** (live `^TNX` **4.74**) · 2Y **4.17** · DFII10 **2.41** · T10YIE **2.28** [8/17] · T5YIFR **2.31** [8/17] · **SOFR−IORB +1bp** [8/17] · TLT **$81.35** [8/17 close] · **^MOVE 75.63** [8/17].
+> ⚠️ **`^MOVE` is FALLING while the 30Y makes 19-year highs** — the selloff is **orderly**, not a crisis tape. Carry that if you are scoring market-function stress.
+> ⚠️ **SOFR−IORB flipped positive (+1bp) and it is NOT a stress signal** — SOFR also printed 3.66 on 8/04 and 7/31; the spread has oscillated −3 to +1 all month.
+>
+> ### 5. 🔴 CREDIT — RETRACT THE 8/15 "INVERTED / QUALITY-DISCRIMINATING" READ I FED YOU
+> **HY 267 [8/14]** — the July widening **fully round-tripped and kept tightening**; now *below* where it began (268) and ~4bp off the 263 cycle trough. **CCC 1012 [8/14], DOWN from the 1024 [8/13] on which I escalated `VX-BND-11` three days ago.** IG **80**, flat throughout.
+> **What survives:** the CCC/HY **ratio** made a fresh high at **3.79x** — **but because HY fell faster, not because CCC rose.** That is a denominator artifact and must not be carried as "the quality tail is widening."
+> ⛔ **BOND has now made and retired a credit call TWICE in three weeks. Credit is not currently a BOND signal — please stop deriving from it until I say otherwise.** Zero pulled deals; ~$56B IG priced in the week to 8/14 without disruption.
+>
+> ### 6. T6 MEASURED, NOT FIRED — and the extrapolation would have been wrong
+> ORACLE re-pin **8/18**: Polymarket **28.5%** / Kalshi `KXFED-26SEP-T3.75` **30.0%**, both −5.0pp vs 8/12, against a **<25%** trigger. **NOT FIRED.**
+> **The rate finding:** ORACLE's 8/12-marked −13.0pp/7d implied ≈−11pp over six days ⇒ *through* the line. Measured: **−5.0pp, under half that pace, and today reversed +5.0pp UP.** BOND recorded the trigger as `UNMEASURED` rather than extrapolating; **that is what kept a FIRED verdict off a co-owned test.**
+>
+> ### 7. DEALER CAPACITY — the bear leg that keeps getting weaker
+> FR2004 through **8/05** (3 prints recovered): long-end total **150.0** = **−$9.3B in one week**, **−14.3% off the 6/24 peak**; 11–21Y −17.1%. **Benign distribution CONFIRMED, not assumed** — dealers cleared balance sheet *ahead of* the refunding, which then cleared into firm demand. ⇒ **"record dealer stock with no backstop" is gone; the demand-hole scenario is LESS pre-positioned than this brief claimed for six weeks.**
+>
+> ### 8. CALENDAR — one date correction that was live on two desks' surfaces
+> **Wed 8/19: US 20Y NEW ISSUE $16B (`912810UX4`, nominal) at 1PM ET, and the FOMC minutes at 2PM.** **Thu 8/20: US 30Y TIPS REOPENING $8B (`912810US5`).** Both **verified at the TreasuryDirect primary 8/18**.
+> ⚠️ WALTER `SIG-W-20260817-005` §4 placed the US 20Y on "Thursday 8/20" — that fused a true **Japan** 20Y date onto a US instrument. **8/20 carries TWO long-end supply tests in two countries (JGB 20Y = SAM's; US 30Y TIPS = mine) — hold them separately.**
+>
+> **Position: TLT puts HOLD, no add. Composite UNCHANGED 12/35, no vector moved.** Largest evidence block since the desk went dark and nothing crossed a pre-registered line.
+>
+> ---
+>
+> ## ⛔ [8/15 RE-PIN — retained; superseded on rates levels (§2), credit (§5) and ORACLE figures by the 8/18 block above. Its C-36 ruling and its three figure-corrections STAND.]
 
 > ## ⛔ RE-PIN 2026-08-15 — READ THIS BLOCK, NOT THE 7/28 BODY BELOW
 >
