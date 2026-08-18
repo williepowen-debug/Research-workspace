@@ -153,6 +153,30 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 
     **First consumers:** `TRY-FIRE-002` and `TRY-FIRE-003` (PRINT-class, staged) at build time.
 
+19. **★ A SERIES-DERIVED EXTREME, STREAK OR "HAS X EVER HAPPENED" CLAIM MUST STATE ITS BAR COUNT.** *(Will-approved 2026-08-18. Born from WALTER `SIG-W-20260813-002` + this desk's own reproduction the same day.)* **Coverage is a property of the PULL, not of the instrument, and it varies between two identical calls.**
+
+    🔴 **The measurement, on this box:** two identical `price_history()` calls **seconds apart** returned `^TNX` with **18 bars, then 60** (`IEF`: 59, then 60) for the same 60-day request. ⚠️ **The short pull contains ZERO nulls — the bars are simply ABSENT — so a `close is None` test is blind to it BY CONSTRUCTION.** WALTER's original finding was the *nullity* variant; **absence is the same defect with the detector removed.**
+
+    **Why it is a trading rule and not an infra note:** every stat downstream is an **extreme** or a **window mean**, and a hole corrupts both *silently* — `max`/`min` exclude the extreme, a range-location verdict inherits the wrong range, and an "N-day MA" spans more calendar days than its label. **Concretely: the full 60-bar 10Y series has min `4.37`; the truncated 18-bar window has min `4.60`. `TRY-FIRE-004`'s disarm is a 10Y close `<4.50`** — the short series answers *"has it been below 4.50?"* with a confident **NO**.
+
+    - **(a)** Quote the bar count beside any extreme/streak/percentile: *"11th percentile **of a 120-day window**"*, never a bare percentile.
+    - **(b)** ⭐ **THE BATCH IS ITS OWN CONTROL.** Comparing bar counts **across tickers in the same pull** needs **no holiday calendar and no per-symbol expectation** — it catches "one symbol came back short" directly. An absolute floor backstops single-ticker pulls.
+    - **(c)** **A short/holed series gets its derived verdicts SUPPRESSED, never interpolated.** An unmarkable series is reported UNMARKED. *(Implemented: `snapshot.py` `coverage_flags()`; regression suite `scripts/test_snapshot_coverage.py`, 12 synthetic-defect assertions including the 18→60 reproduction and a false-positive guard.)*
+    - **(d)** **Print coverage on EVERY run, not only on defect** — a check that speaks only on failure teaches the reader to read silence as health.
+    - ⚠️ **Cross-window percentiles are NOT like-for-like.** Comparing your 120-day percentile to someone else's differently-windowed one is a basis error; state both windows or compare **levels** instead.
+
+20. **★ THE ENTRY HALF OF A TRADE CARD IS UNRECOVERABLE AFTER THE FILL; THE MANAGEMENT HALF NEVER WAS. A RETROACTIVE WRITE-UP IS MANAGEMENT-ONLY, AND SAYS SO ON ITS FACE.** *(Will-approved 2026-08-18. Forced by `USO $135C Oct-16 ×2` — $1,421.33 basis, in the book on no rail, no card, no owner agent; fill date and price **unobtainable from a positions view**, `FORGE` D-19.)*
+
+    | Card section | After the fill |
+    |---|---|
+    | preconditions · entry/trigger/do-not-chase · structure rationale | 🔴 **UNRECOVERABLE — do NOT reconstruct.** Writing them retroactively **fabricates a decision record for a decision nobody made.** |
+    | risk · target/management · time stop · roll rule | ✅ **NOT retroactive at all — purely forward-looking, and usually ABSENT.** |
+
+    - **(a)** **"Recorded, unowned" is NOT an acceptable terminal state for an option leg.** An option with live theta and no management rule is an **unmanaged decaying asset** — `RISK_RULES` #9 is violated on its face, and it is violated *quietly* while the leg is underwater, which is exactly when nobody looks.
+    - **(b)** **Management does not need the entry price.** Max loss from here is the **remaining mark**, whatever was paid. ⚠️ **Do not let a missing fill price block writing the exit** — that is the trap this rule exists to break.
+    - **(c)** **Leave the entry fields explicitly marked UNRECOVERABLE, not blank.** *Blank reads as "unrecorded" (someone should go find it); the truth is "unrecoverable" (nobody can).* Mark `[POSITION_STATE_INCOMPLETE]` with the reason.
+    - **(d)** Sunk basis is **not** forward risk: state forward max loss as the **remaining mark**, never the original debit. *(8/18: the oil sleeve's three option legs carried `$2,176.68` of sunk basis but only `$1,489.00` of forward exposure.)*
+
 
 ---
 
