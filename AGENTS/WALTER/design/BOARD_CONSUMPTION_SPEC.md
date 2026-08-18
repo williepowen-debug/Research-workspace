@@ -1,6 +1,6 @@
 # BOARD Delivery + Consumption Spec
 
-**Version:** v0.17
+**Version:** v0.18
 **Created:** 2026-04-20 (v0.1 consumption-only) · **Extended:** 2026-06-17 (v0.2 delivery layer) · **Clarified:** 2026-06-18 (v0.3–v0.5 Quick-WALTER tightening) · **Collapsed:** 2026-06-26 (v0.6 single-machine platform-collapse — OpenClaw cut)
 **Owner:** WALTER
 **Status:** **Single-machine (desktop CC) since 2026-06-26 — OpenClaw cut; `delivered` is uniform (committed + on-origin); Quick-WALTER retired.** Delivery layer SHIPPED; consumption = Phase 2 self-apply (see §8). Approved-in-principle by Will + PROME + ORC (2026-06-17); v0.6 collapse Will-ratified 2026-06-26 (`design/OPENCLAW_CUTOVER_PLAN.md`).
@@ -247,6 +247,8 @@ TERRY boots ~15 days in 38; an action line it cannot clear at that cadence is no
 1. **The correcting signal's `corrects:` header** — SIG-ID (or a list), `SELF`, or `EXTERNAL:` per `SIGNAL_FORMAT_SPEC` v0.15. Mandatory on `signal_type: correction`; enforced by `walter_doctor` `correction_target_declared`.
 2. **The corrected signal's INDEX row** — append a visible back-marker naming the correcting SIG-ID and stating **in one line what is now wrong**. The INDEX is the discovery surface; a reader scanning the cluster must see it without opening the file.
 3. **The corrected signal's FILE** — a banner immediately after the YAML front matter, same content. A reader who arrives by direct link, grep or an old citation never touches the INDEX.
+
+**⚠️🆕 STATE THE DIRECTION, NOT ONLY THE NUMBER — added 2026-08-18 (BOND's rule, adopted; §3.6.2).** **When a corrected figure had CONCLUSIONS built on it, the marker must say explicitly whether those conclusions HOLD, WEAKEN, or FLIP.** 🔑 **A consumer CANNOT infer conclusion-inversion from a corrected number alone** — they get the new value and are silently left to re-derive a direction they may not know was load-bearing. ⚠️ **Bought the same day, twice, in one thread: WALTER published *"materially LESS alarming"* off a run-length of `79`; when BOND corrected it to `92` with a true post-2007 max of `11`, the honest read INVERTED to *understated*. BOND supplied corrected numbers and left the direction to be re-derived; WALTER happened to catch it.** **And a corollary BOND drew from the same episode, adopted here: SHIP A RETRACTION AS ITS OWN PACKET, never folded into the next one.** The cost of a standalone packet is minutes; the cost of waiting is a wrong figure live on N surfaces for an unbounded interval — measured at **four surfaces for five minutes** in this instance, and only luck made that short.
 
 **⚠️ State what SURVIVES, not only what broke.** Both markers must say which half of the original still stands. A marker reading only "CORRECTED" invites the reader to discard a sound argument along with a bad figure — the 7/24 calibration-vs-verdict lesson, applied to the linkage layer. *(Worked example: `SIG-W-20260807-001` corrects a DATE across four signals whose arguments are entirely unaffected, and every marker says so explicitly.)*
 
