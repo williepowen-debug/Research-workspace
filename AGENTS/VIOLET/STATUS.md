@@ -18,11 +18,12 @@
 
 > ⚠️ **BASIS DISCIPLINE (N5 i-b, adopted 8/13):** `^`-index rows below are **8/17 SETTLE** unless marked TICK. **VIX 15.78 is a PROVISIONAL LIVE BAR, not a close** — verified, not assumed: CBOE quote payload gives `prev_day_close` **15.19** with `last_trade_time` **2026-08-17T16:15:01**. VIX cash disseminates to **16:15 ET**.
 > ✅ **8/17 spot recovered from the CBOE primary** (`*_History.csv`) after yfinance returned a partial date — see ⑤. **CBOE should become PRIMARY for this series; yfinance demoted to cross-check** (owed, not done — KB-VIO-195).
+> 🔴 **MIXED-VINTAGE TRAP, CAUGHT 09:44 ET (KB-VIO-197):** at 14 min into RTH the CBOE feed returned `current_price` for all six vol indices, but **only ^VIX had actually printed** (15.84). ^VIX9D/^VIX3M/^VIX6M/^VVIX/^SKEW all returned `current_price` **exactly equal to** `prev_day_close` with `last_trade_time` still `2026-08-17T16:15:01` — **stale values served as current with a 0.00% change**, confirmed independently at yfinance (zero intraday bars). ⚠️ **Ratios built across that mix are artifacts**: the mixed read gives VIX9D/VIX 0.7822 and VIX3M/VIX 1.2020, which look like a violent flattening. **The true 8/17 settle-basis ratios are 0.8157 and 1.2535, and those are what this dashboard carries.** 🔑 **A percent-change field cannot distinguish "unchanged" from "unpublished."**
 > ⚠️ **Dark 8/11–8/17 (no VIOLET session).** VX_DAILY, COT and IMPLIED_CORR all had holes from irregular boots; VX_DAILY + COT backfilled this session, **IMPLIED_CORR 8/11–8/17 remains empty.**
 
 | Metric | Value | As Of | Status | Source |
 |--------|-------|-------|--------|--------|
-| **VIX Spot** | **15.19** SETTLE · **15.78** TICK (+3.9%) | **8/17 SETTLE** / 8/18 tick | 🟡 | [CONF A1] CBOE VIX_History.csv. **LOW_VOL.** +6.6% on 8/17 off the 14.25 [8/14] low; +10.7% cumulative incl. the pre-open tick. Path 14.55 → 14.63 → 14.25 → **15.19**. |
+| **VIX Spot** | **15.19** SETTLE · **15.84** LIVE (+4.28%) | **8/17 SETTLE** / 8/18 09:44 ET live | 🟡 | [CONF A1] CBOE VIX_History.csv + delayed_quotes 09:44 ET. **LOW_VOL.** +6.6% on 8/17 off the 14.25 [8/14] low; +10.7% cumulative incl. the pre-open tick. Path 14.55 → 14.63 → 14.25 → **15.19**. |
 | **VIX9D** | **12.39** · 9D/VIX **0.8157** (from 0.7446) | **8/17 SETTLE** | 🟠 | [CONF A1] CBOE — 🔑 **+16.8%, the largest mover on the surface.** Front-end re-loading fast, still below 1.0. |
 | **VIX3M** | **19.04** | **8/17 SETTLE** | 🟡 | [CONF A1] CBOE. |
 | **VIX6M** | **21.33** | **8/17 SETTLE** | 🟡 | [CONF A1] CBOE — long end flat all month (21.35 → 21.33): **the repricing is front-end, again.** |

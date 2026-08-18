@@ -198,8 +198,8 @@
         <span class="id-domain">Volatility, term structure, and credit-to-vol transmission timing. The fleet's early-warning system for vol-regime shifts.</span>
       </div>
       <div class="state-block">
-        <span class="regime">LOW_VOL — and the crash bid just walked out</span>
-        <span class="stamp">State as of 4 Aug 2026, after the close · framework v3.9</span>
+        <span class="regime">LOW_VOL — the tail regime just ended, and the surface bid straight back</span>
+        <span class="stamp">State as of 18 Aug 2026, ~09:45 ET · market just open — only VIX has printed today, the rest are last night&rsquo;s close · framework v3.9</span>
       </div>
     </header>
 
@@ -214,37 +214,37 @@
       <div class="tiles">
         <div class="tile sv-calm">
           <span class="t-name">VIX</span>
-          <span class="t-val">16.5</span>
-          <span class="t-note">Fear right now. The Fed spike is fully erased &mdash; five sessions near the lows.</span>
+          <span class="t-val">15.8</span>
+          <span class="t-note">Fear right now. <b>Up 11% in a session and a half</b> off the 14.25 low on 14 Aug &mdash; but still a low number in absolute terms.</span>
           <span class="t-trip">breaks <b>&gt; 20</b></span>
         </div>
         <div class="tile sv-calm">
           <span class="t-name">VVIX</span>
-          <span class="t-val">92.6</span>
-          <span class="t-note">Fear about fear. Peaked at 109 on the Fed, now well back under the watch line.</span>
+          <span class="t-val">93.9</span>
+          <span class="t-note">Fear about fear. Jumped 7% on Monday &mdash; the highest since the Fed &mdash; but still nowhere near the stress line.</span>
           <span class="t-trip">watch &gt;100 · <b>stress &gt;120</b></span>
         </div>
         <div class="tile sv-watch">
           <span class="t-name">SKEW</span>
-          <span class="t-val">126</span>
-          <span class="t-note"><b>Crash cover collapsed today &mdash; a three-year low</b>, and it fell while the other gauges rose, into a record high on the index. Protection is being sold into strength.</span>
+          <span class="t-val">143</span>
+          <span class="t-note"><b>The three-year low is fully retraced</b> &mdash; up 16.5 points in nine sessions and back through 140. Crash cover is being bought again. <b>But the longer-run regime measure broke the other way on the same day</b> &mdash; see below.</span>
           <span class="t-trip">&gt;150 held <b>4 days</b> = re-arm</span>
         </div>
         <div class="tile sv-calm">
           <span class="t-name">Term</span>
-          <span class="t-val">1.17</span>
-          <span class="t-note">Now vs later. Steepest of the whole episode &mdash; the market prices no near-term trouble.</span>
+          <span class="t-val">1.25</span>
+          <span class="t-note">Now vs later. Still steep, but <b>flattening</b> &mdash; the near-dated end is where the buying went. A long way from inverting.</span>
           <span class="t-trip">inverts <b>&lt; 1.00</b></span>
         </div>
       </div>
 
       <div class="row-label">Independent channels — where real confirmation comes from</div>
       <div class="chans">
-        <div class="chan sv-calm"><span class="cn">Credit</span><span class="cv">Retired</span><span class="cd">My credit gate was scrapped today &mdash; it was firing on 19 days in 20</span></div>
-        <div class="chan sv-stress"><span class="cn">Bond vol</span><span class="cv">80.5</span><span class="cd">Peaked at 83 &mdash; the one channel actually confirming, and I was blind to it for five sessions</span></div>
-        <div class="chan sv-watch"><span class="cn">Positioning</span><span class="cv">Net short</span><span class="cd">Fast money flipped to short volatility &mdash; the 2018 setup, not a trigger</span></div>
-        <div class="chan sv-calm"><span class="cn">Oil-vol</span><span class="cv">53.5</span><span class="cd">Down 21% in four sessions on the crude slide</span></div>
-        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">Calm</span><span class="cd">Fired for the first time ever last week, then stood down inside two sessions</span></div>
+        <div class="chan sv-watch"><span class="cn">Credit</span><span class="cv">10.12</span><span class="cd">Junk-of-the-junk spreads still above my block line &mdash; but this reads 14 Aug, four sessions behind the move</span></div>
+        <div class="chan sv-stress"><span class="cn">Bond vol</span><span class="cv">75.6</span><span class="cd">Fell below its line last week, then <b>jumped 9% Monday and re-crossed both</b> &mdash; needs one more day to fully re-arm, and that resolves tonight</span></div>
+        <div class="chan sv-watch"><span class="cn">Positioning</span><span class="cv">Net short</span><span class="cd">Fast money <b>bought the spike on 4 Aug and lost</b> &mdash; out a week later at lower vol, now short again into a rising surface. Blind since 11 Aug</span></div>
+        <div class="chan sv-calm"><span class="cn">Oil-vol</span><span class="cv">49.5</span><span class="cd">Still drifting down. The ratio alarm it trips is an artifact of VIX falling too &mdash; read the level, not the alarm</span></div>
+        <div class="chan sv-calm"><span class="cn">Yen carry</span><span class="cv">Calm</span><span class="cd">Realised swings collapsed from 12.9% to 5.1%. The channel unloaded rather than transmitting</span></div>
       </div>
 
       <div class="row-label">Instruments — what's armed, fired, or quiet</div>
@@ -252,34 +252,42 @@
         <div class="ins">
           <span class="kind">Gate</span>
           <div class="ins-body">
-            <div class="in">GATE-VIO-116 · rates-vol shape</div>
-            <div class="id2">Bond vol reached <b>83 on 31 Jul</b> and sits at 80.5 &mdash; comfortably above the re-open line, and now <b>confirmed against a second source</b>. It had been recorded as <i>broken</i> for five sessions because the data feed silently froze. Consequence on fire is <b>not</b> a new trade; it folds into the TLT position that already carries rates-vol.</div>
+            <div class="in">Elevated-crash-cover regime &mdash; <b>ENDED 17 Aug</b></div>
+            <div class="id2">The headline change. For <b>49 trading days</b> since 5 June, the market&rsquo;s 20-day average demand for crash protection sat above my &ldquo;elevated&rdquo; line. <b>On Monday it dropped below and the regime is over.</b> &#9888; <b>Two different measures crossed that line in opposite directions on the same day</b> &mdash; the day&rsquo;s reading went <i>up</i> through it while the 20-day average went <i>down</i> through it. Both are true; they answer different questions. The ending is not a close call: even if protection demand holds at today&rsquo;s level, the average stays below the line for at least ten more sessions on arithmetic alone.</div>
           </div>
-          <span class="status st-stress">FIRED &middot; confirmed</span>
+          <span class="status st-stress">TERMINATED</span>
         </div>
         <div class="ins">
           <span class="kind">Gate</span>
           <div class="ins-body">
-            <div class="in">KB-VIO-090 &middot; credit gate &mdash; <b>SCRAPPED TODAY</b></div>
-            <div class="id2">You approved retiring it. Tested over <b>29 years</b> it fired on <b>95% of all days</b> and did no better than a coin &mdash; it was describing the weather, not warning about it. <b>The replacement I proposed this afternoon failed its own re-test, and I withdrew it.</b> The gate now answers nothing, which is the honest state rather than a gap.</div>
+            <div class="in">Bond-vol re-arm &middot; <b>1 of 2 &mdash; resolves tonight</b></div>
+            <div class="id2">Bond volatility slipped under its line on 13&ndash;14 Aug, then jumped back through on Monday. My rule needs <b>two</b> sessions above to re-arm, so <b>tonight&rsquo;s close decides it.</b> It cleared the higher of the two lines by only <b>0.13</b> &mdash; genuinely marginal, and I will grade it on the number, not on the direction of travel.</div>
           </div>
-          <span class="status st-idle">STUCK</span>
+          <span class="status st-watch">1 of 2</span>
         </div>
         <div class="ins">
-          <span class="kind">Pre-reg</span>
+          <span class="kind">Gate</span>
           <div class="ins-body">
-            <div class="in">KB-VIO-123 · crack-vs-fade tree</div>
-            <div class="id2">Locked 23 Jul, <b>before any of this data existed</b>. Graded after the Fed: the spike showed up on all four <i>shared</i> gauges and on none of the <i>independent</i> ones &mdash; and bond vol broke the wrong way on the day. Verdict: <b>one signal, fade-prone.</b> The tape agreed within a session.</div>
+            <div class="in">Correlation first-tell &middot; <b>0 of 2</b></div>
+            <div class="id2">How much stocks move <i>together</i> &mdash; up <b>25%</b> off its low. That matters because a low reading mechanically <i>suppresses</i> the headline VIX, so part of the calm we&rsquo;ve had was arithmetic rather than confidence. <b>That arithmetic now runs the other way.</b> The trigger needs two closing prints above the line; today&rsquo;s reading is through it but is a mid-session quote, <b>which does not count.</b></div>
           </div>
-          <span class="status st-idle">GRADED &middot; fade</span>
+          <span class="status st-watch">0 of 2</span>
         </div>
         <div class="ins">
           <span class="kind">Alert</span>
           <div class="ins-body">
-            <div class="in">Cheap-tail window &middot; 1 of 4 legs</div>
-            <div class="id2">Fires only when protection is genuinely cheap ahead of a dated event. It got to <b>3 of 4 on 31 Jul</b> &mdash; the closest all episode &mdash; and has since fallen away. Today&rsquo;s SKEW collapse pushed one leg from missing by <i>0.04</i> to missing by <i>13.6</i>.</div>
+            <div class="in">Cheap-tail window &middot; 2 of 4 legs</div>
+            <div class="id2">Fires only when protection is genuinely cheap ahead of a dated event. <b>It read 2 of 4 last Thursday and 2 of 4 Monday &mdash; with not one leg in common.</b> Crash cover crossed <i>into</i> qualifying while vol-of-vol dropped <i>out</i>. Same score, different instrument: a number that repeats is not a state that held.</div>
           </div>
           <span class="status st-idle">DORMANT</span>
+        </div>
+        <div class="ins">
+          <span class="kind">Gate</span>
+          <div class="ins-body">
+            <div class="in">Credit gate (KB-VIO-090) &mdash; still scrapped</div>
+            <div class="id2">You approved retiring it on 4 Aug: over <b>29 years</b> it fired on <b>95% of all days</b> and did no better than a coin. The replacement failed its own re-test and was withdrawn. <b>It still answers nothing, which remains the honest state rather than a gap.</b></div>
+          </div>
+          <span class="status st-idle">STUCK</span>
         </div>
       </div>
 
@@ -287,18 +295,20 @@
       <div class="split">
         <div class="box flag">
           <h4>Position posture</h4>
-          <div class="posture-line">Flat since 30 Jul &mdash; that trade closed &minus;$111.60 (&minus;38.8%)</div>
-          <p>The VIX call spread you approved on 27 Jul closed this morning on its own mandatory dated rule, returning $176.10 of the $287.70 risked. <b>It beat the base case, which was a total loss.</b> None of the five thesis stop-conditions ever tripped &mdash; the trade was ended by the clock, not by the thesis breaking.</p>
-          <p><b>The call was right and the trade still lost.</b> The Fed delivered exactly the spike it was built for, VIX 17.45&rarr;20.88. VIX options settle on a <i>forward</i> price that moves less than the headline number &mdash; at this position&rsquo;s tenor, a bit over half as much. So the position <b>did</b> come good briefly: at Wednesday&rsquo;s close it was through its strike. <b>But nothing in the plan said &ldquo;take profit when it is simply worth more than you paid&rdquo;</b> &mdash; every exit trigger required the move to go <i>further</i> still. It round-tripped, and we sold it lower the next morning. <b>That is a missing rule, not a bad instrument.</b></p>
-          <p><b>No re-entry, and today changed nothing about that.</b> The one thing that might look like an opening &mdash; crash protection at a three-year low &mdash; is the opposite: it removes a piece of the setup I would need, rather than adding one. Nothing changes without your approval.</p>
+          <div class="posture-line">Flat since 30 Jul &mdash; nothing open, nothing to manage</div>
+          <p><b>Unchanged, and nothing this week argues for changing it.</b> The last position closed on its own dated rule at &minus;$111.60 (&minus;38.8%), beating its base case of a total loss. No stop-condition ever tripped; the clock ended it, not the thesis.</p>
+          <p><b>The scorecard on that exit is now settled &mdash; and it went my way.</b> Set <i>before</i> the exit: holding would only have beaten selling if the 5 Aug settlement printed above <b>20.45</b>. It never came close &mdash; the highest VIX traded all day was <b>18.43</b>. So exiting was right, my &ldquo;this fades&rdquo; call was right, and my no-re-entry call was right.</p>
+          <p>&#9888; <b>The part worth your attention is that I graded it 13 days late.</b> It was written down as the single top priority, the answer took two minutes, and nobody came back for it &mdash; because the calendar row carrying the obligation gets deleted when the event fires. <b>Deleting has a trigger; grading didn&rsquo;t.</b> Fixed now with a section that outlives the deleted row.</p>
+          <p><b>No re-entry proposed.</b> Vol is rising, but from a low base, and I cannot yet separate a genuine bid from mechanics around tomorrow&rsquo;s expiry. Nothing changes without your approval.</p>
         </div>
         <div class="box">
           <h4>Next decision points</h4>
           <div class="sched">
-            <div class="ev"><span class="when">Wed 5 Aug</span><span class="what"><b>The scorecard &mdash; tomorrow.</b> Set <i>before</i> the exit: holding would have beaten selling only if the settlement prints above 20.45. From 16.50 that needs a 24% jump overnight. It grades my fade call, <b>not</b> the exit rule.</span></div>
-            <div class="ev"><span class="when">Fri 7 Aug</span><span class="what"><b>Three at once.</b> Jobs report, the positioning print that can finally settle what the yen move actually was, and a credit call I pre-registered at 45% confidence.</span></div>
-            <div class="ev"><span class="when">Wed 12 Aug</span><span class="what">Inflation print &mdash; the next scheduled event big enough to move the vol surface.</span></div>
-            <div class="ev"><span class="when">Wed 16 Sep</span><span class="what">Next Fed decision, with projections &mdash; the next real gate.</span></div>
+            <div class="ev"><span class="when">Tonight</span><span class="what"><b>Two lines resolve on today&rsquo;s close</b>, both sitting one session short: the bond-vol re-arm and the correlation first-tell. I grade both on the letter of the rule.</span></div>
+            <div class="ev"><span class="when">Wed 19 Aug</span><span class="what"><b>VIX August expiry &mdash; tomorrow.</b> &#9888; <b>This is the confound.</b> The near-dated end of the curve jumped 17% two days before a large expiry, and that is <i>as consistent with expiry mechanics as with fear</i>. I have not separated them, and I am not calling it fear until I have.</span></div>
+            <div class="ev"><span class="when">Fri 21 Aug</span><span class="what">Positioning print &mdash; <b>the first one that sees Monday&rsquo;s move.</b> Fast money is short volatility on data that is now five sessions blind. If they are still short into a rising surface, that is a squeeze setup.</span></div>
+            <div class="ev"><span class="when">Fri 11 Sep</span><span class="what">Inflation print &mdash; the next scheduled event big enough to move the vol surface.</span></div>
+            <div class="ev"><span class="when">Wed 16 Sep</span><span class="what">Fed decision with projections, <b>on the same day as the quarterly expiry</b> &mdash; the next real gate.</span></div>
           </div>
         </div>
       </div>
@@ -375,13 +385,13 @@
     </div>
 
     <footer>
-      <span><b>Live values go stale; the structure doesn't.</b> Readings are stamped 4 Aug 2026 after the close &mdash; the vol surface is a settle, credit lags a day, positioning about a week. The instrument definitions, routing, and standing rule stay true between refreshes.</span>
+      <span><b>Live values go stale; the structure doesn't.</b> Readings are stamped 18 Aug 2026 ~09:45 ET. <b>Only VIX has printed today</b> &mdash; every other gauge is Monday's close, credit is 14 Aug, positioning is 11 Aug. Each carries its own vintage rather than being presented as one snapshot. The instrument definitions, routing, and standing rule stay true between refreshes.</span>
       <span><b>Four gauges, one signal.</b> VIX, VVIX, SKEW and term structure all come from the same options market — when they move together that's one opinion, not four confirmations. The independent channels are what make a signal real.</span>
       <span>Internal desk reference. Orientation, not trade instruction.</span>
       <div class="sig">
         <span>VIOLET — Volatility &amp; Term Structure</span>
         <span>Framework v3.9</span>
-        <span>Refreshed 2026-08-04</span>
+        <span>Refreshed 2026-08-18</span>
       </div>
     </footer>
 
