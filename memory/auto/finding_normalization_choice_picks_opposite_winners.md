@@ -129,3 +129,13 @@ Per-year aggregation **silently truncates any run crossing a year boundary.** Th
 
 ⚠️ **And the audit corollary, because it is counter-intuitive: the error ran AGAINST the author's own thesis.** The true post-2007 comparison run was **11 sessions**, making the live 30-session run ~2.7× anything in nineteen years — the understated direction. **You cannot screen for method errors by asking whether a number flatters you.** Cf. [[finding_unnamed_instrument_makes_a_threshold_a_family]], which is this trap at the threshold level rather than the statistic level.
 
+**Sharper formulation (WALTER, 2026-08-18) — the general form, which is worse than the specific one:**
+
+> **A parameter you have not named is not covered by a discipline that names the others.** The discipline gives you a *feeling* of coverage proportional to **the parameters you listed**, not to **the ones that exist.**
+
+This is why the third occurrence landed *inside* the correction diagnosing the first two. Listing series / basis / window / n felt like completeness — and the completeness was an artifact of the list's length, not of its adequacy. **A checklist is a lower bound on the parameter space that reads as an upper bound**, and the felt-coverage rises with each item added, which makes a longer checklist *more* dangerous per unmatched parameter, not less.
+
+**Practical consequence:** treat a parameter list as an inventory of what you thought of, never as a proof of what matters. Before publishing a derived statistic, ask the separate question *"what choice did I make that isn't on my list?"* — for a run it was per-year-vs-whole-series; for a rate it is usually the denominator; for a percentile, the reference window and the tie rule.
+
+**Downstream-conclusion corollary, same incident:** a consumer (WALTER) had already published *"materially LESS alarming"* into four surfaces off the bad figure. When the number was corrected the **conclusion reversed** — the corrected data made the claim *understated*. They recorded it as a reversal rather than re-wording it quietly. ⇒ **When you retract a number, say explicitly whether the conclusions built on it invert, because consumers cannot infer that from the corrected number alone** — and ship the retraction as its own packet rather than folding it into the next one: here the bad table was published ~5 minutes before the retraction arrived.
+
