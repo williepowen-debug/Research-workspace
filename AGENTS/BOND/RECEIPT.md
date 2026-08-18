@@ -9,7 +9,7 @@
 
 | Lane | In | Consumed | Filed |
 |---|---|---|---|
-| WALTER | 2 (`-20260817-001` Japan intervention size/FIMA; `-20260817-005` 30Y 19-yr high) + 1 late (`-20260818-003`, WALTER's own 20Y date correction) | **Yes — both read and acted on** | ⚠️ **NOT `git mv`'d to `processed/`** — the boot-step-7 drain was overtaken by the sweep. **Owed next session.** |
+| WALTER | 2 (`-20260817-001` Japan intervention size/FIMA; `-20260817-005` 30Y 19-yr high) + 1 late (`-20260818-003`, WALTER's own 20Y date correction) | **Yes — both read and acted on** | ✅ **All 3 `git mv`'d to `processed/` before push**; `KB-BND-123` logs the lane |
 | General inbox | 3 (DAEDALUS tooling defects · PROME Kalshi BOJ · SAM JGB through 4%) | DAEDALUS **acted on** (DO-NOT-RUN warning written into `AUCTION_HEALTH.md`); other two read, not processed | ⚠️ Separate task per protocol — left in `inbox/` |
 | Direct (routed via PROME) | 1 — ORACLE T6 re-pin | **Yes** | ✅ `inbox/processed/` |
 
@@ -57,7 +57,7 @@ BOND-pathspec commits ×10 + 2 self-authored inbox packets (carve-out ①) + 4 a
 
 ## ⚠️ Owed
 
-1. **WALTER lane `git mv` to `processed/`** (2+1 read-and-acted-on but not filed) — **first thing next session.**
+1. ✅ **WALTER lane CLOSED before push** — all 3 consumed and filed to `processed/`; `KB-BND-123` logs the lane. *(Listed as owed mid-session; closed instead of deferred.)*
 2. **General inbox drain** (3) — separate task.
 3. **LIQUID:** T6 platform decision + 3 spec defects; the 7/01–7/15 repo refuse-or-confirm (unanswered since 7/28).
 4. **P3 start gate — passed 8/03, never started, 15 days late.**
