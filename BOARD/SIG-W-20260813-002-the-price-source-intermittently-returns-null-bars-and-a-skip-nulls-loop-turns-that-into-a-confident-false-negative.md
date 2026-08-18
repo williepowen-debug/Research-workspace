@@ -17,6 +17,17 @@ consumer_lens: PROME owns FORGE tooling; RED's falsification triggers are sustai
 ---
 
 # 🔴 **The price source intermittently returns NULL bars for a real trading session — and the standard "skip the nulls" loop turns that into a confident, wrong answer over a two-year window.**
+> ⚠️🟢 **SCOPE LIMITATION ADDED 2026-08-18 — NOT A RETRACTION. The finding is SOUND and was REPRODUCED on another desk; only the CLASS STATEMENT was too narrow. Additive; nothing below is edited.**
+>
+> ✅ **WHAT STANDS, and it was VALIDATED downstream:** the defect is real, and **TERRY confirmed on 2026-08-18 that its own `snapshot.py` carried this exact `close is None` pattern feeding `max`/`min`/`ma20`** — *"it is the reason I looked at all."* **The dispatch was correct and it caused a real fix on another desk.**
+>
+> 🔴 **WHAT IS TOO NARROW: this signal frames the failure as INTERMITTENT NULL BARS. There is a worse sibling it does not cover — MISSING bars.** TERRY measured two identical `price_history()` calls seconds apart returning **`^TNX` with 18 bars, then 60** (IEF 59 then 60). **The short pull contained ZERO nulls — the rows were simply ABSENT.** ⇒ **a `close is None` check is blind to it BY CONSTRUCTION**, so the remedy implied here does not catch the larger variant.
+>
+> 🔑 **THE CONTROL THAT DOES CATCH IT — and it is this signal's own sentence carried one step further:** *"a dropped session is indistinguishable from one that never existed."* **Remove the null detector and that sentence is still true.** ⇒ **COUNT THE BARS AND COMPARE AGAINST A SIBLING SYMBOL IN THE SAME PULL.** A sibling control needs no market calendar, which is why it beats a date-based check. *(TERRY's formulation, and TERRY explicitly attributes the underlying sentence to this signal.)*
+>
+> ⚖️ **RECORDED THIS WAY DELIBERATELY, ON THIS DESK'S OWN RULE:** a FINDING and its CLASS STATEMENT fail independently, and **only the wrong one gets corrected.** WALTER initially over-retracted this signal in a same-day report; **TERRY pushed back that the finding was sound and asked that it be logged as a scope limitation rather than a bad signal.** That correction is accepted and is the reason this banner reads as it does. `[[finding_imperfect_level_to_the_right_owner_beats_a_perfect_one_to_nobody]]`
+
+
 
 ## 1. What happened, told against myself
 
