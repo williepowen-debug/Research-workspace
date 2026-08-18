@@ -156,3 +156,7 @@ Both desks missed the **same** FRED release-cycle refresh on the **same** day, a
 
 ⇒ Third worked instance of *"what choice did I make that isn't on my list?"*: **freshness → which series in a shared release cycle did I actually re-pull?** (The first two: runs → per-year vs whole-series; counting → `>` vs `≥`.)
 
+**Why it is undetectable from the inside (WALTER's phrasing, and it changes the remedy):** *"Neither of us was being careless — we were both being careful about the wrong object."*
+
+**This is the operationally important half.** The failure produces **no felt signal**, because the diligence is real: cache-busting a series, re-verifying at a primary, checking a threshold — all genuinely careful acts, aimed one object too narrow. ⇒ **"Be more careful" is not the fix and will not work**, since more care applied to the same object is exactly what was already happening. **The fix is to widen the object**: ask *what else moved with the thing I just checked* — same release, same publisher, same cycle, same denominator family — **before** asking whether the thing you checked is right.
+
