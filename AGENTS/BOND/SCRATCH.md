@@ -6,6 +6,44 @@
 
 ---
 
+> ## ⚠️ SESSION-2 ADDENDUM (~15:00 → ~19:xx ET) — WRITTEN AFTER THE BODY BELOW. Read this first; the body is the sweep, this is what happened after it.
+>
+> **The sweep found stale data. The hours after it found stale METHOD, which was worse and is the part to carry.**
+>
+> ### 🔴 THE ONE LIVE NUMBER
+> **`DFII10` 2.44 [FRED 8/17] — 6bp from the ONLY surviving TLT add-gate, +5bp in two sessions** (2.39 → 2.41 → 2.44). Second-closest approach of the cycle (closest: 2.47, 7/31). **My surfaces carried 2.41 / 9bp for most of the session.** Not stale-carry — **PARTIAL REFRESH**: `DFII10` publishes on the **same H.15 cycle as `DGS30`**, I cache-busted `DGS30` to grade `BND-16` and did not re-pull its neighbour. **Rule: when one series from a release publishes, refresh the RELEASE.**
+> **`BND-15` (70%) is now 6bp from falsification with 8 sessions. FROZEN — not re-priced, and will not be.** If it resolves FALSE it is a real miss on a 70% call. **A single close ≥2.50 falsifies BND-15 but does NOT satisfy the gate (`>2.5 SUSTAINED`), does NOT authorise an add, does NOT displace Will's NO-ADD** — it produces a margin-stated proposal to TERRY, escalated to Will.
+>
+> ### ✅ RESOLVED
+> **`BND-16` TRUE, +3bp** — `DGS30` 8/17 = **5.31**; ^TYX/DGS30 basis printed at **exactly zero**. `DGS30` 2026 max **5.27 → 5.31**; run **30**; days **46**.
+> ⇒ **T6 defect (1) is OVERTAKEN BY THE TAPE, not "still standing"** — the `>5.28` OR-leg is now reachable on the grading instrument. **Provenance criticism survives** (specified off a `^TYX` intraday, Sunday date). 🔴 **FOURTH ambiguity created by the print: "fresh high >5.28%" was unambiguous while 5.28 sat above the max; with the max at 5.31 a 5.29 print is >5.28 but NOT a fresh high, and the band widens as the max rises.** Routed to LIQUID; frozen text untouched.
+>
+> ### 🔴 FOUR SELF-CORRECTIONS, TWO OF THEM AGAINST MY OWN BOOK
+> 1. **"My FRED `DGS30` series starts 2021-08" was FALSE** — it spans **1977, n=12,371**. A `limit=1300` truncation mistaken for the series' origin, **used for weeks to DECLINE verifying Bloomberg's 2007 figure.** Same class as the FR2004 stale series break.
+> 2. **Bloomberg's "50 days in 2007" reproduces EXACTLY on `≥5.00`.** My 47 was `>5.00`. **One character was the whole "unverified" gap.**
+> 3. **Run-lengths: every one I published was wrong** (`458`→**721**, `79`→**92**, `42`→**44**). I computed runs **per-year on `>5.00`** beside day-counts on **`≥5.00` whole-series** — **two conventions in one table**, three hours after writing that convention was the parameter I keep missing. **Retracted to WALTER as a standalone packet.**
+> 4. ★ **The core claim was UNDERSTATED: longest post-2007 run excluding the live one is ELEVEN sessions. The current 30 is ~2.7× anything in 19 years.**
+>
+> ### 🔴 THE FRAMING FACT — promoted to `thesis/THESIS.md` because it cuts against this desk
+> **The 30Y sat continuously ≥5.00% for 5,398 sessions, 1977 → 1998 — ~21.6 years, ~44% of series history, one unbroken block.** ⇒ **"5% is a high long-end yield" is a POST-1998 statement.** Every "19-year high" is true *and* measured against a window excluding the instrument's modal state.
+> ⚠️ **GUARD, and it must travel WELDED to the fact:** that comparison is **NOMINAL** and those were double-digit-inflation years — 5% nominal in 1980 was ~**−9% real**. On the real instrument the ranking **inverts**: `DFII10` 2.44 = **96.7th pctile of its own history**, **99.7th post-2010** vs a **0.52** median. ⇒ **Nominally unremarkable; extreme in real terms. The block RELOCATES the thesis to the real curve — it does not refute it.** Split the pair and you get false alarm or false comfort.
+>
+> ### METHOD LESSONS (the durable output)
+> - **A parameter you have not named is not covered by a discipline that names the others** (WALTER). Felt-coverage scales with the list's **length**, not its **adequacy** ⇒ a longer checklist is *more* dangerous per unmatched parameter. **Ask: "what choice did I make that isn't on my list?"** Three answers found today: runs → per-year vs whole-series · counting → `>` vs `≥` · freshness → which series of a shared release.
+> - **A written guard does not create a habit, and fails first on the artifact that carries it** — n=2, BOND and WALTER, same H.15 cycle, same day, both having written the rule. **"I wrote this down today" is a reason to AUDIT the current artifact, not evidence it complies.**
+> - **Neither of us was careless — we were both careful about the wrong object.** ⇒ **"Be more careful" cannot fix it. WIDEN the object:** ask what else moved with the thing you checked *before* asking whether it's right.
+> - **When retracting a number, state whether the CONCLUSIONS built on it invert** — WALTER's "materially less alarming" reversed on my corrected figures, and they could not have inferred that from the number alone. **Ship retractions as their own packet** (my bad table was live on 4 surfaces for 5 minutes; only luck made it 5).
+> - **My errors cluster in SUPERLATIVES, never ordinary levels** (PROME) — a superlative hides **series · basis · window · counting convention**, and I have now missed each. **State all four IN the sentence; compute at write time.**
+> - ⚠️ **Two of four method errors ran AGAINST my own book ⇒ you cannot screen for method errors by asking whether a number flatters the author.**
+>
+> ### NEWS SWEEP (Will-tasked) — `KB-BND-124…126`
+> **30Y 5.327–5.33 intraday 8/18, still extending** [wire]. **20Y WI ~5.27% — would be the highest since the tenor was reintroduced in 2020.** ✅ **My 8/13 30Y grade externally corroborated to the decimal on the same denominator** — but the wire's *"weaker than 12-month averages"* **does not reproduce** (at/above mean AND median on all three). ⚠️ **DECOY CAUGHT: BofA "Foreign UST demand shows cracks" is JUNE 2025** (`/2025-06-16/`), surfacing against 2026 queries. ★ **AI-hyperscaler issuance ~$225B YTD, ~$400B pace ≈ 25–30% of IG supply** — first quantification of WALTER's uncharted seam; **C3, not read at source, BOND does NOT claim the channel** (VULCAN's).
+>
+> **Position UNCHANGED. Composite UNCHANGED 12/35. Book: `BND-14` + `BND-15` OPEN.**
+>
+> ---
+>
+
 ## 🔴 READ THIS FIRST — the three things that were actually wrong
 
 **1. The August quarterly refunding ($125B, 8/11–8/13) ran UNGRADED and was NEVER ON THE DOCKET.** The quarter's largest supply event. Found by cross-checking a WALTER wire reference against the TreasuryDirect primary. **Now graded (5 days late) and retro-docketed.** ⇒ *A missing docket row is invisible in a way a stale number is not: a stale number eventually looks wrong; a missing event looks like nothing.*

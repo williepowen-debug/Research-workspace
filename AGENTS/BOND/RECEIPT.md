@@ -1,6 +1,6 @@
 # BOND — Run Receipt
 
-**Run:** 2026-08-18 (Tue) ~09:10 → ~15:xx ET · **Trigger:** Will — "boot up", then "make sure we update all our stale data in BOND … core documents one at a time"
+**Run:** 2026-08-18 (Tue) ~09:10 → ~19:xx ET · **Trigger:** Will — "boot up" → full staleness sweep → news sweep · **Two phases:** the sweep (stale DATA) and the hours after it (stale METHOD — 4 self-corrections, 2 against own book)
 **Type:** boot + FULL STALENESS SWEEP of every core document (not a normal closeout)
 
 ---
