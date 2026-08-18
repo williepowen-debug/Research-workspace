@@ -50,7 +50,7 @@ For each file in `inbox/`:
 
 | Trigger | Target | Priority |
 |---|---|---|
-| Treasury auction **composition failure**: indirect <56.4% **AND** dealer >13.2% (of competitive accepted) | LIQUID, ZHAO | 🔴 |
+| Treasury auction **composition failure**: **indirect below the auctioned tenor's OWN trailing-12 MIN _and_ dealer above its OWN trailing-12 MAX** (of competitive accepted) — ⚠️ **re-specified 2026-08-18; this row hardcoded the 7Y's `<56.4% / >13.2%` as if general.** Current per-tenor MIN/MAX: 3Y 53.99/19.50 · 7Y 56.42/13.14 · 10Y 63.95/16.16 · 20Y 55.17/17.59 · 30Y 59.52/17.46 (`KB-BND-120`, re-derive each grade — these drift) | LIQUID, ZHAO | 🔴 |
 | Treasury auction BTC <2.3 **alone** (cover marker, composition intact) | LIQUID, ZHAO | 🟠 — *note explicitly that the mechanism did NOT fail* |
 | ~~tail >2bps~~ | — | ❌ **RETIRED 2026-07-28 — UNSCOREABLE** |
 | Dealer take-down spikes / indirect demand weakens materially | LIQUID, ZHAO | 🟠 |
