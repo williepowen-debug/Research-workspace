@@ -112,12 +112,26 @@ def fmt_pct(x):
 
 
 def hist_stats(rows):
-    """Rows are chronological from fetch.price_history; compute simple chart stats."""
+    """Rows are chronological from fetch.price_history; compute simple chart stats.
+
+    ⚠️ COVERAGE IS PART OF THE RESULT (added 2026-08-18, WALTER SIG-W-20260813-002).
+    Every stat below is an EXTREME or a WINDOW MEAN, and both are corrupted SILENTLY
+    by a hole in the series:
+      - max()/min() silently EXCLUDE the extreme if its bar is missing,
+      - range_loc is derived from that high/low, so a wrong range makes a wrong verdict,
+      - ma20/ma50 divide by the SURVIVING count, so the mean is arithmetically right
+        while the WINDOW IS MISLABELLED - "20d MA" can span 25 calendar days.
+    So we now return n_rows / n_bars / n_nulls / first_date / last_date and let the
+    caller refuse to render a verdict it cannot stand behind. We do NOT interpolate
+    and we do NOT guess: an unmarkable series is reported UNMARKED, never fabricated.
+    """
     if not rows:
         return {}
-    closes = [float(r["close"]) for r in rows if r.get("close") is not None]
+    n_rows = len(rows)
+    usable = [r for r in rows if r.get("close") is not None]
+    closes = [float(r["close"]) for r in usable]
     if not closes:
-        return {}
+        return dict(n_rows=n_rows, n_bars=0, n_nulls=n_rows)
     first, last = closes[0], closes[-1]
     high, low = max(closes), min(closes)
     ret = ((last - first) / first * 100) if first else None
@@ -125,7 +139,53 @@ def hist_stats(rows):
     loc = ((last - low) / (high - low) * 100) if high != low else 50.0
     ma20 = sum(closes[-20:]) / min(20, len(closes))
     ma50 = sum(closes[-50:]) / min(50, len(closes))
-    return dict(first=first, last=last, high=high, low=low, return_pct=ret, range_loc=loc, ma20=ma20, ma50=ma50)
+    return dict(first=first, last=last, high=high, low=low, return_pct=ret, range_loc=loc,
+                ma20=ma20, ma50=ma50,
+                n_rows=n_rows, n_bars=len(closes), n_nulls=n_rows - len(closes),
+                first_date=usable[0].get("date"), last_date=usable[-1].get("date"))
+
+
+# --- Coverage guard -------------------------------------------------------
+# 🔴 THE DEFECT THIS EXISTS FOR, reproduced on this box 2026-08-18:
+# two IDENTICAL price_history() calls seconds apart returned ^TNX with 18 bars and
+# then 60 bars (IEF: 59 then 60) for the same 60-day request. The short pull carries
+# NO nulls - the bars are simply ABSENT - so a `close is None` check cannot see it.
+# Consequence on a live card: the full 60-bar 10Y series has min 4.37; the truncated
+# 18-bar window has min 4.60. A "has the 10Y closed below 4.50?" read off the short
+# series returns NO with full confidence. TRY-FIRE-004's disarm line is 10Y < 4.50.
+# (Registered grading is FRED DGS10, a different fetch path, so the GATE is insulated
+# - the exposure is every range/extreme/sustain read taken off the yfinance path.)
+#
+# METHOD: THE BATCH IS ITS OWN CONTROL. Comparing bar counts across tickers in one
+# pull needs no holiday calendar and no per-symbol expectation - it directly catches
+# "one symbol came back short." An absolute floor backstops single-ticker pulls.
+SHORT_REL = 0.90   # short if under 90% of the best-covered ticker in the same pull
+SHORT_ABS = 0.80   # short if under 80% of the trading days the lookback implies
+
+
+def coverage_flags(histories, days):
+    """Return {ticker: (n_bars, n_nulls, flag)}. flag: '' | 'SHORT' | 'NULLS' | 'NONE'."""
+    stats = {}
+    for tk, h in histories.items():
+        rows = (h or {}).get("history") or []
+        st = hist_stats(rows)
+        stats[tk] = (st.get("n_bars", 0), st.get("n_nulls", 0))
+    if not stats:
+        return {}
+    best = max((b for b, _ in stats.values()), default=0)
+    implied = max(1, int(round(days * 252.0 / 365.0)))
+    out = {}
+    for tk, (bars, nulls) in stats.items():
+        if bars == 0:
+            flag = "NONE"
+        elif (best and bars < SHORT_REL * best) or bars < SHORT_ABS * implied:
+            flag = "SHORT"
+        elif nulls:
+            flag = "NULLS"
+        else:
+            flag = ""
+        out[tk] = (bars, nulls, flag)
+    return out
 
 
 def marker_for_location(loc):
@@ -171,6 +231,21 @@ def run(args):
     histories = price_history(fetch_tickers, days=args.days)
     bench_stats = hist_stats(histories.get(benchmark, {}).get("history", []))
     bench_ret = bench_stats.get("return_pct")
+    cov = coverage_flags(histories, args.days)
+
+    # Printed ALWAYS, not only on defect: a check that speaks only on failure trains
+    # the reader to treat silence as health. Coverage is stated so it can be reviewed.
+    implied = max(1, int(round(args.days * 252.0 / 365.0)))
+    bad = {t: v for t, v in cov.items() if v[2]}
+    line = "  ".join(f"{t}:{v[0]}" + (f"/{v[2]}" if v[2] else "") for t, v in sorted(cov.items()))
+    print(f"DATA COVERAGE (bars returned; ~{implied} trading days implied by {args.days}d)")
+    print(f"  {line}")
+    if bad:
+        print("  \u26a0 SHORT/NULL SERIES — range, extremes and MA verdicts are SUPPRESSED for these.")
+        print("    Non-deterministic truncation is a KNOWN live defect (WALTER SIG-W-20260813-002;")
+        print("    reproduced here 2026-08-18: ^TNX 18 bars then 60 on identical back-to-back calls).")
+        print("    RE-RUN before citing any level off an affected symbol. Do NOT interpolate.")
+    print()
 
     print("PRICE / TAPE")
     print("Ticker     Price      Day chg   Lookback  Rel vs bench   Range loc     Key range")
@@ -186,6 +261,13 @@ def run(args):
         rel = (ret - bench_ret) if ret is not None and bench_ret is not None and t != benchmark else None
         loc = st.get("range_loc")
         range_txt = f"{st.get('low', 0):.2f}–{st.get('high', 0):.2f}" if st else "N/A"
+        # SUPPRESS the derived verdicts on a short/holed series rather than print a
+        # confident wrong one. The PRICE is still fine (a separate live quote call);
+        # it is the range-derived reads that the missing bars corrupt.
+        tflag = cov.get(t, (0, 0, ""))[2]
+        if tflag:
+            loc = None
+            range_txt = f"[{tflag} {cov.get(t, (0,))[0]}b]"
         price = p.get("price")
         price_txt = f"{price:.2f}" if isinstance(price, (int, float)) else "N/A"
         day = fmt_pct(p.get("change_pct"))
