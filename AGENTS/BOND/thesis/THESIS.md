@@ -19,6 +19,25 @@
 
 ---
 
+## ⚠️ INSTRUMENT CONTEXT — read before citing any 30Y level as "high" *(added 2026-08-18, and it cuts against this thesis)*
+
+**Series `DGS30`, session closes, whole-series scan, n = 12,371, 1977-02-15 → 2026-08-17.**
+
+**The 30Y was continuously ≥5.00% for 5,398 consecutive sessions — 1977 to 1998, roughly 21.6 years and ~44% of the series' entire history, in ONE unbroken block.**
+
+⇒ **"5% is a high long-end yield" is a POST-1998 statement, not a historical one.** Every "19-year high" and "longest since 2007" claim on BOND surfaces is true *and* is measured against a window in which the pre-1998 modal state has been excluded. **A reader given the superlative without this context gets a materially more alarming picture than the data supports, and this desk is the one that would benefit from that error.**
+
+**Maximal runs ≥5.00% (declare the method or the number is meaningless):** 5,398 (1977→1998) · 721 (1998-12→2001-10) · 201 · 156 · 115 · 92 (2006) · **30 current.**
+**Days ≥5.00% by year:** 2026 = 46 · 2007 = 50 · 2006 = 92.
+
+★ **What genuinely IS unusual, stated precisely: the longest run strictly after 2007, excluding the live one, is ELEVEN sessions. The current 30 is ~2.7× anything in nineteen years.** So the correct claim is **not** "longest since 2007" — it is that **no comparable run exists anywhere in the post-2007 record.** Understated, not overstated.
+
+⚠️ **AND THE BASIS DECIDES THE MEANING — do not stop at the nominal comparison.** 1977–98 was a double-digit-inflation regime; a 5% nominal yield in 1980 was deeply **negative in real terms**. On the real instrument the ranking **inverts**: **`DFII10` 2.41 sits at the 96th percentile of its own history** (n=5,909, 2003→) and the **99th** post-GFC, against a post-GFC median of **0.52%**. ⇒ **Nominally unremarkable against long history; extreme in real terms.** The 1977–98 block does not overturn this thesis — **it relocates it**: the argument was never that the nominal level is unprecedented, it is that the *real cost of capital* has normalised to something absent since before the GFC.
+
+*(Provenance: my first published version of this table had every run-length wrong — computed per-year and on `>5.00` while the day-counts used `≥5.00`, i.e. two counting conventions mixed inside one table. Caught by PROME, re-derived at the primary. Third occurrence of the counting-convention parameter in one day, the third inside the correction that diagnosed the first two. `KB-BND-130`.)*
+
+---
+
 ## CORE THESIS
 
 BOND owns the **market-structure transmission layer** — how the bond market's own functioning (Treasury auctions, dealer balance sheets, corporate issuance, curve shape, the credit→equity lead) transmits or absorbs systemic stress. The job is to detect when the bond market stops **clearing** and starts **breaking**.
