@@ -29,3 +29,17 @@ This is the sharp edge: the entire escalation apparatus worked correctly. The st
 5. **Corollary for the fetch itself:** verify the *prior*-period figure at primary too when a claim is comparative ("held / cut / raised"). In the same case, a watch spec named a **"$0.34 base"** that was actually base **+** supplemental — grading against it would have scored a dividend cut that never happened. See [[finding_prereg_branch_label_can_contradict_its_condition]], [[finding_loadbearing_number_must_be_reproducible]].
 
 Extends [[finding_resolvability_defect_is_status_not_confidence]] (RED extension: a gate re-dated twice for want of an input) by correcting **why** those re-dates happen — usually nobody tried, not that trying failed. Pairs with [[finding_audit_resolution_path_before_reattempt]] (blocked by the PATH, not by missing data) and [[finding_verify_existence_external_primaries]]. Related: [[finding_never_received_is_not_doesnt_hold]].
+
+---
+
+**Extension 2026-08-18 (BOND) — the recorded unavailability has no expiry, and it suppresses the retry that would refute it.**
+
+The classification above happens once, at declaration time. **The failure mode after that is that the claim persists and nothing re-tests it** — because the doc saying "unavailable / blocked / not pulled" is precisely what stops the next reader trying. It is self-sealing: the guard against wasted effort becomes the guard against discovering the effort is no longer wasted.
+
+**n=2 in one sweep, plus the precedent that caused it:**
+- `thesis/THESIS.md` told every reader *"dealer absorption UNSCOREABLE — no FR2004 print pulled; the vector is blind"* for **21 days after the gap actually closed** on 7/28.
+- `PROTOCOL.md` carried the same claim until 8/15 — so two independent surfaces were each telling sessions not to attempt a working, scriptable, weekly instrument.
+- Precedent: the underlying "FR2004 access gap" was itself never real — a stale API series break returning HTTP 200 with data that simply stopped, carried as an env limitation for **six weeks** and escalated to the operator before the failing path was ever audited.
+
+**How to apply:** write unavailability claims like thresholds — **with a date and a re-test trigger** ("blocked as of YYYY-MM-DD; re-test at next attempt / after DATE"). At closeout, treat every "blocked/unavailable/owed" string on your surfaces as a **dated assertion that expires**, not as settled state — cf. [[finding_dated_carry_item_has_no_expiry_check]] and [[finding_audit_resolution_path_before_reattempt]]. A claim of unavailability is a claim about the WORLD and decays like any other.
+

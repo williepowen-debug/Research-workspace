@@ -54,3 +54,14 @@ A 9-reader Production Review fan-out returned dozens of evidenced findings — a
 
 - **A reader you spawned inherits your trust but not your accountability** — its report arrives formatted like evidence (file:line, hashes) and mostly IS, which is exactly the "rigor in one paragraph does not transfer to the next" tell above. The FP rate was ~3/40, low enough to lull and high enough to bite — and the THIRD one got through: a reader's "WAL's 10-Q frame expires ~8/7-10" was relayed to the coordinator as perishable without checking EDGAR; the filing had landed 7/31, a week earlier. The reader had cited WAL's own expected-window text — a counterparty's expectation about a third party's action, two hops from the primary. Deadlines of the form "when X files/prints" get verified at the FEED, never at the owner's expectation.
 - **⇒ Verify the subset of reader claims that would trigger an ACTION (an edit, a packet, a re-execution) at the target artifact first.** Claims that only feed narrative can ride; claims that move your hands cannot. Same standard both directions — the readers also caught two of the coordinator's own errors (a sign-inverted row note, a 13-day-unkept row promise), so the asymmetry cuts both ways in fan-out mode.
+
+---
+
+**Extension 2026-08-18 (BOND) — when a true FIGURE and a false CLAIM-ABOUT-ANOTHER-DESK arrive fused in one message, verifying the figure feels like verifying the message.**
+
+A router signal read: *"the 20Y auction is Thursday 8/20 … and PROME has it as a promoted adjudicator."* BOND **correctly** disbelieved the date, pulled the Treasury primary, and established the US 20Y is Wednesday 8/19 — then **repeated the attribution to PROME without checking it at all**, and told PROME its row was wrong. PROME's row was a *JGB* 20Y, for which 8/20 is correct; it verified this at the MOF primary while being told otherwise.
+
+**The trap is the fusion.** The message contained one checkable number and one checkable claim about a third party. Checking the number produced a genuine correction, and **the satisfaction of having caught something is what closed the audit** — the second claim rode out on the first one's credibility. Both were "facts in the same sentence"; only one got primary-source treatment.
+
+**How to apply:** when a source is being corrected, **enumerate its claims separately and verify each** — especially the ones about other agents' state, because those are the cheapest to check (read their file) and the most damaging to get wrong (you accuse a peer). **Catching one error in a message raises, not lowers, the prior that it contains others.** Cf. [[finding_fused_true_facts_false_premise]].
+
