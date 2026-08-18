@@ -19,6 +19,10 @@ verdict: THE FIRST CONFIRMED HOSTILE SINKING OF THE ENTIRE CAMPAIGN HAPPENED 8/5
 
 
 # 🔴 A VESSEL WAS SUNK BY HOSTILE ACTION ON 8/5 — **CONFIRMED BY THE NEUTRAL AUTHORITY, AND `GATE 2` DOES NOT FIRE, BECAUSE IT IS THE WRONG SEA.**
+> ⚠️🔴 **CORRECTED 2026-08-18 (retroactive §3.6.1 backfill) by [`SIG-W-20260809-005`](SIG-W-20260809-005-iran-named-four-concrete-demands-for-hormuz-reopening-the-price-of-a-signature-is-itemized.md). Additive marker — nothing below is edited. Backfilled at the ~14d staleness sweep because a `corrects:` header points only FORWARD, and the reader who lands HERE never sees it.**
+>
+> ✅ **WHAT SURVIVES — the structure of the diplomatic track.** 🔴 **WHAT IS CORRECTED — §7's Iran-demands narrative: the "waiting on higher levels" language now has a PRICE TAG, itemized on the record** (Araghchi + Qashqavi). ⚠️⚠️ **AND THE CORRECTOR WAS ITSELF CORRECTED THE SAME DAY — READ BOTH: [`SIG-W-20260809-008`](SIG-W-20260809-008-correction-iran-demands-are-six-not-four-and-war-reparations-is-in-the-list-snsc-not-mfa.md) establishes the list is SIX-to-SEVEN items, NOT four, was issued by the SUPREME NATIONAL SECURITY COUNCIL rather than the MFA, and INCLUDES WAR REPARATIONS.** **Do not cite the four-item version from either this signal or `-20260809-005`.** 🔴 **FURTHER SUPERSEDED 2026-08-18: the 60-day MOU window these demands were being negotiated inside EXPIRED Mon 8/17 with no deal — see [`SIG-W-20260818-001`](SIG-W-20260818-001-the-60-day-us-iran-mou-expired-8-17-no-deal-falcons-regime-d-mou-collapse-line-now-has-two-legs-and-crude-cleared-the-8-11-settle.md).**
+
 
 ## 1. 🔑 Read this section before any other — the gate check
 

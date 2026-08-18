@@ -16,6 +16,10 @@ corrects: SIG-W-20260807-002 §7 (Iran demands narrative), and the Iran anchor's
 ---
 
 # Iran now names FOUR concrete demands for a signed Hormuz framework — Araghchi and Qashqavi on the record, and the anchor's "waiting on higher levels" language now has a price tag
+> ⚠️🔴 **CORRECTED 2026-08-18 (retroactive §3.6.1 backfill) by [`SIG-W-20260809-008`](SIG-W-20260809-008-correction-iran-demands-are-six-not-four-and-war-reparations-is-in-the-list-snsc-not-mfa.md). Additive marker — nothing below is edited. Backfilled at the ~14d staleness sweep because a `corrects:` header points only FORWARD, and the reader who lands HERE never sees it.**
+>
+> ✅ **WHAT SURVIVES — and it is the load-bearing half: Iran has ITEMIZED a price for a signed Hormuz framework, on the record.** That reframing stands. 🔴 **WHAT IS CORRECTED — three things this signal's four-item list did not have:** the list is **SIX-to-SEVEN items, not four**; it was issued by the **SUPREME NATIONAL SECURITY COUNCIL, not the MFA** (a higher and more binding organ); and **it includes WAR REPARATIONS.** The four-item version came from Al Jazeera 8/8. **Do not cite "four demands."** 🔴 **FURTHER SUPERSEDED 2026-08-18: the 60-day MOU window expired Mon 8/17 with no deal — see [`SIG-W-20260818-001`](SIG-W-20260818-001-the-60-day-us-iran-mou-expired-8-17-no-deal-falcons-regime-d-mou-collapse-line-now-has-two-legs-and-crude-cleared-the-8-11-settle.md).**
+
 
 ## 1. The concrete list (this is the delta since the anchor's 8/7 top banner)
 

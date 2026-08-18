@@ -15,9 +15,16 @@ corrects: SIG-W-20260716-002
 confidence: 0.60
 verdict: CORRECTED-FRAMING
 narrative_channel: state-domestic
+status: SUPERSEDED
+status_ref: SIG-W-20260818-001 (the 60-day MOU expired 2026-08-17)
+status_date: 2026-08-18
 ---
 
 # ⚖️ **Two days after we recorded the MOU "FORMALLY REPUDIATED," the Supreme Leader invoked it as a live instrument the US was breaching.** Not a contradiction — but a materially different repudiation from the one our record implies, and it bears on a FALCON flip.
+> ⚠️🔴 **`SUPERSEDED` — tagged 2026-08-18 (staleness sweep, cadence run; ref: SIG-W-20260818-001 (the 60-day MOU expired 2026-08-17)). Additive marker, nothing below is edited.**
+>
+> 🔴 **THIS SIGNAL'S CENTRAL OBJECT NO LONGER EXISTS: THE MOU EXPIRED.** Its finding was that the Supreme Leader invoked the MOU as a **LIVE instrument the US was breaching**, which is a materially different repudiation from the one our record implied. **On Monday 2026-08-17 the memorandum's 60-day negotiation window RAN OUT with no deal, and Trump will not extend** — see [`SIG-W-20260818-001`](SIG-W-20260818-001-the-60-day-us-iran-mou-expired-8-17-no-deal-falcons-regime-d-mou-collapse-line-now-has-two-legs-and-crude-cleared-the-8-11-settle.md). ✅ **WHAT SURVIVES — and it is now sharper, not weaker.** The distinction this signal drew (repudiated-as-conditional vs invoked-as-live) was the reason the FALCON Diplomacy flip could not be adjudicated on the wording. **That wording question is now MOOT in the most useful way: the MOU did not have to be withdrawn or repudiated — it ran out.** FALCON's Regime-D **"formal MOU collapse"** line accordingly has **two independent legs** (the 7/13 repudiation and the 8/17 expiry). **FALCON adjudicates; WALTER does not.**
+
 
 ## 1. What is actually being corrected
 

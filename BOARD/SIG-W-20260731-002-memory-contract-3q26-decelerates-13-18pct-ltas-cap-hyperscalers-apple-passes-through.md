@@ -18,6 +18,10 @@ verdict: CONFIRMED-PRIMARY-AND-CORPORATE-DISCLOSURE
 
 
 # 🧠 THE MEMORY CYCLE IS STILL UP AND HAS STOPPED ACCELERATING — 3Q26 server DRAM contract +13-18% QoQ against 2Q26's +58-63%, with TrendForce naming the cause as **CONSUMER demand weakening**, hyperscalers **shielded by long-term agreements**, and Apple **paying up and passing it to consumers on 14 products**. `VULCAN-02` stands (no roll). The STATUS characterization "accelerating UP" does not.
+> ⚠️🔴 **CORRECTED 2026-08-18 (retroactive §3.6.1 backfill) by [`SIG-W-20260731-010`](SIG-W-20260731-010-the-lta-split-traded-friday-and-the-memory-seller-fell-too.md). Additive marker — nothing below is edited. Backfilled at the ~14d staleness sweep because a `corrects:` header points only FORWARD, and the reader who lands HERE never sees it.**
+>
+> ✅ **WHAT SURVIVES — the LTA-split mechanism, and it TRADED:** hyperscalers up hard (AMZN +15.32% · GOOGL +6.73% · META +3.28%), the non-LTA buyer down. 🔴 **WHAT IS CORRECTED — §3's *"AAPL slid on the call."* It closed −7.35%**, and "slid" understates a rout in the largest company in the world. ⚠️ **AND IN THE OTHER DIRECTION: do NOT propagate the wires' "Apple tanked 10%"** — own `fetch.py` close is **−7.35%**; the 10% is an intraday low quoted as the day. ➕ **A CHANNEL THIS SIGNAL DID NOT CARRY:** the shortage *lowered PRODUCTION*, not only raised cost — **a QUANTITY channel beside the price/cost one, different damage and different duration.** 🔑 **And the part worth most: the memory SELLER fell too (MU −5.90%)**, which this signal's framing does not anticipate.
+
 
 ## 1. The number VULCAN does not have
 

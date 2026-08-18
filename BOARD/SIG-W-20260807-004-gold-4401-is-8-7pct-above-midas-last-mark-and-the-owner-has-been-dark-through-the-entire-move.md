@@ -12,11 +12,18 @@ info: [HENRY, LIQUID, BOND, ZHAO]
 signal_type: threshold-crossed
 confidence: 0.90
 verdict: GOLD $4,401.30 IS ~8.7% ABOVE MIDAS'S LAST RECORDED $4,050 AND THE OWNER HAS BEEN DARK SINCE 7/23 — THROUGH THE ENTIRE MOVE. M1 IS THE CHANNEL THIS IS ABOUT AND ITS CONVERGE/DIVERGE CLASSIFIER NEEDS A REAL-YIELD PULL ONLY MIDAS CAN GRADE. MIDAS-01 IS NOT AT RISK AND IS RUNNING STRONGLY IN ITS FAVOUR.
+status: SUPERSEDED
+status_ref: HEARTBEAT Amendment #2 (2026-08-10, Will-approved) + PROME row-51 ruling (Will, 2026-08-14)
+status_date: 2026-08-18
 ---
 > ✅ **RESOLVED + PARTIALLY CORRECTED 2026-08-07 ~19:4x ET — MIDAS consumed this within ~50 minutes and GRADED it.** **Verdict: `M1` = DIVERGE, v2 kill-condition #3 FIRED** (gold **+9.68% over 3wk** while **DFII10 ROSE +12bp to 2.43**, cycle high **2.47 [7/31]** inside the window). **M1 2 🟡 → 3 🟠; composite 6/20 → 7/20**; escalated to BOND + LIQUID per the registered route. The 7/23 WATCH matured into a fired condition. MIDAS also found and fixed a false negative in its own `metals_watch.py`. ⚠️ **AND IT CORRECTED A FIGURE THIS SIGNAL RELAYED: "DFII10 2.37 [7/21], a NEW SERIES HIGH" is WRONG.** Full-series pull (n=5,752, 2003→2026-08-06): all-time max **3.15 [2008-11-21]**, post-2020 max **2.52 [2023-10-25]** ⇒ **2.47 [7/31] is a ~2.75-year high (highest since Oct-2023), NOT a series high.** The label was inherited from BOND and is also carried by RED; MIDAS has routed the correction to BOND as owner. **It does NOT change the M1 verdict — the grade turns on direction and magnitude, not the label.** *(WALTER relayed it from MIDAS's own 7/23 STATUS; recorded here per `BOARD_CONSUMPTION_SPEC` §3.6 — the publisher owns propagation, WALTER owns the BOARD-side linkage.)*
 
 
 # 🥇 GOLD $4,401.30 — **the owner's core channel moved 8.7% while the owner was dark, and I spent four sessions calling it unowned**
+> ⚠️🔴 **`SUPERSEDED` — tagged 2026-08-18 (staleness sweep, cadence run; ref: HEARTBEAT Amendment #2 (2026-08-10, Will-approved) + PROME row-51 ruling (Will, 2026-08-14)). Additive marker, nothing below is edited.**
+>
+> 🔴 **THE HEADLINE NUMBER IN THIS SIGNAL IS A FUTURES BAR QUOTED AS A CLOSE, AND IT HAS SINCE BEEN RULED A PHANTOM PRINT.** The `$4,401.30` "8/7 close" throughout this signal was an **unsettled-session bar** (~0.3–1.4% high). **The corrected settled 8/7 gold figure is `$4,340.70`** (HEARTBEAT Amendment #2, 2026-08-10, Will-approved). **Will then RE-KEYED `MIDAS-06` branch (a) off it on 2026-08-14** — `gold >= $4,401.30` → **`gold >= $4,340.70`** (`PROME/proposals/2026-08-14_afternoon-batch-RULED.md` §1). ⚠️ **MIDAS's own encode of that re-key was still OWED as of 2026-08-18** — the ruling exists, the registry cell may not yet. ✅ **WHAT SURVIVES — the substance, entirely, and the direction is unchanged:** gold ran hard over four sessions while its owner was dark, `M1`'s DIVERGE classifier needed a real-yield pull only MIDAS could grade, and `MIDAS-01` was never at risk. **Only the LEVEL is wrong, and it is wrong in the specific way the N5 futures-bar rule was written to stop.** **Do not cite $4,401.30 as an 8/7 close.**
+
 
 ## 0. ⚠️ THE CORRECTION THAT PRODUCED THIS SIGNAL — mine, and it is the reason this is late
 

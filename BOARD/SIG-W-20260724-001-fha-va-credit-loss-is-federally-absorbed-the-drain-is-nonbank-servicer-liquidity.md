@@ -22,6 +22,10 @@ dispatch_note: The prompt's `deliver_by` (7/14, ahead of the 7/16 bank prints) h
 ---
 
 # FHA/VA credit loss is FEDERALLY ABSORBED — kill the bank-LGD channel; the surviving transmission is a servicing-advance LIQUIDITY drain on NONBANK Ginnie servicers
+> ⚠️🔴 **CORRECTED 2026-08-18 (retroactive §3.6.1 backfill) by [`SIG-W-20260724-007`](SIG-W-20260724-007-bku-is-the-one-fl-bank-that-must-not-be-switched-off-repoint-dont-drop.md). Additive marker — nothing below is edited. Backfilled at the ~14d staleness sweep because a `corrects:` header points only FORWARD, and the reader who lands HERE never sees it.**
+>
+> ✅ **WHAT SURVIVES — the VERDICT, and it is STRENGTHENED.** 🔴 **WHAT IS CORRECTED — the SUPPORTING EVIDENCE, and it inverts one action.** This signal's load-bearing sentence — *"documented current bank EBO balances are immaterial — Wintrust $187.8M vs a multi-billion equity base"* — is **FALSE as a general claim.** **BKU (BankUnited) holds $851M of Buyout Loans ($883.4M gov-insured) plus an $877M warehouse (+40% YoY) = ~58% of equity combined — ~4.5× Wintrust in DOLLARS and ~20× relative to EQUITY.** ⇒ **BKU must NOT be switched off — RE-POINT it.** SSB, SBCF and AMTB are clean and do drop (AMTB keeps a disclosure-gap watch). **Origination share was the wrong metric, and BKU is the proof.**
+
 
 **WALTER routes + extracts the per-recipient delta — this is NOT WALTER re-analysis.**
 

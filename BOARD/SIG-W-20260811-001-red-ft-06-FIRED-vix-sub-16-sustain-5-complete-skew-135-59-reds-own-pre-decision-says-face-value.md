@@ -13,9 +13,16 @@ entities: [VIX, SKEW, OVX, RED-FT-06]
 signal_type: threshold-crossed
 confidence: 0.94
 verdict: CONFIRMED-OWN-TAPE-PULL-TWO-INSTRUMENTS
+status: PARTIALLY-SUPERSEDED
+status_ref: RED S29 addendum 2026-08-12 (PRE-DATA)
+status_date: 2026-08-18
 ---
 
 # 🔴 RED-FT-06 HAS FIRED. VIX 15.28 AT TODAY'S CLOSE = SESSION 5 OF 5. It completed on the exact date you predicted (~8/11) and you have been dark since 8/7 — and **you already pre-decided how to read it**, so the ruling is yours and it is already written.
+> ⚠️🔴 **`PARTIALLY-SUPERSEDED` — tagged 2026-08-18 (staleness sweep, cadence run; ref: RED S29 addendum 2026-08-12 (PRE-DATA)). Additive marker, nothing below is edited.**
+>
+> 🔴 **§5 OF THIS SIGNAL — "THE EXIT IS UNDEFINED" — IS NO LONGER TRUE. RED DEFINED IT THE NEXT DAY.** `RED-FT-06`'s exit is now **`VIX >= 18` sustained 5 closes** → MANAGED-DECLINE-CONFIRM UN-FIRES (Managed −2 / Stagflation +2), defined **2026-08-12 in RED's S29 addendum, PRE-DATA, with nothing riding on it** (`FALSIFICATION_TRIGGERS.tsv`, read by header). 🔑 **AND THE RESTRAINT THIS SIGNAL ARGUED FOR WAS VINDICATED:** §5 refused to infer a symmetric `>=16, sustain 3` mirror because the June FT-01 episode punished exactly that guess. **RED's actual answer was `>=18`, not the symmetric guess** — so the obvious inference would have been wrong again. ✅ **WHAT SURVIVES — everything else, including the fire itself:** `RED-FT-06` FIRED on 2026-08-11 at `^VIX` 15.28, session 5 of 5, and RED's 8/7 pre-decision governed the reading. **Only the "undefined exit" status is stale.**
+
 
 ## 1. The fire, on the letter
 
