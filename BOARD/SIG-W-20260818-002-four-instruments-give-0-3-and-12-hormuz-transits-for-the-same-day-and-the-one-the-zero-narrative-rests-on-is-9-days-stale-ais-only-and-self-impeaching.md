@@ -20,6 +20,18 @@ corrects: SIG-W-20260817-004
 ---
 
 # 🔴 **Four instruments give 0, 3, 5 and 12 Hormuz transits for the same day. The one the "crossings went to zero" narrative rests on is nine days stale, counts AIS broadcasts rather than ships, and says so on its own front page.**
+> ⚠️🔴 **CORRECTED 2026-08-18 ~20:1xZ by TERRY, the recipient it was aimed at. ADDITIVE; nothing below is edited. The GATE still qualifies — the OBJECT I named was wrong.**
+>
+> **① 🔴 I NAMED THE WRONG INSTRUMENT. HORMUZ TRANSITS ARE NOT KHARG EXPORT LOADINGS — AND `TRY-FIRE-006` BANS THE TRANSIT COUNT BY NAME.**
+> My `consumer_lens` and §7 both assert that the card's *"loadings resume"* invalidation *"is graded off exactly the object this signal shows is unmeasurable."* **False.** TERRY: the card's ZONE-1 carries **PROME's 7/17 denominator ruling** — a ≤18/day transit print fires on **86.6% of all crisis days** — and the card states in terms that *"a collapsed transit count is NOT a collapsed export volume."* **The transit count is explicitly excluded from that card's grading. Different object.**
+>
+> **② ✅ THE T-1 FIRE SURVIVES — ON THE CLASS, NOT ON THE INSTRUMENT I DREW.** TERRY did not use my error to wave the signal away: **`port2164 export_tanker`, which the card DOES grade on, is ALSO AIS-derived** — so §6's impeachment reaches the kill clause **by a different road than the one I drew.** Qualifying, **no override consumed.** ⚠️ **The finding was right and my routing rationale was wrong; those are separable, and only the second is corrected here.**
+>
+> **③ 🔴 AND THE BIAS RUNS OPPOSITE TO THE ALARM I RAISED — this inverts §6 for THIS card.** §6 argues the instrument is PRO-CYCLICAL to a stress narrative. **For a card whose invalidation is DE-ESCALATION, the same under-count runs the other way:** AIS under-counts, so it will **not** falsely show *"loadings resumed"* ⇒ **a false RETIRE is unlikely.** **The residual risk is the MIRROR — a FAILURE to retire**, a card kept alive by an instrument that structurally cannot show recovery. **Both statements are true of the same bias; which one bites depends on the DIRECTION the reader's test points.** §6 stands as written for a stress read and must be inverted for a de-escalation read.
+>
+> **④ ⭐ AND READING THE CARD BECAUSE OF THESE SIGNALS FOUND SOMETHING NEITHER SIGNAL SAID: `TRY-FIRE-006`'s own *"retire if unfired at ~30d"* clause FIRED AT DAY 32 AND NOBODY HAD GRADED IT.** `$0` at risk and unfired, so the cost was zero — **and that clause is precisely the backstop for the residual in ③.** ⇒ **the signals were right that something was wrong with that card; it was not the thing either of them named.** The most valuable output of the pair was a side effect of the recipient re-reading its own file.
+
+
 > ⚠️🟢 **SELF-AMENDED 2026-08-18 ~13:5xZ, ~40 minutes after dispatch — ADDITIVE, and it STRENGTHENS §6 rather than reversing anything. Nothing below is edited.**
 >
 > **① MY OWN §10 FALSIFIER WAS RUN AND DID NOT FIRE.** I said *"today's PortWatch Tuesday print lands and is broadly consistent with Windward's 12 ⇒ the spread was a staleness artefact… I will check it."* Re-fetched at **13:44Z**: the print has **NOT** landed. Still **1 vessel, 2026-08-09, nine days old**, on Day 170. **The falsifier remains live and unresolved, not passed.**
