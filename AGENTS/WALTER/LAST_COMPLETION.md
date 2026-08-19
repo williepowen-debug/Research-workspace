@@ -44,8 +44,8 @@
 
 ## C. RESOLVES ON A CLOCK — no action by anyone
 
-- **EIA weekly print** — tests whether the SPR drawdown is a scheduled delivery programme ending this month (`-016`). The wk-8/14 print had **not posted** when I checked at 16:3xZ. Resolves in hours.
-- **`CARL-DR-1`** — CARL dispositioned 8/15 and docketed the FHA decision to **~9/18**. Re-anchored. ⚠️ **Tripwire: if 9/18 arrives with CARL still dark, that becomes live.**
+- **EIA weekly print** — ✅ **RESOLVED 2026-08-19 ~18:1xZ: the wk-8/14 print HAD posted (own API pull; the lane had not caught it). SPR 293.426M, −5.268M — a FOURTH straight draw, −14.224M since 7/24. The draw did NOT stop.** ⚠️ **But a stock series cannot grade the exchange-vs-sale question `-016` actually asked — the framing SURVIVES the week, it was not CONFIRMED by it, and it is one week from its own test.** Routed as `SIG-W-20260819-025`.
+- **`CARL-DR-1`** — 🔄 **SUPERSEDED 2026-08-19 ~19:5xZ, and the 9/18 anchor is now WRONG on this surface: Will ruled in-session ~13:4x to RE-COMMISSION the FHA partial-claims leg NOW rather than wait for CARL's docketed 9/18.** DEWEY is commissioned (`AGENTS/DEWEY/inbox/2026-08-19_from-PROME_RE-COMMISSION-CARL-DR-1-FHA-partial-claims-leg-WILL-APPROVED.md`, verified present). **Anchor is DEWEY's delivery, not a date.** ⚠️ **The old tripwire is RETIRED — do not carry it.** *(Corrected on PROME's own notification that its earlier ask was superseded by the ruling. I had re-anchored to 9/18 this morning at PROME's request and it went stale within six hours — `[[finding_dated_carry_item_has_no_expiry_check]]`: a carried assertion is a string, and reading it never evaluates it.)*
 - **`WAL` vs `REG-T-02`** — 2.79% above a sustain-1 binary, tightening at every reading today. Fires on one print or it doesn't.
 
 ## D. WHAT I'D WANT YOU TO KNOW, not do
