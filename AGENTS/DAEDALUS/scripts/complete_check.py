@@ -104,9 +104,26 @@ def main():
                   f"none in its header (expected {prefix}.md or a pointer — PAT-100 inverted-pair class)")
 
     # Leg (i) — claim enumeration (judgment walk-list; never gates rc)
+    #
+    # ⚠️ AUTHORSHIP, not merely "touched". This leg exists to surface MY OWN
+    # self-asserted side effects. An INBOUND packet is someone else's claim, and
+    # `git mv`-ing it to processed/ makes it look like a doc I wrote this session.
+    # Measured 2026-08-19: ALL SEVEN flagged claims were PROME's and WALTER's,
+    # surfaced purely because I filed their mail. That is a false-attribution
+    # bug, and it is also how the walk-list inflates into the un-dischargeable
+    # backlog WALTER flagged (2026-08-17): a list mostly made of other people's
+    # sentences cannot be discharged by me, so it gets scrolled past — and a
+    # permanently-red list is silent-green inverted.
+    # Inbound lives at inbox/ (root or processed/) and is EXCLUDED; what I author
+    # into someone else's inbox is under THEIR path, not AGENTS/DAEDALUS/, and so
+    # was never in scope here anyway.
+    def mine(f):
+        return "/inbox/" not in f
+
     claim_files = sorted({f for c in commits
                           for f in sh(["git", "show", "--name-only", "--pretty=", c]).splitlines()
                           if f.startswith("AGENTS/") and any(s in f for s in CLAIM_SCOPE)
+                          and mine(f)
                           and f.endswith(".md") and os.path.exists(os.path.join(repo, f))})
     claims = 0
     for f in claim_files:
