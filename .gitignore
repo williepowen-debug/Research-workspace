@@ -67,4 +67,8 @@ AGENTS/SHADE/research/tmp_aaia_extract/venv/
 
 # Sensitive material removed in the 2026-06 public-prep scrub — keep it out for good
 WILL/trading-journal/
+# Will-personal local-only zone (Will-directed 2026-08-18, in-session) — never pushed.
+# Machine-local by construction: does NOT travel desktop<->laptop. Inventory pointer
+# lives in PROME/MACHINE_LOCAL.md per the gitignored-AND-boot-surfaced pairing rule.
+WILL/private/
 *.pkl
