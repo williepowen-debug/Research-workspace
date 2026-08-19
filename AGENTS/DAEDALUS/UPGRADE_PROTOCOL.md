@@ -32,6 +32,14 @@ Flow per agent: **COMPREHEND (profile) → DECOMPOSE (upgrade card) → SECTION-
 >
 > **Reader-ops floor (measured, 10-of-12 across three fan-outs):** readers idle holding their results even with an explicit deliver-before-idle instruction in the prompt. **The instruction does not work; the chase does.** A fan-out is not complete when the spawns return — chase every silent reader.
 
+> **★ RUN THE SUBJECT'S GUARDS — BOTH DIRECTIONS — RATHER THAN READING ITS VALIDATION CLAIMS (adopted 2026-08-19, VIRGIL review; the highest-yield hour of that session).** `CHECK_STANDARD` §3 and the charter's ★ rule are written **self**-directed — *don't ship your own guard unverified*. Point them **outward** at the agent under review: a validation claim in a doc is a claim, and executing it is usually minutes.
+>
+> **The one-direction trap:** "66 tests, validated 66/66" was TRUE, and proves only that the reference agrees with the tests. **It says nothing about whether the tests catch a wrong answer.** The second run — 66/66 **fail** on the stub — is what establishes the instrument DISCRIMINATES, and it is the run nobody documents. Ask of any subject's check: *what does its PASS prove, and what did I watch FAIL?* (PAT-074, applied outward.)
+>
+> Three more from that session, all cheap: **(a)** a claimed redundancy/backup mechanism — check it has actually RUN (artifacts on disk), not merely that it exists; **(b)** a claimed downstream CONSUMER — grep for it, because a phantom reader named in two files is indistinguishable from a real one *(VIRGIL: no such consumer existed, and a third file asserted the opposite)*; **(c)** a teardown/reset path — the state it leaves behind decides whether the NEXT run is valid, and a silently-invalid run poisons the ledger it feeds.
+>
+> ⚠️ **Expect to be wrong sometimes and record it.** I predicted VIRGIL's harness would render a silent `0/0` on a broken module; it renders `0 passed, 4 errored` and is never falsely green. **A refuted hypothesis about the subject is a result — write it beside the confirmed ones**, or the review reads as uniformly damning and its confirmed findings get discounted with it.
+
 ## The section-task lifecycle (7 steps)
 
 For one agent, one blueprint section (operating against the Profile from Step 0):
