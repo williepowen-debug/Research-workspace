@@ -31,11 +31,14 @@
 |---|---|---|---|---|
 | 1 | **CREED** | Rule on `CREED-T-02` — the arithmetic, the dating and five source PDFs are in its hands | Its ruling. Also: does it want a WALTER-side fire-ledger? | 🔴 **dark 6d, and it holds a MET condition + the 9bp gate** |
 | 2 | **DAEDALUS** | The fleet gate-registry question (only 3 desks machine-readable) | Its answer — it has named the packet READ-NOT-STARTED so it can't rot | 🟢 live tonight |
-| 3 | **DAEDALUS** | FERT charter + benchmark row (older item) | One edit landing both together | 🟢 live |
+| 3 | **DAEDALUS** | FERT charter + benchmark row (older item) | One edit landing both together | 🟢 live — ⚠️ **BUT NOTHING IS WAITING IN ITS INBOX: all three asks (PROME ×2, WALTER 8/18) are in `processed/`. It has READ them and the deliverable is outstanding. A consumed ask generates NO boot-time prompt, so this is tracked HERE and nowhere in DAEDALUS's own boot path.** Not re-sent — a duplicate into a live desk mid-work is noise. |
 | 4 | **RED** | Is `^SKEW` re-crossing 140, and what is the grading basis? | One ruling | 🟡 |
 | 5 | **SAM** | EM-carry scope — a refusal is a clean answer | One line | 🟡 |
 | 6 | **HANS** | Does it take the UK/gilts leg? If no, reverts to BOND | One line | 🔴 dark 34d |
-| 7 | **BRENT / FALCON** | Transit-instrument disposition + the six-value pre-war baseline | Pick ONE vendor and get its methodology — not another number | 🟡 |
+| 7 | **LIQUID · ZHAO** | One scope line each on their newly-assigned lanes | A line in each charter | 🟡 LIQUID · 🔴 ZHAO dark 16d. **Both have the 8/18 packet WAITING in their WALTER lane.** ⚠️ **This row was DROPPED when I rewrote this list for Will and restored on his own check — see the note below.** |
+| 8 | **BRENT / FALCON** | Transit-instrument disposition + the six-value pre-war baseline | Pick ONE vendor and get its methodology — not another number | 🟡 |
+
+⚠️ **THIS TABLE WAS WRONG WHEN FIRST WRITTEN, AND WILL'S QUESTION FOUND IT.** He asked whether the owed desks actually have packets waiting. Checking the target inboxes rather than my own record produced two corrections: **(1)** the DAEDALUS/FERT ask is **CONSUMED, not waiting** — a different state, and one with no boot-time prompt behind it; **(2)** I had **DROPPED the LIQUID/ZHAO row entirely** while rewriting this list to be more readable. **A list rewritten for legibility lost an item, which is the exact failure the rewrite was supposed to prevent.** `[[finding_record_of_an_action_is_not_the_action]]` — my "owed by X" line is a record ABOUT an ask, not the ask.
 
 **I am not chasing these.** Several desks are dark, and packets into dark inboxes generate work nobody reads.
 
