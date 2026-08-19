@@ -68,8 +68,13 @@ APPEND_ONLY = re.compile(r"(CHANGELOG|_LOG|LOG)\.(md|tsv)$|\.tsv$", re.I)
 #  defect of one family found in this instrument in one run: "which date belongs to the surface?"
 ENTRY_HEADING = re.compile(r"^#{2,4}\s+.*$", re.M)
 #  EVENT logs fill ONLY when the world does something. Age measures the WORLD, not the surface, so
-#  an old one is not rot — WALTER's FALSIFICATION_FIRED_LOG has 3 rows and no fire since 2026-06-04,
-#  which is a fact about triggers not firing. Flagging it would punish a correctly-quiet ledger.
+#  an old one is not rot — flagging it would punish a correctly-quiet ledger. The REASONING stands;
+#  the example it used to cite did not. It read "WALTER's FALSIFICATION_FIRED_LOG has 3 rows and no
+#  fire since 2026-06-04" — FALSE since 2026-08-11, when RED-FT-06 fired at ^VIX 15.28 (session 5 of
+#  5, dispatched SIG-W-20260811-001) and its row went into that very file. WALTER caught it 8/18.
+#  Behaviour never depended on it (this classifies by FILENAME, not row count), so it was a stale
+#  ASSERTION inside the tool that audits staleness — [[finding_dated_carry_item_has_no_expiry_check]].
+#  Cite the MECHANISM, not a countable fact about someone else's live ledger, or the comment rots.
 EVENT_LOG = re.compile(r"(FIRED|FIRE)_?LOG", re.I)
 
 # 2026-08-17 (SAM review): banner FORM, not bare word — a live thesis NARRATING a channel
@@ -89,9 +94,23 @@ TODAY = date.today()
 
 
 def read(p, limit=None):
+    # When taking a HEADER window, skip a leading '#' comment preamble first, so
+    # the window covers `limit` lines of actual CONTENT. Several fleet surfaces
+    # front-load a documentation banner (WALTER's FALSIFICATION_FIRED_LOG carries
+    # 7 such lines, added on my own 6c array audit; its STALENESS_SWEEP_*.tsv
+    # records use the same convention) — without this, the preamble eats the
+    # window and a real stamp below it reads as UNSTAMPED. A false NEGATIVE, and
+    # silent. Raised by WALTER 2026-08-18. Blank lines inside the preamble are
+    # skipped with it; the first non-comment, non-blank line starts the window.
     try:
         with open(p, encoding="utf-8", errors="ignore") as f:
-            return "".join(f.readlines()[:limit]) if limit else f.read()
+            lines = f.readlines()
+        if limit:
+            i = 0
+            while i < len(lines) and (not lines[i].strip() or lines[i].lstrip().startswith("#")):
+                i += 1
+            return "".join(lines[i:i + limit])
+        return "".join(lines)
     except OSError:
         return ""
 
