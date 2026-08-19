@@ -81,9 +81,23 @@ The fire day will almost certainly be a **violent GREEN day** (oil gapping up = 
 
 ### Invalidation / kill / confirm
 - **Invalidation (thesis):** de-escalation confirmed — the Muscat/Oman Article-5 safe-passage mechanism executes (RED estimates this branch **~5–10%**) → Kharg loadings resume, the supply-loss premise dies → **RETIRE the card.**
+  > 🔧 **RE-SPEC'D 2026-08-18 (TERRY) — the July inversion fixed the FIRE side of this instrument and left the RETIRE side standing. A guard fixed on one side reads exactly like a guard on every side.**
+  >
+  > **The general form, which the 7/18 inversion implied but never stated: the AIS bias is ONE-DIRECTIONAL (it under-counts), therefore ⇒ a NONZERO print is TRUSTWORTHY and a ZERO print is WORTHLESS — in BOTH directions of use.**
+  >
+  > | AIS/PortWatch print | on the FIRE side | on the RETIRE side |
+  > |---|---|---|
+  > | **NONZERO / recovering** | ✅ **strong — VETOES a fire** (flow is demonstrably continuing) | ✅ **strong — SUFFICIENT to retire.** If the ~90%-blind instrument can *see* loadings, they are genuinely there. |
+  > | **ZERO / no visible loadings** | 🔴 **worthless — can NEVER cause a fire** (it prints zero in normal months: Jan/May/Jul-2026) | 🔴 **worthless — can NEVER keep this card alive.** |
+  >
+  > 🔴 **THE RESIDUAL THIS CLOSES — "FAILURE TO RETIRE":** the old wording let a **zero print** function as implicit evidence the strand persisted, so loadings could genuinely resume while the card rode on a dead premise. **Absence of visible resumption is NOT evidence of continued strand.** ⇒ **RETIRE grades on: a nonzero/recovering AIS print, OR any dark-fleet-capable corroborator (Kpler/Vortexa/official statement) — and NEVER on the absence of one.**
+  > ⚠️ **Because the retire trigger can therefore be SILENT (the instrument may simply never show it), the dated clock below is not hygiene — it is this clause's only backstop.**
 - **Kill line (post-fill):** a confirmed resumption of Kharg loadings to normal (bypass absorbs / seizure reversed) → exit; and standard time-stop — the inventory-draw grind should be visible within the tenor, no draw-through-buffers by ~half the DTE = thesis not confirming.
 - **Confirm line (go/hold):** loadings stay stranded AND Cushing/SPR buffers visibly draw (HEARTBEAT dashboard) AND war-risk-freight stays elevated → the supply-loss is real and compounding, hold to target.
-- **Retire if unfired at ~30d** → re-underwrite (don't let a pre-built tail rot on a stale premise).
+- ~~**Retire if unfired at ~30d** → re-underwrite~~ 🔴 **FIRED 2026-08-16 (day 30), GRADED LATE ON DAY 32 — see the day-32 block above.**
+  > 🔧 **CLAUSE RE-SPEC'D 2026-08-18: `~30d` IS NOT A CLOCK AND THAT IS WHY IT DRIFTED.** A tilde has no fire date, so nothing can be late against it and no boot check can flag it. **Replaced by a REAL DATE:**
+  > **`RE-UNDERWRITE DUE: ________`** — ⛔ **left BLANK deliberately: the date is set at Will's retire-vs-keep ruling and is not TERRY's to pick.** If the card is kept, this line carries **one absolute date** (never "~Nd"), and reaching it **without a written grade is itself the defect**, not merely a prompt.
+  > **Durable form:** *a self-destruct clause needs an absolute date; a relative one cannot fire, and cannot be measured as late.*
 
 ### §9 Concentration (aggregate the shared-falsifier book — REQUIRED read before ARM)
 > 🔴 **§9 IS STALE AND IT IS THE ONE SECTION THAT MUST NOT BE — TERRY 2026-08-18 EVE, surfaced by Will asking "is this just adding another USO position?"**
@@ -106,10 +120,23 @@ The fire day will almost certainly be a **violent GREEN day** (oil gapping up = 
 >
 > ⇒ **CONSTRUCTION VERDICT (not a thesis verdict, not a decision): a re-arm cannot reuse §9 — it requires §9 RECOMPUTED on the live book.** ⛔ **Which means "extend" is not actually available as a cheap option: the honest choices are RETIRE, or REBUILD (new card, fresh §9, fresh chain).** Recorded for Will's retire-vs-extend ruling and routed to BRENT with the premise question.
 
-This deepens the **one-Mideast-bet**. The shared falsifier is a **Hormuz de-escalation** (Muscat/Article-5, ~5–10%), which fires on multiple book legs at once. Honest split of what dies vs survives on that falsifier:
-- **Dies on de-escalation:** USO oil-long (20 sh) **+ this ~$200 tail** — the pure oil-premium legs.
-- **Survives de-escalation:** TRY-FIRE-004's **real-yield / term-premium leg** — NEXUS/RED grade it independent of oil (10Y held ≥4.50 *through* a deflationary June print). So the ~$1,150 duration grind is only **partially** shared.
-- **Aggregate Mideast-de-escalation-falsifiable oil cluster = USO shares + this $200 tail** (small, defined-risk). Total thesis-adjacent exposure with the rates grind ≈ **$1,350**, but do not double-count 004's surviving real-yield leg as "shared." **This card is the smallest, most defined-risk leg of the cluster and the only one built to pay off ON the strand path the others miss.**
+**🔒 RE-LOCKED 2026-08-18 EVE (TERRY). Live book, USO 130.66 post-close.** This deepens the **one-Mideast-bet**. The shared falsifier is a **Hormuz de-escalation** (Muscat/Article-5, RED ~5–10%), which fires on multiple book legs at once.
+
+| Dies on de-escalation | value | risk shape |
+|---|---:|---|
+| USO **35 sh** | **$4,573** | 🔴 linear, **UNDEFENDED — Will ruled HOLD 8/18 with NO exit rule** |
+| USO **Oct-16 $135C ×2** | $1,210 | defined; ⚠️ **no management rule** (#9 violated on that leg) |
+| USO **Sep-18 150/165 ×1** | $85 | defined, ~spent |
+| **XLE Sep-30 $65C ×2** | $194 | defined, ~spent |
+| **this card, if fired** | **$200** | defined |
+| **TOTAL falsifiable oil cluster** | **$6,262** | **vs the $2,813 the 7/17 text assumed = 2.23×** |
+
+- **Survives de-escalation:** `TRY-FIRE-004`'s **real-yield / term-premium leg** — NEXUS/RED grade it independent of oil (10Y held ≥4.50 *through* a deflationary June print). ⛔ **Do NOT double-count it as "shared."**
+- 🔴 **`N_eff = 1` VIEWS, not 4 legs** (BRENT 8/14, verified by TERRY): **every** leg above dies on the **one** falsifier. **Firing this card makes it a FIFTH expression of a single view** — `RISK_SCORING` §2b: *the combined exposure is the number that matters, and it is stated as one number here precisely so it cannot be read as five trades.*
+- ✅ **What still argues FOR the card, kept because it survived the recompute:** it is the **smallest and most defined-risk leg** ($200 vs 35 undefended shares) and **the only one built to pay on the STRAND path the others miss** — the rest are riding a **risk-premium repricing on a diplomatic clock**, not a confirmed supply loss.
+- ⚠️ **Arming bar RAISED vs 7/17, and say so at the ticket:** the base this sits on has **doubled**, and the largest leg now has **no exit rule by explicit ruling**. `RISK_RULES` #17 — **the size-INCREASING branch carries the higher evidential burden.**
+
+> *Superseded 7/17 text, kept so the drift is dateable:* ~~"Dies on de-escalation: USO oil-long (20 sh) + this ~$200 tail … Aggregate … ≈ $1,350."~~ **The book grew ~2.2× underneath a pre-locked guard that nobody re-read — which is the failure mode ZONE 1 exists to prevent, arriving inside ZONE 1 itself.**
 
 > ### 🔒 ANTECEDENT GATE — the shared falsifier CANNOT grade as fired on price action alone
 > **Added 2026-07-27 (BRENT recommendation, PROME endorsed) after the book came within one relay of walking into exactly this trap.**
@@ -151,7 +178,10 @@ ZONE 2 — LIVE MARKS (fill ONLY at actual fire — rule #4)
   | (long leg) | | | | | |
   | (short leg) | | | | | |
 - **Liquidity OK?** [spread/OI acceptable at $200 scale — Y/N]
-- **Broker position truth:** existing USO exposure (20 sh + any calls)? [POSITION_INTAKE or `[POSITION_STATE_UNKNOWN]`]
+- **Broker position truth:** existing USO exposure — ⛔ **DO NOT fill from memory or from this card.** Run `python3 AGENTS/TERRY/scripts/positions_from_forge.py` and copy what it returns, or mark `[POSITION_STATE_UNKNOWN]`.
+  > 🔧 **FIXED 2026-08-18: this line said "(20 sh + any calls)" — the 7/17 figure, wrong since at least 8/02, sitting in the FIRE-TIME checklist.** Worse than the same error in §9, because **this is the line somebody fills in at the ticket while the tape is moving**, and a familiar-looking wrong number is the kind you tick rather than check.
+  > ⭐ **THE PATTERN FIX, not just this instance: ZONE 1 and ZONE 2 must NEVER HARDCODE A POSITION FIGURE. Point at the live source instead.** A hardcoded number in a pre-locked layer is a **guaranteed future defect** — the layer's whole purpose is that it is written once and read much later, so any figure in it decays by construction while looking authoritative. *(Both rot instances found today, 7/17 → 8/18, were hardcoded counts.)*
+- **Spread-vs-outright RE-TEST (added 2026-08-18) — do NOT treat "spread is MANDATORY" as settled at fire:** the mandate was written at **OVX ~61 (p93)**; on **2026-08-18 OVX was 47.81**, the **11th percentile of a 120-day window** *(⚠️ not like-for-like against the card's p93 — different windows; the unambiguous fact is the level, −21.6%)*. **A gap starting from a low vol base makes the premium you are offsetting materially cheaper, so the short leg gives up more upside per dollar it saves.** ⇒ **Price BOTH the spread and the outright on the live post-gap chain and write which won, with the numbers.** ⛔ **This is a re-test instruction, NOT a relaxation — if the vol is rich at fire the mandate stands, and `RISK_RULES` #14 says this is a MOMENT property graded ONCE, at fire.**
 - **Sizing (`risk_calc.py --premium <net-debit> --max-loss 200`):** ____ spread(s), net debit $____ ≤ $200, max value $____, ratio ____:1
 
 ══════════════════════════════════════════════════════════════
