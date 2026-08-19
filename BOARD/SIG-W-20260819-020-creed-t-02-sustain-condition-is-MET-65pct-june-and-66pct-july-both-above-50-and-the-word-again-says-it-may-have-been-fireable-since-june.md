@@ -17,6 +17,17 @@ consumer_lens: CREED-T-02's own recipient chain puts CREED, REGINALD and LIQUID 
 cluster_secondary: PC_STRESS
 ---
 
+> ⚠️🔴 **DATED 2026-08-19 by `SIG-W-20260819-021` — Will supplied the MAY report ~16 minutes after §2 named it as the number that would date the fire. **MAY = 70%.** Additive; nothing below is edited.**
+>
+> **WHAT SURVIVES:** the sustain condition **is** met — and this signal UNDERSTATED it: there are **three** consecutive prints (May 70 · June 65 · July 66), not two. The bucket-transfer arithmetic, the Rockingham Park trace and the basis caveat all stand.
+>
+> **WHAT IS CORRECTED — THE DATE.** May + June are themselves two consecutive prints above the band, so **the condition was satisfied when the JUNE report published, roughly six weeks ago.** §2's *"this may not be a new fire, it may be a MISSED one"* is **confirmed as the second case.**
+>
+> **AND THE FRAMING.** The metric **PEAKED IN MAY** — 70 → 65 → 66. A trigger built to detect the ONSET of a maturity-default wave has been satisfied for six weeks on a measure that topped out three months ago.
+>
+> **Refined too:** the matured-balloon bucket **oscillates** rather than filling-then-draining (PMB 1.62 → 2.18 → 1.76 against NPMB 2.29 → 2.06 → 2.47), and **total matured-balloon stock went 3.91 → 4.24 → 4.23 — FLAT in the month the headline jumped 51bp.** July is therefore even more purely compositional than §4 argued.
+
+
 # 🔴🔴 **`CREED-T-02`'s sustain condition is MET on the face of both primaries — June 65%, July 66%, band >50, sustain 2 consecutive monthly prints. And June's own wording says *"AGAIN,"* which means it may have been fireable since the JUNE report.**
 
 ## 1. The arithmetic, from the two documents
