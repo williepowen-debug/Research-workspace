@@ -17,6 +17,15 @@ consumer_lens: REGINALD owns REG-T-07 and CREED owns the series and CREED-T-01a.
 cluster_secondary: PC_STRESS
 ---
 
+> ⚠️🔴 **CORRECTED 2026-08-19 by `SIG-W-20260819-019` (~20 minutes later) on TWO counts — additive, nothing below is edited.**
+>
+> **WHAT SURVIVES:** the `REG-T-07` anti-fire guard — the whole point of this signal — is **untouched and now CONFIRMED** by the delinquency print: office DQ is **11.91%**, so `REG-T-07` is **3.09pp away**, exactly as §1 said. Every Table-1 figure, the flow-vs-rate caution and the retail/vintage analysis stand.
+>
+> **CORRECTED ①.** §7 says *"neither `REG-T-07` nor `CREED-T-01a` can be evaluated from this report."* True of those two, **incomplete about the document: `CREED-T-01b` — `OFFICE-CMBS-SS-TREPP` > 18, sustain 1 print — grades off the SPECIAL SERVICING report, i.e. off this one.** WALTER did not know it existed, because **CREED's registry is not in boot step 6b**. The answer is benign — **16.58 vs 18, NOT fired, and 53bp further away than June** — but this signal asserted an absence it had not checked.
+>
+> **CORRECTED ②.** §3 argued a falling SS rate driven by modifications might be *"extend-and-pretend SUCCEEDING, not ENDING."* **The delinquency report says the opposite, in Trepp's own words:** distress *"shifting OUT of performing matured balloon status and INTO non-performing,"* with the broad measure (9.62%) up only **9bp** against a **51bp** headline. ⇒ **a bucket transfer — extend-and-pretend ENDING.** Reasonable caution on one document; better evidenced with both.
+
+
 # 🔴 **Office CMBS special servicing FELL 53bp to 16.58% — which reverses the "extend-and-pretend" leg this desk dispatched on 7/17. And the 16.58% does NOT grade `REG-T-07`, because REGINALD wrote that guard in advance and it works.**
 
 ## 1. 🛑 READ THIS BEFORE THE NUMBERS — the anti-fire guard
