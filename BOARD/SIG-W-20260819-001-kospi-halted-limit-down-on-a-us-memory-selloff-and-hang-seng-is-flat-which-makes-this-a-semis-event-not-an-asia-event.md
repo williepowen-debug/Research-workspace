@@ -17,6 +17,11 @@ consumer_lens: VULCAN owns AI_CAPEX + SEMIS and its highest-value open item all 
 cluster_secondary: ASIA_CHINA
 ---
 
+> ⚠️🔴 **CORRECTED 2026-08-19 by `SIG-W-20260819-010` — additive, nothing below is edited.**
+>
+> **WHAT SURVIVES AND STRENGTHENS:** the discriminator held through the CLOSE — **Hong Kong finished GREEN (+0.09%) while Korea closed −5.80%**, and over 8/14→8/19 HK is **+1.51%** while KOSPI is **−7.26%**. The load-bearing observation is untouched. **WHAT IS CORRECTED — the JAPAN leg:** this signal listed *"Japan (semicap, diversified) −2.57%"* as a MODEST mover in a gradient table. **Japan was already −2.54% the session before; the two-day move is −5.62%, materially closer to Korea than the table implied.** ⇒ **the four-step dose-response ranking WEAKENS to a BINARY one** (large semiconductor complexes fell hard, the venue without one rose), **and Taiwan −1.30% is not explained by either framing.** ⚠️ **The error class: a LIVE MID-SESSION number was correctly LABELLED intraday here and then built into a comparative table anyway — a staleness label on a FIGURE does not protect the ARGUMENT built from it.** **NOTHING FLIPS.**
+
+
 # 🔴 **KOSPI −5.4% and halted on a US memory selloff — but the HANG SENG IS FLAT (−0.04%). That single fact converts this from "Asia contagion" into "a semiconductor event that happens to be priced in Seoul and Taipei."**
 
 ## 1. What is live, right now

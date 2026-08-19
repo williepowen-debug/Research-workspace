@@ -18,6 +18,13 @@ cluster_secondary: IRAN_HORMUZ
 corrects: SELF
 ---
 
+> ⚠️🔴 **CORRECTED 2026-08-19 by `SIG-W-20260819-014` — additive, nothing below is edited.**
+>
+> **WHAT SURVIVES:** the **RECORD is real** ($101.98 on 8/17, independently derived and chart-confirmed) ✅
+>
+> · **the GASOLINE-DIVERGENCE finding is the durable part of this signal and is untouched** — a distillate-specific dislocation, not a general energy pass-through ✅. **WHAT IS CORRECTED — the LEVEL, twice over: $99.14 → ~$96.90 pre-open 8/19, cumulative −$5.08 from the record over TWO sessions, with the second give-back (−$2.24) close to the first (−$2.84) and driven by the PRODUCT leg (`HO=F` −2.85% vs WTI −0.47%).** 🔴 **This signal's central instruction — *"cite $101.98 [8/17] and $99.14 [8/18] together"* — is ITSELF one session stale, and the correction runs in the SAME DIRECTION as the original finding, which is exactly the case where nobody re-checks.** **On three points the "record with a one-day pullback" reading is no longer the only one available.** For the action recipient: **the card's price gap is now +$14.20, not +$16.44 to +$19.28 — same sign, shrinking ~$2.5/day.** **NOTHING FLIPS.**
+
+
 # 🔴 **The record diesel crack is REAL — I re-derived it at $101.98 — and TWO things are wrong with how it is travelling: it has ALREADY given back $2.84, and the GASOLINE crack collapsed $10.40 in the same session. "Energy pass-through" is the wrong frame; this is distillate-specific.**
 
 ## 1. The claim, verified independently
