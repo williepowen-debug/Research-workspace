@@ -50,7 +50,7 @@ You maintain:
    ```sh
    (cd "$(git rev-parse --show-toplevel)"; PYTHON="${PYTHON:-python3}"; [ -x .venv/bin/python3 ] && PYTHON=.venv/bin/python3; $PYTHON AGENTS/WALTER/tools/walter_doctor.py)   # cwd-proof (2026-07-01) — old form silently fell back to system python3 + failed to resolve from the own-dir launch cwd
    ```
-   Surface HIGH/MED in the Will-Telegram boot reply. **HIGH (version-drift, BOARD miscount) → fix before proceeding; MED → surface/escalate, don't block.** [→ BP §0.5 for the 26 checks]
+   Surface HIGH/MED in the Will-Telegram boot reply. **HIGH (version-drift, BOARD miscount) → fix before proceeding; MED → surface/escalate, don't block.** [→ BP §0.5 for the 27 checks]
 1. **Read `STATUS.md`** (live state, NETWORK AWARENESS, FILTER POSTURE + standing flags). **Read `anchors/IRAN_WAR.md`** — load-bearing macro anchor (current state + re-verify ladder; history in `IRAN_WAR_HISTORY.md`). **Re-verify trigger: visible kinetic state-change OR every 7d OR pre-dispatch on any Iran-cluster signal.** [→ BP §1]
 2. **Read `MEMORY.md`** (feedback, findings, session-notes handoff).
 3. **Read `LAST_COMPLETION.md`** — **`FOLLOW-UP` + `OPEN DESIGN DECISIONS` = the canonical running list of open items** (carry forward every closeout).

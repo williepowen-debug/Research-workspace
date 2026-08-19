@@ -38,6 +38,7 @@ Checks:
   registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
   correction_target_declared  every `signal_type: correction` declares a resolvable `corrects:` (SIG-ID/SELF/EXTERNAL)
   batch_manifest_open    a declared Will-batch left OPEN with un-dispositioned items (the input-side blind spot)
+  action_line_rule       an agent on `info:` while the body carries ask-language naming it (§3.5.4, mechanized)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -61,6 +62,7 @@ sys.path.insert(0, str(HERE))
 
 HIGH, MED, LOW, INFO = "HIGH", "MED", "LOW", "INFO"
 TODAY = dt.date.today()
+ACTION_LINE_WINDOW_DAYS = 14   # trailing scan window for check_action_line_rule (#27)
 # Accepts an optional trailing annotation like "SIG-W-20260414-010 (re-route)" — deliberate
 # semantic content in route_log (DAEDALUS RAV-review FIX 1, 2026-08-02). Still anchored:
 # rejects -0011→-001 truncation and anywhere-on-line matches (both RAV fixes survive).
@@ -1552,6 +1554,116 @@ def check_batch_manifest_open():
     return out
 
 
+
+# --- §3.5.4 ACTION-LINE RULE, mechanized (check #27, 2026-08-19, Will-approved) -------
+# An ask directed at a named recipient belongs on `action:`, never on `info:` with the
+# ask buried in the body. The rule is a SAFETY PRECONDITION for every pull-complete
+# exemption (each rests on "never the ACTION owner => zero ACTION-miss risk", which is
+# a claim about metadata accuracy), and until now it was enforced by discipline alone.
+# It was violated 5x in 90 minutes on 2026-08-19 ("HOMER's call" in the body of
+# -019/-020/-021/-022 while HOMER sat on info:) by the same session that correctly
+# applied the TERRY gate five times running. That asymmetry is what a machine closes.
+# [[finding_mechanize_the_cap_not_the_ritual]]
+
+# Ask-language, not mere mention. A signal that REFERENCES an agent ("HAWK's framing is
+# the one to carry") is not an ask; one that ASSIGNS ("HOMER calls it", "ASK to BRENT")
+# is. Keyed on possessive/imperative/ownership constructions only -- a bare name match
+# would fire on nearly every signal and become alert fatigue, which is the failure mode
+# that kills a check faster than a false negative.
+_ASK_PATTERNS = [
+    # TUNED 2026-08-19 on OBSERVED false positives from the first run (7 flags / 106
+    # signals / 14d), per the proposal's own commitment to tune on measurement rather
+    # than a pre-guess. Three patterns were dropped and one narrowed:
+    #   - "{a}'s ruling|decision|judgement"  -> DROPPED: matched a SOURCE CITATION
+    #     ("read directly from ... PROME's ruling packet"), not an ask.
+    #   - "{a} owns"                         -> DROPPED: it is how this desk states a
+    #     DOMAIN ("RED owns the adversarial view", "VULCAN owns AI_INFRA_CAPEX"), not
+    #     how it assigns one. 2 of 2 observed were false. "{a}-owned" is KEPT because
+    #     that is registry language ("HOMER-OWNED").
+    #   - lowercase "ask"                    -> NARROWED to the uppercase/arrow form
+    #     this desk actually uses for asks; lowercase matched PAST-TENSE reporting of
+    #     an already-answered ask ("WALTER asked whether ... belongs on BROCK's ...").
+    r"{a}'s call\b",
+    r"\b{a} (?:calls|rules|should|must|needs to|is asked|adjudicates|certifies|grades)\b",
+    r"\b{a}[- ]OWNED\b",
+    r"(?:ASK|\u21d2 ASK)[^.\n]{{0,80}}\b{a}\b",
+    r"\b{a}\s*[:\u2014-]\s*(?:pull|read|confirm|check|open|rule|grade|verify|decide)",
+    r"\brouted to {a}\b",
+    r"\b(?:owned by|hands? (?:it )?to) {a}\b",
+]
+
+
+def check_action_line_rule():
+    """§3.5.4: an ask aimed at a named recipient must be on `action:`, not `info:`.
+
+    Scans BOARD signals dispatched in the trailing window and flags any agent that sits
+    on the `info:` line while ask-language naming it appears in the body.
+
+    ⚠️ RESIDUAL, stated so a green line is not over-read: this detects ASK-LANGUAGE, not
+    asks. An ask phrased without any of the registered constructions is invisible here,
+    and a legitimate mention that happens to match one will false-positive. It flags at
+    LOW and never blocks -- the disposition stays human. Tune on OBSERVED false-positive
+    rate, never on a pre-guess."""
+    reg = WALTER / "REGISTRY.tsv"
+    if not reg.exists():
+        return [(MED, "REGISTRY.tsv missing -- cannot resolve agent names")]
+    agents = []
+    for i, line in enumerate(reg.read_text(encoding="utf-8").splitlines()):
+        if i == 0 or not line.strip() or line.startswith("#"):
+            continue
+        name = line.split("\t")[0].strip()
+        if name and name.isupper() and len(name) >= 3:
+            agents.append(name)
+    if not agents:
+        return [(MED, "REGISTRY.tsv parsed to zero agent names")]
+
+    cutoff = TODAY - dt.timedelta(days=ACTION_LINE_WINDOW_DAYS)
+    out, scanned = [], 0
+    for f in sorted(BOARD.glob("SIG-W-*.md")):
+        m = re.match(r"SIG-W-(\d{4})(\d{2})(\d{2})-", f.name)
+        if not m:
+            continue
+        try:
+            d = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            continue
+        if d < cutoff:
+            continue
+        try:
+            txt = f.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        parts = txt.split("---", 2)
+        if len(parts) < 3:
+            continue
+        fm, body = parts[1], parts[2]
+        scanned += 1
+        am = re.search(r"^action:\s*\[([^\]]*)\]", fm, re.M)
+        im = re.search(r"^info:\s*\[([^\]]*)\]", fm, re.M)
+        if not im:
+            continue
+        on_action = {x.strip() for x in (am.group(1).split(",") if am else []) if x.strip()}
+        on_info = {x.strip() for x in im.group(1).split(",") if x.strip()}
+        for a in sorted(on_info):
+            if a not in agents or a in on_action:
+                continue
+            for pat in _ASK_PATTERNS:
+                mm = re.search(pat.format(a=re.escape(a)), body)
+                if mm:
+                    frag = " ".join(mm.group(0).split())[:70]
+                    out.append((LOW, f"{f.name[:34]}...: {a} is on `info:` but the body carries "
+                                     f"ask-language -- \u201c{frag}\u201d. \u00a73.5.4 says an ask "
+                                     f"aimed at a named recipient goes on `action:`. Verify, then "
+                                     f"re-dispatch to {a} on action if it is a real ask."))
+                    break
+    if not out:
+        return [(INFO, f"no \u00a73.5.4 candidates in {scanned} signal(s) over {ACTION_LINE_WINDOW_DAYS}d "
+                       f"-- NOTE: detects ask-LANGUAGE, not asks; an ask phrased outside the "
+                       f"registered constructions is invisible here")]
+    out.append((INFO, f"scanned {scanned} signal(s) over {ACTION_LINE_WINDOW_DAYS}d"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -1579,6 +1691,7 @@ CHECKS = [
     ("registered_but_unrouted", check_registered_but_unrouted),
     ("correction_target_declared", check_correction_target_declared),
     ("batch_manifest_open", check_batch_manifest_open),
+    ("action_line_rule", check_action_line_rule),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
