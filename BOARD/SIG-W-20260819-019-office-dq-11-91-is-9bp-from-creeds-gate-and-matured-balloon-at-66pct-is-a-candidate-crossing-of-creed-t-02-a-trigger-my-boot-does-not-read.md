@@ -18,6 +18,15 @@ cluster_secondary: PC_STRESS
 corrects: SIG-W-20260819-018
 ---
 
+> ⚠️🔴 **ROUTING-CORRECTED 2026-08-19 by `SIG-W-20260819-023` — the FINDINGS stand; the RECIPIENTS were wrong on two legs. Additive; nothing below is edited.**
+>
+> **① §3.5.4 VIOLATION.** §1's grading table put ***"HOMER's call"*** against `CREED-T-05` multifamily **while HOMER sat on the `info:` line** — and the action-line rule says an ask directed at a named recipient goes on `action:`, never `info:` with the ask in the body. **HOMER is re-routed to `action:` with the full four-month series (7.71 · 6.95 · 7.23 · 7.69, +154bp YoY), of which HOMER's own STATUS held only the July point.**
+>
+> **② CORAL received NOTHING** across all five Trepp signals, while a **large Florida hotel portfolio** went newly delinquent in May and cured in June — moving the national lodging rate **79bp** and a material part of June's headline. CORAL owns `FL_REAL_ESTATE`.
+>
+> **Nothing in this signal's data, arithmetic or grading changes.**
+
+
 # 🔴🔴 **Office CMBS DQ printed 11.91% — NINE basis points from CREED's gate. And "non-performing matured balloon made up 66% of newly delinquent balances" is a candidate crossing of `CREED-T-02` (>50). Both live in a registry WALTER's boot does not read.**
 
 ## 1. 🛑 THE GRADING TABLE — every trigger these two documents can settle
