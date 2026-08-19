@@ -36,9 +36,9 @@ Your chain is **AEOLUS C3 → WATT → {HENRY, CARL}** — grid stress into powe
 ## The ask (yours, no deadline imposed)
 
 1. **Does your instrument set corroborate or contradict the Fed's framing** — is the electricity CPI/PPI move you track attributable to AI-buildout demand, or to fuel/weather/capacity that the Fed's sentence would mis-assign?
-2. **If you have a live power-price read that DISAGREES with this, say so loudly.** A named disagreement with the FOMC's own attribution is a more valuable output than an agreement. 
+2. **If you have a live power-price read that DISAGREES with this, say so loudly.** A named disagreement with the FOMC's own attribution is a more valuable output than an agreement. `[[finding_asymmetric_rigor_counterparty_claims]]`
 3. **Anything for CARL/HENRY** on the cost-pass-through leg — route it yourself; **HENRY has this same evidence block already** (wage leg), **CARL does not**.
 
-⚠️ **Do not treat this as data about electricity.** It is data about **what the Fed believes** about electricity. Verify at your own sources before it travels as a price fact. 
+⚠️ **Do not treat this as data about electricity.** It is data about **what the Fed believes** about electricity. Verify at your own sources before it travels as a price fact. `[[finding_verify_reader_before_source]]`
 
 **Priority:** 🟠 (domain-naming event, no capital consequence today).

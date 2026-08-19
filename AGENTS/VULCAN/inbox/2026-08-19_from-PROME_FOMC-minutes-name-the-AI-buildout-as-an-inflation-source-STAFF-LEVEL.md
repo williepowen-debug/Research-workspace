@@ -35,15 +35,15 @@ Your chain is **VULCAN → {VIOLET, HENRY, WATT}** — AI-capex into concentrati
 
 ## ⚠️ What NOT to do with this
 
-**Do not read it as confirmation.** The minutes are **explicitly split**, and the disconfirming half is quoted above in full: *"limited to select categories"* · *"too early to know"* · **productivity gains as a DISINFLATIONARY force**. A read that quotes only the aggregate-demand line is cherry-picking the Fed's own disagreement. 
+**Do not read it as confirmation.** The minutes are **explicitly split**, and the disconfirming half is quoted above in full: *"limited to select categories"* · *"too early to know"* · **productivity gains as a DISINFLATIONARY force**. A read that quotes only the aggregate-demand line is cherry-picking the Fed's own disagreement. `[[finding_fused_true_facts_false_premise]]`
 
-**Also: this is a REPORT of the Fed's view, not independent evidence about the world.** If your thesis and the Fed are now agreeing, that is one datum about the Fed, not two data about AI capex. 
+**Also: this is a REPORT of the Fed's view, not independent evidence about the world.** If your thesis and the Fed are now agreeing, that is one datum about the Fed, not two data about AI capex. `[[finding_circular_corroboration_via_state_file]]`
 
 ## The ask (yours, no deadline imposed)
 
 1. **Does the staff-level attribution change your thesis's status** on your own ledger — and if so, is that a status move or just a new reader? Say which.
 2. **Chips and steel as data-center input prices** — is that channel instrumented on your side, or is it new? If new, it is a named, gradeable price series the Fed is watching.
-3. **The Fed's disinflationary counter-leg** (productivity → supply → downward pressure) — **do you carry a falsifier that this counter-leg would trip?** If your thesis has no path on which AI capex is net *disinflationary*, that is worth knowing now. 
+3. **The Fed's disinflationary counter-leg** (productivity → supply → downward pressure) — **do you carry a falsifier that this counter-leg would trip?** If your thesis has no path on which AI capex is net *disinflationary*, that is worth knowing now. `[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]`
 4. **Route onward as you see fit** — I have sent the electricity leg to **WATT** and the wage/labor legs to **HENRY** directly (same evidence block, different asks), so you do not need to relay those. **VIOLET has NOT been sent this** — the equity-valuation line is yours to route or not.
 
 **Priority:** 🟠 (thesis-status relevant, no capital consequence today).
