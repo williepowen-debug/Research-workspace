@@ -17,6 +17,17 @@ consumer_lens: The Iran anchor's 7/27 addendum established at the EIA primary th
 cluster_secondary: IRAN_HORMUZ
 ---
 
+> ⚠️🔴 **CORRECTED 2026-08-19 by `SIG-W-20260819-016` — additive, nothing below is edited. The §5 question this signal named as DECISIVE has been answered, and the answer cuts BOTH ways.**
+>
+> **WHAT SURVIVES:** the 298.694M level and its EIA provenance · every observation at/below it being from the 1982-83 FILL (last 1983-01-28) — **independently corroborated by a Fox Business "lowest since 1983" headline, which also confirms this signal's correction of the WSJ's "since 1982"** · the −6.04M bbl/wk arithmetic.
+>
+> **WHAT IS CORRECTED:** the draw is **DISCRETIONARY** — a ~172M bbl emergency authorization in response to Hormuz — **so §4's premise is CONFIRMED.** But it is an **EXCHANGE, not a sale**: the barrels are **LENT**, repaid late-2026→2029 at an **18-24% premium IN KIND**, on a delivery window of **"primarily April-August 2026."**
+>
+> 🔴 **⇒ §3's *"a reserve being SPENT, hard, right now"* WEAKENS MATERIALLY** — the run-rate is a contracted delivery schedule ending this month, and the twelve consecutive draws with no build are exactly what that looks like. **The *"~49 weeks"* figure is WITHDRAWN.** **And §4's two-buffers synthesis WEAKENS:** spare production capacity is **structural**; the SPR trough is **cyclical and contracted**. Not the same object, and stating them as equivalent overstated the case.
+>
+> **Nothing below is factually wrong — the FRAMING was more alarming than the mechanism supports. Today's EIA print is the dated falsifier.**
+
+
 # 🔴 **The SPR is at 298.694M bbl — and EVERY observation at or below that level in the entire 44-year series comes from the initial 1982-83 FILL. This is not a low reserve. It is a reserve back at the level it held while it was still being built.**
 
 ## 1. Verified at the primary, not off the chart
