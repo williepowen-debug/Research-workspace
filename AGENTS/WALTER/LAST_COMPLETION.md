@@ -78,6 +78,9 @@
 
 ## OPEN DESIGN DECISIONS (need Will)
 
+**🔴 OPEN FOR WILL — ROUTING/COVERAGE PROPOSAL, 2026-08-19 (raised by Will in-session):** four ranked items in [`design/ROUTING_COVERAGE_PROPOSAL_2026-08-19.md`](design/ROUTING_COVERAGE_PROPOSAL_2026-08-19.md). **A — mechanize §3.5.4 as `walter_doctor` check #27** (an agent named in a signal BODY while on `info:` → flag; would have fired 5× today). **B — add `AGENTS/CREED/registry/THRESHOLDS.tsv` to boot 6b/6c** (5 of its 11 rows numerically scannable; 3 are monthly Trepp prints not daily pulls; **ask CREED whether it wants a WALTER-side fire-ledger before building one**). **C — light coverage step: on any property-type / geography / sector breakdown, enumerate the axes against the REGISTRY Domain column** (no new map — the full entity→domain-map version is the one that rots, and is NOT recommended). **D — ESCALATED, not WALTER's: only 3 fleet agents keep machine-readable trigger registries; 6+ gate families (`GATE-FALCON`/`GATE-LIQ`/`GATE-OSPREY`/`GATE-SAM`/`GATE-TERRY`/`GATE-VIO`/`HAW-`/`FAL-`) live as prose in STATUS files and no WALTER check can reach them** → PROME/DAEDALUS, Will-gated. **Sequence is load-bearing: A BEFORE B — widening what I read before fixing how I handle it multiplies today's actual error.** Nothing executed.
+
+
 **🟢 NONE ACTIVE.** The two above are preferences with recommendations attached, not blockers.
 
 **🟠 DEFERRED:** DEWEY cadence · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope + OZK/WAL routing · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
