@@ -6,6 +6,51 @@
 
 ---
 
+> ## 🔧 SESSION-3 ADDENDUM (~20:00 → ~23:xx ET) — WILL-AUTHORISED STRUCTURAL FIXES. Read before session 2 below.
+>
+> **Sessions 1–2 fixed stale data and stale method. This one fixed the CLASSES they came from.** Everything below is tested, committed and on origin.
+>
+> ### 🔴 TOMORROW, 8/19 — TWO EVENTS
+> **1:00 PM — 20Y $16B `912810UX4`.** Run **`python3 monitors/grade_auction.py --cusip 912810UX4`**. Bars are FROZEN: **failure = indirect <55.17% AND dealer >17.59%** · **cover marker = BTC <2.36**. **`BND-14` resolves on indirect ≥64.95%** (state the margin — v1.1.4(e)).
+> **2:00 PM — FOMC minutes. `T7` resolves.** ⚠️ **Grade on the 7/29 VINTAGE** (3-mo payroll avg 111K), never today's +20K. ⚠️ **The LABOR-independence clause is RETRACTED** (shared antecedent). ⚠️ **Premise drift ~6pp** (written against 35.5%, measured 28.5/30.0) — **note at grading, do NOT rewrite frozen text.** **8/19 does NOT grade T6.**
+> **Any session — `DFII10` ≥2.50 falsifies `BND-15`. 6bp away.** A single close falsifies the prediction but does **NOT** satisfy the gate (`>2.5 SUSTAINED`), does **NOT** authorise an add, does **NOT** displace Will's NO-ADD → margin-stated proposal to TERRY, escalated to Will.
+>
+> ### 🆕 THREE TOOLS BUILT, ALL WIRED INTO BOOT/CLOSEOUT, ALL FOUND REAL DEFECTS ON FIRST RUN
+> | Tool | Step | Caught on day one |
+> |---|---|---|
+> | `monitors/docket_check.py` | boot 5 | an **undocketed 8/26 2Y reopening** (`91282CRD5`) |
+> | `monitors/boot_recompute.py` | boot 6 | **five stale dashboard rows** (DGS10, DGS2, HY, CCC, IG) — all one release behind |
+> | `monitors/grade_auction.py` | on demand | **two bugs in itself** — see below |
+> **Closeout step 16 = unavailability sweep** (new). Step numbering shifted: closeout is now **9–18**.
+>
+> ### 🔴 THE CATCH THAT MATTERED MOST — a false positive prevented for tomorrow
+> **The TreasuryDirect `TA_WS/auctioned` date filter is INOPERATIVE.** It ignores `startDate`/`endDate` and returns the most-recent **250** rows for **any** window (verified across six windows, all identical). The cutoff **slides** as auctions land. `pagesize`/`pagenum` do nothing.
+> **Monthly tenors are fine** (250 rows ≈ 18 months, so today's nominal bars are sound). **Rare instruments are not: 30Y TIPS showed n=2 vs a true n=7, with a truncated dealer MAX of 4.46 against a real 9.87.** ⇒ **Grading tomorrow's 8/20 TIPS reopening off those bars would have fired a composition failure on any dealer print between 4.46 and 9.87 — squarely normal for that instrument.**
+> **FIX: benchmarks now come from the LOCAL CORPUS; TA_WS is used only for the latest print and the schedule, with a loud warning at ≥250 rows.** **Third instance of this class** (FR2004 series break · `DGS30` `limit=1300` read as a series start · this). `KB-BND-134`.
+> ⚠️ **Also guarded: the REOPENING TRAP** — a reopened CUSIP is in BOTH feeds, and the grader silently returned **February's** original when asked about the 8/20 reopening.
+>
+> ### ✅ CORPUS UN-BLOCKED (this was the dependency under everything)
+> `refresh_auction_history_prome-spawned.py`: `to_csv` ran **before** validation, so a documented empty-200 destroyed 370 rows and *then* raised. Now **validate → `.tmp` → `os.replace`**, plus a **shrink guard** (a third failure mode DAEDALUS didn't report), a loud 429 path, and bounded+stamped CMT fallback (`cmt_asof`, `cmt_lag_days`). All four guards tested; corpus verified intact.
+> **Corpus refreshed 369 → 390 rows, current through 8/13**, and it independently reproduces my TreasuryDirect grade of the August refunding on all three legs. ⇒ **The three held v1.1.4 spec changes (a)/(b)/(c) are now BASE-RATEABLE. That is the top analytical item and it deserves a fresh session, not a tired tail.**
+>
+> ### 🟠 SCOPE — Will ruled dormant vectors return on evidence of activity. Testing overturned two of my own calls within the hour.
+> **RE-ARMED · `VX-BND-19` EU rates 2→3.** The ECB SDW serves a **DAILY** euro-area AAA curve over a public API. I'd declared it dormant citing an unverified ECB calendar **without ever testing whether the data was reachable.** ★ **And it produced the session's best finding: EA AAA 2Y +3bp / 10Y +7bp / 30Y +8bp = a long-end-led bear steepener — the SAME signature as the US and Japan. Three sovereign curves, three central banks, same week.** Closest thing to an **independent** instrument the term-premium read has. **Routed as an INPUT to HEN-42 (8/29), NOT a C-36 label change.**
+> **RE-ARMED · `VX-BND-16` buybacks**, held at 1. Operations are **~weekly** (incl. one on 8/18) via FiscalData while the vector carried "cap held" from **7/01**. Score held deliberately: **cadence is not posture**; the trigger is a **cap lift** and I have not read a results doc. **Grade it next session.**
+> **CORRECTLY DORMANT (verified):** `VX-07` (HY 270, 68–93bp from its band, tightening) · `VX-17` (MBS spread 204bp, mid its 187–209 range — the 19-yr-high long end is passing into mortgage RATES 6.43→6.69 but **not** into spreads).
+> **⚠️ UNTESTED: `VX-18` FHLB** — quarterly cadence, Q2 combined report may be out. **First thing to check next session.**
+> **`VX-BND-13` FOI demand hole 3→2** — self-caught: it sat at 3 on 26-day-old evidence while I downgraded its sibling the same session on exactly that data. **Composite UNCHANGED 12/35** (rolls up, counted once; VX-19 sits outside by construction).
+> **REGINALD packeted** — FHLB/MBS dormancy is a coverage reduction they may have been relying on.
+>
+> ### 📌 METHOD RESIDUE — n=4 for the day on one shape
+> **"A written guard does not create a habit, and it fails first on the artifact that carries it."** WALTER shipped a stale figure inside the packet encoding its own staleness guard · I published mixed counting conventions 3h after writing the convention rule · I declared a vector dormant on an unavailability assumption hours after committing the memory forbidding exactly that · and I nearly shipped a silent-truncation bug on the day whose lesson was silent truncation.
+> ⇒ **A dormancy declaration IS an unavailability claim** — it asserts there is nothing there. Test it against the source before declaring it.
+> ⇒ **"I wrote this down today" is a reason to AUDIT the current artifact, not evidence it complies.**
+>
+> ⚠️ **Housekeeping: one commit message (`067309009`) had two words eaten by backtick shell-substitution. NOT amended — that needs a force-push, which is prohibited.** Substance is intact in `KB-BND-134` and the script comment.
+>
+> ---
+>
+
 > ## ⚠️ SESSION-2 ADDENDUM (~15:00 → ~19:xx ET) — WRITTEN AFTER THE BODY BELOW. Read this first; the body is the sweep, this is what happened after it.
 >
 > **The sweep found stale data. The hours after it found stale METHOD, which was worse and is the part to carry.**
