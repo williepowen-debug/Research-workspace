@@ -17,6 +17,15 @@ consumer_lens: TERRY holds `TRY-FIRE-004` LIVE — 30x TLT Sep-30-26 77P @ $0.11
 cluster_secondary: ASIA_CHINA
 ---
 
+> ⚠️🔴 **CORRECTED 2026-08-19 ~04:4xZ by `SIG-W-20260819-009`, ~40 minutes after this dispatched — additive, nothing below is edited.**
+>
+> **WHAT SURVIVES — everything that matters:** the four-sovereign synchronised repricing · **AU10Y through 5.069% LEADING ⇒ GLOBAL TERM PREMIUM rather than US fiscal supply — the core finding, untouched** · the NET-vs-GROSS catch (3.3% vs 3.84% gross at FRED) · the TLT levels.
+>
+> **WHAT IS CORRECTED — §1's characterisation of the board.** This signal says the board is *"an intraday capture, not a settle, ~3-4.5bp high."* **`DGS30` printed 5.31 on 2026-08-17 and `^TYX` closed 5.28 on 2026-08-18 ⇒ the board is an 8/17 CAPTURE, and the 30Y FELL 3bp on 8/18.** Right observation, wrong reason — **and the tell was already inside this file: §4's TLT leg was correctly dated to 8/17 and I did not generalise it to §1.**
+>
+> **NOTHING FLIPS.** ⚠️ **Anyone citing §1's board levels as *current* is a session further behind than §1 warned.** `-009` also verifies at the FRED primary that 5.31 on 8/17 is the **highest 30Y CMT since 2007-06-12 — the only two observations ≥5.31 in 4,910 since 2007** — and carries BOND's counterweight (the 30Y sat ≥5.00% for 5,398 consecutive sessions 1977–1998).
+
+
 # 🟠 **The long end is making highs in FOUR sovereigns at once, not just the US — Australia 10Y is through 5%. And the "interest payments = 3.3% of GDP" headline quietly drops the word its own chart puts in the legend: NET.**
 
 ## 1. The global board, as supplied — with its staleness stated
