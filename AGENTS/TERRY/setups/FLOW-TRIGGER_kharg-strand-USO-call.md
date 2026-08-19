@@ -86,6 +86,26 @@ The fire day will almost certainly be a **violent GREEN day** (oil gapping up = 
 - **Retire if unfired at ~30d** → re-underwrite (don't let a pre-built tail rot on a stale premise).
 
 ### §9 Concentration (aggregate the shared-falsifier book — REQUIRED read before ARM)
+> 🔴 **§9 IS STALE AND IT IS THE ONE SECTION THAT MUST NOT BE — TERRY 2026-08-18 EVE, surfaced by Will asking "is this just adding another USO position?"**
+>
+> **The section below prices the falsifiable oil cluster as *"USO oil-long (20 sh) + this ~$200 tail"* ≈ **$1,350**. That book no longer exists.**
+>
+> | | §9 as written (7/17) | actual, 8/18 post-close (USO **130.66**) |
+> |---|---:|---:|
+> | USO shares | **20** | **35** |
+> | other oil legs | none | **135C ×2 $1,210 · XLE 65C ×2 $194 · Sep-18 sprd $85** |
+> | cluster + a new $200 tail | **$2,813** | **$6,262** |
+> | | | ⇒ **2.23× what the guard describes** |
+>
+> ⚠️ **This is the section the card itself labels "REQUIRED read before ARM" — so the guard a future session would consult before firing is measuring a book roughly HALF the real size.** A stale concentration guard does not fail loudly; it **passes**, which is worse (`[[finding_standing_guard_is_a_false_negative_risk]]`).
+>
+> **Three things it gets wrong now, beyond the total:**
+> 1. **"Dies on de-escalation: USO oil-long (20 sh) + this ~$200 tail"** — the dying set is now **four legs**, and per BRENT's 8/14 measurement **`N_eff = 1` VIEWS**: every oil leg shares the one falsifier. Firing this card makes it **five expressions of one view**, not a diversifying add.
+> 2. **"This card is the smallest, most defined-risk leg of the cluster"** — ✅ **still TRUE** ($200 defined vs 35 undefended shares) and it remains the **only leg built to pay on the STRAND path the others miss**. That argument survives and is the strongest thing left in favour of the card.
+> 3. ⚠️ **NEW, and it did not exist on 7/17: Will ruled HOLD on the USO shares 2026-08-18 with NO exit rule and the round-trip explicitly accepted.** The book is now **committed to oil without a defined exit**, which **raises the bar for adding a fifth correlated leg** — `RISK_SCORING` §2b: *the combined exposure is the number that matters.*
+>
+> ⇒ **CONSTRUCTION VERDICT (not a thesis verdict, not a decision): a re-arm cannot reuse §9 — it requires §9 RECOMPUTED on the live book.** ⛔ **Which means "extend" is not actually available as a cheap option: the honest choices are RETIRE, or REBUILD (new card, fresh §9, fresh chain).** Recorded for Will's retire-vs-extend ruling and routed to BRENT with the premise question.
+
 This deepens the **one-Mideast-bet**. The shared falsifier is a **Hormuz de-escalation** (Muscat/Article-5, ~5–10%), which fires on multiple book legs at once. Honest split of what dies vs survives on that falsifier:
 - **Dies on de-escalation:** USO oil-long (20 sh) **+ this ~$200 tail** — the pure oil-premium legs.
 - **Survives de-escalation:** TRY-FIRE-004's **real-yield / term-premium leg** — NEXUS/RED grade it independent of oil (10Y held ≥4.50 *through* a deflationary June print). So the ~$1,150 duration grind is only **partially** shared.
