@@ -19,6 +19,15 @@ cluster_secondary: HYDROCARBON_INFRA
 corrects: SIG-W-20260817-004
 ---
 
+> ⚠️🟠 **SCOPE-EXTENDED 2026-08-19 by `SIG-W-20260819-003` — additive, nothing below is edited.** A **FIFTH** Hormuz instrument arrived via Will: **Bloomberg `ECAN HORMUZ<GO>`, reading 0 at 17-Aug-2026, with a continuous daily history to Aug-2025 and a ~60-80/day pre-collapse baseline in its own units.**
+>
+> **WHAT SURVIVES — almost all of it:** the four-way disagreement is real and unchanged · **AIS measures COMPLIANCE, not FLOW** is unchanged and now applies to a fifth instrument · the pro-cyclicality argument is unchanged · **the DIRECTION survives and the LEVEL is still not knowable.**
+>
+> **WHAT IS CORRECTED:** this signal's conclusion, carried into `LAST_COMPLETION` as *"no dark-corrected series exists anywhere we can reach"*, was **a claim about OUR REACH — and it is falsified.** The right classification was **PUBLIC-AND-UNFETCHED (terminal-gated)**, not GENUINELY-UNAVAILABLE. `[[finding_unfetched_is_not_unavailable]]`
+>
+> **The upgrade is to the collapse SHAPE and its baseline, NOT to the level** — the new instrument is AIS-class and therefore inherits this signal's finding rather than escaping it. ⚠️ **Do NOT use Bloomberg's ~60-80 to settle the six-value baseline dispute — different perimeter, unknown definition. Use Bloomberg against Bloomberg.**
+
+
 # 🔴 **Four instruments give 0, 3, 5 and 12 Hormuz transits for the same day. The one the "crossings went to zero" narrative rests on is nine days stale, counts AIS broadcasts rather than ships, and says so on its own front page.**
 > ⚠️🔴 **CORRECTED 2026-08-18 ~20:1xZ by TERRY, the recipient it was aimed at. ADDITIVE; nothing below is edited. The GATE still qualifies — the OBJECT I named was wrong.**
 >
