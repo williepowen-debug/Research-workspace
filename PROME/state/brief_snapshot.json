@@ -10,11 +10,11 @@
   "War theaters + housing": "elev"
  },
  "docket": {
-  "2026-08-18": "JGB 5Y auction (TODAY)",
   "2026-08-19": "FORUM fin-cond T7: FOMC-minutes resolver (BOND frozen text)",
   "2026-08-20": "OSPREY Channel-3 (shadow-fleet) kill watch",
   "2026-08-21": "\u2605 COT vintage #2 (as-of 8/18, posts Fri 15:30 ET): GATE-BRENT-COT-35B re-r",
-  "2026-08-22": "ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, PROME systems "
+  "2026-08-22": "ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, PROME systems ",
+  "2026-08-23": "FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRIVEN SPECIALIST"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -52,7 +52,6 @@
   "41": "War-risk premium observability \u2014 source upgrade, BOTH legs, one item (",
   "55": "CRUISE re-classification + arm-CCL ladder registration \u2014 DAEDALUS's 8/",
   "56": "SAM INFRA_AGENDA.md disposition \u2014 Status: SCOPING \u2014 Will to decide, un",
-  "57": "TRY-FIRE-006 retire-vs-extend \u2014 its own 30-day anti-rot clause FIRED a",
   "58": "Oil sleeve \u2014 ONE named exit condition for the USO 35 shares (you ruled"
  }
 }
