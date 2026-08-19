@@ -1,6 +1,15 @@
 # TERRY STATUS
 
-> ## ★ CURRENT STATE — 2026-08-18 Tue, session 15:27→**16:07 ET** (`boot.py` WALL CLOCK, copied not inferred). **MARKET CLOSED at closeout. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+> ## ★ CURRENT STATE — 2026-08-18 Tue, session 15:27→**22:4x ET** (`boot.py` WALL CLOCK, copied not inferred). **MARKET LONG CLOSED at closeout. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+>
+> **🔴 EVENING ADDENDUM — FOUR WILL RULINGS AFTER THE 16:07 CLOSEOUT, all executed and pushed. `$0` at risk moved all session; no position opened, closed or resized.**
+> - **`TRY-FIRE-006` RETIRED (terminal)** — Will *"ok retire"* on TERRY's rec. 32d, never armed, never fired. **Design extracted BEFORE archiving** → `research/PLAYBOOK_flow-trigger-supply-strand.md`. Postmortem written. **Thesis NOT graded — must not be cited against RED/BRENT/FALCON's premise.** ⇒ **Consequence routed at closeout: `PROME/GATES.tsv:26` `GATE-TERRY-006` is now a LIVE GATE WITH NO CARD** — packeted to PROME **and** FALCON (co-owners), neither file touched. `[[finding_retired_threshold_has_no_publisher]]`.
+> - **USO HOLD** — no trim/hedge/exit rule on the 35 shares; **round-trip explicitly accepted, so a giveback is a CHOSEN result and must not be postmortemed as a defect.** Scope: **shares only**, not the dated 135C.
+> - **`RISK_RULES` #19 + #20 PROMOTED** (bar-count on series-derived extremes · retroactive write-ups are management-only). **API extended 18 → 20, nothing renumbered.**
+> - **Frame correction on my own 8/18 answer:** the USO shares were **#11 (undefended downside)** → **#9 (a PROFIT zone with no harvest rule)** once the live mark showed **+7.20% / +$307.30**. Corrected to BRENT so his record does not inherit the mis-aimed version.
+>
+> **🔑 THE EVENING'S PATTERN, and it is one sentence: the surface a reader trusts most is the one that quietly keeps the old value.** §9's concentration guard stale **2.23×** · the fire-time position line still *"20 sh"* · `FIRE_CARDS_LADDER` stale **two** ways (19d and 32d) and `ledger_sweep` flagged **neither** · `SETUPS.tsv`'s status column still reading `ARMABLE` **after the sweep went CLEAN**. ⚠️ **A stale guard does not fail loudly — it PASSES.** ⇒ **Sequencing rule adopted: reconcile EVERY surface BEFORE archiving, because archiving removes a card from check A and ends the only thing that would catch drift.** Doing it in that order caught two live disagreements that would otherwise have frozen into the archive permanently.
+> **⛔ AND THE GUARD WAS NOT WIDENED TO PASS:** check C kept flagging a ZONE-3 fill-in template written in the live claim's own syntax. **The guard was right; I rewrote my card, kept the history, and broke the syntax instead.**
 >
 > **SHAPE — Will-directed: "work the Inbox." 📥 INBOX 8 → 0 in four cycles, all committed. `$0` at risk moved, nothing proposed, nothing armed, no threshold shaved.**
 >
