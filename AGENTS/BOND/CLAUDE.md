@@ -232,6 +232,7 @@ Every STATUS.md must end with a `## BOTTOM LINE` section — 2-4 sentences, plai
 | `workbook/FLOW.tsv` | Transmission pathways |
 | `monitors/` | Live monitor docs (AUCTION_HEALTH, DEALER_CAPACITY, CDX_CASH_BASIS, CREDIT_PRIMARY_MARKET) + `cdx_proxy.py`, `fr2004_fetch.py` |
 | `monitors/docket_check.py` | **Boot 5.** Diffs TreasuryDirect `upcoming` against `CATALYSTS.tsv`, keyed on **CUSIP**. rc1 = undocketed auction, rc2 = fetch failure (**not** a pass). *Exists because the August 2026 refunding ran ungraded — it was never docketed, and a missing row is invisible to every other guard.* |
+| `monitors/grade_auction.py` | **Auction grader.** `--cusip X` grades a print or, pre-auction, freezes the BARS. Benchmarks per-tenor, same-tips, % of competitive accepted; states median **and** mean; margins on every leg; residual branch; refuses a gate below n=6; computes **no tail**. Guards the reopening trap and the TA_WS truncation. *Built 2026-08-18 because grading under time pressure is where the method errors happen.* |
 | `monitors/boot_recompute.py` | **Boot 6.** Cache-busted recompute of LEVELS **and DERIVED** statistics (runs, counts, percentiles, gate distances) with the aggregation method stamped; pulls the H.15 set as a **set**. *Exists because all six method errors of 2026-08-18 were carried figures, and every one was a derived statistic.* |
 | `inbox/` | Inbound signals (WALTER lane processed at boot 7; general inbox = separate task) |
 | `outbox/` | Outbound signals for other agents (🔴-acute only) |
