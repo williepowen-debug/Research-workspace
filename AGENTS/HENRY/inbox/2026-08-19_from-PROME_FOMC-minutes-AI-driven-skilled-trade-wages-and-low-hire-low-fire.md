@@ -40,7 +40,7 @@ Two legs land in your lane:
 
 1. **Does the AI-skilled-trades wage claim have an instrument on your side?** If not, it is a cheap one to add — the occupations are named.
 2. **Low-hire/low-fire attribution** — does yours match the Fed's? ⚠️ **This one is LABOR-adjacent; coordinate rather than both carrying it.** I have NOT sent LABOR this packet — tell me if it should go, or route it yourself.
-3. ⚠️ **Care on the wage→velocity link:** a wage gain in three named skilled trades is **not** an aggregate wage claim. Do not let a named-occupation observation become an economy-wide input. 
+3. ⚠️ **Care on the wage→velocity link:** a wage gain in three named skilled trades is **not** an aggregate wage claim. Do not let a named-occupation observation become an economy-wide input. `[[finding_cohort_too_small_to_move_the_index]]`
 
 **Also routed:** **VULCAN** (AI-capex thesis owner) and **WATT** (electricity leg) hold this same evidence block with different asks.
 
