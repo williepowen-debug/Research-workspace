@@ -11,7 +11,7 @@ Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital 
 - `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` — TRY-FIRE-003
 - `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-#1 DEAD recorded; 7/9 PM red-team patch re-scoped thesis + invalidations, card stays ALIVE)
 - ~~`_archive/FLOW-TRIGGER_carry-convexity-FXY-call.md` — TRY-FIRE-005~~ — 🔴 **SHELVED 2026-07-10 (DENY on the Jul-7 COT print; no entry made, $0 at risk); ARCHIVED 2026-07-17.** Dead per its own kill rule; re-arm needs a fresh build, not a revival. See § below.
-- `FLOW-TRIGGER_kharg-strand-USO-call.md` — TRY-FIRE-006 (energy supply-loss tail, flow-anchored on Kharg EXPORT-loadings; USO call spread, $200 tranche; PRE-BUILT 7/17 per PROME Will-approved packet — built ≠ armed, blocked on FALCON Kharg-loadings source freeze). See § below.
+- ~~`_archive/FLOW-TRIGGER_kharg-strand-USO-call.md`~~ — 🔴 **TRY-FIRE-006 RETIRED 2026-08-18 (Will), archived** — TRY-FIRE-006 (energy supply-loss tail, flow-anchored on Kharg EXPORT-loadings; USO call spread, $200 tranche; PRE-BUILT 7/17 per PROME Will-approved packet — built ≠ armed, blocked on FALCON Kharg-loadings source freeze). See § below.
 - `FLOW-TRIGGER_carry-convexity-FXY-call-v2.md` — TRY-FIRE-007 (carry-convexity ENTRY v2, FXY Sep-18 60C; a **fresh build**, not a 005 revival) — 🔴 **DEAD 2026-08-07 (DENY on the Aug-4-data COT print; never armed, never fired, `$0` at risk).** See § below.
 
 ---
@@ -65,14 +65,16 @@ Arms on ANY ONE of 3 discriminators (BND-11 acute 7/9 reopen / VX-BND-05 10Y-sus
 
 ---
 
-## TRY-FIRE-006 (energy supply-loss tail — Kharg strand → USO call spread) — PRE-BUILT / SHELVED
+## TRY-FIRE-006 (energy supply-loss tail — Kharg strand → USO call spread) — 🔴 **RETIRED**
+**🔴 RETIRED (terminal) — Will-ruled 2026-08-18 on TERRY's recommendation. 32 days unfired, NEVER ARMED, `$0` at risk from build to retirement.** Design extracted → `research/PLAYBOOK_flow-trigger-supply-strand.md`. **A re-arm is a NEW card.**
+> ⚠️ **This heading read `PRE-BUILT / SHELVED` until 2026-08-18 — stale for 19 days.** The card moved to ARMABLE on 7/30 across three other surfaces and this file was never updated; `ledger_sweep` did not flag it. **Third distinct failure of this file** (007 absent entirely, 8/7; 005 SHELVED, 8/4). Recorded, not quietly overwritten.
 
 **Target:** USO OTM call spread · **Trigger class:** **FLOW** (Kharg crude EXPORT-loadings strand — explicitly NOT a price level, NOT a headline, NOT the Hormuz transit count) · **Thesis owner:** RED (reversibility red-team finding A) + BRENT (Scenario-C/$200 Tier-2) + FALCON (Kharg tripwire) · **Confidence in structure:** Medium.
 **Built 2026-07-17 ~15:40 ET** per PROME's Will-approved pre-build packet ("build it flow-anchored"). **Built ≠ armed ≠ deployed.**
 **The edge:** a Kharg strand removes ~1.5 Mbpd (90% of Iran exports) *without destroying capacity* → oil gaps $95-100+ with NO $80-82 pullback → the book's pass-on-chase strands it flat, AND **FAL-01 stays DARK** (destruction-specific) so the reversible-premium market under-reacts to a real supply loss. This card is the pre-built gap-continuation response.
 **Trigger (exact):** Kharg loadings ≈ZERO ≥2 consecutive obs days + 1 corroborator (Kharg-specific war-risk/P&I withdrawal OR official export-suspension/seizure OR FALCON Kharg-seizure tripwire). **NOT the Hormuz transit count** (86.6% crisis-day base rate; transit ≠ volume — the reversibility-consistent bypass). Four anti-false-fire guards encoded.
 **Shape:** USO call spread, ~45-60 DTE, further-OTM, net debit ≤**$200** (spread mandatory — OVX p93 / OVX-VIX ratio p96.8, vol tax). **$200 = NEW capital, SEPARATE from 004's $500.** Rule #6 green-day break **pre-authorized** in-card (gap-continuation = regime-break momentum, not mean-reversion).
-**⚠️ BLOCKED before ARM:** needs a Kharg-EXPORT-loadings data source frozen with FALCON (the Hormuz chokepoint script won't do it). Retire on de-escalation (Muscat/Article-5, RED ~5-10%); re-underwrite if unfired ~30d. GATES row proposed to PROME → `outbox/delivered/2026-07-17_to-PROME_try-fire-006-kharg-strand-prebuild-and-gates-row.md`. Full spec → `FLOW-TRIGGER_kharg-strand-USO-call.md`.
+~~**⚠️ BLOCKED before ARM:** needs a Kharg-EXPORT-loadings data source frozen with FALCON~~ — ⚠️ **STALE SINCE 2026-07-18: that dependency was DISCHARGED** (GATE-TERRY-006 LIVE, FALCON froze the source). Carried wrong for 32 days on the file that claims to be the fire-card view. **Card is now RETIRED regardless.** Retire on de-escalation (Muscat/Article-5, RED ~5-10%); re-underwrite if unfired ~30d. GATES row proposed to PROME → `outbox/delivered/2026-07-17_to-PROME_try-fire-006-kharg-strand-prebuild-and-gates-row.md`. Full spec → `FLOW-TRIGGER_kharg-strand-USO-call.md`.
 
 ---
 

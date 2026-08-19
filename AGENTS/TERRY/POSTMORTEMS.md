@@ -264,3 +264,31 @@ Counterfactual line, fixed before the outcome: **holding beat exiting iff the 8/
 **The durable point is already a rule and this closes its loop:** `RISK_RULES` #16 carries this card as its worked example — the identical view ran simultaneously as 11 tickets at 0–1 DTE (≈−$4,341, uncapped by count) and as this $452 defined-risk card (never fired, $0). **Same view, same wrongness, 9.6× the cost — tenor and frequency were the expensive part.** Nothing new to adopt; the closure makes the example's ledger entry complete.
 
 **Tags:** `THESIS_WRONG` (window-scoped) · `GOOD_PROCESS_BAD_OUTCOME` does NOT apply — the outcome was good ($0); the process produced a correct refusal by construction.
+
+---
+
+## TRY-FIRE-006 — Kharg-strand → USO call spread — **RETIRED UNFIRED 2026-08-18** (Will-ruled, TERRY-recommended)
+
+**Built:** 2026-07-17 ~15:40 ET · **Retired:** 2026-08-18 EVE · **Life:** 32 days · **Capital at risk: `$0` from build to retirement — never armed, never fired, no fill ever existed.**
+
+**Tags:** `STALE_DATA` (primary — the pre-locked layer rotted) · ⚠️ **no P&L loss-cause tag applies: there was no trade.** Recording it anyway, because *"nothing happened"* is exactly the outcome that escapes review.
+
+### Thesis / timing / structure / sizing
+- **Thesis (RED + BRENT + FALCON): NOT GRADED — and deliberately not.** The card died on *lifecycle*, not on a thesis verdict. A Kharg strand may still happen; **retiring the card is not a claim that it won't.** ⛔ Do not cite this postmortem as evidence against the premise.
+- **Timing: the trigger never fired — through the most favourable 32 days it will ever see.** MOU expired 8/17 no deal · extension refused · threat aimed at Muscat · crude cleared a settle it had failed 5 sessions · throughput ~21% of baseline. **That is the finding: if not then, the strand is either not happening or not measurable by us. Both are "no trade."**
+- **Structure: SOUND, and re-verified at retirement.** Strikes were specified **relative to the post-gap print** (not locked), so USO's +12.7% run since 8/4 never staled them. The spread mandate was correctly conditioned on **fire-day** vol. **Two of three staleness hypotheses I tested FAILED — recorded as failed.**
+- **Sizing: never reached.** $200 fenced, untouched.
+
+### 🔑 The four lessons, and only one is about oil
+
+1. **🔴 A PRE-LOCKED LAYER ROTS, AND IT ROTS SILENTLY IN THE PLACE YOU TRUST MOST.** ZONE 1 is written calm and read under pressure — so any hardcoded figure in it decays *while looking authoritative*. **Both rot instances here were hardcoded counts:** §9's concentration guard (**stale by 2.23×** — $2,813 assumed vs $6,262 actual) and the fire-time position line (still *"20 sh"*). ⚠️ **A stale concentration guard does not fail loudly — it PASSES.** ⇒ **never hardcode a position figure in a pre-locked layer; point at the live source.**
+2. **🔴 A RELATIVE CLOCK CANNOT FIRE.** *"Retire if unfired at ~30d"* — a tilde has **no fire date**, so nothing can be *late* against it and no boot check can flag it. It drifted to **day 32** unnoticed. ⇒ **self-destruct clauses take ONE ABSOLUTE DATE**, and reaching it without a written grade is itself the defect.
+3. **🔴 AUDIT THE TRIGGER'S EXECUTABILITY, NOT JUST ITS LOGIC.** The primary listed **four** corroborator doors; **one (Kpler/Vortexa dark-fleet read) is not available to this fleet** — no API, no credential, no fetcher — **and it was the only QUANTITATIVE door.** The card read as four doors and had three, for 32 days, unwritten. ⇒ **for each named corroborator, state HOW WE PULL IT. A door we cannot open is not a door.**
+4. **⚠️ A GUARD FIXED ON ONE SIDE READS EXACTLY LIKE A GUARD ON EVERY SIDE.** FALCON's 7/18 inversion correctly made the AIS series **veto-only on the FIRE side** and left the **RETIRE side** grading on the same impeached instrument. The general form (written 8/18): **a measurement bias has a FIXED SIGN, but whether it is protective or dangerous belongs to the TEST it feeds.** AIS under-counts ⇒ nonzero is trustworthy, zero is worthless — **in both directions**. Unfixed, it allowed *"failure to retire"*: loadings could genuinely resume while the card rode a dead premise.
+
+### ✅ What did NOT die with the card
+Design extracted **before** archiving → **`research/PLAYBOOK_flow-trigger-supply-strand.md`**: the corroborator-anchored + AIS-veto-only pattern (FALCON) · the chokepoint-transit-count ban (PROME's denominator ruling — ≤18/day fires on **86.6% of ALL crisis days**) · the antecedent gate (BRENT/PROME) · the rule-#6 gap-continuation pre-authorisation · the one-directional-bias rule. **Retiring a card must not delete cross-agent work that cost real effort to produce.**
+
+### ⚙️ Two process findings from the retirement itself
+- **Reconcile EVERY surface BEFORE archiving.** Archiving removes a card from `ledger_sweep` check A, so the move **ends the only thing that would catch drift.** Doing it in that order caught **two live disagreements** (`TRADE_BOOK` still ARMABLE; a ZONE-3 template arguing with the header) that would otherwise have been frozen into the archive permanently.
+- **`FIRE_CARDS_LADDER.md` failed a THIRD distinct way** — it still read `PRE-BUILT / SHELVED` (19 days stale, corrected on three other surfaces 7/30) **and** *"BLOCKED before ARM: needs a Kharg data source"* (32 days stale — discharged 7/18). `ledger_sweep` flagged **neither**. Prior failures: 007 absent entirely (8/7), 005 SHELVED (8/4). ⚠️ **A registry believed complete is worse than one obviously partial — nobody greps a file they trust.**

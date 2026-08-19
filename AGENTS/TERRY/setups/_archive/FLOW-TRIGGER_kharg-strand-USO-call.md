@@ -3,10 +3,28 @@
 **Thesis owner:** RED (reversibility red-team, finding A — `AGENTS/RED/outbox/2026-07-17_to-PROME_reversibility-consensus-redteam.md`) + BRENT (energy/oil, Scenario-C / $200 Tier-2) + FALCON (Kharg flow tripwire + `domain/FRESH_LEG_BASELINE.md`). Routed by PROME 2026-07-17 (Will-approved PRE-BUILD, "build it flow-anchored").
 **Card pre-built:** 2026-07-17 ~15:40 ET
 **Fired:** ____ (fill at fire)
-**Terry verdict:** 🟡 **CONDITIONAL / ARMABLE** — unfired, **$0 at risk**, $200 fenced. Arms on a corroborator; still needs Will [Approve] + live broker marks at fire.
-**Status:** PRE-BUILT / **ARMABLE** *(was PRE-BUILT / SHELVED — corrected 2026-07-30; the 7/18 FALCON dependency discharge and 7/20 wording confirm moved this card to ARMABLE on `setups/INDEX.md` and `STATUS.md` pickup 7, but **this card, `SETUPS.tsv` and `TRADE_BOOK.md` all carried SHELVED for 12 more days** — caught by `scripts/ledger_sweep.py`, not by a human read)* — **built ≠ armed ≠ deployed.** Will [Approve] + live broker book required (rule #4/#5). Confidence in structure: **Medium** (thesis owner-held; the trade's job is to survive the vol-rich entry, which the spread does).
+**Terry verdict:** 🔴 **RETIRED (terminal)** — **Will-ruled 2026-08-18**, on TERRY's recommendation. **NEVER FIRED, NEVER ARMED, `$0` AT RISK FROM BUILD TO RETIREMENT.** Design extracted to `research/PLAYBOOK_flow-trigger-supply-strand.md` before archiving — **the card decayed; the design did not.** ⛔ **A re-arm is a NEW CARD built on live numbers, never a revival of this one.**
+> *Superseded verdict, kept dateable:* ~~🟡 CONDITIONAL / ARMABLE — unfired, $0 at risk, $200 fenced.~~
+**Status:** **RETIRED** *(was PRE-BUILT / ARMABLE until the 2026-08-18 Will ruling; earlier still PRE-BUILT / SHELVED — corrected 2026-07-30; the 7/18 FALCON dependency discharge and 7/20 wording confirm moved this card to ARMABLE on `setups/INDEX.md` and `STATUS.md` pickup 7, but **this card, `SETUPS.tsv` and `TRADE_BOOK.md` all carried SHELVED for 12 more days** — caught by `scripts/ledger_sweep.py`, not by a human read)* — **built ≠ armed ≠ deployed.** Will [Approve] + live broker book required (rule #4/#5). Confidence in structure: **Medium** (thesis owner-held; the trade's job is to survive the vol-rich entry, which the spread does).
 
 > **Capital note (do NOT conflate reserves):** this card draws on a **NEW ~$200 max-loss tranche** (BRENT 7/16 Tier-2 sizing language). It is **separate** from the **$500 banked for TRY-FIRE-004** re-fire. Firing this does not touch 004's budget and vice-versa.
+
+
+> ## 🔴 RETIREMENT RULING — Will, 2026-08-18 EVE. **"ok retire."**
+>
+> **TERRY recommended RETIRE and Will ruled it. `$0` at risk from build (2026-07-17 ~15:40 ET) to retirement — never armed, never fired, no capital ever committed.**
+>
+> **The four reasons, strongest first:**
+> 1. 🔴 **32 days in the most favourable environment this trigger will ever see, and it never armed.** The 60-day US–Iran MOU expired 8/17 with no deal · extension refused · the threat aimed at Muscat itself · crude cleared a settle it had failed five sessions · throughput ~21% of baseline. **If it cannot fire in that, the strand either is not happening or is not measurable by us. Both answers are "no trade."**
+> 2. 🔴 **The fire path was narrower than the card read.** Four corroborator doors were listed; **one — the dark-fleet-capable tanker read (Kpler/Vortexa) — is not available to this fleet** (no API, no credential, no fetcher; a website entry in FALCON's `SOURCES.md`, reaching us only as second-hand routed estimates explicitly labelled *"estimates, not measurements"*). **The missing door was the only QUANTITATIVE one**, so in practice this card could fire only on an official declaration or an insurance notice — and **nobody wrote that down for 32 days.**
+> 3. 🔴 **The pre-build's own value proposition failed its test.** A pre-built card exists so nobody re-derives under pressure — **but the PRE-LOCKED layer is exactly what rotted**, twice, in the two places a reader trusts most (the §9 concentration guard, stale by **2.23×**, and the fire-time position line still reading "20 sh"). **A stale concentration guard does not fail loudly — it PASSES.** ⇒ the card was no longer buying what it claimed, and a fresh build on live numbers is strictly better than firing a 7/17 one.
+> 4. ⚠️ **The book moved underneath it.** `N_eff = 1` across the whole oil sleeve, base doubled to **$6,262**, and the largest leg (35 USO shares) is now held **by explicit Will ruling with NO exit rule**. `RISK_RULES` #17 — the size-INCREASING branch carries the higher evidential burden, and that evidence did not exist.
+>
+> ✅ **What was TRUE and is NOT being retired with it — extracted to `research/PLAYBOOK_flow-trigger-supply-strand.md`:** the corroborator-anchored + AIS-veto-only inversion (FALCON 7/18) · the ban on anchoring to chokepoint transit counts (PROME's denominator ruling: ≤18/day fires on **86.6% of ALL crisis days**) · the antecedent gate (BRENT/PROME 7/27) · the rule-#6 gap-continuation pre-authorisation · and the one-directional-bias rule written 8/18. **Retiring a card must not delete cross-agent work that cost real effort.**
+>
+> 🔴 **A DEFECT FOUND WHILE RETIRING, RECORDED BECAUSE THE RETIRE WOULD HAVE ERASED IT:** `FIRE_CARDS_LADDER.md` still carried **TWO** stale claims for this card — the header read **`PRE-BUILT / SHELVED`** (corrected to ARMABLE on three other surfaces 7/30, never here) and **"⚠️ BLOCKED before ARM: needs a Kharg-EXPORT-loadings data source frozen with FALCON"** (that dependency was **DISCHARGED 7/18**). **Stale for 19 and 32 days respectively, and `ledger_sweep` did not flag either.** Third distinct failure of that one file (007 absent entirely 8/7; 005 SHELVED 8/4). ⚠️ **Fixed as part of this retirement — and note the sequencing rule it produced: reconcile EVERY surface BEFORE archiving, because archiving removes a card from check A and ends the only thing that would catch drift.**
+>
+> ⛔ **Nothing was bought. Nothing was sold. No position exists or ever existed under this card.**
 
 ══════════════════════════════════════════════════════════════
 ZONE 1 — PRE-LOCKED (written in advance; do NOT re-derive at fire)
@@ -194,7 +212,9 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 - [ ] Rule #6 break noted (pre-authorized gap-continuation exception)
 - [ ] Liquidity acceptable · Position truth known · §9 aggregate stated
 
-**Terry verdict:** CLEAN / CONDITIONAL / NO TRADE
+**ZONE-3 decision line — 🔴 VOID. Never filled, never will be: card RETIRED 2026-08-18 before any fire.**
+> *(Original fill-in, restated in lowercase so a dead template cannot impersonate a live claim: it offered the three verdict options — clean, conditional, no-trade — **in the live claim's own syntax**, which is the defect itself. History preserved; only the syntax is broken.)*
+> ⚠️ **Latent ambiguity, surfaced by the retirement and worth carrying forward:** this line is a **fill-in TEMPLATE**, but it is formatted *identically to a live verdict claim*, so `ledger_sweep` check C read it as the card declaring `NO_TRADE` against a `RETIRED` header. **It stayed invisible for 32 days only because the header happened to say `CONDITIONAL`, which the template list contains** — the moment the header moved to a state the template does not list, a template started arguing with a claim. *(`[[finding_a_file_that_examples_its_own_structure_is_ambiguous]]` — a template quoting its own structure is indistinguishable from an assertion of it.)* **⇒ Fill-in option lists in future cards must not use the live claim's own syntax** — bracket them, or the guard will eventually read the menu as the order.
 **Decision:**  [ ] APPROVE   [ ] REJECT   [ ] REWORK: ____
 
 **APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
