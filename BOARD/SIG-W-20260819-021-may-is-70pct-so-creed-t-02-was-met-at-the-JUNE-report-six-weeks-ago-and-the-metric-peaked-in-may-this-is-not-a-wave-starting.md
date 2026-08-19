@@ -18,6 +18,15 @@ cluster_secondary: PC_STRESS
 corrects: SIG-W-20260819-020
 ---
 
+> ✅ **CLOSED 2026-08-19 by `SIG-W-20260819-022` — Will supplied APRIL ~9 minutes after §2 named it as the last open thread. **APRIL = 42%, BELOW the band.** Additive; nothing below is edited.**
+>
+> **WHAT SURVIVES:** the six-week dating — **now FINAL rather than a lower bound** · the May peak (70 → 65 → 66) · the oscillation correction, confirmed on a fourth data point · the flat-stock finding.
+>
+> **WHAT IS CORRECTED:** §2's *"AND IT MAY GO BACK FURTHER STILL — May's own sentence also says AGAIN"* is **REFUTED.** April was **42%** and Trepp says the month *"broke from the recent trend."* **May's "again" meant a RESUMPTION after April's interruption, not a continuation. The nine-week scenario is dead.** *(The inference was labelled as one and routed as a request for the document — raised, tested, refuted in under an hour. It was still an inference from a single adverb, and it pointed the wrong way.)*
+>
+> **NEW IN `-022`:** the four-month status series — **"Current" −57bp monotonic, matured-balloon stock +21% then FLAT, foreclosure UNMOVED at 3.03 → 3.04** — a **refinancing logjam that has not reached terminal stages in four months.** And **office DQ peaked at 12.34% in JANUARY**, so a `CREED-T-01a` crossing would be a **return to the January level, not a new high**.
+
+
 # 🔴🔴🔴 **May is 70%. So `CREED-T-02`'s sustain condition was met at the JUNE report — roughly six weeks ago — not today. And the metric PEAKED IN MAY: 70 → 65 → 66. This is not a wave starting. We are already inside one.**
 
 ## 1. Three consecutive prints, all far above the band
