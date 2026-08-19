@@ -97,3 +97,49 @@
 - **MBS/housing (VX-17, score 1):** primary spread ~200–205bp (at/below median — but *policy-compressed* by the Jan-26 GSE $200B purchase directive); CC spread ~100–110bp [EST]; Fed MBS $1.96T — **post-QT, principal paydowns are reinvested into T-bills** (balance sheet no longer shrinking; QT ended Dec-1-2025), not into coupons. Catalyst-monitored: Warsh active-sales (deferred to 2027 lane), GSE-release execution.
 - **FHLB advances (VX-18, score 1):** $734B (3/31/26), +8.4% Q/Q (driver unattributed — read Q1 CFR narrative), ~30% below the 2023 SVB peak. Coordinate with REGINALD.
 - **EU rates (VX-19, score 2):** **ECB is HIKING** — depo 2.25% (6/11, first since 2023, war-inflation), ≥1 more priced, full QT. **Peripheral spreads-to-Bund [7/17, TE 10Y benchmark; Bund 3.14%]: BTP-Bund 83bp (Italy 3.97) · Bono-Bund 47bp (Spain 3.61) · GGB-Bund 71bp (Greece 3.85) · OAT-Bund 79bp (France 3.93).** All benign/convergence-tight (Italy≈France > Greece > Spain — Greece trades INSIDE the core-periphery). **LIQUID reconcile CLOSED 7/18:** BOND owns sovereign-curve spreads + ECB/TPI mechanics; LIQUID owns the EU-bank→US xccy-funding transmission (the contagion channel, NOT Bund-flight which is a haven/tightening effect). ONE trigger: **BTP-Bund >200bp sustained = benign→contagion-relevant** (ECB TPI caps blowout). ⚠️ **OWNED MISS (logged 7/28, not quietly dropped):** the "7/23-or-24 GovC — verify date" row was carried three sessions, **the date was never verified, and the window passed ungraded.** Low-cost (spreads benign at last read) but it is precisely the defect PROME's 7/25 frame-spec packet warned about — a leg keyed to an unverified event date cannot be graded when it fires. **Next action: verify the ECB 2026 GovC calendar from the ECB primary and re-docket with a confirmed date. Do not grade the missed window retroactively off secondaries.** Spread levels above are **[7/17 — 11 days stale]**; the EU leg is *not* actively monitored until re-docketed.
+
+
+---
+
+## Part E — Japan intervention → UST supply, adjudicated 8/15 (archived 2026-08-18)
+
+**Why archived:** the adjudication is CLOSED and its conclusion is carried forward in `workbook/FLOW.tsv` (`FL-BND-11`, status CONDITIONAL) and in the 8/31 MOF catalyst row. Retained here verbatim as the reasoning of record.
+
+## ★ Japan intervention → UST supply: ADJUDICATED 8/15 (the fork is closed on one branch and the custody scare is a round-trip)
+
+**`FL-BND-11` asserts that actual MOF intervention = mechanical UST reserve selling = a US long-end supply shock. That mechanism is now recorded as CONDITIONAL, and neither branch has been confirmed.**
+
+**① FIMA take-up for the 7/30-31 operation is measured ZERO** (`KB-BND-111`). SAM pulled H.4.1 *"Repurchase agreements — Foreign official"* across all four releases spanning the op — including the 8/06 release, which **contains both op days** — and every column reads zero. **Because the average-of-daily-figures column also reads zero, an intra-week draw taken and repaid between Wednesday snapshots is EXCLUDED, not merely unobserved.** SAM had shipped BOND the opposite ("funding via repo, not sales ⇒ yen-buying does not imply UST supply"); that rested on a Bessent quote about wanting the facility *upsized* and an MOF post citing it — **statements about availability, not readings of use.** ⛔ **This does NOT invert to "USTs were sold."**
+
+**② The custody "decline" is a ROUND-TRIP, and reading only the decline half inverts the conclusion** (`KB-BND-109`). SAM handed BOND the foreign-official UST custody lead explicitly (*"This is your domain. I am naming the instrument and the numbers, not the verdict."*). **Verdict, off 57 H.4.1 releases pulled from the Fed primary** (FRED's custody family was discontinued 2012 — that is a fact about FRED, not about the data):
+
+| Window | Δ Wed level | z | pctile |
+|---|---:|---:|---:|
+| **BUILD** 7/16 → 7/30 | **+58,716mn** | **+2.45** | **100th — largest 2wk build in the sample** |
+| **UNWIND** 7/30 → 8/13 | **−59,791mn** | **−1.68** | 2nd — largest 2wk decline in the sample |
+| **NET** 7/16 → 8/13 | **−1,075mn** | — | **≈ zero** |
+
+**The level went up by ~$59B into the ops and came straight back to where it started** — 8/13 (2,596,842) sits within **$1.1B** of 7/16 and **$0.4B** of 7/09. **The build is the more anomalous half**, and a round-trip of this shape is at least as consistent with a custodian/settlement artifact as with market transactions — the direction SAM's own three caveats (all foreign officials not Japan · redemptions cut custody with no sale · custodian shifts move balances with no transaction) already pointed. **Resolves the basis disagreement SAM flagged:** the weekly-**average** basis shows a five-week net of **+18,530mn** vs −1,075mn on the Wednesday basis — **opposite signs, same substance: no meaningful drawdown.**
+
+> ⚠️ **The secular decline is REAL and separate — do not let this finding be read as denying it.** The 8/13 release prints **YoY −257,964mn** on the same line. **The op window contributed approximately nothing to that trend.**
+> ⚠️ **Parser defect caught before publication** (`KB-BND-110`): the first-pass scraper silently skipped week/week changes under 1,000 and shifted a column onto the *agency debt* row, giving a base-rate stdev of 980,561 against a true **20,347**. The op-window rows were never affected — **what was wrong was the base rate I was about to grade against.** v2 fails loud on a band violation and reconciles the release's own printed Δ against my differenced averages: **0 mismatches in 56 consecutive pairs.**
+
+**Honest state: FUNDING CHANNEL UNRESOLVED.** Goldman's decomposition (~$200B of Japan's ~$1T in cash/equivalents) means a ~$53-60B round fits inside the cash sleeve **needing no UST transaction at all**. **Definitive public record: FRBNY Q3 FX quarterly ~11/13** (ESF/SOMA split, size, whether warehousing was used); independent size read **MOF monthly ~8/31**. **Until then FL-BND-11 must not be re-stated as automatic.**
+
+## ★ Term-premium label decomposition (7/18) — ARCHIVED, and PARTLY SUPERSEDED 8/18
+
+**Full text → `domain/sources/2026-08-18_STATUS_archive.md` Part C.** The 7/18 finding — that the +14bp 10Y move of **7/6→7/13** was ~80-90% expected-real-policy-path and ~0-7% term premium, on the decisive tell of a **belly-led bear-flattener** (5Y +16 > 10Y +14 > 30Y +11) — **stands for its own window and is not retracted.**
+
+⚠️ **What changed 8/18: the regime ROTATED after that window, and this desk had no instrument positioned to see it.** On FRED `THREEFYTP10` (daily Kim-Wright term premium, added to the dashboard 8/18), **7/13 → 8/07** gives a **long-end-led bear STEEPENER** — 2Y **−7bp**, 10Y +3bp, 30Y +9bp, with term premium **+2.5bp ≈ 83% of the 10Y move.** That is the opposite signature, on the same falsifier. **⇒ Cite the 7/18 decomposition as history, never as the current label** (`finding_claim_outlives_its_discredited_instrument` in reverse: the instrument is fine, the *window* expired).
+
+## Global Long-End — JGB/FX panel (new, channel 6)
+
+> **[7/16 re-scope — SAM v1.6.7 errata, KB-BND-079]** The "demand vacuum / lifers net sellers" framing below is **superseded**: SAM's base case is now **net-demand-POSITIVE** (Meiji floor auction-confirmed 7/7); the 30Y ~4.5% forced-seller tail is re-scoped to **J-GAAP statutory-impairment, mid-cap-concentrated (Fukoku/Asahi), DISORDERLY-only** — a thin conditional tail, not a fat reflexive one (DEWEY/WALTER SIG-W-20260710-004 concurs: ALM-buyer, not forced-seller). **BOND's Japan-as-term-premium-correlation-amplifier framing is unchanged and consistent** — my long-end tail work does NOT build on the old reflexive forced-seller mechanism. Do not re-cite it.
+
+Japan's super-long demand vacuum is real and worsening (6/25 20Y JGB BTC 2.97x = weakest since the May-2025 rout; lifers net sellers; rinban stepped down to ¥2.5T/mo **effective 7/1**; BOJ stood aside through an 8.8bp 30Y rout) — but the 6/20–7/1 window shows **duration decoupling, not competition**: after the weak JGB 20Y, USTs *rallied* four sessions to a 7-week low. The 6/30–7/1 co-selloff had different signatures (JP: pure super-long steepener, 2Y −3/30Y +9; US: near-parallel +4–7bp policy repricing). **The armed transmission leg is FX:** yen at 40-yr lows, record ¥11.7T already spent Apr–May, Mimura verbal warning 7/1 — *actual* MOF intervention = mechanical selling from $1T+ UST reserves. **Live watch: USD/JPY 165 · BOJ Fri 7/31.** *(The "7/2 10Y JGB auction" watch item sat here 26 days after it passed — removed 7/28. The 7/22 40Y JGB has since cleared FIRM, BTC 2.83, with no channel-6 export to the US 30Y.)* Full read → KB-BND-065.
+
+> **[7/16 DEFERRED — structural-demand corpus handoff, PROME routing 7/11]** HENRY handed BOND the UST structural-demand corpus (the term-premium "why" under the auctions): **ML-HEN-114/115** (Japan withdrawal $50–120B/yr, 30Y depth −30% [Mar vintage]), **FLOW-HEN-025 + VX-HEN-20.05** (Gulf recycling −$50–75B/yr [3/12]). All **Mar-vintage**; nobody owns the structural-demand layer in writing. **Refresh-or-retire deferred to a dedicated session** — it's the mechanism under my arm-#2 term-premium read but not urgent for the arm grades or the 4PM TIC. Owner: BOND.
+
+## New Coverage Baseline (7/1) — MBS/FHLB + EU rates → ARCHIVED 8/18
+
+**→ `domain/sources/2026-08-18_STATUS_archive.md` Part D.** VX-17 (MBS, score 1) · VX-18 (FHLB advances, 1) · VX-19 (EU rates, 2) — tracked in `workbook/VX.tsv` **outside the composite** until they earn matrix weight. ⚠️ **The EU leg is DORMANT, not merely stale:** spreads last read **7/17 (32 days)**, and the **ECB GovC calendar verify at the primary is still owed** — the 7/23 row passed ungraded for exactly that reason. **Re-docket with a verified date before grading anything on it.**

@@ -245,21 +245,33 @@ def fetch_fred(series_id: str) -> pd.Series:
         "file_type": "json",
         "observation_start": "2022-06-01",
     }
+    ok = False
     for attempt in range(4):
         try:
             r = requests.get(url, params=params, timeout=60)
             if r.status_code == 429:
                 wait = 2 ** attempt
-                print(f"[fred] 429 on {series_id}, backoff {wait}s")
+                print(f"[fred] 429 on {series_id}, backoff {wait}s", file=sys.stderr)
                 time.sleep(wait)
                 continue
             r.raise_for_status()
+            ok = True
             break
         except requests.RequestException as e:
             if attempt == 3:
                 raise
-            print(f"[fred] retry {series_id}: {e}")
+            print(f"[fred] retry {series_id}: {e}", file=sys.stderr)
             time.sleep(2 ** attempt)
+    # FIX 2026-08-18 (DAEDALUS defect 3): the loop previously exited on a
+    # 4x-429 exhaustion WITHOUT break and WITHOUT raising, so r.json() ran on
+    # the 429 body -> obs=[] -> an all-null tail column written at rc=0.
+    # A rate-limit exhaustion is a FAILURE and must be loud.
+    if not ok:
+        raise RuntimeError(
+            f"FRED rate-limited {series_id}: 4 consecutive 429s. "
+            "Refusing to continue -- silently returning an empty series here "
+            "writes an all-null enrichment column at exit code 0."
+        )
     obs = r.json().get("observations", [])
     df = pd.DataFrame([(o["date"], o["value"]) for o in obs], columns=["date", "yld"])
     df["date"] = pd.to_datetime(df["date"]).dt.date
@@ -277,16 +289,34 @@ def build_cmt_lookup() -> dict[str, pd.Series]:
     return out
 
 
-def _cmt_for(series: pd.Series, auction_date) -> float | None:
-    """Return CMT yield for auction_date; if missing (weekend, holiday,
-    or not-yet-published same-day close), fall back to the most recent
-    business day strictly prior."""
+# FIX 2026-08-18 (DAEDALUS defect 1): the fallback was UNBOUNDED and recorded
+# NO DATE, so a same-day close and a 90-day-old close wrote byte-identical
+# cmt_close_prior_day / tail_vs_cmt_bps cells. That column is an auction-tail
+# instrument, and BOND RETIRED the tail metric on 2026-07-28 as unscoreable
+# from primaries. It is now bounded, stamped, and explicitly non-gating.
+MAX_CMT_LOOKBACK_DAYS = 7
+
+
+def _cmt_for(series: pd.Series, auction_date):
+    """Return (yield, asof_date, lag_days) for auction_date.
+
+    Falls back to the most recent business day strictly prior, but ONLY within
+    MAX_CMT_LOOKBACK_DAYS. Past that bound it REFUSES (returns None) rather than
+    silently serving a stale close as if it were the auction-day close.
+    """
     if auction_date in series.index:
-        return float(series.loc[auction_date])
+        return float(series.loc[auction_date]), auction_date, 0
     prior = series.index[series.index < auction_date]
     if len(prior) == 0:
-        return None
-    return float(series.loc[prior.max()])
+        return None, None, None
+    asof = prior.max()
+    lag = (auction_date - asof).days
+    if lag > MAX_CMT_LOOKBACK_DAYS:
+        print(f"[cmt] REFUSED: nearest prior close for {auction_date} is {asof} "
+              f"({lag}d > {MAX_CMT_LOOKBACK_DAYS}d bound) -- writing null, not a stale value",
+              file=sys.stderr)
+        return None, None, None
+    return float(series.loc[asof]), asof, lag
 
 
 def enrich_v2(df: pd.DataFrame, cmt: dict[str, pd.Series]) -> pd.DataFrame:
@@ -297,15 +327,21 @@ def enrich_v2(df: pd.DataFrame, cmt: dict[str, pd.Series]) -> pd.DataFrame:
     tenors = df["tenor"].tolist()
     highs = df["high_yield"].tolist()
 
-    cmt_close, tail_bps = [], []
+    cmt_close, tail_bps, cmt_asof, cmt_lag = [], [], [], []
     for ad, t, hy in zip(dates, tenors, highs):
-        c = _cmt_for(cmt[t], ad) if t in cmt else None
+        c, asof, lag = _cmt_for(cmt[t], ad) if t in cmt else (None, None, None)
         cmt_close.append(c)
+        cmt_asof.append(asof)
+        cmt_lag.append(lag)
         if c is None or pd.isna(hy):
             tail_bps.append(None)
         else:
             tail_bps.append(round((float(hy) - c) * 100, 1))
     df["cmt_close_prior_day"] = cmt_close
+    # FIX 2026-08-18: cmt_asof / cmt_lag_days make the fallback VISIBLE. Without
+    # them a same-day close and a stale one are indistinguishable in the file.
+    df["cmt_asof"] = cmt_asof
+    df["cmt_lag_days"] = cmt_lag
     df["tail_vs_cmt_bps"] = tail_bps
 
     pda = pd.to_numeric(df["primary_dealer_accepted"], errors="coerce").fillna(0)
@@ -317,6 +353,62 @@ def enrich_v2(df: pd.DataFrame, cmt: dict[str, pd.Series]) -> pd.DataFrame:
     return df
 
 
+# --- write-safety helpers (added 2026-08-18 after DAEDALUS SFG sweep) --------
+
+REQUIRED_V1 = [
+    "auction_date", "tenor", "security_type", "cusip", "offering_amt",
+    "total_accepted", "high_yield", "bid_to_cover_ratio",
+    "primary_dealer_accepted", "direct_bidder_accepted",
+    "indirect_bidder_accepted",
+]
+REQUIRED_V2_EXTRA = [
+    "cmt_close_prior_day", "cmt_asof", "cmt_lag_days", "tail_vs_cmt_bps",
+    "total_competitive_accepted", "indirect_pct_of_competitive",
+]
+# A refresh may legitimately ADD rows; it may never lose more than a hair.
+MIN_ROW_RATIO = 0.95
+
+
+def _validate_or_die(df: pd.DataFrame, target: Path, label: str, required: list[str]) -> None:
+    """Refuse to write if the frame is empty, missing columns, or has shrunk.
+
+    This is the guard whose absence made a documented empty-200 response
+    DESTRUCTIVE rather than merely annoying.
+    """
+    if df is None or df.empty:
+        raise SystemExit(
+            f"[refresh] ABORT: {label} frame is EMPTY. Refusing to overwrite {target}. "
+            "This is the documented empty-200 path (a bad `fields=` projection returns "
+            "HTTP 200 with zero rows) -- the existing file is INTACT."
+        )
+    missing = [c for c in required if c not in df.columns]
+    if missing:
+        raise SystemExit(
+            f"[refresh] ABORT: {label} frame missing required columns {missing}. "
+            f"Refusing to overwrite {target}; existing file is INTACT."
+        )
+    if target.exists():
+        try:
+            prior = sum(1 for _ in open(target, encoding="utf-8")) - 1
+        except OSError:
+            prior = 0
+        if prior > 0 and len(df) < prior * MIN_ROW_RATIO:
+            raise SystemExit(
+                f"[refresh] ABORT: {label} would SHRINK {target} from {prior} to {len(df)} rows "
+                f"(< {MIN_ROW_RATIO:.0%}). Refusing. If this shrink is intended, delete the file "
+                "deliberately and re-run -- do not weaken this guard."
+            )
+    print(f"[refresh] {label} validated: {len(df)} rows, {len(df.columns)} cols")
+
+
+def _atomic_write(df: pd.DataFrame, target: Path, label: str) -> None:
+    """Write via .tmp + os.replace so a crash mid-write cannot truncate the file."""
+    tmp = target.with_suffix(target.suffix + ".tmp")
+    df.to_csv(tmp, index=False)
+    os.replace(tmp, target)
+    print(f"[refresh] wrote {label} -> {target} ({len(df)} rows)")
+
+
 def main() -> int:
     print(f"[refresh] pulling {START_DATE} -> {END_DATE} from FiscalData...")
     raw = fetch_all()
@@ -324,15 +416,22 @@ def main() -> int:
     out = transform(raw)
     print(f"[refresh] filtered rows (coupon notes/bonds, target tenors, with results): {len(out)}")
     OUTPUT_CSV.parent.mkdir(parents=True, exist_ok=True)
-    out.to_csv(OUTPUT_CSV, index=False)
-    print(f"[refresh] wrote v1 -> {OUTPUT_CSV}")
 
-    # v2: enrich with CMT-proxy tail and indirect-of-competitive.
+    # v2: enrich FIRST, so a failure in enrichment cannot leave a half-written pair.
     print("[refresh] fetching FRED CMT series for v2 enrichment...")
     cmt = build_cmt_lookup()
     out_v2 = enrich_v2(out, cmt)
-    out_v2.to_csv(OUTPUT_CSV_V2, index=False)
-    print(f"[refresh] wrote v2 -> {OUTPUT_CSV_V2}")
+
+    # FIX 2026-08-18 (DAEDALUS defect 2 -- the destructive one): this function
+    # previously called out.to_csv(OUTPUT_CSV) BEFORE any validation. The file's
+    # own docstring warns that a bad `fields=` projection returns HTTP 200 with
+    # ZERO rows; that path overwrote a good 370-row corpus with a header-only
+    # file and THEN raised a confusing KeyError in enrich_v2. Data destroyed
+    # first, error reported second. Now: validate -> .tmp -> os.replace.
+    _validate_or_die(out, OUTPUT_CSV, "v1", REQUIRED_V1)
+    _validate_or_die(out_v2, OUTPUT_CSV_V2, "v2", REQUIRED_V1 + REQUIRED_V2_EXTRA)
+    _atomic_write(out, OUTPUT_CSV, "v1")
+    _atomic_write(out_v2, OUTPUT_CSV_V2, "v2")
 
     # Quick sanity print.
     if not out.empty:
