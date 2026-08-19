@@ -45,6 +45,29 @@ SPECIAL = {
     "RAV":      "Deep factual/analytical reviewer + bounded repair (Codex, Will-driven)",
 }
 SPECIAL_HDR = ("SPECIAL — meta / cross-fleet (on-demand)", "\U0001F535")
+
+# ROSTER sections this renderer DELIBERATELY does not render. Derived by enumerating
+# PROME/ROSTER.md's '## ' headings 2026-08-19, not guessed. An unlisted section is a
+# hard error, not a skip: "skipped by design" and "the heading changed and the parser
+# stopped matching" produce identical output otherwise, and the second silently drops
+# real agents. OFF-FLEET (VIRGIL) is the live case that prompted this — Will-personal
+# sessions are correctly ungraded, but that correctness must be ASSERTED, not inferred
+# from the absence of a crash. (PAT-074: is 'nothing to report' distinguishable from
+# 'did not look?'.)
+NON_AGENT_SECTIONS = {
+    # NB: SPECIAL *is* rendered — from the hardcoded SPECIAL map above, because ROSTER
+    # carries it as prose with no table rows. So its heading is correctly not parsed here.
+    # This entry was ADDED after the guard's first run flagged it: proof the check fires,
+    # and a reminder that "rendered" and "parsed from this section" are different questions.
+    "SPECIAL":              "rendered from the SPECIAL map (ROSTER carries it as prose, no table rows)",
+    "OFF-FLEET":            "Will-personal sessions — ungraded by design (no class, no maturity level)",
+    "RETIRED":              "moved out of the live tree",
+    "ARCHIVE SOURCES":      "do not launch",
+    "TOOL-CLASS INSTRUMENTS": "not agents",
+    "Spinouts & promotions": "provenance prose",
+    "Coverage notes":       "explicit-unowned gaps",
+    "Transmission chain":   "reference prose",
+}
 DROP = {"HERMES"}  # retired (folder removed); directory lists LIVE agents only.
 
 
@@ -56,11 +79,24 @@ def parse_roster(path):
     if not path.exists():
         die(f"ROSTER not found at {path}")
     agents, cur = {}, None
+    seen_heads, skipped = [], []
     for raw in path.read_text(encoding="utf-8").splitlines():
         line = raw.strip()
         if line.startswith("## "):
             head = line[3:].strip()
             cur = next((k for k in GROUPS if head.startswith(k)), None)
+            seen_heads.append(head)
+            if cur is None:
+                # A section we do not render. It must be a section we KNOW we don't
+                # render — never merely one we failed to match. Silent skip and
+                # broken-parser are otherwise the same observable (PAT-074).
+                key = next((k for k in NON_AGENT_SECTIONS if head.startswith(k)), None)
+                if key is None:
+                    die(f"UNRECOGNISED ROSTER section {head!r} — it is neither a rendered "
+                        f"group {sorted(GROUPS)} nor a known non-agent section "
+                        f"{sorted(NON_AGENT_SECTIONS)}. Any agent rows under it are being "
+                        f"DROPPED SILENTLY. Add it to one list or the other (STRUCTURAL).")
+                skipped.append(key)
             continue
         if cur and line.startswith("|"):
             cells = [c.strip() for c in line.strip("|").split("|")]
@@ -74,7 +110,7 @@ def parse_roster(path):
             agents[name] = (cur, domain)          # preserves file order
     if not agents:
         die("no agent rows parsed from ROSTER — table format may have changed (STRUCTURAL)")
-    return agents
+    return agents, skipped
 
 
 def parse_fleetmap(path):
@@ -119,7 +155,7 @@ def row(agent, klass, lvl, does, missing):
 
 
 def main():
-    roster = parse_roster(ROSTER)
+    roster, skipped_sections = parse_roster(ROSTER)
     fleet = parse_fleetmap(FLEETMAP)
 
     # Reliability guard: every FLEET_MAP agent absent from ROSTER tables MUST be handled.
@@ -192,6 +228,10 @@ def main():
     OUT.write_text("\n".join(L), encoding="utf-8")
     total = sum(counts.values())
     print(f"wrote {OUT.relative_to(REPO)}  ({total} agents: {counts}; dropped {sorted(DROP)})")
+    # State what was deliberately NOT rendered, every run. An unreported skip is
+    # indistinguishable from a parser that quietly stopped matching a heading.
+    for key in sorted(set(skipped_sections)):
+        print(f"   not rendered by design — {key}: {NON_AGENT_SECTIONS[key]}")
     if ungraded:
         print(f"⚠️  REVERSE-GUARD: {len(ungraded)} ACTIVE/TIER-2 agent(s) have NO FLEET_MAP row: "
               f"{sorted(ungraded)} — rendered ⚠️ UNGRADED; register them (PAT-047 tail)")
