@@ -113,7 +113,17 @@ Rules: **(a)** never compare a ratio across sources without saying whether the d
 
 ⚠️ **Your seed data partly undercuts your own thesis, and that is written into the rail as its first entry.** From `MI3_FLG.tsv`, 2023-09-30 → 2026-06-30: total assets **$111.17B → $87.71B (−21.1%)**, total loans **$85.92B → $61.19B (−28.8%)**, MI3 `v1_pct` **5.28% → 3.65%**. The bank is shrinking hard and the MI3 measure is falling. **A thesis that reads 327.5% as pure danger owes an explanation of the contraction underneath it.**
 
-⚠️ **Open construct-validity question, unresolved at build — do not register a concentration threshold before answering it.** CRE concentration is `CRE / total risk-based capital`. If the easier-to-exit assets ran off first, **the ratio can RISE while absolute CRE risk FALLS**, because multifamily is the stickiest part of a shrinking book. This is PAT-090 inverted. It is a question about **REGINALD's instrument**, routed to REGINALD at build (`inbox/` packet, 2026-08-20) — it is **not** a refutation and you must not present it as one. Answer it with the CRE-composition and capital series before any threshold registers.
+✅ **RESOLVED 2026-08-20 — the construct-validity question was ANSWERED AND REFUTED, same evening, by REGINALD at the primary** (`fb1f68659`, matrix §3b, verified at artifact). The hypothesis was that the ratio might be rising on a shrinking denominator. It is not:
+
+| | 2023Q3 | 2026Q2 | |
+|---|---:|---:|---|
+| CRE numerator (constr + MF + non-OO) | $48.33B | **$32.76B** | **−32.2%** |
+| Total risk-based capital (the denominator) | $10.27B | $10.00B | **−2.6% — FLAT** |
+| **SR 07-1 ratio** | **470.5%** | **327.5%** | **−143pp, fell in ALL 11 quarters** |
+
+**The denominator held, so the artifact is arithmetically impossible here.** The composition intuition was right — multifamily *is* the stickiest leg (MF **−28.6%** vs construction **−55.6%**, non-OO **−40.8%**) — it just does not produce the artifact.
+
+🔴 **But the answer changed the read, and this is now your starting instruction.** Channel 1 is **LEVEL-high and TRAJECTORY-de-risking**: 327.5% is genuinely above the 300% line today, and it has fallen monotonically for eleven quarters, crossing below 300% in ~2 quarters at this rate. **Reading "cohort-worst CRE concentration" as *deterioration* is WRONG.** ⚠️ **The load-bearing figure on this desk is the 29% ACL/nonaccrual COVERAGE, not the 4.88% nonaccrual rate and not the composite 6/6** — nonaccruals are past peak and improving (5.49% → 4.88%) while ACL has fallen in **every one of 8 quarters** ($1.27B → $0.87B), a drawdown ~1.7× faster than the problem book resolves, against a still-$3.0B nonaccrual book. **Start from coverage. The headline number and the actionable number are different on this name.**
 
 - **Channel-kill vs thesis-kill** (blueprint §4): a dead concentration leg does not kill the credit-quality leg. Say which channel died and name the migration path.
 - **Bidirectional flip:** name the single read that falsifies your stance in BOTH directions, testable at the next print.

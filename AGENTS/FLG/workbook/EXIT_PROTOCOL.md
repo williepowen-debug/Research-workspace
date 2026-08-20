@@ -1,6 +1,6 @@
 # FLG — EXIT PROTOCOL (kill rail)
 
-**Kill rail re-derived: 2026-08-20** *(this in-content stamp is the vintage the Falsification Freshness Sweep dates from — never mtime, PAT-039/044)*
+**Kill rail re-derived: 2026-08-20 (evening — re-stamped after K-2 was tested and REFUTED at the primary; see K-2 and the re-derivation log)** *(this in-content stamp is the vintage the Falsification Freshness Sweep dates from — never mtime, PAT-039/044)*
 **Author:** DAEDALUS at build · **Status:** ⚠️ **PROVISIONAL — authored against the SEED, not against a thesis.** `THESIS.md` is v0.1 (a skeleton of open questions), so these legs kill a *stance*, not a finished thesis. **FLG re-derives this rail at first live session and re-stamps it.** Until then, cite it as build scaffolding.
 
 ---
@@ -41,7 +41,9 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 | **If it fires** | Channel-kill on concentration. The credit-quality channel (K-3) survives independently |
 | **Migration path** | Drop concentration to a reported-not-scored channel; the thesis migrates onto nonaccrual + coverage |
 
-⚠️ **This is the OPEN CONSTRUCT-VALIDITY QUESTION from the charter, in kill-leg form.** It is unresolved at build and routed to REGINALD. **No concentration threshold registers before it is answered.**
+✅ **K-2 IS RESOLVED — FIRED AND REFUTED, 2026-08-20, before it was ever load-bearing.** REGINALD tested it at the primary (`fb1f68659`, matrix §3b): the CRE numerator fell **−32.2%** ($48.33B → $32.76B) while total risk-based capital held **flat at −2.6%** ($10.27B → $10.00B), so the ratio fell **−143pp in all 11 quarters**. The denominator did not shrink; the artifact is arithmetically impossible on this name. **K-2 is retained, not deleted** — it records a leg that was tested and died, which is the point of a kill rail.
+
+🔴 **What replaces it is stronger, and it is now K-3's job:** channel 1 is **de-risking** (level high, trajectory monotonic down, ~2 quarters from crossing 300%), so the concentration channel is NOT where this thesis lives. **The live signal is COVERAGE** — see K-3, and re-read it as the desk's primary leg rather than its secondary one.
 
 ---
 
@@ -53,10 +55,14 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 | **Instrument** | Nonaccrual / total loans; ACL / nonaccrual — both from the Call Report |
 | **Kill condition** | Nonaccrual rate below the **cohort median** for 2 consecutive filed quarters **OR** ACL/nonaccrual coverage above 100% for 2 consecutive filed quarters |
 | **What HEALTHY looks like** | Both ratios present and moving quarter to quarter. **Coverage pinned at an identical value across quarters is a parse failure, not stability** — check the underlying cells |
-| **If it fires** | Channel-kill on credit quality. Concentration (K-2) survives independently |
+| **If it fires** | Channel-kill on credit quality — **and since K-2 died 2026-08-20 and channel 1 is de-risking, this is now the LAST live leg: if K-3 fires the thesis has no channel left.** Treat a K-3 fire as a thesis-kill, not a channel-kill |
 | **Migration path** | Thesis migrates onto the concentration + rent-regulation mechanism alone — **which is weaker, and say so at the time** |
 
-*Seed reads: nonaccrual 4.88% vs cohort median ~0.89% (implied by REGINALD's "5.5× the median"); coverage 29%. Both are MIRROR-grade and re-verify at first live session.*
+🔴 **K-3 IS NOW THE DESK'S PRIMARY LEG (promoted 2026-08-20 evening).** REGINALD's §3b re-read: nonaccrual is **past peak and improving** (5.49% [25Q3] → 4.88%), while **ACL has fallen in every one of 8 quarters** ($1.27B [24Q2] → $0.87B) and coverage went **87% [24Q1] → 29%, monotonic**. The reserve is being drawn down **~1.7× faster than the problem book resolves** (ACL −26% vs nonaccrual −15% off respective peaks), against a still-**$3.0B** nonaccrual book.
+
+⚠️ **ADD AN INSTRUMENT THIS LEG DID NOT HAVE: ACL in DOLLARS, not just the coverage ratio.** A ratio can improve because the numerator rebuilds *or* because the denominator resolves away — opposite meanings, identical arithmetic. That discriminator is the whole finding, and the rail could not express it before today.
+
+*Seed reads: nonaccrual 4.88% vs cohort median ~0.89% (implied by REGINALD's "5.5× the median"); coverage 29%. MIRROR-grade — re-verify at first live session.*
 
 ---
 
@@ -83,8 +89,10 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 
 | Direction | The single read | Threshold |
 |---|---|---|
-| **Confirms the stance** | ACL/nonaccrual coverage falls further while nonaccrual rises | coverage < 29% **and** nonaccrual > 4.88%, same filing |
-| **Falsifies the stance** | Coverage rebuilds while loans stop shrinking | coverage > 50% **or** `loans_qoq_pct > 0`, same filing |
+| **Confirms the stance** | Coverage keeps falling — **regardless of the nonaccrual direction** | coverage **< 29%** at the filing |
+| **Falsifies the stance** | Coverage rebuilds, **or ACL in dollars stops falling** | coverage **> 50%**, **or** ACL$ flat-to-up QoQ |
+
+⚠️ **CORRECTED 2026-08-20 evening — the original confirm-leg was a compound gate that could not fire on the actual signal.** It read *"coverage < 29% **AND** nonaccrual > 4.88%"*, requiring nonaccruals to RISE. REGINALD's §3b then measured nonaccruals **past peak and falling** — so the observed pattern (reserve drawn down while the problem book slowly resolves) would have satisfied the coverage leg and **failed the gate**, exactly PAT-072: legs that are individually reasonable and jointly unsatisfiable in the only state that matters. **The `AND` was doing no work except suppressing the fire.** Both legs are now single-clause and the ACL-dollars discriminator carries the nuance the conjunction was pretending to.
 
 **Both readings come off ONE filing, and neither needs an intervening judgment.** That is the property to preserve when this rail is re-derived.
 
@@ -104,4 +112,5 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 | Date | By | What changed |
 |---|---|---|
 | 2026-08-20 | DAEDALUS (build) | Rail authored against seed evidence. PROVISIONAL — no thesis exists yet. K-1 flagged one quarter from firing. |
+| 2026-08-20 evening | DAEDALUS (post-build) | **K-2 tested at the primary by REGINALD (`fb1f68659`, matrix §3b) and REFUTED** — CRE numerator −32.2%, capital flat −2.6%, ratio −143pp across all 11 quarters. K-2 retained-and-marked, not deleted. **K-3 promoted to primary leg** with a new ACL-in-dollars instrument. **Bidirectional confirm-leg corrected** — its `AND` was jointly unsatisfiable against the pattern REGINALD identified (PAT-072, in a rail I authored). Rail re-stamped. |
 | *(next)* | FLG, first live session | **Re-derive against `THESIS.md` v1.0, re-verify every seed figure at a primary, re-stamp the date above.** |
