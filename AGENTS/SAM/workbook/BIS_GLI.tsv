@@ -1,0 +1,4 @@
+period	series_id	label	value_jpy_tn	value_usd_bn	borrowers_cty	instrument	source	basis	pulled_at
+2026-Q1	JPY_CREDIT_NONBANK_EXJP	JPY denominated credit (bank loans & debt securities) to non-bank borrowers located outside Japan	65.83	414.9	3P	loans+debt_secs	BIS WS_GLI (stats.bis.org/api/v1)	stock, quarterly	2026-08-20T11:01
+2026-Q1	JPY_LOANS_NONBANK_EXJP	JPY denominated bank loans to non-bank borrowers located outside Japan	42.01	264.8	3P	bank_loans	BIS WS_GLI (stats.bis.org/api/v1)	stock, quarterly	2026-08-20T11:01
+2026-Q1	JPY_DEBTSEC_NONBANK_EXJP	JPY denominated international debt securities issued by non-bank borrowers located outside Japan	23.82	150.2	3P	intl_debt_secs	BIS WS_GLI (stats.bis.org/api/v1)	stock, quarterly	2026-08-20T11:01

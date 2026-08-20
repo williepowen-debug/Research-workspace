@@ -8,6 +8,18 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-08-20 (later) — **`bis_gli.py` + `workbook/BIS_GLI.tsv`: the carry-trade scale question becomes an INSTRUMENT rather than a hand-pull**
+
+**WHY.** The BIS figure that killed the v2.0 candidate's §2 was a one-off manual pull. **A load-bearing number that only exists in a session transcript is not reproducible** ([[finding_loadbearing_number_must_be_reproducible]]), and this one now sits under a retired thesis argument that RED, BOND and NEXUS may all cite.
+
+**BUILT `scripts/bis_gli.py`** — BIS SDMX `WS_GLI` (`stats.bis.org/api/v1`, **no auth, QUARTERLY, ~1-quarter lag**). Writes three series to `workbook/BIS_GLI.tsv`: JPY credit to non-bank borrowers outside Japan (total / bank loans / intl debt securities). **Two-clock** (BIS observation period stored separately from `pulled_at`), **idempotent by (period, series_id)**.
+
+🔑 **THE GUARD THAT MATTERS: a UNIT ANCHOR that hard-stops.** BIS reports `UNIT_MULT`, and misreading it puts every figure out by a factor of 10ⁿ — which would have been invisible because the number would still look plausible. The script checks the same table's **JPY credit to the Japanese government against a known ~¥1,280T** and **exits without writing** if it falls outside ¥900-1,800T. *(That check is why the 2026-08-20 number could be trusted at all — it was run by hand first, then wired in.)* Missing series are **skipped, never written as zero**.
+
+**BOOT IMPACT: none — manual-only, and recorded as such in `CLAUDE.md`'s manual-only register.** BIS is quarterly; a daily boot pull would be noise. Run it when the scale question is live.
+
+---
+
 ## 2026-08-20 — **SUB-AGENT STATE FILES GET A CAP AND A ROLL-OFF** (Will-directed) · `boj_ois.py` source-impeachment at row/writer/console · 2 new scripts · 3 new archives · manual-only script register
 
 **WHY.** Will asked whether the sub-agents update their files and whether they need a closeout. **The WRITE step always worked** — all three wrote today (+451 lines). **The defect was that the closeout had a WRITE step and NO PRUNE step**, so `PENDING from Run N` blocks and per-run history accumulated forever. **SAM's own surfaces are capped (STATUS 250 lines, MEMORY 100); the sub-agents had no equivalent and nobody had noticed.**

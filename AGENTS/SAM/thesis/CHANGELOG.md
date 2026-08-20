@@ -8,6 +8,26 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-20 — 🕯️ **v2.0 CANDIDATE OPENED (Will-directed) AND ITS OWN PRE-REGISTERED KILLER FIRED THE SAME DAY.** **NO version change — THESIS v1.7 stands, book FLAT, $0 at risk. Nothing was ever built on the candidate.**
+
+**WHAT CHANGED:** after seven weeks of deliberately refusing to name a successor, Will directed the build. `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` opened — **"flow sets the LEVEL, positioning sets the VOLATILITY."** **Old view:** the record speculative short was "fuel" that would deliver yen strength when a trigger fired (v1.6, dead 8/7). **Candidate view:** I was reading a **volatility** instrument as a **level** instrument — same series, wrong dependent variable.
+
+**THE ARGUMENT IT RESTED ON:** a scale computation never run in two months of grading a LEVEL thesis on that series. CME JPY futures are ¥12.5m notional ⇒ the **all-time-record short was ¥2.35T ≈ $14.8B** = **28% of ONE intervention day**, **~1.0× the last four weeks of structural outflow**, **~3% of the unhedged Japanese foreign-bond book** ($370-550B).
+
+🔴 **AND THE SAME DAY, K1 FIRED AGAINST IT.** §5 named its own killer **as a number, before any data existed**: *"At $14.8B the arithmetic holds; at $300–500B it INVERTS and §3 collapses."* Pulled at the BIS SDMX primary (`WS_GLI`, own pull, **2026-Q1**): **JPY credit to non-bank borrowers OUTSIDE JAPAN = ¥65.83T = $414.9B.** ⇒ **K1 FIRES. The yen-borrowing universe is 28× the CFTC proxy, which captures ~3.5% of it. §2 IS DEAD AS WRITTEN and was NOT rescued** — the candidate's own instruction was *"say so rather than reach for a rescue."*
+
+⚠️ **WORSE THAN A DEAD ARGUMENT — IT SUPPLIES A RIVAL MECHANISM THAT FITS §4 BETTER:** if only ~3.5% of the trade was ever visible in futures, the 8/7 "collapse" unwound **~3.5% of the position**, and **the level held because ALMOST NOTHING UNWOUND** — not because positioning is too small to move it. **§4 cannot discriminate between the two**, which is exactly the *"a FIT, not a test"* weakness disclosed to RED in advance, now **demonstrated rather than suspected**.
+
+⛔ **NOT OVER-RETRACTED:** BIS yen credit to non-residents is **NOT the carry trade** — includes trade finance / yen-revenue corporates / euroyen with no carry motive (**upper bound**), **EXCLUDES FX SWAPS ENTIRELY** (incomplete the other way), and is a **STOCK not a position**. **Decisive on ORDER OF MAGNITUDE, which is all §5 asked; never to be cited as carry positioning.**
+
+**ANALYTICAL CONSEQUENCE:** ⚰️ **Pillar 4 as a LEVEL argument is retired PERMANENTLY** — wrong category, not merely unfired — **and that survives the candidate's own collapse**, because it rests on the 8/7 record (the fuel burned and the level went the wrong way), not on §2's arithmetic. **The successor question is RE-OPENED, not answered.** RED redirected mid-blind-pass to press §3/§4 and the meta-question of whether to **KILL** the candidate outright; SAM's self-attack list remains **SEALED**.
+
+**INSTRUMENT ADDED:** `scripts/bis_gli.py` → `workbook/BIS_GLI.tsv` (two-clock, idempotent, **hard-stops rather than writing a figure wrong by 10ⁿ** if its unit anchor — JPY credit to the Japanese government ≈ ¥1,280T — fails). BIS is **quarterly, ~1-quarter lag, no auth**; the morning's *"semi-annual and heavily lagged"* framing was wrong on both counts.
+
+**WHAT ACTUALLY WORKED, recorded because it is the only part that did:** the blocker was named in advance, the inversion threshold was written **as a number before the data existed**, one pull settled it, and **a pre-registered killer fired against its own author within six hours with the disposition already written down so it could not be negotiated with.** *The thesis was wrong; the rails were not.*
+
+---
+
 ## 2026-08-17 — 🔴 **THE CURVE-SHAPE READ IS RE-OPENED: a second long-end-led session, on a WEAK growth print, with the 30Y OUT of round-trip range.** **NO version change — THESIS v1.7 stands and the attribution is deliberately left OPEN.**
 
 **Old view → new view.** **OLD (8/10 + 8/13, both recorded here):** the regime is **BOJ hike PULL-FORWARD** — front-led flattening (2Y +13.9bp vs 30Y +0.7bp over 7/31→8/12), with the 8/7→8/12 long-end-led session graded a **give-back** and the 30Y at 3.989% correctly graded a **ROUND-TRIP** (8/4 printed 3.990). **NEW:** that reading **no longer covers two of the last three sessions**, and the round-trip escape is gone. **Attribution is re-opened as an explicit OPEN QUESTION — pull-forward vs fiscal/term-premium — and is NOT re-marked.**
