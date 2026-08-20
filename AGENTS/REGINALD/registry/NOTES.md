@@ -39,6 +39,35 @@ Different questions of the same series ⇒ different levels are correct, not a c
 
 **Chain provenance.** Reads `REGINALD action / WAL action / Will` as of 2026-07-29. The `WAL action` leg was added post-WAL-promotion by **RAV Codex** (Will's outside continuity tool, commit `383bf581`), WALTER diff-verified 7/30 (`SIG-W-20260730-008`), and **re-verified at source by REGINALD 7/30** rather than accepted on the relay. No further edit is owed; WALTER's 7/25 packets asking for it are **superseded**.
 
+### ⚖️ STATE RULING 2026-08-20 (owner, REGINALD) — **`REG-T-02` is `UN-FIRED`. Exited 2026-06-30.**
+
+**State token for cross-desk records: `UN-FIRED (exited 2026-06-30; prior cycle 2026-05-11 → 2026-06-30)`.**
+
+**Asked by PROME 8/20 with WAL at $79.15 (+$1.15 from the line) and a live fire procedure staged. Ruled on the TAPE, not on the record conflict — the exit condition is a number and the number is gradeable.**
+
+**Full state history, graded close-by-close against the registered spec** (`WAL-PRICE < 78`, sustain 1 daily close; exit `WAL ≥ 81.90 on 3 consecutive daily closes`), instrument `market.py` → Yahoo `WAL`, regular-session close unadjusted:
+
+| Date | Close | Event |
+|---|---:|---|
+| **2026-05-11** | **76.95** | 🔴 **FIRED** — first close <78. **WALTER's 7/27 claim that it fired 5/11 is CORRECT.** |
+| 5/12 → 6/03 | 77.56 · 74.97 · 75.93 · 74.42 · 76.59 · 76.11 · 77.03 · 77.75 | **8 further sub-78 closes — these are RE-ENTRIES INSIDE the fired state, NOT 8 separate fires.** A trigger with an exit condition is a state machine, not an event counter. |
+| 6/26 · 6/29 | 82.05 · 82.88 | exit run 1, 2 |
+| **2026-06-30** | **82.20** | ✅ **EXITED — 3rd consecutive close ≥ 81.90.** State returns to `UN-FIRED`. |
+| 7/27-28 · 8/05 | — | exit condition satisfied twice more — **no-ops, already un-fired.** |
+| **2026-08-20** | **79.15** | `UN-FIRED`, **+$1.15 above the line.** |
+
+⇒ **A close <78 from 2026-08-21 onward is a FIRST FIRE OF A NEW CYCLE — a fresh signal. Full `V1V3-ACCELERATE` alert to `REGINALD action / WAL action / Will`. NO duplicate-suppression applies.** (PROME's Reading A.)
+
+**⚠️ I am adopting the reading TERRY declined *because it was convenient* — so the grounds matter, and they are not convenience:**
+1. **It is what the tape says.** The exit is a registered number; it was met on 6/30 and twice since. This is a measurement, not a judgment.
+2. **It is also the SAFER error.** Reading A produces MORE alerting (a fresh full-chain alert), Reading B produces LESS (suppressed as duplicate). On a trigger whose action is `V1V3-ACCELERATE` with Will on the chain, **the costly error is the missed signal, not the extra one.** Convenient and conservative point the same way here; that coincidence does not make it wrong.
+
+**⚠️ Retroactivity, addressed rather than assumed.** The exit spec was written **2026-08-13**; the exit event was **2026-06-30**. I rule the spec applies retroactively, because it was written as a **definition of when this trigger's state resets**, not as a policy with an effective date — and the alternative is absurd: with no retroactive application the trigger would be **permanently fired from 5/11 with no reachable reset**, which was plainly not the intent of writing an exit at all. *(This is the `finding_threshold_level_is_a_measurement_not_a_constant` family — the level was FROZEN; the state derived from it is TRACKED.)*
+
+**⚠️ Both halves of WALTER's live board are wrong, in opposite directions** — *"ZERO FIRES"* (it fired 5/11) and *"still between fire and exit"* (it exited 6/30). **Neither is a reading of the tape; both are artifacts of a fire-ledger that recorded neither the fire nor the exit.** ⇒ **`REG-T` fire-ledger state must be graded against the instrument, never inherited from a board summary** — flagged to PROME for WALTER, not fixed here (not my file).
+
+⚠️ **Base rate, for whoever sizes the alert:** TERRY measured 49/248 sessions ≤ −1.45% ⇒ **~1-in-5 chance of firing on any given day from $79.15.** This is a near-trigger band, not a remote tail. **The 9 sub-78 closes in the 5/11→6/03 cycle are the precedent: when it fires it tends to STAY in the band, so expect re-entries and suppress them under this ruling, not fresh alerts.**
+
 ⚠️ **Sustain is 1 — if it fires, it fires SAME-DAY**, with REGINALD + WAL + Will all on `action`. WAL has been oscillating around the ~5% near-trigger band. **WAL-specific analysis belongs to `../WAL/`;** REGINALD keeps the matrix row and cohort context only.
 
 ---
