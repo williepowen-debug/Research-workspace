@@ -69,7 +69,7 @@ The subject being "the system" does **not** make an agent meta — WALTER and NE
 ---
 
 ## MATURITY CEILING (per `SPEC.md §5`)
-**L3** role rubric applied consistently · **L4** output consumed by others (the CONTRACT proven — *qualitative proof counts; un-instrumentable consumption is a ceiling NOTE, not a debt, PAT-028*) · **L5** clean closeouts, zero YEYOU flags (**waivable-when-dormant** — Will 7/22, SPEC §5; this variant missed the 7/22 encode while holding the unblocked candidate WALTER — fixed 2026-08-17, self-audit F24), current. Floor L0–L2 universal (skeleton → live STATUS+BOTTOM LINE → accruing structured record).
+**L3** role rubric applied consistently · **L4** output consumed by others (the CONTRACT proven — *qualitative proof counts; un-instrumentable consumption is a ceiling NOTE, not a debt, PAT-028*) · **L5** clean closeouts, zero YEYOU flags (**waivable-when-dormant** — Will 7/22, SPEC §5; this variant missed the 7/22 encode while holding the unblocked candidate WALTER — fixed 2026-08-17, self-audit F24), current. Floor L0–L2 universal (skeleton → live STATUS+BOTTOM LINE → accruing structured record). **Adjudication form (Will-ruled 2026-08-20): every ladder leg gets a per-leg verdict row (PASS / FAIL / WAIVED-cite / NOT-ADJUDICATED) at grade time — canonical text in `UPGRADE_PROTOCOL.md` §Review method rule 2.**
 
 ## SOURCING (best-of-breed)
 WALTER (delivery infra + telemetry, exemplar) · NEXUS (synthesis disciplines + independence) · RED (adversarial structure) · YEYOU (severity scale + escalation budget + ledger) · ORACLE (boot↔closeout + calibration). No single agent is the whole standard.

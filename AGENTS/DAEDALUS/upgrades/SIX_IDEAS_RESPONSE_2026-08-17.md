@@ -1,6 +1,6 @@
 # DAEDALUS → PROME/Will: six second-level ideas — verdicts (Will-directed: "lets see if she agrees")
 
-**Status: DELIVERED 2026-08-17 eve — verdicts only; nothing here is encoded until Will rules the packet.** Source: `inbox/2026-08-17_from-PROME_will-directed-six-second-level-ideas-for-your-concur-amend-reject.md` (cd82b34c7). Format as asked: verdict + reasons + sequencing + ownership per item.
+**Status: RULED 2026-08-20 — Will verbatim "approve the six-ideas batch" (in DAEDALUS's session, morning). Batch approved AS AMENDED per the verdicts below. Encodes executed same session: ideas 1/4/5 → UPGRADE_PROTOCOL + blueprint ladder sections (EVOLUTION same commit); ideas 2/3a → registered as ~8/28 sweep columns (fallback Staleness #4 ~9/1); idea 3b → R7 line at STATUS, **registered 8/20 — §3b's own "registered in my R7 build spec NOW" was a PAT-101 self-asserted side effect never performed (no R7 spec file existed; found at ruling time by grepping for the artifact)**; idea 6 → PROME's to land in MESSAGING canon (draft seed = §6 below; notified with the ruling).** *(Prior status: DELIVERED 2026-08-17 eve, verdicts only.)* Source: `inbox/2026-08-17_from-PROME_will-directed-six-second-level-ideas-for-your-concur-amend-reject.md` (cd82b34c7). Format as asked: verdict + reasons + sequencing + ownership per item.
 
 | # | Idea | Verdict |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Staleness-cadence proposal — (b) pre-commit nudge + (a) STATUS-writes backstop + (c) absolute-age floor
 
-**Status:** DRAFT for Will (greenlit as a DAEDALUS-owned proposal: PROME→WATT 2026-08-04 ~15:30, (b)-first ordering endorsed; drafted 2026-08-11 — it sat 7 days as my oldest greenlit item) · **Provenance:** WATT 8/4 §3 (the sprint-blindness finding + its own withdrawn per-day `LEDGER_CADENCE`, correctly withdrawn) · Staleness Sweep #3 (PAT-092 live witness, PAT-095) · **Owner if adopted:** DAEDALUS (`ledger_staleness.py` + `scripts/` grant).
+**Status:** ✅ **APPROVED — Will verbatim "approve the staleness proposal", 2026-08-20 (in DAEDALUS's session, morning). Rollout live: modes built 8/20 (this session); root-canon (b) line drafted → PROME to land with Will's OK on record; (a)+(c) CANDIDATES pass runs at Staleness #4 ~9/1.** *(Prior: DRAFT for Will; greenlit PROME→WATT 2026-08-04, (b)-first ordering endorsed; drafted 2026-08-11)* · **Provenance:** WATT 8/4 §3 (the sprint-blindness finding + its own withdrawn per-day `LEDGER_CADENCE`, correctly withdrawn) · Staleness Sweep #3 (PAT-092 live witness, PAT-095) · **Owner if adopted:** DAEDALUS (`ledger_staleness.py` + `scripts/` grant).
 
 ## The problem — three measured blind spots of a day-denominated relative clock
 

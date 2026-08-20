@@ -118,3 +118,7 @@ End STATUS.md with 2–4 plain-language sentences: domain state now, the single 
 ---
 
 *Open for Will: §3 reconciliation (durable-rule-vs-live-value split) is a design call, not a harvested fact — veto-able.*
+
+## 9. Grading (promotion adjudications)
+
+**Adjudication form (Will-ruled 2026-08-20): every ladder leg gets a per-leg verdict row (PASS / FAIL / WAIVED-cite / NOT-ADJUDICATED) at grade time — a skipped leg reads as a visible blank, never an omission. Canonical text in `UPGRADE_PROTOCOL.md` §Review method rule 2.** (The market ladder itself lives in DAEDALUS `CLAUDE.md` §MATURITY LADDER — cite, don't restate.)

@@ -7,6 +7,10 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-08-20 (b) — Six-ideas batch RULED and encoded: review-method section + per-leg verdicts + meta-L5 mirror fix
+
+**Occasion:** Will ruled the 8/17 six-ideas packet ("approve the six-ideas batch", in-session). Encoded same sitting: **UPGRADE_PROTOCOL gains §Review method** — reciprocal blind review (idea 1, event-triggered, PROME↔DAEDALUS default) · per-leg promotion verdicts (idea 4, PASS/FAIL/WAIVED-cite/NOT-ADJUDICATED, first live use PROME L5 confirm ~9/6) · RAV out-of-family lens as Will-exercised OPTION (idea 5, never a cadence). All three blueprint variants gain the one-line idea-4 mirror (market gains a §9 Grading stub for it — it had no grading section). **meta-agent.md L5 mirror fixed:** the "+ roadmap live" leg W1 struck 8/17 was still in the variant — 3-day charter/blueprint lag, the PAT-068 mirror-walk class. Ideas 2/3a ride ~8/28 as sweep columns (fallback Staleness #4); idea 3b's scope registered in the R7 line at STATUS **today** — the 8/17 verdict's "registered NOW" claim was a PAT-101 self-asserted side effect never performed, found at ruling time by grepping for the artifact; idea 6 is PROME's to land in MESSAGING canon.
+
 ### 2026-08-20 — STATE_VOCABULARY Class 7: gate-registry envelope scannability (Will-ruled same day)
 
 **Occasion:** the gate-registry adjudication (`design/2026-08-20_GATE_REGISTRY_ADJUDICATION.md`, Will: "Approved - packet PROME and queue the check build"). The ruled design types `PROME/GATES.tsv`'s new `scannable` column; a machine-read state cell on a shared surface is an interface (PAT-075), so the tokens are registered before the first surface ships them. Class 7 = `INSTRUMENT` / `JUDGEMENT` / `OWNED-ELSEWHERE`, each with the grading obligation it creates, plus the envelope-not-letter rule (PAT-006 n+3) in the class body. Enforcement-map row added: `registry_chain_check` is the ruled arm, UNBUILT, queued after docket_view; interim = PROME gates-hygiene (review_by) + WALTER boot (INSTRUMENT rows). Desk registries exempt-by-form, CREED `band_status` spellings grandfathered.

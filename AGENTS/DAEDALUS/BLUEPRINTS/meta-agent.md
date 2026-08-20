@@ -55,4 +55,4 @@ Stated explicitly: a meta-agent appears in its own map/output like any target (n
 
 ## Grading a meta-agent (maturity ceiling)
 
-L3 = its core rubric/checks run + its map current · L4 = its outputs executed/consumed cleanly + PATTERNS accruing · L5 = self-maintaining + roadmap live. (Floor L0–L2 same as all classes.)
+L3 = its core rubric/checks run + its map current · L4 = its outputs executed/consumed cleanly + PATTERNS accruing · L5 = self-maintaining. (Floor L0–L2 same as all classes.) *(The former "+ roadmap live" L5 leg was STRUCK by the W1 ruling 2026-08-17 — a roadmap-shaped changelog is a DAEDALUS artifact, not a class requirement; this mirror lagged the charter by 3 days, fixed 2026-08-20.)* **Adjudication form (Will-ruled 2026-08-20): every ladder leg gets a per-leg verdict row (PASS / FAIL / WAIVED-cite / NOT-ADJUDICATED) at grade time — canonical text in `UPGRADE_PROTOCOL.md` §Review method rule 2.**

@@ -64,3 +64,9 @@ Per agent, an `upgrades/<AGENT>_CARD.md` — the 8 blueprint sections as rows: `
 4. **Polish** — disciplines, routing refinements.
 
 Do quick wins first: they prove the method cheaply and raise the floor before the hard calls.
+
+## Review method — three rules from the six-ideas batch (Will-ruled 2026-08-20, verdicts at `upgrades/SIX_IDEAS_RESPONSE_2026-08-17.md`)
+
+1. **Reciprocal blind review (idea 1).** Any DAEDALUS or PROME self-audit/reflective analysis triggers a blind counterpart pass by the other desk over the same ground — independent to completion BEFORE comparing notes. **Event-triggered, never calendar-cadenced** (a schedule between real events manufactures review theater). Counterpart default = PROME↔DAEDALUS (the two whole-system-context desks); rotation optional; the out-of-family variant is rule 3. Evidence base: the 8/17 week — two desks whose honest enforcement stopped at their own directory line, each fixed only by the other's blind pass.
+2. **Per-leg verdicts at every promotion adjudication (idea 4).** Every ladder leg gets an explicit verdict row at grade time — `PASS` / `FAIL` / `WAIVED-<cite>` / `NOT-ADJUDICATED` — so a skipped leg reads as a visible blank, never an invisible omission (the D7 class was an unenumerated form, not a judgment error). Applies to first adjudications AND re-checks; first live use = PROME's L5 confirm at sweep run #2 ~9/6. Each blueprint variant's grading section carries the one-line mirror; this section is the canonical text.
+3. **RAV out-of-family lens (idea 5) — an OPTION Will exercises, never a cadence.** Major structure reviews MAY route one slot through RAV for lens diversity (same-family convergence is partly correlated priors — one witness on method-shaped questions). Will's call, suggested at most quarterly; PROME flags candidate reviews. A standing slot is prohibited: it converts operator attention — the fleet's scarcest resource — into a scheduled cost.
