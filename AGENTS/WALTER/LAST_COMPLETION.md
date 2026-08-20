@@ -30,7 +30,7 @@
 | 1 | **REGINALD** | Holds **two** things: the `-021` share-vs-quantity correction, and CREED's `REG-T-07` collision answer (add CREED to the chain as `info`; note that two bars exist on that series). **CREED's ask, not mine.** | 🔴 **dark — and two desks are now waiting on one dark one** |
 | 2 | **RED** | `^SKEW` grading basis — still two different instruments answer to that name | 🟡 |
 | 3 | **BRENT / FALCON** | Transit-instrument disposition + the six-value baseline | 🟢 FALCON went live today |
-| 4 | **DAEDALUS** | Fleet trigger-registry question (only 3 desks machine-readable) | 🟡 named READ-NOT-STARTED so it cannot rot silently |
+| ~~4~~ | ✅ **DAEDALUS — CLEARED post-closeout 2026-08-20** | **RULED by Will ("Approved"): prose is the CORRECT form for most gate letters; the middle form already existed and is now TYPED.** **My boot will scan `INSTRUMENT`-typed rows ONLY, once PROME's column pass lands** — which turns my accidental RED+REGINALD(+CREED) set into a principled, bounded one. Owners grade their own `JUDGEMENT` gates. **The CREED add proceeds unchanged.** | 🟢 |
 
 ✅ **CLEARED: CREED ×2** — answered the fire-ledger ask (**NO**, a second ledger splits the truth) and **FIRED `CREED-T-02`** at the primaries. ✅ **SAM ×1** — all three `-20260817-001` asks. ✅ **PROME** — cleared the potash item by telling me it had been cleared the night before.
 
@@ -49,7 +49,7 @@
 ---
 
 ## GAPS (WALTER-facing)
-- **`STATUS.md` sits at 95% of its 48,000 B cap** even after rotating three blocks. **The lead paragraph is what grows**, and **a Tier-1 closeout cannot fix it** — Tier-1 explicitly defers rotation. **Next Tier-2 must rotate harder or write a shorter lead.**
+- **`STATUS.md` sits at 97% of its 48,000 B cap** (46,455 B) — it was 95% at closeout and the post-closeout DAEDALUS correction added ~1 KB, **which is itself the growth pattern being flagged: corrections land on the spine and nothing rotates them.** **The lead paragraph is what grows**, and **a Tier-1 closeout cannot fix it** — Tier-1 explicitly defers rotation. **Next Tier-2 must rotate harder or write a shorter lead.**
 - **`MEMORY.md` is 129 lines against its own 100-line cap** (down 6 today). Longest-standing declared residual; enforced by discipline only.
 - **The refuted claim in `SIG-W-20260819-021` is in its FILENAME and cannot be renamed** — delivered handoffs and `delivery_log` rows cite the path. **An inbox listing shows a refuted claim to anyone who does not open the file.** Mitigated by banners on the file and its INDEX row, not solved.
 - **Non-US rows of the `-003` sovereign panel are UNVERIFIED** — no independent instrument was pulled for Bunds, OATs, ACGBs or Spanish paper.
@@ -60,7 +60,7 @@
 **🟢 NONE ACTIVE.**
 **🟠 CARRIED, evidence still accumulating:** an `action:` item landing on a **pull-complete recipient** produces no handoff (§3.5.6 disclosed; nothing ratified) · **foreign-origin BOARD rows carry a `SIG-W-` id** (would be a spec change + doctor break to alter).
 **🟠 DEFERRED (unchanged):** DEWEY cadence · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
-**🔵 SURFACED (not WALTER-fixable):** Hormuz transit level still not knowable · Red Sea has no registered gate (FALCON) · only 3 fleet desks keep machine-readable registries (→ DAEDALUS) · **HANS 34d dark and it took the Germany 5Y leg on nobody's line** · ZHAO / CORAL / VULCAN dark.
+**🔵 SURFACED (not WALTER-fixable):** Hormuz transit level still not knowable · Red Sea has no registered gate (FALCON) · 🔴 ~~only 3 fleet desks keep machine-readable registries~~ **— THIS MEASUREMENT WAS MINE AND IT WAS WRONG. `PROME/GATES.tsv` exists, is machine-readable, and already registers ALL SIX families my pass-2 marked "prose only" (26 rows, many desks). My pass-1 keyed on the column name `trigger_id`; GATES.tsv's column is `gate_id`, at repo root. Verified myself at the file, not on DAEDALUS's relay.** ⚠️ **AND I HOLD AN AUTO-MEMORY FOR EXACTLY THIS: `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` — *a scan keyed on naming reads local form as absence; "N agents lack X" is a claim about the PATTERN SET until a sample re-read.* I had the memory and committed the failure anyway.** **Second time today a guard I own failed to fire for me** — the first was my own FRED-T+1 direction rule, written that morning and broken four hours later. · **HANS 34d dark and it took the Germany 5Y leg on nobody's line** · ZHAO / CORAL / VULCAN dark.
 
 ## FOLLOW-UP
 1. **REGINALD** — chase if still dark in 2-3 days; it holds two desks' items.
