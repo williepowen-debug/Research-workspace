@@ -47,6 +47,8 @@
 
 ## POSITION
 
+🔴 **60-DTE REVIEW ON `TRY-FIRE-004` IS 19 DAYS OVERDUE — the session's biggest find, and it came from Will's question, not from any check.** Sep-30 expiry ⇒ 60-DTE was **2026-08-01**; the leg is at **41 DTE**. Mandated in FOUR BOND files and run in none. **A level-gate announces itself (something recomputes it); a DATE-gate does not — nothing here maps an expiry to today.** Same shape as the August-refunding miss: a missing event looks like nothing. Review → `analysis/2026-08-20_60DTE-review_TLT-puts_and-the-7-16-NO-ADD.md`; packet delivered to TERRY; Will has the decision. **Verdict: the 7/16 NO-ADD needs NO revisit** (it governs adding; nothing fired; the only live gate WIDENED to 9bp). **The live question is hold/roll/harvest, and under root rule #7 the facts read ROLL not TRIM** — thesis intact (13 straight benign resolutions), timeline uncertain (`sb0607`'s official long-end bid covers **21 of the 41 remaining days** from 9/9). ⛔ **TERRY's call with Will's approval — BOND proposed no roll, strike, size or cost.**
+
 **TLT puts HOLD, no add — unchanged.** Will's 7/16 NO-ADD stands. **DFII10 2.41 [8/18], 9bp from the only live add-gate and it moved AWAY.** 30Y 5.28, run **31 consecutive sessions ≥5.00 / 47 days in 2026** [DGS30, session closes, maximal run, whole-series]. Composite **12/35 unchanged** — no vector moved, nothing crossed a pre-registered line. **OPEN predictions: `BND-15`, `BND-17`.**
 
 ## MAIL
