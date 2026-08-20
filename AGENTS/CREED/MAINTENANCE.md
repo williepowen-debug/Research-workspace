@@ -13,6 +13,26 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 
 
+
+## 2026-08-20 (Phase 2) — `scripts/creed_selfcheck.py` built; first CREED-owned tooling
+
+**NEW: `AGENTS/CREED/scripts/creed_selfcheck.py`** (and `scripts/`, CREED's first script directory). Wired into §Closeout Protocol as **step 8b**. ~20ms, exit 0/1.
+
+**Why, precisely:** the 8/20 sweep found 14 defects and **the existing fleet tools were structurally incapable of seeing the worst two.** `consumer_check.py` scans superseded **VALUES**; `#4` was a superseded **STATE** and `#8`–`#13` were superseded **COUNTS**. A clean `consumer_check --self` therefore certified nothing about either — **the scan was correct and its referent was wrong.**
+
+**Two checks, both file-level and enumerable by design:**
+1. **Fired-trigger cross-surface consistency** — a trigger FIRED in `registry/CREED_T_FIRED_LOG.tsv` must carry a fire marker on every surface that names it (CORE: `THRESHOLDS.tsv`, `STATUS.md`, `THESIS.md` — always; CONTEXT: `VX.tsv`, `FLOW.tsv`, `COVERAGE.md` — only if they name it). **This is the K5 defect class mechanised.**
+2. **Asserted counts vs actual** — VX / KB / PREDICTIONS-open / workbook-file counts claimed in prose, diffed against reality.
+
+⚠️ **Deliberately NOT a general claim-detector.** `claim_check.py` measured 13 decision files → 1 flag vs. the whole tree → 131 flags; a prose-wide staleness scanner would ship alert fatigue and be ignored. **Both checks are file-level, so a flag is always actionable and false positives are ~0 by construction.**
+
+**VALIDATED IN BOTH DIRECTIONS before shipping** — a guard proven only against a broken tree is not proven. Against the live tree: **exit 1, 7 findings.** Against a scratch copy with the corrections applied: **exit 0, CLEAN.** *(A guard that cannot go green is indistinguishable from one that is stuck on red — cf. `finding_instrument_reports_clean_against_the_wrong_reference`, inverted.)*
+
+**On its first run it found a defect the manual sweep missed:** `COVERAGE.md` asserts *"the 31-vector workbook"* — a **15th** count-drift instance not in the catalogued 14. That is the argument for the tool in one line.
+
+⚠️ **Known scope limits, recorded so a future session does not over-trust a green:** check ② matches **known prose phrasings only** (`ASSERTIONS` list) — a new phrasing is invisible, so **extend `ASSERTIONS` in the same edit that introduces one.** Check ① is **file-level, not line-level**: a file containing the word FIRED *anywhere* passes for that trigger, so it detects total absence, not a stale sentence inside an otherwise-updated file.
+
+⚠️ **Process-weight discipline:** it runs at **CLOSEOUT, not boot.** CREED is Tier-2 spawn-on-need and boot cost is the thing that makes such an agent expensive to wake. **20ms and CREED-scoped — if it ever grows slow or starts reading other agents' files, cut it back.**
 ## 2026-08-20 (late) — ALWAYS-LOADED traps block: #3 REWRITTEN, #6 and #7 promoted (5 → 7)
 
 **Amends the same-day entry below, which explicitly recorded the opposite decision on #3 and was wrong.**
