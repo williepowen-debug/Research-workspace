@@ -187,7 +187,7 @@ Current source pack and thesis rails. These are mandatory before CREED makes cur
 - `AGENTS/CREED/thesis/THESIS.md`
 - `AGENTS/CREED/thesis/CHANGELOG.md`
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
-- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` (latest tape snapshot 7/2 in §top)
+- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` (**latest tape snapshot 2026-08-20, live** — VNQ vs SPY 3mo **−0.34pp TR / −0.98pp price-only**, counter-signal **DECAYING**). ⚠️ *This pointer read "7/2" until 2026-08-20 while the file's own header read 7/27 — it had lagged three weeks. **Read the file's header, not this line, and fix this line when they diverge.***
 - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 
 Every trade-relevant number still needs a source/date. Refresh monthly CMBS, FDIC, or REIT/broker tape before treating levels as current.

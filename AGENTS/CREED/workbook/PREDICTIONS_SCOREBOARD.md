@@ -1,6 +1,6 @@
 # CREED Predictions Scoreboard
 
-**Created:** 2026-07-27 · **Updated:** 2026-08-20 (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
+**Created:** 2026-07-27 · **Updated:** 2026-08-20 *(row `002` refreshed to the July SS print in a self-audit — it had carried a June distance AND a since-reversed direction)* · (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
 Tracks resolution outcomes and calibration for CREED's pre-registered predictions. Open rows live in `PREDICTIONS.tsv`; this is the **summary + calibration read**.
 
 > **Created at n=0 on purpose.** CREED registered **10 predictions with self-set confidences** on 2026-07-27 (Will's §10 decision 2, 7/21: *"YES, you set them — your conviction, your numbers"*) and had **no calibration surface at all**. The discipline has to exist **before** the first resolution — otherwise the first resolution sets the precedent for skipping it. *(Adopted from BROCK's scoreboard, which at n=10 produced a read that changed its behaviour.)*
@@ -46,7 +46,7 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 | ID | Conf | Resolves | Tests |
 |---|:--:|---|---|
 | `001` | 40% | Trepp monthly DQ, by 12/31 | office DQ >12% **and holds 2 consecutive** — the "holds" clause is doing the work. **Jul print in: 11.91% (+34bps), still 9bps below trigger — NOT resolved, largest MoM move since Jan** |
-| `002` | 45% | Trepp monthly SS, by 12/31 | office SS crosses **18%** (the S1 trigger). 89bps away at +36bps/mo |
+| `002` | 45% | Trepp monthly SS, by 12/31 | office SS crosses **18%** (the S1 trigger). ⚠️ **UPDATED 8/20 — the trajectory REVERSED and this row had missed it.** July SS **16.58% (−53bps)**: now **142bps away and MOVING AWAY**, not "89bps away at +36bps/mo". **The direction, not just the distance, was stale.** Trepp attributes the fall to workout/resolution activity on the seasoned book — **not** to absent distress, which is entering via the DQ door instead. **Confidence UNCHANGED at 45%** — the resolution window runs to 12/31 and one month against does not re-price a 4-month call. |
 | `003` | **35%** | **FDIC Q2 QBP, ~late Aug** | **S3's actual trigger** — large-bank non-owner CRE PDNA rising vs Q1's 3.40%. *The single most decision-relevant open item* |
 | `004` | 60% | 8-K / earnings, by 12/31 | a **4th** CRE mREIT cuts / reviews / winds down — does ARI's template propagate? |
 | `005` | 70% | ARI proxy + vote | dissolution actually **approved** (board-resolved ≠ approved) |
