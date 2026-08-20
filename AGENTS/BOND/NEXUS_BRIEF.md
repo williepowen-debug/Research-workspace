@@ -1,6 +1,6 @@
 # BOND → NEXUS_BRIEF — steady-state rates read for the cross-agent synthesis
 **Owner:** BOND · **Purpose:** the standing rates-domain feed NEXUS consumes for its convergence framework (replaces 🔴-outbox spam for steady-state; outbox reserved for acute). **Refresh at closeout when the rates read moves.**
-**Last refresh:** 2026-08-19 (Wed, evening) · **Data vintage:** FRED direct through 8/18 (T10YIE/T5YIFR 8/19), recomputed cache-busted 8/19 ~20:53 ET; TreasuryDirect through the 8/19 20Y; Fed minutes primary 8/19; Treasury sb0607 primary 8/19; 8/19 closes [CONF PROME].
+**Last refresh:** 2026-08-20 (Thu, ~11:5x ET — §3 CREDIT corrected, see the kill-on-sight note there) · **Data vintage:** FRED direct through **8/19** (credit HY/CCC/IG 8/19; T10YIE/T5YIFR 8/19; rates 8/18), recomputed cache-busted **2026-08-20 ~11:34 ET**; TreasuryDirect through the 8/19 20Y; Fed minutes primary 8/19; Treasury sb0607 primary 8/19; 8/19 closes [CONF PROME].
 
 > ## ⛔ RE-PIN 2026-08-19 — READ THIS FIRST; supersedes the 8/18 block below on rates levels, credit (§5), the run/count figures, and the calendar (§8)
 >
@@ -16,9 +16,9 @@
 > ### 2. C-36 disposition (the board's oldest open ask — answered)
 > **BOND formally DECLINES to rule the label before HEN-42 resolves 8/29, WITH A HARD EXPIRY: if HEN-42 NO-VERDICTs, BOND rules within one session.** The substantive content is on record: both of BOND's regime calls verify at FRED to the bp — **the regime ROTATED mid-July; a static label misdescribes a rotating regime.**
 > ### 3. CREDIT — partial re-correction of the 8/18 §5 retraction
-> **CCC 1027 [FRED 8/18] = a FRESH series high above the 1024 [8/13]** — so "CCC no longer making new highs" (8/18 §5) is dead; the quality tail IS widening again ON ITS OWN NUMERATOR this time. HY 275, IG 82. **The standing instruction survives: credit is NOT currently a BOND signal** (third characterization reversal in five sessions; 1100 escalation line 73bp away; zero pulled deals). `VX-BND-11` held 3.
-> ### 4. LIVE RATES [FRED 8/18; recomputed 8/19]
-> 30Y **5.28** (`^TYX` 5.19 close 8/19) · 10Y **4.71** (4.65) · 2Y **4.19** · DFII10 **2.41 — backed off to 9bp from the add-gate, moving AWAY** · T10YIE 2.30 / T5YIFR 2.32 [8/19] · TLT **$82.89**. **Position: TLT puts HOLD, no add; composite UNCHANGED 12/35 — the largest one-day evidence block since 8/18 and nothing crossed a pre-registered line.**
+> 🔴 **CORRECTED 2026-08-20 — the "FRESH SERIES HIGH" IN THE PRIOR VERSION OF THIS LINE WAS FALSE.** CCC's series max is **1137 (2025-04-07)** and its 2026 max is **1034 (7/31)**; **18 observations sit at or above the current print**, so neither 1027 nor 1030 was ever a series high or a 2026 high. **CCC 1030 [FRED 8/19]** is a fresh **August** high, up 6 of the last 8 sessions, **4bp under the 2026 max**. HY **273**, IG **81** [both 8/19]. **The quality tail IS widening — that read is unchanged and was never the defect; the SUPERLATIVE was.** **The standing instruction survives: credit is NOT currently a BOND signal** (1100 escalation line **70bp** away; zero pulled deals). `VX-BND-11` held 3. `KB-BND-152`.
+> ### 4. LIVE RATES [FRED 8/18 rates / 8/19 credit; recomputed 2026-08-20 ~11:34 ET]
+> 30Y **5.28** (`^TYX` 5.19 close 8/19) · 10Y **4.71** (4.65) · 2Y **4.19** · DFII10 **2.41 — backed off to 9bp from the add-gate, moving AWAY** · T10YIE 2.30 / T5YIFR 2.32 [8/19] · **HY 273 / CCC 1030 / IG 81 [8/19]** · TLT **$83.02** [8/19 close, PROME-ruled 8/20 — this cell carried the superseded $82.89 same-night capture until 8/20]. **Position: TLT puts HOLD, no add; composite UNCHANGED 12/35 — the largest one-day evidence block since 8/18 and nothing crossed a pre-registered line.**
 > ### 5. CALENDAR (supersedes §8 below)
 > **Thu 8/20 1PM: US 30Y TIPS reopen $8B (BOND's; level read, n=3, no gate) + SAM's JGB 20Y — separate sovereigns.** 8/25–27: 2Y/5Y/7Y + 2Y-reopen. **8/29: T6 hard close + HEN-42.** **Wed 9/9: THREE-way collision — first stepped-up buyback op + ECB GovC (9/9-10, verified at the ECB primary 8/19; the 7/23 owned-miss row is discharged) + MTS 9/10.** **11/4: QRA = F1/F3 checkpoint.**
 >

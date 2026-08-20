@@ -9,7 +9,7 @@
 | Metric | Level | Date | vs threshold |
 |---|--:|---|---|
 | **HY OAS** | **267bp** | FRED 8/14 | 33bp below the 300 watch · **83bp below the 350 freeze line** |
-| **CCC OAS** | **1012bp** | FRED 8/14 | through the 1000 watch; 88bp below the 1100 escalation |
+| **CCC OAS** | **1030bp** | FRED 8/19 | through the 1000 watch; **70bp** below the 1100 escalation. ⚠️ **Not a series high** (max 1137, 2025-04-07) nor a 2026 high (1034, 7/31) — a fresh **August** high; the "fresh series high" label was retracted 2026-08-20, `KB-BND-152` |
 | **IG OAS** | **80bp** | FRED 8/14 | flat; no threshold near |
 | **Pulled deals** | **ZERO** | 8/18 | the access test — unimpaired |
 | IG primary volume | **~$56B in the week to 8/14** | WALTER `-005`, **wire-level, NOT pulled at primary** | absorbed with no spread disruption |

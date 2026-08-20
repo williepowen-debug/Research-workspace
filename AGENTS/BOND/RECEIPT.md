@@ -1,56 +1,32 @@
-# BOND Receipt — 2026-08-20 (Thu, 08:4x → 11:0x ET, ongoing; auction 1PM)
+# BOND — RUN RECEIPT (overwritten each session)
 
-**Session:** boot → SAM packet → BND-17 pre-registration → Will-requested core-file sweep → two checkers built → **fix-verification audit (this section).**
+**Session:** 2026-08-20 (Thu) 11:34 → ~12:0x ET · **Trigger:** Will — "boot up", then "did you correct these issues you found?"
+**Disposition:** boot clean → one FALSE claim found by the boot paste-check, retracted and swept by pattern → PROME's two verified oversight defects taken.
 
-## Inbox
-
-| File | Action | Workbook | Outbox |
-|---|---|---|---|
-| `2026-08-20_from-SAM_4wk-rolling-sigma-and-n-answered…` | **INTEGRATE** → `processed/` | `KB-BND-141/142/143` | reply → SAM inbox |
-| `2026-08-20_from-SAM_exceedance-both-ways…` (doorbell) | **INTEGRATE** | `KB-BND-144/145/146` | bar ruling → SAM |
-| `SIG-W-20260820-003` (WALTER lane) | **INTEGRATE** → `WALTER/processed/` | `KB-BND-147` | — |
-
-**Inbox: general 0 residue · WALTER lane 2 unprocessed** (`SIG-W-20260820-001` + its RETRACTION — BOJ/SAM domain, context-only, deliberately left).
-
-## Decisions
-
-| Item | Outcome |
+## Boot
+| Step | Result |
 |---|---|
-| SAM 4wk-rolling **bar** | **RULED** — SELL WATCH −¥2.054T / ESCALATE −¥2.979T, quoted **de-clustered**. `±1.0σ` rejected because the overlap bias is worst at the loosest bar. **Frequency-calibrated ONLY; separation vs UST outcomes never tested; fires nothing alone.** |
-| DM sovereign cross-section | **BUILT** (US/EA/UK/AU at issuer primaries) — the Will-ruled 8/10 scope claimed it existed and it did not |
-| `BND-17` | **PRE-REGISTERED** pre-print, 45%, indirect ≥76.17%, EVENT-anchored, VOID branch. Calibration row, nothing rides on it |
-| Benchmark n=3 → **n=7** | Reconciled on STATUS ×2, CATALYSTS, AUCTION_HEALTH |
-| **H3 cross-section read** | 🔴 **RETRACTED same session** — a one-week artifact; at 3wk Japan ranks FIRST, the opposite signature |
+| 0 `git pull` | Already up to date. Uncommitted work outside own dir (DAEDALUS ×5, REGINALD ×3, `scripts/ledger_staleness.py`) — **not mine, not touched, flagged to PROME** |
+| 1–3 STATUS / SCRATCH / MEMORY | read |
+| 4 PREDICTIONS DUE-scan | 2 OPEN (`BND-15` in-window to 8/29; `BND-17` event pending) — **nothing DUE** |
+| 5 `docket_check.py` | **rc=0** — 5/5 coupon auctions in the 21-day window docketed, CUSIP-keyed |
+| 6 `boot_recompute.py` | **rc=0** — no unguarded drift on TRADE.md / monitors / NEXUS_BRIEF |
+| 7 mail | inbox **0** · WALTER lane **0** |
 
-## 🔴 FIX-VERIFICATION AUDIT (Will: "did we address the defects we found?")
+## Findings
+1. 🔴 **`KB-BND-152` — "CCC 1027 = FRESH SERIES HIGH" was FALSE.** Primary recompute (`BAMLH0A3HYC`, n=787, 2023-08-21→2026-08-19): series max **1137 (2025-04-07)**, 2026 max **1034 (7/31)**, **18 prior obs ≥ 1030**. Missing parameter: **WINDOW**. **n=5** of the desk's superlative class; again a **carried** figure; had reached **4 live surfaces + 2 sent packets**. **Direction (tail widening) intact — no score moved, `VX-BND-11` holds 3.**
+2. 🔴 **Derived gate distances did not inherit level fixes** — 33bp/88bp/71bp carried off 8/14 levels (true: **27 / 70 / 65**). No checker covers this class. Logged as the desk's top tooling gap.
 
-**Verified at the artifacts, not from memory.** 24 of the day's defects confirmed fixed. **Five were NOT, and were found only by auditing:**
+## Files written
+`STATUS.md` (header + 4 dashboard cells + 3 matrix rows + 2 trade bullets; **248 lines, trimmed from 250 to stay under cap**) · `SCRATCH.md` (rewritten) · `NEXUS_BRIEF.md` (§3 corrected, header vintage + §4 refreshed) · `TRADE.md` (×2) · `monitors/CREDIT_PRIMARY_MARKET.md` · `workbook/KB.tsv` (**+`KB-BND-152`**; `-139` → **SUPERSEDED**, its false Fact left **UNEDITED** as the record) · `workbook/VX.tsv` (02, 11) · `workbook/FLOW.tsv` (02, 03, 11) · `RECEIPT.md`. **THESIS untouched — no thesis-level change; the retraction moved no score and no channel.**
 
-| Gap | Why it survived | Now |
-|---|---|---|
-| `SCRATCH.md` still carried the killed *"BND-14's second test"* + n=3 | I flagged it, **PROME fixed their surface, I never fixed mine** — flagging is not fixing | ✅ corrected |
-| `KB-BND-145` still `ACTIVE` after `KB-BND-148` retracted its inference | KB hygiene ran on `Stale_By` dates, not on same-day retractions | ✅ → `CORRECTED`; numbers stand, conclusion does not |
-| `RECEIPT.md` 2h stale | written mid-session, never refreshed | ✅ this file |
-| **VIOLET ask orphaned 76 days** | packet written + committed to `outbox/`, **never delivered**; `CDX_CASH_BASIS` carried an open ⬜ waiting on it | ✅ re-sent restated (not the stale June text); ⬜ dated + `re-test: 2026-09-20` → retire the clause if silent |
-| **`outbox/delivered/` did not exist** | documented in `CLAUDE.md` MAIL for months; never created, so sent ≠ orphan was indistinguishable | ✅ created; doc corrected |
+## Inbox / outbox
+- **Inbox:** 0 processed (empty at boot). ⚠️ **1 arrived mid-session and is UNPROCESSED at close:** `2026-08-20_from-REGINALD_your-810B-lands-at-leg-2-of-3-on-REG-T-06...` — REGINALD replying on the FHLB/`VX-BND-18` thread. Left for the next session per the MAIL rule (general inbox is a separate task); **flagged here so it is not mistaken for an empty lane.**
+- **Outbox:** **1 written AND DELIVERED** — `2026-08-20_to-SAM_RETRACTION-the-below-DM-median-read...` → copied to `AGENTS/SAM/inbox/` (renamed `from-BOND_...DO-NOT-CARRY-TO-9-3.md`), copy filed in `outbox/delivered/`. **Delivery is the copy into their inbox, not the write into mine.**
+- **PROME:** oversight report received ×2 (2 verified defects + 4 suggestions). **Both defects taken this session.** Suggestions 3/4/5 folded into the SAM packet; 6 split across SCRATCH NEXT-SESSION items 3, 4 and the FLOW 02/03 refresh. Reply sent at close.
 
-⚠️ **And a correction to my own audit method:** a filename scan flagged **7 of 22** outbox packets as orphans. **That over-counts.** HENRY demonstrably *has* the 7/23 HEN-42 content — their files quote *"BOND VOTES CONFIRM"* — filed under a different convention. A scan keyed on naming reads local form as absence; "did it arrive?" is not "do they know?" **Confirmed orphan: VIOLET (zero trace on a content grep). Confirmed delivered: HENRY. Five remain UNVERIFIED — owed, `re-test: 2026-08-27`, content-check each, do not redeliver stale text.**
+## Checks
+`closeout_check.py` **rc=0** (both components) · `consumer_check` cross-agent **zero certified-stale** (138 🟠, all bare-number collisions — **no packets owed**) · `consumer_check --self` 2 non-CSV hits, **both correctly-dated historical records, left intact** · `ledger_staleness --nudge` named VX/KB/FLOW — **all three refreshed this session** · mirror-consistency: STATUS ↔ CATALYSTS ↔ PREDICTIONS agree on the OPEN set (`BND-15`, `BND-17`).
 
-⚠️ **My own new checker missed all five** — `SCRATCH.md` and `RECEIPT.md` were outside its scope, and `SCRATCH` is *boot read #2*. Scope extended.
-
-## Built
-
-| Tool | Purpose |
-|---|---|
-| `monitors/closeout_check.py` | **THE closeout invocation** — both checks, one fetch, one rc. `--selftest` = 12 real shipped defects |
-| `monitors/assertion_check.py` | stale **assertions** (no number to catch): directional · file-state · expired · capability |
-| `boot_recompute.py` (extended) | prints TRADE.md's **gate table**; drift-checks boot-unread surfaces; `rc=1` |
-
-**Checker defects found and fixed by their own tests:** cried wolf 16→0 · `not free` inside "not FREE**ze**" · duplicated regex validating the copy nobody runs · unspecified lookback letting the *checker* pick the verdict (`KB-BND-148`, reproduced inside the tool built to catch it) · a citation of a defect flagged as the defect.
-
-## State
-
-**Composite 12/35 unchanged · TLT puts HOLD, no add · DFII10 2.41 [8/18], 9bp from the only live add-gate, moved AWAY.**
-**OPEN predictions: `BND-15`, `BND-17`.** Closeout pass: **rc=0 clean.** Git: committed path-scoped + auto-pushed, verified on origin by path.
-
-**Next:** 1PM 30Y TIPS `912810US5` — grade at frozen bars, doorbell PROME.
+## Open at close
+**`BND-17` NOT GRADED — its 1PM ET event had not occurred at this write.** Bars frozen and committed. Position **unchanged: TLT puts HOLD, no add**; composite **12/35**.
