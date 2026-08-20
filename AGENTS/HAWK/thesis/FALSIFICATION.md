@@ -47,7 +47,7 @@ Registered explicitly as a **LOW-PROBABILITY TAIL**, superseding FLOW-13 and FLO
 |---|---|---|
 | (a) confirmed production/export barrels offline | at floor | **rises** |
 | (b) alternate-route throughput (SUMED / Sidi Kerir) | **rises** | absent |
-| (c) kinetic-denial counts (disabled / boarded) | flat | **rises** |
+| (c) kinetic-denial counts (disabled / boarded) | near-flat | **rises** |
 
 > **DENIAL = (a) or (c) rising WITHOUT a matching rise in (b).** Registered in gradeable form as **`HAW-19` LEG B**.
 
@@ -60,7 +60,9 @@ Registered explicitly as a **LOW-PROBABILITY TAIL**, superseding FLOW-13 and FLO
 
 **As of 8/19 the fleet holds SIX readings spanning 0 to 12 for adjacent days, across ≥4 unstated perimeters, with ZERO comparable pairs** [`SIG-W-20260819-011`]. **An AIS-derived count may refute in ONE direction only** — a nonzero print disproves "zero"; a low count never proves absence.
 
-**⇒ Why LEG B uses CENTCOM's disabled/boarded tally instead:** it is a count of **discrete adjudicated events published by a single named authority alongside the redirect count in the same statement** — which is what made the flat 2/2 a **sourced negative** rather than an absence. **Carried caveat:** WALTER flagged 8/12 that `"disabled"` may have been silently re-scoped across statements and left it **UNCHECKED**; LEG B's resolution requires confirming definitional stability first, else it grades **NO-VERDICT**.
+⚠️ **AND THE ADOPTED INSTRUMENT NEEDED THE SAME AUDIT — run 2026-08-20, after WALTER asked why it had not been.** CENTCOM's counter carries **its own unstated perimeter**: the 8/11 *Vela Nova* increment is placed in the **Gulf of Oman** by Stars and Stripes and the **Strait of Hormuz** by The Hill, and a separate item reports a first disablement in the **Arabian Sea**. So `disabled 3` is **blockade-wide across ≥3 water bodies** and no statement says which. **I rejected the transit family for unstated perimeters and adopted this one without checking — `[[finding_rejecting_an_instrument_is_an_audit_of_it]]`, and `[[finding_asymmetric_rigor_counterparty_claims]]` pointing inward.** **The specific failure is the rule I used the same morning to delete the vessel leg:** LEG B paired a **blockade-wide numerator** with a **route-specific denominator** (SUMED/Sidi Kerir) — `[[finding_cross_entity_comparison_needs_same_perimeter]]`. **Fixed by grading on named, dated, water-body-attributed events inside a stated corridor set** (Hormuz · Gulf of Oman · Bab · Red Sea), which is feasible *because* the increments are named events: the per-increment perimeter is recoverable even though the aggregate's is not. Unattributable increments are logged, never counted.
+
+**⇒ Why LEG B uses CENTCOM's disabled/boarded tally at all:** it is a count of **discrete adjudicated events published by a single named authority alongside the redirect count in the same statement** — which is what made the flat 2/2 a **sourced negative** rather than an absence. **Carried caveat:** WALTER flagged 8/12 that `"disabled"` may have been silently re-scoped across statements and left it **UNCHECKED**; LEG B's resolution requires confirming definitional stability first, else it grades **NO-VERDICT**.
 
 **🔴 Standing concentration watch (not a falsifier — a vulnerability):** a chokepoint has been **substituted, not removed**. Saudi Bab exports −90% while Sidi Kerir more than doubled to 2.3 mb/d via SUMED. **A strike on SUMED / Ain Sokhna / Sidi Kerir would be the first genuine flow-denial event in this chain where none exists today.**
 
