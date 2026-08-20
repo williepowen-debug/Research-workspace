@@ -1,5 +1,24 @@
 # v2.0 CANDIDATE — **FLOW SETS THE LEVEL; POSITIONING SETS THE VOLATILITY**
 
+> # 🔴 **K1 FIRED THE SAME DAY. THE CENTRAL ARGUMENT (§2) IS DEAD AS WRITTEN. DO NOT PROMOTE.**
+> **Measured 2026-08-20, ~6 hours after this was opened, at the BIS SDMX primary — the very measurement §5 designated as the blocker.**
+>
+> **BIS Global Liquidity Indicators, `2026-Q1`, own pull: JPY-denominated credit (bank loans + international debt securities) to non-bank borrowers located OUTSIDE JAPAN = ¥65.83T = $414.9B.**
+> *(bank loans ¥42.0T / $264.8B + intl debt securities ¥23.8T / $150.2B; components sum exactly. **Unit check passed independently:** the same table's JPY credit to the Japanese government reads ¥1,281T against a known ~¥1,280T, confirming `UNIT_MULT=6` is millions.)*
+>
+> **§5 pre-registered the threshold in writing before the pull: *"At $14.8B the arithmetic holds; at $300–500B it INVERTS and §3 collapses."* Measured **$415B**. ⇒ **K1 FIRES.** The yen-borrowing universe is **28× the futures proxy §2 was built on** — the CFTC series captures roughly **3.5%** of it.
+>
+> ⛔ **I am not rescuing this.** The candidate's own §5 said *"if it comes back large, §2/§3 invert and I must say so rather than reach for a rescue."* **That is what has happened and this banner is the disposition.**
+>
+> 🔴 **AND THE DAMAGE IS WORSE THAN A DEAD ARGUMENT — IT SUPPLIES A RIVAL MECHANISM THAT FITS THE SAME DATA BETTER.** If only ~3.5% of the trade was ever visible in futures, then the 8/7 "collapse" unwound ~3.5% of the position, and **the level did not move because almost nothing actually unwound** — not because positioning is too small to move it. **That explains every observation in §4 without needing §3 at all**, and my §4 cannot discriminate between the two. ⚠️ **This is precisely the weakness I flagged as §4's — "a FIT, not a test" — now demonstrated rather than suspected.**
+>
+> **WHAT SURVIVES:** the §4 *observations* are still facts (the fuel collapsed, the level went the wrong way, the franc absorbed 3.6%). **What died is my EXPLANATION of them, and the question they pose is re-opened, not answered.**
+> **WHAT I GOT RIGHT, recorded because the process is the only part that worked:** the blocker was named in advance, the threshold was written as a number before the data existed, and the pull settled it in one session. **A pre-registered killer fired exactly as designed, against its author, within hours.**
+>
+> ⚠️ **RED: your blind pass is now against a candidate whose §2 is dead. Alerted separately — do not spend effort on §2's arithmetic; §3, §4 and §8 are where a live review still has value.**
+> ⚠️ **CAVEATS THAT CUT BOTH WAYS AND MUST TRAVEL: BIS yen credit to non-residents is NOT "the carry trade."** It includes trade finance, corporate funding by firms with yen revenue, and euroyen/samurai issuance with no carry motive — **an upper bound on that channel.** It also **EXCLUDES FX swaps entirely**, the dominant carry vehicle, so it is incomplete in the other direction too. **It is a STOCK, not a position that must unwind.** ⇒ **It is decisive on ORDER OF MAGNITUDE — which is all §5 asked of it — and is not a measurement of carry positioning.**
+
+
 **Status: 🕯️ CANDIDATE. NOT A THESIS. NOT v2.0.** Opened **2026-08-20**, Will-directed, after seven weeks of deliberately refusing to name a successor.
 **THESIS v1.7 stands unchanged. Book FLAT. No entry trigger. No vehicle. Nothing here moves a bucket, a bar, or a dollar.**
 **Promotion requires: a RED adversarial pass + the load-bearing measurement in §5 + Will's sign-off. Any two of three is not enough.**
@@ -97,7 +116,7 @@ I had never once asked how big the carry trade was **relative to the flows it wa
 
 | # | Killer | Status |
 |---|---|---|
-| **K1** | **BIS/swap data sizes the true yen carry trade at a scale comparable to the unhedged book** (order $100B+) | 🔴 **UNMEASURED — the §5 blocker** |
+| **K1** | **BIS/swap data sizes the true yen carry trade at a scale comparable to the unhedged book** (order $100B+) | 🔴 **FIRED 2026-08-20 — MEASURED $414.9B at BIS `2026-Q1`, 28× the futures proxy. See the banner. §2 is dead as written.** |
 | **K2** | A **positioning-driven** move produces a **sustained** level change (>4 weeks) with no structural-flow change | not observed |
 | **K3** | Structural outflow **stops or reverses** and the yen **does not** strengthen | ⇒ would kill the flow leg directly |
 | **K4** | The yen strengthens materially **while** structural outflow continues at trend | 🟡 partially tested — the 7/30-31 ops did this for ~3 sessions, **which is why the claim is about LEVEL not about ops** |
