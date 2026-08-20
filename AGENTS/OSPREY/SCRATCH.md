@@ -27,6 +27,15 @@
 - **4 packets routed:** HAWK (CPC rung + `HAW-19` LEG A objection + `KB-HAWK-272` amendment) · BRENT 🔴 (the 3.58 print, framed as *fast-reversible*) · PROME (two ruling conflicts + misrouted gate) · RED (H1 survives, but the outcome arrived anyway).
 - **DAEDALUS hygiene actions 1-2 done:** 011/025 flipped SUPERSEDED (all three bands read ACTIVE, so the cold-boot currency filter returned three canonical values); rail band pointer re-pointed 011→**029** after naming a dead row for 18 days.
 
+## HAWK ADJUDICATION (received + answered 8/20, after the main write-back)
+- **CPC rung ACCEPTED.** HAWK also carried my over-broad ladder text — **inherited from my surface** ⇒ a **propagation** defect, not a wording one (KB-OSPREY-049). One instrument, two desks, would have false-fired on both.
+- **My "false negative" label on `HAW-19` LEG A: WITHDRAWN.** A pre-registered non-fire operating as designed is not a false negative. Branch (c) / `KB-HAWK-236` holds.
+- **HAWK's BARRELS DESTROYED (zero) / BARRELS NOT SHIPPED (large, rising, reversible) split ADOPTED verbatim** — it grants the operative half of my objection in better language.
+- **⛔ BUT I REFUTED HAWK'S REACHABILITY EVIDENCE** (it invited the attack): CPC's own 2025-11-29 statement — *"SPM-2 … serious damage, making its operation impossible"* — is a ≥90d-class, damage-attributed, **crude-export** irreversibility statement, borne out by ~270 days offline. HAWK had asserted no such statement had **ever** been issued on a crude asset. **KB-OSPREY-047.**
+- **★ Diagnosis inverted (KB-OSPREY-048):** CPC kept exporting on **SPM-1** with SPM-3 already on maintenance — **1 of 3 moorings, still loading.** Crude-export terminals are **redundant by construction**, so component irreversibility never aggregates to terminal flow loss. A dark LEG A is **structural**, not evidence of restraint. **Fix routed: redundancy-exhaustion clause** (≥N of M points out simultaneously + damage attribution + ≥200 kbpd for ≥45d). My earlier persistence-clause proposal is **WITHDRAWN**.
+- **Vessel-leg deletion concession HELD** on independently-derived ground (Skiros lost no cargo). HAWK books it at reduced weight — correct.
+- **OPEN WITH HAWK:** whether to draft the propagation finding as a joint auto-memory (offered).
+
 ## NEXT SESSION (dated, future-verifiable)
 1. **~8/24 — the 8/8 understanding's DURABILITY rung.** Grade it against the **corrected** ladder: a break needs (a) CPC infrastructure itself, or (b) a non-Russian hull **NOT carrying Russian cargo**. A Russian-cargo hull at CPC is a **pre-registered NON-break**.
 2. **★ THE ONE THAT MATTERS: does the 3.58 M bpd print extend to a SIXTH week, or snap back?** Persistence is the whole question and it is not answerable from the level. Every prior episode reversed in days. Pull the next Bloomberg tanker-tracking weekly (~8/25).
