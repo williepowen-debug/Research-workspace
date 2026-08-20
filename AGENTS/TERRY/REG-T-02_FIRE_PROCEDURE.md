@@ -37,24 +37,38 @@ PROME's tasking said *"WAL closed at ~$80.05 today — the $78 trigger is +2.6% 
 
 ---
 
-## 1. ⚠️ AN OPEN QUESTION THE OWNER MUST ANSWER — DO NOT RESOLVE IT HERE
+## 1. ✅ RULED BY THE OWNER 2026-08-20 — `REG-T-02` IS **`UN-FIRED`**. THE QUESTION IS CLOSED.
 
-**Surfaces disagree on whether `REG-T-02` is currently FIRED or UN-FIRED, and the answer changes what a `<78` close MEANS.**
+**State token of record, verbatim — use this string in any cross-desk citation:**
 
-- **WALTER 7/27 (`SIG-W-20260727-016`):** *"`REG-T-02` (WAL<78) is the live example, since **it fired 5/11** and its exit condition is equally unspecified."*
-- **REGINALD's `NOTES.md` (8/13 schema change):** exit conditions are **NEW SPEC as of 2026-08-13** — *"previously **every row was a one-way auto-fire with no recorded un-fire**, so a fired row could only ever be un-fired by undocumented judgment."* The exit `WAL ≥ 81.90 × 3 consecutive closes` was written **after** the 5/11 fire.
-- **WALTER's live STATUS (8/20)** reads both ways in one block: the header says **"ZERO FIRES"** and lists WAL as a **near-trigger**, while the WAL line itself says **"still between fire and exit."**
+> **`REG-T-02: UN-FIRED (exited 2026-06-30; prior cycle 2026-05-11 → 2026-06-30)`**
 
-⇒ **Two readings, and they are not equivalent:**
+**Ruling of record: `AGENTS/REGINALD/registry/NOTES.md` §"STATE RULING 2026-08-20", commit `b51e6465c`.** ✅ **Read at REGINALD's own file by TERRY, not accepted on the relay** — `[[finding_verify_reader_before_source]]`.
 
-| reading | what a `<78` close is | consequence |
-|---|---|---|
-| **(A) row is UN-FIRED** | a **first fire**, sustain-1, same-day | dispatch IMMEDIATE → REGINALD + WAL + Will |
-| **(B) row has been FIRED since 5/11 and never exited** (WAL has not printed ≥81.90×3) | a **re-entry into the fired zone**, not a new event | **an un-suppressed "FIRE" alert would be a DUPLICATE**, and treating it as new information is the error |
+**The resolution is a STATE MACHINE, and it makes BOTH prior readings partly right:**
 
-**⛔ TERRY DOES NOT GET TO PICK.** Both readings are defensible from the written record and **the convenient one is (A), which is exactly why I am not choosing it.** `[[finding_owner_of_record_means_authoritative_not_correct]]` — this resolves at **REGINALD's own file**, never between two derived surfaces.
+| | |
+|---|---|
+| **5/11** | fired — **WALTER's 7/27 claim was CORRECT** |
+| **5/12 → 6/03** | **8 further sub-78 closes = RE-ENTRIES INSIDE the fired state, not 8 separate fires.** *A trigger with an exit condition is a state machine, not an event counter.* |
+| **6/30 — close 82.20** | ✅ **EXITED** — 3rd consecutive close ≥ 81.90. State returns to `UN-FIRED`. Satisfied twice more since. |
+| **8/20 — close 79.15** | **`UN-FIRED`, `$1.15` above the line.** |
 
-**→ ASK OWED TO REGINALD (routed with this file, and answerable in one line):** *is `REG-T-02` presently FIRED or UN-FIRED?* **§4 below is written so it executes correctly either way**, so a fire is not blocked while the question is open.
+**Retroactivity, addressed rather than waved:** the 8/13 exit spec is **a definition of state-reset, not a dated policy** — the alternative leaves the row **permanently fired with no reachable reset.**
+
+> 🔑 **AND THE OWNER OWNED ITS OWN GROUNDS, WHICH IS WHY THIS IS A RULING AND NOT A PREFERENCE.** REGINALD adopted the reading TERRY had flagged as *convenient*, stating why: **it is what the tape says, AND Reading A is the SAFER ERROR** — it alerts more, and on a `V1V3-ACCELERATE` chain **the costly failure is the MISSED signal, not the extra one.** *(TERRY's refusal to self-resolve was endorsed as correct in the same breath: the point was never that A was wrong, it was that **the owner, not the consumer, gets to pick** — `[[finding_owner_of_record_means_authoritative_not_correct]]`.)*
+
+### 📌 PIN 1 — A `<78` CLOSE FROM 8/21 ONWARD IS THE **FIRST FIRE OF A NEW CYCLE**
+**Fresh signal. Full `V1V3-ACCELERATE` chain — REGINALD + WAL + Will. NO duplicate suppression.** The duplicate risk this procedure raised at build time **does not apply to the cycle-opening close**, because the row exited 6/30.
+
+### 📌 PIN 2 — ⚠️ MY DUPLICATE-SUPPRESSION CONCERN DOES NOT VANISH; IT **MOVES TO AFTER THE FIRE**
+**Precedent from the prior cycle: `9` sub-78 closes in `5/11 → 6/03`.** ⇒ **when WAL enters the band, it STAYS.**
+
+> **⇒ EXPECT RE-ENTRIES AFTER A FIRE AND SUPPRESS THEM. THE FRESH-ALERT PATH IS THE CYCLE-OPENING CLOSE ONLY.**
+
+**Why this matters more than it looks:** the second, third and ninth sub-78 closes will each *feel* like new information and each will arrive with a red tape behind it. **They are the same fire.** A desk that re-alerts on every one of them manufactures nine urgencies out of one event — and then **an alert-fatigued reader misses the close that actually matters, which is the EXIT** (≥81.90 ×3). `[[finding_registered_gate_captures_attention]]`
+
+⇒ **Operationally: after a fire, the only two closes that carry new information are (a) the exit count building toward ≥81.90 ×3, and (b) a genuinely new low that changes the WAL/REGINALD read — which is THEIR call to make, not an automatic alert.**
 
 ---
 
@@ -112,7 +126,8 @@ PROME's tasking said *"WAL closed at ~$80.05 today — the $78 trigger is +2.6% 
 | WAL regular-session close | state | action |
 |---|---|---|
 | **≥ 78.00** (incl. exactly 78.00) | no qualifying print | ✅ **NOTHING.** No proposal, no gate change, `$0` moved. Record only if a level-watch note is wanted. |
-| **< 78.00** | **qualifying close, sustain-1 ⇒ same-day** | **① VERIFY** the close on the owner's instrument (§2) — never an intraday, never FORGE. **② ROUTE:** REGINALD owes the read; WAL owes the single-name read; **TERRY builds any proposal; Will approves.** **③ DISAMBIGUATE §1** — if REGINALD says the row was already FIRED (reading B), this is a **re-entry, not a new event**, and TERRY publishes **no** fresh urgency. **④ TERRY's OWN OUTPUT IS §3'S PRE-REGISTERED ANSWER**: the Sep-18 cores are NOT re-opened; any new expression is a NEW CARD. |
+| **< 78.00** | **qualifying close, sustain-1 ⇒ same-day** | **① VERIFY** the close on the owner's instrument (§2) — never an intraday, never FORGE. **② ROUTE:** REGINALD owes the read; WAL owes the single-name read; **TERRY builds any proposal; Will approves.** **③ CYCLE CHECK (§1, RULED):** the row is `UN-FIRED` since 6/30 ⇒ the **first** `<78` close is a **FIRST FIRE OF A NEW CYCLE — full chain, NO suppression.** **Every SUBSEQUENT sub-78 close in the same cycle is a RE-ENTRY ⇒ SUPPRESS** (prior cycle ran **9** of them). **Fresh alerts resume only after an exit (≥81.90 ×3).** **④ TERRY's OWN OUTPUT IS §3'S PRE-REGISTERED ANSWER**: the Sep-18 cores are NOT re-opened; any new expression is a NEW CARD. |
+| **< 78.00 again, same cycle** | **re-entry, NOT a new fire** | **SUPPRESS the alert.** Record the close in the cycle log; publish no fresh urgency. Prior cycle had **9** such closes. |
 | **≥ 81.90, 1st or 2nd consecutive** | exit count building | Record the count. **Not an exit yet.** |
 | **≥ 81.90 × 3 consecutive** | **exit condition met** | Owner un-fires the row. **TERRY does nothing** — no position consequence; the cores are already a lapse-in-progress. |
 | **no close / holiday** | non-day | Neither counts nor resets. Re-check next session. |
@@ -122,7 +137,7 @@ PROME's tasking said *"WAL closed at ~$80.05 today — the $78 trigger is +2.6% 
 > **The signal must not be suppressed because the model disagrees, AND a breach must not be read as thesis-confirmation — a move with no identified mechanism confirms no mechanism.**
 
 **Both halves have a live failure mode here and each is the mirror of the other:**
-- **Suppression side:** §3 says this desk's expression is a lapse-in-progress and §1 raises a duplicate-alert risk. **Neither is a reason to sit on a qualifying close.** Route it. **The read belongs to REGINALD and WAL; the alert is not TERRY's to withhold.**
+- **Suppression side:** §3 says this desk's expression is a lapse-in-progress, and §1's re-entry rule suppresses *later* closes. **NEITHER is a reason to sit on the CYCLE-OPENING close.** Route it. **The read belongs to REGINALD and WAL; the alert is not TERRY's to withhold.** ⚠️ **Note the two suppressions are not the same thing and must not be conflated: §1 suppresses a DUPLICATE of a fire already routed; nothing here licenses suppressing the FIRST one.**
 - **Confirmation side:** the drift is **catalyst-free by a documented sweep** (`KB-WAL-180`). **A `<78` print off a mechanism-less drift is a PRICE FACT, not evidence the CRE thesis is working** — and it will feel like evidence precisely because a registered gate fired. `[[finding_registered_gate_captures_attention]]` · `[[finding_market_ignoring_is_not_market_refuting]]`
 
 ### 🤝 HANDOFF — REFERENCE, DO NOT DUPLICATE
