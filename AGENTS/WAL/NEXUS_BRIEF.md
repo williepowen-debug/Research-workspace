@@ -3,7 +3,7 @@
 **Status:** 🟠 **BEAR NARROWED AGAIN AND IS NOW MOSTLY PRICED — margin of safety 12.4% → 5.4%.** ★★ **2026-08-20: v2.4 SHIPPED** — the MI3 disconfirmation (falsifier ran 8/7, first time ever) is now IN the numbers: **bear-fast 10% → 2%**, freed 8pp to Base 45 / Bull 30, **bear-medium HELD at 16%**; **EV $73.92 → $75.96**, PT **$52-76**. ⛔ **Anti-ratchet verified both ways: total bear 26% → 18%, it FELL.** ⚠️ **Both live Sep-18 cores now sit BELOW EV** ($67.5P −$8.46, $70P −$5.96). **And the tape is at its period low with the $78 threshold only +2.6% away — BOTH-TRUE, neither leg resolves the other.**
 **Domain:** Western Alliance Bancorporation (NYSE: WAL) — single-name deep coverage: thesis + calibration record, print grading off frozen frames, FRAUD/ litigation arc (WAL v. Jefferies $126.4M + Cantor), MI3 watch. **NOT mine:** cohort/KRE/peer banks → REGINALD; OZK → OZK; First Brands docket → OTTO; private credit → BROCK.
 **Thesis framing:** **v2.4** "compounder with concentrated CRE tail risk" (framing UNCHANGED since v2.0) — **Bear-fast 2 / Bear-medium 16 / Base 45 / Bull 30 / Tail 7; EV $75.96; PT $52-76** (convention pinned [Bear-fast low, EV], and now **strained** — it anchors the floor on a 2% scenario; flagged for its own dated edit, deliberately NOT changed inside a weight move). **v2.3.1 is REJECTED and RETIRED** (P4, 8/20) — leg (a) named the 10-Q as carrier for *consensus EPS*, which no filing carries; leg (b) could confirm but never disconfirm. **Retires the RULE, not the risk.**
-**As of:** **2026-08-20** — owner re-pin, **WAL session #3** (13 days dark → fully current; the mandatory every-session fold). **STATUS pin: `6fc682f85`.** *(Supersedes the 8/7 pin `07bebc54f`.)*
+**As of:** **2026-08-20** — owner re-pin, **WAL session #3** (13 days dark → fully current; the mandatory every-session fold). **STATUS pin: `c975af77e`.** *(Re-pinned after the 8/20 core-file sweep; supersedes `6fc682f85` and the 8/7 pin `07bebc54f`.)*
 
 ---
 
@@ -106,9 +106,9 @@ The **Q2 10-Q filed 2026-07-31**, seven days before the ~Aug 7-10 window this br
 
 | From | What | Expected by |
 |---|---|---|
-| **Will** | ~~① FFIEC CDR registration~~ ✅ **DONE 8/7** → **① ★ v2.4 disposition of bear-fast's 10% (P7)** · ② ruling on the two prediction-spec defects · ③ ratify-or-reject v2.3.1 · ④ V3 1/5 re-examination · ⑤ MI3 denominator basis (P8) | **⏱ FFIEC JWT expires 2026-11-05 — before the Q4 Call Report** |
+| **Will** | ✅ **NOTHING OUTSTANDING — the whole stack is RULED and EXECUTED.** ~~① FFIEC CDR registration~~ DONE 8/7 · ~~① v2.4 disposition of bear-fast's 10% (P7)~~ **RULED 8/12, EXECUTED 8/20 → 10%→2%, total bear 26%→18%** · ~~② the two prediction-spec defects~~ **REPAIRED 8/20 (P2/P3)** · ~~③ ratify-or-reject v2.3.1~~ **REJECTED + retired (P4)** · ~~⑤ MI3 denominator basis~~ **SPLIT-RULED (P8)**. ⚠️ **④ V3 1/5 re-examination is the ONE item still genuinely open** — and it now has more evidence, not less (NDFI $15.81B / 24.1% of loans, all sub-lines growing, plus $122.5M nonaccrual). | **⏱ FFIEC JWT expires 2026-11-05 — INSIDE the Q3 10-Q window (10/24-11/10), not merely before the Q4 report** |
 | ~~FFIEC~~ | ~~Q2 Call Report PDD → first-ever MI3 test~~ | ✅ **RUN 2026-08-07.** Now a **standing quarterly pull** — next Q3-2026 ~Oct-Nov |
-| SEC EDGAR | Q2 13Fs (institutional flow — **still genuinely unexamined**) | ~Aug 14 2026 |
+| SEC EDGAR | Q2 13Fs — ★ **PARTIALLY WORKED 8/20**: two REAL 5%-holder 13Gs landed (T. Rowe **−20.8%**→5.8%; Invesco **re-crossed** +12.5%→5.4%; implied shares **−1.7%**, buyback-consistent). **The 13F layer itself is unrun but the route is PROVEN** — EDGAR full-text on CUSIP `957638109` returns **394** Q2 13F-HRs. **PUBLIC-AND-UNFETCHED, not blocked.** | ~~~Aug 14 2026~~ **worked 8/20** |
 | WAL mgmt | $99M life-sci appraisal → charge-down or cure. ⚠️ **No known carrying filing** | Q3 2026 |
 | SEC EDGAR | Q3 print (~mid-Oct) + Q3 10-Q (~late Oct) — WAL-01/02 resolution, migration N=2, Cantor ledger tie-out | ~Oct 2026 |
 | REGINALD | Cohort/regime reads, BANK_EXPOSURE_MATRIX re-score (its lane) | Ongoing |

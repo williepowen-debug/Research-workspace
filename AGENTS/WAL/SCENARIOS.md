@@ -533,4 +533,4 @@ The remaining mispricing is **structural CRE tail-risk concentration**, not **fa
 
 ---
 
-*KB evidence: 105 rows | Master thesis: `THESIS.md` v2.2.1 | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../REGINALD/research/WAL_10Q_DRILL_2026-05-21.md`*
+*KB evidence: **177 rows** | Master thesis: `THESIS.md` (**it owns its own version — de-versioned 2026-08-20 after this footer sat two versions and 72 KB rows stale**) | Changelog: `CHANGELOG.md` | Weaknesses: `WEAKNESSES.md` | Q1 analysis: `Q1_2026_ANALYSIS.md` | Round 2 deck/press detail: `sources/q1_2026/` | 10-Q drill: `../REGINALD/research/WAL_10Q_DRILL_2026-05-21.md`*

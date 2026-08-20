@@ -1,0 +1,13 @@
+# Claims this desk has KILLED. One row per dead assertion. Read by scripts/derived_drift_check.py check-2.
+# WHY THIS EXISTS: on 2026-08-20 the MI3 falsifier was still described as "never-run" on THREE derived surfaces 13 days
+# after it ran. Killing a claim in THESIS.md does not remove it anywhere else, and no update path touches derived surfaces.
+# HOW TO USE: when you kill a claim, add a row HERE in the same edit. That is the whole discipline — the check finds the
+# surfaces for you by scanning, so you never maintain a list of files.
+# `pattern` is a lowercase substring OR /regex/. Matches inside a historical marker's proximity window are NOT flagged.
+died_on	pattern	why_dead	replacement	owner_surface
+2026-08-07	/mi3[^.]{0,80}(never run|never-run|has not run|still un-?run|untested)/	The V1a MI3 primary falsifier RAN 2026-08-07 and DISCONFIRMED (Q1-26 23.88%, Q2-26 21.20%, never >=25% in 12 quarters)	MI3 ran and disconfirmed; bear-fast KILL FIRED	THESIS.md
+2026-08-20	/bear-fast[^.]{0,40}\b10%/	v2.4 cut bear-fast 10% -> 2% after its falsifier disconfirmed (Will-ruled 8/12 row 32b)	bear-fast 2%	SCENARIOS.md
+2026-08-13	only bank with increasing hidden cre	Refuted at the cohort primary 2026-08-13: on the uniform v1a basis the >20% screen catches NOBODY (cohort max EGBN 10.77%) and WAL ranks #3 of 14	WAL is #1 of 14 on div-item-4 and #3 of 14 on v1a; name the basis	workbook/KB.tsv KB-WAL-001
+2026-08-07	ffiec cdr registration	Will registered the CDR PWS account 2026-08-07; the blocker is CLOSED	Successor: the FFIEC JWT expires 2026-11-05	MEMORY.md
+2026-08-07	schedule o	Schedule O is a CALL REPORT schedule and does not exist in a Form 10-Q; the WAL-01 cite was VOID and was re-instrumented 2026-08-20 (P2)	Q3 earnings-deck "Classified Assets Mix" slide, A2-visual	workbook/PREDICTIONS.tsv
+2026-08-20	/13f[^.]{0,60}(never examined|genuinely unexamined)/	Two REAL 5%-holder 13Gs landed 8/13-8/14 and the 394-filing 13F route is PROVEN (EDGAR full-text, CUSIP 957638109)	13F layer unrun but route proven; PUBLIC-AND-UNFETCHED	STATUS.md

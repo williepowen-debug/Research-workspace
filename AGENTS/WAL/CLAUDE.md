@@ -54,6 +54,11 @@ You inherit the spawner's cwd and this CLAUDE.md does NOT auto-load. So:
    (cd "$(git rev-parse --show-toplevel)/AGENTS/WAL" && python3 scripts/kb_expiry_check.py --quiet)
    ```
    Reads `workbook/KB.tsv`'s **`Stale_By` column, which nothing had ever read** — 64 of 177 ACTIVE rows (36%) were past their own declared expiry when this shipped, the oldest by 147 days. ⚠️ **Never bulk re-date what it prints.** Each expired row needs a judgment: re-verify, mark `SUPERSEDED`, or extend **with a reason**. Bulk re-dating destroys the only signal the column carries. *(`finding_dated_carry_item_has_no_expiry_check` — a carried assertion is a string; reading the file never evaluates it.)*
+4c. **Derived-surface drift check** (read-only, ~1s — built + wired 2026-08-20, PAT-041):
+   ```
+   (cd "$(git rev-parse --show-toplevel)/AGENTS/WAL" && python3 scripts/derived_drift_check.py --quiet)
+   ```
+   `THESIS.md` OWNS the version/EV/PT and each vector's live state; **every other surface RESTATES them, and a thesis bump touches the owner and nothing else.** Measured 8/20: the MI3 falsifier was described as **"never-run" on THREE derived surfaces 13 days after it ran.** ⚠️ **It finds surfaces by SCANNING, never from a list** — an enumerated fold-list is a hidden claim the list is complete and misses the next surface anyone creates (`finding_enumerated_mechanism_test_hides_a_completeness_claim`). **When you kill a claim, add a row to `workbook/RETIRED_CLAIMS.tsv` in the same edit — that is the whole discipline; the check finds the files for you.** **The signal is the DELTA against the baseline in the script docstring, not the level** — residual hits are known history.
 5. **Live price** — STATUS price >24h old? Pull before citing: `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)`. WAL can move 3-5% in a session. *(No boot.py yet — deliberately instrument-light at standup (PAT-048); building it is a flagged first increment in MEMORY. When built, it gets wired HERE in the same session — PAT-041.)*
 6. **Inbox awareness** — list `inbox/` unprocessed count + senders. Do NOT process on normal spawns (separate task).
 7. **`REGINALD_CHANNEL.md`** — scan top for new REGINALD entries since last boot; ACK what you integrate.
@@ -165,6 +170,7 @@ One `.md` per signal: `YYYY-MM-DD_to-[target]_[desc].md` — Signal / Detail / S
 | `sources/` | Primary extracts; `q*/` + `10k_*/` binaries gitignored, `.md` synthesis tracked. |
 | `research/` | WAL-specific research threads. |
 | `scripts/kb_expiry_check.py` | Reads KB's `Stale_By` column (nothing did before 8/20). Boot step 4b, advisory, exit 0. |
+| `scripts/derived_drift_check.py` + `workbook/RETIRED_CLAIMS.tsv` | Catches derived surfaces still asserting pre-bump state. Boot step 4c. **Add a RETIRED_CLAIMS row whenever you kill a claim.** |
 | `MEMORY.md` | Session handoff + first-boot mandates. |
 | `NEXUS_BRIEF.md` | NEXUS synthesis brief. |
 | `REGINALD_CHANNEL.md` | Pair log with REGINALD. |
