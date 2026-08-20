@@ -1,10 +1,32 @@
 # WAL — Concentrated CRE Tail Risk Actualizing on Q2 Timeline
 
-**Last Updated:** **2026-07-25** | **Version:** **v2.3** | **Prior:** v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
+**Last Updated:** **2026-08-20** | **Version:** **v2.4** | **EV $75.96 · PT $52-76 · overvaluation 5.4% @ $80.05** | **Prior:** v2.3 (Jul 25) | v2.2.1 (Jun 8) | v2.2 (May 21) | v2.1 (May 11) | v2.0 (May 1) | v1.0 (Mar 25)
 
 ---
 
-## CORE THESIS (v2.3 — post-Q2 second-data-point test) ★ CURRENT
+## CORE THESIS (v2.4 — post-MI3-disconfirmation re-mark) ★ CURRENT
+
+**Version:** v2.4 · **Dated:** 2026-08-20 · **Framing UNCHANGED:** "compounder with concentrated CRE tail risk."
+
+**What moved, and only this:** the **V1a MI3 primary falsifier ran 2026-08-07 — the first time in the thesis's life — and DISCONFIRMED.** Bear-fast's 10% weight was sitting on a premise that has now been tested and failed, so it is cut to **2%**, with the freed 8pp to **Base 40→45%** and **Bull 27→30%**. **Bear-medium HELD at 16%. Tail HELD at 7%. No range moved. EV $73.92 → $75.96. PT $52-74 → $52-76.**
+
+**⛔ Anti-ratchet, the binding constraint Will attached to this ruling: total bear 26% → 18%. It FELL.** A disconfirmation that raised the bear would have been a ratchet; the frozen v2.1 implication column would have produced exactly that, which is why it is retired (P9).
+
+**★ The honest headline: overvaluation 18.8% → 12.4% → 5.4%.** The margin of safety is nearly closed, and unlike v2.3 the compression is now **two-sided** — EV rose $2.04 *and* price fell $3.06 to **$80.05**. The tape moved toward the thesis and was still swamped by my own re-weight.
+
+**⚠️ Position consequence, routed not buried:** the live Sep-18 cores sit **below** the new EV ($67.5P by $8.46, $70P by $5.96). On my own central estimate both expire worthless. **No trade recommendation — TERRY + Will [Approve] + live chain (root #4/#5).**
+
+**⚠️ The fence that governs how v2.4 may be consumed — V1a ≠ V1.** MI3 measures CRE-purpose lending **not secured by real estate**. **The bear did not shrink because office risk shrank.** The office book, the $99M life-science credit, the classified balance and the pending appraisal are a *different object*, untouched by this result — which is precisely why **bear-medium did not move.**
+
+**What keeps bear-fast at 2% rather than 0%:** `RCON2746` is step-prone (11.0% of cohort transitions; ~5.8%/quarter for an up-step) and **WAL owns the cohort's two largest up-steps** (+64.8%, +27.2%). **From 21.20%, any qualifying up-step crosses the 25% trigger.** The path is live and base-rateable; zeroing it would claim more than the evidence supports. Full arithmetic → `SCENARIOS.md` §v2.4.
+
+**What still keeps the wider bear alive (why 18%, not lower):** the **$99M appraisal is still not in**; ACL/NPL coverage is **<100%** on the honest denominator; the office maturity wall is unchanged; and a **new** V3 datum landed 8/20 — **NDFI $15.81B carrying $122.5M nonaccrual**, second only to WFC in absolute dollars across a 26-bank sample. That last one is **logged, deliberately not weight-moved** (one quarter, no peer baseline, tape does not sort on it) and is the highest-value next pull.
+
+**Canonical numbers → `SCENARIOS.md` §EV SUMMARY (v2.4). Version history → `CHANGELOG.md`.**
+
+---
+
+## CORE THESIS (v2.3 — post-Q2 second-data-point test) — 🧊 SUPERSEDED 2026-08-20 by v2.4, preserved verbatim for reference
 
 **The Q2 print was the test v2.2 named, and the thesis did not pass it — it survived it, narrower.**
 

@@ -8,6 +8,48 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## v2.4 — 2026-08-20 — **THE MI3 DISCONFIRMATION IS RE-MARKED. Bear-fast 10% → 2%; total bear FELL 26% → 18%; the margin of safety is nearly closed.**
+
+**Authority:** Will, in-session **2026-08-12**, batch ruling row 32b item ④ (P7) — `PROME/proposals/2026-08-12_rule-batch-RULED.md`. **Constraint attached to the ruling and treated as part of it, not a preference:** ⛔ *total bear must NOT rise on a disconfirmation.*
+**Sequencing:** this is a **separate dated edit** from the same session's spec-repair entry below it, per rider R3 (no weight moved in the same edit as a re-spec).
+
+### The move
+
+| Scenario | v2.3 | **v2.4** | Δ | Why |
+|---|---|---|---|---|
+| Bear-fast (V1a MI3 ≥25) | 10% | **2%** | **−8** | Falsifier ran 8/7 and returned a negative on two concordant quarters. Never ≥25% in 12 quarters; all-time high 24.24% never within 76bps of its own trigger |
+| Bear-medium (V1 Office) | 16% | **16%** | **0** | ⛔ Held deliberately — see below |
+| Base | 40% | **45%** | +5 | Disconfirmation is positive information about the risk profile |
+| Bull | 27% | **30%** | +3 | Second-order: raises odds the capital-return plan runs uninterrupted |
+| Tail | 7% | **7%** | 0 | No new Cantor/LAM datum |
+| **EV** | **$73.92** | **$75.96** | **+$2.04** | |
+
+**⛔ ANTI-RATCHET VERIFIED BOTH WAYS: total bear (fast+medium) 26% → 18%; including Tail 33% → 25%. Both fell.**
+**PT $52-74 → $52-76** (convention PINNED and unchanged: [Bear-fast range low, EV]).
+**Overvaluation 12.4% → 5.4%** at spot **$80.05**.
+
+### The three judgment calls, stated so they can be graded later
+
+1. **Why 2% and not 0%.** `RCON2746` is **step-prone** — REGINALD's detector fires on 17 of 154 cohort transitions (11.0%; 9 up / 8 down ⇒ ~5.8%/quarter for an up-step) — and **WAL owns the cohort's two largest up-steps** (2024Q1 +64.8%, 2024Q4 +27.2%). **From 21.20%, ANY qualifying up-step crosses 25%**: the minimum +25% lands at 26.50%, WAL's own two at 26.97% and 34.94%. So bear-fast is **dormant, not dead**, with a live base-rateable path. 2% ≈ that step probability discounted by the two extra conditions the scenario needs — that the step be economically real rather than a memo-designation change (REGINALD's OZK work shows it can be the latter), and that it transmit to a $52-62 stock. **Zeroing it would assert the trigger can never fire, which the evidence does not support.**
+2. **Why bear-medium did NOT absorb the weight — the most consequential thing this re-mark declines to do.** Folding a disconfirmed mechanism's probability into a *different* live mechanism would satisfy the anti-ratchet constraint on the letter (total bear flat) while **defeating its purpose**: a dead premise's weight would survive under a live premise's name, and the bear would have paid nothing for being wrong. **Bear-medium got no new evidence this cycle, so it gets no new weight.** Its mechanism (office migration in the **secured** book) is a different object from MI3 (**unsecured** CRE-purpose) — the V1a ≠ V1 fence expressed as a number.
+3. **Why Base took more than Bull (+5 vs +3).** MI3 speaks to **risk**, not to upside catalysts. It says the hidden-CRE concentration is not there at the premised scale — which supports the compounder proceeding *normally* (Base). Bull's own drivers (buyback, raised NII floor) are untouched by it and get the smaller share.
+
+### ★★ The honest headline — and it cuts against the book
+
+**Overvaluation 18.8% (7/17) → 12.4% (7/25) → 5.4% (8/20).** Unlike v2.3, the compression is now **two-sided**: EV rose **$2.04 (+2.8%)** *and* price fell **$3.06 (−3.7%)**. The price leg is bear-supportive — the tape came toward the thesis — and was still swamped by my own re-weight.
+
+> ⚠️ **The live Sep-18 cores now sit BELOW EV: $67.5P by $8.46, $70P by $5.96.** On my own central estimate both expire worthless, and that is **$2.04 worse than at v2.3**. **No trade recommendation is made here** (TERRY + Will [Approve] + live chain, root #4/#5) — the fact is routed rather than buried, because a re-mark that quietly weakens the case for the position it supports is the one most likely to go unread.
+
+### Offsets carried, NOT dropped
+1. **MI3 dollars are RISING +14% YoY** ($2,246M → $2,555M); the ratio fell only because item 4 grew faster. **A ratio plateau is not a shrinking hidden-CRE book.**
+2. **NEW 8/20 — NDFI $15.81B (24.1% of loans) carrying $122.5M NONACCRUAL** [REGINALD, FFIEC CDR primary, `RCONPV25`, 6/30/26]; in a 26-bank sample only WFC carries more in absolute dollars, on a book ~14× larger. **Deliberately NOT weight-moved**, on the publisher's own four caveats (one quarter, no peer baseline, tape does not sort on it at ρ −0.255/−0.063 n=26, 68.9% is near-zero-loss warehouse). **Logged, and named the highest-value next pull.**
+3. **REG-15 — a 60% prediction on this same series — resolved FAILED this session**, in the same direction as this re-mark. Consistent, not corroborating.
+
+### What v2.4 does NOT do
+No range moved · no confidence on WAL-01/WAL-02 moved · position posture unchanged · the $99M appraisal remains the most-dated open catalyst with no carrying instrument until the Q3 deck · **the PT convention is left PINNED although it is now strained** (it anchors the floor on a scenario just cut to 2%) — flagged as an open spec question for a later dated edit rather than changed inside a weight move.
+
+---
+
 ## 2026-08-20 — **SPEC-REPAIR RECORD, NO VERSION BUMP: the four defective rules are repaired or retired. No weight, probability or confidence moved.**
 
 **Deliberately not a version bump, and deliberately a SEPARATE edit from the v2.4 re-mark below it.** Rider R3 (`DELEGATION_TIER`, and the same rider on Will's 8/12 batch) forbids moving a weight in the same edit as a re-spec — so this entry is spec text only. **Zero confidences, probabilities, weights, EV or PT changed here.**

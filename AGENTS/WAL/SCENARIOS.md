@@ -1,10 +1,13 @@
 # WAL — Scenario Analysis & Target Prices
+> **✅ v2.4 RE-MARK LANDED 2026-08-20 — the MI3 disconfirmation is now IN the numbers.** Bear-fast **10% → 2%** (its falsifier ran and returned a negative); freed weight to **Base 45% / Bull 30%**; **bear-medium HELD at 16%**. EV **$73.92 → $75.96**; **overvaluation 12.4% → 5.4%** at spot $80.05 [8/20]; PT **$52-76**. ⛔ **Anti-ratchet verified: total bear 26% → 18%.** See §EV SUMMARY (v2.4) immediately below.
+> **⚠️ The Sep-18 cores ($67.5P/$70P) now sit $8.46 and $5.96 BELOW EV** — on the central estimate they expire worthless. Routed to TERRY/Will, not actioned here.
+>
 > **✅ v2.3 RE-MARK LANDED 2026-07-25 — the Q2 second-data-point test is now IN the numbers.** EV **$68.93 → $73.92**; overvaluation **12.4%** at spot $83.11 [7/24 close, market.py]; PT **$52-74**. See §EV SUMMARY (v2.3) immediately below — the v2.2.1 table is preserved beneath it as the audit trail. **The bear weakened: EV rose $4.99 while price rose only $1.23, so the margin of safety COMPRESSED ~6.4pp.**
 > **⚠️ RESIDUAL CORRECTION (2026-07-17 audit — still applies):**
 > **POSITION TRUTH:** every "$77.5P **Sep**" reference below is a PHANTOM — per canonical `POSITIONS.md` (5/8 broker refresh + 6/19 reconcile), the $77.5P was **Jun-18 tenor, cleared 6/18**; the live Sep core is **$67.5P + $70P** (plus RH $77.5P **Aug-21**, folded 7/20). The strike-by-strike sections were built in May on the mis-recorded book and are **NOT rebuilt in v2.3** — position-architecture rebuild is reserved for the `AGENTS/WAL/` standup (PROME WP-W2). Grep `POSITIONS.md` before ANY position use — never this file.
 
-**Created:** 2026-03-25 (v1.0) | **Last Updated:** **2026-07-25 (v2.3 — Q2 print re-mark: probabilities + ranges + EV off Q2 actuals)**; prior 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort RESOLVED → Hyp A); date-fix 7/10; audit banner 7/17
-**Current Price:** **$83.11** [7/24 close, market.py] | **TBV:** $61.14 [Q1 — Q2 TBV not re-pulled] | **CET1:** 11.0% [Q2 confirmed]
+**Created:** 2026-03-25 (v1.0) | **Last Updated:** **2026-08-20 (v2.4 — MI3-disconfirmation re-mark: bear-fast 10%→2%, probabilities only, no range moved)**; prior **2026-07-25 (v2.3 — Q2 print re-mark: probabilities + ranges + EV off Q2 actuals)**; prior 2026-06-08 PM (v2.2.1 — macro-NIM tailwind softening + cohort RESOLVED → Hyp A); date-fix 7/10; audit banner 7/17
+**Current Price:** **$80.05** [2026-08-20 14:4x ET, market.py] *(was $83.11 7/24 close)* | **TBV:** $61.14 [Q1 — Q2 TBV not re-pulled] | **CET1:** 11.0% [Q2 confirmed]
 **Short Interest:** 3.54% float / 2.71 days (Mar 25 — REFRESH PENDING)
 **Q1 2026 EPS:** $1.65 GAAP / $2.22 adjusted | **FY2025 NI:** $991M
 
@@ -16,7 +19,62 @@
 
 ---
 
-## EXPECTED VALUE SUMMARY (v2.3 — post-Q2, multi-quarter unconditional) ★ CURRENT
+## EXPECTED VALUE SUMMARY (v2.4 — post-MI3-disconfirmation re-mark) ★ CURRENT
+
+**Trigger:** the **V1a MI3 primary falsifier ran 2026-08-07 and DISCONFIRMED** (Q1-26 23.88% · Q2-26 21.20%, both in the frozen `<24%` PLATEAUED band; never ≥25% in 12 quarters). **Bear-fast's 10% weight sat on a tested-and-failed premise.** Will ruled its disposition 2026-08-12 (batch, row 32b, `PROME/proposals/2026-08-12_rule-batch-RULED.md`) with a hard constraint: ⛔ **total bear must NOT rise on a disconfirmation.**
+
+| Scenario | v2.3 Prob | **v2.4 Prob** | Δ | Range | Midpoint | Weighted |
+|----------|----------|--------------|----|-------|----------|----------|
+| Bear-fast (V1a MI3 ≥25 trigger) | 10% | **2%** | **−8** | $52-62 *(unch)* | $57.00 | $1.14 |
+| Bear-medium (V1 Office migration) | 16% | **16%** *(unch)* | 0 | $58-66 *(unch)* | $62.00 | $9.92 |
+| Base | 40% | **45%** | +5 | $74-82 *(unch)* | $78.00 | $35.10 |
+| Bull | 27% | **30%** | +3 | $86-94 *(unch)* | $90.00 | $27.00 |
+| Tail | 7% | **7%** *(unch)* | 0 | $35-45 *(unch)* | $40.00 | $2.80 |
+| **Expected Value** | **$73.92** | **100%** | | | | **$75.96** |
+
+**⛔ ANTI-RATCHET CHECK — the binding constraint on this re-mark, verified both ways:**
+**Total bear (fast + medium): 26% → 18%. FELL 8pp.** Including Tail: 33% → 25%, also fell. **A disconfirmation reduced the bear. Constraint satisfied, not merely respected.**
+
+**Overvaluation (÷EV convention, pinned):** (80.05 − 75.96) / 75.96 = **5.4%** at spot **$80.05** [2026-08-20 14:4x ET, market.py].
+
+### ★★ THE HONEST HEADLINE: the margin of safety has NEARLY CLOSED — 18.8% (7/17) → 12.4% (7/25) → **5.4% (8/20)**
+
+**And this time only HALF of it is my own re-weight.** At v2.3 the compression was entirely EV-side (EV rose $4.99, price rose $1.23). Here it is two-sided: **EV rose $2.04 (+2.8%) AND price fell $3.06 (−3.7%)** from the v2.3 mark. The price leg is *bear-supportive* — the tape came toward the thesis — but it was swamped by my own EV increase. **Net: WAL is still overvalued against my EV, but by 5.4%, which is inside the range where the honest answer is "barely."**
+
+> ⚠️ **POSITION CONSEQUENCE, stated because it is the most decision-relevant line in this file and it cuts AGAINST the book.** The live Sep-18 cores sit **BELOW** the new EV: **$67.5P is $8.46 below EV · $70P is $5.96 below EV.** On my own central estimate both expire worthless. That was already true at v2.3's $73.92 and it is **$2.04 worse now.** **This is not a trade recommendation and I do not make one** — position action is TERRY + Will [Approve] + a live chain (root rules #4/#5). It is the fact the re-mark produces, routed rather than buried.
+
+### Re-weight rationale — every line tied to the graded result
+
+| Shift | Driver |
+|---|---|
+| **Bear-fast 10% → 2%** | Its **defining mechanism was measured and found absent.** MI3 never reached its own 25% trigger in **12 quarters**; all-time high 24.24% never came within **76bps** of it; the ≥27% hard-confirm band sits **276bps above the all-time high**; and since 2025Q1 the series oscillates in a ~3pp band with no direction. This is not "unconfirmed" — it is the falsifier running and returning a negative on two concordant quarters. |
+| **…but 2%, not 0% — and the reason is evidence, not caution** | `RCON2746` is **step-prone**: REGINALD's detector fires on 17 of 154 cohort transitions (11.0%, 9 up / 8 down ⇒ **~5.8%/quarter for an UP-step**), and **WAL owns the cohort's two largest, both UP** (2024Q1 +64.8%, 2024Q4 +27.2%). **From 21.20%, ANY qualifying up-step crosses the trigger** — the minimum +25% lands at 26.50%, WAL's own two would land at 26.97% and 34.94%. So the path is live and base-rateable. 2% ≈ that ~5.8% quarterly step probability discounted by the two further conditions the *scenario* needs: that the step be **economically real rather than a memo-designation change** (REGINALD's OZK work shows it can be the latter), and that it then **transmit to a $52-62 stock**. **Zeroing it would assert the trigger can never fire, which is stronger than the evidence.** |
+| **Base 40% → 45% (+5)** | The disconfirmation is **positive information about the risk profile**, not merely absent bad news: the hidden-CRE concentration the bear premised is **not there at the scale claimed**, and on the legitimate cross-bank basis (v1a) the `>20%` screen catches **nobody** in a 14-bank cohort. That supports the *compounder proceeding normally*, which is Base. Base takes the larger share because MI3 speaks to **risk**, not to upside catalysts. |
+| **Bull 27% → 30% (+3)** | Smaller share, deliberately. MI3 says nothing about the bull's own drivers (buyback execution, the raised NII floor, the capital-return pivot). It raises the odds those plans run **without a credit interruption** — real, but second-order. |
+| **Bear-medium 16% → UNCHANGED** | ⛔ **Deliberate, and the most important thing this re-mark does NOT do.** P7's scope is bear-fast's 10%. **The freed weight must not be laundered into the other bear** — bear-medium's own mechanism (office migration in the **secured** book) got no new evidence this cycle, and moving weight there would let a dead mechanism's probability survive under a live mechanism's name. Its evidence is unchanged, so its weight is unchanged. |
+| **Tail 7% → UNCHANGED** | No new Cantor or LAM/Jefferies datum. The counterclaim remains secondary-sourced and uncorroborated by any filing (P4 rejected the trigger, not the risk). |
+
+### ⚠️ Scope fence carried verbatim into the re-mark: **V1a ≠ V1**
+MI3 measures CRE-purpose lending **NOT SECURED by real estate**. **The office book, the $99M life-science credit, the classified balance and the pending appraisal are a DIFFERENT OBJECT and are untouched by this disconfirmation.** This is the single most likely mis-consumption of v2.4 — **the bear did not get smaller because the office risk got smaller; it got smaller because a *different, adjacent* mechanism was measured and found absent.** Bear-medium sitting unchanged at 16% is that fence expressed as a number.
+
+### The offsets I am NOT dropping (they cut against this re-mark)
+1. **MI3 DOLLARS are rising, +14% YoY ($2,246M → $2,555M).** The ratio fell only because item 4 grew faster. A ratio plateau is not a shrinking hidden-CRE book.
+2. **NEW 2026-08-20 — the NDFI book is $15.81B (24.1% of loans) and carries $122.5M of NONACCRUAL** [REGINALD, FFIEC CDR primary, RSSD 3138146, `RCONPV25`, 6/30/26]. In a 26-bank sample including JPM/BAC/WFC, **only WFC carries more NDFI nonaccrual in absolute dollars**, on a book ~14× larger. **Deliberately NOT weight-moving**, on the publisher's own four caveats: one quarter (no trajectory), no peer baseline, the tape does not sort on it (ρ −0.255 / −0.063 at n=26, inside noise), and 68.9% of the book is mortgage warehouse where losses run near zero. **Logged as a datum, and as the highest-value next pull** (≥4 quarters before any direction is read).
+3. **A 60% prediction (REG-15) just resolved FAILED** on this same series. The instrument that killed bear-fast also says my predecessor's confidence on this vector was badly calibrated — in the *same* direction I am now moving. That is consistent, not corroborating.
+
+### PT range — convention held, and its tension flagged rather than quietly fixed
+**PT $52-76** (was $52-74). Convention **PINNED and unchanged**: PT = [Bear-fast range low, EV] → [$52, $75.96].
+⚠️ **The convention is now strained and I am NOT fixing it in this edit.** It anchors the PT floor on a scenario I just cut to **2%**, so the published floor is set by a 1-in-50 outcome. Changing a pinned convention in the same edit that moves a weight is exactly what rider R3 forbids. **Registered as an open spec question for a later dated edit** — candidate replacement: anchor the floor on the probability-weighted bear (fast+medium) rather than on bear-fast's tail.
+
+### What v2.4 does NOT do
+- **Does NOT touch ranges.** No range moved. The re-mark is probabilities only — there was no new *earnings-base* information, which is the standard v2.3 set for a range edit.
+- **Does NOT move bear-medium, Tail, or any confidence on WAL-01/WAL-02.** Those confidences were re-marked by Stage-2 on 7/22 and are untouched here.
+- **Does NOT change position posture.** No trade recommendation. TERRY + Will [Approve] + live chain.
+- **Does NOT re-open the $99M appraisal, which remains the most-dated open catalyst with no carrying instrument until the Q3 deck.**
+
+---
+
+## EXPECTED VALUE SUMMARY (v2.3 — post-Q2, multi-quarter unconditional) — 🧊 SUPERSEDED 2026-08-20 by v2.4, preserved as the audit trail
 
 **Trigger:** the WAL Q2 print (7/21 AMC + 7/22 call), graded in two stages → `../REGINALD/reports/2026-07-21_WAL_Q2_grade.md` + `../REGINALD/reports/2026-07-22_WAL_Q2_stage2_grade.md`. **Verdict was NOT-surprise-tier / NO FIRE**, so this re-mark moves weight OFF the bear and ONTO base/bull. Direction is bear-unfavourable and stated as such.
 
