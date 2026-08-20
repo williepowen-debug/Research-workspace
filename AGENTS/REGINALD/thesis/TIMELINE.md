@@ -169,7 +169,7 @@ This document maps our forward-looking expectations — what's coming, what we t
 - **Our view:** Rules finalize. Phase-in begins. Capital ratios drop mechanically. Banks that were borderline on capital adequacy get pushed below thresholds. This is when the FHLB advance spike should materialize (banks needing emergency liquidity as capital erodes).
 
 ### FHLB Advance Spike
-- **Our view:** Currently ~$480B (issuance +31% YoY). Our threshold is >$700B. The spike comes when banks need liquidity to meet withdrawal demands while capital erodes from CRE + AOCI. This is the LIQUID crossover signal.
+- **Our view:** ⚠️ **[VALUE CORRECTED 2026-08-20 — the rest of this v1.4 document is NOT refreshed]** Currently **$810.7B [6/30/26, FHLB OF primary]**, not the ~$480B this line carried since February (issuance +31% YoY). Our threshold is >$700B. The spike comes when banks need liquidity to meet withdrawal demands while capital erodes from CRE + AOCI. This is the LIQUID crossover signal.
 
 ---
 

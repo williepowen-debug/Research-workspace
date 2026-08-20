@@ -13,7 +13,7 @@
 
 | Evaluate against | June 2026 | Distance to the >15 fire |
 |---|---|---|
-| ✅ **Trepp office DQ** — THE basis for this trigger | **11.57%** | **3.4pp** |
+| ✅ **Trepp office DQ** — THE basis for this trigger | **11.91%** [July 2026] | **3.09pp** |
 | ❌ Fitch *overall* CMBS DQ (different universe **and** different scope) | 3.31% (May) | 11.7pp — reads "nowhere near" |
 
 **History.** Until 2026-07-30 the metric field read the un-provisioned `OFFICE-CMBS-DQ`, while my STATUS dashboard row under the heading "Office CMBS DQ" carried the **Fitch overall** figure. Both numbers are correct for what they measure; the defect was **a wrong denominator under the right label**, which makes the gate look ~3.5× further from firing than it is. Found by **CREED 2026-07-27** (`inbox/processed/2026-07-27_from-CREED_REG-T-07-fires-on-my-series...`) in a Will-directed structure survey. Same provider-stacking class as `[[finding_blended_index_masks_bifurcation]]`.
