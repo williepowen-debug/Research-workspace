@@ -7,6 +7,10 @@ Newest first. Keep entries terse; archive build minutiae to `FLEET_MAP.tsv`.
 
 ## Changelog
 
+### 2026-08-20 — STATE_VOCABULARY Class 7: gate-registry envelope scannability (Will-ruled same day)
+
+**Occasion:** the gate-registry adjudication (`design/2026-08-20_GATE_REGISTRY_ADJUDICATION.md`, Will: "Approved - packet PROME and queue the check build"). The ruled design types `PROME/GATES.tsv`'s new `scannable` column; a machine-read state cell on a shared surface is an interface (PAT-075), so the tokens are registered before the first surface ships them. Class 7 = `INSTRUMENT` / `JUDGEMENT` / `OWNED-ELSEWHERE`, each with the grading obligation it creates, plus the envelope-not-letter rule (PAT-006 n+3) in the class body. Enforcement-map row added: `registry_chain_check` is the ruled arm, UNBUILT, queued after docket_view; interim = PROME gates-hygiene (review_by) + WALTER boot (INSTRUMENT rows). Desk registries exempt-by-form, CREED `band_status` spellings grandfathered.
+
 ### 2026-08-19 — Review method + lifecycle: OFF-FLEET review procedure (Job 5), guards-run-outward, and two closeout legs
 
 **Occasion:** the VIRGIL review (Will-requested) — the fleet's first OFF-FLEET subject. Nothing in the standard covered it, so the procedure was improvised in-session; it worked, so it is encoded rather than re-derived next time.

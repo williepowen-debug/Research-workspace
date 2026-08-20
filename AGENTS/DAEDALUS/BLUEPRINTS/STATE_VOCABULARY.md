@@ -101,6 +101,18 @@
 
 ---
 
+## Class 7 — Gate-registry envelope: scannability (added 2026-08-20; ruling: Will in-session "Approved" on `AGENTS/DAEDALUS/design/2026-08-20_GATE_REGISTRY_ADJUDICATION.md`; provenance: WALTER 8/19 Will-routed measurement + CREED 8/20 untrippable-row finding; first application = `PROME/GATES.tsv` `scannable` column)
+
+For the `scannable` cell of a gate-registry envelope row. Declares HOW the gate is graded — never whether it is important. One token per row, no compounds:
+
+| Token | Meaning | Grading obligation it creates |
+|---|---|---|
+| `INSTRUMENT` | Named metric/series with operator + level; a machine can grade it | Row must complete the chain: named metric surface (VX row / METRIC_MAP entry / watcher) + a named reader. `registry_chain_check` asserts all three; a tool-side literal for the same gate must match the registered level |
+| `JUDGEMENT` | Compound / event-class / qualitative; the OWNER grades it at boot | Row must carry a dated `review_by` the owner can discharge alone; scanners COUNT these rows and print lapses — they never grade them |
+| `OWNED-ELSEWHERE` | The metric belongs to another desk (named in the row) | Metric-owner named in the row; the gate-owner cites, never keeps a competing copy (PAT-006/PAT-063) |
+
+⚠️ **The registry cell is an ENVELOPE field. The condition LETTER lives at exactly one owner-side `definition_surface`; the registry carries a one-line summary + pointer, never a copy** (PAT-006 n+3, 2026-08-20: both drift directions measured live, including a canonical cell stale against a fire that had already happened).
+
 ## Enforcement map (who reads these tokens)
 
 | Class | Machine reader today | Registry obligation |
@@ -110,6 +122,7 @@
 | 3 (predictions) | boot due-scans, scoreboard tooling (per-agent) | New ledgers ship with the token enum in their header comment |
 | 4 (queue/disposition) | queue re-scan tooling, board_log audits (per-agent today; no single enforcer) | New queue surfaces ship the enum + TERMINAL marking in their header comment; any re-queue tooling keys on the TERMINAL flag, never on token spelling |
 | 5 (zero/UNKNOWN/NA) | ⛔ **UNBUILT — CORRECTED 2026-08-17: `basis_check` never shipped as code** (BRENT-confirmed — class-5 tokens live as INCIDENTS.tsv column enum + prose, no script check exists; this cell previously named it as the ruled enforcement arm, and the correction sat in an overflow 4th cell GFM silently dropped at render — self-audit F25). Candidate home rides the forum-4 #11 registration-checklist build; extend an existing checker per anti-ratchet rider | New quantitative TSV columns ship the enum in a header comment; existing columns adopting the class name what they supersede |
+| 7 (gate-envelope scannability) | ⛔ UNBUILT — `registry_chain_check` is the ruled enforcement arm (Will 2026-08-20), queued after docket_view; until it ships, PROME's gates-hygiene sweep reads `review_by` and WALTER's boot scans `INSTRUMENT` rows only | `PROME/GATES.tsv` ships the enum in its header comment at the column-add; the 3 desk registries (RED/REGINALD/CREED) are exempt-by-form (their rows are all INSTRUMENT-class by construction; CREED's `band_status` legacy spellings grandfathered) |
 | 6 (source authority) | No dedicated enforcer today — reader-side convention; a fleet grep for `PRIMARY`\|`MIRROR`\|`MIRROR-WALLED` on threshold rows is a candidate follow-on *(pipes escaped 2026-08-17 — unescaped they split this row and GFM dropped the obligation cell, self-audit F25)* | New citations on load-bearing figures carry one of the three tokens; HOMER `RATES.tsv` (`workbook/`) is the first-application worked example |
 
 **Build-time check (REGISTRATION_CHECKLIST row 15):** new agents' state-bearing surfaces use canonical tokens; DAEDALUS verifies at registration. Blueprint variants cite this file — they do not restate the tables.
