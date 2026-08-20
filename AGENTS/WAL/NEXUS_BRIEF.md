@@ -1,13 +1,43 @@
 # WAL — NEXUS Brief
 
-**Status:** 🟠 BEAR NARROWED FURTHER, NOT DEAD — ★★ **2026-08-07: the V1a MI3 falsifier RAN FOR THE FIRST TIME EVER and DISCONFIRMED** (Q1-26 23.88% · Q2-26 21.20%, both `<24%` PLATEAUED; **bear-fast KILL FIRED**, ~Sep 1 time-box **DISSOLVED**). ⚠️ **V1a ≠ V1 — the secured office book is UNTOUCHED and the thesis weights are UNCHANGED pending Will (v2.4 proposal P7).** Prior framing, still standing: v2.3 post-Q2 re-mark holds unchanged through the Q2 10-Q read: broadening DISCONFIRMED (0 new office migrations; REG-26 disconfirmed), thesis marked DOWN against the non-confirming print (EV $68.93→$73.92, overvaluation 18.8%→12.4%); residual bear = idiosyncratic office tail + reserve thinness, resolution dated to the $99M appraisal + Q3 10-Q. ⚠️ **The Q2 10-Q (8/7) did NOT settle the residual — it widened the key spec question and refuted the rationale behind one convergence score.**
+**Status:** 🟠 **BEAR NARROWED AGAIN AND IS NOW MOSTLY PRICED — margin of safety 12.4% → 5.4%.** ★★ **2026-08-20: v2.4 SHIPPED** — the MI3 disconfirmation (falsifier ran 8/7, first time ever) is now IN the numbers: **bear-fast 10% → 2%**, freed 8pp to Base 45 / Bull 30, **bear-medium HELD at 16%**; **EV $73.92 → $75.96**, PT **$52-76**. ⛔ **Anti-ratchet verified both ways: total bear 26% → 18%, it FELL.** ⚠️ **Both live Sep-18 cores now sit BELOW EV** ($67.5P −$8.46, $70P −$5.96). **And the tape is at its period low with the $78 threshold only +2.6% away — BOTH-TRUE, neither leg resolves the other.**
 **Domain:** Western Alliance Bancorporation (NYSE: WAL) — single-name deep coverage: thesis + calibration record, print grading off frozen frames, FRAUD/ litigation arc (WAL v. Jefferies $126.4M + Cantor), MI3 watch. **NOT mine:** cohort/KRE/peer banks → REGINALD; OZK → OZK; First Brands docket → OTTO; private credit → BROCK.
-**Thesis framing:** v2.3 "compounder with concentrated CRE tail risk" — Bear-fast 10 / Bear-medium 16 / Base 40 / Bull 27 / Tail 7; EV $73.92; PT $52-74 (pinned [Bear-fast low, EV]). **v2.3.1 was pre-registered as a conditional re-mark; the condition was evaluated 8/7 and DOES NOT FIRE — no successor version is owed.**
-**As of:** 2026-08-07 — **owner re-pin, WAL session #2 (second fold, same day, after the MI3 scope extension).** STATUS pin: **`07bebc54f`**. *(Supersedes the 7/25 standup pin, which NEXUS correctly classified 🟠 CONTENT-STALE at 7 commits' drift on 7/31 — packet consumed, all five missing items folded below.)*
+**Thesis framing:** **v2.4** "compounder with concentrated CRE tail risk" (framing UNCHANGED since v2.0) — **Bear-fast 2 / Bear-medium 16 / Base 45 / Bull 30 / Tail 7; EV $75.96; PT $52-76** (convention pinned [Bear-fast low, EV], and now **strained** — it anchors the floor on a 2% scenario; flagged for its own dated edit, deliberately NOT changed inside a weight move). **v2.3.1 is REJECTED and RETIRED** (P4, 8/20) — leg (a) named the 10-Q as carrier for *consensus EPS*, which no filing carries; leg (b) could confirm but never disconfirm. **Retires the RULE, not the risk.**
+**As of:** **2026-08-20** — owner re-pin, **WAL session #3** (13 days dark → fully current; the mandatory every-session fold). **STATUS pin: `6fc682f85`.** *(Supersedes the 8/7 pin `07bebc54f`.)*
 
 ---
 
-## ★★ THE BIG ONE (2026-08-07): a 4-month-dark primary falsifier ran, and disconfirmed
+## ★★ THE BIG ONE (2026-08-20): the disconfirmation is now PRICED, and the thesis is close to spent
+
+**v2.4 executed Will's 8/12 ruling on the 10% bear-fast weight.** The falsifier ran 8/7; this is the re-mark it forced.
+
+| Scenario | v2.3 | **v2.4** | Δ |
+|---|---|---|---|
+| Bear-fast (V1a MI3 ≥25) | 10% | **2%** | **−8** |
+| Bear-medium (V1 Office) | 16% | **16%** | **0 — HELD** |
+| Base | 40% | **45%** | +5 |
+| Bull | 27% | **30%** | +3 |
+| Tail | 7% | **7%** | 0 |
+| **EV** | $73.92 | **$75.96** | **+$2.04** |
+
+**⛔ Anti-ratchet (the constraint Will attached): total bear 26% → 18%. It FELL.**
+
+### The three things NEXUS should carry from this
+
+1. **★ The bear did NOT shrink because office risk shrank.** MI3 measures CRE **not secured** by real estate. **V1a ≠ V1.** The office book, the $99M life-science credit, the classified balance and the pending appraisal are a **different object** and are untouched. **`Bear-medium HELD at 16%` is that fence expressed as a number** — the freed weight was deliberately *not* laundered into the other bear, because that would satisfy the anti-ratchet constraint on the letter while defeating its purpose.
+2. **★ The margin of safety is nearly closed, and it is now TWO-SIDED.** 18.8% (7/17) → 12.4% (7/25) → **5.4% (8/20)**. Unlike v2.3, price did part of the work (EV **+$2.04** *and* price **−$3.06** to $80.05). **A short thesis that is 5.4% from its own fair value is mostly spent** — that is the honest read, and it cuts against the book.
+3. **★ BOTH-TRUE tape tension, unresolved by design.** The model says the Sep-18 cores expire worthless (EV **above** both strikes). The tape says WAL is at its **period low**, buffer **+2.6%** — through WALTER's 3-5% near-trigger band — **not cohort-driven** (KRE +0.03% same session) and **with no fundamental move** (no 8-K since 7/30). **The $78 threshold fires on a CLOSE regardless of EV.** Neither leg resolves the other; they answer different questions.
+
+### Also new since the last brief
+
+- **Spec hygiene, one pass:** WAL-01 **re-instrumented** (the *"Q3 10-Q Schedule O"* cite was VOID — Schedule O is a Call Report schedule, and **no 10-Q publishes classified-by-property-type at all**; the only carrier is a deck slide, now named, with a **NO-VERDICT band**). WAL-02's invalidation **repaired** from a formally-unsatisfiable clause to an exhaustive Q3-only partition. **Four WAL rules have now failed the "can this instrument carry this datum?" test** — validity and executability are orthogonal axes, and that is now a standing pre-ship test on this desk.
+- **REG-15 transferred in and scored RESOLVED-FAILED** (a 60% call, missing its >30% bar by 576bps at its widest approach). ⚠️ **It sat owned by NOBODY for 7 days** — the sender encoded and stopped, the receiver had no trigger, and *both desks' own checks passed clean*.
+- **Institutional flow, first real read:** **T. Rowe −20.8% to 5.8%** (delta spans 3 quarters — not attributable to Q2), **Invesco re-crossed +12.5% to 5.4%**. Roughly offsetting. Implied shares out **−1.7%**, buyback-consistent. **Insider: zero signal** — 9 Form 4s all the RSU mechanic, no code-P, no new 144.
+- **NEW RISK DATUM, logged not priced: NDFI $15.81B carrying $122.5M nonaccrual** (0.77%) — in a 26-bank sample **only WFC carries more in absolute dollars**, on a book ~14× larger. **Deliberately not weight-moved** (one quarter, no peer baseline, tape doesn't sort on it, 68.9% is near-zero-loss warehouse). **Named the highest-value next pull.**
+
+---
+
+## ★★ PRIOR (2026-08-07): a 4-month-dark primary falsifier ran, and disconfirmed
 
 **Will cleared the FFIEC CDR blocker; MI3 pulled the same day for both 2026 quarters plus 10 of history.**
 
