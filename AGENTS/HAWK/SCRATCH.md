@@ -1,4 +1,4 @@
-# HAWK SCRATCH — 2026-08-20 (Thu): the ~8/24 checkpoint work
+# HAWK SCRATCH — 2026-08-20 (Thu): checkpoint BUILT then CLOSED EARLY (Will-ruled) · HAW-19 twice repaired · MRPL test resolved · FALCON+OSPREY spawned
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (step 2), rewritten in full at closeout (step 14). Disposable. Persistent learnings → `MEMORY.md` / `LESSONS.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
@@ -7,13 +7,17 @@
 ## CHANGES SINCE LAST SESSION (8/15 → 8/20)
 
 - **5-day gap — and the WHOLE WAR TRIAD was dark.** OSPREY's and FALCON's `NEXUS_BRIEF.md` are both still stamped 8/15 ~15:xx ET. My synthesis inputs are 5 days old and every cross-war read now says so explicitly.
-- **~8/24 CHECKPOINT: both Will-ruled conditions BUILT.** (a) `thesis/FALSIFICATION.md` (new). (b) `HAW-19` + `HAW-20` registered. **Book 0 OPEN → 2 OPEN.** The close itself is Will's/PROME's call — I did not declare it closed.
+- **~8/24 CHECKPOINT: BUILT, THEN CLOSED EARLY THE SAME DAY.** (a) `thesis/FALSIFICATION.md` (new). (b) `HAW-19` + `HAW-20`. **Book 0 OPEN → 2 OPEN.** I did not declare it closed; **Will ruled it closed EARLY on his verbatim word — CONDITIONS-MET, so the 8/15 conditional is DISCHARGED, not waived** (record `inbox/processed/2026-08-20_from-PROME_sunset-checkpoint-CLOSED-EARLY...`, commit `1f74f4516`, verified at the artifact before encoding).
 - **`FLOW-HAWK-19` RE-CUT #2** — folded in four evidence legs that had moved since the 7/25 stamp (BRENT's 8/2 Ras Laffan retraction, its 8/3 DEFERRED qualifier, FALCON's 7/30 gas-shock scope, my own 8/15 TRANSIT/LOADING split) plus the 8/12 capability-independent CPC discrimination. **`FLOW-HAWK-20` first-test stamped** — it had read "untested" for 23 days while its own live test had already run and the pathway lost (Ras Laffan FM → no Taipower rationing).
 - **🔴 TWO BAND-SCORING DEFECTS FOUND ON MY OWN BOOK** — `TWN-01` and `FININFRA-01` are both marked 🟠 ORANGE above the conditions their own Orange bands state. Found by writing the gates as explicit "band X → band Y" transitions, i.e. by using the 7/28 TWN-01 lesson's prescribed fix **as a detector**. **Flagged to PROME/Will, NOT re-marked.**
 - **STANDING INSTRUMENT RULING: the Hormuz transit-count family is IMPEACHED and inadmissible** as a falsifier basis for this desk (BRENT internal + Windward ~58%-dark; six readings 0-12 for adjacent days, zero comparable pairs). `HAW-19` LEG B uses CENTCOM's adjudicated disabled/boarded counts instead.
 - **Absorbed from the dark window: the US-Iran MOU expired by term 8/17**, no deal, no extension. Cost `HAW-19` ~15 points of confidence, and it **raises the ~9/8 falsification bar while killing one of the coupling account's discriminators in the same event.**
 - **Closeout 13a executed** (skipped on 8/15) — `CROSS_THEATER_WAR_RISK.md` re-stamped 8/20, no-change pass, both legs now **+29d/+30d** against a 10-day bar.
-- New KB rows: **`KB-HAWK-267..270`**.
+- **🔴 `HAW-19` TOOK TWO IN-SESSION REGISTRATION REPAIRS ON ITS FIRST DAY, both found by other desks reading artifacts I had not.** **(i) LEG A(iii)(γ)** named "Kpler **OR** Vortexa" as interchangeable — BRENT's 8/17 discriminator (committed inside my dark window) shows a **2.8× spread** on one asset-week over ~100%-dark cargo. Now requires **BOTH, agreeing within 1.5×**, divergence → NO-VERDICT. **(ii) LEG B** paired a **blockade-wide numerator** with a **route-specific denominator** — the perimeter twin of the stock-vs-flow rule I had used *that same morning* to delete the vessel leg. Now grades on **named, dated, water-body-attributed events in a stated corridor set**. Confidence held at 70% both times: resolvability repairs, not confidence events.
+- **✅ MRPL CLAUSE TEST RESOLVED 8/20, four days early** — zero further adopters, count remains ONE; **HPCL declined the clause in a joint 8/12 tender with MRPL** (matched control). **But MRPL repeated it** ⇒ **persisting, not spreading.** The test measured BREADTH; DURABILITY moved and it was blind to that. **Forward durability test OWED.** `KB-HAWK-274/275`.
+- **FALCON and OSPREY SPAWNED** as named persistent desks on Will's direct word (I declined PROME's relayed "Will-directed" and waited). Both running; deliveries pending.
+- **Tankage instrument CLASSIFIED UNREACHABLE** (WALTER): the satellite/floating-roof-analytics class is **paid and proprietary**, i.e. genuinely-unavailable-to-this-fleet, **not** public-and-unfetched. `KB-HAWK-272` stays at ASSUMPTION as its **correct terminal state**, not as a placeholder for effort I owe.
+- New KB rows: **`KB-HAWK-267..275`**.
 
 ## WHAT I DID THIS SESSION
 
