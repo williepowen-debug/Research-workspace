@@ -1,5 +1,5 @@
 {
- "built": "2026-08-19 12:36",
+ "built": "2026-08-19 20:16",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -116,6 +116,7 @@
   "GATE-RESHAPE-BC": "resolved:RESOLVED-FIRED",
   "GATE-SAM-30": "resolved:RESOLVED",
   "GATE-TERRY-006": "live:LIVE",
+  "GATE-TERRY-007": "live:LIVE",
   "GATE-TERRY-ARM1": "resolved:RESOLVED",
   "GATE-TERRY-ARM2": "resolved:RESOLVED",
   "GATE-TERRY-ARM3": "resolved:RESOLVED",
@@ -137,14 +138,14 @@
  "one": "the week's positioning question got answered three times in one print window and the answer was the same in every market: the fuel was REPLACED, not spent. Crude MM shorts re-grossed straight through their frozen boundary (+8,078 WoW \u2014 the \"SPENT\" modifier un-fired at its own letter, by 5.3\u00d7 the pre-computed coin-flip distance); gold longs rebuilt to top-5% crowding of the full 1986\u20132026 record under a frame that honestly graded INDETERMINATE; and the JPY book neither rebuilt nor flipped \u2014 it emptied (OI \u221227,519, both sides). Meanwhile the priced side stayed asleep: HY flat at 271, a seventh consecutive sub-16 VIX close, 5y5y anchored at 2.27 and drifting *down* \u2014 and the 30Y at 5.24 still buying zero rate relief from disinflation. The bear that pays remains the real-rate grind (duration + gold, the two live legs), and the physical-side conclusion sharpened rather than changed: the squeeze accelerant behind the oil premium is re-armed, not exhausted \u2014 if a physical trigger comes, more fuel stands behind it than the fleet believed on Wednesday. No sizing changed anywhere; the state is simply now honest.",
  "pending": [
   "six-ideas ruling (8/17, one word)",
+  "TERRY launch (ruled, not executed)",
   "row 58 one named oil exit condition",
   "row 16 D-10 one-word",
   "row 31 Nov credentials [11/01]",
   "row 41 war-risk source",
   "row 55 CRUISE re-class",
   "row 56 SAM INFRA_AGENDA",
-  "NEW: WALTER's 2 FORMAT_SPEC questions (no EUROPE_MACRO domain code; JAPAN_BOJ rename)**",
-  "NEW: BOND-dark call for the 1PM/2PM events**",
+  "WALTER's 2 FORMAT_SPEC questions (no EUROPE_MACRO domain code; JAPAN_BOJ rename)",
   "broker export [normal]",
   "REGINALD hidden-CRE [before 11/07]"
  ],
