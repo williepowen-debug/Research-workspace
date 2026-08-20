@@ -283,7 +283,17 @@ Do not start by copying the legacy CREED or REITS workbooks wholesale. Seed trac
 
 ## BOTTOM LINE
 
-**Base case (*selective CRE recognition accelerating*) HOLDS; no CREED trigger (S1–S8) fired 7/27→8/13.** Convergence unchanged at **23/45 (51.1%)**. This window's work was **grading + hygiene, not thesis movement**: one structural KILL (the CREED↔HOMER MF courier arrangement, per PROME ruling row 47 — see §2026-08-13 above), the first live prediction-grading pass, and the eval suite's first run.
+> ⚠️ **This section was the 8/13 version until 2026-08-20 and contradicted the header above it.** Its claims were correctly scoped to `7/27→8/13` and therefore *true as history* — but BOTTOM LINE is the handle a reader lands on for **current** state, so a correctly-labelled historical summary sitting here read as the live answer. **Fixed by leading with current state and demoting the prior window, not by deleting it.** *(Found in a Will-directed staleness sweep, not by any check — `consumer_check --self` scans superseded VALUES and this was a superseded STATE.)*
+
+**🔴 CURRENT (2026-08-20): `CREED-T-02` HAS FIRED — the first trigger fire in CREED's history.** S2 maturity-default wave, **effective the JUNE print**, fired 8/20 on a ~6-week detection lag. Matured-balloon = **66%** of newly delinquent balances, third consecutive print above the frozen >50 band (Apr 42 ❌ / May 70 / Jun 65 ← sustain met / Jul 66), **PRIMARY-READ off four Trepp PDFs.** **Convergence 23/45 → 25/45 (51.1% → 55.6%)**, S2 scored 3 → 5.
+
+⚠️ **Read the escalation narrowly — three limits, all still true:** ① **S1 and S2 share the maturity-wall root, so ONE root escalated, not two** (independent-root count unchanged ~4–5). ② **S3 (bank convergence) did NOT move and is still 2** — FDIC PDNA remains counter-direction, and **S3 is the trade-relevant leg.** ③ **This is a CMBS-recognition event, not a bank-transmission event.** Base case *selective CRE recognition accelerating* **HOLDS and is better evidenced in its own channel; broad CRE→bank transmission remains NOT confirmed.** 🔴 **FDIC Q2 QBP (~8/24–8/29) is the next real test.**
+
+**Also current: the maturity-adjusted series independently confirms the same mechanism.** 9.62% (July) = new multi-year high, with its gap to headline **narrowing** 218→176bps **because distress converted from performing to non-performing matured balloon** — recognition, not repair. **And office SS FELL 53bps to 16.58% while office DQ ROSE 34bps to 11.91%: different doors, one mechanism — not a contradiction, and not a healing signal.**
+
+---
+
+**PRIOR WINDOW, 7/27→8/13 — history, not current state.** Base case HELD; **no CREED trigger fired in that window**; convergence was unchanged at **23/45 (51.1%)**. That window's work was **grading + hygiene, not thesis movement**: one structural KILL (the CREED↔HOMER MF courier arrangement, per PROME ruling row 47 — see §2026-08-13 above), the first live prediction-grading pass, and the eval suite's first run. ⚠️ **`CREED-T-02`'s sustain condition was ALREADY MET during this window** (at the June print, ~7/2) — the "no trigger fired" line was true about what CREED *had graded*, not about what was *fireable*. **That gap is the K5 finding.**
 
 **Office CMBS DQ is accelerating toward its trigger without crossing it.** July printed **11.91% (+34bps MoM)** — the largest single-month move since January's spike — still **9bps below** the 12.00% break `PRED-CREED-001` needs. Not resolved; watch the August print.
 

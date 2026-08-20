@@ -7,15 +7,26 @@
 #
 # recipient_chain uses the CLAUDE.md Route Matrix. "action" = must do something; "info" = cc.
 #
-# !! KNOWN CROSS-AGENT COLLISION (found 2026-07-27, routed to REGINALD):
+# !! KNOWN CROSS-AGENT COLLISION (found 2026-07-27; CREED's position ANSWERED to REGINALD 2026-08-20, commit 597ef3c03):
 #    REGINALD/registry/THRESHOLDS.tsv REG-T-07 = OFFICE-CMBS-DQ > 15, sustain 3, chain "REGINALD action / BROCK SHADE info".
 #    Same series as CREED-T-01a but a DIFFERENT level (15 vs 12) and DIFFERENT sustain (3 vs 2) -- and CREED, who owns the
-#    series, is NOT in its recipient chain. Divergent levels may well be intentional (different questions); the unreviewed
-#    part is that nobody reconciled them and the series owner is not notified.
+#    series, is NOT in its recipient chain.
+#    *** CREED'S RULING (2026-08-20): KEEP BOTH BARS. *** The divergent levels are legitimate design answering different
+#    questions (>12/sustain-2 = "office CMBS stress confirmed"; >15/sustain-3 = a deeper bank-relevant bar), and both are
+#    Will-frozen. The unreviewed part was never the levels -- it is the NOTIFICATION GAP. Two asks routed to REGINALD:
+#    (1) add CREED to REG-T-07's recipient_chain as "info"; (2) note in that row that two registered bars exist on this
+#    series. AWAITING REGINALD (dark since 8/13). Not a CREED-side action item; do not re-raise as unreconciled.
+#    !! Also flagged in the same packet: the circulating 16.58% is OFFICE SPECIAL SERVICING and CANNOT grade REG-T-07,
+#    which is a DELINQUENCY bar. Different series. Current standing: office DQ 11.91% [Trepp Jul, PRIMARY-READ] = 9bp
+#    below CREED-T-01a and 309bp below REG-T-07. NEITHER HAS FIRED.
+#
+# !! FIRE STATE lives in registry/CREED_T_FIRED_LOG.tsv, and is MIRRORED into the band_status column of any fired row so
+#    that a reader of THIS FILE ALONE can see it. Column count is deliberately UNCHANGED (10) -- WALTER scans this file
+#    and counts rows matching ^CREED-T; adding a column would break that scanner.
 trigger_id	signal	metric	threshold_op	threshold_value	sustain_window	action	recipient_chain	source_of_truth	band_status
 CREED-T-01a	S1	OFFICE-CMBS-DQ-TREPP	>	12	2 consecutive monthly prints	S1-FIRE / office CMBS stress confirmed	CREED action / REGINALD action / LIQUID info	thesis/THESIS.md#convergence-matrix S1 ; VX-CREED-1.01 ; PRED-CREED-001	FROZEN 2026-07-21
 CREED-T-01b	S1	OFFICE-CMBS-SS-TREPP	>	18	1 print	S1-FIRE / office special-servicing trigger	CREED action / REGINALD action / LIQUID info	thesis/THESIS.md#convergence-matrix S1 ; VX-CREED-1.02 ; PRED-CREED-002	FROZEN 2026-07-21
-CREED-T-02	S2	MATURED-BALLOON-SHARE-OF-NEW-DELINQ	>	50	2 consecutive monthly prints	S2-FIRE / maturity-default wave	CREED action / REGINALD action / LIQUID action	thesis/THESIS.md#convergence-matrix S2 ; PRED-CREED-009	FROZEN 2026-07-21
+CREED-T-02	S2	MATURED-BALLOON-SHARE-OF-NEW-DELINQ	>	50	2 consecutive monthly prints	S2-FIRE / maturity-default wave	CREED action / REGINALD action / LIQUID action	thesis/THESIS.md#convergence-matrix S2 ; PRED-CREED-009 ; registry/CREED_T_FIRED_LOG.tsv	FROZEN 2026-07-21 *** FIRED 2026-08-20 @ 66%, EFFECTIVE 2026-06 @ 65% (Apr 42 / May 70 / Jun 65 <-sustain met / Jul 66; PRIMARY-READ) -- band UNCHANGED and still frozen; routed REGINALD+LIQUID. Fire record: registry/CREED_T_FIRED_LOG.tsv ***
 CREED-T-03	S3	FDIC-NONOWNER-CRE-PDNA-LARGEBANK	>	3.40	1 quarterly QBP (direction RE-RISING vs the Q1-2026 base) AND reserve-coverage deterioration	S3-FIRE / bank CRE convergence -- THE decision-relevant trigger	CREED action / REGINALD ACTION-URGENT / Will	thesis/THESIS.md#convergence-matrix S3 ; VX-CREED-4.01 (REGINALD-reconciled) ; PRED-CREED-003	FROZEN 2026-07-21
 CREED-T-04	S4	CMBS-REDEFAULT-2ND-MOD-RATE	rising	QUALITATIVE -- no numeric band set	n/a	S4-FIRE / modification exhaustion	CREED action / REGINALD info	thesis/THESIS.md#convergence-matrix S4	QUALITATIVE -- no numeric band. Candidate for a Will-gated band proposal.
 CREED-T-05	S5	CMBS-MULTIFAMILY-DQ-TREPP	n/a	HOMER-OWNED -- CREED does not score this	n/a	No CREED action. HOMER calls it.	HOMER action / CREED cites only	AGENTS/HOMER/STATUS.md (DAEDALUS ruling 2026-07-12, Will-approved)	NOT A CREED BAND. See the 2026-07-27 sourcing caveat in CLAUDE.md.
