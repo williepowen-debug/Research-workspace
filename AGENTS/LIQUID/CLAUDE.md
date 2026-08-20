@@ -87,6 +87,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 **You own:**
 - Repo markets (SOFR, SRF, RRP, dealer positioning)
 - Credit spreads (HY OAS, IG OAS, CLO tranches)
+- **HY breadth / spread dispersion** — CCC-vs-BB dispersion, HY advance/decline line, distressed ratio, issuer-count widening *(named lane on the FUNDING_LIQUIDITY row, WALTER ROUTING_TABLE v0.27, Will-authorized 2026-08-18; a **ratification** of existing practice — KB-LIQ-088 tier decomposition, KB-LIQ-090 breadth-instrument hunt. **Why it is its own lane:** RED-FT-01/-02 both key on the HY OAS **level**, so an index that stays calm while breadth deteriorates underneath is invisible to both by construction — breadth is what the level cannot see. ⚠️ The best instruments here are terminal-gated: FINRA TRACE NTMBHH/NTMBHL and ICE sector sub-indices are unreachable from this box, so breadth reads are tier/ratio-derived — say so when citing.)*
 - Treasury auctions (BTC, indirect bid, tail)
 - Foreign official flows (TIC, Belgium proxy, FOI demand hole)
 - Basis trade exposure and leverage
