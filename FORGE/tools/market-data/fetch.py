@@ -944,6 +944,20 @@ def cmd_snapshot(flags):
 # Main
 # ---------------------------------------------------------------------------
 
+def _price_or_fred(symbols, flags):
+    """Route known FRED series IDs out of the yfinance price path.
+    `price DCOILBRENTEU` used to hand a FRED ID to yfinance and print an
+    ERROR row, which read as a dead series (BRENT 2026-08-20 — the FRED path
+    was alive the whole time, 8/18 95.29). Say what happened and fetch it right."""
+    fred_ids = [s for s in symbols if s in ALL_FRED]
+    tickers = [s for s in symbols if s not in ALL_FRED]
+    for sid in fred_ids:
+        print(f"[{sid} is a FRED series ({ALL_FRED[sid]}) — routing to the FRED path, not yfinance]")
+        cmd_fred(sid, flags)
+    if tickers:
+        cmd_price(tickers, flags)
+
+
 def main():
     args, flags = _parse_flags(sys.argv[1:])
 
@@ -967,7 +981,7 @@ def main():
         if len(args) < 2:
             print("Usage: fetch.py price TICKER [TICKER ...] [--json] [--history N] [--delta PCT]")
             return
-        cmd_price(args[1:], flags)
+        _price_or_fred(args[1:], flags)
         return
 
     if args[0] == "fred":
@@ -977,8 +991,8 @@ def main():
         cmd_fred(args[1], flags)
         return
 
-    # Fallback — treat args as tickers
-    cmd_price(args, flags)
+    # Fallback — treat args as tickers (FRED IDs still routed right)
+    _price_or_fred(args, flags)
 
 
 if __name__ == "__main__":
