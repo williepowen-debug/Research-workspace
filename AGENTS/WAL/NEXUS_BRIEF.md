@@ -1,9 +1,23 @@
 # WAL — NEXUS Brief
 
-**Status:** 🟠 **BEAR NARROWED AGAIN AND IS NOW MOSTLY PRICED — margin of safety 12.4% → 5.4%.** ★★ **2026-08-20: v2.4 SHIPPED** — the MI3 disconfirmation (falsifier ran 8/7, first time ever) is now IN the numbers: **bear-fast 10% → 2%**, freed 8pp to Base 45 / Bull 30, **bear-medium HELD at 16%**; **EV $73.92 → $75.96**, PT **$52-76**. ⛔ **Anti-ratchet verified both ways: total bear 26% → 18%, it FELL.** ⚠️ **Both live Sep-18 cores now sit BELOW EV** ($67.5P −$8.46, $70P −$5.96). **And the tape is at its period low with the $78 threshold only +2.6% away — BOTH-TRUE, neither leg resolves the other.**
+**Status:** 🔴 **THRESHOLD ~1.5% AWAY, NO IDENTIFIED CATALYST — this is the live item, ahead of the thesis.** WAL **closed 8/20 at $79.15**, buffer to the $78 signal threshold **+$1.15 = +1.47%**, tightest in the record, after **six consecutive down sessions** (−3.85%). **Not the cohort** (KRE +0.03% same session) and **no catalyst found**: no 8-K since 7/30, no analyst action after late July, no litigation development — a live multi-angle news sweep 8/20 came back empty for the window. ★★ **Thesis: v2.4 SHIPPED 8/20** — MI3's disconfirmation re-marked: **bear-fast 10%→2%**, freed 8pp to Base 45 / Bull 30, **bear-medium HELD at 16%**; **EV $75.96**, PT **$52-76**; ⛔ **anti-ratchet verified, total bear 26%→18%**. **Overvaluation 12.4% → 4.2% at the close — the short thesis is mostly spent.**
 **Domain:** Western Alliance Bancorporation (NYSE: WAL) — single-name deep coverage: thesis + calibration record, print grading off frozen frames, FRAUD/ litigation arc (WAL v. Jefferies $126.4M + Cantor), MI3 watch. **NOT mine:** cohort/KRE/peer banks → REGINALD; OZK → OZK; First Brands docket → OTTO; private credit → BROCK.
 **Thesis framing:** **v2.4** "compounder with concentrated CRE tail risk" (framing UNCHANGED since v2.0) — **Bear-fast 2 / Bear-medium 16 / Base 45 / Bull 30 / Tail 7; EV $75.96; PT $52-76** (convention pinned [Bear-fast low, EV], and now **strained** — it anchors the floor on a 2% scenario; flagged for its own dated edit, deliberately NOT changed inside a weight move). **v2.3.1 is REJECTED and RETIRED** (P4, 8/20) — leg (a) named the 10-Q as carrier for *consensus EPS*, which no filing carries; leg (b) could confirm but never disconfirm. **Retires the RULE, not the risk.**
-**As of:** **2026-08-20** — owner re-pin, **WAL session #3** (13 days dark → fully current; the mandatory every-session fold). **STATUS pin: `c975af77e`.** *(Re-pinned after the 8/20 core-file sweep; supersedes `6fc682f85` and the 8/7 pin `07bebc54f`.)*
+**As of:** **2026-08-20 (closeout)** — owner re-pin, **WAL session #3**. **STATUS pin: `d110a070f`.** *(Third pin today: v2.4 ship → core-file sweep → closeout. Supersedes `c975af77e`, `6fc682f85` and the 8/7 `07bebc54f`.)*
+
+---
+
+## ⛔ FOR CONSUMERS, READ FIRST (2026-08-20 closeout): the tape and the model disagree, and BOTH ARE TRUE
+
+**Do not resolve this tension by picking one — it is not resolvable from here, and the two answer different questions.**
+
+| | Says | Status |
+|---|---|---|
+| **The model (v2.4)** | EV **$75.96** sits **ABOVE** both live Sep-18 strikes ($67.5P, $70P) → on the central estimate they **expire worthless** | Re-marked 8/20 off a graded falsifier |
+| **The tape** | Close **$79.15**, buffer to the $78 threshold **+1.47%**, six straight down sessions, ~2× volume on 8/19 | **A close below $78 FIRES the threshold REGARDLESS of EV** |
+
+⚠️ **The threshold signal must not be suppressed because the model disagrees**, and **a breach must not be read as thesis-confirmation** — the disconfirm stack is incomplete and a move with **no identified mechanism confirms no mechanism**. WAL owns that call when it comes.
+⚠️ **Position action is TERRY + Will [Approve] + a live chain.** Nothing here is a recommendation.
 
 ---
 
