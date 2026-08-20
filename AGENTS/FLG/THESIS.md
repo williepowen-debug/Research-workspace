@@ -20,7 +20,7 @@
 | 2 | **Refinance repricing** | Loans written at low rates reprice at maturity into higher rates against constrained NOI | **OPEN — un-instrumented.** The maturity-wall profile is not in the seed |
 | 3 | **CRE concentration** | Multifamily + construction + non-owner-occ NFNR / total risk-based capital vs the SR 07-1 300% line | ⬇️ **DE-RISKING — 327.5% and FALLING** (−143pp over 11 quarters; ~2 quarters from crossing 300%). Level-high, trajectory-down. **Not deterioration.** Verified at primary 2026-08-20 |
 | 4 | **Nonaccrual formation** | Constrained borrowers stop performing | ⚠️ **CONTESTED — 5.49% [25Q3] → 4.88%, but the fall may be MECHANICAL.** $232M charged off in 2026 H1; a rate falling by charge-off is not a rate falling by cure, and the roll-forward nets. **Not repair until Q2c splits it** |
-| 5 | **Reserve adequacy** | ACL must cover recognised nonaccruals | 🔴 **THE LIVE STAGE — 29% and monotonically falling** (87% → 29%); ACL down in 8 of 8 quarters, $1.27B → $0.87B, vs a $3.0B nonaccrual book. **This is where the thesis now lives** (Q2b) |
+| 5 | **Reserve adequacy** | ACL must cover recognised nonaccruals | ⚠️ **THE LAST DETERIORATING LEG, AND IT IS IN TENSION WITH ITSELF.** Coverage 29%, monotonically down from 87%; ACL down 8 of 8 quarters ($1.27B → $0.87B). **But runway BOTTOMED at 1.29yr [2025Q1] and has lengthened EIGHT straight quarters to 2.15yr** — because the same charge-offs that consume the ACL are also resolving the book. **Coverage falling and runway lengthening are one mechanism seen two ways; neither reading is resolved** |
 | 6 | **Capital** | Losses exceed reserves → capital event | **NOT REACHED. No evidence at build.** Do not assume stage 6 from stages 3–5 |
 
 **Read the state column honestly.** Stages 1 and 2 — *the causal front end, and the reason this is a separate desk* — are **entirely un-instrumented**. And after the 2026-08-20 primary re-read, **two of the three inherited 🔴 stages are improving**: concentration is de-risking and nonaccruals are past peak. **Only stage 5 is deteriorating.** The desk was created off a composite score whose two legs point in opposite directions — so it owns one live signal, not three, and it still lacks the mechanism that would explain it.
@@ -73,11 +73,26 @@ Nonaccruals are **past peak and improving** (5.49% [25Q3] → 4.88%). **ACL has 
 | FY2025 | $180.3M | $436.1M | 2.4× *draining* |
 | **2026 H1 ×2** | **$31.8M** | **$464.8M** | **🔴 14.6×** |
 
-**Provisioning fell −97.1% from FY2024 while charge-offs held near half a billion a year.** ⇒ **$869M reserve ÷ ~$465M annualised charge-offs ≈ 1.9 years of runway**, against a still-**$2,988M** nonaccrual book.
+**Provisioning fell −97.1% from FY2024 while charge-offs held near half a billion a year.** ⇒ **$869M reserve ÷ ~$465M annualised charge-offs ≈ **2.15 years** of reserve runway on a TTM basis *(corrected 2026-08-20 from ~1.9yr: H1×2 overstated charge-offs ~15% — TTM $403,816K, not $464,820K. `20308388d`)***, against a still-**$2,988M** nonaccrual book.
 
-⚠️ **CAVEATS — carried, not smoothed, and they bind:** `RIAD` is **year-to-date**, so the **×2 is REGINALD's annualisation, not a company figure**. **6 of 11 quarters do not tie** by the identity (adjustments/M&A, −$12.9M to +$64.8M) — **both 2026 quarters tie exactly**, and the ratio uses two directly-reported lines. **There is NO peer base rate: 14.6× is not established as unusual.** ⛔ **Do NOT register 14.6× or 1.9-years as a threshold** — see Q2d.
+⚠️ **CAVEATS — carried, not smoothed, and they bind:** `RIAD` is **year-to-date**, so the **×2 is REGINALD's annualisation, not a company figure**. **6 of 11 quarters do not tie** by the identity (adjustments/M&A, −$12.9M to +$64.8M) — **both 2026 quarters tie exactly**, and the ratio uses two directly-reported lines. **There is NO peer base rate: 14.6× is not established as unusual.** ⛔ **Do NOT register 14.6× or 2.15-years as a threshold** — see Q2d.
 
-### Q2c — Is the nonaccrual improvement CURE or CHARGE-OFF? 🔴 **NEW PRIMARY — REGINALD raised it against its own leg**
+### Q2e — What kill condition can this thesis have? ✅ **ANSWERED 2026-08-20 — NONE, AND THAT IS A MEASURED RESULT**
+
+REGINALD built the runway instrument (`AGENTS/REGINALD/workbook/RUNWAY_COHORT.tsv`, `20308388d`, 168 rows; re-derived here and reproduces). **No cut clears all four requirements, and the reason is not marginal.**
+
+| cut (runway, yr) | cohort base rate | FLG past fires | breached now | latency |
+|---|---:|---:|---|---|
+| < 0.75 | **3.6%** ✅ | 0/8 ✅ | no ✅ | **∞** ❌ |
+| < 1.00 | **4.5%** ✅ | 0/8 ✅ | no ✅ | **∞** ❌ |
+| < 1.25 | **6.2%** ✅ | 0/8 ✅ | no ✅ | **∞** ❌ |
+| < 1.50 | 13.4% ❌ | 2/8 ❌ | — | — |
+
+**Three cuts clear three of four criteria and all fail latency — FLG is moving AWAY from every one of them at ~+0.06yr/quarter. On trend it never arrives.** So K-3's kill cell stays **UNSET, now for a measured reason rather than an absent one**, which is a materially better state than it was an hour ago.
+
+**Method note worth keeping (REGINALD's, and it corrects a misreading of PAT-119 before anyone makes it):** on this instrument the kill and the signal are **exact complements**, so there is no 99th/43rd asymmetry to find. **That asymmetry was a property of the CO/prov FORM, not a general one — so PAT-119 coming back clean here is INFORMATIVE, not a null result.** A clean pass means the form is sound, not that the check failed to run.
+
+### Q2c — Is the nonaccrual improvement CURE or CHARGE-OFF? 🔴 **REMAINS PRIMARY — REGINALD raised it against its own leg**
 
 REGINALD told this desk nonaccruals were past peak and improving (5.49% → 4.88%), then flagged unprompted that the reading is **partly mechanical**: *you do not charge off $232M in six months without the rate falling.* **A rate falling by charge-off is not a rate falling by cure**, and the roll-forward **nets** — it cannot separate them.
 
