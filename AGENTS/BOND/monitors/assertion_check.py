@@ -149,7 +149,26 @@ def capability_hit(line: str) -> bool:
               r"markit|s&p|ny fed|mof|ecb|boe|rba|dataset|publish|when-issued|index level)")
     if guarded(line) or line.lstrip().startswith("|"):
         return False
-    if not re.search(CLAIM, line, re.I) or not re.search(SOURCE, line, re.I):
+    if not re.search(SOURCE, line, re.I):
+        return False
+    # Examine EVERY claim match, not just the first: on BND-17's residual branch
+    # the first match was "UNSCOREABLE" inside the verdict LABEL "VOID-UNSCOREABLE",
+    # which sits BEFORE the governing "if" and so masked the conditional entirely.
+    m = None
+    for c in re.finditer(CLAIM, line, re.I):
+        if re.search(r"void[-\s]*$", line[:c.start()], re.I):
+            continue                      # verdict label, not a claim about a source
+        m = c
+        break
+    if m is None:
+        return False
+    # A CONDITIONAL claim is not an assertion. "resolves VOID-UNSCOREABLE IF
+    # TreasuryDirect has not published components within 24h" is a grading RULE,
+    # not a claim that anything is unavailable. Added 2026-08-20 after this fired
+    # on BND-17's own residual branch. Fourth grammatical discriminator, after
+    # comparator (numeric check), quotation (citation) and source-referent.
+    if re.search(r"\b(if|unless|in the event|should|were)\b[^.]{0,90}$",
+                 line[:m.start()], re.I):
         return False
     return not re.search(r"re-?test\s*:", line, re.I)
 
@@ -350,6 +369,13 @@ FIXTURES = [
     ("the SAME claim unquoted is still a finding",
      "NO REGISTERED PREDICTION COVERS ANY GATE BELOW. thesis/PREDICTIONS.tsv IS EMPTY.",
      "quote", True),
+    ("CONDITIONAL branch is a RULE, not a claim (fired on BND-17's VOID branch)",
+     "resolves VOID-UNSCOREABLE if TreasuryDirect has not published competitive-accepted "
+     "components for this CUSIP within 24h of the auction",
+     "cap", False),
+    ("the SAME words unconditionally ARE a claim",
+     "TreasuryDirect has not published competitive-accepted components for this CUSIP",
+     "cap", True),
     ("already corrected => guarded",
      "Corrected 8/20: this cell read '6bp away and closing' -- DFII10 backed off to 2.41",
      "dir", None),
