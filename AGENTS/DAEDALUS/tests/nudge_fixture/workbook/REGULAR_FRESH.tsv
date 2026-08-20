@@ -1,0 +1,3 @@
+# TEST FIXTURE (DAEDALUS) — fresh ledger committed AFTER the STATUS writes (clean-path case).
+col_a	col_b
+q	5
