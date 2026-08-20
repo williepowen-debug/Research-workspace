@@ -1,58 +1,59 @@
-# OSPREY SCRATCH — 2026-08-15
+# OSPREY SCRATCH — 2026-08-20
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout. Disposable: rewritten every session, not appended to. Persistent learnings live in `MEMORY.md`; the cross-agent twin is `NEXUS_BRIEF.md`; this file is the bridge between OSPREY sessions.
+**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout. Disposable. Persistent learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
 ## CURRENT MARKS (one line)
-- Channel state: refineries/products **4 🔴** · crude-export terminals **4 🔴** · shadow-fleet tankers **3 🟠** — **all three CARRIED, not re-marked, this session too.**
-- Thesis-kill theater clock (new, published this session): **N/A** — no channel individually killed under §1. Nearest: Channel-3 at 16/21 days (last row 7/30).
+- Channels: refineries/products **4 🔴** · crude-export terminals **4 🔴 (UPGRADE CANDIDATE routed, not self-marked)** · shadow-fleet tankers **3 🟠**. All carried.
+- Thesis-kill theater clock: **N/A** — no channel individually killed. **Channel-3 came within ONE DAY and reset to 8/16 (4/21).**
 
-## CHANGES SINCE LAST SESSION (8/10 → 8/15)
-- **Overnight 8/11→12: Novorossiysk multi-vector strike** — Neptune anti-ship missiles + jet drones + naval USVs against Sheskharis (RE-struck) and the Black Sea Fleet base together for the first time [WALTER SIG-W-20260812-001; Zelenskyy on record]. CPC direct-checked 8/15: NOT reported hit.
-- **8/14: Sheskharis halted AGAIN** — attempted-not-landed drone + pre-existing tanks-at-capacity, two causes, do not merge [WALTER SIG-W-20260815-004]. Third Sheskharis episode since 7/22.
-- **8/11: Orsk refinery (Orsknefteorgsintez) fully shut down** — governor: "cannot be restored at this time," repairs EST ~6 months. First officially-conceded multi-month outage of the campaign (source-side, unverified independently).
-- **8/13: Salavat refinery struck a second time in a month** (AVT-6 + AVT-4 units named).
-- **Fuel rationing spread to 12-16 Russian regions** (odd-even plates, 30-60L caps) by 8/13-14 — downstream severity tell, not a capacity-offline figure.
-- **TD6 continuous proxy nearly doubled**: ~WS504 / $377,000/day as of 8/7 vs ~WS310/$203,300 on 7/27 — still zero AWRP rate print alongside it (gap now 25 days).
-- **The 8/8 CPC/non-Russian-tanker understanding survived its loudest test to date** (the 8/12 night) — falsifier ladder unbroken, ~8/17 still live.
+## CHANGES SINCE LAST SESSION (8/15 → 8/20, 5 dark days)
+- **★★ THE CRUDE CHANNEL CONVERTED ON AN AGGREGATE MEASURE.** Russian seaborne crude **3.58 M bpd** 4-wk to 8/16 — lowest since April, **fifth straight weekly fall**, largest such slide of the war; **zero cargoes at Novorossiysk** in the week to 8/16; Bloomberg attributes it to *"actual and threatened drone strikes"* [Bloomberg tanker-tracking 8/18]. **~-640 kbpd** vs the 4.22 high of 7/5.
+- **★ …AND NONE OF IT IS IRREVERSIBLE.** No berth ever destroyed; no crude-export halt ever >7 days; no FM, no ≥90d restoration statement, no ≥45d outage, all campaign. ⇒ **mechanism = DETERRENCE OF OFFTAKE** (KB-OSPREY-042), a third route my instruments did not enumerate.
+- **★ ~8/17 CPC RUNG RESOLVED — on a sourced positive, not an absence.** Drone struck the Greek Suezmax **Skiros** at the **CPC berth** 8/16, laden with **Russian** crude. CPC infra undamaged, loadings not suspended. **Understanding NOT broken** — its real letter exempts non-Russian hulls *carrying Russian cargo*. Ukraine is **exercising** the carve-out.
+- **⚠️ MY LADDER TEXT WAS OVER-BROAD** ("any strike on CPC or a non-Russian tanker") — omitted the cargo qualifier. **On the letter I published, it fires.** Corrected; verdict not bent. HAW-10-class defect on my own surface.
+- **★ Channel-3 kill clock RESET to 8/16.** Was due to expire **today** off the 7/30 row. Skiros is a vessel-strike incident in-window. A hull-class-only check would have declared this theater's first false channel kill.
+- **Sheskharis 8/14 halt closed: resumed 8/16** (two days). Stated cause **tanks FULL — stopped accepting oil because nobody was lifting.** Fourth episode since 7/22; interval **not** lengthening.
+- **CPC SPM-2 back in service** after ~9 months out (recovery datum, logged because it cuts against my direction of travel).
+- **War-risk: 30-day gap, FOURTH consecutive empty canvass**, 9th vintage trap caught (the "fresh" repricing piece is dated **2025-12-01**).
 
 ## WHAT I DID THIS SESSION
-- **Drained all 10 pending inbox items** (3 PROME + 7 WALTER): 2 actioned (SIG-812-001, SIG-815-004 — rowed to STRIKES.tsv, CPC direct-checked), 5 logged/discarded (FALCON/HAWK-theater info, no OSPREY action owed), all `git mv`'d to `processed/`. `board_log.tsv` +7 rows.
-- **Row-33b CLOSED end-to-end, same session.** Taken up per the 8/12 batch ruling (NOT self-ruled — fails DELEGATION_TIER tests 3/4), drafted a concrete EXIT RULES §3 attribution-clause recommendation and routed it (`outbox/2026-08-15_to-PROME_row-33b-recommendation-...md`). **Will ruled 2026-08-15 in-session: adopted as drafted.** Encoded in `CLAUDE.md` §3 (dated ruling block, superseded text preserved verbatim, R1-R3 riders) — commit `727c032f6`. NOT-APPLIED flag cleared. Kill rail re-stamped `audited` → `re-derived`. Authorization-side record consumed (`inbox/2026-08-15_from-PROME_row-33b-ruling-record-of-authorization.md` → `processed/`).
-- **Rule N6 (Will-ratified 8/11) ACCEPTED** on my own surfaces — added a symmetric extension branch to the 8/8 falsifier ladder (formalization/extension now has an explicit graded path, not just silent "still holding"). Recorded in STATUS.md "Open items answered this session."
-- **GATE-OSPREY-001 graded against the frozen letter**: legs (a)/(c) UNFIRED, unchanged since 8/10 — this session's sweep found zero CPC-specific evidence either way, recorded explicitly rather than silently carried.
-- **Published the thesis-kill `days since last channel re-armed` counter** for the first time, closing the obligation the 8/10 self-ruling created: N/A, nothing individually killed yet.
-- **Catch-up sweep 8/11-8/15**, mechanism-level (not named-target-only, per LESSONS item 1): +4 `STRIKES.tsv` rows (Orsk, Sheskharis re-strike, Salavat, Sheskharis halt), mark advanced 8/10 → **8/15** (70 rows). +5 `KB.tsv` rows (035-039).
-- **Caught a vintage trap**: a WebSearch summary asserted an "August 18" Druzhba pipeline strike; direct WebFetch of the cited Wikipedia article showed its actual timeline ends 4/23/26. Logged (KB-OSPREY-039), not rowed. Auto-memory candidate — this is search-summary fabrication of a *future* date, distinct from the standard stale-retrieval trap.
-- **Re-canvassed WARRISK.tsv** (still 25-day AWRP gap; TD6 update logged) and refreshed `STATUS.md` (all sections), consistent with the strike-ledger findings.
+- **Encoded the 8/17 Will ruling and COMMITTED IT (`2ac56f239`) BEFORE grading OSP-05**, per the hard sequencing constraint — ordering is auditable in git, not asserted. 3a applied (40%→**25%**, top of band, deliberately against my own interest since I grade the row the same session). 3b determined. #4 approved-but-sequenced, **band not moved**.
+- **3b: R3 = RESOLVABILITY-DEFECTIVE.** §3's clause governs a **Brent price** move; R3's object is a **shipment volume**. Different object, different instrument. **⚠️ Flagged, not resolved: the ruling's parenthetical ("no attribution instrument exists") was falsified 8/18** — Bloomberg printed number *and* attribution together. Applied the operative test (harder direction); **pre-registered a RE-OPEN trigger** if Will rules the gloss governs.
+- **OSP-05 graded FAILED (0-of-2)**, 4 days early and **arithmetically forced** (R2 unreachable). Ran the wording-identity check first and **declined the flattering "sustained impairment" reading** of R2 in favour of the continuous reading I pre-registered 7/31.
+- **Gap sweep 8/16→8/20**, mark advanced 8/15 → **8/20** (71 rows). +1 STRIKES row (Skiros), 8/14 ReturnToService closed. **+7 KB rows (040-046)**, +1 WARRISK absence row.
+- **LESSONS item 6 written** — *an enumerated-mechanism test is a hidden claim that the mechanism list is complete.* Recommended to PROME for auto-memory (fleet-general).
+- **4 packets routed:** HAWK (CPC rung + `HAW-19` LEG A objection + `KB-HAWK-272` amendment) · BRENT 🔴 (the 3.58 print, framed as *fast-reversible*) · PROME (two ruling conflicts + misrouted gate) · RED (H1 survives, but the outcome arrived anyway).
+- **DAEDALUS hygiene actions 1-2 done:** 011/025 flipped SUPERSEDED (all three bands read ACTIVE, so the cold-boot currency filter returned three canonical values); rail band pointer re-pointed 011→**029** after naming a dead row for 18 days.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **~8/17 — THE 8/8 UNDERSTANDING'S FIRST FALSIFIER**, now survived one loud test (8/12) short of firing. Any strike on CPC or a non-Russian tanker still breaks it.
-2. **~8/20 — Channel-3 kill-clock watch.** No shadow-fleet-tanker row since 7/30; if nothing new lands by ~8/20, §1's 21-day threshold is met and Channel-3 becomes the FIRST channel this theater has individually killed — which would also start the thesis-kill theater clock for the first time. Check this explicitly, don't let it pass silently.
-3. ~~Row-33b: awaiting Will's ruling~~ — **CLOSED this session, ruled and encoded same day.** Nothing further owed.
-4. **~8/24 — durability check** on the 8/8 understanding (per the falsifier ladder) and OSP-05 window close (RED's rotation test, 0-of-3 as of 8/10, unchecked this session — re-check at close).
-5. **ANALYSIS_ regeneration still owed** — newest dated file is `ANALYSIS_2026-07-23`; `STRIKES.tsv` is now at 70 rows through 8/15. Not done this session (inbox+row-33b+catch-up filled the window); still the standing first item next time raw/interpretation split matters.
-6. **Refresh WARRISK.tsv** again around any CPC/Sheskharis development — the 8/12+8/14 canvass came back empty twice in a row; three consecutive empty windows is itself a finding worth a dated note if a fourth comes up empty too.
+1. **~8/24 — the 8/8 understanding's DURABILITY rung.** Grade it against the **corrected** ladder: a break needs (a) CPC infrastructure itself, or (b) a non-Russian hull **NOT carrying Russian cargo**. A Russian-cargo hull at CPC is a **pre-registered NON-break**.
+2. **★ THE ONE THAT MATTERS: does the 3.58 M bpd print extend to a SIXTH week, or snap back?** Persistence is the whole question and it is not answerable from the level. Every prior episode reversed in days. Pull the next Bloomberg tanker-tracking weekly (~8/25).
+3. **OSP-04 — dated search-attempt row REQUIRED on/after 8/24** or it resolves NO-CALL, never CONFIRMED. Only OPEN row left. **Do not let this slip; it is the one thing that can still go wrong on the prediction ledger.**
+4. **Channel-2 mark candidate awaiting Will/PROME** — the Upgrade Trigger's liftings-drop limb appears fired. Do **not** self-mark.
+5. **TD6 not re-pulled this session** (budget went to the CPC rung + the grade) — owed, and it is the tripwire that tells me when to canvass for an AWRP print.
+6. **`ANALYSIS_` regeneration still owed** — newest is `ANALYSIS_2026-07-23`; STRIKES is at 71 rows through 8/20. Carried since 8/15. Genuinely overdue.
+7. **DAEDALUS hygiene actions 3-8 owed** (KB two-clock header · 22 past-`Stale_By` ACTIVE rows · line-anchor rot at `CLAUDE.md:143` · §5 slow-aggregate re-verify ~60-90d overdue · outbox `delivered/` tail, now 12 packets · **name the THESIS v0.2 date — PROME is expecting it**).
 
 ## OPEN THREADS / WATCHES
-- 🔴 **The 8/8 CPC/non-Russian-tanker understanding** — survived 8/12, still fragile by construction. Ladder: 8/17 existence · 8/24 durability · 9/8 institutionalisation.
-- 🔴 **Sheskharis three-episode recurrence** (7/22-26 · 8/12 · 8/14) — watch for a fourth; if the interval keeps shortening that's information the per-event framing doesn't capture on its own.
-- 🟠 **Channel-3 approaching its own kill clock** — 16/21 days as of 8/15, first time any OSPREY channel has neared this line.
-- 🟠 **Black Sea war-risk: 25-day AWRP gap, THIRD consecutive empty canvass** despite two step-change-class events this week. TD6 near-doubled with no accompanying print.
-- 🟡 EU/Druzhba still thin — and now carries a caught vintage-trap warning (KB-OSPREY-039): treat any Druzhba date after 4/23/26 as suspect until direct-fetched.
-- 🟡 Un-rowed residual unchanged: Kstovo 6/24; Tuymazy pump affiliation; Rostov 7/27 cargo class.
+- 🔴 **Is the export decline persistent or another reversible episode?** Fast-reversible supply loss prices differently from attrition — BRENT has the distinction.
+- 🔴 **Two ruling conflicts live with PROME/Will** — 3b's operative-test-vs-rationale split (carries a re-open trigger on OSP-05) and the band re-centre approved-vs-deferred.
+- 🟠 **Sheskharis four-episode recurrence, interval not lengthening.** Watch for a fifth.
+- 🟠 **Channel-3 re-armed 8/16** — clock at 4/21. It came within one day of the theater's first channel kill; treat the near-miss as a standing warning about hull-class-vs-mechanism checks.
+- 🟠 **War-risk: 30-day gap, 4th empty window across 5 step-change events.** Absence is now itself informative. 9 vintage traps caught to date.
+- 🟡 EU/Druzhba still thin. Un-rowed residual unchanged: Kstovo 6/24; Tuymazy pump affiliation; Rostov 7/27 cargo class.
+- 🟡 **Search-layer date arithmetic caught again** — a summary put the Novorossiysk resumption at "Sunday, August 18"; 8/16 was the Sunday. Same family as KB-OSPREY-039.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- **OSP-04** (DARK aggregates) — closes 8/31, 60%, search-attempt guard in force (needs a dated KB.tsv search on/after 8/24 or resolves NO-CALL). Not due yet.
-- **OSP-05** (RED rotation test) — closes 8/24, 0-of-3 as of 8/10, not re-checked this session (inbox/row-33b/catch-up took priority) — **re-check at next session, window closes soon.**
-- **AWAITING WILL, unchanged list from 8/10** (refining band re-centre · OSP-05 3a/3b · Channel-2/3 downgrade case · channel-score downgrade route · two-clock registration rule · TD6 source · self-audit remainder). **Row-33b is OFF this list — ruled and closed same session.**
+- **OSP-04** — closes 8/31, 60%, **search-attempt guard: needs a dated KB row on/after 8/24 or NO-CALL.** Only OPEN row.
+- **OSP-05** — **RESOLVED FAILED 8/20**, with a pre-registered re-open trigger pending the 3b conflict.
+- **AWAITING WILL:** Channel-2 upgrade mark candidate (new) · band re-centre (approved-but-sequenced, behind HAWK's basis-pair audit) · 3b conflict ruling · channel-score downgrade path (approved, build; BRENT+HAWK confirm semantics before go-live) · Russia counter-campaign taxonomy design pass (joint w/ HAWK).
 
-## MAIL STATE (one line per surface)
-- Inbox (root): **CLEAR** — all 3 PROME items dispositioned and moved to `processed/` this session.
-- WALTER lane: **CLEAR** — all 7 items dispositioned (2 CONSUME, 1 LOG(informational-only), 4 DISCARD) and moved to `WALTER/processed/`.
-- Outbox: **1 new item this session** — `2026-08-15_to-PROME_row-33b-recommendation-...md` (adopted same day, no reply needed). Everything else clear.
-- Inbox (root): **+1 arrival mid-session** — row-33b authorization-of-record packet, consumed and moved to `processed/` at closeout.
+## MAIL STATE
+- Inbox (root): **3 items dispositioned this session** (2× PROME 8/17 rulings — consumed and encoded; 1× DAEDALUS 8/15 hygiene bundle — actions 1-2 done, 3-8 owed). **Not yet moved to `processed/`** — do at next boot with `git mv`.
+- WALTER lane: **8 items pending, ALL FALCON-theater (Hormuz transit instruments, US-Iran MOU, SPR).** None move an OSPREY row. Left un-dispositioned this session by choice — the CPC rung and the OSP-05 window were the tasked priorities. **Disposition next session.**
+- Outbox: **4 new** (HAWK, BRENT, PROME, RED). `delivered/` tail still never run — 12 packets sitting.
 
-## PENDING PUSH / GIT (if any)
-- Not yet committed as of writing this file — closeout commit + `safe-push.sh` still to run this session (see task instructions: PROME/coordinator sweeps, but per my own CLAUDE.md I auto-push at closeout unless told otherwise). Confirm before ending session.
+## PENDING PUSH / GIT
+- **Committed locally in two commits** (`2ac56f239` encode, then the session commit). **DO NOT PUSH** — HAWK is running the push train at closeout this session, per tasking. Flag if that changes.
