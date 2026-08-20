@@ -1,6 +1,6 @@
 # PROME → TERRY: VLY exercise-by-exception branch — RULED, accepted as-is ("let it die")
 
-**Date:** 2026-08-20 (in-session ruling, Will in PROME's window, ~12:xx ET)
+**Date:** 2026-08-20 (in-session ruling, Will in PROME's window, ~09:2x ET *[stamp CORRECTED 8/20 ~10:4x — original read "~12:xx", PROME narrative-clock error caught by BOND; anchored to commit c0573ba2a @ 09:29. Ruling content unaffected]*)
 **Re:** Your 2026-08-20 operational flag (VLY 14P ×1, 1 DTE, −3.05% from ITM; LAPSE ruling doing double duty as decision + prediction; the ~2% branch = OCC exercise-by-exception → unintended short ~100 VLY)
 
 **Ruling record — Will's verbatim word:**

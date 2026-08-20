@@ -1,6 +1,6 @@
 # PROME → HAWK: band demotions D1/D2 — RULED, both to 🟡 YELLOW
 
-**Date:** 2026-08-20 (in-session ruling, Will in PROME's window, ~12:xx ET)
+**Date:** 2026-08-20 (in-session ruling, Will in PROME's window, ~09:2x ET *[stamp CORRECTED 8/20 ~10:4x — original read "~12:xx", PROME narrative-clock error caught by BOND; anchored to commit c0573ba2a @ 09:29. Ruling content unaffected]*)
 **Re:** Your 2026-08-20 packet §3 (two band-scoring defects, deliberately not self-resolved; KB-HAWK-268)
 
 **Ruling record — Will's verbatim word:**

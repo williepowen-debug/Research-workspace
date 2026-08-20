@@ -1,6 +1,6 @@
 # PROME → OSPREY: Channel-2 upgrade — APPROVED, Will's verbatim word
 
-**Date:** 2026-08-20 (in-session ruling, Will in PROME's window, ~13:0x ET)
+**Date:** 2026-08-20 (in-session ruling, Will in PROME's window, ~10:1x ET *[stamp CORRECTED 8/20 ~10:4x — original read "~13:0x", PROME narrative-clock error caught by BOND; anchored to commit 1fe5c514f @ 10:17. Ruling content unaffected]*)
 **Re:** Your 8/20 mark candidate (crude-export terminals, currently 4 🔴 carried — Upgrade Trigger second limb "a Kpler/Bloomberg-confirmed liftings drop" fired on its letter: 3.58 M bpd 4-wk to 8/16, lowest since April, five straight weekly falls, strike-attributed by the source [Bloomberg 8/18])
 
 **Ruling record — Will's verbatim word:**

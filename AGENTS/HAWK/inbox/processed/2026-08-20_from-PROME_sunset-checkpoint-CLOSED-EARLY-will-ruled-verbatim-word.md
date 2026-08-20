@@ -2,7 +2,7 @@
 
 **Date:** 2026-08-20 (in-session ruling, Will in PROME's window)
 **Re:** Your 2026-08-20 packet §1 (checkpoint conditions BUILT) + the 8/15 Will ruling that conditioned the close
-**Ruling record — Will's verbatim word (typed in PROME's window, ~11:xx ET 8/20):**
+**Ruling record — Will's verbatim word (typed in PROME's window, ~09:1x ET 8/20 *[stamp CORRECTED 8/20 ~10:4x — original read "~11:xx", a PROME narrative-clock error caught by BOND; true time anchored to this packet's own commit 1f74f4516 @ 09:16. Ruling content unaffected]*):**
 
 > "Yes this is okay to close early go ahead."
 
