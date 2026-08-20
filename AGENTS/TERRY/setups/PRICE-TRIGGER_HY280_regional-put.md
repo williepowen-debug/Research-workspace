@@ -69,6 +69,49 @@ ZONE 3 — TRIGGER CONFIRM + DECISION
 
 ---
 
+
+## 🔴 2026-08-20 Thu ~09:4x ET — **THIS CARD'S KILL CLAUSE TRIPPED ON 8/14 AND NOBODY WAS READING. THE TAPE THEN TURNED IN THE CARD'S FAVOUR. BOTH ARE TRUE AND I AM NOT RESOLVING IT MYSELF.**
+
+Found in a Will-directed opportunity sweep, not by detection — this card had been unread since 7/30.
+
+### ① The KILL clause fired — on the letter, by one cent
+**Kill, exact wording:** *"HY round-trips back <270 sustained **OR KRE reclaims prior range high**."*
+The prior range high on 7/30 was **77.92 (7/16)**. **KRE closed 77.93 on 2026-08-14 — a new 6-month high, one cent through.** ⇒ **On the letter this card is DEAD as of 8/14.**
+⚠️ **Note the asymmetry, because it is a specification defect and not a judgement call: the HY leg carries a "sustained" qualifier and the KRE leg does not.** A single close, by $0.01, kills it. **I am flagging that, NOT relaxing it** — `[[finding_confidence_priced_against_thesis_not_letter]]`: a card resolves on the letter you wrote, and a desk that waives its own kill clause because the tape later improved is doing exactly the threshold-shaving `ledger_sweep` forbids by name.
+
+### ② And then the tape did precisely what this card always wanted — starting the next session
+| date | KRE | vs 20d | vs 50d |
+|---|---|---|---|
+| 2026-08-14 | **77.93** ← new 6mo high, **kill trips** | +1.42 | +3.39 |
+| 2026-08-17 | 77.39 | +0.84 | +2.65 |
+| 2026-08-18 | 76.85 | +0.25 | +1.96 |
+| 2026-08-19 | 75.00 | **−1.55** ← breaks 20d | +0.01 |
+| **2026-08-20** (live ~09:4x) | **74.88** | **−1.63** | **−0.21** ← **breaks 50d** |
+
+**−3.91% in four sessions; below BOTH moving averages for the first time in this window.**
+🔑 **This matters because it is the EXACT leg whose absence was my stated reason for refusing the met trigger on 7/30.** That verdict read: *"The equity tape is not lagging — it is going the other way… above both 20d and 50d… flat-to-up while HY widened."* **That sentence is no longer true.**
+
+### ③ Confirm line, scored honestly — 1 of 3, so this is NOT a fire either way
+**Confirm = *"HY sustains >280 AND KRE breaks key support AND CCC÷HY ratio widening."***
+| leg | state | met? |
+|---|---|---|
+| HY OAS ≥280 sustained | **275** [8/18 FRED] — widening 4 sessions (267 → 270 → 275) but **5bp short** | ❌ |
+| KRE breaks key support | **74.88, below 20d AND 50d** | ✅ **NEW** |
+| CCC ÷ HY ratio widening | **3.735** (1027/275) vs **3.79** [8/14] — **FALLING** | ❌ |
+
+### ④ CREED-T-02 fired this morning and it does NOT rescue the premise — I checked, and it cuts the other way
+`CREED-T-02` fired 2026-08-20 (matured-balloon share of newly-delinquent CMBS balances >50%, sustained: May 70% · Jun 65% · Jul 66%; routed CREED→REGINALD/LIQUID). **The tempting read — "CRE stress fires + HY widens ⇒ the bank/CRE leg is back" — is manufactured convergence and I am not making it.**
+**CREED's fire is effective JUNE 2026 with a ~6-week detection lag.** That deterioration was **already in the data** when LIQUID and REGINALD independently attributed the 7/22–7/29 HY widening as **bank/regional/CRE ≈ 0%, HIGH confidence**. ⇒ **T-02 does not overturn that attribution; it sharpens the negative** — CRE was visibly deteriorating and broad credit still priced no bank leg. **That is evidence the transmission this card requires is NOT occurring.**
+⚠️ **The one legitimate open question is REGINALD's**, not mine: does the owner re-read the bank leg given T-02? **REGINALD has been dark since 8/13, so that packet sits unread — the question is LIVE but UNOWNED.**
+
+### ⛔ Disposition — WILL'S / PROME'S, not TERRY's
+**No status token changed by this block. No gate moved, no threshold shaved, nothing proposed, `$0` moved.** Two clean readings exist and they conflict:
+- **(a) DEAD on the letter** as of 8/14 — the defensible default, and my recommendation absent a ruling.
+- **(b) The kill was a mis-specified tripwire** (unqualified 1-cent reclaim vs the HY leg's "sustained") that fired one session before the tape delivered the card's own confirm leg.
+**I recommend (a) unless Will rules otherwise.** ⚠️ And note that (b) is not a free option: **`RISK_RULES` #18 binds at any rebuild — the pre-built "8–12% OTM, 3–6mo" structure does not survive a fresh build**, same finding as `TRY-FIRE-002`. **Reviving this is a NEW card, not a resumed one.**
+
+---
+
 ## 🔴 2026-07-30 ~13:40 ET — **THE ENTRY TRIGGER IS MET. TERRY STILL SAYS DO NOT FIRE.** (surfaced from the WALTER backlog, not by detection)
 
 ### The trigger leg — MET
