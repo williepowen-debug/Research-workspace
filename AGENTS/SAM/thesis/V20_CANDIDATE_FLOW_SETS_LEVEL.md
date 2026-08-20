@@ -1,0 +1,135 @@
+# v2.0 CANDIDATE — **FLOW SETS THE LEVEL; POSITIONING SETS THE VOLATILITY**
+
+**Status: 🕯️ CANDIDATE. NOT A THESIS. NOT v2.0.** Opened **2026-08-20**, Will-directed, after seven weeks of deliberately refusing to name a successor.
+**THESIS v1.7 stands unchanged. Book FLAT. No entry trigger. No vehicle. Nothing here moves a bucket, a bar, or a dollar.**
+**Promotion requires: a RED adversarial pass + the load-bearing measurement in §5 + Will's sign-off. Any two of three is not enough.**
+
+---
+
+## 1. THE QUESTION THIS ANSWERS
+
+Written down on 2026-08-07, the day the old frame died, specifically so it could not be quietly skipped:
+
+> *The carry trade substantially unwound — and the yen is at 157.5, not 145.*
+> ***What is the thesis when the positioning fuel has ALREADY burned and the level barely moved?***
+
+**Thirteen days later the question is sharper, not staler.** The fuel is now **22.4% of peak**, open interest is **shrinking** (−6.6% in a week, both sides), the franc absorbed only **3.6%** of the exiting yen short (so it did not rotate — it *left*), the JGB 10Y hit a **30-year high**, the 30Y made a **series high through 4.00%** — and USD/JPY is **158.65, WEAKER than when the question was written.**
+
+**Every input the old thesis said would deliver yen strength has now happened. The yen went the other way.**
+
+---
+
+## 2. 🔴 THE SCALE FINDING — the number this whole candidate turns on
+
+I had never once asked how big the carry trade was **relative to the flows it was competing against.** I graded a thesis about the yen's *level* on a positioning series for two months without sizing it.
+
+**CME JPY futures = ¥12,500,000 notional per contract.** At USD/JPY 158.65:
+
+| Quantity | Size |
+|---|---|
+| **PEAK speculative short** (−188,077, the corrected all-time record) | **¥2.35T = $14.8B** |
+| Current short (Aug-11) | ¥0.53T = $3.3B |
+| **One intervention day** (7/30, est. ~¥8.45T) | **¥8.45T = $53.3B** |
+| Official round Apr-28→May-27 (MOF, official) | ¥11.73T = $74.0B |
+| **Structural foreign-bond buying, last 4 weeks** | **¥2.43T = $15.3B** |
+| Structural buying, 12-week average | ¥0.24T/week = $1.5B/week |
+| **Unhedged Japanese foreign-bond book** (Pillar 3, hedge ratio 44.4%) | **~$370–550B** |
+
+> ### 🔑 **THE ENTIRE ALL-TIME-RECORD SPECULATIVE YEN SHORT WAS:**
+> - **28% of ONE intervention day**
+> - **20% of a single official monthly round**
+> - **~1.0× the last FOUR WEEKS of ordinary structural outflow** — i.e. about **ten weeks** of it at the 12-week average
+> - **~3% of the unhedged foreign-bond book it was supposedly going to force**
+
+**The "fuel" was never large enough to set the level.** It was roughly one month of the flow that runs in the opposite direction and never stops.
+
+---
+
+## 3. THE HYPOTHESIS
+
+> **The yen's LEVEL is set by structural capital export, which is persistent, large, and price-insensitive over the horizons I trade. SPECULATIVE POSITIONING sets the VOLATILITY and the SHAPE of moves, not the level.**
+>
+> **A carry unwind therefore delivers exactly what it is sized to deliver — a violent, short-duration move — and cannot deliver what it is not sized to deliver: a sustained level change.**
+
+**This is not "the carry trade doesn't matter."** It is: *the carry trade is a **volatility** instrument and I was reading it as a **level** instrument.* Same series, wrong dependent variable.
+
+---
+
+## 4. WHAT IT EXPLAINS THAT THE OLD FRAME COULD NOT
+
+| Observation | Old frame | This candidate |
+|---|---|---|
+| 7/30: yen **+2.7% intraday**, largest of cycle | ✅ consistent | ✅ a **volatility** event, exactly the size positioning can produce |
+| 7/30–8/7: fuel collapses 86.9% → 24.2% | *should precede a level move* | ✅ the overlay unwound; **the structural flow underneath never paused** |
+| The level then went **WRONG WAY** (157.4 → 158.65) | ❌ unexplained | ✅ **predicted** — flow, not positioning, sets the level |
+| Franc absorbed only **3.6%** of the exiting short | ❌ (would expect rotation) | ✅ it was an overlay being removed, not capital seeking a new home |
+| **Three consecutive** record foreign-bond BUYING weeks *while* the yen short unwound | ❌ contradictory | ✅ **the two are independent** — that is the whole claim |
+| JGB 10Y at a 30-yr high, 30Y through 4.00%, **FX flat for 8 sessions** | ❌ "bond channel live, FX not conducting" *(a restatement, not an explanation)* | ✅ bonds price **domestically**; FX prices **cross-border flow** — different instruments, no transmission required |
+| 8/19: KOSPI −5.8% and the yen **did not bid** | ❌ (haven decoupling, unexplained) | ✅ risk-off moves positioning, and positioning does not set the level |
+
+**Seven observations, one mechanism, no free parameters.** The old frame needed a separate excuse for four of them.
+
+---
+
+## 5. 🔴 THE LOAD-BEARING UNKNOWN — and it can kill this outright
+
+**Everything in §2 rests on CFTC futures being a fair proxy for the yen carry trade. IT IS NOT THE WHOLE TRADE.** The carry trade also lives in **FX swaps, offshore bank lending, and structured products that no instrument I own can see.** WALTER put the open question precisely today:
+
+> *the yen short fell 48,920 contracts in two weeks while the franc short grew 1,785 — the franc absorbed 3.6%. **Is the missing ~96% flat, or in FX swaps neither of us can see?***
+
+⚠️ **THE ARITHMETIC INVERTS IF THE TRUE TRADE IS LARGE.** At $14.8B the speculative short is trivially smaller than the structural flow and §3 follows. **At $300–500B it is comparable to or larger than the unhedged book, and §3 collapses** — positioning would then be perfectly capable of setting the level, and I would be back to explaining why it didn't.
+
+> ### ⛔ **THIS CANDIDATE MAY NOT BE PROMOTED UNTIL THE YEN CARRY TRADE IS SIZED FROM A SOURCE THAT SEES BEYOND CFTC FUTURES.**
+> **Instrument: BIS locational banking statistics / BIS FX derivatives statistics** (yen-denominated cross-border claims; FX swap outstandings). ⚠️ **Semi-annual and heavily lagged** — that lag is a real constraint on this candidate and must not be wished away.
+> **This is the single highest-value unpulled item on my desk**, has been in the research backlog since Will's 2026-06-15 brainstorm, and is now the *blocker*, not a nice-to-have.
+
+**I am recording it as a blocker rather than a caveat because it is the difference between a thesis and a story that fits.**
+
+---
+
+## 6. FALSIFIABLE STRUCTURE — what would kill it
+
+| # | Killer | Status |
+|---|---|---|
+| **K1** | **BIS/swap data sizes the true yen carry trade at a scale comparable to the unhedged book** (order $100B+) | 🔴 **UNMEASURED — the §5 blocker** |
+| **K2** | A **positioning-driven** move produces a **sustained** level change (>4 weeks) with no structural-flow change | not observed |
+| **K3** | Structural outflow **stops or reverses** and the yen **does not** strengthen | ⇒ would kill the flow leg directly |
+| **K4** | The yen strengthens materially **while** structural outflow continues at trend | 🟡 partially tested — the 7/30-31 ops did this for ~3 sessions, **which is why the claim is about LEVEL not about ops** |
+| **K5** | Japan's structural outflow turns out to be **price-sensitive** (i.e. it stops on its own at some differential) | ⇒ would merge this into Pillar 1 rather than kill it |
+
+**Registered prediction candidate (NOT yet written to `PREDICTIONS.tsv` — needs RED first):**
+> *Through 2026-12-31, no CFTC-positioning event alone (build or unwind, either direction, ≥1 median-week move) produces a sustained USD/JPY level change — defined as ≥3% held for ≥20 business days — absent either an official operation or a structural-flow reversal.*
+
+---
+
+## 7. WHAT THIS PERMANENTLY RETIRES — and it costs me something
+
+- ⚰️ **Pillar 4 (positioning fuel) as a LEVEL argument. Permanently.** Not "currently unfired" — **wrong category.** It survives only as a volatility input.
+- ⚰️ **Any future "CFTC is loaded, therefore the yen must rise" claim.** That is the exact reasoning that produced SAM-29 and SAM-40, both FAILED.
+- ⚰️ **The residual-cascade route** as a level mechanism.
+- ⚠️ **And it re-frames my two-month v1.6 error more harshly than "the crowd turned around":** I built a level thesis on a volatility instrument and never sized it against its competition. **The 8/7 break was not bad luck on a good frame — it was a category error that a single division would have exposed at any point in those two months.**
+
+## 8. HOW IT RELATES TO THE v1.8 PILLAR-1 CANDIDATE — they unify, and that is a point in favour
+
+`V18_CANDIDATE_PILLAR1.md` (rate-differential compression) is **not a competitor — it becomes the mechanism.** If the level is set by structural capital export, then **the differential is what drives that export**, and Pillar 1 is the only pillar that acts on the level at all. **That explains why Pillar 1 was always the right pillar and Pillar 4 was always the wrong one**, and why Channel 1 (repatriation) retiring correctly was *also* the thing that removed the only fast route to yen strength.
+⚠️ **A unification is seductive and that is itself a warning sign — RED should attack this section hardest.**
+
+## 9. WHAT THIS DOES **NOT** CLAIM
+
+- ❌ Not that the yen cannot strengthen — it says **what has to happen first** (flow stops/reverses, or an official op).
+- ❌ Not a directional or a timing view. **There is no trade here and no vehicle.**
+- ❌ Not that intervention doesn't work — the 7/30-31 ops moved it ~6 yen. **Official flow is large enough; speculative flow is not.** That is the same claim, not a contradiction.
+- ❌ Not a claim about Japan's *domestic* bond market, which is doing something real and separate (Pillar 2, live).
+
+## 10. 🔴 WHAT RED SHOULD ATTACK (my own list, written before RED sees it)
+
+1. **§2 is notional arithmetic.** Notional ≠ market impact. Leverage, reflexivity and flow-through are unmodelled. **Is a $15B position with 10x reflexive follow-through equivalent to $150B of flow?** If yes, §3 weakens badly.
+2. **The intervention comparison is not like-for-like** — ops are concentrated into hours; positioning builds over months. **A per-day flow comparison may be the wrong metric entirely.**
+3. **§4 is a fit, not a test.** Seven observations explained after the fact by one mechanism is exactly what a good story does. **Which of the seven could have come out the other way?**
+4. **The structural flow may not be exogenous.** If Japanese institutions buy foreign bonds *because* the yen is weak, flow and level are jointly determined and "flow sets level" is a mislabelled correlation.
+5. **§8's unification is suspiciously tidy.**
+6. **Survivorship:** I am building this from the wreckage of a frame that failed. Is this the mechanism, or the first coherent story available after a loss?
+
+---
+
+*Author SAM, 2026-08-20, at Will's direction. All figures own primaries (`workbook/CFTC_JPY.tsv`, `workbook/MOF_FLOWS.tsv`, MOF intervention record, THESIS Pillar 3). Contract spec: CME JPY futures ¥12,500,000. FX at 158.65 (own pull 2026-08-20). **CANDIDATE ONLY — v1.7 stands, book FLAT, $0 at risk.***
