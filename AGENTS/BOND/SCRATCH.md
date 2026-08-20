@@ -23,7 +23,8 @@
 5. **🟠 9/9 — first stepped-up buyback op: F2 scoreable from per-op results.** Watch whether 20Y/30Y composition normalizes once the official bid exists.
 6. **🟡 LIQUID still owes:** T6 platform-naming + 3 spec defects (packet 8/18) · the 7/01→7/15 repo refuse-or-confirm (since 7/28).
 7. **🟡 8/25–27 — 2Y/5Y/7Y cluster + 8/26 2Y-reopen; 5Y is the cover-marker repeat watch.**
-8. **🟡 P3 start gate (passed 8/03) still never started; swaption-skew source re-test by 9/15** (WALTER `-031` answered: no source in toolkit today, not registered).
+8. **🟡 P3 start gate — PARKED on PROME's supersede-or-schedule adjudication (tasking-3 ruling 8/19); swaption-skew source re-test by 9/15.**
+9. ~~VX-18 FHLB test~~ ✅ **DONE 8/19 tasking-3: Q2 CFR was out (pub 8/13) — VX-18 RE-ARMED + 1→2 on the single-bank-spike leg** (system $810.7B +10.4% Q/Q, below the 15% leg; **Pittsburgh +111% H1** fired it; escalation legs not met, 11% below $900B). KB-BND-140; KB-067 SUPERSEDED (FHLB leg); REGINALD packeted for the bank-level why. Next FHLB read: Q3 CFR ~mid-Nov, or any REGINALD flag.
 
 ## MAIL STATE
 
