@@ -20,7 +20,21 @@ That is **through SAM's leg-1 SPF invalidation line (−108K / 60%) by 62,527 co
 
 🕯️ **A v1.8 CANDIDATE IS NOW OPEN — AND IT IS NOT A THESIS: `thesis/V18_CANDIDATE_PILLAR1.md`.** *Is Pillar 1 (US-Japan rate-differential compression) coming back?* **Verdict: PROMISING MECHANISM, ZERO ACHIEVED PROGRESS.** ⚠️ **Peers must not cite this as a SAM view.** For the first time this cycle both policy legs point the same way (Fed Sep hike odds **57% → 43.9%**; BOJ Sep repricing is a *pull-forward*, terminal unchanged — **live figure in the LIVE line above, not restated here, by rule**) and — structurally the strongest point — **it does not need a crowd**, so the thing that killed the convexity frame does no damage to it. **But the differential sits where it was in mid-June:** 5Y **2.316** vs **2.327** on 6/18 (the day v1.6 declared this pillar broken), 10Y **1.887** vs **1.823** — i.e. **today is WIDER**. ⚠️ **Anchoring matters and is the trap:** measured from the 7/31 peak it looks like compression; measured from June nothing has happened. Bar registered as **SAM-41 @40%** — 5Y <2.25% **or** 10Y <1.80% on **5 consecutive closes** by 10/31; the FOMC dot-walk-back tripwire is **separate and has not fired**. **Promotion to v1.8 requires a separate session + RED adversarial pass + Will sign-off. No entry trigger, no vehicle** — and if it ever did become the thesis the vehicle would be **spot/long-dated, not** the short-dated convexity structure (a grind, not a spike).
 
-**As of:** **2026-08-20 ~09:0x ET Thu — BOOT fold (market refresh + TWO dated events graded on frozen letters + WALTER lane drained, 10 signals + ORACLE verdict consumed). Frame UNCHANGED (RETIRED/LOW). Attribution still OPEN — the 8/20 interim graded NO-VERDICT, as pre-registered.** STATUS commit: this session's.
+**As of:** **2026-08-20 ~16:0x ET Thu — SESSION CLOSEOUT fold** (boot + two dated events graded on frozen letters + sub-agent trio ruled + a v2.0 CANDIDATE opened at Will's direction and routed to RED for a BLIND pass). **Frame UNCHANGED: v1.7, RETIRED/LOW. Book FLAT. $0 at risk. No trigger, no vehicle.**
+
+### 🕯️ A v2.0 CANDIDATE EXISTS — ⛔ **DO NOT CONSUME OR BUILD ON IT YET. THIS IS A DISCLOSURE, NOT A ROUTING.**
+
+**Opened 2026-08-20 at Will's direction, after seven weeks of deliberately refusing to name a successor: `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md`.**
+
+> ⛔ **PEER ROUTING IS DELIBERATELY HELD.** BOND and NEXUS were **not** sent this and should **not** act on it. It is under a **BLIND adversarial pass at RED**, and peers will receive a **REVIEWED** candidate or nothing. **I am naming it here only so that a peer who encounters the file has its status rather than its contents** — an undisclosed candidate found in the tree is worse than a disclosed one held.
+
+**The claim, one line, so you can judge whether to wait for it:** the old frame read a **volatility** instrument as a **level** instrument. **The all-time-record speculative yen short was ¥2.35T ≈ $14.8B — 28% of ONE intervention day, ~1.0× the last four weeks of Japan's structural outflow, ~3% of the unhedged foreign-bond book.** It was never sized to set the level. ⇒ **flow sets the LEVEL; positioning sets the VOLATILITY and the shape of moves.**
+
+⚠️ **It has a NAMED LOAD-BEARING UNKNOWN that can kill it outright, and I am flagging that to peers now rather than after promotion:** CFTC futures are not the whole carry trade. **At $14.8B the arithmetic holds; at $300–500B it INVERTS and the candidate collapses.** The BIS measurement that settles it is **unpulled**, and is an **order-of-magnitude** question (~20×), so **a stale vintage suffices** — next session.
+
+⛔ **Nothing in it moves a bucket, a bar, a threshold or a dollar. THESIS v1.7 stands unchanged.** **Promotion needs THREE things — RED's pass + the BIS measurement + Will's sign-off — and any two are not enough.**
+
+---
 
 ### 🆕 WHAT THURSDAY 8/20 ADDED — the interim grade came in NULL, and the JGB break turns out not to be Japan's
 
