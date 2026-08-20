@@ -228,3 +228,80 @@ Re-reading Dew-Becker/Giglio: their five strategies **explicitly include the 5% 
 8. **Rates VRP post-2012 — no direct break test found.** Leg-A verdict is a MEDIUM-confidence inference. A clean post-2012 structural-break study of Treasury/swaption VRP (the rates analog to Dew-Becker/Giglio) would upgrade or overturn it. Watch for one.
 9. ✅ **RESOLVED 2026-07-17 → § OPEN ITEM #9.** Skew premium was real + monotonic in depth (Bondarenko: ATM −39%/mo → deep-OTM −95%/mo, 1987-2000). DBG's collapse **reaches to 5% OTM and into jump risk** (further than "ATM only"), **but the deep 8-13% strip — where both live tails sit — is untested and is where a residual premium most plausibly persists** (price-insensitive institutional hedging + pure-jump strikes that retail can't easily supply). Verdict: **crash-ladder pays rates VRP + deep skew (double tax); HBAN's deep strike + 7/23 print is where its small single-name premium concentrates.** Successor: #10.
 10. **Acknowledged gap — NOT actively tracked (Will 2026-07-17 declined a standing watch as un-serviceable over a months+ horizon):** no post-2012 deep-OTM (8-13%) put-return study exists (genuine literature gap), and the rates verdict wants a direct post-2012 break test. **Recognize, don't hunt:** if either crosses the desk during options/VRP/tail research, check the **Bollerslev / Todorov / Kelly-Jiang** orbit or DBG follow-ups and fold the result into §#9 / §#5 + memory `[[finding_vrp_split_rates_vs_singlename]]`. Deep premium *collapsed* → skew tax small (upgrade); *persisted* → confirms the DOUBLE tax. Either way prices the tax, doesn't veto — so **nothing here blocks or changes a trade decision today.**
+
+---
+
+# SOURCE 3 — MenthorQ, "Mastering Options Greeks" (graded 2026-08-20, TERRY)
+
+**Raw:** `sources/2026-08-20_menthorq_greeks-cheatsheet-and-higher-order.md` · **Provided by:** Will, in-session, from Twitter/X.
+
+> **⚠️ Standing source-quality caveat, same class as the tastytrade block above.** MenthorQ is a **commercial vendor whose product is higher-order-Greek / GEX analytics.** The article's thesis — *first-order Greeks are insufficient; you need Vanna/Vomma/Zomma/Speed* — **is the vendor's sales case restated as pedagogy.** The mechanics are standard textbook derivatives and are not in doubt; the **emphasis** is not independent. Weight the math, discount the "these are critical" framing. Additionally: **no URL, byline, or publication date was supplied** — this arrived pasted into a chat. Nothing here may be cited as a source; anything load-bearing was **re-derived locally** (`scripts/greeks.py`) and is graded on the re-derivation, not on the article.
+
+## The one-paragraph verdict
+
+**Roughly 85% of this is generic options pedagogy this desk already applies, and its "Common Strategies" columns are premium-SELLING doctrine** — Iron Condors, Credit Spreads, Covered Calls, Short Straddles, "Theta-selling portfolios," "Selling post-earnings premium." **This book is a premium buyer; that column is the counterparty's playbook, not ours** (identical posture to the tastytrade grading). **But two rows are genuinely load-bearing for the live book, and one of them killed a headline finding of my own from two days ago.** The Vega table's *"drops as expiry nears"* and the article's **Vanna** treatment both bear directly on the 8/18 conclusion that `TRY-FIRE-004`'s harvest gate is a volatility gate — **MQ-02** (vega decay makes that gate *decay*) and **MQ-03** (vanna makes the price-leg and vol-leg *non-separable*, which my 8/18 read treated as independent). ⚠️ **Credit where it is actually due, measured not asserted: the 8/18 headline died 80% because of the bond rally and only 10% because of vega decay** (§ decomposition). The article's value is **forward-looking, not retrospective** — vega decay is the term that compounds from here and that nothing on the card was tracking.
+
+| ID | Claim | Applicability to THIS book | Notes |
+|---|---|---|---|
+| **MQ-01** | Delta/Gamma/Vega/Theta definitions; gamma highest ATM + short expiry; theta accelerates near expiry; long premium is always short theta. | **CONTEXT (already applied)** | Textbook, correct, and already embedded in `CHART_OPTIONS_WORKFLOW.md` and every card's structure section. Changes nothing. Recorded so the file shows it was read and rejected as non-novel, not skipped. |
+| **MQ-02** | **Vega is "highest for long-dated, ATM options" and "drops as expiry nears."** | **⭐ ADOPT — and it invalidates a dated headline of my own** | **Direction-agnostic and re-derived locally.** Consequence: a harvest gate reachable *via a vol pop* gets **monotonically harder every day**, because the same IV point buys less. **This was not on the 004 card and was not being tracked.** See § MQ-02 APPLIED. |
+| **MQ-03** | **Vanna** = dVega/dSpot; vega and gamma "often peak in the same regions of the surface"; price and vol sensitivities interact rather than add. | **⭐ ADOPT (as a caveat on my own method)** | **My 8/18 measurement priced the two legs as SEPARABLE** — *"needs −2.37%"* OR *"IV ≥18 clears flat."* For a long OTM put they are not: **vega rises +50.8% on a −1% spot move** (measured, § MQ-03 APPLIED). The joint path pays **more** than either leg read alone, and the "no price move at all" branch is the **least** likely route to the gate, not the cheapest. |
+| **MQ-04** | Every "Common Strategies" column: Iron Condors, Credit Spreads, Covered Calls, Short Straddles/Condors, Butterflies, "Theta-selling portfolios," "Selling post-earnings premium," gamma scalping with stock. | **NOT-APPLICABLE (wrong book), recorded with the reason** | Premium-**selling** structures requiring margin, delta-neutral rebalancing, and a short-gamma risk profile. This book is **long premium, directional, defined-risk, $500 max loss/card, no naked shorts.** Their own Gamma table says it: *"Naked short options are dangerous."* Agreed — which is why we do not run them. |
+| **MQ-05** | Zomma, Speed, Color, Ultima, Veta, Vera (3rd-order Greeks) are "critical" for stress testing and hedging. | **NOT-APPLICABLE — and this is the vendor's sales case** | **3rd-order Greeks matter to a delta-hedged market-maker rebalancing a book continuously.** This desk holds **1–25 contracts of defined-risk long premium to a catalyst and does not hedge dynamically.** Speed/Zomma would change no decision we make. ⛔ **Do not adopt these to look rigorous** — instrument count is not rigor. |
+| **MQ-06** | *"Delta also serves as a proxy for the likelihood of an option expiring in the money."* | **⚠️ CONTEXT — imprecise as stated; do not repeat in a card** | The ITM probability is **N(d₂)**, not delta (**N(d₁)**). The article states the folk approximation with no caveat, and **the error is SIGNED BY OPTION TYPE — which the article never says.** Measured (S 83.02, 41 DTE, IV 12.7%): **put K=77 — abs(delta) 0.0287 vs P(ITM) 0.0316 ⇒ delta UNDERSTATES by −9.2%**; **call K=90 — delta 0.0388 vs P(ITM) 0.0354 ⇒ delta OVERSTATES by +9.7%.** ⭐ **For THIS book the direction is the lucky one: on long puts, quoting delta as P(ITM) is CONSERVATIVE.** ⚠️ But `[[finding_measurement_bias_sign_is_fixed_harm_direction_is_not]]` — the sign is fixed by type; whether it protects or flatters belongs to the trade. **On the call side (USO 135C, XLE 65C) the same shortcut FLATTERS.** Use **N(d₂)** whenever a card states a probability. ✍️ *Recorded honestly: I first wrote this row asserting the CALL direction for a put and had the sign backwards; the measurement caught it before it left the desk.* |
+| **MQ-07** | Diagram: **Strike** drawn as an input with **no arrow to any Greek** — the only unconnected input. | **CONTEXT (a caution about the diagram, not the math)** | Strike drives every Greek in the diagram; it is unconnected because it is the one input a holder cannot vary continuously. Harmless, but it means the chart is a **mnemonic, not a dependency graph** — do not read structure into it that isn't there. |
+
+## § MQ-02 APPLIED — the 8/18 vol-gate headline is DEAD, and this is the retraction
+
+**The 8/18 block on `FLOW-TRIGGER_duration-TLT-put.md` states, as its headline branch:**
+> *"IV ≥18% CLEARS WITH NO PRICE MOVE AT ALL (0.374 flat)"* — measured at 43 DTE, spot 81.64, against the then-current **$0.33** gate.
+
+**That figure was correct when written and is now false.** Re-derived with `scripts/greeks.py` (whose selftest carries the 8/18 figure as a **permanent regression case** — the tool reproduces `0.374` before it is allowed to disagree with anything):
+
+| state | spot | DTE | gate | **IV needed to clear with NO price move** |
+|---|---|---|---|---|
+| **8/18 (as written)** | 81.64 | 43 | $0.33 | **17.09%** ⇒ "≥18% clears" was right |
+| **8/20 (today)** | 83.02 | 41 | $0.3469 | **20.80%** |
+
+**Decomposition — measured, so the article gets credit for exactly what it earned and no more:**
+
+| cause | isolated effect on the IV needed | share |
+|---|---|---|
+| **spot 81.64 → 83.02** (the 8/19 bond rally) | **+2.96 pts** | **80%** |
+| DTE 43 → 41 (**vega decay — the MQ-02 term**) | +0.37 pts | 10% |
+| gate $0.33 → $0.3469 (Will row 61, fees-in) | +0.28 pts | 8% |
+| **all three (today's true state)** | **+3.71 pts** | |
+
+⇒ **MQ-02 did not cause this; the bond rally did.** The article's contribution is **forward**, and it is the term nothing was tracking — holding spot fixed at 83.02, the vol-only route to the gate degrades on its own:
+
+| DTE | date | IV needed, no price move | vega per IV pt |
+|---|---|---|---|
+| 41 | 2026-08-20 | 20.80% | 0.0182 |
+| 30 | 2026-08-31 | 24.04% | 0.0088 |
+| **21** | **2026-09-09** ← buyback window opens | **28.47%** | 0.0030 |
+| 14 | 2026-09-16 ← FOMC | 34.61% | 0.0005 |
+| 7 | 2026-09-23 | 48.58% | ~0 |
+
+🔑 **The two back-half catalysts this card is counting on — CPI 9/11 and FOMC 9/15-16 — sit where the vol route needs ~29% and ~35% IV respectively, from 12.7% today.** The 8/19 sb0607 block already found the buyback operation *"suppresses the tail-VOL pop that the 8/18 block showed does almost all the harvest-gate work."* **MQ-02 says the vol route is closing on its own timetable regardless of the buybacks** — two independent mechanisms, same direction, and only one of them was on the card.
+
+⛔ **NO GATE MOVED, NO THRESHOLD SHAVED, NOTHING PROPOSED, $0 MOVED.** A gate is not widened for becoming harder to reach — that is the exact move `ledger_sweep` forbids by name. This is a **measurement of what would have to happen**, per `RISK_RULES` #14 (all of it is MOMENT-property and expires). ⚠️ **IV input is the 8/18 chain's 12.70%** — the 8/20 pre-open chain returned **every Sep-30 put row `DEAD` (0/0)**, which is the quote-sanity guard working correctly rather than a defect. **Re-pull IV post-open before any decision.**
+
+## § MQ-03 APPLIED — my 8/18 method treated two legs as separable and they are not
+
+The 8/18 block reads the price route and the vol route as alternatives. **Vanna says they are coupled.** Measured on today's state (S 83.02, K 77, 41 DTE, IV 12.7%):
+
+| | vega per IV pt |
+|---|---|
+| at spot 83.02 | **+0.0182** |
+| at spot 82.19 (**−1%**) | **+0.0275** |
+| | **+50.8%** |
+
+⇒ **A −1% TLT day makes every subsequent IV point worth ~half again as much.** Consequences, stated as method corrections to my own prior work:
+
+1. **The realistic path is the DIAGONAL, not either axis.** Today's surface: at IV 12.7% the gate needs **−4.17%**; at IV 20% it needs **−0.44%**; but a **−1.5% day with IV to 18%** clears it, and neither leg alone is close. **The gate's honest description is a joint (move × IV) boundary** — the surface, not a number.
+2. **The flat-vol model UNDERSTATES the good case.** No skew is modelled, and a real TLT selloff steepens put skew, so the OTM strike's own IV rises *more* than ATM. **Bias direction stated so it is not mistaken for precision** — the tool's docstring carries it.
+3. **It does not rescue the position.** Vanna amplifies a move that has to happen first. **−4.17% at today's IV is a worse tail than 8/18's −2.37%**, and the 3-year sample has no session beyond −3.02%.
+
+## § Promotion decision
+
+**NOTHING here is promoted to a numbered `RISK_RULES` rule today.** MQ-02 and MQ-03 are **ADOPT-grade and already wired where they bite** — as `scripts/greeks.py` (re-derivable on demand, selftested, with the 8/18 regression pinned) plus the § blocks above and the card annotation. **A numbered rule is not warranted**: this is measurement method, not trading discipline, and `RISK_RULES` #14 (*re-measure at any decision*) **already carries the obligation** — MQ-02 is a demonstration of why #14 exists, not a new rule beside it. **MQ-06 (N(d₂) not delta for stated probabilities) is the one candidate for promotion** if a second instance appears; logged, not promoted, on n=1.
