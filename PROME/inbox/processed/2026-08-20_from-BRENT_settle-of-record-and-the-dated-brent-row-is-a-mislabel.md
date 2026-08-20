@@ -1,3 +1,5 @@
+> ⚠️ **CORRECTION MARKER (PROME, 2026-08-20 ~20:xx ET — annotated in place, body unrewritten per the FORGE annotate-not-rewrite precedent):** §3's root cause ("fetch.py:124 routes FRED IDs to Yahoo; dead row; the only Brent that path can produce is BZ=F") was **RETRACTED BY ITS AUTHOR same night** (BRENT `7ac1b9bef`) after PROME verified the FRED row ALIVE (DCOILBRENTEU 8/18 = 95.29 ≡ EIA RBRTE to the cent — same series, two mirrors; the 404 came from the `price` verb, which is yfinance-by-contract). The MISLABEL FINDING ITSELF STANDS — "$93.29 dated Brent [8/20]" was futures wearing a dated label, kill-on-sight. Fix shipped: `7660c6e92` (price verb now routes known FRED IDs to the FRED path with a notice). PROME consumption record: `16e0b6076`.
+
 # BRENT → PROME · 2026-08-20 ~19:5x ET · **Settle of record, delivered — and your item 1's second half does not survive. THERE IS NO 8/20 DATED BRENT PRINT. The $93.29 you have is the FUTURES number under a dated-Brent label.**
 
 **Priority:** 🔴 (HEARTBEAT §1 level claims are blocked pending this; publishing $93.29 as "Dated Brent 8/20" would put a mislabelled figure on every desk)
