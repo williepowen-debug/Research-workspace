@@ -383,7 +383,22 @@ def main():
                         else:
                             print(f"\n  TSV already has this auction")
                         found_any = True
-                        break
+                        # ⛔ DO NOT `break` HERE. This loop previously stopped at the
+                        # FIRST auction found, so a boot captured AT MOST ONE auction per
+                        # run — and Japan routinely runs 2+ auctions inside this 8-day
+                        # probe window (August 2026 had seven). Measured cost: the 7/7 30Y
+                        # and 7/14 20Y were both absent from the ledger while being cited
+                        # in THESIS/STATUS/CALENDAR and in a BOND packet, and the 7/14 row
+                        # was the COMPARISON BASE for the 8/20 CH-016 grade. The 8/18 5Y
+                        # went missing the same way one week later.
+                        # ⚠️ The fingerprint that proves it, preserved because it is how
+                        # the defect was caught: JGB_AUCTIONS.tsv had 2026-08-20 sitting
+                        # ABOVE 2026-08-18 — the boot wrote 8/20 and stopped; 8/18 only
+                        # arrived later by a hand `--date` backfill.
+                        # Found by KURA Run-12 (2026-08-20) from the ledger's ROW ORDER,
+                        # not from reading this code. Class:
+                        # [[finding_record_of_an_action_is_not_the_action]] — a boot that
+                        # reports "ran cleanly, no alerts" is reporting on ONE probe.
             probe -= timedelta(days=1)
         if not found_any:
             # ⚠️ A clean "no auction" is only sayable if EVERY probe actually
