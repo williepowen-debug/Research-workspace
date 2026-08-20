@@ -30,6 +30,25 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 **Propagated in the same session to avoid manufacturing a fresh contradiction:** `VX-CREED-7.01`, `VX_HISTORY.tsv` (new row), `thesis/THESIS.md` matrix row 8a. **A doc rebuild that updates the MAP and not the VECTOR OF RECORD would have created exactly the defect this sweep exists to remove.**
 
 **Blind-spot register updated: 5 of 7 gaps now found by other agents** (added the `CREED-T-03` unsecured-CRE/C&I scope limit, found by REGINALD via TERRY; and the `CREED-T-02` missing-metric-vector gap, found by CREED's own K5 test — the only one CREED found in its own instrument layer).
+## 2026-08-20 (LATE) — `VX-9.03` re-spec: the first CREED vector to change its own instrument
+
+**Will-approved with two riders**, after CREED corrected its own prior claim that the vector carried no band.
+
+**The correction that drove it:** CREED told Will twice that `VX-9.03` had "no band attached." **What it had actually verified was narrower — that no `CREED-T` trigger CITES the vector** (`grep` on `THRESHOLDS.tsv` = 0). **The vector carries bands of its own: >15 / >18 / >20, Will-approved 2026-07-21.** Reported the narrow check as the broad claim. *(`finding_instrument_reports_clean_against_the_wrong_reference` — a clean scan against the wrong referent has no error to notice.)*
+
+**Why the difference mattered enough to re-open the decision:** **a provider swap on a banded vector moves the band state without anyone touching a band.** Moody's 21.0% sits in >20 **RED**; CBRE 18.3% sits in >18 **ORANGE**. The swap would have executed a **RED→ORANGE de-escalation through the instrument** — invisible to any audit that watches band VALUES, which is what every band audit watches.
+
+**Decisions, with reasoning:**
+1. **CBRE canonical — chosen for the MECHANISM, not for reachability.** It is the only provider publishing **vacancy and net absorption together**, and absorption is the only thing that distinguished CBRE/JLL's real demand from **C&W's inventory-removal effect** (−360K sf absorption while 33M sf of stock was demolished). **A bare vacancy rate cannot separate those**, and a bare rate is all Moody's ever reached CREED with. `VX-9.03` feeds **S7**, whose trigger requires *direct tenant-demand impairment* — **a level elevated for three years is a stock; absorption answers the question the vector exists to ask.**
+2. **Bands NOT re-based — refused at n=1.** Clean overlap is ONE quarter (Moody's Q1 21.0 vs CBRE Q1 18.6 = 2.4pp). **A 2.4–2.7pp spread at n=1 could be a stable offset or one quarter's noise.** Re-base at 3–4 quarters, as a separate Will-gated decision. **CREED applied its own base-rate rule against its own convenience** — re-basing now would have been the comfortable move.
+3. **Bands marked UNCALIBRATED-FOR-THIS-PROVIDER rather than edited.** They stay Will-frozen and untouched; the state cell is **indicative only** until re-based. **Grade the leg on absorption direction meanwhile.**
+4. **RIDER 1 (Will's): the RED→ORANGE transition is recorded EVERYWHERE as a BASIS CHANGE, never a de-escalation** — `VX_HISTORY` carries a dedicated `BASIS-CHANGE` row that also marks where the Moody's series ends and the CBRE series begins, THESIS S7 carries a basis-change guard, and **S7 stays at 2 on the evidence, not on the band state.**
+5. **RIDER 2 (Will's): Moody's and C&W are pulled every quarter as CONTEXT ROWS, not dropped.** **The overlap series that funds the future re-base only exists if the old provider keeps getting recorded** — this folds option C's one virtue in and makes the re-base a lookup instead of an archaeology project.
+
+**Pre-existing defect fixed in passing, and deliberately not claimed as a win:** the state cell read **ORANGE while the value was Moody's 21.0%** — a >20 **RED**-band number — since at least 7/27. **The vector under-stated its own band for three cycles and no check caught it** (`creed_selfcheck` reads fire-state and counts, not band-vs-value). Today's swap made ORANGE correct **by accident**; the coincidence is recorded rather than presented as the fix, and the cell now says *why* it is ORANGE so the next reader can check it.
+
+> **Candidate for the next guard extension:** a **band-vs-value predicate** — does each vector's state cell agree with its own bands and current value? It is mechanical, CREED-scoped, and would have caught a three-cycle-old defect that four staleness sweeps walked past.
+
 ## 2026-08-20 (AFTERNOON) — a dead pointer, a re-spec proposal, a third STATUS split, and two Will-frozen-row defects
 
 **Session type:** second session this day, fresh context. Will-directed: fix the COVERAGE lane-9 dead pointer, resolve `VX-CREED-9.03`.
