@@ -44,3 +44,6 @@
 {"ts": "2026-08-19T20:16", "kind": "queue", "text": "Added to your list: CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-C"}
 {"ts": "2026-08-19T20:16", "kind": "queue", "text": "Added to your list: 004 roll question \u2014 \u2705 RULED 2026-08-19 in-session: WAKE TERRY after th"}
 {"ts": "2026-08-19T22:05", "kind": "queue", "text": "Off your list: 004 roll question \u2014 \u2705 RULED 2026-08-19 in-session: WAKE TERRY after th"}
+{"ts": "2026-08-20T11:08", "kind": "gate", "text": "GATE-TERRY-006 moved live \u2192 retired."}
+{"ts": "2026-08-20T11:08", "kind": "gate", "text": "New gate registered: GATE-CREED-T02 (resolved)."}
+{"ts": "2026-08-20T11:08", "kind": "clock", "text": "New date 2026-08-24: OSPREY durability cluster: OSP-05 legs 3a (reprice) + 3b (R3 resolvability"}

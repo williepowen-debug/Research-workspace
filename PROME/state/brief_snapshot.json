@@ -10,17 +10,18 @@
   "War theaters + housing": "elev"
  },
  "docket": {
-  "2026-08-19": "Section 338 Canada +50% tariffs EFFECTIVE (proclamations 7/20; 232 goods/e",
-  "2026-08-20": "OSPREY Channel-3 (shadow-fleet) kill watch",
+  "2026-08-20": "CFPB complaint re-pull, company=MOHELA",
   "2026-08-21": "\u2605 COT vintage #2 (as-of 8/18, posts Fri 15:30 ET): GATE-BRENT-COT-35B re-r",
   "2026-08-22": "ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, PROME systems ",
-  "2026-08-23": "FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRIVEN SPECIALIST"
+  "2026-08-23": "FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRIVEN SPECIALIST",
+  "2026-08-24": "OSPREY durability cluster: OSP-05 legs 3a (reprice) + 3b (R3 resolvability"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
   "GATE-BRENT-DEPLOY-V2": "RETIRED",
   "GATE-BRENT-SUSTAIN": "RESOLVED",
   "GATE-BRK-C1": "RESOLVED",
+  "GATE-CREED-T02": "RESOLVED",
   "GATE-FALCON-001": "LIVE",
   "GATE-FERT-G3": "LIVE",
   "GATE-FERT-G5": "LIVE",
@@ -34,7 +35,7 @@
   "GATE-OSPREY-001": "LIVE",
   "GATE-RESHAPE-BC": "RESOLVED-FIRED",
   "GATE-SAM-30": "RESOLVED",
-  "GATE-TERRY-006": "LIVE",
+  "GATE-TERRY-006": "RETIRED",
   "GATE-TERRY-007": "LIVE",
   "GATE-TERRY-ARM1": "RESOLVED",
   "GATE-TERRY-ARM2": "RESOLVED",
