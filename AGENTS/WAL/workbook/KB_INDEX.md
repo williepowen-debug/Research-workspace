@@ -1,5 +1,5 @@
 # WAL KB Index — Group Navigator
-**145 rows | 16 groups | Seeded 2026-03-25 | Last refresh 2026-07-25 (Q2 print cycle 106-127 · Form 4/144 insider sweep 128-133 · news/coverage sweep 134-139 · **Q1 10-Q primary pull 140-145** — first WAL-owned ingest)**
+**177 rows | 16 groups | Seeded 2026-03-25 | Last refresh 2026-08-20** (8/20 catch-up **171-177**: two REAL 5%-holder 13Gs [T. Rowe −20.8%, Invesco re-crossed +12.5%] · implied shares −1.7% · Aug insider sweep zero-signal · ★ **first-ever NDFI nonaccrual $122.5M** · dividend · Jefferies countersuit re-verified no-change) · **MI3 first run 164-170 (8/7)** · *(prior header read "145 rows / last refresh 2026-07-25" — 32 rows and two sessions stale; caught in the 8/20 sweep)* | ~~Last refresh 2026-07-25~~ (Q2 print cycle 106-127 · Form 4/144 insider sweep 128-133 · news/coverage sweep 134-139 · **Q1 10-Q primary pull 140-145** — first WAL-owned ingest)**
 
 ---
 
@@ -7,7 +7,7 @@
 
 | # | Group | Rows | IDs | Vector | Key Fact | Research Folder |
 |---|-------|------|-----|--------|----------|----------------|
-| 1 | HIDDEN_CRE | 23 | 001-007, 090-091, 098-099, **108-114, 127, 140-142, 145** | V1 | MI3 24.2% pre-print (**never re-tested — 127**) + Office classified **$407M→$316M Q2** + $946M Office matures 2026 + CRE-NOO charge **$32.0M new 5Q high** + **$99M life-sci letter (B), appraisal pending** + **ACL/NPL 96%** + **0 new migrations (N=1 holds)** | `research/HIDDEN_CRE/`, `sources/q1_2026/Deck Synthesis` |
+| 1 | HIDDEN_CRE | 23 | 001-007, 090-091, 098-099, **108-114, 127, 140-142, 145** | V1 | ★ **MI3 RE-TESTED 8/7 — 12-quarter series, DISCONFIRMED (164-170)**; the pre-print 24.2% reproduces exactly at 12/31/25 = 24.24% + Office classified **$407M→$316M Q2** + $946M Office matures 2026 + CRE-NOO charge **$32.0M new 5Q high** + **$99M life-sci letter (B), appraisal pending** + **ACL/NPL 96%** + **0 new migrations (N=1 holds)** | `research/HIDDEN_CRE/`, `sources/q1_2026/Deck Synthesis` |
 | 2 | SSFA | 11 | 008-013, 092-095, **121** | V3 | Pre-print: $17.2B SSFA / $1.1B savings / $10.8B "Other OBS." Q1: NDFI cohort median (Slide 24); $7.155B warehouse (30x peer); CLN pool $8.5B→$7.9B; Lender Finance structurally protected. **Q2: warehouse/NDFI book SHRINKING by mgmt choice** | `research/SSFA/`, `sources/q1_2026/Deck Synthesis` |
 | 3 | CANTOR_FRAUD | 15 | 014-022, 081-083, **123, 137, 143** | V2 | Pre-print: $98M / $30M reserved vs ZION 83%. Q1: $26.1M charged (89% of $29.6M reserve). **Q2: ZERO call mentions; no new charge; three-figure reconcile RESOLVED ($98.6M revolver / ~$70M residual / $64M protective liens)** | `research/` (RQ-REG-A01), `FRAUD/` |
 | 4 | INSIDER | 14 | 023-029, **128-134** | ALL | CFO swap (JPM FIG crisis banker), board risk additions, zero buying. **Q2 sweep: zero buying CONFIRMED across a complete 53-filing scan · 402/408 lines are mechanical monthly cash-settled-RSU vesting (9 of 11 execs perfectly flat) · Gibbons −40,000sh/−13% and Mucha −5,946sh/−63%, neither on a 10b5-1 plan · ★ Curley post-departure Form 144 $878K with NO Form 4** | `sources/INSIDER_SCAN_WAL.md` (Feb-vintage) + **`sources/INSIDER_SCAN_WAL_2026-07-25.md`** |
@@ -30,7 +30,7 @@
 
 | Vector | Description | Primary Groups | Key KB Rows | Q2 state |
 |--------|-------------|---------------|-------------|---|
-| **V1a** | Hidden CRE (MI3) — the *bear-fast* root | HIDDEN_CRE | 001-007, **127** | **UNTESTED** — falsifier has never run (127) |
+| **V1a** | Hidden CRE (MI3) — the *bear-fast* root | HIDDEN_CRE | 001-007, 127, **164-170** | ✅ **TESTED 2026-08-07 — DISCONFIRMED.** Q1-26 23.88% / Q2-26 21.20%, never ≥25% in 12 quarters. Bear-fast **10%→2%** (v2.4). ⚠️ **127 ("still never run", 7/25) is a DATED record, superseded by 164-170 — do not cite it as current** |
 | **V1b** | Office single-point + CRE-NOO + leading buckets — the *bear-medium* root | HIDDEN_CRE, LEADING_CREDIT, CRE_MACRO | 024, 067-068, 090-091, 096-099, **106-114** | **NARROWED** — broadening disconfirmed (111), residual tail live (110, 112, 113) |
 | **V2** | Jefferies/LAM rail + Cantor/Stupin rail + auditor convergence + sector silence | JEFFERIES, CANTOR_FRAUD, FRAUD_AUDITOR, FRAUD_GENERAL | 014-022, 036-040, 060, 066, 071-089, **123-124, 135-137** | **P&L CLOSED, forward TWO-WAY** — Jefferies COUNTERSUED ~7/1 over a frozen $25M deposit (135) + non-recourse defense (136); Cantor docket identified, low recovery read (137) |
 | **V3** | NDFI/SSFA/CLN/warehouse | SSFA, CAPITAL, NDFI_PC | 008-013, 046, 069, 092-095, 103, **121** | **DISCONFIRMED at aggregate**; lone confirming sub-vector now shrinking (121) |
@@ -62,7 +62,7 @@
 
 | Event | When | Rows to grade against | Resolves |
 |---|---|---|---|
-| **FFIEC Q2 Call Report PDD** | ~Aug window | **127** (+ baseline 001) | V1a MI3 — the never-run primary falsifier, either direction |
+| ~~**FFIEC Q2 Call Report PDD**~~ ✅ **RAN 2026-08-07** | ~~~Aug window~~ | **164-170** (+ baseline 001, superseded 127) | ✅ **V1a MI3 DISCONFIRMED.** Next re-test = **Q3 Call Report ~Oct-Nov** ⚠️ **FFIEC JWT expires 2026-11-05, inside that window** |
 | **$99M life-sci appraisal** | Q3 (mgmt: "we haven't got the appraisal in") | **112** (+ 113 coverage cushion, 110 vintage/reappraisal context) | The bear-medium magnitude leg; a low mark forces charge-down onto the WAL-02 path |
 | **Q3 print + Q3 10-Q** | ~mid-Oct / ~late Oct | **106-118** as the Q2 comparison base | WAL-01 (via 108, 110) · WAL-02 (via 116, 109, 118) · migration N=2 (via 111) · Cantor tie-out (via 123) |
 

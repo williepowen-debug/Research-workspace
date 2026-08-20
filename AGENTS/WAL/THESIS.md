@@ -267,7 +267,7 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 | **24.0-24.9%** | V1 trajectory bending; partial confirmation | V2.1 stands; minor refinement only |
 | **<24%** | V1 plateaued | V2.0's V1-demotion retrospectively justified post-test; bear shifts back toward 30%; V2.2 demotes V1 (this time legitimately) |
 
-CALENDAR.md row added for FFIEC PDD bulk update window with this calibration table.
+⚠️ **CORRECTED 2026-08-20 (core-file sweep): this line previously read "CALENDAR.md row added for FFIEC PDD bulk update window with this calibration table." WAL HAS NO `CALENDAR.md` — the file does not exist and no such row was ever created.** The claim asserted an instrument that never existed, and it sat un-checked through the very window it described. **This is the same class as the Q2 10-Q frame miss: a deadline recorded only in prose nothing executes.** The real instrument is the FFIEC re-test each quarter the Call Report lands (next ~Oct-Nov), tracked on `STATUS.md` §CATALYSTS + the PROME docket ask (proposal P6, still open).
 
 ---
 

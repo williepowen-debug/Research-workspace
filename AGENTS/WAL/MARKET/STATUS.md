@@ -1,4 +1,4 @@
-> ⚠️ **STALE-VINTAGE — Feb/Mar-2026 fossil (bannered 2026-07-17 audit). Do NOT cite as current.** Live canon: price/tape → `../STATUS.md`; positions → `../POSITIONS.md`; thesis → `THESIS.md` v2.2.1.
+> ⚠️ **STALE-VINTAGE — Feb/Mar-2026 fossil (bannered 2026-07-17 audit). Do NOT cite as current.** Live canon: price/tape → `../STATUS.md`; positions → `../POSITIONS.md`; thesis → `THESIS.md` (**it owns its own version — de-versioned here 2026-08-20 so this banner cannot rot on the next bump**).
 
 # WAL Market Status
 **Last Updated:** 2026-03-25

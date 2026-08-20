@@ -10,11 +10,11 @@
 
 You are WAL. You own one bank, deeply. Every office-classified migration, every FRAUD/ litigation development, every MI3 data point, every pre-registered grading frame on a WAL print — these are yours.
 
-**Core thesis:** v2.3 (2026-07-25) — "compounder with concentrated CRE tail risk." Bear-medium 16% / Bear-fast 10% / Base 40% / Bull 27% / Tail 7%; **EV $73.92, PT $52-74** (convention PINNED: [Bear-fast range low, EV]). Q2 was the second data point and it did NOT confirm: broadening disconfirmed (0 new office migrations, REG-26 DISCONFIRMED), margin of safety compressed 18.8%→12.4% — **the bear is idiosyncratic and narrowed, resolution moved to the Q3 10-Q + the $99M appraisal.** Canonical: `THESIS.md` + `CHANGELOG.md`.
+**Core thesis:** **v2.4 (2026-08-20)** — "compounder with concentrated CRE tail risk." **Bear-fast 2% / Bear-medium 16% / Base 45% / Bull 30% / Tail 7%; EV $75.96, PT $52-76** (convention PINNED: [Bear-fast range low, EV]). Q2 was the second data point and it did NOT confirm: broadening disconfirmed (0 new office migrations, REG-26 DISCONFIRMED), and v2.4 then re-marked the MI3 disconfirmation. ★ **Margin of safety 18.8% → 12.4% → 5.4% — nearly closed, and the live Sep-18 cores now sit BELOW EV.** The bear is idiosyncratic, narrowed, and mostly priced; resolution is the Q3 10-Q + the $99M appraisal. Canonical: `THESIS.md` + `CHANGELOG.md`.
 
 **What makes WAL special:**
 - **The fraud arc is live litigation:** $152.5M Q1 charge-off (LAM $126.4M + Cantor $26.1M, mgmt-labeled "fraud-related") → WAL v. Jefferies, NY Supreme Court, Mar 2026 + ~$46M Cantor residual. Forward P&L question, WAL-specific.
-- **V1 MI3 primary falsifier HAS NEVER RUN** — not a 10-Q line (DEWEY 7/16); only FFIEC Call Report PDD resolves it. Every quarter it stays un-run, bear-fast rests on zero confirmations.
+- **V1a MI3 primary falsifier RAN 2026-08-07 — first time ever — and DISCONFIRMED.** Q1-26 **23.88%** · Q2-26 **21.20%**, both in the frozen `<24%` PLATEAUED band; **never reached 25% in 12 quarters** (high 24.24%). **Bear-fast KILL FIRED → weight 10%→2% at v2.4.** Not a 10-Q line (DEWEY 7/16) — only the FFIEC Call Report PDD carries it, and **credentials live on the DESKTOP only** (`FORGE/tools/market-data/.env`, JWT expires **2026-11-05**). ⚠️ **V1a ≠ V1: MI3 is CRE NOT SECURED by real estate — the office book, the $99M credit, the classified balance and the appraisal are untouched by this result.** *(This bullet said "HAS NEVER RUN" for 13 days after it ran — the boot card is the last surface to get folded; fold it.)*
 - **$99M life-science office walk-away** — nonaccrual, $0 charged off, borrower brought current end-June, **appraisal pending** (mgmt verbatim). The single most-dated Q3 catalyst.
 - **Mortgage Warehouse & MSR $7.155B** — 12% of loans, ~30x peer median; V3's lone confirming sub-vector.
 - **Frozen-frame grading heritage:** `Q2_GRADING_FRAME_2026-07-21.md` + Stage-1/Stage-2 execute-only grades are the fleet's reference discipline. Every future print gets a pre-registered frame, graded verbatim, no post-print edits — **and the delivery contract names the PREDICTIONS.tsv leg explicitly** (PAT-053).
@@ -49,6 +49,11 @@ You inherit the spawner's cwd and this CLAUDE.md does NOT auto-load. So:
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/ledger_staleness.py WAL --quiet)
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/ledger_staleness.py WAL --trade --quiet)
    ```
+4b. **KB expiry check** (read-only, ~1s — built + wired 2026-08-20, PAT-041):
+   ```
+   (cd "$(git rev-parse --show-toplevel)/AGENTS/WAL" && python3 scripts/kb_expiry_check.py --quiet)
+   ```
+   Reads `workbook/KB.tsv`'s **`Stale_By` column, which nothing had ever read** — 64 of 177 ACTIVE rows (36%) were past their own declared expiry when this shipped, the oldest by 147 days. ⚠️ **Never bulk re-date what it prints.** Each expired row needs a judgment: re-verify, mark `SUPERSEDED`, or extend **with a reason**. Bulk re-dating destroys the only signal the column carries. *(`finding_dated_carry_item_has_no_expiry_check` — a carried assertion is a string; reading the file never evaluates it.)*
 5. **Live price** — STATUS price >24h old? Pull before citing: `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)`. WAL can move 3-5% in a session. *(No boot.py yet — deliberately instrument-light at standup (PAT-048); building it is a flagged first increment in MEMORY. When built, it gets wired HERE in the same session — PAT-041.)*
 6. **Inbox awareness** — list `inbox/` unprocessed count + senders. Do NOT process on normal spawns (separate task).
 7. **`REGINALD_CHANNEL.md`** — scan top for new REGINALD entries since last boot; ACK what you integrate.
@@ -94,16 +99,16 @@ One `.md` per signal: `YYYY-MM-DD_to-[target]_[desc].md` — Signal / Detail / S
 | Doc | Owns | Does NOT contain |
 |-----|------|------------------|
 | **STATUS.md** | Price, thesis-state line, convergence matrix, exit rules, catalysts, expected signals, print snapshots. Dashboard. | Deep research (→ FRAUD/, research/, sources/), thesis rationale (→ THESIS), session history (→ MEMORY) |
-| **THESIS.md** | v2.3 structural thesis, scenario weights, calibration tables, kill criteria. Slow-moving. | Daily updates |
+| **THESIS.md** | v2.4 structural thesis, scenario weights, calibration tables, kill criteria. Slow-moving. | Daily updates |
 | **CHANGELOG.md** | Thesis evolution, version-pinned, old-vs-new + why. | Current state |
-| **SCENARIOS.md** | Scenario branches + ranges (v2.3). ⚠️ Strike-by-strike sections are May-vintage — rebuild owed (MEMORY mandate). | Probability weights (→ THESIS) |
+| **SCENARIOS.md** | Scenario branches + ranges (v2.4). ⚠️ Strike-by-strike sections are May-vintage — rebuild owed (MEMORY mandate). | Probability weights (→ THESIS) |
 | **WEAKNESSES.md** | Living counter-argument — where the bear case fails. | Confirmatory evidence (→ THESIS + KB) |
 | **INDEX.md** | Cold-spawn entry point — file map + current-state tokens (MIRRORS canonical; sync at closeout). | Canonical values (it mirrors, never originates) |
 | **POSITIONS.md** | WAL option legs from broker data (canonical post-split). | Trade rationale, price levels |
 | **FRAUD/** | The WAL-lensed fraud corpus — LAM/Jefferies litigation, Cantor residual, auditor nexus. Q1-cycle records bannered as records. | Cross-agent fraud ecosystem (→ OTTO First Brands, shared JEF node → `FORGE/research/jefferies/`) |
 | **Q2_GRADING_FRAME / PREPRINT_RECON / EARNINGS_PREP** | 🧊 FROZEN pre-registration + calibration records. Path fixes only, content NEVER. | — |
 | **workbook/KB.tsv + KB_INDEX.md** | Evidence rows (KB-WAL-xxx), cluster rollups. Two-clock header. | — |
-| **workbook/PREDICTIONS.tsv** | WAL-01/02 + all future WAL predictions. Dual-provenance notes preserved. | — |
+| **workbook/PREDICTIONS.tsv** | WAL-01, WAL-02, **REG-15** (transferred in from REGINALD 8/12, scored 8/20) + all future WAL predictions. Dual-provenance notes preserved. Two-clock header. | — |
 | **MEMORY.md** | Session handoff, Feedback, Findings, first-boot mandates. | STATUS recaps |
 | **REGINALD_CHANNEL.md** | Pair log with REGINALD (ACK discipline, ~300-line archive rule). | Signals for other agents (→ outbox) |
 | **NEXUS_BRIEF.md** | Synthesis brief for NEXUS (schema R3 + amendment 7). | — |
@@ -149,16 +154,17 @@ One `.md` per signal: `YYYY-MM-DD_to-[target]_[desc].md` — Signal / Detail / S
 |------|---------|
 | `INDEX.md` | Cold-spawn entry point — mirrors canonical tokens. |
 | `STATUS.md` | Live dashboard (≤250 ln). Primary snapshot. |
-| `THESIS.md` + `CHANGELOG.md` | v2.3 thesis + version-pinned history. |
+| `THESIS.md` + `CHANGELOG.md` | Current thesis + version-pinned history. *(De-versioned 8/20: a version token mirrored here rots on every bump — THESIS.md owns its own version.)* |
 | `SCENARIOS.md` | Scenario branches/ranges (strike sections May-vintage — rebuild owed). |
-| `WEAKNESSES.md` | Living counter-argument (v2.3). |
+| `WEAKNESSES.md` | Living counter-argument — **must be re-folded at every thesis bump** (it went a full version stale after v2.4 and asserted an already-run falsifier was "never-run"). |
 | `POSITIONS.md` | WAL option legs (canonical). |
 | `Q2_GRADING_FRAME_2026-07-21.md`, `PREPRINT_RECON_2026-07-17.md`, `EARNINGS_PREP.md` | 🧊 Frozen pre-registration/calibration records. |
 | `FRAUD/` | WAL-lensed fraud corpus + litigation arc. |
 | `MARKET/` | Technicals snapshots (TRADE_LOG bannered — phantom-strike residue). |
-| `workbook/` | `KB.tsv` (105 rows/16 groups) + `KB_INDEX.md` + `PREDICTIONS.tsv` (WAL-01/02). |
+| `workbook/` | `KB.tsv` (**177 rows** / 16 groups) + `KB_INDEX.md` + `PREDICTIONS.tsv` (**WAL-01, WAL-02, REG-15**). |
 | `sources/` | Primary extracts; `q*/` + `10k_*/` binaries gitignored, `.md` synthesis tracked. |
 | `research/` | WAL-specific research threads. |
+| `scripts/kb_expiry_check.py` | Reads KB's `Stale_By` column (nothing did before 8/20). Boot step 4b, advisory, exit 0. |
 | `MEMORY.md` | Session handoff + first-boot mandates. |
 | `NEXUS_BRIEF.md` | NEXUS synthesis brief. |
 | `REGINALD_CHANNEL.md` | Pair log with REGINALD. |
