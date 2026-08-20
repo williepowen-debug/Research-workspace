@@ -26,8 +26,10 @@ USAGE
 -----
     python3 monitors/boot_recompute.py
 
-Prints a stamped block for pasting/checking against STATUS. rc 0 always
-(advisory); rc 2 on fetch failure, which is NOT a pass.
+Prints a stamped block for pasting/checking against STATUS, plus TRADE.md's
+gate table and a drift check on the boot-unread surfaces.
+rc 0 clean; rc 1 unguarded drift found (NOT a pass); rc 2 fetch failure
+(also NOT a pass).
 """
 from __future__ import annotations
 
@@ -57,6 +59,107 @@ def bust_cache() -> int:
         except OSError:
             pass
     return n
+
+
+# ---------------------------------------------------------------------------
+# UNREAD-SURFACE DRIFT CHECK  (added 2026-08-20, Will-approved)
+#
+# WHY: the 8/20 core-file sweep found every stale cluster living in TRADE.md,
+# monitors/*.md and NEXUS_BRIEF.md -- the three surfaces the BOOT protocol does
+# NOT read. STATUS is checked every boot and was nearly clean; the unread files
+# rotted for weeks. The worst instance: TRADE.md described the ONLY live
+# add-gate as "6bp away and closing" when DFII10 had backed off to 9bp and was
+# WIDENING -- a decision number, pointing the wrong way, on the trade surface.
+#
+# This is wired into the TOOL rather than added as a boot instruction because
+# the conditional steps ("update TRADE.md if state changed") are self-assessed,
+# and today proved they get skipped. Detection was never the gap; invocation was.
+# ---------------------------------------------------------------------------
+
+GUARD = ("supersed", "was \"", "until 8/", "corrected", "retract", "prior",
+         "historical", "re-pin", "8/18 block", "read \"", "no longer", "stale",
+         "deliberately not", "→ `status.md`", "hand-derived", "not carried here")
+
+ALIAS = {"DFII10": ("DFII10", "10Y real"), "DGS30": ("DGS30", "30Y"),
+         "DGS10": ("DGS10", "10Y"), "DGS2": ("DGS2", "2Y")}
+
+
+def _floats(text):
+    import re
+    return [float(x) for x in re.findall(r"(?<![\d.])\d+\.\d+(?![\d])", text)]
+
+
+def check_unread_surfaces(series) -> int:
+    """Print TRADE.md's gate table and flag drift on boot-unread surfaces."""
+    import re
+    here = Path(__file__).resolve().parent.parent
+    findings = 0
+
+    # --- 1. THE GATE TABLE: print it, so it is actually READ at boot.
+    trade = here / "TRADE.md"
+    print("\n== GATE TABLE  (TRADE.md — printed here because boot never reads that file) ==")
+    if not trade.exists():
+        print("   ⚠️  TRADE.md not found"); return 1
+    lines = trade.read_text(encoding="utf-8").splitlines()
+    rows = [l for l in lines if re.match(r"\s*\|\s*\*{0,2}\(?[a-d]\)", l)]
+    if not rows:
+        print("   ⚠️  no gate rows matched — table renamed or restructured? CHECK MANUALLY.")
+        findings += 1
+    for l in rows:
+        flat = re.sub(r"\s+", " ", l).strip()
+        print("   " + (flat[:150] + ("…" if len(flat) > 150 else "")))
+
+    # --- 2. DRIFT: an unguarded hardcoded LEVEL for the metric a gate row is about.
+    #     Threshold-vs-mark discriminator: a number preceded by a comparator
+    #     (>, <, >=, <=, above, below) IS the gate's own threshold and is never a
+    #     drift candidate. A number introduced by the metric name or a bracket is
+    #     a MARK, and marks do not belong on a posture surface at all.
+    for l in rows:
+        low = l.lower()
+        if any(g in low for g in GUARD):
+            continue
+        # each gate row is about ONE metric: the alias appearing earliest in it
+        hits = []
+        for sid in ("DFII10", "DGS30", "DGS10", "DGS2"):
+            for a in ALIAS[sid]:
+                i = low.find(a.lower())
+                if i >= 0:
+                    hits.append((i, sid))
+        if not hits:
+            continue
+        sid = min(hits)[1]
+        if sid not in series:
+            continue
+        live = series[sid][-1][1]
+        for m in re.finditer(r"(?<![\d.])(\d+\.\d+)(?![\d])", l):
+            before = l[max(0, m.start() - 12):m.start()]
+            if re.search(r"(>=|<=|>|<|\u2265|\u2264|above|below|over|under)\s*$", before, re.I):
+                continue                       # a THRESHOLD, by construction
+            f = float(m.group(1))
+            if abs(f - live) < 5e-3:
+                continue                       # already correct
+            if abs(f - live) <= 0.60:          # in-band => reads as a level for this metric
+                print(f"\n   \U0001F534 GATE DRIFT — TRADE.md carries a {sid} MARK of {f}; "
+                      f"live is {live} [{series[sid][-1][0]}]")
+                print(f"      {re.sub(r'  +', ' ', l).strip()[:150]}")
+                findings += 1
+
+    # --- 3. FROZEN-VINTAGE CLAIMS: "X is the freshest print" naming a stale date.
+    newest = max(obs[-1][0] for obs in series.values())
+    for f in sorted(list((here / "monitors").glob("*.md")) + [here / "NEXUS_BRIEF.md", trade]):
+        for i, l in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+            if not re.search(r"freshest (confirmed )?print|is the freshest|no \S+ exists yet", l, re.I):
+                continue
+            if any(g in l.lower() for g in GUARD):
+                continue
+            print(f"\n   🔴 FROZEN VINTAGE — {f.name}:{i} names a fixed 'freshest print'; "
+                  f"newest actual observation is {newest}")
+            print(f"      {re.sub(r'  +', ' ', l).strip()[:150]}")
+            findings += 1
+
+    if findings == 0:
+        print("\n   ✅ no unguarded drift on TRADE.md / monitors / NEXUS_BRIEF")
+    return findings
 
 
 def main() -> int:
@@ -122,8 +225,14 @@ def main() -> int:
         print(f"   {sid:8} {cv:>6.2f}  full {p_full:5.1f}th (n={len(v):,}, from {obs[0][0]})"
               f"   post-2010 {p_post:5.1f}th")
 
+    drift = check_unread_surfaces(series)
+
     print("\n⚠️  Paste-check these against STATUS. Any figure on a BOND surface that is NOT")
     print("    in this block, or disagrees with it, is a CARRIED figure — recompute or drop it.")
+    if drift:
+        print(f"\n[boot_recompute] rc=1 — {drift} unguarded drift finding(s) on boot-unread "
+              f"surfaces. NOT a pass: fix by PATTERN across the tree, never by the line list above.")
+        return 1
     return 0
 
 
