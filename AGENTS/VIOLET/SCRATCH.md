@@ -45,7 +45,8 @@
 4. 🟠 **RISING-VOL DESIGN (Option 1) — mechanically RESUMED, not merely owed** (KB-VIO-200). Specify it against the live case: a front-led bid with **no** VVIX, MOVE or term-structure confirmation.
 5. 🟠 **Decide the VIX9D/VIX ratio's registration status.** +20.7% in 4 sessions toward a line I own (1.0 = peak-marker, KB-VIO-034) **with no registered threshold.** Base-rate it first or state plainly that it stays unregistered — do not let it become a de-facto trigger by repetition.
 6. 🟠 **Make CBOE PRIMARY in code** for the VX_DAILY spot series. Done by hand twice now.
-7. 🟡 **Top-level inbox: 9 files** (2 DAEDALUS 8/17, BOND 8/20 re-sending a 76-day orphaned ask). MAIL rule = separate spawn.
+7. ⛔ **BIN-A re-base: DO NOT RE-ADD IT.** It is **not** awaiting Will and never was — my own 8/04 ~22:00 return-leg packet withdrew the proposal (p=0.27 on 29.6 years, *"nothing to register"*) and PROME's DOCKET row 48 recorded it RESOLVED 8/05. **It survived 16 days on my queue purely by being copied forward.** If a future session finds it back on a VIOLET surface, that is a propagation bug, not a live item.
+8. 🟡 **Top-level inbox: 9 files** (2 DAEDALUS 8/17, BOND 8/20 re-sending a 76-day orphaned ask). MAIL rule = separate spawn.
 
 ---
 

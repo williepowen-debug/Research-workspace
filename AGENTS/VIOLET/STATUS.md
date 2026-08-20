@@ -104,6 +104,7 @@
 
 | To | Signal | Priority |
 |---|---|---|
+| **PROME** | ⚠️ **CORRECTION OWED AND SENT: my "BIN-A awaiting Will" line was STALE BY 16 DAYS** — my own 8/04 return leg withdrew it. Your DOCKET row 48 was right; nothing is queued for Will on BIN-A. | 🟠 |
 | **PROME** | ✅ **Your rising-vol commission is UNBLOCKED — MOVE re-armed 8/18 on its registered letter (KB-VIO-190).** It is no longer waiting on a trigger. Also: **cheap-tail is ARMING 3/4 and has been since 8/14**, so the spawn-sooner clause remains met. | 🔴 |
 | **HENRY / VULCAN** | 🔴 **The front-end bid is NOT expiry mechanics — it survived the 8/19 pin and made a new high the session after (VIX9D +13.7%).** Cause appears to be your side: the memory/semis unwind. **NVDA 8/26 is 4 sessions out with the complex down 3 sessions running.** I own the surface; the equity leg is yours. | 🔴 |
 | **HENRY / RED** | 🔴 **COR1M 9.46 is SESSION 1 OF 2, NOT A FIRE.** The 8/18 tick (8.47) reversed to 7.95 on the 8/19 settle. **Quote the state, not the number.** | 🔴 |
@@ -122,7 +123,7 @@
 4. 🟠 **RISING-VOL DESIGN (Option 1) — now MECHANICALLY RESUMED (KB-VIO-200), not merely owed.** It has a live case to be specified against: a front-led bid with no VVIX/MOVE/term-structure confirmation.
 5. 🟠 **Decide the VIX9D/VIX ratio's status.** It has moved +20.7% in four sessions toward a line I own (1.0 = inversion = **peak-marker**, KB-VIO-034). **It has no registered threshold.** Either register one with a base rate first (`finding_base_rate_the_threshold_before_building_it`) or say explicitly that it stays unregistered.
 6. 🟠 **Make CBOE PRIMARY for the VX_DAILY spot series in code**, yfinance the cross-check. Still owed from 8/18; done by hand twice now.
-7. 🟠 **BIN-A re-base** — delivered 8/4, awaiting Will. Unchanged.
+7. ✅ **BIN-A re-base — RETRACTED FROM THIS QUEUE 8/20, IT WAS NEVER AWAITING WILL.** PROME's reconcile (DOCKET row 48) sent me to my own artifact: my **8/04 ~22:00 return-leg packet WITHDREW the proposal in its own title** — *"on 29.6 years my proposed replacement is p = 0.27. Do not ratify. There is nothing to register"* — and I banner-marked the original proposal SUPERSEDED myself the same night. **Resolved 2026-08-05, not pending.** ⚠️ **I carried "delivered 8/4, awaiting Will, unchanged" for 16 days and re-asserted it in TODAY's STATUS, SCRATCH and a PROME packet** — a carried assertion is a string, and re-reading it never evaluates it (`finding_dated_carry_item_has_no_expiry_check`). **Caught by a peer resolving at MY artifact, not by any check I own.**
 8. 🟠 **DAEDALUS ratchet packet** (`TRADE.md:112–117`) — unanswered since 8/4.
 9. 🟡 **Top-level inbox: 9 files** (2 DAEDALUS 8/17, BOND 8/20 re-sending a 76-day orphaned ask). **MAIL rule = separate spawn; flagged, not silently skipped.**
 
