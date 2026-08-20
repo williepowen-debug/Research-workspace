@@ -2,6 +2,13 @@
 """MI3 (hidden-CRE) cohort screen — FFIEC CDR REST/JWT, RetrieveFacsimile/SDF.
 
 ================================ RUNBOOK ================================
+⚠️  READING THIS RUNBOOK: every FIGURE below is a DATED SNAPSHOT (2026Q2 unless
+    stated); every RULE is permanent. A runbook is a teaching surface, and a
+    teaching surface ages like data - its authority is exactly what stops anyone
+    freshness-checking the numbers inside it. Trust the rules; RE-MEASURE the
+    figures each run. (Labelled 2026-08-20 after LESSONS.md was found teaching
+    a WAL NDFI figure that had quadrupled while its rule stayed correct.)
+    [[finding_a_teaching_surface_ages_like_data]]
 WHAT THIS MEASURES
   Numerator  RCON/RCFD 2746 — "Loans to finance commercial real estate,
   construction, and land development activities (NOT secured by real estate)
@@ -11,13 +18,18 @@ WHAT THIS MEASURES
     v1  (LEGACY, continuity only) : MI3 / item 4
     v1a (UNIFORM, cross-bank)     : MI3 / (item 4 + item 9) = the numerator's
                                     OWN stated parent per its FFIEC label.
-  Item-9 share of the base ran 5.5%–65.8% across this cohort at 2026Q2, so v1
-  is NOT cross-bank comparable. See finding_normalization_choice_picks_opposite_winners.
+  Item-9 share of the base ran 5.5%-65.8% across this cohort [MEASURED 2026Q2 -
+  a DATED SNAPSHOT, re-measure each run], so v1 is NOT cross-bank comparable.
+  ⚠️ THE RULE IS PERMANENT ("v1 is not cross-bank comparable"); THE RANGE IS DATA.
+  See finding_normalization_choice_picks_opposite_winners.
 
   AND THE DOLLARS. A ratio screen structurally cannot see a book migrating
   up-cap: at 2026Q2 MTB held the cohort's LARGEST absolute MI3 book ($4.95B)
   at an unremarkable ratio, because its C&I denominator is huge. mi3_k and
   mi3_yoy_pct are therefore FIRST-CLASS OUTPUT, not an optional derivation.
+  ⚠️ "$4.95B / MTB" IS A 2026Q2 SNAPSHOT, NOT A STANDING FACT - the largest
+  absolute book may be a different bank next run. The RULE (report dollars, a
+  ratio screen cannot see an up-cap migration) does not depend on which name.
 
 ⚠️  V1a != V1 FENCE. MI3 is CRE *not secured by RE*. Secured books (WAL office
     + the $99M life-science credit, OZK RESG) are a DIFFERENT OBJECT and are
