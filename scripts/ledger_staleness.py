@@ -18,6 +18,19 @@ Usage:
   python3 scripts/ledger_staleness.py REGINALD --quiet   # print only when stale
   python3 scripts/ledger_staleness.py REGINALD --glob 'workbook/*.tsv'  # custom location
 
+Staleness-cadence modes (Will-approved 2026-08-20 — design/2026-08-11_STALENESS_CADENCE_PROPOSAL.md;
+all three ADDITIVE, default output byte-identical without the flags):
+  python3 scripts/ledger_staleness.py <NAME> --nudge      # (b) closeout nudge: ONE advisory line
+        if STATUS is moving this session while a live ledger sits >=1 STATUS-write behind.
+        Thresholdless; rc 0 no-gap / 1 nudged / 2 cannot-certify. Root-canon closeout step.
+  python3 scripts/ledger_staleness.py --all --writes      # (a) activity-denominated backstop:
+        staleness in STATUS-commits-since-ledger-commit, flag at --writes-bar (default 12).
+        Sprints can't hide a gap; idle agents don't false-flag. First fleet pass = CANDIDATES
+        not defects (owners confirm real cadence) at Staleness Sweep #4 ~9/1.
+  python3 scripts/ledger_staleness.py --all --abs-floor   # (c) absolute floor: flag any live
+        ledger whose CONTENT vintage exceeds --abs-days (default 90) regardless of the relative
+        delta — the PAT-092 counter (a stalled agent freezes the relative clock).
+
 Per-agent glob declaration (2026-07-31, DAEDALUS TERRY-S1 fix, Will-approved):
 an agent whose ledgers live outside workbook/*.tsv declares them in
 AGENTS/<NAME>/workbook/LEDGER_GLOB — whitespace-separated globs relative to the
@@ -109,6 +122,55 @@ def content_time(path):
     except (OSError, ValueError):
         pass
     return None
+
+
+def git_last_commit(path):
+    """Last commit hash for path, or None."""
+    try:
+        out = subprocess.run(
+            ["git", "-C", REPO, "log", "-1", "--format=%H", "--", path],
+            capture_output=True, text=True, timeout=10,
+        ).stdout.strip()
+        return out or None
+    except Exception:
+        return None
+
+
+def status_writes_since(agent_dir, ledger):
+    """STATUS-commits-since-ledger-commit — the activity-denominated staleness unit
+    (staleness-cadence proposal (a), Will-approved 2026-08-20). None if the ledger
+    has never been committed (cannot anchor the count)."""
+    anchor = git_last_commit(ledger)
+    if anchor is None:
+        return None
+    status = os.path.join(agent_dir, "STATUS.md")
+    try:
+        out = subprocess.run(
+            ["git", "-C", REPO, "log", "--oneline", f"{anchor}..HEAD", "--", status],
+            capture_output=True, text=True, timeout=10,
+        ).stdout
+        return len([l for l in out.splitlines() if l.strip()])
+    except Exception:
+        return None
+
+
+def status_moved_this_session(agent_dir):
+    """True if STATUS.md is dirty in the working tree OR its last commit is today —
+    the (b)-nudge's 'STATUS moving' condition (fires where the gap is created)."""
+    status = os.path.join(agent_dir, "STATUS.md")
+    try:
+        dirty = subprocess.run(
+            ["git", "-C", REPO, "status", "--porcelain", "--", status],
+            capture_output=True, text=True, timeout=10,
+        ).stdout.strip()
+        if dirty:
+            return True
+    except Exception:
+        pass
+    t = git_time(status)
+    if t is None:
+        return False
+    return datetime.date.fromtimestamp(t) == datetime.date.today()
 
 
 def file_time(path):
@@ -332,9 +394,11 @@ def resolve_agent_dir(arg):
     return cand if os.path.isdir(cand) else None
 
 
-def scan_agent(agent_dir, days, glob_pats, strict=False):
+def scan_agent(agent_dir, days, glob_pats, strict=False, writes=False, writes_bar=12,
+               abs_floor=False, abs_days=90):
     name = os.path.basename(agent_dir.rstrip("/"))
     status_t = file_time(os.path.join(agent_dir, "STATUS.md"))
+    now = datetime.datetime.now().timestamp()
     rows = []
     matched = []
     for gp in glob_pats:
@@ -345,14 +409,59 @@ def scan_agent(agent_dir, days, glob_pats, strict=False):
         exempt = (not strict) and is_exempt(led)
         age = (status_t - t) / 86400.0 if (status_t and t) else None
         stale = (not frozen) and (not exempt) and age is not None and age > days
+        live = not frozen and not exempt
+        # (a) activity-denominated unit: STATUS-writes since the ledger's commit.
+        wb = status_writes_since(agent_dir, led) if (writes and live) else None
+        stale_w = writes and live and wb is not None and wb >= writes_bar
+        # (c) absolute floor: content vintage beats the relative delta (PAT-092 counter).
+        abs_age = (now - t) / 86400.0 if (abs_floor and live and t) else None
+        stale_a = abs_floor and live and abs_age is not None and abs_age > abs_days
         rows.append({
             "file": os.path.relpath(led, REPO),
             "frozen": frozen,
             "exempt": exempt,
             "age_d": age,
-            "stale": stale,
+            "stale": stale or stale_w or stale_a,
+            "writes_behind": wb,
+            "stale_writes": stale_w,
+            "abs_age_d": abs_age,
+            "stale_abs": stale_a,
         })
     return name, status_t, rows
+
+
+def nudge(agent_dir, name):
+    """(b) pre-commit nudge (staleness-cadence proposal, Will-approved 2026-08-20):
+    thresholdless — if STATUS is moving this session and any live ledger is >=1
+    STATUS-write behind, print ONE line naming the worst. rc: 0 no-gap · 1 nudged ·
+    2 cannot-certify. Advisory by design (the line is the deliverable); it fires at
+    the moment the gap is created, which is the PAT-095 lesson."""
+    decl = read_ledger_glob(agent_dir)
+    pats = decl if decl is not None else ["workbook/*.tsv"]
+    matched = []
+    for gp in pats:
+        matched.extend(glob.glob(os.path.join(agent_dir, gp)))
+    live = [l for l in sorted(set(matched)) if not is_frozen(l) and not is_exempt(l)]
+    if not live:
+        print(f"nudge: [{name}] no live ledgers under {' '.join(pats)} — nothing to nudge (scope stated, not silent)")
+        return 0
+    if not status_moved_this_session(agent_dir):
+        print(f"nudge: [{name}] STATUS not moving this session — no gap being created")
+        return 0
+    behind = []
+    for l in live:
+        wb = status_writes_since(agent_dir, l)
+        if wb is not None and wb >= 1:
+            behind.append((wb, l))
+    if not behind:
+        print(f"nudge: [{name}] STATUS moving WITH its ledgers — clean ({len(live)} live ledger(s) checked)")
+        return 0
+    behind.sort(reverse=True)
+    wb, worst = behind[0]
+    more = f" (+{len(behind)-1} more behind)" if len(behind) > 1 else ""
+    print(f"⚠️  nudge: [{name}] STATUS moving without ledgers — {os.path.basename(worst)} now "
+          f"{wb} STATUS-write(s) behind{more}: freeze-or-refresh, or say why not in the commit")
+    return 1
 
 
 def fmt_age(age):
@@ -371,7 +480,14 @@ def report(name, status_t, rows, quiet):
         return 0
     if quiet:
         # One-line boot alert.
-        flags = ", ".join(f"{os.path.basename(r['file'])} ({fmt_age(r['age_d']).strip()} behind)" for r in stale)
+        def _why(r):
+            bits = [f"{fmt_age(r['age_d']).strip()} behind"]
+            if r.get("stale_writes"):
+                bits.append(f"{r['writes_behind']}w")
+            if r.get("stale_abs"):
+                bits.append(f"ABS {r['abs_age_d']:.0f}d")
+            return f"{os.path.basename(r['file'])} ({', '.join(bits)})"
+        flags = ", ".join(_why(r) for r in stale)
         print(f"⚠️  [{name}] {len(stale)} stale ledger(s) behind STATUS: {flags}")
         return len(stale)
     # In non-quiet mode hide exempt-and-fresh-looking noise unless they'd be stale.
@@ -390,7 +506,12 @@ def report(name, status_t, rows, quiet):
             tag = "⚠️ STALE"
         else:
             tag = "ok"
-        print(f"  {tag:<8} {fmt_age(r['age_d'])}  {os.path.relpath(r['file'])}")
+        extra = ""
+        if r.get("writes_behind") is not None:
+            extra += f"  {r['writes_behind']:>3}w"
+        if r.get("abs_age_d") is not None:
+            extra += f"  abs {r['abs_age_d']:>4.0f}d"
+        print(f"  {tag:<8} {fmt_age(r['age_d'])}{extra}  {os.path.relpath(r['file'])}")
     if stale:
         print(f"  → {len(stale)} stale: freeze (add 'FROZEN <date> — ...' banner) or refresh at closeout.")
     return len(stale)
@@ -405,7 +526,22 @@ def main():
     ap.add_argument("--trade", action="store_true", help="scan trade/position surfaces (TRADE.md / trade/TRADE.md / TRADE_BOOK.md / POSITIONS.md) instead of workbook/*.tsv")
     ap.add_argument("--quiet", action="store_true", help="print only agents with stale ledgers (one line each)")
     ap.add_argument("--strict", action="store_true", help="disable by-name exemptions (schema/archive/backup/history/etc.)")
+    ap.add_argument("--nudge", action="store_true", help="(b) closeout nudge: one advisory line if STATUS is moving this session while ledgers sit >=1 STATUS-write behind (single agent only; thresholdless)")
+    ap.add_argument("--writes", action="store_true", help="(a) also measure staleness in STATUS-commits-since-ledger-commit; flag at --writes-bar (activity-denominated — sprints can't hide, idle agents don't false-flag)")
+    ap.add_argument("--writes-bar", type=int, default=12, help="writes-behind flag threshold for --writes (default 12)")
+    ap.add_argument("--abs-floor", action="store_true", help="(c) also flag any live ledger whose absolute content vintage exceeds --abs-days regardless of the relative delta (PAT-092 counter)")
+    ap.add_argument("--abs-days", type=int, default=90, help="absolute-age floor in days for --abs-floor (default 90)")
     args = ap.parse_args()
+
+    if args.nudge:
+        if args.all or not args.agent:
+            print("error: --nudge takes a single agent (it is a closeout step, not a sweep)", file=sys.stderr)
+            return 2
+        d = resolve_agent_dir(args.agent)
+        if not d:
+            print(f"error: agent dir not found for '{args.agent}'", file=sys.stderr)
+            return 2
+        return nudge(d, os.path.basename(d.rstrip("/")))
 
     cli_glob_explicit = args.glob != ap.get_default("glob")
 
@@ -443,7 +579,9 @@ def main():
                 pats = decl
             else:
                 pats = [args.glob]
-        name, status_t, rows = scan_agent(d, args.days, pats, strict=args.strict)
+        name, status_t, rows = scan_agent(d, args.days, pats, strict=args.strict,
+                                          writes=args.writes, writes_bar=args.writes_bar,
+                                          abs_floor=args.abs_floor, abs_days=args.abs_days)
         if not args.trade and not rows:
             warnings += report_unmatched(d, name, pats, decl, args.quiet)
             continue

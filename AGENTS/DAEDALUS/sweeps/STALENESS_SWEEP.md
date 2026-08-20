@@ -50,6 +50,10 @@ Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold).
 >
 > **Everything else stays gated:** live-agent surfaces are **routed, never direct-edited**; `ledger_staleness.py` patches need approval. **If idle-verification is ambiguous, fall back to surface-for-approval — do not freeze on a maybe.** *(This pre-grant covers "permission" for the bounded class; the per-action idle guard still runs — PAT-036.)*
 
+### 3b. Run #4 SCOPE ADD (Will-approved 2026-08-20 — staleness-cadence proposal rollout step 3; registered here so the ~9/1 session inherits it regardless of who runs)
+- Run the **(a)+(c) CANDIDATES pass**: `--all --writes` and `--all --abs-floor` beside the default pass. **CANDIDATES, not defects** (PROME 8/4 item 2 verbatim): a flagged ledger is a prompt for the OWNER to confirm its real cadence — route per-owner notes, never freeze on the writes/abs read alone. Seed context: the 8/4 backlog framing measured ~32 ledgers ≥12 STATUS-writes behind.
+- The (b) nudge is NOT sweep work — it's the per-agent closeout line (root canon, PROME landing it); the sweep only spot-checks that the line exists in root canon by run #4's date.
+
 ### 4. Record (close the loop)
 - Update `sweeps/REGISTRY.tsv` → `last_run` + `last_findings`.
 - Append a row to the Run Log below.
