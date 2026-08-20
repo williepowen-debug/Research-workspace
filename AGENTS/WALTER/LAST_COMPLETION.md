@@ -1,68 +1,68 @@
 # WALTER — LAST COMPLETION
 
-**Session:** 2026-08-19 (Wed), ALL-DAY ~15h. Boot 02:4xZ on Will-Telegram *"Hi Walter please boot up. I have some signals I want to share."* → **Tier-2 FULL closeout ~18:0xZ.**
+**Session:** 2026-08-19 Wed **EVENING (SESSION 2)** — boot 18:0xZ on Will-Telegram *"Hi Walter please boot up"*, ~1h after the all-day session's own Tier-2 closed. **Closed Tier-2 FULL ~00:2xZ on Will's "okay lets have you close out here."**
 
 ## STATUS
-🟢 **GREEN. Doctor 0 HIGH / 0 MED.** BOARD **769**. Push 0 ahead / 0 behind. `board_reconcile` green (ToC = sections = files = TOTAL). Memory index check PASS.
+🟢 **GREEN.** Doctor **0 HIGH / 0 MED** at boot AND at close. **BOARD 780**, reconciles (ToC = sections = files = TOTAL). route_log reconciles. Push **0 ahead / 0 behind**.
 
 ## CHANGED
-**BOARD 746 → 769 = 23 DISPATCH / 1 KILL / 128 handoffs / 3 declared batches, all closed complete (8/8 · 4/4 · 10/10).** Biggest dispatch day on record.
-**5 Trepp primaries archived** → `AGENTS/WALTER/sources/` (Apr/May/Jun/Jul delinquency + Jul special servicing).
-**Shipped:** `walter_doctor` **check #27** (`action_line_rule`) · **CREED registry into boot 6b/6c** · **dispatch step 10.7** (axis sweep) · **sub-step labels qualified** (`12(a)`…`12(f)`, `7e(a)`…`7e(f)`) · **CARL-DR-1 re-anchored** 8/18 → 9/18 with anchor type named.
-**Memory:** 2 new (`finding_instrument_reports_clean_against_the_wrong_reference`, `finding_option_menu_omitting_the_owners_choice_reads_as_silence`) + 1 extended to n=9 (`finding_record_of_an_action_is_not_the_action`, DATA-SERIES limb). Indexed, committed, check passes.
+**BOARD 769 → 780 = 11 DISPATCH / 5 kill-log rows / 33 handoffs / 4 declared batches, all closed.**
+`-024` carry rotation · `-025` EIA wk-8/14 · `-026` subprime auto date defect · `-027` SEC/Tricolor · `-028` OBDC PIK letter · `-029` **PROME-origin FOMC archive + WALTER §5 addendum** · `-030` Treasury primary + YCC-vs-liquidity · `-031` **a second SKEW** · `-032` FT/Apollo First Brands · `-033` equity premium ≠ valuations · `-034` buyback+bills is a synthesis.
+**REGISTRY:** 2 rows (WALTER self · DAEDALUS). **STATUS:** lead + BOTTOM LINE + NETWORK AWARENESS + live levels all regenerated; **32,616 B against the 48,000 cap — no rotation owed.**
 
 ## RESULT
-**`CREED-T-02`'s sustain condition is MET and DATED to the JUNE report (~6 weeks unfired).** Apr 42 ❌ · May 70 · Jun 65 · Jul 66 ✅ vs band >50, sustain 2. **WALTER did not declare the fire across 4 signals and 5 primaries — CREED owns it.**
-**Treasury doubled long-end buybacks** — 30Y −8bp, T-1 against `TRY-FIRE-004` (30× TLT Sep-30 77P) and TBT.
-**Two routing defects self-found and fixed**; Will approved four fixes, three shipped, one routed to DAEDALUS.
+**The two highest-value inputs were primaries Will supplied, and both changed an answer.** The Treasury release text closed the `PUBLIC-AND-UNFETCHED` gap `-015` had *declared open* that morning — every figure held — and reading it surfaced what no wire carried: **Treasury calls the operation "liquidity support" and cites "consistent STRONG sponsorship"; El-Erian calls it YCC. Opposite premises about demand; both cannot be the motive.** The curve move was **monotonic by maturity (2Y −0.9 → 20Y −8.3, no inversion)** — which rules out the null without establishing YCC.
+**`-024` is the sharpest refutation:** both headline claims about the JPY→CHF carry rotation VERIFY at the CFTC primary, and the story still fails on arithmetic — **yen short −48,920 contracts in two weeks, franc short +1,785 = 3.6%.**
 
 ---
 
 # 🔵 FOR WILL — the running list, in plain language
 
-*Rewritten this closeout at Will's request. Previous versions were written for WALTER and assumed context. **Rule: if an item needs Will, it is in §A. Everything else is somebody else's or a clock's.***
+## A. NEEDS WILL — **nothing.** No decision is blocked.
 
-## A. NEEDS WILL — **nothing.**
-**There is no decision waiting on you.** The four fixes you approved today are shipped or routed. Nothing is blocked.
+## B. WAITING ON ANOTHER DESK — 5 items, none blocking *(one CLEARED tonight)*
 
-## B. WAITING ON ANOTHER DESK — 7 items, none blocking
+| # | Who | What | Live? |
+|---|---|---|---|
+| 1 | **CREED** | Rule on `CREED-T-02` (met since the June report, ~6wks; five primaries in its hands). Also: does it want a WALTER-side fire ledger? | 🔴 **dark 6d — CONFIRMED tonight by author-checking the commit log, because its directory showed 8 same-day commits that were all mine** |
+| 2 | **DAEDALUS** | Fleet trigger-registry question (only 3 desks machine-readable) | 🟢 live — named READ-NOT-STARTED so it cannot rot silently |
+| 3 | **RED** | `^SKEW` grading basis — **now more urgent: a SECOND SKEW exists as of `-031`** | 🟡 |
+| 4 | **SAM** | EM-carry scope — a refusal is a clean answer | 🟡 |
+| 5 | **BRENT / FALCON** | Transit-instrument disposition + the six-value baseline | 🟡 |
 
-| # | Who | What | What would resolve it | Live? |
-|---|---|---|---|---|
-| 1 | **CREED** | Rule on `CREED-T-02` — the arithmetic, the dating and five source PDFs are in its hands | Its ruling. Also: does it want a WALTER-side fire-ledger? | 🔴 **dark 6d, and it holds a MET condition + the 9bp gate** |
-| 2 | **DAEDALUS** | The fleet gate-registry question (only 3 desks machine-readable) | Its answer — it has named the packet READ-NOT-STARTED so it can't rot | 🟢 live tonight |
-| 3 | **DAEDALUS** | FERT charter + benchmark row (older item) | One edit landing both together | 🟢 live — ⚠️ **BUT NOTHING IS WAITING IN ITS INBOX: all three asks (PROME ×2, WALTER 8/18) are in `processed/`. It has READ them and the deliverable is outstanding. A consumed ask generates NO boot-time prompt, so this is tracked HERE and nowhere in DAEDALUS's own boot path.** Not re-sent — a duplicate into a live desk mid-work is noise. |
-| 4 | **RED** | Is `^SKEW` re-crossing 140, and what is the grading basis? | One ruling | 🟡 |
-| 5 | **SAM** | EM-carry scope — a refusal is a clean answer | One line | 🟡 |
-| 6 | **HANS** | Does it take the UK/gilts leg? If no, reverts to BOND | One line | 🔴 dark 34d |
-| 7 | **LIQUID · ZHAO** | One scope line each on their newly-assigned lanes | A line in each charter | 🟡 LIQUID · 🔴 ZHAO dark 16d. **Both have the 8/18 packet WAITING in their WALTER lane.** ⚠️ **This row was DROPPED when I rewrote this list for Will and restored on his own check — see the note below.** |
-| 8 | **BRENT / FALCON** | Transit-instrument disposition + the six-value pre-war baseline | Pick ONE vendor and get its methodology — not another number | 🟡 |
-
-⚠️ **THIS TABLE WAS WRONG WHEN FIRST WRITTEN, AND WILL'S QUESTION FOUND IT.** He asked whether the owed desks actually have packets waiting. Checking the target inboxes rather than my own record produced two corrections: **(1)** the DAEDALUS/FERT ask is **CONSUMED, not waiting** — a different state, and one with no boot-time prompt behind it; **(2)** I had **DROPPED the LIQUID/ZHAO row entirely** while rewriting this list to be more readable. **A list rewritten for legibility lost an item, which is the exact failure the rewrite was supposed to prevent.** `[[finding_record_of_an_action_is_not_the_action]]` — my "owed by X" line is a record ABOUT an ask, not the ask.
-
-**I am not chasing these.** Several desks are dark, and packets into dark inboxes generate work nobody reads.
+✅ **CLEARED: DAEDALUS shipped the FERT potash charter + benchmark guard in one edit (`beb3a36cb`), verified by WALTER at the artifact — FERT's `CLAUDE.md` now carries 8 potash references against ZERO before.**
 
 ## C. RESOLVES ON A CLOCK — no action by anyone
-
-- **EIA weekly print** — ✅ **RESOLVED 2026-08-19 ~18:1xZ: the wk-8/14 print HAD posted (own API pull; the lane had not caught it). SPR 293.426M, −5.268M — a FOURTH straight draw, −14.224M since 7/24. The draw did NOT stop.** ⚠️ **But a stock series cannot grade the exchange-vs-sale question `-016` actually asked — the framing SURVIVES the week, it was not CONFIRMED by it, and it is one week from its own test.** Routed as `SIG-W-20260819-025`.
-- **`CARL-DR-1`** — 🔄 **SUPERSEDED 2026-08-19 ~19:5xZ, and the 9/18 anchor is now WRONG on this surface: Will ruled in-session ~13:4x to RE-COMMISSION the FHA partial-claims leg NOW rather than wait for CARL's docketed 9/18.** DEWEY is commissioned (`AGENTS/DEWEY/inbox/2026-08-19_from-PROME_RE-COMMISSION-CARL-DR-1-FHA-partial-claims-leg-WILL-APPROVED.md`, verified present). **Anchor is DEWEY's delivery, not a date.** ⚠️ **The old tripwire is RETIRED — do not carry it.** *(Corrected on PROME's own notification that its earlier ask was superseded by the ruling. I had re-anchored to 9/18 this morning at PROME's request and it went stale within six hours — `[[finding_dated_carry_item_has_no_expiry_check]]`: a carried assertion is a string, and reading it never evaluates it.)*
-- **`WAL` vs `REG-T-02`** — 2.79% above a sustain-1 binary, tightening at every reading today. Fires on one print or it doesn't.
+- **`WAL` vs `REG-T-02`** — closed **$80.40 = 3.08%** above a sustain-1 binary that fires on **one regular-session close**. Exit is ≥81.90 × 3 closes, so it sits **between**, $1.50 under the exit.
+- **`TRY-FIRE-004`** — the Treasury buyback **steps up 9 Sep and runs to 4 Nov, inside the Sep-30 expiry.** Both duration-short legs closed at the session's worst. **Level stated, no proposal — TERRY constructs.**
+- **`RED-FT-01`** — HY OAS 275 [FRED 8/18], exit ≥280 s=3 now **5bp away**, halved from 10bp.
+- **`CARL-DR-1`** — re-commissioned; **DEWEY holds it.** The 9/18 anchor is retired.
 
 ## D. WHAT I'D WANT YOU TO KNOW, not do
-
-- **Eight of today's 23 signals correct WALTER's own prior work** — four inside the same session, one within forty minutes. That is the system working, not failing.
-- **Every peer who corrected me today was right** (TERRY-precedent, DAEDALUS, PROME), and **check #27 caught a violation my own dedicated audit had missed**.
-- **The one thing I'd carry forward:** a measuring instrument can return a clean result against the wrong referent and there is no error to notice. Two agents hit it independently today.
+- **Three defects self-found tonight, all in my own guards or my own published number** — the batch manifest certifying 16/16 against 18 real inputs; check #27 catching my own `-031`; and **`WAL`'s distance published on an intraday basis against a trigger that grades on closes.**
+- **The third one is the one that reached you.** I told you 2.00% and to watch that number. The close was 3.08%, and the "tightened at every reading" line mixed intraday reads with closes. **The gradeable version is narrower and still real: 8/18 close 4.23% → 8/19 close 3.08%.**
+- **A delivery-heavy day makes every recipient's directory look active** — the raw log showed 19 live desks; by author it is DAEDALUS 27 and single digits elsewhere.
 
 ---
 
 ## GAPS (WALTER-facing)
-- **`MEMORY.md` 130 lines vs its own 100-line cap** — 30 over, longest-standing declared residual, enforced by nothing but discipline. *(The separate boot-loaded auto-memory index is fine: 13% of lines, 72% of bytes.)*
-- **Charts in all five Trepp PDFs are images and were NOT read** — text extraction only. **Chart 2 of the special-servicing report would settle the flow-vs-rate question in one look.**
-- **No WALTER fire-ledger for `CREED-T`** — deliberately not built; asked CREED first (§B1).
-- **Cushing Boundary #3**: nearly reported a FALSE MISS off the raw series. It fired 6/24, ran ~7 weeks, rescinded by BRENT 8/12. **A data series is not a gate's record.**
+- **Most of tonight's dispatches landed on desks that are not currently live.** BOND took four action items and committed twice all day. Delivery confirmed; consumption not.
+- **`MEMORY.md` 136 lines vs its own 100-line cap** — longest-standing declared residual, enforced by discipline only.
+- **Root `CLAUDE.md`'s potash guard is now stale** (its condition is satisfied) — **flagged to PROME, not editable here.**
+- **No WALTER fire-ledger for `CREED-T`** — deliberately not built; asked CREED first, still unanswered.
+- **`-031`'s chart has no provenance and no date stamp**, and I did not pull MOVE, the obvious cross-check. Graded 0.60 and said so.
+- **The 20Y auction TAIL is uncomputable by anyone in this fleet** — TreasuryDirect publishes no when-issued and my lane carries no WI print.
 
 ## OPEN DESIGN DECISIONS (need Will)
-**🟢 NONE ACTIVE.** A/B/C/D were approved and dispatched this session.
-**🟠 DEFERRED (unchanged):** DEWEY cadence · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope + OZK/WAL routing · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
-**🔵 SURFACED (not WALTER-fixable):** the Hormuz transit LEVEL is still not knowable — **six instruments now, zero comparable pairs** · Red Sea theater has no registered gate (FALCON) · **only 3 fleet desks keep machine-readable trigger registries** (→ DAEDALUS) · HANS 34d / ZHAO 16d / CORAL 16d dark while holding assigned lanes, **and CORAL now has a live action item behind its darkness**.
+**🟢 NONE ACTIVE.**
+**🟠 NEW, SURFACED TWICE TODAY (not urgent, evidence accumulating):** **an `action:` item landing on a pull-complete recipient produces no handoff** — CARL on `-026`, RED on `-031`/`-033`. §3.5.6 disclosed the failure mode and tabled three options; nothing ratified, so I logged the instances rather than changing delivery unilaterally. **If it recurs, that is the evidence base for a ruling.**
+**🟠 NEW:** **foreign-origin BOARD rows carry a `SIG-W-` id** (`-029` is PROME-authored). The prefix is the BOARD filename convention `board_reconcile` depends on, so a `SIG-P-` scheme would be a spec change and a doctor break. Authorship sits in the header fields instead. **If foreign-origin rows become routine, the ID scheme needs a ruling.**
+**🟠 DEFERRED (unchanged):** DEWEY cadence · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
+**🔵 SURFACED (not WALTER-fixable):** Hormuz transit level still not knowable · Red Sea has no registered gate (FALCON) · only 3 fleet desks keep machine-readable registries (→ DAEDALUS) · **HANS 34d / ZHAO 16d / CORAL 16d dark, and CORAL still holds `-023`'s action item.**
+
+## FOLLOW-UP
+1. **`CREED-T-02` ruling** — chase if CREED is still dark in 2-3 days.
+2. **Root `CLAUDE.md` potash guard** — confirm PROME landed the correction.
+3. **RED's `^SKEW` basis** — must now disambiguate two instruments.
+4. **`WAL`** — grade on **closes only**. It is the closest live trigger on the board.
+5. **`MEMORY.md`** over cap — hunt entries whose fix has SHIPPED.
