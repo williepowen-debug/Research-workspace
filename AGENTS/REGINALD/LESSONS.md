@@ -12,6 +12,20 @@
 **Mistake:** WAL's NDFI ($6.5B) was initially flagged as major risk. Reality: 68% is mortgage warehouse (0.08% reserves, near-zero losses), NO auto warehouse. Ex-mortgage only $4.3B in secured SPV structures.
 **Rule:** Decompose NDFI by type before assessing risk. Mortgage warehouse ≠ auto subprime ≠ BDC lending.
 
+> ⚠️ **FIGURES UPDATED 2026-08-20 — the RULE was vindicated, the NUMBERS above are a ~2-quarter-old snapshot. Read the rule as canon; do NOT cite the dollars as current.**
+> Measured at the FFIEC primary (RC-C item 9.a + **Memo item 10** decomposition, 6/30/2026, RSSD 3138146 — `workbook/NDFI_COHORT.tsv`):
+>
+> | | this lesson (as written) | **6/30/2026 actual** |
+> |---|---|---|
+> | WAL NDFI total | $6.5B | **$15.81B** — *more than doubled*; **24.1% of total loans** |
+> | mortgage-warehouse share | 68% | **68.9%** ✅ **the ratio HELD almost exactly** |
+> | ex-mortgage | $4.3B | **$4.92B** (business-credit $3.46B + PE funds $1.46B) |
+> | NDFI nonaccrual | *(not tracked)* | 🔴 **$122.5M = 0.77% of the book — 2nd-largest ABSOLUTE in a 26-bank sample incl. JPM/BAC/WFC** |
+>
+> **Why this note exists, and it is the uncomfortable part:** the decomposition rule was *right enough to re-derive itself* two quarters later — but the **scale** silently quadrupled while this file kept teaching $6.5B as "reality." **A lesson that carries figures ages like data, not like a rule.** I found this staleness on 8/20, packeted the live numbers to WAL the same hour, and then very nearly left my own teaching surface carrying the old ones — the `consumer_check --self` failure mode exactly (the cross-agent scan excludes my own dir).
+> ⇒ **Structural fix, not just a patch: the RULE half of a lesson is permanent; the FIGURE half is a dated snapshot and must be labelled as one.** When a lesson's figures move, update them *or* strip them to the mechanism — never leave them undated. *(Flagged by PROME 8/20; the staleness was mine.)*
+> ⚠️ **And the figure that would change the rule if it grows: `$122.5M` of NDFI nonaccrual did not exist as a concept when this lesson was written.** One quarter is a level, not a trend — but if it builds, "near-zero losses" stops being true of the *ex-mortgage* book, and that is the half this lesson tells you to isolate.
+
 ### [Analysis] — Hidden CRE Methodology ⚠️ RECIPE CONTRADICTED AT PRIMARY 2026-08-07 — re-run owed
 **How to screen (v1, DEFECTIVE):** Pull FFIEC Call Report Schedule RC-C Part I. Item 4 = C&I loans. Memo Item 3 (RCON2746) = "Loans to finance CRE not secured by RE." Ratio = Memo3/Item4. Flag if >20%.
 **⚠️ 8/7 finding (OZK-spawn + WAL-spawn, independently, same day):** RCON2746's own FFIEC definition places its balance in items **4 AND 9** — dividing by item 4 only is a category mismatch whose severity varies by bank. **OZK's entire Memo-3 sits in item 9.a (RCONPV09 ≡ RCON2746 to the dollar, 6/6 quarters): the "37.6%" cell reproduces at NONE of 18 quarters** (recipe basis runs 294.93%→9.35%); **WAL's 24.24% [12/31/25] DOES reproduce exactly**, but the 12-quarter series never reached 25% and "growing fastest in cohort" was a 6-quarter two-endpoint artifact (live: 21.20% Q2-26). **Rule: never cite the old per-bank ratios; re-run the cohort on ONE uniform basis (both bases reported) before any figure circulates.** Cohort pull is now cheap (FFIEC REST/JWT recipe in `AGENTS/WAL/outbox/2026-08-07_to-REGINALD_mi3-ran-first-time...`; JWT expires 2026-11-05).
@@ -56,4 +70,4 @@ All three can coexist at the same bank. WAL uses all three.
 
 ---
 
-*Last reviewed: 2026-06-19 (added POSITIONS-ground-truth repeat-lesson + anchor-drift lesson, both ORC-caught)*
+*Last reviewed: **2026-08-20** — NDFI [Data] entry figures refreshed at the FFIEC primary (rule VINDICATED, scale had quadrupled unflagged: WAL $6.5B→$15.81B; 68%→68.9% held) + the rule/figure-half distinction added. Phantom-class sweep run the same session found ONE live hit (CALENDAR calling a 8/18-confirmed-SOLD, WAL-owned leg a "live print-catcher") — fixed; `TRADE.md` and `MAY15_DECISIONS.md` verified already FROZEN/HISTORICAL-bannered. Prior: 2026-06-19 (POSITIONS-ground-truth repeat-lesson + anchor-drift, both ORC-caught).*
