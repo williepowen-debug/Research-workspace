@@ -38,6 +38,22 @@
 10. **🟡 8/29 — T6 hard close + HEN-42.** C-36 decline expires with HEN-42; **if it NO-VERDICTs, BOND rules within one session — cannot roll.**
 11. **🟡 Retirement candidate:** `BND11_REFUNDING_PREREG_2026-07.md` — July artifact, `BND-11` resolved 7/9, >60d, not boot-read. Check the referenced-by test, then `git mv` to `archive/`.
 
+## DAEDALUS WILL-RULED REVIEW (2026-08-20, 18 findings) — DISPOSITION
+
+**Review vintage `c708ed83e`.** ★ **MATRIX_V2 RULED by Will — "Approved on both - implement per your rec":** adopt V2 §1 (drop dealer-as-bearish) + §3c (indirect sufficient ALONE at the 15th per-tenor pctile) at the **8/25–27 pre-registration cluster**; base-rating **by 9/4** (already dated in NEXT SESSION item 3); update the MATRIX_V2_DRAFT banner to a dated implementation record as legs land. **NOT yet implemented — it lands at the cluster, by the ruling's own terms.**
+
+| # | Action | Disposition |
+|---|---|---|
+| 1 | VX-16 fired trigger + TRADE:66 "cap held" | ✅ **DONE — the sharpest finding of the review.** VX-16 re-cut **1 → 4**, Th_R FIRED 8/19; TRADE:66 corrected; `KB-BND-153` |
+| 2 | Derived-figure sweep | ✅ **DONE.** TRADE:14/:38 + the crowding note = **DONE-ALREADY** in `01e00b2b7` (pre-dates the review's vintage by minutes); STATUS:24/:118/:163 done this pass |
+| 3 | Exit/Falsification STATUS:187/:189/:191 | ✅ **DONE** — SOFR-IORB sign flip named (leg's letter IS met, kill is conjunctive, other two legs nowhere), 2Y spread +68 → **+54**, BND-01 future-tense row archived |
+| 4 | VX-01 Th_Y/Th_R + instrument VX-04/VX-13 | ✅ **DONE** — VX-01 RED still keyed on **`tail >2bps`, retired 2026-07-28 as unscoreable**, live for 23 days; VX-04/13 were judgement words with no series |
+| 5 | TRADE:42 date-guard | ✅ **DONE-ALREADY** (`01e00b2b7`) |
+| 6–11 | 🟠 structural (boot_recompute scan width · 10Y gate-(b) 4.50-vs-4.6 adjudication · STATUS byte-tier rotation · LEDGER_GLOB + PAT-044 headers · FLOW two-state · PROTOCOL pointer) | ⏳ **QUEUED — this week's closeouts.** #7 is the one to do first: **three surfaces disagree on gate (b)'s own level** |
+| 12–15 | 🟡 hygiene | ⏳ **QUEUED.** #14 SAM-retraction copies = **DONE-ALREADY, committed `c708ed83e`** (both outbox + delivered/) |
+
+🔑 **The through-line across today's three independent findings — mine, PROME's, and DAEDALUS's — is ONE class: a state change with no publisher.** A **level** gate announces itself because something recomputes it each boot. Nothing watches: a **fired trigger** vs its vector's text (VX-16, 1 day) · a **calendar** vs a position's expiry (60-DTE, 19 days) · a **retirement** vs the cells that cite it (VX-01's tail, 23 days) · a **level fix** vs the distances derived from it (33/88/71bp, weeks). **All four are the same missing watcher, and `boot_recompute` covers only the first kind of input.** That is the real deliverable of DAEDALUS's ACTION 6 and it is bigger than the sweep.
+
 ## OPEN THREADS / KNOWN GAPS
 
 - **The superlative class is now n=5 and the discipline is still not mechanical.** Every instance was a CARRIED figure and every one read plausibly. `boot_recompute` catches these only when the figure is IN its block — a superlative *about* a series it prints is not itself printed. **Worth considering: have `boot_recompute` assert the series max/2026-max beside any level it reports, so a "high" claim has its referent on the same screen.**
