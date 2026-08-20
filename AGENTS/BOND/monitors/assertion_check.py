@@ -95,6 +95,34 @@ def live_lines(path: Path):
         yield i, l
 
 
+QUOTES = [('"', '"'), ('\u201c', '\u201d'), ("'", "'"), ('\u2018', '\u2019'),
+          ('*"', '"'), ('`', '`')]
+
+
+def in_quotes(line: str, start: int, end: int) -> bool:
+    """True if [start,end) sits inside a quoted span.
+
+    A QUOTED claim is a CITATION, not an assertion. Added 2026-08-20 after the
+    combined closeout pass flagged this desk's OWN documentation: the FILES
+    table row that quotes "PREDICTIONS.tsv IS EMPTY" as the example defect the
+    checker exists to catch. Same family as the comparator rule in the numeric
+    check -- the discriminator is grammatical, not a keyword blacklist, so it
+    generalises to quoted claims the GUARD list has never seen.
+    """
+    for op, cl in QUOTES:
+        depth, i = 0, 0
+        while i < len(line):
+            if line.startswith(op, i) and (depth == 0 or op != cl):
+                nxt = line.find(cl, i + len(op))
+                if nxt == -1:
+                    break
+                if i + len(op) <= start and end <= nxt:
+                    return True
+                i = nxt + len(cl)
+                continue
+            i += 1
+    return False
+
 def guarded(line: str) -> bool:
     low = line.lower()
     return any(g in low for g in GUARD)
@@ -216,9 +244,13 @@ def check_file_state() -> int:
             if guarded(l):
                 continue
             for pat, is_false, detail in CLAIMS:
-                if re.search(pat, l, re.I) and is_false():
-                    show("FILE-STATE CLAIM FALSE", p, i, l, detail())
-                    n += 1
+                m = re.search(pat, l, re.I)
+                if not m or not is_false():
+                    continue
+                if in_quotes(l, m.start(), m.end()):
+                    continue          # a CITATION of the claim, not the claim
+                show("FILE-STATE CLAIM FALSE", p, i, l, detail())
+                n += 1
     return n
 
 
@@ -306,6 +338,13 @@ FIXTURES = [
     ("nearest-alias, NOT earliest-in-line",
      "30Y 5.28 and 10Y 4.71 -- DFII10 now 9bp away and closing",
      "dir", ("DFII10", "toward")),
+    ("quoted CITATION of the defect, not the claim (fired on our own docs)",
+     'Stale-ASSERTION sweep. Built because the sweep\'s worst finding — '
+     '"PREDICTIONS.tsv IS EMPTY" with two OPEN rows — contained no number.',
+     "quote", False),
+    ("the SAME claim unquoted is still a finding",
+     "NO REGISTERED PREDICTION COVERS ANY GATE BELOW. thesis/PREDICTIONS.tsv IS EMPTY.",
+     "quote", True),
     ("already corrected => guarded",
      "Corrected 8/20: this cell read '6bp away and closing' -- DFII10 backed off to 2.41",
      "dir", None),
@@ -316,7 +355,12 @@ def selftest() -> int:
     fails = 0
     print("[assertion_check --selftest] fixtures are REAL defects this desk shipped\n")
     for label, line, kind, expected in FIXTURES:
-        if kind == "cap":
+        if kind == "quote":
+            pat = (r"predictions\.tsv[^.]{0,40}\bis empty\b|no registered prediction|"
+                   r"zero open predictions|nothing has been registered")
+            m = re.search(pat, line, re.I)
+            got = bool(m) and not guarded(line) and not in_quotes(line, m.start(), m.end())
+        elif kind == "cap":
             got = capability_hit(line)
         else:
             claims = list(direction_claims(line))
