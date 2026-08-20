@@ -29,6 +29,14 @@ Read these first:
 | `registry/THRESHOLDS.tsv` | **Machine-readable transcription of the FIRE conditions in `thesis/THESIS.md`.** 11 `CREED-T-*` rows. **Bands are FROZEN TERMS (Will, 7/21) — propose, don't edit.** ⚠️ **Only 5 rows are numerically scannable**; the rest are qualitative, compound, or HOMER-owned — **a clean scan of the 5 must never imply the 11 are clear.** ⚠️ **14 comment lines precede the header — count rows matching `^CREED-T`, never `tail -n +2`.** WALTER reads this file. |
 | `registry/CREED_T_FIRED_LOG.tsv` | **NEW 2026-08-20 — the SINGLE record of CREED-T fires.** Carries `effective_date` and `detection_lag` as separate columns on purpose: the date a band was satisfied is not the date CREED noticed. ⚠️ **Deliberately the only such ledger** — WALTER asked to build a mirror and CREED declined (a fire recorded in two disagreeing places is worse than one recorded nowhere). |
 
+## Scripts — `scripts/`
+
+| File | Role |
+|---|---|
+| `scripts/creed_selfcheck.py` | **Closeout guard (step 8b), CREED-scoped, ~25ms, exit 0/1.** Fired-trigger cross-surface consistency · asserted counts vs actual · open staleness banners. ⚠️ **A green certifies its SCOPE, not the work** — see `SCRATCH.md` §"what the guard cannot see". |
+| `scripts/s8a_relative.py` | **NEW 2026-08-20 (PM).** The S8a recompute recipe (`VX-CREED-7.01` / `CREED-T-08a` / `PRED-CREED-007`) — VNQ vs SPY trailing relative on **both bases**, printed alongside the **series, its noise band and the band's base rate**, because a single trailing-3mo point is demonstrably not a usable read. `--end YYYY-MM-DD` re-derives any past reading. ⚠️ **Exists because COVERAGE lane 9 promised a recipe "in this row's source note" that did not exist**, making both committed readings non-reproducible (found by PROME). `FORGE/tools/market-data/fetch.py` cannot produce this figure (`price`/`fred` only). |
+| `scripts/boot.py` | Boot helper. |
+
 ## Live metric layer — the workbook (built 2026-07-27)
 
 `AGENTS/CREED/workbook/` — the quantitative spine under the prose rails. **Read `VX.tsv` at boot and run the 14-day staleness check** (recipe in `CLAUDE.md`).
@@ -37,7 +45,7 @@ Read these first:
 |---|---|
 | `VX.tsv` | **32-vector dashboard** across 10 categories, mapped to the Expected Signals. The heart. *(31 at build; `VX-CREED-3.04` added 2026-08-20 as the K5 root-cause fix.)* |
 | `FLOW.tsv` | 8 CRE transmission chains (legacy 6 refreshed + FLOW-07 lender withdrawal, FLOW-08 fast→slow holder migration) |
-| `KB.tsv` | **19** Admiralty-scored research rows, seeded fresh (legacy 40KB KB deliberately not imported). *(16 at build + `KB-CREED-017`, the MBA note-holder-attribution finding. This line read "16" for ~3 hours after 017 landed — caught in the 7/27 consolidation audit, which is exactly the drift class CREED spent the day catching in other agents.)*|
+| `KB.tsv` | **21** Admiralty-scored research rows, seeded fresh (legacy 40KB KB deliberately not imported). *(16 at build · +`017` MBA note-holder attribution · +`018`/`019` the T-02 fire series and the W1 "merely unfetched" July mat-adj · +`020` the S8a instrument finding (noise/basis/window sensitivity + band base rate) · +`021` Q2-2026 office vacancy across three providers.)* ⚠️ *This cell read "16" for ~3 hours after `017` landed and "19" until `021` landed — **twice** the exact drift class CREED catches in others. It is now checked mechanically at closeout by `scripts/creed_selfcheck.py`, which is what caught it this time.* |
 | `PREDICTIONS.tsv` | **9** open forecasts + 1 resolved (`PRED-CREED-009`, TRUE 2026-08-20) + `002a` excluded-for-provenance. CREED-set confidences, each naming its resolving instrument |
 | `PREDICTIONS_SCOREBOARD.md` | Calibration surface + resolution protocol. **n=1** as of 2026-08-20 (`PRED-CREED-009` TRUE; 0/1, Brier 0.49 — recorded straight). **Update it in the same session as the ledger row: both writes, or neither counts.** |
 | `VX_HISTORY.tsv` | monthly series for the load-bearing vectors — a level is not a trend |

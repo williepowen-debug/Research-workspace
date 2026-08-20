@@ -78,12 +78,13 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
 4b. **Scan `workbook/PREDICTIONS.tsv` resolve dates now, at boot — not at closeout.** An overdue prediction is information this session needs *before* it does its work. Grade against `workbook/PREDICTIONS_SCOREBOARD.md`.
 5. Treat legacy CREED material under `AGENTS/REGINALD/sub-agents/CREED/` as **source archive**, not current truth.
 6. Before making market claims, read the current rails in this order:
-   1. `AGENTS/CREED/research/REFRESH_2026-07-27.md` (current source pack — CRE lender leg, June SS resolution, life-science bifurcation; `REFRESH_2026-07-04.md` retained as the June-Trepp / recognition-cluster source-trail, `REFRESH_2026-06-21.md` as the FDIC-Q1 / maturity-wall source-trail)
-   2. `AGENTS/CREED/thesis/THESIS.md`
-   3. `AGENTS/CREED/thesis/CHANGELOG.md`
-   4. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
-   5. `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
-   6. `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
+   1. 🔴 **CURRENT STATE — `AGENTS/CREED/STATUS.md` §2026-08-20 + `workbook/KB.tsv` rows `KB-CREED-018`/`019`/`020` + `registry/CREED_T_FIRED_LOG.tsv`.** *(Repointed 2026-08-20 per Will ruling — verbatim "Approve HEARTBEAT correction and all three CREED recs", ~11:5x ET; PROME packet `49c123881`, sweep item #7.)* **This slot deliberately names LIVE SURFACES, not a new dated pack.** The 8/20 window fired `CREED-T-02` and upgraded Trepp to PRIMARY-READ off a source pack that predates both; a `REFRESH_2026-08-20` duplicating those surfaces would be **a fourth place for the same facts to rot**, which is the defect this desk keeps catching in others.
+   2. `AGENTS/CREED/research/REFRESH_2026-07-27.md` — **PRIOR PACK, labelled.** Still the best source-trail for the CRE lender leg, June SS resolution and life-science bifurcation. ⚠️ **It predates the T-02 fire and the Trepp source-tier upgrade — read it as a trail, not as current state.** (`REFRESH_2026-07-04.md` = June-Trepp / recognition-cluster trail; `REFRESH_2026-06-21.md` = FDIC-Q1 / maturity-wall trail.)
+   3. `AGENTS/CREED/thesis/THESIS.md`
+   4. `AGENTS/CREED/thesis/CHANGELOG.md`
+   5. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
+   6. `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` — ⚠️ **read its header first**; the S8a level and its *direction* were both revised on 2026-08-20 (afternoon). **Recompute with `scripts/s8a_relative.py` before citing S8a.**
+   7. `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 7. **Read `AGENTS/CREED/workbook/VX.tsv`** (the live metric layer — 32 vectors mapped to the Expected Signals) **and run the staleness check below.**
 
 If a task only asks for file hygiene or topology checks, do not make fresh market claims from the rails. If a task asks for current market analysis, refresh live/monthly data first where needed.
@@ -187,7 +188,7 @@ Current source pack and thesis rails. These are mandatory before CREED makes cur
 - `AGENTS/CREED/thesis/THESIS.md`
 - `AGENTS/CREED/thesis/CHANGELOG.md`
 - `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
-- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` (**latest tape snapshot 2026-08-20, live** — VNQ vs SPY 3mo **−0.34pp TR / −0.98pp price-only**, counter-signal **DECAYING**). ⚠️ *This pointer read "7/2" until 2026-08-20 while the file's own header read 7/27 — it had lagged three weeks. **Read the file's header, not this line, and fix this line when they diverge.***
+- `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` (**latest tape snapshot 2026-08-20 afternoon, live** — VNQ vs SPY 3mo **+0.07pp TR / −0.58pp price-only**, **10-session stdev 2.01pp — the level is inside its own noise, and the morning's "counter-signal DECAYING" trend claim is WITHDRAWN**). ⚠️ *Recompute with `AGENTS/CREED/scripts/s8a_relative.py` before citing S8a — never quote the point alone, and never call a sub-2-sigma move a trend.* ⚠️ *This pointer read "7/2" until 2026-08-20 while the file's own header read 7/27 — it had lagged three weeks. **Read the file's header, not this line, and fix this line when they diverge.***
 - `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 
 Every trade-relevant number still needs a source/date. Refresh monthly CMBS, FDIC, or REIT/broker tape before treating levels as current.

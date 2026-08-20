@@ -30,6 +30,24 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 **Propagated in the same session to avoid manufacturing a fresh contradiction:** `VX-CREED-7.01`, `VX_HISTORY.tsv` (new row), `thesis/THESIS.md` matrix row 8a. **A doc rebuild that updates the MAP and not the VECTOR OF RECORD would have created exactly the defect this sweep exists to remove.**
 
 **Blind-spot register updated: 5 of 7 gaps now found by other agents** (added the `CREED-T-03` unsecured-CRE/C&I scope limit, found by REGINALD via TERRY; and the `CREED-T-02` missing-metric-vector gap, found by CREED's own K5 test — the only one CREED found in its own instrument layer).
+## 2026-08-20 (AFTERNOON) — a dead pointer, a re-spec proposal, a third STATUS split, and two Will-frozen-row defects
+
+**Session type:** second session this day, fresh context. Will-directed: fix the COVERAGE lane-9 dead pointer, resolve `VX-CREED-9.03`.
+
+**Created:**
+- **`scripts/s8a_relative.py`** — the S8a recompute recipe COVERAGE lane 9 had *promised but never contained*. Prints **series + noise band + base rate** alongside the point, and `--end YYYY-MM-DD` re-derives any past reading. **Deliberately not a FORGE tool:** `fetch.py` has `price`/`fred` only, and this is a CREED-specific instrument.
+- **`archive/STATUS_CATCHUPS_2026-08-13.md`** — third enforcement of the 320-line split trigger. ⚠️ **Its banner flags two claims inside the archived text that were refuted on 8/20** (the "not published" July mat-adj DQ, and "no trigger fired") so an archive reader is not misled by correctly-dated-but-false statements.
+
+**Structural decisions, with reasoning:**
+1. **`VX-9.03` NOT FROZEN, against the standing escalation's own menu.** The 7/27→8/20 escalation said *"locate a print or propose a freeze."* **Neither happened, and the menu was the problem** — it presumed the vector's fate turned on the specified PROVIDER. Moody's Q2 is **public-but-unreachable** (403), but **three other providers published Q2 and all show the direction reversed.** Freezing would have locked in a stale record-high anchor that was **pointing the wrong way.** *(A closed option menu that omits the right answer reads as a forced choice — `finding_option_menu_omitting_the_owners_choice_reads_as_silence`.)*
+2. **Provider re-spec PROPOSED, not executed.** `VX-9.03` carries no band, so nothing is Will-frozen — **but choosing a vector's canonical provider is a methodology call and belongs to Will.**
+3. **`CREED-T-08a`'s wrong `source_of_truth` FLAGGED, not fixed.** It names `VX-CREED-8.01` (*CRE Modification Exhaustion*, S4) instead of `VX-CREED-7.01`. **A non-band field of a Will-frozen row, outside the 8/20 ruling's scope.** The correct pointer went into the row's dated annotation so no reader is misled meanwhile. **The band, op, value, sustain window and 10-column width were all verified unchanged** (WALTER's scanner parses the column count).
+4. **Ruling #5 executed with CREED's wording, not the ruling's suggested wording.** PROME's suggested stamp embedded the **−0.34pp / "~2.4–3.0pp toward the trigger"** figures that this same session **withdrew**. The ruling said *"Your wording; the requirement is that no reader can consume the refuted direction as current."* **Requirement met with corrected numbers — following the suggested text literally would have date-stamped a figure into a frozen row hours after it was superseded.**
+
+**The finding worth carrying (`KB-CREED-020`):** the 8/20-AM session **did** run a robustness check on S8a — *"negative on BOTH bases, so the sign is robust to basis choice"* — and it **passed and was true.** It was not the binding constraint: **the window, untested, was the larger sensitivity and flipped the sign.** **A robustness check certifies its own scope, exactly like a green guard.** Recorded in SCRATCH §"what the guard cannot see."
+
+**Known state carried forward:** STATUS is **323 lines, 3 over the 320 trigger, with the split already executed this session** — overage came from the header/BOTTOM-LINE rewrite afterward, the same shape as the documented 7/27 precedent (321). **Named remedy: the next catch-up archives the 8/20 MORNING window.** Recorded rather than resolved by raising the number.
+
 ## 2026-08-20 (Phase 2) — `scripts/creed_selfcheck.py` built; first CREED-owned tooling
 
 **NEW: `AGENTS/CREED/scripts/creed_selfcheck.py`** (and `scripts/`, CREED's first script directory). Wired into §Closeout Protocol as **step 8b**. ~20ms, exit 0/1.
