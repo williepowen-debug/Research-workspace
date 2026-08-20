@@ -94,11 +94,15 @@ REGINALD told this desk nonaccruals were past peak and improving (5.49% → 4.88
 |---|---|
 | Cohort **median** CO/prov | **1.00×** — banks provision almost exactly what they charge off |
 | p75 / p90 / p95 | 1.31 / 1.63 / **2.00** |
-| **FLG 2026Q2 at 14.6×** | **99th percentile** |
+| **FLG 2026Q2 at 14.6×** | **99.4th percentile** vs the other 165 quarters (leave-one-out **1/165 = 0.6%**; including-the-observation **2/166 = 1.2%** — both framings on the file, corrected `8b5a65231`) |
 | **Entire ≥10× tail, 168 bank-quarters** | 🔴 **FLG's own two 2026 quarters — 74.7× [Q1], 14.6× [Q2]. No other bank reaches 10× in three years** |
 | True releases (provision ≤ 0) | 2/168 = 1.2%, **ZION only** — FLG never released |
 
-**The line stands, with a denominator instead of a vibe.** ⚠️ Caveats bind: `RIAD` is YTD (annualisations are REGINALD's, not company figures); **24.4% of cohort quarters do not tie**, so FLG's 6-of-11 non-tying is **not anomalous per se** — but **FLG ties 6/12 = 50%, which IS an outlier** (only WAL 3/12 and CUBI 5/12 are worse); and **14 named filers is not the industry.**
+**The line stands, with a denominator instead of a vibe.**
+
+⚠️ **ROUNDING TRAP — read before anyone ever registers a level here.** FLG-2026Q2 computes to **14.5959×**. The original count was taken with a **14.6** cut, and 14.6 was itself the *rounded display value of that same observation* — so the unrounded datum fell just the **wrong side of a threshold derived from its own printed form**. REGINALD self-corrected it (`8b5a65231`); nothing downstream moved (99.4th either way, the ≥10× tail unchanged, the falsifier flag unchanged). **The generalisable rule: a threshold typed from a printed value of the observation it is meant to describe will misclassify that observation.** Carry the unrounded figure, or set the cut from the distribution rather than from the datum.
+
+⚠️ Other caveats bind: `RIAD` is YTD (annualisations are REGINALD's, not company figures); **24.4% of cohort quarters do not tie**, so FLG's 6-of-11 non-tying is **not anomalous per se** — but **FLG ties 6/12 = 50%, which IS an outlier** (only WAL 3/12 and CUBI 5/12 are worse); and **14 named filers is not the industry.**
 
 🔴 **The same base rate then killed this desk's kill condition — see `EXIT_PROTOCOL.md` K-3.** `CO/prov < 1.0× ×2 quarters` fires on **42.8%** of ordinary bank behaviour, and FLG itself satisfied it for **six consecutive quarters before the pattern the thesis is about had begun.** Four replacement forms were base-rated here before any was proposed and **all four died** (42.8% / 46.4% / 58.0% / 42.9%; even a 5-quarter sustained form is 27.3% and costs 15 months of latency). **The cell is now UNSET with a stated requirement** — an honest gap beats a falsifier that retires theses at random.
 
