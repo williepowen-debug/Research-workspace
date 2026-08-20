@@ -189,7 +189,10 @@ If NEXUS runs a 3-way-convergence check on policy-path, **the honest count is 2 
 ## ⚠️ A third hypothesis NEXUS should hold open (neither policy-path nor term-premium)
 The **Treasury cash-futures basis trade shrank ~$1.3T → ~$1.0T** since January (Morgan Stanley via Bloomberg). Basis traders are a major *provider* of cash-Treasury auction demand; withdrawing ~$250–300B of repo-levered bid produces **exactly the 7/27 signature — thin cover, unchanged composition** — because the departing bidder is neither foreign nor a dealer. If this carries weight, the 5Y BTC is **partly a leveraged-demand artifact and not a duration-demand verdict at all**, and it is orthogonal to both sides of HEN-42. Logged ESTIMATE (KB-BND-092); **LIQUID owns the call.** Testable: it predicts thin cover *with intact composition* at the 7Y that does **not** resolve after FOMC.
 
-## Live rates state [FRED direct + yfinance]
+## ⛔ SUPERSEDED LAYER — 7/24–7/28 VINTAGE, NOT LIVE (bannered 2026-08-20)
+> 🔴 **This section was titled "Live rates state" while carrying 7/24 marks — for 27 days, on the surface NEXUS consumes.** **Current rates/credit live in §4 of the re-pin at the top of this file and, canonically, in `AGENTS/BOND/STATUS.md`.** Three specific traps in the table below, left in place as the record rather than silently edited: the **"2.43 SERIES HIGH"** label is **RETRACTED** (`KB-BND-108` — all-time max 3.15, 2008-11-21; correct label post-2023 high), the **"7bp from the 2.5 re-arm gate"** distance is stale (**9bp** as of 8/18 and it moved AWAY), and the **"29-day run"** figure is the twice-corrected one (**31 consecutive / 47 days in 2026**). ⚠️ **A banner is a warning, not a fix** — `rewrite-or-archive by: 2026-08-27`.
+
+### [retained verbatim] Rates table as published 2026-07-28
 | Metric | Value | Obs | Read |
 |---|---:|---|---|
 | 10Y (DGS10) | **4.69** / live **4.64** | 7/24 / 7/28 | 14bp over the 4.50 line; peaked 4.71 [7/23]; pre-FOMC bid |

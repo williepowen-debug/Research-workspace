@@ -41,6 +41,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(REPO / "FORGE" / "tools" / "market-data"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # H.15 publishes these together -- always refresh as a SET.
 H15_SET = ["DGS2", "DGS10", "DGS30", "DFII10", "T10YIE", "T5YIFR"]
@@ -226,6 +227,22 @@ def main() -> int:
               f"   post-2010 {p_post:5.1f}th")
 
     drift = check_unread_surfaces(series)
+
+    # MISSING-WATCHER CHECKS (2026-08-20, Will-directed) -- wired in HERE rather
+    # than shipped as a second command, because this desk's own lesson is that a
+    # pass needing two invocations gets half-run on a busy session.
+    try:
+        import watchers
+        gates = {}
+        for sid, (lab, thr, side) in GATES.items():
+            cur = series[sid][-1][1]
+            gates[sid] = abs(thr - cur) * 100
+        print("\n== MISSING-WATCHER CHECKS (date-gates - retirements - derived distances) ==")
+        drift += watchers.run(gates=gates)
+    except Exception as e:                      # never let a watcher break the boot pull
+        print(f"\n[boot_recompute] WARNING: watchers did not run ({e}). "
+              f"That is a GAP, not a pass.")
+        drift += 1
 
     print("\n⚠️  Paste-check these against STATUS. Any figure on a BOND surface that is NOT")
     print("    in this block, or disagrees with it, is a CARRIED figure — recompute or drop it.")

@@ -1,0 +1,6 @@
+Kind	Label	Date	Checkpoint_Offset_Days	Serviced_On	Note
+OPTION	TRY-FIRE-004 — 25x TLT Sep-30-2026 77P (TERRY owns the card)	2026-09-30	60	2026-08-20	60-DTE review RUN 2026-08-20 and RULED by Will: let it run to expiry, no roll, no add. Review -> analysis/2026-08-20_60DTE-review_TLT-puts_and-the-7-16-NO-ADD.md. Originally mandated by CLAUDE.md EXIT RULES 4 / THESIS / STATUS / TRADE. Crossed 2026-08-01 and went unnoticed 19 days — the defect that created this registry.
+EVENT	T6 hard close + HEN-42 resolution	2026-08-29	0		T6 grades on DGS30; HEN-42 is HENRY's. C-36 decline expires with it — if HEN-42 NO-VERDICTs, BOND rules within one session and CANNOT roll.
+EVENT	MATRIX_V2 base-rating deliver-by (Will-ruled 2026-08-20)	2026-09-04	0		Adopt-or-reject after measuring hit rate + separation. "Don't build it" is a real answer.
+EVENT	sb0607 stepped-up buyback window OPENS (>=$4bn/op)	2026-09-09	0		From here an official bid sits in 10-30y. Contaminates curve-shape attribution for policy-vs-term-premium; covers 21 of TRY-FIRE-004's remaining days.
+EVENT	sb0607 window closes + 11/4 QRA — F1/F3 resolve	2026-11-04	0		F1 ratchet w/o liquidity trigger; F3 long-coupon cut. F2 resolves earlier on per-op results from 9/9.

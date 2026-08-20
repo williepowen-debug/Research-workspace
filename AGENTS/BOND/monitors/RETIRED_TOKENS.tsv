@@ -1,0 +1,6 @@
+Token	Retired_On	Reason	Guard_Words
+tail >2	2026-07-28	A tail = high yield minus when-issued at the bid deadline, and TreasuryDirect publishes NO when-issued. Unscoreable BY CONSTRUCTION — no gate, threshold or pre-registration may key on it.	retired;unscoreable;banned;removed;never;cannot;wire-level;med-conf;history
+tail>2	2026-07-28	Same as "tail >2", unspaced form.	retired;unscoreable;banned;removed;never;cannot;wire-level;med-conf;history
+modest tail	2026-07-28	Un-instrumented tail language in a threshold cell — no series, no level, and the underlying metric is unscoreable anyway.	retired;unscoreable;banned;removed;never;history
+series high	2026-08-20	Bare "series high" with no window stated. n=5 of this desk's superlative class. State series/basis/WINDOW/n in the sentence or do not use the word.	retracted;retired;false;never a series;not a series;banned;window;RETRACT;wrong;correct label;mis-label;three ways;post-2023;is not
+$2B cap held	2026-08-19	sb0607 DOUBLED the long-end accept cap to >=$4bn/op on 2026-08-19. VX-BND-16's RED trigger fired on its letter; any surface asserting the cap held is pre-fire.	corrected;fired;until 8/20;retract;prior;was
