@@ -44,7 +44,7 @@
 
 | Agent | Class | Lvl | What it does | Missing / next |
 |---|---|---|---|---|
-| CREED | Market | L2 | National CRE / CMBS | L2->L3 when BOTH: >=1 prediction resolution GRADED (early-mid-Aug clock… |
+| CREED | Market | L3 | National CRE / CMBS | Packet ROUTED 8/20 w/ 3 Will rulings (pointer pass APPROVED · T-08a bas… |
 | DEWEY | Utility | L4 | Deep on-demand research | CONTRACT block → L5 candidate |
 | HANS | Market | L3 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | next spawn: FLOW reconcile-or-freeze changelist |
 | OTTO | Market | L4 | Auto-industry fraud & stress | L5 blockers unmoved (OTTO-07 OPEN 15%, Dec-31 EDGAR-FTS re-instrument) |
