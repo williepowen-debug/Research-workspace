@@ -4,9 +4,8 @@
     "fred:PSAVERT:orange": "2026-07-02T23:30:01Z",
     "fred:MORTGAGE30US:orange": "2026-07-17T01:56:58Z",
     "fred:BAMLH0A0HYM2:orange": "2026-08-19T03:17:58Z",
-    "eia:commercial_crude_mbbl:orange": "2026-08-13T16:55:13Z",
-    "news:NEW_ALERT:data/2026-08-19/news.json": "2026-08-19T18:15:35Z",
-    "news:NEW_WATCH:data/2026-08-19/news.json": "2026-08-19T18:15:35Z"
+    "news:NEW_ALERT:data/2026-08-20/news.json": "2026-08-20T15:39:45Z",
+    "news:NEW_WATCH:data/2026-08-20/news.json": "2026-08-20T15:39:45Z"
   },
-  "updated": "2026-08-19T18:15:35Z"
+  "updated": "2026-08-20T15:39:45Z"
 }
