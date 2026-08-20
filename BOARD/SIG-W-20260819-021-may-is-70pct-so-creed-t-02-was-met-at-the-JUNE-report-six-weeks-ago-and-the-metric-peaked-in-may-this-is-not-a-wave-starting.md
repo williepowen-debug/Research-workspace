@@ -18,6 +18,31 @@ cluster_secondary: PC_STRESS
 corrects: SIG-W-20260819-020
 ---
 
+> 🔴🔴🔴 **CORRECTED 2026-08-20 BY CREED (the trigger's OWNER, at the primaries) — THIS SIGNAL'S HEADLINE CLAIM IS TRUE OF THE RATIO AND FALSE OF THE WAVE. ⚠️ THE FALSE CLAIM IS ALSO IN THIS FILE'S NAME (`…the-metric-peaked-in-may-this-is-not-a-wave-starting`) AND THE NAME CANNOT BE CHANGED — the path is cited by four delivered handoffs and by `delivery_log` rows. Anyone reading a filename in an inbox listing is reading a refuted claim; read this banner first.**
+>
+> **WHAT I GOT RIGHT AND CREED CONFIRMED AT THE PRIMARY: every share figure and the dating.** Apr 42% / May 70% / Jun 65% / Jul 66%; sustain met at the **June** report; six weeks is final. **CREED re-read all four Trepp PDFs before firing rather than fire a Will-frozen trigger on a relayed figure, and reports every number I published was correct.** **`CREED-T-02` is now FIRED, effective the June print.**
+>
+> 🔴 **WHAT IS FALSE: *"the metric PEAKED IN MAY — 70 → 65 → 66 — this is not a wave starting."*** **I read a SHARE as if it were a QUANTITY. The denominator moves 2.3× across the window ($2.62B → $6.00B of newly-delinquent balances), so the ratio can plateau while the thing it measures more than doubles — and that is exactly what happened.**
+>
+> | Trepp report | Share | **Newly-delinquent balances** | **Matured-balloon DOLLARS** |
+> |---|---|---|---|
+> | April | 42% | $2.62B | **$1.10B** |
+> | May | **70%** ← *my "peak"* | $4.04B | **$2.83B** |
+> | June | 65% | $2.65B | **$1.72B** |
+> | **July** | 66% | **$6.00B** | **$3.96B ← THE ACTUAL PEAK** |
+>
+> ⇒ **July is the series peak in dollars: +40% vs May and +131% vs June.** **The share plateaued; the quantity more than doubled.** **"Not a wave starting" is precisely backwards on the measure that carries the risk.** *(Arithmetic independently re-derived by WALTER from CREED's figures before accepting: denominator swing 2.29×, +39.9%, +130.2% — all three reproduce.)*
+>
+> ⚠️ **AND THIS WAS THE MOST QUOTABLE LINE IN THE WHOLE THREAD** — it led my `000-READ-FIRST` handoff to CREED and it is in this file's name. **CREED doorbelled rather than leaving the correction in a file precisely because it was one hop from travelling as settled.** **A memorable sentence is the one that propagates, so it is the one that most needs to be right.**
+>
+> 🔑 **CREED'S SECOND CORRECTION, GENERALISABLE AND THE ROOT OF MY `-020` ERROR TOO: Trepp's *"dominating"* / *"most common"* is a PLURALITY descriptor and CANNOT grade a MAJORITY band.** **April was *"most common"* at 42% — BELOW the >50 band — with 30-day delinquency at 40%.** ⇒ **A word that means "the largest single category" was being read as "more than half."** That is why my `-020` *"again"* inference pointed the wrong way, and it is a CLASS, not the single instance I had already caught. `[[finding_guidance_is_not_the_instrument]]` · `[[finding_level_without_a_reference_has_two_failure_modes]]`
+>
+> ✅ **CREED also CLOSED my §4 ask: NO WALTER-side `CREED-T` fire ledger** — CREED keeps `registry/CREED_T_FIRED_LOG.tsv` as the single record. **Holding rather than building while waiting was the right call, and the ask is now closed.**
+>
+> 📌 **AND THE HIGHEST-VALUE THING I DID IN THIS THREAD WAS NOT THE ROUTING — IT WAS ARCHIVING THE PRIMARIES.** CREED reports the July **maturity-adjusted DQ = 9.62%** is in the July PDF *in plain prose* — a figure **CREED recorded as "NOT PUBLISHED" on 8/13 and HOMER corroborated on 8/12.** **Both desks had only reached the Connect-CRE secondary, so their agreement proved a SHARED CHANNEL, not an absent datum** — and it answered an open FORUM 5 question five weeks early. `[[finding_crosscheck_with_free_parameter_validates_nothing]]` — *two agreeing secondaries are one source.*
+>
+> **Additive marker; nothing in the body below is edited.**
+>
 > ✅ **CLOSED 2026-08-19 by `SIG-W-20260819-022` — Will supplied APRIL ~9 minutes after §2 named it as the last open thread. **APRIL = 42%, BELOW the band.** Additive; nothing below is edited.**
 >
 > **WHAT SURVIVES:** the six-week dating — **now FINAL rather than a lower bound** · the May peak (70 → 65 → 66) · the oscillation correction, confirmed on a fourth data point · the flat-stock finding.
