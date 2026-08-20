@@ -94,6 +94,18 @@
 
 ---
 
+## BOTTOM LINE
+
+**FLAT, and nothing I own has fired.** The SHAPE moved and the LEVEL did not: VIX 16.01 is mid-LOW_VOL, the curve is still steeply contangoed (VIX3M/VIX 1.1905), and **no VIOLET registered line is in a fired state.** What changed this week is that the front end re-priced hard and persistently — 9D/VIX 0.7446 → 0.8988 across an expiry — with an identified driver (a concentrated memory/semis unwind, Path-B) and **no confirmation from any of the channels that normally confirm**: VVIX *fell* while VIX rose, MOVE retreated below F1, term structure is 16% from inversion.
+
+**Two registered lines resolved while I was dark: MOVE re-armed 8/18 (commission RESUMED); COR1M first-tell is session 1 of 2 and NOT fired — the 8/21 settle decides it.** Cheap-tail is ARMING 3/4 with L2 missing by 0.01.
+
+**The single actionable asymmetry:** the cheap-tail window's measured edge is **in the tail, not the body** (60td ≥+50%: 56.7% vs 36.0% unconditional, p=0.019 against a matched-placement null) — while forward beta at the tenor that edge requires is only **0.32–0.43**. That scissor is the entire content of tonight's rising-vol design, and it is why the last trade lost with a correct forecast.
+
+**Posture: watch, do not pre-position.** No proposal, no stand-downs live, three gates between the design and any deployment.
+
+---
+
 ## POSITION SNAPSHOT
 
 **FLAT.** No VIOLET-thesis position since `TRY-VIOLET-VIXCS` closed 7/30 (−$111.60, −38.8%, ended by its dated rule, not a thesis kill). **No stand-downs live. Nothing to manage.**

@@ -45,8 +45,24 @@
 4. 🟠 **RISING-VOL DESIGN (Option 1) — mechanically RESUMED, not merely owed** (KB-VIO-200). Specify it against the live case: a front-led bid with **no** VVIX, MOVE or term-structure confirmation.
 5. 🟠 **Decide the VIX9D/VIX ratio's registration status.** +20.7% in 4 sessions toward a line I own (1.0 = peak-marker, KB-VIO-034) **with no registered threshold.** Base-rate it first or state plainly that it stays unregistered — do not let it become a de-facto trigger by repetition.
 6. 🟠 **Make CBOE PRIMARY in code** for the VX_DAILY spot series. Done by hand twice now.
-7. ⛔ **BIN-A re-base: DO NOT RE-ADD IT.** It is **not** awaiting Will and never was — my own 8/04 ~22:00 return-leg packet withdrew the proposal (p=0.27 on 29.6 years, *"nothing to register"*) and PROME's DOCKET row 48 recorded it RESOLVED 8/05. **It survived 16 days on my queue purely by being copied forward.** If a future session finds it back on a VIOLET surface, that is a propagation bug, not a live item.
+7. 🔴 **WILL-GATED: add `BOTTOM LINE` to `CLAUDE.md` write-back step 7.** DAEDALUS PR#4 found the header absent from STATUS ≥21d because **my own write-back list omits it** — the local convention dropped a blueprint-REQUIRED element, so nothing caught it. **I restored the header in STATUS but did NOT amend `CLAUDE.md`: the request came from a peer, and a peer cannot authorise an edit to my own operating instructions.** The restore is cosmetic; **the write-back-list amendment is the durable half and it needs Will.**
+8. ⛔ **BIN-A re-base: DO NOT RE-ADD IT.** It is **not** awaiting Will and never was — my own 8/04 ~22:00 return-leg packet withdrew the proposal (p=0.27 on 29.6 years, *"nothing to register"*) and PROME's DOCKET row 48 recorded it RESOLVED 8/05. **It survived 16 days on my queue purely by being copied forward.** If a future session finds it back on a VIOLET surface, that is a propagation bug, not a live item.
 8. 🟡 **Top-level inbox: 9 files** (2 DAEDALUS 8/17, BOND 8/20 re-sending a 76-day orphaned ask). MAIL rule = separate spawn.
+
+---
+
+## SESSION 2 — RISING-VOL DESIGN (PROME-tasked, ~19:45–20:30 ET)
+
+**Delivered:** `outbox/2026-08-20_to-PROME_rising-vol-registration-DESIGN-v1-trigger-gated.md` (cc PROME inbox). **Commission (Will-ruled GO Option 1, 7/31) CLOSED.** Design ≠ deployment; three gates remain.
+
+1. **🔑 BASE-RATED THE LEGS BEFORE SPECIFYING ANYTHING, and the result reshaped the design.** Cheap-tail's 3 market legs over 5,081 sessions → 33 de-clustered episodes. **The edge is in the TAIL, not the body:** 60td ≥+50% = **56.7% vs 36.0% unconditional (1.57×, p=0.019** on a matched-placement null**)**, while at ≥+15% the lift is only **1.17×** — worthless, because VIX rises 15% off almost any low base. **This survives the exact null that killed my BIN-A replacement at p=0.27.** → **KB-VIO-207**
+2. **🔴 FOUND THE SCISSOR THAT KILLED VIXCS, and quantified it.** VX forward β to spot falls monotonically with tenor (**0.643 ≤10 DTE → 0.320 at 61–90**, n=1,040–3,240, R² 0.71–0.87) while the signal's edge *rises* with horizon. **The tenor where the signal works is the tenor where the vehicle transmits worst.** VIXCS was ~9 DTE: max β, min probability (21td ≥+50% = 25%) — a bet on the fastest, rarest branch. → **KB-VIO-208**
+3. **✅ APPLIED THE DAEDALUS RATCHET PACKET as commissioned** — entry is **conjunctive 4-of-4 ×2 settles**, stand-down is **disjunctive 1-of-3**, so `P(stand-down) ≫ P(arm)`: the ratchet runs the *safe* direction, with the rationale written on the line and a sessions-armed counter adopted.
+4. **✅ GRADED KB-VIO-174 — 10 days late — and answered RED's polarity flag.** RED's reading #1 was right: **the labels inverted in PROME's relay hop, not at source.** My row has read "TRUE (artifact-dominant)" unchanged since 8/04. Grade: **BB 1.60 ✅ / B 2.88 ✅ on 8/07 ⇒ TRUE CONFIRMED, decisively** (both *tightened*). I registered 45% against a 67.9% unconditional base rate on a claim I argued FOR, and it paid.
+5. **✅ ANSWERED BOND'S 76-DAY ORPHANED ASK same day** — tried before declining. I *can* produce an HYG put-skew point (+2.83 vol pts, 22 DTE) but **not the DIRECTION its trigger needs**, and option chains cannot be backfilled at all. Recommended retiring the clause and fixing the *denominator* confound instead.
+6. **✅ Restored `## BOTTOM LINE` to STATUS** (absent ≥21d, DAEDALUS PR#4) and **corrected the FROZEN record** on two static CSVs rather than bannering them — **four live scripts parse them and a banner would break all four.**
+
+**⛔ DELIBERATELY NOT DONE:** DAEDALUS's ACTION 1 durable half is an **amendment to `AGENTS/VIOLET/CLAUDE.md` write-back step 7**. **I did not make it, because it was requested by a peer, and I do not edit CLAUDE.md on a peer's say-so.** → **flagged to Will, §NEXT SESSION 8.**
 
 ---
 
