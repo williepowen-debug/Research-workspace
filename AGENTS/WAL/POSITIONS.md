@@ -10,8 +10,8 @@
 
 | Strike | Expiry | Qty | Notes |
 |---|---|---|---|
-| $67.5P | Sep-18-2026 | 1 | Core REINFORCED-HOLD — caught the 7/21 Q2 print; v2.3 note: EV $73.92 now sits further above this strike than pre-print |
-| $70P | Sep-18-2026 | 1 | Core REINFORCED-HOLD — same |
+| $67.5P | Sep-18-2026 | 1 | Core REINFORCED-HOLD — caught the 7/21 Q2 print. ⚠️ **v2.4 note (8/20, supersedes the v2.3 note): EV is now $75.96, so this strike sits $8.46 BELOW EV** — on the central estimate it expires worthless, $2.04 worse than at v2.3 |
+| $70P | Sep-18-2026 | 1 | Core REINFORCED-HOLD — same. ⚠️ **v2.4: $5.96 BELOW EV $75.96** |
 
 ## History (carried from the REGINALD ledger at split)
 
@@ -20,5 +20,7 @@
 - **Jun-18-2026 cluster** ($65P/$67.5P/$77.5P/$85P) — CLEARED per Will 6/19 ($85P closed ~$5.09 ITM, rest OTM).
 - **May-15-2026 $75P** — expired/sold per Will confirm 5/21.
 - Phantom "Sep $77.5P" — never existed (mis-recorded Jun-18 leg); purged fleet-wide 7/17 audit.
+
+> ⚠️ **EV-vs-strike read, stated here because this is the canonical strike file (8/20):** both live cores are **below** the v2.4 EV of **$75.96**, i.e. my own central estimate has them expiring worthless. **BUT THE TWO LEGS ARE BOTH TRUE AND NEITHER RESOLVES THE OTHER:** the tape is at its period low with the **$78 threshold only +2.6% away, and that trigger fires on a CLOSE regardless of EV.** A model saying "worthless at expiry" and a threshold saying "about to trip" are answering different questions. **No action here — TERRY + Will [Approve] + live chain (root #4/#5).**
 
 *Position management = TERRY lane (rules #4/#5/#6/#7 — TERRY + Will [Approve] + live chain before any action). Sep-18 core expiry is on STATUS §EXPECTED SIGNALS. Non-WAL bank/credit legs (KRE/HBAN/APO) remain REGINALD's at `../REGINALD/POSITIONS.md`.*

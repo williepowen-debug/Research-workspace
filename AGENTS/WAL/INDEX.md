@@ -2,7 +2,7 @@
 **Start here on cold boot.** Standalone agent since **2026-07-25** (promoted from `AGENTS/REGINALD/WAL/`, Will-approved 7/22; review → `../DAEDALUS/builds/wal_promotion/PROMOTION_REVIEW.md`). Boot protocol → `CLAUDE.md` (auto-loads when launched from this dir).
 
 **Canonical tokens (MIRROR — sync at closeout, never originate here):**
-**Thesis v2.3** (2026-07-25, post-Q2 re-mark — **UNCHANGED at the 8/7 Q2 10-Q read; the v2.3.1 condition was evaluated and does NOT fire**) · Bear-fast 10% / Bear-medium 16% / Base 40% / Bull 27% / Tail 7% · **EV $73.92** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3; both carry an 8/7 note-only append — **specs Will-gated, unedited**) · KB **170 rows / 16 groups** (+25 on 8/7: MI3 first-run 164-170 + Q2 10-Q read 146-163; data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · ⛔ **Q2 10-Q FILED 7/31 → frame leg EXPIRED-UNWRITTEN / VOID; read UNFRAMED 8/7** → `Q2_10Q_READ_2026-08-07.md` · ★★ **V1a MI3 RAN 8/7, FIRST EVER — DISCONFIRMING** (Q1-26 23.88% · Q2-26 21.20%, both `<24%` PLATEAUED; **bear-fast KILL FIRED**, **~Sep 1 time-box DISSOLVED**; 10% weight NOT re-allocated → **v2.4 proposal P7**) → `MI3_FIRST_RUN_2026-08-07.md` · **Next event: 13Fs ~Aug 14**, then Q3 print ~mid-Oct; ⏱ **FFIEC JWT expires 11/5**
+**Thesis v2.4** (2026-08-20, MI3-disconfirmation re-mark — bear-fast's falsifier ran 8/7 and DISCONFIRMED; **v2.3.1 REJECTED + retired**) · Bear-fast **2%** / Bear-medium **16% (HELD)** / Base **45%** / Bull **30%** / Tail 7% · ⛔ **total bear 26%→18%, it FELL** · **EV $75.96** · **PT $52-74** ([Bear-fast low, EV], pinned) · **WAL-01 25% / WAL-02 50%** (formerly REG-24/25, OPEN to Q3; both carry an 8/7 note-only append — **specs Will-gated, unedited**) · KB **170 rows / 16 groups** (+25 on 8/7: MI3 first-run 164-170 + Q2 10-Q read 146-163; data clock 0d) · Positions → `POSITIONS.md` (Sep-18 $67.5P + $70P core) · ⛔ **Q2 10-Q FILED 7/31 → frame leg EXPIRED-UNWRITTEN / VOID; read UNFRAMED 8/7** → `Q2_10Q_READ_2026-08-07.md` · ★★ **V1a MI3 RAN 8/7, FIRST EVER — DISCONFIRMING** (Q1-26 23.88% · Q2-26 21.20%, both `<24%` PLATEAUED; **bear-fast KILL FIRED**, **~Sep 1 time-box DISSOLVED**; 10% weight NOT re-allocated → **v2.4 proposal P7**) → `MI3_FIRST_RUN_2026-08-07.md` · **Next event: 13Fs ~Aug 14**, then Q3 print ~mid-Oct; ⏱ **FFIEC JWT expires 11/5**
 
 ---
 
@@ -24,7 +24,7 @@
 | Offsets carried | Fee guide cut 20-25%→13-17%; deposit-cost guide $8B→$6B | 🟠 |
 | **V1a MI3** ⬅ ★★ **8/7** | **TESTED AT LAST — DISCONFIRMED.** Q1-26 **23.88%** · Q2-26 **21.20%**, both `<24%` PLATEAUED. **12 quarters: never once reached 25%** (high 24.24%, never within 76bps of its own trigger); oscillates with no trend since 2025Q1 | 🟢 **bear-fast KILL FIRED · time-box DISSOLVED.** ⚠️ **V1a ≠ V1** — the secured office book is untouched (KB-WAL-164/166/170) |
 | Short interest | 4.91% float [FINRA 6/30] — never cite boot-tool yfinance SI | 🟠 crowded short |
-| Spot vs model | **$81.77** [2026-08-07 intraday] — now **just BELOW Base top $82**, so the base case no longer implies a decline on its own arithmetic; overvaluation vs EV $73.92 = **10.6%** (was 12.4% at $83.11). Buffer to the $78 threshold **+$3.77 (+4.8%)**, compressed from 6.5%. Sell-side PTs post-Q2 ($90 JPM / $98 Citi) sit ABOVE our EV | — |
+| Spot vs model | **$80.05** [2026-08-20 ~14:4x ET] — **inside** the Base range $74-82; overvaluation vs EV $75.96 = **5.4%** (was 12.4% at $83.11/EV $73.92 — the margin of safety is NEARLY CLOSED, and now two-sided: EV +$2.04 AND price −$3.06). ⚠️ **Both live Sep-18 cores sit BELOW EV** ($67.5P −$8.46, $70P −$5.96). Buffer to the $78 threshold **+$3.77 (+4.8%)**, compressed from 6.5%. Sell-side PTs post-Q2 ($90 JPM / $98 Citi) sit ABOVE our EV | — |
 
 ## Data Update Rules
 
@@ -43,10 +43,10 @@
 | Order | File | What You Get |
 |-------|------|-------------|
 | 1 | `STATUS.md` | Dashboard: price, matrix, exit rules, catalysts, expected signals |
-| 2 | `THESIS.md` **v2.3** + top `CHANGELOG.md` entry | Current framework + what last moved and why |
+| 2 | `THESIS.md` **v2.4** + top `CHANGELOG.md` entry | Current framework + what last moved and why |
 | 3 | `MEMORY.md` | Session handoff + first-boot mandates |
-| 4 | `SCENARIOS.md` v2.3 | Ranges (⚠️ strike-by-strike sections May-vintage — rebuild owed) |
-| 5 | `workbook/KB.tsv` + `KB_INDEX.md` | **163-row** evidence base, 16 groups (Q2 106-127; insider 128-133; news 134-139; Q1 10-Q primary 140-145; **Q2 10-Q primary 146-163**) |
+| 4 | `SCENARIOS.md` v2.4 | Ranges (⚠️ strike-by-strike sections May-vintage — rebuild owed) |
+| 5 | `workbook/KB.tsv` + `KB_INDEX.md` | **177-row** evidence base, 16 groups (Q2 106-127; insider 128-133; news 134-139; Q1 10-Q primary 140-145; Q2 10-Q primary 146-163; MI3 first run 164-170; **8/20 catch-up 171-177**) |
 | 6 | `MI3_FIRST_RUN_2026-08-07.md` ⬅ ★★ **NEW** | The first-ever V1a MI3 grade + 12-quarter series + the KILL/time-box outcomes + P7-P10 |
 | 7 | `Q2_10Q_READ_2026-08-07.md` ⬅ **NEW** | The Q2 10-Q primary read + **the frame-void record** + the v2.3.1 verdict + P1-P6 |
 
@@ -58,8 +58,8 @@
 | `INDEX.md` | This file — start here |
 | `CLAUDE.md` | Agent instructions — spawn protocol, closeout checklist, signal tables |
 | `STATUS.md` | Live dashboard (≤250 ln) |
-| `THESIS.md` v2.3 + `CHANGELOG.md` | Thesis + version-pinned audit trail |
-| `SCENARIOS.md` v2.3 | Scenario branches + ranges |
+| `THESIS.md` v2.4 + `CHANGELOG.md` | Thesis + version-pinned audit trail |
+| `SCENARIOS.md` v2.4 | Scenario branches + ranges |
 | `workbook/KB.tsv` + `KB_INDEX.md` | Canonical evidence store + group navigator |
 | `workbook/PREDICTIONS.tsv` | WAL-01/02 (formerly REG-24/25) + future WAL predictions |
 | `workbook/MI3_SERIES.tsv` ⬅ **NEW 8/7** | 12-quarter MI3 series (RCON2746 ÷ item 4) + NDFI item 9a, two-clock header. **Standing quarterly pull** — next Q3-2026 Call Report ~Oct-Nov |
