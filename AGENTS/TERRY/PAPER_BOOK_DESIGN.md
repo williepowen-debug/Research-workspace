@@ -150,6 +150,8 @@ Exits are **rule-driven from the card, never P&L-driven.** Close when the card's
 | **Expiry** | option expiry date | **auto-close at intrinsic** (0 if OTM); no fill/spread — it just expires |
 
 - **Partial exits (RULING D):** a partial splits the row into a closed child + an open child (`PB-0002a` closed / `PB-0002b` open) — keeps P&L clean and survivorship intact; `notes` cross-links the pair.
+
+- **Approval-gated arms (RULING E — Will-ruled 2026-08-19, queue row 63, Option 3 of `PAPER_BOOK_RULING-E_would-fire-vs-approval_2026-08-19.md`):** a GATE-class card (arm → [Approve] → fire) whose **objective legs all pass on one session** auto-logs a row at that timestamp — **LOG ALWAYS: the counterfactual record is the product** (the USOARM +45%-mid/negative-at-touch measurement had to be reconstructed by hand; this rule makes it a routine mark). The row carries the token **`[RULING-E approval-pending]`** in `notes` and is **EXCLUDED from the `would_fire_90d` Phase-2 volume gate until Will flips inclusion** — the gate's ≥6 input is Will-pinned (7/24) and the 8/13 counter fix's bias is preserved: *an under-count cannot false-trip the gate.* Rows keep their timestamps, so a later flip to inclusion recomputes losslessly (the RULING-D stamp-keeping precedent). Fill per §Fill rules at the legs-pass timestamp; `will_decision = PASSED` when the arm expires unapproved — that IS the refusal-calibration datum. Founding row: `PB-0005` (USOARM, opened 2026-08-04 13:57 ET, retro-created 8/19 on Will's word — count stays 3/6).
 - **Marks ≠ exits.** `paper_book_mark.py` marks OPEN rows to MID on boot cadence; a mark moving closes nothing.
 - **NOT an exit trigger:** "it's up/down a lot" with no card rule behind it. Banned.
 

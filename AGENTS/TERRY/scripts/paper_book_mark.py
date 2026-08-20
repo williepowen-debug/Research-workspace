@@ -356,6 +356,11 @@ def would_fire_90d(rows, today):
     the number that was wrong."""
     events, raw = set(), 0
     for r in rows:
+        # RULING E (Will-ruled 2026-08-19, queue row 63, Option 3): approval-pending
+        # rows are LOGGED but EXCLUDED from this Will-pinned gate until Will flips
+        # inclusion — preserves the 8/13 fix's bias (an under-count cannot false-trip).
+        if "approval-pending" in (r.get("notes") or "").lower():
+            continue
         d = _asof_date(r.get("opened"))
         if d is not None and 0 <= (today - d).days <= 90:
             raw += 1
