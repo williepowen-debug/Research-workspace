@@ -8,6 +8,16 @@
 
 **Scope:** Thesis-relevant only — bank puts + credit/convergence. OZK lives in `../OZK/POSITIONS.md` (peer agent). **WAL lives in `../WAL/POSITIONS.md` (peer agent since 7/25 — REGINALD no longer owns WAL puts; the 3 legs [$77.5P Aug-21, $67.5P + $70P Sep-18] moved at the split).** Stocks, macro options (TLT/VIX/USO/XLE), and non-thesis (AAPL/APD/AAL/CCL/CF/DIS/KELYA/FXY/SLV/TBT) live in `FORGE/STATUS.md`.
 
+> ## ⏳ PRE-REGISTERED EXPIRY — Fri 2026-08-21 OPEX (written 8/20 12:02 ET, BEFORE the event)
+>
+> **Live REGINALD leg into tomorrow's monthly OPEX: `KRE $60P ×3`.** KRE **$74.62** [8/20 12:02 ET, live] — the strike is **19.6% below spot with one session left.** It expires worthless barring a one-day crash larger than any in the series I track. **No decision, no action, nothing owed to anyone.**
+>
+> ⚠️ **This block exists because the DECISION being trivial is exactly when the RECORD goes missing.** `LESSONS.md` carries two instances of the same class — **SSB $90P** and **KRE $70P**, both real positions whose exits never propagated to this ledger and which then lingered in dashboards for weeks as phantoms. Both were also "obvious." **Pre-registering the outcome the day before makes the write-back a checklist item instead of an act of memory.**
+>
+> **NEXT SESSION (8/21 or first session after): mark `KRE $60P Aug-21 ×3` LAPSED, move it to the cleared set, and confirm it is absent from the next FORGE broker export.** Remaining KRE tail after it goes: **7× $60P** (Sep-30 ×2 + Dec-18 ×5) — ⚠️ update the "10× $60P across 3 expiries" line below, which will be wrong the moment this expires.
+>
+> *Peer legs at the same expiry, flagged not managed:* **OZK `$45P ×4` + `$42.5P ×1`** are **`../OZK/`-owned** (OZK $49.16 → −8.5% / −13.5% OTM). **I do not touch them**; noted so tomorrow's sweep does not mistake peer legs for mine.
+
 ⚠️ **THIS FILE IS CANONICAL for strikes/expiries.** STATUS.md / CALENDAR.md must POINT here, not re-list — re-listing is how the 6/19 desync happened (SSB $90P real-but-sold/unrecorded, IWM $250P/$257P strike+expiry error, 4 missing names; see LESSONS). Before any position task: **grep this file first**, never trust a dashboard cluster list.
 
 ✅ **Contract quantities ARE now carried in this file** (absorbed at the 7/16 FORGE reconcile; re-confirmed against the 7/20 export — see below). *(This line replaced the obsolete "quantities not in this rewrite / FORGE Mar-25 stale" paragraph, which contradicted the rewrite — cleared 7/20 per PROME fire-drill nit.)* **Cost-basis/P&L: confirm with Will, not from this file** (per [[feedback_position_cost_basis_not_authoritative]]).
@@ -41,7 +51,7 @@ Will confirms 6/19: SSB $90P **was a real position, believed sold** (can't recal
 
 | Ticker | Strike | Expiry | Qty | Notes |
 |---|---|---|---|---|
-| KRE | $60P | Aug-21-2026 | 3 | tail-risk insurance (deep-OTM vs ~$77 tape) |
+| KRE | $60P | **Aug-21-2026** | 3 | tail-risk insurance. ⏳ **EXPIRES TOMORROW (Fri 8/21 OPEX). PRE-REGISTERED 8/20 12:02 ET: expiring WORTHLESS, no action.** KRE **$74.62** live → strike is **−19.6%** away; it needs a **19.6% one-day crash** to reach $60. Decision-free — **not a trim, not a roll, no rule-#7 read** (root rule #7 governs a thesis judgement; this is arithmetic). **NEXT SESSION: mark LAPSED and move to the cleared set — do not let the exit go unrecorded.** |
 | KRE | $60P | Sep-30-2026 | 2 | |
 | KRE | $60P | Dec-18-2026 | 5 | (2 + 3 margin) — ⚠️ **CORRECTED 2026-08-13: NO TRIM EVER HAPPENED.** Superseded text read *"Dec-18 trimmed 7→5 per 7/16 reconcile"* — that compared **7 KRE ROWS across ALL FOUR expiries** (three of them already expired) in the pre-reconcile file `f74117049`, which had **no quantity column at all**, against **5 CONTRACTS on ONE expiry**. Rows vs contracts. **Root rule #7 was never triggered; there was no size decision to record.** |
 | HBAN | $16P | Oct-16-2026 | 2 | ⚡ **EXIT-thesis dust** (Will ruled 7/18) — $20 residual, rides to expiry, do NOT re-enter. ⚠️ **CORRECTED 2026-08-13: NO TRIM.** Superseded text read *"trimmed 4→2 per 7/16 reconcile"*; the **"4" appears nowhere in this ledger at any vintage**, and the recorded quantity went **1 un-quantified row → 2 contracts**, i.e. UP. Same unit-mismatch class as the KRE row above. |

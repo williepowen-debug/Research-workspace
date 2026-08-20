@@ -78,6 +78,8 @@
 
 **⚠️ Read the Open Question above first — it is the real one.**
 
+**⏳ 0. MECHANICAL FIRST (root rule #8): `KRE $60P Aug-21 ×3` expires Fri 8/21 — pre-registered 8/20 as expiring worthless (KRE $74.62, strike −19.6%). The DECISION is trivial; the WRITE-BACK is the owed item. Mark LAPSED in POSITIONS.md, move to the cleared set, correct the "10× $60P across 3 expiries" line to 7×, and confirm it is off the next FORGE export. ⚠️ **PROME's stack record had this as 'nothing owed' and my own POSITIONS.md said `REGINALD's next mechanical pile = KRE Aug-21 ×3` — I checked instead of agreeing.** LESSONS carries two unrecorded-exit phantoms (SSB $90P, KRE $70P) that were each equally obvious at the time.**
+
 **🔴 1. Name a NON-credit bank instrument, or accept the blind spot explicitly.** Today's null is only informative if my instruments *could* have found something. They are all credit. **Candidates to price out: forward P/TBV or P/E dispersion · consensus-EPS revision breadth · ETF creation/redemption (KRE float — instrument now fixed) · short interest (OZK 16.82% / EGBN 10.48%, both 7/30 vintage, both HIGH and rising) · options skew.** Base-rate before building; "don't build it" is a real answer.
 **🔴 2. The catalyst is still unidentified and the window is now ~5 sessions.** If TERRY's persistence leg (n≈7) lands, this becomes a real regime question, not rotation. **Re-run the 26-name sort then** — a factor event that persists usually starts sorting on *something* as fundamentals reassert.
 **🟠 3. `CREED-T-03` / FDIC Q2 QBP ~8/24-8/29 — days away, and it is the trade-relevant CRE trigger.** I told CREED I'd hold my CRE-channel read until their grade lands. **Do not form an independent view off the raw release.**
