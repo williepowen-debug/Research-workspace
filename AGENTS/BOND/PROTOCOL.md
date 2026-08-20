@@ -16,7 +16,7 @@
    - **Foreign-official UST custody (H.4.1 memorandum item)** — `federalreserve.gov/releases/h41/<YYYYMMDD>/h41.htm`, Thursday releases, browser UA required. ⚠️ **FRED's custody family (`WMTSECL`, `WMTSEC`, `H0RESH4C*`) was DISCONTINUED 2012-11-07** — a fact about FRED, not about the data; go to the release. Grade the **Wednesday level and the weekly average together** (they can disagree in sign), and **always attach the preceding fortnight** — a decline read alone inverted the conclusion on 2026-08-15 (`KB-BND-109`).
    - Issuance from SIFMA / high-quality market news.
    - Auction internals from **TreasuryDirect TA_WS primaries, never wires** — wires misdate this series (caught at BND-08). Compute % of **competitive accepted**.
-   - CDX: true index levels are paywalled (S&P/Markit). Use `monitors/cdx_proxy.py` (HYG/IEF, LQD/IEF) and **sign-check both legs** before ever calling a divergence.
+   - CDX: true index levels are paywalled (S&P/Markit) *(canonical statement + `re-test: 2026-12-01` → `monitors/CDX_CASH_BASIS.md`)*. Use `monitors/cdx_proxy.py` (HYG/IEF, LQD/IEF) and **sign-check both legs** before ever calling a divergence.
 7. Update `STATUS.md` if state changed.
 8. Update `TRADE.md` if state affects supported trades.
 9. Update workbook files when evidence/predictions/vectors/flows change.
