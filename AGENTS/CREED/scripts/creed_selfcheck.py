@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CREED self-check — two NARROW closeout checks. CREED-scoped only; reads nothing outside AGENTS/CREED/.
+CREED self-check — three NARROW closeout checks. CREED-scoped only; reads nothing outside AGENTS/CREED/.
 
 WHY THIS EXISTS (2026-08-20). A Will-directed staleness sweep found 14 defects that no existing
 tool could see. `consumer_check.py` scans superseded VALUES; the two worst findings were a superseded
@@ -124,16 +124,41 @@ if predb:
             flag("RED", "asserted-count",
                  f"PREDICTIONS_SCOREBOARD.md still asserts n=0 while {resolved} prediction(s) are RESOLVED")
 
+# ══════════════ CHECK 3 — outstanding known-stale banners ══════════════
+# Added minutes after check 1 shipped, on a live observation: a "KNOWN-STALE, rebuild pending" banner
+# added to COVERAGE.md contained the word FIRED, which made check 1 go GREEN on a file whose 12 lanes
+# were still pre-fire. The check behaved exactly per its documented file-level scope -- and that is the
+# problem: a BANNER SHOULD NOT BE ABLE TO SILENCE THE GUARD.
+# This turns each banner into tracked debt. `finding_banner_is_a_warning_not_a_fix` says pair every
+# banner with a dated rewrite trigger; this IS that pairing, mechanised. It clears when the banner goes.
+BANNER = re.compile(r"KNOWN-STALE|rebuild pending|do NOT cite as current|DO NOT CITE AS CURRENT")
+BANNER_SCAN = ["COVERAGE.md", "README.md", "STATUS.md", "thesis/THESIS.md",
+               "registry/THRESHOLDS.tsv", "workbook/VX.tsv", "workbook/FLOW.tsv"]
+for surf in BANNER_SCAN:
+    body = R(surf)
+    if body is None:
+        continue
+    seen_lines = {}                       # dedupe: one banner LINE = one finding, not one per pattern
+    for m in BANNER.finditer(body):
+        line = body[:m.start()].count("\n") + 1
+        seen_lines.setdefault(line, set()).add(m.group(0))
+    for line in sorted(seen_lines):
+        marks = ", ".join(sorted(seen_lines[line]))
+        flag("AMBER", "open-staleness-banner",
+             f"{surf}:{line} carries a known-stale banner ({marks}) — outstanding debt, "
+             f"not a fix. Clears when the banner is REMOVED, not when it is written.")
+
 # ══════════════ report ══════════════
 print("CREED SELF-CHECK — fired-trigger consistency + asserted counts")
 print(f"  actual: VX={actual['vx']} · KB={actual['kb']} · PRED={actual['pred']} "
       f"(open={open_n if predb else '?'}) · workbook files={actual['wbfiles']}")
 if not findings:
     print("\n  ✓ CLEAN — no fire-state or count inconsistencies.")
-    print("  Scope: file-level fire markers on 6 surfaces + known count phrasings. A NEW prose")
+    print("  Scope: file-level fire markers on 6 surfaces + known count phrasings + open staleness")
     print("  phrasing for a count is NOT covered; add it to ASSERTIONS when you introduce one.")
     sys.exit(0)
 for sev, check, msg in findings:
-    print(f"\n  \U0001f534 [{check}] {msg}")
+    icon = "\U0001f534" if sev == "RED" else ("\U0001f7e0" if sev == "AMBER" else "\u2139\ufe0f")
+    print(f"\n  {icon} [{check}] {msg}")
 print(f"\n  {len(findings)} finding(s). Fix by PATTERN, not by this list.")
 sys.exit(1)

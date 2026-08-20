@@ -2,12 +2,14 @@
 
 **The map of the territory CREED owns, lane by lane: what it covers, where the number comes from, how fresh the *data* is, and how well-built the lane actually is.** `STATUS.md` is the live dashboard; **this is the map.** Adopted 2026-07-27 from `CORAL/COVERAGE.md` (the 10-pillar Florida map).
 
-*Last refreshed: 2026-07-27 (created; lanes seeded from the 7/27 pack + the 31-vector workbook).*
+*Last refreshed: 2026-07-27 (created; lanes seeded from the 7/27 pack + the then-31-vector workbook — now 32).*
+
+> 🔴 **THE LANE TABLE BELOW IS PRE-FIRE AND KNOWN-STALE (flagged 2026-08-20, rebuild pending).** It predates the 8/13 and 8/20 sessions: lanes 1–3 carry **June** prints as live reads (July: office DQ **11.91%**, office SS **16.58%**, maturity-adj **9.62%**), **lane 3 owns `CREED-T-02` which FIRED 2026-08-20**, lane 6 describes a courier arrangement **killed 8/13**, and lane 1 repeats the **refuted** "Trepp PDF paywalled" claim. **Cite `STATUS.md` and `thesis/THESIS.md`, not this table, until the rebuild lands.** Counts in this header were corrected 8/20; **the lanes were not.**
 
 **Maturity legend:** 🟢 well-covered (fresh data + workbook vectors + a trigger) · 🟡 partial (data exists, gaps or one-source) · 🔴 thin/stub (needs build-out) · ⏳ in flight
 
 > ### ⚠️ Why this file exists, and what it does that `VX.tsv` cannot
-> **`VX.tsv`'s `Last_Updated` is a TOUCH date, not a DATA VINTAGE.** All 31 vectors read `2026-07-27` because that is when the workbook was built — while the underlying prints range from **FDIC Q1** to **intraday 7/27 tape**. A reader scanning `Last_Updated` would conclude the whole surface is same-day fresh. **It is not, and the difference is exactly where CREED gets hurt.** This map is keyed to **data vintage**, which is the thing that decides whether a number is citable.
+> **`VX.tsv`'s `Last_Updated` is a TOUCH date, not a DATA VINTAGE.** At creation all 31 vectors read `2026-07-27` because that is when the workbook was built — while the underlying prints ranged from **FDIC Q1** to **intraday 7/27 tape**. *(Now 32 vectors, and a handful carry `2026-08-20` after the Trepp primary-read pass — **which does not weaken the point, it sharpens it: the file now mixes touch dates across three sessions, so scanning `Last_Updated` is even less informative than when this warning was written.**)* A reader scanning `Last_Updated` would conclude the whole surface is same-day fresh. **It is not, and the difference is exactly where CREED gets hurt.** This map is keyed to **data vintage**, which is the thing that decides whether a number is citable.
 >
 > **The second reason is worse:** CREED's life-science coverage gap — on the exact asset class inside OZK's Seattle credit *and* KREF's risk-5 reserves — **was found by WALTER, not by CREED.** CREED had no map of its own territory, so it could not see a hole in it. `finding_count_measures_intake_not_domain`: *you can audit what you killed, never what you never saw.* **§Blind spots below records who found each gap, because a gap someone else finds is evidence of a systematic blind spot, not a one-off.**
 

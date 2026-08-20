@@ -84,7 +84,7 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
    4. `AGENTS/CREED/research/INBOX_TRIAGE_2026-06-21.md`
    5. `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md`
    6. `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
-7. **Read `AGENTS/CREED/workbook/VX.tsv`** (the live metric layer — 31 vectors mapped to the Expected Signals) **and run the staleness check below.**
+7. **Read `AGENTS/CREED/workbook/VX.tsv`** (the live metric layer — 32 vectors mapped to the Expected Signals) **and run the staleness check below.**
 
 If a task only asks for file hygiene or topology checks, do not make fresh market claims from the rails. If a task asks for current market analysis, refresh live/monthly data first where needed.
 
@@ -92,7 +92,7 @@ If a task only asks for file hygiene or topology checks, do not make fresh marke
 
 ## Workbook — Boot Staleness Check (LIVE-with-alert, not FROZEN)
 
-The workbook (`AGENTS/CREED/workbook/`, built 2026-07-27) is the **live metric layer** under the prose rails. Six files: `SCHEMA.tsv` · `VX.tsv` · `FLOW.tsv` · `KB.tsv` · `PREDICTIONS.tsv` · `VX_HISTORY.tsv`.
+The workbook (`AGENTS/CREED/workbook/`, built 2026-07-27) is the **live metric layer** under the prose rails. Eight files: six TSVs — `SCHEMA.tsv` · `VX.tsv` · `FLOW.tsv` · `KB.tsv` · `PREDICTIONS.tsv` · `VX_HISTORY.tsv` — plus `PREDICTIONS_SCOREBOARD.md` and `WORKBOOK_DESIGN.md`. *(Said "Six files" until 2026-08-20 while `README.md` correctly listed eight — the two files disagreed with each other for ~3 weeks. Counts are now checked mechanically at closeout by `scripts/creed_selfcheck.py`.)* **The threshold registry is separate and does NOT live here — see `registry/` below.**
 
 **At boot, run:**
 

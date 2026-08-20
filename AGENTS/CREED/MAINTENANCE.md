@@ -32,6 +32,10 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ⚠️ **Known scope limits, recorded so a future session does not over-trust a green:** check ② matches **known prose phrasings only** (`ASSERTIONS` list) — a new phrasing is invisible, so **extend `ASSERTIONS` in the same edit that introduces one.** Check ① is **file-level, not line-level**: a file containing the word FIRED *anywhere* passes for that trigger, so it detects total absence, not a stale sentence inside an otherwise-updated file.
 
+**⚠️ CHECK 3 ADDED THE SAME DAY, ON A LIVE OBSERVATION — and the observation is the useful part.** Phase 4's fix to `COVERAGE.md` added a *"KNOWN-STALE, rebuild pending"* banner. That banner contains the word **FIRED**, so **check 1 went GREEN on a file whose 12 lanes were still entirely pre-fire.** The check behaved exactly per its documented file-level scope — **and that is precisely the problem: a banner must not be able to silence the guard.** Fixed within minutes by adding **check 3 (open-staleness banners)**, which flags 🟠 while any known-stale banner stands and **clears only when the banner is REMOVED, not when it is written.** `finding_banner_is_a_warning_not_a_fix` says pair every banner with a dated rewrite trigger — **this IS that pairing, mechanised**, and it converts a banner from a silencer into tracked debt.
+
+> **The transferable bit: a documented limitation is not a mitigated one.** This exact limit was written into the file's own docstring *before* it shipped, and it still produced a false green inside the hour. **Writing the caveat down did nothing; the check did.**
+
 ⚠️ **Process-weight discipline:** it runs at **CLOSEOUT, not boot.** CREED is Tier-2 spawn-on-need and boot cost is the thing that makes such an agent expensive to wake. **20ms and CREED-scoped — if it ever grows slow or starts reading other agents' files, cut it back.**
 ## 2026-08-20 (late) — ALWAYS-LOADED traps block: #3 REWRITTEN, #6 and #7 promoted (5 → 7)
 
