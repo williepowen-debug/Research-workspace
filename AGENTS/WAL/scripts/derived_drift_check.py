@@ -27,7 +27,7 @@ values sitting beside historical ones
 
 MEASURED PRECISION, stated so nobody reads a nonzero count as failure. On the
 swept tree of 2026-08-20 this settles at a BASELINE of ~10 check-1 and ~23
-check-2 hits, and nearly all of them are correct history whose marker sits
+check-2 hits (CHECK 3 clean after the closeout sync), and nearly all of them are correct history whose marker sits
 outside the proximity window (dated KB rows, superseded THESIS/SCENARIOS
 sections). Unscoped it returned 54/32 — that is alert fatigue, and a check
 nobody reads is worse than no check.
@@ -130,6 +130,35 @@ def main():
                 line = text[:m.start()].count("\n") + 1
                 drift.append((rel, line, kind, tok, whole[:150]))
 
+    # ---- CHECK 3: KB row count. Added 2026-08-20, HOURS after this script shipped, because
+    # the closeout found INDEX/CLAUDE/KB_INDEX all carrying "177 rows" against an actual 180
+    # and CHECK 1 could not see it — it only knew version/EV/PT. A drift check is only as wide
+    # as its list of canonical values, which is the same completeness trap the fold-list had.
+    kb = os.path.join(root, "workbook", "KB.tsv")
+    if os.path.exists(kb):
+        actual = sum(1 for l in open(kb, encoding="utf-8") if l.startswith("KB-WAL-"))
+        rx_rows = re.compile(r"\*{0,2}(\d{2,4})[- ]row s?\b|\*{0,2}(\d{2,4}) rows\b", re.I)
+        for rel in surfaces(root):
+            if os.path.basename(rel) in SKIP_FOR_RETIRED:
+                continue
+            try:
+                text = open(os.path.join(root, rel), encoding="utf-8", errors="replace").read()
+            except OSError:
+                continue
+            for m in rx_rows.finditer(text):
+                n = m.group(1) or m.group(2)
+                if int(n) == actual or int(n) < 50:      # <50 = group subtotals, not the KB total
+                    continue
+                if excused(text, m.start(), m.end()):
+                    continue
+                ls = text.rfind("\n", 0, m.start()) + 1
+                le = text.find("\n", m.end())
+                whole = text[ls:le if le != -1 else len(text)]
+                if not re.search(r"kb|evidence|workbook", whole, re.I):
+                    continue                              # some other N-row table
+                line = text[:m.start()].count("\n") + 1
+                drift.append((rel, line, "KBrows", n + f" (actual {actual})", whole[:150]))
+
     # ---- CHECK 2: claims this desk has already killed
     rc = os.path.join(root, "workbook", "RETIRED_CLAIMS.tsv")
     rows = []
@@ -161,7 +190,7 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 10, 23      # swept baseline 2026-08-20; re-baseline on each sweep
+        BASE_DRIFT, BASE_REVIVED = 11, 23      # swept baseline 2026-08-20 closeout (CHECK 3 added); re-baseline on each sweep
         if len(drift) > BASE_DRIFT or len(revived) > BASE_REVIVED:
             print(f"🔴 derived drift ABOVE BASELINE: {len(drift)}/{BASE_DRIFT} stale value token(s), "
                   f"{len(revived)}/{BASE_REVIVED} retired claim(s) — something NEW rotted; run without --quiet")

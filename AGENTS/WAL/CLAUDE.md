@@ -166,7 +166,7 @@ One `.md` per signal: `YYYY-MM-DD_to-[target]_[desc].md` — Signal / Detail / S
 | `Q2_GRADING_FRAME_2026-07-21.md`, `PREPRINT_RECON_2026-07-17.md`, `EARNINGS_PREP.md` | 🧊 Frozen pre-registration/calibration records. |
 | `FRAUD/` | WAL-lensed fraud corpus + litigation arc. |
 | `MARKET/` | Technicals snapshots (TRADE_LOG bannered — phantom-strike residue). |
-| `workbook/` | `KB.tsv` (**177 rows** / 16 groups) + `KB_INDEX.md` + `PREDICTIONS.tsv` (**WAL-01, WAL-02, REG-15**). |
+| `workbook/` | `KB.tsv` (**180 rows** / 16 groups) + `KB_INDEX.md` + `PREDICTIONS.tsv` (**WAL-01, WAL-02, REG-15**). |
 | `sources/` | Primary extracts; `q*/` + `10k_*/` binaries gitignored, `.md` synthesis tracked. |
 | `research/` | WAL-specific research threads. |
 | `scripts/kb_expiry_check.py` | Reads KB's `Stale_By` column (nothing did before 8/20). Boot step 4b, advisory, exit 0. |

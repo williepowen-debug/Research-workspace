@@ -1,5 +1,5 @@
 # WAL KB Index — Group Navigator
-**177 rows | 16 groups | Seeded 2026-03-25 | Last refresh 2026-08-20** (8/20 catch-up **171-177**: two REAL 5%-holder 13Gs [T. Rowe −20.8%, Invesco re-crossed +12.5%] · implied shares −1.7% · Aug insider sweep zero-signal · ★ **first-ever NDFI nonaccrual $122.5M** · dividend · Jefferies countersuit re-verified no-change) · **MI3 first run 164-170 (8/7)** · *(prior header read "145 rows / last refresh 2026-07-25" — 32 rows and two sessions stale; caught in the 8/20 sweep)* | ~~Last refresh 2026-07-25~~ (Q2 print cycle 106-127 · Form 4/144 insider sweep 128-133 · news/coverage sweep 134-139 · **Q1 10-Q primary pull 140-145** — first WAL-owned ingest)**
+**180 rows | 16 groups | Seeded 2026-03-25 | Last refresh 2026-08-20** (8/20 catch-up **171-177**: two REAL 5%-holder 13Gs [T. Rowe −20.8%, Invesco re-crossed +12.5%] · implied shares −1.7% · Aug insider sweep zero-signal · ★ **first-ever NDFI nonaccrual $122.5M** · dividend · Jefferies countersuit re-verified no-change) · **MI3 first run 164-170 (8/7)** · *(prior header read "145 rows / last refresh 2026-07-25" — 32 rows and two sessions stale; caught in the 8/20 sweep)* | ~~Last refresh 2026-07-25~~ (Q2 print cycle 106-127 · Form 4/144 insider sweep 128-133 · news/coverage sweep 134-139 · **Q1 10-Q primary pull 140-145** — first WAL-owned ingest)**
 
 ---
 
