@@ -79,13 +79,21 @@ Key accounts for real-time military tracking:
 
 ## Energy/Commodity Impact — **BRENT-owned (defer)**
 
-> Oil pricing, storage, tanker-market rates → **BRENT** owns these; reference BRENT's values, don't re-derive (Mar 6 2026 handoff). HAWK's use of the flow trackers below is narrow: **chokepoint military-transit monitoring** (Hormuz/Bab-al-Mandab vessel counts, AIS dark-transit, naval blockade status) — not oil-price formation.
+> Oil pricing, storage, tanker-market rates → **BRENT** owns these; reference BRENT's values, don't re-derive (Mar 6 2026 handoff).
+>
+> 🔴 **RULING 2026-08-20 — READ BEFORE USING ANY ROW IN THE TABLE BELOW. This section previously said HAWK's use of these trackers is *"chokepoint military-transit monitoring (Hormuz/Bab-al-Mandab vessel counts, AIS dark-transit...)"*. THAT INSTRUCTION IS WITHDRAWN.**
+>
+> **The Hormuz TRANSIT/CROSSING-COUNT family is IMPEACHED and INADMISSIBLE as a falsifier basis for this desk** (`KB-HAWK-270`). BRENT impeached its own PortWatch `chokepoint6` series internally (`n_tanker>0` with `capacity_tanker=0` on **0 of 424** pre-crisis days vs **19 of 113** war tanker-days); Windward independently reports **~58% of Hormuz transits running DARK**; the fleet held **six readings spanning 0-12 for adjacent days across ≥4 unstated perimeters, zero comparable pairs.** FALCON then supplied a **known-positive control**: a VLCC verifiably loaded ~2M bbl at Kharg on 8/12 while its watcher and PortWatch both printed **0** — through the entire 25-day halt *and* its resumption.
+>
+> **⇒ THE ONE-DIRECTION RULE, and it governs every AIS-derived row below: a NONZERO print REFUTES absence. A LOW OR ZERO PRINT PROVES NOTHING.** Never let one carry an **absence** or a **duration** claim — that is what deleted `HAW-19`'s γ limb. For irreversibility use **documentary** evidence (operator/sovereign force majeure, restoration timelines) or **dark-immune** imagery (Sentinel-2 class).
+>
+> ⚠️ **Why this warning lives HERE and not only in a KB row:** FALCON found a retired gate still issuing imperative instructions inside its own boot file, and flagged that **a ruling does not travel to the instruments on its own.** I checked my tree on that prompt and found this section — my own 8/20 ruling had not reached the sources table it governs. Found ~4 hours after the ruling.
 
 | Source | URL | Focus | HAWK use |
 |--------|-----|-------|----------|
-| TankerTrackers | https://tankertrackers.com | Oil shipping / AIS | Chokepoint transit counts only |
-| Kpler | https://www.kpler.com | Commodity flows | Hormuz throughput / dark-transit |
-| MarineTraffic | https://www.marinetraffic.com | Vessel AIS | Naval + transit tracking (also Military) |
+| TankerTrackers | https://tankertrackers.com | Oil shipping / AIS | ⚠️ **Transit counts INADMISSIBLE as a falsifier basis** — refuting direction only |
+| Kpler | https://www.kpler.com | Commodity flows | Flow/loadings **deltas** only, and **never alone** — pair with Vortexa (agree within 1.5×) + a dark-immune corroborator. Imputes dark tonnage; 2.8× spread vs Vortexa on one asset-week |
+| MarineTraffic | https://www.marinetraffic.com | Vessel AIS | ⚠️ AIS-derived — **refuting direction only**; naval presence OK, **transit counts inadmissible** |
 | S&P Global Platts | https://www.spglobal.com/platts | Energy pricing | → BRENT (reference only) |
 
 ---
