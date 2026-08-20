@@ -281,8 +281,17 @@ def write_rows(as_of, derived, policy_rate, quality):
 def prior_curve(as_of):
     """Most recent stored curve from a STRICTLY EARLIER as-of date (the comparison
     baseline for deltas)."""
+    # ⚠️ DO NOT tighten this back to `quality == "ok"`. Impeaching a SOURCE re-stamps
+    # every one of its stored rows non-"ok", which silently emptied this baseline and
+    # blanked the "vs prior" column on 2026-08-20 — a guard against a bad LEVEL that
+    # disabled a working DELTA, with no warning. A row from an impeached source is an
+    # accurately-parsed reading of a defective source, not garbage: the level is not
+    # citable, the day-over-day CHANGE still is (with the caveat printed at display).
+    # Only genuinely failed parses ("none…") are excluded. Same SOURCE only — a delta
+    # across instruments would compare two different objects.
     rows = [r for r in read_tsv() if r.get("as_of_date", "") < as_of.isoformat()
-            and r.get("quality") == "ok"]
+            and r.get("source") == SOURCE_NAME
+            and not r.get("quality", "").startswith("none")]
     if not rows:
         return None, {}
     prev_as_of = max(r["as_of_date"] for r in rows)
@@ -393,15 +402,24 @@ def main():
     else:
         print(f"\n  ✓ BOJ_OIS.tsv — already current for as-of {as_of} (no new data)")
     if SOURCE_NAME in IMPEACHED_SOURCES:
+        print("\n  ⚠️  The 'vs prior' deltas above are WITHIN the impeached source.")
+        print("      A day-over-day change can be read; the LEVEL cannot.")
+        print("      (And the defect magnitude is NOT constant across dates, so treat")
+        print("       even the delta as indicative, not measured.)")
         print("\n" + "=" * 72)
         print("  ⛔ DO NOT CITE THE SEPTEMBER FIGURE ABOVE. THE SOURCE IS IMPEACHED.")
         print("=" * 72)
         print("  centralbank.watch's Sep-2026 leg is refuted MODEL-FREE: the observed TFX")
         print("  spread forces P(Sep) >= 81.3% under at-most-one-hike, and a ~51-52% print")
         print("  would require pricing 126.9% of a hike (ORACLE verdict 2026-08-17).")
-        print("  ✅ CITE ~73%, CONVERGED AND FALLING — Kalshi 74.5 / Polymarket 73.5 /")
-        print("     TFX 72.2, within 2.3pp in one 7-min window. It is a stored row in")
-        print("     BOJ_OIS.tsv under source 'multi-source-converged'.")
+        print("  ✅ BEST AVAILABLE ~73% — Kalshi 74.5 / Polymarket 73.5 / TFX 72.2,")
+        print("     within 2.3pp in one 7-min window; stored in BOJ_OIS.tsv under")
+        print("     source 'multi-source-converged'.")
+        print("  🔴 BUT IT IS OBSERVED as_of 2026-08-17 AND THE SERIES IS FALLING, so")
+        print("     quoting it as CURRENT is biased HIGH. It is also the OLDEST as-of")
+        print("     in the file, because the newer rows are the impeached ones — i.e.")
+        print("     the only citable Sep number here is the stalest one. RE-PULL")
+        print("     before citing as current. (Caught by WALTER 2026-08-20.)")
         print("  ⚠️  SAM's OWN ~72-77% TFX band is ALSO superseded — it bracketed the truth")
         print("     only because three derivation errors cancelled (+6.0 settlement-column")
         print("     offset, +8.0 day-count f_Sep=0.9121, -19.0 two-meeting reference quarter).")
