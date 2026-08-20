@@ -636,9 +636,19 @@ def check_delivered_but_unconsumed():
              + (f"({by_rcpt[r][0]}A/{by_rcpt[r][1]}I)" if by_rcpt[r][0] else "")
              for r in sorted(by_rcpt, key=lambda r: -(by_rcpt[r][0] * 100 + by_rcpt[r][1]))]
     info_total = len(aged) - action_total
-    summary = (f"{len(aged)} delivered-but-unconsumed across {len(by_rcpt)} agents, "
-               f"oldest {oldest}d — {action_total} ACTION / {info_total} INFO: "
-               f"{'; '.join(parts)}")
+    # ⚠️ SCOPE MUST BE ON THE LINE (2026-08-20). This block counts handoffs unconsumed
+    # for MORE THAN N_UNCONSUMED_DAYS — a deliberate grace period — but the summary
+    # used to read "N delivered-but-unconsumed", which a reader (including WALTER)
+    # takes as THE BACKLOG. Found when OSPREY self-reported 8 unprocessed WALTER items
+    # while this line said "OSPREY 1": 7 of its 8 were 1-2d old and correctly excluded
+    # by the threshold, yet the label implied they did not exist. The number was right
+    # for what it measured; the LABEL overstated its scope.
+    # `[[finding_verification_zero_is_ambiguous]]` — a check certifies its SCOPE.
+    total_in_flight = len(files)
+    summary = (f"{len(aged)} unconsumed >{N_UNCONSUMED_DAYS}d across {len(by_rcpt)} agents "
+               f"(of {total_in_flight} in flight — the rest are within the grace period, "
+               f"NOT evidence they are consumed), oldest {oldest}d — "
+               f"{action_total} ACTION / {info_total} INFO: {'; '.join(parts)}")
     if action_total:
         return pc + [(MED, summary + " — ACTION items are the risk; install recipient "
                       "consume boot-step (CC self-apply set) to clear")]
