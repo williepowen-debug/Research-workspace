@@ -2,12 +2,12 @@
 
 **Purpose:** ephemeral session handoff. Read at boot, rewritten at closeout.
 
-> ## 🔴 FIRST THING NEXT SESSION — `BND-17` IS OPEN AND ITS EVENT HAS **NOW** PASSED
-> ⚠️ **Correction to the prior handoff, which said the event had already passed — IT HAD NOT.** At this session's boot the clock read **11:34 ET** and the auction prices at **1PM ET**. The last handoff was written before 1PM and assumed the next boot would land after it. **This session also closed before 1PM.** *(Lesson, small but repeated: a handoff wrote a future event in the past tense. State the clock time you wrote at, not the tense you expect the reader to be in.)*
-> **The 8/20 1PM 30Y TIPS reopening (`912810US5`, $8B) is NOT graded.**
-> **Bars FROZEN and committed** (`grade_auction.py`, trailing-7 SAME-TIPS, 2023-02-16→2026-02-19, **n=7**): indirect median **76.17%** · BTC median **2.48** · dealer median **6.89%** · failure test indirect **<70.44 AND** dealer **>9.87** · cover marker BTC **<2.38**.
-> **Run `python3 monitors/grade_auction.py --cusip 912810US5`; grade `BND-17`** — TRUE if indirect ≥76.17, FALSE if below, **VOID-UNSCOREABLE** if TreasuryDirect has not published competitive-accepted components within 24h. **STATE THE MARGIN IN pp.** Commit the artifact, doorbell PROME.
-> ⚠️ **Will-directed CALIBRATION row — nothing rides on it.** No gate, no capital, no composition claim.
+> ## ✅ `BND-17` IS GRADED — RESOLVED TRUE, +8.28pp (2026-08-20 ~13:3x ET)
+> **30Y TIPS reopening `912810US5`, $8B: BTC 2.82 · indirect 84.45% · direct 13.45% · dealer 2.10% · HY 2.9730** (% of competitive accepted, $7.943B). 🟢 **CLEAN** — no cover marker, no composition failure.
+> **★ Strongest of the 7 held 30Y TIPS on ALL THREE legs:** ind 84.45 vs prior max **78.30** (+6.15pp) · BTC 2.82 vs prior max **2.78** · dealer 2.10 **below** the prior **MIN** 2.49.
+> ⚠️ **Superlative scope:** series 30Y TIPS · basis %-of-competitive-accepted · window 2023-02-16→2026-08-20 · **n=8**. 30Y TIPS predate 2023 — that window is **UNCHECKED, not unavailable. **`re-test: 2026-09-20`** — pull the full 30Y TIPS history from TreasuryDirect with an EXPLICIT date range (TA_WS caps at 250 rows and its date filter is inoperative, which is the actual reason the window is short); until then no claim wider than n=8.**. `re-test` before any wider claim.
+> 🔑 **CALIBRATION, and it is why the row existed: I priced it 45% — judging the stronger form more likely to FAIL — and it cleared by 8.28pp.** With `BND-14` FALSE at 60% the day before, that is **two consecutive auction calls on the wrong side of a benign outcome, both in the same direction: this desk prices auction demand WEAKER than it prints.** n=2 is not a verdict; it is now a pattern to watch.
+> **Write-back COMPLETE:** PREDICTIONS ✅ · `KB-BND-154` ✅ · STATUS catalyst + matrix + mirror ✅ · `VX-BND-01`/`-13` ✅ · `AUCTION_HEALTH` rolling table ✅ · `CATALYSTS` resolved ✅.
 
 ## CHANGES SINCE the 08:4x–11:3x session
 
@@ -26,7 +26,7 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **🔴 GRADE `BND-17`** — see the box at the top. Highest priority. ⚠️ **Check `date` FIRST: this was written at ~12:0x ET and the auction prices at 1PM.** If you boot before 1PM it is still pending; do not grade a print that does not exist. *(Writing this conditionally rather than asserting "the event has passed" is the fix for the exact defect this handoff opens with.)*
+1. ✅ **`BND-17` GRADED — DONE 8/20** (TRUE, +8.28pp; see the box at the top). **Successor item: the 8/25–27 2Y/5Y/7Y cluster is where the Will-ruled MATRIX_V2 legs (§1 + §3c) get adopted at pre-registration** — that is a hard commitment with a date, not a queue item.
 2. **🔴 8/25 decide-by → 8/29 hard close: the T6 FIX, needs LIQUID.** All four defects sit in **one clause** (the HOLD/EXTEND OR-leg) plus the trigger; the primary `≥5.10` leg is clean. **Proposal: (a) DELETE the OR-leg** (kills the `^TYX`-intraday provenance dated to a *Sunday*, the ungradeable *"keeps falling"*, and the `>5.28`-vs-fresh-high divergence in one change); **(b) trigger = "BOTH platforms print <25% on the same trading day."** Legitimate mid-flight: trigger NOT fired, (a) only narrows BOND's OWN path to winning, (b) chosen while both platforms sit above the line. ⚠️ **Co-owned — frozen text NOT edited unilaterally. Escalate if LIQUID is silent.**
 3. **🟠 DATED (was undated — PROME's point 6, and it is the inverse of the stale-blocker class I logged n=3 on): base-rate (a)/(b)/(c) + the VX-01 revert-rule — DELIVER BY Fri 2026-09-04**, ahead of the 9/9–10 cluster. Corpus current to 8/13, intact, 390 rows. Measure hit rate + separation, then adopt or reject. *"Don't build it" is a real answer.*
 4. **🟠 9/3 — cross-section for SAM's CH-016.** Spec settled and **already communicated to SAM**: factor decomposition PRIMARY, four-horizon rank table as ROBUSTNESS CHECK, flagged not swapped. **Confirmed to SAM: the 8/13→9/3 window ships as one reported cut.** Coverage US/EA/UK to ~9/2, **AU quoted at its own end-date ~8/26–28**, never silently squared. **Still to do:** lead with pairwise correlations (or leave-one-out R²) rather than in-factor member R²; state whether α is full-sample; consider running it at the **super-long tenor Channel 6 actually names** (MOF publishes daily 20/30/40Y; the US 30Y leg exists).

@@ -1,7 +1,8 @@
 # BOND Monitor — Treasury Auction Health
 
 **Owner:** BOND
-**Last Updated:** 2026-08-18 by BOND — **full staleness sweep (Will-tasked).** ⚠️ **The rolling table was missing FOUR auctions, including the entire August quarterly refunding ($125B, the quarter's largest supply event).** The 7/28 7Y was graded the same day this file was last touched and never reached the table; 8/11–8/13 was never docketed at all. All four back-filled below off TreasuryDirect primaries, with per-tenor trailing-12 benchmarks recomputed 8/18. *(Prior: 2026-07-28 — rolling table 27 days stale, 6 auctions back-filled 7/09→7/27.)*
+**Last Updated:** 2026-08-20 by BOND — **8/19 20Y and 8/20 30Y TIPS graded and added the same day they printed** (the 8/18 sweep's whole lesson: this table went 27 days stale twice and lost a $125B refunding). *(Prior: 2026-08-18 — full staleness sweep, Will-tasked.)*
+**[8/18 entry retained]** — **full staleness sweep (Will-tasked).** ⚠️ **The rolling table was missing FOUR auctions, including the entire August quarterly refunding ($125B, the quarter's largest supply event).** The 7/28 7Y was graded the same day this file was last touched and never reached the table; 8/11–8/13 was never docketed at all. All four back-filled below off TreasuryDirect primaries, with per-tenor trailing-12 benchmarks recomputed 8/18. *(Prior: 2026-07-28 — rolling table 27 days stale, 6 auctions back-filled 7/09→7/27.)*
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
 
 > ⚠️ **TWO STANDING RULES FOR THIS TABLE (adopted 2026-07-28):**
@@ -60,6 +61,8 @@
 | **2026-08-11** | **3Y** | **$58B** | **2.71** | **4.2910%** | **64.24** | 24.02 | **11.74** | 🟢 | TreasuryDirect 91282CRG8 | **AUGUST REFUNDING leg 1.** BTC +0.07 vs trailing-12 median (2.64); indirect **+1.28pp** over median (62.96), well clear of the 53.99 min; dealer **below** median (12.11) and far below the 19.50 max. Healthy. |
 | **2026-08-12** | **10Y** | **$42B** | **2.53** | **4.6830%** | **76.73** | 14.67 | **8.60** | 🟢 | TreasuryDirect 91282CRF0 | **AUGUST REFUNDING leg 2 — the strongest leg.** Indirect **+8.41pp** over its trailing-12 median (68.32) = **2nd-strongest of the trailing 12**, against a failure bar of 63.95. Dealer 8.60 vs median 9.96. **Foreign/custodial demand for the 10Y is not what broke.** |
 | **2026-08-13** | **30Y** | **$25B** | **2.39** | **5.2160%** | **66.85** | 21.64 | **11.51** | 🟢 | TreasuryDirect 912810UW6 | **★ AUGUST REFUNDING leg 3 — THE FINDING. Cleared the HIGHEST 30Y AUCTION YIELD SINCE 2001 with indirect ABOVE its trailing-12 median (64.93) and dealers AT median (11.39).** Clears its own composition-failure bar (indirect <59.52) by **7.33pp**; dealer sits **5.95pp below** the 17.46 max. **The concession was paid in yield and the buyer base did not change — "expensive, not broken" at the hardest supply test of the quarter.** |
+| **2026-08-19** | **20Y NEW** | **$16B** | **2.53** | **5.2040%** | **62.93** | 24.58 | **12.49** | 🟢 | TreasuryDirect 912810UX4 | **CLEAN on the frozen bars, SOFTEST composition of the run.** Indirect **−2.03pp vs its trailing-12 median** = the **first below-median long-end indirect since 7/9**; dealer above median. No failure (margins +7.76 / −5.10pp), no cover marker. HY **5.2040% = highest 20Y new-issue yield in the held series** (n=15, 2023-02→). **`BND-14` RESOLVED FALSE, −2.02pp — a real miss on a 60% call.** Priced INTO the sb0607 rally and BEFORE the 9/9 official bid exists ⇒ the **pre-op demand baseline**. |
+| **2026-08-20** | **30Y TIPS reopening** (29Y-6M) | **$8B** | **2.82** | **2.9730%** (real) | **84.45** | 13.45 | **2.10** | 🟢 | TreasuryDirect 912810US5 | **★ STRONGEST OF THE 7 HELD 30Y TIPS ON ALL THREE LEGS.** Indirect **84.45 vs prior max 78.30** (+6.15pp) · BTC **2.82 vs prior max 2.78** · dealer **2.10 BELOW the prior MIN 2.49** — dealers took less than in any held auction of this instrument. Benchmarks trailing-7 SAME-TENOR SAME-TIPS (2023-02-16→2026-02-19, n=7): BTC med 2.48 · ind med **76.17** · dlr med 6.89. No composition failure (ind +14.01pp over the bar, dlr −7.77pp under), no cover marker. **`BND-17` RESOLVED TRUE, +8.28pp.** ⚠️ **Superlative scope: series 30Y TIPS · basis %-of-competitive-accepted · window 2023-02-16→2026-08-20 · n=8. 30Y TIPS predate 2023 — the earlier window is UNCHECKED, NOT unavailable. **`re-test: 2026-09-20`** — pull the full 30Y TIPS history from TreasuryDirect with an EXPLICIT date range (TA_WS caps at 250 rows and its date filter is inoperative, which is the actual reason the window is short); until then no claim wider than n=8.** The cleanest real-money referendum on the real-yield level available, taken with DFII10 at 2.41: real money did not balk. **14th straight benign resolution.** |
 
 *June bills (6/15–6/18) all cleared clean — BTCs 2.47–3.12; 13W softest (2.47, pre-FOMC re-investment caution), 6W strongest (3.12). No bill stress.*
 
@@ -86,11 +89,9 @@
 
 | Date | Instrument | CUSIP | Size | Failure test |
 |---|---|---|--:|---|
-| **Wed 8/19, 1PM ET** | 20-Year **NEW issue** (nominal) | `912810UX4` | $16B | indirect <55.17% **AND** dealer >17.59% |
-| **Thu 8/20, 1PM ET** | **30-Year TIPS REOPENING** (29Y-6M, 2.375%) | `912810US5` | $8B | **none set — n=3.** Level referendum vs DFII10 |
 | Tue 8/25 · Wed 8/26 · Thu 8/27 | 2Y · 5Y · 7Y | `91282CRH6` · `91282CRK9` · `91282CRJ2` | TBA | re-derive per tenor at grade time |
 
-⚠️ **8/19's 20Y prices at 1PM, one hour before the FOMC minutes at 2PM.** ⚠️ **8/20 also carries SAM's JGB 20Y — two long-end supply tests in two countries; hold them separately.**
+✅ **8/19 20Y and 8/20 30Y TIPS are BOTH GRADED — moved to the rolling table above (2026-08-20).** Next: the **8/25–27 2Y/5Y/7Y cluster**, which is also where the Will-ruled **MATRIX_V2** legs (§1 drop dealer-as-bearish · §3c indirect sufficient ALONE at the 15th per-tenor pctile) are adopted at pre-registration.
 
 ## ⚠️ TOOLING DEFECT — the reason this table went stale without anyone noticing
 
