@@ -37,11 +37,11 @@
 3. **~8/24 MRPL clause adoption test** — 24 days unchecked, and it is the discriminator for branch (c) turning STRUCTURAL. The most under-maintained instrument I own.
 4. **② Guard column into `VX.tsv`** — the content is drafted at `FALSIFICATION.md` §4; it is not yet in the ledger.
 
-**B · AWAITING A RULING**
-5. **D1/D2 band defects** (`TWN-01`, `FININFRA-01`) — carried at existing marks until Will/PROME rules.
+**B · AWAITING**
+5. ✅ **D1/D2 RULED AND EXECUTED 8/20** — Will's verbatim *"5 lower both marks to yellow"*; `TWN-01` and `FININFRA-01` both 🟠→🟡, **bands unmoved**. Consumer check run: **no live external consumer** carries either mark (all external refs are 7/28 packets already in `inbox/processed/`). **Both of this desk's pending rulings are now closed.**
 6. **Sibling objection on the deleted vessel leg** — `HAW-19` is registered, not settled.
 7. **"Kharg blockade lane" naming** — flagged since 8/15, unresolved.
-8. **Direct-drop authorization** — 4 packets sit in `outbox/`; PROME/WALTER doorbelled live, but OSPREY/FALCON/BRENT are not running.
+8. **FALCON + OSPREY deliveries** — both spawned on Will's direct word and running. OSPREY interim adjudicated (CPC rung graded, LEG-A objection refused on the evidence / accepted on reachability); **full write-back, 3b→OSP-05, and its vessel-leg answer still pending. FALCON has not reported.** BRENT is not running — its packet waits in `outbox/`.
 
 **C · STANDING**
 9. **~9/9 September STEO** — grade the N6 decay/extension branches on 2027-Q2 (bar: 2.38 OPEC / 2.35 ME).
