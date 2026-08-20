@@ -4,6 +4,24 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.5 — 2026-08-20 (sub-channel 6(a) MEASURED; the v1.1.4 blocker found discharged)
+
+**Two changes, neither a conviction move.**
+
+**1. Channel 6(a) 'global term-premium correlation' is measured for the first time, and it is WEAK for Japan.** Prompted by SAM's CH-016 scope defect (their two-hypothesis test cannot see a global common factor). BOND's first attempt — rank of cumulative Δ across sovereigns over a window — **failed as an instrument**: 7 one-week windows gave 7 distinct orderings and the HORIZON flipped the conclusion (`KB-BND-148`). **The diagnosis was that the estimator, not the data, was broken:** rank discards magnitude, so near-tied legs shuffle on noise, and the lookback was a free parameter that let the analyst pick the answer.
+
+**Replaced with a factor decomposition on DAILY changes** (n=239 aligned days, 2025-08→2026-08; DM factor = mean standardized daily Δ of US/EA/UK 10Y, Japan excluded from the factor so the test is not circular):
+  · **R²: US 66.6% · EA 77.8% · UK 78.6% · JP 6.8%** — betas 3.74 / 3.21 / 4.88 vs **JP 0.92** bp per 1σ
+  · pairwise daily-Δ correlation **JP–US 0.11** vs **EA–UK 0.74**
+  · episode 7/13→8/18, three-way split of Japan's **+14.8bp**: drift **+13.3** · **common factor only +1.6** · idiosyncratic ~0
+⚠️ **A non-synchronous-trading artifact was hypothesised and REFUTED** — lagging Japan to the prior US session makes correlations *worse*, not better. The decoupling is real.
+⚠️ **Caveats that travel:** this is the **10Y**, while channel 6 names the **super-long** — a proxy, not the thing itself. Episode window n=24. Betas assume stability over the estimation year. AU excluded (weekly file cadence).
+⇒ **Consequence:** a global common factor is a weak explanation for a JGB move and correspondingly weak as a channel into the US long end. **This CONTRADICTS BOND's own 8/20-morning read** ('Japan below the DM median ⇒ evidence toward a common factor'), which was a one-week rank artifact and is retracted (`KB-BND-145` → CORRECTED, `KB-BND-148`).
+
+**2. The v1.1.4 ADOPTION-NOTE blocker was itself stale (n=3 of the class).** It held (a)/(b)/(c) + the VX-01 revert-rule on *"the 370-row corpus is stale to 2026-05-28 and carries a destructive-write defect."* **Both halves false:** 390 rows through **2026-08-13**, refreshed 8/18 21:44, and **structurally intact** (uniform width, zero ragged rows, proper terminator). **The base-rating has been unblocked since 8/18 and nobody knew.** ⚠️ **Nothing adopted** — the base-rating is real work, still owed. Same shape v1.1.4 itself fixed for FR2004.
+
+---
+
 ## v1.1.4 — 2026-08-18 (staleness sweep: the 8/10 regime downgrade was MISSING from this document for 8 days; an internal contradiction, a stale unavailability blocker, and a hardcoded-single-tenor kill gate all fixed)
 
 **Trigger:** Will-tasked full staleness sweep of every BOND core document, run after a boot found the long end at a 19-year high and the August refunding ungraded.
