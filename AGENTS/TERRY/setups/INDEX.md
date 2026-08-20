@@ -1,7 +1,7 @@
 # TERRY CARD INDEX — the master registry of every trade card
-**Updated:** 2026-08-07 ~16:4x ET (**TRY-FIRE-007 DEAD — its 8/7 15:30 COT resolver fired the DENY branch; VIXCS pre-registered evaluation RESOLVED**) · **Owner:** TERRY · **Purpose:** the single "where is everything / what's live" view. Update this whenever a card is added, changes status, fires, or is archived.
+**Updated:** 2026-08-19 ~20:5x ET (**004 contract-count reconciled 30× → 25× LIVE** — this registry carried the fill-day 30× for 19 days after the 7/31 harvest, WALTER-flagged 8/19; **Will rulings B + C encoded on the 004 card** — one DGS10 close <4.50 = counter reset only, five consecutive ⇒ EXIT, `GATE-TERRY-007`) · **Owner:** TERRY · **Purpose:** the single "where is everything / what's live" view. Update this whenever a card is added, changes status, fires, or is archived.
 
-> **Standing rules:** all cards are **PROPOSE-ONLY** — Will approves/rejects, TERRY never executes. Max loss **$500/card** (TRY-FIRE-006 = a separate **$200** Tier-2 tranche). **★ 1 card fired live** as of 2026-07-20 — TRY-FIRE-004 (30× TLT Sep-30 77P @ $0.11, $330 at risk). Was 0 for the first month; the refusals were the product until now.
+> **Standing rules:** all cards are **PROPOSE-ONLY** — Will approves/rejects, TERRY never executes. Max loss **$500/card** (TRY-FIRE-006 = a separate **$200** Tier-2 tranche). **★ 2 cards fired live** (TRY-FIRE-004 filled 7/20, 25× live after the 7/31 harvest · TRY-VIOLET-VIXCS filled 7/27, closed 7/30 realized −$111.60). ~~1 card fired live as of 2026-07-20 — TRY-FIRE-004 (30× TLT Sep-30 77P @ $0.11, $330 at risk)~~ *(stale two ways by 8/19: count and contracts — kept struck as the drift record)*. Was 0 for the first month; the refusals were the product until now.
 
 ---
 
@@ -21,7 +21,7 @@
 
 | ID | Status | Class | Instrument / structure | Trigger / catalyst | Thesis owner | File |
 |---|---|---|---|---|---|---|
-| **TRY-FIRE-004** | 🟢 **FIRED LIVE 7/20** (30× 77P @ $0.11, $330 at risk; ~$170 bank dry) | FLOW | TLT Sep-30 77P — pure gap-tail | FILLED on arm-#2 LIT + rule-#6-clean GREEN-TLT entry; pays on a GAP (7/22→8/13 catalyst cluster), disarm on DGS10 close <4.50 | BOND / HENRY | `FLOW-TRIGGER_duration-TLT-put.md` |
+| **TRY-FIRE-004** | 🟢 **FIRED LIVE 7/20 — 25× live** (filled 30× @ $0.11; **5 harvested 7/31 @ $0.3734 = 3.23× fees-in, +$128.86**; 25× remain, mark $0.085 [8/18] = 0.735× basis, $212.50 at risk; ≥3× harvest still owes 10 ct) | FLOW | TLT Sep-30 77P — pure gap-tail | FILLED on arm-#2 LIT + rule-#6-clean GREEN-TLT entry; pays on a GAP (back-half cluster 9/11 CPI + 9/15-16 FOMC — now inside the sb0607 buyback window, see card 8/19 block). **RULED 8/19 (Will B+C): one DGS10 close <4.50 = arm-#2 counter RESET only; FIVE consecutive <4.50 ⇒ EXIT (`GATE-TERRY-007`)** | BOND / HENRY | `FLOW-TRIGGER_duration-TLT-put.md` |
 | **TRY-FIRE-001** | STAGED (closest-to-live after 004) | PRICE | KRE puts, 3-6mo, 8-12% OTM | HY OAS ≥280 sustained (271 [7/16], 9bp under) | REGINALD + NEXUS | `PRICE-TRIGGER_HY280_regional-put.md` |
 | **TRY-FIRE-002** | STAGED | PRINT | WAL / EGBN puts, post-print Sep/Jan | WAL 7/21 AMC · EGBN 7/22 — path (a)/(c) grade | REGINALD / CARL | `PRINT-TRIGGER_WAL-EGBN-build.md` |
 | **TRY-FIRE-003** | STAGED | PRINT | COF / SYF / ALLY monoline puts | SYF/ALLY 7/21 · COF 7/21-23 — path (m) un-mask | CARL + REGINALD | `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` |
