@@ -20,9 +20,19 @@ DAEDALUS challenged REGINALD's channel-1 instrument at build (could the SR 07-1 
 | Nonaccrual rate | 4.88%, cohort-worst | **past peak, 5.49% → 4.88%** | ⬇️ improving |
 | **ACL / nonaccrual coverage** | **29%, cohort-thinnest** | **87% → 29%, monotonic; ACL$ down 8 of 8 quarters, $1.27B → $0.87B** | 🔴 **THE LIVE SIGNAL** |
 
-The reserve is drawing down **~1.7× faster than the problem book resolves**, against a still-**$3.0B** nonaccrual book. **Two of the three 🔴 legs that created this desk are improving; only reserves are deteriorating.** The open discriminator (`THESIS.md` Q2b, now the desk's primary question): a reserve falls either because losses were *taken and disposed* (healthy) or *released against an unresolved book* (not) — same arithmetic, opposite conclusions. **Pull the ACL roll-forward first.**
+**Q2b was then answered the same evening, and the answer is a THIRD case my binary did not have.** REGINALD pulled Schedule RI-B Part II unprompted (`6dfd8ed53`; identity re-derived first-hand here and it **ties to the dollar**): begin $1,029,999K + provision $15,923K − charge-offs $232,410K + recoveries $55,488K = $869,000K.
 
-⚠️ **Instrument gap this exposed:** the desk shipped with the coverage *ratio* and no **ACL in dollars** — a ratio alone cannot tell those two stories apart. `EXIT_PROTOCOL.md` K-3 now carries the dollars instrument and has been promoted to the primary leg.
+- ❌ **Not release** — provision is **positive in every quarter**; nothing was reversed into income.
+- ❌ **Not clean disposition** — at EGBN the ACL was consumed by disposition *and* the concentration left the balance sheet.
+- 🔴 **It is consumption by charge-off with provisioning STOPPED.**
+
+**CO/provision: FY2023 0.3× (building) → FY2024 0.8× → FY2025 2.4× (draining) → 2026 H1 ×2 = 14.6×.** Provisioning **−97.1%** from FY2024 while charge-offs held near half a billion a year ⇒ **≈1.9 years of reserve runway** against a **$2,988M** nonaccrual book.
+
+⛔ **NOT A THRESHOLD. Do not register 14.6× or 1.9-years.** No peer base rate exists, so it is a number and not yet a signal (`THESIS.md` Q2d — REGINALD holds the cohort instrument and has offered it if FLG asks; that is the one thing that would turn 14.6× into a finding). `RIAD` is YTD and the ×2 is REGINALD's annualisation, not a company figure; 6 of 11 quarters do not tie by the identity, though both 2026 quarters do.
+
+⚠️ **And the "improving nonaccrual" leg is now CONTESTED — REGINALD raised it against its own reading.** You do not charge off $232M in six months without the rate falling; **a rate falling by charge-off is not a rate falling by cure**, and the roll-forward nets so it cannot separate them. That composition read is FLG's (`THESIS.md` Q2c), and `EXIT_PROTOCOL.md` K-3 has **suspended its nonaccrual-rate legs** until it is split — otherwise the kill fires on the bank's own losses.
+
+⚠️ **Instrument lesson, corrected TWICE in one evening:** the desk shipped with the coverage *ratio*; my first fix added **ACL in dollars**; that was still insufficient. **The discriminator is `CO / provision`** — neither the ratio nor the ACL level separates consumed-by-loss from released-into-income. K-3 now grades on CO/provision and is the desk's primary leg.
 
 ---
 
@@ -72,7 +82,9 @@ Total loans QoQ across the 11 quarters in `workbook/MI3_FLG.tsv` (FFIEC Call Rep
 | # | Question | State |
 |---|---|---|
 | ~~**Q1**~~ | ~~Is the concentration ratio measuring risk, or a shrinking denominator?~~ | ✅ **ANSWERED + REFUTED same evening at the primary** — capital held flat, so the artifact is impossible here. Concentration thresholds UNBLOCKED (base-rate against a *falling* series). The answer redirected the desk to coverage |
-| **Q2b** | Why is the reserve falling ~1.7× faster than the problem book resolves? Taken-and-disposed, or released against an unresolved book? | 🔴 **NEW PRIMARY QUESTION** — needs the Call Report ACL roll-forward (provision / charge-offs / recoveries), in no FLG ledger yet |
+| ~~**Q2b**~~ | ~~Taken-and-disposed, or released?~~ | ✅ **ANSWERED 8/20 — NEITHER.** Consumption by charge-off with provisioning stopped (CO/prov 14.6×, ~1.9yr runway). The binary needed a third cell |
+| **Q2c** | Is the nonaccrual improvement **cure or charge-off**? | 🔴 **NEW PRIMARY** — REGINALD raised it against its own leg. Decompose the delta into cures/paydowns/charge-offs/OREO. Stage 4 currently reads "improving" on a figure that may be measuring its own charge-offs |
+| **Q2d** | Is 14.6× actually **unusual**? | 🟠 **The one thing that turns a number into a finding.** No peer base rate exists. REGINALD holds the cohort instrument and has offered it **if FLG asks** |
 | **Q2** | Has the deleveraging bottomed? | 🔴 **LIVE** — one print from resolution (~2026-11-14) |
 | **Q3** | Does the rent-regulation mechanism actually transmit? Stages 1–2 are **entirely un-instrumented** | 🟠 Until instrumented, this desk holds a credit observation, not a causal thesis |
 
@@ -93,7 +105,9 @@ Total loans QoQ across the 11 quarters in `workbook/MI3_FLG.tsv` (FFIEC Call Rep
 
 1. **Re-verify the seed at FFIEC CDR** (RSSD 694904), at minimum the two most recent quarters; stamp `Verified_By`.
 2. **Recompute the SR 07-1 ratio yourself**, both definitions written out; report the delta against 327.5% whichever way it falls.
-3. ~~Answer Q1~~ ✅ **DONE 8/20 by REGINALD at the primary — refuted.** Replaced by: **answer Q2b — pull the ACL roll-forward** (provision / charge-offs / recoveries, 8 quarters) and settle whether the reserve drawdown is disposition or release. **This is now the desk's first analytical job.**
+3. ~~Answer Q1~~ ✅ refuted 8/20 · ~~Answer Q2b~~ ✅ answered 8/20 (neither — consumption by charge-off, provisioning stopped). **Now, in order:**
+   **3a. Answer Q2c — split the nonaccrual delta into cure vs charge-off.** This is the desk's first analytical job and nobody else can do it: REGINALD explicitly left the composition read here as single-name depth. Stage 4 of the transmission table is currently recorded as improving on a figure that may be measuring its own charge-offs.
+   **3b. Ask REGINALD for the cohort CO/provision base rate (Q2d).** It has the instrument and has offered it. Until it lands, 14.6× stays a number and **nothing about provisioning registers as a gate.**
 4. **Base-rate the 7 `[EST]` triggers** against the series; retire the ones that do not separate. "Don't build it" is a real answer.
 5. **Instrument stage 1 or 2** (RGB series / maturity profile) — without one, Q3 stands unanswered and the seat is unjustified.
 6. **Re-derive and re-stamp** `EXIT_PROTOCOL.md`; author `THESIS.md` v1.0 only when its five-point bar is met.
@@ -103,5 +117,5 @@ Total loans QoQ across the 11 quarters in `workbook/MI3_FLG.tsv` (FFIEC Call Rep
 
 ## BOTTOM LINE
 
-**FLG was created because a rebuilt instrument ranked it the cohort's worst bank, and within hours of existing it had helped overturn two of the three readings that justified it.** The desk's own build found the loan book turning positive for the first time in eleven quarters; its challenge to REGINALD's concentration instrument was tested at the primary and **refuted** — capital held flat, so the ratio's 143pp fall is real de-risking, not a denominator artifact — and nonaccruals turned out to be past peak. **What survives is narrower, better evidenced, and genuinely alarming: reserve coverage has fallen 87% → 29% monotonically, with ACL down in all eight quarters, drawn down roughly 1.7× faster than the problem book resolves against a $3.0B nonaccrual pile.** So the desk opens pointed at one live signal instead of three, and it opens knowing the difference matters: a reserve that falls because losses were taken and disposed is healthy, and one released against an unresolved book is not — same arithmetic, opposite conclusions, and FLG cannot yet tell them apart because it shipped with a coverage ratio and no ACL-in-dollars series. **Next: pull the ACL roll-forward and settle Q2b before anything else** — then re-verify the seed at FFIEC CDR, base-rate the seven `[EST]` triggers against a *falling* concentration series, and instrument stages 1–2, which still have no instrument at all. Watches: Q3-2026 Call Report ~2026-11-14 (K-1 one print from firing, DOCKET-registered) · `VX-REG-6.03` dual-action, absolute bands $12.82/$12.10/$11.39, currently 53% of the way to band 1.
+**FLG existed for about three hours before two of the three readings that justified it were overturned and the third was replaced by something sharper.** Concentration turned out to be de-risking, not deteriorating — capital held flat, so the 143pp fall is real. Nonaccruals turned out to be past peak, and then turned out to be *contested*, because you cannot charge off $232M in six months without the rate falling and the roll-forward cannot separate cure from charge-off. What is left is the one thing nobody had looked at: **the reserve is not being released and not being cleanly disposed — it is being consumed by realized losses while provisioning has stopped.** CO/provision went 0.3× building → 2.4× draining → **14.6×**, provisioning is down 97.1% from FY2024, and $869M of reserve against ~$465M of annualised charge-offs is **roughly 1.9 years of runway** with $2,988M still on nonaccrual. **That is a genuinely different thesis from the one this desk was built on, and it is better evidenced** — the roll-forward identity ties to the dollar. **It is also not yet a finding, and the desk must not pretend otherwise: there is no peer base rate, so 14.6× is a number.** ⛔ Nothing about provisioning registers as a gate until the cohort base rate lands. **Next, in order: (1) split the nonaccrual delta into cure vs charge-off — nobody else can, REGINALD left it here deliberately; (2) ask REGINALD for the cohort CO/provision base rate; (3) re-verify the seed at FFIEC CDR and instrument stages 1–2, which still have none.** Watches: Q3-2026 Call Report ~2026-11-14 (K-1 one print from firing, DOCKET-registered) · `VX-REG-6.03` dual-action, absolute bands $12.82/$12.10/$11.39, 53% of the way to band 1.
 

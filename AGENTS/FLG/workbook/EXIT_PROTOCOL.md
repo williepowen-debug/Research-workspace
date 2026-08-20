@@ -52,15 +52,19 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 | | |
 |---|---|
 | **Fires from state** | STANCE-BEARISH-ON-CREDIT |
-| **Instrument** | Nonaccrual / total loans; ACL / nonaccrual — both from the Call Report |
-| **Kill condition** | Nonaccrual rate below the **cohort median** for 2 consecutive filed quarters **OR** ACL/nonaccrual coverage above 100% for 2 consecutive filed quarters |
+| **Instrument** | 🔴 **PRIMARY: `charge-offs / provision` from Schedule RI-B Part II (RIAD lines, YTD).** Secondary: ACL in dollars; nonaccrual / total loans; ACL / nonaccrual. ⚠️ **The coverage RATIO alone cannot grade this leg** — see the discriminator note below |
+| **Kill condition** | `CO / provision` **below 1.0× for 2 consecutive filed quarters** (the reserve is being replenished faster than it is consumed — the regime reverses) **OR** ACL/nonaccrual coverage above 100% for 2 consecutive filed quarters. ⚠️ **Nonaccrual-rate legs are SUSPENDED from this gate** until THESIS Q2c splits cure from charge-off — a rate falling by charge-off would fire this kill on its own losses |
 | **What HEALTHY looks like** | Both ratios present and moving quarter to quarter. **Coverage pinned at an identical value across quarters is a parse failure, not stability** — check the underlying cells |
 | **If it fires** | Channel-kill on credit quality — **and since K-2 died 2026-08-20 and channel 1 is de-risking, this is now the LAST live leg: if K-3 fires the thesis has no channel left.** Treat a K-3 fire as a thesis-kill, not a channel-kill |
 | **Migration path** | Thesis migrates onto the concentration + rent-regulation mechanism alone — **which is weaker, and say so at the time** |
 
 🔴 **K-3 IS NOW THE DESK'S PRIMARY LEG (promoted 2026-08-20 evening).** REGINALD's §3b re-read: nonaccrual is **past peak and improving** (5.49% [25Q3] → 4.88%), while **ACL has fallen in every one of 8 quarters** ($1.27B [24Q2] → $0.87B) and coverage went **87% [24Q1] → 29%, monotonic**. The reserve is being drawn down **~1.7× faster than the problem book resolves** (ACL −26% vs nonaccrual −15% off respective peaks), against a still-**$3.0B** nonaccrual book.
 
-⚠️ **ADD AN INSTRUMENT THIS LEG DID NOT HAVE: ACL in DOLLARS, not just the coverage ratio.** A ratio can improve because the numerator rebuilds *or* because the denominator resolves away — opposite meanings, identical arithmetic. That discriminator is the whole finding, and the rail could not express it before today.
+⚠️ **THE DISCRIMINATOR IS `CO / PROVISION` — NOT THE RATIO, AND NOT THE ACL LEVEL** *(corrected 2026-08-20 evening, REGINALD's second pass; my first fix — "add ACL in dollars" — was still not sufficient).* The ACL roll-forward at Schedule RI-B Part II answers it directly (`6dfd8ed53`, identity ties to the dollar): begin $1,029,999K + provision $15,923K − charge-offs $232,410K + recoveries $55,488K = $869,000K. **The drawdown is NEITHER release NOR clean disposition — provision is positive in every quarter, so nothing was reversed into income, but the reserve is eaten by realized losses and NOT replenished.** CO/prov by year: FY2023 **0.3× (building)** · FY2024 0.8× · FY2025 **2.4× (draining)** · 2026 H1 ×2 **🔴 14.6×**. Provisioning −97.1% from FY2024 against charge-offs near half a billion a year ⇒ **~1.9 years of reserve runway** vs a $2,988M nonaccrual book.
+
+**Why the ratio alone fails:** coverage can move on the numerator (reserve build/burn) or the denominator (book resolving), and ACL-in-dollars still cannot separate *consumed-by-loss* from *released-into-income*. **Only provision vs charge-offs does.** A rail on the ratio cannot tell the three cases apart; a rail on CO/provision can.
+
+⛔ **NOT A THRESHOLD YET — DO NOT REGISTER 14.6× OR 1.9-YEARS.** No peer base rate exists, so 14.6× is a number, not a signal; a bank finishing a credit cycle can legitimately run high. `RIAD` is YTD and the ×2 is REGINALD's annualisation, not a company figure; 6 of 11 quarters do not tie by the identity (both 2026 quarters do). **Base-rate against the cohort first — see THESIS Q2d.**
 
 *Seed reads: nonaccrual 4.88% vs cohort median ~0.89% (implied by REGINALD's "5.5× the median"); coverage 29%. MIRROR-grade — re-verify at first live session.*
 
@@ -90,7 +94,7 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 | Direction | The single read | Threshold |
 |---|---|---|
 | **Confirms the stance** | Coverage keeps falling — **regardless of the nonaccrual direction** | coverage **< 29%** at the filing |
-| **Falsifies the stance** | Coverage rebuilds, **or ACL in dollars stops falling** | coverage **> 50%**, **or** ACL$ flat-to-up QoQ |
+| **Falsifies the stance** | **Provisioning restarts** — the regime reverses | `CO / provision` **< 1.0×** at the filing, **or** coverage **> 50%** |
 
 ⚠️ **CORRECTED 2026-08-20 evening — the original confirm-leg was a compound gate that could not fire on the actual signal.** It read *"coverage < 29% **AND** nonaccrual > 4.88%"*, requiring nonaccruals to RISE. REGINALD's §3b then measured nonaccruals **past peak and falling** — so the observed pattern (reserve drawn down while the problem book slowly resolves) would have satisfied the coverage leg and **failed the gate**, exactly PAT-072: legs that are individually reasonable and jointly unsatisfiable in the only state that matters. **The `AND` was doing no work except suppressing the fire.** Both legs are now single-clause and the ACL-dollars discriminator carries the nuance the conjunction was pretending to.
 
@@ -113,4 +117,5 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 |---|---|---|
 | 2026-08-20 | DAEDALUS (build) | Rail authored against seed evidence. PROVISIONAL — no thesis exists yet. K-1 flagged one quarter from firing. |
 | 2026-08-20 evening | DAEDALUS (post-build) | **K-2 tested at the primary by REGINALD (`fb1f68659`, matrix §3b) and REFUTED** — CRE numerator −32.2%, capital flat −2.6%, ratio −143pp across all 11 quarters. K-2 retained-and-marked, not deleted. **K-3 promoted to primary leg** with a new ACL-in-dollars instrument. **Bidirectional confirm-leg corrected** — its `AND` was jointly unsatisfiable against the pattern REGINALD identified (PAT-072, in a rail I authored). Rail re-stamped. |
+| 2026-08-20 evening (2nd) | DAEDALUS, on REGINALD's unprompted Q2b answer | **K-3's instrument corrected AGAIN, hours after the first correction.** My first fix added ACL-in-dollars; REGINALD's roll-forward showed that is still insufficient — **the discriminator is `CO / provision`**, because neither the ratio nor the ACL level separates consumed-by-loss from released-into-income. Kill condition re-cut to CO/prov < 1.0× ×2 quarters; **nonaccrual-rate legs SUSPENDED** pending Q2c (a rate falling by charge-off would fire the kill on its own losses); falsify-leg re-pointed to "provisioning restarts". ⛔ No threshold registered on 14.6× — no base rate exists (Q2d). |
 | *(next)* | FLG, first live session | **Re-derive against `THESIS.md` v1.0, re-verify every seed figure at a primary, re-stamp the date above.** |
