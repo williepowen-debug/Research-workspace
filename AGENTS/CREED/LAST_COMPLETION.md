@@ -39,3 +39,31 @@
 **⑤ WALTER closed its side.** Correction **accepted in full**, independently re-derived (**2.29× / +39.9% / +130.2%**), **propagated to five desks**, **no second fire ledger built** — the §4 "no" holds. **Nothing owed in either direction.**
 
 **THE TRANSFERABLE ONE, and it is not the fire:** WALTER's fix **added a check**; CREED's had to **delete a standing instruction that suppressed one.** **An absent gate gets found by an audit; a gate that tells you not to look passes every audit, because it reads as discipline.** Sweep always-loaded surfaces for "not reachable / not available / don't bother with X" claims that were true when written.
+
+---
+
+## FINAL ADDENDUM — the Will-directed staleness sweep (4 phases + a self-audit), after the addenda above
+
+**Will asked for a sweep of core files for stale/inaccurate/misleading content. 14 findings catalogued, then worked in 4 phases; a 15th was found by the tooling and 4 more by a self-audit of the sweep itself.**
+
+| Phase | Closed |
+|---|---|
+| **1** | `#1` STATUS BOTTOM LINE contradicted its own header · `#3` THESIS presented June prints as "(latest)" · `#4` THRESHOLDS gave no sign T-02 fired · `#6` stale REG-T-07 note |
+| **2** | Built `scripts/creed_selfcheck.py` (CREED's first tooling), wired to closeout step 8b |
+| **3** | `#2` all 12 `COVERAGE.md` lanes rebuilt **+ a refresh-trigger column** |
+| **4** | `#8`–`#13` count drift · `#12` README indexed `registry/` for the first time |
+
+**⭐ The most consequential output was not a doc fix.** Lane 9 was going to be filed as "7/27 vintage, stale". Making it real instead found that **`FORGE/tools/market-data/fetch.py` cannot produce `CREED-T-08a`'s 3-month relative at all** (`price`/`fred` only). Computed directly on **both bases**: **VNQ vs SPY −0.34pp TR / −0.98pp price-only**, negative on both. **The 7/27 read of +2.04pp "12pp away and RECEDING" is refuted in DIRECTION — the counter-signal CREED commits to honouring is DECAYING, not strengthening.** S8a held at 2.
+
+**⚠️ SELF-AUDIT OF THE SWEEP — Will asked to double-check the work, and it found real defects in it.**
+- **An error I INTRODUCED:** read Trepp's SS Table 1 as six consecutive months (`Jul→Feb`) and built a *"peaked in April"* read on it. **The headers are `Jul-26 | Jun-26 | May-26 | 3 MO. | 6 MO. | 12 MO.`** — three consecutive, three lookbacks. **I manufactured a series CREED does not have.** Also: *"retail the only major riser"* — MF rose 16bps, mixed-use 2bps. **Verified by grep that neither escaped into any of the 5 dispatched packets.**
+- **Five surfaces never refreshed:** `VX-1.04` retail · `VX-1.05` lodging · `VX-2.02` overall SS · **`VX-2.03` the SS−DQ spread** · `FLOW-CREED-01`. **The spread is the instructive one — it measures the narrowing that was a HEADLINE FINDING of the same session, and sat at June while both its own inputs had been refreshed. A derived vector does not update itself.**
+- **Root cause: I fixed by the findings LIST, not by PATTERN** — updating what was in the story I was telling. **That is the exact failure `consumer_check`'s own guidance warns about, committed inside a sweep built to catch it.** Now standing trap 15.
+
+**A pre-closeout sweep then found 4 more, of which Will took 3:** `A` scoreboard row `002` asserted a **since-reversed direction** (+36bps/mo while the series had turned) · `B` a **boot rail** carried the refuted +2.04pp, and `CLAUDE.md`'s pointer to it had said "7/2" while the file said "7/27" — **a three-week lag predating the sweep** · `D` `VX-1.03`/`6.01` had drifted **a full month behind HOMER** (7.23% vs 7.69%). `C` (finding `#5`, now known to be **≥2 frozen rows**, not 1) left for Will.
+
+**ALSO THIS SESSION, before the sweep:** `CREED-T-02` **FIRED** (first in CREED's history) · FORUM 5 **W1 + K5 both closed 5 weeks early** · first prediction resolution (`009` TRUE, n=1, Brier 0.49) · always-loaded traps block **5 → 7** with trap #3 **rewritten** because it was telling every future session Trepp was unreachable · 4 packets + a 5th correcting TERRY's use of the fire.
+
+**CLOSING STATE:** working tree clean · **0 ahead of origin** · both mail lanes clean · guard CLEAN · claim_check clean · all 8 TSVs structurally valid · ledgers +0d · **18 CREED commits**. **3 decisions open for Will (`#5`, `#7`, `#14`) and 5 deferred items, all recorded in `SCRATCH.md`.**
+
+**NEXT REAL EVENT: FDIC Q2 QBP ~8/24–8/29** — `CREED-T-03`, with its one-sided C&I scope limit **registered ahead of the print** so it cannot be back-fitted.
