@@ -44,7 +44,7 @@ import fetch  # noqa: E402
 RED = REPO / "AGENTS" / "RED"
 TODAY = date.today()
 
-TICKERS = ["^VIX", "SPY", "KRE", "WAL", "OZK", "IWM", "TLT", "HYG", "BZ=F", "JPY=X", "^TNX"]
+TICKERS = ["^VIX", "^SKEW", "SPY", "KRE", "WAL", "OZK", "IWM", "TLT", "HYG", "BZ=F", "JPY=X", "^TNX"]
 FRED_SERIES = [
     ("BAMLH0A0HYM2", "HY OAS", 100, "bps"),
     ("BAMLH0A3HYC", "CCC OAS", 100, "bps"),
@@ -63,6 +63,10 @@ METRIC_MAP = {
     # auto-fire path. CORE-CPI-3MO-ANN (FT-08) stays unmapped by design: a release-derived
     # 3-month compound has no FRED series, and failing loud is correct for it.
     "BREAKEVEN-5Y5Y": ("fred", "T5YIFR", "value", 1),
+    # FT-10 tail-bid-reload line (added 2026-08-20, S32 SKEW ruling). ^SKEW publishes
+    # LAGGED on Yahoo (current-day bar absent intraday) so unlike ^VIX this read is a
+    # COMPLETED session, not a live bar running ahead of a canonical basis (ML-RED-176/177).
+    "SKEW-CBOE": ("yf", "^SKEW", "price", 1),
 }
 NEAR_PCT = 0.03  # within 3% of threshold = NEAR
 
@@ -97,7 +101,19 @@ def fred_trail(key, scale, fred, n):
 
 
 def cmp_op(v, op, thr):
-    return v > thr if op == ">" else v < thr
+    # 2026-08-20 (S32): was `v > thr if op == ">" else v < thr` — every op that is not ">"
+    # fell into "<", so FT-08/FT-10's ">=" would have evaluated SIGN-INVERTED (>=150 read
+    # as <150 = false FIRING at 142.93). Caught at FT-10 registration, before data arrived.
+    # Unknown op now fails loud rather than silently picking a branch. ML-RED-178.
+    if op == ">":
+        return v > thr
+    if op == "<":
+        return v < thr
+    if op == ">=":
+        return v >= thr
+    if op == "<=":
+        return v <= thr
+    raise ValueError(f"unknown threshold_op {op!r}")
 
 
 def eval_line(value, op, thr, sustain, src_type, key, scale, fred):

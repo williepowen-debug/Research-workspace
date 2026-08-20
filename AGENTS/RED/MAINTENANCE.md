@@ -11,6 +11,19 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-20 (S32) — FT-10 registered (registry 10 → 11 rows) + boot.py: `cmp_op` four-op dispatch, ^SKEW in TICKERS, SKEW-CBOE in METRIC_MAP
+
+**Trigger:** the SKEW ruling (SIG-20260818-004, action:RED) — registering the tail-bid-reload line surfaced that `boot.py`'s comparator silently evaluated every non-`>` operator as `<` (a `>=` row with data would have printed a SIGN-INVERTED verdict — `>=150` read as `<150` = false FIRING at 142.93; FT-08 was shielded only by being unmapped). ML-RED-178.
+
+**What changed.**
+- **`registry/FALSIFICATION_TRIGGERS.tsv`** — RED-FT-10 appended (`SKEW-CBOE >= 150 s=4`, ACUTE +2 / MANAGED −2, exit = the standing <140 s=4 kill line; full basis + base-rate provenance in-row). Append verified: trailing newline pre-checked, whole-file field-count 11/11 rows × 15 cols, zero literal quotes kept (the registry's quote-free state is the only reason csv round-trips ever survived it — ML-RED-168).
+- **`scripts/boot.py`** — (1) `cmp_op` rewritten to explicit `>` / `<` / `>=` / `<=` dispatch, unknown op now **raises** instead of silently picking a branch; (2) `^SKEW` added to TICKERS (tape section + FT-10's price source); (3) `SKEW-CBOE` added to METRIC_MAP with the lag note (Yahoo ^SKEW publishes lagged → the tool reads completed sessions — the *inverse* of the FT-06 ^VIX-runs-ahead defect, ML-RED-176).
+- **Functional verify both directions:** FT-10 renders 🟢 `clear, live 142.93 vs >=150 (dist -7.07)`; `schema_check.py` exit 0 (10/10 files conform); WATCHLINES ops audited (`<`/`>` only — no watchline hits the new paths).
+
+**Boot-impact:** trigger check now evaluates 9 of 11 registry rows live (FT-08 stays unmapped by design). WALTER notified same-pass — co-signed surface, row addition + the comparator fix both named.
+
+---
+
 ## 2026-08-12 (S30) — `archive/` recreated (Will-ruled) + 14 files retired into it + the dead-path pointers repaired (T8 / audit R4+R14)
 
 **Trigger:** Will's ruling — *"RED should have its own archive"* — which unblocked T8. Audit R4 (dead `archive/` paths) + R14 (archive backlog) + PROME's prune-scan delta.

@@ -4,6 +4,18 @@
 
 ---
 
+## 2026-08-20 ~12:1x PM ET — S32: SKEW re-crossed the 140 line — NO WEIGHT MOVED, and the base-rate audit found the premise was miscast, not merely dead
+
+**Confidence 69 (=). Net-bear 60 (=). All six hypothesis weights unchanged.** A4 entry: registered-trigger state changed (FT-10 registered; the SKEW-kill row's standing premise died), so W3/W8 are mandatory.
+
+**The event:** ^SKEW (CBOE equity) closed **142.91 [8/17] / 143.60 [8/18] / 142.93 [8/19]** — three consecutive closes above the 140 line RED owns (Will-ruled 8/10). The *"no re-cross"* premise carried on STATUS since S28 — the stated precondition for taking the FT-06 fire at face value — is **dead on the tape**. WALTER flagged the first close (SIG-20260818-004, action:RED); my own pull confirmed and extended it.
+
+**The ruling, base-rated before written:** (1) **Re-cross FACTUAL** — premise corrected on four STATUS surfaces. (2) **No weight reversed** — the SKEW kill (Acute −2, S28) had no registered exit, and writing one that fires retroactively in the bear's favour is the ML-RED-161 ratchet. (3) **The naive symmetric re-arm (>140 s=4) was measured and REJECTED: it obtains 54–65% of sessions — above-140 is this index's MODAL state, so the mirror is a regime descriptor (FT-07 class), and the 140 line is structurally one-way: the event was the sub-140 spell (11.5% base rate), not its ending.** (4) **What actually validated managed-decline was the joint state VIX<16 AND SKEW<140 — 2.0% of sessions.** Conditional on VIX<16, SKEW>140 co-occurs 92% of the time; the "loaded spring" configuration is the *default* calm tape, so the reversion is not an alarm at 142.93. (5) **FT-10 registered pre-data: ^SKEW ≥150 s=4 → Acute +2 / Managed −2** (7.5% 18-mo base rate, rarity-symmetric with the kill, currently 7.07 away, exit = the kill line itself) — the pair is now the two-way instrument the bare 140 line never was. **While FT-10 runs, no further managed-decline credit off vol softness — that posture replaces the retired "face value" clause.**
+
+**Also this pass:** FT-06's five fire closes re-verified as real bars (SIG-813-002 ask — exact match, complete session sequence, sibling-controlled); grading basis for the SKEW pair declared in the registry row (Yahoo ^SKEW publishes lagged → the tool reads completed sessions, the *inverse* of FT-06's basis defect); `boot.py` `cmp_op` sign-inversion defect on `>=` found at registration and fixed (ML-RED-178 — it would have printed a false FIRING on FT-10's first evaluated session). VIOLET's 8/18 20d-avg regime-termination call noted as coexisting arithmetic, not contradiction — her instrument answers persistence, mine is a level.
+
+---
+
 ## 2026-08-12 ~4:45 PM ET — S30 (T5): NO WEIGHT MOVED, but the registry that governs every future weight move was re-specced — and the base-rate pass corrected two published specifics behind the S29 −4
 
 **Confidence 69 (=). Net-bear 60 (=). All six hypothesis weights unchanged.** This entry exists because the new **A4** conditional makes W3 mandatory on any *registered-trigger state* change, not only on weight changes — and this session changed trigger state on all nine rows. **Under the old protocol this would have lived in a TSV and reached no analytical surface.**
