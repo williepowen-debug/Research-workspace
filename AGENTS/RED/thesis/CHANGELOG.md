@@ -4,6 +4,12 @@
 
 ---
 
+## 2026-08-20 ~1:5x PM ET — S32 (cont.): MI3 Q2 GRADED — bin (c), V1-demotion confirmed on the tree's own basis; NO WEIGHT MOVED (actions superseded-already-executed)
+
+**Confidence 69 (=). Net-bear 60 (=).** The pre-registered WAL V1 instrument finally printed: **WAL Q2-2026 MI3 = 21.2% on the legacy basis the May tree was written on** (its 24.2% baseline REPRODUCES exactly at 12/31/25 — unlike OZK's 37.6%, which is dead at every quarter) → **bin (c) 19–22%, "V1-demotion confirmed," the bull-steelman bin.** The pre-registered cohort conjunction (WAL<22 ∧ OZK<40 ∧ EGBN≤22) is TRUE → narrow-named — **confirming the narrowing CHG-027(c)/S28b already executed, so the tree's May-vintage weight deltas do NOT apply (double-count).** Structural leg stays **OZK + EGBN**. Adversarial residue carried: WAL's MI3 **dollars are +13.7% YoY** (a ratio event, not a shrinking hidden-CRE stock); the instrument's benign meaning is contested by REGINALD's own verification (OZK re-designation UNRESOLVED); **EGBN is #1 on the uniform basis AND has the cohort's worst NCO print** — consistent support for its place in the leg. Basis discipline decided the bin: the same print reads 8.99% uniform (= would-be bin (d)); graded on the letter's own basis with the other stated beside it. Grade memo: `research/MI3_Q2_2026_GRADE.md`; ML-RED-179. **Process finding logged separately: the data had been in-fleet 7 days, sitting in RED's own inbox — RED's boot has no general-inbox step** (18 unprocessed packets found 8/12–8/20; backlog triaged to Will).
+
+---
+
 ## 2026-08-20 ~12:1x PM ET — S32: SKEW re-crossed the 140 line — NO WEIGHT MOVED, and the base-rate audit found the premise was miscast, not merely dead
 
 **Confidence 69 (=). Net-bear 60 (=). All six hypothesis weights unchanged.** A4 entry: registered-trigger state changed (FT-10 registered; the SKEW-kill row's standing premise died), so W3/W8 are mandatory.

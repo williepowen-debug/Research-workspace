@@ -131,12 +131,12 @@ V2.0 explicitly admits this in C22: *"If Q1 Call Report shows ≥25%, V1 acceler
 
 | Bank | MI3 Q4 baseline | MI3 trajectory | Anomalous? |
 |------|----------------:|----------------|:----------:|
-| **WAL** | **24.2%** | **15.5% → 24.2% = +8.7pp / 2 quarters** | **YES — fastest growth in cohort** |
-| OZK | 37.6% (worst absolute) | flat or declining | No (high level, no growth) |
-| EGBN | 23.7% | declining post strategic de-risk | No |
+| **WAL** | **24.2%** ✅ *(reproduces: 24.24, 12/31/2025, legacy basis)* | ~~15.5% → 24.2% = +8.7pp / 2 quarters~~ ⚠️ **CORRECTED S32 8/20: window wrong 3× — 15.5 is 6/30/2024, SIX quarters before the peak.** Verified series (legacy): 15.51 → 16.0 → 21.85 → 24.06 → 22.48 → 21.97 → 24.24. The genuine fast leg was 9/30/24→3/31/25 (+8.1pp/2q); the delta was right, the endpoints were not. | **YES on trajectory** (the 2024H2 leg was cohort-fastest) — *but the claim as first written was false on the verified series* |
+| OZK | ~~37.6% (worst absolute)~~ ⚠️ **DEAD — S32 8/20 per REGINALD 8/13 cohort re-run (adversarially verified ×2 paths): 37.6 appears at NO quarter; "worst absolute" RETRACTED — OZK ranks 5th of 14 on both bases (Q2-26: 9.35 legacy / 5.46 uniform; dollars −64% YoY, two-thirds of it one 2025Q3 re-designation step, de-risking reading UNRESOLVED)** | ~~flat or declining~~ falling fast, one-quarter step | No (and less exposed than this table claimed) |
+| EGBN | 23.7% *(Apr-24 vintage, unverified against the re-run — Q2-26 verified: 12.44 legacy / **10.77 uniform = #1 of 14**)* | declining — ⚠️ but EGBN is now the cohort's worst NCO print (2.78% ann., Q2) | ⚠️ re-read S32: worst uniform-basis ratio + the NCO spike |
 | CFG | not specified | NDFI carve-out FY2025 10-K | partial reclassification |
 
-WAL is **anomalous on trajectory** (rate-of-change), even with absolute level (24.2%) near cohort median (~24%).
+WAL is **anomalous on trajectory** (rate-of-change), even with absolute level (24.2%) near cohort median (~24%). *(⚠️ S32 8/20: table corrected against `AGENTS/REGINALD/workbook/MI3_COHORT.tsv` — the Q2-2026 adjudication is in `research/MI3_Q2_2026_GRADE.md`: WAL printed 21.2 legacy = bin (c), V1-demotion confirmed; dollars still +13.7% YoY.)*
 
 ### V2.0's substitute test: NDFI cohort comparison via Slide 24
 

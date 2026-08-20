@@ -1,5 +1,7 @@
 # MI3 5/15 Decision Tree + WAL Jun ITM Puts EV Memo
 
+> ⚖️ **GRADED 2026-08-20 (S32) on the re-scoped Q2 print — see `research/MI3_Q2_2026_GRADE.md`.** WAL Q2-2026 = **21.2% legacy basis = BIN (c)**, V1-demotion confirmed; cohort conjunction (WAL<22 ∧ OZK<40 ∧ EGBN≤22) TRUE. **Weight/position actions SUPERSEDED-ALREADY-EXECUTED** (Jun stack expired; the narrowing priced via CHG-027(c) 7/24 + S28b). The 24.2% WAL baseline REPRODUCES on the legacy basis (24.24, 12/31/2025); ⚠️ the OZK 37.6% cell below is DEAD (no quarter, any basis — REGINALD 8/13) and the WAL "15.5→24.2 / 2 quarters" trajectory in §context was a 6-quarter window mislabeled. Corrections in place below; this file is otherwise a dated May record — do not cite its levels without the grade memo.
+
 **Author:** RED | **Date:** 2026-05-13 (T-2 to FFIEC bulk Q1 release 2026-05-15) | **Status:** Pre-registered framework (Will-pending)
 **Decision context:** WAL $74.97 5/13 mid-session (-3.34%); 3rd consecutive sub-$78 close; REG-T-02 sustained 2 sessions; WAL Q4 2025 MI3 = 24.2%; CHG-RED-025 RESOLVED-CONVERGED via REGINALD V2.1 hybrid response (V1 weight restored pending MI3).
 
@@ -47,7 +49,7 @@
 | Bank | Q4 MI3 | RED expectation Q1 | Falsifier-relevant? |
 |---|:---:|---|---|
 | WAL | 24.2% | Primary test (see bins above) | YES — drives WAL bin |
-| OZK | 37.6% baseline (Apr 24 last) | 38-40% (concentration trajectory) | Primary OZK V1 test — separate from invalidation-§2 NCO 55bp Q3 |
+| OZK | ~~37.6% baseline (Apr 24 last)~~ ⚠️ **DEAD S32 8/20 — no reproducible provenance at any quarter (REGINALD 8/13 re-run, verified ×2 paths); Q2-26 actual: 9.35 legacy / 5.46 uniform, 5th of 14** | ~~38-40% (concentration trajectory)~~ **refuted in level AND sign: dollars −64% YoY, fastest fall in cohort (two-thirds one 2025Q3 step; de-risking reading UNRESOLVED)** | Primary OZK V1 test — separate from invalidation-§2 NCO 55bp Q3 |
 | EGBN | 23.7% (Apr 24 baseline) | ≤22% (mgmt strategic de-risk) | YES — EGBN <22% = de-risk credibility + V1-cohort-broad weakening |
 | CFG | (cohort-median) | NDFI 5-cat split = framework-binding | NDFI reconciliation primary |
 | ZION | (cohort-median) | Q1 NDFI hidden | Cross-read only |
