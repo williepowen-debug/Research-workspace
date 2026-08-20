@@ -3,6 +3,12 @@
 **Thesis owner:** REGINALD/CARL + grading instrument (`PROME/synthesis/2026-06-25_Q2-bank-print-grading-instrument.md`) · **Card pre-built:** 2026-06-26 · **Fired:** ____
 **Status:** PROPOSE-ONLY — Will [Approve] required (rule #5).
 
+> **⚠️ 2026-08-19 SELF-AUDIT ANNOTATION — the Q2 window this card was built for RESOLVED ~4 WEEKS AGO and no grade was ever recorded here.** Found by the PROME-tasked self-audit sweep, and it is the desk's n=5 of *"spec frozen correctly in advance, INVOCATION late"* — sister card 003 recorded its Q2 grade on 7/24; this card did not. **Evidence in hand, recorded now, sources named:**
+> - **WAL Q2 printed 7/21 (not the Jul-30 the 6/26 pre-build guessed) — graded NOT-FIRED** (REGINALD Stage-1, GATES row; cited on this desk's own `2026-08-04_bank-put-reshape-REBUILD.md` §(c): *"the WAL 7/21 print fired NOT-FIRED… catalyst resolved null"*).
+> - **Monoline GATE: BEAT 7/21** — fades path (a) per this card's own ZONE-1 gate line (003's 7/24 grade: 0 un-mask tells across COF/SYF/ALLY, reserve releases).
+> - **EGBN 7/22: UNGRADED-ON-CARD** — no EGBN grade is in TERRY's hand; recorded as a gap, not asserted either way. Path (a) needed ≥2 SPECIFIC builds; with WAL not-fired and monolines clean, ≥2 was not reached on the evidence available.
+> - ⇒ **Q2 slate: NO FIRE. The card's live catalyst is now the Q3 print slate (Sep/Oct), same as 003's re-test.** ⚠️ **`RISK_RULES` #18 binds at any Q3 build (this card is its named first consumer): strikes inside the realized envelope (median 2-3%, p95 ≲9%) or tenor past the print — the pre-built "8-12% OTM" structure line below PRE-DATES #18 and does not survive it as written.** Repoint-vs-retire is an owner/Will call, flagged in the 8/19 sweep memo; $0 at risk either way, card stays PROPOSE-ONLY/dormant.
+
 ══════════════════════════════════════════════════════════════
 ZONE 1 — PRE-LOCKED (do NOT re-derive at fire)
 ══════════════════════════════════════════════════════════════
