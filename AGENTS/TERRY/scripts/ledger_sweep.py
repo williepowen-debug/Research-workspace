@@ -791,6 +791,126 @@ def check_future_stamps(surfaces: dict[str, str], now: datetime) -> list[str]:
     return findings
 
 
+# ---------------------------------------------------------------- check H
+# H. CONTRACT COUNT vs OPEN REAL PAPER ROWS (added 2026-08-19, tasking-3 build).
+#
+# 🔴 FOUNDING DEFECT: the 7/31 harvest took TRY-FIRE-004 from 30 to 25 contracts,
+# and the fill-day `30×` stood on INDEX.md, TRADE_BOOK.md and SETUPS.tsv for
+# NINETEEN DAYS — flagged by WALTER on 8/19, invisible to check A because a
+# contract COUNT is not a state token. All seven checks printed CLEAN over a
+# registry asserting a position 20% larger than the live book.
+#
+# DESIGN:
+#   * REFERENCE = the OPEN, lane == "real" rows of PAPER_BOOK.tsv (broker-truth
+#     mirror of actual fills, marked to close). lane == "paper" would-fire rows
+#     (PB-0001 x45, PB-0004 x2) are NOT positions and must not bind the registry.
+#     No open real row for a setup_id -> nothing to validate -> skipped.
+#   * Per surface, extract contract-count tokens from that setup_id's OWN row
+#     (exact-id match on the ID cell — cross-card mentions like "separate from
+#     004's $500" must not donate counts, same leakage class check A documents).
+#   * PASS if the live count appears anywhere un-struck in the region — history
+#     ("filled 30× ... 25 remain") legitimately carries both numbers, so the rule
+#     is "the live count must be PRESENT", not "old counts must be absent".
+#   * FIRE if the region makes count claims and the live count is not among them.
+#   * ⛔ Multipliers are not counts: "3.23×" (realized), "≥3×" (harvest gate),
+#     "~17×" (payoff) are guarded by lookbehind on [.$≥>~-] — a false fire here
+#     would teach the desk to ignore the check (alert-fatigue class).
+
+_CNT = r"(\d{1,3})"
+_CNT_GUARD = r"(?<![\d.$≥>~-])"
+COUNT_RES = [
+    # count then instrument/at: "30× TLT", "30× 77P", "×30 @", "FILLED 30x"
+    re.compile(rf"{_CNT_GUARD}{_CNT}\s*[x×]\s*(?=TLT\b|[A-Z]{{2,5}}\b|\d{{2,3}}(?:\.\d)?[PC]\b|@)"),
+    # count tagged live/remain or ending a clause: "25× live", "25x (", "30×,"
+    re.compile(rf"{_CNT_GUARD}{_CNT}\s*[x×](?=\s*[,;.)(]|\s+(?:live|remain|LIVE|REMAIN))"),
+    # instrument then count: "77P x25", "x25 ("
+    re.compile(rf"[PC]\s*[x×]\s*{_CNT}\b"),
+    re.compile(rf"\b[x×]{_CNT}\b"),
+    # bare-unit forms: "25 ct", "10 contracts", "25 remain"
+    re.compile(rf"{_CNT_GUARD}{_CNT}\s+(?:ct\b|contracts?\b|remain\b)"),
+]
+
+_SID_RE = re.compile(r"TRY-[A-Z]+-(?:\d{3}|[A-Z0-9]+)")
+
+
+def counts_in(text: str) -> set[int]:
+    """Contract-count tokens in a state-claim region, history-stripped."""
+    clean = strip_history(text)
+    return {int(m.group(1)) for rx in COUNT_RES for m in rx.finditer(clean)}
+
+
+def paper_live_counts() -> dict[str, int]:
+    """setup_id -> live contract count, summed over OPEN lane=real PAPER_BOOK rows."""
+    refs: dict[str, int] = {}
+    for line in read(TERRY / "PAPER_BOOK.tsv").splitlines():
+        if line.startswith("#") or not line.strip():
+            continue
+        f = line.split("\t")
+        if len(f) < 20 or f[12] != "OPEN" or f[18] != "real":
+            continue
+        n = re.search(r"[x×](\d{1,3})\b", f[4])
+        sid = _SID_RE.match(f[1])
+        if n and sid:
+            refs[sid.group(0)] = refs.get(sid.group(0), 0) + int(n.group(1))
+    return refs
+
+
+def contract_count_findings(sid: str, live: int, regions: dict[str, str]) -> list[str]:
+    """Pure core, selftest-injectable: regions = {surface_name: row/header text}."""
+    findings: list[str] = []
+    for surf, text in sorted(regions.items()):
+        got = counts_in(text)
+        if got and live not in got:
+            findings.append(
+                f"CONTRACT-COUNT DRIFT  {sid}  {surf} claims {sorted(got)}× but the OPEN "
+                f"lane=real paper row(s) hold {live} live.\n"
+                f"      -> a count is not a state token, so check A cannot see this; "
+                f"reconcile the surface to the live book (history may keep the old count "
+                f"beside it — the live count just has to be PRESENT)."
+            )
+    return findings
+
+
+def _own_row(lines: list[str], sid: str, cell_idx: int) -> str | None:
+    """Last md-table row whose ID cell's FIRST TRY- token is exactly sid."""
+    hit = None
+    for line in lines:
+        if sid not in line or not line.strip().startswith("|"):
+            continue
+        cells = md_cells(line)
+        if len(cells) > cell_idx:
+            ids = _SID_RE.findall(cells[cell_idx])
+            if ids and ids[0] == sid:
+                hit = line
+    return hit
+
+
+def check_contract_counts(cards: dict[str, tuple[str, str, str]]) -> list[str]:
+    findings: list[str] = []
+    refs = paper_live_counts()
+    if not refs:
+        return findings
+    idx_lines = read(INDEX_MD).splitlines()
+    tb_lines = read(TRADE_BOOK).splitlines()
+    st_lines = read(SETUPS_TSV).splitlines()
+    for sid, live in sorted(refs.items()):
+        regions: dict[str, str] = {}
+        row = _own_row(idx_lines, sid, 0)
+        if row:
+            regions["INDEX.md"] = row
+        row = _own_row(tb_lines, sid, 1)
+        if row:
+            regions["TRADE_BOOK.md(last row)"] = row
+        st = [l for l in st_lines if f"\t{sid}\t" in l]
+        if st:
+            regions["SETUPS.tsv"] = st[-1]
+        if sid in cards:
+            name, _, body = cards[sid]
+            regions[f"card({name}) header"] = body.split("═", 1)[0]
+        findings.extend(contract_count_findings(sid, live, regions))
+    return findings
+
+
 # ---------------------------------------------------------------- gather
 
 def gather_live():
@@ -1061,6 +1181,29 @@ def selftest() -> int:
     ok("adjacency is what does the work: same line, time moved NEXT TO the date, fires",
        len(check_future_stamps({"S": f"Chain pulled {_d} 16:15 ET"}, _now)) == 1)
 
+    # -------- check H: contract count (added 2026-08-19) — the doctored pre-fix
+    # state IS the test: these are the verbatim strings that stood on the live
+    # registry from 7/31 to 8/19 while every check printed CLEAN.
+    ok("★★ H FIRES on the founding defect — INDEX cell as it stood this morning (30× vs 25 live)",
+       len(contract_count_findings("TRY-FIRE-004", 25, {"INDEX.md":
+           "| **TRY-FIRE-004** | 🟢 **FIRED LIVE 7/20** (30× 77P @ $0.11, $330 at risk; ~$170 bank dry) | FLOW |"})) == 1)
+    ok("★★ H FIRES on pre-fix TRADE_BOOK last row ('APPROVED + FILLED 30× @ $0.11')",
+       len(contract_count_findings("TRY-FIRE-004", 25, {"TRADE_BOOK.md(last row)":
+           "| **2026-07-20** | **★ TRY-FIRE-004 re-fire** | BOND | CLEAN | **APPROVED + FILLED 30× @ $0.11 = $330 at risk** | FIRED/ACTIVE |"})) == 1)
+    ok("H CLEAN on the post-fix INDEX cell (25× live present beside the 30× history)",
+       contract_count_findings("TRY-FIRE-004", 25, {"INDEX.md":
+           "| **TRY-FIRE-004** | 🟢 **FIRED LIVE 7/20 — 25× live** (filled 30× @ $0.11; 5 harvested 7/31; 25× remain) |"}) == [])
+    ok("H CLEAN on the card-header form — fill history and live count coexist ('30× TLT … 25 remain')",
+       contract_count_findings("TRY-FIRE-004", 25, {"card": "**Fired:** 2026-07-20 — 30× TLT Sep-30-26 77P @ $0.11. Will sold 5 at 3.23× on 7/31; 25 remain."}) == [])
+    ok("★ NO FP: a harvest-gate multiplier is not a count ('harvest ≥3× (≥$0.33) → take half')",
+       contract_count_findings("TRY-FIRE-004", 25, {"S": "harvest ≥3× (≥$0.33) → take half"}) == [])
+    ok("★ NO FP: realized/trajectory multipliers are not counts ('3.23×', '2.4× → 1.254× → 0.735×', '~17×')",
+       contract_count_findings("TRY-FIRE-004", 25, {"S": "realized 3.23× fees-in; gate trajectory 2.4× → 1.254× → 0.735×; TLT 75 ≈ ~17×"}) == [])
+    ok("NO FP: struck count is history — '~~30× live~~ → 25× live' reads as 25",
+       contract_count_findings("TRY-FIRE-004", 25, {"S": "~~30× live~~ → 25× live"}) == [])
+    ok("H reads the reference from OPEN lane=real rows only (paper would-fire x45 must not bind)",
+       paper_live_counts().get("TRY-FIRE-004") == 25)
+
     print(f"\n  {'SELFTEST PASS' if not fails else f'SELFTEST FAIL ({fails})'}")
     return 1 if fails else 0
 
@@ -1164,7 +1307,18 @@ def run_live(since: str) -> int:
     else:
         print("  ✓ no surface disagrees with another on strikes or expiry")
 
-    total = len(a) + len(b) + len(c) + len(d) + len(e) + len(f) + len(g)
+    h = check_contract_counts(cards)
+    refs = paper_live_counts()
+    print(f"\nH. CONTRACT COUNT vs OPEN REAL PAPER ROWS — "
+          f"{len(refs)} live reference(s): {', '.join(f'{k}={v}×' for k, v in sorted(refs.items())) or 'none'}")
+    if h:
+        for x in h:
+            print(f"  🔴 {x}")
+    else:
+        print("  ✓ every registry surface carries the live contract count"
+              if refs else "  ✓ no open real paper rows — nothing to validate")
+
+    total = len(a) + len(b) + len(c) + len(d) + len(e) + len(f) + len(g) + len(h)
     print(f"\n{'🔴 ' + str(total) + ' FINDING(S) — sweep before closeout' if total else '✅ CLEAN'}")
     return 1 if total else 0
 
