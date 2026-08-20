@@ -36,7 +36,7 @@
 
 ## ⚠️ Blind spots — and who found each one
 
-**The discipline: record the FINDER.** A gap CREED finds is a lane to build. **A gap someone else finds is evidence of a systematic blind spot** — and **four of the five** below were found by someone else. *(This line read "three" from creation until the 7/27 closeout audit caught it contradicting its own table — the **second** count-drift CREED introduced today while cataloguing the same class in four other agents. Both were found by auditing, neither by remembering.)*
+**The discipline: record the FINDER.** A gap CREED finds is a lane to build. **A gap someone else finds is evidence of a systematic blind spot** — and **5 of the 7** below were found by someone else. ⚠️ *(**This exact line has now drifted TWICE.** It read "three" until the 7/27 audit caught it contradicting its own table; it then read "four of the five" while the table grew to **seven rows** and its own closing sentence said **5 of 7** — i.e. the file disagreed with itself in two places at once, and **the correction note added last time did not prevent the next drift.** Found by DAEDALUS's structural review, not by CREED. **The durable fix is not another note: it is `creed_selfcheck`'s asserted-count check, extended to counts stated in PROSE ABOUT A TABLE IN THE SAME FILE** — logged to the guard backlog.)*
 
 | Gap | Found by | Status |
 |---|---|---|
@@ -45,7 +45,6 @@
 | **Data-centre CRE demand** — the AI↔CRE crossover | ⚠️ **NEXUS** (M-09 weld) | Monitored, **explicitly NOT an independent vote** (shares the M-09 node) |
 | **The ARI→Athene affiliated-transfer leg** — CREED routed the transaction and missed that it was related-party | ⚠️ **SHADE** | **CLOSED 7/27**, absorbed with the anti-fusion discriminator |
 | **`PRED-CREED-006`'s baseline was a seasonal trough** | ⚠️ **SHADE** | **CLOSED 7/27** — re-spec'd to ≥+$10B (*not* SHADE's proposed +$20B, which over-corrected) |
-
 | **`CREED-T-03`'s instrument cannot see unsecured CRE** — banks book it as C&I, so the trigger's bias is one-sided toward NO-FIRE | ⚠️ **REGINALD** (via TERRY, 8/20) | **OPEN.** Scope limit registered against T-03 **ahead of** the FDIC Q2 print so it cannot be back-fitted. Magnitude unknown; REGINALD's to close |
 | **`CREED-T-02` had no metric vector** — the only banded trigger with none, so its own metric landed in prose and went ungraded for 6 weeks | **CREED** (8/20, via the FORUM-5 K5 test) | **CLOSED** — `VX-CREED-3.04` built; `scripts/creed_selfcheck.py` now checks fire-state across surfaces |
 
