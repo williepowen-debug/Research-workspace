@@ -11,6 +11,20 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 ---
 
+
+## 2026-08-20 — fire ledger created; a missing metric vector identified as the root cause of a 6-week detection lag
+
+**1. NEW: `registry/CREED_T_FIRED_LOG.tsv` — the single CREED-T fire record.**
+Created on the first fire in the registry's history (`CREED-T-02`). Schema: `trigger_id · fired_date · effective_date · detection_lag · metric · band · observed_series · verdict · routed_to · basis · notes`. **`effective_date` and `detection_lag` are separate columns by design** — the date a band was actually satisfied is not the date CREED noticed, and collapsing them would erase exactly the failure this ledger's first row records.
+⚠️ **Deliberately the ONLY such ledger.** WALTER asked 8/19 whether to build a WALTER-side mirror (it keeps them for RED-FT and REG-T). **CREED answered NO on WALTER's own reasoning** — a second ledger splits the truth, and a fire recorded in two disagreeing places is worse than one recorded nowhere. **WALTER reads this file; it does not mirror it.** Do not re-litigate without reversing that reasoning.
+
+**2. NEW: `VX-CREED-3.04` (Matured-Balloon Share of New Delinquencies) — created as a ROOT-CAUSE FIX, not a coverage addition.**
+`CREED-T-02` was the **only numerically-banded CREED trigger with no VX vector carrying its metric** (31 vectors, none for matured-balloon share). Consequence, observed live: on **8/13** CREED wrote "66% of $6.0B newly delinquent" into `VX_HISTORY` and `VX-CREED-1.02`'s **notes prose** — the T-02 metric against a band of 50 — **and did not grade it**, because no vector mapped the number to the trigger. **The trigger went ungraded for ~6 weeks with the desk awake and the number in its own files.**
+⚠️ **Yellow/Orange left `--` ON PURPOSE.** The vector **transcribes the existing Will-frozen band and creates no new threshold**; inventing intermediate bands would be a new Will-gated term. **Do not "complete" those cells.**
+
+> **Structural lesson, recorded because it may generalise beyond CREED:** *a registry row and a dashboard vector are two different instruments. A threshold that exists in only one of them is ungradeable in practice, however correctly it is written.* `THRESHOLDS.tsv`'s header declares it "MOVES NOTHING" — accurate, and that **was** the defect: transcription without a metric surface produced a trigger nobody could trip. **Flagged to PROME as a possible fleet sweep (DAEDALUS's call). CREED has audited only CREED.**
+
+**3. Source-tier change: Trepp SECONDARY → PRIMARY-READ for Apr–Jul 2026.** WALTER archived five Trepp PDFs at `AGENTS/WALTER/sources/`; they are readable with pdfminer and CREED read all five. **Standing trap #3 is now PARTIALLY retired** — it remains true for months not archived. ⚠️ **The trap text in `CLAUDE.md` was NOT rewritten** — the general warning still holds and the exception is month-scoped; a next session should not read "primary-CITED" as universally false.
 ## 2026-07-27 (fifth sitting) — HENRY/CARL survey: the eval suite, and the discovery that CREED's newest disciplines were in the WRONG SURFACE
 
 **Trigger:** Will directed the same survey against **HENRY** (macro/wealth-effect; `evals/`, `BOOT_AUDIT.md`, `MODERNIZATION_PLAN.md`, clustered `research/prompts`+`outputs`) and **CARL** (consumer credit; **7 sub-agents** each with `state_vectors/`+`workbook/`, `SIGNAL_INTAKE.md`, `SPAWN_PROTOCOL.md`, `templates/`, 13 scripts). Both clean/not-live.

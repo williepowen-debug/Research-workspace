@@ -1,5 +1,25 @@
 # CREED Thesis Changelog
 
+## 2026-08-20 · **FIRST TRIGGER FIRE.** `CREED-T-02` (S2) FIRED — convergence 23/45 → 25/45
+
+**The first analytical escalation in CREED's history, and the first time "this window escalated the thesis" is a true sentence** (7/27 explicitly did not — it resolved a blended vector).
+
+**1. `CREED-T-02` FIRED — S2 scored 3 → 5, effective the JUNE print, fired 8/20 (~6-week detection lag).**
+Matured-balloon share of newly delinquent balances: **Apr 42% ❌ / May 70% ✅ / Jun 65% ✅ ← sustain met / Jul 66% ✅.** Band `>50, sustain 2` **Will-frozen 7/21 and unmoved — nothing was relaxed to make this fit.** Verified at **PRIMARY-READ** off four Trepp PDFs before firing. S2's upgrade trigger read *verbatim* "matured-balloon = majority of new delinq 2 consec mo" — **met exactly as pre-written, no re-interpretation.**
+
+**2. ⚠️ The shape read was CORRECTED, not adopted.** WALTER's series carried *"the metric peaked in May — this is not a wave starting."* **True of the ratio, false of the wave.** The share's denominator swings **2.3×** ($2.63B → $6.00B newly delinquent). Derived matured-balloon **dollars**: Apr $1.10B / May $2.83B / Jun $1.72B / **Jul $3.96B — the series peak, +40% vs May, +131% vs June.** **A ratio whose denominator moves 2.3× cannot carry a trend read alone.** Both series now registered together so neither travels without the other.
+
+**3. `VX-CREED-3.01` maturity-adjusted DQ → 9.62% (July), a new multi-year high — and its gap to headline NARROWED 218 → 176bps.** Trepp attributes the narrowing to distress *"shifting out of performing matured balloon status and into non-performing matured balloon status."* 🔴 **Therefore the narrowing is RECOGNITION, not repair** — the performing-matured-balloon shadow bucket is draining into the headline rate. **A metric that looks like improvement is the confirming evidence.** Second independent measurement of the same mechanism as (1).
+
+**4. S1 legs diverged without contradicting — S1 HELD at 3.** Office DQ **+34bps to 11.91%** (9bps below trigger) on named matured-balloon conversions; office SS **−53bps to 16.58%** (142bps below trigger, **moving away**) on *"resolutions, paydowns, and workout activity."* **Different doors, one mechanism:** extend-and-pretend still clearing seasoned distress while new *maturity* distress enters elsewhere. **The SS decline is not a health signal.**
+
+**5. ⚠️ Read the escalation NARROWLY — three limits, stated as part of the change.**
+- **S1+S2 share the maturity-wall root ⇒ ONE root escalated, not two.** Independent-root count **unchanged at ~4–5**.
+- **S3 (bank convergence) did NOT move and is still 2.** FDIC PDNA remains counter-direction. **S3 is the trade-relevant trigger; this fire is not it.**
+- **This is a CMBS-recognition event, not a bank-transmission event.** Base case *selective CRE recognition accelerating* is better evidenced **in its own channel**; **broad CRE→bank transmission stays NOT confirmed.** FDIC Q2 QBP (~8/24–8/29) is the next real test.
+
+**6. Source tier upgraded: Trepp SECONDARY → PRIMARY-READ (Apr–Jul 2026).** Standing trap #3 partially retired — it holds only for months not archived as readable PDFs.
+
 ## 2026-07-27 (evening — post-crash sittings) · analytical deltas, all of them DOWNWARD on CREED's own claims
 
 **No signal fired, no score moved, base case unchanged.** Four changes, every one a **weakening of a CREED claim**, three of them found by SHADE and accepted:

@@ -1,14 +1,81 @@
 # CREED STATUS
 
-**Updated:** 2026-08-13 (Will-directed private-credit grouping session, PROME-spawned alongside SHADE+BROCK — courier post-mortem RULED and KILLED, first live prediction grading pass, first eval-suite run; prior 2026-07-27 eve)
-**Status:** 🟡 MONITORING — base case *selective CRE recognition accelerating*, **HOLDS**; no CREED trigger (S1–S8) fired 7/27→8/13; convergence unchanged at **23/45 (51.1%)** — this window's work was prediction-grading + inbox drain + one structural KILL, not thesis movement
+**Updated:** 2026-08-20 (Will-directed boot, ~7 days dark; **first trigger fire in CREED's history**; both FORUM 5 owed items closed 5 weeks early; prior 2026-08-13)
+**Status:** 🟠 **ELEVATED** (from 🟡) — base case *selective CRE recognition accelerating* **HOLDS and is now materially better evidenced**. **`CREED-T-02` (S2, maturity-default wave) FIRED 2026-08-20, effective the JUNE print.** Convergence **23/45 → 25/45 (51.1% → 55.6%)**. ⚠️ **Still PRE-BANK-TRANSMISSION — `CREED-T-03` has NOT fired and S3 is unmoved at 2.**
 **Tier:** 2 (spawned-as-needed). This is a **catch-up, not a standing daily.** Do not spawn without explicit Will permission.
 **Owner:** CREED after boot; Prome owns future topology/migration decisions only with Will approval.
-**▶ WORKBOOK:** live, 6 TSVs. **First live grading pass 2026-08-13:** `PRED-CREED-001` (July office DQ 11.91%, +34bps, still 9bps below the 12.00% trigger — NOT resolved) and `PRED-CREED-010` (Athene leg, off the primary Q2 10-Q, Δ +$6.9B — **PARTIAL band**, reconciled with SHADE to one figure). **Eval suite: first run** — both cases VOID on contamination, a suite-design defect (see §2026-08-13 below), substance read recorded regardless.
-**▶ COURIER ARRANGEMENT WITH HOMER: KILLED 2026-08-13** (PROME ruling row 47) after one cycle — full reasoning in `CLAUDE.md` §S5 sourcing and the 8/13 catch-up section below.
-**▶ FORUM 5 (private-credit recognition, CREED+SHADE+BROCK, 8/13): CLOSED, all 4 slate items Will-approved** — rulings-record `FORUM/2026-08-13_private-credit-recognition/04_synthesis/03_PROME_rulings-record.md`, commit `408110c0d`. CREED's read (collateral-stage deferral, not health — DQ/SS are payment-status series a modification lever keeps clean; forced recognition is calendar-driven, Q4 2026 maturity wall) held through synthesis; CREED's sole dissent (K5 disposition, KILL→DEFER) was ADOPTED. **Two items owed, due 9/30, self-administered, DOCKET-tracked:** W1 (is `VX-CREED-3.01` genuinely unpublished or merely unfetched?) and K5 (dark-cadence protocol test — does CREED's boot-check actually fire inside a genuine mid-cycle spawn?). Full posts: `FORUM/2026-08-13_private-credit-recognition/{01_desk-state,02_cross-read,03_falsifiers,04_synthesis}/*CREED*.md`.
-**▶ NEXT SESSION:** August Trepp DQ/SS prints (~early/mid-Sept), FDIC Q2 QBP (**expected ~8/24–8/29, not overdue** — corrected 8/13, see below), PRED-CREED-006 MBA Q2 print (~mid-Sept — joint verdict with 010), `VX-CREED-9.03` office vacancy still Q1-vintage (Q2 Moody's refresh still owed, now 2 cycles overdue), FORUM 5's W1 + K5 (both due 9/30).
-**▶ NEWS SWEEP (8/13, window 7/27→8/13):** 2 meaningful / 0 routed / 2 leads — full write-up `research/2026-08-13_NEWS_SWEEP_RESULTS.md`. Headline: the FDIC-overdue correction above, plus ACRE (own cohort, `VX-CREED-10.01`) held its Q2 dividend but distributable earnings ($0.12/sh) came in below it ($0.15/sh) — a coverage shortfall, not a cut; does not fire `PRED-CREED-004`.
+**▶ 🔴 FIRE:** `CREED-T-02` = MATURED-BALLOON-SHARE-OF-NEW-DELINQ **>50, sustain 2** (Will-frozen 7/21, **unmoved**). **Apr 42% ❌ / May 70% ✅ / Jun 65% ✅ ←sustain met / Jul 66% ✅.** PRIMARY-READ off four Trepp PDFs. **Effective 2026-06, fired 2026-08-20, detection lag ~6 weeks — logged as lag, not smoothed.** Ledger: `registry/CREED_T_FIRED_LOG.tsv` (**new — the single CREED-T fire record; WALTER asked to build a second and CREED said no**). Routed **action** → REGINALD + LIQUID.
+**▶ SOURCE-TIER UPGRADE:** Trepp **SECONDARY → PRIMARY-READ** for Apr–Jul 2026. WALTER archived five Trepp PDFs at `AGENTS/WALTER/sources/`; CREED read all five directly. **Standing trap #3 ("Trepp PDFs are paywalled ⇒ primary-CITED not primary-READ") is PARTIALLY RETIRED** — true only for months WALTER has not archived.
+**▶ FORUM 5 W1 — RESOLVED (due 9/30, closed 8/20): MERELY UNFETCHED.** July maturity-adjusted DQ **was published — 9.62%, a new multi-year high** — while CREED (8/13) and HOMER (8/12) both recorded it NOT PUBLISHED. Both had reached only the Connect-CRE secondary. `KB-CREED-019`.
+**▶ FORUM 5 K5 — RAN, HYPOTHESIS FALSIFIED (due 9/30, closed 8/20).** Dark-cadence is **NOT** the defect. On 8/13, mid-cycle, CREED wrote **"66% of $6.0B"** into its own workbook — the T-02 metric against a band of 50 — **and did not grade it.** Root cause: **T-02 was the only banded trigger with no VX vector carrying its metric.** Fixed: `VX-CREED-3.04` created.
+**▶ FIRST PREDICTION RESOLUTION:** `PRED-CREED-009` **RESOLVED TRUE**. Scoreboard **n=0 → n=1, 0/1, Brier 0.49** (worse than coin-flip) — recorded straight. **The finding is in the rationale, not the score** (see ④).
+**▶ NEXT SESSION:** 🔴 **FDIC Q2 QBP ~8/24–8/29 — `CREED-T-03`, the decision-relevant trigger, lands within days** · August Trepp prints (~early Sept) test `CREED-T-01a` at **9bps** · `PRED-CREED-006`+`010` joint verdict (MBA Q2, ~mid-Sept) · `VX-CREED-9.03` office vacancy **still Q1-vintage, now 3 cycles stale — flagged a third time, per the 8/13 instruction not to let it pass silently.**
+---
+
+## 2026-08-20 Catch-Up — Will-directed boot; **first trigger fire**, and two FORUM items closed by falsifying CREED's own excuse
+
+**Context:** CREED dark ~7 days (8/13 → 8/20). Walked into **9 unconsumed mail items**, 8 of them from WALTER on 8/19, six of which were **one thread in which WALTER corrected itself twice**. WALTER wrote a `000-READ-FIRST` entry note *before* CREED booted specifically so filename-order reading would not hit the superseded inferences first. **It worked, and it set up the entire session.** Both mail lanes now CLEAN; all 9 logged to `board_log.tsv` at read time.
+
+### ⭐ ① `CREED-T-02` FIRED — S2 maturity-default wave, effective the June print, ~6 weeks late
+
+| Trepp print | Matured-balloon share of newly delinquent **balances** | vs band >50 |
+|---|---:|---|
+| April 2026 | **42%** | ❌ below |
+| May 2026 | **70%** | ✅ |
+| **June 2026** | **65%** | ✅ ← **sustain MET** |
+| July 2026 | **66%** | ✅ (third consecutive) |
+
+**Verified at PRIMARY-READ before firing** — CREED re-read all four Trepp PDFs directly rather than fire a Will-frozen trigger on a relayed figure. **Every number WALTER reported was correct.** Band unmoved. April at 42% **closes the backward question**: the run cannot start before May, so **~6 weeks is the FINAL lag, not a floor.**
+
+**Provenance:** WALTER located and archived the series and **deliberately declined to declare the fire** — *"the adjudication is a CREED act."* That restraint is why this fire has one clean owner. **WALTER's open ask — build a WALTER-side `CREED-T` fire ledger? — ANSWERED NO**, on WALTER's own reasoning that a second ledger splits the truth. `registry/CREED_T_FIRED_LOG.tsv` is the single record.
+
+**Two of WALTER's own inferences died in its thread and are NOT carried.** CREED recorded *why* the "again dominating" one died, because the class generalises: **Trepp's "dominating"/"most common" is a PLURALITY descriptor and cannot grade a MAJORITY band** — April was "most common" at **42%**, below the band, with 30-day at 40%. The word tracks rank; the band tracks share.
+
+### 🔴 ② The correction CREED did NOT adopt — "peaked in May / not a wave starting" is true of the ratio and false of the wave
+
+| | Apr | May | Jun | **Jul** |
+|---|---:|---:|---:|---:|
+| Share | 42% | **70%** | 65% | 66% |
+| Newly delinquent balances | $2.63B | $4.04B | $2.64B | **$6.00B** |
+| **Matured-balloon $ (CREED-derived)** | $1.10B | $2.83B | $1.72B | **$3.96B** |
+
+**The share's denominator swings 2.3×.** In dollars **July is the series peak: +40% vs May, +131% vs June.** The *ratio* plateaued; the *quantity* more than doubled off June. **A ratio whose denominator moves 2.3× cannot carry a trend read alone.** Both series are now registered together on `VX-CREED-3.04` so no future reader gets one without the other. Correction routed to WALTER, REGINALD and LIQUID.
+
+**Independent corroboration, and it inverts an intuitive read:** `VX-CREED-3.01` maturity-adjusted DQ **9.62% (July) = new multi-year high**, while its **gap to headline NARROWED 218 → 176bps**. Trepp verbatim: the narrowing *"reflects maturity-related distress shifting out of performing matured balloon status and into non-performing matured balloon status, which is captured in the headline rate."* 🔴 **The narrowing is RECOGNITION, not repair — the shadow bucket is draining into the headline.** Anyone reading gap-narrowing as CRE stabilisation has the sign backwards.
+
+**And the S1 legs diverge without contradicting:** office DQ **+34bps to 11.91%** on named matured-balloon conversions, while office SS **−53bps to 16.58%** on *"resolutions, paydowns, and workout activity."* **Different doors, one mechanism:** extend-and-pretend still clearing the seasoned book while new *maturity* distress enters elsewhere. S1 held at 3.
+
+### 🔴 ③ FORUM 5 **K5** ran unforced — and the dark-cadence hypothesis is FALSIFIED
+
+K5's spec: *if CREED is spawned inside a full print cycle and still fails to log/grade the print, that falsifies "dark-cadence is spawn-timing" and reveals a protocol defect.* **The test ran naturally, and the result is worse than the spec anticipated.**
+
+On **2026-08-13**, mid-cycle, CREED pulled the July print and wrote **"66% of $6.0B newly delinquent"** into `VX_HISTORY.tsv`, into `VX-CREED-1.02`'s notes, and into STATUS — **that is the `CREED-T-02` metric, against a band of 50** — **and did not grade it.** CREED was awake, had the number, wrote it down, and did not recognise it.
+
+**Root cause identified:** `CREED-T-02` was the **only numerically-banded CREED trigger with no VX vector carrying its metric** — 31 vectors, none for matured-balloon share. **The number had nowhere to land except free-text prose inside a different vector's notes, and prose is not graded against bands.**
+
+**Fixed this session:** `VX-CREED-3.04` created, transcribing the **existing frozen band** (Yellow/Orange deliberately left `--`; **inventing intermediate bands would be a new Will-gated term — the vector moves nothing**).
+
+> **The generalisable finding:** *a registry row and a dashboard vector are two different instruments, and a threshold living in only one of them is ungradeable in practice however correctly it is written.* `THRESHOLDS.tsv` declares it "MOVES NOTHING" — true, and that **was** the problem: transcription without a metric surface produced a trigger nobody could trip. **Flagged to PROME as possibly fleet-relevant; CREED has audited only CREED.**
+
+### 🟡 ④ FORUM 5 **W1** resolved — and it is the same defect wearing different clothes
+
+**W1:** is `VX-CREED-3.01` genuinely unpublished for July, or merely unfetched? **Answer: MERELY UNFETCHED.** The figure — **9.62%** — sat in the July Trepp PDF in plain prose while CREED recorded it NOT PUBLISHED (8/13) and HOMER logged it UNGRADED (8/12). **Both desks had reached only the Connect-CRE secondary; our agreement established that we shared a channel, not that the datum was absent.**
+
+**Same defect, third surface — `PRED-CREED-009`.** It **resolved TRUE** (n=1, 0/1, **Brier 0.49**). But it had been held at **30%** *explicitly* because *"CREED does not currently receive the new-delinquency COMPOSITION split monthly,"* with a registered risk of ending `STUCK`. **Trepp publishes that split every month and published it in all four.** The confidence was suppressed by an assumption about CREED's **reach**, not a judgement about the **world** — and a number that is low for the wrong reason **scores as well-calibrated when it resolves FALSE and teaches nothing when it resolves TRUE.**
+
+**Rule adopted:** *before pricing a prediction low on resolvability, establish the datum is genuinely unpublished rather than merely unfetched.* **Confidences elsewhere NOT touched** — moving numbers on n=1 off a rationale defect is precisely the post-hoc adjustment the book exists to prevent.
+
+### ⑤ What did NOT happen — stated so the fire is not over-read
+
+- ❌ **No bank transmission.** `CREED-T-03` **not fired**; S3 **unmoved at 2**; FDIC PDNA still counter-direction. **S3 is the trade-relevant trigger and this fire is not it.**
+- ❌ **Convergence escalation is ONE root, not two** — S1 and S2 share the maturity-wall antecedent. Independent-root count **unchanged at ~4–5**.
+- ❌ **`CREED-T-01a` not fired** (11.91%, 9bps below — nearest on the fleet board) · **`T-01b` not fired and moving AWAY** (16.58% vs >18) · **`T-08b` not fired** (8 of 11 cohort dividends intact).
+- ❌ **No trade view, no position implication.** Not CREED's to give.
+- ⚠️ **`VX-CREED-9.03` office vacancy is now 3 cycles Q1-stale.** Flagged a **third** time explicitly, per 8/13's own instruction not to let a cycle pass silently. No Moody's Q2 print locatable.
+
+### ⑥ REG-T-07 collision — answered to REGINALD, and the answer is "keep both bars"
+
+The 7/27-flagged collision (`REG-T-07` = OFFICE-CMBS-DQ **>15 sustain 3** vs `CREED-T-01a` **>12 sustain 2**, same series, CREED not in the recipient chain) has sat unreconciled with both desks dark. **CREED's position: the divergent LEVELS are legitimate design — two bars answering different questions — and CREED is not asking REGINALD to move one.** The unreviewed part was always the **notification gap**: two asks routed, both cheap — add CREED to REG-T-07's chain as `info`, and note in the row that two registered bars exist on this series. ⚠️ Also flagged: the circulating **16.58%** is **special servicing** and **cannot grade REG-T-07**, a DQ bar.
 
 ---
 

@@ -1,6 +1,6 @@
 # CREED Predictions Scoreboard
 
-**Created:** 2026-07-27 · **Updated:** 2026-08-13 (first live grading pass — 001 July print entered, not resolved; 010 Athene-leg interim PARTIAL read entered off primary 10-Q, joint verdict still pending 006)
+**Created:** 2026-07-27 · **Updated:** 2026-08-20 (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
 Tracks resolution outcomes and calibration for CREED's pre-registered predictions. Open rows live in `PREDICTIONS.tsv`; this is the **summary + calibration read**.
 
 > **Created at n=0 on purpose.** CREED registered **10 predictions with self-set confidences** on 2026-07-27 (Will's §10 decision 2, 7/21: *"YES, you set them — your conviction, your numbers"*) and had **no calibration surface at all**. The discipline has to exist **before** the first resolution — otherwise the first resolution sets the precedent for skipping it. *(Adopted from BROCK's scoreboard, which at n=10 produced a read that changed its behaviour.)*
@@ -11,9 +11,27 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 | Hit rate | Brier (mean) | Baseline |
 |---|---|---|
-| **n = 0** | — | 0.25 (coin-flip) |
+| **n = 1 — 0/1 (0%)** | **0.49** | 0.25 (coin-flip) |
 
-**No CREED prediction has resolved yet.** First resolutions due: `PRED-CREED-002` (July SS, ~mid-Aug) and `PRED-CREED-001` (July DQ, ~early Aug).
+**The first resolution is a miss, and a worse-than-coin-flip one.** `PRED-CREED-009` was written at **30%** — i.e. CREED said *probably not* — and it resolved **TRUE**. Brier = (0.30 − 1)² = **0.49**.
+
+> ⚠️ **n=1 is not a calibration read.** One resolution cannot distinguish a bad process from an unlucky draw, and the Brier number above must not be quoted as CREED's calibration. **What IS readable at n=1 is the RATIONALE**, and that is where the finding is.
+
+### 🔴 The finding: the confidence was low for a reason that was FALSE WHEN WRITTEN
+
+`009`'s registered rationale held it at 30% **explicitly** on data-availability grounds:
+
+> *"Held at 30% because CREED does not currently receive the new-delinquency COMPOSITION split monthly… **RESOLVABILITY RISK IS REAL: if the composition data stays unavailable this becomes STUCK, not wrong.**"*
+
+**Trepp publishes that split, in prose, in every monthly report — and published it in all four of April, May, June and July.** The confidence was suppressed by an assumption about CREED's own *reach*, not by a judgement about the *world*.
+
+**This matters more than the score.** A prediction priced low on a false unavailability premise:
+- **scores as well-calibrated whenever it resolves FALSE**, for reasons unrelated to the analyst's model of the world, and
+- **teaches nothing when it resolves TRUE**, because the miss reads as ordinary bear-skew rather than a broken input.
+
+**Rule adopted 2026-08-20:** *before pricing a prediction low on resolvability, establish that the datum is genuinely unpublished rather than merely unfetched.* Same root cause, same channel, same session as FORUM 5 item **W1** (`VX-CREED-3.01`, where CREED and HOMER both declared a published figure "not published" after reaching only the Connect-CRE secondary). **Two independent instances of one defect, found the same day — a process finding, not two coincidences.**
+
+**Next resolutions due:** `PRED-CREED-003` (FDIC Q2 QBP, ~8/24–8/29) · `PRED-CREED-006`+`010` joint (MBA Q2, ~mid-Sept) · `001`/`002` (Aug Trepp prints, ~early Sept).
 
 ### Excluded from calibration (recorded for provenance only)
 
@@ -23,7 +41,7 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 ---
 
-## OPEN BOOK (10) — what each one actually tests
+## OPEN BOOK (9 open, 1 resolved) — what each one actually tests
 
 | ID | Conf | Resolves | Tests |
 |---|:--:|---|---|
@@ -35,14 +53,18 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 | `006` | **30%** ⚠️ | MBA Q2, ~mid-Sept | the **aggregate** life-insurer line rises **≥ +$10.0B** *(re-spec'd 7/27 — see below)* |
 | `007` | **15%** | market data, by 12/31 | the S8a trigger (VNQ −10pp/3mo). **Deliberately low — this is the counter-signal CREED is committed to honoring** |
 | `008` | 45% | KREF Q4, ~Feb 2027 | management's own <10% legacy-office target |
-| `009` | 30% | Trepp composition, by 12/31 | the S2 trigger. **Resolvability risk is real** — if composition data stays unavailable this is `STUCK`, not wrong |
+| ~~`009`~~ | ~~30%~~ | **RESOLVED TRUE 2026-08-20** | the S2 trigger — **FIRED.** May 70 / Jun 65 / Jul 66; sustain met at the **June** print. **Moved to SCORE above.** The "resolvability risk" clause was the defect, not the safeguard |
 | `010` | 70% | **Athene Q2 10-Q, ~Aug** | the **acquirer's own balance sheet** — second independent surface for the ARI $9B. **Athene leg read 8/13, off the primary 10-Q (filed 8/10): Δ +$6.9B — PARTIAL band, $103M short of the $7.0B LANDED bar. Primary now confirms final purchase price $8.7B (not ~$9B). NOT a full resolution — waits on `006` for the joint verdict per this pair's grading rule** |
 
 ---
 
 ## CALIBRATION READ
 
-**Nothing to read yet — n=0.** Recorded now so the first read has a baseline to be measured against:
+**n=1 — still nothing gradeable, but one structural read is now available and it runs AGAINST the pre-registered expectation below.**
+
+🔴 **The bear-skew hypothesis just took its first hit, from a direction it did not anticipate.** The note below pre-registered that if the low-confidence structural calls resolved correct, the read would be *"structural calls under-priced."* `009` — one of the two lowest in the book at 30% — **did** resolve in CREED's thesis direction. But it was under-priced **not** out of analytical conservatism about a structural call; it was under-priced on a **false belief about data access**. **So the first datum does not support "raise the structural confidences." It supports "audit every rationale for availability assumptions before touching any number."** Confidences unchanged this session — moving them on n=1, off a rationale defect, is exactly the post-hoc adjustment this book was built to prevent.
+
+*Original n=0 baseline, preserved unchanged:*
 
 - **The book is deliberately bear-skewed-LOW.** Seven of ten sit at or below 45%, and the two trigger-crossing predictions most aligned with CREED's own thesis (`003` FDIC at 35%, `009` S2 composition at 30%) carry the **lowest** confidences in the book. That is intentional — betting against a **six-quarter improvement streak** (`003`) needs more than a thesis. **If these resolve correct at high rates, the read is "structural calls under-priced" and confidences should rise. If they resolve wrong, the thesis is over-weighted, not the confidences.**
 - **`007` at 15% is the honesty anchor.** It is the trigger for the signal that most contradicts CREED's bear read, and writing a low number on it holds the thesis accountable to a tape that has moved *against* CREED for three consecutive sessions (−2.9pp → −1.6pp → **+2.04pp**).

@@ -1,0 +1,14 @@
+# CREED THRESHOLD FIRE LEDGER -- the SINGLE record of CREED-T trigger fires.
+# Created 2026-08-20, on the first fire in the registry's history (CREED-T-02).
+#
+# *** THIS IS THE ONLY CREED-T FIRE LEDGER. *** WALTER asked on 2026-08-19 whether to build a WALTER-side one
+# (it keeps FALSIFICATION_FIRED_LOG.tsv for RED-FT and REG_THRESHOLDS_FIRED_LOG.tsv for REG-T).
+# CREED answered NO on 2026-08-20: a second ledger splits the truth, and WALTER's own framing is right --
+# a fire recorded in two places that disagree is worse than one recorded nowhere. WALTER reads this file; it does not mirror it.
+#
+# ADJUDICATION IS A CREED ACT. WALTER supplies primaries and arithmetic and deliberately declares nothing.
+# A row here means: the LETTER of the frozen band was met, verified at primary by CREED, and routed to the recipient chain.
+# effective_date = the print at which the band's sustain condition was actually satisfied (NOT the date CREED noticed).
+# The gap between effective_date and fired_date is the DETECTION LAG and is recorded deliberately, never smoothed.
+trigger_id	fired_date	effective_date	detection_lag	metric	band	observed_series	verdict	routed_to	basis	notes
+CREED-T-02	2026-08-20	2026-06 (June Trepp print, published ~2026-07-02)	~6 weeks / 2 intervening prints	MATURED-BALLOON-SHARE-OF-NEW-DELINQ	>50, sustain 2 consecutive monthly prints (FROZEN 2026-07-21)	Apr 42% / May 70% / Jun 65% / Jul 66%	FIRED -- S2 maturity-default wave	REGINALD (action), LIQUID (action), PROME (info), WALTER (info)	Trepp Apr-Jul 2026 CMBS Delinquency Reports, PDF, PRIMARY-READ by CREED 2026-08-20 (archived AGENTS/WALTER/sources/); series located by WALTER SIG-W-20260819-019..022, verified independently before firing	*** FIRES ON THE LETTER, AND THE LETTER IS NOT THE WHOLE READ. *** (1) SUSTAIN MET AT JUNE, not July -- May+June is the qualifying pair; July is the third consecutive print. April at 42% closes the backward question, so 6 weeks is the FINAL lag, not a floor. (2) *** THE SHARE PLATEAUED WHILE THE QUANTITY DID NOT. *** 70->65->66 reads as decay ONLY as a ratio; the denominator swings 2.3x. DERIVED matured-balloon dollars: Apr $1.10B / May $2.83B / Jun $1.72B / Jul $3.96B -- July is the DOLLAR PEAK, +40% vs May and +131% vs June. CREED does NOT adopt "decaying, not building": that is true of the ratio and false of the wave. (3) CORROBORATION FROM AN INDEPENDENT LEG: VX-CREED-3.01 maturity-adjusted DQ hit a new multi-year high 9.62% while its gap to headline NARROWED 218->176bps, which Trepp itself attributes to conversion from performing to non-performing matured balloon -- the same mechanism, measured a different way. (4) DETECTION LAG IS A CREED PROTOCOL DEFECT, NOT A SPAWN-CADENCE ARTIFACT -- see FORUM 5 K5 verdict in STATUS 2026-08-20.
