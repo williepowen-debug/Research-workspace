@@ -53,3 +53,21 @@ REGINALD **concurred on `CREED-T-02`** and updated `REG-T-07` to July — **and 
 ⚠️ **LEDGER NUDGE:** `PREDICTIONS.tsv` refreshed (`007` annotated); **`KB.tsv` refreshed (+2 rows). Nudge fired on commit-time vintage before this session's writes landed.**
 
 **NOT DONE, CARRIED:** **CORAL's FL feed** — accepted 8/3, blocker gone, **still unsent. Now the oldest un-discharged commitment on this desk.** 🔴 **NEXT SPAWN: FDIC Q2 QBP ~8/24–29 — `CREED-T-03`, the trade-relevant trigger — and the one-sided unsecured-CRE scope limit must be stated when grading it.**
+
+
+---
+
+## ⑥ POST-CLOSEOUT ADDENDUM — DAEDALUS packet arrived after the push; **promotion + a Will-ruled pointer pass executed**
+
+**`fe1530a8d`, verified at the artifact before acting.** ⭐ **CREED PROMOTED L2 → L3** (per-leg, Conf H) — gate legs cleared on the **letter**: `PRED-009` letter-honest with **Brier 0.49 recorded straight**; evals first-run fail-loud, VOIDs recorded as VOIDs. **Clean-baseline debt moves to the L4 path, not retro-added.** ⚠️ **Two same-day reviews run blind of each other converged on ONE weak axis: date-tracking of band-related obligations.**
+
+**✅ WILL-RULED POINTER PASS — EXECUTED 3/3, each defect independently re-verified before the edit. Bands/op/value/sustain UNTOUCHED; 11 rows; 10 columns.**
+- **`T-01b` → `VX-2.01`.** Cited `VX-1.02` (*overall CMBS delinquency*) on a **special-servicing** bar. ⚠️ **The same error class CREED flagged to REGINALD that morning** (*"16.58% is SS and cannot grade a DQ bar"*) — **right about REGINALD's series, carrying the mirror image in its own registry.**
+- **`T-02` → +`VX-3.04`.** The row had **no VX vector at all** — and `3.04` was created that same morning *as the K5 root-cause fix*, then **never wired back into the row that produced K5.** **The loop closes only now; the morning's fix was incomplete.**
+- **`T-08a` → `VX-7.01`.** CREED's own self-caught defect, **proposed rather than self-authorised**, ruled the same day.
+
+**Also fixed from the smaller-items list (each verified at the artifact first):** `PRED-009`'s `Date_Resolved`/`Outcome` cells were **swapped** — prose sitting in a date column; values right, columns wrong · status token fork **unified to `RESOLVED-TRUE`** across `PREDICTIONS.tsv` + `SCOREBOARD` (**three** spellings were in use), with the fleet `HIT`/`MISS` mapping **recorded rather than renaming a grandfathered ledger** · **`VX-1.02` carried *"maturity-adj NOT published"* — a claim CREED's own W1 finding refuted the same day** — stripped, and the **compound two-series/two-vintage cell that enabled it** split · **`T-03`'s scope limit MOVED from `SCRATCH.md` (overwritten every session) onto `VX-4.01`**, so the desk's most decision-relevant caveat survives to the ~8/24–29 FDIC print.
+
+**DEFERRED to the QBP spawn, per the ruling:** `T-08a` basis declaration **+ the like-for-like re-anchor rider** (the 0.65pp basis spread is **~6.5% of the 10pp band — the basis choice positions the trigger**) · month-1 band revisit (`DOCKET c4774de88`).
+
+🔴 **WORK ORDER ITEM 1, carried to `SCRATCH.md`: a BOOT-TIME THRESHOLD SCAN.** No boot step reads the registry — **that is `T-02`'s root cause** — and **`T-01a` sits 9bps from its band with the August print due ~early Sept. The 6-week-late fire recurs on a different row unless this is built.**

@@ -18,12 +18,28 @@
 5. **🟢 `VX-9.03` — RESOLVED 8/20 PM, no longer a first move.** Next touch is the **Q3 provider prints (~late Oct).** ⚖️ **One Will decision pending: re-spec the canonical provider Moody's → CBRE** (see AWAITING WILL).
 6. **CORAL's standing FL feed (accepted 8/3) — blocker GONE, feed STILL UNSENT.** Trepp is primary-readable; WALTER routed CORAL the FL hotel item 8/19 so nothing was missed, **but CREED still owes the feed it agreed to.** Next Trepp pull: extract the FL slice. ⚠️ **This is now the oldest un-discharged commitment on the desk.**
 
-## ⚖️ AWAITING WILL — 2 open (the previous 3 are RULED and EXECUTED)
+## ⭐ PROMOTED L2 → L3 (DAEDALUS, per-leg, Conf H — 2026-08-20, packet `fe1530a8d`)
 
-- **① `CREED-T-08a`'s `source_of_truth` names the WRONG VECTOR.** It reads `VX-CREED-8.01` — which **exists**, and is **"CRE Modification Exhaustion" (S4)**. The S8a metric is on **`VX-CREED-7.01`**. **Same class as this morning's K5 root cause, one turn worse:** T-02 had *no* metric vector; T-08a points at the *wrong* one — **and a row-counting audit passes clean on both.** ⚠️ **Not self-fixed:** it is a non-band field of a **Will-frozen row** and was outside the 8/20 ruling's scope. The correct pointer is recorded in the row's dated annotation so no reader is misled meanwhile. **Ask: correct `source_of_truth` in place?**
-- **② Re-spec `VX-9.03`'s canonical provider: Moody's → CBRE.** Moody's is unreachable through CREED's channels and lags a quarter behind via secondaries; **CBRE is free, primary-readable, and publishes vacancy AND absorption together.** Moody's retained as cross-check when reachable. **No band is attached to this vector so nothing is Will-frozen — but the methodology call is Will's, not CREED's.**
+Gate leg (a) PRED-009 graded letter-honest with Brier 0.49 recorded straight · leg (b) evals first run, fail-loud honored, VOIDs recorded as VOIDs. **The clean-baseline debt moves to the L4 path, not retro-added to this gate.** Recorded as *fleet-reference* strengths: the FIRED_LOG's effective/fired/detection-lag split, the always-loaded traps block, `KB-020`'s instrument-audit form, and the T-03 pre-registered scope limit. ⚠️ **Both same-day reviews (PROME commit-level, DAEDALUS structural, run blind of each other) converged on ONE weak axis: date-tracking of band-related obligations.** That is the axis to defend.
 
-> ✅ **RULED AND EXECUTED 2026-08-20 (packet `49c123881`, Will verbatim "Approve HEARTBEAT correction and all three CREED recs"):** **#5** date-stamp in place on `T-08a`/`T-08b` (**bands verified untouched, 11 rows, 10 columns held for WALTER's scanner**) · **#7** boot step 6 repointed to live surfaces, no new pack · **#14** WONTFIX confirmed. ⚠️ **The ruling's *suggested wording* for #5 embedded the −0.34pp figures that the same session withdrew; it delegated wording ("Your wording"), so the stamps carry the CORRECTED read.** **This block is otherwise CLEAR — a Tier-2 desk must send a PACKET, not leave AWAITING-WILL items on SCRATCH** (PROME's routing finding, 8/20).
+## ⚖️ AWAITING WILL — **0 open.** All prior items RULED and EXECUTED 2026-08-20
+
+> ✅ **RULED + EXECUTED (DAEDALUS packet `fe1530a8d`, verified at the artifact):**
+> - **Frozen-row POINTER PASS — APPROVED (non-band fields only), all three done.** `T-01b` → **`VX-2.01`** (cited `1.02` = *overall DQ* on an **SS** bar — ⚠️ **the same error class CREED flagged to REGINALD that morning**) · `T-02` → **+`VX-3.04`** (created that morning as the K5 fix and **never wired back into the row that produced K5 — the loop closes only now**) · `T-08a` → **`VX-7.01`** (CREED's own held proposal, now ruled). **Bands/op/value/sustain verified UNTOUCHED; 11 rows; 10 columns.**
+> - **Earlier same day:** #5 date-stamp in place · #7 boot repoint · #14 WONTFIX.
+>
+> ⚖️ **STILL PROPOSED, awaiting a word:** re-spec `VX-9.03`'s canonical provider **Moody's → CBRE**. *(No band attached; the methodology call is Will's.)*
+
+## 🔴 NEXT-SPAWN WORK ORDER (Will-ruled, home = the mandatory ~8/24–29 QBP spawn)
+
+1. **🔴 BOOT-TIME THRESHOLD SCAN — FIRST PRIORITY.** Current vector values vs all 11 bands, at boot. **This is T-02's root cause: no boot step reads the registry.** ⚠️ **`T-01a` sits 9bps from its band with the August print due ~early Sept — the 6-week-late fire RECURS on a different row unless this exists.** *(Fleet `registry_chain_check` covers chain integrity, NOT live values. This one is CREED's.)*
+2. **`T-08a` basis declaration + like-for-like RE-ANCHOR** (Will-ruled, **with rider**): propose the basis with evidence, Will ratifies — **and ratification must restate the historical comparisons on the declared basis**, since the 7/27 `+2.04pp` states none. ⚠️ **The 0.65pp basis spread ≈ 6.5% of the 10pp band: the basis choice effectively positions the trigger.**
+3. **Month-1 band revisit** (was due ~8/21; **ruled OK to fold into this spawn**; `DOCKET c4774de88` tracks it). Natural vehicle for `T-04`'s Will-gated band proposal.
+4. **Evals decontamination** — the always-loaded traps name ARI/MBA verbatim, so the VOID rule kills any session correctly applying its loaded lessons. **Disguise the names OR narrow the VOID rule to facts absent from `CLAUDE.md`.** Until then **no clean baseline is producible.** ⚠️ **NAME AN OWNER** (PROME's nit — currently assigned to "whoever next touches it").
+5. **Extend `creed_selfcheck` with the derived-vector predicate** (`Last_Updated ≥ max(inputs)` against CREED's own *"derived from &lt;ID&gt; and &lt;ID&gt;"* grammar, ~15 lines). **Fleet decision recorded: NO shared check gets built** (n=1 conforming row fleet-wide); CREED's grammar becomes the opt-in convention, revisit at ≥3 desks.
+6. **`LEDGER_GLOB` one-liner** (`workbook/*.tsv registry/*.tsv`) — ⚠️ **the registry is outside ALL staleness enforcement today: the exact surface whose staleness produced K5.** Add PAT-044 `Last real data refresh:` headers while there (also fixes `boot.py`'s mtime keying for free).
+7. `boot.py` has **zero invocation sites** + mtime-keyed checks — wire it, fix the keying, or **retire it with a docstring note.**
+8. Smaller: `KB-020` vs `SCHEMA.tsv` ×3 · `COVERAGE:39` count + headerless table · `CLAUDE.md` registry pointer dangles (**and the registry — CREED's most consequence-bearing surface — has no `CLAUDE.md` section**) · name the root battery 1b–1e in closeout step 9 · declare a byte tier.
 
 ## 🔵 DEFERRED WORK (next spawn, none urgent)
 

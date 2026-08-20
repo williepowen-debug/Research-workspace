@@ -1,6 +1,6 @@
 # CREED Predictions Scoreboard
 
-**Created:** 2026-07-27 · **Updated:** 2026-08-20 *(row `002` refreshed to the July SS print in a self-audit — it had carried a June distance AND a since-reversed direction)* · (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
+**Created:** 2026-07-27 · **Updated:** 2026-08-20 *(row `002` refreshed to the July SS print in a self-audit — it had carried a June distance AND a since-reversed direction)* · (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED-TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
 Tracks resolution outcomes and calibration for CREED's pre-registered predictions. Open rows live in `PREDICTIONS.tsv`; this is the **summary + calibration read**.
 
 > **Created at n=0 on purpose.** CREED registered **10 predictions with self-set confidences** on 2026-07-27 (Will's §10 decision 2, 7/21: *"YES, you set them — your conviction, your numbers"*) and had **no calibration surface at all**. The discipline has to exist **before** the first resolution — otherwise the first resolution sets the precedent for skipping it. *(Adopted from BROCK's scoreboard, which at n=10 produced a read that changed its behaviour.)*
@@ -53,7 +53,7 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 | `006` | **30%** ⚠️ | MBA Q2, ~mid-Sept | the **aggregate** life-insurer line rises **≥ +$10.0B** *(re-spec'd 7/27 — see below)* |
 | `007` | **15%** | market data, by 12/31 | the S8a trigger (VNQ −10pp/3mo). **Deliberately low — this is the counter-signal CREED is committed to honoring** |
 | `008` | 45% | KREF Q4, ~Feb 2027 | management's own <10% legacy-office target |
-| ~~`009`~~ | ~~30%~~ | **RESOLVED TRUE 2026-08-20** | the S2 trigger — **FIRED.** May 70 / Jun 65 / Jul 66; sustain met at the **June** print. **Moved to SCORE above.** The "resolvability risk" clause was the defect, not the safeguard |
+| ~~`009`~~ | ~~30%~~ | **RESOLVED-TRUE 2026-08-20** | the S2 trigger — **FIRED.** May 70 / Jun 65 / Jul 66; sustain met at the **June** print. **Moved to SCORE above.** The "resolvability risk" clause was the defect, not the safeguard |
 | `010` | 70% | **Athene Q2 10-Q, ~Aug** | the **acquirer's own balance sheet** — second independent surface for the ARI $9B. **Athene leg read 8/13, off the primary 10-Q (filed 8/10): Δ +$6.9B — PARTIAL band, $103M short of the $7.0B LANDED bar. Primary now confirms final purchase price $8.7B (not ~$9B). NOT a full resolution — waits on `006` for the joint verdict per this pair's grading rule** |
 
 ---
