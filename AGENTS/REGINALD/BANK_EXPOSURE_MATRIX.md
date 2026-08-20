@@ -1,5 +1,12 @@
 # Bank Exposure Matrix — Convergence Channel Analysis
 
+> # 🔓 UNBLOCKED 2026-08-20 — and the worst artifact in this file is now KILLED, not banner-qualified.
+> **WAL ruled fence-② does not reach the OZK cell** (`52a74a43c`; WILL_QUEUE row 42 closes on it) — decisive ground: *a fence written against improvising a JUDGMENT must never become the reason a known-false DATUM stays on a live surface.* **The Hidden-CRE Screen table below is struck and replaced with uniform-basis (v1a) figures.** OZK ~~37.6%~~ → **5.46%**; and per this desk's own 8/13 verification the cell says the level FELL, **not** that OZK de-risked (that reading is `UNRESOLVED`).
+>
+> ⚠️ **THE REST OF THIS FILE IS STILL A FEB-VINTAGE FOSSIL AND THE FULL RE-SCORE IS STILL OWED.** One table was fixed because it carried a *known-false* number with a 🚨 CRITICAL verdict attached; the rest is stale, not false-on-its-face.
+>
+> 🔴 **DEFECT FOUND WHILE SCOPING THE RE-SCORE, and it is bigger than this file: the convergence scores are NOT REPRODUCIBLE.** `STATUS.md` §Convergence Matrix is canonical for the SCORES (EGBN 20 · WAL 20 · CFG 15 · OZK 13 · SSB 11 · ZION ~8-9 · FLG 8) **but carries no method** — the only derivation of *how a bank earns a 20* lives in this stale document. ⇒ **Anyone citing 'EGBN 20' today cannot reproduce it** (`finding_loadbearing_number_must_be_reproducible`). **This is why this file must be REWRITTEN, not retired like THESIS/TIMELINE were** — those had a live successor that carried everything; this one's successor carries outputs only. Scoped in ROADMAP.
+>
 > ⚠️ **STALE-VINTAGE — 2026-02-23 (~4.5mo, pre-earnings). Canonical scores live in `STATUS.md` §Convergence Matrix.** Do NOT cite the scores/prices below as current — the Matrix tables here disagree with STATUS AND with each other (EGBN 11 vs 12, CFG 8 vs 9, ZION 6 vs 9; OZK absent entirely). Canonical: **EGBN 20, WAL 20, CFG 15, ZION ~8-9, OZK 13, SSB 11, FLG 8.** ~~The MI3/hidden-CRE ratios (OZK 37.6% / WAL 24.2% / EGBN 23.7%) DO still hold.~~ **⚠️⚠️ THAT VOUCHING LINE IS CONTRADICTED 2026-08-10:** first-ever FFIEC primary runs (8/7, OZK-spawn + WAL-spawn independently) found the screen's denominator defective (item-4-only base; RCON2746 sits in items 4 AND 9). **OZK 37.6% reproduces at NONE of 18 quarters** (live recipe-basis 9.35%); **WAL reproduces (24.24% @ 12/31/25) but is live 21.20%, never ≥25% in 12 quarters**; EGBN unverified. Do not cite ANY MI3 ratio from this file — cohort re-run on a settled basis is REGINALD-owed. **Full re-score scheduled post-Jul-21 print** (flagged 2026-07-10 audit).
 
 >
@@ -35,13 +42,28 @@
 - 311 S. Wacker: $302M → $45M (**-85%**)
 - "Values unlikely to rebound to pre-2020 levels"
 
-**Hidden CRE Screen — 3 of 7 Banks Flag Metropolitan Pattern:**
+**Hidden CRE Screen — ⛔ TABLE KILLED 2026-08-20. Every ratio below is DEAD; the screen it came from is retired.**
 
-| Rank | Bank | Memo3 | Memo3/C&I | True CRE | Trend | Status |
-|------|------|-------|-----------|----------|-------|--------|
-| 1 | **OZK** | $1.29B | **37.6%** | 71.5% | ↓ (structural) | 🚨 CRITICAL — Worse than Metropolitan |
-| 2 | **WAL** | $2.73B | **24.2%** | 59.0% | **↑ GROWING** | 🚨 PRIMARY TARGET — Active relabeling |
-| 3 | **EGBN** | $231M | **23.7%** | 80.9% | ↓ (structural) | 🚨 CRITICAL — Already in crisis |
+> 🔴 **This table was the single worst artifact in this file and it is now struck, not banner-qualified.** Its "3 of 7 flag the Metropolitan pattern" headline, its ranking, and its 🚨 CRITICAL verdicts were all produced by the **defective ÷item-4 basis** — `RCON2746` sits in RC-C items **4 AND 9**, so dividing by item 4 alone is a category mismatch whose severity varies by bank. **The basis inverts the rank** (item-9 share of the base runs 5.5%→65.8% across the cohort), so the ORDER below is as dead as the numbers.
+>
+> **UNBLOCKED to fix on 2026-08-20:** WAL ruled fence-② does not reach this cell (`inbox/processed/2026-08-20_from-WAL_fence-2-RULED...`, commit `52a74a43c`), on the decisive ground that **a fence written against improvising a JUDGMENT must never become the reason a known-false DATUM stays on a live surface.** Row 42 closes on it.
+>
+> **Replacement, on the uniform v1a basis (÷ item 4 + item 9) — the only basis valid cross-bank, per this desk's own ruling, which WAL adopts as consumer:**
+>
+> | Bank | old ÷item-4 "ratio" | **v1a [2026Q2]** | MI3 $K [2026Q2] | what actually happened |
+> |---|---|---|---|---|
+> | **OZK** | ~~37.6%~~ **KILL-ON-SIGHT** | **5.46%** | $430,277 | ⚠️ **37.6% reproduces at NONE of 18 quarters** at the FFIEC primary. Level is far lower — **but this desk's own 8/13 adversarial verification leaves the READING `UNRESOLVED`: all four discriminators failed and ~⅔ of the −64% is ONE quarter (2025Q3, −36% on a flat book).** ⇒ **the level fell; "OZK de-risked" is NOT established and must not be written here.** |
+> | **WAL** | ~~24.2%~~ | **8.99%** *(v1 21.20%)* | — | Reproduces at 12/31/25 (24.24%) but **never reached 25% in 12 quarters**; "fastest-growing in cohort" was a 6-quarter two-endpoint artifact. **Rank INVERTS by basis: #1 on v1, #3 on v1a.** |
+> | **EGBN** | ~~23.7%~~ | **10.77%** — cohort max on v1a | — | **#4 on v1, #1 on v1a.** Was never independently verified at the time this table was written. |
+>
+> ⛔ **DO NOT cite any figure from the struck table.** Canonical, reproducible, dual-basis, guarded: **`workbook/MI3_COHORT.tsv`** + `reports/2026-08-13_MI3_cohort_rerun.md` (14 banks × 12 contiguous quarters, 56/56 rows at the primary, step detector, 3 fail-loud guards). ⚠️ **And the screen-level finding that replaced the whole framing: nobody clears 20% on the uniform basis — the ratio's stressed tail is GONE, and the dollars moved UP-CAP** (MTB holds the largest absolute book at $4.95B [2026Q2] at an unremarkable ratio), **where no ratio screen can see them.**
+> ✅ **What SURVIVES from the original discovery: the bucket-migration MECHANISM and the three-level masking taxonomy.** A mechanism finding outlives its discredited ratio.
+
+~~| Rank | Bank | Memo3 | Memo3/C&I | True CRE | Trend | Status |~~
+~~|------|------|-------|-----------|----------|-------|--------|~~
+~~| 1 | **OZK** | $1.29B | **37.6%** | 71.5% | ↓ (structural) | 🚨 CRITICAL — Worse than Metropolitan |~~
+~~| 2 | **WAL** | $2.73B | **24.2%** | 59.0% | **↑ GROWING** | 🚨 PRIMARY TARGET — Active relabeling |~~
+~~| 3 | **EGBN** | $231M | **23.7%** | 80.9% | ↓ (structural) | 🚨 CRITICAL — Already in crisis |~~
 | 4 | VLY | $555M | 7.0% | 72.4% | — | ✅ Below threshold |
 | 5 | FBC | $390M | 3.9% | 75.4% | — | ✅ Below threshold |
 | 6 | ZION | $257M | 1.8% | 63.1% | — | ✅ Below threshold |
