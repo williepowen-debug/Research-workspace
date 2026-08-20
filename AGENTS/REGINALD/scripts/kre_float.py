@@ -51,8 +51,14 @@ def load_state():
         try:
             with open(STATE_FILE) as f:
                 return json.load(f)
-        except Exception:
-            pass
+        except Exception as e:
+            # A CORRUPT state file used to render byte-identical to a genuine first run —
+            # silently skipping the shrinkage verdict this script exists to produce.
+            print(f"\n  ⚠️  STATE FILE UNREADABLE ({type(e).__name__}: {e})")
+            print(f"     {STATE_FILE}")
+            print("     This is NOT a first run. The shrinkage comparison is being SKIPPED,")
+            print("     and the baseline below will overwrite the prior reading.")
+            return "UNREADABLE"
     return None
 
 
@@ -74,7 +80,10 @@ def main():
     current = get_kre_shares()
     if not current:
         print("\n  ERROR: Could not fetch KRE data.")
-        return
+        # ⚠️ MUST exit nonzero: the boot wrapper keys "✅ KRE Float OK" on the RETURN CODE,
+        # so a bare `return` printed a loud error in the body and a GREEN tick in the summary.
+        # (DAEDALUS silent-fallback-green sweep 2026-08-17; fixed 2026-08-20.)
+        sys.exit(1)
 
     shares_m = current["shares"] / 1e6
     aum_b = current["total_assets"] / 1e9
@@ -108,7 +117,10 @@ def main():
         else:
             print(f"\n  ⚪ Roughly flat")
     else:
-        print(f"\n  First reading — saving as baseline.")
+        if prev == "UNREADABLE":
+            print(f"\n  ⚠️  Re-baselining after an UNREADABLE state file — NOT a first reading.")
+        else:
+            print(f"\n  First reading — saving as baseline.")
 
     # Reference: known historical levels
     print(f"\n  Reference levels:")
