@@ -8,6 +8,37 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 
 ---
 
+## 2026-08-20 — **SPEC-REPAIR RECORD, NO VERSION BUMP: the four defective rules are repaired or retired. No weight, probability or confidence moved.**
+
+**Deliberately not a version bump, and deliberately a SEPARATE edit from the v2.4 re-mark below it.** Rider R3 (`DELEGATION_TIER`, and the same rider on Will's 8/12 batch) forbids moving a weight in the same edit as a re-spec — so this entry is spec text only. **Zero confidences, probabilities, weights, EV or PT changed here.**
+
+**Authority:** Will, in-session **2026-08-12**, batch ruling — `PROME/proposals/2026-08-12_rule-batch-RULED.md`, WILL_QUEUE rows **32b** (P2/P3/P4/P7) and **32a** (P8/P9, delegated self-rule). ⚠️ *That was a BATCH approval off PROME recommendations: it carries Will's authority but not his individual attention on these rows. I re-read all four on the merits before encoding and found no ground to send any back.*
+
+| # | Rule | Defect | Disposition |
+|---|---|---|---|
+| **P2** | WAL-01 exit-rule instrument | *"Q3 10-Q Schedule O"* — **Schedule O is a Call Report schedule and does not exist in a Form 10-Q**, and **no 10-Q publishes classified-or-criticized by property type at all** | **RE-INSTRUMENTED** to the Q3-2026 earnings-deck "Classified Assets Mix" slide (A2-visual), + a 10-Q total-classified cross-check + an explicit **NO-VERDICT / INSTRUMENT-ABSENT** band |
+| **P3** | WAL-02 invalidation clause | *"≤35bps in BOTH Q2 and Q3"* became **formally unsatisfiable** once Q2 printed 37bps; a Q3 print in 35-40 had **no defined outcome** | **REPAIRED** to Q3-only, exhaustive partition: **>40bps = CONFIRMED · ≤40bps = INVALIDATED** |
+| **P4** | Proposed trigger **v2.3.1** | leg (a) names the 10-Q as carrier for **consensus EPS**, which no filing ever carries → **unfalsifiable by construction**; leg (b) **can confirm but cannot disconfirm** | **REJECTED — retired, not repaired.** See below |
+| **P8** | MI3 denominator basis | ÷item 4 vs ÷(item 4 + 9) — the choice **inverts the cross-bank rank** | **SPLIT RULING** — my frozen grading basis stays ÷item 4; cross-bank claims use REGINALD's v1a. Self-ruled |
+| **P9** | v2.1 calibration **implication column** | *"bear shifts back toward 30%"* would **RAISE total bear (26%→30%) on a DISCONFIRMATION** — a ratchet | **RETIRED**, struck-not-deleted. Self-ruled |
+
+### P4 — why v2.3.1 is REJECTED rather than ratified-with-repair
+
+The ruling offered both. I take reject, for three reasons that compound:
+
+1. **Leg (a) is not merely mis-instrumented, it is MOOT.** The question it asked — was the Q2 print a beat or a meet/miss? — **has already been answered and already priced**: EPS $2.36 vs $2.33 consensus was a beat, and v2.3 folded exactly that into Base 40% on 7/25. Re-pointing the leg at a dated vendor-consensus snapshot would re-grade a question the thesis has already graded.
+2. **Leg (b) is a one-way ratchet on Tail.** A live $25M Jefferies counterclaim can only ever *fire* the trigger; the instrument cannot produce the negative, because Note 15's blanket *"routine … not material"* language means **absence cannot distinguish non-existence from immateriality**. A trigger that can confirm but not disconfirm should not be pre-registered.
+3. **It was written for a filing that has been read.** The Q2 10-Q landed 7/31 and was read 8/7; the condition was evaluated and **did not fire**. Repairing a spent trigger to keep it alive is the shape of a rule looking for a window.
+
+⚠️ **What survives the rejection, and it is the substantive half:** the Jefferies counterclaim remains a **live watch item** on the FRAUD/ arc and the docket-monitoring mandate — the countersuit is real in secondary sourcing (**KB-WAL-135**, filed ~7/1, $25M Point Bonita deposit freeze, re-verified against public reporting **2026-08-20 with no change**) and is simply **not corroborated by any WAL filing**. **Rejecting the trigger retires the RULE, not the risk.** Base 40% / Tail 7% are untouched by this entry.
+
+### The pattern all four share — and the standing test it earns
+
+**Three WAL rules named an instrument that could not carry their datum** (MI3-is-not-a-10-Q-line, DEWEY 7/16 · "Schedule O" · v2.3.1 leg (a)), and a fourth wrote a partition with a hole in it. These are **unfalsifiable or ungradeable by construction, not merely unmet** — validity and executability are orthogonal axes.
+> **Standing rule, adopted here:** before a WAL prediction, exit rule or trigger ships, name the **specific filing, schedule and line** that carries each datum, and confirm that instrument **can** carry it — and write the **NO-VERDICT band** for the case where the instrument is absent. A rule with no named carrier is a family of rules, and the flattering member gets picked after the fact.
+
+---
+
 ## 2026-08-07 — **GRADE RECORD, NO VERSION BUMP: V1a MI3 ran for the first time and DISCONFIRMED. No weights moved.**
 
 **Deliberately not a version bump.** This entry records a *pre-registered grade being executed* and one *factual correction*. **No probability, weight, EV or PT changed.** The re-mark this result calls for is a **v2.4 proposal (P7), Will-gated** — see below for why it was not taken here.
