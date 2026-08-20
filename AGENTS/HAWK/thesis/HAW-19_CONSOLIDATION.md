@@ -47,7 +47,7 @@
 
 ### 🔴 D1 · **LEG A IS STRUCTURALLY UNFIREABLE. This is the finding.**
 
-**`A(iii)` requires terminal throughput down ≥200 kbpd for **≥45 consecutive days**. The window is 2026-08-20 → 2026-09-30 = **41 days**.** LEG A requires **(i) AND (ii) AND (iii) AND (iv)** — all four. **45 > 41**, so even an event on the window's first day completes its duration test on **2026-10-04**, four days after the row resolves.
+**`A(iii)` requires terminal throughput down ≥200 kbpd for **≥45 consecutive days**. The window is 2026-08-20 → 2026-09-30 = **42 days inclusive / 41 exclusive**.** LEG A requires **(i) AND (ii) AND (iii) AND (iv)** — all four. **⚠️ FIGURES CORRECTED 2026-08-20 (OSPREY, verifying rather than accepting):** a 45-day run beginning on the window's first day reaches **day 45 on 2026-10-03**, not 10-04 — I had computed `start+45`, which is **day 46**. And the day-count needs its convention named: **42 inclusive, 41 exclusive.** **⇒ THE COUNT-INDEPENDENT STATEMENT, adopted from OSPREY as the one that goes to Will: the LATEST START DATE for a >=45-consecutive-day run that could complete by Resolve_By is 2026-08-17 -- THREE DAYS BEFORE THE WINDOW OPENS. No in-window event can qualify, and that statement needs no arithmetic about completion dates or day-counting conventions.**
 
 ⇒ **LEG A cannot fire, by construction, for any in-window event whatsoever.** `finding_compound_gate_jointly_unsatisfiable` — individually satisfiable limbs, jointly unsatisfiable in the only state that matters.
 
@@ -60,6 +60,8 @@
 The band reads: *"…grades NO-VERDICT on that leg — (gamma) is unreachable for late-window events by construction (45 days cannot have elapsed)."* **γ is deleted.** The band itself **survives and is correct**, but its reason is now **A(iii)**'s ≥45d, not γ's. **Editorial correction only — the band's trigger, date and effect are unchanged.** *(And per D1 the band is now near-vacuous: every in-window event, not merely late-window ones, fails the duration test.)*
 
 ### 🟠 D3 · `A(ii)(b)` has no numbers — "≥N of M" was never parameterized
+
+**⚠️ AUTHORSHIP CORRECTED 2026-08-20, at OSPREY's insistence and on its evidence.** I wrote that D1 and D3 were *"on both of us."* OSPREY pulled its own recorded clause text (`KB-OSPREY-048`) and showed **both defects are in what IT authored**: it left N and M as unbound placeholders, and it carried the `≥45d` verbatim from the deleted limb its clause replaced. **Accurate split: OSPREY AUTHORED both clause defects; HAWK ADOPTED them into this row without checking.** Adopting a defective clause is not authoring one — and the row's defect is still mine to own, because the row is mine.
 
 `finding_prereg_verdict_boundary_must_be_a_number` requires a boundary to be a **number**. **N and M were never specified.** ⇒ **The redundancy-exhaustion sub-limb is ungradeable as registered**, so in practice **A(ii) can only be satisfied by (ii)(a) — the damaged unit being the asset's ONLY loading path.** A candidate event needing (ii)(b) grades **NO-VERDICT on that limb**.
 
