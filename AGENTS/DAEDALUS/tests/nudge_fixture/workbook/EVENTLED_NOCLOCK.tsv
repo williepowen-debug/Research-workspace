@@ -1,0 +1,4 @@
+# TEST FIXTURE (DAEDALUS) — event-driven declaration with NO re-pull clock (the rc-2 misdeclaration path).
+# Cadence: EVENT-DRIVEN
+col_a	col_b
+w	4

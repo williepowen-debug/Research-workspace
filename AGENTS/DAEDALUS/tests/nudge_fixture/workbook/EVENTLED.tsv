@@ -1,0 +1,6 @@
+# TEST FIXTURE (DAEDALUS) — event-driven ledger WITH re-pull clock.
+# Cadence: EVENT-DRIVEN
+# Last real data refresh: 2026-07-01
+# Last re-pull ATTEMPTED: 2026-08-20
+col_a	col_b
+z	3
