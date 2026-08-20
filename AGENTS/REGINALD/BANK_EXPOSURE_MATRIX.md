@@ -122,6 +122,36 @@ Schedule RI-B Part II, FLG, 2026 H1 — **ties to the dollar**: begin $1,029,999
 
 ---
 
+## 3c. 🔴 RESERVE RUNWAY — a THIRD instrument, built 2026-08-20 eve. **It reorders the cohort and it needs a companion to be read at all.**
+
+**Runway = ACL ÷ TTM charge-offs.** Data: `workbook/RUNWAY_COHORT.tsv` (168 rows, per-quarter charge-offs derived from YTD with the Q1 reset handled).
+
+| | EGBN | WAL | AMTB | OZK | **FLG** | CFG | MTB | HBAN | ZION | VLY | SSB | SBCF |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| **runway (yr)** | **0.53** | 1.44 | 1.59 | 1.93 | **2.15** | 2.69 | 3.02 | 5.03 | 6.27 | 6.63 | 7.51 | 11.14 |
+
+*Cohort p10 1.43 · p25 2.22 · **median 2.97** · p75 5.08 · p90 6.89.*
+
+### ⛔ THE INSTRUMENT'S BIAS IS INVERTED — read this before using any number above
+
+**Runway assumes the trailing charge-off rate PERSISTS. A bank taking DISPOSITION-driven charge-offs therefore prints a catastrophic runway *because it is cleaning up*.** ⇒ **the metric fires hardest on the healthiest subject.**
+
+🔴 **EGBN at 0.53yr is exactly that case, and this desk has the evidence in its own file: the July grade was *"DE-RISKING THROUGH REALIZED LOSS, escalation NOT triggered"* — CRE concentration 295.1%→267.6%, below the supervisory line, ACL consumed by disposition of classified assets.** **0.53yr is an asset sale's arithmetic shadow, not a run rate.**
+⇒ **Do NOT rank on runway without a disposition discriminator.** Unqualified, this column would put EGBN top and be wrong about why.
+
+### And it CORRECTED this desk's own published figure
+
+**FLG runway was published earlier the same evening as ~1.87yr (H1-2026 × 2). TTM is 2.15yr** — H2-2025 charge-offs were lower, so doubling H1 overstates by ~15%. ⚠️ **A convenient annualisation standing in for the actual series** — the same shape as a threshold typed from a rounded display value.
+**And the series inverts the story: FLG's runway BOTTOMED at 1.29yr [2025Q1] and has LENGTHENED every quarter since** → 1.29 · 1.59 · 1.90 · 2.36 · 2.25 · **2.15**.
+
+⇒ **THREE of the four instruments now point AWAY from the FLG bear case** (CRE concentration de-risking · nonaccruals past peak · runway lengthening). **Only the coverage RATIO still deteriorates — and it falls partly BECAUSE charge-offs consume the ACL, which is the same mechanism lengthening the runway.** ⚠️ **Those two are in tension and this desk does not resolve it.**
+
+### ★ The generalisation, and it is the day's main methodological output
+
+**Every instrument built today needed a SECOND instrument to tell two opposite stories apart** — de-risking vs deterioration (CRE concentration), cure vs charge-off (nonaccrual), disposition vs release (ACL), asset-sale vs run-rate (runway). **A level scores a state; only the series says which direction produced it.** This is why §7's "do not read direction from this table" is a structural limit of the matrix and not a disclaimer.
+
+---
+
 ## 4. 🔴 REPORTED, NOT SCORED — and a 0 here is NOT a clean bill of health
 
 **These are measured at the primary and carried on every row, but they DO NOT enter the score, because no defensible band exists.** Scoring them would be inventing a threshold.
