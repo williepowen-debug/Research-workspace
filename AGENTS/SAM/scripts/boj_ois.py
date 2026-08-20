@@ -180,6 +180,32 @@ def parse_meetings(lines):
     return uniq
 
 
+# 🔴 SOURCE IMPEACHMENT (SAM 2026-08-20, on ORACLE's adversarial verdict + WALTER SIG-W-20260820-001).
+# centralbank.watch's SEPTEMBER-2026 leg is refuted MODEL-FREE: under "at most one 25bp hike in
+# the 26.09 reference quarter" the observed TFX spread forces P(Sep) >= 81.3%, and its 51-52%
+# print would require pricing 126.9% of a hike. The defect is in MEETING ATTRIBUTION, so sibling
+# legs are not cleared by agreeing -- an agreement can be cancelling errors
+# ([[finding_agreement_at_one_date_can_be_cancelling_errors]]).
+#
+# WHY THIS LIVES IN THE WRITER AND NOT IN A DOC: on 2026-08-20 WALTER found this TSV publishing
+# 52.20 for Sep, quality-flagged "ok", pull-stamped ~30 min BEFORE the packet retiring it. The
+# do-not-cite existed only in packet PROSE, so the dead figure was the freshest-stamped,
+# cleanest-flagged, only MACHINE-READABLE number SAM published. Readers filter quality == "ok"
+# (see latest_rows), so stamping here is what actually stops a downstream cite.
+IMPEACHED_SOURCES = {"centralbank.watch"}
+IMPEACHED_MEETING_PREFIX = "2026-09"   # the specific refuted leg
+
+
+def impeach(meeting_iso, quality):
+    """Downgrade the quality cell for an impeached source. Canonical tokens per
+    AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md; free prose after the token is allowed."""
+    if SOURCE_NAME not in IMPEACHED_SOURCES:
+        return quality
+    if meeting_iso.startswith(IMPEACHED_MEETING_PREFIX):
+        return "SUPERSEDED refuted model-free; cite the converged multi-source row"
+    return "UNKNOWN impeached source; this leg not independently corroborated"
+
+
 def grade(rows, as_of):
     """Per-curve quality. Fail LOUDLY rather than write plausible garbage."""
     problems = []
@@ -241,7 +267,8 @@ def write_rows(as_of, derived, policy_rate, quality):
             f"{d['cum']:.2f}", f"{d['hold']:.2f}", f"{d['cut']:.2f}",
             f"{d['marginal']:.2f}", f"{d['unpriced']:.2f}",
             BASIS_LABEL, INSTRUMENT, SOURCE_NAME,
-            "" if policy_rate is None else f"{policy_rate:.2f}", quality, pulled,
+            "" if policy_rate is None else f"{policy_rate:.2f}",
+            impeach(d["meeting"].isoformat(), quality), pulled,
         ]))
     if not OIS_TSV.exists():
         OIS_TSV.write_text("\t".join(COLUMNS) + "\n", encoding="utf-8")
@@ -365,6 +392,23 @@ def main():
         print(f"\n  ✓ BOJ_OIS.tsv — appended {added} row(s) for as-of {as_of}")
     else:
         print(f"\n  ✓ BOJ_OIS.tsv — already current for as-of {as_of} (no new data)")
+    if SOURCE_NAME in IMPEACHED_SOURCES:
+        print("\n" + "=" * 72)
+        print("  ⛔ DO NOT CITE THE SEPTEMBER FIGURE ABOVE. THE SOURCE IS IMPEACHED.")
+        print("=" * 72)
+        print("  centralbank.watch's Sep-2026 leg is refuted MODEL-FREE: the observed TFX")
+        print("  spread forces P(Sep) >= 81.3% under at-most-one-hike, and a ~51-52% print")
+        print("  would require pricing 126.9% of a hike (ORACLE verdict 2026-08-17).")
+        print("  ✅ CITE ~73%, CONVERGED AND FALLING — Kalshi 74.5 / Polymarket 73.5 /")
+        print("     TFX 72.2, within 2.3pp in one 7-min window. It is a stored row in")
+        print("     BOJ_OIS.tsv under source 'multi-source-converged'.")
+        print("  ⚠️  SAM's OWN ~72-77% TFX band is ALSO superseded — it bracketed the truth")
+        print("     only because three derivation errors cancelled (+6.0 settlement-column")
+        print("     offset, +8.0 day-count f_Sep=0.9121, -19.0 two-meeting reference quarter).")
+        print("  ⚠️  Sibling legs (Oct/Dec) are NOT cleared by agreeing — the defect is in")
+        print("     MEETING ATTRIBUTION, and an agreement can be cancelling errors.")
+        print("  ⚠️  Any TFX cite needs a last-TRADED date: the 8/17 print was a ZERO-VOLUME")
+        print("     theoretical mark (all 20 strip contracts 0 lots) — worth 12.2pp.")
     print("\n  ⚠️  SINGLE SOURCE. Corroborate a material move on a wire before re-marking.")
     print()
     return 0
