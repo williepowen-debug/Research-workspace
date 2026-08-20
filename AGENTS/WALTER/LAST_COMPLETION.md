@@ -1,18 +1,21 @@
 # WALTER — LAST COMPLETION
 
-**Session:** 2026-08-19 Wed **EVENING (SESSION 2)** — boot 18:0xZ on Will-Telegram *"Hi Walter please boot up"*, ~1h after the all-day session's own Tier-2 closed. **Closed Tier-2 FULL ~00:2xZ on Will's "okay lets have you close out here."**
+**Session:** 2026-08-20 Thu **ALL-DAY** — boot 12:3xZ on Will-terminal *"Hi WALTER please boot up"*. **Closed Tier-2 FULL ~16:0xZ on Will's *"okay lets do the tier 2 close out."***
 
 ## STATUS
-🟢 **GREEN.** Doctor **0 HIGH / 0 MED** at boot AND at close. **BOARD 780**, reconciles (ToC = sections = files = TOTAL). route_log reconciles. Push **0 ahead / 0 behind**.
+🟢 **GREEN.** Doctor **0 HIGH / 0 MED** at boot AND at close. **BOARD 783**, reconciles across all four surfaces (ToC = sections = files = TOTAL). route_log / delivery_log / kill_log field counts uniform. Push **0 ahead / 0 behind**.
 
 ## CHANGED
-**BOARD 769 → 780 = 11 DISPATCH / 5 kill-log rows / 33 handoffs / 4 declared batches, all closed.**
-`-024` carry rotation · `-025` EIA wk-8/14 · `-026` subprime auto date defect · `-027` SEC/Tricolor · `-028` OBDC PIK letter · `-029` **PROME-origin FOMC archive + WALTER §5 addendum** · `-030` Treasury primary + YCC-vs-liquidity · `-031` **a second SKEW** · `-032` FT/Apollo First Brands · `-033` equity premium ≠ valuations · `-034` buyback+bills is a synthesis.
-**REGISTRY:** 2 rows (WALTER self · DAEDALUS). **STATUS:** lead + BOTTOM LINE + NETWORK AWARENESS + live levels all regenerated; **32,616 B against the 48,000 cap — no rotation owed.**
+**BOARD 780 → 783 = 3 DISPATCH / 1 KILL / 22 handoffs (21 with `delivery_log` rows) / 1 declared batch closed 6/6 with no gaps.**
+`-001` BOJ Sep pricing (**self-retracted ~1h after dispatch**) · `-002` CENTCOM `disabled` 2→3 · `-003` the buyback intervention has not started.
+**Specs:** `SIGNAL_PROCESSING_CHECKLIST` v0.33 → **v0.34**; `design/STATE.md` §1 swept same commit; `version_drift_check` green.
+**Protocol:** boot step 3 gains an **evaluation clause**; `## FILTER POSTURE` **restored** after 28 days; STATUS `STATE POINTERS` ×2 repaired.
+**REGISTRY:** **9 rows** (PROME · SAM · HAWK · BOND · TERRY · CREED · OSPREY · FALCON · WALTER-self).
+**STATUS:** lead + BOTTOM LINE + NETWORK AWARENESS + live levels regenerated; **spine rotated twice (3 blocks verbatim → `SESSION_LOG.md`)**; **45,427 B against the 48,000 cap.**
+**Auto-memory:** `finding_verified_figures_do_not_verify_the_shape_claim` written, committed, **verified on origin**; index row appended + hook trimmed.
 
 ## RESULT
-**The two highest-value inputs were primaries Will supplied, and both changed an answer.** The Treasury release text closed the `PUBLIC-AND-UNFETCHED` gap `-015` had *declared open* that morning — every figure held — and reading it surfaced what no wire carried: **Treasury calls the operation "liquidity support" and cites "consistent STRONG sponsorship"; El-Erian calls it YCC. Opposite premises about demand; both cannot be the motive.** The curve move was **monotonic by maturity (2Y −0.9 → 20Y −8.3, no inversion)** — which rules out the null without establishing YCC.
-**`-024` is the sharpest refutation:** both headline claims about the JPY→CHF carry rotation VERIFY at the CFTC primary, and the story still fails on arithmetic — **yen short −48,920 contracts in two weeks, franc short +1,785 = 3.6%.**
+**The day's output was corrections, and the balance ran against me: five peers corrected this desk and every correction stuck.** The one dispatch to carry forward is **`-003`** — *the Treasury buyback intervention did not fail, it has not started.* Effective **9 Sep**, runs to **4 Nov**, **zero transactions**; the 24-hour round-trip is an **announcement effect on a program that has bought nothing**. **Found from a Treasury primary date already sitting in my own `-20260819-030`, not from new research** — and the round-trip itself verifies at **4.69 on my own pull, below every headline figure and still above the 4.68 pre-announcement level**, i.e. the claim holds at the reading least favourable to it.
 
 ---
 
@@ -20,49 +23,49 @@
 
 ## A. NEEDS WILL — **nothing.** No decision is blocked.
 
-## B. WAITING ON ANOTHER DESK — 5 items, none blocking *(one CLEARED tonight)*
+## B. WAITING ON ANOTHER DESK — 4 items, none blocking *(three CLEARED today)*
 
 | # | Who | What | Live? |
 |---|---|---|---|
-| 1 | **CREED** | Rule on `CREED-T-02` (met since the June report, ~6wks; five primaries in its hands). Also: does it want a WALTER-side fire ledger? | 🔴 **dark 6d — CONFIRMED tonight by author-checking the commit log, because its directory showed 8 same-day commits that were all mine** |
-| 2 | **DAEDALUS** | Fleet trigger-registry question (only 3 desks machine-readable) | 🟢 live — named READ-NOT-STARTED so it cannot rot silently |
-| 3 | **RED** | `^SKEW` grading basis — **now more urgent: a SECOND SKEW exists as of `-031`** | 🟡 |
-| 4 | **SAM** | EM-carry scope — a refusal is a clean answer | 🟡 |
-| 5 | **BRENT / FALCON** | Transit-instrument disposition + the six-value baseline | 🟡 |
+| 1 | **REGINALD** | Holds **two** things: the `-021` share-vs-quantity correction, and CREED's `REG-T-07` collision answer (add CREED to the chain as `info`; note that two bars exist on that series). **CREED's ask, not mine.** | 🔴 **dark — and two desks are now waiting on one dark one** |
+| 2 | **RED** | `^SKEW` grading basis — still two different instruments answer to that name | 🟡 |
+| 3 | **BRENT / FALCON** | Transit-instrument disposition + the six-value baseline | 🟢 FALCON went live today |
+| 4 | **DAEDALUS** | Fleet trigger-registry question (only 3 desks machine-readable) | 🟡 named READ-NOT-STARTED so it cannot rot silently |
 
-✅ **CLEARED: DAEDALUS shipped the FERT potash charter + benchmark guard in one edit (`beb3a36cb`), verified by WALTER at the artifact — FERT's `CLAUDE.md` now carries 8 potash references against ZERO before.**
+✅ **CLEARED: CREED ×2** — answered the fire-ledger ask (**NO**, a second ledger splits the truth) and **FIRED `CREED-T-02`** at the primaries. ✅ **SAM ×1** — all three `-20260817-001` asks. ✅ **PROME** — cleared the potash item by telling me it had been cleared the night before.
 
 ## C. RESOLVES ON A CLOCK — no action by anyone
-- **`WAL` vs `REG-T-02`** — closed **$80.40 = 3.08%** above a sustain-1 binary that fires on **one regular-session close**. Exit is ≥81.90 × 3 closes, so it sits **between**, $1.50 under the exit.
-- **`TRY-FIRE-004`** — the Treasury buyback **steps up 9 Sep and runs to 4 Nov, inside the Sep-30 expiry.** Both duration-short legs closed at the session's worst. **Level stated, no proposal — TERRY constructs.**
-- **`RED-FT-01`** — HY OAS 275 [FRED 8/18], exit ≥280 s=3 now **5bp away**, halved from 10bp.
-- **`CARL-DR-1`** — re-commissioned; **DEWEY holds it.** The 9/18 anchor is retired.
+- **`WAL` vs `REG-T-02`** — **3.08% above** a sustain-1 binary on the 8/19 close. Still the nearest live **price** trigger. **Grades on closes only.**
+- **`CREED-T-01a`** — 11.91% [Trepp Jul] = **9bp** from its band, the nearest *registered* trigger on the fleet board. **Monthly print, not a live level.**
+- **`TRY-FIRE-004`** — the buyback bid arrives **9 Sep → 4 Nov, inside the Sep-30 expiry.** Levels stated, no proposal; TERRY constructs.
+- **`RED-FT-01`** — HY OAS 275 [FRED 8/18], exit ≥280 s=3, **5bp away and widening toward it.**
 
 ## D. WHAT I'D WANT YOU TO KNOW, not do
-- **Three defects self-found tonight, all in my own guards or my own published number** — the batch manifest certifying 16/16 against 18 real inputs; check #27 catching my own `-031`; and **`WAL`'s distance published on an intraday basis against a trigger that grades on closes.**
-- **The third one is the one that reached you.** I told you 2.00% and to watch that number. The close was 3.08%, and the "tightened at every reading" line mixed intraday reads with closes. **The gradeable version is narrower and still real: 8/18 close 4.23% → 8/19 close 3.08%.**
-- **A delivery-heavy day makes every recipient's directory look active** — the raw log showed 19 live desks; by author it is DAEDALUS 27 and single digits elsewhere.
+- **I told you the potash guard was stale twice while its discharge was already in my context.** PROME caught it. The flag had been fixed the night before my boot.
+- **Three protocol defects, and they are one family: a step that touches a surface without checking it.** `FILTER POSTURE` gone 28 days while closeout 12(c) named it every session; boot step 3 reading carries without evaluating them; Phase 1.5 verifying figures but never the shape laid across them. **All three now check what they touch.**
+- **The `FILTER POSTURE` loss is the instructive one:** it died in the same commit as `BOTTOM LINE`, which was found and fixed on 8/18 — **and nobody diffed that commit for its other casualties.** A fix aimed at the instance leaves the siblings standing.
+- **My worst error was the most quotable sentence I wrote** — *"peaked in May / not a wave starting."* Every figure under it was correct and confirmed at primary by the trigger's own owner. **The shape verdict on top got no scrutiny precisely because the numbers checked out.**
 
 ---
 
 ## GAPS (WALTER-facing)
-- **Most of tonight's dispatches landed on desks that are not currently live.** BOND took four action items and committed twice all day. Delivery confirmed; consumption not.
-- **`MEMORY.md` 136 lines vs its own 100-line cap** — longest-standing declared residual, enforced by discipline only.
-- ✅ ~~**Root `CLAUDE.md`'s potash guard is now stale**~~ — **DISCHARGED 2026-08-19 20:40 by PROME (`897d32500`, Will-approved in-session), and VERIFIED BY WALTER AT THE FILE 2026-08-20: the stale conditional is gone (0 hits for *"until FERT's charter edit lands"* / *"DAEDALUS-owed"*), and the live text cites `beb3a36cb` as the encoded-at-owner state.** 🔴 **BUT READ WHY THIS ROW IS EMBARRASSING RATHER THAN JUST CLOSED: the fix landed the NIGHT BEFORE my boot, so the corrected text was in the copy of root `CLAUDE.md` AUTO-LOADED INTO MY CONTEXT — and I reported the guard as still stale to Will TWICE anyway.** **I carried this row forward as a STRING and never evaluated it against a file I was already holding.** `[[finding_dated_carry_item_has_no_expiry_check]]` — *a carried assertion is a string; reading it never evaluates it* — **and root `CLAUDE.md` is the single file I am most guaranteed to have, which makes it the worst one to be wrong about.** **Caught by PROME, not by me.**
-- **No WALTER fire-ledger for `CREED-T`** — deliberately not built; asked CREED first, still unanswered.
-- **`-031`'s chart has no provenance and no date stamp**, and I did not pull MOVE, the obvious cross-check. Graded 0.60 and said so.
-- **The 20Y auction TAIL is uncomputable by anyone in this fleet** — TreasuryDirect publishes no when-issued and my lane carries no WI print.
+- **`STATUS.md` sits at 95% of its 48,000 B cap** even after rotating three blocks. **The lead paragraph is what grows**, and **a Tier-1 closeout cannot fix it** — Tier-1 explicitly defers rotation. **Next Tier-2 must rotate harder or write a shorter lead.**
+- **`MEMORY.md` is 129 lines against its own 100-line cap** (down 6 today). Longest-standing declared residual; enforced by discipline only.
+- **The refuted claim in `SIG-W-20260819-021` is in its FILENAME and cannot be renamed** — delivered handoffs and `delivery_log` rows cite the path. **An inbox listing shows a refuted claim to anyone who does not open the file.** Mitigated by banners on the file and its INDEX row, not solved.
+- **Non-US rows of the `-003` sovereign panel are UNVERIFIED** — no independent instrument was pulled for Bunds, OATs, ACGBs or Spanish paper.
+- **`centcom.mil` returns 403 from this box on two paths** ⇒ the "disabled" definition question is **PUBLIC-AND-UNFETCHED, not unavailable.** One direct read closes it for HAWK.
+- **No tankage instrument** reachable for HAWK's Sheskharis mechanism — the analytics class is paid/proprietary, so closer to genuinely-unavailable than unfetched. **Told HAWK rather than running a search that would return trade-press paraphrase of the same operator statement and look like corroboration.**
 
 ## OPEN DESIGN DECISIONS (need Will)
 **🟢 NONE ACTIVE.**
-**🟠 NEW, SURFACED TWICE TODAY (not urgent, evidence accumulating):** **an `action:` item landing on a pull-complete recipient produces no handoff** — CARL on `-026`, RED on `-031`/`-033`. §3.5.6 disclosed the failure mode and tabled three options; nothing ratified, so I logged the instances rather than changing delivery unilaterally. **If it recurs, that is the evidence base for a ruling.**
-**🟠 NEW:** **foreign-origin BOARD rows carry a `SIG-W-` id** (`-029` is PROME-authored). The prefix is the BOARD filename convention `board_reconcile` depends on, so a `SIG-P-` scheme would be a spec change and a doctor break. Authorship sits in the header fields instead. **If foreign-origin rows become routine, the ID scheme needs a ruling.**
+**🟠 CARRIED, evidence still accumulating:** an `action:` item landing on a **pull-complete recipient** produces no handoff (§3.5.6 disclosed; nothing ratified) · **foreign-origin BOARD rows carry a `SIG-W-` id** (would be a spec change + doctor break to alter).
 **🟠 DEFERRED (unchanged):** DEWEY cadence · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
-**🔵 SURFACED (not WALTER-fixable):** Hormuz transit level still not knowable · Red Sea has no registered gate (FALCON) · only 3 fleet desks keep machine-readable registries (→ DAEDALUS) · **HANS 34d / ZHAO 16d / CORAL 16d dark, and CORAL still holds `-023`'s action item.**
+**🔵 SURFACED (not WALTER-fixable):** Hormuz transit level still not knowable · Red Sea has no registered gate (FALCON) · only 3 fleet desks keep machine-readable registries (→ DAEDALUS) · **HANS 34d dark and it took the Germany 5Y leg on nobody's line** · ZHAO / CORAL / VULCAN dark.
 
 ## FOLLOW-UP
-1. **`CREED-T-02` ruling** — chase if CREED is still dark in 2-3 days.
-2. ✅ ~~**Root `CLAUDE.md` potash guard**~~ — **CLOSED 2026-08-20, verified at the file.** PROME landed it `897d32500` on 8/19. **Replaced by a protocol item, because the defect was not the potash guard: boot step 3 READ this carry and did not EVALUATE it.** See the new boot-step-3 evaluation clause in `CLAUDE.md`.
-3. **RED's `^SKEW` basis** — must now disambiguate two instruments.
-4. **`WAL`** — grade on **closes only**. It is the closest live trigger on the board.
-5. **`MEMORY.md`** over cap — hunt entries whose fix has SHIPPED.
+1. **REGINALD** — chase if still dark in 2-3 days; it holds two desks' items.
+2. **`STATUS.md` seat budget** — 95% of cap. Rotate harder or shorten the lead at the next Tier-2; **Tier-1 cannot do it.**
+3. **`MEMORY.md`** over cap — hunt entries whose fix has SHIPPED (three shipped today and are candidates next session).
+4. **Re-pull FRED after 16:00 ET** before publishing any trigger distance — T+1, and the staleness flatters the calm read.
+5. **`SIG-W-20260819-021`'s filename** — if a rename convention for refuted titles is ever ratified, this is the test case.
+6. **CENTCOM "disabled" definition** — closeable by any desk that can reach `centcom.mil` directly.

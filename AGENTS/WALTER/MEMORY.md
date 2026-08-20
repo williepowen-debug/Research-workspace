@@ -101,35 +101,29 @@
 - **LIAISON path convention:** `AGENTS/{TARGET}/handoff_WALTER/LIAISON.md`; manifest in STATUS.md "Active LIAISON channels"; playbook `design/LIAISON_PLAYBOOK.md`. Outbox at `AGENTS/WALTER/outbox/REQ-{TARGET}-{YYYYMMDD}-{slug}.md`.
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
-### CHANGES SINCE LAST SESSION (2026-08-19 Wed EVENING — SESSION 2, boot 18:0xZ, **Tier-2 FULL**)
+### CHANGES SINCE LAST SESSION (2026-08-20 Thu ALL-DAY, boot 12:3xZ Will-terminal, **Tier-2 FULL**)
 
-**BOARD 769 → 780 = 11 DISPATCH / 5 kill-log rows / 33 handoffs / 4 declared batches all closed. Doctor 0 HIGH / 0 MED at boot AND at close. Push clean.**
+**BOARD 780 → 783 = 3 DISPATCH / 1 KILL / 22 handoffs / 1 declared batch closed 6/6. Doctor 0 HIGH / 0 MED at boot AND at close. Six desks live in parallel; FALCON + OSPREY spawned mid-session.**
 
-**Dispatched:** `-024` JPY→CHF carry rotation refuted on arithmetic at the CFTC primary (franc absorbed **3.6%**) · `-025` EIA wk-8/14, SPR 4th straight draw + Cushing's rebuild reversed two days after BRENT rescinded Boundary #3 on it · `-026` the "subprime auto 6.9%" headline is the **January** print, YoY sign flipped +34→−64bp · `-027` SEC/Tricolor, carried for the **Jan-2027 trial date** · `-028` OBDC PIK letter verifies on six figures, omits the one that sizes its own headline (**PIK = 1.1% of statutory surplus**) · `-029` **PROME-origin FOMC archive + a §5 addendum I found re-verifying the primary** · `-030` Treasury primary in hand, "liquidity support" vs YCC, curve monotonic by maturity · `-031` **a SECOND instrument called SKEW** · `-032` FT/Apollo First Brands deck, bates stamps = discovery · `-033` the Fed said **equity premium**, not valuations · `-034` the buyback+bills story is a **synthesis**, WAM near multi-decade highs.
+**Dispatched:** `-001` BOJ Sep pricing (**self-retracted ~1h later — magnitude withdrawn, direction survives**) · `-002` CENTCOM `disabled` 2→3 on 8/11, which **broke the leg HAWK built on it** and showed its replacement instrument carried the perimeter defect it was chosen to escape · `-003` **the buyback intervention did not fail — it has not started (effective 9 Sep, zero transactions)**, found from a Treasury primary date already in my own `-030`. **Killed 1** (Bloomberg AI-circularity graphic: theme held twice, its one checkable claim held *better* elsewhere, valuations 2.5mo stale).
 
-**Killed 5** with reasons on the record — two stale bank-stress items, a six-item memory-cycle set (half of it 6-11 weeks old), two local-scale labor items, a 20-week-old law review, and the closest call: another Ufa refinery strike, killed because it names **no unit, no capacity, no bpd**, so there is nothing to attach to the live diesel crack already tracked in two same-day signals.
+**🔴 FIVE PEER CORRECTIONS, ALL ACCEPTED.** SAM (impeached-derivation magnitude; then fixed my ledger finding **in the writer** — my ask taken literally would have self-erased overnight) · PROME (potash flag reported stale **to Will twice** while its discharge sat in my own auto-loaded context) · CREED (**read a share as a quantity**) · HAWK ×2 (a relay I absorbed, then its reversal).
 
-**🔴 THREE DEFECTS SELF-FOUND, ALL IN MY OWN GUARDS OR MY OWN PUBLISHED NUMBER:**
-1. **The batch manifest read 16/16 GREEN against 18 real inputs.** `--open` was keyed on `intake_scan`'s rendered SUMMARY LINE rather than the `by_class` totals, which also carried 2 DEVELOPMENT rows. Nothing was lost — both were dispatched — but **the guard certified a scope smaller than the drop, which is the one thing it exists to prevent.** Recorded as corrective batch `BM-20260819-05`.
-2. **Check #27 — shipped that same morning — caught `-031` putting a real ask to RED on `info:`.** Second time in one day it caught a violation I wrote.
-3. **`WAL` closed $80.40 = 3.08% above `REG-T-02`, not the 2.00% I published intraday and told Will to watch.** `REG-T-02`'s `value_basis` is *"regular-session CLOSE"* and `sustain_unit` *"consecutive daily CLOSES"* — **intraday prints do not grade it.** The "tightened at every reading" line ran on a MIXED BASIS.
-
-**⚖️ Routing ruling:** PROME dispatched an FOMC finding direct and disclosed it unprompted → **ruled NOT a miss.** WALTER's lane is INTAKE; a desk's own read of a primary delivered to charter-named owners is that desk's OUTPUT. Asked only for a BOARD row; PROME supplied it within the hour.
-
-**Recorded twice, not acted on:** an `action:` item landing on a pull-complete recipient with no handoff (CARL `-026`, RED `-031`/`-033`). §3.5.6 tabled three options for Will; nothing ratified.
-
-**✅ Owed-list:** DAEDALUS shipped the **FERT potash charter + benchmark guard** (`beb3a36cb`), verified at the artifact. ⚠️ **Consequence: root `CLAUDE.md`'s potash guard is now STALE — flagged to PROME, not edited.**
+**🔴 THREE PROTOCOL DEFECTS FIXED, ONE FAMILY — a step that TOUCHES a surface without CHECKING it:** `## FILTER POSTURE` absent **28 days** (same 7/23 regeneration that ate BOTTOM LINE; **the 8/18 fix never diffed that commit for siblings**) → restored · **boot step 3** read carries without evaluating → now evaluates · **Phase 1.5** verified figures but never the shape across them → **CHECKLIST v0.34**.
 
 ### NEXT SESSION
 
-**Push:** clean — 0 ahead / 0 behind.
+1. **`STATUS.md` is at 95% of its 48,000 B cap** even after rotating three blocks. **The lead paragraph is what grows.** Next Tier-2 should rotate harder OR cut the lead shorter — **and a Tier-1 cannot fix this, because Tier-1 explicitly defers rotation.**
+2. **`MEMORY.md` is 33 lines over its own 100-line cap** — the longest-standing declared residual on this file, enforced by nothing but discipline. **Hunt entries whose fix has SHIPPED** (that is the standing rule; the ship is the trigger and nothing fires it).
+3. **Two desks are waiting on one dark one: REGINALD** holds both the `-021` correction and CREED's `REG-T-07` collision answer. **Chase if still dark in 2-3 days.**
+4. **`WAL` vs `REG-T-02` grades on CLOSES only** — still the nearest live price trigger. **Re-pull FRED after 16:00 ET before publishing any distance** (T+1, and the staleness flatters the calm read).
+5. **HANS 34d dark** and it took the Germany 5Y leg of `-003` on nobody's line; BOND holds it as named backup.
 
-**🔴 FIRST ACTIONS.** ⏰ **Boot reads THREE threshold registries** (RED-FT 9 · REG-T 8 · **CREED-T 11, only 5 scannable, 3 of those monthly Trepp prints**). ⏰ **Doctor has 27 checks** incl. `action_line_rule`. ⏰ **Dispatch step 10.7** — axis-sweep any property-type/geography/sector breakdown against the REGISTRY Domain column BEFORE setting recipient lines.
+### FEEDBACK / FINDINGS ADDED THIS SESSION
 
-**⏰ THE STANDING CHECKS, plus the one earned tonight: (q) READ THE TRIGGER'S `value_basis` BEFORE PUBLISHING A DISTANCE TO IT.** `REG-T-02` grades on **regular-session closes**; I published an intraday distance and handed it to the operator as the number to watch. **A distance is a claim about the GRADING BASIS, not about the price** — and this is the same registry-basis-vs-tool class I had flagged in three RED triggers hours earlier. Pairs with (p): *a number next to a threshold tells you nothing until you read the gate.*
+- **`finding_verified_figures_do_not_verify_the_shape_claim`** → **auto-memory** (committed, on origin) + **CHECKLIST v0.34**. *Verifying every figure never verifies the SHAPE laid across them; name the denominator before "peaked"/"rising"/"plateaued".* **CREED's diagnosis, adopted verbatim because it changes the remedy: the failure is INVISIBLE, not careless — a share plotted over time looks exactly like a trend.**
+- **A "don't look" instruction is safe only when something else is still looking** — and the backstop needs a branch for the condition **ceasing to be true**. CREED's reciprocal flag (*"a gate that tells you not to look passes every audit, because it looks like discipline"*). **Swept my own always-loaded surfaces: boot 7c's three dead feeds are still dark AND `cron_liveness` carries an explicit `REVIVED?` branch — mine passes.**
+- **Correction confers no credit on what comes next** (SAM's formulation of my own line). **The instrument you flee to deserves the audit you gave the one you left** — SAM, HAWK and I each committed this today.
+- **A relayed status is not a status.** PROME → HAWK → reversal on the FALCON spawn: every hop honest, final state right, and I still absorbed the first relay into a report to Will instead of attributing it.
 
-**⏰ AND (r): when declaring a batch, COUNT THE MACHINE-READABLE TOTALS, NEVER THE RENDERED SUMMARY.** `intake_scan`'s summary line under-counted by 2 and the manifest then certified the smaller scope as complete.
-
-**Live levels — 2026-08-20 00:17Z, POST-CLOSE (these are closes, which is what the price triggers grade on):** 🟠 **`WAL` $80.40 = 3.08% above `REG-T-02`, a sustain-1 binary on ONE CLOSE; its exit is ≥81.90 × 3 closes, so it sits BETWEEN, $1.50 under the exit** · 🟠 **`CREED-T-01a` 11.91% = 9bp from its band** (monthly) · HY OAS 275 [8/18], `RED-FT-01` exit 5bp away · `^VIX` 14.89, FT-06 exit 3.11 away and WIDENING · `^TYX` 5.19 / `TLT` $83.02 / `TBT` $37.56 — **both duration-short legs closed at the session's worst** · `KRE` $75.00 · `OZK` $49.48 · `^SOX` −2.12% (3rd down session) · SPR 293.426M / Cushing 21.252M [wk 8/14].
-
-**🔴 CARRIED:** **`CREED-T-02` still awaits CREED's ruling** — met, dated to June, five primaries delivered, **desk dark 6d and CONFIRMED dark by author-checking the commit log** · **`TRY-FIRE-004`: the buyback steps up 9 Sep, inside the Sep-30 expiry** · **CORAL 16d dark still holding `-023`'s action item** · **RED owes a `^SKEW` basis and there are now TWO SKEWs** · **root `CLAUDE.md` potash guard stale → PROME.**
+**🔴 CARRIED:** **`CREED-T-02` is now FIRED** (CREED, at the primaries, effective the June print) — **that carry is CLOSED.** **`CREED-T-01a` remains 9bp from its band** on a *monthly* Trepp print, still the nearest registered trigger on the fleet board.
