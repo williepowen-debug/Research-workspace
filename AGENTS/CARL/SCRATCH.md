@@ -81,6 +81,7 @@
 | BOARD_LOG.tsv | 745 (737 data) | ⚠️ **47 undispositioned — untouched today** |
 | MEMORY.md | 92 lines | +2 — **8 lines from the cap; next session promotes, does not append** |
 | PHAN COCKROACH/REGULATORY | +37d | **STILL a disclosure, not a disposition** — sweep now rides the **8/27** spawn |
+| **`ledger_staleness --nudge`** | **23 ledgers flagged** | **Answered, not swept.** **PREDICTIONS.tsv (25 STATUS-writes behind) is the only PARENT ledger flagged and it is NOT rot** — no prediction resolved, was registered, or changed confidence today, so there was nothing to write; a predictions ledger that moves with every STATUS write would be the defect. **19 of 23 belong to sub-agents already dispositioned** (GIG VX/ML/PLATFORM/DRIVER_ECONOMICS · POLLY CARRIER/COVERAGE/ML · STUE SERVICER/TIMELINE/CASCADE · DOC FLOW = FROZEN) — dossier-mode/frozen by ratified decision, recorded in TEAM.md, and stale-but-tagged is the EXPECTED state between catalysts. **The 2 that ARE live: PHAN COCKROACH/REGULATORY — and they are the row above.**
 
 ---
 
