@@ -17,7 +17,21 @@ PROME's tasking said *"WAL closed at ~$80.05 today — the $78 trigger is +2.6% 
 | PROME's tasking | ~$80.05 | tasking message |
 | **✅ ACTUAL 8/20 SETTLE** | **`$79.15` (−1.55%)** | **TERRY own pull, `fetch.py`, 16:3x ET — the settle WALTER asked for and went dark before seeing** |
 
-⇒ **WAL sold off into the close. Distance to `REG-T-02` is `1.45%`, not 2.6% — the gap is very nearly HALF what the tasking assumed.** *(79.15 → 78.00.)* **This does not make the trigger fired and does not arm anything. It makes pre-staging correct rather than precautionary.**
+⇒ **WAL sold off into the close. The gap is very nearly HALF what the tasking assumed.** *(79.15 → 78.00.)* **This does not make the trigger fired and does not arm anything. It makes pre-staging correct rather than precautionary.**
+
+✅ **INDEPENDENTLY CONFIRMED, same figure, ~17:0x ET:** PROME consumed the WAL desk's own verified close (`d110a070f`) at **`$79.15`** — **two desks, separate pulls, identical number.** ⚠️ **One figure in that relay does NOT verify, and I checked before carrying it: it is the FOURTH consecutive down session, not the sixth.** Unadjusted closes, own pull:
+
+| 8/12 | 8/13 | **8/14** | 8/17 | 8/18 | 8/19 | **8/20** |
+|---|---|---|---|---|---|---|
+| 82.62 | 81.74 (−1.07%) | **82.32 (+0.71%) ⬅ UP** | 81.72 (−0.73%) | 80.75 (−1.19%) | 80.40 (−0.43%) | **79.15 (−1.55%)** |
+
+**The streak is `8/17 → 8/20` = FOUR.** The **−3.85% is CORRECT** and reconciles exactly — but it is measured **from 8/14's `82.32`, which is the local PEAK and itself an UP day** *(79.15 / 82.32 − 1 = −3.85%)*. ⇒ **the magnitude survives, the count does not.** `[[finding_window_start_at_an_extremum_inverts_the_move]]`. **Nothing downstream changes** — the buffer, the catalyst-free finding and the pre-stage all stand — **but "sixth consecutive" is a stronger momentum claim than the tape supports and it would have been re-cited.** Routed back to PROME/WAL desk.
+
+> ⚠️ **TWO CORRECT DISTANCES, TWO DENOMINATORS — do not read them as a discrepancy.** **`−1.45%`** = the move WAL must make **from `79.15`** to breach *(1.15 / 79.15)*. **`+1.47%`** = how far `79.15` sits **above `78.00`** *(1.15 / 78.00)*. **Same `$1.15` gap.** Quote whichever you mean and say which — `[[finding_distance_to_a_threshold_is_a_claim_about_its_basis]]`. **The tradeable one is `−1.45%`: that is the move the tape has to deliver.**
+
+🔴 **ONE ORDINARY RED DAY FIRES THIS — measured, not asserted.** WAL 1-yr daily returns: **n=248, sd 2.30%, median ABSOLUTE move `1.24%`.** **Days with a move ≤ −1.45%: `49/248` = `19.8%`.** ⇒ **the breach base rate is ~1-in-5 on an ordinary day, and today alone was −1.55%.** *(Unconditional 1-yr base rate; states nothing about tomorrow. Note it lands within a point of the independently-computed VLY branch at 21.1% — coincidence of two ~1-in-5 tails, not a shared mechanism.)*
+
+✅ **AND IT IS CATALYST-FREE — DOCUMENTED, NOT MERELY UNOBSERVED.** WAL desk ran a live multi-angle news sweep at Will's request for **8/13–8/20: EMPTY** — no 8-K since 7/30, no analyst action, no litigation, no release; **KRE +0.03%, ZION/EGBN green the same session.** Logged as a **clean negative, `KB-WAL-180`.** ⇒ **the drift is idiosyncratic and mechanism-less.** *(That is a finding about the ABSENCE, which only counts because somebody ran the search and wrote down the zero — `[[finding_verification_zero_is_ambiguous]]` cuts the other way here: this zero has a stated scope.)*
 
 🔑 **Method note, because it is the whole reason this section exists:** WALTER did the right thing — it published an intraday number, **labelled it intraday**, and named the successor action. The defect would have been inheriting the relayed level as a close. `[[finding_relayed_level_predates_the_event]]`
 
@@ -102,6 +116,17 @@ PROME's tasking said *"WAL closed at ~$80.05 today — the $78 trigger is +2.6% 
 | **≥ 81.90, 1st or 2nd consecutive** | exit count building | Record the count. **Not an exit yet.** |
 | **≥ 81.90 × 3 consecutive** | **exit condition met** | Owner un-fires the row. **TERRY does nothing** — no position consequence; the cores are already a lapse-in-progress. |
 | **no close / holiday** | non-day | Neither counts nor resets. Re-check next session. |
+
+### 🔑 THE SYMMETRY RULE — carried VERBATIM from the WAL desk, and it binds BOTH directions
+
+> **The signal must not be suppressed because the model disagrees, AND a breach must not be read as thesis-confirmation — a move with no identified mechanism confirms no mechanism.**
+
+**Both halves have a live failure mode here and each is the mirror of the other:**
+- **Suppression side:** §3 says this desk's expression is a lapse-in-progress and §1 raises a duplicate-alert risk. **Neither is a reason to sit on a qualifying close.** Route it. **The read belongs to REGINALD and WAL; the alert is not TERRY's to withhold.**
+- **Confirmation side:** the drift is **catalyst-free by a documented sweep** (`KB-WAL-180`). **A `<78` print off a mechanism-less drift is a PRICE FACT, not evidence the CRE thesis is working** — and it will feel like evidence precisely because a registered gate fired. `[[finding_registered_gate_captures_attention]]` · `[[finding_market_ignoring_is_not_market_refuting]]`
+
+### 🤝 HANDOFF — REFERENCE, DO NOT DUPLICATE
+**WAL desk's next-boot `★0` already is:** *pull price → check `$78` → signal **REGINALD + PROME** 🔴 **before any recap** if printed. **That is the detection path and it is WAL's.** This procedure does **not** re-implement it and must never become a second, competing alarm. **TERRY's role starts AFTER the signal exists** — §4 step ④ and §3's pre-registered answer. *(Two desks independently scanning the same trigger is how a duplicate fire gets manufactured — see §1.)*
 
 ### ✅ THE NO-ACTION BRANCH IS LEGITIMATE AND IS THE BASE CASE
 **A fire that produces no trade is a CORRECT outcome, not a missed one.** `REG-T-02` is a **thesis-recognition** trigger owned by another desk; it is **not an entry signal for this desk** and has never been one. **The failure mode this file is built against is manufacturing a trade because an alert fired** — `[[finding_registered_gate_captures_attention]]`. **If the fire prints and TERRY proposes nothing, that is the procedure working.**
