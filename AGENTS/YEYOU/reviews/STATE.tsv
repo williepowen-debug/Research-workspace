@@ -1,3 +1,4 @@
 Agent	Last_Reviewed_Commit	Last_Reviewed_Date	Open_Findings	Notes
 # One row per agent reviewed. Watermark = the last commit YEYOU has reviewed for that agent's dir.
 # Empty until first run. Recommended baseline: set every agent's watermark to current HEAD so YEYOU reviews only NEW pushes.
+*DEFAULT*	fdb466786926d37b51e013d99b3d164c1e531418	2026-08-20	0	DEFAULT baseline set by DAEDALUS on Will ruling 2026-08-20 ("watermark YEYOU at today and spawn it") = last commit before 2026-08-20 00:00, so the first pass reviews todays pushes forward. Per-agent rows supersede this as reviews accrue.
