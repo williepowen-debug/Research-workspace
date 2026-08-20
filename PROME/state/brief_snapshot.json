@@ -35,6 +35,7 @@
   "GATE-RESHAPE-BC": "RESOLVED-FIRED",
   "GATE-SAM-30": "RESOLVED",
   "GATE-TERRY-006": "LIVE",
+  "GATE-TERRY-007": "LIVE",
   "GATE-TERRY-ARM1": "RESOLVED",
   "GATE-TERRY-ARM2": "RESOLVED",
   "GATE-TERRY-ARM3": "RESOLVED",
@@ -52,6 +53,8 @@
   "41": "War-risk premium observability \u2014 source upgrade, BOTH legs, one item (",
   "55": "CRUISE re-classification + arm-CCL ladder registration \u2014 DAEDALUS's 8/",
   "56": "SAM INFRA_AGENDA.md disposition \u2014 Status: SCOPING \u2014 Will to decide, un",
-  "58": "Oil sleeve \u2014 ONE named exit condition for the USO 35 shares (you ruled"
+  "58": "Oil sleeve \u2014 ONE named exit condition for the USO 35 shares (you ruled",
+  "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-C",
+  "60": "004 roll question \u2014 \u2705 RULED 2026-08-19 in-session: WAKE TERRY after th"
  }
 }
