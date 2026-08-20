@@ -48,7 +48,7 @@
 
 **Market ACCESS is unimpaired:** zero pulled deals, primary open, HY still 21bp below the 300 watch and 71bp below the 350 freeze line. **BND-02 stays FAILED** — the freeze mechanism is not running.
 
-⚠️ **Vintage discipline:** FRED OAS publishes with a lag — **7/24 is the freshest confirmed print; no 7/27 exists yet.** Do not infer a 7/27-28 level.
+⚠️ **Vintage discipline:** FRED OAS publishes with a lag of ~1 business day — **never infer a level for a date the series has not printed.** ⚠️ **Corrected 2026-08-20: this line named a SPECIFIC frozen date ("7/24 is the freshest confirmed print; no 7/27 exists yet") and was 25 days stale — it would have told a reader the freshest available credit print was 7/24 when 8/18 was published.** **A vintage rule must state the RULE, not a date. The current freshest print is recomputed every boot by `monitors/boot_recompute.py`; read it there, never here.**
 
 ---
 

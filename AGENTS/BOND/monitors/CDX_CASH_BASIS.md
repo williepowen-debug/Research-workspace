@@ -29,7 +29,7 @@
 
 ## Data Reality (read before citing)
 
-True **CDX.HY / CDX.IG index levels are owned by S&P Global / Markit and are NOT free.** For weeks this vector sat as "🟡 data gap" — effectively dark. As of 6/5 it is monitored via a **free proxy**, with explicit limits:
+True **CDX.HY / CDX.IG index levels are owned by S&P Global / Markit and are NOT free** [established ~2026-06-05, **re-test: 2026-12-01** — a paywall is a commercial decision and decays like any other claim; re-test by attempting a free primary, not by re-reading this line]. For weeks this vector sat as "🟡 data gap" — effectively dark. As of 6/5 it is monitored via a **free proxy**, with explicit limits:
 
 - **Proxy (BOND, free):** `monitors/cdx_proxy.py` — the **HYG/IEF ratio** (HY credit ETF stripped of duration via the 7-10Y UST ETF) isolates the credit component of HYG. LQD/IEF gives the IG cross-check. Run it any session; cross-check vs cash HY OAS (FRED `BAMLH0A0HYM2`).
 - **What the proxy CAN see:** faster-cash (liquid ETF/hedging layer) vs slower-cash (computed OAS) lead/lag.

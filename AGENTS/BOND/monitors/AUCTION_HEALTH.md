@@ -5,7 +5,7 @@
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
 
 > ⚠️ **TWO STANDING RULES FOR THIS TABLE (adopted 2026-07-28):**
-> **1. The `tail` column is UNSCOREABLE from primaries.** A tail requires the when-issued yield at bid deadline; **TreasuryDirect does not publish it.** That is a structural limit, not a per-session gap — so **no gate, trigger or pre-registration may be keyed on a tail.** Wire-reported tails are `[med-conf]` and are recorded in Notes only, never used to fire a classification.
+> **1. The `tail` column is UNSCOREABLE from primaries.** A tail requires the when-issued yield at bid deadline; **TreasuryDirect does not publish it** [verified 2026-07-28, **re-checked 2026-08-20** — **re-test: 2026-11-01**, or immediately if TreasuryDirect changes its published field set]. ⚠️ **SCOPE, sharpened 2026-08-20: this is a fact about THIS SOURCE, not about tails.** SAM computes a JGB tail at the MOF primary (lowest-accepted vs average-accepted) and that grade is legitimate — **do not export this retirement to another desk's instrument, and do not let anyone import it against one.** That is a structural limit, not a per-session gap — so **no gate, trigger or pre-registration may be keyed on a tail.** Wire-reported tails are `[med-conf]` and are recorded in Notes only, never used to fire a classification.
 > **2. Grade COMPOSITION, not the headline cover.** All %s are **% of competitive accepted** (the fleet-reconciled denominator). A thin BTC with indirect holding and dealers un-stuffed is a *price* concession; a demand hole requires **indirect falling AND dealers absorbing.** The 7/27 5Y is the worked example: record-low cover, intact composition.
 
 ## Classification Rules
@@ -76,7 +76,7 @@
 | 10Y | 2.46 | 2.35 | 68.32 | **63.95** | 9.96 | **16.16** | 2025-08-06 → 2026-07-08 |
 | 20Y | 2.67 | 2.36 | 64.95 | **55.17** | 9.88 | **17.59** | 2025-08-20 → 2026-07-22 |
 | 30Y | 2.38 | 2.27 | 64.93 | **59.52** | 11.39 | **17.46** | 2025-08-07 → 2026-07-09 |
-| 30Y TIPS | 2.75 | 2.48 | 77.48 | 70.44 | 4.46 | 7.24 | ⚠️ **n=3, 2025-02-20 → 2026-02-19 — NOT a trailing-12** |
+| 30Y TIPS | **2.48** | 2.38 | **76.17** | **70.44** | **6.89** | **9.87** | ⚠️ **RECONCILED 2026-08-20 to `grade_auction.py`: trailing-7 SAME-TENOR SAME-TIPS, 2023-02-16 → 2026-02-19, n=7.** Supersedes the 8/18 hand-derived **n=3** row (2.75 / 2.48 / 77.48 / 70.44 / 4.46 / 7.24) — a **method** difference (12-month calendar window vs trailing-7 auctions), not a data difference. **Re-derive from the tool, never from this row.** |
 
 > ⚠️ **Composition failure = indirect below the tenor's own MIN _and_ dealer above its own MAX.** Never port one tenor's cut-offs to another: the 7Y's 56.42 indirect min against a 10Y auction (min 63.95) is simply the wrong bar. *(This exact error was live in `thesis/THESIS.md`'s kill criterion until 8/18 — it hardcoded the 7Y numbers as if general.)*
 > ⚠️ **The 20Y's indirect MIN and dealer MAX come from THE SAME auction (2026-02-18: 55.17 / 17.59)**, so the 20Y failure test is calibrated to reproduce one historical print and fires only on a repeat of it or worse. **A narrow gate, named at authorship rather than after it fails to fire.**
