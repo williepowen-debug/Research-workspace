@@ -25,7 +25,7 @@
 | REGINALD | Market | L4 | Regional banks | L5 legs: THESIS v1.4 refresh (own trigger now +27d, WORSE than at 8/7 s… |
 | MARCO | Market | L4 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | two-state the 2 stale ledgers (FLOW +70d / MIGRATION_PROXIES +33d — boo… |
 | ORACLE | Utility | L4 | Prediction-market diagnostics ‡‡‡ | L5: §2 CONTRACT block (cheap) |
-| BOND | Market | L4 | US bond-market structure / auctions / rates | MATRIX_V2 implement-or-shelve ruling owed (58d, PAT-081 |
+| BOND | Market | L4 | US bond-market structure / auctions / rates | Consolidated 18-finding packet DRAFTED 8/20, routes on Will approval (o… |
 | CORAL | Market | L3 | Florida (whole-state, 10 pillars) | SLIPPED: ZERO self-commits 14d |
 | SHADE | Market | L3 | Insurer-lender / PE-insurance-captive | L3->L4 leg (a) = 3 cheap handles (seed PREDICTIONS.tsv — NONE EXISTS an… |
 | ZHAO | Market | L3 | China macro — UST demand / capital flows / Korea | DARK since 8/3 (14d — prior cell asserted LIVE, corrected PR#4) |

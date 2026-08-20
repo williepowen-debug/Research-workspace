@@ -1,6 +1,6 @@
 # Agent Profile — BOND
 
-> Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH (PRIORITY #4 — domain widened 7/1).** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
+> Δ **2026-08-20 — 3-reader Will-directed structure review superseded the 7/22 deltas: current truth = `upgrades/BOND_REVIEW_2026-08-20.md` (synthesis) + `_reader_raw.md` (evidence + not-read lists + PROME blind-leg provenance). Body below is 6/29-vintage — READ WITH THE REVIEW; full profile rewrite at next firming touch.**
 
 **Built by:** DAEDALUS · **Date:** 2026-06-29 · **Comprehension method:** 1-reader live comprehension (workflow `firm7-profiles-cards`; documents the 6/28 firm-next7 adversarially-confirmed L4)
 **Sources read:** CLAUDE.md, STATUS.md, TRADE.md, thesis/{THESIS,CHANGELOG,PREDICTIONS}, SCRATCH.md, workbook/{SCHEMA,VX,FLOW,KB}, docket/CATALYSTS.tsv, proposals/MATRIX_V2_DRAFT (head), inbox/2026-06-27_from-PROME_{coverage-extension,protocol-audit}-SIG · **SKIPPED:** monitors/*, analysis/*backtest, data/*.csv (73–83k auction history), domain/sources/*.pdf (KBRA). · **Staleness:** refresh when the convergence matrix / TRADE posture materially changes, the coverage-extension SIG is integrated, or > 45 days.
