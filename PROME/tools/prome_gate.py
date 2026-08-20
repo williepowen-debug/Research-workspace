@@ -49,6 +49,21 @@ GATES_STATES = ("LIVE", "FIRED-UNEXECUTED", "RESOLVED", "LAPSED", "RETIRED")
 # consumed_by ruling (forum S2/ABN, Will-adopted); staleness keys on consumed_by.
 DASH_STALE_HOURS = 72       # dashboard self-declares red past this
 
+# Desk catalyst-summons registry (BD-02, LABOR ask 2026-08-20 — three misses:
+# a frozen card only grades if a session runs, and nothing summons a session on
+# a catalyst date; an external DAEDALUS sweep beat the desk's own boot by 3d).
+# PROME boots regularly — this check reads each registered desk's machine
+# catalyst ledger and surfaces due/past-due rows so PROME can flag Will to
+# spawn the desk. A flag means "this desk needs a session", NEVER an
+# instruction to grade on the owner's behalf. v1 cohort = desks that asked and
+# keep the 8-col CATALYSTS schema (date/event/.../priority); add rows HERE.
+SUMMONS_LEDGERS = {
+    "LABOR": "AGENTS/LABOR/docket/CATALYSTS.tsv",
+}
+SUMMONS_WINDOW_DAYS = 2     # due within N days flags; past-due always flags
+                            # (owners prune fired rows, so past-due-still-present
+                            # reads as ungraded — the exact BD-02 miss shape)
+
 BLOCK, ADVISE = "BLOCKING", "advisory"
 results = []                # (severity, name, ok, detail, owner_doc)
 
@@ -440,6 +455,42 @@ def check_symmetry():
            "PROME/CLOSEOUT.md symmetry table (add paired-write row or declare one-way)")
 
 
+def check_desk_catalyst_summons():
+    """BD-02 summons half (LABOR ask 2026-08-20). For each registered desk
+    catalyst ledger: flag rows dated within SUMMONS_WINDOW_DAYS or past-due.
+    Advisory — the disposition is 'flag Will to spawn the desk', nothing else."""
+    today = dt.date.today()
+    horizon = today + dt.timedelta(days=SUMMONS_WINDOW_DAYS)
+    flags, dead_ledgers = [], []
+    for desk, rel in SUMMONS_LEDGERS.items():
+        path = ROOT / rel
+        if not path.exists():
+            dead_ledgers.append(f"{desk} ledger MISSING ({rel})")
+            continue
+        try:
+            with path.open(newline="", encoding="utf-8") as f:
+                for row in csv.DictReader(f, delimiter="\t"):
+                    m = re.match(r"(\d{4}-\d{2}-\d{2})", (row.get("date") or "").strip())
+                    if not m:
+                        continue
+                    d = dt.date.fromisoformat(m.group(1))
+                    if d > horizon:
+                        continue
+                    pri = (row.get("priority") or "?").strip()
+                    ev = (row.get("event") or "?").strip()[:45]
+                    when = (f"PAST-DUE {(today - d).days}d — ungraded?" if d < today
+                            else ("TODAY" if d == today else f"in {(d - today).days}d"))
+                    flags.append((d, f"{desk} {d} [{pri}] {ev} ({when})"))
+        except Exception as e:
+            dead_ledgers.append(f"{desk} unreadable: {type(e).__name__}")
+    flags.sort()
+    detail_bits = dead_ledgers + [s for _, s in flags]
+    record(ADVISE, "desk catalyst summons (BD-02)", not detail_bits,
+           " · ".join(detail_bits[:4]) + (f" (+{len(detail_bits)-4} more)" if len(detail_bits) > 4 else "")
+           if detail_bits else f"{len(SUMMONS_LEDGERS)} desk ledger(s) quiet inside {SUMMONS_WINDOW_DAYS}d",
+           "flag Will to spawn the desk — never grade on the owner's behalf; registry = SUMMONS_LEDGERS above")
+
+
 # ----------------------------------------------------------------------- modes
 
 def mode_boot():
@@ -464,6 +515,7 @@ def mode_boot():
     check_heartbeat_chain()
     check_dashboard_state()
     check_symmetry()
+    check_desk_catalyst_summons()
 
 
 def mode_closeout():
@@ -472,6 +524,7 @@ def mode_closeout():
     check_gates_tsv()          # FIRED-UNEXECUTED must never leave a session
     check_docket_overdue()
     check_docket_today()       # the pre-fire analogue: don't go dark before today's items
+    check_desk_catalyst_summons()  # don't go dark on a desk's catalyst eve (BD-02)
     check_will_queue()
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
