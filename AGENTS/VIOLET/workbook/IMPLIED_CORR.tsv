@@ -4,3 +4,5 @@ date	cor1m	cor3m	cor30d	vix	constituent_vol_est	cor1m_prev_close	basis	source_ts
 2026-08-04	7.19	9.64	7.62	16.5	61.5	7.19	SETTLE	2026-08-05T02:24:21+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
 2026-08-10	7.82	10.93	8.45	15.35	54.9	7.38	TICK	2026-08-10T19:32:01+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
 2026-08-18	8.47	11.12	8.09	15.78	54.2	8.47	TICK	2026-08-18T13:21:14+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY
+2026-08-19	7.95	10.32	7.63	14.89	52.8		SETTLE	2026-08-20 CBOE delayed_quotes prev_day_close (T-1 recovery)	BACKFILLED 2026-08-20 from CBOE prev_day_close. constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY. cor1m_prev_close left BLANK - not recoverable for a T-1 row.
+2026-08-20	9.46	10.68	7.75	16.01	52.1	7.95	SETTLE	2026-08-20T23:10:40+00:00	constituent_vol_est is DERIVED VIX/sqrt(rho), first-order, DIRECTION-ONLY

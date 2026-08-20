@@ -10,6 +10,25 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-08-20 — SKEW disambiguation on cross-agent surfaces · CALENDAR countdowns de-rotted · a blocking checker's id-match limitation
+
+**Trigger:** WALTER `SIG-W-20260819-031` (a second instrument named "SKEW" entered fleet circulation) + the closeout guard's grading-note check going 🔴 + a twin-reconciliation pass.
+
+**What changed:**
+1. **Canonical INSTRUMENT DISAMBIGUATION block added to `NEXUS_BRIEF.md`, `CANARY_MAP.md`, `SIGNAL_INTAKE.md`** — the three surfaces other desks read. In VIOLET files **SKEW = `^SKEW` (CBOE equity index)**; the 3y10y swaption skew is rates vol and BOND's. **Chosen as a header definition rather than 54 inline edits**: audited 62 mentions across those surfaces with only 8 qualified, and every unqualified row is *correct* — the defect materialises at the reader, so one authoritative statement at the top is the fix, and 54 inline edits would have been 54 chances to break a currently-correct row.
+2. **`CALENDAR.md` forward-catalyst day-counts REMOVED, not corrected.** The table carried "(Fri, 3d)/(Wed, 6d)/(Thu, 7d)" stamped on 8/18; by 8/20 those read 1d/4d/5d — **every countdown in the human twin was wrong while the machine feed was exactly right.** A hand-typed countdown is a date that decays every session. Dates kept; countdowns now come only from `scripts/catalyst_countdown.py`, which derives them at run time. **Same lesson the DATA REFRESH SCHEDULE section already learned in July** — second instance in the same file, different column.
+3. **`workbook/CATALYSTS.tsv` NVDA note repaired** (cited a SUPERSEDED KB row; the note prints at the moment NVDA resolves) and the two fired 8/19 rows pruned to CALENDAR's RESOLVED section with grades.
+4. **Ledger repairs:** `VX_DAILY.tsv` gained the missing 8/19 row and its 8/18 TICK partial was superseded to full SETTLE; `IMPLIED_CORR.tsv` gained 8/19. Both recovered from CBOE `prev_day_close`, cross-checked against the History CSVs.
+
+**Files touched:** `NEXUS_BRIEF.md` · `CANARY_MAP.md` · `SIGNAL_INTAKE.md` · `CALENDAR.md` · `workbook/CATALYSTS.tsv` · `workbook/VX_DAILY.tsv` · `workbook/IMPLIED_CORR.tsv` · `board_log.tsv` (+11) · `workbook/KB.tsv` (+6).
+
+**Boot-impact:** none negative — `catalyst_countdown.py`, `grading_note_check.py` and `validate_workbook.py` all verified green after. Boot now has no 8/13→8/20 ledger holes, so `cheap_tail.py` and the COR1M gate read live data instead of a stale cross-section.
+
+**Lessons:**
+- ⚠️ **A checker that matches an ID TOKEN cannot distinguish a citation-as-authority from a disclosure-of-supersession.** Clearing the 🔴 required *not writing* the superseded row's id in canonical form; naming it honestly as SUPERSEDED pinned the row red permanently. **Provenance was kept and the pattern-match broken** (per the `claim_check` convention: reword only to stop the match, never to erase history). **A permanent 🔴 on a BLOCKING check is worse than the defect it names, because it trains the eye to close out past a blocker.**
+- ⚠️ **A hand-stamped derived value rots on a schedule its own file cannot see.** Countdowns, unlike dates, are wrong the day after they are written. **Delete the derived column; point at the tool.**
+
+
 ## 2026-07-31 — **The grading notes `boot.py` prints at resolution time are unchecked, and 2 of 4 were stale · Phase-2 memory pointers embedded into `CLAUDE.md`**
 
 - **Trigger:** a PROME-spawned scoped grading session (KB-VIO-127 resolved today). The structural finding was incidental to the grade and larger than it.
