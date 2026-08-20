@@ -21,6 +21,7 @@
 5. **004 state (post-encode):** `PB-0002b` 25ct TLT Sep-30 77P, fees-in $0.11563, harvest gate **≥$0.3469 (fees-in — RULED)**, 10ct owed at the gate; mark 0.085 [8/18] 0.735× underwater, $212.50 at risk; disarm/exit per rulings B/C on official `DGS10` ONLY; add-gate `DFII10` ≥2.50: 2.41 [8/18], 9bp away, moving away, **NO-ADD stands**.
 
 ## 📌 8/20 IN-SESSION CLOSEOUT OBLIGATIONS (registered live, discharge before push)
+0. **~8/23 SITTING SCOPE (spine audit #10 + GATES column pass, Will-ruled envelope pass):** ACTIONS 1+2 per DAEDALUS's 8/20 packet (processed/) — 3 columns over all 25 rows + condition cells → summary+pointer — **PLUS the 8/20 rider (PROME-accepted): STATE cells get the same summary+pointer treatment, history at the owner's record** (live instance = the retired 006 row's ~2,500-char state cell, PROME's own 8/20 edit). FALCON anchor expected pre-8/23; LIQUID's review_by inputs ride the 8/26 checkpoint, don't block the pass.
 1. **MEMORY.md flow rule FIRED at 75% (19,100/25,600 B — SAM flag 8/20, its 2 adds disclosed):** at THIS closeout, demote (never delete) settled/predictable-trigger rows to `memory/auto/INDEX_COLD.md` until <70%, record in the commit, slug-conservation proven. SAM's two nominations (EMBED-PENDING block · scheduled-release-trigger rows) = candidates, PROME rules.
 
 ## ⚠️ CAUTIONS FOR THE FRESH SESSION
