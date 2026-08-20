@@ -6,8 +6,9 @@
 🟢 **GREEN.** Doctor **0 HIGH / 0 MED** at boot AND at close. **BOARD 783**, reconciles across all four surfaces (ToC = sections = files = TOTAL). route_log / delivery_log / kill_log field counts uniform. Push **0 ahead / 0 behind**.
 
 ## CHANGED
-**BOARD 780 → 783 = 3 DISPATCH / 1 KILL / 22 handoffs (21 with `delivery_log` rows) / 1 declared batch closed 6/6 with no gaps.**
-`-001` BOJ Sep pricing (**self-retracted ~1h after dispatch**) · `-002` CENTCOM `disabled` 2→3 · `-003` the buyback intervention has not started.
+**FINAL (amended post-closeout): BOARD 780 → 784 = 4 DISPATCH / 1 KILL / 30 handoffs / 2 declared batches, both closed with no gaps (6/6, 4/4).** *(The Tier-2 closed at 783/3; `-004`, the doctor fix, the anchor update and the DAEDALUS correction all landed after. Amended rather than left stale — a closeout record that understates the day is the same defect class this session spent all day finding.)*
+`-001` BOJ Sep pricing (**self-retracted ~1h after dispatch**) · `-002` CENTCOM `disabled` 2→3 · `-003` the buyback intervention has not started · **`-004` the MOU collapse did not convert into kinetic escalation, carrying an EPISTEMIC RULING made at HAWK's request that went against the convenient answer.**
+**Post-closeout also: `walter_doctor` ACTION-blindness FIXED** (73 ACTION in flight had been reported as 0) · **`anchors/IRAN_WAR.md`** UNKNOWN resolved as a sourced negative + 2 kill-on-sight recirculation classes · **`SIG-W-20260819-006`** marked with FALCON's ruling incl. the half against me · **DAEDALUS** closed the last owed item and corrected a measurement of mine · **STATUS spine rotated a FOURTH time** (99% → 96%).
 **Specs:** `SIGNAL_PROCESSING_CHECKLIST` v0.33 → **v0.34**; `design/STATE.md` §1 swept same commit; `version_drift_check` green.
 **Protocol:** boot step 3 gains an **evaluation clause**; `## FILTER POSTURE` **restored** after 28 days; STATUS `STATE POINTERS` ×2 repaired.
 **REGISTRY:** **9 rows** (PROME · SAM · HAWK · BOND · TERRY · CREED · OSPREY · FALCON · WALTER-self).
@@ -22,6 +23,8 @@
 # 🔵 FOR WILL — the running list, in plain language
 
 ## A. NEEDS WILL — **nothing.** No decision is blocked.
+
+> ⚠️ **ONE THING TO KNOW BEFORE THE NEXT BOOT READS GREEN: the doctor now shows 1 MED, and it is the check WORKING.** 105 handoffs unconsumed >2d of 276 in flight, **25 of them ACTION across 12 desks.** That number was structurally 0 until today. **The next session must NOT read the MED as a regression and must NOT re-suppress it** — decide whether it is a WALTER escalation or a PROME fleet-wide item.
 
 ## B. WAITING ON ANOTHER DESK — 4 items, none blocking *(three CLEARED today)*
 
