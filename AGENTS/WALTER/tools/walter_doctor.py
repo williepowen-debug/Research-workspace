@@ -579,6 +579,47 @@ def _delivery_roles():
     return out
 
 
+def _delivery_routed_dates():
+    """{(signal_id, RECIPIENT_UPPER): date} from delivery_log.tsv `timestamp_routed`.
+
+    ⚠️ THE AGE BASIS MUST NOT BE mtime. Root CLAUDE.md forbids keying any freshness
+    mechanism on mtime — git sync restamps it and the failure is FALSE-NEGATIVE, i.e.
+    it under-reports the backlog, which is the flattering direction and therefore the
+    one nobody re-checks. Measured 2026-08-20: three handoffs dispatched 8/19 already
+    carried 8/18 mtimes on ONE machine with no switch; serial multi-machine operation
+    (the documented model, not a contingency) would break it outright.
+    `[[finding_mtime_is_corrupted_by_git_sync]]`"""
+    out = {}
+    log = WALTER / "routed" / "delivery_log.tsv"
+    try:
+        rows = log.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return out
+    for ln in rows[1:]:
+        c = ln.split("\t")
+        if len(c) >= 3 and c[0].strip():
+            out[(c[1].strip(), c[2].strip().upper())] = c[0].strip()[:10]
+    return out
+
+
+def _bare_sig(stem):
+    """`SIG-W-20260819-011-long-slug-here` -> `SIG-W-20260819-011`.
+
+    🔴 THE DEFECT THIS EXISTS TO FIX (found 2026-08-20): the unconsumed check built its
+    delivery_log lookup key from the FULL FILENAME STEM while delivery_log stores the
+    BARE signal id, so the key NEVER matched, every row fell through to role "?", and
+    "?" is not "ACTION" — therefore `action_total` was STRUCTURALLY ALWAYS ZERO. The
+    check then reported "0 ACTION / N INFO" as a FINDING and downgraded its own severity
+    to LOW "all-INFO cc-pile, low-stakes" on that artifact. True figure at discovery:
+    73 unconsumed ACTION items. An unconsumed ACTION handoff — which this check's own
+    docstring calls "the real risk" — was invisible by construction.
+    `[[finding_registry_names_a_concept_tool_resolves_an_instrument]]` (diff the registry
+    against the code) + `[[finding_verification_zero_is_ambiguous]]` (a zero that means
+    "never in its scope")."""
+    m = re.match(r"(SIG-W-\d{8}-\d{3})", stem)
+    return m.group(1) if m else stem
+
+
 # Recipients whose OWN boot scan is a COMPLETE whole-INDEX /BOARD/ diff (dispositions
 # every unrecorded SIG-W across all of INDEX) → complete pull; WALTER SKIPS inbox
 # delivery to them (BOARD_CONSUMPTION_SPEC §3.5, v0.7, verified 2026-07-04). Any handoff
@@ -595,13 +636,26 @@ def check_delivered_but_unconsumed():
     if not files:
         return [(INFO, "no WALTER handoffs in flight")]
     origin = _origin_ref()
-    aged, pull_complete = [], []
+    routed_dates = _delivery_routed_dates()
+    aged, pull_complete, no_row = [], [], 0
     for p, recipient, relpath in files:
         if _sync_state(relpath, origin) != "on_origin":
             continue  # not delivered yet → written_but_undelivered owns it
-        age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
+        stem = p.name[:-3] if p.name.endswith(".md") else p.name
+        sig = _bare_sig(stem)
+        routed = routed_dates.get((sig, recipient.upper()))
+        if routed:
+            try:
+                age = _age_days(dt.date.fromisoformat(routed))
+            except ValueError:
+                age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
+        else:
+            # No delivery_log row (notes, backfilled handoffs) — mtime is the only
+            # basis available. Counted, and disclosed in the summary rather than
+            # silently mixed in with the properly-dated rows.
+            age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
+            no_row += 1
         if age > N_UNCONSUMED_DAYS:
-            sig = p.name[:-3] if p.name.endswith(".md") else p.name
             (pull_complete if recipient.upper() in PULL_COMPLETE else aged).append(
                 (recipient, sig, age))
     # Pull-complete recipients (WALTER skips delivery, §3.5) — residual handoffs are a
@@ -645,10 +699,12 @@ def check_delivered_but_unconsumed():
     # for what it measured; the LABEL overstated its scope.
     # `[[finding_verification_zero_is_ambiguous]]` — a check certifies its SCOPE.
     total_in_flight = len(files)
+    nr = f", {no_row} on mtime (no delivery_log row)" if no_row else ""
     summary = (f"{len(aged)} unconsumed >{N_UNCONSUMED_DAYS}d across {len(by_rcpt)} agents "
                f"(of {total_in_flight} in flight — the rest are within the grace period, "
                f"NOT evidence they are consumed), oldest {oldest}d — "
-               f"{action_total} ACTION / {info_total} INFO: {'; '.join(parts)}")
+               f"{action_total} ACTION / {info_total} INFO: {'; '.join(parts)}"
+               f" [age from delivery_log.timestamp_routed{nr}]")
     if action_total:
         return pc + [(MED, summary + " — ACTION items are the risk; install recipient "
                       "consume boot-step (CC self-apply set) to clear")]
