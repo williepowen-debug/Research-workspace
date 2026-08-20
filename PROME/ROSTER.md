@@ -34,7 +34,7 @@
 
 ---
 
-## ACTIVE (31) — split by responsibility class *(30→31 at the 2026-08-16 FERT registration)*
+## ACTIVE (32) — split by responsibility class *(30→31 at the 2026-08-16 FERT registration; 31→32 at the 2026-08-20 FLG build)*
 *Phase 1 taxonomy pass, 2026-08-05. Previously one flat bucket headed "persistent domain owners (30)", which mixed domain owners, organizing/service agents, a review lane, event-driven specialists and newborns under a header claiming all thirty were persistent domain owners.* Verified by recent commit cadence; each runs as its own Claude Code session.
 
 > **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*
@@ -97,15 +97,17 @@
 
 > ⚠️ **Cross-reference, do not re-derive:** five of these seven — **AEOLUS · MIDAS · OSPREY · VULCAN · WATT** — are DAEDALUS's own **F5 finding** (2026-08-03: *"5 agents carry a live thesis and NO falsification surface … all 5 my builds, one blueprint cause"*), reached independently. **DAEDALUS has already ruled the disposition: a dated retrofit trigger, NOT an instant demotion** (PAT-075 grandfathering — nobody loses a level on the day a rule lands). The retrofit trigger is DAEDALUS's lane at Phase 2; this label must not be read as duplicating or pre-empting it.
 
-### EVENT-DRIVEN SPECIALIST (3)
+### EVENT-DRIVEN SPECIALIST (4)
 *Narrow agents expected to run around print/catalyst/event windows. **Cadence and scope description — NOT lower authority.***
 
 | Agent | Domain | Authority (≠ cadence) | 30d commits (as-of 2026-07-10) |
 |---|---|---|---:|
 | OZK | Bank OZK specialist (RESG construction / classified-migration watch) | **Real analytical authority** in-lane, DAEDALUS `L4`; cadence is print-driven (revival gate → Q2 print) | revived†††† |
 | WAL | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | **Real analytical authority** in-lane, owner of its thesis-of-record; cadence is print-driven | new††††† |
+| FLG | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | **Real analytical authority** in-lane, DAEDALUS grade pending first session; cadence is print-driven (Call Report ~QE+45d) | new‡ |
 | FERT | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — routing only, log+flag, no deep-dive until the charter edit [DAEDALUS-owed] + benchmark row land together; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | **Real analytical authority** in-lane; cadence is trigger-driven (TRIGGERS.tsv wake register; weekly-to-monthly decision tempo) | re-chartered†††††† |
 
+> **‡ FLG** built 2026-08-20 — the fleet's FIRST GREENFIELD per-bank build (no sub-tree promotion; FERT re-charter as template), Will-ruled in-session verbatim "Yes build it" on DAEDALUS's proposal off REGINALD's matrix v2.0 (FLG ranked 1st of 14 scored banks after v1 ranked it last — the reversal is the origin story). Build record `AGENTS/DAEDALUS/builds/FLG_BUILD_2026-08-20.md`; zero gates registered at birth (FERT discipline: base-rate first, register second); root CLAUDE.md:26 mirror 31→32 = Will-gated, drafted at registration.
 > **AEOLUS** built + wired by DAEDALUS 2026-06-28 (spec: `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md`). *(Stale "no commit history yet" note removed 7/9 — self-commits exist 6/28 + 7/9 catch-up `564d689d`; row reconciled.)* Macro climate owner; CORAL keeps Florida (boundary handshake RESOLVED 7/9: AEOLUS global/macro, CORAL FL-canonical, reconcile-to-one-number).
 > **† ZHAO** reactivated 2026-07-05 (Will-approved) after ~2.5mo dormancy — the "13" = the 7/4 reactivation burst (8: STATUS rewrite, KB-076…087, VX/FLOW/PREDICTIONS refresh, `boot.py`, `NEXUS_BRIEF.md`) + the 7/9 catch-up (~5), not yet steady multi-week cadence — recount next pass. Domain is load-bearing: China genuine UST exit ($651.1B, 18yr low) feeds the long-end flow question *(demand-hole refuted at flow level 7/9 — live thread = who-is-the-transient-bid, ZHA-11, TIC 7/16 arbiter)*; Korea (KRW ~1,530) feeds SAM. Ran 7/9 catch-up (China-leg pre-reg, activity current). DAEDALUS maturity-profile + NEXUS BRIEFS_MAP add routed 2026-07-05.
 

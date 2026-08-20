@@ -10,9 +10,10 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | CARL | [`CARL/`](./CARL/) | Consumer credit / consumer-transmission macro, delinquencies, phantom debt; receives LABOR stress; consumes HOMER housing asset-market data. |
 | HOMER | [`HOMER/`](./HOMER/) | Housing asset market (foreclosure pipeline, GSE + Trepp CMBS-MF one-owner figure, builders, HPI, mortgage-rate surface); promoted from CARL 2026-07-12. Feeds CARL (consumer transmission), REGINALD (bank collateral), HENRY (wealth effect). |
 | OTTO | [`OTTO/`](./OTTO/) | Auto and consumer DQ canary; feeds CARL. |
-| REGINALD | [`REGINALD/`](./REGINALD/) | Regional banks hub — cohort matrix, NDFI exposure, CRE bank transmission; WAL + OZK are peer single-name agents (pointer-only seams). |
+| REGINALD | [`REGINALD/`](./REGINALD/) | Regional banks hub — cohort matrix, NDFI exposure, CRE bank transmission; WAL + OZK + FLG are peer single-name agents (pointer-only seams). |
 | OZK | [`OZK/`](./OZK/) | Bank OZK focused surface; spun out from REGINALD 2026-04-24. |
 | WAL | [`WAL/`](./WAL/) | Western Alliance (WAL) focused surface — thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc; promoted from REGINALD 2026-07-25. |
+| FLG | [`FLG/`](./FLG/) | Flagstar Financial (FLG, ex-NYCB) focused surface — NYC rent-regulated multifamily / CRE concentration / reserve adequacy; greenfield build 2026-08-20. |
 | CORAL | [`CORAL/`](./CORAL/) | Florida convergence: real estate, insurance, FL banks, migration/tourism. |
 | CREED | [`CREED/`](./CREED/) | National CRE / non-MF CMBS market stress plus public REIT equity-market tape; feeds REGINALD, CORAL, and LIQUID. Multifamily / Trepp CMBS-MF figure handed to HOMER (one-owner handoff 2026-07-12). Claude Code roster — do not spawn without explicit Will permission. |
 

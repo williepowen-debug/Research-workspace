@@ -23,6 +23,7 @@ flowchart LR
         CARL[CARL<br/>Consumer credit / consumer transmission]
         OTTO[OTTO<br/>Auto / consumer DQ]
         REGINALD[REGINALD<br/>Regional banks]
+        FLG[FLG<br/>Flagstar single-name]
         OZK[OZK<br/>Bank OZK]
         WAL[WAL<br/>Western Alliance]
         CORAL[CORAL<br/>Florida convergence]
@@ -65,6 +66,10 @@ flowchart LR
     %% Primary transmission chains
     LABOR -->|labor stress| CARL
     OTTO -->|auto DQ| CARL
+    REGINALD -->|single-name depth| FLG
+    FLG -->|print reads| REGINALD
+    FLG -->|funding/CRE reads| LIQUID
+    FLG -->|construction inputs| TERRY
     CARL -->|consumer/housing losses| REGINALD
     CORAL -->|FL bank/real estate convergence| REGINALD
     CREED -->|CRE / CMBS / public REIT tape bank bridge| REGINALD
