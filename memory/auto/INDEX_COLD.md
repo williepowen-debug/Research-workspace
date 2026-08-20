@@ -274,3 +274,40 @@
 - finding_holiday_calendar_domain_mismatch — USFederalHolidayCalendar has no Good Friday
 - **Demoted from hot 2026-08-20 (flow-rule pass #2, PROME closeout — settled/predictable-trigger rows; ZERO deleted, slug-conservation proven in commit):** finding_diff_the_vintages_not_just_refresh — reversals live in the DELTA between editions · finding_per_share_figures_break_across_splits — carry the split-invariant same-year RATIO · finding_exemption_is_where_a_rule_self_certifies — errors cluster in the CARVE-OUT, because quoting it feels like compliance; key exemptions to the mechanism (the clock), never a category name, and give the unlisted case the STRICT default · finding_rows_leave_when_the_reader_can_discharge_them — rows the reader can't close ALONE park forever; date-cap broadcasts · finding_anniversary_article_is_a_consensus_decoy — date-check the prior-year article · finding_edgar_fts_refutes_tradepress_negatives · finding_ais_port_export_darkfleet_blind · finding_terms_volume_lead_price_private_structures · finding_edgar_403_user_agent_header · finding_cftc_cot_raw_file_beats_socrata_lag — Socrata lags the 3:30 post; grade off raw f_disagg.txt · user_cruise_interest · feedback_dont_grade_solely_by_tradeable
 - **Demoted from hot 2026-08-20 tranche 2 (same pass — failure-moment-triggered infra + settled conventions):** feedback_check_existing_design_docs · finding_ohlc_verify_before_session_claims · finding_announcement_type_and_filing_precheck · finding_csv_as_ground_truth · finding_quote_carries_data_minute · finding_tool_default_asof_date_drift · finding_yahoo_sparse_index_date_shift · finding_ragged_row_tolerance_hides_schema_change — 3 SILENT ways a scripted TSV-ledger write destroys/hides data (ragged tolerance · finding_partitioned_source_returns_stale_window_at_200 — a clean 200 for a STALE partition; treat 200-with-empty and 200-that-stops-early as failures; audit the path before escalating · finding_skill_regated_not_removed — may be USER-invocable now; check the changelog · finding_blocked_mirror_is_not_an_unreachable_primary — a 403 is a fact about ONE MIRROR; enumerate hosts + try the API · finding_automation_reads_its_own_error_back_as_canon — audit its commits by git AUTHOR; output must never double as input without a staleness self-check · finding_subtotal_column_in_a_flattened_table_triple_counts — an API over a PRINTED table puts SUBTOTALS in a per-row column; my sum ran 3x
+
+## Demoted 2026-08-20 (flow-rule pass #3, PROME closeout — hot index ≥75%; settled/predictable-trigger rows; ZERO deletions)
+- feedback_pull_live_primary_not_dashboard
+- feedback_read_research_before_opining
+- feedback_verify_counts_before_propagating
+- finding_verification_correction_downstream_propagation
+- finding_external_consumer_check_before_restructure
+- finding_comprehensive_grep_over_sampling
+- feedback_suspect_fresh_pull_over_curated_record
+- finding_sustain_trigger_effective_date_points_backward — dates to the EARLIEST print of the run; ask when the NEWEST one PUBLISHED
+- finding_shared_antecedent_independence_test
+- finding_independent_convergence_validates_schema
+- finding_circular_corroboration_via_state_file
+- feedback_outbox_restraint_for_push_friction
+- finding_convergence_sign_check
+- finding_cluster_adversarial_catches_framing
+- finding_asymmetric_records_need_reconciliation
+- finding_adversarial_verify_own_convergence
+- feedback_break_multifile_updates
+- feedback_behavior_language_over_hash_pinning
+- finding_cross_surface_validation_pattern
+- feedback_doc_routing_data_drops
+- finding_seeded_selfsweep_secondary_surface_rot
+- feedback_audit_packet_before_approval
+- finding_outside_this_rail_disclosure
+- feedback_refuse_rail_scope_creep
+- feedback_evidence_standalone
+- finding_board_lags_agents_not_vice_versa
+- feedback_check_domain_owner_before_messaging
+- feedback_check_recipient_before_sharing
+- finding_coordinator_packet_position_row_staleness
+- feedback_cross_agent_inbox_writes
+- feedback_route_to_domain_agent
+- finding_cross_flag_routing
+- finding_concentration_disclosure_blind_to_backlog — keys on RECOGNIZED revenue; read RPO/backlog
+- finding_just_read_artifact_frame_contamination
+- feedback_single_source_liveevent_is_a_lead
