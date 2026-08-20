@@ -48,7 +48,7 @@
 ## GAPS (WALTER-facing)
 - **Most of tonight's dispatches landed on desks that are not currently live.** BOND took four action items and committed twice all day. Delivery confirmed; consumption not.
 - **`MEMORY.md` 136 lines vs its own 100-line cap** — longest-standing declared residual, enforced by discipline only.
-- **Root `CLAUDE.md`'s potash guard is now stale** (its condition is satisfied) — **flagged to PROME, not editable here.**
+- ✅ ~~**Root `CLAUDE.md`'s potash guard is now stale**~~ — **DISCHARGED 2026-08-19 20:40 by PROME (`897d32500`, Will-approved in-session), and VERIFIED BY WALTER AT THE FILE 2026-08-20: the stale conditional is gone (0 hits for *"until FERT's charter edit lands"* / *"DAEDALUS-owed"*), and the live text cites `beb3a36cb` as the encoded-at-owner state.** 🔴 **BUT READ WHY THIS ROW IS EMBARRASSING RATHER THAN JUST CLOSED: the fix landed the NIGHT BEFORE my boot, so the corrected text was in the copy of root `CLAUDE.md` AUTO-LOADED INTO MY CONTEXT — and I reported the guard as still stale to Will TWICE anyway.** **I carried this row forward as a STRING and never evaluated it against a file I was already holding.** `[[finding_dated_carry_item_has_no_expiry_check]]` — *a carried assertion is a string; reading it never evaluates it* — **and root `CLAUDE.md` is the single file I am most guaranteed to have, which makes it the worst one to be wrong about.** **Caught by PROME, not by me.**
 - **No WALTER fire-ledger for `CREED-T`** — deliberately not built; asked CREED first, still unanswered.
 - **`-031`'s chart has no provenance and no date stamp**, and I did not pull MOVE, the obvious cross-check. Graded 0.60 and said so.
 - **The 20Y auction TAIL is uncomputable by anyone in this fleet** — TreasuryDirect publishes no when-issued and my lane carries no WI print.
@@ -62,7 +62,7 @@
 
 ## FOLLOW-UP
 1. **`CREED-T-02` ruling** — chase if CREED is still dark in 2-3 days.
-2. **Root `CLAUDE.md` potash guard** — confirm PROME landed the correction.
+2. ✅ ~~**Root `CLAUDE.md` potash guard**~~ — **CLOSED 2026-08-20, verified at the file.** PROME landed it `897d32500` on 8/19. **Replaced by a protocol item, because the defect was not the potash guard: boot step 3 READ this carry and did not EVALUATE it.** See the new boot-step-3 evaluation clause in `CLAUDE.md`.
 3. **RED's `^SKEW` basis** — must now disambiguate two instruments.
 4. **`WAL`** — grade on **closes only**. It is the closest live trigger on the board.
 5. **`MEMORY.md`** over cap — hunt entries whose fix has SHIPPED.
