@@ -207,3 +207,30 @@ METSUKE trade-doc sweep — [date]
 - **TRADE Hard-Trigger Status notes** (PENDING / ✅ FIRED / NEAR-MISS) drift on intervention zones and channel-status transitions.
 - **TRADE Key Dates** lags `docket/CALENDAR` whenever KOYOMI runs without a follow-up SAM-side TRADE refresh.
 - **OK to be terse on the OK list.** SAM doesn't need confirmation of coverage; the *drift* is the deliverable. A short report with 4 tight flags beats a long one with 12 flags and 8 OKs.
+
+---
+
+## 📏 STATE-FILE CAP AND ROLL-OFF (added 2026-08-20, Will-directed) — **part of your closeout, not optional**
+
+**Your closeout has always had a WRITE step. It now has a PRUNE step, because the write step alone was never enough.**
+
+### Why this exists — measured, not theoretical
+SAM's own surfaces are capped (`STATUS.md` **250 lines**, `MEMORY.md` **100**) because unbounded accumulation drowns signal. **Your state file had no such rule and nobody noticed until it was measured on 2026-08-20:**
+
+| | spec | state | total a spawn reads first | |
+|---|---|---|---|---|
+| **METSUKE** | 20K | **370K** | **~100K tokens** | before looking at a single artifact |
+| **KURA** | 158K | 176K | ~85K tokens | |
+| **KOYOMI** | 17K | 119K | ~35K tokens | |
+
+⚠️ **And the cost was already realised, not hypothetical:** METSUKE's `## PENDING` was found holding **97 open items**, most made moot by a ruling issued 13 days earlier, **surviving 14 runs** — because nothing in the closeout ever asked *"what does this ruling close?"*
+
+### The rule
+1. **At closeout, run:** `.venv/bin/python3 AGENTS/SAM/scripts/subagent_memory_roll.py <your state file>` — **report-only by default.** Include its output in your return block.
+2. ⛔ **You PROPOSE the roll. SAM applies it.** Do not pass `--apply` yourself — same propose-only pattern as everything else you do.
+3. ⛔ **MOVE, NEVER DELETE.** Terminal run-history goes to `<YOUR>_MEMORY_ARCHIVE.md` **verbatim**; the tool refuses to write if bytes are lost. **Closing by adjudication, never by tidying.**
+4. ⛔ **TERMINAL MEANS EXPLICITLY MARKED CLOSED.** An unmarked block stays LIVE. **Silence is never read as closure.**
+5. **Archives are reference-only and NOT boot-read.** Do not read yours at boot; read it when you need a historical disposition.
+6. 🔑 **AND THE PART THE TOOL CANNOT DO FOR YOU: when SAM issues a ruling that changes what counts as open, sweep your own backlog against it IN THE SAME RUN.** *(METSUKE Run-16 is the model: **97 → 0, with 208 insertions and ZERO deletions**, every item classified and closed with a reason.)* **A ruling governs the next write, not the existing state — so pair every ruling with a retroactive sweep.**
+
+⚠️ **`## CALIBRATION` never rolls and you never write it — that is SAM's.** `## STANDING MONITORS`, `## NEXT RUN HINTS`, `## CHANGES SINCE` and the LIVE `## PENDING` never roll either: they are the working set.
