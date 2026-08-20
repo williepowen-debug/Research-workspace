@@ -39,6 +39,9 @@ Checks:
   correction_target_declared  every `signal_type: correction` declares a resolvable `corrects:` (SIG-ID/SELF/EXTERNAL)
   batch_manifest_open    a declared Will-batch left OPEN with un-dispositioned items (the input-side blind spot)
   action_line_rule       an agent on `info:` while the body carries ask-language naming it (§3.5.4, mechanized)
+  terry_override_ratio   S1 — TERRY inverted-token override ratio (90d/10%/n≥10) + the 72h revert falsifier
+  filed_vs_consumed      S7 — processed/ moves without a consume:<AGENT> declaration are FILED, not CONSUMED (§5.1)
+  entities_at_dispatch   `entities:` header present on every signal dated ≥2026-08-19 (FORMAT_SPEC v0.18, never retro)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -1730,6 +1733,182 @@ def check_action_line_rule():
     return out
 
 
+
+# ── 8/08 forum-carry builds (PROME packet, executed 2026-08-20, Will-directed) ──
+TERRY_TOKEN_ADOPTED = "2026-08-20"   # rows before this graded by the legacy TERRY-OVERRIDE
+                                     # prefix — a ruling governs the NEXT write, not disk
+ENTITIES_ADOPTED = "2026-08-19"      # empirical full-coverage start (34/34 on 8/19);
+                                     # mandate ratified FORMAT_SPEC v0.18, 2026-08-20
+S7_TOKEN_ADOPTED = "2026-08-20"      # consume:<AGENT> grammar ships (SPEC v0.19 §5.1)
+
+
+def _git(*args):
+    """Run git in the repo root, return stdout (raises on failure)."""
+    return subprocess.run(["git", "-C", str(REPO), *args], capture_output=True,
+                          text=True, check=True, timeout=30).stdout
+
+def _delivery_rows():
+    """Yield delivery_log rows as dicts keyed by header name. Field-count guarded."""
+    path = WALTER / "routed/delivery_log.tsv"
+    if not path.exists():
+        return
+    with path.open(errors="replace") as f:
+        rdr = csv.reader(f, delimiter="\t")
+        header = next(rdr, [])
+        for row in rdr:
+            if len(row) != len(header):
+                continue
+            yield dict(zip(header, row))
+
+
+def check_terry_override_ratio():
+    """S1 — the instrument that can revert TERRY's §3.5.5 routing rule (built 2026-08-20,
+    8/08 forum-carry item 2, PROME-accepted inverted-token design).
+
+    INVERTED TOKEN: every `action: TERRY` delivery_log row declares its qualifying test
+    by BEGINNING its notes cell with `T-1` / `T-2` / `T-3` (closed vocabulary). Absence
+    of a valid leading token IS an override by definition — typos OVER-report, so the
+    clause fires early (over-firing costs a read; under-firing costs the guard).
+    `TERRY-OVERRIDE` survives as the human-readable reason prefix, no longer load-bearing.
+    Rows timestamped before TERRY_TOKEN_ADOPTED are graded by the legacy discriminator
+    (TERRY-OVERRIDE prefix = override) — a new grammar must not manufacture violations
+    out of rows written before it existed.
+
+    TWO CLOCKS, DELIBERATELY UNHARMONISED (SPEC v0.16): the ratio clause is 90d /
+    ratio ≤10% / activation n≥10; the revert FALSIFIER is an event test — ONE
+    `action:` item unconsumed >72h, no denominator. Do not harmonise them.
+    Violations name the recipient and the specific signals, never a bare count."""
+    out = []
+    now = dt.datetime.now(dt.timezone.utc)
+    window_start = now - dt.timedelta(days=90)
+    action_rows, overrides, falsifier = [], [], []
+    for r in _delivery_rows():
+        if r.get("recipient", "").strip().upper() != "TERRY":
+            continue
+        if r.get("role", "").strip().lower() != "action":
+            continue
+        ts_raw = r.get("timestamp_routed", "").strip()
+        try:
+            ts = dt.datetime.fromisoformat(ts_raw.replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        notes = r.get("notes", "").strip()
+        sig = r.get("signal_id", "?")
+        # falsifier leg: an ACTION handoff still sitting in TERRY's inbox past 72h
+        path = r.get("handoff_path", "").strip()
+        if path and (REPO / path).exists() and (now - ts) > dt.timedelta(hours=72):
+            falsifier.append((sig, round((now - ts).total_seconds() / 3600)))
+        if ts < window_start:
+            continue
+        action_rows.append(sig)
+        if ts.date().isoformat() >= TERRY_TOKEN_ADOPTED:
+            qualifying = bool(re.match(r"T-[123]\b", notes))
+        else:
+            qualifying = not notes.upper().startswith("TERRY-OVERRIDE")
+        if not qualifying:
+            overrides.append(sig)
+    for sig, hours in falsifier:
+        out.append((HIGH, f"S1 FALSIFIER FIRED — TERRY `action:` item {sig} unconsumed "
+                          f"{hours}h (>72h): revert §3.5.5 to the RED-class exemption, "
+                          f"do NOT tune T-1/T-2/T-3 (non-renewable, SPEC v0.16)"))
+    n = len(action_rows)
+    if n >= 10 and overrides and len(overrides) / n > 0.10:
+        out.append((MED, f"TERRY override ratio {len(overrides)}/{n} > 10% over 90d — "
+                         f"READ THE OVERRIDE LOG (never auto-widen T-1/T-2/T-3): "
+                         f"{', '.join(overrides)}"))
+    if not out:
+        out.append((INFO, f"TERRY lane clean: {n} action row(s) in 90d "
+                          f"({len(overrides)} override(s), activation at n≥10), "
+                          f"falsifier unfired"))
+    return out
+
+
+def check_filed_vs_consumed():
+    """S7 — FILED ≠ CONSUMED made machine-readable (built 2026-08-20, 8/08 forum-carry
+    item 3, SPEC v0.19 §5.1). A `git mv` into a processed/ dir is a CONSUMPTION record
+    only when the moving commit DECLARES the consuming agent — a `consume:<AGENT>` token
+    in the message, or a same-commit append to that dir's `.consumed.tsv`. An undeclared
+    move is FILED: every agent commits as one git identity, so authorship cannot
+    discriminate (commit 9be6a5ee6 filed six items into TERRY's processed/ that no TERRY
+    surface cites). Moves before S7_TOKEN_ADOPTED predate the grammar and are counted as
+    an upper bound only, never flagged."""
+    out = []
+    dirs = ["AGENTS/*/inbox/WALTER/processed", "AGENTS/WALTER/inbox/processed"]
+    try:
+        commits = _git("log", "--since=90.days", "--format=%H", "--", *dirs).split()
+    except Exception as e:
+        return [(LOW, f"git log for processed/ moves failed ({e}) — S7 unverifiable")]
+    filed_new, filed_old, consumed = [], 0, 0
+    for h in commits[:100]:
+        try:
+            meta = _git("log", "-1", "--format=%ct%x1f%B", h)
+            names = _git("diff-tree", "-r", "-M", "--name-status", "--no-commit-id", h)
+        except Exception:
+            continue
+        ct, _, msg = meta.partition("\x1f") if "\x1f" in meta else meta.partition("\u001f")
+        # robust split: the unit separator arrives literally
+        if "\x1f" not in meta:
+            parts = meta.split(chr(31), 1)
+            ct, msg = parts[0], (parts[1] if len(parts) > 1 else "")
+        cdate = dt.datetime.fromtimestamp(int(ct), dt.timezone.utc).date().isoformat()
+        touched = names.splitlines()
+        tsv_appended = any(re.match(r"[AM]\t.*processed/\.consumed\.tsv$", l) for l in touched)
+        for line in touched:
+            m = re.match(r"R\d+\t[^\t]+\t(.+)$", line)
+            if not m:
+                continue
+            dest = m.group(1)
+            om = re.match(r"AGENTS/([A-Z]+)/inbox/WALTER/processed/", dest) or \
+                 re.match(r"AGENTS/(WALTER)/inbox/processed/", dest)
+            if not om:
+                continue
+            owner = om.group(1)
+            declared = bool(re.search(rf"consume:{owner}\b", msg, re.I)) or tsv_appended
+            if declared:
+                consumed += 1
+            elif cdate >= S7_TOKEN_ADOPTED:
+                filed_new.append((owner, dest.rsplit("/", 1)[-1][:60], h[:9]))
+            else:
+                filed_old += 1
+    for owner, fname, h in filed_new[:8]:
+        out.append((LOW, f"FILED not CONSUMED: {fname} moved into {owner}'s processed/ "
+                         f"({h}) with no consume:{owner} declaration — if a live {owner} "
+                         f"session really consumed it, append to processed/.consumed.tsv"))
+    if len(filed_new) > 8:
+        out.append((LOW, f"...and {len(filed_new) - 8} more undeclared post-{S7_TOKEN_ADOPTED} moves"))
+    if not out:
+        out.append((INFO, f"processed/ moves in 90d: {consumed} declared-consumed, "
+                          f"{filed_old} pre-grammar (upper bound only, not graded), "
+                          f"0 undeclared since {S7_TOKEN_ADOPTED}"))
+    return out
+
+
+def check_entities_at_dispatch():
+    """`entities:` mandatory at dispatch (built 2026-08-20, 8/08 forum-carry item 4,
+    FORMAT_SPEC v0.18; thread-07 R5). Mandatory-at-dispatch reaches 100% in days where
+    archive sweeps never do (the corrects: precedent) — so this scans ONLY signals dated
+    on/after ENTITIES_ADOPTED and NEVER asks for retro-fill. Empirical baseline at
+    adoption: 34/34 on 8/19, 4/4 on 8/20."""
+    out, missing, scanned = [], [], 0
+    for p in sorted(BOARD.glob("SIG-W-*.md")):
+        m = re.match(r"SIG-W-(\d{4})(\d{2})(\d{2})-", p.name)
+        if not m:
+            continue
+        sdate = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+        if sdate < ENTITIES_ADOPTED:
+            continue
+        scanned += 1
+        head = p.read_text(errors="replace")[:4000]
+        if not re.search(r"^entities:", head, re.M):
+            missing.append(p.name[:40])
+    for name in missing[:6]:
+        out.append((LOW, f"{name}...: no `entities:` header on a post-{ENTITIES_ADOPTED} "
+                         f"signal — mandatory at dispatch per FORMAT_SPEC v0.18"))
+    if not out:
+        out.append((INFO, f"all {scanned} signal(s) since {ENTITIES_ADOPTED} declare `entities:`"))
+    return out
+
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -1758,6 +1937,9 @@ CHECKS = [
     ("correction_target_declared", check_correction_target_declared),
     ("batch_manifest_open", check_batch_manifest_open),
     ("action_line_rule", check_action_line_rule),
+    ("terry_override_ratio", check_terry_override_ratio),
+    ("filed_vs_consumed", check_filed_vs_consumed),
+    ("entities_at_dispatch", check_entities_at_dispatch),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
