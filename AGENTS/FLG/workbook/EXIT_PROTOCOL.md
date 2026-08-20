@@ -53,7 +53,7 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 |---|---|
 | **Fires from state** | STANCE-BEARISH-ON-CREDIT |
 | **Instrument** | 🔴 **PRIMARY: `charge-offs / provision` from Schedule RI-B Part II (RIAD lines, YTD).** Secondary: ACL in dollars; nonaccrual / total loans; ACL / nonaccrual. ⚠️ **The coverage RATIO alone cannot grade this leg** — see the discriminator note below |
-| **Kill condition** | `CO / provision` **below 1.0× for 2 consecutive filed quarters** (the reserve is being replenished faster than it is consumed — the regime reverses) **OR** ACL/nonaccrual coverage above 100% for 2 consecutive filed quarters. ⚠️ **Nonaccrual-rate legs are SUSPENDED from this gate** until THESIS Q2c splits cure from charge-off — a rate falling by charge-off would fire this kill on its own losses |
+| **Kill condition** | ⛔ **UNSET — DELIBERATELY, WITH A REASON. Do not fill this cell with a number until the requirement below is met.** The previous condition (`CO/prov < 1.0× ×2 quarters`) was **withdrawn 2026-08-20 after base-rating**, and no replacement survived testing. Nonaccrual-rate legs remain SUSPENDED pending THESIS Q2c |
 | **What HEALTHY looks like** | Both ratios present and moving quarter to quarter. **Coverage pinned at an identical value across quarters is a parse failure, not stability** — check the underlying cells |
 | **If it fires** | Channel-kill on credit quality — **and since K-2 died 2026-08-20 and channel 1 is de-risking, this is now the LAST live leg: if K-3 fires the thesis has no channel left.** Treat a K-3 fire as a thesis-kill, not a channel-kill |
 | **Migration path** | Thesis migrates onto the concentration + rent-regulation mechanism alone — **which is weaker, and say so at the time** |
@@ -64,7 +64,33 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 
 **Why the ratio alone fails:** coverage can move on the numerator (reserve build/burn) or the denominator (book resolving), and ACL-in-dollars still cannot separate *consumed-by-loss* from *released-into-income*. **Only provision vs charge-offs does.** A rail on the ratio cannot tell the three cases apart; a rail on CO/provision can.
 
-⛔ **NOT A THRESHOLD YET — DO NOT REGISTER 14.6× OR 1.9-YEARS.** No peer base rate exists, so 14.6× is a number, not a signal; a bank finishing a credit cycle can legitimately run high. `RIAD` is YTD and the ×2 is REGINALD's annualisation, not a company figure; 6 of 11 quarters do not tie by the identity (both 2026 quarters do). **Base-rate against the cohort first — see THESIS Q2d.**
+✅ **BASE-RATED 2026-08-20 — 168 bank-quarters, 14 banks × 12 quarters, all at the primary** (`AGENTS/REGINALD/workbook/ACL_ROLLFORWARD_COHORT.tsv`, `84bd8b485`; every figure below re-derived first-hand at FLG and reproduces). **14.6× IS remarkable and the line STANDS, now with a denominator:** cohort median CO/prov **1.00×** (banks provision almost exactly what they charge off), p75 1.31 · p90 1.63 · p95 2.00. **The entire ≥10× tail across 168 bank-quarters is FLG's own two 2026 quarters — 74.7× [Q1] and 14.6× [Q2]. No other bank reaches 10× in three years.** True releases (provision ≤ 0) are 2/168 = 1.2%, ZION only — FLG never released.
+
+🔴 **BUT THE SAME BASE RATE KILLED THIS LEG'S KILL CONDITION, AND THAT IS THE MORE IMPORTANT RESULT.**
+
+`CO/prov < 1.0× ×2 quarters` sits **exactly on the cohort median**: single quarter **50.0%**, two consecutive **42.8% of all adjacent pairs cohort-wide** (re-derived: 65/152). ⇒ **a falsifier firing on ~43% of ordinary bank behaviour kills the thesis on normal provisioning, not on repair.** The receipt is FLG's own history: it satisfied that condition in **six consecutive quarters (2023Q3→2024Q4, 0.15× → 0.79×)** — continuously true for eighteen months *before the pattern the thesis is about had begun*.
+
+**Raising the level makes it worse, not better** (≤1.31× → 64.5%, ≤2.00× → 93.4%), so the FORM is wrong, not the level. **Four further candidate forms were base-rated at FLG before proposing any of them, and all four died:**
+
+| Candidate form | Cohort base rate | Verdict |
+|---|---:|---|
+| `CO/prov < 1.0×` ×2 consecutive *(the withdrawn one)* | **42.8%** | ❌ |
+| `ACL$ rises QoQ` ×2 consecutive | **46.4%** | ❌ |
+| `ACL$ above its level 4 quarters ago` (YoY build) | **58.0%** | ❌ |
+| `ACL$ ≥5% above its level 4 quarters ago` | **42.9%** | ❌ |
+| `CO/prov < 1.0×` sustained 5 quarters | **27.3%** | ❌ still common, **and 15 months of latency** |
+
+⇒ **STRUCTURAL FINDING: no threshold on CO/provision — and no short-window "reserves improved" condition on any of these measures — is a usable falsifier for this thesis.** *"CO/prov returns to normal"* is not evidence of repair; it is evidence of **not currently being extreme**, which is every bank's default state. The measure is excellent as a **state descriptor** (it found the 99th percentile) and bad as a **kill**.
+
+**REQUIREMENT a replacement must meet before it goes in the cell above** — all four, and base-rated by a second reader (REGINALD has the dataset and has offered the run):
+1. **Cohort base rate materially below ~10%** — it must discriminate, not describe the population's default.
+2. **Not satisfied by FLG's current trailing window** (no threshold already breached at write time).
+3. **Low spurious-fire count in FLG's own history** — the six-quarter receipt is the test to beat.
+4. **Latency ≤ 2–3 filed quarters** — a kill that takes 15 months to fire cannot protect a position.
+
+**Design direction (not a proposal — FLG's call at its first live session):** the thesis is about a **STOCK depleting with finite runway**, so a **FLOW ratio returning to its own median cannot be the evidence the stock recovered.** The likely instrument is the runway itself (ACL ÷ annualised charge-offs) or coverage against nonaccrual — **both blocked today**, the first because `RIAD` is YTD and needs a validated per-quarter charge-off series, the second because Q2c has not split cure from charge-off.
+
+⚠️ **An UNSET cell with a stated reason is the honest state and is better than a number.** A falsifier that fires on 43% of normal behaviour does not protect a thesis — it retires one at random.
 
 *Seed reads: nonaccrual 4.88% vs cohort median ~0.89% (implied by REGINALD's "5.5× the median"); coverage 29%. MIRROR-grade — re-verify at first live session.*
 
@@ -93,8 +119,10 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 
 | Direction | The single read | Threshold |
 |---|---|---|
-| **Confirms the stance** | Coverage keeps falling — **regardless of the nonaccrual direction** | coverage **< 29%** at the filing |
-| **Falsifies the stance** | **Provisioning restarts** — the regime reverses | `CO / provision` **< 1.0×** at the filing, **or** coverage **> 50%** |
+| **Confirms the stance** | Coverage keeps falling — **regardless of the nonaccrual direction** | coverage **< 29%** at the filing *(deliberately SINGLE-CLAUSE — see the free-clause note)* |
+| **Falsifies the stance** | ⛔ **UNSET pending the K-3 requirement** — the `CO/prov < 1.0×` form was withdrawn after base-rating (42.8% of ordinary bank behaviour) | — |
+
+⚠️ **FREE-CLAUSE FINDING, 2026-08-20 — the mirror of the unsatisfiable-AND fixed earlier the same evening, on this same rail.** REGINALD base-rated a candidate CONFIRM conjunction *jointly*: `ACL fell QoQ AND CO/prov ≥ X`. **At every cut the joint rate EQUALS the ratio leg exactly** (≥2.0×: both 6.5%; ≥5.0×: both 3.2%) — every bank-quarter above 2.0× also had a falling ACL, so **the "ACL fell" clause never excludes anything.** That is a **single-clause gate wearing a compound disguise**: it reads as more rigorous and is not. **PAT-072 is a gate that can never FIRE; this is a leg that can never BIND** — same family, same fix, and exactly why the check must be JOINT rather than two marginal base rates.
 
 ⚠️ **CORRECTED 2026-08-20 evening — the original confirm-leg was a compound gate that could not fire on the actual signal.** It read *"coverage < 29% **AND** nonaccrual > 4.88%"*, requiring nonaccruals to RISE. REGINALD's §3b then measured nonaccruals **past peak and falling** — so the observed pattern (reserve drawn down while the problem book slowly resolves) would have satisfied the coverage leg and **failed the gate**, exactly PAT-072: legs that are individually reasonable and jointly unsatisfiable in the only state that matters. **The `AND` was doing no work except suppressing the fire.** Both legs are now single-clause and the ACL-dollars discriminator carries the nuance the conjunction was pretending to.
 

@@ -86,12 +86,21 @@ REGINALD told this desk nonaccruals were past peak and improving (5.49% → 4.88
 - **Resolves by:** decomposing the nonaccrual delta into cures / paydowns / charge-offs / transfers-to-OREO, quarter by quarter. Not in any FLG ledger.
 - **Why primary:** it decides whether stage 4 reads ⬇️ improving or 🔴 still-forming — **and it is currently recorded as improving on a figure that may be measuring its own charge-offs.**
 
-### Q2d — Is 14.6× actually unusual? 🟠 **THE ONE THING THAT TURNS A NUMBER INTO A FINDING**
+### Q2d — Is 14.6× actually unusual? ✅ **ANSWERED 2026-08-20 — YES, 99th percentile. The line stands.**
 
-There is **no peer base rate** for CO/provision. Without one, 14.6× is a number, not a signal — a bank finishing a credit cycle can run high ratios legitimately.
+**168 bank-quarters** (14 banks × 12 contiguous quarters, all at the primary — `AGENTS/REGINALD/workbook/ACL_ROLLFORWARD_COHORT.tsv`, `84bd8b485`; re-derived first-hand here and it reproduces exactly).
 
-- **Resolves by:** the cohort base rate on CO/provision across the 14 banks in REGINALD's matrix, same schedule, same years. **REGINALD holds the instrument and has offered it if FLG asks.**
-- **Discipline:** base-rate BEFORE building anything on it (`finding_base_rate_the_threshold_before_building_it` — "don't build it" is a real answer). ⛔ **Nothing about provisioning registers as a gate until Q2d is answered.**
+| | value |
+|---|---|
+| Cohort **median** CO/prov | **1.00×** — banks provision almost exactly what they charge off |
+| p75 / p90 / p95 | 1.31 / 1.63 / **2.00** |
+| **FLG 2026Q2 at 14.6×** | **99th percentile** |
+| **Entire ≥10× tail, 168 bank-quarters** | 🔴 **FLG's own two 2026 quarters — 74.7× [Q1], 14.6× [Q2]. No other bank reaches 10× in three years** |
+| True releases (provision ≤ 0) | 2/168 = 1.2%, **ZION only** — FLG never released |
+
+**The line stands, with a denominator instead of a vibe.** ⚠️ Caveats bind: `RIAD` is YTD (annualisations are REGINALD's, not company figures); **24.4% of cohort quarters do not tie**, so FLG's 6-of-11 non-tying is **not anomalous per se** — but **FLG ties 6/12 = 50%, which IS an outlier** (only WAL 3/12 and CUBI 5/12 are worse); and **14 named filers is not the industry.**
+
+🔴 **The same base rate then killed this desk's kill condition — see `EXIT_PROTOCOL.md` K-3.** `CO/prov < 1.0× ×2 quarters` fires on **42.8%** of ordinary bank behaviour, and FLG itself satisfied it for **six consecutive quarters before the pattern the thesis is about had begun.** Four replacement forms were base-rated here before any was proposed and **all four died** (42.8% / 46.4% / 58.0% / 42.9%; even a 5-quarter sustained form is 27.3% and costs 15 months of latency). **The cell is now UNSET with a stated requirement** — an honest gap beats a falsifier that retires theses at random.
 
 ### Q3 — Does the rent-regulation mechanism actually transmit? 🟠
 
