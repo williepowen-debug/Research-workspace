@@ -45,6 +45,12 @@
 6. **`ANALYSIS_` regeneration still owed** — newest is `ANALYSIS_2026-07-23`; STRIKES is at 71 rows through 8/20. Carried since 8/15. Genuinely overdue.
 7. **DAEDALUS hygiene actions 3-8 owed** (KB two-clock header · 22 past-`Stale_By` ACTIVE rows · line-anchor rot at `CLAUDE.md:143` · §5 slow-aggregate re-verify ~60-90d overdue · outbox `delivered/` tail, now 12 packets · **name the THESIS v0.2 date — PROME is expecting it**).
 
+## NEW INSTRUMENT CANDIDATE — Transneft trunk deliveries (NOT registered; cadence gate FIRST)
+Offered to HAWK 8/20 as the Black Sea analogue to FALCON's **Petroline throughput** falsifier — the pipeline *behind* Sheskharis rather than the berths in front of it. If you can see what is ARRIVING, you do not need tank levels, which is the dead end `KB-HAWK-272` ran into. **Run this as a strict two-step and do NOT skip to step 2:**
+1. **CADENCE GATE (deciding test, run first).** What is the publication cadence of Transneft trunk deliveries into the Novorossiysk system? **If it is monthly, the instrument CANNOT resolve the weekly question this desk asks and is DISQUALIFIED on that alone** — stop there, spend nothing on disclosure quality, and tell HAWK. `finding_instrument_cadence_cannot_resolve_the_claims_window`. *(HAWK's framing, adopted: I had filed cadence as a caveat when it is the deciding test.)*
+2. **Only if cadence passes:** assess disclosure quality/politicisation vs Aramco's, and whether it is inferable only from Russian pipeline-transit statistics.
+⚠️ **Status: NAMED CANDIDATE, NOT A REGISTERED INSTRUMENT.** Observability is UNVERIFIED and I have claimed nothing about it. Recorded as a candidate on both OSPREY's and HAWK's surfaces. Do not cite it in any grade until step 1 is answered in writing.
+
 ## OPEN THREADS / WATCHES
 - 🔴 **Is the export decline persistent or another reversible episode?** Fast-reversible supply loss prices differently from attrition — BRENT has the distinction.
 - 🔴 **Two ruling conflicts live with PROME/Will** — 3b's operative-test-vs-rationale split (carries a re-open trigger on OSP-05) and the band re-centre approved-vs-deferred.
