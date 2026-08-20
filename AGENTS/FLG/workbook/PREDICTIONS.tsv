@@ -1,0 +1,6 @@
+# LIVE — Last real data refresh: 2026-08-20 (cut EMPTY at build) | Staleness sweep: 2026-08-20 | Next: first rows at first live session, AFTER base-rating
+# Status enum (STATE_VOCABULARY Class 3): OPEN | HIT | MISS | VOID | STUCK — nuance in parentheticals, narrative in Outcome/Notes.
+# Resolve_By = hard YYYY-MM-DD; boot.py flags OPEN rows past it. ⚠️ PAT-115: do NOT anchor Resolve_By to a bare expected event (a filing date slips, and the row then LOOKS dated while it is not). Use a hard calendar date, or carry the slip rule on the row.
+# Confidence tiers (blueprint §5): EMPIRICAL / PROVISIONAL / ASSUMPTION — never load-bear on n=1. If_Falsified_Action is REQUIRED: a prediction without a position/stance consequence is an opinion.
+# EMPTY BY DESIGN at build 2026-08-20 — a seeded prediction would be DAEDALUS's forecast, not FLG's. First rows are written at first live session after the thresholds are base-rated.
+ID	Date	Prediction	Confidence	Timeframe	Resolve_By	Status	Date_Resolved	Outcome	If_Falsified_Action	Notes
