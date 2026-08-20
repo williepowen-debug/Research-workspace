@@ -154,8 +154,9 @@ print(f"  actual: VX={actual['vx']} · KB={actual['kb']} · PRED={actual['pred']
       f"(open={open_n if predb else '?'}) · workbook files={actual['wbfiles']}")
 if not findings:
     print("\n  ✓ CLEAN — no fire-state or count inconsistencies.")
-    print("  Scope: file-level fire markers on 6 surfaces + known count phrasings + open staleness")
-    print("  phrasing for a count is NOT covered; add it to ASSERTIONS when you introduce one.")
+    print("  Scope: file-level fire markers on 6 surfaces · known count phrasings · open")
+    print("  staleness banners. A NEW prose phrasing for a count is NOT covered — add it to")
+    print("  ASSERTIONS in the same edit that introduces it.")
     sys.exit(0)
 for sev, check, msg in findings:
     icon = "\U0001f534" if sev == "RED" else ("\U0001f7e0" if sev == "AMBER" else "\u2139\ufe0f")

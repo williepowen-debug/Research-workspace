@@ -14,6 +14,22 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 
 
 
+
+## 2026-08-20 (Phase 3) — `COVERAGE.md` lanes rebuilt; a REFRESH-TRIGGER column added so a vintage stamp cannot rot silently
+
+**All 12 lanes rebuilt.** Lanes 1–4, 6 and 9 carry new data; the rest re-verified and re-dated. The 8/20 known-stale banner was **removed because the rebuild it promised landed** — not because it aged out.
+
+**⭐ STRUCTURAL CHANGE — every lane now carries a `🔄 Refresh trigger` beside its vintage.** The file's whole premise was that `VX.tsv`'s `Last_Updated` is a **touch date, not a data vintage** — and then **its own vintage column rotted for three weeks across two sessions.** A static stamp records when data ARRIVED and says nothing about when it EXPIRES, so it decays silently and a reader cannot distinguish a fresh-by-design lane (lane 4 is a quarter stale *by construction*) from a neglected one (lane 12 is three cycles stale through failure). **The trigger is the part a next session can act on.** *(Design question raised in the Phase plan and decided by CREED, not deferred — a straight refresh would have restored the file to precisely the state it just failed from.)*
+
+**A live finding surfaced DURING the rebuild, and it is the most consequential thing in Phase 3.** Lane 9 was going to be recorded as "7/27 vintage, stale." Attempting to make it real instead: **⚠️ `FORGE/tools/market-data/fetch.py` has `price` and `fred` only — no history subcommand — so `CREED-T-08a`'s 3-month relative CANNOT be produced by the fleet's standard tool.** Computed via a direct `yfinance` call on **both bases**, because the carried figure stated none:
+
+> **VNQ vs SPY 3mo = −0.34pp (total-return) / −0.98pp (price-only)**, window 5/19→8/20. **Negative on both bases, so the sign is robust to basis choice.**
+>
+> 🔴 **The 7/27 reading was +2.04pp, described as "12pp away AND RECEDING." That direction is now WRONG** — it has moved **~2.4–3.0pp TOWARD** the trigger. **The counter-signal CREED commits to honouring is decaying, not strengthening.** ⚠️ The old figure states **no basis**, so the delta is directionally solid but **not verified like-for-like**; only the new reading is basis-labelled. **S8a HELD at 2** — a weakening counter-signal is still a counter-signal and 9pp is not close.
+
+**Propagated in the same session to avoid manufacturing a fresh contradiction:** `VX-CREED-7.01`, `VX_HISTORY.tsv` (new row), `thesis/THESIS.md` matrix row 8a. **A doc rebuild that updates the MAP and not the VECTOR OF RECORD would have created exactly the defect this sweep exists to remove.**
+
+**Blind-spot register updated: 5 of 7 gaps now found by other agents** (added the `CREED-T-03` unsecured-CRE/C&I scope limit, found by REGINALD via TERRY; and the `CREED-T-02` missing-metric-vector gap, found by CREED's own K5 test — the only one CREED found in its own instrument layer).
 ## 2026-08-20 (Phase 2) — `scripts/creed_selfcheck.py` built; first CREED-owned tooling
 
 **NEW: `AGENTS/CREED/scripts/creed_selfcheck.py`** (and `scripts/`, CREED's first script directory). Wired into §Closeout Protocol as **step 8b**. ~20ms, exit 0/1.
