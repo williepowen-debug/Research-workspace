@@ -57,3 +57,41 @@ Acceptable sources, in order:
 
 ---
 *TERRY proposes only. Nothing here moves money or a threshold.*
+
+---
+
+# OUTCOME — **TEST NOT RUN.** Recorded 2026-08-20 ~10:5x ET, same session.
+
+**Per the PROVENANCE clause above, which named this exact situation in advance: no acceptable source for the ranking variable exists on this fleet, so the correct action is to NOT run the test and hand the specification to REGINALD.**
+
+⛔ **NO correlation was computed. NO proxy was substituted. The thresholds above were never applied to anything.**
+
+## Why the ranking variable is unusable
+
+The only fleet file carrying per-bank CRE-concentration numbers is **`AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md`**, and **its own banners disqualify it** — I am citing the owner's warnings, not overruling the owner:
+
+1. **STALE-VINTAGE 2026-02-23** (~6 months), self-bannered ***"Do NOT cite the scores/prices below as current."***
+2. **Internally contradictory:** EGBN CRE-concentration appears **twice at two different values — 497% and 547%** — flagged in the file's own 7/30 sweep banner.
+3. **Denominator ambiguous inside one table:** the section header cites **SR 07-1** (CRE ÷ **total risk-based capital**) while the column header reads **"CRE/Tier 1."** Different denominators, unreconciled. `[[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]`
+4. **Off by roughly 2× against primary:** EGBN's own Q2-2026 disclosure puts concentration at **267.6%** vs the 497%/547% in-file. The file's live guidance says cite the primary, **"NOT any number in this file."**
+5. **The full re-score is PARKED with PROME** — a flagged item with an owner, not yet done.
+
+## 🔑 And the defect that would block this test EVEN IF THE FILE WERE FRESH
+
+**REGINALD's own "Hidden CRE" finding: banks classify unsecured CRE as C&I, so headline CRE ratios systematically UNDERSTATE.** Worked example in that file — **Metropolitan Capital (failed 2026-01-30): labeled 10.7% CRE, actual 61%** once Schedule RC-C Memo Item 3 (RCON2746) is included; charge-offs $18.1M, **100% CRE losses.**
+
+⇒ **The measurement error is BANK-SPECIFIC and of UNKNOWN MAGNITUDE per name.** A rank correlation whose ranking variable carries unknown per-item bias is not a weak test — **it is not a test.** It would produce a number, and the number would mean nothing. `[[finding_measurement_bias_sign_is_fixed_harm_direction_is_not]]`
+
+## What I explicitly did NOT do
+
+- ❌ **Did not substitute REGINALD's convergence scores** (WAL 20 · OZK 13 · ZION ~8-9). Those are **composite scores across 8 channels, not CRE concentration.** Using them as a CRE proxy is precisely the substitution the provenance clause forbids — `[[finding_unnamed_instrument_makes_a_threshold_a_family]]`.
+- ❌ **Did not estimate CRE exposure from general knowledge of these banks.** Explicitly excluded in advance.
+- ❌ **Did not pull FFIEC/FDIC call-report data myself.** Feasible in principle, but it is REGINALD's domain, and **the Hidden-CRE bias above means even a correctly-computed primary ratio inherits the same unknown per-bank understatement.** A clean pull of a biased variable is still a biased variable.
+
+## The finding this produces — better than either verdict
+
+**H_info is neither killed nor supported. The fifth door cannot currently be closed BY ANYONE**, and the blocker is a specific, documented, already-parked instrument defect rather than missing data.
+
+⇒ **Routed as such:** REGINALD's parked CRE-matrix re-score is **no longer just a hygiene item — it is now blocking a live question about its own domain.** That is a reason to prioritise it, and REGINALD is the only agent who can both fix the instrument and run the test.
+
+**Disposition of `TRY-FIRE-001`: UNCHANGED.** The binding clause holds trivially — no verdict, no revival. Nothing in this outcome moves a gate, a threshold, or a dollar.
