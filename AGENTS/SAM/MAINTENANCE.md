@@ -8,6 +8,28 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-08-20 — **SUB-AGENT STATE FILES GET A CAP AND A ROLL-OFF** (Will-directed) · `boj_ois.py` source-impeachment at row/writer/console · 2 new scripts · 3 new archives · manual-only script register
+
+**WHY.** Will asked whether the sub-agents update their files and whether they need a closeout. **The WRITE step always worked** — all three wrote today (+451 lines). **The defect was that the closeout had a WRITE step and NO PRUNE step**, so `PENDING from Run N` blocks and per-run history accumulated forever. **SAM's own surfaces are capped (STATUS 250 lines, MEMORY 100); the sub-agents had no equivalent and nobody had noticed.**
+
+**MEASURED COST (this is why it was worth a session, not a backlog row):** METSUKE spec 20K + state **370K** = **~100K tokens read before any work**; KURA ~85K; KOYOMI ~35K. **A METSUKE spawn spent roughly a third of a context window reading its own history before looking at a single artifact.** ⚠️ **Already realised, not hypothetical:** METSUKE's PENDING held **97 items**, most moot by a ruling issued 13 days earlier, **surviving 14 runs** because nothing ever asked *"what does this ruling close?"*
+
+**BUILT `scripts/subagent_memory_roll.py`** rather than hand-pruning — *a rule without a mechanism is precisely what failed here.* Design rules, deliberate and not to be relaxed: **MOVE never delete** (byte-conservation verified, refuses to write on loss) · **TERMINAL = an EXPLICIT closure marker; unmarked stays LIVE because silence is never closure** · **archives reference-only, NOT boot-read** · **report-only by default — the sub-agent proposes, SAM applies.**
+
+🔴 **THE DRY RUN CAUGHT A BUG IN THE TOOL ITSELF:** *"keep the last N run blocks in FILE order"* proposed archiving **KURA's Run 12 — that day's run** — because KURA writes newest-first while METSUKE writes oldest-first. **Fixed to keep the highest RUN NUMBERS, order-independent.** *Found only because the tool is report-only by default; that is the argument for the default.*
+
+**RETROACTIVE SWEEP RUN IN THE SAME PASS** — installing a rule and leaving existing state is the exact defect ratified against this morning (METSUKE E1). **METSUKE −31% (365K→251K) · KOYOMI −15% · KURA −7%** (recent runs correctly protected). Nothing deleted; re-run is a clean no-op on all three.
+
+**FILES.** New: `scripts/subagent_memory_roll.py`, `scripts/mof_exceedance.py`, `docket/KOYOMI_MEMORY_ARCHIVE.md`, `METSUKE_MEMORY_ARCHIVE.md`, `workbook/KURA_MEMORY_ARCHIVE.md`, `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md`, `thesis/V20_CANDIDATE_SELF_ATTACK_SEALED.md`. Rule appended to `docket/KOYOMI.md`, `METSUKE.md`, `workbook/KURA.md`; check wired into `MEMORY.md` closeout.
+
+**ALSO — `boj_ois.py` SOURCE IMPEACHMENT, expressed where the reader actually looks.** WALTER found `BOJ_OIS.tsv` publishing the dead aggregator figure `quality=ok`, pull-stamped ~30 min *before* the packet retiring it: **the do-not-cite lived only in prose, so the dead number was the freshest-stamped, only machine-readable one SAM published.** Now stamped at the **row** (24 re-stamped), the **WRITER** (`IMPEACHED_SOURCES` — a ledger-only edit would have been re-stamped `ok` by the next pull), and the **console**. ⚠️ **Two defects of that fix, both caught: it silently emptied `prior_curve()` and blanked a working delta column** (a guard against a bad LEVEL disabling a good DERIVATIVE), and the good row is `as_of 8/17` while the newest is `8/19`, so **the only citable figure became the OLDEST**. Both fixed. Also: `jgb_auctions.py` **`break`-on-first-auction removed** (KURA's find — the boot captured at most ONE auction per run, the named mechanism behind two ledger gaps).
+
+**MANUAL-ONLY SCRIPT REGISTER added to `CLAUDE.md`.** boot flags every unwired script by design, and **a flag firing every run for a known-good reason trains you to ignore it** — which is what happened to `grade_8_14_branch.py`, flagged every boot for days while SAM read past it. Three scripts recorded as deliberately manual-only; **anything not on that list is real drift.**
+
+**BOOT IMPACT:** sub-agent spawns read ~37K fewer tokens of their own history. No change to SAM's own boot sequence.
+
+---
+
 ## 2026-08-04 (PM, 3rd block) — boot-output defect sweep: `cpi_japan.py` PAIRED/LEAD split · `trade_balance_japan.py` ×2 frozen literals · `catalyst_countdown.py` 2027 guard · PyYAML/DM-v1 unblocked
 
 **Why:** Will asked for a boot, then twice asked to re-check the result. Each re-check found something the previous pass missed — recorded because the *sequence* is the lesson, not any single fix.
