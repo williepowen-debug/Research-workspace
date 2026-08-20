@@ -70,6 +70,40 @@
 
 ---
 
+## 3b. ⚠️ FLG TRAJECTORY — added 2026-08-20 PM after a DAEDALUS challenge. **It qualifies the top score and I am not burying it.**
+
+**DAEDALUS asked, against the standard set in §1:** *can the SR 07-1 ratio RISE on a SHRINKING denominator?* — i.e. is FLG's 327.5% an artifact of balance-sheet shrinkage rather than CRE risk? **The right question, and it is answerable at the primary. 11 contiguous quarters pulled:**
+
+| | 2023Q3 | 2026Q2 | change |
+|---|---:|---:|---|
+| CRE numerator (constr + MF + non-OO) | $48.33B | **$32.76B** | **−32.2%** |
+| Total risk-based capital (denominator) | $10.27B | $10.00B | **−2.6% — essentially FLAT** |
+| **SR 07-1 ratio** | **470.5%** | **327.5%** | **−143pp, and it FELL IN ALL 11 QUARTERS** |
+
+**⇒ HYPOTHESIS REFUTED, and not narrowly: the ratio is not rising — it has fallen 143pp — and the denominator is not shrinking (capital is flat), so a shrinkage artifact is arithmetically impossible here.** The fall is driven **entirely** by a numerator down a third.
+✅ **But DAEDALUS's composition intuition was RIGHT:** multifamily *is* the stickiest leg — construction **−55.6%**, non-OO CRE **−40.8%**, multifamily only **−28.6%**. It just does not produce the artifact, because capital held.
+
+### 🔴 What this DOES change — the level score stands, the story around it does not
+
+**FLG's 3/3 on channel 1 is a LEVEL score and it is correct: 327.5% is above the 300% supervisory line today.** But **the direction is hard, monotonic de-risking, and at this rate it crosses below 300% in roughly two quarters.** Reading "cohort-worst CRE concentration" as *deterioration* is wrong. **This is the EGBN §5 discriminator again — de-risking through a shrinking book vs deterioration, same arithmetic, opposite conclusions** — and on channel 1 FLG is the EGBN case.
+
+### ⚠️ The credit leg answers DIFFERENTLY, and this is where the real signal is
+
+| | peak | 2026Q2 | read |
+|---|---:|---:|---|
+| Nonaccrual $ | $3.51B [25Q1] | $2.99B | **−15% off peak — improving** |
+| Nonaccrual % | 5.49% [25Q3] | 4.88% | **past peak — improving** |
+| **ACL $** | $1.27B [24Q2] | **$0.87B** | 🔴 **−31.5%, and it has fallen in EVERY ONE of the last 8 quarters** |
+| **ACL / nonaccrual** | 87% [24Q1] | **29%** | 🔴 **monotonic deterioration** |
+
+**⇒ The reserve is being drawn down ~1.7× faster than the problem book is resolving** (ACL −26% vs nonaccrual −15% from their respective peaks). **Nonaccruals improving while coverage deteriorates monotonically for 8 quarters is NOT the de-risking signature** — at EGBN the ACL was *consumed by disposition*; here the ACL is falling against a book that is still $3.0B of nonaccruals.
+
+**⇒ NET, and it is a better read than the one shipped this morning: FLG's score of 6 SURVIVES, but its two legs point in opposite directions. Channel 1 is de-risking (level high, trajectory good). Channel 2 is the live concern, and the load-bearing figure is the 29% coverage — NOT the 4.88% nonaccrual rate, which is past its peak.** Anyone acting on FLG should act on the reserve line.
+
+⚠️ **This is exactly why §7 says "do not read direction from this table."** A level score cannot distinguish a bank getting worse from one working down a large legacy book — **only the series can, and the series had to be pulled to find that the two channels disagree.** `[[finding_verified_figures_do_not_verify_the_shape_claim]]`
+
+---
+
 ## 4. 🔴 REPORTED, NOT SCORED — and a 0 here is NOT a clean bill of health
 
 **These are measured at the primary and carried on every row, but they DO NOT enter the score, because no defensible band exists.** Scoring them would be inventing a threshold.
