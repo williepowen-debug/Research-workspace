@@ -28,6 +28,8 @@
 - **First prediction resolution ever:** `PRED-CREED-009` **TRUE**. Scoreboard **n=1, 0/1, Brier 0.49.** The finding is the rationale, not the score.
 - **Mail: BOTH LANES CLEAN.** All 9 items processed + logged. SHADE's 8/13 packet cleared on its own (SHADE committed it) — old thread #7 closed, nothing owed.
 - **Source tier:** Trepp **SECONDARY → PRIMARY-READ** for Apr–Jul.
+- **⚠️ ALWAYS-LOADED TRAPS BLOCK CHANGED (post-closeout): 5 → 7, and trap #3 was REWRITTEN.** #3 previously told every session Trepp was unreadable — it would have blocked the command that fired T-02. #6/#7 promoted from here (SCRATCH 11→CLAUDE.md 6, SCRATCH 12→CLAUDE.md 7). **`CLAUDE.md` wins on all seven.**
+- **WALTER accepted the ratio correction IN FULL**, re-derived it independently (2.29× / +39.9% / +130.2%), **propagated to five desks**, and **built no second fire ledger** — the §4 "no" holds. Nothing owed either direction.
 
 ## 🔵 OPEN THREADS (carry forward)
 
@@ -66,7 +68,8 @@
 
 ## 📬 MAIL STATE
 
-- `inbox/` — **CLEAN.** `inbox/WALTER/` — **CLEAN.** All 9 items (8 WALTER + 1 top-level) processed to `processed/` and logged.
+- `inbox/` — **CLEAN.** `inbox/WALTER/` — **CLEAN.** All 9 items (8 WALTER + 1 top-level) processed to `processed/` and logged. **Re-verified at the target artifact and in git, not from the board_log.**
+- ⚠️ **`inbox/WALTER/processed/README.md` (NEW) — read it before trusting a listing of that folder.** Three signals (`-019`, `-020`, `-021`) **assert refuted claims in their own filenames.** **Deliberately NOT renamed:** they are WALTER's canonical BOARD paths, and diverging CREED's copies would split the record of one signal. CREED's `board_log` cites `signal_id`, not path, so nothing here depended on the names.
 - `outbox/` — holds 7/20, 7/27, 8/13, and this session's memo (`2026-08-20_to-PROME_CREED-T-02-FIRED-...`).
 - **Packets dispatched 8/20:** REGINALD (fire, action + REG-T-07 answer) · LIQUID (fire, action + one optional ask) · WALTER (§4 answered NO + the ratio correction) · PROME (outbox memo).
 - Last logged read: `board_log.tsv`, rows through 2026-08-20T14:10:00Z.

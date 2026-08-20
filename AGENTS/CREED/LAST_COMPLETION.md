@@ -1,6 +1,6 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — 2026-08-20 Will-directed boot (~7 days dark, 8/13→8/20, Thu, US markets OPEN). **⭐ FIRST TRIGGER FIRE IN CREED'S HISTORY: `CREED-T-02` (S2, maturity-default wave) FIRED, effective the JUNE print, ~6 weeks late.** Base case *selective CRE recognition accelerating* **HOLDS and is now materially better evidenced**; status 🟡 → **🟠 ELEVATED**; convergence **23/45 → 25/45 (51.1% → 55.6%)**. ⚠️ **Still PRE-BANK-TRANSMISSION — `CREED-T-03` NOT fired, S3 unmoved at 2.** The window's value was **escalation AND two self-caught protocol defects**.
+**STATUS:** DONE — 2026-08-20 Will-directed boot **(closed out TWICE — see §POST-CLOSEOUT ADDENDUM at the bottom; the first stamp predated real work and this line is the fix, not a decoration)** (~7 days dark, 8/13→8/20, Thu, US markets OPEN). **⭐ FIRST TRIGGER FIRE IN CREED'S HISTORY: `CREED-T-02` (S2, maturity-default wave) FIRED, effective the JUNE print, ~6 weeks late.** Base case *selective CRE recognition accelerating* **HOLDS and is now materially better evidenced**; status 🟡 → **🟠 ELEVATED**; convergence **23/45 → 25/45 (51.1% → 55.6%)**. ⚠️ **Still PRE-BANK-TRANSMISSION — `CREED-T-03` NOT fired, S3 unmoved at 2.** The window's value was **escalation AND two self-caught protocol defects**.
 
 > ✅ **This file was refreshed at this closeout** — breaking the 7/20 + 7/27 skip pattern its own banner warned about. The lesson it recorded (*"the requester's record of an ask is not evidence the ask is open — only the target artifact is"*) got a second, independent confirmation this session: **CREED's own record of "not published" was not evidence the datum was absent — only the source document was.** Same shape, different surface.
 
@@ -21,3 +21,21 @@
 **SOURCE-TIER UPGRADE:** Trepp **SECONDARY → PRIMARY-READ** (Apr–Jul 2026) off WALTER's PDF archive. **Standing trap #3 partially retired — month-scoped, not universally.**
 
 **NEXT:** 🔴 **FDIC Q2 QBP ~8/24–8/29 — `CREED-T-03`, within days** · August Trepp prints test `T-01a` at 9bps · `PRED-CREED-006`+`010` joint verdict ~mid-Sept · a boot-time threshold scan (K5's deeper fix, **not built — scope**).
+
+---
+
+## POST-CLOSEOUT ADDENDUM — work that landed AFTER the first stamp was written
+
+⚠️ **This file was refreshed at ~09:19 and CREED committed again at ~09:31.** For twelve minutes the closeout stamp was **older than the work it claimed to describe** — the precise staleness class its own banner warns about, caught by comparing commit times rather than by reading the file. **Recorded rather than back-dated.**
+
+**① The always-loaded traps block was carrying an instruction that would have caused this session's own defect.** `CLAUDE.md` trap #3 read *"Trepp PDFs are paywalled ⇒ PRIMARY-CITED, not PRIMARY-READ."* The first closeout annotated it "partially retired" and **left the text standing**, with that reasoning written into `MAINTENANCE.md`. **Wrong.** An always-loaded *"you cannot read this source"* **is** the unfetched-is-not-unavailable failure encoded at CREED's highest-authority surface — it would have talked the next session out of the exact command that **fired `CREED-T-02`** and **answered W1**. **Rewritten to month-scoped.** `MAINTENANCE.md` carries an amending entry that says the earlier one was wrong, rather than quietly replacing it.
+
+**② Traps block 5 → 7.** Promoted **#6** (*a share is not a trend when its denominator moves*) and **#7** (*"not published" almost always means "not fetched"*) — both fire while writing a number and both cost CREED this session. **Numbering differs between files: SCRATCH 11 → CLAUDE.md 6, SCRATCH 12 → CLAUDE.md 7.** Criterion written into the block header so it stays curated: **a trap earns its place by having bitten CREED, not by being a good idea.**
+
+**③ Cost recorded, not buried.** ② **worsens** the known eval contamination defect (block now names Trepp/HOMER/Connect-CRE too). **Judged worth it — the rubric is what's mis-specified**, since it cannot distinguish "leaked from live rails" from "cited the text the eval itself loaded." Flagged for whoever next touches the suite.
+
+**④ `inbox/WALTER/processed/README.md` (NEW).** Three signals assert **refuted claims in their own filenames** (`-019` "candidate crossing", `-020` "the word again", `-021` "peaked in may / not a wave starting"). **Deliberately NOT renamed** — WALTER's canonical BOARD paths; diverging CREED's copies splits the record of one signal. The note carries the correction instead, and records what survived: **the gapless Apr–Jul series is verified and is what fired T-02; the dating holds, two claims layered on top did not.**
+
+**⑤ WALTER closed its side.** Correction **accepted in full**, independently re-derived (**2.29× / +39.9% / +130.2%**), **propagated to five desks**, **no second fire ledger built** — the §4 "no" holds. **Nothing owed in either direction.**
+
+**THE TRANSFERABLE ONE, and it is not the fire:** WALTER's fix **added a check**; CREED's had to **delete a standing instruction that suppressed one.** **An absent gate gets found by an audit; a gate that tells you not to look passes every audit, because it reads as discipline.** Sweep always-loaded surfaces for "not reachable / not available / don't bother with X" claims that were true when written.
