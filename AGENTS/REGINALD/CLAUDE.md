@@ -241,8 +241,12 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 
 ## BANK WATCHLIST
 
-**Tier 1 (Max Stress):** EGBN (20), WAL (20)
-**Tier 2 (Elevated):** CFG (15), OZK (13), SSB (11) — ZION demoted to ~8-9 (Q1 disconfirming)
+⚠️ **SCORES REBUILT 2026-08-20 (v2.0) — the v1 numbers below are DEAD and the RANKING INVERTED.** v1 was not reproducible (its own method computes EGBN 12; STATUS carried 20; no derivation exists). **New scale 0-6 — compare ranks, not points.**
+
+**Elevated (instrumented):** **FLG (6)** ⬅ *was LAST under v1* · **EGBN (5)** · **AMTB (5)** — all three on CRE concentration + credit quality, and **all three carry reserves below 100% of their own nonaccruals** (29% / 88% / 51%).
+**Mid:** VLY (3) · OZK · WAL · SSB · BKU · SBCF (2) — ⚠️ **WAL and OZK are mid-pack on instruments; the desk's attention had them at the top.**
+**Low on the SCORED channels:** ZION · MTB · CUBI (1) · CFG · HBAN (0). ⚠️ **A 0 is not a clean bill of health** — CFG carries the cohort's 2nd-largest private-credit NDFI book (10.66% of loans), reported and deliberately unscored.
+*(v1, retired: EGBN 20 / WAL 20 / CFG 15 / OZK 13 / SSB 11 / ZION ~8-9 / FLG 8.)*
 **Live scores = STATUS.md Convergence Matrix** (synced 7/17 audit — this list had drifted to pre-rescale values); full methodology → `BANK_EXPOSURE_MATRIX.md` (STALE-VINTAGE-bannered, re-score post-7/21)
 
 ---
