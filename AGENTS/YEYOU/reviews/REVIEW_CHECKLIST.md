@@ -30,13 +30,14 @@ The rubric YEYOU applies to each changed agent dir. **Every item must be answera
 - [ ] `STATUS.md` over the agent's cap (**RED = 200**; most others = **250**) → **🟠**
 - [ ] Required section missing (e.g. `BOTTOM LINE` on a domain agent) → **🟡**
 
-## F. Git hygiene
-- [ ] Commit touched files **outside** the agent's own `AGENTS/<NAME>/` dir → **🔴**
-- [ ] One commit sweeps multiple agents' files (sign of `git add -A` / `git add .`) → **🔴**
+## F. Git hygiene *(re-scoped 2026-08-20 by DAEDALUS — YEY-012, YEYOU's own first-pass self-finding: the old two bullets contradicted root CLAUDE.md's three Will-ratified carve-outs and would have thrown ~15 false 🔴 in one pass; root canon wins)*
+- [ ] Commit touched files outside the agent's own `AGENTS/<NAME>/` dir **AND matches NO root carve-out** → **🔴**. The three carve-outs (root CLAUDE.md §Git Protocol, cite don't restate): ① self-authored packet into a recipient's `inbox/` (subject should name the recipient) · ② self-authored rows in a shared cross-agent log (`AGENTS/SIGNALS.md` class) · ③ self-authored `memory/auto/` files. Also legitimate: DAEDALUS repo-root `scripts/` (Will-ruled 7/31) and Will-approved cross-agent batches (check the commit message for the ruling cite).
+- [ ] Carve-out ① packet committed with the recipient UNNAMED in the subject (`<YOU> -> <RECIPIENT>: <what>` format) → **🟡**
+- [ ] One commit sweeps multiple agents' files with NO carve-out or ruling accounting for each path (the `git add -A` signature) → **🔴**
 
 ## G. Mail loop
 - [ ] `inbox/` (excluding `processed/`) has items older than ~3 days unprocessed → **🟡**
-- [ ] `outbox/` items not moved to `delivered/` (possible HERMES stall) → **🟡**
+- [ ] `outbox/` items not moved to `delivered/` (stalled outbound — top level should signal OPEN loops only) → **🟡** *(HERMES reference removed 2026-08-20 — retired agent, YEY-013; the check itself survives)*
 
 ## H. Cross-references
 - [ ] A path/file referenced in a changed file does not exist → **🟠** (**🔴** if it's a boot-path or a positions reference)
@@ -46,7 +47,7 @@ The rubric YEYOU applies to each changed agent dir. **Every item must be answera
 ## Always route up — do NOT score
 - Any claim about an **external fact** (price, filing figure, FRED level, whether a news event is true) → **⚪ NEEDS-VERIFY** → Codex / DEWEY
 - Any judgment about whether the **thesis / analysis is correct** → **⚪** → RED / Codex / PROME
-- You are GLM: if a number merely *looks* off but you can't prove it wrong from the repo, that's **⚪ NEEDS-VERIFY**, not a finding.
+- If a number merely *looks* off but you can't prove it wrong from the repo, that's **⚪ NEEDS-VERIFY**, not a finding. *("You are GLM" runtime reference removed 2026-08-20 — YEY-013; the epistemics rule is runtime-independent and survives verbatim.)*
 
 ---
 
