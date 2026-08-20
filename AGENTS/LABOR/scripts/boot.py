@@ -58,7 +58,12 @@ def run_script(script_path, args, timeout=90):
             capture_output=True, text=True, timeout=timeout, cwd=str(WORKSPACE),
         )
         out = result.stdout
-        if result.returncode not in (0, 2) and result.stderr:
+        # CHECK_STANDARD.md §8 (RATIFIED 2026-08-17, Will verbatim) — relay stderr
+        # UNCONDITIONALLY. The old guard was `returncode not in (0, 2) and result.stderr`,
+        # which deleted stderr on rc==0 AND on this repo's own rc==2 alert convention, so a
+        # producer warning emitted at rc 0/2 was unrescuable by KEY_MARKERS downstream.
+        # Fixed 2026-08-20 per DAEDALUS packet (donor pattern: WATT/VULCAN/MIDAS/FERT run_alert()).
+        if result.stderr:
             out += f"\n  STDERR: {result.stderr[:500]}"
         return result.returncode, out, time.time() - start
     except subprocess.TimeoutExpired:
@@ -117,9 +122,19 @@ def main():
             if not shown:
                 print(f"    ✓ ran cleanly")
 
+        # §8 rule 5 — derive the verdict from MARKER-PRESENT alongside rc, not rc alone.
+        # A producer can warn on stderr at rc 0/2; keying the summary on rc would report OK.
+        stderr_warned = "STDERR:" in output
         if rc == 2:
             alert = True
-        status = "OK" if rc in (0, 2) else "FAIL"
+        if stderr_warned:
+            alert = True
+        if rc not in (0, 2):
+            status = "FAIL"
+        elif stderr_warned:
+            status = "WARN"
+        else:
+            status = "OK"
         results.append((label, status, elapsed))
 
     print(f"\n{'='*72}")
