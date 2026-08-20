@@ -48,11 +48,11 @@
 
 ## ⚫ STANDING TRAPS — re-read these before writing any number down
 
-> ⚠️ **Traps 1, 2, 3, 6 and 8 are ALSO in `CLAUDE.md` §Standing traps — ALWAYS-LOADED, and that copy is the one that matters.** If you edit one here, edit it there too — and `CLAUDE.md` wins.
+> ⚠️ **Traps 1, 2, 3, 6, 8, 11 and 12 are ALSO in `CLAUDE.md` §Standing traps — ALWAYS-LOADED, and that copy is the one that matters.** If you edit one here, edit it there too — and `CLAUDE.md` wins. **Mapping (the two files number differently):** SCRATCH 11 → CLAUDE.md **6**; SCRATCH 12 → CLAUDE.md **7**. *(11 and 12 promoted 2026-08-20.)*
 
 1. **Never cite a CRE mREIT price move without checking corporate actions first.** ARI's ex-dividend trap is canonical.
 2. **A real number carrying the WRONG BASIS is the dominant failure mode**, not a fabricated number.
-3. **Trepp PDF paywalled ⇒ primary-CITED not primary-READ — ⚠️ NOW PARTIALLY RETIRED (8/20).** Five PDFs are archived at `AGENTS/WALTER/sources/` and were READ. **Month-scoped: check the folder before assuming either way.**
+3. **Trepp source tier is MONTH-SCOPED — check `AGENTS/WALTER/sources/` before assuming either way.** Apr–Jul 2026 are archived there and were READ; paywalled/primary-CITED stays the default for months not in that folder. ⚠️ **`CLAUDE.md` trap #3 was REWRITTEN 8/20**, not just annotated — the old blanket "paywalled, can't read it" form was actively harmful in an always-loaded surface (it is trap #12's failure encoded where every session sees it).
 4. **Do not fuse ARI→Athene with Delaware Life.** Unchanged.
 5. **S5 (multifamily) is HOMER-owned for scoring.** Courier arrangement KILLED 8/13; opportunistic only.
 6. **Anchor a threshold to a DISTRIBUTION, not the most recent number.** Eval case_02 showed this is only HALF internalized (avoided the single-print anchor, matched the wrong SEASON).

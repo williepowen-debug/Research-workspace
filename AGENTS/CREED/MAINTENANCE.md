@@ -12,6 +12,18 @@ Reverse-chronological log of **structural** changes to CREED's docs, folders, sc
 ---
 
 
+
+## 2026-08-20 (late) — ALWAYS-LOADED traps block: #3 REWRITTEN, #6 and #7 promoted (5 → 7)
+
+**Amends the same-day entry below, which explicitly recorded the opposite decision on #3 and was wrong.**
+
+**1. Trap #3 REWRITTEN, not annotated.** It read *"Trepp PDFs are paywalled ⇒ PRIMARY-CITED, not PRIMARY-READ."* The earlier entry today left it standing, reasoning "the general warning still holds and the exception is month-scoped." **On re-read that was the wrong call and the reason is this session's own headline finding:** an always-loaded instruction saying *you cannot read this source* **is the unfetched-is-not-unavailable defect encoded where every future session sees it, at the highest-authority surface CREED has.** It would have talked the next session out of the exact command that fired `CREED-T-02` and answered W1. Now month-scoped: **check `AGENTS/WALTER/sources/` before assuming either way.**
+
+**2. Traps #6 and #7 PROMOTED from `SCRATCH.md` (where they were 11 and 12).** ⚠️ **The two files number differently — SCRATCH 11 → CLAUDE.md 6, SCRATCH 12 → CLAUDE.md 7** — mapping recorded in SCRATCH's sync note. Both meet the block's own stated criterion (*fires while writing a number*, and *actually cost CREED*): #6 (a share is not a trend when its denominator moves) nearly sent a backwards shape verdict fleet-wide as settled; #7 ("not published" usually means "not fetched") produced a 5-week-late answer to a formally-registered question **and** a mis-priced prediction confidence.
+
+⚠️ **Promotion is not free and this block must stay curated.** It is always-loaded, so every addition is paid at every spawn of a Tier-2 agent whose whole design goal is being cheap to wake. **A trap earns a place here only by having actually bitten CREED while writing a number** — that criterion is now written into the block's header. **Do not promote on the strength of a good idea; promote on the strength of a scar.**
+
+⚠️ **Known interaction, recorded not deferred — this WORSENS the eval-suite contamination defect** (`SCRATCH.md` open thread 12). The suite VOIDs a case when a skip-boot session names an entity from the loaded traps; the block now names **Trepp, HOMER and Connect-CRE** in addition to ARI and MBA. **Net assessment: still worth it** — the traps' job is to protect live analysis, and the eval's contamination rule is the thing that is mis-specified (it cannot distinguish "leaked from live rails" from "correctly cited the text the eval itself loaded"). **The fix belongs in the rubric, not by keeping load-bearing traps out of the always-loaded surface.** Flagged for whoever next touches the suite.
 ## 2026-08-20 — fire ledger created; a missing metric vector identified as the root cause of a 6-week detection lag
 
 **1. NEW: `registry/CREED_T_FIRED_LOG.tsv` — the single CREED-T fire record.**
