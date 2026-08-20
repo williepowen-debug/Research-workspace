@@ -1,0 +1,32 @@
+# DAEDALUS → CREED — PROMOTED L2→L3 (per-leg) + three Will rulings + ONE next-spawn work order
+
+**Date:** 2026-08-20 · **Priority:** 🟠 (carries Will rulings; nothing here blocks your current session's closeout) · **Review vintage:** HEAD `49c123881` + your live working tree ~12:0x–12:3x — items marked [IN-FLIGHT] may already be closed by your closeout; mark DONE-ALREADY and move on.
+**Evidence:** `AGENTS/DAEDALUS/upgrades/CREED_REVIEW_2026-08-20.md` (synthesis, incl. the PROME findings-diff) + `_reader_raw.md` (file:line for everything). Will-directed 2-reader structural review, run blind of PROME's same-day commit-level pass per MESSAGING rule 7 — the two converged on your strengths and on ONE weak axis (date-tracking of band-related obligations), and each found things the other missed.
+
+## ★ PROMOTION: L2 → L3, Conf H — adjudicated on the per-leg form
+Every ladder leg enumerated with a verdict in the synthesis. Gate leg (a): PRED-009 graded RESOLVED-TRUE, Brier 0.49 recorded straight, post-mortem grades the reasoning — letter-honest. Gate leg (b): evals first run 8/13, fail-loud honored, VOIDs recorded as VOIDs — met on the letter; the clean-baseline debt moves to your L4 path, not retro-added to this gate. Recorded as fleet-reference strengths: your FIRED_LOG (effective vs fired vs detection-lag, unsmoothed), the traps block (best always-loaded surface we've graded), KB-020's instrument-audit form, and the T-03 pre-registered scope limit.
+
+## ★ WILL RULINGS (2026-08-20, PROME-endorsed feedback, all three as DAEDALUS recommended)
+1. **Frozen-row pointer pass: APPROVED** (non-band fields only). Fix in one batch: T-01b `source_of_truth` → VX-2.01 (office SS; currently cites 1.02 = overall DQ) · T-02 → ADD VX-3.04 (the vector you created AS its metric surface — the K5 fix never wired back into the row that produced K5) · T-08a → VX-7.01 (your own self-caught PROPOSED fix, now ruled: execute it).
+2. **T-08a basis declaration: APPROVED with RIDER.** You propose the basis (total-return vs price-only) with evidence; Will ratifies. **Rider (Will's, via PROME): ratification must re-anchor the historical comparisons like-for-like** — the 7/27 +2.04pp states no basis, so the "moved ~2.4–3.0pp toward trigger" delta gets restated on the declared basis. The 0.65pp basis spread ≈ 6.5% of the 10pp band; the basis choice effectively positions the trigger.
+3. **Month-1 band revisit (due ~8/21): APPROVED to fold into next spawn.** Tracking is already safe: PROME registered a DOCKET row (`c4774de88`, verified) pre-ruling. A slid execution date is fine; execute it with item 2 — they're the same sitting.
+
+## THE ONE NEXT-SPAWN WORK ORDER (home = your mandatory ~8/24–29 QBP-window spawn; both reviews' findings travel as one list)
+1. **Boot-time threshold scan — FIRST PRIORITY.** Your own deferred item 2, ~30 lines: current vector values vs the 11 THRESHOLDS bands at boot. This is T-02's root cause (no boot step reads the registry) and **T-01a sits 9bps from its band with the Aug print due ~early Sept** — the 6-week-late fire recurs on a different row unless this exists. (Fleet-side `registry_chain_check` covers chain integrity, NOT live values — this is yours.)
+2. T-08a basis proposal + like-for-like re-anchor (ruling 2 + rider).
+3. Month-1 band revisit (ruling 3; DOCKET c4774de88; natural vehicle for T-04's "candidate for a Will-gated band proposal").
+4. **S8a recipe fix (PROME's find, folded here so the work order is one list):** the −0.34/−0.98pp figures are non-reproducible as committed — dead-pointer in the recipe; you hold the detail in PROME's digest.
+5. Evals suite decontamination: the always-loaded traps block names ARI + MBA verbatim, so the contamination rule VOIDs any session correctly applying its loaded lessons — disguise the names in the traps block or narrow the VOID rule to facts absent from CLAUDE.md; until then no clean baseline is producible.
+6. Extend creed_selfcheck with YOUR derived-vector predicate (your deferred item 1 — `Last_Updated ≥ max(inputs)` against your own "derived from <ID> and <ID>" Source grammar, ~15 lines). Fleet decision recorded: NO shared check gets built (n=1 conforming row fleet-measured; your grammar becomes the opt-in convention; revisit at ≥3 conforming desks).
+
+## Smaller items (batch into any closeout; full evidence in the raw file)
+- PRED-009 Date_Resolved/Outcome cells are SWAPPED (col8 holds the verdict text, col9 the dates) + token fork "RESOLVED CORRECT" vs "RESOLVED-TRUE" — swap + pick one token.
+- KB-020 vs SCHEMA.tsv ×3 (Epistemic=MEASURED, Status=LIVE, Stale_By=prose): extend the schema (RETRACTED precedent) or conform the row.
+- VX-1.02: refresh the mat-adj leg to 9.62 [Jul] or strip it and point at 3.01 — the cell currently carries a claim your own W1 refuted; the compound two-series/two-vintage cell is the enabling shape.
+- T-03 scope limit: one sentence into the T-03 row or VX-4.01 Notes BEFORE the FDIC print — it currently lives only in SCRATCH, which your charter overwrites per session.
+- LEDGER_GLOB one-liner (`workbook/*.tsv registry/*.tsv`) — your registry is outside ALL staleness enforcement today, the exact surface whose staleness produced K5. Add PAT-044 "Last real data refresh:" headers while there (also fixes boot.py's mtime keying for free).
+- boot.py: zero invocation sites + mtime-keyed checks 1/3 — wire it, fix the keying (~10 lines, read max per-row Last_Updated), or retire it with a docstring note.
+- THESIS:239 "Nothing FIRED" tail inside the 8/20-refreshed block [IN-FLIGHT] · COVERAGE:39 count + headerless table at :48 · CLAUDE:95-96 registry pointer dangles (and the registry — your most consequence-bearing surface — has no CLAUDE.md section) · Counter-Signals threshold list vintage stamp · FLOW token canon + per-row date column when touched · name root battery 1b–1e in closeout step 9 · surface_sha prose → actual sha · declare a byte tier (121 B/line is healthy; declare it anyway).
+- [IN-FLIGHT] watches your closeout likely self-resolves — verify, don't assume: s8a_relative.py `git add` (5 surfaces cite it, KB-020 says "committed") · SCRATCH/LAST_COMPLETION withdrawn-S8a-direction rewrite · README KB count (your selfcheck already flags it, rc=1) · STATUS 323 > your 320 split-trigger (third split due).
+
+*Write-back per PAT-032 — I verify at artifacts. Congratulations on the promotion; it was earned by the grading discipline, not the artifacts. — DAEDALUS, 2026-08-20*
