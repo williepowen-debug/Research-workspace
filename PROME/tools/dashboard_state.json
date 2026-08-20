@@ -1,5 +1,5 @@
 {
- "built": "2026-08-19 20:16",
+ "built": "2026-08-19 22:05",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -15,9 +15,7 @@
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
   "2026-08-18 HAWK war_monitor.py \u2014 feeds.reuters.com DEAD (live-verified ",
   "2026-08-19 FALCON leg-3 WEEKLY sweep #2 \u2014 TOP ASK: consume BRENT's Petr",
-  "2026-08-19 FORUM fin-cond T7: FOMC-minutes resolver (BOND frozen text) ",
   "2026-08-19 Section 338 Canada +50% tariffs EFFECTIVE (proclamations 7/2",
-  "2026-08-19 \ud83d\udd34 US 20Y Treasury auction $16B, CUSIP 912810UX4 (new issue, ",
   "2026-08-20 BRENT discriminator forward checks (own-dated, registered fr",
   "2026-08-20 CFPB complaint re-pull, company=MOHELA \u2014 tests the SAVE wave",
   "2026-08-20 CPC DJF 2026-27 seasonal outlook (~8/20) \u2014 SUPERSEDES the co",
@@ -45,6 +43,7 @@
   "2026-08-28 MIDAS-06 resolves \u2014 DIVERGE persistence test (does the gold ",
   "2026-08-28 NEXUS successor convergence falsifier RESOLVES (the 21/44/35",
   "2026-08-28 QCEW preliminary benchmark (Fri) \u2014 LAB-08 gate",
+  "2026-08-29 C-36 label DECLINE-WITH-EXPIRY lands: BOND formally DECLINED",
   "2026-08-29 FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND s",
   "2026-08-29 HEN-42 rates-driver rotation discriminator resolves \u2014 policy",
   "2026-08-29 NEXUS SYSTEMS REVIEW commission opens (Will-approved 8/17 ev",
@@ -138,16 +137,16 @@
  "one": "the week's positioning question got answered three times in one print window and the answer was the same in every market: the fuel was REPLACED, not spent. Crude MM shorts re-grossed straight through their frozen boundary (+8,078 WoW \u2014 the \"SPENT\" modifier un-fired at its own letter, by 5.3\u00d7 the pre-computed coin-flip distance); gold longs rebuilt to top-5% crowding of the full 1986\u20132026 record under a frame that honestly graded INDETERMINATE; and the JPY book neither rebuilt nor flipped \u2014 it emptied (OI \u221227,519, both sides). Meanwhile the priced side stayed asleep: HY flat at 271, a seventh consecutive sub-16 VIX close, 5y5y anchored at 2.27 and drifting *down* \u2014 and the 30Y at 5.24 still buying zero rate relief from disinflation. The bear that pays remains the real-rate grind (duration + gold, the two live legs), and the physical-side conclusion sharpened rather than changed: the squeeze accelerant behind the oil premium is re-armed, not exhausted \u2014 if a physical trigger comes, more fuel stands behind it than the fleet believed on Wednesday. No sizing changed anywhere; the state is simply now honest.",
  "pending": [
   "six-ideas ruling (8/17, one word)",
-  "TERRY launch (ruled, not executed)",
-  "row 58 one named oil exit condition",
-  "row 16 D-10 one-word",
+  "row 58 oil exit condition",
+  "row 16 D-10",
   "row 31 Nov credentials [11/01]",
   "row 41 war-risk source",
   "row 55 CRUISE re-class",
   "row 56 SAM INFRA_AGENDA",
-  "WALTER's 2 FORMAT_SPEC questions (no EUROPE_MACRO domain code; JAPAN_BOJ rename)",
+  "WALTER's 2 FORMAT_SPEC questions",
   "broker export [normal]",
-  "REGINALD hidden-CRE [before 11/07]"
+  "REGINALD hidden-CRE [before 11/07]",
+  "HEARTBEAT re-base OK [next sitting]"
  ],
  "split": "Break 21 \u00b7 Grind 44 \u00b7 Unresolved 35",
  "v": 1

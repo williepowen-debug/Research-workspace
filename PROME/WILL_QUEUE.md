@@ -29,7 +29,7 @@
 
 ## RECENTLY DONE (rolls off ~7d)
 
-*Rolled off 2026-08-16 (queue-system look): rows **26** (LAUNCH FALCON, DONE 8/6 — anchors `bbc0718b2`/`667ae88d4`) · **30** (FALCON P-2/P-3/D→75 RULED 8/6 — GATES row + FALCON ruling packet) · **13** (FFIEC PWS account DONE 8/7 — recipe `f32f2fb8a`; successor = row 31 Nov sitting) · **34** (RAV-QC-002 memory MOOT 8/7 — WALTER self-fixed, slug-check PASS) · **38** (NEXUS am.11 SELF-RULED 8/7 — `d22d6531b`, SELF_RULINGS row 1, the tier's first exercise). All past the ~7d window with durable anchors. Verbatim rows → `PROME/archive/WILL_QUEUE_ROWS_2026-08-16_rotation.md`.*
+*Rolled off 2026-08-19 S3 (closeout sweep): **35a** (COT modifier REVERT, done 8/11 — anchors: BRENT encode + the 8/14 grade ran under it; >7d w/ durable anchor).* *Rolled off 2026-08-16 (queue-system look): rows **26** (LAUNCH FALCON, DONE 8/6 — anchors `bbc0718b2`/`667ae88d4`) · **30** (FALCON P-2/P-3/D→75 RULED 8/6 — GATES row + FALCON ruling packet) · **13** (FFIEC PWS account DONE 8/7 — recipe `f32f2fb8a`; successor = row 31 Nov sitting) · **34** (RAV-QC-002 memory MOOT 8/7 — WALTER self-fixed, slug-check PASS) · **38** (NEXUS am.11 SELF-RULED 8/7 — `d22d6531b`, SELF_RULINGS row 1, the tier's first exercise). All past the ~7d window with durable anchors. Verbatim rows → `PROME/archive/WILL_QUEUE_ROWS_2026-08-16_rotation.md`.*
 
 *Rolled off 2026-08-08 (boot sweep): the **14-row 7/31 batch** — the Friday orchestration marathon's rulings (rising-vol GO · DEWEY entitlements · reshape disposition · QQQFADE retire · scripts/→DAEDALUS · NO_HARVEST · REGINALD window · RED + NEXUS launches · BRENT audit ×4 + Stage-A + defect-② · remaining-rulings batch · memory migration) — all 8d old, all carrying the durable anchor this table requires at write, which is what makes roll-off safe. Batch record: `PROME/archive/HANDOFF_2026-07-28_to_08-03AM.md` (7/31 entry) + `memory/2026-07-31.md`. Found by the gate only after its silent 5-item display cap was fixed the same sweep — it had been showing 4 of 14.*
 
@@ -48,7 +48,6 @@
 | 17 Repo public flip | 8/14 | RESOLVED: found ALREADY PUBLIC (unrecorded show-a-friend flip) → flipped back PRIVATE, backup deleted, INTAKE re-privated, FFB deliberately public; ALL successors closed same sitting; archived row = full record |
 | 33b OSPREY §3 attribution clause | 8/15 | Will ruled ADOPT in-session; OSPREY encoded `727c032f6`; record-lag owned + closed (memory n=7) |
 | 37 GIE/AGSI+ key | 8/14 | OPTIONAL-DECLINED (`2026-08-14_afternoon-batch-RULED.md` §2); re-open trigger = keyless-via-UA path tightening |
-| 35a COT modifier revert-or-latch | 8/11 | Will-ruled REVERT (non-latching); BRENT encoded; the 8/14 grade ran under it (un-fire caught) |
 | 35b COT successor re-base | 8/14 | condition MET: successor REGISTERED post-grade (`GATE-BRENT-COT-35B`, median_unit 9,160 FROZEN, first read JOINT NO-VERDICT) — row closed 8/16 at the queue look, 2d lag owned |
 | 48 AEOLUS Mead 1,035 re-key | 8/13 | encode-confirmed (`AGENTS/AEOLUS/CLAUDE.md` §THRESHOLDS split, superseded row preserved); Orange-band deviation rec-ACCEPT on the record |
 | 45 HOMER servicer-watch re-spec | 8/14 | ratified ×2 8/13 + encode-confirmed (CATALYSTS.tsv row 11); SEEDED label travels; definition defects → row 50 |
