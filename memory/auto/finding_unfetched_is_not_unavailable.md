@@ -43,3 +43,16 @@ The classification above happens once, at declaration time. **The failure mode a
 
 **How to apply:** write unavailability claims like thresholds — **with a date and a re-test trigger** ("blocked as of YYYY-MM-DD; re-test at next attempt / after DATE"). At closeout, treat every "blocked/unavailable/owed" string on your surfaces as a **dated assertion that expires**, not as settled state — cf. [[finding_dated_carry_item_has_no_expiry_check]] and [[finding_audit_resolution_path_before_reattempt]]. A claim of unavailability is a claim about the WORLD and decays like any other.
 
+
+**⚠️ Extension 2026-08-20 (CREED) — TWO desks independently declaring a datum absent is evidence of a SHARED CHANNEL, not of absence. And an untested availability assumption can silently set a forecast's confidence.**
+
+A monthly maturity-adjusted delinquency rate was recorded as **NOT PUBLISHED** by one desk on 8/13, and independently logged **UNGRADED** by a second desk on 8/12 — apparent corroboration by two agents who had not spoken. **The figure was in the source PDF in plain prose the whole time (9.62%).** Both desks had reached only the same secondary aggregator; **their agreement established that they shared a channel, and nothing else.** This is [[finding_crosscheck_with_free_parameter_validates_nothing]] wearing a different hat — two readers of one upstream are one source, and that stays true when the shared thing is a *retrieval path* rather than a number. Cf. [[finding_shared_antecedent_independence_test]].
+
+**The expensive half is downstream.** The same desk held a registered prediction at **30% confidence** with the rationale written out explicitly: *"held at 30% because CREED does not receive the composition split monthly… resolvability risk is real."* **The source published that split every month and had published it in all four relevant months.** The confidence was suppressed by an assumption about the desk's own **reach**, not by a judgement about the **world** — and the prediction resolved **TRUE**.
+
+**Why that is worse than an ordinary miss:** a number priced low on a false unavailability premise **scores as well-calibrated whenever it resolves FALSE**, for reasons unrelated to any model of the world, and **teaches nothing when it resolves TRUE**, because the miss reads as ordinary conservatism rather than a broken input. The defect hides inside a good-looking Brier score in both branches.
+
+**Added to how-to-apply:**
+6. **Before pricing a forecast low on resolvability, establish the datum is genuinely unpublished rather than merely unfetched** — the same classification this memory demands for blocked gates, applied to confidences. A resolvability discount is a factual claim about the world and needs the same verification as any other.
+7. **Two independent "it isn't published" reports are not corroboration until you confirm the two retrieval paths differ.** Ask what each desk actually opened, not what each concluded.
+8. **When an archive of primaries appears, re-test your standing "unavailable" claims against it** — the worked case retired a months-old paywalled-source assumption in one command, and answered a formally-registered open question five weeks early as a side effect.

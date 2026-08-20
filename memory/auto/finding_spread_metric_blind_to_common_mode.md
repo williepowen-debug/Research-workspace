@@ -29,3 +29,16 @@ OTTO built a falsifier reading loss **severity** (100 − recovery) against **fr
 **Why it is easy to miss:** you build the gate while thinking about the hypothesis you are trying to *confirm*, so you defend the CONFIRM branch and leave the REFUTE branch naked. The asymmetry is in your attention, not in the physics — the contaminant moves the metric in both directions with equal ease.
 
 **How to apply:** for every control variable, write down **what a large move in each direction would fake**, and gate on the *magnitude* (`|x| > band`) unless you can state why one direction is genuinely harmless. Then put **one synthetic test case per direction plus both boundaries** into the positive control, so the gate's two-sidedness is asserted by a test rather than by a comment. Related: [[finding_test_the_guard_not_just_the_guarded]] (the guard needs its own test) and [[finding_standing_guard_is_a_false_negative_risk]] (a guard built against a known failure is what waves the real event through).
+
+**⚠️ Extension 2026-08-20 (CREED) — a ratio's TREND SHAPE, not just its level, inverts when the denominator moves. "Peaked and decaying" and "at its peak" can be the same four data points.**
+
+The existing rule covers reading a ratio's *level* as good news. The sharper trap is reading its *time series* as a trend, because a share plotted over time looks exactly like a trend and invites a shape verdict — "building", "peaked", "decaying" — that belongs to the numerator, not the ratio.
+
+A monthly composition share read **42% → 70% → 65% → 66%**, which was reported onward as *"the metric peaked in May; this is not a wave starting."* **The denominator — total newly delinquent balances — swung 2.3× across those same four months** ($2.63B → $4.04B → $2.64B → **$6.00B**). In component terms the series ran **$1.10B → $2.83B → $1.72B → $3.96B**: the final month was **the peak, +40% over the apparent "peak" month and +131% over the prior month.** The ratio plateaued while the quantity more than doubled. **Both readings are arithmetically correct and they support opposite theses** — decaying tail vs accelerating wave.
+
+The near-miss is the point: the "decaying" read was one step from being routed fleet-wide as settled, attached to an otherwise flawless piece of work — the underlying series was correctly sourced, correctly dated, and independently verified at primary. **Verification of the numbers does not verify the shape claim built on them.** Cf. [[finding_exact_level_authenticates_a_wrong_direction]] — precise components make nobody re-check the adjective.
+
+**Added to how-to-apply:**
+- **A ratio cannot carry a trend read on its own.** Before writing "peaked", "building", "decaying" or "plateauing" about any share, plot the numerator. If the denominator's range over the window is more than ~1.5×, the shape verdict is about the denominator and must be stated as such.
+- **Register the component series next to the ratio in the surface itself**, so the next reader cannot obtain one without the other — the same mechanize-don't-remember fix as above.
+- **A composition share is the most seductive case**, because "X% of new defaults are type T" reads as a statement about type T when it is a statement about the *mix*. Type T's absolute volume can double while its share falls.
