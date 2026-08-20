@@ -1,5 +1,5 @@
 ---
-name: finding_inherited_instrument_defect_reads_as_corroboration
+name: finding_inherited_defect_propagates_though_both_ends_act_correctly
 description: "The defect both ends were RIGHT to miss: a defective instrument you publish becomes the consumer's instrument, and the consumer is CORRECT not to re-derive it — domain ownership is the point of the fleet, and re-deriving every inherited figure would dissolve it. Both parties behave correctly and the error still propagates, which makes this undetectable rather than merely missed."
 metadata:
   node_type: memory
