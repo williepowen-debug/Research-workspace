@@ -28,7 +28,7 @@
 - Found and logged the Kharg halt + the positive-control instrument failure.
 - Consumed BRENT's discriminator verdict **from the artifact**; accepted all three §6 corrections; returned two findings.
 - Delivered the GATE-TERRY-006 disposition; answered PROME's premise question.
-- Answered HAWK's HAW-19 objection request; flagged three things HAWK got wrong.
+- Answered HAWK's HAW-19 objection request (the `≥45d observed offline` limb was subsequently **DELETED**, HAWK `6dc330417` — HAWK dropped it rather than take my one-clause repair, on the grounds that every flow instrument in that class is AIS-derived so naming one would be cosmetic). Flagged three things HAWK got wrong — **one of which HAWK correctly bounced back as MINE:** see below.
 - Re-pulled war-risk at primaries (no newer print exists); recorded the check **without** advancing the data clock.
 - Archived 3 stale STATUS session blocks to `domain/sources/`; fixed the `CLAUDE.md` KB row-count pointer my own rows had made worse.
 
@@ -39,6 +39,11 @@
 4. **Jazan restart ~2026-08-30** — IIR estimate, never an Aramco statement. Watch, and re-base `ANALYSIS_*.md`'s trigger which still names 8/15.
 5. **Yanbu w/c-8/17 figure** — if it also fails to relay, that is a **third** consecutive non-print and the leg-3 grading basis needs formal re-specification, not another wait.
 6. **War-risk** — 5/5 rows expired; re-pull event-driven. The **registered falsifier (WC Saudi 0.1%) at 28d** is the one that matters.
+
+## ⛔ CORRECTION TO MYSELF — carried forward deliberately
+- **I asserted "OSPREY is not live this session" off `ListAgents`. That was WRONG and it was my error, not HAWK's.** OSPREY and I were **both in-process subagents of HAWK's session**, and that listing does not enumerate a sibling subagent — OSPREY could never have appeared in mine, alive or dead, and I did not appear in OSPREY's. OSPREY made the identical error about me, which is why the GATE-TERRY-006 routing bounced twice.
+- 🔴 **This is the SAME defect I spent the session documenting in `kharg_loadings_watch.py` — a zero from an instrument that cannot see the class is not a zero — arriving in the COORDINATION layer, where I had no habit of checking for it.** The routing point survives (GATE-TERRY-006 is FALCON/TERRY per GATES.tsv row 26); **the liveness claim does not.** Retracted in `reports/2026-08-20_fal04-grade-and-sweep2.md` §12.3 and in the outbox packet; `LESSONS.md` entry added.
+- **Forward rule:** before writing *"X is not live/present"*, confirm the listing's **perimeter** covers X's class — and when you catch a perimeter defect in a DATA instrument, immediately ask where the same defect lives in your COORDINATION instruments.
 
 ## OPEN THREADS / WATCHES
 - 🔴 **`GATE-FALCON-001` leg-2** — open, NOT FIRED. Grades on **TankerMap like-for-like** only.
@@ -51,10 +56,11 @@
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **FAL-04 RESOLVED PARTIALLY 8/20.** Nothing else due. **`FAL-05` is OWED (item 1).**
-- **CLOSED same session:** PROME EXECUTED the GATE-TERRY-006 retirement (`006d32172`) and accepted the spec-batch deferral with cause; nothing further owed to PROME. **Still pending on others:** HAWK on the HAW-19 `≥45d observed-offline` objection.
+- **ALL CLOSED — nothing pending on others.** PROME EXECUTED the GATE-TERRY-006 retirement (`006d32172`) + accepted the spec-batch deferral with cause. HAWK **DELETED** the HAW-19 `≥45d observed-offline` limb outright (`6dc330417`), applied the Sentinel-2 date correction (captures 8/11 / 8/13), owned the GATE-TERRY-006 routing error, downgraded `KB-HAWK-272` to underdetermined on my amendment with **Petroline throughput** named as the next instrument, and blocked the Abqaiq aggregator claim from synthesis. **⚠️ HAWK also recorded that Kharg REFUTES OSPREY's reachability argument** (which rested on *"no crude-export halt has EVER exceeded 7 days"* — true in the Black Sea, false in mine, same window). **FAL-05 is the only thing owed, and it is mine.**
 
 ## MAIL STATE (one line per surface)
 - Inbox: **clear** (5/5 processed). WALTER lane: **clear** (10/10 processed). Outbox: no undelivered items; today's packet routed via SendMessage + NEXUS_BRIEF.
 
 ## PENDING PUSH / GIT (if any)
-- **Local-committed, UNPUSHED — deliberate.** HAWK is orchestrating and owns the push train at closeout; boot card #4 also bars pushing when spawned mid-session with concurrent agents live (8 peer sessions at boot).
+- **Commits `f9365fb87` / `5d63b364a` / `2a8705f6b` are ON ORIGIN** — HAWK discharged the push train and confirmed the tree clean.
+- ⚠️ **ONE LATER COMMIT IS LOCAL AND UNPUSHED** (the OSPREY-liveness retraction + LESSONS entry, made AFTER the push train discharged). **It is flagged to HAWK; if HAWK has gone idle, it rides the next agent's push train — do not leave it stranded.** I did not push it myself per boot card #4.
