@@ -1,7 +1,14 @@
 # HY-widening ATTRIBUTION — who is driving the +19bp
+
+> 🔒 **FROZEN 2026-08-20 — closed-window analysis; not maintained; STATUS + `scripts/boot.py` are canonical. Do NOT cite any level here as current.**
+>
+> **This memo analyses the CLOSED window 7/22 → 7/29 2026. Every level in it — including `HY OAS 287`, `CCC 1013`, `BB 176`, `B 303` — is a correct measurement OF THAT WINDOW and a dead figure as of today.** **The tape has since round-tripped: the 280 line BROKE on 8/3 and HY printed 273 [FRED 8/19].** The +19bp widening this memo decomposes was **retraced**, so the *level* here is history — **the ATTRIBUTION VERDICT below is what remains live and reusable** (broad DM HY beta 68–84% · AI/data-center 15–30% · **bank/CRE ~0bp, HIGH confidence** · energy ~0bp, LOW confidence on a weak instrument).
+>
+> *Banner added because `consumer_check --self` flagged three `287` references here as stale-on-a-live-surface. They are not errors — 287 is this memo's SUBJECT — but `analysis/` is a live directory, so a dated level sitting in it is one careless grep away from being read as current. The fix is the banner, not a rewrite: **the numbers stay exactly as measured, and the container now says what they are.***
+
 **LIQUID · 2026-07-30 ~15:30 ET · PROME-spawned, asked by TERRY (TRY-FIRE-001), REGINALD runs the bank-side half in parallel**
 
-**Window:** 7/22 → 7/29 · **US HY OAS 268 → 287 = +19bp** · FRED `BAMLH0A0HYM2`, own pull 2026-07-30 ~15:10 ET.
+**Window:** 7/22 → 7/29 · **US HY OAS 268 → 287 = +19bp** · FRED `BAMLH0A0HYM2`, own pull 2026-07-30 ~15:10 ET. ⚠️ **SUPERSEDED AS A LEVEL — closed window, see FROZEN banner above; HY OAS is 273 [FRED 8/19] and the 280 line broke 8/3. The +19bp was retraced.**
 **All three seed figures in the tasking re-pulled and CONFIRMED:** HY 281[7/27]/284[7/28]/287[7/29] ✓ · BB 176 / B 303 / CCC 1013 [7/29] ✓ · d/d 7/28→7/29 BB +1.73% vs CCC +0.80% ✓.
 
 **No thresholds moved. RED owns the sustain ruling and it is untouched here. No trade proposals.**
