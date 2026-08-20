@@ -13,9 +13,12 @@ Three legs (the three rules earned 8/12, STATUS item 3):
  (iii) PAIR-SYMMETRY [mechanical, gates rc]: every *_READER_REPORTS.md has a synthesis
        beside it (same prefix) and every Mode-A synthesis created in range has a companion
        (PAT-100/PAT-102; the war-triad shipped the companion WITHOUT the synthesis).
-   (i) CLAIM ENUMERATION [judgment, does NOT gate rc]: side-effect verbs in packets/docs
-       authored in range, printed as a walk-list — verify each against its named surface
-       before closeout. Enumeration was the missing piece; verification stays judgment.
+   (i) CLAIM ENUMERATION [judgment, does NOT gate rc]: side-effect verbs on lines ADDED
+       by my commits in range (diff-scoped 2026-08-20, WALTER 8/17 discharge-path packet:
+       a session can discharge its OWN claims, never the standing corpus — whole-file
+       enumeration re-inflated the list to 483 whenever an old doc was touched), printed
+       as a walk-list — verify each against its named surface before closeout.
+       Enumeration was the missing piece; verification stays judgment.
 
 Exit contract (CHECK_STANDARD §9): 0 clean · 1 FINDINGS (pairing/symmetry violations) ·
 2 CANNOT-CERTIFY (git unavailable, bad range). Leg (i) prints regardless (perimeter-stated).
@@ -105,34 +108,49 @@ def main():
 
     # Leg (i) — claim enumeration (judgment walk-list; never gates rc)
     #
-    # ⚠️ AUTHORSHIP, not merely "touched". This leg exists to surface MY OWN
-    # self-asserted side effects. An INBOUND packet is someone else's claim, and
-    # `git mv`-ing it to processed/ makes it look like a doc I wrote this session.
-    # Measured 2026-08-19: ALL SEVEN flagged claims were PROME's and WALTER's,
-    # surfaced purely because I filed their mail. That is a false-attribution
-    # bug, and it is also how the walk-list inflates into the un-dischargeable
-    # backlog WALTER flagged (2026-08-17): a list mostly made of other people's
-    # sentences cannot be discharged by me, so it gets scrolled past — and a
-    # permanently-red list is silent-green inverted.
-    # Inbound lives at inbox/ (root or processed/) and is EXCLUDED; what I author
-    # into someone else's inbox is under THEIR path, not AGENTS/DAEDALUS/, and so
-    # was never in scope here anyway.
-    def mine(f):
-        return "/inbox/" not in f
+    # DIFF-SCOPED (2026-08-20, closing WALTER's 8/17 discharge-path packet): claims are
+    # read from lines my commits ADDED in range, never from the current whole file.
+    # One mechanism, three defects closed:
+    #   (a) re-inflation — touching an old upgrades/ doc no longer re-prints its
+    #       historical claims (the 483-line un-dischargeable backlog class);
+    #   (b) false attribution — a `git mv` of inbound mail to processed/ adds zero
+    #       lines, so other agents' sentences never enter the list (the 2026-08-19
+    #       measurement: all 7 flagged claims were PROME's/WALTER's, surfaced by filing);
+    #   (c) delivered-packet blindness — the 8/19 fix for (b) excluded every /inbox/
+    #       path, which also dropped packets I AUTHOR into other agents' inboxes:
+    #       the founding PAT-101 instance (a false side-effect claim in a delivered
+    #       packet to PROME). Its docstring said those "were never in scope anyway" —
+    #       wrong about its own filter, and PROME/inbox/ (repo root, not AGENTS/)
+    #       never matched the path test at all. Both re-included below.
+    # My own inbox stays excluded as stated intent (inbound content is not my claim
+    # even when an edit touches it); everyone else's inbox is exactly where my
+    # delivered claims live.
+    def claim_scope(f):
+        if f.startswith("AGENTS/DAEDALUS/inbox/"):
+            return False
+        return (f.endswith(".md")
+                and (f.startswith("AGENTS/") or f.startswith("PROME/"))
+                and any(s in f for s in CLAIM_SCOPE))
 
-    claim_files = sorted({f for c in commits
-                          for f in sh(["git", "show", "--name-only", "--pretty=", c]).splitlines()
-                          if f.startswith("AGENTS/") and any(s in f for s in CLAIM_SCOPE)
-                          and mine(f)
-                          and f.endswith(".md") and os.path.exists(os.path.join(repo, f))})
-    claims = 0
-    for f in claim_files:
-        for n, line in enumerate(open(os.path.join(repo, f), encoding="utf-8",
-                                      errors="replace"), 1):
-            if VERBS.search(line) and not line.lstrip().startswith(">"):
-                claims += 1
-                if claims <= 40:
-                    print(f"· CLAIM {f}:{n}: {line.strip()[:140]}")
+    claims, claim_files = 0, set()
+    for c in commits:
+        cur, new_ln = None, 0
+        for raw in sh(["git", "show", "-U0", "--pretty=", c]).splitlines():
+            if raw.startswith("+++ b/"):
+                cur = raw[6:]
+                cur = cur if claim_scope(cur) else None
+            elif raw.startswith("@@"):
+                m = re.search(r"\+(\d+)", raw)
+                new_ln = int(m.group(1)) if m else 0
+            elif raw.startswith("+") and not raw.startswith("+++"):
+                if cur:
+                    line = raw[1:]
+                    if VERBS.search(line) and not line.lstrip().startswith(">"):
+                        claims += 1
+                        claim_files.add(cur)
+                        if claims <= 40:
+                            print(f"· CLAIM {cur}:{new_ln}: {line.strip()[:140]}")
+                new_ln += 1
     if claims > 40:
         print(f"· CLAIM … +{claims - 40} more lines (raise the cap or narrow --since; "
               f"count is COMPLETE, display is capped — stated, not silent)")
@@ -140,7 +158,7 @@ def main():
     print(f"{'✅' if not findings else '⏰'} complete_check: {len(commits)} commit(s) since "
           f"{since} · pairing checked on {checked} standards commit(s), "
           f"{findings} violation(s) · {pairs} READER_REPORTS pair(s) checked · "
-          f"{claims} side-effect claim line(s) in {len(claim_files)} authored doc(s) — "
+          f"{claims} side-effect claim line(s) ADDED this range across {len(claim_files)} doc(s) — "
           f"WALK THE CLAIM LIST before closeout; leg (i) is enumeration, not verification")
     return 1 if findings else 0
 
