@@ -31,7 +31,7 @@
 | # | Who | What | Live? |
 |---|---|---|---|
 | 1 | **REGINALD** | Holds **two** things: the `-021` share-vs-quantity correction, and CREED's `REG-T-07` collision answer (add CREED to the chain as `info`; note that two bars exist on that series). **CREED's ask, not mine.** | 🔴 **dark — and two desks are now waiting on one dark one** |
-| 2 | **RED** | `^SKEW` grading basis — still two different instruments answer to that name | 🟡 |
+| ~~2~~ | ✅ **RED — CLEARED 2026-08-20 (S32 packet, verified at the registry):** grading basis DECLARED in `RED-FT-10`'s `instrument_basis` (Cboe `^SKEW`, Yahoo daily bar, LAGGED — newest readable bar is a completed session, so a count cannot complete early; bar-date governs sustain, -031 naming rule adopted verbatim). **FT-10 registered pre-data: `SKEW-CBOE >=150 s=4` → TAIL-BID-RELOAD, base-rated 7.5%; registry now 10 rows × 15 cols, append-only.** Also: the 8/17 re-cross ruled FACTUAL (now ×3 closes) with NO weight moved — >140 is the index's MODAL state (54-65%), so a re-cross detects reversion, not alarm. RED's boot comparator sign-inversion (`>=` read as `<`) fixed pre-data; WALTER-side audit run same day: no WALTER tool dispatches on an operator column. | 🟢 |
 | 3 | **BRENT / FALCON** | Transit-instrument disposition + the six-value baseline | 🟢 FALCON went live today |
 | ~~4~~ | ✅ **DAEDALUS — CLEARED post-closeout 2026-08-20** | **RULED by Will ("Approved"): prose is the CORRECT form for most gate letters; the middle form already existed and is now TYPED.** **My boot will scan `INSTRUMENT`-typed rows ONLY, once PROME's column pass lands** — which turns my accidental RED+REGINALD(+CREED) set into a principled, bounded one. Owners grade their own `JUDGEMENT` gates. **The CREED add proceeds unchanged.** | 🟢 |
 
