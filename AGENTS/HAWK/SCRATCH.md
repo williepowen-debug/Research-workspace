@@ -1,69 +1,71 @@
-# HAWK SCRATCH — 2026-08-15 (Sat): full inbox drain + corrections + Row-40 ruling + blockade synthesis
+# HAWK SCRATCH — 2026-08-20 (Thu): the ~8/24 checkpoint work
 
-**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout (step 14). Disposable. Persistent learnings → `MEMORY.md` / `LESSONS.md`; cross-agent twin → `NEXUS_BRIEF.md`.
+**Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (step 2), rewritten in full at closeout (step 14). Disposable. Persistent learnings → `MEMORY.md` / `LESSONS.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (8/10 → 8/15)
+## CHANGES SINCE LAST SESSION (8/15 → 8/20)
 
-- **22-item inbox backlog** (5 direct: BRENT correction, PROME×3, DEWEY; 17 WALTER SIG packets 8/12–8/15) — the fleet's biggest backlog, fully drained this session.
-- **Brent 8/7 close was an intraday print carried as a settle on FOUR HAWK surfaces** ($82.27/−0.27% → correct $83.55/+1.28%, sign flips). Fixed on STATUS, SCRATCH (this file), `KB-HAWK-252`, `NEXUS_BRIEF.md` — the fourth was found on my own sweep, beyond the three BRENT named.
-- **`VX-HAWK-SULPHUR-01` Row-40 basis ruling EXECUTED** (Will batch approval 8/12): basis ruled DELIVERED KOLWEZI, both bands restated at the same $200/$400/$700 thresholds, no threshold moved. Current $900/t delivered now gradable ⇒ **escalates ORANGE→RED** on a fact standing since April, not a new one.
-- **August STEO erratum applied + Rule N6 accepted:** 2027-Q1 OPEC surplus revised 1.57→0.03 mb/d; no-absorber window **lengthened one full quarter** (closes Q2-2027, not Q1). N6 (symmetric extension falsifier branch) accepted ahead of the ~8/20 deadline.
-- **Blockade lane (BRENT-routed 8/13) worked fresh: verdict is REROUTING, not flow denial.** Hormuz redirects 12→55 in two weeks vs flat 2/2 disabled/boarded; Saudi Bab exports −90% vs Sidi Kerir more-than-doubled to 2.3 mb/d via SUMED; insurance (7/24 war-cover restriction) is the lever, not kinetics. Concentration risk flagged: a single Egyptian pipeline now carries a substituted, not removed, chokepoint. Naming flag sent to BRENT/PROME — "Kharg" reads ATTACKED_INFRA_INTACT on BRENT's own ledger; the routed evidence is Hormuz + Red Sea, not Kharg.
-- **Two Gulf-framing corrections recorded (not HAWK-authored, FALCON adjudicates):** Mecca pact is Turkey's accession to a Sept-2025 pact, not a bloc formed from scratch, and explicitly not NATO-style; MOU invoked as live/breached by the Supreme Leader 7/18, a lower revival bar than "formally repudiated" implied.
-- **Cross-theater pattern noted (not adjudicated):** re-strikes on already-impaired assets in both theaters (Sheskharis 8/11-12 and again 8/14; Jazan/Jizan 3rd claim 8/13) with claim-quality falling as each target stays down longer; sits beside the FT "prolonging not damaging" frame, which is explicitly indeterminate.
-- **Mediterranean coverage gap partially closed:** Syria/Russia settled Tartous+Hmeimim 8/9, 3-month conversion clock to ~11/9, framing contested and left unresolved.
-- 5 new KB rows: `KB-HAWK-260` (STEO erratum/N6), `-261` (blockade verdict), `-262` (cross-theater claim-quality pattern), `-263` (LNG target class / Pearl GTL), `-264` (Med corridor + sustainment data).
+- **5-day gap — and the WHOLE WAR TRIAD was dark.** OSPREY's and FALCON's `NEXUS_BRIEF.md` are both still stamped 8/15 ~15:xx ET. My synthesis inputs are 5 days old and every cross-war read now says so explicitly.
+- **~8/24 CHECKPOINT: both Will-ruled conditions BUILT.** (a) `thesis/FALSIFICATION.md` (new). (b) `HAW-19` + `HAW-20` registered. **Book 0 OPEN → 2 OPEN.** The close itself is Will's/PROME's call — I did not declare it closed.
+- **`FLOW-HAWK-19` RE-CUT #2** — folded in four evidence legs that had moved since the 7/25 stamp (BRENT's 8/2 Ras Laffan retraction, its 8/3 DEFERRED qualifier, FALCON's 7/30 gas-shock scope, my own 8/15 TRANSIT/LOADING split) plus the 8/12 capability-independent CPC discrimination. **`FLOW-HAWK-20` first-test stamped** — it had read "untested" for 23 days while its own live test had already run and the pathway lost (Ras Laffan FM → no Taipower rationing).
+- **🔴 TWO BAND-SCORING DEFECTS FOUND ON MY OWN BOOK** — `TWN-01` and `FININFRA-01` are both marked 🟠 ORANGE above the conditions their own Orange bands state. Found by writing the gates as explicit "band X → band Y" transitions, i.e. by using the 7/28 TWN-01 lesson's prescribed fix **as a detector**. **Flagged to PROME/Will, NOT re-marked.**
+- **STANDING INSTRUMENT RULING: the Hormuz transit-count family is IMPEACHED and inadmissible** as a falsifier basis for this desk (BRENT internal + Windward ~58%-dark; six readings 0-12 for adjacent days, zero comparable pairs). `HAW-19` LEG B uses CENTCOM's adjudicated disabled/boarded counts instead.
+- **Absorbed from the dark window: the US-Iran MOU expired by term 8/17**, no deal, no extension. Cost `HAW-19` ~15 points of confidence, and it **raises the ~9/8 falsification bar while killing one of the coupling account's discriminators in the same event.**
+- **Closeout 13a executed** (skipped on 8/15) — `CROSS_THEATER_WAR_RISK.md` re-stamped 8/20, no-change pass, both legs now **+29d/+30d** against a 10-day bar.
+- New KB rows: **`KB-HAWK-267..270`**.
 
 ## WHAT I DID THIS SESSION
 
-1. **Read and dispositioned all 22 inbox items** — see `board_log.tsv` appends and `inbox/processed/` + `inbox/WALTER/processed/` moves.
-2. **Fixed the Brent intraday-print error on all four carrying surfaces** (STATUS, SCRATCH, KB-HAWK-252, NEXUS_BRIEF) plus the downstream ~18%→~17%-below-peak recompute.
-3. **Executed Row 40 (SULPHUR-01 basis ruling)** in `workbook/VX.tsv` — dated re-spec, superseded FCA-ambiguous text preserved verbatim, escalated to RED.
-4. **Applied the August STEO erratum** to STATUS §4 and NEXUS_BRIEF, added `KB-HAWK-260`, accepted Rule N6 and defined its decay/extension branches for the next STEO (~9/9).
-5. **Wrote the blockade-lane synthesis** (new STATUS §5b) — REROUTING verdict, discriminating-instrument definition, concentration-risk flag, naming discrepancy flagged.
-6. **Refreshed the cross-war synthesis** — Novorossiysk/Sheskharis vs CPC distinction, Syria bases, Mecca pact + MOU corrections, Jazan claim-quality ladder, Pearl GTL dated constraint, SPR/DPA sustainment pairing.
-7. **Did NOT touch:** the HAW-18 successor row (still owed, out of this session's scope), the shadow-fleet enforcement lane build, the Marsh primary fetch (still FALCON's).
+1. Registered **`HAW-19`** (70%, IMMOVABLE 9/30) and **`HAW-20`** (65%, IMMOVABLE 10/31) with NO-VERDICT bands, pre-registered non-fires, named instruments, and dated-search-attempt preconditions. Re-totaled the stale scoreboard preamble **without overwriting** the 7/12 line.
+2. Wrote **`thesis/FALSIFICATION.md`** — the successor falsification surface (§1 FLOW-19 kill criteria K1-K4 · §2 FLOW-20 fire criteria · §3 transit decomposition + instrument ruling · §4 per-row dormant gates as band transitions · §5 coupling ladder + the answer to WALTER's 9/8 ask · §7 what it still does NOT cover).
+3. Re-cut `FLOW-HAWK-19`, stamped `FLOW-HAWK-20`, both in `workbook/FLOW.tsv`.
+4. Logged `KB-HAWK-267..270`; compressed STATUS §2/§4/§5/§5b and updated §1/§6/§7/BOTTOM LINE; refreshed `NEXUS_BRIEF.md` with an **external** verification anchor (`PROME/GATES.tsv`/HEARTBEAT) replacing the brief-equals-STATUS check that certified the R3 error on 8/15.
+5. Answered PROME's `catalyst_countdown.py:168` ask: **DISPLAYS, not a gate** — and it is a frozen dead instrument besides.
+6. Four outbox packets: **OSPREY+FALCON** (vessel-leg deviation, objection invited), **BRENT** (KILL-LEG2-TRANSIT is not a cross-check + a CENTCOM-freshness ask), **PROME** (checkpoint built + line-168 + the two band defects + ruled-batch status), **WALTER** (the 9/8 answer).
+7. **Did NOT touch:** the ruled batch items ①②③④⑤ (basis-pair audit still ranks first among cross-desk work), the shadow-fleet enforcement lane, the Marsh primary.
 
 ## NEXT SESSION (dated, future-verifiable)
 
 **A · DO FIRST**
-1. **~9/9 — September STEO.** Grade the N6 decay/extension branches on the 2027-Q2 recovery figure (bar: 2.38 OPEC / 2.35 ME).
-2. **~8/17 — CPC/non-Russian-tanker rung.** Sheskharis re-strikes (8/11-12, 8/14) do NOT count — CPC itself not reported hit either time. Confirm OSPREY ran the direct CPC-status check WALTER flagged, not just absence-of-report.
-3. **`HAW-18` successor row — still owed**, now two sessions deliberately unwritten under time pressure, and **now checkpoint-gating** (Will ruling 8/15 — see STATUS §1 `~8/24` sunset condition). Theater-agnostic, class-explicit, molecule-explicit, DELETE (not repair) the vessel-sinking leg. **A successor falsification surface is also owed** — the checkpoint needs both, not just the row.
-4. **~8/24 MRPL clause adoption test** — currently 1, explicit negative 7/27, now 18+ days unchecked. The most under-maintained thing I own.
+1. **⑤ REFINING-OFFLINE BASIS-PAIR AUDIT — I convene.** Ruled 8/17, runs FIRST among cross-desk items, and **OSPREY's band re-centre is DEFERRED behind it** — my output unlocks their work. Output = a one-page basis-reconciliation table (measure · unit · denominator · what "offline" means per desk).
+2. **~8/17 CPC rung — now days overdue.** Needs OSPREY's **direct** CPC-status check; absence-of-report is not a sourced negative.
+3. **~8/24 MRPL clause adoption test** — 24 days unchecked, and it is the discriminator for branch (c) turning STRUCTURAL. The most under-maintained instrument I own.
+4. **② Guard column into `VX.tsv`** — the content is drafted at `FALSIFICATION.md` §4; it is not yet in the ledger.
 
-**B · AWAITING WILL**
-5. Whether "Kharg blockade lane" was meant literally — if so, that lane is separately FIRM-INTACT (BRENT `RF-002`) and the §5b synthesis needs rescoping.
-6. Prior slate items (clock-vs-event Guard column, US-side dual-event ownership, `CROSS_WAR_SUMMARY.md` mechanize-or-retire, vessel-loss counting dictionary) — carried, not re-worked this session.
+**B · AWAITING A RULING**
+5. **D1/D2 band defects** (`TWN-01`, `FININFRA-01`) — carried at existing marks until Will/PROME rules.
+6. **Sibling objection on the deleted vessel leg** — `HAW-19` is registered, not settled.
+7. **"Kharg blockade lane" naming** — flagged since 8/15, unresolved.
+8. **Direct-drop authorization** — 4 packets sit in `outbox/`; PROME/WALTER doorbelled live, but OSPREY/FALCON/BRENT are not running.
 
 **C · STANDING**
-7. **The 8/8 ladder: ~8/17 (CPC) · ~8/24 (durability) · ~9/8 (written/institutional artifact — the only one that falsifies the coupling account).**
-8. **SUMED/Sidi Kerir concentration watch** — new this session, the chokepoint substitution's own vulnerability.
-9. **Dormant clock → 2026-09-24.**
-10. **War-risk both legs still dark** — Marsh primary 25 days unfetched.
+9. **~9/9 September STEO** — grade the N6 decay/extension branches on 2027-Q2 (bar: 2.38 OPEC / 2.35 ME).
+10. **~9/8 written/institutional artifact** — the only rung that can falsify the coupling account, and the bar just moved (§5a).
+11. **`HAW-19` resolves 9/30 · `HAW-20` resolves 10/31.** Dormant clock **9/24**.
+12. **SUMED/Sidi Kerir concentration watch** — a chokepoint substituted, not removed.
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **HAW-18 successor** — owed two sessions running. **Now checkpoint-gating:** Will ruled 8/15 that the `~8/24` sunset checkpoint cannot close STOOD-DOWN without ≥1 dated, gradeable prediction row + a successor falsification surface on this book (STATUS §1). This is the deadline that makes it more than a hygiene item.
-- 🟠 **Marsh primary unfetched**, 25 days.
-- 🟠 **"Kharg blockade lane" naming discrepancy** — flagged to Will/BRENT/PROME, unresolved.
-- 🟡 **Shadow-fleet enforcement lane still unbuilt.**
-- 🟡 **Instrument-defect family** — still an open fleet checklist proposal (name AXIS/CLASS/MOLECULE/THEATER/ATTACKER).
-- ✅ Closed this session: Brent intraday-print error (4 surfaces) · SULPHUR-01 basis ruling · STEO erratum/N6 · blockade-lane verdict · 22-item inbox drain.
+- 🔴 **Both war-risk legs dark, +29d/+30d against a 10-day bar; Marsh primary unfetched 30 days** (one named individual carrying both the premium and the capacity arithmetic, 403 at both mirrors).
+- 🔴 **Section 338 (Canada +50%) went live 8/19 inside the dark window** — unconfirmed at primary; autos in-or-out of the annex still unresolved.
+- 🟠 **`KB.tsv` has 10 pre-existing ragged rows** (12/14 fields vs a 13-field schema, historical rows 42-94). Mine are correct; flagged, not rewritten.
+- 🟠 **STATUS is 141 lines vs my own ≤120 cap** (down from 153). ⚠️ **The cap measures the wrong dimension** — this file is long single-line paragraphs, so cutting four sections hard moved the line count ~12. Same shape as the 8/3 `MEMORY.md` lines-vs-bytes finding. Raised with PROME; not changed unilaterally.
+- 🟡 **Shadow-fleet ENFORCEMENT lane still unbuilt** on a dead instrument.
+- 🟡 **Replenishment-trigger gap (VIOLET's generalisable half) applies to me**: my dormant re-sweep clock is CLOCK-based, not content-based, and fired 6 days late on 8/10. No boot-time non-empty-forward-set check exists. Logged as owed, not claimed as done.
+- ✅ Closed this session: checkpoint conditions (a) and (b) · FLOW-19 re-cut · FLOW-20 first-test stamp · closeout 13a · PROME's line-168 ask.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 
-- **Nothing open at HAWK.** `HAW-18` remains FAILED (8/4); successor owed.
-- **At Will:** Kharg-naming clarification; prior slate items.
+- **`HAW-19`** OPEN, 70%, resolves **2026-09-30** (IMMOVABLE). **`HAW-20`** OPEN, 65%, resolves **2026-10-31** (IMMOVABLE). Neither is due before the next session.
+- **At Will/PROME:** the checkpoint close itself · D1/D2 · Kharg naming · direct-drop authorization.
 
 ## MAIL STATE (one line per surface)
 
-- **Inbox (root): CLEAR** — 5 direct packets dispositioned and moved to `processed/`.
-- **WALTER lane: CLEAR** — 17 SIG packets (8/12–8/15) dispositioned and moved to `processed/`.
-- **Outbox:** none sent this session — corrections/findings recorded on own surfaces per the packets' own "no reply owed" / "no ask" dispositions; naming-discrepancy flag goes via this SCRATCH + STATUS to PROME/Will, not a separate outbox packet.
+- **Inbox (root): 4 PENDING** — DAEDALUS 8/15 (7 actions; #1 and #2 executed this session, #3-#7 owed), DAEDALUS 8/17 (SFG sweep: `feeds.reuters.com` DEAD and `war_monitor.py` hides it), PROME 8/17 (ruled batch), PROME 8/18 (line-168 — **answered**, packet out). **None moved to `processed/`** — I read them for the checkpoint work but did not run a full disposition pass, so `board_log.tsv` has no rows for them. Deliberate, and it is the next inbox session's job.
+- **WALTER lane: 12 PENDING.** Headline-scanned at boot per `LESSONS.md` 7/25; **three consumed in depth** (`-20260818-001` MOU expiry, `-20260817-004` + `-20260819-011` Hormuz instruments) and recorded at `KB-HAWK-269`/`-270`. The other nine are read-not-consumed — SPR (×4), diesel/gasoline cracks (×2), Jazan 4th-strike miscount, IRGC war-planning cable, Bloomberg ECAN.
+- **Outbox: 4 written 8/20**, none delivered — OSPREY+FALCON, BRENT, PROME, WALTER.
 
 ## PENDING PUSH / GIT
 
-- Session edits: `STATUS.md`, `NEXUS_BRIEF.md`, `SCRATCH.md`, `workbook/KB.tsv`, `workbook/VX.tsv`, `board_log.tsv`, inbox moves. Commit pending at closeout, pathspec-scoped to `AGENTS/HAWK/`.
+- Session edits: `STATUS.md`, `SCRATCH.md`, `NEXUS_BRIEF.md`, `thesis/FALSIFICATION.md` (new), `thesis/PREDICTIONS.tsv`, `workbook/FLOW.tsv`, `workbook/KB.tsv`, `domain/war-risk/CROSS_THEATER_WAR_RISK.md`, `outbox/` ×4. Pathspec-scoped to `AGENTS/HAWK/`.
