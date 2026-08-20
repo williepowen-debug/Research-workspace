@@ -100,6 +100,24 @@
 
 **⇒ NET, and it is a better read than the one shipped this morning: FLG's score of 6 SURVIVES, but its two legs point in opposite directions. Channel 1 is de-risking (level high, trajectory good). Channel 2 is the live concern, and the load-bearing figure is the 29% coverage — NOT the 4.88% nonaccrual rate, which is past its peak.** Anyone acting on FLG should act on the reserve line.
 
+### 🔴 §3b-ii — ACL ROLL-FORWARD (added same evening, answering FLG-desk's promoted Q2b). **The drawdown is NEITHER disposition NOR release.**
+
+Schedule RI-B Part II, FLG, 2026 H1 — **ties to the dollar**: begin $1,029,999K + recoveries $55,488K + **provision $15,923K** − **charge-offs $232,410K** = **$869,000K**.
+
+**⇒ NOT "release"** — provision is POSITIVE every quarter; reserves were never reversed into income. **⇒ NOT clean "disposition"** either — at EGBN the ACL was consumed by disposition *and* the concentration left the balance sheet; here the reserve is eaten by realized losses **and not replenished.**
+
+| | provision | charge-offs | CO/prov |
+|---|---:|---:|---:|
+| FY2023 | $781.1M | $210.7M | **0.3× building** |
+| FY2024 | $1,101.6M | $874.5M | 0.8× |
+| FY2025 | $180.3M | $436.1M | **2.4× draining** |
+| **2026 H1 ×2** | **$31.8M** | **$464.8M** | **🔴 14.6×** |
+
+**Provisioning collapsed −97.1% from FY2024 to the 2026 annualised rate while charge-offs held near half a billion a year.**
+🔴 **$869M reserve ÷ ~$465M annualised charge-offs ≈ 1.9 YEARS of runway** at the current pace, against a still-**$2,988M** nonaccrual book.
+⚠️ **And it reframes the "improving" nonaccrual leg: a nonaccrual rate falling while $232M is charged off in six months is partly MECHANICAL. A rate falling by charge-off is not a rate falling by cure, and the roll-forward nets — it cannot separate them.** Composition is single-name depth ⇒ **FLG-desk's, not mine.**
+⚠️ **Caveats carried: `RIAD` is YTD (the ×2 is my annualisation, not a company figure); 6 of 11 quarters do not tie by the identity (adjustments/M&A, gaps −$12.9M…+$64.8M) though BOTH 2026 quarters tie exactly; and there is no peer base rate on CO/provision yet — 14.6× is not yet established as unusual.**
+
 ⚠️ **This is exactly why §7 says "do not read direction from this table."** A level score cannot distinguish a bank getting worse from one working down a large legacy book — **only the series can, and the series had to be pulled to find that the two channels disagree.** `[[finding_verified_figures_do_not_verify_the_shape_claim]]`
 
 ---
