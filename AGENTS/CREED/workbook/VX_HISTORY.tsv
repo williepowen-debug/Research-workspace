@@ -1,4 +1,6 @@
 # CREED VX_HISTORY — monthly time series for the load-bearing vectors. BUILT 2026-07-27. Append one row per vector per new monthly print at closeout.
+# Last real data refresh: 2026-08-20 -- Trepp Jul series + S8a basis-change row + 3 provider rows for VX-9.03
+# (PAT-044 two-clock header: this line is the CONTENT vintage and is what ledger_staleness.py reads FIRST. Git-commit time is a fallback and lies after any hygiene commit; mtime is corrupted by git sync. Update this line when DATA changes, not when prose is edited.)
 # PURPOSE: a level is not a trend. VX.tsv carries the current value; this file carries the path, so "elevated" can be distinguished from "accelerating" and cure-flattered reversals can be seen for what they are.
 Vector_ID	Date	Value	Status	Notes
 VX-CREED-1.01	2026-01	12.34	RED	Office CMBS DQ — the January ATH for the series

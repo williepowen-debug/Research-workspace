@@ -51,6 +51,7 @@ Read these first:
 | `VX_HISTORY.tsv` | monthly series for the load-bearing vectors — a level is not a trend |
 | `SCHEMA.tsv` | 14-column controlled vocabulary governing `KB.tsv` |
 | `WORKBOOK_DESIGN.md` | design rationale + build record + the five Will-approved §10 decisions |
+| `LEDGER_GLOB` | **NEW 2026-08-20.** Declares which files `scripts/ledger_staleness.py` enforces: **`workbook/*.tsv registry/*.tsv`**. ⚠️ **It exists because `registry/` had been outside ALL staleness enforcement — the exact surface class whose staleness produced K5** (a trigger that sat untrippable for 6 weeks). `THRESHOLDS.tsv` reads `FROZEN` there by design; the rest must read `ok`. |
 
 **Canonical-truth order:** `STATUS.md` > `thesis/THESIS.md` > `research/REFRESH_*.md` > `workbook/`. If the workbook disagrees with STATUS, **STATUS is right and the workbook is stale.** Threshold bands are **frozen terms** (Will, 7/21) — propose, don't edit. Vectors `4.01` (REGINALD) and `1.03`/`6.01` (HOMER) are **shared — reference, don't fork.**
 

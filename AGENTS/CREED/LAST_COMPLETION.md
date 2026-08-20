@@ -71,3 +71,29 @@ REGINALD **concurred on `CREED-T-02`** and updated `REG-T-07` to July — **and 
 **DEFERRED to the QBP spawn, per the ruling:** `T-08a` basis declaration **+ the like-for-like re-anchor rider** (the 0.65pp basis spread is **~6.5% of the 10pp band — the basis choice positions the trigger**) · month-1 band revisit (`DOCKET c4774de88`).
 
 🔴 **WORK ORDER ITEM 1, carried to `SCRATCH.md`: a BOOT-TIME THRESHOLD SCAN.** No boot step reads the registry — **that is `T-02`'s root cause** — and **`T-01a` sits 9bps from its band with the August print due ~early Sept. The 6-week-late fire recurs on a different row unless this is built.**
+
+
+---
+
+## ⑦ SECOND POST-CLOSEOUT ADDENDUM — inbox check surfaced a live defect the packet had tagged `[IN-FLIGHT]`
+
+**Will asked CREED to check its inbox for DAEDALUS traffic. BOTH LANES CLEAN — no new packet.** But reading DAEDALUS's *working files* surfaced **`PAT-117`, minted off a LIVE CREED defect** the 8/20 packet had tagged `[IN-FLIGHT]` with an explicit *"verify, don't assume."* **CREED had not verified it** — it carried the smaller-items list into SCRATCH and **omitted that entry.**
+
+**Verified, and worse than flagged — `THESIS:239` held TWO refuted claims:**
+- **"Nothing FIRED — no signal crossed a hard trigger"**, sitting **ten lines below the `CREED-T-02` fire record** on the canonical thesis surface, asserting **the opposite of the day's headline finding.**
+- **"20/40 — numerically identical to the pre-7/27 composite by pure coincidence."** Correct on the OLD 23/45 composite (23−3=20); **wrong on the current 25/45 (25−3=22). The coincidence the paragraph argued FROM no longer held — the reasoning had gone stale, not just the number.**
+
+**Second live instance, same pass:** `COVERAGE:39`'s blind-spot intro read *"four of the five"* against its own **7-row** table and its own **"5 of 7"** closing line — **and that line had already drifted once and carried a correction note about it. A note about a past drift does not prevent the next one.** Also repaired a blank line that split the table into a **headerless** second table.
+
+⚠️ **Mechanism: a PARTIAL refresh CERTIFIES the unrefreshed remainder.** Both survived CREED's dedicated 8/20 sweep **and** the self-audit of that sweep; `creed_selfcheck` is blind by construction (check 1 is **file-level**). **Both found by DAEDALUS's structural review, not by CREED's guards.** **Promoted to ALWAYS-LOADED trap #8** (block 7 → 8) on the block's own criterion.
+
+## ⑧ FINAL CLOSEOUT
+
+- **STATUS split executed AGAIN — 333 → 264 lines**, archiving the **2026-08-20 MORNING** window (`archive/STATUS_CATCHUPS_2026-08-20_morning.md`). **Fourth enforcement of the 320 trigger; this is the remedy CREED NAMED earlier today rather than a second deferral.** ⚠️ **Unusual same-day archive** — superseded for *current state*, not old; its banner names the canonical home of every load-bearing event it contains (fire → FIRED_LOG, K5/W1 → KB-018/019, PRED-009 → the ledger) **and flags its two same-day-superseded claims.**
+- **`workbook/LEDGER_GLOB` CREATED** (`workbook/*.tsv registry/*.tsv`) — ⚠️ **`registry/` had been outside ALL staleness enforcement, the exact surface class whose staleness produced K5.** Now enforced: all ledgers read `ok`, `THRESHOLDS.tsv` correctly reads `FROZEN`.
+- **PAT-044 two-clock `Last real data refresh:` headers added** to VX / KB / PREDICTIONS / FLOW / VX_HISTORY, so vintage is read from **content** rather than git-commit time (which lies after any hygiene commit) or mtime (corrupted by git sync).
+- **`FLOW.tsv`'s stale `Current [2026-07-27]` COLUMN LABEL retired** — its rows carried 8/20 data (including `FLOW-CREED-02` **FIRED**) under a 7/27 header. **That mismatch is what tripped the ledger nudge**: the content was fresh and the label made it look stale — the inverse of the usual failure, and the same unit-boundary class as trap #8.
+
+**CHECKS (final):** `creed_selfcheck` **exit 0** · `claim_check` **4 files clean** · `orphan_check` **clean — nothing uncommitted outside `AGENTS/CREED/`** · `ledger_staleness` **all ok / THRESHOLDS FROZEN** · `check_memory_length` **OK (71%)** · STATUS **264 lines, under trigger**.
+
+🔴 **NEXT SPAWN IS MANDATORY: FDIC Q2 QBP ~8/24–29 (`CREED-T-03`).** The work order's **item 1 is the boot-time threshold scan** — no boot step reads the registry, which is `T-02`'s root cause, and **`T-01a` sits 9bps from its band with the August Trepp print due ~early Sept.** **Still owed: CORAL's FL feed** — accepted 8/3, blocker gone, **the oldest un-discharged commitment on this desk.**

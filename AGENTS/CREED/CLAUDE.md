@@ -95,7 +95,7 @@ If a task only asks for file hygiene or topology checks, do not make fresh marke
 
 ## Workbook — Boot Staleness Check (LIVE-with-alert, not FROZEN)
 
-The workbook (`AGENTS/CREED/workbook/`, built 2026-07-27) is the **live metric layer** under the prose rails. Eight files: six TSVs — `SCHEMA.tsv` · `VX.tsv` · `FLOW.tsv` · `KB.tsv` · `PREDICTIONS.tsv` · `VX_HISTORY.tsv` — plus `PREDICTIONS_SCOREBOARD.md` and `WORKBOOK_DESIGN.md`. *(Said "Six files" until 2026-08-20 while `README.md` correctly listed eight — the two files disagreed with each other for ~3 weeks. Counts are now checked mechanically at closeout by `scripts/creed_selfcheck.py`.)* **The threshold registry is separate and does NOT live here — see `registry/` below.**
+The workbook (`AGENTS/CREED/workbook/`, built 2026-07-27) is the **live metric layer** under the prose rails. **Nine files:** six TSVs — `SCHEMA.tsv` · `VX.tsv` · `FLOW.tsv` · `KB.tsv` · `PREDICTIONS.tsv` · `VX_HISTORY.tsv` — plus `PREDICTIONS_SCOREBOARD.md`, `WORKBOOK_DESIGN.md`, and **`LEDGER_GLOB`** (added 2026-08-20: the staleness-enforcement declaration, `workbook/*.tsv registry/*.tsv` — ⚠️ **it exists because `registry/` had been outside ALL staleness enforcement, the exact surface class whose staleness produced K5**). *(Said "Six files" until 2026-08-20 while `README.md` correctly listed eight — the two files disagreed with each other for ~3 weeks. Counts are now checked mechanically at closeout by `scripts/creed_selfcheck.py`.)* **The threshold registry is separate and does NOT live here — see `registry/` below.**
 
 **At boot, run:**
 
