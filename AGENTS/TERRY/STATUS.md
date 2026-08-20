@@ -1,6 +1,54 @@
 # TERRY STATUS
 
-> ## ★ CURRENT STATE — 2026-08-20 Thu, session 08:42→**09:3x ET** (`boot.py` WALL CLOCK, copied not inferred). **PRE-OPEN at boot; market opens 09:30. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+> ## ★ CURRENT STATE — 2026-08-20 Thu, session **16:21→16:2x ET** (`date` wall clock, copied not inferred). **POST-CLOSE. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
+>
+> **⛔ `$0` MOVED, NOTHING PROPOSED, NOTHING ARMED, NO THRESHOLD SHAVED.** Boot clean: `ledger_sweep` **CLEAN A–H** (exit 0), 0/0 vs origin, **no pull** (DAEDALUS + WAL dirty outside my dir). Inbox **5 → 0**. Outbox +1 open.
+>
+> ### ✅ PRIMARY TASK DISCHARGED — `GATE-TERRY-007` GRADED, COUNTER STAYS `0 of 5`
+> **8/19 official FRED `DGS10` = `4.65`.** `≥4.50` ⇒ **does not qualify: RULING B does not trigger, RULING C's count does not start.** Decision-table row 1 of the pre-staged procedure; **no proposal, no gate change, `$0` moved.** *(First evaluable input since both rulings were made COLD on 8/19.)*
+>
+> | 8/06 | 8/07 | 8/10 | 8/11 | 8/12 | 8/13 | 8/14 | 8/17 | 8/18 | **8/19** |
+> |---|---|---|---|---|---|---|---|---|---|
+> | 4.69 | 4.65 | 4.72 | 4.70 | 4.68 | **4.63** | 4.68 | 4.72 | 4.71 | **4.65** |
+>
+> **Window low 4.63 ⇒ the gate is ≥13bp away at its NEAREST approach and has never been tested.** ⚠️ **8/20's own official row is NOT yet published** (series ends 8/19); today's `^TNX 4.70` / `^TYX 5.24` are **COUNT-NEUTRAL tape**, not used — recorded so their absence is never mistaken for an unrun check. 🔑 **Graded the PRINT, not the expectation:** PROME's tasking correctly anticipated count-neutral, and the pull ran regardless — a standing expectation of "no fire" is precisely what makes a real fire invisible `[[finding_standing_guard_is_a_false_negative_risk]]`. **Procedure file marked SPENT** so its `8/19 NOT YET PUBLISHED` row cannot be re-read as open `[[finding_live_claim_in_a_closed_container_is_invisible]]`; the **card** holds the graded record. **`PROME/GATES.tsv` NOT touched — packeted instead.**
+>
+> ### 📈 THE BOOK RECOVERED INTRADAY — 0.69× → 0.99× IN ONE SESSION, AND BOTH GATE AXES CLOSED
+> `TRY-FIRE-004` (25× TLT Sep-30 77P, **41 DTE**). **Live 16:22 chain, quote CLEAN (bid 0.11 / ask 0.12, 8.70% spread, OI 1067, no `LOCK`/`XSD`/`DEAD`/`NOBID` flag).**
+>
+> | | 8/20 ~09:3x | **8/20 16:22** |
+> |---|---|---|
+> | TLT | 83.02 *(8/19 cl)* | **82.34 (−0.82%)** |
+> | 10Y / 30Y *(tape)* | 4.65 / 5.19 | **4.70 (+0.92%) / 5.24 (+0.83%)** |
+> | 77P mark | 0.08 | **0.115** |
+> | vs `$0.11563` fees-in basis | 0.69× | **0.99×** |
+> | move needed for `$0.3469` gate | −4.17% @ IV 12.70% | **−2.94% @ IV 13.62%** |
+> | vol-only route | 20.80% IV | **19.32% IV** |
+>
+> **Yesterday's `sb0607` rally round-tripped** — which is exactly WALTER's `SIG-W-20260820-003` finding: **the intervention did not fail, it has not STARTED (9 Sep → 11/4, inside our expiry). "The intervention failed" and "the announcement decayed" are different claims and only the second is supported** — and it cuts both ways: a promise given back in 24h is a cheap promise, and says **nothing** about what $4bn/op does when it actually bids.
+>
+> **🔑 ONE READ THE MORNING'S TOOL DOES NOT GIVE ON ITS OWN: `greeks.py` prices the 77P at `$0.0899` flat-vol while the market marks `$0.115`.** ⇒ **skew is worth ~2.5¢ here, so the tool UNDERSTATES the good case exactly as its own limits declare — the real gate is NEARER than −2.94%.** Do not quote the model's move-needed as the tradeable one. **Disarm side: dormant, 20bp away, and moved AWAY.**
+>
+> ### 📥 FIVE PACKETS CONSUMED (inbox 5 → 0)
+> - **🟠 BOND — 004's 60-DTE review is 19 DAYS OVERDUE** (due 8/01; 41 DTE today) and the input that should dominate it (`sb0607`, **21 of 41 remaining days**) post-dates every gate on the card. Under **root rule #7** this is a **ROLL question, explicitly not a TRIM one.** BOND proposes no strike/expiry/size/cost — correctly, those are mine. **QUEUED AND SURFACED TO WILL, NOT STARTED** — I will not open a roll analysis at 16:2x on the day the position recovered to 0.99×. **This is the desk's one visibly-owed item.**
+> - **REGINALD — the bank-selloff mechanism is a MEASURED NULL, and he killed his own best candidate.** n=26: PC-NDFI −0.255 · all-NDFI −0.120 · NDFI nonaccrual rate −0.063 · size +0.074 · prior run-up −0.024 (crit ≈0.39). **A rho of −0.559 at n=14 died to −0.255 at n=26** — reporting it would have fired a card on noise. REITs **flat** (XLRE +0.03 / VNQ +0.18) while banks fell −4.77% closes the CMBS door. ⇒ **my pre-registered condition #1 ("I can name a mechanism") FAILS.**
+>   - **⚠️ AND THE FRAME IS MIS-SPECIFIED: it is NOT regional, it is BANK-SECTOR.** KBE −4.05 ≈ KRE −4.19 (14bp apart); **C is 3rd-worst of 38**; JPM/BAC are the STRONG-side outliers. **`TRY-FIRE-001`'s rebuild condition #1 is written against "regional" and needs re-specifying — FLAGGED, NOT EXECUTED:** the card's disposition is **PENDING WILL**, and rewriting a rebuild condition while its disposition sits with the approver is the wrong order.
+>   - **🔑 SCOPE CAVEAT THAT RIDES EVERY FUTURE CITE: all of REGINALD's instruments measure CREDIT. The finding is "NOT CREDIT" — never "nothing."**
+> - **🔴 REGINALD (2nd) — his v1 convergence scores are WITHDRAWN and the ranking INVERTED.** Not reproducible (v1's own method computes EGBN 12 vs the 20 carried as canonical; no derivation exists in the repo). v2 is a **different unit — compare RANKS, never points**: FLG 6 (1st, **was LAST**) · EGBN 5 · AMTB 5 · **WAL 2 (mid, was 1st=)** · OZK 2 · CFG 0 (was 3rd). ⚠️ **a v2 `0` is clean on TWO scored channels only, NOT a clean bill of health** — CFG scores 0 holding the cohort's 2nd-largest private-credit book (10.66% of loans). **TERRY carried these on exactly ONE surface, in a "did NOT use" line** (`research/PREREG_cre-exposure-cross-section_2026-08-20.md`) — **annotated in place. ✅ The decision that file records is unchanged and was right for a SECOND reason: the numbers I declined to substitute were also wrong.**
+> - **RED — `TRY-FIRE-006`'s premise was UNGRADED at retirement, NOT refuted.** Both branches stalled in opposite directions (MOU expired 8/17 no extension; 20 consecutive quiet nights, FALCON-verified 8/19; the one sinking was Bab el-Mandeb = wrong theater, barrels rerouted not lost). **Record value: a future Kharg zero-loadings print would not be REVERSING a premise ruling.** Nothing owed.
+> - **WALTER `SIG-W-20260820-003`** — levels above. Also: **"Germany 5Y highest since 2008" borrows 2008's weight while sitting 180bp BELOW it** (ATH 4.79%, Jun-2008); the **30Y at a 19-year high is the real datum.** Sovereign panel timestamps (`22:30:2x`) may not be like-for-like ⇒ its US-vs-Europe divergence is **UNVERIFIED**, not evidence.
+>
+> **📋 PROME CONSUME-SET (via `SendMessage`):** `TRY-FIRE-002` premise weakened ⇒ **stays dormant, do not build** (my own condition #3 decides it, no re-litigation) · **WAL v2.4** overvaluation 5.4%, live Sep-18 cores below its own EV — construction-lane awareness only, **no action, Will has it** · **BND-17 TRUE +8.28pp** = grind-side context for 004, **encoded nowhere.**
+>
+> **⏰ Watch:** **8/20 official DGS10 publishes next session** (today's row not yet out) · **9/9 `sb0607` window opens — 21 of 004's remaining days, back half** · **9/11 Aug CPI + 9/15-16 FOMC, both INSIDE the buyback overlap** · 8/21 OPEX.
+> **Still open on Will:** **004's overdue 60-DTE / ROLL review (BOND-flagged, NEW)** · `TRY-FIRE-001` disposition (retire card / preserve premise un-graded — REGINALD's null strengthens it) · 135C management stub · day-trade captures since 8/4 · SAM §6 branch · QQQFA.
+
+---
+
+
+> *Superseded banner — **2026-08-20 Thu 16:2x ET.** Read the CURRENT STATE block above for the operative version. ⚠️ Its `⏰ Watch` line ("TODAY ~4:15PM DGS10 8/19 official — B/C first evaluable") is **DISCHARGED**, not pending.*
+>
+> ## ~~★ CURRENT STATE~~ — 2026-08-20 Thu, session 08:42→**09:3x ET** (`boot.py` WALL CLOCK, copied not inferred). **PRE-OPEN at boot; market opens 09:30. READ THIS BLOCK FIRST; EVERYTHING BELOW IS DATED HISTORY, OLDEST FIRST.**
 >
 > **⛔ `$0` MOVED, NOTHING PROPOSED, NOTHING ARMED, NO THRESHOLD SHAVED.** Boot clean (sweep CLEAN incl. the new CHECK H, inbox 0, 0/0 vs origin; SAM live mid-session so no pull). Will-directed options-research grading + PROME catch-up set, both discharged.
 >

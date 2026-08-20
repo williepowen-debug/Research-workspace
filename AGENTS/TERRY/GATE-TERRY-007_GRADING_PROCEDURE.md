@@ -4,6 +4,8 @@
 **Card:** `setups/FLOW-TRIGGER_duration-TLT-put.md` (`TRY-FIRE-004`, 25× TLT Sep-30 77P)
 **Gate:** `GATE-TERRY-007` — `PROME/GATES.tsv`, registered 2026-08-19.
 
+> ✅ **EXECUTED 2026-08-20 Thu 16:25 ET — SPENT. DO NOT RE-RUN AS IF PENDING.** The 8/19 official published at **`4.65`** (≥ 4.50) ⇒ **decision-table row 1: counter stays `0 of 5`, nothing proposed, `$0` moved.** The graded record lives on the **card** (`setups/FLOW-TRIGGER_duration-TLT-put.md`, RULING B/C block), which is the authority; this file is the spent checklist. ⚠️ **§2's table below is the PRE-RUN state and is now dated history — its `8/19 NOT YET PUBLISHED` row is resolved, not open.** A fresh close needs a fresh pull, not this file's table.
+>
 > ⛔ **THIS FILE DECIDES NOTHING AND GRADES NOTHING.** It is the checklist so the 4:15 session executes rather than re-derives. **Rulings B and C are Will's, encoded verbatim 8/19 — this procedure may not reinterpret them.** If the data disagrees with this file, **the data wins and the card's ZONE-1/F9 text wins over this file.**
 
 ---

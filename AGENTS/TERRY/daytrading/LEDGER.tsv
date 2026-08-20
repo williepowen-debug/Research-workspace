@@ -1,3 +1,9 @@
+# TERRY daytrading/LEDGER.tsv — day-trade review ledger. LIVE (not frozen). Subordinate to the thesis book (Will 6/27); standing loop, not trigger-gated.
+# Last real data refresh: 2026-08-03  |  Last staleness check: 2026-08-20 (TERRY)
+# BLOCKED ON INPUT, NOT ON THIS DESK: rows are cut from Will's captures dropped to inbox/WILL/. That zone has been EMPTY since 2026-06-27;
+#   the last review row is 2026-08-03. 'day-trade captures since 8/4' is already a STILL-OPEN-ON-WILL item, so the gap is the SAME gap, not a second one.
+# Not FROZEN on purpose: the loop is standing per Will and resumes the moment a capture lands. This two-clock header exists so the staleness is
+#   CONTENT-DERIVED and visible (root Data Hygiene / PAT-044) instead of being inferred from a STATUS-write counter.
 review_date	window	tdays	executed	canceled	cancel_rate_pct	both_ways_rt	overnight_W	overnight_L	long_call_entries	naked_short_open	headline_pnl	floor_pnl	clean_pnl	rules_violated	repeat_mistakes	notes
 2026-06-23	6/16-6/23	5	153	39	20.2	45	0	3	7	1	3336	719	460	R1;R2;R3;R4;R5	none(baseline)	Intake=activity-feed; assignment+roll-strikes UNKNOWN; 6/23 crash day; long_call_entries approx (directional/upside bets excl scalp legs); clean edge=AAOI/CCL puts +460
 2026-06-24	5/1-6/23	29	357	UNK	UNK	28	16	6	65	0	2952	2952	2952	R2;R4;R5	R5_expiry_holds;R2_postmove_chase(MRVL)	Intake=Robinhood CSV (re-bases S1). 0 STO verified -> realized FIRM +2951.67 (no short/assignment range). Leak=options held to $0 expiry -2793/19 threads. puts +2347 vs calls +604. QQQ +3044 engine. overnight 16W/6L +3464 (NOT a leak, reverses S1). cancel-rate not in CSV. open-book cost -3883 (MRVL 277.5P $1300 worst). marks=qualitative (yf down)
