@@ -80,8 +80,14 @@ I had never once asked how big the carry trade was **relative to the flows it wa
 ⚠️ **THE ARITHMETIC INVERTS IF THE TRUE TRADE IS LARGE.** At $14.8B the speculative short is trivially smaller than the structural flow and §3 follows. **At $300–500B it is comparable to or larger than the unhedged book, and §3 collapses** — positioning would then be perfectly capable of setting the level, and I would be back to explaining why it didn't.
 
 > ### ⛔ **THIS CANDIDATE MAY NOT BE PROMOTED UNTIL THE YEN CARRY TRADE IS SIZED FROM A SOURCE THAT SEES BEYOND CFTC FUTURES.**
-> **Instrument: BIS locational banking statistics / BIS FX derivatives statistics** (yen-denominated cross-border claims; FX swap outstandings). ⚠️ **Semi-annual and heavily lagged** — that lag is a real constraint on this candidate and must not be wished away.
+> **Instrument: BIS locational banking statistics / BIS FX derivatives statistics** (yen-denominated cross-border claims; FX swap outstandings).
 > **This is the single highest-value unpulled item on my desk**, has been in the research backlog since Will's 2026-06-15 brainstorm, and is now the *blocker*, not a nice-to-have.
+
+> 🔧 **CORRECTED 2026-08-20 (Will/PROME ruling) — MY OWN FRAMING OF THIS BLOCKER WAS WRONG, AND THE CORRECTION CONVERTS IT FROM A CALENDAR PROBLEM INTO ONE SESSION OF WORK.**
+> This section originally read *"semi-annual and heavily lagged — that lag is a real constraint on this candidate and must not be wished away."* **That is true of FRESH data and irrelevant to the question actually being asked.**
+> **The blocker is an ORDER-OF-MAGNITUDE question, not a level question: is the unseen carry trade nearer $15B or $300–500B? The two answers differ by ~20×, not 20%.** A **2025-vintage** BIS print settles that, because nothing plausible moves a stock of that size by an order of magnitude inside a year. **A stale number is fully sufficient to determine whether the arithmetic in §2 inverts.**
+> ⚠️ **Class, and it is one I hit twice today already: I treated a constraint on PRECISION as a constraint on ANSWERABILITY, and let it read as a reason to wait.** *(Cf. `[[finding_unfetched_is_not_unavailable]]` — classify PUBLIC-AND-UNFETCHED before flagging anything blocked.)*
+> ✅ **DISPOSITION: pull the latest available BIS vintage next session, myself. Escalate to a DEWEY deep-research prompt ONLY if the answer is genuinely inconclusive at order-of-magnitude resolution** — not if it is merely old.
 
 **I am recording it as a blocker rather than a caveat because it is the difference between a thesis and a story that fits.**
 
@@ -121,14 +127,15 @@ I had never once asked how big the carry trade was **relative to the flows it wa
 - ❌ Not that intervention doesn't work — the 7/30-31 ops moved it ~6 yen. **Official flow is large enough; speculative flow is not.** That is the same claim, not a contradiction.
 - ❌ Not a claim about Japan's *domestic* bond market, which is doing something real and separate (Pillar 2, live).
 
-## 10. 🔴 WHAT RED SHOULD ATTACK (my own list, written before RED sees it)
+## 10. 🔒 AUTHOR'S ATTACK LIST — **DELIBERATELY WITHHELD**
 
-1. **§2 is notional arithmetic.** Notional ≠ market impact. Leverage, reflexivity and flow-through are unmodelled. **Is a $15B position with 10x reflexive follow-through equivalent to $150B of flow?** If yes, §3 weakens badly.
-2. **The intervention comparison is not like-for-like** — ops are concentrated into hours; positioning builds over months. **A per-day flow comparison may be the wrong metric entirely.**
-3. **§4 is a fit, not a test.** Seven observations explained after the fact by one mechanism is exactly what a good story does. **Which of the seven could have come out the other way?**
-4. **The structural flow may not be exogenous.** If Japanese institutions buy foreign bonds *because* the yen is weak, flow and level are jointly determined and "flow sets level" is a mislabelled correlation.
-5. **§8's unification is suspiciously tidy.**
-6. **Survivorship:** I am building this from the wreckage of a frame that failed. Is this the mechanism, or the first coherent story available after a loss?
+**I wrote my own list of the attacks I expected, before any reviewer saw this. It is NOT in this file, by ruling (Will/PROME, 2026-08-20).**
+
+> **Handing a reviewer the author's attack list anchors them on those attacks and crowds out the ones the author could not think of — which are precisely the valuable ones.** My original draft shipped that list inside this document, which would have done exactly that damage.
+
+**It is sealed at `thesis/V20_CANDIDATE_SELF_ATTACK_SEALED.md` and opens only AFTER RED's blind pass returns**, at which point the two lists are cross-read. **Convergence discovered that way is evidence; overlap known in advance is not.**
+
+⚠️ **RED: do not open the sealed file. Anything you find that is NOT on my list is the highest-value output of this review.**
 
 ---
 
