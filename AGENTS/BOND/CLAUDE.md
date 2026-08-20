@@ -168,7 +168,14 @@ All inter-agent communication lives in flat folders:
   inbox/           ← inbound signals from other agents (WALTER lane + direct/PROME-routed drops)
     processed/     ← signals you've integrated (move here after processing)
   outbox/          ← outbound signals you write for other agents
-    delivered/     ← signals confirmed delivered/read (HERMES is deprecated — delivery is degraded pending the messaging overhaul; don't build on it)
+    delivered/     ← signals CONFIRMED delivered — move a packet here only after verifying the CONTENT reached the recipient
+                     ⚠️ CREATED 2026-08-20. This line documented the directory for months and IT DID NOT EXIST, so nothing ever left
+                     `outbox/` and sent packets were indistinguishable from orphans. A 2026-06-05 VIOLET ask sat undelivered for 76 days
+                     while `CDX_CASH_BASIS.md` carried an open checkbox waiting on it. **Writing a packet is not sending it.**
+                     ⚠️ AND VERIFY BY CONTENT, NOT FILENAME: a filename scan flagged 7 of 22 as orphans; HENRY demonstrably HAD the
+                     7/23 HEN-42 packet (their files quote "BOND VOTES CONFIRM") under a different filing convention. A scan keyed on
+                     naming reads local form as absence (`[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`), and
+                     "did it arrive?" is not "do they know?" (`[[finding_delivery_check_is_not_a_knowledge_check]]`) — grep the owner's KB.
   RECEIPT.md       ← processing receipt (overwritten each run)
 ```
 

@@ -60,8 +60,13 @@ sys.path.insert(0, str(REPO / "FORGE" / "tools" / "market-data"))
 
 TODAY = dt.date.today()
 
+# SCRATCH and RECEIPT added 2026-08-20 after an audit found the checker had
+# missed a killed framing sitting in SCRATCH.md -- boot read #2, the canonical
+# "where are we" handoff. A checker that skips the file the next session reads
+# FIRST is scoped wrong.
 LIVE_SURFACES = ["STATUS.md", "TRADE.md", "NEXUS_BRIEF.md", "PROTOCOL.md",
-                 "CLAUDE.md", "thesis/THESIS.md", "docket/CATALYSTS.tsv"]
+                 "CLAUDE.md", "thesis/THESIS.md", "docket/CATALYSTS.tsv",
+                 "SCRATCH.md", "RECEIPT.md"]
 
 # A line carrying one of these is ALREADY marked as historical/corrected.
 # Flagging it again is the noise that trains a desk to ignore the tool.

@@ -16,7 +16,7 @@
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **🔴 THU 8/20 1PM — 30Y TIPS REOPENING $8B `912810US5`.** Level referendum vs DFII10 (n=3 benchmark, NO composition gate — n=3 cannot support one). **This is BND-14's pre-registered second test** — grade it before any VX-BND-08 move. Run `grade_auction.py --cusip 912810US5` (reopening trap is guarded). *(Same day: SAM's JGB 20Y — different sovereign, do NOT fuse.)*
+1. **🔴 THU 8/20 1PM — 30Y TIPS REOPENING $8B `912810US5`.** ⚠️ **CORRECTED 8/20 ON THIS SURFACE (it was corrected on PROME's the same morning and I left mine standing — flagging a defect is not fixing it, `[[finding_record_of_an_action_is_not_the_action]]`): this is NOT "BND-14's second test" — `BND-14` is a SINGLE-EVENT row that RESOLVED FALSE 8/19, and its bar is the 20Y NOMINAL median 64.95%, the wrong instrument entirely against a 30Y TIPS. And the benchmark is NOT n=3: `grade_auction.py` returns a trailing-7 SAME-TIPS window, n=7, indirect median 76.17%. `BND-17` was registered pre-print against it (45%, Will-directed calibration row). The no-composition-GATE ruling stands.** *(Superseded original text:)* Level referendum vs DFII10 (n=3 benchmark, NO composition gate). ~~This is BND-14's pre-registered second test** — grade it before any VX-BND-08 move. Run `grade_auction.py --cusip 912810US5` (reopening trap is guarded). *(Same day: SAM's JGB 20Y — different sovereign, do NOT fuse.)*
 2. **🟠 Ratify-or-decline SAM's 4-week-rolling foreign-LT-flow form** (BND-11 successor terms; single-week form stood down at 0.49σ). Datum in hand: +¥1,629B week / 4wk +¥572B.
 3. **🟡 8/24 — Will's HELD sovereign-CDS sub-item** (establish existence/pullability BEFORE any threshold).
 4. **🔴 8/29 — T6 hard close + HEN-42.** T6 trigger last measured NOT FIRED (28.5/30.0 vs <25, 8/18). C-36 decline expires with HEN-42's resolution.
@@ -28,7 +28,7 @@
 
 ## MAIL STATE
 
-- **Inbox: FULLY DRAINED.** 7/7 general + 9/9 WALTER-lane consumed and `git mv`'d to `processed/` this session. DAEDALUS SFG packet disposed (3 ACTIONs verified landed 8/18; 4th — fr2004 stderr-only STALE banner — **fixed this session**, moved to stdout). PROME Kalshi-BOJ pin noted (desktop-only op; SAM owns BOJ — context only). PROME superlative-discipline packet: already encoded in MEMORY 8/18; the discipline was exercised this session (the 5.2040 superlative computed at write time, window stated).
+- **Inbox: DRAINED AGAIN 2026-08-20** (this line's 8/19 "FULLY DRAINED" was caught as FALSE by `closeout_check.py` once SCRATCH came into its scope — 1 general + 3 WALTER-lane had landed since). **8/20 consumed:** SAM exceedance packet · WALTER `-003 ADDENDUM 4b` (`KB-BND-149`) · WALTER `-001` BOJ + its RETRACTION (`KB-BND-150`, context-only). *(8/19 record:)* **FULLY DRAINED.** 7/7 general + 9/9 WALTER-lane consumed and `git mv`'d to `processed/` this session. DAEDALUS SFG packet disposed (3 ACTIONs verified landed 8/18; 4th — fr2004 stderr-only STALE banner — **fixed this session**, moved to stdout). PROME Kalshi-BOJ pin noted (desktop-only op; SAM owns BOJ — context only). PROME superlative-discipline packet: already encoded in MEMORY 8/18; the discipline was exercised this session (the 5.2040 superlative computed at write time, window stated).
 - **Out:** delivery memo to PROME (outbox, with COMPLETION block). No 🔴-acute outbox signals — nothing acute fired.
 
 ## CLOSEOUT

@@ -1,60 +1,56 @@
-# BOND Receipt — 2026-08-20 (Thu, boot ~08:4x → ~09:3x ET)
+# BOND Receipt — 2026-08-20 (Thu, 08:4x → 11:0x ET, ongoing; auction 1PM)
 
-**Session:** boot + SAM inbox packet processed (Will-directed). PROME tasking received mid-session ~09:2x.
+**Session:** boot → SAM packet → BND-17 pre-registration → Will-requested core-file sweep → two checkers built → **fix-verification audit (this section).**
 
 ## Inbox
 
-| File | Action | Why | Workbook rows | STATUS change | Outbox |
-|---|---|---|---|---|---|
-| `2026-08-20_from-SAM_4wk-rolling-sigma-and-n-answered-plus-first-datum-on-the-ratified-form.md` | **INTEGRATE** → `processed/` | §1 σ/n is the input to a gate BOND owns; §2 is the first datum on the ratified form; §3 is a self-reported scope defect landing inside BOND's own 8/10 sovereign-credibility scope | `KB-BND-141`, `KB-BND-142`, `KB-BND-143` | Header entry (scoped) + 2 carried figures fixed + new cross-section block | `2026-08-20_to-SAM_bar-DECLINED-with-two-named-blockers-plus-common-factor-answered.md` (delivered to `AGENTS/SAM/inbox/`) |
+| File | Action | Workbook | Outbox |
+|---|---|---|---|
+| `2026-08-20_from-SAM_4wk-rolling-sigma-and-n-answered…` | **INTEGRATE** → `processed/` | `KB-BND-141/142/143` | reply → SAM inbox |
+| `2026-08-20_from-SAM_exceedance-both-ways…` (doorbell) | **INTEGRATE** | `KB-BND-144/145/146` | bar ruling → SAM |
+| `SIG-W-20260820-003` (WALTER lane) | **INTEGRATE** → `WALTER/processed/` | `KB-BND-147` | — |
 
-**WALTER lane:** empty at boot — nothing to process. **General inbox: DRAINED** (0 residue).
+**Inbox: general 0 residue · WALTER lane 2 unprocessed** (`SIG-W-20260820-001` + its RETRACTION — BOJ/SAM domain, context-only, deliberately left).
 
-## Rulings made
+## Decisions
 
-| Item | Ruling |
+| Item | Outcome |
 |---|---|
-| SAM's 4wk-rolling σ/n (5 windows, σ ¥1.851–2.427T) | ✅ **ACCEPTED** |
-| SAM's mean/median-centring point | ✅ **ADOPTED** — a zero-centred bar would report a structural property (Japan = structural net buyer) as signal |
-| **The numeric bar** | ⛔ **DECLINED THIS SESSION**, two named blockers — rules same session on receipt of the ask |
-| Left-skew ⇒ two-sided base rates | 🆕 **BOND finding**, added to the spec (mean +¥0.648T < median +¥0.723T; min is 1.20× further from median than max ⇒ fat tail on the **selling** side) |
-| First datum (+¥2.44T ≈ +0.96σ) | Logged, **fires nothing** — no bar exists |
-| SAM's §3 common-factor defect | ✅ **ANSWERED with numbers** from three issuer primaries |
+| SAM 4wk-rolling **bar** | **RULED** — SELL WATCH −¥2.054T / ESCALATE −¥2.979T, quoted **de-clustered**. `±1.0σ` rejected because the overlap bias is worst at the loosest bar. **Frequency-calibrated ONLY; separation vs UST outcomes never tested; fires nothing alone.** |
+| DM sovereign cross-section | **BUILT** (US/EA/UK/AU at issuer primaries) — the Will-ruled 8/10 scope claimed it existed and it did not |
+| `BND-17` | **PRE-REGISTERED** pre-print, 45%, indirect ≥76.17%, EVENT-anchored, VOID branch. Calibration row, nothing rides on it |
+| Benchmark n=3 → **n=7** | Reconciled on STATUS ×2, CATALYSTS, AUCTION_HEALTH |
+| **H3 cross-section read** | 🔴 **RETRACTED same session** — a one-week artifact; at 3wk Japan ranks FIRST, the opposite signature |
 
-**Why the bar was declined (both discharge-able):** **(1) OVERLAP** — a 4wk rolling sum sampled weekly shares 75% of its data with its neighbour, so n=1,125 is ~281 non-overlapping blocks; σ survives as a dispersion estimate but any **exceedance frequency over-counts by up to ~4×**, making a bar look better-calibrated than it is. **(2) SEPARATION** — the series is foreign LT debt **globally**, so a UST-demand gate inherits an unknown, time-varying US share. Ask sent: exceedance counts computed **both ways** (all obs AND de-clustered episodes), each side quoted separately, plus whether MOF publishes a destination cut.
+## 🔴 FIX-VERIFICATION AUDIT (Will: "did we address the defects we found?")
 
-## Built this session
+**Verified at the artifacts, not from memory.** 24 of the day's defects confirmed fixed. **Five were NOT, and were found only by auditing:**
 
-**DM sovereign long-end cross-section** (`KB-BND-143`) — US `DGS10`/`DGS30` [FRED, daily] · EA AAA 10Y `B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y` [ECB SDW, daily, 8/19] · AU 10Y `FCMYGBAG10D` [RBA F2, n=3,331, ~1wk lag, 8/12].
+| Gap | Why it survived | Now |
+|---|---|---|
+| `SCRATCH.md` still carried the killed *"BND-14's second test"* + n=3 | I flagged it, **PROME fixed their surface, I never fixed mine** — flagging is not fixing | ✅ corrected |
+| `KB-BND-145` still `ACTIVE` after `KB-BND-148` retracted its inference | KB hygiene ran on `Stale_By` dates, not on same-day retractions | ✅ → `CORRECTED`; numbers stand, conclusion does not |
+| `RECEIPT.md` 2h stale | written mid-session, never refreshed | ✅ this file |
+| **VIOLET ask orphaned 76 days** | packet written + committed to `outbox/`, **never delivered**; `CDX_CASH_BASIS` carried an open ⬜ waiting on it | ✅ re-sent restated (not the stale June text); ⬜ dated + `re-test: 2026-09-20` → retire the clause if silent |
+| **`outbox/delivered/` did not exist** | documented in `CLAUDE.md` MAIL for months; never created, so sent ≠ orphan was indistinguishable | ✅ created; doc corrected |
 
-⚠️ **The Will-ruled 8/10 forum scope claimed this desk already ran this as "a standing series at BOND's own primaries." It did not exist, for 10 days, and no surface said so — an outside desk's ask is what found it.** Will-ruled text NOT edited unilaterally.
+⚠️ **And a correction to my own audit method:** a filename scan flagged **7 of 22** outbox packets as orphans. **That over-counts.** HENRY demonstrably *has* the 7/23 HEN-42 content — their files quote *"BOND VOTES CONFIRM"* — filed under a different convention. A scan keyed on naming reads local form as absence; "did it arrive?" is not "do they know?" **Confirmed orphan: VIOLET (zero trace on a content grep). Confirmed delivered: HENRY. Five remain UNVERIFIED — owed, `re-test: 2026-08-27`, content-check each, do not redeliver stale text.**
 
-**Result, like-for-like 7/13→8/12:** EA AAA 10Y **+4.1bp** · US 10Y +6.0bp · US 30Y **+14.0bp** · AU 10Y **+14.0bp** ⇒ common **direction**, not common **magnitude** (3.4× spread); common component at the 10Y bounded above by **~+4bp**. Supplied to SAM as the discount on their 9/3 H2 verdict. ✅ WALTER's relayed "AU through 5%" **verified at the RBA primary (5.013)**. ❌ FRED OECD DM series **rejected on cadence** (monthly, latest 2026-06-01).
+⚠️ **My own new checker missed all five** — `SCRATCH.md` and `RECEIPT.md` were outside its scope, and `SCRATCH` is *boot read #2*. Scope extended.
 
-## Other corrections made
+## Built
 
-- **2 carried figures fixed** (found by `boot_recompute.py`'s own paste-check): 30Y dashboard Current read **5.31 [8/17]** against a published **5.28 [8/18]**; T5YIFR read **2.33 [8/18]** against **2.32 [8/19]**.
-- **`thesis/THESIS.md` mirror fix** — it carried a hardcoded live `DFII10` level ("2.41 / 96th / n=5,909"). Still accurate on the day it was caught, guaranteed to rot; converted to a pointer to STATUS. **Mirror-hygiene, not a thesis change — no version bump, no CHANGELOG entry.**
-- **STATUS line-cap:** 252 → **244** (cap 250). `DGS30` maximal-run table archived → `domain/sources/2026-08-18_DGS30_maximal_run_table.md` with its now-stale `CURRENT` row explicitly frozen and bannered; pointer left in STATUS.
-- ⚠️ **UNRESOLVED, deliberately not reconciled: TLT is double-marked for 8/19 — $82.89 +1.50% [CONF PROME] vs $83.02 +1.67% [yfinance].** Not load-bearing on any gate. Flagged, not silently picked.
-
-## 🔴 Flagged to PROME (time-sensitive, pre-1PM)
-
-**Today's 30Y TIPS is NOT "BND-14's second test."** `BND-14` is a **single-event** prediction (Timeframe: *"2026-08-19 (single event, resolves same day)"*) and **RESOLVED FALSE on 8/19, margin −2.02pp.** Its bar is the **20Y NOMINAL** trailing-12 median **64.95%** — applying it to a **30Y TIPS** would be the wrong-tenor/wrong-instrument defect `PROTOCOL.md` was re-specified for on 8/18. **My own SCRATCH wrote this first and PROME's tasking inherited it.** ⇒ Today is an **unpredicted, ungated level referendum** (n=3 benchmark, no composition gate by prior ruling). **A scored test requires pre-registering a NEW prediction before 1PM, not inheriting a closed one.**
-
-## Closeout guards
-
-| Guard | Result |
+| Tool | Purpose |
 |---|---|
-| Step 4 DUE-scan | Only `BND-15` OPEN, in-window — **nothing DUE** |
-| Step 5 `docket_check.py` | **rc=0** — all 5 coupon auctions in the 21-day window docketed, CUSIP-keyed |
-| Step 6 `boot_recompute.py` | Ran, 16 cache entries busted; 2 carried figures caught (above) |
-| Step 16 unavailability sweep | **3 new claims caught in my own new text** — all patched with dates + `re-test:` triggers (AU-lag limit: every boot, self-discharging · UK leg: by 2026-09-03 · FRED OECD cadence: 2026-11-01) |
-| Step 17 mirror-consistency | PREDICTIONS OPEN {BND-15} ↔ STATUS ✅ · CATALYSTS ↔ STATUS event set ✅ · composite 12/35 re-summed, unchanged ✅ · **THESIS live-value defect found and fixed** (above) |
-| KB integrity | Field-counted whole file after write — **143 rows, all 13 fields, zero ragged** |
+| `monitors/closeout_check.py` | **THE closeout invocation** — both checks, one fetch, one rc. `--selftest` = 12 real shipped defects |
+| `monitors/assertion_check.py` | stale **assertions** (no number to catch): directional · file-state · expired · capability |
+| `boot_recompute.py` (extended) | prints TRADE.md's **gate table**; drift-checks boot-unread surfaces; `rc=1` |
 
-**Composite: 12/35 — UNCHANGED. No vector moved; nothing crossed a pre-registered line.** Position unchanged: **TLT puts HOLD, no add** (DFII10 2.41 [8/18], 9bp from the only live add-gate).
+**Checker defects found and fixed by their own tests:** cried wolf 16→0 · `not free` inside "not FREE**ze**" · duplicated regex validating the copy nobody runs · unspecified lookback letting the *checker* pick the verdict (`KB-BND-148`, reproduced inside the tool built to catch it) · a citation of a defect flagged as the defect.
 
-## Git
+## State
 
-Committed path-scoped to `AGENTS/BOND/` + the self-authored packet in `AGENTS/SAM/inbox/` (carve-out ①). Auto-push via `scripts/safe-push.sh`.
+**Composite 12/35 unchanged · TLT puts HOLD, no add · DFII10 2.41 [8/18], 9bp from the only live add-gate, moved AWAY.**
+**OPEN predictions: `BND-15`, `BND-17`.** Closeout pass: **rc=0 clean.** Git: committed path-scoped + auto-pushed, verified on origin by path.
+
+**Next:** 1PM 30Y TIPS `912810US5` — grade at frozen bars, doorbell PROME.

@@ -80,5 +80,5 @@ True **CDX.HY / CDX.IG index levels are owned by S&P Global / Markit and are NOT
 ## Automation Status
 
 - ✅ Free proxy wired (`cdx_proxy.py`) — repeatable, no auth needed.
-- ⬜ Synthetic/options leg: request HYG put-skew from VIOLET (BOND-blind).
+- 🟡 Synthetic/options leg: HYG put-skew from VIOLET (BOND-blind). ⚠️ **This checkbox read ⬜ for 76 days against a request that was NEVER DELIVERED** — the 2026-06-05 packet was written and committed to `outbox/` and never reached VIOLET's inbox. **Writing a packet is not sending it.** **RE-SENT 2026-08-20, restated as of today rather than re-delivering the stale June text; original moved to `outbox/delivered/` as the record. `re-test: 2026-09-20` — if no reply by then, RETIRE the "OR VIOLET skew-vs-flat-cash" clause from this vector's upgrade trigger rather than leaving it unfireable a second time.**
 - ⬜ True CDX: S&P Global MCP connector (auth) — evaluate when connectors are live headless.
