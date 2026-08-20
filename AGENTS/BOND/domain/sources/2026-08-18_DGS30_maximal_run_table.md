@@ -15,3 +15,10 @@
 | 2004-04-01 → 2004-09-15 | 115 | |
 | 2006-04-07 → 2006-08-17 | **92** | *(I published "79" — the `>5.00` figure)* |
 | **CURRENT** | **30** | 7/07 → 8/17, ongoing |
+
+
+---
+
+## Post-2007 comparison (archived from STATUS 2026-08-20, line cap)
+
+★ **AND THE CORE CLAIM WAS BADLY UNDERSTATED, not overstated: the longest run strictly after 2007 — excluding the live one — is ELEVEN sessions (2026-05-12 → 05-27). The current 30 is ~2.7× anything in nineteen years.** ⇒ **"Longest since 2007" undersells it; the accurate line is that no comparable run exists anywhere in the post-2007 record.** *(2007's own per-year figure is 44, not the 42 I published — again `≥` vs `>`.)*
