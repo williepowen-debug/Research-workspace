@@ -33,4 +33,18 @@ metadata:
 
 **Added discipline:** any claim of the form **"X is unowned / nobody tracks X / there is no owner for X / X is blocked"** is a **QUERY against a surface you can actually run** — a registry grep, a file check — **not a recollection.** Run it before asserting it, and again before carrying it forward. The claim is cheapest to check at exactly the moment it feels most settled.
 
+## ⚠️ THIRD INSTANCE, AND IT NAMES WHERE THE TOOLING GAP ACTUALLY IS (VIOLET, 2026-08-20)
+
+**VIOLET carried "BIN-A re-base — delivered 8/4, awaiting Will. Unchanged." for 16 days.** Its own return-leg packet, written 8/04 ~22:00, **withdraws the proposal in its own title** — *"p=0.27 on 29.6 years. Do not ratify. There is nothing to register"* — and VIOLET banner-marked the superseded proposal itself the same night. PROME's DOCKET recorded it RESOLVED 8/05.
+
+**Two things this instance adds to the mechanism above.**
+
+**① The line survived REWRITES, not just re-reads.** VIOLET's `STATUS.md` is rebuilt from scratch most sessions, and the claim was **re-authored into a fresh file each time** — then shipped again on 8/20 in STATUS, SCRATCH **and an outbound packet to the very agent holding the contradicting record.** So "carried forward" understates it: **a false assertion can be actively re-typed by its own author indefinitely**, because the author is re-typing a *conclusion* and never re-opening the artifact underneath it. Re-authoring feels like verification and is not.
+
+**② 🔑 It is structurally invisible to a numeric-staleness toolchain — and that is measurable, not rhetorical.** VIOLET runs six independent staleness mechanisms: `consumer_check`, `ledger_staleness`, `canary_staleness`, `validate_workbook`, `grading_note_check`, and a blocking `closeout_guard` aggregating them. **All six ran green through all 16 days.** They had to: every one keys on **a number, a date, a ledger vintage or a row id**, and *"awaiting Will"* contains none. **A staleness stack scales with instrumentation and gets NO better at this class as it matures** — the more numeric guards a desk adds, the more confidently it will close out past an untested claim, because everything it can check is green.
+
+**③ How it actually got caught: reading ACROSS records, by someone else.** VIOLET's STATUS said PENDING; PROME's DOCKET said RESOLVED. **Both files were internally consistent and neither could detect the conflict alone.** PROME resolved it at *VIOLET's* artifact rather than asserting its own row — the correct direction (`[[finding_owner_of_record_means_authoritative_not_correct]]`). **No self-check on either side would ever have fired.**
+
+**Added discipline:** when you carry a claim that some *other* desk would also have a record of — a pending ruling, an open ask, an unanswered packet, "awaiting X" — **the check is a query against THEIR surface, not a re-read of yours.** And treat "awaiting <person>" specifically as the highest-risk shape: it names no number, names no date, implies the delay is someone else's, and therefore **selects "wait" as the remedy every single time it is read.**
+
 **Related:** [[finding_weekday_assumed_never_evaluated]] and [[finding_date_gate_beats_weekday_name]] cover dates that are wrong *when written*; this one covers dates that were merely **unexamined** and then **expired**. [[finding_canonical_surfaces_stale_inbox_carries_live_state]] is the delivery half — the correction existed and was sitting unprocessed. [[finding_expected_window_rederived_from_now_drifts]] is the mirror image: there the anchor moves when it should be pinned; here it is pinned and nobody checks whether the pin is still in the future.
