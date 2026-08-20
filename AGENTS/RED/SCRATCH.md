@@ -22,6 +22,40 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S33 (~2:20–3:5x PM ET) — Will-directed OPEN-ITEMS SWEEP + REVIEW-DEBT PHASE 1. NO WEIGHT MOVED: HOLD 69 / net-bear 60. Third session-ending of 8/20; W-A floor + A5/A6/A7 conditionals run.**
+
+**WHAT I DID**
+1. **✅ Mechanical fix (Will-approved at boot): the "dead" WALTER lane was live.** 10 files 8/13–8/18, WALTER's own commits, fleet-wide (23 agents ~216 files). All 10 had been caught by boot 1.5 and logged `source=BOARD` — **nothing lost, and that is the finding: the redundancy covered for the spec.** Step 5.5 rewritten NO-OP → **LIVE** (consume/log/`git mv`, no-double-log rule, destination named — I moved them to the wrong `processed/` first and self-caught). Lane drained to `inbox/WALTER/processed/` (117). MAINTENANCE entry. **Standing obligation added: any boot that changes the channel list runs `ls -R inbox/` and reconciles every directory holding files against a numbered step.**
+2. **✅ Full open-items sweep delivered to Will** → 5-phase plan (below).
+3. **✅ PHASE 1 EXECUTED — KB.tsv past-Stale_By 33 → 9**, two atomic passes (tab-split, field-count validated whole-file pre+post, `.tmp`+`os.replace`; **never `csv`**, ML-168). 24 rows edited. `schema_check` ✅. ML-112/113/114 status-rot closed. **ML-180/181/182 filed.**
+4. **⚑ FIND ① — KFRC Q2 (7/27) never reached a RED surface, 24 days, and it runs AGAINST my book.** KB-012's conditional is a conjunction; it broke on RHI (RED-05 CORRECT 7/24, recorded on five surfaces same-week) so the KFRC leg went **scoreless — and scoreless is exactly what nobody writes down.** Tech Flex +4.0% YoY (from +0.2% Q1), Direct-Hire +27.6%, 3 consecutive quarters of revenue growth; LABOR cut LAB-11 55→50. **No weight owed by the letter; none taken. ROUTED to 8/28 QCEW, deliberately NOT pre-judged.** ML-180.
+5. **⚑ FIND ② — the published VX staleness figure was wrong in my favour and hid the vector that matters most this week.** *"7 of 14"* → measured **9 of 18**; the omitted row is **VX-RED-004 (SAM / Japan Muddle-Through, FLIPPED-BEAR 20/80, unreviewed 79d)** whose **`Flip_If` is "30Y JGB >2.5% sustained" while the instrument is ~4.096%.** FT-04/FT-07 class, third location. **Needs a RE-SPEC, not a re-review.** ⚠️ Flagged now because CH-009/CH-012 next adjudicate at the **9/3 30Y JGB auction**.
+
+**THE PLAN (Will-approved shape; phases fit the gaps between dated work)**
+
+| Phase | Window | Content | State |
+|---|---|---|---|
+| **1** | 8/20 | Review debt: KB triage + label-rot + VX reconcile | **✅ DONE** (residual 1b below) |
+| **1b** | next | **9 KB rows left — all cross-agent reads**, do NOT re-derive: KB-046/052 (FL → DEWEY/CORAL) · 047 (Bain CLO → BROCK/LIQUID) · 049 (CRE-DQ → REGINALD) · 053 (rates/term-premium → BOND) · 054 (consumer → CARL) · 056 (retention-ratchet → LIQUID) · 057 (BCRED → BROCK) · 062 (oil → BRENT) | open |
+| **2** | 8/25–26 | C-cheap: **NEXUS_BRIEF header** (body current to S32, but line 3 still reads `Status: 🔴 vS29` and line 6 `Thesis version: S29`) · IQHQ undated 🔴 docket row · retirement sweep · **and extend the staleness check to read row-level `Stale_By` + VX `Last_Reviewed`, or Phase 1 recurs on a 30-day clock** (ML-182) | open |
+| **2.5** | 8/26 | **🔴 THE TREASURY BUYBACK INSTRUMENT — I argued this should NOT sit behind hygiene.** A yield suppressor landed on the 30Y, the bear's carrying card and my strongest counter-signal row (30/70). Nobody's registered instrument. BOND/TERRY own mechanics (SIG-819-030) — watch their grades first | open |
+| **3** | 8/31–9/2 | T11 (R13 KRE collision) → **reconstruct T12/T13 or formally retire them** — their definitions exist in NO RED file while STATUS + SCRATCH both cite them as queued work | open |
+| **4** | 9/4–9/11 | FT-04 / FT-07 re-spec, on a day the bear is not losing. **ADD VX-004 to this** — same defect class | open |
+| **5** | 9/12 | VX 9-vector re-review (already dated) | open |
+
+**LOCKED / IMMOVABLE (the debt fits around these, never through them):** 8/21 Jackson Hole + OZK/KRE Aug expiry · 8/24 CHG-042 + CARL V2 · 8/27 CHG-048 (SAM unseal) · **🔴 8/28 QCEW + CHG-046 + CHG-043-B** · 9/3 30Y JGB (CHG-047) · 9/15 CHG-044 · 9/30 RED-04.
+
+**OPEN THREADS — S33 additions** (S32's list below still stands in full)
+- **VX-RED-004's flip line is dead and I did not notice while adjudicating the same instrument.** Re-spec at Phase 4; do not carry it into 9/3.
+- **Nothing checks `Stale_By` or `Last_Reviewed`.** `ledger_staleness.py` reads FILE vintage — KB.tsv scored clean with 38% of rows past their own review dates. Phase 2 fixes the check, not just the file (the T7 lesson, restated).
+- **The KB disposition rule is now two-dimensional** — STATUS decides whether review is *scheduled*, CITATION decides whether contents must be *current*. Applies to any agent with a review-date column.
+
+**PENDING WILL-DECISIONS:** none blocking. Open question for Will: **does Phase 2.5 (Treasury buyback) jump the queue ahead of Phase 3?** My recommendation is yes.
+
+**GIT:** S33 committed path-scoped (`AGENTS/RED/` + auto-memory carve-out ③); safe-push at closeout.
+
+---
+
 **🆕 S32 CLOSEOUT ADDENDUM (~2:2x PM ET) — second half of the day, after the ~1:45 PM full write-back below. NO WEIGHT MOVED all day.**
 
 - **✅ MI3 Q2 GRADED — bin (c), V1-demotion confirmed on the tree's OWN basis** (WAL 21.2 legacy; the 24.2 baseline REPRODUCES; same print = 8.99 uniform = would-be bin d, which is why the basis had to be named first). Graded on REGINALD's ×2-verified 8/13 pull — no re-pull. Weight actions SUPERSEDED (CHG-027(c)/S28b already priced the narrowing). Caveats live: WAL MI3 **dollars +13.7% YoY**; EGBN **#1 uniform basis + worst NCO**. Leg stays OZK+EGBN. `research/MI3_Q2_2026_GRADE.md`, ML-179. Both owed 37.6% corrections executed + a second defect found beside the flagged one (6-quarter window labeled 2q).

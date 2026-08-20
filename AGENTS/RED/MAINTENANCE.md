@@ -11,6 +11,32 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-20 (S33) — KB.tsv Stale_By disposition rule adopted + 33→9 pass; ML status-rot closed
+
+**Trigger:** Will-directed open-items sweep found **33 of 86 KB rows past their own `Stale_By` date** (22 still `ACTIVE`, worst 61d) against a CLAUDE.md rule that says they "must be reviewed/refreshed by that date." Nothing enforces it — `ledger_staleness.py` reads FILE vintage, so KB.tsv scored **clean** while 38% of its rows were overdue. Same blind-spot shape as the VX `Last_Reviewed` gap named at T7.
+
+**What changed — a disposition rule, not just an edit pass.** The 33 decomposed into three populations (ML-RED-181): **(a) 12 terminal-status rows** (`RESOLVED`/`INVALIDATED`/`REVISED`/`CORRECTED`/`VERIFIED`/`DISPUTED-DEMOTED`) that were never owed a re-review — `Stale_By` is a review trigger for LIVE facts and a terminal row carrying one is pure noise; **(b) 9 dated event records**, true as history and dangerous only because nothing marked them as history; **(c) 9 genuine live-content rows.** **Adopted:** terminal rows carry `n/a-historical` / `n/a-resolved`, never a live date; dated event records get `STATUS=DATED-HISTORICAL` so they cannot be read as current state. ⚠️ **The rule's own limit, found during the pass and written into it: terminal status does NOT make a row safe if a live surface CITES it** — `KB-RED-001` is `REVISED` and still feeds VX-001/VX-006 (both STRONG, live) while its Fact cell asserts *"NFP +178K confirms employment channel stalled"* against a **−23K** print. **Disposition is two-dimensional: STATUS decides whether a review is SCHEDULED; CITATION decides whether the CONTENTS must be current.**
+
+**Files touched:** `workbook/KB.tsv` (24 rows across two passes, 33→9 overdue) · `workbook/ML.tsv` (ML-112/113/114 status-rot closed; **ML-180/181/182 appended**) · `STATUS.md` (S33 section + header) · `SCRATCH.md` (S33 addendum + 5-phase plan). **Method:** tab-split only (**never `csv`** — ML-RED-168), whole-file field-count validated pre *and* post, `.tmp` + `os.replace`. `schema_check.py` ✅ ALL CONFORM after.
+
+**Boot-impact:** none — no boot step added. **Deliberately so:** the fix this class actually needs is a CHECK (extend the staleness reader to row-level `Stale_By` and VX `Last_Reviewed`), queued to Phase 2. **Editing the rows without fixing the check buys ~30 days.**
+
+**⚑ Two analytical finds surfaced by the hygiene pass, both logged and one routed:** KFRC Q2 unrecorded for 24 days because its conjunction had already broken on the other leg (ML-180 → 8/28 QCEW input, not scored); and **VX-RED-004's published omission** — the fleet-facing staleness figure read *"7 of 14"* against a measured **9 of 18**, understated in RED's favour, hiding a 79-day-stale SAM/Japan vector whose flip line (`30Y JGB >2.5%`) sits ~1.6pp behind its instrument. Both in STATUS §S33.
+
+---
+
+## 2026-08-20 (S33 boot) — boot step 5.5 CORRECTED: the "dead" WALTER lane is live, and this is the SAME defect as 5.6, found hours later
+
+**Trigger:** S33's boot ran the new step 5.6 clean (top-level `inbox/` empty — S32's drain held) and then found **10 files dated 8/13–8/18 sitting in `inbox/WALTER/`**, the lane step 5.5 had described since 7/09 as NO-OP, empty-by-construction, and safe to retire. Delivered by WALTER's own commits (`2737db745`, `1f7c8c98f`, `88d292654`) and **fleet-wide, not RED-local: 23 agents holding ~216 files the same morning** (HENRY 38 · LIQUID 44 · MARCO 25 · BRENT/BROCK 14 each). **Nothing was lost** — all 10 had been caught independently by boot 1.5's whole-INDEX scan and logged `source=BOARD` during S32's pass. **That is the finding, not the reprieve: the redundancy covered for the spec, and a redundancy is not a control.**
+
+**What changed:** `CLAUDE.md` step **5.5** rewritten from empty-check-or-retire → **LIVE lane with consume/log/move mechanics**, an explicit no-double-log rule for signals already dispositioned under `source=BOARD` this session, `source=INBOX_WALTER` for the rest, and the destination named unambiguously (`inbox/WALTER/processed/`, 117 files — *not* `inbox/processed/`, 5.6's general archive; **this session moved the 10 to the wrong one first and self-caught**). The §3.5 pull-complete exemption is kept as live history: **what lapsed was the empty-directory corollary RED inferred from it, never WALTER's grant.** 10 files `git mv`'d to the lane archive.
+
+**Boot-impact:** step 5.5 goes from a no-op glance back to a real read step (cheap — triage by filename, bodies only on a RED hit). **Standing obligation added: at any boot that changes the channel list, run `ls -R inbox/` and reconcile every directory holding files against a numbered step.**
+
+**⚑ Class, third instance in nine days — `[[finding_canonical_surfaces_stale_inbox_carries_live_state]]`.** S32 added 5.6 because the spec enumerated BOARD + a retired lane and never the general inbox (18 packets). S33 found the retired lane was never retired. **Both are one failure: the boot sequence was audited against its own channel list instead of against the delivery directories** — and the apply-rule that says exactly that was written by S32, *into this memory*, hours before S33 violated it one subdirectory away from where S32 was working. The memory's Instance 3 + a sharpened apply rule land at this session's W7. **The S30 architecture audit graded this boot "symmetric" while both lanes were mis-specced** — a second data point for OUTBOX -019 to DAEDALUS (the audit's coverage claim was about the enumerated set, `finding_scan_keyed_on_naming_reads_local_form_as_absence`).
+
+---
+
 ## 2026-08-20 (S32 closeout) — boot step 5.6 added: GENERAL INBOX SCAN — the lane the boot spec never enumerated
 
 **Trigger:** 18 unprocessed packets found accumulated 8/12–8/20 in `inbox/` top level — including the MI3 primary data the docket carried as "unfetched," two decision asks aging 5 days, and two same-day SAM asks. Root cause structural: the boot sequence enumerated BOARD (1.5) and the retired WALTER lane (5.5) but never the general packet directory; the disposition obligation followed the *enumerated lanes*, not the *delivery directory*. Root-cause-consistent with two independent fleet reads same morning (YEYOU YEY-011: 27 unprocessed elsewhere; WALTER's repaired ACTION telemetry) — per PROME, DAEDALUS's ~9/2 pass has the lane class.
