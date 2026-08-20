@@ -22,7 +22,18 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
-**Session 32 — Thu 2026-08-20 ~11:54 AM–2:00 PM ET, Will-directed catch-up boot after 8 dark days (S30 8/12 was the prior domain session; S31 8/17 was the out-of-domain SAM-rail spawn). Will's ordering executed as given: ① SKEW ruling → ② board_log/W2 hygiene → ③ CHG-047 adjudication. NO WEIGHT MOVED — HOLD 69 / net-bear 60.**
+**🆕 S32 CLOSEOUT ADDENDUM (~2:2x PM ET) — second half of the day, after the ~1:45 PM full write-back below. NO WEIGHT MOVED all day.**
+
+- **✅ MI3 Q2 GRADED — bin (c), V1-demotion confirmed on the tree's OWN basis** (WAL 21.2 legacy; the 24.2 baseline REPRODUCES; same print = 8.99 uniform = would-be bin d, which is why the basis had to be named first). Graded on REGINALD's ×2-verified 8/13 pull — no re-pull. Weight actions SUPERSEDED (CHG-027(c)/S28b already priced the narrowing). Caveats live: WAL MI3 **dollars +13.7% YoY**; EGBN **#1 uniform basis + worst NCO**. Leg stays OZK+EGBN. `research/MI3_Q2_2026_GRADE.md`, ML-179. Both owed 37.6% corrections executed + a second defect found beside the flagged one (6-quarter window labeled 2q).
+- **⚑ 18-PACKET INBOX BACKLOG FOUND AND DRAINED 18/18.** Root cause structural: the boot spec enumerated BOARD + a retired lane, never the general inbox — **boot step 5.6 ADDED to CLAUDE.md this closeout** (disposition obligation attached; MAINTENANCE entry; auto-memory extended; DAEDALUS flagged via OUTBOX -019; PROME confirms root-cause-consistent with YEYOU YEY-011 + WALTER telemetry, ~9/2 DAEDALUS pass aware).
+- **✅ CHG-045 ANSWERED — (A), NO REOPEN** (packet to CARL, cc PROME): a count reset is legitimate iff **ex-ante-selected AND shadow-graded** — the two conditions ML-161 lacked, both present; (B) would keep a 25%-base-rate leg as live noise. Riders: card should state leg 2 IS the kill; servicer caveat stays the binding Will-gate. Resolves Nov HHDC, both counts.
+- **✅ CHG-048 OPENED AND DELIVERED SAME-DAY — BLIND pass on SAM's v2.0 candidate** (seal respected, ATTESTED; redirect honored, §2 skipped). **Verdict: KILL as successor frame / salvage 4** — §3 killed (accounting identity without elasticity; SAM's own intervention table refutes it), §4 killed (0/7 rows discriminate vs K1's rival), §8 killed (circular unification), §6 prediction registration killed as specced (attribution escape hatches + TRUE under both hypotheses); **K1 process graded SURVIVES.** New instrument handed over: **3m JPY xccy basis** = daily-frequency discriminator for the latent swap book. `challenges/2026-08-20_SAM_V20_BLIND_PASS.md`. **Re-review 8/27 at SAM's unseal — overlap/novelty split requested back.** PROME notified the BOND/NEXUS hold can lift.
+- **✅ Rest of backlog:** ORACLE label fix applied ×2 RED surfaces (71.5 = aggregate contract; grades unaffected) · TRY-FIRE-006 premise archive-note to TERRY (ALIVE-NOT-STRENGTHENING, UNGRADED ≠ refuted — card was Will-retired 8/18 eve) · **CHG-043 FALCON leg CONVERGED** (P/K/R live on their STATUS; NEXUS 043-B → 8/28) · CHG-044: BROCK's E3 packet resolves 1 of their 3 owed items (register defect confirmed; E3b dependency removed) · 10 quick-files logged.
+- **NEXT SESSION amendments to the list below:** #1 MI3 ~~owed~~ **DONE**. **NEW: 8/27 CHG-048 re-review (SAM unseal)** · the boot-5.6 step runs for the first time next boot · PROME 8/12 convention item pending: align registry rows to DAEDALUS's canonical basis-encode when it lands, **flag-before-encode the N5 cash-index seam**.
+
+---
+
+**Session 32 — Thu 2026-08-20 ~11:54 AM–2:00 PM ET, Will-directed catch-up boot after 8 dark days (S30 8/12 was the prior domain session; S31 8/17 was the out-of-domain SAM-rail spawn). Will's ordering executed as given: ① SKEW ruling → ② board_log/W2 hygiene → ③ CHG-047 adjudication. Then Will's word: ④ MI3 (task #1) → ⑤ backlog per PROME's four riders. NO WEIGHT MOVED — HOLD 69 / net-bear 60.**
 
 ## CHANGES SINCE (S30 closeout 8/12 → this boot)
 

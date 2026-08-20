@@ -11,6 +11,14 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-20 (S32 closeout) — boot step 5.6 added: GENERAL INBOX SCAN — the lane the boot spec never enumerated
+
+**Trigger:** 18 unprocessed packets found accumulated 8/12–8/20 in `inbox/` top level — including the MI3 primary data the docket carried as "unfetched," two decision asks aging 5 days, and two same-day SAM asks. Root cause structural: the boot sequence enumerated BOARD (1.5) and the retired WALTER lane (5.5) but never the general packet directory; the disposition obligation followed the *enumerated lanes*, not the *delivery directory*. Root-cause-consistent with two independent fleet reads same morning (YEYOU YEY-011: 27 unprocessed elsewhere; WALTER's repaired ACTION telemetry) — per PROME, DAEDALUS's ~9/2 pass has the lane class.
+
+**What changed:** `CLAUDE.md` boot step **5.6** added (read/triage every top-level `inbox/*.md`, disposition in `board_log.tsv` `source=INBOX_GENERAL`, `git mv` to `processed/`, answer superseded packets against CURRENT state). No renumbering — 5.6 slots between existing cited steps. **Boot-impact:** one new read step; the S30 architecture audit graded the boot symmetric without seeing this lane, so the audit's coverage claim was about the enumerated set (`finding_scan_keyed_on_naming_reads_local_form_as_absence` class) — flagged to DAEDALUS in OUTBOX -019.
+
+---
+
 ## 2026-08-20 (S32) — FT-10 registered (registry 10 → 11 rows) + boot.py: `cmp_op` four-op dispatch, ^SKEW in TICKERS, SKEW-CBOE in METRIC_MAP
 
 **Trigger:** the SKEW ruling (SIG-20260818-004, action:RED) — registering the tail-bid-reload line surfaced that `boot.py`'s comparator silently evaluated every non-`>` operator as `<` (a `>=` row with data would have printed a SIGN-INVERTED verdict — `>=150` read as `<150` = false FIRING at 142.93; FT-08 was shielded only by being unmapped). ML-RED-178.
