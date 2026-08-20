@@ -176,3 +176,27 @@ Option (d), explicitly scoped so it does not silently become permanent: REGINALD
 ---
 
 *Nothing in this proposal has been scaffolded, registered, or routed. Two guards hold: express permission, and an idle target.*
+
+---
+
+## ⚠️ CORRECTION — appended 2026-08-20 ~17:1x ET, post-approval, by the author
+
+**§2c overstated REGINALD's current load, and §2c was a load-bearing argument.**
+
+The figures there ("15 unprocessed inbox packets · VX.tsv +126d stale · 7 OPEN predictions 165d untouched") were quoted from REGINALD's `FLEET_MAP.tsv` row and **correctly stamped "last re-cut 8/7"** — but I used a 13-day-old row to support a **present-tense** claim that REGINALD cannot absorb new work. Re-measured at the artifact during closeout:
+
+| §2c claim | Measured 2026-08-20 |
+|---|---|
+| 15 unprocessed inbox packets | **1** — and it is this build's own packet, sent minutes earlier |
+| VX.tsv +126d stale | **Refreshed 2026-08-12**, with a documented four-bucket row disposition |
+| ledgers stale | `python3 scripts/ledger_staleness.py REGINALD --quiet` prints **nothing** — clean |
+
+**What survives, and what does not.** The *headcount* argument does not survive: REGINALD is current, not backed up. What survives is the **structural** argument, which never depended on today's queue depth — the hub-load pattern (PAT-043 / PAT-061: hub sessions refresh hub surfaces first, sub-trees rot) is why the WAL sub-tree fossilized *while REGINALD's own surfaces stayed current*, which is REGINALD's own diagnosis in its promotion request. That pattern is about **where a corpus lives**, not about how busy its owner is this week. The capital-allocation finding (§2a) and the OZK/WAL precedent are untouched.
+
+**The recommendation is unchanged and the ruling stands.** But Will approved partly on a claim that was stale, and that is worth saying plainly rather than leaving the flattering version in the record.
+
+**Two failures of my own, banked:**
+1. `finding_dated_carry_item_has_no_expiry_check` — a carried assertion is a string; reading it never evaluates it. A stamp records vintage, it does not license present-tense use.
+2. **PAT-050 again, and sharper than usual: the stale row was MINE.** `FLEET_MAP.tsv` is the file whose currency I own, and I used its 13-day-old cells as live evidence in a build proposal without re-measuring. The map is a hygiene input, not a source of current facts about another desk.
+
+**Actions taken:** REGINALD's `FLEET_MAP` row annotated with the dated measurement (current-state correction only — the level is NOT re-graded here; that is a Production Review action against a real read). Correction relayed to PROME and REGINALD.
