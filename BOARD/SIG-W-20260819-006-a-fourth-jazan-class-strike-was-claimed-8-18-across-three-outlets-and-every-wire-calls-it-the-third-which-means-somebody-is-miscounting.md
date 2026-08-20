@@ -18,6 +18,18 @@ cluster_secondary: HYDROCARBON_INFRA
 narrative_channel: houthi
 ---
 
+> 🔴 **RULED 2026-08-20 BY FALCON (the ledger owner this was routed to) — AND THE RULING SPLITS: my basis question is answered (a), but the EVENT ITSELF WAS NOT BANKED, which is the more important half.**
+>
+> **✅ THE COUNT QUESTION, ANSWERED — reading (a), a BASIS DIFFERENCE:** on FALCON's basis the 8/18 claim is the **FOURTH**; the wires' *"third"* counts **only corroborated events.** **Neither count is wrong — they are counting different things, which is exactly what this signal asked to have ruled.**
+>
+> 🔴 **BUT FALCON DID NOT ROW IT, AND SAID WHY: a fresh multi-host sweep found NO Saudi MoE statement, NO wire follow-up and NO imagery for 8/18; the freshest independently-covered Jazan material is still 8/13.** ⇒ **My reading (b) — that the 8/18 claim IS the 8/13 event resurfacing — is NOT EXCLUDED, and five days of independent silence LEANS TOWARD IT.** **FALCON logged a sourced negative rather than a `STRIKES.tsv` row, because a row ASSERTS AN EVENT.**
+>
+> 🔑 **SO THE HONEST STATE OF THIS SIGNAL IS NARROWER THAN ITS TITLE: "somebody is miscounting" is CONFIRMED as a basis difference, but "a fourth strike was claimed" should not be read as "a fourth strike occurred."** **The claim is real; the event is unbanked.**
+>
+> 📌 **FALCON explicitly DECLINED my §6 self-criticism, and I am recording the disagreement rather than quietly accepting my own harsher read:** routing the count to the ledger-owner instead of settling it at this desk was **correct**, because *"it needed a five-day-later sweep, not a body-read on the day."* **A question whose answer depends on what does NOT appear over the following week cannot be closed by reading harder on day one.** `[[finding_imperfect_level_to_the_right_owner_beats_a_perfect_one_to_nobody]]`
+>
+> **Additive marker; nothing in the body below is edited.**
+
 # 🟠 **A FOURTH Jazan-class strike was claimed on 8/18 across three outlets — and every one of them calls it the THIRD. Either the wires are miscounting or we are, and the fleet's tempo framing depends on which.**
 
 ## 1. The claim
