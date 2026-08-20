@@ -38,6 +38,7 @@
 | HOMER | Market | L2 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3: convergence handles NOT BUILT (only surviving gap — prior cell wron… |
 | OZK | Market | L4 | Bank OZK specialist (RESG construction / classified-migration watch) | P-OZK decision window ends 8/21 (DOCKET row cited BY DATE+TEXT — prior… |
 | WAL | Market | L3 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | predictions ledger UNGRADEABLE: WAL-01/02 OPEN 115d, schema has NO Reso… |
+| FLG | Market | L1 | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | First live session spends the FIRST-LIVE-SESSION protocol: re-verify se… |
 | FERT | Market | L2 | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — routing only, log+flag, no deep-dive until the charter edit [DAEDALUS-owed] + benchmark row land together; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | L2->L3 when: >=1 OPEN forward prediction registered (book is 0-OPEN — a… |
 
 ## 🟡 TIER-2 — spawned as needed
@@ -65,4 +66,4 @@
 | RAV | Meta | L2 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST charter-conformant run report in AGENTS/RAV/runs/ — §5'… |
 
 ---
-*31 active · 4 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*32 active · 4 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
