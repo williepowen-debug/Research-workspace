@@ -2,7 +2,13 @@
 
 > **Convention:** this file is **regenerated from OSPREY's and FALCON's own strike ledgers at HAWK closeout (CLAUDE.md step 13), never independently maintained.** HAWK does not log strike rows — that discipline lives with the theater owners. If this file drifts from the siblings' ledgers, re-pull from them; do not hand-edit rows here.
 > **Predecessor:** the original `STRIKES.tsv` + `SUMMARY.md` in this directory are 🧊 FROZEN 2026-07-12 (pre-split, 36-row combined ledger) — see their banners.
-> **Regenerated: 2026-08-15** from both siblings' `domain/energy-strikes/`, reading each ledger's **own analysis header**, not just its row count. **This regeneration was 4 closeouts overdue** (last regen 2026-07-28; DAEDALUS flagged the skip in the 2026-08-15 war-triad review — HAWK's own closeout step 13 had lapsed, not a siblings'-side problem). *(Prior regenerations: 2026-07-28; 2026-07-25; 2026-07-12 split day.)*
+> **Regenerated: 2026-08-20** from both siblings' `domain/energy-strikes/`, **reading each ledger's own analysis header, not just its row count** — and both desks had just delivered, so this is a regeneration against *fresh* sources rather than the usual lag.
+>
+> **OSPREY — `STRIKES.tsv` 75 data rows, swept through 2026-08-16.** Newest row `RU-20260816-SKIROS-CPC` (added this session): the Greek Suezmax *Skiros* struck at the CPC berth carrying **Russian** cargo. ⚠️ **Its newest `ANALYSIS_` is 2026-07-23 — 28 days behind its own ledger, and OSPREY flagged that regeneration as owed in its own closeout**, so this is a self-declared gap, not a catch. *(Dated observation, not a standing claim — the sibling may be fixing it as this is read.)*
+>
+> **FALCON — `STRIKES.tsv` 37 data rows, newest `GI-20260813-JIZAN3` (2026-08-13).** Newest `ANALYSIS_` is 2026-08-06. ⚠️ **The 25-day Kharg loadings halt (7/18→8/12) FALCON surfaced on 8/20 is NOT in this ledger, and that is probably correct rather than a gap** — it is an *interruption*, not a *strike*, and a strike ledger has no row shape for it. **But it means the largest export interruption of the window is invisible to anyone reading only the strike ledgers, which is exactly what this derived surface exists to catch.**
+>
+> ⚠️ **"Derived" is NOT "self-updating"** — this file is only as current as this stamp. *(Prior regenerations: 2026-08-15; 2026-07-28; 2026-07-25; 2026-07-12 split day.)*
 
 ---
 
@@ -36,3 +42,14 @@
 - **Both ledgers are current as of this regeneration (8/15).** OSPREY (71 rows, swept through 8/15) and FALCON (32 rows on the facilities ledger, swept through 8/6, STATUS re-verified 8/15) are not comparable by row count — 71 vs 32 reflects campaign tempo and duration, not data quality, same as the 48-vs-31 note this file carried on 7/28.
 - **The regeneration itself was the finding this pass, not the content.** Four skipped closeouts is a HAWK-side process gap (this file's own maintenance step, `CLAUDE.md` step 13), flagged by DAEDALUS's 2026-08-15 war-triad review, not a theater-desk failure.
 - **HAWK's job here** is limited to (a) keeping this pointer table current at closeout and (b) flagging when the siblings' swept-marks go stale — **not** rebuilding their ledgers. Where a metric has a theater owner, cite theirs; keep no competing copy.
+
+---
+
+## Cross-war observation, 2026-08-20 regeneration — what the two ledgers say *together* that neither says alone
+
+**1. Both theaters' newest recorded events are VESSEL-AT-TERMINAL events, not infrastructure destruction** — *Skiros* at the CPC berth (8/16, RU-UA) and the third claimed Jizan strike (8/13, GULF-IRAN). Neither destroyed capacity. That is the strike ledgers independently reproducing the migration thesis: **the kinetic record is drifting from steel toward hulls and claims.**
+
+**2. 🔴 THE STRIKE LEDGERS SYSTEMATICALLY UNDER-REPRESENT THE ACTUAL SUPPLY EFFECT, and this regeneration is where it becomes visible.** The two largest crude-flow events of this window appear in **neither** ledger: the **25-day Kharg halt** (~90% of Iran's exports, 7/18→8/12) and the **~−640 kbpd five-week slide in Russian seaborne crude exports**. Both are *interruptions and deterrence effects*, not strikes — so a strike ledger has no row for them **by construction**.
+> **⇒ Anyone sizing war-supply risk off strike counts is reading the wrong instrument, and the error is one-directional: strike ledgers UNDER-count.** The barrels move through willingness, and willingness leaves no strike row.
+
+**3. A destroyed crude-export asset predates both ledgers' current window and neither carries it:** CPC's **SPM-2**, irreversibly destroyed **2025-11-29** (operator: *"operation impossible"*), out ~270 days — while CPC **kept exporting through SPM-1**. Crude-export terminals are **redundant by construction**, so component destruction does not aggregate to terminal flow loss. → `KB-HAWK-278`.
