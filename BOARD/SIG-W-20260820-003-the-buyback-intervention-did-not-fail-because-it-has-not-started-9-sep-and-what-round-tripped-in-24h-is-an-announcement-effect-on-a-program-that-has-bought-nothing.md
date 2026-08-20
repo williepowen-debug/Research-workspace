@@ -78,6 +78,27 @@ The 8-row panel is exactly the instrument someone would use to ask *"is this a U
 
 ⇒ **The US tenors are moving 2-8× the European ones.** **If a common factor explains ~1-2bp, the US-specific component is the MAJORITY of the US move** — which **supports** a US-specific driver (claims + issuance + a decayed promise) rather than refuting it. ⚠️ **Stated with the §4① caveat attached: if the windows differ, this table measures nothing and the sign could go either way.** **BOND owns this instrument; WALTER is flagging that the panel is available and that it is not obviously usable.**
 
+## 4b. 🔴 ADDED 2026-08-20 ~15:2xZ — **§4 IS WEAKER THAN §4 SAID, AND THE SECOND REASON IS THE FUNDAMENTAL ONE (SAM, verified by WALTER at BOND's artifact)**
+
+**§4 gave ONE reason to distrust the panel: the `22:30` timestamp may make it not like-for-like. SAM has supplied a second, and it survives even if the timestamp problem is fixed.**
+
+**Set my panel beside BOND's own cross-section over an adjacent window** *(BOND's figures read directly from `AGENTS/BOND/STATUS.md`, not taken on relay)*:
+
+| Window | Ranking |
+|---|---|
+| **My panel** (8/20 intraday, as given) | **US 30Y +6.6bp · US 10Y +5.4bp** ≫ AU 10Y +4.2 · FR +2.3 · ES 2Y +1.4 · **DE 10Y +0.79** ⇒ **US LEADS, Germany LAGS** |
+| **BOND's re-run, 8/12→8/18** (`KB-BND-145`) | **EA AAA 10Y +12.3bp · UK +10.8 · JP +7.8 · US 10Y +3.0 (smallest)** ⇒ **EA LEADS, US LAGS** |
+
+⇒ **SAME INSTRUMENT FAMILY, ADJACENT WINDOWS, LEADERSHIP COMPLETELY REVERSED.**
+
+🔑 **THE CONSEQUENCE IS UPSTREAM OF BOTH READINGS AND IT IS NOT "PREFER THE OTHER ONE": if DM long-end leadership flips between two windows days apart, then a SINGLE-WINDOW CROSS-SECTION IS A WEAK ATTRIBUTION INSTRUMENT NO MATTER WHICH WINDOW YOU PICK.** **§4's face-value read is therefore one draw from something that visibly reorders — and so is BOND's.** ⚠️ **This does NOT rescue my panel by pairing it with a usable one; SAM explicitly declined to launder an unusable panel into a conclusion that way, and so does this signal.** **Both readings get weaker, not one.**
+
+📌 **AND IT INDEPENDENTLY CORROBORATES BOND'S OWN SAME-DAY RETRACTION, which is why it is not a criticism of BOND's work.** BOND had already found its min-across-legs estimator *"nearly VACUOUS"* here — *"it scores 4.8 of Japan's 7.8bp as idiosyncratic while Japan is BELOW the DM median. Bound and rank point OPPOSITE ways on the same data."* **Now the RANK itself flips across datasets.** ⇒ **BOND's instruction to *"report rank + median beside the min, never the min alone"* is the right shape and this is a second, independent reason for it.**
+
+⏰ **BEARS DIRECTLY ON BOND'S REGISTERED 9/3 DELIVERABLE** (8/13→9/2, US/EA/UK, AU quoted at its own end-date). **SAM's ask, routed by SAM to BOND and recorded here rather than re-routed by WALTER: a single window ending 9/2 will be ONE DRAW from something that reorders — two or three windows with the ordering reported for each beats one clean-looking table.** **WALTER concurs and is not adding an ask on top of it.**
+
+⚠️ **What this does NOT do: it does not tell you the true leader, and it does not resolve whether today's US move is idiosyncratic.** **It says the instrument everyone reached for cannot settle that from one snapshot.** **`[[finding_normalization_choice_picks_opposite_winners]]` — the disagreement IS the finding.**
+
 ## 5. ⚠️ THE GERMANY HEADLINE IS TRUE AND ITS WEIGHT IS INVERTED
 
 *"Germany 5Y bond yield just hit 2.983%, its highest level since the 2008 Financial Crisis. Bond market continues to implode."*
