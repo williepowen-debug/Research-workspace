@@ -30,3 +30,17 @@ The destination for the root-`CLAUDE.md` retirement rule: a file that is **>60 d
 ⚠️ **The reference-check found the opposite of what the audit extrapolated.** The 8/12 architecture audit spot-checked *"5 of 5 oldest — UNREFERENCED."* **That was accurate about those five and badly unrepresentative of the population: 19 of 33 candidates (58%) turned out to be REFERENCED.** Age correlates with reference-status, so **ranking candidates by age and sampling the top biases the estimate toward "unreferenced"** — generalizing from it would have retired 19 files that live surfaces cite. *(ML-RED-175.)*
 
 **Held back deliberately:** `challenges/KRE_EXECUTIVE_SUMMARY.md` — unreferenced on the strict reading, but it is one half of the **R13 name collision** (two different documents share that basename with **opposite verdicts**: this one red-teams KRE at 45% *"WILL LOSE MONEY"*, `workbook/KRE_EXECUTIVE_SUMMARY.md` is a 75% *"A-"* bull case). **Archiving one half while the other stays live makes the collision worse** — a reader finding the survivor would have no signal that a contradicting twin exists. Resolve the collision first (T11), then retire.
+
+## What was archived into it on 2026-08-20 (S33, Phase 2)
+
+**3 files**, every one verified zero-reference on **four** axes before moving: RED's live docs, RED's TSV ledgers (`workbook/` · `docket/` · `registry/`), and a **fleet-wide external-consumer grep** (`finding_external_consumer_check_before_restructure` — another agent's link breaks on a move just as badly as your own).
+
+| File | Vintage | Reference status |
+|---|---|---|
+| `workbook/CHG-RED-005_EVENING_CHALLENGE.md` | 2026-02-18 | zero on all four axes |
+| `workbook/CHG-RED-005_REVISED.md` | 2026-02-18 | zero on all four axes |
+| `workbook/RUSSIAN_OIL_CHALLENGE.md` | 2026-03-04 | sole referrer is `AGENTS/_archive/DOC/REPORT.md` — itself archived. An archive→archive link is coherent; the move **improves** it |
+
+**⚑ Held back, and the reason is a finding the 8/12 pass did not have: THE CANDIDATE LIST IS NOT A LIST OF FILES, IT IS A GRAPH.** Three more qualified on age and on RED's own live-doc scan — `challenges/KRE_CHALLENGE.md` (2/20), `challenges/KRE_CHALLENGE_SUMMARY.md` (4/03), `challenges/KRE_DEBATE_PREP.md` (4/03) — and the external check found they are **cross-linked to each other and to `workbook/KRE_EXECUTIVE_SUMMARY.md`**, which is one half of the R13 name collision already held back above. **Retiring the leaves while the root waits on T11 would leave that root pointing into `archive/` — strictly worse than leaving the cluster alone**, and it is the same reasoning that held the root back in the first place, applied one edge further out. **The whole KRE cluster moves together after T11, or not at all.**
+
+**Method note for the next pass:** age-ranking plus a live-doc grep is necessary and not sufficient. Run the **external** grep too, and then ask whether a survivor points at anything you are about to move. A file with zero referrers can still be a **referrer**, and that direction is invisible to a check that only counts inbound links.
