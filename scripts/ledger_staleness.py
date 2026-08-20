@@ -20,9 +20,25 @@ Usage:
 
 Staleness-cadence modes (Will-approved 2026-08-20 — design/2026-08-11_STALENESS_CADENCE_PROPOSAL.md;
 all three ADDITIVE, default output byte-identical without the flags):
-  python3 scripts/ledger_staleness.py <NAME> --nudge      # (b) closeout nudge: ONE advisory line
-        if STATUS is moving this session while a live ledger sits >=1 STATUS-write behind.
+  python3 scripts/ledger_staleness.py <NAME> --nudge      # (b) closeout nudge: one advisory line
+        if STATUS is moving this session while live ledgers sit >=1 STATUS-write behind.
         Thresholdless; rc 0 no-gap / 1 nudged / 2 cannot-certify. Root-canon closeout step.
+        Output shape v2 (2026-08-20, OSPREY+HAWK day-one field report via PROME — both
+        defects observed live at n=2 desks the day the nudge shipped):
+        - ENUMERATES every behind-ledger, count first ("3 ledger(s) behind: VX.tsv (8w), ...").
+          v1 named the worst + "+N more behind"; both desks fixed the NAMED ledger and nearly
+          stopped while the unnamed remainder held the larger gap. The list is a work-list.
+        - EVENT-DRIVEN declaration: a ledger whose data clock must not advance without a
+          real print (OSPREY WARRISK class — per-voyage premia that reach print only on a
+          step-change canvass) declares "Cadence: EVENT-DRIVEN" in its header comment block.
+          The nudge then reports it under a distinct label with its re-pull clock ("Last
+          re-pull ATTEMPTED: YYYY-MM-DD") instead of counting it behind — for that surface
+          class writes-behind measures how busy the desk is, not how stale the ledger is,
+          and a structurally always-red check trains skipping on every surface. The
+          declaration affects --nudge ONLY: the --days/--writes/--abs-floor scans still
+          grade the file (OSPREY's own disposition: "leave it flagging"). A declaration
+          with NO parseable re-pull clock line is MISCONFIGURED (rc 2): absence-expected
+          certifies nothing unless somebody provably looked.
   python3 scripts/ledger_staleness.py --all --writes      # (a) activity-denominated backstop:
         staleness in STATUS-commits-since-ledger-commit, flag at --writes-bar (default 12).
         Sprints can't hide a gap; idle agents don't false-flag. First fleet pass = CANDIDATES
@@ -271,6 +287,58 @@ MARKER_RES = [
 ROW_POLICY_RE = re.compile(r"(?:RETIRED|FROZEN|SUPERSEDED|ARCHIVED)\s+(?:ROWS?|ENTRIES)\b")
 LINE1_LIVE_RE = re.compile(r"NOT\s+FROZEN\b|(?<![\w/-])LIVE\b(?!\s+(?:SUCCESSORS?|HOMES?|CANONICAL))")
 
+# EVENT-DRIVEN cadence declaration (2026-08-20, nudge output-shape v2 — see --nudge
+# docstring). A FORM, not a keyword (PAT-059): requires the "Cadence:" prefix and a
+# column cap, because the bare words "event-driven" appear mid-line in header PROSE
+# on the very file that motivated this (OSPREY WARRISK caveat lines) — a bare-token
+# match would have self-declared it before the owner chose to. Scanned over the
+# header comment block only (stops at the data boundary, same as the banner region).
+CADENCE_EVENT_RE = re.compile(r"cadence\s*:\s*event-driven", re.IGNORECASE)
+# Re-pull clock — the two-clock header's second clock ("nobody looked" vs "nothing
+# published"). The check that fits an event-driven surface is THIS clock, not the
+# data clock (OSPREY 8/20 memo).
+REPULL_RE = re.compile(r"last\s+re-?pull\s+attempted[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)
+HEADER_SCAN_LINES = 40  # event-driven headers run long (WARRISK ~15 comment lines)
+
+
+def _header_block(path):
+    """Header comment lines up to the data boundary (first non-comment line with a
+    tab), max HEADER_SCAN_LINES. The region both cadence declarations and re-pull
+    clocks must live in."""
+    out = []
+    try:
+        with open(path, "r", encoding="utf-8", errors="replace") as f:
+            for _ in range(HEADER_SCAN_LINES):
+                line = f.readline()
+                if not line:
+                    break
+                if "\t" in line and not line.lstrip().startswith("#"):
+                    break
+                out.append(line)
+    except OSError:
+        pass
+    return out
+
+
+def is_event_driven(path):
+    """True if the header block declares 'Cadence: EVENT-DRIVEN' (match must start
+    within MARKER_COL_CAP of its line — front-loaded declarations only)."""
+    for line in _header_block(path):
+        m = CADENCE_EVENT_RE.search(line)
+        if m and m.start() < MARKER_COL_CAP:
+            return True
+    return False
+
+
+def repull_date(path):
+    """The re-pull clock date string ('Last re-pull ATTEMPTED: YYYY-MM-DD'), or None."""
+    for line in _header_block(path):
+        m = REPULL_RE.search(line)
+        if m:
+            return m.group(1)
+    return None
+
+
 # Trade/position surfaces scanned under --trade (default glob stays workbook/*.tsv).
 TRADE_GLOBS = ["TRADE.md", "trade/TRADE.md", "TRADE_BOOK.md", "POSITIONS.md"]
 
@@ -432,10 +500,14 @@ def scan_agent(agent_dir, days, glob_pats, strict=False, writes=False, writes_ba
 
 def nudge(agent_dir, name):
     """(b) pre-commit nudge (staleness-cadence proposal, Will-approved 2026-08-20):
-    thresholdless — if STATUS is moving this session and any live ledger is >=1
-    STATUS-write behind, print ONE line naming the worst. rc: 0 no-gap · 1 nudged ·
-    2 cannot-certify. Advisory by design (the line is the deliverable); it fires at
-    the moment the gap is created, which is the PAT-095 lesson."""
+    thresholdless — if STATUS is moving this session and live ledgers are >=1
+    STATUS-write behind, enumerate them all, count first (output shape v2, see module
+    docstring — v1's worst+"+N more" buried the work-list at n=2 desks on day one).
+    Ledgers declaring 'Cadence: EVENT-DRIVEN' report under a distinct label with
+    their re-pull clock and do NOT count behind (nudge mode only). rc: 0 no-gap ·
+    1 nudged · 2 cannot-certify (incl. event-driven with no re-pull clock).
+    Advisory by design (the lines are the deliverable); it fires at the moment the
+    gap is created, which is the PAT-095 lesson."""
     decl = read_ledger_glob(agent_dir)
     pats = decl if decl is not None else ["workbook/*.tsv"]
     matched = []
@@ -448,20 +520,33 @@ def nudge(agent_dir, name):
     if not status_moved_this_session(agent_dir):
         print(f"nudge: [{name}] STATUS not moving this session — no gap being created")
         return 0
-    behind = []
+    behind, event_driven = [], []
     for l in live:
         wb = status_writes_since(agent_dir, l)
         if wb is not None and wb >= 1:
-            behind.append((wb, l))
-    if not behind:
+            (event_driven if is_event_driven(l) else behind).append((wb, l))
+    if not behind and not event_driven:
         print(f"nudge: [{name}] STATUS moving WITH its ledgers — clean ({len(live)} live ledger(s) checked)")
         return 0
-    behind.sort(reverse=True)
-    wb, worst = behind[0]
-    more = f" (+{len(behind)-1} more behind)" if len(behind) > 1 else ""
-    print(f"⚠️  nudge: [{name}] STATUS moving without ledgers — {os.path.basename(worst)} now "
-          f"{wb} STATUS-write(s) behind{more}: freeze-or-refresh, or say why not in the commit")
-    return 1
+    rc = 0
+    if behind:
+        behind.sort(reverse=True)
+        items = ", ".join(f"{os.path.basename(l)} ({wb}w)" for wb, l in behind)
+        print(f"⚠️  nudge: [{name}] STATUS moving without ledgers — {len(behind)} ledger(s) behind: "
+              f"{items} — freeze-or-refresh EACH, or say why not in the commit")
+        rc = 1
+    for wb, l in sorted(event_driven, reverse=True):
+        rp = repull_date(l)
+        if rp:
+            print(f"ℹ️  nudge: [{name}] event-driven: {os.path.basename(l)} ({wb}w behind — absence "
+                  f"expected by declaration; re-pull attempted {rp}) — confirm the re-pull clock moved")
+        else:
+            print(f"🔴 nudge: [{name}] event-driven: {os.path.basename(l)} ({wb}w behind) declares "
+                  f"Cadence: EVENT-DRIVEN but has NO parseable 'Last re-pull ATTEMPTED: YYYY-MM-DD' "
+                  f"line — absence-expected certifies nothing unless somebody provably looked; "
+                  f"add the re-pull clock or drop the declaration")
+            rc = 2
+    return rc
 
 
 def fmt_age(age):
@@ -526,7 +611,7 @@ def main():
     ap.add_argument("--trade", action="store_true", help="scan trade/position surfaces (TRADE.md / trade/TRADE.md / TRADE_BOOK.md / POSITIONS.md) instead of workbook/*.tsv")
     ap.add_argument("--quiet", action="store_true", help="print only agents with stale ledgers (one line each)")
     ap.add_argument("--strict", action="store_true", help="disable by-name exemptions (schema/archive/backup/history/etc.)")
-    ap.add_argument("--nudge", action="store_true", help="(b) closeout nudge: one advisory line if STATUS is moving this session while ledgers sit >=1 STATUS-write behind (single agent only; thresholdless)")
+    ap.add_argument("--nudge", action="store_true", help="(b) closeout nudge: enumerate all live ledgers >=1 STATUS-write behind while STATUS is moving this session (single agent only; thresholdless; 'Cadence: EVENT-DRIVEN' headers report under a distinct label with their re-pull clock)")
     ap.add_argument("--writes", action="store_true", help="(a) also measure staleness in STATUS-commits-since-ledger-commit; flag at --writes-bar (activity-denominated — sprints can't hide, idle agents don't false-flag)")
     ap.add_argument("--writes-bar", type=int, default=12, help="writes-behind flag threshold for --writes (default 12)")
     ap.add_argument("--abs-floor", action="store_true", help="(c) also flag any live ledger whose absolute content vintage exceeds --abs-days regardless of the relative delta (PAT-092 counter)")
