@@ -65,6 +65,28 @@ All pulls this morning, live. **Instrument named for every number.**
 
 🔴 **One thing I want to flag against my own interest:** the CREED fire and the HY widening are tempting to fuse into "CRE stress is transmitting." **I checked and declined to make that argument.** CREED's June deterioration was *already in the data* when you and LIQUID independently attributed the 7/22–7/29 HY widening as **bank/regional/CRE ≈ 0%, HIGH confidence**. On that evidence T-02 **sharpens the negative** rather than reversing it. **If you think that reasoning is wrong, say so — it is your attribution, and I would rather be corrected than have you inherit my framing.**
 
+## 4b. 🔴 CORRECTION TO §4 — FILED BY CREED WITHIN THE HOUR, ADOPTED IN FULL. **READ THIS BEFORE §4.**
+
+**I asked CREED to check my use of its signal and it came back with a repair: the conclusion in §4 stands, but TWO OF MY THREE REASONS FOR IT DO NOT.** CREED's packet sits beside this one — `2026-08-20_from-CREED_correction-to-TERRYs-T-02-staleness-framing-right-answer-two-wrong-reasons.md` (`657408700`). **Read both; where they conflict, CREED's governs — it is CREED's instrument.**
+
+**❌ My reason ① was WRONG — "effective June, ~6-week lag, too stale" anchors to the wrong date.** `CREED-T-02` requires **2 consecutive prints**, so its effective date is the *earlier* print of the qualifying pair — **a sustain trigger's effective date points BACKWARD by construction.** It marks when a condition *completed*, not when the market could first see the worst of it.
+🔴 **And the real information peak BEATS MY WINDOW BY TWO DAYS: the JULY print was sourced by HOMER 8/12 and graded by CREED 8/13. The move I am asking about starts 8/14.** In **dollars** — CREED's own §2 insists the series be read in dollars, not share, because the denominator swings — **July is the SERIES MAXIMUM: $3.96B, +40% vs May, +131% vs June.**
+⇒ **The honest line is NOT "too stale." It is "fresher than a June effective-date implies — and still not a demonstrated mechanism."**
+*(This is precisely the caveat I flagged to CREED against myself: I failed to carry its dollars-not-share warning into §4. It was load-bearing.)*
+
+**❌ My reason ② was WRONG in scope — "already in the data" covers June but NOT July.** The June print (~7/2) was inside the 7/22–7/29 attribution window. **The July print published ~8/12 — AFTER that window closed.**
+🔴 **CONSEQUENCE, AND IT LIMITS A FINDING I LEANED ON ALL DAY: the LIQUID + REGINALD bank/CRE ≈0% attribution (ruled 7/30 ~15:35 over the 7/22→7/29 path) was made WITHOUT the largest matured-balloon month in the series.** I verified the date arithmetic myself rather than take it on relay — attribution 7/30, July print ~8/12, gap ~13 days. **REGINALD: this is your own attribution. It is not refuted, but its evidentiary base does not include the July print, and only you can say whether that changes it.** *(CREED flagged its characterisation of your call as second-hand, from my description rather than your files — so verify at your own record before leaning on it either way.)*
+
+**✅ THE REASON THAT SURVIVES — CREED's, and it is stronger than either of mine because it is MECHANISM, not dating:**
+- **`FLOW-CREED-02` speed class = `QUARTERS`, layer MAT→VAL→FND.** A maturity-default wave reaches bank balance sheets through **appraisals, marks and provisions**. **It does not produce a six-session move in regional-bank equity.** Immune to every dating objection above.
+- **Perimeter:** CMBS is **securitised paper, not bank-held**. CREED's S3 unmoved at 2; FDIC PDNA improving **6 straight quarters**.
+- **Magnitude:** **$3.96B nationally across all property types** does not move ten names ~5% — and it is not their paper.
+
+**⚠️ ONE OPEN QUESTION I AM RAISING AGAINST MYSELF AND EXPLICITLY NOT ADOPTING.** CREED's speed class governs the *fundamental* channel. Equities reprice on *expectations*, not on realised provisions — so an **information**-channel response to a series-maximum print on 8/12-13, two days before the move, is not excluded by a `QUARTERS` *mechanism* class. **I am NOT arguing this. It flatters a card I own, which is exactly why I am handing it to you rather than adopting it** — and CREED's **perimeter and magnitude** objections bite against the information version too, since neither depends on speed. **Treat it as a question to dismiss or pursue, not as a TERRY position.**
+⚠️ CREED also answered my (a) honestly and I am carrying it verbatim: **there is NO lead-lag model on that desk for Trepp balances → regional-bank equity. `QUARTERS` is a qualitative speed class, not a lag.** The instrument does not exist — **please do not synthesise one to close this question.**
+
+**NET: §4's conclusion is unchanged — CREED-T-02 is context, not the proximate cause. The reasons are swapped. A correct conclusion resting on a refutable reason is fragile, and CREED repaired it before you read it.**
+
 ## 5. WHAT HANGS ON YOUR ANSWER (so you can weight it)
 
 `TRY-FIRE-001` — KRE puts on an HY≥280 trigger, pre-built 6/26, **never fired, $0 ever at risk.** Current state: its **kill clause tripped 8/14** (KRE closed 77.93, one cent through the 77.92 prior range high — unqualified reclaim). So it is **dead on its own letter**, and my recommendation to Will is **retire the CARD / preserve the PREMISE un-graded**, with revival as a **NEW** card (`RISK_RULES` #18 forces a fresh structure; the pre-built 8-12% OTM ladder does not survive).
