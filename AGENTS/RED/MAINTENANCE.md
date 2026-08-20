@@ -11,6 +11,22 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-20 (S33b) — `scripts/review_debt.py` SHIPPED (Will-ruled: "fix the check, not just the rows") + boot step 9c + two published counts corrected
+
+**Trigger:** Will approved both S33 questions — **(1) Phase 2.5 (the Treasury-buyback instrument) jumps ahead of Phase 3**, and **(2) Phase 2 fixes the CHECK, not just the rows.** This entry is ruling (2).
+
+**Constraint that shaped the design:** `scripts/ledger_staleness.py` is a **shared root script outside RED's dir** — RED cannot commit to it (root Git Protocol). So the check is **RED-local first** (`AGENTS/RED/scripts/review_debt.py`, the `boot.py`/`schema_check.py` precedent), proved here, and **proposed onward to the fleet via PROME** — which is also the right order, because ML-182 says every agent carrying a KB/VX review-date column has the same gap and that is not RED's call to make unilaterally.
+
+**What it checks — three axes, and the third is the one a naive version misses:** ① `KB.Stale_By` past-due on non-terminal rows · ② **TERMINAL rows still CITED by a live surface** (STATUS / NEXUS_BRIEF / CALENDAR / SCRATCH / VX / registry) — no review *scheduled*, contents must still be *current*, the `KB-RED-001` class · ③ live `VX.Last_Reviewed` older than 45d. Read-only, exit 0 by default (`--strict` gates, `--quiet` for boot). **Deliberately never keyed on mtime** — git sync restamps it and the check would fail FALSE-NEGATIVE (`finding_mtime_is_corrupted_by_git_sync`); every date is read from row content. **Wired as boot step 9c**, beside 9a with an explicit note that 9a reads FILE vintage and cannot answer a row-level question.
+
+**⚑ THE TOOL'S FIRST RUN FOUND A DEFECT IN ITS OWN AUTHOR'S WORK, AND IT WAS A COUNT PUBLISHED HOURS EARLIER.** `VX.tsv` carries a two-clock banner on **line 0** with the **header on line 1** — the banner says so in prose. The S33 correction was measured with `awk NR>1`, which skips the banner and then **reads the HEADER ROW AS A LIVE VECTOR**. So *"9 of 18"* went out on four surfaces; the true denominator is **17**. The numerator was unaffected (the header's `Last_Reviewed` cell is the literal string, which loses a date comparison), **so the error appeared ONLY in the total — an off-by-one that flattered the ratio and was invisible by eye.** Corrected on `STATUS.md`, `SCRATCH.md`, `MAINTENANCE.md`, `OUTBOX.md` (-020) and in the `VX.tsv` banner itself, which had also been carrying the *older* wrong figure (*"7 of 14"*) since S30. **Both published figures were wrong and both understated the debt — i.e. both wrong in RED's favour.** The skip-`#`-banner rule is now in `rows()` with the incident written into its docstring: **a prose warning inside a file does not parse.**
+
+**Also this pass:** `NEXUS_BRIEF.md` identity header repaired — body and `As of:` were current to S32 while **line 3 still read `Status: 🔴 vS29` and line 6 `Thesis version: S29`**. The brief was folded; its *identity* line was not, and that line is what NEXUS reads. Now `vS33`, with the weights explicitly marked **current-not-stale** (three closed sessions, no weight change, each saying so) so a reader cannot mistake stability for rot — the inverse of `finding_header_edit_is_the_edit_most_mistaken_for_maintenance`.
+
+**Files touched:** `scripts/review_debt.py` (new) · `CLAUDE.md` (boot 9c + 9a caveat) · `NEXUS_BRIEF.md` · `workbook/VX.tsv` (banner) · `STATUS.md` · `SCRATCH.md` · `OUTBOX.md`. **Boot-impact:** one new ~1s read-only step (9c). Verified after: `review_debt` runs, `schema_check` ✅ ALL CONFORM, `boot.py` ⑤ 🟢.
+
+---
+
 ## 2026-08-20 (S33) — KB.tsv Stale_By disposition rule adopted + 33→9 pass; ML status-rot closed
 
 **Trigger:** Will-directed open-items sweep found **33 of 86 KB rows past their own `Stale_By` date** (22 still `ACTIVE`, worst 61d) against a CLAUDE.md rule that says they "must be reviewed/refreshed by that date." Nothing enforces it — `ledger_staleness.py` reads FILE vintage, so KB.tsv scored **clean** while 38% of its rows were overdue. Same blind-spot shape as the VX `Last_Reviewed` gap named at T7.
@@ -21,7 +37,7 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 **Boot-impact:** none — no boot step added. **Deliberately so:** the fix this class actually needs is a CHECK (extend the staleness reader to row-level `Stale_By` and VX `Last_Reviewed`), queued to Phase 2. **Editing the rows without fixing the check buys ~30 days.**
 
-**⚑ Two analytical finds surfaced by the hygiene pass, both logged and one routed:** KFRC Q2 unrecorded for 24 days because its conjunction had already broken on the other leg (ML-180 → 8/28 QCEW input, not scored); and **VX-RED-004's published omission** — the fleet-facing staleness figure read *"7 of 14"* against a measured **9 of 18**, understated in RED's favour, hiding a 79-day-stale SAM/Japan vector whose flip line (`30Y JGB >2.5%`) sits ~1.6pp behind its instrument. Both in STATUS §S33.
+**⚑ Two analytical finds surfaced by the hygiene pass, both logged and one routed:** KFRC Q2 unrecorded for 24 days because its conjunction had already broken on the other leg (ML-180 → 8/28 QCEW input, not scored); and **VX-RED-004's published omission** — the fleet-facing staleness figure read *"7 of 14"* against a measured **9 of 17**, understated in RED's favour, hiding a 79-day-stale SAM/Japan vector whose flip line (`30Y JGB >2.5%`) sits ~1.6pp behind its instrument. Both in STATUS §S33.
 
 ---
 
