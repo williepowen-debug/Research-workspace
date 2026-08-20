@@ -22,6 +22,21 @@
 8. **HAW-19 answered adversarially — I do NOT refute HAWK; I strengthen it and raise ONE objection** (the `≥45d observed offline` leg can fire on a false zero). See NEXUS_BRIEF / report §9.
 9. **15 mail items consumed** (5 root + 10 WALTER), all dispositioned + `git mv`'d.
 
+
+## 🔎 SECOND OPENING 2026-08-20 — WILL-DIRECTED THEATER GAP SWEEP
+> Artifact: `reports/2026-08-20_theater-gap-sweep.md`. Mechanism-broad, sourced negative against a declared inventory (STRIKES thru 8/15 · KB thru 103 · STATUS 8/20 · this morning's report · board_log 85 rows).
+
+1. **🔴 POST-MOU UNKNOWN RESOLVED — A NEGATIVE.** No US/Israeli strike inside Iran confirmed by CENTCOM through 0500 ET 8/19 = **20th consecutive night of pause**; **no change in posture/ROE/target sets** since the 8/17 expiry. **The diplomatic collapse did NOT convert into kinetic escalation.** ⚠️ *Unchanged ≠ reversed.* `KB-FALCON-106`
+2. **🔴 OPERATOR ALL-CLEAR (Aramco Q2 call 8/4):** Nasser *"no material impact on our capabilities"*, **Abqaiq MINOR**, **Jazan REMAINED OFFLINE**, exports held via **East-West Pipeline + STORAGE CAPACITY + terminals.** 🎯 Lands on a **pre-registered class** (`FAL-01_REREGISTRATION_SCAFFOLD.md:121`). Strengthens FAL-04's "no route fired" half; **grade unchanged.** `KB-FALCON-104`
+3. **⛔ ABQAIQ "~7 mb/d REMOVED" KILLED at the mechanism** — operator contradiction + **CAPACITY-vs-LOSS conflation** + WALTER's named **2019 "four of six spheroids"** trap present. `KB-FALCON-105`
+4. **⚠️ DATE-TRAP CAUGHT:** The Hill's *"80+ targets… as MOU falters"* is **7/07**, not post-expiry. **Taking it would have reported a resumption into a 20-night pause.** Two 403s resolved by enumerating hosts.
+5. **🟠 UAE:** two Iranian ballistic missiles detected **8/18, first since the 4 May Fujairah strike**; **all** trade suspended. **Fujairah is my bypass-gauge primary port.** `KB-FALCON-107`
+6. **Kharg: FRAGILE, no second halt reported.** 8/19 = **≥12 LADEN tankers in anchorage, no loading observed** — an absence claim from an intermittent-revisit satellite source; the **laden-and-waiting** half is the real signal (departure, not loading). `KB-FALCON-108`
+7. **⚖️ `STRIKES.tsv` advanced 8/15→8/20, ZERO new rows.** The **8/18 Jazan claim deliberately NOT rowed** — one claimant/three relays, no MoE statement, no wire follow-up. **A row asserts an event; the COUNT is what WALTER routed here to be ruled.** `KB-FALCON-110`
+8. **🆕 UANI *Iran Shipping Update*** — near-daily **satellite** Kharg series = candidate replacement for my impeached veto. ⛔ **NOT adopted:** 403'd, so search-summary only; **advocacy org**, bias sign unestablished. `KB-FALCON-109`
+9. **HAW-19 LEG A: nothing fires it.** Only FM traffic = QatarEnergy **LNG**, out of crude scope + a continuation.
+10. **⚠️ My "inbox clear" was stale within hours** — a PROME packet landed 10:13. Drained before sweeping. **Rule earned its keep on first use.**
+
 ## WHAT I DID THIS SESSION
 - Read root + own `CLAUDE.md` explicitly (spawned from HAWK's cwd — no auto-load); ran the full boot script suite.
 - Graded FAL-04 against its **registered letter**, route by route, with fresh primary pulls on every route.
@@ -33,12 +48,14 @@
 - Archived 3 stale STATUS session blocks to `domain/sources/`; fixed the `CLAUDE.md` KB row-count pointer my own rows had made worse.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **🔴 REGISTER `FAL-05`** — no row is OPEN, and that is a **gap**, not a clean slate. **It MUST carry the third resolvability branch** FAL-04 lacked: *"outage persists AND is affirmatively confined to excluded molecules ⇒ contributes to CONFIRMED."* Base-rate before registering.
-2. **🔴 DAEDALUS rail-repair bundle, actions 1–8 + rest of 9** — deferred as a BUNDLE today with cause (a half-executed 4-surface fatality sweep is worse than untouched). ⚠️ **Action 3's re-wording is WILL-GATED.**
-3. **🔴 PROME spec batch (3 builds)** — casualty-ratchet instrument · SUNK-01 attacker-identity repair · EXIT_PROTOCOL kill-#4 duration bar. **All three require a base rate computed BEFORE registration** — that is why they were not rushed today. Natural window = the **8/24 checkpoint**.
-4. **Jazan restart ~2026-08-30** — IIR estimate, never an Aramco statement. Watch, and re-base `ANALYSIS_*.md`'s trigger which still names 8/15.
-5. **Yanbu w/c-8/17 figure** — if it also fails to relay, that is a **third** consecutive non-print and the leg-3 grading basis needs formal re-specification, not another wait.
-6. **War-risk** — 5/5 rows expired; re-pull event-driven. The **registered falsifier (WC Saudi 0.1%) at 28d** is the one that matters.
+1. **🔴 FOLD `GATE-FALCON-001`'s CANONICAL LETTER into `domain/FRESH_LEG_BASELINE.md`** under a stable `## GATE-FALCON-001 — canonical letter` heading (≤~3.0 mb/d total / ≤~2.55 crude, frozen baselines 4.7 / ~4.0). **PROME needs the anchor before its ~8/23 column pass** — answered in the 8/20 sweep report §7. **NOT `STATUS.md`: it is rewritten every session and I shifted every line below the archived blocks by ~10 TODAY, so PROME's cited `STATUS.md:186` had already rotted.**
+2. **🔴 VALIDATE-OR-DROP UANI** as the replacement dark-fleet instrument: reach a primary (403 from this box), run a **known-positive control on the 8/12 Kharg loading**, base-rate its zero-days, and establish the **sign** of its advocacy bias. Without this, `KB-FALCON-108`'s Kharg read stays C3 and I have no working Kharg instrument at all.
+3. **🔴 REGISTER `FAL-05`** — no row is OPEN, and that is a **gap**, not a clean slate. **It MUST carry the third resolvability branch** FAL-04 lacked: *"outage persists AND is affirmatively confined to excluded molecules ⇒ contributes to CONFIRMED."* Base-rate before registering.
+4. **🔴 DAEDALUS rail-repair bundle, actions 1–8 + rest of 9** — deferred as a BUNDLE today with cause (a half-executed 4-surface fatality sweep is worse than untouched). ⚠️ **Action 3's re-wording is WILL-GATED.**
+5. **🔴 PROME spec batch (3 builds)** — casualty-ratchet instrument · SUNK-01 attacker-identity repair · EXIT_PROTOCOL kill-#4 duration bar. **All three require a base rate computed BEFORE registration** — that is why they were not rushed today. Natural window = the **8/24 checkpoint**.
+6. **Jazan restart ~2026-08-30** — IIR estimate, never an Aramco statement. Watch, and re-base `ANALYSIS_*.md`'s trigger which still names 8/15.
+7. **Yanbu w/c-8/17 figure** — if it also fails to relay, that is a **third** consecutive non-print and the leg-3 grading basis needs formal re-specification, not another wait.
+8. **War-risk** — 5/5 rows expired; re-pull event-driven. The **registered falsifier (WC Saudi 0.1%) at 28d** is the one that matters.
 
 ## ⛔ CORRECTION TO MYSELF — carried forward deliberately
 - **I asserted "OSPREY is not live this session" off `ListAgents`. That was WRONG and it was my error, not HAWK's.** OSPREY and I were **both in-process subagents of HAWK's session**, and that listing does not enumerate a sibling subagent — OSPREY could never have appeared in mine, alive or dead, and I did not appear in OSPREY's. OSPREY made the identical error about me, which is why the GATE-TERRY-006 routing bounced twice.
@@ -62,5 +79,6 @@
 - Inbox: **clear** (5/5 processed). WALTER lane: **clear** (10/10 processed). Outbox: no undelivered items; today's packet routed via SendMessage + NEXUS_BRIEF.
 
 ## PENDING PUSH / GIT (if any)
-- **Commits `f9365fb87` / `5d63b364a` / `2a8705f6b` are ON ORIGIN** — HAWK discharged the push train and confirmed the tree clean.
+- **Commits `f9365fb87` / `5d63b364a` / `2a8705f6b` / `c846b6918` are ON ORIGIN** (the retraction commit was swept by a later push train — verified `git branch -r --contains`)
+- **PRIOR NOTE, now discharged:** — HAWK discharged the push train and confirmed the tree clean.
 - ⚠️ **ONE LATER COMMIT IS LOCAL AND UNPUSHED** (the OSPREY-liveness retraction + LESSONS entry, made AFTER the push train discharged). **It is flagged to HAWK; if HAWK has gone idle, it rides the next agent's push train — do not leave it stranded.** I did not push it myself per boot card #4.
