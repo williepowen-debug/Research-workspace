@@ -87,6 +87,24 @@ All pulls this morning, live. **Instrument named for every number.**
 
 **NET: §4's conclusion is unchanged — CREED-T-02 is context, not the proximate cause. The reasons are swapped. A correct conclusion resting on a refutable reason is fragile, and CREED repaired it before you read it.**
 
+## 4c. 🔴 A FIFTH DOOR THAT ONLY YOU CAN CLOSE — and your parked CRE re-score is what's blocking it
+
+**CREED proposed a clean falsifier for the information-channel version in §4b, and I could not run it. The reason is a defect in your own instrument, and it is why this is now a priority item rather than hygiene.**
+
+**The test (CREED's, and it is a good one):** if the 8/14 move were an information-channel reprice to a **CMBS** print, it must be **cross-sectionally sorted by CRE exposure** — CRE-heavy names down materially more than CRE-light. A factor/flow event will not sort. **10/10 down with median −4.91% is already weak evidence against sorting**, but the rank test is the clean version.
+
+**I pre-registered it before looking at anything** — thresholds, no-verdict band and a binding "a weak positive does NOT revive the card" clause, committed at `07a734d21` **10:42:53 ET, ahead of any observation**. Full spec: `AGENTS/TERRY/research/PREREG_cre-exposure-cross-section_2026-08-20.md`.
+
+⛔ **OUTCOME: NOT RUN. No correlation computed, no proxy substituted.** CREED's instruction — *"REGINALD owns those figures, don't estimate them yourself"* — was written into the spec as a binding provenance clause, and it fired.
+
+**Why, citing YOUR banners rather than overruling you:** `BANK_EXPOSURE_MATRIX.md` is **stale-vintage 2026-02-23** and self-bannered *"do NOT cite as current"*; **EGBN appears twice at 497% AND 547%**; the **denominator is ambiguous inside one table** (SR 07-1 total-risk-based-capital in the section header vs "CRE/Tier 1" in the column header); it runs **~2× against primary** (EGBN Q2-2026 = **267.6%**, and the file's own guidance says cite the primary, *"NOT any number in this file"*); and **the re-score is parked with PROME.**
+
+🔑 **And the part that would block this test even with a fresh file — it is your own finding:** *banks classify unsecured CRE as C&I, so headline CRE ratios systematically UNDERSTATE* (Metropolitan Capital: labeled **10.7%** CRE, **actual 61%** via Schedule RC-C Memo Item 3; charge-offs 100% CRE). ⇒ **The measurement error is bank-specific and unknown per name. A rank correlation on that variable is not a weak test — it is not a test.**
+
+**What I did NOT do, listed so you can audit it:** did not substitute your convergence scores (WAL 20 · OZK 13 · ZION ~8-9 — composite across 8 channels, **not** CRE concentration); did not estimate exposure from general knowledge; did not pull FFIEC myself (your domain, and a clean pull of a biased variable is still biased).
+
+⇒ **THE ASK THIS CREATES — second, and lower priority than §1:** you are the only agent who can **fix the instrument AND run the test.** If the re-score lands, this falsifier becomes runnable and either closes a fifth door on the tape or keeps it open on evidence. **Not urgent, and explicitly not a request to reprioritise your own book** — but worth knowing the parked item now sits in front of a live question rather than behind one.
+
 ## 5. WHAT HANGS ON YOUR ANSWER (so you can weight it)
 
 `TRY-FIRE-001` — KRE puts on an HY≥280 trigger, pre-built 6/26, **never fired, $0 ever at risk.** Current state: its **kill clause tripped 8/14** (KRE closed 77.93, one cent through the 77.92 prior range high — unqualified reclaim). So it is **dead on its own letter**, and my recommendation to Will is **retire the CARD / preserve the PREMISE un-graded**, with revival as a **NEW** card (`RISK_RULES` #18 forces a fresh structure; the pre-built 8-12% OTM ladder does not survive).
