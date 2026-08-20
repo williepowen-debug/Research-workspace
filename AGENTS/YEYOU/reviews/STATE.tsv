@@ -2,3 +2,25 @@ Agent	Last_Reviewed_Commit	Last_Reviewed_Date	Open_Findings	Notes
 # One row per agent reviewed. Watermark = the last commit YEYOU has reviewed for that agent's dir.
 # Empty until first run. Recommended baseline: set every agent's watermark to current HEAD so YEYOU reviews only NEW pushes.
 *DEFAULT*	fdb466786926d37b51e013d99b3d164c1e531418	2026-08-20	0	DEFAULT baseline set by DAEDALUS on Will ruling 2026-08-20 ("watermark YEYOU at today and spawn it") = last commit before 2026-08-20 00:00, so the first pass reviews todays pushes forward. Per-agent rows supersede this as reviews accrue.
+WALTER	66ba48964	2026-08-20	0	First pass: 34 commits reviewed, PASS (YEY-P01)
+HAWK	66ba48964	2026-08-20	1	First pass: 21 commits, YEY-003 (STATUS over own 120 target)
+SAM	66ba48964	2026-08-20	3	First pass: 19 commits, YEY-005/006/007
+BOND	66ba48964	2026-08-20	0	First pass: 16 commits, PASS (YEY-P02)
+OSPREY	66ba48964	2026-08-20	0	First pass: 12 commits, PASS (YEY-P03)
+PROME	66ba48964	2026-08-20	1	First pass: 11 commits, YEY-001 (DOCKET 2 rows dropped artifact column)
+TERRY	66ba48964	2026-08-20	1	First pass: 10 commits, YEY-004 (STATUS 509 lines, no local cap)
+CREED	66ba48964	2026-08-20	0	First pass: 9 commits, PASS (YEY-P04)
+FALCON	66ba48964	2026-08-20	1	First pass: 9 commits, YEY-002 (STATUS 253 over own 250 cap)
+DAEDALUS	66ba48964	2026-08-20	0	First pass: 7 commits, PASS (YEY-P05)
+LIQUID	66ba48964	2026-08-20	1	First pass: inbound-only, YEY-010 (inbox backlog w/ Will-ruled ACTION unread)
+REGINALD	66ba48964	2026-08-20	0	First pass: inbound-only, PASS (YEY-P12)
+BRENT	66ba48964	2026-08-20	0	First pass: inbound-only, PASS (YEY-P06)
+BROCK	66ba48964	2026-08-20	0	First pass: inbound-only, PASS (YEY-P07)
+HENRY	66ba48964	2026-08-20	1	First pass: inbound-only, YEY-008 (71-item inbox backlog)
+HOMER	66ba48964	2026-08-20	0	First pass: inbound-only, PASS (YEY-P08)
+MARCO	66ba48964	2026-08-20	1	First pass: inbound-only, YEY-009 (36-item inbox backlog)
+ORACLE	66ba48964	2026-08-20	0	First pass: inbound-only, PASS (YEY-P09)
+RED	66ba48964	2026-08-20	1	First pass: inbound-only, YEY-011 (27-item inbox backlog)
+SHADE	66ba48964	2026-08-20	0	First pass: inbound-only, PASS (YEY-P10)
+VIOLET	66ba48964	2026-08-20	0	First pass: inbound-only, PASS (YEY-P11)
+YEYOU	66ba48964	2026-08-20	2	Self: YEY-012 (checklist §F contradicts carve-out ①) + YEY-013 (stale GLM/HERMES refs)
