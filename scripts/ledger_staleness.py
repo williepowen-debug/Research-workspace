@@ -531,17 +531,27 @@ def nudge(agent_dir, name):
     rc = 0
     if behind:
         behind.sort(reverse=True)
-        items = ", ".join(f"{os.path.basename(l)} ({wb}w)" for wb, l in behind)
+        # UNIT RENDERED AS MEASURED (fix 2026-08-20, REGINALD via PROME): this counter is
+        # STATUS-WRITES-behind, and "w" read as WEEKS. On a high-volume day every ledger
+        # accumulates one per STATUS commit regardless of freshness -- REGINALD committed
+        # STATUS 8x and a ledger written NINE MINUTES earlier printed "3w". A check that
+        # reads catastrophically wrong on the desk's most productive day trains skipping
+        # (PAT-110 inverse / PAT-116 family: measurement right, output shape misleads).
+        items = ", ".join(
+            f"{os.path.basename(l)} ({wb} STATUS-write{'' if wb == 1 else 's'} behind)"
+            for wb, l in behind)
         print(f"⚠️  nudge: [{name}] STATUS moving without ledgers — {len(behind)} ledger(s) behind: "
               f"{items} — freeze-or-refresh EACH, or say why not in the commit")
         rc = 1
     for wb, l in sorted(event_driven, reverse=True):
         rp = repull_date(l)
         if rp:
-            print(f"ℹ️  nudge: [{name}] event-driven: {os.path.basename(l)} ({wb}w behind — absence "
+            print(f"ℹ️  nudge: [{name}] event-driven: {os.path.basename(l)} ({wb} STATUS-write"
+                  f"{'' if wb == 1 else 's'} behind — absence "
                   f"expected by declaration; re-pull attempted {rp}) — confirm the re-pull clock moved")
         else:
-            print(f"🔴 nudge: [{name}] event-driven: {os.path.basename(l)} ({wb}w behind) declares "
+            print(f"🔴 nudge: [{name}] event-driven: {os.path.basename(l)} ({wb} STATUS-write"
+                  f"{'' if wb == 1 else 's'} behind) declares "
                   f"Cadence: EVENT-DRIVEN but has NO parseable 'Last re-pull ATTEMPTED: YYYY-MM-DD' "
                   f"line — absence-expected certifies nothing unless somebody provably looked; "
                   f"add the re-pull clock or drop the declaration")
