@@ -100,13 +100,15 @@ def main() -> None:
         raise SystemExit("FAIL: buckets share no common as-of dates.")
 
     # Fail LOUD on staleness rather than silently printing an old window.
+    # 2026-08-19 (DAEDALUS SFG sweep 8/17): banner moved stderr -> STDOUT so any
+    # stdout-capture path (the common way this table reaches a memo) carries the
+    # warning WITH the table instead of losing it.
     lag = (today - _dt.date.fromisoformat(dates[-1])).days
     if lag > MAX_EXPECTED_LAG_DAYS:
         print(
             f"\n!! STALE: latest as-of {dates[-1]} is {lag}d old (>{MAX_EXPECTED_LAG_DAYS}d).\n"
             "!! Either publication paused or the break rolled over. Do NOT cite these "
-            "as current until resolved.",
-            file=sys.stderr,
+            "as current until resolved."
         )
 
     shown = dates[-args.weeks:]

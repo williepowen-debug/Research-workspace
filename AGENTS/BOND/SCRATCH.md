@@ -1,174 +1,36 @@
-# BOND SCRATCH — 2026-08-18 (Tue, ~09:10 → ~15:xx ET). Will-tasked FULL STALENESS SWEEP of every core document. CLOSED OUT.
+# BOND SCRATCH — 2026-08-19 (Wed, ~21:00 → ~22:xx ET). PROME-spawned catch-up after a dark day. CLOSED OUT.
 
-**Purpose:** ephemeral session handoff. Read at boot, rewritten at closeout. Learnings → `MEMORY.md` / auto-memory; thesis → `thesis/THESIS.md`; live state → `STATUS.md`.
+**Purpose:** ephemeral session handoff. Read at boot, rewritten at closeout.
 
-**Session shape:** Will said "boot up," then "make sure we update all our stale data in BOND — core documents one at a time." Ran the full boot read, then swept **every** core surface. Late in the session Will noted PROME and ORACLE were working live together, so I stopped adding to their queue.
+**Session shape:** the desk was DARK through the biggest rates day of the month (8:31 sb0607 buyback doubling · 1PM 20Y · 2PM FOMC minutes). PROME spawned this session ~20:4x ET with five owed deliverables, all permanent-document class per Will's same-day ruling. All five delivered — full text in **`analysis/2026-08-19_catchup_T7-20Y-WAM-sb0607-C36.md`**; delivery memo in `outbox/2026-08-19_to-PROME_catchup-...md`.
 
----
+## CHANGES SINCE 8/18 (what this session decided)
 
-> ## 🔧 SESSION-3 ADDENDUM (~20:00 → ~23:xx ET) — WILL-AUTHORISED STRUCTURAL FIXES. Read before session 2 below.
->
-> **Sessions 1–2 fixed stale data and stale method. This one fixed the CLASSES they came from.** Everything below is tested, committed and on origin.
->
-> ### 🔴 TOMORROW, 8/19 — TWO EVENTS
-> **1:00 PM — 20Y $16B `912810UX4`.** Run **`python3 monitors/grade_auction.py --cusip 912810UX4`**. Bars are FROZEN: **failure = indirect <55.17% AND dealer >17.59%** · **cover marker = BTC <2.36**. **`BND-14` resolves on indirect ≥64.95%** (state the margin — v1.1.4(e)).
-> **2:00 PM — FOMC minutes. `T7` resolves.** ⚠️ **Grade on the 7/29 VINTAGE** (3-mo payroll avg 111K), never today's +20K. ⚠️ **The LABOR-independence clause is RETRACTED** (shared antecedent). ⚠️ **Premise drift ~6pp** (written against 35.5%, measured 28.5/30.0) — **note at grading, do NOT rewrite frozen text.** **8/19 does NOT grade T6.**
-> **Any session — `DFII10` ≥2.50 falsifies `BND-15`. 6bp away.** A single close falsifies the prediction but does **NOT** satisfy the gate (`>2.5 SUSTAINED`), does **NOT** authorise an add, does **NOT** displace Will's NO-ADD → margin-stated proposal to TERRY, escalated to Will.
->
-> ### 🆕 THREE TOOLS BUILT, ALL WIRED INTO BOOT/CLOSEOUT, ALL FOUND REAL DEFECTS ON FIRST RUN
-> | Tool | Step | Caught on day one |
-> |---|---|---|
-> | `monitors/docket_check.py` | boot 5 | an **undocketed 8/26 2Y reopening** (`91282CRD5`) |
-> | `monitors/boot_recompute.py` | boot 6 | **five stale dashboard rows** (DGS10, DGS2, HY, CCC, IG) — all one release behind |
-> | `monitors/grade_auction.py` | on demand | **two bugs in itself** — see below |
-> **Closeout step 16 = unavailability sweep** (new). Step numbering shifted: closeout is now **9–18**.
->
-> ### 🔴 THE CATCH THAT MATTERED MOST — a false positive prevented for tomorrow
-> **The TreasuryDirect `TA_WS/auctioned` date filter is INOPERATIVE.** It ignores `startDate`/`endDate` and returns the most-recent **250** rows for **any** window (verified across six windows, all identical). The cutoff **slides** as auctions land. `pagesize`/`pagenum` do nothing.
-> **Monthly tenors are fine** (250 rows ≈ 18 months, so today's nominal bars are sound). **Rare instruments are not: 30Y TIPS showed n=2 vs a true n=7, with a truncated dealer MAX of 4.46 against a real 9.87.** ⇒ **Grading tomorrow's 8/20 TIPS reopening off those bars would have fired a composition failure on any dealer print between 4.46 and 9.87 — squarely normal for that instrument.**
-> **FIX: benchmarks now come from the LOCAL CORPUS; TA_WS is used only for the latest print and the schedule, with a loud warning at ≥250 rows.** **Third instance of this class** (FR2004 series break · `DGS30` `limit=1300` read as a series start · this). `KB-BND-134`.
-> ⚠️ **Also guarded: the REOPENING TRAP** — a reopened CUSIP is in BOTH feeds, and the grader silently returned **February's** original when asked about the 8/20 reopening.
->
-> ### ✅ CORPUS UN-BLOCKED (this was the dependency under everything)
-> `refresh_auction_history_prome-spawned.py`: `to_csv` ran **before** validation, so a documented empty-200 destroyed 370 rows and *then* raised. Now **validate → `.tmp` → `os.replace`**, plus a **shrink guard** (a third failure mode DAEDALUS didn't report), a loud 429 path, and bounded+stamped CMT fallback (`cmt_asof`, `cmt_lag_days`). All four guards tested; corpus verified intact.
-> **Corpus refreshed 369 → 390 rows, current through 8/13**, and it independently reproduces my TreasuryDirect grade of the August refunding on all three legs. ⇒ **The three held v1.1.4 spec changes (a)/(b)/(c) are now BASE-RATEABLE. That is the top analytical item and it deserves a fresh session, not a tired tail.**
->
-> ### 🟠 SCOPE — Will ruled dormant vectors return on evidence of activity. Testing overturned two of my own calls within the hour.
-> **RE-ARMED · `VX-BND-19` EU rates 2→3.** The ECB SDW serves a **DAILY** euro-area AAA curve over a public API. I'd declared it dormant citing an unverified ECB calendar **without ever testing whether the data was reachable.** ★ **And it produced the session's best finding: EA AAA 2Y +3bp / 10Y +7bp / 30Y +8bp = a long-end-led bear steepener — the SAME signature as the US and Japan. Three sovereign curves, three central banks, same week.** Closest thing to an **independent** instrument the term-premium read has. **Routed as an INPUT to HEN-42 (8/29), NOT a C-36 label change.**
-> **RE-ARMED · `VX-BND-16` buybacks**, held at 1. Operations are **~weekly** (incl. one on 8/18) via FiscalData while the vector carried "cap held" from **7/01**. Score held deliberately: **cadence is not posture**; the trigger is a **cap lift** and I have not read a results doc. **Grade it next session.**
-> **CORRECTLY DORMANT (verified):** `VX-07` (HY 270, 68–93bp from its band, tightening) · `VX-17` (MBS spread 204bp, mid its 187–209 range — the 19-yr-high long end is passing into mortgage RATES 6.43→6.69 but **not** into spreads).
-> **⚠️ UNTESTED: `VX-18` FHLB** — quarterly cadence, Q2 combined report may be out. **First thing to check next session.**
-> **`VX-BND-13` FOI demand hole 3→2** — self-caught: it sat at 3 on 26-day-old evidence while I downgraded its sibling the same session on exactly that data. **Composite UNCHANGED 12/35** (rolls up, counted once; VX-19 sits outside by construction).
-> **REGINALD packeted** — FHLB/MBS dormancy is a coverage reduction they may have been relying on.
->
-> ### 📌 METHOD RESIDUE — n=4 for the day on one shape
-> **"A written guard does not create a habit, and it fails first on the artifact that carries it."** WALTER shipped a stale figure inside the packet encoding its own staleness guard · I published mixed counting conventions 3h after writing the convention rule · I declared a vector dormant on an unavailability assumption hours after committing the memory forbidding exactly that · and I nearly shipped a silent-truncation bug on the day whose lesson was silent truncation.
-> ⇒ **A dormancy declaration IS an unavailability claim** — it asserts there is nothing there. Test it against the source before declaring it.
-> ⇒ **"I wrote this down today" is a reason to AUDIT the current artifact, not evidence it complies.**
->
-> ⚠️ **Housekeeping: one commit message (`067309009`) had two words eaten by backtick shell-substitution. NOT amended — that needs a force-push, which is prohibited.** Substance is intact in `KB-BND-134` and the script comment.
->
-> ---
->
-
-> ## ⚠️ SESSION-2 ADDENDUM (~15:00 → ~19:xx ET) — WRITTEN AFTER THE BODY BELOW. Read this first; the body is the sweep, this is what happened after it.
->
-> **The sweep found stale data. The hours after it found stale METHOD, which was worse and is the part to carry.**
->
-> ### 🔴 THE ONE LIVE NUMBER
-> **`DFII10` 2.44 [FRED 8/17] — 6bp from the ONLY surviving TLT add-gate, +5bp in two sessions** (2.39 → 2.41 → 2.44). Second-closest approach of the cycle (closest: 2.47, 7/31). **My surfaces carried 2.41 / 9bp for most of the session.** Not stale-carry — **PARTIAL REFRESH**: `DFII10` publishes on the **same H.15 cycle as `DGS30`**, I cache-busted `DGS30` to grade `BND-16` and did not re-pull its neighbour. **Rule: when one series from a release publishes, refresh the RELEASE.**
-> **`BND-15` (70%) is now 6bp from falsification with 8 sessions. FROZEN — not re-priced, and will not be.** If it resolves FALSE it is a real miss on a 70% call. **A single close ≥2.50 falsifies BND-15 but does NOT satisfy the gate (`>2.5 SUSTAINED`), does NOT authorise an add, does NOT displace Will's NO-ADD** — it produces a margin-stated proposal to TERRY, escalated to Will.
->
-> ### ✅ RESOLVED
-> **`BND-16` TRUE, +3bp** — `DGS30` 8/17 = **5.31**; ^TYX/DGS30 basis printed at **exactly zero**. `DGS30` 2026 max **5.27 → 5.31**; run **30**; days **46**.
-> ⇒ **T6 defect (1) is OVERTAKEN BY THE TAPE, not "still standing"** — the `>5.28` OR-leg is now reachable on the grading instrument. **Provenance criticism survives** (specified off a `^TYX` intraday, Sunday date). 🔴 **FOURTH ambiguity created by the print: "fresh high >5.28%" was unambiguous while 5.28 sat above the max; with the max at 5.31 a 5.29 print is >5.28 but NOT a fresh high, and the band widens as the max rises.** Routed to LIQUID; frozen text untouched.
->
-> ### 🔴 FOUR SELF-CORRECTIONS, TWO OF THEM AGAINST MY OWN BOOK
-> 1. **"My FRED `DGS30` series starts 2021-08" was FALSE** — it spans **1977, n=12,371**. A `limit=1300` truncation mistaken for the series' origin, **used for weeks to DECLINE verifying Bloomberg's 2007 figure.** Same class as the FR2004 stale series break.
-> 2. **Bloomberg's "50 days in 2007" reproduces EXACTLY on `≥5.00`.** My 47 was `>5.00`. **One character was the whole "unverified" gap.**
-> 3. **Run-lengths: every one I published was wrong** (`458`→**721**, `79`→**92**, `42`→**44**). I computed runs **per-year on `>5.00`** beside day-counts on **`≥5.00` whole-series** — **two conventions in one table**, three hours after writing that convention was the parameter I keep missing. **Retracted to WALTER as a standalone packet.**
-> 4. ★ **The core claim was UNDERSTATED: longest post-2007 run excluding the live one is ELEVEN sessions. The current 30 is ~2.7× anything in 19 years.**
->
-> ### 🔴 THE FRAMING FACT — promoted to `thesis/THESIS.md` because it cuts against this desk
-> **The 30Y sat continuously ≥5.00% for 5,398 sessions, 1977 → 1998 — ~21.6 years, ~44% of series history, one unbroken block.** ⇒ **"5% is a high long-end yield" is a POST-1998 statement.** Every "19-year high" is true *and* measured against a window excluding the instrument's modal state.
-> ⚠️ **GUARD, and it must travel WELDED to the fact:** that comparison is **NOMINAL** and those were double-digit-inflation years — 5% nominal in 1980 was ~**−9% real**. On the real instrument the ranking **inverts**: `DFII10` 2.44 = **96.7th pctile of its own history**, **99.7th post-2010** vs a **0.52** median. ⇒ **Nominally unremarkable; extreme in real terms. The block RELOCATES the thesis to the real curve — it does not refute it.** Split the pair and you get false alarm or false comfort.
->
-> ### METHOD LESSONS (the durable output)
-> - **A parameter you have not named is not covered by a discipline that names the others** (WALTER). Felt-coverage scales with the list's **length**, not its **adequacy** ⇒ a longer checklist is *more* dangerous per unmatched parameter. **Ask: "what choice did I make that isn't on my list?"** Three answers found today: runs → per-year vs whole-series · counting → `>` vs `≥` · freshness → which series of a shared release.
-> - **A written guard does not create a habit, and fails first on the artifact that carries it** — n=2, BOND and WALTER, same H.15 cycle, same day, both having written the rule. **"I wrote this down today" is a reason to AUDIT the current artifact, not evidence it complies.**
-> - **Neither of us was careless — we were both careful about the wrong object.** ⇒ **"Be more careful" cannot fix it. WIDEN the object:** ask what else moved with the thing you checked *before* asking whether it's right.
-> - **When retracting a number, state whether the CONCLUSIONS built on it invert** — WALTER's "materially less alarming" reversed on my corrected figures, and they could not have inferred that from the number alone. **Ship retractions as their own packet** (my bad table was live on 4 surfaces for 5 minutes; only luck made it 5).
-> - **My errors cluster in SUPERLATIVES, never ordinary levels** (PROME) — a superlative hides **series · basis · window · counting convention**, and I have now missed each. **State all four IN the sentence; compute at write time.**
-> - ⚠️ **Two of four method errors ran AGAINST my own book ⇒ you cannot screen for method errors by asking whether a number flatters the author.**
->
-> ### NEWS SWEEP (Will-tasked) — `KB-BND-124…126`
-> **30Y 5.327–5.33 intraday 8/18, still extending** [wire]. **20Y WI ~5.27% — would be the highest since the tenor was reintroduced in 2020.** ✅ **My 8/13 30Y grade externally corroborated to the decimal on the same denominator** — but the wire's *"weaker than 12-month averages"* **does not reproduce** (at/above mean AND median on all three). ⚠️ **DECOY CAUGHT: BofA "Foreign UST demand shows cracks" is JUNE 2025** (`/2025-06-16/`), surfacing against 2026 queries. ★ **AI-hyperscaler issuance ~$225B YTD, ~$400B pace ≈ 25–30% of IG supply** — first quantification of WALTER's uncharted seam; **C3, not read at source, BOND does NOT claim the channel** (VULCAN's).
->
-> **Position UNCHANGED. Composite UNCHANGED 12/35. Book: `BND-14` + `BND-15` OPEN.**
->
-> ---
->
-
-## 🔴 READ THIS FIRST — the three things that were actually wrong
-
-**1. The August quarterly refunding ($125B, 8/11–8/13) ran UNGRADED and was NEVER ON THE DOCKET.** The quarter's largest supply event. Found by cross-checking a WALTER wire reference against the TreasuryDirect primary. **Now graded (5 days late) and retro-docketed.** ⇒ *A missing docket row is invisible in a way a stale number is not: a stale number eventually looks wrong; a missing event looks like nothing.*
-
-**2. The 8/10 C-36 downgrade NEVER REACHED `thesis/THESIS.md`.** For 8 days the durable document asserted "policy-path-led" as settled canon, including an explicit *"do NOT restate this as term premium"* instruction, while the desk's own label was **CONTESTED ~50%**. `STATUS.md` carried it; THESIS did not. **Flagged as a risk in the 8/15 closeout, verified today, and it was real.**
-
-**3. The composition-failure gate hardcoded the 7Y's cut-offs (`<56.4% / >13.2%`) as if general — on FOUR surfaces.** The 10Y's indirect min is **63.95%**, the 30Y's **59.52%**. In THESIS it sat *directly beside that file's own instruction not to reuse the 7Y numbers.* ⚠️ **And I fixed it by the line list in front of me — `consumer_check.py --self` caught it still live in STATUS and PROTOCOL at closeout.** Fix by PATTERN, never by the printed list.
-
-## MARKET — what moved while the desk was dark
-
-- 🔴 **`^TYX` CLOSED 5.31 on 8/17 = a 19-YEAR HIGH** (live 5.32 on 8/18). ⚠️ **"Highest since 2007" is NOT "at the 2007 high" — 2007's peak was ~5.44%, ~13bp of headroom.** ⚠️ **`DGS30`, the grading instrument, has published NO 8/17 value** (H.15 lags a business day) — so the 19-yr-high close is **ungraded on the instrument that grades it.** Recomputed: **29 consecutive sessions >5.00% (7/07→8/14), 45 cumulative days in 2026**; Bloomberg's 2007=50 is **5 sessions away** and still not independently verified.
-- 🟢 **August refunding cleared CLEAN.** 3Y ind **64.24** · 10Y ind **76.73** (+8.41pp over median, **2nd-strongest of its trailing-12**) · 30Y ind **66.85**, dealers at-or-below median, **30Y clearing 5.2160% = highest since 2001.** The 30Y clears its own failure bar by **7.33pp**. **12th straight benign resolution. The long end is repricing WITHOUT a demand failure.**
-- ★ **NEW DAILY INSTRUMENT: FRED `THREEFYTP10`** (Kim-Wright 10Y term premium). This desk claimed term-premium decomposition as scope on 8/10 and had been running on ACM's **monthly** series. **7/13→8/07: 2Y −7bp, 10Y +3bp, 30Y +9bp, term premium +2.5bp ≈ 83% of the 10Y move** = a long-end-led bear **STEEPENER**, the term-premium signature on my own 7/18 falsifier. **The regime ROTATED after mid-July; the 7/18 call stands for its own window.**
-- **DFII10 2.41** — **9bp from the only live add-gate and CLOSING** (was 11bp and widening on 8/15). Peak approach ever: 3bp (2.47, 7/31).
-- **Credit retraced further.** HY **267** (below where July began), CCC **1012** (off the 1024 I escalated on). **The CCC/HY ratio high at 3.79x is denominator-driven — HY fell faster.**
-- **FR2004: 3 prints recovered.** Long-end total **150.0 [8/05] = −$9.3B in one week**, −14.3% off peak. **Benign distribution CONFIRMED** — dealers cleared ahead of the refunding, which then cleared into firm demand.
-- **^MOVE 75.63 and FALLING into 19-year-high yields** — the selloff is **orderly**, not a crisis tape. Worth carrying.
-- **SOFR−IORB +1bp [8/17]** — flipped positive, **not a stress signal** (3.66 also printed 8/04 and 7/31; range −3/+1 all month; the kill leg is conjunctive and the auctions were firm).
-
-## WHAT I DID — every core doc, in order
-
-| # | Doc | Commit | Headline |
-|---|---|---|---|
-| 1 | `STATUS.md` | `2b90b1d43` `e3b9a523f` `61c78f074` `7691db174` | 20 dashboard rows live; refunding section; 305→250 lines, history archived |
-| 2 | `thesis/THESIS.md` → **v1.1.4** + CHANGELOG | `49dcc352b` | 8 corrections; the missing downgrade; internal contradiction; per-tenor kill gate |
-| 3 | `docket/CATALYSTS.tsv` | `61c78f074` | refunding retro-docketed; 8/19–8/27 calendar from the primary; 6 rows pruned |
-| 4 | 4× `monitors/` | `2caae8ec6` | 4 missing auctions back-filled; DEALER_CAPACITY header-vs-body contradiction fixed |
-| 5 | `TRADE.md` | `37e96cf60` | was calling 7/28 and 7/29 "live gates resolving in 48h" |
-| 6 | `workbook/` KB+VX+FLOW | `581c33cf2` | KB +9; **VX-BND-09 RETIRED**; VX-BND-08 3→2; FLOW-09 CONTRADICTED |
-| 7 | `NEXUS_BRIEF.md` | `be36f45a1` | re-pinned; **retracts the credit read I fed NEXUS on 8/15** |
-| 8 | `thesis/PREDICTIONS.tsv` | `2cc6451f7` | **book RE-ARMED — BND-14/15/16 pre-print** |
-| 9 | `PROTOCOL.md` + STATUS | *(self-check fix)* | the two surfaces the pattern-fix missed |
-| 10 | auto-memory ×3 | — | 1 new + 2 extensions |
-
-## SCORE / STATE CHANGES
-
-| Surface | Change | Basis |
-|---|---|---|
-| **Composite** | **UNCHANGED 12/35, no vector moved** | Largest evidence block since the desk went dark and **nothing crossed a pre-registered line.** |
-| `VX-BND-08` Indirect Bid % | **3 → 2** | Refunding indirect at/above median at all three tenors. Roll-up counted once ⇒ composite unmoved. |
-| `VX-BND-09` Auction Tail | **RETIRED** | Was scoring 2 on a metric retired as unscoreable 21 days earlier. A score nothing can move. |
-| `VX-BND-01` auction health | **held 2 + a DOWNGRADE condition registered** | →1 on three consecutive at/above-median-indirect + at/below-median-dealer auctions. August is 2 of 3. **Registered because it cuts AGAINST my own bear thesis.** |
-| Dealer absorption | **held 2; upgrade DECLINED** | Trigger's instrument was unnamed ⇒ a family. Fired on 11–21Y, unfired next print; never fired on long-end total. **Named long-end TOTAL. Firing it would have strengthened my own thesis.** |
-| **Position** | **TLT puts HOLD, no add.** Will's 7/16 NO-ADD stands. | (a) DFII10 >2.5 is the only live gate, 9bp. (b)/(c)/(d) resolved-and-dead. |
+1. **T7 = AMBIGUOUS** on the frozen letter. Population ruling recorded BEFORE grading (letter's noun = participants, n=19; not outcome-determinative). "Several participants favored an increase" < the ≥4-beyond-3 bar; staff outlook SOFTENED; DENY failed affirmatively on restrictive-language polarity. Branch set non-exhaustive ⇒ **KB-BND-099 n+1**. Neither C-36 leg strengthens. `KB-BND-137`.
+2. **20Y CLEAN on frozen bars / softest composition of the run. `BND-14` RESOLVED FALSE (−2.02pp) — a real miss on a 60% call.** Ind 62.93 (−2.03pp vs med, +7.76pp above failure bar) / dlr 12.49 (above med, −5.10pp below max) / BTC 2.53 ≈ med / **HY 5.2040 = highest new-issue yield in held series (n=15, 2023-02→, prior max 5.122)**. First below-median long-end indirect since 7/9; 13th straight benign mechanism resolution. VX-BND-01 HELD 2; downgrade-condition streak RESET 0. **Priced pre-buyback-bid = the pre-op demand baseline.** `KB-BND-136`.
+3. **sb0607 adjudicated: LIQUIDITY-SUPPORT ON THE LETTER, YIELD-REACTIVE IN TIMING, NOT YCC.** Primary verified from this box. My own watch row's "cap lift" trigger FIRED; its one-word "YCC-lite" implication NOT adopted — **flip conditions F1 (ratchet w/o liquidity trigger, 11/4 QRA) / F2 (on-the-run purchase concentration, per-op results from 9/9) / F3 (long-coupon cut at 11/4 QRA) registered** in CATALYSTS rows 8/8b. `KB-BND-135`.
+4. **WAM claim killed as stated** — 70.03mo [2026-07-31] = −5.9% below the 2022-12 peak 74.45, July lowest of 9 month-ends; bills 22.22% (+7.1pp since 2022-06, genuine, passive-marginal); **PROME's MSPD construction independently recomputed to the hundredth.** No shortening program at any primary; sb0607 has zero issuance language. `KB-BND-138`.
+5. **C-36: formal DECLINE-WITH-EXPIRY** (board's oldest ask answered). Label stays CONTESTED ~50%; HEN-42 resolves 8/29; **if NO-VERDICT, BOND rules within one session — cannot roll.** The substantive answer is already on record: the regime ROTATED mid-July; both calls verify at FRED to the bp. Today's datum (flow-sensitive/policy-insensitive long end: −8bp on sb0607, 0bp on hawkish minutes) → HEN-42 input.
+6. **CCC 1027 [8/18] = fresh high above 1024 — my 8/18 "no longer making new highs" read is DEAD one print later.** VX-11 held 3 (1100 line 73bp away). `KB-BND-139`. Credit remains not-a-BOND-signal; this is the record, not a rewrite.
+7. **DFII10 BACKED OFF: 2.44 [8/17] → 2.41 [8/18], 9bp from the gate and widening**; 8/19 print will be lower on the rally. `BND-15` (70%) safer. TLT $82.89 +1.50% [CONF PROME 8/19] — largest one-day rally of the episode, on the buyback announcement.
 
 ## NEXT SESSION (dated, future-verifiable)
 
-1. **🔴 TODAY ~4:15PM ET — `BND-16` resolves.** Does FRED's `DGS30` for 8/17 print ≥5.28? **Decides whether T6's defective OR-leg goes live-and-keyed-to-the-wrong-instrument.** State the margin in bp.
-2. **🔴 WED 8/19 — TWO EVENTS.** **20Y $16B `912810UX4` at 1PM** (`BND-14` resolves: indirect ≥64.95%? failure test = ind <55.17% AND dlr >17.59%) and **FOMC minutes at 2PM (T7 resolver).** ⚠️ **Grade T7 on the 7/29 vintage (3-mo payroll avg 111K), never today's +20K.** ⚠️ **The LABOR-independence clause is RETRACTED — shared antecedent; a DENY is corroboration across two records of ONE event, not two independent measurements.** ⚠️ T7's premise drift is now ~6pp (written against 35.5%, measured 28.5/30.0). **8/19 does NOT grade T6.**
-3. **🟠 THU 8/20 — 30Y TIPS reopen $8B `912810US5`.** Real-money referendum with DFII10 9bp from the gate. **No composition gate — n=3.** *(Also SAM's JGB 20Y — different country, hold separately.)*
-4. **🟠 LIQUID owes two things.** (a) The **T6 platform-naming decision + the three spec defects** (packet sent 8/18; my proposal names Kalshi, the platform FARTHER from my trigger). (b) The **7/01→7/15 repo/funding refuse-or-confirm, unanswered since 7/28 — if stress existed, the dealer unwind flips to FORCED de-risking, which is MORE bearish.**
-5. **🟠 8/03 P3 START GATE — passed 8/03, STILL NEVER STARTED.** Top owed non-dated item, now 15 days late.
-6. **🟡 8/24 — Will's HELD sovereign-CDS sub-item.** Establish the series exists and is pullable **before** proposing any threshold.
-7. **🟡 8/28-or-31 — MOF monthly. DATE UNVERIFIED, asked of SAM.** n=3 of my unverified-event-date class.
-8. **🔴 8/29 — T6 hard close + HEN-42.**
-9. **⛔ `data/auction_history_*.csv` — DO NOT RUN the refresh script.** DAEDALUS defect (2): an unguarded empty-200 path calls `to_csv` **before** validation and can destroy the corpus. Fix order: `.tmp`+validate+`os.replace` → nonzero rc on the 429 path → stamp `cmt_asof` or drop the tail columns. **This corpus BLOCKS base-rating the three held v1.1.4 spec changes.**
-
-## OPEN THREADS / WATCHES
-
-- 🔴 **`BND-14/15/16` OPEN** — first live book since 8/15. **BND-14 and BND-15 are both calls AGAINST the standing bear thesis.**
-- 🟠 DFII10 2.41 → 2.50 (**9bp, closing**) · 30Y 45 days >5% vs 2007's 50 (**5 away**) · HY 267 → 300 (33bp, moving away) · CCC 1012 → 1100 (88bp)
-- 🟡 **v1.1.4: 2 of 5 adopted, 3 HELD pending base-rating** (they change what FIRES). Plus the revert-speed question, now **n=2**.
-- 🟡 **`KB-BND-092` basis trade still unadjudicated by LIQUID**; falsifier **INCONCLUSIVE** (no thin-cover recurrence at the 7Y or the refunding). Next clean test: **8/26 5Y**.
-- 🟡 EU leg **dormant** — BTP-Bund 83 [7/17, 32 days]; **ECB GovC calendar verify still owed** at the primary.
-- 🟡 JGB 30Y row is **known-superseded**, not merely stale — SAM's 8/17 packet reports the long end through 4% with the shape flipped to a steepener.
-- 🟢 `workbook/KB.tsv` still has 4 bare-LF terminators at the KB-073…076 boundaries (pre-existing; 123 rows all validate at 13 fields).
+1. **🔴 THU 8/20 1PM — 30Y TIPS REOPENING $8B `912810US5`.** Level referendum vs DFII10 (n=3 benchmark, NO composition gate — n=3 cannot support one). **This is BND-14's pre-registered second test** — grade it before any VX-BND-08 move. Run `grade_auction.py --cusip 912810US5` (reopening trap is guarded). *(Same day: SAM's JGB 20Y — different sovereign, do NOT fuse.)*
+2. **🟠 Ratify-or-decline SAM's 4-week-rolling foreign-LT-flow form** (BND-11 successor terms; single-week form stood down at 0.49σ). Datum in hand: +¥1,629B week / 4wk +¥572B.
+3. **🟡 8/24 — Will's HELD sovereign-CDS sub-item** (establish existence/pullability BEFORE any threshold).
+4. **🔴 8/29 — T6 hard close + HEN-42.** T6 trigger last measured NOT FIRED (28.5/30.0 vs <25, 8/18). C-36 decline expires with HEN-42's resolution.
+5. **🟠 9/9 — first stepped-up buyback op: F2 scoreable from per-op results.** Watch whether 20Y/30Y composition normalizes once the official bid exists.
+6. **🟡 LIQUID still owes:** T6 platform-naming + 3 spec defects (packet 8/18) · the 7/01→7/15 repo refuse-or-confirm (since 7/28).
+7. **🟡 8/25–27 — 2Y/5Y/7Y cluster + 8/26 2Y-reopen; 5Y is the cover-marker repeat watch.**
+8. **🟡 P3 start gate (passed 8/03) still never started; swaption-skew source re-test by 9/15** (WALTER `-031` answered: no source in toolkit today, not registered).
 
 ## MAIL STATE
 
-- **Inbox WALTER: EMPTY** ✅ — all 3 consumed and `git mv`'d to `processed/` this session (`KB-BND-123` logs the lane). *(An earlier draft of this file listed the filing as owed next session; it was closed before push instead — leaving a consumed packet in an inbox is the exact anti-pattern `[[finding_canonical_surfaces_stale_inbox_carries_live_state]]` warns about.)* Detail on the 3: `SIG-W-20260817-001` (`SIG-W-20260817-001` Japan intervention size/FIMA; `SIG-W-20260817-005` 30Y 19-yr high) — **both READ and acted on** (the 5.31 close, the FIMA-next-time intent and the OMFIF size gap are all in STATUS/FLOW), **but not formally `git mv`'d to `processed/`** — the boot-step-7 lane drain was overtaken by the sweep. **Do this first next session.** A third arrived late: `SIG-W-20260818-003` (WALTER's own correction of the 20Y date — confirms my catch).
-- **Inbox (general): 3 UNPROCESSED** — DAEDALUS (tooling defects, **acted on**: DO-NOT-RUN warning written into `AUCTION_HEALTH.md`), PROME (Kalshi BOJ market), SAM (JGB long end through 4%). Separate task per protocol.
-- **Consumed + filed:** ORACLE's T6 re-pin → `inbox/processed/`.
-- **Packets out (self-authored, committed per carve-out ①):** `AGENTS/LIQUID/inbox/2026-08-18_from-BOND_T6-third-defect-...` · `AGENTS/SAM/inbox/2026-08-18_from-BOND_mof-monthly-release-date-verify-ask-n3-...`
-- **Cross-session:** PROME ×3, ORACLE ×1. **PROME corrected me on the JGB/US 20Y attribution and was right.**
-- **Outbox:** unchanged — no 🔴-acute cross-agent signal; the T6 and MOF items went as direct packets, which is the right channel.
+- **Inbox: FULLY DRAINED.** 7/7 general + 9/9 WALTER-lane consumed and `git mv`'d to `processed/` this session. DAEDALUS SFG packet disposed (3 ACTIONs verified landed 8/18; 4th — fr2004 stderr-only STALE banner — **fixed this session**, moved to stdout). PROME Kalshi-BOJ pin noted (desktop-only op; SAM owns BOJ — context only). PROME superlative-discipline packet: already encoded in MEMORY 8/18; the discipline was exercised this session (the 5.2040 superlative computed at write time, window stated).
+- **Out:** delivery memo to PROME (outbox, with COMPLETION block). No 🔴-acute outbox signals — nothing acute fired.
 
 ## CLOSEOUT
 
-- **9 STATUS** ✅ rewritten, 250 lines, on cap. **10 Workbook + predictions** ✅ KB-BND-114…122, VX ×9 incl. one RETIRED, FLOW ×4, **book re-armed BND-14/15/16**. **11 Thesis** ✅ **v1.1.4 + CHANGELOG entry** (8 old→new rows). **12 Forward state** ✅ CATALYSTS rewritten, STATUS twin reconciled to the same event SET (added 8/24, 7/23 ECB, 11/13 which the docket carried and STATUS did not — a divergence predating today); all 4 monitors refreshed. **13 SCRATCH** ✅ this file. **14 RECEIPT** ✅.
-- **15 Promotion scan** ✅ 1 new auto-memory + 2 extensions (dedup-first: both extensions cost zero index bytes); 2 BOND-local learnings. Index **66% of byte cap**, under the 75% flow trigger — **no PROME size flag owed.**
-- **16 Mirror-consistency** ✅ THESIS ↔ STATUS dashboard/matrix; PREDICTIONS OPEN set {BND-14,15,16} ↔ STATUS scoreboard ↔ THESIS scoreboard; CATALYSTS ↔ STATUS event SET; composite re-summed **2+2+1+2+3+1+1 = 12/35**.
-- **Checks:** `orphan_check` ✅ (only PROME's live `board_cursor.txt` — not mine, not swept) · `claim_check --check weekday` ✅ 5 files clean · `consumer_check --self` ✅ **caught 2 live surfaces I'd missed** · `consumer_check` cross-agent ✅ **4 hits DECLINED — SAM's 1024 is `Total_Put_OI` in an FXY chain, different series and unit** · `memory_index_check --strict --slug` ✅ 0 blocking · `check_memory_length` ✅ 66%.
-- **17 Git** ✅ BOND-pathspec commits + 2 self-authored packets + 4 auto-memory files.
+- STATUS ✅ (234 lines; 8/15+8/10 BOTTOM LINE blocks archived → `domain/sources/2026-08-19_STATUS_archive_bottomline.md`) · PREDICTIONS ✅ (BND-14 FALSE, margin stated; book now BND-15 only) · CATALYSTS ✅ (8/19 rows resolved; 9/9 + 11/4 checkpoints added; watch row 8 FIRED-and-adjudicated) · KB ✅ (+5 rows, 135–139, all 13-field) · RECEIPT ✅ · thesis: NO version bump — no threshold moved, label decline is not a thesis change; the sb0607 flip-conditions live in docket+analysis (promote to THESIS at next full closeout if F-tests survive contact).
+- Unavailability sweep: one NEW claim shipped, stamped (swaption skew, `re-test: 2026-09-15`). Mirror check: STATUS catalysts ↔ CATALYSTS.tsv same event set; PREDICTIONS OPEN set {BND-15} ↔ STATUS scoreboard (BND-14 resolved on both). Composite re-summed 2+2+1+2+3+1+1 = **12/35**.
