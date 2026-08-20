@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-08-20 (Thu, 11:34 → ~12:0x ET). Boot → false-superlative retraction swept by pattern → PROME's two oversight defects taken.
+# BOND SCRATCH — 2026-08-20 (Thu, 11:34 → ~14:0x ET). Boot → false-superlative retracted → 60-DTE review found 19d overdue → VX-16's RED trigger recovered → BND-17 graded TRUE → watchers built. THESIS v1.1.6.
 
 **Purpose:** ephemeral session handoff. Read at boot, rewritten at closeout.
 
@@ -65,7 +65,7 @@
 
 🔴 **60-DTE REVIEW ON `TRY-FIRE-004` IS 19 DAYS OVERDUE — the session's biggest find, and it came from Will's question, not from any check.** Sep-30 expiry ⇒ 60-DTE was **2026-08-01**; the leg is at **41 DTE**. Mandated in FOUR BOND files and run in none. **A level-gate announces itself (something recomputes it); a DATE-gate does not — nothing here maps an expiry to today.** Same shape as the August-refunding miss: a missing event looks like nothing. Review → `analysis/2026-08-20_60DTE-review_TLT-puts_and-the-7-16-NO-ADD.md`; packet delivered to TERRY; Will has the decision. **Verdict: the 7/16 NO-ADD needs NO revisit** (it governs adding; nothing fired; the only live gate WIDENED to 9bp). **The live question is hold/roll/harvest, and under root rule #7 the facts read ROLL not TRIM** — thesis intact (13 straight benign resolutions), timeline uncertain (`sb0607`'s official long-end bid covers **21 of the 41 remaining days** from 9/9). ⛔ **TERRY's call with Will's approval — BOND proposed no roll, strike, size or cost.**
 
-**TLT puts HOLD, no add — unchanged.** Will's 7/16 NO-ADD stands. **DFII10 2.41 [8/18], 9bp from the only live add-gate and it moved AWAY.** 30Y 5.28, run **31 consecutive sessions ≥5.00 / 47 days in 2026** [DGS30, session closes, maximal run, whole-series]. Composite **12/35 unchanged** — no vector moved, nothing crossed a pre-registered line. **OPEN predictions: `BND-15`, `BND-17`.**
+**TLT puts HOLD, no add — unchanged.** Will's 7/16 NO-ADD stands. **DFII10 2.41 [8/18], 9bp from the only live add-gate and it moved AWAY.** 30Y 5.28, run **31 consecutive sessions ≥5.00 / 47 days in 2026** [DGS30, session closes, maximal run, whole-series]. Composite **12/35 unchanged** — no vector moved, nothing crossed a pre-registered line. **OPEN predictions: `BND-15` ONLY** — `BND-17` RESOLVED TRUE 8/20 (+8.28pp). *(Caught by the step-17 mirror check: this line still listed BND-17 as open after it was resolved — the mirror check earning its place.)*
 
 ## MAIL
 
@@ -73,4 +73,8 @@
 
 ## CLOSEOUT
 
-STATUS ✅ (248 lines, under cap — trimmed from 250) · SCRATCH ✅ · KB ✅ (`KB-BND-152` added, `-139` → SUPERSEDED with its false Fact left UNEDITED as the record) · VX ✅ (02, 11) · FLOW ✅ (02, 03, 11) · NEXUS_BRIEF ✅ (§3 corrected, header vintage refreshed) · TRADE ✅ · CREDIT_PRIMARY_MARKET ✅ · RECEIPT ✅ · `docket_check` **rc=0** · `boot_recompute` **rc=0** · `closeout_check` **rc=0** · consumer_check cross-agent **zero certified-stale** / `--self` 2 hits both dated-historical, left intact · ledger nudge: **all 3 named ledgers (VX/KB/FLOW) refreshed this session** · **THESIS untouched — no thesis-level change this session; the retraction moved no score and no channel.**
+STATUS ✅ (249 ln, under cap; **thesis pointer v1.1.5→v1.1.6** — the pointer that has rotted twice) · SCRATCH ✅ · **THESIS ✅ v1.1.6 + CHANGELOG ✅** (VX-16 fire + the qualified absorption premise + the calibration flag) · PREDICTIONS ✅ (`BND-17` TRUE +8.28pp) · CATALYSTS ✅ (8/20 resolved w/ outcome) · KB ✅ (+152/153/154; -139→SUPERSEDED, false Fact UNEDITED) · VX ✅ (01/02/04/11/13/16) · FLOW ✅ (02/03/11) · AUCTION_HEALTH ✅ (both auctions added **same-day**) · CREDIT_PRIMARY_MARKET ✅ · NEXUS_BRIEF ✅ · TRADE ✅ · RECEIPT ✅ · **auto-memory ✅** (`finding_retired_threshold_has_no_publisher` **EXTENDED**, not duplicated — retirement is 1 of 4 members of the "state change with no publisher" class; index verified `rc=0`, length 71% bytes).
+
+**Checks:** `closeout_check` **rc=0** · `watchers` clean + **11/11 selftest** · `boot_recompute` rc=0 · `docket_check` rc=0 · consumer_check cross-agent **zero certified-stale**, `--self` 2 hits both dated-historical and **left intact** · ledger nudge: VX/KB/FLOW all refreshed · TSV widths verified whole-file · git pushed, own paths confirmed on origin.
+
+**Handoff in one line:** position **UNCHANGED (TLT puts HOLD, no add)**, composite **12/35**, **`BND-15` the only OPEN row**, and the one thing genuinely awaiting a decision is the **calibration/expression question at 8/29**.

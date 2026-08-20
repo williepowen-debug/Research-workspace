@@ -50,3 +50,31 @@ The same session produced a second instance of the identical shape. A BOARD corr
 - **Design:** any correction/retirement mechanism needs a **backward** pointer, or a check that walks the forward ones. Sibling of [[finding_guard_scope_expires_at_the_fill]] — that one says a threshold needs LEVEL + INSTRUMENT + **WINDOW**; this is the window's terminal case, where the window does not merely close but **ceases to exist**, and no one is on the hook to say so.
 
 Related: [[finding_dated_stamp_is_a_trigger_not_a_shield]] · [[finding_reconcile_match_on_key_not_substring]] · [[feedback_reconciliation_is_last_line_move_catch_upstream]]
+
+---
+
+## GENERALIZED 2026-08-20 (BOND) — retirement is ONE MEMBER of a four-member class, and the class is "a state change with no publisher"
+
+Three independent reviews of one desk on one day (BOND's own boot, PROME's oversight pass, DAEDALUS's Will-directed structure review) each found a different defect. **All four turned out to be this same shape**, and the retirement case above is member 3:
+
+| # | The state that changed | What was left saying otherwise | Undetected for |
+|---|---|---|---|
+| 1 | A registered **TRIGGER FIRED** (Treasury doubled a buyback cap; the vector's RED trigger read "cap LIFTED") | the vector still scored 1; the trade surface still read *"($2B cap held.)"* | 1 day |
+| 2 | The **CALENDAR** crossed a position's mandated checkpoint (60-DTE on a Sep-30 option) | the checkpoint was mandated in **four** files and had **never run** | 19 days |
+| 3 | A metric was **RETIRED** (an auction tail, unscoreable by construction) | the headline vector's RED threshold cell still keyed on it | 23 days |
+| 4 | A **LEVEL WAS FIXED** and the distances DERIVED from it were not | "33bp to the line" / "88bp to the line", computed off superseded levels, survived every level correction on every surface | weeks |
+
+**The unifying property: a LEVEL gate announces itself, because something recomputes it every boot. The other four kinds of input announce nothing.** Freshness tooling is built almost entirely around *a number that changed* — so a fired trigger, a crossed date, a withdrawn metric and a stale derived quantity all emit exactly zero signal while looking perfectly well-formed.
+
+**Note the inversion that makes this worth carrying: cost and tractability are UNRELATED.** The cheapest to detect (a fired trigger, 1 day) is the hardest to automate — it needs event semantics. The most expensive (23 days) is a **grep against a declared list.**
+
+**How to apply — the fix is a REGISTRY, not cleverness:**
+- Keep a declared list of **dated checkpoints** (expiries, hard closes, deliver-by dates) and diff it against today at boot. Cheap, and it caught a 19-day-overdue mandatory review on its first run.
+- Keep a declared list of **retired tokens** with the date and reason, and grep live surfaces for them. Guard the *announcements* of the retirement so the retraction itself does not fire.
+- **Never store a distance — recompute it from the level.** A derived figure does not inherit a fix to the thing it derives from; fix the pair or neither.
+- ⚠️ **A registry-driven check is honest only if it says so: it sees exactly what is DECLARED and nothing else.** A clean pass means *"nothing declared fired"*, never *"nothing fired"* — the same failure mode as a missing docket row, where the absent entry is invisible in a way a wrong entry never is. **Adding the row IS the work; the check is the cheap part.**
+- **Supersession is a BLOCK property, not a line property.** A retained-verbatim row under a "SUPERSEDED" banner carries no guard words of its own — scope the guard to the heading, or the checker flags the archive it was told to keep.
+
+*(BOND instance: `AGENTS/BOND/monitors/watchers.py` + `WATCH_DATES.tsv` / `RETIRED_TOKENS.tsv`, wired INTO the existing boot check so boot stays ONE invocation — a pass needing two commands gets half-run. 11 fixtures, every one a real shipped defect. It found 4 more live defects on its first run.)*
+
+Related: [[finding_dated_carry_item_has_no_expiry_check]] · [[finding_banded_threshold_with_no_metric_surface_is_untrippable]] · [[finding_guard_correctness_and_wiring_are_independent]]

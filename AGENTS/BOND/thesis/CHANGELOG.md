@@ -4,6 +4,24 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.6 — 2026-08-20 (VX-16's RED trigger FIRED — the long-end buyback cap was lifted; one load-bearing premise now qualified)
+
+**One structural change and one confirmation. No conviction move.**
+
+**1. 🔴 `VX-BND-16`'s registered RED trigger FIRED on 2026-08-19 and this document did not know it for a day.** Treasury `sb0607` **doubled** the long-end liquidity accept cap, **$2bn → ≥$4bn/op** (10-20y AND 20-30y nominal, window 9/9→11/4), verified at the primary. The vector read score 1 and `TRADE.md` still said *"($2B cap held.)"* until 2026-08-20; found by DAEDALUS's Will-directed structure review.
+
+**Graded the way this desk is built to grade: THRESHOLD FIRED, MECHANISM NOT CONFIRMED.** The measurable clause is met, so `VX-BND-16` moves **1 → 4**. The interpretive clause in the same trigger cell — *"YCC-lite / stealth long-end suppression"* — is **rejected on the letter**: capped size, dated window, **no yield target**, no unlimited commitment. YCC's defining feature is an elastic quantity pledged at a price; this is a fixed-ish quantity with no price. Adopted premise: **liquidity-support on the letter, yield-reactive in timing.** Flip conditions **F1/F2/F3** registered, none resolved. ⚠️ **Spec defect named: the trigger FUSES a measurement with its interpretation in one cell**, so "did it fire?" has no clean answer — scored **4, not 5**, because 5 would import a label rejected on evidence the day before (`KB-BND-099` class; re-cut goes into the 8/25–27 cluster under the Will-ruled MATRIX_V2 adoption).
+
+**⇒ THE THESIS CONSEQUENCE, which is real regardless of the label.** This document's post-QT section argued that with the Fed buying only T-bills, **long-end absorption is entirely private/foreign/dealer** — no coupon backstop. **From 9/9 that is no longer true.** An official bid sits in 10-30y through 11/4. The premise is **QUALIFIED, not removed**: the bid is capped, dated and small against the stock (~$32–40bn over the window vs a $31.45T stock and $16B per tenor per month), so it is a flow nudge, not a backstop. But "entirely" was doing work in the argument and it is no longer accurate. **It also contaminates curve-shape attribution for policy-path-vs-term-premium from 9/9 — which is precisely why HEN-42 must resolve on schedule (8/29) and must not extend.**
+
+**2. The 14th straight benign demand resolution, and the strongest single one.** The 8/20 30Y TIPS reopening (`912810US5`, $8B) cleared with **indirect 84.45% of competitive accepted — the highest of the 7 held 30Y TIPS** (prior max 78.30) — with **BTC 2.82** (prior max 2.78) and **dealers at 2.10%, BELOW the prior MINIMUM of 2.49.** `BND-17` **RESOLVED TRUE, +8.28pp**. This was the cleanest real-money referendum available on the real-yield level, taken with **DFII10 at 2.41**, near the top of its post-2023 range: **real money did not balk at the level.** ⚠️ *Superlative scope: series 30Y TIPS · basis %-of-competitive-accepted · window 2023-02-16→2026-08-20 · n=8. 30Y TIPS predate 2023 — the earlier window is UNCHECKED, not unavailable. `re-test: 2026-09-20`.*
+
+**3. ⚠️ A CALIBRATION SIGNAL THAT BEARS ON THIS THESIS AND IS RECORDED HERE RATHER THAN BURIED IN THE PREDICTION BOOK.** Two consecutive auction pre-registrations landed on the **wrong side of a benign outcome, both in the same direction**: `BND-14` FALSE at 60% (over-confident bearish, 8/19) and `BND-17` TRUE at 45% (under-confident benign, 8/20). **This desk keeps pricing auction demand WEAKER than it prints.** n=2 is not a verdict and nothing is adopted on it — but the thesis's own discriminator (composition failure) has now failed to fire **14 consecutive times**, and the standing question raised to Will on 8/20 is whether that run is information about the **EXPRESSION** rather than noise. **Registered as an open question, deliberately not resolved here.** Natural adjudication point: **8/29**, when T6 and HEN-42 both resolve.
+
+**No conviction change. No threshold moved. Composite 12/35 unchanged.**
+
+---
+
 ## v1.1.5 — 2026-08-20 (sub-channel 6(a) MEASURED; the v1.1.4 blocker found discharged)
 
 **Two changes, neither a conviction move.**
