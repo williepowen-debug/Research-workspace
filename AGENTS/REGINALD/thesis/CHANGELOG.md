@@ -8,6 +8,39 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-20 — ⛔ RETIREMENT **R2**: `TIMELINE.md` ARCHIVED (not rewritten). Both thesis docs are now retired; `STATUS.md` + `CALENDAR.md` carry the load.
+
+**Authority:** Will, in-session — *"lets go with your recommendations. I do not need to rule on it I don't think."* Reviewed and proposed by REGINALD the same session. Follows **R1** (`THESIS.md`, Will-ruled 2026-08-13).
+
+**What changed:** `thesis/TIMELINE.md` → `archive/thesis_TIMELINE_v1.4_2026-04-02.md`, replaced by a pointer stub. **No rewrite. No successor.**
+
+**Old view vs new view:**
+- **OLD:** a week-by-week forward catalyst calendar with branch points, owned by `thesis/`, carrying its own POSITION CALENDAR and its own "our view" per event. Last content update **2026-04-02**.
+- **NEW:** forward dates are owned solely by **`CALENDAR.md`** (live, maintained, boot-read at step 3); thesis state by **`STATUS.md`** (canonical since R1); per-event bull/bear forks by **frozen grading frames** in `reports/`. **The `thesis/` folder now holds only `CHANGELOG.md` (this file) and two pointer stubs.**
+
+**Why retired rather than rewritten — four reasons, in order of weight:**
+1. **A rewrite creates a SECOND forward calendar.** `CALENDAR.md` already owns forward dates per the Doc Ownership table. Two forward calendars = two sources of truth for dates = the exact drift vector behind the 6/19 desync incident.
+2. **The skeleton WAS the retired thesis.** Organised entirely around the eight-channel "detonation window" retired at R1 for arguing the opposite of the live view. A faithful rewrite needs new structure ⇒ it is a new document, not a rewrite.
+3. **It was an ACTIVE PHANTOM SOURCE.** Its POSITION CALENDAR re-listed strikes/expiries — **OWL $9.5P, SSB $90P, IWM $250P, WAL $85P** — and **SSB $90P + IWM $250P are the two named cases in `LESSONS.md`'s phantom entry.** The Doc Ownership rule (POSITIONS.md canonical; others POINT, never re-list) had never been extended to this file. Retiring closes the hole.
+4. **Two cycles overtaken:** 11 branch points still read `PENDING` months after resolving; the Q1-earnings-wave framing was superseded by the 6/8 cohort resolution (Hypothesis A, benign) and the 8/10 FL watch-card close (4-of-4 REVERT ⇒ concentration, not tier).
+
+**★ HARVESTED BEFORE ARCHIVING — retirement without harvest loses real content, so three things came out:**
+
+**H1 — the AOCI / capital-rewrite thread was LIVE and had NO live home, and its framing was WRONG on two axes.** Now a `CALENDAR.md` row (H2-26/Q1-27) + a re-pointed `ROADMAP.md` thread.
+- ✅ **Kept and re-sourced:** mandatory AOCI inclusion in CET1 for **Cat III/IV** ($100B-$700B), ending the opt-out. **$49.5B aggregate across 21 firms** — Risk.net / Risk Quantum, **SECONDARY, flagged as such** (TIMELINE cited it naked).
+- 🔴 **CORRECTED — DIRECTION:** TIMELINE called it *"the slow-burning bomb… a SEPARATE capital drain on top of credit losses"* and built a **compound-capital-drain** thesis on it (CRE charge-offs + AOCI hitting the same bank from two sides, *"the market isn't modeling this compound effect"*). **That is one-sided.** The AOCI leg is real but the package **nets to a capital REDUCTION** for Cat III/IV — ~0% CET1 change at holdcos, **−4.7% at depository subsidiaries** — because other changes offset it.
+- 🔴 **CORRECTED — TIMING:** **five-year phase-in running to 2032** (100% excluded in year 1 → 0% by 2032). A drip, not a 2026-27 event. The compound thesis required it to land *alongside* CRE recognition; on this schedule it does not.
+- ⚠️ **Status 2026-08-20: still PROPOSALS.** Comment closed 6/18/26, no final rule. **The bear read revives only if the final strips the offsets and leaves the AOCI leg standing** — that is now the registered watch condition.
+- ★ **Side finding:** `domain/research/capital-rewrite-2026/` (34-ref source memo + KBRA compendium, dated 3/26-27) was **referenced by ZERO live surfaces** and its INDEX advertised **two files that do not exist**. Both fixed. ⚠️ **And a RULE GAP surfaced: my research-retirement rule (>60d + not boot-read + not referenced → archive) matched this folder on all three conditions and would have ARCHIVED A LIVE THREAD.** The rule has no "is the underlying event still pending?" test. Flagged in ROADMAP, not silently applied.
+
+**H2 — the Branch Point Summary format, kept as LINEAGE not as a table.** `Date | Event | Bull fork | Bear fork | Status`, pre-registered before the event, is the **direct ancestor of the frozen grading frames** now used well (EGBN Q2, ZION cross-read scaffold, FL small-tier watch-card). **Deliberately NOT rebuilt:** per-event frames that are frozen and graded verbatim are strictly better than one standing table that rots between events. **The practice outlived the document.**
+
+**H3 — one branch point never resolved and was NOT allowed to die with the file.** *Mar 31 — First Brands auction | low recovery (<40%) = permanent losses | ❓ RESULT UNKNOWN* — open ~5 months. Packeted to **BROCK** (owner) 8/20 asking whether the recovery rate ever landed; *"never publicly established"* is an accepted answer, and the row closes as `UNRESOLVED-PERMANENTLY` if so.
+
+**⚠️ One deliberate REVERT, recorded so a future reader does not read it as rot:** earlier the same session I patched TIMELINE's FHLB line from `~$480B` to the live `$810.7B`. **That patch was reverted before archiving.** A fresh number inside a dead document is worse than a stale one — it *certifies* the page (`finding_header_edit_is_the_edit_most_mistaken_for_maintenance`). The archived copy is now a faithful 2026-04-02 artifact; the live FHLB figure lives in `VX-REG-7.01` + `STATUS.md`.
+
+**No version bump** — TIMELINE was never numerically versioned (see the convention note at the top of this file); the retirement is dated, not versioned.
+
 ## 2026-07-17 — RETRO-ENTRY (audit catch): 7/10 fossil-bannering of THESIS/TIMELINE, logged late
 
 **What changed (no version bump — hygiene, not thesis):** On 2026-07-10 both `THESIS.md` (v1.4) and `TIMELINE.md` received top-of-file **STALE-VINTAGE banners** (PAT-043 decay-from-the-durable-end: the live thesis had migrated to STATUS.md while these fossilized pre-earnings — 🔴🔴🔴 framing, "WAL below $78 ~$67-68", PT $47-60, 12/12-cohort). Files were edited without changelog entries; logged here retroactively per the M7 silent-divergence discipline gap. **Rewrite (THESIS v1.4→v1.5, TIMELINE rebuild) is deliberately scheduled post-Jul-21** — CPI 7/14 + the WAL/OZK double-print re-mark everything a rewrite would say. Cross-ref: WAL-level REG-24/25 re-grade 7/16 (70/75→65/72) is logged in `../WAL/CHANGELOG.md` 7/17 retro-entry.
@@ -263,9 +296,9 @@ The thesis evolved through multiple sessions prior to formal change tracking. Ke
 **Why RETIRED and not REFRESHED:** it had carried *"full refresh scheduled post-Jul-21"* since 2026-07-10 and lost to live work every session — but the deciding reason is **disagreement, not staleness.** A stale document is a maintenance cost; **a stale document that argues the opposite of the live view is a liability**, and a banner does not stop a reader lifting the channel table. **The eight-channel frame earned its retirement by being tested and narrowed, which is a success.**
 
 ⚠️ **Do not resurrect an eight-channel document.** A successor, if ever wanted, is a **v2.0** written from `STATUS.md`'s narrowed claims — a 2–3 channel document, not a refresh of this one.
-**This file stays as history and is not deleted.** `TIMELINE.md` remains live *(⚠️ carries v1.4-vintage figures — read against STATUS)*, so a TIMELINE change still earns an entry here.
+**This file stays as history and is not deleted.** ⚠️ **SUPERSEDED 2026-08-20: `TIMELINE.md` is NO LONGER LIVE — retired at R2.** *(Original text follows: TIMELINE.md remains live — ⚠️ carries v1.4-vintage figures — read against STATUS)*, so a TIMELINE change still earns an entry here.
 
 ---
 
 *~~Thesis → `THESIS.md`~~ → **RETIRED 2026-08-13. Thesis state → `../STATUS.md` (canonical). Archived original → `../archive/thesis_THESIS_v1.4_2026-04-16.md` (history only).***
-*Timeline → `TIMELINE.md` (still live)*
+*Timeline → ⛔ RETIRED 2026-08-20 (R2). Forward dates → `CALENDAR.md`; archived original → `archive/thesis_TIMELINE_v1.4_2026-04-02.md`.*

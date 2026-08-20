@@ -26,7 +26,7 @@ It had carried *"full refresh scheduled post-Jul-21"* since 2026-07-10. The post
 | You wanted | Read |
 |---|---|
 | **Current thesis state, channel status, convergence matrix** | `STATUS.md` — canonical |
-| Forward catalysts / event narrative | `thesis/TIMELINE.md` *(still live — ⚠️ carries v1.4-vintage figures; read against STATUS)* |
+| Forward catalysts / event narrative | **`CALENDAR.md`** — ⛔ `thesis/TIMELINE.md` was RETIRED 2026-08-20 (R2) and is now a stub like this one. |
 | Thesis evolution audit trail | `thesis/CHANGELOG.md` — history, unchanged |
 | Falsifiable predictions | `workbook/PREDICTIONS.tsv` |
 | Registered triggers + their instruments/bases/exits | `registry/THRESHOLDS.tsv` + `registry/NOTES.md` |
