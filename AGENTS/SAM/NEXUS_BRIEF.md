@@ -20,9 +20,21 @@ That is **through SAM's leg-1 SPF invalidation line (−108K / 60%) by 62,527 co
 
 🕯️ **A v1.8 CANDIDATE IS NOW OPEN — AND IT IS NOT A THESIS: `thesis/V18_CANDIDATE_PILLAR1.md`.** *Is Pillar 1 (US-Japan rate-differential compression) coming back?* **Verdict: PROMISING MECHANISM, ZERO ACHIEVED PROGRESS.** ⚠️ **Peers must not cite this as a SAM view.** For the first time this cycle both policy legs point the same way (Fed Sep hike odds **57% → 43.9%**; BOJ Sep repricing is a *pull-forward*, terminal unchanged — **live figure in the LIVE line above, not restated here, by rule**) and — structurally the strongest point — **it does not need a crowd**, so the thing that killed the convexity frame does no damage to it. **But the differential sits where it was in mid-June:** 5Y **2.316** vs **2.327** on 6/18 (the day v1.6 declared this pillar broken), 10Y **1.887** vs **1.823** — i.e. **today is WIDER**. ⚠️ **Anchoring matters and is the trap:** measured from the 7/31 peak it looks like compression; measured from June nothing has happened. Bar registered as **SAM-41 @40%** — 5Y <2.25% **or** 10Y <1.80% on **5 consecutive closes** by 10/31; the FOMC dot-walk-back tripwire is **separate and has not fired**. **Promotion to v1.8 requires a separate session + RED adversarial pass + Will sign-off. No entry trigger, no vehicle** — and if it ever did become the thesis the vehicle would be **spot/long-dated, not** the short-dated convexity structure (a grind, not a spike).
 
-**As of:** **2026-08-20 ~16:0x ET Thu — SESSION CLOSEOUT fold** (boot + two dated events graded on frozen letters + sub-agent trio ruled + a v2.0 CANDIDATE opened at Will's direction and routed to RED for a BLIND pass). **Frame UNCHANGED: v1.7, RETIRED/LOW. Book FLAT. $0 at risk. No trigger, no vehicle.**
+**As of:** **2026-08-20 ~18:0x ET Thu — SESSION CLOSEOUT fold (v2). Frame UNCHANGED: v1.7, RETIRED/LOW. Book FLAT, $0 at risk.** 🔴 **The v2.0 candidate opened today had its own pre-registered killer FIRE the same day — see the block below before citing anything from it.**
 
-### 🕯️ A v2.0 CANDIDATE EXISTS — ⛔ **DO NOT CONSUME OR BUILD ON IT YET. THIS IS A DISCLOSURE, NOT A ROUTING.**
+### 🔴 THE v2.0 CANDIDATE'S CENTRAL ARGUMENT IS DEAD — its own pre-registered killer fired the SAME DAY. ⛔ **Still not routed; now also not to be built on.**
+
+**Opened this morning at Will's direction (`thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md`), killed by its own §5 this evening.** Peers get this because **the disclosure I posted earlier today is now materially incomplete**, and an outdated disclosure is worse than none.
+
+**The claim was:** the record speculative yen short (¥2.35T ≈ **$14.8B**) was never sized to set the yen's level ⇒ *flow sets the LEVEL, positioning sets the VOLATILITY.*
+
+🔴 **§5 named its own killer AS A NUMBER, before any data existed: *"at $14.8B the arithmetic holds; at $300–500B it INVERTS."*** **Measured at the BIS SDMX primary (`WS_GLI`, own pull, `2026-Q1`): JPY credit to non-bank borrowers OUTSIDE JAPAN = ¥65.83T = $414.9B.** ⇒ **K1 FIRES.** The yen-borrowing universe is **28× the CFTC proxy**, which captures **~3.5%** of it. **§2 is dead as written and was not rescued.**
+
+⚠️ **AND IT SUPPLIES A RIVAL MECHANISM THAT FITS THE EVIDENCE BETTER — this is the part peers modelling Japan should take:** if only ~3.5% of the trade was ever visible in futures, then the 8/7 "collapse" unwound **~3.5% of the position**, and **the level held because ALMOST NOTHING UNWOUND** — not because positioning is too small to move it. ⇒ **Anyone treating the CFTC series as a proxy for carry-trade SIZE is working with ~3.5% of the object.**
+
+⛔ **DO NOT OVER-READ IT EITHER — the BIS series is NOT the carry trade:** includes trade finance / yen-revenue corporates / euroyen with no carry motive (**upper bound**), **EXCLUDES FX SWAPS ENTIRELY** (incomplete the other way), and is a **STOCK not a position**. **Order-of-magnitude only; never cite as carry positioning.** Reproducible: `scripts/bis_gli.py` → `workbook/BIS_GLI.tsv`, with a unit-anchor hard stop. **Durable row: `KB-SAM-225`.**
+
+✅ **WHAT SURVIVES INDEPENDENTLY:** **Pillar 4 is retired as a LEVEL argument** — that rests on the 8/7 record (fuel burned, level went the wrong way), **not** on the dead arithmetic. **The successor question is RE-OPENED, not answered.** RED is mid-blind-pass, redirected to press whether §3 survives at all or the candidate should be **killed outright**; SAM's self-attack list stays **SEALED**. **v1.7 stands; nothing was ever built on any of this.**
 
 **Opened 2026-08-20 at Will's direction, after seven weeks of deliberately refusing to name a successor: `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md`.**
 
