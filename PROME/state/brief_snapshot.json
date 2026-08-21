@@ -14,7 +14,8 @@
   "2026-08-22": "ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, PROME systems ",
   "2026-08-23": "FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRIVEN SPECIALIST",
   "2026-08-24": "OSPREY durability cluster: OSP-05 legs 3a (reprice) + 3b (R3 resolvability",
-  "2026-08-26": "FORUM fin-cond T5: decoupling Test C window closes (AI-credit leg on the C"
+  "2026-08-26": "FORUM fin-cond T5: decoupling Test C window closes (AI-credit leg on the C",
+  "2026-08-28": "MIDAS-06 resolves"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -51,8 +52,6 @@
  },
  "queue": {
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the ",
-  "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-C",
-  "70": "Batch A \u2014 memory-canon two-liners (symptoms: frontmatter + promotion p",
-  "71": "Batch B \u2014 CHECK_STANDARD package: \u2460 prior-art \"solved-elsewhere\" line "
+  "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-C"
  }
 }
