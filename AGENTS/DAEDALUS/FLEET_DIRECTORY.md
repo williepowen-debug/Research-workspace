@@ -23,7 +23,7 @@
 | HAWK | Market | L4 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | URGENT pre-8/24: checkpoint conditions UNBUILT — successor falsificatio… |
 | TERRY | Utility | L4 | Trade construction / risk scoring ‡‡ | L5 (re-cut 8/7 PM per profile refresh |
 | REGINALD | Market | L4 | Regional banks | L5 legs: THESIS v1.4 refresh (own trigger now +27d, WORSE than at 8/7 s… |
-| MARCO | Market | L4 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | two-state the 2 stale ledgers (FLOW +70d / MIGRATION_PROXIES +33d — boo… |
+| MARCO | Market | L4 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | 8/21 write-back CLOSED-VERIFIED at artifact (3rd session): FLOW two-sta… |
 | ORACLE | Utility | L4 | Prediction-market diagnostics ‡‡‡ | L5: §2 CONTRACT block (cheap) |
 | BOND | Market | L4 | US bond-market structure / auctions / rates | Packet ROUTED 8/20 (Will verbatim "Approved on both - implement per you… |
 | CORAL | Market | L3 | Florida (whole-state, 10 pillars) | SLIPPED: ZERO self-commits 14d |
