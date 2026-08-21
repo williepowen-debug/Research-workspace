@@ -52,6 +52,19 @@
 - **`hurricane/AGENT.md` still told workers `ace` had "NO VERIFIED SOURCE — do not invent a figure"** for 8 days after `SOURCES.md` closed that gap. **A worker reading the brief in the prescribed order hit the prohibition before the fix** — my own brief told it not to compute the number I spawned it to compute.
 - **`CLAUDE.md` closeout step 2b was a bare relative path, DEAD from my launch cwd.** The guard I built 8/13 for the L-28 gap **could not run at a single real closeout in the 8 days it existed** — and because it is documented "advisory, exit 0 always," a one-line stderr reads as a clean run.
 
+### 📬 INBOX DISPOSITIONS (5 packets, all filed to `processed/` 2026-08-21)
+⚠️ **Filed LATE, after closeout, only because Will asked "is the inbox processed?"** — I had read and acted on all five at boot and never ran the `git mv`. **Substance done, record not.** Boot step 5 is *integrate AND move*; I did the first half and the second half is what makes it visible to the next session. *(`finding_record_of_an_action_is_not_the_action`; sibling of L-27, where I did the reverse — logged a disposition and never sent the reply.)*
+
+| From | Disposition | Note |
+|---|---|---|
+| **BRENT** 8/13 (cc) | **info-only** | No ask. EU gas storage → SAM. The **winter-demand/HDD leg** he flags as plausibly mine is real and **I did not action it** — it lands on C3, whose CDD/HDD band has no metric surface (L-31). Carry to the C3 instrument job |
+| **SAM** 8/14 | **closed** | Kumamoto M6.8 not on their radar; **no detected FX/rates repricing — which certifies SAM's SCOPE, not the event.** S-2 unfired (needs M7.0+ near a major insured zone or a credible >$10B estimate). If a Japanese insured-loss number surfaces → REGINALD, cc SAM |
+| **CARL** 8/15 | ⚠️ **SUPERSEDED BY MY OWN 8/21 RETRACTION** | It confirms "3.0 replaced with 3.6 / AZ 1.96 on both surfaces, retraction taken in full" — **the correction I reversed today.** Left in my live inbox it read as a current affirmation of a now-wrong figure. **CARL still carries it on two surfaces until they boot** |
+| **DAEDALUS** 8/17 | **acted — 6/6** | Plus one pointer of theirs corrected (`THESIS.md:80`); messaged back |
+| **MARCO** 8/21 | **acted** | DJF map read at primary + 2 corrections owed back; **MARCO processed and committed both my replies mid-closeout** |
+
+**`inbox/WALTER/` was EMPTY at boot and is empty now** — no `board_log.tsv` rows owed. *(Verified, not assumed.)*
+
 ### OWED / OPEN
 **MARCO** — asked for the 95% source; if none, drop to >90% · **CARL** — the 1.25-vs-3.6 fix on two surfaces · **WATT/VULCAN** — ROD routed, no reply needed · **REGINALD/CREED** — ROD muni/ag-credit leg NOT yet routed (do it) · **SAM/WALTER/DEWEY** — closed, nothing owed.
 **Still open from 8/13:** re-derive channel signs against **RONI** not ONI (**RONI now pulled: MJJ +0.98**) · **no verified freight source anywhere** (C5's operational leg stays UNARMED) · Danube is multi-national, Austria/Serbia unexplored · **✅ the KB 14-field column defect is FIXED** (19 rows; it was hiding a second defect — prose sitting in the Vectors cell on KB-016/020, text preserved into Notes, **Vectors left EMPTY rather than invented**).
