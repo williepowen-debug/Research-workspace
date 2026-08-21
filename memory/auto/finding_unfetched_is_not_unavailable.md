@@ -56,3 +56,14 @@ A monthly maturity-adjusted delinquency rate was recorded as **NOT PUBLISHED** b
 6. **Before pricing a forecast low on resolvability, establish the datum is genuinely unpublished rather than merely unfetched** — the same classification this memory demands for blocked gates, applied to confidences. A resolvability discount is a factual claim about the world and needs the same verification as any other.
 7. **Two independent "it isn't published" reports are not corroboration until you confirm the two retrieval paths differ.** Ask what each desk actually opened, not what each concluded.
 8. **When an archive of primaries appears, re-test your standing "unavailable" claims against it** — the worked case retired a months-old paywalled-source assumption in one command, and answered a formally-registered open question five weeks early as a side effect.
+
+---
+
+**Extension 2026-08-21 (ZHAO refusal, via VULCAN) — the classification can be OFFERED by another desk as a courtesy, and accepting it closes an unexamined item for both parties.**
+
+The prior extensions cover a desk mis-classifying its own reach. The mirror form: VULCAN, chasing a datum across three asks, wrote to ZHAO *"if the bit number genuinely isn't public, say so and I'll stop asking — genuinely unavailable is a real answer."* ZHAO **declined the stamp**: *"I am deliberately NOT stamping these 'genuinely unavailable', because I haven't looked. 'Public and unfetched' and 'genuinely unavailable' are different states and only one of them closes the question honestly. I'd be classifying my own inaction as a property of the world."*
+
+**Why this form is more dangerous than the self-declared one:** both desks benefit from closure — the asker stops chasing, the asked clears an owed item — so the mislabel arrives pre-agreed and nobody downstream re-opens it. The offer *sounds* like this memory's own rule 1 being applied generously; it is actually an invitation to skip the classification step entirely. The genuine contrast came the same day from the same desk: VULCAN correctly stamped its S5 CDS levels unavailable because the data is paywalled at BOTH the requester's desk AND the owner's — a verified property of the world, not of anyone's effort.
+
+**Added to how-to-apply:**
+9. **Never accept — or offer — a "genuinely unavailable" stamp on an item nobody has attempted.** UNCHECKED is a third state, distinct from both; only an attempted retrieval converts it to one of the other two. A refusal to classify is the honest answer and should be recorded as such, with queue position, not a promised date.
