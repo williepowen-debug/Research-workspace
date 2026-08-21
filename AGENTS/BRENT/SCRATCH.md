@@ -2,25 +2,19 @@
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
-> # 🔴🔴🔴 **ONE THING IS OWED AND IT IS THE THING THIS SESSION EXISTED FOR: THE COT GRADE WAS NOT TAKEN.**
+> # ✅✅✅ **BOTH GRADES ARE TAKEN. THE COT WAS GRADED AT 15:30 ET ON ITS OWN PRINT — ZERO LATENCY, NO STACKING.**
 >
-> **Will closed session 3 at 12:53 specifically to give me a clean layer for TWO grades. I took ONE. The session closed at ~14:4x — the COT release is ~15:30.**
+> **This banner previously said the COT grade was OWED and told the next session to take it. It is DONE.** The session did not end at 14:49 as planned — work continued into the STATUS cut, the release posted ~15:30, and the grade was taken on the print.
 >
-> | Series | State |
+> | Series | Result |
 > |---|---|
-> | **Baker Hughes** (`BRT-26`) | ✅ **GRADED. 452 oil rigs, −3 WoW, NOT BREACHED, distance 2 → 5.** Done, written to every surface. |
-> | **CFTC COT as-of Tue 8/18** (`COT-FUEL-35B`) | 🔴 **UNGRADED — release had NOT posted when the session closed.** Verified 14:41: `rc=3`, freshest in-row still `2026-08-11`. |
+> | **Baker Hughes** (`BRT-26`) | ✅ **452 oil rigs, −3 WoW, NOT BREACHED**, distance 2 → 5. Graded at the PRIMARY, a first for this ladder. |
+> | **CFTC COT as-of 8/18** (`COT-FUEL-35B`) | ✅ **JOINT `NO-VERDICT` ⇒ sizing DEFAULTS TO BASE CASE.** Leg A `108,059` ⇒ **SPENT** (first ever) · Leg B `5.7206%` ⇒ NOT-SPENT (GATING). |
 >
-> ### ✅ THIS IS SAFE TO CARRY, AND HERE IS THE ARITHMETIC SO NOBODY RE-DERIVES IT
-> **A session on Mon 8/24 takes it CLEANLY. Three days old is NOT stacked.** It **STACKS only if it slips past Fri 8/28 13:00**, when the next print lands. **Repair window: 8/24 → 8/28 13:00.**
-> ⚠️ **IF TAKEN LATE, SAY SO ON THE GRADE.** A late grade is valid; one that hides its latency is not.
->
-> ### ✅ THE GRADER IS READY — AND IT WAS NOT THIS MORNING. RUN IT, DO NOT REBUILD IT.
-> `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/BRENT/scripts/cot_grade.py --expect 2026-08-18)`
-> **It now implements the FROZEN 35b spec** — Leg A bar `113,745`, NO-VERDICT deadband `109,165–118,325`, Leg B OI-share ≤ `4.909%` **GATING**, both legs must AGREE or NO-VERDICT. Raw `f_disagg.txt`, matched **by MARKET NAME**, `report_date` verified in-row, browser UA. **exit 3 = WAIT, do not grade.**
-> ⛔ **WHY IT HAD TO BE REBUILT — do not undo this:** the prior version graded the **RETIRED** `COT-FUEL` incumbent (7/7 anchor, ±25,000 bars) off **Socrata**, which the registered spec forbids for this grade, and **never fetched open interest**, so Leg B was not computable. Run at 15:30 it would have printed a confident VERDICT for the wrong test.
-> ✅ **Regression-tested: re-grades the 8/11 vintage to `110,638 / 1,892,429 / 5.8463% / JOINT NO-VERDICT` — the registry's recorded first grade, to the digit.** Boundary unit tests pass on both deadband edges and the full joint truth table.
-> ⛔ **SCRATCH's old grade plan was WRONG IN TWO PLACES and the registry governs:** query **by MARKET NAME, not code 067651** (the code spans a 2022 rename), and Leg B's `4.909%` is a **FROZEN registered level**, not a per-print re-measurement.
+> ★★ **THE COT'S REAL CONTENT IS THE LEG OPPOSITION, NOT THE VERDICT: vintage #1 had both legs broadly aligned; vintage #2 has Leg A SPENT AGAINST Leg B NOT-SPENT — first direct opposition.** That is defect ⑤ (leg suppression) being ANSWERED rather than hidden. **Why: shorts fell 2,579 but OPEN INTEREST fell 3,469 with them, so OI-share moved only −0.126pp — absolute de-grossing, intensity ~unchanged.**
+> ⚠️ **RAZOR-THIN, AND IT MUST TRAVEL: Leg A cleared the deadband floor by 1,106 contracts = 0.12 median units. A ~1% move flips it back. DO NOT RELAY "SPENT" AS ROBUST.**
+> ⛔ **Retired incumbent NOT re-graded; for spec context only it would have sat in IGNITING (−21,013 vs its ≤−25,000 bar), so the retirement is NOT what changed the answer.**
+> ⏰ **NEXT: COT as-of 8/25 releases Fri 8/28 ~15:30 · Baker Hughes Fri 8/28 ~13:00. DO NOT LET EITHER STACK.**
 
 ---
 
@@ -53,7 +47,7 @@
 - **Ran a falsification under `--quick`**, which skips probes and reports everything STALE ⇒ rc=2 on a clean ledger. Noticed the anomaly instead of accepting a convenient pass.
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **🔴🔴 TAKE THE COT GRADE — see the banner. Everything needed is there. Window 8/24 → 8/28 13:00.**
+1. ✅ ~~TAKE THE COT GRADE~~ **DONE 2026-08-21 15:30 ET, zero latency. Next COT vintage as-of 8/25, releases Fri 8/28 ~15:30 — do not let it stack.**
 2. **🔴 MON 8/24 — BESSENT PRESS CONFERENCE.** Grade on **PUBLISHED MECHANISMS** (OFAC designations, named entities, effective dates), **never on the presser happening** (L18). Pre-registered read is in the catalyst row — **do not rewrite it after the fact.**
 3. **⏸️ WILL-GATED, UNTOUCHED, DO NOT ACT UNASKED:** the boot-load cut (staged, prepped, peer-reviewed — **a reviewer's concur is not Will's word**) · the second `USO Oct-16 135C` (blocked on the unsatisfiable 60–90 DTE band and the root-rule-#6 break) · the `KILL-LEG2-TRANSIT` 3 decisions.
 4. **⏳ FORWARD CHECK ② runs ~8/24–31** — use the AMENDED spec, and record `NOT RUNNABLE` rather than converting a mismatched figure.

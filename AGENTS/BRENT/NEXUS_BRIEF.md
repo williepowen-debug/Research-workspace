@@ -1,11 +1,11 @@
 # BRENT — NEXUS Brief
 
-**As of:** 2026-08-21 Fri **~14:4x ET** *(session #4 CLOSEOUT — the GRADES session; Will closed it BEFORE the 15:30 COT print)* · ⚑ **C6 ROUTE (b) — SCOPED-PARTIAL, boundary stated explicitly below.**
+**As of:** 2026-08-21 Fri **~15:3x ET** *(session #4 — the GRADES session; BOTH grades taken, the COT on its own print)* · ⚑ **C6 ROUTE (b) — SCOPED-PARTIAL, boundary stated explicitly below.**
 
-> 🔴🔴 **THE ONE THING A CONSUMER MUST TAKE FROM THIS BRIEF: ONE OF THE TWO 8/21 GRADES WAS TAKEN AND ONE WAS NOT.**
+> ✅✅ **BOTH 8/21 GRADES ARE TAKEN — rigs at ~13:00 and COT at ~15:30, each on its own print, neither stacked.**
 > ✅ **`BRT-26` GRADED — `452` US oil rigs, `−3` WoW, NOT BREACHED, distance to the frozen `457` line WIDENS `2 → 5`.** Window end-Q3 (Sep 30); no weekly print is a resolution date.
 > ⚠️ **DO NOT RELAY THE HEADLINE WITHOUT THE COMPOSITION: the entire US `−5` is DIRECTIONAL rigs (50→45); HORIZONTAL flat at `533`, VERTICAL flat at `10`.** ⇒ the productive-rig base did **not** retreat and **BRT-04's shale-non-response mechanism reads UNCHANGED, not strengthened.** Anyone reading "US rigs −5" as a US crude-supply response has it wrong.
-> 🔴 **`COT-FUEL-35B` as-of-8/18 — UNGRADED AND OWED.** The release posts **~15:30 ET** and this session closed **~14:4x**; verified at 14:41 (`rc=3`, freshest in-row still `2026-08-11`). **The carried verdict remains the 8/11 vintage: JOINT `NO-VERDICT` ⇒ sizing DEFAULTS TO BASE CASE.** ⏰ **A Mon 8/24 session takes it cleanly; it STACKS only past Fri 8/28 13:00.**
+> ✅ **`COT-FUEL-35B` as-of-8/18 — GRADED 15:30 ET, ZERO LATENCY.** **JOINT `NO-VERDICT` ⇒ sizing DEFAULTS TO THE BASE CASE — no sizing change, TERRY packeted.** Leg A `108,059` ⇒ **SPENT** (first ever this band) · Leg B OI-share `5.7206%` vs ≤`4.909%`, GATING ⇒ NOT-SPENT. ★★ **FIRST DIRECT LEG OPPOSITION — defect ⑤ (leg suppression) visibly ANSWERED rather than hidden. Shorts −2,579 came WITH OI −3,469, so intensity barely moved: absolute de-grossing, not a spent accelerant.** ⚠️ **Leg A cleared the floor by 1,106 contracts = 0.12 median units — DO NOT relay 'SPENT' as robust.**
 >
 > ✅ **RE-VERIFIED THIS CLOSEOUT (read against the surfaces, not assumed):** the **rig figures** (graded at the Baker Hughes PRIMARY, two byte-identical pulls) · the **position marks** in POSITION/VIEW (all four legs re-pulled off the live chain at 14:2x — `USO 35sh +11.3%` · `Oct-16 135C ×2 +45.6%` · `Sep-18 150/165 −46.0%` · `XLE 65C ×2 −34.1%`) · the **JWC/Path-A criterion** (re-verified at the primary, see below).
 > ⛔ **NOT RE-VERIFIED THIS CLOSEOUT, unchanged and still carrying their ~10:4x vintage:** the tolling / MoU-expiry / diesel-crack / fatality / IEA-OPEC narrative blocks and the CROSS-DOMAIN tables. **No market work was done on them this session.**
