@@ -32,6 +32,12 @@
 > 3. **Still owed, named as owed:** **ZHAO's CXMT+Nanya BIT-output timeline (n=3 asks)** · **the compute-spot-index baseline** (deferred since 7/22 — now has a named candidate AND a named blocker) · **the hyperscaler long-dated-issuance check** (one query; decides whether AI capex is a rates channel).
 > 4. **The S4↔S2/semicap opposite-sign coupling is the sharpest untested idea on the board** — it explains the cohort split better than anything else I hold and is currently unfalsified in either direction. Build a test before it becomes canon by repetition (L-10).
 > 5. **Kill-rail rewrite trigger unchanged: MU FQ4, the 9/30 resolutions, or 2026-11-15 — whichever FIRST.**
+>
+> ### ✅ PROME DISPOSITION, same session (commit `3ea456e1e`) — all three answered, nothing owed back
+> - **VIOLET: my non-send is ENDORSED as PROME's word, recorded as a decision — DO NOT SEND.** ⚠️ **Do not re-litigate this next session.** The reasoning (one source not two; circular corroboration dressed as a signal) is ratified fleet canon now, not my judgement call.
+> - **The long-end issuance check is ALLOCATED TO BOND** (deliver ~9/3), framed **size-first, attribution-second**, with my wire-asserted guard carried verbatim; complex-perimeter definition is **BOND's** to set. **I am named as the mechanism-side consumer and may get an ask for capex/obligation figures — expect it.** HENRY + LIQUID cc'd; deliberately **NOT** an input to HEN-42's frozen 8/29 spec. ⇒ **KB-096 stays a POINTER on my side and I do NOT build a parallel issuance series.**
+> - **The steel gap is routed into DAEDALUS's docketed 8/28 fleet wiring sweep** (assign / log-as-known-gap / drop; no build proposed). **Not mine to chase.**
+> - **Noted with no action owed:** the Q3 no-falsifier registration (honest-outcome clause ratified as the right shape — **specify at the kill-rail rewrite, never invent a leg in the moment**), L-17, the MU peak correction, both minutes guards, and the BRENT in-flight file (agreed, not an orphan).
 
 > ## ▶ 2026-08-13 (Will-directed full session) — MY 8/3 CALL WENT AGAINST ME. CRWV's 10-Q cleared my own named blocker. Kill rail authored. Composite HELD 15/25.
 > **Boot was clean (git 0/0, rc 0, nothing due) and the inbox had 12 items after 10 days dark. I read the inbox BEFORE analysis this time — L-14 held.**
