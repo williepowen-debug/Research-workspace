@@ -5,7 +5,7 @@
 ## GRADUATED (11 — demoted with [embedded→] annotations)
 | Row | Embed home (verified at context) |
 |---|---|
-| finding_count_what_published_before_reading_the_verdict | PREDICTION_DISCIPLINE (negative-resolutions convention) + CHECK_STANDARD §4 |
+| finding_count_what_published_before_reading_the_verdict | PREDICTION_DISCIPLINE (negative-resolutions convention) + CHECK_STANDARD §8 rule 4 *(pointer corrected same day — see below)* |
 | finding_mtime_is_corrupted_by_git_sync | **root `CLAUDE.md` Data Hygiene (auto-injected fleet-wide — stronger delivery than the hot index)** + PROME/SYSTEM.md |
 | finding_freshness_check_cannot_catch_a_fresh_lie | PROME/BOOT.md step 5 — the position-agreement gate IS its enforcement, runs every boot |
 | finding_fired_gate_needs_owner_independent_ledger | PROME/CLOSEOUT.md symmetry table + ORCHESTRATION_PLAYBOOK — and GATES.tsv itself is the lesson institutionalized |
@@ -15,7 +15,7 @@
 | finding_deliberate_and_unnoticed_asymmetry_look_identical | CHECK_STANDARD §6 DECLARED ASYMMETRY (Batch B, ruled 8/21 — the fix is now a standard section) |
 | finding_standing_guard_is_a_false_negative_risk | CHECK_STANDARD bias-statement clause (by name) |
 | finding_verification_zero_is_ambiguous | CHECK_STANDARD scope clause (by name) |
-| finding_unfetched_is_not_unavailable | CHECK_STANDARD §4 CANNOT-REACH vs GENUINELY-EMPTY (by name) |
+| finding_unfetched_is_not_unavailable | CHECK_STANDARD §8 rule 4 CANNOT-REACH vs GENUINELY-EMPTY (by name) *(pointer corrected same day — see below)* |
 
 ## KEPT HOT despite canon hits (3 — reasons on the record, no index markers spent)
 - **finding_record_of_an_action_is_not_the_action** — n=11; every canon citation is a narrow APPLICATION (messaging transport, state tokens, strict text), no general home covers its INVERSE/owed-row/DATA-SERIES/APPEND forms; highest-frequency live lesson in the fleet.
@@ -27,3 +27,6 @@ HELD-HOT 8/21: finding_resolver_anchored_to_expected_event_inherits_slip_risk ·
 
 ## Verification
 Conservation slug-union before==after (recorded in commit); census re-run post-pass; byte state in commit message. ZERO deletions; memory FILES untouched; rollback = move a row back.
+
+## Same-day correction (DAEDALUS receiver-verification, ~17:0x)
+Two CHECK_STANDARD pointers were MIS-HOMED at graduation: `count_what_published` and `unfetched_is_not_unavailable` were annotated "§4" but live at **§8 rule 4** (the fetch-failure/CANNOT-REACH rule; §4 is "Truncation announces itself" and carries neither). PROME mis-read the leading "4." of a numbered rule inside §8 as a section number. Both annotations corrected at INDEX_COLD + this record. The other 3 CHECK_STANDARD and all 3 STRICT_TEXT mappings verified correct by the owner. **Noted irony, on the record at DAEDALUS's suggestion: the graduation of `count_what_published` — the "look before reading the verdict" memory — itself shipped carrying a wrong pointer; the annotation was written from a grep hit, not a section-header read. These annotations are what the census prints for promotion adjudication, so a wrong home is load-bearing, not cosmetic.**
