@@ -132,7 +132,7 @@ Available expiries run **… Oct-02 (42d) · Oct-16 (56d) · [GAP] · Dec-18 (11
 
 ### (a) THE TENOR BAND IS UNSATISFIABLE — and "fixing" it is exactly the trap my own file names
 
-`TRADE.md:180`, **ratified 7/30: `60–90 DTE` governs the structural trade.**
+**TRADE.md § BINDING WILL RULINGS** (⛔ this card cited `TRADE.md:180`; that line is the pre-fill disclosure and the ruling sat ~18 lines lower — re-pointed 2026-08-21), **ratified: `60–90 DTE` governs the structural trade.**
 
 - **Oct-16 = 56 DTE** — the held leg has **already aged out below the band.**
 - **Dec-18 = 119 DTE** — **29 days above it.**
@@ -140,7 +140,7 @@ Available expiries run **… Oct-02 (42d) · Oct-16 (56d) · [GAP] · Dec-18 (11
 
 ⇒ **No available USO expiry satisfies 60–90 today.**
 
-⛔ **I am NOT quietly widening the band, because widening it is what makes this roll possible** — and `TRADE.md:182` already records that trap verbatim: *"a spec repair is not direction-neutral… 'Clarifying' the tenor would have loosened the only economic gate on this trade, with nobody deciding to loosen it"* (LESSONS #21(b)). **That is this situation exactly, one rule later.**
+⛔ **I am NOT quietly widening the band, because widening it is what makes this roll possible** — and **TRADE.md § BINDING WILL RULINGS** already records that trap verbatim (⛔ this card cited `TRADE.md:182`, WHICH IS A BLANK LINE — re-pointed 2026-08-21): *"a spec repair is not direction-neutral… 'Clarifying' the tenor would have loosened the only economic gate on this trade, with nobody deciding to loosen it"* (LESSONS #21(b)). **That is this situation exactly, one rule later.**
 
 **Your call, two clean paths:**
 1. ✅ **Recommended — SCOPE ruling:** the 60–90 band governs **new structural deployments**, not the roll of an existing leg. *(Consistent with RISK_RULES #15's 7/30 scoping, which already split 60–90 structural from 21–35 off-ramp.)*
