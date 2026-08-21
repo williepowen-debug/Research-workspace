@@ -1,5 +1,24 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> ## ▶ 2026-08-21 PART 6 (Will-directed CHECK PASS) — **it found a filed $105B obligation and a claim of mine that was framed wrong. Both corrected. THE CHECK PASS EARNED ITSELF.**
+>
+> ### ▶▶ START HERE NEXT SESSION
+> 1. **🔴 BUILD THE EDGAR FILING-SWEEP — this is now the top item, ahead of anything else.** `tools/edgar_watch.py`: periodic filing-list sweep over the **named S5/S3 issuers** (NVDA `0001045810`, ORCL `0001341439`, CRWV `0001769628`, + TSM `0001046179` already covered), new-since-last-run, → a boot leg. ⚠️ **The reasoning that produced the gap was CORRECT and I would make it again:** S3/S5 thresholds are **event**-triggered, so a cadence-sampled *price proxy* would measure the wrong thing. **The error was treating "no price series" as "no instrument at all."** An event-triggered channel's instrument is a **filing sweep**.
+> 2. **🔴 NVDA WEDNESDAY 8/26** (unchanged) — and the **8/31 10-Q now has a KNOWN TARGET**: the 8-K says the *form* of the guaranty agreements will be filed as a 10-Q exhibit. Read it for **the guaranteed-minimum-value schedule**, **the definition of "satisfactory credit rating"** (that phrase is the entire termination condition and is not yet public), and **whether the ~3.8 GW option is quantified.**
+> 3. **⏳ 8/28 DAEDALUS sweep — four VULCAN items** (unchanged, P2).
+>
+> ### What the check pass found
+> - **🔴 A PERIOD-MISMATCHED COMPARISON I PUBLISHED AND ROUTED.** *"2026 cum +37.0% ABOVE full-year 2025's +31.6%"* = **7-month YTD vs 12-month full year.** Like-for-like, **2026 is BELOW 2025 in six of seven months (Jul: 37.0 vs 37.6).** True read: **re-accelerated WITHIN 2026 (Apr 29.9 → Jul 37.0) and narrowed the gap from −13.6pp to −0.6pp — nearly CAUGHT 2025, not overtaken it.** Corrected across 8 surfaces, struck not deleted. ⚠️ **The arithmetic was RIGHT and the framing was WRONG** — the harder kind to catch, because every number verifies.
+> - **🔴 NVDA 8-K 8/17 (`0001045810-26-000069`): $105B residual-value guaranties, ~4.25 GW IT load (+~3.8 GW optional), OpenAI affiliate as TENANT, Pike County OH (PJM), in-service 2028.** Terminates when **OpenAI achieves a satisfactory credit rating** ⇒ **rating LEVEL binding again, 2nd and larger instance of the Wisconsin mechanism, now in a PRIVATE CONTRACT.** [KB-111/112] **Corrected to BROCK, who had my "filed NOWHERE" line.** S5 **HELD at 3** — private contract, not regulator-mandated collateral; no band tripped.
+> - **✅ Everything else re-verified clean:** break-even NT$459,753 recomputed from raw figures · all four base rates re-derived · EDGAR `reportDate` matched against each document's own month header ×3 · DOCKET 14/7 counts.
+> - **⚠️ NVDA 8/26 is UNVERIFIED BY ME at a primary.** VIOLET + PROME are **one verification relayed twice.** IR page is JS-rendered; the newsroom slug is a 2011 release. Consistent with the 8-K's 7/26 quarter-end + NVDA's ~3.5wk lag, but that is **inference, not a primary.** If a session has web access, close this.
+>
+> ### 🔑 Three things worth carrying
+> 1. **"No price series" is not "no instrument."** I ruled out a cadence proxy for S3/S5 on correct reasoning and then stopped, leaving both channels with **nothing at all**. A filed, primary, on-channel $105B datum sat **4 days** unseen. **When you correctly reject one instrument, name the one that DOES fit before moving on** — `finding_rejecting_an_instrument_is_an_audit_of_it`.
+> 2. **A pre-registration's escape clause earned its keep on DAY ONE.** VULCAN-13's enumerated (a)/(b)/(c) would have returned **REFUTED while S5 was demonstrably firing**; only the explicit non-exhaustive clause catches the 8-K. ⇒ **Every enumerated mechanism test needs one, and the clause must carry its own evidentiary bar** (mine: *show in figures that it fires on the balance sheet, not on capex direction*).
+> 3. **Verified numbers do not verify the SHAPE claim built on them.** Every figure in the S4 comparison was correct and independently validated; the *comparison* was still invalid. `finding_verified_figures_do_not_verify_the_shape_claim` — name the denominator AND the period before any shape word.
+
+
 > ## ▶ 2026-08-21 PART 5 (Will-approved) — TIER 3 + SECOND-ORDER. **All five channels now carry an OPEN prediction for the first time. Board is clear.**
 >
 > ### ▶▶ START HERE NEXT SESSION

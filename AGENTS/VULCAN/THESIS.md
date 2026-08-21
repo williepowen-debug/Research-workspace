@@ -147,7 +147,7 @@ series** on 2026-08-21.
 | Cumulative YoY path | **43.5 → 31.6** — monotone decel, 8 consecutive months | **36.8 → 29.9 → 35.1 → 29.9 → 30.0 → 35.6 → 37.0** — oscillating, no run >1 |
 | Shape | a genuine decelerating year | **choppy, and RE-ACCELERATING into July** |
 
-🔑 **The read: 2026's cumulative +37.0% now sits ABOVE full-year 2025's +31.6%. The
+🔑 **The read: ~~2026's cumulative +37.0% now sits ABOVE full-year 2025's +31.6%~~ ⚠️ **PERIOD-MISMATCHED — CORRECTED 2026-08-21 (evening self-check). That set a 7-MONTH YTD against a 12-MONTH FULL YEAR.** Like-for-like at July, **2026 (+37.0%) is BELOW 2025 (+37.6%)**, and 2026 sits below 2025 at **every aligned month except January**. 🔑 **What IS true, and it is the better read: 2026 re-accelerated WITHIN the year — Apr +29.9% → Jul +37.0%, +7.1pp — and has narrowed the gap to 2025's pace from −13.6pp (Apr) to −0.6pp (Jul). It has very nearly CAUGHT 2025, not overtaken it.** The S4 verdict is unchanged (NOT-FIRED; the red band is *decline* and growth is ~37%), but the SHAPE claim was overstated. [`finding_cross_entity_comparison_needs_same_perimeter`]. The
 deceleration that ran through all of 2025 did not continue — it reversed.** S4's revenue line
 is not merely "clean", it is **re-accelerating**, which strengthens the NOT-FIRED verdict
 rather than just failing to contradict it. ⚠️ **Cite the cumulative** — monthly YoY ranges
