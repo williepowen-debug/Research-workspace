@@ -66,7 +66,9 @@
 
 ## POSITION DECISIONS PENDING
 - **💵 WILL RULED 8/21: SELL ONE of the `USO Oct-16 135C ×2`.** ⚠️ **NOTHING FILLED, NO ORDER STAGED — execution is Will's.** ★ **The leg IMPROVED after the ruling: +41.7% (09:51) → +45.6% (14:2x, mid $10.35).**
-- **⏳ OPEN: the SECOND contract** — roll to `Dec-18 $135C` vs hold to Oct-16. **Blocked on the two unanswered rulings. NO FILL WITHOUT BOTH.**
+- ✅✅ **RESOLVED 2026-08-21 ~16:3x — WILL RULED: HOLD the second contract to Oct-16, DO NOT ROLL.** `$0` moved, nothing staged. **Lead reason: EVERY live catalyst fires BEFORE Oct-16; the roll bought 63 days with ZERO live catalysts.** Supporting: the same-day SELL-ONE was a de-risk and rolling would have added $750 to the same view. ⚠️ **The ATM theta bleed (~$19.61/day, accelerating) is REAL and unresolved — it argues for CLOSING, never for rolling. If it becomes binding, harvest the second contract; do not extend it.**
+- ✅ **TENOR — RULED as a SCOPE ruling:** `60–90 DTE` governs NEW STRUCTURAL DEPLOYMENTS, not rolls. ⛔ **GUARD: 'roll' = same underlying, same strike, later expiry ONLY; any strike/structure change is a NEW deployment and the band binds.** ⚠️ **TERRY owes its `RISK_RULES` mirror — flagged, not edited by me.**
+- ⏸️ **ROOT RULE #6 BREAK — DELIBERATELY NOT RULED, and that IS the decision.** The test was met, but no fill is on the table after the HOLD, so ruling it would spend an operator decision on a dissolved question. **OPEN-BY-DESIGN.** ⛔ **If a same-strike calendar roll is proposed again, RE-MEASURE the day-colour cost on that day's tape — the 8/21 figures (~$21 / 2.8%) are NOT a standing pass.**
 - **🟠 `XLE Sep-30 $65C ×2`: `$300` vs `$455.35` cost (−34.1%, live chain 14:2x), 40 DTE.** Disposition `LAPSE` **NOT re-ruled**.
 - **NONE PENDING ON THE SHARES — WILL RULED HOLD 8/18.** 35 sh, basis $121.88, **+11.3%**. ⚠️ **No live stop.**
 - ★★ **RISK SHAPE MOVED WITHOUT ANYONE ACTING: undefended-linear share 74.70% → 65.2% — NOT from selling, but because the defined-risk 135C appreciated faster. IT REVERSES ON THE WAY DOWN. Read as a MARK, never as de-risking.** USO-linked concentration unchanged at 95.9%.

@@ -128,6 +128,23 @@ Available expiries run **… Oct-02 (42d) · Oct-16 (56d) · [GAP] · Dec-18 (11
 
 ---
 
+## ✅✅ ⑦-RESOLVED — 2026-08-21 ~16:3x ET. WILL RULED. **THE ROLL IS NOT HAPPENING; THE CARD IS CLOSED, NOT PENDING.**
+
+> **① THE ROLL — RULED: HOLD the second contract to `Oct-16`. DO NOT ROLL.** ⛔ **Nothing filled, no order staged, `$0` moved.**
+> **Lead reason (thesis-side, BRENT's domain): EVERY LIVE CATALYST ON THE BOARD FIRES BEFORE `Oct-16`** — Bessent 8/24 · Jazan 8/30 · Russia diesel ban 9/1 · OPEC+ 9/6 · SPR 9/9. **Between `Oct-16` and `Dec-18`: ONE registered row, marked RESOLVED.** ⇒ **the roll bought 63 days with ZERO live catalysts.**
+> **Supporting:** the same-day **SELL-ONE was a harvest/de-risk**; rolling would have added `$750` of new committed capital to the same view and partially undone it. Concentration already **95.9% USO-linked, `N_eff = 1`.**
+>
+> **② TENOR — RULED as a SCOPE ruling** (§(a) below asked for exactly this): **`60–90 DTE` governs NEW STRUCTURAL DEPLOYMENTS, not the roll of an existing leg.** ⛔ **GUARD, BINDING: "roll" = SAME underlying · SAME strike · LATER expiry. ANY change of strike or structure is a NEW DEPLOYMENT and the band binds in full.** Encoded → `TRADE.md § BINDING WILL RULINGS`. ⚠️ `RISK_RULES` is TERRY's file — flagged to TERRY for its mirror, not edited by me.
+>
+> **③ ROOT RULE #6 — DELIBERATELY *NOT* RULED, AND THAT IS THE DECISION, NOT AN OMISSION.**
+> **The break test in §(b) below stands as written and was met** — figures on the card, before any fill, no hard guard relaxed. **But the question only bites if a fill is on the table, and after ①, none is.** ⇒ **Ruling it would have spent an operator decision on a question the roll decision dissolves.**
+> ⚠️ **AND THE MEASUREMENT ARGUES THE SAME WAY: the honest day-colour cost was `~$21` / `2.8%` — vega `+18.58`/pt into `OVX 50.62 (+1.97%)` — NOT the `$1.99` the delta leg alone implies. Taking the break was worth roughly `$21`. That is noise.**
+> ⇒ **STATUS: OPEN-BY-DESIGN. If a same-strike calendar roll is ever proposed again, THIS section is the standing analysis — re-measure the day-colour cost on that day's tape and bring it fresh. Do NOT treat the 8/21 figures as a standing pass.**
+
+---
+
+*(Original ⑦ preserved verbatim below — it is the record of what was asked and on what evidence.)*
+
 ## ⑦ ⛔ TWO RULINGS I NEED FROM YOU — I will not fill without them
 
 ### (a) THE TENOR BAND IS UNSATISFIABLE — and "fixing" it is exactly the trap my own file names
