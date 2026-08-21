@@ -1,0 +1,26 @@
+# RULING RECORD — MIDAS escalated sub-items (e)-(i) = WILL_QUEUE rows 65-69
+**Date:** 2026-08-21 ~09:5x ET (in-session, same hour as the word) · **Author:** PROME
+**Will's verbatim word:** *"Go ahead with the HEARTBEAT touch-up and rule 65-69 off your recs"*
+**Recs of record:** the PROME-rec cells written into rows 65-69 at the 8/21 boot registration (`eb5c7f1b8`), themselves derived from MIDAS's escalation packet `PROME/inbox/processed/2026-08-21_from-MIDAS_L12-L13-RULED-plus-FIVE-escalated-subitems-for-Will.md`. This record restates each operative ruling so the encode can cite one artifact.
+
+**Context that rode the presentation (stated to Will before the word):** MIDAS-06's binding leg has FLIPPED — gold $4,516.30 settled [8/20] clears the re-keyed $4,340.70 by +4.0% while DFII10 2.35 [8/19, PROME-verified at FRED] fails the ≥2.40 leg by 5bp, 5 sessions before the 8/28 read. MIDAS flagged that ruling difficulty items against a tape 5bp from the line is tuning-adjacent; every rec below was therefore constructed rule-now-safe — **none moves the live 8/28 grade in either direction.**
+
+## The five rulings
+
+| Row | Sub-item | RULING |
+|---|---|---|
+| **65 (e)** | Adopt weekly-continuous 3-of-3 as kill-cond #3's binding basis (would retroactively un-fire the fired 7/17→8/7 kill-cond, count 1/4 → 0/4) | **DECLINED.** L-12's endpoint basis STANDS as MIDAS self-ruled it (continuity measured arithmetically unsatisfiable at the daily form — longest joint run in 23yr/5,892 sessions = 4; weekly 3-of-3 = 0.79% base rate vs endpoint 19.15%). The retroactive half re-marks a fired calibration record — authority DELEGATION_TIER expressly withholds and this ruling does not grant. **Kill-cond #3's fired count 1/4 STANDS.** If a continuous basis is ever wanted it is prospective-only (a-ruling-governs-the-next-write canon), and would need its own sitting. |
+| **66 (f)** | NO-VERDICT band ±Nbp around the DFII10 2.40 boundary (evidence: 2026 σ=3.42bp ⇒ ±1σ ≈ ±3.4bp) | **HELD until after MIDAS-06 grades 8/28; then adopt PROSPECTIVELY for successor rows.** Bands belong at REGISTRATION (`finding_prereg_verdict_boundary_must_be_a_number`); adding one mid-window with the tape 5bp out is the tuning shape whichever way it lands. At today's readings ±3.4bp would not change the verdict (2.35 < 2.366) — which is exactly why it is not being ruled against a live tape. **Re-present ~8/29 post-grade (DOCKET row registered).** |
+| **67 (g)** | 5-session smoothed endpoints instead of single prints | **DECLINED for live rows.** MIDAS measured it +2.5% EASIER (239→245 windows) after assuming it was a tightening — an easier-measured change to a fired falsifier's basis fails test 4 clause 2 on the letter. Available as a prospective design choice for successor specs if MIDAS proposes it at a future sitting. |
+| **68 (h)** | Should MIDAS-06 branch (a) carry a duration clause at all? (It has NONE — single-date level conjunction, read 8/28) | **NO EDIT. MIDAS-06 grades 8/28 ON THE FROZEN LETTER.** (d) INDETERMINATE is a legitimate outcome of a frozen spec, not a defect to patch mid-flight. The single-print fragility is real and belongs to successor designs. MIDAS's correction of its own 8/20 statement (that L-12 would settle this — it never governed the branch) is accepted and closed. **Rider NOT ruled:** the row's descriptive preamble still carries pre-Am.#2 figures ("+9.68%/+12bp" vs corrected "+8.18%/+9bp"); MIDAS correctly left it un-swept as out of rider-3 scope. It stays as-is — not outcome-determinative; sweep only on a future explicit word. |
+| **69 (i)** | L-13(b) discriminated upside/tightening I1 band | **DESIGN CONSTRAINT RATIFIED; NO BUILD COMMISSIONED.** If/when an upside band ships it MUST be MIDAS's recommended form — discriminated by mechanism, conjunction-based, sustain clause, baseline FROZEN for the test window — **never a symmetric mirror** (MIDAS's own tape test: a mirror band shipped on 8/7 evidence would have fired AND un-fired inside 9 business days; a symmetric band manufactures a China-growth reading out of a warehouse transfer). Building it (a new way for I1 to score elevated = difficulty-touching) needs its own escalation with measured effect. |
+
+## Explicitly left OPEN by this ruling
+1. **The downside-band frozen-baseline defect** (TRACKED trailing-2yr median moves under a sustain clause — MIDAS flagged it latent in the existing downside bands, repaired nothing). PROME's rec cells took no position, so "off your recs" grants no word here. **Stays FLAGGED-NOT-REPAIRED at MIDAS**; if MIDAS wants it repaired, escalate as its own sub-item with the measured difficulty effect, per the same discipline that produced (e)-(i).
+2. The row-68 preamble rider (above) — as-is absent a future word.
+
+## Execution trail
+- WILL_QUEUE rows 65-69 → RECENTLY DONE (F2 leave-at-ruling), same touch as this record.
+- Disposition-encode packet → `AGENTS/MIDAS/inbox/2026-08-21_from-PROME_rows-65-69-RULED-dispositions-to-encode.md` (carve-out ①). Encode chase = MIDAS's next touch (gold-COT session this afternoon expected).
+- DOCKET row registered: ~8/29 re-present of row 66's prospective band (owner PROME→Will).
+- HEARTBEAT §8 carries the ruled state (same-session touch-up commit `f67b4105a`).
