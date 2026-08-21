@@ -231,8 +231,11 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (VULCAN-NN) + resolution tracking. |
 | `workbook/EXIT_PROTOCOL.md` | **The kill rail (authored 2026-08-13, discharging the Market-L3 requirement).** Thesis-kill legs with levels/instruments/windows/from-states · per-channel kill + **migration path** · the live bidirectional flip · the disconfirming set · a **dated rewrite trigger**. **STATUS's triad stays canonical for firing STATE; this file holds what kills the THESIS. Neither restates the other — where a kill condition is a registered prediction, this file cites the ID.** Re-read at every closeout. |
 | `workbook/S2_SERIES.tsv` | **Append-only S2 memory-cycle series** (spot + equity cross-section), written by `semi_watch.py`. The retained history S2 lacked when it was upgraded to score 3. Vintage is **content-derived** (`asof_utc` column), never mtime. |
-| `inbox/` `outbox/` | Cross-agent messaging. |
-| `sources/` | Research corpus, briefings. |
+| `inbox/` `outbox/` | Cross-agent messaging. ⚠️ `inbox/WALTER/processed/` is a SECOND processed dir alongside `inbox/processed/`, against the flat-folder model in §MAIL — two homes for one state, unresolved. |
+| `reports/` | **The actual research corpus** — domain sweeps, the useful-life read card, the 7/16 axis-check findings. Frozen historical artifacts; cite as history. *(Was missing from this table until 2026-08-21.)* |
+| `archive/` | Frozen, moved-not-deleted history: `STATUS_ARCHIVE_2026-07.md` (pre-Aug session records) · `NEXUS_BRIEF_ARCHIVE_2026-07.md` (pre-8/13 sync). **Banner-gated: never cite a row here as current.** *(Was missing from this table until 2026-08-21.)* |
+| `SCHEDULED_RUNS.md` | Cloud-routine register. **All three routines SPENT since 2026-08-03 — VULCAN is manual-boot only.** ⚠️ Read its delivery-path note BEFORE creating any new routine: the dead `AGENTS/PROME/inbox/` path was baked into SERVER-SIDE routine text, off-repo, which is why two repo-aimed flags could not fix it. *(Was missing from this table until 2026-08-21.)* |
+| ~~`sources/`~~ | ⚠️ **EMPTY but for `.gitkeep` since 2026-07-10 — this row named a directory that has never held a file, while the real corpus lives in `reports/`.** Retained rather than deleted so the discrepancy is visible: if research ever lands here, un-strike it; otherwise `reports/` is the answer. *(Caught 2026-08-21 by closeout step 4b's own question ② — the table naming something that doesn't exist, on the step's second run.)* |
 
 ---
 

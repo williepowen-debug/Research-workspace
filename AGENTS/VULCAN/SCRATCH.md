@@ -1,5 +1,46 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> ## ▶ 2026-08-21 PART 3 (Will-directed, fresh window) — SYSTEM/FILES AUDIT #2. Tier 1 CLOSED. **The headline is that I restructured a file governed by another desk's schema without reading it.**
+>
+> ### ▶▶ START HERE NEXT SESSION — the audit is HALF DONE and the remaining half is the half with leverage
+> **Tier 1 is closed. Tier 2 is a BUILD, not an edit, and it is where the value is. Tier 3 is quick hygiene.**
+> 1. **🔴 TIER 2a — S3, S4 and S5 have NO instrument and NO boot leg.** `boot.py` has 4 legs covering **S1 and S2 only**. ⚠️ **Today produced THREE independent confirmations of this one root cause:** S4 rotted **35 days on a MONTHLY series**; the `FLOW.tsv` cell survived five same-day narrative fixes; and **the only two channels that stayed clean all day were the two with instruments.** S4's next print is **~9/10** and nothing will prompt it. **This is the highest-leverage item on the board.**
+> 2. **🔴 TIER 2b — six dated commitments with NO surfacing mechanism.** `boot.py`'s only date leg reads `PREDICTIONS.tsv`, which by design holds only VULCAN-NN market forecasts. Uncovered: **8/31 NVDA 10-Q tripwire (10 days out — RE-DERIVE from EDGAR if unfiled, do NOT restate "~late Aug")** · ~9/10 TSMC · **9/11 my own self-grade, which exists in exactly ONE place: a line in this file** · Sept ORCL $3.3B · ~10/12 PJM IRAS at FERC · ~11/15 abeyance + the kill-rail rewrite backstop. The new `⏱️ THE CLOCK` table in `NEXUS_BRIEF.md` now lists all ten **with an instrumented? column — 7 of 10 say ✗.**
+> 3. **🟡 TIER 3 — hygiene:** STATUS composite footer still reads *"HELD 8/13"* while lines 20/37 say 8/21 · `TRADE.md`'s candidate table has 4 rows beside prose reading *"fired-count 0 of 5"* (**S3 silently absent** — if deliberate because the expression is WATT's, SAY so in the table) · `SCHEMA.tsv` documents KB.tsv only, 5 other ledgers undocumented · **`NEXUS_BRIEF.md` is 126 lines against the schema's 100-line ceiling — SELF-DECLARE it** (BRENT precedent: *"honest, not hidden"*) · `inbox/WALTER/processed/` is a second processed dir against the flat-folder spec.
+> 4. **⏳ AWAITING NEXUS (no clock, nothing blocked):** whether the **amendment-9 revert condition** is met ⇒ full schema. **Do NOT rebuild unilaterally and do NOT compact the brief until they answer** — a revert restructures it anyway.
+>
+> ### 🔑 THE FINDING THAT MATTERS, AND IT IS ABOUT ME
+> **I restructured `NEXUS_BRIEF.md` all morning without opening `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`** — the declared **owner-of-record** for brief form and order. My own `CLAUDE.md` says *"schema questions → NEXUS."* **I had the pointer and did not travel it.** I found it only because Will asked what fixes I'd suggest and I went to read the spec **before** answering — six hours late.
+> - **The index I invented is a hand-rolled CROSS-DOMAIN section.** §2 already specifies it; §1 already ranks it first under cap pressure. Right instinct, wrong method.
+> - **⇒ L-19 + the rule: if my own file cites another agent's rule BY NAME AND NUMBER, that citation is a pointer I am obliged to travel at least once, not a fact I inherited.** A *number* in a citation means the owner **versions** that rule, which means it **changes**, which means my copy has a shelf life.
+>
+> ### What was actually wrong (all fixed, all committed)
+> - **`NEXUS_BRIEF.md` was broadcasting a claim I had killed 30 min earlier** — the VIOLET+LIQUID decoupling row, live 🟠 **with an instruction to act**, for **116 minutes**. ⚠️ **My first diagnosis blamed NEXUS Amendment 10's ordering rule; the COMMIT GRAPH EXONERATED IT** — at 11:37 I was rewriting the file *with the retraction in hand* and **appended a new row instead of amending the row it kills.** I withdrew that note to NEXUS unsent. 🔑 **The wrong diagnosis was the FLATTERING one** (a rule did it ⇒ structural, not my fault). **When a post-mortem lands on "the process did it," check the timeline before banking it.**
+> - **Six MORE unstruck superseded claims below the fold**, incl. the 7/12 *"capex supports the PJM-official 32GW"* — **the exact twin of yesterday's Tier-1 THESIS headline.** THESIS got fixed; the fleet-facing copy did not, and nothing connected them. All struck in place, originals retained.
+> - **Pre-8/13 sync → `archive/NEXUS_BRIEF_ARCHIVE_2026-07.md`** (frozen, moved-not-deleted, **annotated BEFORE moving** — an archive of unmarked wrong claims is worse than none, because age reads as settledness). 65KB → 54KB.
+> - **`VX.tsv` missed the 8/21 refresh on 4 of 5 channels** — 20 KB rows written that day, ONE `as_of` bumped. **S4 stamped 7/17 (35 days)**; S2 asserted the withdrawn decoupling claim **under a FRESH stamp, which is worse than a stale one because the freshness certifies it**; S5's notes stated the 8/13 equity counter-leg as current. All five now agree with their content.
+> - **`FLOW.tsv` FL-VULCAN-01 carried the dead Mag-7 32.5%** — correction had reached five NARRATIVE surfaces and not the LEDGER.
+> - **Schema conformance:** header + **STATUS pin** added (absent since 7/12 ⇒ **NEXUS's §4.4 "mechanical / always fires" check had nothing to compare and was UNTRIPPABLE BY CONSTRUCTION against me for six weeks** — same class as mag7.py's level-only red band, but on the CONSUMER's instrument). **Closeout step 5 corrected A10 → A11** (hash equality; a timestamp ties and runs non-monotonically across a rebase). **FILES table reconciled** — it named `sources/`, empty since 7/10, and omitted `reports/`, `archive/`, `SCHEDULED_RUNS.md`.
+>
+> ### The DAEDALUS chain — claim → test → third outcome → correction-to-correction → forward hit
+> I sent the append-vs-amend finding **caveated hard: n=7 but ONE desk, ONE file, ONE day — a single agent's habit, not a demonstrated fleet class** — and named the falsifying test I wanted run **instead of my word being taken.**
+> 1. **DAEDALUS ran it and got a THIRD outcome:** the class is **surface-geometry-conditional.** SAM and BOND both looked healthy at file level (corrections PREPENDED).
+> 2. **I sent back a measured refinement:** my file is newest-first at SECTION level (same geometry as SAM/BOND) but the killed row was **position 4 of 31** and the retraction **position 27** ⇒ **evaluate write-direction at the granularity the READER TRAVERSES, not at file level. A surface can be healthy in one direction and broken in the other, and the healthy half is what stops anyone looking.**
+> 3. **They re-checked at row granularity: BOND HAS THE DEFECT LIVE** (owner packet routed); SAM conforms and is now the banked reference form — **an inline never-use guard in the row itself.**
+> 4. **I ran SAM's form against my own files before anyone else could.** Raw scan: **44 unguarded instances → exactly 1 genuine** (the FLOW cell). ⚠️ **Reporting 44 would have been L-18 verbatim, one day after I registered it.** The other 43: valid guards my regex missed (*"not the ~32.5%"*), and **FROZEN references that MUST NOT MOVE.**
+> 5. **Banked n=12.** My two keepers: **a bare TSV has no date column so it cannot signal its own staleness — the guard lives IN the cell or nowhere** (⇒ TSV upgraded to *worst case, in-cell-guard mandatory*); and **if this ever automates, frozen prediction baselines need an EXEMPTION, not a guard — a tool that amends graded evidence corrupts the calibration record while printing success.**
+>
+> ### Routed this session (3)
+> **NEXUS** (revert ask + the six-week missing pin, with the steelman AGAINST reverting given in full — they are not live, lands at their next boot) · **DAEDALUS ×2** (append-vs-amend, then the granularity refinement; both banked, both doorbelled). **⚠️ Do NOT re-send any of these next boot.**
+>
+> ### 🏁 CLOSEOUT — steps 2b / 4b outcomes logged below per CHECK 3's own requirement
+> - **Step 2b (reconcile THESIS): CLEAN — correctly, and this is the case the tracker exists to distinguish.** This session changed **no** channel score, verdict, live read or resolver — it was a files/protocol audit. Under 2b's own wording a section I did not touch is *correct by default*, so THESIS was left alone **deliberately, not skipped.**
+> - **Step 4b (self-check CLAUDE.md): FIRED ×2** — Q③ caught step 5 citing **Amendment 10's superseded timestamp check** (14 days stale); Q② caught the **FILES table naming `sources/`, empty since 7/10, while omitting `reports/`, `archive/` and `SCHEDULED_RUNS.md`.**
+> - **Falsification check RUN, not restated: thesis-kill still 1 of 3.** No market data moved today, so no leg could move — leg 3 (memory healthy) still met, leg 2's from-state still 32.98% vs ≤28%, leg 1 unobservable until Jan-2027. **Rewrite trigger NOT due** (earliest MU FQ4 ~9/29).
+> - **CHECK 1 (weld class): still n=4 — no new instance found today.**
+> - **CHECK 2 confound stands:** today was a **self**-audit on different axes than the morning's. Fewer findings would be **weak evidence**; the strong version is still YEYOU/RAV cold.
+
+
 > ## ▶ 2026-08-21 (Will-directed boot) — MY 8/13 CORRECTION WAS THE ERROR. It was measured from the drawdown's own trough. Composite HELD 15/25, third session running.
 > **Boot: git clean 0/0, `boot.py` rc 0 with an S2-series-stale flag (8d), 15-item inbox after 8 days dark. I read the inbox BEFORE analysis — L-14 held for the second consecutive session.**
 >
@@ -68,6 +109,7 @@
 > | closeout date | step 2b (THESIS) | step 4b (CLAUDE.md) |
 > |---|---|---|
 > | 2026-08-21 | **FIRED** — breadth stage | **FIRED ×2** — words-vs-number, 11/20 |
+> | 2026-08-21 *(PM, audit #2)* | **CLEAN** — no channel score/verdict/live-read/resolver touched, so THESIS is correct by default and was left alone **deliberately, not skipped** | **FIRED ×2** — step 5 citing **superseded Amendment 10** (14d); FILES table naming empty `sources/` while omitting `reports/` `archive/` `SCHEDULED_RUNS.md` |
 >
 > ### ▶▶ START HERE NEXT SESSION — PROME ALLOCATED THE CXMT QUESTION TO ME (8/21, no clock)
 > **The thing I chased ZHAO for three times is now MY work item.** Disposition ① with a scope fence, packet filed to `inbox/processed/`.
