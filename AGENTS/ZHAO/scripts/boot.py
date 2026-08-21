@@ -12,7 +12,9 @@ Sections (printed most-actionable first):
   [2] KEY-FIGURE AGE   — the load-bearing rows (China/Belgium TIC, HIBOR, PMI…)
                          with days-since-update; anything > STALE_DAYS is 🔴
   [3] TIC RELEASE WATCH— computes whether a newer TIC print should exist
-  [4] CATALYST DOCKET  — upcoming/overdue dated events (maintained list)
+  [4] CATALYST COUNTDOWN— ONE reader over all three dated registries:
+                         docket/CATALYSTS.tsv + PREDICTIONS.Resolve_By + PROME DOCKET(ZHAO).
+                         Fired rows surface REGARDLESS of priority (OTTO/PAT-116).
   [5] OPEN PREDICTIONS — from PREDICTIONS.tsv
   [6] LEDGER STALENESS — count + oldest rows across all of VX.tsv
 
@@ -68,17 +70,16 @@ KEY_FIGURES = [
     ("USD/KRW",     "VX-ZHAO-2.05"),
     ("HK Agg Bal",  "VX-ZHAO-2.03"),
     ("HIBOR-SOFR",  "VX-ZHAO-2.04"),
-    ("China PMI",   "VX-ZHAO-4.01"),
+    ("China PMI",   "VX-ZHAO-6.11"),   # D2 fix 8/21: was 4.01, a DEAD duplicate (Jun 50.3,
+                                       # dated 7/4). 6.11 is the live row (Jul 49.2). The old
+                                       # pointer reported both the AGE and the SIGN wrong.
     ("PBOC rate",   "VX-ZHAO-6.06"),
 ]
 
-# --- maintained catalyst docket (update as events pass) ---
-CATALYSTS = [
-    ("2026-07-16", "BoK policy meeting — possible hike (CPI 3.2%)"),
-    ("2026-07-17", "TIC May 2026 data (~mid-month) — verify China/Belgium <$650B"),
-    ("2026-11-10", "US-China reciprocal-tariff suspension expiry"),
-    ("2026-12-01", "SEC cash-clearing mandate"),
-]
+# --- catalysts now live in docket/CATALYSTS.tsv, read by scripts/catalyst_countdown.py ---
+# (D1 fix 2026-08-21: a hardcoded list cannot be edited at closeout, cannot be staleness-
+#  checked, and silently diverged from STATUS's CALENDAR — it printed "nothing within ±30d"
+#  on a morning a grade was 8d overdue. DAEDALUS ruling: TSV source, STATUS is the mirror.)
 
 MONTHS = {m: i for i, m in enumerate(
     ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
@@ -151,8 +152,14 @@ def section_key_ages():
             print(f"    {label:12s} — VX id {vid} MISSING")
             continue
         age = _age_days(row["updated"])
-        flag = "🔴 STALE" if (age is not None and age > KEY_STALE_DAYS) else "✓"
-        agestr = f"{age}d" if age is not None else "?"
+        # D4 fix 8/21: an unparseable vintage used to read as NOT stale — fail-OPEN, silent,
+        # forever. VX-ZHAO-7.02 literally contained the word STALE in its date cell, which is
+        # exactly why the checker could not see it. Unreadable is now LOUDER than stale.
+        if age is None:
+            flag, agestr = "🔴 UNPARSEABLE VINTAGE — treat as STALE", "??"
+        else:
+            flag = "🔴 STALE" if age > KEY_STALE_DAYS else "✓"
+            agestr = f"{age}d"
         print(f"    {label:12s} {row['value'][:14]:14s} "
               f"upd {row['updated']} ({agestr:>4s}) {flag}")
 
@@ -183,21 +190,22 @@ def section_tic_watch():
 
 
 def section_catalysts():
-    print("\n[4] CATALYST DOCKET  (±30d)")
-    t = today()
-    shown = False
-    for ds, label in sorted(CATALYSTS):
-        try:
-            d = datetime.strptime(ds, "%Y-%m-%d").date()
-        except Exception:
-            continue
-        delta = (d - t).days
-        if -3 <= delta <= 30:
-            tag = "🔴 OVERDUE" if delta < 0 else (f"in {delta}d" if delta else "TODAY")
-            print(f"    {ds}  {tag:>10s}  {label}")
-            shown = True
-    if not shown:
-        print("    (nothing within ±30d — extend CATALYSTS list if that seems wrong)")
+    """Delegate to catalyst_countdown.py — ONE reader over all three dated registries."""
+    import subprocess
+    script = SCRIPTS_DIR / "catalyst_countdown.py"
+    if not script.exists():
+        print("\n[4] CATALYST COUNTDOWN")
+        print(f"    🔴 {script} MISSING — the dated-event leg is BLIND, not empty.")
+        return
+    try:
+        out = subprocess.run([sys.executable, str(script)], capture_output=True,
+                             text=True, timeout=60)
+        print(out.stdout.rstrip())
+        if out.returncode != 0:
+            print("    ⚠️  countdown exited non-zero — a registry leg is unreadable (see 🔴 above)")
+    except Exception as e:
+        print("\n[4] CATALYST COUNTDOWN")
+        print(f"    🔴 countdown FAILED to run ({type(e).__name__}) — dated-event leg BLIND")
 
 
 def section_predictions():
@@ -206,23 +214,58 @@ def section_predictions():
     if not body:
         print("    (none)")
         return
-    # PREDICTIONS.tsv: Pred_ID, Date_Made, Prediction, Confidence, Timeframe, Status, ...
+    # D3 fix 8/21: this was an EXACT match on "OPEN", which dropped 8 of 15 rows — including
+    # ZHA-04 ("OPEN — GRADED 7/16, NOT FIRED"), the prediction that FIRED that same morning.
+    # Careful annotation made a row vanish from the surface that exists to show it. Prefix-match
+    # now, and surface anything that is neither clearly open nor clearly terminal.
+    TERMINAL = ("RESOLVED", "CONFIRMED", "FALSIFIED")
+    hdr = header
+    ri = {n: i for i, n in enumerate(hdr)}
+    si, rbi = ri.get("Status", 5), ri.get("Resolve_By")
+    t = today()
+    openish, limbo = [], []
     for r in body:
-        if len(r) >= 6 and r[5].strip().upper() == "OPEN":
-            print(f"    {r[0]:8s} {r[3]:>5s}  {r[2][:60]}")
+        if len(r) <= si:
+            continue
+        st = r[si].strip().upper()
+        due = ""
+        if rbi is not None and len(r) > rbi and r[rbi].strip():
+            d = _age_days(r[rbi])           # negative = days until
+            if d is not None:
+                due = f"OVERDUE {d}d" if d > 0 else f"due in {-d}d"
+        if st.startswith("OPEN"):
+            openish.append((r, due))
+        elif not st.startswith(TERMINAL):
+            limbo.append((r, due, r[si].strip()))
+    for r, due in openish:
+        flag = "  🔴 " + due if due.startswith("OVERDUE") else (f"  ({due})" if due else "")
+        print(f"    {r[0]:8s} {r[3]:>5s}  {r[2][:56]}{flag}")
+    if limbo:
+        print("    ⚠️  NEITHER OPEN NOR TERMINAL — a hedge token in a Status cell is a grade that")
+        print("        was deferred and then became unfindable (ZHA-09 sat 'LIKELY MISSED' ~7 weeks):")
+        for r, due, raw in limbo:
+            print(f"        {r[0]:8s} status={raw[:38]!r}{'  🔴 '+due if due.startswith('OVERDUE') else ''}")
 
 
 def section_ledger_staleness():
     print(f"\n[6] LEDGER STALENESS  (VX rows > {STALE_DAYS}d)")
     header, body = _read_tsv(VX_TSV)
     aged = []
+    unparseable = []
     for r in body:
         if len(r) >= 9:
             age = _age_days(r[8])
-            if age is not None and age > STALE_DAYS:
+            if age is None:                      # D4 fix: never silently skip
+                unparseable.append((r[0], r[1], r[8]))
+            elif age > STALE_DAYS:
                 aged.append((age, r[0], r[1]))
+    if unparseable:
+        print(f"    🔴 {len(unparseable)} row(s) with an UNPARSEABLE Last_Updated — "
+              f"these can NEVER be flagged stale (fail-open class):")
+        for vid, name, raw in unparseable:
+            print(f"       {vid:14s} {name[:34]:34s} date={raw!r}")
     if not aged:
-        print("    ✓ all VX rows fresh.")
+        print("    ✓ all VX rows fresh." if not unparseable else "    (no *parseable* row is stale)")
         return
     aged.sort(reverse=True)
     print(f"    {len(aged)} of {len(body)} rows stale. Oldest:")
