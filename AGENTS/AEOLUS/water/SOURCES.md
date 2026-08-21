@@ -206,6 +206,17 @@ By class: 6.37 (<91′ beam) · 22.07 (91-107′) · 10.27 (Neopanamax). Booking
 ⚠️ **Read TRANSITS (38.70), not ARRIVALS (40.5).** They sit adjacent in the same block and my threshold is on transits.
 ✅ **This also anchors the "~36 normal" in my threshold table, which had no provenance.** April 2026 actual = **38.70/day**.
 
+### 🔴 GATUN LAKE ELEVATION — the physical driver, and it is UNRESOLVED (opened 2026-08-21, Will-prompted)
+
+**My Panama band measures TRANSITS. Will asked about WATER HEIGHT. I have no lake-level data at all**, and the transit instrument is **structurally blind** to a draft-only restriction — **ACP states plainly: *"The draft adjustment will not affect the number of daily vessel transits."*** The issuer is deliberately holding constant the exact variable my threshold reads.
+
+**ACP's own primary is `apps.pancanal.com/t/TI/views/GatunH2OIndicators/GatunWaterLevel` ("Official Gatun Water Level"). It is DOUBLY BLOCKED:**
+1. **Broken TLS certificate chain** — strict fetch returns **HTTP 000**; `curl -k` returns 200. *(A cert failure, not a 404 — do not read the 000 as "page gone.")*
+2. **JS-rendered Tableau shell** — the 200 body is **5,186 B containing no elevation figure**; `Tableau`/`vizql` markers only.
+
+⚠️ **NO SECONDARY SUBSTITUTED, deliberately.** Reference points for whoever closes this: Gatun normal operating range is roughly **82–87 ft PLD**; ACP measures via telemetry buoys at 4 lake locations every 15 min and the data reportedly reach an **AQUARIUS web portal** — **that portal is the lead to chase, unverified by me.**
+🔑 **When it is instrumented, add a LAKE-ELEVATION row to the CLAUDE.md threshold table.** The Panama band should key on the driver, not only on transits.
+
 #### 🔴 DO NOT SCRAPE THE ADVISORIES INDEX — it is silently stale
 
 `https://pancanal.com/en/advisories-to-shipping/` is **JS-rendered**. **Both `curl` and `WebFetch` return a server-rendered fragment ending at `A-46-2024`** — while `A-14-2026` demonstrably exists at HTTP 200. **The list renders as complete, so its incompleteness is invisible.**

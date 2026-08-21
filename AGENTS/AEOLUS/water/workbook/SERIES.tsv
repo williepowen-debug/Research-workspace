@@ -249,3 +249,5 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-05-31	panama_transits	37.06	count	ACP-MONTHLY-OPS-SUMMARY	2026-08-21	oceangoing TRANSITS daily average (NOT arrivals); month total 1149, self-check 1149/31d=37.06; ACP-ADV-19-2026
 2026-06-30	panama_transits	32.5	count	ACP-MONTHLY-OPS-SUMMARY	2026-08-21	oceangoing TRANSITS daily average (NOT arrivals); month total 975, self-check 975/30d=32.50; ACP-ADV-23-2026
 2026-07-31	panama_transits	34.03	count	ACP-MONTHLY-OPS-SUMMARY	2026-08-21	oceangoing TRANSITS daily average (NOT arrivals); month total 1055, self-check 1055/31d=34.03; ACP-ADV-26-2026
+
+2026-08-21	panama_max_draft_ft	48.5	feet	ACP-ADVISORY	2026-08-21	Neopanamax TFW, effective 8/15. Sequence 50->49.5(7/03)->49.0(7/24)->48.5(8/15)->48.0(8/26)->47.5(9/03). A-22-2026 + ACP 8/05 announcement
