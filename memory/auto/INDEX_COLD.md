@@ -312,18 +312,6 @@
 - finding_just_read_artifact_frame_contamination
 - feedback_single_source_liveevent_is_a_lead
 
-## Demoted 2026-08-21 — flow-rule pass #4, the FIRST census-informed pass (byte check 75% at closeout; members drawn from memory_citation_census.py's 30d-uncited queue with PROME judgment overrides recorded in the commit)
-- feedback_git_reconcile_scope
-- feedback_trump_rhetoric_tape_not_info
-- feedback_verify_existence_external_primaries
-- finding_apparent_confabulation_is_often_a_baseline_mismatch — check the baseline before crying fake
-- finding_base_rate_the_instrument_before_its_event_table
+## Demoted 2026-08-21 — flow-rule pass #4 residue AFTER the same-day v2 rollback (the v1 single-source queue was 86% false-cold: 12 of 14 rows artifact-rescued by census v2 and RETURNED to hot the same afternoon, fixture-verified; these 2 were cold on BOTH sources and stand)
 - finding_overlapping_prereg_branches_restore_grader_discretion — two branches BOTH true = grader picks post-hoc; scope each branch to ONE surface
-- finding_overlapping_window_inflates_the_base_rate — σ survives; the exceedance COUNT inflates ~Nx. De-cluster before base-rating
-- finding_extend_the_sample_before_publishing_a_coefficient — rho −0.559 at n=14 died to −0.255 at n=26; double n first
-- finding_settle_basis_trigger_needs_a_post_close_observer — a settle-basis gate can't be collected pre-close; surface is FRESH, not stale
 - finding_publication_date_is_not_the_event_date — weekday≠date means TWO dates in one sentence
-- finding_continuous_front_ticker_rolls_so_deltas_lie — `=F` re-points at the roll; a DELTA across it is fabricated
-- finding_derived_metric_across_vintages_biases_toward_stale_leg — the correction delta is a BASIS CHANGE, never a threshold trigger
-- finding_complete_vs_selective_scan_drop_safe
-- finding_grep_respects_gitignore_so_ignored_zones_are_invisible — harness `grep` honors .gitignore; root sweeps SILENTLY skip ignored paths
