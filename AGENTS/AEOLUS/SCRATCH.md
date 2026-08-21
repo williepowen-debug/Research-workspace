@@ -34,6 +34,11 @@
 4. **Instrument the two dead bands:** CDD/HDD for C3 (exit-triad leg ungradeable on a 54-day-old June figure) and **non-renewal rate** for C4 (no verified command for any state insurance department).
 5. **Verify the CPC weekly-figure basis** — the 8/20 discussion prints +1.8/+2.5/+3.2 where `wksst9120.for` reads +2.7/+3.2/+4.0. **Ask CPC's documentation; do NOT infer the offset** (a 3-point coincidence is a free parameter).
 
+### 🔧 ONE SMALL BUILD, REGISTERED NOT BUILT *(deliberately deferred — the brief was already folded)*
+**Conservation check for hand-maintained derived numbers on STATUS.** DAEDALUS's fix-form for the count-vs-list defect is better than the prose guard I wrote: **`count == len(list)`, generated rather than hand-kept.** I have exactly two such numbers on my most-read surface — **`Composite N/30`** (a hand-summed total beside six hand-edited matrix rows) and **`Fired count: N of 6`** (beside a hand-edited verdict column). **Both CONSERVE as published on 8/21 — verified, not assumed** (1+2+3+3+4+4 = 17 = published; one verdict cell reads FIRED = published 1 of 6).
+⚠️ **The composite was correct today only by luck of cancellation** — C1 fell 2→1 and C6 rose 3→4 in the same session, so a stale total would still have read 17. **A single-score change is the case that catches nobody.** ~20 lines, parse the matrix, assert the sum; fold into `scripts/domain_log_check.py` at closeout.
+⚠️ **And write it against the VERDICT CELL, not the row** — my throwaway version counted `**FIRED` twice in the C5 row (state cell + verdict cell) and reported a false 2-of-6. **The check's own referent is the thing to get right**, which is the whole subject of the memory this came from.
+
 ### DATED, NEXT 30 DAYS
 **9/01 NIFC monthly outlook** — AEO-09 checkpoint (grading rule already disambiguated pre-data: **current-month panel; regional section governs over Exec Summary**) · **9/02 CSU two-week** (a cadence my folder had wrongly declared nonexistent — it cost me the 8/19 issue) · **9/10 CPC ENSO discussion + ONI print** · **~9/17 CPC monthly/seasonal outlooks** · **10/01 the 2027-28 Operating Guidelines take effect** · **C1 peak ~9/10.**
 
