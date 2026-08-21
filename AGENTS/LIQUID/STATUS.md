@@ -137,7 +137,7 @@
 
 ---
 
-## Durable Signals Log → `workbook/KB.tsv` (KB-LIQ-001..090)
+## Durable Signals Log → `workbook/KB.tsv` (KB-LIQ-001..094)
 
 Recent (full text in KB.tsv):
 - **090** — HY-breadth independent series: dead end SHARPENED. Named instrument (FINRA TRACE 52wk-High/Low, Bloomberg NTMBHH/NTMBHL) — terminal-gated, no free source found; sharpens KB-068's generic "TRACE auth-walled" note.
