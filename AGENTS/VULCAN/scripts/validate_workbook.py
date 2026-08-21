@@ -26,6 +26,7 @@ CHECKS
   · enum membership     — against SCHEMA `allowed_values`
   · type shape          — Date/Timestamp/Integer/Float
   · id format + uniqueness where an id pattern is declared
+  · CROSS-FILE score reconcile — VX.tsv vs STATUS matrix vs STATUS composite arithmetic
   · ERR: sentinels in series ledgers — REPORTED AS A COUNT (they are honest failures,
     not schema violations; a partial run is a FAILED run [L-16/L-20], so they surface)
 
@@ -157,6 +158,70 @@ def validate(only=None):
     return errs, warns, notes
 
 
+def score_reconcile():
+    """CROSS-FILE: VX.tsv scores vs STATUS.md's matrix vs STATUS's composite arithmetic.
+
+    ⚠️ WHY THIS EXISTS, and the provenance is embarrassing enough to be worth stating: on
+       2026-08-21 this desk wrote `MUST equal STATUS's matrix — STATUS is canonical` into
+       SCHEMA.tsv as the description of `VX.score`, and NOTHING CHECKED IT. That is a rule
+       with no mechanism — the exact class the validator around it was built that same
+       afternoon to kill, committed hours later by the same session. Wired while all three
+       surfaces AGREE, which is the only time you can trust a check you just wrote.
+
+    THREE surfaces, not two, because they fail in different ways:
+      · VX.tsv `score`          — the ledger
+      · STATUS matrix rows      — the narrative table a reader actually meets
+      · STATUS composite line   — `S1 3 · S2 3 · …`, the arithmetic
+    The matrix-vs-composite leg is not hypothetical: STATUS's composite footer read
+    "HELD 8/13" while its header said 8/21, and that sat there until a files audit found
+    it by eye. A footer that restates a total is a SECOND copy of the state.
+
+    STATUS is canonical. A mismatch never says which side is wrong on its own
+    (`finding_reconcile_mismatch_does_not_say_which_side_is_wrong`) — but VX is the
+    derived surface, so VX is where you look first.
+    """
+    import re
+    status = WB.parent / "STATUS.md"
+    out = []
+    if not status.exists():
+        return ["STATUS.md NOT FOUND — score reconcile is blind"], []
+    txt = status.read_text(encoding="utf-8")
+
+    vx = {}
+    for r in rows(WB / "VX.tsv"):
+        ch, sc = (r.get("channel") or "").strip(), (r.get("score") or "").strip()
+        if ch:
+            vx[ch] = sc
+
+    # matrix rows: | **S1** | <name> | **3 ...
+    matrix = {m.group(1): m.group(2) for m in
+              re.finditer(r"\|\s*\*\*(S[1-5])\*\*\s*\|[^|]*\|\s*\*\*([1-5])", txt)}
+    # composite arithmetic: S1 3 · S2 3 · ...
+    comp = {}
+    cm = re.search(r"(S1\s+[1-5](?:\s*·\s*S[2-5]\s+[1-5]){4})", txt)
+    if cm:
+        comp = dict(re.findall(r"(S[1-5])\s+([1-5])", cm.group(1)))
+
+    errs, warns = [], []
+    if not matrix:
+        warns.append("STATUS.md: could not parse the convergence matrix — reconcile UNGRADEABLE, "
+                     "not clean (a parse miss must never render as agreement)")
+        return errs, warns
+    if not comp:
+        warns.append("STATUS.md: could not parse the composite arithmetic line — that leg is UNGRADEABLE")
+
+    for ch in sorted(set(vx) | set(matrix) | set(comp)):
+        v, m, c = vx.get(ch), matrix.get(ch), comp.get(ch)
+        seen = {k: x for k, x in (("VX", v), ("matrix", m), ("composite", c)) if x is not None}
+        if len(set(seen.values())) > 1:
+            errs.append(f"{ch}: SCORE DISAGREEMENT " +
+                        " vs ".join(f"{k}={x}" for k, x in seen.items()) +
+                        "  <- STATUS is canonical; VX is derived, look there first")
+        elif v is None and (m or c):
+            warns.append(f"{ch}: in STATUS but has NO VX.tsv row")
+    return errs, warns
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--boot", action="store_true", help="terse one-line verdict")
@@ -167,6 +232,10 @@ def main():
         print("🔴 SCHEMA.tsv MISSING — nothing to validate against")
         return 2
     errs, warns, notes = validate(a.ledger)
+    if not a.ledger:
+        se, sw = score_reconcile()
+        errs += se
+        warns += sw
     n_led = len({r["ledger"] for r in rows(SCHEMA)})
 
     if a.boot:
@@ -176,7 +245,7 @@ def main():
         elif warns:
             print(f"  ⚠️ workbook: {len(warns)} warning(s), {n_led} ledgers validated")
         else:
-            print(f"  ✓ workbook: {n_led} ledgers validated clean against SCHEMA.tsv")
+            print(f"  ✓ workbook: {n_led} ledgers clean; VX/STATUS/composite scores reconcile")
         for n in notes:
             print(f"    ℹ️  {n}")
         return 2 if errs else (1 if warns else 0)

@@ -24,6 +24,7 @@ FLOW.tsv	mechanism	String		Yes	How the transmission works
 FLOW.tsv	to	String		Yes	Downstream node
 FLOW.tsv	state	String		Yes	⚠️ FREE PROSE, NOT AN ENUM despite the name. ⚠️ FLOW HAS NO date/as_of COLUMN, so a cell cannot signal its own staleness — a superseded figure must carry an INLINE never-use guard in the cell or it is not guarded at all
 FLOW.tsv	routes_to	String	Agent names, comma-separated	Yes	Which desks consume this pathway
+FLOW.tsv	as_of	Date	YYYY-MM-DD	Yes	Vintage of the `state` cell — the date it was last SUBSTANTIVELY updated. ⚠️ ADDED 2026-08-21: FLOW had NO date column for its whole life, so no row could signal its own staleness and nothing in the file would ever look old. Its own FL-VULCAN-01 cell had admitted this in prose. Adding the column immediately exposed FL-VULCAN-04 carrying a 40-day-old TSMC figure. ⚠️ Update this WHENEVER `state` changes — a fresh stamp over a stale body CERTIFIES it, which is worse than no stamp.
 PREDICTIONS.tsv	id	String	VULCAN-NN	Yes	Prediction id
 PREDICTIONS.tsv	made	Date	YYYY-MM-DD	Yes	Date registered
 PREDICTIONS.tsv	channel	Enum	S1|S2|S3|S4|S5	Yes	Channel under test
