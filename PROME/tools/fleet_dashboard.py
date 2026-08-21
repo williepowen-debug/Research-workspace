@@ -1095,7 +1095,7 @@ def build(today, now_iso):
 <style>{CSS}</style>
 <div class="bar">
   <h1>FLEET OPS · PROME</h1>
-  <span class="stamp mono">{esc(now_iso)} ET · HEARTBEAT base {esc(hb["base"])}</span>
+  <span class="stamp mono">{esc(now_iso)} ET · HEARTBEAT base {esc(hb["base"])} · <a href="https://claude.ai/code/artifact/ee088d08-bf26-48ab-bad2-7ee9155da12a">the Helm →</a></span>
   <span id="agebadge" data-generated="{esc(now_iso_utc)}">built just now</span>
   <div class="chips">
     {chip("ok" if env_rc == 0 else "crit", "env " + ("✓" if env_rc == 0 else "✗"))}
