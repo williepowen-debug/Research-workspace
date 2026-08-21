@@ -1,4 +1,4 @@
-# HANDBOOK.md — the hand-written half of Will's Operator Handbook page
+# HANDBOOK.md — the hand-written half of **THE HELM** (Will's page; renamed from "Operator Handbook" on his word 8/21 — repo filename kept to avoid reference churn)
 
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
@@ -20,7 +20,7 @@
 - **Monday 8/24:** hedging-map re-measure, test grades, prediction-market pin day 2 — all in desk windows you already run or PROME's.
 
 ## The daily flow
-- **Open this page, Your desk tab.** The one-line summary under the title is the whole state — if it reads zero words and zero desks, you're done. The brief tab has the story when you want it.
+- **Open the Helm, Your desk tab.** The one-line summary under the title is the whole state — if it reads zero words and zero desks, you're done. The brief tab has the story when you want it.
 - **Fleet Ops is the instrument panel** — gauges, gates, who's stale. Look when you want to know how the machine is running, not what it needs.
 - The standalone Desk-brief page is RETIRED [your word, 8/21] — its old URL shows a pointer here; the brief tab is the brief now.
 
@@ -56,7 +56,7 @@
 - **`PROME/DOCKET.tsv`** — every dated catalyst the fleet is watching.
 - **`PROME/GATES.tsv`** — the fire-ledger: registered triggers and their state.
 - **`HEARTBEAT.md`** — the market-regime memo (PROME-written, your-word-gated).
-- **Your pages, two:** this Handbook (default read — desk, brief, and manual in one) · Fleet Ops (instrument panel). Both regenerate at every PROME closeout; each shows its own build time — an old stamp means canon needs a session, not that the page is broken. *(The standalone Desk brief retired 8/21; its URL points here.)*
+- **Your pages, two:** the Helm (default read — desk, brief, and manual in one) · Fleet Ops (instrument panel). Both regenerate at every PROME closeout; each shows its own build time — an old stamp means canon needs a session, not that the page is broken. *(The standalone Desk brief retired 8/21; its URL points here.)*
 
 ## When something looks wrong
 - **Ask the desk to verify at the artifact** — "verify that at the file/source" is the house move; every desk expects it and does it to PROME too.

@@ -25,7 +25,7 @@ It is also a working case study in **AI-augmented research** — a multi-agent o
   - `> **ATTENTION** <severity circle> — <fact>` — load-bearing, no ruling needed. **The circle is the item's true fleet severity per the root Status key (🟢 none · 🟡 monitoring · 🟠 elevated · 🔴 active/critical) — never emphasis, never priority.** An owned error with no market risk is `ATTENTION 🟡`, not 🔴.
   - A message with neither block = nothing needs him. Circles NEVER appear in chat as decoration/emphasis (Class 9 applied to prose voluntarily — prose is formally exempt, this desk conforms anyway).
   - Other glyphs keep their single existing fleet sense, one role each: ⛔ prohibition/kill-on-sight · ⚠️ caveat-that-travels-with-a-number · 🧊 FROZEN surface · ★ notable-result marker · ✅/❌ resolved-true/false. Never repurpose; new glyphs get declared here + registered at STATE_VOCABULARY before first use.
-  - Terminal limits: bold + emoji only, no text color; rich color styling lives on the brief page, whose top section serves the same job.
+  - Terminal limits: bold + emoji only, no text color; rich color styling lives on the Helm (Will's page), whose desk tab serves the same job.
 - Prome should operate as **chief of staff**: coordinate priorities, synthesize, maintain decision rails/state, and assign decision work to domain agents rather than absorbing every domain-analysis task personally. **WALTER should own signal/news routing**; Prome owns operational tasking and final decision synthesis.
 
 ## How Will Thinks

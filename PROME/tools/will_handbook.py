@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-will_handbook.py — Will's Operator Handbook page (the third Will-facing page).
+will_handbook.py — THE HELM (renamed from "Operator Handbook", Will's word 2026-08-21
+— the page outgrew the name once the brief moved in; same URL, same favicon 📖 for
+tab continuity). Will's command seat: desk · brief · manual.
 
 Renders PROME/HANDBOOK.md (hand-written manual + curated priorities) plus two
 GENERATED live sections — Waiting on you (WILL_QUEUE) and The clock (DOCKET) —
@@ -346,13 +348,13 @@ def render(sections, dec, chore, dates, brief_tab_html):
     live_dec = [d for d in dec if not d["blocked"] and not re.search(r"✅|RULED", d["item"])]
     inflight = [d for d in dec if d not in live_dec]
 
-    h = ["<title>Operator Handbook</title>", f"<style>{CSS}</style>", "<div class='wrap'>"]
+    h = ["<title>The Helm</title>", f"<style>{CSS}</style>", "<div class='wrap'>"]
     n_w, n_s = len(live_dec), len(spawns)
     summary = (f"{n_w} word{'s' if n_w != 1 else ''} needed · "
                f"{n_s} desk{'s' if n_s != 1 else ''} to spawn")
     h.append(
-        "<header class='mast'><div class='eyebrow'>PROME · field manual</div>"
-        "<h1>Operator Handbook</h1>"
+        "<header class='mast'><div class='eyebrow'>PROME · the operator's seat</div>"
+        "<h1>The Helm</h1>"
         f"<div class='sum'>{html.escape(summary)}</div>"
         "<div class='clocks'>"
         f"<span>rebuilt {now:%b %-d, %-I:%M %p} ET</span>"
