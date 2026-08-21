@@ -23,6 +23,9 @@ MARCO_DIR = Path(__file__).resolve().parent.parent
 STATUS_MD = MARCO_DIR / "STATUS.md"
 VX_TSV = MARCO_DIR / "workbook" / "VX.tsv"
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from tsvutil import read_tsv, col, cell  # noqa: E402
+
 DEFAULT_STATUS_DAYS = 7
 DEFAULT_VX_DAYS = 60
 
@@ -87,46 +90,49 @@ def check_vx(today, max_days):
     """
     if not VX_TSV.exists():
         return ["  ❌ workbook/VX.tsv not found"]
-    with open(VX_TSV) as f:
-        header = f.readline().rstrip("\n").split("\t")
-    try:
-        lu_idx = header.index("Last Updated")
-    except ValueError:
-        lu_idx = -1  # last column fallback
-    st_idx = header.index("Status") if "Status" in header else None
+
+    # Banner-tolerant read (PAT-044 two-clock header). The two naive skips both
+    # fail SILENTLY on a bannered file — `readline()` makes the banner the header
+    # so every column lookup misses, and `next(f)` counts the real header row as a
+    # vector, inflating the denominator by one. See scripts/tsvutil.py.
+    header, data = read_tsv(VX_TSV)
+    lu_idx = col(header, "Last Updated")
+    st_idx = col(header, "Status")
+    if lu_idx == -1 or st_idx == -1:
+        # Fail LOUD. The old code fell back to "last column" here, which is exactly
+        # how a mis-read header turns into a confident wrong answer instead of an error.
+        return [f"  ❌ workbook/VX.tsv — expected columns not found "
+                f"(Last Updated={lu_idx}, Status={st_idx}); header parsed as "
+                f"{header[:3]}... — check for a malformed banner before trusting any VX count"]
 
     stale, loaded, scheduled, dead = [], [], [], 0
     total = 0
-    with open(VX_TSV) as f:
-        next(f)
-        for line in f:
-            parts = line.rstrip("\n").split("\t")
-            if len(parts) < 2 or not parts[0].strip():
-                continue
-            total += 1
-            status = (parts[st_idx] if st_idx is not None and st_idx < len(parts) else "").strip()
-            if any(status.upper().startswith(t) for t in DEAD_TOKENS):
-                dead += 1
-                continue                       # deliberately not maintained — age is by design
-            cell = parts[lu_idx] if -len(parts) <= lu_idx < len(parts) else ""
-            d = parse_iso(cell)
-            if d is None:
-                continue
-            age = (today - d).days
-            if age > max_days:
-                value = parts[4] if len(parts) > 4 else ""
-                rec = (age, parts[0], parts[1] if len(parts) > 1 else "", d, status)
-                stale.append(rec)
-                # A row on a declared cadence (annual Census/CBO) or with no live
-                # instrument is stale BY DESIGN — surfacing it every boot beside real
-                # rot is what turns the alert into noise, and an ignored alert is how
-                # session 18 happened. It stays in the total; it leaves the 🔴 list.
-                by_design = ("STALE BY DESIGN" in value.upper()
-                             or "NO PRIMARY" in value.upper())
-                if by_design:
-                    scheduled.append(rec)
-                elif any(status.upper().startswith(s) for s in LOADED_STATUSES):
-                    loaded.append(rec)
+    for parts in data:
+        if len(parts) < 2:
+            continue
+        total += 1
+        status = cell(parts, st_idx).strip()
+        if any(status.upper().startswith(t) for t in DEAD_TOKENS):
+            dead += 1
+            continue                       # deliberately not maintained — age is by design
+        d = parse_iso(cell(parts, lu_idx))
+        if d is None:
+            continue
+        age = (today - d).days
+        if age > max_days:
+            value = cell(parts, col(header, "Current Value"))
+            rec = (age, parts[0], parts[1] if len(parts) > 1 else "", d, status)
+            stale.append(rec)
+            # A row on a declared cadence (annual Census/CBO) or with no live
+            # instrument is stale BY DESIGN — surfacing it every boot beside real
+            # rot is what turns the alert into noise, and an ignored alert is how
+            # session 18 happened. It stays in the total; it leaves the 🔴 list.
+            by_design = ("STALE BY DESIGN" in value.upper()
+                         or "NO PRIMARY" in value.upper())
+            if by_design:
+                scheduled.append(rec)
+            elif any(status.upper().startswith(s) for s in LOADED_STATUSES):
+                loaded.append(rec)
 
     out = []
     if loaded:

@@ -19,6 +19,9 @@ import re
 import sys
 from datetime import datetime, timedelta
 from pathlib import Path
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from tsvutil import read_tsv  # noqa: E402
 
 MARCO_DIR = Path(__file__).resolve().parent.parent
 CATALYSTS_TSV = MARCO_DIR / "docket" / "CATALYSTS.tsv"
@@ -38,14 +41,14 @@ def load_catalysts():
     if not CATALYSTS_TSV.exists():
         return None
     rows = []
-    with open(CATALYSTS_TSV) as f:
-        header = f.readline().rstrip("\n").split("\t")
-        for line in f:
-            parts = line.rstrip("\n").split("\t")
-            if len(parts) < 2 or not parts[0].strip():
-                continue
-            d = dict(zip(header, parts + [""] * (len(header) - len(parts))))
-            rows.append(d)
+    # Banner-tolerant (PAT-044). Not currently bannered, but the naive readline()
+    # form fails SILENTLY the day it is — see scripts/tsvutil.py.
+    header, data = read_tsv(CATALYSTS_TSV)
+    for parts in data:
+        if len(parts) < 2:
+            continue
+        d = dict(zip(header, parts + [""] * (len(header) - len(parts))))
+        rows.append(d)
     return rows
 
 

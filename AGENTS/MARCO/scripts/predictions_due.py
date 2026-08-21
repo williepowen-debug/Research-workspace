@@ -24,6 +24,9 @@ import re
 import sys
 from datetime import datetime, date
 from pathlib import Path
+import sys as _sys
+_sys.path.insert(0, str(Path(__file__).resolve().parent))
+from tsvutil import read_tsv_numbered  # noqa: E402
 
 MARCO_DIR = Path(__file__).resolve().parent.parent
 PREDICTIONS_TSV = MARCO_DIR / "thesis" / "PREDICTIONS.tsv"
@@ -132,34 +135,35 @@ def load_predictions():
         return None
     rows = []
     PRED_SCHEMA_WARNINGS.clear()
-    with open(PREDICTIONS_TSV) as f:
-        header = f.readline().rstrip("\n").split("\t")
-        nc = len(header)
-        for ln, line in enumerate(f, start=2):
-            parts = line.rstrip("\n").split("\t")
-            if len(parts) < 2 or not parts[0].strip():
-                continue
-            if len(parts) != nc:
-                PRED_SCHEMA_WARNINGS.append(
-                    f"line {ln} ({parts[0]}): {len(parts)} fields vs {nc}-col header "
-                    f"— padded to parse; fields after the gap sit under the WRONG key")
-            row = dict(zip(header, parts + [""] * (nc - len(parts))))
-            # An OPEN prediction cannot have an outcome; a resolved one must.
-            st = row.get("Status", "").strip().upper()
-            has_out = bool(row.get("Outcome", "").strip())
-            if st == "OPEN" and has_out:
-                PRED_SCHEMA_WARNINGS.append(
-                    f"line {ln} ({parts[0]}): Status=OPEN but Outcome is populated "
-                    f"— usually means notes landed in the Outcome column")
-            elif st and st != "OPEN" and not has_out:
-                PRED_SCHEMA_WARNINGS.append(
-                    f"line {ln} ({parts[0]}): Status={st} but Outcome is EMPTY "
-                    f"— a resolved prediction with no recorded outcome cannot be scored")
-            if any('""' in v for v in parts):
-                PRED_SCHEMA_WARNINGS.append(
-                    f'line {ln} ({parts[0]}): doubled quotes — CSV-quoting artifact '
-                    f'leaked into a TSV; collapse "" to "')
-            rows.append(row)
+    # Banner-tolerant (PAT-044), and TRUE file line numbers are preserved because
+    # every warning below cites one — a re-based number sends the operator to an
+    # innocent row, which is worse than no warning. See scripts/tsvutil.py.
+    header, data = read_tsv_numbered(PREDICTIONS_TSV)
+    nc = len(header)
+    for ln, parts in data:
+        if len(parts) < 2:
+            continue
+        if len(parts) != nc:
+            PRED_SCHEMA_WARNINGS.append(
+                f"line {ln} ({parts[0]}): {len(parts)} fields vs {nc}-col header "
+                f"— padded to parse; fields after the gap sit under the WRONG key")
+        row = dict(zip(header, parts + [""] * (nc - len(parts))))
+        # An OPEN prediction cannot have an outcome; a resolved one must.
+        st = row.get("Status", "").strip().upper()
+        has_out = bool(row.get("Outcome", "").strip())
+        if st == "OPEN" and has_out:
+            PRED_SCHEMA_WARNINGS.append(
+                f"line {ln} ({parts[0]}): Status=OPEN but Outcome is populated "
+                f"— usually means notes landed in the Outcome column")
+        elif st and st != "OPEN" and not has_out:
+            PRED_SCHEMA_WARNINGS.append(
+                f"line {ln} ({parts[0]}): Status={st} but Outcome is EMPTY "
+                f"— a resolved prediction with no recorded outcome cannot be scored")
+        if any('""' in v for v in parts):
+            PRED_SCHEMA_WARNINGS.append(
+                f'line {ln} ({parts[0]}): doubled quotes — CSV-quoting artifact '
+                f'leaked into a TSV; collapse "" to "')
+        rows.append(row)
     return rows
 
 
