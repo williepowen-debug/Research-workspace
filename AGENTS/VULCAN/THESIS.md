@@ -126,6 +126,44 @@ WATT's two seam datums [WATT STATUS P3 row, KB-WATT-012..014]: **PJM-official 32
 
 **Repricing:** the semi-supply consequence of ZHAO's China events + HAWK's Taiwan geopolitics. **First pull (2026-07-12):** TSMC May'26 monthly revenue +30.1% YoY (record) — no chokepoint stress on the revenue line; ~~June print delayed to 7/13/26 (typhoon), VULCAN-05 resolves there.~~ ⚠️ **RESOLVED — VULCAN-05 HIT 7/17** (June NT$442.68B, +6.2% MoM; ⚠️ cite **H1 +35.6% YoY**, NOT the +67.9% headline, which is a base effect off a June-2025 trough). **🆕 CURRENT READ, pulled 2026-08-21 — the section above is the 7/12 record, not the live number: TSMC July 2026 revenue NT$467,580M, +5.6% MoM, +44.7% YoY; Jan-Jul +37.0% YoY** (up from H1's +35.6% — a mild acceleration) [**SEC 6-K acc `0001046179-26-000471`, filed 8/10**, own EDGAR pull]. **S4 revenue line clean; NOT-FIRED. Next print ~2026-09-10 — this is a MONTHLY series and must be pulled monthly** (it sat 5 weeks stale through two sessions; the reassuring number is why nobody noticed). [KB-100] **The export-control picture is NOT simply tightening** — it is genuinely two-sided: the US *eased* (BIS approved H200 sales to China 1/13/26, ~10 buyers cleared by 5/14/26, though paired with a 25% tariff), while Taiwan is *tightening* from the other end — weighing a Foreign Trade Act amendment to criminalize unauthorized AI-chip exports to all of China (undated), with a first concrete enforcement event 7/1/26 (Keelung court detained 3 Super Micro/Albatron execs — Taiwan's first criminal AI-chip-diversion probe). No fixed-date resolver exists for the Taiwan legislative side; monitoring item. Kinetic Taiwan = HAWK cross-flag; China macro = ZHAO — **route-out: neither may have this dated 7/1 event logged from the semiconductor angle.**
 
+### 🆕 2026-08-21 — S4 IS INSTRUMENTED, AND IT NOW HAS 20 MONTHS OF RETAINED HISTORY
+
+*Added at closeout step 2b. ⚠️ **This is an ADDITION, not a correction** — the three 2b
+questions were run against this section and it contradicted nothing: stage 3's "open; TSMC
+revenue shows no stress yet" agrees with STATUS, VULCAN-05 was already struck as resolved,
+and the 7/12 May'26 +30.1% first-pull figure is reproduced exactly by the new series. The
+section was thin, not wrong.*
+
+**`tools/tsmc_watch.py` → `workbook/S4_SERIES.tsv`** — TSMC monthly revenue from its own SEC
+Form 6-K (issuer-primary, CIK 0001046179), 20 months backfilled Dec-2024 → Jul-2026, every
+row validated by three zero-free-parameter recomputations. **S4 previously had no instrument
+and no retained history at all** — which is why it was found **35 days stale on a MONTHLY
+series** on 2026-08-21.
+
+**What the history says, and it could not be said before today:**
+
+| | 2025 | 2026 YTD |
+|---|---|---|
+| Cumulative YoY path | **43.5 → 31.6** — monotone decel, 8 consecutive months | **36.8 → 29.9 → 35.1 → 29.9 → 30.0 → 35.6 → 37.0** — oscillating, no run >1 |
+| Shape | a genuine decelerating year | **choppy, and RE-ACCELERATING into July** |
+
+🔑 **The read: 2026's cumulative +37.0% now sits ABOVE full-year 2025's +31.6%. The
+deceleration that ran through all of 2025 did not continue — it reversed.** S4's revenue line
+is not merely "clean", it is **re-accelerating**, which strengthens the NOT-FIRED verdict
+rather than just failing to contradict it. ⚠️ **Cite the cumulative** — monthly YoY ranges
+**16.9% to 67.9%** across these 20 observations (a 51pp spread), so any single month's YoY is
+close to meaningless on its own. That spread is the quantified version of the standing
+"June's +67.9% was a base artifact" warning.
+
+⚠️ **Two instrument caveats that belong with the read, not buried in the tool:**
+- **The RED band (monthly YoY < 0) has occurred 0 times in 20 months.** It is *reachable*
+  (proven by fixture 8/21) but **unobserved in-sample**, so it carries no base rate. Do not
+  present its silence as evidence of stability.
+- **The YELLOW `decel` band fires 7/20 (35%)** even after being tightened to require 2+
+  consecutive months. It is honest — TSMC really did decelerate for most of 2025 — but a
+  band lit a third of the time is a "look", never an "act". The actionable bands are
+  **flat** and **decline**.
+
 ## S5 — AI-infra financing — **PROMOTED tier-2 → CORE 2026-08-03** (Will-approved)
 
 | Stage | Mechanism | State |

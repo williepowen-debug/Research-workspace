@@ -6,7 +6,7 @@ Built by DAEDALUS 2026-07-10 (VULCAN build). cwd-proof + self-locating: lives at
 AGENTS/VULCAN/boot.py -> parents[2] == repo root; finds scripts/ledger_staleness.py
 regardless of launch cwd.
 
-Boot step 4 in CLAUDE.md. Four legs:
+Boot step 4 in CLAUDE.md. SIX legs:
   1. ledger staleness — workbook/*.tsv AND TRADE.md vs STATUS mtime (shared script).
   2. predictions-due  — workbook/PREDICTIONS.tsv rows past resolve_date still OPEN.
   3. S2 series age    — workbook/S2_SERIES.tsv vintage, CONTENT-derived from the
@@ -20,13 +20,33 @@ Boot step 4 in CLAUDE.md. Four legs:
      (index weights move slowly; SPY publishes daily but the number does not move
      daily) — see MAG7_MAX_AGE_DAYS.
 
+  5. S4 series age    — workbook/S4_SERIES.tsv vintage, CONTENT-derived from the row's
+     own revenue_month. Added 2026-08-21. ⚠️ Its bound is derived from TSMC's PUBLICATION
+     CADENCE, not inherited: TSMC files a 6-K ~the 10th for the PRIOR month, so the leg
+     computes which month SHOULD be on file today and compares — it does not count days.
+     Why S4 first among the three uninstrumented channels: on 2026-08-21 S4 was found 35
+     DAYS STALE ON A MONTHLY SERIES, and the same audit found that the only two channels
+     that stayed clean all day were the two that had instruments.
+  6. catalyst countdown — scripts/catalyst_countdown.py: ONE reader over docket/
+     CATALYSTS.tsv + PREDICTIONS.resolve_date + PROME/DOCKET rows VULCAN OWNS, plus a
+     read-only scan of NEIGHBOURS' registries for rows naming VULCAN. Added 2026-08-21
+     because boot's only date leg read PREDICTIONS.tsv, which by design holds VULCAN-NN
+     MARKET forecasts — so 7 of 10 dated commitments had NO surfacing mechanism at all.
+
+⚠️ S3 and S5 STILL HAVE NO SERIES INSTRUMENT, and that is a DECISION, not an omission:
+   both channels' registered thresholds are EVENT-triggered (a cleared new-issue vs talk,
+   a collateral posting, a FERC order), not cadence-sampled. Building a daily price proxy
+   for them would resolve something other than the concept the threshold names
+   (`finding_registry_names_a_concept_tool_resolves_an_instrument`). They are covered by
+   leg 6 instead — dated-event coverage, which is the shape their evidence actually has.
+
 Combined exit: 0 = quiet · 1 = REVIEW (stale ledger or prediction due) · 2 = a leg failed.
 """
 
 import csv
 import subprocess
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -41,6 +61,12 @@ MAG7_SERIES = HERE / "workbook" / "MAG7_SERIES.tsv"
 # inside the 6-WEEK rot that made this instrument necessary — 21d catches that class
 # twice over. (`finding_inherited_default_threshold_is_a_silent_decision`)
 MAG7_MAX_AGE_DAYS = 21
+S4_SERIES = HERE / "workbook" / "S4_SERIES.tsv"
+# TSMC files the monthly revenue 6-K around the 10th for the PRIOR month. The leg
+# therefore reasons in MONTHS, never in days: a day-count bound on a monthly series is
+# either permanently noisy or permanently asleep.
+S4_FILING_DAY = 12  # by this day of the month, the prior month should be on file
+CATALYST_SCRIPT = HERE / "scripts" / "catalyst_countdown.py"
 
 
 def run(cmd):
@@ -186,9 +212,73 @@ def mag7_series_age():
     return 0, f"  \u2713 MAG7 series fresh ({age}d, {len(rows)} rows, holdings as-of {vintage}){note}"
 
 
+def _expected_revenue_month(today):
+    """Which month-end SHOULD be on file today, given TSMC's ~10th-of-month cadence."""
+    y, m = today.year, today.month
+    back = 1 if today.day >= S4_FILING_DAY else 2
+    for _ in range(back):
+        m -= 1
+        if m == 0:
+            m, y = 12, y - 1
+    nxt = date(y + (m == 12), (m % 12) + 1, 1)
+    return date(y, m, 1), (nxt - timedelta(days=1))
+
+
+def s4_series_age():
+    """Leg 5 — S4 TSMC monthly-revenue series, CONTENT-derived from revenue_month.
+
+    Returns (rc, message). rc 0 = fresh · 1 = a print is missing (REVIEW) · 2 = unreadable.
+    Like legs 3-4 it does NOT fetch; it tells you to run tools/tsmc_watch.py.
+    """
+    if not S4_SERIES.exists():
+        return 1, ("  S4 series ABSENT — run: .venv/bin/python AGENTS/VULCAN/tools/tsmc_watch.py\n"
+                   "    (S4 is S1's cleanest INDEPENDENT root and had no retained history at all.)")
+    try:
+        rows = list(csv.DictReader(S4_SERIES.open(encoding="utf-8"), delimiter="\t"))
+        if not rows:
+            return 1, "  S4 series is header-only — run tools/tsmc_watch.py"
+        latest = max(r["revenue_month"] for r in rows)
+        have = datetime.strptime(latest, "%Y-%m-%d").date()
+    except Exception as e:  # noqa: BLE001
+        return 2, f"  S4 series UNREADABLE ({type(e).__name__}) — inspect workbook/S4_SERIES.tsv"
+
+    _, want = _expected_revenue_month(date.today())
+    if have < want:
+        missed = (want.year - have.year) * 12 + (want.month - have.month)
+        return 1, (f"  S4 series BEHIND by {missed} month(s) — have {have:%b %Y}, "
+                   f"{want:%b %Y} should be filed by now.\n"
+                   f"    run: .venv/bin/python AGENTS/VULCAN/tools/tsmc_watch.py\n"
+                   f"    ⚠️ S4 rotted 35d on this exact series once, because nothing pulled it.")
+    last = sorted(rows, key=lambda r: r["revenue_month"])[-1]
+    note = ""
+    if str(last.get("band", "")).startswith(("red", "orange")):
+        note = f"\n    🔴 last band = {last['band']} — S4's revenue line is NOT clean; read it."
+    return 0, (f"  ✓ S4 series current ({len(rows)} rows, latest {have:%b %Y}, "
+               f"cum YoY {last['ytd_yoy_pct']}%, band {last['band']}){note}")
+
+
+def catalyst_countdown():
+    """Leg 6 — dated commitments across CATALYSTS + PREDICTIONS + DOCKET + neighbours."""
+    if not CATALYST_SCRIPT.exists():
+        return 2, "  🔴 scripts/catalyst_countdown.py MISSING — every dated commitment is unsurfaced"
+    py = ROOT / ".venv" / "bin" / "python"
+    cmd = [str(py if py.exists() else sys.executable), str(CATALYST_SCRIPT)]
+    try:
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+    except Exception as e:  # noqa: BLE001
+        return 2, f"  🔴 catalyst countdown FAILED to run ({type(e).__name__})"
+    out = (r.stdout or "").rstrip("\n")
+    # the script prints its own header; strip it so boot owns the numbering
+    out = "\n".join(l for l in out.splitlines() if not l.startswith("--- 5."))
+    if r.returncode == 2:
+        return 2, out + "\n  🔴 countdown reported a BLIND registry — do not read as quiet"
+    return (1 if r.returncode == 1 else 0), out
+
+
+
 def main():
     print("=" * 72)
-    print("  VULCAN BOOT — ledger staleness · predictions-due · S2 + S1 series")
+    print("  VULCAN BOOT — staleness · predictions · S1/S2/S4 series · catalysts")
     print("=" * 72)
     rcs = []
 
@@ -220,6 +310,16 @@ def main():
     m7_rc, m7_msg = mag7_series_age()
     print(m7_msg)
     rcs.append(m7_rc)
+
+    print("\n--- 5. S4 TSMC monthly-revenue series (content-vintage) ---")
+    s4_rc, s4_msg = s4_series_age()
+    print(s4_msg)
+    rcs.append(s4_rc)
+
+    print("\n--- 6. catalyst countdown (dated commitments, all sources) ---")
+    cc_rc, cc_msg = catalyst_countdown()
+    print(cc_msg)
+    rcs.append(cc_rc)
 
     print("\n" + "=" * 72)
     if 2 in rcs:

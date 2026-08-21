@@ -1,5 +1,43 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> ## ▶ 2026-08-21 PART 4 (Will-directed) — **TIER 2 CLOSED (the build half).** Tier 3 hygiene remains. **The headline is that my own new instrument was blind to every bearish month, and it looked clean while being so.**
+>
+> ### ▶▶ START HERE NEXT SESSION
+> 1. **🔴 NVDA REPORTS WEDNESDAY 2026-08-26 — this is the near-clock S1 test and it is 3 trading days out.** The **capex guide lands at the CALL**, not the 8/31 10-Q. Both dates are registered with their roles stated. `boot.py` leg 6 will surface them; **read it, don't skip it as boot noise.** ⚠️ Remember the S1 semantics: NVDA's own print is a **READ-THROUGH, not a trigger** — S1's band is on the *hyperscaler* guide.
+> 2. **🟡 TIER 3 — hygiene, untouched and now the only Tier left:** `TRADE.md`'s 4-row candidate table beside prose reading "fired-count 0 of 5" (**S3 silently absent** — if that's deliberate because the expression is WATT's, SAY so in the table) · `SCHEMA.tsv` documents KB.tsv only, **6** other ledgers now undocumented (S4_SERIES is new) · `inbox/WALTER/processed/` is a second processed dir against the flat-folder spec.
+> 3. **⏳ AWAITING, no clock, nothing blocked:** NEXUS on the amendment-9 revert (**do NOT rebuild the brief unilaterally**) · **DAEDALUS 8/28 sweep** — it carries MY registered falsifying test on the transport-gap finding **and** the PREDICTIONS schema-casing question. **Row 2026-08-28 is in `docket/CATALYSTS.tsv` so I actually go read the answer.**
+>
+> ### 🔑 THE FINDING THAT MATTERS, AND IT IS AGAIN ABOUT MY OWN INSTRUMENT
+> **`tsmc_watch.py` v1 could not parse a declining month.** TSMC renders negatives in **accounting parentheses** — `(1.1)`, not `-1.1`. 8 of 16 months failed on the first backfill. **Three properties compounded, and the third is the one to carry forward:**
+> - ① **S4's RED band IS "decline."** An instrument that cannot represent a decline, grading a channel whose red band is decline, is **untrippable by construction** — the same defect `mag7.py` v1 had on its breadth leg, here on the **sign**.
+> - ② **The loss was not random — it discarded precisely the bearish observations** and kept every benign one. L-16 says a partial run is a failed run *because the broken leg carries the newest evidence*; this is the sharper form: **a partial run can be BIASED TOWARD PRESERVING YOUR PRIORS.**
+> - ③ **It announced its own failures and that made it MORE dangerous, not less.** Eight loud `🔴 ERR` lines scrolled past under a `→ 8 rows appended` success line. **A fail-loud tool that also half-succeeds launders the half that survived** — the honest error count is what made the survivors feel verified. ⇒ **L-20. Before trusting any band parser, run it on a period where the metric went the WRONG WAY.**
+> - **All 8 dropped, 20/20 re-pulled clean.** Do not "recover" the original 8 from git — they were never trustworthy.
+>
+> ### What got built (all committed, all in a loop)
+> - **`tools/tsmc_watch.py` → `workbook/S4_SERIES.tsv`** — S4 instrumented for the first time. SEC 6-K issuer-primary (CIK 0001046179, **the same accession STATUS already cited by number**). 20 months backfilled. **3 zero-free-parameter validations per row** (MoM/YoY/cum-YoY recomputed vs the filing's own stated percentages; worst error 0.047pp); refuses to write on mismatch.
+> - **`docket/CATALYSTS.tsv` + `docket/README.md` + `scripts/catalyst_countdown.py`** — the dated-commitment rail. **`boot.py` 4 legs → 6.**
+> - **`PREDICTIONS.tsv` gained `anchor_type`.** All 12 rows are `publication` ⇒ **zero discriminating power today, said out loud.** 🔴 **VULCAN-12 is the sharpest case: MU FQ4 is its SOLE resolver on BOTH branches; a one-day slip past 9/30 makes it ungradeable at its resolve date.** Registered in advance, not re-worded to pass.
+>
+> ### ⚖️ I base-rated my own band and it failed
+> `decel` on a single month-over-month cumulative fall fired **10/20 = 50%.** A yellow lit half the time carries no information. 2025 was a real 8-month decel run; **2026 oscillates**, so a 1-month test conflates trend with noise. Tightened to **2+ consecutive** (50% → **35%** → 30% at N=3): **N=2 kills both 2026 false fires and keeps 7 of 8 real 2025 months.** N=2 is **principled, not fitted** — my own discipline already says *"'sustained' always carries N+ sessions."* ⚠️ **35% is still a "look", never an "act."** And **RED has occurred 0/20 — reachable (fixture-proven) but with NO base rate; its silence is not stability.**
+>
+> ### The asking paid off twice, and the porting paid off twice
+> - **DAEDALUS:** a canonical 8-col schema landed **that morning** (ZHAO's build, `de9f1b441`) — I'd have invented a third schema by about an hour. **8/28 now RATIFIES this desk instead of migrating it.** **PROME** independently confirmed the architecture and **warned me off OTTO's fork (mtime-keyed look-back, INERT on a synced desk).** ⇒ **L-19 held: I travelled the pointer instead of inheriting it.**
+> - **Porting exposed two defects** — the argument for porting over reinventing. ① the donor matches its own name **anywhere in the row**; on DOCKET that over-matched me **2×** (14 mention / **7** own). Fixed to owner-field, mentions **counted not dropped**, reported back. ② a PREDICTIONS **casing** divergence (`resolve_date` vs `Resolve_By`) left **deliberately unrenamed** — same concept, a second column is duplicate state, and **7 of 12 rows are frozen graded artifacts.** Reader made tolerant; **conform on a ruling, not a guess.**
+>
+> ### ⚠️ The test I got WRONG, recorded because it nearly passed
+> My **first** attempt to prove the neighbour-scan leg could fire was **invalid**: I deleted NVDA from `CATALYSTS.tsv`, saw no output, and almost banked "works." **DOCKET still carried the date**, so the silence meant *correctly covered*, not *inert*. Re-tested against an emptied register — it found exactly the 2 known rows. **`finding_guard_correctness_and_wiring_are_independent`, caught on myself, hours after using it on someone else's tool.**
+>
+> ### 🏁 CLOSEOUT — steps run, outcomes logged
+> - **2b (THESIS): ADDITION, not a correction.** All three 2b questions run against S4: stage 3 agrees with STATUS, VULCAN-05 already struck, and the 7/12 May'26 +30.1% first-pull figure is **reproduced exactly** by the new series. The section was thin, not wrong.
+> - **2c (CATALYSTS) — NEW STEP, and it exists because of this session's own lesson.** The register went into a loop **the same session it was built**: boot step 5 reads it, closeout 2c reconciles it. The two surfaces that rotted here rotted **because they were in neither loop.**
+> - **4b (CLAUDE.md): FIRED ×3.** Q① the THRESHOLDS table carried three undefined words (*decel/flat/decline*) with no operational definition — now defined and matched to the instrument. Q② five new surfaces unnamed. Q③ the channel-liveness step still said **S1–S4** though **S5 has been core since 8/3** — 18 days.
+> - **STATUS hit its own <250 cap (250) on the pass-7 write** ⇒ 8/13 + 8/3 records **moved, not deleted**, to the frozen archive. 244 lines.
+> - **Falsification check RUN: thesis-kill still 1 of 3.** No market data moved, so no leg could move. **Rewrite trigger NOT due** (earliest MU FQ4 ~9/29) — and that rewrite is now a **registered CATALYSTS row** rather than a line of prose.
+> - **CHECK 1 (weld class): still n=4** — no new instance today. **L-20 is a NEW class, not a weld instance.**
+
+
 > ## ▶ 2026-08-21 PART 3 (Will-directed, fresh window) — SYSTEM/FILES AUDIT #2. Tier 1 CLOSED. **The headline is that I restructured a file governed by another desk's schema without reading it.**
 >
 > ### ▶▶ START HERE NEXT SESSION — the audit is HALF DONE and the remaining half is the half with leverage
