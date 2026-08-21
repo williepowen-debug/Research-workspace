@@ -1,7 +1,7 @@
 # BOND Monitor — Dealer Capacity / Absorption
 
 **Owner:** BOND
-**Last Updated:** 2026-08-18 by BOND — **staleness sweep. 3 prints recovered (7/22, 7/29, 8/05); the benign reading is now CONFIRMED by the August refunding rather than assumed.** ⚠️ **And a contradiction inside this file is fixed: the 7/28 header announced "the record has unwound" while the *Current Read* section below still said vector 3, fresh record highs, 4-trigger ARMED — the header was corrected and the body was not.** *(That is the third instance of this exact shape found today: `thesis/THESIS.md` v1.1.3 did it with the falsifier apparatus, its status line did it with this same dealer record, and this monitor did it here. **Updating a header is not updating a document.**)* *(Prior: 2026-07-28 — gap closed.)*
+**Last Updated:** 2026-08-21 by BOND — ★ **NEW PRINT: the 8/12 as-of landed, and it is the refunding week itself.** Long-end total **$149.2B** (11–21Y **$61.2B**, >21Y 48.6B, 7–11Y 39.3B); peak-to-current **−14.8%** (from 175.0B, 6/24) and **−20.9%** on 11–21Y (from 77.4B). **Second consecutive 11–21Y decline (−$2.9B); long-end total −$0.8B w/w.** ★ **THE READ IS THE STRONGEST FORM BENIGN DISTRIBUTION HAS TAKEN: this is the week of the $125B August refunding — dealers ran long-end inventory DOWN THROUGH the quarter's largest supply event, and that refunding cleared with indirect at/above trailing-12 median at ALL THREE tenors and dealers at or below median.** The monitor's own discriminator requires **weak auctions and/or SOFR−IORB positive** for the forced-de-risking branch: the auctions were firm and **SOFR−IORB is −2bp [8/20]** (the +1bp of 8/17 fully reversed). ⇒ **Distribution is now confirmed THROUGH a supply test, not merely around one. Vector HOLDS at 2 — no build, so the 'two consecutive weekly builds' upgrade leg (instrument = long-end TOTAL, named 2026-08-18) is nowhere.** *(Prior header:)* 2026-08-18 by BOND — **staleness sweep. 3 prints recovered (7/22, 7/29, 8/05); the benign reading is now CONFIRMED by the August refunding rather than assumed.** ⚠️ **And a contradiction inside this file is fixed: the 7/28 header announced "the record has unwound" while the *Current Read* section below still said vector 3, fresh record highs, 4-trigger ARMED — the header was corrected and the body was not.** *(That is the third instance of this exact shape found today: `thesis/THESIS.md` v1.1.3 did it with the falsifier apparatus, its status line did it with this same dealer record, and this monitor did it here. **Updating a header is not updating a document.**)* *(Prior: 2026-07-28 — gap closed.)*
 
 > ## ✅ RESOLVED 2026-07-28 — it was never an access problem
 >
@@ -20,6 +20,10 @@
 > | 2026-07-01 | 40.7 | 73.3 | 56.8 | 170.9 | −4.2 |
 > | 2026-07-08 | 41.9 | 71.7 | 53.2 | 166.9 | −4.0 |
 > | 2026-07-15 | 41.3 | **63.9** | 54.0 | **159.2** | −7.6 |
+> | 2026-07-22 | 39.1 | 64.7 | 53.5 | 157.2 | −2.0 |
+> | 2026-07-29 | 37.1 | 65.0 | 57.2 | 159.3 | +2.1 |
+> | 2026-08-05 | 33.4 | 64.1 | 52.5 | 150.0 | −9.3 |
+> | **2026-08-12** | **39.3** | **61.2** | **48.6** | **149.2** | **−0.8** ← *latest, pulled 2026-08-21; the $125B refunding week* |
 >
 > **11-21Y −$13.4B (−17.4%) off peak; long-end −$15.8B (−9.0%) across four consecutive accelerating weekly declines.** Note the 6/17 print BOND carried as "the fresh all-time record" was **one week early** — 6/24 was the true peak, unobserved because the series was unreadable.
 >

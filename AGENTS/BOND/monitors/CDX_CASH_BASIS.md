@@ -1,7 +1,7 @@
 # BOND Monitor — CDX/Cash Credit Basis
 
 **Owner:** BOND
-**Last Updated:** 2026-08-18 by BOND — **proxy RE-RUN this session** (`cdx_proxy.py`, data through 8/14). ⚠️ **A CONFOUND IS NAMED FOR THE FIRST TIME — see Current Read.** *(Prior: 2026-07-28, data through 7/27.)*
+**Last Updated:** 2026-08-21 by BOND — **proxy RE-RUN** (`cdx_proxy.py`, data through **8/21**): **HYG/IEF 0.8574, z20 +1.17, 98th pctile of 3mo** = credit-excess RICH, **no divergence** — essentially unchanged through the entire rates round-trip (8/18 read 0.8567 / +1.40 / 98th). **LQD/IEF: negative every one of the last 10 sessions, but the MAGNITUDE has collapsed — −1.96 [8/17] → −1.54 [8/18] → −0.25 [8/19] → −0.63 [8/20] → −0.38 [8/21], against the −1.43 this file has been citing.** The sign persists; the signal has faded — **stop quoting −1.43 as the live magnitude.** ✅ **AND THE OPEN CHECKBOX ON THIS FILE IS CLOSED: VIOLET ANSWERED 8/20.** They can produce a POINT but not the DIRECTION the trigger clause needs — **so the "OR VIOLET skew-vs-flat-cash" leg is NOT FIREABLE AS WRITTEN**, and that is the answer, not a deferral. *(Prior: 2026-08-18 re-run, data through 8/14.)* ⚠️ **A CONFOUND IS NAMED FOR THE FIRST TIME — see Current Read.** *(Prior: 2026-07-28, data through 7/27.)*
 **Purpose:** Detect when faster synthetic/hedging credit demand leads cash spread repricing.
 
 ## Current Read — 2026-08-18
