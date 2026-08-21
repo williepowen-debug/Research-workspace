@@ -1,12 +1,12 @@
 # MARCO STATUS
 **Last Updated:** 2026-08-21 ET (session 22 — 9-day catch-up) | **Thesis:** v3.1 | **Status:** 🟠 ELEVATED
 
-**This session in one line:** **Nine days dark, four primaries pulled, and three of the four came back AGAINST the thesis** — H-2A Q3 printed its **first negative quarter (−3.99% YoY)** and falsified the carried ~455-465K projection (**MAR-11 88%→72%**, on a Q4 base rate I measured from the FY24/FY25 files rather than assumed); `VX-2.03` construction **de-marked BREACHED→ELEVATED** with **TX running ABOVE national** — the *fourth* Channel-1 transmission instrument to return null-or-against; July produce CPI **+5.55%** moved the threshold further away for a third month. **Only Canada held: TOUR-01 confirmed a 5th time on the 2-yr stack (auto −28.9% / air −26.8%) while the +10.2% YoY headline is exactly the base effect the spec was written to ignore — and the FL-relevant air leg RE-WIDENED off the −25% line.** **The 50% Canada tariff never took effect — paused to Aug 22, expiring today.** Found a **retracted figure still live in a `BREACHED` row** 51 days after the sweep that fixed its twin one row away. WALTER lane 25→0.
+**This session in one line:** **Nine days dark, five primaries pulled, and four of the five came back AGAINST the thesis** — H-2A Q3 printed its **first negative quarter (−3.99% YoY)** and falsified the carried ~455-465K projection (**MAR-11 88%→72%**, on a Q4 base rate I measured from the FY24/FY25 files rather than assumed); `VX-2.03` construction **de-marked BREACHED→ELEVATED** with **TX running ABOVE national** — the *fourth* Channel-1 transmission instrument to return null-or-against; July produce CPI **+5.55%** moved the threshold further away for a third month. **Only Canada held: TOUR-01 confirmed a 5th time on the 2-yr stack (auto −28.9% / air −26.8%) while the +10.2% YoY headline is exactly the base effect the spec was written to ignore — and the FL-relevant air leg RE-WIDENED off the −25% line.** **The 50% Canada tariff never took effect — paused to Aug 22, expiring today.** Found a **retracted figure still live in a `BREACHED` row** 51 days after the sweep that fixed its twin one row away. WALTER lane 25→0.
 
 ## 8/21 UPDATE (session 22) — READ FIRST
 
-> ### 🔴 FOUR PRINTS PULLED AFTER 9 DAYS DARK — AND THE SESSION'S PATTERN IS THAT REFRESHING GOES AGAINST ME
-> **Every one of the four catch-up legs came back weaker for the thesis than the figure it replaced.** That is worth stating plainly rather than distributing across rows.
+> ### 🔴 FIVE PRIMARIES PULLED AFTER 9 DAYS DARK — AND THE SESSION'S PATTERN IS THAT REFRESHING GOES AGAINST ME
+> **Four of the five catch-up legs came back weaker for the thesis than the figure they replaced.** That is worth stating plainly rather than distributing across rows.
 >
 > | Leg | Carried into today | Pulled today (primary) | Direction |
 > |---|---|---|---|
@@ -14,8 +14,11 @@
 > | **Construction (high-imm. states)** | `VX-2.03` **BREACHED** | **TX +1.94% vs national +0.99%** | 🔴 de-marked → **ELEVATED** |
 > | **Produce CPI** | +5.71%, "RECEDING" | **+5.55%**, 2-yr stack **+5.86%** | 🟠 threshold moving **away**, 3rd month |
 > | **Canadian travel** | stack −28.7%, air on the −25% line | **auto −28.9% / air −26.8%** | 🟢 **TOUR-01 HOLDS**, air leg re-widened |
+> | **FL migration proxies** | "mixed/flat" (voter −0.8% YoY May) | **voter NEW +23.0% YoY Jun; FLHSMV +3.0%** | 🔴 **both live inflow legs GROWING** |
 >
 > **Only the Canadian leg came back FOR the thesis — and it is the channel v3.0 already named the highest-conviction one.**
+>
+> 🔴 **The FL-migration proxy swing is the one to read carefully.** The voter leg went **−0.8% YoY (May) → +23.0% YoY (June)** — a 23.8pp swing in one month — and YTD new firmed +12.6% → +14.4%. **But both live legs measure INFLOW ONLY with no outflow counterpart, and net domestic migration is a NET quantity**, so growing inflow cannot rule out a net decline driven by exits. `VX-3.03` **stays BREACHED on the canonical 2025 level (+22,517), which is what the band actually scores** — the proxies are logged as **counter-evidence to any claim the collapse is DEEPENING in 2026**, not as a re-mark. Voter NET (+19,806) is purge-cycle-dominated and is **not** the direction read. **One month is not a trend, and this now sits AGAINST the unreconciled BofA Q1'26 metro net-negative read (open with CORAL).**
 
 > ### 🔴 H-2A Q3 PUBLISHED — THE FIRST NEGATIVE QUARTER, AND I BASE-RATED THE Q4 INSTEAD OF ASSUMING IT
 > **OFLC `FY2026_Q3` (DOL live, boot auto-fetch).** FY26 through Q3 = **349,867 certified** (Q1 62,340 / Q2 192,025 / **Q3 95,502**).
