@@ -137,3 +137,49 @@ No missing files or broken references (33/33 paths named in `CLAUDE.md` exist) �
 **Four of my own audit findings were wrong or overstated, and all four were caught by testing rather than re-reading:** B2 (counted co-occurrence as suppression), the D4 advisory (contradicted its own schema), the D3 TSV header (corrupted the file and made my new lint report clean), and a future-date discriminator that killed a real fixture. **Each is in the code as a comment or a fixture, so the next pass inherits the correction and not just the conclusion.**
 
 **Final state:** `docket_check` rc=0 · `boot_recompute` rc=0 (incl. FR2004) · `closeout_check` **rc=0 across all three checks** · `--selftest` **41/41**.
+
+---
+
+# STATUS.md AUDIT — read end-to-end 2026-08-21 (Will-tasked), all findings fixed same session
+
+**18 findings. 239/250 lines after the pass (was 250/250 — a resolved section was archived, freeing 14).**
+
+## Wrong / inaccurate
+
+| # | Where | Finding |
+|---|---|---|
+| S1 | header §regime-flag | An **8/10 scoping caveat said the dashboard/composite/exits below were "the pre-forum 7/28 state, NOT re-scored."** True on 8/10, **false by 8/15** — five closeouts have since rewritten all of it. **A stale caveat telling readers to distrust rebuilt rows is worse than none: it discredits current work.** Retired, with the part that survives stated. |
+| S2 | ×4 sites | **The retracted "29-day run above 5%" was still in LIVE USE in three places** (regime paragraph · configuration line · matrix evidence). The file's own header calls the figure FALSE. **Upstream correction present, in-place amendment absent** — same class as the DAEDALUS `NEXUS_BRIEF` flag, found again on the more important file. All marked; live is 32 sessions / 48 days. |
+| S3 | divergence (a) | A cell **advertising "recomputed each boot"** carried **four stale values** (31/47, 10Y 4.63, DFII10 2.39). **The freshness claim is what stops the reader checking** — worse than a cell making no claim. Already twice-corrected before this. |
+| S4 | IG OAS ×2 | *"flat within a ~3bp band"* (dashboard) and *"Band 79–82"* (matrix). It is **78→82, a 4bp band drifting WIDER**. **My own morning pattern-fix caught two instances of this and missed both of these because the phrasing differed** — third and fourth instances. |
+| S5 | thesis pointer | *"This pointer has rotted TWICE (n=2)"* — it is **n=3**, and the third was the worst: THESIS's own header contradicted itself (H1 `v1.1.5` vs `Version: 1.1.6`). |
+| S6 | catalyst prune note | *"7/2 FR2004 (still PENDING pull)"* — **false for 24 days**; the gap closed 7/28 and the series is current to 8/12. A **sixth** surface in the FR2004 stale-claim family. |
+| S7 | arm falsifier | *"DEEP-LIT against: 2Y 4.33 / DFII10 2.43 / 10Y 4.69 [7/24]"* — **28 days stale on a falsifier's own live-state read.** Refreshed to 4.19 / 2.35 / 4.65; conclusion unchanged, evidence now true. |
+| S8 | T7 premise drift | Said **"~2pp"** off 33.5 [8/12]; the last ORACLE pin is 28.5/30.0 [8/18] ⇒ **~5.5–7pp**, and `CATALYSTS.tsv` has carried the larger figure since 8/18. **The mirror diverged in the direction that made the premise look safer.** |
+| S9 | DM cross-section | *"Latest"* column carried US legs at [8/18] while `boot_recompute` pulls both every boot. |
+
+## 🔴 The substantive one
+
+| # | Finding |
+|---|---|
+| **S10** | **The AU leg's stated limit was FALSE and its `re-test: every boot` had not been run for nine days.** The row read *"AU's ~1wk lag forced the window to end 8/12 — this instrument cannot yet speak to 8/13–8/20,"* which put the 19-yr-high 5.31 close and `sb0607` **outside** the cross-section. **RBA publishes `FCMYGBAG10D` through 2026-08-19** (pub date 8/21, n=**3,336** vs the 3,331 recorded) — so it speaks to 8/13→8/19 **including both events**, and the lag is **~2 days, not ~1 week**. ⇒ **The 9/3 deliverable's window can now extend to 8/19 on all four legs like-for-like.** ⚠️ **My first re-test hit the MONTHLY file (`f2.1-data.csv`, series `FCMYGBAG10`, no `D`) and returned "series not found" — which reads exactly like an unavailable series. The daily file is `f2-data.csv`. n=4 of this desk's claimed-unavailability-is-really-a-path-artifact class, caught only because the path was audited instead of the wall reported.** *A stated limit on your own instrument is a CLAIM, and it decays.* |
+
+## Unnecessary / mislabeled
+
+| # | Finding |
+|---|---|
+| S11 | **A 14-line section titled `★ UPCOMING` for two auctions that were both PAST and both GRADED** (20Y 8/19 → `BND-14` FALSE; 30Y TIPS 8/20 → `BND-17` TRUE), future-tense throughout, quoting `DFII10` 2.41. **Archived verbatim** (the frozen bars ARE the record) → freed 14 lines at the cap. |
+| S12 | A 24-day-old meta-note about a 7/28 block rewrite — removed. |
+| S13–14 | **`USD/JPY` and `Brent` rows kept BOND's OWN drifting yfinance copies of metrics SAM and BRENT own** — against root CLAUDE.md's *"don't maintain stale copies… one source of truth per metric."* Both 3 days stale; USD/JPY had drifted ~1 big figure from SAM's surface, and Brent carried an intraday bar against BRENT's settle basis. **Converted to owner-cited pointers.** |
+
+## Self-inflicted, same day
+
+| # | Finding |
+|---|---|
+| **S15** | **Mirror break: `BND-18/19/20` were registered this session and never mirrored into the STATUS scoreboard** — the exact step-17 pairing (PREDICTIONS OPEN IDs ↔ STATUS) that the closeout mirror check exists to catch, **broken by me about an hour after I ran that check.** Fixed; all four OPEN IDs now verified present. |
+
+## Checker gap this exposed
+
+**`assertion_check` could not have caught S11: its PENDING vocabulary had no token for "UPCOMING",** so a section header can advertise a past event as forthcoming indefinitely. Fixed with a **STRONG/SOFT split** — `upcoming|forthcoming` bypass the 10-day `MIN_AGE` floor (nothing can be upcoming about a past date at any age) while the soft vocabulary keeps the floor so release-lag caveats stay quiet. **+1 fixture; 42 total, all passing.**
+
+**Verified clean after the pass:** `docket_check` rc=0 · `boot_recompute` rc=0 (incl. FR2004 vintage) · `closeout_check` **rc=0 across all three** · `--selftest` **42/42** · PREDICTIONS↔STATUS mirror verified · **239/250 lines**.

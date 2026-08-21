@@ -339,21 +339,39 @@ def expired_hits_in(line: str):
     exercises the SAME code path the live run does. A selftest with its own
     copy of the predicate validates the copy nobody runs -- the free-parameter
     cross-check defect, applied to a test harness."""
+    # "upcoming" added 2026-08-21: the STATUS audit found a 14-line section
+    # titled "★ UPCOMING" describing two auctions that were BOTH past and BOTH
+    # already graded, future-tense throughout. This rule could not see it --
+    # a forward-looking HEADER is the purest form of the defect the rule hunts
+    # and its vocabulary had no word for it.
     PENDING = (r"\b(pending|owed|awaiting|due|"
                r"will (be|resolve|run|fire|land|need|have to)|expects?|"
                r"to be (pulled|graded|run)|not yet|outstanding|"
                r"still (open|owed|unverified)|unverified)\b")
     DONE = (r"(\b(resolved|fired|graded|closed|done|void|retired|discharged|"
             r"delivered|complete)\b|✅)")
+    # STRONG vs SOFT pending vocabulary, split 2026-08-21.
+    #   SOFT ("not yet published", "due", "owed") carries a 10-day floor: on a
+    #   rates desk a 1-day-old release-lag caveat is NORMAL OPERATIONS and
+    #   firing on it teaches the desk to skim the output.
+    #   STRONG ("upcoming", "forthcoming") bypasses the floor: nothing can be
+    #   upcoming about a date already past, at ANY age. The STATUS audit found
+    #   a section titled "★ UPCOMING" for two auctions 1-2 days past and BOTH
+    #   already graded -- inside the floor, so the soft rule could never see it.
+    STRONG = r"\b(upcoming|forthcoming)\b"
     n = 0
     for m in DATE_TOKEN.finditer(line):
         d = resolve_date(m)
         if d is None:
             continue
-        if not (MIN_AGE <= TODAY - d <= dt.timedelta(days=120)):
+        age = TODAY - d
+        if age > dt.timedelta(days=120) or age <= dt.timedelta(0):
             continue
-        near = line[max(0, m.start() - CLAUSE):m.start() + CLAUSE]
-        if not re.search(PENDING, near, re.I):
+        near_s = line[max(0, m.start() - CLAUSE):m.start() + CLAUSE]
+        if age < MIN_AGE and not re.search(STRONG, near_s, re.I):
+            continue
+        near = near_s
+        if not (re.search(PENDING, near, re.I) or re.search(STRONG, near, re.I)):
             continue
         scope = near if STRICT else line
         if re.search(DONE, scope, re.I) or guarded(scope):
@@ -414,6 +432,11 @@ def check_expired() -> int:
     # "Will-approved" / "Will-ruled" / "Will's HELD item" constantly. A bare
     # \bwill\b turns every ruling provenance stamp into a pending verb -- 10
     # false positives on first run, 2026-08-21. Require a real future verb.
+    # "upcoming" added 2026-08-21: the STATUS audit found a 14-line section
+    # titled "★ UPCOMING" describing two auctions that were BOTH past and BOTH
+    # already graded, future-tense throughout. This rule could not see it --
+    # a forward-looking HEADER is the purest form of the defect the rule hunts
+    # and its vocabulary had no word for it.
     PENDING = (r"\b(pending|owed|awaiting|due|"
                r"will (be|resolve|run|fire|land|need|have to)|expects?|"
                r"to be (pulled|graded|run)|not yet|outstanding|"
@@ -559,6 +582,9 @@ FIXTURES = [
     # C9. MIN_AGE: a 1-day-old release-lag caveat is NORMAL OPERATIONS on a
     # rates desk, not a stale pending item. Without the floor this fired on
     # every dashboard vintage note.
+    ("REAL 8/21 defect: a section titled UPCOMING for two PAST, GRADED auctions",
+     "## UPCOMING -- 8/19 20Y and 8/20 30Y TIPS (dates VERIFIED at the primary 2026-08-18)",
+     "expired", True),
     ("release-lag caveat inside MIN_AGE does NOT fire",
      "| 10Y real (DFII10) | 2.35% [8/19] | 8/20 NOT YET PUBLISHED on this series |",
      "expired", False),
