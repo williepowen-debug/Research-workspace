@@ -1,142 +1,169 @@
 #!/usr/bin/env python3
-"""
-cot_grade.py — mechanical grader for the CFTC COT spring-fuel test.
+"""cot_grade.py — grade the REGISTERED COT test against a CFTC disaggregated print.
 
-Grades ONLY against the frozen pre-registration:
-  setups/2026-07-17_COT-grade-and-FAL02-prereg.md
+⛔⛔ REBUILT 2026-08-21. THE PREVIOUS VERSION GRADED A RETIRED TEST AND SAID SO CONFIDENTLY.
 
-Primary venue: WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE (CFTC disaggregated,
-futures-only, dataset 72hh-3qpy). Contract name verified against the primary
-2026-07-17: the 7/7 row returns MM short 129,072 / MM long 193,113, which
-matches the pre-reg baseline exactly.
+WHAT WAS WRONG, found by auditing the tool ~90 minutes BEFORE the print rather than
+running it at the print:
+  * It implemented the INCUMBENT `COT-FUEL` band only — BASE_SHORTS=129,072 (the 7/7
+    anchor), COILED_BAR=-7,000, SPENT_BAR=-25,000, verdicts COILED / IGNITING / FUEL SPENT.
+  * `COT-FUEL` was RETIRED in REGISTRY.tsv on 2026-08-14 and its successor `COT-FUEL-35B`
+    registered the same day. The successor's legs were NOWHERE in this file: no Leg-A bar
+    (113,745), no NO-VERDICT deadband (109,165-118,325), no Leg-B OI-share bar (4.909%) —
+    and it never fetched OPEN INTEREST at all, so Leg B was not computable.
+  * It read SOCRATA, which the registered spec explicitly forbids for this grade
+    ("Grade off the RAW file, never Socrata — Socrata lagged all 40 polls on 7/17").
+  ⇒ Run at the print, it would have printed `=== VERDICT: ... ===` for a RETIRED test,
+    from a FORBIDDEN source, and my own SCRATCH handoff instructed me to run exactly this
+    command to grade the successor.
 
-Primary metric: WoW change in MM GROSS SHORTS off the 129,072 base (as-of 7/7).
-  COILED       dShorts >= -7,000   (level >= ~122,000)
-  IGNITING     -25,000 < dShorts < -7,000  (level ~104,000-122,000)
-  FUEL SPENT   dShorts <= -25,000  (level <= ~104,000)
+★ AND THE PRE-FLIGHT CHECK THAT "PASSED" IS THE POINT: at 13:18 this script returned rc=3
+  and printed `base 7/7 anchor: short 129,072 / long 193,113 [OK]`. I read that as "tool
+  healthy." It WAS healthy — against the wrong test.
+  [[finding_instrument_reports_clean_against_the_wrong_reference]] — wrong by SPEC.
+  Third instance on this desk on 2026-08-21 alone (TRADE.md vs LEDGER_GLOB 09:41; the
+  Baker Hughes ARCHIVE-vs-current workbook ~13:20; this).
 
-REPORT-DATE GATE: refuses to grade unless the freshest row is the expected
-report date (default 2026-07-14). A stale row exits 3 — never grade last
-week's data as this week's print.
+SPEC IMPLEMENTED HERE IS THE FROZEN, WILL-RULED ONE, COPIED FROM `workbook/REGISTRY.tsv`
+(row COT-FUEL-35B; build: setups/2026-08-12_35b-COT-successor-band-N1-build.md):
+    base 122,904 = trailing-8wk median (2026-06-16..2026-08-04)   [context, not graded]
+    median_unit  = 9,160  FROZEN  (basis n=235, 2022-02-08..2026-08-04)
+    Leg A  : MM gross shorts <= 113,745                       => SPENT
+             NO-VERDICT deadband 109,165 .. 118,325           (bar +/- 0.5 median unit)
+             shorts > 118,325                                 => NOT-SPENT
+    Leg B  : OI-share = MM gross shorts / Open Interest * 100
+             <= 4.909% => SPENT, else NOT-SPENT.  LEG B IS GATING.
+    VERDICT: both legs must AGREE; disagreement => NO-VERDICT.
+             NO-VERDICT IS A REAL ANSWER — it defaults sizing to the BASE CASE.
+             Accepted NO-VERDICT rate 33.6%, on the record.
+⛔ DO NOT RE-MEASURE OR RE-BASE ANY OF THESE PER PRINT. Re-basing is a NEW N1 build and a
+   fresh Will ruling, never maintenance: the trailing window is a FREE PARAMETER
+   (9,160 / 8,586 / 7,652 across three defensible windows moves the bar 1,508 contracts,
+   about the incumbent's entire margin).
 
-Exit codes:
-  0 = graded OK
-  2 = fetch/parse failure (fail LOUD, never fabricate)
-  3 = release not fresh yet (expected report date absent) — wait, do not grade
+SOURCING RULES, ALSO FROM THE REGISTERED SPEC:
+  * RAW file only: https://www.cftc.gov/dea/newcot/f_disagg.txt   [[finding_cftc_cot_raw_file_beats_socrata_lag]]
+  * Match by MARKET NAME, not by contract code — code 067651 spans a 2022 rename.
+  * Verify `report_date` IN-ROW against --expect. exit 3 = NOT FRESH, DO NOT GRADE.
+  * Browser User-Agent is load-bearing, see LESSONS L25 (a tarpitted UA reads as an outage).
 
-Usage:
-  .venv/bin/python3 AGENTS/BRENT/scripts/cot_grade.py
-  .venv/bin/python3 AGENTS/BRENT/scripts/cot_grade.py --expect 2026-07-14
-
-Built by BRENT 2026-07-17 (pre-print, before the data — the grade is frozen).
+EXIT CODES:  0 graded  |  2 could not grade (fetch/parse/spec problem)  |  3 not fresh, WAIT
 """
 import argparse
-import json
+import csv
+import io
 import sys
-import urllib.parse
 import urllib.request
 
-BASE = "https://publicreporting.cftc.gov/resource/72hh-3qpy.json"
+RAW_URL = "https://www.cftc.gov/dea/newcot/f_disagg.txt"
 MARKET = "WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE"
-CORROB = "CRUDE OIL, LIGHT SWEET-WTI - ICE FUTURES EUROPE"  # ICE WTI look-alike
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
 
-# --- FROZEN PRE-REG CONSTANTS (do not edit post-print) ---
-BASE_SHORTS = 129072      # as-of 2026-07-07 [CONF CFTC]
-BASE_LONGS = 193113
-COILED_BAR = -7000
-SPENT_BAR = -25000
-EXPECT_DEFAULT = "2026-07-14"
+# --- FROZEN SPEC (REGISTRY.tsv :: COT-FUEL-35B). Do not edit without a fresh Will ruling. ---
+LEG_A_BAR = 113745
+DEADBAND_LO = 109165
+DEADBAND_HI = 118325
+LEG_B_BAR_PCT = 4.909
+MEDIAN_UNIT = 9160
+BASE_8WK = 122904
+
+# disaggregated futures-only column layout (verified 2026-08-21 against the 8/11 print:
+# it reproduced the registry's recorded first grade — shorts 110,638 / OI 1,892,429 /
+# share 5.8463% — to the digit, which is what validates these indices).
+I_REPORT_DATE = 2
+I_CODE = 3
+I_OI = 7
+I_MM_LONG = 13
+I_MM_SHORT = 14
 
 
-def fetch(market, limit=6):
-    url = BASE + "?" + urllib.parse.urlencode({
-        "$where": f"market_and_exchange_names = '{market}'",
-        "$order": "report_date_as_yyyy_mm_dd DESC",
-        "$limit": str(limit),
-    })
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+def fetch_raw():
+    req = urllib.request.Request(RAW_URL, headers={"User-Agent": BROWSER_UA})
     with urllib.request.urlopen(req, timeout=90) as r:
-        rows = json.loads(r.read())
-    out = []
-    for x in rows:
-        out.append({
-            "date": str(x["report_date_as_yyyy_mm_dd"])[:10],
-            "short": int(x["m_money_positions_short_all"]),
-            "long": int(x["m_money_positions_long_all"]),
-        })
-    return out
+        return r.read().decode("utf-8", errors="replace")
 
 
-def verdict(d):
-    if d >= COILED_BAR:
-        return "COILED", "fuel INTACT — the violent unwind is still AHEAD; re-entry conviction HIGHEST"
-    if d > SPENT_BAR:
-        return "SQUEEZE IGNITING", "fuel BURNING NOW — accelerant live; re-entry MODERATE, dip may not come"
-    return "FUEL SPENT", "accelerant largely CONSUMED; re-entry DOWNGRADED absent a fresh kinetic leg"
+def find_row(text, market=MARKET):
+    hits = []
+    for rec in csv.reader(io.StringIO(text)):
+        if rec and rec[0].strip().strip('"') == market:
+            hits.append([c.strip() for c in rec])
+    return hits
+
+
+def leg_a(shorts):
+    if shorts <= LEG_A_BAR and shorts < DEADBAND_LO:
+        return "SPENT"
+    if DEADBAND_LO <= shorts <= DEADBAND_HI:
+        return "NO-VERDICT"
+    return "NOT-SPENT"
+
+
+def leg_b(share_pct):
+    return "SPENT" if share_pct <= LEG_B_BAR_PCT else "NOT-SPENT"
+
+
+def joint(a, b):
+    """Both legs must AGREE. Leg B is GATING. Disagreement => NO-VERDICT."""
+    if a == "NO-VERDICT":
+        return "NO-VERDICT"
+    if a == b:
+        return a
+    return "NO-VERDICT"
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--expect", default=EXPECT_DEFAULT,
-                    help="required report date (YYYY-MM-DD); refuses to grade otherwise")
+    ap.add_argument("--expect", required=True,
+                    help="expected report_date (as-of Tuesday), YYYY-MM-DD")
     a = ap.parse_args()
 
+    print("  COT-FUEL-35B — registered successor band (COT-FUEL incumbent is RETIRED)")
+    print(f"  source  : RAW {RAW_URL}")
+    print(f"  market  : {MARKET}  (matched by NAME; code spans a 2022 rename)")
     try:
-        rows = fetch(MARKET)
+        text = fetch_raw()
     except Exception as e:
-        print(f"FETCH FAILED ({type(e).__name__}: {e}) — fail loud, do not grade", file=sys.stderr)
+        print(f"  🔴 FETCH FAILED: {type(e).__name__}: {e}")
+        print("     ⚠️  If this is a hang/timeout rather than an HTTP error, check the "
+              "User-Agent before concluding the host is down (LESSONS L25).")
         return 2
-    if not rows:
-        print("no rows returned — fail loud", file=sys.stderr)
+
+    hits = find_row(text)
+    if len(hits) != 1:
+        print(f"  🔴 expected exactly 1 row for the market name, got {len(hits)} — NOT GRADING")
         return 2
-
-    newest = rows[0]
-    print(f"  primary : {MARKET}")
-    print(f"  freshest report date: {newest['date']}  (expecting {a.expect})")
-
-    # --- baseline integrity check: the 7/7 anchor must still read 129,072 ---
-    anchor = next((r for r in rows if r["date"] == "2026-07-07"), None)
-    if anchor:
-        ok = anchor["short"] == BASE_SHORTS and anchor["long"] == BASE_LONGS
-        flag = "OK" if ok else "!! REVISED — pre-reg base no longer matches primary"
-        print(f"  base 7/7 anchor: short {anchor['short']:,} / long {anchor['long']:,}  [{flag}]")
-        if not ok:
-            print("  ^ CFTC revised the anchor. Grade against the FROZEN base, note the revision.")
-
-    if newest["date"] != a.expect:
-        print(f"\n  ⏳ NOT FRESH — newest is {newest['date']}, not {a.expect}. "
-              f"Release not out (or delayed). DO NOT GRADE.")
+    r = hits[0]
+    rd = r[I_REPORT_DATE]
+    print(f"  freshest report date IN-ROW: {rd}  (expecting {a.expect})  code={r[I_CODE]}")
+    if rd != a.expect:
+        print(f"\n  ⏳ NOT FRESH — newest is {rd}, not {a.expect}. Release not out (or delayed). "
+              f"DO NOT GRADE.")
         return 3
 
-    d_short = newest["short"] - BASE_SHORTS
-    d_long = newest["long"] - BASE_LONGS
-    net_new, net_old = newest["long"] - newest["short"], BASE_LONGS - BASE_SHORTS
-    v, read = verdict(d_short)
+    shorts = int(r[I_MM_SHORT]); longs = int(r[I_MM_LONG]); oi = int(r[I_OI])
+    share = shorts / oi * 100.0
+    va, vb = leg_a(shorts), leg_b(share)
+    v = joint(va, vb)
 
-    print(f"\n  MM gross SHORTS : {BASE_SHORTS:,} -> {newest['short']:,}   ({d_short:+,})")
-    print(f"  MM gross longs  : {BASE_LONGS:,} -> {newest['long']:,}   ({d_long:+,})")
-    print(f"  MM NET          : {net_old:,} -> {net_new:,}   ({net_new-net_old:+,})")
-    print(f"\n  === VERDICT: {v} ===")
-    print(f"  {read}")
-    print(f"  (bars: COILED >= {COILED_BAR:+,} | IGNITING {SPENT_BAR:+,}..{COILED_BAR:+,} | SPENT <= {SPENT_BAR:+,})")
-
-    # mechanism check — net rise via covering vs fresh longs (pre-reg corroborator)
-    if net_new > net_old:
-        driver = "SHORT-COVERING" if d_short < 0 and abs(d_short) > abs(d_long) else "FRESH LONGS"
-        print(f"  net ROSE, driver = {driver}"
-              + ("  <- tag 'fresh longs', NOT squeeze (different mechanism)"
-                 if driver == "FRESH LONGS" else ""))
-
-    try:
-        c = fetch(CORROB, limit=3)
-        if c and c[0]["date"] == a.expect:
-            prev = c[1] if len(c) > 1 else None
-            ds = f"{c[0]['short']-prev['short']:+,}" if prev else "n/a"
-            print(f"\n  corroborating (ICE WTI look-alike): short {c[0]['short']:,} ({ds} WoW)")
-        elif c:
-            print(f"\n  corroborating (ICE WTI look-alike): newest {c[0]['date']} — not yet fresh")
-    except Exception:
-        print("\n  corroborating venue: fetch failed (non-fatal)")
+    print(f"\n  MM gross shorts : {shorts:>10,}")
+    print(f"  MM gross longs  : {longs:>10,}")
+    print(f"  Open interest   : {oi:>10,}")
+    print(f"  OI-share        : {share:>10.4f}%")
+    print(f"\n  Leg A  shorts {shorts:,} vs bar {LEG_A_BAR:,} "
+          f"(deadband {DEADBAND_LO:,}-{DEADBAND_HI:,})  => {va}")
+    print(f"  Leg B  OI-share {share:.4f}% vs bar {LEG_B_BAR_PCT}%  [GATING]        => {vb}")
+    print(f"\n  === JOINT VERDICT: {v} ===")
+    if v == "NO-VERDICT":
+        print("  NO-VERDICT IS A REAL ANSWER — sizing DEFAULTS TO THE BASE CASE (conservative).")
+        print("  Accepted NO-VERDICT rate for this band is 33.6%, on the record.")
+    print(f"\n  context (NOT graded): base_8wk {BASE_8WK:,} · median_unit {MEDIAN_UNIT:,} FROZEN"
+          f" · distance to Leg-A bar {shorts - LEG_A_BAR:+,} "
+          f"({(shorts - LEG_A_BAR)/MEDIAN_UNIT:+.2f} median units)")
+    print("  ⚠️  SIZING MODIFIER ONLY — never reuse as an ENTRY trigger without a fresh build.")
+    print("  ⚠️  NON-CLAIMS TRAVEL WITH THIS ROW: no out-of-sample test; n=0 genuine physical")
+    print("      reopenings; no price validation (a positioning DESCRIPTOR, never shown to predict).")
     return 0
 
 
