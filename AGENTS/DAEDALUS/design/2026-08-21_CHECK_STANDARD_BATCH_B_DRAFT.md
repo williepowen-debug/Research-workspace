@@ -1,6 +1,6 @@
 # CHECK_STANDARD Batch B — DRAFT for Will's gate (unblocks PROME's Batch B; drafted 2026-08-21 eve)
 
-**Status: DRAFT — nothing below is encoded.** One ruling covers all six items (PROME's one-word-instead-of-three rec, my concurrence). On approval: encode into `BLUEPRINTS/CHECK_STANDARD.md` + EVOLUTION same commit; §10/§11-style PROVISIONAL markers where the flow requires ratify-after-first-live-use.
+**Status: ✅ RULED 2026-08-21 (Will verbatim "okay approved.", record `PROME/proposals/2026-08-21_batchB-check-standard-six-items-RULED.md` `0416eaa40`) AND ENCODED same evening — `BLUEPRINTS/CHECK_STANDARD.md` §1/§3/§6/§8-r6/§12/§13 + EVOLUTION 8/21(d). This file is now the drafting record; the encoded text is canonical.** *(Original draft banner:)* One ruling covers all six items (PROME's one-word-instead-of-three rec, my concurrence). On approval: encode into `BLUEPRINTS/CHECK_STANDARD.md` + EVOLUTION same commit; §10/§11-style PROVISIONAL markers where the flow requires ratify-after-first-live-use.
 
 **Provenance discipline:** every ⑤b item below was verified at ZHAO's artifact before drafting (precondition from my own register): counts-keyed verdict at `AGENTS/ZHAO/scripts/boot.py:319-332` · monkeypatched-legs fixture in commit `9f97c7f5f` ("Both branches fixture-tested via monkeypatched legs so the OK path runs without mutating real files") · declared-asymmetry comment at `boot.py:298-301`. WAL rules verified at the source packet + `AGENTS/WAL/MEMORY.md:80` (base rates 54→scoped and 10/23 baseline are WAL's own measurements).
 
