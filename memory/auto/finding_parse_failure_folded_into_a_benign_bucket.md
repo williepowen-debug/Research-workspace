@@ -16,3 +16,13 @@ An insider-buying detector printed, for 11 of 11 Form 4 filings: **"All routine 
 - **Separating the counters is what surfaces the bug.** The broken parser was invisible for an unknown period; it became obvious the instant `Unparsed` printed as its own number. Splitting the counter *is* the diagnostic, not just the fix.
 - **Then falsify it** — force the outage and confirm the clean verdict cannot print ([[finding_run_the_falsifier_before_promoting]]). A guard nobody has watched fail is an assumption.
 - Related: [[finding_fail_loud_on_incomplete_data]] · [[finding_silent_blank_evades_review]] · [[finding_count_what_published_before_reading_the_verdict]] · [[finding_standing_guard_is_a_false_negative_risk]] · [[finding_registry_names_a_concept_tool_resolves_an_instrument]].
+
+---
+
+**Extension 2026-08-21 (VULCAN, S4 instrument build) — the sharper form: the parse failure can be CORRELATED WITH THE SIGNAL CLASS, making the instrument untrippable by construction.**
+
+The base finding's failures were random with respect to content. VULCAN's were not: TSMC's 6-K writes negative months in **accounting parentheses — `(1.1)`, not `-1.1`** — so its revenue parser dropped 8 of 16 months, **every dropped month a DECLINE**, while writing 8 clean-looking "validated" rows under a success line. **S4's red band IS "decline" — the instrument could not, by construction, ever see the condition it existed to flag.** Not a degraded detector; a detector whose failure mode selects exactly the alert class, wearing a validation stamp.
+
+**Added to how-to-apply:**
+- **Ask whether your failure mode is INDEPENDENT of the signal.** A random 50% parse loss degrades an instrument; a loss correlated with the alert condition (negatives formatted differently, halted days missing from a feed, outage-days unlogged) **blinds it specifically to fires while it validates cleanly on quiet data**. Test with a known-positive from the alert class, not a random sample.
+- **Grep-bait for one recurring cause:** financial primaries write negatives as `(x.x)` — any parser reading filings/IR tables must handle parenthesized negatives or it silently drops exactly the bad months. (VULCAN's fix re-pulled 20/20 clean; it also base-rated its new band before shipping — 50% fire-rate → tightened to 2-consecutive, 35% — per [[finding_base_rate_the_threshold_before_building_it]].)
