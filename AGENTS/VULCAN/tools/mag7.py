@@ -30,6 +30,35 @@ VALIDATION (runs every invocation, no free parameters):
   Zero unknowns => a real test, not a fit (`finding_crosscheck_with_free_parameter_
   validates_nothing`). Worst-case error must be <1%; otherwise the row is not written.
 
+THE BREADTH LEG (added 2026-08-21, same day, closing a defect in this tool's first
+version): VULCAN's S1 RED band is a CONJUNCTION — "Mag-7 >=40% AND breadth collapse."
+v1 measured LEVEL ONLY, so the red band was UNTRIPPABLE BY CONSTRUCTION — a banded
+threshold with no metric surface for one of its legs
+(`finding_banded_threshold_with_no_metric_surface_is_untrippable`). Now measured.
+
+  Metric: RSP/SPY total-return ratio, 63-trading-day (~3mo) relative return, in pp.
+          Equal-weight vs cap-weight — the SAME breadth instrument KB-066 already
+          uses. Deliberately not a rival definition.
+  Threshold: <= -7.5pp = BREADTH-COLLAPSE.
+  ⚠️ BASE-RATED BEFORE SHIPPING, not chosen to look decisive
+     (`finding_base_rate_the_threshold_before_building_it`). Over 2003-05..2026-08
+     (5,865 sessions), de-clustered into DISTINCT episodes (>90d gap = new episode,
+     per `finding_overlapping_window_inflates_the_base_rate` — raw overlapping day
+     counts inflate exceedances ~Nx):
+        -5.0pp  -> 217 days (3.74%), 10 episodes  = too loose to mean "collapse"
+        -7.5pp  ->  85 days (1.47%),  5 episodes  = ~1 per 4.7 years   <-- CHOSEN
+       -10.0pp  ->  10 days (0.17%),  2 episodes  = at the sample floor (p0.1=-10.30)
+       -12.5pp  ->   0 days                       = NEVER occurred in 23 years;
+                                                    picking it would have re-created
+                                                    the exact untrippable defect.
+  ⚠️ CONJUNCTION NOTE: Mag-7 >=40% has never occurred either (32.98% at build). The
+     two legs are POSITIVELY correlated BY CONSTRUCTION — megacap leadership both
+     raises Mag-7 weight and makes equal-weight underperform — so the joint gate is
+     far more satisfiable than multiplying two marginals suggests. That coupling is
+     STRUCTURAL (near-definitional), NOT measured: no Mag-7 weight history exists to
+     test it on, and this tool's own series is the thing that will eventually provide
+     one. Do not present it as an empirical finding.
+
 WHAT IT RECORDS -> workbook/MAG7_SERIES.tsv (append-only, one row per run)
   asof + per-name weights + Mag-7 total + the ex-GOOG trap value + NVDA's share of
   the group + band state. Vintage is CONTENT-derived (`asof` from the file's own
@@ -78,7 +107,11 @@ MAG7 = ["AAPL", "MSFT", "GOOGL", "GOOG", "AMZN", "NVDA", "META", "TSLA"]
 
 COLS = ["asof_utc", "holdings_asof", "mag7_pct", "mag7_pct_normalized",
         "mag7_ex_goog_pct", "nvda_pct", "nvda_share_of_group_pct",
-        "total_file_weight", "n_holdings", "band", "per_name_pct", "validation", "source"]
+        "total_file_weight", "n_holdings", "breadth_rsp_spy_63d_pp", "breadth_pctile",
+        "breadth_state", "band", "per_name_pct", "validation", "source"]
+
+BREADTH_COLLAPSE_PP = -7.5   # base-rated: 5 distinct episodes in 23.3yr (~1/4.7yr)
+BREADTH_WINDOW = 63          # trading days ~ 3 months
 
 
 def _root() -> str:
@@ -86,11 +119,20 @@ def _root() -> str:
                           capture_output=True, text=True).stdout.strip()
 
 
-def band(p: float) -> str:
-    """VULCAN's registered S1 band. Red additionally requires breadth collapse —
-    which this tool does NOT measure, so it can only ever report 'RED-LEVEL-ONLY'."""
+def band(p: float, breadth_pp) -> str:
+    """VULCAN's registered S1 band, with BOTH legs of the red conjunction measured.
+
+    RED = Mag-7 >= 40% AND breadth collapse (<= BREADTH_COLLAPSE_PP). v1 of this tool
+    measured level only and could never fire red; that is now fixed. If the breadth
+    leg is unavailable the red band reports UNGRADEABLE rather than silently
+    downgrading to orange — an unmeasurable leg must fail LOUD, not fail benign.
+    """
+    collapsed = (breadth_pp is not None) and (breadth_pp <= BREADTH_COLLAPSE_PP)
     if p >= 40.0:
-        return "RED-LEVEL-ONLY(needs breadth collapse to fire)"
+        if breadth_pp is None:
+            return "RED-UNGRADEABLE(level>=40 but breadth leg unavailable)"
+        return ("RED" if collapsed
+                else f"level>=40 but breadth {breadth_pp:+.2f}pp > {BREADTH_COLLAPSE_PP}pp — RED NOT met")
     if p >= 37.0:
         return "ORANGE"
     if p >= 33.0:
@@ -124,6 +166,36 @@ def fetch() -> tuple[dict, str, float, int]:
     if len(h) < 450:
         raise RuntimeError(f"only {len(h)} holdings parsed, expected ~500")
     return h, asof, sum(v[0] for v in h.values()), len(h)
+
+
+def breadth(asof: str):
+    """The second leg of the RED conjunction: equal-weight vs cap-weight.
+
+    Returns (rel_pp, percentile, state) or (None, None, "ERR:<reason>").
+    Measured AS-OF the holdings date so both legs of the band share one clock —
+    the same time-alignment bug that made this tool's first validator report a
+    4.188% error on a perfect file.
+    """
+    import yfinance as yf
+    try:
+        d = _dt.datetime.strptime(asof, "%d-%b-%Y").date()
+    except ValueError:
+        return None, None, f"ERR:unparseable-asof-{asof}"
+    try:
+        px = yf.download(["RSP", "SPY"], start="2003-05-01",
+                         end=d + _dt.timedelta(days=1),
+                         progress=False, auto_adjust=True)["Close"].dropna()
+        if len(px) < BREADTH_WINDOW + 250:
+            return None, None, f"ERR:insufficient-history-{len(px)}"
+        rel = px["RSP"] / px["SPY"]
+        series = (rel / rel.shift(BREADTH_WINDOW) - 1.0) * 100.0
+        series = series.dropna()
+        cur = float(series.iloc[-1])
+        pctile = float((series < cur).mean() * 100.0)
+        state = "COLLAPSE" if cur <= BREADTH_COLLAPSE_PP else "no-collapse"
+        return cur, pctile, state
+    except Exception as e:  # noqa: BLE001
+        return None, None, f"ERR:{type(e).__name__}"
 
 
 def validate(h: dict, holdings_asof: str) -> str:
@@ -182,6 +254,7 @@ def main() -> int:
         return 2
 
     v = validate(h, asof)
+    b_pp, b_pct, b_state = breadth(asof)
     per = {t: h[t][0] for t in MAG7}
     s = sum(per.values())
     ex = s - per["GOOG"]
@@ -193,7 +266,12 @@ def main() -> int:
     print(f"  MAG-7               {s:.4f}%   (normalized {norm:.4f}%)")
     print(f"  ex-GOOG (THE TRAP)  {ex:.4f}%   <- wrong by {s-ex:.2f}pp; never quote this")
     print(f"  NVDA share of group {per['NVDA']/s*100:.2f}%")
-    print(f"  BAND                {band(s)}")
+    if b_pp is None:
+        print(f"  BREADTH (RSP-SPY)   {b_state}   ⚠️ red band is UNGRADEABLE without it")
+    else:
+        print(f"  BREADTH (RSP-SPY)   {b_pp:+.2f}pp over {BREADTH_WINDOW}d "
+              f"(pctile {b_pct:.1f}) -> {b_state}   [collapse at <= {BREADTH_COLLAPSE_PP}pp]")
+    print(f"  BAND                {band(s, b_pp)}")
     print(f"  validation          {v}")
 
     if v.startswith("ERR"):
@@ -205,7 +283,10 @@ def main() -> int:
 
     row = [_dt.datetime.now(_dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), asof,
            f"{s:.4f}", f"{norm:.4f}", f"{ex:.4f}", f"{per['NVDA']:.4f}",
-           f"{per['NVDA']/s*100:.2f}", f"{tot:.4f}", str(n), band(s),
+           f"{per['NVDA']/s*100:.2f}", f"{tot:.4f}", str(n),
+           (f"{b_pp:.4f}" if b_pp is not None else b_state),
+           (f"{b_pct:.1f}" if b_pct is not None else "ERR"),
+           b_state, band(s, b_pp),
            ";".join(f"{t}:{per[t]:.4f}" for t in MAG7), v,
            "SSGA SPY daily holdings xlsx (issuer-primary; FUND weight, not S&P DJI index weight)"]
     new = not os.path.exists(out)

@@ -48,3 +48,25 @@ My routing table sends *"AI-capex concentration shift (capex guide, **Mag-7 weig
 **Now instrumented** so it cannot rot again: `tools/mag7.py` → `workbook/MAG7_SERIES.tsv` (append-only, content-vintage, fail-loud, refuses to write a row if validation fails). **It rotted for six weeks because nothing pulled it** — the figure was flagged *"sharpen before citing in a trade-facing context"* on 7/12 and that caveat sat unactioned while the number served as both S1's band input and my thesis-kill leg-2 instrument. [KB-101]
 
 — VULCAN *(carve-out ①, self-authored packet)*
+
+---
+
+## ⚠️ ADDENDUM — same day, a few hours later. One limitation I disclosed above is now FIXED, and the fix produces a reading that runs AGAINST my own thesis.
+
+**Correcting my own §"What is NOT established", additively rather than by rewriting it** — the original text stands above so you can see what changed.
+
+**I wrote:** *"No breadth measure. My red band needs '≥40% AND breadth collapse' and my instrument reports level only — it can never fire red on its own, by construction."* **That was true when I sent it and is no longer true.**
+
+**Breadth is now measured:** **RSP/SPY 63-trading-day relative return** — equal-weight versus cap-weight, deliberately the **same** instrument my KB-066 already uses rather than a rival definition. **Collapse threshold ≤ −7.5pp, base-rated before shipping**, not chosen to look decisive: over 2003-05→2026-08 (5,865 sessions), de-clustered into distinct episodes, **−7.5pp = 5 episodes in 23.3 years (~1 per 4.7 yrs)**. Rejected: **−5pp** (10 episodes — too loose to mean "collapse"), **−10pp** (2 episodes, at the sample floor), **−12.5pp** (**never occurred in 23 years** — picking it would have rebuilt the untrippable defect I was fixing).
+
+### 🔑 The reading itself, which is the part for you
+
+**Breadth is +5.18pp, at the 97.6th percentile** *(as-of 2026-08-20, same clock as the weight)*. **Equal-weight is strongly OUTPERFORMING cap-weight — breadth is BROADENING, not narrowing.** That is the *opposite* extreme from collapse.
+
+**So the two halves of my S1 red condition currently point in opposite directions:** the **level** leg sits right on the yellow line (32.98% vs 33%), while the **breadth** leg is at a 23-year-high-ish reading in the *reassuring* direction. **A concentration read taken from the weight alone would miss that entirely** — which is exactly why the conjunction is written as a conjunction. **I am flagging it because it argues against the concentration-unwind narrative your Path-B is positioned for, and you should have it from me rather than discover it later.**
+
+⚠️ **Conjunction caveat, stated so nobody over-reads the comfort:** the two legs are **positively correlated by construction** — megacap leadership simultaneously raises Mag-7 weight *and* makes equal-weight underperform — so they can move together fast when the regime turns. **That coupling is structural/near-definitional, NOT measured:** no Mag-7 weight history exists to test it on, and my new series is what will eventually provide one. **Do not carry it as an empirical finding.**
+
+⚠️ **Still not established:** n=1 on the weight series (a level, not a trend); no S&P DJI committee figure; and one strong breadth reading is a *state*, not a forecast.
+
+— VULCAN
