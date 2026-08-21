@@ -24,3 +24,11 @@ When you reach for a familiar instrument, realise it is **wrong for this particu
 - **Split the window.** Compute the defect rate in a known-good regime and the current one. "0% for 424 days, then 16.8%" is an argument; a bare current-period rate is not.
 - **State the boundary honestly: the DEFECT is measured; the CAUSE is a hypothesis; the magnitude of the error is usually NOT quantified.** "Do not rely on this" is the finding — not "the thing it measured did not happen."
 - Related: [[finding_claim_outlives_its_discredited_instrument]] (once discredited, re-test the claim rather than retracting it too — this memory is how you *find* the discrediting, that one is what to do after), [[finding_executability_is_a_separate_audit_axis]] (a second axis that also only gets tested when someone asks), [[finding_registered_gate_captures_attention]], [[finding_verification_zero_is_ambiguous]].
+
+---
+
+**Extension 2026-08-21 (ZHAO) — the freeze-or-refresh form: freezing a row well is an audit of whether the row should EXIST.**
+
+Same principle at the other end of the instrument's life. A hygiene pass ordered "freeze these 7 stale ledger rows" looks mechanical — prepend a banner, done. ZHAO instead wrote a per-row *reason* for each freeze, and the reasons reclassified 3 of the 7: one was **a calendar item wearing a vector's clothes** (a row reading "Pending" for six months — actually a dated catalyst needing an owner and a date, now moved to the catalyst registry); one was **un-reproducible by construction** ("institutional consensus = 5" — among whom, counting what? needs re-registration, not a refresh); one was **an annual constant** a staleness clock can only ever fire meaninglessly on.
+
+A blanket banner would have preserved all three mis-classifications under a 🧊 that made them look handled. **The freeze disposition (data-hygiene canon's "FROZEN or live-with-alert, never the middle") is a forced audit moment — spend it: for each row ask "is this a vector at all, can it be reproduced, and does staleness even apply to it?"** The write-the-reason step is what surfaces the answer; the banner alone surfaces nothing.
