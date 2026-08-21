@@ -33,6 +33,8 @@ INVARIANTS
   C. WRITE ROUND-TRIP — read → write_tsv → read must be a fixed point, the banner
      must survive verbatim, and the output must be LF-only. Written to a temp
      file; the real ledgers are never touched.
+  D. STORED LINE ENDINGS — the ledger on disk is LF-only. C proves what write_tsv
+     emits; D proves what is already there, and they are not the same claim.
 
 USAGE
     python3 scripts/tsvutil_selftest.py              # exit 0 clean, 1 on failure
@@ -132,6 +134,25 @@ def check_linenos(path):
     return fails
 
 
+def check_stored_lf(path):
+    """D — the ledger ON DISK is LF-only.
+
+    Added 2026-08-21 (s23) after `docket/CATALYSTS.tsv` was found still CRLF: the
+    8/21 LF-pinning fixed `write_tsv` and normalised VX, and every ledger nobody
+    happened to rewrite that day kept its CRLF. Invariant C only proves what
+    write_tsv EMITS; it says nothing about what is already stored. The cost is a
+    one-row edit producing a whole-file diff in which the real change is invisible
+    — which is how the original quote-doubling hid for four commits.
+
+    FROZEN ledgers (workbook/ML.tsv) are deliberately NOT in LEDGERS: rewriting a
+    frozen file to fix its line endings is churn against a file nobody parses.
+    """
+    if b"\r\n" in Path(path).read_bytes():
+        return ["stored file is CRLF — a one-row edit will re-terminate every line "
+                "and bury the real change; rewrite once via tsvutil.write_tsv"]
+    return []
+
+
 def check_roundtrip(path):
     """C — read → write → read is a fixed point; banner and LF survive."""
     h, r = read_tsv(path)
@@ -164,7 +185,8 @@ def main():
             print(f"  ⚠️  {rel} — MISSING (listed in LEDGERS but not on disk)")
             total += 1
             continue
-        fails = (check_agreement(p) + check_linenos(p) + check_roundtrip(p))
+        fails = (check_agreement(p) + check_linenos(p)
+                 + check_roundtrip(p) + check_stored_lf(p))
         if fails:
             total += len(fails)
             print(f"  ❌ {rel}")
@@ -188,7 +210,7 @@ def main():
         print(f"  ❌ {total} invariant failure(s) — tsvutil does not agree with itself.")
         print("     Do NOT hand-edit the ledger. Fix the reader, then re-run.")
         return 1
-    print(f"  ✅ clean — {len(LEDGERS)} ledgers, 3 invariants each.")
+    print(f"  ✅ clean — {len(LEDGERS)} ledgers, 4 invariants each.")
     return 0
 
 
