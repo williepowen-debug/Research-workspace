@@ -9,7 +9,7 @@
 | Metric | Level | Date | vs threshold |
 |---|--:|---|---|
 | **HY OAS** | **275bp** | FRED 8/20 | **25bp** below the 300 watch · **75bp** below the 350 freeze line *(read 33/83bp off a stale 8/14 level until today)* |
-| **CCC OAS** | **1035bp** | FRED 8/20 | ★ **FRESH 2026 HIGH** — takes out 1034 (7/31). **65bp** below the 1100 escalation. ⚠️ **NOT a series high** — series max **1137 (2025-04-07)**, and **16 prior observations sit at or above 1035, all April-2025** (`BAMLH0A3HYC` · session closes · 2023-08-22→2026-08-20 · n=787, computed at write time). |
+| **CCC OAS** | **1035bp** | FRED 8/20 | ★ **FRESH 2026 HIGH** — takes out 1034 (7/31). **65bp** below the 1100 escalation. ⚠️ **NOT a series high** — series max **1137 (2025-04-07)**, and **16 prior obs ≥1035 in FOUR SEPARATE EPISODES across three years — 12 in Apr-2025 (4/4–4/22), 2 in Oct-2023 (10/30–31), 1 on 2023-11-01, 1 on 2024-08-05** (`BAMLH0A3HYC` · session closes · 2023-08-22→2026-08-20 · n=787, computed at write time). |
 | **IG OAS** | **82bp** | FRED 8/20 | flat; band 79–82 across the whole episode ⇒ **+3bp in four weeks** against a +20bp/wk trigger. No threshold near. |
 | **CCC/HY ratio** | **3.76x** | FRED 8/20 | the tail is widening *relative* to the index, not just absolutely |
 | **Pulled deals** | **ZERO** | 8/21 | the access test — unimpaired |

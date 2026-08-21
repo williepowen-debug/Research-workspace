@@ -1,7 +1,7 @@
 # BOND — Run Receipt
 
-**Session:** 2026-08-21 (Fri) 11:02 → ~12:xx ET · **Trigger:** Will — "boot up" → "do the T6 concur/dissent first" → "now do the closeout dashboard refresh"
-**Disposition:** ✅ COMPLETE — both tasked deliverables shipped. Position UNCHANGED (TLT puts HOLD, no add). Composite **12/35**, fifth consecutive unchanged scoring session.
+**Session:** 2026-08-21 (Fri) ~11:30 → ~12:xx ET · **Session 2 of the day.** · **Trigger:** Will — "boot up" · a VULCAN cross-session correction landed at boot and set the session's shape.
+**Disposition:** ✅ COMPLETE — **peer correction accepted in full; it then surfaced a larger error of my own, which was corrected, propagated-out and confirmed applied at both receiving desks.** Position **UNCHANGED** (TLT puts HOLD, no add). Composite **12/35**. **No thesis-level change.**
 
 ---
 
@@ -9,72 +9,64 @@
 
 | Step | Result |
 |---|---|
-| `git pull` | Already up to date (VULCAN work uncommitted outside my dir — untouched, pull was a no-op) |
-| `docket_check.py` | **rc=0** — 4/4 upcoming coupon auctions docketed (8/25 2Y · 8/26 2Y-R + 5Y · 8/27 7Y), CUSIP-keyed |
-| `boot_recompute.py` | **rc=1** — one derived-distance flag at `STATUS.md:242` ("9bp from"). **Inspected: a correctly-dated 8/18 BOTTOM LINE historical record. Left intact, then archived wholesale later in the session with an explicit supersession note.** |
-| PREDICTIONS DUE-scan | **`BND-15` only OPEN, in-window** through 8/29 — nothing DUE |
+| `git pull` | Already up to date |
+| `docket_check.py` | **rc=0** — 4/4 upcoming coupon auctions docketed (8/25 2Y · 8/26 1Y11M + 5Y · 8/27 7Y), CUSIP-keyed |
+| `boot_recompute.py` | **rc=0** — no unguarded drift on the boot-unread surfaces (`TRADE.md` / `monitors/` / `NEXUS_BRIEF`) |
+| PREDICTIONS DUE-scan | **`BND-15` only OPEN**, in-window through 8/29 — **nothing DUE** |
 | WALTER lane | 0 |
-| General inbox | 8 present, **5 new**; 3 consumed this session, 5 deferred (general inbox = a separate task) |
+| General inbox | 5 present, all deferred from session 1 (general inbox = a separate task) |
+| Levels re-confirmed | 30Y **5.19** / 10Y **4.65** / 2Y **4.19** / DFII10 **2.35** [all 8/19] · HY **275** / CCC **1035** / IG **82** [all 8/20] · add-gate **15bp** · run **32 consecutive ≥5.00, 48 days in 2026** |
 
-## 2. Deliverable ① — T6 concur/dissent (answered 6 days inside PROME's ~8/27 want-by)
+## 2. The correction received — accepted in full (`KB-BND-159`)
 
-**Verdict: CONCUR on all four. NO SPLIT — PROME carries a joint ruling.** Answered **by name, not number** (three separate "fourth"s were live on one test — root `CLAUDE.md` § numbering-collision).
+VULCAN: *"two independent pulls of ONE source is not a cross-check."* **Correct, and the framing was mine.** Session 1's `RECEIPT`/`SCRATCH` recorded that VULCAN *"independently pulled HY OAS 275bp [8/20], matching this refresh exactly."* **Both pulls hit `FRED BAMLH0A0HYM2`.**
 
-| Item | Disposition |
-|---|---|
-| repo/funding refuse-or-confirm | **ACCEPTED** + new FR2004 corroboration LIQUID did not have |
-| fresh-high OR-leg | **CONCUR — leave as written.** Conceded two of my own arguments: redundancy fails on **TIMING** (primary = 5 *consecutive* sessions ≥5.10, OR-leg = *one* print; 5.31→5.28→5.19 is that path), and my own no-mid-flight-edit principle governs against my own fix |
-| platform naming | **CONCUR — Kalshi, gap-marking MANDATORY, cadence secondary.** Fallback locked 8/21 before ORACLE's answer was known |
-| "keeps falling" | **CONCUR** (my own wording, adopted verbatim by LIQUID) + **added the mandatory residual branch**: ungradeable qualifier ⇒ **OR-leg does NOT fire** |
-| D-SATURDAY | **Will's Option C ACCEPTED** without reservation |
-| **fresh-high vs `>5.28` DIVERGENCE** | 🔴 **RAISED — the clause LIQUID's ruling leaves standing.** Proposed the **conjunctive** reading. **Harder bar for my own branch.** Open pending LIQUID's concur, then Will |
+- **What the agreement DOES validate** — kept, because it is normally invisible: the **FETCH** on both sides (no transcription slip, no stale cache, no mis-keyed series).
+- **What it CANNOT do:** corroborate the **VALUE**. *Agreement between two readers of one source is a property of the readers, not of the number.*
+- **Fixed on both surfaces; it never reached the 9/3 deliverable — caught one surface early.**
+- ⇒ **STANDING RULE ADOPTED:** a BOND surface reporting agreement with another desk **names the series both sides pulled.** *(VULCAN adopted the same rule at its desk.)*
 
-⏰ **Operative find: the ORACLE gap-marked pin had to START TODAY** — 5 trading sessions back from Option C's last gradeable data (Fri 8/28) lands on **Fri 8/21**. The ask had read *"pin through 8/29"*; the operative half is the START. **PROME caught the clock same-day and filed a provisional day-1 capture.**
+## 3. ⚠️ What that surfaced — my own error, larger (`KB-BND-162`, n=6)
 
-**Packets written, delivered, committed and verified on origin by path** (`1d4dde952`): LIQUID (full reasoning) · PROME (disposition + routing) · ORACLE (amended start date). Doorbelled PROME via `SendMessage` — LIQUID and ORACLE were dark.
+Re-pulling the primary to verify a *different* figure exposed a false clause published in session 1: *"16 prior obs ≥1035, **every one of them April-2025**."*
 
-## 3. Deliverable ② — full dashboard refresh
-
-**The tape moved BOTH WAYS and every load-bearing figure was a session stale.**
-
-| | Was | Now |
+| | count | dates |
 |---|---|---|
-| DGS30 | 5.28 [8/18] | **5.19 [8/19]** (run 32 consec / 48 days 2026) |
-| DFII10 / add-gate | 2.41, **9bp** | **2.35 [8/19], 15bp** — second session AWAY |
-| DGS10 / DGS2 | 4.71 / 4.19 | **4.65 / 4.19 [8/19]** |
-| T10YIE / T5YIFR | 2.30 / 2.32 | **2.34 / 2.34 [8/20]** |
-| HY / CCC / IG | 273 / 1030 / 81 | **275 / 1035 / 82 [8/20]** |
-| SOFR−IORB | +1bp [8/17] | **−2bp [8/20]** |
-| FR2004 long-end | 150.0B [8/05] | **149.2B [8/12]** |
-| ^MOVE / WALCL / KW-TP | 75.63 / $6.760T / 0.826 | **73.18 [8/20] / $6.746T [8/19] / 0.839 [8/14]** |
+| Apr-2025 | 12 | 2025-04-04 → 2025-04-22 |
+| Oct-2023 | 2 | 10/30, 10/31 |
+| Nov-2023 | 1 | 11/01 |
+| Aug-2024 | 1 | 08/05 |
 
-**★ CCC 1035 is a FRESH 2026 HIGH** (takes out 1034, 7/31) — **computed at write time with all four parameters**, after n=5 false superlatives of which the last was on this same series. **NOT a series high:** max **1137 (2025-04-07)**, **16 prior obs ≥1035**, all April-2025 (`BAMLH0A3HYC` · session closes · 2023-08-22→2026-08-20 · n=787). `KB-BND-155`.
+**Four episodes across three years — 12 of 16, not 16 of 16.** *(`BAMLH0A3HYC` · session closes · 2023-08-22→2026-08-20 · n=787 · cache-busted.)*
 
-**Three live-wrong cells corrected, not carried:**
-1. **The thesis-kill's SOFR−IORB leg** asserted its letter was **MET** (+1bp [8/17]). Fully reversed → **−2bp [8/20]**; **all three kill legs now un-met simultaneously.** `KB-BND-157`.
-2. **The auction-health downgrade counter read "ONE" while the same cell ruled TIPS do not count.** True count: **ZERO** (8/19 20Y failed and reset it). ⚠️ **Runs in favour of my own bear thesis — stated explicitly for that reason.**
-3. **WALCL's flat *"balance sheet is GROWING"*** took its **first weekly decline** (−$14.3B). Qualified; no-coupon-bid structure unchanged.
+- **UNAFFECTED:** fresh 2026 high · not a series high · max 1137 (2025-04-07) · count 16 · all four declared parameters.
+- ⚠️ **DIRECTION RUNS AGAINST ME** — four episodes is a **more ordinary** level than a single tariff-shock touch, so the correction **weakens** the escalation read. `VX-BND-11` holds at 3; 1100 is the registered line and nothing fired.
+- **METHOD:** I declared four parameters and **computed the count**, then attached an **uncomputed adjective about that set's internal composition**. **Where the 16 observations SIT is a second computation wearing the first one's parameters.**
+- **Also corrected:** *"IG flat in a 3bp band"* → `BAMLC0A0CM` **0.78 → 0.82 over 12 closes, a 4bp band drifting WIDER**. Replaced with a better-constructed contrast: **HY index DEAD FLAT 2.75→2.75 [8/05→8/20] while its own CCC tail ran +12bp** — same family, same provider, no denominator mismatch.
 
-**New datum:** FR2004 **8/12** as-of landed — **that is the $125B refunding week.** Dealers ran long-end stock DOWN THROUGH the quarter's largest supply event, which cleared with indirect at/above trailing-12 median at all three tenors. **Benign distribution confirmed THROUGH a supply test, not around one.** `KB-BND-156`.
+**Propagation + fix:** 8 live surfaces here · PROME's HEARTBEAT §3 tag · VULCAN's STATUS (adopted verbatim with attribution). Fixed **by PATTERN**, ⚠️ **and the first pattern had a hole** — bold markers hid `STATUS.md:8`, caught only by the residual re-scan. **The pattern pass is not the check; the residual scan is.** `KB-BND-155` → **CORRECTED**, Fact intact as the record (`KB-BND-139` precedent).
 
-**Partial-H.15 publish observed and recorded** (`KB-BND-158`): nominals through **8/19**, breakevens through **8/20** — the 8/20 nominal close exists upstream but is **not gradeable at my primary**, which is load-bearing on `BND-15`. *"Refresh the RELEASE, not the series"* biting in reverse.
+## 4. Reciprocal finding sent — fan-out is not replication (`KB-BND-161`)
 
-## 4. Files written
+VULCAN's *unreached-by-three* CDS record **verified at LIQUID's artifacts and checks out** — but it bundles two claims of different strength: **① ABSENCE is genuinely three-desk strong** (each failure to reach is an independent attempt against its own toolkit); **② LEVEL is not** — all three desks hold the 7/27 prints from **ONE WALTER dispatch** (`SIG-W-20260728-008`; `-002` additionally to LIQUID/VULCAN). **Three inboxes, one source.** VULCAN split it into two permanent lines. **Kept off Will's HELD US-sovereign-CDS item** — different reference entity.
 
-`STATUS.md` (249 ln, under cap — full dashboard, 6 matrix evidence cells, composite, Trade Interface, Exit/Falsification, T6 ruling record, new BOTTOM LINE) · `TRADE.md` (gate table, posture, DTE→40, daily watch list) · `NEXUS_BRIEF.md` (header + §4 re-pinned, T6 line) · `monitors/DEALER_CAPACITY.md` (8/12 print + table extended) · `monitors/CREDIT_PRIMARY_MARKET.md` (whole table onto ONE date) · `monitors/CDX_CASH_BASIS.md` (re-run + VIOLET checkbox closed) · `workbook/KB.tsv` (+155/156/157/158) · `workbook/VX.tsv` (01/02/04/11) · `docket/CATALYSTS.tsv` (credit row) · `CLAUDE.md` (one guard label, §5 below) · `SCRATCH.md` · this receipt.
-**Archived at the line cap:** the 8/18 **and** 8/19 BOTTOM LINE blocks → `domain/sources/2026-08-21_STATUS_archive_bottomline_8-18.md`, verbatim, each with an explicit superseded-figures header; three archive-pointer lines consolidated into one.
+## 5. CRWV filed RELAYED-PENDING-VERIFICATION (`KB-BND-160`)
 
-## 5. Checks
+VULCAN offered the **filing, not the figure** (CRWV Q2 10-Q, acc `0001769628-26-000366`, Note 16). **5.0→5.5 in three months, both recourse-guaranteed = +100bp; DDTL 4.0 non-recourse ⇒ Mar→Aug NOT quotable as +325bp.** **BOND has not pulled it and asserts nothing.** **Perimeter: neocloud, private/bank-syndicated ⇒ enters neither side of the hyperscaler long-dated public IG issuance share.**
 
-| Check | Result |
-|---|---|
-| `closeout_check.py` (first run) | **rc=1, 3 findings** — 2 were yesterday's `RECEIPT.md` (this file, now overwritten); 1 was `CLAUDE.md:29` |
-| `CLAUDE.md:29` disposition | A **correctly-labelled historical quote** of the 8/20 corrected defect, carrying **no `GUARD` token**, so it would have fired every closeout forever. **Added `historical` + `corrected` labels to the sentence — quote verbatim, history intact, only the label new.** That is what `GUARD` exists for; rewording a quote to stop a pattern-match is permitted, erasing history is not. |
-| TSV field-count | ✅ whole-file, all three TSVs touched |
-| STATUS line cap | ✅ **249 / 250** |
+## 6. Files written
 
-## 6. Mail state
+`STATUS.md` (249 ln, at cap — 2 corrections inline, no lines added) · `SCRATCH.md` (rewritten) · `RECEIPT.md` · `workbook/KB.tsv` (+159/160/161/162; `-155` → CORRECTED) · `workbook/VX.tsv` · `docket/CATALYSTS.tsv` · `TRADE.md` · `NEXUS_BRIEF.md` · `monitors/CREDIT_PRIMARY_MARKET.md` · `MEMORY.md` (2 durable learnings) · auto-memory ×2 **extended, no new slugs** (`finding_crosscheck_with_free_parameter_validates_nothing` — same-primary case + fan-out corollary; `finding_verified_figures_do_not_verify_the_shape_claim` — third form, routed there by PROME).
+**THESIS/CHANGELOG NOT bumped** — no new channel, no conviction shift, no threshold breach, no prediction resolution. Both corrections moved a **characterisation**, not a score.
 
-**In:** 3 consumed → `inbox/processed/` (LIQUID ruling + LIQUID correction + PROME Option-C relay). **5 deferred, all substantive, none acute:** DAEDALUS 18-findings review (#6–15 queued) · LABOR T7 verbatim · REGINALD FHLB $810.7B · VIOLET HYG-skew decline · PROME hyperscaler allocation (~9/3).
-**Out:** 3 packets delivered + committed + **verified on origin by path** (LIQUID, PROME, ORACLE).
-**Cross-session:** PROME messaged twice (packet consumed, executed `86185d5b9`; **reports Kalshi's PUBLIC api answers from the laptop — "desktop-only" covers the AUTHENTICATED path only**, which is **n=3** of this desk's claimed-unavailability-is-a-path-artifact class, and this time I raised the blocker). VULCAN messaged unprompted with the hyperscaler perimeter warning for 9/3 — **and independently pulled HY OAS 275bp [8/20], matching this refresh exactly.** Replies owed: PROME (ack), VULCAN (ack + the perimeter point accepted).
+## 7. Checks
+
+`docket_check` **rc=0** · `boot_recompute` **rc=0** · `closeout_check` **rc=0 clean, 0 findings across both checks** · unavailability sweep clean (no undated claim) · mirror check clean (`BND-15` the only OPEN row and STATUS agrees; THESIS header `v1.1.6` consistent after session 1's fix; CATALYSTS ↔ docket agree) · TSV field-counts verified **whole-file** (13/13) · ledger nudge **N/A** (commit set includes STATUS **and** KB/VX/CATALYSTS).
+
+## 8. Mail state
+
+**In:** 5 deferred, unchanged (DAEDALUS · LABOR · REGINALD · VIOLET · PROME hyperscaler allocation ~9/3). WALTER lane empty.
+**Out:** 1 packet → **VULCAN**, committed `496f2893d`, doorbelled, **confirmed applied in-session** (VULCAN KB-108).
+**Cross-session:** VULCAN ×2 (correction in → accepted in full; reply out → applied both ways, no open items). PROME ×2 (ack in; CCC correction out → **HEARTBEAT §3 carried the false clause, corrected `b2f5ecdd1`, ~20 min exposure; PROME confirms nothing false reached Will**).
+
+**One line:** *a peer told me my cross-check wasn't one, and checking that sent me back to the primary, where the thing I found wrong was mine and bigger — and it ran against my own thesis.*
