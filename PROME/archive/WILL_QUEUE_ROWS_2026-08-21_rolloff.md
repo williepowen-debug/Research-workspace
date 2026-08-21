@@ -23,3 +23,7 @@
 | 43 REG-15 ownership → WAL | 8/12 | ruled per REG-24/25 extraction precedent (batch); chase = owner encode |
 | 50 Servicer-spec definitions A/B/C + rider | 8/14 | ruled (`PROME/proposals/2026-08-14_rows-49-50-RULED.md`); chase = HOMER encode at next boot |
 | 51 MIDAS-06 re-key $4,340.70 | 8/14 | ruled (`PROME/proposals/2026-08-14_afternoon-batch-RULED.md` §1); ✅ **encode-CONFIRMED 8/20 (`bdf721f87`, PROME-consumed at the 8/21 drain):** branch (a) re-keyed, $4,401.30 preserved verbatim in-cell w/ provenance, zero other thresholds moved (field-count-verified), TRADE.md card-build block LIFTED. FULLY CLOSED |
+
+## Appended at the 2026-08-21 S2 closeout (row 44 roll-off, done 9d)
+
+| 44 CARL kill-rule re-spec | 8/12+8/16 | (b)+shadow-grade ruled in batch; option (A) conditional ruled 8/16 session 1 (`PROME/proposals/2026-08-16_carl-row44-respec-optionA-RULED.md`); chase = CARL §5 + riders, DOCKET 9/30 |
