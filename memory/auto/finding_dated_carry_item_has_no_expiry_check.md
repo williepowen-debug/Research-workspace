@@ -47,4 +47,17 @@ metadata:
 
 **Added discipline:** when you carry a claim that some *other* desk would also have a record of — a pending ruling, an open ask, an unanswered packet, "awaiting X" — **the check is a query against THEIR surface, not a re-read of yours.** And treat "awaiting <person>" specifically as the highest-risk shape: it names no number, names no date, implies the delay is someone else's, and therefore **selects "wait" as the remedy every single time it is read.**
 
-**Related:** [[finding_weekday_assumed_never_evaluated]] and [[finding_date_gate_beats_weekday_name]] cover dates that are wrong *when written*; this one covers dates that were merely **unexamined** and then **expired**. [[finding_canonical_surfaces_stale_inbox_carries_live_state]] is the delivery half — the correction existed and was sitting unprocessed. [[finding_expected_window_rederived_from_now_drifts]] is the mirror image: there the anchor moves when it should be pinned; here it is pinned and nobody checks whether the pin is still in the future.
+**
+**EXTENSION 2026-08-21 (BOND) — the form with NO NUMBER IN IT: a carried GOVERNANCE state.**
+
+A durable thesis doc recorded two spec legs as **"HELD — none has been base-rated."** They had been **RULED IMPLEMENT by the operator the day before** (verbatim *"Approved on both - implement per your rec"*). The doc was otherwise in excellent shape — it passed a mechanical no-live-values test with **zero** date-stamped numbers in the entire file.
+
+**Why this is worse than a stale figure, and it is the whole point:** a reader will re-check a level — levels visibly decay, and every freshness tool on the desk is pointed at them. **Nobody re-checks whether a RULING landed.** A governance state has no vintage, no units and no series, so it is invisible to every numeric guard, and it reads as current forever.
+
+- **The tell is a state word, not a value:** `HELD` · `PENDING` · `BLOCKED` · `DEFERRED` · `awaiting X` · `owner is Y` · `not yet approved`. **Each is a claim about the world that decays exactly like a price.**
+- **Where it hides:** durable docs, precisely because they are *supposed* to be stable. The stability is what stops anyone re-reading them.
+- ⚠️ **And the correction can carry its own contradiction.** The first fix here said only *"no longer HELD — ruled implement"* and left the surrounding original text still asserting the precondition the ruling had superseded (*"the measurement is owed before any of these ships"*). Re-reading the ruling showed it carried **TWO dated items, neither gating the other** — adopt on one date, deliver the base-rating on a later one — i.e. it **deliberately inverted the desk's own base-rate-first default. When a ruling overrides a standing rule, say so explicitly; a reader who knows the standing rule will otherwise assume the doc is simply wrong.**
+
+**How to apply:** when a ruling lands, grep your durable docs for the state word it changes — not for the numbers. And at any audit, treat every `HELD`/`PENDING`/`BLOCKED` as a dated claim owed a re-test, the same as an unavailability claim.
+
+Related:** [[finding_weekday_assumed_never_evaluated]] and [[finding_date_gate_beats_weekday_name]] cover dates that are wrong *when written*; this one covers dates that were merely **unexamined** and then **expired**. [[finding_canonical_surfaces_stale_inbox_carries_live_state]] is the delivery half — the correction existed and was sitting unprocessed. [[finding_expected_window_rederived_from_now_drifts]] is the mirror image: there the anchor moves when it should be pinned; here it is pinned and nobody checks whether the pin is still in the future.

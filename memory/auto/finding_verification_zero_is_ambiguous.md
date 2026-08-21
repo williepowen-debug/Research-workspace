@@ -36,4 +36,22 @@ metadata:
 - **Never score an optional field without reporting COVERAGE beside the score.** "0 problems" over a field nobody fills is indistinguishable from "0 problems" over a field kept perfectly — and the first ranks *higher*. Before publishing any cross-desk metric, ask: **could a desk improve its score by deleting the data?** If yes, the metric is backwards. Pair it with populated/total, or don't ship it.
 - **A case-wrong path returns empty and exits 0 — indistinguishable from a real null.** Same day: a peer grepped `board/` for a term that appears 12 times in `BOARD/` and reported finding nothing. It then *asked the owner instead of trusting its own null*, which is the behaviour that saved it. **A null from a search you did not verify can reach is not evidence of absence — confirm the search reached its target before reporting the zero.**
 
+
+**EXTENSION 2026-08-21 (BOND) — a PATTERN SWEEP certifies the regions and SHAPES it scans, and mine kept scanning tables while the defects sat in prose.**
+
+Three times in one day a fix-by-pattern pass reported clean and left the same defect standing in prose on the same file:
+
+- an IG-spread band corrected in two places by pattern, then found in a **third and fourth** because the wording differed;
+- a retracted run-length figure marked in two places, with a **fourth** live use surfacing only on a re-scan;
+- **three live add-gate distances (7bp / 9bp / 9bp against a live 15bp) that survived TWO full end-to-end audits** — one of them stale in the LEVEL, the DISTANCE **and** the DIRECTION simultaneously, on the cell that tells a reader whether to escalate to the operator.
+
+**Why the sweeps kept missing them:** the automated drift check scanned a gate TABLE, the monitor files and the outbound brief — **not the prose of the main status file**. And the manual passes read *cells*, because cells are what a dashboard audit trains you to look at. **The scan certified its regions, and the regions were not where the decisions were written.**
+
+⚠️ **And the third pass only happened because someone ASKED.** The operator said *"double-check our work"* after two clean passes, and that read found all three. **A re-read prompted by another person searches differently from a sweep you designed yourself** — you re-derive intent instead of re-matching a pattern, and you are not anchored on the shapes you already decided mattered.
+
+**How to apply:**
+1. **After any fix-by-pattern pass, run a residual scan and grade each hit as LIVE vs LABELLED-QUOTE.** The pattern pass is not the check; the residual scan is.
+2. **Name the regions a sweep did NOT cover, in the same breath as its result** — "clean on tables" is a different claim from "clean."
+3. **For decision-bearing numbers, ask someone to re-read rather than re-running your own sweep.** The second sweep finds what the first was already shaped to find.
+
 Related: [[finding_test_the_guard_not_just_the_guarded]] · [[finding_silent_blank_evades_review]] · [[finding_fail_loud_on_incomplete_data]] · [[finding_ledger_drift_behind_narrative]] · [[finding_state_token_sweep_all_surfaces]]
