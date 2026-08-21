@@ -220,6 +220,8 @@ Every metric appearing in ≥2 posts, one figure and one owner. **No unresolved 
 
 > **T11 remains the single line most likely to be misread downstream.** A GATE-HY-REKILL fire is **not** by itself evidence against migration — conditional on the idiosyncratic legs it could be the cleanest evidence *for* it.
 
+> ⚖️ **RULING ANNOTATION 2026-08-21 (Will, in-session; frozen text above UNCHANGED — this block disambiguates, it does not amend):** T6's hard close **2026-08-29 is a Saturday** (LIQUID's defect 4, found 8/20). Ruled **Option C**: the close stands as written; effective last gradeable data = **Friday 8/28's session closes**; a trigger firing with fewer sessions remaining than a branch requires grades **NO-VERDICT-BY-COMPRESSION** — recorded with cause, never scored for or against either desk. No threshold, branch, band, window or trigger source moved. BOND's concur/dissent on LIQUID's defect-1–3 rulings remains owed (joint-or-split via PROME); a joint co-owner proposal for different treatment returns to Will as a fresh word. Record: `PROME/proposals/2026-08-21_t6-saturday-option-c-RULED.md`.
+
 #### T1 RESTATED — 8 rows, withdrawal at ≥5-of-8, and why I rounded the way I did
 
 **The COR1M row is DROPPED** per VIOLET's dissent (§7.1), adopting her option (a). **T9's four-way conjunction now stands as the sole vol-side falsifier**, on its own line, where it was correctly built.

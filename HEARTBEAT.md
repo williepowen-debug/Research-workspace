@@ -79,7 +79,7 @@ DXY 99.64 [8/14, re-pull] away from 102-103 · HY 273 [8/19] vs >320 = 47bp away
 | ~8/24-29 | **FDIC Q2 QBP = CREED-T-03 — needs a CREED spawn in-window** | CREED (+REGINALD) |
 | 8/27-29 | Jackson Hole (Warsh keynote ~8/28) ⚠️ secondary-sourced | fleet |
 | 8/28 | **QCEW · MIDAS-06 (re-keyed) · NEXUS falsifier · ~MOF monthly (v1.8 key input) · DAEDALUS fleet wiring sweep** | LABOR/MIDAS/NEXUS/SAM/DAEDALUS |
-| 8/29 | **T6 hard-close · HEN-42 (on schedule, never into Sept) · C-36 decline EXPIRES · BND-15 resolves** | LIQUID/HENRY/BOND |
+| 8/29 | **T6 hard-close (SATURDAY — semantics RULED Option C 8/21: last gradeable data = Fri 8/28 closes, late-fire = NO-VERDICT-BY-COMPRESSION; BOND joint-packet residual open, non-blocking) · HEN-42 (on schedule, never into Sept) · C-36 decline EXPIRES · BND-15 resolves** | LIQUID/HENRY/BOND |
 | 8/31 | FMHPI July = HOM-01 decider · BCRED tender · OSP-04 closes | HOMER · BROCK/SHADE · OSPREY |
 | 9/3 | **SAM full curve-attribution grade (must name: weak discriminator vs out-of-universe driver)** | SAM (+BOND 8/13→9/3 rebuild) |
 | **★ 9/9-10** | **THREE-EVENT COLLISION: buyback ops begin + ECB Berlin + MTS** (F2 scoreable from 9/9) | BOND/TERRY |
