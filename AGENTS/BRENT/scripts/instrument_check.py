@@ -548,6 +548,54 @@ INCIDENTS = BRENT_DIR / "refinery_damage" / "INCIDENTS.tsv"
 INCIDENT_ACTIVE_BUDGET_D = 60   # ACTIVE >=60d unverified => re-verify-or-downgrade
 
 
+def check_incident_impossible(today=None):
+    """I-8 — INTERNAL-CONSISTENCY invariant: bpd_offline_est must not exceed capacity_bpd.
+
+    Adopted 2026-08-21 (BRENT). supersedes: none — EXTENDS this script's INCIDENTS coverage
+    with a check that needs NO network, NO source, and NO judgement.
+
+    ⚑ WHY IT EXISTS. Found by accident: RF-008 Port Arthur asserted 415,000 bpd offline
+    against its OWN capacity_bpd of 380,000 — more offline than the facility has — carried
+    as offline_state=MEASURED, while the row's own note said 47,000. It had sat that way
+    since 2026-04-16.
+
+    ⛔ AND THE REASON NOTHING CAUGHT IT IS THE POINT: RF-008's status is PARTIAL_RESTART,
+    and the 60-day re-verify budget filters on status == 'ACTIVE'. 25 of the ledger's 53
+    rows sit in statuses NO check reads (MONITORING 15, RESOLVED 12, ATTACKED_INFRA_INTACT 3,
+    PARTIAL_RESTART 1, DISPUTED 1). The staleness check answers 'has anyone looked lately?'
+    for one status; this answers 'is the row even self-consistent?' for ALL of them.
+    `[[finding_registered_gate_captures_attention]]` — the gated instrument gets the
+    attention and the un-gated ones are swept by nothing.
+
+    ⚠️ SCOPED DELIBERATELY NARROW: only rows where BOTH units are BPD are compared, so the
+    BCFD / MTPA / MW rows (offline_state=NA-WRONG-UNIT) are skipped rather than mis-flagged.
+    This checks ARITHMETIC POSSIBILITY, never whether either figure is TRUE.
+    """
+    if not INCIDENTS.exists():
+        return []
+    bad = []
+    with open(INCIDENTS, newline="", encoding="utf-8") as fh:
+        hdr = None
+        for line in fh:
+            if line.startswith("#") or not line.strip():
+                continue
+            f = line.rstrip("\n").split("\t")
+            if hdr is None:
+                hdr = f
+                continue
+            r = dict(zip(hdr, f))
+            if (r.get("capacity_unit") or "").strip() != "BPD":
+                continue
+            if (r.get("offline_unit") or "").strip() != "BPD":
+                continue
+            cap = (r.get("capacity_bpd") or "").strip()
+            off = (r.get("bpd_offline_est") or "").strip()
+            if cap.isdigit() and off.isdigit() and int(off) > int(cap):
+                bad.append((r.get("id", "?"), r.get("facility", "?"),
+                            int(cap), int(off), (r.get("status") or "?").strip()))
+    return bad
+
+
 def check_incident_staleness(today=None):
     """I-2 — ACTIVE incident rows are a PRESENT-TENSE CAPACITY CLAIM with no expiry check.
 
@@ -698,6 +746,16 @@ def main():
         # a silent coverage hole wearing the appearance of a cleaner board.
         # ⚠️ Prints UNCONDITIONALLY when any such row exists, including when `inc` is empty,
         # so an otherwise-clean run still discloses what has been moved out of scope.
+        # I-8 — arithmetic-possibility invariant, ALL statuses (see check_incident_impossible).
+        imp = check_incident_impossible()
+        if imp:
+            print(f"\n  {RED} INCIDENTS.tsv — {len(imp)} row(s) assert MORE OFFLINE THAN THE FACILITY HAS "
+                  f"(bpd_offline_est > capacity_bpd — arithmetically impossible, fix the row):")
+            for rid, fac, cap, off, st in imp:
+                print(f"     {RED} {rid} {fac[:34]:34s} capacity {cap:>9,} < offline {off:>9,} "
+                      f"({off-cap:+,}) status={st}")
+            print(f"     ⚠️  Checks POSSIBILITY, never truth — and it reads EVERY status, not just ACTIVE.")
+
         perm = getattr(check_incident_staleness, "permanent", [])
         if perm:
             print(f"\n  {GREEN} INCIDENTS.tsv — {len(perm)} row(s) in PERMANENT_CLOSURE "
@@ -716,6 +774,18 @@ def main():
         print(f"  ⚠️  This checks the INSTRUMENT, never whether the THRESHOLD LEVEL is still meaningful.")
         print(f"      A permanently-breached line (gasoline crack >$30) probes perfectly GREEN.")
 
+    # ⛔ I-8 MUST REACH THE EXIT CODE, NOT JUST THE SCREEN (added 2026-08-21, same edit as I-8).
+    # boot.py renders this script's SUMMARY line from its rc, and prints the body separately.
+    # Without this clause an arithmetically-impossible row printed a RED line in the body while
+    # the boot summary said "✅ Instrument Check OK" — a reader scanning the summary saw a clean
+    # board. That is the identical silent-fallback-green shape killed in thresholds.py on
+    # 2026-08-17, reproduced by me in a NEW check on the same desk four days later.
+    # [[finding_guard_correctness_and_wiring_are_independent]] — writing the check and making it
+    # REACH anyone are two changes, and only the first is interesting to write.
+    # ⚠️ NOTE the incident STALENESS block deliberately does NOT set rc (it is amber/advisory by
+    # its 2026-08-13 spec). I-8 does, because an impossible value is a DEFECT, not a backlog item.
+    if check_incident_impossible():
+        return 2
     return 2 if any(g["level"] == RED for x in results for g in x["findings"]) else 0
 
 
