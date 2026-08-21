@@ -147,3 +147,50 @@ Pulled while testing §1's rejected shortcut. **Two independent lines, one needi
 ## 8. What moved
 
 **NOTHING. `$0`. No threshold moved · no gate fired or unfired · no position changed · no prediction resolved · no registry row edited.** R3 stays where Will put it. The three corrections above are **packets**, not edits to other desks' files.
+
+---
+
+# ⛔⛔ AMENDMENT 2026-08-21 — FORWARD CHECK ② IS RE-SPEC'D **BEFORE IT RUNS**. AS WRITTEN IT MANUFACTURES A ~70% PHANTOM COLLAPSE.
+
+**Check ② is due `~8/24–31`, i.e. Monday. This amendment lands three days ahead of it, not after.**
+**⚑ CREDIT WHERE IT IS OWED: FALCON CAUGHT THIS, NOT ME** — `KB-FALCON-102` (2026-08-20), logged explicitly as *"a SAVE for BRENT"* on **my** check, flagged **before** its test could run. **Its save is adopted in full.**
+
+### The defect — the check names a BAR but never names a PERIMETER
+
+Check ② as written says: *"**If Sidi Kerir holds ~2.2 mb/d, the Yanbu decline was not a barrel decline.**"* That bar comes from the **w/c-8/3 print: `2.17 mb/d`, ~90% Saudi crude — TOTAL liftings, ALL destinations, WEEKLY average.**
+
+**But the figure a grader will actually encounter on 8/24 is a different object.** Reuters 8/18: *"about **670,000 bpd** is expected to load at Egypt's Sidi Kerir **for Asia** this **month**"* — **DESTINATION-SCOPED (Asia only) and MONTH-SCOPED.**
+
+| | Baseline (the bar) | The figure in circulation |
+|---|---|---|
+| **Perimeter** | **TOTAL — all destinations** | **ASIA ONLY** |
+| **Cadence** | **WEEKLY average mb/d** | **MONTHLY expectation** |
+| Value | `2.17 mb/d` | `~0.67 mb/d` |
+
+⇒ **`0.67 / 2.17 = 30.9%` ⇒ a grader plugging the available number into the written test records a `−69%` COLLAPSE and concludes the Yanbu decline WAS a barrel decline.** ⛔ **THAT VERDICT WOULD BE AN ARTEFACT OF TWO PERIMETER MISMATCHES STACKED, AND IT POINTS AT MY OWN BOOK** — a "confirmed westbound constraint" is the thesis-favourable outcome, which is exactly the direction a defect should never be allowed to run unchecked. `[[finding_cross_entity_comparison_needs_same_perimeter]]` · `[[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]`
+
+### RE-SPEC — check ② is only runnable on a like-for-like figure
+
+**All four conditions must hold, and the grader must SAY they hold:**
+1. **PERIMETER = TOTAL liftings, ALL destinations.** A destination-scoped figure (Asia, Europe, "to India") is **NOT** comparable and must never be scaled up to imply a total.
+2. **CADENCE = WEEKLY average mb/d.** A monthly aggregate or a month-ahead *expectation* is **NOT** comparable.
+3. **BASIS = the same tracker series that produced the `2.17` baseline** (Vortexa, via the marinelink relay). ⚠️ **A different tracker's Sidi Kerir number is a DIFFERENT SERIES** — the Yanbu prints already disagree `2.8×` in this very document (Kpler 1.78 / Vortexa 2.38 / AXSMarine 0.85, disagreeing in SIGN). **Do not mix trackers across the comparison.**
+4. **VINTAGE = a PUBLISHED print for a COMPLETED week**, not a forward expectation. *"Expected to load this month"* is a forecast, not a measurement.
+
+**⇒ IF ANY CONDITION FAILS: the verdict is `NOT RUNNABLE — NO-VERDICT`. Record that and stop.** ⛔ **DO NOT convert, pro-rate, annualise or scale a mismatched figure to make the check gradeable. A non-runnable check is a real answer; a converted one is a fabricated verdict wearing a measured one's clothes.**
+
+**⛔ THE BAR IS NOT MOVED.** `~2.2 mb/d` stands exactly as registered — this amendment adds the **perimeter, cadence, basis and vintage qualifiers the bar always needed and never carried.** Re-basing would be a new build (`L21`/`L22`); qualifying an under-specified comparison is a repair.
+
+### ★ The transferable half, and it generalises past this row
+**A threshold is not fully specified by its NUMBER and its DIRECTION.** This check named both — `~2.2 mb/d`, "holds" — and was still un-gradeable, because **it never said what KIND of measurement was allowed to meet it.** ⇒ **an under-specified perimeter does not read as a gap; it reads as a threshold, and the first plausible number in circulation fills it.** ⚠️ **Worth a sweep of my other dated checks for the same shape** — recorded as owed, not done here.
+
+### ⚖️ Governing lessons — **scoped to THIS AMENDMENT**, not to the whole 8/17 document
+
+`lessons_check --spec` returns **13 governing lessons** for this file. **Most of them govern the ORIGINAL 8/17 discriminator, not the amendment above, and reconciling all 13 here would be scope creep dressed as diligence.** The ones the **amendment** actually turns on:
+
+- **`L08` — storage/flow data has REPORTING LAG. This is the amendment's own subject.** Check ② is *built* on a lag (SUMED liftings trail Yanbu loadings by the Yanbu→Ain Sokhna→Sidi Kerir transit), and **condition 4 (a published print for a COMPLETED week, never a forward expectation) is L08 applied to the grading vintage.** ⚠️ **The lag cuts both ways and the check must not be run early: a Sidi Kerir print that is too RECENT cannot yet contain a Yanbu decline, so an on-time "holds ~2.2" reading could be a lag artefact rather than a refutation.** ⇒ **state the print's week explicitly when grading.**
+- **`L10` — paper ≠ physical.** *"About 670,000 bpd **is expected to load** … this month"* is a **forecast**, i.e. paper. **Condition 4 excludes it on exactly L10's grounds.** A month-ahead expectation is not a measurement of barrels that moved.
+- **`L21` / `L22`** — **the amendment IS these two applied:** a threshold fails on its SPEC before it fails on the world, and a registration must name an instrument that can actually be read against it. **The bar was a number without a perimeter, which is a spec failure, and it is repaired without moving the level.**
+- **`L05`** — honoured trivially: nothing here is graded off a STATUS-carried figure; condition 3 pins the basis to the originating series.
+
+⛔ **NOT CLAIMED AS RECONCILED: `L06`, `L09`, `L11`, `L16`, and the remainder govern the ORIGINAL document's §§1–7 and are UNTOUCHED by this amendment.** **A full reconciliation of the parent document is OWED and is not done here** — recorded as a gap rather than left as silence, per the sweep's own warning that silence is the failure mode.
