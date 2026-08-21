@@ -34,6 +34,35 @@ DELIBERATE ASYMMETRY: when classification is ambiguous, we report STALE, not
 FLAGGED. A false STALE costs a glance. A false FLAGGED costs exactly the
 failure this tool exists to prevent.
 
+2026-08-21 PATCH (DAEDALUS, Will-approved; defects routed by HENRY as author —
+sources: WAL/REGINALD marker-drop 🔴, LABOR status-column 🟠, VIOLET NUM_RE
+csv-fusion 🟠, LIQUID frozen-banner scope):
+  1. PROXIMITY, NOT PRESENCE: a supersession marker clears ONLY the matched
+     value(s) within MARKER_WINDOW chars of it — per-needle, so a row carrying
+     a live stale value PLUS a history clause about an older one no longer
+     buries the live hit under the history clause's marker. The 🟢 bucket is
+     auditable via --show-handled (each hit prints WHY it was cleared, incl.
+     the matched marker token).
+  2. FILE-LEVEL DEAD BANNERS: a file whose banner region declares it FROZEN/
+     RETIRED/SUPERSEDED/ARCHIVED (ledger_staleness.is_frozen, the fleet's
+     hardened v4 recognizer — one recognizer, not two that drift) is historical
+     wholesale; its hits bucket 🟢 with that reason instead of demanding
+     per-cell annotation noise.
+  3. CSV FIELD FUSION KILLED: in .csv files the comma is a field delimiter,
+     not a thousands separator — lines are split on ',' BEFORE tokenizing, so
+     '2024-11-15,4.43' can never again manufacture '154.43'. Cache-input dirs
+     (*_cache/, cache/) are excluded everywhere: inputs cannot carry a claim.
+  4. TOOL READS `status`: a PUBLISHED.tsv `status` column with RETIRED/
+     RETRACTED on a metric's latest row makes EVERY recorded value of that
+     metric a positive stale-target (what LABOR's sentinel-row convention
+     simulated by hand; the sentinel still works, this subsumes it).
+  5. TRANSITION SHAPE: a strict 'A → B' arrow between two different values is
+     the RECORD of a supersession — cleared per-needle regardless of whether B
+     equals this invocation's --new (the multi-old mis-pairing hazard). The
+     looser 'dated series row' shape is deliberately NOT auto-cleared: without
+     equality-to-current it is indistinguishable from a stale value sitting
+     beside unrelated figures, and false-HANDLED is the expensive direction.
+
 USAGE  (fleet-adopted 2026-07-28, Will-approved — moved from AGENTS/HENRY/scripts/
         to root scripts/, the orphan_check adoption path; root CLAUDE.md
         session-end step 1c is the standing trigger)
@@ -54,6 +83,12 @@ import os
 import re
 import sys
 from pathlib import Path
+
+# One banner recognizer for the whole fleet (v4, TERRY-hardened, synthetic test
+# matrix lives with it) — importing beats re-implementing: two recognizers drift.
+# Both scripts live in scripts/; sys.path[0] is this script's dir. Fail LOUD if
+# absent — a silent "not frozen" fallback would be the PAT-106 class.
+from ledger_staleness import is_frozen
 
 # --------------------------------------------------------------- configuration
 
@@ -77,8 +112,75 @@ SUPERSESSION_MARKERS = [
 
 CONTEXT = 2  # lines either side of a hit to scan for a marker
 
+# A marker excuses a matched value only within this many chars of it (2026-08-21,
+# WAL/REGINALD marker-drop fix). Genuine adjacency ("7,496 (superseded 7/28)",
+# "was 7,496") sits within ~40 chars; the dropped REGINALD hit had its marker in
+# a history clause ~200 chars from the live value it wrongly cleared.
+MARKER_WINDOW = 60
+
 # number-like span: 1,234.56 / 7496 / 7,496 / 0.02
 NUM_RE = re.compile(r"\d[\d,_]*(?:\.\d+)?")
+
+# strict transition arrow: nothing but the arrow (± spaces) between two values
+ARROW_RE = re.compile(r"\s*(?:→|⇒|->|=>)\s*$")
+
+# File-level dead banner, PROSE form: line-initial token (only punctuation/
+# emphasis/emoji may precede) + an ISO date somewhere on line 1 — the root
+# Data-Hygiene canon form is 'FROZEN <date> — ...', PREPENDED. Banner FORM,
+# not keyword presence (PAT-059): '# Notes on superseded values' must not match.
+DEAD_LINE1_RE = re.compile(r"^[^A-Z0-9]{0,12}(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED)\b")
+ISO_DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
+
+
+def file_is_dead(path: Path, rowish: bool) -> bool:
+    """File-level dead-surface banner (LIQUID 8/20). Row-oriented files use the
+    fleet's hardened v4 recognizer (its designed scope — TSV banner regions,
+    TERRY test matrix). Prose files get the STRICT line-1 form only: is_frozen's
+    6-line banner region misfires on prose whose opening paragraph merely
+    MENTIONS a marker word — caught by this patch's own fixture via
+    --show-handled before ship, a false-HANDLED (the expensive direction)."""
+    if rowish:
+        return is_frozen(path)
+    try:
+        with open(path, "r", encoding="utf-8", errors="replace") as f:
+            first = ""
+            for l in f:
+                if l.strip():
+                    first = l.upper()
+                    break
+    except OSError:
+        return False
+    return bool(DEAD_LINE1_RE.match(first) and ISO_DATE_RE.search(first))
+
+
+def _excluded(parts) -> bool:
+    """EXCLUDE_PARTS membership + cache-input dirs (VIOLET 8/20: fred_cache/ and
+    kin are INPUTS — a cached pull cannot 'carry' a stale claim; scanning them
+    scales false hits with retained data)."""
+    for p in parts:
+        q = p.lower()
+        if q in EXCLUDE_PARTS or q == "cache" or q.endswith("_cache"):
+            return True
+    return False
+
+
+def iter_num_tokens(line: str, csv_mode: bool = False):
+    """(normalized_value, start) for every numeric token on a line.
+
+    csv_mode: the line is split on ',' FIRST — in a .csv the comma is the FIELD
+    DELIMITER, not a thousands separator, and NUM_RE's [\\d,_] class otherwise
+    reads straight across the boundary: '2024-11-15,4.43' captured '15,4.43',
+    normalize() stripped the comma, and VIOLET's --self run was told her own dir
+    carried 154.43 — a 10Y yield row, wrong by ~35x (2026-08-20)."""
+    if not csv_mode:
+        for m in NUM_RE.finditer(line):
+            yield normalize(m.group(0)), m.start(), m.end()
+        return
+    off = 0
+    for field in line.split(","):
+        for m in NUM_RE.finditer(field):
+            yield normalize(m.group(0)), off + m.start(), off + m.end()
+        off += len(field) + 1
 
 # ------- unit/specificity gating (2026-08-07, VIOLET c7d3a07b1: 9-of-9 FP) -------
 # Bare-string number matching is ~100% false-positive on short figures: `10.13`
@@ -110,18 +212,18 @@ def sig_digits(tok: str) -> int:
     return len(digits.lstrip("0"))
 
 
-def context_ok(line: str, hit_values: set, units, series) -> bool:
+def context_ok(line: str, hit_values: set, units, series, csv_mode=False) -> bool:
     """True if the line carries the declared unit adjacent to a matched number,
     or a declared series word anywhere on the line."""
     low = line.lower()
     if series and any(s.lower() in low for s in series):
         return True
     if units:
-        for m in NUM_RE.finditer(line):
-            if normalize(m.group(0)) not in hit_values:
+        for val, start, end in iter_num_tokens(line, csv_mode):
+            if val not in hit_values:
                 continue
-            hood = (line[max(0, m.start() - UNIT_WINDOW):m.start()]
-                    + line[m.end():m.end() + UNIT_WINDOW]).lower()
+            hood = (line[max(0, start - UNIT_WINDOW):start]
+                    + line[end:end + UNIT_WINDOW]).lower()
             if any(u.lower() in hood for u in units):
                 return True
     return False
@@ -135,9 +237,9 @@ def normalize(tok: str) -> str:
     return t
 
 
-def line_values(line: str):
+def line_values(line: str, csv_mode: bool = False):
     """Every whole numeric value on a line, normalized. Substrings cannot match."""
-    return {normalize(m.group(0)) for m in NUM_RE.finditer(line)}
+    return {v for v, _s, _e in iter_num_tokens(line, csv_mode)}
 
 
 def _context(lines, idx, row_oriented=False):
@@ -184,12 +286,76 @@ def is_blob(line: str) -> bool:
     return any(len(tok) > 200 for tok in line.split())
 
 
-def has_marker(lines, idx, row_oriented=False) -> bool:
-    blob = " ".join(_context(lines, idx, row_oriented)).lower()
-    return any(m in blob for m in SUPERSESSION_MARKERS)
+def marker_cleared(lines, idx, hits, row_oriented=False, csv_mode=False) -> dict:
+    """PROXIMITY, NOT PRESENCE (2026-08-21 — the WAL/REGINALD marker-drop fix).
+
+    Returns {matched_needle: marker_token} for ONLY those hits sitting within
+    MARKER_WINDOW chars of a supersession marker in the joined context. The old
+    has_marker() returned one bool for the whole line if ANY marker appeared
+    ANYWHERE in the blob — so a row documenting its own history ('73.92 live …
+    (prior 68.93 superseded)') had its LIVE stale value silently buried by the
+    history clause's marker, and the more diligently a desk recorded what it
+    superseded, the likelier its stale carry was dropped. Per-needle verdicts:
+    on that row 68.93 clears (marker adjacent) while 73.92 stays reportable."""
+    ctx = _context(lines, idx, row_oriented)
+    joined = "\n".join(ctx)
+    low = joined.lower()
+    mpos = []  # (char_pos, marker_token)
+    for mk in SUPERSESSION_MARKERS:
+        start = 0
+        while True:
+            p = low.find(mk, start)
+            if p < 0:
+                break
+            mpos.append((p, mk))
+            start = p + 1
+    if not mpos:
+        return {}
+    # offset of the hit line inside the joined blob
+    off = 0
+    if not row_oriented:
+        lo = max(0, idx - CONTEXT)
+        off = sum(len(l) + 1 for l in lines[lo:idx])
+    hit_line = lines[idx]
+    cleared = {}
+    for v, s, _e in iter_num_tokens(hit_line, csv_mode):
+        if v in hits and v not in cleared:
+            near = [mk for p, mk in mpos if abs((off + s) - p) <= MARKER_WINDOW]
+            if near:
+                cleared[v] = near[0]
+    for h in hits:  # text needles (mirror-map dead tokens): same proximity rule
+        if h in cleared or NUM_RE.fullmatch(str(h).strip()):
+            continue
+        s = hit_line.lower().find(str(h).lower())
+        if s >= 0:
+            near = [mk for p, mk in mpos if abs((off + s) - p) <= MARKER_WINDOW]
+            if near:
+                cleared[h] = near[0]
+    return cleared
 
 
-def has_current(lines, idx, current, row_oriented=False) -> bool:
+def arrow_cleared(line, hits, csv_mode=False) -> set:
+    """Needles inside a strict 'A → B' transition (B ≠ A): the RECORD of a
+    supersession, cleared regardless of whether B equals this invocation's
+    --new — which it won't be under the multi-old mis-pairing VIOLET hit
+    (2026-08-20). Strict = NOTHING but the arrow between the two values;
+    '7496 → page 32' does not clear (false-HANDLED is the expensive side)."""
+    toks = list(iter_num_tokens(line, csv_mode))
+    cleared = set()
+    for i in range(len(toks) - 1):
+        v1, _s1, e1 = toks[i]
+        v2, s2, _e2 = toks[i + 1]
+        if v1 == v2:
+            continue
+        if ARROW_RE.fullmatch(line[e1:s2]):
+            if v1 in hits:
+                cleared.add(v1)
+            if v2 in hits:
+                cleared.add(v2)
+    return cleared
+
+
+def has_current(lines, idx, current, row_oriented=False, csv_mode=False) -> bool:
     """Is the CURRENT value sitting right next to the old one?
 
     This turned out to be a far better discriminator than keyword markers.
@@ -205,7 +371,8 @@ def has_current(lines, idx, current, row_oriented=False) -> bool:
     if current in (None, "?", ""):
         return False
     want = normalize(str(current))
-    return any(want in line_values(l) for l in _context(lines, idx, row_oriented))
+    return any(want in line_values(l, csv_mode)
+               for l in _context(lines, idx, row_oriented))
 
 
 def surface_of(relpath: str) -> str:
@@ -231,7 +398,7 @@ def iter_files(workspace: Path, own_dir: Path | None, restrict: set | None = Non
         for path in base.rglob("*"):
             if not path.is_file() or path.suffix.lower() not in SEARCH_EXTS:
                 continue
-            if EXCLUDE_PARTS & set(p.lower() for p in path.parts):
+            if _excluded(path.parts):
                 continue
             if own_dir and own_dir in path.parents:
                 continue
@@ -273,7 +440,7 @@ def mirror_map_files(workspace: Path) -> set:
     prome = workspace / "PROME"
     for p in prome.rglob("*"):
         if (p.is_file() and p.suffix.lower() in SEARCH_EXTS
-                and not (EXCLUDE_PARTS & set(q.lower() for q in p.parts))):
+                and not _excluded(p.parts)):
             files.add(p)
     for rel in ("CLAUDE.md", "HEARTBEAT.md", "AGENTS.md"):
         p = workspace / rel
@@ -317,29 +484,56 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
         lines = text.split("\n")
         rel = str(path.relative_to(workspace))
         rowish = is_row_oriented(rel)
+        csvish = Path(rel).suffix.lower() == ".csv"
+        # File-level dead banner (LIQUID 8/20): a FROZEN/RETIRED/SUPERSEDED/
+        # ARCHIVED banner declares the WHOLE file historical — every hit inside
+        # buckets 🟢, or the proximity fix below pushes desks toward per-cell
+        # annotation noise just to silence known-frozen files.
+        file_frozen = file_is_dead(path, rowish)
         for i, line in enumerate(lines):
             if is_blob(line):
                 continue
-            num_hits = num_wanted & line_values(line)
+            num_hits = num_wanted & line_values(line, csvish)
             txt_hits = {n for n in txt_wanted if n in line}
             hits = num_hits | txt_hits
             if not hits:
                 continue
-            rec = (rel, i + 1, sorted(hits), line.strip()[:140])
+            txt140 = line.strip()[:140]
+            if file_frozen:
+                handled.append((rel, i + 1, sorted(hits), txt140,
+                                "file-level dead-surface banner (FROZEN class)"))
+                continue
             # 1. the new value is right here -> this IS the re-base, not a stale copy
-            if has_current(lines, i, current, rowish):
-                handled.append(rec)
-            # 2. explicitly marked stale/superseded/retracted
-            elif has_marker(lines, i, rowish):
-                handled.append(rec)
+            if has_current(lines, i, current, rowish, csvish):
+                handled.append((rel, i + 1, sorted(hits), txt140,
+                                f"current value {current} adjacent (re-base record)"))
+                continue
+            # 2. PER-NEEDLE clearing (2026-08-21): a marker or a strict A→B arrow
+            #    clears only the value(s) it sits next to — the rest of the line's
+            #    hits stay reportable (the WAL/REGINALD marker-drop fix).
+            mk = marker_cleared(lines, i, hits, rowish, csvish)
+            ar = arrow_cleared(line, hits, csvish) - set(mk)
+            if mk:
+                handled.append((rel, i + 1, sorted(mk), txt140,
+                                "marker '" + "', '".join(sorted(set(mk.values())))
+                                + f"' within {MARKER_WINDOW} chars"))
+            if ar:
+                handled.append((rel, i + 1, sorted(ar), txt140,
+                                "inside a strict A → B transition record"))
+            hits = hits - set(mk) - ar
+            num_hits = num_hits & hits
+            txt_hits = txt_hits & hits
+            if not hits:
+                continue
+            rec = (rel, i + 1, sorted(hits), txt140)
             # 3. sent/received mail is point-in-time; correcting it helps nobody
-            elif surface_of(rel) == "MAIL":
+            if surface_of(rel) == "MAIL":
                 mail.append(rec)
             # 4. live surface, unqualified — certify the series before crying stale
             elif txt_hits:
                 stale.append(rec)          # text needles: exact by construction
             elif have_ctx:
-                if context_ok(line, num_hits, units, series):
+                if context_ok(line, num_hits, units, series, csvish):
                     stale.append(rec)
                 else:
                     cand.append(rec + ("no unit/series context on line",))
@@ -394,6 +588,7 @@ def read_ledger(ledger: Path):
         return header.index(name) if name in header else default
     c_metric, c_value, c_asof = col("metric", 0), col("value", 1), col("asof", 2)
     c_supp = header.index("suppress_until") if "suppress_until" in header else None
+    c_status = header.index("status") if "status" in header else None
     today = __import__("datetime").date.today().isoformat()
     by_metric, seen_pairs = {}, set()
     for idx, l in enumerate(raw[1:]):
@@ -406,15 +601,39 @@ def read_ledger(ledger: Path):
                   f"append order used as the tie-break; give the later row a timestamp asof to disambiguate.")
         seen_pairs.add((metric, asof))
         supp = r[c_supp].strip() if (c_supp is not None and len(r) > c_supp) else ""
-        by_metric.setdefault(metric, []).append((asof, idx, value, supp))
+        status = (r[c_status].strip().upper()
+                  if (c_status is not None and len(r) > c_status) else "")
+        by_metric.setdefault(metric, []).append((asof, idx, value, supp, status))
     out = {}
     for metric, entries in by_metric.items():
         entries.sort(key=lambda e: (e[0], e[1]))    # (asof, file_line_order)
-        current, supp = entries[-1][2], entries[-1][3]
+        current, supp, status = entries[-1][2], entries[-1][3], entries[-1][4]
         if supp and supp > today:
             print(f"  ⏸  {metric}: suppress_until {supp} on the current row — skipped this run.")
             continue
-        superseded = [v for _, _, v, _ in entries[:-1] if normalize(v) != normalize(current)]
+        # TOOL READS `status` (2026-08-21, LABOR defect-2 mechanism decision,
+        # Will-approved): RETIRED/RETRACTED on the metric's LATEST row means the
+        # publisher holds NO live value — EVERY recorded value becomes a positive
+        # stale-target, exactly what LABOR's terminal-sentinel-row convention
+        # simulated by hand. The sentinel still works; this subsumes it.
+        if status in {"RETIRED", "RETRACTED"}:
+            print(f"  ⛔ {metric}: status {status} on the latest row — no live value; "
+                  f"every recorded value is a stale-target (carriers get flagged).")
+            # numeric values only: carriers carry the FIGURE; a text sentinel
+            # (RETIRED-LABOR-HOLDS-NO-COPY) is a convention artifact and flagging
+            # docs that quote the convention is alert fatigue, not detection.
+            targets = [v for _, _, v, _, _ in entries if NUM_RE.fullmatch(v.strip())]
+            seen, keep = set(), []
+            for v in reversed(targets):
+                if normalize(v) not in seen:
+                    seen.add(normalize(v))
+                    keep.append(v)
+            if len(keep) > 5:
+                print(f"  ◦ {metric}: scanning the 5 most recent values; "
+                      f"{len(keep) - 5} older value(s) NOT scanned (pass them via --old to include).")
+            out[metric] = (status, keep[:5])
+            continue
+        superseded = [v for _, _, v, _, _ in entries[:-1] if normalize(v) != normalize(current)]
         # de-dup, keep the most recent few — old values stop being cited
         seen, keep = set(), []
         for v in reversed(superseded):
@@ -431,7 +650,7 @@ def read_ledger(ledger: Path):
     return out
 
 
-def report(label, current, olds, stale, cand, mail, handled):
+def report(label, current, olds, stale, cand, mail, handled, show_handled=False):
     print(f"\n  ── {label} · superseded {', '.join(map(str, olds))} → current {current}")
     if stale:
         print(f"     🔴 STALE ON A LIVE SURFACE — send the owner a packet ({len(stale)})")
@@ -449,7 +668,15 @@ def report(label, current, olds, stale, cand, mail, handled):
         print(f"     🟡 in MAIL, point-in-time — usually no action ({len(mail)}"
               f"{': ' + ', '.join(owners) if owners else ''})")
     if handled:
-        print(f"     🟢 already flagged superseded / shown next to the new value ({len(handled)})")
+        # The 🟢 bucket is where the marker-drop class hid for 3+ weeks — it must
+        # be auditable (HENRY option 1, 2026-08-21). Default stays count-only;
+        # --show-handled prints each hit with WHY it was cleared.
+        print(f"     🟢 cleared: marker-adjacent / next to new value / frozen file "
+              f"({len(handled)})" + ("" if show_handled else "  [--show-handled to audit]"))
+        if show_handled:
+            for p, ln, hits, txt, why in handled:
+                print(f"        {p}:{ln}  [{', '.join(hits)}]  ({why})")
+                print(f"           {txt}")
     if not (stale or cand or mail or handled):
         print("     ✓ no consumer carries a superseded value.")
 
@@ -489,8 +716,22 @@ def main():
     ap.add_argument("--series", action="append", default=[],
                     help="series word that must appear on the hit line (repeatable: "
                          "'CCC', 'OAS', 'gamma' …). Alternative context to --unit.")
+    ap.add_argument("--show-handled", action="store_true",
+                    help="print every 🟢-cleared hit with WHY it was cleared (matched "
+                         "marker token / adjacent current / frozen banner / A→B arrow). "
+                         "The 🟢 bucket is where the 2026-08 marker-drop class hid; "
+                         "audit it when a value you KNOW is carried comes back clean.")
     ap.add_argument("--strict", action="store_true", help="exit 1 if any STALE consumer found")
     args = ap.parse_args()
+    if len(args.old) > 1:
+        # Advisory, NEVER a block (PROME scoping 38ad4495d): repeated --old is
+        # CORRECT for prior vintages of the SAME figure collapsing to one --new
+        # (a re-base chain); the tool cannot distinguish that from the error by
+        # count alone. Keep wording in sync with root CLAUDE.md step 1c.
+        print("  ℹ️  multiple --old against one --new: correct ONLY if all are prior "
+              "vintages of the SAME figure. To check several DIFFERENT metrics, run "
+              "separate invocations or --from-ledger (which pairs each metric's own "
+              "old→current) — mis-pairing manufactures false 🔴s (VIOLET 8/20, 3-of-3).")
     if args.self_mode and args.mirror_map:
         ap.error("--self and --mirror-map are opposite scopes; run them separately")
     if args.self_mode and not args.agent:
@@ -548,7 +789,7 @@ def main():
         # narrative-only sweep missed (PROME addendum, 2026-07-31).
         restrict = {p for p in own_dir.rglob("*")
                     if p.is_file() and p.suffix.lower() in SEARCH_EXTS
-                    and not (EXCLUDE_PARTS & {q.lower() for q in p.parts})}
+                    and not _excluded(p.parts)}
         own_dir = None                      # self-INCLUSIVE: never exclude the caller
         print(f"  SELF mode: {len(restrict)} files under AGENTS/{args.agent}/ "
               f"(processed/ + archive/ still excluded — historical by design). "
@@ -563,7 +804,8 @@ def main():
     for label, current, olds in jobs:
         stale, cand, mail, handled = scan(workspace, olds, own_dir, current, restrict,
                                           units=args.unit, series=args.series)
-        report(label, current, olds, stale, cand, mail, handled)
+        report(label, current, olds, stale, cand, mail, handled,
+               show_handled=args.show_handled)
         total_stale += len(stale)
         total_cand += len(cand)
 

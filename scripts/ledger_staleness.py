@@ -14,7 +14,10 @@ Usage:
   python3 scripts/ledger_staleness.py REGINALD          # one agent by name
   python3 scripts/ledger_staleness.py AGENTS/REGINALD   # one agent by path
   python3 scripts/ledger_staleness.py --all             # every AGENTS/*/workbook
-  python3 scripts/ledger_staleness.py REGINALD --days 21 # threshold (default 14)
+  python3 scripts/ledger_staleness.py REGINALD --days 21 # threshold (default 30)
+        (docstring previously said "default 14" while argparse said 30 — BRENT copied
+        the 14 into its boot doc and reasoned off half the real coverage window for
+        4 days. Fixed 2026-08-21; the argparse default is the ONLY authority.)
   python3 scripts/ledger_staleness.py REGINALD --quiet   # print only when stale
   python3 scripts/ledger_staleness.py REGINALD --glob 'workbook/*.tsv'  # custom location
 
@@ -591,7 +594,10 @@ def report(name, status_t, rows, quiet):
         if not quiet:
             print(f"[{name}] all ledgers ok/ref ({len(rows)} scanned)")
         return 0
-    print(f"\n[{name}]  (ledger age relative to STATUS.md; - = older than STATUS)")
+    # Legend sign verified against the arithmetic 2026-08-21 (BRENT flag, confirmed):
+    # age = status_mtime − ledger_mtime, so an OLDER-than-STATUS ledger prints "+".
+    # The legend below said "-" for 6+ weeks — inverted since birth.
+    print(f"\n[{name}]  (ledger age relative to STATUS.md; + = older than STATUS)")
     for r in show:
         if r["frozen"]:
             tag = "FROZEN"
