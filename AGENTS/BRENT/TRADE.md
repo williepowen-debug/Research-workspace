@@ -518,6 +518,21 @@
 >
 > **⇒ ANTI-FALSE-DAWN COVER IS UNCHANGED:** Apr-17 still **BLOCKS TWICE OVER** — on **(i)** (a unilateral minister quote is not a signature/sovereign act) **and independently on (C)** (+8.96%). Removing the transit leg did not open the false-dawn hole.
 
+
+> ### 🔻🔻 **THE THREE LEGS, DEFINED HERE — RELOCATED 2026-08-21 BECAUSE TWO OF THEM WERE ONLY DEFINED INSIDE A BLOCK MARKED SUPERSEDED**
+>
+> ⛔⛔ **THE DEFECT THIS REPAIRS, STATED PLAINLY: this gate NAMED `(T)` and `(C)` as conditions that authorise capital and DEFINED NEITHER.** Their only definitions sat inside `### STAGE-A v4 — …` — a block whose own heading says **SUPERSEDED**. **A reader who trusted the labels would have concluded both definitions were dead, and the gate could not be graded from its own live section.**
+> ⚠️ **`(T)` is the sharper case: its live form is `v6`, Will-ruled 2026-08-05 — i.e. an amendment made AFTER this v5 gate was ratified on 7/31 — and that amendment lived entirely inside the superseded v4 block.** Grading `(T)` from v5 alone was impossible; grading it from v5 plus the wrong block would have used a basis **v6 explicitly retired as unexecutable.**
+> ✅ **NOTHING BELOW IS CHANGED. Both rows are VERBATIM** (`Leg T crc32 da64ebc9` · `Leg C crc32 b6e0d4b4`). **No level moved, no threshold re-derived, no basis re-specified. This is a RELOCATION, not a re-spec** — the Will rulings that set these terms (7/31 for the legs, 8/05 for the v6 measurement moment) are untouched and their dated origin is retained below under the v4 block.
+> ⛔ **`(i)` is NOT reproduced here and that is deliberate:** it is already defined in a live container, and it carries its own standing caveat — **GUIDANCE ONLY, and contested.** Copying it would create the duplication this repair exists to remove.
+
+| Leg | **FROZEN test** | Verdict logic |
+|---|---|---|
+| **T — tanker liveness** ⚑ **v6** | `T = max( \|STNG\|, \|FRO\|, \|DHT\| )`, **prior close → the live print at the ticket**, graded **ONCE, at or after 14:00 ET on day 0** *(Will-ruled 2026-08-05; v5's day-0 **close-to-close** basis is SUPERSEDED — it was unexecutable, see the ruling block below)* | **BLOCK iff `T ≤ 1.0%`.** Otherwise PASS. **SIGN IS DISCARDED, explicitly and by design (LESSONS #19).** **Threshold, 3-name composite and sign-discarding ALL UNCHANGED from v5 — only the MEASUREMENT MOMENT moved.** |
+| **C — crude 2-day follow-through** | Cumulative **Brent front-month** return over the **TWO sessions AFTER day 0**, measured against the day-0 close | **BLOCK iff `≥ 0%`** (premium being re-bought = false dawn). PASS iff `< 0%`. |
+
+> ⚑ **ONE SOURCE OF TRUTH: this table is now the live home for `(T)` and `(C)`. The v4 block below retains the DATED RECORD of their ratification — read it for provenance, never for the current spec.**
+
 **⇒ STAGE A — ENTRY (the only stage that authorises capital; must be satisfiable inside the ~48h trade window):** **(i)** signature/sovereign-action **AND** ~~**(ii-A)** the **transit leg** — **aggregate Hormuz transits recovering >~35/day, on ≥2 consecutive days**, graded off real-time AIS~~ ⛔ **RETIRED FROM ENTRY 2026-07-31 (Will) → MOVED TO THE STAGE-B KILL TEST.** *(Dated record of the retired leg's grading convention, retained because the kill test inherits it: grade off **real-time AIS** as the leading read, NOT PortWatch/Lloyd's — those publish on a **4-6 day lag** and cannot report the value at the moment the test asks.)* **AND** ~~the **STNG sanity check (mandatory, LESSONS #16/#18):** if tankers do NOT sell off on the announcement, the market isn't treating it as operational → **do NOT fire.**~~ ⛔ **RETIRED 2026-07-31 — REPLACED BY LEG T + LEG C BELOW (Will-ratified).**
 
 ### ✅✅ STAGE-A v4 — **LEG T + LEG C — RATIFIED BY WILL 2026-07-31 (~11:4x AM ET, both legs, per the both-or-neither condition). FROZEN NUMBERS AS PROPOSED.**
