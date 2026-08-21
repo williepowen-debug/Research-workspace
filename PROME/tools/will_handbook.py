@@ -186,6 +186,25 @@ td{padding:.42rem .6rem;border-bottom:1px solid var(--line-soft);vertical-align:
   padding:.7rem .9rem;font-size:.85rem;font-family:var(--mono)}
 footer{font-size:.72rem;color:var(--faint);line-height:1.7;
   border-top:1px solid var(--line);padding-top:1rem}
+.sum{font-family:var(--mono);font-size:.86rem;color:var(--accent);font-weight:600}
+.subhead{font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--faint);font-weight:700;border-top:1px solid var(--line-soft);
+  padding-top:.6rem;margin-top:.1rem}
+.spawns{display:flex;flex-direction:column;gap:.55rem}
+.spawn{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:5px;padding:.65rem .85rem;display:flex;flex-direction:column;gap:.3rem}
+.spawn .top{display:flex;justify-content:space-between;align-items:baseline;gap:.6rem}
+.spawn .nm{font-weight:700;font-size:.95rem;letter-spacing:.03em}
+.chip{font-family:var(--mono);font-size:.68rem;color:var(--dim);white-space:nowrap;
+  border:1px solid var(--line);border-radius:3px;padding:.05rem .45rem}
+.chip.warn{color:var(--warn);border-color:var(--warn);font-weight:700}
+.spawn .cmd{align-self:flex-start;font-size:.78rem}
+.spawn .why{font-size:.84rem;color:var(--dim)}
+.hint{font-size:.78rem;color:var(--faint);font-style:italic}
+.toc{display:flex;flex-wrap:wrap;gap:.35rem .5rem}
+.toc a{font-family:var(--mono);font-size:.72rem;text-decoration:none;color:var(--dim);
+  border:1px solid var(--line);border-radius:3px;padding:.15rem .55rem;background:var(--panel)}
+.toc a:hover,.toc a:focus-visible{color:var(--accent);border-color:var(--accent)}
 .tabs{display:flex;gap:2px;border-bottom:1px solid var(--line)}
 .tabs button{font:inherit;font-size:.82rem;font-weight:700;letter-spacing:.06em;
   text-transform:uppercase;background:none;border:0;color:var(--faint);
@@ -217,15 +236,44 @@ TABS_JS = """
 """
 
 
+def parse_spawns(body):
+    """Spawn-queue section contract: `- **NAME** · when · why`, one desk/line."""
+    rows = []
+    for ln in body.splitlines():
+        m = re.match(r"-\s+\*\*([A-Z]+)\*\*\s*·\s*([^·]+?)\s*·\s*(.+)$", ln.strip())
+        if m:
+            rows.append({"name": m.group(1), "when": m.group(2).strip(),
+                         "why": m.group(3).strip()})
+    return rows
+
+
 def render(sections, dec, chore, dates):
     now = dt.datetime.now().astimezone()
-    prio = next((b for t, b in sections if t.lower().startswith("top priorities")), None)
-    manual = [(t, b) for t, b in sections if not t.lower().startswith("top priorities")]
+
+    def take(prefix):
+        return next((b for t, b in sections if t.lower().startswith(prefix)), None)
+
+    prio, spawn_body, runs = take("top priorities"), take("spawn queue"), take("runs itself")
+    special = ("top priorities", "spawn queue", "runs itself")
+    manual = [(t, b) for t, b in sections
+              if not t.lower().startswith(special)]
+    spawns = parse_spawns(spawn_body) if spawn_body else []
+    if spawn_body and not spawns:
+        alert("spawns", "Spawn-queue section present but zero rows matched the format contract")
+
+    # split queue rows: needs your word NOW vs in-flight (blocked / already ruled)
+    live_dec = [d for d in dec if not d["blocked"] and not re.search(r"✅|RULED", d["item"])]
+    inflight = [d for d in dec if d not in live_dec]
 
     h = ["<title>Operator Handbook</title>", f"<style>{CSS}</style>", "<div class='wrap'>"]
+    n_w, n_s = len(live_dec), len(spawns)
+    summary = (f"{n_w} word{'s' if n_w != 1 else ''} needed · "
+               f"{n_s} desk{'s' if n_s != 1 else ''} to spawn")
     h.append(
         "<header class='mast'><div class='eyebrow'>PROME · field manual</div>"
-        "<h1>Operator Handbook</h1><div class='clocks'>"
+        "<h1>Operator Handbook</h1>"
+        f"<div class='sum'>{html.escape(summary)}</div>"
+        "<div class='clocks'>"
         f"<span>rebuilt {now:%b %-d, %-I:%M %p} ET</span>"
         "<span>live sections generated from WILL_QUEUE / DOCKET</span>"
         "</div></header>")
@@ -241,9 +289,9 @@ def render(sections, dec, chore, dates):
 
     # -- live: waiting on you ---------------------------------------------------
     h.append("<section><h2>Waiting on you — "
-             f"{len(dec)} decision{'s' if len(dec) != 1 else ''}</h2><div class='live'>")
-    if dec:
-        for d in dec:
+             f"{n_w} need{'s' if n_w == 1 else ''} your word</h2><div class='live'>")
+    if live_dec:
+        for d in live_dec:
             due = f" · {html.escape(d['due_txt'])}" if d["due_txt"].strip("—- ") else ""
             h.append("<div class='decision'>"
                      f"<span class='n'>row {html.escape(d['n'])} · {html.escape(d['kind'])}{due}</span>"
@@ -251,15 +299,37 @@ def render(sections, dec, chore, dates):
                      f"<span class='r'>{wb.md_inline(d['rec'])}</span></div>")
     else:
         h.append("<div class='none'>Nothing needs a ruling right now.</div>")
+    if inflight or chore:
+        h.append("<div class='subhead'>In flight — comes back to you when a desk finishes its half</div>")
+    for d in inflight:
+        h.append(f"<div class='chore'><span>{wb.md_inline(d['item'])}</span>"
+                 f"<span class='w'>{html.escape(d['due_txt'])}</span></div>")
     for c in chore:
         h.append(f"<div class='chore'><span>{wb.md_inline(c['item'])}</span>"
                  f"<span class='w'>{html.escape(c['due_txt'])}</span></div>")
     h.append("</div></section>")
 
+    # -- spawn queue ------------------------------------------------------------
+    if spawns:
+        h.append(f"<section><h2>Spawn queue — {n_s} desks, decay order</h2>"
+                 "<div class='spawns'>")
+        for s in spawns:
+            chip = "chip warn" if s["when"].lower().startswith("before") else "chip"
+            h.append("<div class='spawn'>"
+                     f"<div class='top'><span class='nm'>{html.escape(s['name'])}</span>"
+                     f"<span class='{chip}'>{html.escape(s['when'])}</span></div>"
+                     f"<code class='cmd'>cd AGENTS/{html.escape(s['name'])} &amp;&amp; claude</code>"
+                     f"<div class='why'>{wb.md_inline(s['why'])}</div></div>")
+        h.append("</div><p class='hint'>Launch from the desk's own folder, then say "
+                 "“please boot up.” Each desk closes itself out when done.</p></section>")
+
     # -- curated priorities -----------------------------------------------------
     if prio is not None:
         h.append("<section><h2>Top priorities — PROME-curated</h2>"
                  + render_body(prio) + "</section>")
+    if runs is not None:
+        h.append("<section><h2>Runs itself — no window needed</h2>"
+                 + render_body(runs) + "</section>")
 
     # -- the clock --------------------------------------------------------------
     h.append("<section><h2>The clock — next dated things</h2><ul class='days'>")
@@ -278,8 +348,12 @@ def render(sections, dec, chore, dates):
 
     # -- the manual -------------------------------------------------------------
     h.append("<div id='tab-manual' role='tabpanel' aria-label='The manual' hidden>")
-    for title, body in manual:
-        h.append(f"<section><h2>{wb.md_inline(title)}</h2>{render_body(body)}</section>")
+    slugs = [re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")[:40] for t, _ in manual]
+    h.append("<nav class='toc'>" + " ".join(
+        f"<a href='#s-{s}'>{wb.md_inline(t.split('—')[0].split('[')[0].strip())}</a>"
+        for s, (t, _) in zip(slugs, manual)) + "</nav>")
+    for s, (title, body) in zip(slugs, manual):
+        h.append(f"<section id='s-{s}'><h2>{wb.md_inline(title)}</h2>{render_body(body)}</section>")
     h.append("</div>")  # /tab-manual
 
     h.append(TABS_JS)

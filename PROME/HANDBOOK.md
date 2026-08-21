@@ -4,9 +4,20 @@
 
 ## Top priorities
 - **Say the Batch A word** — two one-liners for the memory system, drafted verbatim, first agenda item of your next session [queued 8/21].
-- **Spawn queue, in order of decay:** AEOLUS before Sun 8/24 (its silence is destroying evidence) · SAM + MIDAS (positioning-data touches) · CREED inside 8/24–29 (FDIC banking report) · LABOR (one wrong date it keeps alarming on) · ZHAO inbox session (27-item backlog).
-- **Sunday 8/23 sitting** runs itself (PROME): registry audit + the vocabulary block. Nothing needed from you beyond a window.
-- **Monday 8/24:** the hedging-map re-measure, the bond-test concurrence (then ONE word from you), prediction-market pin day 2.
+- **Monday 8/24 brings one more word:** the bond-test concurrence lands, then it needs one ruling from you before 8/28.
+
+## Spawn queue
+*(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
+- **AEOLUS** · before Sun 8/24 · its silence is destroying evidence — AEO-11's window passed unobserved and the retro-read decays daily; Sunday's audit grades it first
+- **SAM** · soon · positioning data + Japan CPI grading touch owed since Friday
+- **MIDAS** · soon · gold positioning touch + five ruling-encodes waiting in its inbox
+- **CREED** · 8/24–29 window · the FDIC banking report is its first trade-relevant trigger and it only exists when spawned
+- **LABOR** · any window · one wrong date (Jackson Hole) it keeps alarming on daily, plus the KELYA expiry log
+- **ZHAO** · any window · inbox session — 27-item backlog its new boot triage can't clear alone
+
+## Runs itself — no window needed from you
+- **Sunday 8/23 sitting** (PROME): registry audit + the vocabulary block.
+- **Monday 8/24:** hedging-map re-measure, test grades, prediction-market pin day 2 — all in desk windows you already run or PROME's.
 
 ## The daily flow
 - **Open the Desk brief first.** Its top section is "Decisions waiting on you" — if it says zero, you're done; everything else on that page is context you can skim or skip.
