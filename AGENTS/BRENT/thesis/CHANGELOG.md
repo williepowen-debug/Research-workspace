@@ -8,6 +8,28 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-21 (Fri, SESSION 4 — live, the GRADES session; Will closed it ~14:4x ET) — **NO THESIS VERSION CHANGE (stays v5.7).** One Path-A criterion RE-VERIFIED at a primary and its reference found stale; one prediction graded; no conviction change; `$0` moved.
+
+**Why NO version bump.** Nothing here changes the thesis's structure, conviction or phase. The v5.7 tolled-corridor frame is untouched. What changed is **evidence quality and instrument integrity**, which is a CHANGELOG event and not a version event.
+
+**① `BRT-26` GRADED — 452 US oil rigs (−3 WoW), NOT BREACHED, distance to the frozen 457 line widens 2 → 5.** Ladder 7/17 452 · 7/24 450 · 7/31 451 · 8/7 454 · 8/14 455 · **8/21 452**. Confidence **HELD ~58%**, deliberately not re-marked off a single print (symmetric with the 7/31 decision to hold through a +1). ⚠️ **The headline flatters the row and was NOT taken: the entire US −5 is DIRECTIONAL rigs (50→45) while HORIZONTAL held flat at 533** ⇒ the productive-rig base did not retreat and **BRT-04's shale-non-response mechanism reads UNCHANGED, not strengthened.**
+
+**② OLD VIEW → NEW VIEW on a Path-A operational criterion.**
+- **OLD:** *"Lloyd's / JWC reclass — ❌ `JWLA-033` (Gulf+Oman) NOT lifted."* Carried for months.
+- **NEW:** *"❌ NOT lifted — and the criterion moved FURTHER AWAY."* **`JWLA-033` (3 Mar 2026) was SUPERSEDED on 29 Jul 2026 by `JWLA-034`, and nobody re-checked.** Own pull of the LMA circular PDF: `Amended: Saudi Arabia` · `Amended: Persian/Arabian Gulf, Gulf of Oman…` (NW boundary the Red Sea south of 25.5°N) · `Deleted: Pakistan`. **Saudi Arabia is now IN the Middle East Listed Areas.**
+- ⇒ **The criterion's SUBSTANCE was right all along; only its reference was stale. That is luck, not process** — the same stale-reference class corrected three times elsewhere today.
+- ⚑ **The criterion also gains a NAMED INSTRUMENT it never had:** the IUA *Joint War Committee Risk List* publishes every circular's number/title/date in plain HTML (verified reachable today); bodies via the LMA PDF or P&I-club relay. ⛔ The LMA committee page is a 200-OK navigation shell with no circular number in it.
+
+**③ NEW CANDIDATE MECHANISM, registered as a candidate and NOT adopted.** `JWLA-034` is dated **7/29**, which **pre-dates the w/c-8/3 Yanbu loading collapse** — unlike the Gulf-coast reallocation explanation, which post-dated the fired week (8/12–13) and was rejected on exactly that timing. Yanbu (~24.1°N) sits south of the amended 25.5°N line. ⛔ **A listing raises premium and voyage friction; it does not stop calls, and no charterer response has been shown. Best-DATED is not right.** `R3 = HOLD` is unchanged. Routed to FALCON and HAWK.
+
+**④ INSTRUMENT INTEGRITY — three repairs, none of which moved a level.** The `BRT-26` probe (a false "primary times out" caveat that had hardened into the registry's instrument field — the host tarpits a self-identifying User-Agent, `LESSONS L25`); `cot_grade.py` (was grading the **RETIRED** incumbent band off a **forbidden** source with Leg B not computable — rebuilt to the frozen 35b spec, regression-tested to the digit); and forward check ② (an unqualified bar that would have manufactured a **−69% phantom collapse in the thesis's own favour** — caught by FALCON, re-spec'd three days before it runs).
+
+**⑤ SPR falsifier premise WEAKENED, three weeks before it grades.** The DOE primary is **not** empty on 2026 (my surfaces said it was), the exchange premium is **per-solicitation and has risen** (June tranche 1.26× vs a carried 1.18–1.24×), and — the load-bearing one — **DOE deliberately does not publish the return schedule** (*"on a schedule designed to protect commercial markets"*). ⇒ the *"primarily April–August 2026"* window the ~9/9 falsifier is keyed to is a **secondary-source characterisation, not a published schedule.** Flagged on the catalyst row rather than discovered at the grade.
+
+⛔ **NOT DONE AND OWED: the `COT-FUEL-35B` as-of-8/18 grade.** It prints **~15:30 ET** and this session closed **~14:4x**, before it. Verified at 14:41 (`rc=3`, freshest in-row still 2026-08-11). **A Mon 8/24 session takes it cleanly; it STACKS only past Fri 8/28 13:00.**
+
+---
+
 ## 2026-08-21 (Fri, SESSION 2 — live, Will-directed news sweep) — **⚖️ THESIS v5.6 → v5.7 (minor): THE CORRIDOR IS BEING TOLLED, AND THE TOLL IS NOW ENFORCED BY SEIZURE.**
 
 **OLD VIEW (v5.4/v5.5):** the tolled-corridor frame rested on Iran's *stated* 10-point proposal (transit fees reported $1–2M/vessel) and its refusal to return to toll-free passage — **an INFERENCE about intent.**
