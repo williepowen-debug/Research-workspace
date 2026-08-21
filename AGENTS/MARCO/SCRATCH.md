@@ -61,7 +61,7 @@ Took the citation-form point (the contract-name guard lived in `notes` while the
 | 🔴 **Channel 4 — EMMA/MSRB credit leg UNRUN** | Carried 8/12. Now *structurally* required: `TX-03` BREACHED cannot trip without it |
 | 🟠 **`VX-2.01` BREACHED on an unrefreshed Jun-15 arrest rate** | Carried-not-confirmed |
 | 🟠 **AEOLUS owes the PRIMARY CPC DJF read** | My read is trade-press; do not harden until the primary lands |
-| 🟠 **`MAR-24` confidence was cut the WRONG WAY** | The 60%→35% cut rested on a refuted anti-correlation. Base rate is 10.4% of 269 months. **Confidence needs re-deriving from the base rate, not restored by default** |
+| ✅ **`MAR-24` — I logged this as owed work and it was already done** | Confidence is **55%**, re-derived from the base rate at s22 close; the refuted anti-correlation is already withdrawn in the brief. **What WAS genuinely broken: the Notes chain still ended at `->45`, contradicting its own 55% cell** — reconciled 8/21. Q3 resolution needs all 3 legs from BTS T-100, lands ~Dec |
 | 🟠 **15 band-residue rows closed; 3 untrippable legs REMOVED** | `GTR-01` "searches collapsed", `ENF-01` "non-compliance surge", `2.06`/`2.05` "flat/declining while employment declining" (inverted its own scale) |
 | 🟢 **El Niño → FL snowbird: sign flipped, now WITH the bearish read** | PROVISIONAL to the CPC winter outlook (Oct) |
 | 🟠 **NV dollars leg inverted** · **Counter-print vs SDL-01 quantity** · **Foreign-born LF anomaly began 2025** | Carried 8/11 |
