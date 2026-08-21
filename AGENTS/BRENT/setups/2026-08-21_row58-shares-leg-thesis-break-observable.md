@@ -39,7 +39,13 @@
 
 ## 2. THE OBSERVABLES
 
-### 2a. 🟢 **BROKEN — the premium is gone.** *Registerable now; level needs a base rate I have not built.*
+### 2a. **BROKEN — the premium is gone.** ⛔⛔ **AMENDED SAME SESSION — DO NOT USE THIS SECTION WITHOUT THE ADDENDUM AT THE END OF THIS FILE.**
+
+> ⛔ **THIS HEADING ORIGINALLY READ "🟢 Registerable now." THAT WAS WRONG AND I REFUTED IT MYSELF WITHIN THE HOUR by running the base rate §5 said was cheap.**
+> **B-1 IS DEMOTED to a base-rated CONTEXT instrument and is NOT a standalone exit trigger:** the prompt premium sat at or below a pre-war-normal bar for **25 consecutive trading days (2026-06-12 → 07-20), going NEGATIVE to −3.27**, ending **three days before Brent printed $100.69** — the highest price of the war. **An exit keyed to it would have sold this leg at the bottom.**
+> **B-2 is NOT thereby promoted — it is merely UNMEASURED.** See the ADDENDUM for the full base rate, the refuted sawtooth test, and the revised bottom line.
+
+*Original text retained below unaltered, because the reasoning that produced it is the reasoning the addendum corrects.*
 
 | # | Observable | Instrument | Live value | Status |
 |---|---|---|---|---|
@@ -142,3 +148,65 @@
 - **L10** *(OPEC+ paper quotas ≠ physical production)* — **does not govern either observable** (neither is a quota or production instrument). Cited to close the silence: it *would* govern any exit routed through an OPEC+ announcement, **which is a route I did not take and which L19 independently rules out.**
 
 > ⚠️ **A NOTE ON THIS SECTION'S OWN METHOD, worth recording because it is a property of the tool and not of this document.** The sweep detects governing lessons from **concepts present in the text**, so **writing the reconciliation ADDED concepts and pulled in two further lessons** — 12 → 14 across two passes. **A `--spec` sweep on a growing document is not a fixed point, and chasing it to zero would recurse without converging.** ⇒ **Stopping rule applied here: reconcile every lesson the sweep raises about the SUBSTANCE, and do not add prose whose only purpose is to satisfy the next pass.** Both second-pass entries are substantive (L19 is load-bearing); **a third pass triggered only by this paragraph would not be, and is deliberately not run.**
+
+---
+
+# 🔴🔴 ADDENDUM — B-1 IS NOW BASE-RATED, AND THE BASE RATE **REFUTES ITS OWN NAIVE USE**
+
+**Added 2026-08-21 ~13:4x ET, same session.** §5 named base-rating B-1 as the highest-value follow-on and said it was cheap. **I ran it rather than leaving it as an offer. It changed the answer, so the section above is AMENDED rather than left standing.**
+
+**Method (reproducible, both legs dated by OBSERVATION date so the FRED publication lag does not misalign anything):** `B-1 = FRED DCOILBRENTEU − BZ=F close`, daily, 2015-01-02 → 2026-08-18, **n = 2,887** (pre-war n=2,770 to 2026-02-26; war n=117 from 2026-02-27). ⚠️ **`BZ=F` is used for LEVELS ONLY on a same-day cross-sectional spread — no delta is computed across a roll, so `L23` is HONOURED, not overridden.**
+
+### ✅ First, the caveat I raised in §2a — TESTED AND REFUTED
+
+I flagged that Dated Brent (a forward physical cargo assessment) minus a futures contract whose time-to-expiry cycles monthly could carry a **calendar sawtooth**, which would make any single threshold fire preferentially at certain points in the month.
+
+| Regime | d01-10 median | d11-20 median | d21-31 median | **max−min of bucket medians** | sample sd |
+|---|---|---|---|---|---|
+| Pre-war | −0.07 | −0.17 | −0.30 | **$0.23** | $1.78 |
+| War | +3.18 | +3.43 | +3.41 | **$0.25** | $6.57 |
+
+⇒ **NOT MATERIAL — ~13% of one sd pre-war, ~4% in war. The sawtooth concern is measured and dismissed.** Raised, tested, closed.
+
+### 📊 The distribution — the separation is real
+
+| Window | n | mean | median | p95 | **share ≤ 0** |
+|---|---|---|---|---|---|
+| **PRE-WAR** 2015-01 → 2026-02-26 | 2,770 | −0.10 | −0.19 | **+2.39** | **56.4%** |
+| **WAR** 2026-02-27 → 2026-08-18 | 117 | **+4.50** | +3.31 | +20.62 | **21.4%** |
+
+**Live 8/18: `+4.27` — above the pre-war 95th percentile.** Candidate bar = **pre-war p95 = +2.39**: false-positive rate **5.0%** by construction, true-positive rate **62.4%** of war days.
+
+### ⛔⛔ AND HERE IS WHY THAT BAR MUST NOT BE USED AS A TRIGGER
+
+**38% of war days (44 of 117) sit AT OR BELOW the pre-war-normal bar.** Every at/below episode, enumerated:
+
+| Episode | Length | Min B-1 | Brent range |
+|---|---|---|---|
+| **2026-06-12 → 2026-07-20** | **25 td** | **−3.27** | $71.57–89.22 |
+| 2026-03-09 → 03-16 | 6 td | −4.61 | $87.80–103.14 |
+| 2026-02-27 → 03-04 | 4 td | −1.16 | $72.48–81.40 |
+| 2026-05-07 → 05-11 | 3 td | +1.76 | $100.06–104.21 |
+| *(4 further episodes of 1–2 td)* | | | |
+
+★★★ **THE 25-DAY EPISODE IS THE WHOLE FINDING. From 2026-06-12 to 2026-07-20 the prompt premium sat at or below a pre-war-normal bar for FIVE CONSECUTIVE CALENDAR WEEKS — and went NEGATIVE to `−3.27`. It ended three days before Brent printed `$100.69` on 7/23, the highest price of the war.**
+
+⇒ **AN EXIT RULE KEYED TO B-1 WOULD HAVE SOLD THIS LEG AT THE BOTTOM, WEEKS AHEAD OF THE LARGEST UP-MOVE IN THE THESIS'S HISTORY.** That is not a tuning problem. **The physical premium collapsed while the thesis was intact and about to be most right.**
+
+**⇒ B-1 IS DEMOTED. §2a's "registerable now" is WRONG as written and is corrected here: B-1 is a base-rated CONTEXT instrument, NOT a standalone exit trigger.** To be false-positive-free in-sample a persistence rule must exceed **25 trading days ≈ 5 calendar weeks** of confirmation.
+
+### ★★ THE CONVERGENCE — TWO INDEPENDENT METHODS, ONE CONCLUSION
+
+**§6 reached the latency problem from the LESSONS side** (`L11`/`L16`: a confirmation-keyed exit on a premium position fires late by construction). **This addendum reaches it from the DATA side**: the only persistence long enough to suppress false exits is ~5 weeks, which *is* firing late.
+
+⇒ **THE LATENCY IS NOT A PARAMETER TO TUNE. IT IS A PROPERTY OF EXITING A PREMIUM POSITION ON PRICE CONFIRMATION.** Tighten it and it fires falsely — demonstrably, at the worst possible moment; loosen it and it fires late. **A reviewer's argument and a base rate, run independently, landed on the same wall. That is the strongest form this finding could have taken, and it is why the honest deliverable is a DECLARED LIMITATION rather than a threshold.**
+
+### ⚠️ WHAT THIS DOES **NOT** LICENSE ABOUT B-2
+
+⛔ **B-2 (M1−M3 contango flip) is NOT thereby the better instrument. It is the UNMEASURED one.** Its history needs named-contract assembly (`L23` forbids `=F` deltas), which I have not done. **B-1 looked clean until it was base-rated and then refuted itself in one afternoon.** ⚠️ **Do not read B-1's demotion as B-2's promotion — that would be preferring the instrument I have not yet been able to falsify**, which is the same error as trusting a guard whose clean output has never been tested. **B-2 must be base-rated before it carries any weight, and I should be expected to find something similar.**
+
+### REVISED BOTTOM LINE
+
+1. **No single-instrument price trigger is defensible for this leg today.** B-1 is refuted as a trigger; B-2 is untested.
+2. **B-1 retains real value as CONTEXT** — it is base-rated, its instrument is already pulled every boot, its sawtooth is dismissed, and it tells you **where the physical premium sits relative to both regimes** (now: above the pre-war p95, i.e. still war-regime). **That is worth reporting at every closeout and worth nobody's stop-loss.**
+3. **The §0 conclusion is now doubly supported:** the exit problem for this leg is **structural**, not a missing number.
