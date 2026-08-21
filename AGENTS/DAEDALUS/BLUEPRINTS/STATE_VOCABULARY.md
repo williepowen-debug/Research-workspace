@@ -123,6 +123,20 @@ For a live workbook ledger whose header comment block declares its publication c
 
 ⚠️ **Scope: the declaration affects `ledger_staleness.py --nudge` ONLY** (distinct ℹ️ label, not counted behind — a check structurally always-red on one surface trains skipping on every surface, PAT-110's inverse). The `--days`/`--writes`/`--abs-floor` scans still grade the file — the owner's dispositions there stay "refresh / freeze / say why not." The declaration is a FORM, not a keyword (PAT-059): `Cadence:`-prefixed, front-loaded (col ≤100), header-block only — bare prose "event-driven" mentions do not declare (measured live: WARRISK's own caveat prose would have self-declared under a bare-token match).
 
+## Class 9 — Marker-role separation: severity vs priority (added 2026-08-21; ruling: Will in-session, AskUserQuestion "Forward-only, P1/P2/P3 text" selected off the DAEDALUS rec; provenance: ZHAO 8/21 S8 implementation `9f97c7f5f` via PROME — a stdout-scrape verdict read permanent-REVIEW because §4 prints 🔴 as a PRIORITY glyph on healthy forward catalysts; the fleet's emoji vocabulary double-served as severity marker AND priority marker)
+
+**The rule: one marker family per semantic role.** The colored-circle family (🟢 🟡 🟠 🔴) is RESERVED for **severity/risk-state** — root CLAUDE.md's Status key is the existing canon and stays the sole authority for its meanings. **Priority/importance is expressed as TEXT tokens, never as a colored circle:**
+
+| Token | Meaning |
+|---|---|
+| `P1` | act this session / blocks a decision |
+| `P2` | act by the named date on the row |
+| `P3` | informational / next natural touch |
+
+Emoji beside a priority token is DECORATION ONLY — permitted, but never the machine-read carrier; a parser keys on the `P`-token, and a priority cell containing 🔴 without a `P`-token is the legacy form, not a new-write option.
+
+⚠️ **Enforcement is FORWARD-ONLY (Will-ruled): new surfaces and next-writes conform; legacy is grandfathered — NO retroactive fleet sweep.** Rationale on the record: 🔴-as-priority exists on hundreds of legacy surfaces (packet headers, HEARTBEAT, DOCKET, dashboards); a big-bang re-mark creates a mixed-vocabulary transition worse for every scraper than one dirty vocabulary, and the grandfather-forward pattern is how every prior class of this file healed. **Companion rule, NOT restated here:** verdicts key on alert COUNTS returned by code, never on scraping output for glyphs — that is CHECK_STANDARD §8 territory (encode at the ⑤b sitting); this class fixes the vocabulary, that rule fixes the mechanism, and neither substitutes for the other (a clean vocabulary still collides in quoted/historical text).
+
 ## Enforcement map (who reads these tokens)
 
 | Class | Machine reader today | Registry obligation |
@@ -134,6 +148,7 @@ For a live workbook ledger whose header comment block declares its publication c
 | 5 (zero/UNKNOWN/NA) | ⛔ **UNBUILT — CORRECTED 2026-08-17: `basis_check` never shipped as code** (BRENT-confirmed — class-5 tokens live as INCIDENTS.tsv column enum + prose, no script check exists; this cell previously named it as the ruled enforcement arm, and the correction sat in an overflow 4th cell GFM silently dropped at render — self-audit F25). Candidate home rides the forum-4 #11 registration-checklist build; extend an existing checker per anti-ratchet rider | New quantitative TSV columns ship the enum in a header comment; existing columns adopting the class name what they supersede |
 | 7 (gate-envelope scannability) | ⛔ UNBUILT — `registry_chain_check` is the ruled enforcement arm (Will 2026-08-20), queued after docket_view; until it ships, PROME's gates-hygiene sweep reads `review_by` and WALTER's boot scans `INSTRUMENT` rows only | `PROME/GATES.tsv` ships the enum in its header comment at the column-add; the 3 desk registries (RED/REGINALD/CREED) are exempt-by-form (their rows are all INSTRUMENT-class by construction; CREED's `band_status` legacy spellings grandfathered) |
 | 8 (ledger cadence) | `ledger_staleness.py --nudge` (LIVE 2026-08-20 — all paths capable-case watched at ship, incl. the rc-2 no-re-pull-clock path) | Declaring ledgers carry BOTH the token line and the re-pull clock; owners adopt per surface (opt-in), never batch-applied — a wrong declaration silently exempts a rotting ledger from the nudge |
+| 9 (marker-role: severity vs priority) | No dedicated enforcer today — reader-side convention + REGISTRATION_CHECKLIST row 15 at build time; the CHECK_STANDARD §8 glyph-vs-count rule (pending encode, sweep-input ⑤b) is the mechanism-side twin | New priority cells/columns carry `P1`/`P2`/`P3` text tokens; colored circles stay severity-only on new writes; legacy grandfathered, healed at natural rewrites — never batch-swept |
 | 6 (source authority) | No dedicated enforcer today — reader-side convention; a fleet grep for `PRIMARY`\|`MIRROR`\|`MIRROR-WALLED` on threshold rows is a candidate follow-on *(pipes escaped 2026-08-17 — unescaped they split this row and GFM dropped the obligation cell, self-audit F25)* | New citations on load-bearing figures carry one of the three tokens; HOMER `RATES.tsv` (`workbook/`) is the first-application worked example |
 
 **Build-time check (REGISTRATION_CHECKLIST row 15):** new agents' state-bearing surfaces use canonical tokens; DAEDALUS verifies at registration. Blueprint variants cite this file — they do not restate the tables.
