@@ -141,8 +141,12 @@ def run_script(path, timeout, args=(), findings_rc=()):
         r = subprocess.run([str(VENV_PY), str(path), *args], capture_output=True,
                            text=True, timeout=timeout, cwd=str(WORKSPACE))
         out = r.stdout
-        if r.returncode != 0 and r.stderr:
-            out += f"\n  STDERR: {r.stderr[-400:]}"
+        # §8 rule 5 (DAEDALUS 2026-08-17): relay stderr UNCONDITIONALLY. The old
+        # form gated on `returncode != 0`, so a script that exited 0 while warning
+        # on stderr had that warning silently discarded — the same silent-green
+        # class as the 101-day H-2A failure, one channel over.
+        if r.stderr and r.stderr.strip():
+            out += f"\n  STDERR: {r.stderr.strip()[-400:]}"
         status = "OK" if r.returncode == 0 else ("FINDINGS" if r.returncode in findings_rc else "FAIL")
         return status, out, time.time() - start
     except subprocess.TimeoutExpired:
@@ -161,15 +165,35 @@ def collapse(output, status="OK"):
     the summary — the two lines contradicting each other. That is how the H-2A
     fetcher sat dead for 101 days: boot said 'ran cleanly' every time.
     """
-    markers = ("🔴", "🟠", "⚠️", "❌", "FAIL", "ERROR", "TIMEOUT", "wrote", "Wrote",
-               "Source:", "Total", "range:", "Traceback")
-    lines = [ln for ln in output.splitlines() if any(m in ln for m in markers)]
+    # ALERT markers carry the finding; INFO markers are routine progress chatter.
+    # Split because the cap must never evict an alert (DAEDALUS §8, 2026-08-17).
+    ALERT = ("🔴", "🟠", "⚠️", "❌", "FAIL", "ERROR", "TIMEOUT", "Traceback")
+    INFO = ("wrote", "Wrote", "Source:", "Total", "range:")
+    src = output.splitlines()
     if status != "OK":
         # Show the RAW tail, not the marker-filtered lines: a traceback's marker
         # token is its first line but its cause is its last.
-        tail = [ln for ln in output.splitlines() if ln.strip()][-3:]
+        tail = [ln for ln in src if ln.strip()][-3:]
         return [f"❌ exited {status} — output tail:"] + (tail or ["(no output captured)"])
-    return lines[-4:] if lines else ["    ✓ ran cleanly"]
+
+    alerts = [ln for ln in src if any(m in ln for m in ALERT)]
+    infos = [ln for ln in src if any(m in ln for m in INFO)
+             and not any(m in ln for m in ALERT)]
+    if not alerts and not infos:
+        return ["    ✓ ran cleanly"]
+
+    # EVERY alert line survives, oldest first — the earliest ⚠️ is usually the
+    # root cause, and `lines[-4:]` used to drop it with no announcement at all
+    # (a truncation that does not announce itself, CHECK_STANDARD §4).
+    CAP = 4
+    out = list(alerts)
+    room = max(0, CAP - len(out))
+    kept_info = infos[-room:] if room else []
+    out += kept_info
+    dropped = len(infos) - len(kept_info)
+    if dropped > 0:
+        out.append(f"    (+{dropped} earlier info line(s) suppressed — --verbose for all)")
+    return out
 
 
 def main():

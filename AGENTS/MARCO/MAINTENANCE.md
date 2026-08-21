@@ -121,12 +121,12 @@
 ### T3-B · RP-MARCO-MBS_BASELINE.md — never-executed + wrong VX refs
 - **What:** Feb-9 baseline protocol for monitoring border-city **municipal-bond spreads** (EMMA). Status: "Awaiting initial spread data collection." Cross-refs use OLD VX numbering (VX-MARCO-01/03/06) that **doesn't match** current VX.tsv (1.01 / 2.02 / ELP-01 / etc.).
 - **Why it matters:** **Latent opportunity:** ES-MARCO-04 (TX border fiscal stress) resolved today as a *counter-signal* on sales-tax revenue — but muni-bond spreads (EMMA) could be the cleaner, more forward-looking border-fiscal-stress instrument that sales-tax (a lagging, offset-able measure) isn't. This never-run protocol may be worth executing, not archiving.
-- **Action:** Decide execute-vs-archive. If execute: pull EMMA spreads for the 5 target cities, fix VX cross-refs to current numbering, populate a real border-fiscal vector. If archive: move to `archive/` and note in FINDINGS.
+- **Action:** Decide execute-vs-archive. If execute: pull EMMA spreads for the 5 target cities, fix VX cross-refs to current numbering, populate a real border-fiscal vector. If archive: move to `archive/` and note in FINDINGS. ⚠️ **`AGENTS/MARCO/archive/` does NOT exist** — the 2026-06-30 prune (`1cb18fbc3`) deleted it and both files it held. **If you execute the archive branch, create the dir ON PURPOSE in the same edit** — do not let it regrow as a side effect of following this line (flagged by PROME 8/12; re-pointed 8/21).
 - **Effort:** medium-large (if executed).
 
 ### T3-C · MARCO_SKELETON.md — historical artifact
 - **What:** v1.0 thesis, explicitly superseded by `thesis/THESIS.md` (v2.4).
-- **Action:** Archive to `archive/` (low priority; harmless where it is, but it's root clutter).
+- **Action:** Archive to `archive/` (low priority; harmless where it is, but it's root clutter). ⚠️ **Same nonexistent-destination caveat as the row above** — `AGENTS/MARCO/archive/` was deleted by `1cb18fbc3`; create it deliberately if you execute, or just leave the file where it is (which this row already concedes is harmless).
 - **Effort:** trivial.
 
 ---
