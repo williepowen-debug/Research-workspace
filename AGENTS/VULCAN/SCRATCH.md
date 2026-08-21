@@ -1,5 +1,28 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> ## ▶ 2026-08-21 PART 5 (Will-approved) — TIER 3 + SECOND-ORDER. **All five channels now carry an OPEN prediction for the first time. Board is clear.**
+>
+> ### ▶▶ START HERE NEXT SESSION
+> 1. **🔴 NVDA WEDNESDAY 2026-08-26** — the near-clock S1 test, capex guide at the **CALL**. Boot leg 6 surfaces it. ⚠️ NVDA's own print is a **READ-THROUGH, not a trigger** — S1's band is on the *hyperscaler* guide.
+> 2. **⏳ 8/28 DAEDALUS sweep — FOUR VULCAN items** (schema ruling · fork walk · L-20 · my falsifying test, which can **retract me**). Registered, P2.
+> 3. **✅ NOTHING ELSE IS OWED.** Tier 1, 2 and 3 are closed; the second-order work is closed. Only `NEXUS_BRIEF` length remains, deliberately held pending NEXUS's revert ruling.
+>
+> ### What Phase 1-3 produced
+> - **Predictions VULCAN-13 (S5) · -14 (S4) · -15 (S3).** Open by channel is now **S1 2 · S2 3 · S3 1 · S4 1 · S5 1** — was 2/3/0/0/0.
+> - **`FLOW.as_of` added; `SCHEMA.tsv` 9→69 rows across all 8 ledgers, ENFORCED at boot leg 7; VX/STATUS/composite score reconcile wired and proven to fire.**
+> - **Packet to VIOLET** (the `ledger`-column generalization + the NVDA correction I owed them). Not live — lands at their boot. **Do NOT re-send.**
+>
+> ### 🔑 Four things worth carrying, in order of how much they generalize
+> 1. **A guard that checks for a live READ is blind to a missing live TEST.** My channels-first rule says *"an empty channel is a failure signal"* — all five channels had a read, so it never fired, while **three of five had no open prediction** and S5 had gone 18 days as a core channel with none. **S4 had a 20-month validated series with nothing falsifiable riding on it.** ⇒ *Ask separately whether a channel can be WRONG, not just whether it has been READ.*
+> 2. **A content-specific sweep certifies the content it searched for, never the file.** `FLOW.as_of` caught FL-VULCAN-04 carrying a **40-day-old** TSMC figure — the **second** instance of the same defect in that file. FL-01's dead Mag-7 was caught **that morning**; FL-04 was not, **because the sweep searched for superseded MAG-7 figures rather than for stale ROWS.** The structural fix found in one pass what a targeted same-day audit missed.
+> 3. **I created a fresh rule-with-no-mechanism hours after building the validator that kills that class** — wrote *"VX.score MUST equal STATUS's matrix"* into the schema and checked nothing. Now wired. ⇒ *Writing a rule and writing its mechanism are separate acts, and knowing the failure mode does not prevent it.*
+> 4. **A structure that looks inconsistent from inside your own directory can be the correct implementation of a spec you don't own.** `inbox/WALTER/processed/` was on my Tier-3 list to MERGE; it is WALTER's sanctioned routing lane and merging 82 files would have broken a live contract. **The check is one grep of the neighbours.**
+>
+> ### ⚠️ Two self-caught errors, recorded because both nearly shipped
+> - **An unquoted heredoc shell-expanded three backticked words OUT of a pushed commit message** (`ledger`, `as_of`, `cross`) — it did not fail, it **succeeded quietly with less content**, and "Fixed to , a value" was the result. Cannot amend (pushed; no force-push) ⇒ correction commit `12b9e92b2`. **Use `<<'EOF'` or `git commit -F` for any prose containing backticks or `$`.**
+> - **Archiving pass 6 silently removed the composite arithmetic line the new reconcile check parses.** The check reported **UNGRADEABLE, not clean**, which is why it was caught in under a minute. The line now lives in the **matrix section** with a do-not-delete note, not inside a dated block that will one day be moved. ⇒ *When you make a surface machine-read, say so ON the surface.*
+
+
 > ## ▶ 2026-08-21 PART 4 (Will-directed) — **TIER 2 CLOSED (the build half).** Tier 3 hygiene remains. **The headline is that my own new instrument was blind to every bearish month, and it looked clean while being so.**
 >
 > ### ▶▶ START HERE NEXT SESSION
