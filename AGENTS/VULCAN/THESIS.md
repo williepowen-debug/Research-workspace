@@ -193,6 +193,72 @@ The weak case is volume — S5 accreted more filed, dated material in a week tha
 
 ---
 
+## 🔴 THE NVDA RESIDUAL-VALUE GUARANTY — the mechanism, not the news (registered 2026-08-21)
+
+*Filed evidence: NVDA 8-K 2026-08-17, acc `0001045810-26-000069`, Item 1.01. Facts in KB-111/112.
+This section is the JUDGMENT; the ledger holds the data. Written because the first pass logged and
+routed the filing without ever stating what it means — and the mechanism is the reason this seat exists.*
+
+**What NVDA did:** wrote residual-value guaranties on ~4.25 GW of datacenter leases (+~3.8 GW at its
+option) where an **OpenAI affiliate is the tenant**, at a site that hosts **NVDA's own platform**.
+Obligation capped at **$105B**; NVDA pays the shortfall between a guaranteed minimum lease value and
+what a re-let or sale recovers. It terminates when **OpenAI achieves a satisfactory credit rating**.
+
+### 🔑 Why it is an S1 concentration-FRAGILITY mechanism, not a financing footnote
+
+**The two legs of NVDA's exposure are positively correlated, and that is the whole point.**
+
+| Leg | What triggers it |
+|---|---|
+| OpenAI defaults on the lease | an AI demand/monetisation disappointment |
+| Re-let or sale recovers less than the guaranteed minimum | **the same** AI demand disappointment — AI-specific datacenter capacity is thin-market and purpose-built |
+
+⇒ **NVDA has written a guarantee whose payout becomes most likely in exactly the state where its own
+core business is weakest.** That is not risk *transfer* and it is not diversification — it is a
+**correlated exposure that concentrates rather than spreads**. The index consequence is what makes it
+S1's: NVDA is **7.98% of the S&P and 24.19% of the Mag-7**, so a contingent claim on the single largest
+index name, conditional on the very scenario that would already be repricing that name, is a
+**convexity the index does not see** until it fires.
+
+⚠️ **Stated at the right strength, because the temptation is to overclaim.** This is **not** "NVDA lends
+OpenAI money to buy NVDA chips." NVDA is taking **residual-value risk on real estate**, OpenAI
+**indemnifies** NVDA, and the obligation is **capped** and **conditional**. The claim here is narrower and
+survives that: **the guarantee's payoff is correlated with the AI-demand state, so it fails to hedge and
+instead stacks.**
+
+### Why it is S5's strongest evidence yet — and why the score still did NOT move
+
+**Rating LEVEL is the binding variable, for the second time and in a new legal form.** Wisconsin PSC
+(KB-069) binds a sub-A- developer through a **regulatory tariff**; this binds through a **private
+contract**, and its termination condition is literally *"OpenAI achieving a satisfactory credit rating."*
+Two independent legal channels now key on the same variable. That is the **strongest affirmative support
+the S5 independence claim has** — and it landed **while capex was being RAISED**, which is precisely the
+form the promotion argument predicted.
+
+⚠️ **And the score is HELD at 3 anyway.** My S5 bands grade *regulator-mandated* collateral and *priced
+new issues*; this is neither. **Evidence strengthening without a band tripping is the normal case, and
+moving the score because a datum feels important is how a matrix stops meaning anything.**
+
+### What CANNOT be concluded yet — the two numbers that decide the size
+
+**The $105B is a CAP on NVDA's obligation, not an exposure estimate.** Actual exposure depends on:
+1. **the guaranteed-minimum-value schedule** — not public;
+2. **the definition of "satisfactory credit rating"** — not public, and it is the entire termination condition.
+
+Both are said to arrive as an **exhibit to the 10-Q for the quarter ended 2026-07-26**. ⚠️ **Until then,
+any exposure figure is a ceiling being quoted as a level** — do not let $105B propagate as "NVDA's
+exposure." *(This is why the 8/31 tripwire survived the 8-K rather than being retired by it.)*
+
+### Does this need its own prediction? **No — and saying so is the discipline.**
+
+The recurrence question is **already** what VULCAN-13 tests, in a form that does not depend on this
+structure repeating in exactly this shape. **A second prediction here would be the same claim registered
+twice**, which inflates the book and lets one event resolve two rows. The one genuinely novel falsifiable
+question — *does OpenAI obtain a rating?* — has **no bounded date**, and a prediction without a resolution
+window is not a prediction. **Registered as a watch item, not a forecast.**
+
+---
+
 ## Boundaries (reconcile-to-one-figure, don't silo)
 
 - **VIOLET** owns the concentration-*unwind* vol expression (Path-B); **VULCAN** owns the concentration *mechanism/driver*. VULCAN gives VIOLET's channel the fundamental it's been carrying without.
