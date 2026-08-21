@@ -237,3 +237,33 @@ Measured: **§1 through §5 each appear 3×** across the stacked editions (§6/�
 **The section-number reuse (§1–§5 each 3×) is left standing** — renumbering would break any cross-desk reference that already cites a section by number, which is the same "stable API" argument that protects the two numbered rule-lists in root `CLAUDE.md`. The layer headers now carry explicit edition dates instead.
 
 **Checks after:** `closeout_check` rc=0 · `boot_recompute` rc=0.
+
+---
+
+# thesis/THESIS.md AUDIT — read end-to-end 2026-08-21 (Will-approved) · v1.1.6 → v1.1.7
+
+**Different lens from STATUS: a DURABLE doc. Step 17 says durable docs carry NO live values — they point to STATUS.**
+
+## ✅ The discipline that held
+
+**Zero date-stamped numbers in the entire document.** Both `KEY THRESHOLDS` and `POSITION VIEW` explicitly delegate live readings to STATUS, and the "State snapshot column was removed to stop cross-doc drift." Tested mechanically, not eyeballed. **This is the one rule the file kept perfectly.**
+
+## Findings
+
+| # | Finding |
+|---|---|
+| **T1** | 🔴 **A SUPERSEDED GOVERNANCE STATE — the worst, and it has no number in it.** The v1.1.4 note recorded legs (a) *indirect-sufficient-alone at the 15th per-tenor pctile* and (b) *drop dealer-as-bearish* as **HELD, "none has been base-rated."** **Will RULED implement 2026-08-20** — verbatim *"Approved on both - implement per your rec."* **A durable doc carrying a dead governance state is worse than one carrying a stale number: a reader re-checks a level; nobody re-checks whether a ruling landed.** |
+| **T2** | **The body asserted flatly what this file's OWN HEADER had already qualified.** *"No Fed backstop at the coupon/long end"* stood unqualified while the v1.1.6 version note recorded `VX-BND-16` firing on 8/19. **Upstream qualification present, in-place amendment absent — the third file today carrying that shape** (after `NEXUS_BRIEF` via DAEDALUS, and STATUS's "29-day run"). |
+| **T3** | **FR2004 vintage 8/05 → 8/12 in TWO places — the 7th and 8th surfaces.** ⚠️ **The 7th was missed by the guard I built that morning: `check_fr2004` scanned the live surfaces and SKIPPED THE DURABLE DOCS.** Extended coverage → it immediately found the 8th. **The derived figure was stale too** (−17.1% off peak; live −20.9%). |
+| **T4** | **The thesis-kill's SOFR−IORB leg still cited `+1bp on one print`.** Fully reversed to −2bp; all three kill legs now un-met simultaneously. STATUS and TRADE were corrected 8/21 — the durable doc was not. |
+| **T5** | **Scoreboard missing `BND-18/19/20`** (registered 8/21) — the same mirror break found on STATUS hours earlier, made twice in one day. Plus 5 live uses of the retired **`FAILED`** token. |
+
+## 🔴 Open item this surfaced — flagged, not buried
+
+**BOND pre-registered `BND-18/19/20` for the 8/25–27 cluster WITHOUT adopting the ruled MATRIX_V2 legs.** Those are BOND's own predictions and are unaffected — **but §1/§3c adoption is a separate action, ruled by Will on 8/20, still owed before 8/25, and today's pre-registration does NOT discharge it.**
+
+## The rot class I closed instead of patching
+
+STATUS's thesis pointer had rotted **four** times — three stale versions, once with THESIS contradicting *itself*, **and a fourth time within hours of me correcting the rot-COUNT**, because I bumped to v1.1.7 and the pointer still said v1.1.6. **Incrementing the count was treating the symptom: a version string duplicated across two files rots on every bump BY CONSTRUCTION.** The duplicate is now removed — this desk's own *one-source-of-truth-per-metric* rule, applied to a version string. STATUS carries the durable SUBSTANCE (label, conviction, posture) and points to THESIS for the number.
+
+**Checks after:** all four rc=0 · 50/50 fixtures · THESIS header self-consistent (title and `Version:` both v1.1.7) · scoreboard mirror 20/20 · CHANGELOG v1.1.7 logged.

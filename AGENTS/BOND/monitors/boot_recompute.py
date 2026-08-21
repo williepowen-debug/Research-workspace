@@ -122,8 +122,14 @@ def check_fr2004() -> int:
     findings = 0
     pat = re.compile(r"as[- ]of[^0-9]{0,24}(?:\*\*)?(20\d{2}-\d{2}-\d{2}|(\d{1,2})/(\d{1,2}))"
                      r"|through the (?:\*\*)?(\d{1,2})/(\d{1,2})(?:\*\*)? as-of", re.I)
+    # DURABLE docs added 2026-08-21. The first version of this check scanned
+    # only the live surfaces and found five stale FR2004 references -- then the
+    # THESIS audit that same afternoon found a SEVENTH, in thesis/THESIS.md,
+    # which this guard had skipped. A durable doc is the WORST place for a stale
+    # vintage to hide: nobody re-reads it, and it is what a new reader trusts.
     surfaces = ([here / f for f in ("STATUS.md", "TRADE.md", "NEXUS_BRIEF.md",
-                                    "SCRATCH.md", "docket/CATALYSTS.tsv")]
+                                    "SCRATCH.md", "docket/CATALYSTS.tsv",
+                                    "thesis/THESIS.md", "PROTOCOL.md", "CLAUDE.md")]
                 + sorted((here / "monitors").glob("*.md")))
     for f in surfaces:
         if not f.exists():

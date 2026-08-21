@@ -4,6 +4,25 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.7 — 2026-08-21 (Will-tasked audit of THESIS: four corrections, one of them a superseded GOVERNANCE state)
+
+**No conviction change. No threshold moved. No channel added or removed.** This is a corrections release, and the corrections are listed worst-first.
+
+**1. 🔴 A SUPERSEDED GOVERNANCE STATE — the worst of the four, and it is not a number.** The v1.1.4 adoption note recorded legs **(a)** *indirect at the per-tenor 15th percentile, sufficient alone* and **(b)** *drop dealer as a bearish leg* as **⏸️ HELD, "none has been base-rated."** **Will RULED implement on 2026-08-20** — verbatim *"Approved on both - implement per your rec"* (DAEDALUS MATRIX_V2 structure review): **§1 = drop dealer-as-bearish entirely, §3c = indirect sufficient ALONE at the 15th per-tenor percentile**, both landing at the **8/25–27** auction-cluster pre-registrations. **A durable doc carrying a dead governance state is worse than one carrying a stale number: a reader will re-check a level, and nobody re-checks whether a ruling landed.** *(c) BTC-confirmatory-only remains genuinely HELD.*
+   ⚠️ **OPEN ITEM, flagged rather than quietly skipped:** BOND pre-registered `BND-18/19/20` for this cluster on 8/21 **without** adopting §1/§3c. Those are BOND's own predictions and are unaffected — **but the ruled MATRIX_V2 adoption is separate and still owed before 8/25.**
+
+**2. A PREMISE ASSERTED IN THE BODY THAT THIS FILE'S OWN HEADER HAD ALREADY QUALIFIED.** *"Regime clarification (7/6): no Fed backstop at the coupon/long end"* stood flat in the ACTIVE EPISODE section while the v1.1.6 version note at the top already recorded that `VX-BND-16` fired on 8/19 and that long-end absorption is **no longer entirely private/foreign/dealer** from 9/9. **Upstream qualification present, in-place amendment absent** — the same shape DAEDALUS flagged on `NEXUS_BRIEF` the same day, and the third file found carrying it. Qualified in place; still *threshold fired, mechanism NOT confirmed.*
+
+**3. FR2004 vintage 8/05 → 8/12, in TWO places (lines 52 and 107) — the 7th and 8th surfaces found a print behind.** One was missed by the very guard built that morning: `check_fr2004` scanned the live surfaces and **skipped the durable docs.** Coverage extended to `THESIS`/`PROTOCOL`/`CLAUDE.md` the same session, and the extension immediately found the 8th. **The derived figure was stale too** (−17.1% off peak; live −20.9%) — a derived figure does not inherit a level fix.
+
+**4. The thesis-kill's SOFR−IORB leg still cited `+1bp on one print`.** It fully reversed — **+1 [8/17] → 0 [8/18] → −3 [8/19] → −2 [8/20]** — so the funding leg is **no longer met on its letter and all three kill legs are un-met simultaneously.** STATUS and TRADE were corrected on 8/21; this durable doc was not.
+
+**Also:** prediction scoreboard re-mirrored (`BND-18/19/20` were registered 8/21 and missing here — the same mirror break found on `STATUS.md` hours earlier), and the retired **`FAILED`** token annotated (the ledger canonicalised on **`FALSE`**; carrying two tokens for one state silently breaks every count of resolved outcomes, calibration included).
+
+**What was checked and found CLEAN:** the no-live-values rule — **zero date-stamped numbers in the whole document**, with both the KEY THRESHOLDS and POSITION VIEW sections explicitly delegating live readings to STATUS. That discipline held.
+
+---
+
 ## v1.1.6 — 2026-08-20 (VX-16's RED trigger FIRED — the long-end buyback cap was lifted; one load-bearing premise now qualified)
 
 **One structural change and one confirmation. No conviction move.**
