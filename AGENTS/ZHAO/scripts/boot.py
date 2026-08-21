@@ -124,7 +124,7 @@ def section_live(quick):
     print("\n[1] LIVE PULL (yfinance)")
     if quick:
         print("    (skipped — --quick)")
-        return
+        return 0
     try:
         import warnings
         warnings.filterwarnings("ignore")
@@ -132,7 +132,8 @@ def section_live(quick):
     except ModuleNotFoundError:
         print("    ⚠️  yfinance not found — run with .venv/bin/python "
               "(NOT system python3). See memory finding_market_data_venv_invocation.")
-        return
+        return 1
+    alerts = 0
     for label, sym, band in LIVE:
         try:
             hist = yf.Ticker(sym).history(period="5d")
@@ -141,15 +142,19 @@ def section_live(quick):
             print(f"    {label:9s} {price:>10.2f}  {emoji} {note}")
         except Exception as e:
             print(f"    {label:9s} {'n/a':>10s}  ⚠️ fetch failed ({type(e).__name__})")
+            alerts += 1
+    return alerts
 
 
 def section_key_ages():
     print(f"\n[2] KEY-FIGURE AGE  (🔴 if > {KEY_STALE_DAYS}d)")
     idx, _ = _vx_index()
+    alerts = 0
     for label, vid in KEY_FIGURES:
         row = idx.get(vid)
         if not row:
-            print(f"    {label:12s} — VX id {vid} MISSING")
+            print(f"    {label:12s} — 🔴 VX id {vid} MISSING")
+            alerts += 1
             continue
         age = _age_days(row["updated"])
         # D4 fix 8/21: an unparseable vintage used to read as NOT stale — fail-OPEN, silent,
@@ -157,11 +162,15 @@ def section_key_ages():
         # exactly why the checker could not see it. Unreadable is now LOUDER than stale.
         if age is None:
             flag, agestr = "🔴 UNPARSEABLE VINTAGE — treat as STALE", "??"
+            alerts += 1
         else:
-            flag = "🔴 STALE" if age > KEY_STALE_DAYS else "✓"
+            stale = age > KEY_STALE_DAYS
+            flag = "🔴 STALE" if stale else "✓"
             agestr = f"{age}d"
+            alerts += 1 if stale else 0
         print(f"    {label:12s} {row['value'][:14]:14s} "
               f"upd {row['updated']} ({agestr:>4s}) {flag}")
+    return alerts
 
 
 def section_tic_watch():
@@ -173,8 +182,8 @@ def section_tic_watch():
     src = china[9] if china and len(china) > 9 else ""
     m = re.search(r"(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{4})", src)
     if not m:
-        print("    (could not parse latest TIC data-month from VX source)")
-        return
+        print("    🔴 could not parse the latest TIC data-month from VX source")
+        return 1
     data_month, data_year = MONTHS[m.group(1)], int(m.group(2))
     t = today()
     # TIC for month M releases ~mid month M+2. Expected latest available:
@@ -185,8 +194,9 @@ def section_tic_watch():
     if exp_idx > have_idx:
         gap = exp_idx - have_idx
         print(f"    🔴 A newer TIC print should be out (~{gap} month(s) ahead) — PULL IT.")
-    else:
-        print("    ✓ up to date with the release schedule.")
+        return 1
+    print("    ✓ up to date with the release schedule.")
+    return 0
 
 
 def section_catalysts():
@@ -196,24 +206,31 @@ def section_catalysts():
     if not script.exists():
         print("\n[4] CATALYST COUNTDOWN")
         print(f"    🔴 {script} MISSING — the dated-event leg is BLIND, not empty.")
-        return
+        return 1
     try:
         out = subprocess.run([sys.executable, str(script)], capture_output=True,
                              text=True, timeout=60)
         print(out.stdout.rstrip())
+        n = 1 if out.returncode != 0 else 0
         if out.returncode != 0:
             print("    ⚠️  countdown exited non-zero — a registry leg is unreadable (see 🔴 above)")
+        # A FIRED row is this session's work queue, not decoration — it must move the verdict.
+        if "RECENTLY FIRED" in out.stdout:
+            n += out.stdout.count("d ago  [")
+        return n
     except Exception as e:
         print("\n[4] CATALYST COUNTDOWN")
         print(f"    🔴 countdown FAILED to run ({type(e).__name__}) — dated-event leg BLIND")
+        return 1
 
 
 def section_predictions():
     print("\n[5] OPEN PREDICTIONS")
     header, body = _read_tsv(PRED_TSV)
+    alerts = 0
     if not body:
-        print("    (none)")
-        return
+        print("    🔴 PREDICTIONS.tsv empty or unreadable")
+        return 1
     # D3 fix 8/21: this was an EXACT match on "OPEN", which dropped 8 of 15 rows — including
     # ZHA-04 ("OPEN — GRADED 7/16, NOT FIRED"), the prediction that FIRED that same morning.
     # Careful annotation made a row vanish from the surface that exists to show it. Prefix-match
@@ -239,12 +256,16 @@ def section_predictions():
             limbo.append((r, due, r[si].strip()))
     for r, due in openish:
         flag = "  🔴 " + due if due.startswith("OVERDUE") else (f"  ({due})" if due else "")
+        if due.startswith("OVERDUE"):
+            alerts += 1
         print(f"    {r[0]:8s} {r[3]:>5s}  {r[2][:56]}{flag}")
     if limbo:
         print("    ⚠️  NEITHER OPEN NOR TERMINAL — a hedge token in a Status cell is a grade that")
         print("        was deferred and then became unfindable (ZHA-09 sat 'LIKELY MISSED' ~7 weeks):")
         for r, due, raw in limbo:
             print(f"        {r[0]:8s} status={raw[:38]!r}{'  🔴 '+due if due.startswith('OVERDUE') else ''}")
+        alerts += len(limbo)
+    return alerts
 
 
 def section_ledger_staleness():
@@ -259,6 +280,7 @@ def section_ledger_staleness():
                 unparseable.append((r[0], r[1], r[8]))
             elif age > STALE_DAYS:
                 aged.append((age, r[0], r[1]))
+    alerts = len(unparseable)
     if unparseable:
         print(f"    🔴 {len(unparseable)} row(s) with an UNPARSEABLE Last_Updated — "
               f"these can NEVER be flagged stale (fail-open class):")
@@ -266,13 +288,18 @@ def section_ledger_staleness():
             print(f"       {vid:14s} {name[:34]:34s} date={raw!r}")
     if not aged:
         print("    ✓ all VX rows fresh." if not unparseable else "    (no *parseable* row is stale)")
-        return
+        return alerts
     aged.sort(reverse=True)
     print(f"    {len(aged)} of {len(body)} rows stale. Oldest:")
     for age, vid, name in aged[:8]:
         print(f"      {age:>4d}d  {vid:14s} {name}")
     if len(aged) > 8:
         print(f"      … +{len(aged) - 8} more")
+    # DELIBERATE: chronic VX staleness is a BACKLOG and does NOT flip the verdict — 19 of 39
+    # rows would pin this to REVIEW every boot and the signal would stop meaning anything.
+    # An UNPARSEABLE vintage does flip it (fail-open class). Declared, not overlooked.
+    print("    (chronic staleness is reported, not verdict-flipping — see boot.py note)")
+    return alerts
 
 
 def main():
@@ -280,16 +307,34 @@ def main():
     print("=" * 60)
     print(f"ZHAO BOOT BRIEF — {today().isoformat()}")
     print("=" * 60)
-    section_live(quick)
-    section_key_ages()
-    section_tic_watch()
-    section_catalysts()
-    section_predictions()
-    section_ledger_staleness()
+    legs = [
+        ("live pull",       section_live(quick)),
+        ("key-figure age",  section_key_ages()),
+        ("TIC watch",       section_tic_watch()),
+        ("catalysts",       section_catalysts()),
+        ("predictions",     section_predictions()),
+        ("ledger",          section_ledger_staleness()),
+    ]
+    legs = [(n, v if isinstance(v, int) else 0) for n, v in legs]
+    total = sum(v for _, v in legs)
+
+    # --- §8 verdict layer (CHECK_STANDARD.md §8 rule 5; DAEDALUS 2026-08-17, donor FERT) ---
+    # Keyed on ALERT COUNTS the sections report, NOT on scraping markers out of stdout.
+    # ⚠️ Scraping would be wrong HERE specifically: §4 prints 🔴 as a PRIORITY GLYPH on healthy
+    # forward catalysts, so a marker-scrape would read REVIEW on every clean boot that has a
+    # high-priority event scheduled — FERT's "never bare output-nonempty" trap in a new shape.
     print("\n" + "=" * 60)
-    print("Boot brief complete. Refresh any 🔴, then proceed with STATUS.md.")
+    if total == 0:
+        print("ZHAO boot: OK — no alerts. Proceed with STATUS.md.")
+        rc = 0
+    else:
+        detail = " · ".join(f"{n} {v}" for n, v in legs if v)
+        print(f"ZHAO boot: REVIEW — {total} ⚠️  ({detail})")
+        print("Clear or explicitly defer each before trusting STATUS.md.")
+        rc = 1
     print("=" * 60)
+    return rc
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
