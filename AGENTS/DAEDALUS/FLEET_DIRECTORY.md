@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-20.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-21.
 
 *One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); **class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). "Missing / next" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. Dormant agents are un-graded → blank grade cells; an ACTIVE/TIER-2 agent missing its FLEET_MAP row renders ⚠️ UNGRADED and the generator exits nonzero — a blank there is never by-design. PROME graded 2026-07-28 (Will-ratified, judgment-read only — the scripted floor cannot see a root-level agent).*
 
@@ -39,6 +39,7 @@
 | OZK | Market | L4 | Bank OZK specialist (RESG construction / classified-migration watch) | P-OZK decision window ends 8/21 (DOCKET row cited BY DATE+TEXT — prior… |
 | WAL | Market | L3 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | predictions ledger UNGRADEABLE: WAL-01/02 OPEN 115d, schema has NO Reso… |
 | FLG | Market | L1 | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | First live session spends the FIRST-LIVE-SESSION protocol: re-verify se… |
+| CRUISE | Market | L3 | Cruise-sector event specialist — CCL vehicle; fuel-cost transmission (BRENT → CCL); 8-channel pre-announce watchlist (`WATCHLIST_CCL_PREANNOUNCE.md`, 8/14); Q3 print ~9/28-29. ⚠️ The 7/2 arm-CCL ladder is PROPOSED-NEVER-RATIFIED and 4wk in-band — retire-or-fresh-levels decision staged at next session (row-55 ruling 8/21); do NOT treat its band as a live threshold | Next session (Will-staged): retire-or-fresh the ladder FIRST |
 | FERT | Market | L2 | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — routing only, log+flag, no deep-dive until the charter edit [DAEDALUS-owed] + benchmark row land together; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | L2->L3 when: >=1 OPEN forward prediction registered (book is 0-OPEN — a… |
 
 ## 🟡 TIER-2 — spawned as needed
@@ -66,4 +67,4 @@
 | RAV | Meta | L2 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST charter-conformant run report in AGENTS/RAV/runs/ — §5'… |
 
 ---
-*32 active · 4 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*33 active · 4 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
