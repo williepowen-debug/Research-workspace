@@ -67,3 +67,32 @@ The prior extensions cover a desk mis-classifying its own reach. The mirror form
 
 **Added to how-to-apply:**
 9. **Never accept — or offer — a "genuinely unavailable" stamp on an item nobody has attempted.** UNCHECKED is a third state, distinct from both; only an attempted retrieval converts it to one of the other two. A refusal to classify is the honest answer and should be recorded as such, with queue position, not a promised date.
+
+---
+
+**Extension 2026-08-21 (BRENT) — THE CALLER'S OWN IDENTITY CAN MANUFACTURE THE UNAVAILABILITY, AND IT RENDERS AS THE PUBLISHER'S FAULT.**
+
+Every form above is about a desk mis-classifying *effort* ("nobody tried") as a property of the world. This is the form where **the retrieval WAS attempted, repeatedly, and still produced a false unavailable** — because some publishers' WAFs **tarpit a self-identifying User-Agent**: they do not return 403, they simply never answer.
+
+**Measured, same URL, back to back, both timeouts tried so it could not be blamed on tuning:**
+
+| User-Agent | Result |
+|---|---|
+| `BRENT-instrument-check/1.0` | `TimeoutError` at **20s** AND at **45s** |
+| `Mozilla/5.0 … Chrome/126 …` | **HTTP 200**, 4096B, in **0.1–0.4s** |
+
+**⛔ A HANG AND AN OUTAGE ARE INDISTINGUISHABLE AT THE CALLER, AND ONLY ONE OF THEM IS THE HOST'S FAULT.** A 403 is legible — the publisher said no, and you go look for why. A timeout reads as *their* infrastructure failing, so the honest, diligent write-up is **"the primary is unreachable"** — a sentence about the world, generated entirely by your own headers.
+
+**Worked case.** For a month BRENT's surfaces carried, in its own words, *"the Baker Hughes PRIMARY TIMED OUT AGAIN (http=000) — I have still never reached the true primary; every figure in this ladder is an AGGREGATOR."* Repeated 7/31, 8/14, 8/20-21. The host was never down. Cost: every weekly grade of a live prediction row taken single-sourced off aggregators, each one correctly and uselessly caveated.
+
+**Two compounding details, both general:**
+
+1. **The caveat hardened into a specification.** By 8/14 the test registry's `probe` field for that row literally read `manual:two independent aggregator pulls`. A sentence that began life as a *disclosure about a transient failure* had become the *documented instrument*, at which point nothing in the system was even asking the question any more. This is the Extension-2 self-sealing mechanism reaching its endpoint: an unavailability claim that survives long enough stops being a caveat and becomes the design.
+2. **The fix already existed one function away.** The same file's `probe_gie()` had carried a browser UA — annotated *"LOAD-BEARING, not cosmetic"* — plus an error string reading *"if this says 'API key', check the User-Agent FIRST — GIE's error text misnames its own gate."* A prior session had diagnosed this exact failure mode, written the diagnosis next to the code, and not carried it thirty lines up to the neighbouring probe. [[finding_record_of_an_action_is_not_the_action]] at the tightest scope yet observed: not across files or surfaces, but **across two functions in one file**.
+
+**⚠️ AND THE HYPOTHESIS THAT NEARLY SHIPPED WITH IT WAS WRONG.** The first attempt failed with `HTTP/2 stream not closed cleanly`; the retry, which *also* set `--http1.1`, succeeded — so the obvious root cause was protocol negotiation. Tested head-to-head 3× each: **both protocols return 200 in <0.3s.** The opening failure was transient noise. **Two variables had been changed at once, and the working fix would have certified the wrong explanation** — the most durable class of error, because nothing downstream ever contradicts it.
+
+**Added to how-to-apply:**
+10. **"Unreachable" is a two-part claim — the host, and the caller's identity. Vary the User-Agent once before you write the caveat.** It costs one line and it is the difference between a fact about the world and a fact about your headers. Distinguish the failure shapes: **403 = you are being refused** (a real boundary, go find the documented path); **hang/timeout = you may be being filtered** (retry with a browser UA before concluding anything).
+11. **When a standing caveat survives three sessions unchanged, re-test it — and check whether it has migrated into a spec, config or probe field.** That migration is the point of no return: once the workaround is the documented instrument, the original claim is no longer visible as a claim.
+12. **A fix that works does not validate the story you told about why it works.** If more than one variable changed between the failure and the success, isolate them before writing the root cause down. Record the refuted hypothesis next to the accepted one — see [[finding_a_charitable_reading_of_your_work_is_the_one_to_check]].
