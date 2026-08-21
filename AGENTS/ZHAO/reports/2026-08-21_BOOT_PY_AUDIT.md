@@ -58,3 +58,45 @@ Same shape, two fields: a Status gains "— GRADED 7/16" and disappears from the
 D1–D4 are the fix set; D3 and D4 are the ones that change behaviour rather than presentation. **One genuine design question for Will, not a bug:** should `CATALYSTS` stay a maintained list (and simply get maintained), or be **derived from STATUS.md's CALENDAR table** so the two cannot diverge again? Derivation removes the failure mode permanently but couples the script to STATUS's formatting. **Not decided unilaterally.**
 
 *`boot.py` fix is ZHAO's (PROME ruling 8/21); the finding rides to DAEDALUS as 8/28 sweep-input ⑪.*
+
+---
+
+# ADDENDUM — fleet survey: how other desks handle CATALYSTS (2026-08-21)
+
+**Asked by Will. Surveyed rather than reasoned-from-principles — and the answer is that neither option I offered was the fleet's.** I proposed (a) keep a maintained hardcoded list or (b) derive from STATUS's CALENDAR. **The fleet does (c): a separate TSV data file read by a dedicated sub-script.**
+
+## The established pattern
+
+| Layer | What | Adoption |
+|---|---|---|
+| **Data** | `docket/CATALYSTS.tsv` (VIOLET/LIQUID use `workbook/`) — **8-col schema**: `date · event · what_to_check · threshold_signal · priority · who_cares · notes · date_class` | **13 agents** (LABOR, SAM, BRENT, LIQUID, CARL, RED, BOND, BROCK, HOMER, OTTO, MARCO, VIOLET*, BARON*) |
+| **Reader** | `scripts/catalyst_countdown.py` — standalone, reads the TSV | **6 agents** (HAWK 222ln · MARCO 219 · OTTO 183 · LABOR 147 — **all four md5-distinct; drifted, never a shared module**) |
+| **Orchestration** | `boot.py` invokes it as a registered sub-script step | HAWK, LABOR, SAM, BRENT, MARCO, OTTO |
+| **Self-check** | the catalyst file is itself staleness-bounded (LABOR: **14d** on `CATALYSTS.tsv`) | LABOR |
+
+*\*VIOLET and BARON use variant schemas — VIOLET: `date · event · type · agent_domain · expected_vol_impact · source · notes`.*
+
+**ZHAO is the outlier: the only surveyed desk with catalysts hardcoded in Python.** That is the whole of defect D1 — a data list living in code cannot be edited at closeout, cannot be staleness-checked, and silently diverges from STATUS's CALENDAR.
+
+## Two features the fleet has that solve problems I currently have
+
+**① `date_class` — an honest-dates taxonomy.** Values in live use: `confirmed` (24) · `resolved` (42) · `pending` (18) · `external` (17) · `modeled` (13) · `estimated` (3) · `watch` (3). **LABOR renders a `modeled` date with a `~` prefix and prints a legend line** (*"'~' prefix = modeled/projected date (not source-confirmed; may revise)"*).
+> **This is exactly ZHAO's tilde problem made machine-readable.** My CALENDAR is full of `~Sep 16`, `~Aug 17-18` — prose tildes a script cannot reason about. `date_class` distinguishes *"Treasury publishes on a known schedule"* from *"I estimated this."*
+
+**② OTTO's section-sticky FIRED rule — and OTTO hit my exact failure a month before I did.** `AGENTS/OTTO/scripts/boot.py` carries this comment:
+> *"every fired row must surface regardless of its priority glyph. A 🟡 fired catalyst is still an UNSWEPT catalyst, and **filtering the past-due-catch by priority silently re-creates the exact miss the countdown exists to prevent.** (2026-07-25: 3 of 4 fired rows were hidden at boot — incl. the First Brands creditor-vote deadline, a direct dependency of the OTTO-32 resolver.)"*
+
+**Same class as ZHAO's 8/21 miss** (ZHA-15's grade and the Korea tripwire both came due with nothing sweeping them), found by another desk on 7/25, with the trap already documented. ⚠️ **Note the trap is one level deeper than my fix would have gone:** I would have added a countdown and might well have filtered it by priority.
+
+## Recommendation
+
+**Adopt the fleet pattern rather than either option I put to Will:**
+1. Create `AGENTS/ZHAO/docket/CATALYSTS.tsv` on the **dominant 8-col schema** (not VIOLET's variant), seeded from STATUS's CALENDAR.
+2. Port `catalyst_countdown.py` — **donor: OTTO**, because its documented failure is identical to mine and it carries the section-sticky FIRED logic. *(HAWK is larger; largest ≠ most apt.)*
+3. `boot.py` calls it as a registered step; **delete the hardcoded `CATALYSTS` list.**
+4. Add `CATALYSTS.tsv` to boot's own staleness check (LABOR's 14d bound).
+5. Use `date_class` for every `~` date ZHAO carries.
+
+**Direction of truth: the TSV becomes the source and STATUS's CALENDAR the mirror** — the reverse of my option (b), and it removes the STATUS-formatting coupling that made (b) unattractive.
+
+⚠️ **Not adopted from the fleet: a shared module.** All four `catalyst_countdown.py` copies are md5-distinct — the fleet has pattern reuse, not code reuse, so **porting means inheriting a fork, and OTTO's fired-row fix demonstrably did not propagate to the other three.** Worth flagging to DAEDALUS as a fleet observation; not ZHAO's to fix.
