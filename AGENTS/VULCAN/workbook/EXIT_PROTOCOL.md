@@ -25,6 +25,32 @@
 
 **Leg 1 (capex re-accelerates ≥+40% YoY):** NOT met, not yet observable — resolves at the Jan-2027 guides (`VULCAN-10`). **Leg 2 (Mag-7 ≤28%, 3+ months, no VIX>30, no SPX drawdown >15%):** NOT met — **Mag-7 32.98%** [SPY holdings, 8/20, own pull], nowhere near; **the instrument is no longer the weak point — it was pulled at an issuer primary on 8/21 and is now retained by `tools/mag7.py` → `workbook/MAG7_SERIES.tsv`.** ⚠️ Basis is a **FUND** weight, not an S&P DJI **index** weight (the committee publishes no free constituent weights; spglobal 403s) — quote it as such. ⚠️ **And the number is closer to a band than the old figure implied: 32.98% sits 0.019pp under the 33% yellow line, which is inside the basis noise — treat it as AT the line.** *(That is a threshold-proximity note about S1's banded rule, not about this kill leg, which needs ≤28% and is nowhere near.)* **Leg 3 (memory stays healthy, DRAM contract ≥0% QoQ for 4 straight quarters through 2027-06-30):** **STILL MET at the only observation available** — spot rose again this session (DDR5 **$54.10 +0.62%** · DDR4 **$91.07 +0.54%**, 8/21), the 3Q26 contract forecast is still positive, and the −25% roll rule is *further* from firing than on 8/3. **Only 1 of the leg's 4 quarters has been observed; 3 remain.** ⚠️ **Nothing this session moved the count, and the count moving is not the test of whether it was checked** — it was checked leg by leg against current instruments, which is the point of the closeout re-evaluation.
 
+### 🔴 THESIS-KILL RE-EVALUATION 2026-08-21 **EVENING** (pass 9 closeout) — **STILL 1 of 3, and this time the rail was actually RE-READ rather than the count restated.**
+
+⚠️ **Why this entry exists at all:** across passes 7-8 I wrote *"thesis-kill still 1 of 3"* into three commit messages and a NEXUS brief **without opening this file.** The count was correct — but a **restated** count is not a **re-evaluated** one, and the distinction is the entire point of step 3. `finding_record_of_an_action_is_not_the_action`, caught on myself at the last step of the day.
+
+**Leg-by-leg, against today's evidence:**
+
+| Leg | Kill condition | Today | Met? |
+|---|---|---|:---:|
+| **1** AI-capex re-accelerates | FY27 aggregate ≥ +40% YoY (≈ ≥$1.03T) | **Not yet observable** — no FY27 aggregate guide exists; resolves at the Jan-2027 guides (`VULCAN-10`). ⚠️ The NVDA 8-K does **not** touch this: leg 1 grades the **four hyperscalers**, and NVDA is not one of them | **NO** |
+| **2** Concentration unwinds cleanly | Mag-7 ≤28%, 3+ months, no VIX>30, no SPX drawdown >15% | **Mag-7 32.98%** [SPY fund weight, 8/20, unchanged today] — **4.98pp above the kill level.** ⚠️ Breadth **broadening** (+5.18pp, 97.6th pctile) is *directionally* toward an unwind but the leg grades the **SHARE**, and the share has not moved | **NO** |
+| **3** Memory stays healthy | DRAM contract ≥0% QoQ for 4 consecutive quarters | Spot **still rising 8/21** (DDR5 **$54.10** +0.62%, DDR4 **$91.07** +0.54%); contract still rising, still decelerating | **YES** |
+
+**⇒ 1 of 3. Unchanged, and the unchanged-ness is now evidenced rather than asserted.**
+
+### 🆕 Does the 8/17 NVDA 8-K move any kill condition? **No — and one channel moved AWAY from death.**
+
+- **Thesis legs:** none. It is not a hyperscaler capex guide (leg 1), not an index-share move (leg 2), not a memory price (leg 3).
+- **S3 channel-kill** — *"grid constraint stops binding: interconnection clears faster than load is added for 2 consecutive planning cycles"* — the 8-K **adds ~4.25 GW of IT load in PJM territory** (+~3.8 GW optional). That pushes **directly against** S3's death condition. ⇒ **S3 is more alive, not less.** ⚠️ Do not convert that into a queue number without WATT: *IT load* is a third quantity, and the site may already sit inside the 55 GW.
+- **S5 channel-kill:** unaffected on the letter — this is a **private contract**, not the regulator-mandated collateral or priced new issue S5's bands grade. **Evidence strengthened, no kill condition approached, score held at 3.**
+
+**Dated rewrite trigger: NOT DUE.** Fires on the FIRST of {MU FQ4 ~9/29 · the 9/30 resolutions · 2026-11-15}; earliest is ~39 days out and is a registered `docket/CATALYSTS.tsv` row, so it will surface at boot rather than depending on memory.
+
+⚠️ **From-states deliberately NOT refreshed.** Leg 3's from-state still reads the **8/13** spot prices even though 8/21 prices exist and are higher. **That is correct: a from-state is a FROZEN reference.** Moving it because newer data exists would silently re-baseline the test and destroy the comparison the leg is built on. *(Leg 2's from-state WAS changed on 8/21 — that was a **correction** of an aggregator error, not a re-baseline. The two look identical in a diff and are not the same act.)*
+
+---
+
 ### (2026-08-13 record — retained) THESIS-KILL STATUS: **1 of 3 legs currently satisfied.**
 
 **Leg 3 is met right now and my files have never said so.** Memory *is* healthy — every price leg is rising, the last two prints were records, Micron says 2027 will be tighter than 2026, and the −25% QoQ roll rule is nowhere near firing. Writing the rail is what surfaced it. This is not a reason to soften the leg: a conjunctive kill with one leg standing is the honest state, and the correct response is to say so, not to re-word the leg until the count reads 0.
