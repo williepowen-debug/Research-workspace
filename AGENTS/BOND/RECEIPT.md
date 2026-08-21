@@ -66,7 +66,7 @@ VULCAN offered the **filing, not the figure** (CRWV Q2 10-Q, acc `0001769628-26-
 ## 8. Mail state
 
 **In:** 5 deferred, unchanged (DAEDALUS · LABOR · REGINALD · VIOLET · PROME hyperscaler allocation ~9/3). WALTER lane empty.
-**Out:** 1 packet → **VULCAN**, committed `496f2893d`, doorbelled, **confirmed applied in-session** (VULCAN KB-108).
+**Out:** 1 packet → **VULCAN**, committed `496f2893d`, doorbelled, **confirmed applied in-session** (VULCAN `KB-108`). ✅ **DELIVERY VERIFIED BY CONTENT AT THE RECIPIENT, not by filename** — VULCAN consumed it and `git mv`'d it to `AGENTS/VULCAN/inbox/processed/` in `5bd99247b`, whose commit message quotes this packet's findings verbatim (the four-episode breakdown, the composition-adjective diagnosis, the IG substitute, the attribution caveat). **That is the strongest delivery evidence this desk has recorded** — it clears both the *"did it arrive?" ≠ "do they know?"* gap and the naming-convention false-orphan trap in one check.
 **Cross-session:** VULCAN ×2 (correction in → accepted in full; reply out → applied both ways, no open items). PROME ×2 (ack in; CCC correction out → **HEARTBEAT §3 carried the false clause, corrected `b2f5ecdd1`, ~20 min exposure; PROME confirms nothing false reached Will**).
 
 **One line:** *a peer told me my cross-check wasn't one, and checking that sent me back to the primary, where the thing I found wrong was mine and bigger — and it ran against my own thesis.*
