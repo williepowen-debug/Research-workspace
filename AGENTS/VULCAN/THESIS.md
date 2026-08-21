@@ -12,7 +12,7 @@
 |---|---|---|
 | 1 | Hyperscalers ramp AI-capex (MSFT/GOOGL/AMZN/META) | confirmed |
 | 2 | Megacap earnings + market cap concentrate → Mag-7 dominates index weight | confirmed (VIOLET Path-B 🔴) |
-| 3 | Index becomes single-factor: breadth narrows, correlation-1 risk | open |
+| 3 | Index becomes single-factor: breadth narrows, correlation-1 risk | **open — and as of 2026-08-21 MEASURED FOR THE FIRST TIME, RUNNING AGAINST THIS STAGE.** Breadth = **RSP/SPY 63d relative return +5.18pp, 97.6th percentile** [own pull, as-of 8/20]: equal-weight is strongly **OUTPERFORMING**, i.e. breadth is **BROADENING**, not narrowing. ⚠️ This stage was unmeasured until today — my S1 instrument was level-only, which also made the red band (*≥40% AND breadth collapse*) **untrippable by construction**. ⇒ **The stage is not falsified — a stage is a mechanism, and one reading is a state, not a verdict — but it is now instrumented and the instrument disagrees with it.** Collapse threshold **≤ −7.5pp** (base-rated: 5 distinct episodes in 23.3yr). Retained in `workbook/MAG7_SERIES.tsv` so this can become a trend rather than a point. [KB-103] |
 | 4 | Capex ROI question OR a capex cut → concentration unwinds → index-wide repricing | open (the systemic event) |
 
 **Repricing:** the megacap-concentration vol expression (→ VIOLET Path-B), HEN-36 FCF (→ HENRY). **Confirms/breaks:** capex guides raised + FCF holding at the 7/22–7/29 stack confirms; a capex cut YoY with Mag-7 >40% fires the unwind. This is the cleanest bidirectional flip.

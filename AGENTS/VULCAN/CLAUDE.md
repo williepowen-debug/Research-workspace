@@ -126,7 +126,7 @@ STATUS.md carries a convergence matrix. **Required handle: a universal 5-point s
 
 **Required columns:** `# | Channel | Score (1–5) | Local state | Independence | Key Signal | Upgrade Trigger`.
 **Independence (NEXUS):** note shared antecedents — an AI-capex disappointment drives S1 **and** S3 **and** S5 at once; count the shared root once.
-**Composite:** transparent arithmetic (e.g. `Total 11/20`). No hidden weighting.
+**Composite:** transparent arithmetic (e.g. `Total 15/25`). No hidden weighting. ⚠️ **The denominator is /25 — five core channels since S5's promotion 2026-08-03.** *(This example read `11/20` until 8/21, an 18-day-stale four-channel figure sitting in the spec that defines the composite — surfaced by closeout step 4b's own question ① on its first run. **12/20 and 15/25 are both 60%: a denominator change is not a score change.**)*
 
 ---
 
