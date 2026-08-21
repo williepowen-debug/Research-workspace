@@ -183,3 +183,17 @@ No missing files or broken references (33/33 paths named in `CLAUDE.md` exist) �
 **`assertion_check` could not have caught S11: its PENDING vocabulary had no token for "UPCOMING",** so a section header can advertise a past event as forthcoming indefinitely. Fixed with a **STRONG/SOFT split** — `upcoming|forthcoming` bypass the 10-day `MIN_AGE` floor (nothing can be upcoming about a past date at any age) while the soft vocabulary keeps the floor so release-lag caveats stay quiet. **+1 fixture; 42 total, all passing.**
 
 **Verified clean after the pass:** `docket_check` rc=0 · `boot_recompute` rc=0 (incl. FR2004 vintage) · `closeout_check` **rc=0 across all three** · `--selftest` **42/42** · PREDICTIONS↔STATUS mirror verified · **239/250 lines**.
+
+---
+
+## STATUS follow-through — the three items Will approved (2026-08-21)
+
+| # | Item | Done |
+|---|---|---|
+| **1** | **Catalyst table reordered chronologically** | The next event is now the **first row** (Mon 8/24, then the 8/25–27 cluster). Order was 8/11 → 9/10 → 8/5 → Watch → 8/19 → … with the imminent items buried mid-table. Standing and recently-resolved rows moved to a labelled tail. **A table whose job is "imminent catalysts + countdown" has to be readable top-down.** |
+| **2** | **Two fired rows past retention pruned** | 8/05 QRA (16d) and 8/11–13 refunding (10d), per closeout step 12's ~1-week rule. ⚠️ **Pruned from the docket AND the twin in the same commit** — a one-sided prune would have re-broken the event-set parity fixed hours earlier. ⚠️ **By explicit ROW with the content read and reproduced first, never by date-key** — LABOR silently deleted rows in August doing exactly that. Both archived verbatim → `2026-08-21_STATUS_catalyst_rows_pruned.md`, including the raw TSV lines so either can be restored. |
+| **3** | **August refunding block archived** | ~21 lines for a 10-day-old graded event, the largest single block on the file. Archived verbatim → `2026-08-21_STATUS_archive_august_refunding_grade.md` with the "trailing-12 spans a repricing regime" limit attached to the numbers, replaced by a 1-line pointer carrying the conclusion. |
+
+**Net: 239 → 219 lines (31 of headroom).** Re-verified after: `docket_check` rc=0 · `boot_recompute` rc=0 · `closeout_check` rc=0 · `kb_lint` rc=0 · **composite re-sums 12/35 over 7 vectors** · **docket↔twin parity intact** · **PREDICTIONS↔STATUS mirror intact (BND-15/18/19/20)**.
+
+**What is still NOT claimed:** that the file is *true*. Every defect SHAPE the checkers know is clear and the arithmetic and mirrors verify — but no check judges whether the analysis is still right, and my own sweeps demonstrably missed the IG wording twice and the "29-day run" once before a rescan caught them. A second reader would likely still find things.
