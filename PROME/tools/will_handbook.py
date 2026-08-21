@@ -186,7 +186,34 @@ td{padding:.42rem .6rem;border-bottom:1px solid var(--line-soft);vertical-align:
   padding:.7rem .9rem;font-size:.85rem;font-family:var(--mono)}
 footer{font-size:.72rem;color:var(--faint);line-height:1.7;
   border-top:1px solid var(--line);padding-top:1rem}
+.tabs{display:flex;gap:2px;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;font-size:.82rem;font-weight:700;letter-spacing:.06em;
+  text-transform:uppercase;background:none;border:0;color:var(--faint);
+  border-bottom:3px solid transparent;padding:.45rem 1rem .6rem;cursor:pointer}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+[role="tabpanel"][hidden]{display:none}
+[role="tabpanel"]{display:flex;flex-direction:column;gap:2.1rem}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+"""
+
+TABS_JS = """
+<script>
+(function(){
+  var KEY='handbook-tab', btns=document.querySelectorAll('.tabs button');
+  function show(id){
+    btns.forEach(function(b){
+      var on=b.dataset.tab===id;
+      b.setAttribute('aria-selected',on?'true':'false');
+      document.getElementById(b.dataset.tab).hidden=!on;
+    });
+    try{localStorage.setItem(KEY,id);}catch(e){}
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.tab);});});
+  var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
+  if(saved&&document.getElementById(saved))show(saved);
+})();
+</script>
 """
 
 
@@ -205,6 +232,12 @@ def render(sections, dec, chore, dates):
 
     for leg, reason in ALERTS:
         h.append(f"<div class='degraded'>⚠ {html.escape(leg)}: {html.escape(reason)}</div>")
+
+    h.append("<nav class='tabs' role='tablist'>"
+             "<button role='tab' data-tab='tab-desk' aria-selected='true'>Your desk</button>"
+             "<button role='tab' data-tab='tab-manual' aria-selected='false'>The manual</button>"
+             "</nav>")
+    h.append("<div id='tab-desk' role='tabpanel' aria-label='Your desk'>")
 
     # -- live: waiting on you ---------------------------------------------------
     h.append("<section><h2>Waiting on you — "
@@ -241,11 +274,15 @@ def render(sections, dec, chore, dates):
     if not dates:
         h.append("<li><span class='when'>—</span><span>clock parsed empty — see canon</span><span></span></li>")
     h.append("</ul></section>")
+    h.append("</div>")  # /tab-desk
 
     # -- the manual -------------------------------------------------------------
+    h.append("<div id='tab-manual' role='tabpanel' aria-label='The manual' hidden>")
     for title, body in manual:
         h.append(f"<section><h2>{wb.md_inline(title)}</h2>{render_body(body)}</section>")
+    h.append("</div>")  # /tab-manual
 
+    h.append(TABS_JS)
     h.append("<footer>The manual half is hand-written canon (<code>PROME/HANDBOOK.md</code>) "
              "and changes only when a convention changes — its claims carry their own dates. "
              "The live sections regenerate at every PROME closeout from the same files the "
