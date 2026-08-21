@@ -430,15 +430,26 @@ def parse_positions(gate_rows):
             exp_txt = g("Expiry") or pos
             pl_raw = g("P&L") or g("P&L%") or ""
             pl = re.search(r"[+\-−]\s?\$?[\d,]+(?:\.\d+)?%?(?:\s*/\s*[+\-−][\d.]+%)?", pl_raw)
-            gate = next((r for r in gate_rows
-                         if re.search(rf"\b{tick}\b", "\t".join(r[:6]))), None)
+            # prefer-LIVE-then-fall-back (PROME v2 nit, 8/21 eve): a dead gate
+            # naming the ticker must never read as "watching it" — a RESOLVED/
+            # RETIRED chip under that header implies active coverage that isn't
+            # there, while the real LIVE watcher may be keyed on a series that
+            # never names the ticker string at all (TLT's is DGS10-keyed).
+            named = [r for r in gate_rows if re.search(rf"\b{tick}\b", "\t".join(r[:6]))]
+            live_g = next((r for r in named if r[5].split()[0].startswith(("LIVE", "FIRED"))), None)
+            dead_g = named[0] if named else None
+            if live_g is not None:
+                gate = {"id": live_g[0], "state": live_g[5].split("(")[0].split()[0], "live": True}
+            elif dead_g is not None:
+                gate = {"id": dead_g[0], "state": dead_g[5].split("(")[0].split()[0], "live": False}
+            else:
+                gate = None
             out.append({
                 "section": section, "ticker": tick,
                 "pos": wb.ell(pos if pos != tick else "Stock", 22),
                 "qty": g("Qty"), "pl": pl.group(0).replace(" ", "") if pl else "—",
                 "exp_days": _expiry_days(exp_txt),
-                "gate": ({"id": gate[0], "state": gate[5].split("(")[0].split()[0]}
-                         if gate is not None else None),
+                "gate": gate,
             })
     if not out:
         alert("positions", "FORGE position tables parsed to ZERO rows — schema changed, strip omitted")
@@ -524,17 +535,24 @@ def render_brief_tab(written, brief, feed, first, money, positions):
             expd = p["exp_days"]
             exp = ("—" if expd is None else
                    f"<span class='{'pl-neg' if expd <= 14 else ''}'>{expd}d</span>")
-            gch = (f"<span class='gchip{' fired' if p['gate']['state'].startswith('FIRED') else ''}'>"
-                   f"{html.escape(p['gate']['id'])} {html.escape(p['gate']['state'])}</span>"
-                   if p["gate"] else "<span class='gchip'>no gate names it</span>")
+            if p["gate"] and p["gate"]["live"]:
+                gch = (f"<span class='gchip{' fired' if p['gate']['state'].startswith('FIRED') else ''}'>"
+                       f"{html.escape(p['gate']['id'])} {html.escape(p['gate']['state'])}</span>")
+            elif p["gate"]:
+                gch = (f"<span class='gchip'>no LIVE gate — last: "
+                       f"{html.escape(p['gate']['id'])} {html.escape(p['gate']['state'])}</span>")
+            else:
+                gch = "<span class='gchip'>no gate names it</span>"
             h.append(f"<tr><td><strong>{html.escape(p['ticker'])}</strong> "
                      f"{html.escape(p['pos'])}</td><td>{html.escape(p['qty'])}</td>"
                      f"<td class='{plc}'>{html.escape(p['pl'])}</td>"
                      f"<td>{exp}</td><td>{gch}</td></tr>")
         h.append("</table></div>"
                  "<p class='hint'>Marks inherit the broker-export vintage above — never fill "
-                 "against them. 'Watching it' = first GATES.tsv row naming the ticker; "
-                 "'no gate names it' means no registered action-gate mentions this position.</p>")
+                 "against them. 'Watching it' = the first LIVE/FIRED GATES.tsv row naming the "
+                 "ticker; a dead gate never renders as watching — 'no LIVE gate' says so and "
+                 "names the last one; 'no gate names it' means no registered action-gate "
+                 "mentions this position at all.</p>")
     if brief.get("POSITION"):
         h.append("<div class='prose'>" + wb.md_block(brief["POSITION"]) + "</div>")
     h.append("</section>")
