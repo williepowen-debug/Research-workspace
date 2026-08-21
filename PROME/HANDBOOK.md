@@ -3,8 +3,8 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **Say the Batch A word** — two one-liners for the memory system, drafted verbatim, first agenda item of your next session [queued 8/21].
-- **Monday 8/24 brings one more word:** the bond-test concurrence lands, then it needs one ruling from you before 8/28.
+- **The spawn queue is the whole game right now** — no words are owed anywhere [Batch A + B both ruled and encoded 8/21]; the desks below are what moves things.
+- **Monday 8/24 brings the next word:** the bond-test concurrence lands, then it needs one ruling from you before 8/28.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
