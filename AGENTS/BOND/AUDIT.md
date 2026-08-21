@@ -267,3 +267,33 @@ Measured: **§1 through §5 each appear 3×** across the stacked editions (§6/�
 STATUS's thesis pointer had rotted **four** times — three stale versions, once with THESIS contradicting *itself*, **and a fourth time within hours of me correcting the rot-COUNT**, because I bumped to v1.1.7 and the pointer still said v1.1.6. **Incrementing the count was treating the symptom: a version string duplicated across two files rots on every bump BY CONSTRUCTION.** The duplicate is now removed — this desk's own *one-source-of-truth-per-metric* rule, applied to a version string. STATUS carries the durable SUBSTANCE (label, conviction, posture) and points to THESIS for the number.
 
 **Checks after:** all four rc=0 · 50/50 fixtures · THESIS header self-consistent (title and `Version:` both v1.1.7) · scoreboard mirror 20/20 · CHANGELOG v1.1.7 logged.
+
+---
+
+## THESIS DOUBLE-CHECK (Will-requested) — the re-read found more than the audit did
+
+**Verified my own claims against their sources rather than trusting them.** All four load-bearing figures reproduce EXACTLY: the Will ruling quote (`"Approved on both - implement per your rec"`, char-for-char), the §1/§3c leg descriptions, FR2004 (149.2B / 61.2B / −20.9% / −14.8%), and the SOFR−IORB path (+1 / 0 / −3 / −2 at 8/17–8/20, re-pulled from FRED). Structure clean: 4 table blocks internally consistent, no unbalanced markers, no dangling splices.
+
+### 🔴 But the double-check found a contradiction I had introduced
+
+**My T1 fix said only "(a) and (b) are NO LONGER HELD — Will ruled implement."** Reading it back as a reader would, the preserved original text immediately below still asserted *"the hit-rate and separation measurement is owed before any of (a)/(b)/(c) ships."*
+
+**Re-reading the ruling itself resolved it, and the resolution is substantive:** it carries **TWO dated items, not one gated on the other** — *ADOPT §1/§3c at the 8/25–27 pre-registrations* **and** *DELIVER the base-rating by 9/4*. **Will deliberately sequenced adoption BEFORE base-rating, inverting this desk's standing base-rate-first default.** That inversion is worth naming out loud rather than leaving implicit, because the default it overrides is one of this desk's most-cited rules. Now stated in both THESIS and the CHANGELOG. **My first pass left a reader to hit the contradiction.**
+
+### 🔴 And it found three live-wrong cells the STATUS audit had missed
+
+Checking the ruling's OTHER action items — **3 of 5 were verifiably done** (VX-16 re-cut with the 8/19 fire; VX-01 thresholds rewritten to the per-tenor composition form; VX-04/VX-13 instrumented). **Item 2, the derived-figure sweep, was not.** Three live-reading DFII10 add-gate distances survived on STATUS against a live 15bp:
+
+| where | read | should read |
+|---|---|---|
+| matrix divergence note | *"the unconditional path to 4 … 7bp away"* | **15bp, widening** |
+| exit/falsification | *"Currently 2.41, **9bp away and closing**"* | **2.35, 15bp away, WIDENING** |
+| catalyst twin (graded row) | *"DFII10 at 2.41 and 9bp from the add-gate"* (present tense) | past-tensed |
+
+⚠️ **The middle one is stale in the LEVEL, the DISTANCE and the DIRECTION simultaneously — all three legs of the 8/20 defect class — on the cell that tells a reader whether to escalate to Will.** My STATUS audit checked dashboard *cells* and missed the *prose*.
+
+**Checker note:** `boot_recompute`'s gate-drift check scans TRADE.md's gate TABLE, `monitors/*.md` and `NEXUS_BRIEF` — **not STATUS prose**, which is why none of the three fired.
+
+### What this says about the audit method
+
+**Two full passes over STATUS today, and a third read prompted by "double-check our work" found three more live-wrong decision numbers.** The lesson is not that I was careless — it is that **a re-read prompted by someone else finds a different class than the sweep did**, and that my own sweeps keep missing prose while catching tables. *(Third time today the same shape has bitten: IG's band wording, the "29-day run", and now the gate distances.)*
