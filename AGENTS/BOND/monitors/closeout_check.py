@@ -56,14 +56,36 @@ def main() -> int:
         print("=" * 74)
         print("  CLOSEOUT SELFTEST — verifying the checkers, not the files")
         print("=" * 74)
-        return ac.selftest()
+        # BOTH halves. Until 2026-08-21 this line was `return ac.selftest()`:
+        # it delegated entirely to the ASSERTION checker while CLAUDE.md said
+        # the pass "verifies the CHECKERS", plural. The numeric half had zero
+        # coverage and the doc asserted otherwise -- a check certifying its
+        # SCOPE, read as certifying the whole thing.
+        rc_num = br.drift_selftest()
+        print()
+        rc_lint = _load("kb_lint").selftest()
+        print()
+        rc_ass = ac.selftest()
+        print("\n" + "=" * 74)
+        total = len(br.DRIFT_FIXTURES) + 6 + len(ac.FIXTURES)
+        print(f"  COMBINED: {len(br.DRIFT_FIXTURES)} numeric + 6 workbook-lint + "
+              f"{len(ac.FIXTURES)} assertion = {total} fixtures")
+        bad = rc_num or rc_ass or rc_lint
+        print(f"  {'ALL PASS' if not bad else 'FAILURES PRESENT'}")
+        print("=" * 74)
+        return 1 if bad else 0
 
     print("=" * 74)
     print(f"  BOND CLOSEOUT PASS · {dt.datetime.now():%Y-%m-%d %H:%M} local")
-    print("  numeric drift + stale assertions · one fetch · one verdict")
+    print("  workbook conformance + numeric drift + stale assertions · one fetch · one verdict")
     print("=" * 74)
 
     # ---- ONE cache-busted fetch, shared by both checkers -------------------
+    print("\n" + "-" * 74)
+    print("  0/3  WORKBOOK CONFORMANCE  (enums · vocabulary · dates · IDs)")
+    print("-" * 74)
+    rc_lint = _load("kb_lint").main()
+
     print(f"\n[fetch] cache entries busted: {br.bust_cache()}")
     series = {}
     try:
@@ -89,13 +111,13 @@ def main() -> int:
 
     # ---- 1. NUMERIC drift on the boot-unread surfaces ---------------------
     print("\n" + "-" * 74)
-    print("  1/2  NUMERIC DRIFT  (gate table + boot-unread surfaces)")
+    print("  1/3  NUMERIC DRIFT  (gate table + boot-unread surfaces)")
     print("-" * 74)
     findings += br.check_unread_surfaces(series)
 
     # ---- 2. STALE ASSERTIONS ---------------------------------------------
     print("\n" + "-" * 74)
-    print("  2/2  STALE ASSERTIONS  (directional · file-state · expired · capability)")
+    print("  2/3  STALE ASSERTIONS  (directional · file-state · expired · capability)")
     print("-" * 74)
     a = 0
     a += ac.check_directional(series)
@@ -109,10 +131,11 @@ def main() -> int:
     # ---- verdict ----------------------------------------------------------
     print("\n" + "=" * 74)
     if findings == 0:
-        print("  ✅ CLOSEOUT PASS CLEAN — 0 findings across both checks.")
+        print("  ✅ CLOSEOUT PASS CLEAN — 0 findings across all three checks.")
         print()
         print("  Scope of that statement, so it is not over-read:")
-        print("   · numeric drift is checked on TRADE.md / monitors/ / NEXUS_BRIEF")
+        print("   · workbook conformance covers KB/PREDICTIONS enums, vocab, dates, IDs")
+        print("   · numeric drift is checked on TRADE.md / monitors/ / NEXUS_BRIEF + FR2004 vintage")
         print("   · assertions are checked for FOUR shapes only")
         print("   · neither check can judge whether ANALYSIS is still true, and")
         print("     assertions phrased in unknown words are outside scope entirely")
@@ -126,7 +149,8 @@ def main() -> int:
         print("     Each finding is a prompt to LOOK — a correctly-labelled QUOTE of a")
         print("     corrected error is a legitimate hit and should be left alone.")
     print("=" * 74)
-    return 1 if findings else 0
+    # rc_lint folds in: a workbook conformance failure is a closeout finding.
+    return 1 if (findings or rc_lint) else 0
 
 
 if __name__ == "__main__":

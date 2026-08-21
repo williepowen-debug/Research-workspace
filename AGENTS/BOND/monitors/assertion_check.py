@@ -278,30 +278,157 @@ def check_file_state() -> int:
     return n
 
 
+# Both date shapes this desk actually writes. The ISO-only version of this
+# regex was the checker's largest blind spot: a 2026-08-21 audit measured
+# 253 ISO tokens against 1,336 slash tokens across the scanned surfaces, so
+# the rule could see 16% of the dates -- and the STATUS catalyst twin, the
+# one place past-dated pending items structurally accumulate, is written
+# ENTIRELY in slash format and was therefore invisible by construction.
+DATE_TOKEN = re.compile(
+    r"(?<![\d/])(?:(20\d{2})-(\d{1,2})-(\d{1,2})|(\d{1,2})/(\d{1,2})(?:/(\d{2,4}))?)(?![\d/])")
+
+CLAUSE = 90          # chars either side of the date == "the same clause"
+
+# A date 1-3 days past carrying "not yet published" is NORMAL OPERATIONS on a
+# rates desk -- H.15 publishes on a lag and saying so is correct, not stale.
+# Without a floor the rule fires on every dashboard vintage caveat and trains
+# the desk to skim past it. The target class is work that should have HAPPENED:
+# 16d for the 8/05 QRA twin, 29d for the 7/23 ECB action, 36-94d for the
+# unverified outbox packets. Ten days clears the release-lag band and keeps
+# every real instance the 2026-08-21 audit found.
+MIN_AGE = dt.timedelta(days=10)
+
+STRICT = "--strict" in sys.argv    # clause-scoped suppression; see check_expired()
+
+
+def resolve_date(m):
+    """A matched date token -> a real date, or None if it isn't one.
+
+    A bare `m/d` carries no year. Resolve it to the most recent occurrence
+    at or before today: this rule only ever asks about the PAST, and reading
+    `12/16` in August as *this* December would silently make an expired item
+    look like a future one -- failing in the direction that hides work.
+    """
+    if m.group(1):
+        try:
+            return dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            return None
+    mo, da = int(m.group(4)), int(m.group(5))
+    if not (1 <= mo <= 12 and 1 <= da <= 31):
+        return None                      # a fraction or a ratio, not a date
+    if m.group(6):
+        y = int(m.group(6))
+        y += 2000 if y < 100 else 0
+        try:
+            return dt.date(y, mo, da)
+        except ValueError:
+            return None
+    for y in (TODAY.year, TODAY.year - 1):
+        try:
+            d = dt.date(y, mo, da)
+        except ValueError:
+            continue
+        if d <= TODAY:
+            return d
+    return None
+
+
+def expired_hits_in(line: str):
+    """The EXPIRED predicate for ONE line. Extracted 2026-08-21 so --selftest
+    exercises the SAME code path the live run does. A selftest with its own
+    copy of the predicate validates the copy nobody runs -- the free-parameter
+    cross-check defect, applied to a test harness."""
+    PENDING = (r"\b(pending|owed|awaiting|due|"
+               r"will (be|resolve|run|fire|land|need|have to)|expects?|"
+               r"to be (pulled|graded|run)|not yet|outstanding|"
+               r"still (open|owed|unverified)|unverified)\b")
+    DONE = (r"(\b(resolved|fired|graded|closed|done|void|retired|discharged|"
+            r"delivered|complete)\b|✅)")
+    n = 0
+    for m in DATE_TOKEN.finditer(line):
+        d = resolve_date(m)
+        if d is None:
+            continue
+        if not (MIN_AGE <= TODAY - d <= dt.timedelta(days=120)):
+            continue
+        near = line[max(0, m.start() - CLAUSE):m.start() + CLAUSE]
+        if not re.search(PENDING, near, re.I):
+            continue
+        scope = near if STRICT else line
+        if re.search(DONE, scope, re.I) or guarded(scope):
+            continue
+        # A pending item WITH A PLAN is not what this rule hunts. The target is
+        # orphaned work -- a past date with a pending verb and nothing scheduled.
+        # An explicit `re-test:` trigger, or a FUTURE date in the same clause,
+        # IS the disposition. Added 2026-08-21 after the rule fired on two rows
+        # that were correctly dispositioned: a Jackson Hole row carrying
+        # "re-test: retry the KC Fed primary before 8/27", and a SCRATCH item
+        # reading "8/27 — content-check the 5 unverified outbox packets".
+        # Without this it would have fired on both every closeout until 8/27 --
+        # a standing false alarm is what teaches a desk to skim the output.
+        # `re-test:` is checked on the WHOLE line: it is a disposition for the
+        # row, and on a long docket row it sits far from the date it covers.
+        if "re-test:" in line.lower():
+            continue
+        # NO future-date branch. It was tried on 2026-08-21 and REVERTED the
+        # same session: a future date in the clause can be a scheduled
+        # DISPOSITION ("8/27 - content-check the packets") or simply the
+        # EVENT's own date ("Fri 8/28 or Mon 8/31 - MOF monthly. DATE
+        # UNVERIFIED"), and suppressing on it killed a REAL defect fixture.
+        # `re-test:` is kept because it is unambiguous and is already this
+        # desk's documented convention (closeout step 16).
+        return [(m.group(0), (TODAY - d).days)]
+    return []
+
+
 def check_expired() -> int:
-    """C. A past date still carrying a pending verb, with no resolution marker."""
-    PENDING = r"(pending|owed|awaiting|due|will\s|expects?|to be (pulled|graded|run)|not yet|outstanding)"
-    DONE = r"(resolved|fired|graded|closed|done|✅|void|retired|discharged|delivered|complete)"
+    """C. A past date still carrying a pending verb, with no resolution marker.
+
+    DEFAULT: GUARD/DONE suppress at WHOLE-LINE scope (high precision).
+    --strict: they suppress at CLAUSE scope (higher recall, more noise).
+
+    WHY BOTH, and why the default did NOT change -- this is a finding against
+    my own audit. The 2026-08-21 audit claimed 59 past-date+pending instances
+    were being hidden by a stray "✅" elsewhere on a long table row, and
+    proposed clause-scoping as the fix. Measured across suppression radii:
+
+        radius   ±90   ±150   ±250   ±400   whole-line
+        hits      17     13      9      6        4
+
+    Reading the hits rather than the count: most of the 59 are rows whose
+    resolution genuinely IS the row's subject -- the DONE token was doing its
+    job, and the audit had counted co-occurrence as suppression. The tradeoff
+    is also NOT monotone: ±250 drops a REAL defect (TRADE.md:97 carrying
+    "DATE UNVERIFIED, verify asked of SAM" 3 days after the date resolved)
+    while keeping softer ones. So there is no clean radius to pick.
+
+    A tool that cries wolf is worse than one that misses -- see the GUARD
+    comment above, written for exactly this. Default stays quiet; the deep
+    pass is opt-in.
+    """
+    # \b matters: without it `owed` matches inside "showed" and `due` inside
+    # "overdue"/"residue". Found 2026-08-21 -- the un-bounded version fired on
+    # STATUS.md:139, a correct and current line, purely on "SAM showed".
+    # NOT a bare `will`: the operator is NAMED Will, and this desk writes
+    # "Will-approved" / "Will-ruled" / "Will's HELD item" constantly. A bare
+    # \bwill\b turns every ruling provenance stamp into a pending verb -- 10
+    # false positives on first run, 2026-08-21. Require a real future verb.
+    PENDING = (r"\b(pending|owed|awaiting|due|"
+               r"will (be|resolve|run|fire|land|need|have to)|expects?|"
+               r"to be (pulled|graded|run)|not yet|outstanding|"
+               r"still (open|owed|unverified)|unverified)\b")
+    DONE = (r"(\b(resolved|fired|graded|closed|done|void|retired|discharged|"
+            r"delivered|complete)\b|✅)")
     n = 0
     for rel in LIVE_SURFACES:
         p = HERE / rel
         for i, l in live_lines(p):
-            if guarded(l) or re.search(DONE, l, re.I):
-                continue
-            for m in re.finditer(r"20\d{2}-\d{2}-\d{2}", l):
-                try:
-                    d = dt.date.fromisoformat(m.group(0))
-                except ValueError:
-                    continue
-                if not (dt.timedelta(0) < TODAY - d <= dt.timedelta(days=120)):
-                    continue
-                near = l[max(0, m.start() - 90):m.start() + 90]
-                if re.search(PENDING, near, re.I):
-                    show("EXPIRED-PENDING", p, i, l,
-                         f"date {m.group(0)} is {(TODAY - d).days}d past and the line still "
-                         f"reads as pending, with no resolution marker")
-                    n += 1
-                    break
+            for tok, age in expired_hits_in(l):
+                show("EXPIRED-PENDING", p, i, l,
+                     f"date {tok} is {age}d past and this CLAUSE still reads as "
+                     f"pending, with no resolution marker in it")
+                n += 1
     return n
 
 
@@ -379,6 +506,63 @@ FIXTURES = [
     ("already corrected => guarded",
      "Corrected 8/20: this cell read '6bp away and closing' -- DFII10 backed off to 2.41",
      "dir", None),
+
+    # ---- Shape C (EXPIRED) fixtures, all added 2026-08-21 from the boot-doc
+    # audit. Every one is a REAL defect or a REAL false positive shipped that
+    # day; none is hypothetical.
+
+    # C1. THE BLIND SPOT: slash dates. The ISO-only regex could see 16% of the
+    # dates on these surfaces (253 ISO vs 1,336 slash), and the STATUS catalyst
+    # twin is written ENTIRELY in slash format -- invisible by construction.
+    ("slash date resolves (was invisible: ISO-only regex)",
+     ("Wed 8/5", None), "date", "2026-08-05"),
+    ("ISO date still resolves", ("2026-08-05", None), "date", "2026-08-05"),
+    ("m/d/yy form resolves", ("8/5/26", None), "date", "2026-08-05"),
+    # C2. A bare m/d has no year. Resolving 12/16 in August as THIS December
+    # would make an expired item look future-dated -- failing in the direction
+    # that HIDES work. Must resolve backwards.
+    ("bare m/d resolves BACKWARD, never into the future",
+     ("12/16", None), "date", "2025-12-16"),
+    # C3. Not every slash pair is a date.
+    ("13/45 is not a date (ratio/fraction guard)", ("13/45", None), "date", None),
+    ("3.76x ratio is not a date", ("ratio 3.76x", None), "date", None),
+
+    # C4. REAL DEFECT, STATUS.md:222 -- the QRA twin read "still UNVERIFIED,
+    # do not grade anything off it" for 16 days after the content was
+    # established at two primaries. The rule could not see "Wed 8/5".
+    ("REAL 8/21 defect: QRA twin pending 16d after content established",
+     "| Wed 8/5 | QRA (pattern-inferred - still UNVERIFIED) | do not grade anything off it until it is |",
+     "expired", True),
+    # C5. REAL DEFECT, TRADE.md:97 -- MOF date carried "DATE UNVERIFIED,
+    # verify asked of SAM" three days after the docket resolved it.
+    ("REAL 8/21 defect: MOF date unverified 22d past",
+     "- Fri 8/28 or Mon 8/31 - MOF monthly. DATE UNVERIFIED, verify asked of SAM. size read on the 7/30-31 op",
+     "expired", True),
+
+    # C6. REAL FALSE POSITIVE, STATUS.md:139 -- "SAM showed" matched `owed`
+    # because PENDING had no word boundaries. A correct, current line.
+    ("REAL 8/21 false positive: 'showed' must not match `owed`",
+     "> SAM showed the 7/13 window is DISQUALIFYING, not merely caveated: its JGB signature is a flattener",
+     "expired", False),
+    # C7. REAL FALSE POSITIVE x10 -- the OPERATOR IS NAMED WILL. A bare
+    # \bwill\b turned every ruling-provenance stamp into a pending verb.
+    ("REAL 8/21 false positive: 'Will-approved' is a name, not a future verb",
+     "- MBS / housing finance (coverage extension, Will-approved 6/27, integrated 7/1): MBS pricing/spreads",
+     "expired", False),
+    ("REAL 8/21 false positive: \"Will's HELD sub-item\" is a name",
+     "| Mon 8/24 | Will's HELD sub-item - US sovereign CDS (8/10 forum DOCKET deferral) | Reconsideration date |",
+     "expired", False),
+    # C8. A genuine future verb still fires.
+    ("a real future verb still fires",
+     "the 7/02 FR2004 print is still owed and will be pulled when the lane reopens",
+     "expired", True),
+    # C9. MIN_AGE: a 1-day-old release-lag caveat is NORMAL OPERATIONS on a
+    # rates desk, not a stale pending item. Without the floor this fired on
+    # every dashboard vintage note.
+    ("release-lag caveat inside MIN_AGE does NOT fire",
+     "| 10Y real (DFII10) | 2.35% [8/19] | 8/20 NOT YET PUBLISHED on this series |",
+     "expired", False),
+
 ]
 
 
@@ -393,6 +577,13 @@ def selftest() -> int:
             got = bool(m) and not guarded(line) and not in_quotes(line, m.start(), m.end())
         elif kind == "cap":
             got = capability_hit(line)
+        elif kind == "date":
+            # (text, ref_date) -> the date the token resolves to, or None
+            txt, ref = line
+            m = DATE_TOKEN.search(txt)
+            got = resolve_date(m).isoformat() if (m and resolve_date(m)) else None
+        elif kind == "expired":
+            got = bool(expired_hits_in(line))
         else:
             claims = list(direction_claims(line))
             got = (claims[0][0], claims[0][1]) if claims else None

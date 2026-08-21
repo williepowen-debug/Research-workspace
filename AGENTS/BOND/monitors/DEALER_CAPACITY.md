@@ -59,14 +59,14 @@
 
 ## Current Read
 
-**🟡 Dealer-absorption vector = 2 (watch). The record is GONE and the 4-trigger is DISARMED.** FR2004 as-of **2026-08-05**, pulled 8/18 via `monitors/fr2004_fetch.py` (series break `SBN2024` resolved at runtime).
+**🟡 Dealer-absorption vector = 2 (watch). The record is GONE and the 4-trigger is DISARMED.** FR2004 as-of **2026-08-12**, re-pulled **2026-08-21** via `monitors/fr2004_fetch.py` *(⚠️ this body read as-of **8/05** beneath an 8/12 header until 2026-08-21 — a fresh header over a stale body CERTIFIES it; `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`)*, pulled 8/18 for the 8/05 vintage (series break `SBN2024` resolved at runtime).
 
-| Bucket | 6/24 peak | 7/15 | 8/05 | Δ from peak |
-|---|--:|--:|--:|--:|
-| 11–21Y | **$77.4B** | $63.9B | **$64.1B** | **−$13.3B / −17.1%** |
-| Long-end total (7–11 + 11–21 + >21) | **$175.0B** | $159.2B | **$150.0B** | **−$25.0B / −14.3%** |
+| Bucket | 6/24 peak | 7/15 | 8/05 | **8/12 (latest)** | Δ from peak |
+|---|--:|--:|--:|--:|--:|
+| 11–21Y | **$77.4B** | $63.9B | $64.1B | **$61.2B** | **−$16.1B / −20.9%** |
+| Long-end total (7–11 + 11–21 + >21) | **$175.0B** | $159.2B | $150.0B | **$149.2B** | **−$25.9B / −14.8%** |
 
-**The week to 8/05 alone was −$9.3B — the largest weekly long-end drawdown in the window.**
+**The week to 8/05 was −$9.3B — the largest weekly long-end drawdown in the window. The week to 8/12 added a further −$0.8B, and 8/12 IS the $125B refunding week: dealers ran inventory DOWN THROUGH the quarter's largest supply event.** *(⚠️ Δ-from-peak figures re-derived off 8/12 — they read −17.1% / −14.3% off the 8/05 leg until 2026-08-21. A derived figure does not inherit a level fix.)*
 
 **★ READ = BENIGN DISTRIBUTION, and as of 8/18 this is CONFIRMED rather than inferred.** The monitor's own discriminator (below) requires *weak auctions and/or SOFR-IORB positive* for the forced-de-risking branch. **The 8/05 drawdown was immediately followed by the August refunding (8/11–8/13, $125B), which cleared with indirect at/above trailing-12 median at ALL THREE tenors and dealers at median** — the 30Y clearing 5.216% (highest since 2001) with indirect 66.85%. ⇒ **Dealers were clearing balance sheet AHEAD of supply and then did not have to eat it.** That is distribution into demand, not liquidation.
 
@@ -90,6 +90,8 @@
 | 2026-07-01 → 07-15 FR2004 | 11–21Y 73.3 → 71.7 → **63.9**; total 170.9 → 166.9 → **159.2** | 7/09 30Y ind 77.7%; 7/22 20Y-R ind 69.1%; 7/23 TIPS ind 65.2% | SOFR-IORB negative | 🟡 benign distribution | NY Fed FR2004 |
 | **2026-07-22 → 07-29 FR2004** | 11–21Y **64.7 → 65.0** (two consecutive BUILDS); total 157.2 → 159.3 | 7/28 7Y ind 70.15%, dlr 12.97% — no composition failure | SOFR-IORB negative | 🟡 | NY Fed FR2004 *(added 8/18)* |
 | **2026-08-05 FR2004** | **11–21Y $64.1B; 7–11Y $33.4B; >21Y $52.5B; total $150.0B = −$9.3B w/w, the largest weekly drawdown of the window** | **August refunding 8/11–13 then cleared CLEAN at all three tenors** (3Y ind 64.24 / 10Y ind 76.73 / 30Y ind 66.85, dealers at-or-below median) | SOFR-IORB −3bp → **+1bp [8/17]**, inside its −3/+1 monthly range | 🟡 **benign distribution CONFIRMED** | NY Fed FR2004 + TreasuryDirect *(added 8/18)* |
+
+| **2026-08-12 FR2004** | **11–21Y $61.2B; 7–11Y $39.3B; >21Y $48.6B; total $149.2B = −$0.8B w/w** — *the $125B August refunding week itself* | **Refunding cleared with indirect at/above trailing-12 median at all three tenors and dealers at or below** | SOFR−IORB negative (−2bp [8/20]) | 🟡 benign | NY Fed FR2004 `SBN2024`, pulled 2026-08-21 |
 
 ## Triggers
 
