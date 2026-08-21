@@ -60,6 +60,14 @@ Suppresses same-line prohibitions, historical/mail surfaces, dormant agents' doc
 
 > ⚠️ **This step exists because the register would otherwise become the thing it measures.** `CHECKS.tsv` was created 2026-08-03 off the finding that two load-bearing checks had no invocation site; a register with no invocation site is the same defect wearing the auditor's badge. **The fix for an unwired check is almost never a new protocol step — it is attaching it to a step that already fires.** Adding steps is what produced the invocation problem; prefer folding into an existing conditional step, a sweep, or a harness hook (the only invocation model an agent cannot skip by forgetting).
 
+### 3c. Distillation / canon-graduation pass (added 2026-08-21 — memory-retrieval disposition ④'s standing question, encoded at this playbook touch as committed; ELEVATED same day by PROME's flow-pass falsification: this is the ONLY sustainable byte-pressure release for the hot memory index, not hygiene — see PAT-123)
+
+**Standing question, every run:** *"Which hot index rows and PATTERNS entries are now INSTANCES of a rule that has since been canonized? Each match: demote the instances, leave one row pointing at the canon."*
+
+- **Candidate surfacer is mechanical:** `python3 scripts/memory_citation_census.py` — rows whose text cites a PAT/§ that now exists, plus the promotion queue's `[embedded → …]` annotations (an embedded row heavily cited is duplication evidence, not recall evidence).
+- **Why load-bearing (PAT-123):** the hot index runs BOTH a byte cap (≥75% ⇒ demote to <70%) and an evidence bar (v2: cold-on-both-sources) — and on 8/21 day-one calibration they nearly bound jointly (73% of cap with only a 5-row legitimate queue). When the cap squeezes and the evidence bar holds, the ONLY principled relief is **EMBED-THEN-DEMOTE** — graduate the lesson into structure, then demote the instance — never evidence-defying demotion (PROME's 8/21 flow pass demoted 14 rows single-source; v2 measured 12 of 14 = 86% false-cold; all 12 returned same afternoon, `be7289b77`).
+- Worked example on file: the verdict-line lifecycle (FERT donor → ZHAO glyph-collision → ⑤b → Class 9 ruled 8/21). This is also the honest answer to Will's forced-context concern: **the injected set shrinks by GRADUATION, not by age.**
+
 ### 4. Record
 REGISTRY `last_run` + `last_findings`; the Run Log below; STATUS/EVOLUTION if material; PATTERNS if it taught something durable. **`CHECKS.tsv` rows touched this pass** (state changes, new rows, corrected null-meanings).
 
