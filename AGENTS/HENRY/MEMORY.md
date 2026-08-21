@@ -48,38 +48,26 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-08-06 ~22:30-23:30 ET — PROME-directed CATCH-UP, Will in-session; 6 days dark)
-*Backlog session: 15 inbox + 18 WALTER signals + 1 mid-session arrival; six Will rulings implemented; falsification layer dispositioned. Zero threshold/probability moves beyond the rulings' named demotions.*
-- **RULINGS ①-⑥ ALL IMPLEMENTED** (memo: `reports/2026-08-06_rulings-implementation-and-falsification-disposition.md`): cascade $ magnitudes UNSOURCED-labeled (3 surfaces) · 0DTE mandate dropped + 65% demoted · ECI >1.2% row retired · TRADE.md closed as an output class (trade-shaped → TERRY) · **USD/JPY re-keyed to SAM's velocity rule (|Δ|≥2%/day either direction; level ladder RETIRED)** — SAM's 8/2 ruling arrived in-batch, adopt-clause pre-authorized · honest-scope block continues.
-- **`THESIS_VALIDATION.md` → SUPERSEDED** (DAEDALUS F2): successors = STATUS §INVALIDATION TRIAD + PREDICTIONS.tsv; boot.py leg (e) now guards the banner (tested both branches). Chose dead-state over re-scope because the file rotted twice — a second live falsification copy IS the rot mechanism.
-- **🔴 THE TAPE FLIPPED WHILE DARK — read STATUS 8/6 section first:** gamma POSITIVE (+$19.6B, flip ~7,635, spot +75 above) first time since early July; **VIX 15.15 = 0.15 from my <15 kill leg; HY 275 [FRED 8/5] = 15bp from <260** — both soft-kill legs closest ever, moving toward the kill TOGETHER. Caveats that ride the count: HY approach is BB-led (−9) over CCC +17 wider (gap 858 — **credit RE-BIFURCATED**, K-signature back); VIX calm is implied-below-realized (PROME 8/4). Count literally; don't argue.
-- **De-rate measured QQQ-SPECIFIC** (PROME 8/4, found in `PROME/research/` — never arrived as a packet; located by repo search, per the complete-scan rule): SPX+RSP fresh highs 8/4, QQQ −3.3% below 6/3 peak; QQQ 714.65 [8/6] inside PROME's modal 712-730 band. KB ML-HEN-149.
-- **LABOR double-correction consumed:** (1) ECI policy-path framing RETRACTED at the FOMC primary (zero wage mentions; Warsh declined the labor channel by name) — labor = satisfied side-constraint, benign prints are NOTHING; HEN-42 channel note added, NO probability move. (2) ISM Svs June emp was **51.2 EXPANSION** not 47.4 (sign error) — `JULY_NODE_PRELOAD:40` corrected inline. Thaw: ISM Mfg emp 52.8 (first expansion 33mo), JOLTS hires +96K. Carry: **hiring up + composition-controlled wages NOT accelerating.**
-- **AI-credit substrate landed (DEWEY ×4 + VULCAN):** ORCL **$260B off-BS** + **$3.3B guarantee maturing Sep-2026** (nearest-dated hard obligation, on my catalyst stack); META covenant-free; CRWV = DSCR w/ POWER re-mark (DEWEY corrected his own GPU-depreciation headline — that channel is WATT's); depreciation dispersion $26.8B/two-directional (register on a SHORTENING, never "lives extend"); NVDA $250B backstop filed NOWHERE. Memory decel = bearish-sentiment/**bullish-FCF** for 2027 (held-both-sides rule). CRWV week: credit repriced +100-125bp wider while equity +19.5% on completion — the cleanest one-week illustration of the variable-split. KB ML-HEN-146/147/148/149.
-- **Yen regime datum:** ¥8.45T MOF op + **first joint US-Japan intervention since 2011** (Treasury's own account, Bessent-confirmed, FIMA-repo funded not UST sales) — carry-unwind left tail officially capped. **SAM's 8/7 CFTC resolver names ME on the haven-bid branch — check it.**
-- **Goldman 7,455 adjudicated for WALTER:** my retired band was GAMMA-derived (CBOE), not CTA → coincidence, not shared antecedent; only Goldman's CTA object is live (~255pts below spot). Packet sent.
-- **FALCON FAL-03 correction (arrived mid-session):** crude = premium regime (zero barrels offline) but gas/LNG + refined product = SUPPLY-LOSS (Qatar FM since March; Jazan 400kbpd shut, restart ~8/15) → products channel into the ~9/11 CPI row. **File left un-moved — untracked (FALCON commits it per carve-out ①); mv next session.**
-- **HEN-41 resolves Wed 8/12:** DENY lean holds; ⚠️ T10YIE re-approached 2.21→2.26, 4bp from the CONFIRM trigger, on Brent +5.1%. Both branches live — grade on the letter, check the 5s10s BE spread (front-loaded = real oil signature).
-- **RED-FT-06 measurement:** 8/4's 16.50 close BROKE the 7/31 streak; 8/5-8/6 restart at 2-of-5. RED adjudicates; offered in delivery packet.
+### CHANGES SINCE LAST SESSION (2026-08-20 ~19:45-20:10 ET — PROME launch brief, OPEX-eve; 14 days dark)
+*Consumer_check defect-bundle thread (earlier this session) → 3 defects routed to DAEDALUS (WAL marker-drop 🔴 + LABOR status-blind 🟠 + VIOLET false-🔴 trio), my author's read on each; my own git-mv residue fixed; root-1c docs gap → PROME. THEN the launch-brief stack:*
+- **🔴 GAMMA FLIPPED NEGATIVE — the headline for 8/21 OPEX.** [35d definitive, 8,018 contracts] **Net GEX −$35.8B/1%, flip ~7,686, spot 7,641 ~45pts BELOW → dealers AMPLIFY.** Reverses the 8/6-8/10 positive window (+$19.6B→+$38.1B). Call wall 7,600 publishable; **put wall WITHHELD** (=call wall both horizons, degenerate — audit-E2 3rd time). Amplifier back on for the downside into three desks' write-backs.
+- **Front-end vol bid = Path-B SEMIS UNWIND, not expiry (VIOLET consumed; my boundary — equity-concentration is HENRY/VULCAN-owned).** VIX9D survived the 8/19 pin, +13.7% after; ^SOX −5%/−3% vs flat index; NVDA 8/26. **First time this cycle the amplifier AND a (narrow) igniter coincide** — but no vol-of-vol/rates/term-structure confirm = hard to size. **COR1M 9.46 = SESSION 1 OF 2, NOT FIRED (8/21 settle decides) — quote the state.**
+- **✅ HEN-41 GRADED (overdue).** July CPI +0.1% MoM / core 2.5% YoY → CONFIRM-ON-LETTER/DEFECTIVE-TRIGGER (8/10 ruling); sound T10YIE>2.30 leg DENIED at 2.26 on the 8/12 date; substance DENY. PREDICTIONS.tsv ACTIVE→RESOLVED, due-scan clean. ⚠️ **Breakevens have since risen THROUGH 2.30 → 2.34 [8/20]** = live 9/11 input.
+- **HEN-42 no-extend (BOND via PROME):** buyback ops contaminate the post-9/9 curve read; resolves 8/29 on 8/28 close, ~55% CONTESTED. **HEN-43 resolves 8/24** (migration withdrawal, I own it; credit rows nowhere near the withdraw column: CCC 1,030 / HY 273 / gap 869).
+- **Credit re-mark [FRED 8/19]:** HY 273 / CCC 1,030 / BB 161, gap **869** (was 858 [8/5]) — K-shape widened; **HYG vol 1.32×20d on a down day** = redemption tell absent 8/6.
 
-### PRIOR SESSION (2026-07-31 — HEN-36 resolution) — compressed to one line
-HEN-36 RESOLVED-CONFIRMED 4-of-4 / equity-de-rate leg FALSIFIED 2-2 (→ credit-face successor, STILL UNREGISTERED) / ECI pre-commitment executed, wage leg dropped / HEN-42 cut ~80%→~55% CONTESTED / VIOLET false-flag retracted (LESSONS hard trigger). Full record: STATUS 7/31 compressed section + git history.
+### PRIOR SESSIONS — compressed
+- **8/6:** backlog catch-up, 6 Will rulings ①-⑥ implemented (cascade-$ UNSOURCED, 0DTE dropped, TRADE.md closed→TERRY, USD/JPY re-keyed to SAM velocity); THESIS_VALIDATION SUPERSEDED; AI-credit substrate landed (ORCL $260B off-BS + $3.3B Sep-2026 guarantee, META covenant-free, CRWV=DSCR power re-mark). Full: STATUS 8/6 compressed + git history.
+- **7/31:** HEN-36 RESOLVED-CONFIRMED 4-of-4 / equity-de-rate FALSIFIED 2-2 (→ credit-face successor, STILL UNREGISTERED) / HEN-42 cut to ~55% CONTESTED.
 
 ### NEXT SESSION
-1. **Batch-3 P2/P3 (PROME 7/27, start-gated 8/3) = PRIMARY** — deferred tonight per the packet's own catalyst-first clause; PROME asked to confirm. P2 is cheap now: DEWEY DR-2's depreciation-dispersion IS the sterile-capex finding — fold, don't rebuild. If both legs can't fit, do P3 and say so.
-2. **Wed 8/12: HEN-41 RESOLVES** — grade on the letter, both branches live (T10YIE 2.26 vs 2.30 trigger; energy base-effect leg protected).
-3. **8/7 NFP×LFPR (LABOR's discriminator — consume) + 8/7 CFTC yen print (SAM resolver names me on haven-bid branch).**
-4. **HEN-36 successor needs its registered falsifiable test** — it is an unfalsified claim until then; instruments: ORCL/NVDA CDS, AI-baskets 319bp, the Sep-2026 ORCL guarantee.
-5. **consumer_check fix** if PROME authorizes (LABOR's option b + asof timestamp doc + dup warning + suppress_until); defect is mine, path isn't.
-6. **git mv the FALCON 8/6 packet** once FALCON's commit lands. **HEN-42 resolves 8/29 — do not touch early.**
+1. **FOMC-minutes AI-capex wage packet (PROME 8/19)** — the one substantive inbox deferral; needs a processing spawn, not OPEX-eve triage. My wage-channel leg.
+2. **8/24 HEN-43 resolves** (I own the grade — 8-row migration table); **8/26 NVDA** (the semis-unwind catalyst, into negative gamma); **8/28-close HEN-42 grade** (do NOT extend past 8/29).
+3. **HEN-36 successor still UNREGISTERED** — needs its falsifiable test (instruments: ORCL/NVDA CDS, AI-baskets 319bp, the Sep-2026 ORCL guarantee).
+4. **47 WALTER-lane signals unprocessed** + 22 top-level inbox — a processing spawn, not a boot.
+5. **DAEDALUS bundle**: 3 consumer_check defects awaiting its patch (docketed 8/28 sweep); DAEDALUS sfg-sweep flagged a gamma-source-token-drop at MY boot (tonight's read was independent/clean via direct gamma_flip.py).
 
-### GAPS — PERSISTENT
-- T-16 FedWatch baseline permanently gapped for 7/29 (do not backfill). Fiscal-impulse leg deferred. 0DTE share gap **CLOSED as RETIRED** (ruling ②) — no longer a gap, a dead mandate.
-- ARES/APO not re-pulled 8/6 (last 7/29) — alts counter-signal unrefreshed; BDC Q2 marks are the structural test.
-- MAINTENANCE.md now carries the 8/6 structural-change table (the 7/31 15-change gap noted there remains unfilled-retrospectively; accepted knowingly).
-
-### INFRASTRUCTURE NOTES
-- 8/6: boot.py leg (e) guards THESIS_VALIDATION's SUPERSEDED banner. NEXUS Amendment 10 ordering = CLAUDE.md write-back step 10 (brief fold LAST).
-- 7/31: boot.py leg (g) path fixed (`51815d27`); expect 2 known FPs (SAM MOF 7479 row + VIOLET VIX_THESIS 7496 changelog) until PROME's suppression patch.
-- 7/23: CBOE is PRIMARY gamma source. EDGAR: curl with UA header (WebFetch 403s). 7/17: boot.py legs (a)-(g); `--quick` skips (b)+(c).
-- 6/15: refresh_status.py RETIRED. 6/9: credit monitor CCC−BB via FRED curl. 6/6: auto-mem → `memory/auto/`, pathspec commits only.
+### GAPS / INFRA
+- T-16 FedWatch permanently gapped 7/29 (do not backfill). ARES/APO last pulled 7/29 — alts counter-signal unrefreshed.
+- **Boot facts:** CBOE PRIMARY gamma; `gamma_flip.py --days 35` = definitive (14d is the fast boot pull); credit via FRED curl (`credit_monitor.fetch_fred_series(series, days)` works in-venv — used it for the T10YIE grade). NEXUS Amendment 10 = brief fold LAST. Consumer_check (g) still throws the historical/cross-series FP class — read the line, never the count.
+- **Live-caught: `finding_pathspec_rename_needs_both_paths`** — a path-scoped commit of a git-mv records the ADD but not the DELETE; name both old+new paths. Hit it on the WAL/PROME packet moves, fixed c2ab35a02.
