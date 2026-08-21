@@ -197,3 +197,43 @@ No missing files or broken references (33/33 paths named in `CLAUDE.md` exist) �
 **Net: 239 → 219 lines (31 of headroom).** Re-verified after: `docket_check` rc=0 · `boot_recompute` rc=0 · `closeout_check` rc=0 · `kb_lint` rc=0 · **composite re-sums 12/35 over 7 vectors** · **docket↔twin parity intact** · **PREDICTIONS↔STATUS mirror intact (BND-15/18/19/20)**.
 
 **What is still NOT claimed:** that the file is *true*. Every defect SHAPE the checkers know is clear and the arithmetic and mirrors verify — but no check judges whether the analysis is still right, and my own sweeps demonstrably missed the IG wording twice and the "29-day run" once before a rescan caught them. A second reader would likely still find things.
+
+---
+
+# NEXUS_BRIEF.md AUDIT — read end-to-end 2026-08-21 (Will-approved)
+
+**The file other desks consume. 245 lines. One systemic defect with several instances, not a scatter of unrelated ones.**
+
+## The systemic finding
+
+**`NEXUS_BRIEF` is a stack of dated editions, and supersession is declared at the TOP of each layer and NOWHERE at the point of use.** A reader who lands mid-file — by grep, by scroll, by following a "§4" reference — gets stale figures with no local signal that they are stale.
+
+Measured: **§1 through §5 each appear 3×** across the stacked editions (§6/§7 twice). *"a reader landing on §4 cannot tell which edition they are in"* — and §4 of the top block explicitly claims to supersede "every rates/credit figure elsewhere in this file," which only helps a reader who has already found §4.
+
+## Live-layer defects — a reader takes these as CURRENT
+
+| # | Finding |
+|---|---|
+| **N1** | 🔴 **The live calendar carried `n=3` for the 30Y TIPS benchmark — a RETRACTED figure.** STATUS reconciled it to **n=7** on 8/20 (trailing-7 same-tenor same-TIPS window). **The correction never propagated from STATUS to the file other desks read.** |
+| **N2** | The same calendar line described the **8/20 TIPS reopen in the future tense** — past, and graded (`BND-17` TRUE, +8.28pp). |
+| **N3** | 🔴 **Jackson Hole and the September FOMC were absent from this brief entirely** — the same two events missing from my docket this morning. **NEXUS consumes this for its convergence framework**, so the gap propagated outward. Both added, Jackson Hole with its secondary-date provenance stated. |
+| **N4** | **§3 and §4 of the SAME block disagreed on CCC**: §3 said "2026 max is 1034 (7/31), 18 observations at or above"; §4 said 1035 is a fresh 2026 high. §3 sits **above** §4, so first-read wins the wrong way. |
+| **N5** | The block header read **"RE-PIN 2026-08-19"** while its own §4 was stamped **8/21** — a two-day-stale vintage on the block whose entire job is to say what is current. |
+
+## Superseded content wearing live headers
+
+| # | Finding |
+|---|---|
+| **N6** | **Three `##` sections below the supersession sentinel read as live instruction** — `Catalysts NEXUS should carry`, `EU rates`, `Cross-domain context`. The banner was **21+ lines above**; a reader landing on "Catalysts NEXUS should carry" saw **7/28 catalysts in future tense** and nothing telling them otherwise. |
+| **N7** | The **retracted "29 CONSECUTIVE sessions"** figure, unmarked, in the 8/19 layer — a **third** file carrying that dead number after STATUS (×4) and the DAEDALUS-flagged `2021-08` line. |
+| **N8** | **`Composite 13/35` in two places**; live is 12/35. |
+
+**All eight marked or fixed at the point of use.** Verified by re-scan: every retracted/superseded figure in the file now carries a local marker within 3 lines.
+
+## What I did NOT do, deliberately
+
+**I did not restructure the file or collapse the editions.** The layered history is the record of how this desk's read evolved, and rewriting it would destroy exactly what makes a brief auditable by its consumers. The fix is **marking at the point of use**, not flattening.
+
+**The section-number reuse (§1–§5 each 3×) is left standing** — renumbering would break any cross-desk reference that already cites a section by number, which is the same "stable API" argument that protects the two numbered rule-lists in root `CLAUDE.md`. The layer headers now carry explicit edition dates instead.
+
+**Checks after:** `closeout_check` rc=0 · `boot_recompute` rc=0.
