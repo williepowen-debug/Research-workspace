@@ -1,4 +1,4 @@
-# BRENT SCRATCH — Fri Aug 21, 2026 **~14:4x ET** *(live session #4 — the GRADES session; Will closed it at ~14:4x, BEFORE the COT print)*
+# BRENT SCRATCH — Fri Aug 21, 2026 **~16:4x ET** *(live session #4 FINAL CLOSEOUT — the GRADES session, which then ran long: both grades taken, STATUS cut −44%, KILL-LEG2 ruled+encoded, three position rulings)*
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
@@ -18,25 +18,17 @@
 
 ---
 
-## ✅ WHAT SESSION 4 DID *(all committed and pushed; origin verified by path AND hash)*
+## ✅ WHAT SESSION 4 DID *(41 commits, all pushed, 0/0 with origin)*
 
-**① `BRT-26` GRADED — 452 oil rigs (−3), NOT BREACHED, 2 → 5 away.** Confidence **HELD ~58%**, not re-marked off one print (symmetric with holding through a +1 on 7/31).
-⚠️ **The headline flatters the row and I did not take it:** the whole US −5 is **DIRECTIONAL** rigs (50→45); **HORIZONTAL flat at 533** ⇒ the productive-rig base did not retreat, **BRT-04's mechanism reads UNCHANGED**. Anyone relaying "US rigs −5" as a supply-response signal has it wrong.
+**⑨ ✅ BOTH GRADES TAKEN — the mandate.** `BRT-26` **452 oil rigs, −3, NOT BREACHED, 2 → 5** (first PRIMARY-sourced grade in this ladder's history). `COT-FUEL-35B` vintage #2 **JOINT `NO-VERDICT`, sizing base case**, graded 15:30 **on its own print, zero latency**. ★ **The COT's real content is the FIRST DIRECT LEG OPPOSITION** (A `SPENT` vs B `NOT-SPENT`) — defect ⑤ leg-suppression visibly answered. ⚠️ **Leg A cleared its floor by 1,106 contracts = 0.12 median units — NEVER relay "SPENT" as robust.**
 
-**② The month-long "BH primary times out" caveat was FALSE — and it had hardened into a SPEC.** The host **tarpits a self-identifying User-Agent**: `TimeoutError` at 20s AND 45s vs **HTTP 200 in 0.1–0.4s** on a browser UA. The registry's probe literally read `manual:two independent aggregator pulls`. **First primary-sourced grade in this ladder's history.** → `LESSONS L25`; the fix already existed **one function away** in the same file.
+**⑩ ✅ `KILL-LEG2-TRANSIT` RULED BY WILL AND ENCODED.** All three per my recs unmodified. Retired **on INSTRUMENT grounds with the premise-NOT-refuted guard riding the token**. Successor `KILL-LEG2-JWC-LISTING` registered as the **asymmetric standing negative**; delisting **PROMPT-ONLY**. ✅ **And it is now SELF-ALERTING** — built a `jwc:` probe-grammar extension that watches the CIRCULAR NUMBER, because **reachability is not change-detection**. Falsified 4 ways. §13 prior-art line: **NOT novel** — `finding_dated_carry_item_has_no_expiry_check` already said it.
 
-**③ Row 58 DELIVERED, then SELF-REFUTED within the hour.** The B-1 base rate I had only *offered* to run, run: **38% of war days sit at/below a pre-war-normal bar, longest run 25 trading days (6/12–7/20), going negative, ending three days before the war's high.** An exit keyed to it sells the bottom. **B-1 demoted to context; B-2 explicitly NOT promoted (it is merely unmeasured).**
-★ **The result that matters is the CONVERGENCE:** the lessons sweep (`L11`/`L16`) and the base rate reached the same wall independently ⇒ **the exit latency is a property of the expression, not a parameter TERRY can tune.** That is a Will/TERRY choice to make in daylight.
+**⑪ ✅ THREE POSITION RULINGS (Will, ~16:3x).** **HOLD the second `135C`, no roll** — *every live catalyst fires BEFORE Oct-16; the roll bought 63 days with ZERO live catalysts*. **TENOR = SCOPE ruling** (`60–90 DTE` governs NEW deployments, not rolls) **with a binding guard: "roll" = same underlying/strike, later expiry ONLY.** **Root-rule-#6 break DELIBERATELY NOT RULED — `OPEN-BY-DESIGN`**, because no fill is on the table. ⚠️ **TERRY owes the `RISK_RULES` mirror — asked, NOT edited by me.**
 
-**④ `INCIDENTS` backlog 17 → 12 ACTIVE; every bpd-bearing row now attempted.** 5 re-verified, 8 attempted-and-recorded. ★ **All four resolved corrections REMOVED asserted outage** — the header's directional-bias warning realised 4 of 4. Two new checks: **I-8** (a row asserting more offline than the facility has, in a status nothing read) and **I-9** (correcting a row **silently removed it from supervision** — I tripped that myself; it revealed the flag was **understating** the backlog: true stale count **18**, not 12).
+**⑫ ✅ STATUS CUT −44% (Will-approved), ZERO CONTENT LOST.** `220,659 → 123,609 B`. ★ **T3 was the important tier and it was NOT the biggest — nine "standing state" rows under a CURRENT heading, THREE of them factually FALSE** ("NO OPEN ACTION", "INBOX EMPTY 8/7", "NOTHING OWED TO WILL"). **Root cause was DUPLICATION, not staleness** — replaced with a pointer, never a fresher copy.
 
-**⑤ `KILL-LEG2-TRANSIT` re-spec DELIVERED to Will — 3 decisions, nothing registered.** Keyed to the **JWC war-risk listing**: headline-immune, binary, published. **I asked "can it fire?" FIRST this time** — yes, `Deleted: Pakistan` after 20+ years. Weaknesses stated by me: it is a **confirmer** (~4.5-month latency) and a delisting **can be lobbied**, so it is proposed as an **asymmetric standing negative**.
-
-**⑥ 🆕 `JWLA-034` — the London war-risk market put SAUDI ARABIA in the Listed Areas on 2026-07-29 and no surface of mine carried it.** Primary PDF pulled and quoted. ★ **7/29 PRE-DATES the w/c-8/3 Yanbu collapse** ⇒ a **candidate mechanism** that is correctly ordered in time, unlike the reallocation story. Routed FALCON + HAWK **as a candidate, not a conclusion.**
-
-**⑦ SPR falsifier premise WEAKENED three weeks early.** DOE primary is **not** empty on 2026 (my surface said it was); premium is **per-solicitation and rose** (June 1.26× vs carried 1.18–1.24×); and **DOE deliberately does not publish the return schedule** ⇒ the ~9/9 branches hang on a window the issuer never published. WALTER packeted.
-
-**⑧ Forward check ② re-spec'd 3 days before it runs.** As written it compares a **670 kbpd Asia-only, month-scoped** figure to a **2.17 mb/d total-weekly** bar ⇒ a **−69% phantom collapse, in my own favour.** ⚑ **FALCON caught this, not me.** Perimeter/cadence/basis/vintage conditions added + a `NOT RUNNABLE` branch.
+**⑬ ⛔ THE LIVE ENTRY GATE NAMED TWO CAPITAL-AUTHORISING LEGS IT DID NOT DEFINE.** `(T)` and `(C)` were defined ONLY inside `STAGE-A v4 — SUPERSEDED`. Relocated verbatim into the live v5 gate. **No live capital risk (the arm is retired, nothing can fire) — but it had to be fixed BEFORE a re-arm, not discovered at one.**
 
 ## ⛔ MY OWN ERRORS THIS SESSION — all caught by checks, not by care
 - **Four hypotheses wrong before testing:** HTTP/2 as the BH blocker (both protocols 200 in <0.3s — I had changed two variables at once) · Satorp's 230,000 as a "mislabelled running rate" (it is half of 460,000 either way) · Russian rows as "structurally un-re-verifiable" (they are not) · an "81-second race" explanation for PROME that PROME correctly refuted.
@@ -49,11 +41,12 @@
 ## NEXT SESSION (dated, future-verifiable)
 1. ✅ ~~TAKE THE COT GRADE~~ **DONE 2026-08-21 15:30 ET, zero latency. Next COT vintage as-of 8/25, releases Fri 8/28 ~15:30 — do not let it stack.**
 2. **🔴 MON 8/24 — BESSENT PRESS CONFERENCE.** Grade on **PUBLISHED MECHANISMS** (OFAC designations, named entities, effective dates), **never on the presser happening** (L18). Pre-registered read is in the catalyst row — **do not rewrite it after the fact.**
-3. **⏸️ WILL-GATED, UNTOUCHED, DO NOT ACT UNASKED:** the boot-load cut (staged, prepped, peer-reviewed — **a reviewer's concur is not Will's word**) · the second `USO Oct-16 135C` (blocked on the unsatisfiable 60–90 DTE band and the root-rule-#6 break) · the `KILL-LEG2-TRANSIT` 3 decisions.
+3. **⏸️ WILL-GATED:** ~~the boot-load cut~~ ✅ **APPROVED AND EXECUTED FOR STATUS; TRADE.md is partially done and paused (see #8).** · the second `USO Oct-16 135C` (blocked on the unsatisfiable 60–90 DTE band and the root-rule-#6 break) · the `KILL-LEG2-TRANSIT` 3 decisions.
 4. **⏳ FORWARD CHECK ② runs ~8/24–31** — use the AMENDED spec, and record `NOT RUNNABLE` rather than converting a mismatched figure.
 5. **🟠 `INCIDENTS`: 12 ACTIVE + 6 unbudgeted still stale.** Remaining un-attempted are the ZERO-BPD set only (RF-004, RF-016, RF-030 wrong-unit; RF-033 no-double-count). ⛔ **Six unlogged Russian strike events are NAMED across RF-013/RF-009/RF-017 and owed as rows** (relay-grade sourcing; LESSONS #1 wants a primary first).
 6. **🟠 BRT-29's mechanism deadline is 8/31 — 10 days.** Its leg needs **≥3 NAMED carriers citing fuel/war economics**; the strongest evidence is arriving as **aggregate capacity** (ME −5.7% YoY). ⛔ **Do not substitute off-list evidence for the leg as written** — count carefully, and if it does not fill, the honest verdict is a SPLIT.
-7. **🟠 STATUS is at 250 lines / ~210 KB — AT the cap.** Archiving is blocked on DAEDALUS-owned anchors and the byte cut is Will-gated. **Disclosed, not resolved.**
+7. ✅ ~~STATUS at the cap~~ **RESOLVED — WILL APPROVED THE CUT AND IT IS DONE: `220,659 → 123,609 B`, −44%, boot load −~24k tokens, ZERO content lost** (6 archives, all verbatim + crc32; conservation proven mechanically). ⛔ **The anchor blocker turned out to be a non-issue and that is recorded: only 2 `STATUS:N` refs shifted, both DATED AUDIT RECORDS in `board_log` that must NOT be re-pointed (re-pointing would rewrite the ledger's historical account); `STATUS:89` already pointed at a blank line before the cut.**
+8. **⏳ TRADE.md — PARTIALLY CUT, FIVE SECTIONS LEFT (~87 KB), AND STOPPING WAS DELIBERATE.** `167,585 → 162,156 B` so far. ⛔⛔ **DO NOT ROTATE BY HEADING — TWO NEAR-MISSES PROVED IT: the `60–90 DTE` tenor ruling was living inside a section headed `2026-08-03 PRE-FILL DISCLOSURE` (a dated, closed-looking container), and the LIVE `Leg T v6` formula lives inside `STAGE-A v4 — SUPERSEDED`.** ★ **THE METHOD IS: EXTRACT THE LIVE SPEC FIRST, THEN THE REMAINDER GENUINELY BECOMES DATED RECORD.** The tenor rulings and both leg definitions are now extracted, so their origins ARE rotatable. ⚠️ **And internal cleanliness is NOT dependency-freedom — the one section I did rotate scanned clean internally and only a CROSS-REPO search found TERRY citing it (from a DEAD setup, so it was safe).**
 
 ## OPEN THREADS / WATCHES
 - **⛔ SHARPEST EXPOSURE (v5.7) — now with a proposed answer awaiting Will:** an official narrative able to declare Hormuz resolved, against a falsifier that may be unable to answer it.

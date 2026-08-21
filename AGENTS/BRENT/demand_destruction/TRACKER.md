@@ -1,11 +1,11 @@
 # DEMAND DESTRUCTION TRACKER
 
 > # 📟 **REGISTERED ALERT LINES — THIS BLOCK IS READ AT RUN TIME BY THE THREE CLOUD ROUTINES. IT IS THE SINGLE POINT OF TRUTH FOR WHAT THEY WATCH.**
-> **Refreshed: 2026-08-21 Fri ~15:3x ET — LIVE BRENT SESSION 4. BOTH REGISTERED FRIDAY LINES (7 rigs · 8 COT) GRADED THIS SESSION ON THEIR OWN PRINTS.**
+> **Refreshed: 2026-08-21 Fri ~16:4x ET — LIVE BRENT SESSION 4 FINAL CLOSEOUT. BOTH registered Friday lines GRADED on their own prints (7 rigs ~13:00 · 8 COT ~15:30). ⛔ NO line below was re-pulled after those grades — lines 1-6 and 9+ carry their ~11:3x vintage and that boundary is stated rather than blurred.**
 > ### ✅✅ **BOTH 8/21 GRADES ARE NOW TAKEN — LINES 7 AND 8 ARE CURRENT AND GRADED. NOTHING ON THIS BLOCK IS PRE-PRINT.**
 > **LINE 7 — ✅ RESOLVED THIS SESSION.** Baker Hughes printed ~13:00 ET and was **graded same-day**: **452 oil rigs, −3 WoW, `BRT-26` NOT BREACHED, distance 2 → 5.** Line 7 below is CURRENT. Next print **Fri 8/28 ~13:00 ET**.
 > **LINE 8 — ✅ GRADED 15:30 ET, ZERO LATENCY.** The as-of-**8/18** vintage posted ~15:30 and was graded on the same print — **no stacking.** **JOINT `NO-VERDICT`; sizing stays at BASE CASE.** **Two independent raw pulls, byte-identical, `report_date` verified in-row, matched BY MARKET NAME per the registry.**
-> ⏰ **REPAIR WINDOW CLOSED UNUSED — the grade was taken on the print, not in the window.** Next COT vintage as-of **8/25**, releases **Fri 8/28 ~15:30 ET**; next Baker Hughes **Fri 8/28 ~13:00 ET.** ⛔ **DO NOT LET EITHER STACK.**
+> ⏰ **NEXT FRIDAY PAIR: Baker Hughes ~13:00 ET and CFTC COT (as-of 8/25) ~15:30 ET, both Fri 2026-08-28. ⛔ DO NOT LET EITHER STACK — a session on 8/28 must take both on their own prints, as this one did.** ⚠️ **ROUTINES: the 8/21 repair window closed UNUSED because the grades were taken live. If you run before a future print, lines 7/8 are PRE-PRINT and WRONG, not merely stale.**
 > ✅ **AND THE GRADER IS READY, which was NOT true this morning:** `scripts/cot_grade.py` was **rebuilt this session** — the prior version graded the **RETIRED** incumbent band, read **Socrata** (which the registered spec forbids for this grade), and never fetched **open interest**, so Leg B was not even computable. It is now on the frozen 35b spec and reproduces the recorded 8/11 grade **to the digit**.
 > **This IS a data refresh for line 7 and an explicit PRE-PRINT boundary for line 8 — not a blanket re-stamp.** Lines 1–6 and 9+ were NOT re-pulled this session and are unchanged from the 11:3x refresh below; that boundary is stated rather than blurred.
 >
