@@ -4,3 +4,9 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-05	csu_major_hurricanes	1	count	CSU-Klotzbach	2026-08-13	
 2026-08-06	noaa_below_normal_prob	75	pct	NOAA-CPC	2026-08-13	CUT from 55%
 2026-08-13	nhc_atlantic_active	1	count	NHC-CurrentStorms	2026-08-13	TD Cristobal; AL92/AL94 are disturbances not storms
+2026-08-21	nhc_atlantic_active	0	count	NHC-CurrentStorms	2026-08-21	ZERO Atlantic. Feed returned 2 active, BOTH Central Pacific (cp012026 Lala HU 80kt 28.6N 170.4W; cp022026 Two-C TD 30kt 13.4N 146.0W). Basin-filtered per the all-basin caveat
+2026-08-21	ace	3.09	index	NHC-ATCF-btk	2026-08-21	Season-to-date, RECOMPUTED by the SOURCES.md method: Arthur 0.405 + Bertha 2.2425 + Cristobal 0.4425. UNCHANGED from 8/13 - ZERO ACE accrued in the 8 dark days. Only bal01/02/03 2026 exist; no bal04; bal03 last modified 2026-08-13 14:57
+2026-08-21	noaa_below_normal_prob	75	pct	NOAA-CPC	2026-08-21	RE-VERIFIED UNCHANGED - page still carries the 6 Aug 2026 issuance (75 below / 20 near / 5 above). NOT a new outlook. Page also gives an ACE range of 30-90 pct of MEDIAN (see LOG denominator note)
+2026-08-21	csu_named_storms	9	count	CSU-Klotzbach	2026-08-21	RE-VERIFIED UNCHANGED from the 8/5 seasonal update. NOT a new forecast
+2026-08-21	csu_hurricanes	4	count	CSU-Klotzbach	2026-08-21	RE-VERIFIED UNCHANGED from 8/5
+2026-08-21	csu_major_hurricanes	1	count	CSU-Klotzbach	2026-08-21	RE-VERIFIED UNCHANGED from 8/5

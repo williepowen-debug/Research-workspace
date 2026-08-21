@@ -20,3 +20,16 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-13	verystrong_prob_ond	90	pct	CPC-ensodisc	2026-08-13	'>90%' NH fall/winter 26-27; was 81% on 7/9
 2026-08-13	historic_prob_ond	69	pct	CPC-ensodisc	2026-08-13	'+2.5C or more 3-mo RONI' exceeding all events back to 1950
 2026-08-13	oni_minus_roni	0.41	degC	derived-CPC	2026-08-13	NOT constant: 1950s -0.17 -> 2020s +0.44
+
+2026-08-20	verystrong_prob_ond	90	pct	CPC-seasdisc	2026-08-21	'>90%' RESTATED in the 8/20 seasonal discussion, NOT raised from 8/13. No CPC primary anywhere states 95%
+2026-08-20	historic_prob_ond	69	pct	CPC-seasdisc	2026-08-21	unchanged from 8/13; '+2.5C or more for a 3-month RONI value' OND 2026
+2026-08-21	roni_mjj	0.98	degC	CPC-RONI.ascii	2026-08-21	FIRST RONI PULL. Traj FMA -0.44 -> MAM -0.04 -> AMJ +0.49 -> MJJ +0.98 = ~+0.45/season; needs +1.52 more over 5 steps to reach the +2.5 historic bar
+2026-08-21	oni_mjj	1.39	degC	CPC-oni.ascii	2026-08-21	unchanged; next ONI print with the 9/10 ENSO discussion
+2026-08-21	oni_minus_roni	0.41	degC	derived-CPC	2026-08-21	MJJ: ONI 1.39 - RONI 0.98. Matches the 8/13 derived 2020s offset. STILL NOT CONSTANT - never convert with a fixed number
+2026-08-12	nino34_weekly	2.7	degC	CPC-wksst9120	2026-08-21	week of 12AUG2026. Trajectory +2.1 (15JUL) -> +2.6 (05AUG) -> +2.7 (12AUG) = STRENGTHENING. Cols are NINO1+2/3/3.4/4 - NOT sstoi order
+2026-08-12	nino3_weekly	3.2	degC	CPC-wksst9120	2026-08-21	week of 12AUG2026
+2026-08-12	nino12_weekly	4.0	degC	CPC-wksst9120	2026-08-21	week of 12AUG2026; EP-based event - warmest anomaly is the far-eastern box
+2026-07-31	nino34_monthly_oisst	2.03	degC	CPC-sstoi.indices	2026-08-21	July monthly. sstoi col order puts NINO3.4 FOURTH - different from wksst
+2026-08-20	djf_temp_abovenormal_max	50	pct	CPC-GIS-lead4DJF	2026-08-21	max above-normal prob on the DJF map; zone = Pacific NW + upper Midwest (Seattle/Minneapolis/Detroit). Fcst_Date stamped 20260820 in the data
+2026-08-20	djf_temp_northeast_corridor	40	pct	CPC-GIS-lead4DJF	2026-08-21	Chicago/NYC/Boston = 40% above-normal band. The 50% contour does NOT reach NY or Boston despite the prose saying 'exceeding 50 percent ... to the Northeast'
+2026-08-20	djf_temp_florida_category	33	pct	CPC-GIS-lead4DJF	2026-08-21	NEAR-NORMAL is the FAVORED category for all FL metros. Exactly ONE near-normal polygon on the whole CONUS map: Gulf/S-Atlantic coastal band, bbox lon -95.6..-79.2 lat 24.5..33.4

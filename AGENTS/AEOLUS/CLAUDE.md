@@ -54,9 +54,12 @@ At boot, after STATUS / MEMORY / LAST_COMPLETION:
 
 2b. **🔴 DOMAIN LOG CHECK — mandatory, ~2 seconds** *(added 2026-08-13 after L-28)*
 ```bash
-python3 AGENTS/AEOLUS/scripts/domain_log_check.py
+python3 "$(git rev-parse --show-toplevel)/AGENTS/AEOLUS/scripts/domain_log_check.py"
 ```
 **Flags any domain folder that was TOUCHED today but whose event log gained no row, and any folder whose channels gained central `KB.tsv` rows while its own log stayed silent.** Advisory (exit 0 always) — **the loudness is the control, not the exit code.**
+
+> 🔴 **PATH FIXED 2026-08-21 (DAEDALUS PR#4 ACTION 1, verified by running both forms).** This line was the bare relative `python3 AGENTS/AEOLUS/scripts/domain_log_check.py` from 8/13 to 8/21. **It is DEAD from my launch cwd** — I launch in `AGENTS/AEOLUS/`, so the path doubles to `AGENTS/AEOLUS/AGENTS/AEOLUS/...` and python exits `No such file or directory`. **The guard I built for the L-28 gap could not run at a single real closeout in the 8 days it existed.**
+> ⚠️ **And the failure mode is the dangerous one: it prints an error and the step still LOOKS executed.** The check is documented "exit 0 always / the loudness is the control," so a closeout reading a one-line stderr and moving on is behaving exactly as instructed — **the advisory design that makes the guard safe is what makes its own non-execution invisible.** Guard correctness and guard wiring are independent properties; 8/13 tested the first and never tested the second. **Anything I add to a closeout must be run from the launch cwd once, before it is written down as a step.**
 
 > ⚠️ **Why this exists, and why no other check catches it.** On 2026-08-13 `water/` gained five bodies of work. The **one** done by a spawned worker landed in `water/workbook/LOG.tsv`; the other four were done by **me** directly, went straight to central `KB.tsv`, and never touched the domain log. **`AGENT.md` disciplines WORKERS into writing the observation layer. Nothing disciplines the orchestrator.** Orphan check, consumer check and ledger-staleness all passed that day — **none of them asks whether the domain layer recorded what the domain did.**
 > **The contract binds whoever DID the work, not whoever was spawned.** If you do domain work directly, write the domain's observation layer exactly as a worker would have.

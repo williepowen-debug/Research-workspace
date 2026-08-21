@@ -5,3 +5,8 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-12	nifc_acres_pct_10yr_avg	155	pct	NIFC-NFN	2026-08-13	ACREAGE - not the cat-loss RED band
 2026-08-12	nifc_large_fires_uncontained	101	count	NIFC-NFN	2026-08-13	
 2026-06-30	h1_us_insured_natcat	36	USD_bn	Aon/GallagherRe	2026-08-13	~25-28% BELOW 10-yr avg; lowest H1 since 2018
+2026-08-21	nifc_preparedness_level	5	level	NIFC-NFN	2026-08-21	PL5 since 7/18/26 07:30 MDT = 35 days INCLUSIVE (34 elapsed); same inclusive convention as the 8/12 row 26
+2026-08-21	nifc_acres_ytd	7642082	acres	NIFC-NFN	2026-08-21	171% of 10-yr avg; +1,194,640 ac vs 8/12 read (6,447,442)
+2026-08-21	nifc_fires_ytd	50077	count	NIFC-NFN	2026-08-21	129% of 10-yr avg; +3,568 vs 8/12 read (46,509)
+2026-08-21	nifc_acres_pct_10yr_avg	171	pct	NIFC-NFN	2026-08-21	ACREAGE - NOT the cat-loss RED band; revised from 155 on 8/12
+2026-08-21	nifc_large_fires_uncontained	76	count	NIFC-NFN	2026-08-21	DOWN from 101 on 8/12; page field = Total Number of Large Fires Being Suppressed

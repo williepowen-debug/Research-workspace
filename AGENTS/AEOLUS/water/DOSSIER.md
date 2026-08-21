@@ -1,8 +1,8 @@
 # AEOLUS · WATER — live dossier
 
-**As-of: 2026-08-13.** All figures primary (USDM API / USBR / USGS NWIS / WSV). Consolidated from KB-AEO-035/036/041/044/047-052/054/056.
+**As-of: 2026-08-21.** All figures primary (USDM API / USBR / USGS NWIS / WSV / FR / ACP / OVF / UNL-FICH / CJH). Consolidated from KB-AEO-035/036/041/044/047-052/054/056 + the 2026-08-21 worker pass.
 
-> **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
+> **Last real data refresh: 2026-08-21**  ·  **Dossier written: 2026-08-21**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `water/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C2 · C4 · C5 · C6 (root: owns drought + reservoirs + streamflow + river stage)
@@ -10,6 +10,41 @@
 ---
 
 ## 1. DROUGHT — the shared upstream input
+
+### 🔴 8/21 UPDATE — third straight week with every tier up, and the geography has SPLIT harder
+
+| Category | 8/04 | 8/11 | **8/18** | Move 8/11→8/18 |
+|---|---|---|---|---|
+| **D1–D4** (drought) | 48.54% | 50.38% | **52.70%** | **+2.32 pp** |
+| D0–D4 | 70.95% | 73.62% | **76.21%** | +2.59 pp |
+| D2–D4 | 28.57% | 29.50% | **29.87%** | +0.37 pp |
+| D3 (extreme) | 9.51% | 10.27% | **10.60%** | +0.33 pp |
+| D4 (exceptional) | 0.95% | 1.04% | **1.35%** | **+0.31 pp = +30% in a week** |
+
+*CONUS, not Total. (Total D1–D4 = 44.34% — an 8.4 pp gap; read `areaOfInterest`.)*
+
+#### 🔑 The 8/13 C2-vs-C4 discrimination did not just hold — it WIDENED
+
+| Deteriorating (southern Plains) | 8/11 → 8/18 |
+|---|---|
+| **OK** D4 | **2.29% → 8.68%** |
+| **OK** D3 | 28.14% → **34.94%** (D0 now **100%**) |
+| **TX** D0 | 57.28% → **77.91%** |
+| **AR** D2 | 26.63% → **39.82%** |
+| **KS** D2 | 6.64% → **12.28%** |
+
+| IMPROVING (corn belt) | 8/11 → 8/18 |
+|---|---|
+| **IL** D0 | 31.09% → **5.53%** |
+| **IN** D0 | 3.91% → **0.00%** |
+| **IA** D0 | 36.54% → **30.48%** |
+| **NE** D3 | 18.49% → **12.79%** |
+
+⇒ **The national number and the crop geography are moving in OPPOSITE directions.** A rising CONUS D1–D4 print is, this week, *less* C2-relevant than it was a week ago. **Pull the state cut before reading drought into C2.**
+
+⚠️ **`aoi=<postal>` on the `USStatistics` endpoint returns `"-area of interest not recognized."`** — the SOURCES.md recipe for the state cut is wrong. Working forms: `StateStatistics/...?aoi=<2-digit state FIPS>` and `CountyStatistics/...?aoi=<5-digit county FIPS>`. See RUN_REPORT 8/21.
+
+---
 
 | Category | 7/28 | 8/04 | **8/11** | Move |
 |---|---|---|---|---|
@@ -33,14 +68,53 @@
 
 ## 2. 🔴 THE COLORADO SYSTEM (C6)
 
+### 🔴🔴 8/21 — THE ROD IS SIGNED, AND POWELL BROKE ITS ALL-TIME LOW ON 8/15
+
+**Two of this folder's three standing watches resolved inside the 8/13→8/21 dark window.**
+
 | Instrument | Value | As-of | Margin |
+|---|---|---|---|
+| **Lake Powell** | **3,519.20 ft** | 8/20 | **0.72 ft BELOW** the 3,519.92 (2023-04-13) post-1980 record — first print through it **2026-08-15 (3,519.91)** |
+| **Lake Mead** | **1,039.44 ft** | 8/20 | **4.44 ft** above **Hoover 1,035** *(was 4.82 ft on 8/12 — margin narrowed 0.38 ft in 8 days)* |
+| **Lees Ferry release** | **7,922.5 cfs** (8/13–20 mean) | 8/20 | **−41.5%** vs the 2018-25 same-window mean 13,540.2 |
+| **Colorado ROD** | **SIGNED 2026-08-21** | 8/21 | ~6 wks ahead of the ~10/1 target |
+
+**Powell daily series 8/13→8/20:** 3520.25 · 3520.01 · **3519.91** · 3519.80 · 3519.65 · 3519.53 · 3519.36 · 3519.20.
+**23 of 23 daily declines 7/29 → 8/20, mean −0.152 ft/day.** *Rate stated, not extrapolated.*
+
+**Mead daily series 8/13→8/20:** 1039.78 · 1039.70 · **1039.76 · 1039.79 · 1039.77** · 1039.66 · 1039.55 · 1039.44 — a **4-day plateau 8/14–8/17, then 3 straight falls.** The plateau is the shape to explain, not the trend.
+
+#### 🔴 THE RECORD OF DECISION — signed 2026-08-21 by Interior Secretary Doug Burgum
+
+| Element | Content |
+|---|---|
+| **Documents** | *ROD — Decision Framework for Colorado River Guidelines: Coordinated Operations of Lake Powell and Lake Mead (**2027–2036**)* + *Guidelines for Operating Years **2027 and 2028*** |
+| **Where** | `usbr.gov/ColoradoRiverBasin/post2026/decision-doc/` — page **Last Updated 8/21/26** |
+| **Structure** | a **10-year Decision Framework** (an operational *range*, through 2036) with **2-year** specific guidelines inside it |
+| **2027 Lower Basin reduction** | **1.25 maf** — **AZ 760 kaf · CA 440 kaf · NV 50 kaf** |
+| **Powell WY2027** | release **6.0–7.0 maf**; starts Oct 1 between **3,540–3,510 ft** = *Lower Elevation Infrastructure Protection Range* |
+| **7-state consensus** | **NOT reached.** Interior proceeded without it, and says it will incorporate an agreement if the states reach one. |
+| **Alongside** | the **August 2026 24-Month Study** was released with the ROD |
+
+⏱️ **Timing, against what this folder carried:** earliest-legal estimate **~8/30**, Interior's stated target **~10/1**, guidelines expiry **12/31/26**. **Actual: 8/21** — **9 days earlier than the earliest-legal estimate.** That estimate came from a 30-day NEPA waiting period *inferred* from the 7/31 NOA; ⚠️ **the NOA itself prints NO "Review Period Ends" date for EIS 20260089**, unlike the adjacent EIS 20260088 entry which does. **The clock this folder was running was a reasonable inference, not a published date — and it was wrong in the direction that matters.**
+
+⚠️ **RECONCILIATION OWED TO AEOLUS — the 8/13 "news layer does not survive the primary" correction needs re-reading.** The 8/13 LOG rejected a trade-press triple **AZ .76 / CA .44 / NV .05 maf** as spanning different FEIS columns and "describing no alternative that exists." **The ROD's actual 2027 reduction is AZ 760 / CA 440 / NV 50 kaf — numerically that triple.** The 8/13 reasoning may still be right about the FEIS *max-shortage matrix* (a different quantity from a single-year 2027 cut) while the triple was reporting the forthcoming 2027–28 guidelines. **Flagged, not adjudicated — AEOLUS owns this reconciliation.**
+
+⚠️ **The SOURCES.md policy-clock pointer went false-negative.** `usbr.gov/ColoradoRiverBasin/` — the URL registered for this watch — was **last updated 7/22/26**, still describes the process as in the **Draft** EIS phase with no preferred alternative, and mentions **neither** the 7/31 Final EIS **nor** the 8/21 ROD. The live surface is the child page `/post2026/decision-doc/`. **A registered pointer that ages into a clean-looking miss on the folder's highest-value item.**
+
+---
+
+> ⛔ **SUPERSEDED SNAPSHOT — 8/12–8/13 vintage, retained as history. Every figure in this table and the blocks below it has been overtaken by the 8/21 pass above. Do NOT cite any of it as current.**
+> **Live values are at the top of §2:** Powell **3,519.20 ft (8/20)** · Mead **1,039.44 ft (8/20)** · Lees Ferry **7,922.5 cfs (8/13–20)** · **ROD SIGNED 8/21**.
+
+| Instrument | Value *(SUPERSEDED)* | As-of | Margin *(SUPERSEDED)* |
 |---|---|---|---|
 | **Lake Powell** | **3,520.37 ft** | 8/12 | **0.45 ft** above the all-time low **3,519.92** (2023-04-13) |
 | **Lake Mead** | **1,039.82 ft** | 8/12 | **4.82 ft** above **Hoover 1,035** — the *binding* economic threshold |
 | **Lees Ferry release** | **7,862 cfs** (Aug 1-12 mean) | 8/12 | **lowest in 9 years, −42.4% vs avg** |
 | Colorado ROD | Final EIS published 7/31 | 7/31 | earliest ROD **~8/30** · target **~10/1** · **expiry 12/31/26** |
 
-**Powell has fallen on every one of the 15 days 7/29 → 8/12** (mean −0.157 ft/day). **It should break its all-time low within days.**
+**Powell has fallen on every one of the 15 days 7/29 → 8/12** (mean −0.157 ft/day). **It should break its all-time low within days.** ✅ *It did — first print through on **2026-08-15**.*
 
 #### 8/13 second pass — re-pull at 15:10 UTC, USBR has NOT posted 8/13
 
@@ -151,6 +225,85 @@ The robust El Niño wet signal is the **Southwest / Lower Basin**. **Powell's in
 ---
 
 ## 3. 🔴 RIVER NAVIGATION (C5)
+
+### 🔴 8/21 UPDATE — the Rhine recovered hard; the lower Danube did not
+
+**Rhine daily means (UNROUNDED — grading basis), 8/13 → 8/21:**
+
+| Station | NNW | 8/13 | 8/17 (min) | 8/20 | **8/21** *(partial n=92)* | margin vs NNW |
+|---|---:|---:|---:|---:|---:|---:|
+| **Kaub** (km 546.2) | **25.0** | 11.917 | **6.417** | 34.812 | **44.728** | **+19.73** |
+| **Duisburg-Ruhrort** (km 780.8) | **153.0** | 135.271 | **128.760** | 150.344 | **151.902** | **−1.10** |
+| Maxau | 231.0 | 296.323 | 305.594 | 336.198 | 334.380 | +103.38 |
+| Worms | 2.0 | −13.635 | −8.740 | 17.333 | 14.750 | +12.75 |
+| Mainz | 110.0 | 111.115 | 108.646 | 140.521 | 140.380 | +30.38 |
+| Emmerich | −1.0 | −10.677 | −25.093 | −10.292 | −0.967 | +0.03 |
+
+**Kaub gained ~38 cm in four days** (6.417 on 8/17 → 44.728 on 8/21). **Five of six stations are now above their all-time low; only Duisburg-Ruhrort remains below**, and by 1.10 cm.
+
+#### C5 joint-below run — COUNT ONLY, NOT GRADED
+
+> **Both stations below their NNW on the daily unrounded mean: 2026-08-09 → 2026-08-19 = 11 consecutive days. Run BROKEN 2026-08-20** (Kaub 34.812, +9.81 above NNW).
+> Duisburg-Ruhrort was below on **all 16 days 8/06–8/21**; Kaub is the leg that broke.
+> ✅ **Unrounded-grading rule applied and it mattered:** 8/08 Kaub's true mean is **25.719** — above the 25.0 threshold, though it rounds to 26 either way. **No day in the window falls in the deceptive 25.0–25.5 band.** The stored `value` column is rounded; every new row carries the unrounded mean in `notes`.
+> **AEOLUS grades this against the 10-consecutive-day requirement. The worker reports the count and the margin only.**
+
+**WSV forecast (init 2026-08-21T07:00, horizon 8/21→8/23 — 25 points, ~2 days, the SAME short horizon measured 8/13):** Kaub peaks ~47 cm midday 8/21, eases to 41 by 8/22. **Duisburg-Ruhrort rises monotonically 149 → 167 by 8/22 17:00, crossing its NNW 153 during 8/21 evening.** Emmerich 0 → 12.
+
+#### 🔀 Danube — the run SHORTENED at the top and DEEPENED at the bottom
+
+**14 of 44 stations below their non-sentinel LKV** (sentinel LKV dates 1799/1884/1894-12-31 excluded). **Longest consecutive run: 11 stations, Kvassay zsilip km1642.2 → Duna Mohács km1446.9 = 195.3 km** *(was 13 consecutive, Vác km1679.5 → Mohács, 233 km on 8/13)*.
+
+| Station | 8/13 vs LKV | **8/21 vs LKV** |
+|---|---:|---:|
+| Vác | −56 | **+16** ✅ recovered |
+| Budapest | −9 | **+8** ✅ recovered |
+| Pfelling (Bavaria) | below | **+30** ✅ recovered |
+| Paks | −23 | **−26** |
+| Dombori | — | **−40** |
+| Baja | −31 | **−55** 🔻 |
+| **Mohács** | **−40** | **−66** 🔻 |
+
+⚠️ **This is a real divergence from the Rhine, which recovered basin-wide.** The upper/Hungarian reach recovered; **the lower reach set new depth.** Two rivers that shared the 2018 record week are no longer moving together.
+
+#### Paraná — still near the TOP of its range, still not firing
+
+**Rosario 2.97 m (8/21)**, down from 3.02 on 8/13 = **96.2nd percentile** of its rolling 366-day distribution (min 1.08 · P05 1.34 · P10 1.40 · median 2.20 · max 3.03). **The trailing-year max 3.03 was set 2026-08-12 — inside this window.** Santa Fe 3.13 · Corrientes 3.00. **A high Paraná is GOOD for grain logistics.** Caveat unchanged: one year is a short base; 2021 went far lower.
+
+#### Yangtze — stages falling, Datong discharge diverging
+
+**CJH 2026-08-21 20:00 local vs 8/13:** Yichang **44.43 → 44.23 m**, q 17,800 → **16,900**. Hankou **20.61 → 19.95 m** (−0.66), q 27,600 → **23,400**. Datong **10.06 → 9.65 m** (−0.41) **but q 31,100 → 32,100 (UP)**. Three Gorges reservoir **157.30 → 157.65 m** (+0.35, impounding), outflow 14,900 → **16,300**.
+⚠️ **Datong stage-down / discharge-up is an internal inconsistency** — possibly a rating or reporting-time artefact. **Reported as observed, not reconciled.**
+
+#### 🔴 Panama — AEO-04's instrument is now a SERIES, and a binding SLOT restriction exists
+
+**Oceangoing transits, daily average** (ACP Monthly Canal Operations Summaries — each value self-verifies against its own monthly total ÷ days):
+
+| Data month | Advisory | **Transits/day** | Monthly total |
+|---|---|---:|---:|
+| Mar 2026 | A-09-2026 | 37.03 | 1,148 |
+| **Apr 2026** | A-14-2026 | **38.70** | 1,161 |
+| May 2026 | A-19-2026 | 37.06 | 1,149 |
+| Jun 2026 | A-23-2026 | **32.50** | 975 |
+| **Jul 2026** *(latest)* | **A-26-2026** | **34.03** | 1,055 |
+
+**Latest = 34.03/day, 2.03 above the Yellow band (≤32).** 5-month mean **35.86**.
+⚠️ **The anchored "normal" of 38.70 is the MAXIMUM of the five months.** Anchoring a baseline on the window extremum overstates the deficit of every later month. **AEOLUS should decide whether the threshold table re-bases.**
+
+**🔴 Advisory to Shipping A-29-2026, dated 2026-08-20** (primary PDF read; signed Boris Moreno Vásquez, VP Operations):
+
+- **Eff. 8/21/26, booking dates from 9/4/26:** Neopanamax daily slots → **9**, Panamax → **25**, **TOTAL 34**.
+- **Eff. 9/1/26, booking dates from 9/15/26:** Panamax → **23**, **TOTAL 32**.
+- **Cause given:** May–Aug cumulative watershed rainfall **34% below** the historical average; watershed inflows **44% below**; forecast of a *potentially severe* **2026-27 El Niño** raising concern for the **2027 Jan–Apr dry season**.
+- **Draft steps were POSTPONED, not advanced:** 14.63 m (48.0 ft) moved **8/26 → 9/2**; 14.48 m (47.5 ft) moved **9/3 → 10/1**.
+
+> ⚠️ **DISCRIMINATOR — SLOTS ≠ TRANSITS, and the two numbers collide at 32.**
+> A-29's **34** and **32** are **booking slots** — an administrative cap on *reservable* transits. The AEOLUS bands (Yellow ≤32 · Orange ≤27 · Red ≤22) are on **oceangoing transits daily average** — *realised* traffic, which includes unbooked transits. July ran **34.03 realised transits** against **247 of 306** booking slots used. **A slot cap of 32 is NOT a transits reading of 32.** Same adjacency trap as transits-vs-arrivals, one level up.
+> ⚠️ Note also the **10-day reversal**: the July summary (dated 8/10) reprints ACP's own line that the draft adjustment *"will not affect the number of daily vessel transits"* — **A-29 on 8/20 then cut daily slots.**
+
+✅ **`/en/maritime-services/advisory-to-shipping/` WORKS** and enumerates the complete current 2026 set **A-01 → A-29** with direct PDF URLs. SOURCES.md's known-bad JS-rendered index is the *different* path `/en/advisories-to-shipping/`. **Proposed SOURCES.md amendment — AEOLUS to verify before adopting.**
+
+---
 
 ### 🔴 Rhine — SIX-STATION READ, 8/13 17:45 CEST (WSV/PEGELONLINE primary)
 
@@ -279,11 +432,16 @@ Water is the **third constraint on AI data centers after credit and power**. **N
 
 ## OPEN QUESTIONS / GAPS
 
-1. **🔴 Powell record break — daily check, ~2-3 days out.** On the print: **AEO-06 HIT**, **C6 → 4**, route. **Do not pre-fire.**
-2. **🔴 Base-rate USBR's 24-month-study projection error** — AEO-10's 80% currently rests on a 2.1 ft buffer with **no error bar**.
-3. **Track Lees Ferry weekly** — it is the leading indicator for Mead, ahead of Mead's own elevation.
-4. **ROD watch ~8/25**, ahead of the earliest legal ROD 8/30.
-5. ✅ **Panama — instrument CLOSED 8/13** (ACP Monthly Canal Operations Summary; 38.70 transits/day, April 2026). Remaining: **retrieve the current month's summary** — filenames are unpredictable, so discover by search, never by the stale index.
-6. **Yangtze / Danube / Paraná** — ⚠️ **no live read AND no entry in `SOURCES.md`.** These cannot be pulled without registering a primary first — **the blocker is a missing source registration, not a missed pull.** Gaps under the standing directive.
-6b. **Mississippi has a working primary but no registered instrument.** USGS `07289000` Vicksburg discharge returns cleanly — **349,000 cfs on 8/12** — but **gauge height (`00065`) returns an empty `timeSeries`** at the daily-values service, and no Mississippi name exists in the observation vocabulary. **Needs an instrument name before it can be logged.**
-7. **Upper-Basin snowpack for winter 2026-27** — the leg that tests the dipole-pivot guard. CPC DJF outlook (~8/20) is the first read; Apr-1 resolves it.
+*(Refreshed 2026-08-21. Items 1, 4 and 5 from the 8/13 list are RESOLVED — kept below with their outcome so the record shows what closed.)*
+
+1. ✅ **RESOLVED — Powell record break.** First print below 3,519.92 was **2026-08-15 (3,519.91)**; 8/20 is **3,519.20**, 0.72 ft through. **AEO-06 is AEOLUS's to grade — the worker did not fire it.**
+2. **🔴 STILL OPEN — base-rate USBR's 24-month-study projection error.** AEO-10's confidence still rests on a 2.1 ft buffer with **no error bar**. ⚠️ **The August 2026 24-Month Study was released with the 8/21 ROD** — it is the natural input, but **no 24-Month-Study URL is registered in `SOURCES.md`**, and the URLs tried on 8/21 returned **HTTP 404**. **Register a primary before the next attempt** (same class of blocker as the 8/13 Yangtze/Danube/Paraná gap).
+3. **Track Lees Ferry weekly** — still the leading indicator for Mead. **Deficit is a flat LEVEL, not a deteriorating slope**: −42.4% (8/01–12) → −41.5% (8/13–20), both against like-for-like same-calendar-window 2018-25 baselines.
+4. ✅ **RESOLVED — ROD watch.** **Signed 2026-08-21**, ~6 weeks ahead of the ~10/1 target and 9 days ahead of the ~8/30 earliest-legal estimate. **New downstream question: what does the 2027–2036 Decision Framework do to the shortage-tier instrument this folder tracks?** The old tier language may not be the operative instrument after 12/31/26.
+5. ✅ **RESOLVED — Panama current-month summary retrieved.** Jul-2026 data (A-26-2026) = **34.03 transits/day**, plus a Mar→Jul series. **New open item: does the threshold table re-base off the 38.70 April anchor**, now shown to be the window maximum?
+6. ✅ **RESOLVED — Yangtze / Danube / Paraná** all pulled at registered primaries on 8/21. **New sub-question: the Danube's upper-vs-lower divergence** (Vác/Budapest recovered while Mohács deepened to −66) — one river, two directions.
+6b. **STILL OPEN — Mississippi has a working primary but no registered instrument name.** Unchanged from 8/13. ⚠️ **Sep–Nov is the Mississippi window** — this needs a name before autumn, not after.
+7. **Upper-Basin snowpack for winter 2026-27** — the dipole-pivot guard. Snowpack is **correctly empty in August**, not a gap.
+8. **🆕 A binding operational restriction now exists at Panama** (A-29-2026 booking slots 34→32) **while realised transits sit at 34.03/day, above the Yellow band.** **AEO-04's spec says it resolves on a binding transit/draft RESTRICTION — this is one, but it is a SLOT cap, not a transits reading.** AEOLUS owns whether the spec's leg (a) is satisfied.
+9. **🆕 `SOURCES.md` needs three corrections**, all found on 8/21 — the USDM state-cut recipe, the Colorado policy-clock URL, and the ACP advisories index path. **Details + exact working commands in `RUN_REPORT.md`. Worker does not edit `SOURCES.md`.**
+10. **🆕 Reconcile the 8/13 trade-press rejection against the ROD's actual AZ 760 / CA 440 / NV 50 kaf.** See §2. **AEOLUS owns this.**

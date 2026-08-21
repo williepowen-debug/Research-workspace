@@ -1,3 +1,9 @@
 date	event	detail	source	pulled_at	routed_to
 2026-08-13	cpc_enso_discussion	Very-strong 81%->>90%; NEW 69% chance of a HISTORIC event exceeding every El Nino back to 1950	CPC-ensodisc	2026-08-13	WATT,MARCO
 2026-08-13	roni_offset_computed	ONI-RONI offset grew every decade (1950s -0.17, 2010s +0.22, 2020s +0.44) = tropical-mean warming inside the instrument	derived-CPC	2026-08-13	
+
+2026-08-21	cpc_djf_outlook_read_at_primary	DJF 2026-27 map extracted as GIS (seastemp_202608.zip / lead4_DJF_temp), NOT the image. Northern tier 40-50% above normal, FL near-normal favored, SW equal chances; precip >50% coastal CA + southern AZ, dry tilt on the NORTHERN Rockies	CPC-GIS-lead4DJF	2026-08-21	MARCO,WATT
+2026-08-21	roni_series_pulled	Standing open item CLOSED - RONI.ascii.txt pulled for the first time. MJJ 2026 = +0.98 vs ONI +1.39	CPC-RONI.ascii	2026-08-21	-
+2026-08-21	cpc_weekly_figure_mismatch	INSTRUMENT TRAP: the 8/20 discussion prints weekly Nino-3.4/3/1+2 as +1.8/+2.5/+3.2 while CPC's own wksst9120.for for 12AUG reads +2.7/+3.2/+4.0. No 2026 week matches the triple. Gap is a near-uniform ~-0.8, CONSISTENT WITH but NOT PROVEN to be a relative/RONI basis. Reading the discussion's +1.8 against the +2.03 July monthly INVERTS the trend - El Nino strengthened	CPC-seasdisc vs CPC-wksst9120	2026-08-21	-
+2026-08-21	composites_strongly_utilized	CPC states it 'strongly utilized' ENSO composites for the DJF outlook BECAUSE OF THE MAGNITUDE of the event, plus analogs tuned to EP orientation and a preceding La Nina winter, NMME/CFSv2/C3S and CBaM. A season-specific outlook is NOT composite-independent - L-14 constrains this product rather than being retired by it	CPC-seasdisc	2026-08-21	MARCO
+2026-08-21	dead_source_wksst8110	I reconstructed wksst8110.for from memory and got a DEAD file ending 27JAN2021. SOURCES.md correctly names wksst9120.for. Known-bad, do not retry	CPC-wksst8110	2026-08-21	-

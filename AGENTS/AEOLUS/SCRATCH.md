@@ -13,51 +13,53 @@
 
 ## NEXT SESSION — START HERE
 
-*(2026-08-13 closeout. Supersedes everything below. Standing Will river/water directive at the top of this file is UNCHANGED.)*
+*(2026-08-21 closeout. Supersedes everything below. **Standing Will river/water directive at the top of this file is UNCHANGED** — and see item 2, which is a live gap against it.)*
 
-### 🔴 TWO DATED THINGS FIRE WITHIN DAYS — check both first
+### 🔴 WHAT HAPPENED WHILE I WAS DARK (8/13 → 8/21) — all four resolved/landed inside the gap
 
-1. **POWELL RECORD BREAK — ~1-2 days out.** `curl -s https://www.usbr.gov/uc/water/hydrodata/reservoir_data/919/csv/49.csv | tail -3`
-   **3,520.37 ft (8/12) vs the 3,519.92 record; falling every day since 7/29.** On the print: resolve **AEO-06 HIT (95%)**, **C6 → 4**, route WATT/CARL/MARCO. **Do not pre-fire.**
-2. **C5 TRIGGER — fires ~8/18 if the forecast holds.** Needs **Kaub daily mean ≤25 cm AND Duisburg-Ruhrort ≤153 cm on 10 CONSECUTIVE days**; **at 5 of 10**, run began **8/09**. ⚠️ **Grade on UNROUNDED daily means** — SERIES stores rounded cm and 25.4 rounds to 25. On firing: **C5 → 5**, resolve **AEO-11 (70%)**.
+1. **COLORADO RIVER ROD SIGNED 2026-08-21** — Sec. Burgum. ~6 wks early, **9 days inside the "earliest legal" floor I had computed myself.** LB cuts **1.25 maf in each of 2027 & 2028: AZ 760 / CA 440 / NV 50 kaf.** Powell releases 6.0–8.23 maf protecting **3,510 ft**; Mead ladder **1,025 / 1,010 / 1,000 ft**; **no 7-state consensus.** → **C6 = 4.** Routed WATT/CARL/MARCO/VULCAN.
+2. **POWELL broke its all-time low 8/15** (3,519.20 ft on 8/20 = **−0.72**) → **AEO-06 HIT.**
+3. **MEAD broke ITS post-fill record 8/06** (1,039.44 = −1.14 vs 1,040.58 of 2022-07-28) — **I missed it for 15 days.** See L-29.
+4. **C5 TRIGGER FIRED 8/18** on an 11-day run (8/09–8/19) → **AEO-11 HIT** — **and the river turned 8/20.** Kaub 6.42 cm (8/17) → **44.73 (8/21)**. **C5 hit 5, stepped back to 4.**
 
-### Then
-3. **⏰ CPC DJF 2026-27 outlook (~8/20)** — still **PUBLIC-AND-UNFETCHED**, owed to **WATT and MARCO**. Highest-value dated item I hold; with a 69% historic-event probability there is no analogue set left to average.
-4. **C6 ROD watch ~8/25**, ahead of earliest 8/30. Grade the ROD **against the alternatives MATRIX**, naming which alternative it adopts — never against a headline triple.
-5. **8/24 — Brent >$85 grading check owed to MARCO** (settlements).
-6. **Base-rate USBR's 24-month-study projection error** — AEO-10's 80% rests on a 2.1 ft buffer with no error bar.
-7. **Retrieve the current ACP Monthly Canal Operations Summary** — discover by search, **never** the advisories index (JS-rendered, silently stale).
+### 🔴 THE ONE THING TO CARRY FORWARD ANALYTICALLY
 
-### ⚠️ STATE OF THE FILE — what changed structurally today
+**My 8/13 retraction of the Colorado press figures was WRONG, and two agents acted on it.** The ROD contains *"reductions of 760,000 af in Arizona, 440,000 af in California, and 50,000 af in Nevada"* verbatim. **I checked them against the EIS alternatives MATRIX (modeled maximum) when they described the OPERATING-YEAR CUT — a different quantity.** CARL + MARCO packeted 8/21. **Three real numbers, three jobs: 1.25 maf scheduled · 3.6 maf modeled max · 3.0 maf sideboard · 1.5 maf = a distribution METHOD breakpoint.** **Do not collapse them again.** L-32, KB-073.
 
-**Five domain workspaces** (`regime/ water/ hurricane/ wildfire/ seismic/`), each with README · DOSSIER · SOURCES · AGENT · workbook. **Layer contract: observations → findings → synthesis, one-way.** `KB.tsv` is NOT split by domain; domain workbooks hold **observations** (137 rows in `water/`). **Sub-agents spawn on-demand; `RUN_REPORT.md` is the deliverable, not the message.**
+### FIRST FIVE THINGS TO DO
 
-**THREE registered thresholds could not fire as written and are now instrumented:**
-- **ACE** — computed from HURDAT2 + ATCF. Normal **122.6**; 2026 STD **3.09**. ⚠️ **Never compare season-to-date to the FULL-season normal** — only ~10.8% accrues by Aug 13, so use ~13.2.
-- **C5 Duisburg leg** — was a station name with no level. Now WSV `NNW` **25 / 153**, 10-day conjunction.
-- **Panama** — ACP Monthly Ops Summary, **38.70 transits/day** (Apr-26). ⚠️ Read **TRANSITS**, not the adjacent **ARRIVALS** (40.5).
+1. **🔴 READ `P26_RecordofDecision_Final.pdf` IN FULL.** Downloaded (1.17 MB); **only the Fact Sheet + Operating Guidelines have been extracted.** **L-20 is exactly this failure** (the Final EIS sat "tracked" for 13 days on its date alone). **Grade it against the alternatives matrix, naming which alternative it adopts.** *(Copies in this session's scratchpad are gone — re-pull from `usbr.gov/ColoradoRiverBasin/post2026/decision-doc/`.)*
+2. **🔴 MISSISSIPPI/OHIO GAUGE — the highest-value gap on the board.** It is a **registered band with NO metric surface**, it sits under a **standing Will directive** naming the major navigable trade rivers, and **its autumn low-water window (Sep–Nov) opens in ~10 days.** Find a USACE/USGS gauge + navigable-minimum reference and wire it into `water/SOURCES.md`.
+3. **AEO-10 IS UNDER PRESSURE — pull USBR's 24-month-study monthly projection PATH** (the Aug-2026 study shipped with the ROD). Mead margin 4.82 → **4.44 ft** in 8 days; **the current rate (−0.0475 ft/day) breaches 1,035 around 11/21**, and only the seasonal turn argues otherwise — **whose driver, Lees Ferry, is running −41.5%.** I did NOT move the 80% without the path; that is the open item.
+4. **Instrument the two dead bands:** CDD/HDD for C3 (exit-triad leg ungradeable on a 54-day-old June figure) and **non-renewal rate** for C4 (no verified command for any state insurance department).
+5. **Verify the CPC weekly-figure basis** — the 8/20 discussion prints +1.8/+2.5/+3.2 where `wksst9120.for` reads +2.7/+3.2/+4.0. **Ask CPC's documentation; do NOT infer the offset** (a 3-point coincidence is a free parameter).
 
-**Plus two more found and closed same day:** Danube `LKV` (ArcGIS, ships its own below/above flag) and Paraná (derive from the station's own 366-day history; **P10 ≈ 1.40 m** working low-water line).
+### DATED, NEXT 30 DAYS
+**9/01 NIFC monthly outlook** — AEO-09 checkpoint (grading rule already disambiguated pre-data: **current-month panel; regional section governs over Exec Summary**) · **9/02 CSU two-week** (a cadence my folder had wrongly declared nonexistent — it cost me the 8/19 issue) · **9/10 CPC ENSO discussion + ONI print** · **~9/17 CPC monthly/seasonal outlooks** · **10/01 the 2027-28 Operating Guidelines take effect** · **C1 peak ~9/10.**
 
-### 🔑 THE ONE THING TO CARRY FORWARD ANALYTICALLY
+### SCORES + PREDICTIONS AFTER THIS SESSION
+**C1 1 ⚪ (↓ from 2 — basin at ZERO) · C2 2 · C3 3 · C4 3 ↗ · C5 4 (peaked 5) · C6 4 ↑. Composite 17/30 — FIFTH straight session at 17 while the composition changed completely; the rows carry the information, the total does not.**
+**Resolved: AEO-06 HIT (8/15) · AEO-11 HIT (8/18).** **AEO-02 raised 70→97% EMPIRICAL** (ONI trajectory alone — deliberately NOT using CPC's >90%, which may be RONI-framed). **AEO-09 lowered 70→55%** (NIFC attributes southern-Plains dryness TO El Niño; CPC forecasts a *delayed* wet onset past my 12/1 deadline). **AEO-01 held 80% but the basis was RE-FOUNDED** — the analogue base rate does not survive the slice date (bottom-6 83% → 50% moving Aug-13 → Aug-21); replaced by *"a MISS now needs ~103% of a normal remainder."*
 
-**Rhine and Danube are ONE event, not two.** Rhine records set **2018-10-22/23**, Danube **2018-10-24/26** — same drought, same week. **13 consecutive Danube stations below record (233 km) + 4 of 6 Rhine gauges.** **Count the European basin root ONCE.** It is still separate from the ENSO root.
-**Paraná runs the OTHER way** — 99th percentile of its trailing year. Not firing, not near firing. **A high Paraná is good for grain logistics.**
+### DOMAINS SPAWNED THIS SESSION, AND WHY *(record kept so a quiet domain is a visible decision)*
+**`water/` · `hurricane/` · `wildfire/` — all three spawned** (8-day observation gap + two predictions resolving + a dated catalyst window). **`regime/` NOT spawned — I did it myself**, and then had to write its observation layer by hand: **`domain_log_check.py` did not flag the gap and COULD NOT**, because it tests *touched-but-silent* and I had not touched the folder. **Worked-on-but-untouched is a blind spot in my own guard — consider fixing the script.** **`seismic/` not spawned — correct, no trigger.**
 
-### ⚠️ SIX CORRECTIONS OF MY OWN WORK TODAY — read L-15 through L-26
+### WORKER FINDINGS I ADJUDICATED (all three reports are excellent, read them if in doubt)
+**Ratified:** CSU two-week cadence + `csu_ace_forecast` = 50 (41% of normal) → added to `hurricane/SOURCES.md` + vocabulary · Panama series **Apr 38.70 → May 37.06 → Jun 32.50 → Jul 34.03** (**June touched the ≤32 Yellow band**) · ACE to-date normal **recomputed for 8/21 = 18.98** (reusing 8/13's 13.25 would have flattered the ratio by 7 pts).
+**Still open for me:** ratify `baja_vs_lkv`/`paks_vs_lkv` instrument names · **adjudicate two Danube `12-31` LKV dates** (Bogojevo 1953, Novi Sad 1946 — possible sentinels, counted as real, flagged not decided) · a **verified TWO-archive command** (8/14–8/18 outlook text is unrecoverable; the Gulf/FL answer rests on ATCF absence, not archived outlooks).
 
-Powell wrong by 3.83 ft and inverted (tracker vs USBR) · dropped a worker's hedge when relaying · mis-flagged a WALTER signal that was correct · called the Paraná "mid-range" at the 99th percentile · adopted news EIS figures that understated cuts 2-4× · a base rate whose driving mechanism had changed. **All caught by going to a primary or computing a distribution.** The pattern: **a number without its reference, or a finding without its caveat, reads as complete.**
+### ⚠️ TWO THINGS I FIXED IN MY OWN FILES THAT WERE ACTIVELY MISLEADING
+- **`hurricane/AGENT.md` still told workers `ace` had "NO VERIFIED SOURCE — do not invent a figure"** for 8 days after `SOURCES.md` closed that gap. **A worker reading the brief in the prescribed order hit the prohibition before the fix** — my own brief told it not to compute the number I spawned it to compute.
+- **`CLAUDE.md` closeout step 2b was a bare relative path, DEAD from my launch cwd.** The guard I built 8/13 for the L-28 gap **could not run at a single real closeout in the 8 days it existed** — and because it is documented "advisory, exit 0 always," a one-line stderr reads as a clean run.
 
-### ✅ NEW CLOSEOUT CHECK — run it, it already caught two things I missed
-`python3 AGENTS/AEOLUS/scripts/domain_log_check.py` — **wired into CLOSEOUT step 2b.** Flags a domain folder that was touched but whose event log stayed silent, and a folder whose channels gained central KB rows while its own log gained none. **Advisory, ~2s.** ⚠️ **Negative-tested against the real 8/13 failure** (strip water/'s rows → it flags on both tests). **On its first live run it found gaps in `wildfire/` and `hurricane/` that I had not noticed.** `seismic/` exempt from the touched-but-silent test — quiet is its expected state.
-
-### Owed / open
-**WATT** (CPC DJF; Lees Ferry weekly — it LEADS Mead) · **MARCO** (CPC DJF; 8/24 Brent) · **CARL/REGINALD** (EIS matrix delivered, replies open) · **SAM** (Kumamoto question) · **WALTER/DEWEY** (delivered, no reply needed).
-**Still open:** re-derive channel signs against **RONI** not ONI (would likely SOFTEN several reads) · no verified **freight** source anywhere · Danube is multi-national and Austria/Serbia are unexplored · `KB.tsv` has 19 pre-existing 14-field rows vs a 13-col header (**not mine, undiagnosed**).
+### OWED / OPEN
+**MARCO** — asked for the 95% source; if none, drop to >90% · **CARL** — the 1.25-vs-3.6 fix on two surfaces · **WATT/VULCAN** — ROD routed, no reply needed · **REGINALD/CREED** — ROD muni/ag-credit leg NOT yet routed (do it) · **SAM/WALTER/DEWEY** — closed, nothing owed.
+**Still open from 8/13:** re-derive channel signs against **RONI** not ONI (**RONI now pulled: MJJ +0.98**) · **no verified freight source anywhere** (C5's operational leg stays UNARMED) · Danube is multi-national, Austria/Serbia unexplored · **✅ the KB 14-field column defect is FIXED** (19 rows; it was hiding a second defect — prose sitting in the Vectors cell on KB-016/020, text preserved into Notes, **Vectors left EMPTY rather than invented**).
 
 ---
 
-### ⬇️ SUPERSEDED — earlier 8/13 block, retained as history.
+### ⬇️ SUPERSEDED — earlier blocks retained as history.
+
 
 *(2026-08-13 — this block supersedes the 8/12 block below. Standing Will river/water directive at the top of this file is UNCHANGED and still governs.)*
 

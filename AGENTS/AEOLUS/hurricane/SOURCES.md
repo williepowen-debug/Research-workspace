@@ -33,9 +33,19 @@ Text version: `https://www.nhc.noaa.gov/text/MIATWOAT.shtml` *(fetched 24.6 KB; 
 
 ## SEASONAL OUTLOOKS — the revision clock
 
-### CSU / Klotzbach ✅ verified 8/13
+### CSU / Klotzbach ✅ verified 8/13, **CADENCE CORRECTED 8/21**
 `https://tropical.colostate.edu/forecasting.html` *(160 KB, loads fine)*
-Issues **early Apr / early Jun / early Jul / early Aug**. **Verified 2026:** initial forecast released **Apr 9**; **8/5 update HELD at 9/4/1** — CSU's 2nd-lowest August named-storm outlook ever.
+
+**① SEASONAL forecast** — issues **early Apr / early Jun / early Jul / early Aug**. **Verified 2026:** initial forecast **Apr 9**; **8/5 update HELD at 9/4/1** — CSU's 2nd-lowest August named-storm outlook ever. **8/5 is the FINAL seasonal issuance for 2026.**
+**Also published on that page and not previously recorded: CSU's own seasonal ACE central forecast, `2026 = 50`** (vs a ~123 normal) — **40.8% of the 122.58 mean.** Instrument `csu_ace_forecast`, added to the vocabulary 8/21. *("ACE West of 60°W" 25 vs 73 is a separate figure — do not conflate.)*
+
+**② 🔴 TWO-WEEK forecast — A LIVE CADENCE THIS FILE PREVIOUSLY DECLARED NONEXISTENT.**
+`https://tropical.colostate.edu/Forecast/2026-MMDD.pdf` — **schedule: Aug 5 · Aug 19 · Sep 2 · Sep 16 · Sep 30.**
+> ⚠️ **This file and `AGENT.md` both asserted "CSU issues no further 2026 updates — from here the read is basin observation, not outlook revision." That was FALSE**, and it cost me the **8/19 issuance**, which landed inside my 8/13–8/21 dark window. **A declared-dead instrument is the inverse of the ACE / Duisburg failure and is harder to catch: a gap you have written down as closed generates no further looking.** When you retire an instrument, say *which* product you verified as ended — the seasonal series had ended; the two-week series had not.
+> **CSU 8/19 (window Aug 19 – Sep 1): BELOW-NORMAL 70% · near-normal 28% · above-normal 2%.** Terciles **for this window**: `<7 / 7-22 / >22` ACE. Verbatim: *"the base state across the Atlantic is quite TC-unfavorable, given the strong El Niño and associated high levels of vertical wind shear."*
+> **8/5 window (Aug 5-18) is now gradeable:** forecast below-normal (`<2` ACE) at 80%; **observed Atlantic ACE Aug 5-18 = 0.4425.** Inside the tercile.
+> ⚠️ **TERCILE BOUNDARIES DIFFER PER WINDOW** (Aug 5-18 below = `<2`; Aug 19-Sep 1 below = `<7`). **Never compare the LABEL across windows** — "below-normal" is not a constant quantity. **Next issue: 2026-09-02.**
+> ⚠️ CSU's page also carries a self-contradiction — *"Additional forecast updates will be released on August 5th"* (already past) beside a schedule block listing Nov verification next. **That line does not imply a pending seasonal update.**
 
 ### NOAA CPC seasonal hurricane outlook
 `https://www.cpc.ncep.noaa.gov/products/outlooks/hurricane.shtml` — **May initial, early-August update.**

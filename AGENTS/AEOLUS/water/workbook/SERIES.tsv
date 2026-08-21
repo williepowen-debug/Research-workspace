@@ -136,3 +136,116 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-13	budapest_vs_lkv	-9	cm	OVF-LKV-ARCGIS	2026-08-13	LKV 33 set 2018-10-24
 2026-08-13	rosario_trailing_yr_p10	1.4	m	UNL-FICH-ROSARIO-HIST	2026-08-13	working low-water reference; 366-day distribution
 2026-08-13	rosario_trailing_yr_min	1.08	m	UNL-FICH-ROSARIO-HIST	2026-08-13	trailing-year min - NOT a historic low; 2021 crisis went far lower
+2026-08-13	powell_elev	3520.25	ft	USBR-919-49	2026-08-21	
+2026-08-14	powell_elev	3520.01	ft	USBR-919-49	2026-08-21	
+2026-08-15	powell_elev	3519.91	ft	USBR-919-49	2026-08-21	
+2026-08-16	powell_elev	3519.80	ft	USBR-919-49	2026-08-21	
+2026-08-17	powell_elev	3519.65	ft	USBR-919-49	2026-08-21	
+2026-08-18	powell_elev	3519.53	ft	USBR-919-49	2026-08-21	
+2026-08-19	powell_elev	3519.36	ft	USBR-919-49	2026-08-21	
+2026-08-20	powell_elev	3519.20	ft	USBR-919-49	2026-08-21	
+2026-08-13	mead_elev	1039.78	ft	USBR-921-49	2026-08-21	
+2026-08-14	mead_elev	1039.70	ft	USBR-921-49	2026-08-21	
+2026-08-15	mead_elev	1039.76	ft	USBR-921-49	2026-08-21	
+2026-08-16	mead_elev	1039.79	ft	USBR-921-49	2026-08-21	
+2026-08-17	mead_elev	1039.77	ft	USBR-921-49	2026-08-21	
+2026-08-18	mead_elev	1039.66	ft	USBR-921-49	2026-08-21	
+2026-08-19	mead_elev	1039.55	ft	USBR-921-49	2026-08-21	
+2026-08-20	mead_elev	1039.44	ft	USBR-921-49	2026-08-21	
+2026-08-13	powell_storage	5275487	af	USBR-919-17	2026-08-21	
+2026-08-14	powell_storage	5262082	af	USBR-919-17	2026-08-21	
+2026-08-15	powell_storage	5256503	af	USBR-919-17	2026-08-21	
+2026-08-16	powell_storage	5250369	af	USBR-919-17	2026-08-21	
+2026-08-17	powell_storage	5242012	af	USBR-919-17	2026-08-21	
+2026-08-18	powell_storage	5235332	af	USBR-919-17	2026-08-21	
+2026-08-19	powell_storage	5225878	af	USBR-919-17	2026-08-21	
+2026-08-20	powell_storage	5216988	af	USBR-919-17	2026-08-21	
+2026-08-13	lees_ferry_q	7930	cfs	USGS-09380000-00060	2026-08-21	
+2026-08-14	lees_ferry_q	7930	cfs	USGS-09380000-00060	2026-08-21	
+2026-08-15	lees_ferry_q	7810	cfs	USGS-09380000-00060	2026-08-21	
+2026-08-16	lees_ferry_q	7810	cfs	USGS-09380000-00060	2026-08-21	
+2026-08-17	lees_ferry_q	7960	cfs	USGS-09380000-00060	2026-08-21	
+2026-08-18	lees_ferry_q	8000	cfs	USGS-09380000-00060	2026-08-21	
+2026-08-19	lees_ferry_q	7970	cfs	USGS-09380000-00060	2026-08-21	
+2026-08-20	lees_ferry_q	7970	cfs	USGS-09380000-00060	2026-08-21	
+2026-08-18	usdm_conus_none	23.79	pct	USDM-API-CONUS	2026-08-21	CONUS (not Total)
+2026-08-18	usdm_conus_d0d4	76.21	pct	USDM-API-CONUS	2026-08-21	CONUS (not Total)
+2026-08-18	usdm_conus_d1d4	52.7	pct	USDM-API-CONUS	2026-08-21	CONUS (not Total). Deterioration concentrated OK/TX/AR/KS; corn belt IA/IL/IN IMPROVED
+2026-08-18	usdm_conus_d2d4	29.87	pct	USDM-API-CONUS	2026-08-21	CONUS (not Total)
+2026-08-18	usdm_conus_d3d4	10.6	pct	USDM-API-CONUS	2026-08-21	CONUS (not Total)
+2026-08-18	usdm_conus_d4	1.35	pct	USDM-API-CONUS	2026-08-21	CONUS (not Total)
+2026-08-13	kaub_stage	12.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 11.917; NNW 25.0, margin -13.08 | REVISED: supersedes the 8/13 partial-day row
+2026-08-14	kaub_stage	8.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 8.135; NNW 25.0, margin -16.86
+2026-08-15	kaub_stage	8.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 8.052; NNW 25.0, margin -16.95
+2026-08-16	kaub_stage	7.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 6.740; NNW 25.0, margin -18.26
+2026-08-17	kaub_stage	6.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 6.417; NNW 25.0, margin -18.58
+2026-08-18	kaub_stage	12.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 11.958; NNW 25.0, margin -13.04
+2026-08-19	kaub_stage	14.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 13.906; NNW 25.0, margin -11.09
+2026-08-20	kaub_stage	35.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 34.812; NNW 25.0, margin +9.81
+2026-08-21	kaub_stage	45.0	cm	WSV-PEGELONLINE-KAUB	2026-08-21	daily mean of 15-min obs (n=93); UNROUNDED mean 44.699; NNW 25.0, margin +19.70 | PARTIAL day
+2026-08-13	duisburg_ruhrort_stage	135.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 135.271; NNW 153.0, margin -17.73 | REVISED: supersedes the 8/13 partial-day row
+2026-08-14	duisburg_ruhrort_stage	131.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 130.552; NNW 153.0, margin -22.45
+2026-08-15	duisburg_ruhrort_stage	131.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 130.646; NNW 153.0, margin -22.35
+2026-08-16	duisburg_ruhrort_stage	129.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 129.344; NNW 153.0, margin -23.66
+2026-08-17	duisburg_ruhrort_stage	129.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 128.760; NNW 153.0, margin -24.24
+2026-08-18	duisburg_ruhrort_stage	132.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 131.729; NNW 153.0, margin -21.27
+2026-08-19	duisburg_ruhrort_stage	136.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 135.885; NNW 153.0, margin -17.11
+2026-08-20	duisburg_ruhrort_stage	150.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 150.344; NNW 153.0, margin -2.66
+2026-08-21	duisburg_ruhrort_stage	152.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-21	daily mean of 15-min obs (n=93); UNROUNDED mean 151.935; NNW 153.0, margin -1.06 | PARTIAL day
+2026-08-13	maxau_stage	296.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 296.323; NNW 231.0, margin +65.32 | REVISED: supersedes the 8/13 partial-day row
+2026-08-14	maxau_stage	302.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 301.521; NNW 231.0, margin +70.52
+2026-08-15	maxau_stage	307.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 306.896; NNW 231.0, margin +75.90
+2026-08-16	maxau_stage	305.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 304.719; NNW 231.0, margin +73.72
+2026-08-17	maxau_stage	306.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 305.594; NNW 231.0, margin +74.59
+2026-08-18	maxau_stage	335.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 334.938; NNW 231.0, margin +103.94
+2026-08-19	maxau_stage	334.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 333.500; NNW 231.0, margin +102.50
+2026-08-20	maxau_stage	336.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 336.198; NNW 231.0, margin +105.20
+2026-08-21	maxau_stage	335.0	cm	WSV-PEGELONLINE-MAXAU	2026-08-21	daily mean of 15-min obs (n=93); UNROUNDED mean 334.591; NNW 231.0, margin +103.59 | PARTIAL day
+2026-08-13	worms_stage	-14.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -13.635; NNW 2.0, margin -15.64 | REVISED: supersedes the 8/13 partial-day row
+2026-08-14	worms_stage	-18.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -18.438; NNW 2.0, margin -20.44
+2026-08-15	worms_stage	-16.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -15.854; NNW 2.0, margin -17.85
+2026-08-16	worms_stage	-11.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -11.354; NNW 2.0, margin -13.35
+2026-08-17	worms_stage	-9.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -8.740; NNW 2.0, margin -10.74
+2026-08-18	worms_stage	-10.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -10.167; NNW 2.0, margin -12.17
+2026-08-19	worms_stage	13.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 13.219; NNW 2.0, margin +11.22
+2026-08-20	worms_stage	17.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 17.333; NNW 2.0, margin +15.33
+2026-08-21	worms_stage	15.0	cm	WSV-PEGELONLINE-WORMS	2026-08-21	daily mean of 15-min obs (n=93); UNROUNDED mean 14.753; NNW 2.0, margin +12.75 | PARTIAL day
+2026-08-13	mainz_stage	111.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 111.115; NNW 110.0, margin +1.11 | REVISED: supersedes the 8/13 partial-day row
+2026-08-14	mainz_stage	107.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 106.969; NNW 110.0, margin -3.03
+2026-08-15	mainz_stage	108.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 107.833; NNW 110.0, margin -2.17
+2026-08-16	mainz_stage	106.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 105.573; NNW 110.0, margin -4.43
+2026-08-17	mainz_stage	109.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 108.646; NNW 110.0, margin -1.35
+2026-08-18	mainz_stage	114.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 114.073; NNW 110.0, margin +4.07
+2026-08-19	mainz_stage	121.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 120.896; NNW 110.0, margin +10.90
+2026-08-20	mainz_stage	141.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean 140.521; NNW 110.0, margin +30.52
+2026-08-21	mainz_stage	140.0	cm	WSV-PEGELONLINE-MAINZ	2026-08-21	daily mean of 15-min obs (n=93); UNROUNDED mean 140.333; NNW 110.0, margin +30.33 | PARTIAL day
+2026-08-13	emmerich_stage	-11.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -10.677; NNW -1.0, margin -9.68 | REVISED: supersedes the 8/13 partial-day row
+2026-08-14	emmerich_stage	-17.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=56); UNROUNDED mean -16.804; NNW -1.0, margin -15.80 | SPARSE n=56: low-confidence mean
+2026-08-15	emmerich_stage	-22.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=2); UNROUNDED mean -22.000; NNW -1.0, margin -21.00 | SPARSE n=2: low-confidence mean
+2026-08-16	emmerich_stage	-26.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=1); UNROUNDED mean -26.000; NNW -1.0, margin -25.00 | SPARSE n=1: low-confidence mean
+2026-08-17	emmerich_stage	-25.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=75); UNROUNDED mean -25.093; NNW -1.0, margin -24.09 | SPARSE n=75: low-confidence mean
+2026-08-18	emmerich_stage	-24.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -23.656; NNW -1.0, margin -22.66
+2026-08-19	emmerich_stage	-20.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -19.552; NNW -1.0, margin -18.55
+2026-08-20	emmerich_stage	-10.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=96); UNROUNDED mean -10.292; NNW -1.0, margin -9.29
+2026-08-21	emmerich_stage	-1.0	cm	WSV-PEGELONLINE-EMMERICH	2026-08-21	daily mean of 15-min obs (n=92); UNROUNDED mean -0.957; NNW -1.0, margin +0.04 | PARTIAL day
+2026-08-21	yichang_stage	44.130	m	CJH-YICHANG	2026-08-21	20:00 local (CST)
+2026-08-21	yichang_q	16600	m3_s	CJH-YICHANG-Q	2026-08-21	20:00 local (CST)
+2026-08-21	hankou_stage	19.940	m	CJH-HANKOU	2026-08-21	20:00 local (CST)
+2026-08-21	hankou_q	23400	m3_s	CJH-HANKOU-Q	2026-08-21	20:00 local (CST)
+2026-08-21	datong_stage	9.650	m	CJH-DATONG	2026-08-21	20:00 local (CST)
+2026-08-21	datong_q	31900	m3_s	CJH-DATONG-Q	2026-08-21	20:00 local (CST)
+2026-08-21	three_gorges_level	157.650	m	CJH-SANXIA	2026-08-21	outflow 16300 m3/s; 20:00 local
+2026-08-21	budapest_stage	41	cm	OVF-LKV-ARCGIS	2026-08-21	local datum; LKV 33, diff +8
+2026-08-21	baja_stage	-28	cm	OVF-LKV-ARCGIS	2026-08-21	local datum; LKV 27, diff -55
+2026-08-21	mohacs_stage	-16	cm	OVF-LKV-ARCGIS	2026-08-21	local datum; LKV 50, diff -66
+2026-08-21	budapest_vs_lkv	8	cm	OVF-LKV-ARCGIS	2026-08-21	LKV 33 (2018-10-24); was -9 on 8/13 -> now ABOVE its LKV
+2026-08-21	mohacs_vs_lkv	-66	cm	OVF-LKV-ARCGIS	2026-08-21	LKV 50 (2018-10-26); was -40 on 8/13 -> DEEPENED
+2026-08-21	danube_stations_below_lkv	14	count	OVF-LKV-ARCGIS	2026-08-21	14 of 44 below non-sentinel LKV; longest consecutive run 11 stations Kvassay km1642.2 -> Mohacs km1446.9 (195.3 km). Was 13 consecutive Vac km1679.5 -> Mohacs (233 km) on 8/13. Sentinel LKV dates 1799/1884/1894-12-31 excluded
+2026-08-21	corrientes_stage	3.00	m	UNL-FICH-CORRIENTES	2026-08-21	var 0,21; alert 6,50.
+2026-08-21	santafe_stage	3.13	m	UNL-FICH-SANTAFE	2026-08-21	var 0,03; alert 5,30.
+2026-08-21	rosario_stage	2.97	m	UNL-FICH-ROSARIO	2026-08-21	var —; alert 5,00. grain-export gauge; 96.2nd pctile of 366-day trailing dist (min 1.08 P10 1.40 med 2.20 max 3.03)
+2026-03-31	panama_transits	37.03	count	ACP-MONTHLY-OPS-SUMMARY	2026-08-21	oceangoing TRANSITS daily average (NOT arrivals); month total 1148, self-check 1148/31d=37.03; ACP-ADV-09-2026
+2026-04-30	panama_transits	38.7	count	ACP-MONTHLY-OPS-SUMMARY	2026-08-21	oceangoing TRANSITS daily average (NOT arrivals); month total 1161, self-check 1161/30d=38.70; ACP-ADV-14-2026
+2026-05-31	panama_transits	37.06	count	ACP-MONTHLY-OPS-SUMMARY	2026-08-21	oceangoing TRANSITS daily average (NOT arrivals); month total 1149, self-check 1149/31d=37.06; ACP-ADV-19-2026
+2026-06-30	panama_transits	32.5	count	ACP-MONTHLY-OPS-SUMMARY	2026-08-21	oceangoing TRANSITS daily average (NOT arrivals); month total 975, self-check 975/30d=32.50; ACP-ADV-23-2026
+2026-07-31	panama_transits	34.03	count	ACP-MONTHLY-OPS-SUMMARY	2026-08-21	oceangoing TRANSITS daily average (NOT arrivals); month total 1055, self-check 1055/31d=34.03; ACP-ADV-26-2026

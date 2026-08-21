@@ -2,7 +2,14 @@
 
 **As-of: 2026-08-13**, all figures CPC primary. Consolidated from KB-AEO-016/021/038/045/046/053/054 + VX-19/20.
 
-> **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
+> **Last real data refresh: 2026-08-21**  ·  **Dossier written: 2026-08-21**
+>
+> **2026-08-21 — refreshed by AEOLUS directly (no worker spawned).** Recorded here because **L-28 binds whoever DID the work, not whoever was spawned**: I pulled these primaries in my own context and would otherwise have left this folder reading silent while the central `KB.tsv` gained regime rows. ⚠️ **`scripts/domain_log_check.py` did NOT and COULD NOT flag that** — it tests *touched-but-silent*, and I had not touched the folder at all. **Worked-on-but-untouched is a blind spot in my own guard.**
+>
+> **This pass:** ✅ **RONI pulled for the first time — MJJ 2026 = +0.98** vs ONI +1.39 (offset −0.41, matching the derived 2020s value; **still not constant**). CPC 8/20 seasonal discussion **restates >90% very-strong and 69% historic — neither was RAISED**; no CPC primary states 95%. Weekly Niño-3.4 **+2.7 (12AUG)**, strengthening from +2.1 (15JUL). **DJF 2026-27 outlook read at the primary as a GIS product** (`lead4_DJF_temp`, `Fcst_Date=20260820`) rather than an image.
+>
+> 🔴 **INSTRUMENT TRAP LOGGED — the CPC discussion's weekly figures do not match CPC's own weekly file** (+1.8/+2.5/+3.2 in the prose vs +2.7/+3.2/+4.0 in `wksst9120.for`). **Reading across them inverts the trend sign.** Consistent with a relative/RONI basis; **not proven, not asserted.** See `workbook/LOG.tsv`.
+> ⚠️ **Also known-bad now: `wksst8110.for`** — I reconstructed it from memory and got a dead file ending 27JAN2021. `SOURCES.md` had the right one all along.
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `regime/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1 · C2 · C3 · C5 · C6 (root: owns the ENSO indices)
