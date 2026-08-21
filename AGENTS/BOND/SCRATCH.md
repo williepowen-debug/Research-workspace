@@ -50,6 +50,20 @@
 
 6. **Boot checks all clean and the tape is unchanged from session 1** — `docket_check` **rc=0** (4/4 upcoming auctions docketed, CUSIP-keyed), `boot_recompute` **rc=0** (no unguarded drift on the boot-unread surfaces). Levels re-confirmed: 30Y **5.19** / 10Y **4.65** / 2Y **4.19** / DFII10 **2.35** [all 8/19] · HY **275** / CCC **1035** / IG **82** [all 8/20]. **Add-gate 15bp. Run 32 consecutive sessions ≥5.00, 48 days in 2026.**
 
+### ★ WILL'S STEER, 2026-08-21 — and it is now acted on, not just agreed with
+> *"even if the predictions are wrong its still important. Over time it will help us collaborate and learn."*
+
+**The prediction canon is ALL BRAKES.** `FORGE/PREDICTION_DISCIPLINE.md` carries 20+ registration rules and every one pushes toward registering FEWER things — *"don't build it" is a real answer*, base-rate before freezing, check the gate can fire. All correct, and **nothing in it names the cost of under-registration.** Will supplied the counterweight.
+
+**The evidence is in this desk's own book, and it only exists because 15 predictions were registered and 9 of them were WRONG** (`KB-BND-163`, first bucketed calibration read ever computed here): **30-49% n=4 hit 25% · 50-69% n=11 hit 27% · 70-89% n=3 hit 100%.** 🔴 **The middle band is systematically overconfident — 11 calls, ~6 expected hits, 3 actual.** ⚠️ Caveats stated on the row: n=11 is thin, the book spans ONE regime where the bear thesis mostly didn't fire (part of the miss is regime, not pricing), and the top band is n=3 with two deliberately mechanical. **The statistic is a property of the SET, not any row — a desk that registered only its confident calls would hold 3 rows, all TRUE, and know nothing about itself.**
+
+**ACTED THE SAME SESSION — three predictions registered PRE-PRINT for the 8/25-27 cluster, bars frozen at the TreasuryDirect primary today:**
+- **`BND-18` (55%)** — 5Y BTC ≥ **2.34** (its trailing-12 median) on 8/26. Tests whether the 7/27 cover marker (2.28 = the window MIN) was a one-off. ⚠️ **Priced ~15pp BELOW instinct as the first direct application of the calibration row.**
+- **`BND-19` (35%)** — indirect ≥ own median at **all three** new-issue tenors (2Y ≥57.65 · 5Y ≥61.75 · 7Y ≥60.80). **The hard one, registered on purpose: a FALSE costs me the STRONGER form of my own thesis.** Reopening `91282CRD5` EXPLICITLY EXCLUDED. **All three legs must be recorded even after the first fails.**
+- **`BND-20` (85%)** — 7Y BTC inside **[2.40, 2.52]**, a band that has held 12 straight prints. Logged openly as a STRUCTURAL/calibration anchor, not insight; discounted from ~95 because a band fitted on the same 12 obs it grades is a fitted band.
+
+**Book is now 4 OPEN (was 1), deliberately spanning the confidence curve.** Promoted to fleet auto-memory: `feedback_register_the_call_even_when_you_expect_to_lose_it`.
+
 ## NEXT SESSION (dated, future-verifiable)
 
 1. ⏰ **8/22 — verify the ORACLE pin is being GAP-MARKED** (box above). If declined, the locked fallback fires: Polymarket canonical, substitution recorded on the grade. **Never blended.**
@@ -76,7 +90,7 @@
 
 **Only live add-gate: DFII10 2.35 [8/19] = 15bp away**, a second session AWAY. ⚠️ **Do not read that forward — the 8/20 nominal close is UNPUBLISHED (partial H.15 split) and the long end backed UP live today.** `BND-15` (70%, no DFII10 close ≥2.50 through 8/29) is **materially safer than when frozen — and the confidence does NOT move up, for the same reason it didn't move down when it looked wrong on 8/18.**
 
-**Composite 12/35 — unchanged. OPEN predictions: `BND-15` ONLY** (timeframe runs to 8/29; **not DUE**).
+**Composite 12/35 — unchanged. OPEN predictions: `BND-15` · `BND-18` · `BND-19` · `BND-20` — four, up from one.** `BND-15` runs to 8/29 (not DUE). **`BND-18`/`BND-19`/`BND-20` resolve 8/26–8/27 on publication and MUST be graded at the TreasuryDirect primary via `monitors/grade_auction.py`, with margins stated per leg.**
 ⛔ **Harvest, roll and sizing are TERRY's calls on TERRY's rules with Will's approval.**
 
 ## MAIL
