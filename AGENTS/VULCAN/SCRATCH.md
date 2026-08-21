@@ -44,6 +44,31 @@
 >
 > **🆕 S4 REFRESHED — it was 5 weeks stale on a MONTHLY series.** TSMC July revenue **NT$467,580M, +5.6% MoM, +44.7% YoY; Jan-Jul +37.0% YoY** (up from H1 +35.6% — a mild ACCELERATION) [**SEC 6-K acc `0001046179-26-000471`, filed 8/10, own EDGAR pull**]. ✅ Its comparative column re-verifies June at NT$442,680M, matching KB-020 exactly. **S4 NOT-FIRED, held at 3.** ⚠️ **The number was reassuring, which is exactly why nobody noticed the gap** — an empty-or-stale channel is a gap to close, not background. **Next: ~9/10, and it is monthly.** [KB-100]
 >
+> ## 🎯 SELF-GRADE — THREE CHECKS, REGISTERED 2026-08-21, BASELINES FROZEN. GRADE DATE **2026-09-11**.
+> **Why this block exists:** Will asked whether the 8/21 session was actually an improvement or a performance of one. **My answer was "files measurably better, judgment UNPROVEN" — and an unproven claim about myself is worth exactly nothing unless it is gradeable.** These are the three things I told him to hold me to instead of my own summary. **Register them, then grade them honestly even if the answer is bad.**
+>
+> ⚠️ **DELIBERATELY NOT IN `PREDICTIONS.tsv`.** That ledger is the DOMAIN calibration record (VULCAN-NN, market forecasts). Folding process-grading into it would contaminate the hit-rate that makes it useful. **Same rigor, different ledger — frozen baselines, explicit criteria, a date, and a pre-registered action on failure.**
+>
+> ### CHECK 1 — does the date/figure-WELD class reach n=5?
+> **FROZEN BASELINE: n=4 at 2026-08-21.** ① *"AMZN 6→5y/$920M charge"* welded two separate disclosures [7/17, L-10] · ② *"MU FQ4 ~8/4"* [8/3, L-13] · ③ *"SK Hynix 7/23"* — corrected 8/3 in four files, **survived in `CLAUDE.md` until 8/21** · ④ *"MU's 7/23 $1,032.28 peak"* — a 7/01 close wearing a 7/23 date [8/21, KB-090].
+> **COUNTS AS AN INSTANCE:** a figure attached to a wrong date, **or** two distinct disclosures fused into one claim, **in my own files**, found by anyone (me, a peer, Will).
+> **GRADE:** any NEW instance ⇒ **n=5 ⇒ the written-lesson approach has FAILED for this class.** I wrote L-10 and L-13 about it and then did it twice more the same day I wrote L-17.
+> **PRE-REGISTERED ACTION ON FAILURE — do not relitigate it in the moment:** stop writing lessons at it and **build a mechanical check** (e.g. a script that flags any `$FIGURE` within N characters of a `DATE` in STATUS/THESIS and demands a source stamp). **A rule I keep breaking is a rule that needs an instrument, not a fifth restatement.**
+>
+> ### CHECK 2 — does the next full audit find materially fewer defects?
+> **FROZEN BASELINE, 2026-08-21, 16 core files read (not recalled): 23 total findings — of which TIER 1+2 = 11.**
+> **GRADE ON TIER 1+2 ONLY** (things that are *wrong*), **not the total** — Tier 5 is cosmetic and trivially gameable by tidying. **<5 ⇒ the slope changed. ~10+ ⇒ 8/21 was a one-off cleanup, not a change in how I work.**
+> ⚠️ **PRE-REGISTERED CONFOUND, named now so I cannot discover it conveniently later: a SELF-audit will find fewer, because I know what I fixed and where I looked.** A low number from my own sweep is **weak evidence**. **The strong version is an audit by a different reader** — YEYOU or RAV, or Will asking cold. **If only a self-audit is available, report the count AND the weakness in the same breath; do not bank a clean self-sweep as vindication.**
+>
+> ### CHECK 3 — do closeout steps 2b and 4b keep catching things, or become ceremony?
+> **FROZEN BASELINE: 3 catches on first use (2026-08-21).** 2b → THESIS's S1 stage 3 asserting an unmeasured breadth mechanism STATUS now contradicts · 4b → the THRESHOLDS table describing a band in WORDS the instrument grades as a NUMBER · 4b → `Total 11/20`, an 18-day-stale four-channel figure **inside the spec that defines the composite**.
+> ⚠️ **THE AMBIGUITY THAT WOULD MAKE THIS UNGRADEABLE, AND THE FIX:** *"the steps went quiet"* has two causes — **nothing was wrong**, or **I stopped running them** — and they record identically. **So log the OUTCOME of each step every closeout in the tracker below, including `clean` and `not-run`.** Without a denominator, zero catches is uninterpretable.
+> **GRADE:** steps still firing ⇒ **keep.** Steps quiet **AND** an audit still finds rot in THESIS/CLAUDE.md ⇒ **they are ceremony — KILL THEM**, do not leave dead steps sitting beside live ones (that is what teaches a desk to skip the live ones too).
+>
+> | closeout date | step 2b (THESIS) | step 4b (CLAUDE.md) |
+> |---|---|---|
+> | 2026-08-21 | **FIRED** — breadth stage | **FIRED ×2** — words-vs-number, 11/20 |
+>
 > ### ▶▶ START HERE NEXT SESSION — PROME ALLOCATED THE CXMT QUESTION TO ME (8/21, no clock)
 > **The thing I chased ZHAO for three times is now MY work item.** Disposition ① with a scope fence, packet filed to `inbox/processed/`.
 > - **THE QUESTION:** CXMT (+ Nanya) DRAM **BIT** output and **node mix**, 2026-2028, and **when those bits reach market.** It is the most direct fundamentals falsifier of S2's shortage premise. **No deliver-by clock.**
