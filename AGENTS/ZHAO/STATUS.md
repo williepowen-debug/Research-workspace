@@ -1,115 +1,26 @@
 # ZHAO STATUS
 
-**Updated:** 2026-08-21 ~13:10 ET (three-part session: June TIC pulled + graded · **ZHA-15 graded RESOLVED NO** · **Korea falsification tripwire graded FIRED**. Two of the three falsify or stand down parts of ZHAO's own thesis.)
+**Updated:** 2026-08-21 (see commit time — narrative stamps retired on this line after a future-dated "~13:10 ET" on a file committed 11:52; PROME audit O9) (three-part session: June TIC pulled + graded · **ZHA-15 graded RESOLVED NO** · **Korea falsification tripwire graded FIRED**. Two of the three falsify or stand down parts of ZHAO's own thesis.)
 **Overall Status:** 🟠 ELEVATED — **the $650B line broke, and the Belgium proxy that was supposed to interpret it does not work.** June TIC: **China $633.4B, −$25.9B MoM, the lowest reading in the 78-month series** and the first breach of the <$650B line after two near-misses held (Mar $653.3B, Apr $651.1B) and May rebounded. **It is genuine selling, not valuation** — reported net sales **−$21.96B, of which LT/coupon −$15.77B**, the first month this cycle China sold *duration* in size. **ZHA-04 FIRED (TRUE at 42%).** Trailing-12m China net sales are **−$122.3B**, ~3x the figure this thread has been quoting. Against that: **Belgium hit an all-time series high ($482.5B) on +$17.56B of buying**, which under my own written methodology would read as ~80% custody relabeling — **so I tested the rule instead of applying it, and it failed**: rho(China, Belgium net sales) = **+0.05 over n=41 months**, ~zero on every window, Belgium buying in only **56%** of China-selling months. June's mirror pattern is chance. **ZHA-03 RESOLVED NO** (window expired $17.5B short). Korea **bought** +$2.70B, first net-buying month in five — supports ZHA-12. Wider: foreign **official sold $45.4B while non-official bought $23.2B**. Convergence Matrix **~28/60** (+2: vector 1 re-armed 4→5, vector 3 cut 3→2 on the falsified proxy).
 
 ---
 
-## 📌 AUG 21 — **JUNE TIC: the threshold broke, and the interpretation instrument broke with it**
+## 📌 AUG 21 — **JUNE TIC: the threshold broke, and two of my own instruments broke with it**
 
-**Source:** Treasury TIC Table 5 + Table 3, direct ZHAO pull, retrieved 2026-08-21 (curl w/ UA header — `ticdata.treasury.gov` 403s bare; recipe from HANS 7/16). ⚠️ The *release date* (~8/18 on the standard calendar) is **PUBLIC-AND-UNFETCHED** — the press release was not retrieved; the data files are the primary and carry a complete `2026-06` column. KB-ZHAO-119..124.
+**Full detail → `reports/2026-08-21_JUNE_TIC_SESSION.md`** *(moved out 8/21 for the byte cap — findings are LIVE, not archived)*. Permanent record: **KB-ZHAO-119..127**, **VX-ZHAO-1.09/1.10**. Source: Treasury TIC Tables 1/3/5, direct ZHAO pull, retrieved 2026-08-21.
 
-### 1. 🔴 China broke $650B — and the composition is what matters
-
-| | May | June | Δ |
-|---|---|---|---|
-| Holdings | $659.3B | **$633.4B** | **−$25.9B** |
-| Total net sales (reported flow) | +$5.95B | **−$21.96B** | swing −$27.9B |
-| — LT / coupon | −$0.13B (flat) | **−$15.77B** | **duration sold** |
-| — ST / bills | +$6.08B | −$6.19B | |
-| LT valuation | +$1.71B | −$5.47B | |
-
-**~85% of the level drop is transacted, ~15% price.** May's rebound was bills with coupon flat; **June is the first month this cycle China sold duration in size.** $633.4B is the **series low, rank 1 of 78 months** (2020-01 on). The −$21.96B sale is the **4th most-negative of 41 months** with flow data — large, **not unprecedented** (Mar-26 −$34.5B was bigger).
-
-> **ZHA-04 RESOLVED YES / FIRED at 42% confidence**, in-window (Q2-Q3 2026). I had cut this twice, 65%→30%→42%, because Mar and Apr stalled $1-3B above the line and May reversed. The cuts were reasonable and the hit was not lucky — the breach came with a composition change the prior near-misses lacked.
->
-> ⚠️ **The "18-year low" framing carried in prior STATUS text is INHERITED and NOT re-verified** — this pull spans 2020-01 only. Certify **"lowest since at least Jan 2020"** until sourced further back.
-
-### 2. 🔴 The trailing-12-month number is ~3x what this thread has been quoting — and levels *understate* it
-
-China TTM net sales **Jul-2025 → Jun-2026 = −$122.3B**, against a level change of only **−$98.0B** ($731.4B → $633.4B). **Valuation added ~$24.3B back over the year, so reading levels understates China's annual selling by ~25%.**
-
-> ⚠️ **The direction of the level-vs-flow bias INVERTS with horizon** — on June alone valuation *flattered* the decline (−$25.9B level vs −$21.96B sold); over the TTM it *masked* it. One month and one year point opposite ways, which is exactly how a level-only reader gets confidently wrong.
->
-> ⚠️ **This corrects a figure embedded in the Will-approved KB-ZHAO-102 reframe**, which contrasts China's ~$300B Agency holdings against *"the ~$40B Treasury decline this thread has tracked."* That $40B was the **Feb-Apr window**, not the annual run-rate. **The reframe's logic survives intact** — Agency rotation and off-SAFE state channels are still untested, so this remains a *SAFE-reported Treasury-line reduction*, not demonstrated de-dollarization. But the magnitude it contrasts against was understated ~3x, which means the Agency-rotation explanation has to carry **more** weight to stay sufficient, not less. ✅ **WILL-RULED 8/21 in-session (*"Do the reframe fix"*) — executed. See §3b: the datum is out of canon and the rotation mechanism is struck.**
->
-> ⚠️ **Self-correction on the record:** I first wrote −$46.4B into VX-ZHAO-1.03 as an asserted figure without running the sum, then computed it. Wrong for one edit cycle, corrected in KB-ZHAO-124.
-
-### 3. 🔴 **I tested my own Belgium-proxy rule against the data and it failed**
-
-Belgium printed **$482.5B — an all-time high of the 78-month series** (rank 78/78), on **+$17.56B of genuine net buying** (4th largest of 41 months), with valuation working *against* it (−$5.87B LT). Three straight monthly rises: 454.0 → 459.9 → 472.0 → 482.5.
-
-My `CLAUDE.md` §BELGIUM PROXY METHODOLOGY says, as a flat rule: *"Belgium rising while China TIC falls = custody migration to offshore, NOT a reduction. Net neutral."* **June is exactly that pattern** (China −$21.96B, Belgium +$17.56B, net −$4.4B) and the rule would have me report ~80% of China's sale as relabeling.
-
-**Tested instead of applied:**
-
-| Window | rho(China net sales, Belgium net sales) | LT-only |
+| # | Finding | Record |
 |---|---|---|
-| Full, n=41 (2023-02→2026-06) | **+0.050** | +0.055 |
-| Last 12m | −0.040 | −0.102 |
-| Last 24m | +0.023 | −0.023 |
-| Last 36m | +0.005 | +0.004 |
+| 1 | 🔴 **China $633.4B — $650B BREACHED**, −$25.9B MoM, **series low of 78 months**. **Genuine selling**: net −$21.96B, of which **LT/coupon −$15.77B** — first duration selling this cycle (May was bills, coupon flat). ~85% transacted. **ZHA-04 RESOLVED YES/FIRED at 42%** | KB-119 · VX-1.02 |
+| 2 | 🔴 **TTM −$122.3B** (all Treasuries) / **−$91.3B** (coupons) — reconcile to the dollar. **Level change only −$98.0B ⇒ valuation MASKS ~25% of the annual selling.** ~3x the "~$40B" that was in canon | KB-124 · VX-1.03 |
+| 3 | 🔴 **BELGIUM PROXY FALSIFIED.** Belgium hit an **all-time series high $482.5B** on +$17.56B bought — the textbook migration signature. Tested instead of applied: **rho = +0.05, n=41**, ~zero every window; Belgium buys in only **56%** of China-selling months. **June's mirror is chance.** *(Limit: refutes systematic monthly mirroring, not an episodic channel.)* **ZHA-03 RESOLVED NO** | KB-120/121 · VX-1.09 |
+| 3b | 🔴 **AGENCY ROTATION REFUTED** — the reframe's own primary mechanism. Rotation needs Agency to RISE; it **fell $179.9B→$142.0B** (−$37.9B TTM, −$40.3B sold), rho −0.025. **June sold both.** Doctrine survives on **valuation** (~$107.3B appreciation vs $118.9B sold) — *true on the stock, false on the flow, and it reverses if markets stop rising* | KB-127 · VX-1.10 |
+| 4 | 🟠 **Official −$45.4B vs non-official +$23.2B** — private bid absorbing official supply. ⚠️ **Aggregate is a trap: holdings fell $72.1B but only $22.3B was sold** — quoting the level as selling overstates ~3x | KB-122 |
+| 5 | 🟡 **Korea BOUGHT +$2.70B**, first net-buying month in 5 — anchors DIVERGED; supports ZHA-12. Japan's −$26.86B is **bills not duration** (SAM's) | KB-123 |
+| 6 | ⚠️ **ZHA-11's registered arbiter was the wrong dataset** — a 9-July auction cannot be tested by June flows. Correct: **July TIC ~9/16** | PREDICTIONS |
 
-**Every window is indistinguishable from zero. None is materially negative — which is what a custody mirror requires.** Base rate: of the **27 months China was a net seller, Belgium was a net buyer in 15 (56%)** — a coin flip. June's pattern is further explained by both legs simply being large this month: China's sale ranks 4th most-negative of 41, Belgium's buy 4th largest of 41. Two big independent moves in opposite directions look like a mirror and aren't one.
-
-> **This is the mirror-image of the Will-approved 7/16 reframe, and completes it.** 7/16 established that *"Belgium flat while China falls"* does not prove genuine exit. This establishes that **"Belgium up while China falls" does not prove custody migration.** Both arms of the rule were over-claiming.
->
-> ⚠️ **Honest limit:** this refutes *systematic monthly mirroring*, **not** the existence of an episodic migration channel — lumpy real events would be diluted by a full-sample correlation. The operational claim is the narrow one: **a single month's China-down/Belgium-up cannot be read as migration, because that pattern occurs at chance frequency.**
->
-> ⚠️ The rule has been applied as if deterministic for ~5 months and **was never base-rated.** New instrument registered: **VX-ZHAO-1.09** (rho, with bands for when the proxy would become usable again: rho < −0.5 ORANGE, < −0.7 RED). **ZHAO owns `CLAUDE.md` and will rewrite §BELGIUM PROXY METHODOLOGY from identities to probabilistic language.** Flagged to PROME because **HANS and LIQUID both consume this proxy.**
-
-### 3b. 🔴 **I tested the reframe's own mechanism too — Treasury→Agency rotation is REFUTED**
-
-Will asked how to fix the ~$40B magnitude error inside the Will-approved KB-ZHAO-102 reframe. Chasing the number surfaced something larger: **the reframe's primary MECHANISM can be tested directly, and it fails.**
-
-The reframe explains the falling SAFE Treasury line as *"more likely Treasury→Agency rotation or entity-shifting."* **Rotation predicts Agency holdings RISE as Treasuries fall.** TIC Table 1 carries Agency flows by country, so this is measurable:
-
-| China, TTM Jul-25 → Jun-26 | Net sales ($M) |
-|---|---|
-| Treasuries (LT) | **−91,269** |
-| **Agency bonds** | **−40,305 — SOLD, not bought** |
-| Corp. bonds | +398 |
-| Equities | +12,242 |
-| **All LT US securities** | **−118,934** |
-
-Agency **holdings** went $179.9B (Jul-25) → **$142.0B** (Jun-26) = **−$37.9B over 12 months.** rho(Treasury net sales, Agency net sales) = **−0.025 over n=41** — indistinguishable from zero, where rotation needs a materially negative number. June itself: Treasuries −$15.8B **and** Agency −$1.1B, same month. **China sold both.**
-
-> **The reframe's CONCLUSION survives — but on valuation, not on either mechanism it named.** Total LT US-securities holdings moved only **$1,173.2B → $1,161.6B = −$11.6B (−1.0%)** against **−$118.9B sold**: markets added back **~$107.3B**. So *"China's aggregate USD exposure is not meaningfully reduced"* is **true on the stock** — because prices rose, not because China rotated.
->
-> ⚠️ **Mechanism (a) rotation: REFUTED. Mechanism (b) off-SAFE entity-shifting: NOT TESTABLE from TIC** — TIC attributes by custodian/country, not by Chinese owning entity, so intra-China entity shifts don't move this line at all. And the one re-routing channel that *would* be detectable — Belgium custody — was falsified as an instrument in §3 above, the same session.
->
-> ⚠️ **PERIMETER — two correct TTM figures are now in ZHAO's record:** **−$122.3B** = all Treasuries incl. bills (Table 3) · **−$91.3B** = coupons only (Table 1 is a long-term table). They reconcile to the dollar (−91,269 + −31,017 = −122,286). **Cite the perimeter with the number.**
->
-> ⚠️ The reframe's **~$300B Agency figure (CFR/Setser 5/2026) is ~2x the raw TIC Agency line ($142.0B)** — a custodial-adjusted estimate being contrasted against a raw TIC Treasury line, i.e. a perimeter mismatch inside the reframe itself. **The refutation does not depend on that dispute: the DIRECTION of the raw series is wrong for rotation at any level.**
->
-> 🔴 **DOWNSTREAM — LIQUID banked this as one of four independent demand-hole refutations** (`AGENTS/LIQUID/CALENDAR.md`, Jul-16 row: *"demand-hole now refuted 4 ways — auctions · Japan MOF · Korea · China rotation"*). **The China-rotation leg must be withdrawn; the other three are untouched.** Packet owed.
->
-> **ZHAO is NOT editing the Will-approved reframe text.** Recommendation routed to Will — see NEXT ACTIONS. (VX-ZHAO-1.10, KB-ZHAO-127.)
-
-### 4. 🟠 Official sold, private bought — and the aggregate decline is mostly valuation
-
-| Cut | June net sales |
-|---|---|
-| **Foreign Official** | **−$45.40B** |
-| **Foreign Non-Official** | **+$23.15B** |
-| Grand Total | −$22.25B |
-| **Total Asia** | **−$47.19B** (≈ all Japan −$26.86B + China −$21.96B) |
-| Other large sells | France −$20.92B · Hong Kong −$9.33B · Israel −$6.24B |
-| Large buys | Canada +$21.26B · **Belgium +$17.56B** · Caribbean +$9.87B · Thailand +$7.41B |
-
-Official **holdings** fell $3,848.0B → $3,778.1B (−$69.9B) against −$45.4B sold — **~35% of the official decline was price.** For the Grand Total the gap is far wider ($9,371.1B → $9,299.0B = −$72.1B level vs −$22.3B sold): **the aggregate June decline is majority valuation.**
-
-> ⚠️ **Anyone quoting "foreign holdings fell $72B in June" as selling overstates it ~3x.** China is the exception — its drop is ~85% transacted. A level-only read of this release lands badly wrong on the aggregate and roughly right on China, by luck.
->
-> **Not mine, routed:** **Japan's −$26.86B is almost entirely BILLS** (ST −$23.11B, LT only −$3.75B) — a roll-off, not duration selling, and the second such month (May ST −$59.79B) → **SAM**. **France −$20.92B** → **HANS**. The **official/non-official divergence** is the demand-hole-relevant cut → **LIQUID**: the private bid is absorbing official supply, a different market structure from "nobody is buying."
-
-### 5. 🟡 Korea bought — first net-buying month in five
-
-Korea **+$2.70B** (LT +$0.39B flat, ST/bills +$2.31B), $132.3B → $134.7B. Breaks a Feb-May seller streak (−$1.4/−$1.9/−$1.2/−$2.3B). Grades **NEUTRAL on the buying side** of ZHA-13's ±$5B band. **This is the post-hike test ZHA-13's own note called for** and it **supports ZHA-12 (80%)**: Korea stopped selling in the same month the won strengthened — the rate lever is doing the defense work, not reserve liquidation. USD/KRW live **1,385.70**. ⚠️ Scope caveat unchanged (VX-ZHAO-2.07): Table 3 is all-residents, no official/private split. **ZHA-13 stays RESOLVED on the May print — this is context, not a re-grade.**
-
-### 6. ⚠️ ZHA-11's registered arbiter was the wrong dataset
-
-STATUS's CALENDAR and NEXT ACTIONS both named **June TIC** as a ZHA-11 arbiter. **It cannot be.** ZHA-11 is about participation in the **9 July 2026** 30Y auction; June TIC covers flows **through 30 June** and predates the event entirely. **Correct arbiter: the July TIC print, ~16 September 2026.** ZHA-11 was already graded SURVIVES on 7/16 within its registered "pre-TIC 7/16" window; June changes nothing. Recorded because a resolver was pointed at a dataset that structurally cannot answer it.
+⚠️ **Q2 China total −$14.8B — the 🔴 >$50B/quarter route to LIQUID did NOT fire.** Only the 🟠 <$650B route did.
+⚠️ **"18-year low" is INHERITED and unverified** — certify only **"lowest since at least Jan 2020"** (this pull spans 2020-01 on).
 
 ---
 
@@ -193,7 +104,9 @@ STATUS's CALENDAR and NEXT ACTIONS both named **June TIC** as a ZHA-11 arbiter. 
 | 10 | Gulf Recycling | 🟡 2 | Revenue recovering with oil exports; acute collapse over. | **BRENT/HAWK-owned, Jul 4** (not re-verified since) |
 | 11 | Gulf Infra Destruction | 🟡 2 | Rebuild underway; capacity recovering. | **BRENT/HAWK-owned, Jul 4** (not re-verified since) |
 
-**Total: ~27/60 — 🟠 ELEVATED** *(8/21: vector 1 re-armed 4→5 on the $650B breach; vector 3 cut 3→2 on the falsified proxy; **vector 2 Korea cut 2→1 on the fired tripwire**. Net +1.)*
+**Total: 28/60 — 🟠 ELEVATED** *(computed FROM the rows 2026-08-21, not hand-carried: 5+1+2+2+4+4+1+1+3+1+2+2 = 28 across 12 vectors × 5.)*
+
+> ⚠️ **THE TOTAL HAD BEEN HAND-CARRIED AND WRONG FOR AT LEAST TWO SESSIONS (PROME audit O10).** Three figures disagreed on this page today — header "~28/60 (+2)", total line "~27/60", and the three listed moves netting **−1**. Reconstructed: **8/3's rows actually summed to 29**, not the "~26/60" that session published. Today's moves (v1 4→5, v2 2→1, v3 3→2) net **−1**, so 29 − 1 = **28** ✓ — which matches the row sum exactly. **The deltas were always right; the carried TOTAL was wrong by 3, and each session's stated "+N" was computed against a bad base.** `[[finding_loadbearing_number_must_be_reproducible]]` — **sum the rows every closeout and show the arithmetic; never carry the total forward.**
 
 > **8/21 addendum:** the +2 again understates a rotation. **Vector 1 is now the live one** and it re-armed on hard *flow* data, not a level. **Vector 3's cut is a measurement failure, not an all-clear** — read it as *instrument down*, because scoring a vector low for the wrong reason is exactly how a custody channel would hide. Prior 8/3 note follows.
 
@@ -264,9 +177,9 @@ STATUS's CALENDAR and NEXT ACTIONS both named **June TIC** as a ZHA-11 arbiter. 
 | ZHA-02 | 10Y rises on risk-off | — | ✅ CONFIRMED (Mar) |
 | ZHA-03 | Belgium >$500B | 25% | ❌ **RESOLVED NO 8/21** — Q1-Q2 window closed; peak in-window $482.5B (Jun), **$17.5B short**. FALSE at 25% = well-calibrated miss. ⚠️ **Trajectory disagrees with the grade**: series-record high, 3 straight rises, +$17.56B bought. **Recommend re-registering for H2 — but NOT on the custody-migration story, which is falsified** (KB-ZHAO-120/121) |
 | ZHA-04 | China <$650B | **42%** | ✅ **RESOLVED YES — FIRED 8/21.** June **$633.4B**, breaches by $16.6B, in-window (Q2). Series low of 78 months. **Genuine selling**: net −$21.96B, LT/coupon −$15.77B. TRUE at 42% after two cuts — the near-misses (Mar/Apr) lacked this composition change (KB-ZHAO-119) |
-| ZHA-05 | Regional NPL >12% | 50% | OPEN — Guizhou 11.6% (stale) |
-| ZHA-06 | >250 small banks consolidated | 60% | OPEN |
-| ZHA-07 | Liquidity crunch forcing UST sales | 60% | OPEN |
+| ZHA-05 | Regional NPL >12% | 55% | OPEN — Guizhou 11.6% (stale) |
+| ZHA-06 | >250 small banks consolidated | 72% ↑ | OPEN |
+| ZHA-07 | Liquidity crunch forcing UST sales | 70% ↑ | OPEN |
 | ZHA-08 | Gulf recycling >$50B/qtr | — | ❌ FALSIFIED — Hormuz reopened, exports 90%+, Brent $72 |
 | ZHA-09 | Saudi TIC <$120B by Jun 2026 | 10% ↓ | ❌ LIKELY MISSED — Saudi ~$148.8B, oil recovered |
 | ZHA-10 | Yuan oil settlement >$5B cumulative | 40% | OPEN |
@@ -307,23 +220,17 @@ STATUS's CALENDAR and NEXT ACTIONS both named **June TIC** as a ZHA-11 arbiter. 
 
 ## BOTTOM LINE
 
-**AUG 21 — the threshold I have tracked for five months broke, and on the same print the instrument I use to interpret it failed.**
+**AUG 21 — the threshold I have tracked for five months broke, and on the same day two of my own interpretation instruments broke with it.**
 
-**China's SAFE-reported Treasury line fell to $633.4B**, breaching the $650B line by $16.6B after two near-misses held and May rebounded. This is not a valuation artifact: **China sold $21.96B, of which $15.77B was coupons** — the first month this cycle it sold *duration* in size, where May's rebound was bills with the coupon leg flat. It is the lowest reading in the 78-month series. **ZHA-04 fired at 42% confidence**, a prediction I had cut twice; the cuts were right about the near-misses and the breach came with a composition change those lacked. Zooming out makes it larger, not smaller: **trailing-12-month net sales are −$122.3B against a level change of only −$98.0B**, so valuation has been *masking* about a quarter of the annual selling. That figure is ~3x the "~$40B decline" this thread has been quoting.
+**China sold $21.96B of Treasuries in June, $15.77B of it coupons** — the first month this cycle it sold *duration* — taking the SAFE-reported line to **$633.4B**, a 78-month low and the first breach of $650B after two near-misses held. **ZHA-04 fired at 42%**, a prediction I had cut twice. Zooming out makes it larger: **TTM −$122.3B against a level change of only −$98.0B**, so valuation has been *masking* about a quarter of the annual selling.
 
-**But the interesting half of the session is that I could have written a much cleaner story and it would have been wrong.** Belgium printed an all-time series high of $482.5B on $17.56B of genuine buying. My own `CLAUDE.md` says, flatly, that Belgium rising while China falls means custody migration and a net-neutral true position — which would have let me report ~80% of China's sale as relabeling. **I tested the rule rather than applying it. rho(China, Belgium net sales) = +0.05 over 41 months, indistinguishable from zero on every window I tried, and Belgium buys in only 56% of the months China sells — a coin flip.** June's textbook mirror pattern is two large independent moves that happened to point opposite ways. The rule has been applied as if deterministic for ~5 months and was never base-rated. **I am marking my own methodology wrong rather than reporting the tidier finding it would have produced.**
+**The more useful half is that I could have written a much cleaner story and it would have been wrong — twice.** Belgium printed an all-time high on $17.56B of buying, and my own methodology said that means custody migration and a net-neutral true position. **rho = +0.05 over 41 months; Belgium buys in 56% of the months China sells.** Then, chasing a magnitude error in the reframe, I tested its primary mechanism: Treasury→Agency rotation requires Agency holdings to rise, and **they fell $37.9B.** Both rules had been applied for months and **neither had ever been base-rated.**
 
-**What that leaves me with, honestly stated:** China is genuinely selling Treasuries, in size, in duration, and has been for a year. **I cannot currently tell you where the money went** — the Belgium channel can't answer it, Agency rotation and off-SAFE state channels remain untested, and the Will-approved KB-ZHAO-102 reframe stands: this is a *SAFE-reported Treasury-line reduction*, not demonstrated de-dollarization. The custodial-arbitrage vector is scored down to 2 because it *cannot be measured*, not because it is benign — and a vector scored low for the wrong reason is precisely how a custody channel would hide.
+**What that leaves, stated honestly: China is genuinely selling Treasuries, in size and in duration, and I cannot tell you where the money went.** The Belgium channel can't answer it, rotation is refuted, off-SAFE entity-shifting is untestable from TIC country lines. The Will-approved doctrine still holds — this is a *SAFE-reported Treasury-line reduction*, not demonstrated de-dollarization — **but it now rests on valuation** (~$107.3B of appreciation offsetting $118.9B of sales), which is *true on the stock, false on the flow*, and **reverses if markets stop rising.** The custodial vector is scored 2 because it **cannot be measured**, not because it is benign — and a vector scored low for the wrong reason is exactly how a custody channel would hide.
 
-**The wider print cuts against a simple demand-hole read.** Foreign official sold $45.4B in June; foreign non-official **bought $23.2B**. The private bid is absorbing official supply — a different market structure from "nobody is buying," and the distinction is LIQUID's to price. And the aggregate is a trap: total foreign holdings fell $72.1B but only $22.3B was sold, so **anyone quoting the level as selling overstates it ~3x.** China is the exception that makes the rule dangerous — its drop *is* ~85% real, so a level-only reader gets the aggregate badly wrong and China roughly right, by luck.
+**The wider print cuts against a simple demand-hole read.** Foreign official sold $45.4B; foreign non-official **bought $23.2B**. The private bid is absorbing official supply — a different market structure from "nobody is buying," and LIQUID's to price. **Korea went the other way** (+$2.70B, first net-buying month in five, won at 1,385, tripwire fired 8/12): the two Asian anchors have diverged, and the BoK's rate lever — not reserve liquidation — is doing Korea's work.
 
-**Korea went the other way and that matters:** +$2.70B bought, the first net-buying month in five, in the same month the won ran to 1,385. That is the post-hike test ZHA-13 asked for, and it supports ZHA-12 — the rate lever is doing Korea's defense work, not reserve liquidation. **The two Asian anchors have diverged.**
-
-**A late addition that matters more than the arithmetic.** Will asked how to repair the ~$40B magnitude error sitting inside the Will-approved reframe. Chasing it turned up something bigger: **the reframe's primary mechanism is testable, and it fails.** The reframe explains China's falling Treasury line as *Treasury→Agency rotation*. Rotation requires Agency holdings to rise as Treasuries fall. **China's Agency holdings fell $37.9B over the same twelve months, and it sold both in June.** The correlation between the two flow series is −0.025 — zero. **So today I falsified two of my own interpretation instruments, not one:** the Belgium proxy in the morning and the rotation mechanism in the afternoon, both by testing a rule I had been applying rather than continuing to apply it.
-
-**The reframe's conclusion still stands, and I want to be precise about why.** China's total US long-term securities holdings are down only 1.0% over the year — but that is because markets appreciated ~$107.3B against $118.9B of net selling. *"Aggregate exposure roughly unchanged"* is true on the stock and false on the flow, and the thing holding it up is price, not portfolio construction. **That is a materially weaker support than the reframe claimed, and it is contingent on markets continuing to rise.**
-
-**What would change my mind:** if July TIC (~Sep 16) shows China's coupon selling stopping, June was a one-month portfolio event and the $650B breach is a level, not a trend. If it continues at −$15B/month in duration while foreign official keeps selling and the private bid stops absorbing, the demand-hole thread re-opens on hard flow evidence for the first time since spring. **Before then, Aug 31's PMI is the bigger read** — a second sub-50 composite turns July's break into a thesis.
+**What would change my mind:** if **July TIC (~Sep 16)** shows coupon selling stopping (LT ≥ −$5B), June was a one-month portfolio event and the breach is a level, not a trend. Continuing at ≈−$15B/month while official keeps selling and the private bid stops absorbing re-opens the demand-hole thread on hard flow evidence for the first time since spring. **Before then, Aug 31's PMI is the bigger read** — a second sub-50 composite turns July's break into a thesis.
 
 ---
 
