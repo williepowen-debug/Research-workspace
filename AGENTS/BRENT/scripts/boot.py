@@ -60,9 +60,22 @@ BOOT_SEQUENCE = [
     # written, not an override of it.
     #
     # WHAT IT BUYS: the two-clock PAT-044 header ("Last real data refresh:") had NO READER on
-    # this desk after the retirement. That is the measured root cause of TRADE.md:3 carrying an
-    # 8/10 stamp over an 8/14 body -- the THIRD instance of that class, flagged by DAEDALUS
-    # 7/28, 8/16 and 8/17. A stamp nothing reads is a comment.
+    # this desk after the retirement. A stamp nothing reads is a comment.
+    #
+    # ⛔⛔ CORRECTED 2026-08-21 (file audit, Will-directed). This comment previously claimed the
+    # wiring was "the measured root cause of TRADE.md:3 carrying an 8/10 stamp over an 8/14 body
+    # -- the THIRD instance of that class." THAT WAS FALSE WHEN WRITTEN. workbook/LEDGER_GLOB
+    # deliberately scoped to TSV ledgers + board_log (Will-approved at the glob header), so
+    # TRADE.md -- markdown -- was NEVER in the scanned set and this wiring never bought it a
+    # reader. Measured cost: boot rendered "Ledger Staleness OK" at 09:41 on 8/21 while
+    # TRADE.md:3 sat ELEVEN DAYS stale carrying USO $125.92 / Brent $87.85 against a live
+    # $134.53 / $94.24.  [[finding_instrument_reports_clean_against_the_wrong_reference]]
+    #
+    # ★ AND THE REASON IT NEEDED A SEPARATE FIX HERE: the identical false sentence was corrected
+    # in AGENTS/BRENT/CLAUDE.md at 11:07 today (commit 108c61b4c) and NOT here, four hours
+    # earlier in the same file tree. A correction that lands on the doc and not on the code
+    # leaves the code stating the retracted claim to every future reader.
+    # [[finding_record_of_an_action_is_not_the_action]]
     #
     # ⚠️ PRECONDITION, and it mattered: the script's DEFAULT glob is workbook/*.tsv, which sees
     # 6 files here and MISSES board_log / CATALYSTS / INCIDENTS -- i.e. all three ledgers that
@@ -70,6 +83,33 @@ BOOT_SEQUENCE = [
     # because it is not looking. workbook/LEDGER_GLOB now declares the real set (9 ledgers,
     # verified by running it, not by reading it).
     ("Ledger Staleness",      "scripts/ledger_staleness.py", ["BRENT"], False),
+
+    # ⚑ ADDED 2026-08-21 (file audit, Will-directed "fix all"). EXTENDS the age check above;
+    # supersedes: none. Retirement ratchet satisfied -- this is a second READING of an already
+    # wired script, not a second script.
+    #
+    # THE DEFECT IT FIXES: on 2026-08-21 boot rendered "Ledger Staleness OK" while INCIDENTS.tsv
+    # was +7d and REGISTRY.tsv +3d behind STATUS. Both are real; neither surfaced. Cause is that
+    # boot invokes the age check with NO --days, so it runs on the script's INHERITED default of
+    # 30 -- a number with no BRENT base rate behind it.
+    # [[finding_inherited_default_threshold_is_a_silent_decision]]
+    #
+    # ⛔ WHY THE FIX IS NOT "SET --days TO SOMETHING": picking a number without a base rate is
+    # the un-base-rated threshold L21/L22 forbid, and I would be inventing it under time pressure
+    # on audit day. DAEDALUS confirmed 2026-08-21 that per-glob-entry --days is deliberately
+    # queued into the Staleness #4 ~9/1 manifest design, and that the labelled-INERT interim
+    # state is correct. So the age row KEEPS the inherited 30 -- now DECLARED here rather than
+    # silent, which is the half of the defect that was actually mine to fix.
+    #
+    # ✅ WHY --nudge IS THE RIGHT SECOND READER: it is THRESHOLDLESS. It counts STATUS-writes a
+    # ledger is behind, so it invents no constant and cannot rot. It already existed and was
+    # wired ONLY at closeout -- i.e. it fired where the gap is DISCOVERED, never where a session
+    # would still have time to act on it.
+    #
+    # ⚠️ FALSIFY, DON'T JUST RUN (standing rule): verified 2026-08-21 that the age row alone
+    # renders OK on today's tree while --nudge reports "2 ledger(s) behind" -- so this line
+    # changes boot's verdict TODAY, on real state, rather than being a no-op that looks prudent.
+    ("Ledger Nudge",          "scripts/ledger_staleness.py", ["--nudge", "BRENT"], False),
 ]
 
 
@@ -96,7 +136,22 @@ BOOT_SEQUENCE = [
 # asserting an OPEN gate is a claim, and reading it never re-evaluates it.
 # ⇒ Do NOT unwire this as a BRENT-local hack; the fleet standard now has this shape.
 FINDINGS_MARKERS = {
-    "scripts/ledger_staleness.py": ("STALE", "MISCONFIGURED", "LEDGERS-OUTSIDE-GLOB"),
+    # ⚑ "behind" added 2026-08-21 for the --nudge reading wired above -- as DEFENSE-IN-DEPTH,
+    # not as the load-bearing mechanism.
+    #
+    # ⛔ SELF-CORRECTION, SAME SESSION, WORTH KEEPING: this comment first asserted that --nudge
+    # "exits 0 whether or not it finds ledgers behind", which is why the marker was needed.
+    # THEN I RAN IT: --nudge returns rc=1 when ledgers are behind and rc=2 on a bad agent dir --
+    # i.e. it already honours the revised 2026-08-17 exit contract, and FINDINGS_RCS below
+    # ALREADY maps 1 and 2 to FINDINGS. The marker is redundant with the rc path, not load-bearing.
+    # ★ I wrote a mechanism claim from the sibling invocation's known behaviour instead of from
+    # this one's, in a comment whose whole subject is "verified by running it, not reading it",
+    # during an audit of exactly that class. Kept visible rather than quietly reworded.
+    # [[finding_test_the_guard_not_just_the_guarded]] · [[finding_verify_recommended_fix_not_just_finding]]
+    #
+    # The marker STAYS: it only ever upgrades OK -> FINDINGS, and it keeps the wrapper channel
+    # authoritative if the shared script's rc contract is ever revised again (it has been once).
+    "scripts/ledger_staleness.py": ("STALE", "MISCONFIGURED", "LEDGERS-OUTSIDE-GLOB", "behind"),
 }
 
 # rc values meaning "ran correctly, reported real problems" for scripts whose contract

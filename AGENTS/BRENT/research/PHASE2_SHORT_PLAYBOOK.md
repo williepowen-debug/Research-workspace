@@ -1,3 +1,17 @@
+# ⛔⛔ FROZEN 2026-08-21 — HISTORICAL RESEARCH, NOT CURRENT STATE. DO NOT CITE ANY CLAIM BELOW AS LIVE.
+
+> **Written 2026-03-06. Not maintained since. Banner added 2026-08-21 (BRENT file audit, Will-directed).**
+>
+> ⚠️ **WHY THIS BANNER WAS NEEDED AND WHY IT IS THE DANGEROUS CLASS: this document is written entirely in the PRESENT TENSE about a market state 5½ months gone** — *"The global crude oil market is **currently** navigating… **definitively placing** the macroeconomic environment into what is classified as Phase 1."* **A stale file that says "as of March" is self-limiting. A stale file that says "currently" re-asserts itself as true to every reader, forever.** `[[finding_a_teaching_surface_ages_like_data]]`
+>
+> ⛔ **ITS CENTRAL RECOMMENDATION IS SUPERSEDED AND POINTS THE WRONG WAY FOR THE CURRENT BOOK.** This playbook builds the case for **USO PUTS** on a Phase-1→Phase-2 rotation. **`thesis/THESIS.md` v5.0 RETIRED the Phase-2-short bias outright** (*"Phase-2-short bias RETIRED; no flat-price length EITHER WAY"*), and the live book is **long** oil (35 USO shares + call structures). **Acting on this file today would put on a position the thesis has explicitly retired.**
+>
+> ✅ **WHAT IS STILL WORTH READING:** the *mechanism* discussion of how acute geopolitical supply shocks decay into demand destruction — that is the ancestor of the two-phase thesis and it is intact as REASONING. **The levels, the confidence statements, the strike selection and every "currently" are dead.**
+>
+> **Canonical live surfaces:** `thesis/THESIS.md` (conviction) · `STATUS.md` (levels) · `TRADE.md` (positions and trade plans) · `docket/CATALYSTS.tsv` (forward state).
+
+---
+
 Phase 2 Short Setup: Options Strategy for USO Puts and the Phase 1-to-2 Rotation Playbook
 Executive Summary and Macroeconomic Context
 The global crude oil market is currently navigating an acute, geopolitically driven supply shock, definitively placing the macroeconomic environment into what is classified as Phase 1. Driven by the severe escalation of military hostilities and the subsequent restriction of maritime traffic through the Strait of Hormuz, Brent crude has violently breached the $90 per barrel threshold.1 This primary artery of global energy trade normally facilitates the transit of approximately 21 million barrels of crude and refined petroleum products daily, representing nearly 21% of total global petroleum trade and 95% of Persian Gulf crude exports.2 The market reaction to this restriction has been characterized by panic-driven hoarding of physical barrels by Asian and European refiners, resulting in extreme logistical bottlenecks, the stranding of hundreds of vessels, and a historic surge in war-risk insurance premiums.3 These acute dynamics have manifested financially in steep backwardation across the futures curve, multi-year highs in implied volatility for upside call options, and peak freight rates for Very Large Crude Carriers (VLCCs).4

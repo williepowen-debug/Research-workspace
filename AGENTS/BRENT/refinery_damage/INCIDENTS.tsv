@@ -1,3 +1,12 @@
+# ⛔⛔ READ FIRST — 'ACTIVE' IN THIS LEDGER IS NOT A VERIFIED PRESENT-TENSE CLAIM AS OF 2026-08-21.
+#   17 of the ACTIVE rows are PAST their own 60-day re-verify budget. Worst: RF-004 South Pars/Asaluyeh (last verified 2026-03-19, 155d);
+#   RF-005 Bazan/Haifa 154d · RF-009 Kirishi 148d · RF-013 Ufa 141d · RF-014 Mina Al-Ahmadi 140d · RF-015 Ruwais 138d · RF-016 Habshan 138d · RF-017 Nizhny Novgorod 138d (+9 more; boot's instrument_check enumerates them every session).
+#   ⇒ FOR THOSE ROWS, 'ACTIVE' MEANS 'WAS ACTIVE WHEN LAST VERIFIED, AND NOBODY HAS LOOKED SINCE'. It does NOT mean 'confirmed still offline today'.
+#   ⚠️ THE ERROR THIS PREVENTS IS DIRECTIONAL: an un-re-verified ACTIVE row OVERSTATES offline capacity, i.e. it biases toward the supply-loss / bullish side of BRENT's own thesis. Do not sum bpd_offline_est across ACTIVE rows and quote it as current outage.
+#   ⛔ DELIBERATELY NOT FIXED BY DOWNGRADING ON A TIMER: a row moved to RESTARTED because a clock expired would FABRICATE a restart nobody observed, which is worse than a stale ACTIVE. Re-verification requires operator statements / primaries, per facility.
+#   ⇒ DISCLOSURE ADDED 2026-08-21 (BRENT file audit, Will-directed). The re-verification backlog is REAL WORK STILL OWED and is registered as such — this header makes the boundary visible to a reader; it does not close it.
+#   ⚠️ SEPARATELY, COVERAGE IS KNOWN-INCOMPLETE AND IS NOW TWO EVENTS WIDE: the 8/11-12 Novorossiysk/Sheskharis event and the 8/14 recurrence are NOT logged. Absence of a row here is NOT evidence no strike occurred.
+#   ✅ NOT A GAP: vessels in transit (MINOAN DIGNITY, AMARA, SKIROS, SIBU 1, et al.) are OUT by the 2026-08-07 scope ruling below and live in HAWK's cross-theater STRIKES.tsv. Routed, not forked.
 # SCOPE: facility-damage only (named energy infrastructure: refineries, terminals, LNG, petrochem, gas fields, nuclear). Military ops / intercepts / kinetic-without-facility-hit → HAWK domain (LESSONS #3); do NOT log here even if oil-price-relevant.
 # ⚑ SCOPE RULING 2026-08-07 (BRENT, own ledger) — THE FLOATING-ASSET AMBIGUITY, RESOLVED. The header said 'facility-damage only' while RF-043 logs an FSRU, i.e. a SHIP — a self-contradiction flagged for 9 days.
 #   THE DISCRIMINATOR IS NOT 'IS IT A SHIP?' — it is: DOES THE DAMAGED OBJECT PERFORM A FIXED TERMINAL FUNCTION WHOSE LOSS REMOVES THROUGHPUT CAPACITY AT A NAMED LOCATION?

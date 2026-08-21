@@ -1,6 +1,24 @@
 # HORMUZ TRANSIT BASELINE — canonical denominator convention
-**Owner:** BRENT · **Created:** 2026-07-17 (FALCON ask: pin the denominator so BRENT and FALCON count the same way)
-**Consumers:** FALCON (`domain/FRESH_LEG_BASELINE.md` row 2), `AGENTS/FALCON/scripts/hormuz_transit_watch.py`, BRENT STATUS/NEXUS_BRIEF
+
+> # ⛔⛔ **COVERAGE-IMPEACHED 2026-08-17 — READ THIS BEFORE USING ANY NUMBER BELOW. BANNER ADDED 2026-08-21 (BRENT file audit, Will-directed).**
+>
+> **The underlying IMF PortWatch `chokepoint6` series is impeached for UNDERCOUNT, on BRENT's own internal evidence — no external source required:** `n_tanker > 0` **AND** `capacity_tanker = 0` on **0 of 424 pre-crisis days (0.0%)** vs **19 of 113 war tanker-days (16.8%)** `[CONF, own FeatureServer count queries 2026-08-17]`. A series cannot report positive hulls and zero tonnage on one day in six and still be read as a magnitude measurement.
+>
+> **External corroboration, one dated day:** 7/31 `capacity_tanker` **282,046 DWT = 12.1%** of the 2.33M DWT/day baseline, against a reported **">8.4M bbl exited the gulf"** *(n=1, unnamed tracker)*, and US Energy Secretary Wright's **"9 mb/d, almost half prewar"** [Bloomberg 8/13]. ⇒ **a ~20× divergence between this series and observed flow.**
+>
+> ⛔ **WHAT THIS COSTS, NAMED: the falsifier `KILL-LEG2-TRANSIT` (fires on >35 transits/day ×2 consecutive) MAY BE STRUCTURALLY UNFIREABLE** — war-regime `n_total` maxes ~8, so a genuine Hormuz reopening could occur and this falsifier never fire. It was already relabelled a POST-HOC CONFIRMER on **latency** (F-4, 2026-08-13); **this is a SECOND and worse COVERAGE defect, and latency was the only axis ever tested** `[[finding_executability_is_a_separate_audit_axis]]`.
+>
+> ⚠️ **THE UNDERCOUNT FACTOR IS NOT QUANTIFIED.** Defect measured · cause hypothesised · magnitude unknown. **No threshold has been moved and the re-scope is WILL-GATED.**
+>
+> ### ✅ WHAT IS STILL SAFE TO USE FROM THIS FILE
+> **The DENOMINATOR CONVENTION and the never-blend rule (§1, §2) STAND** — they are about *which series answers which question*, and that ruling is unaffected. **What is impeached is treating any of these series as a THROUGHPUT MEASUREMENT.**
+> **A NONZERO print still refutes a zero-transit claim** (`[[finding_ais_port_export_darkfleet_blind]]` permits the refuting direction only). **A LOW count is NOT evidence of absence.**
+> ⛔ **§4's "recommended replacement bar" (grade off `capacity_tanker` ≤5%) IS THE IMPEACHED FIELD ITSELF — DO NOT ADOPT IT.** See the strike-through at that section.
+>
+> **Why this banner exists at all:** the impeachment was recorded in `STATUS.md`, in `thesis/THESIS.md` and on the `KILL-LEG2-TRANSIT` row of `workbook/REGISTRY.tsv` on 8/17 — **and not here, in the file two other desks actually read.** `[[finding_retired_threshold_has_no_publisher]]` — **an impeachment is a side effect nothing announces; readers travel against the links.** Consumers notified by packet 2026-08-21.
+
+**Owner:** BRENT · **Created:** 2026-07-17 (FALCON ask: pin the denominator so BRENT and FALCON count the same way) · **Status: COVERAGE-IMPEACHED 2026-08-17, convention intact — see banner.**
+**Consumers:** FALCON (`domain/FRESH_LEG_BASELINE.md` row 2), `AGENTS/FALCON/scripts/hormuz_transit_watch.py`, WALTER (`anchors/IRAN_WAR.md`), BRENT STATUS/NEXUS_BRIEF
 **Source:** IMF PortWatch `Daily_Chokepoints_Data` FeatureServer, `portid='chokepoint6'` (Strait of Hormuz). Derived 2026-07-17 from the full 2024-01-01 → 2026-07-12 series (924 rows) — **not inherited from any secondary citation.**
 
 ---
@@ -53,7 +71,12 @@ Percentiles are against the **pre-crisis daily `n_total` distribution** (2025-01
 
 **A test that fires on 86.6% of days has near-zero discriminating power.** The "sustained sub-18 run 7/8→7/12 (5 days)" cited in BRENT's 7/16 re-arm is the **shortest and shallowest** sub-18 run of the entire crisis — March ran 30 consecutive, May ran 31/31 at a *lower* mean (6.45 vs 11.8).
 
-**Recommended replacement bar (BRENT proposal → FALCON owns the decision on its own file):** grade off **`capacity_tanker` as % of the 2,330,676 DWT/day pre-crisis mean**, with a countable-leg bar at **≤5%** — which has a genuinely discriminating profile (Mar 1.7% / Apr 4.8% / May 4.0% / Jun 13.9% / Jul-MTD 30.2%) *and* measures the thing oil actually cares about (tonnage), not hulls.
+> ## ⛔⛔ **RECOMMENDATION WITHDRAWN 2026-08-17 (banner written 2026-08-21). DO NOT ADOPT — IT NAMES THE IMPEACHED FIELD.**
+> ~~**Recommended replacement bar (BRENT proposal → FALCON owns the decision on its own file):** grade off **`capacity_tanker` as % of the 2,330,676 DWT/day pre-crisis mean**, with a countable-leg bar at **≤5%** — which has a genuinely discriminating profile (Mar 1.7% / Apr 4.8% / May 4.0% / Jun 13.9% / Jul-MTD 30.2%) *and* measures the thing oil actually cares about (tonnage), not hulls.~~
+>
+> **Why it is withdrawn, and it is worse than a stale recommendation:** `capacity_tanker` is **the exact field the 8/17 impeachment is about** — it reads **0 while `n_tanker > 0`** on 16.8% of war tanker-days. **The monthly profile quoted above (Mar 1.7% … Jul-MTD 30.2%) is computed FROM the impeached field**, so its apparent discriminating power is an artefact of the same undercount, not evidence against it. ★ **This recommendation was written 2026-07-17 by the same desk that impeached the field a month later — and it survived the impeachment because the impeachment was filed on other surfaces.** Kept struck rather than deleted: **a withdrawn recommendation that another desk may already have adopted must remain findable.**
+>
+> **What replaces it: NOTHING YET.** A real bar needs an instrument that is not this series, plus base rates and a pre-registered boundary (L21/L22) — **a new registration, never a re-level of this one.** Candidate under evaluation, not registered: **Lloyd's List MIU weekly transit counts** (73 for 8/10–16, down from 91; non-Iranian-linked 43) — ⚠️ **LLI states its own count is biased LOW**, so it inherits a direction-of-error problem too. **Re-scoping `KILL-LEG2-TRANSIT` is a WILL GATE.**
 
 ---
 

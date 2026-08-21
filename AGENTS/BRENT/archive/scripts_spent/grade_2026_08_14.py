@@ -1,5 +1,25 @@
 #!/usr/bin/env python3
-"""ONE-SHOT grader for the 2026-08-14 COT window.
+"""⛔ SPENT ONE-SHOT — ARCHIVED 2026-08-21. DO NOT RUN. DO NOT COPY AS A TEMPLATE.
+
+ARCHIVED from AGENTS/BRENT/scripts/ on 2026-08-21 (BRENT file audit, Will-directed).
+Its window CLOSED on 2026-08-14; the grade it exists to produce was taken that day and
+written to STATUS.md, thesis/PREDICTIONS.tsv and workbook/REGISTRY.tsv. The incumbent
+test it grades (COT-FUEL) is RETIRED; its successor is COT-FUEL-35B.
+
+⛔ RUNNING THIS AGAINST A LATER VINTAGE WOULD RE-GRADE A RETIRED TEST ON THE WRONG WEEK.
+The live path for any COT grade is scripts/cot_grade.py --expect <YYYY-MM-DD>, which
+enforces the freshness gate (exit 3 = release not fresh, WAIT) that this file does not have.
+
+Flagged independently by DAEDALUS 2026-08-17 ("spent one-shot with no banner and no doc
+reference") and left in place for four days -- the flag existed, the move did not.
+[[finding_record_of_an_action_is_not_the_action]]
+
+Kept rather than deleted: it is the executable record of the frozen letter that produced a
+graded verdict, and a grade whose grader is gone cannot be re-checked.
+
+--- original docstring follows ---
+
+ONE-SHOT grader for the 2026-08-14 COT window.
 
 Frozen letter = setups/2026-08-14_COT-friday-card-incumbent-final-grade-then-35b-register.md
 Nothing in here is a free parameter. Every constant below is copied from the card.
