@@ -112,3 +112,20 @@
 ⚠️ **The near-miss:** two packets had already told the fleet distillate was rolling over, and one had passed a derived figure to a third desk. **Had I consumed them without re-deriving on named contracts, THESIS v5.6's distillate-tightness leg would have been written down on an artifact.**
 
 **Promoted fleet-wide** as `[[finding_continuous_front_ticker_rolls_so_deltas_lie]]` — any auto-advancing pointer (front-month, "latest vintage", rolling N-day windows, `LIMIT 1` on a re-keyed series) has this shape: **the identity of what you are measuring changed while the name stayed the same.** Sibling of **L06** (cracks tell the real story) and **L21/L22** (a spec fails on its own terms before it fails on the world).
+
+24. **A PUBLICATION DATE IS NOT AN EVENT DATE — and when a source's WEEKDAY and its DATE disagree, that mismatch is not a typo, it is the DETECTOR firing.**
+
+**n=5, and the fifth was today.** On 2026-08-17 I recorded four instances at once: Bloomberg articles *dated* 8/12 and 8/13 whose own text read *"a satellite image … captured **Tuesday**"* and *"captured **Thursday**"* ⇒ the observations were **8/11 and 8/13**, and I had logged the publication dates across four surfaces. **2026-08-21, the fifth:** I told Will that Trump's *"ECONOMIC D-DAY"* post was **8/20**, sourced to a USA TODAY article. **The post was Wed 2026-08-19 ~19:55 EDT.** 8/20 was the article's publication date.
+
+**★ THE HALF THAT MAKES THIS A LESSON AND NOT JUST A FIFTH REPETITION: I HAD THE DETECTOR IN HAND AND READ IT AS NOISE.** The fetch returned *"Date: August 20, 2026 (**Wednesday**, per article)."* **2026-08-20 is a Thursday.** I noticed, wrote it down as a minor weekday-error aside, and moved on. **The mismatch was not a sloppy article — it was two different dates sitting in one sentence.** The article said "Wednesday" because the **EVENT** was Wednesday 8/19; the number 8/20 was the **PUBLICATION**. The two halves disagreed *because they were describing different things*, which is exactly the information I needed and threw away.
+
+**⇒ THE RULE: a weekday that does not match its date means TWO DATES ARE IN PLAY. Resolve which is which before logging either. In practice the weekday usually names the EVENT and the number usually names the PUBLICATION** — because reporters write "Wednesday" about the thing that happened and the CMS stamps the day it shipped.
+
+**Guards:**
+- **For every dated claim entering a state file, ask the one question: "is this when it HAPPENED, or when it was PRINTED?"** If the source does not distinguish them, the claim carries **two** dates and you must say so.
+- **The most common shape is a systematic +1 day:** an evening-ET post, statement or capture reported the following morning. It is never random and never large — which is why it survives review.
+- **A dateline is publication. A verb tense is the event.** *"Trump said Wednesday"* is an event date; *"August 20, 2026"* at the top of the page is not.
+
+⚠️ **TENSION WITH `[[finding_date_gate_beats_weekday_name]]`, AND IT RESOLVES CLEANLY — THE SAME FIELD GETS OPPOSITE TREATMENT DEPENDING ON WHICH END OF THE PIPE YOU ARE ON.** That finding says to **DROP** the weekday from anything operative, because a day-name you author is a second unchecked assertion that propagates at full confidence. **This lesson says to KEEP the weekday on anything INBOUND**, because a day-name someone *else* wrote is a **free checksum on their own date field.** **Outbound: drop it, you are the author and it can only add error. Inbound: keep it, you are the reader and it can only reveal error.** No contradiction — the field is a liability when you write it and an asset when you read it.
+
+★ **Caught by a subagent sweep, not by me** — the same session in which I corrected two other desks for this exact class. `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`.
