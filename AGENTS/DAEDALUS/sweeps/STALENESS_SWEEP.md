@@ -54,6 +54,10 @@ Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold).
 - Run the **(a)+(c) CANDIDATES pass**: `--all --writes` and `--all --abs-floor` beside the default pass. **CANDIDATES, not defects** (PROME 8/4 item 2 verbatim): a flagged ledger is a prompt for the OWNER to confirm its real cadence — route per-owner notes, never freeze on the writes/abs read alone. Seed context: the 8/4 backlog framing measured ~32 ledgers ≥12 STATUS-writes behind.
 - The (b) nudge is NOT sweep work — it's the per-agent closeout line (root canon, PROME landing it); the sweep only spot-checks that the line exists in root canon by run #4's date.
 
+### 3c. Run #4 SCOPE ADD — Class-10 assertion-row grading leg (registered 2026-08-21, same commit as `STATE_VOCABULARY.md` Class 10 / forum-6 R6 blueprint-encode)
+- **Grep owner coordination ledgers for standing-state rows** (`OWED` / `PENDING` / `NEVER-DELIVERED` and near-forms) and grade each against the Class-10 contract: does the row carry (a) a completion-artifact path-or-pattern and (b) an expiry-or-resolver date? **Violations are CANDIDATES routed per-owner, not defects** — the class is forward-only + conform-on-touch (the sweep note IS the touch prompt). Scope: coordination ledgers (DOCKET/queue/board-log class), not prediction ledgers (Class 3 owns those) and not fire-ledgers/artifact-verify rows (already conformant by construction — re-derived at read time). PROME's own surfaces are PROME-lane (prome_gate extension), sampled here only for the fleet count.
+- First run doubles as the base-rate measurement: how many standing-state rows exist fleet-wide, what fraction carry neither field. Record the count in the Run Log — it's the evidence line for whether the class needs a script enforcer or stays a sweep leg.
+
 ### 4. Record (close the loop)
 - Update `sweeps/REGISTRY.tsv` → `last_run` + `last_findings`.
 - Append a row to the Run Log below.
