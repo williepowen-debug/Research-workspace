@@ -29,3 +29,18 @@ Backticked identifiers in a `git commit -m "..."` again produced `command not fo
 **⇒ The rule is now simply: DO NOT AMEND to fix a cosmetic message defect, pushed or not.** Get the message right the first time (single-quote it, or write identifiers bare); if it lands damaged and the FILES are correct, note it and move on. The message is documentation; the tree is the work.
 
 Sits with [[feedback_check_staged_before_commit]] and [[finding_pathspec_rename_needs_both_paths]] — the class of git mistakes that report success while quietly doing the wrong thing.
+
+## n=3 — RECURRED 2026-08-21 (MARCO, a DIFFERENT desk, 3 days after n=2), compound-identical
+
+**Both halves repeated exactly.** A `git commit -m "..."` message containing `` `total` `` was command-substituted, printing `total: command not found` and storing *"KB reproduces to the cent on ."* Then the repair attempt — `git commit --amend -F msgfile --only -- <my path>` — **rewrote a CONCURRENT AGENT'S commit**, because DAEDALUS committed in the ~90 seconds between my commit and my amend. HEAD was no longer mine, and `--amend` does not ask.
+
+⚠️ **This memory already said, in bold, exactly what not to do.** It was not consulted, because it sits in the COLD index and nothing in the commit path greps it. **The knowledge existed in the fleet, in a file written for this, and the failure happened anyway — for the third time, at the third desk.** That is now the load-bearing fact about this finding: *documenting it has twice failed to stop it.*
+
+**What was different, and it is the useful part — the REPAIR.**
+- n=2 hit a **pushed** commit and repaired with `git reset --soft`, which cannot restore the original hash.
+- n=3 hit an **unpushed** commit whose **tree was byte-identical** to the original (`git diff <orig> <rewrite> --stat` ⇒ empty; only the message differed, and `--only` had narrowed nothing because my path had no pending change). With an identical tree, a clean global `git status`, and nothing built on top, **`git reset --hard <original-hash>` restores the ORIGINAL COMMIT OBJECT — same hash, same message, same author date.** Any reference the other agent recorded still resolves. **That is strictly better than `--soft` and is the repair to reach for when those three preconditions hold.**
+- **Verify the preconditions in this order, before touching anything:** ① `git diff <orig> <rewrite> --stat` is EMPTY (no work dropped — `--amend` with a pathspec CAN drop files from someone else's commit), ② `git status --porcelain` is globally empty (`reset --hard` discards uncommitted work belonging to every agent, not just you), ③ nothing is committed on top. If ① fails you are repairing lost work, not a message.
+
+**⇒ Hardened rule, and it is now mechanical rather than advisory: `--amend` is a HEAD-relative operation on a branch where HEAD is not yours to assume.** Between reading a hash and amending it, any of ~30 sessions may commit. **Do not amend on this repo. At all. For any reason.** A damaged message with a correct tree is documentation debt; an amend is a history rewrite of whoever happens to hold HEAD.
+
+**And the prevention, since the message-side rule keeps not working:** write commit messages through a **quoted heredoc to a file** (`cat > msg.txt <<'EOF'` … `git commit -F msg.txt`). A quoted heredoc disables ALL shell expansion — backticks, `$(...)`, `$VAR`, `!` — so the class cannot occur, and no discipline has to be remembered under tempo. n=3 used a heredoc for the *repair* message and it was the only part that worked correctly.
