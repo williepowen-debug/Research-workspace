@@ -131,9 +131,13 @@ def main():
 
     print(f"Source: {fname} via {src} | {len(blob):,}B | {time.time()-t0:.0f}s")
 
+    # RECEIVED_DATE / EMPLOYMENT_BEGIN_DATE added 2026-08-21: they were in the file
+    # all along and unused, and they are what turn VX-MARCO-H2A-02 from a narrative
+    # row into a measured one — see the PROCESSING section emitted below.
     want = ["CASE_STATUS", "DECISION_DATE", "EMPLOYER_STATE", "WORKSITE_STATE",
             "SOC_TITLE", "JOB_TITLE", "TOTAL_WORKERS_H2A_CERTIFIED",
-            "TOTAL_WORKERS_H2A_REQUESTED", "WAGE_OFFER"]
+            "TOTAL_WORKERS_H2A_REQUESTED", "WAGE_OFFER",
+            "RECEIVED_DATE", "EMPLOYMENT_BEGIN_DATE"]
     head = pd.read_excel(io.BytesIO(blob), engine="openpyxl", nrows=0)
     have = set(head.columns)
     missing = [c for c in want if c not in have]
@@ -168,6 +172,48 @@ def main():
     emit("Top 15 worksite states", cert.groupby("WORKSITE_STATE")[workers].sum(), 15)
     emit("Top 10 SOC occupations", cert.groupby("SOC_TITLE")[workers].sum(), 10)
     emit("Top 15 job titles (crop/activity proxy)", cert.groupby("JOB_TITLE")[workers].sum(), 15)
+    # --- Processing vulnerability (VX-MARCO-H2A-02) ---------------------------
+    # Two legs, both computed off dates the disclosure already carries:
+    #   lag  = DECISION_DATE - RECEIVED_DATE   (how long DOL takes)
+    #   lead = EMPLOYMENT_BEGIN_DATE - DECISION_DATE  (margin before work starts;
+    #          NEGATIVE means certified AFTER the job was due to start = missed cycle)
+    # ⚠️ This is the DOL certification leg ONLY. H-2A has a second gate — State Dept
+    # consular visa issuance — which this file cannot see. A row scored on these
+    # numbers alone is a claim about half the pipeline; say so wherever it is cited.
+    lines.append("\n## Processing vulnerability (DOL leg only — consular gate NOT visible here)")
+    rec = pd.to_datetime(cert.get("RECEIVED_DATE"), errors="coerce")
+    beg = pd.to_datetime(cert.get("EMPLOYMENT_BEGIN_DATE"), errors="coerce")
+    lag = (cert["DECISION_DATE"] - rec).dt.days
+    lead = (beg - cert["DECISION_DATE"]).dt.days
+    lines.append("key\tvalue")
+    lv = lag.dropna()
+    if len(lv):
+        lines.append(f"lag_median_days\t{lv.median():.0f}")
+        lines.append(f"lag_mean_days\t{lv.mean():.1f}")
+        lines.append(f"lag_p90_days\t{lv.quantile(0.9):.0f}")
+    wv = lead.dropna()
+    if len(wv):
+        late = wv < 0
+        wl = cert.loc[wv.index[late], workers].sum()
+        wt = cert.loc[wv.index, workers].sum()
+        lines.append(f"lead_median_days\t{wv.median():.0f}")
+        lines.append(f"lead_p10_days\t{wv.quantile(0.10):.0f}")
+        lines.append(f"lead_p25_days\t{wv.quantile(0.25):.0f}")
+        lines.append(f"missed_cycle_case_pct\t{late.mean()*100:.2f}")
+        lines.append(f"missed_cycle_worker_pct\t{(wl / wt * 100) if wt else 0:.2f}")
+        lines.append(f"share_under_30d_lead_pct\t{(wv < 30).mean()*100:.2f}")
+    # Per-quarter, because FY2026 Q1 was badly late (17.1% of workers) and Q2-Q3
+    # were not — an FY-level average hides exactly that.
+    lines.append("\n## Processing by fiscal quarter")
+    lines.append("quarter\tn_cases\tlag_median_d\tlead_median_d\tmissed_cycle_case_pct")
+    tmp = cert.assign(_lag=lag, _lead=lead)
+    for qq, g in tmp.groupby("FQ"):
+        gl, gd = g["_lag"].dropna(), g["_lead"].dropna()
+        if not len(gd):
+            continue
+        lines.append(f"{qq}\t{len(g)}\t{gl.median() if len(gl) else float('nan'):.0f}\t"
+                     f"{gd.median():.0f}\t{(gd < 0).mean()*100:.2f}")
+
     lines.append("\n## Wage offer (USD)")
     lines.append(f"median\t{cert['WAGE_OFFER'].median():.2f}")
     lines.append(f"mean\t{cert['WAGE_OFFER'].mean():.2f}")

@@ -55,6 +55,24 @@ Farm Workers and Laborers	6355
 Farm Laborer	5696
 Field Workers	5644
 
+## Processing vulnerability (DOL leg only — consular gate NOT visible here)
+key	value
+lag_median_days	26
+lag_mean_days	27.3
+lag_p90_days	45
+lead_median_days	32
+lead_p10_days	11
+lead_p25_days	24
+missed_cycle_case_pct	3.97
+missed_cycle_worker_pct	5.46
+share_under_30d_lead_pct	38.53
+
+## Processing by fiscal quarter
+quarter	n_cases	lag_median_d	lead_median_d	missed_cycle_case_pct
+2026Q1	4224	26	30	8.29
+2026Q2	12468	28	32	2.78
+2026Q3	3488	19	36	3.01
+
 ## Wage offer (USD)
 median	15.67
 mean	93.53
