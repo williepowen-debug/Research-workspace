@@ -75,7 +75,7 @@
 - finding_push_train_pattern — "One agent's push (no refspec) ships ALL agents' committed-but-unpushed commits to origin via ff — only one agent need push. RE-AUTOMATED 6/26: now fires automatically at every closeout via ff-gated safe-push.sh (single-machine), sweeping the train each session; the 6/8 manual-window qualifier is retired."
 - feedback_shared_log_row_author_commits — "Will ratified (2026-07-24, to LABOR) that the agent who authors a row in the shared AGENTS/SIGNALS.md commits that row itself rather than flagging it to PROME — uncommitted shared-file edits orphan by design."
 
-## Prediction & calibration — embedded → `FORGE/PREDICTION_DISCIPLINE.md` (2026-07-31; ~10-row hot residue stays in MEMORY.md)
+## Prediction & calibration — embedded → `FORGE/PREDICTION_DISCIPLINE.md` (2026-07-31; hot residue re-based 2026-08-21 pass #5 — canon file now carries the FULL set, only the 2 HELD-HOT rows stay in MEMORY.md)
 - finding_widened_scope_needs_rescoped_instrument — Widening a prediction's scope while keeping the old base-rate instrument can make it already-failed at registration — and you cannot see it from inside the derivation
 - finding_discovery_instrument_defines_the_claim — "A forward-discovery prediction measured by press-sampling measures your own discovery latency, not the world — name the complete-scan instrument in the claim and pre-register the re-check, or the same known-unknown trap recurs (OTTO-30: Origin Bancorp 5/22, Triumph Financial 7/25, same prediction, twice)"
 - finding_redated_falsifier_inherits_premise — "When you re-date a falsifier/prediction because a catalyst moved, it silently inherits the premise that forced the re-date — re-audit the CHANNEL and the premise, not just the calendar row; an inbound date correction is the trigger to re-audit the whole object."
@@ -315,3 +315,20 @@
 ## Demoted 2026-08-21 — flow-rule pass #4 residue AFTER the same-day v2 rollback (the v1 single-source queue was 86% false-cold: 12 of 14 rows artifact-rescued by census v2 and RETURNED to hot the same afternoon, fixture-verified; these 2 were cold on BOTH sources and stand)
 - finding_overlapping_prereg_branches_restore_grader_discretion — two branches BOTH true = grader picks post-hoc; scope each branch to ONE surface
 - finding_publication_date_is_not_the_event_date — weekday≠date means TWO dates in one sentence
+## Demoted 2026-08-21 — flow pass #5 (Will-ruled in-session "okay lets execute it now"; ruling record `PROME/proposals/2026-08-21_flow-pass-5-embed-then-demote-RULED.md`). FIRST EMBED-THEN-DEMOTE pass (PAT-123 valve, first live use): 5 rows = census-v2 evidence queue (cold on BOTH sources 30d, 0 HELD); 11 rows = embed-GRADUATED (content verified present in `FORGE/PREDICTION_DISCIPLINE.md` — 3 since 7/31, 8+1 written 8/21 same pass after the "full canon" claim was found FALSE for 9 rows). ZERO deletions; memory FILES unchanged; rollback = move a row back to MEMORY.md.
+- finding_projection_behind_a_confidence_is_an_unbase_rated_instrument — the "on pace" under a confidence is an instrument; 88% sat 50 days on one *(evidence queue + embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+- finding_redacting_command_output_is_not_evidence — a command written to HIDE a value can't report on it; test by length/exit code *(evidence queue, plain)*
+- finding_same_datum_two_evidentiary_standards *(evidence queue, plain)*
+- finding_thesis_loadbearing_sweep_scope *(evidence queue, plain)*
+- finding_verify_live_api_schema_over_docs *(evidence queue, plain)*
+- finding_threshold_level_is_a_measurement_not_a_constant — state FROZEN vs TRACKED *(embedded → PREDICTION_DISCIPLINE 2026-07-31)*
+- finding_compound_gate_jointly_unsatisfiable — base-rate JOINTLY and CONDITIONALLY *(embedded → PREDICTION_DISCIPLINE 2026-07-31)*
+- finding_confidence_priced_against_thesis_not_letter — resolves on the LETTER you wrote; run the inversion test *(embedded → PREDICTION_DISCIPLINE 2026-07-31)*
+- finding_base_rate_the_threshold_before_building_it — base rate AND separation before shipping; "don't build it" is a real answer *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+- finding_prereg_verdict_boundary_must_be_a_number — a NUMBER + a NO-VERDICT band *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+- finding_unnamed_instrument_makes_a_threshold_a_family — unnamed instrument = you pick the flattering member post-hoc *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+- finding_enumerated_mechanism_test_hides_a_completeness_claim — an N-leg row silently claims the list is COMPLETE; outcomes arrive off-list *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+- feedback_register_the_call_even_when_you_expect_to_lose_it — the canon is ALL brakes; register the call you expect to LOSE, adjust the PRICE not the decision *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+- finding_overlapping_window_inflates_the_base_rate — de-cluster before base-rating *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+- finding_broken_conjunction_leaves_its_other_legs_unrecorded — a NOT-MET conjunction makes its other legs scoreless; scoreless is what nobody logs *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+- finding_extend_the_sample_before_publishing_a_coefficient — double n first *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
