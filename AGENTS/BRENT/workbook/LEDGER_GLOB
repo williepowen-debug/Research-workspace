@@ -18,6 +18,78 @@
 # Frozen ledgers are matched deliberately — the script reports them as FROZEN (exempt),
 # which is the two-state contract working, and their absence would be indistinguishable
 # from a glob that missed them.
+#
+# ============================================================================
+# ⚑ AMENDMENT 2026-08-21 — SCOPE WIDENED FROM "TSV LEDGERS" TO "TSV LEDGERS +
+#   NAMED MARKDOWN STATE SURFACES". Will-authorised in-session; PROME ruling (a),
+#   packet -> inbox/processed/2026-08-21_from-PROME_ledger-glob-RULED-*.
+#
+#   SUPERSEDES: the ledger-only reading of the "WHY THIS FILE EXISTS" paragraph
+#   above (lines 4-10). It supersedes NOTHING ELSE — that paragraph's reasoning,
+#   its measurement, and every path already declared below all stand unchanged.
+#
+#   ⛔ THE SCOPE ABOVE WAS DELIBERATE AND CORRECT, NOT AN OVERSIGHT. This file
+#   was created Will-approved with an enumerated LEDGER scope, and TRADE.md was
+#   never in it. What was WRONG was the justification sentence in
+#   AGENTS/BRENT/CLAUDE.md, which claimed the wiring bought a reader for
+#   `TRADE.md:3` — a file this glob never covered. That line was the defect of
+#   record and was corrected the same day (PROME ruling (c)). This amendment is
+#   an ADDITION on top of a sound scope, not a repair of a broken one.
+#
+#   WHY, MEASURED: 2026-08-21 09:41 boot printed `Ledger Staleness -- OK` while
+#   TRADE.md:3 sat ELEVEN DAYS stale (stamp 2026-08-10), carrying
+#   USO $125.92 / Brent $87.85 against a live $134.53 / $94.24. TRADE.md is a
+#   LIVE surface by its own footer ("keep current at every closeout or it rots"),
+#   it carries a PAT-044 two-clock header, and nothing on this desk read it.
+#
+#   ⚠️ THIS BUYS AGE, NOT AGREEMENT — carried per PROME rider (3), because the
+#   half it does NOT catch is the more dangerous one. The same 8/21 surface also
+#   carried a -36.0% mark on an option leg that was +41.7% on the live chain:
+#   a FRESH figure that was simply WRONG. No freshness check can ever catch that
+#   [[finding_freshness_check_cannot_catch_a_fresh_lie]]. Marks are governed by
+#   pulling the LIVE CHAIN at every decision point (RISK_RULES #5), never here.
+#   Do not let a green Ledger-Staleness line be read as "the marks are right".
+#
+#   ⚠️ AND THE RATCHET COST, STATED HONESTLY: this widens a check rather than
+#   retiring one. It is justified by a measured 11-day miss on the desk's
+#   canonical TRADE surface, not by "more coverage is better". If a future
+#   session finds this row has never once fired, that is an argument to remove
+#   it, and this paragraph is the permission to do so.
+#
+#   ⛔⛔ FALSIFIED THE SAME HOUR, AND THE RESULT INVERTS THE FIX. READ THIS
+#   BEFORE TRUSTING THE ROW ABOVE. Per the desk's standing rule (FALSIFY A NEW
+#   GUARD, don't just run it), the pre-fix TRADE.md (8/10 stamp) was restored
+#   from git and re-run. IT DOES NOT FIRE:
+#
+#       --days  5 -> STALE     --days 10 -> ok      --days 30 -> ok
+#       --days  9 -> STALE     --days 11 -> ok      (boot's actual call: ok)
+#
+#   The 11-day-stale file registers as +10d and only trips at --days <= 9.
+#   boot.py invokes `ledger_staleness.py BRENT` with NO --days, so the CODE
+#   DEFAULT applies. ⇒ AS SHIPPED, THIS WIDENING WOULD NOT HAVE CAUGHT THE
+#   DEFECT IT WAS ADDED FOR. The path resolves; the THRESHOLD is too loose.
+#
+#   ★ That is precisely the silent-fallback-green this file's own opening
+#   paragraph exists to prevent — "a check that reports CLEAN because it is not
+#   looking" — reproduced by the amendment meant to close a coverage gap. Adding
+#   the path and adding the ALERT are two different changes and only one is done.
+#
+#   ⛔ THE --days NUMBER IS DELIBERATELY NOT SET HERE. Picking one now would be
+#   an un-base-rated threshold, which L21/L22 forbid and which is the exact
+#   defect [[finding_inherited_default_threshold_is_a_silent_decision]] names.
+#   What is MEASURED and can be carried forward: the real defect sat at +10d, so
+#   any threshold above 9 misses it, and TRADE.md's healthy-state gap vs STATUS
+#   should be ~0 because BOTH are written at every closeout. Setting it needs a
+#   base rate of the historical TRADE-vs-STATUS gap, which is a git measurement
+#   nobody has run. OWED, and this row is INERT AT BOOT until it is.
+#
+#   ⚠️ SECOND DEFECT FOUND BY THE SAME RUN, NOT MINE TO FIX: the shared script's
+#   DOCSTRING says "threshold (default 14)" while its argparse says default=30.
+#   AGENTS/BRENT/CLAUDE.md had copied the docstring's 14 and was therefore wrong
+#   too — corrected 2026-08-21, and flagged to PROME as a shared-script doc/code
+#   drift. A doc that disagrees with its code will be believed, because reading
+#   is cheaper than running.
+# ============================================================================
 
 # workbook TSVs — REGISTRY + LESSONS_INDEX + SCHEMA live; KB/VX/FLOW/GROUP_MAP frozen
 workbook/*.tsv
@@ -31,3 +103,10 @@ docket/*.tsv
 # facility-damage ledger — live, and the one with the standing re-verification backlog
 # (median ACTIVE row age 130d at 2026-08-17); this is the row the script most needs to see
 refinery_damage/*.tsv
+
+# ⚑ ADDED 2026-08-21 (see AMENDMENT above). The canonical TRADE surface: positions,
+# trade plans, arm triggers, execution log. NOT a TSV — this is the row that widened
+# the scope. Declared as an EXPLICIT SINGLE PATH, not `*.md`, because a markdown
+# wildcard here would sweep STATUS/SCRATCH/THESIS/NEXUS_BRIEF/LESSONS and turn a
+# targeted check into noise — which is how a guard stops being read at all.
+TRADE.md
