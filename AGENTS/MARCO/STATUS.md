@@ -5,20 +5,9 @@
 
 ## 8/21 UPDATE (session 22) — READ FIRST
 
-> ### 🔴 FIVE PRIMARIES PULLED AFTER 9 DAYS DARK — AND THE SESSION'S PATTERN IS THAT REFRESHING GOES AGAINST ME
-> **Four of the five catch-up legs came back weaker for the thesis than the figure they replaced.** That is worth stating plainly rather than distributing across rows.
->
-> | Leg | Carried into today | Pulled today (primary) | Direction |
-> |---|---|---|---|
-> | **H-2A FY26** | "~455-465K pace", MAR-11 **88%** | **349,867 thru Q3; Q3 alone −3.99% YoY** | 🔴 projection **falsified**; MAR-11 → **72%** |
-> | **Construction (high-imm. states)** | `VX-2.03` **BREACHED** | **TX +1.94% vs national +0.99%** | 🔴 de-marked → **ELEVATED** |
-> | **Produce CPI** | +5.71%, "RECEDING" | **+5.55%**, 2-yr stack **+5.86%** | 🟠 threshold moving **away**, 3rd month |
-> | **Canadian travel** | stack −28.7%, air on the −25% line | **auto −28.9% / air −26.8%** | 🟢 **TOUR-01 HOLDS**, air leg re-widened |
-> | **FL migration proxies** | "mixed/flat" (voter −0.8% YoY May) | **voter NEW +23.0% YoY Jun; FLHSMV +3.0%** | 🔴 **both live inflow legs GROWING** |
->
-> **Only the Canadian leg came back FOR the thesis — and it is the channel v3.0 already named the highest-conviction one.**
->
-> 🔴 **The FL-migration proxy swing is the one to read carefully.** The voter leg went **−0.8% YoY (May) → +23.0% YoY (June)** — a 23.8pp swing in one month — and YTD new firmed +12.6% → +14.4%. **But both live legs measure INFLOW ONLY with no outflow counterpart, and net domestic migration is a NET quantity**, so growing inflow cannot rule out a net decline driven by exits. `VX-3.03` **stays BREACHED on the canonical 2025 level (+22,517), which is what the band actually scores** — the proxies are logged as **counter-evidence to any claim the collapse is DEEPENING in 2026**, not as a re-mark. Voter NET (+19,806) is purge-cycle-dominated and is **not** the direction read. **One month is not a trend, and this now sits AGAINST the unreconciled BofA Q1'26 metro net-negative read (open with CORAL).**
+> ### 🔴 FIVE PRIMARIES PULLED AFTER 9 DAYS DARK — FOUR CAME BACK AGAINST THE THESIS
+> **H-2A** (projection falsified, MAR-11 88→72) · **construction** (BREACHED→ELEVATED, TX above national) · **produce CPI** (+5.55%, 3rd month moving away) · **FL migration proxies** (both inflow legs now growing) — **only Canada held** (TOUR-01 confirmed 5th read, air leg re-widened). **Row detail → `domain/sources/_archive/S22_CATCHUP_TABLE_2026-08-21.md`.**
+> 🔴 **The FL-proxy swing needs its caveat carried:** voter NEW **−0.8% → +23.0% YoY** in one month, FLHSMV **+3.0%** — **but both legs measure INFLOW ONLY with no outflow counterpart, and net domestic migration is a NET quantity.** `VX-3.03` stays BREACHED on the canonical **+22,517**; the proxies are counter-evidence to *"the collapse is deepening"*, a narrower claim than *"the collapse is over"*.
 
 > ### 🔴 H-2A Q3 PUBLISHED — THE FIRST NEGATIVE QUARTER, AND I BASE-RATED THE Q4 INSTEAD OF ASSUMING IT
 > **OFLC `FY2026_Q3`: FY26 thru Q3 = 349,867 certified** (Q1 62,340 / Q2 192,025 / **Q3 95,502**). **The finding is the QUARTER: Q3 alone is −3.99% YoY — the first negative quarter in the series**; through-Q3 growth fell to **+10.36%** from H1's **+16.92%**, so the carried **"~455-465K pace" is FALSIFIED.**
@@ -52,9 +41,24 @@
 >
 > **Every one held a defect, not just age:** `TX-01` a **reversed narrative** (inventory "2× the GFC build-up" is now **−2.46% YoY**; its "18,146 listings" off **~7.6×**) · `AZ-01` a band naming **no instrument** (measurable sell-off leg **not firing**) · `TAX-01` a **name/metric mismatch** (titled *tax*, carried *win*) · `H2A-02` a **narrative where a measurement was available all along** · `ENF-01` a **low-information vector** · `APT-01` a **dead source route**.
 >
-> ⚠️ **`TAX-01` — I called a REAL figure an artifact and the review caught it.** I dismissed NV Gaming's **−6.99%** July tax print as a partial-vs-full-month artifact, reasoning from a footnote on ONE side without checking the comparison basis. **It carries the same convention on both sides** (prior report: identical "through June 23"), and FY26's twelve prints show **mean +7.09%, 6 of 12 negative — no systematic skew.** **Withdrawn.** The correct read is a base rate and it is stronger: **σ = 14.04pp, so −6.99% is a −1.0σ move**, FY26 tax **+5.07%**. ⇒ NORMAL stands on base-rate grounds.
+> ⚠️ **`TAX-01` — I called a REAL figure an artifact; the review caught it.** I dismissed NV Gaming's **−6.99%** July tax print as partial-vs-full-month, reasoning from a footnote on ONE side without checking the comparison basis — **which carries the same convention** (prior report: identical "through June 23"), and FY26's twelve prints show **mean +7.09%, 6 of 12 negative = no skew. Withdrawn.** Correct read is a base rate: **σ = 14.04pp so −6.99% is −1.0σ**; FY26 tax **+5.07%**. NORMAL stands on those grounds. *(Full record → `FIGURES.md` §4.)*
 >
 > 🔧 **`H2A-02` is now a measurement and it recurs quarterly:** DOL lag **improving** (Q3 median **19d** vs Q1 26d); **missed-planting-cycle rate measured directly** — Q1 **17.11% of workers**, Q2 2.49%, Q3 3.82%. ⚠️ **Counterweight with the headline: median lead 32d and 38.53% certified with <30 days margin — fast on average, fragile in the tail.** DOL leg only; the consular gate stays UNKNOWN.
+
+> ### 🔧 8/21 FINAL — THE FIVE UNSCORABLE BANDS ARE RE-SPEC'D (I HAD WRITTEN ABOUT THEM FIVE TIMES AND FIXED NONE), AND DOING IT INVERTED ONE OF TODAY'S OWN MARKS
+> **Verified first: 5 of 5 band-sets were byte-identical to pre-session.** Flagging had become deferral. All five are now ruled — **definition rulings, not retunes**, per the disambiguate-vs-escalate rule.
+>
+> 🔴 **`H2A-02` — RE-MARKED BACK UP, correcting my own de-mark from earlier today.** I moved it ELEVATED→NORMAL on Q3's DOL lag (19d) vs Q1's (26d). **That is a within-year TREND, not a LEVEL.** Pulling FY2025 and FY2024 for a real base rate:
+>
+> | | lag med | lag p90 | lead med | missed-cycle (workers) | <30d lead |
+> |---|---|---|---|---|---|
+> | FY2024 | 24d | 41d | 34d | 1.88% | 28.28% |
+> | FY2025 | 24d | 41d | 34d | 1.82% | 31.11% |
+> | **FY2026** | **26d** | **45d** | **32d** | **5.46%** | **38.53%** |
+>
+> **Every metric is worse than BOTH prior years, and the missed-planting-cycle rate is 2.95× the FY24-25 baseline.** ⇒ **NORMAL → ELEVATED.** *This is the base-rate error I spent the session correcting elsewhere, committed on my own row.*
+>
+> **The other four, each with the status moving as an OUTPUT of the rule rather than an input:** `2.03` per-state-vs-class **ruled to CLASS** ⇒ class mean +0.53% vs national +0.99% = 0.46pp ⇒ **ELEVATED→NORMAL** · `AZ-01`'s instrument-less ">30% decline" leg **RETIRED-UNSCORED** and the band scoped to the one measurable leg ⇒ **ELEVATED→NORMAL**, *but it now measures AZ property SUPPLY only and no longer claims to measure snowbird demand at all* · `TX-01` **→ UNSCORED**, because its months-of-supply bands are correct and MARCO has no source for that quantity — an ELEVATED mark nothing could justify is worse than an honest blank · `1.03`'s three competing bases **ruled to ONE (YoY spending)** ⇒ −$8.3B ⇒ **ELEVATED→CRITICAL**, ⚠️ *which moved only because a basis was finally ruled, not because data arrived — and the figure is a 2025 vintage needing a 2026 print.*
 
 ## PRIOR SESSION BLOCKS — ARCHIVED
 
