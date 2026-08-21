@@ -35,7 +35,7 @@
 |--------|---------|---------------|
 | Produce-spike attribution | RESOLVED 2026-05-31 (deep-research + verification). Spike is MULTI-CAUSAL — labor SECONDARY (~10-20%); real co-drivers = FL freeze ($3.17B, verified), tomato tariff (17%), diesel. MAR-21 cut 75→50. Exact %-split unknowable. | `domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md` |
 | Remittance paradox | RESOLVED 2026-06-02 — Apr Banxico: $ +3.7% YoY / count -1.7% (narrowing from -3.6%), avg-transfer premium compressing. Tax-pull-forward signature FADING toward normal, NO Q2-Q3 air-pocket. Count still negative = SDL-01 senders-fewer tell intact. | STATUS "Mexico Remittances" row; KB |
-| FLL April pax | RESOLVED 2026-06-15 — pdfminer on Broward PDF: total +5.0% YoY but -4.7% 2-yr stack (base-effect); intl +4.6% YoY / -18.7% stack (structural). MIA done (-2.02% Apr). MCO still blocked → BTS T-100 ~Jul. | STATUS "FL Airports" row; KB-MARCO-IVF-30 |
+| FLL April pax | RESOLVED 2026-06-15 — pdfminer on Broward PDF: total +5.0% YoY but -4.7% 2-yr stack (base-effect); intl +4.6% YoY / -18.7% stack (structural). MIA done (-2.02% Apr). MCO still blocked → BTS T-100 ~Jul. 🔴 **2026-08-21: THAT ROUTE IS NOW DEAD — do not retry.** broward.org rebuilt as an SPA; the legacy document tree 404s (7 months tested), Wayback empty. **The April result stands; the method for getting new months does not.** MIA's route IS live and verified 8/21 (`miami-airport.com/airport_stats.asp`, note the double space in the filename). | STATUS "FL Airports" row; KB-MARCO-IVF-30 |
 
 ---
 

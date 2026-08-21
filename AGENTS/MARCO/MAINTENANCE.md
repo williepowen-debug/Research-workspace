@@ -133,7 +133,7 @@
 
 ## Cross-references (already tracked elsewhere — not re-flagging)
 - DEFERRED.md (4 open TOURISM cross-agent items: REGINALD ×2, HOUSING, CARL) — current as of 6/2, properly tracked. The CARL World-Cup item + REGINALD winter-$ items are now partly addressed via today's NEXUS_BRIEF SENDING + outbox; could cross-ref.
-- ~~MCO/FLL April pax (PDF-blocked)~~ — **FLL RESOLVED 6/15** (pdfminer on Broward Monthly Statistical Summary PDF: +5.0% YoY / −4.7% 2-yr stack; intl −18.7% stack). MCO still blocked (flymco JS-rendered) → BTS T-100 ~Jul. Method: download+pdfminer w/ browser UA beats WebFetch for airport PDFs.
+- ~~MCO/FLL April pax (PDF-blocked)~~ — **FLL RESOLVED 6/15** (pdfminer on Broward Monthly Statistical Summary PDF: +5.0% YoY / −4.7% 2-yr stack; intl −18.7% stack). MCO still blocked (flymco JS-rendered) → BTS T-100 ~Jul. Method: download+pdfminer w/ browser UA beats WebFetch for airport PDFs. 🔴 **ROUTE DEAD as of 2026-08-21 — the record above is correct FOR APRIL and the general method still holds, but the Broward URL it used no longer exists** (site rebuilt as a Next.js SPA; legacy `/Airport/Business/about/Documents/` tree 404s across all 7 months of 2026 tested, Wayback has 0 snapshots). **Do not retry it.** → `MEMORY.md` source-quality map; replacement is BTS T-100, which covers FLL *and* MCO.
 - Cross-agent re-sends — see T2-A (likely superseded by NEXUS_BRIEF).
 
 ---

@@ -100,6 +100,23 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 
 ---
 
+### ⚠️ 8/21 — a retraction OF MY OWN, and the register should carry it: I withdrew a real figure
+
+**Claim withdrawn:** *"NV Gaming's −6.99% July percentage-fee figure is a partial-vs-full-month artifact; not adopted."*
+
+**Why it was wrong:** I reasoned from a footnote on ONE side (*"collections are through July 21"*) without checking whether the same convention governs the comparison basis. **It does** — the prior month's release carries the identical note (*"through June 23"*). A limitation disclosed on one side is not evidence the other side lacks it.
+
+**Test that settles it, run on review:** a one-sided truncation would produce a systematic directional skew. Across FY26's twelve monthly prints the **mean is +7.09%, six of twelve negative, full year +5.07%** — no skew, so no asymmetry.
+
+| | |
+|---|---|
+| **✅ The accurate figure** | **−6.99% is REAL.** And it carries no signal: σ across those twelve prints is **14.04pp** (−12.35% to +33.80%), so this is a **−1.0σ move**, with **2 of 12** months at least as negative |
+| **What still stands** | The July value is genuinely *"through July 21"* and *"subject to revision"*; `TAX-01`'s ELEVATED→NORMAL de-mark holds, **on base-rate grounds** |
+| **Reached** | `VX-TAX-01`, STATUS, SCRATCH, the tail-clear archive doc, **and the NEXUS brief** (consumer surface — explicit re-read notice issued). **No packet to another agent carried it** — the claim post-dated all six dispatches |
+| **Fixed** | 2026-08-21, same session, on self-review |
+
+⚠️ **The standing lesson is uncomfortable and belongs in this register: the error was produced BY the correction discipline, not despite it.** I was pattern-matching to the basis-trap family this very file catalogues, and the pattern fired on a case where it did not apply. **Apply the same evidentiary standard to a WITHDRAWAL that you would to an adoption.**
+
 ### 🔴 8/21 — the retraction had ONE more survivor, and it was in a BREACHED row
 
 **`VX-MARCO-2.01` (Immigration Enforcement Activity) still asserted *"The 2.2M STOCK loss (SDL-01) irreversible regardless"* as live text on 2026-08-21** — **51 days** after the 7/31 PROME audit corrected the *same* figure in `VX-MARCO-2.02`, and **50 days** after the fleet-wide retraction landed at v2.6 on 7/2.
