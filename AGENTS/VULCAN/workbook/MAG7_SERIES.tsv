@@ -1,0 +1,2 @@
+asof_utc	holdings_asof	mag7_pct	mag7_pct_normalized	mag7_ex_goog_pct	nvda_pct	nvda_share_of_group_pct	total_file_weight	n_holdings	band	per_name_pct	validation	source
+2026-08-21T14:37:39Z	20-Aug-2026	32.9810	32.9821	30.5528	7.9785	24.19	99.9966	505	below-yellow	AAPL:6.9455;MSFT:5.4294;GOOGL:3.0346;GOOG:2.4282;AMZN:3.8681;NVDA:7.9785;META:1.8209;TSLA:1.4759	OK:priced-2026-08-20,anchored-on-NVDA,7-independent-predictions,worst-err=0.000%	SSGA SPY daily holdings xlsx (issuer-primary; FUND weight, not S&P DJI index weight)
