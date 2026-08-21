@@ -283,6 +283,22 @@ footer{font-size:.72rem;color:var(--faint);line-height:1.7;
 a:focus-visible,.days details.more summary:focus-visible{
   outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
 .days details.more summary:hover{text-decoration:underline dotted}
+/* newspaper layout (Will-directed 8/21): full-width broadsheet at desk widths —
+   main well + rail with a hairline column rule; collapses to the single column
+   below 64rem so phones keep the original flow. */
+.colmain,.colrail{display:flex;flex-direction:column;gap:2.1rem;min-width:0}
+.mcols{display:flex;flex-direction:column;gap:2.1rem}
+@media(min-width:64rem){
+  .wrap{max-width:80rem}
+  [role="tabpanel"]{display:grid;grid-template-columns:1.1fr .9fr;gap:2.1rem 0;
+    align-items:start}
+  [role="tabpanel"]>*{grid-column:1/-1;min-width:0}
+  [role="tabpanel"]>.colmain{grid-column:1;padding-right:2.6rem}
+  [role="tabpanel"]>.colrail{grid-column:2;border-left:1px solid var(--line-soft);
+    padding-left:2.6rem}
+  .mcols{display:block;columns:2;column-gap:3rem;column-rule:1px solid var(--line-soft)}
+  .mcols>section{break-inside:avoid;margin-bottom:2.2rem}
+}
 """
 
 TABS_JS = """
@@ -504,18 +520,19 @@ def render_brief_tab(written, brief, feed, first, money, positions):
                  "<div class='bclocks'>"
                  f"<span>story written {html.escape(written or 'UNDATED')}</span>"
                  "<span>facts on this tab rebuild with the page</span></div></section>")
-    h.append("<section><h2>What changed</h2><ul class='feed'>")
+    feed_h = ["<section><h2>What changed</h2><ul class='feed'>"]
     if first:
-        h.append("<li><span class='ago'>—</span><span>first build — baseline recorded, "
-                 "history starts now</span></li>")
+        feed_h.append("<li><span class='ago'>—</span><span>first build — baseline recorded, "
+                      "history starts now</span></li>")
     elif not feed:
-        h.append("<li><span class='ago'>—</span><span>nothing has moved since the "
-                 "last rebuild</span></li>")
+        feed_h.append("<li><span class='ago'>—</span><span>nothing has moved since the "
+                      "last rebuild</span></li>")
     for e in feed:
-        h.append(f"<li data-ts='{html.escape(e.get('ts', ''))}'>"
-                 f"<span class='ago'>{html.escape(wb.ago(e.get('ts', ''), now))}</span>"
-                 f"<span>{wb.md_inline(e.get('text', ''))}</span></li>")
-    h.append("</ul></section>")
+        feed_h.append(f"<li data-ts='{html.escape(e.get('ts', ''))}'>"
+                      f"<span class='ago'>{html.escape(wb.ago(e.get('ts', ''), now))}</span>"
+                      f"<span>{wb.md_inline(e.get('text', ''))}</span></li>")
+    feed_h.append("</ul></section>")
+    h.append("<div class='colmain'>")
     if brief.get("STORY"):
         h.append("<section><h2>What is going on</h2><div class='prose'>"
                  + wb.md_block(brief["STORY"]) + "</div>")
@@ -531,6 +548,13 @@ def render_brief_tab(written, brief, feed, first, money, positions):
     if brief.get("DISAGREEMENT"):
         h.append("<section><h2>Where the desk disagrees</h2><div class='prose'>"
                  + wb.md_block(brief["DISAGREEMENT"]) + "</div></section>")
+    h.append("</div><div class='colrail'>")  # /colmain -> rail
+    h.append("\n".join(feed_h))
+    if brief.get("WATCH"):
+        h.append("<section><h2>What is coming</h2><div class='prose'>"
+                 + wb.md_block(brief["WATCH"]) + "</div>"
+                 "<p class='hint'>Dated rows live on Your desk → The clock.</p></section>")
+    h.append("</div>")  # /colrail
     h.append("<section><h2>Where you stand</h2>")
     if money:
         stale = " stale" if money["age"] > 5 else ""
@@ -570,10 +594,6 @@ def render_brief_tab(written, brief, feed, first, money, positions):
     if brief.get("POSITION"):
         h.append("<div class='prose'>" + wb.md_block(brief["POSITION"]) + "</div>")
     h.append("</section>")
-    if brief.get("WATCH"):
-        h.append("<section><h2>What is coming</h2><div class='prose'>"
-                 + wb.md_block(brief["WATCH"]) + "</div>"
-                 "<p class='hint'>Dated rows live on Your desk → The clock.</p></section>")
     h.append("</div>")  # /tab-brief
     return "\n".join(h)
 
@@ -635,6 +655,7 @@ def render(sections, dec, chore, dates, brief_tab_html, board):
              "<button role='tab' data-tab='tab-manual' aria-selected='false'>The manual</button>"
              "</nav>")
     h.append("<div id='tab-desk' role='tabpanel' aria-label='Your desk'>")
+    h.append("<div class='colmain'>")
 
     # -- live: waiting on you ---------------------------------------------------
     h.append("<section><h2>Waiting on you — "
@@ -682,6 +703,8 @@ def render(sections, dec, chore, dates, brief_tab_html, board):
         h.append("</div><p class='hint'>Launch from the desk's own folder, then say "
                  "“please boot up.” Each desk closes itself out when done.</p></section>")
 
+    h.append("</div><div class='colrail'>")  # /colmain -> rail
+
     # -- curated priorities -----------------------------------------------------
     if prio is not None:
         h.append("<section><h2>Top priorities — PROME-curated</h2>"
@@ -718,6 +741,7 @@ def render(sections, dec, chore, dates, brief_tab_html, board):
     if not dates:
         h.append("<li><span class='when'>—</span><span>clock parsed empty — see canon</span><span></span></li>")
     h.append("</ul></section>")
+    h.append("</div>")  # /colrail
     h.append("</div>")  # /tab-desk
 
     # -- the brief --------------------------------------------------------------
@@ -729,8 +753,10 @@ def render(sections, dec, chore, dates, brief_tab_html, board):
     h.append("<nav class='toc'>" + " ".join(
         f"<a href='#s-{s}'>{wb.md_inline(t.split('—')[0].split('[')[0].strip())}</a>"
         for s, (t, _) in zip(slugs, manual)) + "</nav>")
+    h.append("<div class='mcols'>")
     for s, (title, body) in zip(slugs, manual):
         h.append(f"<section id='s-{s}'><h2>{wb.md_inline(title)}</h2>{render_body(body)}</section>")
+    h.append("</div>")  # /mcols
     h.append("</div>")  # /tab-manual
 
     h.append(TABS_JS)
