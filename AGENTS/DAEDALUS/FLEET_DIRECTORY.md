@@ -29,7 +29,7 @@
 | CORAL | Market | L3 | Florida (whole-state, 10 pillars) | SLIPPED: ZERO self-commits 14d |
 | SHADE | Market | L3 | Insurer-lender / PE-insurance-captive | L3->L4 leg (a) = 3 cheap handles (seed PREDICTIONS.tsv — NONE EXISTS an… |
 | ZHAO | Market | L3 | China macro — UST demand / capital flows / Korea | DARK since 8/3 (14d — prior cell asserted LIVE, corrected PR#4) |
-| AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | A1 closeout-guard cwd fix (watched-fail, packeted) |
+| AEOLUS | Market | L2 | Climate → economy (macro; insurance/ag/energy-demand channels) | 8/21 PR#4 write-back CLOSED-VERIFIED 6/6 (3rd session |
 | WATT | Market | L3 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L3->L4: verify reader-side consumption at next review (AEOLUS seam two-… |
 | VULCAN | Market | L3 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L3->L4: consumption legs only (WATT already consuming the CRWV S3-S5 co… |
 | MIDAS | Market | L3 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | Firm L3 conf M->H at next touch: MIDAS-05 |
