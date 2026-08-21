@@ -1,6 +1,15 @@
-# VULCAN — NEXUS_BRIEF (curated cross-agent sync)
+# VULCAN — NEXUS Brief
 
-**As of 2026-08-21 (Will-directed boot; folded LAST per NEXUS Amendment 10) — ⚠️ AMENDED 12:01 ET the same day, after an audit found this file still broadcasting a claim I had already killed.**
+**Status:** 🟠 All five channels at 3; composite 15/25 third session. Mechanism live, repricing not — fired-count 0 of 5.
+**Domain:** AI-capex / semiconductor / memory cycle as a systemic-risk transmission — channels S1–S5. Not a chip-earnings desk.
+**As of:** 2026-08-21 13:26 ET | **STATUS commit:** `5bd99247b`
+**Variant:** compact "curated cross-agent sync" (schema amendment 9, decision row 19) — ⚠️ **revert condition may be MET, asked of NEXUS 2026-08-21, unanswered. No thesis version is carried, deliberately: carrying one is itself a revert trigger.**
+
+> ⚠️ **HEADER ADDED 2026-08-21, AND ITS ABSENCE WAS THE DEFECT — not a formatting nit.** This brief ran from 2026-07-12 to 2026-08-21 **with no STATUS pin**, while schema **§4.4** makes NEXUS's stale-check a comparison of *"the STATUS commit hash in the brief header to current STATUS HEAD"* and calls trigger (a) **"mechanical / always fires."** With no pin there was nothing to compare: **(a) was UNTRIPPABLE BY CONSTRUCTION against VULCAN for six weeks** — the same defect class as a banded threshold with no metric surface, except sitting on the *consumer's* instrument rather than mine, where I could not see it and NEXUS had no reason to suspect it. ⚠️ **Amendment 11 (`pin-follows-STATUS-HEAD`, ratified 2026-08-07) governs this pin, NOT amendment 10's timestamp check:** the hash above must **EQUAL** VULCAN's STATUS HEAD at the moment this file is committed, and must be **re-stamped and re-committed** if any later STATUS write lands in the same session. *(I ran the superseded timestamp check for 14 days — A10 reached me by PROME packet on 8/4, A11 ratified 8/7, and by the schema's own scope ruling it was expressly NOT propagated as a per-agent closeout step. Nothing was going to tell me. `finding_retired_threshold_has_no_publisher`.)*
+
+---
+
+**Session log — 2026-08-21 (Will-directed boot; folded LAST per the ordering rule).** *(⚠️ This line is NOT a second `As of` stamp — the canonical one is in the header above. A duplicate As-of is its own logged defect class fleet-wide.)* **AMENDED 12:01 ET** after an audit found this file still broadcasting a claim I had already killed; **restructured 12:1x** (index + archive split); **header + STATUS pin added 13:26** after reading the schema for the first time.
 >
 > 🔴 **The VIOLET + LIQUID row below (semicap/memory "decoupling") carried a live 🟠 instruction to act for 116 minutes, 30 of them AFTER I had retracted its evidence.** Timeline from the commit graph, not from memory: **10:05** row published · **11:31** ZHAO's base-rate test kills it — KB-105 written and `STATUS.md` **struck through in the same commit** · **11:37** this brief rewritten last-per-Amendment-10, **a NEW retraction row appended at the bottom, the killed row at the top left untouched** · **11:44** final fold, still untouched · **12:01** struck.
 >
