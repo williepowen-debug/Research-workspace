@@ -75,19 +75,35 @@ def parse_hot_index(path: Path):
     return slugs
 
 
+def _annotation_of(text: str):
+    if "embed-pending" in text:
+        return "embed-pending" + (" " + text.split("embed-pending", 1)[1].strip(" →`—-")[:60] if True else "")
+    if "embedded" in text:
+        tail = text.split("embedded", 1)[1].strip(" →`—-").replace("`", "")
+        return "embedded → " + tail[:60]
+    return None
+
+
 def parse_cold_index(path: Path):
-    """INDEX_COLD.md: one '- slug — hook' row per line under theme headings. Returns set."""
-    slugs = set()
+    """INDEX_COLD.md: one '- slug — hook' row per line under theme headings.
+    Returns {slug: annotation} — per-row embedded/embed-pending marker wins, else the
+    section heading's, else 'plain' (census-v2 input ③: a heavily-cited EMBEDDED row may
+    be cited BECAUSE it lives where needed — promotion would be duplication, not recall;
+    the flow pass decides with this context printed)."""
+    slugs = {}
+    section_ann = None
     try:
         text = path.read_text(encoding="utf-8")
     except OSError as e:
         print(f"CANNOT-CERTIFY: cold index unreadable: {e}")
         sys.exit(2)
     for line in text.splitlines():
-        if line.lstrip().startswith("-"):
+        if line.startswith("##"):
+            section_ann = _annotation_of(line)
+        elif line.lstrip().startswith("-"):
             m = SLUG_RE.search(line)
             if m:
-                slugs.add(m.group(1))
+                slugs[m.group(1)] = _annotation_of(line) or section_ann or "plain"
     return slugs
 
 
@@ -124,6 +140,41 @@ def scan_git_window(days: int, slugs):
     return cited, n_commits
 
 
+def scan_artifact_window(days: int, slugs):
+    """SECOND SOURCE (census-v2 input ①, PROME reframe of the v1 'defect'): slugs WRITTEN
+    into artifacts (packets/KBs/links) in-window — added diff lines only, memory/auto/
+    self-refs excluded. Not the calibrated primary (its 80%-vs-37% cold gap vs the
+    baseline is the size of its extra reach), but the v1 all-lines diff scan measured
+    something real that commit messages miss: day one's false-cold (resolver_anchored)
+    was load-bearing in an artifact the same afternoon, invisible to messages.
+    Returns {slug: set(commit)}."""
+    try:
+        out = subprocess.run(
+            ["git", "log", "-p", f"--since={days} days ago", "--format=@@COMMIT@@ %H"],
+            cwd=REPO, capture_output=True, text=True, errors="replace", check=True,
+        ).stdout
+    except (subprocess.CalledProcessError, OSError) as e:
+        print(f"CANNOT-CERTIFY: git log -p failed: {e}")
+        sys.exit(2)
+    cited = defaultdict(set)
+    commit, path = None, None
+    slugset = set(slugs)
+    for line in out.splitlines():
+        if line.startswith("@@COMMIT@@ "):
+            commit = line.split()[1]
+            path = None
+        elif line.startswith("+++ b/"):
+            path = line[6:]
+        elif (commit and line.startswith("+") and not line.startswith("+++")
+              and not (path and path.startswith(MEMORY_DIR_PREFIX))
+              and ("finding_" in line or "feedback_" in line or "project_" in line
+                   or "reference_" in line or "user_" in line)):
+            for slug in SLUG_RE.findall(line):
+                if slug in slugset:
+                    cited[slug].add(commit)
+    return cited
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--days", type=int, default=30, help="citation window (default 30, the census's validated window)")
@@ -143,40 +194,48 @@ def main():
         print(f"CANNOT-CERTIFY: cold index parsed to ZERO slugs ({args.cold_index}) — parse failure, not an empty tier")
         sys.exit(2)
 
-    all_slugs = set(hot) | cold
+    all_slugs = set(hot) | set(cold)
     cited, n_commits = scan_git_window(args.days, all_slugs)
     if n_commits == 0:
         print(f"CANNOT-CERTIFY: git window scanned ZERO commits ({args.days}d) — no basis for any queue")
         sys.exit(2)
+    art_cited = scan_artifact_window(args.days, all_slugs)
 
     total_cites = sum(len(v) for v in cited.values())
     hot_cited = {s for s in hot if s in cited}
     cold_cited = {s for s in cold if s in cited}
+    hot_art_only = {s for s in hot if s not in cited and s in art_cited}
 
-    print(f"memory_citation_census — window {args.days}d, {n_commits} commits scanned, method = commit-message grep (PROME 5c66ea63b command reproduced; reference_/user_ prefixes added, superset)")
-    print(f"COUNTS: hot {len(hot)} rows ({len(hot_cited)} cited, {len(hot)-len(hot_cited)} uncited) · cold {len(cold)} rows ({len(cold_cited)} cited) · {total_cites} commit-citations across {len(cited)} slugs · both-tier overlap {len(set(hot)&cold)}")
+    print(f"memory_citation_census v2 — window {args.days}d, {n_commits} commits · primary = commit-message grep (calibrated vs PROME 5c66ea63b baseline) · second source = artifact writes (added diff lines, self-refs excluded)")
+    print(f"COUNTS: hot {len(hot)} rows ({len(hot_cited)} msg-cited, {len(hot)-len(hot_cited)} msg-uncited, of those {len(hot_art_only)} artifact-rescued) · cold {len(cold)} rows ({len(cold_cited)} msg-cited) · {total_cites} msg-citations across {len(cited)} slugs · both-tier overlap {len(set(hot)&set(cold))}")
 
-    held = sorted(s for s, h in hot.items() if h and s not in cited)
-    demote = sorted(s for s, h in hot.items() if not h and s not in cited)
+    held = sorted(s for s, h in hot.items() if h and s not in cited and s not in art_cited)
+    demote = sorted(s for s, h in hot.items()
+                    if not h and s not in cited and s not in art_cited)
     promote = sorted((s for s in cold if len(cited.get(s, ())) >= args.min_promote),
                      key=lambda s: -len(cited[s]))
 
     if demote:
-        print(f"\nDEMOTION QUEUE (advisory — hot, uncited {args.days}d, no HELD-HOT marker): {len(demote)} rows")
+        print(f"\nDEMOTION QUEUE (advisory — hot, uncited on BOTH sources {args.days}d, no HELD-HOT marker): {len(demote)} rows")
         for s in demote:
             print(f"  DEMOTE-CANDIDATE {s}")
     else:
-        print(f"\nDEMOTION QUEUE: empty — every unheld hot row cited within {args.days}d")
+        print(f"\nDEMOTION QUEUE: empty — every unheld hot row cited (either source) within {args.days}d")
+    if hot_art_only:
+        print(f"  (artifact-rescued, NOT queued — msg-uncited but written into artifacts in-window: {len(hot_art_only)} rows: {', '.join(sorted(hot_art_only)[:10])}{'…' if len(hot_art_only)>10 else ''})")
 
     if held:
-        print(f"HELD-HOT (uncited but held by declared decision — not queued): {len(held)}")
+        print(f"HELD-HOT (uncited both sources but held by declared decision — not queued): {len(held)}")
         for s in held:
             print(f"  HELD-HOT {s}")
+    denom = len(demote) + len(held)
+    if denom:
+        print(f"FALSE-COLD RATE proxy: {len(held)}/{denom} = {len(held)/denom:.0%} of the would-be queue is held by declared decision (day-one floor 7%; a CLIMBING number means the citation proxy is degrading — census-v2 input ②)")
 
     if promote:
         print(f"\nPROMOTION QUEUE (advisory — cold, cited >={args.min_promote}x in {args.days}d): {len(promote)} rows")
         for s in promote[:args.head]:
-            print(f"  PROMOTE-CANDIDATE {s} ({len(cited[s])} commits)")
+            print(f"  PROMOTE-CANDIDATE {s} ({len(cited[s])} commits) [{cold[s]}]")
         if len(promote) > args.head:
             print(f"  … and {len(promote)-args.head} more above threshold (ranked head capped at --head {args.head}; the count above is the population, this list is not)")
     else:
