@@ -19,4 +19,16 @@ metadata:
 - **A success report not scoped to the goal.** VIOLET's `backfill.py` printed `touched 36 rows` while leaving the one date-hole it exists to fill. The report was *true* and did not answer *did the gap close?* **Verify the fill, not the exit code.**
 - **The documenting tool suffering the documented defect.** TERRY's `python3 -c "…"` written to *document* a backtick defect was itself backtick-substituted.
 
+**EXTENSION 2026-08-21 (ZHAO) — there is a THIRD independent property: can it fire at all?** A guard can be **correct, wired, acted-on — and inert**, because the *input* it computes from is corrupted. This is not the unwired case above; the path from guard to action is intact and the output is read.
+
+**The instance:** OTTO's catalyst countdown surfaces past-due rows so nothing is missed — a real fix for a real failure (3 of 4 fired rows hidden at boot, 7/25). Its look-back window is sized adaptively by `dark_days`, computed from `STATUS.md`'s **`st_mtime`**. But **git sync restamps mtime** ([[finding_mtime_is_corrupted_by_git_sync]]), so on any synced desk `dark_days ≈ 0`, the window collapses to its floor, and **fired rows age out before the sweep sees them — the exact failure the function was written to prevent.** The guard runs, is wired, prints, and is self-defeating on precisely the desks that sync. It fails **silent and safe-looking**: you get a clean *"nothing fired."*
+
+**Why this matters for audits specifically:** a **presence check scores an inert fix as compliant.** "Does this desk have the fired-row rule? ✅" is true and worthless when the rule cannot fire. *(Registered as a third leg of DAEDALUS's 8/28 fork sweep after this was found — the leg spec was falsified before it ran, which is the cheapest possible moment.)*
+
+**How to apply — a third question, after "is it right?" and "if this fires, what stops?":**
+- **"What feeds this, and can that input be corrupted by something outside the check?"** Sync, cache, restamp, clock skew, a default that silently substitutes.
+- **PORTED FIXES INHERIT THEIR DONOR'S ENVIRONMENT ASSUMPTIONS.** A fix that is correct on the desk that wrote it can be inert on the desk that copies it. Diff before porting; port the *mechanism*, re-derive the *basis*.
+- **Make the basis visible in the output.** The fix here prints `basis=git-commit` / `content` / `mtime⚠️`, so a reader can see which clock answered instead of trusting that one did.
+- **Test with a fixture that forces the guard to fire**, not just a healthy run. A healthy run and an inert guard print the same reassuring line.
+
 **The generalisation worth carrying:** we habitually audit whether a check is *right* and almost never audit whether it is *load-bearing*. Ask of any guard: **"if this fires, what stops?"** — and if the honest answer is "I would notice," it is not a guard, it is a log line. Related: [[finding_concurrent_commit_index_race]] (TERRY's half — three values race: the hash, the owner, and whether it is public), and [[finding_record_of_an_action_is_not_the_action]], which is this same gap seen from the artifact side.
