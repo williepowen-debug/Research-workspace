@@ -2,6 +2,8 @@
 
 **Purpose:** ephemeral session handoff. Read at boot, rewritten at closeout.
 
+> 🔵 **THIS WAS WRITTEN AS A HANDOFF WHILE THE SESSION IS STILL OPEN.** Will said *"boot up"*; I ran the write-back tail off a peer correction before being tasked. **Everything below is accurate and pushed — it is just not a handoff yet.** Anything Will tasks from here appends to this session and this file gets rewritten at the real close.
+
 > ## ⏰ THE ONE THING WITH A CLOCK — UNCHANGED FROM SESSION 1: the ORACLE gap-marked Kalshi pin had to START **TODAY, 8/21**
 > T6's repaired *"keeps falling"* qualifier grades *"below its value **5 trading sessions prior**."* Will's Option C sets last gradeable data at **Fri 8/28**. Counting back: **8/28 → 8/27 · 8/26 · 8/25 · 8/24 · 8/21** *(no holiday; Labor Day 9/7)*.
 > ✅ **PROME filed a provisional day-1 capture** (`KXFED-26SEP-T3.75` last $0.35, yes 33/35, 11:14 EDT), **deliberately un-adjudicated** — the API's own `updated` field reads 8/12 and which field is pin-canonical is ORACLE's call. **BOND records the trigger as `UNMEASURED`, not as a measurement.**
