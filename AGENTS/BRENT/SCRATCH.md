@@ -52,6 +52,14 @@
 6. **🟠 RE-SPEC FORWARD CHECK ② (FALCON `KB-FALCON-102`) — still not done.** 670 kbpd is Asia-only+month-scoped vs 2.17 mb/d total weekly liftings; **as written it manufactures a ~70% phantom collapse.**
 7. **🔴 `KILL-LEG2-TRANSIT` — RESOLVE OR RE-INSTRUMENT, MINE AS OWNER.** ⚠️ **Now MORE urgent, not less: v5.7 records an official "Hormuz is open" narrative paired with a falsifier that may be structurally unfireable.** Better instrument now available: **Lloyd's List MIU weekly transits (73 for 8/10–16, down from 91; non-Iranian-linked 43)** — and LLI says its own count is biased LOW. ⛔ **Re-scoping is a WILL GATE — bring a spec.**
 
+## 📒 LEDGER-NUDGE DISPOSITION *(`ledger_staleness.py --nudge` fired on 3 ledgers at this closeout — freeze-or-refresh-or-say-why-not, answered here rather than ignored)*
+
+| Ledger | Behind | Disposition |
+|---|---|---|
+| **`INCIDENTS.tsv`** | 15 STATUS-writes | **NOT REFRESHED, DELIBERATELY — nothing in-scope arrived.** The four vessel incidents this session (`MINOAN DIGNITY`, `AMARA`, `SKIROS`, `SIBU 1`) are **OUT** by my own 2026-08-07 scope ruling: vessels in transit are HAWK's, not mine. **Routed, not forked.** ⛔ **BUT A REAL BACKLOG IS SEPARATELY OWED and this row must not be read as "clean": boot flagged 17 ACTIVE rows past the 60d re-verify budget, worst `RF-004` at 155d. ACTIVE is a PRESENT-TENSE claim.** Still owed: Novorossiysk/Sheskharis, 2 events wide. |
+| **`REGISTRY.tsv`** | 4 | **NOT REFRESHED, DELIBERATELY — no threshold moved.** The MOMR freight series is a **research lead, not a registration** (monthly cadence, no base rates); the IEA/OPEC 2.2 mb/d split is **an unresolved disagreement, not a test.** Registering either today would be the un-base-rated threshold my own L21/L22 forbid. |
+| **`board_log.tsv`** | 1 | **CORRECTLY UNCHANGED — zero packets consumed.** Both inbox lanes were empty at boot and still are. A board_log row without a consumed packet would be fabricated. |
+
 ## OPEN THREADS / WATCHES
 
 - **⛔ THE SHARPEST EXPOSURE, NEWLY NAMED IN v5.7: an official narrative capable of declaring Hormuz resolved, against a falsifier that may be unable to answer it.**
