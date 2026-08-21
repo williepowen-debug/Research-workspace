@@ -58,6 +58,34 @@ My `CLAUDE.md` §BELGIUM PROXY METHODOLOGY says, as a flat rule: *"Belgium risin
 >
 > ⚠️ The rule has been applied as if deterministic for ~5 months and **was never base-rated.** New instrument registered: **VX-ZHAO-1.09** (rho, with bands for when the proxy would become usable again: rho < −0.5 ORANGE, < −0.7 RED). **ZHAO owns `CLAUDE.md` and will rewrite §BELGIUM PROXY METHODOLOGY from identities to probabilistic language.** Flagged to PROME because **HANS and LIQUID both consume this proxy.**
 
+### 3b. 🔴 **I tested the reframe's own mechanism too — Treasury→Agency rotation is REFUTED**
+
+Will asked how to fix the ~$40B magnitude error inside the Will-approved KB-ZHAO-102 reframe. Chasing the number surfaced something larger: **the reframe's primary MECHANISM can be tested directly, and it fails.**
+
+The reframe explains the falling SAFE Treasury line as *"more likely Treasury→Agency rotation or entity-shifting."* **Rotation predicts Agency holdings RISE as Treasuries fall.** TIC Table 1 carries Agency flows by country, so this is measurable:
+
+| China, TTM Jul-25 → Jun-26 | Net sales ($M) |
+|---|---|
+| Treasuries (LT) | **−91,269** |
+| **Agency bonds** | **−40,305 — SOLD, not bought** |
+| Corp. bonds | +398 |
+| Equities | +12,242 |
+| **All LT US securities** | **−118,934** |
+
+Agency **holdings** went $179.9B (Jul-25) → **$142.0B** (Jun-26) = **−$37.9B over 12 months.** rho(Treasury net sales, Agency net sales) = **−0.025 over n=41** — indistinguishable from zero, where rotation needs a materially negative number. June itself: Treasuries −$15.8B **and** Agency −$1.1B, same month. **China sold both.**
+
+> **The reframe's CONCLUSION survives — but on valuation, not on either mechanism it named.** Total LT US-securities holdings moved only **$1,173.2B → $1,161.6B = −$11.6B (−1.0%)** against **−$118.9B sold**: markets added back **~$107.3B**. So *"China's aggregate USD exposure is not meaningfully reduced"* is **true on the stock** — because prices rose, not because China rotated.
+>
+> ⚠️ **Mechanism (a) rotation: REFUTED. Mechanism (b) off-SAFE entity-shifting: NOT TESTABLE from TIC** — TIC attributes by custodian/country, not by Chinese owning entity, so intra-China entity shifts don't move this line at all. And the one re-routing channel that *would* be detectable — Belgium custody — was falsified as an instrument in §3 above, the same session.
+>
+> ⚠️ **PERIMETER — two correct TTM figures are now in ZHAO's record:** **−$122.3B** = all Treasuries incl. bills (Table 3) · **−$91.3B** = coupons only (Table 1 is a long-term table). They reconcile to the dollar (−91,269 + −31,017 = −122,286). **Cite the perimeter with the number.**
+>
+> ⚠️ The reframe's **~$300B Agency figure (CFR/Setser 5/2026) is ~2x the raw TIC Agency line ($142.0B)** — a custodial-adjusted estimate being contrasted against a raw TIC Treasury line, i.e. a perimeter mismatch inside the reframe itself. **The refutation does not depend on that dispute: the DIRECTION of the raw series is wrong for rotation at any level.**
+>
+> 🔴 **DOWNSTREAM — LIQUID banked this as one of four independent demand-hole refutations** (`AGENTS/LIQUID/CALENDAR.md`, Jul-16 row: *"demand-hole now refuted 4 ways — auctions · Japan MOF · Korea · China rotation"*). **The China-rotation leg must be withdrawn; the other three are untouched.** Packet owed.
+>
+> **ZHAO is NOT editing the Will-approved reframe text.** Recommendation routed to Will — see NEXT ACTIONS. (VX-ZHAO-1.10, KB-ZHAO-127.)
+
 ### 4. 🟠 Official sold, private bought — and the aggregate decline is mostly valuation
 
 | Cut | June net sales |
@@ -258,7 +286,8 @@ STATUS's CALENDAR and NEXT ACTIONS both named **June TIC** as a ZHA-11 arbiter. 
 1. ✅ **ZHA-15 GRADED 8/21** — RESOLVED NO / STEADY-COURSE, 9d late. FALSE at 18% = well-calibrated correct call. ⚠️ **Spec defect found at resolution: my STIMULUS bar required 'a concrete RMB figure' with NO MAGNITUDE FLOOR** — it would have fired on the modest 8/21 ceiling-raises, i.e. on exactly the 'measured not expansive' outcome it was designed to exclude. Next registration of this type gets a size floor in NEW outlay (KB-ZHAO-125).
 1b. ✅ **Korea <1,450 tripwire GRADED 8/21** — FIRED 8/12, basis-independent. Falsifies ZHAO's Korea anchor leg. **Owed next: re-check the two unverified caveats** (foreign KOSPI selling; SK hynix conversion share) before calling Korea risk closed (KB-ZHAO-126).
 2. 🔴 **Aug 31 August PMI — 10 days out.** The registered (a)-broadening vs (b)-typhoon discriminator for July's break. Highest-value scheduled read ZHAO owns.
-3. 🔴 **Rewrite `CLAUDE.md` §BELGIUM PROXY METHODOLOGY** — its interpretation rules are stated as deterministic identities and the data does not support them. ZHAO owns the file. Rewrite to probabilistic language + point at VX-ZHAO-1.09. **PROME flagged because HANS and LIQUID both consume this proxy.**
+3. 🔴 **WILL DECISION OWED — the KB-ZHAO-102 reframe.** Its magnitude was understated ~3x **and its primary mechanism is now refuted** (VX-ZHAO-1.10). ZHAO has edited nothing. Findings: the canonical `CLAUDE.md` copy is **already correctly built** — it says *"dwarf the scale of typical TIC Treasury declines"*, qualitative, **no hardcoded figure**, so the ~$40B rot is confined to KB-ZHAO-102's note field + 2 derived ZHAO surfaces. **The real problem is not the number.** The reframe welded one durable DOCTRINE ("don't read the SAFE Treasury line as aggregate USD exposure") to two MECHANISMS ("rotation", "entity-shifting") and one DATUM ("~$40B"). **The doctrine is still right; the datum rotted; mechanism (a) is refuted; mechanism (b) is untestable from TIC.** ZHAO's recommendation: **keep the doctrine, strike the rotation mechanism, and replace the datum with a pointer to VX-ZHAO-1.03** so a live number can never rot inside canon again — and record that the conclusion now rests on **valuation** (~$107.3B of appreciation offsetting $118.9B of sales), which is a weaker and more contingent support than a portfolio rotation would be. **Will-gated: it is Will-approved text.**
+3b. 🔴 **Rewrite `CLAUDE.md` §BELGIUM PROXY METHODOLOGY** — its interpretation rules are stated as deterministic identities and the data does not support them. ZHAO owns the file. Rewrite to probabilistic language + point at VX-ZHAO-1.09. **PROME flagged because HANS and LIQUID both consume this proxy.**
 4. 🔴 **Fix `scripts/boot.py`** — three defects found at this morning's boot: (a) `CATALYSTS` hardcoded and never updated, so §4 printed *"nothing within ±30d"* with a grade 8 days overdue and the Aug-31 arbiter 10 days out; (b) `KEY_FIGURES` points at **VX-ZHAO-4.01** (Jun PMI 50.3) when the live row is **VX-ZHAO-6.11** (Jul 49.2) — two rows for one metric, boot resolves to the dead one and reported both the age and the sign wrong; (c) §3's TIC watch was one print off because VX lagged STATUS by two vintages. **(c) is closed by this session's VX refresh; (a) and (b) are open.**
 5. 🟠 **Outbox routing owed to PROME** — `2026-08-21_to-LIQUID-PROME_june-tic-650-breach-and-belgium-proxy-falsified.md`. 🟠 route to LIQUID fires on ZHAO's own table (China TIC <$650B). Q2 −$14.8B does **not** trip the 🔴 >$50B/quarter route.
 6. 🟠 **Cross-agent legs I did not deep-dive** (boundary rule): Japan's −$26.86B is **bills, not duration** → SAM. France −$20.92B → HANS. Belgium hub table → HANS. HK sold $9.33B while the peg is quiet — that one *is* mine, log next session.
@@ -280,6 +309,10 @@ STATUS's CALENDAR and NEXT ACTIONS both named **June TIC** as a ZHA-11 arbiter. 
 **The wider print cuts against a simple demand-hole read.** Foreign official sold $45.4B in June; foreign non-official **bought $23.2B**. The private bid is absorbing official supply — a different market structure from "nobody is buying," and the distinction is LIQUID's to price. And the aggregate is a trap: total foreign holdings fell $72.1B but only $22.3B was sold, so **anyone quoting the level as selling overstates it ~3x.** China is the exception that makes the rule dangerous — its drop *is* ~85% real, so a level-only reader gets the aggregate badly wrong and China roughly right, by luck.
 
 **Korea went the other way and that matters:** +$2.70B bought, the first net-buying month in five, in the same month the won ran to 1,385. That is the post-hike test ZHA-13 asked for, and it supports ZHA-12 — the rate lever is doing Korea's defense work, not reserve liquidation. **The two Asian anchors have diverged.**
+
+**A late addition that matters more than the arithmetic.** Will asked how to repair the ~$40B magnitude error sitting inside the Will-approved reframe. Chasing it turned up something bigger: **the reframe's primary mechanism is testable, and it fails.** The reframe explains China's falling Treasury line as *Treasury→Agency rotation*. Rotation requires Agency holdings to rise as Treasuries fall. **China's Agency holdings fell $37.9B over the same twelve months, and it sold both in June.** The correlation between the two flow series is −0.025 — zero. **So today I falsified two of my own interpretation instruments, not one:** the Belgium proxy in the morning and the rotation mechanism in the afternoon, both by testing a rule I had been applying rather than continuing to apply it.
+
+**The reframe's conclusion still stands, and I want to be precise about why.** China's total US long-term securities holdings are down only 1.0% over the year — but that is because markets appreciated ~$107.3B against $118.9B of net selling. *"Aggregate exposure roughly unchanged"* is true on the stock and false on the flow, and the thing holding it up is price, not portfolio construction. **That is a materially weaker support than the reframe claimed, and it is contingent on markets continuing to rise.**
 
 **What would change my mind:** if July TIC (~Sep 16) shows China's coupon selling stopping, June was a one-month portfolio event and the $650B breach is a level, not a trend. If it continues at −$15B/month in duration while foreign official keeps selling and the private bid stops absorbing, the demand-hole thread re-opens on hard flow evidence for the first time since spring. **Before then, Aug 31's PMI is the bigger read** — a second sub-50 composite turns July's break into a thesis.
 
