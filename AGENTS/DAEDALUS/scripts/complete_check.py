@@ -6,13 +6,22 @@ reach origin?"). Born from the 2026-08-12 finding (PAT-101/PAT-102): 8 gaps in o
 my own "closed", 0 found by my closeout — every one a COMPLETE-failure, every check a
 COMMITTED-check. Build-queue head since 8/12; built 2026-08-17 late (self-audit open-items run).
 
-Three legs (the three rules earned 8/12, STATUS item 3):
+Four legs (three rules earned 8/12, STATUS item 3; leg (iv) added 8/21):
   (ii) PAIRING [mechanical, gates rc]: every commit in range touching BLUEPRINTS/* or
        UPGRADE_PROTOCOL.md must include EVOLUTION.md in the SAME commit (PAT-101 rule ii —
        missed twice in one session before the rule; once after, 383051aeb).
  (iii) PAIR-SYMMETRY [mechanical, gates rc]: every *_READER_REPORTS.md has a synthesis
        beside it (same prefix) and every Mode-A synthesis created in range has a companion
        (PAT-100/PAT-102; the war-triad shipped the companion WITHOUT the synthesis).
+  (iv) EVOLUTION PLACEMENT [mechanical, gates rc; added 2026-08-21 at the EVOLUTION audit]:
+       every dated entry heading is `### YYYY-MM-DD…` (never `##` — the F4 heading fork),
+       and the FIRST entry in file order carries the maximum (date, letter) key — i.e. the
+       file actually IS newest-first. Mechanism for the twice-recurred F16/B5 defect
+       (entries appended at the bottom, below the Roadmap fossil, invisible to a top-down
+       read): the 8/17(h) repair fixed the instance; nothing checked placement, so the
+       author re-broke it twice on 8/21. Newest-first is load-bearing, not cosmetic — it is
+       what makes statement-time "pending" claims in old entries safe (the reader meets the
+       resolution before the pending).
    (i) CLAIM ENUMERATION [judgment, does NOT gate rc]: side-effect verbs on lines ADDED
        by my commits in range (diff-scoped 2026-08-20, WALTER 8/17 discharge-path packet:
        a session can discharge its OWN claims, never the standing corpus — whole-file
@@ -105,6 +114,30 @@ def main():
             findings += 1
             print(f"⏰ PAIR-SYMMETRY: upgrades/{d} has NO synthesis beside it and names "
                   f"none in its header (expected {prefix}.md or a pointer — PAT-100 inverted-pair class)")
+
+    # Leg (iv) — EVOLUTION placement/format (newest-first + ### level)
+    ev_path = os.path.join(repo, "AGENTS/DAEDALUS/EVOLUTION.md")
+    entry_re = re.compile(r"^(#{2,3}) (\d{4}-\d{2}-\d{2})(?: \(([a-z])\))?")
+    entries = []  # (lineno, level, date, letter)
+    for i, ln in enumerate(open(ev_path, encoding="utf-8", errors="replace").read().splitlines(), 1):
+        m = entry_re.match(ln)
+        if m:
+            entries.append((i, m.group(1), m.group(2), m.group(3) or "a"))
+    if not entries:
+        print("🔴 complete_check CANNOT-CERTIFY: EVOLUTION.md parsed to ZERO dated entries "
+              "— format changed or file unreadable, not an empty changelog")
+        return 2
+    for lineno, level, d, letter in entries:
+        if level != "###":
+            findings += 1
+            print(f"⏰ EVOLUTION-FORMAT: line {lineno} entry {d}({letter}) at `{level}` level "
+                  f"— entries are `###` under ## Changelog (heading level is an interface, PAT-069)")
+    newest = max(entries, key=lambda e: (e[2], e[3]))
+    if entries[0][:1] != newest[:1] and (entries[0][2], entries[0][3]) != (newest[2], newest[3]):
+        findings += 1
+        print(f"⏰ EVOLUTION-PLACEMENT: first entry in file order is {entries[0][2]}({entries[0][3]}) "
+              f"at line {entries[0][0]}, but the newest entry is {newest[2]}({newest[3]}) at line "
+              f"{newest[0]} — the file declares newest-first and is not (F16/B5 recurrence class)")
 
     # Leg (i) — claim enumeration (judgment walk-list; never gates rc)
     #
