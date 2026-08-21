@@ -42,6 +42,23 @@
 - **⛔ I nearly declared `fetch.py price` dead** off four empty tables — it was my own `head -3` eating the data row (leading blank line). **Same shape as the 8/20 wrong-verb error.** Caught pre-publication.
 - **⛔ I called the three sweep agents a failure and reported that to Will. They were SLOW, not broken** — all three delivered in full, better-sourced than my own pass in places. **Retracted in-session.**
 
+---
+
+> # 🔴🔴 **READ THIS BEFORE ANYTHING ELSE: THIS SESSION ENDED AT ~11:1x ET, *BEFORE* BOTH OF TODAY'S GRADE WINDOWS. NEITHER GRADE WAS TAKEN. BOTH ARE OWED AND BOTH ARE NOW AT RISK OF STACKING.**
+>
+> **Will closed the session at ~11:1x. Baker Hughes prints ~13:00 ET and CFTC COT ~15:30 ET — both AFTER this handoff was written. `$0` moved; nothing was graded; nothing is wrong. But the obligation did not disappear when the session did.**
+>
+> | Series | Prints | State at closeout | What stacking costs |
+> |---|---|---|---|
+> | **Baker Hughes** (`BRT-26`) | Fri 8/21 ~13:00 | **UNGRADED** — instrument pre-flighted and ready | Next print is Fri **8/28**. Two prints on one series **destroys the WoW deltas the ladder is defined on** — and `BRT-26` sits **2 rigs from failing** with the window closing **9/30**. |
+> | **CFTC COT** as-of Tue 8/18 | Fri 8/21 ~15:30 | **UNGRADED** — `cot_grade.py` returns true **rc=3 WAIT**, correct pre-window | This is **vintage #2, the FIRST grade of the 35b successor on a clean vintage**. Vintage #3 lands 8/28. **TERRY and two other desks are staged on this.** |
+>
+> ⛔ **MY OWN STANDING RULE, BREACHED IF THE NEXT SESSION DOES NOT ACT: *"DO NOT LET GRADES STACK. If a grade slips past its print, grade it BEFORE the next one lands."* I breached this exact rule on 8/20 (two rig prints stacked) and repaired it the same session. THE REPAIR WINDOW HERE IS 8/21 15:30 → 8/28 13:00.**
+>
+> ✅ **BOTH ARE STILL CLEANLY RECOVERABLE — nothing is lost yet.** The next session to boot on or after ~15:30 ET Fri 8/21 can take BOTH in one pass, in either order, with no loss of resolution. **A session booting Mon 8/24 can still take both — the prints will be 3 days old, not stacked.** **The failure mode is only reached if 8/28 arrives ungraded.**
+>
+> ⚠️ **AND IF A GRADE IS TAKEN LATE, SAY SO ON THE GRADE.** A grade written days after its print is still a valid grade; a grade that hides its own latency is not. `[[finding_resolver_anchored_to_expected_event_inherits_slip_risk]]`
+
 ## NEXT SESSION (dated, future-verifiable)
 
 1. **🔴🔴 TODAY ~13:00 + ~15:30 ET — BOTH GRADES STILL OWED AND NEITHER IS DONE. ✅ BOTH INSTRUMENTS PRE-FLIGHTED 11:0x ET, BEFORE THEIR WINDOWS RATHER THAN INSIDE THEM.**
