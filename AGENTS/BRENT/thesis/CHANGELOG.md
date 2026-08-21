@@ -8,6 +8,29 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-21 (Fri) — **NO THESIS VERSION CHANGE (stays v5.6). One claim CONFIRMED from outside, two file defects corrected, one mechanism leg WEAKENED.**
+
+**① SPR BUFFER CLAIM — CONFIRMED, NOT CHANGED. Old view → new view: unchanged in substance, upgraded in evidence.**
+- **Old view (standing since v5.0, §"The buffer release itself"):** *"the SPR is a bridge loan over the Hormuz outage, not evidence of scarcity that should lift price."* Written as an inference, with no contract behind it.
+- **New view:** identical claim, now with a **named mechanism from an independent desk** — a **~172M bbl DISCRETIONARY EXCHANGE**, barrels **repaid IN KIND at 1.18–1.24× over 2026-29**, delivery window **"primarily April–August 2026"** [WALTER `SIG-W-20260819-016`, 0.70, specialist-secondary].
+- ★ **Why this is worth a CHANGELOG row despite changing nothing: the confirmation arrived as WALTER CORRECTING ITS OWN ALARM against its own prior, not as new bullish evidence — and "bridge loan" turns out to have been the literally correct word, chosen before the contract was known.**
+- ⚠️ **Limits recorded so they travel:** DOE's own release-history page carries **no 2026 entry at all**; the 18–24% premium is **negotiated and term-scheduled — NOT a spot backwardation** and must never be quoted as one; and the SPR trough (cyclical, contracted, returning) **must not be fused with structural spare capacity (~0.02 mb/d, not schedulable, does not return)** — that fusion is the error WALTER retracted in its own `-007`.
+- **Falsifier registered** (`docket/CATALYSTS.tsv`, 2026-09-09): draw stops/decelerates in September ⇒ contracted-schedule reading holds; draw continues at ~5-6M/wk ⇒ it weakens and emergency-consumption partially recovers.
+
+**② SHALE-NON-RESPONSE MECHANISM — WEAKENED (mechanism only; no letter of any prediction changed).**
+- **Old view:** BRT-04's Q1 letter CONFIRMED, mechanism already marked WEAKENING at the post-Q1 rig climb (407 trough → 429).
+- **New view:** **WEAKENED FURTHER.** Oil rigs **455** (wk-8/14), the **highest since May-2025**, risen in **9 of the last 12 weeks**. **BRT-26 (60%) now sits 2 rigs from its 457 failure line with the window closing Sep 30 — the most likely adverse resolution on the ledger.**
+- ⚠️ **The lag caveat that made my 7/21 call wrong still binds and cuts the other way now:** rigs lag price 4-8 weeks, so these prints reflect **June/July decisions**, not $93 Brent. **The response to the current level has not been observed yet.**
+- ⛔ **Recorded against myself: my own TRACKER carried `451 / 6 away` for two published prints and I quoted that stale distance to Will at boot. Caught by PROME, not by any check of mine.**
+
+**③ DISTILLATE-TIGHTNESS LEG (v5.6) — REAFFIRMED against a false alarm, no change.** Two packets reported the crack rolling over. **`CL`/`HO`/`RB` all rolled Sep→Oct on 8/20**; the reported **−$10.71 gasoline "collapse" was 100% the summer→winter RVP grade spread on a day BOTH September contracts closed UP.** Diesel crack **~$100, at its record**; true give-back from the **8/18** peak is **−$1.77 and decelerating**, not −$5.08 accelerating. **No thesis change — but the leg would have been written down on an artifact had it not been re-derived on named contracts.**
+
+**④ TWO FILE DEFECTS CORRECTED IN `THESIS.md` ITSELF:**
+- **`**Version:** 5.5`** while the title line read **`v5.6`** — an **8-day two-clock drift on the version field of the thesis**. Title was right; field corrected.
+- **"Authorization-bound; winds down ~Jul 3"** — **wrong, and it sat there ~7 weeks while the draw ran on.** The real window is **April–August 2026.** Struck in place, not deleted.
+
+---
+
 ## 2026-08-14 (Fri) — **NO THESIS VERSION CHANGE (stays v5.6). SPEC/REGISTRY EVENT ONLY: the COT positioning band UN-FIRED, died, and was replaced.**
 
 **Logged here because it is a threshold-lifecycle change other surfaces cite, NOT because the thesis moved. THESIS remains v5.6 and no thesis claim, level or falsifier is touched.**

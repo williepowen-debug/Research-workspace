@@ -1,0 +1,31 @@
+# ARCHIVED 2026-08-21 — STATUS `PRICE DASHBOARD`, Jul-30 basis
+
+⛔ **FROZEN — not maintained; `STATUS.md` is canonical. DO NOT CITE ANY ROW BELOW AS CURRENT.**
+
+**Why it was archived:** this block sat on STATUS in LIVE formatting for **21 days**, headed *"Thu Jul 30 ~12:55 PM ET"*, while the tape moved underneath it. At archival it read **Brent $89.22 / WTI $83.72 / OVX 63.46 / VIX 18.75 / USO $127.89 / VLO $306.87 / MPC $312.26** against live values of **Brent $93.28 · WTI $86.31 · OVX 49.63 · VIX 16.01 · USO $134.54 · VLO $341.51 · MPC $358.23**. **OVX was wrong by 28%.**
+
+⚠️ **It also carried a RETIRED gate as live**: the DEPLOY GATE v2 row and its `{ratio <2.89 AND OVX <44.2}` cooldown language — **that gate was retired 7/30, v3 was retired by Will 8/07, and there has been NO live deploy gate since.**
+
+★ **The failure mode, recorded because it is the one this desk keeps re-finding: it was never WRONG when written. It was correct on 7/30 and nothing re-asked it.** A dated header on a live-formatted block reads as provenance, not as an expiry. `[[finding_plausible_stale_value_evades_review]]` · `[[finding_dated_stamp_is_a_trigger_not_a_shield]]`
+
+**Found by:** Will-directed boot 8/20, on a read of the file's own dashboard section — **not by any check.** The 8/17 session archived a *different* stale block (the 7/27-basis one) from this same file and this one survived the same pass.
+
+---
+
+## PRICE DASHBOARD (Thu Jul 30 ~12:55 PM ET — EIA rows now wk-7/24 **PRIMARY-CONFIRMED**; next WPSR Wed 8/5)
+
+> **⚠️ BASIS NOTE (adopted 7/28, and it bit me again on 7/29):** rows below mix **settled CLOSES** (through 7/29) with a **7/30 SESSION IN PROGRESS**. Deltas are only meaningful within one basis. **The 7/30 figures are intraday and will move** — wire quotes for Brent today ranged **$87.30–$92.65**, so no single 7/30 print is authoritative. ⛔ **My own 7/29 "gasoline crack −$10.89 in one session" was an intraday read that did not hold to the close** (close was $58.25, not $49.90) — the same class as the 7/28 OHLC error. `[[finding_ohlc_verify_before_session_claims]]`
+
+| **★ 7/29 THE RE-BID BAR (settled)** | **Brent closed $90.74, +$6.65 = +7.91%** — resumed strikes **plus** the −7.2M draw (consensus was −1.3M). WTI $84.46 (+6.56%). Kilduff/Again Capital: *"the market is rapidly pricing in the enhanced risk to supplies in the region once again"* | Jul 29 [CONF Reuters settles] |
+|---|---|---|
+| **Brent (BZ=F)** | **$89.22 (−1.68%) — ⚠️ INTRADAY 7/30, not a close.** Still **−11.4% below the $100.69 peak**. Path: $100.69 (7/23) → $82.51 low (7/28) → $90.74 close (7/29) → fading | Jul 30 [live ~12:55 ET] |
+| **WTI (CL=F)** | **$83.72 — ⚠️ intraday** | Jul 30 [live] |
+| **OVX / DEPLOY GATE v2** | **🔓 GATE RE-SPEC RATIFIED BY WILL 2026-07-30 (Option A) — the `{ratio <2.89 AND OVX <44.2}` cooldown gate is RETIRED in full.** **OVX 63.46 · VIX 18.75 · post-arm running peak 68.97 (7/23) ⇒ decompression −8.0%.** **Leg (a) needs ≤ −15% ⇒ OVX ≤ 58.62 — NOT MET** (a further −7.6%). Leg (b) graded on a live chain at fire only. **⏳ 10 of 20 trading days used; the arm now EXPIRES ~2026-08-13 un-deployed** — v1 had no expiry at all. ⛔ **Why it was retired, and it is NOT what I first escalated: the old gate fired constantly (50.4% of the prior year, last open 7/06) — but it was open on 0 of 38 ESCALATION days vs 78.5% of all others. It and the arm's own trigger were mutually exclusive by construction.** ⚠️ **PROSPECTIVE: 7/28 would have satisfied leg (a) (−17.1%, USO $120.49) but predates ratification — no fire is claimed from it.** ⚠️ fetch.py's bare `OVX` is broken — use `^OVX` | Jul 30 [CONF yfinance `^OVX`/`^VIX`] |
+| **CRACKS (★ the clean instrument — now with a MECHANISM, not just an observation)** | **Diesel crack: $99.08 on 7/29 = A FRESH 6-MONTH HIGH** (beat 7/28's $95.08 and 3/20's $95.23), **99.2nd percentile**; **~$90.6 intraday 7/30, still 96.8th %ile**. **Gasoline crack: $60.79 (7/28, 6-mo high) → $58.25 (7/29) → ~$48.4 (7/30 intraday) — 95.2nd %ile to 61.9th in two sessions.** 3-2-1 ~$62.4. **★ THE BARREL IS SPLITTING AND BOTH HALVES HAVE VOLUME CONFIRMATION: distillate demand +4.74% YoY vs gasoline −0.25% YoY** [EIA primary wk-7/24]. **🆕 THE SUPPLY LEG, FOUND 7/30: Russia banned diesel/gasoil exports outright 7/8 — loadings 234 kb/d (Jul 1-10) vs 400 kb/d (Jun) vs ~817 kb/d (2025 avg)**; CERA has Russian refining downtime **>4 mb/d** wk-7/10 *(single source, not propagated)*. **The world lost the #2 diesel exporter — that is why US stocks build while the crack rips.** ⏰ **Ban expiry stated 7/31** | Jul 29 close / Jul 30 intraday [CONF yfinance CL/HO/RB, self-computed; Reuters/S&P for the ban] |
+| **★ TANKER SANITY CHECK (not a fire today — read it honestly)** | **STNG $77.40 (−1.61%) · FRO $38.66 (−1.33%) · DHT $18.55 (−0.10%)** — tankers DOWN modestly on a day crude is also down. **This is NOT the LESSONS #16/#18 check firing or failing: that check only has meaning on an ANNOUNCEMENT day, and there was no de-escalation announcement.** The 4-session run of tankers-rising-into-weak-crude has stopped; that is a datum, not a signal. **Off-ramp playbook stays ARMED-PASSIVE** | Jul 30 [CONF yfinance] |
+| **USO (convex-arm ref)** | **$127.89 (−1.15%)** — **path IMPROVED: needs +17.3% to the 150 strike** (was +24.5% on 7/28), **+19.6% to BE ~$153, 50 DTE.** Defined risk already paid. **HOLD — do not add, do not cut** | Jul 30 [live] |
+| **Refiners** | **VLO $306.87 (+1.79%) · MPC $312.26 (+1.15%) — UP while the cracks compressed intraday.** The equity market is not buying the intraday product de-rate; worth watching which one is right. TERRY's crowding objection (46-48% IV, 1-yr highs) **UNREPAIRED and now worse**; TERRY's 3 diesel structures were CONDITIONAL *"not at Monday's price"* — **re-read owed at a live quote before anyone cites them as actionable** | Jul 30 [live] |
+| **⛽ RETAIL — DIESEL IS THE VIOLENT LEG (→ CARL)** | **Gasoline $4.098/gal · DIESEL $5.339/gal** [AAA 7/30]. **Diesel +$0.13 WoW, +$0.49 MoM, +42.8% YoY**; gasoline +$0.25 MoM, **+30.5% YoY**. FRED GASREGW **$4.096 (7/27), 2nd straight week >$4** (from $4.001). **The product split is now visible at the pump, not just in the futures crack — and it lands on freight/agriculture, not commuters** | Jul 30 [CONF AAA] / Jul 27 [CONF FRED] |
+
+---
+
