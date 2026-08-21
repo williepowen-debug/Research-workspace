@@ -10,11 +10,11 @@
   "War theaters + housing": "elev"
  },
  "docket": {
-  "2026-08-20": "CFPB complaint re-pull, company=MOHELA",
   "2026-08-21": "\u2605 COT vintage #2 (as-of 8/18, posts Fri 15:30 ET): GATE-BRENT-COT-35B re-r",
   "2026-08-22": "ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, PROME systems ",
   "2026-08-23": "FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRIVEN SPECIALIST",
-  "2026-08-24": "OSPREY durability cluster: OSP-05 legs 3a (reprice) + 3b (R3 resolvability"
+  "2026-08-24": "OSPREY durability cluster: OSP-05 legs 3a (reprice) + 3b (R3 resolvability",
+  "2026-08-26": "FORUM fin-cond T5: decoupling Test C window closes (AI-credit leg on the C"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -55,6 +55,7 @@
   "55": "CRUISE re-classification + arm-CCL ladder registration \u2014 DAEDALUS's 8/",
   "56": "SAM INFRA_AGENDA.md disposition \u2014 Status: SCOPING \u2014 Will to decide, un",
   "58": "Oil sleeve \u2014 ONE named exit condition for the USO 35 shares (you ruled",
-  "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-C"
+  "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-C",
+  "64": "VIOLET CLAUDE.md write-back step-7 amendment (DAEDALUS PR#4 durable ha"
  }
 }
