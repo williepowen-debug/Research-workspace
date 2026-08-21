@@ -154,12 +154,79 @@ def check_vx(today, max_days):
     return out
 
 
+WORKBOOK_GLOB = ["VX.tsv", "KB.tsv", "FLOW.tsv", "MIGRATION_PROXIES.tsv"]
+
+
+def check_workbook_integrity():
+    """Duplicate IDs and ragged column counts across the workbook ledgers.
+
+    Built 2026-08-21, closing MAINTENANCE T1-F which had been open since 7/31 with
+    the action recorded as 'decide the convention, then add a duplicate-ID +
+    column-count check to the boot sweep'. The convention half was done that day;
+    THIS half never was, so the same collision could land again silently.
+
+    Why a duplicate ID matters more than it sounds: a KB ID is a CITATION HANDLE.
+    'See KB-MARCO-TX-04' resolved to two unrelated findings that pointed in
+    OPPOSITE directions — a reader following the handle got a coin flip, and
+    nothing in the file looked wrong. Ragged rows are the sibling defect: appending
+    to a file with no trailing newline produced a 15-column row in a 14-column
+    ledger (found 7/31 by eye, which is not a detector).
+
+    CONVENTION (ruled 2026-08-21): IDs are never reused. On a collision the
+    EARLIER-assigned row keeps the handle, the LATER row is renumbered to the next
+    free integer, and every citation is updated in the SAME commit — which is only
+    safe after grepping the citation set, so measure before renumbering.
+    """
+    out = []
+    for name in WORKBOOK_GLOB:
+        path = MARCO_DIR / "workbook" / name
+        if not path.exists():
+            continue
+        header, rows = read_tsv(path)
+        if not header:
+            continue
+        nc = len(header)
+        # Only ID-keyed ledgers get the duplicate test. MIGRATION_PROXIES.tsv is
+        # keyed by `period` and legitimately repeats it across legs/geographies —
+        # asserting col-0 is an ID flagged it on this check's FIRST run. A check
+        # with a known false positive trains readers to ignore it, which is the
+        # failure mode boot.py already had ("✓ ran cleanly" beside a real FAIL).
+        id_keyed = header[0].strip().upper() == "ID"
+        seen, dupes = {}, []
+        ragged = []
+        for i, r in enumerate(rows, start=1):
+            rid = r[0].strip()
+            if rid and id_keyed:
+                if rid in seen:
+                    dupes.append((rid, seen[rid], i))
+                else:
+                    seen[rid] = i
+            if len(r) != nc:
+                ragged.append((rid or f"row{i}", len(r)))
+        if dupes:
+            out.append(f"  🔴 {name} — {len(dupes)} DUPLICATE ID(s): a citation handle that "
+                       f"resolves to two findings is worse than a missing one")
+            for rid, a, b in dupes[:6]:
+                out.append(f"       {rid}  (rows {a} and {b})")
+        if ragged:
+            out.append(f"  🔴 {name} — {len(ragged)} row(s) with a field count != {nc}-col header "
+                       f"(fields after the gap sit under the WRONG key)")
+            for rid, n in ragged[:6]:
+                out.append(f"       {rid}: {n} fields")
+    if not out:
+        return ["  ✓ workbook integrity — no duplicate IDs, no ragged rows"]
+    return out
+
+
 def main():
     today = date.today()
     print(f"\n{'='*72}")
     print(f"  MARCO Staleness Check — {datetime.now():%Y-%m-%d %H:%M}")
     print(f"{'='*72}\n")
     print(check_status(today, _arg("--status-days", DEFAULT_STATUS_DAYS)))
+    print()
+    for line in check_workbook_integrity():
+        print(line)
     print()
     for line in check_vx(today, _arg("--vx-days", DEFAULT_VX_DAYS)):
         print(line)

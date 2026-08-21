@@ -36,8 +36,9 @@ this bug in production).
 
 USAGE
 -----
-    from tsvutil import read_tsv
+    from tsvutil import read_tsv, write_tsv, banner_of
     header, rows = read_tsv(path)          # rows are lists of cells
+    write_tsv(path, header, rows, banner_of(path))   # LF-safe round-trip
     idx = col(header, "Last Updated")      # -1 if absent, never raises
 """
 from pathlib import Path
@@ -71,16 +72,25 @@ def read_tsv(path):
     lines = strip_banner(lines)
     if not lines:
         return [], []
-    header = lines[0].split("\t")
+    # ⚠️ CSV-AWARE, NOT a raw split("\t"). The naive split was this module's own
+    # founding bug (2026-08-21): it returned the ESCAPED text of a quoted field as
+    # literal characters, so a read->edit->csv.writer round-trip re-escaped what was
+    # already escaped and DOUBLED every quote. Five VX rows compounded 12 decoded
+    # quotes into 3,574 across four passes in one session before a byte-level diff
+    # caught it. A raw split also silently truncates any field containing an
+    # embedded newline — VX has several, which is why its 57 rows occupy 91 physical
+    # lines. csv.reader handles both; nothing else does.
+    import csv as _csv
     rows = []
-    for ln in lines[1:]:
-        if not ln.strip():
+    header = None
+    for cells in _csv.reader(lines, delimiter="\t"):
+        if header is None:
+            header = cells
             continue
-        cells = ln.split("\t")
         if not cells or not cells[0].strip():
             continue
         rows.append(cells)
-    return header, rows
+    return (header or []), rows
 
 
 def read_tsv_numbered(path):
@@ -115,6 +125,44 @@ def read_tsv_numbered(path):
             continue
         rows.append((lineno, cells))
     return header, rows
+
+
+def write_tsv(path, header, rows, banner=""):
+    """Write a TSV with LF terminators, preserving an optional banner block.
+
+    ⚠️ USE THIS INSTEAD OF csv.writer DIRECTLY. Python's csv.writer defaults to
+    `lineterminator="\r\n"` on every platform, so a routine "read, edit one row,
+    write back" silently converts an LF ledger to CRLF — or, worse, produces a
+    MIXED file when a banner written with plain write() sits above rows written by
+    csv.writer. That is exactly what happened to VX.tsv on 2026-08-21: 58 CRLF
+    lines under 26 LF banner lines.
+
+    The data impact was nil — Python text-mode reads normalise line endings, so no
+    parser ever saw the stray \r — but the diff impact was not: renumbering two
+    IDs in KB.tsv produced a 105-line diff in which the two real edits were
+    invisible. A review that cannot see the change it is reviewing is the cost.
+    """
+    import csv as _csv
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        if banner:
+            f.write(banner if banner.endswith("\n") else banner + "\n")
+        w = _csv.writer(f, delimiter="\t", lineterminator="\n")
+        w.writerow(header)
+        w.writerows(rows)
+
+
+def banner_of(path):
+    """Return the leading comment block of a TSV verbatim (including its newlines)."""
+    p = Path(path)
+    if not p.exists():
+        return ""
+    out = []
+    for ln in p.read_text(encoding="utf-8").split("\n"):
+        if ln.lstrip().startswith("#") or (not ln.strip() and out):
+            out.append(ln)
+        else:
+            break
+    return "\n".join(out) + ("\n" if out else "")
 
 
 def col(header, name, default=-1):

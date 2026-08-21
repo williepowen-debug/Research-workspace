@@ -198,7 +198,7 @@ Provenance caveats (open): (1) enacted ICE/CBP sub-split not reconciled — "$38
 | ICE enforcement-funding lock (flow accelerator) | 🔴 STRUCTURAL / locked | **🟠 CONTESTED ↓** — missed Jun 1, core carved |
 | SDL-01 stock-loss driver (2.2M) | irreversible | **unchanged** — irreversible |
 
-**Companion data point (not a thesis change):** Banxico Apr remittances +3.7% YoY ($4.98B); the Mar pull-forward paradox (count −3.6% / avg +8.9%) is FADING (count −1.7% narrowing, avg premium +5.5% compressing) — normalizing, no Q2-Q3 air-pocket so far. Count still negative = SDL-01 senders-decline tell intact. Resolves the remittance-paradox open thread toward "normalizing." Logged KB-MARCO-REM-03; not a conviction change (consistent with existing structural read).
+**Companion data point (not a thesis change):** Banxico Apr remittances +3.7% YoY ($4.98B); the Mar pull-forward paradox (count −3.6% / avg +8.9%) is FADING (count −1.7% narrowing, avg premium +5.5% compressing) — normalizing, no Q2-Q3 air-pocket so far. Count still negative = SDL-01 senders-decline tell intact. Resolves the remittance-paradox open thread toward "normalizing." Logged KB-MARCO-REM-04 *(renumbered from KB-MARCO-REM-03 on 2026-08-21 to resolve an ID collision; the handle now resolves uniquely)*; not a conviction change (consistent with existing structural read).
 
 **Discipline note:** third correction in the same direction — don't bank a forecast (here, a legislative passage) as a *resolved structural fact* before it clears. v2.1 demoted an over-claimed signal (produce), v2.2 re-promoted an under-claimed one (tourism), v2.3 un-banks a not-yet-true one (the funding lock). The robust core each time is the irreversible stock fact; the contaminated layer is the readout/forecast on top.
 
