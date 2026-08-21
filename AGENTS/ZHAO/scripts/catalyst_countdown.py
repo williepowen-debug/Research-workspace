@@ -52,6 +52,14 @@ PAST_RETENTION_MIN = 10
 PAST_RETENTION_MAX = 120
 DATE_CLASS_ENUM = {"confirmed", "external", "estimated", "modeled"}
 
+# STATE_VOCABULARY Class 9 (marker-role separation) — Will-ruled 2026-08-21, provenance
+# this desk's own glyph-collision find. PRIORITY is carried by a P1/P2/P3 TEXT token;
+# the coloured circle beside it is DECORATION ONLY. Rationale: a coloured circle that
+# means "priority" in one column and "severity" everywhere else makes any marker-scrape
+# read a healthy high-priority row as an alert — which is exactly why this file's reader
+# keys the boot verdict on RETURNED COUNTS, never on scraping glyphs out of stdout.
+PRIORITY_TOKENS = ("P1", "P2", "P3")
+
 
 def _git_commit_date(path):
     """Canon-preferred vintage: git commit time, NOT mtime (git sync restamps mtime)."""
@@ -173,7 +181,7 @@ def collect(today):
             anchor = (r.get("Anchor_Type") or "").strip()
             ev.append((d, f"{r.get('Pred_ID')} resolves — {(r.get('Prediction') or '')[:52]}",
                        f"conf {r.get('Confidence','')} · status {st[:40]}",
-                       "🔴", "modeled" if anchor == "publication" else "confirmed", "PRED", d))
+                       "P1 🔴", "modeled" if anchor == "publication" else "confirmed", "PRED", d))
 
     # --- 3. PROME/DOCKET.tsv rows naming ZHAO (read-only)
     try:
@@ -185,7 +193,7 @@ def collect(today):
                     d, dend, is_rng = _parse_span(r[0])
                     if d:
                         ev.append((d, f"[PROME DOCKET] {r[1][:60] if len(r) > 1 else ''}",
-                                   "", "🟠", "modeled" if is_rng else "external", "DOCK", dend))
+                                   "", "P2 🟠", "modeled" if is_rng else "external", "DOCK", dend))
     except Exception as e:
         warn.append(f"🟠 DOCKET read failed ({type(e).__name__}) — cross-agent leg unread")
 
@@ -219,7 +227,7 @@ def main():
         print(f"\n    ⚠️  RECENTLY FIRED — last {retention}d (since last closeout, basis={basis}) — SWEEP NOW")
         print(f"    {'-'*72}")
         for d, label, detail, pri, cls, src, dend in fired:
-            print(f"    {pri or '  '} {d} ({d.strftime('%a')})  {(today-d).days:>3}d ago  [{src}] {label}")
+            print(f"    {(pri or '').ljust(5)} {d} ({d.strftime('%a')})  {(today-d).days:>3}d ago  [{src}] {label}")
             if detail:
                 print(f"         ↳ {detail[:110]}")
     else:
@@ -236,7 +244,7 @@ def main():
             trd = trading_days_between(today, d)
             span = f"..{dend}" if dend and dend != d else ""
             when = f"{mark}{d}{span}"
-            print(f"    {pri or '  '} {when:<24s} {cal:>3}d cal /{trd:>3}d trd  [{src}] {label[:52]}")
+            print(f"    {(pri or '').ljust(5)} {when:<24s} {cal:>3}d cal /{trd:>3}d trd  [{src}] {label[:52]}")
             if detail and cal <= 14:
                 print(f"         ↳ {detail[:110]}")
         print(f"\n    ('~' = modeled date: month known, DAY IS A PLACEHOLDER — re-date when announced)")
