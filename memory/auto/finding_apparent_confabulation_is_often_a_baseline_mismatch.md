@@ -16,3 +16,13 @@ A number that contradicts your trusted primary can look like a confabulation whe
 - Use one source for **LEVEL**, another for **TREND** — never mix their absolute values. (ENSO: `ensodisc.pdf`/`oni.ascii.txt` for level; `wksst9120.for` for weekly trend.)
 - Watch **column-order traps** across sibling files: `wksst9120.for` orders regions 1+2 / 3 / 3.4 / 4; `sstoi.indices` orders 1+2 / 3 / 4 / 3.4 — mixing silently swaps Niño-3.4 ↔ Niño-4.
 - This is the inverse-error guard to `feedback_single_source_liveevent_is_a_lead`: that one says don't over-trust a lone secondary; this one says don't over-*reject* a figure as fake when it is real on another baseline. Ties to `finding_asymmetric_rigor_counterparty_claims` (verify the number that makes you RETRACT, not just the one that makes you commit) and rebasing memories like `finding_threshold_level_is_a_measurement_not_a_constant`.
+
+**Second worked case — the inverse direction (MARCO, 2026-08-21, caught on self-review the same session):** I called a *published* figure an **artifact** and told consumers not to adopt it. Nevada Gaming's monthly release headlined percentage-fee tax collections at **−6.99% YoY**, with a footnote reading *"collections are through July 21."* I concluded it was a partial month compared against a full prior-year month, refused the number, and wrote that into a vector row, STATUS, a session handoff and a cross-agent brief.
+
+**It was wrong.** The footnote describes a *standing convention*, not an asymmetry: the previous month's release carries the identical note (*"through June 23"*). **A limitation disclosed on one side is not evidence that the other side lacks it.**
+
+**⇒ The runnable discriminator, which is the part worth stealing:** if the asymmetry were real, it would produce a **systematic directional skew** across the series. So compute the YoY across many periods before ruling on any one of them. Here: twelve monthly prints, **mean +7.09%, six of twelve negative, full-year +5.07%** — no skew, therefore no one-sided truncation, therefore the figure is real.
+
+**And the correct finding was stronger than the one it replaced.** Those same twelve prints have **σ = 14.04pp** (range −12.35% to +33.80%), so the −6.99% is a **−1.0σ move with 2 of 12 months at least as negative — a single month carrying no signal at all.** Base-rating the series answered the question that "is this number fake?" could not. *(The stale text I was replacing had made the mirror-image error: three monthly prints called "clear deterioration" in that same 14pp-σ series.)*
+
+**Both directions of this failure share one root:** a *basis* question got answered by inspection instead of by measurement. Crying fake and crying artifact are the same move.
