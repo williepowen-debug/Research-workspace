@@ -389,6 +389,89 @@ def probe_gie(spec):
         return False, None, f"unreachable: {type(e).__name__}: {e}"
 
 
+def probe_jwc(spec):
+    """JWC Listed-Areas CHANGE DETECTOR — the circular NUMBER, not the page's reachability.
+
+    Grammar: jwc:<index-url>|<baseline-circular>       e.g. jwc:https://...|JWLA-034
+
+    ⚑ ADDED 2026-08-21. supersedes: none — EXTENDS the probe grammar (retirement ratchet),
+    exactly as `arcgis:` and `gie:` did before it.
+
+    ⛔⛔ WHY A PLAIN `http:` PROBE IS NOT ENOUGH, WHICH IS THE WHOLE REASON THIS EXISTS:
+    `probe_http` answers "did the host reply?". The IUA page will answer 200 FOREVER while
+    the circular number moves underneath it. REACHABILITY IS NOT CHANGE-DETECTION, and
+    `KILL-LEG2-JWC-LISTING` is an ASYMMETRIC STANDING NEGATIVE — a row whose failure mode is
+    precisely that NOTHING MAKES ANYONE RE-READ IT. A green reachability probe on a standing
+    negative actively misleads: it looks like a watched instrument and is not one.
+
+    ⚑ THE COST OF NOT HAVING THIS, MEASURED ON THIS DESK 2026-08-21: `JWLA-033` was superseded
+    on 2026-07-29 by `JWLA-034` — which amended SAUDI ARABIA into the Listed Areas — and
+    THESIS's Path-A criterion went on citing `JWLA-033` for three weeks. Nothing was broken,
+    nothing 404'd, so nothing re-asked. Found only by chasing anchors before a file cut.
+
+    ⚑ PRIOR-ART LINE (CHECK_STANDARD §13, RULED Will 2026-08-21). SYMPTOM SEARCHED: "a carried
+    baseline that nothing re-evaluates, behind a source that keeps answering 200 while its
+    CONTENT moves underneath it." Searched MEMORY.md, memory/auto/ BODIES and PATTERNS_HOT.md.
+    ⇒ NOT NOVEL, and the prior art SHARPENS the design rather than duplicating it:
+      * [[finding_dated_carry_item_has_no_expiry_check]] — PRIMARY. "A carried ASSERTION never
+        self-reports as wrong — it is a string, and reading it does not evaluate it. State gets
+        re-derived because CHECKING IS USING; carried claims do not." The JWLA-034 baseline is
+        exactly such a carried claim, and a standing negative is the purest case: nothing USES
+        it, so nothing re-derives it. That is the argument for this probe, already written down.
+      * [[finding_partitioned_source_returns_stale_window_at_200]] — ADJACENT, and the mirror
+        image: there the SOURCE is stale behind a 200; here the source MOVES while my BASELINE
+        stands still. Same 200, opposite direction.
+      * [[finding_retired_threshold_has_no_publisher]] — ADJACENT: tooling instruments REVISED
+        values and is structurally blind to WITHDRAWN ones. A JWC DELISTING is a withdrawal.
+
+    ⛔ THIS IS A PROMPT, NEVER A FIRE. Will ruled 2026-08-21 that a delisting is PROMPT-ONLY
+    (a removal can be LOBBIED rather than earned — Pakistan was an explicit state campaign
+    taking ~4.5 months). So a new circular means GO READ IT. It does NOT grade the falsifier,
+    does not kill the thesis leg, and authorises nothing.
+    """
+    parts = spec.split("|")
+    if len(parts) != 2:
+        return False, None, f"bad jwc grammar (want url|baseline-circular): {spec!r}"
+    url, baseline = parts[0].strip(), parts[1].strip().upper()
+    m0 = re.match(r"JWLA-(\d+)", baseline)
+    if not m0:
+        return False, None, f"bad baseline circular {baseline!r} (want JWLA-NNN)"
+    base_n = int(m0.group(1))
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            if resp.status != 200:
+                return False, None, f"HTTP {resp.status}"
+            body = resp.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        return False, None, (f"unreachable: {type(e).__name__}: {e} — ⚠️ if this is a HANG "
+                             f"rather than an HTTP error, check the User-Agent first (L25)")
+    found = {}
+    for mm in re.finditer(r"JWLA-(\d+)([^<]{0,120})", body):
+        n = int(mm.group(1))
+        dm = re.search(r"(\d{1,2}/\d{1,2}/\d{4})", mm.group(2))
+        found[n] = found.get(n) or (dm.group(1) if dm else None)
+    if not found:
+        # a 200 with no circular numbers in it is the LMA navigation-shell shape: fail loud.
+        return False, None, ("HTTP 200 but NO JWLA circular number in the page — this is the "
+                             "reachable-but-not-readable shape (the LMA committee page does "
+                             "exactly this). Treat as a FAILURE, not as 'no change'.")
+    newest = max(found)
+    if newest > base_n:
+        newer = sorted(k for k in found if k > base_n)
+        lst = ", ".join(f"JWLA-{k:03d}{' (' + found[k] + ')' if found[k] else ''}" for k in newer)
+        return False, None, (f"🔴 NEW JWC CIRCULAR SINCE THE FROZEN BASELINE {baseline}: {lst}. "
+                             f"⇒ PROMPT TO INVESTIGATE — read the circular and check whether the "
+                             f"Persian/Arabian Gulf + Gulf of Oman are still LISTED. "
+                             f"⛔ THIS IS NOT A FIRE: a delisting is PROMPT-ONLY (Will, 2026-08-21) "
+                             f"and a removal can be lobbied rather than earned.")
+    if newest < base_n:
+        return False, None, (f"baseline {baseline} is NEWER than anything on the index "
+                             f"(newest JWLA-{newest:03d}) — baseline or index is wrong, do not ignore")
+    return True, None, (f"baseline {baseline} is still the newest circular on the IUA index "
+                        f"({len(found)} circulars listed) — Listed Areas UNCHANGED since it")
+
+
 def probe_chain(spec):
     try:
         import yfinance as yf
@@ -449,6 +532,8 @@ def evaluate(row, quick=False):
             ok, last_dt, detail = _cached(probe, lambda: probe_arcgis(probe[7:]))
         elif probe.startswith("gie:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_gie(probe[4:]))
+        elif probe.startswith("jwc:"):
+            ok, last_dt, detail = _cached(probe, lambda: probe_jwc(probe[4:]))
         elif probe.startswith("chain:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_chain(probe[6:]))
         else:
@@ -457,7 +542,16 @@ def evaluate(row, quick=False):
         if ok is None:
             add(AMBER, "NO_PROBER", detail)
         elif not ok:
-            add(RED, "DEAD", f"instrument did not return usable data — {detail}")
+            # ⚑ 2026-08-21: a CHANGE-DETECTOR failing is NOT a dead instrument — the source
+            # answered perfectly and the BASELINE moved. Labelling that "DEAD: instrument did
+            # not return usable data" is factually wrong and is the same mislabel class this
+            # desk spent the day correcting: the wrapper contradicting its own payload.
+            # Detected off the probe's own PROMPT sentinel so every other probe is untouched.
+            if "PROMPT TO INVESTIGATE" in (detail or ""):
+                add(RED, "BASELINE-MOVED",
+                    f"the instrument answered FINE — the FROZEN BASELINE is stale. {detail}")
+            else:
+                add(RED, "DEAD", f"instrument did not return usable data — {detail}")
         else:
             add(GREEN, "REACHABLE", detail)
 
