@@ -578,6 +578,7 @@ def check_incident_staleness(today=None):
         return []
     today = today or datetime.today()
     stale = []
+    permanent = []
     with open(INCIDENTS, newline="", encoding="utf-8") as fh:
         hdr = None
         for line in fh:
@@ -588,7 +589,25 @@ def check_incident_staleness(today=None):
                 hdr = f
                 continue
             r = dict(zip(hdr, f))
-            if (r.get("status") or "").strip() != "ACTIVE":
+            st = (r.get("status") or "").strip()
+            if st == "PERMANENT_CLOSURE":
+                # ⚑ ADDED 2026-08-21. TERMINAL STATE — deliberately OUT of the re-verify budget,
+                # and counted separately below so it can never vanish silently.
+                # WHY: a permanently shut refinery fits NEITHER existing status. ACTIVE means
+                # "still offline, re-verify me", which is trivially true forever and puts the row
+                # on an endless treadmill; RESOLVED means "restored", which is false. Left as
+                # ACTIVE, RF-028/RF-029 tripped the 60-day flag EVERY boot with no reachable
+                # end state — diluting a queue whose whole purpose is to show real work owed.
+                # ⛔ THIS IS NOT DOWNGRADING ON A TIMER (which the ledger header forbids and
+                # which would fabricate a restart): it is a re-classification made on a
+                # RE-VERIFIED primary, and each such row carries a NAMED RE-ENTRY CONDITION
+                # in its notes instead of a clock. `[[finding_guard_correctness_and_wiring_are_independent]]`
+                # — the status was added and this filter updated IN THE SAME EDIT, because a new
+                # status with an unchanged reader drops the rows out of every check silently.
+                permanent.append((r.get("id", "?"), r.get("facility", "?"),
+                                  (r.get("last_verified") or "").strip()))
+                continue
+            if st != "ACTIVE":
                 continue
             lv = (r.get("last_verified") or "").strip()
             try:
@@ -599,6 +618,7 @@ def check_incident_staleness(today=None):
             if age >= INCIDENT_ACTIVE_BUDGET_D:
                 stale.append((r.get("id", "?"), r.get("facility", "?"), age, lv))
     stale.sort(key=lambda x: (x[2] is not None, -(x[2] or 0)))
+    check_incident_staleness.permanent = permanent   # side-channel for the caller's summary line
     return stale
 
 
@@ -671,6 +691,23 @@ def main():
                   f"fabricate a restart nobody observed.")
             print(f"     ⛔ NO AGGREGATE OVER INCIDENTS.tsv IS QUOTABLE — event record, "
                   f"not a capacity measure (Will-ruled fleet-wide 2026-08-12).")
+
+        # ⚑ ADDED 2026-08-21 alongside the PERMANENT_CLOSURE terminal state. This line is the
+        # WHOLE REASON the new status is safe: the filter above skips these rows, so WITHOUT
+        # this print they would leave the re-verify queue AND every other surface at once —
+        # a silent coverage hole wearing the appearance of a cleaner board.
+        # ⚠️ Prints UNCONDITIONALLY when any such row exists, including when `inc` is empty,
+        # so an otherwise-clean run still discloses what has been moved out of scope.
+        perm = getattr(check_incident_staleness, "permanent", [])
+        if perm:
+            print(f"\n  {GREEN} INCIDENTS.tsv — {len(perm)} row(s) in PERMANENT_CLOSURE "
+                  f"(TERMINAL: deliberately OUTSIDE the {INCIDENT_ACTIVE_BUDGET_D}d re-verify budget, "
+                  f"listed so the exclusion is never silent):")
+            for rid, fac, lv in perm:
+                print(f"     {GREEN} {rid} {fac[:38]:38s} re-verified {lv}")
+            print(f"     ⚠️  These are NOT restarts and NOT resolutions — the capacity is gone, "
+                  f"permanently. They re-enter ACTIVE only on a REPORTED restart or sale-and-restart, "
+                  f"never on a clock. Each row names that condition in its notes.")
 
         # Anti-false-clean disclosure. A pass means nothing without this.
         print(f"\n  {'-'*74}")
