@@ -1,100 +1,92 @@
 # MARCO SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-08-12 ET (session 21 — ran across midnight, opened 8/11. Boot → three passed prints pulled from primaries → inbox 8 → 0 → DAEDALUS's three-times-measured wiring defect closed.)
+**Last Updated:** 2026-08-21 ET (session 22 — 9-day catch-up. Boot → 6 passed catalysts worked → 4 primaries pulled → WALTER lane 25→0 → a retracted figure found live in a BREACHED row.)
 
-## CHANGES SINCE (session 20 → 21)
-**11 days offline.** Three catalysts came and went unread (Banxico June 8/1, OFLC H-2A Q3 8/1, BLS July NFP 8/8) and eight packets accumulated. Nothing in the repo moved on MARCO's behalf while it was away — the gap was mine to close, and this session closed it.
+## CHANGES SINCE (session 21 → 22)
+**9 days offline.** Six docketed catalysts passed unread (BLS July CPI 8/12, NTTO June 8/15, Banxico state-of-origin 8/15, OFLC H-2A Q3 8/18, FL Citizens 8/18, Section 338 effective 8/19), the WALTER lane accumulated **25** signals, and the general inbox took **11** packets. Nothing moved on MARCO's behalf while it was away. **One catalyst resolved differently than docketed: the Section 338 tariff did not take effect.**
 
-## WHAT I DID (session 21)
+## WHAT I DID (session 22)
 
-### 1. 🔴 The SDL-01 count tell broke on its own letter — and I graded it that way
-`SCRATCH` s20 wrote the rule down: *"count YoY … **positive = the tell breaks**."* Banxico June (CE81 primary, pulled 8/11): **count +0.35% YoY, the first positive in 15 months**, ending a 14-month negative run. **Graded BROKEN as written.** I did not re-derive a rule after seeing the number — that is the exact move the 7/31 FL-diagnostic MISS scoring was praised for refusing.
+### 1. 🔴 H-2A Q3 published — the first negative quarter, and I base-rated the Q4 rather than assuming it
+Boot auto-fetched `FY2026_Q3` (DOL live, 77.5MB) — the file that was still 404 on 8/11. **FY26 thru Q3 = 349,867 certified** (Q1 62,340 / Q2 192,025 / **Q3 95,502**).
 
-**Then the base-effect frame, recorded as a spec defect rather than a confidence dodge:** Jun'25 was itself the worst month in the series (−13.27%), so the flip is a base effect and the **2-yr stack is −12.96%, the deepest of 2026** (Jan −0.26 / Feb −1.25 / Mar +1.12 / Apr −8.60 / May −6.22 / Jun −12.96). H1-26 count −1.83% YoY / **−5.06% 2-yr**. **The stack is deteriorating while the YoY flips positive.**
+**The finding is the QUARTER, not the cumulative: Q3 = −3.99% YoY** (vs FY25's 99,467) — **the first negative quarter in the series.** Through-Q3 growth decelerated to **+10.36%** from H1's **+16.92%**.
 
-⚠️ **The defect is mine and it is asymmetric rigor on my own instruments.** TOUR-01 is framed on a 2-yr stack *because* "the April recovery was base-effect" — I wrote that lesson for Canadian travel, then wrote the remittance tell on bare YoY with no sustain window and no base guard. **Re-spec (2-yr stack ≤ −5%, 2 consecutive prints) is POST-HOC and cannot be scored as a confirm.** First clean forward window = Banxico July, ~Sep 1, now docketed as such.
+**I did not project off a share I assumed.** Pulled **FY2025_Q4 and FY2024_Q4 with the identical aggregation** (→ `baselines/h2a_history_quarterly.json`): FY25 total 397,977 / Q4 **80,947** (20.34%) · FY24 total 384,865 / Q4 **74,234** (19.29%). ✅ **The FY25 total reproduces MARCO's carried 398,059/398,258 to 0.07%** — the like-for-like check MEMORY demands before re-marking.
 
-### 2. 🔴 July NFP — negative payrolls, and the quantity leg got its first counter-print
-**−23K (first negative of the cycle)**, June revised **+57K→+20K**, **UR 4.1% FELL while payrolls fell** (LF −264K MoM / −1,318K YoY), **LFPR 61.4%** = new 50-yr low ex-Covid, L&H **−40K** post-World-Cup.
+🔴 **Required Q4 to clear 425K = 75,133, which sits BETWEEN the two historical Q4s** — FY25's clears it by 5,814, **FY24's would MISS by 899.** Three projection methods give **427.6–439.2K**: all still clear, but by **~0.6–3.3%** instead of the carried **~7–9%**. **The carried "~455-465K pace" is falsified by the print.** ⇒ **MAR-11 88% → 72%**, kept OPEN, formal resolve at the FY2026_Q4 file (~Nov).
+⚠️ Second risk sized rather than waved: the cumulative file **re-cut Q1/Q2 DOWN ~323** between vintages; a similar Q4-file revision eats ~6% of the thinnest cushion.
 
-**Foreign-born LF: the Mar→Jul path is the finding and it is not seasonal** — 2026 **−5.6%** (−1,885K) against a 2022-24 norm of **+0.1% to +1.7%**. But two deflators I wrote in rather than around: **the anomaly began in 2025** (−4.9%), so 2026 is intensification not a step change; and **the 2024 surge is fully given back and no more** — Jul'26 (31,516k) is below Jul'24 and Jul'25 but still **above Jul'23**.
+### 2. 🔴 A retracted figure was still live in a BREACHED row — 51 days after the sweep that fixed its twin
+**`VX-MARCO-2.01` still asserted *"The 2.2M STOCK loss (SDL-01) irreversible regardless."*** The 7/31 PROME audit found and corrected that exact figure in **`VX-2.02`** — **the adjacent row, same file, same domain, same BREACHED status** — and stopped there. 2.01 was 67 days stale so no refresh pass reopened it.
 
-⚠️ **Counter-evidence logged, not buried: less-than-HS LFPR ROSE 43.1 → 45.5%.** The "accelerating collapse" run (Apr 45.0 → May 44.0 → Jun 43.1) is **not confirmed**; June now looks like a small-sample trough. It was cited as corroborating texture and it moved the other way.
+**A fix clears the ROW you are looking at, not the LEDGER.** This is MARCO's own *"a fix clears the REGION, not the FILE"* lesson one level up — the unit here is a row **inside the file the sweep was already auditing**. Worse than an ordinary stale number: 2.01 is `BREACHED`+`HIGH` (the class that gets cited) and the retracted figure carried the load-bearing clause.
 
-⚠️ **Two traps caught before anything shipped.**
-- **Series inversion:** I first labelled `LNU01073413` foreign-born. It is **native-born**; `LNU01073395` is foreign-born. Caught by three checks — components sum **exactly** to `LNU01000000`, the 395 share is 18.5–18.7%, and 395's June YoY **reproduces MARCO's own carried −700K**. BLS `catalog=True` returns no titles for these IDs, so the identity check is the only guard. Written into the SDL-01 row.
-- **Numeric collision:** peak-to-current on the foreign-born series (Mar'25 → Jul'26) is **−2,203K**, which reads as "2.2M" — **the exact retracted figure**. Different quantity entirely (seasonal-NSA drawdown vs deportation count). Flagged loudly in STATUS and VX so it cannot resurrect the claim. Same class as the LABOR "1.9M" digit collision.
+**Scope check run before claiming it was the last one:** `grep -rn "2.2M"` across MARCO surfaces = **13 hits, 12 correctly-labelled historical/retraction records; 2.01 was the ONLY surviving live assertion.** Replaced with ~1.0M realized foreign-born LF decline. Written to `FIGURES.md` §4 with the standing consequence.
+⚠️ **I did not silently re-certify the row:** its `BREACHED` mark scores off the "500-600+/day arrests; 65K detained" rate, which is **Jun-15 vintage and was NOT re-verified.** Labelled **carried-not-confirmed**.
 
-### 3. H-2A: the print is LATE, not missed
-Live filename discovery still returns `FY2026_Q2`. **DOL has not published Q3.** MAR-11 (>425K, 88%) unchanged on the 254,688 base. Docket row re-dated 8/18 with the reason. *(Boot's ❌ FAIL was a transient dol.gov ReadTimeout — **not** the hardcoded-filename class that killed this fetcher for 101 days. Direct retry: 13s, clean.)*
+### 3. 🔴 A fourth Channel-1 transmission instrument came back against — and its band is unscorable
+`VX-2.03` refreshed off BLS primary (CES/SAE, July SA): **national +0.99% · TX +1.94% · FL +0.41% · CA −0.75%.** **Two of three high-immigrant states sit inside the row's own NORMAL band, and TX — largest immigrant construction workforce, MARCO's control in the 7/31 floor-controlled test — is the STRONGEST of the four.**
 
-### 4. Inbox 8 → 0
-- **HAWK (8/10) — the Channel-2 catalyst is FORWARD and I had the date wrong.** The 50% Section 338 Canada tariff was *proclaimed* 7/20 (what STATUS carried) but is **effective Aug 19**, 8 days out, landing in the winter-booking window. Separately **Section 301 has been live since 7/24** across 60 economies (~99.4% of US imports) — that pull-forward is **retrospective and already inside my Jun/Jul flow data**. Two windows, opposite phases; docketed separately so they cannot be netted.
-- **CORAL (8/3) — three of my open items closed in one packet.** VX-3.01 adopted at **~$7,136 / $300K dwelling** (⭐ **the "needs FL OIR primary" blocker was unsatisfiable as written — OIR publishes no statewide average-premium series at all, only rate-change filings**; the four-way spread was four methodologies, not four disagreements). **Lakeland ruled a third category** (inland affordability-overflow, 10.8% negative equity — not migration-implicated, not Jax/Ocala either). **Citizens depop has STALLED** — PIF 278,061 at 7/24 vs 278,246 at 6/30, −185 in 3.5 weeks after −29%/5mo; 8/18 re-weighted 🟢→🟠 as the pause-vs-floor tell.
-- **HOMER (7/31) — "FL #1 for foreclosures" is a RANK claim.** FL's 2025 level (0.435%) is **~31% below its own 2019** (0.63%) and FL ranked **#8 in 2023**. Qualifier applied to all three surfaces that carried it. Directly relevant: *a foreclosure rate below its own 2019 level is weak support for a migration-outflow story.*
-- **DAEDALUS (8/7), PROME ×3, AEOLUS (8/3)** — all actioned or logged; see below.
+⚠️ **Spec defect recorded, not quietly resolved:** the BREACHED band (">3pp below national **OR** negative while national positive") never says **per-state or class**. Per-state CA alone trips it; as the class the row is named for, nothing does. **Same unscorable-band family as VX-1.03 and the SDL-01 count tell — that is now three.** Scored on the class (the title is plural) ⇒ **BREACHED → ELEVATED**, CA logged.
+**THRESHOLD de-mark, not mechanism retraction.** But it is the **4th consecutive Channel-1 transmission instrument to return null-or-against** — v3.0's demotion is corroborated, not merely unrefuted.
 
-### 5. VX stale sweep #2 — all three loaded rows pulled, and two came back against the thesis
-**Loaded-status stale rows 3 → 0.**
-- **🔴 `TX-03` BREACHED → ELEVATED.** TX Comptroller primary (`data.texas.gov` `vfba-b57j`, 11 border cities, live through July): **aggregate +4.75% YTD, 10 of 11 positive. El Paso +9.7%** — the "$55-62M deficit / 60% pension funding" city. **Pharr +5.4%** — the "S&P negative outlook" city. BREACHED is a compound band needing "sustained decline + business closures + **municipal stress**"; the municipal leg is now **measured and absent**. ⚠️ Kept separate: this is **total** receipts, not **cross-border shopper share** — the 40%→15-28% claim is untouched; nominal not real; and the labor/construction leg was **not** refreshed (carried at 50%).
-- **🟠 `NV-01` — the bodies-down/dollars-up substitution inverted, for the month.** LVCVA PDF primary: visitors −0.5% but **ADR −4.4%, RevPAR −4.9%, gaming −0.7%**. Three deflators applied: LVCVA blames a weak **concert** calendar (mix, not demand), **H1 YTD dollars are still positive**, and ADR comes from a ~75% survey sample. **Durable leg is air: −9.3% Jun / −6.7% YTD.** Band **not** re-marked — see open threads.
-- **🟡 `1.03` — the band is unscorable and that is the finding.** "$X loss" never says against what; three bases give **−$8.3B / −$24.6B / ≈−$39B**. The carried "$5.7-8.3B" was a **2025** figure. US Travel's 2026 forecast is a **gain** (+1.6%), which would read NORMAL — **not adopted**, because MARCO's realized arrivals disagree (Apr −14.1%). Conf 70%→50%.
-- ⚠️ **Two search-layer date decoys caught:** a "Las Vegas visitors −11.3% in June" headline (primary says **−0.5%**) and a WTTC "$12.5BN lost **this year**" release that is **dated May 2025 about calendar 2025**. Both would have shipped as fresh 2026 figures.
+### 4. Channel 2 — the channel held; the catalyst did not fire
+- **StatCan July (rel 8/11): TOUR-01 CONFIRMED, 5th read.** Total 2.3M **+10.2% YoY, 4th straight gain** — base effect, per StatCan itself. **Stack vs Jul'24: auto −28.9% / air −26.8%**, both below −25%. 🔑 **The air leg RE-WIDENED** (−25.0% June, on the line → −26.8% July). Air still **negative YoY (−1.4%)** in a base-effect month. **The FL-relevant thaw reversed.** *The spec working as designed — a flattering YoY could not break it, which is exactly what SDL-01 lacked.*
+- **🔴 The 50% Section 338 tariff NEVER TOOK EFFECT.** Paused to **Aug 22** on a Trump-Carney deal (8/18-19). **The re-escalation I docketed off HAWK has not happened, and a concluded deal cuts AGAINST the boycott-hardening read.** Catalyst is now two-sided. **Pause expires today.**
 
-### 6. 🔧 BUILT THE RESIDUE GUARD — and it caught me on its first run
-`scripts/version_drift_check.py` (boot step, advisory, 0.1s) for the **"a section-scoped fix does not clear a FILE"** class this session produced four times.
-- **Measured five candidates before writing anything. Two did not clear and were NOT built:** forward-language-next-to-a-passed-date (**21 hits, 21/21 false positives** — historical narrative like "Ended Apr 30") and resolved-ID-written-as-pending (2/2 FP). Rationale is in the module docstring so nobody rebuilds them without re-measuring.
-- **Three shipped:** **V** canonical-thesis-version drift · **C** duplicated `**Label:**` in one line · **B** staged deletion with no matching add (the `git mv` half-commit).
-- **🔴 V found two BOOT-LOADED navigators — `CLAUDE.md` and `FINDINGS.md` — asserting the thesis was v2.5 when it is v3.1.** Six versions adrift, in the files every future session reads first. Same class DAEDALUS flagged 7/10 (STATUS footer v2.0) that then sat a month. Both fixed.
-- **Two results against me, both from doing the CHECK_STANDARD §3 test properly:** the check's **v1 failed its own founding case** (matched `**Label:**`, but the real residue was `**Inbox: 0**`, value inside the bold); and on its **first live run it flagged a residue I had created that same night while fixing that exact class** — two `Inbox: 0` clauses with contradictory `board_log` counts (19 vs 18).
-- **Advisory by design** (exit 0 flag-or-not; `--strict` for gates): an advisory flag rendering as boot ❌ FAIL trains readers to ignore FAIL — which is how `boot.py` printed "✓ ran cleanly" beside a real failure for 101 days.
+### 5. 🟠 World Cup: the answer is in; the test still does not resolve
+**NTTO June — the opening WC month — printed NEGATIVE: overseas 2.75M, −1.8% YoY.** YTD Jan-Jun 15.24M **−4.3%**; July international visitors −3%. Verdict: *"a room rate event rather than an occupancy event."*
+**vs-2019 ≈ −21%, inside the FAIL band** — ⚠️ **DERIVED via a three-hop trade-press chain, NOT primary. Flagged as uncitable-as-primary.**
+**⛔ Did NOT resolve ES-MARCO-09.** The test is written on **Jun+Jul COMBINED**; June alone is 2.75M against a ≥5.5M floor July will likely clear on seasonality — **the volume leg may PASS while the vs-2019 leg FAILS.** Resolve both together off the **primary workbook** ~mid-Sep.
+⚠️ **Counter-evidence logged:** NTTO's own 2026 forecast expects growth (Canada +603K, Mexico +1.046M). Forecast vs realized; not adopted, recorded.
 
-### 7. Infrastructure — the defect measured three times and never fixed
-`ledger_staleness` had **zero references anywhere under `AGENTS/MARCO/`** across three measurements (7/25 sweep, 8/4 WATT, 8/7 review). **Wired into `boot.py`** (needed an `extra_args` plumb through `run_script`). **`ML.tsv` frozen with a banner** — it was failing the two-state rule in *both* directions. `FLOW.tsv` (+59d) is now in the legitimate state (b): LIVE with a boot alert. STATUS footer **v2.0 → v3.1** (1.1 versions of drift, flagged since 7/10). PROME's last round-2 straggler (`RESULTS.md:95` "~6pp detection floor" → ~8.8pp) corrected. **My own docket integrity checker then caught my own off-vocabulary priorities** on the two new rows — the 7/31 guard earning its keep against its author.
+### 6. ES-MARCO-05 — held to a written rule instead of re-deriving it
+July fresh F&V **+5.55%** (BLS API), down from +5.71%/+6.74%. **2-yr stack +5.86% — so the fade is NOT a base-effect artifact.** The 7/25 pre-registration names **TWO** prints (July **and** August); July satisfies 1 of 2. SCRATCH s21's phrasing ("3rd consecutive sub-6%") converges on the same date. **Both readings resolve at the August print (~Sep 11) — pre-committed, no discretion left, and written down BEFORE the number exists** so the rule cannot be re-derived after seeing it.
+
+### 7. Cross-agent: two items closed, one flips a logged sign
+- **🔴 AEOLUS reversed its own snowbird finding — MARCO's open thread flips.** MARCO logged 8/3 as *"cuts AGAINST the bearish FL-migration direction."* **Withdrawn at the source:** AEOLUS's northern-tier leg was exactly backwards; CPC primary says El Niño brings *"less storminess and milder-than-average conditions across the North."* **Milder North = snowbird push WEAKER = FL demand HEADWIND.** Hurricane leg compounds (NOAA 8/6 revised **down**, 75% below-normal). **All three legs now point the same way and support the bearish FL winter 2026-27 read.** PROVISIONAL to the CPC winter outlook (Oct).
+- **✅ PROME's FL price ask: grep run, CLEAN.** No MARCO surface carries "+4.9% = FL prices rising" — nothing to caveat. Recorded because a clean grep is a *result*, not a no-op; and constant-quality FL prices falling **supports** the bearish read.
+
+### 8. WALTER lane 25 → 0
+All 25 logged to `board_log.tsv` (19 → 44 data rows) and `git mv`'d. **1 acted** (SIG-...-017, the FL ZHVI sign conflict → KB-MARCO-FLP-33 + the grep), **5 noted**, **19 info-only** (BRENT/HAWK oil-and-geopol lane, MARCO cc'd only).
+⚠️ **Caught mid-move:** the `while read` loop silently dropped the last file because the path list had **no trailing newline** — found by checking the remaining count instead of trusting the loop. Same family as the append-without-trailing-newline lesson already in auto-memory.
 
 ## NEXT SESSION
-1. **🔴 Aug 12 — TODAY — BLS July CPI.** ES-MARCO-05: a **3rd consecutive sub-6% F&V print ⇒ resolve DID_NOT_APPEAR.** Do not push it a 4th time.
-2. **🟠 Aug 15 — NTTO June arrivals** (1st World-Cup month), ES-MARCO-09 fork: PASS if Jun+Jul overseas ≥5.5M AND ≥−10% vs 2019; FAIL if ≥−20%. **Leans FAIL**, and the WC employment mask is now *measured and small* (Miami-Dade +0.90%, below state and nation).
-3. **🟡 Aug 15 — Banxico state-of-origin map: the data is ALREADY LIVE.** CE99 carries Abr-Jun 2026 (verified 8/11). This is a pull, not a wait. SDL-01 spatial test.
-4. **🟠 Aug 18 — FL Citizens** (pause-vs-floor) **and** re-check OFLC H-2A Q3.
-5. **🔴 Aug 19 — Section 338 Canada tariff effective.** ⚠️ Autos carve-out **unresolved** (HAWK's own flag) — verify the proclamation annex before sizing anything auto-exposed.
-6. **🔴 CHANNEL 4 — RUN THE EMMA/MSRB LEG BEFORE ANY RETIRE DECISION.** Condition #2 (TX receipts) ran and came back **+4.75% YTD, 10 of 11 positive**. ⚠️ **I first read that as satisfying the pre-written rule (⇒ LOW-confirmed/retire) and corrected myself on 8/12 after Will's question: sales-tax receipts are a revenue FLOW; municipal stress is a BALANCE-SHEET condition.** El Paso can grow receipts monthly and still carry its "$55-62M deficit / 60% pension funding" hole. **Condition #2 is a WEAKER test than the pre-registration treated it as.** ⇒ **EMMA/MSRB filings + rating actions is the leg that actually tests credit — run it first.** Retiring is defensible only (a) after EMMA/MSRB agrees, or (b) as an explicit **resourcing** call labelled as such, never as an evidence verdict. Also unrun: AZ DOR (Nogales), CBP crossing counts.
-7. **`NV-01`'s BREACHED band still rests on UNREFRESHED Canadian data** — LVCVA publishes no nativity split, so June's total-LAS refresh cannot re-mark it. Needs **carrier-level LAS capacity** (AC/WestJet/Flair/Porter).
-8. **`VX-1.03` needs a basis decision** — pick ONE meaning of "loss" (YoY / vs-forecast / vs-2019) and re-band. NTTO June (~8/15) resolves forecast-vs-realized.
-9. **Carried and still open:** MCO via BTS T-100 (s16→s21, blocks MAR-24 *and* MAR-22) · **the FL-$ hole ($600M–$1.2B) is still scope-mismatched and underived** — MARCO's single biggest forward claim, do not re-cite · KB.tsv 2 duplicate IDs (T1-F) · FL migration divergence vs BofA (the only genuinely open CORAL item) · H-2A offer-premium-above-AEWR needs a pay-unit filter first.
-10. **Do NOT hunt a fourth wage instrument.** v3.0 pre-commits against it.
+1. **🔴 Aug 22 — SECTION 338 PAUSE EXPIRES.** Deal concluded, extended, or tariff live? **Three-way outcome, and two of the three cut AGAINST the boycott-hardening read.** Do not carry "tariff in effect" until verified at a primary. Autos carve-out still unresolved.
+2. **🟠 ~Sep 1 — Banxico July remittances** — the **first clean forward window** for the re-spec'd SDL-01 tell (2-yr stack ≤−5%, needs 2 consecutive). The re-spec is post-hoc and **cannot be scored as a confirm** before this print. **Co-run the state-of-origin map the same session** (CE99 carries Abr-Jun 2026, verified live 8/11 — a PULL, not a wait; deferred twice now).
+3. **🟡 ~Sep 11 — BLS August CPI = the ES-MARCO-05 RESOLVER, pre-committed.** Sub-6% ⇒ resolve **DID_NOT_APPEAR** and mark MAR-14. **Do not push a 4th time; do not re-derive the rule.**
+4. **🟠 ~Sep 15 — NTTO July = the ES-MARCO-09 combined-leg resolver.** ⚠️ **READ THE PRIMARY WORKBOOK for the vs-2019 column** — do not resolve a load-bearing test off this session's derived chain. Also StatCan August + FL winter schedules (air stack back above −25% = thaw confirms).
+5. **🟠 ~Sep 18 — FL Citizens.** **Ask CORAL for the refreshed PIF; do not re-derive** (root canon: CORAL owns FL insurance). Carried: 278,061 (7/24) vs 278,246 (6/30) = the stalled-depop read.
+6. **🟠 GENERAL INBOX: 9 packets undrained** (AEOLUS ×2 ENSO/Colorado + 1 retraction, BRENT ×2, DEWEY, PROME prune-scan, DAEDALUS ×2). **Per the MAIL rule this is a separate spawn.** Two were integrated this session because they changed logged findings (AEOLUS snowbird reversal, PROME FL price). **⚠️ Two touch MARCO's own files and should not wait long: PROME's prune-scan (2 boot-read lines point at deleted paths) and DAEDALUS's `boot.py`/`ledger_staleness` rc-contract change.**
+7. **🔴 CHANNEL 4 — the EMMA/MSRB credit leg is STILL UNRUN**, carried from 8/12. Condition #2 (TX receipts) ran and my read of it was corrected: receipts are a revenue FLOW, municipal stress is a BALANCE-SHEET condition. **Retiring is defensible only after EMMA/MSRB agrees, or as an explicit resourcing call labelled as such.** Also unrun: AZ DOR (Nogales), CBP crossing counts.
+8. **🟠 Two stale ledgers** (`FLOW.tsv` +70d, `MIGRATION_PROXIES.tsv` +33d) — freeze or refresh, don't leave in the silent-rot middle. `fl_migration_proxies.py` was NOT run this session.
+9. **Carried and still open:** MCO via BTS T-100 (s16→s22, blocks MAR-24 *and* MAR-22) · **the FL-$ hole ($600M–$1.2B) is still scope-mismatched and underived — do not re-cite** · KB.tsv 2 duplicate IDs (T1-F) · FL migration divergence vs BofA · H-2A offer-premium-above-AEWR needs a pay-unit filter · **`VX-2.01`'s arrest-rate leg needs an ICE/TRAC primary** before its BREACHED mark is anything but carried.
+10. **Do NOT hunt a fifth Channel-1 transmission instrument.** v3.0 pre-commits against it; this session's construction refresh is the fourth null-or-against.
 
 ## OPEN THREADS
 | Item | Status |
 |------|--------|
-| 🔴 **SDL-01 count tell — broken on the letter, re-spec unscored** | **NEW 8/11.** Graded BROKEN as written. Re-spec (2-yr stack ≤−5%, 2 consecutive) is post-hoc; **first clean window is Banxico July ~Sep 1**, docketed |
-| 🟠 **Counter-print against SDL-01 quantity** | **NEW 8/11.** Less-than-HS LFPR 43.1→45.5%. **Do not quietly drop it if August reverts** |
-| 🟠 **Foreign-born LF anomaly began in 2025, not 2026** | **NEW 8/11.** Check any framing that implies a 2026 event. Two-year regime; 2024 surge given back, no more |
-| 🔴 **FL-$ hole scope-mismatched + underived** | 🔴 carried from 7/31 — biggest forward claim, three defects, **do not re-cite until resolved** |
-| Channel-1 transmission | ⚫ **CLOSED as UNDEMONSTRATED (v3.0)** — 3 pre-registered nulls; reopen only on a non-payroll instrument |
-| MCO pax via BTS T-100 | 🟠 carried s16→s21; blocks two predictions |
-| FL migration divergence (+22,517 vs BofA Q1'26) → CORAL | 🟠 carried from 7/9 — **the only genuinely open CORAL item**; CORAL confirms not unilaterally resolvable |
-| 🔴 **Channel 4 — condition #2 ran; my read of it was CORRECTED 8/12** | TX receipts +4.75% YTD, 10/11 positive (El Paso +9.7%, Pharr +5.4%). **I first called this LOW-confirmed/retire; withdrawn** — receipts are a revenue FLOW, municipal stress is a balance-sheet CONDITION. **Run EMMA/MSRB (the credit-testing leg) before deciding.** Correction propagated to STATUS, VX-TX-03 and NEXUS_BRIEF |
-| ⚠️ **Adjacent-question trap — now n=3 for MARCO** | **NEW 8/12.** A fresh, correctly-pulled number that answers a question ADJACENT to the one the threshold asks. Prior: Citizens insurer-side vs household cost; FAIR-Plan exposure vs coverage gap. Now: sales-tax receipts vs municipal credit. **The pull being clean is what makes it dangerous.** Candidate for auto-memory if it recurs |
-| 🟠 **`NV-01` band carried on unrefreshed Canadian data** | **NEW 8/11.** Total-LAS refreshed (bodies flat, dollars inverted for the month, air −9.3%); the BREACHED band is on the **Canadian** leg and LVCVA publishes no nativity split. Needs carrier capacity data |
-| 🟡 **`VX-1.03` band unscorable until "loss" is defined** | **NEW 8/11.** −$8.3B / −$24.6B / ≈−$39B for the same world depending on basis. Conf 70%→50% |
-| 🟠 **NV dollars leg inverted — is the substitution exhausting?** | **NEW 8/11.** June ADR −4.4%/RevPAR −4.9%/gaming −0.7% vs a carried bodies-down-**dollars-up** read; H1 YTD still positive and June had a weak concert calendar. **August print is the check.** If it persists, NV has moved to the next stage of the pattern MARCO expects in FL |
-| KB.tsv 2 duplicate IDs (T1-F) | 🟠 carried from 7/31 |
-| H-2A offer-premium-above-AEWR (pre-reg §5) — needs pay-unit filter | 🟠 carried |
-| ES-MARCO-09 World Cup reversal | 🟠 leans FAIL; NTTO June ~Aug 15 |
-| El Niño → FL winter 26-27 snowbird PUSH | 🟡 **AEOLUS answered 8/3: it cuts AGAINST the bearish FL-migration direction.** Niño-3.4 +1.55°C, CPC 81% very-strong by OND; a severe Northern-tier winter is a snowbird *push* factor = FL demand tailwind. PROVISIONAL until the CPC winter outlook (Oct) |
-| Channel 4 rebuild (EMMA/MSRB, TX/AZ receipts, CBP counts) | 🟡 carried — the honest test: the downgrade was made on **absent**, not contrary, evidence |
-| ~~VX-3.01 figure~~ / ~~Lakeland~~ / ~~ledger_staleness wiring~~ / ~~ML.tsv two-state~~ / ~~STATUS v2.0 footer~~ / ~~RESULTS.md straggler~~ | ✅ all closed 8/11 |
+| 🔴 **Section 338 pause expires 8/22 — two-sided catalyst** | **NEW 8/21.** Tariff did NOT take effect. A concluded deal cuts AGAINST boycott-hardening. Verify at a primary before any surface carries it |
+| 🔴 **H-2A cushion collapsed — Q3 first negative quarter** | **NEW 8/21.** MAR-11 88%→72%. Miss now needs only Q4 at ≤−7.2% (Q3 was −4.0%). Resolve ~Nov |
+| 🔴 **`VX-2.01` BREACHED rests on an unrefreshed Jun-15 arrest rate** | **NEW 8/21.** Retracted 2.2M removed, but the band-scoring input was not re-verified. Carried-not-confirmed |
+| 🟠 **Unscorable-band family is now n=3** (`VX-1.03`, SDL-01 count tell, `VX-2.03` per-state-vs-class) | **NEW 8/21.** Three MARCO thresholds whose bands don't say what they score. **Candidate for a deliberate spec-audit sweep as a SET** — the 8/11 lesson says a single instrument always looks reasonable alone |
+| 🟠 **ES-MARCO-09 volume leg may PASS while the vs-2019 leg FAILS** | **NEW 8/21.** June −1.8% YoY, ~−21% vs 2019 (DERIVED). Resolve both legs together off the PRIMARY workbook ~mid-Sep |
+| 🟢 **El Niño → FL snowbird: SIGN FLIPPED, now WITH the bearish read** | **UPDATED 8/21.** AEOLUS withdrew its 8/3 read at the source (northern-tier leg inverted). All three legs now align. PROVISIONAL to the CPC winter outlook (Oct) |
+| 🔴 **SDL-01 count tell — broken on the letter, re-spec unscored** | Carried 8/11. **First clean forward window is Banxico July ~Sep 1** |
+| 🟠 **Counter-print against SDL-01 quantity** | Carried 8/11. Less-than-HS LFPR 43.1→45.5%. **Do not quietly drop it if August reverts** |
+| 🟠 **Foreign-born LF anomaly began in 2025, not 2026** | Carried 8/11. Two-year regime; 2024 surge given back, no more |
+| 🔴 **FL-$ hole scope-mismatched + underived** | 🔴 carried from 7/31 — biggest forward claim, **do not re-cite until resolved** |
+| 🔴 **Channel 4 — EMMA/MSRB credit leg UNRUN** | Carried 8/12. Receipts are a FLOW, municipal stress a BALANCE-SHEET condition. Run the credit leg before any retire decision |
+| ⚠️ **Adjacent-question trap — n=3 for MARCO** | Carried 8/12. A clean pull answering a question ADJACENT to the one the threshold asks |
+| 🟠 **`NV-01` band carried on unrefreshed Canadian data** | Carried 8/11. Needs carrier-level LAS capacity (AC/WestJet/Flair/Porter) |
+| 🟠 **NV dollars leg inverted — substitution exhausting?** | Carried 8/11. **August print is the check** — NOT run this session |
+| Channel-1 transmission | ⚫ **CLOSED as UNDEMONSTRATED (v3.0)** — now **four** nulls-or-against. Reopen only on a non-payroll instrument |
+| MCO pax via BTS T-100 | 🟠 carried s16→s22; blocks two predictions |
+| FL migration divergence (+22,517 vs BofA Q1'26) → CORAL | 🟠 carried from 7/9 |
+| KB.tsv 2 duplicate IDs (T1-F) · H-2A offer-premium pay-unit filter | 🟠 carried |
+| ~~ES-MARCO-05 July read~~ / ~~H-2A Q3~~ / ~~NTTO June~~ / ~~Canadian July~~ / ~~PROME FL grep~~ / ~~WALTER lane~~ | ✅ all closed 8/21 |
 
 ## Mail state
-**Inbox: 0.** Drained 8 → 0 (HAWK, CORAL, HOMER, DAEDALUS, AEOLUS, PROME ×3). **WALTER lane: 0** — the 7/31 boot-step install is holding, `board_log.tsv` steady at 18 rows with nothing new to drain.
-**Sent this session:** *(see PUSH STATE — replies owed are minimal; CORAL and HOMER both explicitly said nothing owed back, AEOLUS is holding the three named legs, HAWK's was a pointer packet with no reply owed.)*
-⚠️ **PROME routing:** the dead `AGENTS/PROME/` path has **zero hits** in MARCO's own docs — the 7/31 regression was in the delivery act, not a stale pointer. Nothing to repoint. **`PROME/inbox/` is the sole surface.**
-
-## CLOSING NOTE (8/12)
-**GUARD NOW BUILT for three of the four (`scripts/version_drift_check.py`, boot step). The pattern, stated because it repeated four times:** I fixed the part I was looking at and did not re-read the surrounding surface. (1) The brief's NEXT DECISION POINT sat stale 11 days after a section-scoped fix to the same file. (2) The inbox `git mv` shipped its ADD half without its DELETE half. (3) The brief's As-of line carried duplicated session-20 residue *through this session's own rewrite of that line*. (4) The Channel-4 read went out before I'd asked whether receipts test credit. **Nos. 1–3 are mechanical and are now MACHINE-GUARDED; no. 4 is analytical and is the one that mattered** — it reached CARL/REGINALD before I caught it, and needed Will's question to surface. **No script will ever catch no. 4.** Standing guard: **after editing any surface, re-read the WHOLE surface — and before routing a finding, name the question the metric actually answers.**
-
-## PUSH STATE
-**Session 21 (8/11 → 8/12), 12 commits, all pushed. Origin verified 0/0 and by PATH after each tranche** (`git diff origin/master HEAD -- AGENTS/MARCO/` empty), never off the `Pushed.` line alone.
-Key hashes: `a2fb0f914` session work · `67463a2af` brief (Amendment-10 ordered) · `f7de86cda` calendar · `72fcfaad5` LABOR+PROME packets · `cd1d3815d` VX stale sweep #2 · `9fda7cbe5` **the Channel-4 correction + CARL/REGINALD packets** · `03b5f1717` final brief fold.
-**Sent this session:** LABOR (count-tell break + July quantity + 2 traps) · PROME (closeout + 4th calibration event) · AEOLUS + BRENT (the Brent \$85 trigger described on a false premise) · **CARL + REGINALD (Channel-4 fiscal terminus, with its limit stated up front rather than sent-then-corrected)**.
-⚠️ **Not mine, flagged not swept:** CARL had ~6 files in flight on this box at close (STATUS, docket, scripts/data). WALTER BOARD files earlier in the session.
+**WALTER lane: 25 → 0** (all logged + `git mv`'d; 1 acted, 5 noted, 19 info-only).
+**General inbox: 11 → 9.** Two integrated because they changed logged findings (AEOLUS snowbird reversal, PROME FL price). **The remaining 9 are a separate spawn per the MAIL rule** — but PROME's prune-scan and DAEDALUS's boot.py change both touch MARCO's own files and should not wait.
+**Sent this session:** none yet — see PUSH STATE.

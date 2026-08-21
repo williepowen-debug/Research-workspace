@@ -88,7 +88,7 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 
 | Retracted claim | Why it was wrong | ✅ The accurate figure | Fixed |
 |---|---|---|---|
-| **"2.2M self-deportations (CBO)"** | Wrong on **count AND source**. It was a *disputed DHS* claim (CMS: "the Two Million Deportation Myth"), **never CBO-modelled**. CBO's own figure is **~290K removals + 30K voluntary (2026-30)**. The false attribution to a neutral authority is what made it stick. | **Foreign-born LF −700K YoY / ~1.0M peak-to-trough** (BLS Table A-7; `LNU01073395`) — verified again 7/31, §1 | thesis v2.6, 7/2 · `VX.tsv` 2.02 lagged until **7/31** |
+| **"2.2M self-deportations (CBO)"** | Wrong on **count AND source**. It was a *disputed DHS* claim (CMS: "the Two Million Deportation Myth"), **never CBO-modelled**. CBO's own figure is **~290K removals + 30K voluntary (2026-30)**. The false attribution to a neutral authority is what made it stick. | **Foreign-born LF −700K YoY / ~1.0M peak-to-trough** (BLS Table A-7; `LNU01073395`) — verified again 7/31, §1 | thesis v2.6, 7/2 · `VX.tsv` 2.02 lagged until **7/31** · 🔴 **`VX.tsv` 2.01 lagged until 2026-08-21** — see below |
 | **FL L&H wage divergence as a Channel-1 instrument** (+8.75% vs national +3.87%) | **The wage numbers are CORRECT** — the *inference* was wrong. FL's gap is an **Amendment 2** statutory floor rise (7.7% in-window); TX, with maximal immigrant exposure and a floor frozen since 2009, ran *negative*. Compounding: at **+4.88pp** the gap sat far inside the dispersion of the series it came from — pooled cross-state sd **5.88pp**, giving a **~11.53pp** band around any single state's gap (≈0.4 sd). | **No replacement instrument.** Channel-1 transmission is **UNDEMONSTRATED** (v3.0). The wage figures remain valid as a **CARL-lane statutory-cost** input | v2.8 (7/25) → v3.0 (7/31) |
 | **"~6pp detection floor"** as a general rule for state-CES gaps | **Right conclusion, wrong statistic, wrong scope — and it shipped to two agents.** 6.15pp is 1.96×SE for a **stratum-mean difference across 6–8 states**: a significance threshold, not a power MDE (that is **8.78pp**), and not a rule about any single state's gap (band **~11.53pp**). Sent to CARL as a general state-CES caution and to LABOR beside the LAB-17 convergence. | **Size a gap against the dispersion of the statistic you actually computed.** Stratum difference → 8.78pp at 80% power; single state → ~11.53pp. Corrections sent CARL + LABOR 7/31 eve | 7/31 eve (PROME audit) |
 | **"median 6-month within-state swing 3.2pp"** | Reproduces under **no** definition tried — median range 4.02, mean range 4.44, within-state sd 1.48, median \|MoM step\| 1.29, E&H variants 1.23–4.82. Propagated to 7 surfaces + the LABOR packet. | **4.02pp** = median 6-month range, TTU control, 14 scored states (`scripts/fl_diagnostic_score.py`). Conclusion survives: 4.02 ≪ 5.88 cross-state sd | 7/31 eve (PROME audit) |
@@ -99,6 +99,23 @@ Not rot. These update on a fixed cadence and are current *as of their last relea
 | **MAR-24 at 45%** (docket copy) | Stale copy of **MAR-24's own** prior confidence — its note records `65→55 (May 31)→45 (session 9)`, later raised to 60. *(This row previously said "45% is MAR-14's number" — wrong provenance, corrected 7/31 eve after PROME audit; MAR-14 is at **20%** since the v3.0 mark-down and was never 45.)* | **MAR-24 = 60%** · MAR-14 = 20% | 7/31 · provenance fixed 7/31 eve |
 
 ---
+
+### 🔴 8/21 — the retraction had ONE more survivor, and it was in a BREACHED row
+
+**`VX-MARCO-2.01` (Immigration Enforcement Activity) still asserted *"The 2.2M STOCK loss (SDL-01) irreversible regardless"* as live text on 2026-08-21** — **51 days** after the 7/31 PROME audit corrected the *same* figure in `VX-MARCO-2.02`, and **50 days** after the fleet-wide retraction landed at v2.6 on 7/2.
+
+**Why it survived a sweep that was looking for exactly this.** The 7/31 audit found the figure in 2.02 and fixed it there. 2.01 is the adjacent row in the same file, same domain (`WFD`), same `BREACHED` status — and it was **67 days stale**, so no refresh pass had reopened it. **A fix clears the ROW you are looking at, not the LEDGER** — the same class as MARCO's own *"a fix clears the REGION I am looking at, not the FILE"* lesson, one level up: there the unit was a file, here it is a **row within a file that was itself the subject of the sweep.**
+
+**What makes this worse than a stale number:** 2.01 is `BREACHED` + `HIGH` priority, i.e. **exactly the class that gets cited**, and the retracted figure was doing load-bearing work in the sentence (*"irreversible regardless"* — the clause that made the enforcement-flow argument self-sustaining).
+
+| | |
+|---|---|
+| **Retracted text removed** | "The 2.2M STOCK loss (SDL-01) irreversible regardless" |
+| **✅ Accurate replacement** | **~1.0M realized foreign-born LF decline / ~1.5M population** — live figure `VX-MARCO-SDL-01`, 31,516k Jul'26, −550K YoY (BLS `LNU01073395`, pulled 8/11) |
+| **Scope check run** | `grep -rn "2\.2M"` across all MARCO surfaces (excl. `inbox/`, `domain/sources/`, `_archive`): **13 hits, 12 correctly-labelled historical/retraction records** (this register, `CHANGELOG` old-view, `MAINTENANCE` resolution log, `THESIS` "was cited", `SCRATCH` numeric-collision warning). **2.01 was the only surviving LIVE assertion.** |
+| **Fixed** | 2026-08-21, session 22 |
+
+⚠️ **Standing consequence:** a retraction sweep must enumerate the **vector ledger by ID**, not stop at the row that produced the hit. And the arrest-rate leg of 2.01 (*"500-600+/day; 65K detained"*, Jun-15 vintage) was **NOT** re-verified this pass — it is the band-scoring input, so 2.01's `BREACHED` mark now rests on an **unrefreshed rate** and is labelled carried-not-confirmed.
 
 ## 5. FROZEN — no accurate current number exists, and that is the honest answer
 
