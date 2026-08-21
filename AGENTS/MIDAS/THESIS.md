@@ -50,6 +50,30 @@
 2. **CB-buying collapse:** WGC Q2 <100t net (or net selling) → the structural layer's premise is gone.
 3. **Re-decoupling UP:** gold rises through *rising* real yields sustained **3+ weeks** → the "re-coupled" claim is dead; that's a v1-style premium reassertion — a *bigger* monetary-stress signal, escalate rather than celebrate.
 
+> **SELF-RULED 2026-08-21 (DELEGATION_TIER) — L-12: does kill-cond #3's "sustained 3+ weeks" require the joint condition to hold CONTINUOUSLY, or ENDPOINT-to-endpoint?**
+> → **Ruled: the duration unit is a WEEK (Friday-to-Friday close); the basis is ENDPOINT-to-endpoint over 3 weekly intervals; the DAILY-continuous reading is EXCLUDED as arithmetically unsatisfiable; and every grade must PRINT BOTH readings plus the three weekly joint-up signs.** Tests 1–5 PASS. Riders: R1 applied (dated); **R2 satisfied by non-modification** — the registered sentence above is UNCHANGED, this block adds the reading it was missing and supersedes no text; R3 applied (no confidence, probability or weight moved in this edit).
+>
+> **Why daily-continuous is excluded, and it is arithmetic rather than preference:** measured over **DFII10 × GC=F, 2003-01-02 → 2026-08-19, n=5,892 sessions** — the longest run of consecutive sessions with *both* gold up and DFII10 up **in the entire 23-year record is 4**. Windows satisfying 15/15 (3 trading weeks): **0**. Satisfying even 5/5: **0**. A reading under which the condition has never once been satisfiable is not a candidate reading.
+>
+> **The two surviving readings, base-rated on 1,133 rolling 3-week windows (weekly Friday sampling, 2004-11 → 2026-08):**
+>
+> | Reading | Satisfied | Base rate | Note |
+> |---|---|---|---|
+> | **ENDPOINT-to-endpoint** ✅ *ruled* | 217 | **19.15%** | GLD cross-check 211 / **18.62%** |
+> | Weekly-continuous (3-of-3) | 9 | **0.79%** | GLD 10 / 0.88% — **24× harder** |
+>
+> **Weekly-continuous is a strict SUBSET of endpoint (0 contradictions in 1,133 windows)** — the readings are nested, so a continuity rule can only ever *un-fire*, never fire something endpoint did not.
+>
+> **⚠️ WHY I RULED THE DISAMBIGUATION AND NOT THE DIFFICULTY — the tier forbids the latter in BOTH directions.** DELEGATION_TIER test 4 fails a ruling when *"a falsifier becomes harder to trigger, **or** a threshold becomes easier to satisfy."* Kill-cond #3 is **both** — a falsifier of v2 **and** the M1→4 escalation trigger — so **any** change to its difficulty fails test 4 whichever way it points. What remains self-rulable is exactly what L-12 actually complained about: the sentence had two defensible readings and the grader picked one under pressure. **That ambiguity is now closed; the difficulty is untouched.** Three re-tunings that would change it are **escalated to Will, not banked** — weekly-continuous (24× harder), a NO-VERDICT band around the boundary (harder), and 5-session smoothed endpoints (measured **+2.5% easier**, 239→245 of 1,230).
+>
+> **⚠️ RETROACTIVITY — stated, because a ruling governs the next write and not the existing state.** Under the ruled basis the **7/17→8/7 fire STANDS** (+9bp DFII10, +8.17% gold, endpoint SATISFIED; GLD +8.16% agrees). Under the escalated weekly-continuous reading it would **NOT** have fired — the joint condition held **1 of 3** weeks (wk1 +12bp/+1.37% ✅ · wk2 +4bp/**−0.45%** ✗ · wk3 **−7bp**/+7.20% ✗) — which would take the fired-count 1/4 → 0/4. **I am not authorised to make that change and have not made it:** the tier explicitly withholds authority *"to grade, resolve, or re-mark a prediction."* Will's call, packet sent.
+>
+> **📏 CORRECTION TO L-12's OWN TEXT:** L-12 records the alternative reading as *"yields rose for 2 of 3 weeks then eased 4bp = not satisfied."* On the Am.#2-corrected figures the **joint** condition held **1 of 3**, not 2 of 3 — "2 of 3" describes the **yield leg alone**; gold *fell* 0.45% in week 2, so that week fails the conjunction independently. The conclusion (not satisfied) is unchanged; the count was wrong.
+>
+> **What the grade must print from now on (the L-11 pattern — when two windows disagree, print both, the disagreement IS the finding):** endpoint Δyield + Δgold · the 3 weekly joint-up signs · the magnitude check against the empirical beta · and both GC=F and an unrolled cross-check.
+>
+> ⚠️ **This rule governs kill-cond #3 ONLY. It does NOT govern `MIDAS-06` branch (a)**, whose letter is a single-date LEVEL conjunction (`gold ≥ $4,340.70 AND DFII10 ≥ 2.40` read 2026-08-28) with **no duration clause at all** — see the correction filed with this ruling.
+
 **MIDAS-03 resolution (2026-07-17, HIT):** graded on the v2 mechanism (premium-reassertion vs re-coupling), since the actual CPI day had real yields −3bp DOWN, not the "yields up" both pre-written branches assumed (branch-coverage lesson L-10). No premium reassertion → no BOND/LIQUID escalation. The escalation case remains `gold rising THROUGH rising real yields sustained 3+wk` (v2 kill-cond #3) — now the `metals_watch.py` REVIEW trigger post-flip.
 
 ### M2 — Silver + gold/silver ratio
@@ -75,6 +99,29 @@
 | 3 | Copper roll + inventory build = confirmed demand inflection (not positioning noise) | open — NOT met: the conjunction requires copper −20% AND inv +100% *vs the 2yr median* (≈479kt); current is price UP + inventory Yellow-but-falling. ✅ Threshold-definition gap CLOSED (round-3, KB-018): "+X% vs normal" now grades against the **trailing-2yr rolling median** (implemented in metals_watch.py leg 6, auto-updating), replacing the round-2 "+110.9% YTD" artifact of a multi-year-low Jan start. ✅ MIDAS-04 RESOLVED NO-FIRE (China Q2 GDP 4.3% miss, NBS 7/15): copper HELD (−0.5% 2-sess) = structural/AI-grid demand, not cyclical weakness. Next test: MIDAS-05 (China LPR ~7/20) |
 
 **Repricing:** copper as the cleanest China-growth thermometer (→ ZHAO two-way, HENRY velocity). Price + inventory legs both closed 2026-07-12 (inventory via westmetall.com scrape, wired into `metals_watch.py`); **MIDAS still owes** the China-imports pull.
+
+> **SELF-RULED 2026-08-21 (DELEGATION_TIER) — L-13: every registered I1 trigger is a DOWNSIDE band, so a physical *tightening* regime scores ⚪ "benign." Add an upside band?**
+> → **SPLIT RULING. (a) SELF-RULED: I1's matrix cell must now distinguish `⚪ BENIGN` (scored and quiet) from `⚪ UNSCOREABLE↑` (the tape is moving in a direction the registered bands cannot score), and any I1 band call must carry its baseline value AND the baseline's as-of date. (b) NOT SELF-RULED — ESCALATED: adding an upside/tightening band fails test 4 and goes to Will, with a specced design and the evidence below.** Tests for (a): 1–5 PASS. Riders: R1 applied; R2 satisfied by non-modification (no registered band changed); R3 applied.
+>
+> **Why (b) is not mine:** an upside band creates a **new way for I1 to score elevated**, which is test 4's second failure clause — *"a threshold becomes easier to satisfy."* An agent whose seat is justified by producing signal must not self-grant a new way to produce it.
+>
+> **🔴 AND THE TAPE HAS ALREADY ARGUED AGAINST THE NAIVE VERSION — this is the substantive reason to escalate rather than ship.** L-13 was written 8/7 on a "fast physical tightening": LME copper crossing from **+16.4% above** the 2yr median to **−9.2% below** it in 15 days. It then deepened — and **reversed**:
+>
+> | Date | LME Cu | vs 2yr median |
+> |---|---|---|
+> | 22 Jul | 284,175t | +18.2% |
+> | 07 Aug | 222,975t | −7.2% |
+> | **14 Aug (trough)** | **204,975t** | **−14.7%** |
+> | 18 Aug | 223,550t | −7.0% |
+> | **20 Aug** | **239,925t** | **−0.2%** |
+>
+> **+17.1% restock in 4 business days**, with copper price flat ($6.48→$6.50). **A tightening band added on 8/7's evidence would have fired and then un-fired inside 9 business days.** The right band therefore needs a **sustain requirement** — and that exposes the second defect below.
+>
+> **⚠️ THE BASELINE IS TRACKED, NOT FROZEN — so a "sustained N sessions" band on it is incoherent as-written.** The I1 baseline is a *trailing-2yr rolling median* (L-07, auto-updating in `metals_watch.py` leg 6). It moved **244,025t → 240,325t** between 8/14 and 8/21, so **the same 8/13 tonnage that graded −14.9% on 8/14 grades −13.6% today.** A band call is therefore **only reproducible as-of its date**, and a sustain clause could un-fire because the *baseline* moved rather than the metal. Any upside band must **freeze the baseline for the duration of its own test window**. *(This is a defect in the existing downside bands too — flagged, not repaired: repairing it changes their difficulty.)*
+>
+> **⚠️ AND AN UPSIDE BAND IS NOT THE MIRROR OF THE DOWNSIDE BAND.** The downside has one dominant mechanism (demand collapse → growth roll), which is why `copper −20% AND inventory +100%` reads as a growth tell. The upside has **at least four**, and **three are not growth tells**: (i) genuine demand strength; (ii) **supply disruption** (Chile/Peru outage) — a supply squeeze, macro-opposite; (iii) **structural/AI-grid electrification** — my own MIDAS-05 finding, copper rallying *through* a no-stimulus LPR hold; (iv) **exchange-arbitrage relocation** (COMEX↔LME warrant shuffling on tariff spreads), which is not a demand signal at all. **A symmetric band would manufacture a China-growth reading out of a warehouse transfer.** ⇒ the escalated design is a **discriminated** band, not a mirrored one.
+>
+> **What (a) changes in practice, starting this session:** I1 no longer reports ⚪ without saying which direction the bands can and cannot see. **L-13's stated harm was that ⚪ implies quiet — that harm is fixed by disclosure, and the band is a separate, larger question that is Will's.**
 
 ### I2 — PGMs (platinum / palladium)
 

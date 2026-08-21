@@ -1,5 +1,31 @@
 # MIDAS — SCRATCH (next-session pickup)
 
+**2026-08-21 L-12 / L-13 RULING SESSION (Will-directed, ~08:1x–08:5x ET, non-grading).** Will said *"rule L-12 and L-13 now"* after I flagged the tuning-to-tape exposure; he reaffirmed, so it stands. **Both ruled. Zero capital. Zero difficulty moved. Five sub-items escalated.**
+
+**✅ L-12 RULED — weekly unit · ENDPOINT basis · daily-continuous EXCLUDED as arithmetically unsatisfiable · both readings printed every grade.** Record: `THESIS.md` kill-cond #3 block + `AGENTS/SELF_RULINGS.tsv`. Measured, not asserted: over **DFII10 × GC=F 2003→2026, n=5,892**, the longest run of both-up is **4 sessions**; 15/15 windows = **0**; even 5/5 = **0**. Base rates on **1,133 rolling 3wk windows**: endpoint **19.15%** (GLD 18.62%) vs weekly-continuous **0.79%** (GLD 0.88%) = **24× harder**, and continuity is a **strict subset** (0 contradictions) so it can only ever un-fire.
+
+**🔑 THE REAL FINDING IS WHAT I WAS NOT ALLOWED TO RULE.** DELEGATION_TIER **test 4** fails a ruling if *"a falsifier becomes harder **or** a threshold becomes easier."* **Kill-cond #3 is BOTH** (v2 falsifier + M1→4 trigger) ⇒ **any difficulty change fails, in either direction.** I drafted three rigor improvements before noticing all three were barred — two for being stricter, one (**smoothed endpoints, +2.5% EASIER**, 239→245 of 1,230) for being looser once measured instead of assumed. **The tier independently produced the anti-tuning outcome I was worried about: the rule I was permitted to write cannot express a preference about the tape.** → **L-20**.
+
+**✅ L-13 RULED (SPLIT).** **(a) self-ruled:** matrix must say `⚪ UNSCOREABLE↑` not `⚪ BENIGN` where the bands are blind, and every I1 band call carries its **baseline value + as-of date**. **(b) escalated:** an upside band creates a new way to score elevated = test-4 failure.
+
+**🔴 AND THE TAPE VINDICATED THE DEFERRAL INSIDE TWO WEEKS. The I1 tightening read I have carried since 8/7 is DEAD.** LME Cu **284,175t [22 Jul] → trough 204,975t [14 Aug, −14.7%] → 239,925t [20 Aug, −0.2%]** = **+17.1% restock in 4 business days on FLAT price**. A band shipped on 8/7's evidence **would have fired and un-fired inside 9 business days.** Two design defects surfaced: the **baseline is TRACKED not frozen** (median 244,025t→240,325t, so the same 8/13 tonnage grades −14.9% then and −13.6% now — defect present in the DOWNSIDE bands too, flagged not repaired), and **the upside is not the mirror of the downside** (≥4 mechanisms, only one a growth tell). → KB-045.
+
+**🔴 TWO CORRECTIONS AGAINST MY OWN NUMBERS:**
+1. **N5 clause (ii-b) fired on my own desk.** My 21:16 ET 8/20 pull (past the **18:00 ET Globex roll**) returned **$4,570.50 labelled "8/20"** and **I reported it to Will as an 8/20 level**. True **8/20 close = $4,516.30**; the $4,57x print was the **in-flight 8/21 session**. Error **−$54.90 / −1.2%**; direction of the report stands and is *understated*. **The clause I authored caught me.** Durable fix = a settlement source for metals in `fetch.py` — does not exist, FORGE edit, PROME's. → KB-047.
+2. **My beta is attenuated ~23% and the bias flatters my own thesis.** `GC=F` **−0.0514 %/bp** vs unrolled `GLD` **−0.0634 %/bp** (same dates, n=655); the series disagree in **sign on 13.0%** of 5,394 days. Attenuation ⇒ **overstates the unexplained "premium" residual.** Neither conclusion flips. **Quote both betas from now on.** → **L-19**, KB-046.
+
+**▶ PICK UP HERE (8/21):**
+1. **🔴 GOLD COT VINTAGE #2 READS TODAY 8/21** (data as-of Tue **8/18**) — staged, not run. `cot_gold.py`, **exact market-name match**, ⚠️ **SAM's DNS note: `publicdata.cftc.gov` / `publicreporting.cftc.gov` do NOT resolve from this box — use `www.cftc.gov/files/dea/history/`.** Last mark net/OI **54.44%** = top-5% of the 1986–2026 record.
+2. **🔴 MIDAS-06 resolves 8/28 and the BINDING LEG HAS FLIPPED.** Gold clears the re-keyed **$4,340.70 by +4.0%** [8/20 close $4,516.30]; **DFII10 2.35 [8/19] FAILS the ≥2.40 leg by 5bp = 1.5σ.** Grades **(d)** on today's readings. **Prep only — do NOT grade early.** ⚠️ Branch (a) has **no duration clause**, so one FRED print decides it — escalated as sub-item (h).
+3. **🟠 THE 8/19 DIAGNOSIS — full write-up OWED.** First read done: GLD **+3.84%** / gold **+2.83%** while DFII10 **fell 6bp** ⇒ **~89% unexplained**. ⚠️ Yield direction was the **wrong sign** for kill-cond #3's letter — feeds the premium read substantively while firing nothing formally. **Say which; do not blur it.** Quote both betas (L-19).
+4. **🟠 SECOND unexplained Pt surge** — Pt **+6.1% on 8/19 alone** vs Pd **+1.0%**. ⚠️ **Do NOT fuse with 8/4**: on 8/4 Pt and Pd moved together (+8.0/+8.4 = shared supply root); on 8/19 they diverged alongside gold/silver (= monetary bid). Two signatures. → KB-048.
+5. **AWAITING WILL — five sub-items**, packet `PROME/inbox/2026-08-21_from-MIDAS_L12-L13-RULED-plus-FIVE-escalated-subitems-for-Will.md`: (e) weekly-continuous *(un-fires kill-cond #3, 1/4→0/4)* · (f) NO-VERDICT band *(σ=3.42bp)* · (g) smoothed endpoints *(+2.5% easier)* · (h) MIDAS-06 duration clause · (i) discriminated I1 upside band.
+6. **DAEDALUS SFG builds owed:** `cot_gold.py` `--expect` clause only when the check ran; extend `boot.py` `run_alert` marker test to the metals leg. **Do both before trusting the metals leg's green.**
+7. **NEXUS full-schema revert CONFIRMED** — applies next non-time-boxed closeout (Am.10: brief fold is the LAST write-back).
+8. **Unchanged carryover:** BRENT consumption of KB-042 unconfirmed (SAM ✅ answered 8/17); ZHAO date-fork day 29; WPIC Pt-deficit PROV; sulfur Platts spot; BOND owed term-premium-vs-expected-path on 2.47.
+
+---
+
 **2026-08-14 MIDAS-07 GRADE SESSION (PROME-directed spawn, ~14:20–16:0x ET, after a 7-day dark gap 8/7→8/14).** Catch-up (4 inbox items, both WALTER asks answered) then the frozen gold-COT frame graded on the 15:30 print. **Zero capital. Zero thresholds moved. Zero self-rulings.**
 
 **🔴 `MIDAS-07` = (d) INDETERMINATE — the pre-registered MODAL outcome, taken on the frame's letter.** COT as-of **8/11** [raw `deafut.txt`, code-keyed 088691, vintage verified in-row, totals reconciled]: **OI 400,309 · NC long 250,936 · NC short 32,996 · net 217,940 · net/OI 54.44%**; gold $4,383.00 [8/11]. **WoW: OI +28,758 (+7.74%) · net +20,306 · short +3,617 · ratio +1.25pp.**
