@@ -73,6 +73,15 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 ET = "ET"
+
+
+def ell(s, n):
+    """Cap s at n chars, appending '…' ONLY when the slice actually shortened.
+    A capped string with no suffix tells its reader that's the whole sentence —
+    CHECK_STANDARD §4's silent-truncation class, on the rows whose only job is
+    Will reading them (DAEDALUS Helm review 2026-08-21)."""
+    s = s.strip()
+    return s if len(s) <= n else s[: n - 1].rstrip() + "…"
 SNAP = ROOT / "PROME/state/brief_snapshot.json"
 CHANGES = ROOT / "PROME/state/brief_changes.jsonl"
 
@@ -176,7 +185,7 @@ def parse_dates(limit=5):
                 rows.append({
                     "date": end,
                     "days": (dt.date.fromisoformat(end) - dt.date.today()).days,
-                    "title": title[:74],
+                    "title": ell(title, 74),
                     "star": "★" in r[1],
                 })
     except Exception as e:
@@ -227,11 +236,11 @@ def parse_actions():
         d = re.search(r"\d{4}-\d{2}-\d{2}", raw)
         kind = re.sub(r"\*\*|`", "", c[2]).strip().upper()
         row = {
-            "n": c[0], "item": re.sub(r"\*\*|`", "", c[1])[:70], "kind": kind,
+            "n": c[0], "item": ell(re.sub(r"\*\*|`", "", c[1]), 70), "kind": kind,
             "due": d.group(0) if d else None,
-            "due_txt": re.sub(r"\*\*", "", raw)[:26],
+            "due_txt": ell(re.sub(r"\*\*", "", raw), 26),
             "blocked": "⛔" in line,
-            "rec": re.sub(r"\*\*|`", "", c[5])[:70],
+            "rec": ell(re.sub(r"\*\*|`", "", c[5]), 70),
         }
         (dec if kind in DECISION_TYPES else chore).append(row)
     if not dec and not chore:

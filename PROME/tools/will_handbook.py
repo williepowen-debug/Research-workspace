@@ -300,10 +300,13 @@ def render_brief_tab(written, brief, feed, first, money):
     if brief.get("STORY"):
         h.append("<section><h2>What is going on</h2><div class='prose'>"
                  + wb.md_block(brief["STORY"]) + "</div>")
+        vint = html.escape((written or "UNDATED").split(" (")[0].strip())
         if brief.get("QUESTION"):
-            h.append(f"<p class='pull'>{wb.md_inline(brief['QUESTION'])}</p>")
+            h.append(f"<p class='pull'>{wb.md_inline(brief['QUESTION'])} "
+                     f"<span class='vint'>[as written {vint}]</span></p>")
         if brief.get("FALSIFIER"):
-            h.append("<div class='falsify'><div class='lead'>This is wrong if</div>"
+            h.append(f"<div class='falsify'><div class='lead'>This is wrong if "
+                     f"<span class='vint'>[as written {vint}]</span></div>"
                      f"<div class='prose'>{wb.md_block(brief['FALSIFIER'])}</div></div>")
         h.append("</section>")
     if brief.get("DISAGREEMENT"):
