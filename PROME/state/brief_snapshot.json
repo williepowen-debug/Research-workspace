@@ -41,7 +41,8 @@
   "GATE-TERRY-ARM2": "RESOLVED",
   "GATE-TERRY-ARM3": "RESOLVED",
   "GATE-VIO-110": "LAPSED",
-  "GATE-VIO-116": "RESOLVED"
+  "GATE-VIO-116": "RESOLVED",
+  "GATE-VIO-RV1": "LIVE"
  },
  "money": {
   "cash": "45.95",
@@ -49,13 +50,7 @@
   "vintage": "2026-08-14"
  },
  "queue": {
-  "16": "Broker-export residue (was: confirms bundle \u2014 MOSTLY RESOLVED by the 8",
-  "31": "November credential sitting \u2014 TWO regenerations, one sitting (~Nov 1):",
-  "41": "War-risk premium observability \u2014 source upgrade, BOTH legs, one item (",
-  "55": "CRUISE re-classification + arm-CCL ladder registration \u2014 DAEDALUS's 8/",
-  "56": "SAM INFRA_AGENDA.md disposition \u2014 Status: SCOPING \u2014 Will to decide, un",
-  "58": "Oil sleeve \u2014 ONE named exit condition for the USO 35 shares (you ruled",
-  "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-C",
-  "64": "VIOLET CLAUDE.md write-back step-7 amendment (DAEDALUS PR#4 durable ha"
+  "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the ",
+  "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-C"
  }
 }
