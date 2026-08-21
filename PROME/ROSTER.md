@@ -34,7 +34,7 @@
 
 ---
 
-## ACTIVE (32) — split by responsibility class *(30→31 at the 2026-08-16 FERT registration; 31→32 at the 2026-08-20 FLG build)*
+## ACTIVE (33) — split by responsibility class *(30→31 at the 2026-08-16 FERT registration; 31→32 at the 2026-08-20 FLG build; 32→33 at the 2026-08-21 CRUISE re-class — ARCHIVE/personal-interest → EVENT-DRIVEN, Will-ruled row 55 off the DAEDALUS 8/16 label-flagged-false finding)*
 *Phase 1 taxonomy pass, 2026-08-05. Previously one flat bucket headed "persistent domain owners (30)", which mixed domain owners, organizing/service agents, a review lane, event-driven specialists and newborns under a header claiming all thirty were persistent domain owners.* Verified by recent commit cadence; each runs as its own Claude Code session.
 
 > **The count column is a vintage snapshot (as-of the header date), NOT live** — it rots within days (re-run the Method command to refresh). **Classification is the signal, not the raw count.** *(Vintage-stamp added 2026-07-10 — same "hardcoded-Current value silently rots" defect DAEDALUS fixed in CARL's sub-agent CLAUDE.md files the same day.)*
@@ -97,7 +97,7 @@
 
 > ⚠️ **Cross-reference, do not re-derive:** five of these seven — **AEOLUS · MIDAS · OSPREY · VULCAN · WATT** — are DAEDALUS's own **F5 finding** (2026-08-03: *"5 agents carry a live thesis and NO falsification surface … all 5 my builds, one blueprint cause"*), reached independently. **DAEDALUS has already ruled the disposition: a dated retrofit trigger, NOT an instant demotion** (PAT-075 grandfathering — nobody loses a level on the day a rule lands). The retrofit trigger is DAEDALUS's lane at Phase 2; this label must not be read as duplicating or pre-empting it.
 
-### EVENT-DRIVEN SPECIALIST (4)
+### EVENT-DRIVEN SPECIALIST (5)
 *Narrow agents expected to run around print/catalyst/event windows. **Cadence and scope description — NOT lower authority.***
 
 | Agent | Domain | Authority (≠ cadence) | 30d commits (as-of 2026-07-10) |
@@ -105,6 +105,7 @@
 | OZK | Bank OZK specialist (RESG construction / classified-migration watch) | **Real analytical authority** in-lane, DAEDALUS `L4`; cadence is print-driven (revival gate → Q2 print) | revived†††† |
 | WAL | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | **Real analytical authority** in-lane, owner of its thesis-of-record; cadence is print-driven | new††††† |
 | FLG | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | **Real analytical authority** in-lane, DAEDALUS grade pending first session; cadence is print-driven (Call Report ~QE+45d) | new‡ |
+| CRUISE | Cruise-sector event specialist — CCL vehicle; fuel-cost transmission (BRENT → CCL); 8-channel pre-announce watchlist (`WATCHLIST_CCL_PREANNOUNCE.md`, 8/14); Q3 print ~9/28-29. ⚠️ The 7/2 arm-CCL ladder is PROPOSED-NEVER-RATIFIED and 4wk in-band — retire-or-fresh-levels decision staged at next session (row-55 ruling 8/21); do NOT treat its band as a live threshold | **Real analytical authority** in-lane; cadence is event/print-driven (Will-directed sessions) | re-classed‡‡ |
 | FERT | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = LIVE vector; **potash → FERT at TRIAGE DEPTH, Will-ruled 2026-08-18** — routing only, log+flag, no deep-dive until the charter edit [DAEDALUS-owed] + benchmark row land together; ⚠️ potash = a FOURTH benchmark family on a desk re-chartered over a basis mislabel. ⛔ Prior cell read "potash EXCLUDED-UNOWNED fleet-wide" — never a Will ruling, an inference off the 8/16 re-charter's positive scoping, propagated as fact) | **Real analytical authority** in-lane; cadence is trigger-driven (TRIGGERS.tsv wake register; weekly-to-monthly decision tempo) | re-chartered†††††† |
 
 > **‡ FLG** built 2026-08-20 — the fleet's FIRST GREENFIELD per-bank build (no sub-tree promotion; FERT re-charter as template), Will-ruled in-session verbatim "Yes build it" on DAEDALUS's proposal off REGINALD's matrix v2.0 (FLG ranked 1st of 14 scored banks after v1 ranked it last — the reversal is the origin story). Build record `AGENTS/DAEDALUS/builds/FLG_BUILD_2026-08-20.md`; zero gates registered at birth (FERT discipline: base-rate first, register second); root CLAUDE.md:26 mirror 31→32 = Will-gated, drafted at registration — ✅ **EXECUTED 2026-08-21 (`326181484`, root-batch word; name-set proven 32/zero-lost; AGENTS.md row landed same commit)**.
@@ -141,7 +142,7 @@
 **In `AGENTS/_archive/`** (archived 2026-06-27): **BUFFER** (shock-absorber / containment), **DOC** (system-health monitor), **EARNINGS** (corporate-earnings monitor), **FOREX** (FX monitor) — scaffolded but never launched (skeleton + empty workbooks, no STATUS, zero session commits); **DARWIN** (archived earlier). **Folders removed entirely** (2026-06 public-prep prune; recoverable from git history): **HERMES** (mail-carrier, deprecated by the messaging overhaul `[[project_messaging_overhaul]]`), **REITS** (REIT tape → absorbed into CREED), **TRADES** (trade scratchpad → superseded by TERRY).
 
 ## ARCHIVE SOURCES — do not launch (folder left in place)
-CRUISE (Will's personal-interest — ⚠️ label FLAGGED FALSE by DAEDALUS's 8/16 orphaned-threshold sweep: de-facto ACTIVE, 4 Will-directed sessions since 8/14, arm-CCL ladder unregistered; re-classification + registration = PROME-lane follow-up, decision packet at Will since 8/14 — do not re-derive here) · ATHENA (reading / knowledge). *(FERT removed 2026-08-16 → ACTIVE/EVENT-DRIVEN SPECIALIST, see ††††††.)*
+ATHENA (reading / knowledge). *(FERT removed 2026-08-16 → ACTIVE/EVENT-DRIVEN SPECIALIST, see ††††††. **CRUISE removed 2026-08-21 → ACTIVE/EVENT-DRIVEN SPECIALIST ‡‡** — the DAEDALUS 8/16 label-flagged-false finding ruled by Will, row 55; the arm-CCL ladder was deliberately NOT registered [proposed-never-ratified levels, 4wk tape-contaminated] — see the class-table row.)*
 
 ## SPECIAL
 **YEYOU** — repo-wide reviewer on a manual/branch model (not a domain agent; stays manual per Auto-push Decision C).
