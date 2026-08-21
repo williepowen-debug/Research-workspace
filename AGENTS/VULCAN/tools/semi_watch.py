@@ -21,6 +21,17 @@ WHAT IT RECORDS  -> workbook/S2_SERIES.tsv (append-only, one row per run)
   * Contract prices are NOT scraped. They are quarterly, LTA-governed and
     forecast-revised (KB-049/055); they belong in KB.tsv with a source, not in
     an automated series that would imply a daily cadence they don't have.
+  * ⚠️ THE SPREAD COLUMN HAS A BASIS AND YOU MUST QUOTE IT (added 2026-08-21).
+    `spread_aicompute_minus_memory_pp` is computed on a CALENDAR one-month window,
+    RAW closes, memory = MU/SNDK/WDC/STX. Those three choices are not neutral:
+    on 2026-08-21 the semicap-minus-memory spread read -5.78pp (this construction),
+    -4.04pp with SNDK dropped, and -1.92pp on 21 TRADING days with adjusted closes.
+    THE SAME DAY, THREE DEFENSIBLE READINGS OF "ONE MONTH", 3.86pp APART.
+    A spread quoted without its construction reports the analyst's choice, not the
+    market — L-17's cousin (unspecified BASIS rather than extremum-anchored WINDOW).
+    ⚠️ AND BEFORE CALLING ANY DIVERGENCE A FINDING, BASE-RATE IT: semicap-vs-memory
+    divergence >=5pp on a rolling month occurs on 55.4% of days since 2005 (KB-105).
+    A coin-flip event discriminates nothing.
   * FAIL LOUD. A spot fetch that breaks writes `ERR:<reason>`, never a blank
     and never a stale carry-forward (`finding_silent_blank_evades_review`,
     `finding_plausible_stale_value_evades_review`).
