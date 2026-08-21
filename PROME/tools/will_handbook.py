@@ -465,15 +465,17 @@ def main():
     except Exception as e:
         alert("clock", f"parse_dates raised: {e}"); dates = []
 
-    # Brief tab — READ-ONLY through the brief's own parsers. write=False is
-    # load-bearing: the standalone brief run owns the change-feed baseline;
-    # writing here would eat its diffs (the cursor-advance class).
+    # Brief tab — through the brief's own parsers. write=True since 2026-08-21
+    # (Will's word: standalone page RETIRED, "run that through the handbook"):
+    # THIS run now owns the change-feed baseline — the ownership transferred
+    # here the same commit the standalone stopped regenerating, so exactly one
+    # writer exists at all times (the cursor-advance class, both directions).
     try:
         written, brief = wb.parse_brief()
         money = wb.parse_money()
         gates, channels = wb.parse_gates(), wb.parse_channels()
         feed, first = wb.update_changes(
-            wb.snapshot_now(gates, channels, money, dec, chore, dates), write=False)
+            wb.snapshot_now(gates, channels, money, dec, chore, dates), write=True)
         brief_tab = render_brief_tab(written, brief, feed, first, money)
     except Exception as e:
         alert("brief", f"brief legs raised: {e}")

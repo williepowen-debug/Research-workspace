@@ -53,6 +53,13 @@ USAGE
    [[finding_artifact_redeploy_same_url]])
 
 ARTIFACT_URL: https://claude.ai/code/artifact/76508dac-662b-4da4-a60b-c586e3a472ec
+⛔ PAGE RETIRED 2026-08-21 (Will in-session: "lets just run that through the
+handbook and retire the standalone") — the URL above carries a retirement
+banner pointing at the Operator Handbook, whose brief tab renders BRIEF.md now.
+THIS FILE LIVES ON as the parser/state library: will_handbook.py imports
+parse_* + update_changes (write=True — the handbook run owns the change-feed
+baseline since the same commit). Do NOT run this as a page generator at
+closeout; do not delete it (prome_gate's queue-parser selftest reads it).
   (minted 2026-08-03. Same-conversation republish of the same file path keeps this URL.)
   FAVICON: 🧭 — keep identical on every republish; Will finds the tab by its icon.
 """
