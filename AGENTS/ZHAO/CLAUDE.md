@@ -127,11 +127,40 @@ When spawned with a task:
 
 ## BELGIUM PROXY METHODOLOGY
 
-Belgium TIC = Euroclear Brussels custody for China PBOC. Interpretation rules (corrected 2026-07-16 — the prior version of this section had lines 116-117 contradicting each other; fixed):
-- **Belgium rising while China TIC falls** = custody migration to offshore, NOT a reduction. Net neutral — China's true position is stable, just relabeled.
-- **Belgium flat/falling while China TIC falls** = the fall is NOT explained by Belgium-specific custody migration. This only rules OUT that one re-routing channel — see the reframe note below before calling it a broader "exit."
-- **⚠️ TERMINOLOGY REFRAMED 2026-07-16 (Will-approved, KB-ZHAO-102):** do NOT call a Belgium-flat-while-China-falls pattern "genuine exit" or de-dollarization. China's current Agency-bond holdings (~$300B, CFR/Setser 5/2026) dwarf the scale of typical TIC Treasury declines, and China holds more dollars off SAFE's own balance sheet (state commercial banks, policy banks, CIC) than on it — so a falling SAFE-reported Treasury line, even with Belgium ruled out, is more likely Treasury→Agency rotation or entity-shifting to less-transparent state channels than a genuine reduction in China's aggregate USD exposure. Use "SAFE-reported Treasury-line reduction" instead.
-- China's TRUE exposure is ~$1.8-1.9T (TIC + Belgium + agencies + state banks) per CFR/Setser's Oct-2023 analysis — that vintage not re-confirmed for 2026 this session.
+Belgium TIC = Euroclear Brussels custody for China PBOC.
+
+> ### ⚠️ READ THIS BEFORE USING THE BELGIUM LINE — the interpretation rules below were TESTED 2026-08-21 and the month-to-month inference FAILED
+>
+> This section used to state two interpretation rules as **deterministic identities** ("Belgium rising while China falls **=** custody migration"). They had been applied that way for ~5 months and **were never base-rated.** They now have been:
+>
+> **rho(China net Treasury sales, Belgium net Treasury sales) = +0.050 over n=41 months** (2023-02→2026-06). Sub-windows: 12m −0.040 · 24m +0.023 · 36m +0.005; LT-only legs +0.055 / −0.102 / −0.023 / +0.004. **Every window is indistinguishable from zero. A custody mirror requires a materially NEGATIVE correlation.** Base rate: of the **27 months China was a net seller, Belgium was a net buyer in 15 — 56%, a coin flip.**
+>
+> **⇒ A single month's China-down/Belgium-up pattern is NOT evidence of custody migration, because that pattern occurs at chance frequency.** June 2026 was the textbook signature (China −$21.96B, Belgium +$17.56B) and is explained by both legs being large independently — China's sale ranked 4th most-negative of 41 months, Belgium's buy 4th largest.
+>
+> **⚠️ LIMIT, stated so this isn't over-read:** this refutes **systematic monthly mirroring**, NOT the existence of an episodic migration channel — lumpy real events would be diluted by a full-sample correlation. The channel may exist; **the Belgium line cannot detect it month-to-month, in either direction.**
+>
+> **Instrument + re-usability bands: `VX-ZHAO-1.09`.** Reinstate the migration reading only if rho < −0.5 on a rolling 24m window. *(KB-ZHAO-121.)*
+
+**Interpretation rules — probabilistic, not identities (rewritten 2026-08-21):**
+- **Belgium rising while China TIC falls** — *consistent with* custody migration, **but not evidence of it** at n=1 month (56% base rate; see box). Do **not** net the two legs and report a "true position" unless the rho test has been re-run and passes.
+- **Belgium flat/falling while China TIC falls** — rules OUT Belgium-specific re-routing for that month, and **nothing more.** Not an "exit" finding. See the reframe below.
+- **Never report a Belgium-derived adjustment to China's position without stating the rho as of the date you ran it.** The number moves; the rule must not be quoted without it.
+
+**⚠️ TERMINOLOGY REFRAMED 2026-07-16 (Will-approved, KB-ZHAO-102) — AMENDED 2026-08-21 (Will-ruled in-session, "do the reframe fix"):**
+
+**THE DOCTRINE (unchanged, and still correct):** do NOT call a falling SAFE-reported Treasury line "genuine exit" or de-dollarization. **The $650B line tracks SAFE's own narrowly-defined, TIC-visible, Treasury-specific holdings** — a real, mechanical, market-moving threshold that grades exactly as before — **but a breach is not a reliable signal of China's aggregate US-dollar exposure.** Use **"SAFE-reported Treasury-line reduction."**
+
+**THE MECHANISMS (amended — one refuted, one untestable):**
+- ~~Treasury→Agency rotation~~ **🔴 REFUTED 2026-08-21 by direct measurement.** Rotation requires Agency holdings to RISE as Treasuries fall. **They fell.** China TTM Jul-25→Jun-26: Treasuries (LT) −$91.3B, **Agency −$40.3B — sold, not bought**; Agency holdings $179.9B→$142.0B (−$37.9B). rho(Treasury, Agency net sales) = **−0.025, n=41** (~zero; rotation needs materially negative). June: both sold. **Do not cite rotation as the explanation.** *(VX-ZHAO-1.10, KB-ZHAO-127.)*
+- **Off-SAFE entity-shifting** (state commercial banks, policy banks, CIC) — **NOT TESTABLE from TIC country lines.** TIC attributes by custodian/country, not by Chinese owning entity, so intra-China entity shifts do not move this line at all. Retained as *possible*, demoted from *evidence*.
+
+**WHAT ACTUALLY HOLDS THE DOCTRINE UP NOW — valuation, which is weaker and contingent:** China's total long-term US-securities **holdings** moved only **$1,173.2B → $1,161.6B = −$11.6B (−1.0%)** over the TTM, against **−$118.9B of net sales** — markets added back **~$107.3B**. So "aggregate exposure roughly unchanged" is **true on the stock and false on the flow**, and it is held up by *price*, not by portfolio construction. **If markets stop appreciating, this support goes away and the doctrine needs re-examining.**
+
+⚠️ **NO LIVE MAGNITUDE IS HARDCODED HERE, deliberately.** The prior version welded a datum ("the ~$40B Treasury decline") into canon, where it rotted unnoticed for ~5 weeks and was understated ~3x by the time anyone checked. **Current China selling magnitudes live in `VX-ZHAO-1.03` (TTM net sales) and `VX-ZHAO-1.02` (level) — read them there, never restate a figure in this file.** *(`[[finding_a_teaching_surface_ages_like_data]]` — canon's authority is exactly what stops anyone freshness-checking it.)*
+
+⚠️ **PERIMETER DISCIPLINE — two correct TTM figures coexist; always say which:** **−$122.3B** = all Treasuries incl. bills (TIC Table 3) · **−$91.3B** = coupons/LT only (Table 1 is a long-term table). They reconcile to the dollar. Related: the **~$300B** Agency figure formerly quoted here (CFR/Setser 5/2026) is ~2x the raw TIC Agency line ($142.0B, Jun-26) — a custodial-adjusted estimate being contrasted against a raw TIC one. **That perimeter mismatch is why the level is not cited above; the refutation rests on DIRECTION, which is unambiguous.**
+
+- China's TRUE exposure ~$1.8-1.9T (TIC + Belgium + agencies + state banks) per CFR/Setser's Oct-2023 analysis — ⚠️ **that vintage is now ~3 years old and has never been re-confirmed for 2026.** Treat as a stale anchor, not a current figure.
 - Always track Belgium and China TIC together, never separately. As of 2026-07, HANS owns the broader custody-hub pull (Belgium/Luxembourg/Cayman/Ireland for Treasuries) — coordinate rather than duplicate.
 
 ---
