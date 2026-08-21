@@ -1,5 +1,5 @@
 # RULING RECORD — T6 Saturday hard-close semantics = OPTION C (disambiguation, nothing moves)
-**Date:** 2026-08-21 ~11:0x ET (in-session, same hour as the word) · **Author:** PROME
+**Date:** 2026-08-21 ~10:3x ET [corrected at closeout — commit 11e015d03 10:34] (in-session, same hour as the word) · **Author:** PROME
 **Will's verbatim word:** *"Rule T6 Option C off your rec"* — following the options presentation earlier this session (A grade-as-written-unnamed · B roll-to-8/31 · C disambiguate), and Will's same-sitting confirmation of the forum's composition (4-desk HENRY/VIOLET/BOND/LIQUID; T6 = the BOND×LIQUID adversarial pair inside it).
 
 ## The defect being ruled

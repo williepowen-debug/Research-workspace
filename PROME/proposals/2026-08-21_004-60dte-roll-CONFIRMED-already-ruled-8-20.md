@@ -1,5 +1,5 @@
 # RULING RECORD — 004 60-DTE roll: **ALREADY RULED 8/20 (BOND's window); TODAY'S WORD CONFIRMS IT**
-**Date:** 2026-08-21 ~11:2x ET · **Author:** PROME
+**Date:** 2026-08-21 ~10:4x ET [corrected at closeout — commit 90ba1e7e8 10:41] · **Author:** PROME
 **Today's verbatim word:** *"Rule the 004 60-DTE roll off your rec"*
 **Ruling of record (prior):** Will, 2026-08-20, in BOND's session, on BOND's escalation `AGENTS/BOND/analysis/2026-08-20_60DTE-review_TLT-puts_and-the-7-16-NO-ADD.md` — BOND's committed record (STATUS header + §Time-based row): **"Will ruled let it run: no roll, no add."**
 

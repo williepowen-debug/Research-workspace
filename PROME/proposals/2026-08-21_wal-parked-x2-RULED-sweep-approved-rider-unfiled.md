@@ -1,5 +1,5 @@
 # RULING RECORD — WAL parked ×2: fossil sweep APPROVED; banner rider UNRULEABLE-AS-UNFILED
-**Date:** 2026-08-21 ~12:0x ET (in-session, same hour as the word) · **Author:** PROME
+**Date:** 2026-08-21 ~10:5x ET [corrected at closeout — commit dff83371a 10:55; stamp was ~1h fast] (in-session, same hour as the word) · **Author:** PROME
 **Will's verbatim word:** *"Rule the WAL parked ×2 off your recs"*
 **The two items (WAL `MEMORY.md` ★6, its own words):** *"Will's word on the EARNINGS_PREP banner rider, and the root Data-Hygiene amendment before sweeping the four bannered fossils. Do not sweep them unilaterally."*
 

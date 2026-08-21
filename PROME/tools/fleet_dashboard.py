@@ -255,6 +255,14 @@ def parse_heartbeat():
     m = re.search(r"Break \d+ [/·] Grind \d+ [/·] Unresolved \d+", text)
     if m:
         split = m.group(0)
+    else:
+        # 8/21 (PAT-105 second instance): the 8/20 HEARTBEAT re-base writes the
+        # split COMPACT — "NEXUS 21/44/35 [8/12]" — with no Break/Grind words at
+        # all. Same separator-drift class as the 8/16 fix one branch above; parse
+        # the compact form and render it in the worded shape the panel expects.
+        m2 = re.search(r"NEXUS (\d+)/(\d+)/(\d+)", text)
+        if m2:
+            split = f"Break {m2.group(1)} / Grind {m2.group(2)} / Unresolved {m2.group(3)}"
     channels = []
     # tolerate the number inside OR outside the bold ("1. **X**" and "**1. X**"):
     # a HEARTBEAT re-base is a breaking format change to this parser (PAT-069)

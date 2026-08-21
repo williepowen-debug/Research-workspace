@@ -1,5 +1,5 @@
 {
- "built": "2026-08-21 08:15",
+ "built": "2026-08-21 11:24",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -40,6 +40,7 @@
   "2026-08-29 FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND s",
   "2026-08-29 HEN-42 rates-driver rotation discriminator resolves \u2014 policy",
   "2026-08-29 NEXUS SYSTEMS REVIEW commission opens (Will-approved 8/17 ev",
+  "2026-08-29 Row-66 re-present: DFII10 NO-VERDICT band (\u00b1~3.4bp \u2248 \u00b11\u03c3) ar",
   "2026-08-29 \ud83d\udd34 HEN-42 resolution gains a NEW dated input: BOND's daily-te",
   "2026-08-30 Post-2026 Colorado River operating guidelines \u2014 EARLIEST leg",
   "2026-08-31 BCRED Q3 tender EXPIRES (SC TO-I filed 8/4, acc 0001193125-2",
@@ -51,6 +52,7 @@
   "2026-09-01 FORUM fin-cond T3: decoupling Test A first adequately-powere",
   "2026-09-01 FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23",
   "2026-09-01 Russia diesel producer-direct carve-out takes effect (OSP-02",
+  "2026-09-05 CRUISE arm-CCL ladder disposition RECONSIDER-BY (row-55 ruli",
   "2026-09-06 OPEC+ meeting \u2014 the Q4-2026 quota decision (the ACTUAL Q4 de",
   "2026-09-07 CRMT / Silver Point covenant-relief waiver EXPIRES (date har",
   "2026-09-07 FORUM-6 deferral R10: scan_report scope-stating instrument \u2014",
@@ -64,6 +66,7 @@
   "BROCK": "elev",
   "CARL": "ok",
   "CORAL": "crit",
+  "CRUISE": "watch",
   "FALCON": "ok",
   "FERT": "ok",
   "FLG": "ok",
@@ -85,7 +88,7 @@
   "SHADE": "elev",
   "TERRY": "ok",
   "VIOLET": "ok",
-  "VULCAN": "watch",
+  "VULCAN": "ok",
   "WAL": "ok",
   "WALTER": "ok",
   "WATT": "watch",
@@ -116,27 +119,31 @@
   "GATE-TERRY-ARM2": "resolved:RESOLVED",
   "GATE-TERRY-ARM3": "resolved:RESOLVED",
   "GATE-VIO-110": "resolved:LAPSED",
-  "GATE-VIO-116": "resolved:RESOLVED"
+  "GATE-VIO-116": "resolved:RESOLVED",
+  "GATE-VIO-RV1": "live:LIVE"
  },
  "levels": {
-  "10Y Yield": 4.71,
+  "10Y Yield": 4.65,
   "CCC OAS": 1030.0,
   "Cushing": 21.25,
   "HY OAS": 273.0,
   "Init Claims": 206000.0,
-  "MOVE": 71.26,
-  "OZK": 49.4,
-  "SOFR-IORB": -0.03,
-  "USD/JPY": 158.75,
-  "VIX": 15.83,
-  "WAL": 80.13
+  "MOVE": 73.18,
+  "OZK": 49.64,
+  "SOFR-IORB": -0.02,
+  "USD/JPY": 158.89,
+  "VIX": 15.49,
+  "WAL": 79.8
  },
  "one": "the regime question sharpened from \"which frame is right\" to \"the long end is breaking in four sovereigns at once \u2014 and whose story is that?\" US 30Y at a series high, JGB 10Y highest since 1996, AU 10Y through 5%, EA moving \u2014 while disinflation buys zero relief and Treasury slides an official $4bn-per-op bid under the long end starting 9/9 (liquidity-support on the letter, not YCC \u2014 flips registered). BOND's cross-section says common DIRECTION, not common magnitude (common component \u2264~4bp at the 10Y), so the sovereign-specific stories still carry most of the move. Meanwhile the desk's dead frames were replaced honestly rather than patched: SAM built a GATED successor candidate (\"flow sets the level, positioning sets the volatility\" \u2014 promotion blocked on BIS sizing), CREED's first-ever trigger fired (CMBS maturity-default wave, recognition not transmission), and regionals are repricing on a mechanism nobody has named \u2014 10/10 names down since 8/14, rates channel eliminated, credit NOT confirming. The book's biggest rail (004, TLT puts) finally has the tape moving its way, and the vol-rescue route is dead \u2014 it pays via the bond selloff or not at all. $0 moved; zero thresholds moved by PROME.",
  "pending": [
-  "HEARTBEAT touch-up \ud83d\udd34 [gamma sign wrong into OPEX]",
-  "root batch (one word, 5 items)",
-  "row 64 [VIOLET CLAUDE"
+  "T6 conjunctive-clause word [after LIQUID concur ~8/24]",
+  "BOND expression question [8/29 adjudication]",
+  "BRENT second-135C rulings \u00d72 [his window: 60-90-DTE band scope + rule-#6 break]",
+  "broker export [D-10 rider + D-16/D-17/D-20]",
+  "row 31 [~Nov 1, SILENT to mid-Oct]",
+  "FFIEC laptop creds [with row 31 or sooner if WAL MI3 needed on this box]"
  ],
- "split": "",
+ "split": "Break 21 / Grind 44 / Unresolved 35",
  "v": 1
 }

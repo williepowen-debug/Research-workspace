@@ -1,5 +1,5 @@
 # RULING RECORD — WALTER's two FORMAT_SPEC questions (8/18 packet, held for Will)
-**Date:** 2026-08-21 ~12:1x ET (in-session, same hour as the word) · **Author:** PROME
+**Date:** 2026-08-21 ~10:5x ET [corrected at closeout — commit e4c21f841 10:59; stamp was ~1.2h fast] (in-session, same hour as the word) · **Author:** PROME
 **Will's verbatim word:** *"Rule the WALTER FORMAT_SPEC ×2 off your recs"*
 **Source of the questions:** `PROME/inbox/processed/2026-08-18_from-WALTER_routing-layer-landed-two-surfaces-i-cannot-edit-still-say-potash-is-unowned.md` §"TWO OPEN FORMAT_SPEC QUESTIONS — Will's, not taken by me." Verified before ruling: no prior disposition exists on any surface; the item carried open since 8/18.
 

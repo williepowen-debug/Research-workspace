@@ -1,5 +1,5 @@
 # RULING RECORD — resolver-anchor retroactive sweep + TRY-FIRE-001 disposition
-**Date:** 2026-08-21 ~10:4x ET (in-session, same hour as the word) · **Author:** PROME
+**Date:** 2026-08-21 ~10:1x ET [corrected at closeout — commit 5153759a6 10:19; stamp had run fast, clock-not-narrative n+1] (in-session, same hour as the word) · **Author:** PROME
 **Will's verbatim word:** *"Rule the retroactive-sweep and TRY-FIRE-001 off your recs"*
 
 ## Ruling 1 — resolver-anchor retroactive sweep = **NO** (no fleet wave)
