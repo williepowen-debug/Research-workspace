@@ -1,10 +1,93 @@
-field	description
-id	KB row id, format KB-VULCAN-NNN
-date	ISO date recorded/observed (YYYY-MM-DD)
-channel	S1 | S2 | S3 | S4 | S5 | cross — which transmission channel it feeds
-fact	the knowledge item (one sentence, sourced)
-value	the load-bearing number if any (with unit); blank if narrative
-source	origin (earnings/10-Q / TrendForce / SIA / BIS / TSMC / agent handoff)
-as_of	as-of date of the value (may lag `date`)
-confidence	EMPIRICAL | PROVISIONAL | ASSUMPTION
-notes	caveats, cross-refs, routing
+ledger	variable_name	data_type	allowed_values	required	description
+KB.tsv	id	String	KB-VULCAN-NNN (sequential)	Yes	Unique KB row id
+KB.tsv	date	Date	YYYY-MM-DD	Yes	Date the fact was recorded/observed
+KB.tsv	channel	Enum	S1|S2|S3|S4|S5|cross	Yes	Which transmission channel the fact feeds
+KB.tsv	fact	String		Yes	The knowledge item, one sentence, sourced
+KB.tsv	value	String		No	The load-bearing number WITH UNIT; blank if narrative
+KB.tsv	source	String		Yes	Origin (filing/TrendForce/SIA/BIS/TSMC/agent handoff). No naked numbers
+KB.tsv	as_of	String	YYYY-MM-DD preferred; a PERIOD expression where the vintage genuinely is one	Yes	As-of vintage OF THE VALUE — may lag `date` and often should. ⚠️ TYPE RELAXED Date->String 2026-08-21 after the validator flagged 15 rows: the data was RIGHT and the schema was WRONG. A KB vintage is legitimately sometimes a period ('FY2025 filings', '2026-03-31 to 2026-06-22', 'late-2025/early-2026'), and coercing those to an ISO day would manufacture FALSE PRECISION — worse than the imprecision. ⚠️ THE REAL COST, stated rather than hidden: KB `as_of` is therefore NOT machine-sortable and no staleness check can key on it. Use a precise ISO date whenever one exists.
+KB.tsv	confidence	Enum	EMPIRICAL|PROVISIONAL|ASSUMPTION	Yes	Evidence tier. ONE TOKEN — qualifiers belong in `notes`
+KB.tsv	notes	String		No	Caveats, cross-refs, routing
+VX.tsv	id	String	VX-VULCAN-SN	Yes	Vector row id, one per channel
+VX.tsv	channel	Enum	S1|S2|S3|S4|S5	Yes	Channel this vector tracks
+VX.tsv	indicator	String		Yes	What is being watched
+VX.tsv	state	String		Yes	Current live read, sourced + dated
+VX.tsv	score	Integer	1|2|3|4|5	Yes	Convergence-matrix score. MUST equal STATUS's matrix — STATUS is canonical
+VX.tsv	threshold	String		Yes	The banded rule that would move the score
+VX.tsv	source	String		Yes	Primary for the current state
+VX.tsv	as_of	Date	YYYY-MM-DD	Yes	Vintage OF THE STATE. Refresh whenever `state` changes — a fresh stamp on a stale body CERTIFIES it
+VX.tsv	notes	String		No	Caveats and history
+FLOW.tsv	id	String	FL-VULCAN-NN	Yes	Pathway id
+FLOW.tsv	channel	Enum	S1|S2|S3|S4|S5|cross	Yes	⚠️ ONE TOKEN. Use `cross` for a genuinely cross-channel pathway (one event, opposite signs on two channels) — a compound like `S4->S2+semicap` belongs in `mechanism`, and `cross` is the value KB.tsv has always used for this.
+FLOW.tsv	from	String		Yes	Upstream node
+FLOW.tsv	mechanism	String		Yes	How the transmission works
+FLOW.tsv	to	String		Yes	Downstream node
+FLOW.tsv	state	String		Yes	⚠️ FREE PROSE, NOT AN ENUM despite the name. ⚠️ FLOW HAS NO date/as_of COLUMN, so a cell cannot signal its own staleness — a superseded figure must carry an INLINE never-use guard in the cell or it is not guarded at all
+FLOW.tsv	routes_to	String	Agent names, comma-separated	Yes	Which desks consume this pathway
+PREDICTIONS.tsv	id	String	VULCAN-NN	Yes	Prediction id
+PREDICTIONS.tsv	made	Date	YYYY-MM-DD	Yes	Date registered
+PREDICTIONS.tsv	channel	Enum	S1|S2|S3|S4|S5	Yes	Channel under test
+PREDICTIONS.tsv	prediction	String		Yes	The falsifiable claim, in the LETTER it will be graded on
+PREDICTIONS.tsv	resolve_date	Date	YYYY-MM-DD	Yes	Date by which it resolves. ⚠️ Fleet-canonical name is `Resolve_By` (ZHAO); this desk keeps `resolve_date` pending the 2026-08-28 ruling — same concept, a second column would be duplicate state
+PREDICTIONS.tsv	anchor_type	Enum	calendar|publication|market|mixed	Yes	What the resolve date's GRADEABILITY is anchored to, i.e. WHAT CAN SLIP. `publication` = a third party must publish before this can be graded
+PREDICTIONS.tsv	status	Enum	OPEN|HIT|MISS|HIT-NOFIRE|MISS-DOWNGRADE|FALSIFIED|VOID	Yes	⚠️ ONE TOKEN — a Status reading `OPEN — GRADED 7/16` matches no filter and hides the row
+PREDICTIONS.tsv	conf_tier	Enum	EMPIRICAL|PROVISIONAL|ASSUMPTION	Yes	Confidence at registration. Never edited after grading
+PREDICTIONS.tsv	if_falsified	String		Yes	The action owed if this fails — decided IN ADVANCE
+PREDICTIONS.tsv	criteria	String		Yes	Resolution rule. ⚠️ Never re-worded to make a row pass [L-11(b)]
+PREDICTIONS.tsv	resolution	String		No	Outcome + post-mortem. FROZEN once written — a graded row is a calibration artifact
+S2_SERIES.tsv	asof_utc	Timestamp	ISO-8601 Z	Yes	Run timestamp — the CONTENT vintage boot.py leg 3 reads (never mtime)
+S2_SERIES.tsv	trade_date	Date	YYYY-MM-DD	Yes	Equity session the cross-section prices
+S2_SERIES.tsv	ddr5_spot_avg	Float		Yes	DDR5 spot session average, USD. `ERR:` prefix on failure — never blank, never carried forward
+S2_SERIES.tsv	ddr4_spot_avg	Float		Yes	DDR4 spot session average, USD
+S2_SERIES.tsv	spread_aicompute_minus_memory_pp	Float		Yes	The cohort-split metric. ⚠️ Base-rated: a >=5pp divergence occurs 55.4% of days since 2005 — IT DISCRIMINATES NOTHING on its own
+S2_SERIES.tsv	per_ticker_1mo_pct	String	name:pct;…	Yes	Constituent-level detail. ⚠️ Constituent-level BY DESIGN — semis price for dispersion; do not simplify to an index
+S2_SERIES.tsv	notes	String		No	Run caveats
+S2_SERIES.tsv	ddr5_chg_pct	Float		No	DDR5 session % change
+S2_SERIES.tsv	ddr4_chg_pct	Float		No	DDR4 session % change
+S2_SERIES.tsv	spot_asof	String		No	Vintage of the TrendForce spot read
+S2_SERIES.tsv	memory_1mo_pct	Float		No	Memory cohort 1-month % — constituent-weighted
+S2_SERIES.tsv	semicap_1mo_pct	Float		No	Semicap cohort 1-month %
+S2_SERIES.tsv	foundry_1mo_pct	Float		No	Foundry cohort 1-month %
+S2_SERIES.tsv	aicompute_1mo_pct	Float		No	AI-compute cohort 1-month %
+S2_SERIES.tsv	qqq_1mo_pct	Float		No	QQQ benchmark 1-month %
+S2_SERIES.tsv	soxx_1mo_pct	Float		No	SOXX benchmark 1-month %
+MAG7_SERIES.tsv	asof_utc	Timestamp	ISO-8601 Z	Yes	Run timestamp
+MAG7_SERIES.tsv	holdings_asof	Date	DD-Mon-YYYY	Yes	As-of date of the SSGA holdings file — the CONTENT vintage boot.py leg 4 reads
+MAG7_SERIES.tsv	mag7_pct	Float		Yes	⚠️ A FUND weight (SPY), NOT an S&P DJI INDEX weight. Always quote the basis
+MAG7_SERIES.tsv	mag7_ex_goog_pct	Float		Yes	THE TRAP VALUE: Alphabet has TWO index classes (GOOGL+GOOG) and both count. Dropping one understates by ~2.4pp
+MAG7_SERIES.tsv	breadth_rsp_spy_63d_pp	Float		Yes	RSP/SPY 63d relative return, pp. The SECOND leg of S1's RED conjunction
+MAG7_SERIES.tsv	breadth_state	Enum	collapse|no-collapse|UNGRADEABLE	Yes	⚠️ UNGRADEABLE if the breadth leg is unavailable — never a silent downgrade to orange
+MAG7_SERIES.tsv	band	String		Yes	S1 band verdict
+MAG7_SERIES.tsv	validation	String	OK:… | ERR:…	Yes	Zero-free-parameter check. A row is NOT written unless this is OK
+MAG7_SERIES.tsv	mag7_pct_normalized	Float		No	Equity-normalized Mag-7 weight (cash removed). ⚠️ Two fetches of the SAME as-of file gave 32.9821 vs 32.9982 — basis noise EXCEEDS the 0.019pp distance to the yellow line, so never claim above-or-below on this basis
+MAG7_SERIES.tsv	nvda_pct	Float		No	NVDA weight — the largest single S&P name
+MAG7_SERIES.tsv	nvda_share_of_group_pct	Float		No	NVDA as % of the Mag-7 group
+MAG7_SERIES.tsv	total_file_weight	Float		No	Sum of all holdings — a completeness check on the source file
+MAG7_SERIES.tsv	n_holdings	Integer		No	Holdings count in the SSGA file
+MAG7_SERIES.tsv	breadth_pctile	Float		No	Percentile of the breadth reading in its own 23yr history
+MAG7_SERIES.tsv	per_name_pct	String	name:pct;…	No	Per-constituent weights — ⚠️ MUST include BOTH GOOGL and GOOG
+MAG7_SERIES.tsv	source	String		No	Source attribution incl. the fund-vs-index basis
+S4_SERIES.tsv	asof_utc	Timestamp	ISO-8601 Z	Yes	Run timestamp
+S4_SERIES.tsv	revenue_month	Date	YYYY-MM-DD (month-end)	Yes	The REVENUE month, from EDGAR's own reportDate. ⚠️ NEVER from the filing date — TSMC files ~the 10th for the PRIOR month. CONTENT vintage for boot.py leg 5
+S4_SERIES.tsv	accession	String	NNNNNNNNNN-NN-NNNNNN	Yes	SEC accession — the artifact. Cite this, not a secondary
+S4_SERIES.tsv	rev_ntd_mn	Float		Yes	Monthly net revenue, NT$ million
+S4_SERIES.tsv	mom_pct	Float		Yes	Month-over-month %. ⚠️ NEGATIVES ARE REAL — TSMC writes them as (1.1) in the filing [L-20]
+S4_SERIES.tsv	yoy_pct	Float		Yes	Monthly YoY %. ⚠️ Spans 16.9%-67.9% over 20 obs — near-meaningless alone; CITE THE CUMULATIVE
+S4_SERIES.tsv	ytd_yoy_pct	Float		Yes	Cumulative Jan-to-date YoY % — THE citable figure
+S4_SERIES.tsv	decel_run_mo	Integer		Yes	Consecutive months of cumulative-YoY decline. `decel` needs >=2 (base-rated: 1mo fired 50% of the time)
+S4_SERIES.tsv	ytd_is_month	String	YES-january-no-cumulative-block | (blank)	No	January filings carry no cumulative block — marked, never silently synthesised
+S4_SERIES.tsv	band	String	red-decline|orange-flat|yellow-decel(...)|no-stress(...)	Yes	⚠️ red-decline has occurred 0/20 in-sample: REACHABLE but NO base rate — its silence is not stability
+S4_SERIES.tsv	validation	String	OK:… | ERR:…	Yes	Three zero-free-parameter recomputations. Row NOT written on mismatch
+S4_SERIES.tsv	filed	Date	YYYY-MM-DD	No	SEC filing date — ⚠️ NOT the revenue month; ~5-6 weeks apart
+S4_SERIES.tsv	prior_month_ntd_mn	Float		No	Prior month revenue, the MoM denominator
+S4_SERIES.tsv	year_ago_ntd_mn	Float		No	Year-ago month revenue, the YoY denominator
+S4_SERIES.tsv	ytd_ntd_mn	Float		No	Cumulative Jan-to-date revenue
+S4_SERIES.tsv	ytd_prior_ntd_mn	Float		No	Prior-year cumulative, the cumulative-YoY denominator
+S4_SERIES.tsv	ytd_yoy_prev_month_pct	Float		No	Prior month's cumulative YoY — the decel comparison base. Blank on a year's first row
+S4_SERIES.tsv	source	String		No	Accession-level source attribution
+SCHEMA.tsv	ledger	String	filename	Yes	Which workbook file this row describes. ⚠️ Added 2026-08-21 — this file documented KB.tsv ONLY for its whole life while CLAUDE.md said 'read before writing'
+SCHEMA.tsv	variable_name	String		Yes	Column name as it appears in that ledger's header
+SCHEMA.tsv	data_type	Enum	String|Integer|Float|Date|Timestamp|Enum	Yes	Type
+SCHEMA.tsv	allowed_values	String	pipe-separated	No	Enum members, or format. Blank = free text
+SCHEMA.tsv	required	Enum	Yes|No	Yes	Whether the field must be populated
+SCHEMA.tsv	description	String		Yes	What it means and the trap to avoid

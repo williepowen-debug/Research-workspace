@@ -6,7 +6,7 @@ Built by DAEDALUS 2026-07-10 (VULCAN build). cwd-proof + self-locating: lives at
 AGENTS/VULCAN/boot.py -> parents[2] == repo root; finds scripts/ledger_staleness.py
 regardless of launch cwd.
 
-Boot step 4 in CLAUDE.md. SIX legs:
+Boot step 4 in CLAUDE.md. SEVEN legs:
   1. ledger staleness — workbook/*.tsv AND TRADE.md vs STATUS mtime (shared script).
   2. predictions-due  — workbook/PREDICTIONS.tsv rows past resolve_date still OPEN.
   3. S2 series age    — workbook/S2_SERIES.tsv vintage, CONTENT-derived from the
@@ -32,6 +32,13 @@ Boot step 4 in CLAUDE.md. SIX legs:
      read-only scan of NEIGHBOURS' registries for rows naming VULCAN. Added 2026-08-21
      because boot's only date leg read PREDICTIONS.tsv, which by design holds VULCAN-NN
      MARKET forecasts — so 7 of 10 dated commitments had NO surfacing mechanism at all.
+
+  7. workbook schema — scripts/validate_workbook.py --boot: enforces SCHEMA.tsv against
+     ALL EIGHT ledgers. Added 2026-08-21. Until that day SCHEMA.tsv described KB.tsv ONLY
+     (9 rows for 1 of 8 ledgers) while CLAUDE.md said "read before writing" — a ritual with
+     no mechanism. First run found 2 genuine defects among 18 raw flags: a confidence cell
+     carrying TWO tiers as prose (matched no filter, invisible to every scan) and a
+     compound value in FLOW's channel enum.
 
 ⚠️ S3 and S5 STILL HAVE NO SERIES INSTRUMENT, and that is a DECISION, not an omission:
    both channels' registered thresholds are EVENT-triggered (a cleared new-issue vs talk,
@@ -67,6 +74,7 @@ S4_SERIES = HERE / "workbook" / "S4_SERIES.tsv"
 # either permanently noisy or permanently asleep.
 S4_FILING_DAY = 12  # by this day of the month, the prior month should be on file
 CATALYST_SCRIPT = HERE / "scripts" / "catalyst_countdown.py"
+VALIDATOR = HERE / "scripts" / "validate_workbook.py"
 
 
 def run(cmd):
@@ -276,9 +284,22 @@ def catalyst_countdown():
 
 
 
+def workbook_schema():
+    """Leg 7 — enforce SCHEMA.tsv across every declared ledger."""
+    if not VALIDATOR.exists():
+        return 2, "  🔴 scripts/validate_workbook.py MISSING — SCHEMA.tsv is unenforced"
+    py = ROOT / ".venv" / "bin" / "python"
+    try:
+        r = subprocess.run([str(py if py.exists() else sys.executable), str(VALIDATOR), "--boot"],
+                           capture_output=True, text=True, timeout=60)
+    except Exception as e:  # noqa: BLE001
+        return 2, f"  🔴 workbook validator FAILED to run ({type(e).__name__})"
+    return (2 if r.returncode == 2 else (1 if r.returncode == 1 else 0)), (r.stdout or "").rstrip("\n")
+
+
 def main():
     print("=" * 72)
-    print("  VULCAN BOOT — staleness · predictions · S1/S2/S4 series · catalysts")
+    print("  VULCAN BOOT — staleness · predictions · series · catalysts · schema")
     print("=" * 72)
     rcs = []
 
@@ -320,6 +341,11 @@ def main():
     cc_rc, cc_msg = catalyst_countdown()
     print(cc_msg)
     rcs.append(cc_rc)
+
+    print("\n--- 7. workbook schema conformance (all ledgers) ---")
+    wb_rc, wb_msg = workbook_schema()
+    print(wb_msg)
+    rcs.append(wb_rc)
 
     print("\n" + "=" * 72)
     if 2 in rcs:
