@@ -20,9 +20,9 @@
 - **Monday 8/24:** hedging-map re-measure, test grades, prediction-market pin day 2 — all in desk windows you already run or PROME's.
 
 ## The daily flow
-- **Open the Desk brief first.** Its top section is "Decisions waiting on you" — if it says zero, you're done; everything else on that page is context you can skim or skip.
+- **Open this page, Your desk tab.** The one-line summary under the title is the whole state — if it reads zero words and zero desks, you're done. The brief tab has the story when you want it.
 - **Fleet Ops is the instrument panel** — gauges, gates, who's stale. Look when you want to know how the machine is running, not what it needs.
-- **This page is the manual** — how to drive, what the words mean, where things live.
+- The standalone Desk-brief page still exists and shows the same content as the brief tab; one word retires it if this page has replaced it for you.
 
 ## Launching a desk
 - `cd AGENTS/<NAME> && claude` then say **"please boot up."** PROME launches from `PROME/`.
@@ -56,7 +56,7 @@
 - **`PROME/DOCKET.tsv`** — every dated catalyst the fleet is watching.
 - **`PROME/GATES.tsv`** — the fire-ledger: registered triggers and their state.
 - **`HEARTBEAT.md`** — the market-regime memo (PROME-written, your-word-gated).
-- **Three pages:** Desk brief (default read) · Fleet Ops (instrument panel) · this Handbook (manual). All three regenerate at every PROME closeout; each page shows its own build time — an old stamp means canon needs a session, not that the page is broken.
+- **Your pages:** this Handbook (default read — desk, brief, and manual in one) · Fleet Ops (instrument panel) · the standalone Desk brief (same content as the brief tab, kept until you retire it). All regenerate at every PROME closeout; each shows its own build time — an old stamp means canon needs a session, not that the page is broken.
 
 ## When something looks wrong
 - **Ask the desk to verify at the artifact** — "verify that at the file/source" is the house move; every desk expects it and does it to PROME too.

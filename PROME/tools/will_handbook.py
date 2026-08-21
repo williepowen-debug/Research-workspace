@@ -205,6 +205,32 @@ footer{font-size:.72rem;color:var(--faint);line-height:1.7;
 .toc a{font-family:var(--mono);font-size:.72rem;text-decoration:none;color:var(--dim);
   border:1px solid var(--line);border-radius:3px;padding:.15rem .55rem;background:var(--panel)}
 .toc a:hover,.toc a:focus-visible{color:var(--accent);border-color:var(--accent)}
+.bhead{font-family:var(--serif);font-weight:400;font-size:1.22rem;line-height:1.5;
+  margin:0;text-wrap:balance}
+.bclocks{font-family:var(--mono);font-size:.7rem;color:var(--faint);
+  display:flex;flex-wrap:wrap;gap:.35rem .9rem}
+.prose{font-family:var(--serif);font-size:1.01rem;line-height:1.66}
+.prose p{margin:0 0 .85rem}.prose p:last-child{margin-bottom:0}
+.pull{font-family:var(--serif);font-size:1.08rem;line-height:1.5;margin:0;
+  padding:.8rem 0 .8rem 1rem;border-left:3px solid var(--accent)}
+.falsify{background:var(--accent-soft);border-radius:5px;padding:.9rem 1.05rem;
+  display:flex;flex-direction:column;gap:.45rem}
+.falsify .lead{font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);font-weight:700}
+.feed{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.feed li{display:grid;grid-template-columns:5rem 1fr;gap:.8rem;align-items:baseline;
+  padding:.45rem 0;border-bottom:1px solid var(--line-soft);font-size:.88rem}
+.feed li:last-child{border-bottom:none}
+.feed .ago{font-family:var(--mono);font-size:.68rem;color:var(--faint);
+  white-space:nowrap;text-transform:uppercase;letter-spacing:.05em}
+.book{display:flex;flex-wrap:wrap;gap:1.4rem;align-items:flex-end;
+  padding:.85rem 1rem;background:var(--panel);border:1px solid var(--line);border-radius:5px}
+.stat{display:flex;flex-direction:column;gap:.1rem}
+.stat .v{font-family:var(--mono);font-size:1.22rem;font-variant-numeric:tabular-nums;
+  font-weight:600;line-height:1.1}
+.stat .k{font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:var(--faint)}
+.vint{font-size:.7rem;color:var(--faint);font-family:var(--mono);flex-basis:100%}
+.vint.stale{color:var(--warn)}
 .tabs{display:flex;gap:2px;border-bottom:1px solid var(--line)}
 .tabs button{font:inherit;font-size:.82rem;font-weight:700;letter-spacing:.06em;
   text-transform:uppercase;background:none;border:0;color:var(--faint);
@@ -247,7 +273,62 @@ def parse_spawns(body):
     return rows
 
 
-def render(sections, dec, chore, dates):
+def render_brief_tab(written, brief, feed, first, money):
+    """The Desk-brief content as a tab. Decisions section deliberately absent —
+    the desk tab owns it (one job per section, even across tabs)."""
+    now = dt.datetime.now()
+    h = ["<div id='tab-brief' role='tabpanel' aria-label='The brief' hidden>"]
+    if brief.get("HEADLINE"):
+        h.append("<section>"
+                 f"<p class='bhead'>{wb.md_inline(brief['HEADLINE'])}</p>"
+                 "<div class='bclocks'>"
+                 f"<span>story written {html.escape(written or 'UNDATED')}</span>"
+                 "<span>facts on this tab rebuild with the page</span></div></section>")
+    h.append("<section><h2>What changed</h2><ul class='feed'>")
+    if first:
+        h.append("<li><span class='ago'>—</span><span>first build — baseline recorded, "
+                 "history starts now</span></li>")
+    elif not feed:
+        h.append("<li><span class='ago'>—</span><span>nothing has moved since the "
+                 "last rebuild</span></li>")
+    for e in feed:
+        h.append(f"<li><span class='ago'>{html.escape(wb.ago(e.get('ts', ''), now))}</span>"
+                 f"<span>{wb.md_inline(e.get('text', ''))}</span></li>")
+    h.append("</ul></section>")
+    if brief.get("STORY"):
+        h.append("<section><h2>What is going on</h2><div class='prose'>"
+                 + wb.md_block(brief["STORY"]) + "</div>")
+        if brief.get("QUESTION"):
+            h.append(f"<p class='pull'>{wb.md_inline(brief['QUESTION'])}</p>")
+        if brief.get("FALSIFIER"):
+            h.append("<div class='falsify'><div class='lead'>This is wrong if</div>"
+                     f"<div class='prose'>{wb.md_block(brief['FALSIFIER'])}</div></div>")
+        h.append("</section>")
+    if brief.get("DISAGREEMENT"):
+        h.append("<section><h2>Where the desk disagrees</h2><div class='prose'>"
+                 + wb.md_block(brief["DISAGREEMENT"]) + "</div></section>")
+    h.append("<section><h2>Where you stand</h2>")
+    if money:
+        stale = " stale" if money["age"] > 5 else ""
+        h.append("<div class='book'>"
+                 f"<div class='stat'><span class='v'>${money['total']}</span>"
+                 "<span class='k'>Account</span></div>"
+                 f"<div class='stat'><span class='v'>{money['cash_pct']}%</span>"
+                 "<span class='k'>Cash</span></div>"
+                 f"<div class='vint{stale}'>broker export {money['vintage']} · "
+                 f"{money['age']}d old — not live, re-check before any fill</div></div>")
+    if brief.get("POSITION"):
+        h.append("<div class='prose'>" + wb.md_block(brief["POSITION"]) + "</div>")
+    h.append("</section>")
+    if brief.get("WATCH"):
+        h.append("<section><h2>What is coming</h2><div class='prose'>"
+                 + wb.md_block(brief["WATCH"]) + "</div>"
+                 "<p class='hint'>Dated rows live on Your desk → The clock.</p></section>")
+    h.append("</div>")  # /tab-brief
+    return "\n".join(h)
+
+
+def render(sections, dec, chore, dates, brief_tab_html):
     now = dt.datetime.now().astimezone()
 
     def take(prefix):
@@ -283,6 +364,7 @@ def render(sections, dec, chore, dates):
 
     h.append("<nav class='tabs' role='tablist'>"
              "<button role='tab' data-tab='tab-desk' aria-selected='true'>Your desk</button>"
+             "<button role='tab' data-tab='tab-brief' aria-selected='false'>The brief</button>"
              "<button role='tab' data-tab='tab-manual' aria-selected='false'>The manual</button>"
              "</nav>")
     h.append("<div id='tab-desk' role='tabpanel' aria-label='Your desk'>")
@@ -346,6 +428,9 @@ def render(sections, dec, chore, dates):
     h.append("</ul></section>")
     h.append("</div>")  # /tab-desk
 
+    # -- the brief --------------------------------------------------------------
+    h.append(brief_tab_html)
+
     # -- the manual -------------------------------------------------------------
     h.append("<div id='tab-manual' role='tabpanel' aria-label='The manual' hidden>")
     slugs = [re.sub(r"[^a-z0-9]+", "-", t.lower()).strip("-")[:40] for t, _ in manual]
@@ -380,8 +465,24 @@ def main():
     except Exception as e:
         alert("clock", f"parse_dates raised: {e}"); dates = []
 
+    # Brief tab — READ-ONLY through the brief's own parsers. write=False is
+    # load-bearing: the standalone brief run owns the change-feed baseline;
+    # writing here would eat its diffs (the cursor-advance class).
+    try:
+        written, brief = wb.parse_brief()
+        money = wb.parse_money()
+        gates, channels = wb.parse_gates(), wb.parse_channels()
+        feed, first = wb.update_changes(
+            wb.snapshot_now(gates, channels, money, dec, chore, dates), write=False)
+        brief_tab = render_brief_tab(written, brief, feed, first, money)
+    except Exception as e:
+        alert("brief", f"brief legs raised: {e}")
+        brief_tab = ("<div id='tab-brief' role='tabpanel' hidden>"
+                     "<div class='degraded'>brief tab failed to build — "
+                     f"{html.escape(str(e))}</div></div>")
+
     out = Path(a.out)
-    out.write_text(render(sections, dec, chore, dates), encoding="utf-8")
+    out.write_text(render(sections, dec, chore, dates, brief_tab), encoding="utf-8")
     n = len(ALERTS)
     if n:
         print(f"handbook: REVIEW — {n} ⚠️  ({'; '.join(l for l, _ in ALERTS)}) · wrote {out} ({out.stat().st_size}B)")
