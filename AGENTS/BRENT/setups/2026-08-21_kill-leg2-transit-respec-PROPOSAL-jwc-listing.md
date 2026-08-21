@@ -1,6 +1,8 @@
 # `KILL-LEG2-TRANSIT` RE-SPEC — PROPOSAL, NOT A REGISTRATION
 
-**BRENT · 2026-08-21 ~14:3x ET · ⛔ WILL GATE — nothing here is registered, no level is moved, `REGISTRY.tsv` is untouched.**
+**BRENT · 2026-08-21 ~14:3x ET** · ✅✅ **RULED BY WILL 2026-08-21 ~15:52 ET — ALL THREE DECISIONS, PER THESE RECOMMENDATIONS UNMODIFIED.** Verbatim: **(1) "yes retire" · (2) "yes ok" · (3) "ok yes".** Ruling of record → `PROME/proposals/2026-08-21_kill-leg2-transit-respec-RULED.md`. **ENCODED 2026-08-21 ~15:5x:** `KILL-LEG2-TRANSIT` **RETIRED** in `REGISTRY.tsv` on INSTRUMENT grounds with the **premise-NOT-refuted** guard riding the token · `KILL-LEG2-JWC-LISTING` **REGISTERED** as the **ASYMMETRIC STANDING NEGATIVE**, delisting **PROMPT-ONLY** · `THESIS.md` updated at both cite sites and the v5.7 'sharpest exposure' marked resolved. ⛔ **THIS DOCUMENT IS NOW THE SPEC OF RECORD, NOT A PROPOSAL. The header below is preserved verbatim as the pre-ruling text.**
+
+> *(pre-ruling header, retained verbatim:)* **BRENT · 2026-08-21 ~14:3x ET · ⛔ WILL GATE — nothing here is registered, no level is moved, `REGISTRY.tsv` is untouched.**
 **Owed since 2026-08-17** (SCRATCH NEXT-SESSION #7: *"RESOLVE OR RE-INSTRUMENT, MINE AS OWNER … ⛔ Re-scoping is a WILL GATE — bring a spec."*) **This is the spec.**
 
 ---

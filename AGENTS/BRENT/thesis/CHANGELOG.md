@@ -8,6 +8,23 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-21 (Fri, ~15:5x ET) — **⚖️ WILL RULING ENCODED: `KILL-LEG2-TRANSIT` RETIRED, `KILL-LEG2-JWC-LISTING` REGISTERED. NO THESIS VERSION CHANGE (stays v5.7).**
+
+**Ruled by Will 15:52 ET, all three decisions per BRENT's own recommendations unmodified** — verbatim **"yes retire" · "yes ok" · "ok yes"**. Ruling of record: `PROME/proposals/2026-08-21_kill-leg2-transit-respec-RULED.md`. Verified at the artifact and on origin (`c29eff56e`) before encoding — **a relayed operator word does not clear a gated surface on its own.**
+
+**OLD VIEW → NEW VIEW.**
+- **OLD:** `KILL-LEG2-TRANSIT` — Stage-B kill test, fires on **>35 Hormuz transits/day ×2 consecutive**, instrument IMF PortWatch `chokepoint6`. Coverage-impeached 8/17, **letter unchanged, re-scope Will-gated.**
+- **NEW:** **RETIRED on INSTRUMENT grounds**, two independent defects — **COVERAGE** (war-regime `n_total` maxes ~8, so a genuine reopening could occur and it would never fire) and **INSTRUMENT** (PortWatch impeached: `n_tanker>0` AND `capacity_tanker=0` on **0 of 424** pre-crisis vs **19 of 113** war days). **Re-levelling could not have fixed it** — a lower bar on an impeached series is the un-base-rated threshold L21/L22 forbid.
+- **SUCCESSOR:** **`KILL-LEG2-JWC-LISTING`**, an **ASYMMETRIC STANDING NEGATIVE** on the JWC (LMA/IUA) Listed Areas. *While the Persian/Arabian Gulf and Gulf of Oman remain listed, no "corridor open/normalised" claim is true.* Frozen baseline **`JWLA-034`, 29 Jul 2026**. **Delisting is PROMPT-ONLY, never an automatic kill.**
+
+🔴🔴 **THE GUARD THAT RIDES THE TOKEN, AND IT IS THE POINT OF THIS ENTRY: THE PREMISE IS NOT REFUTED.** Retiring the row says **the instrument died** — not that the corridor-normalisation question was answered, and **not that the thesis was confirmed.** ⛔ **A retired falsifier is the easiest thing in this ledger to misread as a win.** Same guard class as `GATE-TERRY-006` (8/20).
+
+✅ **WHY THE SUCCESSOR IS DIFFERENT FROM THE MISTAKE IT REPLACES: "can it fire?" was base-rated BEFORE registration** — `JWLA-034` itself records **`Deleted: Pakistan`** after 20+ years listed. **Removals demonstrably happen.** That is the question the incumbent never had asked of it.
+
+⛔ **WHAT DID NOT CHANGE:** no threshold moved, no capital authorised, **thesis stays v5.7**. The successor **measures insurance underwriting appetite, NOT BARRELS** — v5.6 already ruled a transit count is not a barrel count, and **a listing is not one either. The throughput question remains unmeasured and the Hormuz undercount factor remains UNQUANTIFIED.** It is a **CONFIRMER, not a leading signal** (~4.5-month latency at the Pakistan precedent).
+
+---
+
 ## 2026-08-21 (Fri, SESSION 4 — live, the GRADES session; Will closed it ~14:4x ET) — **NO THESIS VERSION CHANGE (stays v5.7).** One Path-A criterion RE-VERIFIED at a primary and its reference found stale; one prediction graded; no conviction change; `$0` moved.
 
 **Why NO version bump.** Nothing here changes the thesis's structure, conviction or phase. The v5.7 tolled-corridor frame is untouched. What changed is **evidence quality and instrument integrity**, which is a CHANGELOG event and not a version event.
