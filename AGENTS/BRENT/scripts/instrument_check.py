@@ -548,6 +548,57 @@ INCIDENTS = BRENT_DIR / "refinery_damage" / "INCIDENTS.tsv"
 INCIDENT_ACTIVE_BUDGET_D = 60   # ACTIVE >=60d unverified => re-verify-or-downgrade
 
 
+PRESENT_TENSE_UNBUDGETED = ("PARTIAL_RESTART", "MONITORING", "DISPUTED")
+
+
+def check_incident_unbudgeted(today=None):
+    """I-9 — stale rows in PRESENT-TENSE statuses that the 60-day budget does NOT cover.
+
+    Adopted 2026-08-21 (BRENT). supersedes: none. ⛔ DELIBERATELY NOT AN EXPANSION OF THE
+    I-2 BUDGET: that scope ('status == ACTIVE', 60 days) was ruled by Will on 2026-08-12 as
+    spec'd, and widening a ruled alert unasked would change its meaning and its volume.
+    This is a DISCLOSURE line, not a budget — it changes no threshold and gates nothing.
+
+    ⚑ WHY, and it was found the hard way, by me, in the same session: correcting RF-005
+    Bazan from ACTIVE to PARTIAL_RESTART — a genuine accuracy improvement — SILENTLY REMOVED
+    a five-month-stale row from the staleness check, because the check filters on ACTIVE.
+    ⇒ MAKING A ROW MORE ACCURATE MADE IT LESS SUPERVISED. Without this line, the cleanest way
+    to clear the re-verify queue would be to re-classify rows out of it.
+    `[[finding_registered_gate_captures_attention]]`
+
+    PARTIAL_RESTART / MONITORING / DISPUTED are all PRESENT-TENSE claims about the world and
+    age exactly like ACTIVE does. RESOLVED, ATTACKED_INFRA_INTACT and PERMANENT_CLOSURE are
+    terminal and are correctly excluded.
+    """
+    if not INCIDENTS.exists():
+        return []
+    if today is None:
+        today = datetime.now(timezone.utc).replace(tzinfo=None)
+    out = []
+    with open(INCIDENTS, newline="", encoding="utf-8") as fh:
+        hdr = None
+        for line in fh:
+            if line.startswith("#") or not line.strip():
+                continue
+            f = line.rstrip("\n").split("\t")
+            if hdr is None:
+                hdr = f
+                continue
+            r = dict(zip(hdr, f))
+            if (r.get("status") or "").strip() not in PRESENT_TENSE_UNBUDGETED:
+                continue
+            lv = (r.get("last_verified") or "").strip()
+            try:
+                age = (today - datetime.fromisoformat(lv[:10])).days
+            except Exception:
+                continue
+            if age >= INCIDENT_ACTIVE_BUDGET_D:
+                out.append((r.get("id", "?"), r.get("facility", "?"), age,
+                            lv, (r.get("status") or "?").strip()))
+    out.sort(key=lambda x: -x[2])
+    return out
+
+
 def check_incident_impossible(today=None):
     """I-8 — INTERNAL-CONSISTENCY invariant: bpd_offline_est must not exceed capacity_bpd.
 
@@ -746,6 +797,19 @@ def main():
         # a silent coverage hole wearing the appearance of a cleaner board.
         # ⚠️ Prints UNCONDITIONALLY when any such row exists, including when `inc` is empty,
         # so an otherwise-clean run still discloses what has been moved out of scope.
+        # I-9 — stale PRESENT-TENSE rows OUTSIDE the ruled ACTIVE budget. Disclosure only.
+        unb = check_incident_unbudgeted()
+        if unb:
+            print(f"\n  {AMBER} INCIDENTS.tsv — {len(unb)} row(s) in PRESENT-TENSE statuses the "
+                  f"{INCIDENT_ACTIVE_BUDGET_D}d budget does NOT cover, also stale "
+                  f"(DISCLOSURE, not a budget — no threshold, gates nothing):")
+            for rid, fac, age, lv, st in unb[:6]:
+                print(f"     {AMBER} {rid} {fac[:32]:32s} {st:15s} last verified {lv} ({age}d)")
+            if len(unb) > 6:
+                print(f"     … and {len(unb)-6} more")
+            print(f"     ⚠️  Here because re-classifying a row OUT of ACTIVE silently removes it "
+                  f"from the re-verify queue — accuracy must not buy invisibility.")
+
         # I-8 — arithmetic-possibility invariant, ALL statuses (see check_incident_impossible).
         imp = check_incident_impossible()
         if imp:
