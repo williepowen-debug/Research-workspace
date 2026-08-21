@@ -1,3 +1,7 @@
+# Batch A — ✅ RULED 2026-08-21 ~15:2x ET, Will in-session, verbatim **"okay go ahead with Batch A"** — both lines EXECUTED same sitting (MEMORY.md header + docs/AUTO_MEMORY.md §Writing-memory-files; row 70 closed; DAEDALUS confirmed so census promotion keys to the live rule)
+
+*(Original drafted state below, unchanged — the ruled texts were applied verbatim as drafted.)*
+
 # Batch A — memory-canon two-liners, DRAFTED, pending Will's word (registered WILL_QUEUE row 70)
 
 **Date drafted:** 2026-08-21 ~13:0x ET (S2) · **Provenance:** Will's rediscovery concern → PROME 30d citation census → 5-item design ask (`5c66ea63b`) → DAEDALUS dispositions (`1e1067253`, items ② and ⑤ "wording → Will via PROME"). **One word covers both lines.** Batch B (CHECK_STANDARD: ① prior-art line + ⑤b glyph-vs-count + WAL 3 rules) is SEPARATE — it rides DAEDALUS's CHECK_STANDARD sitting and returns as its own word.

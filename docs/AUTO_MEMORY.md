@@ -118,6 +118,15 @@ touch the same file), git will flag a normal merge conflict *inside that file*
 on push. Resolution is manual: open the file, resolve the `<<<<<<<` markers,
 re-commit. The append-don't-rewrite rule (#2) makes this nearly never happen.
 
+## Writing memory files — the `symptoms:` line (Will-approved 2026-08-21, Batch A)
+
+New or extended memory files carry a `symptoms:` frontmatter line — grep-bait
+phrasings of how the problem presents (e.g. "script always exits 0") — and
+searches grep bodies, not just indexes. Forward-only: the existing corpus is not
+retro-edited. (Provenance: the memory-retrieval design, PROME `5c66ea63b` →
+DAEDALUS dispositions `1e1067253`; the companion cross-index was DECLINED with a
+pre-registered re-open trigger — ≥3 false-"searched, novel" claims in a month.)
+
 ## The index (`MEMORY.md`) — the harness owns it
 
 `MEMORY.md` is the lean, **always-loaded** index — the harness loads only the
