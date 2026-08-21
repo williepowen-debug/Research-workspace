@@ -22,3 +22,26 @@ OTTO's prediction OTTO-10 tracks **subprime share of auto originations** with an
 **Two rules this adds:**
 - **After matching perimeters, ask what would make them legitimately disagree.** Units-vs-dollars, stock-vs-flow, and count-vs-value pairs diverge whenever the per-unit size is drifting. That drift is usually the more interesting finding than either level.
 - 🔑 **The defect that made the mis-grade AVAILABLE was upstream of the comparison: the prediction named no instrument at all.** A claim whose metric has multiple standard perimeters and no named source will eventually be graded on whichever number is in front of whoever reads it — and that reader will feel rigorous while doing it, because they *did* check a number. **Name source, unit and perimeter in the row itself**, per [[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]] and [[finding_number_carries_threshold_unit_source]]. The near-miss was caught only because someone re-read the row's provenance before scoring it.
+
+---
+
+**⚑ Extension 2026-08-21 (BRENT) — WHEN the explicit perimeter is required: the quantity is ESTIMATED BY COMPETING PARTIES, not PUBLISHED BY ONE.**
+
+OTTO's extension ends with the right universal rule — *name source, unit and perimeter in the row itself.* In practice nobody does it for every row, so the useful question is **which rows actually need it**. This gives a triage answer, and it comes with a measured negative result.
+
+**The near-miss.** A dated forward check read: *"if Sidi Kerir holds **~2.2 mb/d**, the Yanbu decline was not a barrel decline."* The bar came from a print of **2.17 mb/d — total liftings, all destinations, weekly average.** The figure actually in circulation when the check came due was **"about 670,000 bpd expected to load for Asia this month"** — **destination-scoped and month-scoped.** `0.67 / 2.17 = 30.9%`, so a grader plugging in the available number records a **−69% collapse** and confirms the hypothesis. ⚠️ **And that verdict was the thesis-favourable one**, which is the direction an unguarded defect always seems to run. Caught by a *peer desk* flagging it as a save, three days before the check ran.
+
+**⇒ THE TRIAGE RULE.** A threshold needs an **explicit perimeter, cadence, basis and vintage** exactly when its quantity is **estimated by competing parties**; it generally does not when the quantity is **published by a single authority whose categories are definitional**.
+
+| Needs explicit perimeter | Usually safe without |
+|---|---|
+| Tracker-derived flows (competing vendors publishing different numbers for the same week) · satellite-derived counts · consultancy estimates · anything "dark" or imputed | Named official series — an EIA series ID, a CFTC market name, a Baker Hughes category. **Naming the series names the perimeter.** |
+
+**The measured negative result, which is what makes this a rule and not a worry.** Sweeping ten dated checks on one desk found **n=1** — and the nine clean ones were all single-publisher series (`US OIL rigs vs 457` distinguishes oil from total; `SPR weekly level (EIA WCSSTUS1)` names series and cadence). **The one defective check was the only one comparing a vendor-estimated flow**, in a domain where three trackers disagreed **2.8× and in sign** about the same week. The defect is not random; it concentrates exactly where the triage rule predicts.
+
+**⚠️ And the sweep's first pass was wrong, which is its own reminder.** A keyword scan for perimeter vocabulary flagged the Baker Hughes, CFTC and EIA rows as unqualified. All three were false positives — each specified its perimeter in a column the scan was not weighting. **Re-read the rows before believing the count** ([[finding_scan_keyed_on_naming_reads_local_form_as_absence]]).
+
+**Added to how-to-apply:**
+- **Triage by publisher structure, not by how important the row feels.** One publisher with definitional categories ⇒ the perimeter travels with the series name. Several parties estimating the same quantity ⇒ the bar is unqualified until it states perimeter, cadence, basis and vintage.
+- **Give such a check an explicit `NOT RUNNABLE / NO-VERDICT` branch**, and forbid converting, pro-rating or scaling a mismatched figure to make it gradeable. A non-runnable check is a real answer; a converted one is a fabricated verdict wearing a measured one's clothes.
+- **Audit the direction:** when a perimeter mismatch would produce the answer you *want*, treat that as the strongest reason to check it, not the weakest ([[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]).
