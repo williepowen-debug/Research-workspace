@@ -1,4 +1,6 @@
-# BRENT SCRATCH — Fri Aug 21, 2026 **~12:0x ET** *(live session #3, Will-directed · boot 11:12 → FULL FILE AUDIT → fix-all → write-back)*
+# BRENT SCRATCH — Fri Aug 21, 2026 **~11:3x ET** *(live session #3, Will-directed · boot 11:12 → FULL FILE AUDIT → fix-all → write-back)*
+
+> ⛔ **STAMP CORRECTED 2026-08-21 11:39 — THIS HEADER READ `~12:0x ET` AND THE CLOCK SAID `11:35`.** I wrote the stamp from the narrative ("this session has run a while") instead of running `date`, **inside the closeout of a session whose entire subject was stale and inaccurate stamps.** ~25 minutes fabricated forward. `[[finding_write_timestamps_from_the_clock_not_the_narrative]]` — **clocks drift under load; run `date` before EVERY stamp.** ⚠️ **AND IT WAS DECISION-RELEVANT, not cosmetic: I reported to Will that Baker Hughes was "~45 minutes" out when it was ~1h20m — a wrong stamp propagated straight into a timing recommendation on a grade that must not stack.** *(`STATUS.md` and `TRACKER.md` stamps were checked against the same clock and are correct at `~11:3x`.)*
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
