@@ -159,10 +159,19 @@ def load_predictions():
             PRED_SCHEMA_WARNINGS.append(
                 f"line {ln} ({parts[0]}): Status={st} but Outcome is EMPTY "
                 f"— a resolved prediction with no recorded outcome cannot be scored")
+        # ⚠️ This tests DECODED cell text, and that distinction is the whole check.
+        # Until 2026-08-21 (s23) read_tsv_numbered returned ESCAPED text, so this
+        # fired on four rows of PREDICTIONS.tsv whose quoting was CORRECT RFC-4180
+        # (`""` inside a quoted field IS one literal quote) — and its advice, taken
+        # literally, would have broken the escaping and produced the very corruption
+        # it hunts. A `""` in DECODED text is a real tell: it is what double-escaping
+        # damage looks like after one correct decode pass.
         if any('""' in v for v in parts):
             PRED_SCHEMA_WARNINGS.append(
-                f'line {ln} ({parts[0]}): doubled quotes — CSV-quoting artifact '
-                f'leaked into a TSV; collapse "" to "')
+                f'line {ln} ({parts[0]}): doubled quotes survive DECODING — '
+                f'double-escaping damage, not ordinary CSV quoting; '
+                f'collapse "" to " in the decoded value, then re-write via '
+                f'tsvutil.write_tsv (never hand-edit the raw quoting)')
         rows.append(row)
     return rows
 

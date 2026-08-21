@@ -58,6 +58,14 @@ AWARENESS = [
     # and (not machine-checkable) an analytical overclaim. Detection was never the gap;
     # invocation was — same lesson as the memory-index check.
     ("Version / Residue Drift", SCRIPTS_DIR / "version_drift_check.py", []),
+    # Built 2026-08-21 (s23). Every check above reads a TSV through tsvutil, so a
+    # defect INSIDE tsvutil makes all of them confidently wrong at once — and the
+    # 8/21 quote-doubling incident proved that class is invisible to row counts,
+    # field counts and staleness output alike. The specific trigger: read_tsv was
+    # repaired to be csv-aware and read_tsv_numbered, forty lines below it, was not.
+    # The one-time round-trip assertion written up as the fix could not see that,
+    # because a one-time assertion tests the reader you were thinking about.
+    ("TSV Reader Invariants", SCRIPTS_DIR / "tsvutil_selftest.py", []),
 ]
 
 # Data fetchers: (label, script, output_file, cadence_days, timeout_s, vintage_fn)

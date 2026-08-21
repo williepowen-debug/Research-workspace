@@ -77,9 +77,16 @@ def read_tsv(path):
     # literal characters, so a read->edit->csv.writer round-trip re-escaped what was
     # already escaped and DOUBLED every quote. Five VX rows compounded 12 decoded
     # quotes into 3,574 across four passes in one session before a byte-level diff
-    # caught it. A raw split also silently truncates any field containing an
-    # embedded newline — VX has several, which is why its 57 rows occupy 91 physical
-    # lines. csv.reader handles both; nothing else does.
+    # caught it. A raw split ALSO silently truncates any field containing an
+    # embedded newline. csv.reader handles both; nothing else does.
+    #   ⚠️ Correction 2026-08-21 (s23): the founding comment cited VX as a live
+    #   instance of the embedded-newline half — "VX has several, which is why its 57
+    #   rows occupy 91 physical lines." That is FALSE and was never true: all 49
+    #   commits of VX.tsv were scanned and ZERO have an embedded newline in any cell.
+    #   The 91 lines are 33 banner + 1 header + 57 rows. The QUOTING half above is
+    #   real and is the reason this reader is csv-aware; the newline half is a
+    #   fabricated corroborating detail written during the fix pass that repaired the
+    #   quoting. Kept as a warning about the failure mode, not as a claim about VX.
     import csv as _csv
     rows = []
     header = None
@@ -102,29 +109,50 @@ def read_tsv_numbered(path):
     the wrong row — a defect that makes the check ACTIVELY misleading rather than
     merely wrong, because the operator goes and inspects an innocent line.
     Preserving true file position is therefore part of the contract, not a nicety.
+
+    ⚠️ FIXED 2026-08-21 (s23) — THIS FUNCTION WAS LEFT ON THE RAW `split("\\t")` THAT
+    `read_tsv` WAS REPAIRED OFF THE SAME DAY. The fix cleared the region being looked
+    at, not the module: the corrected reader and the uncorrected one sat 40 lines
+    apart, and the second one had the first one's warning comment directly above it.
+    Live consequence: `predictions_due.py` is the only caller, and it received
+    ESCAPED text, so its doubled-quote check fired on FOUR correctly-escaped rows of
+    PREDICTIONS.tsv and told the operator to *"collapse "" to ""* — remediation that
+    would have re-introduced the exact corruption class the check was written to
+    catch. Measured at the time of the fix: the two readers DISAGREED on 5 of 6
+    MARCO ledgers (PREDICTIONS, VX, KB, FLOW, CATALYSTS), agreeing only on
+    MIGRATION_PROXIES, which happens to contain no quoted field.
+
+    Line numbering under csv.reader: `reader.line_num` counts PHYSICAL lines
+    consumed, so a record that spans an embedded newline still reports the line it
+    STARTED on. That is the number an operator needs to go look at.
     """
     p = Path(path)
     if not p.exists():
         return [], []
     raw = p.read_text(encoding="utf-8").split("\n")
-    numbered = [(i, ln.rstrip("\n")) for i, ln in enumerate(raw, start=1)]
+    # Banner offset in PHYSICAL lines — `i` is the 0-based index of the header row,
+    # so file line numbers below are `i + <lines consumed> + 1`.
     i = 0
-    while i < len(numbered) and (not numbered[i][1].strip()
-                                 or numbered[i][1].lstrip().startswith("#")):
+    while i < len(raw) and (not raw[i].strip() or raw[i].lstrip().startswith("#")):
         i += 1
-    numbered = numbered[i:]
-    if not numbered:
+    body = raw[i:]
+    if not body:
         return [], []
-    header = numbered[0][1].split("\t")
+    import csv as _csv
+    reader = _csv.reader(body, delimiter="\t")
+    header = None
     rows = []
-    for lineno, ln in numbered[1:]:
-        if not ln.strip():
+    consumed = 0
+    for cells in reader:
+        start = i + consumed + 1        # 1-based file line this record STARTS on
+        consumed = reader.line_num      # physical lines of `body` read so far
+        if header is None:
+            header = cells
             continue
-        cells = ln.split("\t")
         if not cells or not cells[0].strip():
             continue
-        rows.append((lineno, cells))
-    return header, rows
+        rows.append((start, cells))
+    return (header or []), rows
 
 
 def write_tsv(path, header, rows, banner=""):
