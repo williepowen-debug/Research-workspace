@@ -129,3 +129,29 @@
 ⚠️ **TENSION WITH `[[finding_date_gate_beats_weekday_name]]`, AND IT RESOLVES CLEANLY — THE SAME FIELD GETS OPPOSITE TREATMENT DEPENDING ON WHICH END OF THE PIPE YOU ARE ON.** That finding says to **DROP** the weekday from anything operative, because a day-name you author is a second unchecked assertion that propagates at full confidence. **This lesson says to KEEP the weekday on anything INBOUND**, because a day-name someone *else* wrote is a **free checksum on their own date field.** **Outbound: drop it, you are the author and it can only add error. Inbound: keep it, you are the reader and it can only reveal error.** No contradiction — the field is a liability when you write it and an asset when you read it.
 
 ★ **Caught by a subagent sweep, not by me** — the same session in which I corrected two other desks for this exact class. `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`.
+
+---
+
+25. **A SOURCE THAT HANGS IS NOT A SOURCE THAT IS DOWN. A WAF THAT TARPITS YOUR USER-AGENT PRODUCES A `TimeoutError`, WHICH READS AS THE PUBLISHER'S FAULT AND IS ACTUALLY YOURS.** *(2026-08-21, found while grading BRT-26 at the 8/21 Baker Hughes print — the first time in this ladder's history the primary was reached.)*
+
+For a month my surfaces carried a standing caveat in my own words: *"the Baker Hughes PRIMARY (rigcount.bakerhughes.com) TIMED OUT AGAIN (http=000) — I have still never reached the true primary; every figure in this ladder is an AGGREGATOR."* It was repeated on 7/31, 8/14 and 8/20-21, and it hardened into a registry field: `BRT-26-RIGS`'s probe literally read `manual:two independent aggregator pulls`. **The host was never down.**
+
+**MEASURED, same URL, back to back, both timeouts tried so it could not be blamed on tuning:**
+
+| User-Agent | Result |
+|---|---|
+| `BRENT-instrument-check/1.0` | `TimeoutError` at **20s** AND at **45s** |
+| `Mozilla/5.0 … Chrome/126 …` | **HTTP 200**, 4096B, in **0.1–0.4s** |
+
+**⇒ THE RULE: before recording "the source is unreachable," change the User-Agent once.** A 403 is a publisher telling you no. **A hang is a publisher telling you nothing — and silence is the one response that looks identical to an outage.**
+
+**★ THE HALF THAT MAKES IT A LESSON RATHER THAN A CONFIG NOTE: THE FIX WAS ALREADY IN THE SAME FILE, ONE FUNCTION AWAY, WITH A COMMENT EXPLAINING IT.** `probe_gie()` in `scripts/instrument_check.py` has carried a full browser UA — flagged *"LOAD-BEARING, not cosmetic"* — plus the error string *"if this says 'API key', check the User-Agent FIRST — GIE's error text misnames its own gate"* since the EU-STORAGE work. `probe_http()`, thirty lines above it, kept the identifying UA. **A previous session diagnosed this exact failure mode, wrote the diagnosis down next to the code, and did not carry it to the neighbouring function.** `[[finding_record_of_an_action_is_not_the_action]]` — **my documented follow-through failure, now observed at the tightest scope yet: not across files, not across surfaces, but across two functions in one file.**
+
+**⛔ A SECOND, INDEPENDENT ERROR RODE ALONG, AND IT IS THE WRONG-ARTIFACT CLASS.** On 8/14 I also concluded the BH primary was *"a year stale at a clean 200"* and that the oil/gas split *"is not published in any form I can read."* I had downloaded static-file `e98bcf83` — link text **"North America Rig Count New Report (2013-Aug 2025)"**, content-disposition `08-29-2025 …` — **the ARCHIVE**. The current report is `6f748ddc`, **"North America Rig Count Report - New Report"**. **Both link texts contain the words "New Report"; the only discriminator is the parenthetical date range.** The mis-pick was silent because everything else looked right: HTTP 200, 11.8 MB, 169,320 real data rows. `[[finding_instrument_reports_clean_against_the_wrong_reference]]` — **wrong by ARTIFACT, and the second instance on this desk in one day.**
+
+**Guards:**
+- **"Unreachable" is a two-part claim — the host, and the caller's identity. Vary the UA before you write the caveat.** Cost of not doing so here: a month of single-sourced aggregator grades on a live prediction row, each honestly caveated and all unnecessary.
+- **When a caveat survives three sessions unchanged, treat it as a hypothesis nobody has retested, not as an established fact.** Mine was copy-forwarded verbatim into a registry probe field, where it stopped looking like a caveat and started looking like a specification.
+- **When two files/links differ only by a parenthetical, the parenthetical IS the identifier.** Check the `content-disposition` filename and the payload's own internal date stamp — never the link text alone.
+- **⚠️ RECORD THE HYPOTHESIS YOU REFUTED.** My first instinct was HTTP/2 negotiation, because my opening `curl` failed with `HTTP/2 stream not closed cleanly` and my retry — which also set `--http1.1` — succeeded. **I had changed two variables at once.** Tested head-to-head 3× each: **both protocols return 200 in <0.3s.** The opening failure was transient. Had I not tested, I would have shipped a confident, wrong root cause *and* the correct fix in the same commit — the most durable kind of error, because the fix works and certifies the explanation.
+

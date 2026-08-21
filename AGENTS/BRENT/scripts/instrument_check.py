@@ -60,6 +60,23 @@ REGISTRY = BRENT_DIR / "workbook" / "REGISTRY.tsv"   # consolidated 2026-08-04; 
 # US equity/ETF options close 16:00 ET; the broad-based ETFs (SPY/QQQ/IWM/DIA) run to 16:15.
 ACTION_CLOSE_ET = {"_default": "16:00", "SPY": "16:15", "QQQ": "16:15", "IWM": "16:15", "DIA": "16:15"}
 
+# ⚠️ LOAD-BEARING, NOT COSMETIC — 2026-08-21.
+# Some publishers' WAFs TARPIT a self-identifying User-Agent: they do not 403, they simply
+# never respond, so the caller reads TimeoutError and concludes THE HOST IS DOWN.
+# MEASURED at rigcount.bakerhughes.com, same URL, back to back:
+#     UA "BRENT-instrument-check/1.0" -> TimeoutError at BOTH 20s and 45s (so not a timeout-tuning issue)
+#     UA <this browser string>        -> HTTP 200, 4096B, in 0.1-0.4s
+# COST OF NOT KNOWING THIS: every BRT-26 rig grade from 7/31 to 8/14 was taken off AGGREGATORS and
+# recorded with the standing caveat "the Baker Hughes PRIMARY TIMED OUT AGAIN (http=000) — I have
+# still never reached the true primary." The primary was never down. It was declining to talk to me.
+# ⛔ A HANG AND AN OUTAGE ARE INDISTINGUISHABLE AT THE CALLER, AND ONLY ONE OF THEM IS THE HOST'S FAULT.
+# ⚠️ THIS FILE ALREADY KNEW: probe_gie() has carried this exact fix + a "check the User-Agent FIRST"
+# comment since the EU-STORAGE work. The lesson was learned in one function and never carried to the
+# one next to it. [[finding_record_of_an_action_is_not_the_action]] — across FUNCTIONS in ONE FILE.
+# ⚠️ CAVEAT: keyless-via-browser-UA is undocumented publisher behavior and can tighten without notice.
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+
 RED, AMBER, GREEN = "🔴", "🟠", "✅"
 
 
@@ -249,7 +266,7 @@ def probe_fred(series):
 
 def probe_http(url):
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "BRENT-instrument-check/1.0"})
+        req = urllib.request.Request(url, headers={"User-Agent": BROWSER_UA})
         with urllib.request.urlopen(req, timeout=20) as resp:
             if resp.status != 200:
                 return False, None, f"HTTP {resp.status}"
@@ -344,9 +361,9 @@ def probe_gie(spec):
 
     supersedes: none — EXTENDS the probe grammar (retirement ratchet), like `arcgis:`.
     """
-    # Full browser UA is LOAD-BEARING, not cosmetic — see docstring. Do not shorten it.
-    BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                  "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+    # Full browser UA is LOAD-BEARING, not cosmetic — see docstring and the module-level
+    # BROWSER_UA note. The local shadow was REMOVED 2026-08-21 when probe_http was found to
+    # need the identical fix: one definition, so the next probe that needs it inherits it.
     try:
         req = urllib.request.Request(spec.strip(), headers={"User-Agent": BROWSER_UA})
         with urllib.request.urlopen(req, timeout=30) as resp:
