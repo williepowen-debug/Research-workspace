@@ -195,9 +195,14 @@ def parse_dates(limit=5):
     for r in rows:
         if r["date"] in seen:
             seen[r["date"]]["also"] += 1
+            # additive key (2026-08-21, Helm <details> expander — Will-directed):
+            # collapsed same-day titles kept so renderers can expand the "+N more"
+            # instead of dead-ending it; existing consumers unaffected.
+            seen[r["date"]]["also_titles"].append(r["title"])
             seen[r["date"]]["star"] = seen[r["date"]]["star"] or r["star"]
             continue
         r["also"] = 0
+        r["also_titles"] = []
         seen[r["date"]] = r
         grouped.append(r)
     return grouped[:limit]

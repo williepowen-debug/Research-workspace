@@ -27,9 +27,11 @@ never on scraping output for glyphs. rc=0 OK · rc=1 REVIEW (a leg failed or
 rendered empty — the page still writes, degraded honestly).
 """
 import argparse
+import csv
 import datetime as dt
 import html
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -38,6 +40,7 @@ import will_brief as wb  # noqa: E402  (parsers + md_inline; ONE parser family)
 
 ROOT = Path(__file__).resolve().parents[2]
 HANDBOOK = ROOT / "PROME" / "HANDBOOK.md"
+FLEETOPS_URL = "https://claude.ai/code/artifact/c884f088-4936-44a0-9232-30851b9427b6"
 
 ALERTS = []  # (leg, reason) — the verdict keys on this count
 
@@ -242,6 +245,30 @@ footer{font-size:.72rem;color:var(--faint);line-height:1.7;
 [role="tabpanel"][hidden]{display:none}
 [role="tabpanel"]{display:flex;flex-direction:column;gap:2.1rem}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.board{background:var(--panel);border:1px solid var(--line);border-radius:6px;
+  padding:.6rem .9rem;display:flex;flex-direction:column;gap:.35rem;font-size:.84rem}
+.board .regime{display:flex;flex-wrap:wrap;gap:.15rem .85rem;align-items:baseline}
+.board .regime b{font-weight:600}
+.board .asof{font-family:var(--mono);font-size:.68rem;color:var(--faint)}
+.board .gline{font-family:var(--mono);font-size:.74rem;color:var(--dim)}
+.board .fired{background:var(--crit-bg);color:var(--crit);border-radius:4px;
+  padding:.45rem .6rem;font-size:.82rem}
+.board .fired .gid{font-family:var(--mono);font-weight:700}
+.chip.ran{color:var(--accent);border-color:var(--accent)}
+.days details.more{display:inline}
+.days details.more summary{cursor:pointer;list-style:none;display:inline;
+  font-family:var(--mono);font-size:.68rem;color:var(--accent)}
+.days details.more summary::-webkit-details-marker{display:none}
+.days .alsorow{font-size:.8rem;color:var(--dim);padding:.15rem 0 .15rem .8rem;
+  border-left:2px solid var(--line-soft);margin-top:.25rem}
+.in.past{color:var(--warn);font-weight:700}
+.postab td{font-size:.84rem}
+.postab .pl-neg{color:var(--crit)}.postab .pl-pos{color:var(--accent)}
+.postab .gchip{font-family:var(--mono);font-size:.66rem;border:1px solid var(--line);
+  border-radius:3px;padding:.02rem .3rem;white-space:nowrap;color:var(--dim)}
+.postab .gchip.fired{color:var(--crit);border-color:var(--crit);font-weight:700}
+.stalebanner{background:var(--crit-bg);color:var(--crit);border-radius:5px;
+  padding:.7rem .9rem;font-size:.85rem;font-family:var(--mono)}
 """
 
 TABS_JS = """
@@ -255,13 +282,179 @@ TABS_JS = """
       document.getElementById(b.dataset.tab).hidden=!on;
     });
     try{localStorage.setItem(KEY,id);}catch(e){}
+    try{history.replaceState(null,'','#'+id.slice(4));}catch(e){}
   }
   btns.forEach(function(b){b.addEventListener('click',function(){show(b.dataset.tab);});});
   var saved=null; try{saved=localStorage.getItem(KEY);}catch(e){}
   if(saved&&document.getElementById(saved))show(saved);
+  // hash deep-link wins over the remembered tab (#desk / #brief / #manual)
+  if(location.hash){var h='tab-'+location.hash.slice(1);
+    if(document.getElementById(h))show(h);}
+
+  // ---- view-time clocks (build-time relative labels drift on a static page) ----
+  var DAY=864e5;
+  function midnight(d){return new Date(d.getFullYear(),d.getMonth(),d.getDate());}
+  function recompute(){
+    var now=new Date();
+    document.querySelectorAll('[data-date]').forEach(function(el){
+      var t=el.getAttribute('data-date').split('-'),
+          d=new Date(+t[0],+t[1]-1,+t[2]),
+          n=Math.round((midnight(d)-midnight(now))/DAY),
+          chip=el.querySelector('.in:last-child'); if(!chip)return;
+      if(n<0){chip.textContent=(-n)+'d PAST';chip.classList.add('past');}
+      else{chip.textContent=n===0?'today':(n===1?'tomorrow':'in '+n+'d');chip.classList.remove('past');}
+    });
+    document.querySelectorAll('[data-ts]').forEach(function(el){
+      var t=new Date(el.getAttribute('data-ts')),a=el.querySelector('.ago');
+      if(isNaN(t)||!a)return;
+      var m=(now-t)/6e4;
+      a.textContent=m<12?'just now':(m<90?Math.round(m)+'m ago':
+        (m<1200?Math.round(m/60)+'h ago':Math.round(m/1440)+'d ago'));
+    });
+    var b=document.getElementById('built');
+    if(b){var age=(now-new Date(b.getAttribute('data-built')))/36e5;
+      var ban=document.getElementById('stale-banner');
+      if(age>24&&!ban){ban=document.createElement('div');ban.id='stale-banner';
+        ban.className='stalebanner';
+        ban.textContent='\\u26a0 This page was built '+Math.round(age)+'h ago \\u2014 a PROME closeout refreshes it. Where it disagrees with canon, canon is right.';
+        var w=document.querySelector('.wrap');w.insertBefore(ban,w.children[1]);}
+      if(age<=24&&ban)ban.remove();}
+  }
+  try{recompute();setInterval(recompute,6e4);}catch(e){}
 })();
 </script>
 """
+
+
+def parse_heartbeat():
+    """HEARTBEAT.md → (base_stamp, [(section, circle)]). The regime strip's source:
+    the memo's own per-section severity circles + its Base date. Channels stay
+    feed-only by design (v2 call: 4-of-7 read 'crit', stopped discriminating) —
+    this does NOT resurrect them; the circles here are the memo's own headline
+    judgments, re-read fresh every rebuild."""
+    p = ROOT / "HEARTBEAT.md"
+    try:
+        text = p.read_text(encoding="utf-8")
+    except Exception as e:
+        alert("regime", f"HEARTBEAT.md unreadable: {e}")
+        return None, []
+    base = re.search(r"\*\*Base:\*\*\s*(\d{4}-\d{2}-\d{2})", text)
+    secs = re.findall(r"^\*\*\d+\.\s+([^—\n]+?)\s*[—-]\s*(🟢|🟡|🟠|🔴)", text, re.M)
+    if not secs:
+        alert("regime", "HEARTBEAT.md: zero section-circle headings matched — format changed?")
+    return (base.group(1) if base else None), secs
+
+
+def parse_gate_rows():
+    """GATES.tsv full rows → (n_live, fired_rows, raw_rows). The change feed already
+    carries state FLIPS (wb.parse_gates snapshot diff); this is the STANDING view —
+    anything FIRED-* is the single most action-relevant state in the system (fresh
+    capital deploys only on a fired trigger) and gets the red strip."""
+    p = ROOT / "PROME" / "GATES.tsv"
+    try:
+        with open(p, encoding="utf-8") as f:
+            rows = [r for r in csv.reader(f, delimiter="\t")
+                    if r and not r[0].startswith("#") and r[0] != "gate_id" and len(r) > 5]
+    except Exception as e:
+        alert("gates-strip", f"GATES.tsv parse error: {e}")
+        return 0, [], []
+    live = sum(1 for r in rows if r[5].split()[0].startswith("LIVE"))
+    fired = [{"id": r[0], "state": wb.ell(r[5].split("(")[0], 24),
+              "what": wb.ell(re.sub(r"\*\*|`", "", r[4]), 90)}
+             for r in rows if r[5].split()[0].startswith("FIRED")]
+    return live, fired, rows
+
+
+_MONTHS = {m: i + 1 for i, m in enumerate(
+    ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"])}
+
+
+def _expiry_days(txt):
+    """'Sep-30' / 'Oct-16' → days from today (year inferred: >60d in the past
+    rolls to next year). Returns None when no expiry token is present."""
+    m = re.search(r"\b([A-Z][a-z]{2})-(\d{1,2})\b", txt or "")
+    if not m or m.group(1) not in _MONTHS:
+        return None
+    today = dt.date.today()
+    d = dt.date(today.year, _MONTHS[m.group(1)], int(m.group(2)))
+    if (today - d).days > 60:
+        d = d.replace(year=today.year + 1)
+    return (d - today).days
+
+
+def parse_positions(gate_rows):
+    """FORGE/STATUS.md position tables → book-strip rows. Column-NAME driven (two
+    schemas live in the file: Ticker|Type|... and Strike|Expiry|... under ###
+    ticker headings). CONSERVATIVE BY CONTRACT (PROME FORGE-owner rider, 8/21):
+    any surprise → alert + omit, never a quiet wrong number; vintage/staleness is
+    rendered from parse_money()'s read of the file's OWN header, never restated
+    here (PAT-068). Gate join: first GATES row naming the ticker as a word."""
+    p = ROOT / "FORGE" / "STATUS.md"
+    try:
+        lines = p.read_text(encoding="utf-8").splitlines()
+    except Exception as e:
+        alert("positions", f"FORGE/STATUS.md unreadable: {e}")
+        return []
+    out, cols, ticker_ctx, section, skipped = [], None, None, "", 0
+    for ln in lines:
+        s = ln.strip()
+        if s.startswith("## "):
+            section = s[3:].split("—")[0].split("(")[0].strip()
+            cols, ticker_ctx = None, None
+        elif s.startswith("### "):
+            m = re.match(r"### \*{0,2}([A-Z]{1,6})\b", s)
+            ticker_ctx = m.group(1) if m else None
+            cols = None
+        elif s.startswith("|"):
+            cells = [re.sub(r"\*\*|~~|`|\*", "", c).strip()
+                     for c in s.strip("|").split("|")]
+            if cols is None:
+                if "Qty" in cells and ("Ticker" in cells or "Strike" in cells):
+                    cols = {}
+                    for i, name in enumerate(cells):
+                        cols[name.split()[0] if name else f"_{i}"] = i
+                continue
+            if all(re.fullmatch(r":?-+:?", c or "-") for c in cells):
+                continue
+            if len(cells) < max(cols.values()) + 1:
+                skipped += 1
+                continue
+
+            def g(name):
+                return cells[cols[name]] if name in cols else ""
+
+            tick = (g("Ticker") or ticker_ctx or "").split()[0] if (g("Ticker") or ticker_ctx) else ""
+            if not re.fullmatch(r"[A-Z]{1,6}", tick):
+                continue
+            pos = g("Strike") or g("Type") or ""
+            exp_txt = g("Expiry") or pos
+            pl_raw = g("P&L") or g("P&L%") or ""
+            pl = re.search(r"[+\-−]\s?\$?[\d,]+(?:\.\d+)?%?(?:\s*/\s*[+\-−][\d.]+%)?", pl_raw)
+            gate = next((r for r in gate_rows
+                         if re.search(rf"\b{tick}\b", "\t".join(r[:6]))), None)
+            out.append({
+                "section": section, "ticker": tick,
+                "pos": wb.ell(pos if pos != tick else "Stock", 22),
+                "qty": g("Qty"), "pl": pl.group(0).replace(" ", "") if pl else "—",
+                "exp_days": _expiry_days(exp_txt),
+                "gate": ({"id": gate[0], "state": gate[5].split("(")[0].split()[0]}
+                         if gate is not None else None),
+            })
+    if not out:
+        alert("positions", "FORGE position tables parsed to ZERO rows — schema changed, strip omitted")
+    if skipped:
+        alert("positions", f"{skipped} ragged position row(s) skipped — verify FORGE tables")
+    return out
+
+
+def _git_ts(path):
+    """Last-commit epoch for a path (0 on any failure — badge simply absent)."""
+    try:
+        r = subprocess.run(["git", "log", "-1", "--format=%ct", "--", path],
+                           capture_output=True, text=True, cwd=ROOT, timeout=10)
+        return int(r.stdout.strip() or 0)
+    except Exception:
+        return 0
 
 
 def parse_spawns(body):
@@ -275,7 +468,7 @@ def parse_spawns(body):
     return rows
 
 
-def render_brief_tab(written, brief, feed, first, money):
+def render_brief_tab(written, brief, feed, first, money, positions):
     """The Desk-brief content as a tab. Decisions section deliberately absent —
     the desk tab owns it (one job per section, even across tabs)."""
     now = dt.datetime.now()
@@ -294,7 +487,8 @@ def render_brief_tab(written, brief, feed, first, money):
         h.append("<li><span class='ago'>—</span><span>nothing has moved since the "
                  "last rebuild</span></li>")
     for e in feed:
-        h.append(f"<li><span class='ago'>{html.escape(wb.ago(e.get('ts', ''), now))}</span>"
+        h.append(f"<li data-ts='{html.escape(e.get('ts', ''))}'>"
+                 f"<span class='ago'>{html.escape(wb.ago(e.get('ts', ''), now))}</span>"
                  f"<span>{wb.md_inline(e.get('text', ''))}</span></li>")
     h.append("</ul></section>")
     if brief.get("STORY"):
@@ -322,6 +516,25 @@ def render_brief_tab(written, brief, feed, first, money):
                  "<span class='k'>Cash</span></div>"
                  f"<div class='vint{stale}'>broker export {money['vintage']} · "
                  f"{money['age']}d old — not live, re-check before any fill</div></div>")
+    if positions:
+        h.append("<div class='tw'><table class='postab'><tr><th>Pos</th><th>Qty</th>"
+                 "<th>P&amp;L</th><th>Expiry</th><th>Watching it</th></tr>")
+        for p in positions:
+            plc = "pl-neg" if p["pl"].startswith(("-", "−")) else ("pl-pos" if p["pl"].startswith("+") else "")
+            expd = p["exp_days"]
+            exp = ("—" if expd is None else
+                   f"<span class='{'pl-neg' if expd <= 14 else ''}'>{expd}d</span>")
+            gch = (f"<span class='gchip{' fired' if p['gate']['state'].startswith('FIRED') else ''}'>"
+                   f"{html.escape(p['gate']['id'])} {html.escape(p['gate']['state'])}</span>"
+                   if p["gate"] else "<span class='gchip'>no gate names it</span>")
+            h.append(f"<tr><td><strong>{html.escape(p['ticker'])}</strong> "
+                     f"{html.escape(p['pos'])}</td><td>{html.escape(p['qty'])}</td>"
+                     f"<td class='{plc}'>{html.escape(p['pl'])}</td>"
+                     f"<td>{exp}</td><td>{gch}</td></tr>")
+        h.append("</table></div>"
+                 "<p class='hint'>Marks inherit the broker-export vintage above — never fill "
+                 "against them. 'Watching it' = first GATES.tsv row naming the ticker; "
+                 "'no gate names it' means no registered action-gate mentions this position.</p>")
     if brief.get("POSITION"):
         h.append("<div class='prose'>" + wb.md_block(brief["POSITION"]) + "</div>")
     h.append("</section>")
@@ -333,7 +546,7 @@ def render_brief_tab(written, brief, feed, first, money):
     return "\n".join(h)
 
 
-def render(sections, dec, chore, dates, brief_tab_html):
+def render(sections, dec, chore, dates, brief_tab_html, board):
     now = dt.datetime.now().astimezone()
 
     def take(prefix):
@@ -360,12 +573,29 @@ def render(sections, dec, chore, dates, brief_tab_html):
         "<h1>The Helm</h1>"
         f"<div class='sum'>{html.escape(summary)}</div>"
         "<div class='clocks'>"
-        f"<span>rebuilt {now:%b %-d, %-I:%M %p} ET</span>"
+        f"<span id='built' data-built='{now.isoformat(timespec='minutes')}'>rebuilt {now:%b %-d, %-I:%M %p} ET</span>"
         "<span>live sections generated from WILL_QUEUE / DOCKET</span>"
+        f"<a href='{FLEETOPS_URL}'>Fleet Ops →</a>"
         "</div></header>")
 
     for leg, reason in ALERTS:
         h.append(f"<div class='degraded'>⚠ {html.escape(leg)}: {html.escape(reason)}</div>")
+
+    # -- the board: regime + gates (page-level — visible from every tab) --------
+    hb_base, hb_secs = board["base"], board["secs"]
+    h.append("<div class='board'>")
+    if hb_secs:
+        h.append("<span class='regime'>"
+                 + " ".join(f"<span><b>{html.escape(n)}</b> {c}</span>" for n, c in hb_secs)
+                 + f"<span class='asof'>HEARTBEAT base {html.escape(hb_base or 'UNDATED')}"
+                   " · circles are the memo's own headline severities</span></span>")
+    for fg in board["fired"]:
+        h.append(f"<div class='fired'><span class='gid'>{html.escape(fg['id'])}</span> "
+                 f"{html.escape(fg['state'])} — {html.escape(fg['what'])}</div>")
+    h.append(f"<span class='gline'>{board['live']} gates LIVE · "
+             + (f"{len(board['fired'])} FIRED — act or escalate, never leave standing"
+                if board["fired"] else "none fired")
+             + " · flips land in The brief → What changed</span></div>")
 
     h.append("<nav class='tabs' role='tablist'>"
              "<button role='tab' data-tab='tab-desk' aria-selected='true'>Your desk</button>"
@@ -398,15 +628,25 @@ def render(sections, dec, chore, dates, brief_tab_html):
 
     # -- spawn queue ------------------------------------------------------------
     if spawns:
+        # freshness badge: these rows are hand-written standing-state assertions
+        # (Class 10's shape) — badge any desk that COMMITTED after the row was
+        # written, so a satisfied row can't silently pose as pending.
+        hb_ts = _git_ts("PROME/HANDBOOK.md")
         h.append(f"<section><h2>Spawn queue — {n_s} desks, decay order</h2>"
                  "<div class='spawns'>")
         for s in spawns:
             chip = "chip warn" if s["when"].lower().startswith("before") else "chip"
+            ran = ""
+            d_ts = _git_ts(f"AGENTS/{s['name']}")
+            if hb_ts and d_ts > hb_ts:
+                ran = (f"<span class='chip ran'>desk ran "
+                       f"{dt.datetime.fromtimestamp(d_ts):%-m/%-d %-I:%M%p} — "
+                       "row may be satisfied</span>")
             h.append("<div class='spawn'>"
                      f"<div class='top'><span class='nm'>{html.escape(s['name'])}</span>"
                      f"<span class='{chip}'>{html.escape(s['when'])}</span></div>"
                      f"<code class='cmd'>cd AGENTS/{html.escape(s['name'])} &amp;&amp; claude</code>"
-                     f"<div class='why'>{wb.md_inline(s['why'])}</div></div>")
+                     f"<div class='why'>{wb.md_inline(s['why'])}{' ' + ran if ran else ''}</div></div>")
         h.append("</div><p class='hint'>Launch from the desk's own folder, then say "
                  "“please boot up.” Each desk closes itself out when done.</p></section>")
 
@@ -415,16 +655,31 @@ def render(sections, dec, chore, dates, brief_tab_html):
         h.append("<section><h2>Top priorities — PROME-curated</h2>"
                  + render_body(prio) + "</section>")
     if runs is not None:
+        # hand-written dated rows rot after their date passes; annotate, don't hide
+        today = dt.date.today()
+        ann = []
+        for ln in runs.splitlines():
+            mds = re.findall(r"\b(\d{1,2})/(\d{1,2})\b", ln)
+            if (ln.strip().startswith("-") and mds
+                    and all(dt.date(today.year, int(a), int(b)) < today for a, b in mds
+                            if 1 <= int(a) <= 12 and 1 <= int(b) <= 31)):
+                ln = ln.rstrip() + " *(date passed — hand-written row, refreshes at PROME's next closeout)*"
+            ann.append(ln)
         h.append("<section><h2>Runs itself — no window needed</h2>"
-                 + render_body(runs) + "</section>")
+                 + render_body("\n".join(ann)) + "</section>")
 
     # -- the clock --------------------------------------------------------------
     h.append("<section><h2>The clock — next dated things</h2><ul class='days'>")
     for r in dates:
         d = dt.date.fromisoformat(r["date"])
-        also = f" <span class='in'>+{r['also']} more</span>" if r["also"] else ""
+        also = ""
+        if r["also"]:
+            inner = "".join(f"<div class='alsorow'>{html.escape(t)}</div>"
+                            for t in r.get("also_titles", []))
+            also = (f" <details class='more'><summary>+{r['also']} more</summary>{inner}</details>"
+                    if inner else f" <span class='in'>+{r['also']} more</span>")
         rel = "today" if r["days"] == 0 else ("tomorrow" if r["days"] == 1 else f"in {r['days']}d")
-        h.append(f"<li class='{'star' if r['star'] else ''}'>"
+        h.append(f"<li class='{'star' if r['star'] else ''}' data-date='{r['date']}'>"
                  f"<span class='when'>{d:%a %-m/%-d}</span>"
                  f"<span>{html.escape(r['title'])}{also}</span>"
                  f"<span class='in'>{rel}</span></li>")
@@ -458,6 +713,10 @@ def render(sections, dec, chore, dates, brief_tab_html):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("-o", "--out", required=True)
+    ap.add_argument("--no-feed", action="store_true",
+                    help="test build: do NOT advance the change-feed state "
+                         "(write=False) — the feed must advance exactly once "
+                         "per real rebuild, and a test render is not a rebuild")
     a = ap.parse_args()
 
     sections = parse_handbook()
@@ -470,6 +729,21 @@ def main():
     except Exception as e:
         alert("clock", f"parse_dates raised: {e}"); dates = []
 
+    # board strip + positions (all fail-loud into ALERTS, never a quiet absence)
+    try:
+        hb_base, hb_secs = parse_heartbeat()
+    except Exception as e:
+        alert("regime", f"parse_heartbeat raised: {e}"); hb_base, hb_secs = None, []
+    try:
+        n_live, fired, gate_rows = parse_gate_rows()
+    except Exception as e:
+        alert("gates-strip", f"parse_gate_rows raised: {e}"); n_live, fired, gate_rows = 0, [], []
+    try:
+        positions = parse_positions(gate_rows)
+    except Exception as e:
+        alert("positions", f"parse_positions raised: {e}"); positions = []
+    board = {"base": hb_base, "secs": hb_secs, "live": n_live, "fired": fired}
+
     # Brief tab — through the brief's own parsers. write=True since 2026-08-21
     # (Will's word: standalone page RETIRED, "run that through the handbook"):
     # THIS run now owns the change-feed baseline — the ownership transferred
@@ -480,8 +754,9 @@ def main():
         money = wb.parse_money()
         gates, channels = wb.parse_gates(), wb.parse_channels()
         feed, first = wb.update_changes(
-            wb.snapshot_now(gates, channels, money, dec, chore, dates), write=True)
-        brief_tab = render_brief_tab(written, brief, feed, first, money)
+            wb.snapshot_now(gates, channels, money, dec, chore, dates),
+            write=not a.no_feed)
+        brief_tab = render_brief_tab(written, brief, feed, first, money, positions)
     except Exception as e:
         alert("brief", f"brief legs raised: {e}")
         brief_tab = ("<div id='tab-brief' role='tabpanel' hidden>"
@@ -489,7 +764,7 @@ def main():
                      f"{html.escape(str(e))}</div></div>")
 
     out = Path(a.out)
-    out.write_text(render(sections, dec, chore, dates, brief_tab), encoding="utf-8")
+    out.write_text(render(sections, dec, chore, dates, brief_tab, board), encoding="utf-8")
     n = len(ALERTS)
     if n:
         print(f"handbook: REVIEW — {n} ⚠️  ({'; '.join(l for l, _ in ALERTS)}) · wrote {out} ({out.stat().st_size}B)")
