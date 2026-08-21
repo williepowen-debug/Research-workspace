@@ -332,3 +332,16 @@
 - finding_overlapping_window_inflates_the_base_rate — de-cluster before base-rating *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
 - finding_broken_conjunction_leaves_its_other_legs_unrecorded — a NOT-MET conjunction makes its other legs scoreless; scoreless is what nobody logs *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
 - finding_extend_the_sample_before_publishing_a_coefficient — double n first *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
+
+## Demoted 2026-08-21 — flow pass #6 / WAVE 2 "already embedded in canon" sweep (Will-ruled "approved go ahead with wave 2"; record `PROME/proposals/2026-08-21_wave-2-already-embedded-sweep-RULED.md`). All 129 hot slugs grepped against 14 canon surfaces; 16 hits each adjudicated at citation context; 11 graduated (embed real + audience served), 3 kept hot with recorded reasons (record_of_an_action n=11 · a_ruling_governs_next_write · hygiene_commit_rearms), 2 HELD-HOT skipped by declaration. ZERO deletions; rollback = move a row back.
+- finding_count_what_published_before_reading_the_verdict — "no adverse reading" and "no reading" record identically *(embedded → FORGE/PREDICTION_DISCIPLINE.md negative-resolutions convention + CHECK_STANDARD §4)*
+- finding_mtime_is_corrupted_by_git_sync — fails FALSE-NEGATIVE; derive vintage from content *(embedded → root CLAUDE.md Data Hygiene — auto-injected fleet-wide — + PROME/SYSTEM.md)*
+- finding_freshness_check_cannot_catch_a_fresh_lie — add a positive AGREEMENT check vs an external truth source; n+1: that source then turns SELF-SEALING — audit the referent at ITS sources *(embedded → PROME/BOOT.md step 5; position_agreement_check.py is its built enforcement)*
+- finding_fired_gate_needs_owner_independent_ledger *(embedded → PROME/CLOSEOUT.md symmetry table + ORCHESTRATION_PLAYBOOK; GATES.tsv itself is the institutionalized form)*
+- finding_backstop_redelivery_is_a_paraphrase_not_a_copy *(embedded → STRICT_TEXT banked incident class)*
+- finding_number_carries_threshold_unit_source *(embedded → STRICT_TEXT rule 7 by name + root Output Canon "no naked numbers")*
+- finding_registry_names_a_concept_tool_resolves_an_instrument — diff the registry against the code; n=4 in one day *(embedded → STRICT_TEXT rule 7, exact sentence)*
+- finding_deliberate_and_unnoticed_asymmetry_look_identical — read the RATIONALE before flagging *(embedded → CHECK_STANDARD §6 DECLARED ASYMMETRY, Batch B 8/21)*
+- finding_standing_guard_is_a_false_negative_risk — the guard against a known FP is what waves away the real event *(embedded → CHECK_STANDARD bias-statement clause)*
+- finding_verification_zero_is_ambiguous — NO findings ⊇ "read nothing" and "never in its scope"; a check certifies its SCOPE, not your capability *(embedded → CHECK_STANDARD scope clause)*
+- finding_unfetched_is_not_unavailable — UNCHECKED ≠ UNAVAILABLE — classify before "blocked"; refuse offered stamps *(embedded → CHECK_STANDARD §4 CANNOT-REACH vs GENUINELY-EMPTY)*
