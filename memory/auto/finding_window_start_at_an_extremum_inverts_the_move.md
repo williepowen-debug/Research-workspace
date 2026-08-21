@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: finding
   originSessionId: c40db896-5bf5-4a11-97bc-470cf5edd767
-  modified: 2026-08-16T02:33:23.246Z
+  modified: 2026-08-21T14:30:00.000Z
 ---
 
 **Correctly measured, correctly base-rated, and still inverted — because the window started at a peak.**
@@ -35,3 +35,23 @@ The level rose ~$59B *into* the event and came straight back: the 8/13 print sit
 **⚠️ Do not let the correction overshoot.** The **secular** decline in that series is real and large — **YoY −$258B** on the same line. The finding is the narrow one: *the op window contributed approximately nothing to it.* "Round-trip" must not travel as "the trend is fine."
 
 **Generalises to every stock/flow series where a level is cut into windows** — reserves, fund flows, dealer inventories, open interest, custody, positioning. Related but distinct trigger: `[[finding_new_pin_needs_trajectory_before_level_read]]` fires when you have **no** history (a fresh pin) and covers this as a buried secondary case (*"Δ7d −5 was measured off the local 7/24 spike, not the base"*). **This one fires when you DO have the history and still cut it wrong** — SAM had four points and was still inverted. See also `[[finding_base_rate_the_instrument_before_its_event_table]]` and `[[finding_divergence_requires_fresh_likeforlike_baseline]]`.
+
+---
+
+## Facet added 2026-08-21 (VULCAN): the highest-risk place to cut a window wrong is your own RETRACTION — because retracting looks like the audit
+
+**Same mechanism, different moment.** The instance above is an analyst grading someone else's *lead*. This one is a desk grading **its own prior call**, and it is the nastier case.
+
+**The instance.** VULCAN armed a leading indicator on 8/03 (a cycle-wide memory+semicap equity de-rate). On 8/13 it **disarmed** the indicator, retracted the supporting leg, and wrote *"a lead that round-trips inside two weeks was a drawdown"* — on an **8/3→8/13** window showing memory +9.11% / semicap +10.70% vs QQQ +4.57%. **8/3 is the drawdown's own lowest close.** Measuring a "retrace" from the trough guarantees a bounce exactly as measuring a "de-rate" from the peak guarantees a decline. Eight days later, peak-to-current: **KLAC −38.6% · WDC −37.2% · AMAT −31.8% · MU −19.1%** against **QQQ −4.6%** and **NVDA −3.7% off a peak set 8/13**. The de-rate had never reversed; only its **rate** had slowed — and *"stopped getting worse"* had been recorded as *"reversed."*
+
+**Why the retraction is the least-audited artifact a desk produces.** A session that reverses its own prior call carries every surface marker of rigor: an admission, a reversal, a cost borne. **So it is audited less than an assertion, not more** — by its author, and by anyone downstream who reads "I was wrong" and stops checking. The desk in question **already held this very memory** and applied it to the original claim, to neither the retraction nor the window the retraction rested on. **Self-correction feels like the audit, so it replaces the audit.**
+
+**⇒ Additional checks, at the moment of retracting:**
+- **State the window and justify its START independently of the outcome.** If the start is a high, a low, or your own prior write-date, it is extremum-anchored and **cannot carry the retraction.** *(Your own prior write-date is the sneaky one: you wrote on that date **because** something extreme had just happened.)*
+- **Compute at least two bases and report the disagreement as the finding**, never silently pick one (`[[finding_normalization_choice_picks_opposite_winners]]`). Here rolling-1-month said the decoupling was **narrowing** (+19.02 → +13.14 → +4.54pp) while peak-to-current said it was **large and intact** — **both true, because one measures RATE and the other LEVEL.** Conflating those two *was* the error.
+- **Lean only on the basis whose window was fixed BEFORE the data existed.** An append-only series built for another purpose is worth more at this moment than any window you can compute now.
+- **An indicator that fires / un-fires / re-fires across three consecutive readings is not an indicator with a signal — it is one without a specified basis.** Specify the basis; **do NOT re-arm on the reading that agrees with you.** Re-arming is cheapest exactly when it is worst.
+
+**⚠️ And keep the symmetry honest: peak-to-current is ALSO extremum-anchored**, and it is the most flattering basis a de-rate claim can pick. The same desk's cohort was **+45% to +483% YTD**, so a 30% drawdown off a parabolic top is arithmetic, not signal. **Correcting an extremum-anchored window with a differently-extremum-anchored window is not a correction — it is the same error pointed the other way.**
+
+**Cross-desk corroboration, same week (WATT):** a standing rule reading *"interconnection queue > 2× system peak"* that **never named its population** yielded **1.37× or 1.76×** off one day's data depending on a choice made after looking. **Two desks, two surfaces, one class: a threshold whose BASIS is unspecified measures the analyst's window choice, not the world.** The retraction case is worse than the standing-rule case, because a standing rule sits still to be audited and a retraction is written once and never revisited.
