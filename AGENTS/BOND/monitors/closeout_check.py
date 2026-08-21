@@ -67,8 +67,13 @@ def main() -> int:
         print()
         rc_ass = ac.selftest()
         print("\n" + "=" * 74)
-        total = len(br.DRIFT_FIXTURES) + 6 + len(ac.FIXTURES)
-        print(f"  COMBINED: {len(br.DRIFT_FIXTURES)} numeric + 6 workbook-lint + "
+        # counts read from the modules, never hardcoded -- a literal here goes
+        # stale the moment a fixture is added, which is the same class of defect
+        # the fixtures exist to catch. The "6" that used to sit here was already
+        # wrong by 8 within an hour of kb_lint gaining VX/FLOW coverage.
+        nlint = len(_load("kb_lint").FIXTURES_ALL())
+        total = len(br.DRIFT_FIXTURES) + nlint + len(ac.FIXTURES)
+        print(f"  COMBINED: {len(br.DRIFT_FIXTURES)} numeric + {nlint} workbook-lint + "
               f"{len(ac.FIXTURES)} assertion = {total} fixtures")
         bad = rc_num or rc_ass or rc_lint
         print(f"  {'ALL PASS' if not bad else 'FAILURES PRESENT'}")
