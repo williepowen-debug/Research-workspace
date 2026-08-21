@@ -131,7 +131,7 @@ Belgium TIC = Euroclear Brussels custody for China PBOC.
 
 > ### ⚠️ READ THIS BEFORE USING THE BELGIUM LINE — the interpretation rules below were TESTED 2026-08-21 and the month-to-month inference FAILED
 >
-> This section used to state two interpretation rules as **deterministic identities** ("Belgium rising while China falls **=** custody migration"). They had been applied that way for ~5 months and **were never base-rated.** They now have been:
+> This section used to state two interpretation rules as **deterministic identities** ("Belgium rising while China falls **=** custody migration"). They had been applied that way for ~5 months and **were never base-rated.** They now have been — and the retired text is preserved verbatim below (§🪦 RETIRED RULE) rather than deleted:
 >
 > **rho(China net Treasury sales, Belgium net Treasury sales) = +0.050 over n=41 months** (2023-02→2026-06). Sub-windows: 12m −0.040 · 24m +0.023 · 36m +0.005; LT-only legs +0.055 / −0.102 / −0.023 / +0.004. **Every window is indistinguishable from zero. A custody mirror requires a materially NEGATIVE correlation.** Base rate: of the **27 months China was a net seller, Belgium was a net buyer in 15 — 56%, a coin flip.**
 >
@@ -140,6 +140,16 @@ Belgium TIC = Euroclear Brussels custody for China PBOC.
 > **⚠️ LIMIT, stated so this isn't over-read:** this refutes **systematic monthly mirroring**, NOT the existence of an episodic migration channel — lumpy real events would be diluted by a full-sample correlation. The channel may exist; **the Belgium line cannot detect it month-to-month, in either direction.**
 >
 > **Instrument + re-usability bands: `VX-ZHAO-1.09`.** Reinstate the migration reading only if rho < −0.5 on a rolling 24m window. *(KB-ZHAO-121.)*
+
+### 🪦 RETIRED RULE — DEAD RECORD, kept deliberately (retired 2026-08-21; PROME rider to the ruling, 8/21)
+
+**This is the text that was in force 2026-07-16 → 2026-08-21 and was applied as written. It is preserved verbatim, not deleted, because two desks (HANS, LIQUID) consumed it and because the falsification is itself the teaching artifact:**
+
+> *Interpretation rules (corrected 2026-07-16 — the prior version of this section had lines 116-117 contradicting each other; fixed):*
+> - ***Belgium rising while China TIC falls** = custody migration to offshore, NOT a reduction. Net neutral — China's true position is stable, just relabeled.*
+> - ***Belgium flat/falling while China TIC falls** = the fall is NOT explained by Belgium-specific custody migration. This only rules OUT that one re-routing channel — see the reframe note below before calling it a broader "exit."*
+
+**⛔ DO NOT APPLY THE ABOVE.** Superseded by the probabilistic rules below. **What is instructive about it:** rule 1 was stated as an identity (`=`), carried a strong conclusion ("net neutral", "true position is stable"), read as fully specified, and **was wrong** — not because the mechanism is impossible but because **nobody base-rated it for five months.** Note that the 7/16 edit which produced it was itself billed as a *correction* of an earlier contradiction: a surface can be fixed, internally consistent, confidently worded, actively consumed, and still untested. `[[finding_a_teaching_surface_ages_like_data]]` · `[[finding_base_rate_the_threshold_before_building_it]]`
 
 **Interpretation rules — probabilistic, not identities (rewritten 2026-08-21):**
 - **Belgium rising while China TIC falls** — *consistent with* custody migration, **but not evidence of it** at n=1 month (56% base rate; see box). Do **not** net the two legs and report a "true position" unless the rho test has been re-run and passes.
