@@ -126,7 +126,7 @@ CSS = """
   --ground:#EFEDE6; --panel:#F8F6EF; --line:#D6D2C2; --line-soft:#E4E0D2;
   --ink:#23271F; --dim:#5E6355; --faint:#8B9083;
   --accent:#3E6B4E; --accent-soft:#E1EAE0;
-  --warn:#9A6612; --crit:#A4342A; --crit-bg:#F5E0DC;
+  --warn:#9A6612; --warn-bg:#F3E9D2; --crit:#A4342A; --crit-bg:#F5E0DC;
   --serif:Georgia,'Iowan Old Style','Palatino Linotype',serif;
   --sans:system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',sans-serif;
   --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
@@ -135,13 +135,13 @@ CSS = """
   --ground:#12160E; --panel:#1A1F15; --line:#2C3226; --line-soft:#20261B;
   --ink:#E4E7DE; --dim:#9CA394; --faint:#6F766A;
   --accent:#85BC93; --accent-soft:#24301F;
-  --warn:#DCA84A; --crit:#EC7166; --crit-bg:#2E1917;
+  --warn:#DCA84A; --warn-bg:#2C2513; --crit:#EC7166; --crit-bg:#2E1917;
 }}
 :root[data-theme="dark"]{
   --ground:#12160E; --panel:#1A1F15; --line:#2C3226; --line-soft:#20261B;
   --ink:#E4E7DE; --dim:#9CA394; --faint:#6F766A;
   --accent:#85BC93; --accent-soft:#24301F;
-  --warn:#DCA84A; --crit:#EC7166; --crit-bg:#2E1917;
+  --warn:#DCA84A; --warn-bg:#2C2513; --crit:#EC7166; --crit-bg:#2E1917;
 }
 body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
   font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
@@ -184,8 +184,8 @@ ul{padding-left:1.15rem;display:flex;flex-direction:column;gap:.45rem}
 .days li.star .when{color:var(--accent);font-weight:700}
 .tw{overflow-x:auto}
 table{border-collapse:collapse;width:100%;font-size:.88rem}
-th{text-align:left;font-size:.66rem;text-transform:uppercase;letter-spacing:.08em;
-  color:var(--faint);padding:.3rem .6rem .4rem;border-bottom:1px solid var(--ink)}
+th{text-align:left;font-size:.66rem;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--faint);padding:.3rem .6rem .4rem;border-bottom:1px solid var(--dim)}
 td{padding:.42rem .6rem;border-bottom:1px solid var(--line-soft);vertical-align:top}
 .degraded{background:var(--crit-bg);color:var(--crit);border-radius:5px;
   padding:.7rem .9rem;font-size:.85rem;font-family:var(--mono)}
@@ -202,7 +202,7 @@ footer{font-size:.72rem;color:var(--faint);line-height:1.7;
 .spawn .nm{font-weight:700;font-size:.95rem;letter-spacing:.03em}
 .chip{font-family:var(--mono);font-size:.68rem;color:var(--dim);white-space:nowrap;
   border:1px solid var(--line);border-radius:3px;padding:.05rem .45rem}
-.chip.warn{color:var(--warn);border-color:var(--warn);font-weight:700}
+.chip.warn{color:var(--warn);border-color:var(--warn);font-weight:700;background:var(--warn-bg)}
 .spawn .cmd{align-self:flex-start;font-size:.78rem}
 .spawn .why{font-size:.84rem;color:var(--dim)}
 .hint{font-size:.78rem;color:var(--faint);font-style:italic}
@@ -247,9 +247,11 @@ footer{font-size:.72rem;color:var(--faint);line-height:1.7;
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 .board{background:var(--panel);border:1px solid var(--line);border-radius:6px;
   padding:.6rem .9rem;display:flex;flex-direction:column;gap:.35rem;font-size:.84rem}
-.board .regime{display:flex;flex-wrap:wrap;gap:.15rem .85rem;align-items:baseline}
+.board .regime{display:flex;flex-wrap:wrap;gap:.35rem .45rem;align-items:baseline}
+.board .regime>span:not(.asof){background:var(--ground);border:1px solid var(--line-soft);
+  border-radius:999px;padding:.08rem .55rem;white-space:nowrap;font-size:.8rem}
 .board .regime b{font-weight:600}
-.board .asof{font-family:var(--mono);font-size:.68rem;color:var(--faint)}
+.board .asof{font-family:var(--mono);font-size:.68rem;color:var(--faint);flex-basis:100%}
 .board .gline{font-family:var(--mono);font-size:.74rem;color:var(--dim)}
 .board .fired{background:var(--crit-bg);color:var(--crit);border-radius:4px;
   padding:.45rem .6rem;font-size:.82rem}
@@ -263,12 +265,24 @@ footer{font-size:.72rem;color:var(--faint);line-height:1.7;
   border-left:2px solid var(--line-soft);margin-top:.25rem}
 .in.past{color:var(--warn);font-weight:700}
 .postab td{font-size:.84rem}
+.postab td:nth-child(2),.postab td:nth-child(3),.postab td:nth-child(4),
+.postab th:nth-child(2),.postab th:nth-child(3),.postab th:nth-child(4){
+  text-align:right;font-family:var(--mono);font-size:.8rem}
+.postab th:nth-child(2),.postab th:nth-child(3),.postab th:nth-child(4){font-size:.66rem}
+.postab tr:hover td{background:var(--panel)}
 .postab .pl-neg{color:var(--crit)}.postab .pl-pos{color:var(--accent)}
+.postab .exp-soon{color:var(--warn);font-weight:700}
 .postab .gchip{font-family:var(--mono);font-size:.66rem;border:1px solid var(--line);
   border-radius:3px;padding:.02rem .3rem;white-space:nowrap;color:var(--dim)}
-.postab .gchip.fired{color:var(--crit);border-color:var(--crit);font-weight:700}
+.postab .gchip.live{color:var(--accent);border-color:var(--accent);font-weight:700}
+.postab .gchip.fired{color:var(--crit);border-color:var(--crit);font-weight:700;background:var(--crit-bg)}
 .stalebanner{background:var(--crit-bg);color:var(--crit);border-radius:5px;
   padding:.7rem .9rem;font-size:.85rem;font-family:var(--mono)}
+.clocks,.bclocks,.feed .ago,.days .when,.days .in,.chip,.gchip,.stat .v,.postab td{
+  font-variant-numeric:tabular-nums}
+a:focus-visible,.days details.more summary:focus-visible{
+  outline:2px solid var(--accent);outline-offset:2px;border-radius:2px}
+.days details.more summary:hover{text-decoration:underline dotted}
 """
 
 TABS_JS = """
@@ -534,9 +548,9 @@ def render_brief_tab(written, brief, feed, first, money, positions):
             plc = "pl-neg" if p["pl"].startswith(("-", "−")) else ("pl-pos" if p["pl"].startswith("+") else "")
             expd = p["exp_days"]
             exp = ("—" if expd is None else
-                   f"<span class='{'pl-neg' if expd <= 14 else ''}'>{expd}d</span>")
+                   f"<span class='{'pl-neg' if expd <= 2 else ('exp-soon' if expd <= 14 else '')}'>{expd}d</span>")
             if p["gate"] and p["gate"]["live"]:
-                gch = (f"<span class='gchip{' fired' if p['gate']['state'].startswith('FIRED') else ''}'>"
+                gch = (f"<span class='gchip{' fired' if p['gate']['state'].startswith('FIRED') else ' live'}'>"
                        f"{html.escape(p['gate']['id'])} {html.escape(p['gate']['state'])}</span>")
             elif p["gate"]:
                 gch = (f"<span class='gchip'>no LIVE gate — last: "
