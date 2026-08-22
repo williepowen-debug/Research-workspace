@@ -1,0 +1,50 @@
+# RAV 12-item Operating-Improvements Feedback — DAEDALUS design-layer review
+
+**Date:** 2026-08-21 late · **Reviewer:** DAEDALUS (Will-directed: "take a look at the potential updates RAV has supplied to PROME")
+**Subject artifact:** `PROME/codex/2026-08-21_RAV_operating-improvements-feedback.md` (`5a07aef80`) — RAV's text VERBATIM (Will Telegram relay 8/21 23:04) + PROME's per-item disposition, **PENDING Will's word**.
+**My role:** design-layer verdicts as input to Will's ruling. Nothing here is executed; the four my-lane items are scoped so the 8/23 sitting can rule them in one breath with the vocabulary block already on its agenda.
+**Method:** read the artifact whole; verified PROME's "already law" claims against the canon files themselves (CHECK_STANDARD §1–§13 section map, STATE_VOCABULARY Classes 1–10, `PROME/SYSTEM.md` Boot Trust Stack, FORUM-6 rulings record); verified RAV's prior-work state (all `rav/*` branches merged or byte-identical duplicates per my 7/30 review; QC ledger fully dispositioned; 8/16 review shipped).
+
+---
+
+## Verdict table
+
+| # | RAV item | PROME disposition | DAEDALUS verdict | One line |
+|---|---|---|---|---|
+| 1 | State authority map | Partially built (SYSTEM.md trust stack is PROME-facing); consolidate fleet-facing | **CONCUR-AMENDED** | Build it **generated**, never hand-kept — labels at surfaces are canonical, the map is a derived join (render_directory model). A hand-authored map is PAT-006 two-file drift + PAT-088 empty-inventory + PAT-113 dies-at-regeneration, all three measured classes. SYSTEM.md's "Boot Trust Stack" covers boot-load trust only — the fleet-facing gap is real. |
+| 2+8 | Source-anchored summaries + repo-vs-world truth tags | Merge into ONE STATE_VOCABULARY verification-level class | **CONCUR** | One class, census-first (the fleet already uses de-facto tokens: PRIMARY-VERIFIED, EDGAR-verified, owner-asserted, retro-observation — mint from the census per the ⑫(b) `date_class` precedent, don't invent). Scope to load-bearing/decision claims — labeling every claim is the VULCAN 4-of-7 over-reporting class. The genuinely new half is **UNANCHORED made visible**: kin `finding_silent_blank_evades_review`. |
+| 3 | Routed-vs-consumed state ladder | Best item; STATE_VOCABULARY class; token set is the gap | **CONCUR — strongest item, two amendments** | (a) Census the de-facto ladder before minting 7 states — live practice distinguishes ~5 (ROUTED / LANDED-UNREAD / CONSUMED / ENCODE-CONFIRMED / CLOSED-VERIFIED); RAV's `created`+`routed` may collapse. (b) The enum **needs a declared-exempt token** for pull-complete recipients (WALTER exemption class — for them the PUSH is the delivery, `finding_deferral_rule_hides_its_own_cost`); exactly the Class-8 SCHEDULED/EXEMPT-BY-CHARTER twin-token lesson, learned this week. This class is the vocabulary form of the fleet's largest memory family (PAT-032/063, `finding_transfer_completes_only_when_the_receiver_encodes`, `finding_delivery_check_is_not_a_knowledge_check`). |
+| 4 | PASS semantics on every check | CHECK_STANDARD amendment; env_doctor exemplar | **CONCUR-AMENDED: amend §2, don't mint a new section** | §2 already mandates the perimeter half verbatim ("names what was checked AND the known not-checked"). RAV's delta is the **epistemic** half: the clean line also names what a PASS does NOT prove (owner consumption, external truth, thesis freshness) — i.e., PAT-074's "what its PASS proves" cell moved from the CHECKS.tsv registry into the output contract. One added sentence to §2; forward-mandatory, backfill at natural touch. Also defeats ⑰ leg 4 (discharged-by-assertion): a PASS line that states its scope is harder to over-trust. |
+| 5 | Correction/refutation ledger (first-class central) | HOLD for design; NO-SECOND-STORE collision; route to DAEDALUS as question | **ANSWERED: DON'T BUILD as specified — FORUM-6 already litigated this** | The 8/17 correction-propagation forum ran the full P0→RULED arc on exactly this territory and chose **register-as-INDEX + owner-surface records + receipts** over a content-carrying central ledger (NEXUS mechanism: "rows carry traversal, surfaces carry record"). The chosen mechanisms LANDED 8/21: Class 10 assertion rows + `BLUEPRINTS/CORRECTION_FORM.md` (R2) + the R1 receipts/boot-leg train (~8/25-27). RAV's variant re-collides with NO-SECOND-STORE, PAT-006 drift, shared-file contention, and the upstream-canonical-index finding (VULCAN append-retraction work). Its enumerated content already has homes: false-PASS events → CHECKS.tsv vintages + PATTERNS; killed/narrowed claims → owner ledgers under Class 10 + CORRECTION_FORM. If Will wants ONE place to SEE corrections, that is a generated VIEW over owner surfaces, not a store. Revisit only on a named gap the forum's mechanisms don't cover. |
+| 6 | Weekly compression pass | Fold into Sunday sitting, no new cadence | **CONCUR** | "Which checks actually changed decisions?" is genuinely good and is ⑰-adjacent — add it to Production Review #5's question list too. A new standing weekly is the over-ceremony class. |
+| 7 | Commits = evidence, not state | Already law | **AFFIRM** | `finding_record_of_an_action_is_not_the_action` + file>verbal + root 4b (amend-ban, 8/21) all encode this. Pointer, no build. |
+| 9 | Will-dependence explicit | Already law | **AFFIRM** | WILL_QUEUE + fire-ledger + verbatim-word spine + `finding_relayed_recommendation_is_not_an_approval`. RAV's four tokens fold into the 8/23 ⚖️/glyph-register agenda item — do not mint a parallel set. |
+| 10 | Regression fixtures from real failures | Genuinely new; DAEDALUS lane | **ACCEPT-REFRAMED** | Not zero-to-one: the fixture PRACTICE exists at n≥4 (queue_parser_selftest would-have-caught vs pre-fix HEAD · BOND selftests on real shipped defects · firetime 6-control fixture · registry_chain_check's PortWatch known-positive control), and §3 already names the monkeypatched-legs form. Missing = the STANDARD + the INDEX. Build: one CHECK_STANDARD section naming the two fixture forms (would-have-caught vs pre-fix HEAD; known-positive control) + fixtures live WITH their checks (ownership units — a central 15–25-fixture store is a PAT-071 unowned surface) + corpus = a CHECKS.tsv column, not a directory. Seed list = the 8/28 sweep's ⑰ output + RAV's own 7 examples. Sequence after 8/28. |
+| 11 | Derived banner on briefs | Cheap adopt at next natural touch | **CONCUR + one rider** | Wire the banner into any generator that emits the surface (Helm renderer), not just the content — an encode-existing handle installed as content on a regenerated surface dies at the next regeneration (PAT-113, measured). |
+| 12 | Demotion over deletion | Already law + dated-rewrite-trigger addendum | **AFFIRM** | FROZEN banners / rotation-never-deletion / demotion-only flow rules. PROME's addendum is the binding half (`finding_banner_is_a_warning_not_a_fix`). |
+
+---
+
+## Cross-cutting findings
+
+**1 · The already-law fraction is itself the sharpest finding (→ PAT-124).** Five of twelve items (7, 9, 12 fully; 4 mostly — §2; 1 partly — SYSTEM.md + SURFACES.tsv) re-propose law that already exists, from a reviewer with full repo access via its mirror. That does not measure canon absence — it measures canon **discoverability**. An outside reader could not find that these rules exist. This is the strongest argument FOR item 1's fleet-facing map, and it defines the map's real function: not new law, but making existing law findable in one page. Banked as PAT-124.
+
+**2 · Vintage caveat.** RAV's mirror predates this week's canon moves: Class 9/10, CORRECTION_FORM.md, CHECK_STANDARD §12/§13, root 4b all landed 8/20–8/21. Several gaps RAV names were closed days or hours before its message. Not a defect — a mirror-lag fact (`finding_relayed_level_predates_the_event` class); but Will should read items 5 and parts of 3 knowing the tree has moved under them.
+
+**3 · Token budget — concrete bound.** Items 1/2/3/8/9 jointly propose ~20 new tokens. Land as: **Class 11 = consumption-state ladder** (item 3, census-first, with declared-exempt) + **Class 12 = verification-basis** (items 2+8 merged, census-first) + item 1's five surface-role labels decided as one small enum at the sitting + item 9's tokens folded into the existing Will-gate vocabulary/glyph register. Nothing else minted. PAT-075: tokens are interfaces; the fleet's cost is per-class, not per-token.
+
+**4 · Venue — concur with PROME.** The 8/23 Sunday sitting already carries the one-cloth vocabulary block (cadence enum + Class-8 twins + ⚖️/glyph register + convergence display form). Classes 11/12 and the surface-role enum are the same cloth — my standing prep note ("design the two tokens in one breath or they fork") extends to this batch verbatim.
+
+---
+
+## Recommendation (for Will's ruling)
+
+**What:** Rule RAV's 12 items as dispositioned above — 3 affirm-with-pointer (7/9/12) · 4 vocabulary items landing as exactly two new STATE_VOCABULARY classes at the 8/23 sitting (3, 2+8, plus item 1's label enum) · 1 one-sentence §2 amendment (4) · 1 reframed commission sequenced post-8/28 (10) · 1 answered-by-FORUM-6, don't build (5) · 2 cheap/fold-ins (6, 11).
+**Why:** RAV's list is convergent with measured fleet failure classes — the right response is consolidation into existing canon homes, not a parallel convention layer; and the one item that would hurt as specified (5) was already litigated by a full forum.
+**Effort:** sitting agenda time (Classes 11/12 + enum) + ~1 line (§2) + ~1 line (Helm banner) + one CHECK_STANDARD section post-8/28 (item 10). No new surfaces, no new cadences, no second store.
+**Expected value:** closes the delivery-vs-consumption vocabulary gap (the fleet's largest recurring failure family) + makes canon findable to outside readers (the discoverability gap this very review measured).
+**First step:** Will's word on the disposition; then Classes 11/12 + the label enum ride the 8/23 sitting.
+
+---
+
+*Read-only review; nothing executed. Routed to PROME (carve-out ①) + summarized to Will in-session.*
