@@ -2,7 +2,7 @@
 
 **Owner:** Prome  
 **Status:** Live coordination rail; push policy updated to auto-push 2026-06-26  
-**Scope:** every agent operating in this shared repo/worktree (~30-agent fleet; PROME + YEYOU were the founding two — phrasing modernized 8/3, audit #7).
+**Scope:** every agent operating in this shared repo/worktree (fleet size → `PROME/ROSTER.md`, the countless pointer [audit #10 — the hand-carried count had drifted 30→33]; PROME + YEYOU were the founding two).
 
 ## Purpose
 
@@ -13,7 +13,7 @@ This doc is the live coordination surface (vs the archived `AGENTS/PROME/` tree)
 ## Hard Rules
 
 - Run repo-state checks before sync or write work: `git status --short`, staged paths, and ahead/behind.
-- Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout.
+- Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout. **Never `git commit --amend`** (root Git Protocol 4b, Will-approved 8/21 — amend rewrites whoever holds HEAD, which may not be you; write messages via quoted-heredoc `git commit -F <file>`, not inline `-m`, whenever they carry backticks/quotes) *(mirror synced audit #10)*.
 - Dirty tree means inspect and triage. Do not stash, reset, or pull to make the dirt disappear.
 - Use explicit pathspecs for adds and commits.
 - Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). **Auto-push exceptions (full list, root canon):** YEYOU manual/branch · TERRY self-sweeps · WALTER architectural per `BOARD_CONSUMPTION_SPEC` §7 (see Push Discipline).
