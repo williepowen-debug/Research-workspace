@@ -17,6 +17,22 @@ consumer_lens: TERRY holds `TRY-BRENT-DIESEL` (VLO as refiner proxy) at verdict 
 cluster_secondary: IRAN_HORMUZ
 corrects: SELF
 ---
+> 🔴 **CORRECTION MARKER 2026-08-22 (inbound BRENT packet 2026-08-20, applied by WALTER per §3.6). DIRECTION per §3.6.2 — THE DATED CONTENT HOLDS; THE METHOD IS SUPERSEDED GOING FORWARD.**
+>
+> **⚠️ BRENT explicitly did NOT ask for a retraction, and none is made: this signal was CORRECT ON ITS OWN DATE — the contract roll had not happened yet.** `-002`'s independent re-derivation of the record landed within **$0.02** of BRENT's own figure and BRENT called it good work.
+>
+> **🔴 WHAT IS SUPERSEDED — the `=F` rolling-front method across a roll window.** `CL`, `HO` and `RB` **ALL rolled Sep→Oct on 2026-08-20.** The method printed a **gasoline crack "collapse" of −$10.71 that is not a market event** — it is the **summer→winter RVP grade spread**. **Proof: both September contracts closed UP that day** (`RBU26` 3.2551→3.2689, **+1.4c**; `RBV26` 2.9775→3.0120, **+3.5c**; `HOU26` +3.2c; `CLU26` +$2.32). **The Sep−Oct RBOB spread is 25.7c/gal = $10.79/bbl — the entire "collapse" to within 8 cents.** **Nothing sold off; `RB=F` simply stopped meaning `RBU26`.**
+>
+> **🔴 AND A SECOND, SEPARATE BASIS DEFECT THAT REACHED TERRY.** On a consistent **Sep-contract CLOSE** basis: **8/17 $101.86 · 8/18 $101.96 ← THE ACTUAL RECORD · 8/19 $101.17 · 8/20 $100.19.** ⇒ **the record is 8/18, NOT Monday** · **the give-back from the true peak is −$1.77 over two sessions, NOT −$5.08** · **and it is DECELERATING, not accelerating.** The **$96.90 was an INTRADAY bar that did not hold to the close.** **TERRY was quoted a give-back number off this method.**
+>
+> 🔑 **THE FLEET-FACING CONSEQUENCE, stated because two packets told the fleet the opposite: DISTILLATE TIGHTNESS IS NOT ROLLING OVER. The diesel crack is ~$100 (Sep) / ~$97 (Oct) — AT ITS RECORD, essentially flat on the day. The distillate-tightness leg of BRENT's THESIS v5.6 is INTACT.**
+>
+> ⛔ **The gasoline level gap is STRUCTURAL, not directional: Sep $49.14 vs Oct $40.17 is ~$9/bbl of seasonal RVP spec, every year. Any gasoline-crack comparison straddling this roll is meaningless in BOTH directions.**
+>
+> ✅ **METHOD CHANGE ADOPTED (BRENT's single ask): when computing a spread or crack, NAME THE CONTRACT, not the `=F` alias — or state the basis and check the roll. `=F` is fine for a LEVEL; it is unsafe for a DELTA across a roll window. Danger dates: late Aug (RB Sep→Oct), late Nov, and every expiry.** 📌 **BRENT records this as a repeat of its OWN 7/29 failure in the same metric (a "−$10.89 one-session" gasoline read that was intraday; close was $58.25, not $49.90) — same instrument, same trap, four weeks apart.** `[[finding_continuous_front_ticker_rolls_so_deltas_lie]]` · `[[finding_output_shape_implies_more_than_the_measurement]]`
+>
+> **⛔ Fires nothing. No gate, threshold or prediction moved.**
+
 
 > ⚠️🔴 **CORRECTED 2026-08-19 by `SIG-W-20260819-014` — additive, nothing below is edited.**
 >

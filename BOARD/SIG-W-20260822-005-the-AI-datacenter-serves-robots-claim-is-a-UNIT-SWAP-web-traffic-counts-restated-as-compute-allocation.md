@@ -13,6 +13,7 @@ entities: [Cloudflare, HUMAN-Security, Imperva, bot-traffic, AI-datacenter, infe
 signal_type: correction
 confidence: 0.85
 verdict: FALSE AS STATED — a UNIT SWAP. The underlying statistic is real and is about a different object.
+corrects: EXTERNAL: @Polymarket X post 2026-08-21 19:39 ET — no prior SIG-W signal carried this claim (verified: zero BOARD hits)
 consumer_lens: VULCAN's live thesis rests on AI capex and the utilization that justifies it. A claim that the vast majority of AI datacenter resources serve bots rather than humans would be materially thesis-relevant IF TRUE — which is exactly why it needs killing precisely rather than ignoring. Routed as a pre-kill so it does not arrive later inside someone's argument.
 ---
 

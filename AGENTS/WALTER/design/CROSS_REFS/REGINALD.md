@@ -45,20 +45,34 @@ For dispatch-time orientation:
 
 5-tier hierarchy from REGINALD LIAISON Turn 3 Q4-(A). When dispatching a signal that mentions any string from TIER-1 / TIER-2 / NEW-TRACKING / EXTERNAL-WATCH, **REGINALD-info is mandatory** regardless of sub-agent action. OZK exception: OZK signals route to `../OZK` action; REGINALD-info ONLY when OZK signal also touches another REGINALD-watchlist ticker.
 
-| Tier | Ticker | Multi-channel score | Status | Primary thesis | Recent activity |
+> 🔴🔴 **SCORE COLUMN RE-CUT 2026-08-22 AGAINST `AGENTS/REGINALD/BANK_EXPOSURE_MATRIX.md` **v2.0** (rebuilt 2026-08-20). THE ENTIRE PRIOR SCORE SET WAS DEAD, NOT JUST ONE ROW — and this file is read AT DISPATCH TIME, so a dead score silently mis-prioritises a live signal.**
+>
+> **What happened (DAEDALUS packet 8/20, verified by WALTER at REGINALD's matrix rather than accepted on relay):** REGINALD rebuilt the matrix on 8/20 (`75f0dd18b`) and **the ranking INVERTED. FLG went from `8`, LAST of 7, to `6`, FIRST of 14 scored banks.** REGINALD's own commit states the v1 scores *"could not be derived from v1's own method"* and that **no rescale commit, scale note or method document exists anywhere in the repo.** ⇒ **v1 and v2 are not the same scale and v1 numbers are not convertible — they are retired, not adjusted.** **AMTB was never in the v1 table at all.**
+>
+> 🔑 **THE COST THIS WAS ACTUALLY INCURRING: a signal on the cohort's now-HIGHEST-scored name resolved here to `TIER-2` with an EMPTY primary-thesis cell — deprioritised off a number nobody could reproduce.**
+>
+> ⚠️ **REGINALD'S OWN CAVEAT, CARRIED VERBATIM BECAUSE A RE-CUT IS EXACTLY WHERE IT WOULD BE LOST: A `0` IS NOT A CLEAN BILL OF HEALTH. CFG scores 0 while holding the cohort's SECOND-LARGEST private-credit NDFI book (~$4.5B committed) — reported and DELIBERATELY UNSCORED. Do not let this table turn "unscored" into "safe."** `[[finding_verification_zero_is_ambiguous]]`
+>
+> 📌 **This file's header already said REGINALD's own surfaces WIN over this cache. That rule was correct and did not save anyone — nothing re-read the cache when the matrix moved.** ⇒ **a precedence rule is not a refresh mechanism.** `[[finding_retired_threshold_has_no_publisher]]`
+
+| Tier | Ticker | v2.0 score (rank of 14) | Status | Primary thesis | Recent activity |
 |------|--------|---------------------|--------|----------------|-----------------|
-| **TIER-1** | EGBN | 20 | Watchlist active | V1 Hidden CRE direct primary-source validation (10-Q May 7 office-segment language) | EGBN 10-Q May 7 |
-| **TIER-1** | WAL | 20 | Watchlist active; V1+V3 active | Office single-point concentration $946M; ex-fraud NCO Q1 39bps already above mgmt 25-35bps guide | 10-Q expected May 11-13; Investor Day May 12 |
-| **TIER-2** | CFG | 15 | Watchlist active | Cohort-fade pattern 12/12; FHLB-surge bifurcation side | — |
-| **TIER-2** | ZION | 8-9 | Watchlist active | Cohort-fade-pattern 12/12; FHLB-decline bifurcation side | — |
-| **TIER-2** | SSB | 11 | Watchlist active | FL/TX exposure; CORAL primary cross-feed | May 15 options expiry cluster (WAL $75P + SSB $95P) |
-| **TIER-2** | FLG | 8 | Watchlist active | — | — |
-| **NEW-TRACKING** | FITB | TBD | Added May 8 | POSITIONS broker refresh | — |
-| **NEW-TRACKING** | HBAN | TBD | Added May 8 | SBA + small-business + CRE | — |
-| **EXTERNAL-WATCH** | MTB | — | NEW (May 8) | Baltimore CRE thesis — SIG-W-20260426-009 $1B 29% reassessed; FHLB-surge side | — |
-| **EXTERNAL-WATCH** | VLY | — | Watchlist context | Cohort-fade pattern; provisions-mask -66% YoY tell | — |
-| **PEER-ROUTED** | OZK | 13 (peer agent) | Routed to `../OZK` action; REGINALD-info on cohort overlap only | IQHQ Aug 2026 maturity; SUB-NOTE Oct 1 reprice | OZK 10-Q May 11 |
-| **HISTORICAL-ON-WATCH** | FBC, WBS, BHRB, FHN | — | BANK_EXPOSURE_MATRIX scoring tracked | — | — |
+| **TIER-1** | **FLG** | **6 — 🔴 1st** | **PEER-ROUTED as of 2026-08-22 → `AGENTS/FLG/` action** (ROUTING_TABLE v0.30); REGINALD-info on cohort overlap | CRE conc. 327.5% · NPL 4.88% · reserve/NPL 29% (cohort-worst coverage) · NYC rent-regulated multifamily | Registered as a single-name desk 8/20; **zero gates, zero thresholds** |
+| **TIER-1** | EGBN | **5 — 🟠 2nd=** | Watchlist active | CRE conc. 258.2% · NPL 2.05% · reserve/NPL 88%; V1 Hidden-CRE primary-source validation | Cohort-max office CRE 10.77% |
+| **TIER-1** | **AMTB** | **5 — 🟠 2nd=** | **NEW — absent from the v1 table entirely** | CRE conc. 218.4% · NPL 2.46% · reserve/NPL 51% | Added at the v2.0 rebuild |
+| **TIER-2** | VLY | **3 — 🟡 4th** | Watchlist active | CRE conc. 319.5% · reserve/NPL 128%; provisions-mask −66% YoY tell | — |
+| **TIER-2** | OZK | **2 — 5th=** | **PEER-ROUTED → `../OZK` action**; REGINALD-info only when an OZK signal also touches another watchlist ticker | CRE conc. 259.5% · reserve/NPL 154%; IQHQ maturity; SUB-NOTE Oct 1 reprice | — |
+| **TIER-2** | WAL | **2 — 5th=** | **PEER-ROUTED → `AGENTS/WAL/` action** (ROUTING_TABLE v0.20); REGINALD-info | CRE conc. 161.1% · reserve/NPL 86%; office single-point conc.; **$122.5M** the cohort's largest NDFI-linked figure in the matrix | **`REG-T-02` (<78, sustain-1) RULED UN-FIRED 8/20 — exited 6/30; a close <78 from 8/21 is a FIRST FIRE OF A NEW CYCLE.** 8/21 close **$79.67** |
+| **TIER-2** | SSB | **2 — 5th=** | Watchlist active | CRE conc. 281.0% · reserve/NPL 217%; FL/TX exposure — **CORAL primary cross-feed** | — |
+| **TIER-2** | BKU | **2 — 5th=** | Watchlist active | CRE conc. 193.9% · reserve/NPL 95% | — |
+| **TIER-2** | SBCF | **2 — 5th=** | Watchlist active | CRE conc. 229.6% · reserve/NPL 210% | — |
+| **TIER-2** | ZION | **1 — 10th=** | Watchlist active | CRE conc. 151.7% · reserve/NPL 226%; cohort-fade pattern; FHLB-decline side | — |
+| **TIER-2** | MTB | **1 — 10th=** | Watchlist active *(was EXTERNAL-WATCH)* | CRE conc. 103.9% · reserve/NPL 180%; Baltimore CRE thesis; FHLB-surge side | — |
+| **TIER-2** | CUBI | **1 — 10th=** | Watchlist active | CRE conc. 179.2% · reserve/NPL 293%; **cohort-max NDFI 19.96%** | — |
+| **TIER-2** | CFG | **0 — 13th=** ⚠️ | Watchlist active | ⚠️ **A 0 IS NOT SAFETY — CFG holds the cohort's second-largest private-credit NDFI book (~$4.5B committed), REPORTED AND DELIBERATELY UNSCORED.** Cohort-fade 12/12; FHLB-surge side | — |
+| **TIER-2** | HBAN | **0 — 13th=** ⚠️ | Watchlist active *(was NEW-TRACKING)* | Same unscored caveat applies. SBA + small-business + CRE | — |
+| **NEW-TRACKING** | FITB | not in v2.0 | Added May 8 | POSITIONS broker refresh | — |
+| **HISTORICAL-ON-WATCH** | FBC, WBS, BHRB, FHN | not in v2.0 | tracked historically | — | — |
 
 **Dispatch-time grep procedure:** when an incoming signal body / dispatch_note mentions any ticker from the table above, surface REGINALD-relevant context: `REGINALD watchlist tier X / score Y / current thesis Z / recent activity W`. For EXTERNAL-WATCH tier, REGINALD-info is mandatory but with the note "watchlist-context tier" so REGINALD knows the priority is observational not active.
 

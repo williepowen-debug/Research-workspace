@@ -1,4 +1,4 @@
-# WALTER Routing Table v0.29
+# WALTER Routing Table v0.30
 
 Default routing rules. WALTER uses this table to determine recipients and precedence when classifying incoming information. These are defaults — WALTER can override based on context, safety net triggers, or MINIMIZE state.
 
@@ -331,6 +331,26 @@ Geographically-narrow residential signals — HOA dysfunction, builder-defect li
 **⚠️ Threshold note (WALTER's, not in the DAEDALUS packet):** **REG-T-02 (`WAL-PRICE < 78`, sustain 1, V1V3-ACCELERATE)** still lives in **REGINALD's** `THRESHOLDS.tsv` and its `recipient_chain` reads *"REGINALD action / Will."* **The registry was not re-pointed by the promotion.** Until REGINALD and WAL agree who owns that row, a REG-T-02 fire routes **REGINALD action + WAL action** — a single-name price trigger on a name with a dedicated agent should not reach only the cohort owner. **Flagged to both; the registry edit is REGINALD's to make, not WALTER's.** (WAL last $83.11, 6.5% above the trigger.)
 
 **Filed:** Jul 25 2026 by WALTER on the DAEDALUS registration packet. REGISTRY row added the same session (the boot fs-scan had flagged `WAL` as an unregistered live dir).
+
+### Single-name routing — FLG (Aug 22 2026)
+
+**FLG registered 2026-08-22 on DAEDALUS's 8/20 packet** (`AGENTS/FLG/` — **Flagstar Financial, NYSE `FLG`, formerly `NYCB`**; bank sub Flagstar Bank N.A., FFIEC RSSD **694904**). Market-class, print-driven single-name specialist; built 2026-08-20, Will-approved in-session. **The fleet's first greenfield per-bank build.** ⚠️ **The boot fs-scan flagged `FLG` as an unregistered live dir on 8/20 AND 8/22 — it had a REGISTRY gap for two days, during which nothing could route to it.**
+
+**Rule — mirrors the OZK and WAL seams:**
+
+| Signal shape | Action | Info |
+|---|---|---|
+| **Ticker-`FLG` / Flagstar-specific** — earnings, 8-Ks, reserves, capital, credit quality, mgmt/insider news | **FLG** | REGINALD |
+| 🔴 **Ticker-`NYCB`** — **route to the SAME desk.** The ticker changed and a large body of live coverage still uses the former name | **FLG** | REGINALD |
+| **NYC rent-regulated multifamily** · **CRE concentration AT Flagstar** | **FLG** | REGINALD, CREED |
+| **Regional-bank COHORT / KRE / multi-bank** | **REGINALD** (owns the cohort + `BANK_EXPOSURE_MATRIX`) | **FLG cc when an FLG leg is present** |
+| **Ambiguous — FLG inside a cohort story** | **REGINALD primary** | **FLG cc** |
+
+**⛔ DO NOT ROUTE TO FLG** (FLG's charter carries this exclusion register explicitly): peer-bank CRE events → **REGINALD** · rates/curve → **BOND** · funding-market stress → **LIQUID** · private-credit / NDFI → **BROCK**. **FLG owns the single name; REGINALD owns the cohort.**
+
+**⚠️ Nothing to fire on yet:** FLG registered **zero gates** and proposes **zero thresholds**; its `workbook/TRIGGERS.tsv` is 7 `[EST]` rows, none a signal channel. **No FLG row exists on the boot 6b/6c trigger board and none should be invented here.**
+
+**Filed:** Aug 22 2026 by WALTER on the DAEDALUS 8/20 registration packet.
 
 ### Coordinator delivery path — PROME (re-pointed Jul 25 2026)
 
