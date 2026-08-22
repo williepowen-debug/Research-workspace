@@ -3,12 +3,12 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **The spawn queue is the whole game right now** — no words are owed anywhere [Batch A + B both ruled and encoded 8/21]; the desks below are what moves things.
-- **Monday 8/24 brings the next word:** the bond-test concurrence lands, then it needs one ruling from you before 8/28.
+- **No words are owed anywhere tonight** [all of Friday's 18 rulings executed and verified same-hour]; the spawn queue below is what moves things over the weekend.
+- **Saturday 8/22: the Canada-tariff pause expires** — a genuine three-way branch (deal / extension / live tariff), and two of the three cut AGAINST the boycott-hardening read. The desks verify at a primary; nothing needs you unless an outcome lands that changes positioning.
+- **Monday 8/24 is the loaded day — seven independent reads land**, and one of them (the bond-test concurrence) comes back needing your ONE word before 8/28.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **AEOLUS** · before Sun 8/24 · its silence is destroying evidence — AEO-11's window passed unobserved and the retro-read decays daily; Sunday's audit grades it first
 - **SAM** · soon · positioning data + Japan CPI grading touch owed since Friday
 - **MIDAS** · soon · gold positioning touch + five ruling-encodes waiting in its inbox
 - **CREED** · 8/24–29 window · the FDIC banking report is its first trade-relevant trigger and it only exists when spawned
@@ -16,8 +16,8 @@
 - **ZHAO** · any window · inbox session — 27-item backlog its new boot triage can't clear alone
 
 ## Runs itself — no window needed from you
-- **Sunday 8/23 sitting** (PROME): registry audit + the vocabulary block.
-- **Monday 8/24:** hedging-map re-measure, test grades, prediction-market pin day 2 — all in desk windows you already run or PROME's.
+- **Sunday 8/23 sitting** (PROME): registry audit #10 + the vocabulary block + the memory promotion-queue adjudication.
+- **Monday 8/24, seven reads in desk windows you already run or PROME's:** hedging-map re-measure [the old figure is dead data] · bond-test concurrence · the oil desk's $85 tourism-cost trigger grades · funding-desk Test B · the VLY exercise outcome · prediction-market pin day 2 · Saturday's tariff aftermath.
 
 ## The daily flow
 - **Open the Helm, Your desk tab.** The one-line summary under the title is the whole state — if it reads zero words and zero desks, you're done. The brief tab has the story when you want it.
