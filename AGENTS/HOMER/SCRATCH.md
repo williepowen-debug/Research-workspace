@@ -96,6 +96,15 @@
 
 ---
 
+## ⚠️ LATE ARRIVALS — two PROME riders accepted, and a DAEDALUS finding about my own file
+
+**PROME verified the anchoring proposal at artifacts and is carrying it to Will with two riders. Both accepted and encoded into the proposal; the first is a LOGICAL ERROR IN MY OWN ASKS, not a refinement.**
+1. ⚠️ **Asks 1 and 2 INTERACT and I listed them as independent.** Ruling F capacity-out **drops F to n=1**, so ask 1 asked Will to re-affirm a number that ask 2 simultaneously weakens. **Post-ruling, F's standing reads "one observation, clears by 0.6pp," NOT "fragile at n=2."** ⇒ **Asks RE-ORDERED: capacity question first.** ★ **Generalizable: I proposed a definition change and a level re-affirmation in one packet without checking whether the definition change moves the level's evidence. It does.**
+2. ✅ **G's UNTESTED label had no exit and was permanent by construction** — a status with no discharging condition is not a caveat, it is a fixture, and reads as boilerplate within two reviews. **Adopted: the first PARTIAL dividend cut in the panel is G's anchoring observation.** Converts a dead label into a live watch at zero cost.
+★ **PROME also registered the $160B kill as a DOCKET row (`78a426f03`, CREED-owned, ~9/4) — my kill lived only in SCRATCH/STATUS, which is exactly the condition under which a retirement goes unpublished.** Same edit-path defect as the ATTOM and NAHB rows, **third variant in one day: I wrote the decision where I was working, not where it would be read at fire time.**
+
+**⚠️ DAEDALUS structure review of HOMER is LIVE (Will-directed, DRAFT, pinned at `abc7fc58a`) and its recon already measures a defect I never caught: `STATUS.md` ≈ 160 KB / 247 lines ≈ 647 B/line, densest of three flagged desks — while BOOT step 2 is "Read STATUS.md."** **I am UNDER the 250-LINE cap and ~6× over on BYTES, so the cap has been measuring the wrong axis all along — and I made it worse today, folding blocks to satisfy a limit that was never binding.** `NEXUS_BRIEF.md` is worse per line (679 B) with no cap at all. ⛔ **NOT FIXED — the review is live and a unilateral restructure would collide with its packet and pre-empt a ruling that is not mine.** **Flagged, measured, left.**
+
 ## ⚠️ OPEN / UNSETTLED — do not publish these as settled
 
 1. **HOM-01: one early-kill arm fired. The ~8/31 FMHPI July print DECIDES IT.** Grade on **that release's own as-published figures for BOTH months** — NOT against the +2.06% on record. **Year-verify: the trap has hit 3× on this series, in both directions.**
@@ -109,12 +118,15 @@
 
 ## NEXT SESSION
 
-1. **🔴 FMHPI JULY data ~8/31 — THE HOM-01 DECISION POINT.** Issuer path: `freddiemac.com/research/indices/house-price-index` (curl+UA) for the vintage line, then `fmhpi_master_file.csv`. **If it prints >+1.9%, HOM-01 closes MISSED EARLY.**
-2. **Fannie/Freddie JULY monthlies ~8/25-28 — second datapoint on the registered mod-suppression test. Still the highest-value recurring pull I own.** Path-test both files (`073126.pdf` / `0726mvs.pdf`) before concluding absence.
-3. **Case-Shiller June data ~8/25** — 13th consecutive negative REAL month?
-4. **PMMS Thu 8/27 · MBA apps Wed 8/26** — watch the **two YoY legs separately**; they are diverging.
-5. **Draft the non-funding-debt/equity candidate class** (Will-authorized rider, row-45 pattern: pre-registered draft → Will ratifies → nothing live till ruled).
-6. **Answer the FL ratio-band spec gap** — annual-only restriction is the cheap fix; a monthly calibration is the real one.
+**⚠️ THE CALENDAR OWNS THE NEXT NINE DAYS. Phase 2 structural work is DONE except the rider — do not start new structural threads until HOM-01 resolves.**
+
+1. **🔴🔴 ~Mon 8/31 — FMHPI JULY DATA. HOM-01 DECIDES.** Issuer path: `freddiemac.com/research/indices/house-price-index` (curl+UA) for the vintage line, then `fmhpi_master_file.csv`. **If it prints >+1.9%, HOM-01 CLOSES MISSED EARLY.** ⚠️ **Grade on THAT release's own as-published figures for BOTH months — not against the +2.06% on record.** ⚠️ **Year-verify: the trap has hit 3× on this series, in BOTH directions.** **The bet is behind and I have said so; resolve it cleanly rather than defending it.**
+2. **🔴 ~8/25-28 — Fannie/Freddie JULY monthlies.** Second datapoint on the registered mod-suppression test; **still the highest-value recurring pull I own.** Path-test both files (`073126.pdf` / `0726mvs.pdf`) before concluding absence — a path-tested negative is stronger than an index-stamp inference.
+3. **Tue 8/25 Case-Shiller (June)** — 13th consecutive negative REAL month? Context-not-resolver per HOM-01's spec. **Wed 8/26 MBA apps · Thu 8/27 PMMS** — watch the **two YoY legs separately**; they are diverging and if that continues, *"no refi escape"* must be restated as a **PURCHASE** claim.
+4. **⛔ THE ONE ITEM CARRYING WILL'S STANDING WORD — DRAFT THE NON-FUNDING DEBT/EQUITY RIDER** (authorized 8/14, row 50 item 5). Row-45 pattern: pre-registered draft → Will ratifies → **nothing live until ruled; the candidate class must NOT be scored.** Evidence already in hand: UWMC 1.90× → 3.18× → **6.13×** while the dividend sat at $0.10 to the last quarter — **payout LAGGED, leverage LED by two quarters**, with the terminated Two Harbors deal sitting in that window. **Fit it around the prints, not instead of them.**
+5. **~9/4 — TWO DATED KILL CONDITIONS FIRE OR CLEAR AT THE SEPTEMBER TREPP CYCLE:** (a) **$160B MF maturity wall** — if CREED has still attached no primary, **RETIRE IT AND PUBLISH THE RETIREMENT** (a silent disappearance keeps it being cited from wherever it was copied); (b) **Trepp mat-adj MF** — if absent a **third** month, **re-spec the leg off it** onto MF special servicing. **Both are decisions I have pre-committed to; do not re-litigate them into another month of carrying.**
+6. **Awaiting rulings/replies, none blocking:** Will on the **A–G anchoring + the ATM-capacity question** (PROME queue) · **CREED** on the courier re-spec · **CORAL** on the $10,000 finding · **CARL** on the composition write-up split — **and I owe CARL that draft; it is mine, not blocked.**
+7. **9/21 HUD ML 2026-08 mandatory** — the clearest dated FC accelerant I hold, and it lands **before** HOM-02's mid-Nov resolver. Expect measured DQ to drift the wrong way for mechanical reasons; **the standing rule is already written and CARL carries it.**
 
 ## OPEN THREADS
 

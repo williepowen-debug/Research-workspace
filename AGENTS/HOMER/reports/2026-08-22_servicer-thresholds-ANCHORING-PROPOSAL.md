@@ -68,11 +68,30 @@
 
 ---
 
+## 3b. ⚠️ TWO RIDERS FROM PROME, BOTH ACCEPTED — AND THE FIRST IS A LOGICAL ERROR IN MY OWN ASKS
+
+**Added 2026-08-22 after PROME verified this proposal at artifacts. Both riders improve it and I am adopting them into the asks rather than answering them separately.**
+
+### ⚠️ Rider 1 — **asks 1 and 2 interact, and I under-weighted it. This is my error, not a refinement.**
+
+**PROME:** *"Ruling F capacity-out (which I think is right) drops F to n=1. So ask 1 asks Will to re-affirm a number that ask 2 simultaneously weakens."*
+
+**Correct, and it is a real defect in how I framed the asks.** I listed them as independent items and they are **sequentially dependent**: the ATM-capacity ruling **changes the evidence base of the very number ask 1 asks him to re-affirm.** ⇒ **If Will rules capacity-out, F's recorded standing is NOT "fragile at n=2" — it is "ONE observation, clearing by 0.6pp."** Recording the pre-ruling standing would freeze a state that the same ruling session dissolved. ★ **The generalizable form, and it is the same class this whole spec keeps producing: I proposed a definition change and a level re-affirmation in one packet without checking whether the definition change moves the level's evidence. It does. Rule them TOGETHER, and write F's standing only after the capacity question is answered.**
+
+### ✅ Rider 2 — **G's UNTESTED label needs a resolution path, or it is permanent by construction**
+
+**PROME:** *"As written it's permanently untested; nothing in the spec says what would ever change it."*
+
+**Also correct, and it is the sharper of the two.** I wrote UNTESTED as an honest label and **gave it no exit** — a status with no condition that discharges it is not a caveat, it is a permanent fixture, and it will read as boilerplate within two reviews. ✅ **Adopted: THE FIRST PARTIAL DIVIDEND CUT IN THE PANEL IS CLASS G's ANCHORING OBSERVATION.** Any cut strictly between 0% and 100% at PFSI, LDI or UWMC **poses, for the first time, the question the 50% line exists to answer** — and at that point the level is re-anchored against real evidence rather than held. ⇒ **That converts a dead label into a live watch, and it costs nothing: the panel is already monitored quarterly under this same row.**
+
 ## 4. ⇒ WHAT I AM ASKING WILL TO RULE
 
-1. **RE-AFFIRM all three surviving numbers** (≥10% size · ≥20% economic dilution · ≥50% dividend cut) — **explicitly, as step 2 of the pre-registered ordering, so the obligation closes rather than lapsing.**
-2. **RULE THE F CAPACITY QUESTION:** does undrawn ATM/shelf capacity fire Class F? **My rec: NO — executed dilution only.**
-3. **RECORD THE THREE STANDINGS SEPARATELY** on the docket row — *well-separated* / *fragile at 0.6pp* / *untested* — **rather than a single "base-rated" label.**
+⚠️ **RE-ORDERED after PROME rider 1 — the capacity question must be answered BEFORE F's standing is recorded, because it changes F's evidence base.**
+
+1. **RULE THE F CAPACITY QUESTION FIRST:** does undrawn ATM/shelf capacity fire Class F? **My rec: NO — executed dilution only.** *(Was ask 2; promoted because asks 1 and 3 depend on the answer.)*
+2. **RE-AFFIRM all three surviving numbers** (≥10% size · ≥20% economic dilution · ≥50% dividend cut) — **explicitly, as step 2 of the pre-registered ordering, so the obligation CLOSES rather than lapsing.**
+3. **RECORD THE THREE STANDINGS SEPARATELY** on the docket row — *well-separated* / *fragile* / *untested* — **rather than a single "base-rated" label.** ⚠️ **F's standing is written only after ask 1:** if capacity is ruled out it reads **"one observation, clears by 0.6pp,"** not *"fragile at n=2."*
+4. **★ NEW (PROME rider 2) — GIVE CLASS G's UNTESTED LABEL A RESOLUTION PATH: the first PARTIAL dividend cut in the panel (any cut strictly between 0% and 100% at PFSI / LDI / UWMC) is G's anchoring observation.** Without this, UNTESTED is permanent by construction and will read as boilerplate within two reviews.
 
 ## 5. ⛔ WHAT THIS DOES AND DOES NOT DO TO THE SPEC'S STATUS
 
