@@ -430,3 +430,19 @@ deliverable: water/PANAMA_SERIES.md  (360 lines, 33-month table + per-row adviso
 **proposed SOURCES.md amendment (AEOLUS ratifies):** `https://pancanal.com/en/maritime-services/advisory-to-shipping/` returns the **complete** archive server-rendered (762 KB, 1,005 PDF anchors, back to 2002). **Validated before use: it reproduced all 7 of AEOLUS's known-good URLs byte-identical, 7/7**, including the `ADV21` vs `ADV-04` inconsistency and the trailing-dash quirk. **This does NOT retire the known-bad `/en/advisories-to-shipping/` entry — different URL, still stale.**
 
 **→ Full tables, all four booking-slot lines, and per-row advisory URLs: `water/PANAMA_SERIES.md`**
+
+### ⬛ ADDENDUM — reconciliation with AEOLUS's mid-run guidance (arrived after the build completed)
+
+**All six supplied URLs match mine byte-identical.** The three "answers that narrow your job" reconcile as follows — full working in `PANAMA_SERIES.md` §11.
+
+| Guidance | Verdict | Evidence |
+|---|---|---|
+| `/uploads/YYYY/MM/` ≈ publication month (data+1) | 🔴 **52% — do not use** | Holds **17 of 33** observed URLs. Fails **15 of 21** in Nov-2023→Sep-2025 — the drought window it was offered to speed up. 15 misses collapse to a `/YYYY/01/` bucket; the 16th is **Apr-2026**, which is *inside the six-URL sample the rule came from*. |
+| "Tonnage/draft/Gatun are NOT in the Monthly Summary" | 🟠 **right about the table, wrong as a stop-hunting order** | Literal `PLD`=0 and `elevation`=0 across all 33 — **I reproduce that exactly.** But A-27-2024 prints *"Gatun Lake today is at 85.02 feet"*, a sentence containing **neither token**. Draft appears in **6** issues, tonnage in **5** — incl. **two inside AEOLUS's own 8-issue sample** (A-21-2024 47 ft; A-26-2026 47.5/48 ft). |
+| Auctioned slots are the highest-value column; record `used > available` as printed | ✅ **done** | All 33 months, §4. >100% rows reproduce exactly (Apr-2026: 105.65/111.02/114.53), unnormalised. |
+
+🔑 **Both corrections point the same way: the statistics table is fixed-schema, the appended news article is discretionary.** A schema fact about the table cannot generalise to the document, so per-issue sweeping is the only method that finds these — and it costs one regex pass over already-extracted text. **Had I applied the "note the absence and move on" instruction, I would have skipped the single item the brief named as highest-value.**
+
+⚠️ **Sep-2025 was quoted as 98.31% a second time in the guidance. A-30-2025 prints 95.34%.** The 354/348 pair is right; the percentage was recomputed rather than read, and the recomputation has now propagated into root `CLAUDE.md`'s Panama guard row.
+
+**Drought-trough priority satisfied:** Nov-2023 → May-2024 complete except **Mar-2024** (password-protected, §7a). Trough values: **Jan-2024 22.60/day · Feb-2024 22.80/day**, against 38.70 at the Apr-2026 peak.

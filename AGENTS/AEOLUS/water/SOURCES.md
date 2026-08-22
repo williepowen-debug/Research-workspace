@@ -231,9 +231,36 @@ By class: 6.37 (<91′ beam) · 22.07 (91-107′) · 10.27 (Neopanamax). Booking
 🔑 **PATTERN:** the `/uploads/YYYY/MM/` segment tracks roughly the **publication** month (data month **+1**), **not** the data month — a June-2026 summary sits under `2026/07`. Advisory numbers run ~4–5/month and **hyphenation is inconsistent** (`ADV21-2024` vs `ADV-04-2025`).
 ⚠️ **DISCOVER BY SEARCH, NEVER CONSTRUCT.** Every URL I built by pattern 404'd. The pattern is for *recognising* a URL, not generating one.
 
-### 🔴 THREE THINGS THE MONTHLY OPS SUMMARY DOES **NOT** CONTAIN — checked, do not re-hunt per-month
+### ⚠️ CORRECTED 2026-08-21 — MY "THREE THINGS IT DOES NOT CONTAIN" WAS WRONG AT CORPUS SCALE
 
-Verified across **eight** advisories (six 2026 + Sep-2025 + Jun-2024): **zero occurrences of `PLD` or `elevation`.**
+> 🔴 **I checked TWO issues, found no tonnage / draft / Gatun elevation, and wrote a negative about the DOCUMENT CLASS. The worker checked THIRTY-THREE and found all three DO appear — never in the statistics table, always in discretionary appendix prose.**
+> 🔑 **The generalisation, which is the useful part: the statistics table is FIXED-SCHEMA and genuinely contains none of the three. The appendix is DISCRETIONARY. A schema check of the table is not a check of the document** — so a negative that is true of every table is still false of the corpus. **Scope a negative to what you actually scanned.** *(Third wrong-referent instance of the day on this desk, and the one with the widest blast radius: it would have stopped anyone from ever looking again.)*
+
+**WHAT IS ACTUALLY TRUE:**
+- **In the STATISTICS TABLE: no tonnage, no draft, no Gatun elevation, in any of 33 issues.** That part stands and is now n=33, not n=2.
+- **In APPENDIX PROSE:** ✅ **maximum authorised draft appears repeatedly** — this is where the 2023-24 trough of **44.0 ft** is recorded (A-53-2023, A-04-2024). ✅ **ONE Gatun elevation exists in the whole corpus** (below). ✅ tonnage appears twice as a **fiscal aggregate**, never monthly.
+
+### 🔑 GATUN LAKE ELEVATION — one primary figure exists, and it anchors the unit and datum
+
+**A-27-2024** (July-2024 issue, advisory dated **2024-08-09**), verbatim:
+> *"The rainy season is gradually bringing the reservoirs to its optimum levels: **Gatun Lake today is at 85.02 feet (25.91 m)**, while **Alhajuela Lake is at 217.24 feet (66.21 m)**."*
+
+**The only numeric Gatun elevation in 33 readable issues.** ⚠️ **It is a single 2024 spot reading — NOT a series, NOT current, and NOT a substitute for the live instrument.** Its value is that it **confirms the unit (feet) and the datum**, and 85.02 ft sits inside the 82–87 ft operating range this file carries. **The 2026 lake state remains UNINSTRUMENTED.**
+**Lead, unverified and not chased:** four issues (Oct/Nov/Dec-2023, Apr-2024) close with a link list including *"Daily average level of Gatun Reservoir for the last 12 months."* **That link is the most promising route to a real series.**
+
+### ✅ THE COMPLETE ADVISORY ARCHIVE — a WORKING path beside the known-bad one
+
+⚠️ **The known-bad entry below is still correct and still stands: `pancanal.com/en/advisories-to-shipping/` (PLURAL) is JS-rendered and silently truncates at `A-46-2024`.**
+✅ **But a near-identical sibling URL — `advisory-to-shipping` (SINGULAR) — returns the COMPLETE archive, server-rendered:**
+```bash
+curl -sLk -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" "https://pancanal.com/en/maritime-services/advisory-to-shipping/"
+```
+**762,407 bytes · 1,005 PDF anchors · `a-01-2002` → current.** Each anchor carries the advisory number AND the data month in its link text, so month → URL is a lookup, not a guess.
+🔑 **Validated before use: it reproduced all 7 independently-verified URLs.** ⚠️ **Two URLs differing by one character, one useless and one complete — a known-bad entry condemns a STRING, not a capability. When you mark a source bad, try its siblings before concluding the publisher does not serve the data.**
+
+### 🔴 STILL-TRUE NEGATIVES (now n=33, scoped to the statistics table)
+
+Verified across **thirty-three** advisories: **the fixed-schema statistics table contains no tonnage, no draft and no Gatun elevation.**
 - ❌ **TONNAGE** — no tons, no PC/UMS, nothing. A capacity series must be *derived* (transits × authorised draft), not read.
 - ❌ **DRAFT** — lives only in the draft-adjustment advisories, never in the monthly.
 - ❌ **GATUN ELEVATION** — the one "Gatun" hit in a monthly is a **lock-maintenance schedule**. A-29 says decisions are *"based on the current level of Gatun Lake"* and **prints no number.**
