@@ -283,3 +283,111 @@ SOURCES.md's known-bad JS-rendered index is `https://pancanal.com/en/advisories-
 - ✅ **No rate extrapolated without its driver** — the Lees Ferry deficit is stated as the driver alongside Mead's plateau.
 - ✅ **No git commit.**
 - ✅ **No new instrument name invented.**
+
+---
+---
+
+# ADDENDUM — 2026-08-21, follow-up ask from AEOLUS
+
+*Narrow ask, no new research. All figures below come from PDFs already open from the main pass, plus a live re-check of every URL. **Nothing graded.***
+
+## A · The exact URLs
+
+**All six re-checked live at 2026-08-22T01:48Z — every one HTTP 200.**
+
+| Advisory | Data month | URL | Re-check |
+|---|---|---|---|
+| **A-29-2026** *(the restriction)* | — | `https://pancanal.com/wp-content/uploads/2026/08/ADV-29-2026-Additional-Measures-to-Address-Reduced-Precipitation-in-the-Canal-Watershed.pdf` | **200**, 309,277 B |
+| **A-09-2026** | Mar 2026 | `https://pancanal.com/wp-content/uploads/2026/04/ADV-09-2026-Monthly-Canal-Operations-Summary-March-2026.pdf` | **200**, 511,204 B |
+| **A-14-2026** | Apr 2026 | `https://pancanal.com/wp-content/uploads/2026/04/ADV-14-2026-Monthly-Canal-Operations-Summary-April-2026-.pdf` | **200**, 425,217 B |
+| **A-19-2026** | May 2026 | `https://pancanal.com/wp-content/uploads/2026/06/ADV-19-2026-Monthly-Canal-Operations-Summary-May-2026.pdf` | **200**, 727,963 B |
+| **A-23-2026** | Jun 2026 | `https://pancanal.com/wp-content/uploads/2026/07/ADV-23-2026-Monthly-Canal-Operations-Summary-June-2026.pdf` | **200**, 695,992 B |
+| **A-26-2026** | Jul 2026 | `https://pancanal.com/wp-content/uploads/2026/08/ADV-26-2026-Monthly-Canal-Operations-Summary-July-2026.pdf` | **200**, 442,643 B |
+
+⚠️ **Slugs are NOT guessable and the upload-month folder does NOT track the data month** — A-14 (April data) sits under `/2026/04/` with a **trailing dash before `.pdf`**; A-19 (May data) sits under `/2026/06/`; A-23 (June data) under `/2026/07/`. My own attempts to construct A-29's and A-28's filenames before I had the list **all returned 404**. **These six strings are the artifact — copy them, never rebuild them.**
+
+**How they were located** (search does not surface A-29, as you found): the enumerating page `https://pancanal.com/en/maritime-services/advisory-to-shipping/` — HTTP 200, lists the complete current set **A-01-2026 → A-29-2026** with direct PDF URLs. **This is the `/en/maritime-services/…` path, NOT the known-bad `/en/advisories-to-shipping/`.** Still proposed-not-adopted pending your verification.
+
+**Retrieval command that worked (verbatim):**
+```bash
+curl -sL -A "Mozilla/5.0 (research)" "<url from the table above>" -o adv.pdf
+python3 -c "from pdfminer.high_level import extract_text; print(' '.join(extract_text('adv.pdf').split()))"
+```
+⚠️ These PDFs set a **no-text-extraction metadata flag**; pdfminer prints a warning and proceeds. **The warning is not a failure** — do not treat it as one.
+
+---
+
+## B · Follow-up 1 — TONNAGE: **NO. The instrument does not carry it.**
+
+**Checked all five monthly summaries. The §2 Traffic Statistics block contains exactly four measured rows and nothing else:**
+
+> **Arrivals · Oceangoing Transits · Canal Waters Time (hours) · In-Transit Time (hours)** — then Oceangoing Transits split by beam class, then Booking Slots.
+
+**There is no tonnage row, in any month.** Keyword count for `tonnage`: **0 in A-09, A-19, A-23, A-26.**
+
+**The one hit, in A-14, is not in the statistics table.** It sits inside an **appended news article** ("Panama Canal Meets Rising Demand"), and it is a **fiscal-half aggregate, not a monthly figure**:
+
+> *"During the first half of FY2026 (October 2025 through March 2026), the Panama Canal recorded 6,288 transits… Over the same period, **254 million PC/UMS (Panama Canal Universal Measurement System) tons** moved through the waterway, which translates to approximately 5% more than the **243 million tons** recorded in the same period of the prior fiscal year."*
+
+**Unit exactly as printed: `PC/UMS (Panama Canal Universal Measurement System) tons`.** Period: **FY2026 H1 = Oct 2025 – Mar 2026**, i.e. it does not even overlap four of your five months.
+
+### ⇒ Your diagnosis is right and this instrument cannot fix it
+
+**A draft cut reducing tonnage-per-transit while the transit COUNT is held flat is exactly the effect you named — and the Monthly Canal Operations Summary is structurally blind to it.** It measures **counts and times, never mass or volume.** So the blindness is not a gap in my pull; it is a property of the instrument.
+
+⚠️ **Two cautions before anything is built on PC/UMS tons, flagged not resolved:**
+1. **It is a measurement-system unit, not cargo weight.** The advisory expands the acronym and defines it no further. Whether PC/UMS responds to a *draft* cut the way cargo tonnage would is a real question, and **I am not the one to answer it.**
+2. **A half-year aggregate cannot be differenced into months.** Two published points (254M, 243M) one year apart are not a series.
+
+**I did not go looking for a tonnage source elsewhere** — per the hard limit. **Registering one is a `SOURCES.md` decision that is yours.**
+
+**Adjacent column you already have, offered because it costs nothing:** *Canal Waters Time* (hours) is in every block I pulled — **Mar 21.39 · Apr 32.33 · May 31.20 · Jun 23.80 · Jul 25.38**. It is a congestion/dwell measure, not a mass measure, so it does **not** close the tonnage gap. **Reported as available, not analysed.**
+
+---
+
+## C · Follow-up 2 — GATUN LAKE ELEVATION: **NOT THERE. Saying so plainly.**
+
+**Zero occurrences of `PLD` or `elevation` across all six advisories.** No feet, no metres, no datum, no figure.
+
+**A-29-2026 mentions Gatun Lake exactly once, and only qualitatively** — quoted in full:
+
+> *"Additionally, **based on the current level of Gatun Lake** and the latest weather projections, the ACP will postpone until September 2, 2026, the maximum authorized draft of 14.63 meters (48.0 feet) TFW in the Neopanamax Locks…"*
+
+**It invokes the lake level as the stated decision basis and prints no number.**
+
+You read my §7 correctly: **A-29's quantified hydrology is watershed INPUTS only** — May–Aug cumulative rainfall **34% below** the historical average, watershed inflows **44% below**. **Those are the flows into the reservoir, not the reservoir state.** The lake level is the variable ACP says it is deciding on, and it is the one variable it does not publish here.
+
+**No secondary substituted, none sought.** **A Gatun Lake level instrument remains UNREGISTERED in `SOURCES.md`** — logged as a gap for you, not filled by me.
+
+---
+
+## D · One correction to my own main-pass report, unprompted
+
+**In the main pass I reported April 38.70 as `ACP-ADV-14-2026` but I had CARRIED it from `SOURCES.md` — I did not re-pull that PDF.** It is now a genuine primary read this session, and it **confirms**:
+
+> Daily averages **40.5 arrivals / 38.70 oceangoing transits /** 32.33 h Canal Waters Time / 11.84 h in-transit; transits **high 42, low 31, total 1,161**; by class 6.37 / 22.07 / 10.27.
+
+Matches `SOURCES.md` exactly, including the arrivals-vs-transits adjacency. **All five monthly anchors are now primary-read.** Flagging it because a carried figure presented under a primary source tag is the defect I am supposed to catch, not commit.
+
+---
+
+## E · ⚠️ A concurrent-append collision in `workbook/LOG.tsv` — found and repaired
+
+**Your row `panama_draft_restriction_live` was written without a terminating newline.** My `>>` append therefore began **on the same line**, fusing your row and my first addendum row into a single 11-field line. A second artifact, an empty line, sat just above it.
+
+**Repaired — mechanically, content untouched:** the fused line was split at the exact `…\tAEOLUS` / `2026-08-21\t…` boundary and the empty line dropped. **`LOG.tsv` is now 37 rows, every one exactly 6 fields.**
+
+**Proof no content changed:** stripping all newlines and tabs from the before and after files yields **byte-identical** output — nothing added, removed or altered. Your row's text stands exactly as you wrote it. Pre-repair copy at `/tmp/LOG.precollision.tsv`.
+
+> **I repaired this because my own append created the fusion.** I did not otherwise touch your row. ⚠️ **Worth a durable note: this file is now written by both an orchestrator and a spawned worker in the same session, and a missing trailing newline silently corrupts the next appender's first row.** Both writes looked successful to their authors. **A field-count check catches it; nothing else in the closeout does.**
+
+---
+
+```
+addendum_observations_added:  +3 rows to workbook/LOG.tsv (34 -> 37, all 6-field)
+files_touched:                workbook/LOG.tsv, RUN_REPORT.md   (both inside AGENTS/AEOLUS/water/)
+graded:                       nothing
+sources_substituted:          none
+urls_that_404'd_on_recheck:   none — all six returned HTTP 200
+git:                          no commit
+```
