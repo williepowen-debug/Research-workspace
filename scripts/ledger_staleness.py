@@ -63,6 +63,20 @@ Fail-loud contract (PAT-074 — a PASS must say what it searched):
                             TERRY sat in this state for weeks reading as clean.
   note: ... unenforced    — no workbook/, no LEDGER_GLOB, top-level TSVs exist
                             (non-quiet only; owner's call whether to opt in)
+  perimeter [NAME]: ...   — the glob MATCHED, and TSVs still sit outside it
+                            (all modes, incl. --quiet; advisory, does NOT set rc).
+                            The three lines above only speak when the glob matches
+                            ZERO files, so an agent whose glob matched fine while
+                            load-bearing ledgers sat in SUBDIRECTORIES read as fully
+                            clean. This states the pass's PERIMETER: "not scanned" is
+                            a coverage fact, never a defect claim — whether a file
+                            belongs under enforcement stays the owner's call.
+                            Base-rated before wiring (2026-08-22, Will-approved):
+                            20 of 33 agents hold >=1, most often thesis/PREDICTIONS.tsv
+                            (7) and docket/CATALYSTS.tsv (10). Silent on the other 13.
+                            Skips archive/_archive/inbox/outbox/processed/sources/tests
+                            by declared choice (UNSCANNED_SKIP_DIRS) — a live ledger
+                            landing in one of those is invisible here BY THAT CHOICE.
 board_log.tsv is excluded from the outside-glob signature — it is the fleet-wide
 WALTER-consumption log, not a workbook ledger (would false-fire on ~15 agents).
 
@@ -375,6 +389,49 @@ def outside_glob_candidates(agent_dir):
         p for p in glob.glob(os.path.join(agent_dir, "*.tsv"))
         if os.path.basename(p) not in NON_LEDGER_NAMES and not is_exempt(p)
     )
+
+
+# Zones that hold no live ledger by fleet convention. DECLARED, not incidental: a
+# coverage line that lists archived and inbox TSVs trains its reader to ignore it,
+# which is the failure mode this line exists to avoid. tests/ holds this script's own
+# fixtures. ⚠️ If a live ledger ever lands in one of these it is invisible here BY THIS
+# CHOICE — written down so the next reader sees a decision rather than an oversight.
+UNSCANNED_SKIP_DIRS = ("archive", "_archive", "inbox", "outbox", "processed", "sources", "tests")
+
+
+def unscanned_outside_glob(agent_dir, matched):
+    """TSVs under agent_dir that this pass did NOT scan.
+
+    A COVERAGE statement, never a defect claim. "Not scanned" is a fact about this
+    pass's perimeter; whether a file BELONGS under staleness enforcement is the
+    owner's call and this function does not express an opinion on it.
+
+    Why it exists (PAT-074 — audit a check by what its PASS proves): the pre-existing
+    fail-loud contract above only speaks when the glob matches ZERO files. An agent
+    whose glob matches fine, while load-bearing ledgers sit in SUBDIRECTORIES, got a
+    clean report with nothing indicating anything went unexamined — so "all ledgers
+    ok" read as "this desk's records are current" while certifying only the matched set.
+
+    Measured fleet-wide 2026-08-22 before wiring (CHECK_STANDARD §12): 20 of 33 agents
+    hold at least one unscanned TSV, most commonly thesis/PREDICTIONS.tsv (7 desks) and
+    docket/CATALYSTS.tsv (10) — i.e. the prediction ledgers and dated-obligation
+    registries, fleet-wide, outside every staleness instrument and silently so.
+    Founding case: HOMER's boot ran this check, got rc=0 and eight green rows, and was
+    structurally incapable of seeing the two files that held a live 9-day-old spec
+    defect (DAEDALUS HOMER review, 2026-08-22; owner-confirmed at its own boot).
+    """
+    seen = {os.path.realpath(p) for p in matched}
+    out = []
+    for p in glob.glob(os.path.join(agent_dir, "**", "*.tsv"), recursive=True):
+        rel = os.path.relpath(p, agent_dir)
+        if any(d in UNSCANNED_SKIP_DIRS for d in rel.split(os.sep)[:-1]):
+            continue
+        if os.path.basename(p) in NON_LEDGER_NAMES or is_exempt(p):
+            continue
+        if os.path.realpath(p) in seen:
+            continue
+        out.append(rel)
+    return sorted(out)
 
 
 def report_unmatched(agent_dir, name, pats, decl, quiet):
@@ -695,6 +752,22 @@ def main():
             trade_unmatched.append(name)
             continue
         total_stale += report(name, status_t, rows, args.quiet)
+        # Perimeter line (2026-08-22, Will-approved): state what this pass did NOT
+        # examine. Prints under --quiet BY DESIGN — --quiet is exactly where the
+        # false-green lived (a boot step that printed nothing and meant "clean").
+        # Fires only when there IS something to say, so the 13 agents with no
+        # unscanned TSVs see no new output. Advisory: does NOT touch the rc contract,
+        # because "not scanned" is a coverage fact, not a finding.
+        if not args.trade:
+            matched_now = []
+            for gp in pats:
+                matched_now.extend(glob.glob(os.path.join(d, gp)))
+            unscanned = unscanned_outside_glob(d, matched_now)
+            if unscanned:
+                shown = ", ".join(unscanned[:4])
+                more = f" (+{len(unscanned) - 4} more)" if len(unscanned) > 4 else ""
+                print(f"  perimeter [{name}]: {len(rows)} ledger(s) scanned; "
+                      f"{len(unscanned)} TSV(s) NOT scanned by this pass: {shown}{more}")
     if args.trade:
         graded = len(dirs) - len(trade_unmatched)
         line = (f"trade perimeter: {graded} agent(s) with a matching trade surface graded; "
