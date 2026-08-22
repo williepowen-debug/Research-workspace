@@ -1,5 +1,5 @@
 {
- "built": "2026-08-22 15:56",
+ "built": "2026-08-22 19:35",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -8,7 +8,7 @@
   "Japan / carry": "watch",
   "Metals": "elev",
   "Rates": "crit",
-  "War theaters + housing": "elev"
+  "War theaters + tariffs + housing": "crit"
  },
  "docket": [
   "2026-08-07 Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14",
@@ -16,7 +16,6 @@
   "2026-08-18 HAWK war_monitor.py \u2014 feeds.reuters.com DEAD (live-verified ",
   "2026-08-20 BRENT discriminator forward checks (own-dated, registered fr",
   "2026-08-22 S6 STATUS two-state PILOT grades (WATT/HENRY/CARL, ~2wk from",
-  "2026-08-22 \ud83d\udd34 Section 338 pause EXPIRES \u2014 three-way branch: concluded de",
   "2026-08-23 FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRI",
   "2026-08-24 0-OPEN prediction books counted as an ungradeable-desk class",
   "2026-08-24 DEFERRAL \u2014 forum slate item 8 (coverage-gap commissioning: s",
@@ -48,11 +47,13 @@
   "2026-09-01 Russia diesel producer-direct carve-out takes effect (OSP-02",
   "2026-09-01 Xi -> Washington White House summit with Trump (exact date u",
   "2026-09-03 SAM full JGB curve-attribution grade on the 30Y JGB auction ",
+  "2026-09-04 \ud83d\udd34 DATED KILL \u2014 $160B+ 2026 MF maturity wall RETIRES if CREED",
   "2026-09-05 CRUISE arm-CCL ladder disposition RECONSIDER-BY (row-55 ruli",
   "2026-09-06 OPEC+ meeting \u2014 the Q4-2026 quota decision (the ACTUAL Q4 de",
   "2026-09-07 CRMT / Silver Point covenant-relief waiver EXPIRES (date har",
   "2026-09-07 FORUM-6 deferral R10: scan_report scope-stating instrument \u2014",
   "2026-09-07 Forum falsifiers grade day \u2460: ABN (re-run the fires-now list",
+  "2026-09-08 \ud83d\udd34 CANADIAN COUNTER-TARIFFS take effect \u2014 \"dollar for dollar\"",
   "2026-09-11 August CPI (Fri 9/11, 08:30 ET \u2014 DATE VERIFIED, was carried "
  ],
  "fleet": {
@@ -119,19 +120,19 @@
   "GATE-VIO-RV1": "live:LIVE"
  },
  "levels": {
-  "10Y Yield": 4.65,
+  "10Y Yield": 4.69,
   "CCC OAS": 1035.0,
   "Cushing": 21.25,
-  "HY OAS": 273.0,
+  "HY OAS": 275.0,
   "Init Claims": 206000.0,
-  "MOVE": 73.18,
-  "OZK": 49.64,
+  "MOVE": 73.4,
+  "OZK": 49.42,
   "SOFR-IORB": -0.02,
-  "USD/JPY": 158.89,
-  "VIX": 15.49,
-  "WAL": 79.8
+  "USD/JPY": 158.94,
+  "VIX": 15.13,
+  "WAL": 79.67
  },
- "one": "the regime question sharpened from \"which frame is right\" to \"the long end is breaking in four sovereigns at once \u2014 and whose story is that?\" US 30Y at a series high, JGB 10Y highest since 1996, AU 10Y through 5%, EA moving \u2014 while disinflation buys zero relief and Treasury slides an official $4bn-per-op bid under the long end starting 9/9 (liquidity-support on the letter, not YCC \u2014 flips registered). BOND's cross-section says common DIRECTION, not common magnitude (common component \u2264~4bp at the 10Y), so the sovereign-specific stories still carry most of the move. Meanwhile the desk's dead frames were replaced honestly rather than patched: SAM built a GATED successor candidate (\"flow sets the level, positioning sets the volatility\" \u2014 promotion blocked on BIS sizing), CREED's first-ever trigger fired (CMBS maturity-default wave, recognition not transmission), and regionals are repricing on a mechanism nobody has named \u2014 10/10 names down since 8/14, rates channel eliminated, credit NOT confirming. The book's biggest rail (004, TLT puts) finally has the tape moving its way, and the vol-rescue route is dead \u2014 it pays via the bond selloff or not at all. $0 moved; zero thresholds moved by PROME.",
+ "one": "the long end is breaking in four sovereigns at once and disinflation buys no relief \u2014 but the week ended with every one of the board's near triggers still un-fired, and two of them verified un-fired at the close rather than assumed. WAL closed $79.67, $1.67 above the one-close bank trigger; DGS10 printed 4.69 official, leaving TERRY's duration exit at 0-of-5. Credit crept 2bp closer to its re-arm without confirming anything. Meanwhile the week's real event landed on a Saturday at 12:01 a.m., unobserved: the Section 338 Canada tariff went live by default, because a deal and an extension each needed a signature and going live needed nothing. Canada suspends talks and retaliates Tue 9/8. The book did not move: $0, zero thresholds touched by PROME.",
  "pending": [
   "BRENT 135C \u00d72 [his window]",
   "broker export [anytime]",

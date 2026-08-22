@@ -3,14 +3,14 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **The Sunday sitting already ran** [you pulled it to Saturday 8/22 — all five heavy items executed, tested, and verified the same day; Sunday holds only optional light residue]. **No words are owed anywhere this weekend** [Saturday's five rulings all executed same-hour].
-- **The tariff-pause outcome is UNREAD** [it expired Saturday 8/22 — a genuine three-way branch, two of three ways cut against the boycott-hardening read; the war and Florida desks verify at a primary at their next windows, and nothing carries an outcome until they do].
-- **The vocabulary + registry work is DONE and law** [8/22]: the fleet's trigger registry now names where every gate's canonical wording lives and carries owner-dischargeable review clocks; the delivered/read/encoded/verified ladder is minted; five provisional clocks await desk confirms at their next touches.
-- **Monday 8/24 is the loaded day — seven independent reads land**, one comes back needing your ONE word before 8/28 [the bond-test concurrence], the FDIC banking-report window opens [its desk needs spawning], and the labor desk has two overdue items.
+- **⛔ THE CANADA TARIFF IS LIVE** [+50% duties took effect 12:01 a.m. ET Sat 8/22 — verified at the Federal Register by three desks independently]. **It went live by DEFAULT: a deal and an extension each needed a signature, and going live needed nothing.** The document is titled "Temporary Suspension" and reads like a pause — that reading is backwards; the suspension was a three-day date move that has expired. **Canada suspended talks 8/21 and retaliates Tue 9/8 on ~$28B.**
+- **TWO words are now owed by you before Fri 8/28** [registered 8/22 evening as a ledger repair — they were live earlier and had been carried on a pointer view, not the live list]: the bond-test conjunctive clause [after the funding desk concurs ~Monday] and the bond desk's frozen-text repairs [one clause its own owner still marks 🔴 open]. Present together, one sitting.
+- **The Sunday sitting already ran** [you pulled it to Saturday 8/22 — all five heavy items executed, tested, and verified the same day; Sunday holds only optional light residue].
+- **Monday 8/24 is the loaded day — seven independent reads land**, the FDIC banking-report window opens [its desk needs spawning], and the labor desk has two overdue items — including a wrong Jackson Hole date it keeps alarming on, and Jackson Hole is **this week** [8/27-29].
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **HAWK / MARCO** · first window · Saturday's tariff-pause outcome is the fleet's only dark market item — verify at a primary
+- **HAWK / MARCO** · Monday · tariff outcome RESOLVED 8/22 [both verified at primaries independently]; the open work is aftermath + the 9/8 retaliation, and line-level scope is established by nobody
 - **SAM** · soon · positioning data + Japan CPI grading touch owed since Friday
 - **MIDAS** · soon · gold positioning touch + five ruling-encodes waiting in its inbox
 - **CREED** · 8/24–29 window · the FDIC banking report is its first trade-relevant trigger and it only exists when spawned

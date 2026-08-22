@@ -46,6 +46,13 @@ def build_synthetic(root: Path):
     rows.append(f"| 79 | Undated aging item | ACTION | none | {old.month}/{old.day} | — | notes |")
     rows.append(f"| 33 | ✅ RESOLVED closed-in-place item | ACTION | none | {recent} | — | notes |")
     rows.append(f"| 34 | Blocked item ⛔ waiting on row 78 | ACTION | none | {recent} | — | notes |")
+    # Row 35: ⛔ as the ordinary caveat/prohibition glyph, NOT a wait declaration.
+    # This row IS Will-actionable and must count. Added 8/22 after both parsers
+    # were found keying `blocked` on the bare glyph — they AGREED, so this test
+    # passed clean while the live Helm demoted a dated RULE row (73, due 8/28) to
+    # "in flight" and told Will 0 words were owed. Agreement is not correctness;
+    # the guard needed a case that discriminates the rule, not just the pair.
+    rows.append(f"| 35 | Caveat item ⛔ do not pre-empt the owner | DECISION | none | {recent} | — | notes |")
     text = (
         f"# WILL_QUEUE (synthetic — selftest)\n**Last reconciled:** {today.isoformat()}\n\n"
         "## OPEN\n| # | Item | Type | Needed by | Since | PROME rec | Notes |\n"
@@ -82,20 +89,23 @@ def main():
             if not cond:
                 fails.append(name)
 
-        check(f"1 count agreement (gate={gate_count} brief={brief_count} expect 21)",
-              gate_count == 21 and brief_count == 21)
+        check(f"1 count agreement (gate={gate_count} brief={brief_count} expect 22)",
+              gate_count == 22 and brief_count == 22)
         check("2 lettered 32b visible to brief", "32b" in ids)
         check("3a misfiled #33 invisible to brief", "33" not in ids)
         check("3b misfiled #33 flagged by gate", "MISFILED #33" in detail)
         check("4 blocked #34 visible to brief, blocked=True",
               any(r["n"] == "34" and r["blocked"] for r in vis))
+        check("4b caveat-glyph #35 visible to brief and NOT blocked",
+              any(r["n"] == "35" and not r["blocked"] for r in vis))
         check("5a aging #79 flagged by gate", "AGING #79" in detail)
         check("5b aging #79 visible to brief", "79" in ids)
 
     if fails:
         print("QUEUE-PARSER SELFTEST ✗ " + " · ".join(fails))
         return 1
-    print("QUEUE-PARSER SELFTEST ✓ gate and brief agree on the synthetic row set (21/21)")
+    print(f"QUEUE-PARSER SELFTEST ✓ gate and brief agree on the synthetic row set "
+          f"({gate_count}/{brief_count})")
     return 0
 
 
