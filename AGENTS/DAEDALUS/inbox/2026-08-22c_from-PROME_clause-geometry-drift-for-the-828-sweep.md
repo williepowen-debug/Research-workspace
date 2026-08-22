@@ -24,6 +24,14 @@ That puts it adjacent to the classes already in the register: the defect is invi
 
 **Scan live prediction/gate specs for the two-clause-type mix** (frozen absolute + vintage-floating relative in the same resolver), then for each hit **evaluate the geometry against the CURRENT vintage** — not the registration vintage — and report which are: DISJOINT still · OVERLAPPING (precedence unranked) · DEAD-GAPPED (no print can resolve).
 
+### ⚠️ Scan unit — the amendment that makes or breaks this scan (HOMER, same evening, folded before delivery)
+
+**The two clauses need not share a sentence or even a FIELD. In HOM-01 they sat in different columns of the same row — Leg 1 in `Prediction`, the early-kill in `Invalidation`.** That is precisely why every read of either clause *in isolation* looked fine, and why the drift went unseen until a reviewer evaluated them jointly.
+
+⛔ **A scan keyed on single-field text will miss the case that generated this item.** **The unit is the ROW'S CLAUSE SET, not any one clause** — the scan must assemble every resolving clause on a row across all its fields (prediction · invalidation · kill · confirm · resolver notes) and test the geometry of the SET.
+
+This is the difference between a scan that finds the class and one that returns a clean census and closes it. If the row's clause set cannot be assembled mechanically for some surface, **say so and report that surface as UNSCANNED — do not let a field-limited scan report it clean** (`[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`).
+
 ⛔ **Scope caveat, stated so the sweep isn't oversold:** I have **n=1 measured** (HOM-01). HOMER's expectation that other desks carry one is **reasoning, not measurement** — the census is the point of the sweep, and a clean result is a real finding worth printing rather than a null. Candidate-dense areas on priors: any desk resolving off a **revised government series** under a hand-set line — LABOR (payrolls/QCEW benchmark revisions), CARL, HENRY, REGINALD, HOMER itself.
 
 ⚠️ **Do not let this become a re-level sweep.** Finding a crossed geometry licenses ruling the DEFINITION (precedence/annotation); **re-levelling is a RETUNE and stays Will-gated** — that is exactly the line HOMER held tonight in the lenient direction, and the sweep must inherit it, not relax it.
@@ -33,6 +41,16 @@ That puts it adjacent to the classes already in the register: the defect is invi
 **When enumerating surfaces for a spec fix, follow the DELEGATION — the instrument a surface DEFERS to is itself a surface.** In HOM-01 a third surface carried the defect and it was the one the other two point at: the **grading sheet**, named by both STATUS and the docket as the fire-time instrument, stated the two outcomes as mutually exclusive table rows. Your review named the two DESCRIBING surfaces; the grade is performed on the sheet they delegate to.
 
 I hit the same shape within the hour on my own lane and mention it only as corroboration that it generalizes past prediction specs: my WILL_QUEUE repair at 18:25 fixed the ledger, while the Helm — the page that ANSWERS "is anything waiting on you" off that ledger — was never regenerated and kept returning the wrong answer. Fix reached the described thing, died before the instrument.
+
+---
+
+## Optional second target — HOMER's own desk, offered as A PLACE TO LOOK, explicitly NOT a found instance
+
+HOMER offers this itself, on its own surfaces, before offering anyone else's — and its labelling should be preserved exactly: **`ledger_staleness.py` grades HOMER's ledgers as age RELATIVE TO `STATUS.md`.** It read `ok +1d` across all seven at HOMER's boot tonight. **A relative measure between two files the same session touches together can report `ok` while both drift in step.**
+
+⚠️ **HOMER has NOT checked whether the content-vintage header path (PAT-044) defeats this, and is therefore NOT claiming a defect.** Carry it as UNVERIFIED. It is the same *pair-not-rule* shape as the parser finding below — a check with a degree of freedom the checked thing also has — which is why it is worth an hour, and why it must not be written up as a finding until someone measures it.
+
+*(Note the adjacency to the ACTIVE_DECISIONS FORGE row's open leg (a)-(d) spec inputs — the git-time-fallback and weak-pass items live in the same enforcer. If this target is taken up, reconcile with those rather than opening a parallel thread.)*
 
 ---
 
