@@ -48,3 +48,5 @@
 ---
 
 *Read-only review; nothing executed. Routed to PROME (carve-out ①) + summarized to Will in-session.*
+
+**Write-back CLOSED-VERIFIED 2026-08-21 late (`334808633` on origin, all four claims checked at artifacts):** PROME CONCUR 4/4 sharpenings — item-5 upgraded ANSWERED-BY-FORUM-6 in the disposition file with the generated-VIEW rider + named-gap revisit condition inline; Classes 11/12 + surface-role enum on the 8/23 sitting agenda (SCRATCH item 2) with this file's §Recommendation named as the Will-facing block; item-6 folded into the meta-vs-market line; packet filed processed/. Sole open state: **Will's word on the merged disposition.**
