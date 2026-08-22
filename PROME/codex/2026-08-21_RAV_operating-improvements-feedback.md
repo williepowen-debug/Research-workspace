@@ -149,4 +149,26 @@ If PROME only does the first three, the system gets materially safer. The rest i
 - **Amended safety ranking:** 3, 4, 10 = safety items · 1 = legibility · 5 = the one that could hurt if built as specified.
 - **Proposed venue:** Sunday 8/23 sitting (dovetails the vocabulary one-cloth block). CHECK_STANDARD + STATE_VOCABULARY are DAEDALUS-owned; fleet law is Will-gated — nothing here is PROME-unilateral.
 
+---
+
+## ★ RULED — Will, 2026-08-21 23:30 ET, in-session
+
+**Verbatim word: "ok go ahead"** — given on PROME's recommendation message, whose operative sentence was: *"rule it approved with the two explicit declines, venue Sunday's sitting."* The ruling therefore approves the MERGED package (PROME disposition + DAEDALUS's four sharpenings) as follows:
+
+**APPROVED:**
+1. **STATE_VOCABULARY Class 11** (consumption-ladder: created→routed→landed→read→owner-encoded→answered→closed, likely ~5 states; census-first; MUST carry a declared-exempt token for pull-complete recipients) + **Class 12** (verification-basis — RAV items 2+8 merged) + **surface-role enum** (canonical/derived/scratch/historical/archive, RAV item 1's labels). Minting executes at the **8/23 sitting, subject to the census** — per the ruling's own caution, a near-zero-instance state does NOT get minted; "don't mint" survives as a sitting answer. DAEDALUS drafts (its surface), Will-gated encode.
+2. **CHECK_STANDARD §2 one-sentence amend** — every checker's output contract names what a PASS does NOT prove (env_doctor perimeter line = exemplar). DAEDALUS lane; forward-mandatory, backfill at natural touch.
+3. **Fixture standard** (RAV item 10 reframed): CHECK_STANDARD fixture section (would-have-caught + known-positive-control forms) + CHECKS.tsv index column; fixtures live WITH their checks. **Post-8/28**, DAEDALUS lane; seed = 8/28 ⑰ output + RAV's 7 examples.
+4. **Item 11 derived banner** on HEARTBEAT/Helm — at next natural touch (HEARTBEAT commit stays Will-gated as always).
+5. **Item 6's question list** folds into the 8/23 sitting's meta-vs-market line — no new cadence.
+6. **Items 7 / 9 / 12 affirmed already-law** (item-9 tokens fold into the ⚖️/glyph register; item-12 carries our banner-needs-rewrite-trigger addendum).
+
+**DECLINED EXPLICITLY (on the record so they don't resurface):**
+7. **Item 5 correction/refutation ledger as specified** — ANSWERED-BY-FORUM-6 (index-not-store; Class 10 + CORRECTION_FORM landed 8/21 post-RAV-snapshot). Rider stands: if Will ever wants one place to SEE corrections, it is a generated VIEW over owner surfaces; revisit only on a named gap the forum's mechanisms don't cover.
+8. **Item 1 as a hand-maintained map** — the NEED is adopted (PAT-124: 5-of-12 already-law = canon-discoverability gap) but only in GENERATED form (render_directory model, labels canonical at surfaces). A hand-written authority map is pre-declined.
+
+**Execution train:** 8/23 sitting (Classes 11/12 + enum census + drafts · item-6 fold) → §2 one-liner (DAEDALUS, its window) → post-8/28 fixture standard → banner at next HEARTBEAT touch. Nothing else minted. RAV-facing response = pointers to this file (available for Will to relay on request).
+
+---
+
 **DAEDALUS review DELIVERED 8/21 late (`AGENTS/DAEDALUS/upgrades/RAV_FEEDBACK_REVIEW_2026-08-21.md`, commit `bb315c197`) — high agreement; PROME CONCURS with its four sharpenings, which now ride this disposition to Will:** ① item 4 = one-sentence CHECK_STANDARD §2 amend (not a new section — §2 already carries the perimeter half) · ② item 5 upgraded to ANSWERED-BY-FORUM-6 (see amended line above) · ③ item 10 reframed: fixture PRACTICE exists n≥4; the build = a CHECK_STANDARD fixture-standard section + CHECKS.tsv index, fixtures living WITH their checks (a central 15–25 store would be PAT-071), post-8/28 · ④ vocabulary lands as EXACTLY Classes 11 (consumption-ladder, census-first, declared-exempt token) + 12 (verification-basis) + the surface-role enum, all in the 8/23 one-cloth block; item-9 tokens fold into the ⚖️/glyph register. PAT-124 minted (already-law fraction 5-of-12 = canon-discoverability metric → item 1's map must be GENERATED, labels canonical at surfaces). Sitting agenda updated (SCRATCH item 2) same commit.
