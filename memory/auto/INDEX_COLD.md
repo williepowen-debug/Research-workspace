@@ -236,7 +236,6 @@
 - finding_dead_path_regrows_unless_senders_repointed
 - finding_premise_residue_survives_date_fix
 - finding_followup_audit_pass
-- finding_mechanize_the_cap_not_the_ritual — a deferrable cap wants a boot check, not a remembered ritual
 - feedback_audit_behavioral_ranking
 - finding_doc_mirror_consistency_check
 - finding_documented_divergence_as_discipline
@@ -245,7 +244,6 @@
 - finding_passive_surface_rot_push_not_dashboard
 - finding_roster_change_propagates_to_all_surfaces
 - finding_reconcile_match_on_key_not_substring
-- finding_test_the_guard_not_just_the_guarded — a guard's own v1 fails on first RUN
 - finding_owned_surface_without_a_ledger_destroys_history — ownership ≠ retention
 - finding_proposed_rule_must_be_canon_tested — canon-test a NEW rule before downstream is written against it; off-repo plans escape canon_check by construction
 - finding_ownership_claim_is_last_to_move — when the canonical OWNER moves, the docs saying who owns it go stale and defend themselves with the ruling that made them right
