@@ -125,3 +125,13 @@ PROME rec: approve all four. The file is past the Read cap today — every boot 
 | Kharg rider | state cell synced, full form carried: "RETIRED 2026-08-20 on instrument grounds, premise NOT refuted" |
 | Wiring | CLOSEOUT Chunk 1 flow-rule bullet (incl. revisit trigger + budget derivation) · ACTIVE_DECISIONS Rules gained the row-weight bullet · header carries rule + standing archive pointer |
 | DOCKET | 2026-08-22 design-pass row → RESOLVED(EXECUTED) with byte counts |
+
+---
+
+## 9. POST-TEST RECOMMENDATIONS — RULED (Will, 2026-08-22 ~11:47 EDT, verbatim: "ok approve both to your recs") + EXECUTED same hour
+| Rec | Ruling | Execution |
+|---|---|---|
+| 1. Instrument the revisit trigger — advisory byte-meter in prome_gate (boot + closeout) for STATUS/ACTIVE_DECISIONS/MEMORY; the >100%-at-boot scripted-check trigger becomes self-detecting | APPROVED | `check_byte_budgets()` added to `PROME/tools/prome_gate.py`, wired into mode_boot + mode_closeout; MEMORY cap read from `scripts/harness_caps.env` (shared-caps discipline); measures via st_size ≡ `wc -c` (the rule's own instrument — the §1 unit lesson encoded) |
+| 2. Blind cold-reader verification standard for rotation passes + HEARTBEAT re-bases | APPROVED | CLOSEOUT Chunk 1 bullet (single home) + HEARTBEAT §Cadence pointer clause (Will-word-covered shared-file edit, flagged in commit) |
+| 3. GATES/DOCKET byte-budget question | No ruling asked | Folded into the 8/23 sitting's GATES column pass agenda (SCRATCH item 2) |
+Declared non-changes stand: no scripting the flow rule pre-trigger · no guard-bytes for STATUS/MEMORY (no guards in their rotated content classes) · no fleet broadcast.

@@ -493,6 +493,46 @@ def check_desk_catalyst_summons():
 
 # ----------------------------------------------------------------------- modes
 
+def check_byte_budgets():
+    """ADVISORY byte-meter for the byte-governed boot surfaces (Will-approved
+    2026-08-22, rec-1 of the ACTIVE_DECISIONS design pass): instruments the flow
+    rules' own triggers so >=75% (rotation due at closeout) and the
+    ACTIVE_DECISIONS >100%-at-boot scripted-check revisit trigger are
+    SELF-DETECTING instead of prose-dependent — PAT-055 (closeout-willpower
+    decay) applies to a prose trigger exactly as it does to the prose rule it
+    guards. Enforcement stays closeout-side (CLOSEOUT Chunk 1); this row only
+    measures. st_size == wc -c (true bytes — the rule's own instrument; the 8/22
+    pass's diagnosis mislabeled char counts as bytes, so: same instrument, always)."""
+    budgets = [("PROME/STATUS.md", 51200), ("PROME/ACTIVE_DECISIONS.md", 51200)]
+    caps = ROOT / "scripts/harness_caps.env"   # shared caps file — the two memory
+    if caps.exists():                          # guards must never disagree (8/14)
+        for line in caps.read_text(encoding="utf-8").splitlines():
+            if line.startswith("MEMORY_HARNESS_CAP_BYTES="):
+                budgets.append(("memory/auto/MEMORY.md",
+                                int(line.split("=", 1)[1].strip().strip('"'))))
+                break
+    parts, worst, ad_fired = [], 0, False
+    for rel, budget in budgets:
+        p = ROOT / rel
+        if not p.exists():
+            parts.append(f"{rel.rsplit('/', 1)[-1]} MISSING")
+            worst = max(worst, 101)
+            continue
+        pct = p.stat().st_size * 100 // budget
+        worst = max(worst, pct)
+        parts.append(f"{rel.rsplit('/', 1)[-1]} {pct}%")
+        if rel.endswith("ACTIVE_DECISIONS.md") and pct >= 100:
+            ad_fired = True
+    detail = " · ".join(parts)
+    if ad_fired:
+        detail += (" — ⚠️ ACTIVE_DECISIONS ≥100%: the 8/22 scripted-check revisit "
+                   "trigger has FIRED — build the rc-keyed check, no re-litigation")
+    elif worst >= 75:
+        detail += " — ≥75%: rotation due at this closeout per the flow rules"
+    record(ADVISE, "byte budgets (flow-rule meter)", worst < 75, detail,
+           "PROME/CLOSEOUT.md Chunk 1 flow rules · MEMORY flow rule 8/12")
+
+
 def mode_boot():
     run_script(BLOCK, "env_doctor", [sys.executable, "scripts/env_doctor.py", "--quiet"],
                "PROME/MACHINE_LOCAL.md")
@@ -516,6 +556,7 @@ def mode_boot():
     check_dashboard_state()
     check_symmetry()
     check_desk_catalyst_summons()
+    check_byte_budgets()
 
 
 def mode_closeout():
@@ -528,6 +569,7 @@ def mode_closeout():
     check_will_queue()
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
+    check_byte_budgets()       # flow-rule meter: >=75% here means rotate NOW, in this closeout
     run_script(ADVISE, "orphan_check (advisory by design)", ["bash", "scripts/orphan_check.sh", "PROME"],
                "[likely YOURS] = commit per carve-out ① · [not yours] = flag, never sweep")
     record(ADVISE, "MANUAL: memory_index_check", True,
