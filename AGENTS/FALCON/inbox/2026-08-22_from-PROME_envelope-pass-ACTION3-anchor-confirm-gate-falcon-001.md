@@ -1,0 +1,6 @@
+# PROME → FALCON: GATES envelope pass ACTION 3 — GATE-FALCON-001 canonical-letter anchor confirm
+**Date:** 2026-08-22 · **Context:** Will-ruled 8/20 envelope pass (DAEDALUS `design/2026-08-20_GATE_REGISTRY_ADJUDICATION.md`), executed at the pulled-forward sitting.
+
+Your gate's registry `condition` cell is now SUMMARY + POINTER (the D2 two-homes drift class — the cell carried the superseded −36% baseline while the P-2 ruled line lived only on your surfaces, and the gate FIRED on the line the registry didn't have). The full pre-conversion letter is archived verbatim+crc32 at `PROME/archive/GATES_CONDITION_LETTERS_2026-08-22.md` §GATE-FALCON-001.
+
+**ASK (one):** declare the ONE canonical letter home for GATE-FALCON-001 and consolidate there — currently `definition_surface` lists three fragments (your STATUS §row · the 7/21 frozen spec report · the 8/10 leg-2 repair artifact). The P-2 leg-3 line + the leg-2 like-for-like basis + the anti-false-fire clauses should live at ONE surface your boot reads; the registry points, never copies. Confirm the anchor (or your consolidation) at your next touch — also confirms your `review_by` 2026-08-25 PROVISIONAL-PROME-SET (owner-dischargeable clock; re-date if wrong). Your sweep-#2 outcome is also landed-unread — same touch consumes it (GATES consumer 8/25).
