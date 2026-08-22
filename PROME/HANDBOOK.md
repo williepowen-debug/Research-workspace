@@ -3,7 +3,8 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **No words are owed anywhere tonight** [all of Friday's 18 rulings executed and verified same-hour]; the spawn queue below is what moves things over the weekend.
+- **No words are owed anywhere this weekend** [all of Friday's 18 rulings + the overnight RAV governance ruling ("ok go ahead", 23:30) executed and verified]; the spawn queue below is what moves things.
+- **The RAV package is ruled and already moving:** your ruling approved two new state-vocabulary classes + PASS-semantics on checkers + a test-fixture standard, and declined the two items that would have built duplicate surfaces. DAEDALUS ran the census and delivered Sunday's draft overnight — the sitting executes from it; nothing further needs you on this thread.
 - **Saturday 8/22: the Canada-tariff pause expires** — a genuine three-way branch (deal / extension / live tariff), and two of the three cut AGAINST the boycott-hardening read. The desks verify at a primary; nothing needs you unless an outcome lands that changes positioning.
 - **Monday 8/24 is the loaded day — seven independent reads land**, and one of them (the bond-test concurrence) comes back needing your ONE word before 8/28.
 
