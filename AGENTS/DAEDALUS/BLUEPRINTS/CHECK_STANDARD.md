@@ -26,6 +26,8 @@ Every standing check with recurring known-benign flags gets a register file (the
 
 `✓ CLEAN` over an unstated scope certifies nothing (finding_verification_zero_is_ambiguous; SAM's PyYAML outage printed CLEAN on a box where DM v1 could not run — ruled 8/7). Output names what was checked AND the known not-checked ("checked: market-data deps, 6 keys · NOT checked: messaging, agent-local"). A null result states what it searched.
 
+**And the clean line names what a PASS does NOT prove beyond that perimeter** — owner consumption, external truth, thesis freshness, whatever axis the check cannot see (e.g. "PASS: no stale token in checked files — proves nothing about owner consumption or external truth"). This is PAT-074's "what its PASS proves" cell moved from the CHECKS.tsv registry into the output contract itself, so the reader who never opens the registry still can't over-read a green line — the ⑰ leg-4 discharged-by-assertion defense. Forward-mandatory for new checks; backfill important existing ones at natural touch. *(Amended 2026-08-22 — Will-ruled 8/21 23:30 verbatim "ok go ahead" on the merged RAV package, record `PROME/codex/2026-08-21_RAV_operating-improvements-feedback.md` §RULED `74139856e`; RAV item 4 + DAEDALUS sharpening ①: amend-not-new-section. env_doctor's checked/NOT-checked perimeter line = existing exemplar.)*
+
 ## 3. No guard ships unverified (PAT-074, adopted 8/3)
 
 Before a check leaves the author's desk: **(a)** its intended flag line was *watched printing* on a real capable case, and **(b)** its clean line was watched on a clean case. `py_compile` and `rc=0` are not evidence. Four instances in five days of guards certifying health they never checked preceded this rule; first use caught the fifth.
