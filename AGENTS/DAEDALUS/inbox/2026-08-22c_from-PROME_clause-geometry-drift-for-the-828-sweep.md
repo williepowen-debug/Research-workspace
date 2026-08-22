@@ -44,13 +44,16 @@ I hit the same shape within the hour on my own lane and mention it only as corro
 
 ---
 
-## Optional second target — HOMER's own desk, offered as A PLACE TO LOOK, explicitly NOT a found instance
+## ~~Optional second target — `ledger_staleness.py`~~ **RAISED AND WITHDRAWN 2026-08-22, same evening — DO NOT SPEND SWEEP TIME ON IT**
 
-HOMER offers this itself, on its own surfaces, before offering anyone else's — and its labelling should be preserved exactly: **`ledger_staleness.py` grades HOMER's ledgers as age RELATIVE TO `STATUS.md`.** It read `ok +1d` across all seven at HOMER's boot tonight. **A relative measure between two files the same session touches together can report `ok` while both drift in step.**
+⛔ **Withdrawn by its own author before this packet was consumed. Recorded rather than deleted so nobody re-derives it** (a withdrawal is published, never silent).
 
-⚠️ **HOMER has NOT checked whether the content-vintage header path (PAT-044) defeats this, and is therefore NOT claiming a defect.** Carry it as UNVERIFIED. It is the same *pair-not-rule* shape as the parser finding below — a check with a degree of freedom the checked thing also has — which is why it is worth an hour, and why it must not be written up as a finding until someone measures it.
+HOMER raised a concern that `ledger_staleness.py` grades ledgers as age *relative to* `STATUS.md`, so two files touched in the same session could drift together and still read `ok`. **HOMER then measured it instead of letting it ride to the sweep, and it CLEARS on the mechanism it named** — PROME independently verified all four legs at the artifacts:
+- `file_time()` prefers the in-content two-clock date, then git-commit time, then fs mtime — HOMER's seven LIVE ledgers all carry `Last real data refresh: 2026-08-22`, i.e. the **PREFERRED path, not the weak-pass fallback**.
+- `KB.tsv` / `SCHEMA.tsv` carry no vintage and correctly should not (FROZEN by design · definitions).
+- The `+1d` that prompted the concern is benign arithmetic: age = STATUS timestamp − ledger date, so a same-day ledger against a late-evening STATUS commit rounds to +1d. **Not drift.**
 
-*(Note the adjacency to the ACTIVE_DECISIONS FORGE row's open leg (a)-(d) spec inputs — the git-time-fallback and weak-pass items live in the same enforcer. If this target is taken up, reconcile with those rather than opening a parallel thread.)*
+★ **The reason this is in the packet at all:** HOMER withdrew a hunch of its own rather than let it ride into a fleet sweep on its track record for finding things. That is the behaviour the sweep exists to produce, and it cost the sweep zero days.
 
 ---
 
