@@ -217,6 +217,43 @@ By class: 6.37 (<91′ beam) · 22.07 (91-107′) · 10.27 (Neopanamax). Booking
 ⚠️ **NO SECONDARY SUBSTITUTED, deliberately.** Reference points for whoever closes this: Gatun normal operating range is roughly **82–87 ft PLD**; ACP measures via telemetry buoys at 4 lake locations every 15 min and the data reportedly reach an **AQUARIUS web portal** — **that portal is the lead to chase, unverified by me.**
 🔑 **When it is instrumented, add a LAKE-ELEVATION row to the CLAUDE.md threshold table.** The Panama band should key on the driver, not only on transits.
 
+### ✅ PANAMA — VERIFIED URLs AND THE PATTERN (2026-08-21)
+
+**All returned HTTP 200 this session. Use `curl -sLk` with a browser UA** (the `-k` matters on some ACP hosts) **then pdfminer.** PDFs carry a no-extract metadata flag; pdfminer warns and proceeds.
+
+| Advisory | Content | URL tail (prefix `https://pancanal.com/wp-content/uploads/`) |
+|---|---|---|
+| **A-29-2026** | 🔴 **Slot cap + draft postponement** (8/20) | `2026/08/ADV-29-2026-Additional-Measures-to-Address-Reduced-Precipitation-in-the-Canal-Watershed.pdf` |
+| A-22-2026 | Draft adjustment (7/01) | `2026/04/ADV-22-2026-Draft-adjustment-in-the-Neopanamax-Locks.pdf` |
+| A-09 / A-14 / A-19 / A-23 / A-26 -2026 | Monthly Ops Summary Mar–Jul 2026 | `2026/04/…March-2026.pdf` · `2026/04/…April-2026-.pdf` · `2026/06/…May-2026.pdf` · `2026/07/…June-2026.pdf` · `2026/08/…July-2026.pdf` |
+| A-01-2026 · A-30-2025 · A-04-2025 · A-01-2025 · A-38-2024 · A-21-2024 | Monthly Ops Summary, archive back to Jun-2024 | *(all reachable; discover by search)* |
+
+🔑 **PATTERN:** the `/uploads/YYYY/MM/` segment tracks roughly the **publication** month (data month **+1**), **not** the data month — a June-2026 summary sits under `2026/07`. Advisory numbers run ~4–5/month and **hyphenation is inconsistent** (`ADV21-2024` vs `ADV-04-2025`).
+⚠️ **DISCOVER BY SEARCH, NEVER CONSTRUCT.** Every URL I built by pattern 404'd. The pattern is for *recognising* a URL, not generating one.
+
+### 🔴 THREE THINGS THE MONTHLY OPS SUMMARY DOES **NOT** CONTAIN — checked, do not re-hunt per-month
+
+Verified across **eight** advisories (six 2026 + Sep-2025 + Jun-2024): **zero occurrences of `PLD` or `elevation`.**
+- ❌ **TONNAGE** — no tons, no PC/UMS, nothing. A capacity series must be *derived* (transits × authorised draft), not read.
+- ❌ **DRAFT** — lives only in the draft-adjustment advisories, never in the monthly.
+- ❌ **GATUN ELEVATION** — the one "Gatun" hit in a monthly is a **lock-maintenance schedule**. A-29 says decisions are *"based on the current level of Gatun Lake"* and **prints no number.**
+🔑 **ACP publishes watershed INPUTS, not the reservoir STOCK** — A-29 gives rainfall **−34%** and inflows **−44%** (May–Aug). Input deficit ≠ level.
+
+### ✅ THE COLUMN THAT REPLACES THE UNPUBLISHABLE AUCTION PRICE
+
+⛔ **ACP does NOT publish auction clearing prices** — confirmed at `pancanal.com/en/maritime-services/auction-system/`, which links only to the platform, a user guide and a FAQ. **The $3.78M / $4M figures circulating are broker relays through trade press: unverifiable and unreproducible, so they may inform but must never gate** (`finding_loadbearing_number_must_be_reproducible`).
+
+✅ **But the Monthly Ops Summary publishes `Auctioned booking slots` — Available / Used / Percentage — as its own line**, monthly and archived back years. Primary, reproducible, and it moves when transits do not:
+
+| | Transits/day | **Auctioned slots used** |
+|---|---:|---:|
+| Jun-2024 | 29.1 | **55.56%** (315 / 175) |
+| Sep-2025 | 33.1 | **98.31%** (354 / 348) |
+| Apr-2026 | 38.70 | **86.12%** (317 / 273) |
+
+⚠️ **Record `Used` even when it exceeds `Available`** — Apr-2026 shows 105.65 / 111.02 / 114.53 on the non-auction classes because the footnote excludes *additional* auctioned slots. **Print both as given; never normalise.**
+⚠️ **NOT YET A BAND.** Three non-monotonic points is not a base rate.
+
 #### 🔴 DO NOT SCRAPE THE ADVISORIES INDEX — it is silently stale
 
 `https://pancanal.com/en/advisories-to-shipping/` is **JS-rendered**. **Both `curl` and `WebFetch` return a server-rendered fragment ending at `A-46-2024`** — while `A-14-2026` demonstrably exists at HTTP 200. **The list renders as complete, so its incompleteness is invisible.**

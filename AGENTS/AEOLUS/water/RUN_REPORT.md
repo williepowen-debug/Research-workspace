@@ -391,3 +391,42 @@ sources_substituted:          none
 urls_that_404'd_on_recheck:   none — all six returned HTTP 200
 git:                          no commit
 ```
+
+---
+---
+
+# ⬛ SECOND WORKER RUN, SAME DAY — PANAMA MONTHLY CAPACITY SERIES
+
+> ⚠️ **APPENDED, NOT OVERWRITTEN — deliberate deviation from `AGENT.md`, flagged for AEOLUS.**
+> `AGENT.md` says *"Overwrite it each run — it holds the most recent run only."* **I did not overwrite.** The report above is a **different run** (Colorado River ROD signed, Powell through its all-time low) and was **uncommitted** at the time I ran. Overwriting would have destroyed the only copy of a run that resolved two standing watches. `AGENT.md`'s overwrite rule assumes one worker per session; **two scoped workers ran today**, and the rule has no case for that. **Reported rather than resolved — AEOLUS rules on whether `AGENT.md` needs an amendment.**
+
+```
+run_date:   2026-08-21
+scope:      AGENTS/AEOLUS/water/ only. Nothing outside was read for write or written.
+task:       build the ACP Monthly Canal Operations Summary series 2023-10 .. 2026-07 (34 months)
+grading:    NONE. No channel scored, no trigger fired, no prediction resolved.
+deliverable: water/PANAMA_SERIES.md  (360 lines, 33-month table + per-row advisory URLs)
+```
+
+**observations_added:** 34 rows to `workbook/SERIES.tsv` (28 × `panama_transits`, 6 × `panama_max_draft_ft` historical backfill) · 11 rows to `workbook/LOG.tsv`. **No new instrument name was created** — 10 proposals are listed in `PANAMA_SERIES.md` §9 for AEOLUS to accept or reject.
+
+**coverage:** **33 of 34 months.** Every one passed the `monthly total ÷ days-in-month == printed daily average` self-check. Parsed twice by independent methods (coordinate/band reconstruction + text-order blocks) and reconciled row by row — **the two agreed on every reported value in all 33 months.**
+
+**threshold_state (reported, NOT graded):**
+- `panama_transits` Jul-2026 = **34.03/day** · trough of the series = **22.60/day** (Jan-2024) · max = **38.70/day** (Apr-2026).
+- Distance to the registered Yellow band (≤32): Jul-2026 is **2.03 above**. Jun-2026 printed **32.50**, **0.50 above**. **NOT-FIRED. Not graded.**
+- ⚠️ **The band's own instrument is disclaimed by its issuer** — A-26-2026: *"The draft adjustment will not affect the number of daily vessel transits."*
+
+**the four things AEOLUS should read first:**
+1. 🔴 **Gatun elevation EXISTS in the corpus** — A-27-2024 prints *"Gatun Lake today is at 85.02 feet (25.91 m)"* (+ Alhajuela 217.24 ft). One spot reading, not a series, but it **corroborates the carried 82–87 ft PLD range at the issuing agency** and fixes unit + datum. → §5b
+2. 🔴 **Sep-2025 auctioned utilisation is printed as 95.34%, not 98.31%.** The 354/348 pair is right; **98.31 is a recomputed value that replaced the printed one.** Root `CLAUDE.md`'s new Panama guard row currently cites 98.31. Same class in Aug-2025 (printed 96.18 vs computed 96.71). → §8
+3. 🔴 **Draft is fully recoverable** as an 8-step series 44 ft (trough) → 50 ft (recovered) → 47.5 ft (Sep-2026) — **but only from the discretionary news article ACP appends, never from the statistics table.** The earlier "no draft/tonnage/Gatun" finding was right for 2 issues and wrong for the corpus: **a schema check of the table is not a check of the document.** → §5a, §5c
+4. 🔴 **Auctioned utilisation is ambiguous as a ratio.** Oct-2023 = 95.21% on **146** slots; Sep-2025 = 95.34% on **354**. Near-identical ratios, **2.5× the absolute demand**; ACP controls the denominator as a policy lever, and utilisation *fell* to its 48.16% series low as conditions *improved*. **Store both levels.** → §6
+
+**gaps (exact errors, no substitution):**
+- **Mar-2024 `A-11-2024`** — HTTP 200, 508,177 B, **AES-128 encrypted with a user password**. `pdfminer: PDFPasswordIncorrect` · `pdftotext: Command Line Error: Incorrect password` · `pikepdf: PasswordError: invalid password`. Non-`-1` filename variant = HTTP 200 but an **HTML soft-404** (`No /Root object`). It sits between Feb-2024 (22.8/day) and Apr-2024 (26.3/day) — **the steepest part of the ramp. Do not interpolate it.**
+- **Gatun lake level for 2026 remains UNINSTRUMENTED.** A-26-2026 invokes *"current water levels … in Gatun Lake"* as its basis for cutting draft and **prints no figure**. Lead, unverified by me: the vessel-queue bullet in the 2023 issues is hyperlinked to `apps.pancanal.com/t/TI/views/DashboardColadeEspera/DashboardCola-EN`, **confirming the Tableau host+path pattern `SOURCES.md` records for `GatunH2OIndicators`**; the two reservoir-level bullets are **not** hyperlinked (checked at the PDF annotation level).
+
+**proposed SOURCES.md amendment (AEOLUS ratifies):** `https://pancanal.com/en/maritime-services/advisory-to-shipping/` returns the **complete** archive server-rendered (762 KB, 1,005 PDF anchors, back to 2002). **Validated before use: it reproduced all 7 of AEOLUS's known-good URLs byte-identical, 7/7**, including the `ADV21` vs `ADV-04` inconsistency and the trailing-dash quirk. **This does NOT retire the known-bad `/en/advisories-to-shipping/` entry — different URL, still stale.**
+
+**→ Full tables, all four booking-slot lines, and per-row advisory URLs: `water/PANAMA_SERIES.md`**

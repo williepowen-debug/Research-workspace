@@ -2,9 +2,28 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/`/direct-inbox is 🔴 crisis only.
 
-**Last writeback: 2026-08-21 — RE-FOLDED ~19:0x after a PROME desk review reopened the session. The first fold was correct when written; this one supersedes it.**
+**Last writeback: 2026-08-21 — RE-FOLDED (3rd) ~22:0x after Will's Panama question reopened the session a second time. Supersedes both earlier folds.**
 ⚠️ **Re-folded rather than left standing, because PROME's review produced real work after it: two upgrade triggers re-specified, a composite disposition, and a budget rule rewritten. Leaving the earlier fold would have been Amendment 10's letter with its spirit defeated — the failure this file's own 8/13 header records against me.**
 **WAITING-FOR:** **9/01 NIFC outlook** (AEO-09 checkpoint) · **9/02 CSU two-week** · **9/10 CPC ENSO + ONI print** · **10/01 the new Colorado Operating Guidelines take effect** · **C1 peak ~9/10** · Lower Basin implementing agreements (no date).
+
+---
+
+## 🔴 LATE ADDITION — PANAMA, and it is the most decision-relevant thing on this desk
+
+**Will asked whether I had Gatun Lake water-height data after reading about El Niño ship restrictions. I did not, and the question broke my Panama read open. My STATUS said "no binding restriction."**
+
+**TWO restrictions run in parallel.** **DRAFT:** 48.5 ft since 8/15 → **48.0 ft on 9/02** → **47.5 ft on 10/01** *(both POSTPONED from 8/26 / 9/03 by Advisory A-29-2026, which I verified at primary)*. **BOOKING SLOTS:** **34/day** since 8/21 → **32/day on 9/01**. ACP's stated cause: May–Aug watershed rainfall **−34%**, inflows **−44%**.
+⚠️ **SLOTS ≠ TRANSITS AND THEY COLLIDE AT 32** — my band is ≤32 *transits*, A-29 caps *slots* at 32. **Anyone quoting a Panama figure must label the quantity.**
+
+**🔑 THE TIMING, IN THE ISSUER'S OWN WORDS:** A-29 says the 2026-27 El Niño *"raises concerns regarding water availability during the upcoming **2027 dry season (January to April)**"* and invokes the 2023-24 El Niño as its precedent. Panama's dry season is Jan–Apr, Gatun is rain-fed, and in 2023-24 the worst restrictions ran Jan–Apr 2024 — **the dry season AFTER the ENSO peak.** With CPC at >90% very-strong / 69% historic for OND 2026, **everything visible now is the leading edge, arriving in the WET season.** Registered **AEO-12 (65%)**: Neopanamax draft ≤47.0 ft TFW at some point Jan 1 – Apr 30 2027 — a boundary **not satisfiable by any already-announced step**.
+
+**🔴 THE INSTRUMENT LESSON, which is fleet-general and is the sharpest thing I found all day.** **My registered Panama band reads OCEANGOING TRANSITS. ACP writes in its own summaries that "the draft adjustment will not affect the number of daily vessel transits."** The operator is *deliberately holding constant the exact variable my threshold measures*, and restricting draft and slots instead. **The band was blind to a live restriction for 51 days** — not stale, not mis-sampled: structurally blind by the issuer's design.
+**And it is worse than blind. Jun-24 → Apr-26: transits ROSE 29.1 → 38.70 while auctioned-slot utilisation swung 55.56% → 98.31% → 86.12%.** Over that window **the band moves AGAINST the scarcity signal.**
+⇒ **Fleet-general: ask what the operator is PROTECTING, and measure the other thing.** Panama holds transits and cuts draft. The Rhine keeps barges moving at 16% loading. The ROD publishes a modelled maximum while scheduling a different number. **Three instances in one day on one desk — enough to state, not enough to trust; I'd want it tested where it should FAIL.**
+
+**What is measurable, settled so nobody re-hunts it:** ❌ **Gatun elevation is published NOWHERE I can reach** (zero `PLD`/`elevation` across 8 advisories; ACP's own dashboard is TLS-broken *and* JS-rendered; ACP publishes watershed **inputs**, not the reservoir **stock**). ❌ tonnage and draft absent from the monthly. ❌ **auction clearing prices are not published by ACP** — the $3.78M figures are broker relays, may inform, must never gate. ✅ **`Auctioned booking slots` Available/Used/% IS primary, monthly and archived** — the replacement instrument, sitting in a document I already pull.
+
+**AEO-04 resolved HIT (fired 2026-07-01, found 51 days late).** A 45% ASSUMPTION-tier call that hit.
 
 ---
 

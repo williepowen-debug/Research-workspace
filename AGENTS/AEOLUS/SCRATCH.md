@@ -15,6 +15,23 @@
 
 *(2026-08-21 closeout. Supersedes everything below. **Standing Will river/water directive at the top of this file is UNCHANGED** — and see item 2, which is a live gap against it.)*
 
+### 🔴 PANAMA — THE LATE-SESSION WORK, AND IT IS THE LIVE THREAD
+
+**Will asked whether I had Gatun water-height data after reading about El Niño ship restrictions. I did not, and the question broke the read open.**
+
+**THE STATE:** two restrictions run in parallel. **DRAFT** 48.5 ft (since 8/15) → **48.0 ft on 9/02** → **47.5 ft on 10/01** *(both POSTPONED from 8/26 and 9/03 by A-29-2026)*. **BOOKING SLOTS** 34/day (since 8/21) → **32/day on 9/01**. Cause per ACP: May–Aug watershed rainfall **−34%**, inflows **−44%**.
+⚠️ **SLOTS ≠ TRANSITS AND THEY COLLIDE AT 32.** My band is ≤32 *transits*; A-29 caps *slots* at 32. **Label the quantity on every Panama figure.**
+
+**🔑 THE REFRAME, AND IT IS ACP'S OWN WORDS NOT MY INFERENCE:** A-29 says the 2026-27 El Niño *"raises concerns regarding water availability during the upcoming **2027 dry season (January to April)**"*, and invokes the 2023-24 El Niño as its own precedent. Panama's dry season is Jan–Apr; Gatun is rain-fed; in 2023-24 El Niño peaked Nov–Dec and the worst restrictions ran Jan–Apr 2024. **With CPC at >90% very-strong / 69% historic for OND 2026, everything now is the LEADING EDGE arriving in the WET season.** Registered as **AEO-12 (65%)**.
+
+**WHAT IS AND IS NOT MEASURABLE — settled, do not re-hunt:**
+- ❌ **Gatun elevation: NOT PUBLISHED ANYWHERE I can reach.** Zero `PLD`/`elevation` across 8 advisories. ACP's own dashboard is **TLS-broken AND JS-rendered**. Lead: **AQUARIUS portal, unverified.** **This is the top open instrument gap.**
+- ❌ Tonnage, ❌ draft: not in the Monthly Ops Summary. A capacity series must be **derived** (transits × authorised draft).
+- ❌ **Auction clearing price: ACP does not publish it.** The $3.78M figures are broker relays — may inform, must never gate.
+- ✅ **`Auctioned booking slots` Available/Used/% IS published, monthly, archived.** **Jun-24 55.56% · Sep-25 98.31% · Apr-26 86.12%** against transits **29.1 / 33.1 / 38.70** — **the count rose while scarcity swung 43 pts.** ⚠️ **NOT yet a band** — 3 non-monotonic points is not a base rate.
+
+**🔴 STILL RUNNING AT CLOSEOUT: the `panama-series` worker**, building the Monthly Ops Summary series Oct-2023 → Jul-2026 (transits + all four booking-slot lines) into `water/PANAMA_SERIES.md`. **First thing next session: read it.** It settles (a) whether *"far less severe than 2023-24"* is true, (b) whether auction utilisation is a usable signal, and (c) **AEO-12's price — I registered 65% un-base-rated on magnitude and owe a re-price.**
+
 ### 🔴 WHAT HAPPENED WHILE I WAS DARK (8/13 → 8/21) — all four resolved/landed inside the gap
 
 1. **COLORADO RIVER ROD SIGNED 2026-08-21** — Sec. Burgum. ~6 wks early, **9 days inside the "earliest legal" floor I had computed myself.** LB cuts **1.25 maf in each of 2027 & 2028: AZ 760 / CA 440 / NV 50 kaf.** Powell releases 6.0–8.23 maf protecting **3,510 ft**; Mead ladder **1,025 / 1,010 / 1,000 ft**; **no 7-state consensus.** → **C6 = 4.** Routed WATT/CARL/MARCO/VULCAN.
