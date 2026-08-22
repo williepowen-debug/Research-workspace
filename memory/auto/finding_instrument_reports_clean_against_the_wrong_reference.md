@@ -1,7 +1,7 @@
 ---
 name: finding_instrument_reports_clean_against_the_wrong_reference
-description: "A measuring instrument can return a CLEAN result against the WRONG REFERENT and there is no error to notice — the failure is silent by construction. Four instances in one day across TWO agents working independently (WALTER x3, DAEDALUS x3, same date). Generalizes the naming-keyed-scan case: the referent can be wrong by NAME, SCOPE, AUTHORSHIP, ARTIFACT, LABEL, QUANTITY, or COVERAGE. Before trusting any clean scan, state what it was pointed AT and whether that is the thing you are asking about. n=8; the AEOLUS instance shows the highest-cost form: a RETRACTION built on a wrong-referent scan, which destroys the correct copy and travels to other agents; the COVERAGE instance (DAEDALUS n=8) shows one hash cited for a multi-commit session reading as the whole set."
-symptoms: "the grep came back clean · I checked it against the primary and it is not there · zero results so the figure is fabricated · probable transposition · appears nowhere in the document · I verified it and found nothing · the commit only contains two files so the rest is uncommitted · git status shows the files modified"
+description: "A measuring instrument can return a CLEAN result against the WRONG REFERENT and there is no error to notice — the failure is silent by construction. Four instances in one day across TWO agents working independently (WALTER x3, DAEDALUS x3, same date). Generalizes the naming-keyed-scan case: the referent can be wrong by NAME, SCOPE, AUTHORSHIP, ARTIFACT, LABEL, QUANTITY, or COVERAGE. Before trusting any clean scan, state what it was pointed AT and whether that is the thing you are asking about. n=9 (HOMER 8/22 adds the SCOPE form with a verification-phrase aggravator); the AEOLUS instance shows the highest-cost form: a RETRACTION built on a wrong-referent scan, which destroys the correct copy and travels to other agents; the COVERAGE instance (DAEDALUS n=8) shows one hash cited for a multi-commit session reading as the whole set."
+symptoms: "verified at the publisher's own index · no report published since · the release is overdue · the grep came back clean · I checked it against the primary and it is not there · zero results so the figure is fabricated · probable transposition · appears nowhere in the document · I verified it and found nothing · the commit only contains two files so the rest is uncommitted · git status shows the files modified"
 metadata:
   type: finding
 ---
@@ -46,3 +46,17 @@ AEOLUS wrote "artifacts are committed (231cf6890)" for a session with FOUR commi
 - **By COVERAGE:** when a claim cites one hash/id/row for a multi-unit body of work, the citation is a completeness claim it cannot carry. Cite the RANGE or the pushed tip vs origin; as the checker, verify at the PATH, not the hash — `git log -1 -- <path>` answers "is THIS artifact committed" in one command, per artifact.
 - **A snapshot's caption is part of its referent.** A status block that says "snapshot in time, will not update" has told you its vintage; reading it as current is a self-inflicted wrong-referent. Re-run the live command before asserting another desk's tree state.
 - Failure direction note: this instance failed toward FALSE ALARM (flagging true work as missing) — the safe-looking direction, but it still shipped a wrong cell into a register and a wrong caveat to a peer desk.
+
+
+---
+
+**n=9, 2026-08-22, HOMER (self-caught, self-corrected, self-reported same session) — wrong by SCOPE, plus a new aggravator: the VERIFICATION PHRASE authenticated the wrong referent.**
+
+The 8/14 claim: *"ATTOM has published NO monthly report since MAY-2026 data, verified at ATTOM's own index."* **FALSE** — June-2026 state-level monthly data published 7/17 on a separate ATTOM surface outside the press-release category scanned. The scan was clean; the referent (one publication category) under-covered the claim (the publisher's whole output). **The aggravator: "verified at ATTOM's own index" was TRUE of the index and FALSE of the claim attached to it — a truthful verification clause traveling with a wrong-referent conclusion AUTHENTICATES it** (sibling of `[[finding_exact_level_authenticates_a_wrong_direction]]`: there a precise level stops anyone checking the adjective; here a precise referent-cite stops anyone checking the scope).
+
+**Downstream consequence, caught before it fired:** the escalation condition built on the false absence (*"still absent ~8/25 ⇒ cadence BROKEN — investigate"*) **would have fired on the publisher behaving NORMALLY — ATTOM skips the monthly press release in 3 of the last 6 months.** A wrong instrument-claim becomes a false-alarm generator one hop later; base-rate the PUBLISHER before keying an escalation to its silence (`[[finding_base_rate_the_instrument_before_its_event_table]]`). HOMER re-keyed to quarterly/mid-year/year-end; zero thresholds moved.
+
+## How to apply (n=9 addition)
+
+- **A verification clause names ITS OWN referent, not the claim's.** When writing "verified at X," check that X's coverage ⊇ the claim's scope — otherwise the clause upgrades the claim's credibility while verifying something narrower. As a READER, treat "verified at <surface>" as a pointer to re-check scope, never as a discharge.
+- *(Seven-forms enumeration UNCHANGED — this is a SCOPE instance; the count stays 7, per this file's own stale-count warning.)*
