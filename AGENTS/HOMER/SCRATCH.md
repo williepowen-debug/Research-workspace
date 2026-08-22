@@ -87,7 +87,7 @@
 | Number | Standing | Why |
 |---|---|---|
 | **≥10% mkt cap** (E size) | ★ **WELL-SEPARATED** | smallest firing **13.6%**, largest non-firing **4.3%**, **nothing in between** ⇒ 8% or 12% changes nothing in 32.3 company-years. **The precise level provably does not matter — that IS the result.** ⚠️ an empty region on n=12 may be a *sample* artifact, not a law |
-| **≥20% economic dilution** (F) | ⚠️ **FRAGILE** | UWM warrants clear by **0.6pp** (20.6%). At 21% the cohort's defining event fails on warrants alone ⇒ **genuinely load-bearing.** Held for want of a better anchor (n=2), **not validated** |
+| **≥20% economic dilution** (F) | ✅ **RULED: ONE OBSERVATION, CLEARS BY 0.6pp** | UWM warrants clear by **0.6pp** (20.6%). At 21% the cohort's defining event fails on warrants alone ⇒ **genuinely load-bearing.** ⚠️ **Proposed as "fragile at n=2"; the capacity ruling removed the second observation, so that phrasing is PRE-RULING and must not travel.** Held for want of a better anchor, **not validated** |
 | **≥50% dividend cut** (G) | ⛔ **UNTESTED** | both events were **100% suspensions** ⇒ **any level from >0% to 100% catches both. Zero evidence, not weak evidence.** Held because there is **nothing to re-anchor to** — re-anchoring would imply the level had been informed |
 
 ⛔ **NEW DEFECT, definition-class: does UNDRAWN ATM capacity fire Class F?** LDI's F contribution is a **22.4% shelf, 0 executed.** If capacity counts, **F fires on a facility nobody drew.** **Rec: executed dilution only** — which drops F's base to **n=1**, and I would rather report that than keep an inflated n.

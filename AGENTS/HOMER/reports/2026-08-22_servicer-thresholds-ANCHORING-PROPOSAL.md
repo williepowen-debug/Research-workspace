@@ -1,6 +1,12 @@
 # Servicer Watch A–G — **NUMBER ANCHORING: PROPOSAL FOR WILL'S RULING**
 
-> **Status: PROPOSAL. Nothing here is encoded and no number has moved.** Drafted 2026-08-22 by HOMER against the completed full-panel base-rating (`reports/2026-08-14_servicer-thresholds-BASE-RATING-partial.md` §8 — 12 capital actions, 5 names, 32.3 company-years, all at primary).
+> ✅✅ **STATUS AS OF 2026-08-22 EVENING: RULED BY WILL — verbatim word "approve both". THIS IS NO LONGER A PROPOSAL.**
+> **Ruled in the re-ordered sequence: (1) CAPACITY IS NOT AN EVENT — Class F fires on EXECUTED dilution only; LDI's 22.4% undrawn ATM does NOT fire; F's observed base is n=1. (2) All three numbers RE-AFFIRMED, not re-anchored — step 2 of the pre-registered ordering is DISCHARGED. (3) The three standings recorded SEPARATELY, and Class G's discharging condition (first PARTIAL cut in the panel) is ruled in.**
+> ⚠️⚠️ **"FRAGILE AT n=2" IS THE PRE-RULING STATE. Post-ruling the ≥20% standing reads "ONE OBSERVATION, CLEARS BY 0.6pp" — ruling capacity first is exactly what dissolved it. The body below is preserved verbatim as the pre-ruling proposal; where it says "fragile at n=2" it is a record of what was proposed, not of what is live.**
+> **Ruling record: `PROME/codex/2026-08-22_RULED_s338-heartbeat-and-homer-AG-anchoring.md` (`c22bc9f32`); it attaches to `dd30ca561`, the re-cut with both PROME riders folded in.**
+> **Spec status: PROVISIONAL → definitions ruled (8/14) + numbers re-affirmed with per-number standings (8/22).** ⚠️ **TESTED AND HELD ≠ WELL-CALIBRATED.** ⛔ **No packet, no trade rail; 🔴 still a labelled SEEDING decision; nothing retroactive to UWM 8/6.**
+>
+> **Superseded status line, verbatim: "Status: PROPOSAL. Nothing here is encoded and no number has moved."** Drafted 2026-08-22 by HOMER against the completed full-panel base-rating (`reports/2026-08-14_servicer-thresholds-BASE-RATING-partial.md` §8 — 12 capital actions, 5 names, 32.3 company-years, all at primary).
 > **This is step 2 of the report's own pre-registered ordering.** Step 1 — *"rule the three spec defects"* — was ruled by Will 2026-08-14 (row 50) and encoded 2026-08-22. Step 2 reads: *"**only then** re-anchor **or explicitly re-affirm** the four numbers, with the dividend denominator set to 3 and the windows above."*
 > **Riders honored:** own surface only · no threshold moved in this document · superseded text preserved · zero capital.
 
@@ -16,7 +22,7 @@
 |---|---|---|---|
 | **≥10% of market cap** | E (size gate) | ★ **WELL-SEPARATED — the best-evidenced number in the spec** | **RE-AFFIRM** |
 | ~~≥15% below 10-day VWAP~~ | ~~E (marker i)~~ | **DROPPED by Will 2026-08-14** — 0-of-12, failed on the motivating event | n/a |
-| **≥20% economic dilution** | F | ⚠️ **FRAGILE — closest firing event clears by 0.6pp** | **RE-AFFIRM, with the fragility on the record** |
+| **≥20% economic dilution** | F | ⚠️ **RULED STANDING: ONE OBSERVATION, CLEARS BY 0.6pp** *(proposed as "fragile — closest firing event clears by 0.6pp"; the capacity ruling removed the second observation)* | ✅ **RE-AFFIRMED 8/22** |
 | **≥50% dividend cut** | G | ⛔ **UNTESTED — never discriminated anything** | **RE-AFFIRM and LABEL UNTESTED** |
 
 ⇒ **Three numbers, three different epistemic states. Reporting them uniformly is the defect this document exists to prevent.**
