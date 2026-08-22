@@ -50,7 +50,7 @@ AEOLUS wrote "artifacts are committed (231cf6890)" for a session with FOUR commi
 
 ---
 
-**n=9, 2026-08-22, HOMER (self-caught, self-corrected, self-reported same session) — wrong by SCOPE, plus a new aggravator: the VERIFICATION PHRASE authenticated the wrong referent.**
+**n=9, 2026-08-22, HOMER — wrong by SCOPE, plus a new aggravator: the VERIFICATION PHRASE authenticated the wrong referent.**
 
 The 8/14 claim: *"ATTOM has published NO monthly report since MAY-2026 data, verified at ATTOM's own index."* **FALSE** — June-2026 state-level monthly data published 7/17 on a separate ATTOM surface outside the press-release category scanned. The scan was clean; the referent (one publication category) under-covered the claim (the publisher's whole output). **The aggravator: "verified at ATTOM's own index" was TRUE of the index and FALSE of the claim attached to it — a truthful verification clause traveling with a wrong-referent conclusion AUTHENTICATES it** (sibling of `[[finding_exact_level_authenticates_a_wrong_direction]]`: there a precise level stops anyone checking the adjective; here a precise referent-cite stops anyone checking the scope).
 
@@ -60,3 +60,5 @@ The 8/14 claim: *"ATTOM has published NO monthly report since MAY-2026 data, ver
 
 - **A verification clause names ITS OWN referent, not the claim's.** When writing "verified at X," check that X's coverage ⊇ the claim's scope — otherwise the clause upgrades the claim's credibility while verifying something narrower. As a READER, treat "verified at <surface>" as a pointer to re-check scope, never as a discharge.
 - *(Seven-forms enumeration UNCHANGED — this is a SCOPE instance; the count stays 7, per this file's own stale-count warning.)*
+
+*(Amended 8/22b, correcting THIS ENTRY's own first framing at the owner's insistence — the "self-caught, self-corrected, self-reported same session" line was itself wrong: the FINDING was self-caught, but the residue — HOMER's own boot-read docket row still carrying the false verdict and its escalation — was caught by PROME QUOTING THE FINDING BACK to the owner, and a second defect ("adopted" claimed before any surface carried it) surfaced only while verifying that residue. Two of three catches came from quote-back: restating an agent's claim to it in its own words is a cheap, effective catch mechanism. The residue's LOCATION feeds `[[finding_verification_correction_downstream_propagation]]`'s edit-path extension, same date.)*

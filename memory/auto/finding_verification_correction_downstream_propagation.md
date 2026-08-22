@@ -1,6 +1,7 @@
 ---
 name: finding_verification_correction_downstream_propagation
 description: "After a load-bearing figure-correction commit (e.g., \"fix -70% to -40%\"), audit ALL derivative sections (header, regime block, footer, session log, downstream files) for residual references. A surface-level commit can miss 30%+ of mentions. Validated BROCK 6/8."
+symptoms: "the fix commit missed a spot · still says the old number · the correction did not reach · the docket/calendar still carries the old condition · an escalation was built on the corrected claim"
 metadata: 
   node_type: memory
   type: finding
@@ -91,3 +92,12 @@ OSPREY corrected a figure it had published (Russian refining runs `3.91` → `~3
 - **Corollary for the consumer side:** a 🔴 you were never sent is indistinguishable from one that does not exist — so a downstream agent should not infer "nobody flagged me" means "I am not carrying it."
 
 Sits with [[finding_coverage_gap_needs_all_surface_check]] (exhaustive on the wrong layer) and [[finding_silent_blank_evades_review]]. The interim `consumer_check` caveat — *a 🔴 is a CANDIDATE, not a finding* — fires in **both** directions: it over-reports collisions **and** it under-reports when the reviewer stops at the first genuine one.
+
+
+---
+
+**n+1, 2026-08-22, HOMER — the structural WHY, and the direction is NOT the invariant: corrections propagate along the EDIT PATH.**
+
+HOMER's ATTOM wrong-referent correction (8/22) reached STATUS, PIPELINE.tsv, NEXUS_BRIEF and two outbound packets — every surface the discovering session's data-pull was already touching — and MISSED `docket/CATALYSTS.tsv` row 9, the surface its OWN BOOT reads at step 5, which kept the false verdict AND a live escalation condition built on it (one that would have fired on the publisher's normal 3-of-6 skip behavior). **A correction flows into the surfaces on the session's edit path; read-often/written-rarely surfaces are systematically OFF that path — and that is precisely the profile of the most load-bearing files: dockets, calendars, threshold tables, boot checklists.** HOMER's prior instances all ran working-files→dashboard and were written up as "the correction dies before it reaches the dashboard"; this one ran the OTHER way (dashboard-class surfaces got it, the docket didn't). **The invariant is the edit-path boundary, not the direction.** Corollary: **fixing the FACT does not fix the MACHINERY downstream of the fact** — grep for conditions/escalations/gates KEYED to the corrected claim, not only restatements of it.
+
+*(Caught via quote-back — PROME restating the finding to its owner. Batch-A promotion note: COLD-row extension, flag executed inline by PROME; this slug already sits on the mid-Sept promotion re-look and this instance strengthens it, n+1.)*
