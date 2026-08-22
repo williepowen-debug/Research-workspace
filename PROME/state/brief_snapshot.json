@@ -10,12 +10,12 @@
   "War theaters + housing": "elev"
  },
  "docket": {
-  "2026-08-21": "\u2605 COT vintage #2 (as-of 8/18, posts Fri 15:30 ET): GATE-BRENT-COT-35B re-\u2026",
   "2026-08-22": "ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, PROME systems\u2026",
   "2026-08-23": "FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRIVEN SPECIALIS\u2026",
   "2026-08-24": "OSPREY durability cluster: OSP-05 legs 3a (reprice) + 3b (R3 resolvabilit\u2026",
   "2026-08-26": "FORUM fin-cond T5: decoupling Test C window closes (AI-credit leg on the\u2026",
-  "2026-08-28": "MIDAS-06 resolves"
+  "2026-08-28": "MIDAS-06 resolves",
+  "2026-08-29": "FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND spec / LIQUID\u2026"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
