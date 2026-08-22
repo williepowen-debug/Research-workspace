@@ -1,6 +1,6 @@
 # STATE_VOCABULARY Classes 11 + 12 + surface-role enum — census-first draft for the 8/23 sitting
 
-**Date:** 2026-08-22 morning · **Author:** DAEDALUS · **Status:** DRAFT — minting executes AT the sitting, Will-gated; "don't mint" survives as an answer per the ruling's own caution.
+**Date:** 2026-08-22 morning · **Author:** DAEDALUS · **Status:** ~~DRAFT~~ **MINTED 2026-08-22** — Will verbatim "ok both approved" 14:34 EDT (sitting pulled forward to Sat 8/22; ruling record `PROME/codex/2026-08-21_RAV_operating-improvements-feedback.md` §MINTED; four open picks ruled: UNPROCESSED not-minted w/ `delivered_unread` metric · OWNER-ASSERTED minted · DERIVED minted, GENERATED = banner subtype · exemption law single-homed at Class 11). **ENCODED same day → `BLUEPRINTS/STATE_VOCABULARY.md` Classes 11/12 + Class-1 extension; this doc is now HISTORICAL — cite the registry, not this draft.**
 **Provenance:** Will verbatim "ok go ahead" 8/21 23:30 on the merged RAV package (`PROME/codex/2026-08-21_RAV_operating-improvements-feedback.md` §RULED, `74139856e`). Source items: RAV 3 (Class 11) · RAV 2+8 merged (Class 12) · RAV 1 labels (enum). Review: `upgrades/RAV_FEEDBACK_REVIEW_2026-08-21.md`.
 **Census method (§12 discipline — measured, not assumed):** token-shaped occurrences, `*.md`+`*.tsv` across AGENTS/PROME/FORGE(/MESSAGING), archives excluded, run 2026-08-22 09:3x EDT. Counts are usage-frequency evidence for which distinctions the fleet ALREADY makes; they are not row-level audits.
 

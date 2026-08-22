@@ -22,6 +22,21 @@
 - **Not state tokens (never as primary banner token):** `DEAD` · `OBSOLETE` · `DEPRECATED` — fine as prose after a canonical token.
 - ✅ **SUPERSEDED recognizer gap CLOSED same day (2026-07-31, TERRY-S1 session as planned):** `SUPERSEDED` added to `STATIC_BANNER_MARKERS` under the existing banner-form guards; fleet-validated — zero live flips (confirming the gap was latent), synthetic capable-case passes, trade-mode output byte-identical.
 
+### Class 1 extension — surface-role enum (EXTENDED 2026-08-22; ruling: Will verbatim "ok both approved" 14:34 EDT, `PROME/codex/2026-08-21_RAV_operating-improvements-feedback.md` §MINTED; provenance: RAV item 1, census-first draft `design/2026-08-22_CLASS11_12_ENUM_SITTING_DRAFT.md`. EXTENDS this class's field-family — ruled no fork)
+
+Role labels declaring what a surface IS, joining the banner family that declares that one died:
+
+| Canonical token | Meaning | Census basis |
+|---|---|---|
+| `CANONICAL` | Owner-of-record surface for its facts — resolve conflicts HERE (`finding_owner_of_record_means_authoritative_not_correct` still applies: authoritative ≠ correct) | 139 |
+| `DERIVED` | Regenerated/join surface — edit the sources, never this file. `GENERATED` = the machine-written **subtype**, declared via the established "GENERATED — do not hand-edit" banner form (subtype, not a separate token) | 185 (+38) |
+| `SCRATCH` | Working surface; no cross-agent citation | de-facto file names fleet-wide |
+| `HISTORICAL` | Kept as record — cite as history, never current | 221 |
+
+- **Not re-minted (ruled):** `archive` — already Class-1 territory (`archive/` directory + FROZEN/RETIRED banners).
+- **Form guard (part of the ruling):** any authority MAP over these labels is a GENERATED join over surface-local declarations (the `render_directory.py` model) — labels canonical at surfaces, map derived; a hand-maintained authority map is pre-declined (PAT-006/PAT-113).
+- First live exemplar: HEARTBEAT's 2026-08-22 derived banner.
+
 ## Class 2 — Gate / trigger states
 
 *Inventory 2026-07-31 (GATES.tsv + all STATUS.md): FIRED 136 · ARMED 97 · **negative pole split four ways:** `NOT FIRED` 42 · `NOT-FIRED` 40 · `NO-FIRE` 13 · `UNFIRED` 12 · RE-ARMED 10 · STOOD DOWN 2 · DISARMED 1 · TRIGGERED 1. Any grep for one negative form silently misses half the fleet — the exact PAT-074 shape (a scan's clean PASS meaning "searched the wrong spelling").*
@@ -123,6 +138,8 @@ For a live workbook ledger whose header comment block declares its publication c
 
 ⚠️ **Scope: the declaration affects `ledger_staleness.py --nudge` ONLY** (distinct ℹ️ label, not counted behind — a check structurally always-red on one surface trains skipping on every surface, PAT-110's inverse). The `--days`/`--writes`/`--abs-floor` scans still grade the file — the owner's dispositions there stay "refresh / freeze / say why not." The declaration is a FORM, not a keyword (PAT-059): `Cadence:`-prefixed, front-loaded (col ≤100), header-block only — bare prose "event-driven" mentions do not declare (measured live: WARRISK's own caveat prose would have self-declared under a bare-token match).
 
+*Exemption-law cross-ref (ruled 2026-08-22): the declared-exemption law is HOMED at Class 11 — the pending `SCHEDULED`/`EXEMPT-BY-CHARTER` tokens (8/28 register ②) point there at mint, never restate it.*
+
 ## Class 9 — Marker-role separation: severity vs priority (added 2026-08-21; ruling: Will in-session, AskUserQuestion "Forward-only, P1/P2/P3 text" selected off the DAEDALUS rec; provenance: ZHAO 8/21 S8 implementation `9f97c7f5f` via PROME — a stdout-scrape verdict read permanent-REVIEW because §4 prints 🔴 as a PRIORITY glyph on healthy forward catalysts; the fleet's emoji vocabulary double-served as severity marker AND priority marker)
 
 **The rule: one marker family per semantic role.** The colored-circle family (🟢 🟡 🟠 🔴) is RESERVED for **severity/risk-state** — root CLAUDE.md's Status key is the existing canon and stays the sole authority for its meanings. **Priority/importance is expressed as TEXT tokens, never as a colored circle:**
@@ -150,6 +167,45 @@ Emoji beside a priority token is DECORATION ONLY — permitted, but never the ma
 
 ⚠️ **Rows that EXPIRE or are re-derived at read time (fire-ledger rows, artifact-verify-per-presentation) are already conformant** — the class targets rows that ASSERT; that is where the rot concentrates (forum-6 P1 measurement). Deployment, not invention: GATES `consumed_by` + WILL_QUEUE artifact-verify-per-presentation are this contract already working on two surfaces.
 
+## Class 11 — Consumption-state ladder (added 2026-08-22; ruling: Will verbatim **"ok both approved"** 14:34 EDT, `PROME/codex/2026-08-21_RAV_operating-improvements-feedback.md` §MINTED; provenance: RAV item 3; census-first draft `design/2026-08-22_CLASS11_12_ENUM_SITTING_DRAFT.md` — tokens mined from measured fleet usage, census 2026-08-22)
+
+For the delivery lifecycle of a packet/finding/correction between desks. The ladder is ORDERED — each token asserts strictly more than the one before it, and skipping a rung is a claim, not a shortcut:
+
+| Canonical token | Meaning | Census basis |
+|---|---|---|
+| `ROUTED` | Written + committed toward the recipient; asserts nothing about arrival | 265 |
+| `DELIVERED` | At the recipient's surface (inbox/board), not yet read. Compound display `LANDED-UNREAD` stays legal prose = `DELIVERED` + an age | 255 (+7) |
+| `CONSUMED` | Recipient read/processed it (their filing or explicit ack) — says nothing about their surfaces changing | 281 |
+| `ENCODE-CONFIRMED` | The change landed on the owner's own surface, owner-attested | 17 |
+| `CLOSED-VERIFIED` | Sender verified the encode AT THE ARTIFACT — the chain's terminal state | 22 |
+| `EXEMPT-PULL` | Declared exemption: pull-complete recipient — for this route `DELIVERED` **is** complete (`finding_deferral_rule_hides_its_own_cost`) | WALTER exemption class |
+
+**Operative rules (travel with the class — RAV item 3's operative sentences):** nothing may be described as **resolved** below `ENCODE-CONFIRMED`; a sender may not write `CLOSED-VERIFIED` without the artifact check.
+
+**Don't-mints on the record (ruled):** `CREATED` (census 0 — a state nobody records) · `READ` (collapses into CONSUMED) · `ANSWERED` (a prose verb — an answer is itself a packet with its own ladder) · `OWNER-ENCODED` (RAV's spelling; `ENCODE-CONFIRMED` survives, 17 vs 4) · **`UNPROCESSED` (ruled NOT minted — it is `DELIVERED` + age; the unfiled-vs-unprocessed distinction resolves at the METRIC layer: the fleet_triage metric is named `delivered_unread`; "unprocessed" stays legal prose).**
+
+**⚖️ One-breath exemption law (SINGLE HOME — this paragraph; other token families POINT here, never restate):** *a declared exemption must be expressible, or the guard trains its readers to ignore it.* `EXEMPT-PULL` (this class), Class-8 `SCHEDULED`/`EXEMPT-BY-CHARTER` (pending mint, 8/28 register ②), and the roster cadence enum's designed-quiet are ONE law: every guard family needs a token for "correctly quiet," distinct from silence.
+
+First live exemplar (citable): the 2026-08-22 encode-ask packet's own ladder — ROUTED at commit `7f963e93a` → DELIVERED at DAEDALUS `inbox/` → CONSUMED at this encode session → ENCODE-CONFIRMED at this section's commit.
+
+## Class 12 — Verification-basis (added 2026-08-22; same ruling §MINTED; provenance: RAV items 2+8 merged; census-first draft ibid.)
+
+Declares what KIND of checking stands behind a load-bearing claim — the repo-vs-world line made a token:
+
+| Canonical token | Meaning | Census basis |
+|---|---|---|
+| `PRIMARY-VERIFIED` | Checked against the primary/external source itself; domain subtypes (`EDGAR-verified`) stay legal prose mapping to it | 333 (+36) |
+| `ARTIFACT-VERIFIED` | Checked against a REPO artifact — internal consistency, **NOT external truth** | 146 |
+| `SECONDARY-SOURCE` | Rests on a secondary report only | 162 |
+| `OWNER-ASSERTED` | A counterparty's claim, not independently checked; "not independently verified" stays legal prose mapping to it (ruled: compact token minted) | 62 |
+| `UNANCHORED` | No anchor exists — the visible-absence token, the class's real payoff (`finding_silent_blank_evades_review`) | 20 |
+
+**Scope guard (in-class, ruled): load-bearing/decision claims ONLY** — thresholds, prediction letters, Will-facing synthesis, cross-desk packets. Labeling every sentence is the VULCAN 4-of-7 over-reporting class: a basis token on routine prose is ceremony, not information.
+
+**Don't-mints on the record (ruled):** `UNVERIFIED` as a token (census 1,591 but generic — it cannot discriminate `OWNER-ASSERTED` from `UNANCHORED`, the exact distinction this class exists to make; stays prose) · `MARKET-DATA-CURRENT-AS-OF` (a timestamp practice, governed by PAT-044 + root pricing rules — not a state).
+
+**Neighbour reconciliation (Class 6):** Class 6 declares the SOURCE a figure cites (`PRIMARY`/`MIRROR`/`MIRROR-WALLED`); Class 12 declares the CHECKING performed on a claim. A `MIRROR`-cited figure can later be `PRIMARY-VERIFIED`; the two compose, neither substitutes.
+
 ## Enforcement map (who reads these tokens)
 
 | Class | Machine reader today | Registry obligation |
@@ -164,5 +220,8 @@ Emoji beside a priority token is DECORATION ONLY — permitted, but never the ma
 | 9 (marker-role: severity vs priority) | No dedicated enforcer today — reader-side convention + REGISTRATION_CHECKLIST row 15 at build time; the CHECK_STANDARD §8 glyph-vs-count rule (pending encode, sweep-input ⑤b) is the mechanism-side twin | New priority cells/columns carry `P1`/`P2`/`P3` text tokens; colored circles stay severity-only on new writes; legacy grandfathered, healed at natural rewrites — never batch-swept |
 | 10 (assertion-row contract) | ⛔ UNBUILT as script — Staleness Sweep gains a grading leg at run #4 ~9/1 (registered in `sweeps/STALENESS_SWEEP.md` same commit as the class); PROME-lane surfaces enforced by prome_gate extension (PROME's build) | New standing-state rows carry both fields at registration; reconciliations read the completion artifact, never the asserting row; existing rows conform-on-touch (Class 9 template-surface rider applies — TSV rows teach their neighbours) |
 | 6 (source authority) | No dedicated enforcer today — reader-side convention; a fleet grep for `PRIMARY`\|`MIRROR`\|`MIRROR-WALLED` on threshold rows is a candidate follow-on *(pipes escaped 2026-08-17 — unescaped they split this row and GFM dropped the obligation cell, self-audit F25)* | New citations on load-bearing figures carry one of the three tokens; HOMER `RATES.tsv` (`workbook/`) is the first-application worked example |
+| 11 (consumption ladder) | No dedicated enforcer today — reader-side convention; `fleet_triage` (post-8/28 build) reads DELIVERED-age as its `delivered_unread` metric; packet audits/write-back watches grep the canonical spellings | New cross-desk packets and watch rows use ladder tokens; "resolved" below `ENCODE-CONFIRMED` is a defect; `CLOSED-VERIFIED` requires the artifact check — both rules travel with the class text |
+| 12 (verification-basis) | No dedicated enforcer today — reader-side convention; candidate rider on `registry_chain_check` / the forum-4 #11 registration-checklist build | Load-bearing claims on NEW surfaces carry one basis token; scope guard applies (no ceremony labeling); legacy prose grandfathered per standing scope rule |
+| 1-ext (surface-role enum) | No machine reader today — `render_directory.py` is the worked DERIVED-map example; role labels reader-side at surfaces | New non-agent/shared surfaces declare a role label in their header; authority maps are GENERATED joins, never hand-maintained |
 
 **Build-time check (REGISTRATION_CHECKLIST row 15):** new agents' state-bearing surfaces use canonical tokens; DAEDALUS verifies at registration. Blueprint variants cite this file — they do not restate the tables.

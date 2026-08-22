@@ -6,6 +6,12 @@
 
 ## Changelog
 
+### 2026-08-22 (b) — STATE_VOCABULARY Classes 11 + 12 + surface-role enum MINTED (RAV package, Will-ruled at the pulled-forward sitting)
+
+**Change:** three additions to `STATE_VOCABULARY.md`, encoded exactly as the census-first draft proposed: **Class 11** consumption-state ladder (ROUTED → DELIVERED → CONSUMED → ENCODE-CONFIRMED → CLOSED-VERIFIED, + `EXEMPT-PULL`; operative rules: nothing "resolved" below ENCODE-CONFIRMED, no CLOSED-VERIFIED without the artifact check) · **Class 12** verification-basis (PRIMARY-VERIFIED / ARTIFACT-VERIFIED / SECONDARY-SOURCE / OWNER-ASSERTED / UNANCHORED; load-bearing-claims-only scope guard; Class-6 neighbour reconciliation in-line) · **Class-1 extension** surface-role enum (CANONICAL / DERIVED / SCRATCH / HISTORICAL, GENERATED = banner-form subtype of DERIVED; hand-maintained authority maps pre-declined). Enforcement-map rows added for all three; the **one-breath exemption law** (*declared exemption must be expressible*) homed ONCE at Class 11 with Class 8 pointing at it.
+**Provenance:** Will verbatim **"ok both approved"** 2026-08-22 14:34 EDT (sitting pulled forward from 8/23 on his word; record `PROME/codex/2026-08-21_RAV_operating-improvements-feedback.md` §MINTED, commit `7f963e93a`, artifact-verified before encode). Four open picks ruled in the same word: UNPROCESSED not-minted (fleet_triage metric named `delivered_unread`) · OWNER-ASSERTED minted · DERIVED minted (GENERATED = banner subtype) · exemption law single-homed at Class 11. Draft: `design/2026-08-22_CLASS11_12_ENUM_SITTING_DRAFT.md` (census 2026-08-22); review lineage `upgrades/RAV_FEEDBACK_REVIEW_2026-08-21.md` (RAV items 1/2/3/8).
+**Why:** the census showed the fleet already MAKING these distinctions at scale (CONSUMED 281 / ROUTED 265 / PRIMARY-VERIFIED 333 / DERIVED 185) with no registry — every spelling fork a future recognizer-widening (PAT-069/075). Don't-mints are ON the record precisely so near-zero-census tokens (CREATED 0, OWNER-ENCODED 4) don't re-propose (PAT-124's discoverability lesson). Grandfathering: standing scope rule — forward-only, new surfaces + cross-agent handles; legacy recognized, never rewritten.
+
 ### 2026-08-22 — CHECK_STANDARD §2 PASS-semantics amend (RAV package, Will-ruled)
 
 **Change:** one sentence added to §2 — a check's clean line names what a PASS does NOT prove beyond its perimeter (PAT-074's registry cell moved into the output contract). Forward-mandatory; backfill at natural touch; env_doctor = exemplar.
