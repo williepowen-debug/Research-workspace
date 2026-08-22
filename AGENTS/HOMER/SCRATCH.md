@@ -70,6 +70,32 @@
 - **Packets out (4):** PROME (encode-confirm + the ATTOM flag) · WALTER (both asks answered) · CARL (took the composition write-up; declined to call their tell, with reasons) · CREED (courier has missed twice — proposed a re-spec, not another log entry).
 - **`STATUS.md` 240 → 248 lines** after folding the six-paragraph 8/12 BOTTOM LINE block into one. Headroom is thin; next session will need another fold.
 
+## ★ PLAN EXECUTION — Will approved the open-items plan mid-session ("yes go ahead"); this is what ran
+
+**Organizing principle applied throughout: the row-50 split — RULE DEFINITIONS IN-LANE, ESCALATE EVERY RETUNE** (`finding_spec_that_is_both_falsifier_and_trigger_permits_only_disambiguation`). That is what made most of this unblocked rather than queued behind Will.
+
+**✅ Phase-1 exception (CORAL $10,000/unit) — CLOSED AT PRIMARY.** Confirmed verbatim in `B4-2.1-03` v08/05/2026. **Two things beyond the confirmation:** (a) **I drafted and killed a wrong read** — the special-assessment parenthetical looked like an escape hatch and is not; the next section routes assessed repairs into a different test with the same outcome. (b) ★★ **the dollar figure is probably not FL's binding constraint** — the inspection-failure bullet carries no dollar amount and FL's milestone/SIRS regime *is* a mandatory structural inspection. **A dollar-threshold model likely UNDERSTATES FL exposure.** KB-HOMER-017 · packet to CORAL.
+**✅ FL ratio band — RULED AND ENCODED same session it was found.** ANNUAL DATA ONLY. **No level moved.** Definition-scope under the split; a monthly calibration would be a retune and is not proposed.
+**✅ Closeout docket sweep — ADOPTED into `CLAUDE.md` as step 5b, and it FIRED ON ITS FIRST RUN** (caught that the servicer row had produced today's anchoring proposal and did not say so). **Second clause included: if the output changed a fact a trigger was built on, RE-DERIVE THE TRIGGER** — fixing the fact does not fix the machinery.
+**✅ Three kills set, because a plan that only adds work is not a plan:** **(1) $160B MF maturity wall — DATED KILL: if CREED cannot attach a primary by the ~9/4 Trepp cycle, it is RETIRED, and the retirement gets PUBLISHED** (`finding_retired_threshold_has_no_publisher` — readers travel against the links). **(2) TX $1.15B — "unverified at primary" CLOSED as an open item, converted to a permanent standing caveat** (direction + composition only); the composition finding needs no level. **(3) ★ Trepp mat-adj MF — I had been MISLABELLING this.** Logging *"UNGRADED, not substituted"* for two months looked like discipline; **a spec leg keyed to a figure the publisher may have stopped printing is an UNTRIPPABLE THRESHOLD** and row-counting audits pass clean over it. **Dated condition: absent at the ~9/4 print = third month = the leg is re-spec'd off it, successor named in advance (MF special servicing, published monthly).**
+**✅ Session A (A–G anchoring) — RUN AND PROPOSED, not deferred to September.** It needed no new data and became actionable the moment the row-50 encode cleared. **→ `reports/2026-08-22_servicer-thresholds-ANCHORING-PROPOSAL.md`, packeted to PROME for Will.**
+
+### ★★ The anchoring result, and it is not what I expected to write
+
+**Recommend RE-AFFIRMING all three surviving numbers — and the finding is that "re-affirmed" is NOT ONE STATE.**
+
+| Number | Standing | Why |
+|---|---|---|
+| **≥10% mkt cap** (E size) | ★ **WELL-SEPARATED** | smallest firing **13.6%**, largest non-firing **4.3%**, **nothing in between** ⇒ 8% or 12% changes nothing in 32.3 company-years. **The precise level provably does not matter — that IS the result.** ⚠️ an empty region on n=12 may be a *sample* artifact, not a law |
+| **≥20% economic dilution** (F) | ⚠️ **FRAGILE** | UWM warrants clear by **0.6pp** (20.6%). At 21% the cohort's defining event fails on warrants alone ⇒ **genuinely load-bearing.** Held for want of a better anchor (n=2), **not validated** |
+| **≥50% dividend cut** (G) | ⛔ **UNTESTED** | both events were **100% suspensions** ⇒ **any level from >0% to 100% catches both. Zero evidence, not weak evidence.** Held because there is **nothing to re-anchor to** — re-anchoring would imply the level had been informed |
+
+⛔ **NEW DEFECT, definition-class: does UNDRAWN ATM capacity fire Class F?** LDI's F contribution is a **22.4% shelf, 0 executed.** If capacity counts, **F fires on a facility nobody drew.** **Rec: executed dilution only** — which drops F's base to **n=1**, and I would rather report that than keep an inflated n.
+
+**⛔ Not started, and it is the one item carrying Will's standing word: the non-funding debt/equity RIDER.** Sequenced after the anchoring per the report's own ordering. **Not drafted; the candidate class must NOT be scored.**
+
+---
+
 ## ⚠️ OPEN / UNSETTLED — do not publish these as settled
 
 1. **HOM-01: one early-kill arm fired. The ~8/31 FMHPI July print DECIDES IT.** Grade on **that release's own as-published figures for BOTH months** — NOT against the +2.06% on record. **Year-verify: the trap has hit 3× on this series, in both directions.**
@@ -77,7 +103,7 @@
 3. **★ NEW — SPEC GAP IN MY OWN FL BANDS, found by almost misusing them.** The **FL/national ratio band** (>2.0/2.5/2.9×) was derived **entirely from ANNUAL observations**, but its stated condition is only *"both legs from the same report and same period"* — **which a MONTHLY report satisfies.** I computed 1.74× off June monthly data and stopped short of grading it. **Needs a monthly calibration or an explicit ANNUAL-ONLY restriction. Until then: annual data only.** *(The four-bases trap one level down — I wrote basis discipline for the LEVEL band and never carried it into the RATIO band derived from the same table.)* **Joins the still-owed GSE MF band re-spec.**
 4. **A–G spec: the three DEFINITIONS are ruled and encoded; the four NUMBERS are still not anchored and the spec is still PROVISIONAL.** **Evidence produced ≠ threshold anchored.** ⛔ **No packet, no trade rail.** **★ The authorized non-funding-debt/equity rider is NOT YET DRAFTED** — a pre-registration obligation, and **the candidate class must NOT be scored.**
 5. **FL composition mask corroborated, not closed** — ZHVI leg still unconfirmed at primary.
-6. **CORAL's $10,000/unit critical-repair threshold NOT CONFIRMED** — scoped negative (not in Full Review `B4-2.2-02`); likely `B4-2.1-03 Ineligible Projects`, unchecked. Her 2.5×–40× arithmetic rests on it. **Whoever gets there first.**
+6. **✅ CLOSED 8/22 — CORAL's $10,000/unit threshold CONFIRMED at primary (`B4-2.1-03` v08/05/2026), and the finding is that it is probably NOT her binding constraint — the inspection-failure bullet carries no dollar amount and FL's milestone/SIRS regime is exactly that. A dollar-threshold model likely UNDERSTATES FL exposure.**
 7. **Carried forward unchanged:** $160B+ MF maturity wall PROVISIONAL, re-source owed to CREED · **Trepp mat-adj MF UNGRADED for a SECOND month** (June 9.53% still has no counterpart — do not substitute) · **"7.69% is a new high" is FALSE** (Apr-26 7.71%) · TX $1.15B single-source on level · **GSE MF band re-spec still owed** · Parcl/Reventure = cross-check flags only.
 8. **★ NEW — I owe CARL a fleet-level write-up on the composition class, and I took it deliberately.** ⚠️ **My contribution is a SPLIT, not a merge: CARL's CC-share and REGINALD's OZK MI3 are DENOMINATOR-GROWTH cases and need an argument that the growth is endogenous; my FHA case is a NUMERATOR-LEAK case and needs none — the improvement is mechanically caused by the deterioration.** **Merging them hands a sceptic the weakest version.**
 
