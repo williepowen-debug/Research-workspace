@@ -228,7 +228,10 @@ By class: 6.37 (<91′ beam) · 22.07 (91-107′) · 10.27 (Neopanamax). Booking
 | A-09 / A-14 / A-19 / A-23 / A-26 -2026 | Monthly Ops Summary Mar–Jul 2026 | `2026/04/…March-2026.pdf` · `2026/04/…April-2026-.pdf` · `2026/06/…May-2026.pdf` · `2026/07/…June-2026.pdf` · `2026/08/…July-2026.pdf` |
 | A-01-2026 · A-30-2025 · A-04-2025 · A-01-2025 · A-38-2024 · A-21-2024 | Monthly Ops Summary, archive back to Jun-2024 | *(all reachable; discover by search)* |
 
-🔑 **PATTERN:** the `/uploads/YYYY/MM/` segment tracks roughly the **publication** month (data month **+1**), **not** the data month — a June-2026 summary sits under `2026/07`. Advisory numbers run ~4–5/month and **hyphenation is inconsistent** (`ADV21-2024` vs `ADV-04-2025`).
+🔴 **THERE IS NO USABLE PATH PATTERN — MEASURED, NOT ASSUMED. Do not try to construct a URL.**
+> I wrote here that `/uploads/YYYY/MM/` tracks the publication month (data month +1). **Measured against all 33 observed URLs it holds 17 of 33 — a coin flip.** And the failure is not random: **15 of the 16 misses collapse into a single `/uploads/YYYY/01/` catch-all** (Sep-2025 lives at `/uploads/2025/01/`, Jun-2024 at `/uploads/2024/01/`). **It holds 16 of 19 from Jul-2024 on and fails 15 of 21 across Nov-2023 → Sep-2025 — i.e. it fails hardest exactly across the 2023-24 drought window, which is the window anyone will most want.** I handed this heuristic to a worker *to speed up that very range.*
+> **Filenames are equally unpredictable:** `ADV49-2023` · `ADV02-2024` · `ADV-18-2024` · `ADV-04-2025` · `ADV-14-2026-…-April-2026-.pdf` (trailing dash) · `…-Feburary-2025.pdf` (ACP's typo) · `ADV07-2024-MONTHLY-FEB.pdf.pdf` (doubled extension).
+> ✅ **USE THE COMPLETE ARCHIVE INDEX INSTEAD** (below) — it is a lookup, not a guess. **A per-month URL table is in `water/PANAMA_SERIES.md` §10.**
 ⚠️ **DISCOVER BY SEARCH, NEVER CONSTRUCT.** Every URL I built by pattern 404'd. The pattern is for *recognising* a URL, not generating one.
 
 ### ⚠️ CORRECTED 2026-08-21 — MY "THREE THINGS IT DOES NOT CONTAIN" WAS WRONG AT CORPUS SCALE
@@ -275,7 +278,7 @@ Verified across **thirty-three** advisories: **the fixed-schema statistics table
 | | Transits/day | **Auctioned slots used** |
 |---|---:|---:|
 | Jun-2024 | 29.1 | **55.56%** (315 / 175) |
-| Sep-2025 | 33.1 | **98.31%** (354 / 348) |
+| Sep-2025 | 33.1 | **95.34% as PRINTED** (354 / 348 → 98.31% computed) ⚠️ |
 | Apr-2026 | 38.70 | **86.12%** (317 / 273) |
 
 ⚠️ **Record `Used` even when it exceeds `Available`** — Apr-2026 shows 105.65 / 111.02 / 114.53 on the non-auction classes because the footnote excludes *additional* auctioned slots. **Print both as given; never normalise.**
@@ -302,3 +305,14 @@ Verified across **thirty-three** advisories: **the fixed-schema statistics table
 | Any **percent-full** figure | Different capacity bases across sources (19% vs 23.1%, same lake, same week). **Cite elevation.** |
 | Page-summarizing fetch of USBR CSVs | Truncates and returns **1976 data with HTTP 200**. Use `curl … \| tail`. |
 | `droughtmonitor.unl.edu` HTML tables | Returns a load error to fetch tools. **Use the statistics API.** |
+
+
+### ⚠️ ACP'S OWN ARITHMETIC DISAGREES WITH ITSELF IN THREE MONTHS — report AS PRINTED, never silently recompute
+
+| Month | ACP prints | Used ÷ Available | Implied denominator |
+|---|---|---|---|
+| **Sep-2025** (A-30-2025) | **95.34%** | 348/354 = **98.31%** | ≈365 |
+| **Aug-2025** (A-26-2025) | **96.18%** | 382/395 = **96.71%** | ≈397 |
+| **May-2025** (A-18-2025) | Total **973** | classes sum to **974** | off by 1 transit |
+
+🔴 **I was carrying 98.31% for Sep-2025 — that is MY recomputation, not ACP's printed figure**, and it reached a packet and this file before the worker caught it. **The 354/348 pair is exactly right; the percentage was derived rather than read.** ⚠️ **Store the two LEVELS (`available`, `used`), not the ratio** — utilisation is derivable from levels and the reverse is not, and recomputing silently replaces the publisher's number with your own.
