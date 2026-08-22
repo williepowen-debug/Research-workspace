@@ -6,6 +6,7 @@
 ---
 
 ## 1. Diagnosis (measured 2026-08-22)
+*(Unit correction, tagged post-execution 8/22: the per-row "size" figures in this section and §3's "B now" column were `awk length()` CHARACTER counts mislabeled as bytes — ~2% under true UTF-8 bytes (e.g. VIXCS 4,519 chars vs 4,628 B; energy 5,982 vs 6,078). The file-total 53,819 was `wc -c`, correct. The rotation manifest's figures are true bytes and canonical. Caught by the blind cold-reader test cross-citing the manifest; nothing gated on the per-row numbers.)*
 
 | Fact | Number |
 |---|---|
