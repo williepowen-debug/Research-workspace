@@ -28,6 +28,33 @@ Read the release's OWN table for May-YoY (call it M) and June-YoY (call it J). T
 | **J < M** | **Leg-1 CONFIRMED** (streak break). Log in PREDICTIONS.tsv Notes with both as-published numbers + release date. Leg 2 stays open (needs ≤ +1.0% by Aug-data print). |
 | J ≥ M but J ≤ +1.9% | Leg 1 NOT YET (no break, no accel past May's vintage level). Neither confirm nor kill-arm. Note and wait for Jul-data print (~Aug 31 = Leg-1 last chance). |
 | **J > +1.9%** | **Early-kill ARM 1 of 2.** Log armed state. If the Jul-data release (~Aug 31) also prints > +1.9% → close **MISSED (early-kill)**, do not wait for Sep. |
+
+---
+
+## ⚠️⚠️ DECISION TABLE FOR THE ~AUG 31 RELEASE (JULY DATA) — READ THIS, NOT THE TABLE ABOVE
+
+**The table above was built for the June print and its rows are NOT mutually exclusive at the July print.** Ruled 2026-08-22, **before** the print. ⛔ **Definition only — no level moved.**
+
+**Why the rows stopped being exclusive, which is the part worth carrying:** at registration May stood at **+1.9%**, so *"J below M"* and *"J above +1.9%"* **could not both hold** — the middle row (*"J ≥ M but J ≤ +1.9%"*) is the thin strip between them, and the table's whole shape assumes that geometry. **The June vintage revised M down to +1.58% SA and opened a ~16bp band where both rows fire at once.** ⇒ **The spec was not ambiguous when written; a revision beneath it made it ambiguous.** **Any spec pairing a frozen absolute level with a vintage-floating comparator has this property, and nothing announces the day they cross.**
+
+Let **J** = July-2026 YoY **SA**, **M** = June-2026 YoY **SA as revised in that same release** (~+2.06% on current vintage).
+
+| July print | Grading action |
+|---|---|
+| **J > +1.9%** | **CLOSE `MISSED (early-kill)`.** Both arms have fired. **This holds even if J < M** — see ruling (A). Do not wait for the Sep print. |
+| **J ≤ +1.9% and J < M** | **Leg-1 CONFIRMED.** Kill quiet. Leg 2 rides to the Aug-data print (~Sep 30), which must print **≤ +1.0%** for CONFIRMED. |
+| **J ≤ +1.9% and J ≥ M** | Leg 1 **MISSED** (last chance spent, no streak break). Kill quiet — it needs *both* arms. Leg 2 alone cannot CONFIRM; grade leg-by-leg at the Aug-data print. |
+| Release delayed / no national headline | Do **NOT** substitute Case-Shiller or FHFA. Wait; note the delay. Unchanged. |
+
+**The four rulings, in force (full text + rejected counter-argument: `thesis/PREDICTIONS.tsv` HOM-01 Notes):**
+- **(A) The early-kill OUTRANKS a same-print Leg-1 confirm.** Inside the band both fire; the kill wins.
+- **(B) `(both print > +1.9%)` is the OPERATIVE test.** *"ACCELERATES"* is a descriptive label, not a second condition — **a decelerating print above +1.9% still fires the kill.**
+- **(C) +1.9% is FROZEN.** It is the May-2026 figure *in the May-data vintage*, since revised to **+1.58% SA**, so it sits ~32bp above the level it was built to represent. ⚠️ **Freezing is the LENIENT direction and it is frozen anyway** — the rule is *do not move the number*, not *move it against yourself*. Re-levelling is a **RETUNE**, Will-gated, not proposed.
+- **(D) BASIS = SEASONALLY ADJUSTED (SA).** June was +2.06% SA / +2.02% NSA; at a +1.90% line a 4bp wedge decides the kill. SA matches the applied resolver-1 grade, the spec's named CalculatedRisk mirror, and HOM-02.
+
+⚠️ **(A) and (B) both cut AGAINST this prediction and were chosen on that basis.** The readings that keep it alive were available and were rejected nine days before the resolver, which is when that choice is worth anything.
+
+✅ **STANDING CHECK, adopted from this defect — run it BEFORE grading, every FMHPI print:** re-test whether the kill line and the prior-month comparator still bound **disjoint** regions. Re-reading the spec cannot catch this class; only re-evaluating the clause geometry against the current vintage can.
 | Release delayed/missing national headline | Do NOT substitute Case-Shiller or FHFA — different indices. Wait; note the delay. |
 
 ## Discipline notes
