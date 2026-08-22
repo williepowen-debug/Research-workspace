@@ -172,3 +172,15 @@ If PROME only does the first three, the system gets materially safer. The rest i
 ---
 
 **DAEDALUS review DELIVERED 8/21 late (`AGENTS/DAEDALUS/upgrades/RAV_FEEDBACK_REVIEW_2026-08-21.md`, commit `bb315c197`) — high agreement; PROME CONCURS with its four sharpenings, which now ride this disposition to Will:** ① item 4 = one-sentence CHECK_STANDARD §2 amend (not a new section — §2 already carries the perimeter half) · ② item 5 upgraded to ANSWERED-BY-FORUM-6 (see amended line above) · ③ item 10 reframed: fixture PRACTICE exists n≥4; the build = a CHECK_STANDARD fixture-standard section + CHECKS.tsv index, fixtures living WITH their checks (a central 15–25 store would be PAT-071), post-8/28 · ④ vocabulary lands as EXACTLY Classes 11 (consumption-ladder, census-first, declared-exempt token) + 12 (verification-basis) + the surface-role enum, all in the 8/23 one-cloth block; item-9 tokens fold into the ⚖️/glyph register. PAT-124 minted (already-law fraction 5-of-12 = canon-discoverability metric → item 1's map must be GENERATED, labels canonical at surfaces). Sitting agenda updated (SCRATCH item 2) same commit.
+
+---
+
+## ★ MINTED — Will, 2026-08-22 14:34 EDT, verbatim: "ok both approved" (covering this block + the audit-#10 residue batch; sitting venue pulled to Sat 8/22 on Will's word "I think I want us to start working through these tomorrow activities")
+
+Classes 11 + 12 + surface-role enum APPROVED per DAEDALUS's census-first draft (`AGENTS/DAEDALUS/design/2026-08-22_CLASS11_12_ENUM_SITTING_DRAFT.md`), with PROME's four picks ruled in the same word:
+1. **UNPROCESSED NOT minted** — it is DELIVERED + age; the AEOLUS unfiled-vs-unprocessed caveat resolves at the METRIC layer: the fleet_triage metric is named **`delivered_unread`**. "Unprocessed" stays legal prose.
+2. **OWNER-ASSERTED minted** (compact token form); "not independently verified" stays legal prose mapping to it.
+3. **DERIVED minted**; GENERATED = the machine-written subtype via the established "GENERATED — do not hand-edit" banner form. Enum EXTENDS Class 1, no fork.
+4. **One-breath exemption law:** Class-11 `EXEMPT-PULL` + Class-8 `SCHEDULED`/`EXEMPT-BY-CHARTER` + the cadence enum's designed-quiet are one law — *a declared exemption must be expressible, or the guard trains its readers to ignore it.*
+
+Operative rules travel with Class 11 as drafted (nothing described "resolved" below ENCODE-CONFIRMED; no CLOSED-VERIFIED without the artifact check) and Class 12 keeps its scope guard (load-bearing claims only). Don't-mints on the record: CREATED/READ/ANSWERED/OWNER-ENCODED (Class 11) · UNVERIFIED-as-token / MARKET-DATA-CURRENT-AS-OF (Class 12) · archive (enum, already Class 1). Encode = DAEDALUS's surface (STATE_VOCABULARY), forward-only; packet + doorbell same hour.
