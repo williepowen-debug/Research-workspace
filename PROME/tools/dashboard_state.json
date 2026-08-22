@@ -1,5 +1,5 @@
 {
- "built": "2026-08-22 09:38",
+ "built": "2026-08-22 15:56",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -15,7 +15,6 @@
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
   "2026-08-18 HAWK war_monitor.py \u2014 feeds.reuters.com DEAD (live-verified ",
   "2026-08-20 BRENT discriminator forward checks (own-dated, registered fr",
-  "2026-08-22 ACTIVE_DECISIONS design pass (Will-directed 2026-08-16 eve, ",
   "2026-08-22 S6 STATUS two-state PILOT grades (WATT/HENRY/CARL, ~2wk from",
   "2026-08-22 \ud83d\udd34 Section 338 pause EXPIRES \u2014 three-way branch: concluded de",
   "2026-08-23 FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRI",
@@ -28,6 +27,7 @@
   "2026-08-26 FORUM fin-cond T5: decoupling Test C window closes (AI-credi",
   "2026-08-26 NVDA Q2 FY2027 earnings ~16:20 ET (quarter ended 7/26) \u2014 VIO",
   "2026-08-27 \ud83d\udd34 JACKSON HOLE Economic Policy Symposium (KC Fed) \u2014 WARSH'S ",
+  "2026-08-28 DAEDALUS fleet wiring sweep (its ~17-item register) \u2014 \u2605 +1 F",
   "2026-08-28 MIDAS-06 resolves \u2014 DIVERGE persistence test (does the gold ",
   "2026-08-28 NEXUS successor convergence falsifier RESOLVES (the 21/44/35",
   "2026-08-28 QCEW preliminary benchmark (Fri) \u2014 LAB-08 gate",
@@ -47,6 +47,7 @@
   "2026-09-01 FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23",
   "2026-09-01 Russia diesel producer-direct carve-out takes effect (OSP-02",
   "2026-09-01 Xi -> Washington White House summit with Trump (exact date u",
+  "2026-09-03 SAM full JGB curve-attribution grade on the 30Y JGB auction ",
   "2026-09-05 CRUISE arm-CCL ladder disposition RECONSIDER-BY (row-55 ruli",
   "2026-09-06 OPEC+ meeting \u2014 the Q4-2026 quota decision (the ACTUAL Q4 de",
   "2026-09-07 CRMT / Silver Point covenant-relief waiver EXPIRES (date har",
@@ -67,7 +68,7 @@
   "FLG": "ok",
   "HAWK": "ok",
   "HENRY": "ok",
-  "HOMER": "elev",
+  "HOMER": "ok",
   "LABOR": "ok",
   "LIQUID": "ok",
   "MARCO": "ok",
@@ -137,8 +138,8 @@
   "T6 word [after LIQUID concur ~8/24, before 8/28]",
   "BOND expression [8/29]",
   "DAEDALUS prop-4 [HELD post-9/1]",
-  "row 31 [Nov, silent]",
-  "FFIEC creds [with row 31]"
+  "row 31 [Nov, silent \u2014 THREE credentials]",
+  "FFIEC laptop creds [with row 31]"
  ],
  "split": "Break 21 / Grind 44 / Unresolved 35",
  "v": 1
