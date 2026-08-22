@@ -3,13 +3,14 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **No words are owed anywhere this weekend** [all of Friday's 18 rulings + the overnight RAV governance ruling ("ok go ahead", 23:30) executed and verified]; the spawn queue below is what moves things.
-- **The RAV package is ruled and already moving:** your ruling approved two new state-vocabulary classes + PASS-semantics on checkers + a test-fixture standard, and declined the two items that would have built duplicate surfaces. DAEDALUS ran the census and delivered Sunday's draft overnight — the sitting executes from it; nothing further needs you on this thread.
-- **Saturday 8/22: the Canada-tariff pause expires** — a genuine three-way branch (deal / extension / live tariff), and two of the three cut AGAINST the boycott-hardening read. The desks verify at a primary; nothing needs you unless an outcome lands that changes positioning.
-- **Monday 8/24 is the loaded day — seven independent reads land**, and one of them (the bond-test concurrence) comes back needing your ONE word before 8/28.
+- **The Sunday sitting already ran** [you pulled it to Saturday 8/22 — all five heavy items executed, tested, and verified the same day; Sunday holds only optional light residue]. **No words are owed anywhere this weekend** [Saturday's five rulings all executed same-hour].
+- **The tariff-pause outcome is UNREAD** [it expired Saturday 8/22 — a genuine three-way branch, two of three ways cut against the boycott-hardening read; the war and Florida desks verify at a primary at their next windows, and nothing carries an outcome until they do].
+- **The vocabulary + registry work is DONE and law** [8/22]: the fleet's trigger registry now names where every gate's canonical wording lives and carries owner-dischargeable review clocks; the delivered/read/encoded/verified ladder is minted; five provisional clocks await desk confirms at their next touches.
+- **Monday 8/24 is the loaded day — seven independent reads land**, one comes back needing your ONE word before 8/28 [the bond-test concurrence], the FDIC banking-report window opens [its desk needs spawning], and the labor desk has two overdue items.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
+- **HAWK / MARCO** · first window · Saturday's tariff-pause outcome is the fleet's only dark market item — verify at a primary
 - **SAM** · soon · positioning data + Japan CPI grading touch owed since Friday
 - **MIDAS** · soon · gold positioning touch + five ruling-encodes waiting in its inbox
 - **CREED** · 8/24–29 window · the FDIC banking report is its first trade-relevant trigger and it only exists when spawned
@@ -17,7 +18,7 @@
 - **ZHAO** · any window · inbox session — 27-item backlog its new boot triage can't clear alone
 
 ## Runs itself — no window needed from you
-- **Sunday 8/23 sitting** (PROME): registry audit #10 + the vocabulary block + the memory promotion-queue adjudication.
+- **The heavy sitting already ran Saturday** [audit #10 · vocabulary mint · promotion pass · registry envelope — all executed 8/22]; Sunday's residue is optional and PROME's.
 - **Monday 8/24, seven reads in desk windows you already run or PROME's:** hedging-map re-measure [the old figure is dead data] · bond-test concurrence · the oil desk's $85 tourism-cost trigger grades · funding-desk Test B · the VLY exercise outcome · prediction-market pin day 2 · Saturday's tariff aftermath.
 
 ## The daily flow
@@ -38,7 +39,7 @@
 - **Position truth is your broker, never a repo file.** `FORGE/STATUS.md` is a mirror that stales between your exports — the page and every desk will refuse to fill against it.
 - You can **edit WILL_QUEUE.md directly** — strike things, add notes. PROME reconciles your marks at its next touch; that file is your ledger, not PROME's.
 
-## The glyph legend — strict, one role each [declared 8/21; fleet register lands at STATE_VOCABULARY Sunday]
+## The glyph legend — strict, one role each [declared 8/21; registered at STATE_VOCABULARY 8/22 — the delivery-ladder and verification-basis classes minted on your word the same day]
 | Glyph | Means | Never means |
 |---|---|---|
 | 🟢 🟡 🟠 🔴 | **Severity only**: none · monitoring · elevated · active/critical | emphasis, priority, decoration |
@@ -57,6 +58,7 @@
 - **`PROME/DOCKET.tsv`** — every dated catalyst the fleet is watching.
 - **`PROME/GATES.tsv`** — the fire-ledger: registered triggers and their state.
 - **`HEARTBEAT.md`** — the market-regime memo (PROME-written, your-word-gated).
+- **Everything on your two pages is DERIVED** — command compression built from the canon files above; on any conflict the owner file wins [the same banner sits atop the market memo itself since 8/22].
 - **Your pages, two:** the Helm (default read — desk, brief, and manual in one) · Fleet Ops (instrument panel). Both regenerate at every PROME closeout; each shows its own build time — an old stamp means canon needs a session, not that the page is broken. *(The standalone Desk brief retired 8/21; its URL points here.)*
 
 ## When something looks wrong
