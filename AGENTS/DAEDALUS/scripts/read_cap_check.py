@@ -50,15 +50,46 @@ TARGET_UTILISATION = 0.60     # headroom for ratio error + intra-session growth
 WARN_UTILISATION = 0.50
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DEFAULTS = [os.path.normpath(os.path.join(HERE, "..", f))
-            for f in ("STATUS.md", "PATTERNS_HOT.md", "FLEET_MAP.tsv")]
+ROOT = os.path.normpath(os.path.join(HERE, ".."))
+
+# THE MANDATED-READ SET. Must track DAEDALUS CLAUDE.md SPAWN PROTOCOL steps 1-4 plus the
+# always-loaded charter. ⚠️ THIS LIST IS ITSELF A REGISTER AND REGISTERS GO INCOMPLETE:
+# v1 (2026-08-23, three hours old) shipped with EVOLUTION.md MISSING while EVOLUTION sat at
+# 140% of the cap -- a mandated conditional read that the check could not see. The docstring
+# correctly warned "blind to every file not named" and the list was still wrong.
+# DOCUMENTING A PERIMETER IS NOT THE SAME AS POPULATING IT (PAT-129, refined on its own author).
+# That is why --all exists: do not rely on this list alone to answer "did we get it all?"
+DEFAULTS = [os.path.normpath(os.path.join(ROOT, f)) for f in (
+    "STATUS.md",        # SPAWN step 1
+    "FLEET_MAP.tsv",    # SPAWN step 2
+    "PATTERNS_HOT.md",  # SPAWN step 3
+    "EVOLUTION.md",     # SPAWN step 4 (conditional -- still a mandated read when it fires)
+    "CLAUDE.md",        # always-loaded charter
+)]
+
+
+def sweep_tree(root):
+    """Every .md/.tsv under root except archives -- so the check cannot be blind by omission."""
+    out = []
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [d for d in dirnames if d not in ("archive", "_archive", "reference")]
+        for fn in filenames:
+            if fn.endswith((".md", ".tsv")):
+                out.append(os.path.join(dirpath, fn))
+    return sorted(out)
 
 budget_tokens = READ_CAP_TOKENS * TARGET_UTILISATION
 budget_bytes = int(budget_tokens * BYTES_PER_TOKEN)
 
 
 def main(argv):
-    paths = argv[1:] or DEFAULTS
+    args = argv[1:]
+    sweep_all = "--all" in args
+    args = [a for a in args if a != "--all"]
+    if sweep_all:
+        paths = sweep_tree(ROOT)
+    else:
+        paths = args or DEFAULTS
     findings, cannot = [], []
     lines = []
     for p in paths:
@@ -76,8 +107,16 @@ def main(argv):
             mark, over = "🟠", 0
         else:
             mark, over = "✅", 0
-        lines.append(f"  {mark} {os.path.basename(p):<18}{b:>8,} B  ~{tok:>7,.0f} tok  {util:>5.0%} of cap"
-                     + (f"  → TRIM {over:,} B" if over > 0 else ""))
+        if not (sweep_all and mark == "✅"):   # sweep mode prints only what needs a look
+            shown = os.path.relpath(p, ROOT) if sweep_all else os.path.basename(p)
+            # ⚠️ SIZE ALONE IS NOT A DEFECT. Only a MANDATED READ that cannot be read whole is
+            # broken; a large cold/on-demand file is the hot-cold split WORKING. Measured on the
+            # first --all run: 12 flagged, 3 real -- a ~75% false-positive rate against "is this
+            # broken", which is alert fatigue and trains its reader to ignore it (the exact trap
+            # flagged in PROME's D3 the same day). So --all LABELS, it does not uniformly alarm.
+            tag = " ⟵ MANDATED READ" if os.path.normpath(p) in {os.path.normpath(d) for d in DEFAULTS} else ""
+            lines.append(f"  {mark} {shown:<46}{b:>8,} B  ~{tok:>7,.0f} tok  {util:>5.0%} of cap"
+                         + (f"  → TRIM {over:,} B" if over > 0 else "") + tag)
 
     print(f"read-cap check — budget {budget_bytes:,} B "
           f"({budget_tokens:,.0f} tok = {TARGET_UTILISATION:.0%} of the {READ_CAP_TOKENS:,}-tok read cap "
@@ -89,11 +128,24 @@ def main(argv):
         print(f"⚠️  CANNOT-CERTIFY: could not size {len(cannot)} file(s): {', '.join(cannot)}")
         return 2
     if findings:
-        print(f"⚠️  {len(findings)} file(s) AT OR OVER budget — trim, rotate, or relocate: {'; '.join(findings)}")
+        if sweep_all:
+            mand = [f for f in findings if f.split()[0] in {os.path.basename(d) for d in DEFAULTS}]
+            print(f"⚠️  {len(findings)} file(s) over budget, of which {len(mand)} are MANDATED READS "
+                  f"(the actual defects): {'; '.join(mand) if mand else 'none'}")
+            print("    ⚠️  The rest are DISCOVERY, not verdicts — a large COLD or ON-DEMAND file is the "
+                  "hot/cold split WORKING, not a defect. Triage before acting: PATTERNS.tsv and "
+                  "FLEET_MAP_HISTORY.tsv are cold halves BY DESIGN; *_READER_REPORTS are single-review "
+                  "evidence companions. Ask 'does a mandated read name it?' before trimming anything.")
+        else:
+            print(f"⚠️  {len(findings)} file(s) AT OR OVER budget — trim, rotate, or relocate: {'; '.join(findings)}")
         print("    ⛔ Do NOT respond by raising the budget: the read cap is not ours to move.")
         return 1
-    print(f"✅ all {len(paths)} named file(s) under {TARGET_UTILISATION:.0%} of the read cap. "
-          f"⚠️ Says nothing about surfaces not named on the command line.")
+    if sweep_all:
+        print(f"✅ all {len(paths)} file(s) under {TARGET_UTILISATION:.0%} of the read cap "
+              f"(tree sweep of {ROOT}, archives excluded).")
+    else:
+        print(f"✅ all {len(paths)} named file(s) under {TARGET_UTILISATION:.0%} of the read cap. "
+              f"⚠️ Says nothing about surfaces not named — run --all to sweep the tree.")
     return 0
 
 
