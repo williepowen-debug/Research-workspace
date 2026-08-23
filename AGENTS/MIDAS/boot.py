@@ -15,7 +15,11 @@ Boot step 4 in CLAUDE.md. Three legs:
   2. predictions-due  — workbook/PREDICTIONS.tsv rows past resolve_date still OPEN.
 
 Combined exit: 0 = quiet · 1 = REVIEW (metals leg flagged, stale ledger, or
-prediction due) · 2 = a leg failed.
+prediction due) · 2 = a leg failed. The verdict line NAMES the leg(s) that
+flagged — legs are carried as (label, rc) pairs, not bare ints, so the footer
+cannot describe a cause that did not occur (fixed 2026-08-23: the footer named
+only the ledger and predictions legs on an rc=1 raised by the METALS leg alone,
+sending a reader hunting for two conditions that were both clean).
 """
 
 import csv
@@ -111,40 +115,48 @@ def main():
     print("=" * 72)
     print("  MIDAS BOOT — metals watch · ledger staleness · predictions-due")
     print("=" * 72)
-    rcs = []
+    legs = []  # (label, rc) — labelled so the verdict can name the cause
 
     print("\n--- 0. metals_watch (real yield + spot + GSR + M1 divergence) ---")
     if METALS_WATCH.exists():
         mw = run([str(METALS_WATCH)])
-        rcs.append(mw)
+        legs.append(("metals watch", mw))
     else:
-        print("  metals_watch.py not found — skipping leg 0")
+        # Fail LOUD. An absent instrument is NOT a quiet one — same contract the
+        # run_alert docstring states for ledger_staleness ("enforcement silently
+        # absent = never assume quiet"). Pre-2026-08-23 this printed one line and
+        # contributed nothing, so a deleted metals_watch.py returned "all quiet".
+        print("  🔴 metals_watch.py NOT FOUND — leg cannot certify, verdict is NOT quiet")
+        legs.append(("metals watch", 2))
 
     print("\n--- 1. ledger staleness (workbook + TRADE.md vs STATUS) ---")
     sw = run_alert([str(STALENESS), "MIDAS", "--quiet"])
     st = run_alert([str(STALENESS), "MIDAS", "--trade", "--quiet"])
     if sw == st == 0:
         print("  ✓ quiet (alert-contract: output only when stale/misconfigured)")
-    rcs.append(2 if 2 in (sw, st) else (1 if 1 in (sw, st) else 0))
+    legs.append(("ledger staleness", 2 if 2 in (sw, st) else (1 if 1 in (sw, st) else 0)))
 
     print("\n--- 2. predictions-due scan ---")
     n_due, due = predictions_due()
     if due:
         for d in due:
             print(f"  DUE: {d}")
-        rcs.append(1)
+        legs.append(("predictions due", 1))
     elif n_due == 0:
         print("  none due (or newborn ledger)")
-        rcs.append(0)
+        legs.append(("predictions due", 0))
     else:
-        rcs.append(2)
+        legs.append(("predictions due", 2))
 
     print("\n" + "=" * 72)
-    if 2 in rcs:
-        print("  MIDAS boot: a leg FAILED — check manually, do NOT assume quiet.")
+    failed = [name for name, rc in legs if rc == 2]
+    flagged = [name for name, rc in legs if rc == 1]
+    if failed:
+        print(f"  MIDAS boot: leg FAILED — {', '.join(failed)}. "
+              "Check manually, do NOT assume quiet.")
         return 2
-    if 1 in rcs:
-        print("  MIDAS boot: REVIEW — stale ledger or prediction due.")
+    if flagged:
+        print(f"  MIDAS boot: REVIEW — {', '.join(flagged)}.")
         return 1
     print("  MIDAS boot: all quiet.")
     return 0
