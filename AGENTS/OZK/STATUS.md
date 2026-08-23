@@ -1,9 +1,9 @@
 # OZK — Dashboard
 
-**Updated:** 2026-08-07 (**Q2 Call Report pulled — LOG-ONLY, pre-registered; ZERO grade/threshold/probability moves.** First-ever OZK FFIEC series, 18 quarters, RSSD **107244** verified at the primary. Two findings: **MI3 37.6% baseline does NOT reproduce — live 9.35%**; **kill-§1 ADJUDICATED fired-literal / non-disconfirming-on-mechanism**. Full working → `CALL_REPORT_2026Q2_LOG.md`; series → `workbook/CALL_REPORT_SERIES.tsv`. Positions table corrected to mirror FORGE — record fix, zero actions.) Prior 2026-07-23 (**OZK-09 RE-MARKED 52%→45%, Will-approved in-session**; IQHQ weights A30/B45/C8/D17; weighted EL ~$129M; **Option-2 event-anchored recognition-window ruling FROZEN** — recognition counts through Q4'26 print if no executed extension; proposal + evidence table + falsifiers: `outbox/2026-07-23_to-PROME_ozk09-remark-proposal.md`). Prior 7/22 (**Q2 STAGE-2 GRADE** off cross-checked call transcripts: **OZK-08 FALSE** (no RaDD reserve; extend/recap negotiation, "remain pass-rated") → **Q2 cycle CLOSED, 5 resolved, mean Brier 0.1987**; OZK-09 OPEN w/ strong A-extend color ("~92 days" → Q3 call); SpecMention +$219M = generic-churn claim, BROCK 3/3 flips NOT fired. Prior 7/21: Stage-1 grade off FDIC FLNG 11969) | **Price:** $50.97 (+0.37%) [7/22 call-day close, PROME-provided] | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.08×
+**Updated:** 2026-08-23 (**8/21 OPEX WRITE-BACK + inbox drain 6→0, orchestrated single touch.** Both Aug-21 put legs recorded **EXPIRED $0** under Will's 8/4 RIDE ruling — book closed to **zero contracts**, derived-line sweep run across 6 surfaces. Inbox: 4 REGINALD MI3 packets + 1 PROME nudge + 1 DAEDALUS §8 integrated. **★ MI3 2025Q3 adjudication delivered** — BROCK's written-down branch **REFUTED at the primary**, and a **new mechanism found in OZK's own 18-qtr series that REGINALD's decomposition could not see**: at the step quarter RC-C item 9.a fell **−$576.5M** while item 4 rose **+$540.4M** (total 4+9 flat, −0.7%) ⇒ the loans **did** move, between line items — REGINALD's "item 9 moved only +$98M" is the *YoY* window, which nets the step against 3 quarters of regrowth. Verdict on intent stays **UNRESOLVED** but the question is re-specified. **ZERO grade/threshold/probability moves.** Full working → `MI3_2025Q3_ADJUDICATION.md`.) Prior 2026-08-07 (**Q2 Call Report pulled — LOG-ONLY, pre-registered; ZERO grade/threshold/probability moves.** First-ever OZK FFIEC series, 18 quarters, RSSD **107244** verified at the primary. Two findings: **MI3 37.6% baseline does NOT reproduce — live 9.35%**; **kill-§1 ADJUDICATED fired-literal / non-disconfirming-on-mechanism**. Full working → `CALL_REPORT_2026Q2_LOG.md`; series → `workbook/CALL_REPORT_SERIES.tsv`. Positions table corrected to mirror FORGE — record fix, zero actions.) Prior 2026-07-23 (**OZK-09 RE-MARKED 52%→45%, Will-approved in-session**; IQHQ weights A30/B45/C8/D17; weighted EL ~$129M; **Option-2 event-anchored recognition-window ruling FROZEN** — recognition counts through Q4'26 print if no executed extension) | **Price:** **$49.42** [Fri 2026-08-21 regular-session close — own yfinance pull 2026-08-23; markets closed 8/22-23, final-for-week] *(was $50.97 [7/22]; −3.0% over the month)* | **TBV:** $47.15 [Q1'26] | **P/TBV:** ~1.08×
 **Thesis:** RESERVOIR v1.5 — **Q2 DIRECTIONALLY CONFIRMED** (adverse selection: classified $1,215M→$1,282M UP while RESG $27.8B→$25.7B DOWN; NCO 0.69% above kill; NPA 1.42%) | **Conviction:** 🔴🔴 HIGH | **KB:** 222 rows / 33 groups
 **Short interest:** **14.7% of float** (14.91M sh, 6/30/26 FINRA), ~11.7 days-to-cover — structurally crowded (avg 15.1% / 12mo, peak 18.3%), re-building off a 4/30 low into the print. Squeeze risk if Jul-21 prints quiet. [standing field — refresh at settlement via Nasdaq API]
-**Next hard catalyst:** OZK **Q2 earnings Tue Jul 21, 2026** (call Jul 22) → dress rehearsal for **IQHQ RaDD maturity Aug 2026** (weighted EL ~$129M on $555M funded [7/23 reweight]; recognition appraisal-gated/back-loaded — see §BOTTOM LINE)
+**Next hard catalyst:** **Q3 2026 earnings + call, ~Oct 2026** — management's self-set **"~92 day"** RaDD report-back [7/22 call]. ***[dated-tag 2026-08-23 — the two prior catalysts have PASSED: Q2 earnings 7/21-22 GRADED (5 resolved, mean Brier 0.1987); and the **IQHQ RaDD Aug-2026 maturity window is all but run out — 6 business days left in the month and no OZK earnings print falls inside it** (calendar-certain: Q3 reports ~Oct), which is the quiet-August outcome RESERVOIR v1.5 pre-registered. ⚠️ **Scoped claim, stated exactly:** this is a CALENDAR negative, **not a filings sweep** — no 8-K / press-release / FDIC-FLNG check was run this session (out of scope for a write-back touch), so "no disclosure occurred in August" is **NOT** asserted here. First owed check at the next OZK session. ⚠️ **Not a grade:** OZK-09's resolver is the **Option-2 event-anchored window frozen 7/23** (recognition counts through the **Q4'26 print** if no executed extension), NOT the calendar maturity date — a quiet August neither resolves nor moves it, and none of the 45% / A30-B45-C8-D17 weights are touched here.]*** Then **Oct 1** sub-notes reprice · **~Nov** Q3 Call Report.
 
 > **⚠️ REVIVAL NOTE (2026-07-04):** 71-day cold boot. STATUS re-baselined this session off: live price, PROME-verified Q1 Call Report figures, and a web sweep of all post-Apr developments (Q2 date, KBRA, capital returns, IQHQ/Bluerock/Aimco/WAL outcomes). Thesis docs (THESIS/IQHQ_PLAYBOOK/SEVEN_CREDIT) logic intact; IQHQ Aug-2026 maturity **re-confirmed from primary transcript this session**. Open verifications flagged in §Open Items.
 
@@ -15,16 +15,17 @@
 
 ---
 
-## Positions — RECONCILED 8/7 to FORGE · ⚖️ **RIDE ruled (Will 8/4)** · NOT MANAGED
+## Positions — ⚖️ **BOOK CLOSED 2026-08-21.** Zero open contracts.
 
-**Now mirrors `FORGE/STATUS.md`** (ANVIL reconcile 2026-08-02, Will's broker export; marks = Fri 7/31 close). The 4/23 table this replaced was wrong on both surviving lines and carried two long-expired May lines.
+**Both Aug-21 legs EXPIRED WORTHLESS at the 8/21 OPEX, exactly as Will RULED on 8/4 (RIDE to expiry).** OZK closed **$49.42 [Fri 2026-08-21 close, own yfinance pull 8/23; markets closed 8/22-23 so this is final-for-week]**.
 
-| Strike | Expiry | Qty | Cost | Mark [7/31] | P&L |
-|--------|--------|-----|------|-------------|-----|
-| **$45P** | Aug-21 | **4** | $3.69 | $0.15 | −$1,414.70 / −95.9% |
-| **$42.5P** | Aug-21 | **1** | $2.12 | $0.15 | −$196.67 / −92.9% |
+| Strike | Expiry | Qty | Cost basis | Moneyness at expiry | Settle | Realized |
+|--------|--------|-----|-----------|---------------------|--------|----------|
+| **$45P** | Aug-21-2026 | 4 | $1,474.70 | 8.94% OTM | **$0.00** | **−$1,474.70 / −100.0%** |
+| **$42.5P** | Aug-21-2026 | 1 | $211.67 | 14.02% OTM | **$0.00** | **−$211.67 / −100.0%** |
+| | | **5** | **$1,686.37** | | | **−$1,686.37 / −100.0%** |
 
-**5 contracts, 2 lines.** *(Prior table said $42.5P ×3 — over-stated by 2.)* ⚖️ **Will RULED RIDE 8/4 — residual rides to the 8/21 OPEX; NOT a re-present item.** **Zero position actions and zero recommendations this session.** Marks are 7/31-vintage — **pull live before citing** (root rule #4). Detail + correction record → `POSITIONS.md`.
+**OZK holds no options.** ⚖️ Authority = **Will's 8/4 RIDE ruling**, verified this session at `PROME/WILL_QUEUE.md` (row 29 roll-off) + `PROME/DOCKET.tsv` (8/21 row and row 162) — not taken from a prompt. **The ruled outcome and the realized outcome are the same thing.** The loss was pre-accepted by the ruling; ⛔ **D1/OZK-salvage is RULED-CLOSED** — no grade of the ruling is offered, no re-present, no successor. ⚠️ **$0 settle is inferred from the tape, not broker-confirmed** (root rule #4) — absence from the next FORGE broker export rides the standing export ask. Full disposition + cost-basis derivation + derived-line sweep → `POSITIONS.md`.
 
 ---
 
@@ -109,7 +110,7 @@
 
 | Signal | Current [date] | Watch Level | Fires |
 |---|---|---|---|
-| OZK price | **$50.97 (+0.37%)** [7/22 call-day close, PROME-provided] | <$45 / <$40 | Flat through print+call — no squeeze, no break; PROME graded SIDE-PRED A1 CORRECT (their grade) |
+| OZK price | **$49.42** [Fri 8/21 close, own pull 8/23] | <$45 / <$40 | 🟢 **Neither level fired.** Drifted $52.49 (8/14) → $49.42 (8/21) over the OPEX week — a −5.8% fade with no threshold breach. Prior: $50.97 [7/22], flat through print+call (no squeeze, no break) |
 | Past-due loans | **$298M / 0.92%** [Q2] | >$550M or >2.0% | 🟢 OZK-06 FALSE — improved from $465M/1.41% |
 | NCO (ann.) | **0.69%** [Q2] | >80bps mid-year / **≤55bps kill** | 🔴 **OZK-05 TRUE — above kill-line** (was 0.56% Q1) |
 | Classified+criticized | **$1,282M** [Q2] | >$1.5B fires REGINALD/CREED | 🔴 rising ($1,215M→$1,282M); RESG $25.7B falling = adverse selection |
@@ -127,9 +128,9 @@
 
 | Date | Event | Thesis Impact |
 |---|---|---|
-| **Late Jul** | Campus at Horton post-foreclosure leasing | Downtown-SD lab comp — still-empty = RaDD severity 65-70% holds |
-| **~Aug 1-10** | Q2 Call Report (FFIEC) | Log-only vs supplement basis (Z6 — never re-grades); CRE-specific NCO for OZK-01 archive note |
-| **Aug 2026** | **IQHQ RaDD maturity** ⚠️ — mgmt 7/22 call: **multi-year extension + recap in negotiation** (sponsor + mezz lender), terms not final; expects pass-rated outcome; **"~92 days" → resolution disclosure at Q3 call, likely no Aug print** | 4-scenario tree — A-extend 30% / **B-migration 45%** / C-takeout 8% / **D-foreclosure 17%** (re-weighted 7/23 Will-approved; OZK-09 **45%**, Option-2 window frozen). `IQHQ_PLAYBOOK.md` |
+| ~~**Late Jul**~~ ⚠️ | Campus at Horton post-foreclosure leasing | ⚠️ **UNCHECKED — window passed ~4 weeks ago and this desk was dark for it.** Not a resolved catalyst; carried forward as an open verification (the still-empty branch is what holds RaDD severity 65-70%). *[dated-tag 2026-08-23 — flagged, not graded; no severity number moves on an unrun check]* |
+| ~~**~Aug 1-10**~~ ✅ | ~~Q2 Call Report (FFIEC)~~ | ✅ **DONE 2026-08-07** — pulled log-only as pre-registered, zero grade moves. → `CALL_REPORT_2026Q2_LOG.md` *[dated-tag 8/23: passed catalyst, retained one more session for the MI3 read-path, then prunes to CALENDAR]* |
+| **Aug 2026** *(6 business days left)* | **IQHQ RaDD maturity** ⚠️ **— 6 business days left and no earnings print falls inside the window (calendar-certain); the pre-registered quiet-August path is running. An 8-K/disclosure sweep is UNRUN — owed at the next session, not asserted here.** — mgmt 7/22 call: **multi-year extension + recap in negotiation** (sponsor + mezz lender), terms not final; expects pass-rated outcome; **"~92 days" → resolution disclosure at Q3 call, likely no Aug print** | 4-scenario tree — A-extend 30% / **B-migration 45%** / C-takeout 8% / **D-foreclosure 17%** (re-weighted 7/23 Will-approved; OZK-09 **45%**, Option-2 window frozen). `IQHQ_PLAYBOOK.md` |
 | **~Oct 2026** | **Q3 earnings + call** — mgmt's self-set "92-day" RaDD report-back; SpecMention $616M reversal-rate test; NCO "back under industry" guidance test | Next grading window |
 | **Oct 1, 2026** | $350M sub notes reprice (2.75% → SOFR+209) | +$12.8M/yr interest · Tier 2 −20% for 12mo · ~$0.09 EPS drag |
 | **Oct 2026** | Affinius Capital $2.7B bond maturity | Corporate exposure still unverified, **but asset-level co-lending CONFIRMED 7/6**: OZK holds $95M of the Affinius/Square-Mile-originated 777 Industrial note (as-market underwater per Atrium) + SqMile junior under OZK's Southline senior [KB-203]. `PRIVATE_CREDIT/` |
