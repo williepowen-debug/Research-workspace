@@ -38,19 +38,19 @@ calls → builds → polish**, because quick wins prove the method cheaply and r
 ### Tier 1 — QUICK WINS (mechanical, no judgment, minutes each)
 | # | Task | § | Evidence | Status |
 |---|---|---|---|---|
-| 1a | **Fix the Cure Rates comparator.** `>-15/-30/-40%` on a falling metric: `>-15%` is satisfied by −10% (an improvement) and −40% satisfies none. **Row 13 uses `<` correctly — the form is already known.** 4 characters | 3 | R1-A3; verified at artifact; **`LESSONS.md` grep clean ⇒ genuine gap, not known-but-unencoded** | ROUTE |
-| 1b | **Fix the dangling `(see Open Items)`** at `:25` — no such section, and it is the ONLY elaboration of the CORAL/MARCO Florida seam | 6 | R1-A16, verified | ROUTE |
-| 1c | **Move `**SENDING:**` above `## VIEW`** in the brief — restores addressed delivery without touching the size question | 6 | R3-F1 | ROUTE |
-| 1d | **Correct `:79`'s FMHPI trough** (superseded; canonical Dec-2025 +1.01%) and **`:232`'s CRL-06 claim** (CARL resolved it 7/16, 37d ago, using HOMER's own data package) | 6 | R3-F2, R1-A1 | ROUTE |
+| ✅1a | **DONE 8/22 (owner, same evening).** **Fix the Cure Rates comparator.** `>-15/-30/-40%` on a falling metric: `>-15%` is satisfied by −10% (an improvement) and −40% satisfies none. **Row 13 uses `<` correctly — the form is already known.** 4 characters | 3 | R1-A3; verified at artifact; **`LESSONS.md` grep clean ⇒ genuine gap, not known-but-unencoded** | ROUTE |
+| ✅1b | **DONE 8/22 — replaced with the ruled FL answer.** **Fix the dangling `(see Open Items)`** at `:25` — no such section, and it is the ONLY elaboration of the CORAL/MARCO Florida seam | 6 | R1-A16, verified | ROUTE |
+| ⛔1c | ~~Move `**SENDING:**` above `## VIEW`~~ **DECLINED BY OWNER, AND THE DECLINE IS CORRECT — do not re-propose.** Section ORDER is schema-owned (`NEXUS_BRIEF_SCHEMA.md`, owner-of-record for form AND order) and HOMER had already routed this exact defect to NEXUS (`707b2d3eb`). My recommendation would have pre-empted another owner's ruling. **Owner's interim is better than my fix:** hoisted the addressed payload into the ABOVE-CUT digest at `:7` — delivers tonight, touches no section order, leaves NEXUS's call intact | 6 | R3-F1 | **ROUTED-TO-NEXUS — not a HOMER quick win** |
+| ◐1d | **CRL-06 half DONE 8/22.** **Correct `:79`'s FMHPI trough** (superseded; canonical Dec-2025 +1.01%) and **`:232`'s CRL-06 claim** (CARL resolved it 7/16, 37d ago, using HOMER's own data package) | 6 | R3-F2, R1-A1 | ROUTE |
 | 1e | **Add `Resolve_By`** to the predictions schema, distinct from the expected-release date | 5 | R4-G; slipped twice already | ROUTE |
 
 ### Tier 2 — JUDGMENT CALLS (cheap to do, need an owner decision)
 | # | Task | § | Note |
 |---|---|---|---|
 | 2a | **Declare a byte tier for `STATUS.md`; collapse the header ↔ BOTTOM-LINE duplication.** ⚠️ **The 250-LINE cap is aimed off-axis and actively harmful** — five "compressed for the line cap" ops raised B/line and pushed *more* content past the read cut. **Will-gated** (`CLAUDE.md` edit) | 8 | HOMER self-diagnosed at `STATUS:163` and correctly held under Rule #2 |
-| 2b | **Route the >0.50% RED-band cross + the owed GSE-MF re-spec to REGINALD.** **Recommend via PROME** — a two-desk routing gap, not HOMER hygiene | 6 | PAT-063 pure form |
+| ✅2b | **DONE 8/22 — and MY FRAMING WAS WRONG.** I called it a two-desk routing gap and recommended PROME; HOMER declined, correctly: *"The band is mine, the crossing is mine, and the brief that dropped it is mine — PROME would just be a hop."* Sent direct to REGINALD with both riders. ⚠️ **AND MY EVIDENCE WAS LOOSE WHERE MY FINDING WAS RIGHT:** I read REGINALD's `0.50%` grep hits as "holds the level from a July packet"; HOMER checked properly — those hits are **Punta Gorda's metro rate and an old XLF move**. The finding survived; the supporting evidence was noise. Second instance this review of a true finding resting on shaky support (PAT-126's neighbour) | 6 | PAT-063; owner's own summary: *"I'd published the band in a file with no external readers and the level in a file with readers and never joined them"* |
 | 2c | **Port the closeout docket `awk` to boot step 5.** Boot decides what the session *works on*; 5b's own rationale applies verbatim | 7 | R1-A10 |
-| 2d | **Docket the second ~9/4 dated kill** (Trepp mat-adj re-spec) — exists in prose on both surfaces, on neither docket | 4 | R3-F4 |
+| ✅2d | **DONE 8/22** — registered, with a pointer to `PROME/DOCKET.tsv:224` so the twin is not double-owned | 4 | R3-F4 |
 | 2e | **Promote the Trepp-MF-row standing fix** off `SCRATCH` (which its own `:3` says is rewritten) onto a durable surface | 7 | R3-F9 |
 
 ### Tier 3 — BUILDS (real substance; the L3 path)
@@ -59,7 +59,7 @@ calls → builds → polish**, because quick wins prove the method cheaply and r
 | **3a** | **Give the A–G servicer spec a durable, boot-read home.** Twice Will-ruled (8/14, 8/22); five homes, **not one both durable AND read**; violates HOMER's own `:170`. **Highest consequence on this card** — the rest is wrong text, this is a ruled spec degrading each session | 3 | R1-A4, sharpened |
 | 3b | **Author `thesis/THESIS.md` + the thesis-level kill rail** — ONE build, greenfield, five elements per leg | 1+4 | L3 blockers (a)+(b) |
 | 3c | **Build the convergence handle** (local scoring + 5-pt/Independence overlay) | 2 | sole surviving PR#4 blocker |
-| 3d | **Apply the FL basis template to the other 11 threshold rows** — start with `:83` (uninformative under every basis) and `:87` (source wrong vs practice) | 3 | 4 of them already have the basis written elsewhere |
+| ◐3d | **`:87` source label DONE 8/22; `:83` DISARMED not recalibrated 8/22** (no level invented, retune docketed Will-gated — the DISARM template applied exactly as intended). **Apply the FL basis template to the other 11 threshold rows** — start with `:83` (uninformative under every basis) and `:87` (source wrong vs practice) | 3 | 4 of them already have the basis written elsewhere |
 
 ### Tier 4 — POLISH
 `MEMORY.md` unread at boot and carrying a now-false CREED fact · `reports/` absent from FILES and unread ·
@@ -68,6 +68,28 @@ the brief (ICE 280K shown as current spine, actually May) · `domain/` empty and
 on a ratified DRAFT report · no version/last-amended field anywhere in the charter.
 
 ---
+
+## ★ OWNER-FOUND, 2026-08-22 POST-REVIEW — THE CUT IS A DECAY BOUNDARY, NOT ONLY A DELIVERY ONE
+
+**HOMER found this by opening `## CROSS-DOMAIN` to verify my finding, and it is worse than I measured.**
+That section had **also gone stale**: four of six WAITING-FOR rows superseded, one still reading
+*"MBA Q2 NDS — DUE NOW, not posted"* **nine days after HOMER graded HOM-02's first resolver off that exact
+release**. HOMER folded the brief **four times on 8/22 and every fold landed above line 74.**
+
+> **THE CUT IS WHERE THE READER STOPS *AND* WHERE THE AUTHOR STOPS — THE SAME LINE.** So buried content
+> fails **twice**: it does not arrive, *and* it is wrong when reached — while the fresh "FOURTH fold" stamp
+> **above** it certifies the whole file. This is
+> `finding_header_edit_is_the_edit_most_mistaken_for_maintenance` with a **STRUCTURAL** cause rather than a
+> careless one. In the owner's words: *"I wasn't skipping it, I couldn't see it."*
+
+**And the owner's interim mitigation had inverted:** "jump to `## CROSS-DOMAIN` first" was **directing
+readers to the rottenest region of the file** — a delivery fix shipped in the belief that it covered
+maintenance too. **The two are independent.**
+
+**TESTABLE PREDICTION FOR THE 8/28 FLEET CHECK (register ⑳), owner-supplied and cheap:** *any* desk with
+content past its read cut has **DECAY** there, not merely non-delivery — **and the freshness stamp above it
+will read clean.** Testable against the **20-of-33** desks already measured by the `ledger_staleness`
+base-rate pass. If it holds, the boot-sequence audit is measuring the wrong thing by half.
 
 ## Cross-cutting — NOT a section task
 
