@@ -260,6 +260,7 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | `workbook/BUILDER.tsv` | Builder metrics, sentiment, supplier read-through (LIVE) |
 | `workbook/RATES.tsv` | **Mortgage-rate surface — PMMS, MBA, MND, 10Y-FRM spread, FHA-vs-Conv spread (LIVE, opened 2026-07-31).** The ★-ruled HOMER-owned rate surface. Treasury/Fed *direction* stays referenced-only (BROCK/HENRY). |
 | `workbook/PRICING.tsv` | **HPI, sales, supply, months-supply, listings, residential investment + construction employment (LIVE, opened 2026-07-31).** Carries the standing revision-discipline rule — these series revise prior months every release. |
+| `reports/` | **Session reports, drafts-for-ratification and grading sheets — ADDED to this table 2026-08-23 (DAEDALUS Tier-4, confirmed absent).** ⚠️ **Not boot-read: anything here that needs an action must ALSO have a `docket/CATALYSTS.tsv` row, or it is unreachable at boot.** Live now: the **non-funding-leverage RIDER DRAFT awaiting Will's ruling** (docketed) and the 8/23 refresh plan. |
 | `state_vectors/` | Historical record of the retired SV channel — do not write new SVs |
 | `archive/` | Pre-promotion build artifacts (>60d, retired per Data Hygiene rule) |
 | `inbox/`, `inbox/WALTER/` | Inbound signals; `processed/` subdirs hold actioned items |

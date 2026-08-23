@@ -264,13 +264,13 @@ Their extension: *"the composition shift isn't noise against my thesis, it IS my
 - **250-line cap DEMOTED to advisory.** ⛔ **Never compress live prose to satisfy a size rule — that is what produced the 820 B/line file.**
 - ✅ **Byte check WIRED INTO CLOSEOUT as a one-liner**, because the line cap was itself a remembered ritual I honoured flawlessly while it did harm.
 
-**RESULT, same session: 203,369 → 147,395 B (−28%), 248 → 210 lines, density 820 → 701 B/line, ZERO data removed.** Two archives created: `archive/STATUS_narrative_archive_2026-08-23.md` (aged BOTTOM LINE + 8/13 & 8/12 header blocks) and `archive/STATUS_closed_open_items_2026-08-23.md`.
+**RESULT, same session: 203,369 → ~147,000 B *(measured AT THE PASS; a byte figure about a file, stored IN that file, cannot stay exact — writing it changes the thing measured)* (−28%), 248 → 210 lines, density 820 → 701 B/line, ZERO data removed.** Two archives created: `archive/STATUS_narrative_archive_2026-08-23.md` (aged BOTTOM LINE + 8/13 & 8/12 header blocks) and `archive/STATUS_closed_open_items_2026-08-23.md`.
 
 ★★ **AND THE SECOND FINDING CAME FROM HUNTING THE LAST 14KB: OPEN ITEMS measured 36KB of which 17KB — nearly half — were items ALREADY CLOSED.** **A closed item written up with its ruling, evidence and date READS AS DILIGENCE**, so no cleanup pass removes it, and it accumulates under a heading promising the opposite. ⇒ **An OPEN ITEMS list that retains closed items is a CHANGELOG WEARING A WORK QUEUE'S NAME — the boot reader cannot tell which rows still want work, which is that section's only job.** **Test: "if a reader worked only these rows, would they waste time?" — not "is each row accurate?" They were all accurate. That was the problem.**
 
 ## ⚠️⚠️ ELEVENTH PASS — WILL ASKED "AND THIS IS FIXED NOW?" AND THE HONEST ANSWER WAS **NO**
 
-**I had reported the byte tier as done with a measured result (203KB → 147KB, −28%) and every element of that report was TRUE. The system was still inconsistent.**
+**I had reported the byte tier as done with a measured result (203KB → ~147KB *(measured at the pass)*, −28%) and every element of that report was TRUE. The system was still inconsistent.**
 
 **✅ What was genuinely working:** tier stated · closeout check wired AND returning `OK` · STATUS under both tiers · retention rule holding (3 session dates; BOTTOM LINE = 8/23 only) · archives committed and pushed.
 
@@ -287,6 +287,21 @@ Their extension: *"the composition shift isn't noise against my thesis, it IS my
 
 ## ★ AND THE META-LESSON, WHICH IS THE ONE I WANT TO KEEP
 **"Is this fixed?" is a different question from "did I do the fix?" — and I answered the second.** My report described **the WRITE I performed**; the question was about **the STATE of the system**. Those diverge exactly when a change has scattered dependents, which is most changes worth reporting. ⇒ **Before reporting a structural change as done, RE-DERIVE THE CLAIM FROM THE FILES, not from the session's own record of what it did.** ⚠️ **And expect the guard you just built to pass — it was designed against the defect you already found, not the one you left behind.**
+
+## ✅ TWELFTH PASS — QC SWEEP OF THE WHOLE SESSION (Will-directed: "don't invent problems")
+
+**15 commits, 22 files, swept on 10 axes.** ✅ **CLEAN: TSV column integrity (8 files) · every referenced path resolves · figure consistency across surfaces · `Resolve_By` values consistent with their Timeframes · rung-census 4+5=9 split consistent on all six surfaces carrying it · all three cross-agent packets verified ON ORIGIN · docket keys all future-or-recurring · "zero data removed" VERIFIED (144/145 substantive pre-archive lines located; the 145th amended in place, not deleted).**
+
+**⚠️ THREE REAL DEFECTS FOUND AND FIXED:**
+1. **`NEXUS_BRIEF:47` still asserted the WITHDRAWN "the gap is widening"** — the correction sat as a **separate item in the same file.** ⛔ **This is EXACTLY the defect I returned to REGINALD about their `NEXUS_BRIEF:23` this morning: a correction elsewhere in a file does not join the claim.** **On the cross-agent surface.** Fixed with the withdrawal on the same line.
+2. **`PRICING.tsv:32` row title asserted the withdrawn framing** ("RENTS ACCELERATING **AND** CONCESSIONS RISING") **with no supersession marker.** In a TSV this matters more — **rows are read independently.** Now self-labels.
+3. **A self-referential stale figure: I published "203,369 → 147,395 B" and the file is now 145,389 B**, because I rewrote item 20 afterwards. ★ **A byte figure ABOUT a file, stored IN that file, cannot stay exact — writing it changes the thing measured.** Re-stated as *"measured at the pass."*
+
+**✅ ALSO CLOSED: `reports/` added to the FILES table** (DAEDALUS Tier-4, confirmed absent) **with the caveat that matters — it is NOT boot-read, so anything there needing action must ALSO carry a docket row.** The rider awaiting Will's ruling is docketed, so it was already reachable.
+
+## ★★ THE METHOD NOTE — MY OWN CHECKS PRODUCED SIX FALSE POSITIVES, AND JUDGING EACH IS WHAT KEPT THEM OUT
+**A `−2.4%` regex matched 8 files** (any metric at that value) · **two adjacency flags were the corrections themselves**, quoting the withdrawn claim in order to withdraw it · **the PROME packet read "MISSING ON ORIGIN"** when PROME had **consumed and filed it to `processed/`** — a path check cannot distinguish *never delivered* from *delivered and consumed* · **the "deleted line"** was amended in place · **the "past-dated docket rows"** were dates inside annotation text, not row keys.
+⇒ **6 of 9 flags were artifacts of the checks, not the work.** ★ **Reporting the flag COUNT would have manufactured six problems on a sweep whose instruction was not to.** **A QC sweep's output is the ADJUDICATED list, never the flag list** — and the adjudication is most of the work.
 
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
