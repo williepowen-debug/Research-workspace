@@ -22,6 +22,7 @@
   "GATE-BRENT-DEPLOY-V2": "RETIRED",
   "GATE-BRENT-SUSTAIN": "RESOLVED",
   "GATE-BRK-C1": "RESOLVED",
+  "GATE-CORAL-MSI-01": "LIVE",
   "GATE-CREED-T02": "RESOLVED",
   "GATE-FALCON-001": "LIVE",
   "GATE-FERT-G3": "LIVE",
@@ -56,6 +57,10 @@
   "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-\u2026",
   "72": "T6 conjunctive-clause word \u2014 the FORUM fin-cond T6 hard close is 8/29\u2026",
   "73": "BOND T6 frozen-text repairs await Will's word \u2014 AND one clause the 8/\u2026",
-  "74": "Row-58 oil exit LEVELS return for ratification \u2014 the 8/21 ruling chos\u2026"
+  "74": "Row-58 oil exit LEVELS return for ratification \u2014 the 8/21 ruling chos\u2026",
+  "84": "Rule-6b leg 3b \u2014 WALTER's re-score came back WRONG-not-stale, and it\u2026",
+  "86": "Rule gap, demonstrated TWICE IN ONE DAY IN OPPOSITE DIRECTIONS: nothi\u2026",
+  "87": "\ud83d\udd34 OSPREY's 8/17 ruling contains a conflict between its OPERATIVE TEST\u2026",
+  "88": "\ud83d\udfe0 GATE-LIQ-076's W1 leg reported NOT FIRED every week while the posit\u2026"
  }
 }
