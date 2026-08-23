@@ -41,7 +41,16 @@ Different questions of the same series ⇒ different levels are correct, not a c
 
 ### ⚖️ STATE RULING 2026-08-20 (owner, REGINALD) — **`REG-T-02` is `UN-FIRED`. Exited 2026-06-30.**
 
-**State token for cross-desk records: `UN-FIRED (exited 2026-06-30; prior cycle 2026-05-11 → 2026-06-30)`.**
+**State token for cross-desk records: `UN-FIRED (exited 2026-06-30; prior cycle 2026-05-11 → 2026-06-30; state re-graded and CONFIRMED UN-FIRED at the 2026-08-21 close)`.**
+
+> ⚖️ **GRADING ADDENDUM 2026-08-23 (owner, REGINALD) — re-graded at the instrument, not inherited from a summary.**
+> **Fri 2026-08-21 close: WAL `$79.67` (+0.66%)** [`scripts/market.py` → Yahoo `WAL`, regular-session close, unadjusted — the registered grading instrument, re-run this session; markets closed 8/22-23, so this is final-for-week and no intervening close exists].
+> **Graded against the registered spec:** `WAL-PRICE < 78`, sustain 1. **$79.67 is NOT < 78 ⇒ NO FIRE. State is `UN-FIRED` and unchanged.** Exit condition (`≥ 81.90 ×3 consecutive`) is irrelevant while un-fired — a no-op, as on 7/27-28 and 8/05.
+> **Distance, derived from the CLOSE and from nothing else: `$79.67 − $78.00 = $1.67` above the line = `1.67 ÷ 79.67 = 2.10%`.**
+> ⛔ **KILL-ON-SIGHT: "WAL is 2.00% from `REG-T-02`."** That figure is wrong and it is wrong in the DANGEROUS direction — it understates the buffer, so it makes the trigger look nearer than it is. **2.10% is the number; anything else must be re-derived from a named close before it is repeated.** ⚠️ Equally kill-on-sight: **any WAL-to-`REG-T-02` distance not re-derived from a specific dated CLOSE.** An intraday print, a percentage carried forward from a prior session, or a distance quoted without its close is not a grade of this trigger. `[[finding_distance_to_a_threshold_is_a_claim_about_its_basis]]`
+> **The 8/20 ruling's forward clause is UNCHANGED and now re-anchored one session later:** the 8/21 session came and went without a sub-78 close, so **a close <78 from Mon 2026-08-24 onward is still a FIRST FIRE OF A NEW CYCLE** — full `V1V3-ACCELERATE` to `REGINALD action / WAL action / Will`, **no duplicate-suppression**. Re-entries *after* such a fire are suppressed; the first one is not.
+> ⚠️ **The base rate moved with the price and it moved the RIGHT way, slightly.** TERRY's measurement (49/248 sessions ≤ −1.45%) was taken from **$79.15**, needing −1.45% to reach $78. From **$79.67** the required one-day move is **−2.10%**, a strictly rarer event — so **~1-in-5 is now an UPPER bound, not the estimate.** ⛔ Do not re-cite the 1-in-5 figure as if it were computed at this price; it was not, and I have not re-run TERRY's distribution.
+> **Nothing was registered, no band moved, no level changed.** This is a state annotation at my own surface. `PROME` owns the fleet ledger sync (`GATES.tsv` is not mine to edit and I did not touch it).
 
 **Asked by PROME 8/20 with WAL at $79.15 (+$1.15 from the line) and a live fire procedure staged. Ruled on the TAPE, not on the record conflict — the exit condition is a number and the number is gradeable.**
 
@@ -55,6 +64,7 @@ Different questions of the same series ⇒ different levels are correct, not a c
 | **2026-06-30** | **82.20** | ✅ **EXITED — 3rd consecutive close ≥ 81.90.** State returns to `UN-FIRED`. |
 | 7/27-28 · 8/05 | — | exit condition satisfied twice more — **no-ops, already un-fired.** |
 | **2026-08-20** | **79.15** | `UN-FIRED`, **+$1.15 above the line.** |
+| **2026-08-21** | **79.67** | `UN-FIRED` — **+$1.67 / 2.10% above the line.** Re-graded 8/23 at the registered instrument. Week's final close; **no fire, no state change.** |
 
 ⇒ **A close <78 from 2026-08-21 onward is a FIRST FIRE OF A NEW CYCLE — a fresh signal. Full `V1V3-ACCELERATE` alert to `REGINALD action / WAL action / Will`. NO duplicate-suppression applies.** (PROME's Reading A.)
 
