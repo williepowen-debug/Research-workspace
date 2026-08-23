@@ -1,7 +1,7 @@
 ---
 name: finding_header_edit_is_the_edit_most_mistaken_for_maintenance
-description: "Updating a doc's header/version/Last-Updated line is the single edit most likely to be mistaken for maintaining it — the header is what a reader checks for freshness, so a correct header over a stale body is worse than an obviously old file; n=3 in one sweep, each surviving 21+ days"
-symptoms: "the header says it was fixed but the body still says the old thing; Last Updated is today and the number is from July; a file I maintain well is the one carrying the stale value; two sections of the same file contradict each other; a re-stamp is not a re-read"
+description: "Updating a doc's header/version/Last-Updated line is the single edit most likely to be mistaken for maintaining it — the header is what a reader checks for freshness, so a correct header over a stale body is worse than an obviously old file; n=3 in one sweep, each surviving 21+ days. ⚠️ THE INVERSE ALSO OCCURS AND IS NASTIER — a FRESH body leaving a STALE HEADLINE standing, +3 surfaces in one file 2026-08-23 (CORAL); see the foot of this file"
+symptoms: "the summary still says the gap is open but the section below says it was ruled · the headline contradicts the body in the same commit · I fixed the line that was reported and left two · the header says it was fixed but the body still says the old thing; Last Updated is today and the number is from July; a file I maintain well is the one carrying the stale value; two sections of the same file contradict each other; a re-stamp is not a re-read"
 metadata:
   type: feedback
 ---
@@ -34,3 +34,18 @@ Distinct from [[finding_banner_is_a_warning_not_a_fix]] (a banner correctly *war
 **★ The sharpening:** the original n=3 read as *authors announce a change in the header and forget the body*. These three are worse — **nobody announced anything.** The header was simply *refreshed*, repeatedly, by a diligent owner, and each refresh **re-certified** everything beneath it. ⇒ **The risk is not proportional to neglect; it is proportional to how OFTEN you re-stamp.** The file you maintain most attentively is the one whose stale cells are hardest to see, because its freshness signal is always true and always about something else.
 
 **Added to "how to apply":** at closeout, **re-read the DERIVED CELLS — state columns, buffer/distance cells, footers, history lines — not just the sections you edited.** A cheap mechanization: list every cell in the file that restates a number owned elsewhere, and check those, not the prose. *(WAL's `scripts/derived_drift_check.py` does exactly this by scanning rather than by an enumerated list.)* And: **never quote a distance/buffer figure without re-deriving it from a named dated observation** — cf. [[finding_distance_to_a_threshold_is_a_claim_about_its_basis]].
+
+---
+
+**THE INVERSE, 2026-08-23 (CORAL, PROME-caught then CORAL-swept) — a FRESH body leaving a STALE HEADLINE standing. Same file, SAME COMMIT.**
+
+CORAL encoded a Will-ruled stand-down condition into `STATUS.md` §A. **The same commit left §5's headline reading *"…AND THE LEG HAS NO REGISTERED STAND-DOWN"*** — a claim its own §A had just falsified. PROME flagged that one line. **CORAL then swept by PHRASE rather than fixing the reported line, and found TWO MORE**: the `Last Updated` header and the pillar-2 dashboard row. **Three summary surfaces asserting a gap the file had already closed.**
+
+🔑 **Why the inverse is nastier than the classic form.** A stale header over a fresh body is caught by anyone who reads the body. **A stale headline over a fresh body is invisible to exactly the reading pattern headlines exist to serve** — a reader skimming section headings is doing the correct thing and gets the superseded state. **The body is the edit you are thinking about; the summaries are the ones that travel.**
+
+## How to apply
+
+- 🔴 **When an edit changes a STATE — gap→ruled, open→closed, pending→graded, unregistered→registered — grep the WHOLE FILE for the OLD state's phrasing before committing.** Not the line you were told about: **fixing only the reported instance is its own version of the failure** (1 reported, 3 actual, here).
+- ⚠️ **BOUNDARY, and the sweep needs it or it destroys the record: distinguish LIVE-TENSE from HISTORICAL.** *"The leg HAD no falsifier, and it was ruled"* is **correct and must be left alone**; only present-tense assertions of the superseded state are defects. CORAL fixed 3 and **deliberately left 3 standing** in SCRATCH/MEMORY/KB. **A sweep that overruns erases the evidence that the gap ever existed**, which is the part worth keeping (`[[finding_a_correction_pass_is_unreviewed_work]]`).
+- **The grep is on the OLD state's WORDS, not on the new state's.** You are looking for surfaces that never learned, and they are phrased in the vocabulary you have just stopped using.
+
