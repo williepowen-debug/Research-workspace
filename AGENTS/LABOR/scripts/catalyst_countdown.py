@@ -83,12 +83,34 @@ def main():
             upcoming.append((edate, c))
 
     upcoming.sort(key=lambda x: x[0])
+    past.sort(key=lambda x: x[0])
+
+    # PAST-DUE block — printed UNCONDITIONALLY and FIRST.
+    # Boot step B5 requires verifying every catalyst dated <= today that is not yet
+    # resolved. Because fired rows are PRUNED at closeout (C2), a row still present
+    # past its date reads as "not yet graded" -- which is exactly the class B5 exists
+    # to catch. This block used to print only when `upcoming` was empty, so on every
+    # normal boot (upcoming non-empty) past-due rows were silently dropped and B5 ran
+    # against a surface that could not show its own target class. Two HIGH rows sat
+    # past-due and unflagged until PROME's external summons check found them.
+    # Fixed 2026-08-23. Second defect fixed same edit: `past` was never sorted, so the
+    # old `past[-1]` reported the last row in FILE order, not the most recent date.
+    if past:
+        print(f"\n  {'='*68}")
+        print(f"  \u26d4 PAST DUE — {len(past)} row(s) dated <= today and NOT pruned")
+        print(f"  A present past-due row reads as UNGRADED (fired rows are pruned at C2).")
+        print(f"  {'='*68}")
+        for edate, c in past:
+            overdue = (today - edate).days
+            pri = c.get("priority", "").strip() or "-"
+            print(f"  [{pri:<4}] {edate.strftime('%Y-%m-%d')} ({overdue}d overdue)  {c.get('event','')}")
+            note = (c.get("notes", "") or "").strip()
+            if note:
+                print(f"         \u21b3 notes: {note[:150]}")
+        print(f"\n  \u2192 Grade, re-date, or prune each row above before new analysis (B5/C2).")
 
     if not upcoming:
         print(f"\n  No catalysts within {horizon} days.")
-        if past:
-            last = past[-1]
-            print(f"  Most recent past: {last[0].strftime('%Y-%m-%d')} — {last[1].get('event', '')}")
         return 0
 
     imminent = []
