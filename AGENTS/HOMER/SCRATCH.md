@@ -65,6 +65,26 @@ Their STATUS carries the band correctly (`ML-REG-162`), verified at their tree. 
 6. **~9/4 — TWO DATED KILLS FIRE OR CLEAR.** Pre-committed; do not re-litigate into another month.
 7. **Will has new signals queued** — he held them to let this sweep run first. **Take them next.**
 
+## ★★ POST-CLOSEOUT ADDENDUM — the retroactive sweep my own fix implied, prompted by PROME
+
+PROME's reply generalized the docket gap as *"defects sitting in old stock that no clean check can see, because the check is pointed at what exists rather than at what should."* **That applies to my own remedy and they did not say so.**
+
+**My age audit sorted the DASHBOARD by vintage — so it could only see sources that already HAVE a row. And my docket fix was forward-only** (`finding_a_ruling_governs_the_next_write_not_the_existing_state`). So I enumerated every source in `CLAUDE.md`'s Key Data Sources table against docket AND live-surface coverage.
+
+**Three sources scored docket:0. Two are benign and are recorded so nobody re-investigates them:**
+- **MBA Weekly Apps** — docket:0 but STATUS:6 / ledger:4, current to wk 8/14. Pulled every session; undocketed but not stale.
+- **Apollo/Slok** — superseded in practice by Zillow rent data since 7/31. A **charter/practice divergence**, not a staleness gap.
+
+**★★★ The third is real: GOOGLE TRENDS — the ONLY charter-named source with docket:0 AND STATUS:0.**
+- **`CARL/STATUS.md:42` carries `"Help with mortgage" | ALL-TIME HIGH | Mar 2026 | 🔴🔴` — a live double-red, five months stale.** My `PIPELINE.tsv` carries the same figure, **and I had labelled it `[STALE — Mar]` myself and never resolved it.** ⇒ **A self-applied stale tag that survives five months is a note that REPLACED the work, and it is worse than an unlabelled row because it reads as handled.**
+- **Instrument TESTED, not inherited:** CARL's TRENDS.tsv claimed manual-only; the keyword time-series endpoint returns **429**, the trending RSS returns 200 but **cannot yield a keyword index**, pytrends absent. **The claim holds, now with a date on it.**
+- **★ WHY IT ORPHANED IS A SEAM DEFECT: my charter names the SOURCE, CARL's charter takes the INTERPRETATION, and NEITHER says who PULLS it.** A manual-only instrument with no collection owner never gets run.
+- ⇒ **Third variant of the untrippable-threshold family in two days: 8/22 the COMPARATOR could not fire · 8/23 the Cure Rates FEED was stale · here the COLLECTION STEP is impossible and unowned.**
+- ✅ **Packet to CARL with a three-way FREEZE / REFRESH / RETIRE decision — their row, their call.** My stated preference: freeze now. ⛔ **Do not invent a direction for the March reading**, and **if CARL retires it the retirement must be PUBLISHED** — `KB-HMR-019`/`KB-HMR-043` carry it on my side.
+- **Docket row added; chase at CARL's next boot.**
+
+⚠️ **The self-correction I gave PROME and would keep: the string sweep was NOT the weak instrument.** The tempting write-up is *"string sweeps are weak, age audits are strong"* and it is false — **the cheap complete check is what buys the license to keep looking.** The same holds one level up: the age audit found four series, and only enumerating the CHARTER found the fifth.
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
