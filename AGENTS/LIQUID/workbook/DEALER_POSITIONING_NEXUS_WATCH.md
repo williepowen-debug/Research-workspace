@@ -26,6 +26,42 @@ A hot CPI 7/14 landing on a completed arm-#2 (10Y 5-of-5 ≥4.50 if Mon holds) h
 
 The directional/RV split of the short is **not knowable from free data** (CFTC doesn't tag strategy; per-expiry positioning unpublished — front-vs-deferred strip placement is a labeled unknowable). Observable structure leans **substantially directional** (build tracks the hike-repricing exactly; asset managers same-side short since 5/5; 185 traders = broad; press/analyst framing = higher-for-longer), with a **real but unsizable RV component** (dealer mirror-long = warehoused hedging flow; record SOFR-FF spread volumes). Consequences: (a) the squeeze mechanic runs on the *directional share only* — a soft CPI puts the short offside and the cover bid lands in the FRONT-END/STIR complex; transmission to the 10Y is indirect (steepener impulse), so "forced cover caps the 10Y" over-claims; (b) **at any W1 cover, check swap spreads / SOFR-FF spread concurrently: spreads stable while shorts cover = directional squeeze confirmed; spreads moving with the cover = RV unwind, less systemic.** Full evidence table → `research/2026-07-11_sofr-deep-dive.md` §3.
 
+## ★ GRADED — Sun 2026-08-23 (the overdue leg-(a) pass; covers 7/21 → 8/18 CFTC, → 8/12 NY Fed PD, → 8/21 MOVE)
+
+**Overdue since 7/25** — carried on the owed list through five closeouts. Graded tonight off a purpose-built reusable fetcher, `scripts/cftc_tff_rates.py` (CFTC TFF **raw files**, not Socrata; as-of dates are TUESDAYS, files publish Fri ~15:30 ET).
+
+**Verdict: CONJUNCTION NOT MET — 0-of-3.** No joint PROME/NEXUS write-up owed. **But the shape is the finding: two legs printed their CLOSEST-EVER approach in this window while the third moved decisively the other way.**
+
+| Leg | Grade | Data [as-of] | vs terms |
+|-----|-------|--------------|----------|
+| **W1 — SOFR-3M lev net** | **NOT FIRED** — *closest approach on record* | net **−2,530,893 [8/18]** (L 1,052,967 − S 3,583,860). Weekly ΔNET across the window: +92,780 [7/21] · **+248,236 [7/28]** · −86,148 [8/04] · −27,730 [8/11] · +28,923 [8/18] | (a) new record past −2,950,000? **NO** — moving *away*, 413K less short than the −2,943,898 [6/30] peak. (b) one-week cover >300,000? **NO** — but **248,236 [7/28] is the LARGEST single-week cover in the series, 83% of the line**, 51,764 short of firing. It landed in **FOMC week** (7/28-29) and reads directional/policy-path, not RV — the expected signature per the §Basis-vs-directional discriminator |
+| **W2 — dealer warehouse** | **NOT FIRED** — *and moving decisively AWAY from the line, in the direction that matters* | **G10 −$6,929mm [8/12]**, the least-short print of the window (7/15 −9,319 · 7/22 −9,735 · 7/29 −8,855 · 8/05 −9,157 · **8/12 −6,929**). **G5L10 +$1,921mm [8/12]** — 7/29 +793 · 8/05 +508 · **8/12 +1,921** | G10 < −$12.0B? **NO** (−$6.9B; ~$5.1B of room, and the 2026 extreme −$11,663 [6/10] is receding). G5L10 < −$800mm ×2 consecutive? **NO** — it never reached −800 once, and the last **three** prints are strongly **positive**. Source: NY Fed PD API `PDPOSCSBND-G10`/`-G5L10`, series break **resolved at runtime** (`SBN2024`) — ⚠️ a stale break returns a valid 200 whose data stops in mid-2024, and a mis-cased code returns an EMPTY 200; both traps hit me tonight before the fix (BOND's `fr2004_fetch.py` documents them) |
+| **W3 — rates-vol** | **NOT FIRED** — *closest approach* | **MOVE 73.40 [8/21]**, window max **83.02 [7/31]** (also 80.48 [8/03], 80.08 [7/23]); **VIX 15.13 [8/21]** | MOVE >85 while VIX <20? **NO** — but 83.02 is **1.98 points** under the line **with the VIX condition satisfied**, the nearest W3 has come. VIOLET-owned figure |
+
+### ★ THE FINDING — W1 IS BLIND TO THE BEHAVIOUR IT WAS BUILT TO WATCH (→ KB-LIQ-097)
+
+**The pin has materially unwound and W1 could never have said so.**
+
+| SOFR-3M lev net | as-of | contracts |
+|---|---|---:|
+| peak | 6/30 | **−2,943,898** |
+| now | 8/18 | **−2,530,893** |
+| **cumulative** | 7 weeks | **+413,005 covered (−14.0%)** |
+
+At the spec's own $240–250K/contract band that is **≈ −$100B of notional pin removed** (≈$707–736B → ≈$607–633B). **413,005 exceeds W1's own 300,000 trigger by 38% — and no weekly print came close**, because it arrived as a **seven-week bleed averaging ~59K/week.**
+
+> **W1 keys on a WEEKLY delta. The position is exiting on a MULTI-WEEK drift. A weekly-delta trigger cannot see a cumulative one — it is shaped to catch a squeeze and is blind to an orderly exit, which is the more likely way a record position actually leaves.**
+
+This is the time-dimension twin of KB-LIQ-095/084/080: an instrument that cannot see the thing it was built for because of how it aggregates. **⚠️ Route-out owed to PROME — GATE-LIQ-076's W1 wording needs a cumulative leg. I do not edit GATES.tsv.** Suggested, not adopted: *"OR cumulative net change ≥300,000 over any rolling 8-week window."* On the current tape that leg would have fired ~8/04 and would be firing now.
+
+**Directional-vs-RV read on the 248,236 cover [7/28] (discriminator applied):** it is 8.4% of the position and landed in **FOMC week**. Same class as the 7/14 cool-CPI cover, one size up: a **directional/policy-path** trim, not an RV unwind and not a squeeze. Consistent with W2 moving the *opposite* way — a genuine funding-stress unwind would push dealer warehouse short *wider*, and it went from −$9.6B to −$6.9B while the 5–10y bucket flipped **net long**.
+
+**Cross-read that matters more than the grade:** W2's direction independently corroborates BOND's benign dealer read *and* my 8/23 KB-BND-092 refutation. **Dealers are ADDING inventory, not shedding it** — a withdrawing warehouse bid is the one thing all three theses would have needed, and it is absent in the series built to measure it.
+
+**Next graded read:** CFTC TFF Fri **8/28** (as-of Tue **8/25**) — ⚠️ **this is also the 8/26 5Y auction's positioning read, and it publishes two days AFTER the auction (KB-LIQ-096). Do not grade the 8/26 auction's basis leg on 8/26.** NY Fed PD ~Thu **8/27** (as-of 8/19).
+
+---
+
 ## GRADED — Sat 2026-07-18 (post-CPI COT [as-of 7/14] + PD [as-of 7/8], primary files)
 
 **Verdict: CONJUNCTION NOT MET — 0-of-3 legs fired.** No joint PROME/NEXUS amplification write-up owed. The hot-print-into-loaded-book scenario did not materialize: CPI 7/14 printed COOL, so the loaded short was not squeezed and dealer capacity was never tested.

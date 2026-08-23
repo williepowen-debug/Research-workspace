@@ -4,7 +4,19 @@
 
 **Purpose:** Pre-written 1-pager so the decision is mechanical when a level is touched, not re-thought under tape pressure. **Two-sided:** the **kill/exit** side (<260, original) AND the **widening/confirm-escalate** side (>280 X1 decoupling / >320 confirmation) — the live regime is now on the WIDENING side.
 **Built:** 2026-05-18 (revival session — kill side). **X1-confirm side added 2026-06-25.**
-**Current state (7/17):** X1 gate **CLOSED both halves** — HY OAS **271bps [7/15]**, well inside the 265–280 hold band (9bp under 280; the 6/26-30 283→280→275 tag was ruled TAGGED-NOT-SUSTAINED and has since faded). BROCK's wrapper-leads half still **LAGS** (7/4 adjudication, unrevisited). The oil-beta re-approach path graded **MISS** (KB-LIQ-080 — Brent $76→$86 via the formal 7/11-12 Hormuz closure, HY did not widen). **NEW pre-emption path alongside this ladder:** the funding-seizure **SCOPED** gate (KB-LIQ-079 / `FUNDING_SEIZURE_GATE_SCOPED.md`) lets the bear fire on a funding/dispersion conjunction even if HY never prints 280 — scoped to funding-origin, no seizure now (acute 25bp below arm). Book FLAT of LIQUID single-names. *(Live bps + active rung: `scripts/boot.py` / `alerts/HY_OAS_STATE`.)*
+**⚠️ STATE AS-OF 2026-08-23 — VERIFY LIVE BEFORE ACTING (`scripts/boot.py` / `alerts/HY_OAS_STATE` are canonical; this line is a pointer, never a quote).**
+*Relabelled and refreshed 8/23 on a DAEDALUS falsification-sweep flag. The previous line was headed "Current state (7/17)" and was **37 days old inside a file whose stated purpose is to be read under tape pressure and not re-thought** — the worst possible place for a stale level. It is now dated-as-of by construction rather than presented as current.*
+
+**★ AND THE STALENESS HID THE ONE EVENT THIS MEMO EXISTS FOR — recorded here now, because the ladder tagged and this file never said so:**
+- **7/27–7/29: HY OAS CROSSED 280 and SUSTAINED 3-of-3 (281 → 284 → 287).** The **X1 LIQUID half TAGGED** — the first time the widening side of this ladder ever fired.
+- **7/30: the tag was ATTRIBUTED and it was BETA (KB-LIQ-091)** — 68–84% broad DM HY beta, 15–30% AI/data-center, **~0% bank/CRE (HIGH confidence)**. ⚠️ **Read any future 280-cross against this before treating it as credit recognition: the one time this level fired, it fired on a mechanism the ladder was not built for.**
+- **8/3: the 280 line BROKE**, and has not been recrossed in 13 sessions.
+- ⚠️ **Even at 287 with sustain 3-of-3, X1 did NOT fire — and could not have.** X1 is **CONJUNCTIVE** and **BROCK's wrapper-leads half failed independently on 7/27**, unrevisited since. **No HY level alone can make this "X1 MET."**
+
+**State as-of 2026-08-23 (own FRED pull, obs 8/20):** **HY OAS 275bps** — inside the 265–280 hold band, **5bp under 280**, **15bp above the <260 kill**: between both lines and **nearer the trigger**. **X1 CLOSED on the level; BROCK half still failed.** Tier stack: **CCC 1035 (>1000 trip live continuously)**, BB 163, **CCC−BB 872**. **Book FLAT of LIQUID single-names.** **APO $132.69 [8/21 raw close] — back above $130, co-trigger day-count 1-of-3** (needs ×3 sessions; raw closes only).
+**Pre-emption path alongside this ladder, unchanged:** the funding-seizure **SCOPED** gate (KB-LIQ-079 / `FUNDING_SEIZURE_GATE_SCOPED.md`) lets the bear fire on a funding/dispersion conjunction even if HY never prints 280 — scoped to funding-origin. **NOT ARMED** (needs +30bp **AND** non-calendar **AND** ≥2 consecutive; currently **+3bp**). ⚠️ **R1 binding: a 079 fire is NEVER "X1 MET."**
+**Oil-beta re-approach path: graded MISS** (KB-LIQ-080), and reframed by BRENT to *"oil→**blended**-HY beta is weak, and the blend is the wrong instrument"* — a masking result, not a null.
+
 **Trigger source:** HEARTBEAT line 80 (*"Reassess if APO >$130 for 3 sessions or HY OAS <260 sustained"*) + the X1 decoupling conjunction (KB-LIQ-062: wrapper-leads [BROCK] **AND** HY>280 [LIQUID]).
 **Why this exists:** one shock day touches a level; the memo fires *before* the breach so execution is calm — on either side.
 

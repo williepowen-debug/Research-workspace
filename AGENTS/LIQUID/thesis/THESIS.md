@@ -126,7 +126,7 @@ LIQUID stands down its bear thesis when:
 | HENRY | Equity / VIX / gamma context, retail flow signals |
 | CARL / OTTO | Consumer credit health (ABS, subprime auto DQ, payment hierarchy) |
 
-**BOND placeholder:** BOND agent scaffold exists (`AGENTS/BOND/`) but is not yet active. When BOND stands up, the following will migrate to BOND-primary with LIQUID-receive interface: yield curve dynamics, term-premium decomposition, granular auction absorption mechanics, dealer positioning. The thesis-level legs (FOI demand hole as flow, basis-trade leverage) remain with LIQUID.
+🔴 **CORRECTED 2026-08-23 — BOND IS ACTIVE and has been for months; this line said "not yet active."** The migration described below **has happened**: BOND owns the curve/term-premium/dealer-composition side and we run live joint work (T6 30Y benign-bucket test, co-owned with a Will-ruled frozen spec; KB-BND-092, adjudicated by LIQUID 8/23; the FR2004 dealer-unwind read; the 9 Sep buyback classification, which is BOND's to adjudicate). ⚠️ **A stale "not yet active" line inside a thesis is worse than a stale number — it tells a reader an entire cross-agent interface is dormant when it is carrying live work.** Superseded text kept: *"BOND agent scaffold exists (`AGENTS/BOND/`) but is not yet active."* When BOND stands up, the following will migrate to BOND-primary with LIQUID-receive interface: yield curve dynamics, term-premium decomposition, granular auction absorption mechanics, dealer positioning. The thesis-level legs (FOI demand hole as flow, basis-trade leverage) remain with LIQUID.
 
 ---
 
