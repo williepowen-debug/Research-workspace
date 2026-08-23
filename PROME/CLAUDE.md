@@ -58,6 +58,15 @@ Ask Will before:
 - Force-pushing, or force-syncing / stashing / resetting / deleting unknown work.
 - Editing active files owned by persistent Claude Code agents in ways that could conflict with them.
 
+**⚠️ Spawn default — READ THIS BEFORE SAYING WHAT YOU MAY SPAWN (Will-ruled 2026-08-22, verbatim *"ok go forward approved"*; record `PROME/proposals/2026-08-22_dark-owner-doorbell-RULED.md`).** Spawn authority is **TIERED, and it is NOT ask-first by default.** ⛔ **The claim "PROME spawns read-only subagents only" is FALSE — PROME said it to WALTER and to Will on 8/22 and Will refuted it.** The tiers, from `AUTONOMY.md`:
+> - **Tier 1, FREE:** read-only research/verification spawns · **follow-up spawns inside an already-approved workstream** (same direction) — *including a full domain-desk session that integrates and commits.*
+> - **Tier 2, PROPOSE:** a **new-direction** domain spawn. A **cost** gate, never a prohibition.
+> - **Tier 3, ALWAYS ASK:** trade proposals, spend. Every spawn runs **report-before-execute**, so a trade rec returns to Will regardless of tier.
+>
+> **Dark-owner doorbell triage (three outcomes, ruled 8/22):** ① follow-up in an approved workstream ⇒ **spawn now, Tier 1**, and the spawn **drains that desk's whole WALTER inbox**, not just the triggering item · ② new direction on a *registered* clock ⇒ **Tier-1 read-only pre-fetch now** (§3.5.2: a read-only instance may read and act but **MUST NOT** mark the item consumed — a falsely-cleared inbox is worse than an unconsumed one) **+ Tier-2 proposal to Will** for the full session · ③ neither ⇒ normal inbox. **WALTER recommends; WALTER never spawns.**
+>
+> ⚠️ **Why this lives HERE and not only in `AUTONOMY.md`:** AUTONOMY is **not boot-read** and this file **is** auto-injected. On 8/22 PROME mis-stated its own spawn authority by reading SCRATCH's spawn *ledger* — a record of what it DID — as a rule about what it MAY do, and declined a grant the fleet had already given. `[[finding_scope_boundary_asserted_from_proximity]]` — read the grant, never infer the lane. Tier detail + change log → `PROME/AUTONOMY.md`.
+
 **Git default (owned by root `CLAUDE.md` Git Protocol):** committing your **own `PROME/` files** and **auto-push at closeout** via `scripts/safe-push.sh` (ff-gated, fails safe) is the standard — *not* ask-first. A non-ff abort = another SESSION pushed — usually a concurrent same-box agent, not necessarily the other machine (routine; re-based 8/3, CORAL/RED) → **do not force; `git pull --rebase --autostash` + re-push**; escalate to Will only on out-of-dir rebase conflicts or non-ff persisting through a completed rebase→re-push cycle. Never `git add -A` / `git add .`; use pathspec commits (see `PROME/GIT_COORDINATION.md` → Commit cookbook for PROME's exact recipes). Broader autonomy tiers → `PROME/AUTONOMY.md`.
 
 ---
