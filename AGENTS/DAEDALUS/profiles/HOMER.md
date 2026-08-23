@@ -1,5 +1,22 @@
 # HOMER — DAEDALUS Comprehension Profile
 
+> ⚠️ **SUPERSEDED IN PART — 2026-08-22. READ THE REVIEW FIRST, NOT THIS FILE.**
+> A full Will-directed structure review ran 2026-08-22 (4-reader Mode-A fan-out). Its findings are current;
+> this profile is the **2026-08-07** comprehension layer built against **61 files** (the tree is now 89) and
+> its "Owner-lane flags (ranked)" section is **materially out of date** — five of its 🔴/🟠 flags have since
+> CLOSED (the 94%-multifamily brief residue, the 8.9-vs-8.1 condo contradiction, the SCRATCH:27 superseded
+> bands, the 3 unprocessed inbox packets, and the PR#4 mirror write-back, which HOMER closed 8/22 crediting
+> the packet by name). **What still stands, re-verified 8/22:** the two L3-blocking absences (no convergence
+> handle; no thesis-level kill rail anywhere under any name — AUTHOR-FROM-SCRATCH), and every DO-NOT-TOUCH
+> item below.
+> **Current sources:** `upgrades/HOMER_REVIEW_2026-08-22.md` (synthesis) · `..._READER_REPORTS.md` (evidence
+> + coverage limits) · **`upgrades/HOMER_CARD.md` (the work queue)**.
+> **DATED REWRITE TRIGGER — a banner is a warning, not a fix (`finding_banner_is_a_warning_not_a_fix`):**
+> full delta-refresh owed by **2026-09-05**, or at the next HOMER touch, whichever is first. Refreshing was
+> named as a deliverable in `HOMER_REVIEW_PLAN_2026-08-22.md` §6 and **was NOT done** — caught by
+> `complete_check.py`'s claim walk at the same session's closeout, which is exactly the gap that check exists
+> to find (PAT-101: my closeout certifies COMMITTED, not COMPLETE).
+
 **Built:** 2026-08-07 (first profile — closes "graded twice without a profile"; Mode-A single-reader full read, 61 files) · **Grade at build:** L2 (FLEET_MAP owns it; L3 gated on ONE leg — see below, and the leg is AUTHOR-from-scratch, not extract-and-stamp) · **Class:** Market (promoted from CARL sub-agent 7/12 by git mv, Will-directed same-day, overriding CARL's wait-recommendation; lowest-risk promotion of the set — zero external consumers at promotion) · **Staleness (content-derived):** re-read when THESIS.md gets built (the L3 leg), after the next HOMER session closes the 5 passed resolver dates, or when STATUS's stamp leads this build date >21d.
 
 ## Identity in one line
