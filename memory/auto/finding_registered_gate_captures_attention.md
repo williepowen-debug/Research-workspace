@@ -1,6 +1,7 @@
 ---
 name: finding_registered_gate_captures_attention
-description: "A live gate on ONE instrument silently redefines its whole channel — the loud tracked event hides the quiet countable one; sweep the un-gated instruments separately and say so in writing."
+description: "A live gate on ONE instrument silently redefines its whole channel — the loud tracked event hides the quiet countable one; sweep the un-gated instruments separately and say so in writing. ⚠️ THE SAME ASYMMETRY RUNS ONE LEVEL UP, ON PROTOCOL: registered STEPS get audited and unregistered REASONING does not — the instrument has a checklist, the inference has none (n=2, CORAL + PROME, 2026-08-23)."
+symptoms: "every check I ran came back clean and the error was somewhere else · I audited the instrument because auditing instruments is a boot step · nothing in my protocol says to audit the argument · the peer caught both and I caught neither · my checklist passed and my reasoning did not"
 metadata:
   node_type: memory
   type: finding
@@ -22,3 +23,22 @@ This is the inverse of the usual staleness failure. Nothing was rotting; somethi
 - Applies to any agent running a registered gate, not just war theaters: the mechanism is the obligation asymmetry, not the domain.
 
 Related: `[[finding_theater_check_before_gate_check]]` · `[[finding_standing_guard_is_a_false_negative_risk]]` · `[[finding_coverage_gap_needs_all_surface_check]]` · `[[finding_verification_zero_is_ambiguous]]` · `[[finding_count_measures_intake_not_domain]]`
+
+---
+
+**PROTOCOL-LEVEL LIMB, 2026-08-23 — n=2 across two desks in one day. Registered STEPS get audited; unregistered REASONING does not.**
+
+**CORAL, self-reported at closeout:** it registered a 🔴 leg with a trigger and no falsifier, and separately built an argument resting on a test that could not fail. **Both defects are the same shape — a condition that cannot come back against you — and they occurred three hours apart.** It caught the one in the instrument and missed the one in itself. Its own diagnosis, which is the actionable half:
+
+> *"I audited the leg because auditing legs is a registered step, and I didn't audit the argument because nothing in my protocol says to. The instrument had a checklist; the inference didn't."*
+
+**PROME, same day, independently:** every checklisted item ran and passed — gate-vocabulary check (which caught a bad state token on the spot), orphan check, memory-index check, push-receipt verification by path. **All four of its real defects sat in un-checklisted reasoning:** resolving a rule's status between two derived artifacts instead of the canonical letter; an authorship filter matching one prefix form; asserting a packet delivery nobody verified at the recipient; a 31-day ledger gap nothing was required to route. **The mechanical surface was clean the entire time.**
+
+⇒ **A checklist does not merely fail to cover inference — it supplies EVIDENCE OF DILIGENCE that makes the uncovered half feel covered.** "All checks green" is true and is a statement about the checked set only. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.
+
+## How to apply
+
+- 🔴 **Ask at every closeout: what did I CONCLUDE today that no step required me to verify?** The checklisted work is not where the defects are — it is where the defects are not, by construction.
+- **Peers catch what protocol cannot.** Both CORAL instances were caught by HOMER; PROME's four were caught by BOND, WALTER, MIDAS and CORAL. ⇒ **route your reasoning to a peer specifically when no gate obliges you to** — that is exactly the case the protocol will not surface.
+- ⚠️ **Do NOT respond by adding checklist steps for inference.** The failure is a category difference, not a coverage gap; a checklist item reading *"audit your argument"* is unfalsifiable and will be ticked. **The instrument is a second reader, not a second box.**
+
