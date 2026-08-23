@@ -59,6 +59,7 @@ def check_self_row(today):
 def main():
     today = datetime.date.today()
     due, tracked, skipped = [], 0, []
+    overdue, skipped_rb = [], []   # resolve_by: dated obligations, independent of cadence
     cannot_certify = False
     try:
         with open(REGISTRY, encoding="utf-8") as f:
@@ -78,6 +79,27 @@ def main():
                 age = (today - last).days
                 if age >= cad:
                     due.append((task, age, cad, (row.get("playbook") or "").strip()))
+
+                # ── resolve_by: a DATED OBLIGATION inside a queue row, independent of cadence.
+                # ADDED 2026-08-23, and it exists because of a miss it would have caught.
+                # The profile-refresh row said, in free text, "AEOLUS FIRST (hard date — service
+                # BEFORE Falsification #2 ~8/24)". I ran Falsification #2 on 8/23 without it, and
+                # THIS SCRIPT PRINTED "✅ none due" all evening and was correct on its own terms:
+                # it read only cadence, and that row's 21d clock (last 8/17) is not due until ~9/7.
+                # A dated assertion carried in prose is a string; reading it never evaluates it
+                # [[finding_dated_carry_item_has_no_expiry_check]]. This is PAT-115's Resolve_By
+                # applied to my OWN register — a fix I built for other people's registers and had
+                # never applied here, which is the class-not-instance failure again.
+                rb = (row.get("resolve_by") or "").strip()
+                if rb:
+                    try:
+                        rbd = datetime.date.fromisoformat(rb)
+                    except ValueError:
+                        skipped_rb.append((task, rb))
+                    else:
+                        if today >= rbd:
+                            overdue.append((task, (today - rbd).days, rb,
+                                            (row.get("playbook") or "").strip()))
     except OSError:
         print(f"🔴 sweeps_due CANNOT-CERTIFY: registry not readable at {REGISTRY} — "
               f"0 of the registered sweeps were cadence-checked")
@@ -87,22 +109,33 @@ def main():
         print(f"⚠️  sweeps_due: un-parseable row for '{task}' (check last_run/cadence_days) — NOT cadence-checked")
         cannot_certify = True
 
+    for task, rb in skipped_rb:
+        print(f"⚠️  sweeps_due: un-parseable resolve_by {rb!r} on '{task}' — that dated obligation is NOT checked")
+        cannot_certify = True
+
     self_row = check_self_row(today)
     if self_row and self_row.startswith("CANNOT-CERTIFY"):
         print(f"🔴 sweeps_due {self_row}")
         cannot_certify = True
         self_row = None
 
+    if overdue:
+        for task, over, rb, pb in sorted(overdue, key=lambda r: r[1], reverse=True):
+            print(f"🔴 RESOLVE_BY PASSED: {task} — dated obligation {rb} is {over}d past "
+                  f"(this is NOT a cadence miss; the cadence clock may be perfectly fine) → {pb}")
     if due:
         for task, age, cad, pb in sorted(due, key=lambda r: r[1] - r[2], reverse=True):
             print(f"⏰ DUE: {task} — last run {age}d ago (cadence {cad}d, +{age - cad}d over) → {pb}")
     if self_row:
         print(self_row)
-    if not due and not self_row and not cannot_certify:
-        print(f"✅ sweeps: none due ({tracked} tracked, {len(skipped)} skipped, self-row current)")
+    if not due and not overdue and not self_row and not cannot_certify:
+        print(f"✅ sweeps: none due ({tracked} tracked, {len(skipped)} skipped, self-row current, "
+              f"0 resolve_by passed)")
 
     if cannot_certify:
         return 2
+    if overdue:
+        return 1
     return 1 if (due or self_row) else 0
 
 

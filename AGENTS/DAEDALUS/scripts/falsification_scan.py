@@ -214,6 +214,64 @@ def groups():
     return g
 
 
+def agent_classes():
+    """Agent -> Market/Utility/Meta, from FLEET_MAP.tsv (the owner of record for class).
+
+    ADDED 2026-08-23 (sweep run #2, F1). Class is not cosmetic here: it decides whether
+    "no thesis-class file" is EXPECTED or is a FINDING. Market is the one class whose L3
+    ladder leg REQUIRES a dated falsification surface, so a Market agent landing in that
+    bucket is never 'not applicable' -- it means the rail is somewhere this scan cannot see.
+    """
+    out = {}
+    fm = REPO / "AGENTS" / "DAEDALUS" / "FLEET_MAP.tsv"
+    if not fm.exists():
+        return out
+    for line in fm.read_text(encoding="utf-8").splitlines():
+        if not line.strip() or line.startswith("#"):
+            continue
+        c = line.split("\t")
+        if len(c) >= 2 and c[0].strip() != "Agent":
+            out[c[0].strip()] = c[1].strip()
+    return out
+
+
+def cited_version(head, body, append_only, is_md):
+    """The thesis version a surface CLAIMS to describe.
+
+    ⚠️ FIXED 2026-08-23 (sweep run #2, F2). The previous implementation was
+    `VERSION.search(head)` -- FIRST match in the header slice -- while dates were taken
+    max-wins. That mismatch produced BOTH of run #2's false STALE-FLAGs, i.e. the entire
+    over-flag set for the run:
+      * FALCON: a FORWARD-chronological changelog, so first-match returned the OLDEST
+        entry's version (v1.0) against a live v2.1. ⚠️ That file's own convention block
+        declares "Reverse chronological" AND IS NOT (inherited wholesale from HAWK at the
+        7/12 spinout) -- which is exactly why this must be ORDER-INDEPENDENT rather than
+        "read the top entry": a file that misdescribes its own ordering defeats any
+        order-dependent reader, and nothing warns you.
+      * MARCO: heading `## v3.0 -> v3.1`, so first-match returned v3.0, the FROM side,
+        while v3.1 was in fact logged.
+    Both manufacture "cited < live" => a false "revision behind".
+
+    Fix: for an append-only markdown surface, take the version from the entry heading with
+    the MAX DATE (order-independent), and within that heading take the LAST version token
+    (the TO side of a `vX -> vY` transition). Fall back to header first-match otherwise.
+    """
+    if append_only and is_md:
+        best_date, best_heading = None, None
+        for h in ENTRY_HEADING.findall(body):
+            d = newest(h)
+            if d is not None and (best_date is None or d > best_date):
+                best_date, best_heading = d, h
+        if best_heading is not None:
+            found = VERSION.findall(best_heading)
+            if found:
+                lo, hi = found[-1]          # LAST token = the TO side of "vX -> vY"
+                return (int(lo), int(hi))
+            return None                     # dated entries exist but name no version
+    m = VERSION.search(head)
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
 def surfaces(agent_dir):
     out = []
     for root, dirs, files in os.walk(agent_dir):
@@ -263,8 +321,8 @@ def scan_agent(name, group):
         if stamp is None and loose is not None:
             stamp, inferred = loose, True     # no claim made: fall back, and SAY it was inferred
         banner = bool(DEAD_BANNER.search(head))
-        m = VERSION.search(head)
-        cited = (int(m.group(1)), int(m.group(2))) if m else None
+        cited = cited_version(head, body if append_only else "", append_only,
+                              rel.lower().endswith(".md"))
         age = (live_ref - stamp).days if (stamp and live_ref) else None
         # A labelled stamp much older than the newest date present = the laundering signature.
         launder = (not inferred and stamp and loose and (loose - stamp).days > STALE_DAYS)
@@ -280,6 +338,25 @@ def scan_agent(name, group):
             verdict, why = "UNSTAMPED", f"no parseable date in first {HEADER_LINES} lines — cannot be judged fresh"
         elif group == "DORMANT":
             verdict, why = "DORMANT-SKIP", "dormant agent: surface may lag legitimately (check the dormant book's own clock)"
+        elif append_only and cited and ver and cited == ver:
+            # ADDED 2026-08-23 (sweep run #2, third defect of the F2 family — the residual
+            # false-positive left standing after the version fix, caught by re-running).
+            # An append-only CHANGELOG's job is to track its SUBJECT's revisions. If it has
+            # already logged the live thesis version, IT OWES NOTHING and its age measures how
+            # long the THESIS has been stable — not how stale the log is. Judging it against
+            # STATUS.md instead punishes a correctly-quiet log for its owner's unrelated
+            # activity, which is EVENT_LOG's mistake in a different costume ("age measures the
+            # world, not the surface"). Live case: MARCO logged `## v3.0 -> v3.1 (2026-07-31)`,
+            # the thesis is v3.1 and has not moved since, and STATUS is 8/22 — so the old rule
+            # flagged it at 22d for an entry nobody was owed.
+            # ⚠️ WHAT THIS CURRENT DOES NOT PROVE (PAT-074): it certifies the log against the
+            # thesis's declared VERSION, so a thesis edited without a version bump makes both
+            # read clean together. That failure belongs to the thesis, not the log, and the
+            # thesis is scanned separately as a STATE surface on its own header claim — but do
+            # not read this verdict as "the thesis is current."
+            verdict, why = "CURRENT", (
+                f"logged v{ver[0]}.{ver[1]} = the LIVE thesis version, so no entry is owed; "
+                f"the {age}d age measures how long the THESIS has been stable, not the log")
         elif age is not None and age > STALE_DAYS:
             verdict, why = "STALE-FLAGGED", f"stamp {stamp} is {age}d behind live ref {live_ref} (threshold {STALE_DAYS}d)"
         elif cited and ver and (ver[0] - cited[0]) * 100 + (ver[1] - cited[1]) > 1:
@@ -319,6 +396,8 @@ def main():
                   f"0 surfaces scanned (a typo here previously produced a clean-looking zero report)")
             return 2
     rows, no_rail, no_thesis, no_clock, bannered_thesis = [], [], [], [], []
+    market_no_thesis = []
+    klass = agent_classes()
     for name, grp in sorted(g.items()):
         if only and name != only:
             continue
@@ -326,10 +405,26 @@ def main():
             continue
         r, (ver, tdate, sdate, tbannered) = scan_agent(name, grp)
         if not r:
-            # Two very different zeros — never collapse them. "Has a thesis but no separate
-            # falsification surface" is a FINDING (the rail must live inside STATUS/TRADE, or
-            # nowhere); "no thesis-class file at all" is expected for utility/meta agents.
-            (no_rail if live_thesis(AGENTS / name)[2] else no_thesis).append(name)
+            # THREE very different zeros — never collapse them.
+            #  (a) has a thesis, no separate surface  -> FINDING (rail is in STATUS/TRADE, or nowhere)
+            #  (b) no thesis file AND non-Market      -> genuinely expected (utility/meta)
+            #  (c) no thesis file AND MARKET          -> FINDING. Added 2026-08-23, sweep run #2 F1.
+            #
+            # ⚠️ (c) existed silently for 20 days and is the reason this fix exists. The 8/07 F5 v2
+            # cure was applied to bucket (a) -- the one that produced the complaint -- and never to
+            # its neighbour, which absorbs every agent whose thesis lives in STATUS.md. Measured at
+            # run #2: SEVEN Market agents in the old "not applicable" bucket, FOUR with real rich
+            # rails this scan cannot see (BROCK/ZHAO/LABOR/CRUISE -- ZHAO's tripwire had actually
+            # FIRED), THREE with real gaps it also cannot see (SHADE/HANS/HOMER). ZERO correct.
+            # The label was the worst part: it printed an EXPLANATION that read as a positive
+            # finding of not-applicability, so a silent omission was upgraded into a clean bill
+            # (PAT-078 n+1).
+            if live_thesis(AGENTS / name)[2]:
+                no_rail.append(name)
+            elif klass.get(name, "").lower().startswith("market"):
+                market_no_thesis.append(name)
+            else:
+                no_thesis.append(name)
         if tbannered:
             bannered_thesis.append(name)
         if not (sdate or tdate):
@@ -375,8 +470,19 @@ def main():
               "The agent carries a live thesis but no kill tree / exit protocol / validation doc this pattern "
               "set can find — so its falsification rail is either embedded in STATUS/TRADE prose (unenforceable "
               "by any surface-level check) or absent. Judgment read required per agent.")
-        print(f"\n**No thesis-class file — falsification not applicable ({len(no_thesis)}):** "
-              f"{', '.join(no_thesis) if no_thesis else 'none'}. Expected for utility/meta agents.")
+        if market_no_thesis:
+            print(f"\n🔴 **MARKET AGENT, NO THESIS-CLASS FILE AND NO SURFACE THIS SCAN CAN SEE "
+                  f"({len(market_no_thesis)}) — THESE ARE FINDINGS, NOT A CLEAN BILL:** "
+                  f"{', '.join(market_no_thesis)}. Market is the ONE class whose L3 ladder leg REQUIRES a "
+                  f"dated falsification surface, so 'not applicable' is never the right reading here. Their rails "
+                  f"typically live INSIDE `STATUS.md` (## EXIT RULES / Thesis Kill / tripwires), which this "
+                  f"pattern set cannot find. **Hand-verify each: a real rail = extract-and-stamp; no rail = a real "
+                  f"L3 gap.** Measured 2026-08-23 across the 7 then in this bucket: 4 real rails, 3 real gaps, 0 "
+                  f"not-applicable.")
+        print(f"\n**No thesis-class file, non-Market — falsification not applicable ({len(no_thesis)}):** "
+              f"{', '.join(no_thesis) if no_thesis else 'none'}. Expected for utility/meta agents. "
+              f"⚠️ This bucket is scoped by CLASS as of 2026-08-23 — it previously swallowed Market agents and "
+              f"printed this same reassuring sentence over them (PAT-078 n+1).")
         if bannered_thesis:
             print(f"\n**Thesis file is itself dead-bannered ({len(bannered_thesis)}):** "
                   f"{', '.join(bannered_thesis)} — STATUS.md is canonical for these, so their child "
