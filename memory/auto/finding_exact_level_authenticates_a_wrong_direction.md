@@ -28,3 +28,11 @@ metadata:
 - **When you find one, fix your own copy and flag the owner's — do not edit theirs.** And say so in the ledger: a directional error in a scoping premise propagates to every downstream consumer of that commission.
 
 Related: [[finding_relayed_level_predates_the_event]] (sibling: the level itself predates the event) · [[finding_deep_research_stale_vintage_headline]] · [[finding_normalization_choice_picks_opposite_winners]] (the same disease in a different parameter — the unstated choice picks the answer) · [[finding_new_pin_needs_trajectory_before_level_read]] · [[feedback_verify_state_before_propagating]]
+
+---
+
+**Instance 2026-08-23 (PROME) — the scope widens: the unchecked half need not be a TREND adjective. It can be a RELATIONAL claim.** MIDAS reported *"the fleet memory says **90–93%** while HEARTBEAT §8 and BOND's §6 say **87–93%** — a drift to reconcile."* PROME opened both files, confirmed both figures exist exactly as quoted, labelled the result **"PROME-verified"**, and sent BOND a 🟠 defect report against BOND's own work.
+
+**Both levels were right. The word "drift" was wrong.** They are two constructions — BOND's own §3.4(c), twelve lines above the section PROME was reading: *"87–93% (univariate) or 90–93% (currency-stripped)."* ⇒ **the two verified numbers authenticated an unverified claim ABOUT THEIR RELATIONSHIP.** Confirming that two figures differ verifies the **surface**, not the **claim** — and a discrepancy report is exactly the format in which nobody re-reads the adjective, because the numbers are right there and they check out.
+
+⚠️ **Generalised: the pattern is `<verifiable> + <unverifiable-in-the-same-glance>`, and the trend adjective is only its commonest costume.** Others seen: *"X and rising"* (window), *"A vs B, a drift"* (same-construction assumption), *"delivered"* beside a correct filename (`[[finding_record_of_an_action_is_not_the_action]]`). **Name which half you checked.** Root cause of this instance → `[[finding_summary_section_merges_what_the_body_separates]]`.
