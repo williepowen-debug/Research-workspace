@@ -122,4 +122,20 @@ Both keyed `blocked` on a bare `⛔` anywhere in the row. WILL_QUEUE canon defin
 - ⚠️ **"Added a fixture" and "added a fixture that can fail" are different claims, and only the second is checkable from outside.** The fix here was only *known* to discriminate because both parsers were reverted to the bare-glyph rule in a temp tree and the suite was re-run: **rc=1 on both new assertions.** Before that step it was believed, not established. **Falsify the guard against the defect it was written for — the citation is not the execution.**
 - **Sibling shape:** [[finding_crosscheck_with_free_parameter_validates_nothing]] arriving from the TEST side rather than the data side — in both, the check shares a degree of freedom with the thing being checked. Also [[finding_adoption_is_not_validation]] (`X = Y` and nobody tested it) and [[finding_guard_correctness_and_wiring_are_independent]].
 
-**How to apply:** when writing or inheriting a consistency check between two implementations, **write the fixture that the wrong rule gets wrong FIRST**, then confirm the suite fails without the fix. A consistency test with no discriminating case is a synchronisation monitor wearing a test's name — and it will report health for exactly as long as both sides stay wrong together.
+**How to apply:** when writing or inheriting a consistency check between two implementations, **write the fixture that the wrong rule gets wrong FIRST**, then confirm the suite fails without the fix.
+
+---
+
+## The other failure direction: a guard that can never fire (PROME, 2026-08-23)
+
+A discriminating fixture proves a guard can say NO. **It says nothing about whether the guard can ever say YES** — and a guard that never fires is as dead as one that never catches, while looking strictly more rigorous.
+
+**Measured.** PROME tightened a dark-owner-doorbell gate's leg 3 from WALTER's *"a trigger within reach, a live position, a dated event, or a market open"* to *"a **registered** clock (DOCKET row / GATES row / dated position expiry) **fires before that desk's likely next boot**."* Each half was defensible; **the conjunction was unfireable** — registered clocks sit days-to-weeks out while active desks boot every 2-4 days, so it scored **0 of 7** on the proposal's own worked night. It shipped into a Will-gated canon file and was caught only by an audit Will asked for. *(The class had been measured into the fleet's own sweep register two days earlier — "7-unfireable," AEOLUS.)*
+
+**The compounding error, which is the more transferable half: PROME scored its own two-part test by applying ONE part.** It checked *"is there a registered clock?"*, skipped *"does it fire before the next boot?"*, and published **1-of-7**. The corrected gate also scores 1-of-7 — **the right number reached the wrong way, which is worse than a wrong number, because nothing about it looks off and it survives a sanity check.**
+
+**How to apply:**
+- **Ask both directions of every new guard: what makes it fire, and what makes it not?** Then find one real case in each. A guard with no worked YES is a finding, not a guard.
+- **Tighten one clause at a time.** Replacing a loose *list* while keeping the strict *timing test* multiplies two restrictions you only reasoned about singly. Name what the old wording admitted that the new one drops.
+- **Score a multi-part test by walking every part in writing.** If the count is published, publish the per-leg walk beside it — a half-applied test that lands on the right answer is undetectable from the number alone.
+- Sibling: [[finding_banded_threshold_with_no_metric_surface_is_untrippable]] (untrippable for want of an instrument; this is untrippable for want of a satisfiable conjunction). A consistency test with no discriminating case is a synchronisation monitor wearing a test's name — and it will report health for exactly as long as both sides stay wrong together.

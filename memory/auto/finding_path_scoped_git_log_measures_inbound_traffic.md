@@ -1,10 +1,13 @@
 ---
 name: finding_path_scoped_git_log_measures_inbound_traffic
 description: "git log -- AGENTS/X/ measures traffic INTO a directory, not X's own activity — inbox packets other agents commit there make a dark agent look alive"
+symptoms: "agent X has N commits this month"; a desk looks active but its STATUS is weeks old; about to retract a "dark since"/"unread"/"backlog" line because the directory looks busy; using git log -- AGENTS/X/ to judge cadence
 metadata:
   node_type: memory
   type: finding
 ---
+
+> **n=2 · 2026-08-23 (PROME) — and this one LANDED IN CANON before it was caught.** PROME measured desk cadence with `git log --since=... -- AGENTS/HENRY/` and reported **"HENRY holds 7 unconsumed ACTION items and has made 94 commits this month, including today."** Truth: **12 HENRY-authored, across 3 days (8/06 · 8/10 · 8/20); HENRY had not committed that day at all.** BROCK likewise 51→15, last run 8/13. On that false basis PROME **overturned WALTER's dark-desk-latency thesis** — writing *"the measured backlog is not dark-at-dispatch latency; it is non-consumption by desks that boot fine"* into `MESSAGING/CROSS_SESSION_MESSAGING.md` rule 6b, a ruling record, a Will-facing brief, and an owner packet. **WALTER was right; the desks ARE low-cadence.** Will caught it by asking for an audit. **This file existed the whole time and was not retrieved** — it is COLD-indexed, and this is a demoted row failing to fire at an unpredictable moment (input to the memory-retrieval architecture). The 8/12 instance below was caught BEFORE the retraction; this one was caught after it shipped, which is the whole difference between a near-miss and a defect.
 
 **`git log -1 -- AGENTS/<X>/` answers "when was this directory last written," not "when was this agent last awake."** Since the self-authored-inbox-packet carve-out (root `CLAUDE.md` §Git Protocol ①, ratified 2026-07-23) *other* agents commit into your directory as a matter of routine — and WALTER's routing lane does it at high volume. So a path-scoped freshness check on an agent's directory reports **other people's mail** as that agent's heartbeat.
 

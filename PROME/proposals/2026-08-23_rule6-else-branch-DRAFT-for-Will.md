@@ -1,6 +1,8 @@
 # DRAFT for Will — `MESSAGING/CROSS_SESSION_MESSAGING.md` rule 6, the missing `else`
 
-**Status:** ⛔ **DRAFT. NOT APPLIED.** `MESSAGING/` is a shared Will-gated file — WALTER correctly declined to write it ("flagging, not editing") and PROME has not written it either. **This needs your word before it lands.**
+> 🧊 **SUPERSEDED 2026-08-23 — this draft has LANDED and then been CORRECTED; it is historical.** Will approved it (*"approve both"*, ~00:2x) and it is live as **rule 6b** in `MESSAGING/CROSS_SESSION_MESSAGING.md`. ⛔ **Two clauses below are WRONG and were fixed in canon at ~00:4x on Will's *"yes correct"* — do not read this file as the rule:** ① the leg-3 wording here is the UNFIREABLE version (0-of-7 applied in full); ② the *"HENRY … committing 94 times that month"* justification is FALSE (`git log -- AGENTS/HENRY/` counts other agents' packets; 12 were HENRY-authored across 3 days). **Live letter → `MESSAGING/CROSS_SESSION_MESSAGING.md` rule 6b + `PROME/proposals/2026-08-22_dark-owner-doorbell-RULED.md`.** Kept unedited below as the record of what was put in front of Will.
+
+**Status:** ⛔ **DRAFT AS PRESENTED — superseded, see banner.** `MESSAGING/` is a shared Will-gated file — WALTER correctly declined to write it ("flagging, not editing") and PROME has not written it either. **This needs your word before it lands.**
 **Authorized by:** the 8/22 doorbell ruling (*"ok go forward approved"*), which assigned the rule-6 branch to you with PROME drafting — record `PROME/proposals/2026-08-22_dark-owner-doorbell-RULED.md`, encode table row 5.
 **Drafted:** 2026-08-23 ~00:0x ET.
 
