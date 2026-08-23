@@ -9,7 +9,7 @@
 
 > ⚠️ **THIS IS A SNAPSHOT, NOT A LIVE SURFACE.** Re-measure before citing; desks rewrite STATUS every session. Reproduce with the one-liner at the bottom — **do not cite these numbers as current.**
 
-> **THREE REGISTERED CONSUMERS:** ① the **byte-tier port targets** already named in DAEDALUS STATUS (BOND · SAM · WALTER · TERRY) now have a measured basis rather than a noticed one; ② **DAEDALUS's own 48,000 B budget derivation is BROKEN** — sized 8/17 from a measured 752 B/line, and this census puts it at ~1,489, so the constant buys half what it did while reading *satisfied* (8/28 sweep item ⑪, *a constant that stopped being data*); ③ **8/28 sweep** — density, not line count, is where the cap belongs (PAT-086).
+> **THREE REGISTERED CONSUMERS:** ① the **byte-tier port targets** already named in DAEDALUS STATUS (BOND · SAM · WALTER · TERRY) now have a measured basis rather than a noticed one; ② **DAEDALUS's own 48,000 B budget derivation is BROKEN** — sized 8/17 from a measured 752 B/line, and this census puts DAEDALUS at ~1,000 (it peaked at ~1,489 hours earlier, pre-relocation), so the constant buys **~48 lines vs the ~64 it was sized for** (and bought only ~32 at the 14:00 peak) while reading *satisfied* throughout (8/28 sweep item ⑪, *a constant that stopped being data*); ③ **8/28 sweep** — density, not line count, is where the cap belongs (PAT-086).
 
 | # | agent | bytes | lines | B/line | byte rank | density rank |
 |---|---|---|---|---|---|---|
