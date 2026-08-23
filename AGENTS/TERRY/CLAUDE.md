@@ -186,7 +186,8 @@ At closeout or after a trade review:
 |---|---|
 | `README.md` | Quick start / file map. |
 | `CLAUDE.md` | This operating spec. |
-| `STATUS.md` | Current Terry state, open setups, next action. |
+| `STATUS.md` | Current Terry state, open setups, next action. **📏 DECLARED CAP (2026-08-23, DAEDALUS YEY-004): BYTE BUDGET `150,000 B` (soft `117,000` = 78%) · LINE CAP `480` (soft `374`). BYTES BIND FIRST — at this desk's measured ~318 B/line the line cap would not be reached until ~152,463 B.** Check: `wc -l -c AGENTS/TERRY/STATUS.md`. **Over soft ⇒ rotate self-declared history (blocks carrying their own *"Superseded banner"*, closed-gate records) into `archive/STATUS_ARCHIVE_<date>.md` — verbatim, crc32-at-rotation, contiguous-only.** ⛔ **NEVER rotate live state to hit a number; if the target is not met on history alone, the tier binds higher.** ⛔ **Never raise the budget to fit the file** — that lets the thing being constrained pick its own constraint. *(Declared from POST-archive density, not the 128 B/line default and not the pre-archive 409 B/line. The file was the fleet's largest at 588 lines / 240,882 B — a 240KB STATUS silently degrades every full read to fragments, which on this desk means a reader can miss a live gate state without knowing a cut happened.)* |
+| `archive/STATUS_ARCHIVE_*.md` | **FROZEN** verbatim rotations out of `STATUS.md`. Not maintained; `STATUS.md` is canonical. ⚠️ A `STATUS.md:<n>` line anchor inside an old `inbox/processed/` packet refers to the **pre-rotation** file — read it against the archive. |
 | `RISK_RULES.md` | Durable trading discipline and guardrails. |
 | `RISK_SCORING.md` | Edge scoring, fractional Kelly reference, calibration/Brier tracking, execution-block checklist, postmortem loss taxonomy. |
 | `TRADE_CARD_TEMPLATE.md` | Canonical full proposal template. |
