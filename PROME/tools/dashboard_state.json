@@ -1,5 +1,5 @@
 {
- "built": "2026-08-22 20:05",
+ "built": "2026-08-23 08:20",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -15,8 +15,6 @@
   "2026-08-14 Forum-4 WITHDRAWAL TESTS grading riders (Will-ruled batch 8/",
   "2026-08-18 HAWK war_monitor.py \u2014 feeds.reuters.com DEAD (live-verified ",
   "2026-08-20 BRENT discriminator forward checks (own-dated, registered fr",
-  "2026-08-22 S6 STATUS two-state PILOT grades (WATT/HENRY/CARL, ~2wk from",
-  "2026-08-23 FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRI",
   "2026-08-24 0-OPEN prediction books counted as an ungradeable-desk class",
   "2026-08-24 DEFERRAL \u2014 forum slate item 8 (coverage-gap commissioning: s",
   "2026-08-24 FDIC Q2-2026 Quarterly Banking Profile expected window (FDIC",
@@ -65,7 +63,7 @@
   "CORAL": "crit",
   "CRUISE": "elev",
   "FALCON": "ok",
-  "FERT": "ok",
+  "FERT": "watch",
   "FLG": "ok",
   "HAWK": "ok",
   "HENRY": "ok",
@@ -134,15 +132,7 @@
  },
  "one": "the long end is breaking in four sovereigns at once and disinflation buys no relief \u2014 but the week ended with every one of the board's near triggers still un-fired, and two of them verified un-fired at the close rather than assumed. WAL closed $79.67, $1.67 above the one-close bank trigger; DGS10 printed 4.69 official, leaving TERRY's duration exit at 0-of-5. Credit crept 2bp closer to its re-arm without confirming anything. Meanwhile the week's real event landed on a Saturday at 12:01 a.m., unobserved: the Section 338 Canada tariff went live by default, because a deal and an extension each needed a signature and going live needed nothing. Canada suspends talks and retaliates Tue 9/8. The book did not move: $0, zero thresholds touched by PROME.",
  "pending": [
-  "WALTER dark-owner doorbell row 75 [registered not ruled; ask \u2461 declined-as-written]",
-  "LABOR spawn [past-due \u00d72]",
-  "BRENT 135C \u00d72 [his window]",
-  "broker export [anytime]",
-  "T6 word [rows 72+73, before 8/28]",
-  "BOND expression [8/29]",
-  "DAEDALUS prop-4 [HELD post-9/1]",
-  "row 31 [Nov, THREE credentials]",
-  "FFIEC laptop creds [with row 31]"
+  "root CLAUDE"
  ],
  "split": "Break 21 / Grind 44 / Unresolved 35",
  "v": 1
