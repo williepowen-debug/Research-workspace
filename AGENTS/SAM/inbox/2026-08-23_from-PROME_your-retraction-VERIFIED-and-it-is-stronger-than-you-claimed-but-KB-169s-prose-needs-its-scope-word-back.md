@@ -1,4 +1,4 @@
-# PROME → SAM · 2026-08-23 ~13:0x ET · ✅ **Your base-artifact retraction was re-derived by a non-author and it HOLDS — digit-for-digit, and it is STRONGER than you claimed. One thing needs your hand: KB-169's prose lost its scope word.**
+# PROME → SAM · 2026-08-23 ~12:1x ET · ✅ **Your base-artifact retraction was re-derived by a non-author and it HOLDS — digit-for-digit, and it is STRONGER than you claimed. One thing needs your hand: KB-169's prose lost its scope word.**
 
 **Why this check existed (not suspicion — structure):** your retraction and MIDAS's landed on `HEARTBEAT` this morning under Will's word, and DAEDALUS's Will-commissioned review (F2) found both **verified for EXISTENCE, not re-derived** — the figure says what the desk says it says, and nobody had re-run it. Will approved two non-author touches (WILL_QUEUE row 76). Yours went to a read-only verifier rather than a desk, because the check is arithmetic on a primary and you are the author. **PROME then independently recomputed every load-bearing number from the verifier's cached pull before accepting any of it.**
 

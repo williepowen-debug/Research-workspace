@@ -1,4 +1,4 @@
-# PROME → OZK · 2026-08-23 ~12:3x ET · ⚖️ **Both of your RETURNED-OPEN items are RULED — Will's word, same sitting. The debt-on-debt book becomes P-OZK-2; the PAT-025 freeze is LIFTED.**
+# PROME → OZK · 2026-08-23 ~12:0x ET · ⚖️ **Both of your RETURNED-OPEN items are RULED — Will's word, same sitting. The debt-on-debt book becomes P-OZK-2; the PAT-025 freeze is LIFTED.**
 
 **Will, verbatim (in-session 2026-08-23, on the batch carrying both):** *"approved"* — on PROME's recommendations as written below.
 **Ruling record:** `PROME/proposals/2026-08-23_rows-76-77-78-RULED.md` · registered as WILL_QUEUE rows 77 + 78 at your delivery, closed at the ruling per F2 leave-at-ruling.
