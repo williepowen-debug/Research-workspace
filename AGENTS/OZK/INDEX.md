@@ -8,8 +8,8 @@
 - **Thesis v1.5** — RESERVOIR: stress accumulates until the IQHQ RaDD **Aug 2026 maturity** forces recognition; v1.5 recognition-timing refinement = appraisal-gated/back-loaded deferral (Q1'26 10-Q primary). Conviction 🔴🔴 HIGH. → `THESIS.md`, `CHANGELOG.md`
 - **KB.tsv: 222 rows / 33 groups** (as of 2026-08-07 Call Report session)
 - **⚠️ `THESIS.md` §MEMO ITEM 3 carries a CONTRADICTED-BY-PRIMARY banner (8/7)** — the 37.6% MI3 baseline does not reproduce at 18 quarters; live 9.35%. Read `CALL_REPORT_2026Q2_LOG.md` §3 before citing MI3 anywhere.
-- **Positions: ⚠️ STALE / NOT MANAGED** — May lines expired unlogged; Aug 21 lines unverified. Do not cite as current. → `STATUS.md` positions banner, `POSITIONS.md`
-- **Next hard catalyst: Q2 earnings Tue Jul 21, 2026** (call Jul 22) — pre-registered reads OZK-05→09 in `workbook/PREDICTIONS.tsv`, conviction-governing discriminator = OZK-07 (classified rising vs RESG falling). Then **IQHQ RaDD Aug 2026 maturity** — weighted EL $140M on $555M funded. → `IQHQ_PLAYBOOK.md`
+- **Positions: ✅ BOOK CLOSED — ZERO open contracts as of 2026-08-22.** Both Aug-21 legs ($45P ×4, $42.5P ×1) **expired worthless at the 8/21 OPEX** under Will's 8/4 RIDE ruling; realized −$1,686.37 / −100%. *(~~STALE / NOT MANAGED — May lines expired unlogged; Aug 21 lines unverified~~ — **retired 2026-08-23**: the May lines are recorded, and the Aug lines are no longer "unverified," they are gone.)* → `POSITIONS.md`, `STATUS.md` §Positions
+- **Next hard catalyst: Q3 2026 earnings + call, ~Oct 2026** — management's self-set **"~92 day"** RaDD report-back [7/22 call]. *(~~Q2 earnings Jul 21~~ — **GRADED 7/21-22**, 5 resolved, mean Brier 0.1987, conviction HELD 🔴🔴 on OZK-07★. ~~Then IQHQ RaDD Aug 2026 maturity~~ — the Aug window is all but run out with no earnings print inside it, the quiet-August path v1.5 pre-registered; ⚠️ this does **not** resolve OZK-09, whose frozen Option-2 window runs through the **Q4'26 print**.)* Weighted EL **~$129M** on $555M funded [7/23 reweight — the "$140M" figure is the pre-7/23 vintage]. → `IQHQ_PLAYBOOK.md`, `workbook/PREDICTIONS.tsv`
 
 ---
 
