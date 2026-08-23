@@ -34,6 +34,24 @@
 ### [Process] — STATUS.md Is a Dashboard, Not a Research Report
 **Rule:** STATUS.md is current state — signal status, thresholds, FL bank exposure. Research detail belongs in `sources/`, `research/`, or `workbook/`. Keep STATUS under 250 lines.
 
+### [Analysis] — A Test Whose Statistic Moves the Same Way Under the Rival Hypothesis Is Not Evidence
+**Mistake (self-caught late, HOMER-caught first, n=2 in one session — 2026-08-23):** I claimed that Florida's rising blended median *confirms* the Coral Bleaching mechanism, on the reading that the vintage, assessment-hit low end has **stopped clearing**. My proposed evidence was the low end's **SHARE** of transactions falling.
+
+**Why that was not evidence, and the shape is the point:** a **low-end freeze** raises the median. A **high-end surge** *also* raises the median — and it cuts the low end's share **with zero low-end units lost**. So the share statistic moves the same way under my hypothesis and under its rival. **I would have "confirmed" my thesis whether or not it was true.** And every figure I actually had ($1M+ sales +29.5%, Miami-Dade +29.14%, Sarasota >$1M +38.4%) was the **rival** mechanism; I had inherited HOMER's surge evidence and attached my own mechanism to it.
+
+**The primary settled it against me** (FL Realtors July condo summary): **average sale price +2.7% against a flat median** = a fattening right tail, i.e. the surge observed directly; **sales +11.0% and cash sales +14.9%** = not a frozen low end; and decisively, **a genuine freeze would have pushed the median UP and it did not move at all.**
+
+**Rule — one line, run it before adopting any favourable reading:**
+> **Name the rival mechanism, then ask whether it moves your statistic in the SAME DIRECTION. If yes, the statistic is not evidence — find one that separates them.**
+
+**Corollaries, each earned the same day:**
+- **The discriminator is almost always UNIT VOLUME, not SHARE.** Shares move when *either* end of a distribution moves; counts don't.
+- ⚠️ **You will preferentially reach for the non-discriminating test precisely when it favours you.** This is not bad luck; it is the selection effect. **The second instance the same session:** on the Miami for-sale/rental divergence I found one confound that biased *against* my reading, concluded "survives its own confound," **and stopped looking** — missing a second confound (submarket supply composition) that would have made the observation discriminate nothing. **A confound that cuts your way gets audited; one that cuts the other way doesn't get looked for.**
+- **Enumerate confounds by SIGN, not by count, and never stop at the first one that flatters you.**
+- **This is the same shape as a fired signal with no falsifier** (my 🔴 MSI leg, found the same session): *a condition that cannot come back against you is not a condition.* Whether it's a trading rail or an analytical claim, the test is identical — **can this observation come back negative?**
+
+**Related:** the sibling failure below (*A Scope Label Is a Claim Too*) is the measurement-side version — a wrong label survives every magnitude check. This is the inference-side version: a wrong *test* survives every honesty check, because you did run it and it did come back positive.
+
 ### [Data] — A Scope Label Is a Claim Too: Verify Personal-vs-Total Before It Becomes Canon
 **Mistake (caught 2026-07-21):** CORAL carried "Citizens 294,253 **personal-lines** policies (May 15)" as a dashboard canonical for ~5 weeks. The number was real but the LABEL was wrong — Citizens' own policies-in-force reports show it was a mid-May **TOTAL** (true Apr-30 personal was 289,824). The mislabel then manufactured a phantom cross-agent divergence with AEOLUS (whose ~395K was simply a stale Jan-31 total), which cost an open reconcile item across three sessions — chasing a scope difference that didn't exist.
 **Rule:** when adopting any count/level from press, verify the SCOPE dimension (personal vs total, capped vs uncapped, SA vs NSA, monthly vs cumulative window) against the primary before writing the label into a dashboard row. A wrong label is worse than a wrong number: the magnitude looks plausible, so it survives sanity checks while corrupting every downstream comparison. Most treacherous exactly when scopes nearly coincide (Citizens is ~98% personal, so total ≈ personal and nothing looked off).
@@ -44,4 +62,4 @@
 
 ---
 
-*Last reviewed: 2026-07-21 (added scope-label + NHC-advisory rules). Seeded 2026-06-19 during spinout from REGINALD/OZK LESSONS.*
+*Last reviewed: **2026-08-23** (added the non-discriminating-test rule — n=2 in one session, both caught by HOMER; sits beside the scope-label rule as its inference-side twin). Prior: 2026-07-21 (scope-label + NHC-advisory rules). Seeded 2026-06-19 during spinout from REGINALD/OZK LESSONS.*
