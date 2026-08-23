@@ -1,3 +1,15 @@
+> # ⛔ DO NOT CITE THE MEMO-ITEM-3 FIGURES IN THIS FILE — banner added 2026-08-23
+>
+> **This is unedited external-LLM provenance (`raw/llm_outputs/`), preserved as a RECORD of what an outside model produced. Its body is deliberately NOT corrected — correcting a provenance artifact destroys the evidence of what was actually said.** The banner is the fix.
+>
+> **The `37.6%` OZK Memo-Item-3 / C&I figure asserted at lines ~177 and ~193 is DEAD.** It reproduces at **no quarter** of OZK's own 18-quarter FFIEC series (either basis), no quarter of REGINALD's 14-bank cohort re-run, no quarter of the FDIC's own API at a different agency, and no quarter of the 14-quarter FDIC ratio series — **four independent paths.** Live: **9.35% at Q2-2026**, *below the screen's own >20% flag.*
+>
+> **⇒ The central comparison this document is built on does not hold.** "High similarity" between Metropolitan's 39.6% and OZK's 37.6% is a comparison of two ratios **one of which does not exist**; and OZK ranks **5th of 14** in the cohort, not worst. `[[finding_claim_outlives_its_discredited_instrument]]` — the *other* contrasts here (capital 12.50% vs 5.99%, profitability, deposits, liquidity) rest on different data and are not impeached by this banner; **scope the impeachment to the MI3 claim, not to the whole source.**
+>
+> ⚠️ **Scope fence:** MI3 measures CRE-purpose lending **NOT secured** by real estate. RESG, IQHQ/RaDD, the classified balance and all 11 tracked credits are in the **secured** book and are untouched by any of this.
+>
+> Current state → `THESIS.md` §MEMO ITEM 3 · `MI3_2025Q3_ADJUDICATION.md` · `workbook/CALL_REPORT_SERIES.tsv`. *(Flagged to OZK by REGINALD's `consumer_check` scan, 2026-08-13; banner applied at the 8/23 drain.)*
+
 # Metropolitan Capital Bank & Trust Failure vs. Bank OZK: Comparative Risk Analysis
 
 ## Executive Summary
