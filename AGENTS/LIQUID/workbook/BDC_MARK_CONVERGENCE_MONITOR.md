@@ -15,6 +15,54 @@ TCW writing Red Lobster equity to 2¢ while keeping the 2029 loan at par (Apr 14
 
 ---
 
+## ★★ GRADED — 2026-08-23 · **CONFIRM (marginal, exactly at the line)**
+
+⚠️ **GRADED 3 WEEKS LATE. All six 10-Qs were filed 7/29–8/07 (period 2026-06-30); the window closed in early August and this card sat unopened for 36 days.** Surfaced by applying DAEDALUS's PAT-060 half — *a gap in an append-only falsifier preferentially swallows the RARE event, so ask what FIRED during the window rather than reporting the age* — to my own falsifier surfaces. **This card was the rare event: a pre-registered grading card whose window closed and whose verdict is CONFIRM.**
+
+**All figures filing-primary** (SEC XBRL `companyconcept`/`companyfacts`, `us-gaap:NetAssetValuePerShare` · `InvestmentOwnedAtFairValue` ÷ `InvestmentOwnedAtCost`, form 10-Q; ARCC NAV from its Q2 8-K exhibit 99.1, acc `0001628280-26-050303`). Prices = live raw closes 8/23, for context only — **not** a grading leg.
+
+| Name | Q1 NAV (3/31) | Q2 NAV (6/30) | **M2 ΔQoQ** | **M1 FV/Cost Q1→Q2** | Δpp | px | P/NAV | **both legs?** |
+|---|---:|---:|---:|---|---:|---:|---:|:--|
+| **FSK** | 18.83 | 18.30 | **−2.81%** | 0.9171 → **0.9059** | **−1.12** | 11.91 | 0.651 | ✅ **YES** |
+| **BXSL** | 26.26 | 25.53 | **−2.78%** | 0.9752 → **0.9645** | **−1.07** | 24.76 | 0.970 | ✅ **YES** |
+| GSBD | 12.17 | 12.06 | −0.90% | 0.9488 → **0.9368** | −1.20 | 9.84 | 0.816 | — (NAV leg short) |
+| OBDC | 14.41 | 14.26 | −1.04% | 0.9964 → **0.9895** | −0.69 | 11.30 | 0.792 | — (NAV leg short) |
+| ARCC | 19.59 | 19.35 | −1.23% | ⚠️ **not tagged — unmeasured** | — | 19.92 | 1.029 | — |
+| MAIN | 33.46 | **33.92** | **+1.37%** | 1.1503 → **1.1551** | **+0.48** | 58.29 | 1.718 | — (both UP) |
+
+### Verdict: **CONFIRM** — but read the marginality, it is the honest part
+
+**CONFIRM line = ≥2 names FV/Cost-DOWN *and* NAV ΔQoQ < −2%. Exactly 2 qualify (FSK, BXSL). It fires at the threshold, not past it.**
+
+**What is strong:** ★ **direction is unanimous ex-MAIN.** **5 of 6 NAVs fell**; **4 of 4 measurable FV/Cost ratios fell** — and **the only name up on BOTH metrics is MAIN, the name this card designated in advance as the *clean/high-quality benchmark*.** A pre-registered control behaving as the control is the strongest single feature of this grade, because it was named before the data.
+
+**What is weak, stated plainly:**
+1. **It fires at 2-of-≥2 — one name off and it is MIXED.** No margin.
+2. **The two near-misses (GSBD −0.90%, OBDC −1.04%) miss on the NAV leg while their FV/Cost is DOWN** — so the *magnitude* gate is what is marginal, not the direction.
+3. ⚠️ **ARCC — the largest name and the designated sector bellwether — is UNMEASURED on M1** (`InvestmentOwned*` not tagged for 6/30). Its NAV fell −1.23%. **I am not grading around it: the bellwether's mark tell is missing and that is a real hole in a 6-name card.**
+4. **M3/M4/M5 (non-accrual %, PIK %, and the rest) are NOT graded here** — M1+M2 carry the CONFIRM line and are what the pre-registration keys on. The others stay owed.
+
+### 🔴 A DEFECT IN THIS CARD'S OWN BASELINE, found while grading it
+
+**The baseline table's column headed *"Q1 NAV/sh (3/31)"* carried FSK at 20.89. That is the 12/31/2025 value. FSK's actual 3/31/2026 NAV is 18.83.** The −9.9% ΔQoQ beside it was correct (20.89 → 18.83) — **so the delta column described the move *away from* the level the level column was showing.**
+
+**Cost had I not caught it: FSK Q2 would have graded 20.89 → 18.30 = −12.4% instead of the true −2.81% — a 4x overstatement, on the name this card calls "first-to-mark-down historically."**
+
+★ **And the card had already flagged the symptom without finding the cause:** it warned *"FSK P/NAV 0.52 is SUSPECT — smells like a split/NAV-vintage mismatch."* **The suspicion was right and the mismatch was in my own table.** On the correct 18.83 the Q1 P/NAV is ~0.575, not 0.52.
+
+⚠️ **ROOT CAUSE, and it bit twice: a BDC's 8-K comparative column is the prior FISCAL YEAR END, not the prior quarter.** ARCC's Q2 8-K shows `19.35 | 19.94`, and 19.94 is **12/31/25**, not 3/31/26 — grading QoQ off those two columns gives −2.96% instead of the true **−1.23%**. **Always take the QoQ denominator from the prior 10-Q, never from the current release's comparative column.** → **KB-LIQ-100**.
+
+### What this does and does NOT license
+
+- ✅ **The card's own consequence: CONFIRM → arms the BROCK wrapper-leads X1 half.** *(X1 still needs HY >280 to fire, and HY is 275 [8/20]. Nothing fires today.)*
+- 🔴 **⚠️ THIS CONTRADICTS THE STATE I HAVE BEEN CARRYING, AND THE CONTRADICTION IS THE HEADLINE.** I have recorded since 7/27 that *"BROCK's wrapper-leads half FAILED independently"* — and I repeated it tonight in the CHANGELOG entry and to DAEDALUS as the reason **X1 cannot fire whatever the tape does.** **BROCK's failure was on a DIFFERENT instrument** (HY tranche decomposition → "BB-led beta, not credit recognition"). **This card is the BDC-mark face of the same conceptual half, and it CONFIRMS.**
+- ⇒ **The wrapper-leads half now has TWO contradictory reads from two instruments. I am NOT declaring it armed — that adjudication is BROCK's**, and the fleet rule is to reconcile a shared question to ONE figure rather than silo it. **What I am retracting is my own certainty:** *"X1 cannot fire"* was stated more strongly than my own evidence supports, and my own card is the thing that undercuts it.
+- ❌ **Not a trade recommendation.** Book flat; construction is TERRY's, decision Will's.
+
+**Routed:** BROCK (owner of the half, adjudication) · PROME/NEXUS (R3/M-08 transmission test).
+
+---
+
 ## ★ PRE-REGISTERED GRADING CARD — Q2 2026 (quarter ended 6/30/26)
 
 ### Names + Q1 baseline + report window
