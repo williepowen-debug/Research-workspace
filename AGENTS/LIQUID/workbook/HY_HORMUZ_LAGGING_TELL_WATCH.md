@@ -34,6 +34,62 @@ A move in HY from here is only "recognition of the closure" if it carries the **
 - **Breadth gauges [7/15 FRED]:** BB 162 · Single-B 290 · CCC 969 · CCC−BB **807**. Recognition = CCC leads (gap widens) and/or energy-HY sector prints wider; beta = all three move ~together.
 - **Fundamental checkpoint — mid-Aug (the honest one):** the oil shock's **inflation pass-through lands in the JULY CPI print (mid-Aug)**, NOT June CPI (7/14, pre-spike). **First post-closure energy-HY sector read ~mid-Aug.** Anything before mid-Aug is HY *forward-pricing*, not a confirmed CPI/sector fact — weight accordingly.
 
+## ★★ GRADED — 2026-08-24 · **NEITHER PRE-REGISTERED PATH. The base case is DEAD, and the tail did something the index didn't.**
+
+*(Opened on DAEDALUS's queue call — arrived-window grounds. Registered 7/17 with a mid-Aug checkpoint; graded 38 days later. Own FRED pull, obs 8/20; Brent yfinance `BZ=F` 8/23 — **proxy, NOT the ICE settle the basis canon requires.**)*
+
+### 1. 🔴 The SHRUG-CORRECT base case is dead on its own antecedent — **oil never round-tripped**
+
+> Registered text: *"closure de-escalates / **Brent round-trips <$75** and HY stays flat."*
+
+**Brent `BZ=F`: $76.01 [7/10, pre-closure] → $84–88 [7/13-17] → $93.62 [8/23], window max $100.69.** Oil is **+23% above the pre-closure level**, not back below $75. **The base case cannot grade TRUE — its precondition is false.** ⚠️ Both resolution paths were written assuming the geo-premium would decay; it didn't, so *"holding through an oil round-trip"* is **UNGRADEABLE — there was no round-trip to hold through.** That is a spec defect in my own pre-registration, not a market outcome. *(Basis: `BZ=F` ≠ ICE front-month settle — direction is unambiguous at +23%, but do not quote the figure as a settle.)*
+
+### 2. ✅ The band-break leg FIRED, decisively
+
+> Registered: *a close **>275** that holds **≥3 sessions**.*
+
+**8 consecutive sessions >275: 277 · 279 · 281 · 284 · 287 · 284 · 285 · 278 (7/23 → 8/03).** Nearly 3× the requirement. The 267–272 band broke.
+
+### 3. ★★ And here is the finding — **the index round-tripped and the tail did not**
+
+| | 7/15 baseline | 7/29 peak | 8/20 | **peak → now** |
+|---|---:|---:|---:|---:|
+| HY blended | 271 | **287** | 275 | **−12** |
+| BB | 162 | 176 | 163 | **−13 (full round-trip)** |
+| **CCC** | 969 | 1013 | **1035** | **+22 (kept going)** |
+| **CCC−BB gap** | 807 | 837 | **872** | **+35** |
+
+**BB retraced its entire move. CCC never did — it made new highs while the index fell back.**
+
+> ★ **This is the cleanest discriminator reading the watch could have produced, and it is a structural argument rather than a judgement call: a common-factor move (beta) reverses in all tiers TOGETHER. This reversal separated them.** The run-up was beta — my own attribution (KB-LIQ-091: 68–84% broad DM HY beta) and tier decomposition (KB-LIQ-088: BB-led proportionally) both say so and are **unchanged**. **What is new is the AFTERMATH: when the common factor withdrew, the tail stayed wide.** The mask lifted, and something was underneath it.
+
+**CCC−BB 872bp [8/20] is the MAXIMUM of 787 observations since 2023-01-01 — 99.9th percentile, a fresh high, above the 831bp [2025-04-07] the fleet has been calling the cycle high.** The pre-registration's own recognition condition — *"CCC LEADS (gap >807 toward cycle-high)"* — is met **and exceeded.**
+
+### 4. ⚠️ THE CAVEAT THAT KEEPS THIS AT *CANDIDATE* — 45% of the widening is one session on a pre-registered index-rebalance date
+
+**Of the +65bp gap widening (807 → 872), +29bp landed in the SINGLE session 7/30 → 7/31** (BB 174 → 173, flat; **CCC 1006 → 1034, +28**). **7/31 is the DISH index-rebalance date**, which **KB-LIQ-068 pre-registered as a composition artifact** — *"expect a MECHANICAL CCC tightening at removal that is NOT credit improvement."*
+
+- 🔴 **KB-LIQ-068's SIGN WAS WRONG: it predicted mechanical CCC *tightening* and the print was +28bp of *widening*.** Logged as a miss on my own pre-registration, not quietly dropped.
+- ⚠️ **Whatever the sign, the warning stands: the largest single-session move in this whole window landed exactly on the date I had flagged as composition-driven.** Ex-that-session the gap still widens **+36bp** and the qualitative finding (BB round-tripped, CCC didn't) survives — **but I am not calling a fresh cycle high "recognition" when 45% of it sits on a rebalance date.**
+
+### 5. VERDICT
+
+> **RECOGNITION-CANDIDATE, not RECOGNITION. And explicitly NOT shrug-correct — the base case died on its antecedent.**
+
+| Leg | Status |
+|---|---|
+| Band break >275, ≥3 sessions | ✅ **FIRED** (8 sessions) |
+| CCC leads / gap toward cycle high | ✅ **FIRED, strong form** — survived the index round-trip; gap at a 787-obs maximum |
+| Survives an oil round-trip | ⚠️ **UNGRADEABLE — no round-trip occurred** (Brent +23%) |
+| Energy-HY sector widens | ⚠️ **UNMEASURED** — no free sector series exists (KB-LIQ-058, positive-controlled 7/23: FRED returns count=0 for US HY industry sub-indices). **Treat as unmeasured, never as "no dislocation."** |
+| Composition-clean | 🔴 **NO** — 45% of the gap move sits on the 7/31 rebalance date |
+
+**What would settle it:** the gap holding **>850 through mid-September** with **no rebalance date in the window** — a clean-tape persistence test that the 7/31 artifact cannot reach. **Registered here as the successor test.**
+
+**Routed:** BRENT (Brent **$93.62** is theirs, and the energy-HY sector figure remains owed — this grade is blocked on it) · NEXUS (recognition = M-08 liquidity-channel datum) · PROME.
+
+---
+
 ## Resolution paths
 
 - **SHRUG-CORRECT:** closure de-escalates / Brent round-trips <$75 and HY stays flat → HY correctly ignored a transient geo-premium (beta, not substance). *KB-071 Part-2 MISS was the *right* call on the fundamentals — the oil→broad-HY beta channel is empirically weak at this magnitude.* This is the **base case** given the week's evidence.

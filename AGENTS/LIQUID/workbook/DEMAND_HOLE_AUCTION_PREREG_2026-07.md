@@ -5,6 +5,25 @@
 **Threads to:** May TIC ~7/16 (first sub-$650B China print fires ZHA-04) — the auctions this week are the near-term tell that precedes TIC by a week. Pre-loads mid-July-node **packet C (Asia demand-hole)**.
 **ZHAO upgrade folded in (packet `2026-07-05_from-ZHAO`):** China UST decline is a **GENUINE net exit** (Belgium FLAT $454B = not Euroclear custody migration), pinned ~$1.1B above the $650B line for 2 prints (Apr $651.1B, 18yr low). **Currently MASKED** — April was a record aggregate foreign-inflow month (+$206B LT). The live question I own: **who absorbs when China ticks <$650B, and does it hold?** Demand-hole narrowed to 2 anchors (China genuine + Korea; Gulf RESOLVED, Japan a net buyer).
 
+
+---
+
+## ⚠️ ANNOTATED 2026-08-24 — the VERDICT stands; TWO of its PREMISES have since been invalidated. Read this before citing it.
+
+*(Opened on the PAT-085 hedge-word audit — this file surfaced at 44 days. **Unlike the BDC card, this one WAS graded** — the verdict of record is in STATUS/NEXUS_BRIEF: **July refunding = ABSORPTION-HOLDING**, 30Y reopen 7/9 indirect **77.74%** at a record 5.058% stop with **no tail**, 10Y 7/8 indirect 81.49% ⇒ **price-clearing, NOT a buyers' strike.** The gap here was documentation, not a missed verdict. **But two of the premises it was reasoned from have since died, and one of them changes what the grade MEANS.**)*
+
+**① 🔴 The ZHAO premise folded in at the top of this file is FALSIFIED.** It reads: *"China UST decline is a **GENUINE net exit** (Belgium FLAT $454B = not Euroclear custody migration)."* **ZHAO falsified the Belgium proxy as an interpretation instrument on 2026-08-21** (Will-ruled): rho(China net sales, Belgium net sales) ≈ **+0.05 on every window**, n=41, and Belgium bought in only **15 of the 27 months China sold — 56%, a coin flip.** ⇒ **A Belgium reading — flat OR rising — cannot support a custody-vs-exit inference in either direction.** The genuine-exit conclusion may still be right, but **this file's stated reason for it is not evidence.** *(ZHAO separately **withdrew** the China-rotation leg on direct measurement — Agency holdings were SOLD alongside Treasuries, −$40.3B TTM, rho −0.025.)*
+
+**② 🔴 And the instrument the verdict rests on is composition-blind — this is the one that changes the MEANING of the grade (KB-LIQ-095, 8/23).** *"Absorption HOLDING"* was read off **indirect bidder %**. **Indirect is a BID-CHANNEL tag, not a HOLDER-CLASS tag** — it contains foreign official *and* foreign private. June TIC then showed foreign **official −$45.40B** against **non-official +$23.15B**: an official→private handoff running underneath a strong indirect print.
+
+> ⇒ **A strong indirect % is NOT evidence that official demand held.** The 77.74% is real and the auction did clear at a price — **that part of the verdict is untouched.** What it cannot tell you is **WHO cleared it**, and the holder class matters, because sticky/unlevered/mandate-driven demand was being replaced by **price-sensitive/levered/repo-financed** demand.
+
+**⇒ CORRECTED READING OF RECORD:** *"The July refunding CLEARED at a price, with no buyers' strike — and the instrument used to grade it cannot see the holder-class substitution that June TIC subsequently showed was underway. Absorption held; **who was absorbing changed**, and this pre-registration had no leg that could detect it."*
+
+**⇒ SUCCESSOR TEST, registered:** the demand-hole leg should be expected to surface as a **funding/repo event, not a failed auction** (the replacement bid is repo-financed). **Watch the SOFR dispersion / dealer-capacity / haircut rows, not the auction-indirect row** — and the **8/26 5Y** is the next dated instance, already pre-registered with BOND.
+
+**Nothing here re-opens BND-11 (BOND's grade, their mechanics).** This annotation is scoped to LIQUID's absorption/funding overlay.
+
 ---
 
 ## This week's auctions (TreasuryDirect-confirmed)
