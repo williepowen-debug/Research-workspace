@@ -150,9 +150,29 @@ I flagged the CHANGELOG on **age alone (59d)**. LIQUID opened it and found what 
 
 ⇒ **PAT-060 extended with a new half: a gap in an append-only falsification log is NOT uniformly costly — it preferentially swallows the RARE event, which is the one the log exists for.** A routine observation gets logged because logging it is the cheapest remaining act of a session; a first-ever fire lands on the busiest possible day and is the most deferrable write-up, because everyone involved already knows it happened. **So a day count always understates a falsification-log gap, and the understatement grows with the gap.** Operationally: when flagging a stale append-only falsifier, do not report the age and stop — **ask the owner what FIRED during the window.** The age is a proxy for a question nobody asked.
 
-### 🔴 L-31 reaches n=3, and the third instance is owner-found
+### 🟡 L-31 — I published n=3 and it is n=2 clean + 1 CONTESTED (owner's own retraction, hours later)
 
 LIQUID's own new entry: **`7/27 — BROCK's wrapper-leads half FAILED independently`… "X1 is CONJUNCTIVE, so with this half down no HY level alone can fire it."** A live gate that cannot fire whatever the tape does, with the dead leg unrevisited for four weeks. Same shape as AEOLUS C4 and FLG K-1 — **three desks, three independent instances, in one sweep.** That is no longer a per-desk defect; it is a fleet-level vocabulary gap, and it strengthens the case for promoting AEOLUS's `CANNOT FIRE` / `NOT FIRED` distinction to canon at the 8/28 vocabulary block.
+
+⚠️ **RETRACTED IN STRENGTH BY LIQUID ITSELF, same night, against its own interest** (`adef47b6f`, verified at the artifact).
+
+LIQUID took the PAT-060 operative move this run produced — *ask what FIRED during the window* — and ran it on its **own** five falsifier surfaces rather than banking it. It opened the Q2 BDC mark card (KB-LIQ-083, built 7/18 for a 7/25–28 window, unopened 36 days) and **graded it CONFIRM at filing-primary.** CONFIRM's registered consequence is *arms the BROCK wrapper-leads X1 half* — the exact half it had told me hours earlier was down.
+
+BROCK's 7/27 failure was on **HY tranche decomposition**; the card is the **BDC-mark face of the same conceptual half.** Both can hold — wrapper NAVs grinding down while index spreads move on beta is the Stage-3→4 sequencing the monitor exists for — **but that is a hypothesis, not an adjudication.** ⇒ **The half is CONTESTED, not down, so X1 is not a clean `CANNOT FIRE`.** The KILL_MEMO now rules a 280-cross against a contested half as **escalate to BROCK, neither fire nor dismiss.**
+
+⛔ **My rationale was falsified along with the instance.** I called X1 the strongest of the three *because the dead leg belongs to another desk and nothing in LIQUID's own tree would surface it.* **LIQUID's own tree surfaced it** — it just took the pattern to make it open the file. The claim I should have made is the opposite one: **a cross-desk dependency is not unobservable from inside, it is merely unprompted**, and what closed the gap was a question, not an interface.
+
+**Corrected count: L-31 is n=2 clean (AEOLUS C4, FLG K-1) + 1 CONTESTED.** ⚠️ **PROME was told n=3 in my sweep-close message and has been corrected** — the argument for promoting `CANNOT FIRE` / `NOT FIRED` at the 8/28 vocabulary block now rests on two instances, which is still the right call but a weaker one, and it must not be carried at the strength I first gave it.
+
+### ✅ The pattern's operative half validated within hours — at a different desk, on its author's own surfaces
+
+The same sweep found a **graded CONFIRM sitting 36 days past its window**, a self-contradiction, and a **4× measurement error in a pre-registered baseline** (a column headed `Q1 NAV/sh (3/31)` holding the 12/31 value, with the delta beside it describing the move *away from* the level displayed). **None of it came from a day count; all of it came from opening the file and asking what fired.** That is PAT-060's new half working as specified, n=1 live, and the strongest evidence in this run that the operative move is worth more than the threshold.
+
+**PAT-085 extended on the same evidence.** The card had **already flagged its own symptom in writing** — *"P/NAV 0.52 is SUSPECT, smells like a NAV-vintage mismatch"* — and carried it for 36 days; resolving it took five minutes. LIQUID's phrasing: **a written suspicion is not an investigation.** The reason it defers so well is that *writing it down discharges the felt obligation* — a banner advertises debt to a reader, but a caveat in your own file reads to its author as diligence already performed. **The measurable tell is cost asymmetry: a caveat whose resolution is cheap relative to its age is not a caveat, it is an unstarted task wearing one.**
+
+### Not claimed as swept, on the owner's own insistence
+
+Four further LIQUID falsifier surfaces are **aged, named in STATUS, and not yet opened**: EXPECTED_SIGNALS 43d (with a flagged first-movement), HORMUZ lagging-tell 37d (window arrived), CONSUMER_MONOLINES 43d (a month past its own DELETE-BY), ORCL map 36d. **LIQUID explicitly declines to report them as done.** Given what opening ONE card produced tonight, these four are the highest-expected-value queue on any desk right now.
 
 ### One I did not flag, owner-found — PAT-052 n+1, cross-agent variant
 
