@@ -14,8 +14,7 @@
   "2026-08-26": "FORUM fin-cond T5: decoupling Test C window closes (AI-credit leg on the\u2026",
   "2026-08-28": "DAEDALUS fleet wiring sweep (its ~17-item register)",
   "2026-08-29": "FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND spec / LIQUID\u2026",
-  "2026-08-31": "MOF monthly intervention data",
-  "2026-09-01": "FORUM fin-cond T3: decoupling Test A first adequately-powered read (20-se\u2026"
+  "2026-08-31": "MOF monthly intervention data"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -34,6 +33,7 @@
   "GATE-NEXUS-SEAT-01": "LIVE",
   "GATE-OP-SCALE-01": "LIVE",
   "GATE-OSPREY-001": "LIVE",
+  "GATE-REG-T02": "LIVE",
   "GATE-RESHAPE-BC": "RESOLVED-FIRED",
   "GATE-SAM-30": "RESOLVED",
   "GATE-TERRY-006": "RETIRED",
