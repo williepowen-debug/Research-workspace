@@ -1,22 +1,26 @@
-### 2026-08-23 ~13:0x-18:3x ET — Sun 8/23 SECOND SESSION (light-closeout — full deferred)
+### 2026-08-23 ~13:0x-21:3x ET — Sun 8/23 SECOND SESSION (Tier-2 FULL closeout)
 
-**BOARD 791 → 792. 1 dispatch / 0 kills / 0 verify-spawns / 0 batches.** Re-opened ~40 min after the midday Tier-2 close on Will's *"Hi WALTER please boot up."* Boot clean: 0 HIGH, 2 MED, 29 triggers counted by header, **zero fires**, all levels 8/21 closes.
+**BOARD 791 → 793. 2 dispatches / 1 §3.6 correction / 1 kill row / 1 doorbell fired+closed.** Re-opened ~40 min after the midday Tier-2 on *"Hi WALTER please boot up."* Boot clean: 0 HIGH, 29 triggers by header, **zero fires**, all levels 8/21 closes (markets shut all session).
 
-**Step-3 evaluation paid at once:** the carried FOLLOW-UP said *"next boot is MONDAY 8/24"* — it was still Sunday. Checked rather than repeated: `DOORBELL_LOG` genuinely empty, doctor MISS/DECLINED counters genuinely unbuilt.
+**Step-3 evaluation paid immediately** — the carried FOLLOW-UP said *"next boot is MONDAY 8/24"* on a Sunday.
 
-**`SIG-W-20260823-001`** — HOMER routed a rent-market lead cross-session. Verified at the Zillow issuer, **and pulling the PRIOR month inverted its sharpest leg**: level fell $1,965→$1,962 MoM, concession share flat +0.1pp, **YoY spread NARROWED +4.5pp→+3.9pp**. *"Fastest pace in over a year"* is a rate acceleration on a declining level — a base effect. Carried a denominator guard (the 16.9% on BOARD is stabilized-apartment MF-only; 16.9%→39.8% is an instrument change) and HOMER's counter-signal at full weight (MF +1.5%→+1.7%).
+**`SIG-W-20260823-001`** (HOMER's rent lead): verified at the Zillow issuer, and pulling the PRIOR month inverted its headline — level fell MoM, concession share flat, **YoY spread NARROWED +4.5pp→+3.9pp**; *"fastest in over a year"* is a rate acceleration on a declining level. **Then HOMER caught my §4: *"no Florida metro appears"* was FALSE** — my axis sweep was **threshold-keyed, not domain-keyed**, and its negative only certified *"none above 65%."* §3.6 correction, CORAL added on `action:`.
 
-**Then HOMER pushed back and found a defect in my half.** §4 said *"No Florida metro appears in the release."* **False** — FL is in it at 50-55%. **Cause: my step-10.7 axis sweep was THRESHOLD-keyed, not DOMAIN-keyed.** §3.6 correction applied, CORAL added on `action:`, FL figures carried ATTRIBUTED (the issuer metro table 403s to this box). **It reproduced `SIG-W-20260819-023`, which the signal cited BY NAME as evidence the sweep had run.**
+**DOORBELL #1 — full round trip.** CORAL 20d dark, 12 unconsumed → pointer to PROME → **Will spawned CORAL → drained to 0.** Logged `SPAWNED`. Two `NO` rows also logged (CREED `L3-FAIL`, CARL `EXEMPT`) so the miss denominator stays auditable.
 
-**DOORBELL GATE — FIRST FIRE, and a full round trip.** CORAL, 20d dark, 12 unconsumed. Pointer to PROME → **Will spawned CORAL → inbox drained to 0.** Logged `SPAWNED`, drained 12. **Two `NO` rows also logged (CREED `L3-FAIL`, CARL `EXEMPT`) so the miss denominator stays auditable.**
+**Four rounds with PROME, all recorded rather than smoothed.** PROME raised a false escalation (leg 3b "unruled" — it IS ruled, `CROSS_SESSION_MESSAGING.md:41`, verified at the artifact). I had graded the fire on **a statistic not in the rule** and taken leg-2's input off a **directory listing**. **Will then ruled the definition of "session"; I encoded it under rule 3(b) on his verbatim word in a committed artifact — explicitly NOT on PROME's relay, and explicitly refusing the "standing permission" PROME attributed to me.**
 
-**Four rounds of correction with PROME**, all of it recorded rather than smoothed: PROME raised a false escalation (leg 3b "unruled" — it is ruled, `CROSS_SESSION_MESSAGING.md:41`, verified at the artifact); I had graded the fire on a **statistic not in the rule** (max gap, not median) and taken my leg-2 input off a **directory listing** rather than the `action:` line. Will then **ruled the definition of "session"** and I encoded it — **under rule 3(b), verified at `9f13cba9a` myself, explicitly NOT on PROME's relay and explicitly NOT on the "standing permission" PROME attributed to me and I refused.**
+**Measured on assignment: 3b fires 0-of-6 and reaches neither HENRY nor BROCK under either reading.** My re-score was then shown to be a **NULL TEST** (no new observations entered); the real Jun-Jul-vs-August test **partly contradicted my own title** — HENRY SLOWED 2.0d→7.0d and would PASS. **Withdrew half the title.** What survived both reversals: `BOARD_CONSUMPTION_SPEC:268` — the 8/22 justification used a **frequency** and a **recency**, not the median the rule specifies.
 
-**Measured on assignment:** 3b fires **0-of-6** under the ruled definition, and **does not reach HENRY or BROCK — the two desks its own text names — under EITHER reading.** Bar left standing pending Will.
+**`SIG-W-20260822-002` §3.6 CORRECTION** (BOND): I killed a claim that was TRUE — *"highest since 2007"* holds; I tested the wrong proposition and impeached the level AND the superlative on evidence that reached one. Delivered to all six lane recipients. Two basis notes accepted (*"exact"* is a rounding artifact; the round-trip is 44% complete on the graded series).
 
-**Memory:** `[[finding_reconcile_mismatch_does_not_say_which_side_is_wrong]]` extended with the cross-agent limb — exchange the RAW INPUT LIST, not the statistic.
+**`SIG-W-20260823-002`** (the lane item the midday session recorded as a Novelty kill **with no kill_log row and no `--mark`**): read, not headline-killed. Japanese residents net bought **>¥5tn** foreign assets in the 2wks to 8/15 vs **selling ¥300bn** prior — **the intervention RELOADED the carry.** ⚠️ **Not a duplicate of `-024`: that tested CFTC SPECS and said the unwind SURVIVES; this is MOF RESIDENTS.** **Magnitude UNRECONCILED — my own MOF pull gives ~¥2.8-3.4tn vs ¥5tn; issuer 403s.** Kill row written for the sweep's other half; lane `--mark`ed.
 
-**Open with Will (5):** BOND's refutation of `SIG-W-20260822-002` §2 · the untriaged yen/carry lane ALERT → SAM · push held · the bar re-derivation · the 8/22-vs-today re-score (should run first).
+**HENRY, and it is the open item:** drained top-level 28→0 today while **`inbox/WALTER/` sits at 53 unconsumed since 7/31** — proven by HENRY's own `board_log` `source` column. **145 already processed in that lane ⇒ a regression with a date, not a habit.** Messaged HENRY directly.
+
+**Memories:** `[[finding_reconcile_mismatch_does_not_say_which_side_is_wrong]]` (cross-agent limb — exchange the RAW INPUT LIST) · `[[finding_instrument_cadence_cannot_resolve_the_claims_window]]` (COUPLED limb — a recent window's n is inversely coupled to the estimand; monotone `[3,2,2,2,1,1,0]`).
+
+**Open with Will (1):** does the HENRY class — boots but never reads one lane — get its own instrument?
 
 ### 2026-08-23 (Sun) MIDDAY — **THE DAY THE ROLE CHANGED: a design session with zero dispatches, and two defects found in my own instruments**
 

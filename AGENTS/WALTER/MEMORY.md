@@ -86,19 +86,20 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-08-23 Sun MIDDAY — Tier-2 FULL, boot 13:2xZ → close ~11:4x ET)
-- **BOARD 791 → 791. ZERO dispatches — a DESIGN session, and the zero was a decision:** markets shut, 29 triggers at zero fires, both lane breaches Novelty kills. **Manufacturing a doorbell to exercise the new mechanism would have corrupted the base rate 8/28 depends on.**
-- **THE ROLE CHANGED (Will-directed).** `CLAUDE.md` IDENTITY gains a fourth question — *is there an owner in a state to receive it?* Routing v2 closed *"in BOARD ≠ received"*; this closes *"received ≠ RECEIVABLE."* Router **plus readiness monitor**; still never spawns.
-- **Specs:** `BOARD_CONSUMPTION_SPEC` **v0.20 §3.5.7** · `CHECKLIST` **v0.37** · `CLAUDE.md` RULE 13 + boot 9b · `DOORBELL_LOG.tsv` · `STATE.md` swept, drift guards green · **rule 6b amended under Will's in-session permission** (authorised exception, recorded as such) · doctor `_HANDOFF_SCAFFOLD` fix · REGISTRY 5 rows.
-- **Auto-memory written + indexed:** `finding_gate_calibration_is_a_claim_about_its_remedys_price`.
+### CHANGES SINCE LAST SESSION (2026-08-23 Sun EVENING — Tier-2 FULL, boot ~16:1xZ → close ~21:3xZ)
+- **BOARD 791 → 793.** `-20260823-001` (HOMER's rent lead — June inverted its headline) · `-20260823-002` (the lane ALERT the midday session recorded as a Novelty kill with **no kill_log row and no `--mark`**) · **§3.6 correction on `-20260822-002`** (BOND: I killed a claim that was TRUE).
+- **DOORBELL #1 FIRED AND CLOSED:** CORAL 20d dark/12 items → PROME pointer → Will spawned → drained to 0. **Logged `SPAWNED` — and logged that under the definition Will ruled hours later it would NOT have fired.**
+- **Will ruled "session" = the context window before a closeout ⇒ commit-days.** Encoded in rule 6b under **rule 3(b)**, verified at `9f13cba9a` myself, **NOT on PROME's relay** and refusing the standing permission PROME attributed to me.
+- **Measured: 3b fires 0-of-6, reaching neither HENRY nor BROCK under either reading.** Then my re-score was shown to be a **NULL TEST**; the real test partly contradicted my own title (**HENRY SLOWED 2.0→7.0 and would PASS**). Half the title withdrawn. `:268` survived both reversals.
+- **HENRY: top-level 28→0 today, `inbox/WALTER/` 53 unconsumed SINCE 7/31** — lane-specific regression, proven by HENRY's own `board_log` `source` column.
+- **Memories:** `finding_reconcile_mismatch_does_not_say_which_side_is_wrong` (cross-agent limb) · `finding_instrument_cadence_cannot_resolve_the_claims_window` (COUPLED limb).
 
 ### NEXT SESSION
-1. 🔴 **MONDAY 8/24 — first live session under the new gate, and dense.** `WAL` $79.67 [8/21] is **2.1%** from a **RE-ARMED sustain-1**; LABOR spawning; CREED's FDIC QBP window. **Run boot step 9b (three-state readiness scan) BEFORE reporting anything.**
-2. 🔴 **THE GATE HAS NEVER FIRED — ≈3-of-7 is a projection, not a measurement.** `DOORBELL_LOG.tsv` is empty. **HENRY and BROCK are the first two leg 3b reaches.** A row is owed for **every** dark-recipient `action:` dispatch, doorbelled or not, or the miss counter has no denominator.
-3. **Build the MISS + DECLINED doctor counters** — specced in §3.5.7, not yet built; amendment ③ asks for them and the soak is **8/28**.
-4. ⚠️ **8/28: pre-/post-amendment doorbells are TWO POPULATIONS.** Do not pool them.
-5. **`CREED-T-01a`** — verify the August Trepp publication date before treating it as a calendar item.
-6. **`SIG-W-20260819-024`'s named follow-up has no instrument** — the lane's CFTC feed is VIX-only, stuck at `report_date 2026-08-11`.
+1. 🔴 **MONDAY 8/24 — `WAL` $79.67 is 2.1% from a RE-ARMED sustain-1.** Run boot step **9b** before reporting anything.
+2. 🔴 **ONE ITEM WITH WILL: does the HENRY class (boots, never reads one lane) get its own instrument?** Everything else on the doorbell is proposed and waiting.
+3. ⚠️ **Do NOT cite "wrong not stale" unqualified** — it is *both*. Cite `BOARD_CONSUMPTION_SPEC:268`, which survived both reversals.
+4. **Step 10.7 re-wording owed** (DOMAIN-keyed, and state what the negative scanned FOR). **Threshold lists from the TABLE, never the prose.**
+5. **`SIG-W-20260823-002` magnitude unreconciled** — SAM owns the MOF primary.
 
 ### FEEDBACK / FINDINGS ADDED THIS SESSION
 - **Will (in-session 8/23):** *"adjust your role and guidelines to fit the new paradigm"* — **this overrode a hold I had placed on MYSELF** (base-rate-before-wiring). ⇒ **a self-imposed methodological hold is a recommendation to the operator, not a veto on his instruction.** I was right to state it, right to decline unilaterally, and right to execute in full when he ruled.
