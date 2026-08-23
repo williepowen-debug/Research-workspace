@@ -164,6 +164,22 @@ def _excluded(parts) -> bool:
     return False
 
 
+def _dated_record_class(rel: str):
+    """Reason string if `rel` is a HISTORY/ARCHIVE-class file, else None.
+
+    Companion to _excluded(), which matches path COMPONENTS only. This matches the FILE
+    STEM, which is where the fleet actually puts its cold halves: FLEET_MAP_HISTORY.tsv,
+    STATUS_ARCHIVE_2026-08-23.md, EVOLUTION_ARCHIVE_2026-08.md, PREDICTIONS_ARCHIVE.tsv.
+    Added 2026-08-23 after LABOR verified that "history" in EXCLUDE_PARTS matches the
+    directory `history/` and misses every one of those filenames.
+    """
+    stem = rel.rsplit("/", 1)[-1].rsplit(".", 1)[0].upper()
+    for tag in ("_HISTORY", "_ARCHIVE", "-HISTORY", "-ARCHIVE"):
+        if tag in stem or stem.endswith(tag.lstrip("_-")):
+            return f"{rel.rsplit('/', 1)[-1]} is a HISTORY/ARCHIVE-class file"
+    return None
+
+
 def iter_num_tokens(line: str, csv_mode: bool = False):
     """(normalized_value, start) for every numeric token on a line.
 
@@ -561,6 +577,42 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
                 else:
                     kept.append(rec)
             stale = kept
+
+    # ── PATH-CLASS DEMOTION (2026-08-23) — a DATED RECORD is not a STALE CLAIM.
+    #
+    # Measured by LABOR 8/23: a live run returned 5 hits, 1 real. The other four were
+    # correctly-dated historical records (a *_HISTORY register row, a dated preprint, a
+    # RESOLVED DOCKET row) that are *supposed* to hold the superseded value — that is what
+    # makes them records. The tool cannot tell "this claim is stale" from "this is the
+    # written history of the claim", and every 🔴 it raises on one costs a real read.
+    #
+    # ⚠️ TWO THINGS THIS FIX HAD TO GET RIGHT, BOTH FROM LABOR'S VERIFIED CORRECTION OF MY
+    # OWN WRONG FIRST GUESS (I had assumed the gap was in the cross-agent code path):
+    #  (1) NOT SCOPED TO NUMERIC. The demotion paths that already exist (have_ctx, weak_nums,
+    #      collision) are all numeric-only, and `elif txt_hits` appends to stale BEFORE any of
+    #      them can be reached, so a TEXT needle ("32/75", "3.4->3.1%") is structurally immune
+    #      to every one of them. For text needles this is the ONLY demotion that can ever fire.
+    #      ⛔ So this runs as a post-pass over ALL of `stale`, after the numeric collision pass.
+    #  (2) MATCH THE FILE STEM, NOT ONLY PATH COMPONENTS. EXCLUDE_PARTS already contains
+    #      "history" and `_excluded()` matches components, so `AGENTS/X/history/old.md` is
+    #      excluded while `AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv` is NOT — LABOR verified both.
+    #      The 41 rotated Gaps rows written to that exact file on 2026-08-23 would all have
+    #      landed as 🔴 under the old rule.
+    #
+    # DEMOTE, NEVER SUPPRESS (PAT-118: widening a recognizer turns a visible false-flag into an
+    # invisible false-pass). These stay in the output as 🟠 CANDIDATE with the reason printed,
+    # so a genuinely stale line living in an archive is still visible to a reader who looks.
+    if stale:
+        kept = []
+        for rec in stale:
+            rel = rec[0]
+            why = _dated_record_class(rel)
+            if why:
+                cand.append(rec + (f"{why} — a dated RECORD is expected to hold superseded "
+                                   f"values; verify before treating as stale",))
+            else:
+                kept.append(rec)
+        stale = kept
     return stale, cand, mail, handled
 
 
