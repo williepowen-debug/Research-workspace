@@ -6,6 +6,22 @@
 
 ## Changelog
 
+### 2026-08-23 (b) — Byte budget RE-DERIVED from the harness read cap (supersedes the 48,000 B density constant); `read_cap_check.py` built and wired; boot spine found BREACHED
+
+**Trigger:** Will — *"can we fix this"*, on my own admission that I had flagged the broken budget derivation three times in one day and fixed it zero times.
+
+**What was actually wrong — deeper than staleness.** The 48,000 B budget was declared 2026-08-17 from a DENSITY snapshot (752 B/line × ~64 lines). It decayed twice: density moved (752 → ~1,489 → ~1,000) so the constant silently bought half what it was sized for; **and density was never the binding constraint.** The constraint is the harness **single-read token cap**, past which a mandated boot read returns a PARTIAL file — the protocol stays written while execution degrades to fragments (**PAT-111**, my own founding self-audit finding). ★ **The old constant worked out to 88% of that cap: it LICENSED a STATUS that could not be read whole.** A fresh constant would have reset the clock on the same defect, so the fix had to change the *basis*, not the number.
+
+**Derivation, two measurements from one session, one on each side of the cap:** ① `FLEET_MAP.tsv` 65,725 B → harness reported *"30253 tokens, cap 25000"* and truncated ⇒ **2.17 B/token**; ② `STATUS.md` read WHOLE at 46,152 B ⇒ ratio ≥1.85, **consistent**. ⇒ **budget = 25,000 × 60% × 2.17 = 32,550 B.** ⚠️ **Weakest leg, stated rather than hidden: the ratio is content-dependent.** Fleet markdown tokenizes badly (emoji, unicode, bold markers); a naive 4 B/token under-counts ~1.8× — **the dangerous direction**.
+
+**Mechanized, not remembered** (`finding_mechanize_the_cap_not_the_ritual`): **`scripts/read_cap_check.py`** — §9 rc 0/1/2, **all three paths watched on real cases before trust** (rc1 on live STATUS+FLEET_MAP, rc0 on REGISTRY.tsv, rc2 on a missing path), wired into the CLAUDE.md closeout battery, `CHECKS.tsv` row added with On_FAIL. Built to **PAT-129 at birth**: it prints its own perimeter and what a PASS does NOT prove — it has no registry, enumerates nothing, and is blind to every file not named on its command line. On_FAIL is explicit that the response is trim/rotate/relocate: **⛔ never raise the budget, because the read cap is not ours to move and raising it converts a visible overage into a silent truncation.**
+
+**★ AND THE RE-DERIVATION FOUND THE BOOT SPINE BREACHED, WHICH IS THE BIGGER RESULT.** First run: **`FLEET_MAP.tsv` at 121% of the read cap** — and SPAWN PROTOCOL step 2 mandates reading it. **It truncated at that morning's boot** (partial view, lines 1-33 of 47); I paged around it manually and never asked why. My own `CLAUDE.md` says of the 8/17 hot/cold wave: *"All three files are now individually readable whole; **keep them that way** — measure against the READ CAP, not just byte budgets."* **The fix decayed on one of its three legs and nothing detected it for six days.** The charter line is now **annotated with the breach rather than quietly reworded** — the promise stands, the file does not currently meet it. `CHECKS.tsv` at 88% is next.
+
+**Deliberately NOT fixed tonight:** FLEET_MAP needs the hot/cold restructure PATTERNS got — a real change to a 47-row register, not end-of-session work. Registered as 🔴 STATUS debt and as **8/28 sweep leg ㉔** (read-cap exposure on boot-read registers; fleet port is a QUESTION, base-rate first). This is the discipline I praised HOMER for hours earlier and it applies to me identically.
+
+**Cost of the fix to the surface it governs:** STATUS trimmed 46,152 → 31,786 B across the day (header, ENTRY-POINTS narrative and third-arc paragraph compressed, with the full record living here) — **59% of the read cap**, under its own newly-derived budget, with the check now firing at every closeout. It fired on me twice while I wrote this and I trimmed both times.
+
 ### 2026-08-23 — Wiring Sweep given a scope doc + a registry row; the "STATUS is too heavy" question inverted the diagnosis (PAT-129 minted, PAT-123 extended)
 
 **Trigger:** Will, in-session — *"DAEDALUS status is too heavy?"* A question about file size, answered by measurement, that turned out to be about a missing surface.
