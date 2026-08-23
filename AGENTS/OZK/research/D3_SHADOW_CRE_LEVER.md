@@ -1,3 +1,13 @@
+> # ⛔ BUILT ON A DEAD RATIO — do not cite the MI3 figures here (banner added 2026-08-23)
+>
+> This document's central metric is the **Memo-Item-3 / C&I "shadow CRE" ratio at 37.6%.** That figure **reproduces at no quarter on four independent paths** (OZK's own 18-quarter FFIEC series on either basis · REGINALD's 14-bank × 4-quarter cohort re-run, 56/56 sourced · the **FDIC's own API at a different agency** · the 14-quarter FDIC ratio series). Live: **9.35% at Q2-2026**, *below the screen's own >20% flag for two straight quarters.* And **"worst in the screen" was formally RETRACTED by the screen's owner** — OZK ranks **5th of 14 on both bases**.
+>
+> **What dies and what does not.** The **ratio** and every ranking built on it are dead. The **mechanism** this document reasons about — CRE-purpose lending carried under a C&I label, and the debt-on-debt/note-assignment book — **survives, and is now better evidenced than when this was written**: `RCON2746` ties the Q1'26 10-Q's ~$490M book at the dollar across two independently-prepared filings, and that book **began charging off in H1-2026** (`RIAD5409` $42,437K, first nonzero in 18 quarters). `[[finding_claim_outlives_its_discredited_instrument]]` — **scope the impeachment to the ratio, not to the idea.**
+>
+> ⚠️ **Scope fence:** MI3 is CRE **NOT secured** by real estate. RESG, IQHQ/RaDD, the classified balance and all 11 tracked credits are in the **secured** book and are untouched.
+>
+> Current state → `THESIS.md` §MEMO ITEM 3 · `MI3_2025Q3_ADJUDICATION.md` · `workbook/CALL_REPORT_SERIES.tsv` · KB-OZK-226.
+
 # D3: The Shadow CRE Lever — A Novel Concentration Metric
 
 **Created:** 2026-03-24

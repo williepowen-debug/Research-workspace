@@ -1,3 +1,9 @@
+> # 🧊 STALE SOURCE EXTRACT — 2026-02-25 vintage, do not cite (banner added 2026-08-23)
+>
+> **Positions:** superseded twice over. The book described here is gone — **OZK holds ZERO option positions** since the 2026-08-21 OPEX, where the last two legs ($45P ×4, $42.5P ×1) expired worthless under Will's 8/4 RIDE ruling. Live state → `POSITIONS.md` / `STATUS.md` §Positions.
+> **The 37.6% MI3 / "WORST in watchlist" figures here are DEAD** — no reproduction on four independent paths; live **9.35% [Q2-26]**, rank **5th of 14**, and "worst" formally retracted by the screen's owner. See KB-OZK-226.
+> Kept as a dated source extract, not corrected in place.
+
 # OZK Trade Status
 
 **Last Updated:** 2026-02-25

@@ -11,7 +11,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 | Group | Rows | Count | Folder / File | What It Covers |
 |-------|------|-------|---------------|----------------|
 | **CRE_CONCENTRATION** | 007–015, 048–050 | 12 | THESIS.md (core) | 455% CRE/tangible equity, C&D at 197%, RESG 54.4% of loans, $500M hold cap |
-| **SHADOW_CRE** | 021–027 | 7 | research/D3_SHADOW_CRE_LEVER.md | MI3 at 37.6% ($1.289B hidden CRE in C&I), NDFI $2.74B debt-on-debt |
+| **SHADOW_CRE** | 021–027 | 7 | research/D3_SHADOW_CRE_LEVER.md | ~~MI3 at 37.6% ($1.289B hidden CRE in C&I)~~ ⚠️ **37.6% DEAD 2026-08-23 — see KB-OZK-226; live 9.35% [Q2-26], rank 5th/14. `research/D3_SHADOW_CRE_LEVER.md` is built on the dead ratio and carries a do-not-cite banner.** NDFI $2.74B debt-on-debt (unaffected) |
 | **MEMO_ITEM_3** | 018–020, 087 | 4 | research/D3_SHADOW_CRE_LEVER.md | MI3/C&I ratio worst in peer set, reclassification rebuttal |
 | **CAPITAL_LIQUIDITY** | 042–047 | 6 | research/D2_PLEDGED_LOANS_LIQUIDITY.md | 74% loans pledged, $11.9B uninsured deposits, FHLB capacity |
 
