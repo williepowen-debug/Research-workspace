@@ -231,6 +231,24 @@ Their extension: *"the composition shift isn't noise against my thesis, it IS my
 
 **⑥ NEW INSTRUMENTS I WAS NOT CARRYING:** **FL statewide condo CASH SHARE 51.0%** (4,176/8,194, up from 49.3%) — ★ **directly relevant to my GSE-condo financing-channel watch: if half of FL condo transactions clear in cash, the mandate bites a smaller share than a national-baseline reader assumes.** ⚠️⚠️ **PERIMETER TRAP I AM NOT WALKING INTO: 51.0% is FL CONDO, my banked 26% is NATIONAL ALL-HOMES; condos run cash-heavier everywhere, so this is NOT a Florida finding until measured against a national CONDO share. Comparator NAMED AS MISSING.** Also new: average sale price, median time to contract, median time to sale.
 
+## ✅ NINTH PASS — THE 8/22 DAEDALUS CARD (distinct from today's second-look, which was fully disposed)
+
+**Will asked whether DAEDALUS's feedback was fully integrated. It was NOT — today's F0–F5 second-look was, the 8/22 WORK CARD was not.** Card: `AGENTS/DAEDALUS/upgrades/HOMER_CARD.md`.
+
+**✅ CLOSED TODAY (three cheap items, all verified open before acting):**
+- **1e — `Resolve_By` added to `thesis/PREDICTIONS.tsv`.** ⚠️ **It had SLIPPED THREE TIMES and DAEDALUS re-verified the header as still missing TODAY.** Appended at END so no existing column index shifts. ★ **Live use case 8 days out: HOM-01's series ALREADY SLIPPED ONCE AND IT COST 12 DAYS** (Jun-data posted 7/31 hours after my check, graded 8/12). **A release date is the PUBLISHER's estimate; `Resolve_By` is MY obligation and does not move when they do.** Both rows now grade **UNGRADEABLE-ON-TIME** rather than sitting OPEN by default.
+- **1d (remaining half) — the superseded FMHPI trough, ANNOTATED not re-levelled.** ⚠️⚠️ **`STATUS.md` was contradicting ITSELF on HOM-01's own baseline: the FMHPI row carried the Dec-2025 +1.01% trough (my own 8/12 grading) while HOM-01's registration note still said Jan-2026 +0.9%.** Both the trough AND the May figure (+1.9% → +1.58% SA) are registration-vintage and revised. ⛔ **The `>+1.9%` early-kill LEVEL is FROZEN and untouched — annotating the descriptive run is not re-levelling it.**
+- **2e — the Trepp standing read-rule PROMOTED to `CLAUDE.md`.** ★★ **And the reason it was still open is the finding: I had moved it from `SCRATCH.md` to `STATUS.md` and called it recorded. BOTH ARE REWRITTEN SURFACES.** I relocated a standing rule from one disposable home to another. **A standing rule on a rewritten surface is a rule with an expiry date nobody set.**
+
+**⛔ STILL OPEN ON THE CARD — and two are Will-gated by MY OWN prior ruling:**
+- **2a — declare a BYTE tier for `STATUS.md`** (DAEDALUS: the 250-LINE cap is aimed off-axis and *actively harmful* — five "compressed for the line cap" ops RAISED byte density). **This is the STATUS structure question already with Will.**
+- **2c — port the closeout docket `awk` to BOOT step 5.** ⚠️ **A BOOT-step edit. On 8/22 I ruled BOOT-step changes Will-gated and declined to touch steps 2 and 6. Doing 2c unilaterally now because it is convenient would contradict my own ruling — so it goes to Will, not into the file.**
+- **3b — `thesis/THESIS.md` + the thesis-level kill rail** (L3 blockers a+b) · **3c — the convergence handle** (sole surviving PR#4 blocker). **Author-from-scratch BUILDS, not fixes.**
+- **3d (remaining) — apply the FL basis template to the remaining threshold rows.** ⚠️ **Partly overtaken by today's rung census**, which found the deeper issue is per-RUNG pinning; the two interact and should be done together.
+- **Tier 4 polish (7 items):** `MEMORY.md` unread at boot + carrying a now-false CREED fact · `reports/` absent from FILES · undated figures on the brief · `domain/` empty and unlisted · filename-as-state on a ratified DRAFT report · no version field in the charter · the NEXUS fold-ordering check cannot discriminate when both files ship in one commit.
+
+**✅ CLOSED EARLIER (recorded so it is not re-audited):** 1a comparator · 1b dangling pointer · **1c DECLINED and the decline is card-endorsed as CORRECT — do not re-propose** · 2b (my direct-route call, DAEDALUS recorded their own framing as wrong) · 2d · **3a the A–G durable home — the card's highest-consequence non-L3 item.**
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
