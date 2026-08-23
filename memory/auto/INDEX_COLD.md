@@ -4,7 +4,6 @@
 ## Boot / closeout / handoff / revival / sync — embedded → `PROME/BOOT.md` §Fleet-memory embeds (2026-07-31)
 - finding_display_filter_gating_safety_net — "A boot-summary keyword/priority filter written for forward sections silently gates the past-due safety net too — low-priority FIRED items vanish, and a fixed look-back window ages out unswept ones. Audit compact-mode filters against every section they touch (OTTO boot 7/25: 3 of 4 fired catalysts hidden, a 5th aged out)"
 - finding_boot_protocol_live_event_override — "SPAWN PROTOCOL framing pulls agents toward CLOSEOUT after boot even mid-event; the fix is neutral \"Write-back\" framing + explicit live-event override in EXECUTE step. Validated on VIOLET 2026-06-05 mid-VIX-spike."
--
 - finding_boot_predictions_scan — A cheap boot-time PREDICTIONS due/stale scan catches silently-stale OPEN predictions; caught a 24d-stale MISS on first run. Transferable to any agent with a predictions TSV.
 - finding_boot_closeout_hardening_recipe — "Phased recipe for hardening an agent's boot/closeout protocol — mirror, strip live-state, audit-produce doc-ownership + deferred punch-list"
 - finding_boot_py_cadence_skip_pattern — "For monthly/low-frequency-data agents, the mature boot.py pattern is SAM/BRENT run-at-boot-defensively + mtime cadence-skip on fetchers — NOT a read-only/--pull opt-in split"

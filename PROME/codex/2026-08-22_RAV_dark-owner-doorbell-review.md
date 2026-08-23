@@ -76,3 +76,40 @@
 7. **Age basis:** ADOPT "name the basis" as a spec requirement on every count the doctor check emits.
 
 ⛔ **Status unchanged: `WILL_QUEUE` row 75 is REGISTERED NOT RULED.** RAV's verdict is a concurring recommendation; a relayed review never clears a Will-gated surface.
+
+---
+
+# §4 — RAV SECOND REVIEW (of the correction wave) — filed verbatim 2026-08-23 ~01:0x ET
+
+**Provenance:** relayed by Will as a paste into the live PROME session, reviewing commits `5f5bc55fc → a9cd477c3`. No RAV-authored artifact exists in the tree. Filed **verbatim, before disposition**, same rule as §1. ⚠️ A relayed review is a RECOMMENDATION, never an approval.
+
+> Pulled and checked.
+>
+> Bottom line: yes, this is a real correction, and it fixes the important damage before WALTER encodes from the bad version. The mirror fast-forwarded cleanly 5f5bc55fc -> a9cd477c3, repo clean afterward. The correction wave is now on origin/master.
+>
+> What landed:
+>
+> • PROME/CLAUDE.md Ask-First now has the three-outcome spawn/doorbell triage in the boot-read surface. This is the key thing you were worried about, and it is there.
+> • PROME/AUTONOMY.md got the change-log row.
+> • MESSAGING/CROSS_SESSION_MESSAGING.md now has rule 6b, including the dark-recipient branch, the full-owner-session requirement, and the whole-inbox drain.
+> • PROME/proposals/2026-08-22_dark-owner-doorbell-RULED.md now carries the corrected ruling record, including the two corrections: HENRY/BROCK are low-cadence, and the first leg-3 wording was unfireable.
+> • WALTER got an explicit encode packet at AGENTS/WALTER/inbox/2026-08-23_from-PROME_dark-owner-doorbell-RULED-adopt-with-three-amendments-your-encode.md that leads with the correction rather than burying it.
+> • The memory lesson finding_path_scoped_git_log_measures_inbound_traffic was extended to n=2 and promoted hot; finding_test_the_guard_not_just_the_guarded got the “guard can never say yes” failure direction.
+>
+> My read: PROME did the right correction pattern. It did not quietly overwrite the mistake; it struck or superseded the bad claims, named the instrument failure, and pushed the corrected version into the files future agents will actually read. The RAV verbatim block was left untouched, with a forward pointer explaining where RAV’s “whole WALTER inbox” wording is now narrower than live rule. That is the right treatment for a closed/verbatim artifact.
+>
+> Two residual concerns:
+>
+> 1. Rule 6b still says “PROME decides, and PROME alone spawns.” In context it means “WALTER recommends; WALTER never spawns,” but standing alone it could be read too strongly against the tiered authority model. Cleaner future wording would be: “PROME triages the recommendation; PROME launches only where the tier permits or after Will approval.” I would not block on this tonight, because PROME/CLAUDE.md has the correct tiered rule, but it is a wording edge.
+>
+> 2. memory/auto/INDEX_COLD.md now has a bare - where the cold row was removed. memory_index_check passes, so it is not breaking slug coverage, but it is sloppy and worth cleaning at next PROME touch.
+>
+> Validation I ran:
+>
+> • rav-refresh-repo: clean fast-forward pull.
+> • Checked commit log and the key diffs.
+> • memory_index_check --strict --slug ...: passed for the three touched memory slugs.
+> • prome_gate.py closeout: blocked on an unrelated DOCKET FERT lands-today disposition, not this doorbell correction.
+> • Grepped for the bad claims. Remaining 94 commits, registered clock fires before, and whole WALTER inbox references are in struck/superseded/verbatim contexts with warnings, not live operative text.
+>
+> So: the correction is meaningful and mostly healthy. The earlier thesis inversion was serious, but PROME has now put the corrected version into the right authority surfaces.
