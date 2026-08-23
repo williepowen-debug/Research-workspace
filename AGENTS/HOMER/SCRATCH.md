@@ -44,6 +44,12 @@ DAEDALUS found that `NEXUS_BRIEF.md` truncates at **line 74 of 96 = literally `#
 - **Did NOT restructure `STATUS.md`.** The review has delivered so the "live review" hold is lifted, but the real question — *should the boot spine be a POINTER surface with the dashboard behind it?* — **is a design decision for Will, not a numeric fix.** Flagged, not invented at the end of a long session.
 - **Did NOT touch BOOT steps 2 or 6.** Both are `CLAUDE.md` **structural** edits and Will-gated. ✅ **Step 6's tool-side half is FIXED by DAEDALUS (`e23aeb51b`): `ledger_staleness.py` now prints its PERIMETER** — my boot tonight read *"9 ledger(s) scanned; 2 TSV(s) NOT scanned: docket/CATALYSTS.tsv, thesis/PREDICTIONS.tsv."* **The false green is gone. The BOOT step still doesn't cover them, so the standing interim holds: read both directly.**
 
+## ⚠️ LEDGER NUDGE — FIRED, AND DELIBERATELY NOT ACTED ON (read this before acting on it next session)
+
+`ledger_staleness.py --nudge HOMER` reports **7 ledgers 1-6 STATUS-writes behind.** ✅ **Correct behaviour, and the right answer is DO NOTHING.** **This session pulled ZERO new data** — it consumed a structure review and fixed spec/delivery defects, so **there was no figure to write to any ledger.** All seven carry `Last real data refresh: 2026-08-22` and were refreshed **today** by sessions 1-2, which did the actual pulls. **Not frozen, not stale — same-day current.**
+
+⚠️ **The reusable note, so this is not re-litigated at every boot: the nudge counter is STATUS-WRITES, not time and not data periods.** Three STATUS writes in one day for review/structural reasons put every ledger "6 writes behind" **while the data underneath did not age by one minute.** ⇒ **On a desk that writes STATUS for non-data reasons, this counter drifts away from data freshness by construction.** **Read the ledger's own `Last real data refresh:` header before believing the count means staleness** — that header is the content-vintage instrument and it is the one the tool itself prefers. **Next data pull (~8/25-28 GSE monthlies) clears it on its own.**
+
 ## ⚠️ OPEN / UNSETTLED — do not publish these as settled
 
 1. **HOM-01: one early-kill arm fired. The ~8/31 FMHPI July print DECIDES IT.** Grade on **that release's own as-published figures for BOTH months** — NOT against the +2.06% on record. **Precedence ruled 8/22 before the print: kill OUTRANKS a same-print Leg-1 confirm; the LEVEL test governs; +1.9% FROZEN; basis SA.** **Year-verify: the trap has hit 3× on this series, in BOTH directions.**
