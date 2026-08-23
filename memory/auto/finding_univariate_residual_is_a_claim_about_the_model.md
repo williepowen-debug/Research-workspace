@@ -1,0 +1,20 @@
+---
+name: finding_univariate_residual_is_a_claim_about_the_model
+description: "An 'X% unexplained' figure is a statement about your model's omissions, not about the market — and an omitted regressor correlated with your thesis inflates the residual in exactly the direction that confirms you"
+metadata:
+  type: finding
+symptoms: "most of the move is unexplained by X; ~89% unexplained; the residual is the premium; single-factor regression; low R2 but a confident residual claim; adding one control halved my finding; coefficient collapsed when I added a second variable; beta shrank in the multivariate fit"
+---
+
+**"N% of the move is unexplained by X" is a property of YOUR MODEL, not of the world.** Every factor you left out is silently reassigned to the residual — and you then read that residual as evidence for whatever you think is driving the move. The failure is self-sealing: the residual is *defined* as what your model doesn't cover, so it can never contradict you.
+
+**The bias has a direction, and it is not random.** The omitted factors most likely to be missing are the ones you weren't looking for because you already had an explanation. If an omitted variable is correlated with your thesis, the inflated residual points **toward** your thesis. Low R² makes it worse, not better: a residual off an R²=0.03 fit is mostly *ignorance*, dressed as *finding*.
+
+**MIDAS, 2026-08-19 → 2026-08-23 (metals desk, gold vs real rates).** Published: *"gold +3.84% while the 10y real yield fell 6bp; at the empirical beta that explains +0.31%, so **≈89% is unexplained by real rates** ⇒ a debasement premium."* The regression behind it was **univariate**, R² **0.035**, and the desk did not flag it as a weak instrument. Adding **one** obvious second regressor — the dollar, DXY **−0.82%** that session:
+- unexplained share **89% → 61–69%** (the headline was too strong by ~20–28pp of the move);
+- R² **0.035 → 0.135–0.165**;
+- the rates coefficient **collapsed** from −0.0634 to −0.0275 %/bp (−0.0514 → −0.0174 on the futures series) — **most of what a "gold vs real yields" beta measured was the dollar**, and the rates leg accounted for 3–4% of the session, not 8–15%.
+
+**What survived, and why the survival test matters.** The conclusion held — a 61–69% residual at **+2.00σ** is still majority-unexplained — and the added factor was **mechanistically a co-symptom of the same root** (dollar weakness is what a debasement bid *looks like* in FX), so it re-labels part of the residual rather than replacing the thesis; the rates leg got **smaller**, never bigger. That test — *"is the new factor a rival cause or a co-symptom?"* — is the one that decides whether a multivariate correction kills a finding or merely re-bases it. Note this was the **second** self-found overstatement in the same instrument in three days, after roll-attenuation of the same beta (`[[finding_continuous_front_ticker_rolls_so_deltas_lie]]`), **both running toward the desk's own thesis**.
+
+**How to apply.** (a) Never publish an unexplained-residual figure off a univariate fit — name the omitted factors and print the **multi-factor band beside it**, quoting the conservative end. (b) **Publish R² next to any residual claim**; if R² is small, say plainly that the residual is mostly unmodelled, not mostly evidence. (c) When correlated regressors are fit jointly, the variance split is a **convention, not a truth** — print both the single- and multi-factor numbers. (d) Ask *which direction the omitted factor correlates with your thesis*: that is the **sign of your bias**, and it is knowable before you run anything. (e) The far stronger version of the same claim needs no model at all — **invert it**: "to explain this move on X alone you need a −55 to −82bp print; the largest in 23.6 years is −62bp, and the actual was −6bp." A base-rated inverse framing survives every specification argument the residual framing loses (`[[finding_base_rate_the_instrument_before_its_event_table]]`, `[[finding_loadbearing_number_must_be_reproducible]]`).
