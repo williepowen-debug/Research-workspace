@@ -516,6 +516,9 @@ def _ever_in_git(relpath: str) -> bool:
         return True   # fail SAFE: unknown -> assume delivered, never cry wolf
 
 
+_HANDOFF_SCAFFOLD = {"README.md", ".gitkeep", ".gitignore", ".DS_Store"}
+
+
 def _handoff_files():
     """Non-processed WALTER delivery handoffs: (path, recipient, relpath).
     Globs AGENTS/*/inbox/WALTER/*.md, excluding anything under processed/.
@@ -523,6 +526,16 @@ def _handoff_files():
     out = []
     for p in (REPO / "AGENTS").glob("*/inbox/WALTER/*.md"):
         if "/processed/" in p.as_posix():
+            continue
+        # Scaffolding is not a delivery. Same skip-set this file already applies in
+        # check_dropzone_pending + the inbox scan; matched here rather than widened.
+        # 2026-08-23: the headline "oldest 57d" in delivered_but_unconsumed was
+        # AGENTS/DEWEY/inbox/WALTER/README.md — a README, aged on mtime because it has
+        # no delivery_log row. It topped the distribution WALTER quoted to PROME as
+        # "oldest 56d" (rider R2). A scaffolding file counted as an unconsumed delivery
+        # inflates the worst number the check emits, and mtime is the one basis root
+        # canon forbids keying on. `[[finding_mtime_is_corrupted_by_git_sync]]`
+        if p.name in _HANDOFF_SCAFFOLD:
             continue
         recipient = p.relative_to(REPO / "AGENTS").parts[0]
         out.append((p, recipient, str(p.relative_to(REPO))))
