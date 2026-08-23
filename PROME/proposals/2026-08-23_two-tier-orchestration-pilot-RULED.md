@@ -27,7 +27,7 @@ Context: Will asked what model the subagents ran; PROME answered honestly — wa
 
 ---
 
-## ADDENDUM 2 — wave 3 + REG-T-02 registration (same session, ~11:5x ET)
+## ADDENDUM 2 — wave 3 + REG-T-02 registration (same session, ~11:2x ET)
 
 **Will, verbatim:** *"approve both decision"* — on the two blocks presented after REGINALD's wave-2 delivery:
 1. **Wave 3 APPROVED:** WAL + OZK write-back spawns (opus, bounded single touches) — both desks dark with Friday's lapsed puts un-written-back (WAL 77.5P Aug-21 ×1 · OZK 45P ×4 + 42.5P ×1; settlement ruled decision-free 8/21, desk ledgers silent — REGINALD-flagged phantom-position class, SSB $90P / KRE $70P precedents). Clean books before Monday's open.
