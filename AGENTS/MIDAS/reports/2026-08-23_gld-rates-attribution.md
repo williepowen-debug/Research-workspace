@@ -1,5 +1,29 @@
 # MIDAS — THE 8/19 GOLD SESSION: RATES ATTRIBUTION WRITE-UP
 
+> ⛔⛔ **CORRECTION BANNER — ADDED 2026-08-23, SAME DAY, AFTER NON-AUTHOR RE-DERIVATION. THIS DOCUMENT'S HEADLINE NUMBER AND ITS §0 CITATION MANDATE ARE SUPERSEDED. THE BODY BELOW IS PRESERVED VERBATIM AND MUST NOT BE CITED WITHOUT THIS BANNER.**
+>
+> **CITE 87–93% UNEXPLAINED BY REAL RATES.** Not the **61–69%** this document headlines, and not the **≈89%** it retracts.
+>
+> **What this document got right, and it was a real defect:** the published "≈89%" was **univariate off an R²=0.035 fit with no weak-instrument flag** — **L-21 stands and is the durable lesson of the episode.**
+>
+> **What this document got wrong: the remedy.** It fixed a weak univariate by adding **DXY** as a second regressor. **DXY is a co-symptom of the same monetary root — this document argues exactly that in §3.1 — which is precisely why it must NOT enter as a control.** A co-outcome lies **on the causal path**: it is a **MEDIATOR**, so the residual it shrinks re-describes part of the move in the dollar's own units and reports the mirror as an explanation. **61–69% therefore answers *"unexplained by real rates AND a fitted dollar factor"* — a different question from the one the premium thesis asks.** It is **TRUE and RETAINED for that question**, never as the magnitude of the premium.
+>
+> **The assumption-free replacement, which needs no variance-splitting convention at all — price the metal in a non-USD numéraire.** On 8/19 gold rose **+2.79% in USD** but **+1.96% (DXY basket) / +1.98% (EUR) / +1.99% (JPY)**, three numéraires agreeing to **2.5bp** ⇒ **87–93% unexplained by real rates, on every window and both instruments.**
+>
+> **§0's instruction that *"every future citation must use the two-factor band"* is WITHDRAWN** — ruled wrong on the merits, and over-broad on this document's own terms: **§3.1 calls the split *"one defensible allocation, not the truth"*, and §0 then mandates one.**
+>
+> **⚠️ Four further defects in this document, all accepted (→ KB-055, L-24):**
+> **(a) 🔴 §1.1's basis check is CLEAN AGAINST THE WRONG REFERENT.** It compares GCQ26/GCV26/GCZ26 to each other (**1.2bp**) and never tests the **ETF-vs-futures gap on the same session — 0.978pp, 1.80σ, 81× larger** (COMEX 13:30 ET settle vs GLD's 16:00 ET close). It validated the leg that needed no check and never touched the one carrying the headline.
+> **(b) The 2024-01+ window is the most self-damaging of five tested** — largest |b_usd|, smallest unexplained share, smallest residual σ on both instruments. The published band is the **low edge of 60–74%**; the published **+2.00σ** the low edge of **1.9–3.0σ**.
+> **(c) The fitted dollar beta exceeds the arithmetic translation floor.** Pure translation is exactly **−1.000**; this document's **−1.207/−1.307** is 21–31% beyond it ⇒ **~6pp of what was handed to the dollar is fitted amplification.**
+> **(d) ⛔ Rarity is INSTRUMENT-ASYMMETRIC and this document point-estimates it on the flattering instrument.** Bare **"+2.00σ, top 5.3%" is kill-on-sight** — GLD-only. **GC=F is +1.59pp = 1.23σ, top 14.83%**; raw session rank GLD top 0.311% (17th/5,472) vs GC=F top 1.105% (72nd/6,517). Quote both, or name which.
+> **(e) Minor:** "explained" (β·Δx, no intercept) and "residual" (with intercept) come from **two different models** (~1.5pp); the intercept is **+0.082 to +0.114 %/session** — realised gold drift worth naming.
+>
+> ✅ **THE VERDICT NEVER MOVED, on any construction: rates-ASSISTED, not rates-EXPLAINED** — real rates explain **8–15%** univariate, **3–4%** two-factor, **7.4%** currency-stripped; none above 15%. **Not inflation** (T10YIE flat at 2.30), **not haven flight** (S&P +0.21%). **Nothing was smuggled into the verdict.**
+>
+> **Provenance:** BOND non-author re-derivation, PROME-tasked, **Will-ruled "go" 2026-08-23** (WILL_QUEUE row 79) — `AGENTS/BOND/analysis/2026-08-23_MIDAS-8-19-gold-rates-rederivation.md`. **Canonical fleet surface: HEARTBEAT §8.** Basket arithmetic **independently re-derived at this desk before acceptance** (all four numéraires to 4 decimals on an own pull; currency-stripped residual 93.0–93.8% vs BOND's 92.6–93.3%, the gap being the L-22 convention fork) — verified in that direction deliberately, because **87–93% flatters this desk's original headline.** → **KB-054/055, L-23/L-24.**
+
+
 **Written:** 2026-08-23 (Sun, markets CLOSED — every figure below is a final-for-week or T+1-confirmed print, none live) · **Session:** PROME-spawned orch **touch 2 of 2**, Tier-1 · **Owner:** MIDAS · **Channel:** M1 (gold — debasement / real-rates)
 **Discharges:** STATUS open-item 6 ("THE 8/19 DIAGNOSIS — first read done, full write-up OWED", opened 2026-08-21).
 **Guards honoured:** MIDAS-06 untouched (frozen letter, grades 8/28) · no threshold, band, score or key re-keyed · zero capital · nothing trade-shaped proposed · Will-gated surfaces returned to PROME, not actioned.
