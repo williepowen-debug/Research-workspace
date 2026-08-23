@@ -62,6 +62,13 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 
 *Ratification recorded by PROME on Will's instruction. TERRY remains canonical owner of the rule and of this section — the substance, wording and worked examples above are TERRY's and were ratified as written; PROME changed only this status line. Additive to the numbered list, which is unchanged (stable API preserved).*
 
+### ⏳ One break is OPEN-BY-DESIGN and must not be read as a standing pass — `USO Oct-16 135C`, 2026-08-21
+*(Recorded here 2026-08-23 from BRENT's 8/21 ruling packet. **Will deliberately did NOT rule the root-rule-#6 break** — and the non-ruling is itself the decision: the break only bites if a fill is on the table, and once the roll was ruled HOLD, none was. Ruling it would have spent an operator decision on a question the roll decision dissolves.)*
+
+**The test stood as written and was MET** — figures on the card, before any fill, no hard guard relaxed. **The measurement argued the same way:** honest day-colour cost was **~$21 / 2.8%** — vega **+18.58/pt into OVX 50.62 (+1.97%)** — **not** the `$1.99` the delta leg alone implies. **Worth ~$21. Noise.**
+
+⛔ **STATUS: OPEN-BY-DESIGN. If a same-strike calendar roll is proposed again, RE-MEASURE the day-colour cost on THAT day's tape. The 8/21 figures are NOT a standing pass** — they are a `MOMENT` property (#14) and they expired with the session that produced them. ⚠️ **A met-but-unruled break is the easiest thing in this file to mistake for a granted one.**
+
 ---
 
 ## Option-Specific Rules
@@ -192,6 +199,19 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
     - **(a)** **Say which you are doing, in those words, before pricing it.** If the answer needs a paragraph, it is a new deployment.
     - **(b)** **The scope exemption is not a recommendation to roll.** A roll pays new capital to keep the same view for longer; it is still subject to **root rule #7** (roll duration, don't trim size) and to the horizon test in #16. *(8/21 worked case: the counter-argument for acting was theta — the leg was ~ATM, 100% extrinsic, decaying ~`$19.61`/day and accelerating. **That argues for CLOSING, never for rolling** — rolling would have paid `$750` to keep the same problem for longer, while the same session's SELL-ONE was a de-risk. **Two decisions pointing in opposite directions is itself the tell.**)*
     - **(c)** **A roll of a filled leg is still a Will-gated proposal.** Scope-exempt from the band ≠ pre-approved. `$0` moves without [Approve].
+
+22. **★ A CONTINUOUS FRONT-MONTH TICKER (`XX=F`) IS SAFE FOR A LEVEL AND UNSAFE FOR A DELTA. NAME THE CONTRACT, OR STATE THE BASIS AND CHECK THE ROLL.** *(BRENT → TERRY 2026-08-20; adopted here 2026-08-23. **I am a first-party casualty: I quoted a `$99.14` diesel crack off exactly this method.** BRENT's own rule ID is `L23`; this is the TERRY mirror.)*
+
+    **`=F` tickers ROLL.** When they do, the symbol silently stops meaning one contract and starts meaning the next — **so a difference taken across the roll measures the CALENDAR SPREAD, not the market.** ⛔ **The print is not wrong. It is an answer to a different question, and nothing in the output says so.**
+
+    🔴 **The worked case, and the scale of it is the point.** On 2026-08-20 `CL`, `HO` and `RB` all rolled in the same session. The rolling-front method printed a **gasoline crack of −$10.71** — read across the fleet as a collapse in refining margin. **Nothing sold off:** `RBU26` closed **+1.4c**, `RBV26` **+3.5c**, `HOU26` **+3.2c**, `CLU26` **+$2.32** — every contract UP on the day. The Sep−Oct RBOB spread was **25.7c/gal = $10.79/bbl**, i.e. **within 8 cents of the entire reported "collapse."** It was the summer→winter RVP grade change.
+    **And the same session's diesel read was wrong twice over:** on a consistent Sep-contract CLOSE basis the record is **8/18 at $101.96** (not Monday), and the give-back from the true peak is **−$1.77 over two sessions and DECELERATING** — not the *"−$5.08 and accelerating"* that reached this desk. That figure was **an intraday bar that did not hold to the close.**
+
+    - **(a)** **For a LEVEL, `=F` is fine.** For a **DELTA, a spread, a crack, or any week-on-week / year-on-year comparison**, name the contract (`HOV26`, `CLU26`) or state the basis and verify no roll sits inside the window.
+    - **(b)** **Danger dates are structural, not random:** every expiry, and especially **late Aug (RB Sep→Oct)** and **late Nov**. Verify a roll by **close-matching** the continuous series against the named contracts — don't assume the date.
+    - **(c)** **A seasonal grade spread is not a signal in EITHER direction.** Sep gasoline $49.14 vs Oct $40.17 is ~$9/bbl of RVP spec, every year. **A comparison straddling that roll is meaningless bullishly and bearishly alike.**
+    - **(d)** ⚠️ **Pairs with the intraday trap, because they compound.** BRENT logged the identical error four weeks earlier on the same instrument (a *"gasoline crack −$10.89 in one session"* that was an intraday read; the close was $58.25, not $49.90). **Same instrument, same trap, twice.** `[[finding_ohlc_verify_before_session_claims]]` · `[[finding_continuous_front_ticker_rolls_so_deltas_lie]]`
+    - **(e)** **Nothing was retracted upstream and nothing should be:** the earlier signals were **correct on their own dates** — the roll had not happened yet. **This rule is forward-looking. A method finding is not a retraction.**
 
 
 ---
