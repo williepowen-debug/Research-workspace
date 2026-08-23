@@ -34,6 +34,32 @@
 ### [Process] — STATUS.md Is a Dashboard, Not a Research Report
 **Rule:** STATUS.md is current state — signal status, thresholds, FL bank exposure. Research detail belongs in `sources/`, `research/`, or `workbook/`. Keep STATUS under 250 lines.
 
+### [Analysis] — A Stock/Flow Ratio Needs FOUR Legs, Not Two: Level · Volume · Price REALIZATION · Velocity
+**Mistake (2026-08-23, mine; the rule it corrects was HOMER's, written the same session):** I read FL condo months-supply falling **9.6 → 7.8** alongside sales **+11.0%** and a flat median, and asserted *"the market is CLEARING BY CUTTING PRICE"* across four surfaces. HOMER — who had just handed me the rule *"name the legs that could invert a stock/flow ratio, and for a supply ratio those legs are PRICE and VOLUME"* — **accepted it in full and republished it.**
+
+**Both of us were wrong, and the legs that actually inverted it were neither price level nor volume.** The same primary carried them: **median pct. of ORIGINAL list received 93.0% vs 92.1%** (sellers getting *more* of their ask, not less) and **median time to contract 68 → 76 days.**
+
+**Rule — for any stock/flow ratio in a transaction market, the leg set is FOUR:**
+> **price LEVEL · VOLUME · price REALIZATION (pct-of-original-list) · VELOCITY (time-to-contract / time-to-sale).**
+> **Level and volume ALONE cannot separate *"cut until it cleared"* from *"held the ask and waited."* Both produce a falling months-supply.**
+
+**What survives:** absorption was real and is still stated (sales +11.0%, dollar volume +14.0%, inventory −12.9%). **Only the MECHANISM was withdrawn.** Distinguish the two when retracting — killing the observation along with the inference throws away good data.
+
+### [Process] — I Verified the FIGURE and Not the CAUSAL STORY Riding On It — and a Second Witness Made It Worse
+**Mistake (2026-08-23, the process half of the above, and the more general failure):** every *number* in that claim was pulled from the primary and correctly sourced. **The mechanism bolted to them — "by cutting price" — got no verification at all.** A figure arrives with provenance I know how to check; **a mechanism arrives as prose and reads as judgement rather than as a claim carrying its own evidentiary burden.**
+
+⚠️ **And the cross-check failed in the way cross-checks fail:** HOMER and I **held the same primary**, neither of us read the realization legs on first pass, and HOMER's agreement then raised my confidence. **Shared source is not shared verification — it is a shared blind spot with two witnesses, and the second witness makes the first MORE confident, not less.** This is a live hazard in the CORAL↔HOMER and CORAL↔MARCO reconciles specifically, because both are *designed* as two-agent cross-checks on the same FL data.
+
+**Rules:**
+- **Apply the same rigor to the causal clause as to the number.** Write the mechanism as a testable claim and ask what would refute it — see the non-discriminating-test rule below.
+- **Agreement from an agent reading the SAME source is corroboration of nothing.** Before treating a peer's assent as confirmation, ask: *did they check an INDEPENDENT instrument, or did they read my instrument and agree with my prose?*
+- **When a peer accepts your framing wholesale, that is the moment to re-read the source, not to bank it.**
+
+### [Data] — Name the Missing Comparator Instead of Reaching for the Available One
+**Near-miss (2026-08-23, caught by HOMER before it was drawn):** the July primary gave me **FL CONDO cash share 51.0%**. My CALENDAR already carried **NAR's national all-cash share 26%** as a baseline anchor for the same forward read. **51 vs 26 invites an enormous "Florida is twice the national cash market" differential — and it is not a Florida finding at all**, because 26% is **all-homes** and condos run cash-heavier than single-family *everywhere*.
+**Rule:** when two figures are adjacent, in-scope and tempting, **verify the PERIMETER matches before differencing** — and where the correct comparator does not exist, **record it as MISSING on the surface rather than substituting the available one.** Both rows now name the trap explicitly so a later reader cannot walk into it.
+**Related:** *A Scope Label Is a Claim Too* (below) is the same failure at the labelling stage; this one happens at the comparison stage, where the labels are each individually correct.
+
 ### [Process] — A Fresh Body Can Leave a Headline It Just Falsified (the inverse of the stale-header trap)
 **Mistake (2026-08-23, caught by PROME on read-back within the hour):** in ONE commit I added the Will-ruled MSI stand-down condition as a new `OPEN QUESTIONS §A` — and left the §5 block headline reading *"…AND THE LEG HAS NO REGISTERED STAND-DOWN"*, plus the same claim in the `Last Updated` header and a pillar row. **Three summary surfaces asserting the gap, in the same file as the body that closed it.**
 
