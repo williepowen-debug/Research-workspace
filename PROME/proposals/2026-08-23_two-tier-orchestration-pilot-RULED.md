@@ -16,3 +16,11 @@
 **Pilot slate:** TODAY wave 1 = SAM (Japan CPI first-2025-base + JPY COT #2 + drain) + MIDAS (touch 1: gold COT #2 + rows-65-69 encodes + drain; touch 2 deliberate: GLD write-up) · wave 2 = REGINALD (REG-T-02 token + OPEX write-backs + CREED-T-02 consume + FHLB why + drain) contingent on wave 1 clean. **Monday words UNCHANGED:** LABOR (full owner session AM) · CREED (QBP in-window) · TERRY (own-window candidate, Will's call). Metrics fold into the 8/28 doorbell-soak review — one surface grades both mechanisms.
 
 **Rules held:** spawns Tier-1 (landed-unread consumption, approved workstreams) · $0 · zero thresholds · report-before-execute · Will-gated surfaces excluded from subagent scope by construction.
+
+---
+
+## ADDENDUM — model ruling (same session, ~10:4x ET)
+
+**Will, verbatim:** *"Okay we need to run these sub-agents as lower model. Lets go with OPUS instead."*
+
+Context: Will asked what model the subagents ran; PROME answered honestly — wave 1 (SAM+MIDAS) inherited Fable 5 because the spawn omitted the override, a deviation from the 7/08 sonnet-default tiering that the new template had failed to carry (PROME miss, owned at the answer). Will ruled the orchestrated-desk standard = **`opus`** (above the 7/08 sonnet default, below Fable). Encoded as template line 8 in the playbook §Two-tier (single home). **Wave 1 rides to completion on Fable** (mid-drain when ruled; kill-and-respawn risks the falsely-cleared-inbox class; recorded as the pilot's calibration baseline). Wave 2 (REGINALD) + Monday spawns (LABOR, CREED) and all subsequent orchestrated-desk sessions spawn `opus`. Each touch's model logs in ORCH_LOG notes.
