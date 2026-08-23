@@ -34,6 +34,14 @@
 ### [Process] — STATUS.md Is a Dashboard, Not a Research Report
 **Rule:** STATUS.md is current state — signal status, thresholds, FL bank exposure. Research detail belongs in `sources/`, `research/`, or `workbook/`. Keep STATUS under 250 lines.
 
+### [Process] — A Fresh Body Can Leave a Headline It Just Falsified (the inverse of the stale-header trap)
+**Mistake (2026-08-23, caught by PROME on read-back within the hour):** in ONE commit I added the Will-ruled MSI stand-down condition as a new `OPEN QUESTIONS §A` — and left the §5 block headline reading *"…AND THE LEG HAS NO REGISTERED STAND-DOWN"*, plus the same claim in the `Last Updated` header and a pillar row. **Three summary surfaces asserting the gap, in the same file as the body that closed it.**
+
+**Why it is worse than a typo:** the fleet's known failure is a **stale header certifying a fresh body**. This is the **inverse** — a fresh body leaving a stale headline standing — and it is nastier, because **a reader skimming headlines is doing exactly what headlines are for, and the correction is invisible to precisely that reading pattern.** It is also the same shape one level up as the scope-label rule: *the summary carried a claim the detail had already superseded.*
+
+**Rule:** when an edit changes a STATE (gap→ruled, open→closed, pending→graded), **grep the whole file for the OLD state's phrasing before committing** — headline, `Last Updated` line, dashboard/pillar rows, and any cross-agent brief. The body is the edit you're thinking about; the summaries are the ones that travel. Sweep by **phrase**, not by memory of what you touched.
+**Companion:** distinguish **live-tense** from **historical** instances — SCRATCH/MEMORY/KB records that say *"the leg HAD no falsifier, and it was ruled"* are correct and must NOT be swept. Only present-tense assertions of the superseded state are defects.
+
 ### [Analysis] — A Test Whose Statistic Moves the Same Way Under the Rival Hypothesis Is Not Evidence
 **Mistake (self-caught late, HOMER-caught first, n=2 in one session — 2026-08-23):** I claimed that Florida's rising blended median *confirms* the Coral Bleaching mechanism, on the reading that the vintage, assessment-hit low end has **stopped clearing**. My proposed evidence was the low end's **SHARE** of transactions falling.
 
