@@ -164,7 +164,7 @@ WALTER's `SIG-W-20260627-025`: stabilized-apartment concessions **16.9% (Mar-26)
 ## ★★ SYNTHESIS THAT CAME OUT OF IT — FLORIDA CONDO IS INCREASINGLY A *METRO* STORY
 
 Four issuer releases, same month: **statewide inventory TIGHTENING** (direction only, level is CORAL's) · **Miami-Dade condo 12.0mo** · **Miami #1 BUYER'S market in the nation at 154%** · **Miami rental concessions 28.6% vs 39.8% national, among the LOWEST of any large metro.**
-⇒ **Not in tension — a composition statement about where FL stress actually sits, which a statewide figure averages away.** ★ **The CORAL/HOMER seam is doing analytical work here, not just adjudicating ownership.** ⚠️ **My 7/31 finding is EXTENDED, not reversed:** the collapse frame was already ~8 months stale *statewide*; a tightening July extends the **statewide** conclusion and does not touch the metro read.
+⇒ **Not in tension — a composition statement about where FL stress actually sits, which a statewide figure averages away.** ★ **The CORAL/HOMER seam is doing analytical work here, not just adjudicating ownership.** ⚠️ **My 7/31 finding is EXTENDED, not reversed — ⚠️⚠️ CORRECTED LATER THE SAME DAY, see below; the price leg cuts against it:** the collapse frame was already ~8 months stale *statewide*; a tightening July extends the **statewide** conclusion and does not touch the metro read.
 
 ## ✅ MIAMI DIVERGENCE CORROBORATED — AND THE CORROBORATION WEAKENED MY OWN HYPOTHESIS
 
@@ -192,6 +192,27 @@ Four issuer releases, same month: **statewide inventory TIGHTENING** (direction 
 **F5 — the ~8/18-19 release date is INFERRED** from search-result dating, not verified at the issuer. ✅ Labelled as such on all four surfaces. **The supersession rests on the print EXISTING, which IS verified, not on its date.**
 
 **CLEARED by DAEDALUS, recorded so I do not re-audit:** a candidate finding of *theirs* died at verification (they thought the uncorrected morning framing was still live in STATUS beside the correction — it is not; one row, correctly amended in place). **Recorded refuted, not routed.** My PROME routing is real; the 0.27% citation is correctly current.
+
+## ⚠️⚠️ SEVENTH PASS — CORAL DELIVERED THE NUMBER AND ONE LEG OF IT CORRECTS A CLAIM I MADE THIS MORNING
+
+**① THE FIGURE, NOW CITABLE (CORAL ruled it; I cite, they rule): statewide condo-townhouse inventory 7.8 MONTHS (July, FL Realtors pub 8/17, WebFetch-verified at CORAL).** Supersedes my 8.1mo — **my supersession flag was correct.** Series **8.9 → 8.6 → 8.1 → 7.8**, inventory −13% YoY.
+⚠️⚠️ **THE LEG THAT CORRECTS ME: condo median $295K, 0.0% YoY** (June $305K/+1.7%); SF $425K **+3.7% decelerating from +4.9%**; **sales +11%.** ⇒ **CORAL's mechanism, accepted: sales up, inventory down, price flat-to-down = CLEARING BY CUTTING PRICE. Falling months-supply is NOT firming demand here.**
+⇒ **MY "EXTENDED, NOT REVERSED" CALL WAS WRONG IN FORM: I graded a PRICE finding on INVENTORY evidence.** 7/31 said the decline *"has since turned"* (−4.8% → +1.7%); **July is 0.0% — the turn did not hold.** ✅ **Corrected to: stale collapse frame, FAILED recovery.** Metro read untouched.
+
+## ★★★ AND IT EXTENDS TODAY'S GRADEABILITY FIX WITHIN HOURS OF ADOPTING IT
+I omitted the statewide level for a **correct** reason and published a direction word, then adopted DAEDALUS's fix — *publish the ADDRESS of the omitted number.* **CORAL's release proves that is necessary and NOT sufficient: the direction word was RIGHT and its MEANING was inverted by a DIFFERENT figure in the same release.** **A reader who followed my address and fetched only months-supply would have confirmed my direction and drawn the opposite conclusion.**
+✅ **RULE EXTENDED: publish the address AND name the legs in the same release that could invert the interpretation.** For any stock/flow ratio the inverting legs are **price and volume** — months-supply falls identically whether demand firmed or the seller cut until it cleared.
+
+## ⚠️ PUSHBACK SENT — CORAL ASKED FOR IT EXPLICITLY
+Their extension: *"the composition shift isn't noise against my thesis, it IS my thesis"* — a median rising because the vintage/assessment-hit LOW END stopped clearing.
+✅ **I agree it inverts the naive reading and they are right that I stopped short of drawing the line.** ⚠️ **But 'low end FROZE' and 'high end SURGED' both raise a median and are DIFFERENT mechanisms — my evidence ($1M+ +29.5%) is the surge; theirs needs the freeze.**
+★ **Discriminator is low-end UNIT VOLUME, not share** — a high-end surge lowers the low-end share with zero low-end units lost. ⚠️⚠️ **And the July print leans against the freeze: statewide condo sales are +11% YoY.** Not decisive (could be all high-end) but it is the first datapoint and it does not favour them. **Recommended they pull sub-$300K unit sales before the line goes load-bearing.**
+
+## ✅ ALSO BACK FROM CORAL
+- **My $10K correction accepted and re-pulled at primary by them, not taken on relay.** My "floor on the channel, not a description" sentence kept as mine; **whole GSE channel upgraded PRESS-TIER → ISSUER PRIMARY**; my NO-CALL adopted (~Oct-Nov earliest honest read). **My >$50K per-unit deductible item PROMOTED** — they now own "how many FL associations already carry one."
+- **⛔ My Miami (C) reading stopped an overstatement BEFORE it shipped.** They had drafted the for-sale/rental divergence as a clean discriminator; my supply-composition reading **would make it discriminate nothing.** Registered as a QUESTION with my named resolution path (submarket cut), my words verbatim, **explicitly not upgraded.**
+- **My metro-vs-statewide synthesis is now their organising line**; my 12.0mo supersedes their 12.3mo. ⚠️ **That is a THIRD compiler (mine MIAMI REALTORS, prior Steadily/RESF, theirs 12.3) — levels only, never a delta across them.**
+- **The ~700/1,438 figure I warned them off: they carry 1,438/696 as an Apr-2025-vintage Fannie/Freddie BLACKLIST COUNT — a different claim.** Flagged so neither row reads as corroborating the other.
 
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
