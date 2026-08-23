@@ -268,14 +268,46 @@ def main():
     if latest_y and target_y and fut and "error" not in fut.get("GC=F", {"error": 1}):
         try:
             y_chg_bp = (float(latest_y["value"]) - float(target_y["value"])) * 100
-            gold_now = fut["GC=F"]["price"]
-            # need gold price ~90d ago too — pull short history for GC=F
-            hist = fetch.price_history(["GC=F"], days=100)["GC=F"]
+            # need gold closes for the SAME dates the yield leg uses
+            hist = fetch.price_history(["GC=F"], days=140)["GC=F"]
             if "error" in hist:
                 raise ValueError(hist["error"])
-            gold_then = hist["history"][0]["close"]  # oldest in window
-            gold_then_date = hist["history"][0]["date"]
+            bars = [b for b in hist["history"] if b.get("close") is not None]
+            if not bars:
+                raise ValueError("no usable GC=F bars")
+
+            def close_asof(target_date):
+                """Settled close ON target_date, else the nearest PRIOR bar.
+
+                FIX 2026-08-23 (KB-061 / L-29). This used to read the LIVE quote
+                (`fut["GC=F"]["price"]`) for the end of the window while LABELLING
+                the window with the yield leg's FRED date. Past the 18:00 ET Globex
+                roll that live quote is an in-flight bar for the NEXT trade date, so
+                the two legs were read up to four days apart under one date label —
+                and because the 90d endpoints sit ~0.1% apart, a $9.50 move in an
+                unsettled bar flipped the classifier DIVERGE->CONVERGE inside a
+                single closed-market session. Never pair a T+1 series against a live
+                quote; match the interval on BOTH legs and say so.
+                """
+                prior = [b for b in bars if b["date"] <= target_date]
+                if not prior:
+                    raise ValueError(f"no GC=F bar at or before {target_date}")
+                b = prior[-1]
+                return b["close"], b["date"]
+
+            gold_now, gold_now_date = close_asof(latest_y["date"])
+            gold_then, gold_then_date = close_asof(target_y["date"])
             gold_chg_pct = (gold_now - gold_then) / gold_then * 100
+
+            # decision margin: how far the call sits from the sign boundary it
+            # turns on, expressed against this window's own daily noise. A state
+            # decided inside 1 sigma is a coin flip with a label (L-29).
+            rets = []
+            for a, b in zip(bars, bars[1:]):
+                if a["close"]:
+                    rets.append((b["close"] - a["close"]) / a["close"] * 100)
+            sigma = (statistics.stdev(rets) if len(rets) > 2 else float("nan"))
+            inside_noise = (sigma == sigma) and abs(gold_chg_pct) < sigma
             if y_chg_bp > 0 and gold_chg_pct < 0:
                 divergence_state = "CONVERGE (real-rate-consistent — yields up, gold down; debasement premium NOT confirmed this window)"
             elif y_chg_bp > 0 and gold_chg_pct >= 0:
@@ -284,10 +316,21 @@ def main():
                 divergence_state = "CLASSIC (yields down, gold up — expected inverse relationship)"
             else:
                 divergence_state = "BOTH-DOWN (unusual — yields down AND gold down; check liquidity/USD confound)"
-            print(f"\n  M1 DIVERGENCE CHECK (trailing ~90d, {gold_then_date} -> {latest_y['date']}):")
-            print(f"    DFII10: {target_y['value']} -> {latest_y['value']}  ({y_chg_bp:+.0f}bp)")
-            print(f"    Gold (GC=F): ${gold_then:,.2f} -> ${gold_now:,.2f}  ({gold_chg_pct:+.1f}%)")
+            print(f"\n  M1 DIVERGENCE CHECK (trailing ~90d, INTERVAL-MATCHED on both legs):")
+            print(f"    DFII10:      {target_y['value']} [{target_y['date']}] -> "
+                  f"{latest_y['value']} [{latest_y['date']}]  ({y_chg_bp:+.0f}bp)")
+            print(f"    Gold (GC=F): ${gold_then:,.2f} [{gold_then_date}] -> "
+                  f"${gold_now:,.2f} [{gold_now_date}]  ({gold_chg_pct:+.2f}%)  "
+                  f"[settled closes, NOT the live quote — L-29]")
+            if gold_now_date != latest_y["date"] or gold_then_date != target_y["date"]:
+                print("    ⚠️ leg dates differ (nearest prior settled bar used) — "
+                      "compare the bracketed dates before reading the state")
             print(f"    State: {divergence_state}")
+            if sigma == sigma:
+                print(f"    decided by: |{gold_chg_pct:+.2f}%| vs a 0.00% sign boundary; "
+                      f"window daily sigma {sigma:.2f}%"
+                      + ("  ⚠️ MARGIN INSIDE 1-SIGMA NOISE — do NOT read as a state change"
+                         if inside_noise else "  (margin exceeds 1-sigma)"))
         except Exception as e:
             failures.append(f"divergence-calc: {e}")
             print(f"\n  ERROR divergence classifier FAILED: {e}", file=sys.stderr)
@@ -320,7 +363,18 @@ def main():
                      if (latest_d - _d.fromisoformat(r["date"])).days >= 21]
             if y_then and rows3:
                 g_then, g_then_d = rows3[-1]["close"], rows3[-1]["date"]
-                g_now = fut["GC=F"]["price"]
+                # SETTLED close as-of the yield leg's date — never the live quote.
+                # Same FIX/rationale as the 90d leg (KB-061 / L-29), and it matters
+                # MORE here: this is the REGISTERED kill-cond #3 window, its state
+                # trips rc and feeds the kill rail. The live quote also crosses the
+                # GCZ26 roll (KB-050/052), so the old reading was contaminated twice —
+                # in-flight AND cross-contract. Settled+prior-bar keeps both legs on
+                # one contract and one calendar.
+                _bars3 = [b for b in hist3["history"] if b.get("close") is not None]
+                _prior3 = [b for b in _bars3 if b["date"] <= latest_y["date"]]
+                if not _prior3:
+                    raise ValueError(f"no GC=F bar at or before {latest_y['date']}")
+                g_now, g_now_d = _prior3[-1]["close"], _prior3[-1]["date"]
                 dy_bp = (float(latest_y["value"]) - float(y_then["value"])) * 100
                 dg_pct = (g_now - g_then) / g_then * 100
                 if dy_bp > 0 and dg_pct > 0:
@@ -332,9 +386,12 @@ def main():
                                  f"{abs(-0.0513 * dy_bp):.2f}% of the {dg_pct:+.1f}% move")
                 else:
                     kc3_state = "no kill-cond-#3 shape (gold flat/down over 3wk)"
-                print(f"\n  M1 KILL-COND-#3 WINDOW (registered 3-WEEK test, {g_then_d} -> {latest_y['date']}):")
-                print(f"    DFII10: {y_then['value']} [{y_then['date']}] -> {latest_y['value']}  ({dy_bp:+.0f}bp)")
-                print(f"    Gold (GC=F): ${g_then:,.2f} -> ${g_now:,.2f}  ({dg_pct:+.1f}%)")
+                print(f"\n  M1 KILL-COND-#3 WINDOW (registered 3-WEEK test, INTERVAL-MATCHED):")
+                print(f"    DFII10:      {y_then['value']} [{y_then['date']}] -> "
+                      f"{latest_y['value']} [{latest_y['date']}]  ({dy_bp:+.0f}bp)")
+                print(f"    Gold (GC=F): ${g_then:,.2f} [{g_then_d}] -> "
+                      f"${g_now:,.2f} [{g_now_d}]  ({dg_pct:+.2f}%)  "
+                      f"[settled closes, NOT the live quote — L-29]")
                 print(f"    State: {kc3_state}")
             else:
                 failures.append("kc3-window: insufficient history")
