@@ -109,9 +109,9 @@
 
 ### 2026-06-15 — RETIRED `scripts/refresh_status.py`
 - **Trigger:** Boot-audit + Will/ORC/Prome convergent review flagged it as a stale-data writer.
-- **What changed:** Moved `scripts/refresh_status.py` → `archive/retired/refresh_status.py`.
+- **What changed:** Moved `scripts/refresh_status.py` → `archive/retired/refresh_status.py`. ⚠️ **Re-pointed 2026-08-23:** that archive path was deleted by the 2026-06-30 prune `1cb18fbc3` (174 lines), so the script is **not preserved on disk** — the 'do NOT resurrect' spec below still governs, and the file itself is at `git show 1cb18fbc3^:AGENTS/HENRY/archive/retired/refresh_status.py`.
 - **Why (do NOT resurrect):** It read a STATIC `MARKET_DATA.tsv` row (not a live pull) and **authored the Signal-Status line with a hardcoded narrative** ("COMPLACENCY TRAP / CPI 3.3% locks Fed"). Running it would silently overwrite STATUS's live header with stale, wrong framing — the exact "stale presented as live" trap HENRY's state-claim convention exists to prevent.
-- **Files touched:** `archive/retired/refresh_status.py` (moved), `scripts/boot.py` (comment), `BOOT_AUDIT.md` (lines 23/42).
+- **Files touched:** `archive/retired/refresh_status.py` (moved — ⚠️ path deleted 2026-06-30 by `1cb18fbc3`, see above), `scripts/boot.py` (comment), `BOOT_AUDIT.md` (lines 23/42).
 - **Boot-impact:** None — `boot.py` calls `fetch.py` directly for the live tape; it never imported refresh_status.
 - **Spec for any FUTURE refresher (if one is ever built):** must be (1) **live-sourced** (fetch.py/FRED, never a static TSV); (2) update **mechanical table rows only**, NEVER author the Signal Status / thesis narrative; (3) default to **dry-run / diff**; (4) ship with a **test fixture**. Absent all four, don't build it.
 

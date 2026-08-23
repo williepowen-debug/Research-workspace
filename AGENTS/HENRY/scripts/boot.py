@@ -127,8 +127,26 @@ def gamma(asof=None):
         print(f"  SPX {spot:,.2f} · no flip in ±10% band · regime {r['regime']}")
     pw, cw = r["put_wall"], r["call_wall"]
     pw_note = " (SPX THROUGH it)" if pw and spot < pw else ""
+    # SFG sweep 2026-08-17 (DAEDALUS): print the SOURCE token. A silent CBOE->yfinance
+    # demotion used to render byte-identical to a healthy read, and yfinance has zeroed
+    # openInterest on 97% of the ^SPX chain before (7/23). This value auto-publishes to
+    # workbook/PUBLISHED.tsv, which other agents' gates consume.
+    src = r.get("source", "?")
+    src_flag = "" if src == "cboe" else "  ⚠️ NON-PRIMARY SOURCE"
     print(f"  Net GEX {g0/1e9:+.1f}B/1% · put wall {pw:,.0f}{pw_note} · call wall {cw:,.0f}"
-          f"   [{r['horizon']}d, {r['n_contracts']} contracts]")
+          f"   [{r['horizon']}d, {r['n_contracts']} contracts, src={src}]{src_flag}")
+    # ACTION 2: pct-of-healthy floor. MIN_CONTRACTS=400 vs a healthy ~6,000 lets a 90%
+    # degraded chain print a confident flip. Warn (never suppress) below 25% of healthy.
+    # ⚠️ CALIBRATION CAVEAT, stated rather than hidden: 6,000 is DAEDALUS's figure for a
+    # healthy chain and matches the 35d pull (7,438 on 2026-08-23). The 14d pull is
+    # naturally thinner (3,795 same day), so ONE constant across both horizons
+    # UNDER-warns at 14d. It only ever warns, never suppresses, so the failure is a
+    # missed alert, not a blocked read. Re-base per-horizon when there is a base rate.
+    HEALTHY_CONTRACTS = 6000
+    n = r.get("n_contracts") or 0
+    if n < 0.25 * HEALTHY_CONTRACTS:
+        print(f"  ⚠️  THIN CHAIN: {n:,} contracts = {n/HEALTHY_CONTRACTS:.0%} of a healthy "
+              f"~{HEALTHY_CONTRACTS:,} chain — flip/sign degraded, do NOT publish walls")
     print("  (free-tier: sign+flip robust, $B assumption-dependent · gamma_flip.py --days 35 for the definitive read)")
 
 
@@ -139,14 +157,19 @@ def credit(verbose=False):
         print("  ⚠️  credit_monitor.py not found")
         return
     code, out, err = run([_py(), str(CREDIT_MONITOR)])
-    if code != 0 and not out:
-        print(f"  ⚠️  credit_monitor failed: {err[:300]}")
-        return
+    # SFG sweep 2026-08-17: `and not out` let a PARTIAL-output failure pass silently on a
+    # leg that feeds a kill line. A non-zero exit is a failure whether or not it printed.
+    if code != 0:
+        print(f"  ⚠️  credit_monitor exit {code}: {err[:300]}")
+        if not out:
+            return
     if verbose:
         print(out)
     else:
         for line in out.splitlines():
-            if any(m in line for m in ("BB", "HY", "CCC", "GAP", "HYG", "flag", "✓", "🔴", "🟠", "🟡")):
+            if any(m in line for m in ("BB", "HY", "CCC", "GAP", "HYG", "flag", "✓",
+                                       "\u26a0", "\u26a0\ufe0f", "ERROR", "FLAGS",
+                                       "🔴", "🟠", "🟡")):
                 print(f"  {line.strip()}")
 
 
