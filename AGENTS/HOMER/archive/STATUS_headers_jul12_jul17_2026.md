@@ -1,0 +1,15 @@
+# HOMER STATUS — archived header blocks (2026-07-12 inheritance verification · 2026-07-17 ATTOM H1 session)
+
+*Archived 2026-08-22 from `STATUS.md` under the root Data Hygiene retirement rule — **history only, not current state.** Moved to reduce BOTH axes of the file (lines AND bytes) rather than compressing live content to satisfy a 250-line cap that measures the wrong axis (see `STATUS.md` open item 20). **Nothing here is superseded or wrong — it is aged provenance.** The 7/17 ATTOM H1 figures remain LIVE in the Foreclosure Pipeline table and `workbook/PIPELINE.tsv`; the promotion provenance is canonical in `MEMORY.md`.*
+
+---
+
+## 2026-07-17 session (ATTOM H1)
+
+**7/17 SESSION (ATTOM H1):** Pulled the ATTOM 2026 Mid-Year report PRIMARY. National 227,548 filings (+21% YoY) CONFIRMED exact vs press; **FL #1 state by rate (0.27%, 1-in-373, 27,494 filings)** CONFIRMED. Press "Jacksonville worst" IMPRECISE — actual FL-worst metros are Punta Gorda 0.50% (#1 US) & Lakeland 0.48% (#2 US); 5 of top-10 US metros are FL. **Verdict:** consistent + sharpened, NOT a fresh flow-acceleration — growth RATE cooling (Q1 +26% → H1 +21%; Q2 filings < Q1) but CONVERSION accelerating (timeline 563d, lowest since 2013; REO +33% H1). FL reconcile → **CORAL-CONFIRMED (both agents landed the identical figure independently; CORAL-canonical, HOMER cites)**; also CLOSED the 7/12 FL-condo inventory reconcile (relabeled my 12.9mo → Miami-Dade, statewide is CORAL's 8.9mo). REGINALD Path-C note written. Below-header 7/12 inheritance detail retained for provenance.
+
+---
+
+## 2026-07-12 inheritance verification (promotion day)
+
+**Inheritance verification (this session, 2026-07-12):** spot-verified 4 load-bearing inherited figures against primaries — **0 drifts found** in the values themselves (Fannie May 0.58% MF serious DQ confirmed exact via CalculatedRisk/PR Newswire/StockTitan; Trepp June 7.23% MF DQ [+28bps, 48bps below Apr's 7.71% ATH] confirmed exact via Multi-Housing News/Yield PRO/ConnectCRE; ATTOM Q1 82,631 FC starts confirmed internally consistent across HOMER/CARL files — it's the FC-starts figure, not a separate metric). **3 staleness gaps found and fixed** (not copy-drift, but rows that aged out since the 6/26–7/4 cutover pulls): 30Y PMMS was 3 weeks stale (Jun 18 6.47% → now Jul 9 6.49%, w/ Jul 2 6.43% 7-wk-low waypoint); ICE foreclosure-pipeline trio (FC inventory/starts/DQ rate) was April-vintage → refreshed to May (ICE First Look, rel Jun 26); NAR Existing Home Sales June print was mis-scheduled in the inherited docket as a ~7/23 upcoming catalyst — it **already released 7/9** (4.09M SAAR, -2.4% MoM, +2.8% YoY) and is now booked as data, not a forward catalyst (see docket fix below). **MF-books as-of-date check:** Fannie (May, rel Jun 26) and Trepp (June, rel ~Jul 4) are NOT the same calendar month — confirmed intentional, not drift: Trepp's monthly print structurally releases ~3-4 weeks faster than Fannie's, so a 1-month stagger between the two books is the steady-state, not a desync to fix.
