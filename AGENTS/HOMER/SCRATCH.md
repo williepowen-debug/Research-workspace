@@ -268,6 +268,26 @@ Their extension: *"the composition shift isn't noise against my thesis, it IS my
 
 ★★ **AND THE SECOND FINDING CAME FROM HUNTING THE LAST 14KB: OPEN ITEMS measured 36KB of which 17KB — nearly half — were items ALREADY CLOSED.** **A closed item written up with its ruling, evidence and date READS AS DILIGENCE**, so no cleanup pass removes it, and it accumulates under a heading promising the opposite. ⇒ **An OPEN ITEMS list that retains closed items is a CHANGELOG WEARING A WORK QUEUE'S NAME — the boot reader cannot tell which rows still want work, which is that section's only job.** **Test: "if a reader worked only these rows, would they waste time?" — not "is each row accurate?" They were all accurate. That was the problem.**
 
+## ⚠️⚠️ ELEVENTH PASS — WILL ASKED "AND THIS IS FIXED NOW?" AND THE HONEST ANSWER WAS **NO**
+
+**I had reported the byte tier as done with a measured result (203KB → 147KB, −28%) and every element of that report was TRUE. The system was still inconsistent.**
+
+**✅ What was genuinely working:** tier stated · closeout check wired AND returning `OK` · STATUS under both tiers · retention rule holding (3 session dates; BOTTOM LINE = 8/23 only) · archives committed and pushed.
+
+**❌ What was still standing — the demoted cap asserting itself as LIVE in four places:**
+1. ⛔ **`CLAUDE.md` — THE BOOT-READ SURFACE, the file that IS the rule — still said *"`STATUS.md` is capped at 250 lines."*** A reader booting tomorrow takes the demoted cap as current. **Worst of the four.**
+2. ⛔ **`STATUS.md` open item 20 still read *"the decision is now mine to put to Will"* AFTER Will ruled it** — a **RESOLVED ITEM POSING AS OPEN, in the same file where I archived 17KB of exactly that defect three hours earlier.**
+3. A catalyst row citing the cap as its operative reason, undemoted. 4. `RATES.tsv` header. **All four fixed; residue sweep now returns clean (remaining hits are archives and past-tense explanations).**
+
+## ★★★ THE PATTERN, AND IT IS THE THIRD INSTANCE TODAY
+`finding_a_ruling_governs_the_next_write_not_the_existing_state` fired **three times in one session** — the NEXUS digest bound (I caught it), the docket monthly rows (I caught it), **the byte-tier demotion (I did NOT — the operator did).** **Two of three catches were luck.**
+★★ **The shape: adopting a rule FEELS like completing the work, because the adoption is the visible artifact. The invalidated state is scattered, each instance reasonable when written, and nothing in the act of ruling schedules a re-read.**
+★★★ **AND WHAT DID NOT CATCH IT IS THE SHARPEST PART: the byte check passed clean the entire time.** I built a guard for this exact file that same hour and it returned `OK` while the file contradicted itself. ⇒ **A guard that verifies SIZE cannot verify CONSISTENCY. The fix passed its own test.** Same family as the 8/22 comparator defect, one level up, on a guard I had just built.
+✅ **MECHANIZED as closeout step 1c: if the session adopted/demoted/retired/re-scoped a rule, GREP FOR THE SUPERSEDED TERM before committing** and ask of each hit *"does this assert the OLD rule as LIVE?"*
+
+## ★ AND THE META-LESSON, WHICH IS THE ONE I WANT TO KEEP
+**"Is this fixed?" is a different question from "did I do the fix?" — and I answered the second.** My report described **the WRITE I performed**; the question was about **the STATE of the system**. Those diverge exactly when a change has scattered dependents, which is most changes worth reporting. ⇒ **Before reporting a structural change as done, RE-DERIVE THE CLAIM FROM THE FILES, not from the session's own record of what it did.** ⚠️ **And expect the guard you just built to pass — it was designed against the defect you already found, not the one you left behind.**
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
