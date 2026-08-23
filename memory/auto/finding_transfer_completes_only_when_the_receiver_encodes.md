@@ -1,7 +1,7 @@
 ---
 name: finding_transfer_completes_only_when_the_receiver_encodes
 description: "A hand-off of OWNERSHIP has two halves and only the sender's half is self-motivated — the sender encodes TRANSFERRED and correctly stops, while the receiver has no trigger at all, so the item is owned by NOBODY and BOTH desks' own ledger checks pass clean because each correctly audits only its own book."
-symptoms: "I routed it to the right owner · handed it off · registered it under their name · the row names them as owner · docketed it for them · both desks' checks passed clean · my ledger is correct, why is anyone still waiting · the date is right but nobody gets woken · I grepped my own desk and found no read-path · routing owed"
+symptoms: "I never routed the fire to the ledger · your ledger can only register what reaches it · the gate was ratified with the operator directly · I don't read that ledger so I could not see it was missing · nothing was wrong anywhere and the missing thing had no home · I routed it to the right owner · handed it off · registered it under their name · the row names them as owner · docketed it for them · both desks' checks passed clean · my ledger is correct, why is anyone still waiting · the date is right but nobody gets woken · I grepped my own desk and found no read-path · routing owed"
 metadata:
   node_type: memory
   type: finding
@@ -50,3 +50,29 @@ BOND returned an ungradeable threshold to PROME with the words *"routed to PROME
 - **Label the mirror at birth.** BOND wrote *"PROME's row is authoritative; if they disagree, mine is the copy to fix"* — which is what stops a receiver-side pointer becoming a second source of truth (`[[finding_owner_of_record_means_authoritative_not_correct]]`).
 - **Three fields on one item, three independent ways to lose it** — this row lost the *quantity* (a threshold family with no instrument), the *schedule* (a date keyed to the wrong artifact, `[[finding_instrument_reports_clean_against_the_wrong_reference]]` n=10), and the *delivery* (no receiver-side row). Each was guarded by someone and none by everyone. **When an item passes between desks, audit all three; guarding the hard one predicts nothing about the other two.**
 - ★ **The unifying shape across all three, worth carrying on its own: A CORRECT ACTION ON THE WRONG SURFACE READS AS A COMPLETED ONE.** The release ping was correct and stale; the date was correct and keyed to the wrong artifact; the row was correct and lived in one place. Every one of them looked done.
+
+---
+
+**MIRROR INSTANCE, 2026-08-23 — the SAME JOIN failing in the OTHER direction, on the same day, between two competent desks.**
+
+The bullets above cover the **registrar→owner** direction: a ledger row names a non-self owner who has no read-path. CORAL supplied the **owner→registrar** mirror.
+
+CORAL's MSI supply-side leg was **ratified by Will on 2026-07-23** and fired. It reached `PROME/GATES.tsv` — the fleet's fire-ledger, which exists precisely so a fired gate cannot be invisible — **31 days later, and only because CORAL doorbelled PROME about something else.**
+
+**Nothing was wrong at either end.** CORAL maintained the leg correctly for a month. PROME's ledger correctly contained everything that had reached it. **The two PROME-side defects that day were mirror images:**
+
+| direction | instance | why invisible |
+|---|---|---|
+| registrar → owner | PROME docketed `VX-BND-18` naming BOND as owner, routed nothing. BOND grepped its own desk, found no read-path, built the mirror itself | PROME does not read BOND's tree |
+| **owner → registrar** | **CORAL's gate ratified and never routed to `GATES.tsv`; 31 days** | **CORAL does not read `GATES.tsv`** |
+
+🔑 **CORAL's diagnosis, and it is the durable line: *both failures are invisible to the desk that could fix them.* Each end's own checks pass clean while nobody owns the join.** That is why 31 days elapsed with no dropped work and no incorrect behaviour anywhere — **the thing that was missing had no home.**
+
+★ **The generalisation, which links this to the test-design family:** **A REGISTRATION THAT ONLY THE REGISTRANT CAN VERIFY IS A TEST THAT CANNOT COME BACK NEGATIVE.** CORAL auditing its own leg always returns "maintained"; PROME auditing its own ledger always returns "complete." Neither audit can produce the finding, however diligently run. Sibling of the share-test shape — *name the party who would notice the failure, and check whether any process actually asks them* (`[[finding_crosscheck_with_free_parameter_validates_nothing]]`).
+
+## How to apply — the missing rule, both directions
+
+- 🔴 **There is a rule for `DOCKET → WILL_QUEUE` and NONE for "a gate ratified at a desk must reach `GATES.tsv`."** The gap is symmetric and neither end is at fault; **the fix is a rule, not an apology.** Cheap half is at fire-time: one line from the owner naming the ledger.
+- **Two ledgers agreeing is not evidence** when each is populated only by the desk that reads it. **Reconcile ACROSS the join, at a cadence, by whoever owns neither side** — a spine audit is the natural home.
+- ⚠️ **Do not resolve this as apportionment.** Both desks offered to carry the fault and both were partly right, which is the tell that the fault is structural. **The minutes spent trading halves are minutes not spent writing the rule.**
+
