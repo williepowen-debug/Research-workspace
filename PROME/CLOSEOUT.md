@@ -18,7 +18,8 @@ Before `/clear` or `/new` · before stepping away from a long session · after a
 
 1. `git status --short` — review what changed.
 2. **Foreign uncommitted work does NOT block closeout** — pathspec commits + `safe-push.sh` never touch another agent's tree. The real check: you are about to commit only your own `PROME/` scope (+ Will-approved per-instance paths, e.g. `memory/`). If `AGENTS/PROME/` reappears, that's a sender-routing regression: migrate contents to `PROME/inbox/`, flag the sender (BOOT step 6).
-3. List this session's artifacts; check transcript hygiene (preserve durable results in files, not restated dumps); pick the tier:
+3. **Orchestrated-desk release (2026-08-23, Will-ruled two-tier model — ANY tier, including Bounce; PAT-112 hook):** if this session spawned named subagent desks, send each live one the final **"run your closeout per your own protocol"** ping, then verify **idle + last delivery committed** (`git log` the desk's `(orch)` commits; desk-dir residue = in-flight, integrate-never-sweep on respawn). Log the final touch in `PROME/state/ORCH_LOG.tsv`. A desk released without its own closeout leaves a stale header over its newest content — the exact PAT-112 failure. Single home: `PROME/ORCHESTRATION_PLAYBOOK.md` §Two-tier.
+4. List this session's artifacts; check transcript hygiene (preserve durable results in files, not restated dumps); pick the tier:
 
 | Tier | When | Touches | Commit? |
 |---|---|---|---|

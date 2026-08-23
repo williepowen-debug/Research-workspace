@@ -199,6 +199,32 @@ Independently-launched sessions on the same box can now message each other direc
 
 **The discovery step (canonical home = `MESSAGING/CROSS_SESSION_MESSAGING.md` §2 rule 6, Will-ruled 8/16 late; this paragraph is the choreography MIRROR — born here `84509c868`, promoted to canon the same night):** the doorbell only fires if somebody looks — **at packet-commit time, when the packet carries an ASK of, or an answer owed to, a specific agent, run `ListAgents` (~free) and doorbell if that agent's session is live.** The night this channel was ratified, PROME and DAEDALUS ran a full two-round ASK/disposition exchange as live concurrent sessions on pure file packets, and Will hand-carried the coordination between the two open windows — the exact operator-as-relay load the channel had removed hours earlier. Both sessions knew the canon; neither checked for a peer. A channel without a discovery habit is a doorbell nobody rings.
 
+## Two-tier orchestrated-desk model (Will-ruled 2026-08-23, "approved"; record `PROME/proposals/2026-08-23_two-tier-orchestration-pilot-RULED.md` — SINGLE HOME for this workflow; DAEDALUS 5-amendment review folded at encode time)
+
+**The model:** PROME orchestrates desk work through two transports. **TIER = TRANSPORT, NOT CLASS** — the tier describes how the session runs, never the desk's roster class, routing, or obligations; desk obligations are invariant under transport (amendment 5a).
+
+| Tier | Transport | Criterion | Will's access |
+|---|---|---|---|
+| **Own-window** | Will-launched CC session (`cd AGENTS/<NAME> && claude`) | Work **outlives a PROME session** OR **Will's words land mid-flight** (trade construction, rulings) | Direct — sees it, types into it |
+| **Named subagent** | PROME-spawned persistent named agent (Agent tool, `name:`); re-ping via `SendMessage` resumes with context intact, no respawn; quiet when idle costs nothing | **Bounded, completable within PROME's session** (grading, drains, encodes, consumption touches) | Via PROME's task tree + the desk's commits/packets |
+
+**Day-scoped lifecycle:** subagents die with PROME's session (nightly closeout minimum, often sooner for context hygiene). **The repo is the memory; the transcript is intra-day convenience.** A fresh PROME session respawns what it needs and loses nothing — PROVIDED every touch delivered to disk. Between-ping drift is structurally small (short lifespans), with ONE exception the template guards: market/repo state at re-ping.
+
+**Spawn/re-ping template (every tasking carries ALL of these — PAT-046: root canon does not reliably bind spawned agents; the prompt carries the rules):**
+1. **FIRST ACTION: read `AGENTS/<NAME>/CLAUDE.md` + `STATUS.md` + your own boot files** — a subagent never launches from the desk dir, so nothing auto-loads.
+2. **Full owner session, never a read-only receiver** (§3.5.2): integrate into canonical state and COMMIT before filing anything to `processed/`. **Whole-inbox drain — every sender, not just the triggering item** (rule-6b mandate).
+3. **Re-anchor before acting: live data AND re-read your own STATUS + inbox** (amendment 2 — a resumed transcript is a snapshot; repo state moves between touches). On closed-market days: latest closes are final-for-period, cite dated, nothing is live.
+4. **Every delivery re-stamps the STATUS header it wrote under** (PROME hardening on PAT-112 — header covers newest content even if PROME dies before the final ping). **The LAST touch runs the desk's own FULL closeout per its protocol** (consumer_check · ledger nudge · orphan check · memory-index check · safe-push); the subagent cannot know which touch is last — **PROME says so in the final ping** (amendment 1).
+5. **Commit provenance: subjects lead `<DESK> (orch): ...`** (amendment 3 — keeps desk-cadence instruments honest; `git log -- AGENTS/X/` blindness runs both directions). Pathspec commits, own dir + carve-outs ①②③ only.
+6. **⛔ ALL Will-gated surfaces are OUT OF SCOPE** — not just trades: threshold registration, band edits, root/shared docs, roster changes. A subagent hears Will only as PROME's relay, and a relayed word never clears a Will-gated surface (rule 3). A gated need RETURNS to PROME → WILL_QUEUE/GATES on Will's own word (amendment 4). $0 moves; report-before-execute on anything trade-shaped.
+7. **Deliver-before-idle:** SendMessage the result to PROME AND write it to your own dir, as the final action before going quiet.
+
+**Ledger:** every touch logs to `PROME/state/ORCH_LOG.tsv` (authoritative record for orchestrated work; feeds the 8/28 doorbell-soak review — one surface grades both mechanisms; standing post-8/28 reader = fleet_triage when it builds, amendment 5b).
+
+**Failure path (amendment 5b — written so the first real failure runs from a rule, not improvisation):** subagent dies mid-task ⇒ respawn from repo state; check the desk dir for uncommitted residue — **residue is IN-FLIGHT work, not orphaned trash** (`[[finding_dirty_path_means_in_flight_not_orphaned]]`): the respawned desk integrates it, nobody sweeps it.
+
+**PROME closeout hook:** before closing, send each live spawned desk the final run-your-closeout ping, then verify idle + last delivery committed (`PROME/CLOSEOUT.md` pre-closeout step).
+
 ## Related
 - `PROME/ORCHESTRAL_LAYER_DESIGN.md` — fleet-scan / ranking / revival-proxy layer (the *what to work on*; this doc is the *how to run it*).
 - Auto-memory: [[finding_fleet_selfreport_convergence]], [[finding_workflow_concurrency_529]], [[feedback_parallel_spawn_independent_agents]], [[feedback_named_spawn_teams_mode]], [[feedback_warm_parked_agent_collision]].
