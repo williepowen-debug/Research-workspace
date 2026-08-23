@@ -125,3 +125,101 @@ The Mar-3 "🔴 RED, cascade extending, short SSB" framing is **superseded.** Fi
 **Tape-vs-fundamentals DISAGREE (context, not grade):** BKU closed **−4.43% at $45.94** (7/22, PROME tape note) — ugliest print reaction in the regional cohort this week — while credit was the *strongest* part of the release. Market reacted to the **earnings line**: EPS $0.97 miss (consensus ~$1.00–1.03), revenue miss (press-tier), expense creep ($1.1M single-OREO loss + $1.3M operational losses + deposit costs). NIM actually +7bps to 3.06%; NI $70.7M; CET1 12.3%. No FL-RE thesis touch: no condo-association disclosure, CRE criticized falling, no FL-RE specific reserve — nothing arms the bank-transmission rail. **Three independent FL surfaces now benign (CCBG credit 7/21 + FL labor 7/21 + BKU credit 7/22).** Next leg: **7/23 gate day (VLY BMO; SSB+AMTB+USCB AMC)** — first day the ≥2 bar could mathematically fire; rail unchanged, no state change without PROME/Will. Detail → `FL_BANK_WATCHLIST.md` row 2; outbox → `outbox/2026-07-22_to-PROME_bku-fl-sync-leg2-grade.md`; KB ML-CORAL-047.
 
 ---
+
+
+---
+
+## ARCHIVED 2026-08-23 from STATUS.md — the 7/24 SSB block and the 7/23 FL gate-day block
+
+*Moved verbatim to hold STATUS at its 250-line cap during the 8/23 20-day catch-up. Both blocks are SUPERSEDED as live state: the Q2 FL-bank window closed 7-of-7 benign on 8/3 (final sync 0-of-≥2) and REGINALD closed the 10-Q leading-bucket watch-card 4-of-4 REVERT on 8/10. Per-bank detail stays canonical in `FL_BANK_WATCHLIST.md`; the MSI leg’s live state is in STATUS. Cite as history, never as current.*
+
+## 7/24 — SSB Q2 ADJUDICATION (BENIGN) + Q2 SYNC GATE MATHEMATICALLY CLOSED + HOA TRANSCRIPT-MINE PARTIAL (PROME-spawned) — READ FIRST
+
+**⭐ SSB VERDICT: BENIGN, 0-of-4 pre-registered axes.** Entity disambiguated first: **SSB = SouthState Corporation (NYSE:SSB)**, Winter Haven FL, multi-state SE — **NOT Seacoast Banking Corp of Florida (ticker SBCF)**, which prints separately 7/28. Primary: 8-K, EDGAR **CIK 0000764038, acc. 0001104659-26-086278, filed 7/23/26 4:25PM ET**. (a) NCO 0.06% (↓ from 0.09% Q1 / 0.21% 2Q25) = BENIGN. (b) Provision $15.9M (+47% QoQ) but funds $1.4B/11% QoQ loan growth, ACL ratio fell, no named specific reserve = BENIGN (same growth-driven standard as USCB this window). (c) ACL 1.18%→1.15% (declining) = BENIGN. (d) NPA/NPL/classified/special-mention all down QoQ (classified 3.61%→3.47%, still the known rate-shock reclass, 89% accruing/98% current) = BENIGN. Strictest-reading check: even if provision graded deteriorating, still only 1-of-4 — verdict robust. Tape +4.77% live (no divergence).
+
+**⭐ Q2 SYNC-BAR STATUS: mathematically closed.** Six of seven FL/near-FL Q2 surfaces now BENIGN (CCBG, BKU, VLY, USCB, AMTB, SSB). Only SBCF (7/28) remains — one name cannot reach the ≥2-synchronized bar, so **the gate cannot fire this quarter under any SBCF outcome.** SBCF 7/28 reframed from gate-decider to single-name confirm/disconfirm of the pre-registered mechanism (nonaccrual 3rd-rise + CRE-non-OO reserve build) — feeds next quarter's baseline, not this quarter's sync test. Consistent w/ DEWEY's 2027 synchronized-NCO timing.
+
+**HOA transcript-mine (ML-CORAL-046) — PARTIAL, 1-of-4 calls read.** VLY transcript (Motley Fool, posted) read in full: zero HOA/condo-association/SIRS/special-assessment mentions. AMTB + SSB calls concluded 7/24 9AM ET but transcripts not yet posted (Motley Fool URLs checked, 404). USCB call not yet held (7/24 11AM ET). All 4 Q2 press releases/decks grep-checked fresh (SSB ex-99.1 + ex-99.2 today; AMTB re-verified) — **zero disclosure across the board, null result holds.** Re-check transcripts later 7/24/evening. **⬆ UPDATE 7/25: now 3-of-4 — see top-of-file 7/25 addendum + KB ML-CORAL-053 for the USCB "Association Banking" mention and AMTB zero-hit read; SSB transcript remains unposted.**
+
+Files: FL_BANK_WATCHLIST (row 6 SSB + headline + live-window + old Q1-table row), CLUSTER_FL_BANK_LEG (diagnostic + reconciled-number addendum), STATUS (this block + header), KB ML-CORAL-052, outbox `2026-07-24_to-PROME_ssb-q2-adjudication-and-hoa-transcript-mine.md`.
+
+---
+
+## 7/23 — FL GATE-DAY GRADE (BENIGN) + MSI SUPPLY-SIDE LEG 🔴 RATIFIED-FIRED (PROME-spawned) — READ FIRST
+
+**⭐ AMC GATE-DAY RESULT (4:15PM ET): BENIGN — sync stays 0-of-≥2; the ≥2 bar did NOT fire.** Both AMC prints graded off primary ex-99.1, mechanically on the frozen 4-axis frame:
+- **USCB — BENIGN, 0-of-4** (acc. 0001562762-26-000082). NCO 0.05% / provision $1.3M (on 14.6% ann. loan growth, CECL-on-growth) / ACL 1.15% (declining) / NPL 0.09%. EPS $0.49 beat, >$3B assets, CET1 11.01%. ⭐ **Condo-assoc wire CLEAN: zero association/condo/HOA credit disclosure in the release** ($126M/470+ book not broken out — unobservable per ML-CORAL-046); **new CCO Garrido's first print = clean.** The purest condo→bank canary is NOT cracking.
+- **AMTB — BENIGN, 1-of-4** (acc. 0001734342-26-000071). NCO 0.08% (↓ from 0.45%) / provision $4.8M (−39% QoQ) / **ACL ratio 1.21%→1.27% = the one mechanical deteriorating axis** (build INTO improving quality — coverage ~45%→~50%, classified −14.7%, NPA −2.6%, special mention −25.9%) / migration benign. EPS $0.53 beat, CET1 11.94%. **The pre-registered thin-coverage stress point IMPROVED, did not crack.** Genuine FL-book benign (pure S-FL).
+- **SSB — PENDING** (not on EDGAR by 4:15PM; latest 8-K 7/13 officer-change; call 7/24). Graded when it files — no fabrication.
+- **Tape:** AMTB +1.65% / USCB +0.94% (mild positive on the beats) — no tape-vs-fundamentals divergence (unlike BKU/VLY earnings-line sells); regular-session softness was macro ($100-oil risk-off, KRE −0.6%). **Live bar now needs BOTH {SSB, SBCF-7/28} to deteriorate — gate-day cluster alone can no longer reach ≥2.** No rail move. Detail → `FL_BANK_WATCHLIST.md` rows 4-5; outbox → `outbox/2026-07-23_to-PROME_amc-gateday-grade.md`; KB ML-CORAL-051.
+
+---
+
+
+**VLY Q2 (7/23 BMO) — BENIGN / does-not-count, 1-of-4 axes, no FL attribution** (8-K acc. 0000714310-26-000036): NCO ~17bps · provision $29.2M w/ specific reserves **not FL-named** (the one mechanical deteriorating axis) · ACL 1.18%→1.16% declining · criticized/classified **8.1%→7.3% DOWN**. 8-state book, no FL cut disclosed → non-FL CRE softening excluded from the FL count per the exclusion rule. Tape −2.4% = the EPS line (adj $0.30 vs $0.31 cons), not credit. No HOA/condo/association color. *(Full table + the superseded 7/23 timing-correction note archived 8/3 → `workbook/STATUS_archive_20260721.md`; per-bank detail canonical in `FL_BANK_WATCHLIST.md` row 3.)*
+
+**🔴 PARCL MSI SUSTAIN CHECK — MET → LEG FIRED, WILL-RATIFIED 7/23:** fresh Parcl metro pull 7/23 (parcllabs.com/research/markets/fl/*/metro): **5 FL metros still >6.0** ~15 days after the 7/8 snapshot — **Tampa 6.96** (7/8: 6.9), **Punta Gorda 6.82** (6.9), **North Port 6.45** (6.45), **Cape Coral 6.2** (6.12), **Lakeland 6.09** (6.09). Values shifted vs 7/8 = fresh read. Per OQ#0 registration, the sustain trigger is SATISFIED → **the 🟠→🔴 supply-side price-discovery leg is FIRED (Will-ratified in-session 7/23 ~1:35PM ET).** **Absorption mechanism (VX-CORAL-BUYER-01): cash end-user/foreign capitulation-clearing** (cash share rising, investor falling) → **cash comps mark collateral DOWN → erodes SW-FL LTV cushion behind FL bank books** = the collateral-repricing leg upstream of the bank bridge. **SCOPED to the supply-side leg only — the bank-transmission rail is UNTOUCHED (stays 0-of-≥2); overall CORAL state stays 🟠 thesis-split.** ⚠️ Documented substitution: metro-level all-seller MSI, not the builder-cell basis the reg was seeded on (noted, not silent); 2 readings 15d apart = persistence, not a continuous weekly series. Thesis leg-move logged → `thesis/CHANGELOG.md` (2026-07-23) + `thesis/THESIS.md` State line. OQ#0 CLOSED (RATIFIED-FIRED).
+
+---
+
+
+---
+
+## ARCHIVED 2026-08-23 from STATUS.md — the 7/21 FL-employment pre-reg grade block and the 7/17 ATTOM H1-foreclosure block
+
+*Moved verbatim to hold STATUS at its 250-line cap during the 8/23 catch-up. Both are SETTLED grades whose verdicts are carried forward on the live dashboard; the ATTOM rank-vs-level qualifier (HOMER 8/3) and the four-incompatible-bases warning both live on the foreclosure dashboard row. Cite as history, never as current.*
+
+## 7/21 — FL STATE EMPLOYMENT (June) PRE-REG GRADE — READ FIRST
+
+**Route:** PROME-spawned Tuesday four-rail day, rail 2. Graded my two pre-registered rows mechanically on the BLS print; LABOR concurrently graded its own T-11 row (I did not touch LABOR's files). Full memo → `outbox/2026-07-21_to-PROME_fl-employment-prereg-grade.md`.
+
+**VERDICT: BOTH CORAL terms FAIL to the benign/divergence branch — pre-registered BASE CASE holds. No LABOR cross-flag, no rail move.**
+
+| Pre-reg term | Threshold | June print (primary) | Verdict |
+|---|---|---|---|
+| (i) FL statewide UR | **≥4.9% SA** (a rise off 4.8%) | **4.7% SA** — −0.1pp MoM (first decline since 2024); +0.9pp YoY (Jun-25 3.8%) | **FALSIFIED (opposite direction)** |
+| (ii) Metro-UR overlap Jax/Ocala | job-loss-driven UR deterioration at the new FC-entrant metros | Jax MSA **4.8% NSA** (↑0.1) but **labor-force/seasonal, not job-loss**; Ocala June pending BLS 7/29 | **Does not trigger (diffuse/seasonal)** |
+
+**⚠️ RED finding VALIDATED (post-hoc, honest note):** RED's 7/17 pre-catalyst sweep (memo §7/21-1, routed by PROME) flagged this joint pre-reg as a **lag-mismatch/low-power discriminator** — employment→foreclosure transmission lags 2–4Q and the H1 foreclosure cohort was seeded late-2025, so a single June UR print most likely **straddles the discriminator and lands on the low-info base case regardless of the true driver.** That is **exactly what happened** — the grade resolved to the base case. The grade was still executed correctly *as-written* (you don't re-fit a pre-registration mid-flight), but RED's meta-point stands: **forward employment-branch reads should re-spec onto the multi-quarter UR trajectory (streak extending/steepening), not same-month overlap.** Adopted as the forward spec; today's single-print grade left as-registered. *(Inbox item processed 7/21 EVE.)*
+
+**Sources:** FL 4.7% SA = **BLS State Employment & Unemployment — June 2026** (`bls.gov/news.release/laus.nr0.htm`, 10:00 AM ET 2026-07-21, polled + captured on landing); base Apr/May 4.8% = BLS LAUS series LASST120000000000003; co-primary confirm FloridaCommerce 7/17 ("4.7%, reduction from 4.8% the prior two months"); Jax MSA metro = jaxdailyrecord 7/17 quoting FloridaCommerce (labor force +7,500; nonfarm payrolls +2,600 YoY = first 2026 gain after 5 monthly losses; "normal seasonal trend").
+
+**+ Same-day FL bank datum (CCBG Q2, 7/21 BMO) — BENIGN anti-datum:** Capital City Bank Group (CCBG, ~$4.4B assets, FL = 81% of revenue) Q2 = EPS $0.95 (vs $0.92 Q1) / NCOs 14bps / provision +$0.2M / allowance 1.24% (+1bp, no build) / ROA 1.48%. First small-tier FL bank datum of the 7/21–28 window and an **anti-datum** for the bank-transmission rail (opposite of deterioration). **Synchronization count 0-of-≥2 deteriorating** → two independent FL surfaces (bank credit + labor) benign the same day. **BKU (FL) prints 7/22 BMO = second synchronization leg.** Tracker + source → `FL_BANK_WATCHLIST.md` Q2 window / KB ML-CORAL-031. (PROME-verified vs CCBG 8-K ex991, SEC EDGAR.)
+
+**Consequence (pre-registered, applied mechanically):** cost-stack / negative-equity is confirmed as the driver of FL household distress (CORAL's mechanism), **not** employment — the base case LABOR handed off 7/9 leaning toward. The surprising/high-info branch (8th-straight-rise + Jax/Ocala UR overlapping their new foreclosure prints) **did NOT occur.** **Bank-NCO timeline stays slow (~2027 condo-recap track).** **Bank-transmission upgrade rail: does NOT move / does not arm** — an employment print isn't bank-credit data and this one is benign; needs ≥2 FL-exposed banks synchronized credit deterioration. Live re-test remains **Q2 FL bank earnings (~7/21–28).**
+
+**⚠️ UNGRADED observation (FL top-priority — separate from the mechanical grade):** June is mildly **labor-leg-SOFTENING** vs the prior 🟠 labor read — FL **+11,100 jobs MoM** (leisure/hospitality, health care, transport/warehousing), statewide UR's first decline since 2024, Jax's first YoY payroll gain in 2026. IF sustained, weakens the labor leg of the household-stress stack. Kept UNGRADED: one month; **525,000 unemployed, +107,000 YoY** (labor force still outgrowing jobs → what nudged metro URs up); UR still 4.7% = US +0.5pp. **Not a rail move.** Watch: leisure/hospitality *adding* jobs is mildly counter to a tourism-collapse read → **MARCO reconcile next cycle** (not a conflict today). *Pillar-labor row below updated to reflect the streak reversal.*
+
+---
+
+## 7/17 — ATTOM H1-2026 FORECLOSURE (primary-verified) — READ FIRST
+
+**Route:** Will-directed, from today's RESEARCH-INTAKE lane run (housing query, press-tier). Pulled ATTOM primary; verified press against it. **Primary extract → `sources/ATTOM_H1_2026_foreclosure.md`. Per-metro convergence grid (multi-session open build, now BUILT) → `GRID_PER_METRO.md`.**
+
+**Press-claim verification (all 4 TRUE, 2 with nuance):**
+
+| Press claim (intake packet) | Verdict | Primary (ATTOM Mid-Year 2026) |
+|---|---|---|
+| FL = worst foreclosure RATE in nation | ✅ | #1, **0.27% (1 in 373 HU)**, 27,494 properties — **but only +0.01pp over SC** (0.26%/1 in 381); a Southeast cluster, not FL-unique |
+| Jacksonville among worst-hit metros | ✅ but understated | Jax **0.31%** — the MILDEST of 5 named FL metros; real epicenter = **Punta Gorda 0.50% (#1 US), Lakeland 0.48% (#2 US)** |
+| National 227K+ filings | ✅ | **227,548**, +21% YoY |
+| +21% YoY | ✅ | +21% (starts 164,566 +18%; REO 27,983 +33%) |
+
+**FL metros named (≥200K, by rate):** Punta Gorda 0.50% · Lakeland 0.48% · Cape Coral 0.35% · Jacksonville 0.31% · Ocala 0.31% → **FL holds 5 of top-10 US metros + the top TWO.** Jacksonville + Ocala are **NEW entrants** vs the May top-5 (Lakeland/Punta Gorda/Cape Coral/**Tampa/Orlando** — Tampa & Orlando rotated OUT).
+
+**Two load-bearing nuances (window + rank):**
+1. **Window discipline** — the "1 in 373" is **H1 CUMULATIVE**; the older dashboard "1 in 2,110" is **May MONTHLY**. Consistent (~0.047%/mo × 6 ≈ 1 in 356), **NOT a step-change.** Both figures now tagged with window; do not read the cumulative as acceleration over the monthly.
+2. **Relative deterioration IS real** — FL rate-RANK rose **#3 (Q1: IN 1/739, SC 1/743, FL 1/750) → #1 (H1)**. FL is worsening faster than the Q1 leaders — a genuine signal, though the SC margin is thin. (HOMER's Q1 rows are the #3 baseline; reconciled below.)
+
+**Grid verdict (🟠 HOLDS — no upgrade):** Core epicenter (SW/Central Gulf Coast: Punta Gorda, Cape Coral, Lakeland) **unchanged but HARDENED** — FL now owns the nation's #1 & #2 foreclosure metros + #1 negative-equity metro. Foreclosure channel **broadened geographically** (Jax/Ocala, NE/Central), but **multi-channel convergence did NOT** — the new entrants light 1–2 channels only (Jax = MF oversupply + decent fiscal/labor; Ocala = data gap). No new multi-channel metro → convergence read does not upgrade.
+
+**★ Bank-transmission upgrade rail — CONTEXT-ONLY (does NOT move, does NOT arm):** My pre-registered bar = ≥2 FL-exposed banks synchronized credit deterioration (criticized/classified→realized NCO + specific reserve build) **OR** USCB explicit condo-association loan deterioration WITH corroborating consumer/collateral data. A state-worst foreclosure print is **collateral/household-side, not bank-credit-side** — it's a THESIS "bridge/corroborating signal," which by construction does **not alone upgrade** the bank leg. Two reasons it doesn't even *arm* the rail: (a) it's not bank-credit data; (b) the specific bridge my thesis names — *"foreclosure + neg-equity clusters broaden from SW-FL into SE-FL condo collateral"* — is **NOT met**: the H1 epicenter is SW/Central Gulf Coast **single-family** (negative-equity/carrying-cost driven), NOT the Miami-Dade/Broward **condo-tower** collateral the recap mechanism runs through. The foreclosure epicenter and the condo-assessment epicenter are **different geographies.** Rail's live re-test remains **Q2 FL bank earnings (~7/21–28).** Verdict respects rule: do not upgrade on one collateral-side print.
+
+**Forward pairing — 7/21 joint pre-registration (FL State Employment June + this print; graded mechanically Tuesday):**
+> **Foreclosure alone** = household/collateral stress, driven by negative-equity + insurance/assessment carrying-cost (my mechanism), **employment-neutral.** **FL UR alone** (if June prints ≥4.9% = 8th straight rise) = LABOR's freeze thesis. **JOINTLY, if BOTH deteriorate AND the foreclosure signature broadens beyond the SW-FL vintage metros into broad-metro (esp. if Jacksonville/Ocala UR rise alongside their new foreclosure prints)** = an **employment-driven default signature** emerging → **cross-flag LABOR** (LAB-04 rule), accelerates the bank-NCO timeline off the slow ~2027 condo-recap track. **Conversely, if FL UR stalls/improves OR foreclosures stay SW-FL-vintage-concentrated** = cost-stack/negative-equity driver **confirmed as mine**, bank timeline stays slow. **Mechanical 7/21 checks:** (i) FL UR ≥4.9%? (ii) does the metro-UR deterioration overlap the new foreclosure metros (Jax/Ocala) or stay diffuse? Same-day triple print (OZK/WAL/ALLY) + China LPR are separate rails. **Prior (from LAB-04 handover, 7/9):** LABOR hands this off **already leaning NOT-employment-driven** — FL initial claims quiet (5,600, −520/wk; FL not top-10 by IUR; the "FL Wave 2" employment-stress wave never materialized). So the *divergence* branch (cost-stack/neg-equity = CORAL's, bank timeline slow) is the **current base case**; the joint-deterioration branch would require a genuine reversal in the FL labor data, which is what makes a 7/21 UR 8th-rise + Jax/Ocala overlap the *surprising* (and thus higher-information) outcome to watch for.
+
+**Reconciliations & routing:**
+- **HOMER (housing mechanics) — ONE FIGURE ✅ LOCKED (CORAL↔HOMER CONFIRMED 7/17):** canonical = **FL H1-2026 foreclosure rate 0.27% / 1 in 373 / #1 of 50 / 27,494 properties / ATTOM Mid-Year 2026.** **Both agents INDEPENDENTLY pulled the primary and converged on the IDENTICAL figure — zero divergence.** Split: CORAL-canonical for the FL state-rate headline; HOMER cites it + owns the pipeline decomposition (starts/REO/timeline/metros — his sharper trajectory read adopted above). Also closed the older 7/12 condo-inventory reconcile: statewide 8.9mo = CORAL-canonical; HOMER relabeled his "12.9mo" → Miami-Dade on all 3 surfaces.
+- **MARCO (migration/tourism) — IMPLICATED (note written):** the H1 foreclosure epicenter (SW-FL: Punta Gorda, Cape Coral) overlaps his migration-reversal + Canadian-snowbird-loss metros — demand-engine failure and foreclosure concentration hit the SAME metros (self-reinforcing). Note → `AGENTS/MARCO/inbox/`. (Jax/Ocala are NOT migration-central — the migration overlap is the SW-FL cells only.)
+- **REGINALD:** foreclosure step-change logged; collateral-side, no bank-rail move — steady-state via NEXUS_BRIEF, no acute outbox.
+- **LAB-04 registration:** the re-homed LABOR FL-foreclosure watch (Will-decided 7/9) is now tracked under CORAL as **CRL-FCL** (this ATTOM H1 print = first CRL-FCL data point). LABOR numbering can retire. The one preserved rule (employment-driven signature → cross-flag LABOR) is baked into the 7/21 pre-registration above.
