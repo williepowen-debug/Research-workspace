@@ -24,3 +24,11 @@
 **Will, verbatim:** *"Okay we need to run these sub-agents as lower model. Lets go with OPUS instead."*
 
 Context: Will asked what model the subagents ran; PROME answered honestly — wave 1 (SAM+MIDAS) inherited Fable 5 because the spawn omitted the override, a deviation from the 7/08 sonnet-default tiering that the new template had failed to carry (PROME miss, owned at the answer). Will ruled the orchestrated-desk standard = **`opus`** (above the 7/08 sonnet default, below Fable). Encoded as template line 8 in the playbook §Two-tier (single home). **Wave 1 rides to completion on Fable** (mid-drain when ruled; kill-and-respawn risks the falsely-cleared-inbox class; recorded as the pilot's calibration baseline). Wave 2 (REGINALD) + Monday spawns (LABOR, CREED) and all subsequent orchestrated-desk sessions spawn `opus`. Each touch's model logs in ORCH_LOG notes.
+
+---
+
+## ADDENDUM 2 — wave 3 + REG-T-02 registration (same session, ~11:5x ET)
+
+**Will, verbatim:** *"approve both decision"* — on the two blocks presented after REGINALD's wave-2 delivery:
+1. **Wave 3 APPROVED:** WAL + OZK write-back spawns (opus, bounded single touches) — both desks dark with Friday's lapsed puts un-written-back (WAL 77.5P Aug-21 ×1 · OZK 45P ×4 + 42.5P ×1; settlement ruled decision-free 8/21, desk ledgers silent — REGINALD-flagged phantom-position class, SSB $90P / KRE $70P precedents). Clean books before Monday's open.
+2. **GATE-REG-T02 REGISTERED** (fire-ledger row 27): transcription-only from `AGENTS/REGINALD/registry/NOTES.md` §REG-T-02 (owner state token verbatim; GATE-VIO-RV1 precedent; no threshold set or moved by PROME); INSTRUMENT class, PRICE-form consumer, review 8/28 PROVISIONAL. The closest live bank trigger is now under the fired-unexecuted boot guard.
