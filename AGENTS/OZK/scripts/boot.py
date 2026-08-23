@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-OZK Boot Kit — v0.1
+OZK Boot Kit — v0.2
 One-command boot brief: live prices + catalyst countdown + threshold / inbox / staleness flags.
 
 Usage:
@@ -34,8 +34,15 @@ CATALYSTS = [
     ("2026-07-31", True,  "🟠", "Campus at Horton post-foreclosure leasing update (late Jul)"),
     ("2026-08-31", True,  "🔴", "IQHQ RaDD loan MATURITY (Aug 2026 — exact date undisclosed)"),
     ("2026-10-01", False, "🔴", "$350M sub notes reprice (2.75% → SOFR+209; Tier 2 -20%)"),
+    ("2026-10-21", True,  "🔴", "Q3 2026 earnings + call — mgmt's self-set \"~92 day\" RaDD report-back"),
     ("2026-10-31", True,  "🟡", "Affinius Capital $2.7B bond maturity (OZK exposure UNVERIFIED)"),
+    ("2026-11-05", False, "🟠", "FFIEC JWT EXPIRES — renewal is a Will action (PWS login); blocks the Q3 pull"),
+    ("2026-11-07", True,  "🟠", "Q3 2026 Call Report (REPDTE 20260930) — LOG-ONLY, Z6 never re-grades"),
 ]
+# Sync note (2026-08-23): the two 2026-10/11 rows and the JWT row were absent here while present in
+# CALENDAR.md — this list is hand-synced, so it silently lags. The Jul-21 earnings + Jul-31 Horton
+# rows above are PAST and are kept deliberately: the countdown filters them, and deleting resolved
+# catalysts destroys the record of what this kit was watching.
 
 # Standing threshold lines — resolve at the next quarterly print (not live-computable here).
 STANDING_WATCH = [
@@ -50,16 +57,109 @@ BAND_RED1 = 45.0   # <$45 → REGINALD, PROME 🔴
 BIG_MOVE = 3.0     # |daily %| beyond this = flag
 
 
-def run_fetch(tickers):
-    """Call FORGE fetch.py price --json. Returns dict or None on failure."""
+def last_expected_session(today):
+    """Most recent weekday on/before `today` — the newest date a live quote could carry.
+
+    Weekday-only. Exchange holidays are NOT modeled, so on the session after a holiday
+    this reports one day stale rather than none. That direction is deliberate: the check
+    over-warns and never under-warns (`finding_measurement_bias_sign_is_fixed_harm_direction_is_not`).
+    """
+    d = today
+    while d.weekday() >= 5:
+        d = d.fromordinal(d.toordinal() - 1)
+    return d
+
+
+def run_fetch(tickers, today=None):
+    """Call FORGE fetch.py price --json.
+
+    Returns (data_or_None, diag) where diag is a dict the caller MUST render:
+      mode   : LIVE | STALE | EMPTY | BADJSON | RC | TIMEOUT | OSERR
+      asof   : served vintage (str) when the payload carries one
+      lag    : trading days between served vintage and the last expected session
+      rc     : the child's exit code
+      stderr : the child's stderr, VERBATIM and never suppressed
+
+    §8 CHECK_STANDARD contract (DAEDALUS 2026-08-17, ratified; adopted here 2026-08-23).
+    The pre-fix version JSON-parsed stdout and discarded stderr AND the exit code, so every
+    failure mode collapsed to one "price fetch failed" line, and — the sharper half — a
+    STALE-BUT-PARSEABLE payload rendered as live prices with no vintage. On THIS wrapper that
+    is not merely cosmetic: boot.py compares the served price against the <$45 / <$40 bands
+    that page REGINALD, PROME and FORGE, so a stale payload can fire a cross-agent escalation
+    off a months-old quote. Counterfactual runs of the pre-fix code are recorded in
+    `AGENTS/OZK/inbox/processed/2026-08-17_from-DAEDALUS_*` disposition (MEMORY Findings).
+    """
+    today = today or datetime.now().date()
+    diag = {"mode": None, "asof": None, "lag": None, "rc": None, "stderr": ""}
     try:
         out = subprocess.run(
             [sys.executable, str(FETCH), "price", *tickers, "--json"],
             capture_output=True, text=True, timeout=45,
         )
-        return json.loads(out.stdout) if out.stdout.strip() else None
-    except (subprocess.TimeoutExpired, json.JSONDecodeError, OSError):
-        return None
+    except subprocess.TimeoutExpired:
+        diag["mode"] = "TIMEOUT"
+        return None, diag
+    except OSError as e:
+        diag["mode"], diag["stderr"] = "OSERR", str(e)
+        return None, diag
+
+    diag["rc"] = out.returncode
+    diag["stderr"] = (out.stderr or "").strip()
+
+    # Branch on the exit code we used to throw away — BEFORE trusting stdout.
+    if out.returncode != 0:
+        diag["mode"] = "RC"
+        return None, diag
+    if not out.stdout.strip():
+        diag["mode"] = "EMPTY"
+        return None, diag
+    try:
+        data = json.loads(out.stdout)
+    except json.JSONDecodeError as e:
+        diag["mode"], diag["stderr"] = "BADJSON", (diag["stderr"] + f" | {e}").strip(" |")
+        return None, diag
+
+    # Served vintage — the half that made a stale payload indistinguishable from a live one.
+    asof = None
+    for t in tickers:
+        v = (data.get(t) or {}).get("asof")
+        if v:
+            asof = v
+            break
+    if asof:
+        diag["asof"] = asof
+        try:
+            served = datetime.strptime(asof, "%Y-%m-%d").date()
+            diag["lag"] = trading_days(served, last_expected_session(today))
+        except ValueError:
+            diag["lag"] = None
+    diag["mode"] = "LIVE" if diag["lag"] == 0 else ("STALE" if diag["lag"] else "LIVE")
+    if asof is None:
+        diag["mode"] = "STALE"          # no vintage served => cannot certify live
+    return data, diag
+
+
+def render_fetch_diag(diag):
+    """Print the source-mode banner + relay stderr unconditionally. Returns True if usable."""
+    m = diag["mode"]
+    if m == "LIVE":
+        print(f"  📡 SOURCE: LIVE {diag['asof']}  (fetch.py rc=0)")
+    elif m == "STALE":
+        vint = diag["asof"] or "vintage NOT SERVED"
+        lag = f", {diag['lag']} trading day(s) behind" if diag["lag"] else ""
+        print(f"  🟠 SOURCE: CACHED/STALE {vint}{lag}  (fetch.py rc={diag['rc']})")
+        print("     ⚠️  Prices below are NOT current. Do NOT read a band breach off them —")
+        print("         the <$45/<$40 bands page REGINALD/PROME/FORGE. Re-pull before citing.")
+    else:
+        why = {"EMPTY": "no stdout", "BADJSON": "stdout was not JSON",
+               "RC": f"fetch.py exited rc={diag['rc']}", "TIMEOUT": "timed out after 45s",
+               "OSERR": "could not start fetch.py"}.get(m, m)
+        print(f"  ⚠️  PRICE FETCH FAILED — {why}")
+        print("     run manually: .venv/bin/python3 FORGE/tools/market-data/fetch.py price OZK")
+    if diag["stderr"]:
+        for line in diag["stderr"].splitlines():
+            print(f"     [fetch.py stderr] {line}")
+    return m in ("LIVE", "STALE")
 
 
 def trading_days(start, end):
@@ -88,15 +188,16 @@ def main():
     today = datetime.now().date()
     now = datetime.now().strftime("%A, %B %d, %Y  %H:%M")
 
-    print(f"\n{'#'*72}\n#{'OZK BOOT SEQUENCE — v0.1':^70}#\n#{now:^70}#\n{'#'*72}")
+    print(f"\n{'#'*72}\n#{'OZK BOOT SEQUENCE — v0.2 (§8)':^70}#\n#{now:^70}#\n{'#'*72}")
 
     # ---- PRICES ----
     section("LIVE PRICES  (FORGE fetch.py)")
-    data = run_fetch(COHORT)
+    data, fetch_diag = run_fetch(COHORT, today=today)
     ozk_line = None
-    if not data:
-        print("  ⚠️  price fetch failed — run manually: "
-              ".venv/bin/python3 FORGE/tools/market-data/fetch.py price OZK")
+    usable = render_fetch_diag(fetch_diag)
+    stale = fetch_diag["mode"] == "STALE"
+    if not (data and usable):
+        pass
     else:
         ozk = data.get("OZK")
         if ozk:
@@ -105,7 +206,10 @@ def main():
             if p < BAND_RED2:   flags.append("🔴🔴 <$40 BAND (→REGINALD/PROME/FORGE)")
             elif p < BAND_RED1: flags.append("🔴 <$45 BAND (→REGINALD/PROME)")
             if abs(chg) >= BIG_MOVE: flags.append(f"⚠️ big move {chg:+.1f}%")
-            ozk_line = f"  OZK  ${p:>8.2f}  ({chg:+.2f}%)   {'  '.join(flags) if flags else '🟢 no band breach'}"
+            if stale and flags:
+                flags = [f"⛔ SUPPRESSED (stale data): {f}" for f in flags]
+            vtag = f"  [{fetch_diag['asof'] or 'no vintage'}]"
+            ozk_line = f"  OZK  ${p:>8.2f}  ({chg:+.2f}%){vtag}   {'  '.join(flags) if flags else '🟢 no band breach'}"
             print(ozk_line)
         if verbose:
             print("  " + "-" * 50)
