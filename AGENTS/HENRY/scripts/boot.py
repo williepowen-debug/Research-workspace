@@ -380,6 +380,67 @@ def triage_names(names, today, live_ids):
     return flagged, quiet
 
 
+def walter_lane_backlog(today=None):
+    """Boot step 3a's own test, mechanised: which inbox/WALTER/ signals are NOT yet
+    logged in board_log.tsv?
+
+    ADDED 2026-08-23 after a measured 23-day regression that this file caused.
+    `inbox_triage()` below globs `inbox/*.md` NON-RECURSIVELY, so the WALTER
+    delivery lane has never been enumerated by any instrument. Timeline:
+
+        2026-07-28  boot (f) top-level inbox triage lands (commit 911fa0c6f)
+        2026-07-31  WALTER lane consumed for the last time
+        2026-08-23  53 unconsumed, oldest 16d; top-level lane meanwhile drained same day
+
+    Consumption by month: Jun 37, Jul 102, Aug 6 (+53 unconsumed). The lane was
+    worked diligently for six weeks and stopped three days after its SIBLING lane
+    got a mechanical enumerator. The gated instrument captured the attention the
+    un-gated one used to get -- `finding_registered_gate_captures_attention`,
+    and `finding_mechanize_the_cap_not_the_ritual`: a deferrable step wants a boot
+    check, not a remembered ritual. Step 3a was prose the whole time.
+
+    TWO WITNESSES, and both must fail for a silent clear: the file must still sit in
+    inbox/WALTER/ (processed/ is a subdirectory and is not globbed) AND its id must be
+    absent from board_log.tsv. Falsified 2026-08-23 on the live tree: 0 of 53 unprocessed
+    files wrongly cleared; 114 of 145 processed files recognised as logged, the other 31
+    carrying an older signal_id format, so the test errs toward RE-LISTING consumed work
+    rather than silently clearing unconsumed work. Wrong direction is more reading.
+
+    Filenames and counts only. This is NOT processing.
+    """
+    today = today or date.today()
+    lane = HENRY_DIR / "inbox" / "WALTER"
+    print(f"\n{'─'*64}\n  (f2) WALTER LANE  ·  boot step 3a — unlogged signals, filenames only\n{'─'*64}")
+    if not lane.exists():
+        print("  ✓ no WALTER lane.")
+        return []
+    files = sorted(lane.glob("*.md"))
+    if not files:
+        print("  ✓ WALTER lane clear.")
+        return []
+    logged = ""
+    bl = HENRY_DIR / "board_log.tsv"
+    if bl.exists():
+        logged = bl.read_text()
+    unlogged = [f for f in files if f.stem.split("-")[0:4] and f.stem[:20] not in logged]
+    def _age(f):
+        try:
+            d = f.name.split("-")[2][:8]          # SIG-W-YYYYMMDD-nnn-...
+            return (today - date(int(d[:4]), int(d[4:6]), int(d[6:8]))).days
+        except Exception:
+            return None
+    ages = [a for a in (_age(f) for f in unlogged) if a is not None]
+    oldest = max(ages) if ages else 0
+    mark = "🔴" if len(unlogged) >= 10 or oldest >= 10 else "🟠" if unlogged else "✓"
+    print(f"  {mark} {len(unlogged)} unlogged signal(s) in the WALTER lane; oldest {oldest}d.")
+    print("     Step 3a: read → append a board_log row (source=INBOX_WALTER) → git mv to processed/.")
+    for f in sorted(unlogged, key=lambda x: (_age(x) or 0), reverse=True)[:8]:
+        print(f"       {_age(f):>3}d  {f.name[:96]}")
+    if len(unlogged) > 8:
+        print(f"       … and {len(unlogged)-8} more (filenames only; `ls inbox/WALTER/`)")
+    return [f.name for f in unlogged]
+
+
 def inbox_triage(today=None, names=None):
     today = today or date.today()
     print(f"\n{'─'*64}\n  (f) INBOX TRIAGE  ·  filenames only — this is NOT processing\n{'─'*64}")
@@ -501,6 +562,7 @@ def main():
     predictions_due()
     ledger_staleness()
     inbox_triage()
+    walter_lane_backlog()
     if not quick:
         stale_consumers()
     print(f"\n{'='*64}\n  boot brief done in {time.time()-t0:.1f}s   "
