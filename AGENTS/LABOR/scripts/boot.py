@@ -8,8 +8,9 @@ boot.py). Replaces manual data-refresh + calendar-walk with one command.
 
 Sequence:
   1. labor_data.py        — live FRED sweep (claims, NFP, U-3/6, JOLTS, temp) + threshold flags
-  2. catalyst_countdown.py — docket/CATALYSTS.tsv countdown (imminent ≤5 trd)
-  3. predictions_due.py   — flag OPEN predictions past/near due-by
+  2. spine_check.py       — B2a gate: STATUS `obs` dates vs newest FRED obs (BD-02)
+  3. catalyst_countdown.py — docket/CATALYSTS.tsv countdown (imminent ≤5 trd) + PAST-DUE rows
+  4. predictions_due.py   — flag OPEN predictions past/near due-by
 
 Smart behavior:
   - Each script's exit code captured; failures reported but don't stop the run
@@ -36,6 +37,11 @@ PYTHON = str(VENV_PYTHON) if VENV_PYTHON.exists() else sys.executable  # fall ba
 # label, script, args
 BOOT_SEQUENCE = [
     ("Domain Data Sweep",  "labor_data.py",         []),
+    # B2a immediately after B2, mirroring the documented boot order: the sweep prints
+    # what FRED holds, then the gate says whether STATUS knows about it. BD-02, built
+    # 2026-08-23 after THREE misses (7/16, 7/31, 8/20) — the 8/20 gap was found by
+    # DAEDALUS's external sweep 3 days before LABOR's own boot found it.
+    ("Spine Freshness Gate (B2a)", "spine_check.py", []),
     ("Catalyst Countdown", "catalyst_countdown.py", []),
     ("Predictions Due",    "predictions_due.py",    []),
 ]
@@ -45,6 +51,12 @@ KEY_MARKERS = (
     "🔴", "🟠", "⚠️", "RED", "OVERDUE", "DUE SOON",
     "IMMINENT", "HIGH PRIORITY", "threshold flag",
     "No RED", "No OPEN", "Report refreshed",
+    # SPINE: all THREE states (STALE / FRESH / CANNOT-VERIFY) must survive the
+    # collapsed view. A check whose PASS line is filtered out teaches the reader
+    # that silence means clean — and silence is also what a filtered-out failure
+    # looks like. Found the hard way in catalyst_countdown.py on 2026-08-23, which
+    # printed past-due rows only when there were no upcoming ones (i.e. never).
+    "SPINE",
 )
 
 

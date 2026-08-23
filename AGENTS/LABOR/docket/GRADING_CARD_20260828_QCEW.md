@@ -126,3 +126,45 @@ Conversely **a LAB-08 hit does not validate my sizing** — it would mean the me
 ---
 
 *Frozen by LABOR 2026-08-07, 21 days before the print. Consume at B5b. Grade off this card, not off the tape.*
+
+---
+
+# ADDENDUM — 2026-08-23 ~18:5x ET, **5 days before the print**
+
+> ⛔ **THIS ADDENDUM CHANGES NO BAND, NO ASSIGNMENT, AND NO CONFIDENCE.** §4's bands A–E, §3's 35%, §7's routing and §8's discipline are **exactly as frozen on 2026-08-07**. Written **before** the print, Will-approved, as a record of what moved in the card's *information model* — not in its content. **If this addendum has moved a number, it is a defect and the frozen text wins.**
+
+## A. Verified: the card's denominator is intact
+
+§0 and §4 convert the printed preliminary `P` to a percent of the **published March-2026 CES level, 158,650K.** **Re-pulled 2026-08-23: PAYEMS March-2026 = 158,650K — unrevised.** [CONF FRED/BLS PAYEMS, obs 2026-03-01, pulled 2026-08-23]. **Every percentage in the §4 band table therefore still holds as written.** *(Checked because a revised denominator would silently shift all five band boundaries while the card still read correct — the card's own arithmetic is the thing most likely to rot between freeze and grade.)*
+
+## B. The two external inputs this card was written expecting have BOTH now failed to arrive
+
+The card was frozen on 8/07. Two things have happened since, and **neither touches a band** — but together they change what the 35% is standing on.
+
+1. **The 8/19 FOMC minutes: branch D-2 ABSENT.** Graded 8/20. `data quality` / `response rate` / `benchmark` = **0 occurrences each.** The branch-(c) watch closed with **no Fed corroboration of the data-degradation premise.**
+2. 🔧 **Jackson Hole is NOT a pre-print input — my ledger was wrong by 7 days.** The card was written while `CATALYSTS.tsv` carried JH as **Fri Aug 21**, i.e. a week *before* this print. **Corrected 2026-08-23: the symposium is Aug 27–29 and Warsh's keynote is Fri Aug 28 10:00 ET — the SAME MORNING as this release.** It therefore **cannot inform this card at all**; it arrives simultaneously. *(Date is PROME-verified-at-primary + MNI wire 8/20 + weekday check; recorded as relayed, **not** `[CONF]` — kansascityfed.org returns HTTP 403 to this fleet.)* And per the same-day finding, the keynote theme is reported as *"Financial Innovation: Implications for Payments and Policy"* `[2ND]` — **neither branch of the watch** — so it would most likely close **uninformative, not negative**.
+
+⇒ **The consequence, stated plainly: LAB-08 walks into this print with ZERO external input having arrived — not from the minutes, not from Jackson Hole.** The 35% stands **entirely** on §2's prelim→final ratio band, §2b's BLS dispersion, and §3's decomposition. **That is not a weakening of the reprice — it is the reprice being exactly what it declared itself to be: unforced arithmetic, not a response to news.** §3's "unforced" claim is *strengthened* by this, not undermined.
+
+## C. 🔴 NEW GUARD, bought by the collision — pre-committed now, before the print
+
+The 8/07 card could not have written this, because on 8/07 the two events were believed to be a week apart.
+
+**Warsh speaks at 10:00 ET. This release publishes at 10:00 ET. They are simultaneous.**
+
+⛔ **I will NOT let same-morning Jackson Hole language move the band assignment, vector 8, or LAB-08's confidence.** Specifically, and in both directions:
+
+- **If Warsh names payroll reliability, QCEW, the benchmark or CPS response rates:** that is the branch-(c) tell firing **late**, it is **testimony, not measurement**, and it is **not** an input to which band this print lands in. Log it as its own item; **do not fold it into the QCEW grade.**
+- **If Warsh says nothing about labour data** (the likely case given the reported theme): that is **UNINFORMATIVE, not negative** — silence under an off-topic program is not evidence about the Fed's data priorities, and it must **not** be read as refuting vector 8.
+- **The band is a function of the printed figure `P` and nothing else** (§0: *"No other computation is required and none may be substituted at grade time."*).
+
+**Why this guard is needed:** two events landing in the same minute is the exact condition under which a same-day narrative gets built across both. §6 already forbids attributing the revision to a *cause*; this extends it to forbid attributing it to a *speech*. **It also fails safe: if I catch myself citing Warsh anywhere in the QCEW grade, that is the defect this addendum exists to prevent.**
+
+## D. Unchanged and re-affirmed
+
+- **§1 stands and is still the single most likely error on the day:** Aug 28 prints the **PRELIMINARY**; **LAB-08 resolves on the FINAL, Feb 2027.** No resolution row is written on 8/28 under any band.
+- **§4 Band C remains the trap band** — a "half a million jobs revised away" headline that still leaves LAB-08 probably failing.
+- **LAB-08 scores AS-MADE at 65%.** The 35% is a labelled diagnostic and is not folded into the mean.
+- **Bands D/E still force the vector-8 cut** I pre-committed on 8/07.
+
+*Addendum written 2026-08-23 by LABOR, 5 days before the print, Will-approved. **The frozen card above is unamended.** Grade off §4, not off this addendum and not off the tape.*
