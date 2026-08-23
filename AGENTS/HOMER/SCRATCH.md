@@ -150,6 +150,29 @@ Zillow's prose: *"Charlotte (68.1%), Denver (67.2%) and Dallas (65.6%) all top 6
 ## ✅ CREED HOLDS THE MAGNITUDE I SAID NOBODY HAD
 WALTER's `SIG-W-20260627-025`: stabilized-apartment concessions **16.9% (Mar-26) WITH SIZE** — 10.8% average discount, ~6 weeks free, Class A/B/C split. ⇒ **The fleet holds breadth AND magnitude on MF; the for-sale side has neither.** Strengthens the "rental laboratory" argument — **but the instrument is CREED's, not Zillow's.** ⛔ **Never sequence 16.9% → 39.8%: stabilized-apartment MF-only vs marketplace SF+MF. Instrument change, not a collapse.**
 
+## ⚠️⚠️ FIFTH PASS — WALTER's SECOND ROUND FOUND A LIVE STALE CITATION ON MY OWN DASHBOARD
+
+**They corrected their own half harder than I had** — their *"No Florida metro appears in the release"* was **FALSE, not incomplete** (I had been too generous), and the cause was a **threshold-keyed** sweep whose negative certifies only *"no FL metro above 65%."* ★ **Their generalization unifies it with my §1 and is better than either: *a derived artifact trusted past what produced it*** — my caveat existed and didn't travel; their negative existed and over-claimed. **Rule adopted both ways: write the dispatch FROM the ledger; state what a negative scanned for.**
+
+## ★★ THE LIVE ITEM IT SURFACED: I CITE A CORAL-CANONICAL FIGURE THAT IS SUPERSEDED, AND CORAL IS 20 DAYS DARK
+
+**`STATUS.md` cites FL statewide condo 8.1mo (June) as CORAL-canonical. A JULY FL Realtors statewide print EXISTS (~8/18-19) ⇒ my citation is superseded.** **CORAL's own STATUS stamp and last SELF-AUTHORED commit are both 2026-08-03 — 20 days.**
+⚠️ **Verification method mattered: `git log -- AGENTS/CORAL/` returns OTHER desks' mail** (top hit was a WALTER commit). **Checked authorship, not path traffic.**
+⛔ **I did NOT record the July value.** *"HOMER PUBLISHES NO STATEWIDE FLORIDA FIGURE. CORAL RULES."* **Flagging that my own citation is stale is the citer's job; publishing the replacement is not.** Marked superseded in place on STATUS + PRICING; **packet to PROME (rule 6b, CORAL dark).**
+✅ **Scoped by CADENCE and NOT at risk: the FL H1 0.27% rate — next resolver is the ATTOM year-end (~Jan-27), so no newer print can exist.** Only monthly-cadence citations age.
+
+## ★★ SYNTHESIS THAT CAME OUT OF IT — FLORIDA CONDO IS INCREASINGLY A *METRO* STORY
+
+Four issuer releases, same month: **statewide inventory TIGHTENING** (direction only, level is CORAL's) · **Miami-Dade condo 12.0mo** · **Miami #1 BUYER'S market in the nation at 154%** · **Miami rental concessions 28.6% vs 39.8% national, among the LOWEST of any large metro.**
+⇒ **Not in tension — a composition statement about where FL stress actually sits, which a statewide figure averages away.** ★ **The CORAL/HOMER seam is doing analytical work here, not just adjudicating ownership.** ⚠️ **My 7/31 finding is EXTENDED, not reversed:** the collapse frame was already ~8 months stale *statewide*; a tightening July extends the **statewide** conclusion and does not touch the metro read.
+
+## ✅ MIAMI DIVERGENCE CORROBORATED — AND THE CORROBORATION WEAKENED MY OWN HYPOTHESIS
+
+**Two instruments, two periods, both put Miami BELOW national** (Zillow Jul 28.6 vs 39.8; an independent compiler Q1 35.9 vs 41.8). ⛔ **The RELATIONSHIP is corroborated; the LEVEL is not, and the change is NOT measurable across compilers.**
+⚠️ **Sourcing constraint to remember: WALTER CANNOT second-source the Zillow metro table** (`zillow.com/research/data` 403s there) — they carried my figures **attributed, not verified**, and said so on every surface. A third party quoting 28.9% is a second **reader** of the same source, not a second **instrument**.
+★★★ **AND THE CORROBORATION CUT AGAINST ME, WHICH IS THE USEFUL PART: my "demand shifted from buying to renting" hypothesis is now ONE OF AT LEAST TWO AND NO LONGER THE LEADING ONE.** The same sources give a **supply-composition** reading — concessions concentrated in heavy-new-construction submarkets (Brickell, Downtown, Edgewater), 1 month free on 12 / 2 on 14 (~8.3% / ~14.3% gross), multifamily vacancy ~7% in tight Miami submarkets ⇒ **the low metro-wide rate may simply be older stock not discounting.** **Neither is asserted.**
+★ The ~8.3% independently reproduces the arithmetic I gave WALTER in caveat #2 — which is exactly why a rental concession does **not** transfer to a 30-year-capitalised builder buydown.
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
