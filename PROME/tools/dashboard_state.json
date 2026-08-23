@@ -1,5 +1,5 @@
 {
- "built": "2026-08-23 08:20",
+ "built": "2026-08-23 12:01",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -75,7 +75,7 @@
   "NEXUS": "watch",
   "ORACLE": "watch",
   "OSPREY": "ok",
-  "OZK": "crit",
+  "OZK": "ok",
   "PROME": "ok",
   "RED": "ok",
   "REGINALD": "ok",
@@ -106,6 +106,7 @@
   "GATE-NEXUS-SEAT-01": "live:LIVE",
   "GATE-OP-SCALE-01": "live:LIVE",
   "GATE-OSPREY-001": "live:LIVE",
+  "GATE-REG-T02": "live:LIVE",
   "GATE-RESHAPE-BC": "resolved:RESOLVED-FIRED",
   "GATE-SAM-30": "resolved:RESOLVED",
   "GATE-TERRY-006": "resolved:RETIRED",
@@ -132,7 +133,8 @@
  },
  "one": "the long end is breaking in four sovereigns at once and disinflation buys no relief \u2014 but the week ended with every one of the board's near triggers still un-fired, and two of them verified un-fired at the close rather than assumed. WAL closed $79.67, $1.67 above the one-close bank trigger; DGS10 printed 4.69 official, leaving TERRY's duration exit at 0-of-5. Credit crept 2bp closer to its re-arm without confirming anything. Meanwhile the week's real event landed on a Saturday at 12:01 a.m., unobserved: the Section 338 Canada tariff went live by default, because a deal and an extension each needed a signature and going live needed nothing. Canada suspends talks and retaliates Tue 9/8. The book did not move: $0, zero thresholds touched by PROME.",
  "pending": [
-  "root CLAUDE"
+  "F2 re-derivation touches [NEW \u2014 two self-retractions on HEARTBEAT verified-for-existence-only; spend, so Will's word]",
+  "P-OZK-2 replacement pillar [NEW \u2014 OZK's 37"
  ],
  "split": "Break 21 / Grind 44 / Unresolved 35",
  "v": 1
