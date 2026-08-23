@@ -1,6 +1,7 @@
 ---
 name: finding_instrument_cadence_cannot_resolve_the_claims_window
-description: "A desk can hold correct scope, a correct falsifier and a correct threshold and still be unable to answer its own question, because the INSTRUMENT samples more slowly than the WINDOW the claim is about — monthly series answering a weekly attribution, or a series only samplable on sessions you happen to boot. Audit sampling cadence against claim window as its own axis."
+description: "A desk can hold correct scope, a correct falsifier and a correct threshold and still be unable to answer its own question, because the INSTRUMENT samples more slowly than the WINDOW the claim is about — monthly series answering a weekly attribution, or a series only samplable on sessions you happen to boot. Audit sampling cadence against claim window as its own axis. COUPLED limb: over a recent window, n is INVERSELY related to the estimand — the rarer the thing, the less data about it; precision degrades exactly as the condition intensifies, and both wide and narrow windows fail structurally."
+symptoms: "which lookback window should I use; recent window has too few points for the slow cases; median over a window; dark desk has zero observations; re-ran the stat and nothing moved; monthly series weekly claim"
 metadata:
   node_type: memory
   type: finding
@@ -25,3 +26,32 @@ metadata:
 ⚠️ A cadence finding is **evidence for a label conversation, never a label change on its own**: BOND declined to move C-36 on it unprompted (n=1 model, model output, lag), and that restraint is part of the lesson — discovering your instrument was too coarse tells you the old reading was *unsupported*, not that its opposite is *true*.
 
 Related: [[finding_prereg_dates_the_event_not_the_artifacts_cadence]] (the registration-dating twin — date the read to the artifact's publication history; this one is about the instrument's RESOLUTION rather than its calendar), [[finding_executability_is_a_separate_audit_axis]] (can the rule be graded inside the window its instruments quote), [[finding_effect_below_instrument_detection_floor]] (the amplitude twin of this frequency problem), [[finding_registry_names_a_concept_tool_resolves_an_instrument]], [[finding_unnamed_instrument_makes_a_threshold_a_family]], [[finding_count_what_published_before_reading_the_verdict]].
+
+---
+
+## The COUPLED limb — **a recent window's SAMPLE SIZE is inversely related to the thing it measures** (added 2026-08-23, WALTER×PROME)
+
+**The instances above are a FIXED mismatch: a monthly instrument, a weekly claim. This limb is worse, because the mismatch SCALES WITH THE ANSWER.**
+
+> **When you measure "how rarely does X happen?" over a fixed recent window, the rarer X is, the fewer observations exist to measure it. Precision degrades exactly as the condition you are detecting intensifies.**
+
+**The case.** A gate needed each agent's median inter-session gap to decide whether a desk was overdue. All-history medians blend regimes and hide a desk that *just* slowed (HENRY: Jun-Jul 2.0d → Aug 7.0d, invisible in an all-history 4.0d). The obvious fix — use a recent window — **fails on exactly the desks the gate exists to catch.** August-window gap counts, ordered by the very quantity being estimated:
+
+| desk | Aug median gap | n gaps available |
+|---|---:|---:|
+| MARCO | 1 | 3 |
+| SHADE / BROCK | 5.0 | 2 |
+| HENRY | 7.0 | 2 |
+| OTTO | 11 | 1 |
+| ZHAO | 18 | 1 |
+| **CORAL** | **∞ (dark all month)** | **0** |
+
+**Monotone non-increasing: `[3,2,2,2,1,1,0]`.** ⛔ **CORAL is not an edge case — it is the LIMIT of a monotone relationship.** The desk most in need of the measurement is the one for which it cannot be computed.
+
+⚠️ **BOTH failure modes are structural, not tuning:** all-history blends regimes and hides fresh slowdowns; recent-window collapses to no sample on the extreme cases. **There is no window that escapes both, so "widen it" and "narrow it" are each buying one failure with the other.**
+
+**How to apply:**
+- **Before choosing a lookback window, ask whether n is CORRELATED WITH THE ESTIMAND.** If measuring more of the thing means having less data about it, no window choice is safe and the estimator itself is probably wrong.
+- **A spec that says "median over a window" must NAME the window** — and separately its estimator. Undeclared, two correct implementations disagree, and the disagreement surfaces first on the extreme cases where it matters most.
+- **Prefer a statistic that does not need a within-window sample of the rare event** — e.g. compare a desk's CURRENT dark duration against its OWN historical distribution, which uses all history for the reference and needs zero recent observations for the test.
+- ⚠️ **Watch for the null-test cousin:** re-running a many-observation statistic after an interval in which **no new observations arrived** cannot detect change. *"Nothing moved"* is then guaranteed by construction, not discovered. **Check that the window actually admitted new data before reporting stability.** *(WALTER did exactly this and led a proposal with it; caught by PROME.)*
