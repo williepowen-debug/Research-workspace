@@ -1,3 +1,23 @@
+### 2026-08-23 ~13:0x-18:3x ET — Sun 8/23 SECOND SESSION (light-closeout — full deferred)
+
+**BOARD 791 → 792. 1 dispatch / 0 kills / 0 verify-spawns / 0 batches.** Re-opened ~40 min after the midday Tier-2 close on Will's *"Hi WALTER please boot up."* Boot clean: 0 HIGH, 2 MED, 29 triggers counted by header, **zero fires**, all levels 8/21 closes.
+
+**Step-3 evaluation paid at once:** the carried FOLLOW-UP said *"next boot is MONDAY 8/24"* — it was still Sunday. Checked rather than repeated: `DOORBELL_LOG` genuinely empty, doctor MISS/DECLINED counters genuinely unbuilt.
+
+**`SIG-W-20260823-001`** — HOMER routed a rent-market lead cross-session. Verified at the Zillow issuer, **and pulling the PRIOR month inverted its sharpest leg**: level fell $1,965→$1,962 MoM, concession share flat +0.1pp, **YoY spread NARROWED +4.5pp→+3.9pp**. *"Fastest pace in over a year"* is a rate acceleration on a declining level — a base effect. Carried a denominator guard (the 16.9% on BOARD is stabilized-apartment MF-only; 16.9%→39.8% is an instrument change) and HOMER's counter-signal at full weight (MF +1.5%→+1.7%).
+
+**Then HOMER pushed back and found a defect in my half.** §4 said *"No Florida metro appears in the release."* **False** — FL is in it at 50-55%. **Cause: my step-10.7 axis sweep was THRESHOLD-keyed, not DOMAIN-keyed.** §3.6 correction applied, CORAL added on `action:`, FL figures carried ATTRIBUTED (the issuer metro table 403s to this box). **It reproduced `SIG-W-20260819-023`, which the signal cited BY NAME as evidence the sweep had run.**
+
+**DOORBELL GATE — FIRST FIRE, and a full round trip.** CORAL, 20d dark, 12 unconsumed. Pointer to PROME → **Will spawned CORAL → inbox drained to 0.** Logged `SPAWNED`, drained 12. **Two `NO` rows also logged (CREED `L3-FAIL`, CARL `EXEMPT`) so the miss denominator stays auditable.**
+
+**Four rounds of correction with PROME**, all of it recorded rather than smoothed: PROME raised a false escalation (leg 3b "unruled" — it is ruled, `CROSS_SESSION_MESSAGING.md:41`, verified at the artifact); I had graded the fire on a **statistic not in the rule** (max gap, not median) and taken my leg-2 input off a **directory listing** rather than the `action:` line. Will then **ruled the definition of "session"** and I encoded it — **under rule 3(b), verified at `9f13cba9a` myself, explicitly NOT on PROME's relay and explicitly NOT on the "standing permission" PROME attributed to me and I refused.**
+
+**Measured on assignment:** 3b fires **0-of-6** under the ruled definition, and **does not reach HENRY or BROCK — the two desks its own text names — under EITHER reading.** Bar left standing pending Will.
+
+**Memory:** `[[finding_reconcile_mismatch_does_not_say_which_side_is_wrong]]` extended with the cross-agent limb — exchange the RAW INPUT LIST, not the statistic.
+
+**Open with Will (5):** BOND's refutation of `SIG-W-20260822-002` §2 · the untriaged yen/carry lane ALERT → SAM · push held · the bar re-derivation · the 8/22-vs-today re-score (should run first).
+
 ### 2026-08-23 (Sun) MIDDAY — **THE DAY THE ROLE CHANGED: a design session with zero dispatches, and two defects found in my own instruments**
 
 **Tier-2 FULL. Boot 13:2xZ on Will *"please boot up. Today is Sunday 8/23"*. BOARD 791 → 791.** Peers at close: PROME (busy) · DAEDALUS (idle); SAM · MIDAS · REGINALD all IN-FLIGHT as PROME subagents.

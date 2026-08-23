@@ -66,12 +66,19 @@
 **🔵 SURFACED (not WALTER-fixable):** HANS/`EUROPE_MACRO` successor — ✅ **now a Will-ruled DAEDALUS nomination review riding the 8/28 sweep** (nomination-only, recommendation returns to Will) · Hormuz transit not knowable post-impeachment · Red Sea has no registered gate · ZHAO / CORAL / VULCAN dark.
 
 ## FOLLOW-UP
-1. 🔴 **Next boot is MONDAY 8/24 — the first live session under the new gate, and a dense day.** `WAL` 2.1% from a re-armed sustain-1 · **LABOR** spawning (Will-approved, full owner session) · **CREED** FDIC QBP window. **Run boot step 9b (three-state readiness scan) before reporting anything.**
-2. **The 32 untestable items close on their own now** — PROME's spawn-template line 8 installs the §8.1 boot-step on any touched desk lacking a `board_log`. **ZHAO (18 items / 4 ACTION / oldest 30d) and OTTO (7 / 3 / 29d) are the priority pair; re-measure the corroborated-vs-untestable split after their next touches** rather than re-quoting today's 92/32.
-3. **The gate must FIRE and be LOGGED.** `registry/DOORBELL_LOG.tsv` is empty. **HENRY and BROCK are the first two leg 3b reaches** — and a row is owed for every dark-recipient `action:` dispatch, **doorbelled or not**, or the miss counter has no denominator.
-4. **Build the two `walter_doctor` counters** (MISS + DECLINED) — specced in §3.5.7, **not yet built**. Amendment ③ asks for them and the soak is 8/28.
-5. ⚠️ **8/28 soak: pre- and post-amendment doorbells are TWO POPULATIONS under two price regimes. Do not pool them** — PROME has registered this on its owes list.
-6. **`CREED-T-01a`** — confirm the August Trepp publication date **before** treating it as a calendar item.
-7. **ZHAO's CXMT-in-bits (3rd ask).**
-8. **`MEMORY.md` cap** — 111 vs 100; hunt entries whose fix shipped.
-9. **`design/NEWS_SWEEP_TARGETS.md`** carries its own refresh trigger — re-cut on any fire, exit or resolution.
+1. 🔴 **FIVE ITEMS SIT WITH WILL — none started unasked.** ① **BOND's refutation of `SIG-W-20260822-002` §2** — BOND is right, verified against my own text; *"highest since 2007"* is TRUE, what's false is *"at the 2007 high"*. A §3.6 correction is owed on a CONFIRMED 0.90 signal on eight desks with TERRY on `action:`. **Held only to avoid front-running BOND's own delivery.** ② **the lane's untriaged yen/carry `NEW_ALERT`** → SAM (CNBC 8/21); may NOT be a clean kill — `SIG-W-20260819-024` has carry rotating OUT of yen, this says the intervention expanded it. ③ **push held for closeout** — 5 handoffs `pending_push`. ④ **the ≥7d bar re-derivation.** ⑤ **the 8/22-vs-today re-score — RUN THIS BEFORE ④**: it is cheap and it is the only thing separating *stale bar* from *wrong bar*.
+2. ⚠️ **NO 8/23 KILL_LOG ROWS EXIST** despite the midday session reporting both lane breaches as Novelty kills, **and the lane was never `--mark`ed.** Either the kills were never written or the characterisation was wrong. **Do not `--mark` until item ①.② above is dispositioned.**
+3. 🔴 **THE GATE FIRES FOR NOBODY (0-of-6) under the ruled definition** — and does not reach HENRY or BROCK, the two desks its own text names, under EITHER reading. Bar stands as written pending Will. → `research/2026-08-23_leg3b-measured-does-not-reach-its-own-named-beneficiaries.md`
+4. **`DOORBELL_LOG` has 3 rows: 1 SPAWNED (CORAL, drained 12), 1 `L3-FAIL` (CREED), 1 `EXEMPT` (CARL).** ⚠️ **8/28 soak: v1 and v2 doorbells are two populations — do not pool.** And the CORAL fire **would not have fired under the ruled definition**; the call was right, the arithmetic was not.
+5. ⚠️ **My L2 counts the WALTER lane ONLY.** PROME verified CORAL's true backlog at **12 across all senders** vs the 4 I reported — **a 3× under-statement.** The gate measures my lane while triggering a remedy that drains every sender's. **Label the count as a WALTER-lane count or encode the full one.**
+6. **Step 10.7 needs re-wording: an axis sweep must be DOMAIN-keyed, not THRESHOLD-keyed**, and its negative must state what it scanned FOR. Cost this session: CORAL missed on the exact failure `SIG-W-20260819-023` was written to stop.
+7. **Threshold lists come from the TABLE, never the prose** (HOMER). Zillow's prose named 3 metros >65%; the table has 6, and the omission is INTERIOR (SLC 66.5 ranks above the named Dallas 65.6), so the truncation sanity-check passes and the set is still wrong.
+8. **`CREED-T-01a`** — confirm the August Trepp publication date before treating it as a calendar item.
+9. **ZHAO's CXMT-in-bits (3rd ask).** · **`MEMORY.md` cap** 109 vs 100. · **`SIG-W-20260819-024`'s named follow-up still has no instrument** (lane CFTC feed is VIX-only, stuck at `report_date 2026-08-11`).
+10. **Doctor MISS/DECLINED counters still unbuilt** (§3.5.7); soak is 8/28.
+
+## OPEN DESIGN DECISIONS
+1. 🔴 **Is the ≥7d bar WRONG or STALE?** Unresolved and load-bearing. Cadences move; HENRY at median 4.0d may simply have got busier since the 8/22 scoring. **The re-score answers it; nobody should assume either.**
+2. ⚠️ **The commit-days proxy UNDERCOUNTS same-day multi-sessions** (PROME ran 4 sessions on 8/23, scored as 1), so true medians are SHORTER and leg 1 is FURTHER out of reach. **Any bar derived off the raw proxy is biased high in the direction that keeps the gate unfireable.**
+3. **Leg 2 (`oldest > median`) gets HARDER as a desk goes darker** — confirmed, n=1, OTTO. The bar rises with the darkness it detects; the gate resolves itself by decay.
+4. **I hold NO standing permission for `MESSAGING/CROSS_SESSION_MESSAGING.md`.** PROME attributed one to me and I refused it; PROME has withdrawn the claim. **Every edit needs Will's word in-session or a verified committed artifact (rule 3(b)).** Do not let this session's encode be cited as precedent.
