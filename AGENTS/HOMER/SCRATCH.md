@@ -339,6 +339,25 @@ Their extension: *"the composition shift isn't noise against my thesis, it IS my
 
 **STILL OPEN from the lead list:** Lead 2 (builder-CAPTIVE lenders — DHI Mortgage / Pulte Mortgage / KBHS / Lennar Mortgage, **ZERO coverage in my servicer panel**) · Lead 3 (the bulk-forward-commitment concession-cap exemption, carried nowhere) · Lead 5 (the 25–27% FHA-underwater claim, unlocated) · Lead 6 (buydowns don't transfer at resale — a negative-equity generator, uninstrumented).
 
+## ✅ LEAD 2 — WORKED, AND THE SCOPING CHECK REFUTED MY OWN LEAD BEFORE I ACTED ON IT
+
+**I had flagged "builder-captive lenders — DHI Mortgage / Pulte Mortgage / KBHS / Lennar Mortgage: ZERO coverage in my servicer panel" as a gap in a panel I own.** ⛔ **It is not a gap. It is correct scoping.**
+
+**DHI 10-Q, verbatim (PRIMARY): DHI Mortgage "sells substantially all of the mortgages it originates and the related servicing rights to third-party purchasers, typically within 60 days of origination."**
+⇒ **Originate-and-sell, ~60-day hold, NO retained MSR, NO advance obligation.**
+★★★ **My servicer watch tests A–G + Z — rating actions, covenant events, facility draws, transfers, rescue recaps, executed dilution, dividend suspensions, attested going-concern. EVERY ONE is a property of an entity that CARRIES BALANCE-SHEET RISK OVER TIME.** A 60-day originate-and-sell captive has **none** of that profile. ⇒ **Adding them would have put entities into a panel whose triggers CANNOT FIRE ON THEM — the untrippable-threshold family again, in its ENTITY form rather than its level form, in the same week I found three variants of it on my own bands.**
+
+**★★ WHAT I WAS ACTUALLY MISSING IS THE CHANNEL, NOT THE ENTITIES.** The buydown **originates** at the builder and the credit risk **settles within ~60 days** onto the agencies (Ginnie/GSE) and onto whoever buys the servicing — **which includes the independent non-banks I already track.** **The captive is the TRANSMISSION POINT, not the risk holder.**
+⇒ **Buydown-related credit risk should surface in instruments I ALREADY HOLD — FHA DQ (HOM-02), ICE FHA new defaults, Ginnie issuer ratios — WITH A LAG.** **No panel change made, and none needed.**
+
+**★ TWO FIGURES WORTH CARRYING (⚠️ SECONDARY — the capture rate is NOT in the 10-Q; re-source at the investor presentation before either goes load-bearing):**
+- **~81% mortgage capture rate.** ★★ **This is the analytically important one: you CANNOT buy down a rate at scale unless you control the loan.** A builder without a captive negotiates buydowns loan by loan; one with 81% capture can commit bulk forward capacity and route buyers into it. ⇒ **Vertical integration is the ENABLING CONDITION for the incentive-masking, not an incidental detail.** That is the operational form of the bulk-forward-commitment exemption AEI describes.
+- **~64% of DHI Mortgage buyers are FIRST-TIME buyers** — the FHA-heavy, thin-equity cohort. **Same population as HOM-02's trigger and my ~907bps FHA-vs-conventional spread.**
+
+⛔ **COUNTER-SIGNAL THAT TRAVELS WITH ALL OF IT, AT FULL WEIGHT: ICE June-2026 new FHA defaults −15% YoY, the largest annual decline in 4+ years, with 30/60-day roll rates falling MoM AND YoY.** **The FHA front end is currently IMPROVING despite this channel running at scale. Do not present the channel as evidence of realized stress.**
+
+**REMAINING LEADS:** 3 (concession-cap exemption — carried nowhere) · 5 (the 25–27% FHA-underwater claim — unlocated) · 6 (buydowns don't transfer at resale — a negative-equity generator, uninstrumented).
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
