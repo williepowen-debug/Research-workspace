@@ -7,3 +7,5 @@
 # consumed_at: filled retro when the item is consumed. MISS is computed, never typed: referent date < consumed_at.
 # Age basis is named on every emitted count (rider R2). v1 (pre-2026-08-23) and v2 doorbells are TWO POPULATIONS — do not pool them in the 8/28 soak.
 date	desk	sig_id	referent	gate	doorbelled	disposition	yield_at_doorbell	drained	consumed_at	notes
+2026-08-23	CREED	SIG-W-20260823-001	NONE	L3-FAIL	NO	NA	1	NA		FIRST DATA ROW. Dark (absent from ListAgents) but authored commits TODAY and inbox/WALTER was EMPTY before this dispatch. P0 pass (not in ORCH_LOG). L1 pass. L3a: no dated referent — monthly release, no clock. L3b: cadence-is-the-deadline FAILS on a desk committing daily. Gate correctly declines: a fresh item to an active desk is not a decaying backlog.
+2026-08-23	CARL	SIG-W-20260823-001	NONE	EXEMPT	NO	NA	0	NA		Dark action: recipient, but PULL-COMPLETE per §3.5 — no inbox handoff is written, so no item can go unread and a doorbell is structurally impossible. Logged rather than omitted so the miss-counter denominator stays auditable: a silently-absent row is the failure this ledger exists to prevent.
