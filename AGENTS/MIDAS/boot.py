@@ -43,6 +43,38 @@ _VENV_PY = ROOT / ".venv" / "bin" / "python"
 PYTHON = str(_VENV_PY) if _VENV_PY.exists() else sys.executable
 
 
+def run_marked(cmd):
+    """Run a leg and apply the SAME verdict contract run_alert uses for the
+    staleness legs: rc 1 OR a ⚠️/🔴 marker in stdout ⇒ REVIEW (CHECK_STANDARD §8
+    rule 5, marker channel authoritative). DAEDALUS SFG sweep 2026-08-17 ACTION 2
+    — the metals leg was rc-ONLY, so a metals_watch warning printed at rc 0 could
+    not reach the verdict line. Built 2026-08-23.
+
+    ⚠️ MEASURED AT BUILD TIME, AND SAY SO: `metals_watch.py` currently emits ZERO
+    ⚠️/🔴 markers — it encodes every state in its rc — so this marker test is
+    INERT TODAY. It is installed as a CONTRACT, not as a behaviour fix: if the
+    metals leg ever gains a warn-at-rc-0 state, the verdict picks it up without
+    anyone remembering to rewire boot. Do not record this as having changed what
+    boot reports. A ported guard whose triggering condition does not exist in the
+    recipient is inert, however correct the donor was
+    (`finding_guard_correctness_and_wiring_are_independent`)."""
+    sys.stdout.flush()
+    try:
+        pr = subprocess.run([PYTHON, *cmd], cwd=str(ROOT),
+                            capture_output=True, text=True)
+    except Exception as e:  # noqa: BLE001
+        print(f"  boot.py: FAILED to launch {cmd[0]}: {e}", file=sys.stderr)
+        return 2
+    out = pr.stdout or ""
+    if out:
+        print(out, end="")
+    if pr.stderr:
+        print(pr.stderr, file=sys.stderr, end="")
+    if pr.returncode not in (0, 1):
+        return 2
+    return 1 if (pr.returncode == 1 or "⚠️" in out or "🔴" in out) else 0
+
+
 def run(cmd):
     sys.stdout.flush()  # avoid interleaving with the child's unbuffered stdout
     try:
@@ -119,7 +151,7 @@ def main():
 
     print("\n--- 0. metals_watch (real yield + spot + GSR + M1 divergence) ---")
     if METALS_WATCH.exists():
-        mw = run([str(METALS_WATCH)])
+        mw = run_marked([str(METALS_WATCH)])
         legs.append(("metals watch", mw))
     else:
         # Fail LOUD. An absent instrument is NOT a quiet one — same contract the

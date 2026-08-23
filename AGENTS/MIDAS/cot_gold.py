@@ -34,6 +34,7 @@ Usage:
 """
 import argparse
 import csv
+from datetime import date, datetime
 import io
 import sys
 import time
@@ -110,9 +111,28 @@ def extract_gold(text):
     return d
 
 
-def report(d):
+def report(d, verified=False):
+    """verified=True ONLY when --expect actually ran and MATCHED. Without it the
+    in-row date is reported but NOT checked against anything, so the line must
+    not say 'verified' — green words certifying a check that never ran are the
+    PAT-074 shape (DAEDALUS SFG sweep 2026-08-17, ACTION 1; built 2026-08-23).
+    The reconciliation line below is unconditional and that is CORRECT: those
+    guards raise on failure, so reaching this point IS the pass."""
     print(f"  market       : {d['market']}  (code {GOLD_CODE}, FULL-SIZE)")
-    print(f"  report date  : {d['report_date']}  (as-of Tuesday, in-row verified)")
+    if verified:
+        stamp = "as-of Tuesday, in-row verified"
+    else:
+        stamp = "as-of Tuesday, UNVERIFIED — pass --expect YYYY-MM-DD to check"
+    print(f"  report date  : {d['report_date']}  ({stamp})")
+    # Factual age, no release-calendar inference: a stale file serves a clean
+    # 200 and looks identical to a fresh one. Days-old is the cheapest tell that
+    # survives holiday-shifted release weeks, which a hardcoded cadence would not.
+    try:
+        age = (date.today() - datetime.strptime(d["report_date"], "%Y-%m-%d").date()).days
+        flag = "  ⚠️ OLDER THAN A NORMAL WEEKLY CYCLE" if age > 10 else ""
+        print(f"  in-row age   : {age}d before today{flag}")
+    except Exception:  # noqa: BLE001
+        print("  in-row age   : UNCOMPUTABLE (report_date unparseable)")
     print(f"  open interest: {d['oi']:,}")
     print(f"  NC long      : {d['nc_long']:,}")
     print(f"  NC short     : {d['nc_short']:,}")
@@ -151,13 +171,13 @@ def main():
                 waited += a.poll
                 continue
             print(msg, file=sys.stderr)
-            report(d)
+            report(d, verified=False)  # mismatch: the check ran and FAILED
             return 3
 
         print("=" * 72)
         print("  CFTC COT — LEGACY FUTURES-ONLY — COMEX GOLD (raw deafut.txt)")
         print("=" * 72)
-        report(d)
+        report(d, verified=bool(a.expect))  # True only if --expect ran and matched
         return 0
 
 
