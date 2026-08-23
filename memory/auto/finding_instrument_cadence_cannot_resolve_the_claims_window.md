@@ -55,3 +55,26 @@ Related: [[finding_prereg_dates_the_event_not_the_artifacts_cadence]] (the regis
 - **A spec that says "median over a window" must NAME the window** — and separately its estimator. Undeclared, two correct implementations disagree, and the disagreement surfaces first on the extreme cases where it matters most.
 - **Prefer a statistic that does not need a within-window sample of the rare event** — e.g. compare a desk's CURRENT dark duration against its OWN historical distribution, which uses all history for the reference and needs zero recent observations for the test.
 - ⚠️ **Watch for the null-test cousin:** re-running a many-observation statistic after an interval in which **no new observations arrived** cannot detect change. *"Nothing moved"* is then guaranteed by construction, not discovered. **Check that the window actually admitted new data before reporting stability.** *(WALTER did exactly this and led a proposal with it; caught by PROME.)*
+
+
+---
+
+## ⚠️ EXTENSION 2026-08-23 (LIQUID) — the sharpest sub-case: **a grade date equal to the window-close date, on a T+1 series**
+
+The parenthetical above already names "a publication lag" as one way cadence gets gated. **This is that case in its most expensive form, and it deserves naming because the defect is in the SCHEDULE, not the instrument — and because it is invisible in a way the general finding is not.**
+
+> **If a test's GRADE DATE equals its WINDOW-CLOSE DATE and any leg runs on a T+1-published series, the final session's observation does not exist when the grade is scheduled to run. The window is silently truncated at the moment of grading.**
+
+**n=2, both found in one sitting, both LIVE, both specs written by the same author (LIQUID):**
+- **T6** (30Y benign-bucket test): Will-ruled Option C set last gradeable data at **Fri 8/28** against a hard close of **Sat 8/29** — but `DGS30` publishes T+1 business day, so a grader running 8/29 sees only through **8/27** and **cannot see an 8/28 fresh high**. That 8/28 print publishes ~Mon 8/31. The late-fire path the ruling was *specifically about* is the one it cannot observe.
+- **DECOUPLING Test B**: window 8/11–8/24, DOCKET grade date **8/24**, HY leg on `BAMLH0A0HYM2` (T+1). On 8/24 the grader has HY through 8/21 at best and **cannot see 8/24's own close**.
+
+**Why it is worse than ordinary cadence mismatch:** it fails **asymmetrically and silently in one direction.** The scan completes, every published value is correct, no freshness check trips — and the unobservable leg reads as **NOT-FIRED** rather than as **NOT-YET-OBSERVABLE**. A "did not fire" verdict and a "could not look" verdict are indistinguishable on the page. *(Same family as `[[finding_plausible_stale_value_evades_review]]` and `[[finding_record_of_an_action_is_not_the_action]]` — here the record of a GRADE is not the grade, because the instrument had nothing to say yet.)*
+
+**No tool can fix it.** `fetch` returns the correct answer, which is that the observation does not exist. **It is a SPEC-DESIGN defect and the fix belongs at registration:**
+1. Set the grade date **≥1 business day after window close** for any leg on a T+1 series; **or**
+2. **Pre-name the pending state** — `UNGRADEABLE-PENDING-PUBLICATION` — and forbid recording it as NOT-FIRED.
+
+**The tell that catches it in seconds:** both specs were written with **CALENDAR dates against SERIES that do not publish on calendar time.** Whenever a date is written into a spec, ask which series has to speak on that date and whether it will have.
+
+⚠️ **And a companion trap the same evening, from a completely unrelated dispute:** WALTER graded a 30Y "round trip" as 100% complete off a 4-leg sequence whose **final leg did not exist on the daily basis** (`DGS30` ends 8/20; on closes the move was −9bp then +4bp = **44% retraced**). Their own corrected wording is the portable rule: **"grade each series by ITS OWN latest date, not the release date."** Three independent surfaces, one root cause, one day.
