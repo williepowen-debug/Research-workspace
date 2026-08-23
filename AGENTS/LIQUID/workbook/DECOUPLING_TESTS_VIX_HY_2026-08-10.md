@@ -32,6 +32,25 @@
 - **Same-factor:** both fire in the same window, or neither fires ⇒ consistent with HENRY's ρ measurement, no discrimination achieved.
 - No further design work needed — mechanical grade at window close.
 
+### ★ PROVISIONAL READ, 2026-08-23 (LIQUID boot, one day before the grade) — **DECOUPLING-TOWARD-VOL**
+
+**VIX leg: ✅ FIRED.** Three closes at or under 14.77 (yfinance raw, `auto_adjust=False`): **14.55 [8/12] · 14.63 [8/13] · 14.25 [8/14]**. Fired on the second session of the window and extended twice. Window closes for context: 15.28 [8/11] · 14.55 · 14.63 · **14.25** · 15.19 [8/17] · 15.84 [8/18] · 14.89 [8/19] · 16.01 [8/20] · 15.13 [8/21].
+
+**HY leg: ❌ NOT FIRED on published data.** `BAMLH0A0HYM2` in-window: 272 [8/11] · 271 [8/12] · 271 [8/13] · **267 [8/14]** · 270 [8/17] · 275 [8/18] · 273 [8/19] · 275 [8/20]. **Window min 267 — 2bp short of the ≤265 line — and then it REVERSED to 275**, which independently satisfies the spec's own *"HY stalls ≥267 or reverses"* clause for the toward-vol branch.
+
+⇒ **On published data the verdict is DECOUPLING-TOWARD-VOL: vol-specific, not credit-led.** Which is the informative outcome — it *does* achieve discrimination, unlike the same-factor branch.
+
+### 🔴 BUT DO NOT CLOSE THE GRADE ON 8/24 — the window is not observable on its own grade date
+
+**`BAMLH0A0HYM2` publishes T+1.** On Mon 8/24 the grader has HY OAS **through 8/21 at best**; **8/24's own close publishes 8/25.** So a grade run on 8/24 truncates the window by one to two sessions **silently** — every published value correct, the missing leg reading as NOT-FIRED rather than as not-yet-observable.
+
+**Is it decided anyway? No.** From 275 [8/20] the HY leg needs **−10bp in ≤2 sessions** to reach ≤265. Recent daily moves are 1–5bp, so it is **unlikely — but not impossible, and not decided.**
+
+**Instruction for the grade:**
+> **Record the HY leg `UNGRADEABLE-PENDING-PUBLICATION` on 8/24, never `NOT-FIRED`. Close Test B on 2026-08-25**, once 8/24's observation publishes. The VIX leg is already final and needs no re-read.
+
+*(Registered as **KB-LIQ-096**, n=2 — the identical defect is live on **T6**, whose Option-C last-data date of Fri 8/28 is invisible to a grader running the Sat 8/29 hard close. Both specs were written with CALENDAR dates against series that do not publish on calendar time, and I wrote both. The remedy belongs at registration: set the grade date ≥1 business day after window close, or pre-name the pending state.)*
+
 ## Test C — opportunistic, AI-credit leg on the 8/12 CPI natural experiment (LIQUID design, HENRY NO-DATA branch)
 
 **Status: REGISTERED, instrument not yet named. Window 2026-08-11 through 2026-08-26. Closes 8/26 (DOCKET).**

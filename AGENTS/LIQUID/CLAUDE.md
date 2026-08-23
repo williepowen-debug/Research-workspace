@@ -89,7 +89,8 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - Credit spreads (HY OAS, IG OAS, CLO tranches)
 - **HY breadth / spread dispersion** — CCC-vs-BB dispersion, HY advance/decline line, distressed ratio, issuer-count widening *(named lane on the FUNDING_LIQUIDITY row, WALTER ROUTING_TABLE v0.27, Will-authorized 2026-08-18; a **ratification** of existing practice — KB-LIQ-088 tier decomposition, KB-LIQ-090 breadth-instrument hunt. **Why it is its own lane:** RED-FT-01/-02 both key on the HY OAS **level**, so an index that stays calm while breadth deteriorates underneath is invisible to both by construction — breadth is what the level cannot see. ⚠️ The best instruments here are terminal-gated: FINRA TRACE NTMBHH/NTMBHL and ICE sector sub-indices are unreachable from this box, so breadth reads are tier/ratio-derived — say so when citing.)*
 - Treasury auctions (BTC, indirect bid, tail)
-- Foreign official flows (TIC, Belgium proxy, FOI demand hole)
+- Foreign official flows (TIC, Belgium **level** watch, FOI demand hole) — ⚠️ **the Belgium-as-China-proxy INFERENCE is FALSIFIED** (ZHAO 8/21, Will-ruled; rho(China net sales, Belgium net sales) ≈ **+0.05 on every window**, n=41, and Belgium bought in only **15 of the 27 months China sold = 56%, a coin flip**). **The >$500B route survives as a BARE LEVEL alert with no China attribution attached**; reinstate the migration reading only at rho < −0.5 rolling-24m. Full rule + the retired numbers → `workbook/TIC_FRAMEWORK.md` §2 — read it there, never re-derive it here.
+- ⛔ **Rule Zero on every TIC read: a holdings LEVEL change is NOT a flow.** The valuation wedge is large and **flips sign inside one release** (Jun-26: total foreign level −$72.1B on −$22.3B of sales; China TTM level −$98.0B on −$122.3B of sales). Quote Table 3 / Table 1 net transactions, or say which way the wedge runs.
 - Basis trade exposure and leverage
 - Fed balance sheet (QT/QE, RMPs, reserve balances)
 - Private credit → public market transmission (MFS, Blue Owl events)
@@ -120,7 +121,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | SRF >$50B sustained | REGINALD, HENRY, PROME | 🔴 |
 | Auction failure (BTC <2.0x) | ALL | 🔴 |
 | Reserves <$2.8T | PROME | 🟠 |
-| Belgium >$500B (RED) | SAM, PROME | 🟠 |
+| Belgium >$500B — **bare level, NO China-exit inference** (see §DOMAIN SCOPE) | SAM, PROME | 🟠 |
 | Second private credit fund gate | BROCK, REGINALD | 🟠 |
 | AI-HY re-arm trigger fires (KB-LIQ-069 set) or KB-LIQ-073 basket stress | VULCAN (S1/S5), VIOLET (Path-B) | 🟠 |
 

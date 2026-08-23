@@ -112,7 +112,7 @@ LIQUID stands down its bear thesis when:
 | Reserves <$2.8T | PROME | 🟠 |
 | 2nd PC fund hard-gates | BROCK, REGINALD | 🟠 |
 | APO Day 3+ >$130 | BROCK, PROME | 🟠 |
-| Belgium proxy >$500B (RED proxy data) | SAM, PROME | 🟠 |
+| Belgium >$500B (RED proxy data) — ⚠️ **bare LEVEL alert; the China-proxy inference is FALSIFIED 2026-08-21 (ZHAO, Will-ruled) — attach no China attribution.** See `workbook/TIC_FRAMEWORK.md` §2 | SAM, PROME | 🟠 |
 
 **LIQUID receives from:**
 
