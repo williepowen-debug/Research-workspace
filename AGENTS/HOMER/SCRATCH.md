@@ -102,6 +102,33 @@ PROME's reply generalized the docket gap as *"defects sitting in old stock that 
 ⚠️ **It sat behind a `[STALE — Jan data]` tag I applied myself — the SECOND self-applied stale tag found today** (Google Trends was the first). ⇒ **A self-applied stale tag is worse than an unlabelled row, because it reads as handled and is skipped by the reader most likely to fix it — me, at every boot.** **New rule in `LESSONS.md`: a staleness tag is only permitted with a DATED CONDITION attached.**
 ✅ **Successor named now: % of tracked metros with negative rent YoY, computable from the Zillow metro series I already receive.** ⚠️⚠️ **Adopting it is a RETUNE, not a swap — different metro universe, different distribution, so 20/40/55 cannot travel. Will-gated, docketed, NOT proposed.** ⛔ **Until ruled, the row grades nothing — do not report Red on the January figure, do not report silence as "rents are fine."**
 
+## ✅ THIRD PASS (Will-approved plan) — refresh backlog + the RIDER + row hygiene
+
+**Plan + execution record: `reports/2026-08-23_refresh-plan-AND-EXECUTION-RECORD.md`.**
+
+**FIVE MORE SERIES CHECKED once the four headline ones were fixed; the two that moved changed DIRECTION, not level.**
+1. **Residential construction employment JULY: +2,100, first monthly gain in four — but builders/remodelers FELL 500, so the ENTIRE gain is specialty trades.** NAHB's own 6-month average is still **−5,350/mo**. ⚠️ **Two carried figures retired: annual decline −44,200 / 17th month (was −48,800 / 16th), and construction unemployment 6.2% → 4.6% — a one-month spike I had flagged as alarming, fully unwound. Noise I treated as signal.**
+2. **Zillow rent JULY: $1,962 +2.3% "fastest pace in over a year" WHILE concessions ALSO rose to 39.8%** ⇒ **headline rent is GROSS, not net-effective, gap widening.** ★★ **This is WALTER's builder net-effective question with the instrument ALREADY BUILT — worth telling them the answerable version lives in rentals.** ⛔ **Counter-signal at full weight: MF rent growth ACCELERATED to +1.7%, cutting against my own MF distress read.**
+3. **ATTOM state JULY not published — NORMAL, not a break. No escalation condition set.** *(The 8/14 error, deliberately not repeated.)* ★ Gained: **June national FC starts 26,217, −4% MoM, +20% YoY** — an observation, **not** a reading against the disarmed quarterly-starts band.
+4. **Miami-Dade condo 12.0mo July — LEVEL updated, DELTA NOT established (different compiler).** Load-bearing again via Redfin's Miami #1-at-154%.
+5. **BEA Q2 RFI second estimate due 8/27 — docketed.** ⚠️ The advance's *"first positive in five quarters"* is a first-print superlative on a revising series.
+
+## ★★ THE RIDER IS DRAFTED AND IT RECOMMENDS AGAINST ITSELF
+
+`reports/2026-08-23_non-funding-leverage-RIDER-DRAFT-for-ratification.md`. **Authorized 8/14, drafted 8/23 — 9 days, recorded not smoothed.** Precondition (A–G anchoring) was discharged by Will's 8/22 *"approve both."*
+
+**Two independent kills:**
+- **(a)** A ratio moves **continuously**; a dividend is **sticky and board-controlled**. ⇒ *"leverage led the payout"* may be true of **every** distress episode and **discriminate nothing.** At n=1 I cannot separate that from a credit finding.
+- **(b) ★★★ THE PANEL CANNOT PRODUCE THE INPUT.** *"Non-funding debt"* is **issuer-defined** and only **2 of 5** names report it — **UWMC ✅, LDI ✅; PFSI, RITM, COOP zero occurrences at primary.** A cross-name threshold would require **inventing the comparability I then base-rate.**
+
+★★ **SAME FAILURE AS CLASS E's PRICE MARKER (0-of-12), ONE STEP EARLIER.** ⇒ **RULE: before proposing a class, verify every panel name PRODUCES the input — a COVERAGE TEST that precedes base-rating. Neither the original spec nor my own 8/14 base-rating ran it.**
+✅ **Proposed instead: a NO-VERDICT PRECURSOR in the category the spec already has ("equity drawdown alone NEVER fires") — no threshold, never fires, scoped to issuer-reporting names. Ratifiable today.** ⛔ **NOT LIVE, must not be scored, nothing retroactive.**
+
+## ✅ ROW HYGIENE — and the lesson is the ORDER
+
+Four fully-superseded rows retired (Foreclosures Q1 · MBA Q1 NDS · State Leaders Q1 · FL Q1 tri-county). **STATUS 250 → 248 with three rows materially expanded.**
+★ **The ledger-coverage check ran BEFORE the delete. Every figure was already held EXCEPT the FL tri-county 608-day timeline, which lived on `STATUS.md` and nowhere else** — written to `STATE_HSG.tsv` first. ⇒ **A "superseded" row can still be the SOLE HOME of a figure its successor does not carry. Check coverage before deleting, never after.**
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
