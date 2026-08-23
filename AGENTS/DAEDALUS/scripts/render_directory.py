@@ -125,7 +125,11 @@ def parse_fleetmap(path):
             continue
         if len(cells) < 8:
             die(f"FLEET_MAP row {cells[0]!r} has {len(cells)} cols (<8) — schema changed (STRUCTURAL)")
-        rows[cells[0].strip()] = (cells[1].strip(), cells[2].strip(), cells[7].strip())  # Class, Level, Next
+        # Class, Level, Conf, Last_scored, Next. Conf+Last_scored added 2026-08-23 when this
+        # rendering became the BOOT-READ hot index: SPAWN step 2 asks for "current maturity level
+        # per agent", and a level with no confidence and no scoring date is not that.
+        rows[cells[0].strip()] = (cells[1].strip(), cells[2].strip(),
+                                  cells[3].strip(), cells[5].strip(), cells[7].strip())
     if not rows:
         die("no data rows parsed from FLEET_MAP")
     return rows
@@ -150,8 +154,9 @@ def md_cell(s):
     return s.replace("|", "\\|").strip() or "—"
 
 
-def row(agent, klass, lvl, does, missing):
-    return f"| {agent} | {md_cell(klass)} | {md_cell(lvl)} | {md_cell(does)} | {md_cell(missing)} |"
+def row(agent, klass, lvl, conf, scored, does, missing):
+    return (f"| {agent} | {md_cell(klass)} | {md_cell(lvl)} | {md_cell(conf)} | {md_cell(scored)} "
+            f"| {md_cell(does)} | {md_cell(missing)} |")
 
 
 def main():
@@ -175,9 +180,21 @@ def main():
              f"`AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — "
              f"hand-edits are overwritten. Generated {stamp}.")
     L.append("")
+    L.append("> ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** "
+             "`FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is "
+             "read PER-AGENT on demand (`grep -P '^AGENT\\t' FLEET_MAP.tsv`) or whole at a Production Review. "
+             "Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every "
+             "boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to "
+             "`FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the "
+             "budget would have meant deleting live gap content from the rich rows. So the register went cold and "
+             "this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. "
+             "⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.")
+    L.append("")
     L.append("*One source of truth per column (PAT-006): **what it does** + **status** ← ROSTER (PROME); "
-             "**class** + **maturity level** + **missing/next** ← FLEET_MAP (DAEDALUS). \"Missing / next\" is a "
-             "truncated one-liner — full gap detail in `FLEET_MAP.tsv` + `upgrades/<AGENT>_CARD.md`. "
+             "**class** + **maturity level** + **Cf** (confidence: H=read-verified, M=read+mechanical, "
+             "L=mechanical-only) + **Scored** (last-scored date) + **missing/next** ← FLEET_MAP (DAEDALUS). "
+             "\"Missing / next\" is a truncated one-liner — full gap detail in `FLEET_MAP.tsv` + "
+             "`upgrades/<AGENT>_CARD.md`. "
              "Dormant agents are un-graded → blank grade cells; an ACTIVE/TIER-2 agent missing its "
              "FLEET_MAP row renders ⚠️ UNGRADED and the generator exits nonzero — a blank there is never "
              "by-design. PROME graded 2026-07-28 (Will-ratified, "
@@ -191,18 +208,19 @@ def main():
         counts[gkey] = len(members)
         L.append(f"## {glyph} {title}")
         L.append("")
-        L.append("| Agent | Class | Lvl | What it does | Missing / next |")
-        L.append("|---|---|---|---|---|")
+        L.append("| Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |")
+        L.append("|---|---|---|---|---|---|---|")
         for a in members:
             _, does = roster[a]
             if a in fleet:
-                klass, lvl, nxt = fleet[a]
-                L.append(row(a, klass, lvl, does, truncate(nxt)))
+                klass, lvl, conf, scored, nxt = fleet[a]
+                L.append(row(a, klass, lvl, conf, scored, does, truncate(nxt)))
             elif gkey == "DORMANT":                # dormant ungraded — blank grade, by design
-                L.append(row(a, "—", "—", does, "—"))
+                L.append(row(a, "—", "—", "—", "—", does, "—"))
             else:                                  # ACTIVE/TIER-2 with no FLEET_MAP row — loud, never blank
                 ungraded.append(a)
-                L.append(row(a, "⚠️", "⚠️", does, "⚠️ UNGRADED — in ROSTER, no FLEET_MAP row (register it)"))
+                L.append(row(a, "⚠️", "⚠️", "⚠️", "⚠️", does,
+                             "⚠️ UNGRADED — in ROSTER, no FLEET_MAP row (register it)"))
         L.append("")
 
     # SPECIAL group (FLEET_MAP-only, prose in ROSTER)
@@ -210,13 +228,13 @@ def main():
     counts["SPECIAL"] = len(SPECIAL)
     L.append(f"## {glyph} {title}")
     L.append("")
-    L.append("| Agent | Class | Lvl | What it does | Missing / next |")
-    L.append("|---|---|---|---|---|")
+    L.append("| Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |")
+    L.append("|---|---|---|---|---|---|---|")
     for a, does in SPECIAL.items():
         if a not in fleet:
             die(f"SPECIAL agent {a!r} not in FLEET_MAP — cannot render its grade")
-        klass, lvl, nxt = fleet[a]
-        L.append(row(a, klass, lvl, does, truncate(nxt)))
+        klass, lvl, conf, scored, nxt = fleet[a]
+        L.append(row(a, klass, lvl, conf, scored, does, truncate(nxt)))
     L.append("")
 
     L.append("---")

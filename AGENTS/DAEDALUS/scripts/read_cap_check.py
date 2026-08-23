@@ -60,11 +60,18 @@ ROOT = os.path.normpath(os.path.join(HERE, ".."))
 # DOCUMENTING A PERIMETER IS NOT THE SAME AS POPULATING IT (PAT-129, refined on its own author).
 # That is why --all exists: do not rely on this list alone to answer "did we get it all?"
 DEFAULTS = [os.path.normpath(os.path.join(ROOT, f)) for f in (
-    "STATUS.md",        # SPAWN step 1
-    "FLEET_MAP.tsv",    # SPAWN step 2
-    "PATTERNS_HOT.md",  # SPAWN step 3
-    "EVOLUTION.md",     # SPAWN step 4 (conditional -- still a mandated read when it fires)
-    "CLAUDE.md",        # always-loaded charter
+    "STATUS.md",            # SPAWN step 1
+    "FLEET_DIRECTORY.md",   # SPAWN step 2 -- the HOT index. Re-homed 2026-08-23: FLEET_MAP.tsv
+                            # was the step-2 read at 121% of the cap, truncating every boot for
+                            # ~6 days. Rotating its Gaps narrative to FLEET_MAP_HISTORY.tsv got it
+                            # to 43,006 B -- still over, and squeezing further would have deleted
+                            # live gap content -- so the register went COLD (read per-agent /
+                            # whole at a Production Review) and this generated view became the
+                            # read. FLEET_MAP.tsv is deliberately ABSENT from this list now; it is
+                            # a cold half, and --all correctly reports it as discovery, not defect.
+    "PATTERNS_HOT.md",      # SPAWN step 3
+    "EVOLUTION.md",         # SPAWN step 4 (conditional -- still a mandated read when it fires)
+    "CLAUDE.md",            # always-loaded charter
 )]
 
 
