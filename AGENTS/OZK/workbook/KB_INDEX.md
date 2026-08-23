@@ -1,6 +1,6 @@
 # KB.tsv — Group Index
 
-**Updated:** 2026-07-22 (+217: IQHQ RaDD extension/recap negotiation + mezz-lender + interest-reserve datum from the Q2 call → EXTEND_PRETEND) | **Total rows:** 217 | **Groups:** 33 *(prior: 7/18 +210–216 from the Q1'26 10-Q read / price-SI-regime pull / TD Cowen inbox)* *(prior: 7/6 PM Atrium +203–209, 117 SUPERSEDED, 201 verified, 088/091 schema, 055/138 REFUTED)*
+**Updated:** 2026-08-23 (**+223–227 this session** — MI3 2025Q3 step adjudication [223 container-asymmetry · 224 write-down-branch REFUTED · 225 YoY-window method finding], 226 the 37.6%/worst-in-screen retraction [SUPERSEDES KB-OZK-018 + 020], 227 the Aug-21 OPEX expiry. **3 new groups: METHOD · SCREEN · POSITIONS.** ⚠️ **This header had drifted 10 rows / 2 sessions behind `KB.tsv`** — it read 217/33 while the file held 222/33 after the 8/7 Call Report session added 218–222; the group tables below are NOT yet re-rolled for 218–227 and are the remaining debt.) | **Total rows:** 227 | **Groups:** 36 *(prior header, stale: 2026-07-22 +217: IQHQ RaDD extension/recap negotiation + mezz-lender + interest-reserve datum from the Q2 call → EXTEND_PRETEND) | **Total rows:** 217 | **Groups:** 33 *(prior: 7/18 +210–216 from the Q1'26 10-Q read / price-SI-regime pull / TD Cowen inbox)* *(prior: 7/6 PM Atrium +203–209, 117 SUPERSEDED, 201 verified, 088/091 schema, 055/138 REFUTED)*
 
 Navigate the KB by investigation cluster. Each group maps to a folder or research file where the full synthesis lives.
 
@@ -62,6 +62,10 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 | **FAILURE_COMP** | 161–164 | 4 | THESIS.md (peer context) | Metropolitan Capital failure comp (39.6% MI3, failed Jan 30 2026), MCB active comp, reserve-inversion comp |
 | **PRIVATE_CREDIT** | 186–188 | 3 | PRIVATE_CREDIT/ + LESSONS.md | Fund Finance pullback (Munn Q1 call, verbal-only), LFG compression, asymmetric disclosure pattern |
 | **IQHQ** | 178, 197–198 | 3 | IQHQ_PLAYBOOK.md | Rossow sole-exposure confirmation, Bluerock TI+ entity structure (7/4 correction), Aimco MTD status (no ruling 7/4) |
+| **METHOD** *(new 8/23)* | 225 | 1 | `MI3_2025Q3_ADJUDICATION.md` §3 | A YoY window nets out a single-quarter step: REGINALD's "+$98M item 9" spans the 2025Q3 event, where item 9 actually fell −$576,487K. Corrects a measurement window, not its data. |
+| **SCREEN** *(new 8/23)* | 226 | 1 | `THESIS.md` §MEMO ITEM 3 banner | 37.6% MI3 dead on 4 independent paths; "worst in screen" formally RETRACTED by its owner (OZK 5th of 14, both bases). Supersedes 018 + 020. |
+| **POSITIONS** *(new 8/23)* | 227 | 1 | `POSITIONS.md` | Aug-21-2026 OPEX: both legs expired worthless at OZK $49.42; realized −$1,686.37; book closed to zero contracts under Will's 8/4 RIDE ruling. |
+| **NDFI** *(extended 8/23)* | 220, 221, **223, 224** | 4 | `MI3_2025Q3_ADJUDICATION.md` · `CALL_REPORT_2026Q2_LOG.md` | Debt-on-debt book: RIAD5409 first nonzero in 18 qtrs ($42,437K, 2026Q2); RCON2746 ties the 10-Q "Other" book at the dollar; 2025Q3 container asymmetry; write-down branch refuted. |
 | **Singleton groups** | 160 (SHORT_INTEREST → now +214, see below), 177 (DISTRESSED_COMPS), 179 (SEVEN_CREDIT), 180 (CIB), 181 (NIM), 183 (TRANSCRIPT) | 6 | respective owner docs | SI ~14-15% (Mar 25 — **refreshed by 214, un-stale**), 2025-26 severity bands (29-40%), Boynton Yards sponsor confirm, CIB 3/6 vertical compression, Q1 26 NIM decomp 4.20%, Hamblen "MF heaviest payoff" quote |
 
 ### 7/18 Additions — 5 new groups + 2 joins (KB-210–216)
