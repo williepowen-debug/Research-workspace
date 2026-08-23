@@ -177,6 +177,22 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
     - **(c)** **Leave the entry fields explicitly marked UNRECOVERABLE, not blank.** *Blank reads as "unrecorded" (someone should go find it); the truth is "unrecoverable" (nobody can).* Mark `[POSITION_STATE_INCOMPLETE]` with the reason.
     - **(d)** Sunk basis is **not** forward risk: state forward max loss as the **remaining mark**, never the original debit. *(8/18: the oil sleeve's three option legs carried `$2,176.68` of sunk basis but only `$1,489.00` of forward exposure.)*
 
+21. **★ A TENOR BAND IS AN *ENTRY-ECONOMICS* TEST, SO IT GOVERNS NEW DEPLOYMENTS AND NOT ROLLS — AND "ROLL" MUST BE DEFINED NARROWLY OR THE BAND DIES BY RELABELLING.** *(Will-ruled 2026-08-21 ~16:3x ET on the `USO Oct-16 135C` pair; recorded by BRENT at `AGENTS/BRENT/TRADE.md § BINDING WILL RULINGS` and on his roll card. **Mirrored here 2026-08-23 at BRENT's explicit ask — the `RISK_RULES` mirror is TERRY's to write; BRENT correctly did not edit this file.** This is a **SCOPE ruling, not an exception** — it says what the band was always about, and it therefore applies to every tenor band on this desk, not just the USO one.)*
+
+    **The ruling:** the **`60–90 DTE`** band governs **NEW STRUCTURAL DEPLOYMENTS.** It does **NOT** govern the **roll of an existing leg.**
+
+    **Why scope and not exception:** the band exists so that a shorter-dated vertical cannot make **leg (b)** — the net-debit-as-%-of-width test — easier to satisfy. That is an **ENTRY-economics** test. **A roll is never leg-(b) gated**, so read for the purpose it was written for, the band was never about rolls at all. *(Precedent for scoping a tenor rule this way is this desk's own: #16's horizon test already distinguishes a structural horizon from an off-ramp one.)*
+
+    ⛔⛔ **THE GUARD IS BINDING AND TRAVELS WITH THE RULE — a scope ruling is broader than an exception, so it needs a tighter definition, not a looser one:**
+    > **"ROLL" = SAME underlying · SAME strike · LATER expiry. NOTHING ELSE.**
+    > **ANY change of STRIKE or STRUCTURE is a NEW DEPLOYMENT and the tenor band BINDS IN FULL.**
+
+    ⚠️ **Without that guard a genuine new deployment arrives wearing a roll's clothes and the only economic gate on the trade is gone by relabelling.** A "roll" that moves the strike is a **close plus an open**, and the open is gated.
+
+    - **(a)** **Say which you are doing, in those words, before pricing it.** If the answer needs a paragraph, it is a new deployment.
+    - **(b)** **The scope exemption is not a recommendation to roll.** A roll pays new capital to keep the same view for longer; it is still subject to **root rule #7** (roll duration, don't trim size) and to the horizon test in #16. *(8/21 worked case: the counter-argument for acting was theta — the leg was ~ATM, 100% extrinsic, decaying ~`$19.61`/day and accelerating. **That argues for CLOSING, never for rolling** — rolling would have paid `$750` to keep the same problem for longer, while the same session's SELL-ONE was a de-risk. **Two decisions pointing in opposite directions is itself the tell.**)*
+    - **(c)** **A roll of a filled leg is still a Will-gated proposal.** Scope-exempt from the band ≠ pre-approved. `$0` moves without [Approve].
+
 
 ---
 
