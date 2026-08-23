@@ -75,6 +75,32 @@ def run(cmd, timeout=90):
         return 1, "", str(e)
 
 
+
+# --- N5 capture-time guard (v1.1, Will-adopted 2026-08-13; WALTER SIG-W-20260811-002 +ADDENDUM #1)
+# Adopted by HENRY 2026-08-23 off the WALTER-lane Block-2 drain. Two clocks, both from
+# exchange primaries, both of which this script previously ignored:
+#   * Cboe cash indices (VIX/SKEW/VVIX/VIX9D/VIX3M) disseminate to 16:15 ET, NOT 16:00.
+#     NEXUS published VIX 14.46 as the 8/12 close (real 14.55) pulling at ~16:1x and
+#     justified it with the cash-index exemption itself. The exemption is real; the clock is 16:15.
+#   * ICE Brent settlement is struck 14:30 ET. BZ=F off a quote feed is a DAILY BAR,
+#     never the settlement (RED's 8/12 ruling: BRENT-PAPER means the SETTLEMENT).
+# This flags; it never blocks. A flag is a prompt to say which basis you are on.
+N5_FUTURES = {"BZ=F"}
+N5_CBOE_CASH = ("VIX", "SKEW", "VVIX", "VIX9D", "VIX3M")
+
+def _n5_capture_guard():
+    now = datetime.now()
+    hm = now.hour * 60 + now.minute
+    if 16 * 60 <= hm < 16 * 60 + 15:
+        print("  🔴 N5 CAPTURE-TIME: pulled inside 16:00-16:15 ET. Cboe cash indices "
+              f"({', '.join(N5_CBOE_CASH)}) are STILL DISSEMINATING — do NOT record these as closes.")
+    if hm >= 14 * 60 + 30:
+        print("  ⚠️  N5 (i): Brent above is a DAILY BAR pulled after the 14:30 ET ICE settlement — "
+              "it is NOT the settle. Dime precision; say 'bar' or source the settlement.")
+    else:
+        print("  ⚠️  N5 (i): Brent above is a DAILY BAR mid-session (ICE settle strikes 14:30 ET) — "
+              "PROVISIONAL until a T+1 re-pull.")
+
 # ---------------------------------------------------------------- (a) LIVE TAPE
 def live_tape():
     print(f"\n{'─'*64}\n  (a) LIVE TAPE   ·   pulled {datetime.now():%Y-%m-%d %H:%M:%S} local")
@@ -100,8 +126,10 @@ def live_tape():
             px_s = f"{float(px):,.2f}"
         except (TypeError, ValueError):
             px_s = str(px)
-        print(f"  {LABEL.get(t, t):<8} {px_s:>12}   {chg_s}")
+        mark = "  [FUTURES BAR — not a settle]" if t in N5_FUTURES else ""
+        print(f"  {LABEL.get(t, t):<8} {px_s:>12}   {chg_s}{mark}")
     print("\n  ⚠️  real-time/last quote — stamp THIS timestamp in STATUS, not 'close'.")
+    _n5_capture_guard()
 
 
 # -------------------------------------------------------------------- (b) GAMMA
