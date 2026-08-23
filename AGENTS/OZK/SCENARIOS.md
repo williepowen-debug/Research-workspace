@@ -139,7 +139,7 @@ Bear case needs EPS ~$5.00 at 6x → **$30** (-33% from $44.70).
 
 ## PUT EXPECTED VALUE (pre-Q1 premium basis — ⚠️ POSITION STATE STALE)
 
-⚠️ **The intrinsic-value calculations below use cost bases and price anchors from Mar 24 ($44.70 baseline, $4.05 entry).** The scenario logic (Bear 55% / Base 30% / Bull 12% / Tail 3%) is current, but the position book is **STALE / NOT MANAGED** (per 7/4 steer): the May lines expired unlogged (roll never executed — `THREAD3_ROLL_MATH.md` → `archive/`, dead), and the Aug 21 lines are unverified against broker. Do not act on the per-position EV tables below without live broker + chain data (STATUS positions banner governs).
+⏹️ **DEAD SURFACE — the per-position EV tables below price legs that NO LONGER EXIST (dated-tag 2026-08-23).** The May-15 lines expired 2026-05-15; the **Aug-21 lines expired WORTHLESS at the 2026-08-21 OPEX** (Will's 8/4 RIDE ruling; realized −$1,686.37 / −100%). **The book is empty — there is nothing here to act on, at any price.** ⚠️ **The scenario logic is NOT dead and is NOT retired by this tag:** Bear 55% / Base 30% / Bull 12% / Tail 3% remain current, and the underlying price/severity branches are still the desk's live framework. What is dead is the option-payoff layer bolted onto them. Any future OZK expression is a **new** trade — TERRY-built, Will-gated — never a revival of the tables below. *(Superseded: the prior banner's "STALE / NOT MANAGED … Aug 21 lines are unverified against broker" — they are no longer unverified, they are gone. Intrinsic-value math still uses Mar-24 anchors: $44.70 baseline, $4.05 entry.)*
 
 ---
 

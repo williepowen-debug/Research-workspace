@@ -12,7 +12,7 @@
 3. **ACL $628M covers 2.2-3.0x the disclosed EL — adequate today.** But if problem book migrates to ~$1.4B over next 2-4 quarters (credible given 37.6% hidden CRE baseline + remaining life sci pipeline), coverage collapses to 1.1-1.5x → **implies $150-300M reserve build required through 2026.**
 4. **Critical new signal — Lionstone wind-down (Seattle):** The forcing function on the Chapter Buildings recap isn't sponsor distress — it's **Ameriprise exiting the entire U.S. RE advisory business and divesting Lionstone's $5.5B book.** LP-side dissolution as a credit trigger is a new pattern we haven't been tracking.
 5. **OZK workout-tempo tell (Schaffer's Mill):** $34M Lake Tahoe credit has been substandard **6+ years** on a revolver, with interest/fees exceeding principal paydown. **OZK's true charge-off lag is measured in years, not quarters** — consistent with the "reservoir thesis."
-6. **Position read:** Not enough here to change the thesis. $45P May remains too tight (resolution tempo Q2-Q3); **the credit that matters for loss severity is Sullivan Courthouse + Boston Life Sci + the Chicago Concord Place marks,** not the smaller credits. The Seattle Chapter Buildings LOI at 50-60% close probability is a coin-flip catalyst for Q2 credit trajectory direction.
+6. **Position read:** ***[DEAD 2026-08-23 — every leg named in this doc is expired; the Aug-21s lapsed worthless at the 8/21 OPEX and OZK holds no options. Credit analysis below is unaffected and current.]*** Not enough here to change the thesis. $45P May remains too tight (resolution tempo Q2-Q3); **the credit that matters for loss severity is Sullivan Courthouse + Boston Life Sci + the Chicago Concord Place marks,** not the smaller credits. The Seattle Chapter Buildings LOI at 50-60% close probability is a coin-flip catalyst for Q2 credit trajectory direction.
 
 ---
 
@@ -272,6 +272,8 @@ Consumer / auto thread unaffected. OZK indirect RV/Marine NCO 0.42% (prime/super
 Nothing new this thread. Still confirms OZK's $350M Other Borrowings is offensive carry trade, not funding-stress (unlike MTB/CFG/PNC).
 
 ### 🟡 To FORGE — Position note
+⏹️ ***[dated-tag 2026-08-23 — the two bullets below are HISTORICAL duration reasoning for legs that have all expired. Preserved as the record of why the Aug tenor was chosen; not a live read.]***
+
 - **$45P May 15:** Expiry too tight. Per comp work, major loss realizations pace Q2-Q3-Q4 2026, not May. Roll to Aug or Sep merits analysis (separate Thread 3).
 - **$42.5P Aug:** Correct duration. Aug captures (a) Q2 reserve build acceleration confirmation, (b) IQHQ maturity, (c) Chapter Buildings LOI close/fail.
 

@@ -20,7 +20,7 @@
 
 3. **Weighted expected loss on the $555M funded tranche: ~$129M** [REVISED 7/23 reweight; was ~$142M] (see §4). This is **~21% of OZK's Q2'26 ACL ($617.8M) on one credit** [was 22.6% of Q1 ACL $628M]. Scenario B (substandard migration + specific reserve build) is the **45%** most-likely outcome [was 50%] and would trigger the **single largest specific reserve in OZK history** ($140-195M) *if* the appraisal breaks — per the §3 re-derivation, initial reserve at migration can be $0–75M.
 
-4. **Position read: $42.5P Aug 21 is correctly-duration'd for this thesis.** It captures (a) Scenario B specific-reserve book at maturity resolution, (b) Scenario D distressed resolution, and (c) the indirect cues — OZK Q2 earnings call (late Jul), Q2 Call Report (~Aug 1), and Bluerock/Aimco legal developments between now and Aug. The $45P May 15 does not capture this — far too tight.
+4. ~~**Position read: $42.5P Aug 21 is correctly-duration'd for this thesis.**~~ ***[DEAD 2026-08-23 — that leg and the $45P Aug-21s expired worthless at the 8/21 OPEX; OZK holds no options. §6 carries the full tag. The scenario weights in points 1-3 and 5 are unaffected.]*** Original read: It captures (a) Scenario B specific-reserve book at maturity resolution, (b) Scenario D distressed resolution, and (c) the indirect cues — OZK Q2 earnings call (late Jul), Q2 Call Report (~Aug 1), and Bluerock/Aimco legal developments between now and Aug. The $45P May 15 does not capture this — far too tight.
 
 5. **The leading-indicator calendar has specific, dated checkpoints between now and Aug** (see §5). Top-3 checkpoints: Bluerock Q1 2026 NAV marks (~3/31 fund reports land May-Jun), IQHQ motion-to-dismiss response on Aimco (early Jun), RaDD lease signings (any >20K SF is material).
 
@@ -245,9 +245,12 @@ Hamblen's April 22 "better than December" language is **pipeline talk (tours/RFP
 
 ---
 
-## 6. POSITION IMPLICATIONS
+## 6. POSITION IMPLICATIONS — ⏹️ HISTORICAL
 
-**Current positions (FORGE):**
+> ### ⏹️ **DEAD SURFACE — POSITION READS BELOW ARE HISTORICAL (dated-tag 2026-08-23)**
+> **Every option leg named in this section is EXPIRED.** The May-15 lines expired 2026-05-15; the **Aug-21 lines ($45P ×4, $42.5P ×1) expired WORTHLESS at the 2026-08-21 OPEX** under Will's 8/4 RIDE ruling — realized −$1,686.37 / −100%. **OZK holds zero options.** The duration reasoning below is preserved as a **record of how the expiry was chosen**, not as guidance: read it as history, never as a live position read. ⚠️ **The SCENARIO analysis in this playbook is NOT retired by this tag** — weights **A30/B45/C8/D17**, weighted EL **~$129M**, and OZK-09 at **45%** are all current and untouched. What died is the wrapper, not the thesis. Live position state → `POSITIONS.md`.
+
+**Positions as they stood when this section was written (all now expired):**
 - $42.5P Aug 21 — 1 contract
 - $45P Aug 21 — 4 contracts (2 prior + 2 @ $4.05 Mar 24)
 - $42.5P May 15 — 2 contracts
