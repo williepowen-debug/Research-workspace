@@ -1,7 +1,11 @@
 # FIRE CARD — KRE — Regional-bank puts (fresh deploy)
 **Setup ID:** TRY-FIRE-001 · **Trigger class:** PRICE
-**Thesis owner:** REGINALD (regional/CRE) + NEXUS (regime) · **Card pre-built:** 2026-06-26 · **Fired:** ____ (never fired)
-**Terry verdict:** 🔴 **NO FIRE** *(2026-07-30 — the entry trigger is **MET** and has been since 7/27; TERRY declines anyway. Header added by `scripts/ledger_sweep.py` check C, which caught that this line still read the unfilled template `CLEAN / CONDITIONAL / NO TRADE` while the card body already declared NO FIRE.)*
+**Thesis owner:** REGINALD (regional/CRE) + NEXUS (regime) · **Card pre-built:** 2026-06-26 · **Fired:** ____ (**never fired**)
+**Terry verdict:** 🔴 **RETIRED (terminal) 2026-08-21 — Will-ruled on TERRY's own recommendation. Card DEAD; PREMISE PRESERVED UN-GRADED. `$0` at risk from build to retirement (57 days).** *(Encoded 2026-08-23. Ruling of record: `PROME/proposals/2026-08-21_retro-sweep-and-tryfire001-RULED.md` — Will's verbatim word: **"Rule the retroactive-sweep and TRY-FIRE-001 off your recs."** Delivered via `inbox/2026-08-21_from-PROME_TRY-FIRE-001-RULED-retire-preserve-premise-rebuild-respec-unblocked.md`.)*
+> ⛔ **RETIREMENT IS INSTRUMENT-DEATH, NOT PREMISE-REFUTATION — and the distinction is the whole ruling.** The repricing this card was built to catch is **real and still unexplained**; REGINALD's measured NULL mechanism **strengthens** the preserve rather than closing it. **The premise is NOT graded, NOT scored as a miss, and NOT available to be cited as a refuted call.** The **not-credit-≠-nothing** caveat rides with every future cite: all of REGINALD's instruments measure **CREDIT**; the finding is *"not credit,"* never *"nothing."* **Rebuild gates stand as pre-registered — see § RETIREMENT below. Reviving this is a NEW card, never a resumed one (`RISK_RULES` #18).**
+> ⛔ **NO POSITION ACTION IMPLIED OR AUTHORIZED.** The card held **`$0`** (the PB-0004 refusal stood). The book's KRE Sep/Dec puts and bank legs **predate this card and are untouched.** Any exit/roll/add is a **separate proposal → Will [Approve]**, on live marks, root rule #4.
+>
+> *Prior verdict, kept as the dated record:* 🔴 **NO FIRE** *(2026-07-30 — the entry trigger was **MET** and had been since 7/27; TERRY declined anyway. Header added by `scripts/ledger_sweep.py` check C, which caught that this line still read the unfilled template `CLEAN / CONDITIONAL / NO TRADE` while the card body already declared NO FIRE.)*
 **Status:** STAGED / **unfired, $0 at risk** — PROPOSE-ONLY, Will [Approve] required (rule #5). Detection owned by LIQUID/SENTRY — ⚠️ ~~which did not deliver: the 7/27 cross never reached TERRY — found 7/30 by accident~~ **CORRECTED 2026-07-30 15:45: DETECTION FIRED CORRECTLY AND ON TIME; the failure is DELIVERY.** LIQUID's watcher logged `🚨 ESCALATION 🟡→🔴 HY OAS 281bps` at **2026-07-28 13:00** — FRED publishes T+1, so that is the **first possible opportunity**. It writes to a local log with **no routing leg to any consumer**. LIQUID owns the routing build. **TERRY does not re-own the ZONE-1 detection line.**
 
 > **Why NO FIRE on a MET trigger** (full reasoning in the 7/30 section below, summary here so the header is not misread as a pending approval): HY path **268 [7/22] → 281 [7/27] → 284 → 287 [7/29]**, three consecutive obs ≥280. ~~quality-sorted CCC +32 > HY +19 > IG +3 = genuine-stress signature~~ **← WITHDRAWN 7/30, see §2 of the 7/30 section: that ordering is mechanically forced and inverts under normalization.** **The transmission this card is built on is not happening** — KRE **$76.15, 2.3% under its 6mo high**, flat-to-up across the exact sessions HY widened, so the setup's *"before the equity tape catches the spread move"* premise has the tape moving the **other way**; the card's KILL line sits **closer than its CONFIRM line**; and ~~the live credit story looks like **AI-capex vendor financing, not banks** (attribution routed to LIQUID + REGINALD, unresolved)~~ **→ ATTRIBUTION NOW RULED (LIQUID + REGINALD, 7/30): neither. Broad DM HY risk-premium beta 68–84%; AI cohort 15–30%; bank/CRE ~0%, confidence HIGH.** `finding_threshold_vs_mechanism` holds — the threshold fired on a mechanism this card was never built for — but the mechanism is **broad beta on a rate repricing**, not the AI-capex story TERRY had inferred. **Card stays STAGED, ZONE 2 deliberately empty.**
@@ -109,6 +113,48 @@ The prior range high on 7/30 was **77.92 (7/16)**. **KRE closed 77.93 on 2026-08
 - **(a) DEAD on the letter** as of 8/14 — the defensible default, and my recommendation absent a ruling.
 - **(b) The kill was a mis-specified tripwire** (unqualified 1-cent reclaim vs the HY leg's "sustained") that fired one session before the tape delivered the card's own confirm leg.
 **I recommend (a) unless Will rules otherwise.** ⚠️ And note that (b) is not a free option: **`RISK_RULES` #18 binds at any rebuild — the pre-built "8–12% OTM, 3–6mo" structure does not survive a fresh build**, same finding as `TRY-FIRE-002`. **Reviving this is a NEW card, not a resumed one.**
+
+---
+
+## 🔴 RETIREMENT — RULED 2026-08-21 (Will), ENCODED 2026-08-23 (TERRY)
+
+**Will's verbatim word:** *"Rule the retroactive-sweep and TRY-FIRE-001 off your recs."* → **recommendation (a) accepted in full.** Record: `PROME/proposals/2026-08-21_retro-sweep-and-tryfire001-RULED.md`.
+
+**Terminal state:** built **2026-06-26** → retired **2026-08-21**. **57 days · NEVER ARMED · NEVER FIRED · `$0` at risk throughout.** The entry trigger was **MET** (HY OAS ≥280 sustained, 7/27–7/29) and TERRY **declined** — that refusal is the card's product and it is now graded by nothing, because nothing was risked.
+
+### What retirement does and does not mean
+| | |
+|---|---|
+| **Card / instrument** | 🔴 **DEAD, terminal.** Archived. Not a shelf, not a pause. |
+| **Premise** | 🟢 **PRESERVED, explicitly UN-GRADED.** The repricing is real and still unexplained. **Not a refuted call; never to be scored as a miss.** |
+| **Position** | **`$0` — nothing to unwind.** Book's KRE/bank legs predate the card and are untouched. |
+| **Rebuild** | **Gates stand as pre-registered (below). A rebuild is a NEW card** — `RISK_RULES` #18 binds and the pre-built "8–12% OTM, 3–6mo" structure does **not** survive a fresh build. |
+
+### ⭐ REBUILD CONDITION #1 — RE-SPECIFIED. **"REGIONAL" IS THE WRONG FRAME AND THE MEASUREMENT SAYS SO.**
+**This re-spec was held deliberately and is now UNBLOCKED.** TERRY refused to rewrite a rebuild condition while the card's disposition sat with the approver — **order-of-operations, and PROME has put that refusal on the ruling record as correct.** The disposition has now been ruled, so the re-spec executes here.
+
+**The measurement (TERRY, 2026-08-20, own numbers):** **KBE −4.05% ≈ KRE −4.19% — 14bp apart.** **C is 3rd-worst of 38.** **JPM and BAC are the STRONG-side outliers.** ⇒ **the selloff does not discriminate regional from money-center; if anything the large-cap tail is inside it.** A condition written against *"regional"* would therefore be satisfied or refuted by a distinction the tape does not draw.
+
+| | old (retired wording) | **NEW — binds at any rebuild** |
+|---|---|---|
+| **Frame** | ~~"regional"~~ | **BANK-SECTOR** |
+| **Reference vehicle for the frame test** | ~~KRE alone~~ | **KBE *and* KRE together** — a rebuild must show the move is **bank-sector-wide**, not a KRE-only artifact. If KBE and KRE diverge materially, the "regional" story is back in play and must be **re-argued, not assumed.** |
+| **Disqualifier (new, from the same measurement)** | — | **JPM/BAC on the STRONG side while the sector sells off is evidence AGAINST a sector-credit mechanism**, not neutral. |
+
+⛔ **The re-spec changes the FRAME ONLY. No level moved, no threshold shaved, no new trigger created, and it does not make a rebuild easier** — it makes the frame test *harder* by requiring two vehicles to agree where one was required before. **`$0` moved.**
+
+### Rebuild gates — UNCHANGED, restated so they survive the archive
+The falsifiable re-entry table above (§ *Restated re-entry conditions*, 2026-07-30) **stands verbatim as the rebuild spec**, now read under the BANK-SECTOR frame. In PROME's summary form: **a named mechanism + persistence (n≈7) + credit confirming — or the vehicle changes.** Plus the card's own explicit NON-datums, which survive retirement:
+- ⛔ **KRE breaking support ALONE is not a re-open datum** (7/29 showed it can be purely rate-driven).
+- ⛔ **Another leg of HY widening ALONE is not a re-open datum** — *the whole finding is that HY by itself carries no bank information.*
+
+### ⚠️ ONE KNOWN SPEC DEFECT, CARRIED FORWARD DELIBERATELY AND **NOT** REPAIRED HERE
+The **kill-tripped-with-qualifier-asymmetry** defect (`d98b9d8a8`): the kill clause's KRE-reclaim leg is **unqualified** while its HY leg says **"sustained"** — so the kill tripped on 8/14 on a **1-cent** reclaim, one session before the tape delivered the card's own confirm leg. ⛔ **This is flagged for the REBUILD SPEC and is deliberately NOT repaired on a retired card.** Repairing a spec on a dead instrument produces a corrected artifact nobody will ever run, and risks the rebuild inheriting a fix that was never tested against a live tape. **Whoever builds the successor must resolve the asymmetry explicitly — both legs qualified, or neither.**
+
+### Open question that outlives this card (NOT TERRY's)
+Does REGINALD re-read the bank leg given **`CREED-T-02`** (fired 8/20)? **That question is LIVE and belongs to REGINALD** — it did not die with the instrument. TERRY's read stands: T-02 **sharpens the negative** rather than rescuing the premise, because the deterioration it detects was *already in the data* when the bank/CRE ≈ 0% attribution was made.
+
+**⛔ `$0` moved. No gate, no threshold, no verdict re-issued. Nothing proposed.**
 
 ---
 

@@ -1,12 +1,12 @@
 # FIRE CARDS — Ladder & Comparison
 > **Master registry of ALL cards (live/staged/archived) → `setups/INDEX.md`.** This file is the fire-card (001-004/006) side-by-side comparison detail only.
 
-**Updated:** 2026-08-19 ~20:5x ET (**004 section given a dated CURRENT-STATE line — 25× live, rulings B+C encoded**; header's "live ladder" list reconciled: it still carried 006 a day after the 8/18 retirement — **fourth distinct staleness on this file**, recorded not overwritten). *Prior stamp: 2026-08-07 ~16:4x ET (TRY-FIRE-007 added and immediately recorded DEAD — its 8/7 15:30 COT resolver fired the DENY branch; 007 was absent from this file for its entire 4-day life).* · **Owner:** TERRY · **Status:** live cards **PROPOSE-ONLY**, **$500 max-loss/card**. **★ 1 fire-card fired live** (TRY-FIRE-004, 7/20 — now **25× live** after the 7/31 harvest). **Live ladder = 001-004 · 005 = DEAD · 006 = RETIRED (2026-08-18) · 007 = DEAD (2026-08-07).**
+**Updated:** 2026-08-23 Sun ~00:2x ET (**TRY-FIRE-001 RETIRED — Will-ruled 8/21, encoded + archived this session; premise preserved un-graded, rebuild condition #1 re-specified "regional" → BANK-SECTOR**). *Prior stamp: 2026-08-19 ~20:5x ET (**004 section given a dated CURRENT-STATE line — 25× live, rulings B+C encoded**; header's "live ladder" list reconciled: it still carried 006 a day after the 8/18 retirement — **fourth distinct staleness on this file**, recorded not overwritten).* *Prior: 2026-08-07 ~16:4x ET (TRY-FIRE-007 added and immediately recorded DEAD — its 8/7 15:30 COT resolver fired the DENY branch; 007 was absent from this file for its entire 4-day life).* · **Owner:** TERRY · **Status:** live cards **PROPOSE-ONLY**, **$500 max-loss/card**. **★ 1 fire-card fired live** (TRY-FIRE-004, 7/20 — now **25× live** after the 7/31 harvest). **Live ladder = 002-004 · 001 = RETIRED (2026-08-21) · 005 = DEAD · 006 = RETIRED (2026-08-18) · 007 = DEAD (2026-08-07).** ⚠️ **004 is now the ONLY fire card that is both live and fired; 002/003 remain unfired PRINT-triggered stages.**
 *(Prior stamp: 2026-07-17 ~15:45 ET — TRY-FIRE-006 PRE-BUILT, Kharg-strand energy tail, flow-anchored, $200 tranche; built ≠ armed, blocked on a FALCON Kharg-loadings data-source freeze.)*
 Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital deploys ONLY on a fired trigger — never pre-position. Update this doc when a card is added/fired/invalidated.
 
 **The cards:**
-- `PRICE-TRIGGER_HY280_regional-put.md` — TRY-FIRE-001
+- ~~`_archive/PRICE-TRIGGER_HY280_regional-put.md`~~ — 🔴 **TRY-FIRE-001 RETIRED 2026-08-21 (Will, on TERRY's rec), archived 2026-08-23** — KRE regional-bank puts, PRICE-triggered on HY OAS ≥280 sustained. **57d · never armed · never fired · `$0` at risk.** The trigger was **MET** 7/27–7/29 and TERRY declined; attribution ruled bank/CRE ≈0% HIGH confidence = the card's mechanism measurably absent. ⚠️ **PREMISE PRESERVED UN-GRADED** (instrument-death, not premise-refutation); rebuild gates stand, **rebuild condition #1 re-specified "regional" → BANK-SECTOR**; a re-arm is a **NEW card** (`RISK_RULES` #18). See § below.
 - `PRINT-TRIGGER_WAL-EGBN-build.md` — TRY-FIRE-002
 - `PRINT-TRIGGER_monoline-COF-SYF-ALLY.md` — TRY-FIRE-003
 - `FLOW-TRIGGER_duration-TLT-put.md` — TRY-FIRE-004 (duration/TLT puts, flow/velocity-discriminator-gated — spec routed by PROME 7/6, ID-corrected 7/8, card built + 7/9 arm-#1 DEAD recorded; 7/9 PM red-team patch re-scoped thesis + invalidations, card stays ALIVE)
@@ -18,7 +18,9 @@ Living index of the staged fire cards. Standing rule (Will 6/26): fresh capital 
 
 ## Comparison
 
-| | **TRY-FIRE-001** | **TRY-FIRE-002** | **TRY-FIRE-003** |
+> ⚠️ **The `TRY-FIRE-001` column below is DATED HISTORY as of 2026-08-21 — the card is RETIRED and archived.** It is kept in the comparison because the 001↔002↔003 contrast is what this file is *for*, and deleting the column would destroy the record of how the three were specced against each other. **Do not read the 001 column as a live stage.**
+
+| | ~~**TRY-FIRE-001**~~ 🔴 **RETIRED 8/21** | **TRY-FIRE-002** | **TRY-FIRE-003** |
 |---|---|---|---|
 | **Target** | KRE (regional ETF) | WAL / EGBN (single-name regional) | COF / SYF / ALLY (monoline) |
 | **Trigger class** | **PRICE** | **PRINT** (regional) | **PRINT** (consumer) |
