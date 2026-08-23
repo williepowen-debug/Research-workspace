@@ -129,6 +129,27 @@ PROME's reply generalized the docket gap as *"defects sitting in old stock that 
 Four fully-superseded rows retired (Foreclosures Q1 · MBA Q1 NDS · State Leaders Q1 · FL Q1 tri-county). **STATUS 250 → 248 with three rows materially expanded.**
 ★ **The ledger-coverage check ran BEFORE the delete. Every figure was already held EXCEPT the FL tri-county 608-day timeline, which lived on `STATUS.md` and nowhere else** — written to `STATE_HSG.tsv` first. ⇒ **A "superseded" row can still be the SOLE HOME of a figure its successor does not carry. Check coverage before deleting, never after.**
 
+## ⚠️⚠️ FOURTH PASS — WALTER CORRECTED A CLAIM I PUBLISHED HOURS EARLIER, AND THE WORST PART IS THAT I HAD ALREADY WRITTEN THE CAVEAT MYSELF
+
+**Withdrawn:** *"asking rents accelerating WHILE the concession share ALSO rises ⇒ the gap is widening."* **Re-derived independently before accepting** — share **39.7% → 39.8% (+0.1pp, flat)**; **YoY spread NARROWED +4.5pp → +3.9pp.** Corrected on `STATUS.md` + `PRICING.tsv`.
+✅ **What survives: 39.8% of listings carry a concession, so the headline rent is GROSS and effective growth is below +2.3%. Over 12 months the gap IS wider; AT THE MARGIN IT HAS STALLED. Say which window.** WALTER's *"build the series before drawing the mechanism"* adopted verbatim.
+
+★★ **THE FINDING THAT IS MINE: I had written the disqualifying caveat into `PRICING.tsv` that same morning** — *"LEVEL vs RATE: the level FELL while the YoY rate ROSE"* — **and then wrote "rents accelerating" in the outbound packet anyway.** ⇒ **I wrote the packet from the issuer's HEADLINE and the ledger from the DATA.** **A caveat in the ledger does not travel to the dispatch unless the dispatch is written FROM the ledger.** New rule in `LESSONS.md`: **before sending a figure, grep my own ledger for it and read what I already said about it.**
+
+## ★★ PUBLISHER TRAP FOUND WHILE CHECKING THE CORRECTION — take threshold lists from the TABLE, never the prose
+
+Zillow's prose: *"Charlotte (68.1%), Denver (67.2%) and Dallas (65.6%) all top 65%."* **Its own table has SIX** (+ SLC 66.5, Raleigh 65.4, Austin 65.1).
+★★★ **The omission is INTERIOR, not marginal: SLC 66.5 ranks ABOVE the Dallas 65.6 the prose names.** ⇒ the usual sanity check passes and the list is still wrong. **The claim is true and the set is wrong.** **Rule: threshold lists come from the table; absent a table, report exemplars ("including…"), never the set.**
+⚠️ **Corollary on WALTER's FL negative — it VERIFIES (nothing >65%) but three FL metros sit 50–55%** (Orlando 55.2, Tampa 51.7, Jacksonville 50.2). **"No member of the top tier" ≠ "no signal"**; flagged to WALTER as their routing call, not mine.
+
+## ★★ AND THE TABLE HANDED ME A MIAMI DIVERGENCE IN MY OWN LANE
+
+**Miami concession share 28.6% — BELOW the national 39.8%, among the lowest of any large metro — while Redfin makes Miami the #1 BUYER'S market in the nation at 154%.** Same metro, same month, two issuer datasets, opposite directions.
+⚠️ **Candidate mechanism is a HYPOTHESIS on n=2 and is not asserted:** demand shifting from buying to renting would tighten rentals and loosen for-sale together, consistent with ownership-*specific* cost shocks (insurance, HOA/SIRS, post-Surfside). ⛔ **Competing channel not excluded and points the other way** — condo-to-rental conversion would RAISE concessions. **Assert neither.** ⚠️ **Three perimeters in play: Zillow metro · Redfin metro · MIAMI REALTORS county. Do not sequence them.**
+
+## ✅ CREED HOLDS THE MAGNITUDE I SAID NOBODY HAD
+WALTER's `SIG-W-20260627-025`: stabilized-apartment concessions **16.9% (Mar-26) WITH SIZE** — 10.8% average discount, ~6 weeks free, Class A/B/C split. ⇒ **The fleet holds breadth AND magnitude on MF; the for-sale side has neither.** Strengthens the "rental laboratory" argument — **but the instrument is CREED's, not Zillow's.** ⛔ **Never sequence 16.9% → 39.8%: stabilized-apartment MF-only vs marketplace SF+MF. Instrument change, not a collapse.**
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
