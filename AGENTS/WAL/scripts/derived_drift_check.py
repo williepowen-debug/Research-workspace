@@ -26,7 +26,7 @@ values sitting beside historical ones
 (`finding_supersession_marker_suppresses_the_live_value_beside_it`).
 
 MEASURED PRECISION, stated so nobody reads a nonzero count as failure. On the
-swept tree of 2026-08-20 this settles at a BASELINE of ~10 check-1 and ~23
+swept tree of 2026-08-23 this settles at a BASELINE of 11 check-1 and 35
 check-2 hits (CHECK 3 clean after the closeout sync), and nearly all of them are correct history whose marker sits
 outside the proximity window (dated KB rows, superseded THESIS/SCENARIOS
 sections). Unscoped it returned 54/32 — that is alert fatigue, and a check
@@ -190,7 +190,20 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 11, 23      # swept baseline 2026-08-20 closeout (CHECK 3 added); re-baseline on each sweep
+        BASE_DRIFT, BASE_REVIVED = 11, 35      # RE-BASELINED 2026-08-23 (session #4 sweep). Was 11,23 (8/20 closeout).
+                                               # check-2 moved 23 -> 35 for TWO known reasons, neither of them new rot:
+                                               #   +1  the 8/20 NEXUS_BRIEF re-pin landed AFTER the 8/20 baseline was written,
+                                               #       so the tree the number described was already one edit old. (Read 24/23 for
+                                               #       three days: a check permanently 1 above baseline trains its reader to ignore it.)
+                                               #   +11 SEVEN new RETIRED_CLAIMS patterns added 8/23 (the 77.5P 'lapsed' grade,
+                                               #       '3 legs', 'six consecutive down', the July '$83.11/+$5.11' buffer, 'PT $52-74',
+                                               #       'v2.3 is CURRENT', and the three dead threshold distances). Each new pattern
+                                               #       also matches the audit-trail lines that RECORD the death, whose marker sits
+                                               #       outside MARKER_WINDOW. Verified hit-by-hit 8/23: every 8/23-dated hit is a
+                                               #       line SAYING the claim is dead, not a surface still asserting it.
+                                               # ⚠️ KILLING A CLAIM RAISES THIS BASELINE. That is the tool's own cost of the discipline
+                                               #    it enforces, and it is why the docstring says re-baseline ON EACH SWEEP -- an
+                                               #    un-re-baselined check reads RED forever and stops being read.
         if len(drift) > BASE_DRIFT or len(revived) > BASE_REVIVED:
             print(f"🔴 derived drift ABOVE BASELINE: {len(drift)}/{BASE_DRIFT} stale value token(s), "
                   f"{len(revived)}/{BASE_REVIVED} retired claim(s) — something NEW rotted; run without --quiet")
