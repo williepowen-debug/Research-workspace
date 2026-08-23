@@ -85,6 +85,23 @@ PROME's reply generalized the docket gap as *"defects sitting in old stock that 
 
 ⚠️ **The self-correction I gave PROME and would keep: the string sweep was NOT the weak instrument.** The tempting write-up is *"string sweeps are weak, age audits are strong"* and it is false — **the cheap complete check is what buys the license to keep looking.** The same holds one level up: the age audit found four series, and only enumerating the CHARTER found the fifth.
 
+## ★★ RUNG CENSUS (Will-directed, late session) — the 8/22 disarm was the right call on the wrong scope
+
+**21 rungs tested across my whole threshold table. 9 have never discriminated in any window I hold.** The test is one question per LEVEL, not per row: *has this level been crossed by EVERY observation I hold?*
+
+★★ **"Pinned" is a PER-RUNG property.** On 8/22 I disarmed National Foreclosures because all three of its rungs were pinned or unreachable, and treated it as a whole-band disease. **It is not: Freddie MF, FHA DQ and EHS each carry TWO permanently-crossed rungs; Fannie MF, PMMS and Builder Price Cuts each carry one.** **Every audit I had been running asks a per-ROW question** (does it have levels? is the comparator right? is there a feed?) — **and a row with one dead rung and two live ones passes all of them.**
+
+★★★ **THE CENSUS OVER-CLAIMED ON ITS FIRST RUN AND I CAUGHT IT BEFORE RECORDING.** The script printed "9 pinned." **That is a claim about MY SAMPLE, not about the metric.** Split by window: **4 CONFIDENTLY STRUCTURAL** (30-Yr Yellow >5.5% · EHS Yellow <5.0M AND Orange <4.5M · FHA Yellow >8% — multi-year facts) and **5 SAMPLE-LIMITED, CANNOT CLAIM** (Fannie Yellow · Freddie Yellow AND Orange · Builder cuts Yellow on 4 months · FHA Orange). **Freddie is the warning against my own tool: my 10-Q shows the non-CE segment at 0.13%, so the blend was plausibly under 0.40% in 2023 — that rung probably DID discriminate.** ⇒ **4 pinned, 5 unknown. Not 9 dead.**
+
+✅ **FIX IS A REPORTING RULE, MINE, ZERO LEVELS MOVED — and it is binding on every surface, packet and brief: state the highest UNCROSSED rung and the distance to it, never the highest crossed one.** *"Fannie MF is YELLOW"* is a label; *"Fannie MF 0.60%, 5bps below Orange, Red untested"* is a signal. ⛔ **Re-levelling any pinned rung is a RETUNE and is WILL-GATED — not proposed.**
+✅ **CLEAN: 90+/FC (all three rungs discriminate — ~674K a year ago, below Yellow). FL ANNUAL + RATIO clean but ONCE-A-YEAR instruments; "no reading" is their normal state.**
+
+## ⛔⛔ AND A SECOND BAND WITH NO FEED — RENT GROWTH, LAST READING ABOVE RED
+
+**56% of top-100 cities negative — Apollo/Slok, JANUARY 2026 — against a Red level of >55%.** ⇒ **A RED-band metric, seven months unrefreshed.** **Why: Apollo/Slok was superseded in practice by Zillow on 7/31, but Zillow does not publish this statistic. The band survived the source swap; the metric did not.**
+⚠️ **It sat behind a `[STALE — Jan data]` tag I applied myself — the SECOND self-applied stale tag found today** (Google Trends was the first). ⇒ **A self-applied stale tag is worse than an unlabelled row, because it reads as handled and is skipped by the reader most likely to fix it — me, at every boot.** **New rule in `LESSONS.md`: a staleness tag is only permitted with a DATED CONDITION attached.**
+✅ **Successor named now: % of tracked metros with negative rent YoY, computable from the Zillow metro series I already receive.** ⚠️⚠️ **Adopting it is a RETUNE, not a swap — different metro universe, different distribution, so 20/40/55 cannot travel. Will-gated, docketed, NOT proposed.** ⛔ **Until ruled, the row grades nothing — do not report Red on the January figure, do not report silence as "rents are fine."**
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
