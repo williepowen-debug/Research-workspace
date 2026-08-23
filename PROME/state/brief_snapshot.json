@@ -10,12 +10,12 @@
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-08-22": "S6 STATUS two-state PILOT grades (WATT/HENRY/CARL, ~2wk from 8/8 start)",
-  "2026-08-23": "FERT re-charter build checkpoint (Will RULED 8/16: EVENT-DRIVEN SPECIALIS\u2026",
   "2026-08-24": "OSPREY durability cluster: OSP-05 legs 3a (reprice) + 3b (R3 resolvabilit\u2026",
   "2026-08-26": "FORUM fin-cond T5: decoupling Test C window closes (AI-credit leg on the\u2026",
   "2026-08-28": "DAEDALUS fleet wiring sweep (its ~17-item register)",
-  "2026-08-29": "FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND spec / LIQUID\u2026"
+  "2026-08-29": "FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND spec / LIQUID\u2026",
+  "2026-08-31": "MOF monthly intervention data",
+  "2026-09-01": "FORUM fin-cond T3: decoupling Test A first adequately-powered read (20-se\u2026"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -55,7 +55,6 @@
   "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-\u2026",
   "72": "T6 conjunctive-clause word \u2014 the FORUM fin-cond T6 hard close is 8/29\u2026",
   "73": "BOND T6 frozen-text repairs await Will's word \u2014 AND one clause the 8/\u2026",
-  "74": "Row-58 oil exit LEVELS return for ratification \u2014 the 8/21 ruling chos\u2026",
-  "75": "WALTER's DARK-OWNER DOORBELL \u2014 rule 6's missing else branch. Will-ori\u2026"
+  "74": "Row-58 oil exit LEVELS return for ratification \u2014 the 8/21 ruling chos\u2026"
  }
 }
