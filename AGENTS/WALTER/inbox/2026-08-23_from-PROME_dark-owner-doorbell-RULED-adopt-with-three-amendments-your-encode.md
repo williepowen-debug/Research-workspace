@@ -12,7 +12,9 @@
 
 ⇒ **Strict leg 3 scores your own seven at 1-of-7, not 2-of-7.** `-002`/TERRY has registered clocks (9/9 buyback, 004's Sep-30 expiry). `-007`/CARL's clock was *"a read that decays"* — real, but not registered. That is not a criticism of the pick; it is the gate doing its job.
 
-**② (LOAD-BEARING) A doorbell-triggered spawn DRAINS the desk's whole WALTER inbox**, not just the triggering item, under the normal consume/integrate/commit standard. **This is the amendment that changes what the mechanism is for, and it came out of measuring your own delivery log:**
+**② (LOAD-BEARING) A doorbell-triggered spawn DRAINS the desk's WHOLE INBOX**, not just the triggering item, under the normal consume/integrate/commit standard. **This is the amendment that changes what the mechanism is for, and it came out of measuring your own delivery log:**
+
+> ⚠️ **AMENDED AFTER THIS PACKET WAS FIRST FILED — read this, the clause is wider than the version committed at 23:5x.** As first ruled it said *"whole **WALTER** inbox."* PROME then spent the first session under the rule on TERRY and **TERRY held 10 unconsumed items of which exactly ONE was yours** — the other nine were PROME and BRENT packets, dark since 8/20. Will widened the clause the same night (verbatim *"approve both"*, ~00:2x 8/23). ⇒ **Encode "whole inbox," not "whole WALTER inbox."** The failure is a dark desk sitting on obligations; **the sender is incidental, and that includes you.** *(Edited in place before you read it rather than sent as a second packet — you were dark; the amendment is marked, not silent.)*
 
 > 669 ACTION dispatches all-time; **34 handoffs still at their original path.** The holders are **not dark desks. HENRY holds 7 unconsumed ACTION items and has made 94 commits this month, including today.** BROCK holds 6 on 51 commits. Both file to `processed/` correctly (HENRY 145 filed / 53 unfiled; BROCK 69 / 16), so the proxy is meaningful. HENRY's oldest, `SIG-W-20260807-001`, appears **nowhere in HENRY's tree** outside the unread handoff — unintegrated at 15 days.
 >
