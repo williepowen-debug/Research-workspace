@@ -195,7 +195,11 @@ Housing is the largest asset and largest liability for most American households,
 2. Read `STATUS.md` (dashboard + BOTTOM LINE).
 3. Read `SCRATCH.md` (last session handoff).
 4. Read `LESSONS.md` (mistake patterns — apply, don't re-learn).
-5. Check `docket/CATALYSTS.tsv` for due/near-due rows.
+5. **Docket sweep at BOOT — ENUMERATE, do not scan (ported from CLOSEOUT 5b 2026-08-23, Will-approved; DAEDALUS card 2c).**
+   `awk -F'\t' 'NR>1 && $1 !~ /^RESOLVED/ {print $1" | "$2}' docket/CATALYSTS.tsv`
+   Then ask of **each** printed row: **"is this due, near-due, or lapsed — and does anything this session must do depend on it?"**
+   > ★ **Why the closeout form is ported here verbatim: BOOT decides what the session WORKS ON; closeout only decides what gets recorded.** 5b's own rationale applies unchanged — *"enumerate, do not recall"* — and a row that is never printed is never asked about. **The 8/22 defect that forced 5b (a graded NAHB print whose docket row stayed open and keyed to a stale date) was a CLOSEOUT miss; the same row would have been mis-prioritised at BOOT for the same reason.**
+   > ⚠️ **This replaces "check for due/near-due rows," which is a RECALL instruction: it asks me to notice what is due without putting the rows in front of me.** One `awk`, ~10 seconds.
 6. Staleness check (cwd-proof, PAT-031):
    `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" HOMER --quiet`
 7. Workbook staleness eyeball: `PIPELINE.tsv` / `MULTIFAMILY.tsv` / `STATE_HSG.tsv` / `BUILDER.tsv` / **`RATES.tsv`** / **`PRICING.tsv`** are **LIVE** two-state ledgers — each carries a `# LIVE — Last real data refresh: <date> | Next: <catalyst>` header line; `KB.tsv` is **FROZEN** (2026-07-10, parent-era, provenance-stable) — new rows go to the fresh live ledger `workbook/KB_LIVE.tsv`, not into the frozen file.
@@ -208,7 +212,15 @@ Housing is the largest asset and largest liability for most American households,
 
 ## CLOSEOUT
 
-1. `STATUS.md` write-back (≤250 lines) + trailing `## BOTTOM LINE`.
+1. **`STATUS.md` write-back + trailing `## BOTTOM LINE`. ⚠️⚠️ THE BINDING CONSTRAINT IS BYTES, NOT LINES (adopted 2026-08-23, Will-approved; DAEDALUS card 2a).**
+   > ⛔⛔ **THE 250-LINE CAP IS DEMOTED TO ADVISORY AND MUST NOT BE TREATED AS THE CONTROL. IT WAS AIMED AT THE WRONG AXIS AND WAS ACTIVELY HARMFUL.** **Measured 2026-08-22 → 08-23: the file went 247 → 248 LINES while its BYTES grew 27% (160KB → 203KB) and its DENSITY grew 27% (647 → 820 B/line).** ⇒ **I held the cap all day and the file got 27% bigger.** **A line cap is not a size control; it is a COMPRESSION INCENTIVE**, and five archived BOTTOM LINE paragraphs literally announce themselves as *"COMPRESSED for the 250-line cap."* **The cap produced them.**
+   > ✅ **BYTE TIER: soft 150,000 B · hard ceiling 170,000 B.** **Basis, so this is a derived level and not an invented one:** the non-narrative core measures **~127KB** (dashboard tables 74KB + OPEN ITEMS 36KB + catalysts/predictions 17KB) and is **irreducible without deleting data**; post-collapse the file sits at **~164KB**. **The soft tier is set BELOW current on purpose so it BINDS NOW**; the hard ceiling sits just above so there is no manufactured crisis. **Re-derive both if the dashboard's own size changes materially.**
+   > ✅ **AND THE TIER IS THE DETECTOR, NOT THE CONTROL — the control is the RETENTION RULE** (`finding_mechanize_the_cap_not_the_ritual`): **① ONE NARRATIVE HOME PER SESSION.** Header session-blocks and BOTTOM LINE prose were narrating the same sessions twice — **35KB + 41KB = 37% of the file** — while BOTTOM LINE sat at **84% depth, below every read cut.** **② `## BOTTOM LINE` carries the CURRENT SESSION ONLY.** **③ Header blocks retain the THREE most recent session dates.** **④ Everything older `git mv`s to `archive/` — RELOCATED, NEVER DELETED, and every FIGURE stays live in the dashboard tables and the workbook.**
+   > ⚠️ **NEVER compress live prose to satisfy a size rule. Archive aged content instead.** Compression is what produced the 820 B/line file; it converts a readable page into a dense one and reports success.
+1b. **BYTE-TIER CHECK — mechanized, not remembered (adopted 2026-08-23 with the tier itself).**
+   `python3 -c "import os;b=os.path.getsize('STATUS.md');print(f'STATUS {b:,}B',['OK','SOFT-BREACH','HARD-BREACH'][(b>150000)+(b>170000)])"`
+   **SOFT-BREACH ⇒ archive aged narrative or closed OPEN ITEMS this closeout. HARD-BREACH ⇒ do it before the commit, not after.**
+   > ★ **Why a command and not a line in the protocol: the 250-line cap WAS a remembered ritual and I honoured it perfectly while the file grew 27%** (`finding_mechanize_the_cap_not_the_ritual`). **A tier nobody measures is the same instrument with a different number.**
 2. Workbook rows: every new/changed row dated + sourced (no naked numbers).
 3. `thesis/PREDICTIONS.tsv`: resolve any past-trigger rows (HIT/MISS/FALSIFIED), never leave OPEN-but-stale.
 4. `SCRATCH.md` rewrite (session handoff — what changed, what's next).
@@ -225,7 +237,7 @@ The SV-to-CARL channel (`state_vectors/SV-HOMER-*.md`, harvested at CARL's `SPAW
 | File | Purpose |
 |------|---------|
 | `CLAUDE.md` | This file — agent instructions |
-| `STATUS.md` | Current state dashboard (≤250 lines) + BOTTOM LINE |
+| `STATUS.md` | Current state dashboard + BOTTOM LINE. **Bound by BYTES (soft 150KB / hard 170KB), not lines — the 250-line cap is ADVISORY and was measured actively harmful 2026-08-23.** Retention: 3 header blocks, BOTTOM LINE = current session, older → `archive/`. |
 | `SCRATCH.md` | Ephemeral session handoff — read at boot, rewritten at closeout |
 | `NEXUS_BRIEF.md` | Cross-agent sync brief — VIEW / CALIBRATION / SENDING / WAITING-FOR |
 | `LESSONS.md` | Mistake patterns + prevention rules (read at boot) |

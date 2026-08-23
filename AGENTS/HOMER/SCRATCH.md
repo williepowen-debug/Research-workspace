@@ -249,6 +249,25 @@ Their extension: *"the composition shift isn't noise against my thesis, it IS my
 
 **✅ CLOSED EARLIER (recorded so it is not re-audited):** 1a comparator · 1b dangling pointer · **1c DECLINED and the decline is card-endorsed as CORRECT — do not re-propose** · 2b (my direct-route call, DAEDALUS recorded their own framing as wrong) · 2d · **3a the A–G durable home — the card's highest-consequence non-L3 item.**
 
+## ✅ TENTH PASS — 2c AND 2a EXECUTED (Will: "yes edit boot step / 2a yes approved")
+
+**2c — BOOT STEP 5 NOW ENUMERATES.** Ported the closeout `awk` verbatim into boot: `awk -F'\t' 'NR>1 && $1 !~ /^RESOLVED/ {print $1" | "$2}' docket/CATALYSTS.tsv`, then ask of **each** printed row whether anything this session must do depends on it. ★ **The old wording — *"check for due/near-due rows"* — was a RECALL instruction: it asked me to notice what is due without putting the rows in front of me.** **BOOT decides what the session WORKS ON; closeout only decides what gets recorded.**
+
+## ★★ 2a — THE BYTE TIER, AND THE MEASUREMENT IS THE FINDING
+
+**I held the 250-LINE cap perfectly for a day and the file grew 27%.** 247 → 248 lines; **160KB → 203KB; 647 → 820 B/line.** ⇒ **The cap did not fail to control size — it controlled the WRONG VARIABLE and thereby CAUSED the failure.** Every time I hit it I compressed prose instead of removing content. **Five archived BOTTOM LINE paragraphs literally announce themselves as "COMPRESSED for the 250-line cap." The cap produced them.**
+★★ **And it concealed the real defect — DUPLICATION: header session-blocks (35KB) + BOTTOM LINE prose (41KB) narrating the SAME SESSIONS TWICE = 37% of the file, with BOTTOM LINE sitting at 84% depth, below every read cut.** **Half the narrative was the half nobody read.**
+
+**✅ ADOPTED — and the tier is the DETECTOR, the RETENTION RULE is the control:**
+- **Soft 150,000 B / hard 170,000 B**, ⚠️ **derived not invented**: the irreducible core measures ~127KB (dashboard 74 + open items 36 + catalysts/predictions 17). **Soft tier set BELOW the then-current file on purpose so it BINDS.**
+- **① One narrative home per session · ② BOTTOM LINE = CURRENT SESSION ONLY · ③ three header blocks retained · ④ older → `archive/`, RELOCATED NEVER DELETED, every figure staying live in the tables and workbook.**
+- **250-line cap DEMOTED to advisory.** ⛔ **Never compress live prose to satisfy a size rule — that is what produced the 820 B/line file.**
+- ✅ **Byte check WIRED INTO CLOSEOUT as a one-liner**, because the line cap was itself a remembered ritual I honoured flawlessly while it did harm.
+
+**RESULT, same session: 203,369 → 147,395 B (−28%), 248 → 210 lines, density 820 → 701 B/line, ZERO data removed.** Two archives created: `archive/STATUS_narrative_archive_2026-08-23.md` (aged BOTTOM LINE + 8/13 & 8/12 header blocks) and `archive/STATUS_closed_open_items_2026-08-23.md`.
+
+★★ **AND THE SECOND FINDING CAME FROM HUNTING THE LAST 14KB: OPEN ITEMS measured 36KB of which 17KB — nearly half — were items ALREADY CLOSED.** **A closed item written up with its ruling, evidence and date READS AS DILIGENCE**, so no cleanup pass removes it, and it accumulates under a heading promising the opposite. ⇒ **An OPEN ITEMS list that retains closed items is a CHANGELOG WEARING A WORK QUEUE'S NAME — the boot reader cannot tell which rows still want work, which is that section's only job.** **Test: "if a reader worked only these rows, would they waste time?" — not "is each row accurate?" They were all accurate. That was the problem.**
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
