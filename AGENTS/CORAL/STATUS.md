@@ -95,7 +95,7 @@
 
 ## THESIS RAILS — "The Coral Bleaching"
 
-Durable mechanism, confirm/falsify rails, timing gates, and ownership rules now live in `thesis/THESIS.md` (v1.0). Changelog / retired frames live in `thesis/CHANGELOG.md`. STATUS carries current levels only: **household/condo stress confirmed; bank-loss transmission not confirmed until FL bank credit data prove the bridge.**
+Durable mechanism, confirm/falsify rails, timing gates, and ownership rules now live in `thesis/THESIS.md` (v1.0). ⭐ **REFRESHED 2026-08-23 (Will-approved) after 31 days stale: (a) the 🔴 MSI leg's Will-ruled STAND-DOWN rail is installed — it previously had a trigger and no falsifier; (b) the six falsify criteria were GRADED FOR THE FIRST TIME EVER — score **1.5 of 6 ⇒ HOLD 🟠**, with a PRE-REGISTERED decision rule and a dated cadence (next grade **2026-11-15**) so the score cannot be reverse-engineered from a print.** ⭐ **The substantive read from that grade: the thesis split is not weakening, it is SHARPENING** — the bank half keeps curing (criteria 1-2 moving toward falsification) while the household/collateral half does not (criteria 3-4 firmly against). ⚠️ **Criterion 5 (bankruptcy per-capita) graded UNGRADED — untracked since June; instrument note owed.** Changelog → `thesis/CHANGELOG.md` (also refreshed — it had gone unwritten since 2026-03-03). Changelog / retired frames live in `thesis/CHANGELOG.md`. STATUS carries current levels only: **household/condo stress confirmed; bank-loss transmission not confirmed until FL bank credit data prove the bridge.**
 
 ---
 

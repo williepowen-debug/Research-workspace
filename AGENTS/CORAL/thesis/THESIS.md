@@ -1,8 +1,8 @@
 # CORAL THESIS — The Coral Bleaching
 
-**Version:** v1.0  
-**Installed:** 2026-06-20  
-**State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed. **Supply-side price-discovery leg 🔴 (Will-ratified 7/23) — collateral repricing via cash capitulation-clearing; scoped to that leg, bank-transmission rail untouched (0-of-≥2).**  
+**Version:** **v1.1** *(bumped 2026-08-23 — two rail changes: a new falsify rail for the 🔴 supply-side leg, and a pre-registered grading rule + first-ever grade for the falsify criteria. Core mechanism UNCHANGED from v1.0.)*  
+**Installed:** 2026-06-20 · **Rails last reviewed:** 2026-08-23 (Will-approved) · **Next falsify grade: 2026-11-15**  
+**State:** 🟠 ELEVATED / thesis split — household + condo stress confirmed; bank-loss transmission not confirmed. **Supply-side price-discovery leg 🔴 (Will-ratified 7/23) — collateral repricing via cash capitulation-clearing; scoped to that leg, bank-transmission rail untouched (0-of-≥2).** **⭐ STAND-DOWN RAIL ADDED 2026-08-23 (Will-ruled): breadth <5-of-5 FL metros with Parcl MSI >6.0 on TWO CONSECUTIVE readings ≥10 DAYS APART ⇒ 🔴→🟠, this leg only. Canonical letter → `STATUS.md` OQ §A. Until 8/23 this leg had a trigger and NO falsifier.**
 **Changelog:** `thesis/CHANGELOG.md`
 
 ---
@@ -80,6 +80,36 @@ Bridge / corroborating signals that raise pressure but do **not** alone upgrade 
 - Ch.7 filings in M.D./S.D. Fla exceed the tracked per-capita tripwire and keep accelerating.
 - Foreclosure + negative-equity clusters broaden from SW-FL into SE-FL condo collateral.
 - Hurricane landfall reverses insurance easing and shocks commercial/condo master-policy costs.
+
+### ⭐ How these are graded (added 2026-08-23, Will-approved — this was missing and it mattered)
+
+**These criteria were written 2026-06-20 and had NEVER been formally graded in either direction.** The overall 🟠 sat unchanged from June to August on **no scored rail** — which is the same defect as a fired signal with no falsifier: *a condition nobody evaluates cannot come back negative.*
+
+- **The criteria below are FROZEN as written. Do not reword them to fit a print.** If one is unmeasurable, mark it UNGRADED and say why; do not substitute a proxy silently.
+- **Grade on a DATE, not on a feeling** — at each formal grade, score every criterion MET / NOT MET / HALF / UNGRADED and record it with its evidence.
+- **A criterion with no live instrument is a defect, not a pass.** (Bankruptcy per-capita went untracked from June to August and was neither met nor refuted — it was simply unobserved.)
+- ⚠️ **Ordering discipline, stated because the first grade violated it:** the 2026-08-23 grade below was made *openly, from data already in hand*, and only then was this decision rule written. **That ordering is backwards and is recorded rather than hidden.** From the next grade onward the decision rule is pre-registered and the criteria are frozen, so the ordering weakness does not recur.
+
+**PRE-REGISTERED DECISION RULE (filed 2026-08-23, before the next grading date):**
+> Of the six falsify criteria: **≥4 MET ⇒ 🟠→🟡 candidate, route to Will** · **2–3 MET ⇒ HOLD 🟠 and name which** · **≤1 MET ⇒ 🟠 holds unqualified.**
+> **A HALF-MET criterion counts as 0.5.** **UNGRADED counts as 0 and obliges an instrument note, not a shrug.**
+> ⛔ **No criterion may be reworded, split or merged at grading time.** A criterion that turns out to be badly specified is flagged for amendment *between* grades, never during one.
+> **Next formal grade: 2026-11-15** (after Nov-3 Amendment 3 and inside the Q3-bank-print aftermath). Earlier only if ≥2 criteria change state on a single print.
+
+**GRADE OF RECORD — 2026-08-23 (first ever; see the ordering caveat above):**
+
+| # | Criterion (abbreviated — full text below) | Grade | Evidence |
+|---|---|---|---|
+| 1 | Q2/Q3 banks keep curing | **HALF (0.5)** | Q2 closed **7-of-7 benign**, sharpest pre-registered tell falsified in the opposite direction, REGINALD 10-Q watch-card **4-of-4 REVERT**. **Q3 does not print until ~late Oct** — the criterion names Q2 *and* Q3 and only half exists. |
+| 2 | Classified CRE stays rate-shock reclass, not loss content | **MET (1.0)** | Held all year across the FL cohort; no loss content emerged in the Q2 sweep. |
+| 3 | Condo inventory tightens **and** price stabilizes **without forced-sale acceleration** | **NOT MET (0)** | Inventory ✓ (**8.9→8.6→8.1→7.8**, 4 straight) and price ✓ (**0.0% YoY**, off −6.1% Apr) — **but the third clause FAILS: REO +33% H1 and the 🔴 MSI leg is live.** All three clauses must hold. |
+| 4 | Personal **and** commercial master-policy layers ease materially | **NOT MET (0)** | Personal has **stopped easing** (Citizens personal **+138** in July, six weeks flat); commercial/condo-association layer still rising (+10.4% capped). The conjunction fails on both halves. |
+| 5 | Bankruptcy acceleration fades per-capita | **UNGRADED (0)** | ⚠️ **Untracked June→August.** Neither met nor refuted — unobserved. **Instrument note owed:** Ch.7 per-capita M.D./S.D. Fla, tripwire >~230/100k. |
+| 6 | Property-tax relief lowers carrying cost | **PENDING (0)** | Resolves **Nov 3**; Amendment-3 ruling still unlocated, pre-reg ML-CORAL-042 unresolved. |
+
+**SCORE: 1.5 of 6 ⇒ HOLD 🟠.** Under the rule above this is the *"2–3 MET"* band's lower edge and **does not approach a downgrade** — but it is the first time the number has existed at all, and **two criteria (1, 2) are moving toward falsification while two (3, 4) are firmly against it.** ⭐ **The honest read: the thesis split is not weakening, it is SHARPENING — the bank half keeps curing while the household/collateral half does not.**
+
+⚠️ **Cross-check against the winter composite (ML-CORAL-043), which is a separate and stricter test:** two of its five legs are currently moving AWAY from firing (leg 5 needs inventory to re-widen **>9.5mo**, it went to **7.8**; leg 2 needs condo median YoY **<−5%**, it is **0.0%**). **Not graded — the window is Dec-26→Feb-27 and grading early is exactly the re-fit its spec forbids** — but the two tests are pointing the same way and that agreement is worth carrying.
 
 ### Falsify / downgrade toward 🟡
 
