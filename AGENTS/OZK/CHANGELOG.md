@@ -15,6 +15,29 @@ A new entry must describe:
 
 ---
 
+## 2026-08-23 — MI3 retraction WIDENED + 2025Q3 step adjudicated (**NO THESIS version bump — v1.5 stands; no weight, threshold, probability or conviction moved**)
+
+### What changed
+The §MEMO ITEM 3 banner is **amended, not replaced**, on three points its 8/7 form did not carry, and the section's "worst absolute Memo Item 3 ratio" sentence is **struck**.
+
+### Why
+REGINALD's 14-bank cohort re-run (2026-08-13, 56/56 sourced) + an adversarial re-verification on two independent paths (FFIEC PDF facsimile and the **FDIC's own API at a different agency**), consumed from `inbox/` this session; plus this desk's own step-quarter adjudication, `MI3_2025Q3_ADJUDICATION.md`.
+
+### Old view vs new view
+| | Old (8/7 banner) | New (8/23) |
+|---|---|---|
+| The number | `37.6%` does not reproduce at 18 quarters | Unchanged, and now dead on **four** independent paths |
+| **Rank** | *(not addressed)* | **"Worst in the screen" FORMALLY RETRACTED by its owner — OZK is 5th of 14 on BOTH bases.** OZK is the cohort's **fastest faller**, not its worst holder |
+| **Cause** | "screen-level item-9.a denominator defect" | **WRONG. Single-cell data defect** at the 12/31/2025 vintage — the other four legacy cells reproduce to 2dp. *(The item-9.a identity is TRUE and stands; it just never explained where `37.6%` came from.)* A guard right for the wrong reason mis-fires on the next case |
+| Metropolitan comparison | Live | **Struck** — it compared two ratios and one of them does not exist |
+| Direction of the decline | "structurally declining" | Carried, **but not as a smooth decline**: MI3 held a $980M–$1,480M band for eleven quarters, then fell **−36% in ONE quarter at 2025Q3**. Two-thirds of the "−64%" is that single step |
+| "OZK de-risking" | *(REGINALD's, published 8/13 AM)* | **DOWNGRADED to UNRESOLVED** by its author the same day; OZK's 8/23 adjudication **widens** the field further — write-down REFUTED, migration/repayment/re-designation all live |
+
+### Position implication
+**None, and none is available: the book is empty.** Both Aug-21 legs expired worthless at the 8/21 OPEX (Will's 8/4 RIDE ruling); OZK holds zero options. Separately and importantly, **this retraction does not weaken the CRE thesis** — MI3 measures CRE-purpose lending *not secured by real estate*, while RESG, IQHQ/RaDD, the classified balance and all 11 tracked credits sit in the **secured** book and are untouched. The **mechanism** finding survives the ratio's death intact: the ~$430-490M debt-on-debt book, corroborated by two independent filings, began charging off in H1-26 (`RIAD5409` $42,437K, first nonzero in 18 quarters).
+
+---
+
 ## 2026-08-07 — Q2 Call Report LOG-ONLY pull: kill-§1 adjudicated + MI3 37.6% baseline contradicted by primary (NO THESIS version bump — v1.5 stands; no weights, thresholds or probabilities moved)
 
 ### Summary
