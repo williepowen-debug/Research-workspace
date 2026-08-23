@@ -33,3 +33,15 @@ A correction feels finished in a way ordinary work does not: the defect that pro
 4. **Before adjusting a confidence on a stated relationship, compute the relationship.** A sign pattern over a handful of periods is not a correlation, and getting its *direction* wrong is worse than having no estimate.
 5. **Re-run the failure mode you just wrote up against the work you did while writing it up.** In this session that check would have caught the repeat within minutes.
 6. **Never let a sweep be the last thing that touches a file** — and when the sweeps stop finding *new classes* and start re-finding your own corrections, **hand it to a different reader** rather than running a fourth pass yourself. The effect above applies to your own re-reads too.
+
+---
+
+**🔴 EXTENDED 2026-08-23 (WALTER) — THE SAME RULE COVERS THE *VERIFICATION* PASS, AND THERE IT HAS A TIE-BREAKER.**
+
+**A query written on the spot to answer a challenge is the least-reviewed instrument in the room.** It is minutes old, has never been run against a known-good case, and — the part that matters — it was written **under the specific pressure of wanting an answer**. That is the same "feels finished" trap as a correction pass, with an extra hazard: **its output arrives already framed as the check on something else**, so it is read as a verdict rather than as new, untested code.
+
+⇒ **TIE-BREAKER: when a scratch query disagrees with a production instrument, the SCRATCH QUERY is the more likely defect.** The production instrument has run hundreds of times against real data; yours has run once. **Debug your own query to the point of proving it right before you report the production number as wrong** — and if you have already reported it, say so plainly rather than letting the correction ride.
+
+**Instance.** Challenged on a backlog figure (*"are you sure these have not been consumed?"*), WALTER wrote an ad-hoc query and got 122 items / 24 ACTION against the production checker's 124 / 22. It then presented one row as proof the checker was over-counting — *"20 days unconsumed, actually consumed in 90 minutes."* **The fact about that row was true and the criticism was false:** the query tested whether the *recorded* handoff path EXISTS, and for a consumed item that path already points into `processed/`. **The checker had excluded the row correctly all along; the scratch query counted filed items as unfiled.** The real finding was one level down and survived: the underlying number is a PROXY (*"nobody moved a file"*), which a second independent instrument then split into 92 corroborated and 32 untestable.
+
+🔑 **And the generalisable half: a challenge to a number is not the same as the number being wrong.** Both survive the check often enough that the honest output is usually *"here is how strong the evidence actually is,"* not a revised figure. **State the evidence tier; do not manufacture a correction to look responsive.** `[[finding_verification_zero_is_ambiguous]]` · `[[finding_delivery_check_is_not_a_knowledge_check]]`

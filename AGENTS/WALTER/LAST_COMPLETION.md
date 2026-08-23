@@ -1,6 +1,6 @@
 # WALTER — LAST COMPLETION
 
-**Session:** 2026-08-23 **Sun MIDDAY** — boot ~13:2xZ on Will *"Hello WALTER please boot up. Today is Sunday 8/23"*; became a **canon session** when Will directed *"adjust your role and guidelines to fit the new paradigm"* and then *"can you just fix both with my permission?"*. **Closed Tier-2 FULL ~11:4x ET on *"lets close out before we start"*.** Peers at close: **PROME (busy) · DAEDALUS (idle)**; SAM · MIDAS · REGINALD all IN-FLIGHT as PROME subagents.
+**Session:** 2026-08-23 **Sun MIDDAY** — boot ~13:2xZ on Will *"Hello WALTER please boot up. Today is Sunday 8/23"*; became a **canon session** when Will directed *"adjust your role and guidelines to fit the new paradigm"* and then *"can you just fix both with my permission?"*. **Closed Tier-2 FULL ~11:4x ET, then RE-OPENED on Will's *"what is the backlog?"* and closed again ~12:4x — the second half is the more valuable one.** Peers at close: **PROME (busy) · DAEDALUS (idle)**; SAM · MIDAS · REGINALD all IN-FLIGHT as PROME subagents.
 
 ## STATUS
 🟢 **GREEN.** **BOARD 791 → 791 — zero dispatches, and that is the correct output for the day** (markets shut, 29 triggers at zero fires, both lane breaches Novelty kills). Doctor **0 HIGH**. STATUS **26,877 B = 56% of its 48,000 cap** (no rotation owed). Memory index **71% of byte cap** (under the 75% flow trigger — no PROME flag). Trigger board unchanged at **29 rows** (RED-FT 10 · REG-T 8 · CREED-T 11, 5 scannable), **counted by header, not carried.**
@@ -15,7 +15,9 @@
 ## RESULT
 🔑 **The durable idea: the gate did not become WRONG — the PRICE BEHIND IT FELL.** The remedy went from *waking a whole desk* to *a bounded subagent touch that drains the whole inbox*. **A gate calibrated against the old price is systematically tight, and its error costs INVERT: an over-doorbell wastes something cheap and is LOUD; an under-doorbell is SILENT.** ⇒ unit of decision moved **ITEM → DESK**, a **P0** precondition was added for the new third desk-state, and **leg 3b (cadence-is-the-deadline)** was added — the first limb reaching the no-clock backlog desks **the ruling itself had named**. Old gate **1-of-7** on the 8/22 night, unable to reach HENRY or BROCK **by construction**; new gate **≈3-of-7**, and the two adds are exactly those desks.
 
-🔴 **And the session's sharpest output is two defects in instruments I OWN, both invisible to every check that was green.**
+🔴 **And the session's sharpest output is THREE defects in instruments I OWN, two of them found only because Will challenged a number I had been quoting all day.**
+
+**The challenge — *"are you sure these have not been consumed?"* — was right, and the answer split the number rather than moving it.** The backlog rests on *"nobody moved a file,"* a **proxy**. I built the second instrument (the recipient's own `board_log.tsv`, now read by `delivered_but_unconsumed`): **92 CORROBORATED** by two independent records, **32 UNTESTABLE** (8 ACTION) at five desks that keep no consumption record. ⚠️ **The cross-check fires ZERO times across all 124 — and that zero is the point: it is what upgrades 92 items from inferred to corroborated.** **PROME adopted the fix same-session (~30 min), verified at the artifact.**
 
 ---
 
@@ -33,7 +35,7 @@
 |---|---|---|---|
 | 1 | **ZHAO** | **CXMT output in BITS, not WSPM** — VULCAN's **third** ask. | IN-FLIGHT-adjacent / dark |
 
-✅ **CLEARED this session: PROME** (doorbell RULED; rule 6b + root mirror landed; my IN-FLIGHT-semantics ASK answered **and encoded in the ledger header**, `f1c33ff1f`) · **HAWK** (Section 338 contradiction **self-corrected**; my `-001` flag-don't-resolve posture vindicated) · **TERRY** (consumed `-002` with the basis correction).
+✅ **CLEARED this session: PROME ×2** — (a) the **board_log rider ADOPTED ~30 min after the packet**, `ORCHESTRATION_PLAYBOOK` spawn-template **line 8**, PROME re-verifying the ZHAO case itself and carrying my caveat onto the rule; (b) (doorbell RULED; rule 6b + root mirror landed; my IN-FLIGHT-semantics ASK answered **and encoded in the ledger header**, `f1c33ff1f`) · **HAWK** (Section 338 contradiction **self-corrected**; my `-001` flag-don't-resolve posture vindicated) · **TERRY** (consumed `-002` with the basis correction).
 
 ## C. RESOLVES ON A CLOCK — no action by anyone
 - 🔴 **`WAL` vs `REG-T-02`** — **$79.67 [8/21] = 2.1% above <78, sustain-1, RE-ARMED.** Any close <78 from 8/21 is a **FIRST FIRE OF A NEW CYCLE**, no suppression. **Monday is the next evaluable session** and this is the most likely fire on the board.
@@ -65,10 +67,11 @@
 
 ## FOLLOW-UP
 1. 🔴 **Next boot is MONDAY 8/24 — the first live session under the new gate, and a dense day.** `WAL` 2.1% from a re-armed sustain-1 · **LABOR** spawning (Will-approved, full owner session) · **CREED** FDIC QBP window. **Run boot step 9b (three-state readiness scan) before reporting anything.**
-2. **The gate must FIRE and be LOGGED.** `registry/DOORBELL_LOG.tsv` is empty. **HENRY and BROCK are the first two leg 3b reaches** — and a row is owed for every dark-recipient `action:` dispatch, **doorbelled or not**, or the miss counter has no denominator.
-3. **Build the two `walter_doctor` counters** (MISS + DECLINED) — specced in §3.5.7, **not yet built**. Amendment ③ asks for them and the soak is 8/28.
-4. ⚠️ **8/28 soak: pre- and post-amendment doorbells are TWO POPULATIONS under two price regimes. Do not pool them** — PROME has registered this on its owes list.
-5. **`CREED-T-01a`** — confirm the August Trepp publication date **before** treating it as a calendar item.
-6. **ZHAO's CXMT-in-bits (3rd ask).**
-7. **`MEMORY.md` cap** — 111 vs 100; hunt entries whose fix shipped.
-8. **`design/NEWS_SWEEP_TARGETS.md`** carries its own refresh trigger — re-cut on any fire, exit or resolution.
+2. **The 32 untestable items close on their own now** — PROME's spawn-template line 8 installs the §8.1 boot-step on any touched desk lacking a `board_log`. **ZHAO (18 items / 4 ACTION / oldest 30d) and OTTO (7 / 3 / 29d) are the priority pair; re-measure the corroborated-vs-untestable split after their next touches** rather than re-quoting today's 92/32.
+3. **The gate must FIRE and be LOGGED.** `registry/DOORBELL_LOG.tsv` is empty. **HENRY and BROCK are the first two leg 3b reaches** — and a row is owed for every dark-recipient `action:` dispatch, **doorbelled or not**, or the miss counter has no denominator.
+4. **Build the two `walter_doctor` counters** (MISS + DECLINED) — specced in §3.5.7, **not yet built**. Amendment ③ asks for them and the soak is 8/28.
+5. ⚠️ **8/28 soak: pre- and post-amendment doorbells are TWO POPULATIONS under two price regimes. Do not pool them** — PROME has registered this on its owes list.
+6. **`CREED-T-01a`** — confirm the August Trepp publication date **before** treating it as a calendar item.
+7. **ZHAO's CXMT-in-bits (3rd ask).**
+8. **`MEMORY.md` cap** — 111 vs 100; hunt entries whose fix shipped.
+9. **`design/NEWS_SWEEP_TARGETS.md`** carries its own refresh trigger — re-cut on any fire, exit or resolution.
