@@ -644,6 +644,22 @@ def _bare_sig(stem):
 PULL_COMPLETE = {"CARL", "RED", "PROME"}
 
 
+_BOARD_LOG_CACHE = {}
+
+
+def _recipient_board_log(recipient):
+    """The recipient's OWN consumption record (`AGENTS/<X>/board_log.tsv`), read raw.
+    Empty string when the desk keeps no board_log — which is NOT evidence either way."""
+    k = recipient.upper()
+    if k not in _BOARD_LOG_CACHE:
+        f = REPO / "AGENTS" / recipient / "board_log.tsv"
+        try:
+            _BOARD_LOG_CACHE[k] = f.read_text(errors="replace") if f.exists() else ""
+        except OSError:
+            _BOARD_LOG_CACHE[k] = ""
+    return _BOARD_LOG_CACHE[k]
+
+
 def check_delivered_but_unconsumed():
     """A delivered handoff (on origin) sitting >N days without being moved to
     processed/ → the recipient's Phase-2 consume boot-step may not be installed.
@@ -654,6 +670,7 @@ def check_delivered_but_unconsumed():
     origin = _origin_ref()
     routed_dates = _delivery_routed_dates()
     aged, pull_complete, no_row = [], [], 0
+    consumed_not_filed = []
     for p, recipient, relpath in files:
         if _sync_state(relpath, origin) != "on_origin":
             continue  # not delivered yet → written_but_undelivered owns it
@@ -672,11 +689,41 @@ def check_delivered_but_unconsumed():
             age = _age_days(dt.date.fromtimestamp(p.stat().st_mtime))
             no_row += 1
         if age > N_UNCONSUMED_DAYS:
-            (pull_complete if recipient.upper() in PULL_COMPLETE else aged).append(
-                (recipient, sig, age))
+            # 🔴 CROSS-CHECK THE RECIPIENT'S OWN CONSUMPTION RECORD BEFORE CALLING
+            # IT UNCONSUMED (2026-08-23, on Will's challenge: "are you sure these have not
+            # been consumed?"). File-position is a PROXY for non-consumption, not a
+            # measurement — §5.1 explicitly contemplates a desk integrating content and
+            # never filing the handoff, and nothing here would have seen it.
+            # `[[finding_delivery_check_is_not_a_knowledge_check]]` — "did it arrive?" and
+            # "do they know?" are different questions, and the OWNER's log answers the second.
+            # ⚠️ HONEST PROVENANCE: this check was built expecting to find such cases and
+            # FINDS ZERO across the whole backlog. The one apparent instance (BRENT
+            # SIG-W-20260803-001, "20d unconsumed" while BRENT's board_log recorded it
+            # `acted` inside 90 minutes) was a defect in WALTER's own ad-hoc query, which
+            # tested whether delivery_log's recorded path EXISTS — and that path already
+            # pointed into processed/. The doctor was right; the throwaway script was not.
+            # Kept anyway, because a check that returns zero UPGRADES the evidence class:
+            # for a desk that keeps a board_log, "unconsumed" is now corroborated by the
+            # recipient's own record rather than inferred from where a file sits.
+            # ⚠️ ABSENCE FROM A board_log IS NOT PROOF OF NON-CONSUMPTION, and a desk with
+            # NO board_log (ZHAO, OTTO, WATT, HANS …) cannot be tested at all — those stay
+            # in `aged` as an UPPER BOUND, never as a measurement.
+            if sig and sig in _recipient_board_log(recipient):
+                consumed_not_filed.append((recipient, sig, age))
+            else:
+                (pull_complete if recipient.upper() in PULL_COMPLETE else aged).append(
+                    (recipient, sig, age))
     # Pull-complete recipients (WALTER skips delivery, §3.5) — residual handoffs are a
     # one-time to-ARCHIVE cleanup by PROME, NOT a consume-gap (+ a re-delivery tripwire).
     pc = []
+    if consumed_not_filed:
+        c = {}
+        for r, _s, _a in consumed_not_filed:
+            c[r] = c.get(r, 0) + 1
+        pc.append((LOW, "CONSUMED but never filed to processed/ — the recipient's OWN "
+                   "board_log records these, so they are filing hygiene, NOT a consume-gap: "
+                   + ", ".join(f"{r} {n}" for r, n in sorted(c.items()))
+                   + " — excluded from the unconsumed count below (they were being counted)"))
     if pull_complete:
         cnt = {}
         for r, _s, _a in pull_complete:
