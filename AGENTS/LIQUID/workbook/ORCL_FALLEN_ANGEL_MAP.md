@@ -1,5 +1,12 @@
 # ORCL Fallen-Angel Trigger Map — GATE-LIQ-069 leg-5 sharpener
 
+> ⚠️ **CHECKED 2026-08-24 (PAT-060 queue, 36d stale) — NO CHANGE. GATE-LIQ-069 stays ARMED 1-of-2.**
+>
+> **R1 (the 2nd-agency leg) has NOT fired: Moody's still rates ORCL `Baa2`, outlook NEGATIVE — affirmed, not cut.** S&P remains **BBB−** (the 7/9 cut, R0, already logged); Fitch **BBB**. **Middle rating stays BBB = solidly IG**, and a fallen angel needs **2 of 3 agencies at HY** under the index middle/average rule. **No forced-sell event is live.**
+>
+> 🔴 **GRADE THIS CHECK AS SECONDARY-SOURCE, NOT PRIMARY.** It is a web/mirror sweep, not an agency-primary pull, and one returned item was misdated to 2025. **This map's own discipline (KB-LIQ-082) pins agency states to primaries — so this annotation is sufficient to say *nothing appears to have fired* and is NOT sufficient to move the gate in either direction.** A primary re-verification is owed before any GATE-069 action.
+> **Absence-is-data record:** 36 days elapsed, R1 did not fire, the pipeline TELL from 7/9 stands unchanged.
+
 **Built:** 2026-07-18 (Sat-eve, PROME wave, Will-approved Rank-2) · **Owner:** LIQUID (AI-credit spread-tells; VULCAN owns capex/fundamentals mechanism — seam 7/12) · **KB:** KB-LIQ-082 · **Feeds:** GATE-LIQ-069 (AI-HY cohort re-arm), NEXUS M-08/M-09, VULCAN S1/S5, VIOLET Path-B.
 
 **Why this file:** GATE-LIQ-069 is ARMED 1-of-2 off the single S&P cut to BBB− [7/9]. But the leg-5 wording ("ORCL cut to Baa3/BBB−, either agency") conflates two very different events: the **fallen-angel PIPELINE tell** (a single agency reaching the IG floor — already fired) versus the **actual index-ejection FORCED-SELL event** (which the major indices' middle/average rating rules make impossible on one agency). This map pins the live cross-agency state to primaries and specifies the *precise* escalation that should count as a fresh/second leg — so the next ORCL rating action is graded instantly, not scrambled.
