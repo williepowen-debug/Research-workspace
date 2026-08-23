@@ -138,10 +138,36 @@ Also `:105` — `RGB grants rent increases **materially above** the recent run-r
 
 ---
 
+## 8 · WRITE-BACK, same evening — LIQUID (verified at `9467d562d`, not taken from the packet)
+
+Both flags actioned within hours. **CHANGELOG appended, not two-stated** (owner's call and the right one — the movement was real, so the log should carry it); **KILL_MEMO relabelled dated-as-of rather than re-stamped**; conviction re-marked **61% → 56%**, with an over-correction counter-check written into the entry, and **three of the four downgrades sourced from evidence LIQUID generated and graded as losses against itself.**
+
+### ★ The owner's finding is sharper than my flag — and it changes the pattern
+
+I flagged the CHANGELOG on **age alone (59d)**. LIQUID opened it and found what the gap had swallowed:
+
+> **`7/29 — THE X1 LIQUID HALF TAGGED FOR THE FIRST TIME. HY OAS 287bps, sustain 3-of-3 (281→284→287).`** — the first fire of the widening side of its ladder, **the event the whole ladder exists for**, with no entry. The same staleness had also eaten the 7/27→8/3 excursion.
+
+⇒ **PAT-060 extended with a new half: a gap in an append-only falsification log is NOT uniformly costly — it preferentially swallows the RARE event, which is the one the log exists for.** A routine observation gets logged because logging it is the cheapest remaining act of a session; a first-ever fire lands on the busiest possible day and is the most deferrable write-up, because everyone involved already knows it happened. **So a day count always understates a falsification-log gap, and the understatement grows with the gap.** Operationally: when flagging a stale append-only falsifier, do not report the age and stop — **ask the owner what FIRED during the window.** The age is a proxy for a question nobody asked.
+
+### 🔴 L-31 reaches n=3, and the third instance is owner-found
+
+LIQUID's own new entry: **`7/27 — BROCK's wrapper-leads half FAILED independently`… "X1 is CONJUNCTIVE, so with this half down no HY level alone can fire it."** A live gate that cannot fire whatever the tape does, with the dead leg unrevisited for four weeks. Same shape as AEOLUS C4 and FLG K-1 — **three desks, three independent instances, in one sweep.** That is no longer a per-desk defect; it is a fleet-level vocabulary gap, and it strengthens the case for promoting AEOLUS's `CANNOT FIRE` / `NOT FIRED` distinction to canon at the 8/28 vocabulary block.
+
+### One I did not flag, owner-found — PAT-052 n+1, cross-agent variant
+
+LIQUID's `THESIS.md` carried *"BOND agent scaffold exists but is not yet active"* while LIQUID and BOND ran live joint work that night. **A stale cross-agent capability claim is worse than a stale number: it does not merely misdescribe a capability, it suppresses a ROUTE** — the reader's correct response to "not yet active" is to stop looking. Fixed, superseded text kept.
+
+### Carried, owner-flagged rather than silently done
+
+`THESIS.md` remains **v2.0 (header 6/25)** and its §3 Leg B/C text now understates two changes. **LIQUID correctly refused to cut v2.1 inside a changelog edit** — a version bump is a separate job, and doing it mid-hygiene is how criteria move without review. Recorded as open in the FLEET_MAP row.
+
+---
+
 ## BOTTOM LINE
 
 **The cadence leg is met — run #2 landed a day early, on the fixed scanner.** Two of four flags withdrew on read, both from a single version-extraction defect in my own instrument; the rate did not improve on run #1 and both runs' over-flags came from vintage extraction rather than the threshold.
 
 **The real result is that the scan's reassuring buckets are where the errors live.** Seven market desks are filed under "falsification not applicable — expected for utility/meta agents," a sentence that is wrong for all seven. That is run #1's F5 artifact surviving one bucket over for 20 days, and it is the same lesson as this morning's read-cap breach: **a fix applied to the instance and not the class leaves the residue that breaches next.**
 
-**Two genuinely stale surfaces (both LIQUID, one a run-#1 recurrence), one real precedence defect (CARL), one defective rail I built myself (FLG).** Against that, three desks are running falsification discipline worth copying: **AEOLUS** (renders CANNOT-FIRE vs NOT-FIRED), **HENRY** (per-leg live counts, non-latching AND), **VULCAN** (the retrofit exemplar, dated and scoped). **The fleet forms already exist; what is missing is that none of them is registered as canon.**
+**Both LIQUID surfaces were CLOSED-VERIFIED the same evening, and the owner's read beat mine** (§8: the 59-day gap had swallowed the ladder's first-ever fire, and L-31 reached n=3 on a gate LIQUID found itself). **Two genuinely stale surfaces (both LIQUID, one a run-#1 recurrence), one real precedence defect (CARL), one defective rail I built myself (FLG).** Against that, three desks are running falsification discipline worth copying: **AEOLUS** (renders CANNOT-FIRE vs NOT-FIRED), **HENRY** (per-leg live counts, non-latching AND), **VULCAN** (the retrofit exemplar, dated and scoped). **The fleet forms already exist; what is missing is that none of them is registered as canon.**
