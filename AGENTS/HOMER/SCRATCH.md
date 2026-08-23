@@ -358,6 +358,31 @@ Their extension: *"the composition shift isn't noise against my thesis, it IS my
 
 **REMAINING LEADS:** 3 (concession-cap exemption — carried nowhere) · 5 (the 25–27% FHA-underwater claim — unlocated) · 6 (buydowns don't transfer at resale — a negative-equity generator, uninstrumented).
 
+## ✅✅ LEAD 6 — WORKED, AND IT IS REFUTED ON ITS OWN ASSUMPTIONS
+
+**Claim: a permanent buydown doesn't transfer at resale, so the buyer is left holding an inflated price and goes underwater.** ⛔ **The arithmetic says the opposite, using the thesis's OWN worst case.**
+
+**Setup:** $300K loan, 30yr, DHI's issuer-stated rates (backlog **4.9%** vs market **~6.5%** = the 1.6ppt buydown), **full cost embedded in price**, costed at AEI's conversion ≈ **6.2% of loan = ~$18,462**.
+
+**★★★ WHY THE CLAIM FAILS: it counts the premium and ignores the two things a lower rate does.**
+- **Faster amortization:** ~**$5,740** more principal retired over 5 years
+- **Cumulative payment savings:** ~**$18,241** over 5 years
+- **Total benefit ~$23,981 vs a ~$18,462 premium ⇒ buyer AHEAD ~$5,520 at five years.**
+
+**★ BREAK-EVEN = 4.0 YEARS.** Under it the buydown buyer is behind; over it, ahead.
+
+**★★ AND THE RELATIVE RESULT IS STRONGER THAN THE ABSOLUTE ONE: a price decline hits BOTH buyers equally, so it cannot change their RELATIVE position — and the buydown buyer, having amortized faster, is BETTER protected. At −10%, the MARKET-RATE buyer goes underwater first (−$1,040) while the buydown buyer is still positive (+$4,700).**
+⇒ **The buydown does not create negative equity. It creates a ~6% price premium that a price DECLINE would expose — different claims, different instruments.** The transcript's own text concedes the conditionality (*"only works in your favor if home values keep climbing"*) and then presents the buydown itself as the cause.
+
+**★★★ THE REAL DISCRIMINATOR IS HOLD PERIOD — and the population is moving AWAY from the risk.** NAR: median **ACTUAL tenure before selling ~11 years (a record high)**, median **expected ~15**, 28% "forever home." ⇒ **The typical buyer clears the 4.0-year break-even by roughly seven years.**
+★ **And the buydown is SELF-PROTECTING on that dimension:** a borrower at 4.9% against a 6.5% market is **rate-locked-in**, which EXTENDS hold and pushes them further past break-even.
+
+**⚠️⚠️ WHERE THE RESIDUAL RISK GENUINELY LIVES, AND I DO NOT HOLD IT: THE LEFT TAIL.** Median tenure says nothing about the share moving inside four years, and **first-time buyers — 64% of DHI Mortgage's book — are the cohort most exposed to early moves.** **The DISTRIBUTION, not the median, is the missing instrument, and it is the only thing that would revive this lead.**
+
+**⚠️ ASSUMPTIONS STATED:** full cost embedded (worst case — partial embedding leaves the buyer better off still) · AEI's June-2025 conversion spliced onto DHI's July-2026 1.6ppt (**directional, not a measurement**) · 30yr, no refi · **selling costs (~6-8%) and FHA MIP OMITTED — both hit the two buyers EQUALLY, so the RELATIVE conclusion is robust while the ABSOLUTE equity figures are optimistic.**
+
+⇒ **NO INSTRUMENT BUILT AND NONE NEEDED — the mechanism does not survive its own arithmetic.** ★ **Three of the six leads have now been closed by CHECKING them rather than by building on them: Lead 2 (category error), Lead 6 (refuted), and my own CRL-23 blindness hypothesis (refuted by the issuer). Leads 1 and 4 produced real, verified additions.**
+
 ## OPEN THREADS
 - **★ THE REFERENT CLASS is still the one to watch — and this session added TWO more.** (a) My first Fannie path-test used `monthly-summary-073126.pdf` and **both** July and the control returned 404 — a clean-looking negative against the wrong URL, caught only because I ran the control. (b) Census's "SF starts −9.9%" is an accurate reading of a figure its own issuer marks as noise. **Both were accurate measurements of the wrong object.**
 - **★ The COMPOSITION-MASK class remains the most frequent defect in this domain** and gained two instances today: the Realtor.com median-vs-per-sqft mix flip, and Census's permits-vs-starts inversion. **It always arrives as "the number is fine, so the story is fine."**
