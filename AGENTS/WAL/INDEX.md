@@ -80,7 +80,9 @@
 | `FRAUD/AUDITOR_NEXUS.md` · `AUDIT_COMMITTEE.md` · `CLASS_ACTION_FINDINGS.md` · `STUPIN_CRE.md` · `FIRST_BRANDS.md` · `TRICOLOR.md` · `INVESTIGATION_ROADMAP.md` · `ZION_AUDIT_COMPARISON.md` · `RSM_PUBLIC_AWARENESS.md` · `ISSUER_B_ELIMINATION.md` | Pre/post-print fraud research (First Brands docket owner = OTTO; shared JEF node = `FORGE/research/jefferies/`) |
 
 ### Deep dives (on-demand)
-`Q1_2026_ANALYSIS.md` · `INVESTOR_DAY_FINDINGS_2026-05-12.md` + `_PREP` · `WEAKNESSES.md` (v2.3 steelman) · `EXTERNAL_PROMPTS.md` · `TECHNICALS*.md` · `LEADERSHIP.md` · `AUDIT_MAR25.md` · `FORGE_STATUS.md` · `PRIOR_RESEARCH_EXTRACTS.md` · `V21_RESPONSE_TO_RED_CHG_025.md` · `research/RQ-REG-A01_WAL_ZION_FRAUD_COMPARISON.md`
+`Q1_2026_ANALYSIS.md` · `INVESTOR_DAY_FINDINGS_2026-05-12.md` + `_PREP` · `WEAKNESSES.md` (steelman — `THESIS.md` owns the version) · `EXTERNAL_PROMPTS.md` · `TECHNICALS_20260401.md` · `LEADERSHIP.md` (STALE-VINTAGE 3/31, kept — `THESIS.md` travels it) · `AUDIT_MAR25.md` · `PRIOR_RESEARCH_EXTRACTS.md` · `V21_RESPONSE_TO_RED_CHG_025.md` · `research/RQ-REG-A01_WAL_ZION_FRAUD_COMPARISON.md`
+
+🗄️ **RETIRED 2026-08-23** (Will-approved sweep, amended root Data-Hygiene rule — record: `archive/RETIREMENT_SWEEP_2026-08-23.md`): `archive/TECHNICALS.md` · `archive/FORGE_STATUS.md` · `archive/MARKET/STATUS.md`. **Historical only, not maintained.** ⚠️ **This line is an INDEX-ref and under the amended rule an index-ref does NOT keep a file alive** — being listed here is not a reason to retain anything.
 
 ### Cross-agent
 | File | Purpose |
