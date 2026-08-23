@@ -106,3 +106,20 @@ This memory already says a guard failing SILENT is worse than one failing NOISY.
 **Why this is not just "bugs happen":** an error that EXAGGERATES a problem gets challenged immediately — someone re-derives it and it dies. **An error that MINIMISES a problem is congruent with wanting the problem to be small, so nobody re-derives it.** All three survived review-by-reading and died on first execution.
 
 **How to apply:** after computing any figure that sizes a risk, gap, margin or window, **ask which direction the plausible errors point.** If the arithmetic bug, the stale input, or the inherited fact would all make the number look *safer*, **re-derive from raw data before acting** — and prefer the CONSERVATIVE construction by default (max-across-sessions, not last-session; bar END, not bar label). **State the direction in the write-up** so a reader knows whether the figure is likely optimistic. Sibling of [[finding_asymmetric_rigor_counterparty_claims]] — there the asymmetry was *whose* claim got checked; here it is *which direction* the error points. See [[finding_executability_is_a_separate_audit_axis]] for the gate this came out of.
+
+## ⚑ EXTENDED 2026-08-22 (PROME, n=4) — **a FIXTURE that cannot fail certifies AGREEMENT, not correctness. Two parsers agreeing is one witness with a copy.**
+
+`queue_parser_selftest.py` exists for exactly one job: keep `prome_gate.py` and `will_brief.py` — whose row-visibility regexes are **duplicated on purpose** (the gate is a blocking boot surface and must not grow import coupling) — from silently diverging. It was itself born from a real divergence (8/16, the lettered-ID fix landing in one parser and not the other). **A lesson correctly converted into an instrument.**
+
+**It passed clean the entire time both parsers were wrong.**
+
+Both keyed `blocked` on a bare `⛔` anywhere in the row. WILL_QUEUE canon defines the marker as **`⛔ waits: <who>`**, and `⛔` is *also* the fleet's ordinary caveat/prohibition glyph — so a Will-ACTIONABLE row wearing a caveat (row 73: `RULE`, due 8/28) was silently excluded from the actionable count and rendered on Will's own page under *"In flight — comes back to you when a desk finishes its half."* **The page told the operator ZERO words were owed while TWO were.**
+
+⇒ **The test could not have caught it.** Its only blocked fixture read `⛔ waiting on row 78` — which matches under BOTH the loose rule and the correct rule. **The test ran, tested the right axis, and had no power to fail.**
+
+- **A guard between two implementations measures the PAIR, not the RULE.** Agreement is cheap when both sides inherit the same misreading. Ask what the guard would say if both sides were wrong *in the same way* — if the answer is "pass," it is not a check, it is a diff.
+- **DAEDALUS's transferable form (its wording, adopted):** *a self-test needs at least one fixture that the WRONG rule gets wrong, or it certifies agreement rather than correctness.*
+- ⚠️ **"Added a fixture" and "added a fixture that can fail" are different claims, and only the second is checkable from outside.** The fix here was only *known* to discriminate because both parsers were reverted to the bare-glyph rule in a temp tree and the suite was re-run: **rc=1 on both new assertions.** Before that step it was believed, not established. **Falsify the guard against the defect it was written for — the citation is not the execution.**
+- **Sibling shape:** [[finding_crosscheck_with_free_parameter_validates_nothing]] arriving from the TEST side rather than the data side — in both, the check shares a degree of freedom with the thing being checked. Also [[finding_adoption_is_not_validation]] (`X = Y` and nobody tested it) and [[finding_guard_correctness_and_wiring_are_independent]].
+
+**How to apply:** when writing or inheriting a consistency check between two implementations, **write the fixture that the wrong rule gets wrong FIRST**, then confirm the suite fails without the fix. A consistency test with no discriminating case is a synchronisation monitor wearing a test's name — and it will report health for exactly as long as both sides stay wrong together.
