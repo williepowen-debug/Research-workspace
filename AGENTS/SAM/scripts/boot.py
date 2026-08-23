@@ -138,23 +138,59 @@ def _one_line_purpose(path):
     return title[:78]
 
 
+def documented_manual():
+    """Scripts CLAUDE.md declares deliberately manual-only, read from CLAUDE.md itself.
+
+    Why parse the doc instead of hard-coding a list here: the drift check's whole value
+    is that it has nothing to keep up to date. A second hand-maintained allowlist in this
+    file would rot exactly like the inventory this function exists to replace — and it
+    would rot SILENTLY, re-creating the defect one layer down. CLAUDE.md's MANUAL-ONLY row
+    is already the record of record (the gate's own remedy text points there), so the
+    allowlist IS that row. Delete a script from the row and the gate goes loud again.
+
+    Fails OPEN (returns empty) if CLAUDE.md is unreadable or the row is absent: an
+    unreadable doc must not silence a real drift warning.
+    """
+    doc = SCRIPTS_DIR.parent / "CLAUDE.md"
+    try:
+        text = doc.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return set()
+    names = set()
+    for line in text.split("\n"):
+        if "MANUAL-ONLY" not in line:
+            continue
+        names.update(re.findall(r"`([A-Za-z0-9_]+\.py)`", line))
+    return names
+
+
 def tool_inventory():
-    """Return (rows, orphans, missing).
+    """Return (rows, orphans, missing, manual).
     rows    = [(script_name, wired?, purpose)] for everything on disk
-    orphans = on disk but NOT in BOOT_SEQUENCE  -> boot never runs it, invisible
+    orphans = on disk, NOT wired, and NOT documented manual -> REAL drift, gate fires
     missing = in BOOT_SEQUENCE but NOT on disk  -> boot references a ghost
+    manual  = on disk, not wired, but CLAUDE.md says why -> known-good, reported quietly
+
+    The orphans/manual split is the fix for a DEAD GATE (DAEDALUS 8/17 item 6, PAT-074):
+    this check fired 🔴 on the same 4 known-good scripts every single run, and a flag that
+    fires every run for a known-good reason trains the reader to skip it — which is exactly
+    what happened to grade_8_14_branch.py, flagged for days while SAM read past it. A gate
+    that cannot go green cannot be trusted when it goes red.
     """
     wired = {name for _, name, _, _, _ in BOOT_SEQUENCE}
+    declared = documented_manual()
     on_disk = sorted(p.name for p in SCRIPTS_DIR.glob("*.py") if p.name != "boot.py")
     rows = [(n, n in wired, _one_line_purpose(SCRIPTS_DIR / n)) for n in on_disk]
-    orphans = [n for n in on_disk if n not in wired]
+    unwired = [n for n in on_disk if n not in wired]
+    manual = [n for n in unwired if n in declared]
+    orphans = [n for n in unwired if n not in declared]
     missing = sorted(wired - set(on_disk))
-    return rows, orphans, missing
+    return rows, orphans, missing, manual
 
 
 def print_tool_inventory(full=True):
     """Full table on demand; drift warnings ALWAYS (they are silent when clean)."""
-    rows, orphans, missing = tool_inventory()
+    rows, orphans, missing, manual = tool_inventory()
     if full:
         print(f"\n{'='*72}")
         print("  SAM TOOL INVENTORY  (generated from scripts/ — not a maintained list)")
@@ -162,9 +198,17 @@ def print_tool_inventory(full=True):
         print(f"  {'Script':<26}{'Boot':<7}Purpose")
         print(f"  {'-'*68}")
         for name, is_wired, purpose in rows:
-            print(f"  {name:<26}{'✓' if is_wired else '—':<7}{purpose}")
-        print(f"\n  {len(rows)} tool(s); {sum(1 for r in rows if r[1])} boot-wired.")
+            flag = "✓" if is_wired else ("M" if name in manual else "—")
+            print(f"  {name:<26}{flag:<7}{purpose}")
+        print(f"\n  {len(rows)} tool(s); {sum(1 for r in rows if r[1])} boot-wired"
+              f"{f'; {len(manual)} manual-only by design (M)' if manual else ''}.")
         print("  Run any of them directly: .venv/bin/python3 AGENTS/SAM/scripts/<name>")
+        if manual:
+            print(f"\n  ℹ️  {len(manual)} manual-only BY DESIGN, per CLAUDE.md — not drift:")
+            for n in manual:
+                print(f"       {n}")
+            print( "     (allowlist is parsed from CLAUDE.md's MANUAL-ONLY row, so removing")
+            print( "      a script from that row makes this gate go loud again.)")
     if orphans:
         print(f"\n  🔴 {len(orphans)} SCRIPT(S) ON DISK BUT NOT BOOT-WIRED — boot never runs")
         print( "     these, so a future session will not know they exist:")
@@ -263,9 +307,10 @@ def main():
 
     # Tooling visibility: one always-on line so a future boot knows the full toolset
     # exists and how to list it, plus loud drift warnings (silent when clean).
-    inv_rows, _, _ = tool_inventory()
+    inv_rows, _, _, inv_manual = tool_inventory()
     print(f"  Tools: {len(inv_rows)} in scripts/ "
-          f"({sum(1 for r in inv_rows if r[1])} boot-wired) — "
+          f"({sum(1 for r in inv_rows if r[1])} boot-wired"
+          f"{f', {len(inv_manual)} manual-only by design' if inv_manual else ''}) — "
           f"full list: boot.py --tools")
     print_tool_inventory(full=False)
 
