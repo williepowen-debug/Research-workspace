@@ -1,73 +1,71 @@
 # WALTER — LAST COMPLETION
 
-**Session:** 2026-08-20 Thu **AFTERNOON** — boot 15:32Z on Will-terminal *"Hi WALTER please boot up"*, minutes after the morning session's Tier-2 closing commit. **Closed Tier-2 FULL ~18:3xZ on *"okay lets close out here."*** Peers live throughout: PROME · BOND · CREED · DAEDALUS · REGINALD (+ RED by S32 push).
+**Session:** 2026-08-22 **Sat EVENING** — boot ~22:3xZ on Will-Telegram *"Hi WALTER please boot up. It is saturday 8/22"*; ran ~2h through an 8-image drop, a Will-directed live news sweep, and a design exchange that became a PROME proposal. **Closed Tier-2 FULL ~00:1xZ on *"are we closed out here?"*** Peers live at close: **PROME · HOMER · DAEDALUS**.
 
 ## STATUS
-🟢 **GREEN.** **BOARD 784** (unchanged — zero dispatches), reconciles across all four surfaces. Doctor at close: **0 HIGH / 1 MED**, and the MED is the standing deliberate one (98 unconsumed >2d, **down from 105 — REGINALD drained its lane in-session**; do NOT re-suppress). **STATUS.md rotated to 24,038 B = 50% of its 48,000 cap** (was 96% — the owed rotation is DONE). Trigger board now **29 rows: RED-FT 10 · REG-T 8 · CREED-T 11.**
+🟢 **GREEN.** **BOARD 784 → 791**, reconciles across all four surfaces. Doctor **0 HIGH / 1 MED** — the MED is the standing deliberate one (unconsumed backlog; **do NOT re-suppress**), and **all 13 `registry_lag` MEDs were CLEARED**. **Inbox 9 → 0.** **Three declared batch manifests closed clean: 3/3 · 5/5 · 6/6.** STATUS **25,214 B = 53% of its 48,000 cap** (no rotation owed). Trigger board unchanged at **29 rows** (RED-FT 10 · REG-T 8 · CREED-T 11).
 
 ## CHANGED
-**The 8/08 forum-carry packet's five build items ALL LANDED (Will-directed), commit `131a9d16d`:**
-1. **§3.5 warrant re-point** (SPEC → **v0.19**) — the pull-complete exemption's justification cites what the tooling ACTUALLY does (file-parse past a cursor / ID-diff vs ledger), never "whole-INDEX BOARD diff" (~19× any reader's cap). Membership unchanged; RULE 10 propagated.
-2. **S1 BUILT** — doctor `terry_override_ratio`: inverted-token TERRY declaration (a qualifying `action: TERRY` row BEGINS its notes cell with `T-1`/`T-2`/`T-3`; absence = override; legacy rows graded by the old prefix) + the ratified 90d/≤10%/n≥10 clause + **the 72h revert falsifier as a separate HIGH event test**. Two clocks, still unharmonised, both machine-watched.
-3. **S7 BUILT** — doctor `filed_vs_consumed` + the §5.1 `consume:<AGENT>` grammar; undeclared post-8/20 moves = FILED and flag by name; pre-grammar moves are an upper bound, never flagged. First run 9 declared / 114 pre-grammar / 0 undeclared.
-4. **`entities:` MANDATORY at dispatch** (FORMAT_SPEC → **v0.18**, CHECKLIST → **v0.35**, doctor `entities_at_dispatch`) — never retro-filled; clean baseline 38/38 since 8/19.
-5. **Bounded cell** — the CLAUDE.md BOARD_CONSUMPTION_SPEC row cut **10,500 → 1,569 B** (current version + concept map + pointer), after backfilling the spec's own **missing v0.17/v0.18** Version History entries so the content had a home before the cut.
+**7 dispatches** — `-001` **Canada 50% tariff, IMMEDIATE**, verified verbatim at the `pm.gc.ca` issuer primary (and carrying the **9/8 retaliation schedule** the screenshots did not) · `-002` **the 30Y's EXACT buyback round-trip** re-derived at FRED `DGS30` · `-003` Perm refinery · `-004` housing-superlative correction · `-005` AI-datacenter unit swap · `-006` Wood Smith (0.45, figure explicitly non-citable) · `-007` **the consumer-guidance pattern from the live sweep**. **2 kills** (Turkey/Israel on Credibility; the Irani Hormuz-control claim on Novelty, **perimeter half kept open in the anchor**).
 
-**Also:** inbox **10 → 0** — 9 packets verified-then-filed `consume:WALTER` + the 8/08 packet discharged-and-filed; **three pieces of owed work found by the sweep and discharged BEFORE filing** (the §3.6 marker on `-20260813-001` — CARL's 8/15 correction had sat unmarked 5 days; PROME's Yanbu entity-index question DECIDED-adopt and **landed by PROME same hour**, `288b774`, deviation ratified owner-wins; TERRY's truncation-detector → auto-memory n+4). **RED S32 consumed:** `RED-FT-10` verified at the registry (10×15, append-only), `^SKEW` basis declared, re-cross ruled factual ×3 / no weight moved, comparator warning audited WALTER-side (no op-column dispatch exists here). Boot 6b CREED fire-ledger line DISCHARGED (`72ca3aa56`). Lane sweep `BM-20260820-03` 11/11 (4 KILL / 2 DUP / 5 NO-ACTION), zero routable. Registry rows ×6. CLAUDE.md closeout **12(d) amended** (prepend directly to `SESSION_LOG.md`; the in-STATUS tier is deliberately dead). MEMORY 129→121 lines (Session-Notes rewrite + 1 shipped-fix prune).
+**Specs + surfaces:** `ROUTING_TABLE` **v0.30** (FLG seam) · `SIGNAL_FORMAT_SPEC` **v0.19** (`JAPAN_BOJ` widened, code kept) · `SIGNAL_PROCESSING_CHECKLIST` **v0.36** (Phase 2 step 7 **STATE RULE**) · `STATE.md` §1 swept, **version-drift guard green** · **REGISTRY 18 rows** (17 refreshed + **FLG added**) · **`CROSS_REFS/REGINALD.md` score column fully re-cut** to BANK_EXPOSURE_MATRIX v2.0 · **3 §3.6 correction markers** with direction stated · **IRAN_WAR anchor**: BRENT's transit impeachment folded in + a third recirculation guard · **`design/NEWS_SWEEP_TARGETS.md`** created · auto-memory **`finding_url_date_inference_has_no_error_signal`** written + committed.
 
 ## RESULT
-**A zero-dispatch day on purpose: the lane produced nothing routable, so the session spent itself on the build debt — and the fleet's three newest dispatch-time conventions (entities, TERRY tokens, consume-declarations) are now machine-guarded instead of remembered.** The S7 check counted its own adoption (the packet-filing commit was its 10th declared consumption). PROME's same-hour Yanbu landing closed the 8/15 lane-coverage gap end-to-end: decided, landed, ratified, verified against the literal 8/12 headline.
+**A heavy routing night whose most useful output was not a dispatch.** **Five carried or inbound items turned out to be ALREADY TRUE, ALREADY DONE, or ALREADY REFUTED** — found by CHECKING rather than executing: the `GATES.tsv` type column had shipped a day before its trigger; REGINALD's owed `REG-T-07` answer was already written; `REG-T-02` had been re-armed; PROME's `EUROPE_MACRO` ruling arrived 3 days after I shipped it; and HAWK/MARCO had primary-verified the Canada tariff **before my IMMEDIATE went out**, holding the Section 338 mechanism my dispatch lacked. **The live sweep then found what the automated lane could not: three consumer bellwethers that BEAT and sold off on FORWARD guidance in four days, caught by nobody.**
 
 ---
 
 # 🔵 FOR WILL — the running list, in plain language
 
-## A. NEEDS WILL — **nothing.** No decision is blocked.
+## A. NEEDS WILL — **nothing blocked**, but **two offers are OPEN and unanswered**
+| # | Offer | Why it matters |
+|---|---|---|
+| 1 | **The correction-baseline audit** — sample ~30 pre-August signals against the §3.6 standard | 🔴 **All 5 recorded corrections post-date the mechanism's 2026-08-07 ship date. The clean Apr–Jul record across 647 signals is NO INSTRUMENT, not no defects.** Until this runs, neither of us can say whether tonight was a bad night or a typical one — we are both reasoning from salience. |
+| 2 | **Treat the 22 unconsumed ACTION items as the real problem** | **An unread signal is worse than an unsent one — it looks handled.** |
 
-## B. WAITING ON ANOTHER DESK — 2 items, none blocking
-
+## B. WAITING ON ANOTHER DESK — 3, none blocking
 | # | Who | What | Live? |
 |---|---|---|---|
-| 1 | **REGINALD** | **Consumed its whole backlog in-session (7 handoffs incl. the `-021` correction pair) — but consumption ≠ answer:** CREED's `REG-T-07` collision ask (add CREED to the chain; note the two bars) still needs a WRITTEN answer on a REGINALD surface. Check its next commits before re-chasing. | 🟢 live today |
-| 2 | **BRENT / FALCON** | Transit-instrument disposition + the six-value baseline. | 🟢 FALCON live 8/20 |
+| 1 | **PROME** | **Ruling on the dark-owner doorbell proposal** (`PROME/inbox/2026-08-22_from-WALTER_dark-owner-doorbell-…`, `f80ac13da`, **doorbelled per rule 6**). Three asks: rule the gate · confirm **spawn authority is PROME's alone** · two candidates offered, **not** a spawn request. | 🟢 live at close |
+| 2 | **HAWK** | 🔴 **Reconcile its own STATUS: it carries BOTH *"IN FORCE from 12:01 a.m. ET TODAY"* (8/22) AND *"EFFECTIVE 12:01 ET 2026-08-19"* for what reads as one Section 338 measure.** `-001`'s framing rests on the US leg being live. **Flagged, NOT edited — another desk's file.** | dark |
+| 3 | **ZHAO** | **CXMT output in BITS, not WSPM** — VULCAN's **third** ask. WSPM is not bit output; the bit figure is what would move VULCAN's shortage premise. | dark |
 
-✅ **CLEARED today: RED** (S32 — `^SKEW` grading basis declared in `FT-10`'s `instrument_basis`; the two-instruments collision resolved by naming discipline both sides).
+✅ **CLEARED this session: REGINALD** (`REG-T-07` answer found already written) · **PROME** (`EUROPE_MACRO` found already shipped 8/18) · **RED** (`FT-10` verified at 10 rows).
 
 ## C. RESOLVES ON A CLOCK — no action by anyone
-- **`WAL` vs `REG-T-02`** — $80.18 intraday at the 14:18 ET closeout = 2.8% above the sustain-1 binary; **the 8/20 16:00 close decides and this desk did not see it — next boot pulls the SETTLE first.**
-- 🆕 **`^SKEW` vs `RED-FT-10`** — 142.93 [8/19 bar] = 4.7% below the ≥150 s=4 line registered today. **Lagged series: grade on the bar's date, never the pull date.**
-- **`RED-FT-01` exit** — HY OAS 273 [FRED 8/19] = 7bp from ≥280 s=3, **moved AWAY** (was 275 [8/18]). Re-pull after 16:00 ET before quoting a distance.
-- **`CREED-T-01a`** — 11.91% [Trepp **Jul**, monthly] = 9bp from band; nearest registered trigger on the board.
-- **`TRY-FIRE-004`** — the buyback bid arrives **9 Sep → 4 Nov**, inside the Sep-30 expiry; TERRY holds.
-- **`GATES.tsv` type column ships ~8/23** — evaluation trigger at the first boot on/after 2026-08-23 (read the header; do not carry unevaluated).
+- 🔴 **`WAL` vs `REG-T-02`** — **$79.67 [8/21 close] = 2.1% above <78, sustain-1, and NEWLY RE-ARMED.** Any close <78 from 8/21 is a **FIRST FIRE OF A NEW CYCLE**: fresh signal, full `V1V3-ACCELERATE` chain, **NO duplicate suppression.** **The most likely fire on the board.**
+- **`CREED-T-01a`** 11.91% [Trepp **JUL**, monthly] = **9bp** from >12 — nearest registered trigger overall. ⚠️ **The August print's publication date is NOT verified — confirm before treating it as a calendar item.**
+- **`RED-FT-01` exit** — HY OAS **275 [8/20] = 5bp** away and it **WIDENED BACK 2bp** (the 8/20 board said "moved away"; that reversed). **`CCC-OAS` 1035 widening four sessions running.**
+- **`^SKEW` vs `RED-FT-10`** — 143.90 [8/21 bar] = **4.2%** below ≥150, moved CLOSER. **Bar-date governs.**
+- **2026-09-08** Canadian retaliation · **2026-09-09** Treasury buyback actually begins (**9 Sep is UN-PRICED — the announcement premium is fully unwound**) · **2026-09-30** `TRY-FIRE-004` expiry · **2026-10-01** OZK sub-note reprice.
 
 ## D. WHAT I'D WANT YOU TO KNOW, not do
-- **Brent printed $93.28 (+1.8%) intraday — the highest of this leg** (8/18's pre-open spike was $91.28). BRENT owns the price; the anchor's pre-dispatch re-verify covers any Iran-cluster item that arrives on top of it.
-- **PROME's Yanbu deviation was better than my spec, and the reason generalises:** an ENTITY-INDEX match classifies a story KNOWN→suppressed — filing a fire-line instrument there would have EATEN the exact story class the keys exist to catch. Watch-keywords surface. The acceptance test that settled it: "does the literal 8/12 headline classify visible?"
-- **The morning's 105-unconsumed MED fell to 98 by mechanism, not decree** — PROME's split ruling executed (REGINALD doorbelled → drained same session). The remaining ACTION backlog rides PROME's second-wave spawn record.
-
----
+- 🔑 **Of 7 dispatches, HOMER was the ONLY live `action:` recipient — and the ONLY desk that consumed anything.** Everything to CARL, MARCO, HENRY, TERRY, BOND, OSPREY, VULCAN and BROCK is unread. **The binding constraint is owner availability at landing time, not intake.** Your doorbell proposal is the live answer.
+- **My only IMMEDIATE was the one the fleet least needed.** MARCO and HAWK had both primary-verified the Canada tariff first and held the mechanism I lacked. **Loudest ≠ most urgent** — which is why the doorbell gate is built to decline it.
+- **The automated lane produced 13 items and zero routable ones.** **All seven dispatches came from your phone or your directed sweep.**
+- **I declared a batch at 3 while 8 were arriving** and corrected it with a **declared continuation naming the error in its own source line** — a manifest that exists to catch dropped inputs is worthless if a miscount is quietly papered over.
 
 ## GAPS (WALTER-facing)
-- **`MEMORY.md` 121 lines vs its 100-line cap** (was 129). Longest-standing declared residual; hunt shipped fixes each session.
-- **The refuted claim in `SIG-W-20260819-021`'s FILENAME** — unchanged; mitigated by banners, unsolved (rename convention would be the fix; this is the test case).
-- **Non-US rows of the `-003` sovereign panel remain UNVERIFIED** (no independent instrument pulled for Bunds/OATs/ACGBs/Spain).
-- **`centcom.mil` still 403 from this box** — the "disabled" definition stays PUBLIC-AND-UNFETCHED; one direct read by any desk that can reach it closes it for HAWK.
-- **No tankage instrument for HAWK's Sheskharis mechanism** — paid/proprietary class; closer to genuinely-unavailable than unfetched.
-- **S7's `.consumed.tsv` path is specified but no such file exists yet anywhere** — fine (the commit-token path is the one in use, 10/10 so far), noted so its absence is never read as a defect.
+- **`MEMORY.md` 111 lines vs its 100-line cap** (was 126 — 15 promotion-archaeology rows collapsed into the existing prune ledger this session, per the 7/27 precedent). **Longest-standing declared residual.**
+- 🔴 **647 pre-August signals carry an UNKNOWN defect rate and nobody will go back and check.** The §3.6 mechanism shipped 8/07; everything before it was never markable. **This is the real exposure, not tonight's catches.**
+- **`TARIFF_TRADE` has NO registered trigger** — **two** dispatches tonight ran into it. The largest live macro event of the weekend cannot fire anything. Flagged to PROME, **not invented here**.
+- **Detection is proportional to domain overlap.** Every catch this week came from a desk holding the same object. **Claims in the connective tissue — dates, units, publishers, scopes, aliases — belong to no domain and get no expert audit.** That is precisely where my errors live, because routing IS connective tissue.
+- **The refuted claim in `SIG-W-20260819-021`'s FILENAME** — unchanged; the standing rename-convention test case.
+- **Non-US rows of the `-003` sovereign panel remain UNVERIFIED** · **`centcom.mil` still 403** · **no tankage instrument for HAWK's Sheskharis mechanism** · **no Kpler/Vortexa fetcher** (this killed `GATE-TERRY-006`: the premise HELD and the instrumentation failed).
+- **`-007` is SECONDARY-SOURCED throughout, conf 0.70 — no 8-K, 10-Q or issuer release was fetched.** A spawn's or CARL's first job is the filings.
 
 ## OPEN DESIGN DECISIONS (need Will)
-**🟢 NONE ACTIVE.**
-**🟠 CARRIED, evidence accumulating:** §3.5.6's three options for the pull-complete blind spot (recorded, none adopted) · an `action:` item landing on a pull-complete recipient produces no handoff · foreign-origin BOARD rows carry a `SIG-W-` id.
+**🟢 NONE BLOCKING.** **🟠 LIVE WITH PROME:** the dark-owner doorbell gate + the written confirmation that **spawn authority is PROME's alone** (WALTER recommends, never spawns).
+**🟠 CARRIED, evidence accumulating:** §3.5.6's three options for the pull-complete blind spot · an `action:` item landing on a pull-complete recipient produces no handoff · foreign-origin BOARD rows carry a `SIG-W-` id.
 **🟠 DEFERRED (unchanged):** DEWEY cadence · RAV run cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe-by-story · lane `edgar_8k` scope · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 (not recommended) · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
-**🔵 SURFACED (not WALTER-fixable):** Hormuz transit level still not knowable · Red Sea has no registered gate (FALCON) · HANS 34d+ dark · ZHAO / CORAL / VULCAN dark (PROME second-wave queue).
+**🔵 SURFACED (not WALTER-fixable):** 🔴 **HANS 34d+ dark AND tonight produced a `EUROPE_MACRO` signal for it** (Klarna's guide-down names GERMANY) — **the fleet has the signal, a code, and no live owner; a doorbell cannot spawn a desk with no successor. ROSTER question.** · Hormuz transit still not knowable post-impeachment · Red Sea has no registered gate · ZHAO / CORAL / VULCAN dark.
 
 ## FOLLOW-UP
-1. **Next boot: pull the 8/20 SETTLES before citing state** — WAL (the sustain-1 test), VIXCLS (exit 2.16 away on the 8/18 print, cash moving toward it two sessions running), and the FRED set (T+1).
-2. **REGINALD** — check for the written `REG-T-07` collision answer in its next commits; re-chase only if silent ~2-3 days (it is live and draining, not dark).
-3. **Count RED-FT as 10** (FT-10 new 8/20; ^SKEW is a LAGGED series — bar-date governs counts).
-4. **`MEMORY.md` cap** — hunt entries whose fix shipped (this session's S1/S7/entities ships may retire entries in OTHER files' copies; mine is pruned).
-5. **CENTCOM "disabled" definition** — closeable by any desk that reaches `centcom.mil`.
-6. 🔴 **DATED: `GATES.tsv` column pass ~2026-08-23** — at the first boot on/after 8/23, READ the file's header for the type column; if present, boot scans `INSTRUMENT`-typed rows only (Will-ruled scope). Until then 6b/6c unchanged, GATES.tsv not scanned. **Do not carry unevaluated.**
-7. **From the discharged 8/08 packet, the two residuals that outlived it (neither WALTER-executable):** **(a)** S1 HOOK entry — coordinate with DAEDALUS's Rung A if a hook delivery is wanted; the doctor check does the watching meanwhile. **(b)** Intake-lane entity fill on the alert tier — PROME's config (7e(a) read-only); rides with the entity-class tagging already specced to PROME.
-8. **`SIG-W-20260819-021` filename** — the standing rename-convention test case, if one is ever ratified.
+1. 🔴 **Next boot: pull MONDAY 8/24 closes.** `WAL` is the live one — 2.1% from a **re-armed sustain-1** binary.
+2. **PROME's doorbell ruling.** If adopted, **WALTER encodes `BOARD_CONSUMPTION_SPEC` §3.5.7 + CHECKLIST Phase 3.5 — my files.** ⚠️ **The `MESSAGING/` rule-6 `else` branch is SHARED and Will-gated: FLAG, do not edit.**
+3. **Trepp August print** — confirm its publication date first; **do not treat any date as a calendar item until verified.**
+4. **The two open Will offers in §A** — the baseline audit is the one that converts a feeling into a number.
+5. **HAWK's Section 338 date discrepancy** · **ZHAO's CXMT-in-bits (3rd ask).**
+6. **`design/NEWS_SWEEP_TARGETS.md`** carries its own refresh trigger — **re-cut on any fire, exit or resolution.** ⚠️ **It is the standing checklist; Will re-scoped the SWEEP itself to open discovery.**
+7. **`MEMORY.md` cap** — 111 vs 100; hunt entries whose fix shipped.
+8. **`SIG-W-20260819-021` filename** — the standing rename-convention test case.
