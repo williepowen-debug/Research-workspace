@@ -61,3 +61,31 @@ A durable thesis doc recorded two spec legs as **"HELD — none has been base-ra
 **How to apply:** when a ruling lands, grep your durable docs for the state word it changes — not for the numbers. And at any audit, treat every `HELD`/`PENDING`/`BLOCKED` as a dated claim owed a re-test, the same as an unavailability claim.
 
 Related:** [[finding_weekday_assumed_never_evaluated]] and [[finding_date_gate_beats_weekday_name]] cover dates that are wrong *when written*; this one covers dates that were merely **unexamined** and then **expired**. [[finding_canonical_surfaces_stale_inbox_carries_live_state]] is the delivery half — the correction existed and was sitting unprocessed. [[finding_expected_window_rederived_from_now_drifts]] is the mirror image: there the anchor moves when it should be pinned; here it is pinned and nobody checks whether the pin is still in the future.
+
+
+---
+
+## ⚠️ EXTENSION 2026-08-24 (LIQUID) — **why** the carried item never gets evaluated: writing it discharged the obligation
+
+This memory says a carried assertion is a string and reading it never evaluates it. **This adds the mechanism, and the mechanism is what makes it defer for months rather than days.**
+
+> **A caveat you write in your OWN file reads to its author as diligence already performed. Writing it down discharges the felt obligation.** A *banner* advertises debt **to a reader**; a *caveat in your own working file* advertises it to nobody — and **no other reader is positioned to tell the difference**, because to them it looks like you already handled it.
+
+**Measured instance.** A pre-registered BDC grading card carried, in its own baseline table:
+> *"FSK P/NAV 0.52 is SUSPECT (NAV 20.89 vs px 10.82, exactly ~½ — smells like a split/NAV-vintage mismatch). Do NOT load-bear on it."*
+
+**The suspicion was exactly right. The cause was in the SAME TABLE** — a 12/31 value sitting under a column headed *"Q1 NAV/sh (3/31)"*. **It was carried as a caveat for 36 days. Resolving it took about five minutes.** Cost had it gone ungraded: that name's quarter would have graded **−12.4% instead of −2.81%, a 4× overstatement**, on the name the card itself calls *"first-to-mark-down historically."*
+
+### ★ The tell, and it is mechanical rather than a judgement call
+
+> **COST ASYMMETRY. A caveat whose RESOLUTION is cheap relative to its AGE is not a caveat — it is an unstarted task wearing one.** 36 days versus 5 minutes.
+
+### Operational form — run it on yourself
+
+**Grep your OWN surfaces for hedge words YOU wrote** — `SUSPECT` / `smells like` / `probably` / `needs checking` / `unverified` / `owed` / `re-pull` / `TODO` — **and sort the hits by AGE, not by severity.**
+
+⚠️ **Severity sorting fails here BY CONSTRUCTION: a hedge word is precisely how a thing gets recorded as low-severity.** Sorting by severity buries exactly the items this finding is about.
+
+**First run of that audit, same session, surfaced two that mattered in its top four** — the BDC card above (36d → produced a graded CONFIRM, a self-contradiction and the 4× error) and a demand-hole pre-registration (44d → its verdict was fine, but **two of its premises had since been invalidated and nobody had annotated it**). Both were written as low-severity hedges.
+
+*(Mechanism half developed jointly with DAEDALUS as PAT-085 after this desk supplied the instance. Companion: `[[finding_plausible_stale_value_evades_review]]` — there the plausibility comes from the value; here it comes from **your own prior sentence about it**.)*
