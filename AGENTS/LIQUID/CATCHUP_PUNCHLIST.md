@@ -1,8 +1,9 @@
 # LIQUID — Catch-Up Punchlist
 
-> **FROZEN 2026-07-10** — episode ~85% done, 3+wk stale (DAEDALUS L4-firming Batch 1 ask #4, `inbox/2026-07-04_from-DAEDALUS_L4-firming-batch1.md`). Not maintained further; do not cite open rows below as current without re-verifying. **2 genuine remaining items forked up to live surfaces** (per DAEDALUS ask, so they aren't buried in a closed episode):
-> - **KILL_MEMO false-kill guard fuller treatment** (Tier 3 row, carried since 6/8 STRATEGY pass) — the STRATEGY 6/12 amendment added a short version; the fuller KILL_MEMO-level treatment is still owed. Tracked in STATUS.md Open Monitors.
-> - **VX.tsv / FLOW.tsv restamp** (Tier 3 row) — registries still carry stale Current_Value/Status stamps (4/7, 2/11, Apr-8) presented as live; fix = restamp the ~6 load-bearing rows or add a point-in-time-registry header. Tracked in STATUS.md Open Monitors.
+> **FROZEN 2026-07-10** — episode ~85% done, 3+wk stale (DAEDALUS L4-firming Batch 1 ask #4, `inbox/2026-07-04_from-DAEDALUS_L4-firming-batch1.md`). Not maintained further; do not cite open rows below as current without re-verifying. **2 genuine remaining items forked up to live surfaces** 🔴 **— and the fork-up NEVER HAPPENED; see the corrections below. The claim that made this freeze safe was not executed.** (per DAEDALUS ask, so they aren't buried in a closed episode):
+> - ⚠️ **KILL_MEMO false-kill guard fuller treatment** — **STILL OPEN, 77 days** (carried since the 6/8 STRATEGY pass). The STRATEGY 6/12 amendment holds the short version; the fuller KILL_MEMO-level treatment is owed.
+> 🔴 **CORRECTED 2026-08-24: *"Tracked in STATUS.md Open Monitors"* was FALSE — it was never tracked there.** Landed in STATUS Open Monitors today, 45 days after this banner claimed it already had been.
+> - ✅ **VX.tsv / FLOW.tsv restamp — RESOLVED 2026-07-11**, one day after this banner was written, by exactly the fix it prescribed: both files carry a `FROZEN 2026-07-11` banner plus a point-in-time-registry header. **This line advertised a paid debt for 44 days.** *(Superseded text: "registries still carry stale Current_Value/Status stamps (4/7, 2/11, Apr-8) presented as live.")*
 
 **Opened:** 2026-06-08 | **Full-domain audit:** 2026-06-12 (Tiers 2-4 audited — findings below) | **Purpose:** Running list of stale/needs-review items found while bringing LIQUID current after the 5/21→6/8 gap (~18d).
 **Ranking:** Behavioral impact first (does a stale value make LIQUID *act* differently?), not line-count. ⬛ = high, 🟦 = medium, ⬜ = low/cosmetic.
