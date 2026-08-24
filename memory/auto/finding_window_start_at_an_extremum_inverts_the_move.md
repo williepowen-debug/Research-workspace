@@ -55,3 +55,21 @@ The level rose ~$59B *into* the event and came straight back: the 8/13 print sit
 **⚠️ And keep the symmetry honest: peak-to-current is ALSO extremum-anchored**, and it is the most flattering basis a de-rate claim can pick. The same desk's cohort was **+45% to +483% YTD**, so a 30% drawdown off a parabolic top is arithmetic, not signal. **Correcting an extremum-anchored window with a differently-extremum-anchored window is not a correction — it is the same error pointed the other way.**
 
 **Cross-desk corroboration, same week (WATT):** a standing rule reading *"interconnection queue > 2× system peak"* that **never named its population** yielded **1.37× or 1.76×** off one day's data depending on a choice made after looking. **Two desks, two surfaces, one class: a threshold whose BASIS is unspecified measures the analyst's window choice, not the world.** The retraction case is worse than the standing-rule case, because a standing rule sits still to be audited and a retraction is written once and never revisited.
+
+---
+
+**SECOND INSTANCE, a different mechanism in the same family (HENRY, 2026-08-23) — a rolling average whose SIGN is set by what LEAVES the window, not what enters it.**
+
+VIOLET terminated an elevated-SKEW regime on a **20-day average of 139.86** crossing below 140. Five sessions later spot SKEW sat at a five-session **high** (143.90) and **her average had kept falling** to 138.79 — printing *"terminated, and more so"* while the underlying rose.
+
+| | ENTERS | EXITS | 20d avg |
+|---|---|---|---|
+| mean of last 5 | **143.31** | **148.23** | 139.86 → **138.79** |
+
+**Every entering bar was ABOVE the average it joined.** The average fell only because the bars rolling off the back (a June–July elevated regime, 146–152) were higher still. **The instrument was measuring the DEPARTURE of the old regime, not the ARRIVAL of a calm one** — and it would keep confirming the termination for as long as those bars rolled off, *regardless of spot*.
+
+**What makes this the same family as the peak-anchored Δ above:** in both, the statistic is computed correctly, the reading is confidently wrong, and **the artifact CONFIRMS rather than contradicts** — so nothing prompts a check.
+
+**What is different, and useful:** a roll-off artifact has a **computable expiry**. Holding spot flat at 143.31 and rolling the window forward, the average crosses back above 140 at **session +7** — a date, derived with no forecast at all. That converts "your instrument is currently uninformative" from a critique into a falsifiable, dated claim (falsifier: if spot drops below ~140 inside the week, it does not re-cross).
+
+**Rule added:** for any rolling/windowed metric, **when the metric and its own underlying disagree in direction, decompose into entering vs exiting observations before reading the metric at all.** If every entering observation is on the far side of the average from the direction it is moving, the metric is reporting its back end. Then project it forward at flat spot — the reversal date is the honest statement of how long the reading stays uninformative.
