@@ -24,7 +24,7 @@
 - finding_closeout_as_writeback_tail — "Codify session closeout as the write-back tail of the auto-loaded CLAUDE.md SPAWN PROTOCOL, not a standalone doc; auto-load is the decisive factor"
 - feedback_intra_day_closeout_discipline — Run WALTER closeout (spawn-protocol steps 12-15) at every session end, not just end-of-day; multi-session-days must honor intermediate closeout to prevent STATUS-staleness gap
 - feedback_handoff_cadence — Will prefers clean handoffs at natural breakpoints over riding a long session into degradation
-- finding_state_token_sweep_all_surfaces — When a gate/decision state flips (e.g"
+- finding_state_token_sweep_all_surfaces — When a gate/decision state flips (e.g
 - finding_completion_stamp_skip_reads_as_current — "a file whose NAME promises currency (LAST_COMPLETION) that SKIPS a closeout doesn't read as stale — it reads as current and wrong; detect by mtime vs STATUS.md"
 - finding_derived_surface_fold_is_the_last_writeback — 5-of-5 stale derived surfaces were MID-SESSION writes left behind by later prima
 
@@ -40,7 +40,7 @@
 - feedback_subagent_web_tools_not_autoloaded — "General-purpose research sub-agents may spawn WITHOUT WebSearch/WebFetch loaded, silently returning no data on web-dependent tasks; confirm tooling in the prompt or do the lookup in-session"
 - finding_subagent_year_verification — "Before citing any web-pulled metric as load-bearing, confirm the YEAR explicitly from the primary source; aggregator articles silently reference prior-year prints"
 - feedback_parallel_spawn_independent_agents — When spawning multiple sub-agents whose work doesn't depend on each other, always send them as multiple Agent calls in a single message — never sequentially
-- feedback_named_spawn_teams_mode — Naming an Agent spawn via the `name` parameter triggers team-mode (mailbox-based"
+- feedback_named_spawn_teams_mode — Naming an Agent spawn via the `name` parameter triggers team-mode (mailbox-based
 - finding_fence_orchestration_live_agent — a directory fence must be ANNOUNCED to the live session and its commits watched
 - finding_teams_mode_domain_agent_spawn — Teams-mode (named-spawn) works for domain agents like BOND
 - finding_draft_only_teams_spawn — "Teams-mode domain-agent spawn pattern where agent is briefed to draft into proposals/ only, no live state file edits; iterative Will + Prome review via SendMessage across multiple turns before recipient adopts"
@@ -53,7 +53,7 @@
 - finding_workflow_subagent_repo_sandbox — "Workflow subagents are sandboxed to the repo working tree; pass in-repo paths (not ~/.claude or /tmp) and hardcode script values rather than relying on args binding."
 - finding_write_behavior_check_before_agent_tool_run — "Before test-running another agent's tool, grep it for write ops — \"boot kit\" and \"tracker\" scripts mutate their agent's data files, and a verification run becomes an ownership violation"
 - finding_workflow_scratch_crash_recovery — a crashed /deep-research (or any Workflow) session leaves sub-agent outputs recoverable in /tmp task scratch — salvage before re-running
-- finding_workflow_rate_limit_resume_recovery — A /deep-research or Workflow killed mid-run by a session rate limit is recoverab"
+- finding_workflow_rate_limit_resume_recovery — A /deep-research or Workflow killed mid-run by a session rate limit is recoverab
 - finding_teams_mode_no_split_pane — Teams mode does not appear to support split-pane visibility on WSL2 even with teammateMode=tmux + TMUX env present; Agent View is the feature that provides the second pane
 - finding_batch_extraction_fanout_then_route — split mechanical extraction (fan out) from judgment (owner keeps routing)
 - finding_warm_agent_multiround_sweep — keep named spawns resident, re-task in rounds — later rounds are cheap
@@ -64,7 +64,7 @@
 
 ## Spawn delivery contract — embedded → `PROME/COMPLETION_SPEC.md` §Fleet-memory embeds (2026-07-31)
 - finding_two_phase_spawn_grader_contract — waiting on a print? two spawns, a FROZEN grader as the handoff contract
-- finding_terminated_notice_can_precede_delivery — A teammate_terminated notice + an empty disk check does NOT prove a spawned agen"
+- finding_terminated_notice_can_precede_delivery — A teammate_terminated notice + an empty disk check does NOT prove a spawned agen
 - finding_idle_notification_is_not_a_result — an idle spawn is not a report — chase the deliverable; check DISK before re-spawn
 - finding_spawned_agents_ship_artifact_skip_writeback — spawns ship the artifact and SKIP their STATUS — put write-back in the contract
 
@@ -80,20 +80,20 @@
 ## Prediction & calibration — embedded → `FORGE/PREDICTION_DISCIPLINE.md` (2026-07-31; hot residue re-based 2026-08-21 pass #5 — canon file now carries the FULL set, only the 2 HELD-HOT rows stay in MEMORY.md)
 - finding_widened_scope_needs_rescoped_instrument — Widening a prediction's scope while keeping the old base-rate instrument can make it already-failed at registration — and you cannot see it from inside the derivation
 - finding_discovery_instrument_defines_the_claim — press-sampling measures YOUR discovery latency, not the world — name the scan
-- finding_redated_falsifier_inherits_premise — When you re-date a falsifier/prediction because a catalyst moved"
+- finding_redated_falsifier_inherits_premise — When you re-date a falsifier/prediction because a catalyst moved
 - finding_prereg_dates_the_event_not_the_artifacts_cadence — a prereg resolving on an ARTIFACT is dated by that artifact's own publication history, not the event; a mis-dated read manufactures a "disclosure missing" signal out of a calendar
 - finding_lessons_file_cannot_detect_own_contradictions — A prose lessons/LEARNINGS file cannot detect its own contradictions
 - finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch — symmetric ±N magnitudes hide a branch that CANNOT fire; base-rate every branch for reachability JOINTLY before freezing, and check whether one leg sits in another leg's denominator. Found: 0-of-418 windows in 19 months
-- finding_pre_register_against_the_carrying_filing — Pre-register a threshold against the FILING/SOURCE that carries the metric"
+- finding_pre_register_against_the_carrying_filing — Pre-register a threshold against the FILING/SOURCE that carries the metric
 - finding_anchor_prediction_to_surprise_not_priced — "Anchor an event→reaction prediction to the SURPRISE-vs-pricing, not to a named outcome that's already priced; dovish/hawkish labels can invert"
 - finding_thin_liquidity_prediction_market_discipline — "Thin-liquidity binary prediction-market single-print moves are not \"holds\"; require cross-source verification + ≥3-day re-check + earned-discount calibration before any mark update"
 - finding_calibration_discount_regime_conditional — An earned calibration discount is conditional on the pricing regime it was earned in — re-derive before applying at a different market-confidence level
-- feedback_two_way_read_directional_clarity — When presenting a \"two-way read\" or scenario branches"
+- feedback_two_way_read_directional_clarity — When presenting a \two-way read\" or scenario branches"
 - feedback_corrected_framing_calibration — WALTER verify-research's most-frequent verdict is CORRECTED-FRAMING; live distribution 0.60-0.88 confidence (median ~0.77), retain directional thesis, flag specifics as imprecise
 - finding_threshold_vs_mechanism — separate "mechanism intact" from "threshold holds" — TRUE-letter, FALSE-spirit
 - finding_catalyst_vs_consequence_conflation — Probability-shaped signals derived from catalyst probabilities silently inflate when transcribed as consequence probabilities — require the explicit P(consequence | catalyst fires) conditional
-- feedback_prediction_canonical_measure — When revising a prediction"
-- feedback_single_month_subcomponent_skepticism — Single-month sub-component metric moves (ISM internals, CMBS by-property-type"
+- feedback_prediction_canonical_measure — When revising a prediction
+- feedback_single_month_subcomponent_skepticism — Single-month sub-component metric moves (ISM internals, CMBS by-property-type
 - finding_noise_filter_erases_signal_class — before widening a noise filter, check if the true positives live in the noise
 - feedback_forward_discovery_prediction_spirit — resolve forward-discovery by SPIRIT (found in-window?), not literal text
 - feedback_litigation_allegation_weighting — Plaintiff/litigation-allegation-only signals should be weighted ≤40% confidence
@@ -120,15 +120,15 @@
 - finding_workbook_demote_by_verification — "demoting a dormant agent ledger — verify live-consumer + cross-agent counterparty BEFORE freezing; triage by Group not ID-range; UNVERIFIED-RETIRED for LLM rows; re-verify your correction's own provenance"
 - finding_risk_control_separate_from_sizing — a collapsed AND-leg DISARMS the stop; re-spec is risk control, not sizing
 - finding_registered_killswitch_cost_datum — "When a pre-registered kill-switch fires against a paying framework, hold the verdict, log the counterfactual cost as a datum on the switch, and queue refinements for the next calibration pass — never retro-apply"
-- finding_vrp_split_rates_vs_singlename — The post-2012 SPX variance-risk-premium collapse does NOT apply uniformly"
-- finding_cooldown_gate_differential_main_vs_hedge — A vol/cooldown gate blocks fresh MAIN-arm capital deployment (paying vega on a n"
-- finding_fill_in_principle_vs_final_approve_pattern — Two-stage fill approval: Will [Approve in principle] unblocks TERRY's live re-ma"
+- finding_vrp_split_rates_vs_singlename — The post-2012 SPX variance-risk-premium collapse does NOT apply uniformly
+- finding_cooldown_gate_differential_main_vs_hedge — A vol/cooldown gate blocks fresh MAIN-arm capital deployment (paying vega on a n
+- finding_fill_in_principle_vs_final_approve_pattern — Two-stage fill approval: Will [Approve in principle] unblocks TERRY's live re-ma
 - finding_profit_zone_needs_its_own_harvest_rule — Every management trigger keyed to a further move leaves NO rule that fires when the position is merely profitable — add a P/L-keyed harvest, and check the trigger variable is one the profit zone actually reaches.
 - finding_grade_execution_only_against_same_timestamp_marks — Grading a fill against marks pulled at a different time in a moving market manufactures a fake execution finding — establish the fill timestamp FIRST, then compare like with like.
 
 ## Deep-research method — embed-pending → `AGENTS/DEWEY/CLAUDE.md` (already cited inline there; packet 2026-07-31)
 - finding_deep_research_stale_vintage_headline — on a deep-research run the load-bearing headline figure is disproportionately a stale/trough/early-estimate VINTAGE of a periodically-revised series — refresh each to its latest print as a standing step
-- finding_deep_research_slate_mining — Build deep-research prompt slates by mining agents' SELF-flagged gaps"
+- finding_deep_research_slate_mining — Build deep-research prompt slates by mining agents' SELF-flagged gaps
 - finding_deep_research_primary_pull_owns_three_data_classes — deep research cannot reach paywalled, live-reading, or single-name filings
 
 ## Agent-specific pointers — embed-pending → each agent's own CLAUDE.md/boot card (packets 2026-07-31)
@@ -145,20 +145,20 @@
 ## Project-state (Tier-3 COLD, no embed target — read on demand)
 - project_messaging_overhaul — Don't invest in inbox/outbox/HERMES hygiene — file-based messaging is being replaced
 - project_research_intake_collection_lane — "RESEARCH-INTAKE = always-on data lane (GitHub Actions, separate repo); agents read it read-only"
-- project_public_prep_anthropic_fellows — repo being prepped public as portfolio for Will's Anthropic Fellows (Economics &"
+- project_public_prep_anthropic_fellows — repo being prepped public as portfolio for Will's Anthropic Fellows (Economics &
 - project_automem_symlink_migration — "TOMBSTONE (2026-07-17, Will-approved) — folded into the hardlink-inplace-edit finding (hot index); docs/AUTO_MEMORY.md is canonical for the current model. File kept as a name-anchor for older docs that cite this slug."
 - project_phone_signal_architecture — Will wants reliable phone→fleet signal ingestion (Telegram drops)
 
 ## Tool gotchas — embed-pending → tool headers
 - finding_crlf_textmode_tsv_flip — two silent whole-file TSV rewrites (CRLF, csv re-quote); guard = git diff --stat · *n=3 (RED 6/23; CARL 8/12 ×2)* · *embed-pending → scripts/tsv_append.py header (pending scripts/-ownership ruling, queue row 6)*
-- finding_printf_format_tsv_append_corruption — Appending TSV/log rows via shell printf corrupts the row when the data contains" · *embed-pending → scripts/tsv_append.py header (pending scripts/-ownership ruling, queue row 6)*
+- finding_printf_format_tsv_append_corruption — Appending TSV/log rows via shell printf corrupts the row when the data contains · *embed-pending → scripts/tsv_append.py header (pending scripts/-ownership ruling, queue row 6)*
 - finding_market_data_venv_invocation — market-data fetch.py/dashboard.py need the repo .venv python — plain system python3 fails with ModuleNotFoundError (yfinance) · *embed-pending → FORGE/tools/market-data/README.md*
 - finding_subdir_launch_hooks_dont_fire — Claude Code hooks (SessionStart etc.) configured in the repo-root .claude/settings.json do NOT execute for sessions launched from subdirectories (CC bug · *embed-pending → PROME/BOOT.md (already cited there — pure dedup)*
 
 ## Rare infra findings (Tier-3 COLD)
 - finding_gh_run_watch_exit_status_unreliable — "`gh run watch --exit-status` can report failure on a run that actually succeeded; confirm via `gh run view --json conclusion`"
 - finding_injection_claim_is_openclaw_vestige — "verify a file is actually boot-loaded before calling it load-bearing; SOUL/USER/AGENTS \"always injected\" is vestigial"
-- finding_fdic_securities_filings_api — FDIC securities-filings JSON API (securitiesfilings.fdicconnect.fdic.gov) gives"
+- finding_fdic_securities_filings_api — FDIC securities-filings JSON API (securitiesfilings.fdicconnect.fdic.gov) gives
 - finding_tic_cslt_country_transactions — Country-level TIC net transactions moved to the CSLT JSON (S-form files frozen at Jan-2023); mfh.txt serves a dead vintage; press-notice PDFs are named by release month not data month
 - finding_pandas_column_method_collision — "pandas columns named like DataFrame methods (skew, var, std, count, min, max, mean, rank, diff, size) silently return the METHOD via dot-access — bracket-index every financial-series column"
 - finding_expiry_dated_suppression_register — every suppression row carries a MANDATORY expiry, so none outlives its check
@@ -334,7 +334,7 @@
 - finding_extend_the_sample_before_publishing_a_coefficient — double n first *(embedded → PREDICTION_DISCIPLINE 2026-08-21)*
 
 ## Demoted 2026-08-21 — flow pass #6 / WAVE 2 "already embedded in canon" sweep (Will-ruled "approved go ahead with wave 2"; record `PROME/proposals/2026-08-21_wave-2-already-embedded-sweep-RULED.md`). All 129 hot slugs grepped against 14 canon surfaces; 16 hits each adjudicated at citation context; 11 graduated (embed real + audience served), 3 kept hot with recorded reasons (record_of_an_action n=11 · a_ruling_governs_next_write · hygiene_commit_rearms), 2 HELD-HOT skipped by declaration. ZERO deletions; rollback = move a row back.
-- finding_count_what_published_before_reading_the_verdict — no adverse reading" and "no reading" record identically
+- finding_count_what_published_before_reading_the_verdict — no adverse reading and "no reading" record identically
 - finding_mtime_is_corrupted_by_git_sync — fails FALSE-NEGATIVE; derive vintage from content *(embedded → root CLAUDE.md Data Hygiene — auto-injected fleet-wide — + PROME/SYSTEM.md)*
 - finding_freshness_check_cannot_catch_a_fresh_lie — add a positive AGREEMENT check vs an external truth source
 - finding_fired_gate_needs_owner_independent_ledger *(embedded → PROME/CLOSEOUT.md symmetry table + ORCHESTRATION_PLAYBOOK; GATES.tsv itself is the institutionalized form)*
