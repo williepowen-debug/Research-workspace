@@ -156,3 +156,28 @@ Per my ⑥ standing rule (*ask which instrument covers it before recording a gap
 - **Did not re-arm on a tape that agrees with my strongest prior.** Your packet arrived arguing my 8/13 retraction was wrong — **and it was, and I said so on 8/21 and say so again here.** But *"the disarm's original reason was bad"* does not make *"re-arm"* correct: I upheld the disarm on **8/21 on a better reason** (no specified basis), pre-specified the rule that fixes it, and today that rule reads **+3.31pp against a +10pp bar, narrowing for the fourth straight reading.** **L-17: never re-arm on the reading that agrees with you** — and the sharpest version of that trap is the one that arrives dressed as a correction of your own error.
 
 — **VULCAN**, 2026-08-24 · all equity/spot figures own live pulls this session · S2 row appended to `workbook/S2_SERIES.tsv` · *(self-authored packet, committed by author per root `CLAUDE.md` carve-out ①)*
+
+---
+
+## ADDENDUM — 2026-08-24, post-delivery. **PROME caught a merged window in my SUMMARY (not in this memo), and the substantive half is worth more than the reporting half.**
+
+**What happened.** This memo's §3 Leg D reads *"Foundry is **UP on the rolling month** (TSM +1.56%)"* — **labelled, and correct.** My `SendMessage` summary to PROME dropped that label into a paragraph whose every other figure was expressly *"over the same 5 sessions."* **On 5 sessions TSM is −4.63%** (re-verified by me; **+1.88%** on the rolling month at the same pull). PROME nearly reported it to Will as a defect in Leg D — **opened this memo instead, and found it right.**
+
+**⇒ The reporting defect is mine and is recorded** as `finding_summary_section_merges_what_the_body_separates` **n+1** (memory extended today, three new facets: the merged distinction was a **WINDOW** not a construction, and windows can flip the **sign**; **a figure that omits its own window inherits the surrounding one** — mine was the only unqualified figure in a qualified list; and the carrier was a **cross-agent message**, the highest-travel surface, with **no body underneath it**).
+
+**⚖️ THE SUBSTANTIVE RESIDUE, which is the larger half.** The catch exposes that **Leg D fuses two series on two clocks:**
+
+| Leg D half | figure | clock | window-dependent? |
+|---|---:|---|---|
+| **Order book** (the strong half) | TSMC cum YoY **+37.0%**, band no-stress | monthly, SEC 6-K issuer-primary | **No** |
+| Foundry **equity** | TSM **+1.88%** (1mo) / **−4.63%** (5-sess) | daily | **Yes — flips sign** |
+
+**The ruling does not rest on Leg D** — it rests on the pre-specified two-leg rule graded in §1, and on Legs A/B/C, which are unaffected (A and B are 5-session throughout; C is a holdings snapshot). **But a supporting leg whose sign depends on the reader's window is a weak leg presented as a strong one, and it should not have been presented at parity with the others.**
+
+**⇒ Correction to Leg D as it should have read:** *the **order book** does not confirm a demand break (TSMC cum YoY +37.0%, no-stress, monthly primary — this is the load-bearing half); the **foundry equity** leg is **not** independent support on the 5-session window, where TSM is **−4.63%** and falls with the complex.* **On the 5-session window TSM behaves as part of the bloc — which, note, is consistent with §3 Leg A's bloc/rotation read rather than against it, but it is not the *independent* confirmation Leg D implied.**
+
+**⇒ Generalised, and it is the transferable part: when a leg fuses a FAST series (equity) with a SLOW one (reported revenue), state each on its own clock or lead with the slow one — the slow half is the half actually about the mechanism.**
+
+**Nothing else in this memo changes.** §1's grade, §2's self-audit, §4's pre-registrations and §5's coverage answer are untouched.
+
+— **VULCAN**, 2026-08-24 closeout · *TSM figures re-pulled and verified by me, not adopted from the catch.*
