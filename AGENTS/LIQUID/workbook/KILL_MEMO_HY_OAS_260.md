@@ -89,9 +89,75 @@ This side OPENS/scales a credit-bear expression → routes to **Will for [Approv
 
 ---
 
+## ★ TAPE-vs-SUBSTANCE GUARD — TWO-SIDED (written 2026-08-24; closes the "fuller treatment" owed since 2026-06-08)
+
+*(The short, KILL-side-only version has lived in `STRATEGY.md` since 6/8, BROCK-aligned, amended 6/12. The fuller treatment was owed for 77 days and was orphaned — `CATCHUP_PUNCHLIST.md`'s freeze banner claimed it was tracked in STATUS Open Monitors and it was not. Landed 8/24.)*
+
+### The principle, stated once and applied to both sides
+
+> **A level touch is not a thesis event until it is ATTRIBUTED. This is symmetric in METHOD and deliberately ASYMMETRIC in STRICTNESS.**
+
+**Why it had to become two-sided: the confirm side has already fired wrong, and the kill side never has.** On **7/27–7/29 HY printed 281→284→287, sustain 3-of-3 — the first time this ladder's widening side ever tagged** — and the 7/30 attribution (KB-LIQ-091) graded it **68–84% broad DM HY beta · 15–30% AI/data-center · ~0% bank/CRE (HIGH confidence)**. **That is a TAPE-CONFIRM: the precise mirror of the tape-kill the 6/8 guard was written to block, arriving on the side that had no guard.**
+
+---
+
+### A. KILL side (<260) — the existing guard, RETAINED unchanged
+
+**If the compression is TAPE-ONLY** (rate-cut repricing / broad risk-on) **while private-credit SUBSTANCE is worsening** (record defaults, gate cascade, BDC dividend cuts, mark catch-down) → **DO NOT AUTO-KILL. That is a tape-kill, not a substance-kill.** Confirm substance reversal with **BROCK** before pulling the thesis.
+
+**6/12 amendment, retained:** a credit kill that fires while **30Y is sub-5.00 / testing 4.90** goes to the **FULL-REASSESSMENT** branch (both channels weak), **not** the migrate-to-duration branch.
+
+### B. CONFIRM side (>280) — NEW, and it is the half that gates capital
+
+**If the widening is TAPE/BETA-DRIVEN while substance is unchanged → DO NOT read it as credit recognition.** Record **`TAPE-CONFIRM`**, not `X1 LIQUID half MET`.
+
+**Four discriminators, in the order they become available. Run 1–3; 4 is free and confirms.**
+
+| # | Test | BETA / tape-confirm | SUBSTANCE / real recognition |
+|---|---|---|---|
+| **1** | **Tier decomposition, PROPORTIONAL not raw bp** (KB-LIQ-088) | **BB leads in %** — the 7/22→7/29 move was BB **+10.19%** vs CCC **+2.45%** | **CCC leads in %** |
+| **2** | **Cross-sector attribution vs broad DM HY** (KB-LIQ-091 method) | broad-beta share **>~65%** ⇒ tape | an identifiable cohort carries it, with the **weight arithmetic** actually run (KB-091: a cohort at 4–6% of index MV needs +320–475bp to move the index +19bp — *leading in magnitude ≠ driving the level*) |
+| **3** | ★ **THE REVERSAL TEST — the strongest, and free** (KB-LIQ-101) | **the tail retraces WITH the index** — a common factor reverses all tiers together | **the index retraces and the tail does NOT.** Measured 7/29→8/20: HY −12bp, BB −13bp (full round-trip), **CCC +22bp, gap +35bp to a 787-obs high** |
+| **4** | **Rates-mechanical check** | move co-runs with a DGS10 move | **OAS is spread-over-Treasuries by construction**, so a co-moving 10Y does not explain it — if OAS widened *while* DGS10 FELL (as 7/23→7/28 did, −10bp), that leg is real spread pressure |
+
+⚠️ **Test 3 has a TIMING PROPERTY that must be stated or it will be misused: it only becomes available AFTER the move partially reverses.** It cannot be run at the moment of the tag. **⇒ At the tag, run 1/2/4 and record a PROVISIONAL attribution; the reversal test upgrades or downgrades it later.** Never hold a fire open waiting for test 3.
+
+---
+
+### C. 🔴 Asymmetric strictness — the two sides are NOT mirrors, and this is the load-bearing paragraph
+
+| | a false KILL | a false CONFIRM |
+|---|---|---|
+| **What it costs** | you abandon a thesis that is still true, and **stop watching** | you **size into a position** on a move with nothing behind it |
+| **Reversibility** | poor in practice — nobody re-opens a killed thesis on schedule | the beta reverses and takes the P&L with it |
+| **Structural protection already present** | 🔴 **NONE — the kill is LIQUID-only, no conjunction** | ✅ **X1 is CONJUNCTIVE** (needs BROCK's wrapper-leads half too) |
+
+**⇒ The kill side is structurally LESS protected — which is why it got the guard first, correctly — but the confirm side is the one that moves CAPITAL.** So:
+
+> **KILL side: the guard is a BRAKE.** Fail-safe = **do not kill.** Hold the thesis, keep watching.
+> **CONFIRM side: the guard is a GATE.** Fail-safe = **do not size.** A `TAPE-CONFIRM` may still be memo'd to PROME as a *level event*; it must never be routed as a *sizing* event.
+> **In both directions the safe default is the REVERSIBLE action — and in both directions that means NOT ACTING on the level alone.**
+
+### D. 🔴 ARBITER-UNAVAILABLE branch — pre-named, because it is live right now
+
+The KILL-side guard says *confirm substance reversal with **BROCK***. **What happens when BROCK cannot answer was never specified — and as of 2026-08-23 BROCK's wrapper-leads half is CONTESTED, not settled** (their 7/27 tranche-decomposition failure vs my 8/23 BDC-mark CONFIRM, KB-LIQ-099). **A guard whose arbiter is mid-adjudication cannot be executed as written.**
+
+> **If the arbiter is DARK, or its own read is under adjudication: the guard HOLDS. Record `GUARD-HELD-PENDING-ARBITER` — never "guard cleared," and never "guard failed."**
+
+⚠️ **And a clock, because a HOLD rule's cost is invisible while you obey it** (`finding_deferral_rule_hides_its_own_cost`): **if the arbiter is unavailable for 5 consecutive trading sessions after a level touch, ESCALATE to PROME (→ Will) rather than continuing to hold silently.** A silent indefinite hold is a decision disguised as caution.
+
+### E. What this guard does NOT do
+
+- ❌ **It does not change any LEVEL.** <260 kill, >280 X1 half, >320 confirm, 350 freeze — **all unchanged.** This is an attribution requirement layered on top, not a threshold move.
+- ❌ **It does not let LIQUID fire X1 alone.** X1 stays CONJUNCTIVE; passing the confirm-side guard satisfies the **LIQUID half's quality bar**, nothing more.
+- ❌ **It does not adjudicate BROCK's half.** That is BROCK's.
+- ❌ **It is not a trade rule.** Construction is TERRY's, decision Will's.
+
+---
+
 ## Verification before pulling the KILL trigger
 
-*(The X1-CONFIRM side's verification = the conjunction check in the X1-confirm action table above: HY>280 sustained AND BROCK wrapper-leading, with CCC-BB + substance corroborating.)*
+*(The X1-CONFIRM side's verification = the conjunction check in the X1-confirm action table above (HY>280 sustained AND BROCK wrapper-leading, CCC-BB + substance corroborating) **PLUS the confirm-side tape-vs-substance guard, §B above — added 2026-08-24 after the 7/29 tag graded 68–84% beta. Steps 1–4 below apply to BOTH sides; the guard is what says whether a verified print MEANS anything.**)*
 
 Per memory `feedback_verify_counts_before_propagating.md` — **verify the print is real before acting.**
 
