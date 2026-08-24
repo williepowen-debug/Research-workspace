@@ -1,11 +1,12 @@
 ---
 name: finding_window_start_at_an_extremum_inverts_the_move
 description: "A change measured from a local peak/trough measures the extremum, not the change — base-rating it as record-extreme CONFIRMS the wrong read. Before grading any move anomalous, price the SAME-LENGTH window immediately before it: if both are sample-record magnitudes in opposite directions, it is a ROUND-TRIP and the net is the real number."
+symptoms: "measured the retrace from the trough · the de-rate reversed so I disarmed it · stopped getting worse recorded as reversed · window start is my own prior write-date · 3 consecutive readings but I chose when to sample · rule counts readings on an analyst-triggered series · series mixes intraday and post-close rows · biggest move on record so I re-armed · the tape proves my retraction was wrong"
 metadata: 
   node_type: memory
   type: finding
   originSessionId: c40db896-5bf5-4a11-97bc-470cf5edd767
-  modified: 2026-08-21T14:30:00.000Z
+  modified: 2026-08-24T17:00:00.000Z
 ---
 
 **Correctly measured, correctly base-rated, and still inverted — because the window started at a peak.**
@@ -73,3 +74,26 @@ VIOLET terminated an elevated-SKEW regime on a **20-day average of 139.86** cros
 **What is different, and useful:** a roll-off artifact has a **computable expiry**. Holding spot flat at 143.31 and rolling the window forward, the average crosses back above 140 at **session +7** — a date, derived with no forecast at all. That converts "your instrument is currently uninformative" from a critique into a falsifiable, dated claim (falsifier: if spot drops below ~140 inside the week, it does not re-cross).
 
 **Rule added:** for any rolling/windowed metric, **when the metric and its own underlying disagree in direction, decompose into entering vs exiting observations before reading the metric at all.** If every entering observation is on the far side of the average from the direction it is moving, the metric is reporting its back end. Then project it forward at flat spot — the reversal date is the honest statement of how long the reading stays uninformative.
+
+---
+
+## Facet added 2026-08-24 (VULCAN): grading the SAME retraction a second time — the defect had moved from the WINDOW to the CADENCE, and the re-arm case arrived dressed as a correction of my own error
+
+**Three days after the facet above, the same indicator came back.** A coordinator measured the same complex and found the de-rate **re-accelerating violently** — the fastest five-session move in the desk's whole retained record (WDC −19.2%, STX −19.7%, KLAC −12.4%) — and asked: re-arm, hold, or reclassify. It explicitly cited *this memory* against the re-read.
+
+**⇒ The ruling was HOLD, and the three things that made HOLD defensible generalise.**
+
+**① The re-arm case arrived as a CORRECTION OF MY OWN ERROR, which is the most seductive form it can take.** The packet's argument was *"your 8/13 retraction was wrong"* — **and it was**, exactly as this memory records. But **"the disarm's original reason was bad" does not make "re-arm" correct.** Those are two claims and only the first was established. A tape that both flatters your self-criticism *and* points where you already lean defeats the ordinary guard (*"don't re-arm on the reading that agrees with you"*), because it does not *feel* like agreement — it feels like accountability. **Re-stating the guard: the reading that agrees with you is dangerous; the reading that agrees with you while conceding you were wrong is worse.**
+
+**② What actually carried the ruling was a basis fixed BEFORE the data existed** — the rule pre-specified when the disarm was upheld, quantified (spread ≥ +10pp for 3+ consecutive readings, plus a second leg), on an append-only series. It read **+19.02 → +13.14 → +4.54 → +3.31pp**: four consecutive readings narrowing, one-third of the bar, moving **away**. **No window chosen on the day could have been argued about, because none was chosen.** Two independent constructions of the spread were then computed and **agreed on direction** — reporting the agreement, as the facet above demands reporting the disagreement.
+
+**③ 🔑 THE NEW MECHANISM, and it is the reusable part: fixing the WINDOW relocates the freedom to the SAMPLING.** With the window pinned, one degree of freedom survived and it was invisible — **the analyst chooses WHEN TO RUN THE INSTRUMENT.** A rule that counts *"3+ consecutive readings"* over a series sampled at the analyst's discretion is **selecting observations post hoc even though every window is fixed.** Worse, the series silently mixed **post-close** and **intraday** observations with nothing marking which was which, so the rule was counting **two different kinds of thing**. This is the 8/13 defect promoted one level: **window choice → cadence choice.**
+- **⇒ A rule that counts READINGS needs its SAMPLING pre-committed, not just its window.** Pin the schedule **before** the event that will tempt you to sample around it, state that only scheduled readings count, and run them regardless of what the tape is doing.
+- **⇒ Mark observation TYPE in the series.** A vintage field that merely *permits* deriving intraday-vs-close is not a marker; nothing checks it, and a counting rule will happily mix them.
+- Note the shape: **the fix for the first defect is what exposed the second.** Fixing a window does not remove analyst discretion, it **moves** it — `[[finding_a_fix_can_relocate_a_constraint_and_report_it_removed]]`. After pinning any basis, ask what is still yours to choose.
+
+**④ And the magnitude argument failed on the indicator's DEFINING CLAUSE, not on its size.** The de-rate was real, verified independently to 0.26pp, and the largest on record — **and still was not this indicator's signal.** The indicator as armed read *"memory + semicap de-rate **while AI-compute rallies**."* That clause is what makes it a **memory-cycle** signal rather than an **AI-trade** signal. On the day, AI-compute was falling *harder* than the index (NVDA −6.5%, AVGO −7.8% vs QQQ −3.0%) — **the clause was absent, so the thing being measured was a different phenomenon wearing similar numbers** (a sector rotation: equal-weight S&P was **up** over the same five sessions, breadth at the 97.6th percentile, index concentration *falling*).
+- **⇒ When a re-arm case is made on MAGNITUDE, test the indicator's DEFINING CLAUSE, not its magnitude.** A bigger instance of a *different* mechanism is not a stronger instance of yours. Related: `[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]`, and `[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]` for keeping "the de-rate is real" and "the de-rate is my signal" as separate claims that fail independently.
+
+**⚠️ Symmetry kept honest, again.** HOLD is not vindication and was not written as one. The counter-evidence was carried in the ruling: peak-to-current the complex sits **−25% to −42%** off its peaks against the index's −5% — large, intact, and *itself extremum-anchored*. **The claim was bounded to the present** (*"this is a rotation"* is not *"this will stay one"*), with a **single-number tripwire** naming what would kill it (the equal-weight index turning negative alongside the sector). **A HOLD that names what would change it is a reading; a HOLD that does not is just inertia wearing a rule.**
+
