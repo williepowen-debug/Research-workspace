@@ -1,5 +1,5 @@
 {
- "built": "2026-08-23 19:28",
+ "built": "2026-08-23 20:19",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -134,8 +134,9 @@
  },
  "one": "the long end is breaking in four sovereigns at once and disinflation buys no relief \u2014 but the week ended with every one of the board's near triggers still un-fired, and two of them verified un-fired at the close rather than assumed. WAL closed $79.67, $1.67 above the one-close bank trigger; DGS10 printed 4.69 official, leaving TERRY's duration exit at 0-of-5. Credit crept 2bp closer to its re-arm without confirming anything. Meanwhile the week's real event landed on a Saturday at 12:01 a.m., unobserved: the Section 338 Canada tariff went live by default, because a deal and an extension each needed a signature and going live needed nothing. Canada suspends talks and retaliates Tue 9/8. The book did not move: $0, zero thresholds touched by PROME.",
  "pending": [
-  "T6 stack [precondition \u2192 rows 72+73 \u2192 T+1 rider]",
-  "row 87 OSPREY \u00d72",
+  "row 87 OSPREY \u00d72 [near]",
+  "row 89 DAEDALUS generated-view [before 8/28]",
+  "T6 stack [precondition \u2192 rows 72+73 \u2192 T+1 rider, 8/28]",
   "rows 84 + 86 + 88 [8/28+]",
   "CARL -007 spawn [Tier 2]",
   "BRENT 135C \u00d72",

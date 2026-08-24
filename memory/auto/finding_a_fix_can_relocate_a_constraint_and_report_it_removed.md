@@ -21,3 +21,15 @@ A proposed fix can **relocate** a constraint instead of removing it, and the aut
 - **Sweep the other repairs** in the same artifact for dependence on the relocated thing.
 
 **Evidence strength, stated honestly: n=2, both in one evening and both inside the same T6 thread** — LIQUID's pin fix relocating BOND's desktop constraint, and PROME's own framing relocating a constraint that LIQUID's gap-marking point then caught. **Two desks, both directions, which is why it is written down; it is a suggestive shape, not an established base rate.** Adjacent but distinct from [[finding_guard_correctness_and_wiring_are_independent]] (a guard's correctness vs its wiring) and [[finding_bypass_turns_a_flow_proxy_into_a_routing_metric]] (meaning moves while the instrument stays clean) — here the *instrument and the meaning are fine* and it is the **dependency** that moved.
+
+---
+
+**Instance 2026-08-23 (PROME/DAEDALUS, auto-memory infrastructure) — TWO relocations in one evening, the second inside the fix for the first.**
+
+**① The remedy became the defect.** `MEMORY.md` outgrew the harness read cap, so the fleet split it: a hot index (loaded every session) and a cold one, with a flow rule that **demotes rows into the cold index** whenever the hot index passes 75%. It worked — the hot index sits at 35%. But **nothing ever bounded the cold index**, and it is the sink. It reached **58,825 B against a measured 53,819 B truncation point**, stranding **26 slugs** past the cut while the healthy hot index went on advertising them. ⚠️ **Worse than a lost row: demoted rows APPEND AT THE END and the cut takes the END, so the rows most recently RESCUED from the hot cap were the first to become unreachable.** One of the stranded rows was cited by `PROME/CLOSEOUT.md`'s own Write-Back Contract; another was a lesson banked the same day.
+
+**② Then the fix did it again, smaller.** PROME's first version of the new ceiling rule cost **1,643 B** and left **879 B** of margin — **a rule about file size that nearly re-breached the file it governs.** Caught in the same pass by re-measuring instead of assuming.
+
+**⇒ The diagnostic question, sharpened: it is not enough to ask "what does the fix now depend on." Ask WHERE THE DISPLACED QUANTITY WENT, and whether that destination has a bound.** A split, a tier, an archive, a queue and a cache are all relocations. If the receiving side has no ceiling, the constraint has not been removed — it has been made **quieter and later**, and it will resurface where nobody is measuring.
+
+⭐ **And the tell that it was a relocation rather than a fix was available for free the whole time: the sink had no check.** The hot index had a flow rule, a byte meter in the closeout gate, and a size hook. The cold index had none of the three — and nobody noticed the asymmetry for 23 days, because every instrument that existed kept returning green (`[[finding_registered_gate_captures_attention]]`, `[[finding_guard_correctness_and_wiring_are_independent]]`).
