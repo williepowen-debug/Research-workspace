@@ -51,6 +51,32 @@
 
 ---
 
+### 🔴 THESIS-KILL RE-EVALUATION 2026-08-24 (PROME-spawned session, closeout step 3) — **STILL 1 of 3. And the headline is that the fastest semi de-rate in this desk's record moved NOTHING on this rail — which is the rail working, not the rail failing.**
+
+| Leg | Kill condition | Today (2026-08-24, own live pulls) | Met? |
+|---|---|---|:---:|
+| **1** AI-capex re-accelerates | FY27 aggregate ≥ +40% YoY (≈ ≥$1.03T) | **Not yet observable** — no FY27 aggregate guide exists; resolves at the Jan-2027 guides (`VULCAN-10`). ⚠️ **NVDA's 8/26 print does NOT touch this either:** leg 1 grades the **four hyperscalers**, and NVDA is not one of them — its print is a read-through, not a trigger | **NO** |
+| **2** Concentration unwinds cleanly | Mag-7 ≤28%, 3+ months, no VIX>30, no SPX drawdown >15% | **Mag-7 32.8683%** [SSGA SPY holdings as-of 8/21, own fetch 8/24] — **4.87pp above the kill level** (was 4.98pp on 8/21). ⚠️ **The 0.11pp move is a genuine MARKET move toward the kill, and it is noise against a 4.87pp gap.** Breadth **+5.17pp, 97.6th pctile** — still *directionally* toward an unwind, but the leg grades the **SHARE** | **NO** |
+| **3** Memory stays healthy | DRAM contract ≥0% QoQ for 4 consecutive quarters | Spot **rose again 8/24** (DDR5 **$54.17** +0.12%, DDR4 **$91.32** +0.27%) — series highs; contract still rising, still decelerating. **Still only 1 of the leg's 4 quarters observed; 3 remain** | **YES** |
+
+**⇒ 1 of 3. Unchanged — and re-read, not restated** (the failure mode this step exists to catch, caught on myself 8/21).
+
+### 🔑 Why a −19% five-session move in WDC moves ZERO kill legs, stated because it looks like it should
+
+**The three legs grade a capex GUIDE, an index SHARE, and a CONTRACT price. None of them is an equity drawdown.** A violent de-rate in memory/semicap equities is **not an input to any of them** — it is the *repricing*, and this rail deliberately grades the *mechanism*. **A rail that moved on this tape would be a rail keyed to price action, which is the thing it was built not to be.** ⚠️ **The inverse caution is equally live: "no leg moved" must never be reported as "nothing happened."** Something large happened; §1 of today's memo says what, and it belongs to the channel reads, not to the kill rail.
+
+### 🆕 Does today's de-rate move any CHANNEL-kill? **Yes — and in the direction nobody would guess: S2 moved FURTHER FROM death.**
+
+- **S2's channel-kill is a CONJUNCTION:** *DRAM contract ≥0% QoQ for 4 straight quarters* **AND** *memory equity outperforms QQQ over the same span.* The first conjunct is currently true; **the second is now emphatically false** — memory **−5.05%** vs QQQ **+3.45%** on the rolling month, a **8.5pp** underperformance. ⇒ **S2's death condition is further from firing than it was on 8/21.** *(Same shape as the 8/17 8-K pushing S3 away from ITS death, logged 8/21.)*
+- ⚠️ **AND THE DISTINCTION THAT MATTERS, because collapsing it would be a real error: S2's LEADING INDICATOR is disarmed while S2's CHANNEL is more alive than ever.** Those are two different objects — the indicator is a *timing* instrument, the channel-kill is an *existence* test. **A disarmed indicator is not a dying channel, and today is the cleanest example this desk has produced of the two moving in opposite directions at once.**
+- **S1 channel-kill** (two consecutive stacks guiding capex flat-or-down with no index repricing): untouched — no capex guide landed. **S3/S4/S5:** untouched today.
+
+**From-states deliberately NOT refreshed, again, and the reason is sharper today.** Leg 2's from-state still reads **32.98% [8/20]** and leg 3's still reads the **8/13** spot prices. **Today's 32.87% is the CURRENT reading, not a new from-state.** ⚠️ **This is exactly the case the 8/21 note warned about and it is easy to get wrong right now:** leg 2's from-state *was* legitimately changed on 8/21 — because it was **correcting an aggregator error**. Today's −0.11pp is a **market move**. **A correction may move a from-state; a market move never may** — and in a diff the two edits are indistinguishable.
+
+**Dated rewrite trigger: NOT DUE.** Fires on the FIRST of {MU FQ4 ~9/29 · the 9/30 resolutions · 2026-11-15}; earliest ~36 days out and registered in `docket/CATALYSTS.tsv`, so it surfaces at boot.
+
+---
+
 ### (2026-08-13 record — retained) THESIS-KILL STATUS: **1 of 3 legs currently satisfied.**
 
 **Leg 3 is met right now and my files have never said so.** Memory *is* healthy — every price leg is rising, the last two prints were records, Micron says 2027 will be tighter than 2026, and the −25% QoQ roll rule is nowhere near firing. Writing the rail is what surfaced it. This is not a reason to soften the leg: a conjunctive kill with one leg standing is the honest state, and the correct response is to say so, not to re-word the leg until the count reads 0.
