@@ -64,7 +64,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | H | 2026-08-22 | Fleet architect — design / structure / maturity / lifecycle | L5 HELD at L4 — WILL-RULED 2026-08-20 ("hold your L5", DAEDALUS's own r… |
+| DAEDALUS | Meta | L4 | H | 2026-08-23 | Fleet architect — design / structure / maturity / lifecycle | L5 HELD at L4 — WILL-RULED 2026-08-20 ("hold your L5", DAEDALUS's own r… |
 | YEYOU | Utility | L3 | H | 2026-08-20 | Repo-wide reviewer (manual / branch model) | L4 on PROOF OF CONSUMPTION (PROME acts on the digest / a flag becomes b… |
 | RAV | Meta | L2 | M | 2026-08-07 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST charter-conformant run report in AGENTS/RAV/runs/ — §5'… |
 
