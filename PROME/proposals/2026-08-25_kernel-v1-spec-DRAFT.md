@@ -2,7 +2,9 @@
 
 **Date:** 2026-08-25
 
-**Status:** DRAFT — specification review only; no `KERNEL/` creation, shadow activation, or authority switch authorized
+**Status:** GATE A APPROVED 2026-08-25 — fixture-backed `KERNEL/` implementation authorized; live shadow activation and authority switch remain unauthorized
+
+**Approval:** Will approved the hardened contract in session on 2026-08-25 after adversarial review and amendment
 
 **Design authority:** `PROME/proposals/2026-08-24_kernel-membrane-design-DRAFT.md`
 
@@ -682,17 +684,17 @@ These do not block the first binary fixture slice:
 
 ## 22. Approval checklist
 
-- [ ] The first increment is binary-only and shadow-only.
-- [ ] Native records remain authoritative.
-- [ ] IDs, timestamps, hashes, paths, and versions are sufficiently exact.
-- [ ] PROME's custody is deterministic and non-substantive.
-- [ ] The substitute path preserves the same custody boundary.
-- [ ] Accepted and rejected commands both have one durable result.
-- [ ] Native-reference validation fails closed.
-- [ ] Stream conflicts quarantine rather than auto-resolve.
-- [ ] The four committed views are registered and visibly non-authoritative.
-- [ ] Fixtures prove the contract before any real record is imported.
-- [ ] `KERNEL/` creation and live shadow activation remain separate approvals.
+- [x] The first increment is binary-only and shadow-only.
+- [x] Native records remain authoritative.
+- [x] IDs, timestamps, hashes, paths, and versions are sufficiently exact.
+- [x] PROME's custody is deterministic and non-substantive.
+- [x] The substitute path preserves the same custody boundary.
+- [x] Accepted and rejected commands both have one durable result.
+- [x] Native-reference validation fails closed.
+- [x] Stream conflicts quarantine rather than auto-resolve.
+- [x] The four committed views are registered and visibly non-authoritative.
+- [x] Fixtures prove the contract before any real record is imported.
+- [x] `KERNEL/` creation and live shadow activation remain separate approvals.
 
 ---
 
