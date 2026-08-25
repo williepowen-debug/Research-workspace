@@ -25,7 +25,7 @@ The kernel validates administrative facts. It does not judge research quality, a
 ### 2.1 Shadow authority
 
 - Every accepted v1 event has `authority_mode: SHADOW`.
-- Every accepted Question, Forecast, and Resolution event cites an exact `native_ref` unless the active command definition explicitly represents kernel administration rather than a native research fact.
+- Every accepted Question, Forecast, and Resolution event cites one or more exact `native_refs` unless the active command definition explicitly represents kernel administration rather than a native research fact.
 - Native state wins whenever native and shadow state disagree.
 - A discrepancy is rendered as an exception; it is never silently repaired.
 - Shadow events are never promoted or copied into canonical history. A later authority ruling must name the first canonical records and effective time.
@@ -85,34 +85,36 @@ Before live shadow activation, the implementation must also support:
 4. `VerifyResolution` → `ResolutionVerified`
 5. `DisputeResolution` → `ResolutionDisputed`
 6. `CorrectResolution` → `ResolutionCorrected`
-7. stale-version rejection and competing-child quarantine
-8. prospective schema and policy upgrades
+7. `WithdrawForecast` → `ForecastWithdrawn`
+8. `AnnulQuestion` → `QuestionAnnulled`
+9. stale-version rejection and competing-child quarantine
+10. prospective schema and policy upgrades
 
 ## 4. Identifiers and time
 
 ### 4.1 Identifier forms
 
-All identifiers are uppercase ASCII and globally unique within their namespace.
+All identifiers use a typed prefix plus a canonical lowercase UUIDv7 and are globally unique within their namespace.
 
 | Entity | Form |
 |---|---|
-| Command | `CMD-<ACTOR>-<YYYYMMDDTHHMMSSffffffZ>-<12HEX>` |
-| Event | `EVT-<YYYYMMDDTHHMMSSffffffZ>-<16HEX>` |
-| Question | `Q-<OWNER>-<YYYYMMDD>-<12HEX>` |
-| Forecast series | `F-<FORECASTER>-<QUESTION_12HEX>-<12HEX>` |
-| Resolution | `R-<QUESTION_12HEX>-<12HEX>` |
-| Evidence | `E-<12HEX>` |
+| Command | `CMD-<uuidv7>` |
+| Event | `EVT-<uuidv7>` |
+| Question | `Q-<uuidv7>` |
+| Forecast series | `F-<uuidv7>` |
+| Resolution | `R-<uuidv7>` |
 | Question stream | `QS-<question_id>` |
 | Forecast stream | `FS-<forecast_id>` |
 
-`<12HEX>` and `<16HEX>` are uppercase hexadecimal prefixes of SHA-256 over the canonical input described below. IDs do not depend on Git commit order or filenames.
+Identifiers do not encode actor names, ownership, content hashes, or Git order. Ownership and integrity remain explicit fields rather than hidden identifier semantics.
 
-- `command_id`: actor-supplied and derived from the canonical command body excluding `command_id` and `submitted_at`, plus a caller-supplied nonce. Reusing an ID with different content is `IDEMPOTENCY_KEY_REUSED`.
-- `question_id`, `forecast_id`, and `resolution_id`: allocated during command preparation and validated by the acceptor. The canonical preimage includes object type, actor, native reference, and a caller nonce.
-- `event_id`: custodian-assigned from the canonical accepted command hash, recorded timestamp, stream ID, and stream version.
+- `command_id`, `question_id`, `forecast_id`, and `resolution_id` are allocated during command preparation using a conforming UUIDv7 generator and validated by the acceptor.
+- `event_id` is custodian-assigned after validation using the captured acceptance time.
+- The full SHA-256 `command_hash` is stored separately from identity and is computed over the canonical command bytes.
+- Reusing a `command_id` with the same hash returns its prior durable result. Reusing it with a different hash is `IDEMPOTENCY_KEY_REUSED`.
 - An existing identifier with different canonical content is `IDENTIFIER_COLLISION` and fails closed.
 
-The implementation may use a library ULID internally only if the serialized public identifier forms and deterministic collision behavior above remain unchanged. No random-only identifier is accepted without collision checking.
+All allocations remain collision-checked. Tests use an injected identifier source; production does not claim that identifier generation is deterministic across independent executions.
 
 ### 4.2 Time contract
 
@@ -177,6 +179,9 @@ forecast.amend_own
 resolution.propose
 resolution.verify
 resolution.dispute
+resolution.correct
+question.annul_own
+forecast.withdraw_own
 command.accept
 policy.override
 ```
@@ -198,40 +203,44 @@ expected_version
 target_stream_id
 correlation_id             # optional
 caused_by                  # optional command or event ID
+depends_on                 # array of prerequisite command IDs; empty when none
 payload
-native_ref
+native_refs                 # non-empty array for domain commands
 ```
 
 `expected_version` is a non-negative integer. A creation command uses `0`. The next accepted event receives `stream_version = expected_version + 1`.
 
 Commands are immutable after submission. A correction is a new command ID. The command filename is `<command_id>.json` and must equal the embedded ID.
 
+The CLI may accept a friendlier mutable YAML or JSON draft for `--check` and command preparation. It must normalize that draft into the strict canonical command schema, show every validation error before submission, and write only the immutable canonical JSON command. Draft-input convenience fields never enter accepted events unless they map explicitly to registered command fields.
+
 ### 8.1 Submission path
 
 Ordinary agents submit only under their owned path:
 
 ```text
-AGENTS/<CANONICAL_NAME>/outbox/kernel/pending/<command_id>.json
+AGENTS/<CANONICAL_NAME>/outbox/kernel/submissions/<command_id>.json
 ```
 
 The path actor and `actor_id` must map to the same canonical agent unless policy explicitly permits a service submission. A mismatch is `ACTOR_PATH_MISMATCH`.
 
-The acceptor never edits or deletes a submitted file. Processed state is derived from the durable accepted event or rejected receipt matching its `command_id`.
+The acceptor never edits, moves, or deletes a submitted file. Processed state is derived from the durable accepted event or rejected receipt matching its `command_id`. A disposable `.rw/` index may accelerate discovery, but a full submission/result reconciliation remains the recovery path.
 
 ### 8.2 Acceptance order
 
 One acceptance pass:
 
 1. acquires `.rw/locks/command.lock` exclusively;
-2. inventories pending commands;
-3. sorts by canonical `submitted_at`, then `command_id`;
-4. processes each command against state replayed from accepted events;
-5. atomically writes exactly one event or one rejected receipt;
-6. fsyncs and renames from a temporary file in the destination directory;
-7. releases the lock;
-8. renders views only after all selected commands have durable results.
+2. inventories submissions lacking a durable result;
+3. constructs dependencies from the explicit `depends_on` command-ID arrays;
+4. topologically orders satisfiable commands, using `submitted_at` and then `command_id` only as tie-breakers between independent commands;
+5. processes each command against state replayed from accepted events and earlier accepted dependencies in the same pass;
+6. atomically writes exactly one event or one rejected receipt;
+7. fsyncs the file and containing directory, then renames from a temporary file in the destination directory;
+8. releases the lock;
+9. renders views only after all selected commands have durable results.
 
-A crash before atomic rename leaves no result. A retry safely processes the still-pending request. A crash after rename returns the existing matching result.
+A missing dependency remains unprocessed and visible rather than receiving a premature terminal rejection. A dependency cycle or a dependency already durably rejected produces a registered deterministic rejection. A crash before atomic rename leaves no result. A retry safely processes the still-unprocessed submission. A crash after rename returns the existing matching result.
 
 ## 9. Event and receipt contract
 
@@ -259,7 +268,7 @@ effective_at               # optional
 correlation_id             # optional
 caused_by                  # optional
 authority_mode             # SHADOW
-native_ref
+native_refs
 evidence_refs
 payload
 ```
@@ -289,7 +298,7 @@ reason_code
 reason_detail              # bounded administrative detail; no invented judgment
 target_stream_id
 expected_version
-native_ref                 # retained when supplied
+native_refs                # retained when supplied
 ```
 
 Rejected receipt path:
@@ -311,7 +320,7 @@ Both is `AUDIT_DUPLICATE_RESULT`; neither after a reported successful acceptance
 
 ## 10. Native-reference contract
 
-Every native research reference contains:
+Every element of the non-empty `native_refs` array contains:
 
 ```text
 repository                 # fixed value: williepowen-debug/Research-workspace
@@ -319,7 +328,6 @@ source_commit              # full 40-character commit SHA
 path                       # repository-relative, normalized, no traversal
 locator_type               # TSV_RECORD_ID | JSON_POINTER | TEXT_ANCHOR
 locator
-content_sha256
 raw_record_sha256
 ```
 
@@ -331,11 +339,19 @@ Rules:
 4. `TSV_RECORD_ID` identifies exactly one non-comment data row by the detected header's declared ID column and preserves the raw line bytes.
 5. `JSON_POINTER` must select exactly one JSON value.
 6. `TEXT_ANCHOR` is allowed only for fixture development until its uniqueness and normalization rules are separately approved; live shadow activation does not permit it.
-7. `content_sha256` hashes the complete source blob. `raw_record_sha256` hashes the exact selected record bytes.
+7. `raw_record_sha256` hashes the exact selected record bytes. The Git blob ID already identifies the complete source blob, so a second whole-file digest is not required.
 8. Missing, duplicate, shifted, width-invalid, ambiguous, or hash-mismatched records fail closed.
-9. The shadow payload must be a faithful structured interpretation of the cited record. Fields absent from the native record must be supplied as explicit command metadata and identified as such by schema; they may not be presented as native facts.
+9. The shadow payload must be a faithful structured interpretation of the cited records.
+10. Every material research term required by the Question, Forecast, or Resolution contract must exist in a cited committed native record. If a ledger row lacks a term, the agent first commits a strict JSON native companion registration artifact under its normal ownership rules, and the command cites both the ledger record and companion artifact using `JSON_POINTER` where needed.
+11. Command-only metadata is limited to administrative transport fields such as identifiers, versions, hashes, expected versions, correlation, and causation. A command may not create a substantive resolver, claim, probability, close condition, ambiguity rule, annulment rule, outcome, evidence assertion, or verification fact absent from its native references.
 
-The first real native example must be chosen only after fixture validation. No cohort selection is required; one record is sufficient for the activation demonstration.
+The first real native example must be chosen only after fixture validation. No cohort selection is required; one record plus any necessary native companion artifact is sufficient for the activation demonstration.
+
+### 10.1 Evidence representation
+
+Version 1 uses immutable embedded evidence references, not separately lifecycle-managed Evidence objects. Each evidence reference contains a stable source URI or repository path, observation/publication time where applicable, retrieval time, exact repository commit or external-artifact hash, locator, access class, and submitting actor. Evidence references support Question, Forecast, and Resolution events but do not have their own event streams in the first slice.
+
+This choice satisfies Evidence's supporting-record role without creating an evidence graph or `AttachEvidence` lifecycle. A later separately approved version may promote Evidence to an independently registered object without rewriting earlier embedded references.
 
 ## 11. Object contracts
 
@@ -383,7 +399,7 @@ intervention_stage         # INITIAL | POST_CHALLENGE | POST_SYNTHESIS | FINAL_C
 decision_consequence       # optional reference or bounded administrative label
 ```
 
-The question must be `OPEN`. The forecaster and command actor must match unless policy explicitly grants proxy submission. `information_as_of <= submitted_at <= closes_at`.
+The question must be `OPEN`. The forecaster and command actor must match unless policy explicitly grants proxy submission. `information_as_of <= submitted_at <= closes_at`. Probabilities at exactly `0` or `1` remain valid for storage and Brier scoring but are ineligible for log scoring unless a future approved scoring contract prospectively defines clipping; the renderer may not invent clipping after resolution.
 
 Forecast stream: `FS-<forecast_id>`. One forecast series belongs to one actor and one question. An amendment increments `forecast_version` by exactly one and preserves every earlier value.
 
@@ -409,10 +425,14 @@ question_id
 verified_outcome_value
 verified_by
 verification_evidence_refs
-disposition                # VERIFY | REJECT
+disposition                # VERIFY only
 ```
 
 A protected outcome cannot be verified by the forecast owner, resolution proposer, or acceptance custodian unless policy explicitly names a permitted role combination and Will approves it prospectively.
+
+Substantive disagreement with a proposed outcome uses `DisputeResolution` and emits `ResolutionDisputed`; it is not represented as a rejected verification. Administrative invalidity of either command produces a rejected command receipt.
+
+`CorrectResolution` requires `resolution.correct` and an explicit Will authorization reference. `WithdrawForecast` requires the forecast owner or `forecast.withdraw_own`. `AnnulQuestion` requires the question owner or `question.annul_own`, an enumerated registered reason, and any independent approval required by active policy.
 
 ## 12. Lifecycle and stream rules
 
@@ -463,6 +483,8 @@ The first implementation registers at least:
 ACTOR_PATH_MISMATCH
 AUDIT_DUPLICATE_RESULT
 COMMAND_SCHEMA_INVALID
+DEPENDENCY_CYCLE
+DEPENDENCY_REJECTED
 DUPLICATE_COMMAND
 EVIDENCE_REQUIRED
 FAMILY_NOT_ENABLED
@@ -499,20 +521,22 @@ KERNEL/views/EXCEPTIONS.md
 KERNEL/views/CALIBRATION.tsv
 ```
 
-Every view contains or, for TSV, is paired with machine-readable metadata specifying:
+Every view contains machine-readable metadata specifying:
 
 ```text
 authority_mode: SHADOW
-generated_at
-source_event_count
-source_event_set_sha256
+render_as_of                # injected UTC instant used for due/overdue calculations
+source_input_count
+source_input_set_sha256
 schema_versions
 policy_versions
 renderer_version
 notice: GENERATED — DO NOT EDIT — NON-AUTHORITATIVE
 ```
 
-Deterministic rows sort by stable semantic keys, never filesystem enumeration order. `generated_at` is injected; reproduction checks hold it fixed or exclude it from the reproducible content digest.
+The deterministic source-input set contains accepted events, rejected receipts, unprocessed submissions, and the exact cited native blobs required by the view. `source_input_set_sha256` is the SHA-256 of the ordered list of each input's type, stable identity, and canonical hash. Markdown views carry metadata in their generated header. `CALIBRATION.tsv` carries the same metadata as leading `# key: value` comment rows so it remains one registered committed file rather than requiring a fifth sidecar.
+
+Deterministic rows sort by stable semantic keys, never filesystem enumeration order. A render receives an explicit injected `render_as_of`; due and overdue classifications use that instant. `render --check` reuses the committed view's `render_as_of`, so reproduction requires byte-for-byte equality of the complete committed view. Advancing `render_as_of` is an explicit regeneration that may legitimately change time-relative rows. Actual execution time belongs only in uncommitted diagnostics.
 
 ### 14.1 View meanings
 
@@ -531,6 +555,7 @@ An empty view is valid and must still carry its metadata and shadow notice.
 .rw/projection.sqlite
 .rw/locks/command.lock
 .rw/logs/
+.rw/submission-index.json
 ```
 
 Deleting `.rw/` and replaying the same accepted events must reproduce the same semantic state and registered view content. No accepted command or event exists only in SQLite.
@@ -541,9 +566,9 @@ The local lock protects the current shared-worktree operating model only. Indepe
 
 The substitute path is procedural, not automatic delegation:
 
-1. Pending commands remain durable and unaccepted while PROME is unavailable.
-2. Will may name a temporary substitute custodian for a bounded acceptance window.
-3. The substitute must already have an explicit `command.accept` grant in the active policy version, or Will authorizes a prospective policy-version change before processing.
+1. Unprocessed submissions remain durable and unaccepted while PROME is unavailable.
+2. Before live activation, Will names at least one dormant substitute custodian in the active policy, with `command.accept` disabled by default and an explicit bounded activation procedure.
+3. When PROME is unavailable, Will may activate that named substitute for a bounded acceptance window through the pre-registered procedure. Adding an unregistered substitute requires a prospective policy-version change before processing.
 4. The substitute runs the identical acceptance binary and may exercise no additional discretion.
 5. Events record the substitute's `writer_id` and unchanged research `actor_id`.
 6. The first subsequent PROME check verifies the acceptance window, results, and audit completeness.
@@ -591,6 +616,10 @@ The specification is ready for implementation only when fixtures encode these ou
 | Same command ID with different bytes | Reject `IDEMPOTENCY_KEY_REUSED` |
 | Missing native commit/path/record | Durable native-reference rejection |
 | Shifted TSV row | Reject `NATIVE_RECORD_INVALID` |
+| Material term exists only in command | Reject `NATIVE_RECORD_MISMATCH` |
+| Forecast and its Question arrive in one batch | Question accepted first through dependency order |
+| Missing dependency | Leave unprocessed and visible |
+| Dependency cycle | Reject `DEPENDENCY_CYCLE` |
 | Probability outside `[0,1]` | Reject `COMMAND_SCHEMA_INVALID` |
 | Forecast on non-open question | Reject `QUESTION_NOT_OPEN` |
 | Stale expected version | Reject `STALE_EXPECTED_VERSION` |
@@ -601,7 +630,7 @@ The specification is ready for implementation only when fixtures encode these ou
 | Resolution without evidence | Reject `EVIDENCE_REQUIRED` |
 | Protected self-verification | Reject `PROTECTED_SELF_VERIFICATION` |
 | Competing stored children | Stream `CONFLICT`; exclude from ordinary views |
-| Delete `.rw/`, replay, render | Same semantic state and reproducible view digest |
+| Delete `.rw/`, replay, render | Same semantic state and byte-identical committed views |
 | Event file modified or deleted | Blocking additions-only failure |
 
 Two independent readers must agree on every expected result before live shadow activation.
