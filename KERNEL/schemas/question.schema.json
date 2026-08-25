@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/question/1",
+  "title": "Kernel v1 binary Question payload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "question_id", "owner_actor_id", "claim", "forecast_family", "opens_at", "closes_at",
+    "resolver_anchor_type", "resolution_condition", "resolution_rule", "resolution_sources",
+    "fallback_resolution_source", "ambiguity_rule", "annulment_rules", "resolver_actor_id",
+    "independent_verifier_actor_id", "negative_search_procedure"
+  ],
+  "properties": {
+    "question_id": {"type": "string", "pattern": "^Q-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "owner_actor_id": {"type": "string", "minLength": 1},
+    "claim": {"type": "string", "minLength": 1},
+    "forecast_family": {"const": "BINARY_PROBABILITY"},
+    "opens_at": {"type": "string", "format": "date-time"},
+    "closes_at": {"type": "string", "format": "date-time"},
+    "resolver_anchor_type": {"enum": ["FIXED_DEADLINE", "EXPECTED_EVENT", "DECISION_DATE"]},
+    "resolution_condition": {"type": "string", "minLength": 1},
+    "resolution_rule": {"type": "string", "minLength": 1},
+    "resolution_sources": {"type": "array", "minItems": 1},
+    "fallback_resolution_source": {"type": ["string", "null"]},
+    "ambiguity_rule": {"type": "string", "minLength": 1},
+    "annulment_rules": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "resolver_actor_id": {"type": "string", "minLength": 1},
+    "independent_verifier_actor_id": {"type": ["string", "null"]},
+    "negative_search_procedure": {"type": ["string", "null"]}
+  }
+}

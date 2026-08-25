@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/forecast/1",
+  "title": "Kernel v1 binary Forecast payload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "forecast_id", "question_id", "forecaster_actor_id", "forecast_version", "information_as_of",
+    "probability", "rationale_ref", "evidence_refs", "intervention_stage", "decision_consequence"
+  ],
+  "properties": {
+    "forecast_id": {"type": "string", "pattern": "^F-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "question_id": {"type": "string", "pattern": "^Q-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "forecaster_actor_id": {"type": "string", "minLength": 1},
+    "forecast_version": {"const": 1},
+    "information_as_of": {"type": "string", "format": "date-time"},
+    "probability": {"type": "number", "minimum": 0, "maximum": 1},
+    "rationale_ref": {"type": "string", "minLength": 1},
+    "evidence_refs": {"type": "array"},
+    "intervention_stage": {"enum": ["INITIAL", "POST_CHALLENGE", "POST_SYNTHESIS", "FINAL_CUTOFF"]},
+    "decision_consequence": {"type": ["string", "null"]}
+  }
+}

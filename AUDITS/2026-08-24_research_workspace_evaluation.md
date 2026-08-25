@@ -412,6 +412,10 @@ An adversarial contract review then identified six correctable specification ris
 
 Will approved the hardened specification's Gate A in session on 2026-08-25. This authorizes creation of the fixture-backed \`KERNEL/\` implementation skeleton and deterministic binary vertical slice. It does not authorize a real native-record import, live shadow operation, the live-operation Git carve-out, or an authority switch; those remain separate gates in the approved specification.
 
+\#\#\# Gate B implementation checkpoint 1 — contract and replay core
+
+The first authorized \`KERNEL/\` increment now exists as a fixture-only, explicitly non-authoritative skeleton. It contains an implementation-boundary README and SPEC pointer, five strict documentary JSON Schemas, a standard-library pure validator/replay module, and nine discoverable \`unittest\` checks. The tests cover valid binary Question and Forecast commands, unknown-field rejection, disabled-family rejection, out-of-range probability, future information cutoff, native-path traversal, order-independent replay, competing-child quarantine, and schema strictness. All nine tests pass and the Python files compile. No acceptance writer, receipt writer, filesystem lock, SQLite projection, live submission scan, real native record, generated committed view, Git carve-out, or shadow activation exists in this increment.
+
 \#\# Executive assessment
 
 Research Workspace is a serious, unusually transparent analytical operating system. Its strongest qualities are institutional memory, explicit ownership, falsification discipline, and preservation of mistakes. It contains real examples where disagreement changed confidence, trade construction, or thesis state before the outcome was known. This is substantially more rigorous than a collection of research notes or independent chat agents.

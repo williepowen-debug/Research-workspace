@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/native-ref/1",
+  "title": "Kernel v1 native reference",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["repository", "source_commit", "path", "locator_type", "locator", "raw_record_sha256"],
+  "properties": {
+    "repository": {"const": "williepowen-debug/Research-workspace"},
+    "source_commit": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+    "path": {"type": "string", "minLength": 1},
+    "locator_type": {"enum": ["TSV_RECORD_ID", "JSON_POINTER"]},
+    "locator": {"type": "string", "minLength": 1},
+    "raw_record_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

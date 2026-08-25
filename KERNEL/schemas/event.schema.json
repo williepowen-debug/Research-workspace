@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/event/1",
+  "title": "Kernel v1 fixture accepted event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "policy_version", "writer_version", "event_id", "event_type", "command_id",
+    "command_hash", "command_result", "stream_id", "stream_version", "previous_event_id", "object_id",
+    "object_type", "actor_id", "writer_id", "submitted_at", "recorded_at", "effective_at",
+    "correlation_id", "caused_by", "authority_mode", "native_refs", "evidence_refs", "payload"
+  ],
+  "properties": {
+    "schema_version": {"const": "kernel.schema.1"},
+    "policy_version": {"const": "kernel.policy.1"},
+    "writer_version": {"const": "kernel.writer.1"},
+    "event_id": {"type": "string", "pattern": "^EVT-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "event_type": {"enum": ["QuestionRegistered", "ForecastSubmitted"]},
+    "command_id": {"type": "string", "pattern": "^CMD-"},
+    "command_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "command_result": {"const": "ACCEPTED"},
+    "stream_id": {"type": "string", "minLength": 1},
+    "stream_version": {"type": "integer", "minimum": 1},
+    "previous_event_id": {"type": ["string", "null"]},
+    "object_id": {"type": "string", "minLength": 1},
+    "object_type": {"enum": ["QUESTION", "FORECAST"]},
+    "actor_id": {"type": "string", "minLength": 1},
+    "writer_id": {"type": "string", "minLength": 1},
+    "submitted_at": {"type": "string", "format": "date-time"},
+    "recorded_at": {"type": "string", "format": "date-time"},
+    "effective_at": {"type": ["string", "null"]},
+    "correlation_id": {"type": ["string", "null"]},
+    "caused_by": {"type": ["string", "null"]},
+    "authority_mode": {"const": "SHADOW"},
+    "native_refs": {"type": "array", "minItems": 1, "items": {"$ref": "native-ref.schema.json"}},
+    "evidence_refs": {"type": "array"},
+    "payload": {"type": "object"}
+  }
+}
