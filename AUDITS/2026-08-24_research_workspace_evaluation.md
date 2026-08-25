@@ -291,6 +291,18 @@ These are improvements, not cosmetic differences. Committing the simplified \`EV
 
 \*\*Organization judgment:\*\* the repository should ultimately use \`KERNEL/\` if that location is ruled, keep the design packet under \`PROME/proposals/\` until then, and keep this evaluation under \`AUDITS/\`. It should not carry both \`EVALUATION/\` and \`KERNEL/\` as overlapping top-level systems.
 
+\#\#\# Phase 0 decision update — 2026-08-25
+
+Will ratified the kernel packet's first five recommendations. The resulting boundaries are:
+
+1\. The eventual live subsystem has neutral root-level \`KERNEL/\` placement; Will retains policy authority and PROME's operational custody does not imply ownership of institutional truth.
+2\. Version 1 governs \`Question\`, \`Forecast\`, \`Resolution\`, and \`TrialManifest\`, with Actor and Evidence as supporting records. Messaging, theses, and general workflow are excluded from the first governed boundary.
+3\. Native ledgers remain authoritative during shadow mode. Shadow imports must reference exact native records, remain explicitly non-authoritative, and report discrepancies instead of silently repairing them.
+4\. After an explicit Phase 3 authority switch, one-file-per-event Git history becomes canonical only for admitted prospective cohorts. Historical ledgers remain unchanged and SQLite is only a rebuildable projection.
+5\. Version 1 serializes command acceptance through one exclusively locked local process. Agents submit immutable commands, PROME applies deterministic policy, every request receives a durable receipt, and research attribution remains with the submitting actor.
+
+These rulings resolve decisions 1-5 of 22 and authorize further specification work. They do not yet authorize creation of \`KERNEL/\`, activation of a shadow trial, or an authority switch. Decisions 6-22 remain open.
+
 \#\#\# Refined conclusion
 
 The August 24 prioritization should stand, with one refinement: the first implementation artifact should be a **compatibility inventory and explicit mapping contract**, not a fleet-wide historical normalizer. The evidence shows three separate problems that should not be conflated:

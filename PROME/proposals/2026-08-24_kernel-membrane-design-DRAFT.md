@@ -1081,11 +1081,11 @@ The proposed contribution is not inventing those mechanisms. It is applying them
 
 | # | Decision | Working recommendation | Status |
 |---:|---|---|---|
-| 1 | Repository home | Root-level `KERNEL/` | OPEN |
-| 2 | Initial governed objects | `Question`, `Forecast`, `Resolution`, plus required Actor/Evidence/TrialManifest support | OPEN |
-| 3 | Shadow authority | Native ledger first; exact-reference import to `KERNEL/shadow/events/` | OPEN |
-| 4 | Canonical authority | Git event files for cohorts beginning after the Phase 3 switch | OPEN |
-| 5 | Command acceptance | Exclusive local serialization under the current operating model | OPEN |
+| 1 | Repository home | Root-level `KERNEL/` | RATIFIED 2026-08-25 |
+| 2 | Initial governed objects | `Question`, `Forecast`, `Resolution`, plus required Actor/Evidence/TrialManifest support | RATIFIED 2026-08-25 |
+| 3 | Shadow authority | Native ledger first; exact-reference import to `KERNEL/shadow/events/` | RATIFIED 2026-08-25 |
+| 4 | Canonical authority | Git event files for cohorts beginning after the Phase 3 switch | RATIFIED 2026-08-25 |
+| 5 | Command acceptance | Exclusive local serialization under the current operating model | RATIFIED 2026-08-25 |
 | 6 | Future multi-clone model | Single acceptance writer; do not treat Git merge as a transaction | OPEN |
 | 7 | Event granularity | One chained JSON file per accepted event | OPEN |
 | 8 | Command audit | Durable receipt for every accepted or rejected command | OPEN |
@@ -1103,6 +1103,18 @@ The proposed contribution is not inventing those mechanisms. It is applying them
 | 20 | Threat model | Cooperative-actor integrity in v1; defer cryptographic signing unless direct-write adversaries enter scope | OPEN |
 | 21 | Operational custody | PROME accepts/rejects v1 requests by deterministic policy under a narrow `KERNEL/` Git carve-out; Will owns policy authority | OPEN |
 | 22 | Expansion gate | Phases 4-5 require measured coordination value above burden, separate from the Phase 3 integrity gate | OPEN |
+
+### Ratified rulings
+
+Will ratified decisions 1-5 on 2026-08-25:
+
+1. **Repository home:** The live subsystem will use neutral root-level `KERNEL/` placement. Will retains policy authority; operational custody does not make the kernel PROME-owned.
+2. **Initial governed objects:** Version 1 will govern `Question`, `Forecast`, `Resolution`, and `TrialManifest`, with Actor and Evidence as required supporting records. Messaging, theses, and general workflow remain outside the first governed boundary.
+3. **Shadow authority:** During shadow phases, native ledgers remain authoritative. Shadow events are explicitly non-authoritative, reference exact native records, and surface discrepancies rather than silently repairing them.
+4. **Canonical authority:** After an explicit Phase 3 authority switch, one-file-per-event Git history becomes canonical only for admitted prospective cohorts. Historical ledgers are not rewritten, and SQLite remains a rebuildable projection rather than a second authority.
+5. **Command acceptance:** Version 1 uses one exclusively locked local acceptance process. Agents submit immutable commands; PROME applies deterministic accept/reject policy; every command receives a durable receipt; attribution remains with the research actor.
+
+These rulings authorize specification work within the stated boundaries. They do not create `KERNEL/`, activate a trial, or settle decisions 6-22.
 
 ---
 
