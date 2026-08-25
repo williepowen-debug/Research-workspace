@@ -1,0 +1,21 @@
+{
+  "questions": {
+    "FIX-Q-001": {
+      "owner_actor_id": "SAM",
+      "claim": "The registered event occurs by the close time.",
+      "forecast_family": "BINARY_PROBABILITY",
+      "opens_at": "2026-08-25T12:00:00.000000Z",
+      "closes_at": "2026-09-18T20:00:00.000000Z",
+      "resolver_anchor_type": "FIXED_DEADLINE",
+      "resolution_condition": "Published fixture value is at or above 100.",
+      "resolution_rule": "YES when the fixture value is at or above 100; otherwise NO.",
+      "resolution_sources": ["fixture://registered-source"],
+      "fallback_resolution_source": null,
+      "ambiguity_rule": "AMBIGUOUS when the source is withdrawn without replacement.",
+      "annulment_rules": ["SOURCE_PERMANENTLY_UNAVAILABLE"],
+      "resolver_actor_id": "SAM",
+      "independent_verifier_actor_id": "RED",
+      "negative_search_procedure": null
+    }
+  }
+}

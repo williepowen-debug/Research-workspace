@@ -1,0 +1,4 @@
+# synthetic native ledger
+
+record_id	question_id	forecaster_actor_id	information_as_of	probability	rationale_ref	evidence_refs	intervention_stage	decision_consequence
+FIX-F-001	Q-018f22e2-7d00-7000-8000-000000000005	SAM	2026-08-25T12:00:00.000000Z	0.65	fixture://rationale	["fixture://evidence"]	INITIAL	null

@@ -27,6 +27,11 @@ The first slice is read-only and binary-only:
 
 There is no acceptance writer, lock, SQLite projection, live submission scan, commit automation, or push automation in this slice.
 
+Exact native-reference verification is read-only. TSV locators use the strict form
+`<declared-id-column>=<record-id>`; JSON companions use RFC 6901 JSON Pointers.
+The verifier reads committed Git objects through an injected repository boundary
+and never treats mutable checkout contents as native authority.
+
 The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
 
 ## Verification
@@ -44,4 +49,8 @@ python3 KERNEL/tools/render.py \
   --output "$fixture_out" \
   --as-of 2026-08-26T00:00:00.000000Z \
   --check
+
+python3 KERNEL/tools/verify_native.py \
+  <synthetic-command.json> \
+  --repository <temporary-synthetic-git-repository>
 ```

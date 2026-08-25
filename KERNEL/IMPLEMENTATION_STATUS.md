@@ -23,7 +23,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **20 tests pass**.
+Expected baseline at this checkpoint: **35 tests pass**.
 
 ## Authorization boundary
 
@@ -53,6 +53,7 @@ Expected baseline at this checkpoint: **20 tests pass**.
 | Gate A operational specification | COMPLETE / APPROVED | `9bbf9c041` | Hardened contract approved by Will after adversarial review |
 | Gate B checkpoint 1 — contract and replay core | COMPLETE | `ee322ff5a` | Five strict JSON Schemas; pure validation/replay core; 9 tests passed |
 | Gate B checkpoint 2 — deterministic fixture views | COMPLETE | `262cd0641` | Four registered view renderers; valid/adversarial file fixtures; 20 tests passed; render/check byte reproduction passed |
+| Gate B checkpoint 3 — exact native-reference verification | COMPLETE | this checkpoint commit | Read-only injectable Git boundary; strict TSV/JSON selection; exact selected-byte hashes; material-term reconciliation; 35 tests passed |
 
 Implemented behavior now includes:
 
@@ -69,14 +70,22 @@ Implemented behavior now includes:
 - order-independent complete input hashing;
 - byte-identical rendering and hand-edit drift detection;
 - synthetic `OPEN_QUESTIONS.md`, `RESOLUTION_QUEUE.md`, `EXCEPTIONS.md`, and `CALIBRATION.tsv` output.
+- full-SHA commit resolution and blob reads through Git rather than the mutable checkout;
+- strict normalized repository-relative native paths;
+- `TSV_RECORD_ID` selection using a declared `column=value` locator, deliberate comment/blank skipping, one header, exact row widths, and exactly one match;
+- strict RFC 6901 JSON Pointer selection, including duplicate-member and invalid-escape rejection;
+- SHA-256 comparison over the exact selected TSV line bytes or canonical selected JSON value bytes;
+- stable fail-closed findings for missing commits/paths/records, ambiguous selections, invalid rows/pointers, hash mismatch, and material-term mismatch;
+- same-named material Question/Forecast field reconciliation across cited ledger and companion selections, without research-quality judgment;
+- an injectable Git boundary and temporary synthetic Git repositories for hermetic, network-free tests and CLI exercise.
 
 ## Current limitations
 
 The implementation does **not** yet:
 
-- verify that a cited Git commit, blob, TSV record, or JSON pointer exists;
-- compare selected native bytes with `raw_record_sha256`;
-- prove that every material structured term exists in cited native records;
+- enforce configured trusted-history reachability beyond resolving the supplied full commit in the injected repository;
+- support `TEXT_ANCHOR` (deliberately excluded from this live-compatible fixture slice);
+- reconcile Resolution material terms because Resolution commands are not implemented yet;
 - validate actor capabilities or submission-path ownership;
 - sort and process command dependencies;
 - write accepted events or rejected receipts;
@@ -88,37 +97,22 @@ The implementation does **not** yet:
 - rebuild from a disposable SQLite projection;
 - scan real repository submissions or generate live views.
 
-## Next increment — checkpoint 3
+## Next increment — checkpoint 4
 
-**Build exact native-reference verification against synthetic Git-backed fixtures.**
+**Build the actor registry and deterministic permission checks using fixtures only.**
 
-Required behavior:
-
-1. Resolve a full commit SHA without consulting mutable working-tree contents.
-2. Load the referenced blob through Git.
-3. Enforce repository-relative path normalization.
-4. Support `TSV_RECORD_ID` with comment/blank skipping, one detected header, exact row width, declared ID column, and exactly one matching row.
-5. Support strict `JSON_POINTER` selection for native companion artifacts.
-6. Hash the exact selected native bytes and compare `raw_record_sha256`.
-7. Return stable fail-closed findings for missing commit, missing path, missing record, duplicate record, shifted row, invalid pointer, and hash mismatch.
-8. Verify material-term coverage between the structured command and its cited ledger/companion records without interpreting research quality.
-9. Use synthetic commits/fixtures only; do not cite or import a real agent ledger.
-
-Checkpoint-3 exit evidence:
-
-- file-backed happy-path TSV and JSON companion fixtures;
-- adversarial fixtures for every failure class above;
-- injected repository/Git boundary for hermetic tests;
-- no network dependency;
-- no write-capable acceptance path;
-- all prior tests remain green.
+The next increment should validate actor identity, submission-path ownership, active
+windows, and command capabilities under the cited policy. It must preserve the
+custody boundary: `command.accept` grants PROME no research, resolution, or
+verification discretion. It must not scan a live submission directory or add a
+write-capable acceptance path.
 
 ## Remaining Gate B sequence
 
 | Order | Increment | State | Exit condition |
 |---:|---|---|---|
-| 1 | Exact native-reference verification | NEXT | Synthetic Git-backed references pass; malformed/mismatched references fail closed |
-| 2 | Actor registry and deterministic permissions | PENDING | Actor/path/capability fixtures pass; custody grants no research authority |
+| 1 | Exact native-reference verification | COMPLETE | Synthetic Git-backed references pass; malformed/mismatched references fail closed |
+| 2 | Actor registry and deterministic permissions | NEXT | Actor/path/capability fixtures pass; custody grants no research authority |
 | 3 | Dependency planner and pending-command inventory | PENDING | Explicit dependencies topologically order; missing dependencies remain visible; cycles reject deterministically |
 | 4 | Durable accepted/rejected result writer | PENDING | Exactly one atomic fixture result per processed command; retry idempotency proven |
 | 5 | Exclusive local acceptance lock | PENDING | Concurrent fixture processes cannot both accept the same command |
@@ -134,21 +128,22 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–2 complete; checkpoint 3 next |
+| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–3 complete; checkpoint 4 next |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification at commit `262cd0641`:
+Latest completed verification for checkpoint 3:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
-Ran 20 tests — OK
+Ran 35 tests — OK
 
-python3 KERNEL/tools/render.py --events <valid fixture> --output <temp> --as-of 2026-08-26T00:00:00.000000Z
-python3 KERNEL/tools/render.py --events <valid fixture> --output <temp> --as-of 2026-08-26T00:00:00.000000Z --check
-Four registered files reproduced exactly.
+python3 -m compileall -q KERNEL/tools KERNEL/tests
+
+python3 KERNEL/tools/verify_native.py <synthetic-command> --repository <temporary-synthetic-git-repository>
+PASS: exact native bytes and material structured terms verified; research quality was not judged
 ```
 
 ## Stop conditions
