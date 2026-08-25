@@ -645,6 +645,8 @@ Will approves this contract or its successor. Approval authorizes creation of th
 
 ### Gate B — fixture implementation
 
+Current implementation progress and the remaining Gate B sequence are tracked canonically in `KERNEL/IMPLEMENTATION_STATUS.md`; this proposal retains the approved contract and does not mirror changing checkpoint counts.
+
 Required:
 
 - all fixture tests pass;

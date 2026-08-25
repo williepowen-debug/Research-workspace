@@ -9,6 +9,7 @@ No real native record may be imported and no shadow operation is active. The onl
 ## Authority
 
 - Approved contract: [`SPEC.md`](SPEC.md)
+- Live implementation plan and completed work: [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md)
 - Design and ruling history: [`../PROME/proposals/2026-08-24_kernel-membrane-design-DRAFT.md`](../PROME/proposals/2026-08-24_kernel-membrane-design-DRAFT.md)
 - Hardened Gate A specification: [`../PROME/proposals/2026-08-25_kernel-v1-spec-DRAFT.md`](../PROME/proposals/2026-08-25_kernel-v1-spec-DRAFT.md)
 
@@ -25,6 +26,8 @@ The first slice is read-only and binary-only:
 5. render byte-stable empty or fixture-backed operator views.
 
 There is no acceptance writer, lock, SQLite projection, live submission scan, commit automation, or push automation in this slice.
+
+The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
 
 ## Verification
 
