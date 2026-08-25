@@ -321,7 +321,22 @@ Will subsequently ratified decisions 11-15 on 2026-08-25:
 14\. Every prospective trial names an independent grader and defines conflicts, recusals, substitution, disputes, and escalation. Forecast ownership, resolution proposal, command acceptance, and outcome verification remain separate authorities.
 15\. A prospective trial must satisfy minimum duration, eligible-resolution, and per-arm coverage requirements. If those requirements remain unmet at maximum duration, the result is \`INCONCLUSIVE\`; rules cannot be relaxed to manufacture a conclusion.
 
-These decisions freeze the evaluation-contract structure, not the future cohort's numeric thresholds, assignment method, grader identity, or duration. Decisions 1-15 are ratified and decisions 16-22 remain open; implementation and trial activation are still unauthorized.
+At that point, these decisions approved the evaluation-contract structure but not numeric thresholds, assignment, grader identity, duration, implementation, or trial activation. The subsequent amendment below supersedes the trial-first portions of those rulings.
+
+\#\#\# Iterative-adoption and messaging amendment — 2026-08-25
+
+Will subsequently rejected a trial-first starting point as unnecessary complexity. Version 1 will instead be a small iterative operational shadow build. Schemas and policies may be repaired prospectively as actual use exposes defects, while accepted events remain append-only and every semantic change remains explicitly versioned.
+
+This direction amends the prior rulings:
+
+\- Decision 2 no longer requires \`TrialManifest\` in the initial object set. Version 1 governs \`Question\`, \`Forecast\`, and \`Resolution\`, with Actor and Evidence support.
+\- Decision 4 applies the eventual authority switch to explicitly admitted forward records, not an experimental cohort.
+\- Decision 12 retains the bounded initial forecast families for schema control, but their use is operational rather than trial-assigned.
+\- Decisions 13 and 15 are deferred. A frozen trial manifest, comparison arms, baselines, sample targets, and stopping rule apply only if Will later authorizes a formal evaluation.
+\- Decision 14 remains an integrity rule but is no longer trial-dependent: an independent grader is named by question or policy when required.
+\- Decision 16 is ratified in revised form. Doorbells are the default live notification transport; existing \`MESSAGING/\` is a durable fallback for offline, acknowledgement-sensitive, deadline-sensitive, or audit-sensitive communication. The kernel owns neither transport, a doorbell is not completion evidence, and no future bridge is presumed without measured need.
+
+The first build now aims to simplify and harden forecast administration rather than prove forecasting superiority. Formal evaluation remains possible later, but its qualifications no longer block operational learning. Decisions 17-22 remain open, including the exact authority-switch gate and any later scope-expansion test.
 
 \#\#\# Refined conclusion
 
@@ -336,7 +351,7 @@ The safe sequence is therefore:
 1\. Inventory every live-path ledger and classify it into a reviewed schema family.
 2\. Define canonical event and transition semantics before mapping legacy values.
 3\. Build fail-closed adapters that emit explicit \`UNMAPPED\` or \`INVALID\` results instead of guessing.
-4\. Pilot only new prospective predictions in shadow mode while existing files remain authoritative.
+4\. Shadow new forward predictions iteratively while existing files remain authoritative; repair contracts prospectively as defects are found.
 5\. Add a non-mutating CI lane that proves parser behavior, schema validity, deterministic tests, and scan perimeter before attempting aggregate scoring.
 
 No defensible fleet-wide performance number can be produced from the current ledgers merely by cleaning column names. The variation is substantive, and some records will remain legitimately unscoreable. Treating “not measurable” as an acceptable result is part of the evaluation discipline.

@@ -35,11 +35,11 @@ The draft recommends, but does not yet authorize:
 | Blocking decision | Recommendation |
 |---|---|
 | Domain model | Separate `Question`, `Forecast`, and `Resolution`; use "prediction" only as an umbrella term |
-| First governed workflow | Prospective forecasting only; messaging remains outside membrane authority |
+| First governed workflow | Iterative operational shadowing of questions, forecasts, and resolutions; messaging remains outside membrane authority |
 | Shadow direction | Native ledger first, then validated import into explicitly non-authoritative shadow events |
 | Command acceptance | Agents submit from owned paths; a PROME-custodied v1 acceptor serializes membrane writes; Git does not coordinate commands |
-| Evaluation | Freeze a `TrialManifest`, eligible-resolution target, arm coverage, and stopping rule before the cohort opens |
-| Authority switch | Define and pass the switch gate before Phase 3; do not promote shadow history silently |
+| Evaluation | Optional later layer; do not make a formal trial or frozen `TrialManifest` a prerequisite for the first build |
+| Authority switch | Earn authority through operational correctness and an explicit switch gate; do not promote shadow history silently |
 
 ### Packet map
 
@@ -75,13 +75,13 @@ The membrane is not intended to make the agents more intelligent. It is intended
 
 ---
 
-## 3. The claim it must help test
+## 3. The longer-term claim it may help test
 
 The unresolved claim is:
 
 > Does the coordinated Research Workspace process produce better-calibrated, more decision-useful forecasts than simpler alternatives after accounting for cost and coordination failure?
 
-The membrane is useful only if it makes that claim testable. Forecast outcomes alone are insufficient. The system must also preserve challenge exposure, revisions, abstentions, annulments and legacy voids, missed handoffs, elapsed time, compute where measurable, and human intervention.
+Version 1 does not need to run a formal trial or prove this claim. Its first job is operational: make questions, forecasts, resolutions, and their changes more reliable and easier to inspect. It should preserve enough timestamps, forecast versions, challenge exposure, abstentions, annulments and legacy voids, missed handoffs, elapsed time, compute where measurable, and human intervention that Will can authorize a sound evaluation later without rebuilding the history.
 
 ---
 
@@ -186,7 +186,6 @@ KERNEL/
 |   |-- question.schema.json
 |   |-- forecast.schema.json
 |   |-- resolution.schema.json
-|   |-- trial-manifest.schema.json
 |   |-- evidence.schema.json
 |   `-- obligation.schema.json
 |-- policies/
@@ -251,8 +250,8 @@ This design packet remains under `PROME/proposals/` until the location and autho
 | Question | Proposition, close terms, and objective resolution contract | Yes |
 | Forecast | One actor's estimate for one question at one information cutoff | Yes |
 | Resolution | Proposed and verified objective outcome for a question | Yes |
-| TrialManifest | Frozen cohort, assignment, baseline, scoring, and cost protocol | Yes |
-| Message | Communication from one actor to another | No - existing `MESSAGING/` remains authoritative |
+| TrialManifest | Optional later frozen evaluation protocol | No |
+| Message | Communication from one actor to another | No - doorbells are the default live transport; existing `MESSAGING/` is a durable fallback |
 | Obligation | Accountable requirement with owner, due condition, and closure rule | Derived only |
 | Job | Scheduled or attempted execution of an obligation | No |
 
@@ -265,10 +264,9 @@ question_id     Q-...
 forecast_id     F-...          # stable forecast series for one actor/question
 forecast_version              # increments on amendment
 resolution_id   R-...
-trial_id        T-...
 ```
 
-The target vocabulary is broader than the first implementation. Version 1 represents prospective forecasting and the identities, evidence, and trial contract required to evaluate it.
+The target vocabulary is broader than the first implementation. Version 1 represents questions, forecasts, resolutions, identities, and evidence. Formal experimental assignment and trial machinery are optional later additions, not prerequisites for operational learning.
 
 ### Communication, obligation, and execution are different
 
@@ -290,8 +288,6 @@ Agents submit commands. The membrane either rejects the command without changing
 
 | Command | Accepted event |
 |---|---|
-| `RegisterTrial` | `TrialRegistered` |
-| `FreezeTrial` | `TrialFrozen` |
 | `RegisterQuestion` | `QuestionRegistered` |
 | `AmendQuestionTerms` | `QuestionTermsAmended` |
 | `SubmitForecast` | `ForecastSubmitted` |
@@ -363,7 +359,7 @@ A question defines what the world will resolve, independently of who forecasts i
 
 ```text
 question_id
-trial_id
+evaluation_manifest_id             # optional; absent in ordinary v1 operation
 supersedes_question_id
 owner
 registered_at
@@ -430,7 +426,7 @@ correction_of
 schema_version
 ```
 
-The evaluator joins each forecast version to `outcome_value` and applies the trial's scoring rule. `HIT` or `MISS` may be rendered for compatible legacy ledgers, but those labels are not the canonical objective outcome.
+The evaluator joins each forecast version to `outcome_value` and applies the registered family-specific scoring rule. `HIT` or `MISS` may be rendered for compatible legacy ledgers, but those labels are not the canonical objective outcome.
 
 ### Forecast families
 
@@ -447,7 +443,7 @@ A mechanism proposition should be a linked resolvable question, not an unscored 
 
 ### Required registration terms
 
-A question does not become `OPEN` until it references a frozen trial manifest and has:
+A question does not become `OPEN` until it satisfies the active operational contract and has:
 
 - A stable claim that can be evaluated
 - A close time or close condition
@@ -500,7 +496,7 @@ ACTIVE -- withdraw -----------------------> WITHDRAWN
 ACTIVE -- question closes ----------------> LOCKED
 ```
 
-All forecast versions remain scoreable under the frozen trial rules. Withdrawal does not erase the submitted value.
+All forecast versions remain preserved and scoreable under the registered question and forecast-family rules. Withdrawal does not erase the submitted value.
 
 ### Objective outcome and legacy crosswalk
 
@@ -557,11 +553,11 @@ Recommended separation of duties:
 | Responsibility | Default owner |
 |---|---|
 | Research judgment | Domain agent |
-| Question terms | Question owner under the trial manifest |
+| Question terms | Registered question owner |
 | Forecast value | Forecasting actor |
 | Adversarial challenge | RED or named reviewer |
 | Objective resolution proposal | Named domain resolver |
-| Resolution verification | Independent grader for trial cohort |
+| Resolution verification | Independent grader required by question or policy |
 | Score calculation | Deterministic evaluator |
 | Policy override | Will or explicitly delegated authority |
 
@@ -597,7 +593,7 @@ Version 1 treats evidence as a minimal provenance reference, not as a generalize
 
 For dynamic external sources, preserve the retrieved artifact where legally and operationally permitted; otherwise retain enough metadata and hashing to identify the exact observation. Repository paths require a Git commit or content hash. Secrets, credentials, private account data, and unrestricted prompt traces must never enter event payloads.
 
-Resolution evidence should be stricter than ordinary supporting evidence. Trial-manifest rules identify which outcomes require independent verification. Resolution must use the registered source, a documented fallback, or an explicit override. A negative outcome also requires the pre-registered search instrument and a dated search attempt.
+Resolution evidence should be stricter than ordinary supporting evidence. The question contract and active policy identify which outcomes require independent verification. Resolution must use the registered source, a documented fallback, or an explicit override. A negative outcome also requires the pre-registered search instrument and a dated search attempt.
 
 ---
 
@@ -607,10 +603,10 @@ The first version may generate obligations as a projection without owning the fu
 
 ```text
 QuestionRegistered
-    -> question-contract review obligation, if required by trial
+    -> question-contract review obligation, if required by policy
 
 ForecastSubmitted
-    -> challenge/review obligation, if assigned by trial
+    -> challenge/review obligation, if assigned by policy
 
 Question resolution condition reached
     -> resolution obligation
@@ -623,7 +619,7 @@ ResolutionVerified
     -> dependent-agent notification candidates
 ```
 
-Later versions can connect these obligations to `MESSAGING/` receipts and then to durable jobs. Routing should not become membrane-owned until the existing message cohort and the forecasting contracts both demonstrate stable semantics.
+Doorbells are the default live notification transport when the relevant agents are running. Existing `MESSAGING/` remains available only when communication must survive inactivity or requires durable acknowledgement, deadline, disposition, or audit evidence. A successful doorbell is not completion evidence: the governed obligation or resulting event establishes ownership and closure. No kernel messaging bridge is presumed; one may be proposed later only if measured coordination failures demonstrate that doorbells, views, and the durable fallback are insufficient.
 
 Required failure states include:
 
@@ -664,13 +660,15 @@ Views are disposable and must include their source event version or generation t
 
 ---
 
-## 16. Evaluation contract
+## 16. Optional future evaluation contract
 
-The membrane should collect enough information to compare the coordinated process with simpler alternatives.
+Formal evaluation is not a prerequisite for version 1. The initial system is an iterative operational shadow build: schemas and policies may be repaired prospectively as real use exposes defects, while accepted history remains append-only and versioned. Ordinary questions do not require a `TrialManifest`, treatment arm, baseline, sample target, or stopping rule.
+
+The membrane should still preserve timestamps, forecast versions, resolutions, discrepancies, and costs where practical so a future evaluation remains possible. If Will later chooses to make comparative, calibration, or causal-performance claims, that separately authorized evaluation must use the frozen contract below.
 
 ### Frozen trial manifest
 
-Every cohort uses a `TrialManifest`. A retrospective mapping manifest freezes before its first import; a prospective trial manifest freezes before its first question opens:
+Every formal evaluation cohort uses a `TrialManifest`. A retrospective mapping manifest freezes before its first import; a prospective trial manifest freezes before its first question opens:
 
 ```text
 trial_id
@@ -794,12 +792,12 @@ For ordinary agents, state-changing commands validate and create an immutable re
 ### Canonical
 
 - During Phases 1-2, `KERNEL/shadow/events/` contains explicitly non-authoritative JSON events imported from exact native references.
-- From the Phase 3 authority switch onward, `KERNEL/events/` contains one canonical JSON file per accepted event for newly governed trials, questions, forecasts, and resolutions.
+- From the Phase 3 authority switch onward, `KERNEL/events/` contains one canonical JSON file per accepted event for newly governed questions, forecasts, and resolutions.
 - Events are partitioned by date for navigation, not by owner.
 - Event IDs are sortable and globally unique across clones.
 - Git commits provide durable provenance but are not substitutes for domain event IDs.
 - Accepted event envelopes serve as accepted-command receipts; `KERNEL/audit/commands/` preserves rejected-command receipts without changing domain state.
-- Shadow events are never silently copied or promoted into canonical history. The authority-switch ruling names the first canonical cohort and start time.
+- Shadow events are never silently copied or promoted into canonical history. The authority-switch ruling names the first canonical records and start time.
 
 ### Generated
 
@@ -834,9 +832,9 @@ Canonical timestamps use UTC in RFC 3339 form. Actor-supplied domain times canno
 | Existing system | Initial relationship |
 |---|---|
 | Agent `PREDICTIONS.tsv` files | Remain authoritative during Phases 1-2; each shadow import cites the exact native row/artifact and source commit |
-| `MESSAGING/` | Remains authoritative; supplies tested ownership, receipt, transition, and idempotency patterns |
+| Doorbells and `MESSAGING/` | Doorbells are the default live transport; `MESSAGING/` remains an optional durable fallback and a source of tested receipt, transition, and idempotency patterns |
 | PROME docket/gates | Read-only inputs or comparison surfaces; no automatic migration |
-| RED challenge records | Evidence and trial metadata; RED is not sole grader of RED's effect |
+| RED challenge records | Evidence and optional evaluation metadata; RED is not sole verifier of outcomes affecting RED's measured effect |
 | LABOR scoreboard | Prototype scoring semantics to generalize, not replace retrospectively |
 | Agent `STATUS.md` | Agent-authored truth remains; compact membrane views begin as non-authoritative projections |
 | Git | Durable archive for shadow events and command receipts; canonical event store only after the Phase 3 authority switch |
@@ -852,7 +850,7 @@ The membrane should reuse working contracts. It should not launch a competing me
 4. The custodian processes the request and emits an event with `authority_mode: SHADOW` and the required `native_ref`, or a durable rejection receipt.
 5. Reconciliation compares the native record and shadow interpretation. Native state wins during Phases 1-2; discrepancies remain visible until corrected by a new native write and shadow amendment.
 
-Where one native ledger row combines a question and its owner's forecast, the importer submits separate idempotent `RegisterQuestion` and `SubmitForecast` commands under one correlation ID. A crash between them leaves a visible incomplete import that can safely resume; it does not require a multi-file transaction. The shadow importer must refuse a missing or non-matching native reference. It does not independently create a second forecast fact. Phase 3 reverses the direction only for newly governed cohorts: canonical events become the source and legacy ledger representations become generated adapters or clearly marked non-authoritative views.
+Where one native ledger row combines a question and its owner's forecast, the importer submits separate idempotent `RegisterQuestion` and `SubmitForecast` commands under one correlation ID. A crash between them leaves a visible incomplete import that can safely resume; it does not require a multi-file transaction. The shadow importer must refuse a missing or non-matching native reference. It does not independently create a second forecast fact. Phase 3 reverses the direction only for records admitted after the explicit authority switch: canonical events become the source and legacy ledger representations become generated adapters or clearly marked non-authoritative views.
 
 ### Repository design lineage
 
@@ -876,26 +874,25 @@ The membrane should earn scope in three distinct stages:
 
 | Stage | Phases | What it is |
 |---|---:|---|
-| Evaluation ledger | 1-2 | Non-authoritative measurement instrument for questions, forecast versions, resolutions, costs, and discrepancies |
-| Governed forecast registry | 3 | Canonical source for newly governed forecasting cohorts after operational reliability is demonstrated |
-| Operational membrane | 4-5 | Broader obligations, messaging bridges, and durable scheduling only after measured usefulness justifies expansion |
+| Iterative shadow registry | 1-2 | Non-authoritative operational instrument for questions, forecast versions, resolutions, and discrepancies; contracts improve prospectively as defects are found |
+| Governed forecast registry | 3 | Canonical source for newly admitted records after operational reliability is demonstrated |
+| Optional operational expansion | 4-5 | Broader obligations or durable scheduling only after measured usefulness justifies expansion; no messaging bridge is presumed |
 
-Operational reliability and forecasting superiority are different decisions. Phase 3 may be justified if the registry produces substantially cleaner, cheaper, and more auditable forecast records even when the performance experiment remains statistically inconclusive. Expansion into Phases 4-5 requires separate evidence that the added coordination machinery produces value exceeding its burden.
+Operational reliability and forecasting superiority are different decisions. Version 1 pursues the former without requiring a formal trial of the latter. Phase 3 may be justified if the registry produces substantially cleaner, cheaper, and more auditable forecast records over an agreed observation window. Any later formal performance evaluation requires separate authorization and a frozen optional evaluation contract. Expansion into Phases 4-5 requires separate evidence that added coordination machinery produces value exceeding its burden.
 
 ### Advance and stop gates
 
-Before the prospective cohort opens, the frozen manifest must assign numerical thresholds or explicit adjudication rules for:
+Before a Phase 3 authority switch, the authority ruling must assign thresholds or explicit adjudication rules for:
 
-- Minimum eligible resolutions overall and per comparison arm
 - Maximum missing required-field rate
 - Maximum unresolved native-shadow discrepancy rate
 - Maximum event-stream conflict rate
 - Resolution and independent-verification timeliness
 - Command acceptance latency and custodian queue age
 - Human intervention and operating-cost ceiling
-- Maximum trial duration and treatment of an underpowered result
+- Minimum stable operating window and record coverage
 
-If operational thresholds fail, simplify or stop rather than promoting the membrane. If sample sufficiency fails at maximum duration, publish `INCONCLUSIVE` and retain the frozen protocol; do not pool incompatible forecast families, relax exclusion rules, or tune thresholds against observed outcomes.
+If operational thresholds fail, repair, simplify, or continue shadow operation rather than promoting the membrane. There is no requirement to manufacture a pass on a fixed trial schedule. Formal evaluation stopping rules apply only if a later optional trial is authorized.
 
 ### Phase 0 - Ratify the contract
 
@@ -903,11 +900,11 @@ Deliverables:
 
 - Agree on scope and non-goals
 - Freeze the `Question` / `Forecast` / `Resolution` separation
-- Freeze forecast families for v1
+- Set the initial forecast-family boundary for v1
 - Define the question and forecast state machines
 - Define amendment, annulment, legacy-void projection, dispute, and correction rules
 - Reconcile `STATE_VOCABULARY.md` with `PREDICTION_DISCIPLINE.md` and register any new lifecycle tokens
-- Freeze the trial manifest: cohort, assignment, scoring tracks, resolvers, graders, baselines, cost measures, sample requirements, and stopping rule
+- Define the iterative schema- and policy-versioning procedure, resolution verification rules, and authority-switch evidence requirements
 - Choose event ID and timestamp rules
 - Ratify serialized acceptance and conflict-quarantine behavior
 - Ratify PROME's narrow v1 custodian role, the required shared-path Git carve-out, and the agent-owned command-submission path
@@ -921,7 +918,7 @@ Exit gate:
 Deliverables:
 
 - Create the `KERNEL/` shadow skeleton, schemas, agent-owned submission adapter, serialized custodian acceptance, durable receipts, replay engine, fixtures, and tests
-- Freeze a `RETROSPECTIVE-MAPPING` manifest and parse selected existing ledgers without changing them
+- Version a retrospective mapping specification and parse selected existing ledgers without changing them
 - Generate open, overdue, and calibration shadow views
 - Report disagreements rather than resolving them automatically
 
@@ -929,24 +926,25 @@ Exit gate:
 
 - Replay is deterministic; the parser correctly represents the agreed sample; retrospective outputs carry no prospective or causal claim; rejected commands leave durable receipts; no existing authority changes.
 
-### Phase 2 - Prospective shadow cohort
+### Phase 2 - Iterative shadow operation
 
 Deliverables:
 
-- Record a small frozen cohort on native authoritative surfaces, then import exact native references through structured shadow commands
+- Record a small, useful set of new questions and forecasts on native authoritative surfaces, then import exact native references through structured shadow commands
 - Store shadow events only under `KERNEL/shadow/events/`
-- Capture challenges, revisions, resolution evidence, operational failures, and costs
+- Capture revisions, resolution evidence, operational failures, and costs where practical
 - Compare native and membrane state every cycle
+- Repair schemas and policies prospectively when real operation exposes defects; never rewrite accepted history silently
 
 Exit gate:
 
-- The frozen stopping rule is met with sufficient eligible resolutions and arm coverage, and the pre-registered missing-data, conflict, discrepancy, timeliness, and burden gates pass. Otherwise the outcome is an explicit extension, simplification, stop, or `INCONCLUSIVE` result under the frozen rules.
+- The agreed operational window shows deterministic replay, no unresolved integrity defects, acceptable discrepancy and intervention burden, and stable enough contracts to consider an explicit authority switch. Otherwise continue, repair, simplify, or stop shadow operation.
 
 ### Phase 3 - Forecast authority
 
 Deliverables:
 
-- Make accepted events authoritative for new cohort questions, forecasts, and resolutions
+- Make accepted events authoritative only for questions, forecasts, and resolutions admitted after the named switch time
 - Generate human-readable question and forecast views
 - Enforce additions-only event integrity and semantic validation through the merge path; require broker signatures only if the threat model expands beyond cooperative actors
 - Add CI validation for governed files, command receipts, version chains, and transitions
@@ -954,15 +952,16 @@ Deliverables:
 
 Exit gate:
 
-- No material state requires hand reconciliation for the agreed observation window, and the authority-switch ruling names its cohort and exact start time.
+- No material state requires hand reconciliation for the agreed observation window, and the authority-switch ruling names its covered records and exact start time.
 
-### Phase 4 - Messaging and obligations bridge
+### Phase 4 - Optional obligations support, only if warranted
 
 Deliverables:
 
-- Map existing message receipts to obligation events
+- Preserve doorbells as the default live notification transport
+- Add durable obligation state only for demonstrated gaps that views, doorbells, and the existing messaging fallback do not solve
 - Produce a unified open-work and exception projection
-- Preserve existing inbox readability during transition
+- Preserve existing messaging readability and avoid a mandatory bridge
 
 Exit gate:
 
@@ -1082,9 +1081,9 @@ The proposed contribution is not inventing those mechanisms. It is applying them
 | # | Decision | Working recommendation | Status |
 |---:|---|---|---|
 | 1 | Repository home | Root-level `KERNEL/` | RATIFIED 2026-08-25 |
-| 2 | Initial governed objects | `Question`, `Forecast`, `Resolution`, plus required Actor/Evidence/TrialManifest support | RATIFIED 2026-08-25 |
+| 2 | Initial governed objects | `Question`, `Forecast`, and `Resolution`, plus required Actor/Evidence support; no required `TrialManifest` | AMENDED 2026-08-25 |
 | 3 | Shadow authority | Native ledger first; exact-reference import to `KERNEL/shadow/events/` | RATIFIED 2026-08-25 |
-| 4 | Canonical authority | Git event files for cohorts beginning after the Phase 3 switch | RATIFIED 2026-08-25 |
+| 4 | Canonical authority | Git event files for records admitted after the Phase 3 switch | AMENDED 2026-08-25 |
 | 5 | Command acceptance | Exclusive local serialization under the current operating model | RATIFIED 2026-08-25 |
 | 6 | Future multi-clone model | Single acceptance writer; do not treat Git merge as a transaction | RATIFIED 2026-08-25 |
 | 7 | Event granularity | One chained JSON file per accepted event | RATIFIED 2026-08-25 |
@@ -1092,19 +1091,21 @@ The proposed contribution is not inventing those mechanisms. It is applying them
 | 9 | Local projection | Disposable SQLite under `.rw/` | RATIFIED 2026-08-25 |
 | 10 | Historical migration | None; read-only parsing only | RATIFIED 2026-08-25 |
 | 11 | Lifecycle vocabulary | Ratify membrane workflow tokens and crosswalk existing prediction vocabularies | RATIFIED 2026-08-25 |
-| 12 | First forecast families | Binary, threshold, and conditional; numerical interval only if the cohort requires it | RATIFIED 2026-08-25 |
-| 13 | Trial contract | Freeze assignment, scoring tracks, baselines, exclusions, and costs before opening | RATIFIED 2026-08-25 |
-| 14 | Independent grader | Name per trial; forecast owner cannot verify protected outcomes alone | RATIFIED 2026-08-25 |
-| 15 | Trial stopping rule | Minimum duration plus eligible-resolution and per-arm counts; maximum duration yields `INCONCLUSIVE`, not relaxed rules | RATIFIED 2026-08-25 |
-| 16 | Messaging sequence | Reuse patterns now; bridge after the forecast shadow trial | OPEN |
+| 12 | First forecast families | Binary, threshold, and conditional; numerical interval only when an operational need and scoring contract require it | RATIFIED 2026-08-25 |
+| 13 | Trial contract | Optional later evaluation contract; not required for iterative v1 operation | DEFERRED 2026-08-25 |
+| 14 | Independent grader | Name by question or policy; forecast owner cannot verify protected outcomes alone | AMENDED 2026-08-25 |
+| 15 | Trial stopping rule | Required only if a later formal evaluation is authorized | DEFERRED 2026-08-25 |
+| 16 | Messaging sequence | Doorbells for live notification; existing messaging as durable fallback; no presumed kernel bridge | RATIFIED 2026-08-25 |
 | 17 | Generated views in Git | Decide whether committed snapshots are required for cross-session consumption | OPEN |
 | 18 | Runtime escalation | No durable engine until contract stability and need are demonstrated | OPEN |
-| 19 | Authority switch gate | Define acceptable discrepancy, conflict, and missing-data rates before Phase 3 | OPEN |
+| 19 | Authority switch gate | Define acceptable discrepancy, conflict, missing-data, and stable-operation requirements before Phase 3 | OPEN |
 | 20 | Threat model | Cooperative-actor integrity in v1; defer cryptographic signing unless direct-write adversaries enter scope | OPEN |
 | 21 | Operational custody | PROME accepts/rejects v1 requests by deterministic policy under a narrow `KERNEL/` Git carve-out; Will owns policy authority | OPEN |
 | 22 | Expansion gate | Phases 4-5 require measured coordination value above burden, separate from the Phase 3 integrity gate | OPEN |
 
-### Ratified rulings
+### Ruling history
+
+Later amendments in this section supersede earlier language where explicitly noted.
 
 Will ratified decisions 1-5 on 2026-08-25:
 
@@ -1134,13 +1135,27 @@ Will ratified decisions 11-15 on 2026-08-25:
 14. **Independent grader:** Every prospective trial names an independent grader and defines eligibility, conflicts, recusals, substitution, dispute handling, and escalation. A forecast owner cannot singly verify a protected outcome, and acceptance custody does not confer evaluation authority.
 15. **Trial stopping rule:** A prospective trial requires a minimum observation period, minimum eligible independently resolved forecasts, minimum per-arm coverage, and maximum duration. If sufficiency is unmet at maximum duration, the result is `INCONCLUSIVE`; exclusions, families, arms, and primary scoring may not be relaxed to force a result.
 
-These rulings approve the evaluation-contract structure, not the future manifest's numerical thresholds, cohort, assignment method, grader identity, or duration. Decisions 1-15 are ratified; decisions 16-22 remain open. No `KERNEL/` tree or trial is activated.
+These rulings initially approved an evaluation-contract structure, not numerical parameters or trial activation. The design direction below subsequently removed a formal trial from the initial implementation path.
+
+### Iterative-adoption and messaging amendment — 2026-08-25
+
+Will directed that version 1 begin as an iterative operational build rather than a formal trial. The system may be edited, repaired, and simplified prospectively as real use exposes defects; accepted events remain append-only, and schema or policy changes remain explicitly versioned. This amendment changes the earlier rulings as follows:
+
+- **Decision 2 amended:** `TrialManifest` is removed from the required initial object set. Version 1 governs `Question`, `Forecast`, and `Resolution`, with Actor and Evidence support.
+- **Decision 4 clarified:** The eventual Phase 3 switch covers explicitly admitted forward records, not an experimental cohort.
+- **Decision 12 retained:** The initial forecast-family boundary remains useful for schema control, but admission is operational rather than trial-based. Numerical intervals still require a registered family-specific scoring contract before use.
+- **Decision 13 deferred:** A frozen `TrialManifest`, assignment method, baseline, and comparison arms are optional later evaluation machinery. They are not prerequisites for ordinary v1 questions.
+- **Decision 14 amended:** Independent verification remains an integrity control, but graders are named by question or policy rather than by a required trial.
+- **Decision 15 deferred:** Sample counts, per-arm coverage, maximum duration, and `INCONCLUSIVE` apply only if Will later authorizes a formal evaluation.
+- **Decision 16 ratified:** Doorbells are the default live notification transport. Existing `MESSAGING/` is a durable fallback for offline, acknowledgement-sensitive, deadline-sensitive, or audit-sensitive communication. The kernel owns neither transport and presumes no future bridge; it may track durable obligations separately, and a bridge requires demonstrated need.
+
+The first build therefore aims to make forecast administration reliable and simpler, not to prove forecasting superiority. Formal evaluation remains possible later without burdening initial implementation.
 
 ---
 
 ## 25. Proposed first build slice
 
-If the decisions above are ratified, the first code slice should contain only:
+When the remaining version 1 prerequisites are settled and implementation is authorized, the first code slice should contain only:
 
 ```text
 KERNEL/
@@ -1153,11 +1168,9 @@ KERNEL/
 |   |-- question.schema.json
 |   |-- forecast.schema.json
 |   |-- resolution.schema.json
-|   |-- evidence.schema.json
-|   `-- trial-manifest.schema.json
+|   `-- evidence.schema.json
 |-- policies/
 |   |-- permissions.yaml
-|   |-- trial-lifecycle.yaml
 |   |-- question-lifecycle.yaml
 |   `-- resolution-policy.yaml
 |-- registry/
@@ -1180,7 +1193,6 @@ KERNEL/
 |   `-- render.py
 `-- tests/
     |-- fixtures/
-    |-- test_trial_manifest.py
     |-- test_submission_acceptance.py
     |-- test_question_lifecycle.py
     |-- test_forecast_versions.py
@@ -1196,7 +1208,7 @@ scripts/rw                    # thin CLI shim
 
 The slice should prove nine things before adding features:
 
-1. A mapping manifest freezes before import, a prospective manifest freezes before its first question opens, and neither can be retroactively edited.
+1. Schema and policy versions are explicit; fixes apply prospectively and accepted history is never silently reinterpreted or rewritten.
 2. An ordinary agent can submit from its owned path but cannot directly accept into `KERNEL/`.
 3. A valid native question and forecast can be imported into shadow state with an exact source reference.
 4. Invalid, unauthorized, or insufficiently evidenced transitions are rejected without changing domain state.
@@ -1221,9 +1233,9 @@ No generalized evidence graph, source-quality engine, message migration, job sch
 - [ ] Authority and separation-of-duty rules match actual operating practice.
 - [ ] Shadow mode cannot create an ambiguous second truth.
 - [ ] Command serialization and fork quarantine match the actual Git operating model.
-- [ ] The trial manifest prevents retrospective selection of scoring versions or baselines.
-- [ ] The stopping rule requires sufficient eligible resolutions and comparison-arm coverage, not duration alone.
-- [ ] The prospective evaluation can test calibration **and** coordination cost.
+- [ ] Ordinary version 1 operation does not require a trial manifest, treatment assignment, or stopping rule.
+- [ ] Optional later evaluation machinery is clearly separated from operational authority.
+- [ ] Doorbells and existing messaging remain transports; durable obligation state is not confused with notification delivery.
 - [ ] Phase 3 operational authority and Phases 4-5 scope expansion use separate evidence gates.
 - [ ] The first build slice is small enough to discard or revise cheaply.
 
@@ -1233,4 +1245,4 @@ No generalized evidence graph, source-quality engine, message migration, job sch
 
 Research Workspace already has most of the behavioral ingredients: durable files, agent ownership, prediction ledgers, adversarial challenge, messaging receipts, Git provenance, and retained failures. The membrane should not replace those strengths. It should turn their most consequential administrative rules into a small deterministic contract.
 
-The recommended first move is not to build a general research operating system. It is to build an evaluation instrument: freeze the Question/Forecast/Resolution and TrialManifest contracts, implement native-first shadow events with durable command receipts and deterministic replay, and run a cohort bounded by both time and eligible resolution count. Operational evidence may justify a Phase 3 forecast-registry authority switch; only separate evidence of coordination value above burden should justify expansion into messaging, obligations, scheduling, or broader state governance.
+The recommended first move is not to build a general research operating system or a formal experiment. It is to build a small iterative shadow registry for Question, Forecast, and Resolution: preserve native authority, accept commands deterministically, retain durable receipts, replay state, expose discrepancies, and repair contracts prospectively as actual use reveals defects. Operational evidence may later justify a forward-only Phase 3 authority switch. Formal evaluation, messaging integration, obligations, scheduling, and broader state governance remain separate optional expansions requiring explicit need and authority.
