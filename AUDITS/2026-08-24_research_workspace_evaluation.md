@@ -336,7 +336,18 @@ This direction amends the prior rulings:
 \- Decision 14 remains an integrity rule but is no longer trial-dependent: an independent grader is named by question or policy when required.
 \- Decision 16 is ratified in revised form. Doorbells are the default live notification transport; existing \`MESSAGING/\` is a durable fallback for offline, acknowledgement-sensitive, deadline-sensitive, or audit-sensitive communication. The kernel owns neither transport, a doorbell is not completion evidence, and no future bridge is presumed without measured need.
 
-The first build now aims to simplify and harden forecast administration rather than prove forecasting superiority. Formal evaluation remains possible later, but its qualifications no longer block operational learning. Decisions 17-22 remain open, including the exact authority-switch gate and any later scope-expansion test.
+The first build now aims to simplify and harden forecast administration rather than prove forecasting superiority. Formal evaluation remains possible later, but its qualifications no longer block operational learning. At that point decisions 17-22 remained open, including the authority-switch and scope-expansion gates.
+
+Will subsequently ratified decisions 17-22 on 2026-08-25:
+
+17\. Git will contain only registered cross-session operator views—initially open questions, resolution queue, exceptions, and calibration—with generation metadata and reproducibility checks. SQLite and transient projections remain uncommitted.
+18\. Version 1 will not introduce a durable workflow engine or hosted service. Escalation requires documented failures of files, commands, replay, views, CI, and simple scheduling.
+19\. A Phase 3 authority switch requires deterministic replay, additions-only enforcement, and zero unresolved stream conflicts, required-field gaps, material native-shadow discrepancies, or audit gaps. Shadow operation will establish practical latency, burden, coverage, and stable-window thresholds before a switch can be ruled.
+20\. Version 1 uses a cooperative-actor threat model and makes no cryptographic-integrity claim against malicious direct writers. A broader threat model requires a new review.
+21\. PROME is the deterministic acceptance custodian under a narrow kernel Git carve-out; Will retains policy authority, agents retain authorship, and independent graders retain verification authority. PROME has no substantive discretion over submitted research payloads.
+22\. Every expansion beyond forecasting requires separate evidence of a recurring coordination problem and value above human, agent, repository, and operational burden. No messaging bridge, obligation system, scheduler, or broader state layer follows automatically.
+
+All 22 architectural decisions are now resolved, amended, or explicitly deferred. The design table is complete, but this does not itself authorize creation of \`KERNEL/\`, shadow operation, or an authority switch.
 
 \#\#\# Refined conclusion
 

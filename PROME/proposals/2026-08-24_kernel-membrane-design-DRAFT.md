@@ -1096,12 +1096,12 @@ The proposed contribution is not inventing those mechanisms. It is applying them
 | 14 | Independent grader | Name by question or policy; forecast owner cannot verify protected outcomes alone | AMENDED 2026-08-25 |
 | 15 | Trial stopping rule | Required only if a later formal evaluation is authorized | DEFERRED 2026-08-25 |
 | 16 | Messaging sequence | Doorbells for live notification; existing messaging as durable fallback; no presumed kernel bridge | RATIFIED 2026-08-25 |
-| 17 | Generated views in Git | Decide whether committed snapshots are required for cross-session consumption | OPEN |
-| 18 | Runtime escalation | No durable engine until contract stability and need are demonstrated | OPEN |
-| 19 | Authority switch gate | Define acceptable discrepancy, conflict, missing-data, and stable-operation requirements before Phase 3 | OPEN |
-| 20 | Threat model | Cooperative-actor integrity in v1; defer cryptographic signing unless direct-write adversaries enter scope | OPEN |
-| 21 | Operational custody | PROME accepts/rejects v1 requests by deterministic policy under a narrow `KERNEL/` Git carve-out; Will owns policy authority | OPEN |
-| 22 | Expansion gate | Phases 4-5 require measured coordination value above burden, separate from the Phase 3 integrity gate | OPEN |
+| 17 | Generated views in Git | Commit only registered cross-session operator views; all other projections remain disposable | RATIFIED 2026-08-25 |
+| 18 | Runtime escalation | No durable engine until simpler mechanisms demonstrably fail | RATIFIED 2026-08-25 |
+| 19 | Authority switch gate | Zero unresolved integrity defects plus learned operational thresholds and a stable observation window | RATIFIED 2026-08-25 |
+| 20 | Threat model | Cooperative-actor integrity in v1; defer cryptographic signing unless direct-write adversaries enter scope | RATIFIED 2026-08-25 |
+| 21 | Operational custody | PROME accepts/rejects v1 requests by deterministic policy under a narrow `KERNEL/` Git carve-out; Will owns policy authority | RATIFIED 2026-08-25 |
+| 22 | Expansion gate | Each broader capability requires demonstrated coordination value above burden | RATIFIED 2026-08-25 |
 
 ### Ruling history
 
@@ -1150,6 +1150,17 @@ Will directed that version 1 begin as an iterative operational build rather than
 - **Decision 16 ratified:** Doorbells are the default live notification transport. Existing `MESSAGING/` is a durable fallback for offline, acknowledgement-sensitive, deadline-sensitive, or audit-sensitive communication. The kernel owns neither transport and presumes no future bridge; it may track durable obligations separately, and a bridge requires demonstrated need.
 
 The first build therefore aims to make forecast administration reliable and simpler, not to prove forecasting superiority. Formal evaluation remains possible later without burdening initial implementation.
+
+Will ratified decisions 17-22 on 2026-08-25:
+
+17. **Generated views in Git:** Commit only a registered set of operator-facing views needed across sessions, initially `OPEN_QUESTIONS.md`, `RESOLUTION_QUEUE.md`, `EXCEPTIONS.md`, and `CALIBRATION.tsv`. Each carries generation metadata, source version, authority mode, and a do-not-edit notice; CI verifies exact reproduction. SQLite, caches, detailed indexes, and transient diagnostics remain uncommitted.
+18. **Runtime escalation:** Version 1 uses files, local commands, replay, views, CI, and simple scheduling where needed. No durable workflow engine or hosted service is introduced unless documented failures show that these mechanisms cannot reliably handle required waits, retries, recovery, approvals, or concurrency.
+19. **Authority switch gate:** Phase 3 requires deterministic replay, additions-only enforcement, zero unresolved stream conflicts, zero accepted records missing required fields, zero unresolved material native-shadow discrepancies, and zero unexplained audit gaps. Shadow operation will establish practical thresholds for latency, queue age, intervention burden, record coverage, and the stable observation window before any switch ruling names covered records and an exact effective time.
+20. **Threat model:** Version 1 assumes cooperative actors and protects against accidental, stale, malformed, conflicting, or policy-unauthorized operations. It does not claim cryptographic integrity against a malicious direct writer. Signing and isolated acceptance infrastructure require a new threat-model review if untrusted actors or services enter scope.
+21. **Operational custody:** PROME is the version 1 deterministic acceptance custodian under a narrow Git carve-out for kernel events, receipts, and registered views. Will retains policy and override authority; agents retain authorship; graders retain verification authority. PROME cannot alter payloads or exercise substantive research discretion, and the specification must name a substitute path for PROME unavailability.
+22. **Expansion gate:** Forecast-registry operation does not automatically authorize messaging, obligations, scheduling, or broader shared-state governance. Each expansion requires a separately documented recurring problem and evidence that the proposed capability's coordination value exceeds its human, agent, repository, and operational burden. The kernel may remain a forecast registry indefinitely.
+
+All 22 design decisions are now resolved, amended, or explicitly deferred as recorded above. This completes the architectural ruling table. It does not itself create `KERNEL/`, begin shadow operation, or authorize an authority switch.
 
 ---
 
