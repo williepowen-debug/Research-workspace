@@ -367,6 +367,47 @@ The safe sequence is therefore:
 
 No defensible fleet-wide performance number can be produced from the current ledgers merely by cleaning column names. The variation is substantive, and some records will remain legitimately unscoreable. Treating “not measurable” as an acceptable result is part of the evaluation discipline.
 
+\#\# Follow-up update — reconciled version 1 first slice — 2026-08-25
+
+This update reconciles the kernel packet's Section 25 “Proposed first build slice” with the complete amended rulings. The repository was clean on \`master\`; local \`HEAD\` and the recorded \`origin/master\` both equaled \`abdb5f0fff6f4393853eb4300314d2139032b64d\` (\`PROME: complete kernel architecture rulings\`) before this audit-only edit. No \`KERNEL/\` path was created or activated.
+
+\#\#\# Reconciled scope
+
+The correct first implementation is an operational shadow-registry vertical slice, not a trial or fleet-wide historical-normalization program. It governs \`Question\`, \`Forecast\`, and \`Resolution\`, with Actor and Evidence limited to the supporting identity and provenance needed to validate those records. Native prediction ledgers remain authoritative. Every accepted shadow event must cite an exact native record and remain visibly non-authoritative. PROME may serialize deterministic acceptance under the ruled narrow custody model, but may neither alter submitted research payloads nor verify outcomes by virtue of being the writer.
+
+The Section 25 skeleton remains directionally sound but is wider than the smallest coherent first increment. The first increment should implement one end-to-end binary-probability path: validate an agent-owned native-reference import request; deterministically accept or reject it; write one chained shadow event or one rejection receipt; replay Question and Forecast state; and render the registered operator views with explicit shadow banners. It should then extend the same path through close, resolution proposal, independent verification, forecast amendment, retry idempotency, and fork quarantine before shadow activation. Threshold and conditional families remain part of version 1, but their family-specific payload and activation/scoring contracts must be fixed before those families are enabled; they need not enlarge the first binary vertical increment.
+
+The four ruled committed views—\`OPEN_QUESTIONS.md\`, \`RESOLUTION_QUEUE.md\`, \`EXCEPTIONS.md\`, and \`CALIBRATION.tsv\`—should be registered in the specification at the outset. The first increment may render empty or minimally populated forms where its event coverage does not yet support richer content, but all must carry authority mode, generation metadata, source version, and a do-not-edit notice. SQLite, caches, detailed indexes, and transient diagnostics remain outside Git.
+
+Explicitly excluded from the first implementation are \`TrialManifest\`, arms, baselines, sample targets, stopping rules, generalized historical adapters, a generalized evidence graph, source-quality judgment, message migration, a messaging bridge, durable obligation or job state, scheduling, dashboards, agent-status generation, hosted services, and canonical authority. The discarded \`EVALUATION/\` spike remains prototype evidence only and must not be recreated as a sibling subsystem.
+
+\#\#\# Genuine pre-code prerequisites
+
+The architecture is sufficiently settled to plan implementation, but the specification must close these concrete contracts before code writes accepted shadow records:
+
+1\. **Identifier and clock contract:** choose the exact event, command, stream, question, forecast, resolution, actor, and evidence identifier forms; define collision handling; require injected UTC RFC 3339 timestamps; and specify which fields are actor-supplied versus custodian-assigned.
+2\. **Versioned schema and policy contract:** define initial schema/policy version identifiers, prospective upgrade rules, replay adapters, and the rule that historical accepted payloads are never silently reinterpreted.
+3\. **Native-reference contract:** define the exact locator grammar—repository path, source commit, record identifier or row locator, and content/hash verification—and select a small fixture-backed native example. Import must fail closed on a missing, shifted, ambiguous, or non-matching record.
+4\. **Submission and custody contract:** fix the agent-owned request path and filename/idempotency rules; enumerate PROME's exact accepted/rejected write paths; encode the narrow Git carve-out; and name the deterministic substitute acceptance path required by ruling 21 when PROME is unavailable.
+5\. **Minimal payload and transition contract:** turn the Section 10 field sketches and Section 11 lifecycle rulings into exact required/optional fields, reason codes, material-amendment rules, evidence requirements, permission checks, and stream boundaries. Binary probability should be the first executable family. Threshold and conditional contracts must be complete before those families accept records.
+6\. **Registered-view and verification contract:** state deterministic ordering and byte-reproduction rules, view registration metadata, additions-only checks, audit-gap detection, conflict quarantine behavior, and the precise claim made by each check.
+
+These are specification decisions within the ratified architecture, not reopened architecture choices. Numeric operational thresholds, cohort selection, formal evaluation design, richer adapters, scheduling cadence, and broader UI ergonomics can be learned or chosen prospectively during shadow development and do not block the first code increment. Authority-switch thresholds likewise remain deliberately learned during shadow operation and do not block implementation.
+
+\#\#\# Smallest coherent implementation sequence
+
+1\. Write and approve a compact \`SPEC.md\` contract covering the six prerequisites above, plus fixtures and acceptance examples. This approval is the gate before creating \`KERNEL/\`.
+2\. Build the binary native-import vertical slice with agent-owned submission, serialized deterministic acceptance, accepted/rejected durable results, one-event-per-file shadow storage, and no direct canonical writes.
+3\. Add deterministic replay and the four registered shadow views, with \`.rw/\` used only for disposable projection state.
+4\. Complete lifecycle integrity: amendments, close, resolution proposal, required independent verification, corrections, idempotent retries, stale-version rejection, competing-child quarantine, and prospective schema/policy upgrades.
+5\. Run a small fixture-backed and then live native-first shadow path only after the implementation tests, additions-only checks, view reproduction, and explicit non-authority labeling pass. Activation remains a separate Will approval; an authority switch remains out of scope.
+
+No direct contradiction was found among the final ruling table, its amendment history, and the packet's bottom-line recommendation. The remaining ambiguity is implementation-level and is concentrated in the six contracts above.
+
+\#\#\# Gate 1 specification checkpoint
+
+The six contracts were translated into \`PROME/proposals/2026-08-25_kernel-v1-spec-DRAFT.md\` for operator review. The draft fixes identifier, clock, canonical-JSON, schema/policy-version, agent-owned submission, deterministic acceptance, durable-result, exact native-reference, lifecycle, permission, conflict-quarantine, registered-view, substitute-custody, and verification-perimeter rules. It deliberately enables only a fixture-backed binary-probability vertical slice; threshold and conditional families remain registered but fail closed until their separate contracts are approved. The draft preserves separate approval gates for creating \`KERNEL/\`, fixture implementation, live shadow activation, and any future authority switch. At this checkpoint no \`KERNEL/\` path, live event, Git carve-out, or shadow authority was created.
+
 \#\# Executive assessment
 
 Research Workspace is a serious, unusually transparent analytical operating system. Its strongest qualities are institutional memory, explicit ownership, falsification discipline, and preservation of mistakes. It contains real examples where disagreement changed confidence, trade construction, or thesis state before the outcome was known. This is substantially more rigorous than a collection of research notes or independent chat agents.
