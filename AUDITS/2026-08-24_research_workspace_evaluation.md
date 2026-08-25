@@ -313,6 +313,16 @@ Will subsequently ratified decisions 6-10 on 2026-08-25:
 
 Decisions 1-10 are now ratified. Decisions 11-22 remain open; no \`KERNEL/\` tree, trial activation, or authority switch is authorized yet.
 
+Will subsequently ratified decisions 11-15 on 2026-08-25:
+
+11\. Version 1 adopts separate question and forecast workflow states, objective outcomes, the legacy crosswalk, and all seven amendment, supersession, conditional-activation, annulment, and finality protections proposed in the packet.
+12\. Version 1 admits binary probability, threshold-crossing, and conditional forecasts. Numerical intervals enter only if required by the selected cohort and governed by a pre-frozen family-specific scoring rule; categorical distributions and point estimates remain outside the first slice.
+13\. Every cohort freezes its complete \`TrialManifest\` before its first question opens. Later protocol changes apply prospectively through a new manifest version and never alter active-cohort scoring.
+14\. Every prospective trial names an independent grader and defines conflicts, recusals, substitution, disputes, and escalation. Forecast ownership, resolution proposal, command acceptance, and outcome verification remain separate authorities.
+15\. A prospective trial must satisfy minimum duration, eligible-resolution, and per-arm coverage requirements. If those requirements remain unmet at maximum duration, the result is \`INCONCLUSIVE\`; rules cannot be relaxed to manufacture a conclusion.
+
+These decisions freeze the evaluation-contract structure, not the future cohort's numeric thresholds, assignment method, grader identity, or duration. Decisions 1-15 are ratified and decisions 16-22 remain open; implementation and trial activation are still unauthorized.
+
 \#\#\# Refined conclusion
 
 The August 24 prioritization should stand, with one refinement: the first implementation artifact should be a **compatibility inventory and explicit mapping contract**, not a fleet-wide historical normalizer. The evidence shows three separate problems that should not be conflated:

@@ -1091,11 +1091,11 @@ The proposed contribution is not inventing those mechanisms. It is applying them
 | 8 | Command audit | Durable receipt for every accepted or rejected command | RATIFIED 2026-08-25 |
 | 9 | Local projection | Disposable SQLite under `.rw/` | RATIFIED 2026-08-25 |
 | 10 | Historical migration | None; read-only parsing only | RATIFIED 2026-08-25 |
-| 11 | Lifecycle vocabulary | Ratify membrane workflow tokens and crosswalk existing prediction vocabularies | OPEN |
-| 12 | First forecast families | Binary, threshold, and conditional; numerical interval only if the cohort requires it | OPEN |
-| 13 | Trial contract | Freeze assignment, scoring tracks, baselines, exclusions, and costs before opening | OPEN |
-| 14 | Independent grader | Name per trial; forecast owner cannot verify protected outcomes alone | OPEN |
-| 15 | Trial stopping rule | Minimum duration plus eligible-resolution and per-arm counts; maximum duration yields `INCONCLUSIVE`, not relaxed rules | OPEN |
+| 11 | Lifecycle vocabulary | Ratify membrane workflow tokens and crosswalk existing prediction vocabularies | RATIFIED 2026-08-25 |
+| 12 | First forecast families | Binary, threshold, and conditional; numerical interval only if the cohort requires it | RATIFIED 2026-08-25 |
+| 13 | Trial contract | Freeze assignment, scoring tracks, baselines, exclusions, and costs before opening | RATIFIED 2026-08-25 |
+| 14 | Independent grader | Name per trial; forecast owner cannot verify protected outcomes alone | RATIFIED 2026-08-25 |
+| 15 | Trial stopping rule | Minimum duration plus eligible-resolution and per-arm counts; maximum duration yields `INCONCLUSIVE`, not relaxed rules | RATIFIED 2026-08-25 |
 | 16 | Messaging sequence | Reuse patterns now; bridge after the forecast shadow trial | OPEN |
 | 17 | Generated views in Git | Decide whether committed snapshots are required for cross-session consumption | OPEN |
 | 18 | Runtime escalation | No durable engine until contract stability and need are demonstrated | OPEN |
@@ -1125,6 +1125,16 @@ Will ratified decisions 6-10 on 2026-08-25:
 10. **Historical migration:** Existing ledgers will not be converted into canonical history. Read-only, provenance-preserving retrospective mappings may test compatibility and scoring reproducibility, but remain non-authoritative and support no preregistration or causal-performance claim.
 
 Together, decisions 1-10 establish the system boundary, authority progression, write path, durable storage, and historical treatment. They still do not create `KERNEL/`, activate a trial, or settle decisions 11-22.
+
+Will ratified decisions 11-15 on 2026-08-25:
+
+11. **Lifecycle vocabulary:** Version 1 adopts the distinct question and forecast workflow tokens and objective-outcome vocabulary in Section 11, with the explicit legacy crosswalk. The seven amendment, supersession, conditional-activation, annulment, and finality rules in that section are binding contract requirements.
+12. **First forecast families:** Version 1 admits binary probability, threshold-crossing, and conditional forecasts. A numerical-interval family may be added only when the selected cohort requires it and its family-specific scoring rule is frozen before opening; categorical distributions and numerical point estimates remain outside the first slice.
+13. **Trial contract:** Every cohort must freeze its complete `TrialManifest` before its first question opens, including assignment, scoring tracks, baselines, exclusions, costs, sample requirements, and stopping rule. A protocol change creates a prospective new manifest version and never rescales an active cohort retrospectively.
+14. **Independent grader:** Every prospective trial names an independent grader and defines eligibility, conflicts, recusals, substitution, dispute handling, and escalation. A forecast owner cannot singly verify a protected outcome, and acceptance custody does not confer evaluation authority.
+15. **Trial stopping rule:** A prospective trial requires a minimum observation period, minimum eligible independently resolved forecasts, minimum per-arm coverage, and maximum duration. If sufficiency is unmet at maximum duration, the result is `INCONCLUSIVE`; exclusions, families, arms, and primary scoring may not be relaxed to force a result.
+
+These rulings approve the evaluation-contract structure, not the future manifest's numerical thresholds, cohort, assignment method, grader identity, or duration. Decisions 1-15 are ratified; decisions 16-22 remain open. No `KERNEL/` tree or trial is activated.
 
 ---
 
