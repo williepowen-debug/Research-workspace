@@ -1086,11 +1086,11 @@ The proposed contribution is not inventing those mechanisms. It is applying them
 | 3 | Shadow authority | Native ledger first; exact-reference import to `KERNEL/shadow/events/` | RATIFIED 2026-08-25 |
 | 4 | Canonical authority | Git event files for cohorts beginning after the Phase 3 switch | RATIFIED 2026-08-25 |
 | 5 | Command acceptance | Exclusive local serialization under the current operating model | RATIFIED 2026-08-25 |
-| 6 | Future multi-clone model | Single acceptance writer; do not treat Git merge as a transaction | OPEN |
-| 7 | Event granularity | One chained JSON file per accepted event | OPEN |
-| 8 | Command audit | Durable receipt for every accepted or rejected command | OPEN |
-| 9 | Local projection | Disposable SQLite under `.rw/` | OPEN |
-| 10 | Historical migration | None; read-only parsing only | OPEN |
+| 6 | Future multi-clone model | Single acceptance writer; do not treat Git merge as a transaction | RATIFIED 2026-08-25 |
+| 7 | Event granularity | One chained JSON file per accepted event | RATIFIED 2026-08-25 |
+| 8 | Command audit | Durable receipt for every accepted or rejected command | RATIFIED 2026-08-25 |
+| 9 | Local projection | Disposable SQLite under `.rw/` | RATIFIED 2026-08-25 |
+| 10 | Historical migration | None; read-only parsing only | RATIFIED 2026-08-25 |
 | 11 | Lifecycle vocabulary | Ratify membrane workflow tokens and crosswalk existing prediction vocabularies | OPEN |
 | 12 | First forecast families | Binary, threshold, and conditional; numerical interval only if the cohort requires it | OPEN |
 | 13 | Trial contract | Freeze assignment, scoring tracks, baselines, exclusions, and costs before opening | OPEN |
@@ -1114,7 +1114,17 @@ Will ratified decisions 1-5 on 2026-08-25:
 4. **Canonical authority:** After an explicit Phase 3 authority switch, one-file-per-event Git history becomes canonical only for admitted prospective cohorts. Historical ledgers are not rewritten, and SQLite remains a rebuildable projection rather than a second authority.
 5. **Command acceptance:** Version 1 uses one exclusively locked local acceptance process. Agents submit immutable commands; PROME applies deterministic accept/reject policy; every command receives a durable receipt; attribution remains with the research actor.
 
-These rulings authorize specification work within the stated boundaries. They do not create `KERNEL/`, activate a trial, or settle decisions 6-22.
+These initial rulings authorized specification work within the stated boundaries. They did not create `KERNEL/` or activate a trial, and decisions 6-22 remained open at that point.
+
+Will ratified decisions 6-10 on 2026-08-25:
+
+6. **Future multi-clone model:** If independent clones enter the operating model, all commands must route through one acceptance writer or equivalent transactional point. Git merge is not a transaction mechanism; fork detection and quarantine remain mandatory defensive controls.
+7. **Event granularity:** Each accepted event is stored as one immutable JSON file chained by stream version and previous event ID. Date partitioning aids navigation but never determines semantic order.
+8. **Command audit:** Every command leaves a durable result. An accepted event envelope doubles as its receipt; a rejected command produces a standalone receipt without changing domain state; a generated audit view unifies both forms.
+9. **Local projection:** SQLite under gitignored `.rw/` is a disposable local index only. Deleting it and replaying the same events must reproduce identical state; it never becomes canonical or committed.
+10. **Historical migration:** Existing ledgers will not be converted into canonical history. Read-only, provenance-preserving retrospective mappings may test compatibility and scoring reproducibility, but remain non-authoritative and support no preregistration or causal-performance claim.
+
+Together, decisions 1-10 establish the system boundary, authority progression, write path, durable storage, and historical treatment. They still do not create `KERNEL/`, activate a trial, or settle decisions 11-22.
 
 ---
 

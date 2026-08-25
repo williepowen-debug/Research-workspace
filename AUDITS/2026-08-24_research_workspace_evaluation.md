@@ -303,6 +303,16 @@ Will ratified the kernel packet's first five recommendations. The resulting boun
 
 These rulings resolve decisions 1-5 of 22 and authorize further specification work. They do not yet authorize creation of \`KERNEL/\`, activation of a shadow trial, or an authority switch. Decisions 6-22 remain open.
 
+Will subsequently ratified decisions 6-10 on 2026-08-25:
+
+6\. Future independent clones must route commands through one acceptance writer or equivalent transactional point. Git merge does not establish semantic order; fork detection and quarantine remain defensive requirements.
+7\. Each accepted event is one immutable JSON file chained by stream version and previous event ID. Date partitions aid navigation but do not determine event order.
+8\. Every command leaves a durable result: the accepted event envelope serves as its receipt, while rejection produces a standalone audit receipt without changing domain state.
+9\. SQLite under gitignored \`.rw/\` is only a disposable local projection. Identical event replay must reproduce identical state, and the database is neither canonical nor committed.
+10\. Historical ledgers will not be canonically migrated. Provenance-preserving retrospective mappings may test compatibility and reproducibility, but remain non-authoritative and cannot support preregistration or causal-performance claims.
+
+Decisions 1-10 are now ratified. Decisions 11-22 remain open; no \`KERNEL/\` tree, trial activation, or authority switch is authorized yet.
+
 \#\#\# Refined conclusion
 
 The August 24 prioritization should stand, with one refinement: the first implementation artifact should be a **compatibility inventory and explicit mapping contract**, not a fleet-wide historical normalizer. The evidence shows three separate problems that should not be conflated:
