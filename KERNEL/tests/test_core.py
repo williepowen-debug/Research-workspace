@@ -143,6 +143,11 @@ class ContractTests(unittest.TestCase):
         candidate["payload"]["probability"] = 1.01
         self.assertIn("PROBABILITY_INVALID", {finding.code for finding in validate_command(candidate).findings})
 
+    def test_non_finite_probability_is_rejected(self):
+        candidate = command("SubmitForecast")
+        candidate["payload"]["probability"] = float("nan")
+        self.assertIn("PROBABILITY_INVALID", {finding.code for finding in validate_command(candidate).findings})
+
     def test_future_information_cutoff_is_rejected(self):
         candidate = command("SubmitForecast")
         candidate["payload"]["information_as_of"] = "2026-08-25T13:00:00.000000Z"
@@ -158,6 +163,12 @@ class ContractTests(unittest.TestCase):
         result = replay(events)
         self.assertTrue(result.valid, result.findings)
         self.assertEqual(set(result.current), {f"QS-{IDS['question']}", f"FS-{IDS['forecast']}"})
+
+    def test_orphan_forecast_is_an_exception(self):
+        forecast = event("ForecastSubmitted")
+        result = replay([forecast])
+        self.assertIn("ORPHAN_FORECAST", {finding.code for finding in result.findings})
+        self.assertNotIn(forecast["stream_id"], result.current)
 
     def test_competing_children_quarantine_stream(self):
         first = event("QuestionRegistered")

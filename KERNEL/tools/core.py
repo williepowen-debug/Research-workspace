@@ -235,7 +235,7 @@ def _forecast_payload(result: ValidationResult, value: Any, location: str, submi
     except (InvalidOperation, ValueError):
         result.add("PROBABILITY_INVALID", "probability must be decimal", f"{location}.probability")
     else:
-        if probability < 0 or probability > 1:
+        if not probability.is_finite() or probability < 0 or probability > 1:
             result.add("PROBABILITY_INVALID", "probability must be between 0 and 1", f"{location}.probability")
     if value["intervention_stage"] not in {"INITIAL", "POST_CHALLENGE", "POST_SYNTHESIS", "FINAL_CUTOFF"}:
         result.add("INTERVENTION_STAGE_INVALID", "unknown intervention stage", f"{location}.intervention_stage")
@@ -358,4 +358,14 @@ def replay(events: Iterable[dict[str, Any]]) -> ReplayResult:
         if not any(f.message == stream_id or f.message in {e["event_id"] for e in ordered} for f in result.findings):
             result.current[stream_id] = ordered[-1]
             result.streams[stream_id] = ordered
+
+    question_ids = {
+        event["object_id"]
+        for event in result.current.values()
+        if event["event_type"] == "QuestionRegistered"
+    }
+    for stream_id, event in list(result.current.items()):
+        if event["event_type"] == "ForecastSubmitted" and event["payload"]["question_id"] not in question_ids:
+            result.findings.append(Finding("ORPHAN_FORECAST", event["object_id"], stream_id))
+            del result.current[stream_id]
     return result

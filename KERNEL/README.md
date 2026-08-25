@@ -30,4 +30,15 @@ There is no acceptance writer, lock, SQLite projection, live submission scan, co
 
 ```bash
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
+
+fixture_out="$(mktemp -d)"
+python3 KERNEL/tools/render.py \
+  --events KERNEL/tests/fixtures/events/valid_binary.json \
+  --output "$fixture_out" \
+  --as-of 2026-08-26T00:00:00.000000Z
+python3 KERNEL/tools/render.py \
+  --events KERNEL/tests/fixtures/events/valid_binary.json \
+  --output "$fixture_out" \
+  --as-of 2026-08-26T00:00:00.000000Z \
+  --check
 ```
