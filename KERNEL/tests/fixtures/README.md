@@ -17,3 +17,7 @@ exercise duplicate records, repeated headers, shifted rows, and ambiguous JSON.
 grants. They exercise identity, owned submission paths, half-open active windows,
 payload ownership, and custody separation without reading the live roster or any
 agent submission directory.
+
+`planning/` contains an intentionally reverse-ordered synthetic Question/Forecast
+batch. The dependency planner must place the Question first without reading a
+submission directory or writing an event or receipt.

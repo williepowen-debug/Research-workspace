@@ -1,0 +1,81 @@
+{
+  "submissions": [
+    {
+      "schema_version": "kernel.schema.1",
+      "policy_version": "kernel.policy.1",
+      "command_id": "CMD-018f22e2-7d00-7000-8000-000000000002",
+      "command_type": "SubmitForecast",
+      "actor_id": "SAM",
+      "submitted_at": "2026-08-25T12:05:00.000000Z",
+      "expected_version": 0,
+      "target_stream_id": "FS-F-018f22e2-7d00-7000-8000-000000000006",
+      "correlation_id": "fixture-planning-001",
+      "caused_by": null,
+      "depends_on": ["CMD-018f22e2-7d00-7000-8000-000000000001"],
+      "payload": {
+        "forecast_id": "F-018f22e2-7d00-7000-8000-000000000006",
+        "question_id": "Q-018f22e2-7d00-7000-8000-000000000005",
+        "forecaster_actor_id": "SAM",
+        "forecast_version": 1,
+        "information_as_of": "2026-08-25T12:00:00.000000Z",
+        "probability": 0.65,
+        "rationale_ref": "fixture://rationale",
+        "evidence_refs": ["fixture://evidence"],
+        "intervention_stage": "INITIAL",
+        "decision_consequence": null
+      },
+      "native_refs": [
+        {
+          "repository": "williepowen-debug/Research-workspace",
+          "source_commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "path": "KERNEL/tests/fixtures/native/predictions.tsv",
+          "locator_type": "TSV_RECORD_ID",
+          "locator": "FIX-F-001",
+          "raw_record_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+        }
+      ]
+    },
+    {
+      "schema_version": "kernel.schema.1",
+      "policy_version": "kernel.policy.1",
+      "command_id": "CMD-018f22e2-7d00-7000-8000-000000000001",
+      "command_type": "RegisterQuestion",
+      "actor_id": "SAM",
+      "submitted_at": "2026-08-25T12:05:00.000000Z",
+      "expected_version": 0,
+      "target_stream_id": "QS-Q-018f22e2-7d00-7000-8000-000000000005",
+      "correlation_id": "fixture-planning-001",
+      "caused_by": null,
+      "depends_on": [],
+      "payload": {
+        "question_id": "Q-018f22e2-7d00-7000-8000-000000000005",
+        "owner_actor_id": "SAM",
+        "claim": "The registered event occurs by the close time.",
+        "forecast_family": "BINARY_PROBABILITY",
+        "opens_at": "2026-08-25T12:00:00.000000Z",
+        "closes_at": "2026-09-18T20:00:00.000000Z",
+        "resolver_anchor_type": "FIXED_DEADLINE",
+        "resolution_condition": "Published fixture value is at or above 100.",
+        "resolution_rule": "YES when the fixture value is at or above 100; otherwise NO.",
+        "resolution_sources": ["fixture://registered-source"],
+        "fallback_resolution_source": null,
+        "ambiguity_rule": "AMBIGUOUS when the source is withdrawn without replacement.",
+        "annulment_rules": ["SOURCE_PERMANENTLY_UNAVAILABLE"],
+        "resolver_actor_id": "SAM",
+        "independent_verifier_actor_id": "RED",
+        "negative_search_procedure": null
+      },
+      "native_refs": [
+        {
+          "repository": "williepowen-debug/Research-workspace",
+          "source_commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "path": "KERNEL/tests/fixtures/native/predictions.tsv",
+          "locator_type": "TSV_RECORD_ID",
+          "locator": "FIX-Q-001",
+          "raw_record_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+        }
+      ]
+    }
+  ],
+  "durable_results": []
+}

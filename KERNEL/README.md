@@ -25,7 +25,8 @@ The first slice is read-only and binary-only:
 4. detect invalid chains and competing children;
 5. render byte-stable empty or fixture-backed operator views;
 6. verify exact synthetic native references against committed Git blobs; and
-7. authorize fixture commands against injected actor and capability registries.
+7. authorize fixture commands against injected actor and capability registries;
+8. inventory explicit fixture commands/results and deterministically plan dependencies.
 
 There is no acceptance writer, lock, SQLite projection, live submission scan, commit automation, or push automation in this slice.
 
@@ -38,6 +39,11 @@ Permission verification is also injected and read-only. It validates strict acto
 and capability registries, half-open active windows, exact agent-owned submission
 paths, payload ownership, referenced actor identity, and command capabilities. It
 does not read the live roster or scan an agent submission directory.
+
+Dependency planning accepts commands and minimal durable-result summaries supplied
+directly by tests. It separates completed, ready, waiting, and dependency-rejection
+classes; uses dependency order followed by `submitted_at` and `command_id`; and
+writes nothing. Missing dependencies remain visible and unprocessed.
 
 The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
 

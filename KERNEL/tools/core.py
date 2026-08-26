@@ -253,7 +253,19 @@ def validate_command(command: Any) -> ValidationResult:
     submitted_at = _timestamp(result, command["submitted_at"], "$.submitted_at")
     if not isinstance(command["expected_version"], int) or isinstance(command["expected_version"], bool) or command["expected_version"] < 0:
         result.add("EXPECTED_VERSION_INVALID", "expected_version must be a non-negative integer", "$.expected_version")
-    if not isinstance(command["depends_on"], list) or any(not ID_PATTERNS["command_id"].fullmatch(v) for v in command["depends_on"] if isinstance(v, str)) or any(not isinstance(v, str) for v in command["depends_on"]):
+    if (
+        not isinstance(command["depends_on"], list)
+        or any(not isinstance(value, str) for value in command["depends_on"])
+        or any(
+            not ID_PATTERNS["command_id"].fullmatch(value)
+            for value in command["depends_on"]
+            if isinstance(value, str)
+        )
+        or (
+            all(isinstance(value, str) for value in command["depends_on"])
+            and len(set(command["depends_on"])) != len(command["depends_on"])
+        )
+    ):
         result.add("DEPENDENCY_INVALID", "depends_on must contain command IDs", "$.depends_on")
     native_refs = command["native_refs"]
     if not isinstance(native_refs, list) or not native_refs:
