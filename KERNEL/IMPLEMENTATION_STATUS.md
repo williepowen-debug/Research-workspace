@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–10 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, `b62b59abb`, `865be30f5`, `b37f560b5`, and `94eb93602`; they remain fixture-only and do not complete Gate B or authorize live operation.
+**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–10 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, `b62b59abb`, `865be30f5`, `b37f560b5`, and `94eb93602`. Checkpoint 11's two-reader review completed on 2026-08-26 with blocking findings; Gate B remains in progress and live operation remains unauthorized.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -63,6 +63,7 @@ Expected baseline at this checkpoint: **136 tests pass**.
 | Gate B checkpoint 8 — remaining lifecycle events | COMPLETE | `865be30f5` | Strict close/annul, amend/withdraw, and propose/verify/dispute/correct contracts; replay state machines; replay-backed writer transitions; lifecycle views, native terms, permissions, and adversarial receipts; 99 tests passed |
 | Gate B checkpoint 9 — additions-only and audit-gap verification | COMPLETE | `b37f560b5` | Repository-refusing synthetic Git-history boundary; additions-only protected paths; explicit durable-result reconciliation; perimeter-aware `PASS`/`EXCEPTION`/`UNKNOWN`; 117 tests passed |
 | Gate B checkpoint 10 — disposable projection rebuild | COMPLETE | `94eb93602` | Root `.rw/` ignore boundary; atomic SQLite rebuild from explicit fixture events; strict read reconciliation; delete/rebuild semantic and view-byte identity; 136 tests passed |
+| Gate B checkpoint 11 — fixture adversarial review | COMPLETE / BLOCKING FINDINGS | `720b8e2e9` reviewed baseline | Two readers agreed on all 22 expected outcomes and component-vs-complete-path qualifications; review proved the integrated acceptance path and uniform executable check disclosure are absent; `GATE_B_ADVERSARIAL_REVIEW.md` |
 
 Implemented behavior now includes:
 
@@ -141,16 +142,17 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next increment — checkpoint 11
+## Next increment — checkpoint 12
 
-**Run the Gate B adversarial review using fixtures only.**
+**Remediate checkpoint 11's blocking integration and disclosure findings using fixtures only.**
 
-The next increment should exercise the complete fixture perimeter adversarially,
-confirm that two independent readers agree on every expected outcome, and verify
-that each check states what its pass does and does not prove. It must explicitly
-review the still-unintegrated acceptance-runner limitation rather than implying an
-aggregate operational path exists. No `UNKNOWN` may be hidden by an aggregate
-green status, and the review must not activate Gate C or inspect live records.
+Implement the fixture-only integrated acceptance runner specified in
+`KERNEL/GATE_B_ADVERSARIAL_REVIEW.md`. It must enforce plan readiness and
+orchestrate schema, permissions, native verification, lifecycle validation, and
+exactly-one durable writing beneath the existing lock. Every required check must
+print its perimeter, status, and claim limits; an `UNKNOWN` must block aggregate
+green. Successful view reproduction must also print its perimeter and limits.
+The increment must not activate Gate C or inspect live records.
 
 ## Remaining Gate B sequence
 
@@ -164,7 +166,8 @@ green status, and the review must not activate Gate C or inspect live records.
 | 6 | Remaining lifecycle events | COMPLETE | Amendment, close, withdrawal, proposal, verification, dispute, correction, and annulment fixtures pass |
 | 7 | Additions-only and audit-gap verification | COMPLETE | Modified/deleted accepted fixture files and missing/duplicate results are blocking failures |
 | 8 | Disposable projection rebuild | COMPLETE | Delete `.rw/`; replay reproduces identical semantic state and committed-view bytes |
-| 9 | Gate B adversarial review | NEXT | Two independent readers agree on fixture outcomes; all checks state perimeter and limits |
+| 9 | Gate B adversarial review | COMPLETE / BLOCKING FINDINGS | Two readers agree on all 22 expected outcomes and component-vs-complete-path qualifications; integration and executable-disclosure gaps recorded |
+| 10 | Integrated fixture acceptance and check disclosure | NEXT | Required checks cannot be skipped; ready-only processing yields exactly one result; `UNKNOWN` blocks aggregate green; every check states perimeter and limits |
 
 The sequence may be simplified when implementation evidence supports it, but any reordering or scope addition must be recorded here.
 
@@ -173,13 +176,13 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–10 complete; checkpoint 11 next |
+| Gate B — fixture implementation | IN PROGRESS | Checkpoint 11 review complete with blocking findings; checkpoint 12 remediation next |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification at commit `94eb93602`:
+Latest completed verification against reviewed baseline `720b8e2e9`:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
