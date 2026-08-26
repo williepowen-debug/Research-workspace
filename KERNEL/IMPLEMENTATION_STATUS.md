@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–9 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, `b62b59abb`, `865be30f5`, and `19267e06d`; they remain fixture-only and do not complete Gate B or authorize live operation.
+**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–9 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, `b62b59abb`, `865be30f5`, and `b37f560b5`; they remain fixture-only and do not complete Gate B or authorize live operation.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -61,7 +61,7 @@ Expected baseline at this checkpoint: **117 tests pass**.
 | Gate B checkpoint 6 — durable accepted/rejected result writer | COMPLETE | `63b72bac2` | Strict receipt contract; canonical atomic fixture publication; durable-result inventory; same-byte retry idempotency; collision and crash-boundary tests; 74 tests passed |
 | Gate B checkpoint 7 — exclusive local acceptance lock | COMPLETE | `b62b59abb` | Repository-refusing `.rw/locks/command.lock`; locked inventory→plan→write pass; direct writer serialization; cross-process exclusion and release/authority-boundary tests; 80 tests passed |
 | Gate B checkpoint 8 — remaining lifecycle events | COMPLETE | `865be30f5` | Strict close/annul, amend/withdraw, and propose/verify/dispute/correct contracts; replay state machines; replay-backed writer transitions; lifecycle views, native terms, permissions, and adversarial receipts; 99 tests passed |
-| Gate B checkpoint 9 — additions-only and audit-gap verification | COMPLETE | `19267e06d` | Repository-refusing synthetic Git-history boundary; additions-only protected paths; explicit durable-result reconciliation; perimeter-aware `PASS`/`EXCEPTION`/`UNKNOWN`; 117 tests passed |
+| Gate B checkpoint 9 — additions-only and audit-gap verification | COMPLETE | `b37f560b5` | Repository-refusing synthetic Git-history boundary; additions-only protected paths; explicit durable-result reconciliation; perimeter-aware `PASS`/`EXCEPTION`/`UNKNOWN`; 117 tests passed |
 
 Implemented behavior now includes:
 
@@ -173,7 +173,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 
 ## Verification record
 
-Latest completed verification at commit `19267e06d`:
+Latest completed verification at commit `b37f560b5`:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
