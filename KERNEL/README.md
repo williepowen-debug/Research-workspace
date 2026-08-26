@@ -1,15 +1,20 @@
 # KERNEL
 
-**Mode:** FIXTURE-ONLY — NOT LIVE — NON-AUTHORITATIVE
+**Mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
-This directory contains the approved Gate B implementation workspace for the Kernel v1 operational shadow registry.
+This directory contains the completed Gate B fixture implementation and the
+planning workspace for the Kernel v1 operational shadow registry.
 
-No real native record may be imported and no shadow operation is active. The only authorized work in this stage is schema, fixture, validator, replay, renderer, and test implementation.
+No real native record may be inspected or imported and no shadow operation is
+active. Gate C planning is authorized, but live implementation, Git carve-out
+installation, custody activation, real-record selection, and shadow activation
+remain separately gated in [`GATE_C_READINESS_PLAN.md`](GATE_C_READINESS_PLAN.md).
 
 ## Authority
 
 - Approved contract: [`SPEC.md`](SPEC.md)
 - Live implementation plan and completed work: [`IMPLEMENTATION_STATUS.md`](IMPLEMENTATION_STATUS.md)
+- Gate C staged readiness plan: [`GATE_C_READINESS_PLAN.md`](GATE_C_READINESS_PLAN.md)
 - Design and ruling history: [`../PROME/proposals/2026-08-24_kernel-membrane-design-DRAFT.md`](../PROME/proposals/2026-08-24_kernel-membrane-design-DRAFT.md)
 - Hardened Gate A specification: [`../PROME/proposals/2026-08-25_kernel-v1-spec-DRAFT.md`](../PROME/proposals/2026-08-25_kernel-v1-spec-DRAFT.md)
 

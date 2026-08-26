@@ -4,9 +4,9 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will closed Gate B on 2026-08-26 after checkpoint 12 remediated checkpoint 11's blocking findings and passed primary and independent adversarial review. This ruling completes only the approved fixture implementation; Gate C and live operation remain unauthorized.
+**Latest operator ruling:** Will authorized Gate C planning on 2026-08-26 after closing Gate B. Planning does not authorize live implementation, real-record inspection or processing, installation of the Git carve-out, or shadow activation.
 
-**Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
+**Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
 **Canonical use:** This file is the live implementation plan and progress tracker. Update it whenever a build increment is completed, blocked, reordered, or newly authorized. The proposal preserves design and ruling history; the audit preserves findings and checkpoint evidence; neither replaces this current-status surface.
 
@@ -145,14 +145,17 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — await separate Gate C authorization
+## Next action — Gate C checkpoints C1–C2 drafts
 
-**No further implementation is authorized by the Gate B closure.**
+**Draft the bounded pilot contract and proposed root Git carve-out for Will's
+review. Documents only; do not install or activate them.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
 the approved fixture implementation is complete. It does not activate Gate C,
 authorize real records, install the live Git carve-out, or switch authority.
+The staged readiness and decision sequence is canonical in
+`KERNEL/GATE_C_READINESS_PLAN.md`.
 
 ## Remaining Gate B sequence
 
@@ -177,7 +180,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
 | Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
-| Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
+| Gate C — live shadow activation | PLANNING AUTHORIZED / NOT ACTIVE | C1–C2 document drafting authorized; every installation, real-record selection, live implementation, and activation boundary remains separately gated |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record

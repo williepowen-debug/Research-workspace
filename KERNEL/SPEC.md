@@ -1,6 +1,6 @@
 # Kernel v1 Implemented Contract
 
-**Status:** GATE B FIXTURE IMPLEMENTATION — live shadow activation unauthorized
+**Status:** GATE B CLOSED; GATE C PLANNING ONLY — live shadow activation unauthorized
 
 The complete approved contract is maintained with its ruling context at:
 
