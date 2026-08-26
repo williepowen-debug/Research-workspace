@@ -29,11 +29,12 @@ The implemented slice is fixture-only and binary-question-only:
 8. inventory explicit fixture commands/results and deterministically plan dependencies;
 9. atomically publish canonical accepted events or rejected receipts beneath injected temporary roots;
 10. serialize fixture inventory→plan→write passes with an exclusive local lock;
-11. enforce Question close/annul, Forecast amend/withdraw, and Resolution propose/verify/dispute/correct transitions; and
-12. verify additions-only synthetic Git history and reconcile explicit fixture submissions with durable results.
+11. enforce Question close/annul, Forecast amend/withdraw, and Resolution propose/verify/dispute/correct transitions;
+12. verify additions-only synthetic Git history and reconcile explicit fixture submissions with durable results; and
+13. atomically rebuild and verify a disposable SQLite projection from explicit accepted fixture events.
 
-There is no live acceptance pipeline, SQLite projection, live submission scan,
-commit automation, or push automation in this slice.
+There is no live acceptance pipeline, live submission scan, commit automation, or
+push automation in this slice.
 
 Exact native-reference verification is read-only. TSV locators use the strict form
 `<declared-id-column>=<record-id>`; JSON companions use RFC 6901 JSON Pointers.
@@ -81,6 +82,16 @@ Duplicate results are blocking, and a missing result becomes `AUDIT_GAP` only af
 the caller reports a successful pass. The CLI refuses the live repository and
 inventories stored inside it.
 
+The local projection exists only at `<injected-workspace>/.rw/projection.sqlite`.
+It caches canonical event copies, a deterministic semantic replay snapshot, and
+the exact registered view bytes, all with reconciled hashes and strict schema
+metadata. Rebuild uses a fully written and fsynced temporary database followed by
+atomic replacement. Read and `--check` paths independently replay the cached
+events and compare the snapshot and view bytes; explicit durable events are still
+required to prove that the cache is current. Deleting `.rw/` loses no authority,
+and rebuilding from the same durable events reproduces the same semantic state
+and view bytes. The CLI refuses the live repository and live accepted-event paths.
+
 The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
 
 ## Verification
@@ -112,4 +123,14 @@ python3 KERNEL/tools/audit.py durable-results \
   --submissions <temporary-explicit-submission-inventory.json> \
   --results <temporary-explicit-result-inventory.json> \
   --pass-reported-success
+
+python3 KERNEL/tools/projection.py \
+  --workspace <temporary-fixture-workspace> \
+  --events KERNEL/tests/fixtures/events/valid_binary.json \
+  --as-of 2026-08-26T00:00:00.000000Z
+python3 KERNEL/tools/projection.py \
+  --workspace <temporary-fixture-workspace> \
+  --events KERNEL/tests/fixtures/events/valid_binary.json \
+  --as-of 2026-08-26T00:00:00.000000Z \
+  --check
 ```

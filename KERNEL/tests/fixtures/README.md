@@ -41,3 +41,9 @@ Audit tests construct disposable Git repositories and explicit in-memory or
 temporary-file inventories. They prove additions-only history, duplicate-result
 blocking, post-success `AUDIT_GAP`, and fail-closed `UNKNOWN` behavior without
 reading the live repository or any live submission directory.
+
+Projection tests build SQLite only beneath disposable operating-system temporary
+workspaces. They delete `.rw/`, rebuild from the same explicit events, and compare
+complete semantic state plus registered view bytes. Corruption, stale inputs,
+schema expansion, path collisions, symlink escape, and live-repository targets all
+fail closed; SQLite is never treated as authority.
