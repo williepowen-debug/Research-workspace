@@ -39,6 +39,9 @@ node_modules/
 *.log
 .venv/
 
+# Kernel local projection, locks, and diagnostics — disposable and non-authoritative
+/.rw/
+
 # Windows download metadata
 *:Zone.Identifier
 
