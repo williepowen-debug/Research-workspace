@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/capability-registry/1",
+  "title": "Kernel v1 capability registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["policy_version", "grants"],
+  "properties": {
+    "policy_version": {"const": "kernel.policy.1"},
+    "grants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["actor_id", "capabilities"],
+        "properties": {
+          "actor_id": {"type": "string", "minLength": 1},
+          "capabilities": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "enum": [
+                "question.register", "question.close_own", "forecast.submit_own", "forecast.amend_own",
+                "resolution.propose", "resolution.verify", "resolution.dispute", "resolution.correct",
+                "question.annul_own", "forecast.withdraw_own", "command.accept", "policy.override"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -23,7 +23,9 @@ The first slice is read-only and binary-only:
 2. validate binary Question and Forecast payloads;
 3. replay accepted fixture events deterministically;
 4. detect invalid chains and competing children;
-5. render byte-stable empty or fixture-backed operator views.
+5. render byte-stable empty or fixture-backed operator views;
+6. verify exact synthetic native references against committed Git blobs; and
+7. authorize fixture commands against injected actor and capability registries.
 
 There is no acceptance writer, lock, SQLite projection, live submission scan, commit automation, or push automation in this slice.
 
@@ -31,6 +33,11 @@ Exact native-reference verification is read-only. TSV locators use the strict fo
 `<declared-id-column>=<record-id>`; JSON companions use RFC 6901 JSON Pointers.
 The verifier reads committed Git objects through an injected repository boundary
 and never treats mutable checkout contents as native authority.
+
+Permission verification is also injected and read-only. It validates strict actor
+and capability registries, half-open active windows, exact agent-owned submission
+paths, payload ownership, referenced actor identity, and command capabilities. It
+does not read the live roster or scan an agent submission directory.
 
 The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
 

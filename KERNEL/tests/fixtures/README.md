@@ -12,3 +12,8 @@ They are not validated native imports and must never be copied into `KERNEL/shad
 tests copy these files into temporary repositories and never inspect a real agent
 ledger. `predictions.tsv` and `companion.json` are happy paths; the other files
 exercise duplicate records, repeated headers, shifted rows, and ambiguous JSON.
+
+`permissions/` contains a synthetic actor registry and policy-versioned capability
+grants. They exercise identity, owned submission paths, half-open active windows,
+payload ownership, and custody separation without reading the live roster or any
+agent submission directory.

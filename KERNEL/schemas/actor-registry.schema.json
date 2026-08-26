@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/actor-registry/1",
+  "title": "Kernel v1 actor registry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "actors"],
+  "properties": {
+    "schema_version": {"const": "kernel.schema.1"},
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["actor_id", "actor_type", "canonical_name", "source_ref", "active_from", "active_until"],
+        "properties": {
+          "actor_id": {"type": "string", "minLength": 1},
+          "actor_type": {"enum": ["HUMAN", "AGENT", "SERVICE"]},
+          "canonical_name": {"type": "string", "minLength": 1},
+          "source_ref": {"type": "string", "minLength": 1},
+          "active_from": {"type": "string", "format": "date-time"},
+          "active_until": {"type": ["string", "null"], "format": "date-time"}
+        }
+      }
+    }
+  }
+}

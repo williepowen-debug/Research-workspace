@@ -1,0 +1,45 @@
+{
+  "schema_version": "kernel.schema.1",
+  "actors": [
+    {
+      "actor_id": "SAM",
+      "actor_type": "AGENT",
+      "canonical_name": "SAM",
+      "source_ref": "PROME/ROSTER.md#sam",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "RED",
+      "actor_type": "AGENT",
+      "canonical_name": "RED",
+      "source_ref": "PROME/ROSTER.md#red",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "PROME",
+      "actor_type": "AGENT",
+      "canonical_name": "PROME",
+      "source_ref": "PROME/ROSTER.md#prome",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "WILL",
+      "actor_type": "HUMAN",
+      "canonical_name": "WILL",
+      "source_ref": "USER.md",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "RETIRED_FIXTURE",
+      "actor_type": "AGENT",
+      "canonical_name": "RETIRED_FIXTURE",
+      "source_ref": "KERNEL/tests/fixtures/README.md#retired-fixture",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": "2026-08-25T12:05:00.000000Z"
+    }
+  ]
+}
