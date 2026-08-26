@@ -21,6 +21,7 @@ class DocumentarySchemaTests(unittest.TestCase):
                 "forecast.schema.json",
                 "native-ref.schema.json",
                 "question.schema.json",
+                "receipt.schema.json",
             },
         )
         for path in paths:

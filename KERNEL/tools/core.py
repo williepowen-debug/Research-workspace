@@ -68,6 +68,55 @@ EVENT_FIELDS = {
     "payload",
 }
 
+RECEIPT_FIELDS = {
+    "schema_version",
+    "policy_version",
+    "writer_version",
+    "command_id",
+    "command_hash",
+    "command_result",
+    "actor_id",
+    "writer_id",
+    "submitted_at",
+    "recorded_at",
+    "reason_code",
+    "reason_detail",
+    "target_stream_id",
+    "expected_version",
+    "native_refs",
+}
+
+REJECTION_REASONS = {
+    "ACTOR_PATH_MISMATCH",
+    "AUDIT_DUPLICATE_RESULT",
+    "COMMAND_SCHEMA_INVALID",
+    "DEPENDENCY_CYCLE",
+    "DEPENDENCY_REJECTED",
+    "DUPLICATE_COMMAND",
+    "EVIDENCE_REQUIRED",
+    "FAMILY_NOT_ENABLED",
+    "IDENTIFIER_COLLISION",
+    "IDEMPOTENCY_KEY_REUSED",
+    "INVALID_INFORMATION_CUTOFF",
+    "INVALID_TIMESTAMP",
+    "NATIVE_BLOB_MISMATCH",
+    "NATIVE_PATH_INVALID",
+    "NATIVE_RECORD_AMBIGUOUS",
+    "NATIVE_RECORD_INVALID",
+    "NATIVE_RECORD_MISSING",
+    "NATIVE_RECORD_MISMATCH",
+    "PERMISSION_DENIED",
+    "POLICY_VERSION_UNSUPPORTED",
+    "PROTECTED_SELF_VERIFICATION",
+    "QUESTION_NOT_OPEN",
+    "SCHEMA_VERSION_UNSUPPORTED",
+    "STALE_EXPECTED_VERSION",
+    "TRANSITION_FORBIDDEN",
+    "UNSUPPORTED_HISTORICAL_VERSION",
+}
+
+MAX_REASON_DETAIL_BYTES = 512
+
 NATIVE_REF_FIELDS = {
     "repository",
     "source_commit",
@@ -283,6 +332,8 @@ def validate_command(command: Any) -> ValidationResult:
     else:
         result.add("COMMAND_TYPE_UNSUPPORTED", "command type is outside the first fixture slice", "$.command_type")
         expected_stream = None
+    if command_type in {"RegisterQuestion", "SubmitForecast"} and command["expected_version"] != 0:
+        result.add("EXPECTED_VERSION_INVALID", "creation commands require expected_version 0", "$.expected_version")
     if expected_stream and command["target_stream_id"] != expected_stream:
         result.add("TARGET_STREAM_MISMATCH", "target_stream_id does not match payload identity", "$.target_stream_id")
     return result
@@ -332,6 +383,47 @@ def validate_event(event: Any) -> ValidationResult:
             result.add("OBJECT_MISMATCH", "forecast object identity does not match payload", "$")
     else:
         result.add("EVENT_TYPE_UNSUPPORTED", "event type is outside the first fixture slice", "$.event_type")
+    return result
+
+
+def validate_receipt(receipt: Any) -> ValidationResult:
+    result = ValidationResult()
+    if not _exact_fields(result, receipt, RECEIPT_FIELDS, "$"):
+        return result
+    for field_name, expected in (
+        ("schema_version", SCHEMA_VERSION),
+        ("policy_version", POLICY_VERSION),
+        ("writer_version", WRITER_VERSION),
+        ("command_result", "REJECTED"),
+    ):
+        if receipt[field_name] != expected:
+            result.add("RECEIPT_ENVELOPE_INVALID", f"{field_name} must be {expected}", f"$.{field_name}")
+    _identifier(result, "command_id", receipt["command_id"], "$.command_id")
+    if not isinstance(receipt["command_hash"], str) or not re.fullmatch(r"[0-9a-f]{64}", receipt["command_hash"]):
+        result.add("COMMAND_HASH_INVALID", "command_hash must be lowercase SHA-256", "$.command_hash")
+    for field_name in ("actor_id", "writer_id", "target_stream_id"):
+        if not isinstance(receipt[field_name], str) or not receipt[field_name]:
+            result.add("VALUE_REQUIRED", f"{field_name} must be non-empty", f"$.{field_name}")
+    _timestamp(result, receipt["submitted_at"], "$.submitted_at")
+    _timestamp(result, receipt["recorded_at"], "$.recorded_at")
+    if not isinstance(receipt["reason_code"], str) or receipt["reason_code"] not in REJECTION_REASONS:
+        result.add("REJECTION_REASON_INVALID", "reason_code is not registered", "$.reason_code")
+    detail = receipt["reason_detail"]
+    try:
+        detail_size = len(detail.encode("utf-8")) if isinstance(detail, str) else 0
+    except UnicodeEncodeError:
+        detail_size = MAX_REASON_DETAIL_BYTES + 1
+    if not isinstance(detail, str) or not detail or detail_size > MAX_REASON_DETAIL_BYTES:
+        result.add(
+            "REASON_DETAIL_INVALID",
+            f"reason_detail must contain 1 through {MAX_REASON_DETAIL_BYTES} UTF-8 bytes",
+            "$.reason_detail",
+        )
+    expected_version = receipt["expected_version"]
+    if not isinstance(expected_version, int) or isinstance(expected_version, bool) or expected_version < 0:
+        result.add("EXPECTED_VERSION_INVALID", "expected_version must be a non-negative integer", "$.expected_version")
+    if not isinstance(receipt["native_refs"], list):
+        result.add("TYPE_INVALID", "native_refs must be an array", "$.native_refs")
     return result
 
 

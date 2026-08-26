@@ -21,3 +21,6 @@ agent submission directory.
 `planning/` contains an intentionally reverse-ordered synthetic Question/Forecast
 batch. The dependency planner must place the Question first without reading a
 submission directory or writing an event or receipt.
+
+Writer tests publish only beneath operating-system temporary directories. The
+fixture store rejects any destination inside the live repository tree.

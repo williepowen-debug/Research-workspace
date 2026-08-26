@@ -17,7 +17,7 @@ Native agent records remain authoritative. `KERNEL/` has no live authority.
 
 ## Current slice
 
-The first slice is read-only and binary-only:
+The first slice is fixture-only and binary-only:
 
 1. validate strict command and event envelopes;
 2. validate binary Question and Forecast payloads;
@@ -26,9 +26,11 @@ The first slice is read-only and binary-only:
 5. render byte-stable empty or fixture-backed operator views;
 6. verify exact synthetic native references against committed Git blobs; and
 7. authorize fixture commands against injected actor and capability registries;
-8. inventory explicit fixture commands/results and deterministically plan dependencies.
+8. inventory explicit fixture commands/results and deterministically plan dependencies; and
+9. atomically publish canonical accepted events or rejected receipts beneath injected temporary roots.
 
-There is no acceptance writer, lock, SQLite projection, live submission scan, commit automation, or push automation in this slice.
+There is no live acceptance pipeline, exclusive acceptance lock, SQLite projection,
+live submission scan, commit automation, or push automation in this slice.
 
 Exact native-reference verification is read-only. TSV locators use the strict form
 `<declared-id-column>=<record-id>`; JSON companions use RFC 6901 JSON Pointers.
@@ -44,6 +46,13 @@ Dependency planning accepts commands and minimal durable-result summaries suppli
 directly by tests. It separates completed, ready, waiting, and dependency-rejection
 classes; uses dependency order followed by `submitted_at` and `command_id`; and
 writes nothing. Missing dependencies remain visible and unprocessed.
+
+The fixture writer refuses every destination inside the live repository. Beneath an
+injected temporary root it writes canonical JSON through a file-and-directory-fsynced
+temporary file and atomic rename, returns an existing result for a same-byte retry,
+never overwrites a different-byte command-ID result, and exposes stored summaries
+back to the planner. Exclusive concurrent-process serialization remains the next
+checkpoint.
 
 The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
 

@@ -158,6 +158,11 @@ class ContractTests(unittest.TestCase):
         candidate["native_refs"][0]["path"] = "../escape.tsv"
         self.assertIn("NATIVE_PATH_INVALID", {finding.code for finding in validate_command(candidate).findings})
 
+    def test_creation_command_requires_expected_version_zero(self):
+        candidate = command("RegisterQuestion")
+        candidate["expected_version"] = 1
+        self.assertIn("EXPECTED_VERSION_INVALID", {finding.code for finding in validate_command(candidate).findings})
+
     def test_valid_fixture_events_replay(self):
         events = [event("ForecastSubmitted"), event("QuestionRegistered")]
         result = replay(events)

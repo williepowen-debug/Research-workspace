@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/receipt/1",
+  "title": "Kernel v1 fixture rejected command receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "policy_version", "writer_version", "command_id", "command_hash",
+    "command_result", "actor_id", "writer_id", "submitted_at", "recorded_at", "reason_code",
+    "reason_detail", "target_stream_id", "expected_version", "native_refs"
+  ],
+  "properties": {
+    "schema_version": {"const": "kernel.schema.1"},
+    "policy_version": {"const": "kernel.policy.1"},
+    "writer_version": {"const": "kernel.writer.1"},
+    "command_id": {"type": "string", "pattern": "^CMD-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "command_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "command_result": {"const": "REJECTED"},
+    "actor_id": {"type": "string", "minLength": 1},
+    "writer_id": {"type": "string", "minLength": 1},
+    "submitted_at": {"type": "string", "format": "date-time"},
+    "recorded_at": {"type": "string", "format": "date-time"},
+    "reason_code": {
+      "enum": [
+        "ACTOR_PATH_MISMATCH", "AUDIT_DUPLICATE_RESULT", "COMMAND_SCHEMA_INVALID",
+        "DEPENDENCY_CYCLE", "DEPENDENCY_REJECTED", "DUPLICATE_COMMAND", "EVIDENCE_REQUIRED",
+        "FAMILY_NOT_ENABLED", "IDENTIFIER_COLLISION", "IDEMPOTENCY_KEY_REUSED",
+        "INVALID_INFORMATION_CUTOFF", "INVALID_TIMESTAMP", "NATIVE_BLOB_MISMATCH",
+        "NATIVE_PATH_INVALID", "NATIVE_RECORD_AMBIGUOUS", "NATIVE_RECORD_INVALID",
+        "NATIVE_RECORD_MISSING", "NATIVE_RECORD_MISMATCH", "PERMISSION_DENIED",
+        "POLICY_VERSION_UNSUPPORTED", "PROTECTED_SELF_VERIFICATION", "QUESTION_NOT_OPEN",
+        "SCHEMA_VERSION_UNSUPPORTED", "STALE_EXPECTED_VERSION", "TRANSITION_FORBIDDEN",
+        "UNSUPPORTED_HISTORICAL_VERSION"
+      ]
+    },
+    "reason_detail": {"type": "string", "minLength": 1, "maxLength": 512},
+    "target_stream_id": {"type": "string", "minLength": 1},
+    "expected_version": {"type": "integer", "minimum": 0},
+    "native_refs": {"type": "array"}
+  }
+}
