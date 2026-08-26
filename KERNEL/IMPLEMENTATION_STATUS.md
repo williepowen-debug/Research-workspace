@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-25
 
-**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–6 were subsequently implemented at `55a6dd182`, `264a8ade6`, and `63b72bac2`; they remain fixture-only and do not complete Gate B or authorize live operation.
+**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–7 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, and `b62b59abb`; they remain fixture-only and do not complete Gate B or authorize live operation.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **74 tests pass**.
+Expected baseline at this checkpoint: **80 tests pass**.
 
 ## Authorization boundary
 
@@ -59,6 +59,7 @@ Expected baseline at this checkpoint: **74 tests pass**.
 | Gate B checkpoint 4 — actor registry and deterministic permissions | COMPLETE | `55a6dd182` | Strict actor/capability registries; owned-path, half-open-window, identity, payload-ownership, and capability checks; 46 tests passed |
 | Gate B checkpoint 5 — dependency planner and pending inventory | COMPLETE | `264a8ade6` | Explicit synthetic inventories; deterministic topological order; completed/ready/waiting/rejection classes; iterative cycle and missing-root analysis; 58 tests passed |
 | Gate B checkpoint 6 — durable accepted/rejected result writer | COMPLETE | `63b72bac2` | Strict receipt contract; canonical atomic fixture publication; durable-result inventory; same-byte retry idempotency; collision and crash-boundary tests; 74 tests passed |
+| Gate B checkpoint 7 — exclusive local acceptance lock | COMPLETE | `b62b59abb` | Repository-refusing `.rw/locks/command.lock`; locked inventory→plan→write pass; direct writer serialization; cross-process exclusion and release/authority-boundary tests; 80 tests passed |
 
 Implemented behavior now includes:
 
@@ -100,7 +101,12 @@ Implemented behavior now includes:
 - same-command/same-byte retry return, different-byte ID-reuse rejection without overwrite, and duplicate-result blocking;
 - durable conversion of planned dependency rejections and schema-invalid fixture commands;
 - injected crash-before-publish recovery and event-identifier collision handling; and
-- fixture result summaries fed back into the deterministic planner.
+- fixture result summaries fed back into the deterministic planner;
+- an exclusive advisory lock at `<injected-workspace>/.rw/locks/command.lock` that refuses repository-related roots;
+- lock-scoped durable-result inventory, dependency planning, and result writing;
+- direct writer serialization across result lookup and atomic publication;
+- release on ordinary completion and exceptional exit; and
+- two-process proof that a waiter re-inventories after release and cannot publish a second result.
 
 ## Current limitations
 
@@ -110,7 +116,6 @@ The implementation does **not** yet:
 - support `TEXT_ANCHOR` (deliberately excluded from this live-compatible fixture slice);
 - reconcile Resolution material terms because Resolution commands are not implemented yet;
 - execute a planned acceptance pass against replayed stream state;
-- acquire a filesystem acceptance lock;
 - orchestrate permissions, native verification, lifecycle validation, planning, and result writing as one acceptance pass;
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - enforce additions-only Git history;
@@ -119,16 +124,16 @@ The implementation does **not** yet:
 - rebuild from a disposable SQLite projection;
 - scan real repository submissions or generate live views.
 
-## Next increment — checkpoint 7
+## Next increment — checkpoint 8
 
-**Build the exclusive local acceptance lock using fixtures only.**
+**Build the remaining lifecycle commands, events, and replay transitions using fixtures only.**
 
-The next increment should serialize the inventory→plan→write critical section with
-an exclusive local lock beneath an injected temporary `.rw/locks/` root. It must
-prove that two fixture processes cannot both publish a result for the same command,
-that lock release occurs after success and failure, and that waiting for the lock
-does not confer any policy authority. It must not target the live repository or add
-a live submission scan.
+The next increment should add the approved Question close/annul, Forecast
+amend/withdraw, and Resolution propose/verify/dispute/correct command and event
+families. It must prove legal transitions, expected-version and previous-event
+chains, actor/capability boundaries, protected-verifier separation, required
+evidence, and deterministic rejection of forbidden transitions with synthetic
+fixtures only. It must not add research judgment, live records, or a live scan.
 
 ## Remaining Gate B sequence
 
@@ -138,8 +143,8 @@ a live submission scan.
 | 2 | Actor registry and deterministic permissions | COMPLETE | Actor/path/capability fixtures pass; custody grants no research authority |
 | 3 | Dependency planner and pending-command inventory | COMPLETE | Explicit dependencies topologically order; missing dependencies remain visible; cycles reject deterministically |
 | 4 | Durable accepted/rejected result writer | COMPLETE | Exactly one atomic fixture result per processed command; retry idempotency proven |
-| 5 | Exclusive local acceptance lock | NEXT | Concurrent fixture processes cannot both accept the same command |
-| 6 | Remaining lifecycle events | PENDING | Amendment, close, withdrawal, proposal, verification, dispute, correction, and annulment fixtures pass |
+| 5 | Exclusive local acceptance lock | COMPLETE | Concurrent fixture processes cannot both accept the same command |
+| 6 | Remaining lifecycle events | NEXT | Amendment, close, withdrawal, proposal, verification, dispute, correction, and annulment fixtures pass |
 | 7 | Additions-only and audit-gap verification | PENDING | Modified/deleted accepted fixture files and missing/duplicate results are blocking failures |
 | 8 | Disposable projection rebuild | PENDING | Delete `.rw/`; replay reproduces identical semantic state and committed-view bytes |
 | 9 | Gate B adversarial review | PENDING | Two independent readers agree on fixture outcomes; all checks state perimeter and limits |
@@ -151,17 +156,17 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–6 complete; checkpoint 7 next |
+| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–7 complete; checkpoint 8 next |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification at commit `63b72bac2`:
+Latest completed verification at commit `b62b59abb`:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
-Ran 74 tests — OK
+Ran 80 tests — OK
 
 python3 -m compileall -q KERNEL/tools KERNEL/tests
 
