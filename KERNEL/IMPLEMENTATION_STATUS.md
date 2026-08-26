@@ -4,6 +4,8 @@
 
 **Updated:** 2026-08-25
 
+**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. This approval confirms the completed fixture increment only; it does not complete Gate B or authorize live operation.
+
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
 **Canonical use:** This file is the live implementation plan and progress tracker. Update it whenever a build increment is completed, blocked, reordered, or newly authorized. The proposal preserves design and ruling history; the audit preserves findings and checkpoint evidence; neither replaces this current-status surface.
@@ -53,7 +55,7 @@ Expected baseline at this checkpoint: **35 tests pass**.
 | Gate A operational specification | COMPLETE / APPROVED | `9bbf9c041` | Hardened contract approved by Will after adversarial review |
 | Gate B checkpoint 1 — contract and replay core | COMPLETE | `ee322ff5a` | Five strict JSON Schemas; pure validation/replay core; 9 tests passed |
 | Gate B checkpoint 2 — deterministic fixture views | COMPLETE | `262cd0641` | Four registered view renderers; valid/adversarial file fixtures; 20 tests passed; render/check byte reproduction passed |
-| Gate B checkpoint 3 — exact native-reference verification | COMPLETE | this checkpoint commit | Read-only injectable Git boundary; strict TSV/JSON selection; exact selected-byte hashes; material-term reconciliation; 35 tests passed |
+| Gate B checkpoint 3 — exact native-reference verification | COMPLETE / APPROVED | `65335142c` | Read-only injectable Git boundary; strict TSV/JSON selection; exact selected-byte hashes; material-term reconciliation; 35 tests passed; Will approved 2026-08-25 |
 
 Implemented behavior now includes:
 
@@ -134,7 +136,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 
 ## Verification record
 
-Latest completed verification for checkpoint 3:
+Latest completed verification at commit `65335142c`:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v

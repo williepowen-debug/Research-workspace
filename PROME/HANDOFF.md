@@ -8,13 +8,13 @@
 
 ---
 
-## 2026-08-25 (KERNEL GATE-A + FIRST TWO GATE-B CHECKPOINTS)
+## 2026-08-25 (KERNEL GATE-A + FIRST THREE GATE-B CHECKPOINTS)
 
 Will completed and approved the Kernel v1 operational-shadow contract after an adversarial review corrected native-authority, dependency-ordering, deterministic-view, submission-path, identifier, and lifecycle-permission defects. The approved boundary is narrow: fixture-only binary Question/Forecast work is authorized; real native imports, live shadow operation, the live Git carve-out, and any authority switch are not.
 
-Implementation landed in two verified increments. Checkpoint 1 created the non-authoritative `KERNEL/` skeleton, five strict JSON Schemas, pure command/event validation, and deterministic replay. Checkpoint 2 added synthetic valid/adversarial file fixtures and exact rendering for `OPEN_QUESTIONS.md`, `RESOLUTION_QUEUE.md`, `EXCEPTIONS.md`, and `CALIBRATION.tsv`. The current baseline is 20 passing discoverable tests; render followed by `render --check` reproduces all four files byte-for-byte. No acceptance writer, receipt writer, lock, SQLite projection, live scan, real record, or committed live view exists.
+Implementation landed in three verified increments. Checkpoint 1 created the non-authoritative `KERNEL/` skeleton, five strict JSON Schemas, pure command/event validation, and deterministic replay. Checkpoint 2 added synthetic valid/adversarial file fixtures and exact rendering for `OPEN_QUESTIONS.md`, `RESOLUTION_QUEUE.md`, `EXCEPTIONS.md`, and `CALIBRATION.tsv`. Checkpoint 3 (`65335142c`) added an injectable read-only Git boundary, exact committed-blob TSV/JSON selection, selected-byte hashes, stable fail-closed native findings, and mechanical material-term coverage. Will approved checkpoint 3 on 2026-08-25 after its limitations were highlighted. The current baseline is 35 passing discoverable tests; Python compilation and the temporary-synthetic-Git CLI path pass. No acceptance writer, receipt writer, lock, SQLite projection, live scan, real record, or committed live view exists.
 
-`KERNEL/IMPLEMENTATION_STATUS.md` is now the canonical live plan. It records completed commits, limitations, ordered Gate B work, gate state, and stop conditions. **Next session starts at checkpoint 3: exact native-reference verification against synthetic Git-backed TSV and strict-JSON companion fixtures.** It must resolve blobs through Git, select exact records, verify raw hashes and material-term coverage, and fail closed on missing/duplicate/shifted/mismatched inputs—with no network and no write-capable acceptance path. Read `KERNEL/README.md`, `KERNEL/SPEC.md`, then `KERNEL/IMPLEMENTATION_STATUS.md`; run the 20-test baseline before editing.
+`KERNEL/IMPLEMENTATION_STATUS.md` is the canonical live plan. It records completed commits, limitations, ordered Gate B work, gate state, and stop conditions. **Next session starts at checkpoint 4: actor registry and deterministic permissions using fixtures only.** Validate identity, owned submission paths, active windows, and capabilities while preserving that `command.accept` grants PROME no research discretion. Read `KERNEL/README.md`, `KERNEL/SPEC.md`, then `KERNEL/IMPLEMENTATION_STATUS.md`; run the 35-test baseline before editing. Gate B remains in progress, and Gate C remains unauthorized.
 
 ---
 
