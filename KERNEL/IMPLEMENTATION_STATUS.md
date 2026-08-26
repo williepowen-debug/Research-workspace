@@ -2,9 +2,9 @@
 
 **Owner:** PROME
 
-**Updated:** 2026-08-25
+**Updated:** 2026-08-26
 
-**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–7 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, and `b62b59abb`; they remain fixture-only and do not complete Gate B or authorize live operation.
+**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–8 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, `b62b59abb`, and `865be30f5`; they remain fixture-only and do not complete Gate B or authorize live operation.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **80 tests pass**.
+Expected baseline at this checkpoint: **99 tests pass**.
 
 ## Authorization boundary
 
@@ -60,6 +60,7 @@ Expected baseline at this checkpoint: **80 tests pass**.
 | Gate B checkpoint 5 — dependency planner and pending inventory | COMPLETE | `264a8ade6` | Explicit synthetic inventories; deterministic topological order; completed/ready/waiting/rejection classes; iterative cycle and missing-root analysis; 58 tests passed |
 | Gate B checkpoint 6 — durable accepted/rejected result writer | COMPLETE | `63b72bac2` | Strict receipt contract; canonical atomic fixture publication; durable-result inventory; same-byte retry idempotency; collision and crash-boundary tests; 74 tests passed |
 | Gate B checkpoint 7 — exclusive local acceptance lock | COMPLETE | `b62b59abb` | Repository-refusing `.rw/locks/command.lock`; locked inventory→plan→write pass; direct writer serialization; cross-process exclusion and release/authority-boundary tests; 80 tests passed |
+| Gate B checkpoint 8 — remaining lifecycle events | COMPLETE | `865be30f5` | Strict close/annul, amend/withdraw, and propose/verify/dispute/correct contracts; replay state machines; replay-backed writer transitions; lifecycle views, native terms, permissions, and adversarial receipts; 99 tests passed |
 
 Implemented behavior now includes:
 
@@ -106,7 +107,15 @@ Implemented behavior now includes:
 - lock-scoped durable-result inventory, dependency planning, and result writing;
 - direct writer serialization across result lookup and atomic publication;
 - release on ordinary completion and exceptional exit; and
-- two-process proof that a waiter re-inventories after release and cannot publish a second result.
+- two-process proof that a waiter re-inventories after release and cannot publish a second result;
+- strict payload schemas and command/event mappings for all ten approved fixture lifecycle families;
+- deterministic Question states `OPEN`, `CLOSED`, `RESOLUTION_PROPOSED`, `DISPUTED`, and `FINAL`;
+- deterministic Forecast states `ACTIVE`, `WITHDRAWN`, and derived `LOCKED`, with every immutable version retained;
+- stale-version, forbidden-transition, evidence, registered-annulment, negative-search, and protected-verifier rejection paths;
+- replay-backed lifecycle acceptance that infers the exact previous event from the durable stream head;
+- Resolution proposal, dispute/re-proposal, verification, privileged correction, and annulment replay;
+- exact synthetic native material-term reconciliation for lifecycle outcomes and evidence; and
+- lifecycle-aware open-question, resolution-queue, and un-clipped corrected-outcome calibration views.
 
 ## Current limitations
 
@@ -114,26 +123,23 @@ The implementation does **not** yet:
 
 - enforce configured trusted-history reachability beyond resolving the supplied full commit in the injected repository;
 - support `TEXT_ANCHOR` (deliberately excluded from this live-compatible fixture slice);
-- reconcile Resolution material terms because Resolution commands are not implemented yet;
-- execute a planned acceptance pass against replayed stream state;
+- automatically execute every planned command as one integrated acceptance pass;
 - orchestrate permissions, native verification, lifecycle validation, planning, and result writing as one acceptance pass;
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - enforce additions-only Git history;
-- implement Question close, Forecast amendment/withdrawal, Resolution proposal/verification/dispute/correction, or annulment;
-- populate calibration with verified outcomes;
 - rebuild from a disposable SQLite projection;
 - scan real repository submissions or generate live views.
 
-## Next increment — checkpoint 8
+## Next increment — checkpoint 9
 
-**Build the remaining lifecycle commands, events, and replay transitions using fixtures only.**
+**Build additions-only and audit-gap verification using fixtures only.**
 
-The next increment should add the approved Question close/annul, Forecast
-amend/withdraw, and Resolution propose/verify/dispute/correct command and event
-families. It must prove legal transitions, expected-version and previous-event
-chains, actor/capability boundaries, protected-verifier separation, required
-evidence, and deterministic rejection of forbidden transitions with synthetic
-fixtures only. It must not add research judgment, live records, or a live scan.
+The next increment should inspect injected synthetic Git histories and explicit
+fixture submission/result inventories. It must prove that modification or deletion
+of an accepted event or receipt is blocking, that duplicate results remain
+blocking, and that a submission lacking exactly one durable result after a reported
+successful pass is `AUDIT_GAP`. It must not inspect live submissions, change Git
+ownership, or install the live-operation carve-out.
 
 ## Remaining Gate B sequence
 
@@ -144,8 +150,8 @@ fixtures only. It must not add research judgment, live records, or a live scan.
 | 3 | Dependency planner and pending-command inventory | COMPLETE | Explicit dependencies topologically order; missing dependencies remain visible; cycles reject deterministically |
 | 4 | Durable accepted/rejected result writer | COMPLETE | Exactly one atomic fixture result per processed command; retry idempotency proven |
 | 5 | Exclusive local acceptance lock | COMPLETE | Concurrent fixture processes cannot both accept the same command |
-| 6 | Remaining lifecycle events | NEXT | Amendment, close, withdrawal, proposal, verification, dispute, correction, and annulment fixtures pass |
-| 7 | Additions-only and audit-gap verification | PENDING | Modified/deleted accepted fixture files and missing/duplicate results are blocking failures |
+| 6 | Remaining lifecycle events | COMPLETE | Amendment, close, withdrawal, proposal, verification, dispute, correction, and annulment fixtures pass |
+| 7 | Additions-only and audit-gap verification | NEXT | Modified/deleted accepted fixture files and missing/duplicate results are blocking failures |
 | 8 | Disposable projection rebuild | PENDING | Delete `.rw/`; replay reproduces identical semantic state and committed-view bytes |
 | 9 | Gate B adversarial review | PENDING | Two independent readers agree on fixture outcomes; all checks state perimeter and limits |
 
@@ -156,17 +162,17 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–7 complete; checkpoint 8 next |
+| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–8 complete; checkpoint 9 next |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification at commit `b62b59abb`:
+Latest completed verification at commit `865be30f5`:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
-Ran 80 tests — OK
+Ran 99 tests — OK
 
 python3 -m compileall -q KERNEL/tools KERNEL/tests
 
