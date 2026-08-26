@@ -8,6 +8,16 @@
 
 ---
 
+## 2026-08-26 (KERNEL CHECKPOINTS 11–12)
+
+Will authorized the fixture-only Gate B adversarial review and its bounded remediation. Checkpoint 11 completed against `720b8e2e9` and found that 136 green component tests did not prove one acceptance path: the writer could be called without permission, native-reference, or planner-readiness enforcement, and successful view reproduction printed no perimeter or status. Two independent readers reconciled all 22 approved fixture outcomes. The review is canonical at `KERNEL/GATE_B_ADVERSARIAL_REVIEW.md`.
+
+Will then approved checkpoint 12. `KERNEL/tools/acceptance.py` now runs explicit fixture inventories through one lock-scoped, next-ready-only schema → permission → exact-native → lifecycle → durable-result path; planned cycles/dependency failures write receipts; missing dependencies and required-check `UNKNOWN` remain visible and unprocessed; retries re-establish their printed check perimeter; rejected results and collisions cannot aggregate green. `render.py --check` now prints perimeter, status, proof, and limitation. The independent red-team found two real defects during implementation—accepted retries skipped checks and a hook `UNKNOWN` undercounted later unprocessed commands—both were fixed and cleared on re-review. **155 tests pass** plus compilation and diff checks. Evidence: `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`.
+
+`KERNEL/IMPLEMENTATION_STATUS.md` is canonical. **NEXT:** Will's separate Gate B closure ruling. Technical exit evidence is satisfied, but Gate B is only `READY FOR OPERATOR RULING`; Gate C remains unauthorized. Closing Gate B does not authorize real records, live scans/writes, the Git carve-out, substitute activation, or any authority switch.
+
+---
+
 ## 2026-08-25–26 (KERNEL GATE B THROUGH CHECKPOINT 10)
 
 Will completed and approved the Kernel v1 operational-shadow contract after an adversarial review corrected native-authority, dependency-ordering, deterministic-view, submission-path, identifier, and lifecycle-permission defects. The approved boundary is narrow: fixture-only binary Question/Forecast/Resolution lifecycle work is authorized; real native imports, live shadow operation, the live Git carve-out, and any authority switch are not.

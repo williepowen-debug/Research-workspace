@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–10 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, `b62b59abb`, `865be30f5`, `b37f560b5`, and `94eb93602`. Checkpoint 11's two-reader review completed on 2026-08-26 with blocking findings; Gate B remains in progress and live operation remains unauthorized.
+**Latest operator ruling:** Will approved checkpoint 12 remediation on 2026-08-26 after checkpoint 11 completed with blocking findings. The integrated fixture runner and executable check disclosures now pass primary and independent adversarial review. Gate B awaits Will's separate closure ruling; live operation remains unauthorized.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -64,6 +64,7 @@ Expected baseline at this checkpoint: **136 tests pass**.
 | Gate B checkpoint 9 — additions-only and audit-gap verification | COMPLETE | `b37f560b5` | Repository-refusing synthetic Git-history boundary; additions-only protected paths; explicit durable-result reconciliation; perimeter-aware `PASS`/`EXCEPTION`/`UNKNOWN`; 117 tests passed |
 | Gate B checkpoint 10 — disposable projection rebuild | COMPLETE | `94eb93602` | Root `.rw/` ignore boundary; atomic SQLite rebuild from explicit fixture events; strict read reconciliation; delete/rebuild semantic and view-byte identity; 136 tests passed |
 | Gate B checkpoint 11 — fixture adversarial review | COMPLETE / BLOCKING FINDINGS | `720b8e2e9` reviewed baseline | Two readers agreed on all 22 expected outcomes and component-vs-complete-path qualifications; review proved the integrated acceptance path and uniform executable check disclosure are absent; `GATE_B_ADVERSARIAL_REVIEW.md` |
+| Gate B checkpoint 12 — integrated fixture acceptance and check disclosure | COMPLETE / INDEPENDENT PASS | `e212bd26b` starting baseline | Ready-only integrated schema/permission/native/lifecycle/write path; durable dependency dispositions; retry re-verification; explicit `UNKNOWN` accounting; render disclosure; 155 tests; `CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md` |
 
 Implemented behavior now includes:
 
@@ -129,7 +130,11 @@ Implemented behavior now includes:
 - canonical cached event copies, deterministic semantic snapshots, registered view bytes, and reconciled hashes;
 - strict projection schema, metadata, SQLite integrity, source-event, semantic-state, and view-content verification;
 - stale-input, corruption, schema-expansion, path-collision, symlink-escape, and live-boundary failures; and
-- proof that deleting `.rw/` and replaying the same fixture events reproduces identical semantic state and registered view bytes.
+- proof that deleting `.rw/` and replaying the same fixture events reproduces identical semantic state and registered view bytes;
+- one lock-scoped integrated fixture path that enforces dependency order, permission, exact native verification, lifecycle legality, and exactly-one durable result;
+- accepted-retry re-verification against the complete printed check perimeter;
+- aggregate refusal on rejected results, collisions, `UNKNOWN`, and any selected command left unprocessed; and
+- explicit perimeter, status, pass proof, and pass limitation output for integrated acceptance and view reproduction.
 
 ## Current limitations
 
@@ -137,22 +142,17 @@ The implementation does **not** yet:
 
 - enforce configured trusted-history reachability beyond resolving the supplied full commit in the injected repository;
 - support `TEXT_ANCHOR` (deliberately excluded from this live-compatible fixture slice);
-- automatically execute every planned command as one integrated acceptance pass;
-- orchestrate permissions, native verification, lifecycle validation, planning, and result writing as one acceptance pass;
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next increment — checkpoint 12
+## Next action — Gate B closure ruling
 
-**Remediate checkpoint 11's blocking integration and disclosure findings using fixtures only.**
+**Will reviews checkpoint 12 evidence and either closes Gate B or returns a bounded remediation.**
 
-Implement the fixture-only integrated acceptance runner specified in
-`KERNEL/GATE_B_ADVERSARIAL_REVIEW.md`. It must enforce plan readiness and
-orchestrate schema, permissions, native verification, lifecycle validation, and
-exactly-one durable writing beneath the existing lock. Every required check must
-print its perimeter, status, and claim limits; an `UNKNOWN` must block aggregate
-green. Successful view reproduction must also print its perimeter and limits.
-The increment must not activate Gate C or inspect live records.
+Technical exit evidence is recorded in
+`KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. A Gate B closure ruling confirms
+only that the approved fixture implementation is complete. It does not activate
+Gate C, authorize real records, install the live Git carve-out, or switch authority.
 
 ## Remaining Gate B sequence
 
@@ -167,7 +167,7 @@ The increment must not activate Gate C or inspect live records.
 | 7 | Additions-only and audit-gap verification | COMPLETE | Modified/deleted accepted fixture files and missing/duplicate results are blocking failures |
 | 8 | Disposable projection rebuild | COMPLETE | Delete `.rw/`; replay reproduces identical semantic state and committed-view bytes |
 | 9 | Gate B adversarial review | COMPLETE / BLOCKING FINDINGS | Two readers agree on all 22 expected outcomes and component-vs-complete-path qualifications; integration and executable-disclosure gaps recorded |
-| 10 | Integrated fixture acceptance and check disclosure | NEXT | Required checks cannot be skipped; ready-only processing yields exactly one result; `UNKNOWN` blocks aggregate green; every check states perimeter and limits |
+| 10 | Integrated fixture acceptance and check disclosure | COMPLETE / INDEPENDENT PASS | Required checks cannot be skipped through the complete fixture interface; ready-only processing yields exactly one result; `UNKNOWN` blocks aggregate green; every check states perimeter and limits |
 
 The sequence may be simplified when implementation evidence supports it, but any reordering or scope addition must be recorded here.
 
@@ -176,19 +176,25 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | IN PROGRESS | Checkpoint 11 review complete with blocking findings; checkpoint 12 remediation next |
+| Gate B — fixture implementation | READY FOR OPERATOR RULING | Checkpoint 12 remediated checkpoint 11 findings and passed independent review; Will must explicitly close Gate B |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification against reviewed baseline `720b8e2e9`:
+Latest completed verification after checkpoint 12 remediation:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
-Ran 136 tests — OK
+Ran 155 tests — OK
 
 python3 -m compileall -q KERNEL/tools KERNEL/tests
+
+python3 KERNEL/tools/acceptance.py --inventory <temporary-explicit-path-and-command-inventory.json> --actors KERNEL/tests/fixtures/permissions/actors.json --capabilities KERNEL/tests/fixtures/permissions/capability-grants.json --repository <temporary-synthetic-git-repository> --store <temporary-fixture-workspace>/KERNEL --event-ids <temporary-command-to-event-id-map.json> --recorded-at 2026-08-26T12:00:00.000000Z
+PASS: aggregate; every required fixture check printed its perimeter, pass claim, and limitation
+
+python3 KERNEL/tools/render.py --events KERNEL/tests/fixtures/events/valid_binary.json --output <temporary-view-directory> --as-of 2026-08-26T00:00:00.000000Z --check
+PASS: registered fixture views verified deterministically; perimeter and claim limits printed
 
 python3 KERNEL/tools/verify_native.py <synthetic-command> --repository <temporary-synthetic-git-repository>
 PASS: exact native bytes and material structured terms verified; research quality was not judged

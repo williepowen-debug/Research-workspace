@@ -81,6 +81,7 @@ class FixtureAcceptancePass:
 
     writer: "FixtureResultWriter"
     plan: DependencyPlan
+    submissions: tuple[dict[str, Any], ...]
     _active: bool = True
 
     def accept(
@@ -92,6 +93,9 @@ class FixtureAcceptancePass:
         previous_event_id: str | None = None,
     ) -> WriteOutcome:
         self._require_active()
+        next_ready = self.plan.ready[0]["command_id"] if self.plan.ready else None
+        if command.get("command_id") != next_ready:
+            raise RuntimeError("fixture command is not next in the current dependency plan")
         return self.writer._accept_locked(
             command,
             event_id=event_id,
@@ -114,6 +118,22 @@ class FixtureAcceptancePass:
             reason_code=reason_code,
             reason_detail=reason_detail,
         )
+
+    def prior(self, command: dict[str, Any]) -> WriteOutcome | None:
+        """Return the matching prior result or an idempotency failure under lock."""
+
+        self._require_active()
+        return self.writer._prior_outcome(command)
+
+    def refresh(self) -> DependencyPlan:
+        """Re-inventory and re-plan while the same acceptance lock remains held."""
+
+        self._require_active()
+        inventory = self.writer.store.inventory()
+        if not inventory.valid:
+            raise ResultConstructionError(inventory.findings)
+        self.plan = plan_commands(self.submissions, inventory.planner_summaries())
+        return self.plan
 
     def _require_active(self) -> None:
         if not self._active:
@@ -345,12 +365,13 @@ class FixtureResultWriter:
     ) -> Iterator[FixtureAcceptancePass]:
         """Hold the lock across durable inventory, dependency planning, and writes."""
 
+        supplied = tuple(submissions)
         with self._acceptance_lock():
             inventory = self.store.inventory()
             if not inventory.valid:
                 raise ResultConstructionError(inventory.findings)
-            plan = plan_commands(submissions, inventory.planner_summaries())
-            acceptance_pass = FixtureAcceptancePass(self, plan)
+            plan = plan_commands(supplied, inventory.planner_summaries())
+            acceptance_pass = FixtureAcceptancePass(self, plan, supplied)
             try:
                 yield acceptance_pass
             finally:

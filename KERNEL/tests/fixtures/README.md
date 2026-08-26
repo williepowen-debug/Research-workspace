@@ -47,3 +47,10 @@ workspaces. They delete `.rw/`, rebuild from the same explicit events, and compa
 complete semantic state plus registered view bytes. Corruption, stale inputs,
 schema expansion, path collisions, symlink escape, and live-repository targets all
 fail closed; SQLite is never treated as authority.
+
+Integrated acceptance tests combine the synthetic Git repository, actor/capability
+registries, explicit submission paths, dependency planner, lifecycle replay, lock,
+and result store. They prove ready-only dependency order, automatic durable native
+and permission rejection, cycle/dependent rejection, retry identity, fail-closed
+live-repository boundaries, and aggregate refusal when a required check is
+`UNKNOWN`. They never scan a submission directory or use a live native record.

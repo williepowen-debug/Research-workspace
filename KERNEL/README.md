@@ -31,10 +31,13 @@ The implemented slice is fixture-only and binary-question-only:
 10. serialize fixture inventory→plan→write passes with an exclusive local lock;
 11. enforce Question close/annul, Forecast amend/withdraw, and Resolution propose/verify/dispute/correct transitions;
 12. verify additions-only synthetic Git history and reconcile explicit fixture submissions with durable results; and
-13. atomically rebuild and verify a disposable SQLite projection from explicit accepted fixture events.
+13. atomically rebuild and verify a disposable SQLite projection from explicit accepted fixture events; and
+14. run schema, dependency, permission, native-reference, lifecycle, and durable-result checks through one fixture-only acceptance path.
 
 There is no live acceptance pipeline, live submission scan, commit automation, or
-push automation in this slice.
+push automation in this slice. `tools/acceptance.py` accepts only explicit injected
+fixture inventories, registries, a synthetic Git repository, event identifiers,
+and a result store outside the live repository.
 
 Exact native-reference verification is read-only. TSV locators use the strict form
 `<declared-id-column>=<record-id>`; JSON companions use RFC 6901 JSON Pointers.
@@ -73,6 +76,16 @@ Direct writer calls hold the same lock across result lookup and publication. The
 lock protects one shared local workspace only and grants no actor capability or
 research authority.
 
+The integrated fixture runner holds that lock while it repeatedly inventories and
+re-plans. It processes only the next dependency-ready command, durably publishes
+planned dependency rejections, runs permission and exact native-reference checks
+before lifecycle acceptance, and re-plans after every result. A missing dependency
+remains visible and unprocessed. Every instantiated check prints its exact
+perimeter, `PASS`, `EXCEPTION`, or `UNKNOWN`, what a pass proves, and what it does
+not prove. Any required `UNKNOWN` blocks aggregate green and leaves the affected
+command unprocessed. The lower-level writer remains a fixture component used by
+unit tests; it is not the complete acceptance interface.
+
 The fixture audit reads only injected synthetic Git histories and explicit
 submission/result inventories. It reports its exact perimeter and `PASS`,
 `EXCEPTION`, or `UNKNOWN`; any non-pass blocks an aggregate green claim. Protected
@@ -98,6 +111,15 @@ The exact next increment and remaining Gate B sequence are canonical in `IMPLEME
 
 ```bash
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
+
+python3 KERNEL/tools/acceptance.py \
+  --inventory <temporary-explicit-path-and-command-inventory.json> \
+  --actors KERNEL/tests/fixtures/permissions/actors.json \
+  --capabilities KERNEL/tests/fixtures/permissions/capability-grants.json \
+  --repository <temporary-synthetic-git-repository> \
+  --store <temporary-fixture-workspace>/KERNEL \
+  --event-ids <temporary-command-to-event-id-map.json> \
+  --recorded-at 2026-08-26T12:00:00.000000Z
 
 fixture_out="$(mktemp -d)"
 python3 KERNEL/tools/render.py \

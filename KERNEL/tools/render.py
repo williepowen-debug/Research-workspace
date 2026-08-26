@@ -6,7 +6,6 @@ import argparse
 import datetime as dt
 import hashlib
 import json
-import sys
 from decimal import Decimal
 from pathlib import Path
 from typing import Any, Iterable
@@ -206,14 +205,27 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--as-of", required=True)
     parser.add_argument("--check", action="store_true")
     args = parser.parse_args(argv)
+    print(
+        f"perimeter: check=view-reproduction mode={'check' if args.check else 'render'} "
+        f"events={args.events.resolve()} output={args.output.resolve()} render_as_of={args.as_of}"
+    )
     try:
         views = render_views(_load_events(args.events), render_as_of=args.as_of)
         findings = write_views(views, args.output, check=args.check)
     except (OSError, ValueError, json.JSONDecodeError) as exc:
-        print(f"EXCEPTION render_input: {exc}", file=sys.stderr)
+        print(f"EXCEPTION: view-reproduction input failed: {exc}")
+        print("PASS proves: registered view bytes equal deterministic renderer output for the printed fixture perimeter")
+        print("PASS does not prove: coverage of unregistered repository state or undisclosed inputs")
         return 1
     for finding in findings:
-        print(f"EXCEPTION {finding.code}: {finding.message} ({finding.location})", file=sys.stderr)
+        print(f"EXCEPTION {finding.code}: {finding.message} ({finding.location})")
+    if findings:
+        print("EXCEPTION: view-reproduction verification did not pass")
+    else:
+        action = "verified" if args.check else "rendered"
+        print(f"PASS: registered fixture views {action} deterministically")
+    print("PASS proves: registered view bytes equal deterministic renderer output for the printed fixture perimeter")
+    print("PASS does not prove: coverage of unregistered repository state or undisclosed inputs")
     return 1 if findings else 0
 
 

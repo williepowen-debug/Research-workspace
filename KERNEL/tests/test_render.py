@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import copy
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -66,6 +67,31 @@ class RenderTests(unittest.TestCase):
             (output / "EXCEPTIONS.md").write_text("hand edit\n", encoding="utf-8")
             findings = write_views(views, output, check=True)
         self.assertIn("VIEW_DRIFT", {finding.code for finding in findings})
+
+    def test_cli_check_prints_perimeter_status_and_claim_limits(self):
+        events = FIXTURES / "events" / "valid_binary.json"
+        with tempfile.TemporaryDirectory() as tmp:
+            output = Path(tmp)
+            render = subprocess.run(
+                [sys.executable, str(ROOT / "tools" / "render.py"), "--events", str(events),
+                 "--output", str(output), "--as-of", AS_OF],
+                check=False,
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(render.returncode, 0, render.stdout + render.stderr)
+            completed = subprocess.run(
+                [sys.executable, str(ROOT / "tools" / "render.py"), "--events", str(events),
+                 "--output", str(output), "--as-of", AS_OF, "--check"],
+                check=False,
+                capture_output=True,
+                text=True,
+            )
+        self.assertEqual(completed.returncode, 0, completed.stdout + completed.stderr)
+        self.assertIn("perimeter: check=view-reproduction", completed.stdout)
+        self.assertIn("PASS: registered fixture views verified deterministically", completed.stdout)
+        self.assertIn("PASS proves:", completed.stdout)
+        self.assertIn("PASS does not prove:", completed.stdout)
 
     def test_conflict_is_visible_and_stream_is_omitted(self):
         first = event("QuestionRegistered")
