@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-25
 
-**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoint 4 was subsequently implemented at `55a6dd182`; it remains fixture-only and does not complete Gate B or authorize live operation.
+**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–5 were subsequently implemented at `55a6dd182` and `264a8ade6`; they remain fixture-only and do not complete Gate B or authorize live operation.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **46 tests pass**.
+Expected baseline at this checkpoint: **58 tests pass**.
 
 ## Authorization boundary
 
@@ -57,6 +57,7 @@ Expected baseline at this checkpoint: **46 tests pass**.
 | Gate B checkpoint 2 — deterministic fixture views | COMPLETE | `262cd0641` | Four registered view renderers; valid/adversarial file fixtures; 20 tests passed; render/check byte reproduction passed |
 | Gate B checkpoint 3 — exact native-reference verification | COMPLETE / APPROVED | `65335142c` | Read-only injectable Git boundary; strict TSV/JSON selection; exact selected-byte hashes; material-term reconciliation; 35 tests passed; Will approved 2026-08-25 |
 | Gate B checkpoint 4 — actor registry and deterministic permissions | COMPLETE | `55a6dd182` | Strict actor/capability registries; owned-path, half-open-window, identity, payload-ownership, and capability checks; 46 tests passed |
+| Gate B checkpoint 5 — dependency planner and pending inventory | COMPLETE | `264a8ade6` | Explicit synthetic inventories; deterministic topological order; completed/ready/waiting/rejection classes; iterative cycle and missing-root analysis; 58 tests passed |
 
 Implemented behavior now includes:
 
@@ -85,7 +86,12 @@ Implemented behavior now includes:
 - exact agent-owned submission-path and command-filename verification without directory scanning;
 - half-open actor activity-window checks using the command's `submitted_at`;
 - payload-owner and referenced-actor identity checks for the enabled commands; and
-- deterministic capability enforcement proving that `command.accept` conveys custody only.
+- deterministic capability enforcement proving that `command.accept` conveys custody only;
+- explicit injected command and minimal durable-result inventory without filesystem enumeration;
+- deterministic topological planning with `submitted_at` and `command_id` tie-breaks;
+- separate completed, ready, waiting, planned-cycle-rejection, and planned-dependency-rejection classes;
+- transitive missing-root visibility without prematurely rejecting a waiting command; and
+- iterative graph traversal verified against a 1,200-command adversarial chain.
 
 ## Current limitations
 
@@ -94,9 +100,9 @@ The implementation does **not** yet:
 - enforce configured trusted-history reachability beyond resolving the supplied full commit in the injected repository;
 - support `TEXT_ANCHOR` (deliberately excluded from this live-compatible fixture slice);
 - reconcile Resolution material terms because Resolution commands are not implemented yet;
-- sort and process command dependencies;
 - write accepted events or rejected receipts;
 - implement idempotent command-result lookup;
+- execute a planned acceptance pass against replayed stream state;
 - acquire a filesystem acceptance lock;
 - enforce additions-only Git history;
 - implement Question close, Forecast amendment/withdrawal, Resolution proposal/verification/dispute/correction, or annulment;
@@ -104,15 +110,16 @@ The implementation does **not** yet:
 - rebuild from a disposable SQLite projection;
 - scan real repository submissions or generate live views.
 
-## Next increment — checkpoint 5
+## Next increment — checkpoint 6
 
-**Build the dependency planner and pending-command inventory using fixtures only.**
+**Build the durable accepted/rejected result writer using fixtures only.**
 
-The next increment should inventory explicitly supplied synthetic submissions,
-separate commands that already have durable synthetic results, topologically order
-satisfiable dependencies, keep missing dependencies visible and unprocessed, and
-identify cycles or durably rejected prerequisites deterministically. It must not
-scan a live submission directory or write an accepted event or rejection receipt.
+The next increment should convert explicitly supplied fixture commands and planned
+dependency rejections into exactly one atomic accepted event or rejected receipt,
+prove same-command retry idempotency, reject command-ID reuse with different bytes,
+and preserve prior valid state on every rejection. It must use injected fixture
+destinations only, without scanning a live submission directory or installing the
+exclusive acceptance lock reserved for the following checkpoint.
 
 ## Remaining Gate B sequence
 
@@ -120,8 +127,8 @@ scan a live submission directory or write an accepted event or rejection receipt
 |---:|---|---|---|
 | 1 | Exact native-reference verification | COMPLETE | Synthetic Git-backed references pass; malformed/mismatched references fail closed |
 | 2 | Actor registry and deterministic permissions | COMPLETE | Actor/path/capability fixtures pass; custody grants no research authority |
-| 3 | Dependency planner and pending-command inventory | NEXT | Explicit dependencies topologically order; missing dependencies remain visible; cycles reject deterministically |
-| 4 | Durable accepted/rejected result writer | PENDING | Exactly one atomic fixture result per processed command; retry idempotency proven |
+| 3 | Dependency planner and pending-command inventory | COMPLETE | Explicit dependencies topologically order; missing dependencies remain visible; cycles reject deterministically |
+| 4 | Durable accepted/rejected result writer | NEXT | Exactly one atomic fixture result per processed command; retry idempotency proven |
 | 5 | Exclusive local acceptance lock | PENDING | Concurrent fixture processes cannot both accept the same command |
 | 6 | Remaining lifecycle events | PENDING | Amendment, close, withdrawal, proposal, verification, dispute, correction, and annulment fixtures pass |
 | 7 | Additions-only and audit-gap verification | PENDING | Modified/deleted accepted fixture files and missing/duplicate results are blocking failures |
@@ -135,17 +142,17 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–4 complete; checkpoint 5 next |
+| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–5 complete; checkpoint 6 next |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification at commit `55a6dd182`:
+Latest completed verification at commit `264a8ade6`:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
-Ran 46 tests — OK
+Ran 58 tests — OK
 
 python3 -m compileall -q KERNEL/tools KERNEL/tests
 
