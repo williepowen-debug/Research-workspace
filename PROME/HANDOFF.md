@@ -14,7 +14,7 @@ Will authorized the fixture-only Gate B adversarial review and its bounded remed
 
 Will then approved checkpoint 12. `KERNEL/tools/acceptance.py` now runs explicit fixture inventories through one lock-scoped, next-ready-only schema → permission → exact-native → lifecycle → durable-result path; planned cycles/dependency failures write receipts; missing dependencies and required-check `UNKNOWN` remain visible and unprocessed; retries re-establish their printed check perimeter; rejected results and collisions cannot aggregate green. `render.py --check` now prints perimeter, status, proof, and limitation. The independent red-team found two real defects during implementation—accepted retries skipped checks and a hook `UNKNOWN` undercounted later unprocessed commands—both were fixed and cleared on re-review. **155 tests pass** plus compilation and diff checks. Evidence: `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`.
 
-`KERNEL/IMPLEMENTATION_STATUS.md` is canonical. **NEXT:** Will's separate Gate B closure ruling. Technical exit evidence is satisfied, but Gate B is only `READY FOR OPERATOR RULING`; Gate C remains unauthorized. Closing Gate B does not authorize real records, live scans/writes, the Git carve-out, substitute activation, or any authority switch.
+Will approved Gate B closure on 2026-08-26. `KERNEL/IMPLEMENTATION_STATUS.md` is canonical. **NEXT:** no Kernel implementation step is authorized unless Will separately authorizes Gate C planning or activation work. Gate C remains unauthorized; the Gate B ruling does not authorize real records, live scans/writes, the Git carve-out, substitute activation, or any authority switch.
 
 ---
 

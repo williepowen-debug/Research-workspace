@@ -100,5 +100,5 @@ slice. They do matter to a later, separately authorized Gate C plan.
 - Uniform executable check disclosure blocker: **REMEDIATED**.
 - Checkpoint 12: **COMPLETE**.
 - Gate B technical exit evidence: **SATISFIED**.
-- Gate B state: **READY FOR WILL'S SEPARATE CLOSURE RULING**.
+- Gate B state: **PASSED / CLOSED BY WILL ON 2026-08-26**.
 - Gate C: **NOT AUTHORIZED**.

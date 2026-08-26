@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will approved checkpoint 12 remediation on 2026-08-26 after checkpoint 11 completed with blocking findings. The integrated fixture runner and executable check disclosures now pass primary and independent adversarial review. Gate B awaits Will's separate closure ruling; live operation remains unauthorized.
+**Latest operator ruling:** Will closed Gate B on 2026-08-26 after checkpoint 12 remediated checkpoint 11's blocking findings and passed primary and independent adversarial review. This ruling completes only the approved fixture implementation; Gate C and live operation remain unauthorized.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **136 tests pass**.
+Expected baseline at this checkpoint: **155 tests pass**.
 
 ## Authorization boundary
 
@@ -145,14 +145,14 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — Gate B closure ruling
+## Next action — await separate Gate C authorization
 
-**Will reviews checkpoint 12 evidence and either closes Gate B or returns a bounded remediation.**
+**No further implementation is authorized by the Gate B closure.**
 
-Technical exit evidence is recorded in
-`KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. A Gate B closure ruling confirms
-only that the approved fixture implementation is complete. It does not activate
-Gate C, authorize real records, install the live Git carve-out, or switch authority.
+Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
+`KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
+the approved fixture implementation is complete. It does not activate Gate C,
+authorize real records, install the live Git carve-out, or switch authority.
 
 ## Remaining Gate B sequence
 
@@ -176,7 +176,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | READY FOR OPERATOR RULING | Checkpoint 12 remediated checkpoint 11 findings and passed independent review; Will must explicitly close Gate B |
+| Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
