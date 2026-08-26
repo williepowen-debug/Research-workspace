@@ -14,14 +14,21 @@ class DocumentarySchemaTests(unittest.TestCase):
         self.assertEqual(
             {path.name for path in paths},
             {
+                "annul-question.schema.json",
                 "actor-registry.schema.json",
                 "capability-registry.schema.json",
+                "close-question.schema.json",
                 "command.schema.json",
+                "correct-resolution.schema.json",
+                "dispute-resolution.schema.json",
                 "event.schema.json",
                 "forecast.schema.json",
                 "native-ref.schema.json",
+                "propose-resolution.schema.json",
                 "question.schema.json",
                 "receipt.schema.json",
+                "verify-resolution.schema.json",
+                "withdraw-forecast.schema.json",
             },
         )
         for path in paths:

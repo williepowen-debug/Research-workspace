@@ -17,18 +17,19 @@ Native agent records remain authoritative. `KERNEL/` has no live authority.
 
 ## Current slice
 
-The first slice is fixture-only and binary-only:
+The implemented slice is fixture-only and binary-question-only:
 
 1. validate strict command and event envelopes;
-2. validate binary Question and Forecast payloads;
-3. replay accepted fixture events deterministically;
+2. validate binary Question, Forecast, and Resolution lifecycle payloads;
+3. replay accepted fixture events and lifecycle states deterministically;
 4. detect invalid chains and competing children;
 5. render byte-stable empty or fixture-backed operator views;
 6. verify exact synthetic native references against committed Git blobs; and
 7. authorize fixture commands against injected actor and capability registries;
 8. inventory explicit fixture commands/results and deterministically plan dependencies; and
 9. atomically publish canonical accepted events or rejected receipts beneath injected temporary roots; and
-10. serialize fixture inventory→plan→write passes with an exclusive local lock.
+10. serialize fixture inventory→plan→write passes with an exclusive local lock; and
+11. enforce Question close/annul, Forecast amend/withdraw, and Resolution propose/verify/dispute/correct transitions.
 
 There is no live acceptance pipeline, SQLite projection, live submission scan,
 commit automation, or push automation in this slice.
@@ -41,7 +42,14 @@ and never treats mutable checkout contents as native authority.
 Permission verification is also injected and read-only. It validates strict actor
 and capability registries, half-open active windows, exact agent-owned submission
 paths, payload ownership, referenced actor identity, and command capabilities. It
-does not read the live roster or scan an agent submission directory.
+does not read the live roster or scan an agent submission directory. Lifecycle
+capabilities remain separate from acceptance custody.
+
+Lifecycle replay retains every Forecast version, derives ACTIVE, WITHDRAWN, and
+LOCKED states, and derives OPEN, CLOSED, RESOLUTION_PROPOSED, DISPUTED, and FINAL
+Question states. Resolution correction appends history and changes only the derived
+current outcome. Registered views consume those replayed states; calibration uses
+the final verified or corrected binary outcome without clipping probabilities.
 
 Dependency planning accepts commands and minimal durable-result summaries supplied
 directly by tests. It separates completed, ready, waiting, and dependency-rejection
@@ -52,7 +60,9 @@ The fixture writer refuses every destination inside the live repository. Beneath
 injected temporary root it writes canonical JSON through a file-and-directory-fsynced
 temporary file and atomic rename, returns an existing result for a same-byte retry,
 never overwrites a different-byte command-ID result, and exposes stored summaries
-back to the planner.
+back to the planner. Before constructing an accepted event it replays accepted
+fixture history, checks the target stream version and legal lifecycle transition,
+and infers the exact previous event from the replayed stream head.
 
 The fixture acceptance lock also refuses the live repository. It uses an advisory
 exclusive lock at `<injected-workspace>/.rw/locks/command.lock`; the locked pass

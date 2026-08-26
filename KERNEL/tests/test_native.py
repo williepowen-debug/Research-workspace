@@ -18,6 +18,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from core import canonical_bytes  # noqa: E402
 from native import SubprocessGitBoundary, normalized_repository_path, verify_native_references  # noqa: E402
 from test_core import command  # noqa: E402
+from test_lifecycle import propose_command  # noqa: E402
 
 
 FIXTURES = Path(__file__).resolve().parent / "fixtures" / "native"
@@ -161,6 +162,17 @@ class NativeReferenceTests(unittest.TestCase):
             self.repo.commit, "native/predictions.tsv", "TSV_RECORD_ID", "record_id=FIX-F-001", selected
         )]
         candidate["payload"]["probability"] = 0.66
+        self.assert_codes(candidate, "NATIVE_RECORD_MISMATCH")
+
+    def test_lifecycle_resolution_terms_are_verified_exactly(self):
+        candidate = propose_command()
+        companion = json.loads(self.repo.blob("native/companion.json"))
+        selected = canonical_bytes(companion["lifecycle"]["FIX-R-001"])
+        candidate["native_refs"] = [ref(
+            self.repo.commit, "native/companion.json", "JSON_POINTER", "/lifecycle/FIX-R-001", selected
+        )]
+        self.assertTrue(verify_native_references(candidate, self.repo.git).valid)
+        candidate["payload"]["outcome_value"] = "NO"
         self.assert_codes(candidate, "NATIVE_RECORD_MISMATCH")
 
     def test_path_normalization_is_strict(self):

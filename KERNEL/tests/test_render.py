@@ -71,8 +71,14 @@ class RenderTests(unittest.TestCase):
         first = event("QuestionRegistered")
         child_a = copy.deepcopy(first)
         child_a["event_id"] = "EVT-018f22e2-7d00-7000-8000-000000000007"
+        child_a["event_type"] = "QuestionClosed"
         child_a["stream_version"] = 2
         child_a["previous_event_id"] = first["event_id"]
+        child_a["payload"] = {
+            "question_id": first["payload"]["question_id"],
+            "closed_by": "SAM",
+            "closed_at": "2026-09-18T20:00:00.000000Z",
+        }
         child_b = copy.deepcopy(child_a)
         child_b["event_id"] = "EVT-018f22e2-7d00-7000-8000-000000000008"
         views = render_views([first, child_a, child_b], render_as_of=AS_OF)

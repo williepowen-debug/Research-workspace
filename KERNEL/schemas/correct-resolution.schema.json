@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/correct-resolution/1",
+  "title": "Kernel v1 CorrectResolution payload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "resolution_id", "question_id", "corrected_outcome_value", "corrected_by",
+    "correction_evidence_refs", "will_authorization_ref"
+  ],
+  "properties": {
+    "resolution_id": {"type": "string", "pattern": "^R-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "question_id": {"type": "string", "pattern": "^Q-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "corrected_outcome_value": {"enum": ["YES", "NO", "AMBIGUOUS"]},
+    "corrected_by": {"type": "string", "minLength": 1},
+    "correction_evidence_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "will_authorization_ref": {"type": "string", "minLength": 1}
+  }
+}

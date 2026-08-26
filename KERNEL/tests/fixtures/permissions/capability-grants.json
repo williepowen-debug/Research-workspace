@@ -3,7 +3,11 @@
   "grants": [
     {
       "actor_id": "SAM",
-      "capabilities": ["question.register", "forecast.submit_own", "resolution.propose"]
+      "capabilities": [
+        "question.register", "question.close_own", "question.annul_own",
+        "forecast.submit_own", "forecast.amend_own", "forecast.withdraw_own",
+        "resolution.propose"
+      ]
     },
     {
       "actor_id": "RED",
@@ -15,7 +19,7 @@
     },
     {
       "actor_id": "WILL",
-      "capabilities": ["policy.override"]
+      "capabilities": ["resolution.correct", "policy.override"]
     },
     {
       "actor_id": "RETIRED_FIXTURE",

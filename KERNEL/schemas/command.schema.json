@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "kernel/command/1",
-  "title": "Kernel v1 fixture command",
+  "title": "Kernel v1 fixture lifecycle command",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -12,7 +12,13 @@
     "schema_version": {"const": "kernel.schema.1"},
     "policy_version": {"const": "kernel.policy.1"},
     "command_id": {"type": "string", "pattern": "^CMD-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
-    "command_type": {"enum": ["RegisterQuestion", "SubmitForecast"]},
+    "command_type": {
+      "enum": [
+        "RegisterQuestion", "CloseQuestion", "AnnulQuestion",
+        "SubmitForecast", "AmendForecast", "WithdrawForecast",
+        "ProposeResolution", "VerifyResolution", "DisputeResolution", "CorrectResolution"
+      ]
+    },
     "actor_id": {"type": "string", "minLength": 1},
     "submitted_at": {"type": "string", "format": "date-time"},
     "expected_version": {"type": "integer", "minimum": 0},

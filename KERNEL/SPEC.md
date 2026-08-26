@@ -15,7 +15,7 @@ Current progress and the next implementation increment are canonical in `KERNEL/
 Authorized now:
 
 - fixture-only schemas, validation, replay, rendering, and tests;
-- binary-probability Question and Forecast fixtures;
+- binary-probability Question, Forecast, and Resolution lifecycle fixtures;
 - adversarial invalid fixtures;
 - generated views containing fixture data only.
 

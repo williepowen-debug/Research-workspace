@@ -17,5 +17,13 @@
       "independent_verifier_actor_id": "RED",
       "negative_search_procedure": null
     }
+  },
+  "lifecycle": {
+    "FIX-R-001": {
+      "outcome_value": "YES",
+      "resolution_evidence_refs": ["fixture://resolution-evidence"],
+      "negative_search_attempt": null,
+      "annulment_reason": null
+    }
   }
 }

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/dispute-resolution/1",
+  "title": "Kernel v1 DisputeResolution payload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["resolution_id", "question_id", "disputed_by", "dispute_evidence_refs"],
+  "properties": {
+    "resolution_id": {"type": "string", "pattern": "^R-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "question_id": {"type": "string", "pattern": "^Q-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "disputed_by": {"type": "string", "minLength": 1},
+    "dispute_evidence_refs": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+  }
+}

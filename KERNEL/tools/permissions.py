@@ -41,7 +41,15 @@ CAPABILITIES = {
 
 COMMAND_PERMISSIONS = {
     "RegisterQuestion": ("question.register", "owner_actor_id"),
+    "CloseQuestion": ("question.close_own", "closed_by"),
+    "AnnulQuestion": ("question.annul_own", "annulled_by"),
     "SubmitForecast": ("forecast.submit_own", "forecaster_actor_id"),
+    "AmendForecast": ("forecast.amend_own", "forecaster_actor_id"),
+    "WithdrawForecast": ("forecast.withdraw_own", "forecaster_actor_id"),
+    "ProposeResolution": ("resolution.propose", "proposed_by"),
+    "VerifyResolution": ("resolution.verify", "verified_by"),
+    "DisputeResolution": ("resolution.dispute", "disputed_by"),
+    "CorrectResolution": ("resolution.correct", "corrected_by"),
 }
 
 COMMAND_ACTOR_REFERENCES = {
@@ -51,6 +59,14 @@ COMMAND_ACTOR_REFERENCES = {
         "independent_verifier_actor_id",
     ),
     "SubmitForecast": ("forecaster_actor_id",),
+    "AmendForecast": ("forecaster_actor_id",),
+    "WithdrawForecast": ("forecaster_actor_id",),
+    "CloseQuestion": ("closed_by",),
+    "AnnulQuestion": ("annulled_by",),
+    "ProposeResolution": ("proposed_by",),
+    "VerifyResolution": ("verified_by",),
+    "DisputeResolution": ("disputed_by",),
+    "CorrectResolution": ("corrected_by",),
 }
 
 TIMESTAMP_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{6}Z")

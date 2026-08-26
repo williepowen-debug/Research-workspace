@@ -7,6 +7,7 @@ import datetime as dt
 import hashlib
 import json
 import sys
+from decimal import Decimal
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -55,16 +56,13 @@ def _escape(value: Any) -> str:
 
 
 def _question_and_forecasts(replay_result: Any) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
-    questions: list[dict[str, Any]] = []
+    questions = sorted(replay_result.question_states.values(), key=lambda item: item["question_id"])
     forecasts: dict[str, list[dict[str, Any]]] = {}
-    for event in replay_result.current.values():
-        if event["event_type"] == "QuestionRegistered":
-            questions.append(event)
-        elif event["event_type"] == "ForecastSubmitted":
-            forecasts.setdefault(event["payload"]["question_id"], []).append(event)
-    questions.sort(key=lambda item: item["object_id"])
+    for state in replay_result.forecast_states.values():
+        if state["state"] == "ACTIVE":
+            forecasts.setdefault(state["question_id"], []).append(state)
     for items in forecasts.values():
-        items.sort(key=lambda item: item["object_id"])
+        items.sort(key=lambda item: item["forecast_id"])
     return questions, forecasts
 
 
@@ -72,11 +70,12 @@ def _open_questions(metadata: list[tuple[str, str]], replay_result: Any) -> str:
     lines = _markdown_header("OPEN QUESTIONS — SHADOW", metadata)
     lines.extend(["| Question | Owner | Closes | Claim | Forecasts |", "|---|---|---|---|---|"])
     questions, forecasts = _question_and_forecasts(replay_result)
-    for event in questions:
-        payload = event["payload"]
+    questions = [question for question in questions if question["state"] == "OPEN"]
+    for question in questions:
+        payload = question["registration"]
         attached = forecasts.get(payload["question_id"], [])
         forecast_text = ", ".join(
-            f"{item['payload']['forecaster_actor_id']}={item['payload']['probability']}" for item in attached
+            f"{item['forecaster_actor_id']}={item['versions'][-1]['probability']}" for item in attached
         ) or "—"
         lines.append(
             f"| {_escape(payload['question_id'])} | {_escape(payload['owner_actor_id'])} | "
@@ -91,9 +90,12 @@ def _resolution_queue(metadata: list[tuple[str, str]], replay_result: Any, rende
     lines = _markdown_header("RESOLUTION QUEUE — SHADOW", metadata)
     lines.extend(["| Question | State | Resolver | Close time |", "|---|---|---|---|"])
     questions, _ = _question_and_forecasts(replay_result)
-    for event in questions:
-        payload = event["payload"]
-        state = "OVERDUE" if payload["closes_at"] <= render_as_of else "NOT_DUE"
+    questions = [question for question in questions if question["state"] != "FINAL"]
+    for question in questions:
+        payload = question["registration"]
+        state = question["state"]
+        if state == "OPEN":
+            state = "OVERDUE" if payload["closes_at"] <= render_as_of else "NOT_DUE"
         lines.append(
             f"| {_escape(payload['question_id'])} | {state} | {_escape(payload['resolver_actor_id'])} | "
             f"{_escape(payload['closes_at'])} |"
@@ -118,9 +120,36 @@ def _exceptions(metadata: list[tuple[str, str]], replay_result: Any) -> str:
     return "\n".join(lines) + "\n"
 
 
-def _calibration(metadata: list[tuple[str, str]]) -> str:
+def _calibration(metadata: list[tuple[str, str]], replay_result: Any) -> str:
     lines = [f"# {key}: {value}" for key, value in metadata]
     lines.append("question_id\tforecast_id\tforecast_version\tprobability\toutcome\tbrier_score\texclusion_reason")
+    rows: list[tuple[str, str, int, Any, str, str, str]] = []
+    for forecast in replay_result.forecast_states.values():
+        question = replay_result.question_states.get(forecast["question_id"])
+        outcome = question["outcome"] if question is not None and question["state"] == "FINAL" else None
+        for version in forecast["versions"]:
+            score = ""
+            exclusion = "QUESTION_NOT_FINAL"
+            if outcome in {"YES", "NO"}:
+                target = Decimal(1 if outcome == "YES" else 0)
+                probability = Decimal(str(version["probability"]))
+                score = format(((probability - target) ** 2).normalize(), "f")
+                exclusion = ""
+            elif outcome is not None:
+                exclusion = f"OUTCOME_{outcome}"
+            rows.append(
+                (
+                    forecast["question_id"],
+                    forecast["forecast_id"],
+                    version["forecast_version"],
+                    version["probability"],
+                    outcome or "",
+                    score,
+                    exclusion,
+                )
+            )
+    for row in sorted(rows):
+        lines.append("\t".join(str(value) for value in row))
     return "\n".join(lines) + "\n"
 
 
@@ -140,7 +169,7 @@ def render_views(events: Iterable[dict[str, Any]], *, render_as_of: str) -> dict
         "OPEN_QUESTIONS.md": _open_questions(metadata, replay_result),
         "RESOLUTION_QUEUE.md": _resolution_queue(metadata, replay_result, render_as_of),
         "EXCEPTIONS.md": _exceptions(metadata, replay_result),
-        "CALIBRATION.tsv": _calibration(metadata),
+        "CALIBRATION.tsv": _calibration(metadata, replay_result),
     }
 
 

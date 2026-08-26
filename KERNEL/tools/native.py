@@ -27,6 +27,19 @@ MATERIAL_FIELDS = {
         "question_id", "forecaster_actor_id", "information_as_of", "probability",
         "rationale_ref", "evidence_refs", "intervention_stage", "decision_consequence",
     },
+    "AmendForecast": {
+        "question_id", "forecaster_actor_id", "information_as_of", "probability",
+        "rationale_ref", "evidence_refs", "intervention_stage", "decision_consequence",
+    },
+    "CloseQuestion": {"closed_at"},
+    "WithdrawForecast": set(),
+    "ProposeResolution": {
+        "outcome_value", "resolution_evidence_refs", "negative_search_attempt", "annulment_reason",
+    },
+    "VerifyResolution": {"verified_outcome_value", "verification_evidence_refs", "disposition"},
+    "DisputeResolution": {"dispute_evidence_refs"},
+    "CorrectResolution": {"corrected_outcome_value", "correction_evidence_refs"},
+    "AnnulQuestion": {"annulment_reason"},
 }
 
 

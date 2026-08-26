@@ -160,7 +160,7 @@ class PermissionTests(unittest.TestCase):
         candidate = command()
         candidate["payload"]["independent_verifier_actor_id"] = []
         result = authorize_command(candidate, submission_path(candidate), self.registry)
-        self.assertIn("PERMISSION_DENIED", {finding.code for finding in result.findings})
+        self.assertIn("COMMAND_SCHEMA_INVALID", {finding.code for finding in result.findings})
 
     def test_invalid_registry_fails_closed(self):
         actors = json.loads((FIXTURES / "actors.json").read_text(encoding="utf-8"))

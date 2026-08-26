@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kernel/annul-question/1",
+  "title": "Kernel v1 AnnulQuestion payload",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["question_id", "annulled_by", "annulment_reason", "independent_approval_ref"],
+  "properties": {
+    "question_id": {"type": "string", "pattern": "^Q-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
+    "annulled_by": {"type": "string", "minLength": 1},
+    "annulment_reason": {"type": "string", "minLength": 1},
+    "independent_approval_ref": {"type": ["string", "null"]}
+  }
+}

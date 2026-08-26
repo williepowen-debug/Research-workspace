@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "kernel/event/1",
-  "title": "Kernel v1 fixture accepted event",
+  "title": "Kernel v1 fixture accepted lifecycle event",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -15,7 +15,13 @@
     "policy_version": {"const": "kernel.policy.1"},
     "writer_version": {"const": "kernel.writer.1"},
     "event_id": {"type": "string", "pattern": "^EVT-[0-9a-f]{8}-[0-9a-f]{4}-7[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"},
-    "event_type": {"enum": ["QuestionRegistered", "ForecastSubmitted"]},
+    "event_type": {
+      "enum": [
+        "QuestionRegistered", "QuestionClosed", "QuestionAnnulled",
+        "ForecastSubmitted", "ForecastAmended", "ForecastWithdrawn",
+        "ResolutionProposed", "ResolutionVerified", "ResolutionDisputed", "ResolutionCorrected"
+      ]
+    },
     "command_id": {"type": "string", "pattern": "^CMD-"},
     "command_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
     "command_result": {"const": "ACCEPTED"},
@@ -23,7 +29,7 @@
     "stream_version": {"type": "integer", "minimum": 1},
     "previous_event_id": {"type": ["string", "null"]},
     "object_id": {"type": "string", "minLength": 1},
-    "object_type": {"enum": ["QUESTION", "FORECAST"]},
+    "object_type": {"enum": ["QUESTION", "FORECAST", "RESOLUTION"]},
     "actor_id": {"type": "string", "minLength": 1},
     "writer_id": {"type": "string", "minLength": 1},
     "submitted_at": {"type": "string", "format": "date-time"},

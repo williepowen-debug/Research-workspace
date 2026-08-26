@@ -12,6 +12,8 @@ They are not validated native imports and must never be copied into `KERNEL/shad
 tests copy these files into temporary repositories and never inspect a real agent
 ledger. `predictions.tsv` and `companion.json` are happy paths; the other files
 exercise duplicate records, repeated headers, shifted rows, and ambiguous JSON.
+The companion also contains a synthetic Resolution proposal used to prove exact
+lifecycle material-term reconciliation.
 
 `permissions/` contains a synthetic actor registry and policy-versioned capability
 grants. They exercise identity, owned submission paths, half-open active windows,
@@ -29,3 +31,8 @@ Locking tests create only a disposable `.rw/locks/command.lock` beneath an injec
 operating-system temporary workspace. They use two local fixture processes to prove
 exclusive inventory→plan→write serialization and never acquire a live repository
 lock.
+
+Lifecycle tests construct synthetic commands in memory and publish their results
+only beneath an operating-system temporary fixture store. They cover complete and
+adversarial Question, Forecast, and Resolution paths without reading a submission
+directory or importing a real record.

@@ -12,7 +12,9 @@ from typing import Any, Callable, Iterable, Iterator
 
 from core import (
     AUTHORITY_MODE,
+    COMMAND_EVENT_TYPES,
     POLICY_VERSION,
+    REJECTION_REASONS,
     SCHEMA_VERSION,
     WRITER_VERSION,
     Finding,
@@ -21,6 +23,7 @@ from core import (
     validate_command,
     validate_event,
     validate_receipt,
+    validate_transition,
 )
 from locking import FixtureAcceptanceLock
 from planner import DependencyPlan, plan_commands
@@ -131,16 +134,20 @@ def build_accepted_event(
             [Finding("COMMAND_SCHEMA_INVALID", _finding_codes(validation.findings))]
         )
 
-    if command["command_type"] == "RegisterQuestion":
-        event_type = "QuestionRegistered"
-        object_type = "QUESTION"
-        object_id = command["payload"]["question_id"]
-    elif command["command_type"] == "SubmitForecast":
-        event_type = "ForecastSubmitted"
-        object_type = "FORECAST"
-        object_id = command["payload"]["forecast_id"]
-    else:  # validate_command already fails closed; retained as a defensive boundary.
+    command_type = command["command_type"]
+    payload = command["payload"]
+    event_type = COMMAND_EVENT_TYPES.get(command_type)
+    if event_type is None:  # validate_command already fails closed; retained as a defensive boundary.
         raise ResultConstructionError([Finding("COMMAND_SCHEMA_INVALID", "unsupported command type")])
+    if command_type in {"RegisterQuestion", "CloseQuestion", "AnnulQuestion"}:
+        object_type = "QUESTION"
+        object_id = payload["question_id"]
+    elif command_type in {"SubmitForecast", "AmendForecast", "WithdrawForecast"}:
+        object_type = "FORECAST"
+        object_id = payload["forecast_id"]
+    else:
+        object_type = "RESOLUTION"
+        object_id = payload["resolution_id"]
 
     event = {
         "schema_version": SCHEMA_VERSION,
@@ -160,13 +167,13 @@ def build_accepted_event(
         "writer_id": writer_id,
         "submitted_at": command["submitted_at"],
         "recorded_at": recorded_at,
-        "effective_at": None,
+        "effective_at": payload.get("closed_at") if command_type == "CloseQuestion" else None,
         "correlation_id": command["correlation_id"],
         "caused_by": command["caused_by"],
         "authority_mode": AUTHORITY_MODE,
         "native_refs": command["native_refs"],
-        "evidence_refs": command["payload"].get("evidence_refs", []),
-        "payload": command["payload"],
+        "evidence_refs": _event_evidence_refs(command_type, payload),
+        "payload": payload,
     }
     event_validation = validate_event(event)
     if not event_validation.valid:
@@ -275,6 +282,17 @@ class FixtureResultStore:
             return None, inventory.findings
         return inventory.results.get(command_id), []
 
+    def accepted_events(self) -> list[dict[str, Any]]:
+        inventory = self.inventory()
+        if not inventory.valid:
+            raise ResultConstructionError(inventory.findings)
+        events = [
+            stored.document
+            for stored in inventory.results.values()
+            if stored.document["command_result"] == "ACCEPTED"
+        ]
+        return sorted(events, key=lambda event: (event["stream_id"], event["stream_version"], event["event_id"]))
+
     def publish(self, document: dict[str, Any]) -> Path:
         validation = _validate_result_document(document)
         if not validation.valid:
@@ -370,8 +388,29 @@ class FixtureResultWriter:
             return self._reject_locked(
                 command,
                 recorded_at=recorded_at,
-                reason_code="COMMAND_SCHEMA_INVALID",
+                reason_code=_rejection_reason(validation.findings, "COMMAND_SCHEMA_INVALID"),
                 reason_detail=_finding_codes(validation.findings),
+            )
+        try:
+            history = self.store.accepted_events()
+        except ResultConstructionError as exc:
+            return WriteOutcome("BLOCKED", finding=exc.findings[0])
+        transition = validate_transition(command, history)
+        if not transition.valid:
+            return self._reject_locked(
+                command,
+                recorded_at=recorded_at,
+                reason_code=_rejection_reason(transition.findings, "TRANSITION_FORBIDDEN"),
+                reason_detail=_finding_codes(transition.findings),
+            )
+        target_history = [event for event in history if event["stream_id"] == command["target_stream_id"]]
+        inferred_previous = target_history[-1]["event_id"] if target_history else None
+        if previous_event_id is not None and previous_event_id != inferred_previous:
+            return self._reject_locked(
+                command,
+                recorded_at=recorded_at,
+                reason_code="STALE_EXPECTED_VERSION",
+                reason_detail="previous_event_id does not match the replayed stream head",
             )
         try:
             event = build_accepted_event(
@@ -379,7 +418,7 @@ class FixtureResultWriter:
                 event_id=event_id,
                 recorded_at=recorded_at,
                 writer_id=self.writer_id,
-                previous_event_id=previous_event_id,
+                previous_event_id=inferred_previous,
             )
             path = self.store.publish(event)
         except FileExistsError:
@@ -476,6 +515,39 @@ def _command_hash(command: Any) -> str:
 
 def _finding_codes(findings: list[Finding]) -> str:
     return ",".join(sorted({finding.code for finding in findings}))
+
+
+def _rejection_reason(findings: list[Finding], fallback: str) -> str:
+    preferred = (
+        "EVIDENCE_REQUIRED",
+        "PROTECTED_SELF_VERIFICATION",
+        "PERMISSION_DENIED",
+        "STALE_EXPECTED_VERSION",
+        "QUESTION_NOT_OPEN",
+        "TRANSITION_FORBIDDEN",
+        "FAMILY_NOT_ENABLED",
+        "INVALID_INFORMATION_CUTOFF",
+        "INVALID_TIMESTAMP",
+        "NATIVE_PATH_INVALID",
+    )
+    codes = {finding.code for finding in findings}
+    for code in preferred:
+        if code in codes and code in REJECTION_REASONS:
+            return code
+    return fallback
+
+
+def _event_evidence_refs(command_type: str, payload: dict[str, Any]) -> list[Any]:
+    field_by_command = {
+        "SubmitForecast": "evidence_refs",
+        "AmendForecast": "evidence_refs",
+        "ProposeResolution": "resolution_evidence_refs",
+        "VerifyResolution": "verification_evidence_refs",
+        "DisputeResolution": "dispute_evidence_refs",
+        "CorrectResolution": "correction_evidence_refs",
+    }
+    field_name = field_by_command.get(command_type)
+    return list(payload[field_name]) if field_name is not None else []
 
 
 def _fsync_directory(path: Path) -> None:
