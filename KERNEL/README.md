@@ -27,10 +27,11 @@ The first slice is fixture-only and binary-only:
 6. verify exact synthetic native references against committed Git blobs; and
 7. authorize fixture commands against injected actor and capability registries;
 8. inventory explicit fixture commands/results and deterministically plan dependencies; and
-9. atomically publish canonical accepted events or rejected receipts beneath injected temporary roots.
+9. atomically publish canonical accepted events or rejected receipts beneath injected temporary roots; and
+10. serialize fixture inventory→plan→write passes with an exclusive local lock.
 
-There is no live acceptance pipeline, exclusive acceptance lock, SQLite projection,
-live submission scan, commit automation, or push automation in this slice.
+There is no live acceptance pipeline, SQLite projection, live submission scan,
+commit automation, or push automation in this slice.
 
 Exact native-reference verification is read-only. TSV locators use the strict form
 `<declared-id-column>=<record-id>`; JSON companions use RFC 6901 JSON Pointers.
@@ -51,8 +52,14 @@ The fixture writer refuses every destination inside the live repository. Beneath
 injected temporary root it writes canonical JSON through a file-and-directory-fsynced
 temporary file and atomic rename, returns an existing result for a same-byte retry,
 never overwrites a different-byte command-ID result, and exposes stored summaries
-back to the planner. Exclusive concurrent-process serialization remains the next
-checkpoint.
+back to the planner.
+
+The fixture acceptance lock also refuses the live repository. It uses an advisory
+exclusive lock at `<injected-workspace>/.rw/locks/command.lock`; the locked pass
+holds it across durable-result inventory, dependency planning, and result writes.
+Direct writer calls hold the same lock across result lookup and publication. The
+lock protects one shared local workspace only and grants no actor capability or
+research authority.
 
 The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
 

@@ -5,9 +5,10 @@ from __future__ import annotations
 import json
 import os
 import tempfile
+from contextlib import contextmanager
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Callable
+from typing import Any, Callable, Iterable, Iterator
 
 from core import (
     AUTHORITY_MODE,
@@ -21,6 +22,8 @@ from core import (
     validate_event,
     validate_receipt,
 )
+from locking import FixtureAcceptanceLock
+from planner import DependencyPlan, plan_commands
 
 
 LIVE_KERNEL_ROOT = Path(__file__).resolve().parents[1]
@@ -67,6 +70,51 @@ class WriteOutcome:
     document: dict[str, Any] | None = None
     path: Path | None = None
     finding: Finding | None = None
+
+
+@dataclass
+class FixtureAcceptancePass:
+    """One inventory→plan→write session protected by the local fixture lock."""
+
+    writer: "FixtureResultWriter"
+    plan: DependencyPlan
+    _active: bool = True
+
+    def accept(
+        self,
+        command: dict[str, Any],
+        *,
+        event_id: str,
+        recorded_at: str,
+        previous_event_id: str | None = None,
+    ) -> WriteOutcome:
+        self._require_active()
+        return self.writer._accept_locked(
+            command,
+            event_id=event_id,
+            recorded_at=recorded_at,
+            previous_event_id=previous_event_id,
+        )
+
+    def reject(
+        self,
+        command: dict[str, Any],
+        *,
+        recorded_at: str,
+        reason_code: str,
+        reason_detail: str,
+    ) -> WriteOutcome:
+        self._require_active()
+        return self.writer._reject_locked(
+            command,
+            recorded_at=recorded_at,
+            reason_code=reason_code,
+            reason_detail=reason_detail,
+        )
+
+    def _require_active(self) -> None:
+        if not self._active:
+            raise RuntimeError("fixture acceptance pass is no longer lock-protected")
 
 
 def build_accepted_event(
@@ -264,7 +312,7 @@ class FixtureResultStore:
 
 
 class FixtureResultWriter:
-    """Sequential fixture writer; exclusive acceptance locking is checkpoint 7."""
+    """Fixture writer with local serialization and no policy authority."""
 
     def __init__(self, store: FixtureResultStore, *, writer_id: str):
         if not writer_id:
@@ -272,7 +320,41 @@ class FixtureResultWriter:
         self.store = store
         self.writer_id = writer_id
 
+    @contextmanager
+    def acceptance_pass(
+        self,
+        submissions: Iterable[dict[str, Any]],
+    ) -> Iterator[FixtureAcceptancePass]:
+        """Hold the lock across durable inventory, dependency planning, and writes."""
+
+        with self._acceptance_lock():
+            inventory = self.store.inventory()
+            if not inventory.valid:
+                raise ResultConstructionError(inventory.findings)
+            plan = plan_commands(submissions, inventory.planner_summaries())
+            acceptance_pass = FixtureAcceptancePass(self, plan)
+            try:
+                yield acceptance_pass
+            finally:
+                acceptance_pass._active = False
+
     def accept(
+        self,
+        command: dict[str, Any],
+        *,
+        event_id: str,
+        recorded_at: str,
+        previous_event_id: str | None = None,
+    ) -> WriteOutcome:
+        with self._acceptance_lock():
+            return self._accept_locked(
+                command,
+                event_id=event_id,
+                recorded_at=recorded_at,
+                previous_event_id=previous_event_id,
+            )
+
+    def _accept_locked(
         self,
         command: dict[str, Any],
         *,
@@ -285,7 +367,7 @@ class FixtureResultWriter:
             return prior
         validation = validate_command(command)
         if not validation.valid:
-            return self.reject(
+            return self._reject_locked(
                 command,
                 recorded_at=recorded_at,
                 reason_code="COMMAND_SCHEMA_INVALID",
@@ -301,7 +383,7 @@ class FixtureResultWriter:
             )
             path = self.store.publish(event)
         except FileExistsError:
-            return self.reject(
+            return self._reject_locked(
                 command,
                 recorded_at=recorded_at,
                 reason_code="IDENTIFIER_COLLISION",
@@ -312,6 +394,22 @@ class FixtureResultWriter:
         return WriteOutcome("WRITTEN", event, path)
 
     def reject(
+        self,
+        command: dict[str, Any],
+        *,
+        recorded_at: str,
+        reason_code: str,
+        reason_detail: str,
+    ) -> WriteOutcome:
+        with self._acceptance_lock():
+            return self._reject_locked(
+                command,
+                recorded_at=recorded_at,
+                reason_code=reason_code,
+                reason_detail=reason_detail,
+            )
+
+    def _reject_locked(
         self,
         command: dict[str, Any],
         *,
@@ -358,6 +456,9 @@ class FixtureResultWriter:
             stored.path,
             Finding("IDEMPOTENCY_KEY_REUSED", f"command_id {command.get('command_id')} has different bytes"),
         )
+
+    def _acceptance_lock(self) -> FixtureAcceptanceLock:
+        return FixtureAcceptanceLock(self.store.root.parent)
 
 
 def _validate_result_document(document: Any):

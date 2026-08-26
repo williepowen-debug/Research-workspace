@@ -24,3 +24,8 @@ submission directory or writing an event or receipt.
 
 Writer tests publish only beneath operating-system temporary directories. The
 fixture store rejects any destination inside the live repository tree.
+
+Locking tests create only a disposable `.rw/locks/command.lock` beneath an injected
+operating-system temporary workspace. They use two local fixture processes to prove
+exclusive inventory→plan→write serialization and never acquire a live repository
+lock.
