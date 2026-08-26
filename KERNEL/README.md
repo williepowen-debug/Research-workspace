@@ -26,10 +26,11 @@ The implemented slice is fixture-only and binary-question-only:
 5. render byte-stable empty or fixture-backed operator views;
 6. verify exact synthetic native references against committed Git blobs; and
 7. authorize fixture commands against injected actor and capability registries;
-8. inventory explicit fixture commands/results and deterministically plan dependencies; and
-9. atomically publish canonical accepted events or rejected receipts beneath injected temporary roots; and
-10. serialize fixture inventory→plan→write passes with an exclusive local lock; and
-11. enforce Question close/annul, Forecast amend/withdraw, and Resolution propose/verify/dispute/correct transitions.
+8. inventory explicit fixture commands/results and deterministically plan dependencies;
+9. atomically publish canonical accepted events or rejected receipts beneath injected temporary roots;
+10. serialize fixture inventory→plan→write passes with an exclusive local lock;
+11. enforce Question close/annul, Forecast amend/withdraw, and Resolution propose/verify/dispute/correct transitions; and
+12. verify additions-only synthetic Git history and reconcile explicit fixture submissions with durable results.
 
 There is no live acceptance pipeline, SQLite projection, live submission scan,
 commit automation, or push automation in this slice.
@@ -71,6 +72,15 @@ Direct writer calls hold the same lock across result lookup and publication. The
 lock protects one shared local workspace only and grants no actor capability or
 research authority.
 
+The fixture audit reads only injected synthetic Git histories and explicit
+submission/result inventories. It reports its exact perimeter and `PASS`,
+`EXCEPTION`, or `UNKNOWN`; any non-pass blocks an aggregate green claim. Protected
+accepted-event and receipt paths may only be added in the compared history.
+Modification, deletion, rename-away, and other non-addition statuses fail closed.
+Duplicate results are blocking, and a missing result becomes `AUDIT_GAP` only after
+the caller reports a successful pass. The CLI refuses the live repository and
+inventories stored inside it.
+
 The exact next increment and remaining Gate B sequence are canonical in `IMPLEMENTATION_STATUS.md`.
 
 ## Verification
@@ -92,4 +102,14 @@ python3 KERNEL/tools/render.py \
 python3 KERNEL/tools/verify_native.py \
   <synthetic-command.json> \
   --repository <temporary-synthetic-git-repository>
+
+python3 KERNEL/tools/audit.py additions-only \
+  --repository <temporary-synthetic-git-repository> \
+  --base <full-base-commit> \
+  --head <full-head-commit>
+
+python3 KERNEL/tools/audit.py durable-results \
+  --submissions <temporary-explicit-submission-inventory.json> \
+  --results <temporary-explicit-result-inventory.json> \
+  --pass-reported-success
 ```

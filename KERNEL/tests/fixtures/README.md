@@ -36,3 +36,8 @@ Lifecycle tests construct synthetic commands in memory and publish their results
 only beneath an operating-system temporary fixture store. They cover complete and
 adversarial Question, Forecast, and Resolution paths without reading a submission
 directory or importing a real record.
+
+Audit tests construct disposable Git repositories and explicit in-memory or
+temporary-file inventories. They prove additions-only history, duplicate-result
+blocking, post-success `AUDIT_GAP`, and fail-closed `UNKNOWN` behavior without
+reading the live repository or any live submission directory.

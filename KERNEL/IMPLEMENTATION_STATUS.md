@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–8 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, `b62b59abb`, and `865be30f5`; they remain fixture-only and do not complete Gate B or authorize live operation.
+**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoints 4–9 were subsequently implemented at `55a6dd182`, `264a8ade6`, `63b72bac2`, `b62b59abb`, `865be30f5`, and `19267e06d`; they remain fixture-only and do not complete Gate B or authorize live operation.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **99 tests pass**.
+Expected baseline at this checkpoint: **117 tests pass**.
 
 ## Authorization boundary
 
@@ -61,6 +61,7 @@ Expected baseline at this checkpoint: **99 tests pass**.
 | Gate B checkpoint 6 — durable accepted/rejected result writer | COMPLETE | `63b72bac2` | Strict receipt contract; canonical atomic fixture publication; durable-result inventory; same-byte retry idempotency; collision and crash-boundary tests; 74 tests passed |
 | Gate B checkpoint 7 — exclusive local acceptance lock | COMPLETE | `b62b59abb` | Repository-refusing `.rw/locks/command.lock`; locked inventory→plan→write pass; direct writer serialization; cross-process exclusion and release/authority-boundary tests; 80 tests passed |
 | Gate B checkpoint 8 — remaining lifecycle events | COMPLETE | `865be30f5` | Strict close/annul, amend/withdraw, and propose/verify/dispute/correct contracts; replay state machines; replay-backed writer transitions; lifecycle views, native terms, permissions, and adversarial receipts; 99 tests passed |
+| Gate B checkpoint 9 — additions-only and audit-gap verification | COMPLETE | `19267e06d` | Repository-refusing synthetic Git-history boundary; additions-only protected paths; explicit durable-result reconciliation; perimeter-aware `PASS`/`EXCEPTION`/`UNKNOWN`; 117 tests passed |
 
 Implemented behavior now includes:
 
@@ -115,7 +116,12 @@ Implemented behavior now includes:
 - replay-backed lifecycle acceptance that infers the exact previous event from the durable stream head;
 - Resolution proposal, dispute/re-proposal, verification, privileged correction, and annulment replay;
 - exact synthetic native material-term reconciliation for lifecycle outcomes and evidence; and
-- lifecycle-aware open-question, resolution-queue, and un-clipped corrected-outcome calibration views.
+- lifecycle-aware open-question, resolution-queue, and un-clipped corrected-outcome calibration views;
+- exact full-SHA synthetic history comparison over injected Git repositories;
+- additions-only enforcement for protected accepted-event and rejected-receipt paths, including modification, deletion, rename-away, and unknown-history blocking;
+- explicit fixture submission/result reconciliation with global duplicate-result blocking;
+- post-success `AUDIT_GAP` and pre-success `AUDIT_COMPLETENESS_UNKNOWN` distinction; and
+- audit CLI perimeter disclosure with exactly one of `PASS`, `EXCEPTION`, or `UNKNOWN` and live-repository refusal.
 
 ## Current limitations
 
@@ -126,20 +132,19 @@ The implementation does **not** yet:
 - automatically execute every planned command as one integrated acceptance pass;
 - orchestrate permissions, native verification, lifecycle validation, planning, and result writing as one acceptance pass;
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
-- enforce additions-only Git history;
 - rebuild from a disposable SQLite projection;
 - scan real repository submissions or generate live views.
 
-## Next increment — checkpoint 9
+## Next increment — checkpoint 10
 
-**Build additions-only and audit-gap verification using fixtures only.**
+**Build and delete/rebuild the disposable projection using fixtures only.**
 
-The next increment should inspect injected synthetic Git histories and explicit
-fixture submission/result inventories. It must prove that modification or deletion
-of an accepted event or receipt is blocking, that duplicate results remain
-blocking, and that a submission lacking exactly one durable result after a reported
-successful pass is `AUDIT_GAP`. It must not inspect live submissions, change Git
-ownership, or install the live-operation carve-out.
+The next increment should build `.rw/projection.sqlite` beneath an injected
+non-repository workspace from accepted fixture events, then prove that deleting
+`.rw/` and replaying the same durable events reproduces identical semantic state
+and registered view bytes. SQLite remains disposable and non-authoritative. It
+must not read live events, write registered live views, or make any accepted result
+exist only in the projection.
 
 ## Remaining Gate B sequence
 
@@ -151,8 +156,8 @@ ownership, or install the live-operation carve-out.
 | 4 | Durable accepted/rejected result writer | COMPLETE | Exactly one atomic fixture result per processed command; retry idempotency proven |
 | 5 | Exclusive local acceptance lock | COMPLETE | Concurrent fixture processes cannot both accept the same command |
 | 6 | Remaining lifecycle events | COMPLETE | Amendment, close, withdrawal, proposal, verification, dispute, correction, and annulment fixtures pass |
-| 7 | Additions-only and audit-gap verification | NEXT | Modified/deleted accepted fixture files and missing/duplicate results are blocking failures |
-| 8 | Disposable projection rebuild | PENDING | Delete `.rw/`; replay reproduces identical semantic state and committed-view bytes |
+| 7 | Additions-only and audit-gap verification | COMPLETE | Modified/deleted accepted fixture files and missing/duplicate results are blocking failures |
+| 8 | Disposable projection rebuild | NEXT | Delete `.rw/`; replay reproduces identical semantic state and committed-view bytes |
 | 9 | Gate B adversarial review | PENDING | Two independent readers agree on fixture outcomes; all checks state perimeter and limits |
 
 The sequence may be simplified when implementation evidence supports it, but any reordering or scope addition must be recorded here.
@@ -162,22 +167,28 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–8 complete; checkpoint 9 next |
+| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–9 complete; checkpoint 10 next |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification at commit `865be30f5`:
+Latest completed verification at commit `19267e06d`:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
-Ran 99 tests — OK
+Ran 117 tests — OK
 
 python3 -m compileall -q KERNEL/tools KERNEL/tests
 
 python3 KERNEL/tools/verify_native.py <synthetic-command> --repository <temporary-synthetic-git-repository>
 PASS: exact native bytes and material structured terms verified; research quality was not judged
+
+python3 KERNEL/tools/audit.py additions-only --repository <temporary-synthetic-git-repository> --base <full-base-commit> --head <full-head-commit>
+PASS: protected accepted-event and receipt paths contain additions only in the compared history
+
+python3 KERNEL/tools/audit.py durable-results --submissions <temporary-explicit-submission-inventory.json> --results <temporary-explicit-result-inventory.json> --pass-reported-success
+PASS: every explicit fixture submission has exactly one durable result
 ```
 
 ## Stop conditions
