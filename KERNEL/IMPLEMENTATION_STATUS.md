@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-25
 
-**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. This approval confirms the completed fixture increment only; it does not complete Gate B or authorize live operation.
+**Latest operator ruling:** Gate B checkpoint 3 approved by Will on 2026-08-25. Checkpoint 4 was subsequently implemented at `55a6dd182`; it remains fixture-only and does not complete Gate B or authorize live operation.
 
 **Current mode:** GATE B FIXTURE IMPLEMENTATION — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **35 tests pass**.
+Expected baseline at this checkpoint: **46 tests pass**.
 
 ## Authorization boundary
 
@@ -56,6 +56,7 @@ Expected baseline at this checkpoint: **35 tests pass**.
 | Gate B checkpoint 1 — contract and replay core | COMPLETE | `ee322ff5a` | Five strict JSON Schemas; pure validation/replay core; 9 tests passed |
 | Gate B checkpoint 2 — deterministic fixture views | COMPLETE | `262cd0641` | Four registered view renderers; valid/adversarial file fixtures; 20 tests passed; render/check byte reproduction passed |
 | Gate B checkpoint 3 — exact native-reference verification | COMPLETE / APPROVED | `65335142c` | Read-only injectable Git boundary; strict TSV/JSON selection; exact selected-byte hashes; material-term reconciliation; 35 tests passed; Will approved 2026-08-25 |
+| Gate B checkpoint 4 — actor registry and deterministic permissions | COMPLETE | `55a6dd182` | Strict actor/capability registries; owned-path, half-open-window, identity, payload-ownership, and capability checks; 46 tests passed |
 
 Implemented behavior now includes:
 
@@ -79,7 +80,12 @@ Implemented behavior now includes:
 - SHA-256 comparison over the exact selected TSV line bytes or canonical selected JSON value bytes;
 - stable fail-closed findings for missing commits/paths/records, ambiguous selections, invalid rows/pointers, hash mismatch, and material-term mismatch;
 - same-named material Question/Forecast field reconciliation across cited ledger and companion selections, without research-quality judgment;
-- an injectable Git boundary and temporary synthetic Git repositories for hermetic, network-free tests and CLI exercise.
+- an injectable Git boundary and temporary synthetic Git repositories for hermetic, network-free tests and CLI exercise;
+- strict injected actor and policy-versioned capability registries with duplicate and unknown-capability rejection;
+- exact agent-owned submission-path and command-filename verification without directory scanning;
+- half-open actor activity-window checks using the command's `submitted_at`;
+- payload-owner and referenced-actor identity checks for the enabled commands; and
+- deterministic capability enforcement proving that `command.accept` conveys custody only.
 
 ## Current limitations
 
@@ -88,7 +94,6 @@ The implementation does **not** yet:
 - enforce configured trusted-history reachability beyond resolving the supplied full commit in the injected repository;
 - support `TEXT_ANCHOR` (deliberately excluded from this live-compatible fixture slice);
 - reconcile Resolution material terms because Resolution commands are not implemented yet;
-- validate actor capabilities or submission-path ownership;
 - sort and process command dependencies;
 - write accepted events or rejected receipts;
 - implement idempotent command-result lookup;
@@ -99,23 +104,23 @@ The implementation does **not** yet:
 - rebuild from a disposable SQLite projection;
 - scan real repository submissions or generate live views.
 
-## Next increment — checkpoint 4
+## Next increment — checkpoint 5
 
-**Build the actor registry and deterministic permission checks using fixtures only.**
+**Build the dependency planner and pending-command inventory using fixtures only.**
 
-The next increment should validate actor identity, submission-path ownership, active
-windows, and command capabilities under the cited policy. It must preserve the
-custody boundary: `command.accept` grants PROME no research, resolution, or
-verification discretion. It must not scan a live submission directory or add a
-write-capable acceptance path.
+The next increment should inventory explicitly supplied synthetic submissions,
+separate commands that already have durable synthetic results, topologically order
+satisfiable dependencies, keep missing dependencies visible and unprocessed, and
+identify cycles or durably rejected prerequisites deterministically. It must not
+scan a live submission directory or write an accepted event or rejection receipt.
 
 ## Remaining Gate B sequence
 
 | Order | Increment | State | Exit condition |
 |---:|---|---|---|
 | 1 | Exact native-reference verification | COMPLETE | Synthetic Git-backed references pass; malformed/mismatched references fail closed |
-| 2 | Actor registry and deterministic permissions | NEXT | Actor/path/capability fixtures pass; custody grants no research authority |
-| 3 | Dependency planner and pending-command inventory | PENDING | Explicit dependencies topologically order; missing dependencies remain visible; cycles reject deterministically |
+| 2 | Actor registry and deterministic permissions | COMPLETE | Actor/path/capability fixtures pass; custody grants no research authority |
+| 3 | Dependency planner and pending-command inventory | NEXT | Explicit dependencies topologically order; missing dependencies remain visible; cycles reject deterministically |
 | 4 | Durable accepted/rejected result writer | PENDING | Exactly one atomic fixture result per processed command; retry idempotency proven |
 | 5 | Exclusive local acceptance lock | PENDING | Concurrent fixture processes cannot both accept the same command |
 | 6 | Remaining lifecycle events | PENDING | Amendment, close, withdrawal, proposal, verification, dispute, correction, and annulment fixtures pass |
@@ -130,17 +135,17 @@ The sequence may be simplified when implementation evidence supports it, but any
 | Gate | State | Meaning |
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
-| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–3 complete; checkpoint 4 next |
+| Gate B — fixture implementation | IN PROGRESS | Checkpoints 1–4 complete; checkpoint 5 next |
 | Gate C — live shadow activation | NOT AUTHORIZED | Requires separate Will approval and all listed activation prerequisites |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification at commit `65335142c`:
+Latest completed verification at commit `55a6dd182`:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
-Ran 35 tests — OK
+Ran 46 tests — OK
 
 python3 -m compileall -q KERNEL/tools KERNEL/tests
 
