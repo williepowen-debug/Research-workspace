@@ -1,5 +1,46 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> # ⛔ 2026-08-27 PM CLOSEOUT — READ THIS BLOCK FIRST. ONE OBLIGATION IS UNDISCHARGED AND IT HAS A HARD CLOCK.
+>
+> **Will closed this session ~13:1x ET, markets still OPEN. The next session boots POST-CLOSE.**
+>
+> ## 🔴 THE ONE THING OWED: grade VULCAN-16 on the POST-CLOSE reading (≥16:00 ET, 2026-08-27)
+> **Unchanged from this morning's block — I did NOT grade it, deliberately, twice.** The registered resolver is the POST-CLOSE reading; PROME asked for an intraday grade this morning and I declined, and PROME recorded the decline as its own defect. **Do not grade it early because the physical leg already turned.**
+> 1. **`.venv/bin/python AGENTS/VULCAN/tools/semi_watch.py`** — post-close. **Reading #1 of the six** that count toward the S2 re-arm rule's *"3+ consecutive readings"*. ⚠️ **A partial run is a FAILED run [L-16].**
+> 2. **`.venv/bin/python AGENTS/VULCAN/tools/mag7.py`** — same window. ⚠️ **NEW: it now writes TWO ledgers** (`MAG7_SERIES.tsv` + `LAYER_SERIES.tsv`, 4 rows/run). **CHECK `holdings_asof` FIRST: today's run used the 26-Aug file. If SSGA has not published 27-Aug, a second run writes a DUPLICATE VINTAGE row — that is untidy, not wrong, but say so if you do it.**
+> 3. **Grade VULCAN-16.** Pre-state frozen 8/24: **spread +3.31pp · DDR5 $54.17 · DDR4 $91.32.** Branches: **|Δ| < 5pp = BLOC/de-risking → CONFIRMED · Δ ≥ +5pp = memory-specific INFORMATION → REFUTED (and that IS re-arm evidence on the 8/21 basis) · Δ ≤ −5pp = AI-compute-specific → REFUTED, reroute S1/S5.**
+> 4. ⚠️ **THE ESCAPE CLAUSE HAS ALREADY FIRED ON THE LETTER** — DDR5 printed **−0.12%** ($53.93), the first decline in the retained series, and both legs sit below the 8/24 pre-state. **The clause was drafted with NO magnitude bar and NO session count, which violates this desk's own *"sustained carries N+ sessions"* discipline. That is MY drafting error, made 8/24.** 🔴 **DO NOT NARROW IT NOW [L-11(b)] — grade as written, state the magnitude honestly, record the spec defect for FUTURE rows.**
+> 5. **Name WHICH claim died** — *"bloc/de-risking"* and *"not S2"* are SEPARATE and can fail independently.
+> 6. ⚠️ **State the basis wrinkle:** the 8/24 pre-state is INTRADAY (16:10Z); today's is POST-CLOSE. The Δ is post-close-minus-intraday; the 5pp band sits above the measured 3.86pp construction noise, so it should not flip a branch — **say it anyway.**
+> 7. **Then:** STATUS write → **re-stamp `NEXUS_BRIEF.md`'s `STATUS commit:` pin to the new STATUS HEAD and re-commit** (Am.11) → packet PROME → `scripts/safe-push.sh`.
+>
+> ## WHAT THIS PM SESSION DID (all committed + pushed)
+> - **BUILT the sector-within-index leg on `mag7.py`** → `workbook/LAYER_SERIES.tsv` (10th ledger, wired into SCHEMA + boot legs 1/7 the same session). ⚠️ **It is the S&P, NOT QQQ** — Invesco 406s its whole domain, so QQQ weights are **PUBLIC-BUT-UNFETCHED**; the QQQ variant stays OPEN. **Its validator earned itself on run #1:** end-weight contributions reconstructed the 63d move with a **+2.24pp residual against a +2.34pp move** — the error WAS the move. Daily-chained weights cut it to **+0.08pp (28×)**. [KB-131/132/133]
+> - **THE READING:** over **63d the index rose +2.34pp while the AI-hardware layer SUBTRACTED −0.35pp** (hyperscalers −0.09pp, everything else +3.64pp) — independently corroborates the breadth read from a different construction. Over **21d the capex SPENDERS carried it (+1.76pp on a 16.80% weight) vs AI-compute silicon (+0.47pp on 11.73%).**
+> - **THREE REVIEW PASSES over STATUS / THESIS / NEXUS_BRIEF / TRADE**, driven by `consumer_check --self`. **28 file edits, all verified on disk.**
+> - **Will caught a real pattern: *"finding problems but not following through."*** He was right — I had written *"registered for the DAEDALUS sweep"* twice while registering NOTHING (**the exact PAT-063 transport gap this desk raised with DAEDALUS on 8/21 — reproduced while writing it up**), and never re-asked the NEXUS ruling. **Both packets now written AND committed; register FOUR→SEVEN.**
+>
+> ## 🔑 THE FINDING OF THE DAY, four instances, one class
+> **A section or heading whose NAME asserts freshness is where staleness hides, because the label does the reader's checking for them.** ① STATUS's `## LIVE CHANNEL READS` had rotted into a historical log while the session blocks above it were current. ② The brief's `📌 STANDING ITEMS BY DESK` — *self-declared canonical* — had **not changed since 8/21 while the brief was re-pinned FIVE times.** ③ THESIS's *"What CANNOT be concluded YET"* over a body saying the withholding is *permanent*. ④ The archive titled *"pre-August"* holding August records.
+> 🔑 **AND THE MECHANISM: "put the surface in a loop" was NOT sufficient. The unit of loop-membership is the SECTION, not the FILE** — a closeout **writes** narrative and only **reads** state, so the state-bearing section rots inside a file that is demonstrably in the loop. **Registered with DAEDALUS as sweep item 7.**
+>
+> ## ⚠️ WHAT THE CLOSEOUT ITSELF THEN CAUGHT — run it properly, do not declare it done
+> - **`VX.tsv` S1 carried `as_of: 2026-08-27` over a state+source both dated 8/24** — a fresh header CERTIFYING a stale body. It was the one live state ledger the morning sweep never classified.
+> - **`CLAUDE.md` said *"ALL EIGHT ledgers"* — there are TEN.**
+> - 🔴 **THE KILL RAIL'S DATED REWRITE TRIGGER HAD MOVED A WEEK EARLIER AND NOTHING SAID SO.** It fires on the FIRST of {MU FQ4 · 9/30 · 11/15}; this morning's MU re-date (~9/29 → **~9/22, window opens 9/17**) reached CATALYSTS/PREDICTIONS/STATUS/brief **but not the trigger that DEPENDS on it.** ⚠️ **A *"whichever is FIRST"* trigger inherits every leg's date — re-dating one leg silently re-dates the trigger.** Fixed in `EXIT_PROTOCOL.md` §7 + §4 and the register. **It is a FORWARD COMMITMENT, not a from-state.**
+>
+> ## STATE AT CLOSE
+> **Composite 15/25, seventh session. S1–S5 all 3. Thesis-kill 1 of 3 (re-read leg by leg, PM entry in the rail). Fired-count 0 of 5.** Mag-7 **32.9085%** [holdings 8/26], **0.0915pp** under the 33% yellow line, band below-yellow; breadth **+5.00pp / 97.3rd pctile**. **No band tripped, no score moved, no band retuned with instances in hand [L-11(b)].**
+> **STATUS archived 8/21 passes 7-9 → 247 → 205 lines** (moved NOW so the post-close session does not hit the cap under a hard clock).
+>
+> ## ❌ STILL OPEN
+> - **`## LIVE CHANNEL READS` restructure** — registered, deliberately not attempted mid-session.
+> - **The QQQ variant** of the sector leg — blocker NAMED (Invesco 406, api.nasdaq 404), not a dead end.
+> - **`NEXUS_BRIEF` length** ~189 lines vs the 100-line §4.5 ceiling — **re-asked 8/27**, ruling owed since 8/21.
+> - **8/28 DAEDALUS sweep — SEVEN VULCAN items.** **PROME's L-21 routing to Will still UNRULED.**
+> - The compute-spot-index baseline (deferred since 7/22 — **same gap WALTER named; do not double-count**). Hyperscaler long-dated-issuance check (KB-096). **Company-level DRAM capacity is PROME's coverage gap, not my chase.**
+
+
 > # ⛔ 2026-08-27 CLOSEOUT — READ THIS BLOCK BEFORE ANYTHING ELSE. ONE OBLIGATION IS UNDISCHARGED AND IT HAS A HARD CLOCK.
 >
 > **Will closed the session at ~12:3x ET and is booting fresh AFTER THE CLOSE. That is the whole reason this block exists.**

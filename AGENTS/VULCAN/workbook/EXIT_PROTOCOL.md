@@ -51,6 +51,18 @@
 
 ---
 
+### 🔴 THESIS-KILL RE-EVALUATION 2026-08-27 **PM** (second closeout, Will-directed reconcile session) — **STILL 1 of 3, re-read leg by leg, and the session produced NO market datum that touches any leg.**
+
+**Leg 1 (capex re-accelerates ≥+40% YoY):** unmet, not yet observable — resolves at the Jan-2027 guides (`VULCAN-10`). Unchanged.
+**Leg 2 (Mag-7 ≤28%, 3+ months, no VIX>30, no SPX DD>15%):** unmet. Current reading refreshed to **32.9085%** [holdings as-of 8/26] from 32.87% [8/21] — **+0.04pp, and ~4.9pp from the ≤28% bar.** ⚠️ **The from-state stays 32.98% [8/20] — a market move never moves a from-state** (fourth consecutive session stating this; the 8/21 change was a *correction*, which is a different act that looks identical in a diff).
+**Leg 3 (memory stays healthy):** **still MET.** No new datum this session — the morning's two opposite-signed 8/27 points ($279B procurement vs the DDR5 −0.12% turn) are already recorded above and neither is this leg's instrument (DRAM **contract**, −25% QoQ).
+
+**⇒ STILL 1 of 3.** All three required; legs 1 and 2 unmet.
+
+🆕 **A NEW INSTRUMENT NOW BEARS ON LEG 2, recorded because a kill leg gaining an instrument is worth more than a reading:** the sector-within-index decomposition (`workbook/LAYER_SERIES.tsv`, built today) says that over **63 trading days the index rose +2.34pp while the AI-hardware layer SUBTRACTED −0.35pp** and the hyperscalers −0.09pp. **That is directionally what leg 2 describes — concentration unwinding — measured for the first time as a CONTRIBUTION rather than a weight level.** ⚠️ **It does NOT move the leg:** leg 2's bar is a **weight ≤28% sustained 3+ months**, and a 63-day contribution drag is neither that metric nor that duration. **Logged as a second, independent way to watch leg 2 approach — not as evidence it has.**
+
+**Dated rewrite trigger: NOT DUE — but it moved.** Fires on the FIRST of {MU FQ4 **~9/22, window opens 9/17** · the 9/30 resolutions · 2026-11-15}. **The earliest leg is now ~21-26 days out, a week nearer than the ~9/29 this file carried this morning** — see §7.
+
 ### 🔴 THESIS-KILL RE-EVALUATION 2026-08-27 (closeout step 3, after the NVDA print + 10-Q) — **STILL 1 of 3. And the counterintuitive result is that the session's BIGGEST datum pushed on the leg that is ALREADY MET — i.e. toward the thesis dying, not away from it.**
 
 **Re-read leg by leg against today's material, not restated.**
@@ -155,7 +167,7 @@ The 8/3 S2 upgrade 2 → 3 rested on **two** stated legs. **One of them has fail
 
 ⚠️ **The previous flip (STATUS:135) named the 7/22-7/29 earnings stack and EXPIRED with it on 7/31.** No successor existed for 13 days. A rail whose only flip has expired is a rail that cannot fire.
 
-**Next resolver: MU FQ4 FY26, ~2026-09-29** — the one dated release before VULCAN-02/-11/-12 all resolve 9/30.
+**Next resolver: MU FQ4 FY26, **~2026-09-22** *(window opens **09-17**; re-dated 2026-08-27 from ~9/29 — derived from MU's own filing history, `fiscalYearEnd=0903` is a NOMINAL EDGAR marker not a period end. Still MODELED)*** — the one dated release before VULCAN-02/-11/-12 all resolve 9/30. **Headroom to the 9/30 resolve date is now ~6-13 days, not ~1.**
 
 | Direction | What must be observed at MU FQ4 | Consequence |
 |---|---|---|
@@ -193,5 +205,5 @@ The 8/3 S2 upgrade 2 → 3 rested on **two** stated legs. **One of them has fail
 
 - **Re-read this file at every closeout falsification check.** Boot↔closeout symmetry: what you read at boot, you write back.
 - **Thesis-kill leg count: re-evaluate every closeout.** It is `1 of 3` today; a count that never moves is a count nobody is checking.
-- **⚠️ DATED REWRITE TRIGGER** *(per `[[finding_banner_is_a_warning_not_a_fix]]` — a banner without a date is a deferral)*: **rewrite this rail when MU FQ4 prints (~2026-09-29), OR when VULCAN-02/-11/-12 resolve (2026-09-30), OR by 2026-11-15 — whichever is FIRST.** Three of five channel-kill rows and the entire §4 flip resolve inside that window, so a rail read after it without a rewrite is describing a phase that has passed.
+- **⚠️ DATED REWRITE TRIGGER** *(per `[[finding_banner_is_a_warning_not_a_fix]]` — a banner without a date is a deferral)*: **rewrite this rail when MU FQ4 prints (**~2026-09-22** *(window opens **09-17**; re-dated 2026-08-27 from ~9/29 — derived from MU's own filing history, `fiscalYearEnd=0903` is a NOMINAL EDGAR marker not a period end. Still MODELED)*), OR when VULCAN-02/-11/-12 resolve (2026-09-30), OR by 2026-11-15 — whichever is FIRST.** 🔴 **THE EARLIEST LEG MOVED A WEEK EARLIER ON 2026-08-27 AND THIS LINE DID NOT FOLLOW IT UNTIL THE PM CLOSEOUT.** The MU re-date was propagated to `CATALYSTS.tsv`, `PREDICTIONS.tsv`, `STATUS.md` and the NEXUS brief the same morning — **and not to the trigger that DEPENDS on it.** ⚠️ **A 'whichever is FIRST' trigger inherits every one of its legs' dates, so re-dating any leg silently re-dates the trigger; nothing announces it** [`finding_dated_carry_item_has_no_expiry_check`]. **This is a FORWARD COMMITMENT, not a from-state — moving it is required, and it is NOT the act the from-state rule forbids.** Three of five channel-kill rows and the entire §4 flip resolve inside that window, so a rail read after it without a rewrite is describing a phase that has passed.
 - **If a future reader finds this file asserting a live condition that has already resolved, that is the failure this rail exists to prevent** — and the §3 self-indictment is the model for how to record it.
