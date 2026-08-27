@@ -5,10 +5,13 @@
 This directory contains the completed Gate B fixture implementation and the
 planning workspace for the Kernel v1 operational shadow registry.
 
-No real native record may be inspected or imported and no shadow operation is
-active. Gate C planning is authorized, but live implementation, Git carve-out
-installation, custody activation, real-record selection, and shadow activation
-remain separately gated in [`GATE_C_READINESS_PLAN.md`](GATE_C_READINESS_PLAN.md).
+No shadow operation is active. The explicit live-shadow interface
+(`tools/live_shadow.py`) exists under the Will-authorized C7 remediation
+(2026-08-26) but writes nothing without a validated operator activation
+document, and no activation for the live repository exists; its independent
+adversarial review is owed (`GATE_C_LIVE_INTERFACE_REMEDIATION.md`). Custody
+activation and shadow activation remain separately gated in
+[`GATE_C_READINESS_PLAN.md`](GATE_C_READINESS_PLAN.md).
 
 ## Authority
 
@@ -116,6 +119,14 @@ The exact next increment and remaining Gate B sequence are canonical in `IMPLEME
 
 ```bash
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
+
+# Live-shadow interface (writes nothing without a validated activation document;
+# rehearse only against a disposable clone playing the live root):
+python3 KERNEL/tools/live_shadow.py \
+  --activation <operator-activation.json> \
+  --live-repository-root <the-root-the-activation-pins> \
+  --submission-commit <full-commit-sha> \
+  --preflight            # or --apply | --check-views | --audit-additions --base <sha> --head <sha>
 
 python3 KERNEL/tools/git_policy_check.py \
   CLAUDE.md AGENTS.md KERNEL/README.md KERNEL/SPEC.md \

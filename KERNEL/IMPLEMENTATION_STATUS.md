@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will authorized C7 packet preparation on 2026-08-26. Preflight found that the integrated boundary remains synthetic-only and hard-refuses live writes, so C7 is blocked and no activation ruling was presented.
+**Latest operator ruling:** Will authorized the bounded live-interface remediation on 2026-08-26 in-session ("approved - go ahead with the build"). The remediation is built and the disposable rehearsal was repeated through the exact new interface; the independent adversarial review is owed before any fresh C7 packet. No activation ruling has been requested.
 
 **Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **191 tests pass**.
+Expected baseline at this checkpoint: **207 tests pass**.
 
 ## Authorization boundary
 
@@ -65,6 +65,7 @@ Expected baseline at this checkpoint: **191 tests pass**.
 | Gate B checkpoint 10 — disposable projection rebuild | COMPLETE | `94eb93602` | Root `.rw/` ignore boundary; atomic SQLite rebuild from explicit fixture events; strict read reconciliation; delete/rebuild semantic and view-byte identity; 136 tests passed |
 | Gate B checkpoint 11 — fixture adversarial review | COMPLETE / BLOCKING FINDINGS | `720b8e2e9` reviewed baseline | Two readers agreed on all 22 expected outcomes and component-vs-complete-path qualifications; review proved the integrated acceptance path and uniform executable check disclosure are absent; `GATE_B_ADVERSARIAL_REVIEW.md` |
 | Gate B checkpoint 12 — integrated fixture acceptance and check disclosure | COMPLETE / INDEPENDENT PASS | `e212bd26b` starting baseline | Ready-only integrated schema/permission/native/lifecycle/write path; durable dependency dispositions; retry re-verification; explicit `UNKNOWN` accounting; render disclosure; 155 tests; `CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md` |
+| Gate C live-interface remediation | BUILT + REHEARSED / INDEPENDENT REVIEW OWED | `f8560f2c0` | One explicit activation-gated live door (`live_shadow.py` + minted grant); no synthetic refusal weakened; refusal matrix tested; disposable C6 rehearsal repeated through the exact interface with a durable transcript; 207 tests; `GATE_C_LIVE_INTERFACE_REMEDIATION.md` |
 
 Implemented behavior now includes:
 
@@ -143,14 +144,20 @@ The implementation does **not** yet:
 - enforce configured trusted-history reachability beyond resolving the supplied full commit in the injected repository;
 - support `TEXT_ANCHOR` (deliberately excluded from this live-compatible fixture slice);
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
-- scan real repository submissions or generate live views.
+- scan any submission directory — live input discovery is and remains an explicit operator-pinned inventory, never a filesystem or repository scan.
 
-## Next action — authorize live-interface remediation
+An executable live-shadow interface now exists (`tools/live_shadow.py`), but it
+has not been independently reviewed and no activation document for the real
+repository exists; no live command, result, view, or shadow operation has
+occurred.
 
-**C6 is complete for the synthetic interface, but C7 preflight found no
-executable live-shadow interface. Do not create live commands or results or
-bypass the synthetic boundary. Remediation, repeat rehearsal, and a fresh C7
-ruling are separately required.**
+## Next action — independent adversarial review of the live interface
+
+**The remediation is built and rehearsed. The next step belongs to a reviewer
+who is not the builder, in a separate sitting: run the review brief in
+`GATE_C_LIVE_INTERFACE_REMEDIATION.md`. Only after that review may a fresh C7
+packet fix start and end timestamps and request an activation ruling. Do not
+create live commands or results or activate custody before that ruling.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
@@ -187,12 +194,27 @@ The sequence may be simplified when implementation evidence supports it, but any
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
 | Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
-| Gate C — live shadow activation | C1–C6 COMPLETE / C7 BLOCKED / NOT ACTIVE | Synthetic rehearsal passed, but no integrated executable live-shadow writer exists; remediation and repeat rehearsal are required |
+| Gate C — live shadow activation | C1–C6 COMPLETE / C7 REMEDIATION BUILT + REHEARSED / REVIEW OWED / NOT ACTIVE | The explicit live interface exists and the rehearsal repeated through it passed; independent adversarial review, then a fresh timestamped C7 packet and Will's ruling, are required before any live command |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
 
-Latest completed verification after checkpoint 12 remediation:
+Latest completed verification after the live-interface remediation:
+
+```text
+python3 -m unittest discover -s KERNEL/tests -p 'test*.py'
+Ran 207 tests — OK
+
+python3 -m compileall -q KERNEL/tools KERNEL/tests
+PASS
+
+KERNEL/tools/live_shadow.py --preflight / --apply / --check-views / --audit-additions
+Disposable-clone rehearsal through the exact live interface: every step passed;
+durable transcript = KERNEL/rehearsals/2026-08-26_live-interface-rehearsal-transcript.txt;
+live repository verified untouched (0 files under live KERNEL/shadow + KERNEL/views).
+```
+
+Prior verification after checkpoint 12 remediation:
 
 ```text
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v

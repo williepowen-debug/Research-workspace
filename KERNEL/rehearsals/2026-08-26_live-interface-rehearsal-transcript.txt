@@ -1,0 +1,222 @@
+# Gate C live-interface rehearsal transcript — 2026-08-27T02:28:31Z (real clock, UTC)
+# Disposable clone rehearsal of the C6 flow through KERNEL/tools/live_shadow.py
+
+$ git clone --quiet /home/willi/Research-workspace /tmp/kernel-live-rehearsal-20260826/mirror
+$ git -C /tmp/kernel-live-rehearsal-20260826/mirror rev-parse HEAD
+f8560f2c0be1c4034c41228746b9df36c0b6bc84
+$ write synthetic mirror marker (disposable clone; live root remains the forbidden input to prepare_pilot)
+submitted_at=2026-08-27T02:28:33.486158Z
+$ python3 KERNEL/tools/prepare_pilot.py --mirror /tmp/kernel-live-rehearsal-20260826/mirror --source-commit 1d9400425f7415083a9ffbd10964670bf255abf2 --submitted-at 2026-08-27T02:28:33.486158Z --live-repository-root /home/willi/Research-workspace
+{"event_ids":"/tmp/kernel-live-rehearsal-20260826/mirror/.rw/rehearsal/event-ids.json","inventory":"/tmp/kernel-live-rehearsal-20260826/mirror/.rw/rehearsal/inventory.json","notice":"SHADOW \u2014 NON-AUTHORITATIVE","source_commit":"1d9400425f7415083a9ffbd10964670bf255abf2","submissions":["AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000033.json","AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000034.json"]}
+$ commit the two SAM-33 submissions in the clone (the step SAM performs in a real pilot)
+submission_commit=79b533eb107ea2e1db259a84fed0afdffdc49d76
+rehearsal live-activation window: 2026-08-27T02:18:34.087853Z .. 2026-08-27T05:28:34.087853Z
+activation sha256: ad06353495acac9bcd2c8812fb822f1114ef19ba3585ab4c0487ee1823f74588
+
+== STEP 1: PREFLIGHT (read-only) ==
+$ python3 KERNEL/tools/live_shadow.py --activation <act> --live-repository-root /tmp/kernel-live-rehearsal-20260826/mirror --submission-commit 79b533eb107ea2e1db259a84fed0afdffdc49d76 --preflight
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+perimeter: activation_id=LIVE-REHEARSAL-2026-08-26 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET.md repository_root=/tmp/kernel-live-rehearsal-20260826/mirror window=2026-08-27T02:18:34.087853Z..2026-08-27T05:28:34.087853Z writer_id=PROME commands=2 recorded_at=2026-08-27T02:28:48.414512Z
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: native-reference
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: lifecycle
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=deferred_pending_dependency
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=read_only
+PASS: native-reference
+preflight-writes: 0 (read-only mode wrote nothing)
+PASS proves: every read-only preflight check passed for the printed perimeter
+PASS does not prove: acceptance, durable results, or state outside this perimeter
+exit=0
+$ verify nothing written:
+ls: cannot access '/tmp/kernel-live-rehearsal-20260826/mirror/KERNEL/shadow/events': No such file or directory
+ls: cannot access '/tmp/kernel-live-rehearsal-20260826/mirror/KERNEL/views': No such file or directory
+
+== STEP 2: ABORT DRILL — active substitute custody blocks the primary before any write ==
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_APPLY
+perimeter: activation_id=LIVE-REHEARSAL-2026-08-26 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET.md repository_root=/tmp/kernel-live-rehearsal-20260826/mirror window=2026-08-27T02:18:34.087853Z..2026-08-27T05:28:34.087853Z writer_id=PROME commands=2 recorded_at=2026-08-27T02:28:48.510519Z
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000033 recorded_at=2026-08-27T02:28:48.510519Z
+EXCEPTION: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+CUSTODY_DENIED	$.writer_id	primary custody is suspended during the substitute window
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000034 recorded_at=2026-08-27T02:28:48.510519Z
+EXCEPTION: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+CUSTODY_DENIED	$.writer_id	primary custody is suspended during the substitute window
+perimeter: check=aggregate custody_preflight=true explicit_submissions=2 durable_outcomes=0
+EXCEPTION: aggregate
+PASS proves: every required check instantiated by this fixture run passed and no selected command remains waiting
+PASS does not prove: live readiness, research truth, Gate C authorization, or state outside the printed fixture perimeter
+views: not rendered — a selected command has no durable result
+perimeter: check=durable-results explicit_submissions=2 explicit_results=0 pass_reported_success=false
+UNKNOWN: durable-results
+AUDIT_COMPLETENESS_UNKNOWN	$results	no result and no successful-pass claim for CMD-019305f8-ec00-7000-8000-000000000033
+AUDIT_COMPLETENESS_UNKNOWN	$results	no result and no successful-pass claim for CMD-019305f8-ec00-7000-8000-000000000034
+exit=1
+$ verify nothing written:
+0
+
+== STEP 3: APPLY — one attended acceptance pass ==
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_APPLY
+perimeter: activation_id=LIVE-REHEARSAL-2026-08-26 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET.md repository_root=/tmp/kernel-live-rehearsal-20260826/mirror window=2026-08-27T02:18:34.087853Z..2026-08-27T05:28:34.087853Z writer_id=PROME commands=2 recorded_at=2026-08-27T02:28:48.637342Z
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000033 recorded_at=2026-08-27T02:28:48.637342Z
+PASS: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000034 recorded_at=2026-08-27T02:28:48.637342Z
+PASS: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+perimeter: check=schema submission_index=0 command_id='CMD-019305f8-ec00-7000-8000-000000000033'
+PASS: schema
+PASS proves: the supplied command matches the registered strict command contract
+PASS does not prove: research truth, authorization, native fidelity, or lifecycle legality
+perimeter: check=schema submission_index=1 command_id='CMD-019305f8-ec00-7000-8000-000000000034'
+PASS: schema
+PASS proves: the supplied command matches the registered strict command contract
+PASS does not prove: research truth, authorization, native fidelity, or lifecycle legality
+perimeter: check=planning completed=0 ready=2 waiting=0 rejections=0
+PASS: planning
+PASS proves: the explicit submission/result inventories have the reported deterministic dependency disposition
+PASS does not prove: filesystem completeness, live submission discovery, or execution of any non-ready command
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000033 path=AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000033.json
+PASS: permissions
+PASS proves: the actor, owned path, identity, activity window, and capabilities satisfy the injected policy
+PASS does not prove: actor competence, substantive independence beyond policy, or native fidelity
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000033 references=2
+PASS: native-reference
+PASS proves: the exact cited synthetic bytes and implemented material terms reconcile
+PASS does not prove: research quality, analytical persuasiveness, or trusted-history reachability beyond the supplied commit
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000033 accepted_history=0
+PASS: lifecycle
+PASS proves: the command is legal against the explicitly replayed accepted fixture history
+PASS does not prove: permission, native fidelity, or the absence of unsubmitted commands
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000033 outcome=WRITTEN
+PASS: writer
+PASS proves: the reported fixture result was atomically published or matched one prior durable result
+PASS does not prove: checks not listed as PASS for this command or authority outside the injected fixture store
+perimeter: check=durability command_id=CMD-019305f8-ec00-7000-8000-000000000033 store=/tmp/kernel-live-rehearsal-20260826/mirror/KERNEL
+PASS: durability
+PASS proves: the command has exactly one valid durable fixture result in the explicit store inventory
+PASS does not prove: that every native action was submitted or that the inventory covers undisclosed state
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000034 path=AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000034.json
+PASS: permissions
+PASS proves: the actor, owned path, identity, activity window, and capabilities satisfy the injected policy
+PASS does not prove: actor competence, substantive independence beyond policy, or native fidelity
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000034 references=2
+PASS: native-reference
+PASS proves: the exact cited synthetic bytes and implemented material terms reconcile
+PASS does not prove: research quality, analytical persuasiveness, or trusted-history reachability beyond the supplied commit
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000034 accepted_history=1
+PASS: lifecycle
+PASS proves: the command is legal against the explicitly replayed accepted fixture history
+PASS does not prove: permission, native fidelity, or the absence of unsubmitted commands
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000034 outcome=WRITTEN
+PASS: writer
+PASS proves: the reported fixture result was atomically published or matched one prior durable result
+PASS does not prove: checks not listed as PASS for this command or authority outside the injected fixture store
+perimeter: check=durability command_id=CMD-019305f8-ec00-7000-8000-000000000034 store=/tmp/kernel-live-rehearsal-20260826/mirror/KERNEL
+PASS: durability
+PASS proves: the command has exactly one valid durable fixture result in the explicit store inventory
+PASS does not prove: that every native action was submitted or that the inventory covers undisclosed state
+perimeter: check=aggregate explicit_submissions=2 durable_outcomes=2 waiting=0
+PASS: aggregate
+PASS proves: every required check instantiated by this fixture run passed and no selected command remains waiting
+PASS does not prove: live readiness, research truth, Gate C authorization, or state outside the printed fixture perimeter
+view: /tmp/kernel-live-rehearsal-20260826/mirror/KERNEL/views/CALIBRATION.tsv sha256=713e21126e0cf36d0f82c78406e9b6be6e01b0496fef5853cefeacaa25173d4a
+view: /tmp/kernel-live-rehearsal-20260826/mirror/KERNEL/views/EXCEPTIONS.md sha256=9b149f7c37671d6064e0d0ae696eb1288df67a4b5f704ab839aa71999e967ae9
+view: /tmp/kernel-live-rehearsal-20260826/mirror/KERNEL/views/OPEN_QUESTIONS.md sha256=2fde97c52b5e4eb448b2efce9e379b384586b3d22d08301e8cb2dda20069392a
+view: /tmp/kernel-live-rehearsal-20260826/mirror/KERNEL/views/RESOLUTION_QUEUE.md sha256=3fb39a414deec4582f6639e6b642f3175e55ca66b78dcdffaee83e959bf983cf
+perimeter: check=durable-results explicit_submissions=2 explicit_results=2 pass_reported_success=true
+PASS: durable-results
+operator-staging: this tool never runs git write commands; stage explicitly, path by path:
+  git add KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json
+  git add KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json
+  git add KERNEL/views/CALIBRATION.tsv
+  git add KERNEL/views/EXCEPTIONS.md
+  git add KERNEL/views/OPEN_QUESTIONS.md
+  git add KERNEL/views/RESOLUTION_QUEUE.md
+exit=0
+$ durable results and hashes:
+EVT-019305f8-ec00-7000-8000-000000000033.json sha256=15151286e93b6d9fc70bdf47a73acc5276a66cebd6cf4fa286c627a447b8309d
+EVT-019305f8-ec00-7000-8000-000000000034.json sha256=fde0558c0e9fe2a4ebfd0738fa942fcb319c92214b1d7367e26f23e7a4ab6cae
+
+== STEP 4: IDEMPOTENT RETRY — same window, same inputs ==
+mode: LIVE_SHADOW_APPLY
+PASS: custody
+PASS: custody
+PASS: schema
+PASS: schema
+PASS: planning
+PASS: permissions
+PASS: native-reference
+exit=0
+$ event files unchanged:
+2
+
+== STEP 5: CHECK-VIEWS — committed views reproduce byte-identically ==
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_CHECK_VIEWS
+perimeter: activation_id=LIVE-REHEARSAL-2026-08-26 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET.md repository_root=/tmp/kernel-live-rehearsal-20260826/mirror window=2026-08-27T02:18:34.087853Z..2026-08-27T05:28:34.087853Z writer_id=PROME commands=2 recorded_at=2026-08-27T02:28:48.917716Z
+perimeter: check=view-reproduction views_root=/tmp/kernel-live-rehearsal-20260826/mirror/KERNEL/views render_as_of=2026-08-27T02:28:48.794577Z commands=2
+PASS: view-reproduction
+PASS proves: committed registered views equal deterministic renderer output for the stored events
+PASS does not prove: coverage of unregistered repository state or research truth
+exit=0
+
+== STEP 6: OPERATOR STAGING — the printed explicit paths, staged in the clone by the rehearsal operator ==
+results_commit=5b534e5797e96788803007b1aecd5e3d8440ce5e
+
+== STEP 7: ADDITIONS-ONLY AUDIT over the pilot commit range (read-only; window not required) ==
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_AUDIT_ADDITIONS
+perimeter: activation_id=LIVE-REHEARSAL-2026-08-26 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET.md repository_root=/tmp/kernel-live-rehearsal-20260826/mirror window=2026-08-27T02:18:34.087853Z..2026-08-27T05:28:34.087853Z writer_id=PROME commands=2 recorded_at=2026-08-27T02:29:28.026926Z history=79b533eb107ea2e1db259a84fed0afdffdc49d76..5b534e5797e96788803007b1aecd5e3d8440ce5e
+perimeter: check=additions-only repository=/tmp/kernel-live-rehearsal-20260826/mirror history=79b533eb107ea2e1db259a84fed0afdffdc49d76..5b534e5797e96788803007b1aecd5e3d8440ce5e protected=KERNEL/audit/commands/,KERNEL/shadow/events/
+PASS: additions-only
+PASS proves: protected accepted-event and receipt paths contain additions only in the compared history
+PASS does not prove: protection outside the compared range or against the excluded threat model
+exit=0
+
+== STEP 8: DISPOSABLE PROJECTION — rebuild twice, delete .rw, rebuild again; identical bytes ==
+assembled 2 accepted events into /tmp/kernel-live-rehearsal-20260826/events.json
+perimeter: workspace=/tmp/kernel-live-rehearsal-20260826/projection-workspace events=/tmp/kernel-live-rehearsal-20260826/events.json event_count=2 render_as_of=2026-08-27T03:00:00.000000Z
+PASS: disposable projection rebuilt; semantic state and registered view bytes reconcile with explicit fixture events; SQLite has no authority
+exit=0
+projection sha256 (build 1): 87caea97d0ca47fa048007a9d54904c8644e7f7f6372f7d26a60c23e000e471e
+perimeter: workspace=/tmp/kernel-live-rehearsal-20260826/projection-workspace events=/tmp/kernel-live-rehearsal-20260826/events.json event_count=2 render_as_of=2026-08-27T03:00:00.000000Z
+PASS: disposable projection verified; semantic state and registered view bytes reconcile with explicit fixture events; SQLite has no authority
+exit=0
+$ rm -rf /tmp/kernel-live-rehearsal-20260826/projection-workspace/.rw  (disposability drill)
+perimeter: workspace=/tmp/kernel-live-rehearsal-20260826/projection-workspace events=/tmp/kernel-live-rehearsal-20260826/events.json event_count=2 render_as_of=2026-08-27T03:00:00.000000Z
+PASS: disposable projection rebuilt; semantic state and registered view bytes reconcile with explicit fixture events; SQLite has no authority
+exit=0
+projection sha256 (rebuild): 87caea97d0ca47fa048007a9d54904c8644e7f7f6372f7d26a60c23e000e471e
+REBUILD IDENTICAL: yes
+
+== STEP 9: FINAL STATE ==
+$ git -C mirror log --oneline -3
+5b534e579 KERNEL: live-shadow rehearsal results (2 events + 4 views)
+79b533eb1 SAM: SAM-33 kernel submissions (rehearsal clone)
+f8560f2c0 KERNEL: build the explicit live-shadow interface (C7 remediation)
+$ git -C mirror status --short | head -5
+?? .gate-c-synthetic-mirror.json
+
+# Rehearsal complete 2026-08-27T02:29:28Z. Disposable clone; no live-repository write occurred.
+# Live root /home/willi/Research-workspace untouched: 0 files under live KERNEL/shadow + KERNEL/views

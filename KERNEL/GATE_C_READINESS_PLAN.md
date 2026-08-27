@@ -53,7 +53,7 @@ authorized. Completing C1–C6 does not activate shadow operation.
 | C4 | COMPLETE 2026-08-26 | RED registered dormant in `policies/custody-policy.json`; custody mechanism, fifteen synthetic tests, and `GATE_C_C4_CUSTODY.md` |
 | C5 | COMPLETE 2026-08-26 | SAM-33 approved; SAM-owned companion committed at `1d9400425`; strict command and exact native-reference preflight pass |
 | C6 | COMPLETE / INDEPENDENT PASS 2026-08-26 | `GATE_C_C6_REHEARSAL.md`; disposable two-command rehearsal, abort/retry/rebuild, audits, and remediated adversarial review passed |
-| C7 | BLOCKED IN PREFLIGHT 2026-08-26 | `GATE_C_C7_ACTIVATION_PACKET.md`; no executable live-shadow interface exists |
+| C7 | REMEDIATION BUILT + REHEARSED 2026-08-26 / INDEPENDENT REVIEW OWED | `GATE_C_LIVE_INTERFACE_REMEDIATION.md` (`f8560f2c0`); refusal matrix tested (207-test suite); disposable rehearsal repeated through the exact interface, durable transcript in `KERNEL/rehearsals/`; no activation ruling requested |
 | C8 | NOT AUTHORIZED | Requires an authorized and completed C7 pilot |
 
 ## Required implementation properties
@@ -112,8 +112,11 @@ Before requesting C7, the packet must contain:
 
 ## Immediate next action
 
-Authorize and complete the bounded live-interface remediation described in the
-blocked C7 packet, then repeat the disposable rehearsal and independent review.
-Only afterward may a fresh C7 packet fix start/end timestamps and request an
-activation ruling. Do not create live commands or results, activate custody, or
-begin shadow operation before that ruling.
+The bounded live-interface remediation is built and the disposable rehearsal
+was repeated through the exact new interface (Will-authorized 2026-08-26; see
+`GATE_C_LIVE_INTERFACE_REMEDIATION.md`). What remains, in order: an independent
+adversarial review by a reviewer who is not the builder, in a separate sitting
+(review brief in the remediation record); then a fresh C7 packet fixing exact
+start and end timestamps; then Will's activation ruling. Do not create live
+commands or results, activate custody, or begin shadow operation before that
+ruling.
