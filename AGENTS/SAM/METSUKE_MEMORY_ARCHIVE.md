@@ -507,3 +507,30 @@ Context: The E1 post-BOJ single-pass Run 12 recommended, executed today against 
 
 ---
 
+
+## PENDING from Run 14 (2026-08-07) — ✅ **CLOSED 2026-08-17: ALL 9 ITEMS RESOLVED-BY-RULING** (SAM-accepted at Run-15 closeout, disposition #6)
+
+> ### ⚰️ CLOSED — DO NOT RE-DERIVE. Items 1-9 below are **RESOLVED-BY-RULING, not by line-edit.**
+> On **2026-08-07** SAM answered item 9's structural escalation by choosing **path (a) COMPRESS** (commit `342d42b4b`): both `TRADE.md` and `STRATEGY.md` were **COMPRESSED-TO-HISTORY** under a ⚰️ *"HISTORICAL AS OF 2026-08-07 — DO NOT TRADE OFF IT"* banner, rather than corrected cell-by-cell. **Items 1-8 all describe cell-level corrections to interiors SAM deliberately chose not to correct** — the four that were *wrong rather than merely stale* (TRY-FIRE-007 STANDS DOWN · −153K/85% VOID · leg-1 SPF FIRED · Sep-18 no longer a retire-check) were applied into the banner the same day; the rest are moot by construction.
+> **Why this closure is written down:** Run 15 re-derived all of this from git before it could report, because the section still read as open. **A PENDING list that outlives its ruling costs every future run the same rediscovery.** *(Closed at Run-15 closeout on SAM's explicit disposition #6.)*
+
+*Flags surfaced at Run 14. Retained verbatim below as the audit trail of what the compress ruling disposed of — **not** as an open worklist.*
+
+1. **🔴 Conviction-grade + carry-bucket cluster (batched, ~14 sites) — see LAST RUN § Run 14 STALE-MARK #1 for the full site list and quoted text.** Replace MED-HIGH/PROVISIONAL/amplifier-ON language with LOW/RETIRED/amplifier-OFF throughout; TRADE L147-158's table needs its 3 numbers replaced (7d~8→~3, 30d~23→~8, 60d~32→~13) and its narrative paragraph rewritten, not just re-bracketed.
+2. **Sep 17-18 BOJ unpriced figure (batched, ~6 sites) — see STALE-MARK #2.** "~60% (corrected 8/4)" → band **~40-54%** (8/6, own TFX 3m-TONA primary), with the Sep/Oct-split-unidentified caveat carried, per CALENDAR's own instruction to travel it on every citation.
+3. **🔴 TRADE L67 — "TRY-FIRE-007 unaffected" contradicts STATUS's "TRY-FIRE-007 STANDS DOWN."** Highest-severity single-sentence flag this run — recommend first.
+4. **🔴 STRATEGY L6 — top banner frames the void CFTC-through-−153K/85% line as a live re-entry gate.** STATUS rules it VOID, re-arms nothing. Recommend alongside #3.
+5. **STRATEGY L19 — "a confirmed second op… has NOT fired" (§5C override).** Both preconditions have since resolved: the op was confirmed (Bessent 8/2), and the override fired on the letter 8/3 and was deliberately not acted on.
+6. **TRADE L256 / STRATEGY L188-189 — Sep-18 framed as a pending "window-end retire-check."** STATUS: no longer a retire-check, the frame already retired via leg-1; Sep-18 survives only as the SAM-28/SAM-39 grading horizon.
+7. **TRADE L188 (+ its L187 companion row) — Risk Factors leg-1/leg-2 SPF rows describe a still-open race; leg-1 fired.** Replace both rows with a single "frame retired via leg-1, 8/7" statement.
+8. **TRADE L253-254 / STRATEGY L185-186 — Aug-7 CFTC and Aug-6 30Y both framed forward; both resolved.** Mark with outcomes per CALENDAR's "✅ RECENTLY RESOLVED" rows.
+9. **⚠️ STRUCTURAL ESCALATION (not a flag) — see LAST RUN § Run 14 ARCHIVE-CANDIDATE.** Compress-dead-sections-to-history vs. correct-every-cell-in-place is SAM's call before any further mechanical sweep is useful.
+
+**⚠️ ESCALATIONS (not taxonomy flags):** see LAST RUN § Run 14 ⚠️ ESCALATIONS (E1/E2/E3) above.
+
+*(SAM clears these as flags get applied or declined.)*
+
+*(SAM clears these as flags get applied or declined.)*
+
+---
+

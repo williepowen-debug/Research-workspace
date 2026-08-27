@@ -36,6 +36,14 @@ State file for the trade-doc staleness-flagger sub-agent. Spec is in [`METSUKE.m
 
 *Auto-populated by METSUKE at run start: what's moved in STATUS / THESIS / PREDICTIONS / CHANGELOG / TIMELINE / docket since the previous run. Cleared at end-of-run.*
 
+### Run 17 (Aug 27 2026, Thu — **POST-PIVOT full-sweep / banner + forward-table audit**; watermark = Run 16, 8/20; 7 days of state movement, the largest single-session change since the 8/7 frame break)
+
+**Step-zero vintage check — 🔴 THE FLAG-5 CLASS RECURRED, AND IT RECURRED INSIDE THE COMMIT THAT APPLIED A METSUKE FLAG ABOUT IT.** `git log` — both trade docs last touched **`7944e8d16` 2026-08-20** (the Run-16 apply: 3 changed lines per doc). Both `Last Updated:` headers still read **2026-08-17**. Run 16 reported this class **CLEAN for the first time in this file's history** and wrote that "a dead defect class is only visibly dead when someone checks and says so" — **it was clean for exactly one run.** No harm this session (this run's spawn brief made no vintage claim), but the mechanism that corrupted the Run-15 brief is intact. → flag 4.
+
+**State movement 8/20 → 8/27 (verified at STATUS/CHANGELOG/PREDICTIONS, not taken from the brief):** ⚰️ **`thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` KILLED** — its own pre-registered K1 fired 8/20, RED's blind pass killed it four further ways, cross-read at `thesis/V20_CROSSREAD_2026-08-27.md`; **4 salvage items survive** (§7 retirements · the CFTC volatility-instrument relabel CH-017 · K3 as a standing falsifier on MOF weekly · the sizing/basis instruments). ⛔ **NO successor frame declared — THESIS v1.7 STANDS** (CHANGELOG ④ "NO THESIS CHANGE"). ✅ **SAM-41 RESOLVED CONFIRMED** (5Y US-JP gap, five consecutive closes <2.25%, 8/13–8/19) → scoreboard **15 CONFIRMED / 14 FAILED / 1 special / 4 OPEN** (SAM-28/31/33/39); ⛔ it does **NOT** promote v1.8 — necessary-but-not-sufficient under CH-017. 🔴 **BOJ Sep pricing RE-BASED ~73% → ~87.5%** (Polymarket Sep-specific binary, like-for-like on one instrument, +14pp/10d) — surprise room 27% → **~12.5%**, route 1 near-dead, **and the asymmetry has FLIPPED: at ~87.5% priced the bigger yen move is a surprise HOLD, which is yen-NEGATIVE.** 🟢 **Brent BACK BELOW $90 — $87.30 [8/27]**, 94.39 [8/21] → 86.36 [8/26] = −8.5% in three sessions on the **Iran–Oman interim Hormuz framework finalised 8/26** ⇒ **Phase-1 oil-in-yen DE-ARMING**, the 8/20 upward breach given back. 🟠 **MOF weekly wk 8/16–8/22 = −¥1.978T LT-debt SELLING**, ending three buying weeks; equity+LT and total each **3rd most negative week in 21 years**. New instruments: `rate_differential.py` (SAM-41) + `xccy_basis.py` (a PROXY, not the basis); `mof_flows.py` repaired on three axes. **TERRY consumed the owed §6 branch → RISK_RULES #23**; the A/B/C driver partition + 3–5 session clock stayed on `AGENTS/TERRY/setups/FLOW-TRIGGER_carry-convexity-FXY-call-v2.md`, **SAM's side to maintain** (→ E5). Book **FLAT** throughout, $0 at risk since 6/29.
+
+⛔ **Instrument note obeyed again: NO BOJ-PRICING PERCENTAGE IS HAND-CARRIED AS A FLAG BASIS IN THIS REPORT.** `boj_ois.py`'s **55.9% [8/26]** is under a standing STATUS ⛔ do-not-cite (now contradicted by ~30pp); the ~72-77% TFX band was superseded 8/20; **centralbank.watch is IMPEACHED** (SAM 8/20). Every figure below is written **cite-live, do-not-carry**, and the **sign** travels with it (CH-004: higher priced probability = **weaker** BOJ-surprise leg).
+
 ### Run 16 (Aug 20 2026, Thu — **retroactive-adjudication run + banner audit**; watermark = Run 15, 8/17; 3 days of state movement)
 
 **Mode note: this run's PRIMARY deliverable was not a drift sweep.** The team-lead spawned it to fix a defect in METSUKE's OWN file: `METSUKE_MEMORY.md` had grown to 1,479 lines carrying **97 open PENDING items across ten sections (Runs 2·3·4·5·6·7·9·10·11·13)** — nearly all of them cell-level corrections to interiors the **2026-08-07 compress ruling** knowingly froze. **The ruling governed the next write and touched nothing already on the books.** Task 1 adjudicated all 97 against the ruling (**87 ALREADY-APPLIED, verified at the artifacts; 10 MOOT-BY-BANNER; 0 STILL-LIVE; 0 UNDECIDABLE**) — see the ⚖️ ledger at the head of `## PENDING`.
@@ -400,6 +408,11 @@ Context: First post-Run-3 sweep. Two material passes since Run 3 watermark — (
 - **🆕 NEW (post Run 16) — CERTIFICATION ASYMMETRY: FIX ONE, LEAVE THREE, AND THE UNFIXED ONES LOOK STRONGER BY CONTRAST.** Run-15's E2 said a DO-NOT-TOUCH certification needs an expiry rather than a permanent tense. **That was answered for exactly ONE of the banner's three certifications** (Meiji floor — dated + UNDER LIVE TEST). The **EWJ/TLT/Japan-banks watchlists** and the **oil-in-yen Phase-1/Phase-2 mechanism** still read in permanent tense — and oil-in-yen's subject has since MOVED (Brent back through $90 to $94.58, July TB deficit widened to −¥634.5B ⇒ Phase-1 re-arming). ⚠️ **The mechanism is still valid, so this is NOT a wrong certification — it is an undated one, and the asymmetry now makes the two undated legs read as MORE settled than the dated one.** When a fix of this class is applied to one instance, apply it to the whole certification list or state why not.
 - **🆕 NEW (post Run 16) — "FORWARD-ONLY" TABLES ARE WHERE A BANNER CONTRADICTION DOES THE MOST DAMAGE.** Run-15 established that only a banner/interior **contradiction** earns an edit inside a frozen doc. Run 16 adds *where to hunt for one*: the tables whose own headers say **"forward-only"** (`TRADE.md` § Key Dates, `STRATEGY.md` § Key Check Dates). A stale row anywhere else reads as history; a stale row in a table labelled forward-only reads as **what is still live**, which is exactly the misread the banner exists to prevent. **Grep the forward-only tables against all four banner corrections every run.**
 
+- **🆕 NEW (post Run 17) — A ROW-SCOPED CORRECTION DOES NOT TRAVEL ONE LINE UP EITHER. READ THE ROW ABOVE AND THE ROW BELOW BEFORE CLOSING.** Run 16 found a fix that *"landed on three neighbours and skipped this one"* (the row below). Run 17 found the **exact inverse in both docs**: the Run-16 fix landed on the ⚰️ Sep-18 row and skipped the identical retire-check assertion in the row **immediately above** it. **Two runs, two directions, same defect** ⇒ the sibling-instance failure is not directional and cannot be caught by fixing "the neighbour you noticed." **Procedure: when a flag names a row in a table, grep the asserted STRING across both docs before reporting the fix complete** — that is how flag 1's `55,412` was found surviving two forward-table siblings four months after its first correction.
+- **🆕 NEW (post Run 17) — A DATED CERTIFICATION STILL ROTS; DATING IT ONLY MAKES THE ROT LEGIBLE.** Run 15 ruled a certification needs a date, not a permanent tense; Run 16 dated all three banner legs. **Run 17 found one of those dated legs (oil-in-yen) stating a DIRECTION — "Phase-1 re-arming, Brent $94.58" — that reversed within 7 days.** ⚠️ **The discipline is symmetric and load-bearing in BOTH directions: the subject moving toward the mechanism CONFIRMS the certification (Run 16), and the subject moving away DE-ARMS without refuting it (Run 17). Neither licenses reframing the mechanism.** **Watch every dated banner leg for a directional STATE, not just an expiry** — a state is what a reader takes as current; a date only tells them how old it is.
+- **🆕 NEW (post Run 17) — "CITE LIVE, DO NOT CARRY" IS A CONSUMER-SIDE RULE AND HAS A PUBLISHER-SIDE BLIND SPOT.** The standing hint stopped METSUKE hand-carrying a BOJ percentage for the second run running — it works. **What it cannot see is the publisher: the same session that re-based ~73% → ~87.5% and declared its own staleness caveat BACKWARDS left `STATUS.md:193` telling every reader to "Cite ~73% and FALLING."** ⚠️ **Check the publisher's OWN surfaces whenever a repeatedly-stale figure re-bases** — dashboard row vs forward-catalyst row vs threshold table. **Fifth surface for this one number.** The consumer rule protects the report; only a surface sweep protects the file.
+- **🆕 NEW (post Run 17) — AN UNMARKED "DONE" BLOCK IS INVISIBLE TO THE ROLL TOOL, SO A DISPOSITIONED BACKLOG STILL COUNTS AS LIVE.** All three Run-16 flags were applied (verified at the artifacts), the disposition sits at the head of this file — and `## PENDING from Run 16` carries no CLOSED header, so `subagent_memory_roll.py` reports **"nothing terminal to roll"** on a **251K** file. **Rule 4 is working as designed (silence is never closure); the gap is that the DISPOSITION and the SECTION live in different places.** ⚠️ **At every closeout, check whether the previous run's PENDING section has been marked — flag it if not.** This is the Run-16 E1 ruling-sweep defect reproduced inside METSUKE's own state file.
+
 ---
 
 ## CALIBRATION
@@ -667,6 +680,32 @@ Track **declines-per-10-runs** here. A long streak of 100% acceptance is ambiguo
 
 - **Delivery, unchanged and non-negotiable:** deliver **both ways — `SendMessage` to the coordinator AND the memory file — as the final action before going idle.** The file half is the record; the message half is the delivery.
 
+
+### Forward hints for Run 18 (written end of Run 17, 2026-08-27 — the post-pivot run)
+
+- **🔴 STEP ZERO IS UNCHANGED AND IT PAID OFF AGAIN — AND THIS TIME IT CAUGHT A CLASS RUN 16 HAD CERTIFIED DEAD.** `git log --format="%h %ad %s" --date=short -8 -- AGENTS/SAM/TRADE.md AGENTS/SAM/STRATEGY.md`, then compare to both `Last Updated:` lines **and** to what the spawn brief asserts. At Run 16 all three agreed for the first time ever; **at Run 17 they disagreed again (`7944e8d16` 8/20 vs headers reading 8/17), because the commit that applied Run-16's flags did not re-stamp the header.** ⚠️ **Do not report this class dead. Report only whether it holds THIS run.**
+
+- **Watermark for Run 18:** anything dated **after 2026-08-27**. **Run-17 state as delivered:** 4 flags open in `## PENDING from Run 17`. ⚠️ **`## PENDING from Run 16` was still unmarked at the end of Run 17 though all three flags were applied (E4) — if it is still unmarked, re-flag it; do NOT re-adjudicate its items, they are verified applied.**
+
+- **⛔ THE BOJ-PRICING RULE IS UNCHANGED AND HAS NOW BEEN VINDICATED TWICE. DO NOT HAND-CARRY ANY PERCENTAGE FROM A HINT, A FLAG, OR A MEMORY NOTE.** As of 8/27 the live basis is a **Sep-specific traded binary ~87.5%** with wire/OIS ~80-85%; **`boj_ois.py` (55.9% [8/26]) stays do-not-cite** — now contradicted by ~30pp; **centralbank.watch is IMPEACHED**; the ~72-77% TFX band was superseded 8/20. **Write the flag's SUBSTANCE and mark every figure "cite live, do not carry."** ⚠️ **AND THE SIGN HAS A NEW TWIST YOU MUST CARRY (CH-004, re-based 8/27): surprise room is ~12.5%, route 1 is near-dead, and THE ASYMMETRY HAS FLIPPED — at ~87.5% priced the bigger yen move is a surprise HOLD, which is yen-NEGATIVE, i.e. the counter-thesis side.** That is grading context; **it is not a licence to edit the frozen interior.**
+
+- **Run 18 is STILL a banner + forward-table audit. The 8/7 compress ruling is intact and THESIS v1.7 STANDS.** ⚰️ **The v2.0 candidate was KILLED 8/27** (`thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` banner-killed / do-not-cite; cross-read `thesis/V20_CROSSREAD_2026-08-27.md`); **4 salvage items survive** (§7 retirements · CFTC volatility-instrument relabel CH-017 · K3 as a standing MOF-weekly falsifier · sizing/basis instruments). **`thesis/V18_CANDIDATE_PILLAR1.md` remains a CANDIDATE, not a thesis** — SAM-41 CONFIRMED 8/27 clears its level bar but **CH-017 makes that necessary-but-NOT-sufficient**; a separately-registered FX co-condition, a RED pass and Will sign-off are still required. ⛔ **So the banner's "No successor frame is declared" is STILL literally TRUE — do not flag it.** **A candidate is not a ship (Run 16); a KILLED candidate is not a successor either (Run 17).** If SAM DOES promote v1.8, Run 18 becomes a post-thesis-bump sweep and the first question is whether the compressed docs are superseded wholesale rather than edited — **escalate that, do not propose it.**
+
+- **The three live surfaces, unchanged, in order:** (1) **the banner**, (2) **the two "forward-only" tables** (`TRADE` § Key Dates, `STRATEGY` § Key Check Dates) — **three of Run-17's four flags live there**, (3) **any cell edited after 8/7** — find those via `git log -p`, never by reading the doc.
+
+- **🔑 THE HIGHEST-YIELD TECHNIQUE THIS RUN, USE IT AGAIN: GREP THE ASSERTED STRING, NOT THE ROW.** Run 17's biggest find (`55,412` / `CONFIRM/enter` / `90.8%` alive in both forward tables) came from grepping the *string* SAM had corrected elsewhere, not from re-reading the tables. **Suggested opening grep:** `grep -n "55,412\|CONFIRM/enter\|90.8%\|retire-check runs\|tenor must span\|TRY-FIRE\|MED-HIGH" TRADE.md STRATEGY.md`. **A fix that landed once has NOT landed everywhere — Run 16 proved it skips downward, Run 17 proved it skips upward.**
+
+- **Check the banner on FIVE axes now (Run-15's three, Run-16's fourth, plus one):** (a) every **figure** against the current basis; (b) every **certification** against what has happened since; (c) the four **wrong-not-stale corrections** — the only assertions a reader may act on; (d) every **ADJUDICATOR the banner NAMES** — its date AND its result, remembering ⚪ NO-VERDICT looks identical to "not yet run"; (e) 🆕 **every dated leg's directional STATE** — Run 17 found the oil leg dated correctly and stating "re-arming" a week after it began de-arming. **A date makes rot legible; it does not stop it.**
+
+- **The next dated adjudicator is 🔴 Thu 9/3 — the 30Y auction, the FULL grade of the frozen CH-016 discriminator.** Terms are **frozen — run them, don't re-derive them**; grade **auction INTERNALS, never the yield level** (SAM-26 threshold-vs-mechanism trap). Prior series: 4.55× [7/7] · 2.83× [7/22 40Y] · 3.864× [8/6] · **3.982× / tail 1.5bp ⚪ NO-VERDICT [8/20 20Y]**. ⚠️ **Per STATUS, if 9/3 is ALSO a NO-VERDICT the attribution stays OPEN and the discriminator is declared too weak rather than re-tuned** — if the banner's Meiji leg has not absorbed that outcome by Run 18, it is a flag. **MOF-basis 30Y 4.039 [8/26], four consecutive closes back above 4.00; 4.5% ~45bp away — still NOT a floor break, and NEVER blend MOF and Investing.com bases (+1.3bp).**
+
+- **Oil has REVERSED and the banner has not absorbed it (Run-17 flag 3, open).** Brent **$87.30 [8/27]** back below $90 on the **Iran–Oman interim Hormuz framework (8/26)** ⇒ **Phase-1 DE-ARMING**, the 8/20 breach given back. ⚠️ **Interim ≠ transit restored; FAL-01 unfired; BRENT/FALCON own sustain.** ⚠️ **Grade it, do not reframe it** — oil-in-yen is inside the DO-NOT-TOUCH set and the mechanism is unaffected by the level.
+
+- **Carry-forward negatives — re-verify cheaply, don't re-investigate:** money fields clean **4 runs running** ($58.32 / $55.50 / $58-$60 strikes / $0.40, all HISTORICAL-labelled; `TRADE:80` reads **N/A — FLAT**); **book FLAT since 6/29, $0 ever at risk** — no flag may imply a live position; neither doc states an open-prediction count or scoreboard (**15/14/1/4 OPEN = SAM-28/31/33/39** as of 8/27); neither doc carries a MOF-weekly level; **SAM-28 and SAM-39 both still OPEN**, so the Run-16-corrected Sep-18 "grading horizon only" cells remain CORRECT — **do not re-touch them.**
+
+- **⚠️ CAL-DRIFT: Run 17 did NOT read `docket/CALENDAR.md` and said so.** The scoped non-flag reasoning (frozen tables vs live calendar) still holds, but **if you also skip it, record that you skipped it** — a "0 CAL-DRIFT" that is really "not checked" is exactly the class of clean-looking negative this desk keeps getting burned by.
+
+- **Delivery, unchanged and non-negotiable:** deliver **both ways — `SendMessage` to the coordinator AND the memory file — as the final action before going idle.** The file half is the record; the message half is the delivery.
 
 ### Forward hints for Run 11
 
@@ -986,32 +1025,6 @@ TRADE Watchlist § EWJ/TLT/Japan Banks (all three, entry-trigger tables internal
 
 *Total Run-14 flags: 3 STALE-MARK (batched, ~30 sites) + 5 STALE-FRAMING (2 severity-HIGH/contradicted, not just stale) + 2 TRIGGER-STATUS-DRIFT + 2 CAL-DRIFT (same sites as 2 RESOLVED-EVENT-UNMARKED, not double-counted) + 1 structural ARCHIVE-CANDIDATE escalation. 0 DUP-LIVE-SPOT / 0 MONEY-FIELD-ESCALATION / 0 CHANGELOG-GAP.*
 
-## PENDING from Run 14 (2026-08-07) — ✅ **CLOSED 2026-08-17: ALL 9 ITEMS RESOLVED-BY-RULING** (SAM-accepted at Run-15 closeout, disposition #6)
-
-> ### ⚰️ CLOSED — DO NOT RE-DERIVE. Items 1-9 below are **RESOLVED-BY-RULING, not by line-edit.**
-> On **2026-08-07** SAM answered item 9's structural escalation by choosing **path (a) COMPRESS** (commit `342d42b4b`): both `TRADE.md` and `STRATEGY.md` were **COMPRESSED-TO-HISTORY** under a ⚰️ *"HISTORICAL AS OF 2026-08-07 — DO NOT TRADE OFF IT"* banner, rather than corrected cell-by-cell. **Items 1-8 all describe cell-level corrections to interiors SAM deliberately chose not to correct** — the four that were *wrong rather than merely stale* (TRY-FIRE-007 STANDS DOWN · −153K/85% VOID · leg-1 SPF FIRED · Sep-18 no longer a retire-check) were applied into the banner the same day; the rest are moot by construction.
-> **Why this closure is written down:** Run 15 re-derived all of this from git before it could report, because the section still read as open. **A PENDING list that outlives its ruling costs every future run the same rediscovery.** *(Closed at Run-15 closeout on SAM's explicit disposition #6.)*
-
-*Flags surfaced at Run 14. Retained verbatim below as the audit trail of what the compress ruling disposed of — **not** as an open worklist.*
-
-1. **🔴 Conviction-grade + carry-bucket cluster (batched, ~14 sites) — see LAST RUN § Run 14 STALE-MARK #1 for the full site list and quoted text.** Replace MED-HIGH/PROVISIONAL/amplifier-ON language with LOW/RETIRED/amplifier-OFF throughout; TRADE L147-158's table needs its 3 numbers replaced (7d~8→~3, 30d~23→~8, 60d~32→~13) and its narrative paragraph rewritten, not just re-bracketed.
-2. **Sep 17-18 BOJ unpriced figure (batched, ~6 sites) — see STALE-MARK #2.** "~60% (corrected 8/4)" → band **~40-54%** (8/6, own TFX 3m-TONA primary), with the Sep/Oct-split-unidentified caveat carried, per CALENDAR's own instruction to travel it on every citation.
-3. **🔴 TRADE L67 — "TRY-FIRE-007 unaffected" contradicts STATUS's "TRY-FIRE-007 STANDS DOWN."** Highest-severity single-sentence flag this run — recommend first.
-4. **🔴 STRATEGY L6 — top banner frames the void CFTC-through-−153K/85% line as a live re-entry gate.** STATUS rules it VOID, re-arms nothing. Recommend alongside #3.
-5. **STRATEGY L19 — "a confirmed second op… has NOT fired" (§5C override).** Both preconditions have since resolved: the op was confirmed (Bessent 8/2), and the override fired on the letter 8/3 and was deliberately not acted on.
-6. **TRADE L256 / STRATEGY L188-189 — Sep-18 framed as a pending "window-end retire-check."** STATUS: no longer a retire-check, the frame already retired via leg-1; Sep-18 survives only as the SAM-28/SAM-39 grading horizon.
-7. **TRADE L188 (+ its L187 companion row) — Risk Factors leg-1/leg-2 SPF rows describe a still-open race; leg-1 fired.** Replace both rows with a single "frame retired via leg-1, 8/7" statement.
-8. **TRADE L253-254 / STRATEGY L185-186 — Aug-7 CFTC and Aug-6 30Y both framed forward; both resolved.** Mark with outcomes per CALENDAR's "✅ RECENTLY RESOLVED" rows.
-9. **⚠️ STRUCTURAL ESCALATION (not a flag) — see LAST RUN § Run 14 ARCHIVE-CANDIDATE.** Compress-dead-sections-to-history vs. correct-every-cell-in-place is SAM's call before any further mechanical sweep is useful.
-
-**⚠️ ESCALATIONS (not taxonomy flags):** see LAST RUN § Run 14 ⚠️ ESCALATIONS (E1/E2/E3) above.
-
-*(SAM clears these as flags get applied or declined.)*
-
-*(SAM clears these as flags get applied or declined.)*
-
----
-
 ## Run 15 — 2026-08-17 (Mon — full-sweep; watermark = Run 14, 2026-08-07; 10 days of state movement. **Mode note: this ran as a BANNER AUDIT, because the compress ruling froze everything else.**)
 
 **Context.** Spawned by PROME/team-lead with an explicit instruction to verify — not assume — that Run 14 had been applied, and to headline "two live trade documents describing a retired frame, ten days on" if it had not. **The check came back the other way: Run 14 WAS applied, same day.**
@@ -1194,7 +1207,7 @@ Only two post-banner commits touch these files: **`abec081d6` (8/10)** — the S
 
 *Total Run-16 output: **TASK 1** — 97 PENDING items adjudicated (87 ALREADY-APPLIED / 10 MOOT-BY-BANNER / 0 STILL-LIVE / 0 UNDECIDABLE), backlog **97 → 0 open**, 10 sections closed with headers, nothing deleted. **TASK 2** — **3 flags**: 1 🔴 banner/interior CONTRADICTION (2 sites + 1 mitigated sibling, both docs' forward-only tables) · 1 🟠 banner adjudicator-expired + superseded-basis · 1 🟡 banner certification asymmetry. 0 DUP-LIVE-SPOT · 0 TRIGGER-STATUS-DRIFT · 0 CAL-DRIFT (structural; provisional-pending-KOYOMI) · 0 MONEY-FIELD-ESCALATION · 0 CHANGELOG-GAP. Interior drift deliberately NOT counted — frozen by the 8/7 ruling.*
 
-## PENDING from Run 16 (2026-08-20)
+## PENDING from Run 16 (2026-08-20) — ✅ **CLOSED 2026-08-27 by SAM (METSUKE E4).** All three flags applied and independently verified at the artifacts during Run 17. ⚠️ **The items were done; the SECTION was never marked, so `subagent_memory_roll.py` correctly reported "nothing terminal to roll" on a 251K file — the file was not un-lean, the block was unmarked.** 🔑 **Rule 4 (silence is never closure) worked exactly as designed; the gap was that the DISPOSITION and the SECTION lived in different places.** **Marking closure is SAM's act, not METSUKE's — a sub-agent must not be able to clear its own backlog.**
 
 *Flags surfaced this run. SAM applies/declines; METSUKE does not remove — SAM clears.*
 ⚠️ **All three land on the banner or on the two forward-only tables. No interior staleness is flagged.**
@@ -1207,6 +1220,121 @@ Only two post-banner commits touch these files: **`abec081d6` (8/10)** — the S
 
 *(SAM clears these as flags get applied or declined.)*
 
+## Run 17 — 2026-08-27 (Thu — **POST-PIVOT full-sweep**; watermark = Run 16, 2026-08-20. **Mode: banner + forward-only-table audit, because the 8/7 compress ruling still freezes everything else.**)
+
+**Deliverable shape:** 4 flags (2 🔴 contradictions, 1 🟠 banner-state reversal, 1 🟡 header), 5 escalations, 0 money-field. **Interior staleness deliberately NOT counted** — frozen by the 8/7 ruling, per Run-16's adjudication.
+
+### 0. STEP ZERO — 🔴 THE FLAG-5 CLASS RECURRED (reported first, because Run 16 certified it dead)
+
+`git log --format="%h %ad %s" --date=short -8 -- AGENTS/SAM/TRADE.md AGENTS/SAM/STRATEGY.md` → both docs last touched **`7944e8d16` 2026-08-20** ("sub-agent trio ruled…"), 3 changed lines each. Both `Last Updated:` lines read **2026-08-17**. **Git and the headers DISAGREE.** Run 16 wrote: *"For the first time in this file's history the `Last Updated:` stamps, git, and the spawn brief all agree — the flag-5 class did not recur."* **It recurred on the very next write** — and that write was the commit applying Run-16's flags. → **flag 4.**
+
+### 1. 🔴 CONTRADICTION — the Aug-7 "THE PRINT" row survives in BOTH forward-only tables carrying a **VOID entry trigger**, a **FAILED prediction asserted as unfired**, and a **RETIRED conviction grade**, all in present voice (2 sites)
+
+- **`TRADE.md:294`** (§ Key Dates — header: *"forward-only"*)
+- **`STRATEGY.md:226`** (§ Key Check Dates — header: *"forward-only; resolved events pruned"*)
+
+Three independent banner denials inside each row:
+
+| # | Quoted (present voice) | Banner says |
+|---|---|---|
+| a | *"**Will's registered resolver: ≤−153K held = CONFIRM/enter**"* (both docs) | correction **#2**: *"The CFTC −153K/85% line is **VOID**. ⚠️ A future re-build back through it **RE-ARMS NOTHING**"* |
+| b | *"SAM-29 cover line **55,412 away**"* (TRADE) · *"Cover tripwire −108K (SAM-29) **now 55,412 away**"* (STRATEGY) | *"**SAM-29 and SAM-40 both FAILED**"* + correction **#3** *"The leg-1 SPF FIRED"* |
+| c | *"convexity-tail **MED-HIGH (provisional)**"*, *"amplifier **+8-10pp** ON, residual ON"* (STRATEGY) | *"**RETIRED TO LOW** (THESIS v1.7)"*; STATUS: amplifier + residual **OFF** |
+
+Plus a basis defect in the same rows: *"90.8% of peak"* / *"90.8% of −180K peak"* sits on the **retired −180,000 basis** the banner replaced with **R = −188,077** (the same figure reads **86.9%** at STATUS:7). SAM's own 8/20 commit corrected exactly this class in `CATALYSTS.tsv` — *"corrected a retired -180,000-basis 25.3% to contracts-first + 24.2% of R."*
+
+**Why this is a CONTRADICTION, not protected interior staleness** — the discriminator SAM ratified at Run-15 flag 4 and applied at Run-16 flag 1: **present tense + direct denial of a banner assertion, not age.** ⚠️ **And it is the textbook sibling miss:** clause (b) is *verbatim* the string SAM corrected at **`STRATEGY:307`** on 8/17 (*"leg-1 tail — now 55,412 away"*). **That fix landed on one instance and skipped BOTH forward-table siblings** — the tables a reader consults specifically to learn what is still live.
+
+⚠️ **Scope narrowly (the Run-15 SAM-31 lesson).** Strike/⚰️-mark only the **is-it-still-live** assertions. **Do NOT touch the contract counts** — −163,412 · −153K · −140K · −108K · 55,412 are gate figures and the banner's own carve-out says *"only the percentage labels moved."* **Do not re-derive anything.** ⛔ **Not offered as declinable.**
+
+### 2. 🔴 CONTRADICTION — the retire-check + tenor clauses survive in the row directly **ABOVE** the one Run 16 corrected, in BOTH docs (2 sites)
+
+- **`TRADE.md:296`** (Sep 17-18 MPM cell) · **`STRATEGY.md:229`**
+
+Two surviving present-voice clauses:
+- *"the window is INCLUSIVE, so **the retire-check runs at Sep-18 close AFTER the decision prints**"* (both) — banner correction **#4** denies it **by name**, and **Run-16 flag 1 struck the identical assertion one row below in both files.**
+- *"**This is why any options tenor must span Sep-18**"* + *"(the shelved Aug-21 TRY-FIRE-005 excludes it — **TERRY re-marks 8/3**)"* (TRADE) · *"**the reason any TRY-FIRE tenor must span Sep-18**"* (STRATEGY) — banner correction **#1**: **TRY-FIRE-007 STANDS DOWN.** This is live trade-construction instruction naming TERRY, on a stood-down card.
+
+⚠️ **The pattern is now exactly INVERTED from Run 16, and that is the durable finding.** Run 16 wrote: *"the correction landed on three neighbours and skipped this one."* Run 17: **the correction landed on the ⚰️ row and skipped the row immediately above it — in both documents.** A fix aimed at a named row does not travel one line up any more reliably than one line down. **When correcting a row in these tables, read the row above and the row below before closing.**
+
+⛔ **EXPLICITLY NOT RE-FLAGGED — `STRATEGY:229`'s figures** (*"~60% unpriced"* · *"~23% → ~39.7%"* · *"Oct ~71%"* · *centralbank.watch*). Run-16's checked-clean list ruled them **protected staleness** (never touched post-banner ⇒ frozen audit trail), SAM endorsed the restraint and added that **centralbank.watch is impeached**. **My flag is the two CLAUSES in that line, not its figures** — the Run-16 disposition covered the figure and did not reach the clauses beside it. *(Recording the distinction so no future run reads this as re-litigation.)*
+
+### 3. 🟠 BANNER — the oil-in-yen leg's dated re-certification states a direction that has since **REVERSED** (mirror image of Run-16 flag 3)
+
+- **`TRADE.md:36` · `STRATEGY.md:36`** (banner), sibling at **`TRADE.md:302`**
+
+Banner, dated 8/20 by my own Run-16 flag 3: *"**[re-certified 2026-08-20 — and the subject MOVED, which CONFIRMS rather than weakens it: Brent back through $90 to $94.58**, July TB −¥634.5B with crude VOLUME +5.5% **⇒ Phase-1 re-arming.** The defect was the missing DATE, not the content.]"*
+
+Today [STATUS 8/27]: **Brent $87.30** — 94.39 [8/21] → 86.36 [8/26] → 87.30 [8/27] = **−8.5% in three sessions** on the **Iran–Oman interim Hormuz framework finalised 8/26**. STATUS's own read: *"The 8/20 upward breach is given back; **Phase-1 oil-in-yen is DE-ARMING**."*
+
+⚠️ **Apply Run-16 flag 3's discipline in reverse, and this is the load-bearing half: the MECHANISM certification is still correct.** De-arming refutes it no more than re-arming confirmed it — **the defect is a dated directional STATE being read as the banner's current word on oil.** The date IS present (that was the 8/20 fix), which is why this is 🟠 and not 🔴. **Do not reframe the mechanism; record the reversal.** Carry the caveat verbatim from STATUS: **interim ≠ transit restored; FAL-01 unfired; BRENT/FALCON own sustain.**
+
+**Sibling, and it makes the doc self-inconsistent:** `TRADE:302` reads *"**🟡 ongoing** | Oil — de-escalation risk now two-sided | Brent **$90.12**, ON the 'headwind resolved' line."* A live-voice level, 20 days old, that **now disagrees with the banner's own $94.58** as well as with today's $87.30. **The document holds two mutually inconsistent oil states, neither current** — and the `🟡 ongoing` label is what makes it read as a live feed. *(This is the run's only DUP-LIVE-SPOT; folded here rather than double-counted.)*
+
+### 4. 🟡 `Last Updated:` — the class Run 16 certified dead, recurring in the commit that applied Run-16's flags
+
+**`TRADE.md:44` · `STRATEGY.md:44`** both read **2026-08-17 Mon**; both files were edited **2026-08-20** (`7944e8d16`). One-line fix per doc.
+
+⚠️ **The fix is NOT merely writing "8/20."** The roll must record that the 8/20 edit **was the Run-16 apply** (banner leg-dating · the 20Y NO-VERDICT update · the ⚰️ Sep-18 rows), or the next reader dates the banner to 8/17 when its most load-bearing content is 8/20. ⚠️ **Self-demonstrating a second time:** the header's own body text is the paragraph explaining that a stale stamp produced a false premise in a spawn brief. **A `Last Updated` line is read as evidence — and evidence that decays without anyone touching it is worse than absent.**
+
+### Checked + CLEAN (the negatives, reported because they are load-bearing)
+
+- ✅ **"No successor frame is declared" is STILL TRUE — do NOT flag it.** The v2.0 candidate was **KILLED** 8/27, not shipped; THESIS **v1.7 stands** (CHANGELOG ④ *"NO THESIS CHANGE… no successor frame declared"*). The banner's *"Re-entry requires a fresh, independently-argued build thesis (v1.8+), not a threshold tag"* is correct. ⚠️ **Run 16 warned "a candidate is not a ship." Run 17's mirror: a KILLED candidate is not a successor either** — the banner sentence is right for the second consecutive run, for two opposite reasons.
+- ✅ **Sep-18 grading horizon INTACT — do not re-touch the Run-16-corrected cells.** **SAM-28 and SAM-39 are both still OPEN** (4 OPEN: SAM-28/31/33/39). The narrow scoping SAM applied on 8/20 — strike the retire-check, preserve the grading function — **holds exactly as written.**
+- ✅ **SAM-41 CONFIRMED propagates NOWHERE into these docs, and that absence is correct** — SAM-41 was registered 8/7, after the compress. ⛔ **And under CH-017 it does NOT promote v1.8** (necessary-but-not-sufficient); a future run must not read the confirmation as a frame change.
+- ✅ **Scoreboard 15/14/1/4 propagates nowhere** — neither doc states an open-prediction count or scoreboard. **No flag** (carry-forward negative from Run 17 hints, re-verified cheaply).
+- ✅ **MONEY-FIELD-ESCALATION — 0 items, FOURTH consecutive run.** $58.32 · $55.50 · $58/$60 strikes · $0.40 all HISTORICAL-labelled; `TRADE:80` Live P/L reads **N/A — FLAT**; both docs' position lines read FLAT. **Nothing proposed, nothing to escalate.** ⚠️ Position has been FLAT since 6/29 with $0 at risk — **none of the four flags implies or requires a live position.**
+- ✅ **No new live-frame language since 8/7 — diff-verified.** `git diff ce30639af 7944e8d16` over both files = **3 changed lines each, all three corrections** (banner leg-dating, banner adjudicator update, ⚰️ Sep-18 row). **No re-infection.**
+- ✅ **MOF weekly −¥1.978T carries no exposure here** — neither doc carries a MOF-weekly level. K3 survives as a standing falsifier on MOF weekly per the v2.0 salvage, but its home is THESIS/STATUS.
+- ✅ **CHANGELOG-GAP — 0.** The 8/27 entry carries the kill, the 4 salvage items, SAM-41, and ④ NO THESIS CHANGE.
+- ⚪ **CAL-DRIFT — no flag, and this is a SCOPED non-flag, not a certified clean.** Same structural reason as Run 16: both forward tables are frozen historical under the compress ruling, so grading them against a live CALENDAR re-litigates that ruling, and the four defects worth an edit are **contradictions, not calendar drift**. ⚠️ **I did not read `docket/CALENDAR.md` this run** — recorded plainly so nobody reads "0 CAL-DRIFT" as a verified negative. *(KOYOMI ran concurrently at Run 16 and the calendar moved under that read; the scoped non-flag avoids repeating a provisional claim.)*
+- ⚪ **TRIGGER-STATUS-DRIFT — 0 as a separate category.** The trigger-status defects this run are banner contradictions and are counted at flag 1.
+- ⛔ **No BOJ-pricing percentage is hand-carried as a flag basis.** `boj_ois.py`'s **55.9% [8/26]** stays do-not-cite (contradicted by ~30pp); centralbank.watch impeached; the TFX band superseded. **Cite live.** ⚠️ **And the sign now travels with a twist worth stating once:** at ~87.5% priced, surprise room ~12.5% ⇒ route 1 near-dead, **and the asymmetry has FLIPPED — the bigger yen move is a surprise HOLD, which is yen-NEGATIVE (the counter-thesis side).** That is **grading context, not a licence to edit the frozen interior.**
+
+### ⚠️ ESCALATIONS
+
+- **E1 🔴 — OUTSIDE MY WRITE-SET, AND IT IS IN `STATUS.md` ITSELF: today's re-based BOJ figure did not reach STATUS's own forward-catalyst table.** `STATUS.md:107` (dashboard) reads **"🔴 CITE ~87.5% — RE-BASED 8/27"** and states that the 8/17 staleness caveat was **BACKWARDS** (*"it said FALLING ⇒ biased HIGH; it was biased LOW by 14pp"*). `STATUS.md:193` (§ forward catalysts, Sep 17-18 row) still reads **"⛔ Cite ~73% and FALLING"** — **the superseded figure AND the exact caveat SAM declared backwards today**, in the one cell whose entire function is to tell a reader what to cite. **Two rows of one file, same session, giving opposite citation instructions.** This is METSUKE's own sibling-instance class landing in the file that is canonical for every other desk, and it is the **fifth** surface this number has gone stale on. ⚠️ **Surfaced, not applied — STATUS is outside my write-set.**
+- **E2 🟠 — "cite live, do not carry" protects the READER and does nothing for the PUBLISHER; a re-base needs a same-session SURFACE SWEEP.** The Run-17 hint correctly stopped me carrying a percentage — that is a consumer-side rule and it worked. **E1 is the publisher-side half it cannot reach.** **Recommend SAM pair every re-base of a repeatedly-stale figure with a grep of its own surfaces** — structurally the same shape as the E1 ruling-sweep monitor SAM ratified at Run 16 (*a ruling governs the next write, not the existing state*), applied to **figures** instead of **rulings**. *(SAM's fleet tool for exactly this is `scripts/consumer_check.py --self` — the intra-agent scan the cross-agent scan deliberately excludes.)*
+- **E3 🟡 — `METSUKE.md` L7 `**Last run:**` reads "2026-08-20 (Run 16…)"; needs rolling to **Run 17 / 2026-08-27** once dispositioned.** **Surfaced, not applied — outside my write-set** (same treatment as Run-15 flag 7 and Run-16 E3). ⚠️ **Third consecutive run this line has needed a roll.** It is a `Last Updated` field with the identical failure mode as flag 4, sitting in my own spec, in a line whose own text says to believe MEMORY and fix it.
+- **E4 🟡 — `## PENDING from Run 16` carries no CLOSED header although SAM applied all three flags, and that is why the roll tool finds nothing.** I **verified all three at the artifacts** this run: banner leg-dating (`TRADE:29`/`STRATEGY:29`), the 8/20 20Y NO-VERDICT + MOF-basis 4.096 supersession (`TRADE:36`/`STRATEGY:36`), the ⚰️ Sep-18 rows (`TRADE:297`/`STRATEGY:230`). Per state-file rule 4 **an unmarked block stays LIVE**, so `subagent_memory_roll.py` correctly reports **"nothing terminal to roll"** on a **1,212-line / 251K** file. **SAM clears it; I do not.** ⚠️ **This is the Run-16 E1 defect in miniature and inside METSUKE's own file:** the disposition exists at the head of the file, and the section it disposes of does not know.
+- **E5 🟢 (context, no edit proposed) — TERRY's promotion of the owed §6 branch to RISK_RULES #23 leaves a SAM-side maintenance obligation with no home.** The A/B/C driver partition and the 3–5 session clock deliberately did **not** travel into the rule; they live on `AGENTS/TERRY/setups/FLOW-TRIGGER_carry-convexity-FXY-call-v2.md`, **which is SAM's side to maintain.** Neither `TRADE.md` nor `STRATEGY.md` references that card — **and must not acquire the pointer, because both are historical.** ⚠️ **The flag is precisely that: the obligation has no live SAM surface.** SAM decides where it lives (STATUS forward table or THESIS); **I propose nothing to either trade doc.**
+
+### 📏 State-file roll (report-only, closeout step — I PROPOSE, SAM APPLIES)
+
+```
+.venv/bin/python3 AGENTS/SAM/scripts/subagent_memory_roll.py AGENTS/SAM/METSUKE_MEMORY.md
+── METSUKE_MEMORY.md
+   now:  1212 lines     251K
+   ✅ nothing terminal to roll
+```
+⚠️ **Read that clean result against E4.** 251K on a file the spec measured at 370K before the Run-16 roll, and the tool finds nothing **because the only closeable block is unmarked** — not because the file is lean. **The applying step here is marking `## PENDING from Run 16` CLOSED**, after which the next roll can retire it. **Nothing deleted; nothing proposed for deletion.**
+
+- **SAM-applied:** [filled by SAM post-run]
+- **SAM-declined:** [filled by SAM post-run]
+
+*Total Run-17 output: **4 flags** — 2 🔴 banner/forward-table CONTRADICTIONS (4 sites across both docs: the Aug-7 resolver row · the Sep 17-18 retire-check + tenor clauses) · 1 🟠 banner dated-state REVERSAL (oil-in-yen, + its DUP-LIVE-SPOT sibling `TRADE:302`) · 1 🟡 `Last Updated` recurrence. **5 escalations** (E1 a stale citation instruction inside STATUS · E2 publisher-side sweep rule · E3 spec header roll · E4 unmarked PENDING blocking the roll · E5 orphaned TERRY-card obligation). **0 MONEY-FIELD-ESCALATION** (4th consecutive) · **0 CHANGELOG-GAP** · **0 TRIGGER-STATUS-DRIFT** (counted at flag 1) · **1 DUP-LIVE-SPOT** (folded into flag 3) · **CAL-DRIFT scoped non-flag, CALENDAR not read.** Interior drift deliberately NOT counted — frozen by the 8/7 ruling.*
+
+---
+
+## PENDING from Run 17 (2026-08-27)
+
+*Flags surfaced this run. SAM applies/declines; METSUKE does not remove — SAM clears.*
+⚠️ **All four land on the banner, the two forward-only tables, or the header. No interior staleness is flagged.**
+⚠️ **Position is FLAT and has been since 6/29 — no flag below implies or requires a live position.**
+
+1. **🔴 CONTRADICTION — `TRADE.md:294` + `STRATEGY.md:226`, the Aug-7 "THE PRINT" row in both forward-only tables.** Carries a **VOID entry trigger** (*"≤−153K held = CONFIRM/enter"* vs banner correction #2 *"RE-ARMS NOTHING"*), a **FAILED prediction asserted unfired** (*"SAM-29 … 55,412 away"* — verbatim the string corrected at `STRATEGY:307` on 8/17, sibling miss), a **RETIRED grade in present voice** (*"convexity-tail MED-HIGH"*, *"amplifier +8-10pp ON, residual ON"*), and the **retired −180,000 basis** (*"90.8% of peak"*; R = −188,077 ⇒ 86.9%). ⛔ **Not declinable.** ⚠️ **Scope: strike the is-it-still-live assertions ONLY; leave every contract count (−163,412 · −153K · −140K · −108K · 55,412) untouched** per the banner's own carve-out.
+2. **🔴 CONTRADICTION (inverted sibling miss) — `TRADE.md:296` + `STRATEGY.md:229`, the row directly ABOVE the one Run 16 corrected.** *"the retire-check runs at Sep-18 close AFTER the decision prints"* (banner correction #4 denies by name) and *"any options / TRY-FIRE tenor must span Sep-18"* + *"TERRY re-marks 8/3"* (banner correction #1: **TRY-FIRE-007 STANDS DOWN**). ⚠️ **Run-16's fix landed one row below and did not travel one line up, in both files.** ⛔ **Do NOT touch `STRATEGY:229`'s figures** (~60% / ~39.7% / Oct ~71% / centralbank.watch) — Run-16 ruled them protected staleness and SAM endorsed that restraint; **the flag is the clauses beside them.**
+3. **🟠 BANNER — `TRADE.md:36` + `STRATEGY.md:36`: the oil-in-yen leg's 8/20 re-certification states "Brent back through $90 to $94.58 ⇒ Phase-1 re-arming," and the move has REVERSED.** Brent **$87.30 [8/27]**, −8.5% in three sessions on the **Iran–Oman interim Hormuz framework (8/26)**; STATUS reads **Phase-1 DE-ARMING**. ⚠️ **The mechanism certification remains CORRECT — de-arming refutes it no more than re-arming confirmed it. Record the reversal; do not reframe the mechanism.** Carry: **interim ≠ transit restored; FAL-01 unfired.** **Sibling in the same edit:** `TRADE:302` *"🟡 ongoing … Brent $90.12"* — a live-voice level that disagrees with the banner's own $94.58 **and** with today.
+4. **🟡 HEADER — `TRADE.md:44` + `STRATEGY.md:44` read `2026-08-17`; both files were edited `2026-08-20` (`7944e8d16`).** ⚠️ **The class Run 16 certified dead, recurring inside the commit that applied Run-16's flags.** Roll the stamp **and name the 8/20 edit as the Run-16 apply** — otherwise a reader dates the banner's most load-bearing content a run early.
+
+**⚠️ ESCALATIONS:** see LAST RUN § Run 17 ⚠️ ESCALATIONS — **E1** (🔴 `STATUS.md:193` still says *"Cite ~73% and FALLING"* while `STATUS.md:107` says *"CITE ~87.5% — RE-BASED 8/27"*, carrying the caveat SAM called backwards today — outside my write-set) · **E2** (a re-base needs a publisher-side surface sweep, not just a corrected cell) · **E3** (`METSUKE.md` L7 → Run 17, 3rd consecutive roll) · **E4** (`## PENDING from Run 16` unmarked ⇒ roll tool finds nothing on a 251K file) · **E5** (the TERRY FLOW-TRIGGER card obligation has no live SAM surface).
+
+*(SAM clears these as flags get applied or declined.)*
+
 ## ↪️ ARCHIVED RUN HISTORY — 18 terminal block(s) rolled 2026-08-20 to `METSUKE_MEMORY_ARCHIVE.md`
+
+**Moved, not deleted; verbatim; reference-only and NOT boot-read.** Every block carried an explicit closure marker at the time of the roll. **If you need a historical disposition, read the archive — do not re-open it here.**
+
+## ↪️ ARCHIVED RUN HISTORY — 1 terminal block(s) rolled 2026-08-20 to `METSUKE_MEMORY_ARCHIVE.md`
 
 **Moved, not deleted; verbatim; reference-only and NOT boot-read.** Every block carried an explicit closure marker at the time of the roll. **If you need a historical disposition, read the archive — do not re-open it here.**
