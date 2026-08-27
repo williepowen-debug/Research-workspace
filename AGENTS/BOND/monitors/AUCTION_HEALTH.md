@@ -26,6 +26,9 @@
 
 | Date | Tenor | Size | BTC | High Yield | Indirect % | Direct % | Dealer % | Read | Source | Notes |
 |---|---:|---:|---:|---:|---:|---:|---:|---|---|---|
+| **2026-08-25** | **2Y** | $69B | **2.60** | 4.2040% | **66.01** | 23.09 | **10.90** | 🟢 | TreasuryDirect | `91282CRH6`. STRONG: ind **+8.36pp** vs med 57.65, **+15.10pp** above its failure bar; dlr −14.59pp vs med. No cover marker, no composition failure. |
+| **2026-08-26** | **2Y reopening** | $28B | **3.14** | — | **66.56** | **0.36** | **33.08** | 🟢 | TreasuryDirect | `91282CRD5`, `securityTerm` "1-Year 11-Month". Ind **+7.99pp**, **+15.65pp** above its bar ⇒ **NOT** a composition failure. ★ **Direct 0.36% = essentially zero**, dealers absorbed the residual. Logged as a real compositional fact; **interpretation WITHHELD — no base rate for reopening direct-take exists and no threshold is invented at n=1** (`KB-BND-175`). No `highYield` in the feed. |
+| **2026-08-26** | **5Y** | $70B | **2.37** | 4.3930% | **61.51** | 28.44 | 10.05 | 🟢 | TreasuryDirect | `91282CRK9`. **The soft one**: ind **−0.24pp** vs its own med 61.75 (still +2.27pp above the failure bar); BTC +0.03 vs med but **−0.00 vs the trailing-12 MEAN**. **The 7/27 cover marker did NOT repeat** (2.37 vs 2.28). `BND-18` TRUE; `BND-19` FALSE on this leg. |
 | 2026-04-22 | 20Y reopening | $13B | 2.68 | 4.883% | 59.6 | 20.2 | 8.6 | 🟢/🟡 | FiscalData | Good cover; long-end yield high. |
 | 2026-04-23 | 5Y TIPS | $26B | 2.57 | 1.367% | 57.0 | 23.7 | 7.5 | 🟢 | FiscalData | Improved vs March stress. |
 | 2026-04-27 | 2Y | $69B | 2.65 | 3.812% | 49.7 | 27.8 | 10.4 | 🟢/🟡 | FiscalData | Adequate. |
@@ -89,9 +92,25 @@
 
 | Date | Instrument | CUSIP | Size | Failure test |
 |---|---|---|--:|---|
-| Tue 8/25 · Wed 8/26 · Thu 8/27 | 2Y · 5Y · 7Y | `91282CRH6` · `91282CRK9` · `91282CRJ2` | TBA | re-derive per tenor at grade time |
+| ⏳ **Thu 8/27, 1PM ET** | **7Y** (cluster leg 3) | `91282CRJ2` | **$44B** | **FROZEN PRE-PRINT 2026-08-27:** composition failure = ind <56.42 **AND** dlr >13.14 · cover marker = BTC <2.40 · ★ **adopted `I'` = ind <57.24 fires 🟠 STANDALONE** |
 
-✅ **8/19 20Y and 8/20 30Y TIPS are BOTH GRADED — moved to the rolling table above (2026-08-20).** Next: the **8/25–27 2Y/5Y/7Y cluster**, which is also where the Will-ruled **MATRIX_V2** legs (§1 drop dealer-as-bearish · §3c indirect sufficient ALONE at the 15th per-tenor pctile) are adopted at pre-registration.
+★ **MATRIX_V2 §1/§3c ADOPTED 2026-08-27**, executing Will's 2026-08-20 ruling. **`I'` (indirect < the per-tenor 15th percentile of trailing-12) now fires 🟠 STANDALONE; dealer is DROPPED as a bearish criterion** and retained only as a descriptive field and a contrarian-**bullish** note >18%. Registered PRE-PRINT against the 1PM 8/27 7Y. Full working → `analysis/2026-08-27_MATRIX_V2-adoption_and_8-25-27-cluster-grade.md`; `KB-BND-173`.
+
+⚠️ **THREE SCOPE FACTS THAT TRAVEL WITH THE ADOPTION:** **(1)** it was owed at the pre-registrations **plural** and **2 of the 4 cluster auctions printed un-adopted** (desk dark 8/24–8/26); the rule is **forward-only** per §3d's own audit rail and was **NOT** back-applied — **counterfactual computed: `I'` would have fired on none of the three.** **(2)** The **thesis kill's dealer leg is UNTOUCHED** — dropping it would make this desk's own bear thesis easier to confirm, so it is **a question for Will, not a call taken here.** **(3)** ✅ **8/19 20Y and 8/20 30Y TIPS graded and in the rolling table (2026-08-20); the 8/25 2Y, 8/26 2Y-reopening and 8/26 5Y graded 2026-08-27.**
+
+### ★ Percentile Snapshot — indirect, per-tenor trailing-12 15th percentile (§3d audit rail)
+
+**Seeded 2026-08-27** at the adoption. **Formal quarterly refresh due 2026-10-01** and on the first business day of each quarter thereafter. **Audit rule (§3d): when re-checking a past auction's fire/no-fire status, use the snapshot IN FORCE on the auction date. The live threshold is FORWARD-ONLY and never applies retroactively.**
+
+| Snapshot date | Tenor | 15th pctile (of competitive accepted) | trailing-12 min | **bar − min** | 15th pctile (of offering, for reference) |
+|---|---|---:|---:|---:|---:|
+| 2026-08-27 | 2Y | **55.75** | 50.91 | **+4.84pp** | — |
+| 2026-08-27 | 5Y | **59.48** | 59.24 | **+0.24pp** | — |
+| 2026-08-27 | 7Y | **57.24** | 56.42 | **+0.82pp** | 57.15 |
+
+🔴 **READ THE `bar − min` COLUMN — it is the finding, and the adoption did not predict it.** The new rule is meant to be a *looser, better-calibrated* bar than the old trailing-12 min. **At the 2Y it loosens by 4.84pp; at the 5Y by 0.24pp — i.e. at the 5Y it is barely a change at all**, because that tenor's trailing-12 indirect distribution is bunched hard at its bottom. **One rule, three effective strictnesses.** ⇒ **The Will-ruled 9/4 base-rating MUST report hit-rate and separation PER TENOR; a pooled figure would average three different rules.** `KB-BND-174`.
+
+⚠️ **Convention: adopted on %-of-COMPETITIVE-ACCEPTED, not MATRIX_V2 §3d's %-of-offering — and the difference was MEASURED, not waved through.** At the 7Y the two give **57.24 vs 57.15, a 0.09pp gap**, because competitive accepted runs 99.75–99.90% of offering at all twelve auctions in the window. **A print landing inside that band is reported CONVENTION-DEPENDENT and graded both ways, never resolved by preference.** This is a **7Y** result — **re-derive per tenor; never reuse the 0.09pp.**
 
 ## ⚠️ TOOLING DEFECT — the reason this table went stale without anyone noticing
 

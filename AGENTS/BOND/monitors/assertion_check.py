@@ -240,6 +240,29 @@ def check_directional(series) -> int:
     return n
 
 
+def negated(line: str, a: int, b: int) -> bool:
+    """True if the matched FILE-STATE claim is NEGATED, i.e. it ASSERTS the state measured.
+
+    Added 2026-08-27. The FILE-STATE patterns match the CLAIM ("inbox drained",
+    "PREDICTIONS.tsv is empty") and were blind to a preceding negation, so an honest
+    disclosure -- "the general inbox/ was NOT drained -- 7 items" -- was reported as a
+    FALSE claim while AGREEING with the checker's own count (7 == 7).
+
+    That failure mode is worse than a miss. The only way to silence it is to reword a
+    TRUE and deliberately candid line, which is the "reword the text to stop the
+    pattern-match" defect this desk has logged before -- and a checker that penalises
+    candour teaches its operator to ignore rc=1 generally.
+
+    Scope is deliberately NARROW -- the ~60 chars immediately left of the match -- because
+    a negation further away usually governs a different clause. Prefer a miss to a false
+    positive: a missed false claim is one defect, a false positive on an honest line
+    corrupts the operator's trust in every other finding the tool reports.
+    """
+    window = line[max(0, a - 60):b].lower()
+    return re.search(r"\b(not|isn't|is not|was not|wasn't|were not|weren't|never|no longer)\b",
+                     window) is not None
+
+
 def check_file_state() -> int:
     """B. Claims about a file's contents, checked against that file."""
     n = 0
@@ -273,6 +296,9 @@ def check_file_state() -> int:
                     continue
                 if in_quotes(l, m.start(), m.end()):
                     continue          # a CITATION of the claim, not the claim
+                if negated(l, m.start(), m.end()):
+                    continue          # "inbox was NOT drained" ASSERTS the state the
+                                      # checker measured; flagging it punishes candour
                 show("FILE-STATE CLAIM FALSE", p, i, l, detail())
                 n += 1
     return n
@@ -589,6 +615,23 @@ FIXTURES = [
      "| 10Y real (DFII10) | 2.35% [8/19] | 8/20 NOT YET PUBLISHED on this series |",
      "expired", False),
 
+    # --- negation guard, added 2026-08-27 -----------------------------------
+    # The first is the REAL false positive that motivated it: an honest disclosure
+    # that AGREED with the checker's own count (7 == 7) was reported CLAIM FALSE.
+    # The last two are the ones that matter -- the guard must NOT have blinded the
+    # rule to the defect it exists to catch.
+    ("NEGATED inbox claim (the honest disclosure) does NOT fire",
+     "- 🔴 **The general `inbox/` was NOT drained — 7 items, deliberately.** Boot step 7 makes it a separate task",
+     "negation", False),
+    ("'inbox was never drained' does NOT fire",
+     "MAIL: the inbox was never drained this session and the count is stated honestly",
+     "negation", False),
+    ("PLAIN 'inbox drained' STILL FIRES — the guard must not blind the rule",
+     "**Mail:** inbox drained, 0 residue at closeout.",
+     "negation", True),
+    ("'inbox: 0' STILL FIRES",
+     "In: inbox: 0 · Out: 2 packets",
+     "negation", True),
 ]
 
 
@@ -610,6 +653,13 @@ def selftest() -> int:
             got = resolve_date(m).isoformat() if (m and resolve_date(m)) else None
         elif kind == "expired":
             got = bool(expired_hits_in(line))
+        elif kind == "negation":
+            # does the FILE-STATE rule FIRE on this line? (True = flags it)
+            pat = (r"inbox[^.]{0,30}(fully )?drained|inbox[^.]{0,20}\b0 residue|inbox: 0\b")
+            m = re.search(pat, line, re.I)
+            got = (bool(m) and not guarded(line)
+                   and not in_quotes(line, m.start(), m.end())
+                   and not negated(line, m.start(), m.end()))
         else:
             claims = list(direction_claims(line))
             got = (claims[0][0], claims[0][1]) if claims else None

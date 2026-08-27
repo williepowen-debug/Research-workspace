@@ -4,6 +4,27 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.8 — 2026-08-27 (the Will-ruled MATRIX_V2 adoption is EXECUTED; the 8/25–27 cluster graded)
+
+**Old view → new view:** the escalation matrix's auction leg could only escalate through a **conjunctive** composition-failure test (indirect below trailing-12 MIN **AND** dealer above MAX) whose base rate is near zero by construction → **indirect alone, at the per-tenor 15th percentile, now fires 🟠 standalone**, and **dealer is no longer a bearish criterion at all**. Conviction unchanged. No threshold moved on any live position. No composite move.
+
+**What landed**
+- ✅ **§1 + §3c ADOPTED**, executing Will's 2026-08-20 ruling (*"Approved on both - implement per your rec"*). Registered **PRE-PRINT** against the 1PM 8/27 7Y: `I'` fires at **indirect <57.24%** of competitive accepted (trailing-12, 2025-08-28 → 2026-07-28, n=12). Dealer retained as **descriptive** and as a contrarian-**bullish** note >18%. Full working → `analysis/2026-08-27_MATRIX_V2-adoption_and_8-25-27-cluster-grade.md`; `KB-BND-173`.
+- **Convention resolved rather than picked.** §3d specifies %-of-**offering**; this desk grades %-of-**competitive-accepted**. Both computed: **57.15 vs 57.24 — a 0.09pp gap**, because competitive accepted is 99.75–99.90% of offering at all twelve 7Y auctions. Adopted on competitive-accepted; a print inside that band is reported CONVENTION-DEPENDENT and graded both ways.
+- **The 8/25–27 cluster graded** — 8/25 2Y, 8/26 2Y-reopening, 8/26 5Y, all 🟢 CLEAN, no cover marker, no composition failure. **17 consecutive benign coupon resolutions since 7/9** (14 as recorded 8/21, +3). `KB-BND-172`.
+- **`BND-18` TRUE** (+0.03, and the same print is −0.00 against the trailing-12 *mean* — a thin hit, reported as thin). **`BND-19` FALSE**, broken on the 5Y leg **by 0.24pp**, all three legs recorded as the registration requires. **`KB-BND-092` closed REFUTED-AND-MOOT** on LIQUID's pre-registered B2 branch, frozen 3 days before the print (`KB-BND-177`).
+
+**What was NOT done, and why — the three that matter**
+1. 🔴 **The thesis kill's dealer leg is UNTOUCHED.** Read widest, "drop dealer as bearish" would strip it from the kill — **making this desk's own bear thesis easier to confirm.** Escalation-matrix scoring ≠ licence to loosen a **kill criterion on a live position** in the author's favour; `TRY-FIRE-004` is live. **Flagged to Will as a question; no action pending.**
+2. 🔴 **The adoption was owed at the pre-registrations PLURAL and TWO of four printed un-adopted** (desk dark 8/24–8/26). Rule is **forward-only** per §3d's own audit rail and was **not** back-applied. **Counterfactual computed, not asserted: `I'` would have fired on none of the three.** The slip changed no verdict — **luck, not vindication.**
+3. ⚠️ **The rule's bite is uneven and the adoption did not predict it.** `I'` sits above the trailing-12 min by **+4.84pp (2Y) / +0.82pp (7Y) / +0.24pp (5Y)** — at the 5Y it barely loosens anything. **One rule, three strictnesses** ⇒ the 9/4 base-rating **must report per tenor, never pooled** (`KB-BND-174`).
+
+**Two live-value defects removed from this durable doc, found while editing it.** The Status line declared THESIS *"deliberately carries none"* of the live values two sentences after carrying **"29 consecutive `DGS30` sessions"** — a figure **retracted 2026-08-15** and standing at **36** when found — plus a stale **−14.3%** dealer drawdown (live −14.8%). Both replaced by pointers to STATUS. ⚠️ **The disclaimer is what made it dangerous: it stops the reader checking.**
+
+**Still owed:** MATRIX_V2 **base-rating by 9/4** (Will-ruled, per tenor) · quarterly percentile-snapshot table in `monitors/AUCTION_HEALTH.md` by 10/1 · a direct-take base rate for 2Y reopenings (`KB-BND-175`) · **(c) BTC-confirmatory-only remains genuinely HELD, not ruled.**
+
+---
+
 ## v1.1.7 — 2026-08-21 (Will-tasked audit of THESIS: four corrections, one of them a superseded GOVERNANCE state)
 
 **No conviction change. No threshold moved. No channel added or removed.** This is a corrections release, and the corrections are listed worst-first.
