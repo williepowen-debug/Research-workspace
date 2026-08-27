@@ -159,8 +159,39 @@ def load_vectors():
     out = {}
     for r in rows(VX, "VX-CREED-"):
         if len(r) >= 10:
-            out[r[0]] = {"value": r[3], "state": r[7], "updated": r[9]}
+            out[r[0]] = {"value": r[3], "state": r[7], "updated": r[9],
+                         "name": r[1], "text": " ".join(r[1:8])}
     return out
+
+
+# --- "NO VECTOR CITED" is not the same claim as "no vector EXISTS" ------------
+# Added 2026-08-27 (month-1 band revisit). This scan's FIRST run reported T-06 and
+# T-06b as "NO METRIC VECTOR -- UNTRIPPABLE BY CONSTRUCTION". The registry fact was
+# right and the WORLD fact was wrong: VX-CREED-5.01's value cell reads "CLUSTER of
+# realized comps >30% below basis" -- T-06's metric verbatim -- and its RED band
+# reads "fund gates", which is T-06b's whole trigger. Same for T-04 and VX-8.01.
+# They were UNWIRED, not uninstrumented -- a strictly better state and a far cheaper
+# fix (a pointer, not a build). The old wording pointed the reader at exactly the
+# wrong remedy: build a duplicate, or downgrade a working bar to qualitative.
+# So: before calling a row untrippable, LOOK for the instrument.
+_STOP = {"of", "to", "the", "and", "or", "a", "an", "in", "on", "vs", "per", "rate",
+         "cre", "cmbs", "us", "new", "total"}
+
+
+def candidate_vectors(metric, vectors, min_hits=2):
+    """Vectors whose text shares >=min_hits distinctive tokens with the metric name.
+    Deliberately a LEAD, never a verdict -- the scan prints it for a human to confirm."""
+    toks = {t for t in re.split(r"[^A-Za-z0-9]+", metric.lower())
+            if len(t) > 2 and t not in _STOP}
+    if not toks:
+        return []
+    scored = []
+    for vid, v in vectors.items():
+        text = v["text"].lower()
+        hits = sum(1 for t in toks if t in text)
+        if hits >= min_hits:
+            scored.append((hits, vid, v["name"]))
+    return [(vid, name, h) for h, vid, name in sorted(scored, reverse=True)[:3]]
 
 
 def load_fired():
@@ -209,16 +240,56 @@ def main():
             unscannable.append((tid, f"no numeric band (op={op!r}, band={raw_band[:60]!r})"))
             continue
         if not vecs:
-            # A numeric band with no metric vector is UNTRIPPABLE BY CONSTRUCTION.
-            # This is the exact shape of K5: T-02 was the only banded trigger with no
-            # vector, and it went ungraded for 6 weeks. Reported as a DEFECT, not a skip.
-            unscannable.append((tid, f"⚠️ NUMERIC BAND ({op} {band}) BUT NO METRIC VECTOR — "
-                                     "UNTRIPPABLE BY CONSTRUCTION (the K5 shape)"))
+            # A numeric band with no vector CITED. Whether that is UNTRIPPABLE (no
+            # instrument exists -- the K5 shape) or merely UNWIRED (the instrument is
+            # one file away) is the difference between a build and a pointer, so the
+            # scan must not guess. It looks, and says which.
+            cands = candidate_vectors(r[2], vectors)
+            if cands:
+                lead = " · ".join(f"{vid} ({name})" for vid, name, _ in cands)
+                unscannable.append((tid, f"⚠️ NUMERIC BAND ({op} {band}) BUT NO VECTOR CITED — "
+                                         f"⇒ likely UNWIRED, not untrippable. CANDIDATE ALREADY IN "
+                                         f"VX.tsv: {lead}. Confirm by hand, then wire the pointer "
+                                         f"(non-band field). DO NOT build a duplicate."))
+            else:
+                unscannable.append((tid, f"⚠️ NUMERIC BAND ({op} {band}) BUT NO VECTOR CITED AND NO "
+                                         f"CANDIDATE FOUND IN VX.tsv — UNTRIPPABLE BY CONSTRUCTION "
+                                         f"(the K5 shape)"))
             continue
 
         live = [v for v in vecs if v in vectors]
         if not live:
             unscannable.append((tid, "every named vector is unresolvable — see pointer defects"))
+            continue
+
+        # --- A VALUE CELL THAT RESTATES ITS OWN BAND IS NOT A MEASUREMENT ---------
+        # Added 2026-08-27, minutes after the wiring fix above, BECAUSE THE WIRING FIX
+        # MANUFACTURED A FALSE 🔴🔴 TRIPPED ON ITS FIRST RUN. VX-CREED-5.01's value cell
+        # reads "CLUSTER of realized comps >30% below basis" -- that is the THRESHOLD
+        # restated in prose, not a measured quantity. The scan extracted 30 and:
+        #   T-06  compared 30 > 30  -- the band against a copy of ITSELF, "0 away"
+        #   T-06b compared 30 >= 1  -- a DISCOUNT PERCENT read as a COUNT OF FUND GATES,
+        #         and declared it TRIPPED
+        # So there are THREE states here, not two: (1) no instrument exists, (2) the
+        # instrument exists and is merely unwired, (3) the instrument exists, carries the
+        # CONCEPT and the EVIDENCE, and emits NO MEASURED NUMBER. State 3 is the one that
+        # is dangerous to wire, because a numeric scan will happily grade prose.
+        # A row is opted out explicitly via [QUALITATIVE-VALUE] in source_of_truth; the
+        # self-reference check below is the backstop for rows nobody has marked yet.
+        if "[QUALITATIVE-VALUE]" in src:
+            unscannable.append((tid, f"⚠️ NUMERIC BAND ({op} {band}) AND A VECTOR IS WIRED, BUT THE "
+                                     f"VECTOR'S VALUE CELL IS QUALITATIVE — marked [QUALITATIVE-VALUE]. "
+                                     f"Wired for EVIDENCE NAVIGATION only. GRADE IT BY HAND; a numeric "
+                                     f"pass on this row compares prose."))
+            continue
+        _probe = first_number(vectors[live[0]]["value"])
+        if _probe is not None and band is not None and abs(_probe - band) < 1e-9 \
+                and re.search(r"[<>]=?\s*" + re.escape(str(band).rstrip("0").rstrip(".")),
+                              vectors[live[0]]["value"]):
+            unscannable.append((tid, f"⛔ VALUE CELL RESTATES THE BAND ({op} {band}) — the extracted "
+                                     f"number IS the threshold, quoted back. Comparing them measures "
+                                     f"NOTHING. Not graded. Mark the row [QUALITATIVE-VALUE] or point it "
+                                     f"at a vector that emits a measurement."))
             continue
 
         vid = live[0]
