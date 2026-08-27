@@ -200,8 +200,20 @@ def build_domestic():
     p99, d99, _, e99 = fred_series("SOFR99")
     if not e75 and iorb is not None:
         s75 = (p75 - iorb) * 100
-        m, n = ("🟠", "75th pct ABOVE IORB — broad pressure IF 3+ non-quarter-end days") if s75 >= 0 else ("🟢", "75th pct below ceiling")
-        add("DOMESTIC", "SOFR75-IORB", f"{s75:+.0f}bps", m, n, d75)
+        # KB-LIQ-106 (2026-08-27): the old ">= 0 = broad pressure" line is DEAD — it was
+        # cleared by the MEDIAN 2026 day (89.5% of sessions) and printed a false 🟠 here
+        # every boot. It died of a five-year regime migration, not bad construction, so a
+        # replacement FIXED band would re-die on the same schedule. Deviation-vs-regime
+        # (base-rated z) now drives the marker; the drift is reported, never banded.
+        try:
+            import sofr_dispersion as _sd
+            _a = _sd.analyze(_sd._load())
+            _m, _n = _sd.classify(_a)
+            add("DOMESTIC", "SOFR75-IORB", f"{s75:+.0f}bps", _m, _n, d75)
+        except Exception as _e:                       # fail LOUD, never silently back to the dead band
+            add("DOMESTIC", "SOFR75-IORB", f"{s75:+.0f}bps", "⚪",
+                f"dispersion instrument UNAVAILABLE ({type(_e).__name__}) — level shown raw, "
+                f"NOT graded; do not read the absence of a marker as calm", d75)
     if not e99 and sofr is not None:
         s99 = (p99 - sofr) * 100
         m, n = ("🟠", "tail blowout (99th−SOFR ≥20bps)") if s99 >= 20 else ("🟢", "tail contained (<20bps)")
