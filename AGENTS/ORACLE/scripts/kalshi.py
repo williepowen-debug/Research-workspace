@@ -134,6 +134,7 @@ def parse_market(m):
         "yes": yes,
         "yes_bid": bid, "yes_ask": ask,
         "spread": (ask - bid) if (bid is not None and ask is not None) else None,
+        "mid": mid,
         "d_prev": d_prev,
         "volume": vol, "volume_24h": v24,
         "open_interest": oi,
@@ -177,9 +178,30 @@ def fmt_row(label, m, tier=""):
         flag += f" ⏳{m['days_left']}d"
     sp = m.get("spread")
     spread = f"sp{sp*100:.0f}¢" if sp is not None else "sp —"
+    # WIDE-BOOK MID DISCLOSURE (added 2026-08-27, tool-verification pass).
+    # parse_market prefers the LAST trade over the book mid. On a tight book that is
+    # right. On a WIDE one it is a citation trap: a single lift of the offer prints
+    # at the ask and becomes the headline number. Live instance that prompted this --
+    # KXCBDECISIONJAPAN-26SEP17-H25 read last 92.0% on a 87/92 book (mid 89.5%) with
+    # 797 contracts of 24h volume. ORACLE's own KB-ORC-069 already ruled "cite the MID,
+    # never the last" for exactly this market family, and the tool did not surface the
+    # mid at all -- the rule lived in a KB row while every dashboard line contradicted it.
+    # Display-only: the logged yes_prob is deliberately unchanged so the time series
+    # stays continuous (a mid/last basis switch mid-series would be its own defect).
+    mid = m.get("mid")
+    yes = m.get("yes")
+    # v1 of this flag fired on every [finalized] row: a settled market has no book
+    # (bid 0 / ask 100), so "mid" is a meaningless 50.0. Flagging dead rows would train
+    # readers to ignore the marker on the live ones it exists for. Suppressed on a
+    # degenerate/absent book (spread >= 99c) and on any non-active status.
+    _book_ok = sp is not None and 0.03 <= sp < 0.99
+    _live = (st is None or st == "active")
+    if (_book_ok and _live and mid is not None and yes is not None
+            and abs(yes - mid) >= 0.01):
+        spread += f" ⚠mid {mid*100:.1f}"
     dp = m.get("d_prev")
     dprev = f"{dp:+5.1f}" if dp is not None else "  —  "
-    return (f"{label[:32]:32} {tier:4} {_pct(m['yes'])}  Δp {dprev}  {spread:6}  "
+    return (f"{label[:32]:32} {tier:4} {_pct(m['yes'])}  Δp {dprev}  {spread:15}  "
             f"vol {_num(m['volume']):>6}  OI {_num(m['open_interest']):>6}  "
             f"liq {_money(m['liquidity']):>7}  {m['close']}{flag}")
 
