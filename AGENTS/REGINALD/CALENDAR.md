@@ -8,7 +8,7 @@
 
 | Frequency | Event | What to Check | Threshold / Signal |
 |-----------|-------|---------------|-------------------|
-| Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED. (Latest: **206K** [FRED wk **8/15**, pulled 8/20]; ⚠️ **DIRECTION TURNED — 189K [7/18] → 198 → 200 → 212 [8/8] → 206, i.e. +17K off the July low.** Still 94K from trigger. Prior row read 199K [wk 8/1]; 4-wk MA was 198,750 — MA's 6th straight decline is mechanical per LABOR 8/7. Trajectory 189 [7/18, rev — still lowest since Sep-1969] → 198 [7/25, rev] → 199. LABOR: low-fire side of a deepening freeze, NOT strength → bank deterioration is **not** employment-transmitted. ⚠️ NFP July −23K first negative of cycle + fin-activities −121K since May-25 — but firing layer unmoved [LABOR 8/7].) |
+| Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED. (Latest: **203K** [FRED ICSA w/e **8/22**, refreshed 8/27]; **97K from trigger.** ⚠️ **THE 8/20 "DIRECTION TURNED" CALL IS RETIRED — the up-drift STALLED:** **198 → 200 → 212 → 207 → 203**, level −4K, the 212K high two weeks behind, and **w/e 8/15 revised UP 206→207K**. Owner's phrasing: ***"off the July low but no longer rising."*** 4-wk MA **205,500** — ⛔ **the +1,250 rise is 100% roll-off, ZERO information; do not cite it as deterioration** (LABOR pre-committed the pivot and reproduced the move exactly). Continuing claims 1,778K [w/e 8/15]. LABOR: low-fire side of a deepening freeze, NOT strength → bank deterioration is **not** employment-transmitted. ⚠️ NFP July −23K first negative of cycle + fin-activities −121K since May-25 — but firing layer unmoved [LABOR 8/7].) |
 
 ## JULY
 

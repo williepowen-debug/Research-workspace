@@ -194,7 +194,7 @@ v1 scored these without instruments. They are real channels; they are **not mine
 |---|---|---|
 | CMBS maturity / CRE recognition | **CREED** | `CREED-T-02` **FIRED** 8/20 (matured-balloon share >50, effective the June print). ⚠️ CREED's own read: **pre-transmission** — mechanism speed `QUARTERS`, perimeter is securitised paper, not bank-held. `CREED-T-03` (FDIC non-owner CRE PDNA) is the bank-relevant one and has **NOT** fired; **FDIC Q2 QBP ~8/24-29**. |
 | Private credit / BDC | **BROCK** | BDC non-accruals ~2.8%, decade high (chart-read, conf 0.65). Bank-side exposure is §4 above. |
-| Federal layoffs / DC | **LABOR** | Claims 206K [wk 8/15] — direction turned, +17K off the 7/18 low, but LABOR's read is a **low-fire freeze, not employment transmission**. |
+| Federal layoffs / DC | **LABOR** | Claims **203K** [w/e 8/22, refreshed 8/27] — ⚠️ the "direction turned" framing is **retired**: the up-drift stalled (198→200→212→207→203, level −4K). LABOR's read is unchanged and is the operative one: **low-fire freeze, not employment transmission**. |
 | Consumer credit | **CARL** | — |
 | Geography (FL / TX) | **CORAL / MARCO** | FL small-tier card CLOSED 4-of-4 REVERT (8/10). |
 | Funding / FHLB | **REGINALD + BOND** | System advances **$810.7B** [6/30]; `REG-T-06` at **leg 2 of 3** on a sustain-3-quarters spec — does **not** fire; fires on the Q3 print if >700. |
