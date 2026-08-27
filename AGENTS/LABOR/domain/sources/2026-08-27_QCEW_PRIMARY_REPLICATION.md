@@ -3,6 +3,7 @@
 **Written:** 2026-08-27 late morning ET, **~19h before the 8/28 10:00 ET preliminary benchmark.**
 **Purpose:** independently reproduce RED's primary check of Berger's claim, and decide whether LAB-08's live diagnostic moves.
 **Result:** ✅ **reproduces exactly, five of five.** **LAB-08 diagnostic moved 35% → 15%.** Bands, assignments and as-made scoring **unchanged.**
+> 🔴 **SUPERSEDED IN PART, SAME DAY — see §3b: my §3 "+114K" restatement is RETRACTED as a seasonality artifact.** This is a **CHANGE** finding, not a level one. **15% still holds.** **Read §3 only through §3b.**
 
 ---
 
@@ -50,6 +51,49 @@ Measured properly — **control window vs live point:**
 ⇒ **The conservative statement is +114K of excess beyond anything seen in the control window, not +211K.** The headline figure is measured against the control *mean*; against the control *range* — the fair test, since scope drift is real — **roughly half of it is inside the noise.**
 
 **The signal survives, and it survives as a smaller thing.** The live point does sit **outside** the control range, which is what the crux needed.
+
+## 3b. 🔴 RETRACTION — §3'S +114K IS WRONG AND IS WITHDRAWN (same day, before the print)
+
+**RED tested the assumption under my §3 fix and it does not hold. I verified their counter myself and it reproduces exactly.**
+
+**The coverage ratio is strongly SEASONAL.** Monthly mean QCEW÷CES, control years 2021-2024:
+
+| Jan | Feb | Mar | Apr | **May** | Jun | **Jul** | Aug | Sep | Oct | Nov | Dec |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| .98332 | .98193 | .98212 | .98381 | **.98535** | .98423 | **.97944** | .98253 | .98371 | .98320 | .98318 | .98282 |
+
+**Seasonal spread = 0.591pp ≈ 942K jobs — SEVEN TIMES my 0.082pp "drift" estimate.**
+
+🔴 **My control window (2023-03 … 2025-03) MIXED March and December observations.** March means .98212, December .98282 — **so most of the "drift" I measured was simply the March/December seasonal gap.** ⇒ **The +114K measured SEASON, not DRIFT. It is an artifact and it is retracted.** **It is the same cross-perimeter error I had been charging all day, committed by me** (`[[finding_cross_entity_comparison_needs_same_perimeter]]`) — **and a "conservative restatement" is not exempt from the check just because it makes a finding smaller.**
+
+⚠️ **My underlying charge stands and RED conceded it:** licensing differencing on *"the ratio is stable"* is circular when the finding IS the ratio moving. **The charge was right; my replacement test was wrong.** Separable, and only one survived.
+
+### The seasonally-matched tests SPLIT the finding
+
+**LEVEL TEST — ❌ DIES.** December-only ratios: 2021 .98453 · 2022 .98270 · 2023 .98217 · 2024 .98187 · **2025 .98332.** **Dec-2025 sits INSIDE the 2021-24 control range, 192K BELOW its top.** ⇒ **NO level anomaly. Any "CES is at an unprecedented undercount" reading is dead** and I must not imply one.
+
+**CHANGE TEST — ✅ SURVIVES CLEANLY.** Dec→Dec difference-in-differences, seasonally matched (both endpoints same month):
+
+| Dec→Dec | QCEW Δ | CES Δ | **QCEW − CES** |
+|---|---:|---:|---:|
+| 2022 | +4,117,391 | +4,470,000 | **−352,609** |
+| 2023 | +2,489,180 | +2,618,000 | **−128,820** |
+| 2024 | +1,386,578 | +1,461,000 | **−74,422** |
+| **2025** | +299,175 | +69,000 | **+230,175** |
+
+**Negative every control year, monotonically shrinking, then a sign flip to +230K** — **independently reproducing the Mar→Dec result (−130 / −124 / +211) on a different span.** *(RED reported −283/−84/−48 via ratio-change × level; mine is the direct difference-in-differences, which keeps a growth term that approximation drops. Same pattern, same sign flip, larger magnitudes — an estimator disagreement, not a direction one.)*
+
+### ⇒ THE HONEST STATEMENT — narrower than either desk had it
+
+> **The CES–QCEW divergence REVERSED DIRECTION. CES is not at an unprecedented undercount.**
+> **A CHANGE finding, not a LEVEL finding — confirmed on two independent seasonally-matched spans.**
+
+### Does LAB-08 move again? **No — and not because I am anchored**
+
+**Two corrections landed in OPPOSITE directions.** Retracting my conservatism says the signal is not as small as I claimed (pushes **below** 15%); the level test dying says there is no undercount *anomaly* (pushes **above** 15%). **Neither is calibratable to a job count — limit (b) forbids exactly that — so both are qualitative and they broadly offset.**
+**The DIRECTION my 15% rests on is unchanged and is now confirmed TWICE, on two independent spans.** ⇒ **15% HOLDS. Churning a third vintage in one afternoon on a refinement that does not change direction would be noise dressed as rigour.**
+
+---
 
 ## 4. Limits — RED's four, kept, plus mine
 
