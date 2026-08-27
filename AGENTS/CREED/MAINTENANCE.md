@@ -245,3 +245,30 @@ HENRY's `evals/README.md` draws a distinction no other agent states: **a princip
 1. **A file whose *name* promises currency fails differently from an ordinary stale file.** `LAST_COMPLETION.md` skipping a write didn't read as old — it read as **current and wrong**, which is how a 7/4 claim survived two sessions and reached Will. Ordinary rot invites suspicion; this suppresses it.
 2. **Fleet parity is not the argument.** Every surface above is justified by a CREED failure with a date on it. The four *rejected* surfaces are the evidence the filter ran — **for a Tier-2 spawn-on-need agent, an unread file is not neutral, it is a recurring boot cost.**
 3. **Backfill only what you actually recorded.** The honest `[PRE-LEDGER-BACKFILL]` provenance row is worth more than 17 plausible reconstructed dispositions.
+
+
+---
+
+## 2026-08-27 — the boot-time threshold scan, built at last (`scripts/threshold_scan.py`, boot step 4c)
+
+**Structural change:** one new script, one new boot step. **The oldest un-built item on CREED's work order** — carried unbuilt through three sessions while being named each time as the highest-priority guard.
+
+**What it closes.** `CREED-T-02`'s root cause. On 2026-08-13 CREED wrote **"66% of $6.0B"** into its own workbook — the T-02 metric against a frozen band of **50** — **and did not grade it**; the fire was effective at the June print and went unnoticed **~6 weeks**. The FORUM-5 K5 test **falsified the intuitive explanation**: dark cadence was not the defect. **CREED was awake, holding the number, with the band written down. No boot step read the registry, so nothing ever compared the two.**
+
+**Verified against the real event before shipping, on BOTH wirings** — because "it would have caught it" is a claim, and the flattering version of that claim is the one nobody checks:
+- **today's wiring** → `CREED-T-02` reports **🔴🔴 TRIPPED**;
+- **the actual 2026-08-13 wiring**, where `VX-CREED-3.04` did not yet exist → reports **UNTRIPPABLE BY CONSTRUCTION**, which is the diagnosis that would have prompted building `3.04` six weeks earlier.
+**It catches the event by two different lines, and the second is the more useful one.**
+
+**Design decisions worth keeping (each is a refusal, not a feature):**
+1. **It never prints "all clear."** Only rows with **both** a numeric band and a metric vector are comparable — a minority — so the summary states coverage as a fraction and every unscannable row is **enumerated by name and reason on every run.** Silence about them was the failure mode.
+2. **`⛔ BLOCKED` ≠ `✅ CLEAR`.** Rows whose comparison is not a valid verdict on the registered basis (`T-03`'s basis defect, `T-08a`'s undeclared basis) are labelled BLOCKED — **but their arithmetic is still printed.** A block downgrades a verdict; it never hides a number. **A hardcoded block that silently swallowed a real crossing would reproduce the exact class the script exists to catch**, so each block entry carries the ruling that deletes it.
+3. **It is not an adjudicator.** TRIPPED means *go grade it at primary*. Adjudication stays a CREED act recorded in `CREED_T_FIRED_LOG.tsv`; the script reads state and writes none.
+4. **It prints its own parse provenance.** The value cells are prose, not fields, so it shows each parsed number in context — a re-worded cell can silently change what gets extracted, and a wrong-but-plausible parse is this desk's self-declared dominant failure.
+5. **No count is hardcoded in the docstring.** The counts move whenever a vector or trigger is added. *(Same-day precedent: README asserted "14 comment lines" for `THRESHOLDS.tsv` when the real count was 25 — a stale number sitting inside the warning against hardcoding one.)*
+
+🔴 **LIVE FINDING FROM THE FIRST RUN — `CREED-T-06` and `CREED-T-06b` carry numeric bands (`>30`, `>=1`) with NO metric vector.** That is the **identical K5 shape, n=2, and it had never been counted** — `README` said "only 5 rows are numerically scannable" without noting that two of the remaining six are *banded but uninstrumented*, which is a different and worse state than *qualitative by design*. **Flagged, deliberately NOT adjudicated here:** whether these two want a vector, or want their numeric bar rewritten as an honestly-qualitative one, is a judgment call — and a band change is Will-gated regardless. Carried to `SCRATCH.md`. *(This is also the first return on SCRATCH deferred item 8 — "evaluate the six non-scannable triggers, never swept; assume they are worse than the scanned ones." They were.)*
+
+⚠️ **The guard's own v1 failed on its first run, in its most load-bearing direction.** A loose `VX-CREED-[\d.]+` regex swallowed the range shorthand `VX-CREED-10.01..10.05` whole and **reported a phantom pointer defect against `CREED-T-08b`** whose five vectors are all present and fine. **A check built to find fabricated referents fabricated one.** Caught only by running it before commit. `[[finding_test_the_guard_not_just_the_guarded]]` — the memory predicts exactly this, and predicting it is not the same as being immune to it.
+
+**Files touched:** `scripts/threshold_scan.py` (new), `CLAUDE.md` (boot step 4c), `README.md` (scripts index), `MAINTENANCE.md`, `SCRATCH.md`.
