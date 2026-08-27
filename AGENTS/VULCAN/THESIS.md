@@ -8,6 +8,21 @@
 
 ## S1 — AI-capex concentration (the core — the reason the seat exists)
 
+> **🆕 2026-08-27 — A NEW S1 CONCENTRATION MECHANISM, ADDED AT CLOSEOUT STEP 2b, THAT THIS SECTION DID NOT
+> PREVIOUSLY CARRY.** S1 has always measured concentration as **index weight** and **capex/FCF**. The NVDA
+> 10-Q of 2026-08-26 adds a third form: **the index's largest single name (7.98% of SPY, 24.19% of the
+> Mag-7) is now extending $108.5B of credit support to its own demand**, having stated in the same filing
+> that its customers *"lack the ability to secure... investment-grade financing capacity"* and that it
+> expects only its **investment-grade** customers to finance themselves. ⇒ **A portion of NVDA's forward
+> order book is underwritten by NVDA's own balance sheet.** That is a concentration channel neither the
+> weight leg nor the FCF leg can see: it does not change the index weight and it does not appear in FCF
+> until it fires. ⚠️ **Stated at the right strength — the obligations are CAPPED, CONDITIONAL and
+> INDEMNIFIED, and this is NOT "NVDA lends OpenAI money to buy NVDA chips."** The surviving claim is the
+> one already registered under the guaranty section below: **the exposure is POSITIVELY CORRELATED with
+> NVDA's own core business**, and NVDA's 10-Q now says so in its own risk factors. **Route VIOLET (Path-B)
+> — this is the fundamental driver for a fragility their vol expression already prices.** [KB-121/123]
+
+
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | Hyperscalers ramp AI-capex (MSFT/GOOGL/AMZN/META) | confirmed |
@@ -57,7 +72,7 @@
 | 1 | AI demand pulls HBM; conventional DRAM/NAND ride the broader cycle | confirmed |
 | 2 | Memory price (spot → contract) + maker capex signal the cycle position | **SPLIT READ 8/3 — physical legs UP, equity leg ROLLED.** ~~Spot rising 8/3 (DDR5 $51.33 +0.72% · DDR4 $85.71 +0.57%)~~ → **spot STILL RISING and higher, 8/24: DDR5 $54.17 +0.12% · DDR4 $91.32 +0.27%** *(8/21: $54.10 / $91.07)* ⚠️ **rate of increase is the LOWEST in the retained series — logged as a WATCH ITEM, explicitly NOT scored: "rate of increase slowed" is not "prices falling," which is the 8/13 error class inverted, and n=1 on an irregular cadence** [TrendForce spot tracker 18:10 GMT+8, own `semi_watch.py` pull]; contract rising but **decelerating** (3Q26 fcst DRAM +13-18% / NAND +10-15% QoQ). ⚠️ vs 2Q26's +58-63%/+70-75% — **general vs SERVER DRAM, not like-for-like**. **⇒ The physical legs have moved FURTHER from the −25% roll rule since 8/3, not closer** |
 | 2b | **Equity/flows price the cycle position ahead of contract** *(new leg, 8/3)* | ~~**ROLLED**~~ → ⚠️ **UNRESOLVED, AND THE INDICATOR IS DISARMED (8/13, upheld 8/21 on better grounds, RE-GRADED EARLY 2026-08-24 AGAINST THE PRE-SPECIFIED RULE AND STILL DISARMED — both legs unmet).** **8/24:** spread **+19.02 → +13.14 → +4.54 → +3.31pp** (four consecutive readings narrowing, one-third of the +10pp bar, moving AWAY); leg 2 unmet, spot at series highs. ⚠️ **The 8/24 tape is the fastest de-rate in this desk's record and STILL fails this leg's defining clause — AI-compute fell HARDER than QQQ (NVDA −6.53%, AVGO −7.76% vs −2.99%), so "equity prices the cycle ahead of contract" is not what is happening; it is a bloc rotation.** [KB-115/116]  7/6→8/3 read retained as the record: SNDK −26.2, KLAC −21.7, LRCX −15.9, MU −15.8, AMAT −12.6 vs QQQ −3.2, **NVDA +5.7/AVGO +4.9**; flows agreed (Vanda 7/28: 88% of a COVID-magnitude retail sell = 4 memory names). **What happened since: the answer is BASIS-DEPENDENT and I now carry all three.** ① **rolling-1mo** (the only window fixed *before* the data, `S2_SERIES.tsv`): AI-compute−memory spread **+19.02 → +13.14 → +4.54pp**, **NARROWING**; ② **peak-to-current** (peaks all late June): **KLAC −38.6 · WDC −37.2 · AMAT −31.8 · SNDK −31.5 · MU −19.1** vs **QQQ −4.6** and **NVDA −3.7** — de-rate **large and intact**; ③ **YTD** (the steelman): the complex is **+45% to +483%**, so a 30% drawdown off a parabolic June top is **arithmetic, not a roll**. ⚠️ **The 8/13 "retrace" verdict is WITHDRAWN — it was measured from the drawdown's own trough** (8/3, MU $829.50), which manufactures a retrace by construction [KB-089, **L-17**]. **🆕 And the cohort has SPLIT for the first time:** semicap −10.01 vs memory −4.35, **MU +1.14 vs KLAC −14.54** — DRAM's bellwether is now the *strongest* leg, sorting along the DRAM-tight/NAND-eases line flagged in KB-057. **Indicator stays DISARMED — not "it failed" but "it has no specified basis"; pre-specified re-arm rule grades 9/30** (rolling-1mo spread ≥+10pp for 3+ readings AND further contract deceleration). [KB-089/091/092/093] |
-| 3 | A contract-price roll = demand inflection (memory leads the cycle) | open — **NOT triggered**; both price legs still positive, −25% QoQ rule far from firing |
+| 3 | A contract-price roll = demand inflection (memory leads the cycle) | open — **NOT triggered**; both price legs still positive, −25% QoQ rule far from firing. **🆕 8/27 — AND IT MOVED FURTHER AWAY ON AN ISSUER-PRIMARY DATUM: NVDA's supply-and-capacity commitments went $119B → $279B in ONE QUARTER, *"primarily related to the procurement of memory"*** (CFO commentary verbatim, 8-K acc `0001045810-26-000073` Ex-99.2). Ladder: rem-FY27 **$92B** / FY28 **$87B** / FY29 **$88B** / FY30 $6B / FY31 $5B / FY32+ $1B. **The largest single buyer of HBM/DRAM just locked multi-year supply — that is the opposite of a cycle roll.** ⚠️ **Say "supply+capacity commitments, increase attributed primarily to memory", NEVER "$279B of memory"** — the $279B line is supply+capacity; *"primarily memory"* is the CFO's attribution of the **increase**. [KB-118] |
 
 **Repricing:** memory makers, a broad demand-velocity read (→ HENRY), goods/tech demand (→ CARL). **Why it matters:** memory is the most cyclical semi — a contract-price roll is one of the earliest real-economy demand tells. **First pull (2026-07-12):** TrendForce 2Q26 forecast + Micron FQ3 FY26 print (reported 6/24/26, revenue $41.46B vs $32.75-34.25B guide, CEO says can fill only 50-67% of demand) both confirm a structural shortage, not a roll — no capacity relief expected before late 2027/2028. **New cross-channel link (MISSED CONNECTIONS, 2026-07-12): S2 feeds S1 directly.** MSFT and META both cite higher component/memory costs as explicit drivers of their FY26 capex-guide raises (MSFT: ~$25B of its $190B guide = pricing effect). Some fraction of the eye-catching capex $ growth is memory-cost inflation, not purely incremental compute capacity — relevant nuance for how VIOLET/HENRY read the raw capex figures. **Next resolver:** **MU FQ4, ~2026-09-29** — ⚠️ **not "~8/4"**, which was a VULCAN-authored error carried 7/12→8/3 (Micron's FY ends **09/03**; a quarter ending then cannot report 8/4 — KB-047, L-13). It lands **one day before VULCAN-02 + VULCAN-11 resolve 9/30**.
 
@@ -69,6 +84,14 @@ The 7/12 read above ("structural shortage, not a roll") is **still true on the p
 - **A supplier that has PRESOLD cannot monetise the spike.** Micron is presold through 2027, so that volume was priced **before** the surge ⇒ **"sold out through 2027" is a CEILING, not a moat.** The structure protecting the hyperscaler's cost line also caps the supplier's upside.
 - **This explains what a cycle-peak read cannot:** why memory de-rates on *record* fundamentals **while AI-compute rises**. The 7/31 closes sorted along exactly that line — LTA-protected **AMZN +15.32% · GOOGL +6.73% · META +3.28% · MSFT +3.02%** vs **AAPL −7.35%** (non-LTA buyer paying up) and **MU −5.90%** (capped seller). ⚠️ AAPL closed **−7.35%**, not the "10%" the Friday wires carried.
 - **The consumer leg of the S2→S1 cost-push, which this doc previously lacked:** Cook (AAPL FQ3, 7/30) — Apple *"reluctantly raised prices"* on Macs/iPads citing a **"100-year flood on memory pricing,"** expects to pay more still, says DRAM needs >3 suppliers; 7/31 Apple published the rationale across **14 products**. That *is* TrendForce's "consumer demand weakening": consumers hit an affordability limit because the cost reached them. ⚠️ **And a QUANTITY channel carried nowhere else:** the shortage *"raised costs **and lowered production**"* — raising prices fixes only the price half.
+- **🆕 2026-08-27 — A SECOND ISSUER, AND THE FIRST ONE THAT IS NOT SELLING TO CONSUMERS.** NVDA CFO
+  commentary: Edge Computing revenue **$7.2B (+27% YoY, +13% QoQ)**, increases *"partially offset by
+  **slower consumer PC sales that were tempered by elevated memory and systems prices**."* ⚠️ **Held to its
+  true strength: the segment GREW, and memory price is named as a PARTIAL OFFSET, not a demand
+  inflection — this is NOT a consumer roll and must not be upgraded into one.** Its value is corroborative:
+  the consumer-affordability leg had rested on **AAPL's own pricing action** plus a **modelled TrendForce
+  BOM**, and now a *supplier* on the other side of the same market names the identical cost as a drag on
+  *its* consumer volume. **Two issuers, opposite ends of the chain, same mechanism.** [KB-119]
 - **⚠️ DRAM and NAND must stop being one line.** TrendForce 7/30: **2027 DRAM supply stays TIGHT while NAND supply EASES.** This doc, STATUS and VULCAN-02 all quote them paired. **VULCAN-11 is DRAM-specific and survives; VULCAN-02's paired wording is the exposed one** — a NAND roll with a DRAM hold would resolve it ambiguously. Consistent with **SNDK (NAND-heavy) leading the de-rate at −26.2%**. [KB-057]
 
 **Provenance + caveat:** the LTA/presold mechanism is **WALTER's** (`SIG-W-20260731-002`, `-010`), adopted here with its author's own caveat intact — *"a hypothesis for you to kill or keep, not a finding"*; the 7/31 single-session move is not decomposed. Registered as **VULCAN-11** (equity-leads-contract, resolves 9/30, frozen baselines, explicit NO-VERDICT band). [KB-048/049/055/056/057]
@@ -79,7 +102,7 @@ The 7/12 read above ("structural shortage, not a roll") is **still true on the p
 |---|---|---|
 | 1 | AI-capex → datacenter buildout → compute demand | confirmed (macro) |
 | 2 | Compute demand → interconnection + grid MW load | **sized: capex-implied ~8-11 GW/yr global 4-name flow (2026) — conversion below** |
-| 3 | Grid can't supply → power becomes the binding constraint on AI deployment | open (the WATT coupling) — WATT's P2 capacity leg already FIRED on its side |
+| 3 | Grid can't supply → power becomes the binding constraint on AI deployment | open (the WATT coupling) — WATT's P2 capacity leg already FIRED on its side. **🆕 8/27 — THE PORTS-PIKE LOAD NOW HAS A FILED PHASE SCHEDULE, WHICH IS BETTER EVIDENCE THAN A NAMEPLATE NUMBER: nine data centers, first in service expected NVDA FY2029 (~calendar 2028), ~4.25 GW IT load committed + ~3.8 GW optional, PJM territory** [10-Q acc `0001045810-26-000075` Note 10; press release *"Secured land, power and shell capacity through a partnership with SB Energy at the PORTS-Pike Technology Campus in Ohio"*]. **This DATES the load addition that pushes S3 away from its channel-death** (S3 dies if interconnection clears faster than load is added). ⚠️ **FY2029 is NVDA's fiscal year (ends ~late Jan) ⇒ ~calendar 2028 — consistent with the 8-K's "in-service from 2028", NOT a contradiction.** ⚠️ **A dated, phased, contractually-committed load is exactly the quantity the 8/13 nameplate-vs-firm seam was struggling to pin — route WATT.** [KB-126] |
 
 **Repricing:** hands WATT the demand driver (WATT prices the grid response); power-availability as a gate on AI-capex. WATT owns the power price (reconcile to one figure).
 
@@ -122,7 +145,7 @@ WATT's two seam datums [WATT STATUS P3 row, KB-WATT-012..014]: **PJM-official 32
 | Stage | Mechanism | State |
 |---|---|---|
 | 1 | Leading-edge fab capacity concentrates at TSMC-Taiwan | confirmed (structural) |
-| 2 | US/China export controls tighten the equipment + chip flow | **two-sided, not one-directional — see below** |
+| 2 | US/China export controls tighten the equipment + chip flow | **two-sided, not one-directional — see below.** **🆕 8/27 — AND THE NVDA LEG HAS GONE TO ~ZERO, WHICH RELOCATES THE CHANNEL'S EXPOSURE RATHER THAN QUIETENING IT:** Hopper DC shipments to China were **<1% of Data Center revenue** in the quarter, and the Q3 outlook **assumes no China DC compute revenue at all** [8-K acc `0001045810-26-000073` Ex-99.1/99.2]. ⇒ **Further export-control escalation now has near-zero incremental effect on NVDA REVENUE — the risk is already realised at this issuer — so an S4 shock from here must surface through the EQUIPMENT and FOUNDRY legs (ASML/AMAT/LRCX, TSMC), not through NVDA.** ⚠️ **Do NOT read "NVDA is insulated" as "S4 is quieter": the same shock now lands on different instruments, and TSMC monthly revenue (next ~2026-09-10) is the one this desk actually holds.** [KB-125] |
 | 3 | Equipment ban / fab cutoff / Taiwan kinetic → supply shock across the chain | open; TSMC revenue shows no stress yet |
 
 **Repricing:** the semi-supply consequence of ZHAO's China events + HAWK's Taiwan geopolitics. **First pull (2026-07-12):** TSMC May'26 monthly revenue +30.1% YoY (record) — no chokepoint stress on the revenue line; ~~June print delayed to 7/13/26 (typhoon), VULCAN-05 resolves there.~~ ⚠️ **RESOLVED — VULCAN-05 HIT 7/17** (June NT$442.68B, +6.2% MoM; ⚠️ cite **H1 +35.6% YoY**, NOT the +67.9% headline, which is a base effect off a June-2025 trough). **🆕 CURRENT READ, pulled 2026-08-21 — the section above is the 7/12 record, not the live number: TSMC July 2026 revenue NT$467,580M, +5.6% MoM, +44.7% YoY; Jan-Jul +37.0% YoY** (up from H1's +35.6% — a mild acceleration) [**SEC 6-K acc `0001046179-26-000471`, filed 8/10**, own EDGAR pull]. **S4 revenue line clean; NOT-FIRED. Next print ~2026-09-10 — this is a MONTHLY series and must be pulled monthly** (it sat 5 weeks stale through two sessions; the reassuring number is why nobody noticed). [KB-100] **The export-control picture is NOT simply tightening** — it is genuinely two-sided: the US *eased* (BIS approved H200 sales to China 1/13/26, ~10 buyers cleared by 5/14/26, though paired with a 25% tariff), while Taiwan is *tightening* from the other end — weighing a Foreign Trade Act amendment to criminalize unauthorized AI-chip exports to all of China (undated), with a first concrete enforcement event 7/1/26 (Keelung court detained 3 Super Micro/Albatron execs — Taiwan's first criminal AI-chip-diversion probe). No fixed-date resolver exists for the Taiwan legislative side; monitoring item. Kinetic Taiwan = HAWK cross-flag; China macro = ZHAO — **route-out: neither may have this dated 7/1 event logged from the semiconductor angle.**
@@ -243,12 +266,51 @@ moving the score because a datum feels important is how a matrix stops meaning a
 ### What CANNOT be concluded yet — the two numbers that decide the size
 
 **The $105B is a CAP on NVDA's obligation, not an exposure estimate.** Actual exposure depends on:
-1. **the guaranteed-minimum-value schedule** — not public;
-2. **the definition of "satisfactory credit rating"** — not public, and it is the entire termination condition.
+1. **the guaranteed-minimum-value schedule** — ~~not public~~ → **🔴 RESOLVED 2026-08-27: OMITTED BY
+   AFFIRMATIVE ELECTION, NOT MERELY ABSENT.** The 10-Q filed **2026-08-26** (acc `0001045810-26-000075`)
+   **does** file Ex-10.1 *"Form of Residual Value Guaranty"* — carrying *"certain terms of this agreement
+   have been redacted in accordance with Regulation S-K Item 601(b)(10) and certain schedules have been
+   omitted in accordance with Regulation S-K Item 601(a)(5)."* **The schedule is withheld by election, so
+   it will not arrive on a later filing absent a change of election.** [KB-120]
+2. **the definition of "satisfactory credit rating"** — ~~not public, and it is the entire termination
+   condition~~ → **🔴 STILL UNDEFINED AS OF THE 10-Q.** The phrase appears **twice**, both times purely as
+   the termination condition; the definition lives inside the redacted exhibit. **The entire termination
+   condition of a $105B obligation remains non-public — and now demonstrably by choice.** [KB-120]
 
-Both are said to arrive as an **exhibit to the 10-Q for the quarter ended 2026-07-26**. ⚠️ **Until then,
-any exposure figure is a ceiling being quoted as a level** — do not let $105B propagate as "NVDA's
-exposure." *(This is why the 8/31 tripwire survived the 8-K rather than being retired by it.)*
+~~Both are said to arrive as an **exhibit to the 10-Q for the quarter ended 2026-07-26**.~~ ⚠️ **CORRECTED
+2026-08-27: the exhibit arrived and answered NEITHER question.** The inference *"the form goes in as a
+10-Q exhibit, therefore the terms become public"* conflated **the exhibit being FILED** with **the exhibit
+being UNREDACTED** — two different things, and only the first was ever stated. ⚠️ **The operative caution
+is UNCHANGED and now permanent rather than temporary: any exposure figure is a ceiling being quoted as a
+level** — do not let $105B propagate as "NVDA's exposure."
+
+> **🔑 AND THE TRIPWIRE ITSELF WAS MIS-DATED, WHICH IS THE MORE USEFUL FINDING.** ~~*(This is why the 8/31
+> tripwire survived the 8-K rather than being retired by it.)*~~ **The 10-Q filed 2026-08-26 — FIVE DAYS
+> BEFORE the 8/31 date this desk carried since 8/21.** The 8-K said the *form* of the guaranty agreements
+> **would be** a 10-Q exhibit; **I inferred the filing DATE from that rather than deriving it from NVDA's
+> filing cadence.** ⚠️ **And the register row's own instruction — *"re-derive the actual filing date from
+> EDGAR if unfiled by this date"* — could only fire ON 8/31, i.e. after I was already late. A tripwire
+> dated later than its event cannot catch that event.** ⇒ *When a filing's DATE is inferred rather than
+> derived, the check must run BEFORE the inferred date, not on it.* Row re-dated and marked SPENT in
+> `docket/CATALYSTS.tsv`. [KB-120]
+
+### 🆕 What the 10-Q ADDED beyond the 8-K (2026-08-27)
+
+- **The guarantee book is $108.5B, not $105B** — $105.0B SB Energy **+ $3.5B** pre-existing land/power/shell
+  guarantees for AI clouds. **$3.5B → $108.5B is 31× in one quarter.**
+- **Nine phases, each a 20-year lease, first in service expected NVDA FY2029** (~calendar 2028 — *consistent
+  with* the 8-K's "in-service from 2028", **not** a contradiction). Guarantee amounts **increase** as phases
+  complete and **decline** as OpenAI pays. Limited to *defined portions of lease and power payments*, not
+  full site cost. **Consideration: the site exclusively hosts NVIDIA AI infrastructure.** OpenAI
+  **reimburses and indemnifies** NVDA for certain losses — *"we may not recover amounts promptly or in full."*
+- **🔑 NVDA NOW STATES THIS SECTION'S OWN CORRELATION THESIS IN ITS RISK FACTORS**, which is the strongest
+  form of corroboration available: on default/insolvency NVDA *"may assume the applicable lease, require the
+  landlord to seek a replacement tenant, initiate a sale process or choose to pursue other remedies. **A
+  replacement tenant or buyer may not be found on acceptable terms or timing**, and our obligations may
+  continue longer than expected."* **The claim below — that the payout is most likely exactly when the
+  re-let market for purpose-built AI capacity is thinnest — is no longer this desk's inference.** [KB-121]
+- **~3.8 GW option: quantified in LOAD, not in MONEY** — sole discretion, phased, **no dollar cap disclosed.**
+- **"OpenAI" appears 8× in this 10-Q. It appeared 0× in the Q1 FY27 10-Q.**
 
 ### Does this need its own prediction? **No — and saying so is the discipline.**
 
