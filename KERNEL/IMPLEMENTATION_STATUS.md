@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will authorized the C6 disposable rehearsal on 2026-08-26. The exact two-command SAM-33 rehearsal, audits, abort/retry drill, and projection rebuild passed outside the live repository. C7 live activation remains unauthorized.
+**Latest operator ruling:** Will authorized C7 packet preparation on 2026-08-26. Preflight found that the integrated boundary remains synthetic-only and hard-refuses live writes, so C7 is blocked and no activation ruling was presented.
 
 **Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
@@ -145,11 +145,12 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — C7 activation ruling
+## Next action — authorize live-interface remediation
 
-**C6 is complete subject to its recorded independent review. Do not create live
-commands or results or begin the pilot without a separate C7 ruling that fixes
-the exact time window and packet.**
+**C6 is complete for the synthetic interface, but C7 preflight found no
+executable live-shadow interface. Do not create live commands or results or
+bypass the synthetic boundary. Remediation, repeat rehearsal, and a fresh C7
+ruling are separately required.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
@@ -186,7 +187,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
 | Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
-| Gate C — live shadow activation | C1–C6 READY FOR C7 RULING / NOT ACTIVE | Exact SAM-33 two-command disposable rehearsal passed; live activation remains separately gated |
+| Gate C — live shadow activation | C1–C6 COMPLETE / C7 BLOCKED / NOT ACTIVE | Synthetic rehearsal passed, but no integrated executable live-shadow writer exists; remediation and repeat rehearsal are required |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record

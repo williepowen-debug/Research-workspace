@@ -53,7 +53,8 @@ authorized. Completing C1–C6 does not activate shadow operation.
 | C4 | COMPLETE 2026-08-26 | RED registered dormant in `policies/custody-policy.json`; custody mechanism, fifteen synthetic tests, and `GATE_C_C4_CUSTODY.md` |
 | C5 | COMPLETE 2026-08-26 | SAM-33 approved; SAM-owned companion committed at `1d9400425`; strict command and exact native-reference preflight pass |
 | C6 | COMPLETE / INDEPENDENT PASS 2026-08-26 | `GATE_C_C6_REHEARSAL.md`; disposable two-command rehearsal, abort/retry/rebuild, audits, and remediated adversarial review passed |
-| C7–C8 | NOT AUTHORIZED | Separately gated as specified above |
+| C7 | BLOCKED IN PREFLIGHT 2026-08-26 | `GATE_C_C7_ACTIVATION_PACKET.md`; no executable live-shadow interface exists |
+| C8 | NOT AUTHORIZED | Requires an authorized and completed C7 pilot |
 
 ## Required implementation properties
 
@@ -111,6 +112,8 @@ Before requesting C7, the packet must contain:
 
 ## Immediate next action
 
-Present the C7 activation packet for a separate operator ruling after fixing its
-exact start and end timestamps. Do not create live commands or results, activate
-custody, or begin shadow operation before that ruling.
+Authorize and complete the bounded live-interface remediation described in the
+blocked C7 packet, then repeat the disposable rehearsal and independent review.
+Only afterward may a fresh C7 packet fix start/end timestamps and request an
+activation ruling. Do not create live commands or results, activate custody, or
+begin shadow operation before that ruling.
