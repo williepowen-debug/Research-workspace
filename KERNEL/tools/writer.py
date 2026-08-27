@@ -25,6 +25,7 @@ from core import (
     validate_receipt,
     validate_transition,
 )
+from live_grant import LiveShadowGrant, require_live_grant
 from locking import FixtureAcceptanceLock
 from planner import DependencyPlan, plan_commands
 
@@ -245,7 +246,11 @@ def build_rejected_receipt(
 
 
 class FixtureResultStore:
-    """Atomic result storage rooted outside the repository's live KERNEL tree."""
+    """Atomic result storage rooted outside the repository's live KERNEL tree.
+
+    Without a minted live grant the store refuses the live repository tree;
+    with one it requires exactly the granted ``KERNEL`` root and nothing else.
+    """
 
     def __init__(
         self,
@@ -253,12 +258,22 @@ class FixtureResultStore:
         *,
         before_publish: Callable[[Path, Path], None] | None = None,
         forbidden_repository_root: str | Path | None = None,
+        live_grant: LiveShadowGrant | None = None,
     ):
         self.root = Path(root).resolve()
-        repository_root = Path(forbidden_repository_root or REPOSITORY_ROOT).resolve()
-        self.forbidden_repository_root = repository_root
-        if self.root == repository_root or repository_root in self.root.parents:
-            raise ValueError("fixture result store cannot target the live repository tree")
+        if live_grant is not None:
+            if forbidden_repository_root is not None:
+                raise ValueError("live_grant and forbidden_repository_root are mutually exclusive")
+            self.live_grant: LiveShadowGrant | None = require_live_grant(live_grant)
+            self.forbidden_repository_root: Path | None = None
+            if self.root != self.live_grant.kernel_root:
+                raise ValueError("live result store must target exactly the granted KERNEL root")
+        else:
+            self.live_grant = None
+            repository_root = Path(forbidden_repository_root or REPOSITORY_ROOT).resolve()
+            self.forbidden_repository_root = repository_root
+            if self.root == repository_root or repository_root in self.root.parents:
+                raise ValueError("fixture result store cannot target the live repository tree")
         self.before_publish = before_publish
 
     def inventory(self) -> StoreInventory:
@@ -520,6 +535,11 @@ class FixtureResultWriter:
         )
 
     def _acceptance_lock(self) -> FixtureAcceptanceLock:
+        if self.store.live_grant is not None:
+            return FixtureAcceptanceLock(
+                self.store.root.parent,
+                live_grant=self.store.live_grant,
+            )
         return FixtureAcceptanceLock(
             self.store.root.parent,
             forbidden_repository_root=self.store.forbidden_repository_root,

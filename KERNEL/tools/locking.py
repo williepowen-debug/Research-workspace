@@ -8,6 +8,8 @@ import stat
 from pathlib import Path
 from types import TracebackType
 
+from live_grant import LiveShadowGrant, require_live_grant
+
 
 LIVE_KERNEL_ROOT = Path(__file__).resolve().parents[1]
 REPOSITORY_ROOT = LIVE_KERNEL_ROOT.parent
@@ -18,6 +20,8 @@ class FixtureAcceptanceLock:
 
     The lock serializes local custody mechanics only. Acquiring it does not grant
     an actor capability, validate a command, or authorize a result disposition.
+    Without a minted live grant the lock refuses every repository-related root;
+    with one it requires exactly the granted repository root and nothing else.
     """
 
     def __init__(
@@ -25,16 +29,26 @@ class FixtureAcceptanceLock:
         workspace_root: str | Path,
         *,
         forbidden_repository_root: str | Path | None = None,
+        live_grant: LiveShadowGrant | None = None,
     ):
         self.workspace_root = Path(workspace_root).resolve()
-        repository_root = Path(forbidden_repository_root or REPOSITORY_ROOT).resolve()
-        self.forbidden_repository_root = repository_root
-        if (
-            self.workspace_root == repository_root
-            or repository_root in self.workspace_root.parents
-            or self.workspace_root in repository_root.parents
-        ):
-            raise ValueError("fixture acceptance lock cannot target the live repository tree")
+        if live_grant is not None:
+            if forbidden_repository_root is not None:
+                raise ValueError("live_grant and forbidden_repository_root are mutually exclusive")
+            self.live_grant: LiveShadowGrant | None = require_live_grant(live_grant)
+            self.forbidden_repository_root: Path | None = None
+            if self.workspace_root != self.live_grant.repository_root:
+                raise ValueError("live acceptance lock must target exactly the granted repository root")
+        else:
+            self.live_grant = None
+            repository_root = Path(forbidden_repository_root or REPOSITORY_ROOT).resolve()
+            self.forbidden_repository_root = repository_root
+            if (
+                self.workspace_root == repository_root
+                or repository_root in self.workspace_root.parents
+                or self.workspace_root in repository_root.parents
+            ):
+                raise ValueError("fixture acceptance lock cannot target the live repository tree")
         self.path = self.workspace_root / ".rw" / "locks" / "command.lock"
         self._descriptor: int | None = None
 
@@ -47,9 +61,15 @@ class FixtureAcceptanceLock:
             raise RuntimeError("fixture acceptance lock instance is already held")
         self.path.parent.mkdir(parents=True, exist_ok=True)
         resolved_lock_directory = self.path.parent.resolve()
-        repository_root = self.forbidden_repository_root
-        if resolved_lock_directory == repository_root or repository_root in resolved_lock_directory.parents:
-            raise ValueError("fixture acceptance lock cannot resolve into the live repository tree")
+        if self.live_grant is not None:
+            expected = (self.live_grant.repository_root / ".rw" / "locks").resolve()
+            if resolved_lock_directory != expected:
+                raise ValueError("live acceptance lock directory must resolve exactly inside the granted root")
+        else:
+            repository_root = self.forbidden_repository_root
+            assert repository_root is not None
+            if resolved_lock_directory == repository_root or repository_root in resolved_lock_directory.parents:
+                raise ValueError("fixture acceptance lock cannot resolve into the live repository tree")
         flags = os.O_CREAT | os.O_RDWR
         if hasattr(os, "O_CLOEXEC"):
             flags |= os.O_CLOEXEC

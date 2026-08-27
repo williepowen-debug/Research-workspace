@@ -152,8 +152,21 @@ def _calibration(metadata: list[tuple[str, str]], replay_result: Any) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_views(events: Iterable[dict[str, Any]], *, render_as_of: str) -> dict[str, str]:
+def render_views(
+    events: Iterable[dict[str, Any]],
+    *,
+    render_as_of: str,
+    context_inputs: Iterable[dict[str, Any]] = (),
+) -> dict[str, str]:
+    """Render the registered views from accepted events.
+
+    ``context_inputs`` (rejected receipts, unprocessed approved submissions)
+    join the declared source-input digest but never enter replay — they carry
+    provenance for the render perimeter, not lifecycle state.
+    """
+
     inputs = list(events)
+    context = list(context_inputs)
     if not isinstance(render_as_of, str):
         raise ValueError("render_as_of must be a UTC RFC 3339 timestamp with six fractional digits")
     try:
@@ -163,7 +176,7 @@ def render_views(events: Iterable[dict[str, Any]], *, render_as_of: str) -> dict
     if parsed_as_of.strftime("%Y-%m-%dT%H:%M:%S.%fZ") != render_as_of:
         raise ValueError("render_as_of must use exactly six fractional digits")
     replay_result = replay(inputs)
-    metadata = _metadata(render_as_of, inputs)
+    metadata = _metadata(render_as_of, inputs + context)
     return {
         "OPEN_QUESTIONS.md": _open_questions(metadata, replay_result),
         "RESOLUTION_QUEUE.md": _resolution_queue(metadata, replay_result, render_as_of),

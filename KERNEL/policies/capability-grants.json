@@ -1,0 +1,17 @@
+{
+  "policy_version": "kernel.policy.1",
+  "grants": [
+    {
+      "actor_id": "SAM",
+      "capabilities": ["question.register", "forecast.submit_own"]
+    },
+    {
+      "actor_id": "PROME",
+      "capabilities": ["command.accept"]
+    },
+    {
+      "actor_id": "WILL",
+      "capabilities": ["policy.override"]
+    }
+  ]
+}

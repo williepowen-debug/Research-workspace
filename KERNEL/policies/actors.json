@@ -1,0 +1,37 @@
+{
+  "schema_version": "kernel.schema.1",
+  "actors": [
+    {
+      "actor_id": "WILL",
+      "actor_type": "HUMAN",
+      "canonical_name": "WILL",
+      "source_ref": "USER.md",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "PROME",
+      "actor_type": "AGENT",
+      "canonical_name": "PROME",
+      "source_ref": "PROME/ROSTER.md",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "RED",
+      "actor_type": "AGENT",
+      "canonical_name": "RED",
+      "source_ref": "PROME/ROSTER.md",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "SAM",
+      "actor_type": "AGENT",
+      "canonical_name": "SAM",
+      "source_ref": "PROME/ROSTER.md",
+      "active_from": "2026-01-01T00:00:00.000000Z",
+      "active_until": null
+    }
+  ]
+}
