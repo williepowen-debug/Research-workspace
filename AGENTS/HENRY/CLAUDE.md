@@ -97,7 +97,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 ```
 
 ### Stale Data Rules
-- **VX.tsv:** Skip rows marked [STALE]. Only read rows from last 5 trading days. If >50% stale, note it and move on — don't waste context.
+- ~~**VX.tsv:**~~ **FROZEN 2026-08-27 — do not read it at boot at all.** *(The old rule said "skip rows marked [STALE], read the last 5 trading days." At freeze there were no rows from the last 5 trading days and the un-flagged "LIVE" rows were the most dangerous ones — 65 days old and carrying a VIX of 18.95 against an actual 14.64. A staleness rule that trusts the file's own STALE flags cannot catch a row that is stale and unflagged.)* Live vectors: `STATUS.md` § VOL REGIME · § CREDIT EARLY-WARNING MONITOR · § ACTIVE THRESHOLDS.
 - **STATUS.md values >24h old:** Pull live data via web_search before citing. Never present stale dashboard values as current.
 - **VOL REGIME:** Maintain a block in STATUS.md: current VIX, term structure shape (contango/backwardation/flat), vol-control threshold status, GEX regime. Update every session. *(0DTE share DROPPED from this mandate — Will-ruled 7/31, implemented 2026-08-06 [PROME rulings packet §2]: no sourced 0DTE feed exists, and a mandate for an unobtainable field cannot stand. If a sourced feed ever appears, re-registration is fresh.)*
 
@@ -196,7 +196,7 @@ HENRY's core framework is the **systematic cascade sequence** — mechanical sel
 
 **Key insight:** Fundamentals ignite, but gamma determines terminal velocity. The cascade is mechanical — no discretion, no sentiment, just triggers.
 
-*Full cascade detail → `workbook/FLOW.tsv` | Invalidation criteria → `STATUS.md` § INVALIDATION TRIAD + `workbook/PREDICTIONS.tsv` (per-prediction falsifiers). `workbook/THESIS_VALIDATION.md` is SUPERSEDED 2026-08-06 — historical only.*
+*Full cascade detail → `workbook/FLOW.tsv` **(FROZEN 2026-08-27 — mechanism/order still valid as reference; its per-row ARMED/ACTIVE flags are ~175d stale and are NOT current calls)** | Invalidation criteria → `STATUS.md` § INVALIDATION TRIAD + `workbook/PREDICTIONS.tsv` (per-prediction falsifiers). `workbook/THESIS_VALIDATION.md` is SUPERSEDED 2026-08-06 — historical only.*
 
 ---
 
@@ -235,9 +235,9 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 | ~~`domain/BEIGE_BOOK_MAR4_2026.md`~~ | **ARCHIVED 2026-07-31** → `domain/archive/BEIGE_BOOK_MAR4_2026.md` (audit C5, (d) disposition). ~5 months old, not boot-read, and no Beige Book synthesis has used it as a template since Mar — meets my own LESSONS archive test (>30d + not in the active read path). Historical reference only; **do not cite its levels** |
 | `domain/REFERENCE_TABLES.md` | Static reference: cascade order, leading indicators, credit-equity transmission, transmission paths |
 | `workbook/KB.tsv` | Knowledge base — 14-column REGINALD schema (ID/Date/Session/Entity/Category/Description/Analysis/Data_Quote/Source/Status/Confidence/Thesis_Impact/Vector_Links/Cross_Links/Notes). **117 rows, last ID `ML-HEN-145`** *(count re-derived 2026-07-31, audit C2 — this read "108 entries (last ID ML-HEN-136)"; re-derive with `awk -F'\t' 'NR>1{n++; last=$1} END{print n, last}'` rather than hand-maintaining it).* ID format ML-HEN-xxx. |
-| `workbook/VX.tsv` | Indicator vectors — 12-column REGINALD schema (ID/Name/Category/Current_Value/Yellow/Orange/Red/Status/Confidence/Last_Updated/Source/Cross_Links/Notes). See stale data rules above. |
+| ~~`workbook/VX.tsv`~~ | **FROZEN 2026-08-27** — not maintained; historical only, **do not cite rows as current.** At freeze its own "LIVE" section held 3 rows at 65 days (VIX 18.95 vs an actual 14.64) and everything else was 175–213 days old. This is the file boot-doc audit A1 already retired as a *pointer target* on 7/31; the freeze completes that retirement. Consumer check run first: **no live fleet surface cites VX-HEN rows.** Successors: `STATUS.md` § VOL REGIME · § CREDIT EARLY-WARNING MONITOR · § ACTIVE THRESHOLDS · § INVALIDATION TRIAD · `PREDICTIONS.tsv` · `gamma_flip.py` + `PUBLISHED.tsv` |
 | `workbook/VX_HISTORY.tsv` | Archived slow-moving vectors (quarterly refresh source) |
-| `workbook/FLOW.tsv` | Cascade/transmission mechanics — 10-column REGINALD schema (ID/Name/Speed/Layer/Status/Trigger/Current_Position/Pathway/Key_Insight/Cross_Links/Last_Updated). |
+| ~~`workbook/FLOW.tsv`~~ | **FROZEN 2026-08-27** — not maintained; historical only. **This executed the file's OWN written rewrite-trigger** (*"revalidation due … by 2026-08-15 … if that date passes untouched, FREEZE this file"*), 12 days late. 4 rows were direction-corrected 7/31; every other row carried ~175-day-old UNVERIFIED ARMED/ACTIVE flags. **Cascade ORDER + mechanism narrative stay valid as reference** (structural, not dated) → § CORE METHODOLOGY. Live cascade state: `STATUS.md` § VOL REGIME + § CREDIT EARLY-WARNING MONITOR |
 | `workbook/MARKET_DATA.tsv` | Sparse EOD snapshots of headline levels (SPX/VIX/Brent/Gas/10Y/USDJPY/HY_OAS/CCC_OAS/KRE/APO). Append a row on EOD refresh days. Not exhaustive — use for time-series cross-reference. |
 | `workbook/THESIS_VALIDATION.md` | **SUPERSEDED 2026-08-06** (DAEDALUS falsification-freshness F2, 8/3 — the layer was 38d behind its thesis, a 4-of-4-pilot recurrence). Successors: `STATUS.md` § INVALIDATION TRIAD (whole-thesis kill, refreshed every session) + § THESIS axes + `workbook/PREDICTIONS.tsv` Invalidation column (boot due-scan). Historical record only; boot.py guards the banner |
 | `workbook/KB_ARCHIVE.tsv` | Archived KB rows pruned from KB.tsv. Historical. |
