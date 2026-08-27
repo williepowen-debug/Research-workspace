@@ -1,7 +1,7 @@
 # BOND Monitor — Treasury Auction Health
 
 **Owner:** BOND
-**Last Updated:** 2026-08-20 by BOND — **8/19 20Y and 8/20 30Y TIPS graded and added the same day they printed** (the 8/18 sweep's whole lesson: this table went 27 days stale twice and lost a $125B refunding). *(Prior: 2026-08-18 — full staleness sweep, Will-tasked.)*
+**Last Updated:** 2026-08-27 by BOND — **the 8/25 2Y, 8/26 2Y-reopening and 8/26 5Y are graded and IN the table below, and the MATRIX_V2 §3d percentile-snapshot rail is seeded.** ⚠️ *(This stamp read **2026-08-20** until 2026-08-27 ~12:2x ET while the body already carried three 8/27 rows — a header stale against its own fresher body. The safe direction of that error, but the same mirror break, and the third header/body divergence found in one audit.)* *(Prior stamp:)* **2026-08-20 by BOND** — **8/19 20Y and 8/20 30Y TIPS graded and added the same day they printed** (the 8/18 sweep's whole lesson: this table went 27 days stale twice and lost a $125B refunding). *(Prior: 2026-08-18 — full staleness sweep, Will-tasked.)*
 **[8/18 entry retained]** — **full staleness sweep (Will-tasked).** ⚠️ **The rolling table was missing FOUR auctions, including the entire August quarterly refunding ($125B, the quarter's largest supply event).** The 7/28 7Y was graded the same day this file was last touched and never reached the table; 8/11–8/13 was never docketed at all. All four back-filled below off TreasuryDirect primaries, with per-tenor trailing-12 benchmarks recomputed 8/18. *(Prior: 2026-07-28 — rolling table 27 days stale, 6 auctions back-filled 7/09→7/27.)*
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
 

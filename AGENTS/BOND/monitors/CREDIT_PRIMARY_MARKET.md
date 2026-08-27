@@ -1,21 +1,20 @@
 # BOND Monitor — Credit Primary Market Function
 
 **Owner:** BOND
-**Last Updated:** 2026-08-21 by BOND — **full refresh; the whole table now sits on ONE date (8/20).** ⚠️ **What this fixes is not just staleness — it is a PARTIAL refresh, the defect this desk logged on 8/20 and then shipped again here: HY and IG were carried at **8/14** while CCC had been advanced to **8/19**, and the derived distances (33bp / 83bp) were computed off the older leg. Refresh the SET, and recompute every distance that hangs off it.** ★ **CCC printed a FRESH 2026 HIGH on 8/20.** *(Prior: 2026-08-18 staleness sweep.)* *(Prior: 2026-07-28, itself 27 days stale — the +11bp two-session HY widening landed while this file read "boom, 275, flat".)*
-**Purpose:** Track whether HY/IG borrowers can access public debt markets, and when market access closes enough to transmit stress to banks/equities.
+**Last Updated:** 2026-08-27 ~12:2x ET by BOND — **full refresh to the 8/26 close; the whole table sits on ONE date.** 🔴 **Found by a Will-directed inward audit, not by any instrument: this file sat on the 8/20 vintage for FOUR sessions while `STATUS` and `VX.tsv` were refreshed twice each.** ⚠️ **The reason is structural and worth naming — `monitors/` is NOT read at boot.** `boot_recompute` scans this directory for numeric drift and **passed clean**, because a drift check compares latest-on-surface to latest-at-source and this file's numbers were internally consistent *with each other*; it has no shape for *"this whole surface is four days behind its siblings."* **The boot-unread tier is where staleness lives, and the instruments confirm it is clean.**
 
-## Current Read — 2026-08-21 (all credit levels 8/20, one date, cache-busted)
+## Current Read — 2026-08-27 ~12:2x ET (all credit levels **8/26**, one date, cache-busted)
 
 | Metric | Level | Date | vs threshold |
 |---|--:|---|---|
-| **HY OAS** | **275bp** | FRED 8/20 | **25bp** below the 300 watch · **75bp** below the 350 freeze line *(read 33/83bp off a stale 8/14 level until today)* |
-| **CCC OAS** | **1035bp** | FRED 8/20 | ★ **FRESH 2026 HIGH** — takes out 1034 (7/31). **65bp** below the 1100 escalation. ⚠️ **NOT a series high** — series max **1137 (2025-04-07)**, and **16 prior obs ≥1035 in FOUR SEPARATE EPISODES across three years — 12 in Apr-2025 (4/4–4/22), 2 in Oct-2023 (10/30–31), 1 on 2023-11-01, 1 on 2024-08-05** (`BAMLH0A3HYC` · session closes · 2023-08-22→2026-08-20 · n=787, computed at write time). |
-| **IG OAS** | **82bp** | FRED 8/20 | flat; band 79–82 across the whole episode ⇒ **+3bp in four weeks** against a +20bp/wk trigger. No threshold near. |
-| **CCC/HY ratio** | **3.76x** | FRED 8/20 | the tail is widening *relative* to the index, not just absolutely |
-| **Pulled deals** | **ZERO** | 8/21 | the access test — unimpaired |
+| **HY OAS** | **267bp** | FRED **8/26** | **33bp** below the 300 watch · **83bp** below the 350 freeze *(both recomputed off 267; this row read 275 / 25bp / 75bp — the 8/20 vintage — until 2026-08-27)* |
+| **CCC OAS** | **1031bp** | FRED **8/26** | **69bp** below the 1100 escalation. ★ **The 2026 max is 1039 (8/25) and it held EXACTLY ONE SESSION** — this row called 1035 [8/20] a "FRESH 2026 HIGH" and the tail has since printed 1037, 1036, 1039 and then reversed to 1031. ⚠️ **NOT a series high** — series max **1137 (2025-04-07)**, n=787, window 2023-08-28→2026-08-26, 22 prior obs ≥1031 |
+| **IG OAS** | **80bp** | FRED **8/26** | band **79–82** across the last 12 closes ⇒ **+1bp in four weeks** against a +20bp/wk trigger. No threshold near |
+| **CCC/HY ratio** | **3.86x** | FRED **8/26** | ⚠️ **ratio and levels now point OPPOSITE ways: the ratio rose 3.85x→3.86x while every level FELL**, because CCC fell proportionally less. **The ratio alone would report a widening that did not happen in levels** |
+| **Pulled deals** | **ZERO** | 8/27 | the access test — unimpaired |
 | IG primary volume | **~$56B in the week to 8/14** | WALTER `-005`, **wire-level, NOT pulled at primary** | absorbed with no spread disruption |
 
-**Verdict: PRIMARY MARKET ACCESS IS FULLY OPEN, AND THE TAIL IS WIDENING UNDERNEATH IT.** Those are both true and they are not in tension: **the index is inert, IG is flat in a 3bp band, there are zero pulled deals — and the worst credits are repricing.** That is a *quality-tail* event, not a *market-function* event. **The freeze thesis (HY 350) is 75bp away and no closer than three weeks ago; the escalation that IS live is CCC 1100, 65bp away.** ⚠️ **The expression implied, if it ever arms, is single-name/CCC — not HYG, whose index level has round-tripped the entire July widening.**
+**Verdict: PRIMARY MARKET ACCESS IS FULLY OPEN, AND THE TAIL IS WIDENING UNDERNEATH IT.** Those are both true and they are not in tension: **the index is inert, IG is flat in a 3bp band, there are zero pulled deals — and the worst credits are repricing.** That is a *quality-tail* event, not a *market-function* event. **The freeze thesis (HY 350) is 83bp away and FURTHER than three weeks ago; the escalation that IS live is CCC 1100, 69bp away.** ⚠️ *(Read “75bp … 65bp” — the 8/20 vintage — until 2026-08-27 ~12:2x ET. **Both distances sat in PROSE, three lines under the table I had just refreshed.** This desk's own MEMORY records “my sweeps catch TABLES and miss PROSE”; this is n+1, committed inside the audit that was fixing the class. The direction word also flipped: HY tightened, so the freeze is further away, not “no closer.”)* ⚠️ **The expression implied, if it ever arms, is single-name/CCC — not HYG, whose index level has round-tripped the entire July widening.**
 
 > ## ⚠️ THE HONEST ENTRY: this desk has made and retired a credit call TWICE in three weeks
 >
