@@ -8,8 +8,8 @@
   "repository_root": "/home/willi/Research-workspace",
   "repository": "williepowen-debug/Research-workspace",
   "source_commit": "1d9400425f7415083a9ffbd10964670bf255abf2",
-  "window_start": "2026-08-27T16:30:00Z",
-  "window_end": "2026-08-27T18:00:00Z",
+  "window_start": "2026-08-27T16:30:00.000000Z",
+  "window_end": "2026-08-27T18:00:00.000000Z",
   "revoked_at": null,
   "writer_id": "PROME",
   "commands": [
