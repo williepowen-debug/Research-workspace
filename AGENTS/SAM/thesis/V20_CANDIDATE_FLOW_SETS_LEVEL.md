@@ -1,3 +1,15 @@
+> # ⚰️ KILLED 2026-08-27 — NOT A THESIS, NOT A CANDIDATE, NOT A LIVE DOCUMENT.
+>
+> **Disposition: KILL as a successor frame.** Killed twice over, independently:
+> ① **K1 FIRED 2026-08-20** against a kill line this document pre-registered **as a number before the data existed** (§5: *"$300–500B INVERTS it"*; BIS `WS_GLI` 2026-Q1 measured **$414.9B**). §2 is dead as written and was **not** rescued.
+> ② **RED's BLIND adversarial pass (CHG-RED-048, 2026-08-20)** kills it four further ways: §3 is an accounting identity that is *either false or Pillar 1 restated*; §4 discriminates **0 of 7**; the §6 killer set is keyed to an instrument that sees **~3.5%** of its object, so *"the killer would sit green while the thesis died"*; the §6 registered prediction **resolves TRUE under both live hypotheses.**
+> **Cross-read + overlap/novelty split → `V20_CROSSREAD_2026-08-27.md`.** RED found ~7 things my own sealed attack list did not, including both operationally dangerous findings and the only constructive instrument.
+>
+> ⛔ **DO NOT CITE ANY MECHANISM, ROW, OR FIGURE BELOW AS LIVE.** Read only as the audit record of a candidate that died by its own pre-registered rule.
+> ✅ **WHAT SURVIVES (salvage, four):** §7's retirements (permanent) · the CFTC **volatility-instrument relabel** (doctrine, bilateral via CH-017) · **K3** (outflow stops/reverses and the yen does not strengthen — standing falsifier on MOF weekly) · the **sizing/basis instruments** (BIS `WS_GLI` built; **JPY cross-currency basis NOT built — newly owed**).
+> ⚠️ **NO SUCCESSOR FRAME IS DECLARED. v1.7 stands.** The successor question re-opens as **v1.8's** question, with CH-017's separately-registered FX co-condition intact.
+> 🟢 **Book was FLAT throughout; $0 at risk; nothing was ever built on this.**
+
 # v2.0 CANDIDATE — **FLOW SETS THE LEVEL; POSITIONING SETS THE VOLATILITY**
 
 > # 🔴 **K1 FIRED THE SAME DAY. THE CENTRAL ARGUMENT (§2) IS DEAD AS WRITTEN. DO NOT PROMOTE.**
