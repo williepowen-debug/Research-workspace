@@ -41,7 +41,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 1. **Update `STATUS.md`** — matrix scores, live reads (sourced + dated), exit triad fired-count, refreshed BOTTOM LINE.
 2. **Log to workbook** — new facts → `KB.tsv`; vector state changes → `VX.tsv`; new/confirmed pathways → `FLOW.tsv`; new forecasts → `PREDICTIONS.tsv` (MIDAS-NN).
 3. **Writeback `NEXUS_BRIEF.md`** — curated cross-agent sync (every closeout). `outbox/` only for 🔴 crisis (async).
-4. **Continuity** — append a dated note to `SCRATCH.md`; add any new durable lesson to `LESSONS.md`.
+4. **Continuity** — append a dated note to `SCRATCH.md`; add any new durable lesson **in BOTH places: the full row to `analysis/LESSONS_ARCHIVE_2026-08.md`, one hook line to `LESSONS.md`.** (Index-only since the 8/27 split; a body with no hook is invisible, a hook with no body is a dead link.)
 5. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/MIDAS/`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase`, never force).
 
 > **Boot↔Closeout symmetry:** what you read at boot (SCRATCH, STATUS, PREDICTIONS), you write back at closeout. The anti-rot force.
@@ -186,7 +186,8 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `boot.py` | Boot instrument: ledger staleness + predictions-due. cwd-proof; self-locating. (`metals_watch.py` = flagged first increment.) |
 | `SCRATCH.md` | Immediate next-session continuity — "pick up here." |
 | `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
-| `LESSONS.md` | Durable agent-level learning. |
+| `LESSONS.md` | Durable agent-level learning — **INDEX ONLY since 2026-08-27** (one hook per lesson, ≤~170 chars). **Not boot-read**, so a hook nobody greps is a lesson nobody applies. |
+| `analysis/LESSONS_ARCHIVE_2026-08.md` | **Full bodies of every lesson, verbatim.** Split from `LESSONS.md` 2026-08-27 (Will-directed) when it hit 64KB on 48 lines. MOVED, never deleted — grep by L-number or phrase. |
 | `workbook/KB.tsv` | Knowledge base (metals → macro linkages, sourced). **Permanent record.** |
 | `workbook/SCHEMA.tsv` | Data dictionary for KB.tsv — read before writing. |
 | `workbook/VX.tsv` | Vectors — channel risk indicators + state. |

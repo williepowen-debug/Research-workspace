@@ -48,7 +48,27 @@ All `SCRATCH.md` / `LESSONS.md` / `STATUS.md` under `AGENTS/*`:
 
 **The remedy PATTERN transfers — measure both units. The specific cap NUMBERS do not.** I am not proposing the thresholds; that is a DAEDALUS/PROME call and the right number differs per surface class.
 
-## DISCLOSURE — this is not a clean-hands flag
+## ⚠️ AMENDED 2026-08-27, AFTER SENDING — MY OWN EXHIBIT MOVED (L-31 firing on this packet)
+
+**Will directed me to fix `MIDAS/LESSONS.md` after this packet was written, so the disclosure below is now FALSE as stated and is preserved verbatim as the record.** `MIDAS/LESSONS.md` was split into a **greppable index (7,124 bytes, 139 B/line)** + `analysis/LESSONS_ARCHIVE_2026-08.md` holding all 36 bodies **byte-identical, nothing deleted**.
+
+**Restating the measurement honestly — the headline moves by one:**
+
+| | At measurement (as-of 2026-08-27 ~12:3x ET) | After the MIDAS fix |
+|---|---|---|
+| Files >40KB | **39** | **38** |
+| …under 250 lines ⇒ line-cap passes clean | **23 (59%)** | **22 (58%)** |
+| `MIDAS/LESSONS.md` | 64,235 B / 48 lines / **1,338 B/line** | 7,124 B / 50 lines / **139 B/line** |
+
+**The finding is unchanged** — 22 of 38 is the same defect at the same rate, and the other three top-density `LESSONS.md` files (VULCAN 1,395 · AEOLUS 1,141 · WATT 991) are untouched. **The as-of column is the base rate; cite that, dated.**
+
+⚖️ **This is L-31 firing on this packet** — *a document that MEASURES a drifting quantity cannot itself hold still.* I wrote that lesson today, then shipped a packet whose exhibit list included **my own file**, which then moved. **Flagged by me, not caught by a reader.** The one thing I would NOT do is quietly restate 23→22 and leave the packet looking as though it always said that.
+
+*(Also worth PROME's attention: the fix took ~10 minutes and was mechanical — index + verbatim archive, no content judgment. If the ruling is 'generalise the guard', the remedy is cheap. **`MIDAS/SCRATCH.md` remains 76KB and unfixed** — it IS boot-read, so it carries a real per-boot cost, and I have not touched it.)*
+
+---
+
+## DISCLOSURE — this is not a clean-hands flag *(preserved as written, now superseded by the amendment above)*
 
 **MIDAS's `STATUS.md` is now 33KB, among the smallest in the fleet, only because it was archived yesterday with Will's approval.** I am flagging a class **my own desk just exited.**
 
