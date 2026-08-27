@@ -62,7 +62,14 @@ CRISIS_4W   = 140000  # ¥14T — entering THESIS crisis case range
 # that a buying window absorbs. See the 2026-08-27 instrument-defect note below.
 WEEKLY_SELL_BAR = 15000  # ¥1.5T
 
-TSV_HEADER = "Period\tEquity_Net_oku\tLT_Debt_Net_oku\tSubtotal_Net_oku\tShort_Debt_Net_oku\tTotal_Net_oku\tLT_Debt_Net_T_yen\n"
+# Cols 1-7 are the OUTWARD leg (residents buying/selling FOREIGN securities) and are
+# FROZEN in position -- appended columns go at the END so positional readers keep working.
+# Cols 8-12 added 2026-08-27: the INWARD leg (non-residents buying/selling JAPANESE
+# securities), MOF CSV section 2. The script parsed only section 1 for its whole life, so
+# the corroborating half of every repatriation read was invisible -- see the 8/27 finding.
+TSV_HEADER = ("Period\tEquity_Net_oku\tLT_Debt_Net_oku\tSubtotal_Net_oku\tShort_Debt_Net_oku\t"
+              "Total_Net_oku\tLT_Debt_Net_T_yen\t"
+              "In_Equity_Net_oku\tIn_LT_Debt_Net_oku\tIn_Subtotal_Net_oku\tIn_Short_Debt_Net_oku\tIn_Total_Net_oku\n")
 
 
 def fetch_mof_csv():
@@ -130,6 +137,14 @@ def parse_mof_csv(text):
             "subtotal_net": num(fields[7]),
             "short_debt_net": num(fields[10]),
             "total_net": num(fields[11]),
+            # INWARD leg (MOF CSV section 2, 対内証券投資). Index mapping is the outward
+            # mapping +11 and was VERIFIED 2026-08-27 by internal consistency on all 1,129
+            # rows (subtotal == equity + LT), with the outward leg as a passing control.
+            "in_equity_net": num(fields[14]),
+            "in_lt_debt_net": num(fields[17]),
+            "in_subtotal_net": num(fields[18]),
+            "in_short_debt_net": num(fields[21]),
+            "in_total_net": num(fields[22]),
         }
         if row["lt_debt_net"] is None:
             continue
@@ -186,14 +201,67 @@ def append_tsv(rows):
                 f"{r.get('subtotal_net', '')}\t"
                 f"{r.get('short_debt_net', '')}\t"
                 f"{r.get('total_net', '')}\t"
-                f"{lt_t:.3f}\n"
+                f"{lt_t:.3f}\t"
+                f"{r.get('in_equity_net', '')}\t"
+                f"{r.get('in_lt_debt_net', '')}\t"
+                f"{r.get('in_subtotal_net', '')}\t"
+                f"{r.get('in_short_debt_net', '')}\t"
+                f"{r.get('in_total_net', '')}\n"
             )
             appended += 1
     return appended
 
 
+def check_revisions(rows):
+    """Compare stored (first-print) values against the live source.
+
+    FOUND 2026-08-27: MOF REVISES this series after first publication, and append_tsv is
+    idempotent BY PERIOD -- so a revised week is never re-read and the TSV silently keeps
+    the first print forever. Measured that day: 14 of 1,129 LT rows differed, ALL in 2026,
+    largest revision Y22B (1.4% of that week). Materiality was tested and EVERY conclusion
+    drawn that day held identically on live values (rank 10/1129, 28 trips, 2.48% base
+    rate, subtotal+total rank 3) -- real defect, immaterial outcome.
+
+    Cols 1-7 are deliberately NOT auto-corrected: they are the FIRST-PRINT audit trail, and
+    past grades must stay reproducible against what was believed at grading time. This
+    function makes the drift VISIBLE instead of silent; overwriting is a judgment call.
+    """
+    if not FLOWS_TSV.exists():
+        print("  no TSV yet — nothing to check")
+        return 0
+    stored = {}
+    with open(FLOWS_TSV) as f:
+        next(f, None)
+        for line in f:
+            p = line.rstrip("\n").split("\t")
+            if len(p) > 2 and p[2]:
+                stored[p[0]] = int(p[2])
+    diffs = [(r["period"], stored[r["period"]], r["lt_debt_net"])
+             for r in rows
+             if r["period"] in stored and r["lt_debt_net"] is not None
+             and stored[r["period"]] != r["lt_debt_net"]]
+    print(f"\n  REVISION CHECK — stored first-print vs live source")
+    print(f"  {'-'*60}")
+    if not diffs:
+        print(f"  🟢 no revisions ({len(stored)} rows compared)")
+        return 0
+    worst = max(abs(b - a) for _, a, b in diffs)
+    print(f"  🟡 {len(diffs)} of {len(stored)} rows revised since first print "
+          f"({100*len(diffs)/len(stored):.1f}%); largest {fmt_oku_as_yen(worst)}")
+    for per, a, b in diffs[-8:]:
+        print(f"     {per.strip():<20} stored {a:>8} -> live {b:>8}  ({fmt_oku_as_yen(b-a)})")
+    print(f"  ⚠️  Cols 1-7 are the FIRST-PRINT audit trail and are NOT auto-corrected.")
+    print(f"     Re-check materiality before citing a rank or base rate off stored values.")
+    return len(diffs)
+
+
 def main():
     weeks = 8
+
+    if "--check-revisions" in sys.argv:
+        check_revisions(parse_mof_csv(fetch_mof_csv()))
+        return 0
+
     if "--weeks" in sys.argv:
         idx = sys.argv.index("--weeks")
         if idx + 1 < len(sys.argv):
@@ -227,6 +295,34 @@ def main():
     print(f"  Short-term debt net: {fmt_oku_as_yen(latest.get('short_debt_net') or 0)}")
     print(f"  Subtotal net:        {fmt_oku_as_yen(latest.get('subtotal_net') or 0)}")
     print(f"  Total net:           {fmt_oku_as_yen(latest.get('total_net') or 0)}")
+
+    # INWARD leg — added 2026-08-27. The script parsed only MOF CSV section 1 (outward)
+    # for its entire life, so the CORROBORATING half of every repatriation read was
+    # invisible: "residents sold foreign bonds" could never be checked against "did
+    # non-residents buy Japanese ones?" Both legs pointing the same way is a much
+    # stronger read than either alone, and it was one column-offset away the whole time.
+    if latest.get("in_lt_debt_net") is not None:
+        in_lt = latest["in_lt_debt_net"]
+        out_lt = latest["lt_debt_net"]
+        print(f"\n  INWARD — non-residents buying/selling JAPANESE securities")
+        print(f"  {'-'*60}")
+        print(f"  Equity net:          {fmt_oku_as_yen(latest.get('in_equity_net') or 0)}")
+        print(f"  LT debt net (JGBs):  {fmt_oku_as_yen(in_lt)}")
+        print(f"  Total net:           {fmt_oku_as_yen(latest.get('in_total_net') or 0)}")
+        if -out_lt > WEEKLY_SELL_BAR and in_lt > 0:
+            print(f"  ⚪ BOTH DURATION LEGS POINT AT JGBs THIS WEEK — residents sold foreign LT")
+            print(f"     debt through the weekly bar AND non-residents bought Japanese LT debt.")
+            print(f"  ⛔ DO NOT READ THIS AS CORROBORATION. Joint base rate 19/1,129 = 1.68%")
+            print(f"     LOOKS striking and is NOT: P(outward trips)=2.48% x P(inward>0)=57.22%")
+            print(f"     = 1.42% IF INDEPENDENT, so the observed 1.68% is a lift of just 1.19x")
+            print(f"     (conditional 67.9% vs 57.2% unconditional, one-sided binomial p=0.172).")
+            print(f"     The joint rate is small almost ENTIRELY because the OUTWARD leg is rare;")
+            print(f"     the conjunction adds ~nothing to its own legs. Charge raised by RED")
+            print(f"     2026-08-27 and CONFIRMED against my own data the same session.")
+            print(f"  ⚠️ Near-independence also refutes 'one impulse seen at both ends' — a single")
+            print(f"     repatriation impulse would co-occur FAR above chance. Neither 'two")
+            print(f"     witnesses' nor 'one witness twice' is supported. Report the co-occurrence")
+            print(f"     as a DESCRIPTION, never as evidence, and read MAGNITUDES not signs.")
 
     # ---------------------------------------------------------------------
     # WEEKLY ALERT — independent of the 4W ladder by design.
