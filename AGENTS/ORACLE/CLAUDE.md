@@ -32,7 +32,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 3. **Read `SCRATCH.md`** — the canonical "where are we" handoff (NEXT SESSION queue, carry-forward, push state).
 4. **Read `STATUS.md`** — live dashboard, tracked markets, active alerts.
 5. **Before writing `KB.tsv`, read `workbook/SCHEMA.tsv`** (validate enums) + **`AGENTS/VOCABULARIES.tsv`** (standard terms).
-6. **For dislocation/anomaly work, read `PREDICTION_MARKET_METRICS.md`** — KL bits, entropy, liquidity/resolution filters, TERRY handoff.
+6. **For dislocation/anomaly work, read `PREDICTION_MARKET_METRICS.md`** — KL bits, entropy, liquidity/resolution filters, TERRY handoff. **Run `tools/metrics.py`, never hand-compute a σ** (the 8/27 retraction: hand-computed σ were inflated and three of five unreachable at any window).
 
 ### EXECUTE
 
@@ -268,6 +268,7 @@ Process when spawned. Integrate probability-relevant data.
 | `workbook/TRADE_MARKS.tsv` | Per-mark, per-pull history behind `TRADE.md` (date, slug, prob, vol, liq, segment, identity). Regenerate via `trade_marks.py --write` |
 | `tools/t6_pin.py` / `workbook/T6_PIN.tsv` | T6 pin ledger for Kalshi `KXFED-26SEP-T3.75` — daily close per session, **marks its own gaps** (`NO-PULL`), backfills dark days from Kalshi candlesticks. ⚠️ candle `end_period_ts` is the period END: `trading_day = date − 1d`, re-verify against a known anchor if re-pointed |
 | `scripts/test_search_coverage.py` | Regression test for the `kalshi.py search` coverage fix (8/8 assertions) |
+| `tools/metrics.py` | **The metric layer in code** — `entropy` / `collapse` (σ-scored entropy-collapse scan) / `kl` / `verify`. Implements `PREDICTION_MARKET_METRICS.md`, which had NO implementation for 67 days. **Refuses to quote σ below n=8, prints its interval spread, and annotates each σ with the gap-days behind its dH** — ORACLE's cadence is irregular, so σ RANKS unusualness within a series and is never a p-value. `verify` re-runs the audit that retracted KB-ORC-064's σ |
 | `workbook/HISTORY.tsv` | Full **daily** trajectory per market (CLOB prices-history backfill); regenerate via `polymarket.py history --write` |
 | `workbook/KB.tsv` | 13-col knowledge base — derived claims / divergences (validate vs `SCHEMA.tsv`) |
 | `workbook/SCHEMA.tsv` | 13-col schema for KB.tsv (network standard) |

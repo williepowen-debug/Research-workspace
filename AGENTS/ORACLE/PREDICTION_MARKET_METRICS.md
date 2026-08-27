@@ -1,6 +1,8 @@
 # ORACLE Prediction Market Metrics
 
-**Created:** 2026-06-21  
+**Created:** 2026-06-21 · **Implementation added 2026-08-27: `tools/metrics.py`** (`entropy` | `collapse` | `kl` | `verify`)  
+> ⚠️ **This document specified a measurement layer for 67 days with NO code behind it.** Every σ ORACLE published in that window was hand-computed, therefore unauditable — and when the tool was finally built and pointed at ORACLE's own record, **three of five published σ turned out to be unreachable at any rolling window** and two threshold classifications were withdrawn (KB-ORC-064 → `CORRECTED`, KB-ORC-074). The dH and entropy figures reproduced exactly; only the significance scores failed. **Do not publish a derived score from this document without running `tools/metrics.py`.** Reproduce the audit: `python3 tools/metrics.py verify`.
+> ⚠️ **σ here RANKS unusualness within one series. It is not a p-value.** ORACLE's pull cadence is irregular (1–9 days), so a rolling std over mixed intervals is not a frequentist object. The tool prints its interval spread, annotates each σ with the gap-days behind its dH, and refuses to quote σ below n=8.  
 **Purpose:** reusable measurement layer for prediction-market monitoring. These are research/triage tools, not auto-trading rules.
 
 ---
