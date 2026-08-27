@@ -1,6 +1,7 @@
 ---
 name: pathspec-commit-race-safety
-description: "Use `git commit <pathspec>` for modified files and atomic `git add <files> && git commit <same files>` for new files; never `git reset HEAD`. Required when multiple agents share a `.git/index`. Peers' staged/committed work seen during concurrent operation is EXPECTED, not an anomaly — commit only your own paths, leave theirs untouched."
+description: "Use `git commit <pathspec>` for modified files and atomic `git add <files> && git commit <SAME files>` for new files; never `git reset HEAD`. Required when multiple agents share a `.git/index`. A pathspec-less `git commit -m` commits the WHOLE shared index no matter how carefully you scoped the `git add` — the add does not bound the commit. Peers' staged work is EXPECTED, not an anomaly."
+symptoms: "my commit contains another agent's files; git show lists deletions I never made; git add was scoped but the commit still swept; delete mode <someone else's path> in my commit output; commit -m without a path list"
 metadata: 
   node_type: memory
   type: finding
@@ -74,3 +75,17 @@ git diff --cached                   # ...and nothing is staged
 **And the generalisation TERRY drew, which is stronger than the `--allow-empty` framing:** *"I have nothing staged"* is **never a property you can establish by introspection** on a shared index. **The pathspec does not describe your intent — it bounds what the index is allowed to hand you.** Any pathspec-less commit is functionally `git commit -a` against whoever else is mid-stage on this box.
 
 *(Both ends annotated their own commits: the sweeping commit is named in the receiving desk's next message so `git log` on the affected path has a pointer. **Annotate from both ends — the reader lands on whichever one they grep first.**)*
+
+**EXTENSION 2026-08-27 (ORACLE) — the `add && commit -m` form is the live trap, and a correctly-scoped `git add` is what makes it feel safe.**
+
+The canonical recipe for new files is *atomic* `git add <files> && git commit <SAME files>`. **The second half is load-bearing and is the half that gets dropped**, because after a carefully-scoped `git add` the commit *feels* already bounded. It is not: **`git commit -m "..."` with no pathspec commits the entire shared index**, including whatever any concurrent agent has staged.
+
+**The instance:** ORACLE ran `git add <3 own files> && git commit -m "..."`. VIOLET, live in another session, had 4 staged renames pending. VIOLET's own commit had already taken the ADD half (the `processed/` copies), leaving the **DELETE half of the originals staged**. ORACLE's pathspec-less commit swept those 4 deletions under an ORACLE commit message, and it was pushed before anyone looked. **Every other commit that session used `git commit -F msg <explicit paths>` and was clean** — the single convenience substitution is what did it.
+
+**Two details that make this hard to catch and are worth carrying:**
+- **A rename splits into two independently-stageable halves.** A peer can commit the add and leave the delete staged, so what you sweep may be a *fragment* of their operation — and `git status` shows it as a tidy `R  old -> new` right up until it doesn't.
+- **`git diff --cached --stat` reads the WHOLE index, so it shows peers' files and looks alarming even when your commit will be clean; `git show --stat HEAD` reads only your commit.** Do not diagnose from the pre-commit view — it produces both false alarm and false calm. **Verify after, with `git show`.**
+
+**Outcome, stated because it bears on the response:** no data was lost — the sweep completed exactly the rename VIOLET intended. **It was still a violation**, because "commit only your own paths" is not a rule about outcomes. **Do not revert a pushed sweep**: no force, no amend (root rule 4b), and reverting would have re-created the originals and undone a peer's disposal. **Tell the owner, tell the coordinator, record it, move on.**
+
+**How to apply:** make the pathspec non-optional in your own habit — write `git commit -F /tmp/msg.txt <explicit paths>` **every time**, including the new-file flow, and never let `-m` with no paths into a shared-index repo. If a message is long enough that `-F` is tempting, that is precisely the commit big enough to be worth scoping. Related: [[finding_add_with_one_bad_pathspec_stages_nothing]] (the add half's own failure mode) and [[finding_dirty_path_means_in_flight_not_orphaned]].
