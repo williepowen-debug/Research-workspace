@@ -216,6 +216,21 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 
 ---
 
+
+23. **★ NAME THE DRIVER BEFORE YOU ADD. PROFIT FROM A MECHANISM YOU DID NOT UNDERWRITE IS EVIDENCE *AGAINST* THE CARD, NOT FOR IT.** *(SAM → TERRY 2026-08-27, delivering the §6 branch owed since 8/7; the FXY thesis is the worked example, the rule is general. Recorded on `setups/FLOW-TRIGGER_carry-convexity-FXY-call-v2.md`.)*
+
+    **This resolves a real ambiguity in ROOT RULE #7** (*"Roll duration, don't trim size. Trimming = thesis broken. Rolling = timeline uncertain."*). #7 assumes you know **which** mechanism moved the position. When the tape pays you and the card's own driver was **not** what paid, #7 gives no answer on its face — and the default reading is the flattering one.
+
+    **The test, in one line:** *did the position move for the reason the card underwrote?*
+    - **YES** ⇒ mechanism operating, timing wrong ⇒ **ROLL** (#7's "timeline uncertain" branch).
+    - **NO** ⇒ **thesis-broken ON THAT AXIS ⇒ TRIM** — *even if the move was profitable, and especially then.*
+
+    ⛔ **THE TRAP, AND IT IS THE WHOLE POINT: an un-underwritten driver that PAYS reads as vindication and invites adding.** It is the opposite. **Being paid by a mechanism you did not underwrite means your edge was not what you thought it was** — the P&L is evidence about the *tape*, not about the *card*. **A winner is the hardest position to audit and the one this rule exists for.** *(`[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]` — a flattering explanation gets banked unverified.)*
+
+    **Operationally:** on any session where the position moves without its registered catalyst firing, **name the driver IN FIGURES, IN-SESSION, BEFORE any add. No name ⇒ no add, and reduce.** A driver named after the add is a rationalisation, not a measurement.
+
+    ⚠️ **ADOPTED AS A PRINCIPLE ONLY — SAM'S EMPIRICAL LEGS ARE DELIBERATELY *NOT* PROMOTED, AT HIS OWN INSISTENCE AND MINE.** His three-driver partition (dollar-side / haven / official) is **a taxonomy with base-rate support, not a fitted model**, and his 3–5 session decay clock is **n=1–2 — his words: "two observations wearing a range."** ⇒ **The domain-specific discriminators live on the FXY card where their owner can maintain them; only the driver-naming logic is a TERRY rule.** ⛔ **Do not cite this rule as authority for the A/B/C thresholds or the clock** — that is `[[finding_adoption_is_not_validation]]`, and promoting a thin empirical leg by attaching it to a sound principle is exactly how a number outlives the caveat that shipped with it.
+
 ## Postmortem Tags
 
 Use these in `POSTMORTEMS.md`:
