@@ -641,7 +641,7 @@ def _bare_sig(stem):
 # delivery to them (BOARD_CONSUMPTION_SPEC §3.5, v0.7, verified 2026-07-04). Any handoff
 # in their inbox is a to-ARCHIVE residue, NOT a consume-gap. Verify "complete" (not
 # tiered/selective) empirically before adding an agent. REGINALD/SAM are NOT complete.
-PULL_COMPLETE = {"CARL", "RED", "PROME"}
+PULL_COMPLETE = {"CARL", "RED", "PROME", "TERRY"}  # TERRY added 2026-08-26: §3.5.5 falsifier revert (exemption-by-falsifier, not pull-complete-warrant; SPEC v0.21)
 
 
 _BOARD_LOG_CACHE = {}
@@ -1848,10 +1848,19 @@ def check_terry_override_ratio():
         if r.get("role", "").strip().lower() != "action":
             continue
         ts_raw = r.get("timestamp_routed", "").strip()
+        # 2026-08-26: legacy rows carry the desk's anti-false-precision minute stamps
+        # ("...T20:1xZ"). fromisoformat throws on them and v1 SILENTLY SKIPPED the row —
+        # the doctor printed "falsifier unfired" while the fired condition stood on disk.
+        # Fallback: substitute '0' for the placeholder digit (event tests here run on a
+        # 72h clock; sub-hour precision is immaterial). Never skip a TERRY action row.
         try:
             ts = dt.datetime.fromisoformat(ts_raw.replace("Z", "+00:00"))
         except ValueError:
-            continue
+            try:
+                ts = dt.datetime.fromisoformat(
+                    ts_raw.replace("x", "0").replace("X", "0").replace("Z", "+00:00"))
+            except ValueError:
+                continue
         notes = r.get("notes", "").strip()
         sig = r.get("signal_id", "?")
         # falsifier leg: an ACTION handoff still sitting in TERRY's inbox past 72h
@@ -1867,10 +1876,14 @@ def check_terry_override_ratio():
             qualifying = not notes.upper().startswith("TERRY-OVERRIDE")
         if not qualifying:
             overrides.append(sig)
+    # 2026-08-26: the falsifier FIRED (SIG-W-20260822-002-CORRECTION, ~78h) and the
+    # revert was EXECUTED (SPEC v0.21: TERRY in PULL_COMPLETE, no new deliveries).
+    # Non-renewable ⇒ post-revert this leg is a record, not an alarm: report INFO.
     for sig, hours in falsifier:
-        out.append((HIGH, f"S1 FALSIFIER FIRED — TERRY `action:` item {sig} unconsumed "
-                          f"{hours}h (>72h): revert §3.5.5 to the RED-class exemption, "
-                          f"do NOT tune T-1/T-2/T-3 (non-renewable, SPEC v0.16)"))
+        out.append((INFO, f"S1 falsifier record: TERRY `action:` item {sig} unconsumed "
+                          f"{hours}h (>72h) — falsifier FIRED 2026-08-26, revert to "
+                          f"RED-class exemption EXECUTED (SPEC v0.21); residual handoff "
+                          f"awaits TERRY's own consume, no action"))
     n = len(action_rows)
     if n >= 10 and overrides and len(overrides) / n > 0.10:
         out.append((MED, f"TERRY override ratio {len(overrides)}/{n} > 10% over 90d — "
