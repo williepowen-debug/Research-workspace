@@ -169,3 +169,17 @@ Created 2026-08-23 under the STATUS two-state PILOT (`AGENTS/DAEDALUS/BLUEPRINTS
 - **Four packets consumed, detail in `board_log.tsv`:** **FOMC minutes** — Board **staff** tie higher total *and core* inflation partly to *"the surge in demand related to the AI buildout"* (chips, steel, electricity); ⚠️ the **participant** view splits **three ways** and half of it quoted alone reads as consensus. **WATT** — PJM filed the Door-B branch ~8/13 (FERC ~10/12): full cost of new generation lands on **data centers**, not ratepayers ⇒ my HEN-36 leg; ⛔ a filing by the proposer is not an order by the decider. Industrial retail **8.71¢/kWh**, PJM capacity **$325/MW-day AT CAP** 3rd straight. **VULCAN** — a HEN-36 channel his S1 cannot see: all four hyperscalers are **LTA-protected**, so memory cost-push surfaces at the **non-LTA** buyer (memory ~10%→~34% of a 256GB iPhone Pro BOM; 7/31 tape sorts by LTA exposure, AAPL **−7.35%** vs AMZN +15.32). **ZHAO** — China exporting disinflation (composite PMI **49.3**, construction **47.0** record low, output prices falling fastest in 9 months); ⚠️ NBS attributes part to typhoons — discriminator is the **8/31 August PMI**.
 - **Boot-defect fixes shipped (DAEDALUS SFG, unread 6d):** gamma **source token** now printed (a silent CBOE→yfinance demotion rendered byte-identical to a healthy read **and auto-publishes to `PUBLISHED.tsv`**), thin-chain warning (`MIN_CONTRACTS=400` let a 90%-degraded chain print a confident flip), credit filter no longer swallows ⚠/ERROR lines. All three falsified in both directions.
 
+
+
+---
+
+*Rotated 2026-08-27 (Class A) — the DATA RELEASE LOG, verbatim. Every entry is a RESOLVED/graded record whose canonical home is `workbook/PREDICTIONS.tsv`; it was duplicating a maintained surface. Nothing deleted.*
+
+## DATA RELEASE LOG
+
+*RESOLVED/superseded, graded record (full detail → PREDICTIONS.tsv + git history). Live catalyst grades now in the top session block + CATALYST STACK.*
+- **May PCE (6/25) — HEN-34 CONFIRMED** (core +0.3% MoM, core YoY 3.4%) — confirmation WITHOUT acceleration; inverse-feedback branch did not fire.
+- **June NFP (7/2) — HEN-37 RESOLVED** (+57K vs ~115K, revisions −74K, AHE +3.5% = stagflation mix; 10Y ~flat, cascade did not open). Self-catch in LESSONS: don't build a re-mark on a figure flagged unconfirmed in the same edit.
+- **July CPI (8/12) — HEN-41 RESOLVED 8/20** — see top block (CONFIRM-ON-LETTER/DEFECTIVE-TRIGGER; substance DENY, core 2.5%).
+---
+

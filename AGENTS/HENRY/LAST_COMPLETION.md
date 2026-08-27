@@ -13,13 +13,13 @@
 
 **1. 🔑 Dealer gamma FLIPPED POSITIVE — the amplifier that ran 8/20–8/23 is off.**
 Net GEX **−$19.0B [8/23] → +$24.4B [8/27]**, flip **~7,690**, spot **7,724.92 = +35 above** ⇒ dealers now *dampen*. **But this is contingent, not established:** SPX chopped 7,652–7,677 **below** the band for three sessions, then **gapped +43pts through it the session after NVDA reported.** The flip is a **boundary, not support**, and the band moved **down** (7,709–7,723 → 7,690–7,706), so the re-arm level is lower than it was.
-🔴 **Walls unpublishable for the 6th time and in the worst form yet** — both horizons degenerate (14d put=call=7,700; 35d put=call=8,000) **and 300pts apart from each other.**
+🔴 **Walls unpublishable for the 5th time (published as "6th"; corrected in the self-audit) and in the worst form yet** — both horizons degenerate (14d put=call=7,700; 35d put=call=8,000) **and 300pts apart from each other.**
 
 **2. 🔑 NVDA repaired NVDA, not the complex.** NVDA **+8.39%** to $227.26 [in-flight]; `^SOX` **+1.36%**, still **−6.75% below its 8/17 level.** The one name that could resolve the August semis unwind resolved it and the complex stayed put ⇒ **my 8/23 semis-specific read confirmed from the opposite direction, and the Path-B igniter is NOT retired.**
 
 **3. ✅ HEN-43 graded — falsifier NOT met, migration read NOT withdrawn.** 2 calm rows maximum against a line of ≥5 (six not calm, two unscored). **Verdict robust on the four FRED-primary rows I re-pulled myself**, and **identical on all three candidate vintages (8/21, 8/24, 8/26)**.
 
-**4. 🔴 The honest risk, and it points at me.** HY **267 [FRED 8/26]** is **7bp** from my <260 soft-kill leg; the VIX leg is satisfied at spot. **0 joint sessions ever** — HY has never printed sub-260 (one day in three years). **But HY is reaching 267 because BB compressed to 156, not because the distressed tail healed** (CCC 1,031, gap 875, CCC +90bp/3mo vs BB −8bp). ⇒ **My thesis's kill switch is being walked toward by the exact averaging artefact my thesis says to distrust. I am not relaxing the leg to escape it.**
+**4. 🔴 The honest risk, and it points at me — with a correction that makes it LESS alarming than I first told you.** ⚠️⚠️ **CORRECTED 8/27 self-audit: 267 is NOT the closest ever. `BAMLH0A0HYM2` printed 263 [6/17] (3bp away), plus 264/265×3/266×2; the `<260` leg has been on STATUS since 2026-03-16. Today TIES 8/14, it is not a new extreme, and my error ran ALARMIST inside my own risk disclosure — after I had escalated it to Will and PROME. Correct calibration = RED's base rate: ONE sub-260 day in three years.**  HY **267 [FRED 8/26]** is **7bp** from my <260 soft-kill leg; the VIX leg is satisfied at spot. **0 joint sessions ever** — HY has never printed sub-260 (one day in three years). **But HY is reaching 267 because BB compressed to 156, not because the distressed tail healed** (CCC 1,031, gap 875, CCC +90bp/3mo vs BB −8bp). ⇒ **My thesis's kill switch is being walked toward by the exact averaging artefact my thesis says to distrust. I am not relaxing the leg to escape it.**
 
 **5. 🔑 Same-kill class is now n=3.** RED registered **FT-12 (HY<260, s=3)** today — my leg 1's threshold, my FRED series, shorter sustain. With LIQUID's `GATE-HY-REKILL` that is **three surfaces keying one series.** If HY breaks 260, three desks report a firing and a reader counting agents sees three witnesses where there is one. ⚡ **Corrected same session:** `FT-12` is a **necessary-but-not-sufficient precursor**, not a 2-session countdown — **my leg 1 is half of a conjunction** (H-1: VIX<15 AND HY<260 on the same session). `FT-12` can fire repeatedly while my kill never fires. **I published the loose version to RED and PROME, RED began encoding it on their row, and I corrected it within the sitting.**
 
@@ -35,7 +35,7 @@ Net GEX **−$19.0B [8/23] → +$24.4B [8/27]**, flip **~7,690**, spot **7,724.9
 
 ## GAPS / Still pending
 - **`consumer_check.py`:** PROME's `--self` **crashes** (`own_dir=None` at :842 vs the guard at :795) because PROME lives at `PROME/`, not `AGENTS/PROME/` — **a root-mandated closeout step that cannot run.** PROME asks (a) path fallback or (b) clear error + `--help` note; a decline is a real answer. **Not fixed this session** — root `scripts/` is DAEDALUS's lane and I owe semantics agreement first. Separately still open: **text-needle boundary checking** (LABOR's `31/75` matching inside `431/75.48`).
-- **audit-E2 cross-horizon wall guard** — 6th occurrence, still unfixed. Strongest evidence yet for fixing it.
+- **audit-E2 cross-horizon wall guard** — 5th occurrence (count corrected), still unfixed. Strongest evidence yet for fixing it.
 - **HEN-36 successor** — instrumented, **deliberately not registered**; needs a two-sided test on the neocloud/HY channel.
 - `domain/ECON_CALENDAR.md` docket still expired (audit C3).
 
@@ -54,4 +54,4 @@ Amplifier **OFF but contingent on one stock** · igniter **NOT retired** (`^SOX`
 ## WILL_NEEDS
 **Nothing blocking.** Two things worth your eye:
 1. **HEN-42 grades tomorrow and I expect to mark my own prediction DENY** — the registered call fails on the letter and I am declining the two available escape hatches (re-dating around Jackson Hole; re-reading the window as 7/17→7/23).
-2. **My thesis's own kill line is 7bp away** and is being approached because high-quality credit rallied, not because stress eased. **If it fires I will take the kill rather than relax the rule** — flagging now so it is not a surprise if it happens.
+2. ⚠️ **CORRECTED — I told you this was "closer than it has ever been." It is not: HY printed 263 on 6/17 and did not break 260. Today merely ties 8/14.** My thesis's own kill line is 7bp away and is being approached because high-quality credit rallied, not because stress eased. **If it fires I will take the kill rather than relax the rule** — flagging now so it is not a surprise if it happens.
