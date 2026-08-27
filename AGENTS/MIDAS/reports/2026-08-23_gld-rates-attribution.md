@@ -1,5 +1,8 @@
 # MIDAS — THE 8/19 GOLD SESSION: RATES ATTRIBUTION WRITE-UP
 
+> ⛔ **RETRACTION THAT TRAVELS DOWNWARD (2026-08-27) — every "87–93%" below is SUPERSEDED and preserved as the record of what I believed.** The correct univariate band is **85–92%**; currency-stripped stays **90–93%**. **87–93% was itself a FUSION of the two** and reproduced from no table in BOND's file [KB-BND-184, `35d8189c5`]. **Do NOT cite the lines below as state.** The reasoning in them — name the construction, never cross-attribute — **stands and is the reason this was catchable.** → KB-066, L-33.
+
+
 > ⛔⛔ **CORRECTION BANNER — ADDED 2026-08-23, SAME DAY, AFTER NON-AUTHOR RE-DERIVATION. THIS DOCUMENT'S HEADLINE NUMBER AND ITS §0 CITATION MANDATE ARE SUPERSEDED. THE BODY BELOW IS PRESERVED VERBATIM AND MUST NOT BE CITED WITHOUT THIS BANNER.**
 >
 > **CITE 87–93% UNEXPLAINED BY REAL RATES.** Not the **61–69%** this document headlines, and not the **≈89%** it retracts.
@@ -8,7 +11,7 @@
 >
 > **What this document got wrong: the remedy.** It fixed a weak univariate by adding **DXY** as a second regressor. **DXY is a co-symptom of the same monetary root — this document argues exactly that in §3.1 — which is precisely why it must NOT enter as a control.** A co-outcome lies **on the causal path**: it is a **MEDIATOR**, so the residual it shrinks re-describes part of the move in the dollar's own units and reports the mirror as an explanation. **61–69% therefore answers *"unexplained by real rates AND a fitted dollar factor"* — a different question from the one the premium thesis asks.** It is **TRUE and RETAINED for that question**, never as the magnitude of the premium.
 >
-> **The assumption-free replacement, which needs no variance-splitting convention at all — price the metal in a non-USD numéraire.** On 8/19 gold rose **+2.79% in USD** but **+1.96% (DXY basket) / +1.98% (EUR) / +1.99% (JPY)**, three numéraires agreeing to **2.5bp**. ⚠️ **Name the construction — the two bands are NOT the same test** [BOND §3.4(c), verified at the artifact 8/23]: **currency-stripped = 90–93%** (my own re-derivation: **93.0–93.8%**, corroborating this leg) · **univariate = 87–93%**, which is the band **HEARTBEAT §8 headlines and the one to cite**. Both are *unexplained by real rates*, on every window and both instruments; ⛔ do NOT attribute 87–93% to the currency-stripped construction.
+> **The assumption-free replacement, which needs no variance-splitting convention at all — price the metal in a non-USD numéraire.** On 8/19 gold rose **+2.79% in USD** but **+1.96% (DXY basket) / +1.98% (EUR) / +1.99% (JPY)**, three numéraires agreeing to **2.5bp**. ⚠️ **Name the construction — the two bands are NOT the same test** [BOND §3.4(c), verified at the artifact 8/23]: **currency-stripped = 90–93%** (my own re-derivation: **93.0–93.8%**, corroborating this leg) · ~~univariate = **87–93%**, which is the band **HEARTBEAT §8 headlines and the one to cite**~~ ⛔ **STRUCK 2026-08-27 — the univariate band is 85–92%; 87–93% was a FUSION and §8 no longer headlines it (Am.4). Text preserved per the rider; DO NOT ACT ON IT.** → KB-066, L-33. Both are *unexplained by real rates*, on every window and both instruments; ⛔ do NOT attribute 87–93% to the currency-stripped construction.
 >
 > **§0's instruction that *"every future citation must use the two-factor band"* is WITHDRAWN** — ruled wrong on the merits, and over-broad on this document's own terms: **§3.1 calls the split *"one defensible allocation, not the truth"*, and §0 then mandates one.**
 >
