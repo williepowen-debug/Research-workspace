@@ -23,6 +23,27 @@
 # !! FIRE STATE lives in registry/CREED_T_FIRED_LOG.tsv, and is MIRRORED into the band_status column of any fired row so
 #    that a reader of THIS FILE ALONE can see it. Column count is deliberately UNCHANGED (10) -- WALTER scans this file
 #    and counts rows matching ^CREED-T; adding a column would break that scanner.
+#
+# !! OPEN BAND-AUTHORITY OBLIGATIONS -- THIS IS THE DURABLE HOME. SCRATCH.md is overwritten every closeout; PROME/DOCKET.tsv
+#    is another desk's surface. An obligation tracked ONLY there is one CREED can boot clean and never see -- which is
+#    exactly what happened (see (B)). Clear an entry only when it is genuinely closed, and say where the ruling lives.
+#
+#    (A) AWAITING WILL -- CREED-T-03 / VX-CREED-4.01 BASELINE BASIS DEFECT (KB-CREED-024, raised 2026-08-27).
+#        The >3.40 band and the 'FDIC Q1 2026 QBP' source pointer DISAGREE; that cell reads 2.73%. The LEVEL leg is
+#        UNGRADEABLE on the registered basis until ruled. Fixes: (a) name the true source and re-point -- TRY FIRST,
+#        likely one line from REGINALD, who owns this shared vector -- or (b) re-base as a dated declared re-anchor.
+#        *** NEVER move the band to fit 2.48. *** No deadline pressure: next QBP ~late Nov.
+#
+#    (B) AWAITING WILL -- CREED-T-08a BASIS DECLARATION + like-for-like re-anchor rider. PROPOSED, NOT RULED.
+#        The band '< -10' does not say TOTAL-RETURN or PRICE-ONLY; the two differ by 0.65pp = ~6.5% of the 10pp band,
+#        so an undeclared basis POSITIONS the trigger. Authority: PROME/DOCKET.tsv row 33 -- 'if Will approves that
+#        packet item'. *** SCRATCH.md called this 'Will-ruled' until 2026-08-27; it was never ruled. ***
+#
+#    (C) APPROVED AND OVERDUE -- VX BAND MONTH-1 REVISIT. Will-approved 2026-07-21 at band-freeze, DUE 2026-08-21.
+#        NOT a decision Will owes; work CREED owes, with Will holding band authority over the output.
+#        DOCKET row 33 / AGENTS/DAEDALUS/upgrades/CREED_REVIEW_2026-08-20.md. Execution was 'folded into CREED's next
+#        spawn'; that spawn (2026-08-27 QBP) neither did it nor carried it forward, because no CREED surface held it.
+#        *** 'Folded into the next spawn' is not tracking unless the spawn's OWN surface carries the item. ***
 trigger_id	signal	metric	threshold_op	threshold_value	sustain_window	action	recipient_chain	source_of_truth	band_status
 CREED-T-01a	S1	OFFICE-CMBS-DQ-TREPP	>	12	2 consecutive monthly prints	S1-FIRE / office CMBS stress confirmed	CREED action / REGINALD action / LIQUID info	thesis/THESIS.md#convergence-matrix S1 ; VX-CREED-1.01 ; PRED-CREED-001	FROZEN 2026-07-21
 CREED-T-01b	S1	OFFICE-CMBS-SS-TREPP	>	18	1 print	S1-FIRE / office special-servicing trigger	CREED action / REGINALD action / LIQUID info	thesis/THESIS.md#convergence-matrix S1 ; VX-CREED-2.01 ; PRED-CREED-002	FROZEN 2026-07-21 || *** POINTER CORRECTED 2026-08-20 PM (Will-ruled pointer pass, DAEDALUS packet fe1530a8d; NON-BAND FIELD ONLY -- band/op/value/sustain UNTOUCHED). *** source_of_truth cited VX-CREED-1.02, which is OVERALL CMBS DELINQUENCY -- a DQ vector on an SS bar. Now VX-CREED-2.01 (Office Special Servicing), the vector that actually carries this metric. *** NOTE THE IRONY, RECORDED SO IT IS NOT REPEATED: this is the SAME error class CREED flagged to REGINALD on 8/20 -- 'the 16.58% is special servicing and cannot grade REG-T-07, a DQ bar.' CREED was right about REGINALD's series and carried the mirror-image defect in its own registry. ***
