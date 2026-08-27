@@ -47,28 +47,6 @@
 
 ---
 
-## 2026-08-13 (Thu) — residue from a six-pass day
-
-*Task ledger is NOT here — `MEMORY.md` §NEXT SESSION, per this file's own contract.*
-
-### Tooling worth keeping
-- **FFIEC `RetrieveFacsimile` accepts `facsimileFormat: PDF` and `XBRL`, not just `SDF`** — and the PDF is the *independent verification path*, because FFIEC lays the numbers out itself and your MDRM parser never touches them. Decode: base64 inside a JSON string → `pdfminer.extract_text`. This is how the OZK cells were hand-read.
-- **FDIC BankFind is a genuinely independent cross-check and it exposes memo item 3.** `api.fdic.gov/banks/financials?filters=CERT:<cert>` — ⚠️ `banks.data.fdic.gov` **301-redirects**, so use `-L` or the new host. Field map found: `LNCOMRE` = `RCON2746`, `LNCI` = item 4, `LNRECONS` = construction (1.a.1+1.a.2), `LNREMULT` = 1.d. **Different agency, different pipeline — this is what closes the gap a same-source re-render cannot.**
-- **`git check-ignore -v <path>` on BOTH the old and new path** is the two-second version of today's `git mv` finding. Ran it both ways on the sub-agent move and it settled the question instantly.
-
-### Arithmetic worth keeping (so I don't re-derive it)
-- **OZK RC-C decomposition Q2-25 → Q2-26, the one that killed hypothesis (c):** item 4 **+$2,273,530K** · 1.a.2 construction **−$1,931,379K** · 1.d multifamily **−$1,790,714K** · item 9 **+$98,409K** · total loans **−$444,084K** · MI3 **−$771,824K**. The secured book *shrinking* is what refutes "collateral got perfected."
-- **Step-detector base rate:** 17/154 QoQ transitions = **11.0%**, 7 of 14 banks, 9 up / 8 down. Largest three: WAL +$582M (24Q1), WAL +$438M (24Q4), OZK −$432M (25Q3).
-
-### Behavioural — parked here on purpose, not tasks
-- **Twice today the correction came from someone else asking a question I could have asked myself.** NEXUS asked whether my fire-count matched the raw series (it didn't). Will asked whether OZK's collapse was a tool malfunction (it wasn't — but the question surfaced the grid defect and the step). **Both were cheap questions about my own instrument that I had not asked.** No rule fixes this; noting the shape.
-- **The base rate arrived AFTER the alarm, twice in one day** — the up-cap "5 of 8 grew faster than their book" and the OZK step. Both dissolved on base-rating. The pattern is that I notice a *pattern* and reach for a *mechanism* before asking *how often does this happen anyway*.
-
-### Half-thought, not pursued
-- **Is there a bid for small-bank CRE paper, and at what level?** *(Carried from 7/25 and still unnamed after 19 days — now promoted to ROADMAP's investigations backlog with the data-source gap stated explicitly, because a note that cannot name its instrument is exactly what rots here.)*
-
----
-
 ## 2026-08-23 (Sun) — residue from the orchestrated single touch
 
 ### Tooling worth keeping (I re-derived all of this from scratch today; next time, don't)
@@ -89,3 +67,30 @@
 
 ### Half-thought, not pursued
 - PNC is the large-bank max on PC-NDFI (16.93% of loans, my own `NDFI_COHORT.tsv`) **and** it is the member driving the biggest single-bank FHLB draw in the system. I have **no evidence** the two are connected — the 10-Q attributes the growth to loans broadly plus the acquisition, and I did not decompose PNC's loan growth by category. **Writing it down so it is a question, not a hunch that hardens.** If it were tested: does PNC's C&I-to-NDFI line grow at a rate that needs $27B of wholesale funding, or is that mostly the FirstBank book plus resi/securities?
+
+---
+
+## 2026-08-27 (Thu) — residue from the first session after 3 dark days
+
+*Task ledger is NOT here — `MEMORY.md` §NEXT SESSION, per this file's own contract.*
+
+### Tooling worth keeping
+- **Recount a consecutive-session run at the series; never increment it from memory.** One `python3` pass over paired FRED pulls printed the whole run with a reset column and gave 19 sessions + the run peak + the driver decomposition in one shot. My file said 14 and I would have written 19 by adding 5 — which would have been right by luck and wrong as a method.
+- **The wide-table regex trap is real and I hit it live today.** `grep -oiE '(a|b)[^.]{0,120}(c)'` against an IR page died with *"exceeds complexity limits"*. MEMORY already carries this: **grep the bare literal and eyeball.** Cost ~1 minute because the lesson was on file.
+- **`curl` an IR host before trusting it:** `ir.westernalliancebancorporation.com` returns an Acquia *"Web Site Not Found"* page with **HTTP 200 and 970 bytes**. A byte-count check caught it; a naive grep-for-nothing would have read as "no announcement."
+- **`until [ "$(TZ=America/New_York date +%H%M)" -ge "1602" ]; do sleep 30; done`** backgrounded = a close-watcher that notifies once and exits. Better than polling `date` between edits.
+
+### Arithmetic worth keeping (so I don't re-derive it)
+- **CCC/HY run, 7/31→8/26:** 19 consecutive >3.6×, peak **3.861 [8/26]**. Endpoints **CCC 1034→1031 (−3bp) / HY 285→267 (−18bp)** — the decomposition *is* the verdict.
+- **WAL cycle closes since the 6/30 exit — zero below $78.** Two nearest: **7/08 $78.31 (+0.40%)** and **8/24 $78.39 (+0.50%)**. Deepest intraday lows: **8/27 $77.13**, 7/08 $77.49, 8/25 $78.00.
+- **WAL/EGBN print sequence, both quarters:** Tue AMC → Wed AMC → Thu 10:00 call. 2025: Oct 21/22/23. 2026: Jul 21/22/23.
+
+### Behavioural — parked here on purpose, not tasks
+- ★ **Two superlatives crossed my desk today from sources I trust, and both were wrong.** PROME's *"nearest approach on record"* for WAL (7/08 was 8¢ nearer) and my own file's *"2026 max 1034"* (1039 printed 8/25). **Neither was checkable without pulling the series — which is exactly why neither had been checked.** A superlative is the claim most likely to be inherited and least likely to be verified.
+- ★ **The most corrected-*looking* line in a file is a good place to hunt for stale figures.** HOMER's catch: my brief's bullet was **headed "RETRACTED"**, correctly reported a retraction, and then used the withdrawn evidence to support it — for three weeks, while my STATUS was already right.
+- ★ **Today's obvious fix would have recreated the defect it was fixing.** CREED's fix (a) — re-point `VX-CREED-4.01` at the QBP — would have named a source that does not contain the value, which *is* the original defect. It only died because CREED **executed the fix and looked at the result** rather than reasoning about it.
+- **Four of my own live surfaces were wrong in ways no threshold would have caught**: an oil-leg "FIRING" call 41 days stale, a leg cited as registered that is ungradeable, a buffer stated twice at two values, three superseded peer figures. **None of these trip an alarm. All of them travel.**
+
+### Half-thought, not pursued
+- **A "publication-shape" field for registered rows.** Today produced two rows whose levels live in *episodic prose/charts* rather than standing table cells (`CREED-T-03`'s NOO series; arguably FHLB's own combined report). A row could carry *"is this level in a table cell that prints every period, or in narrative that may not?"* — cheap, and it is the property that made T-03 gradeable-by-luck. **Not proposing it; MIDAS's ask ② is adjacent and still open with Will.**
+- **Does regional CRE OREO deserve a vector?** It is the only Q2 recognition tell and it is on my surface — but n=1 quarter, and a 26% move on a $915M stock is small. **Base-rate before building.**
