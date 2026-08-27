@@ -48,6 +48,13 @@
 16. 🟡 **DAEDALUS action 9, STILL OPEN** — no `LEDGER_GLOB`, and none of the 5 TSVs carries a PAT-044 `Last real data refresh:` header. ⚠️ **Add headers CAREFULLY — `kb_lint` enforces field-count.**
 17. 🟡 **ONE-LINE FIXES, both deferred as unreviewed-correction risk:** (a) `boot_recompute`'s rc message **mislabels date-gate findings as "unguarded drift"**, three lines below its own "✅ no unguarded drift" line — **n=3 now.** (b) `monitors/watchers.py`: gate the **PASSED** branch on `Serviced_On` as CHECKPOINT-CROSSED already is — **today there is NO way to mark a date-gate resolved except by deleting the row.** `KB-BND-192`.
 
+## 📋 INSTRUMENT-DEBT PROPOSAL WRITTEN (Will's ask at closeout) → `analysis/2026-08-27_instrument-debt_remediation-proposal.md`
+
+**PROPOSAL ONLY — nothing executed, deliberately.** The diagnosis is that the four broken guards are **not four unrelated bugs**: three share the shape *"reports a claim STRONGER than what it measured"* (a check over an **empty or truncated reference set** returns the same `rc=0` as a real pass), and two share the shape *"trains the operator to ignore the instrument."*
+**If only one thing happens: §1 — the `docket_check` empty-set/horizon guard.** Cheapest, highest-harm, and **it has a date on it** (September refunding ~9/8–10, ~12 days out).
+⚠️ **The sequencing is the real proposal: fix the two credibility-drainers (§2) BEFORE building the new relative-vintage check (§3)** — new findings landing in a channel already trained to be ignored is negative value.
+⛔ **§4 is FLEET-SCOPE and NOT BOND's to impose** — route to PROME/DAEDALUS. **BOND has not audited the other desks' guards and must not assert they are defective.**
+
 ## OPEN THREADS / KNOWN GAPS
 
 - ⚠️ **THE SAM PACKET IS NOT DELIVERY-VERIFIED BY CONTENT — path only, SAM is DARK, no artifact exists to check yet.** **Do NOT let the RED closure read as closing both.** Check SAM's files once they surface.
