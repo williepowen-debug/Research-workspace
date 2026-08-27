@@ -51,6 +51,40 @@
 
 ---
 
+### 🔴 THESIS-KILL RE-EVALUATION 2026-08-27 (closeout step 3, after the NVDA print + 10-Q) — **STILL 1 of 3. And the counterintuitive result is that the session's BIGGEST datum pushed on the leg that is ALREADY MET — i.e. toward the thesis dying, not away from it.**
+
+**Re-read leg by leg against today's material, not restated.**
+
+| Leg | Today's material | Moves it? |
+|---|---|:---:|
+| **1 — AI-capex re-accelerates** (FY27 4-name guide ≥ +40% YoY ⇒ ≥ ~$1.03T) | NVDA guided **its own** Q3 revenue to **$108.0B ±2%**. ⚠️ **That is not the instrument.** Leg 1's instrument is the **Jan-2027 hyperscaler company guides** (VULCAN-10) — NVDA's print is a READ-THROUGH under this desk's standing S1 semantics. 📌 Noted without moving the leg: NVDA's **own** forward procurement ladder (**rem-FY27 $92B / FY28 $87B / FY29 $88B**) is supplier-side evidence that the buildout persists at scale — *relevant to the leg's eventual direction, not admissible as its measurement.* | **❌ NO — not yet observable** |
+| **2 — Concentration unwinds cleanly** (Mag-7 ≤28% held 3+ months, no VIX>30, no SPX DD>15%) | **No new Mag-7 reading taken today.** Series content-vintage **2026-08-21 holdings, 32.87%** — gap to kill **4.87pp**. ⚠️ **`mag7.py` is deliberately being run POST-CLOSE alongside `semi_watch.py`** so both of today's readings share one basis and neither is an intraday sample taken after seeing the event. | **❌ NO — unchanged** |
+| **3 — Memory stays healthy** (DRAM contract ≥0% QoQ, 4 consecutive quarters through 2027-06-30) | 🔴 **REINFORCED, AND THIS IS THE FINDING.** NVDA's supply-and-capacity commitments went **$119B → $279B in one quarter, *"primarily related to the procurement of memory"*** [KB-118]; the consumer leg shows memory is expensive enough to be **named as a drag on PC volume** by a supplier [KB-119]. Both say *memory is healthy*, which is **exactly what this leg requires.** | **✅ STILL MET — and more firmly than on 8/24** |
+
+**⇒ STILL 1 of 3.** Legs 1 and 2 both unmet; the thesis requires **all three**.
+
+### 🔑 THE INVERSION, WRITTEN DOWN BECAUSE IT IS EASY TO MISS WHEN A BIG DATUM ARRIVES
+
+**Today's single most impressive number — NVDA committing $160B of incremental memory procurement in one quarter — is, ON THIS RAIL, evidence FOR the thesis dying.** Leg 3 is *"memory stays healthy,"* it is the one leg **already satisfied**, and today made it *more* satisfied.
+
+⚠️ **This inverts the intuition the S2 channel work creates.** In the channel, a strong memory datum reads as *"S2 is rich with evidence."* On the kill rail, the same datum reads as *"one of the three conditions for my thesis being wrong is more firmly true."* **Both readings are correct and they point opposite ways — because the channel measures whether the mechanism is LIVE and the rail measures whether the thesis is DEAD, and a healthy memory market is evidence for the first *and* for the second.**
+
+⇒ ***When a datum strengthens a channel, check whether it also strengthens a kill leg. A rail that only ever moves on bad news is a rail nobody is reading against their own position.*** [pairs with the 8/24 note that a −19% five-session move moved ZERO legs — the rail is insensitive to price action **by design**, and correspondingly sensitive to exactly this kind of structural datum.]
+
+### 🆕 CHANNEL-KILL SWEEP 2026-08-27 — **none died; TWO moved further from death, and one is unevaluated by design**
+
+- **S5 — ALIVE, and today argues hard against its death.** Kill needs *new issues clearing at/inside talk for 2 consecutive quarters* **AND** *no second jurisdiction*. **No AI-infra new issue priced today** — the **$500B is MOUs**, which is not a cleared issue in either direction. And NVDA now states in a filed document that its customers *"lack the ability to secure… investment-grade financing capacity."* **A channel whose death condition is "financing is easy" does not die on the day the biggest name says financing is the constraint.**
+- **S3 — ALIVE and moved FURTHER from death, second consecutive session.** Kill needs interconnection clearing **faster than load is added** for 2 planning cycles; the 10-Q **adds ~4.25 GW of committed PJM IT load with a nine-phase schedule** (+~3.8 GW optional). **Load added, on a filed timetable.**
+- **S4 — ALIVE.** Kill needs export controls **net loosening both directions** for 2 quarters AND TSMC YoY ≥+20%. Today's China datum is a **realised tightening** (NVDA DC-China <1% of revenue, guide assumes zero), not a loosening. TSMC cum **+37.0%** clears the second conjunct, but the first is unmet.
+- **S1 — ALIVE.** Capex net RAISED; no two consecutive flat-or-down stacks.
+- **S2 — NOT EVALUATED TODAY, AND SAID SO RATHER THAN ASSUMED.** Its kill is a **conjunction**: DRAM contract ≥0% QoQ 4 straight quarters **AND memory equity outperforming QQQ**. The first conjunct is trending true; **the second requires an equity cross-section I have deliberately not pulled until post-close.** ⚠️ **An unevaluated conjunct is not a satisfied one — the status stays ALIVE on the 8/24 evaluation, and this line exists so the gap is visible rather than papered over.**
+
+**From-states NOT refreshed — third consecutive session.** Leg 2's stays **32.98% [8/20]**, leg 3's stays the **8/13** spot prices. ⚠️ **Today's temptation was specifically leg 3:** the $279B commitment is a *better* piece of evidence than the 8/13 spot print sitting in the from-state cell. **A from-state is a FROZEN reference and better evidence is not a reason to move it** — the new datum belongs in the *current-state* column and in KB, which is where it went.
+
+**Dated rewrite trigger: NOT DUE.** Fires on the FIRST of {MU FQ4 ~9/29 · the 9/30 resolutions · 2026-11-15}; earliest **~33 days** out and registered in `docket/CATALYSTS.tsv`, so it surfaces at boot.
+
+---
+
 ### 🔴 THESIS-KILL RE-EVALUATION 2026-08-24 (PROME-spawned session, closeout step 3) — **STILL 1 of 3. And the headline is that the fastest semi de-rate in this desk's record moved NOTHING on this rail — which is the rail working, not the rail failing.**
 
 | Leg | Kill condition | Today (2026-08-24, own live pulls) | Met? |
