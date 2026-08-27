@@ -33,6 +33,12 @@
 > **Composite 15/25, seventh session. S1–S5 all 3. Thesis-kill 1 of 3 (re-read leg by leg, PM entry in the rail). Fired-count 0 of 5.** Mag-7 **32.9085%** [holdings 8/26], **0.0915pp** under the 33% yellow line, band below-yellow; breadth **+5.00pp / 97.3rd pctile**. **No band tripped, no score moved, no band retuned with instances in hand [L-11(b)].**
 > **STATUS archived 8/21 passes 7-9 → 247 → 205 lines** (moved NOW so the post-close session does not hit the cap under a hard clock).
 >
+> ## 📋 LEDGER-NUDGE DISPOSITION (step 1c-bis — it fired AFTER the commit, so the 'say why not' is recorded here)
+> **8 ledgers named. NONE is genuinely rotting, and half are an artifact of this session writing STATUS four times.**
+> - **Written TODAY:** `MAG7_SERIES` · `LAYER_SERIES` · `KB` (each '3 behind' = exactly the 3 STATUS writes that followed them) · `EDGAR_SEEN` (swept today; boot leg 8 reads **0d**).
+> - **Correctly event-cadenced, not stale:** `S4_SERIES` (**monthly**; next TSMC 6-K ~9/10) · `S2_SERIES` (next reading is the **post-close run tonight** on the pre-committed cadence — running it early IS the L-21 defect) · `PREDICTIONS` (rows resolve on dates; VULCAN-16 resolves post-close) · `FLOW` (pathways change rarely by design).
+> ⚠️ **n+1 on a defect ALREADY routed to DAEDALUS: the nudge counts STATUS-WRITES, so a multi-pass session inflates every count.** Four STATUS writes today made three same-day ledgers read as '3 behind'. **Confirming instance, NOT a new finding — do not re-report it as one.**
+>
 > ## ❌ STILL OPEN
 > - **`## LIVE CHANNEL READS` restructure** — registered, deliberately not attempted mid-session.
 > - **The QQQ variant** of the sector leg — blocker NAMED (Invesco 406, api.nasdaq 404), not a dead end.
