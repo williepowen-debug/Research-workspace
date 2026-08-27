@@ -272,3 +272,29 @@ HENRY's `evals/README.md` draws a distinction no other agent states: **a princip
 ⚠️ **The guard's own v1 failed on its first run, in its most load-bearing direction.** A loose `VX-CREED-[\d.]+` regex swallowed the range shorthand `VX-CREED-10.01..10.05` whole and **reported a phantom pointer defect against `CREED-T-08b`** whose five vectors are all present and fine. **A check built to find fabricated referents fabricated one.** Caught only by running it before commit. `[[finding_test_the_guard_not_just_the_guarded]]` — the memory predicts exactly this, and predicting it is not the same as being immune to it.
 
 **Files touched:** `scripts/threshold_scan.py` (new), `CLAUDE.md` (boot step 4c), `README.md` (scripts index), `MAINTENANCE.md`, `SCRATCH.md`.
+
+---
+
+## 2026-08-27 — Standing trap #7 WIDENED: absence inferred from retrieval shape (`n=3`, one document class)
+
+**Structural change:** no new file, no new script. **One always-loaded trap rewritten, in both mirrored copies** (`CLAUDE.md` §Standing traps #7 ≡ `SCRATCH.md` #12). Recorded here rather than left in a commit message because **the evidence is the artifact** — the trap is the fix, this is the case for it.
+
+**Why it was widened rather than annotated: the old wording would not have caught its own third instance.** It read *"NOT PUBLISHED almost always means NOT FETCHED."* Instance ③ never used the words "not published." It said **"no loan-level/metro detail reachable, so no FL-specific slice exists to send yet"** — a sentence the trap's trigger phrase does not match, written by a session that had the trap loaded.
+
+| # | Date | What was written | What was true |
+|---|---|---|---|
+| ① | 8/12–8/13 | CREED **and** HOMER independently recorded the July maturity-adjusted DQ as **not published** | Published all along at **9.62%**, in Trepp PDF prose. Both desks had reached only the Connect-CRE secondary — **two readers of one upstream are ONE source** |
+| ② | 7/27 | `PRED-CREED-009` held at 30% *"because CREED does not receive the composition split monthly"* | **False when written** — Trepp prints the split in prose **every month**. Resolved TRUE |
+| ③ | 8/13 → 8/27 | *"No loan-level/metro detail reachable ⇒ no FL-specific slice exists"* — CORAL's feed blocked **24 days** | The FL content was in the **named-loan narrative** throughout, and it was a **Florida hotel portfolio that moved the national lodging rate 79bp**. WALTER found it in that same prose and routed it directly on 8/19 |
+
+> 🔴 **The generalisation the old wording missed: the defect is not the word "unpublished." It is concluding a FACT is absent from the failure of ONE RETRIEVAL SHAPE.** All three looked for a **table** (or a structured feed) and reported absence when the fact was in **narrative prose of the same document**.
+>
+> ⚠️ **And instance ③ is the worst of the three, for a reason the other two do not share.** ① and ② are wrong beliefs that a later fetch corrects. ③ was a **standing wait for a shape that does not exist** — Trepp's monthly Delinquency Report contains **exactly two tables, both national** (verified at primary 8/27, four editions), so the FL-metro table CREED was waiting for **will never print.** **Waiting for a nonexistent shape is indistinguishable from waiting for data that has not yet published, and it fails silently for as long as you keep waiting.** The recipient meanwhile carried the feed as *"live and load-bearing."*
+
+**The widened rule:** before writing that a figure is unavailable, **name which shape you looked for and say whether you checked the others** — table, narrative, footnote, chart label.
+
+⚠️ **Honest limit on the promotion criterion.** The traps block is curated, not a dumping ground, and its rule is that a trap earns its place by having **bitten CREED while writing a number.** This is a **widening of an existing trap, not a ninth trap** — the block still holds eight — and it is justified by the same evidence standard: `n=3`, all CREED, all on one document class, with the third demonstrating that the current wording does not fire.
+
+⚠️ **What this does NOT fix.** No guard detects it. `creed_selfcheck` was green across all three instances; `threshold_scan` cannot see it; the failure is a **sentence a session writes about its own reach**, and nothing in CREED's tooling reads those. **The trap is a behavioural fix in the always-loaded surface, which is the only place it could go — and instance ③ proves an always-loaded trap can still be walked past when its trigger phrase does not match the sentence being written.**
+
+**Files touched:** `CLAUDE.md` (trap #7), `SCRATCH.md` (trap #12 mirror), `MAINTENANCE.md`. **Routed:** DAEDALUS (8/28 sweep, sibling to PROME's item 9 on the pointer/instrument axis — adjacent, not merged).
