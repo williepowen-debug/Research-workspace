@@ -94,3 +94,26 @@
 ### Half-thought, not pursued
 - **A "publication-shape" field for registered rows.** Today produced two rows whose levels live in *episodic prose/charts* rather than standing table cells (`CREED-T-03`'s NOO series; arguably FHLB's own combined report). A row could carry *"is this level in a table cell that prints every period, or in narrative that may not?"* — cheap, and it is the property that made T-03 gradeable-by-luck. **Not proposing it; MIDAS's ask ② is adjacent and still open with Will.**
 - **Does regional CRE OREO deserve a vector?** It is the only Q2 recognition tell and it is on my surface — but n=1 quarter, and a 26% move on a $915M stock is small. **Base-rate before building.**
+
+## 2026-08-27 (Thu, 2nd session) — residue from the price-correction + closeout pass
+
+### Tooling worth keeping (re-derived today; next time, don't)
+- **Settled closes + the PRIOR close in one shot** — the thing that caught the inverted day-change. `market.py` gives level and a % but not the reference it used, so re-derive the % yourself:
+  `.venv/bin/python3 -c "import yfinance as yf; h=yf.Ticker('WAL').history(period='12d')[['Open','High','Low','Close']]; print(h.round(2).to_string())"`
+  Multi-ticker form: loop `yf.Ticker(t).history(period='5d')['Close']` over the cohort and zip with `str(d)[:10]`.
+- **Weekday assertion before writing any dated row** (claim_check will flag it later; cheaper now):
+  `python3 -c "import datetime; print(datetime.date(2026,8,31).strftime('%A'))"`
+- **Kernel state, checked at the artifact rather than the record:** `ls KERNEL/shadow/events/2026/08/` + `find KERNEL/audit -type f` + read each event's `actor_id`. An event id's UUID prefix is NOT a reliable owner tell — open the file.
+- **sha256 a submission against its activation pin:** load the activation JSON, walk `commands[]`, `hashlib.sha256(open(c['path'],'rb').read()).hexdigest() == c['sha256']`.
+
+### Arithmetic worth keeping (so I don't re-derive it)
+- WAL 8/27: close **$78.71**, prior close **$79.60 [8/26]** ⇒ **−$0.89 / −1.12%**. Buffer to $78 = **$0.71 / 0.91%**. Intraday low **$77.13**; rally off low **$1.58**.
+- KRE 8/27: close **$74.35**, prior **$74.58 [8/26]** ⇒ **−$0.23 / −0.31%**. **+23.9%** above the $60 line.
+- ⚠️ **A buffer % and a day-change % are both "small positive numbers next to a price."** They are not interchangeable and nothing in the layout stops you swapping them. That swap is what inverted the headline.
+
+### Behavioural — parked here on purpose, not tasks
+- I typed an inherited integer (precondition ⑦) from working memory **twice**, wrong both times, in the same closeout. The fix that worked was `grep -rn` for the token across the dir before commit — not resolving to be more careful.
+- The retirement rule was *correct* on `CCC_HY_TRIPWIRE` and the right answer was still "don't". Mechanical sweeps need one "what IS this object" read before executing.
+
+### Half-thought, not pursued
+- `market.py` prints a % without naming the close it differenced against. If it printed the reference date, this session's defect would have been visible at a glance rather than needing a separate history pull. Possible small ask to whoever owns that script — **not raised, not verified as feasible.**
