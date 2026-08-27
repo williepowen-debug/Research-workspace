@@ -33,6 +33,7 @@ VENV_PY = WORKSPACE / ".venv" / "bin" / "python3"
 
 TICKERS = {
     "vix": "^VIX",
+    "vix9d": "^VIX9D",
     "vix3m": "^VIX3M",
     "vix6m": "^VIX6M",
     "vvix": "^VVIX",
@@ -46,6 +47,10 @@ BANDS = {
     "vvix":           {"green": 80,  "yellow": 120, "orange": 150, "red_above": True,  "fmt": "{:.2f}"},
     "skew":           {"green": 120, "yellow": 140, "orange": 150, "red_above": True,  "fmt": "{:.2f}"},
     "vix3m_vix_ratio": {"green": 1.15, "yellow": 1.0, "orange": 0.9, "red_above": False, "fmt": "{:.3f}"},
+    # vix9d/vix ratio: mode <1 (9d cheaper than 30d, normal). Ratio ≥1 is
+    # front-end bid — near-term fear priced richer than 30d. Direction:
+    # HIGHER = worse (front-end panic pricing).
+    "vix9d_vix_ratio": {"green": 0.95, "yellow": 1.00, "orange": 1.05, "red_above": True, "fmt": "{:.3f}"},
     "m1m2_adj_pct":   {"green": 5.6, "yellow": 8.99, "orange": 12.0, "red_above": True,  "fmt": "{:+.2f}%"},
 }
 
@@ -279,7 +284,7 @@ def check_stale_tick() -> str | None:
     return None
 
 
-FFWD_COLS = ("vix3m", "vix6m", "vvix", "skew")
+FFWD_COLS = ("vix9d", "vix3m", "vix6m", "vvix", "skew")
 
 # (path relative to VIOLET_DIR, soft cap) — capped docs whose overflow rule is
 # "archive to archive/". A note asking a future session to remember the cap is
@@ -367,6 +372,12 @@ def build_report(supersede: bool = False) -> dict:
     ratio = None
     if spot.get("vix") and spot.get("vix3m"):
         ratio = round(spot["vix3m"] / spot["vix"], 4)
+    # vix9d/vix ratio — same cross-date rule as vix3m/vix: if either leg is stale
+    # or nulled, the ratio is unsafe (a 9d bid computed from a T-1 9d over today's
+    # spot is a cross-date artifact, KB-VIO-139).
+    ratio_9d = None
+    if spot.get("vix") and spot.get("vix9d"):
+        ratio_9d = round(spot["vix9d"] / spot["vix"], 4)
 
     stale = {k: spot[f"{k}_suppressed_value"] for k in TICKERS if spot.get(f"{k}_stale")}
     unverified = [k for k in TICKERS if spot.get(f"{k}_unverified")]
@@ -399,11 +410,13 @@ def build_report(supersede: bool = False) -> dict:
         # stamp tomorrow's date (caught 2026-06-09 20:29 ET → "2026-06-10" row)
         "date": et_now.strftime("%Y-%m-%d"),
         "vix": spot.get("vix") or "",
+        "vix9d": spot.get("vix9d") or "",
         "vix3m": spot.get("vix3m") or "",
         "vix6m": spot.get("vix6m") or "",
         "vvix": spot.get("vvix") or "",
         "skew": spot.get("skew") or "",
         "vix3m_vix_ratio": ratio if ratio is not None else "",
+        "vix9d_vix_ratio": ratio_9d if ratio_9d is not None else "",
         "m1m2_strict_pct": m1m2_strict if m1m2_strict is not None else "",
         "m1m2_adj_pct": m1m2_adj if m1m2_adj is not None else "",
         "m1_symbol": m1_sym,
@@ -419,6 +432,7 @@ def build_report(supersede: bool = False) -> dict:
         "vvix": classify("vvix", spot.get("vvix")),
         "skew": classify("skew", spot.get("skew")),
         "vix3m_vix_ratio": classify("vix3m_vix_ratio", ratio),
+        "vix9d_vix_ratio": classify("vix9d_vix_ratio", ratio_9d),
         "m1m2_adj": classify("m1m2_adj_pct", m1m2_adj),
     }
 
@@ -458,10 +472,12 @@ def print_report(rep: dict):
         print(f"  ⚠️  UNVERIFIED data-date (value KEPT, not nulled): {', '.join(rep['unverified'])}")
     print(f"")
     print(f"  {cls['vix']} VIX        {row['vix']:>7}")
+    print(f"     VIX9D      {row['vix9d']:>7}")
     print(f"     VIX3M      {row['vix3m']:>7}")
     print(f"     VIX6M      {row['vix6m']:>7}")
     print(f"  {cls['vvix']} VVIX       {row['vvix']:>7}")
     print(f"  {cls['skew']} SKEW       {row['skew']:>7}")
+    print(f"  {cls['vix9d_vix_ratio']} VIX9D/VIX  {row['vix9d_vix_ratio']:>7}")
     print(f"  {cls['vix3m_vix_ratio']} VIX3M/VIX  {row['vix3m_vix_ratio']:>7}")
     if row['m1m2_adj_pct'] != "":
         adj = rep['m1m2_raw']['adjusted']

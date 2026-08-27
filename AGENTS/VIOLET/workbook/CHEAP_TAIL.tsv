@@ -11,4 +11,4 @@ date	vix	vvix	skew	vix_pctile	vvix_pctile	skew_pctile	cat_days	cat_event	legs_me
 2026-08-14	14.25	87.48	138.36	26.2	38.9	77.1	29	VIX September expiration (quarterly)	2/4	DORMANT	missing: SKEW divergence, event-boxed	2026-08-18T13:21:14+00:00
 2026-08-17	15.19	93.92	142.91	32.8	57.9	85.3	1	FOMC MINUTES — July 28-29 meeting, 14:00 ET	3/4	ARMING	missing: VVIX cheap	2026-08-18T18:32:01+00:00
 2026-08-20	16.01	89.86	143.23	39.1	46.3	85.9	6	NVIDIA Q2 FY2027 earnings — after close, results ~16:20 ET, call 17:00 ET	3/4	ARMING	missing: VIX complacency	2026-08-20T23:10:39+00:00
-2026-08-26	15.21	85.24	142.96	32.9	32.3	85.3	0	Jackson Hole symposium 8/27-29 — WARSH KEYNOTE Fri 8/28 AM	4/4	OPEN	window open	2026-08-27T18:18:12+00:00
+2026-08-26	15.21	85.24	142.96	32.9	32.3	85.3	0	Jackson Hole symposium 8/27-29 — WARSH KEYNOTE Fri 8/28 AM	4/4	OPEN	window open	2026-08-27T18:54:03+00:00

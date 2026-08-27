@@ -1,4 +1,4 @@
-# VIX THESIS (v3.9 — an ESTIMATOR must be able to fail INDEPENDENTLY of what it measures; a level-based gate decays into description; and the NULL is part of the spec, 2026-08-04)
+# VIX THESIS (v4.0 — level-signal decay is a CLASS, not a one-off; every tail-detection instrument gets a pre-registered F2 (pre/post-regime-break) test as part of its SCOPE spec, or its NULL is unwritten; DIRECTIONAL/window signals are more regime-robust than LEVEL signals, 2026-08-27)
 
 VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-type-dependent, and directionally asymmetric**. Operational signal stack runs L1 (population framework, real-money) over L2-L4 calibration filters. Two transmission paths now formal: standard credit-led, and concentration-unwind parallel.
 
@@ -9,6 +9,16 @@ VIOLET's core framework: Credit-vol relationship is **regime-dependent, crisis-t
 ## CHANGELOG
 
 > Canonical "old view → new view" per-bump log lives in `thesis/CHANGELOG.md`. This section is the in-body version history.
+
+**v4.0 (2026-08-27) — LEVEL-SIGNAL DECAY IS A CLASS · F2 (pre/post-regime-break) is now a SPEC FIELD refinement inside SCOPE · directional/window signals are regime-robust where level signals are not (full entry: CHANGELOG.md)**
+- **THE PROMOTION: same class of failure caught TWICE in one thesis version.** v3.9 retired KB-VIO-090 (four credit-tree level lines fired 95.5% of days at 0.97× baseline over 29.6 years — decayed into description). v4.0 opens with **KB-VIO-211**: GATE-VIO-RV1, the first design this desk ever base-rated before shipping, **failed its own pre-registered F2 test on the first session after the first arm.** Pre-2018 (n=12): 60td/≥+50% cond 66.7% vs uncond 34.6%, lift **1.92×, p=0.024** ✅. Post-2018 (n=22): cond 55.0% vs uncond 40.4%, lift 1.36×, **p=0.134** ❌. Every post-2018 cell fails. **The tail-edge KB-VIO-207 measured lived in 12 pre-2018 episodes (7 of them 2014); the design is unbuilt post-Volmageddon.** Two instances of one mechanism promotes it: **a level-defined "rare corner" of the vol surface decays endogenously into the regime that surrounds it** — because the level was calibrated at the then-current threshold and the regime rolls forward. Post-2018 uncond ≥+50% rose (34.6→40.4%) as Volmageddon/COVID/2022-rates/2026-NFP raised the baseline; the *"VIX≤16 + SKEW≥140 + VVIX≤90"* region became the regime rather than a corner of it.
+- **F2 (pre/post-regime-break test) IS NOW A SPEC-FIELD REFINEMENT INSIDE SCOPE, not a discretionary check.** v3.8 named SCOPE + WINDOW as field 5 of the specification family. v4.0 refines it: **SCOPE must state (a) the calibration window, (b) a nominated regime-break date, (c) the null-preserving separation test that would fail the instrument if run on the post-break subsample.** Absence of these is not neutral — it means the instrument's NULL is unwritten, per v3.9. **The family still closes at five.** RV1's F2 clause was in the row from day one; running it was the discipline.
+- **DIRECTIONAL/WINDOW SIGNALS ARE REGIME-ROBUST WHERE LEVEL SIGNALS ARE NOT — provisional, but this is the mechanism-level defense of L1.** The L1 DIET signal is not a level ("VIX ≤ 16") — it is a **20td derivative pattern** ("SKEW +10, VIX −2/−5, VVIX −10/−15 over the window"). A signal measured in changes cannot age into the regime the same way a level does; the window slides with the tape. This is provisional (n=1 comparison) but it is the leading hypothesis for why KB-VIO-090 and KB-VIO-207 both died on level tests while KB-VIO-067's 19yr backtest at threshold-and-window separation survived. **Working corollary — until falsified: prefer DERIVATIVE-defined tail instruments over LEVEL-defined ones, and any level instrument owes an F2 test at registration.**
+- **PATH A OWES ITS OWN F2 AUDIT, and it is on the RESEARCH AGENDA.** Path A's four-condition gate (VIX<20, credit-originated, cross-sector, no curve inversion) is level-conditional on VIX<20. Not retired — its historical calibration (2007-08, 2011, 2015-16) sits pre-Volmageddon. **Adding to Phase-4 stack calibration:** run the pre/post-2018 test on Path A's ~70% hit rate. If separation compresses like KB-VIO-207's, sizing conclusions change.
+- **The β RECONCILIATION (KB-VIO-212) is a DISCIPLINE note, NOT a thesis change** — but it earns a mention because it is the SECOND instance in 30 days of `[[finding_asymmetric_rigor_counterparty_claims]]`. I retracted TERRY's 0.28 toward my 0.274 without re-deriving the new number; the 0.274 turned out to be a bucketing bug (uncapped 21-35 DTE bucket). Canonical β at 21-35 is KB-VIO-208's 0.500 on 13yr all-contract (n=1,615). **The tenor-gradient story survives intact.** Vehicle-conversion thinking (KB-VIO-208, `research/2026-07-30_vehicle_selection_prereg.md`) is unchanged.
+- **VIX9D INSTRUMENT IS NOW BUILT (KB-VIO-213).** Fetched by thresholds.py, `vix9d`+`vix9d_vix_ratio` columns in VX_DAILY, banded 0.95/1.00/1.05 with `red_above=True` (higher = worse — 9d bid above 30d is front-end fear pricing). Backfill via CBOE `daily_prices/VIX9D_History.csv` (yfinance ^VIX9D returns n=1 daily, same class as ^COR1M); 409 historical VX_DAILY rows now carry the leg. **Not a thesis change** — an instrument capability that retires "front-end bid" from headline-only status. 8/17-8/27 event window traceable off the ledger: peak ratio 0.899 on 8/20 post-expiry, ratio never crossed 1.0 → **the "9d bid" was a compression of the normal <1 ratio toward 1, not a true inversion**.
+- **KB-VIO-203 HENRY DEPARTURES-ARRIVALS is the MECHANISM for why 20d-avg SKEW can terminate while daily SKEW stays elevated** — a small refinement of *Regime Life-Cycle: Interruption-and-Resumption*. n=2 (own finding + HENRY external reproduction to the hundredth on 8/23). Computed cross-back forecast ~9/1 at flat spot is a live-testable prediction, added to Predictions #7. **Not a headline** — but the "arithmetic underneath an apparent tension is often the actual finding" is what shows up.
+- **No change to:** L1 DIET signature, L1 canonical base-rate table, transmission paths A/B (A owes an F2 audit; both otherwise unchanged), regime definitions, GEX-suppression mechanism, five-field specification family. **KB-VIO-090 retirement (v3.9) is now retroactively catalogued as instance #1 of the level-decay class**; the RISK FACTORS section gains that class as a first-order named risk.
 
 **v3.9 (2026-08-04) — ESTIMATOR INDEPENDENCE · a level gate decays into description · the NULL is part of the spec (full entry: CHANGELOG.md)**
 - **⚠️ FIRST, A CORRECTION TO MY OWN FRAMING FROM EARLIER THE SAME DAY.** I wrote on STATUS and in the NEXUS brief that estimator-independence was *"a sixth spec field beside LEVEL/INSTRUMENT/MECHANISM/SCOPE/WINDOW."* **That was wrong: ESTIMATOR is already field 4 of v3.8's five.** This is **not a new field — it is a new FAILURE MODE inside an existing one**, and the distinction matters because a sixth field would imply the v3.8 family was incomplete when it was not. **The family still closes at five.**
@@ -394,6 +404,23 @@ Portfolio P&L (no credit-side firing required)
 - Monitor VVIX (vol-of-vol confirms option market stress)
 - Only trade "lag" in rising vol regime
 
+### The Level-Decay Class (promoted to first-order risk, v4.0)
+
+**What it is:** a level-defined "rare region" of the vol surface — set at the then-current calibration — ages *into* the regime rather than out of it, and eventually fires at (or worse than) baseline while looking like a real signal.
+
+**Instances (2 in 12 sessions):**
+| # | Instance | Registered rule | What happened |
+|---|---|---|---|
+| 1 | **KB-VIO-090 credit tree** (retired v3.9) | Four level lines on BB/HY/CCC/dispersion | Fired 95.5% of days over 29.6yr at 0.97× baseline; 80.9% at **0.78×** on the 3yr window — anti-signal |
+| 2 | **KB-VIO-207 cheap-tail / GATE-VIO-RV1** (F2-killed v4.0) | `VVIX≤90 AND VIX≤16 AND SKEW≥140`, declustered episodes | Pre-2018 lift 1.92× (p=0.024); post-2018 lift 1.36× (p=0.134) — **separation lost**; 21td/+50% lift 0.78× (worse than uncond) |
+
+**Mechanism:** the level was true at calibration and the regime moved. Post-2018 baseline vol events (Volmageddon, COVID, 2022 rates, 2026 NFP) raised the unconditional forward-max ≥+50% rate from 34.6% to 40.4%, so "VIX low + SKEW high + VVIX low" simultaneously became the wallpaper rather than a corner.
+
+**Mitigation, standing:**
+- **Any level-based tail-detection instrument owes an F2 test at registration**, and F2 is now a spec-field refinement inside SCOPE (v4.0 headline). Absence of F2 means the instrument's NULL is unwritten.
+- **Prefer directional/window signals over levels** — an instrument measured in changes over a sliding window (L1 DIET) cannot age into the regime the same way. Provisional at n=1 comparison, but the leading hypothesis for why L1 DIET's 19yr backtest still holds.
+- **Existing level-conditional instruments carry an audit obligation**, not a retirement notice — Path A's VIX<20 gate is next in queue (Research Agenda Phase 4).
+
 ---
 
 ## PREDICTIONS (Falsifiable)
@@ -409,6 +436,7 @@ Portfolio P&L (no credit-side firing required)
 | 4 | VIX > 40 → HY OAS > 600bps within 20 days | Untested — VIX hasn't reached 40 since thesis | Medium (downgraded from High — inherited, not VIOLET-validated) | Next event |
 | **5** | **KB-VIO-067 L1 DIET signature** (SKEW +10 / VIX -5 / VVIX -15 over 20d formal, or half-magnitude directional variant) → ≥15% VIX rise within 60 days | **PARTIAL HIT 6/5.** Directional/half-magnitude variant fired 5/20-5/29 → VIX +40% at td-4 (well above 15% threshold). Mechanism-attribution uncertain (NFP + AI confounder); count as partial. Base rate at this threshold: DIET 92% / STRICT 94% episode-level (L1 canonical table, KB-VIO-079). | High (EMPIRICAL via 19yr backtest) | Each L1 fire; 60d window |
 | **6** | **Post-spike SKEW > 150 sustained 4+ td** → back-to-back vol event within 60 days (Phase 2 cluster analog) | **RESOLVED — BROKE AT 2/4, NEVER SUSTAINED** (KB-VIO-114, adjudicated 7/9; this table synced 7/11). Daily path (VX_DAILY, official closes): 154.82 (7/1, day 1) → 150.02 (7/2, day 2) → 145.38 (7/6, BREAK) → 145.74 (7/7) → 149.79 (7/8) → 144.67 (7/9) → 144.27 (7/10). The 60d consequent never armed. Count formally reset **0/4**; re-arms on any fresh close >150. Framing-variant caveat (post-partial-fire, wings-rotation composition, KB-VIO-108) carries to the next instance. Prior lapse: 6/5 instance broke at 1/4 (152.25 → 145.00). | Medium (small N: 1 prior cluster in 19yr) | Resolved 7/9, no fire; watch re-arms at next >150 close |
+| **7** | **KB-VIO-203 mechanism forecast (added v4.0)** — HENRY's departures/arrivals decomposition (n=2 with own finding) predicts the SKEW 20d-avg re-crosses 140 **at ~2026-09-01** on flat spot alone (roll-off of expiring low prints). | Untested; live-testable. Fires: 20d-avg cross-back >140 within ±2 sessions of 9/1 at spot within ±2% of 8/23 close. Falsifies: no cross-back by 9/8, or cross-back requires spot to move >±3%. | Medium (n=2 measurement, well-specified) | ~2026-09-01 window |
 
 **Scoring rules:**
 - "Untested" = trigger conditions have not occurred
@@ -436,6 +464,9 @@ Portfolio P&L (no credit-side firing required)
 - [ ] L4 demotion formalization: COT positioning → descriptive context, not discriminator
 - [ ] L1 re-split by trigger type: do DIET fires concentrate around macro-shock vs technical vs concentration-unwind?
 - [ ] Path B (concentration-unwind parallel) backtest: identify historical analogs (Aug 2024 yen, Nov 2018 FANG, Feb 2018 Volmageddon, Mar 2020) and characterize joint trigger+amplifier condition
+- [ ] **Path A F2 audit (added v4.0):** run the pre/post-2018 test on Path A's ~70% hit rate. Path A's VIX<20 entry gate is level-conditional; if separation compresses post-Volmageddon the way KB-VIO-207 did, sizing conclusions change. **This is not a demotion of Path A** — it is the obligation the level-decay class puts on every level-conditional signal.
+- [ ] **VIX9D/VIX ratio base-rate work (added v4.0, KB-VIO-213):** now that the instrument is built and backfilled to 2011, base-rate the ratio at the thresholds the framework would want (≥1.0 crossing, ≥1.05 sustained, compression <0.85). Register nothing without an F2 test — do not repeat the KB-VIO-207 pattern of ship-then-audit.
+- [ ] **KB-VIO-203 HENRY departures-arrivals cross-back forecast (added v4.0):** grade whether the ~9/1 forecast (SKEW 20d-avg re-crosses 140 at flat spot) realizes. If it does, KB-VIO-203 upgrades from anecdote to mechanism-with-computed-date.
 
 ---
 

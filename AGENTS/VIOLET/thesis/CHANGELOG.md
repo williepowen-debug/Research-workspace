@@ -6,6 +6,36 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## v4.0 — 2026-08-27 · **LEVEL-SIGNAL DECAY IS A CLASS · F2 (pre/post-regime-break) is now a SPEC FIELD refinement inside SCOPE · directional/window signals are regime-robust where level signals are not**
+
+**OLD VIEW (v3.9):** A level-based gate can decay into a description and can invert into an anti-signal — filed as a **one-off observation** with KB-VIO-090 retired, and the NULL named as part of the specification. F2-style regime-break testing was a *discretionary* check that individual instrument-builders could choose to run.
+
+**NEW VIEW (v4.0):** Level-signal decay is a **CLASS**, not a one-off. Two instances in one thesis version — KB-VIO-090 (v3.9) and KB-VIO-211/KB-VIO-207 (v4.0) — promote the observation to a framework-level rule. **F2 (pre-/post-regime-break separation test) is now a SPEC FIELD refinement inside SCOPE**: SCOPE must state (a) the calibration window, (b) a nominated regime-break date, (c) the null-preserving separation test that would fail the instrument if run on the post-break subsample. Absence of these is not neutral — it means the instrument's NULL is unwritten, per v3.9. **The family still closes at five.** And a working corollary until falsified: **prefer derivative/window-defined tail instruments over level-defined ones**, because a signal measured in changes over a sliding window cannot age into the regime the way a static level can.
+
+⚠️ **The discipline test I care about is not the finding — it is that the row's OWN pre-registered kill fired and I stayed inside it.** GATE-VIO-RV1 armed on 8/25 + 8/26 SETTLES, cheap-tail hit 🟣 OPEN 4/4 for the first time since the instrument was built, Jackson Hole/NVDA both landed inside the window, and the row's `consequence_on_fire` clause blocked deployment while F2 was owed. Running F2 the next session returned KILL. That is the exact behavior the row was written for.
+
+**THE TWO INSTANCES, side by side:**
+
+| # | Instance | Registered rule | Result |
+|---|---|---|---|
+| 1 | **KB-VIO-090 credit tree** (retired v3.9) | Four level lines on BB/HY/CCC/dispersion | Fired 95.5% of 29.6yr at **0.97× baseline**; 80.9% at **0.78×** on the 3yr — decayed into description, then inverted into anti-signal |
+| 2 | **KB-VIO-207 / GATE-VIO-RV1** (F2-killed v4.0) | `VVIX≤90 ∧ VIX≤16 ∧ SKEW≥140`, declustered ≥5td | Pre-2018 (n=12): 60td/≥+50% lift **1.92×**, p=0.024 ✅. Post-2018 (n=22): lift **1.36×**, **p=0.134** ❌. 21td/+50% lift **0.78×** (worse than uncond). Separation lost |
+
+**MECHANISM (both instances):** the level was calibrated at the then-current threshold and the regime moved. Post-2018 baseline vol events (Volmageddon, COVID, 2022 rates, 2026 NFP) raised the unconditional forward-max ≥+50% rate from 34.6% to 40.4%, so *"VIX low + SKEW high + VVIX low"* simultaneously became the wallpaper rather than a corner. The **direction of harm is dependency-in-regime, not miscalibration** — the instruments were correctly measured against the sample they were built on, and became endogenous to the regime that surrounded them.
+
+**WHY L1 DIET SURVIVES (provisional):** the L1 signal is **not** a level; it is a 20td derivative pattern (SKEW +10, VIX −2/−5, VVIX −10/−15 over the window). A window signal slides with the tape and cannot age into the regime the same way. Provisional at n=1 comparison but the leading hypothesis for the survival gap; falsifier would be an F2 test on L1's 19yr backtest showing post-2018 separation compression.
+
+**PATH A OWES ITS OWN F2 AUDIT** — added to Phase-4 Stack Calibration. Path A's VIX<20 entry gate is level-conditional; if separation compresses post-Volmageddon the way KB-VIO-207's did, sizing changes. Not a demotion — the obligation the level-decay class puts on every level-conditional signal.
+
+**BUILDS this cycle:**
+- **VIX9D instrument (KB-VIO-213)** — thresholds.py + VX_DAILY column + CBOE-CSV backfill (yfinance ^VIX9D has n=1 daily history, same class as ^COR1M). 409 rows backfilled, 8/17-8/27 event window graded off ledger. Not a thesis change; an instrument capability that retires "front-end bid" from headline-only status.
+- **β RECONCILIATION (KB-VIO-212)** — the 0.274 I sent TERRY on 7/30 was a bucketing bug (uncapped 21-35 DTE); canonical β at 21-35 is KB-VIO-208's 0.500 (n=1,615, 13yr). Tenor-gradient story survives intact. **This is a discipline note, not a thesis change** — but it is the second instance in 30 days of `[[finding_asymmetric_rigor_counterparty_claims]]` and it earns a mention.
+- **KB-VIO-203 mechanism refinement** — HENRY's departures-arrivals framework explains how 20d-avg SKEW can terminate while daily SKEW stays elevated; n=2 (own + HENRY reproduction to the hundredth 8/23). Computed cross-back forecast ~9/1 at flat spot is added to Predictions #7 as a live-testable claim.
+
+**Unchanged:** L1 DIET signature and its canonical base-rate table · transmission paths A/B (A owes an F2 audit; both otherwise unchanged) · regime definitions · GEX-suppression mechanism · five-field specification family itself · everything below in this document from v3.9 down.
+
+---
+
 ## v3.9 — 2026-08-04 · **ESTIMATOR INDEPENDENCE · a level gate decays into description · the NULL is part of the spec**
 
 **OLD VIEW (v3.8):** A registered line is a specification and the family closes at five fields — LEVEL + INSTRUMENT + MECHANISM + ESTIMATOR + SCOPE/WINDOW. A line decays through any one of them. The ESTIMATOR field asked: *is this estimator correct?*

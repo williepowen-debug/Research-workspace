@@ -45,7 +45,7 @@ VIOLET_DIR = SCRIPT_DIR.parent
 WORKSPACE = VIOLET_DIR.parent.parent
 DAILY_LOG = VIOLET_DIR / "workbook" / "VX_DAILY.tsv"
 
-TICKERS = {"vix": "^VIX", "vix3m": "^VIX3M", "vix6m": "^VIX6M", "vvix": "^VVIX", "skew": "^SKEW"}
+TICKERS = {"vix": "^VIX", "vix9d": "^VIX9D", "vix3m": "^VIX3M", "vix6m": "^VIX6M", "vvix": "^VVIX", "skew": "^SKEW"}
 CBOE_URL = "https://www.cboe.com/us/futures/market_statistics/settlement/csv/"
 ROLL_WINDOW = 5
 
@@ -131,9 +131,16 @@ def backfill_spot(days: int, rows: dict[str, dict]) -> int:
         # Recompute derived columns when we have both
         vix = row.get("vix")
         vix3m = row.get("vix3m")
+        vix9d = row.get("vix9d")
         if vix and vix3m:
             try:
                 row["vix3m_vix_ratio"] = round(float(vix3m) / float(vix), 4)
+                changed = True
+            except (ValueError, ZeroDivisionError):
+                pass
+        if vix and vix9d:
+            try:
+                row["vix9d_vix_ratio"] = round(float(vix9d) / float(vix), 4)
                 changed = True
             except (ValueError, ZeroDivisionError):
                 pass
@@ -263,6 +270,61 @@ def backfill_m1m2(days: int, rows: dict[str, dict], pause_s: float = 0.5, allow:
     return touched
 
 
+CBOE_VIX9D_HISTORY = "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv"
+
+
+def backfill_vix9d_cboe(rows: dict[str, dict]) -> int:
+    """VIX9D fill path — CBOE daily-prices CSV, NOT yfinance.
+
+    Why a separate path: yfinance `^VIX9D`.history() returns exactly ONE row
+    (today), just like `^COR1M` (KB-VIO-171). The 30d-history path used for VIX
+    et al. writes nothing here. CBOE's public daily_prices CSV carries VIX9D
+    back to 2011-01-04 and is fetched the same way as VIX_History.csv.
+
+    Fills only currently-blank vix9d cells (does not overwrite). Also computes
+    vix9d_vix_ratio where vix is available on the same row.
+    """
+    r = requests.get(CBOE_VIX9D_HISTORY, timeout=20,
+                     headers={"User-Agent": "Mozilla/5.0"})
+    if r.status_code != 200:
+        print(f"  ⚠ CBOE VIX9D CSV: HTTP {r.status_code} — vix9d NOT backfilled")
+        return 0
+    reader = csv.DictReader(io.StringIO(r.text))
+    hist = {}
+    for row in reader:
+        d = row.get("DATE") or row.get("Date")
+        if not d:
+            continue
+        try:
+            if "/" in d:
+                dd = datetime.strptime(d, "%m/%d/%Y").date().isoformat()
+            else:
+                dd = datetime.strptime(d, "%Y-%m-%d").date().isoformat()
+            hist[dd] = round(float(row["CLOSE"]), 4)
+        except (ValueError, KeyError):
+            continue
+    touched = 0
+    for d_str, row in rows.items():
+        if d_str not in hist:
+            continue
+        v9 = hist[d_str]
+        changed = False
+        if not str(row.get("vix9d", "")).strip():
+            row["vix9d"] = v9
+            changed = True
+        vix = row.get("vix")
+        if vix and row["vix9d"]:
+            try:
+                row["vix9d_vix_ratio"] = round(float(row["vix9d"]) / float(vix), 4)
+                changed = True
+            except (ValueError, ZeroDivisionError):
+                pass
+        if changed:
+            touched += 1
+    print(f"  CBOE VIX9D CSV: {len(hist)} historical rows, touched {touched} existing VX_DAILY rows")
+    return touched
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--spot-days", type=int, default=90)
@@ -280,6 +342,9 @@ def main(argv=None):
         print(f"\n[1/2] Backfilling spot history ({args.spot_days} days)...")
         touched = backfill_spot(args.spot_days, rows)
         print(f"  touched {touched} rows")
+        # VIX9D uses CBOE not yfinance (yfinance ^VIX9D has no daily history)
+        print(f"\n[1b] Backfilling VIX9D from CBOE daily-prices CSV...")
+        backfill_vix9d_cboe(rows)
 
     if not args.spot_only:
         print(f"\n[2/2] Backfilling M1:M2 steepness ({args.m1m2_days} trading days)...")
