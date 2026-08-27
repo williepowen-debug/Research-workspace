@@ -38,8 +38,8 @@
 |---|---|---|
 | **Fri 2026-08-28** | **T6 last gradeable session** (Will Option C) | Pin 8/28 **and re-read 8/27 as a settled close** — today's row is provisional. `tools/t6_pin.py --write` runs off the creds alone; **any desk can grade if ORACLE is dark.** |
 | Mon 2026-08-31 | Hormuz avg-daily-transits + ships-any-day ladders resolve | direct throughput gauges → BRENT/FALCON |
-| Sun 2026-09-01 | Aug WTI-$100 leg resolves | the leg just rolled out of the spread |
-| ~Thu 2026-09-11 | **August CPI print** | rolled today; **the CPI that arms the 9/15-16 FOMC** (5–6d before) → HENRY |
+| Tue 2026-09-01 | Aug WTI-$100 leg resolves | the leg just rolled out of the spread |
+| ~Fri 2026-09-11 | **August CPI print** | rolled today; **the CPI that arms the 9/15-16 FOMC** (4–5d before) → HENRY |
 | Tue–Wed 2026-09-15/16 | **FOMC** | the Sept-hike complex resolves; T6 is upstream of it |
 | Fri 2026-09-18 | BOJ September decision | PM 87.5% / Kalshi 85.0% (2.5pp) → SAM, BOND |
 | ~2026-09-03 | next coverage sweep due | ran today (20d overdue), 9 hits, no new themes |
