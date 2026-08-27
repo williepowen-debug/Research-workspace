@@ -71,13 +71,14 @@ NEAR_FRAC = 0.05
 #    verdict", never "do not look".
 # ---------------------------------------------------------------------------
 BASIS_BLOCKS = {
-    "CREED-T-03": (
-        "BAND AND VALUE ARE ON DIFFERENT BASES -- the comparison is arithmetic, not a verdict. "
-        "The >3.40 band cannot be reproduced from the FDIC Q1 2026 QBP it cites (that cell reads "
-        "2.73%); the value now carried is the QBP COMBINED cell. Comparing them measures a "
-        "PERIMETER GAP, not stress. KB-CREED-024, AWAITING WILL. "
-        "CLEARS WHEN: Will re-points the source or re-bases the band (never band-to-fit-value)."
-    ),
+    # CREED-T-03's basis block was CLEARED 2026-08-27 by Will's in-session ruling: the QBP
+    # nonfarm-nonresidential COMBINED cell is now the DECLARED canonical basis, so band and
+    # value are no longer on different bases. The row is NOT thereby "comparable", though --
+    # its LEVEL LEG IS SUSPENDED with no replacement level (n=4 is too thin to set one), so it
+    # has no numeric bar to scan against and is enumerated in the unscannable register instead.
+    # Removing it from BASIS_BLOCKS without that suspension would have made a stale 3.40 read
+    # as a live comparable bar -- the exact "cleared a block, created a worse state" move this
+    # scan exists to prevent.
     "CREED-T-08a": (
         "BASIS UNDECLARED IN THE BAND -- '< -10' does not say total-return or price-only, and "
         "VX-7.01 currently carries BOTH (+0.07pp TR / -0.58pp price-only, 0.65pp apart = ~6.5% "
@@ -217,6 +218,11 @@ def main():
             return 2
 
     registry = rows(THRESHOLDS, "CREED-T")
+    # T-03: level leg SUSPENDED 2026-08-27 (Will-ruled). Grades on legs (b)+(c) BY HAND until a
+    # level is set at n=12. It must not present as a numeric bar in the meantime.
+    LEVEL_SUSPENDED = {"CREED-T-03": "LEVEL LEG SUSPENDED 2026-08-27 (Will-ruled) -- basis re-declared to the "
+                       "QBP nonfarm-nonresidential COMBINED cell; NO replacement level set (n=4 too thin, trap #4). "
+                       "Grades on legs (b) direction + (c) reserve-coverage BY HAND. Level revisit at n=12, header (D)."}
     vectors = load_vectors()
     fired = load_fired()
 
@@ -236,6 +242,9 @@ def main():
             if v not in vectors:
                 pointer_defects.append((tid, v, "named vector does NOT exist in VX.tsv"))
 
+        if tid in LEVEL_SUSPENDED:
+            unscannable.append((tid, "⚖️ " + LEVEL_SUSPENDED[tid]))
+            continue
         if band is None:
             unscannable.append((tid, f"no numeric band (op={op!r}, band={raw_band[:60]!r})"))
             continue
