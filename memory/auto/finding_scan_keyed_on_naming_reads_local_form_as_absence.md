@@ -1,6 +1,7 @@
 ---
 name: finding_scan_keyed_on_naming_reads_local_form_as_absence
 description: a scanner keyed on how a surface is NAMED/shaped reads "surface I cannot recognize" as "surface does not exist" — absence-of-recognizable-form ≠ absence-of-thing; before reporting N agents lack X, re-read a sample for X expressed in LOCAL forms, and fix by extract-and-stamp, never rebuild-over-a-working-thing
+symptoms: scan says X is missing but X exists · "no agent has X" / "surface carries no X" refuted on re-read · grep pattern had no capacity to match the target · empty awk/section extract treated as a short section · column/id named differently (trigger_id vs gate_id) · clean scan against the wrong referent · recommendation right but rationale false
 metadata:
   type: finding
 ---
