@@ -35,7 +35,7 @@
 4. Unchanged: CARL V2 (owner dark) · 9/3 30Y JGB rail · 9/4–9/11 re-spec window · 9/12 VX re-review · 9/15 CHG-044 + CHG-049 · 9/30 CHG-042 backstop.
 5. **Tape note from boot:** HY 267 — **WL-04 (<260, "credit canary fully dead") is 7bps away and NOTHING grades a cross.** If it fires it is bull-side evidence with no registered consumer; consider a pre-registered disposition at the 9/4–9/11 window rather than improvising on the day it prints.
 
-**GIT STATE:** on master; S36 committed path-scoped (`AGENTS/RED/` + memory carve-out ③); NOTHING written into `KERNEL/` (review is read-only by design — all tool invocations were read-only modes); safe-push at closeout sweeps PROME's stranded crash-recovery commit `f2306d8d5`.
+**GIT STATE:** on master; S36 committed path-scoped (`AGENTS/RED/` + memory carve-out ③); NOTHING written into `KERNEL/` (review is read-only by design — all tool invocations were read-only modes); pushed `f4dee3304` (`Pushed.` verified; sweep carried PROME `f2306d8d5` + CREED `36ded484d` crash-recovery commits). **Ledger-nudge disposition (fired post-commit, VULCAN precedent):** VX (re-review dated 9/12, deliberately lit) · KB/PREDICTIONS — no new facts or predictions this sitting; a process review's ledgers are ML.tsv (refreshed this commit, ML-192) and board_log (row added) · CHALLENGES — S36 opened no challenge; CHG-049's retro row landed S35. Nothing frozen, nothing stale-carried.
 
 ---
 
