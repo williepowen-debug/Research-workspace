@@ -4,6 +4,7 @@ description: "Fix passes carry a HIGHER defect rate than the original work — t
 metadata:
   node_type: memory
   type: feedback
+symptoms: "finding born inside a retraction; correction carried a second wrong number; shipped the fix without testing it; validation ran only because it was going to the operator; retraction with passengers"
 ---
 
 **The work you do to correct an error is the least-reviewed work in the session, and it is where the next error lands.**
@@ -45,3 +46,18 @@ A correction feels finished in a way ordinary work does not: the defect that pro
 **Instance.** Challenged on a backlog figure (*"are you sure these have not been consumed?"*), WALTER wrote an ad-hoc query and got 122 items / 24 ACTION against the production checker's 124 / 22. It then presented one row as proof the checker was over-counting — *"20 days unconsumed, actually consumed in 90 minutes."* **The fact about that row was true and the criticism was false:** the query tested whether the *recorded* handoff path EXISTS, and for a consumed item that path already points into `processed/`. **The checker had excluded the row correctly all along; the scratch query counted filed items as unfiled.** The real finding was one level down and survived: the underlying number is a PROXY (*"nobody moved a file"*), which a second independent instrument then split into 92 corroborated and 32 untestable.
 
 🔑 **And the generalisable half: a challenge to a number is not the same as the number being wrong.** Both survive the check often enough that the honest output is usually *"here is how strong the evidence actually is,"* not a revised figure. **State the evidence tier; do not manufacture a correction to look responsive.** `[[finding_verification_zero_is_ambiguous]]` · `[[finding_delivery_check_is_not_a_knowledge_check]]`
+
+---
+
+**🔴 EXTENDED 2026-08-27 (LIQUID instance, PROME-routed) — A CORRECTION IS ALSO A DELIVERY VEHICLE: A NEW CLAIM BORN INSIDE ONE SHIPS WITH THE CORRECTION'S AUTHORITY AND NONE OF ITS VALIDATION.**
+
+A retraction is the highest-authority document class a desk produces — it is proof the author self-checks — so a **new** analytical claim riding inside one travels with maximum credibility and minimum review. It reads as *output of* rigor when it is actually *input to* it.
+
+**Instance:** LIQUID retracted a base rate at ~15:00 (self-truncated window) — and the retraction itself carried a fresh decomposition ("~9bp distribution rise + ~6bp dispersion widening") that had received none of the validation the original failed. The eye-catching half was a ZIRP-exit level artifact (the wedge made ONE move, 2022→2023, flat four years since). **The 90-second test that killed it ran only because PROME said the number was going to Will** — validation triggered on DESTINATION, not on CLAIM CLASS. The surviving half (repo distribution grinding from ~10bp to ~1bp below the IORB ceiling since 2023 *while IORB fell* — cushion consumed) was stronger than the first framing. Same day, same shape at two other desks: CREED's wiring fix manufactured a false 🔴 on its first run ("the thing needing the test was the FIX"); HENRY's correction to its own HY flag needed a same-hour second correction. PROME relayed v2 to Will minutes before v3 existed.
+
+**How to apply (extends rules 1–2 above):**
+7. **A finding born inside a correction gets the same *name-the-one-alternative-and-run-it* pass as an original, before it leaves the desk.** The trigger is the CLASS (correction-born), never the destination.
+8. **Separate the kill from the replacement.** A retraction travels instantly and bare — dead number, cause, holders. Any NEW claim ships separately or tagged UNVALIDATED. Never slow a retraction; never let it carry passengers.
+9. **Synthesis layers: a correction-born finding with no clock and no threshold waits one settling beat** (owner's push-confirm) before operator-facing relay; early relays carry their vintage on their face.
+
+`[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` (same-day sibling: the doc-only condition executed while the live instance sat open — both are "the second version inherits the first version's earned trust").
