@@ -57,7 +57,7 @@ BTC **2.50** · indirect **60.78%** · direct **26.96%** · dealer **12.26%** ·
 ## MAIL
 
 **In: 3** *(SCRATCH said 2 — stale)*. ① **PROME** hyperscaler allocation — **RETAINED BY DECISION**, carrier of an undelivered ~9/3 deliverable. ② **SAM** xccy 4th leg — **READ**. ③ **RED** `RED-FT-11` — **arrived 12:18 INSIDE THE CRASH WINDOW, recorded in no handoff — READ**.
-**Out: 0 this session.** Two packets **OWED and written up in SCRATCH**, deliberately not half-sent:
+**Out: 2 — BOTH SENT ~13:5x ET on Will's explicit word** (`d9dd34e7a`, pushed). Delivered copy-to-recipient-inbox; **PROME's copies to `PROME/inbox/` at repo ROOT** (the path that mis-delivered on this rule's first use — verified no `AGENTS/PROME/` tree regrew). **Doorbells per rule 6/6b: RED LIVE ⇒ doorbelled directly; SAM · LIQUID · TERRY DARK ⇒ 6b doorbell to PROME, bounded-touch decision left to them.** ⚠️ **NOT moved to `outbox/delivered/` — verified by PATH, not CONTENT; that check stays owed (n=4).**
 - 🔴 **RED** — their `30Y−5Y` leg choice is **CORRECT**, but for a reason needing correction (`DGS10` is a CMT built off **on-the-run** issues; buybacks target **off-the-run** — true at sector level, not at the series they'd difference). **Real offer: BOND's TP-vs-path decomposition, run fresh 8/27, replaces their identification-by-null with a measurement.**
 - 🟠 **SAM** — their *"four independent instruments, no shared input"* **over-reaches**: legs 1 and 2 both come off the **H.4.1 release** (leg 2 is **mine**), and leg 3 (June TIC) is a **pre-op baseline by their own words**. Every leg is individually fine; the **convergence claim** is what fails. Runs against my own leg.
 
