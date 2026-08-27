@@ -940,6 +940,72 @@ def gather_live():
     return claims, cards, {str(p): read(p) for p in DRIFT_SURFACES if p.exists()}
 
 
+INBOX = TERRY / "inbox"
+
+
+def open_inbox_packets() -> list[tuple[str, str, int | None]]:
+    """Undrained packets at CLOSEOUT — the gap boot.py's inbox report cannot cover.
+
+    ⚠️ WHY THIS EXISTS (Will-directed 2026-08-27). boot.py already reports the inbox,
+    but a boot report is a SNAPSHOT: packets that land AFTER the drain are invisible
+    for the rest of the session, and nothing re-checks. Live instance the day this
+    shipped — SAM delivered a 20-day-owed branch at 10:46, minutes after the boot
+    drain took the inbox 4 -> 0. It surfaced only because Will asked "did TERRY
+    check/process inbox?". The fix cannot be "remember to look again"
+    ([[finding_mechanize_the_cap_not_the_ritual]]): it goes where closeout already
+    stops.
+
+    ⛔ ADVISORY, NEVER BLOCKING, AND THAT IS A DESIGN DECISION NOT AN OVERSIGHT.
+    If an open packet blocked closeout, the CHEAPEST remedy would be `git mv` to
+    processed/ WITHOUT READING IT — manufacturing a false "consumed" record, which
+    is strictly worse than the packet simply sitting there where the next boot
+    shouts about it. A guard whose cheapest remedy is a bad action buys nothing
+    ([[finding_gate_calibration_is_a_claim_about_its_remedys_price]]). "Arrived
+    16:29, consuming next boot" is a LEGITIMATE disposition and must stay cheap.
+
+    ⚠️ AGE IS DERIVED FROM THE GIT-ADD COMMIT, NEVER FROM mtime — git sync restamps
+    mtime and the failure is a FALSE NEGATIVE ([[finding_mtime_is_corrupted_by_git_sync]],
+    and root Data Hygiene forbids keying a NEW freshness mechanism on it by name).
+
+    The age split is the whole signal:
+      UNCOMMITTED -> a peer wrote it and has not committed; in flight right now.
+      0d          -> landed today; most likely arrived mid-session. THE GAP THIS FIXES.
+      >=1d        -> it SURVIVED AT LEAST ONE BOOT REPORT. That is not late mail,
+                     that is a drain failure, and it is the more serious of the two.
+
+    Scope: inbox/ and inbox/<AGENT>/, excluding any processed/ dir. inbox/WILL/ is
+    EXCLUDED by design — it is Will's raw drop zone (gitignored, reported separately
+    by boot.py), not an agent packet lane; counting it would fire on his own files.
+    """
+    if not INBOX.exists():
+        return []
+    out: list[tuple[str, str, int | None]] = []
+    today = datetime.now().date()
+    for f in sorted(INBOX.rglob("*.md")):
+        parts = f.relative_to(INBOX).parts
+        if "processed" in parts or (parts and parts[0] == "WILL"):
+            continue
+        if f.name.upper() in {"README.MD"}:
+            continue
+        try:
+            iso = subprocess.run(
+                ["git", "log", "--diff-filter=A", "--format=%cI", "-1", "--", str(f)],
+                capture_output=True, text=True, timeout=30, check=False,
+            ).stdout.strip()
+        except Exception:
+            iso = ""
+        if not iso:
+            out.append((str(f.relative_to(TERRY)), "UNCOMMITTED", None))
+        else:
+            try:
+                age = (today - datetime.fromisoformat(iso).date()).days
+            except ValueError:
+                out.append((str(f.relative_to(TERRY)), "UNPARSEABLE-DATE", None))
+                continue
+            out.append((str(f.relative_to(TERRY)), iso[:10], age))
+    return out
+
+
 def recent_diff(since: str) -> str:
     try:
         return subprocess.run(
@@ -1204,6 +1270,38 @@ def selftest() -> int:
     ok("H reads the reference from OPEN lane=real rows only (paper would-fire x45 must not bind)",
        paper_live_counts().get("TRY-FIRE-004") == 25)
 
+    # ---- CHECK I — inbox-at-closeout. Scope is the ONLY thing that can be wrong here
+    # (the check itself just lists files), so every exclusion gets a permanent case.
+    # A false positive on WILL/ or processed/ would train the reader to ignore the line,
+    # which is the only way an advisory guard dies.
+    import tempfile as _tf
+    _d = Path(_tf.mkdtemp())
+    (_d / "processed").mkdir()
+    (_d / "WALTER" / "processed").mkdir(parents=True)
+    (_d / "WILL").mkdir()
+    (_d / "open_top.md").write_text("x")                    # SHOULD fire
+    (_d / "WALTER" / "open_sub.md").write_text("x")          # SHOULD fire
+    (_d / "processed" / "done.md").write_text("x")           # must NOT
+    (_d / "WALTER" / "processed" / "done.md").write_text("x")  # must NOT
+    (_d / "WILL" / "raw_drop.md").write_text("x")            # must NOT — Will's own lane
+    (_d / "README.md").write_text("x")                       # must NOT
+    _save_inbox, _save_terry = INBOX, TERRY
+    try:
+        globals()["INBOX"], globals()["TERRY"] = _d, _d.parent
+        _got = {r.split("/")[-1] for r, _, _ in open_inbox_packets()}
+        _lab = [w for _, w, _ in open_inbox_packets()]
+    finally:
+        globals()["INBOX"], globals()["TERRY"] = _save_inbox, _save_terry
+    ok("I: fires on an open packet at top level AND in inbox/<AGENT>/",
+       _got == {"open_top.md", "open_sub.md"})
+    ok("I: NO FP on processed/ — at either level (this is the whole point of the lane)",
+       "done.md" not in _got)
+    ok("I: NO FP on inbox/WILL/ — Will's raw drop zone is not an agent packet lane",
+       "raw_drop.md" not in _got)
+    ok("I: NO FP on README.md", "README.md" not in _got)
+    ok("I: an uncommitted packet is labelled UNCOMMITTED, never given a fake age",
+       _lab and all(w == "UNCOMMITTED" for w in _lab))
+
     print(f"\n  {'SELFTEST PASS' if not fails else f'SELFTEST FAIL ({fails})'}")
     return 1 if fails else 0
 
@@ -1317,6 +1415,25 @@ def run_live(since: str) -> int:
     else:
         print("  ✓ every registry surface carries the live contract count"
               if refs else "  ✓ no open real paper rows — nothing to validate")
+
+    # ---- CHECK I — advisory only, DELIBERATELY NOT SUMMED INTO `total` (see docstring)
+    pk = open_inbox_packets()
+    print(f"\nI. INBOX AT CLOSEOUT (advisory — never blocks) — {len(pk)} undrained packet(s)")
+    if pk:
+        for rel, when, age in pk:
+            if age is None:
+                tag = f"{when} — a peer wrote it and has not committed; IN FLIGHT"
+            elif age == 0:
+                tag = f"added {when} (today) — likely landed AFTER the boot drain"
+            else:
+                tag = (f"added {when} ({age}d) — 🔴 SURVIVED {age} BOOT REPORT(S): "
+                       f"this is a DRAIN failure, not late mail")
+            print(f"  📬 {rel}\n       {tag}")
+        print("  → consume it, or state the disposition in the commit message. "
+              "⛔ Do NOT git mv to processed/ just to clear this line — an unread "
+              "packet filed as consumed is worse than one left visible.")
+    else:
+        print("  ✓ 0 undrained (inbox/ + inbox/<AGENT>/, excl. WILL drop zone)")
 
     total = len(a) + len(b) + len(c) + len(d) + len(e) + len(f) + len(g) + len(h)
     print(f"\n{'🔴 ' + str(total) + ' FINDING(S) — sweep before closeout' if total else '✅ CLEAN'}")
