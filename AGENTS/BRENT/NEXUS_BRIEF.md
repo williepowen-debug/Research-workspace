@@ -20,6 +20,8 @@
 >
 > **Owed:** TRADE.md mark refresh at 09:30 (may surface a mark-driven Will decision on the remaining 135C); Fri 8/28 dual grade (BRT-26 rigs + COT vintage #3 as-of 8/25 — DO NOT let stack).
 >
+> **🆕 LATE-SESSION UPDATES (11:12-11:2x ET):** (a) **Will HOLD ruling on 135C ×2 encoded** — *"the ride isn't over yet"*, SELL-ONE SUPERSEDED, thesis-conviction hold with concentration flag standing; (b) **PROME certification: BZV26 like-for-like 8/21→8/26 = −6.94% (NOT −8.5%)**, cross-roll ruled out for window, WALTER endpoint reconcile owed; (c) **Deep (b) equilibrium verdict: NOT converged**, ~55% probability temporary retracement to $90-95, ~30% probability equilibrium, ~15% continuation lower — Will agreed with the temporary-dip framing; (d) **TERRY construction ask delivered** — Will-directed refiner-name add (VLO/MPC) to express the distillate-crack strong leg the current sleeve is missing; construction stays TERRY's; nothing armed; (e) **L26 encoded** (pathspec-rename discipline); (f) **Ticker sweep clean** on registered specs (level-only =F rows are L23-compliant by design).
+>
 > **⛔ BOUNDARY BELOW.** The 8/21 SCOPED-PARTIAL annotation stands for what was 8/21 as of that closeout; NOTHING BELOW has been re-verified against the 8/26 framework impact this session. Read the 8/21 material as 8/21 vintage. The specific claims most exposed to 8/26 revision: the "corridor question... IS NOW CLOSED" phrasing (amended above), the position marks (refresh pending), the CROSS-DOMAIN routing tables (senders/receivers unchanged but their trigger-language references pre-8/26 tape).
 >
 > ---

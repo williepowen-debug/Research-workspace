@@ -36,6 +36,15 @@
 
 **⑨ Git commit + safe-push.** Path-scoped `AGENTS/BRENT/` + shared-log carve-out (`AGENTS/BRENT/inbox/processed/` moves + board_log + this SCRATCH + STATUS + NEXUS_BRIEF + CATALYSTS + the three outbound packets). Auto-push per closeout protocol.
 
+## 🆕 LATE-SESSION ADDITIONS *(11:12-11:2x ET, after the STATUS write)*
+
+- ✅ **Will's HOLD RULING on 135C ×2 encoded (PROME relay 11:12).** *"I want to wait. I do think this ride isn't over yet."* Fill status = CONFIRMED UNFILLED, SELL-ONE SUPERSEDED. Leg no longer carries fill-status question. Mark-tracking continues at ±$1.50/contract threshold vs 8/26 last-trade $5.70.
+- ✅ **PROME cross-roll certification packet delivered.** Certified BZV26 like-for-like 8/21→8/26 = **−$6.55 / −6.94%** (NOT −8.5%). Cross-roll ruled out for the window (BZ=F was Oct-basis through 8/26; roll happened overnight 8/26→8/27). WALTER endpoint discrepancy $86.36 vs my $87.84 = source issue, not roll issue — reconcile owed to WALTER.
+- ✅ **Ticker sweep (PROME-requested MIDAS-parallel):** 8 registered MKT-BZ-F-* / MKT-CL-F-* level rows all safe by explicit L23-compliant design; 1 DIESEL-CRACK spread row has ruled t-4 net-change basis — deeper look someday, not urgent. No re-registration needed.
+- ✅ **L26 encoded** (pathspec-rename discipline, C2-clean same-commit prose+index).
+- ✅ **TERRY refiner-construction ask delivered.** Will asked "should I buy more USO"; my answer: no on USO, yes on thesis, better via refiner name (VLO/MPC). Will: *"loop TERRY in on a VLO/MPC construction."* Packet at `AGENTS/TERRY/inbox/2026-08-27_from-BRENT_construction-ask-refiner-add-*.md` provides thesis fit, refiner-vs-XLE decoupling data (+14-17% 30d vs +5.4%), concentration constraints, timing/tenor/instrument menu. **Construction stays TERRY's; nothing armed.**
+- ✅ **Deep (b) equilibrium analysis delivered to Will.** Verdict: NOT converged on $88-90 as equilibrium. ~55% probability temporary dip (retracement to $90-95 within weeks), ~30% probability equilibrium holds, ~15% probability continuation to $82-85. Bias check: I'm long, my prior favors thesis; without the 8/27 curve-bounce data point my probabilities shift to 35/50/15 — still against equilibrium but weaker. Will agreed with the temporary-dip framing.
+
 ## NEXT SESSION (dated, future-verifiable)
 
 1. **🔴 FRI 8/28 DUAL GRADE:** BRT-26 Baker Hughes rigs (~13:00 ET; fires on RISE to ≥457; last 452 [8/21]) + COT vintage #3 as-of 8/25 (~15:30 ET). **DO NOT LET COT STACK past next Fri.** Grader is READY per 8/21 verification (rc=3 WAIT was healthy at 13:18 ET last Fri). BH primary path repaired 8/21 (browser UA fix), instrument check clean this boot.
