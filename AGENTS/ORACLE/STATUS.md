@@ -1,7 +1,7 @@
 # ORACLE STATUS
 
 **Live dashboard — prediction-market probabilities, divergences, alerts.**
-**Last pull:** 2026-08-27T18:38Z (Polymarket 43 rows + Kalshi 14 rows, both `pull --log`). **Box:** desktop (PROME-confirmed 8/27, hostname DESKTOP-BC6EF81); Kalshi signed lane **LIVE**.
+**Last pull:** 2026-08-27T22:06Z (Polymarket 44 rows + Kalshi 14 rows, both `pull --log`) — **evening re-read after a tool-verification pass**; 18:38Z figures superseded where marked ⟳. **Box:** desktop (PROME-confirmed 8/27, hostname DESKTOP-BC6EF81); Kalshi signed lane **LIVE**.
 **Session:** 2026-08-27 catch-up boot after **9 dark days (8/19–8/26)**.
 
 > **Prices here are a LOG, not a live quote.** Never cite this file as the current price — re-pull. Every figure carries platform/date/volume; thin (<$5K liq) is flagged ⚠️ and is never marked on one print.
@@ -12,7 +12,7 @@
 
 **1. T6 pin — COMMITTED, ZERO GAPS, and the graded 8/21 reference is the CLOSE 0.32, not the intraday 0.35.**
 Registered test, co-owned LIQUID/BOND, **last gradeable session Fri 2026-08-28** (Will Option C).
-- **NOT FIRED on either leg.** Level 32.0% vs `<25%` trigger = **+7.0pp from the line**. 5-session leg 0.32 vs 8/20 close 0.29 = **NOT BELOW**.
+- **NOT FIRED on either leg.** ⟳ Level **31.0%** vs `<25%` trigger = **+6.0pp from the line** (drifted from 32.0% at 18:38Z — the provisional cell moved 1.0pp within four hours of my publishing it, which is exactly what the LIVE-INTRADAY flag is for). 5-session leg 31 vs 8/20 close 29 = **NOT BELOW** (+2.0pp). **The 8/28 reference day is unchanged: 8/21 close 0.32.** BOND notified.
 - Ledger `workbook/T6_PIN.tsv`, **zero marked gaps** — the 9 dark days were recovered as **real exchange data** (Kalshi daily candlesticks), not marked as gaps.
 - ⚠️ **PROME's day-1 provisional $0.35 (8/21 11:14:58 EDT) is the day's INTRADAY HIGH** — 8/21 opened 0.29, peaked 0.35 in the 11:00–12:00 hour, **closed 0.32**. Ruled the daily **close** pin-canonical on N5 clause **(i-b)**. **At an unchanged 0.32 the two candidate references give OPPOSITE leg-2 verdicts on the 8/28 path** — 0.35 fires, 0.32 does not. The ruling makes T6 *harder* to fire; disclosed as running against the more eventful outcome.
 - **Fallback if ORACLE is dark 8/28:** `python3 tools/t6_pin.py --write` regenerates the window and re-grades both legs off the Kalshi creds alone, marking its own gaps. Any desk can run it. → BOND, LIQUID, PROME · KB-ORC-070 · VX-ORC-10
@@ -34,12 +34,12 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 | Market | Plat | Now | Δ1d | Δ7d | Vol | Note |
 |---|---|---|---|---|---|---|
 | Fed: HIKE at Sept mtg (specific) | PM | **30.5%** | −4.0 | +3.0 | $10.7M | T6's fallback platform |
-| Fed hike at Sept mtg (>3.75%) | Kalshi | **32.0%** | −1.0 | — | 391.0K ct | **T6 canonical** |
+| Fed hike at Sept mtg (>3.75%) | Kalshi | ⟳ **31.0%** | −2.0 | — | 391.2K ct | **T6 canonical** · tight 1¢ book, mid 30.5 |
 | Fed: HIKE in 2026 (aggregate) | PM | 57.5% | — | **+8.0** | $8.0M | **+9.0pp off the 48.5% low (8/18)** — *not* the 54.5% 8/12 figure this cell first named |
 | Fed: HIKE by Oct (cumulative) | PM | 44.5% | — | +4.0 | $504.6K | |
 | Fed: NO cuts 2026 | PM | 87.9% | +0.6 | +1.5 | $7.6M | |
 | US recession 2026 | PM | 8.5% | — | +1.0 | $1.7M | crowd calm |
-| Recession 2026 (NBER) | Kalshi | 7.0% | — | — | 3.4M ct | 1.5pp from PM |
+| Recession 2026 (NBER) | Kalshi | ⟳ 6.0% | −1.0 | — | 3.4M ct | 2.5pp from PM |
 | August CPI print (modal) | PM | 48.0% | +0.5 | **+7.0** | $13.4K | ★ rolled today; prints ~9/11 |
 | US inflation >5% 2026 | PM | 8.0% | +1.5 | — | $313.6K | |
 | US credit rating downgrade 2026 | Kalshi | 12.0% | — | — | 74.7K ct | was 14.0% 8/12 |
@@ -60,10 +60,10 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 | Clarity Act signed 2026 | PM | 14.5% | — | **−11.0** | $11.2M | **only deep live >10pp mover** → BROCK |
 | Russia-Ukraine ceasefire by Dec 31 | PM | 20.5% | −3.0 | −2.5 | $2.2M | |
 | BOJ September decision (top) | PM | 87.5% | +1.5 | +3.0 | $122.1K | |
-| BOJ September decision | Kalshi | 85.0% | −1.0 | — | 42.0K ct | 2.5pp from PM |
+| BOJ September decision | Kalshi | ⟳ 92.0% *last* / **89.5 mid** | +6.0 | — | 42.4K ct | ⚠️ **cite the MID** — 87/92 book, last sits AT the ask on 797 ct/24h. On the mid basis the move is **+3.5pp**, not +6.0 → SAM, BOND |
 | AI bubble burst 2026 | PM | 11.5% | −1.5 | −1.9 | $2.3M | fading → BROCK |
 | China invade Taiwan before 2027 | PM | 4.0% | −0.4 | +0.1 | $40.4M | |
-| Corporate bankruptcies 2026 >750 | Kalshi | 83.0% | — | — | 6.2K ct | |
+| Corporate bankruptcies 2026 >750 | Kalshi | 83.0% *last* / **86.5 mid** | — | — | 6.2K ct | ⚠️ 7¢ book — **understated 3.5pp** on the last-trade basis this dashboard used until today |
 
 ### Tier 3 — sentiment
 | Market | Plat | Now | Δ1d | Δ7d | Note |
@@ -81,7 +81,7 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 
 | Axis | Crowd says | Our thesis | Gap | State |
 |---|---|---|---|---|
-| Fed path (Sept hike) | 30.5% PM / 32.0% Kalshi | T6 tests `<25%` | +7.0pp above trigger | 🟢 not fired |
+| Fed path (Sept hike) | 30.5% PM / ⟳ 31.0% Kalshi | T6 tests `<25%` | +6.0pp above trigger | 🟢 not fired |
 | Recession 2026 | 8.5% PM / 7.0% Kalshi | RED still owed a current number | unmeasured since 6/13 | ⚪ stale ask |
 | Bank failure / bailout | bailout 8.0%, named-EOY 3.9% | REGINALD regional stress | crowd calm, books thin | 🟢 |
 | Hormuz / oil supply | 67.5% disruption, 22.5% WTI-$100 | premium ≠ shortage | spread wide (+45.0) | 🟡 premium regime intact |
@@ -96,6 +96,8 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 - ⚠️ **New supply leg is THIN at inception** ($1.2K vol vs the August leg's $706.5K). The spread's supply leg is now single-print-unreliable — flagged, not silently carried.
 - ⚠️ **Do NOT replace the 0-ships market** on its false `⛔RESOLVED` (Alert 3).
 - **Coverage sweep RUN today** (was 20d overdue) — 9 hits, **no new macro themes to nominate**; clock reset, next due ~2026-09-03. Minor: sports slugs (`lal-bar-bil-*`) leaked past the ex-sports filter.
+- ⚠️ **NEW (evening tool pass): `kalshi.py` reported the LAST trade with no mid disclosure** — on a wide book a single lift of the offer prints at the ask and becomes the headline. KB-ORC-069 already ruled *cite the MID, never the last* for these ladders; **the rule lived in a KB row while every dashboard line contradicted it.** Fixed — a `⚠mid X` marker fires when the spread is ≥3¢ and last diverges ≥1pp. **Display-only; the logged series keeps its last-trade basis** (a mid/last basis switch mid-series would be its own defect). Two live hits: BOJ and corporate-bankruptcies.
+- **HISTORY.tsv refreshed** (was 15d stale, data stopped 8/12) — now 7,117 daily rows / 44 markets. ⚠️ Still **invisible to `ledger_staleness`**, which counts it inside "8 ledgers scanned" and prints no row for it — flagged to PROME, not my tool.
 - **Kalshi watchlist carries 9 `[finalized]` dead rows** (July CPI ×3, July U3 ×2, Fed-July ×2, Brent-Jul, Iran-crude) pulling as dead weight every session — **roll or freeze next session.**
 - Several **past-dated Iran-shipping legs sit unresolved** (8/17 52.4%, 8/24 37.5%, 8/25 32.0%) — awaiting resolution, **not live probabilities**; do not read as signal.
 
