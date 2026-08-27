@@ -151,6 +151,37 @@ class GateCBoundaryTests(unittest.TestCase):
         self.assertEqual(len(results), 1)
         self.assertEqual(results[0].relative_to(self.repo.path).as_posix(), f"KERNEL/shadow/events/2026/08/{EVENT_ID}.json")
 
+    def test_active_substitute_window_blocks_primary_before_synthetic_write(self):
+        loaded = self.boundary.load_inventory(self.inventory, self.submission_commit)
+        event_ids = Path(self.temporary.name) / "event_ids-custody.json"
+        event_ids.write_text(json.dumps({self.question["command_id"]: EVENT_ID}), encoding="utf-8")
+        activation_path = Path(self.temporary.name) / "activation.json"
+        activation_path.write_text(json.dumps({
+            "schema_version": "kernel.custody.1",
+            "policy_version": "kernel.policy.1",
+            "activation_id": "CUSTODY-SYNTHETIC-BOUNDARY",
+            "authorized_by": "WILL",
+            "substitute_writer_id": "RED",
+            "window_start": "2026-08-26T11:00:00.000000Z",
+            "window_end": "2026-08-26T13:00:00.000000Z",
+            "command_ids": [self.question["command_id"]],
+            "revoked_at": None,
+        }), encoding="utf-8")
+        run, _ = run_synthetic(
+            self.boundary,
+            loaded,
+            actors=ROOT / "tests/fixtures/permissions/actors.json",
+            capabilities=ROOT / "tests/fixtures/permissions/capability-grants.json",
+            event_ids=event_ids,
+            custody_policy=ROOT / "policies/custody-policy.json",
+            custody_activation=activation_path,
+            recorded_at=RECORDED_AT,
+            dry_run=False,
+        )
+        self.assertEqual(run.status, "EXCEPTION")
+        self.assertFalse(list((self.repo.path / "KERNEL").glob("shadow/events/**/*.json")))
+        self.assertFalse(list((self.repo.path / "KERNEL").glob("audit/commands/**/*.json")))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -131,6 +131,7 @@ python3 KERNEL/tools/gate_c_boundary.py \
   --capabilities <synthetic-capability-registry.json> \
   --event-ids <synthetic-command-event-map.json> \
   --custody-policy KERNEL/policies/custody-policy.json \
+  [--custody-activation <explicit-bounded-activation.json>] \
   --recorded-at 2026-08-26T12:00:00.000000Z \
   --dry-run
 

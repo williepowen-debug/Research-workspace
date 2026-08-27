@@ -109,12 +109,18 @@ def run_synthetic(
     capabilities: Path,
     event_ids: Path,
     custody_policy: Path,
+    custody_activation: Path | None = None,
     recorded_at: str,
     dry_run: bool,
 ) -> tuple[AcceptanceRun, Path]:
     registry = PermissionRegistry.from_files(actors, capabilities)
     custody_document = json.loads(custody_policy.read_text(encoding="utf-8"))
-    custody = load_custody(custody_document)
+    activation_document = (
+        json.loads(custody_activation.read_text(encoding="utf-8"))
+        if custody_activation is not None
+        else None
+    )
+    custody = load_custody(custody_document, activation_document)
     mapping = json.loads(event_ids.read_text(encoding="utf-8"))
     if not isinstance(mapping, dict):
         raise GateCBoundaryError("event ID map must be an object")
@@ -163,6 +169,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--capabilities", type=Path, required=True)
     parser.add_argument("--event-ids", type=Path, required=True)
     parser.add_argument("--custody-policy", type=Path, required=True)
+    parser.add_argument("--custody-activation", type=Path)
     parser.add_argument("--recorded-at", required=True)
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true")
@@ -178,6 +185,7 @@ def main(argv: list[str] | None = None) -> int:
             capabilities=args.capabilities,
             event_ids=args.event_ids,
             custody_policy=args.custody_policy,
+            custody_activation=args.custody_activation,
             recorded_at=args.recorded_at,
             dry_run=args.dry_run,
         )
