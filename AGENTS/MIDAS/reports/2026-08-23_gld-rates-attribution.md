@@ -1,5 +1,8 @@
 # MIDAS — THE 8/19 GOLD SESSION: RATES ATTRIBUTION WRITE-UP
 
+> ⛔ **SUPERSEDED AGAIN 2026-08-27 (fourth re-base): every "85–92%" below is retired — the COMPUTED univariate band is 87.7–91.1%** (BOND six-cell run KB-BND-185; **independently reproduced here at 87.6–91.1%, agreeing to 0.1pp**). **87–93% had an unsupported TOP; 85–92% an unsupported BOTTOM.** Preserved as the record of what was believed — **do not cite as state.** Verdict untouched: rates-ASSISTED. → KB-068, L-35.
+
+
 > ⛔ **RETRACTION THAT TRAVELS DOWNWARD (2026-08-27) — every "87–93%" below is SUPERSEDED and preserved as the record of what I believed.** The correct univariate band is **85–92%**; currency-stripped stays **90–93%**. **87–93% was itself a FUSION of the two** and reproduced from no table in BOND's file [KB-BND-184, `35d8189c5`]. **Do NOT cite the lines below as state.** The reasoning in them — name the construction, never cross-attribute — **stands and is the reason this was catchable.** → KB-066, L-33.
 
 
