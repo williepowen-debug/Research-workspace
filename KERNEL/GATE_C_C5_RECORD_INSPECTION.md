@@ -4,7 +4,7 @@
 
 **Authorization:** Will authorized bounded read-only C5 inspection.
 
-**Status:** CANDIDATE SELECTED — OPERATOR APPROVAL AND NATIVE COMPANION REQUIRED
+**Status:** COMPLETE — SAM-33 APPROVED — EXACT NATIVE PREFLIGHT PASS
 
 ## Inspection perimeter
 
@@ -84,7 +84,32 @@ invent or fill SAM's missing research terms.
 
 ## Operator decision
 
-Approve **SAM-33** as the C5 pilot record and authorize preparation of a bounded
-SAM-owned native companion. This approval would not accept a command, activate
-the carve-out, or start live shadow operation. The companion must return for exact
-read-only preflight before C5 can close.
+Will approved **SAM-33** and authorized its bounded SAM-owned native companion on
+2026-08-26. SAM authored
+`AGENTS/SAM/thesis/SAM-33_KERNEL_NATIVE_COMPANION.json` without changing the
+forecast thesis. Independent validation caught and corrected a timestamp-format
+defect before commit.
+
+The companion landed at:
+
+```text
+source_commit: 1d9400425f7415083a9ffbd10964670bf255abf2
+whole_companion_sha256: ab89626fd423659278ca5a1042243b38b9d078884b19b5bc1e5bcce12e23a5f3
+JSON_POINTER /question sha256: 48d68e4b67a83b2045a492802fa69d1ea746a0d9f21f497d2e04571e9a7430f7
+JSON_POINTER /forecast sha256: 18ec726740cb4a8326134a2e00aaed584e5b7606a169e9b21ddbb3f04e69d555
+TSV Pred_ID=SAM-33 sha256: 3c306e845447193698076d12e45325bb118b12d7d7fab2b972589f08705a0fbe
+```
+
+Representative `RegisterQuestion` and `SubmitForecast` envelopes passed the
+strict command validator and exact native-reference verifier using the committed
+TSV row plus the corresponding companion JSON Pointer. No command was saved or
+accepted, no result was written, and the carve-out remains inactive.
+
+## C5 disposition
+
+- Exact native record: **SAM-33 APPROVED**.
+- Native companion: **COMMITTED / SAM-OWNED**.
+- Strict command-shape preflight: **PASS**.
+- Exact native-reference and material-term preflight: **PASS**.
+- C5: **COMPLETE**.
+- C6 rehearsal and C7 activation: **NOT AUTHORIZED**.

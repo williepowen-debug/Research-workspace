@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will authorized bounded read-only C5 inspection on 2026-08-26. SAM-33 is the recommended exact native row, but material terms require a SAM-owned committed companion before C5 can pass; no live processing is authorized.
+**Latest operator ruling:** Will approved SAM-33 and its bounded SAM-owned native companion on 2026-08-26, closing C5 after strict command and exact committed native-reference preflight passed. No command or result exists; C6 and live activation remain unauthorized.
 
 **Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
@@ -145,10 +145,10 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — C5 record and companion ruling
+## Next action — await C6 rehearsal authorization
 
-**Will approves or rejects SAM-33 and decides whether SAM may prepare the bounded
-native companion. Recommendation: approve.**
+**C5 is complete. Do not construct durable commands or begin the disposable
+C6 rehearsal without a separate Will ruling.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
@@ -185,7 +185,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
 | Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
-| Gate C — live shadow activation | C1–C4 COMPLETE / C5 CANDIDATE / NOT ACTIVE | SAM-33 inspected read-only and recommended; operator approval and native companion required before C5 closes |
+| Gate C — live shadow activation | C1–C5 COMPLETE / NOT ACTIVE | SAM-33 and its exact companion pass read-only preflight; C6 rehearsal and C7 activation remain separately gated |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record
