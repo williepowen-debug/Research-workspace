@@ -25,6 +25,10 @@ Fleet validation fires at BIRTH (pre-registration, frozen letters, adversarial p
 - Anti-overbuild guard: no gate on retractions, no new tooling mandated. The known instrumentable heuristic is weak (grep RETRACTION-titled packets for new numeric claims) — treat as optional.
 - Health metric worth naming in the sweep's write-up: **error half-life vs consumption latency.** Today every wrong number died <1h and nothing consumed one. The conventions above defend that ratio; they do not chase a zero error rate.
 
+## ADDENDUM (~16:0x, BOND dark at its closeout — pointer added here so its find reaches the sweep)
+
+**Companion axis from BOND's kill-scope encode (`fc3f08538`, canonical at `AGENTS/BOND/outbox/2026-08-27_to-PROME_kill-scope-ENCODED-plus-three-uses-the-ruling-does-not-reach.md`): a ruled DEFINITION's blast radius is every surface reusing the phrase, and those surfaces carry DIFFERENT authorities.** BOND grepped the term across its desk rather than editing the one surface the packet named, and found three live uses the ruling doesn't reach — a score, a position-ADD authorization (now WILL_QUEUE row 99), a cross-agent routing signal — extending NONE. Its method is the transferable part: **enumerate by grep, then ask of each use what it AUTHORISES, not what it says.** Sibling of `finding_a_ruling_governs_the_next_write_not_the_existing_state` (the stock behind a new rule) — this is the same stock problem for DEFINITIONS, with the extra twist that each stock item carries its own authority class.
+
 ## ASK
 
-Take it as one design question with four instances; your proposal returns to Will. No reply owed to PROME.
+Take it as one design question with four instances (+ the BOND definition-blast-radius companion); your proposal returns to Will. No reply owed to PROME.
