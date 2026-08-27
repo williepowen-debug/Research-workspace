@@ -32,6 +32,8 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 **Untouched:** the kill's other legs (BTC <2.3, SOFR−IORB positive), every frozen pre-registration (`BND-18/19/20` grade on their own frozen letters), the composite, and every score.
 
+**Late same-day addendum (no version bump — a caveat attached to existing evidence, no thesis change, no threshold moved).** Channel 4's evidence cell carried daily Kim-Wright term premium as *"~83% of the 10Y move"* with no denominator. Recomputed across four windows at the FRED primary (`KB-BND-204`): the share is a ratio over a **3bp** 10Y move, and the same statistic returns **337%** on 7/13→8/25 (10Y +2.0bp) and **220%** on June (10Y −3.0bp) — noise wearing a percentage sign. ⇒ **The cell now carries KW-TP in bp (+2.5bp) with the share demoted and the denominator stated.** The substantive claim is unchanged: 7/13→8/07 is a long-end-led bear steepener (2Y −7bp, 30Y +9bp), which is the term-premium signature on this desk's own falsifier, and `C-36` remains Will-ruled **CONTESTED ~50%**. ⚠️ **Recorded because the rule was issued to RED first and applied here second** — a caveat sent outward and not encoded inward is the asymmetry this desk logs.
+
 ---
 
 ## v1.1.8 — 2026-08-27 (the Will-ruled MATRIX_V2 adoption is EXECUTED; the 8/25–27 cluster graded)

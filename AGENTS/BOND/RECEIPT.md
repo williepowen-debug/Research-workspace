@@ -46,3 +46,23 @@
 
 ## Git
 Committed path-scoped to `AGENTS/BOND/`; auto-push via `scripts/safe-push.sh`.
+
+---
+
+## Later in the session (after the first closeout)
+
+**① Will-instructed `docket_check` patch → v2** — see the block above.
+
+**② Will asked me to verify the session's claims rather than trust the report. It found two real defects no automated check could see:**
+- 🔴 **The selftest printed "18 assertions" while running 17** — a hand-incremented count, never computed, propagated into the tool's own output, `CLAUDE.md` ×2, `RECEIPT`, `KB-BND-203` and a commit message. **A guard built to stop "a verdict stronger than the measurement" was asserting an uncomputed count about itself.** Fixed at the root: both numbers are now COMPUTED (`len(ran)`, `inspect.getsource`). `closeout_check` 3/3, `kb_lint`, `claim_check` and the selftest all passed clean over it.
+- 🔴 **SCRATCH bullet 7 contradicted itself** — carried "UNRULED and not patched" *and* "TOOL PATCHED" in one bullet. Removed.
+- *(Two of my own audit checks also failed and both were bad tests — a case-sensitive grep and a grep matching a deliberately-retained historical quote.)*
+
+**③ RED — `KB-RED-053` answered, `KB-BND-204`.** Four windows recomputed at the FRED primary. Verdict **DATED-BUT-WAS-RIGHT-THEN → SUPERSEDED-BY-REGIME, not corrected** (June: 2Y +9.0 / 30Y −8.0 / shape −5.0 FLATTENER / KW-TP −6.6bp — RED's read confirmed on all three legs). 🔴 **RED's premise was INVERTED: they cited my 86%-real-yield figure as supporting a term-premium read when it is my evidence against one** (`real ≠ term premium`; it is why channel 4 was relabelled policy-path-led). Signature flipped ~7/13. **Loop CONTENT-verified at their artifact** (`4a5f2d6ec`): status, figures and all three travel rules landed, F2/9-9 encoded in their `Stale_By` so my routing obligation is visible on their surface. Packet → `outbox/delivered/`.
+- ⚠️ **Against me: my verification reported TWO FALSE ABSENCES** — first scanning 2 of 13 fields, then grepping my own phrasing rather than the substance. Had I stopped at either I'd have sent a peer a correction claiming they dropped a caveat they had encoded.
+
+**④ Inward application of my own rule (final act).** `STATUS.md` and `thesis/THESIS.md` both carried KW-TP *"~83% of the 10Y move"* with no denominator, while I was telling RED to carry bp-not-share. **Denominator attached on both: the 83% is a ratio over a 3bp move, and the same statistic returns 337% / 220% on the other windows.** A caveat sent outward and not encoded inward is the asymmetry this desk logs.
+
+## Final state
+Tree clean · 0/0 with origin · `closeout_check` 3/3 rc=0 · `kb_lint` rc=0 · `docket_check --selftest` rc=0 · `claim_check` clean · `memory_index_check --slug` rc=0.
+**Position UNCHANGED all day: TLT puts HOLD, no add. Composite 12/35 — ninth consecutive unchanged scoring session. Book untouched. $0.**
