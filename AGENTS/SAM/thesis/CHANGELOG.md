@@ -8,6 +8,29 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-08-27 — ⚰️ **v2.0 CANDIDATE KILLED after RED's blind pass + the sealed cross-read · ✅ SAM-41 RESOLVED CONFIRMED.** **NO version change — THESIS v1.7 stands, no successor frame declared, book FLAT, $0 at risk.**
+
+**① THE v2.0 CANDIDATE IS DEAD, TWICE OVER.** `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` banner-killed (do-not-cite; audit record only).
+- **K1 had already fired 2026-08-20** against a kill line the candidate itself pre-registered **as a number before the data existed** (§5: *"$300–500B INVERTS it"*; BIS `WS_GLI` 2026-Q1 measured **$414.9B**). §2 dead as written, **not rescued.**
+- **RED's BLIND pass (CHG-RED-048) kills it four further ways:** §3 is an accounting identity that is *either false or Pillar 1 restated* · §4 discriminates **0 of 7** · the §6 killer set is keyed to an instrument seeing **~3.5%** of its object ⇒ *"the killer would sit green while the thesis died"* · the §6 registered prediction **resolves TRUE under both live hypotheses.**
+- **Unseal Will-authorized; protocol order held** (RED read in FULL first, seal opened second, mapping third; seal untouched 8/20→8/27, RED attests blind). **Cross-read → `thesis/V20_CROSSREAD_2026-08-27.md`.**
+- **The split, scored conservatively AGAINST me:** my list **6 items, 4 overlap ⇒ no evidential weight**; **RED found ~7 I did not**, including both operationally dangerous ones and the only constructive instrument.
+- 🔑 **OLD VIEW → NEW VIEW on my own review process:** *"a self-attack list is an adequate substitute for adversarial review"* → **FALSE, and categorically so. All six of my items question whether the THESIS is true; NOT ONE asks whether the INSTRUMENTS could detect that it wasn't. A self-attack list defends the ARGUMENT and is structurally blind to the APPARATUS.** Promoted to fleet memory as an extension of `finding_test_the_guard_not_just_the_guarded` (n=7→8).
+- **SALVAGE (4):** §7's retirements (permanent) · the CFTC **volatility-instrument relabel** (doctrine, bilateral via CH-017) · **K3** as a standing falsifier on MOF weekly · the sizing/basis instruments.
+
+**② ✅ SAM-41 RESOLVED CONFIRMED (5Y leg, five consecutive closes below 2.25%, 2026-08-13→08-19).** Scoreboard **14/14/1/5-open → 15 CONFIRMED / 14 FAILED / 1 special / 4 OPEN**, reconciled across all four surfaces in one pass.
+- 🔴 **I withheld the grade first and was WRONG.** I argued the −4 to −6bp margins sat "inside the noise" of a 2.9bp/day gap. **That CONFLATED VOLATILITY WITH MEASUREMENT ERROR** — both legs are official published closes, the difference is exact, **there was never an error bar to be inside of.** Caught when Will challenged the reasoning.
+- ✅ **Robustness test run on challenge: under the stricter no-lookahead alignment the run is LONGER (7 days, 8/13→8/21)**, all five original days clearing under both alignments.
+- **CALIBRATION, against me in the unusual direction:** 40% registered 8/07 → TRUE in 12 days; against the sample (5Y below bar 55% of 97 obs) that reads **UNDER-confident**, the opposite of the SAM-08/20/40 over-confidence cluster.
+- ⛔ **Does NOT promote v1.8** — necessary-but-not-sufficient under CH-017; a separately-registered FX co-condition, RED pass and Will sign-off still required.
+- 🔑 **OLD VIEW → NEW VIEW:** *"withholding a grade is the conservative act"* → **FALSE. Refusing to grade produces nothing, is never audited, biases the calibration record silently, and reads as rigour while doing it.** Promoted as a mirror instance on `finding_effect_below_instrument_detection_floor`.
+
+**③ THREE INSTRUMENTS, and three defects found in a fourth.** Built + boot-wired `rate_differential.py` (SAM-41) and `xccy_basis.py` (RED's constructive item — a **PROXY**, not the basis; every substitution named). `mof_flows.py` had **three** defects, two found by the guard written for the first: the alert was keyed to a 4-week rolling while the registered threshold is keyed to the **WEEK** (**n=3; 10.7% of all trips invisible**) · the script had been parsing **half the MOF series** its entire life (inward leg never read) · **MOF revises the series and the TSV silently froze first prints** (14/1,129 rows; **materiality tested — every conclusion held identically**).
+
+**④ NO THESIS CHANGE.** v1.7 stands. No channel moved, no threshold re-marked, no band edited, no successor frame declared. **The successor question re-opens as v1.8's question, with CH-017's FX co-condition intact.**
+
+---
+
 ## 2026-08-20 — 🕯️ **v2.0 CANDIDATE OPENED (Will-directed) AND ITS OWN PRE-REGISTERED KILLER FIRED THE SAME DAY.** **NO version change — THESIS v1.7 stands, book FLAT, $0 at risk. Nothing was ever built on the candidate.**
 
 **WHAT CHANGED:** after seven weeks of deliberately refusing to name a successor, Will directed the build. `thesis/V20_CANDIDATE_FLOW_SETS_LEVEL.md` opened — **"flow sets the LEVEL, positioning sets the VOLATILITY."** **Old view:** the record speculative short was "fuel" that would deliver yen strength when a trigger fired (v1.6, dead 8/7). **Candidate view:** I was reading a **volatility** instrument as a **level** instrument — same series, wrong dependent variable.
