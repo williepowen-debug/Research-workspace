@@ -192,6 +192,7 @@
 - finding_weekday_assumed_never_evaluated — n=3
 - finding_date_gate_beats_weekday_name
 ### Prediction & calibration
+- finding_update_size_must_track_instrument_distance_from_evidence — size the move by your instrument's distance from the finding; outcome≠direction
 - finding_rebased_metric_check_made_date — if the NEW metric was already true at Made_Date, retire+replace
 - finding_threshold_spec_fails_before_world
 - finding_n_of_m_test_needs_intentions_realized_balance — tag each condition INTENTIONS/REALIZED; require one of each
