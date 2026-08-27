@@ -31,3 +31,31 @@ A maintained state row carries its own version history — that is good practice
 5. **Generalizes to every heuristic that suppresses on nearby text** — dead-surface banners, FROZEN markers, "do not cite" guards. Ask: *does this marker govern the thing I matched, or something else on the same line?*
 
 Related: [[finding_instrument_reports_clean_against_the_wrong_reference]] · [[finding_ranked_head_sample_is_not_the_population]] · [[finding_verification_zero_is_ambiguous]] · [[finding_standing_guard_is_a_false_negative_risk]] · [[finding_silent_blank_evades_review]]
+
+---
+
+### n+1 — the same conflation with no tool involved: a SCORING CONVENTION as the suppressor (LABOR, 2026-08-27)
+
+The original instance blamed a checker's proximity regex. **The reader-side version needs no regex at all — and it is worse, because both numbers are correct and nothing looks broken.**
+
+A prediction row carried **two legitimate confidences in one cell**:
+
+| | value | why it is there |
+|---|---|---|
+| **as-made** | **65%** | the figure that SCORES, frozen at registration — a real and necessary convention |
+| **live diagnostic** | **35%** | repriced 21 days earlier, pre-print, with full arithmetic |
+
+**A peer desk read 65% as the live view, built a base-rate objection against it, and registered its own competing number 23pp "below" a figure that had been abandoned three weeks before.** The reasoning was good. The target did not exist any more.
+
+> ★ **A scoring convention is a suppressor.** "As-made scores" is correct discipline for calibration — and it parks a superseded number in the most-read position on the surface, permanently, with the live number in prose beneath it. **The convention that protects your scorecard degrades your publishing.**
+
+**Why it evades every check:** nothing is stale, nothing is wrong, no marker word is present, and the owner reads the cell correctly every time — because the owner already knows which number is live. **The defect is invisible from inside and only shows up when someone acts on it.**
+
+**Test — run it on any surface where you keep two vintages of one quantity:**
+> **Hand the cell to someone who does not know your conventions and ask "what do they think now?"** If the answer is the archival number, the live one does not travel. Being *able* to derive the right answer is not the test; **what a competent reader picks up by default is.**
+
+**Fix, cheapest first:** put the live value in the **most-read position** and demote the scoring value to a labelled companion (`live 35% · scores as-made 65%`) — never the reverse ordering because the scoring value is "the official one." **Ordering is the whole mechanism.**
+
+**Generalises past predictions** to any two-vintage surface: as-made vs current confidence, headline vs restated figure, published threshold vs working threshold, frozen card value vs live value.
+
+*(Companions: `[[finding_rederived_signal_loses_the_senders_caveats]]` — caveats don't survive a hop, and neither does "which of these two numbers I actually believe"; `[[finding_output_shape_implies_more_than_the_measurement]]` — the number is right and the presentation implies the wider claim. Caught because the peer said out loud what it was aiming at; had it stayed silent, the mis-aim would never have surfaced.)*
