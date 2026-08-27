@@ -5,7 +5,8 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 3910a82c-cab1-4d19-8a69-0db5ab73d1cc
-  modified: 2026-07-26T00:39:08.358Z
+  modified: 2026-08-27T17:33:28.515Z
+symptoms: "pushed above $100 but the tape says lower; after-hours print quoted as the outcome; suite was green at review time but fails now; figure labeled with an old vintage still quoted as current; claim cited from before the event it describes"
 ---
 
 **A search-result summary will happily attach a stale level to a fresh event.** The level is real; the pairing is the error.
@@ -47,3 +48,13 @@ Carvana reported Q2 after the close on 2026-07-29. The figure that reached me, a
 5. **Never grade a market reaction off an after-hours or pre-market print.** Wait for a **close**. If you must report intraday, report *both* the extreme and the last print, and label which is which.
 6. **State the basis explicitly** — close-to-close, intraday trough, or AH quote. "−16 to −20%" carried no basis, which is why it travelled so far unchallenged.
 7. **Apply this hardest when the number confirms you.** Same asymmetry as [[finding_asymmetric_rigor_counterparty_claims]]: verify the figure that lets you keep your view with the rigour you would give one that overturns it.
+
+---
+
+**Non-market form: a VERIFICATION RESULT relayed across the event that invalidates it.** *(Appended by RED 2026-08-27, C8 review of the first live Gate C pilot.)*
+
+The pilot's closeout packet stated *"test suite untouched — 212 green at packet v2; no code changed during the sitting."* Honestly labeled, code-true — **and the suite was already red when the packet was cut.** The sitting's own first durable write (SAM's submission commit, 16:30Z) put real files at a path a test fixture assumed empty (it clones the live repo and writes with exclusive-create), so the suite went 211/212 **mid-sitting, permanently**. Nobody re-ran it post-sitting; the reviewer's re-run found it.
+
+**The generalization: a first live execution moves the very state the pre-execution verification measured.** "It was green before we ran" is a level that predates the event *by construction* whenever the event writes to a surface the verifier reads. The vintage label ("at packet v2") is discipline #6's basis-statement done right — and it still isn't a shield: a closeout claim about a suite is due a post-event re-run, not a labeled pre-event quote.
+
+**Discipline 8: after any first-of-its-kind execution, re-run the checks that were green before it — the event is precisely what changes their inputs.** Pairs with [[finding_dated_stamp_is_a_trigger_not_a_shield]].

@@ -22,6 +22,24 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S36 (2026-08-27, boot 13:21 ET / close ~13:4x ET — stamps from `date`, the S35 lesson) — WILL-WORDED AT BOOT: C8 POST-CLOSEOUT REVIEW. DELIVERED TO WILL: CONTINUE, SIX CONDITIONS. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
+
+**The review** (`reports/2026-08-27_KERNEL_GATE_C_C8_REVIEW.md`, OUTBOX-025, ML-192): every re-derivable claim in PROME's C8 packet re-derived and HELD — `check-views` + `additions-only` re-run independently (PASS, extended to current HEAD), six pins byte-exact ×3 surfaces, timeline graph-exact, D1–D5 concurred. **Judgments given:** D3 → re-word step 6, no comparator code on `write_views` (C7 Finding-1 recurrence class); D5 → drop hold-local from steps 1/7/9, no freeze/branch. **Six NEW findings (N1–N6), sharpest: N4 the pilot permanently broke its own test suite (211/212 since 16:30:23Z — fixture clones the live repo, exclusive-create collides with the now-real submissions; the packet's "212 green" was pre-sitting vintage) · N1 committed views = the pre-ruling diagnostic apply's output, stop-condition evidence overwritten · N3 the activation was STILL VALID during the review (revoked_at null; three surfaces incl. MY OWN S35 board_log row called it "expired" ~70 min early — dated-carry, logged against RED).** Verdict-changers stated in the report §1; none found. Disclosure made: RED = `independent_verifier_actor_id` in Q-…033 (resolution-time, post-1/1/27 — a standing forward obligation of this desk).
+
+**Memory:** `finding_relayed_level_predates_the_event` EXTENDED (non-market form: a verification result cited across the event that invalidates it; discipline 8 = re-run green checks after any first-of-kind execution) + `symptoms:` line added per Batch A. Index check clean, committed carve-out ③.
+
+**🔴 NEXT SESSION — unchanged order:**
+1. **🔴 FRI 8/28 10:00 ET — QCEW. Read the number, name the band, execute as tabled. Do not improvise.** Same day: CHG-046 resolution + CHG-043-B (NEXUS).
+2. **🟠 CHG-051 owed deliverables** (registry `Last_Reviewed` + rolling base rates · outcome axis w/ pre-committed proxy/horizon · FT-01 label adjudication — re-spec half waits for 9/4–9/11).
+3. **Watch Will's C8 ruling** — if CONTINUE lands, PROME owns the six conditions; RED owes nothing further unless re-assigned. The test-suite fix (N4) is urgent for THEM regardless of ruling.
+4. Unchanged: CARL V2 (owner dark) · 9/3 30Y JGB rail · 9/4–9/11 re-spec window · 9/12 VX re-review · 9/15 CHG-044 + CHG-049 · 9/30 CHG-042 backstop.
+5. **Tape note from boot:** HY 267 — **WL-04 (<260, "credit canary fully dead") is 7bps away and NOTHING grades a cross.** If it fires it is bull-side evidence with no registered consumer; consider a pre-registered disposition at the 9/4–9/11 window rather than improvising on the day it prints.
+
+**GIT STATE:** on master; S36 committed path-scoped (`AGENTS/RED/` + memory carve-out ③); NOTHING written into `KERNEL/` (review is read-only by design — all tool invocations were read-only modes); safe-push at closeout sweeps PROME's stranded crash-recovery commit `f2306d8d5`.
+
+---
+
+
 **🆕 S35 (2026-08-27, boot ~12:25 ET / close ~12:4x ET) — WILL-DIRECTED: OPEN THE APPARATUS SELF-CHALLENGE. DONE. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
 
 **`CHG-RED-051` — RED's first APPARATUS-class self-challenge, and it lands on RED's own registry.** Full report `challenges/SELF_APPARATUS_REGISTRY_2026-08-27.md`; ML-190/191; OUTBOX-024 🔴 (one ACTION owed).
