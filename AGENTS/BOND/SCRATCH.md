@@ -36,7 +36,7 @@
 1. 🔴 **FIRST ACTION IF THE 7Y IS UNGRADED — grade `91282CRJ2` on the FROZEN bars above.** Resolve `BND-20`; record `BND-19` leg 3 regardless; report **margins on every leg**; state whether `I'` fired.
 2. 🔴 **8/28 — WARSH'S FIRST JACKSON HOLE KEYNOTE AS CHAIR, the day before T6's hard close, on a test whose trigger is September-hike probability.** **Watch WHICH leg moves — term premium vs breakevens — not the level.** No threshold invented at n=0.
 3. 🔴 **8/28 is the LAST GRADEABLE DATA DATE for T6** (8/29 is a Saturday; Will ruled Option C). **If Will has not ruled the repairs by the close, T6 grades AS WRITTEN, defects and all.** LIQUID and PROME both hold that position.
-4. 🔴 **8/29 — T6 hard close + HEN-42 resolution.** `BND-15` also closes here: **DFII10 2.32 [8/25] = 18bp away, WIDENED across four consecutive readings; 3 gradeable sessions left. Confidence stays FROZEN at 70%.**
+4. 🔴 **8/29 — T6 hard close + HEN-42 resolution.** `BND-15` also closes here: **DFII10 2.32 [8/25] = 18bp away; path 6bp [8/17] → 9 [8/18] → 15 [8/19] → 15 [8/20] → **10 [8/21]** → 12 [8/24] → **18bp [8/25]** — NOT monotonic, a 10bp re-approach on 8/21. 3 gradeable sessions left. Confidence stays FROZEN at 70%.**
 5. **8/28 ~15:30 ET — CFTC TFF as-of 8/25 publishes.** ⚠️ **Do NOT open a pending item on it: `KB-BND-092`'s B4 is dead on the BTC leg, so this data cannot revive it.** Noted only so a future reader does not re-arm it.
 6. 🟠 **by 9/4 — the MATRIX_V2 base-rating (Will-ruled).** ⚠️ **MUST BE PER TENOR, NEVER POOLED** — the `I'` bar sits above the trailing-12 min by **+4.84pp (2Y) / +0.82pp (7Y) / +0.24pp (5Y)**; at the 5Y it barely loosens anything. **One rule, three effective strictnesses.** `KB-BND-174`.
 7. 🟡 **by 9/4 — the RE-DATED US sovereign-CDS item** (missed 8/24). **Existence + pullability BEFORE any threshold. Audit the PATH before reporting a wall — n=5 on this desk's claimed-unavailability-is-a-path-artifact class.**
@@ -49,6 +49,22 @@
 14. **🟠 by 10/1 — the formal quarterly percentile-snapshot refresh** in `monitors/AUCTION_HEALTH.md` (§3d audit rail). **Seeded today at the adoption**; the quarterly cadence starts 10/1.
 15. **🟠 2026-11-09 — FHLB Q3-2026 Combined Financial Report.** `REG-T-06` leg 3 fires if >700 · `VX-BND-18` re-scores · **carries the BASE RATE the returned escalation-leg retune depends on.** On the docket.
 
+## ★ PROME DOORBELL CONSUMED (all six items) — and item ② caught a live-wrong claim of mine
+
+**★ ② PROME WAS RIGHT, I WAS WRONG, on the cell that says whether to escalate to Will.** DFII10 printed **2.40 [8/21]** and **2.38 [8/24]** — neither was on any BOND surface. **The gate RE-APPROACHED to 10bp on 8/21, closer than 8/19–20**, so "widened across four consecutive readings" was FALSE. Corrected on STATUS/TRADE/SCRATCH/THESIS. `KB-BND-180`.
+> 🔴 **ROOT CAUSE — mechanical, and it will recur anywhere a desk carries a path: `boot_recompute` returns the LATEST OBSERVATION, and I appended it to a path that STOPPED AT 8/20** (8/21 unpublished when last looked; 8/24 never pulled). **I extended a series across a HOLE.** **RULE: a PATH is not a LEVEL — appending a fresh latest to a carried path silently asserts every observation you never fetched. Pull the WINDOW, not the endpoint.**
+> ⚠️ **The LEVEL (2.32) and DISTANCE (18bp) were both exactly right, which is why it survived three checks.** n+1 on this exact cell.
+> ⚠️ **Sent back to PROME:** their board's *"2.40 [8/21, leg satisfied that single day]"* is **wrong — `BND-15` grades on ≥2.50 and the window's closest approach was 10bp short. No leg was satisfied on any day.**
+
+**① KB-BND-092 — already done ~90min before the doorbell; PROME's board is stale, not the grade.** Also told them **LIQUID DID pre-grade it**, three days early with frozen thresholds.
+
+**③ MIDAS's ask DELIVERED** → `analysis/2026-08-27_DFII10-cycle-high_TP-vs-path-decomposition_and_label.md`. **~50/50 TP-vs-path, stable across all three horizons; breakevens +3–5bp of a +26–56bp move ⇒ 90–95% real-leg** (re-confirms `FL-BND-12` from a 3rd direction). **Evidence FOR C-36 CONTESTED; label NOT moved.** `KB-BND-181`.
+> 🔴 **LABEL: "~2.75-year high" is CORRECT (2.77yr exactly) — I nearly "corrected" a right answer.** The false label is **"series high."** Canonical: **2.77-year high, last prior ≥2.47 was 2023-10-25 (2.52); series max 3.15 (2008-11-21); 147 prior obs ≥2.47.** `KB-BND-182`.
+
+**④ SAM's MOF print consumed — does NOT trip.** Wk 8/16–22 −¥3.058T (3rd most negative of 1,129) but rolling 4wk **+¥1.264T** vs a **≤−¥2.054T** bar. ★ **The ratified 4-week form earned its keep on a live print** — the retired single-week instrument would have made this look alarming. `KB-BND-183`.
+
+**⑤ VX-BND-18** — no action pending Will. **⑥ sb0607 / 9/9–10 collision** — already docketed; the TERRY coordination is mine to initiate.
+
 ## OPEN THREADS / KNOWN GAPS
 
 - 🔴 **The general `inbox/` was NOT drained — 7 items, deliberately.** Boot step 7 makes non-WALTER inbox a **separate task**, and today had a 1PM hard clock. **One item WAS read because it was load-bearing on work I was doing** (LIQUID's `KB-BND-092` adjudication, which graded on the auction I was grading). **The other 6 are unread and I am saying so rather than implying a clean inbox.** Two look consequential: **HENRY "HEN-42 CUT 55→20"** (HEN-42 resolves 8/29 — that is 2 days out) and **PROME "your MIDAS packet never arrived."**
@@ -60,7 +76,7 @@
 ## POSITION
 
 **TLT puts HOLD, no add — UNCHANGED. Nothing this session touched the book. $0.**
-**Only live add-gate: DFII10 2.32 [8/25] = 18bp away** — widened across **four consecutive readings** (6 → 9 → 15 → 15 → 18bp), the furthest since 8/13.
+**Only live add-gate: DFII10 2.32 [8/25] = 18bp away** — path 6bp [8/17] → 9 [8/18] → 15 [8/19] → 15 [8/20] → **10 [8/21]** → 12 [8/24] → **18bp [8/25]**. 🔴 **NOT monotonic — corrected 8/27 after PROME caught it; a 10bp re-approach on 8/21 was missing from every surface.**
 **Composite 12/35 — seventh consecutive unchanged scoring session; nothing crossed a pre-registered line.** Auction-health downgrade counter **= 0** (reopenings ruled IN this session; the 5Y reset it anyway).
 **OPEN: `BND-15` (70%) · `BND-20` (85%, resolves 1PM today).** Resolved today: `BND-18` TRUE · `BND-19` FALSE.
 ⛔ **Harvest, roll and sizing are TERRY's calls on TERRY's rules with Will's approval.**

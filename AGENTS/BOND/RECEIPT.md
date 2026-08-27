@@ -47,6 +47,21 @@
 **Out:** **2 packets** — **PROME** (adoption + 🔴 the Will-gated thesis-kill question + the missed 8/24 item) · **LIQUID** (B2 fired, `KB-BND-092` closed).
 ⚠️ **Delivery not verified by content — SECOND consecutive session this check has been deferred, and PROME's unread item suggests it is owed.**
 
+## POST-COMMIT — PROME DOORBELL (~10:3x–11:0x ET)
+
+**Six items consumed. One changed a live decision surface.**
+
+| # | Item | Disposition |
+|---|---|---|
+| ② | DFII10 path | 🔴 **PROME CORRECT, BOND WRONG.** 2.40 [8/21] + 2.38 [8/24] were absent from every BOND surface; the gate **re-approached to 10bp**, so "widened across four consecutive readings" was FALSE. Fixed on 4 surfaces. `KB-BND-180`. **Sent back: their "leg satisfied 8/21" marker is wrong — `BND-15` grades on ≥2.50.** |
+| ① | KB-BND-092 | **Already closed ~90min earlier.** Board stale, not the grade. LIQUID *had* pre-graded it 3 days early. |
+| ③ | MIDAS decomposition + label | **DELIVERED** → `analysis/2026-08-27_DFII10-cycle-high_TP-vs-path-decomposition_and_label.md`. ~50/50 TP/path; label settled at **2.77yr** — and **"~2.75yr" is CORRECT**, the false one is "series high". `KB-BND-181/182` |
+| ④ | SAM MOF wk 8/16–22 | **Consumed. Does not trip** (rolling +¥1.264T vs ≤−¥2.054T bar). `KB-BND-183` |
+| ⑤ | VX-BND-18 | No action pending Will |
+| ⑥ | sb0607 / 9/9–10 | Already docketed; TERRY coordination mine to initiate |
+
+**+4 KB rows · +1 analysis file · +1 packet (PROME cc MIDAS/RED/LIQUID/SAM) · 4 surfaces corrected.**
+
 ## CLOSEOUT CHECKS
 
 | Check | Result |

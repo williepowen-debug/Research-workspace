@@ -159,7 +159,7 @@ Five spec changes were pre-committed on 2026-07-28 "for next session" and went *
 ⚠️ **TOKEN NOTE, 2026-08-21: `FAILED` below is RETIRED.** The ledger canonicalised on **`FALSE`** (the complement of `TRUE`) after carrying BOTH tokens for one state — which silently breaks every count of resolved outcomes, calibration included. **The `FAILED` labels are left in this prose as published; the ledger is canonical.** Enum: `OPEN · TRUE · FALSE · VOID`, enforced by `monitors/kb_lint.py`.
 
 **★ OPEN (2) as of 2026-08-27** *(was 4; `BND-18` and `BND-19` resolved on the 8/26 5Y)*:
-- **`BND-15` (70%)** — DFII10 does not close ≥2.50 through 8/29. **Live 2.32 [8/25] = 18bp away, widened across four consecutive readings; 3 gradeable sessions left. Confidence FROZEN at 70%** — it was frozen there when it looked like a likely miss and the rule binds in the flattering direction too.
+- **`BND-15` (70%)** — DFII10 does not close ≥2.50 through 8/29. **Live 2.32 [8/25] = 18bp away, the widest since 8/13 but reached non-monotonically (a 10bp re-approach on 8/21); 3 gradeable sessions left. Confidence FROZEN at 70%** — it was frozen there when it looked like a likely miss and the rule binds in the flattering direction too.
 - **`BND-20` (85%)** — 7Y BTC inside [2.40, 2.52]. **Resolves ~1PM 2026-08-27.** Logged as a **structural/calibration anchor, not insight** — the band is exactly the trailing-12 min/max, i.e. fitted on the same prints it grades.
 
 **RESOLVED 2026-08-27, both on the 8/26 5Y:**
