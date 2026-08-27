@@ -104,6 +104,32 @@ Standing rule (Will 2026-06-26): **max loss `$500` per card.**
 
 ⇒ **If BRENT delivers distillate-yield-by-name and it does not rank VLO first, THE NAME MOVES — and this card says so in advance so the switch is not a post-hoc rationalisation.** *(`[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]` — the thesis is *distillate*; the instrument should be selected on *distillate yield*, not on price convenience.)*
 
+## 6-bis. ✅ **THE 58-DAY-OWED DATUM ARRIVED (BRENT, 12:3x) — VLO IS CONFIRMED. NAME HOLDS. TWO FLAGGED ALTERNATIVES RULED.**
+
+**`distillate-yield-by-name`, Q1-2026 10-Q sourced:** **CVI 41.3% · DK 37.9% · VLO 37.7% · PARR 37.5% · DINO 37.0% · MPC 35.5% · PBF 34.0% · PSX ⛔ not sourceable** (discloses only an aggregate 87% "clean product yield" — no gasoline/distillate split).
+
+✅ **Within the construction set, VLO ranks FIRST — the pre-committed name-move condition did NOT trigger.** §6 said the name moves *"if the yield data does not rank VLO first."* It does. **The commitment was made before the number arrived and is discharged honestly, not quietly.**
+
+⚠️ **BRENT correctly refused to silently drop two names that rank ABOVE VLO. Ruled here, deliberately:**
+
+| | yield edge vs VLO | shares @ ceiling | trim step | ruling |
+|---|---:|---:|---:|---|
+| **DK** | **+0.2pp** | 14 = `$985` | 7.1% | ⛔ **DISMISSED ON THE NUMBER ITSELF.** 0.2pp on a **five-month-old filing** is inside any honest measurement error. **It is not a ranking, it is a tie.** |
+| **CVI** | **+3.6pp** | 26 = `$1,022` | **3.8%** | ⛔ **NOT ADOPTED — but on PROPORTION, not on merit.** The edge is real and the granularity is genuinely better (3.8% trim steps vs VLO's 33%). |
+
+**Why CVI does not displace an already-approved VLO:**
+- ⚠️ **BRENT's own vintage caveat binds: Q1-2026 yields, Q2 filings not checked this session, his words *"not high-confidence for a Nov+ decision."* Reopening an approved trade on a 3.6pp edge from a 5-month-old filing inverts the confidence the number can carry.**
+- ⛔ **The switch would need work I have NOT done: whether CVI is a PURE refining expression** (business-mix contamination would defeat the point of picking on refining yield) **and its liquidity/asset-concentration profile as a small-cap single name.** ⛔ **I will not assert those from reputation — that is the exact failure this card corrected in BRENT twice today.**
+- **Single-asset operational risk is a real cost at 3 shares:** a small-cap refiner's outage is a **total loss driver independent of the thesis**, and a `$1,033` position cannot diversify it. §7 already flags this axis.
+- ⇒ **The yield edge does not clear the bar for churning an approved position of this size.** 🔑 **On a LARGER refiner expression — where the 3.6pp and the 3.8% trim granularity would actually pay for the verification work — CVI is the named candidate to check first.** **Recorded so it is a deferred decision, not a forgotten one.**
+
+★ **PSX's black box is now a PRICED trade-off, not an assumption:** it has the cheapest vol, the only in-band expiry, and the 2nd-best ceiling fit — **and an unsourceable distillate split.** ⇒ **Any future OPTIONS version of this leg trades known-first-on-mix (VLO) for cheapest-vol-in-band with an UNKNOWN yield.** Named so it is chosen, never defaulted into.
+
+## 6-ter. ✅ DEBIT-SPREAD RULING RECEIVED — **DEFINED, not undefended-linear**
+
+BRENT ruled the §5 definitional question **in my favour and against his own morning claim**: *"undefended-linear"* means **max downside not bounded by construction** ⇒ long shares and short options qualify; **long calls, long puts and debit spreads do NOT.** ⛔ **He retracted *"a call adds to undefended-linear until it goes ITM"*** — ITM changes **delta**, never the **loss floor** — noting it contradicted his own `TRADE.md` concentration table, which already bucketed the `USO 135C ×2` as *defined*.
+⇒ **Moot for this 3-share card. LIVE the instant anyone proposes a refiner spread** — it would count against the DEFINED bucket, and the `$1,050` shares ceiling would NOT bind it.
+
 ## 7. RISK
 
 - **Max loss budget:** `$500` per card (standing). **Position notional `$1,033`; the cap binds at −48%, so it is not the operative limit.** ⚠️ **Shares have NO defined loss without a rule** — §8's invalidation is what makes this a defined trade rather than an open-ended long.
