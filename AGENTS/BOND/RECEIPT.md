@@ -83,6 +83,23 @@
 **Also: the `PROTOCOL.md` audit — deferred 3 sessions — found the outbound trigger table could not fire for the 2Y or 5Y** (both missing from the per-tenor MIN/MAX row; both printed 8/25–26). Added, plus the adopted `I'` trigger and the struck dealer trigger.
 **Delivery verified by PATH: copies committed to HENRY / LIQUID / MIDAS inboxes and `PROME/inbox/` (repo root).** 🔴 **The loop mis-delivered PROME's on first use** — `AGENTS/PROME/inbox/` is the wrong tree and re-creates a directory removed 7/24; caught by fleet memory, relocated (`KB-BND-190`).
 
+## PRE-CONTEXT-CLEAR FILE AUDIT (Will-directed, ~12:xx ET) — 5 stale surfaces, one shape
+
+| Surface | Found | Fixed |
+|---|---|---|
+| `workbook/VX.tsv` | **7 vectors** on 8/18–8/23 figures **today's own work superseded** | Refreshed; **no score moved** |
+| `NEXUS_BRIEF` §4 | **The block other desks consume** — 8/25 nominals beside **8/20 credit, 8/20 breakevens, 4 stale distances**; header 4 days behind its own body | §4 rewritten **wholesale** |
+| `STATUS.md` | 3 CCC cells + the **arm falsifier's live-state triple** on the 8/19–8/20 vintage (headers refreshed, read-cells not) | All 4 refreshed |
+| `TRADE.md` | Header 7 days behind its own gate table; **`Next Review` still listed the graded 8/25+8/26 auctions as forward-looking** | Header + gate as-of + cluster row pruned + T6 grade-date trap added |
+| `SCRATCH.md` | Handoff heading said **"IT IS TODAY, 1PM"** — false for any cold boot | Tense-neutral, executable cold |
+| `monitors/WATCH_DATES.tsv` | 2 graded rows still firing PASSED | Retired |
+| `thesis/THESIS.md` | ✅ **CLEAN of live values** | — |
+
+> **The pattern is the finding: a fix lands where the error was DEMONSTRATED, and the demonstration is always ONE cell.** Nothing propagates it to the siblings sharing that figure.
+> ⚠️ **No check caught any of the five.** Drift compares latest-on-surface to latest-at-source and **passes on a correct endpoint**; `assertion_check` has four shapes and none is *"this cell is older than the one above it."* **The audit found them because an audit reads.** `KB-BND-191`.
+
+**Also logged, not patched:** `WATCH_DATES.Serviced_On` is **write-only for the PASSED branch** — a date-gate can only be cleared by deletion, never marked resolved (`KB-BND-192`).
+
 ## CLOSEOUT CHECKS
 
 | Check | Result |

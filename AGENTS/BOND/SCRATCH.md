@@ -2,11 +2,12 @@
 
 **Purpose:** ephemeral session handoff. Read at boot, rewritten at closeout.
 
-> ## 🔴 THE ONE THING WITH A HARD CLOCK — **AND IT IS TODAY, 1PM ET, NOT NEXT SESSION**
-> **The 7Y `91282CRJ2` ($44B) prints at 1PM.** It resolves **`BND-20`**, records **`BND-19` leg 3** (required even though `BND-19` is already FALSE), and is the **FIRST LIVE TEST of the adopted `I'` rule**.
+> ## 🔴 FIRST ACTION ON THE NEXT BOOT — **GRADE THE 7Y. Unconditional; do it before anything else.**
+> **`91282CRJ2`, $44B, auctioned Thu 2026-08-27 1:00PM ET.** ⚠️ **Written while it was still pre-print. If you are reading this AFTER 13:00 on 8/27, it has PRINTED and is UNGRADED — that is the state to assume, not to verify first.** *(A heading that says "today" stops being true the moment it is carried — `[[finding_dated_carry_item_has_no_expiry_check]]`.)*
+> **Grade at the TreasuryDirect primary: `python3 monitors/grade_auction.py --cusip 91282CRJ2`. Report margins on EVERY leg (v1.1.4(e)).** It resolves **`BND-20`**, records **`BND-19` leg 3** (required even though `BND-19` is already FALSE), and is the **FIRST LIVE TEST of the adopted `I'` rule**.
 > **Bars FROZEN pre-print this session** — BTC med 2.49 (min 2.40 / max 2.52) · ind med 60.80 (min 56.42) · dlr med 11.82 (max 13.14), n=12, 2025-08-28 → 2026-07-28.
 > **`I'` fires 🟠 STANDALONE at indirect <57.24%.** Composition failure (unchanged): ind <56.42 AND dlr >13.14. Cover marker: BTC <2.40. Branch set A/B/C/D **+ mandatory RESIDUAL** → `analysis/2026-08-27_MATRIX_V2-adoption_and_8-25-27-cluster-grade.md`.
-> ⛔ **If this session ends before 1PM, the grade is the NEXT session's first action — before anything else.**
+> ⛔ **Then: resolve `BND-20` in `thesis/PREDICTIONS.tsv`, record `BND-19` leg 3 regardless (the registration requires all three legs even though the row is already FALSE), state whether `I'` FIRED, and route the result to PROME + LIQUID.** ⚠️ **Do NOT re-key the frozen `BND-19`/`BND-20` bars to the adopted `I'` rule — a prediction is not re-specified after registration. The rule governs the VECTOR; the frozen predictions govern themselves.**
 
 ## WHAT HAPPENED
 
@@ -43,7 +44,7 @@
 8. **🟠 STILL OWED, n=2 on deferring — the duration-neutral CASH construction to LIQUID.** The HYG-skew clause is retired; **the replacement must not sit unfireable a second time, which was the entire lesson.** Deferred today for the 1PM hard clock — say so, don't let it go quiet.
 9. **🟡 by ~9/3 — PROME's hyperscaler long-dated-IG issuance SHARE.** Size first, attribution second, state the perimeter. **The packet is still in `inbox/` ON PURPOSE — it is the carrier of the task.**
 10. **🟡 a direct-take base rate for 2Y REOPENINGS** (`KB-BND-175`) — the 0.36% print is logged and deliberately uninterpreted. **No threshold until the base rate exists.** With #6.
-11. **🟡 `PROTOCOL.md` is STILL the last un-audited surface** — 81 lines, read only on inbox spawns, which is exactly where rot hides. **n=3 on deferring it.**
+11. **🟢 `PROTOCOL.md` AUDITED 2026-08-27 — n=3 deferral CLOSED.** It found the outbound trigger table **could not fire for the 2Y or 5Y** (both missing from the per-tenor MIN/MAX row, both printed 8/25–26). Fixed, plus the adopted `I'` trigger, the struck dealer trigger and the declared delivery model. *(superseded item retained below)* ~~🟡 `PROTOCOL.md` is STILL the last un-audited surface~~ — 81 lines, read only on inbox spawns, which is exactly where rot hides. **n=3 on deferring it.**
 12. **🟡 DAEDALUS action 9, STILL OPEN** — no `LEDGER_GLOB`, and none of the 5 TSVs carries a PAT-044 `Last real data refresh:` header, so `ledger_staleness --nudge` falls back to git-commit time. ⚠️ **Add headers CAREFULLY — `kb_lint` enforces field-count; verify before AND after.**
 13. **🟡 `boot_recompute`'s rc message still mislabels date-gate findings as "unguarded drift"**, three lines below its own "✅ no unguarded drift" line. One-line fix, still not patched. **n=2.**
 14. **🟠 by 10/1 — the formal quarterly percentile-snapshot refresh** in `monitors/AUCTION_HEALTH.md` (§3d audit rail). **Seeded today at the adoption**; the quarterly cadence starts 10/1.
@@ -96,6 +97,24 @@
 > 🔴 **AND IT MIS-DELIVERED ON ITS FIRST USE, same session: the loop put PROME's copy at `AGENTS/PROME/inbox/`. PROME's inbox is `PROME/inbox/` at the REPO ROOT**, and the wrong path re-created a tree removed 7/24 that memory says silently regrows. **Delivery APPEARED to succeed — a file existed at a plausible path.** Same silent-success shape as the model it replaced, one level down. **A delivery RULE is not a delivery GUARANTEE.** `KB-BND-190`.
 
 **⑥ ★ THE PROTOCOL AUDIT (deferred 3 sessions) EARNED ITS KEEP IMMEDIATELY — the outbound-trigger table could not fire for the 2Y or 5Y.** Both tenors were **MISSING** from the per-tenor MIN/MAX row, and both printed 8/25–8/26. Added (**2Y 50.91/49.09 · 5Y 59.24/15.61**). Also added the adopted **`I'` standalone trigger** and struck the **dealer-take bearish trigger** per the Will-ruled MATRIX_V2 legs.
+
+## ★ PRE-CONTEXT-CLEAR FILE AUDIT (Will-directed) — 5 SURFACES STALE, ALL THE SAME SHAPE
+
+🔴 **Every one was: the flagged cell got fixed and its siblings did not.**
+1. **`VX.tsv` — SEVEN vectors** (01/02/05/08/11/13/14) carrying figures **today's own work superseded**; STATUS was rewritten repeatedly while the ledger sat at 8/18–8/23. **Refreshed; NO score moved** (nothing crossed a pre-registered line).
+2. **`NEXUS_BRIEF` §4 — the block other desks CONSUME** — had **8/25 nominals beside 8/20 credit, 8/20 breakevens and four stale distances**, because the morning's pattern-fix reached the DFII10 line the drift checker flagged **and stopped there**. Header read *"Last refresh 2026-08-23"* against its own refreshed body. **§4 rewritten wholesale.**
+3. **`STATUS` — three CCC cells + the ARM FALSIFIER's live-state triple** still on the 8/19–8/20 vintage. **Dashboard HEADERS were refreshed; the READ cells were not.** Second time that falsifier cell has rotted (28 days behind on 7/24).
+4. **`TRADE.md`** — header stamped 8/20 while its gate table had been edited twice since; **`Next Review` still listed the 8/25 + 8/26 auctions as forward-looking AFTER grading** — the **third** time that section has carried a resolved event as live.
+5. **`SCRATCH` handoff heading said "IT IS TODAY, 1PM"** — true when written, **false for any cold boot reading it later.** Rewritten tense-neutral and executable cold.
+6. **`monitors/WATCH_DATES.tsv`** — the 8/25 + 8/26 rows retired now they are graded.
+
+> ⇒ **THE PATTERN IS THE FINDING: a fix lands where the error was DEMONSTRATED, and the demonstration is always ONE cell.** Nothing propagates it to the siblings sharing that figure.
+> ⇒ ⚠️ **AND NO CHECK CAUGHT ANY OF THE FIVE.** The drift checker compares latest-on-surface to latest-at-source and **passes on a correct endpoint**; `assertion_check` has four shapes and none is *"this cell is six days older than the cell above it."* **An audit found them because an audit READS — which is what none of the instruments do.** `KB-BND-191`.
+
+✅ **THESIS verified CLEAN of live values** — the one durable-doc rule that held all day.
+
+16. **🟡 ONE-LINE FIX WHEN SOMEONE NEXT TOUCHES `monitors/watchers.py`:** gate the **PASSED** branch on `Serviced_On` as the CHECKPOINT-CROSSED branch already is. **Today there is NO WAY to mark a date-gate resolved — only to delete the row**, so the file's own affordance for recording work-done has no effect on the check. **A design satisfiable only by deletion discourages recording resolution and trains the operator to read `rc=1` as noise** — same shape as this morning's negation-blindness patch. **NOT patched today: one checker was already patched, and a correction pass is unreviewed work.** `KB-BND-192`.
+17. **🟠 SWEEP THE 17 REMAINING `VX-` ROWS for unnamed instruments** — the real discharge of the `VX-BND-04`/`-18` finding, which PROME established is a **missing retroactive sweep, not recurrence**. Both specs predate the 8/18 lesson.
 
 ## OPEN THREADS / KNOWN GAPS
 
