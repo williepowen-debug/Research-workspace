@@ -39,7 +39,7 @@ I carried *"9 Sep is an UN-PRICED event, not a pre-priced one"* into SCRATCH, `b
 **Branches verified DISJOINT: overlap 0 of 80 firings.**
 
 ### 🔑 Why 30Y−5Y and not 30Y−10Y — the mechanism sets the boundary
-The 8/19 step-up covers the **10-30y** sector, so **10Y is INSIDE the bought bucket** and `30Y−10Y` compares two bought points against each other. On the announcement day:
+*(Rationale REPAIRED 2026-08-27 S36c on BOND's review, `d9dd34e7a` — leg choice UNCHANGED, and BOND explicitly declined to invoke the §6(d) re-spec clause.)* The 8/19 step-up covers the **10-30y sector**, so **the 10Y point sits inside the affected sector** and `30Y−10Y` differences two sector-exposed points; 5Y is cleanly outside the program. ~~10Y is INSIDE the bought bucket~~ — **struck (BOND):** `DGS10`/`DGS30` are **CMT benchmarks fitted to on-the-run issues**, while `sb0607` liquidity-support buybacks target **off-the-run** paper — **neither leg is a bought security; the effect on all three series is sector SPILLOVER, not direct price impact, and the calibration magnitudes below are spillover magnitudes.** A reason right about the direction and wrong about the mechanism survives exactly as long as nobody reuses it (`[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]`). On the announcement day:
 
 | measure | move | in sd |
 |---|---:|---:|
@@ -74,7 +74,9 @@ The 8/19 step-up covers the **10-30y** sector, so **10Y is INSIDE the bought buc
 
 **FUNDAMENTAL ⇒ the grind read is confirmed on its own terms. The row STANDS, no change** — it is already priced at 30/70, so confirmation banks nothing (Guard 6).
 
-## 6. ⚠️ LIMITS — four, and the first is the one that matters
+## 6. ⚠️ LIMITS — ~~four~~ **five (e added 2026-08-27 S36c, pre-data)**, and the first is the one that matters
+
+**(e) 🔴 DISCLOSED FALSE-NEGATIVE CHANNEL — the classifier may be aimed at the object the operation is NOT acting on (BOND §3, adopted).** All three legs are **benchmark** yields, so the design implicitly assumes the **suppression** model. BOND's live classification of `sb0607` is **liquidity support** — it acts on the **dislocation** (10s20s30s butterfly: 93rd → 52nd percentile through 8/19, held near median, `KB-BND-186`), and a well-functioning liquidity-support operation leaves a **small benchmark footprint by design**. Under that model this classifier drifts toward FUNDAMENTAL / NO-VERDICT **for a reason that has nothing to do with the economy**, and a rare FLOW branch must **not** be read as confirming the 88.8%-fundamental prior — the rarity would be built in. **Pre-registered conditional amendment (v1.1), ex-ante and condition-gated on BOND's F2** (per-operation CUSIP concentration from 9/9; BOND routes the read): **F2 off-the-run** ⇒ add leg (iv) 10s20s30s butterfly change = `2*DGS20 − DGS10 − DGS30`, own-computed from FRED officials, thresholds set from its own base-rate distribution **at amendment time**, applied **only at the next non-fired window** — never mid-fire, never retroactively; **F2 on-the-run** ⇒ classifier is well-aimed as registered, no change. BOND's ΔTP decomposition (their offer (b)) is taken as **advisory context at classification time, not a machine leg** — ML-156 forbids a load-bearing conjunct that lives outside the machine columns, and a peer-run decomposition cannot live inside them. **Scope fence, BOND's own, carried verbatim: the butterfly discriminates liquidity-support vs YCC-suppression; it does NOT discriminate strong vs weak demand. Two claims, two instruments, never fuse them.**
 
 **(a) 🔴 THE BASE RATES ARE PRE-TREATMENT.** All 657 windows come from a period **without** a stepped-up buyback. **88.8%-fundamental is the prior for a world without the flow — it is a reference class for what a 30Y rally USED TO mean, not a prediction of what it will mean after 9/9.** That is precisely why the instrument exists, and it is why the prior must not be quoted as a forecast.
 

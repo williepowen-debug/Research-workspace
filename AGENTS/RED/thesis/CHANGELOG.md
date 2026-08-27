@@ -6,6 +6,15 @@
 
 
 
+## 2026-08-27 ~14:1x ET — S36c: FT-11 amended PRE-DATA on BOND's review (leg choice STANDS). NO WEIGHT MOVED; the entry exists because a registration's content changed 13 days before go-live
+
+**Confidence 69 (=). Net-bear 60 (=). Thresholds, branches, and action all UNCHANGED — what changed is the rationale and the disclosed limits.**
+
+- **Rationale repaired, old vintage struck-in-place:** "10Y is INSIDE the bought bucket" was mechanically wrong — `DGS10`/`DGS30` are CMT benchmarks fitted to **on-the-run** issues; `sb0607` buybacks buy **off-the-run** paper, so neither leg is a bought security and the calibration magnitudes are **spillover** magnitudes. The leg choice (`30Y−5Y`) survives on the corrected mechanism; BOND explicitly declined to invoke the re-spec clause.
+- **Limit (e) added, pre-data:** the classifier's benchmark legs implicitly assume the **suppression** model, while BOND's live classification of `sb0607` is **liquidity support** (acts on the dislocation — butterfly 93rd→52nd pctile through 8/19). Under that model FLOW is **under-detected for a non-economic reason**, and a rare FLOW branch must not be read as confirming the 88.8%-fundamental prior.
+- **v1.1 pre-registered as an ex-ante conditional** (the CHG-045 legitimacy shape): BOND's F2 (per-operation CUSIP concentration, resolves from 9/9, BOND routes the read) is the aim test — **off-the-run ⇒ add own-computed butterfly leg at the next non-fired window; on-the-run ⇒ no change.** Never mid-fire, never retroactively. BOND's ΔTP offer taken as advisory context, not a machine leg (ML-156).
+- **Timing note:** BOND flagged that my read-by (9/8) + the 9/4–9/11 re-spec window straddled the 9/9 go-live. Resolved by **acting today** — and by clarifying that FT-11 was never in that window's enumerated set (FT-01/04/07/08/VX-004); its governing constraint is the go-live date, and post-live changes now exist only as the pre-registered conditional above.
+
 ## 2026-08-27 12:4x ET — S35: RED's first APPARATUS self-challenge (CHG-051, STRONG). NO WEIGHT MOVED; the entry exists because how my registry should be READ has changed
 
 **Confidence 69 (=). Net-bear 60 (=). All six weights unchanged — and the restraint is the content, not an omission.**

@@ -89,3 +89,11 @@ The window ruling and D1 got a proper committed ruling record (`PROME/proposals/
 "Remediate" would imply the pilot's *results* need repair — they don't; every durable artifact checks out under independent re-derivation, twice over for the two integrity properties. "Pause" would imply an open risk while remediations land — there is none: the activation lapsed at 18:00Z, nothing runs without a fresh Will-ruled window, and the C7 refusal matrix (RED-probed) plus the live D2 demonstration show the fail-closed posture holds against real inputs. The six conditions above are five documents and one test fixture. The pilot did what a pilot is for: it surfaced five discrepancies plus the six findings here, at a cost of ~32 attended minutes and zero integrity events. Gate C's next increment should proceed on a corrected runbook.
 
 — RED, 2026-08-27
+
+---
+
+## Errata / execution record (appended S36c, ~18:1xZ)
+
+- **Will ruled CONTINUE in-session and assigned the six conditions to RED; all six executed same day** (`8439e3971` / `e90ab6e61` / `79b21e499`; ruling record `KERNEL/GATE_C_C8_RULING_2026-08-27.md`). Suite re-verified **212 green** post-fixture-fix; `additions-only` PASS through the condition commits.
+- **PROME custodian read-back: CONCUR on all six — and a fair catch against this review's execution:** N3 was applied **doc-only** while its one live instance (`LIVE-2026-0001`, `revoked_at: null`) sat in the old state. **The custodian revoked it at 17:52:35Z with ~8 minutes of window margin and proved the refusal live** (`LIVE_WINDOW_REFUSED`, read-only, nothing written). The custody write was never RED's to make — but the condition execution should have **flagged the live instance as an owed custodian act** rather than leaving §5.3 forward-only. Sweep-order rule, adopted: **for authority objects, revoke the live instance FIRST, re-word the doc second** (`[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]`, n+1 banked by PROME).
+- **PROME's rc question, answered by measurement, no pipe:** a refusal exits **rc=1** on both probed paths (missing submission-commit binding; post-revocation window refusal). **Runbook step 3's rc=0 gate is sound** — the earlier "RC=0 on a refusal" observation in this review's working notes was `tail`'s exit status through a pipe, the same measurement flaw PROME suspected in their own read.
