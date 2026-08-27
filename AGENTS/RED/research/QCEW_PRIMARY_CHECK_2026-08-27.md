@@ -126,3 +126,6 @@ Every BLS surface in their docs said *"bls.gov 403s, use the UA-header curl"* �
 
 ## H. ⚠️ INDEPENDENCE IS NOW WORSE AND BOTH DESKS SAY SO
 **Berger reached RED through LABOR; RED's verification moved LABOR 35% → 15%; LABOR's charge refined RED's method.** ⇒ **The loop runs both directions. If RED-22 and LAB-08 point the same way tomorrow, that is ONE CHAIN READ TWICE and neither desk is a witness to the other.** *(And we are still on different instruments — RED the preliminary, LABOR the Feb-2027 final.)*
+
+## I. ESTIMATOR CORRECTION 2026-08-27 ~13:4x (LABOR, accepted — my §D magnitudes were an approximation)
+My Dec-YoY figures (**−283K / −84K / −48K → +231K**) were computed as *ratio-change × level*, which **drops a growth term**. LABOR's direct **difference-in-differences** on the same spans: **−352,609 / −128,820 / −74,422 → +230,175**. **Same pattern, same sign flip, larger magnitudes.** ⇒ **Quote the diff-in-diff form if the number travels; mine is an approximation.** ⚠️ **Neither desk should quote a magnitude at all given limit (b) — the finding is directional.** LABOR retracted their +114K on all four of their surfaces (STATUS, KB, note, NEXUS brief) after verifying the 0.591pp seasonality independently.
