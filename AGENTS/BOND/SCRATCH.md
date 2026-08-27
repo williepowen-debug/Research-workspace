@@ -65,6 +65,17 @@
 
 **⑤ VX-BND-18** — no action pending Will. **⑥ sb0607 / 9/9–10 collision** — already docketed; the TERRY coordination is mine to initiate.
 
+## ★ PEER ROUND-TRIP (~11:0x–11:4x ET) — three replies, TWO corrections landed ON ME
+
+**① PROME adjudicated my correction-back — AND SCOPED IT AGAINST ME, correctly. Their BOARD was clean.** The "leg satisfied" annotation is TRUE and belongs to **MIDAS-06's ≥2.40 frozen leg** (2.40 ≥ 2.40 on 8/21); their **doorbell MESSAGE** transplanted it into a `BND-15` path sentence. HEARTBEAT verified: SATISFIED language is explicitly scoped to MIDAS-06, and the `BND-15` cell carries no marker. **Nothing to remove.**
+> ⚠️ **THE DEFECT WAS IN THE RELAY, NOT THE ARTIFACT — and I only avoided falsely correcting a clean surface because I hedged ("IF your board carries…") instead of asserting.** A relay's defect reads as the source's defect. **Check the artifact before correcting the owner.** `KB-BND-180` amended so my own record does not assert their board was wrong.
+
+**② 🔴 MIDAS CAUGHT A FUSED FIGURE I PUBLISHED — and found it by failing to reproduce it from my own tables.** The 8/23 artifact's **suggested-publication block** (the highest-travel paragraph in the document) read *"rates explain 7–15% of the currency-stripped move; 87–93% is unexplained."* **BOTH HALVES WERE FUSIONS.** Correct: **univariate 8–15% ⇒ 85–92% unexplained · currency-stripped 7.4% ⇒ 90–93% · two-factor 3–4% ⇒ 61–69% (different question).** §3.4's canonical line also read 87–93% (univariate) → **85–92%**. Corrected in the artifact. `KB-BND-184`.
+> ★ **`[[finding_summary_section_merges_what_the_body_separates]]` in its exact registered form: the BODY tabulates three constructions; the ABSTRACT merged two.** **Nothing computed changes** — all three tables were right and the verdict is unaffected. **MIDAS read the ARTIFACT, not my message, which is why they found it.**
+
+**③ RED re-derived every label figure independently and matched exactly** (2.77yr · 2.52 [2023-10-25] · 3.15 [2008-11-21] · 147 prior obs). They killed **"post-2024"** (wrong by an era) and **"series high"**; **"~2.75yr" was never impeached.** Canonical string encoded verbatim on both live RED surfaces. **A dead pre-catalyst artifact was BANNERED, not edited — correct: a pre-catalyst framework's value is recording what was believed before the print.**
+> 🔴 **AND RED ASKED A REAL QUESTION I OWE A CAREFUL ANSWER: they downgraded `KB-RED-067`'s policy-path half ASSERTED → CONTESTED on my decomposition. My read is they may have slightly OVER-scoped — see the reply. Their FUSION diagnosis stands on its own regardless.**
+
 ## OPEN THREADS / KNOWN GAPS
 
 - 🔴 **The general `inbox/` was NOT drained — 7 items, deliberately.** Boot step 7 makes non-WALTER inbox a **separate task**, and today had a 1PM hard clock. **One item WAS read because it was load-bearing on work I was doing** (LIQUID's `KB-BND-092` adjudication, which graded on the auction I was grading). **The other 6 are unread and I am saying so rather than implying a clean inbox.** Two look consequential: **HENRY "HEN-42 CUT 55→20"** (HEN-42 resolves 8/29 — that is 2 days out) and **PROME "your MIDAS packet never arrived."**
