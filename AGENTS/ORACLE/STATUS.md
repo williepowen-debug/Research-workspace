@@ -35,7 +35,7 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 |---|---|---|---|---|---|---|
 | Fed: HIKE at Sept mtg (specific) | PM | **30.5%** | −4.0 | +3.0 | $10.7M | T6's fallback platform |
 | Fed hike at Sept mtg (>3.75%) | Kalshi | **32.0%** | −1.0 | — | 391.0K ct | **T6 canonical** |
-| Fed: HIKE in 2026 (aggregate) | PM | 57.5% | — | **+8.0** | $8.0M | off the 54.5% 8/12 trough |
+| Fed: HIKE in 2026 (aggregate) | PM | 57.5% | — | **+8.0** | $8.0M | **+9.0pp off the 48.5% low (8/18)** — *not* the 54.5% 8/12 figure this cell first named |
 | Fed: HIKE by Oct (cumulative) | PM | 44.5% | — | +4.0 | $504.6K | |
 | Fed: NO cuts 2026 | PM | 87.9% | +0.6 | +1.5 | $7.6M | |
 | US recession 2026 | PM | 8.5% | — | +1.0 | $1.7M | crowd calm |
