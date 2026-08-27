@@ -29,7 +29,17 @@
 - ⛔ **DID NOT EXTEND** three out-of-scope uses — the **TLT-put ADD re-arm**, the **outbound cross-agent trigger**, and **`grade_auction.py`**. Flagged to PROME per the ruling's own no-silent-extension ask.
 - **ADOPTED** ORACLE's 0.32 reference ruling despite it making BOND's own T6 branch harder to confirm.
 - **Fixed** two live defects on `STATUS.md` divergence note (a) found at boot.
-- **NOT patched:** `docket_check`, `boot_recompute`'s rc message, `watchers.py`, `grade_auction.py` — all deliberate (unreviewed-correction risk; one checker already patched today).
+- ✅ **`docket_check` PATCHED to v2 on Will's instruction** (`KB-BND-203`) — see below.
+- **STILL not patched, deliberately:** `boot_recompute`'s rc message (n=4), `watchers.py` `Serviced_On` (`KB-BND-192`), `grade_auction.py` (its old-definition print is half the mandated dual-print).
+
+## `docket_check` v2 (Will-instructed)
+**v1's defect was guard PLACEMENT:** the empty-payload guard ran on the RAW payload (4 bill rows, non-empty) and the `{Note,Bond}` filter then emptied the set — so `rc=0 — docket covers every scheduled coupon auction in the window` was computed over **zero** auctions. It protected the FETCH, not the REFERENCE SET the verdict is computed over.
+**v2:** measures the feed's own horizon, names the BLIND SPAN, headline is `VERIFIED ONLY THROUGH <date>`, and `rc=0` is qualified as *"nothing ACTIONABLE, NOT the window is covered."* `rc=1` still fires on an undocketed auction the feed can see (regression-tested). `--selftest` = **18 assertions / 11 fixtures**.
+🔴 **The correction pass proved its own risk twice, both silencing:** (1) the bare word `AUCTION` matched *"non-auction"* — caught by the new selftest on its first run; (2) whole-line scanning counted four non-auction rows as September coverage, including **this desk's own warning row saying September is NOT docketed** — found only by RUNNING it. Resolution: the tool **declares** the blind span and adjudicates nothing there; docket rows are `FYI, not a verdict` and gate nothing, locked by an assertion that the verdict is identical with and without them.
+⚠️ **NOT discharged:** docketing September from the QRA is still human and still owed.
+
+## Ledger nudge (1c-bis)
+`VX.tsv` **refreshed** — `VX-BND-01`'s `Threshold_Red` still carried the OLD composition-failure definition; a TSV cell my prose grep missed. `FLOW.tsv` **declined with reason**: no transmission channel changed this session (`FL-BND-13` names composition-failure only descriptively and holds under either definition).
 
 ## Position
 **UNCHANGED — TLT puts HOLD, no add. Composite 12/35, ninth unchanged scoring session. Book untouched. $0.** No gate fired; no threshold moved on any live position.
