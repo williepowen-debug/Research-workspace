@@ -1,6 +1,9 @@
 # FULL-THESIS KILL RULE — RE-SPEC (DRAFT, pre-registered)
 
-**Drafted:** 2026-08-15 (Sat) · **CARL** · **Status: DRAFTED — NOT LIVE. Will ratifies before it goes live.**
+**Drafted:** 2026-08-15 (Sat) · **CARL** · **Status: ✅ RATIFIED (Option A) 2026-08-16 · §5 GATE CLEARED 2026-08-27 · ENCODED AND LIVE 2026-08-27 as THESIS v2.6.6.**
+> **Ruling of record:** `PROME/proposals/2026-08-16_carl-row44-respec-optionA-RULED.md` — Will in-session, verbatim *"approved - go ahead with A as recommended"*. **Cite it, don't reconstruct.** Re-affirmed in-session 2026-08-27.
+> **Live text now lives in `thesis/THESIS.md` §Exit/Invalidation Rules; audit trail in `thesis/CHANGELOG.md` (2026-08-27). This document is the SPEC AND RATIONALE OF RECORD, not the operative rule** — if the two ever disagree, THESIS.md governs and this file is the defect.
+> **Row 44 CLOSED on the 2026-08-27 encode.** Rider 1 (shadow grade) discharged into `thesis/HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md` §1. KB rows: **KB-CARL-392** (vintage finding, §2b) · **KB-CARL-393** (§5 caveat scope).
 **Authority:** `PROME/proposals/2026-08-12_rule-batch-RULED.md` **ROW 44** — *Option (b): commission the re-spec NOW, pre-registered before the Q3 data (~Nov)*, with two mandatory riders. Batch approval off PROME recs (Will: *"Batch-rule all 12 off my recs"*) — carries Will's authority, **not his individual attention on this row**. Row 44 closes when CARL confirms the encode; the rule text itself is Will-ratified separately.
 **Needed:** ~9/30. Pre-registration value decays as the ~Nov Q3 print approaches.
 **Answers:** `CHG-RED-045` (RED, 2026-08-12) — explicitly, in §4, per RIDER 2.
@@ -89,7 +92,19 @@ Delinquent dollars are **derived** (share × balance), so they inherit the balan
 
 **A full-thesis kill that fires on a 43.5% base-rate event is not a kill rule — it is a coin flip with a thesis attached.** The current 8-quarter band is **6.93–7.18% = 25bp wide**, while the **median absolute QoQ move is 20bp**: the series moves nearly as much each quarter as the entire band it has occupied for two years. Direction alone is noise at this level. *(DEWEY C3, 8/12, independently flagged the same flatness — "flat at 6.93–7.18% for eight quarters" — which is what sent me to base-rate it.)*
 
-**The winning spec was selected on base rate + GFC separation BEFORE I computed what it does to Q2.** It has excellent discrimination: in 23 years it fires **exactly once — 10:Q4 through 11:Q4**, the genuine post-GFC consumer healing episode, which is precisely the state this kill rule exists to detect. And it stays silent through the entire GFC build, where the series rose monotonically 5.51% → 10.96%.
+**The winning spec was selected on base rate + GFC separation BEFORE I computed what it does to Q2.** It has excellent discrimination: in 23 years it fires **exactly once — 10:Q4 through 11:Q4**, the genuine post-GFC consumer healing episode, which is precisely the state this kill rule exists to detect. And it stays silent through the entire GFC build, where the series rose from **5.51% to 10.96%**. *(⚠️ Reworded at encode 2026-08-27 per PROME: this line said **"rose monotonically"** and strict monotonicity is **FALSE** — the build contains small down-ticks. The **endpoints are exact** and the claim that actually matters — the ≥100bp spec stays **SILENT** through the build — is **verified true**. A false precision claim sitting on top of a correct result is still a defect: it invites a reader to check monotonicity, find the down-ticks, and discard the finding that survives.)*
+
+### ✅ INDEPENDENT VERIFICATION + TWO FINDINGS CARL DID NOT COMPUTE *(PROME, 2026-08-16; folded in at encode per the ruling)*
+
+PROME reproduced this entire table from the workbook on disk (STUE's 8/13 pull, `Page 14 Data`, 94 quarters): **all six base rates match to the decimal** (43.5 / 15.2 / 21.7 / 33.3 / 16.9 / 5.4%); the ≥100bp spec fires only 10:Q4–11:Q4 and is GFC-silent; **median |QoQ| 19.9bp**; Q2 window **−15.9bp**.
+
+**🔴 FINDING 1 — the morning draft would have ALREADY KILLED THIS THESIS, a year ago.** Direction-only completes a 2-consecutive window at **25:Q2 (7.18 → 7.04 → 6.93)**, with claims already sub-220K. **A live thesis, killed in 25:Q2, by the spec I wrote on the morning of 8/15.** This is the concrete demonstration that belongs beside the 43.5% base rate: the abstract number and the counterfactual say the same thing, and the counterfactual is the one that lands.
+
+**🔴 FINDING 2 — THE INCUMBENT BASE-RATES AT 25.0%, AND I NEVER MEASURED IT.** 23 of 92 windows (Page 12 CC column). Post-2015 fires: **21:Q3 / 21:Q4 / 22:Q3** — stimulus-era **denominator** moves, i.e. *the very defect this re-spec exists to repair, firing the kill three times in the recent record.* **I built the case for the re-spec entirely on Q2-2026 and never asked how often the incumbent misfires — so I under-sold my own case.** This is also **why option (B) lost**: the disjunctive keeps the share leg, and with it a **~1-in-4 noise path to a full-thesis kill**.
+
+⚠️ **The self-critical read, which I am keeping on the record:** I base-rated *my own proposal* (43.5% → rejected it) and did **not** base-rate *the thing I was replacing*. That asymmetry runs in the direction that makes my case look weaker, so it did me no favours here — but the habit it reveals is the dangerous one: **the incumbent gets grandfathered past the test the challenger must pass.** Generalised into `[[finding_base_rate_the_threshold_before_building_it]]` as: **base-rate BOTH the candidate and the incumbent, or you have measured a difference you cannot interpret.**
+
+**🔴 RED RIDER 1 — LEG 1 FILTERS NOTHING, SO LEG 2 IS THE ENTIRE KILL.** Claims have run **continuously sub-220K** (203K w/e 8/22; 212K w/e 8/8; 207K w/e 8/15 — LABOR 8/20, refreshed at FRED `ICSA` 8/27). A conjunction whose first leg is permanently satisfied is **not a conjunction** — it is a one-legged rule wearing two legs. ⇒ **The operative base rate is leg 2's own 5.4%, NOT the joint rate**, and no surface may cite the conjunction as though leg 1 were screening. **Required on every future grading card** (`HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md` §1a).
 
 **⚠️ AND HERE IS THE COST, STATED PLAINLY:**
 
@@ -160,6 +175,33 @@ A kill rule should be keyed to the mechanism it is meant to falsify. This thesis
 3. ❌ **Whose book went missing is still unknown**, and therefore the sign of any bias is unknown.
 
 **Owed before ratification:** re-pull `HHD_C_Report_2026Q2.pdf` and quote the caveat verbatim with its stated scope — specifically whether it is scoped to mortgage servicing only. **If it reaches card reporting, this re-spec's instrument inherits a sign-unknown bias and Will must be told before ratifying.** Tracked as an open item, not treated as closed.
+
+---
+
+### ✅ §5 DISCHARGED — 2026-08-27. THE GATE CLEARED. *(KB-CARL-393)*
+
+Re-pulled `HHDC_2026Q2.pdf` from newyorkfed.org at primary (**curl + browser UA — WebFetch 403s on this host**). **Year-trap cleared:** header reads *"2026:Q2 (RELEASED AUGUST 2026)"*.
+
+**The caveat appears EXACTLY ONCE in the entire report.** Verbatim, with its surrounding sentence for scope:
+
+> *"Mortgage balances shown on consumer credit reports declined, with a $74 billion decline during the second quarter of 2026 and totaled $13.1 trillion at the end of June. **The decline was mostly due to a servicer transfer gap in the reporting of mortgages and otherwise it would have stayed flat.**"*
+
+**Its stated scope narrows three independent ways:**
+
+| # | Axis | What the text says | Effect |
+|---|---|---|---|
+| 1 | **Instrument** | *"in the reporting of **mortgages**"* | Names mortgages, and only mortgages |
+| 2 | **Quantity** | The claim is about **balances** (a $74B balance decline) | Not delinquency, not transitions |
+| 3 | **Section** | Appears in ***Balances*** | ***Delinquency & Public Records*** carries **no reporting-gap qualifier at all** — it discusses transitions for auto, mortgage, card, HELOC and "other" with no such caveat |
+
+⇒ **IT DOES NOT REACH CARD REPORTING. The re-spec's registered instrument (CC flow into 90+, `Page 14 Data`) carries no sign-unknown bias, and the Option-(A) ratification is LIVE.**
+
+**Resolving the three items this section left open on 8/15:**
+1. ✅ CC flow unrevised across the Q1→Q2 vintage pair (7.1000% both) — **still true, and now corroborated rather than isolated**: the caveat's own scope excludes the card book.
+2. ✅ Caveat absent from the data workbook — **explained**: its provenance is the PDF prose *Balances* paragraph, exactly where a balance-scoped note belongs.
+3. ⚠️ **"Whose book went missing" is STILL UNKNOWN — and that is now a bounded, non-blocking unknown rather than an open-ended one.** It cannot touch the card instrument, because the Fed scopes the gap to mortgage balances.
+
+⛔ **WHAT THIS DOES NOT CLOSE — stated plainly, because RED's challenge deserves the honest answer and not the convenient one.** The Fed asserts the gap affected mortgage **balances**. It **neither asserts nor rules out** an effect on mortgage **transitions**, and a missing servicer's book is **non-random by construction**, so the sign of any transition bias remains unknown. **RED's `CHG-045` §3b challenge is therefore NARROWED to the card instrument, not closed for mortgages.** CARL's original sin stands as RED described it — asserting mortgage transitions were *"not obviously affected"* **without verifying** — and the verification now available speaks to cards, not to mortgages. **The kill rule does not depend on mortgage transitions, so this does not gate the encode; the caveat stays live on any mortgage-transition read.**
 
 ---
 

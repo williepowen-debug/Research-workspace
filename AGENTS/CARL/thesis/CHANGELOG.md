@@ -8,6 +8,83 @@ Tracks all changes to THESIS.md and PREDICTIONS.tsv. Reverse chronological. Each
 
 ---
 
+## 2026-08-27 (Thu) — ★ **FULL-THESIS KILL RULE RE-SPEC RATIFIED AND ENCODED (v2.6.5 → v2.6.6) · §5 gate CLEARED at primary · consecutive count RESETS 1-of-2 → 0-of-2 · NO score change, 53/70 holds**
+
+**Authority:** Will in-session **2026-08-16**, verbatim *"approved - go ahead with A as recommended"* — **Option (A)**. Ruling of record: `PROME/proposals/2026-08-16_carl-row44-respec-optionA-RULED.md` (**cite it, don't reconstruct**). Parent authority: `PROME/proposals/2026-08-12_rule-batch-RULED.md` **row 44**, option (b). Will re-affirmed the ruling in-session **2026-08-27** at the top of this session.
+
+**The ruling was CONDITIONAL on CARL's own §5 servicer-caveat check. That gate CLEARED 2026-08-27 and this entry is the encode it authorised.**
+
+### What changed — old → new
+
+| | Old (v2.1 → v2.6.5) | New (v2.6.6) |
+|---|---|---|
+| **Leg 1** | Claims <220K sustained 8+ weeks | **UNCHANGED** |
+| **Leg 2** | CC 90+ DQ (**balance share**) declines 2 consecutive quarters | **CC transition rate INTO 90+** falls 2 consecutive quarters **AND cumulative decline ≥100bp** |
+| **Instrument** | *(unspecified)* | HHDC `HHD_C_Report_<QTR>.xlsx`, sheet **`Page 14 Data`**, Credit Card series. Prose is chart-only — must not be used. ⚠️ **Never substitute Pg 28** (diverged +0.39pp in 26:Q2) |
+| **Basis policy** | *(none — and the incumbent's own headline was basis-broken)* | QoQ **direction**, both quarters on one basis. The 26:Q1 Equifax 3.0 → VantageScore 4.0 switch **does not reach it** (Pg 14 is not credit-score-banded; Q1 value identical across vintages, 7.1000%) |
+| **Revision policy** | *(none)* | One vintage — the report current at grading date. Never splice. Record the vintage. Re-grade on revisions (fleet L-15, row 36b) |
+| **Consecutive count** | **1 of 2** | ⛔ **0 of 2 — RESET** |
+
+### Why — the defect, and why the obvious fix was rejected
+
+**The defect:** leg 2 keyed on a **share**, and a share falls while distress grows because the denominator is not exogenous to the stress. **Q2-2026 is that case exactly: 100% of the −20bps share decline was denominator growth** — seriously-delinquent CC **dollars ROSE $0.23B** ($162.95B → $163.18B, same-vintage) while balances grew **+$21B (+1.69%)**. RED conceded the defect is real (`CHG-RED-045` §2b).
+
+**Why NOT a dollar leg** (the intuitive repair): (a) RED's ratchet objection — a dollar leg *added* to a share leg can only block the kill, never fire it; (b) **decisive, found by measurement** — the dollar series is derived (share × balance) and inherits the Q2 report's **−$10B revision to Q1 CC balances**, i.e. **$10B of revision noise against a $0.23B signal = 43×**, and it **reverses the sign** (same-vintage +$0.23B ROSE / cross-vintage −$1.08B FELL). The share and the flow were both **unrevised** across that same vintage pair. → **KB-CARL-392.**
+
+### Why the ≥100bp floor — and the cost, stated plainly
+
+Base-rated over **94 quarters (2003:Q1–2026:Q2)**; all six rates independently reproduced to the decimal by PROME off `Page 14 Data` (2026-08-16):
+
+| Candidate leg-2 spec | Base rate | Silent through GFC build (06:Q1–09:Q4)? |
+|---|---|---|
+| 2 consecutive declines, any size *(CARL's 8/15 morning draft)* | **43.5%** | ❌ fired 06:Q1 |
+| 2 consecutive, each ≥25bp | 15.2% | ❌ |
+| 2 consecutive, cumulative ≥50bp | 21.7% | ❌ |
+| 4 consecutive, any size | 33.3% | ❌ |
+| YoY decline ≥100bp, 2 consecutive | 16.9% | ❌ |
+| ✅ **2 consecutive, cumulative ≥100bp — RATIFIED** | **5.4%** | **✅ SILENT** |
+
+The ratified spec fires **exactly once in 23 years — 10:Q4 through 11:Q4**, the genuine post-GFC consumer-healing episode this rule exists to detect. *(Wording corrected at encode per PROME: the GFC build's **endpoints** are exact 5.51% → 10.96%, but **strict monotonicity is false** — the build contains small down-ticks. The claim that matters — the ≥100bp spec stays **silent** through the build — is verified true.)*
+
+⚠️ **THE COST: the reset benefits CARL, and CARL said so before Will ruled.** Q2's flow window is **7.13 → 7.10 → 6.97 = −16bp against a 100bp floor = NOT a decline.** The kill moves from one print away to two. **The base-rate measurement was made BEFORE the consequence was computed** — that is a reason to trust the sequence, and explicitly *not* the only thing holding the rule up.
+
+### Two PROME verification findings folded in at encode
+
+- **Finding 1 — the rejected draft would have already killed this thesis a year ago.** Direction-only completes a 2-consecutive window at **25:Q2** (7.18 → 7.04 → 6.93) with claims already sub-220K. A live thesis killed in 25:Q2 by the spec CARL drafted that morning.
+- **Finding 2 — the INCUMBENT base-rates at 25.0%** (23/92 windows, Page 12 CC column). **CARL never base-rated the incumbent and under-sold its own case.** Post-2015 fires include 21:Q3 / 21:Q4 / 22:Q3 — stimulus-era **denominator** moves, the exact defect being repaired. **This is why option (B) lost:** it retained a ~1-in-4 noise path to a full-thesis kill.
+
+### RED rider 1 — leg 1 filters nothing, so leg 2 is the ENTIRE kill
+
+Claims have run continuously sub-220K (**203K w/e 8/22**; 212K w/e 8/8, 207K w/e 8/15 — LABOR 8/20 + FRED `ICSA` 8/27). **The operative base rate is leg 2's 5.4%, not the joint rate.** Do not cite the conjunction as though leg 1 were screening. Registered on the rule text and required on every future card.
+
+### §5 — THE GATE, AND WHAT CLEARED IT
+
+RED (`CHG-045` §3b) was right that CARL had asserted mortgage transitions were *"not obviously affected"* by the Fed-stated servicer-transfer gap **without verifying it**. Re-pulled `HHDC_2026Q2.pdf` at primary (newyorkfed.org, curl+UA; WebFetch 403s). **Year-trap cleared: header reads "2026:Q2 (RELEASED AUGUST 2026)".** The caveat appears **exactly once in the entire report**, verbatim:
+
+> *"Mortgage balances shown on consumer credit reports declined, with a $74 billion decline during the second quarter of 2026 and totaled $13.1 trillion at the end of June. **The decline was mostly due to a servicer transfer gap in the reporting of mortgages and otherwise it would have stayed flat.**"*
+
+**Stated scope narrows three independent ways:** (i) **instrument** — *"in the reporting of **mortgages**"*; (ii) **quantity** — it is a claim about **balances**, not delinquency and not transitions; (iii) **section** — it sits in *Balances*, and *Delinquency & Public Records* carries **no reporting-gap qualifier at all**.
+
+⇒ **It does NOT reach card reporting. Leg 2's registered instrument carries no sign-unknown bias, and the ratification is live.** → **KB-CARL-393.**
+
+⚠️ **What this does NOT close, stated honestly:** the Fed asserts the gap affected mortgage **balances**. It does not assert an effect on mortgage **transitions** — but neither does it rule one out, and a missing servicer's book is non-random by construction. **RED's §3b challenge is NARROWED to the card instrument, not closed for mortgages.** The kill rule does not depend on mortgage transitions, so this does not gate the encode; it stays a live caveat on any mortgage-transition read.
+
+### Rider 1 — the shadow grade is now LOAD-BEARING, not ceremonial
+
+Every future grading card records **both** verdicts side by side before either is acted on: **AS-WRITTEN** (share, direction — **Q2 = decline #1 of 2**) vs **RE-SPEC** (flow, 2 consecutive ≥100bp — **Q2 = 0 of 2**). ⛔ **The counts now start ONE APART.** The as-written rule can fire at Q3 while the re-spec is still two prints away — **that divergence is written on the card and escalated to Will in the same session, never absorbed.** Encoded as a required section in `thesis/HHDC_Q3_2026_GRADING_CARD_TEMPLATE.md` (new this session).
+
+### Open items — flagged, NOT fixed (batch rider forbids moving them in this edit)
+
+- **Leg 1 is revision-exposed.** A level test on a weekly-revised, annually-benchmarked series carries the same class of defect §2(b) found in the balance series. Separate re-spec candidate.
+- **CRL-05 is BASIS-EXPOSED where this rule is not.** It resolves on a **LEVEL** (>13.74%, an **Equifax 3.0-era** figure) against VantageScore-4.0 prints. **Whoever grades CRL-05 in November must settle the basis question first.**
+- **CRL-05's resolver was NOT moved onto flow.** Separate decision — CRL-05 is a confidence line, this is a thesis kill. Not bundled.
+
+**Score impact: NONE. 53/70 (76%) holds. No threshold moved, no confidence moved, zero capital.**
+
+**Row 44 CLOSES on this encode.** Confirmation owed to PROME.
+
+---
+
 ## 2026-08-15 (Sat) — **FULL-THESIS KILL RULE RE-SPEC DRAFTED (row 44, option b) · guard-#4 correction: Q1 WAS revised · no score change, 53/70 holds**
 
 **No version bump — the re-spec is DRAFTED, not live.** THESIS.md:397-398 keeps the as-written rule in force with a pending-ratification pointer. Will ratifies before it goes live.
