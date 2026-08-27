@@ -1,6 +1,6 @@
 # CREED Predictions Scoreboard
 
-**Created:** 2026-07-27 · **Updated:** 2026-08-20 *(row `002` refreshed to the July SS print in a self-audit — it had carried a June distance AND a since-reversed direction)* · (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED-TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
+**Created:** 2026-07-27 · **Updated:** 2026-08-27 *(**SECOND RESOLUTION — `PRED-CREED-003` RESOLVED-FALSE** on the FDIC Q2 QBP, correct side, Brier 0.1225. n=1 → n=2.)* · Prior 2026-08-20 *(row `002` refreshed to the July SS print in a self-audit — it had carried a June distance AND a since-reversed direction)* · (**FIRST RESOLUTION — `PRED-CREED-009` RESOLVED-TRUE**, and it is a calibration MISS: called at 30%, resolved TRUE, Brier 0.49, worse than a coin flip. n=0 → n=1.)
 Tracks resolution outcomes and calibration for CREED's pre-registered predictions. Open rows live in `PREDICTIONS.tsv`; this is the **summary + calibration read**.
 
 > **Created at n=0 on purpose.** CREED registered **10 predictions with self-set confidences** on 2026-07-27 (Will's §10 decision 2, 7/21: *"YES, you set them — your conviction, your numbers"*) and had **no calibration surface at all**. The discipline has to exist **before** the first resolution — otherwise the first resolution sets the precedent for skipping it. *(Adopted from BROCK's scoreboard, which at n=10 produced a read that changed its behaviour.)*
@@ -9,15 +9,22 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 ## SCORE (fully-resolved, gradeable)
 
-| Hit rate | Brier (mean) | Baseline |
+| Hit rate (correct side) | Brier (mean) | Baseline |
 |---|---|---|
-| **n = 1 — 0/1 (0%)** | **0.49** | 0.25 (coin-flip) |
+| **n = 2 — 1/2 (50%)** | **0.306** | 0.25 (coin-flip) |
 
-**The first resolution is a miss, and a worse-than-coin-flip one.** `PRED-CREED-009` was written at **30%** — i.e. CREED said *probably not* — and it resolved **TRUE**. Brier = (0.30 − 1)² = **0.49**.
+| ID | Call | Conf | Outcome | Side | Brier |
+|---|---|:--:|---|---|---:|
+| `PRED-CREED-009` | matured-balloon share sustains >50% | 30% | **TRUE** | ✗ wrong | 0.49 |
+| `PRED-CREED-003` | large-bank CRE PDNA RISES on Q2 QBP, ending the streak | 35% | **FALSE** | ✓ right | **0.1225** |
+
+**`PRED-CREED-003` resolved FALSE and CREED was on the correct side of it.** Called at **35%** — *probably not* — and the FDIC Q2 QBP showed large-bank CRE PDNA **falling** (>$250B nonfarm-nonresidential **2.73% → 2.48%, −25bp**; all-institutions **1.66 → 1.52**, which the QBP itself names the largest quarterly PDNA decline of any portfolio). Brier = (0.35 − 0)² = **0.1225**. Mean Brier improves **0.49 → 0.306**.
+
+> ⚠️ **Do not read that improvement as calibration improving.** It is two observations, and §the finding below is that *neither* of them scored for the reason its rationale gave.
 
 > ⚠️ **n=1 is not a calibration read.** One resolution cannot distinguish a bad process from an unlucky draw, and the Brier number above must not be quoted as CREED's calibration. **What IS readable at n=1 is the RATIONALE**, and that is where the finding is.
 
-### 🔴 The finding: the confidence was low for a reason that was FALSE WHEN WRITTEN
+### 🔴 The finding at n=1: the confidence was low for a reason that was FALSE WHEN WRITTEN
 
 `009`'s registered rationale held it at 30% **explicitly** on data-availability grounds:
 
@@ -31,7 +38,29 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 **Rule adopted 2026-08-20:** *before pricing a prediction low on resolvability, establish that the datum is genuinely unpublished rather than merely unfetched.* Same root cause, same channel, same session as FORUM 5 item **W1** (`VX-CREED-3.01`, where CREED and HOMER both declared a published figure "not published" after reaching only the Connect-CRE secondary). **Two independent instances of one defect, found the same day — a process finding, not two coincidences.**
 
-**Next resolutions due:** `PRED-CREED-003` (FDIC Q2 QBP, ~8/24–8/29) · `PRED-CREED-006`+`010` joint (MBA Q2, ~mid-Sept) · `001`/`002` (Aug Trepp prints, ~early Sept).
+### 🔴🔴 The finding at n=2 — **THE SAME DEFECT, ON THE OTHER SIDE OF THE SCORE**
+
+`003`'s registered rationale priced it below 50% on an explicit factual premise:
+
+> *"Below 50% deliberately: **the series has improved for SIX straight quarters**, the Q1 print was still improving…"*
+
+**That premise is not verifiable on any source CREED can currently reach, and it is FALSE on the nearest available one.** Grading this prediction forced the first like-for-like pull of the cited cell across four QBP editions, and the >$250B nonfarm-nonresidential PDNA series reads **Q3-25 3.20 → Q4-25 3.23 → Q1-26 2.73 → Q2-26 2.48**. **Q4-2025 is a RISE.** There is no six-quarter streak on that basis, and the same pull showed the row's **3.40% baseline cannot be reproduced from the FDIC Q1 2026 QBP it cites at all** (`KB-CREED-024`).
+
+**So both of CREED's two graded predictions were priced on premises that did not hold — and the scoring is uninformative about the model in both cases:**
+
+| | `009` | `003` |
+|---|---|---|
+| Premise in the rationale | "CREED does not receive the composition split" | "the series has improved for six straight quarters" |
+| Was it true when written? | **No** — Trepp published it monthly | **Not verifiable; false on the only basis reachable** |
+| Resolved | TRUE | FALSE |
+| Scored | **badly** (0.49) | **well** (0.1225) |
+| What the score tells us about CREED's model | **nothing** | **nothing** |
+
+> 🔴 **This is the sharper version of the 8/20 rule, and it now has two instances pointing opposite ways.** A prediction priced on a false premise is not a forecast — it is a coin weighted by an error, and **the Brier score cannot tell you which.** `009` looked like bear-skew and was a broken input; `003` looks like well-judged restraint and rests on a streak that is not in the data. **A good score from a bad premise is the more dangerous of the two, because nothing prompts anyone to look.**
+>
+> **Rule extended 2026-08-27:** *before pricing a prediction on a stated fact about a series' own history — its streak, its trend, its level — pull that history.* The 8/20 rule covered **resolvability** premises; this one covers **baseline** premises. **Both defects were invisible until a resolution forced a primary pull**, which is the argument for pulling at WRITE time.
+
+**Next resolutions due:** `PRED-CREED-006`+`010` joint (MBA Q2, ~mid-Sept) · `001`/`002` (Aug Trepp prints, ~early Sept) · `004` (8-K/earnings, by 12/31).
 
 ### Excluded from calibration (recorded for provenance only)
 
@@ -41,13 +70,13 @@ Tracks resolution outcomes and calibration for CREED's pre-registered prediction
 
 ---
 
-## OPEN BOOK (9 open, 1 resolved) — what each one actually tests
+## OPEN BOOK (8 open, 2 graded + 1 excluded) — what each one actually tests
 
 | ID | Conf | Resolves | Tests |
 |---|:--:|---|---|
 | `001` | 40% | Trepp monthly DQ, by 12/31 | office DQ >12% **and holds 2 consecutive** — the "holds" clause is doing the work. **Jul print in: 11.91% (+34bps), still 9bps below trigger — NOT resolved, largest MoM move since Jan** |
 | `002` | 45% | Trepp monthly SS, by 12/31 | office SS crosses **18%** (the S1 trigger). ⚠️ **UPDATED 8/20 — the trajectory REVERSED and this row had missed it.** July SS **16.58% (−53bps)**: now **142bps away and MOVING AWAY**, not "89bps away at +36bps/mo". **The direction, not just the distance, was stale.** Trepp attributes the fall to workout/resolution activity on the seasoned book — **not** to absent distress, which is entering via the DQ door instead. **Confidence UNCHANGED at 45%** — the resolution window runs to 12/31 and one month against does not re-price a 4-month call. |
-| `003` | **35%** | **FDIC Q2 QBP, ~late Aug** | **S3's actual trigger** — large-bank non-owner CRE PDNA rising vs Q1's 3.40%. *The single most decision-relevant open item* |
+| ~~`003`~~ | ~~35%~~ | **RESOLVED-FALSE 2026-08-27** | S3's trigger — **did NOT rise.** >$250B CRE PDNA 2.73 → **2.48** (−25bp), 2nd straight decline; reserve coverage 166.8 → **172.7**. `CREED-T-03` **NOT FIRED**. **Moved to SCORE above.** ⚠️ Its "six straight quarters" premise does not survive the primary pull — see the n=2 finding |
 | `004` | 60% | 8-K / earnings, by 12/31 | a **4th** CRE mREIT cuts / reviews / winds down — does ARI's template propagate? |
 | `005` | 70% | ARI proxy + vote | dissolution actually **approved** (board-resolved ≠ approved) |
 | `006` | **30%** ⚠️ | MBA Q2, ~mid-Sept | the **aggregate** life-insurer line rises **≥ +$10.0B** *(re-spec'd 7/27 — see below)* |

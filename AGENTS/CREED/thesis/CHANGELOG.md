@@ -1,5 +1,21 @@
 # CREED Thesis Changelog
 
+## 2026-08-27 · `CREED-T-03` **GRADED NOT FIRED** on the FDIC Q2 QBP — and grading it impeached its own baseline
+
+**The second trigger grade in CREED's history, and the first CLEAN one.** Convergence **UNCHANGED at 25/45**; **S3 held at 2 on the evidence.** The thesis did not move — but it moved from *assumed* to *tested*, which is the point of the window.
+
+**1. `CREED-T-03` NOT FIRED — all three conjunctive legs fail.** Reserve coverage **166.8% → 172.7% (+5.9pp, IMPROVED)**; direction **falling on every basis** (>$250B nonfarm-nonres CRE PDNA **2.73 → 2.48%**; all-institutions **1.66 → 1.52%**, the largest quarterly PDNA decline of any portfolio); level **2.48%** vs a `>3.40` band. FDIC Q2-2026 QBP published 8/25, **PRIMARY-READ** (own download, `pdfminer`). ⚠️ **The grade rests deliberately on the reserve-coverage leg, which is BASIS-INDEPENDENT** — a single industry-wide figure with no perimeter ambiguity — **because the spec is an AND and that leg alone blocks the fire regardless of item 2.**
+
+**2. 🔴 The trigger's registered BASELINE is impeached (`KB-CREED-024`) — PROPOSED TO WILL, not self-fixed.** `VX-4.01`'s **3.40% "[FDIC Q1 2026 QBP]"** cannot be reproduced from that document, whose cell reads **2.73%**. Four QBP editions read directly: **Q3-25 3.20 / Q4-25 3.23 / Q1-26 2.73 / Q2-26 2.48**. Stale-vintage hypothesis **tested and refuted**; different-series hypothesis **supported** (the QBP publishes nonfarm-nonresidential *combined* and no non-owner-occupied-only PDNA anywhere). The row's **"6th straight improving quarter"** claim also fails — **Q4-25 is a rise**. ⚠️ **Consequence: the level leg was not gradeable on the registered basis; T-03 graded correctly this quarter only because the other two legs were decisive.** **Third registry-pointer defect in eight days** (after `T-08a`→wrong vector, `T-01b`→DQ-on-an-SS-bar) — **all three read fine, so every row-counting and fire-state audit passes clean.**
+
+**3. 🟠 The improvement is RECOGNITION, not healing, and it splits by bank size (`KB-CREED-023`).** Regionals ($10B–$250B) are **foreclosing** — CRE OREO **+26.4% in one quarter** while their PDNA fell 17bp, a build ~**18% the size of** their PDNA decline. Large banks (>$250B) are **charging off** — OREO **−8.9%** but CRE net charge-offs **0.14% → ~0.22% Q2-standalone annualized (+57%)**. C&D PDNA at >$250B **+3bp**, the only CRE-family category rising there. ⚠️ **Accounting-scale comparison, not attribution — OREO and PDNA are both stocks and the flow between them is not observable.** **Does not move S3**; it is the surface to watch into Q3, and it is **REGINALD's territory.**
+
+**4. The synthesis — the Q2 print CONFIRMS the capital-structure read.** Buildings leasing better (CBRE **+12.6M sf**), lenders easing (LIQUID/SLOOS nonfarm-nonres net **−11.3**), banks' own CRE books cleaning up — and **$3.96B of matured balloons still could not clear in a single month.** ⇒ **The binding constraint is the ASSET AGAINST THE COUPON, not tenant demand and not lender appetite. That is why T-02 fired and T-03 and T-07 did not, and it narrows the bear case to VALUES AND DEBT.**
+
+**5. `PRED-CREED-003` RESOLVED FALSE** (35%, correct side, Brier **0.1225**). Scoreboard **n=2, 1/2, mean 0.49 → 0.306**. ⚠️ **Not calibration improving:** `003` was priced low on *"the series has improved for six straight quarters"* — **false on the only basis reachable.** **Both graded predictions were priced on premises that did not hold; one scored badly, one well, neither for its stated reason.** Rule extended: *before pricing a prediction on a stated fact about a series' own history, pull that history.*
+
+**⚠️ What did NOT change:** no band, op, sustain, threshold or confidence moved (registry verified 11 rows / 10 columns, bands byte-identical); convergence unchanged; base case unchanged; `CREED-T-02` still FIRED and still read narrowly as a **CMBS-recognition event, not a bank event** — this print is the strongest evidence yet for that framing and must not be rounded up.
+
 ## 2026-08-20 · **FIRST TRIGGER FIRE.** `CREED-T-02` (S2) FIRED — convergence 23/45 → 25/45
 
 **The first analytical escalation in CREED's history, and the first time "this window escalated the thesis" is a true sentence** (7/27 explicitly did not — it resolved a blended vector).
