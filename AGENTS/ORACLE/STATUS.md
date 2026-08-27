@@ -37,7 +37,7 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 | Fed hike at Sept mtg (>3.75%) | Kalshi | ⟳ **31.0%** | −2.0 | — | 391.2K ct | **T6 canonical** · tight 1¢ book, mid 30.5 |
 | Fed: HIKE in 2026 (aggregate) | PM | 57.5% | — | **+8.0** | $8.0M | **+9.0pp off the 48.5% low (8/18)** — *not* the 54.5% 8/12 figure this cell first named |
 | Fed: HIKE by Oct (cumulative) | PM | 44.5% | — | +4.0 | $504.6K | |
-| Fed: NO cuts 2026 | PM | 87.9% | +0.6 | +1.5 | $7.6M | |
+| Fed: NO cuts 2026 | PM | 88.2% | +0.9 | +2.2 | $7.6M | range-bound 84.7–89.3 since 7/22 |
 | US recession 2026 | PM | 8.5% | — | +1.0 | $1.7M | crowd calm |
 | Recession 2026 (NBER) | Kalshi | ⟳ 6.0% | −1.0 | — | 3.4M ct | 2.5pp from PM |
 | August CPI print (modal) | PM | 48.0% | +0.5 | **+7.0** | $13.4K | ★ rolled today; prints ~9/11 |
@@ -45,7 +45,7 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 | US credit rating downgrade 2026 | Kalshi | 12.0% | — | — | 74.7K ct | was 14.0% 8/12 |
 | Major bank bailout before 2027 | PM | 8.0% | +1.5 | −0.5 | $4.1K ⚠️ | |
 | US bank failure by Dec 31 | PM | 55.5% | −3.0 | — | $1.3K ⚠️ | ★ re-pinned (relisted slug) |
-| Which banks fail by EOY (top) | PM | 3.9% | +0.7 | −0.1 | $8.3K ⚠️ | |
+| Which banks fail by EOY (top) | PM | 3.6% | +0.4 | −0.4 | $8.3K ⚠️ | 3.1–4.2% band for 5 weeks — no name priced |
 
 ### Tier 2 — catalyst / theater
 | Market | Plat | Now | Δ1d | Δ7d | Vol | Note |
@@ -61,7 +61,7 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 | Russia-Ukraine ceasefire by Dec 31 | PM | 20.5% | −3.0 | −2.5 | $2.2M | |
 | BOJ September decision (top) | PM | 87.5% | +1.5 | +3.0 | $122.1K | |
 | BOJ September decision | Kalshi | ⟳ 92.0% *last* / **89.5 mid** | +6.0 | — | 42.4K ct | ⚠️ **cite the MID** — 87/92 book, last sits AT the ask on 797 ct/24h. On the mid basis the move is **+3.5pp**, not +6.0 → SAM, BOND |
-| AI bubble burst 2026 | PM | 11.5% | −1.5 | −1.9 | $2.3M | fading → BROCK |
+| AI bubble burst 2026 | PM | 11.6% | −0.5 | −1.9 | $2.3M | fade DECELERATING (−5.9pp to 8/09, −2.5pp since) → BROCK |
 | China invade Taiwan before 2027 | PM | 4.0% | −0.4 | +0.1 | $40.4M | |
 | Corporate bankruptcies 2026 >750 | Kalshi | 83.0% *last* / **86.5 mid** | — | — | 6.2K ct | ⚠️ 7¢ book — **understated 3.5pp** on the last-trade basis this dashboard used until today |
 

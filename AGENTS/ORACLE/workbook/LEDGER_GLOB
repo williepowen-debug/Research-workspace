@@ -1,0 +1,42 @@
+# ORACLE — declared ledger perimeter for scripts/ledger_staleness.py
+# Whitespace/newline-separated globs, relative to the AGENT DIR (AGENTS/ORACLE/) —
+# NOT to workbook/. A workbook-relative path matches 0 files and the tool fails
+# loud with MISCONFIGURED, which is how this file was corrected on first run.
+#
+# WHY THIS FILE EXISTS (added 2026-08-27, Will-directed sweep):
+#   ORACLE had NO LEDGER_GLOB, so the staleness pass ran on defaults and reported
+#   "8 ledger(s) scanned" while printing a row for only six. HISTORY.tsv — 7,117
+#   rows, load-bearing for every trajectory claim — was inside the scanned COUNT
+#   and absent from the OUTPUT, and it sat 15 days stale (data stopped 2026-08-12)
+#   while the pass read clean. Counted-as-covered is not covered.
+#   Declaring the perimeter makes each ledger named and individually reportable
+#   instead of silently folded into a total.
+#
+# ⚠️ SCHEMA.tsv is deliberately EXCLUDED: it is a column spec, not a data ledger,
+#   and has no vintage to be stale against. Excluding it is a decision, not an
+#   oversight — do not "fix" it back in.
+#
+# ⚠️ T6_PIN.tsv is event-scoped (T6 closes 2026-08-29). Once T6 grades, either
+#   FREEZE it with a banner or drop this line — do not leave it live and rotting,
+#   which is the exact two-state rule it would otherwise violate.
+workbook/ODDS_LOG.tsv
+workbook/KALSHI_ODDS_LOG.tsv
+workbook/HISTORY.tsv
+workbook/KB.tsv
+workbook/VX.tsv
+workbook/DISRUPTION_SUPPLY_SPREAD.tsv
+workbook/TRADE_MARKS.tsv
+workbook/T6_PIN.tsv
+#
+# ⚠️⚠️ KNOWN UNFIXED, NOT MINE TO FIX (2026-08-27) — DECLARING THE PERIMETER DID
+#   NOT MAKE HISTORY.tsv REPORTABLE. With this file in place the pass says
+#   "8 ledger(s) scanned" and prints SEVEN rows. HISTORY.tsv is the silent one,
+#   in BOTH the default and the declared configuration.
+#   Ruled out: it is declared; its git-commit vintage resolves (2026-08-27), so
+#   the documented fallback should yield a row.
+#   Distinguishing feature vs the 7 that DO print: HISTORY.tsv is the only one
+#   with no `ts`-named column — its date column is `date` (TRADE_MARKS.tsv has
+#   `date` AND `ts`, and prints).
+#   ⇒ A file can be inside the scanned COUNT and absent from the OUTPUT. Read
+#   "N scanned" as a claim about the perimeter, never as coverage of N files.
+#   scripts/ledger_staleness.py is PROME's — reported, not patched.

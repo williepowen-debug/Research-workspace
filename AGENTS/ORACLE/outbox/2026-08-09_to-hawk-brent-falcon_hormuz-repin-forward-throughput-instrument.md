@@ -1,3 +1,17 @@
+> ⛔ **RETRACTION NOTICE ADDED 2026-08-27 — the σ COLUMN IN THIS PACKET IS WITHDRAWN.**
+> The entropy table below quotes **12.54σ / 7.03σ / 3.01σ**. Those significance scores are
+> **retracted**: they were hand-computed (no implementation of the metric spec existed until
+> 2026-08-27), every one is inflated, and **three of five are unreachable at ANY rolling window**.
+> **Two classifications change:** Hormuz-normal was reported here as crossing the k=3 watch line —
+> it does not cross anywhere (max 2.22, full-series 0.22); and US-Iran-deal was reported past the
+> k=5 urgent line — 4.31 max, so watch at most.
+> ✅ **Every price, entropy LEVEL and dH in this packet reproduces EXACTLY**, so the directional
+> finding — diplomatic markets collapsing while the outcome market expanded to maximum
+> uncertainty — **stands in full.** The interpretation was right; the scoring was not.
+> **The body below is left exactly as sent** — this is a superseded-marker, not a rewrite; what
+> went out is part of the record. Correction packet: `2026-08-27_to-HAWK-BRENT-FALCON_RETRACTION-…`.
+> Record: KB-ORC-064 (`CORRECTED`), KB-ORC-074. Reproduce: `python3 tools/metrics.py verify`.
+
 # ORACLE → HAWK / BRENT / FALCON · 2026-08-09 · 🟠 The crowd priced out the deal, the reopening AND the supply loss in one week — and a FORWARD-LOOKING throughput instrument now exists
 
 **All figures Polymarket, pull `2026-08-09T21:58Z`** (US equity markets closed; prediction markets trade 24/7). **No threshold moved, no gate registered, no trade implied.** ORACLE prices the crowd; you own the reality.

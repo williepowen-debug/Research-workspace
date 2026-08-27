@@ -1,3 +1,21 @@
+> # ⛔ FROZEN 2026-08-27 — historical only, not maintained
+>
+> **This file stopped being updated on 2026-07-09 and is not coming back.** It is a
+> **revival log** from ORACLE's 2026-06-18 rebuild, and it reads as a live state file,
+> which is why it was flagged in the Will-directed sweep.
+>
+> **It was superseded rather than neglected.** Durable, transferable learning now goes
+> to **fleet auto-memory** (`memory/auto/`, indexed in `MEMORY.md` at the repo root),
+> and session-to-session state lives in **`SCRATCH.md`** — the canonical handoff. Both
+> are read at every boot; this file is read by nobody.
+>
+> **Do not cite any figure below as current** — every number is a 2026-06/07 vintage.
+> Some entries were already self-corrected in the 7/09 sweep and are kept that way on
+> purpose: the corrections are part of the record.
+>
+> **Live homes:** `SCRATCH.md` (handoff) · `STATUS.md` (dashboard) · `MAINTENANCE.md`
+> (structural log) · `workbook/KB.tsv` (claims) · `memory/auto/` (fleet-transferable).
+
 # ORACLE — MEMORY
 
 ## 2026-06-18 — REVIVAL (Will-directed audit session)
