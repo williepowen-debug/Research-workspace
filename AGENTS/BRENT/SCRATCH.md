@@ -75,7 +75,7 @@
 
 | Ledger | Disposition |
 |---|---|
-| **`TRADE.md`** | ⏳ **REFRESH AT 09:30 OPEN** — 11+ days stale as of session start (WAS the exact defect flagged 8/21). |
+| **`TRADE.md`** | ✅ **REFRESHED 08:35 ET via 8/26 last-trade prints (options market pre-open)** — new LIVE-VINTAGE COMPANION table added, 8/21 table untouched. **Book NOW `−$611.23 / −9.5%` vs basis (was `+$837.62 / +13.0%` [8/21 14:2x]) — swung `−$1,448.85` in 6 sessions.** Undefended-linear share `65.2% → 76.4%`, exactly the 8/21 STAR note's predicted reversal on the way down. **DECISION-RELEVANT: 8/21 SELL-ONE ruled at mid $10.35, 8/26 last-trade $5.70 — if unstaged, ~$465/contract of harvest opportunity has degraded.** Follow-up packet sent to PROME. |
 | **`INCIDENTS.tsv`** | ⏸️ NOT touched this session (no new strike events verified at primary; existing 12 ACTIVE + 6 unbudgeted stay past 60d budget per boot flag). |
 | **`REGISTRY.tsv`** | ⏸️ NOT touched this session (no new registrations, no level changes). |
 | **`LESSONS_INDEX.tsv`** | ⏸️ NOT touched this session (no new lesson coined; the "NAME THE CONTRACT" reporting rule from the BZ=F roll is a candidate for L26 if it reifies — flagged, not authored). |
