@@ -28,7 +28,7 @@ VX-CREED-2.02	2026-06	11.20	ORANGE	+34bps, resumed rising. $66.76B of a $595.84B
 VX-CREED-2.03	2026-05	5.22	YELLOW	Office SS minus office DQ (16.75 - 11.53) — derived
 VX-CREED-2.03	2026-06	5.54	YELLOW	(17.11 - 11.57). WIDENED +32bps = extensions/forbearance still absorbing; servicers taking loans in on maturity events without letting them go delinquent.
 VX-CREED-3.01	2026-06	9.53	ORANGE	CMBS maturity-adjusted DQ — a NEW MULTI-YEAR HIGH. The honest read; the 7.35% headline understates the overhang.
-VX-CREED-4.01	2026-Q1	3.40	ORANGE	Bank non-owner CRE PDNA (>$250B) — 6th consecutive quarterly improvement, down from the Q3-2024 peak of 4.99%. Pre-pandemic 0.58%. COUNTER-DIRECTION.
+VX-CREED-4.01	2026-Q1	3.40	ORANGE	*** SUPERSEDED-IN-PLACE 2026-08-27 — PRE-DEFECT VINTAGE, DO NOT CITE AS THE Q1 LEVEL. *** This row and the '2026-03-31 / 2.73' row below are THE SAME QUARTER, 67bp apart, on different period keys — read them together or not at all. The 3.40 is NOT reproducible from the FDIC Q1 2026 QBP it was sourced to (that cell reads 2.73); basis unidentified, Will-gated (KB-CREED-024). Its '6th consecutive quarterly improvement' claim is FALSE on the QBP basis — the 2025-12-31 row (3.23, +3bp) is a RISE. RETAINED as the evidentiary record of what this desk carried, not as a level. [original text: 'Bank non-owner CRE PDNA (>$250B) — 6th consecutive quarterly improvement, down from the Q3-2024 peak of 4.99%. Pre-pandemic 0.58%. COUNTER-DIRECTION.']
 VX-CREED-4.02	2026-Q1	146.6	ORANGE	Community-bank reserve coverage. Industry overall 166.8%.
 VX-CREED-4.03	2026-Q1	1.53	GREEN	Overall bank PDNA
 VX-CREED-7.01	2026-07-04	-2.90	GREEN	VNQ vs SPY, 3mo relative (pp). Counter-signal.

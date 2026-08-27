@@ -1,8 +1,28 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — **2026-08-20 AFTERNOON** (second session this day, fresh context; ~11:46 ET boot, Thu, US markets OPEN). Will-directed: **fix the S8a dead pointer** and **resolve `VX-CREED-9.03`**. Both done. **Three Will-ruled sweep decisions executed mid-session; AWAITING-WILL block CLEAR.** **No trigger state changed — `CREED-T-02` stays FIRED, `CREED-T-03` stays not-fired, base case and convergence (25/45) unchanged.**
+**STATUS:** DONE — **2026-08-27 (FDIC Q2 QBP window session)**. The mandatory in-window spawn (PROME brief `2026-08-23`, Will-ruled). **`CREED-T-03` GRADED NOT FIRED** on all three conjunctive legs, decided on the **basis-independent** reserve-coverage leg (166.8% → 172.7%). **`PRED-CREED-003` RESOLVED FALSE** (Brier 0.1225, n=2). **Grading the trigger impeached its own registered baseline** (`KB-CREED-024`) — proposed to Will, not self-fixed. **No band, op, value or sustain moved; convergence 25/45 UNCHANGED; S3 held at 2.**
 
-> ✅ **Refreshed at this closeout.** ⚠️ **The morning session's stamp is superseded but its content is not** — that window's fire, K5 and W1 findings all stand.
+> ⚠️ **THIS STAMP WAS WRITTEN RETROACTIVELY on 2026-08-27 by the follow-on boot session, NOT at the 8/27 closeout.** The 8/27 closeout **skipped this file** — the third consecutive skip (7/20, 7/27, 8/27) — so between that closeout and this write the file advertised the **8/20 AFTERNOON** session as CREED's last completion while `STATUS.md` was a full window newer. **Recorded as a skip, not smoothed into a normal stamp:** the ⑨ block below is a reconstruction from committed artifacts (`988ad3614`, `0f12571d1`), not a contemporaneous closeout record, and **`README.md`'s own rule was correct to call such a gap UNKNOWN.**
+>
+> ⚠️ **The 8/20 AFTERNOON stamp is superseded but its content is not** — that window's S8a withdrawal, `VX-9.03` re-spec, the L2→L3 promotion and the pointer pass all stand, and §①–⑧ below are retained verbatim as that window's record.
+
+---
+
+## ⑨ THE 2026-08-27 WINDOW — reconstructed from the commit record
+
+**Executed:** whole-inbox drain (5 items, 4 senders, all logged to `board_log.tsv` at READ time and `git mv`'d to `processed/`) · **five QBP PDFs downloaded and parsed directly with `pdfminer`** (Q3-25, Q4-25, Q1-26, Q2-26, + a Q1-25 attempt) — **PRIMARY-READ throughout, no secondary used for any figure** · `CREED-T-03` graded · `PRED-CREED-003` resolved · **fifth enforcement of the 320-line split** (8/20 AFTERNOON → `archive/`; STATUS 342 → 287) · four packets written and committed (REGINALD, LIQUID, HOMER, PROME) with **all three domain recipients DARK — rule-6b doorbell to PROME** · two findings routed to DAEDALUS (`121024a91`).
+
+🔴 **THE FINDING:** `CREED-T-03`'s registered `3.40` baseline **is not reproducible from the FDIC Q1 2026 QBP it cites** (that cell reads **2.73%**). Stale-vintage hypothesis **tested and REFUTED**; different-series hypothesis **supported**. **Third registry-pointer defect in eight days** (`T-08a` wrong vector, `T-01b` DQ-on-an-SS-bar, now `T-03` baseline-not-in-source) — **all three share one shape: the row EXISTS and READS FINE**, so every row-counting, fire-state and count audit passes clean. `creed_selfcheck` was **green through the entire session**. ⚠️ **T-03 graded correctly ONLY because the other two legs were decisive — a trigger that grades by luck reads exactly like a trigger that works.**
+
+**CHECKS (8/27 session):** `creed_selfcheck` **exit 0** · STATUS **287 lines, under trigger** · both mail lanes **clean**.
+
+⚠️ **CARRIED, NOT DONE:** **CORAL's FL feed** (accepted 8/3 — **oldest un-discharged commitment; two sessions have now named it and neither did it**) · **HOMER's MF maturity-adjusted DQ + SS rate** on the next whole-Trepp pull (no cadence promised) · **the BOOT-TIME THRESHOLD SCAN, still unbuilt** — `T-01a` sits **9bp** from its band with the August Trepp print due ~early Sept.
+
+⚖️ **AWAITING WILL (2 basis items):** the `VX-4.01`/`T-03` baseline defect, and the older `T-08a` basis declaration + like-for-like re-anchor rider. ⛔ **Never reconcile by moving a band to fit the value.**
+
+---
+
+## PRIOR WINDOW — 2026-08-20 AFTERNOON (superseded as the stamp; content stands)
 
 ## ① THE DEAD POINTER — AND FIXING IT IMPEACHED THE FIGURE IT WAS BUILT TO REPRODUCE
 
