@@ -6,6 +6,13 @@
 
 ## Changelog
 
+### 2026-08-26 — R1 corrections boot leg SHIPPED + blueprint REQUIRED element ×3 variants (FORUM-6 ruling ① executed; pairing entry)
+
+**Change:** (1) `scripts/corrections_boot_check.py` CREATED — the fleet's generic R1 boot leg (check / receipt-writer / coverage modes; §9 rc 0/1/2; NAMED-rows-BLOCK / ALL-rows-WARN per the ruling; A2: unparseable date = rc=2 CANNOT-EVALUATE, never a row-skip). (2) **All three blueprint variants gain the R1 boot-leg REQUIRED element** — full contract at `market-agent.md` (beside the ledger-staleness/cwd-proof hygiene bullets), utility/meta cite it. Rollout NEXT-TOUCH; ≥80% active-desk coverage due 9/26 (DOCKET 204). (3) DAEDALUS boot **5b** wired as desk #1 (charter edit net-neutral against the byte budget).
+**Provenance:** FORUM-6 ruling ① APPROVED-as-presented (Will 8/17, record `FORUM/.../06_PROME_rulings-record.md`); build Will-directed in-session 8/26 (*"proceed with the R1 boot leg build"*); interface = the 8/26 DAEDALUS↔WALTER handshake packet pair (CONCUR + A1–A3, both on origin).
+**Verification:** every rc path watched incl. a REAL block case off WALTER's same-night seed rows (VIOLET, `COR-20260826-01`) and the full block→receipt→clean arc; two parser defects found-and-fixed during the battery (`#`-banner house style — hours after my own profile documented it, PAT-050 n+1 — and an out-of-tree `relative_to` crash on the commit-hint line).
+**Residue, registered not hidden:** coverage baseline **0/37**; first tranche + published % = 8/28 sweep leg ①. `CHECKS.tsv` breached its read-cap watch (91%→**113%**, partly pre-existing growth — vintage of the 8/23 91% figure unverified) — fix at leg ㉔, trim/rotate/relocate, never raise.
+
 ### 2026-08-23 (c) — Boot spine repaired: FLEET_MAP.tsv goes COLD, `FLEET_DIRECTORY.md` becomes the SPAWN step-2 read; Gaps narrative rotated to HISTORY
 
 **Trigger:** Will's ruled next-session sequence, verbatim *"we will clear our context here and start the next session with 1 and then 2 3"* — item ① being the FLEET_MAP read-cap breach opened in entry (b). Ordering was declared a DEPENDENCY: running the Falsification sweep (the held-L5 proof point) off a knowingly-truncating boot would be the wrong way to earn a grade.
