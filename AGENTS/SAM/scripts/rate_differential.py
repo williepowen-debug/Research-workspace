@@ -108,10 +108,16 @@ def main():
     near = [(lab, abs(100*(g-b))) for lab, g, b in (("5Y", cur5, BAR_5Y), ("10Y", cur10, BAR_10Y))]
     tight = [f"{lab} ({d:.1f}bp)" for lab, d in near if d < RESOLUTION_FLOOR_BP]
     if tight:
-        print(f"\n  ⚠️  BELOW RESOLUTION FLOOR: {', '.join(tight)} sits within {RESOLUTION_FLOOR_BP:.0f}bp of its bar.")
-        print(f"     The legs share a DATE but not a MOMENT (US ~15:00 ET vs Tokyo close, ~14h).")
-        print(f"     A distance this small is smaller than the asynchrony — the instrument CANNOT")
-        print(f"     resolve it. Report as UNRESOLVED-AT-THIS-PRECISION, never as a crossing.")
+        print(f"\n  ⚠️  TIGHT MARGIN: {', '.join(tight)} sits within {RESOLUTION_FLOOR_BP:.0f}bp of its bar.")
+        print(f"     The legs share a DATE but not a MOMENT (US ~15:00 ET vs Tokyo close, ~14h),")
+        print(f"     so a near-bar reading is FRAGILE TO THE ALIGNMENT CHOICE — run the")
+        print(f"     no-lookahead alignment (US lagged 1d) before relying on it.")
+        print(f"  ⛔ THIS IS A PROMPT TO TEST, *NOT* A REASON TO WITHHOLD A GRADE. On 2026-08-27")
+        print(f"     I withheld SAM-41 on exactly this line and was WRONG: I had conflated the")
+        print(f"     series' VOLATILITY (2.9bp/day) with MEASUREMENT ERROR. Both legs are official")
+        print(f"     published closes; the difference is exact. There is no error bar to be inside")
+        print(f"     of. The robustness test then confirmed the run under both alignments (and it")
+        print(f"     was LONGER under the stricter one). Test the alignment; do not refuse to grade.")
 
     # base rate: 40% was judgment, not calibration (SAM's own standing note)
     below5 = sum(1 for v in g5s if v < BAR_5Y); below10 = sum(1 for v in g10s if v < BAR_10Y)
