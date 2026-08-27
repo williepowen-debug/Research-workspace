@@ -24,6 +24,13 @@ class PreparePilotTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             clone = Path(temporary) / "mirror"
             subprocess.run(["git", "clone", "-q", "--no-hardlinks", str(REPOSITORY), str(clone)], check=True)
+            # Mirror the PINNED source commit, not the live HEAD: pilot LIVE-2026-0001
+            # committed the real submissions at the exact path prepare() exclusive-creates,
+            # so a HEAD-state mirror collides forever after the first live sitting (C8 N4).
+            subprocess.run(
+                ["git", "-C", str(clone), "checkout", "-q", "--detach", "1d9400425f7415083a9ffbd10964670bf255abf2"],
+                check=True,
+            )
             (clone / ".gate-c-synthetic-mirror.json").write_text(
                 json.dumps({"authority": "NON_AUTHORITATIVE", "mode": "SYNTHETIC_MIRROR"}), encoding="utf-8"
             )
