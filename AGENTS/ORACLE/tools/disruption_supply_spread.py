@@ -81,7 +81,7 @@ RESOLVED_PROB = 0.99
 # Below this, a single small bet moves the print; ORACLE's standing thin-liq bar.
 THIN_LIQ = 5000.0
 
-REGIME = "v3-aug-wti-supply-leg"  # bumped 2026-07-31 on July→August WTI-$100 roll (July resolved 8/1 at 0.1%; fresh month-start contract has more days-to-touch, structurally higher). Non-comparable to v2 rows.
+REGIME = "v4-sep-wti-supply-leg"  # bumped 2026-08-27 on August→September WTI-$100 roll. The August leg exited at 0.8% (5 days-to-touch left); September entered at 22.5% (full month). ⚠️ THAT 21.7pp STEP IS THE ROLL, NOT A REPRICING — the spread mechanically narrows ~+66.7 → ~+45 on the swap alone. NEVER chart v4 against v3. Prior bump 2026-07-31 (July→August, same structural reason: a fresh month-start contract has more days-to-touch and is structurally higher).
 
 OUT_HEADER = ["ts", "regime",
               "disruption_slug", "disruption_label", "disruption_prob", "disruption_liq",
@@ -166,7 +166,21 @@ def main():
     supply_prob = supply_prob_raw * 100
     spread_pp = disruption_prob - supply_prob
 
+    # CONTEXT COLUMN GUARD (added 2026-08-27) — the closure event is a by-DATE LADDER and
+    # ODDS_LOG stores only its "top = highest-prob" leg. Once an early rung settles, that
+    # rung is pinned at 100% forever and becomes the top leg, so this column silently
+    # reported a DEAD JULY-31 RUNG as the live closure tail from 2026-08-09 through
+    # 2026-08-27 (six consecutive sessions at 100.00; last honest value 10.50 on 08-02).
+    # The RESOLVED_PROB guard already existed and was correct -- it had simply never been
+    # WIRED to this column, only to the two arithmetic legs (`finding_guard_correctness_
+    # _and_wiring_are_independent`). A settled rung is now SUPPRESSED AND MARKED rather
+    # than logged as a live probability: a marked gap stays readable, a stale 100% does not.
+    # Live rungs on 2026-08-27 for reference: by-Aug-31 11.1%, by-Sep-30 26.0% (read via
+    # `polymarket.py search "0 ships transit hormuz"`, not available from the top-leg log).
     closure_prob = (_f(closure["yes_prob"]) * 100) if closure else None
+    closure_stale = closure_prob is not None and closure_prob >= RESOLVED_PROB * 100
+    if closure_stale:
+        closure_prob = None
 
     notes = []
     d_day, s_day = disruption["ts"][:10], supply["ts"][:10]
@@ -197,6 +211,10 @@ def main():
     print(f"  Supply leg:     WTI $100 war premium                {supply_prob:5.1f}%   "
           f"(liq {_fmt_liq(supply['liquidity'])}, slug={supply['slug']})")
     print(f"  Spread = {disruption_prob:.1f} - {supply_prob:.1f} = {spread_pp:+.1f}pp")
+    if closure_stale:
+        print("  [context] Hormuz 0-ships closure tail: SUPPRESSED — top leg is a SETTLED rung "
+              "(by-date ladder artifact), not a live tail. Read live rungs via "
+              "`polymarket.py search \"0 ships transit hormuz\"`.")
     if closure_prob is not None:
         print(f"  [context] Hormuz 0-ships closure tail: {closure_prob:.1f}%  "
               f"(bridge between regimes — NOT in the arithmetic)")
@@ -216,7 +234,8 @@ def main():
                     disruption["slug"], "Hormuz transit disruption persists (1 - normal-by-Dec31)",
                     f"{disruption_prob:.2f}", disruption["liquidity"],
                     supply["slug"], f"{supply_prob:.2f}", supply["liquidity"],
-                    f"{closure_prob:.2f}" if closure_prob is not None else "",
+                    (f"{closure_prob:.2f}" if closure_prob is not None
+                     else ("SETTLED-LEG-SUPPRESSED" if closure_stale else "")),
                     f"{spread_pp:.2f}", note])
     print(f"  logged -> {os.path.relpath(OUT_LOG, ORACLE_DIR)}")
 
