@@ -68,6 +68,7 @@ MAG7_SERIES = HERE / "workbook" / "MAG7_SERIES.tsv"
 # inside the 6-WEEK rot that made this instrument necessary — 21d catches that class
 # twice over. (`finding_inherited_default_threshold_is_a_silent_decision`)
 MAG7_MAX_AGE_DAYS = 21
+EDGAR_SEEN = HERE / "workbook" / "EDGAR_SEEN.tsv"
 S4_SERIES = HERE / "workbook" / "S4_SERIES.tsv"
 # TSMC files the monthly revenue 6-K around the 10th for the PRIOR month. The leg
 # therefore reasons in MONTHS, never in days: a day-count bound on a monthly series is
@@ -297,6 +298,83 @@ def workbook_schema():
     return (2 if r.returncode == 2 else (1 if r.returncode == 1 else 0)), (r.stdout or "").rstrip("\n")
 
 
+def edgar_sweep():
+    """Leg 8 — S3/S5 filing sweep: sweep staleness + OPEN filing windows.
+
+    Like legs 3-5 this is ADVISORY and does NOT fetch — boot stays fast and offline-safe.
+    But unlike them it can do real work offline: the cadence windows are computed from the
+    RETAINED LEDGER (form / filed / report_date are all in it), so an open filing window
+    surfaces at boot with zero network calls.
+
+    STALENESS BOUND = 3 DAYS, and the number is DERIVED, not inherited
+    [`finding_inherited_default_threshold_is_a_silent_decision`]. What this instrument
+    measures is 8-K material events, which are unscheduled and can land on any business day,
+    so there is no natural period to key on. The bound therefore comes from the two MEASURED
+    misses that caused this tool to be built: the 2026-08-17 $105B guaranty 8-K sat 4 days,
+    and the 2026-08-26 10-Q would have sat 5. **3 days sits strictly below both, so the
+    guard would have caught each of them** — which is the only calibration claim worth making.
+    """
+    if not EDGAR_SEEN.exists():
+        return 1, ("  EDGAR ledger ABSENT — run: python3 AGENTS/VULCAN/tools/edgar_watch.py"
+                   "\n    (S3/S5 are EVENT-triggered channels; the filing sweep IS their "
+                   "instrument.)")
+    try:
+        rows = list(csv.DictReader(EDGAR_SEEN.open(encoding="utf-8"), delimiter="\t"))
+        if not rows:
+            return 1, "  EDGAR ledger is header-only — run tools/edgar_watch.py"
+        # CONTENT vintage: the newest observation stamp in the file, never mtime.
+        last_run = max(r["first_seen_utc"] for r in rows)[:10]
+        age = (date.today() - datetime.strptime(last_run, "%Y-%m-%d").date()).days
+    except Exception as e:  # noqa: BLE001
+        return 2, f"  EDGAR ledger UNREADABLE ({type(e).__name__}) — inspect EDGAR_SEEN.tsv"
+
+    out, rc = [], 0
+    if age > 3:
+        rc = 1
+        out.append(f"  🔴 EDGAR sweep {age}d STALE (last {last_run}; bound 3d, derived from "
+                   f"the 4d and 5d misses that built this tool)"
+                   f"\n    run: python3 AGENTS/VULCAN/tools/edgar_watch.py")
+    else:
+        out.append(f"  ✓ EDGAR sweep fresh ({age}d, {len(rows)} rows, last swept {last_run})")
+
+    # ── OPEN filing windows, computed offline from the retained ledger ──
+    try:
+        sys.path.insert(0, str(HERE / "tools"))
+        import edgar_watch as EW  # noqa: PLC0415
+        today = date.today()
+        by = {}
+        for r in rows:
+            by.setdefault(r["tick"], []).append(
+                {"form": r["form"], "filed": r["filed"],
+                 "report_date": r["report_date"], "items": r["items"]})
+        for tick, fl in sorted(by.items()):
+            fy = sorted({EW._d(x["report_date"]) for x in fl
+                         if x["form"] in ("10-K", "20-F", "40-F") and x["report_date"]})
+            for form in sorted({x["form"] for x in fl} & EW.PERIODIC):
+                hist = EW.lags(fl, form)
+                if EW.backtest(hist)[0] != "PASS":
+                    continue
+                nw = EW.next_window(hist, today, fy, form)
+                if not nw or nw.get("stale"):
+                    continue
+                if nw["earliest"] <= today <= nw["latest"]:
+                    rc = max(rc, 1)
+                    out.append(f"    🔔 {tick} {form} WINDOW OPEN since {nw['earliest']} "
+                               f"(typical {nw['typical']}, latest {nw['latest']}) — CHECK EDGAR")
+            ec = EW.earnings_cadence(fl, today)
+            if ec and ec["earliest"] <= today <= ec["latest"]:
+                rc = max(rc, 1)
+                lbl = "FQ4" if ec["is_q4"] else "Q"
+                out.append(f"    🔔 {tick} {lbl} EARNINGS window OPEN since {ec['earliest']} "
+                           f"(typical {ec['typical']}) — CHECK")
+    except Exception as e:  # noqa: BLE001
+        # FAIL LOUD. A window leg that silently no-ops is the defect this tool exists to kill.
+        out.append(f"    🔴 window leg FAILED ({type(e).__name__}: {str(e)[:70]}) — windows "
+                   f"NOT evaluated this boot. Do NOT read the quiet as clean.")
+        rc = 2
+    return rc, "\n".join(out)
+
+
 def main():
     print("=" * 72)
     print("  VULCAN BOOT — staleness · predictions · series · catalysts · schema")
@@ -346,6 +424,11 @@ def main():
     wb_rc, wb_msg = workbook_schema()
     print(wb_msg)
     rcs.append(wb_rc)
+
+    print("\n--- 8. EDGAR filing sweep (S3/S5 event instrument) ---")
+    eg_rc, eg_msg = edgar_sweep()
+    print(eg_msg)
+    rcs.append(eg_rc)
 
     print("\n" + "=" * 72)
     if 2 in rcs:

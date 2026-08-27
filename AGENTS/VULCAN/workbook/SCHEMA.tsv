@@ -92,3 +92,14 @@ SCHEMA.tsv	data_type	Enum	String|Integer|Float|Date|Timestamp|Enum	Yes	Type
 SCHEMA.tsv	allowed_values	String	pipe-separated	No	Enum members, or format. Blank = free text
 SCHEMA.tsv	required	Enum	Yes|No	Yes	Whether the field must be populated
 SCHEMA.tsv	description	String		Yes	What it means and the trap to avoid
+EDGAR_SEEN.tsv	first_seen_utc	Timestamp	ISO-8601 Z	Yes	When THIS DESK first observed the filing — NOT when it was filed. ⚠️ Never use as the filing vintage: use `filed`. Two clocks, deliberately both kept — the gap between them IS the detection latency this instrument exists to shrink
+EDGAR_SEEN.tsv	tick	String	NVDA|ORCL|CRWV|MU|TSM	Yes	Issuer ticker. Roster + the REASON each issuer is on it lives in edgar_watch.py ISSUERS
+EDGAR_SEEN.tsv	cik	Integer	SEC CIK, unpadded	Yes	SEC Central Index Key. The stable identifier — tickers change, CIKs do not
+EDGAR_SEEN.tsv	form	String	EDGAR form type	Yes	e.g. 8-K, 10-Q, 10-K, 6-K, 4, 144. Free-form by EDGAR's schema — an UNRECOGNISED form is tiered 2 (surfaced), never suppressed
+EDGAR_SEEN.tsv	filed	Date	YYYY-MM-DD	Yes	EDGAR filingDate. CONTENT vintage for boot leg 8 — never mtime [finding_mtime_is_corrupted_by_git_sync]
+EDGAR_SEEN.tsv	report_date	Date	YYYY-MM-DD or empty	No	EDGAR reportDate: the PERIOD END for periodic forms, the EVENT DATE for 8-Ks. ⚠️ Two different meanings in one column — EDGAR's own schema, not a VULCAN choice. The cadence leg uses it only for PERIODIC forms, where it means period end
+EDGAR_SEEN.tsv	accession	String	NNNNNNNNNN-NN-NNNNNN	Yes	SEC accession — the artifact, and the DEDUP KEY for new-filing detection. Cite this, never a secondary
+EDGAR_SEEN.tsv	primary_doc	String	filename	No	Primary document filename. ⚠️ NEVER infer a date from it [finding_url_date_inference_has_no_error_signal, n=2]
+EDGAR_SEEN.tsv	items	String	comma-separated 8-K item codes	No	8-K item codes, e.g. '1.01,2.03,7.01'. 🔑 MACHINE-READABLE S5 TRIPWIRE: 1.01 = material definitive agreement, 2.03 = creation of a direct financial obligation, 2.02 = results. The 2026-08-17 $105B guaranty 8-K carries 1.01,2.03,7.01. Empty for non-8-K forms
+EDGAR_SEEN.tsv	tier	Integer	1|2|3	Yes	Surfacing tier, NOT importance. 1=material 2=ownership/structure 3=insider+routine. Controls DISPLAY only — every filing is logged regardless, and suppressed counts are always printed
+EDGAR_SEEN.tsv	channel	String	S1|S2|S4|S5|S5/S1	Yes	Which VULCAN channel this issuer serves. Denormalised from the roster so a ledger row is readable without the tool

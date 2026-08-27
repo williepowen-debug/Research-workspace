@@ -1,5 +1,35 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> ## ▶ 2026-08-27 ARC 2 (Will-directed: *"build edgar_watch.py"*) — **BUILT, FALSIFIED, WIRED. And it immediately produced a research finding: MU FQ4 derives to ~9/22, not the ~9/29 three of my open predictions hang on.**
+>
+> ### ▶▶ THE POST-CLOSE OBLIGATION FROM ARC 1 IS STILL OPEN — see the arc-1 block below for the full procedure. Nothing here supersedes it.
+>
+> ### What was built
+> - **`tools/edgar_watch.py`** — S3/S5's first instrument. Sweeps NVDA·ORCL·CRWV·MU·TSM → `workbook/EDGAR_SEEN.tsv` (append-only, content-vintaged, 5,001-row baseline). **Three legs:** new-since-last-run (tiered, nothing ever dropped, suppressed counts always printed) · **periodic-filing windows derived from each issuer's own history, opening at the MINIMUM historical lag** · **earnings-release windows (8-K item 2.02) kept separate**, because a release is a different event from the filing that follows it.
+> - **`tools/test_edgar_watch.py`** — 17 guard-falsification checks, offline. **Run it after ANY edit to `edgar_watch.py`.**
+> - **`boot.py` leg 8** — offline; recomputes windows from the retained ledger at every boot, zero network calls. **3-day staleness bound, DERIVED from the two measured misses (4d, 5d), not inherited.**
+> - **Wired the same session:** `SCHEMA.tsv` (9th ledger, 11 rows) · boot leg 8 · `CLAUDE.md` FILES rows + legs 6→8 in three places. **My own rule — when you ADD a surface, put it in a loop the SAME session — applied to itself.**
+>
+> ### 🔴 THE RESEARCH FINDING, and it is worth more than the tool
+> **MU FQ4 earnings derive to a 2026-09-17…09-24 window, typical 09-22 — NOT the ~9/29 I carried.**
+> - `fiscalYearEnd=0903` in EDGAR is a **NOMINAL marker**, not a period end. MU runs a **52/53-week** year; observed FY ends are **2022-09-01 · 2023-08-31 · 2024-08-29 · 2025-08-28**, never 09-03.
+> - FY2026's three filed quarter-ends are spaced at **exactly 91 days** ⇒ **FQ4 ends 2026-08-27**.
+> - FQ4 earnings-8K lag, **n=9 fiscal years**: min 21d, med 26d, max 28d; last four **28/27/27/26**.
+> - ⇒ **VULCAN-02/-11/-12's slip headroom to their 9/30 resolve date goes from ~1 day to ~6-13 days. Even MU's WORST historical FQ4 lag lands 09-24.** The sharpest registered risk on my book is materially smaller.
+> - ⚠️ **STILL AN ESTIMATE — `date_class: modeled`. MU has not announced. A better derivation, not a confirmation.**
+> - ⚠️ **NO CRITERION, THRESHOLD, BRANCH OR RESOLVE DATE WAS CHANGED [L-11(b)].** Only the slip-risk estimate moved — *and it moved in my favour, which is exactly when to be most careful about touching anything else.*
+> - ⚠️ **I ADDED a pre-committed `semi_watch` reading at ~9/22 rather than SWAPPING the ~9/29 one.** Adding cannot let me select a favourable reading; swapping would leave one date resting on a derivation that could itself be wrong. **Friday cadence untouched — 9/18 and 9/25 already bracket the window.**
+> - **Routed:** PROME (`PROME/inbox/`, repo root — it owns the DOCKET row, I did not touch it) + VIOLET (whose *"ESTIMATED, NOT CONFIRMED"* flag was right and was the thing I was relying on).
+>
+> ### 🔑 TWO THINGS WORTH CARRYING
+> 1. **L-25 — when a test you just wrote fails, ask whether the SPEC is wrong before widening a constant.** My stale-series guard returned `None` because its loop bound was 8 and the fixture needed 11. **Widening the bound was the obvious fix and the wrong one** — rolling a dead series forward 11 periods fabricates a confident window out of an ended regime, which is worse and quieter than the bug. ⚠️ **`bound=8 → bound=20` and `bound=8 → report STALE` are the same size of edit and look identical in review.** The tell was available: *I could not state what the widened bound would output on a dead series without describing something I'd flag in review.*
+> 2. **The counter-example from the SAME session, which is why L-25 is a question and not a rule:** the FY-quarter guard's first version genuinely WAS a code bug — it *suppressed* windows, silencing the 10-K rows (the 10-K is exactly the form that covers a fiscal year end) and discarding a real ORCL Q1 prediction. There the right move was to fix the code and leave the spec alone. **Both cases presented identically.**
+>
+> ### ⚠️ WHAT THE TOOL DOES NOT DO — stated so it is never written up as "covered"
+> **It reads the filing INDEX, never the documents.** It tells you a 10-Q landed and what its 8-K item codes were; it does **not** tell you what the exhibit says. **Reading the filing is still my job.** This is the same boundary that made PROME's `edgar_8k` fetcher insufficient for the useful-life gate.
+> 🔑 **But the item codes ARE a machine-readable S5 tripwire and that is new capability:** `1.01` = material definitive agreement, `2.03` = **creation of a direct financial obligation**. The 8/17 $105B guaranty 8-K carries `1.01,2.03,7.01`. **A future band could key on 2.03 directly** — not built, deliberately, with an instance in hand [L-11(b)].
+
+
 > ## ▶ 2026-08-27 ARC 1 (Will-directed boot after ~2 dark days, markets pre-open → intraday) — **NVDA printed 8/26 and its 10-Q landed the SAME DAY, five days before my own tripwire. All three registered questions answered. No score moved. VULCAN-16 IS STILL OPEN AND THAT IS DELIBERATE.**
 >
 > ### ▶▶ START HERE — THERE IS AN UNDISCHARGED OBLIGATION WITH A HARD CLOCK **TODAY**
