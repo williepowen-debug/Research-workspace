@@ -94,6 +94,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import inspect
 import json
 import re
 import sys
@@ -332,6 +333,10 @@ def evaluate(rows: list[dict], docket: str, today: dt.date, days: int) -> tuple[
 
 def selftest() -> int:
     """Fixtures are REAL states this tool has been in, not invented ones."""
+    # Both numbers in the success line are COMPUTED. This tool shipped
+    # "18 assertions" while running 17 -- a self-reported count it never
+    # computed, which is the exact defect class it exists to catch.
+    _FIXTURES = len(set(re.findall(r"^    # (\d+)\.", inspect.getsource(selftest), re.M)))
     T = dt.date(2026, 8, 27)
     BILLS = [  # the exact 2026-08-27 payload that produced the degenerate pass
         {"auctionDate": "2026-08-31", "securityType": "Bill", "securityTerm": "13-Week", "cusip": "912797VA2"},
@@ -343,8 +348,12 @@ def selftest() -> int:
     COVERED_DOCKET = ("date\tevent\n"
                       "2026-09-08\t**3Y/10Y/30Y SEPTEMBER REFUNDING**\tcheck\n")
     fails = []
+    ran = []          # COUNTED, never carried -- this tool shipped "18 assertions"
+                      # while running 17, which is the same uncomputed-count defect
+                      # it exists to catch. A self-reported count must be computed.
 
     def check(name, got, want):
+        ran.append(name)
         if got != want:
             fails.append(f"  ✗ {name}: got {got}, want {want}")
 
@@ -436,8 +445,10 @@ def selftest() -> int:
         print("[docket_check --selftest] 🔴 FAILED")
         print("\n".join(fails))
         return 1
-    print("[docket_check --selftest] ✅ 18 assertions across 11 fixtures passed "
-          "(fixture 1 is the exact 2026-08-27 payload that produced the degenerate rc=0; fixtures 9-10 lock two regressions found in v2 itself — one by the selftest, one only by RUNNING it live).")
+    print(f"[docket_check --selftest] ✅ {len(ran)} assertions across {_FIXTURES} fixtures passed "
+          f"(fixture 1 is the exact 2026-08-27 payload that produced the degenerate rc=0; "
+          f"fixtures 9-10 lock two regressions found in v2 itself — one by the selftest, "
+          f"one only by RUNNING it live).")
     return 0
 
 

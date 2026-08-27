@@ -34,7 +34,7 @@
 
 ## `docket_check` v2 (Will-instructed)
 **v1's defect was guard PLACEMENT:** the empty-payload guard ran on the RAW payload (4 bill rows, non-empty) and the `{Note,Bond}` filter then emptied the set — so `rc=0 — docket covers every scheduled coupon auction in the window` was computed over **zero** auctions. It protected the FETCH, not the REFERENCE SET the verdict is computed over.
-**v2:** measures the feed's own horizon, names the BLIND SPAN, headline is `VERIFIED ONLY THROUGH <date>`, and `rc=0` is qualified as *"nothing ACTIONABLE, NOT the window is covered."* `rc=1` still fires on an undocketed auction the feed can see (regression-tested). `--selftest` = **18 assertions / 11 fixtures**.
+**v2:** measures the feed's own horizon, names the BLIND SPAN, headline is `VERIFIED ONLY THROUGH <date>`, and `rc=0` is qualified as *"nothing ACTIONABLE, NOT the window is covered."* `rc=1` still fires on an undocketed auction the feed can see (regression-tested). `--selftest` = **17 assertions / 11 fixtures**.
 🔴 **The correction pass proved its own risk twice, both silencing:** (1) the bare word `AUCTION` matched *"non-auction"* — caught by the new selftest on its first run; (2) whole-line scanning counted four non-auction rows as September coverage, including **this desk's own warning row saying September is NOT docketed** — found only by RUNNING it. Resolution: the tool **declares** the blind span and adjudicates nothing there; docket rows are `FYI, not a verdict` and gate nothing, locked by an assertion that the verdict is identical with and without them.
 ⚠️ **NOT discharged:** docketing September from the QRA is still human and still owed.
 
