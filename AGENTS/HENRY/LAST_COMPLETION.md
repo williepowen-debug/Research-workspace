@@ -40,7 +40,9 @@ Net GEX **−$19.0B [8/23] → +$24.4B [8/27]**, flip **~7,690**, spot **7,724.9
 - `domain/ECON_CALENDAR.md` docket still expired (audit C3).
 
 ## COMMITS
-See below — appended at commit time.
+- **`0ecb7bfaf`** — *HENRY catch-up boot 2026-08-27: the amplifier turned OFF on a one-name move, HEN-43 graded three days late, and my own kill line is 7bp away for the wrong reason* (21 files, path-scoped to `AGENTS/HENRY/`)
+- Pushed via `scripts/safe-push.sh` — fast-forward, literal `Pushed.` confirmed, range `4d246d30e..0ecb7bfaf`.
+- ⚠️ **VIOLET was running concurrently with uncommitted work staged in the shared index.** The commit was path-scoped to `AGENTS/HENRY/` so none of it leaked in — verified post-commit (0 non-HENRY paths). VIOLET's files were left untouched.
 
 ## NEXT SESSION FOLLOW-UP (catalyst dates)
 - **🔴 Fri 8/28 — TRIPLE-STACKED: QCEW + Warsh's first Jackson Hole keynote 10:00 ET + HEN-42's grading close (resolves 8/29).** **HEN-42 → DENY, ~20%:** 2s10s **+34 [7/23] → +47 [8/25]**, held steeper five weeks; flipping leg 1 needs a **16bp one-session flattening — 0 of 658 sessions since Jan-2024** ⇒ **the keynote cannot rescue it.** No escape hatch, no re-dating.
