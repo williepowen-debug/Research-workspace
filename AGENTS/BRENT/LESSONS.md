@@ -155,3 +155,29 @@ For a month my surfaces carried a standing caveat in my own words: *"the Baker H
 - **When two files/links differ only by a parenthetical, the parenthetical IS the identifier.** Check the `content-disposition` filename and the payload's own internal date stamp — never the link text alone.
 - **⚠️ RECORD THE HYPOTHESIS YOU REFUTED.** My first instinct was HTTP/2 negotiation, because my opening `curl` failed with `HTTP/2 stream not closed cleanly` and my retry — which also set `--http1.1` — succeeded. **I had changed two variables at once.** Tested head-to-head 3× each: **both protocols return 200 in <0.3s.** The opening failure was transient. Had I not tested, I would have shipped a confident, wrong root cause *and* the correct fix in the same commit — the most durable kind of error, because the fix works and certifies the explanation.
 
+
+---
+
+26. **A PATHSPEC-SCOPED COMMIT AFTER `git mv` SILENTLY DROPS THE HALF OF THE RENAME THAT ISN'T IN THE PATHSPEC — HEAD ENDS UP WITH THE FILE AT BOTH PATHS AND DISK LOOKS FINE.** *(2026-08-27, found by PROME's read-only in-flight tree observation on my 6-packet inbox triage; audit result: this was a one-off, no other duplicates in current HEAD.)*
+
+At session-end I ran `git mv AGENTS/BRENT/inbox/<pkt>.md AGENTS/BRENT/inbox/processed/<pkt>.md` for six consumed packets. `git status` correctly showed six renames (`R  inbox/<f>.md -> inbox/processed/<f>.md`). I then committed with a pathspec listing only the DESTINATION paths:
+
+```
+git commit AGENTS/BRENT/STATUS.md ... \
+  AGENTS/BRENT/inbox/processed/<pkt>.md \
+  AGENTS/BRENT/inbox/WALTER/processed/<pkt>.md \
+  ... -F msg.txt
+```
+
+**`git commit <pathspec>` commits ONLY the parts of the index that match the pathspec.** The add-side (at `inbox/processed/`) matched and committed. The delete-side (from `inbox/`) DID NOT match my pathspec and stayed staged. Git said "6 files changed, 341 insertions(+), 62 deletions(-)" — nothing loud, because the rename literally lost half its structure in the commit.
+
+**Result on origin (until commit `ac7a27589` fixed it):** each of the 6 packets present at BOTH `inbox/<pkt>.md` AND `inbox/processed/<pkt>.md`. Disk looked correct because `git mv` had physically moved the files — only `git ls-tree HEAD` revealed the duplicates. `git status` on a fresh working tree would have shown the source-path deletions again as "new work" every session forever, because HEAD kept regenerating the phantom.
+
+**★ THE DANGEROUS PART, AND WHY IT'S A LESSON RATHER THAN A CONFIG NOTE: the pathspec-scoped commit pattern is EXPLICITLY REQUIRED BY ROOT CLAUDE.md `Git Protocol` "Before committing" step 1, as protection against the shared-`.git/index` race that concurrent CC sessions on one box would otherwise create.** The rule was written for MODIFIED files, where source-and-destination are the same path. It composes badly with `git mv`, where they aren't — and the bad composition is silent in both directions: git says the commit succeeded, and disk agrees, so the closeout self-check passes.
+
+**Guards:**
+- **After every `git mv`, ensure the commit pathspec lists BOTH the source AND the destination.** Or run `git diff --cached --stat HEAD -- <source-dir>` between add and commit and confirm no `D` lines remain unstaged for commit.
+- **When `git status` after a commit shows staged `D` entries you thought you just committed, that's the tell.** Don't dismiss it; the deletion is real and needs its own pathspec.
+- **A safer default for a mixed rename+modification session: split into two commits — first `git commit -m "hygiene: rename processed inbox" AGENTS/<YOU>/inbox/` scoping ONLY to the inbox directory (which contains both source AND destination), then `git commit -m "session state" AGENTS/<YOU>/STATUS.md ...` for the rest.** The inbox-scope pathspec is broad enough to capture both legs of every rename inside it, while still being narrow enough to preserve the concurrent-index-race protection.
+- **The audit query is small enough to keep as a closeout guard:** `git ls-tree -r HEAD --name-only | awk -F/ '{print $NF, $0}' | sort | uniq -c -f1 | awk '$1>1'` on your own dir, ignoring `.gitkeep`. Zero output = clean; any BRENT non-`.gitkeep` line = a duplicate to investigate. This desk's audit today ran clean (only `.gitkeep`, archive-vs-live TRACKER, and the intentionally-FROZEN LAST_COMPLETION duplicate); the 6 phantoms had already been reconciled in `ac7a27589` before the audit.
+- **⚠️ WHAT THIS LESSON DOES NOT SAY:** it does NOT retire the pathspec-scoped commit rule. That rule solves a real concurrent-write race and its guard direction is correct. What this lesson adds is a NARROW CARVE-OUT: *whenever the session includes `git mv`, the pathspec must be widened to cover both legs of each rename, or the pathspec discipline must be replaced with a directory-scoped pathspec that contains both.* It does not license `git commit -a`, `git add .`, or dropping the pathspec entirely, ever.
