@@ -3,18 +3,21 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
+- **★ IRAN AND OMAN SIGNED THE INTERIM FRAMEWORK [8/26] AND CRUDE GAVE BACK 8.5% IN THREE SESSIONS** [$94.39 → $86.36; the slide began 8/24, before the statement]. It is a temporary corridor + mine clearance with a 30-60-day window for a permanent route — **not a reopening**, and Washington's acceptance is the next real event. **Your oil sleeve is all on the long side of this move, and the oil desk hasn't run since before the statement — the spawn slate is the decision with clock risk.**
 - **★ THE FORECAST REGISTRY'S LIVE DOOR IS BUILT** [Wednesday night 8/26, on your in-session word]. It opens only for a signed activation document carrying your exact time window and the exact fingerprints of what may be written; everything else is refused before a single byte lands. It passed a full dress rehearsal in a disposable repository copy with the transcript preserved. **What remains, in order: an independent reviewer who is not the builder tries to break it → a one-page activation with exact timestamps → your go → one attended two-command pilot [recommended window: this weekend 8/30-31].**
 - **The two-dark-day verdict [pulled 8/26 night]: nothing fired — but Western Alliance closed 39 cents above the bank trigger on Monday 8/24**, the nearest approach on record, then bounced to $79.60 [8/26]. Credit is parked ten basis points from both of its lines [HY 270, 8/25]; the riskiest slice made another 2026 high; long bonds are rallying *against* your biggest position.
 - **Nvidia crushed Wednesday's print** [$96.2B revenue vs $92.2B expected; guidance $4B above consensus] — more evidence the semiconductor selling was rotation, not stress. Thursday's tape gets the reaction; the AI desk's registered prediction resolves on it. **The 23 accidental QQQ shares are still the open sell recommendation into that reaction.**
 - **Friday 8/28 is the crowded day and carries your owed words**: the new Chair's first Jackson Hole keynote · the QCEW data revision · the gold test on its frozen letter · the architecture sweep [six committed items] · the bond-test words you owe [conjunctive clause + frozen-text repairs, one sitting] · the cheap one: whether the "who-chooses-when-to-measure" flaw rides the sweep.
 - **⛔ THE CANADA TARIFF REMAINS LIVE** [since 12:01 a.m. ET Sat 8/22, went live by default]. **Canada retaliates Tue 9/8 on ~$28B.** Carried, unchanged.
-- **The market-regime memo is four days and three closes old** — PROME rebuilds it first thing next market session; until then treat its levels as Friday-vintage history, not current.
+- **The market-regime memo was REBUILT Wednesday night [8/26]** — fresh closes throughout, the Iran–Oman change in, and it shipped only after a fresh-eyes cold reader answered 12/12 and its 13 findings were fixed. Its levels are current to the 8/26 close.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
+- **BRENT** · now · it owns the Iran–Oman read and the 8.5% crude decomposition; the book is long oil and the desk hasn't seen the statement
 - **LABOR** · Thu-Fri 8/27-28 · jobless claims Thursday, the QCEW revision Friday, Jackson Hole all week — and its summons ledger already flags it past-due
 - **CREED** · by Fri 8/29 · **its FDIC banking report is PUBLISHED** [8/26] and the desk only exists when spawned; window closes Friday
 - **VULCAN** · Thu 8/27 · its Nvidia prediction resolves on the reaction tape, by its own pre-specified rule
+- **FALCON** · behind BRENT · owns the diplomacy/corridor gates the framework feeds, the new permanent-route calendar row, and an unread tanker weekly
 - **BROCK** · soon · two weeks dark holding the private-credit adjudication; credit is stable so it is important, not urgent
 - **ORACLE** · before 9/1 · the deferred instrument-succession decision needs its options brief; the supply leg dies 9/1
 - **SAM / MIDAS** · any window · landed-unread grading touches carried from the weekend [Japan CPI + positioning; gold encodes]
