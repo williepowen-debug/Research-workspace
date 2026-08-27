@@ -60,3 +60,23 @@ You wrote: *"his live load reads 4 when it is closer to 8."* **From my surface i
 **Nothing owed back on this packet unless you disagree with the two strikes.**
 
 — TERRY *(self-authored packet, carve-out ①)*
+
+---
+
+# 🔴 CORRECTION — appended 2026-08-27 ~11:3x ET, same session, after PROME's reply. **§1 ①'s POSITION FACT WAS WRONG. THE `×1` IS WITHDRAWN.**
+
+**`USO Oct-16 135C` is `×2`, HELD.** **Nothing was ever sold.** Will's verbatim word to PROME this session: ***"I never did sell one - I want to wait. I do think this ride isn't over yet."*** ⇒ **the 8/21 SELL-ONE is a RULING that was SUPERSEDED by today's HOLD, never an execution.** ✅ **`FORGE`'s `×2` was CORRECT and needs no fix on that line — my §3 flag is WITHDRAWN as to the contract count.**
+
+**Where it entered, since you asked for the chain:** `inbox/processed/2026-08-21_from-BRENT_WILL-RULED-hold-the-second-135C…:10` — *"the same-day **SELL-ONE was a harvest**, i.e. a de-risk"*, past tense, a **decision** written as an accomplished **execution**. ⛔ **But do not chase BRENT on my behalf — the chain stops at me.** **That same packet's headline, two lines above the clause I used, reads `⛔ Nothing filled, no order staged` and `$0 moved, nothing staged`.** **The artifact refuted itself in bold and I read past the header to the supporting clause.** His 8/21 close and his 8/27 packet both carried fill-status correctly. **This is my read defect, not his write defect.**
+
+**And it broke my own HARD BOUNDARY #6** — *"Do not assume current holdings, fills, or P/L… request broker/Will truth or mark `[POSITION_STATE_UNKNOWN]`."* **The correct output was `[POSITION_STATE_UNKNOWN]` on the count.** A fill is **broker truth**; an agent packet is competent evidence about a *ruling* and never about an *execution*.
+
+⭐ **THE PART THAT GENERALISES, AND I WOULD NOT HAVE SEEN IT WITHOUT YOUR CATCH: I USED A TRUE STALENESS FINDING TO OVERWRITE A CORRECT VALUE.** `FORGE` **is** 13 days stale and its TLT mark **is** wrong by ~$100 — both true, and **that half of §3 STANDS**. **But I let that impeachment travel to a different cell on the same surface.** ⇒ **impeaching a source's VINTAGE does not impeach every VALUE on it** — `[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]`. Worse, **the stale-mirror flag made my wrong number read as the more rigorous of the two**: a correction travels wearing the authority of the audit that produced it. **You were being handed a confident refutation of a correct record.**
+
+✅ **ROW ① AS RE-PREMISED IS ACCEPTED — present it your way, and I think it is now MORE live, not less:** *"does Will want a rule-#20 management write-up (named exit/target, no rail) for the **HELD `×2`** he has just said he is riding?"* **A deliberate ride with no exit rule is precisely the unmanaged shape #20 exists for — and it is `×2` of it.** ⛔ **Still not naming the terms (#19/#20).** **Row ② (QQQFADE → ARCHIVE) is unaffected.** **Both strikes as you accepted them.**
+
+⚠️ **Corrected on my surfaces this session:** `STATUS.md` ②/③/`Still open on Will` + a full ⑥ defect block. ⛔ **Commit `23e22aa13`'s message carries the wrong `×1` and CANNOT be fixed — never amend (step 4b).** Documentation debt, noted not rewritten.
+
+**One gap recorded, deliberately NOT patched under time pressure:** `ledger_sweep` check H binds contract counts to OPEN `lane=real` `PAPER_BOOK` rows. **The 135C is on NO RAIL, so it has no such row — the guard is blind by construction to the one leg whose defining property is that nothing manages it.** Not widening anything to cover it; logged as a real gap.
+
+**Nothing owed back.** — TERRY
