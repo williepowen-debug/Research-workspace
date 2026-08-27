@@ -3,25 +3,26 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **⛔ THE CANADA TARIFF IS LIVE** [+50% duties took effect 12:01 a.m. ET Sat 8/22 — verified at the Federal Register by three desks independently]. **It went live by DEFAULT: a deal and an extension each needed a signature, and going live needed nothing.** The document is titled "Temporary Suspension" and reads like a pause — that reading is backwards; the suspension was a three-day date move that has expired. **Canada suspended talks 8/21 and retaliates Tue 9/8 on ~$28B.**
-- **TWO words are now owed by you before Fri 8/28** [registered 8/22 evening as a ledger repair — they were live earlier and had been carried on a pointer view, not the live list]: the bond-test conjunctive clause [after the funding desk concurs ~Monday] and the bond desk's frozen-text repairs [one clause its own owner still marks 🔴 open]. Present together, one sitting.
-- **Two NEW things need your word, both from Saturday night's session** [neither is urgent, both are first-ask]: **① the root instruction file's copy of the messaging rule is now incomplete** — the fleet adopted a new branch for what happens when a signal's owner is asleep, and the root file still only describes the awake case. It's a file only you can approve changes to. **② one part of the world has a signal, a filing code, and no live analyst** — the Europe desk has been dark 34+ days and the new mechanism cannot wake a desk that doesn't exist. That's a roster call, not a plumbing one.
-- **A new rule went live Saturday night: when a signal's owner is asleep and something real is on the clock, the router now rings me instead of the inbox, and I decide whether to wake that desk.** If I do wake one, that session clears the desk's *whole* backlog rather than the one item that triggered it — because desks here run about three days a month, so a session is a scarce thing to spend. It is deliberately hard to trigger and will fire rarely. Nothing about it can move money.
-- **Honest note on Saturday night: I got four things wrong and every one was the same mistake** — reading a number off a convenient screen without checking what that number actually counts. Three you caught by asking. The fourth was caught by the trade desk I woke, which refused my correction and turned out to be right. All four are fixed on the record and written into the fleet's memory; nothing reached a position and no money moved.
-- **Monday 8/24 is the loaded day — seven independent reads land**, the FDIC banking-report window opens [its desk needs spawning], and the labor desk has two overdue items — including a wrong Jackson Hole date it keeps alarming on, and Jackson Hole is **this week** [8/27-29].
+- **★ THE FORECAST REGISTRY'S LIVE DOOR IS BUILT** [Wednesday night 8/26, on your in-session word]. It opens only for a signed activation document carrying your exact time window and the exact fingerprints of what may be written; everything else is refused before a single byte lands. It passed a full dress rehearsal in a disposable repository copy with the transcript preserved. **What remains, in order: an independent reviewer who is not the builder tries to break it → a one-page activation with exact timestamps → your go → one attended two-command pilot [recommended window: this weekend 8/30-31].**
+- **The two-dark-day verdict [pulled 8/26 night]: nothing fired — but Western Alliance closed 39 cents above the bank trigger on Monday 8/24**, the nearest approach on record, then bounced to $79.60 [8/26]. Credit is parked ten basis points from both of its lines [HY 270, 8/25]; the riskiest slice made another 2026 high; long bonds are rallying *against* your biggest position.
+- **Nvidia crushed Wednesday's print** [$96.2B revenue vs $92.2B expected; guidance $4B above consensus] — more evidence the semiconductor selling was rotation, not stress. Thursday's tape gets the reaction; the AI desk's registered prediction resolves on it. **The 23 accidental QQQ shares are still the open sell recommendation into that reaction.**
+- **Friday 8/28 is the crowded day and carries your owed words**: the new Chair's first Jackson Hole keynote · the QCEW data revision · the gold test on its frozen letter · the architecture sweep [six committed items] · the bond-test words you owe [conjunctive clause + frozen-text repairs, one sitting] · the cheap one: whether the "who-chooses-when-to-measure" flaw rides the sweep.
+- **⛔ THE CANADA TARIFF REMAINS LIVE** [since 12:01 a.m. ET Sat 8/22, went live by default]. **Canada retaliates Tue 9/8 on ~$28B.** Carried, unchanged.
+- **The market-regime memo is four days and three closes old** — PROME rebuilds it first thing next market session; until then treat its levels as Friday-vintage history, not current.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **HAWK / MARCO** · Monday · tariff outcome RESOLVED 8/22 [both verified at primaries independently]; the open work is aftermath + the 9/8 retaliation, and line-level scope is established by nobody
-- **SAM** · soon · positioning data + Japan CPI grading touch owed since Friday
-- **MIDAS** · soon · gold positioning touch + five ruling-encodes waiting in its inbox
-- **CREED** · 8/24–29 window · the FDIC banking report is its first trade-relevant trigger and it only exists when spawned
-- **LABOR** · any window · one wrong date (Jackson Hole) it keeps alarming on daily, plus the KELYA expiry log
-- **ZHAO** · any window · inbox session — 27-item backlog its new boot triage can't clear alone
+- **LABOR** · Thu-Fri 8/27-28 · jobless claims Thursday, the QCEW revision Friday, Jackson Hole all week — and its summons ledger already flags it past-due
+- **CREED** · by Fri 8/29 · **its FDIC banking report is PUBLISHED** [8/26] and the desk only exists when spawned; window closes Friday
+- **VULCAN** · Thu 8/27 · its Nvidia prediction resolves on the reaction tape, by its own pre-specified rule
+- **BROCK** · soon · two weeks dark holding the private-credit adjudication; credit is stable so it is important, not urgent
+- **ORACLE** · before 9/1 · the deferred instrument-succession decision needs its options brief; the supply leg dies 9/1
+- **SAM / MIDAS** · any window · landed-unread grading touches carried from the weekend [Japan CPI + positioning; gold encodes]
 
 ## Runs itself — no window needed from you
-- **The heavy sitting already ran Saturday** [audit #10 · vocabulary mint · promotion pass · registry envelope — all executed 8/22]; Sunday's residue is optional and PROME's.
-- **Monday 8/24, seven reads in desk windows you already run or PROME's:** hedging-map re-measure [the old figure is dead data] · bond-test concurrence · the oil desk's $85 tourism-cost trigger grades · funding-desk Test B · the VLY exercise outcome · prediction-market pin day 2 · Saturday's tariff aftermath.
+- **The registry review brief is already written** [in the remediation record] — the reviewer lane needs no design work from you, only a session.
+- **The oil desk's Wednesday data routine fired on schedule straight through the dark spell** [SPR flagged at a 43-year low, 4th week running — recorded, not adjudicated]; the collection lane's trigger watch ran unattended too.
+- **Friday's graded tests run in their desks' own windows** once spawned — the gold test, positioning data, the bond-test close; none needs a separate word beyond the spawns above.
 
 ## The daily flow
 - **Open the Helm, Your desk tab.** The one-line summary under the title is the whole state — if it reads zero words and zero desks, you're done. The brief tab has the story when you want it.
