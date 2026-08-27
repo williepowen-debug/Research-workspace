@@ -91,3 +91,17 @@ Standing PGM supply tightness is real and well-sourced — Nornickel guiding **�
 4. **HAWK** — any SA/Russia event on 8/3–8/4 below my news threshold. **Routing this as an ASK, not a finding.**
 
 ⚠️ **Instrument-basis note (L-24):** COMEX futures settles show **Pt +7.99% / Pd +8.35%**; the cited spot-ask source shows **+6.18% / +6.46%** — a **~1.8pp** instrument gap on the same session. **All residuals above are computed on futures throughout, one instrument, one basis.** *(That source also prints a palladium close of $1,369.44 against a stated session high of $1,353.15 — internally inconsistent, so its levels are used for narrative only, never in the arithmetic.)*
+
+---
+
+## 7. RE-OPEN CONDITIONS (added 2026-08-27, same session — the rule this desk just had banked fleet-wide, applied to itself)
+
+⚠️ **`finding_dated_carry_item_has_no_expiry_check` n+2 (MIDAS L-33) closes with: a no-action disposition on an impeachment must name its RE-OPEN CONDITION, or the disposition becomes a string that reads as adjudicated.** §5 above filed exactly such a disposition — *"formally recorded as residually unexplained"* — **and named no trigger.** That is the defect the rule describes, committed in the document that produced the rule, hours after writing it. Named now rather than discovered later.
+
+| Disposition | **RE-OPEN CONDITION — any one is sufficient** |
+|---|---|
+| **8/4 recorded as residually unexplained** | **(a)** HAWK returns a dated SA/Russia event for 8/3–8/4 → attribute and close properly. **(b)** A **third** Pd-led PGM tail event (Pt or Pd residual **>2.5σ** vs gold, Pd leading) — n=3 is a pattern and demands a mechanism, not another filing. **(c)** This desk acquires **any** of the three named missing instruments (PGM lease rates · COMEX/NYMEX PGM exchange stocks · PPLT/PALL share-count flows) → re-run 8/1–8/6 against it. **(d)** A dated §232 / anti-dumping action lands on Pt or Pd → test it retrospectively against the 8/4 session, since §4's "lead to test, not a cause" is itself a parked item. |
+| **I2 band blindness "flagged, NOT repaired"** | A **second** no-news PGM repricing **>2.5σ** with **no registered trigger firing.** ⚠️ At n=2 the gap is no longer theoretical — it is **demonstrably costing signal**, which converts this from a spec-difficulty question (barred to me by L-20 / tier test 4) into evidence Will can rule on. **That evidence packet is mine to write; the band change is not.** |
+| **§4 structural leads (232 report-back, Nornickel/Zimbabwe/SA)** | ⛔ **Standing: these do NOT re-open on more structural news** — that is the laundering §4 refuses. They re-open **only** on a **dated** action tied to a **specific session**. |
+
+**Review trigger if none of the above fires: 2026-11-30.** At that point the 8/4 disposition is either re-affirmed with the review dated, or the item is closed permanently as unattributable — **but it does not simply persist unexamined**, which is what §5 would otherwise have done.
