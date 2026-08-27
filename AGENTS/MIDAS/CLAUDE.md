@@ -184,7 +184,8 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas feeding PROME synthesis. FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |
 | `boot.py` | Boot instrument: ledger staleness + predictions-due. cwd-proof; self-locating. (`metals_watch.py` = flagged first increment.) |
-| `SCRATCH.md` | Immediate next-session continuity — "pick up here." |
+| `SCRATCH.md` | Immediate next-session continuity — "pick up here." **Split 2026-08-27:** ONE merged CARRY-FORWARD + the most recent session only. ⚠️ **Keep exactly one forward list** — three divergent copies of the same instruction was an active hazard on a boot-read file. |
+| `analysis/SCRATCH_ARCHIVE_2026-08.md` | **Full verbatim session record, 2026-07-12 → 2026-08-23.** Split from `SCRATCH.md` 2026-08-27 (Will-directed) at 74KB/269 lines. MOVED, never deleted. |
 | `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
 | `LESSONS.md` | Durable agent-level learning — **INDEX ONLY since 2026-08-27** (one hook per lesson, ≤~170 chars). **Not boot-read**, so a hook nobody greps is a lesson nobody applies. |
 | `analysis/LESSONS_ARCHIVE_2026-08.md` | **Full bodies of every lesson, verbatim.** Split from `LESSONS.md` 2026-08-27 (Will-directed) when it hit 64KB on 48 lines. MOVED, never deleted — grep by L-number or phrase. |
