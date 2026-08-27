@@ -164,7 +164,7 @@
 
 ## ⚑ ACTIVE TRADE PLAN — v5.0 CONVEX ARM (deploy-on-trigger)
 
-*This is the standing pre-registration for the upside-convex expression (the rolling successor to the resolved single-event `PREREG_20260628_CME_reopen.md`). Written before the trigger so execution is pre-thought, not scrambled.*
+*This is the standing pre-registration for the upside-convex expression (the rolling successor to the resolved single-event [`setups/PREREG_20260628_CME_reopen.md`](setups/PREREG_20260628_CME_reopen.md)). Written before the trigger so execution is pre-thought, not scrambled.*
 
 **Status:** ⛔⛔ **RETIRED 2026-08-07 BY WILL RULING — the arm expired UN-DEPLOYED, `$0` ever at risk. NOT ARMED. NO CLOCK. NOTHING TO GRADE OR FIRE.** Terms of record: `RETIRED 2026-08-07 by Will ruling, ahead of 8/13 expiry; R1 named-not-registered; frame-breaker + playbooks survive; 8/4 decline untouched.` ⛔ **R1 (OVX close >68.97) / R2 / R3 are NAMED CANDIDATES on the 8/7 memo — NOT registered, NOT tripwires. Re-arming requires a FRESH Will ruling.**
 
@@ -846,6 +846,6 @@ Will ruled **Option B (harvest + tenor only)** on 2026-07-30. **Stage A entry is
 ---
 
 ## RESOLVED / HISTORY
-- **`PREREG_20260628_CME_reopen.md`** → RESOLVED **HOLDS** (Jun 29) — the Sunday CME-reopen pre-reg; structural confirmed.
+- [`setups/PREREG_20260628_CME_reopen.md`](setups/PREREG_20260628_CME_reopen.md) → RESOLVED **HOLDS** (Jun 29) — the Sunday CME-reopen pre-reg; structural confirmed. *(Moved from top-level 2026-08-27 in top-level cleanup pass.)*
 - **BRT-15** (STNG reopen short) → FAILED Jun 20 (reopen was tanker-*bullish*).
 - **Pre-Jun-29 Phase-1 long-energy book** (LNG/EOG/USO/STNG calls, Mar–Jun, $90→$73 regime) → **SUPERSEDED**; full prior content in git history (this file was wholesale-rewritten Jun-29 from its Mar-07 Phase-1 vintage).
