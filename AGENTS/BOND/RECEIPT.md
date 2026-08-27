@@ -1,6 +1,6 @@
 # BOND — Run Receipt
 
-**Run:** 2026-08-27 (Thu) ~13:31 → ~13:5x ET · **CRASH-RECOVERY BOOT** (prior session died after 12:28)
+**Run:** 2026-08-27 (Thu) ~13:31 → ~14:2x ET · **CRASH-RECOVERY BOOT, then CLOSED OUT FOR THE DAY** (prior session died after 12:28)
 **Overwritten each session. Prior receipt superseded.**
 
 ---
@@ -69,3 +69,24 @@ BTC **2.50** · indirect **60.78%** · direct **26.96%** · dealer **12.26%** ·
 
 **TLT puts HOLD, no add — UNCHANGED. Book untouched. $0.**
 Only live add-gate **DFII10 2.32 [8/25] = 18bp away** (non-monotonic path). **Composite 12/35 — nothing crossed a pre-registered line.**
+
+---
+
+## END-OF-DAY CLOSEOUT (~14:1x–14:2x ET)
+
+| Step | Result |
+|---|---|
+| 9 STATUS | End-of-day header written; **two retained session headers (8/19, 8/21) ARCHIVED verbatim with superseded-figures banners** → `domain/sources/2026-08-27_STATUS_archive_header_8-19.md`. **250 lines exactly, at the cap.** |
+| 10 predictions | **`BND-15` grade-date rider added — `Resolution_Criteria` verified BYTE-IDENTICAL** (a reading rule, not a re-spec) |
+| 12 forward-state | F2 row upgraded to a 🔴 **external dependency**; September-gap row added; both mirrored to the STATUS twin |
+| 13 SCRATCH | **Rewritten clean for a COLD boot** — the day's accreted in-session blocks superseded, 71 lines |
+| 15 promotion scan | Existing homes identified for all three of today's transferable lessons (`finding_delivery_check_is_not_a_knowledge_check`, `finding_instrument_reports_clean_against_the_wrong_reference`, `finding_asymmetric_rigor_counterparty_claims`) — **extension is the default over creation; not executed this session, flagged in SCRATCH** |
+| 16 closeout_check | **rc=0, 0 findings across all three** |
+| 17 mirror | PREDICTIONS 1 OPEN (`BND-15`) ↔ STATUS scoreboard ✅ · catalyst event sets ✅ |
+| MAIL | inbox 4 → **2, both RETAINED BY DECISION as task carriers**; RED + SAM filed to `processed/` |
+
+🔴 **TWO ITEMS A COLD BOOT MUST NOT MISS — both on STATUS, SCRATCH and the docket:**
+1. **`BND-15` MUST NOT RESOLVE ON 8/29** — window ends Sat 8/29, last gradeable session Fri 8/28, publishes **Mon 8/31**. The row resolves TRUE on the ABSENCE of a breach ⇒ **the error is asymmetric and runs toward a FALSE TRUE.** Authority: Will's lagged-series class ruling.
+2. **FROM 9/9, ROUTE THE F2 READ TO RED** — their `FT-11` v1.1 is gated on it and **they will not rebuild it.** Silent non-delivery strands a peer instrument.
+
+**Final state: tree clean, all BOND work committed and pushed. Position UNCHANGED — TLT puts HOLD, no add. Composite 12/35. Book untouched. $0.**
