@@ -1,7 +1,7 @@
 ---
 name: joint-base-rate-is-explained-by-its-rarest-leg
 description: "A conjunction's small joint base rate ('both happened in only 1.7% of weeks') feels like strong association and usually is not — it is small because ONE leg is rare. Always compare the observed joint rate to the PRODUCT of the marginals before calling co-occurrence evidence."
-symptoms: "both legs point the same way · only N of M periods show both · joint base rate 1.7% · mutually corroborating · two independent confirmations · the second leg confirms the first · rare co-occurrence"
+symptoms: "both legs point the same way · adding a second leg changed nothing · one leg wearing a two-leg label · P(B|A) is 90-something percent · the conjunction fires whenever the first leg fires · only N of M periods show both · joint base rate 1.7% · mutually corroborating · two independent confirmations · the second leg confirms the first · rare co-occurrence"
 metadata:
   node_type: memory
   type: finding
@@ -26,6 +26,24 @@ A small joint base rate is intuitively read as "these two things going together 
 - outward leg 28/1,129 = **2.48%** ⇒ inward bar set at **≥¥1.376T** (top 28 of 1,129) = **2.48%**
 - joint at comparable bars: **3/1,129 = 0.27%** vs **0.062%** if independent ⇒ **lift 4.32×** (vs 1.19× at the sign spec)
 - ⇒ **the IDEA survived; the SPECIFICATION was what died.** ⚠️ And the instance that prompted all this **fails the repaired test** — that week's inward leg was ¥0.435T (73rd percentile), nowhere near the bar. **A properly-specified conjunction can have real association AND still not be tripped by the observation that made you look.** ⚠️ n=3 at the tight bar: lift 4.32× is not significant either. A flag to look, never a gate.
+
+**SECOND FAILURE MODE — a leg can be non-modal, non-independent, AND STILL INERT (RED, 2026-08-27, found by running this memory against its own registry).** The modal test above catches a leg that fires *too often to mean anything*. It is **blind** to a leg that is **implied by the other leg**:
+- RED-FT-08 = core CPI MoM ≥0.4% **AND** 3-mo annualised ≥3.0%. n=435. Leg A 10.80%, leg B 25.29% — **both pass the modal test, both non-modal, lift 3.70×.**
+- But **P(B|A) = 44/47 = 93.6%.** Leg B removes **3 of leg A's 47 firings.** The joint rate is essentially leg A's rate. **It is one leg wearing a two-leg label, and the test as first written CLEARS it.**
+
+**⇒ The covering question is not "are the legs independent?" but "DOES ADDING THIS LEG CHANGE THE FIRING SET?"** Compare P(joint) to **P(each leg alone)**, not only to the product. Run it **in both directions** — the answer is usually asymmetric and tells you which leg is doing the work:
+
+| Spec | P(B\|A) | leg B removes | verdict |
+|---|---|---|---|
+| RED FT-08 | 93.6% | 3 of 47 (6%) | **INERT** — one leg in disguise |
+| SAM sign spec (withdrawn) | 67.9% | 9 of 28 (32%) | **weak** — and killed by the modal test anyway |
+| SAM magnitude re-spec | 10.7% | 25 of 28 (89%) | **discriminating** — the leg earns its place |
+
+🔑 **And the part that should sting: I had computed P(B|A) = 67.9% and published it — as an INPUT to the lift.** The same number is simultaneously the direct answer to "does this leg change the firing set?" **I read one of its two meanings and not the other.** The number that answers the covering question is often already on the page, doing a different job.
+
+⚠️ **Regime-split it too.** RED's FT-08 post-2021 (n=66): leg A 39.4%, leg B 69.7% (now modal), **joint 26 = identical to leg A** — leg B removed **exactly zero** firings in the very inflation episode the trigger exists to detect. **A conjunction can be inert precisely in the regime it was built for**, while looking fine on the full sample.
+
+⚠️ **How it survived a base-rate audit (the transferable governance point):** RED's audit base-rated all nine registry rows **as whole rows and never split a conjunction into legs** — *an audit inherits the granularity of its own unit of analysis.* Compounding it, an earlier fix had deliberately expressed conjunctions as ONE quantity so no consumer could fire half a test — correct for the consumer, and it **made the two-leg structure invisible to a row-level auditor.** **The repair that protected the consumer concealed the defect from the auditor.**
 
 **Why:** the error is asymmetric and flattering. A small joint number always reads as a strong finding, so it survives review while the marginals — which are one query away — go uncomputed. It is especially dangerous when the rare leg is the one you just measured and are excited about, because the conjunction then looks like independent confirmation of your own new result.
 
