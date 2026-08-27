@@ -20,6 +20,13 @@ A small joint base rate is intuitively read as "these two things going together 
 - **"One witness double-counted"** — needs lift >> 1 to be true.
 - Lift ≈ 1 ⇒ **neither**. Report the co-occurrence as a DESCRIPTION, never as evidence, in either direction.
 
+**The simpler kill, and it needs no joint arithmetic at all (RED, same session).** Look at the marginals FIRST and ask whether either leg is the **modal state**. Here P(leg B) = **57.22%** — "non-residents bought JGBs this week" is true in more than four of every seven weeks. **A leg that fires >50% of the time is a descriptor of the regime, not a detector of an event, and cannot corroborate in ANY conjunction regardless of what the lift comes out at.** That kills the claim off one number, before any product or binomial is computed. Check it first; the lift calculation is the backstop, not the front line.
+
+**The constructive half — a sign leg can often be repaired into a magnitude leg.** Re-specify the weak leg with a bar **base-rated to the same rarity as the strong leg**, then re-test:
+- outward leg 28/1,129 = **2.48%** ⇒ inward bar set at **≥¥1.376T** (top 28 of 1,129) = **2.48%**
+- joint at comparable bars: **3/1,129 = 0.27%** vs **0.062%** if independent ⇒ **lift 4.32×** (vs 1.19× at the sign spec)
+- ⇒ **the IDEA survived; the SPECIFICATION was what died.** ⚠️ And the instance that prompted all this **fails the repaired test** — that week's inward leg was ¥0.435T (73rd percentile), nowhere near the bar. **A properly-specified conjunction can have real association AND still not be tripped by the observation that made you look.** ⚠️ n=3 at the tight bar: lift 4.32× is not significant either. A flag to look, never a gate.
+
 **Why:** the error is asymmetric and flattering. A small joint number always reads as a strong finding, so it survives review while the marginals — which are one query away — go uncomputed. It is especially dangerous when the rare leg is the one you just measured and are excited about, because the conjunction then looks like independent confirmation of your own new result.
 
 **How to apply:**

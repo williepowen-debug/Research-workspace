@@ -62,6 +62,16 @@ CRISIS_4W   = 140000  # ¥14T — entering THESIS crisis case range
 # that a buying window absorbs. See the 2026-08-27 instrument-defect note below.
 WEEKLY_SELL_BAR = 15000  # ¥1.5T
 
+# INWARD magnitude bar, added 2026-08-27 after RED's charge. The first version of the
+# both-legs check fired on a bare SIGN (inward > 0) -- but P(inward > 0) = 57.22%, i.e.
+# "non-residents bought JGBs this week" is the MODAL STATE, true in more than four of
+# every seven weeks. A leg at 57% is a descriptor of the regime, not a detector of an
+# event, and CANNOT corroborate in any conjunction regardless of lift. RED's kill is
+# simpler than the product-of-marginals test and needs no joint arithmetic at all.
+# Bar set so the inward leg is as RARE as the outward one (28/1129 = 2.48%), which is
+# the precondition for a conjunction to carry information.
+INWARD_BUY_BAR = 13764  # ¥1.376T = top 28 of 1,129 weeks = 2.48%, matched to WEEKLY_SELL_BAR
+
 # Cols 1-7 are the OUTWARD leg (residents buying/selling FOREIGN securities) and are
 # FROZEN in position -- appended columns go at the END so positional readers keep working.
 # Cols 8-12 added 2026-08-27: the INWARD leg (non-residents buying/selling JAPANESE
@@ -309,20 +319,19 @@ def main():
         print(f"  Equity net:          {fmt_oku_as_yen(latest.get('in_equity_net') or 0)}")
         print(f"  LT debt net (JGBs):  {fmt_oku_as_yen(in_lt)}")
         print(f"  Total net:           {fmt_oku_as_yen(latest.get('in_total_net') or 0)}")
-        if -out_lt > WEEKLY_SELL_BAR and in_lt > 0:
-            print(f"  ⚪ BOTH DURATION LEGS POINT AT JGBs THIS WEEK — residents sold foreign LT")
-            print(f"     debt through the weekly bar AND non-residents bought Japanese LT debt.")
-            print(f"  ⛔ DO NOT READ THIS AS CORROBORATION. Joint base rate 19/1,129 = 1.68%")
-            print(f"     LOOKS striking and is NOT: P(outward trips)=2.48% x P(inward>0)=57.22%")
-            print(f"     = 1.42% IF INDEPENDENT, so the observed 1.68% is a lift of just 1.19x")
-            print(f"     (conditional 67.9% vs 57.2% unconditional, one-sided binomial p=0.172).")
-            print(f"     The joint rate is small almost ENTIRELY because the OUTWARD leg is rare;")
-            print(f"     the conjunction adds ~nothing to its own legs. Charge raised by RED")
-            print(f"     2026-08-27 and CONFIRMED against my own data the same session.")
-            print(f"  ⚠️ Near-independence also refutes 'one impulse seen at both ends' — a single")
-            print(f"     repatriation impulse would co-occur FAR above chance. Neither 'two")
-            print(f"     witnesses' nor 'one witness twice' is supported. Report the co-occurrence")
-            print(f"     as a DESCRIPTION, never as evidence, and read MAGNITUDES not signs.")
+        if -out_lt > WEEKLY_SELL_BAR and in_lt >= INWARD_BUY_BAR:
+            print(f"  🔴 BOTH LEGS AT COMPARABLE RARITY — residents sold foreign LT debt through")
+            print(f"     the {fmt_oku_as_yen(-WEEKLY_SELL_BAR)} bar AND non-residents bought JGBs through")
+            print(f"     {fmt_oku_as_yen(INWARD_BUY_BAR)}. Both legs ~2.48% events. Joint 3/1,129 = 0.27%")
+            print(f"     vs 0.062% if independent = lift 4.32x. ⚠️ n=3: NOT significant. Read it")
+            print(f"     as a flag to LOOK, never as a fired signal, and never as a gate.")
+        elif -out_lt > WEEKLY_SELL_BAR and in_lt > 0:
+            print(f"  ⚪ Outward leg tripped and the inward leg is merely POSITIVE "
+                  f"({fmt_oku_as_yen(in_lt)}) — below the {fmt_oku_as_yen(INWARD_BUY_BAR)} bar.")
+            print(f"  ⛔ THIS IS NOT A BOTH-LEGS EVENT AND IS NOT CORROBORATION. P(inward>0) =")
+            print(f"     57.22% is the MODAL STATE — true in >4 of every 7 weeks — so a bare sign")
+            print(f"     test describes the regime, it does not detect an event. (RED 2026-08-27;")
+            print(f"     simpler than the product-of-marginals kill and needs no joint arithmetic.)")
 
     # ---------------------------------------------------------------------
     # WEEKLY ALERT — independent of the 4W ladder by design.
