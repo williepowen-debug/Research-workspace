@@ -30,3 +30,30 @@ When multiple agents share one working directory and one `.git/index`, the stagi
 **Interpretation during live concurrent operation (added 2026-07-05, Will correction to NEXUS):** the pre-commit sanity check (`git status -- AGENTS/<YOU>/`, and the wider index view) will routinely surface OTHER agents' staged AND committed work when they are online and working — **this is the EXPECTED, healthy state of concurrent multi-agent operation, NOT an anomaly and NOT evidence a peer's discipline is slipping.** The check's job is to keep YOUR commit clean (commit only your own paths via pathspec), not to health-audit peers. Do NOT: characterize a peer's staged files as a problem, `git reset` them, commit them, or flag them as a lapse. Correct response = commit your own files by pathspec, leave theirs staged/committed untouched; their committed work rides the next push-train ([[finding_push_train_pattern]]) and they push it at their own closeout ("committed work can be pushed as part of a push train" — Will). **Concrete (2026-07-05):** NEXUS's sanity check surfaced ~100 RED files staged mid-session (RED draining a 98-file WALTER inbox backlog); NEXUS's pathspec commit correctly ignored them and RED committed its own work moments later — zero damage. The error was purely interpretive (calling it an anomaly / "discipline slipping"), not mechanical. **Corollary:** the "serial single-machine (desktop⇄laptop)" model in root CLAUDE.md is about MACHINES; multiple AGENTS run concurrently on one machine and share the index — so foreign entries in `git status` are the norm, not the tripwire (the tripwire is safe-push aborting non-ff, which means a 2nd MACHINE pushed).
 
 Cross-agent transferable: applies to ANY agent operating in the shared-folder environment (SAM, HENRY, BROCK, BRENT, CARL, REGINALD, OZK, RED, LIQUID, HENRY, HAWK, BRENT, NEXUS, and any future agents). Should propagate via auto-memory + root CLAUDE.md update.
+
+---
+
+### n+1 — the exemption that defeats the rule: `--allow-empty` with no pathspec (LABOR, 2026-08-27)
+
+**The pathspec rule survives every commit that has files, and dies on the one that doesn't.**
+
+At closeout I recorded a note-only commit:
+
+```
+git commit --allow-empty -F /tmp/msg.txt      # ⛔ no pathspec
+```
+
+**Result: it swept another agent's staged rename into my commit, and pushed it.** Content intact, tree correct — but their archive move is now recorded under my unrelated closeout message, permanently.
+
+> ★ **"Empty for me" is not "empty for the index."** `--allow-empty` does not mean *commit nothing*; it means *commit what is staged, and don't complain if that's nothing*. On a shared `.git/index` with concurrent sessions, **`--allow-empty` with no pathspec is functionally `git commit -a`.**
+
+**Why the habit fails exactly here and nowhere else:** every *normal* commit has files, so you write the pathspec automatically. **A note-only commit has no files to name — so the parameter that carries the safety silently has nothing to hold, and dropping it feels not just harmless but grammatical.** The rule is obeyed 100% of the time it is visible and 0% of the time it isn't.
+
+**Fix — one of:**
+- `git commit --allow-empty -- AGENTS/<YOU>/ -F msg` — keep the pathspec even when it matches nothing. **The pathspec is the guard, not the target.**
+- Better: **don't use empty commits for notes at all.** Append the note to a file you own and commit that file by path. A note nobody can `git show --stat` is weak documentation anyway.
+- **Always `git show --stat HEAD` after any commit you did not pathspec** — that is what caught this, one command too late to prevent it and just in time to report it.
+
+⚠️ **Do NOT try to repair it:** no `--amend` (rewrites whoever holds HEAD, and it may be pushed), no `reset` (global unstage on a shared index), no revert-and-redo into another agent's tree. **A wrong message over a correct tree is documentation debt — note it, tell the owner, never rewrite it.**
+
+*(Companion: `[[finding_concurrent_commit_index_race]]`. The general shape is `[[finding_guard_correctness_and_wiring_are_independent]]` — the guard was correct and, in this one call, simply not wired in.)*
