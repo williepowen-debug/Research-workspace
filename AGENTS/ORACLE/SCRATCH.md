@@ -29,7 +29,7 @@ Commits: `82c3af234` (T6 packet + `tools/t6_pin.py` + `workbook/T6_PIN.tsv`, del
 ## NEXT SESSION (dated, priority-flagged)
 
 1. **🔴 2026-08-28 IS T6's LAST GRADEABLE SESSION.** Run `python3 tools/t6_pin.py --write`, pin 8/28, and **re-read 8/27 as a settled close** (today's row is provisional). If ORACLE is dark, **any desk can run it** — PROME has this on its 8/28 cluster line.
-2. **🟠 Kalshi watchlist carries 7 `[finalized]` dead rows** (July CPI ×3, July U3 ×2, Fed-July ×2, Brent-Jul, Iran-crude) pulling as dead weight every session — **roll to August/September events or freeze.** This is the Kalshi half of the roll that only got done on Polymarket today.
+2. **🟠 Kalshi watchlist carries 9 `[finalized]` dead rows** (July CPI ×3, July U3 ×2, Fed-July ×2, Brent-Jul, Iran-crude) pulling as dead weight every session — **roll to August/September events or freeze.** This is the Kalshi half of the roll that only got done on Polymarket today.
 3. **🟠 Generalize the candlestick backfill into `kalshi.py`** as a `history` subcommand. Today proved a dark desk can reconstruct a *gapless* daily record; that capability should not live only inside `t6_pin.py`. Would also retire the "record lane state per-box" fragility for any future pin ask.
 4. **🟡 Nominate the near-dated Hormuz normalization legs** (by-Sep-15, by-Oct-31) for pinning — confirm with HAWK/BRENT/FALCON first per the coverage-sweep rule; do not pin unilaterally.
 5. **🟠 The RE-OPENABLE CLASS (carried from 8/18, untriaged):** past conclusions that treated a `kalshi.py search` zero as verified absence, *only where the zero was load-bearing*. Named candidates in `CLAUDE.md` § DATA COLLECTION (VIX/vol gap, credit-stress gap-fills).

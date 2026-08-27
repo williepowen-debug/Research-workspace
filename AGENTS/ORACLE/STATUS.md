@@ -96,7 +96,7 @@ Normalization curve: **by-Sep-15 1.4%** ($828K) · Oct-31 13.5% · Nov-30 22.0% 
 - ⚠️ **New supply leg is THIN at inception** ($1.2K vol vs the August leg's $706.5K). The spread's supply leg is now single-print-unreliable — flagged, not silently carried.
 - ⚠️ **Do NOT replace the 0-ships market** on its false `⛔RESOLVED` (Alert 3).
 - **Coverage sweep RUN today** (was 20d overdue) — 9 hits, **no new macro themes to nominate**; clock reset, next due ~2026-09-03. Minor: sports slugs (`lal-bar-bil-*`) leaked past the ex-sports filter.
-- **Kalshi watchlist carries 7 `[finalized]` dead rows** (July CPI ×3, July U3 ×2, Fed-July ×2, Brent-Jul, Iran-crude) pulling as dead weight every session — **roll or freeze next session.**
+- **Kalshi watchlist carries 9 `[finalized]` dead rows** (July CPI ×3, July U3 ×2, Fed-July ×2, Brent-Jul, Iran-crude) pulling as dead weight every session — **roll or freeze next session.**
 - Several **past-dated Iran-shipping legs sit unresolved** (8/17 52.4%, 8/24 37.5%, 8/25 32.0%) — awaiting resolution, **not live probabilities**; do not read as signal.
 
 ---
