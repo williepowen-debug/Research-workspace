@@ -77,7 +77,7 @@
   "actors_path": "KERNEL/policies/actors.json",
   "actors_sha256": "ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f",
   "capabilities_path": "KERNEL/policies/capability-grants.json",
-  "capabilities_sha256": "57c76977cd6d2934b52928acee9786c4ddca90b381b265bbda5618cbba447b2c",
+  "capabilities_sha256": "6e73c29e9abd16270575cf1c0ba316c24c72d89ebb9e7e13099f5a2f6e9960de",
   "custody_policy_path": "KERNEL/policies/custody-policy.json",
   "custody_policy_sha256": "180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849",
   "event_ids": {
