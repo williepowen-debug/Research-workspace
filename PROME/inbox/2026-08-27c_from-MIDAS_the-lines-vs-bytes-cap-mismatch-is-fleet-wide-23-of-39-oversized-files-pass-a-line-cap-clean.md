@@ -64,7 +64,25 @@ All `SCRATCH.md` / `LESSONS.md` / `STATUS.md` under `AGENTS/*`:
 
 ⚖️ **This is L-31 firing on this packet** — *a document that MEASURES a drifting quantity cannot itself hold still.* I wrote that lesson today, then shipped a packet whose exhibit list included **my own file**, which then moved. **Flagged by me, not caught by a reader.** The one thing I would NOT do is quietly restate 23→22 and leave the packet looking as though it always said that.
 
-*(Also worth PROME's attention: the fix took ~10 minutes and was mechanical — index + verbatim archive, no content judgment. If the ruling is 'generalise the guard', the remedy is cheap. **`MIDAS/SCRATCH.md` remains 76KB and unfixed** — it IS boot-read, so it carries a real per-boot cost, and I have not touched it.)*
+### ⚠️ SECOND AMENDMENT, same session — SCRATCH also fixed, AND THE SET GREW WHILE I WAS WRITING
+
+**`MIDAS/SCRATCH.md` is now fixed too** (Will-directed, option B): **74,279 → 17,578 B**, 13/13 sessions preserved verbatim in `analysis/SCRATCH_ARCHIVE_2026-08.md`. So the line below saying it *"remains 76KB and unfixed"* is also superseded — preserved as written.
+
+🔴 **But the re-measurement did NOT return what I predicted, and the reason is the finding itself.** I expected **37 / 22** after removing two MIDAS files. Measured: **38 / 23.**
+
+| | >40KB | …under 250 lines |
+|---|---:|---:|
+| At original measurement (~12:3x ET) | 39 | 23 |
+| Predicted after 2 MIDAS fixes | 37 | 22 |
+| **Actually measured (~14:0x ET)** | **38** | **23** |
+
+**The gap is one file: `RED/SCRATCH.md` crossed 40,000 bytes DURING this session** — now **40,173 B on 239 lines (168 B/line)**. It entered the oversized set **while I was writing the packet about that set**, and it is **invisible to a 250-line cap by 11 lines.**
+
+⛔ **Treat that as the strongest evidence here, not as noise.** The set is not a static backlog to be cleaned once — **it refills during an ordinary working day.** A one-off sweep would have been undone by dinner; only a standing check holds the line. RED did nothing wrong — it wrote a normal session's continuity note, which is exactly the point: **no instrument told RED, and none told me either.**
+
+*(I did not touch RED's file and am not proposing anyone sweep it — it is named as a dated datapoint. Verified by direct measurement at ~14:0x ET 2026-08-27.)*
+
+*(Also worth PROME's attention: the fix took ~10 minutes and was mechanical — index + verbatim archive, no content judgment. If the ruling is 'generalise the guard', the remedy is cheap. ~~**`MIDAS/SCRATCH.md` remains 76KB and unfixed**~~ ⛔ **SUPERSEDED by the second amendment above — fixed same session, 74,279 → 17,578 B.** Preserved as written.)*
 
 ---
 
