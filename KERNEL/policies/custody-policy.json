@@ -1,0 +1,12 @@
+{
+  "policy_version": "kernel.policy.1",
+  "primary_writer_id": "PROME",
+  "schema_version": "kernel.custody.1",
+  "substitutes": [
+    {
+      "command_accept_default": false,
+      "registered_by": "WILL",
+      "writer_id": "RED"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 
 **Authorization:** Will approved C4 after C3 completion.
 
-**Status:** TECHNICAL PASS — OPERATOR SUBSTITUTE NAMING REQUIRED — NOT LIVE
+**Status:** COMPLETE — RED REGISTERED DORMANT — NOT LIVE
 
 ## Implemented contract
 
@@ -57,11 +57,12 @@ does not inspect a real record, activate the C2 carve-out, or authorize C5–C7.
 
 ## Operator naming decision
 
-C4 cannot close until Will names the dormant substitute. Recommendation: **RED**.
-RED is the active fleet review/QC agent, has no native research authority through
-this role, and the custody binary permits no additional discretion. The
-registration would grant no standing `command.accept`; activation would still
-require a separate Will-authored command/time window.
+Will approved **RED** as the dormant substitute on 2026-08-26. The inactive policy
+is registered at `KERNEL/policies/custody-policy.json`. RED is the active fleet
+review/QC agent, has no native research authority through this role, and the
+custody binary permits no additional discretion. Registration grants no standing
+`command.accept`; activation still requires a separate Will-authored command/time
+window.
 
 Alternatives are possible, but the substitute must be a named registered actor
 and cannot be PROME, CI, or an automatic timeout recipient.
@@ -69,6 +70,7 @@ and cannot be PROME, CI, or an automatic timeout recipient.
 ## Disposition
 
 - C4 technical implementation: **PASS**.
-- Dormant substitute identity: **AWAITING WILL**.
+- Dormant substitute identity: **RED — REGISTERED / DISABLED BY DEFAULT**.
+- C4: **COMPLETE**.
 - Live custody activation: **NOT AUTHORIZED**.
 - C5 record selection, C6 rehearsal, and C7 pilot: **NOT AUTHORIZED**.

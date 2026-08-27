@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will approved C4 custody implementation on 2026-08-26. The deterministic primary/substitute mechanism passes synthetic and integrated acceptance tests. C4 awaits Will's dormant-substitute naming decision; no real custody is registered or active.
+**Latest operator ruling:** Will named RED as the dormant substitute on 2026-08-26, closing C4. RED is registered disabled by default; no activation record exists and PROME remains the sole active custodian.
 
 **Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **186 tests pass**.
+Expected baseline at this checkpoint: **187 tests pass**.
 
 ## Authorization boundary
 
@@ -145,10 +145,10 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — C4 dormant-substitute naming ruling
+## Next action — await C5 record-selection authorization
 
-**Will names the dormant substitute or requests another candidate. Recommendation:
-RED. Naming registers a disabled fallback; it does not activate custody.**
+**C4 is complete. Do not inspect or select a real native record for C5 without a
+separate Will ruling.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
@@ -185,7 +185,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
 | Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
-| Gate C — live shadow activation | C1–C3 COMPLETE / C4 TECH PASS / NOT ACTIVE | Custody mechanism passes but needs Will's dormant-substitute naming ruling; C5–C8 remain separately gated |
+| Gate C — live shadow activation | C1–C4 COMPLETE / NOT ACTIVE | RED is registered dormant; no activation exists. C5–C8 remain separately gated |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -57,6 +58,14 @@ def review(document):
 
 
 class CustodyTests(unittest.TestCase):
+    def test_registered_policy_names_red_but_leaves_it_dormant(self):
+        document = json.loads((ROOT / "policies/custody-policy.json").read_text(encoding="utf-8"))
+        loaded = load_custody(document)
+        self.assertTrue(loaded.valid, loaded.findings)
+        self.assertEqual(loaded.policy.primary_writer_id, "PROME")
+        self.assertEqual(loaded.policy.dormant_substitutes, frozenset({"RED"}))
+        self.assertFalse(authorize_writer(loaded, "RED", COMMAND, "2026-08-26T12:15:00.000000Z").valid)
+
     def test_primary_is_active_without_activation(self):
         loaded = load_custody(policy())
         self.assertTrue(loaded.valid, loaded.findings)

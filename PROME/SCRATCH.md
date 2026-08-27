@@ -3,7 +3,7 @@
 
 ## ★ NEXT SESSION — START HERE
 
-**0. KERNEL BUILD HANDOFF — 2026-08-26.** Gate B is closed; Gate C C1–C3 are complete and C4 is technical-pass. C4 enforces PROME primary, dormant-by-default substitute, Will-only bounded activation/revocation, one writer, pre-write custody denial, and exact PROME return audit. Fourteen C4 tests; full baseline **186 tests**. **NEXT:** Will names the dormant substitute; recommendation RED. **BOUNDARY:** naming is disabled registration only; no real-record inspection/processing, custody activation, shadow operation, or authority switch is authorized.
+**0. KERNEL BUILD HANDOFF — 2026-08-26.** Gate B is closed; Gate C C1–C4 are complete. Will named RED as dormant substitute; `KERNEL/policies/custody-policy.json` registers RED disabled by default, with no activation record, so PROME remains sole active custodian. Fifteen C4 tests; full baseline **187 tests**. **NEXT:** await separate C5 authorization before inspecting/selecting one real record. **BOUNDARY:** no custody activation, real-record processing, shadow operation, or authority switch is authorized.
 
 **0a. CLOSEOUT GATE CAVEAT — unrelated to KERNEL:** `prome_gate.py closeout` reported the pre-existing Forum-4 N10 ORA deferral as blocking because the PROME/Will-owned DOCKET row remains pending without a named coverage disposition. This KERNEL session did not adjudicate or rewrite that research/governance item. Fresh PROME must grade it, name coverage, or take it to Will before claiming the full repository closeout gate is green.
 
