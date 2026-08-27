@@ -345,3 +345,29 @@
 - finding_standing_guard_is_a_false_negative_risk — the guard against a known FP is what waves away the real event *(embedded → CHECK_STANDARD bias-statement clause)*
 - finding_verification_zero_is_ambiguous — NO findings ⊇ "read nothing" and "never in its scope"; a check certifies its SCOPE, not your capability *(embedded → CHECK_STANDARD scope clause)*
 - finding_unfetched_is_not_unavailable — UNCHECKED ≠ UNAVAILABLE — classify before "blocked"; refuse offered stamps *(embedded → CHECK_STANDARD §8 rule 4 CANNOT-REACH vs GENUINELY-EMPTY — pointer corrected 8/21, DAEDALUS-caught)*
+
+## Flow-rule demotion wave 2026-08-27 (hot 19,693 B / 76.9% → <70%; PROME executes per the 8/12 rule; hooks trimmed on move per 8/23 canon)
+- finding_concurrent_agents_one_box_is_supported
+- finding_concurrent_commit_index_race
+- finding_pathspec_wildcard_ending_at_directory_matches_nothing
+- feedback_verify_existence_external_primaries
+- finding_ex_ante_filter_must_key_on_reach_not_consequence — hindsight rule; key ex-ante filters on REACH [n=1; hot at n≥2]
+- finding_run_the_falsifier_before_promoting
+- finding_audit_resolution_path_before_reattempt — usually the PATH, not missing data
+- finding_guidance_is_not_the_instrument
+- finding_url_date_inference_has_no_error_signal — inferred dates fail confidently
+- finding_digit_regex_on_markup_can_match_the_threshold_value — an HTML digit-grep can return your exact frozen level
+- finding_agreement_at_one_date_can_be_cancelling_errors — backfill across DATES
+- finding_single_witness_guard_deletes_real_data
+- finding_new_pin_needs_trajectory_before_level_read — pull history first
+- finding_base_rate_the_instrument_before_its_event_table
+- finding_never_received_is_not_doesnt_hold
+- feedback_reconciliation_is_last_line_move_catch_upstream
+- finding_no_action_ruling_does_not_disarm_an_automatic_mechanism — ask the BOOK (n+1: $71.3K)
+- finding_private_by_construction_unverifiable
+- finding_incentive_flag_source_weighting
+- finding_audit_the_founding_metaphor_first
+- feedback_trump_rhetoric_tape_not_info
+- finding_complete_vs_selective_scan_drop_safe
+- finding_a_teaching_surface_ages_like_data — date the figure half of canon
+- finding_settle_basis_trigger_needs_a_post_close_observer — can't collect pre-close
