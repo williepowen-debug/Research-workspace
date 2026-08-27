@@ -3,7 +3,7 @@
 
 ## ★ NEXT SESSION — START HERE
 
-**0. KERNEL BUILD HANDOFF — 2026-08-26.** Gate B closed after checkpoint 12's integrated runner and independent red-team PASS; 155 tests pass. Will then authorized Gate C planning only. `KERNEL/GATE_C_READINESS_PLAN.md` stages C1 contract → C2 carve-out → C3 synthetic live boundary → C4 custody → C5 one-record selection → C6 rehearsal → C7 separate activation ruling → C8 closeout. **NEXT:** draft C1 and C2 documents for review. **BOUNDARY:** no carve-out installation, live implementation, real-record inspection/processing, substitute activation, shadow operation, or authority switch is authorized.
+**0. KERNEL BUILD HANDOFF — 2026-08-26.** Gate B closed after checkpoint 12's integrated runner and independent red-team PASS; 155 tests pass. Will then authorized Gate C planning only. `KERNEL/GATE_C_READINESS_PLAN.md` stages C1→C8. C1's bounded one-record/maximum-three-command contract and C2's exact proposed root carve-out wording are now drafted. **NEXT:** Will reviews `KERNEL/GATE_C_C1_PILOT_CONTRACT_DRAFT.md` and `KERNEL/GATE_C_C2_GIT_CARVEOUT_DRAFT.md`; no installation or C3 work yet. **BOUNDARY:** no live implementation, real-record inspection/processing, substitute activation, shadow operation, or authority switch is authorized.
 
 **0a. CLOSEOUT GATE CAVEAT — unrelated to KERNEL:** `prome_gate.py closeout` reported the pre-existing Forum-4 N10 ORA deferral as blocking because the PROME/Will-owned DOCKET row remains pending without a named coverage disposition. This KERNEL session did not adjudicate or rewrite that research/governance item. Fresh PROME must grade it, name coverage, or take it to Will before claiming the full repository closeout gate is green.
 

@@ -145,10 +145,10 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — Gate C checkpoints C1–C2 drafts
+## Next action — Gate C checkpoints C1–C2 operator review
 
-**Draft the bounded pilot contract and proposed root Git carve-out for Will's
-review. Documents only; do not install or activate them.**
+**Will reviews the bounded pilot contract and proposed root Git carve-out. Both
+remain drafts; do not install the carve-out or begin C3 without a separate ruling.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
@@ -156,6 +156,11 @@ the approved fixture implementation is complete. It does not activate Gate C,
 authorize real records, install the live Git carve-out, or switch authority.
 The staged readiness and decision sequence is canonical in
 `KERNEL/GATE_C_READINESS_PLAN.md`.
+
+Drafts awaiting review:
+
+- `KERNEL/GATE_C_C1_PILOT_CONTRACT_DRAFT.md`
+- `KERNEL/GATE_C_C2_GIT_CARVEOUT_DRAFT.md`
 
 ## Remaining Gate B sequence
 
