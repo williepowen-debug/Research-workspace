@@ -53,8 +53,8 @@ authorized. Completing C1–C6 does not activate shadow operation.
 | C4 | COMPLETE 2026-08-26 | RED registered dormant in `policies/custody-policy.json`; custody mechanism, fifteen synthetic tests, and `GATE_C_C4_CUSTODY.md` |
 | C5 | COMPLETE 2026-08-26 | SAM-33 approved; SAM-owned companion committed at `1d9400425`; strict command and exact native-reference preflight pass |
 | C6 | COMPLETE / INDEPENDENT PASS 2026-08-26 | `GATE_C_C6_REHEARSAL.md`; disposable two-command rehearsal, abort/retry/rebuild, audits, and remediated adversarial review passed |
-| C7 | REMEDIATION BUILT + REHEARSED 2026-08-26 / INDEPENDENT REVIEW OWED | `GATE_C_LIVE_INTERFACE_REMEDIATION.md` (`f8560f2c0`); refusal matrix tested (207-test suite); disposable rehearsal repeated through the exact interface, durable transcript in `KERNEL/rehearsals/`; no activation ruling requested |
-| C8 | NOT AUTHORIZED | Requires an authorized and completed C7 pilot |
+| C7 | COMPLETE 2026-08-27 | RED independent review PROCEED (CHG-RED-050 RESOLVED, both findings closed by mechanism + probe-verified); activation `LIVE-2026-0001` Will-ruled in-session; pilot ran [16:30Z, 18:00Z) — 2 SAM-33 events accepted, 4 views, kernel commit `01478b659`, all step-8 checks PASS |
+| C8 | COMPLETE / RULED **CONTINUE** 2026-08-27 | `GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md` (5 discrepancies); RED review `AGENTS/RED/reports/2026-08-27_KERNEL_GATE_C_C8_REVIEW.md` (integrity checks independently re-run PASS; 6 further findings N1–N6); Will's ruling `GATE_C_C8_RULING_2026-08-27.md`; all six conditions applied same day (runbook amended, suite 212 green post-fixture-fix, root enumeration reconciled) |
 
 ## Required implementation properties
 
