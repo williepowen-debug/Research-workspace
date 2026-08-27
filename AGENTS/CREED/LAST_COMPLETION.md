@@ -1,6 +1,8 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — **2026-08-27 (FDIC Q2 QBP window session)**. The mandatory in-window spawn (PROME brief `2026-08-23`, Will-ruled). **`CREED-T-03` GRADED NOT FIRED** on all three conjunctive legs, decided on the **basis-independent** reserve-coverage leg (166.8% → 172.7%). **`PRED-CREED-003` RESOLVED FALSE** (Brier 0.1225, n=2). **Grading the trigger impeached its own registered baseline** (`KB-CREED-024`) — proposed to Will, not self-fixed. **No band, op, value or sustain moved; convergence 25/45 UNCHANGED; S3 held at 2.**
+**STATUS:** DONE — **2026-08-27 (SECOND session: crash-recovery → band revisit → CORAL feed → trap widening).** Four work items, all closed, **stamped contemporaneously at closeout — not retroactively.** *(§⑩ below. The QBP-window entry it supersedes is retained as §⑨.)*
+
+**PRIOR:** DONE — **2026-08-27 (FDIC Q2 QBP window session)**. The mandatory in-window spawn (PROME brief `2026-08-23`, Will-ruled). **`CREED-T-03` GRADED NOT FIRED** on all three conjunctive legs, decided on the **basis-independent** reserve-coverage leg (166.8% → 172.7%). **`PRED-CREED-003` RESOLVED FALSE** (Brier 0.1225, n=2). **Grading the trigger impeached its own registered baseline** (`KB-CREED-024`) — proposed to Will, not self-fixed. **No band, op, value or sustain moved; convergence 25/45 UNCHANGED; S3 held at 2.**
 
 > ⚠️ **THIS STAMP WAS WRITTEN RETROACTIVELY on 2026-08-27 by the follow-on boot session, NOT at the 8/27 closeout.** The 8/27 closeout **skipped this file** — the third consecutive skip (7/20, 7/27, 8/27) — so between that closeout and this write the file advertised the **8/20 AFTERNOON** session as CREED's last completion while `STATUS.md` was a full window newer. **Recorded as a skip, not smoothed into a normal stamp:** the ⑨ block below is a reconstruction from committed artifacts (`988ad3614`, `0f12571d1`), not a contemporaneous closeout record, and **`README.md`'s own rule was correct to call such a gap UNKNOWN.**
 >
@@ -117,3 +119,32 @@ REGINALD **concurred on `CREED-T-02`** and updated `REG-T-07` to July — **and 
 **CHECKS (final):** `creed_selfcheck` **exit 0** · `claim_check` **4 files clean** · `orphan_check` **clean — nothing uncommitted outside `AGENTS/CREED/`** · `ledger_staleness` **all ok / THRESHOLDS FROZEN** · `check_memory_length` **OK (71%)** · STATUS **264 lines, under trigger**.
 
 🔴 **NEXT SPAWN IS MANDATORY: FDIC Q2 QBP ~8/24–29 (`CREED-T-03`).** The work order's **item 1 is the boot-time threshold scan** — no boot step reads the registry, which is `T-02`'s root cause, and **`T-01a` sits 9bps from its band with the August Trepp print due ~early Sept.** **Still owed: CORAL's FL feed** — accepted 8/3, blocker gone, **the oldest un-discharged commitment on this desk.**
+
+---
+
+## ⑩ THE 2026-08-27 SECOND SESSION — crash recovery, the band revisit, the CORAL feed, and a trap that did not fire
+
+**Stamped at closeout, contemporaneously.** *(Recorded because §⑨ above had to be reconstructed after a skipped closeout — the third consecutive skip. This one was not skipped.)*
+
+**Entered on a crash.** The prior session committed everything and died before rewriting `SCRATCH.md`; nothing was lost, but SCRATCH was one window stale and its §3 would have made this boot **re-packet PROME on an item routed 80 minutes earlier.** Fixed first (`36ded484d`).
+
+| # | Item | Outcome |
+|---|---|---|
+| 1 | **VX band month-1 revisit** (Will-approved 7/21, due 8/21, 6 days late) | **RUN, RULED, EXECUTED.** Will: *"Approve all three asks - go ahead"*. `T-01b` sustain **1→2** *(sole frozen-field edit)* · `VX-CREED-3.05` registered **NO BAND** · base-rating re-keyed **DATE → n=12** |
+| 2 | **CORAL FL-slice feed** (accepted 8/3, oldest un-discharged commitment) | **CYCLE 1 DELIVERED**, 24 days late. **Contained nothing CORAL did not already have** |
+| 3 | **Trap #7 widened** (`n=3`, one document class) | **`MAINTENANCE.md` §2026-08-27 + `CLAUDE.md` #7**, mirrors in sync |
+| 4 | **Owner-lane registry work** | `T-04`/`T-06`/`T-06b` wired; `threshold_scan` hardened **twice** |
+
+**THE FINDING: no band was mis-levelled. Every defect was a defect of CONNECTION — and the fix for one manufactured a false fire on its own first run.** Wiring `T-06`/`T-06b` to the instrument that already carried their metric produced `🔴🔴 TRIPPED CREED-T-06b 30.0 >= 1.0` on the very next run: a value cell that **quotes its own threshold**, so the scan compared the band to a copy of itself and read a **discount percent as a count of fund gates**. ⇒ **Three states, not two — UNINSTRUMENTED / UNWIRED / WIRED-BUT-NOT-MEASURED — and only the third fails LOUD.**
+
+⚠️ **The revisit artifact's own §3b had already warned that careless wiring "manufactures a fire," and the next edit manufactured one by a mechanism that warning had not anticipated. Being right about the class did not protect against the instance.**
+
+**Three things this session got right that are worth repeating, and one it got wrong:**
+- ✅ **Checked CORAL's surfaces BEFORE writing the feed** — and found WALTER's relay had beaten it there. The delivery became a confirmation plus four additive items, not re-sent news.
+- ✅ **Priced the instrument's noise before handing CORAL a headline** — the FL hotel's −79bp is **1.10× the mean monthly lodging move**, and Mar→Apr was **also −79bp** with no FL asset named.
+- ✅ **Ran step 1c manually and nearly skipped it as a no-op** (no number moved) — a **spec field** turned out to have an external consumer in a dispatched BOARD signal.
+- ❌ **The CORAL feed sat 24 days while the blocker was gone**, named in two sessions, and the gap it existed to close was closed by WALTER instead — with CORAL carrying it as *"live and load-bearing."*
+
+**Deliberate non-action, recorded so it is not mistaken for an omission:** **no auto-memory was written.** The retrieval-shape finding is durably homed on CREED's surfaces and routed to DAEDALUS for the 8/28 canonization sweep; writing a fleet memory now would **pre-empt the sweep and create a fourth home for one fact.** If DAEDALUS canonizes it, the memory is the right home *then*.
+
+**Packets out: 9.** Guards at closeout: `creed_selfcheck` ✅ · `threshold_scan` exit 1 *(`T-01a` NEAR — expected)* · `orphan_check` ✅ · `claim_check` ✅ 5 files clean · ledger nudge **disposition recorded, not silently ignored**.
