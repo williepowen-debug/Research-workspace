@@ -62,9 +62,14 @@ class GitHistoryBoundary(Protocol):
 class SubprocessGitHistoryBoundary:
     """Read an injected synthetic Git history without consulting live history."""
 
-    def __init__(self, repository: str | Path):
+    def __init__(
+        self,
+        repository: str | Path,
+        *,
+        forbidden_repository_root: str | Path = REPOSITORY_ROOT,
+    ):
         self.repository = Path(repository).resolve()
-        repository_root = REPOSITORY_ROOT.resolve()
+        repository_root = Path(forbidden_repository_root).resolve()
         if (
             self.repository == repository_root
             or repository_root in self.repository.parents
@@ -279,9 +284,13 @@ def _print_check(check: AuditCheck, pass_message: str) -> int:
     return 1
 
 
-def _fixture_json(path: Path) -> Any:
+def _fixture_json(
+    path: Path,
+    *,
+    forbidden_repository_root: str | Path = REPOSITORY_ROOT,
+) -> Any:
     resolved = path.resolve()
-    repository_root = REPOSITORY_ROOT.resolve()
+    repository_root = Path(forbidden_repository_root).resolve()
     if resolved == repository_root or repository_root in resolved.parents:
         raise ValueError("fixture audit inventories cannot be read from the live repository tree")
     return json.loads(path.read_text(encoding="utf-8"))
@@ -292,18 +301,23 @@ def main() -> int:
     subparsers = parser.add_subparsers(dest="check", required=True)
     additions = subparsers.add_parser("additions-only")
     additions.add_argument("--repository", type=Path, required=True)
+    additions.add_argument("--live-repository-root", type=Path, required=True)
     additions.add_argument("--base", required=True)
     additions.add_argument("--head", required=True)
     results = subparsers.add_parser("durable-results")
     results.add_argument("--submissions", type=Path, required=True)
     results.add_argument("--results", type=Path, required=True)
+    results.add_argument("--live-repository-root", type=Path, required=True)
     results.add_argument("--pass-reported-success", action="store_true")
     args = parser.parse_args()
 
     if args.check == "additions-only":
         try:
             check = verify_additions_only(
-                SubprocessGitHistoryBoundary(args.repository),
+                SubprocessGitHistoryBoundary(
+                    args.repository,
+                    forbidden_repository_root=args.live_repository_root,
+                ),
                 args.base,
                 args.head,
             )
@@ -320,8 +334,14 @@ def main() -> int:
         )
 
     try:
-        submissions = _fixture_json(args.submissions)
-        durable_results = _fixture_json(args.results)
+        submissions = _fixture_json(
+            args.submissions,
+            forbidden_repository_root=args.live_repository_root,
+        )
+        durable_results = _fixture_json(
+            args.results,
+            forbidden_repository_root=args.live_repository_root,
+        )
         if not isinstance(submissions, list) or not isinstance(durable_results, list):
             raise ValueError("fixture audit inventories must be JSON arrays")
     except (OSError, UnicodeError, json.JSONDecodeError, ValueError) as exc:

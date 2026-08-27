@@ -161,12 +161,14 @@ python3 KERNEL/tools/verify_native.py \
 
 python3 KERNEL/tools/audit.py additions-only \
   --repository <temporary-synthetic-git-repository> \
+  --live-repository-root <actual-live-repository> \
   --base <full-base-commit> \
   --head <full-head-commit>
 
 python3 KERNEL/tools/audit.py durable-results \
   --submissions <temporary-explicit-submission-inventory.json> \
   --results <temporary-explicit-result-inventory.json> \
+  --live-repository-root <actual-live-repository> \
   --pass-reported-success
 
 python3 KERNEL/tools/projection.py \
