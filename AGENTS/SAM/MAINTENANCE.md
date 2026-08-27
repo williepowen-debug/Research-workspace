@@ -8,6 +8,24 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-08-27 — 3 scripts (2 new, 1 repaired on three axes) · a TSV schema extension backfilled over 1,129 rows · the ledger-nudge disposition
+
+**NEW — `scripts/rate_differential.py`** (boot-wired). Mechanizes the SAM-41 bar: US leg at **Treasury par-curve primary**, JP leg at own MOF. Built because the check had been carried *"still un-run, next session"* for **eight** sessions — **a check deferred eight times is not a check**. First run found the condition had been met **eight days earlier**. Writes `workbook/RATE_DIFFERENTIAL.tsv`. Its tight-margin warning was **corrected the same day** from *"the instrument cannot resolve"* to *"fragile to the alignment choice — a prompt to TEST, not a reason to withhold a grade,"* with the reversal recorded inline so the next session cannot repeat it.
+
+**NEW — `scripts/xccy_basis.py`** (boot-wired). RED's constructive item from CHG-RED-048. **A PROXY, not the basis, and the docstring says so before any number**: forward leg = CME Sep→Dec futures **spread** (fixed 91d — chosen over spot-vs-front specifically to avoid a roll artefact), USD leg = Treasury 3m **bill not OIS**, JPY leg = **BOJ policy rate, an assumption**. Unit anchor wired as a **hard stop** (implied differential must land 0-8%). Writes `workbook/XCCY_BASIS.tsv`. ⚠️ Availability was **checked before building** — a true 3m basis is not computable here; BOND later verified at the FRED API that **no daily JPY rate series exists at all**.
+
+**REPAIRED ×3 — `scripts/mof_flows.py`**, two of the three found by the guard written for the first:
+1. **Alert keyed entirely to the 4-week rolling** while the registered threshold is keyed to the **WEEK** ⇒ it printed 🟢 on the 3rd-largest selling week in 21 years. Fix placed **outside** the rolling block and **not** as an `elif` — either would re-inherit the blindness. **n=3 historically; 10.7% of all trips were invisible.**
+2. **Only §1 of the MOF CSV was ever parsed** — the **inward** leg (§2, non-residents buying Japanese securities) was one column offset away for the script's entire life, so *"residents sold foreign bonds"* could never be checked against *"did foreigners buy JGBs?"*
+3. **`append_tsv` is idempotent by period, so MOF's revisions never landed** — the TSV silently froze first prints (14/1,129 rows differ, all 2026). New `--check-revisions` mode makes the drift visible. ⛔ **Cols 1-7 deliberately NOT auto-corrected: they are the first-print audit trail and past grades must stay reproducible.**
+
+**SCHEMA — `workbook/MOF_FLOWS.tsv` 7 → 12 columns**, inward leg appended **at the end** so positional readers of cols 1-7 are unaffected; backfilled across all **1,129** rows with a hard guard that cols 1-7 came out **byte-identical** (verified 1,129/1,129, row count preserved). Mapping verified by internal consistency (`subtotal == equity + LT`) on every row, with the outward leg as a passing control. Only code reader is `mof_flows.py` itself; all other references are prose.
+
+**LEDGER-NUDGE DISPOSITION (protocol step 1c-bis — "freeze-or-refresh EACH, or say why not").** Nudge fired on 14 ledgers. **Refresh declined for all, with reasons:**
+- **GPIF_FLOWS (29 behind) · TRADE_BALANCE (12) · BIS_GLI (8)** — **low-cadence BY CONSTRUCTION**, not rot: GPIF is quarterly with ~5wk lag, TB is monthly with the next release **9/16**, BIS is quarterly with a ~1-quarter lag. Being "behind" in STATUS-writes is their expected state.
+- **The remaining 11 were all refreshed TODAY** by the boot sweep or by this session's builds.
+- 📌 **INSTRUMENT OBSERVATION worth recording: the nudge counts STATUS-WRITES, not elapsed time — so a day with 7 STATUS commits makes every ledger read "7 behind" even when it was pulled that morning.** The counter is doing exactly what it says; the reading is an artifact of an unusually high-STATUS-write day and should not be read as staleness. Same class as the other three defects above: **a correct counter measured against the wrong denominator.**
+
 ## 2026-08-20 (later) — **`bis_gli.py` + `workbook/BIS_GLI.tsv`: the carry-trade scale question becomes an INSTRUMENT rather than a hand-pull**
 
 **WHY.** The BIS figure that killed the v2.0 candidate's §2 was a one-off manual pull. **A load-bearing number that only exists in a session transcript is not reproducible** ([[finding_loadbearing_number_must_be_reproducible]]), and this one now sits under a retired thesis argument that RED, BOND and NEXUS may all cite.
