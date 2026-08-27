@@ -1,6 +1,7 @@
 ---
 name: finding_guard_correctness_and_wiring_are_independent
-description: "A guard's CORRECTNESS and its WIRING are independent properties — we verify the first and assume the second. n=4 in one day across 3 agents: the check ran, the check was right, and nothing downstream was gated on its result."
+description: "A guard's CORRECTNESS and its WIRING are independent properties — we verify the first and assume the second. n=4 in one day across 3 agents; +ZHAO (correct+wired but INERT on corrupted input); +ORACLE (correct and wired to the paths that mattered, unwired on the one column its own label exempted)."
+symptoms: "guard exists and is correct but nothing changed; check passes and the bad thing still happened; a column labelled context/informational/not-in-the-arithmetic held a stale value for weeks; a settled or resolved leg pinned at 100% read as live; audit says the rule is present and the rule cannot fire"
 metadata: 
   node_type: memory
   type: feedback
@@ -32,3 +33,17 @@ metadata:
 - **Test with a fixture that forces the guard to fire**, not just a healthy run. A healthy run and an inert guard print the same reassuring line.
 
 **The generalisation worth carrying:** we habitually audit whether a check is *right* and almost never audit whether it is *load-bearing*. Ask of any guard: **"if this fires, what stops?"** — and if the honest answer is "I would notice," it is not a guard, it is a log line. Related: [[finding_concurrent_commit_index_race]] (TERRY's half — three values race: the hash, the owner, and whether it is public), and [[finding_record_of_an_action_is_not_the_action]], which is this same gap seen from the artifact side.
+
+**EXTENSION 2026-08-27 (ORACLE) — a FOURTH shape: the guard was correct AND wired, but only along the paths someone had already decided were important. The path it skipped was the one its own label had exempted from review.**
+
+**The instance:** ORACLE's `disruption_supply_spread.py` computes a two-leg spread and carries a third value as a **context column**, explicitly documented as *"NOT part of the arithmetic."* The script already had a `RESOLVED_PROB` guard whose entire purpose is to refuse a settled market leg — a leg that has resolved is pinned at 100% forever and is no longer a forecast. **That guard was correct, and it was wired to both arithmetic legs.** It was never wired to the context column. The source event is a by-**date ladder** and the upstream log stores only its *highest-probability* leg, so the moment an early rung settled YES it became the permanent "top" — and the column reported a **dead rung at 100.00 for six consecutive sessions** (last honest value six sessions earlier). Nothing in the closeout sequence would have caught it: the value was plausible, and the file was rewritten every session, which **re-arms every mtime/commit-time staleness check** ([[finding_hygiene_commit_rearms_the_staleness_lie]]).
+
+**The transferable part is the label, not the wiring.** The column was rotting *because* it was marked "context, not in the arithmetic." That label correctly says the value **cannot corrupt the computation**; it was silently read as **"this value is not load-bearing"** — and a number that ships in a logged row is read by consumers no matter what the code comments call it. **A context column is not an ungraded column.** The same word that protects a value from the arithmetic exempts it from review.
+
+**How to apply:**
+- **Enumerate every path a guard SHOULD cover, then check each one — never infer coverage from the guard's existence.** "Is there a resolved-leg guard?" is the wrong question; "is it on *this* path?" is the right one. A row-counting or presence-based audit passes clean on a partially-wired guard.
+- **Treat any "informational / context / FYI / not-used-downstream" annotation as a REVIEW-EXEMPTION FLAG and go look at it.** These are the values most likely to be stale, precisely because nobody grades them.
+- **Prefer suppress-and-mark over silent omission** when a guard does fire on a display value: emit an explicit sentinel (`SETTLED-LEG-SUPPRESSED`, `NO-PULL`) rather than a blank or a stale carry. A marked gap stays readable; a plausible stale number does not announce itself.
+- **Watch for the second consequence.** The same top-leg selection also made a maintenance sweep flag the market `RESOLVED — replace now` every session. **That warning was a false positive on a LIVE instrument** — obeying it would have retired a working market. One root cause produced both a silent stale number *and* a loud wrong instruction, in opposite directions.
+
+Found only by chasing the false alarm, not by any scheduled check. Related: [[finding_plausible_stale_value_evades_review]], [[finding_continuous_front_ticker_rolls_so_deltas_lie]].
