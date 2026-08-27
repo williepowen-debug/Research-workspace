@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will named RED as the dormant substitute on 2026-08-26, closing C4. RED is registered disabled by default; no activation record exists and PROME remains the sole active custodian.
+**Latest operator ruling:** Will authorized bounded read-only C5 inspection on 2026-08-26. SAM-33 is the recommended exact native row, but material terms require a SAM-owned committed companion before C5 can pass; no live processing is authorized.
 
 **Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
@@ -145,10 +145,10 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — await C5 record-selection authorization
+## Next action — C5 record and companion ruling
 
-**C4 is complete. Do not inspect or select a real native record for C5 without a
-separate Will ruling.**
+**Will approves or rejects SAM-33 and decides whether SAM may prepare the bounded
+native companion. Recommendation: approve.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
@@ -185,7 +185,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
 | Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
-| Gate C — live shadow activation | C1–C4 COMPLETE / NOT ACTIVE | RED is registered dormant; no activation exists. C5–C8 remain separately gated |
+| Gate C — live shadow activation | C1–C4 COMPLETE / C5 CANDIDATE / NOT ACTIVE | SAM-33 inspected read-only and recommended; operator approval and native companion required before C5 closes |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record

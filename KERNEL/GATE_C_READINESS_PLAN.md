@@ -51,7 +51,8 @@ authorized. Completing C1–C6 does not activate shadow operation.
 | C2 | APPROVED / INSTALLED / INACTIVE 2026-08-26 | Root `CLAUDE.md` carve-out ④, root `AGENTS.md` pointer, `tools/git_policy_check.py`, and six synthetic tests |
 | C3 | COMPLETE / PRIMARY PASS 2026-08-26 | `tools/gate_c_boundary.py`, eleven synthetic-mirror tests, and `GATE_C_C3_SYNTHETIC_BOUNDARY.md` |
 | C4 | COMPLETE 2026-08-26 | RED registered dormant in `policies/custody-policy.json`; custody mechanism, fifteen synthetic tests, and `GATE_C_C4_CUSTODY.md` |
-| C5–C8 | NOT AUTHORIZED | Separately gated as specified above |
+| C5 | INSPECTED / CANDIDATE AWAITS APPROVAL | SAM-33 recommended at exact commit/row hash; `GATE_C_C5_RECORD_INSPECTION.md`; native companion still required |
+| C6–C8 | NOT AUTHORIZED | Separately gated as specified above |
 
 ## Required implementation properties
 
