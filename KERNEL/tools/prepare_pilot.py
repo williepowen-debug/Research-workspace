@@ -24,9 +24,15 @@ EVENT_IDS = {
 }
 
 
-def prepare(root: Path, source_commit: str, submitted_at: str) -> dict[str, object]:
+def prepare(
+    root: Path,
+    source_commit: str,
+    submitted_at: str,
+    *,
+    live_repository_root: Path | None = None,
+) -> dict[str, object]:
     root = root.resolve()
-    live = LIVE_REPOSITORY_ROOT.resolve()
+    live = (live_repository_root or LIVE_REPOSITORY_ROOT).resolve()
     if root == live or live in root.parents or root in live.parents:
         raise ValueError("pilot preparation refuses the live repository tree")
     marker = json.loads((root / ".gate-c-synthetic-mirror.json").read_text(encoding="utf-8"))
@@ -117,9 +123,15 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--mirror", type=Path, required=True)
     parser.add_argument("--source-commit", required=True)
     parser.add_argument("--submitted-at", required=True)
+    parser.add_argument("--live-repository-root", type=Path, required=True)
     args = parser.parse_args(argv)
     try:
-        report = prepare(args.mirror, args.source_commit, args.submitted_at)
+        report = prepare(
+            args.mirror,
+            args.source_commit,
+            args.submitted_at,
+            live_repository_root=args.live_repository_root,
+        )
     except (OSError, UnicodeError, json.JSONDecodeError, ValueError) as exc:
         print("notice: SHADOW — NON-AUTHORITATIVE")
         print("EXCEPTION: pilot-preparation")

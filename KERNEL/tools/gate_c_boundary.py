@@ -40,9 +40,9 @@ class GateCBoundaryError(ValueError):
 class SyntheticMirrorBoundary:
     """Resolve only explicit canonical inputs inside a marked non-live mirror."""
 
-    def __init__(self, root: str | Path):
+    def __init__(self, root: str | Path, *, live_repository_root: str | Path | None = None):
         self.root = Path(root).resolve()
-        live = LIVE_REPOSITORY_ROOT.resolve()
+        live = Path(live_repository_root or LIVE_REPOSITORY_ROOT).resolve()
         if self.root == live or live in self.root.parents or self.root in live.parents:
             raise GateCBoundaryError("Gate C synthetic boundary refuses the live repository tree")
         marker_path = self.root / MARKER
@@ -152,6 +152,7 @@ def run_synthetic(
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--mirror", type=Path, required=True)
+    parser.add_argument("--live-repository-root", type=Path, required=True)
     parser.add_argument("--inventory", type=Path, required=True, help="JSON array of 1-3 exact submission paths")
     parser.add_argument("--submission-commit", required=True, help="full commit containing every explicit submission")
     parser.add_argument("--actors", type=Path, required=True)
@@ -164,7 +165,7 @@ def main(argv: list[str] | None = None) -> int:
     mode.add_argument("--apply-synthetic", action="store_true")
     args = parser.parse_args(argv)
     try:
-        boundary = SyntheticMirrorBoundary(args.mirror)
+        boundary = SyntheticMirrorBoundary(args.mirror, live_repository_root=args.live_repository_root)
         submissions = boundary.load_inventory(args.inventory, args.submission_commit)
         run, result_root = run_synthetic(
             boundary,

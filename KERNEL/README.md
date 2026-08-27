@@ -124,6 +124,7 @@ python3 KERNEL/tools/git_policy_check.py \
 
 python3 KERNEL/tools/gate_c_boundary.py \
   --mirror <marked-synthetic-git-mirror> \
+  --live-repository-root <actual-live-repository-root> \
   --inventory <explicit-one-to-three-path-inventory.json> \
   --submission-commit <full-commit-sha> \
   --actors <synthetic-actor-registry.json> \
