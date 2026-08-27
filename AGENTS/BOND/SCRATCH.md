@@ -139,6 +139,8 @@
 
 ## MAIL
 
+⚠️ **NEW ARRIVAL AFTER THE DRAIN — inbox is 2, not 1: SAM delivered `2026-08-27_from-SAM_a-fourth-measured-leg-on-the-funding-channel-and-it-says-8-7-was-not-a-funding-event.md` mid-session. UNREAD.** It bears on **`FL-BND-11`** (the intervention → UST-supply funding channel), which is BOND's flow — **read it early next boot, after the 7Y grade.** ⛔ **It is STAGED but uncommitted and it is SAM's to commit, not BOND's** (carve-out ① is the AUTHOR's). **Do not sweep it into a BOND commit** — use explicit pathspecs.
+
 **In:** **7 read → 6 filed to `processed/`, 1 RETAINED BY DECISION.** PROME's hyperscaler allocation stays in `inbox/` as the **carrier** of an undelivered ~9/3 deliverable — **filing it would falsely clear live work, and the count is reported as 7→1 rather than driven to zero.** WALTER lane: 2 consumed and filed earlier.
 **Out:** **5 packets today** → PROME ×2 (adoption + Will-gated question · univariate band) · LIQUID ×2 (B2/`KB-BND-092` · T6 concur) · HENRY (sb0607 butterfly) · MIDAS (univariate band, cc on the PROME packet) · RED (label, via SendMessage).
 ✅ **DELIVERY VERIFIED BY PATH THIS TIME, not assumed** — copies committed to `AGENTS/HENRY/inbox/`, `AGENTS/LIQUID/inbox/`, `AGENTS/MIDAS/inbox/` and **`PROME/inbox/` (repo root)**. ⚠️ **Still not verified by CONTENT** — that check remains owed and is now n=3 on deferral.
