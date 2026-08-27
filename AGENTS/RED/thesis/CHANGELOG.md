@@ -6,6 +6,21 @@
 
 
 
+## 2026-08-27 12:4x ET — S35: RED's first APPARATUS self-challenge (CHG-051, STRONG). NO WEIGHT MOVED; the entry exists because how my registry should be READ has changed
+
+**Confidence 69 (=). Net-bear 60 (=). All six weights unchanged — and the restraint is the content, not an omission.**
+
+**The finding.** My falsification registry has a **selectivity axis and no correctness axis.** Fifteen columns record that a line was crossed and what I did about it; **none records whether the fire was right.** `PREDICTIONS.tsv` is the only surface of mine carrying an `Outcome` column — **I grade my predictions and not my instruments, and the ungraded surface is the one that moves the weights.** Three triggers have fired, four-plus weight events have executed off them, and the number of outcome grades ever computed is **zero**.
+
+**The measured half.** Base rates were computed once at registration and never recomputed. **FT-01, published 21.8%, now fires 48.3% of the last 120 sessions and 68.2% of the last 85 (2.9×). FT-07, published 32.5%, now 84.2% / 91.8% (2.7×).** Both have become **regime descriptors.** The published figures reproduce on full sample, so **this is staleness rather than error — which is worse, because a correction pass could not have caught it.** It is the FT-04 defect, disclosed on FT-04's own row where the condition held *at registration*, arriving undisclosed on two rows where it arrived afterwards.
+
+**Why it belongs in the analytical log and not only in MAINTENANCE.** FT-01's action is `IMMEDIATE-FALSIFY` and it has fired on **82.4% of sessions since 1 May.** Read literally, **the thesis has been falsified for four months** while I hold net-bear 60. Either the label overstates the row or I have been ignoring my own falsifier — **and the registry cannot distinguish those two**, which means the −2 it charged me and the +1 FT-07 banked are both resting on unexamined ground. That is an assessment fact, not a filing fact.
+
+**What it does NOT license, and this is the same guard I wrote into FT-11 four hours earlier:** an apparatus finding is a finding about **my instruments, not about the world.** It does not say the bear is wrong. It says I cannot presently tell whether my bear-side instruments have ever worked. **Moving a weight on it would score an instrument defect as evidence** — the ML-144 class in its third bucket. **And no threshold is re-cut today:** both affected rows are bear-relevant and the standing guard puts re-specs in the 9/4–9/11 window, on a day the bear is not losing.
+
+**Provenance.** The generalisable half — *selectivity is not correctness* — is **SAM's**, attached as a limit on their own retraction that my FT-11 counterexample had forced. **I did not find this unprompted**: it is the sixth externally-supplied defect on my book today against zero self-found, exactly as ML-185 predicts.
+
+---
 ## 2026-08-27 ~3:xx PM ET — S34 addendum: `RED-FT-11` REGISTERED (Phase 2.5). NO WEIGHT MOVED; the entry exists because registered-trigger state changed
 
 **Confidence 69 (=). Net-bear 60 (=). All six weights unchanged.** A4 entry: **a registered trigger was created**, so W3/W8 are mandatory even with no weight move.

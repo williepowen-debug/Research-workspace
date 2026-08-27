@@ -22,6 +22,36 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S35 (2026-08-27, boot ~12:25 ET / close ~12:4x ET) — WILL-DIRECTED: OPEN THE APPARATUS SELF-CHALLENGE. DONE. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
+
+**`CHG-RED-051` — RED's first APPARATUS-class self-challenge, and it lands on RED's own registry.** Full report `challenges/SELF_APPARATUS_REGISTRY_2026-08-27.md`; ML-190/191; OUTBOX-024 🔴 (one ACTION owed).
+
+- **The charge:** RED's falsification registry has **a selectivity axis and no correctness axis.** 15 columns; none records whether a fire was RIGHT. `PREDICTIONS.tsv` is RED's only surface with an `Outcome` column ⇒ **RED grades its predictions and not its instruments — and the ungraded surface is the one with write access to the weights.** 3 triggers fired, 4+ weight events, **0 outcome grades ever** (tree-wide grep: zero hits).
+- **The measured half:** base rates computed once at registration, never recomputed. **FT-01 21.8% → 48.3%/120s (68.2%/85s), 2.9×. FT-07 32.5% → 84.2%/91.8%, 2.7×. Both are regime DESCRIPTORS now.** FT-06 stable 1.0×. **The published figures REPRODUCE — staleness, not error**, which is worse: a correction pass could not have caught it.
+- **The bite:** FT-01's action is `IMMEDIATE-FALSIFY` and it has fired **82.4% of sessions since 5/1**. Read literally the thesis has been falsified for four months. **Either the label is wrong or RED ignores its own falsifier — and the registry cannot tell you which.**
+- **Axis demonstrated computable** (so the challenge isn't the thing it complains about): first outcome grade ever for a RED trigger — FT-01 vs KRE fwd returns, **3/6 = 50%**. ⚠️ **n=6, proxy and horizon both self-chosen; a demonstration, NOT a verdict.**
+- **3 of 4 falsifiers RUN in-session.** F2 mattered most: VULCAN's *"ungradeable when the observer picks when to read"* applied to RED, since RED picked 85 — ran the whole ladder, **strictly monotone in recency both series** ⇒ regime shift, not window-shopping. **It also showed short windows FLATTER the charge, so the headline quotes the conservative 120.**
+- **⛔ NO weight, NO threshold re-cut.** Both affected rows are bear-relevant; standing guard defers re-specs to **9/4–9/11**, on a day the bear is not losing. Same guard written into FT-11 four hours earlier.
+
+**⚑ SECOND DEFECT, FOUND BY ACCIDENT: `CHG-RED-049` had no canonical ledger row.** Issued, delivered to CARL, narrated on FOUR surfaces — SCRATCH, MAINTENANCE, board_log, ML — while `CHALLENGES.tsv` (what the DUE-scan reads) had nothing. **Caught only because CHG-051 needed the next free ID.** Row written retroactively, ACTIVE, re-review 9/15. ML-191.
+
+**⚑ AND ONE AT BOOT: every timestamp RED wrote on 8/27 ran AHEAD of the wall clock** — the "~3:xx PM" addendum committed 12:22, board_log's last S34 row stamped 13:1x for work committed 12:12. **Historical stamps NOT rewritten (they are the evidence); forward-only correction on STATUS's state line.** Order S34's endings by the commit graph.
+
+**🔴 NEXT SESSION — one item arrived mid-session and is NOT started:**
+1. **🔴 FRI 8/28 10:00 ET — QCEW. Unchanged, still the top item. Read the number, name the band, execute as tabled. Do not improvise.**
+2. **🟠 C8 POST-CLOSEOUT REVIEW — ASSIGNED TO RED** (Will picked RED from the ruled RED-or-DAEDALUS pair; PROME built and ran the pilot so cannot review it). Object: `KERNEL/GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md` (`82fdb902b`); assignment `inbox/2026-08-27_from-PROME_C8-review-assignment-...` (`bbebc4429`). Pilot completed in-window: 2 SAM-33 events accepted, kernel commit `01478b659`, check-views + additions-only PASS. **Five discrepancies recorded — D2 (PROME's own activation doc drew the first live refusal, timestamp format — RED has a prior here: RED's C7 probe produced four false REFUSALs on RED's own malformed timestamps), D3 (byte-identical criterion unsatisfiable for views by tool design; Will ruled PROCEED), D5 (SAM-found: "no push during the sitting" is unhonorable under the push-train — four commits reached origin mid-window via a peer's sweep).** **Deliverable: continue / pause / remediate / end, TO WILL not to PROME.** **No hard clock** — the activation expired at its own 18:00Z bound, so nothing is live while it waits. **Re-derive everything; accept none of PROME's framing** (their instruction, and it is the standard that made RED's C7 delta re-review catch a real gap in the first fix).
+3. **🟠 CHG-051's owed deliverables — do NOT half-ship them:** `Last_Reviewed` + rolling base rate on every registry row (the cheap fix, where the value is) · an outcome axis with **pre-committed** proxy/horizon · **FT-01's label adjudicated.**
+4. Unchanged: CARL V2 (owner dark) · 9/3 30Y JGB rail · 9/4–9/11 re-spec window (now FT-01/FT-04/FT-07/FT-08/VX-004) · 9/12 VX re-review · 9/15 CHG-044 **+ CHG-049** · 9/30 CHG-042 backstop.
+
+**OPEN THREADS — one CLOSES:** ~~RED has no apparatus self-challenge~~ → **CLOSED, CHG-051 live (1 of 3 self-challenges is now apparatus-class).** Still open: publisher-side routing unfixed as a class · VX-004's dead flip line · CHG-042 blocked to 9/30 · independence discount (ML-133).
+
+**PENDING WILL-DECISIONS:** none blocking. **C8 sequencing is yours** — RED deferred rather than pivoting mid-task; it has no clock and QCEW outranks it.
+
+**GIT STATE:** on master; S35 committed path-scoped (`AGENTS/RED/` only); nothing written into `KERNEL/`; safe-push at closeout.
+
+---
+
+
 **🆕 S34 ADDENDUM (~3:xx PM ET) — PHASE 2.5 BUILT ON WILL'S WORD. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
 
 **`RED-FT-11` REGISTERED + ROUTED** — the Treasury-buyback attribution classifier. The item that had been displaced three sessions running is done, **thirteen days before it goes live (9/9)**.

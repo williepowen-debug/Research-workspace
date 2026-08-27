@@ -12,6 +12,21 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 ---
 
 
+## 2026-08-27 (S35) — CHG-RED-051 opened (first APPARATUS-class self-challenge); CHG-RED-049's missing ledger row written retroactively
+
+**Trigger:** Will-directed — open the apparatus self-challenge owed under ML-RED-185 (RED stood 0 of 2).
+
+**What changed:**
+- **NEW** `challenges/SELF_APPARATUS_REGISTRY_2026-08-27.md` (121 lines) — CHG-RED-051, STRONG, target = RED's own `registry/FALSIFICATION_TRIGGERS.tsv`. Three charges (no outcome axis · base-rate staleness · the synthesis), four pre-registered falsifiers of which **three were run in-session** rather than deferred.
+- `workbook/CHALLENGES.tsv` — **two** rows added: CHG-RED-051, and **CHG-RED-049 retroactively.**
+- `workbook/ML.tsv` — ML-RED-190 (the apparatus finding), ML-RED-191 (the missing-row defect).
+- `OUTBOX.md` — RED-TO-PROME-20260827-024, 🔴, one ACTION owed (fleet base-rate-staleness sweep proposal).
+- `thesis/CHANGELOG.md`, `STATUS.md`, `board_log.tsv` — folded.
+
+**⚠️ The structural finding of the pass (ML-RED-191): CHG-RED-049 was issued, delivered to CARL, and narrated on FOUR surfaces — SCRATCH, MAINTENANCE, board_log, ML.tsv — while the canonical `CHALLENGES.tsv` row was never written.** `boot.py`'s DUE-scan reads `CHALLENGES.tsv`, so the challenge was **invisible to automated loop-closure by construction** and would have aged silently. **It was caught by accident** — CHG-051 needed the next free ID and 049 was missing from the sequence. **No check found it.**
+
+**Boot-impact:** none to the sequence. One extra ACTIVE row in the DUE-scan (051, dated 2026-10-31; 049 dated 2026-09-15). **Owed and NOT built this session:** a `Last_Reviewed` + rolling base-rate column on the registry, and an outcome axis with pre-committed proxy/horizon — both named in the challenge as deliverables rather than half-shipped under time pressure.
+
 ## 2026-08-27 (S34 addendum) — structural
 
 1. **`registry/FALSIFICATION_TRIGGERS.tsv` — `RED-FT-11` ADDED** (10 → 11 rows), `ARMED-UNFIRED`, precondition live **2026-09-09**. ⚠️ **It is a CONDITIONAL CLASSIFIER, not a threshold row, and `boot.py` correctly reports it `⚪ unmapped metric, manual check`.** That is disclosed rather than papered over: **a three-leg classification over a window has no single-metric comparator form, so it cuts against my own `ML-RED-156`** (machine-consumed registrations should carry their conjunction in the machine columns). **Labelled a MANUAL row.** Mitigation available later — the precondition alone (Δ`DGS30` 5-session) is mappable and would surface *when to look*.
