@@ -1,0 +1,47 @@
+{
+  "companion_of": "AGENTS/REGINALD/workbook/PREDICTIONS.tsv#Pred_ID=REG-01",
+  "purpose": "Kernel-native structured companion for REGINALD prediction REG-01. The TSV row carries record identity and the desk-native confidence; this file carries the structured material fields the Kernel question/forecast schemas require and the TSV's 10 columns cannot hold. Authored 2026-08-27 for Gate C Increment 2. NOT a command file.",
+  "question": {
+    "question_id": "Q-019306b4-1a00-7000-8000-0000000000a1",
+    "owner_actor_id": "REGINALD",
+    "claim": "Through 2026-12-31, the Trepp office CMBS delinquency rate does not print below 10.00 percent in two or more consecutive monthly prints.",
+    "forecast_family": "BINARY_PROBABILITY",
+    "opens_at": "2026-02-23T00:00:00.000000Z",
+    "closes_at": "2027-01-01T00:00:00.000000Z",
+    "resolver_anchor_type": "FIXED_DEADLINE",
+    "resolution_condition": "The question resolves YES if, across every monthly Trepp office CMBS delinquency print covering a reference month from opens_at inclusive through 2026-12-31 inclusive, there is no run of two or more CONSECUTIVE prints each strictly below 10.00 percent. It resolves NO if two or more consecutive such prints are each strictly below 10.00 percent. A single print below 10.00 percent that is not followed by a second consecutive print below 10.00 percent does not resolve NO.",
+    "resolution_rule": "The graded series is the Trepp monthly OFFICE-specific CMBS delinquency rate, the same instrument registered as the grading instrument for REGINALD trigger REG-T-07 (metric OFFICE-CMBS-DQ-TREPP). Three substitutions are prohibited and each has produced a real mis-read on this desk. (1) The Fitch overall CMBS delinquency index is NOT this series: it is a different provider over a different universe and ran roughly 8 percentage points below the Trepp office series in 2026 (Fitch overall 3.31 percent in May 2026 against Trepp office 11.69 percent in April 2026). (2) Special servicing is NOT delinquency: office special servicing runs approximately 5.5 percentage points above office delinquency, fires pre-delinquency on maturity and covenant triggers, and a loan can be in special servicing while current. Office special servicing printed 17.11 percent in June 2026 and 16.58 percent in July 2026 against office delinquency of 11.57 percent and 11.91 percent in the same months. (3) The Trepp ALL-PROPERTY overall delinquency rate is NOT this series and moves on composition: the June 2026 overall rate fell 20 basis points to 7.35 percent purely on a lodging cure of 79 basis points while office, retail and multifamily all ROSE. Reference values on the correct series, for the verifier: 11.69 percent April 2026, 11.57 percent June 2026, 11.91 percent July 2026. Percent-of-balance basis as published by Trepp; do not reconstruct the rate from a loan count.",
+    "resolution_sources": [
+      "Trepp monthly CMBS Delinquency Report, office property-type rate (https://www.trepp.com/trepp-cmbs-delinquency-rate)",
+      "Trepp CMBS Research monthly delinquency commentary reproducing the office property-type rate (https://www.trepp.com/trepptalk)",
+      "ConnectCRE monthly reproduction of the Trepp property-type delinquency table (https://www.connectcre.com)"
+    ],
+    "fallback_resolution_source": "Where a Trepp primary page for a given reference month is unavailable, a contemporaneous trade-press reproduction that states the Trepp office property-type delinquency rate, the reference month, and Trepp as the source, cross-checked against a second independent reproduction of the same figure. If only one reproduction exists for a month, record it as single-sourced rather than treating it as primary.",
+    "ambiguity_rule": "Do not infer a sub-10.00 percent office print from a decline in the Trepp ALL-PROPERTY overall rate, from a Fitch figure, from a special-servicing figure, or from a maturity-adjusted variant. If a monthly office print cannot be obtained for a reference month after the negative-search procedure, that month is recorded as UNOBSERVED and cannot contribute to a consecutive run in either direction; a consecutive run must be established on two adjacent OBSERVED prints. If Trepp restates a previously published office rate, the restated value governs and both values are recorded. If Trepp changes the definition or perimeter of the office property-type series during the question window, the question does not silently re-base: record the definition change and resolve on the series as defined at opens_at where a comparable figure is published, otherwise treat affected months as UNOBSERVED.",
+    "annulment_rules": [
+      "Annul only if Trepp permanently ceases to publish an office-specific CMBS delinquency rate before closes_at and no reproduction of the discontinued series exists for the remaining months, such that YES versus NO cannot be determined without inference.",
+      "Annul only if all primary and fallback records needed to determine the office property-type rate for the months required to establish or exclude a consecutive sub-10.00 percent run are permanently unavailable after the registered negative-search procedure.",
+      "Do not annul because the office delinquency rate remains far above 10.00 percent and the question becomes uninteresting; a wide margin is a resolution, not an annulment.",
+      "Do not annul because the graded series is behind a paywall; restricted access is a retrieval cost, not an unavailability, and is addressed by the fallback source."
+    ],
+    "resolver_actor_id": "REGINALD",
+    "independent_verifier_actor_id": "CREED",
+    "negative_search_procedure": "After closes_at, enumerate every monthly Trepp CMBS delinquency publication with a reference month from 2026-02 through 2026-12 inclusive. For each reference month, obtain the OFFICE property-type rate from the Trepp primary page or Trepp TreppTalk commentary; where absent, search ConnectCRE and general trade press for a reproduction that names Trepp, the reference month, and the office property-type rate. Record for every month: the reference month, the office rate, the retrieval URL, the access timestamp, and whether the value is primary or a reproduction. Explicitly record any month that remains UNOBSERVED. Before proposing YES, confirm that no two ADJACENT observed months both print strictly below 10.00 percent, and state the minimum observed office rate in the window together with its month. Before proposing NO, name the two or more consecutive months, their values, and their sources. In either direction, state explicitly that the figures used are office property-type DELINQUENCY and not special servicing, not the Fitch index, and not the all-property overall rate."
+  },
+  "forecast": {
+    "forecast_id": "F-019306b4-1a00-7000-8000-0000000000a1",
+    "question_id": "Q-019306b4-1a00-7000-8000-0000000000a1",
+    "forecaster_actor_id": "REGINALD",
+    "forecast_version": 1,
+    "information_as_of": "2026-08-27T00:00:00.000000Z",
+    "probability": 0.9,
+    "rationale_ref": "AGENTS/REGINALD/workbook/PREDICTIONS.tsv#Pred_ID=REG-01",
+    "evidence_refs": [
+      "AGENTS/REGINALD/workbook/PREDICTIONS.tsv#Pred_ID=REG-01",
+      "AGENTS/REGINALD/registry/THRESHOLDS.tsv#REG-T-07",
+      "AGENTS/REGINALD/STATUS.md#cmbs-dq-two-providers-two-scopes"
+    ],
+    "intervention_stage": "INITIAL",
+    "decision_consequence": "Signal-only. This is the CRE-recognition leg of REGINALD's convergence thesis and it does not by itself authorize or size any trade, move any registered threshold, or change REGINALD trigger REG-T-07, whose bar is a different level (>15 percent, sustain 3) on the same series. The registered desk confidence of 90 percent is unchanged by this submission and is supported by the 2026-08-27 tracking read: the July 2026 office print of 11.91 percent sits 1.91 percentage points above the 10.00 percent bar and rose from 11.57 percent in June, so a NO resolution requires roughly a 191 basis point fall sustained across two consecutive months within the remaining four months of the window, against a series that is currently rising. The 10 percent residual is not zero because the series can move on composition and because a Trepp restatement or definition change is a live path."
+  }
+}
