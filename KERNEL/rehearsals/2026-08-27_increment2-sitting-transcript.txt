@@ -1,0 +1,293 @@
+# LIVE-2026-0002 SITTING TRANSCRIPT — tee'd live per N2, begun at first invocation
+# Window [2026-08-27T21:45:00.000000Z, 23:45:00.000000Z) — Will verbatim 'ok approved tonight' (record PROME/proposals/2026-08-27_increment2-window-RULED.md)
+
+== STEP 0 PRECONDITIONS ==
+Thu Aug 27 22:05:26 UTC 2026
+-- tree state (expect: clean or only known in-flight peer work; staged index EMPTY) --
+ M AGENTS/ORACLE/workbook/HISTORY.tsv
+ M AGENTS/VIOLET/STATUS.md
+ M AGENTS/VIOLET/scripts/backfill.py
+ M AGENTS/VIOLET/scripts/thresholds.py
+ M AGENTS/VIOLET/workbook/CHEAP_TAIL.tsv
+ M AGENTS/VIOLET/workbook/IMPLIED_CORR.tsv
+ M AGENTS/VIOLET/workbook/JPY_VOL.tsv
+ M AGENTS/VIOLET/workbook/KB.tsv
+ M AGENTS/VIOLET/workbook/OVX.tsv
+ M AGENTS/VIOLET/workbook/VIX_OPTIONS.tsv
+ M AGENTS/VIOLET/workbook/VX_DAILY.tsv
+?? AGENTS/VIOLET/research/2026-08-27_F2_pre_post_2018_split_KB-VIO-207.md
+?? AGENTS/VIOLET/research/2026-08-27_beta_reconciliation_bucketing_bug.md
+?? KERNEL/rehearsals/2026-08-27_increment2-sitting-transcript.txt
+-- staged index --
+-- custody paths --
+?? KERNEL/rehearsals/2026-08-27_increment2-sitting-transcript.txt
+-- 12 command pins re-verified at staged bytes --
+5ea35802ca88478c52bbc87347dbd1db5cecd13eb8a0112579ca6477380ad915  AGENTS/CREED/registry/kernel_staged/CMD-019305f8-ec00-7000-8000-000000000101.json
+45096c3e483b6e92047a2747a9457d7c2510bb7fc349ef9a6851b47e559a0c21  AGENTS/CREED/registry/kernel_staged/CMD-019305f8-ec00-7000-8000-000000000102.json
+6469e6f8b47f6abf0e3d69bf8fa08d777078c950b6eeb04ef2b3a27ed425ecbf  AGENTS/CREED/registry/kernel_staged/CMD-019305f8-ec00-7000-8000-000000000103.json
+06044dee1c3a19433a358f73b489bafdf4fcce68fe704bc58b193c8f92da2997  AGENTS/CREED/registry/kernel_staged/CMD-019305f8-ec00-7000-8000-000000000104.json
+20682ed80a9d36aca406176c3467178f7ed7f19760b31e06eb42146ee08efb2a  AGENTS/CREED/registry/kernel_staged/CMD-019305f8-ec00-7000-8000-000000000105.json
+cd4ee3fdbd29dcb6f23710e87435e1b657139181c80b8c06dd7b2235de1d2901  AGENTS/CREED/registry/kernel_staged/CMD-019305f8-ec00-7000-8000-000000000106.json
+8f5d1e5da53e02096e64b738a08feb89a6e79dfbd95cfa2f0d92bbf50b53f37c  AGENTS/LIQUID/kernel_staging/CMD-01a044fc-e591-73e8-a74d-2f675abc09a0.json
+583e9f31194e9ab5ecae71f7b10a8620eaccd6fef56158027d054c908c76d344  AGENTS/LIQUID/kernel_staging/CMD-01a044fc-e591-769e-8199-994a92e9fafb.json
+c702ec942ae5db162a02a7f14ee4b1f64e7a61886a1bdf3fc9ec9fc0131ea02a  AGENTS/REGINALD/kernel/staged_increment2/CMD-019306b4-1a00-7000-8000-0000000000a1.json
+81d2a01db60910cb88ffb79f403c536058c8da29aa2705769746d4ac477e52fd  AGENTS/REGINALD/kernel/staged_increment2/CMD-019306b4-1a00-7000-8000-0000000000a2.json
+bef71f7a000419d7d57d4d7bc92f9f6213bd8ce336d58edb9d722fccf28b7d9c  AGENTS/REGINALD/kernel/staged_increment2/CMD-019306b4-1a00-7000-8000-0000000000a6.json
+f6334b33b2fcfbf98f13211ad6d80744bc26841a6705065d1ca16c81be068f1c  AGENTS/REGINALD/kernel/staged_increment2/CMD-019306b4-1a00-7000-8000-0000000000a7.json
+-- policy draft pins --
+ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f  KERNEL/policies/actors.json.increment2-draft
+6e73c29e9abd16270575cf1c0ba316c24c72d89ebb9e7e13099f5a2f6e9960de  KERNEL/policies/capability-grants.json.increment2-draft
+
+== STEP 1: DESK COMMITS ==
+Thu Aug 27 22:06:31 UTC 2026
+-- CREED commit 6b8678c67 --
+6b8678c67d59bc3368b70667a744784ddd539a42 2026-08-27 18:06:13 -0400 CREED: Gate C Increment 2 step 1 — six canonical immutable commands submitted under LIVE-2026-0002 (carve-out 4, in-window)
+
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000101.json     | 1 +
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000102.json     | 1 +
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000103.json     | 1 +
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000104.json     | 1 +
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000105.json     | 1 +
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000106.json     | 1 +
+ 6 files changed, 6 insertions(+)
+-- destination hashes --
+5ea35802ca88478c52bbc87347dbd1db5cecd13eb8a0112579ca6477380ad915  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000101.json
+45096c3e483b6e92047a2747a9457d7c2510bb7fc349ef9a6851b47e559a0c21  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000102.json
+6469e6f8b47f6abf0e3d69bf8fa08d777078c950b6eeb04ef2b3a27ed425ecbf  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000103.json
+06044dee1c3a19433a358f73b489bafdf4fcce68fe704bc58b193c8f92da2997  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000104.json
+20682ed80a9d36aca406176c3467178f7ed7f19760b31e06eb42146ee08efb2a  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000105.json
+cd4ee3fdbd29dcb6f23710e87435e1b657139181c80b8c06dd7b2235de1d2901  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000106.json
+
+-- LIQUID commit f1362f696 --
+Thu Aug 27 22:07:10 UTC 2026
+f1362f696982b57a30f953dd80c4a99124fbcb4f 2026-08-27 18:06:28 -0400 LIQUID Gate C Increment 2 step 1 — LIVE-2026-0002 in-window submission: LIQ-04 RegisterQuestion + SubmitForecast, byte-exact from the pinned staging copies
+
+ .../kernel/submissions/CMD-01a044fc-e591-73e8-a74d-2f675abc09a0.json     | 1 +
+ .../kernel/submissions/CMD-01a044fc-e591-769e-8199-994a92e9fafb.json     | 1 +
+ 2 files changed, 2 insertions(+)
+-- destination hashes --
+8f5d1e5da53e02096e64b738a08feb89a6e79dfbd95cfa2f0d92bbf50b53f37c  AGENTS/LIQUID/outbox/kernel/submissions/CMD-01a044fc-e591-73e8-a74d-2f675abc09a0.json
+583e9f31194e9ab5ecae71f7b10a8620eaccd6fef56158027d054c908c76d344  AGENTS/LIQUID/outbox/kernel/submissions/CMD-01a044fc-e591-769e-8199-994a92e9fafb.json
+-- FIRST-LIVE-USE FINDING (LIQUID, for closeout packet): shared-index race fired during concurrent step-1 commits — LIQUID's pre-add index check read empty, post-add it held 8 paths (its 2 + CREED's 6 staged concurrently). Handled by the PATH-SCOPED COMMIT primitive (names commit only named paths regardless of index); deliberately NO git reset (global unstage would have destroyed CREED's staging mid-window). Both commits verified clean after. Closeout note: carve-out (4)'s 'stop on unrelated staged changes' is dangerous if a desk stops-and-tidies; the path-scoped commit makes inspection advisory rather than load-bearing. --
+
+-- REGINALD commit e4a51fb35 (verified BY SHA per its own floor-finding: HEAD is moving; ORACLE committed mid-sitting) --
+Thu Aug 27 22:08:40 UTC 2026
+e4a51fb35964ee123c1b6057e0251fcf5f6db812 2026-08-27 18:07:14 -0400 REGINALD: Gate C Increment 2 step 1 — four canonical command files committed to the submission path under LIVE-2026-0002
+
+ .../kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a1.json     | 1 +
+ .../kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a2.json     | 1 +
+ .../kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a6.json     | 1 +
+ .../kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a7.json     | 1 +
+ 4 files changed, 4 insertions(+)
+-- destination hashes --
+c702ec942ae5db162a02a7f14ee4b1f64e7a61886a1bdf3fc9ec9fc0131ea02a  AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a1.json
+81d2a01db60910cb88ffb79f403c536058c8da29aa2705769746d4ac477e52fd  AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a2.json
+bef71f7a000419d7d57d4d7bc92f9f6213bd8ce336d58edb9d722fccf28b7d9c  AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a6.json
+f6334b33b2fcfbf98f13211ad6d80744bc26841a6705065d1ca16c81be068f1c  AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a7.json
+-- all 12 pinned paths present in REGINALD-commit tree (the latest desk commit):
+14
+
+== STEP 2a: POLICY BUMPS (custodian, approved drafts, hash-verified before commit) ==
+Thu Aug 27 22:08:40 UTC 2026
+ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f  KERNEL/policies/actors.json
+6e73c29e9abd16270575cf1c0ba316c24c72d89ebb9e7e13099f5a2f6e9960de  KERNEL/policies/capability-grants.json
+-- expect ad16ca28... and 6e73c29e... (the pinned draft hashes) --
+[master 90b029bca] KERNEL: LIVE-2026-0002 step 2a — approved policy bumps from the hash-pinned drafts (actors +CREED/LIQUID/REGINALD/MIDAS; grants +3 desks x question.register+forecast.submit_own), custodian commit under the ruled packet
+ 2 files changed, 63 insertions(+), 3 deletions(-)
+
+== STEP 2b: MINT ==
+Thu Aug 27 22:08:51 UTC 2026
+source_commit pinned at mint = 90b029bcaa5c788e2a0fe8046813e71ca54b3ed1 (the step-2a policy commit; pinned as a VALUE per the verify-by-SHA discipline, not re-read from HEAD later)
+minted
+-- byte-diff vs draft (MUST be window x2 + source_commit, nothing else) --
+10,12c10,12
+<   "source_commit": "a8b3ea7608f25ca7a7223e815ff5cc82dd11e732",
+<   "window_start": "TO-BE-RULED",
+<   "window_end": "TO-BE-RULED",
+---
+>   "source_commit": "90b029bcaa5c788e2a0fe8046813e71ca54b3ed1",
+>   "window_start": "2026-08-27T21:45:00.000000Z",
+>   "window_end": "2026-08-27T23:45:00.000000Z",
+diff-exit=1
+ create mode 100644 KERNEL/GATE_C_INCREMENT2_ACTIVATION_2026-08-27.json
+
+== STEP 3: PREFLIGHT ==
+Thu Aug 27 22:09:02 UTC 2026
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+EXCEPTION: live-shadow refusal — nothing was written
+LIVE_ACTIVATION_INVALID	$.commands	commands must name one to three exact submissions
+PASS proves: nothing; the requested live operation was refused before any write
+PASS does not prove: live readiness, research truth, or authorization
+preflight-rc=1
+
+== STOP CONDITION — preserved before any further invocation (N1) ==
+Thu Aug 27 22:09:43 UTC 2026
+LIVE_ACTIVATION_INVALID $.commands — 'commands must name one to three exact submissions'. The activation contract hard-caps 3 commands; the minted doc names 12. PROME drafting defect (bound never checked) + unexercised-by-C7 (2 commands) + not caught in packet review. ZERO writes. Sitting HELD pending Will's ruling per N1; options to Will: (1) re-cut as FOUR sequential 3-command activations inside the same ruled window [rec] (2) take 3 tonight, rest Monday (3) stop tonight, re-plan Monday.
+
+== RE-CUT RULED — CYCLE A (LIVE-2026-0003: 101/102/103) ==
+Thu Aug 27 22:34:38 UTC 2026
+source_commit pinned = 6ebe8d74b7f76566b608e4313d6af9ffe7be7dc0
+R3-CHECK PASS: LIVE-2026-0003 = reviewed doc + subset(3) + id + event_ids subset + source_commit; R2 policy pins identical
+ create mode 100644 KERNEL/GATE_C_INCREMENT2_ACTIVATION_A_2026-08-27.json
+-- preflight A --
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+perimeter: activation_id=LIVE-2026-0003 authorized_by=WILL authorization_ref=KERNEL/GATE_C_INCREMENT2_ACTIVATION_PACKET.md repository_root=/home/willi/Research-workspace window=2026-08-27T21:45:00.000000Z..2026-08-27T23:45:00.000000Z writer_id=PROME commands=3 recorded_at=2026-08-27T22:34:39.018232Z
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000101 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000101 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000101 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000101 preflight=read_only
+EXCEPTION: native-reference
+NATIVE_RECORD_MISMATCH	$.payload.ambiguity_rule	material field is absent or differs in cited native records: ambiguity_rule
+NATIVE_RECORD_MISMATCH	$.payload.annulment_rules	material field is absent or differs in cited native records: annulment_rules
+NATIVE_RECORD_MISMATCH	$.payload.claim	material field is absent or differs in cited native records: claim
+NATIVE_RECORD_MISMATCH	$.payload.closes_at	material field is absent or differs in cited native records: closes_at
+NATIVE_RECORD_MISMATCH	$.payload.fallback_resolution_source	material field is absent or differs in cited native records: fallback_resolution_source
+NATIVE_RECORD_MISMATCH	$.payload.forecast_family	material field is absent or differs in cited native records: forecast_family
+NATIVE_RECORD_MISMATCH	$.payload.independent_verifier_actor_id	material field is absent or differs in cited native records: independent_verifier_actor_id
+NATIVE_RECORD_MISMATCH	$.payload.negative_search_procedure	material field is absent or differs in cited native records: negative_search_procedure
+NATIVE_RECORD_MISMATCH	$.payload.opens_at	material field is absent or differs in cited native records: opens_at
+NATIVE_RECORD_MISMATCH	$.payload.owner_actor_id	material field is absent or differs in cited native records: owner_actor_id
+NATIVE_RECORD_MISMATCH	$.payload.resolution_condition	material field is absent or differs in cited native records: resolution_condition
+NATIVE_RECORD_MISMATCH	$.payload.resolution_rule	material field is absent or differs in cited native records: resolution_rule
+NATIVE_RECORD_MISMATCH	$.payload.resolution_sources	material field is absent or differs in cited native records: resolution_sources
+NATIVE_RECORD_MISMATCH	$.payload.resolver_actor_id	material field is absent or differs in cited native records: resolver_actor_id
+NATIVE_RECORD_MISMATCH	$.payload.resolver_anchor_type	material field is absent or differs in cited native records: resolver_anchor_type
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000101 preflight=read_only
+PASS: lifecycle
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000102 preflight=deferred_pending_dependency
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000102 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000102 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000102 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000102 preflight=read_only
+EXCEPTION: native-reference
+NATIVE_RECORD_MISMATCH	$.payload.decision_consequence	material field is absent or differs in cited native records: decision_consequence
+NATIVE_RECORD_MISMATCH	$.payload.evidence_refs	material field is absent or differs in cited native records: evidence_refs
+NATIVE_RECORD_MISMATCH	$.payload.forecaster_actor_id	material field is absent or differs in cited native records: forecaster_actor_id
+NATIVE_RECORD_MISMATCH	$.payload.information_as_of	material field is absent or differs in cited native records: information_as_of
+NATIVE_RECORD_MISMATCH	$.payload.intervention_stage	material field is absent or differs in cited native records: intervention_stage
+NATIVE_RECORD_MISMATCH	$.payload.probability	material field is absent or differs in cited native records: probability
+NATIVE_RECORD_MISMATCH	$.payload.question_id	material field is absent or differs in cited native records: question_id
+NATIVE_RECORD_MISMATCH	$.payload.rationale_ref	material field is absent or differs in cited native records: rationale_ref
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000103 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000103 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000103 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000103 preflight=read_only
+EXCEPTION: native-reference
+NATIVE_RECORD_MISMATCH	$.payload.ambiguity_rule	material field is absent or differs in cited native records: ambiguity_rule
+NATIVE_RECORD_MISMATCH	$.payload.annulment_rules	material field is absent or differs in cited native records: annulment_rules
+NATIVE_RECORD_MISMATCH	$.payload.claim	material field is absent or differs in cited native records: claim
+NATIVE_RECORD_MISMATCH	$.payload.closes_at	material field is absent or differs in cited native records: closes_at
+NATIVE_RECORD_MISMATCH	$.payload.fallback_resolution_source	material field is absent or differs in cited native records: fallback_resolution_source
+NATIVE_RECORD_MISMATCH	$.payload.forecast_family	material field is absent or differs in cited native records: forecast_family
+NATIVE_RECORD_MISMATCH	$.payload.independent_verifier_actor_id	material field is absent or differs in cited native records: independent_verifier_actor_id
+NATIVE_RECORD_MISMATCH	$.payload.negative_search_procedure	material field is absent or differs in cited native records: negative_search_procedure
+NATIVE_RECORD_MISMATCH	$.payload.opens_at	material field is absent or differs in cited native records: opens_at
+NATIVE_RECORD_MISMATCH	$.payload.owner_actor_id	material field is absent or differs in cited native records: owner_actor_id
+NATIVE_RECORD_MISMATCH	$.payload.resolution_condition	material field is absent or differs in cited native records: resolution_condition
+NATIVE_RECORD_MISMATCH	$.payload.resolution_rule	material field is absent or differs in cited native records: resolution_rule
+NATIVE_RECORD_MISMATCH	$.payload.resolution_sources	material field is absent or differs in cited native records: resolution_sources
+NATIVE_RECORD_MISMATCH	$.payload.resolver_actor_id	material field is absent or differs in cited native records: resolver_actor_id
+NATIVE_RECORD_MISMATCH	$.payload.resolver_anchor_type	material field is absent or differs in cited native records: resolver_anchor_type
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000103 preflight=read_only
+PASS: lifecycle
+preflight-writes: 0 (read-only mode wrote nothing)
+PASS proves: every read-only preflight check passed for the printed perimeter
+PASS does not prove: acceptance, durable results, or state outside this perimeter
+preflight-rc=1
+
+== STOP CONDITION 2 (activation A) — preserved before further invocation ==
+Thu Aug 27 22:35:25 UTC 2026
+NATIVE_RECORD_MISMATCH on all material fields, all 3 CREED commands: the cited native records (raw TSV lines) do not CARRY the material fields; the SAM-33/REGINALD pattern uses COMPANION native records for fields a 10-col TSV cannot hold. CREED validated with core.validate_command (schema shape) not native.verify_native_references (native agreement) — the check-tier gap. POSITIVE findings same run: 3-command cardinality accepted; F1 grants fix PROVEN LIVE (permissions PASS x3 for CREED); lifecycle dependency-deferral behaved. Zero writes. Disposition to Will: hold A/B (CREED re-authors with companions = NEW command files, immutable originals stand; new pins, new step-1 commit, re-mint) and proceed C (REGINALD-verified pattern) then D meanwhile — or hold everything.
+
+== CYCLE C (LIVE-2026-0005: LIQ-Q, LIQ-F, REG-a1) — Will 'ok go ahead' ==
+Thu Aug 27 22:37:16 UTC 2026
+source_commit pinned = c3f2cc65a82434b4022e5b4b55b0ff9f6269dd18
+R3-CHECK PASS: LIVE-2026-0005 = reviewed doc + subset(3) + id + event_ids subset + source_commit; R2 policy pins identical
+ create mode 100644 KERNEL/GATE_C_INCREMENT2_ACTIVATION_C_2026-08-27.json
+-- preflight C --
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+perimeter: activation_id=LIVE-2026-0005 authorized_by=WILL authorization_ref=KERNEL/GATE_C_INCREMENT2_ACTIVATION_PACKET.md repository_root=/home/willi/Research-workspace window=2026-08-27T21:45:00.000000Z..2026-08-27T23:45:00.000000Z writer_id=PROME commands=3 recorded_at=2026-08-27T22:37:16.504407Z
+perimeter: check=custody command_id=CMD-01a044fc-e591-73e8-a74d-2f675abc09a0 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-01a044fc-e591-73e8-a74d-2f675abc09a0 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-01a044fc-e591-73e8-a74d-2f675abc09a0 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-01a044fc-e591-73e8-a74d-2f675abc09a0 preflight=read_only
+EXCEPTION: native-reference
+NATIVE_BLOB_MISMATCH	$.native_refs[0].raw_record_sha256	selected native bytes do not match raw_record_sha256
+perimeter: check=lifecycle command_id=CMD-01a044fc-e591-73e8-a74d-2f675abc09a0 preflight=read_only
+PASS: lifecycle
+perimeter: check=lifecycle command_id=CMD-01a044fc-e591-769e-8199-994a92e9fafb preflight=deferred_pending_dependency
+perimeter: check=custody command_id=CMD-01a044fc-e591-769e-8199-994a92e9fafb preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-01a044fc-e591-769e-8199-994a92e9fafb preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-01a044fc-e591-769e-8199-994a92e9fafb preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-01a044fc-e591-769e-8199-994a92e9fafb preflight=read_only
+EXCEPTION: native-reference
+NATIVE_BLOB_MISMATCH	$.native_refs[0].raw_record_sha256	selected native bytes do not match raw_record_sha256
+perimeter: check=custody command_id=CMD-019306b4-1a00-7000-8000-0000000000a1 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019306b4-1a00-7000-8000-0000000000a1 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019306b4-1a00-7000-8000-0000000000a1 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019306b4-1a00-7000-8000-0000000000a1 preflight=read_only
+PASS: native-reference
+perimeter: check=lifecycle command_id=CMD-019306b4-1a00-7000-8000-0000000000a1 preflight=read_only
+PASS: lifecycle
+preflight-writes: 0 (read-only mode wrote nothing)
+PASS proves: every read-only preflight check passed for the printed perimeter
+PASS does not prove: acceptance, durable results, or state outside this perimeter
+preflight-rc=1
+
+== CREED RE-SUBMISSION (8dc211f94, companions e390ccbb2) — PROME independent verification ==
+Thu Aug 27 22:39:20 UTC 2026
+32b249226fa934fcabcbc241a5687d54f5dc1b0c1d8619e63675c82f925510ac  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000111.json
+1d7acd5a70b9e3df53afd8ea010ab67b1125d1db8b39e9e1caf13a2edd5ee4f3  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000112.json
+f8f88067aa7099d4188c278152b120d6c7b86771c202f0d68f4a16acc429650e  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000113.json
+ad23ae796e36280d4dc7f2076611898e41a689d888e20c83e3592e56f8696252  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000114.json
+665b80f32cdc28844dd725308ededdc132716ab49f8583f06b4388d479c2bd61  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000115.json
+3029ba178ce6192b5ac06eeb2fb8380097357ff3af82c61a2d1f0f60e56a9b29  AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000116.json
+AGENTS/CREED/kernel/PRED-CREED-001_KERNEL_NATIVE_COMPANION.json
+AGENTS/CREED/kernel/PRED-CREED-004_KERNEL_NATIVE_COMPANION.json
+AGENTS/CREED/kernel/PRED-CREED-007_KERNEL_NATIVE_COMPANION.json
+
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000111.json     | 1 +
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000112.json     | 1 +
+-- originals 101-106 untouched-immutable, never accepted; question_id/forecast_id UNCHANGED per CREED --
+
+== SITTING PAUSED BY WILL ('Lets pause for now. Lets close out instead.') — AFFIRMATIVE CLOSES, all minted activations ==
+Thu Aug 27 22:41:40 UTC 2026
+REVOKED LIVE-2026-0002 at 2026-08-27T22:41:40.639389Z  (KERNEL/GATE_C_INCREMENT2_ACTIVATION_2026-08-27.json)
+REVOKED LIVE-2026-0003 at 2026-08-27T22:41:40.639389Z  (KERNEL/GATE_C_INCREMENT2_ACTIVATION_A_2026-08-27.json)
+REVOKED LIVE-2026-0005 at 2026-08-27T22:41:40.639389Z  (KERNEL/GATE_C_INCREMENT2_ACTIVATION_C_2026-08-27.json)
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+-- post-revocation refusal proof (read-only) --
+EXCEPTION: live-shadow refusal — nothing was written
+LIVE_WINDOW_REFUSED	$.window_end	window is closed (now=2026-08-27T22:41:40.748152Z end=2026-08-27T22:41:40.639389Z)
+
+== N4 POST-SITTING SUITE RUN (live policies changed at step 2a) ==
+Thu Aug 27 22:41:51 UTC 2026
+----------------------------------------------------------------------
+Ran 212 tests in 6.662s
+
+OK
+
+== SITTING CLOSED (paused-and-revoked form) ==
+Thu Aug 27 22:42:16 UTC 2026
+FINAL STATE: zero events accepted, zero bytes written under any activation; 3 activations minted-refused-revoked (0002 cardinality / 0003 CREED native-companions / 0005 LIQUID hash-convention+companions); policy bumps (actors+grants) LIVE and suite-verified 212 OK; 12 original + 6 corrected CREED commands committed-immutable at submission paths (none accepted); REGINALD's 4 = the only birth-verified set, review-covered, ready for the next window. Closeout reviewer: RED or DAEDALUS, never PROME.
