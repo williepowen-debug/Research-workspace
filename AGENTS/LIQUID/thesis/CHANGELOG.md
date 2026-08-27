@@ -37,6 +37,25 @@
 
 > Reverse-chronological log of significant LIQUID point-of-view shifts that didn't trigger a full thesis-doc revision. Captures the trajectory of reads that would otherwise be lost when STATUS.md is pruned of historical narrative. Each entry: prior view → revised view, with the trigger that forced the update and the durable anchor (KB entry / file) where the finding now lives.
 
+### 2026-08-27 — Conviction **HELD at 56%** — deliberately, on a day the evidence moved in both directions and my own calibration was demonstrably poor
+
+**Decision: no change. 56% stands.** Recorded as an entry rather than left silent, because *"nothing happened"* and *"I considered it and declined"* are different states and only the second is a judgement. `finding_dated_carry_item_has_no_expiry_check` — a conviction number that is never re-examined is not being held, it is being ignored.
+
+**What moved TOWARD the bear (mechanism):**
+- ★ **The normalized tier evidence INVERTED.** `CCC/BB 6.609` and `CCC/HY 3.861` [obs 8/26] are **both the 2026 maximum and both set on the latest print** (2026 n=172). This matters more than a level: the *compression* of these ratios through 7/28 was the strongest normalized argument that July's widening was **BB-led beta rather than credit recognition** (KB-LIQ-088, corroborating BROCK 7/27) — and it was one of the three losses that drove the 8/23 downgrade. 8/20→8/26: HY −8bp, BB −7bp, **CCC only −4bp**. Window is entirely post-7/31, so the DISH rebalance artifact cannot explain it. → KB-LIQ-101 extended, **RECOGNITION-CANDIDATE STRENGTHENED, explicitly not promoted.**
+- **Leg A corroborated from the price side** (new): `SOFR−IORB` median by year **−10 / −11 / −10 / −8 / −5 / −1**, monotonic from 2023 and running *against* the policy level. The repo-to-IORB cushion has been consumed. Leg A was built on RRP and reserve *balances*; this is an independent instrument agreeing. **Slow, no threshold implicated.**
+
+**What moved AWAY (level, and the level is what pays):**
+- **HY OAS 267 [obs 8/26]** — 13bp from the >280 arm line, **7bp from the <260 kill**, i.e. **nearer the kill than the arm for the first time since the 7/29 tag.** Not a fresh extreme (263 [6/17] was closer). A thesis whose confirmation line keeps receding is losing regardless of how good its mechanism story gets.
+- **T6 trigger measured NOT FIRED** (32.0% vs <25%, ORACLE) — neutral rather than adverse: the test ran and declined to speak.
+
+**Why HOLD rather than a small uptick, which the mechanism evidence arguably supports:**
+1. **The two directions genuinely offset.** Better mechanism, worse level. I cannot honestly claim the net is positive.
+2. ⚠️ **My calibration today is demonstrably poor and I am the instrument.** I published three wrong numbers on one instrument in one afternoon — a base rate computed over a window I truncated myself, then a mechanism claim disproved by my own data, then a decomposition half-killed by a ninety-second test I ran late. **Each was caught by an external prompt, none by my own review.** A subjective conviction mark is exactly the quantity that should not be moved on a day like that, and *"the evidence supports an uptick"* is precisely how a bad day's judgement gets laundered into a number that outlives it.
+3. **Better evidence is already due.** Three pre-registered cards (Test B, Test C, the 5Y auction) came due inside the 8/24-27 dark window and are ungraded. Those are *measurements*, not judgement. Re-mark after they are graded.
+
+**Standing:** re-mark at the next session that grades the three overdue cards. If those grade and conviction still has not been re-examined, that omission is itself the finding.
+
 ### 2026-08-23 — ★ Two legs graded DOWN on their own evidence; Leg C measured directly for the first time. Conviction 61% → **56%**
 
 *(Logged 2026-08-23 after DAEDALUS falsification-sweep #2 flagged this file at 59 days. The gap was real and it mattered: **the X1 LIQUID half actually TAGGED during it** — the one event this thesis is built around — **and the log has no entry for it.** That is the standing falsification-logging item against this desk, and this entry is the repair. Entries below are what should have been written between 6/25 and now.)*
