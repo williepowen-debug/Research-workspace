@@ -1,0 +1,646 @@
+# RECOVERED PILOT TRANSCRIPT — Gate C C7 pilot LIVE-2026-0001, sitting of 2026-08-27 [16:16-16:57Z]
+# PROVENANCE: extracted post-crash from the harness session transcript (session 1b972120-db88-4ae6-95df-08df922c26fd,
+#   the pilot sitting's own Claude Code session, which crashed ~17:0xZ after commit bbebc4429). Extraction: tool
+#   invocations (Bash) whose command references the kernel paths/tools, plus their verbatim outputs; conversation
+#   content excluded. NOT a tee'd live transcript (the N2 tee requirement post-dates this sitting; this recovery is
+#   why N2 exists). Extracted 2026-08-27 ~17:2xZ by PROME (custodian). Timestamps are harness message stamps (UTC).
+# ENTRIES: 27 tool invocations
+
+====================================================================================================
+[2026-08-27T16:16:03.101Z] COMMAND:
+ls -la /home/willi/Research-workspace/PROME/inbox/ 2>/dev/null | grep -v processed && echo "---" && ls /home/willi/Research-workspace/KERNEL/GATE_C_C7_RUNBOOK.md /home/willi/Research-workspace/KERNEL/GATE_C_C7_ACTIVATION_DRAFT.json /home/willi/Research-workspace/KERNEL/rehearsals/c7_staged_submissions/ 2>&1
+---- OUTPUT [2026-08-27T16:16:03.171Z]:
+total 164
+drwxr-xr-x  3 willi willi  4096 Aug 27 12:13 .
+drwxr-xr-x 18 willi willi  4096 Aug 27 12:13 ..
+-rw-r--r--  1 willi willi  5930 Aug 23 18:49 2026-08-23_from-LIQUID_GATE-LIQ-076-W1-needs-a-cumulative-leg-the-pin-unwound-14pct-and-the-gate-never-fired.md
+-rw-r--r--  1 willi willi  4400 Aug 23 18:02 2026-08-23_from-MIDAS_I1-tracked-baseline-ESCALATED-with-measured-effect-drift-alone-crosses-a-registered-band.md
+-rw-r--r--  1 willi willi  7953 Aug 27 10:51 2026-08-27_from-CREED_QBP-window-executed-T-03-NOT-FIRED-and-ONE-item-for-Will-my-own-trigger-baseline-is-not-reproducible.md
+-rw-r--r--  1 willi willi  4324 Aug 27 10:37 2026-08-27_from-MIDAS_both-open-predictions-keyed-to-moving-referents-RIDES-WITH-THE-I1-ESCALATION.md
+-rw-r--r--  1 willi willi 11069 Aug 27 11:22 2026-08-27_from-RED_GATE-C-live-interface-adversarial-review-PROCEED-two-moderate-findings.md
+-rw-r--r--  1 willi willi  4789 Aug 27 11:23 2026-08-27_to-PROME-MIDAS_univariate-table-COMPUTED-band-is-88-91-not-87-93-and-not-my-85-92.md
+-rw-r--r--  1 willi willi  5053 Aug 27 12:13 2026-08-27b_from-CREED_DOCKET-row-33-reads-COVERED-and-is-not-the-covering-spawn-ran-and-skipped-it.md
+-rw-r--r--  1 willi willi  5585 Aug 27 12:12 2026-08-27b_from-MIDAS_MIDAS-06-grades-tomorrow-on-a-DFII10-print-that-does-not-publish-until-Monday.md
+-rw-r--r--  1 willi willi 16179 Aug 27 11:30 2026-08-27b_from-RED_DELTA-RE-REVIEW-pass-with-one-residual-views-path-still-unguarded.md
+-rw-r--r--  1 willi willi 20186 Aug 27 11:33 2026-08-27c_from-RED_RESIDUAL-CLOSED-CHG-050-RESOLVED-lock-probed-cut-the-packet.md
+---
+/home/willi/Research-workspace/KERNEL/GATE_C_C7_ACTIVATION_DRAFT.json
+/home/willi/Research-workspace/KERNEL/GATE_C_C7_RUNBOOK.md
+
+/home/willi/Research-workspace/KERNEL/rehearsals/c7_staged_submissions/:
+CMD-019305f8-ec00-7000-8000-000000000033.json
+CMD-019305f8-ec00-7000-8000-000000000034.json
+README.md
+
+====================================================================================================
+[2026-08-27T16:23:07.288Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && date -u && echo "---TREE---" && git status --short && echo "---HASHES---" && sha256sum KERNEL/rehearsals/c7_staged_submissions/CMD-019305f8-ec00-7000-8000-000000000033.json KERNEL/rehearsals/c7_staged_submissions/CMD-019305f8-ec00-7000-8000-000000000034.json KERNEL/policies/actors.json KERNEL/policies/capability-grants.json KERNEL/policies/custody-policy.json && echo "---SOURCE COMMIT---" && git cat-file -t 1d9400425f7415083a9ffbd10964670bf255abf2 && git log -1 --format="%H %s" 1d9400425f7415083a9ffbd10964670bf255abf2
+---- OUTPUT [2026-08-27T16:23:07.390Z]:
+Thu Aug 27 16:23:07 UTC 2026
+---TREE---
+ M AGENTS/SAM/METSUKE_MEMORY.md
+ M AGENTS/SAM/workbook/KURA.md
+ M AGENTS/SAM/workbook/KURA_MEMORY.md
+---HASHES---
+71996c763e4d4150e4380814f476fe24513f148e335f832fc42f4eb5d7a7bbe2  KERNEL/rehearsals/c7_staged_submissions/CMD-019305f8-ec00-7000-8000-000000000033.json
+2dd24caee3884198dd440224b209b50e9ab8a52821b170065b06e91b043797e2  KERNEL/rehearsals/c7_staged_submissions/CMD-019305f8-ec00-7000-8000-000000000034.json
+48dbea3b449f69c47029210499c5182e7b6c97c5b5182dd67301ed0bc5da4db0  KERNEL/policies/actors.json
+57c76977cd6d2934b52928acee9786c4ddca90b381b265bbda5618cbba447b2c  KERNEL/policies/capability-grants.json
+180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849  KERNEL/policies/custody-policy.json
+---SOURCE COMMIT---
+commit
+1d9400425f7415083a9ffbd10964670bf255abf2 SAM: register SAM-33 Kernel companion
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:23:35.235Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && echo "STAGED:" && git diff --cached --name-only && echo "(end staged)" && echo "KERNEL dirt:" && git status --short -- KERNEL/ AGENTS/SAM/outbox/kernel/ && echo "(end kernel)" && date -u
+---- OUTPUT [2026-08-27T16:23:35.309Z]:
+STAGED:
+(end staged)
+KERNEL dirt:
+(end kernel)
+Thu Aug 27 16:23:35 UTC 2026
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:30:52.099Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && git show --stat --format="%H%n%an %aI%n%s" bb606994a3faf15ab634cf0a093f1d0a0981aad7 && echo "---FILES IN COMMIT---" && git diff-tree --no-commit-id --name-only -r bb606994a3faf15ab634cf0a093f1d0a0981aad7 && echo "---DEST HASHES NOW---" && sha256sum AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000033.json AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000034.json && date -u
+---- OUTPUT [2026-08-27T16:30:52.169Z]:
+bb606994a3faf15ab634cf0a093f1d0a0981aad7
+williepowen-debug 2026-08-27T12:30:23-04:00
+SAM: C7 pilot step 1 — submit two canonical immutable Kernel commands (RegisterQuestion + SubmitForecast) under carve-out (4)
+
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000033.json     | 1 +
+ .../kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000034.json     | 1 +
+ 2 files changed, 2 insertions(+)
+---FILES IN COMMIT---
+AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000033.json
+AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000034.json
+---DEST HASHES NOW---
+71996c763e4d4150e4380814f476fe24513f148e335f832fc42f4eb5d7a7bbe2  AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000033.json
+2dd24caee3884198dd440224b209b50e9ab8a52821b170065b06e91b043797e2  AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000034.json
+Thu Aug 27 16:30:52 UTC 2026
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:31:18.760Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && diff <(python3 -c "import json;d=json.load(open('KERNEL/GATE_C_C7_ACTIVATION_DRAFT.json'));d['window_start']='2026-08-27T16:30:00Z';d['window_end']='2026-08-27T18:00:00Z';print(json.dumps(d,indent=2))") <(python3 -c "import json;print(json.dumps(json.load(open('KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json')),indent=2))") && echo "DRIFT-CHECK: live doc == draft + window fields ONLY" && sha256sum KERNEL/policies/actors.json KERNEL/policies/capability-grants.json KERNEL/policies/custody-policy.json && git add KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json && git commit KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json -m "PROME: C7 step 2 — mint activation document LIVE-2026-0001, window [2026-08-27T16:30:00Z, 18:00:00Z) per Will's in-session ruling (record PROME/proposals/2026-08-27_c7-pilot-window-RULED.md); byte-diff vs draft = the two window fields only" && git log -1 --format=%H && date -u
+---- OUTPUT [2026-08-27T16:31:18.889Z]:
+DRIFT-CHECK: live doc == draft + window fields ONLY
+48dbea3b449f69c47029210499c5182e7b6c97c5b5182dd67301ed0bc5da4db0  KERNEL/policies/actors.json
+57c76977cd6d2934b52928acee9786c4ddca90b381b265bbda5618cbba447b2c  KERNEL/policies/capability-grants.json
+180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849  KERNEL/policies/custody-policy.json
+[master 2eacbeba7] PROME: C7 step 2 — mint activation document LIVE-2026-0001, window [2026-08-27T16:30:00Z, 18:00:00Z) per Will's in-session ruling (record PROME/proposals/2026-08-27_c7-pilot-window-RULED.md); byte-diff vs draft = the two window fields only
+ 1 file changed, 37 insertions(+)
+ create mode 100644 KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json
+2eacbeba79a4d6ca7c40b2d17b1542f9c5a9fafa
+Thu Aug 27 16:31:18 UTC 2026
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:31:22.988Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && date -u && python3 KERNEL/tools/live_shadow.py --activation KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json --live-repository-root /home/willi/Research-workspace --submission-commit bb606994a3faf15ab634cf0a093f1d0a0981aad7 --preflight; echo "rc=$?"
+---- OUTPUT [2026-08-27T16:31:23.121Z]:
+Thu Aug 27 16:31:23 UTC 2026
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+EXCEPTION: live-shadow refusal — nothing was written
+LIVE_ACTIVATION_INVALID	$.window_start	window timestamps must be strict canonical UTC timestamps
+PASS proves: nothing; the requested live operation was refused before any write
+PASS does not prove: live readiness, research truth, or authorization
+rc=1
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:31:38.894Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && grep -n -B3 -A15 "strict canonical UTC" KERNEL/tools/live_shadow.py | head -60
+---- OUTPUT [2026-08-27T16:31:38.951Z]:
+168-        window_end = _strict_timestamp(document["window_end"])
+169-        revoked_at = _strict_timestamp(document["revoked_at"]) if document["revoked_at"] is not None else None
+170-    except (TypeError, ValueError):
+171:        return invalid("window timestamps must be strict canonical UTC timestamps", "$.window_start")
+172-    if window_start >= window_end:
+173-        return invalid("window must be a non-empty half-open interval", "$.window_end")
+174-    if revoked_at is not None and not (window_start <= revoked_at <= window_end):
+175-        return invalid("revocation must fall within the activation window", "$.revoked_at")
+176-
+177-    raw_commands = document["commands"]
+178-    if not isinstance(raw_commands, list) or not 1 <= len(raw_commands) <= 3:
+179-        return invalid("commands must name one to three exact submissions", "$.commands")
+180-    commands: list[ActivationCommand] = []
+181-    seen_ids: set[str] = set()
+182-    seen_paths: set[str] = set()
+183-    for index, entry in enumerate(raw_commands):
+184-        location = f"$.commands[{index}]"
+185-        if not isinstance(entry, dict) or set(entry) != ACTIVATION_COMMAND_FIELDS:
+186-            return invalid("command entry fields are invalid", location)
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:31:41.726Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && grep -n -B2 -A20 "def _strict_timestamp" KERNEL/tools/live_shadow.py
+---- OUTPUT [2026-08-27T16:31:41.789Z]:
+102-
+103-
+104:def _strict_timestamp(value: Any) -> dt.datetime:
+105-    if not isinstance(value, str):
+106-        raise TypeError("timestamp must be a string")
+107-    parsed = dt.datetime.strptime(value, TIMESTAMP_FORMAT).replace(tzinfo=dt.timezone.utc)
+108-    if parsed.strftime(TIMESTAMP_FORMAT) != value:
+109-        raise ValueError("timestamp is not canonical")
+110-    return parsed
+111-
+112-
+113-def captured_utc_now() -> str:
+114-    """One captured real-clock UTC instant; live modes never accept an injected time."""
+115-
+116-    return dt.datetime.now(dt.timezone.utc).strftime(TIMESTAMP_FORMAT)
+117-
+118-
+119-def _unique_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+120-    value: dict[str, Any] = {}
+121-    for key, item in pairs:
+122-        if key in value:
+123-            raise ValueError(f"duplicate JSON member: {key}")
+124-        value[key] = item
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:31:44.919Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && grep -n "TIMESTAMP_FORMAT\s*=" KERNEL/tools/live_shadow.py KERNEL/tools/*.py 2>/dev/null | head -5
+---- OUTPUT [2026-08-27T16:31:44.993Z]:
+KERNEL/tools/custody.py:12:TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S.%fZ"
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:32:10.329Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && git commit KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json -m "PROME: C7 step 2 correction — window timestamps re-serialized to the custody canonical form (%Y-%m-%dT%H:%M:%S.%fZ); instants UNCHANGED from Will's ruled bounds [16:30:00Z, 18:00:00Z). First preflight refused LIVE_ACTIVATION_INVALID on the non-canonical form (fail-closed proved live, nothing written) — PROME authoring defect, owned" && date -u && python3 KERNEL/tools/live_shadow.py --activation KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json --live-repository-root /home/willi/Research-workspace --submission-commit bb606994a3faf15ab634cf0a093f1d0a0981aad7 --preflight; echo "rc=$?"
+---- OUTPUT [2026-08-27T16:32:10.513Z]:
+[master cb8979041] PROME: C7 step 2 correction — window timestamps re-serialized to the custody canonical form (%Y-%m-%dT%H:%M:%S.%fZ); instants UNCHANGED from Will's ruled bounds [16:30:00Z, 18:00:00Z). First preflight refused LIVE_ACTIVATION_INVALID on the non-canonical form (fail-closed proved live, nothing written) — PROME authoring defect, owned
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+Thu Aug 27 16:32:10 UTC 2026
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+perimeter: activation_id=LIVE-2026-0001 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md repository_root=/home/willi/Research-workspace window=2026-08-27T16:30:00.000000Z..2026-08-27T18:00:00.000000Z writer_id=PROME commands=2 recorded_at=2026-08-27T16:32:10.475470Z
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: native-reference
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000033 preflight=read_only
+PASS: lifecycle
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=deferred_pending_dependency
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000034 preflight=read_only
+PASS: native-reference
+preflight-writes: 0 (read-only mode wrote nothing)
+PASS proves: every read-only preflight check passed for the printed perimeter
+PASS does not prove: acceptance, durable results, or state outside this perimeter
+rc=0
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:32:16.727Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && BASE=$(git rev-parse HEAD) && echo "BASE=$BASE" && date -u && python3 KERNEL/tools/live_shadow.py --activation KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json --live-repository-root /home/willi/Research-workspace --submission-commit bb606994a3faf15ab634cf0a093f1d0a0981aad7 --apply; echo "rc=$?"
+---- OUTPUT [2026-08-27T16:32:16.909Z]:
+BASE=cb8979041d1fe161faf1522bb8b47256f604c00e
+Thu Aug 27 16:32:16 UTC 2026
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_APPLY
+perimeter: activation_id=LIVE-2026-0001 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md repository_root=/home/willi/Research-workspace window=2026-08-27T16:30:00.000000Z..2026-08-27T18:00:00.000000Z writer_id=PROME commands=2 recorded_at=2026-08-27T16:32:16.852694Z
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000033 recorded_at=2026-08-27T16:32:16.852694Z
+PASS: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000034 recorded_at=2026-08-27T16:32:16.852694Z
+PASS: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+perimeter: check=schema submission_index=0 command_id='CMD-019305f8-ec00-7000-8000-000000000033'
+PASS: schema
+PASS proves: the supplied command matches the registered strict command contract
+PASS does not prove: research truth, authorization, native fidelity, or lifecycle legality
+perimeter: check=schema submission_index=1 command_id='CMD-019305f8-ec00-7000-8000-000000000034'
+PASS: schema
+PASS proves: the supplied command matches the registered strict command contract
+PASS does not prove: research truth, authorization, native fidelity, or lifecycle legality
+perimeter: check=planning completed=0 ready=2 waiting=0 rejections=0
+PASS: planning
+PASS proves: the explicit submission/result inventories have the reported deterministic dependency disposition
+PASS does not prove: filesystem completeness, live submission discovery, or execution of any non-ready command
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000033 path=AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000033.json
+PASS: permissions
+PASS proves: the actor, owned path, identity, activity window, and capabilities satisfy the injected policy
+PASS does not prove: actor competence, substantive independence beyond policy, or native fidelity
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000033 references=2
+PASS: native-reference
+PASS proves: the exact cited synthetic bytes and implemented material terms reconcile
+PASS does not prove: research quality, analytical persuasiveness, or trusted-history reachability beyond the supplied commit
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000033 accepted_history=0
+PASS: lifecycle
+PASS proves: the command is legal against the explicitly replayed accepted fixture history
+PASS does not prove: permission, native fidelity, or the absence of unsubmitted commands
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000033 outcome=WRITTEN
+PASS: writer
+PASS proves: the reported fixture result was atomically published or matched one prior durable result
+PASS does not prove: checks not listed as PASS for this command or authority outside the injected fixture store
+perimeter: check=durability command_id=CMD-019305f8-ec00-7000-8000-000000000033 store=/home/willi/Research-workspace/KERNEL
+PASS: durability
+PASS proves: the command has exactly one valid durable fixture result in the explicit store inventory
+PASS does not prove: that every native action was submitted or that the inventory covers undisclosed state
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000034 path=AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000034.json
+PASS: permissions
+PASS proves: the actor, owned path, identity, activity window, and capabilities satisfy the injected policy
+PASS does not prove: actor competence, substantive independence beyond policy, or native fidelity
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000034 references=2
+PASS: native-reference
+PASS proves: the exact cited synthetic bytes and implemented material terms reconcile
+PASS does not prove: research quality, analytical persuasiveness, or trusted-history reachability beyond the supplied commit
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000034 accepted_history=1
+PASS: lifecycle
+PASS proves: the command is legal against the explicitly replayed accepted fixture history
+PASS does not prove: permission, native fidelity, or the absence of unsubmitted commands
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000034 outcome=WRITTEN
+PASS: writer
+PASS proves: the reported fixture result was atomically published or matched one prior durable result
+PASS does not prove: checks not listed as PASS for this command or authority outside the injected fixture store
+perimeter: check=durability command_id=CMD-019305f8-ec00-7000-8000-000000000034 store=/home/willi/Research-workspace/KERNEL
+PASS: durability
+PASS proves: the command has exactly one valid durable fixture result in the explicit store inventory
+PASS does not prove: that every native action was submitted or that the inventory covers undisclosed state
+perimeter: check=aggregate explicit_submissions=2 durable_outcomes=2 waiting=0
+PASS: aggregate
+PASS proves: every required check instantiated by this fixture run passed and no selected command remains waiting
+PASS does not prove: live readiness, research truth, Gate C authorization, or state outside the printed fixture perimeter
+view: /home/willi/Research-workspace/KERNEL/views/CALIBRATION.tsv sha256=976cb39af66d717b1aeb13d3bdbbba78a2bbf745509538cbdbc8f0896916b92a
+view: /home/willi/Research-workspace/KERNEL/views/EXCEPTIONS.md sha256=4983ab41fc213ae3bfcc1bbeb280cceb027ee35ce6f84629ffd7bf6750a184f6
+view: /home/willi/Research-workspace/KERNEL/views/OPEN_QUESTIONS.md sha256=e7b2eabad0d92a99359af43d4ab4e8afe852909d16c2e2c17a276029ace512d4
+view: /home/willi/Research-workspace/KERNEL/views/RESOLUTION_QUEUE.md sha256=6a723c537480e1a5e77f79790d56e16d303b7f6736e55eae1dd905a3b9a567df
+perimeter: check=durable-results explicit_submissions=2 explicit_results=2 pass_reported_success=true
+PASS: durable-results
+operator-staging: this tool never runs git write commands; stage explicitly, path by path:
+  git add KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json
+  git add KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json
+  git add KERNEL/views/CALIBRATION.tsv
+  git add KERNEL/views/EXCEPTIONS.md
+  git add KERNEL/views/OPEN_QUESTIONS.md
+  git add KERNEL/views/RESOLUTION_QUEUE.md
+rc=0
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:32:25.252Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && sha256sum KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json KERNEL/views/CALIBRATION.tsv KERNEL/views/EXCEPTIONS.md KERNEL/views/OPEN_QUESTIONS.md KERNEL/views/RESOLUTION_QUEUE.md > /tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad/c7_pre_retry_hashes.txt && date -u && python3 KERNEL/tools/live_shadow.py --activation KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json --live-repository-root /home/willi/Research-workspace --submission-commit bb606994a3faf15ab634cf0a093f1d0a0981aad7 --apply > /tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad/c7_retry_output.txt 2>&1; echo "retry rc=$?" && sha256sum -c /tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad/c7_pre_retry_hashes.txt && tail -3 /tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad/c7_retry_output.txt
+---- OUTPUT [2026-08-27T16:32:25.426Z]:
+Exit code 1
+Thu Aug 27 16:32:25 UTC 2026
+retry rc=0
+KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json: OK
+KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json: OK
+KERNEL/views/CALIBRATION.tsv: FAILED
+KERNEL/views/EXCEPTIONS.md: FAILED
+KERNEL/views/OPEN_QUESTIONS.md: FAILED
+KERNEL/views/RESOLUTION_QUEUE.md: FAILED
+sha256sum: WARNING: 4 computed checksums did NOT match
+
+====================================================================================================
+[2026-08-27T16:32:40.054Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && S=/tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad && grep "^view:" $S/c7_retry_output.txt && echo "---CURRENT---" && sha256sum KERNEL/views/*.tsv KERNEL/views/*.md && echo "---GIT STATUS KERNEL---" && git status --short -- KERNEL/
+---- OUTPUT [2026-08-27T16:32:40.132Z]:
+view: /home/willi/Research-workspace/KERNEL/views/CALIBRATION.tsv sha256=22640d602202a44b6c0046eba751a5883d2036ebfbc1f46e227b01b1796537fa
+view: /home/willi/Research-workspace/KERNEL/views/EXCEPTIONS.md sha256=bd61369544fb6b445c90b050738076de978bd0fa9c4ba72913a981456079f7fc
+view: /home/willi/Research-workspace/KERNEL/views/OPEN_QUESTIONS.md sha256=7e96ee9bd78b2d6343aebe08440cccbe2bbf36818680b92988db448a7e1fceb0
+view: /home/willi/Research-workspace/KERNEL/views/RESOLUTION_QUEUE.md sha256=2fc67cf4db092f4d5e0a03d18452042dd544b69e82e703f620fc9f0e40683338
+---CURRENT---
+22640d602202a44b6c0046eba751a5883d2036ebfbc1f46e227b01b1796537fa  KERNEL/views/CALIBRATION.tsv
+bd61369544fb6b445c90b050738076de978bd0fa9c4ba72913a981456079f7fc  KERNEL/views/EXCEPTIONS.md
+7e96ee9bd78b2d6343aebe08440cccbe2bbf36818680b92988db448a7e1fceb0  KERNEL/views/OPEN_QUESTIONS.md
+2fc67cf4db092f4d5e0a03d18452042dd544b69e82e703f620fc9f0e40683338  KERNEL/views/RESOLUTION_QUEUE.md
+---GIT STATUS KERNEL---
+?? KERNEL/shadow/
+?? KERNEL/views/
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:32:46.914Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && head -8 KERNEL/views/OPEN_QUESTIONS.md && echo "=== what differs: regenerate a third time and diff ===" && cp KERNEL/views/OPEN_QUESTIONS.md /tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad/oq_run2.md && python3 KERNEL/tools/live_shadow.py --activation KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json --live-repository-root /home/willi/Research-workspace --submission-commit bb606994a3faf15ab634cf0a093f1d0a0981aad7 --apply >/dev/null 2>&1; echo "run3 rc=$?" && diff /tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad/oq_run2.md KERNEL/views/OPEN_QUESTIONS.md && echo "RUN2==RUN3 byte-identical" || echo "RUN3 differs from RUN2 too"
+---- OUTPUT [2026-08-27T16:32:47.084Z]:
+# OPEN QUESTIONS — SHADOW
+
+**authority_mode:** SHADOW
+**render_as_of:** 2026-08-27T16:32:25.378932Z
+**source_input_count:** 2
+**source_input_set_sha256:** 5caaa236b3405ef2cc513a6d0f2d904496b98d03326acf6a89b6df20db7c712b
+**schema_versions:** kernel.schema.1
+**policy_versions:** kernel.policy.1
+=== what differs: regenerate a third time and diff ===
+run3 rc=0
+4c4
+< **render_as_of:** 2026-08-27T16:32:25.378932Z
+---
+> **render_as_of:** 2026-08-27T16:32:47.037821Z
+RUN3 differs from RUN2 too
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:33:05.486Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && grep -n -B3 -A25 "check.views\|check_views" KERNEL/tools/live_shadow.py | grep -A25 -B3 "def \|render_as_of\|identical\|compare" | head -50
+---- OUTPUT [2026-08-27T16:33:05.558Z]:
+706-    return 0 if success else 1
+707-
+708-
+709:def _check_views(inputs: LiveInputs) -> int:
+710-    _print_banner("LIVE_SHADOW_CHECK_VIEWS", inputs)
+711-    store = FixtureResultStore(inputs.grant.kernel_root, live_grant=inputs.grant)
+712-    render_as_of = committed_render_as_of(inputs.grant.views_root)
+713-    _views, findings = render_live_views(
+714-        store, inputs.grant, inputs.commands, render_as_of=render_as_of, check=True,
+715-    )
+716-    print(
+717-        f"perimeter: check=view-reproduction views_root={inputs.grant.views_root} "
+718-        f"render_as_of={render_as_of} commands={len(inputs.commands)}"
+719-    )
+720-    for finding in findings:
+721-        print(f"{finding.code}\t{finding.location}\t{finding.message}")
+722-    status = "PASS" if not findings else "EXCEPTION"
+723-    print(f"{status}: view-reproduction")
+724-    print("PASS proves: committed registered views equal deterministic renderer output for the stored events")
+725-    print("PASS does not prove: coverage of unregistered repository state or research truth")
+726-    return 0 if not findings else 1
+727-
+728-
+729-def _audit_additions(inputs: LiveInputs, base: str, head: str) -> int:
+730-    _print_banner("LIVE_SHADOW_AUDIT_ADDITIONS", inputs, extra=f" history={base}..{head}")
+731-    check = verify_additions_only(LiveGitHistoryBoundary(inputs.grant.repository_root), base, head)
+732-    print(f"perimeter: check={check.name} repository={inputs.grant.repository_root} {check.perimeter}")
+733-    print(f"{check.status}: additions-only")
+734-    for finding in check.findings + check.unknowns:
+--
+749-    mode = parser.add_mutually_exclusive_group(required=True)
+750-    mode.add_argument("--preflight", action="store_true")
+751-    mode.add_argument("--apply", action="store_true")
+752:    mode.add_argument("--check-views", action="store_true")
+753-    mode.add_argument("--audit-additions", action="store_true")
+754-    args = parser.parse_args(argv)
+755-
+756-    mode_name = (
+757-        "LIVE_SHADOW_PREFLIGHT" if args.preflight
+758-        else "LIVE_SHADOW_APPLY" if args.apply
+759:        else "LIVE_SHADOW_CHECK_VIEWS" if args.check_views
+760-        else "LIVE_SHADOW_AUDIT_ADDITIONS"
+761-    )
+762-    write_capable = args.apply
+763-    now = captured_utc_now()
+764-    try:
+765-        inputs = prepare_live_inputs(
+766-            activation_path=args.activation,
+767-            live_repository_root=args.live_repository_root,
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:47:04.638Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && ls KERNEL/tools/ && git status --short -- KERNEL/ && echo "---untracked detail---" && git status --porcelain=v1 -uall -- KERNEL/
+---- OUTPUT [2026-08-27T16:47:04.846Z]:
+__init__.py
+__pycache__
+acceptance.py
+audit.py
+core.py
+custody.py
+gate_c_boundary.py
+git_policy_check.py
+live_grant.py
+live_shadow.py
+locking.py
+native.py
+permissions.py
+planner.py
+prepare_pilot.py
+projection.py
+render.py
+verify_native.py
+writer.py
+?? KERNEL/shadow/
+?? KERNEL/views/
+---untracked detail---
+?? KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json
+?? KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json
+?? KERNEL/views/CALIBRATION.tsv
+?? KERNEL/views/EXCEPTIONS.md
+?? KERNEL/views/OPEN_QUESTIONS.md
+?? KERNEL/views/RESOLUTION_QUEUE.md
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:47:09.385Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && python3 KERNEL/tools/git_policy_check.py --help 2>&1 | head -30
+---- OUTPUT [2026-08-27T16:47:09.536Z]:
+usage: git_policy_check.py [-h] paths [paths ...]
+
+Check live instruction surfaces for unsafe Gate C Git prescriptions.
+
+positional arguments:
+  paths       explicit instruction files to check
+
+options:
+  -h, --help  show this help message and exit
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:47:22.461Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && python3 KERNEL/tools/git_policy_check.py KERNEL/GATE_C_C7_RUNBOOK.md KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json; echo "policy rc=$?" && git add KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json KERNEL/views/CALIBRATION.tsv KERNEL/views/EXCEPTIONS.md KERNEL/views/OPEN_QUESTIONS.md KERNEL/views/RESOLUTION_QUEUE.md && echo "---STAGED---" && git diff --cached --name-only && git diff --cached --stat | tail -1
+---- OUTPUT [2026-08-27T16:47:22.601Z]:
+PASS: Gate C Git policy instruction check
+perimeter: KERNEL/GATE_C_C7_RUNBOOK.md, KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md, KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json
+proves: no registered unsafe Gate C Git prescription appears in the explicit instruction files
+does_not_prove: runtime Git enforcement or absence of unsafe instructions outside the perimeter
+policy rc=0
+---STAGED---
+KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json
+KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json
+KERNEL/views/CALIBRATION.tsv
+KERNEL/views/EXCEPTIONS.md
+KERNEL/views/OPEN_QUESTIONS.md
+KERNEL/views/RESOLUTION_QUEUE.md
+ 6 files changed, 60 insertions(+)
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:47:35.260Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && cat > /tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad/c7_commit_msg.txt <<'EOF'
+PROME: C7 pilot steps 5-7 — accept two SAM-33 shadow events + four bannered views under activation LIVE-2026-0001
+
+First live Gate C shadow acceptance. Window [2026-08-27T16:30:00Z, 18:00:00Z) Will-ruled in-session; SUBMISSION_COMMIT bb606994a (SAM, carve-out 4, hashes pin-exact). Apply rc=0 all checks PASS (custody/schema/planning/permissions/native-reference/lifecycle/writer/durability/aggregate/durable-results). Events byte-identical across three runs; step-6 view deviation (render_as_of stamp only, live clock un-injectable by design) put to Will and ruled PROCEED — full record in the C8 packet. Staged path-by-path per the printed operator-staging list; not pushed inside the window.
+EOF
+git commit KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json KERNEL/views/CALIBRATION.tsv KERNEL/views/EXCEPTIONS.md KERNEL/views/OPEN_QUESTIONS.md KERNEL/views/RESOLUTION_QUEUE.md -F /tmp/claude-1000/-home-willi-Research-workspace-PROME/1b972120-db88-4ae6-95df-08df922c26fd/scratchpad/c7_commit_msg.txt && git log -1 --format=%H && date -u
+---- OUTPUT [2026-08-27T16:47:35.421Z]:
+[master 01478b659] PROME: C7 pilot steps 5-7 — accept two SAM-33 shadow events + four bannered views under activation LIVE-2026-0001
+ 6 files changed, 60 insertions(+)
+ create mode 100644 KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000033.json
+ create mode 100644 KERNEL/shadow/events/2026/08/EVT-019305f8-ec00-7000-8000-000000000034.json
+ create mode 100644 KERNEL/views/CALIBRATION.tsv
+ create mode 100644 KERNEL/views/EXCEPTIONS.md
+ create mode 100644 KERNEL/views/OPEN_QUESTIONS.md
+ create mode 100644 KERNEL/views/RESOLUTION_QUEUE.md
+01478b6597199b8fced9251be66f5fff49943811
+Thu Aug 27 16:47:35 UTC 2026
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:47:46.219Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && date -u && python3 KERNEL/tools/live_shadow.py --activation KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json --live-repository-root /home/willi/Research-workspace --submission-commit bb606994a3faf15ab634cf0a093f1d0a0981aad7 --check-views; echo "check-views rc=$?"; python3 KERNEL/tools/live_shadow.py --activation KERNEL/GATE_C_C7_ACTIVATION_2026-08-27.json --live-repository-root /home/willi/Research-workspace --submission-commit bb606994a3faf15ab634cf0a093f1d0a0981aad7 --audit-additions --base cb8979041d1fe161faf1522bb8b47256f604c00e --head 01478b6597199b8fced9251be66f5fff49943811; echo "audit rc=$?"
+---- OUTPUT [2026-08-27T16:47:46.565Z]:
+Thu Aug 27 16:47:46 UTC 2026
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_CHECK_VIEWS
+perimeter: activation_id=LIVE-2026-0001 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md repository_root=/home/willi/Research-workspace window=2026-08-27T16:30:00.000000Z..2026-08-27T18:00:00.000000Z writer_id=PROME commands=2 recorded_at=2026-08-27T16:47:46.401726Z
+perimeter: check=view-reproduction views_root=/home/willi/Research-workspace/KERNEL/views render_as_of=2026-08-27T16:32:47.037821Z commands=2
+PASS: view-reproduction
+PASS proves: committed registered views equal deterministic renderer output for the stored events
+PASS does not prove: coverage of unregistered repository state or research truth
+check-views rc=0
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_AUDIT_ADDITIONS
+perimeter: activation_id=LIVE-2026-0001 authorized_by=WILL authorization_ref=KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md repository_root=/home/willi/Research-workspace window=2026-08-27T16:30:00.000000Z..2026-08-27T18:00:00.000000Z writer_id=PROME commands=2 recorded_at=2026-08-27T16:47:46.500482Z history=cb8979041d1fe161faf1522bb8b47256f604c00e..01478b6597199b8fced9251be66f5fff49943811
+perimeter: check=additions-only repository=/home/willi/Research-workspace history=cb8979041d1fe161faf1522bb8b47256f604c00e..01478b6597199b8fced9251be66f5fff49943811 protected=KERNEL/audit/commands/,KERNEL/shadow/events/
+PASS: additions-only
+PASS proves: protected accepted-event and receipt paths contain additions only in the compared history
+PASS does not prove: protection outside the compared range or against the excluded threat model
+audit rc=0
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:47:52.287Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && grep -n -A20 "C8" KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md | head -60
+---- OUTPUT [2026-08-27T16:47:52.352Z]:
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:47:56.309Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && ls KERNEL/ && grep -rn "burden" KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md KERNEL/GATE_C_LIVE_INTERFACE_REMEDIATION.md 2>/dev/null | head -10
+---- OUTPUT [2026-08-27T16:47:56.376Z]:
+CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md
+GATE_B_ADVERSARIAL_REVIEW.md
+GATE_C_C1_PILOT_CONTRACT_DRAFT.md
+GATE_C_C2_GIT_CARVEOUT_DRAFT.md
+GATE_C_C3_SYNTHETIC_BOUNDARY.md
+GATE_C_C4_CUSTODY.md
+GATE_C_C5_RECORD_INSPECTION.md
+GATE_C_C6_REHEARSAL.md
+GATE_C_C7_ACTIVATION_2026-08-27.json
+GATE_C_C7_ACTIVATION_DRAFT.json
+GATE_C_C7_ACTIVATION_PACKET.md
+GATE_C_C7_ACTIVATION_PACKET_v2.md
+GATE_C_C7_RUNBOOK.md
+GATE_C_LIVE_INTERFACE_REMEDIATION.md
+GATE_C_READINESS_PLAN.md
+IMPLEMENTATION_STATUS.md
+README.md
+SPEC.md
+policies
+rehearsals
+schemas
+shadow
+tests
+tools
+views
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:48:00.150Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && grep -n "C8\|burden\|measure" KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md | head -20
+---- OUTPUT [2026-08-27T16:48:00.222Z]:
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:48:04.203Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && wc -c KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md && head -40 KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md && grep -rn "C8\b" KERNEL/GATE_C_READINESS_PLAN.md KERNEL/IMPLEMENTATION_STATUS.md 2>/dev/null | head -10
+---- OUTPUT [2026-08-27T16:48:04.277Z]:
+6197 KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md
+# Gate C C7 Activation Packet — v2 (fresh cut)
+
+**Prepared:** 2026-08-27T15:34:33Z (clock-pulled; prior blocked draft: `GATE_C_C7_ACTIVATION_PACKET.md`, 2026-08-26 — retained as the preflight record; per its own ruling line, nothing here incorporates approval by reference to it)
+
+**State:** PRESENTED FOR ACTIVATION RULING — awaiting Will's word. Per the accepted day-boundary rider (2026-08-26 discussion), remediation and review completed 2026-08-27, so the **earliest ruling date is 2026-08-28**.
+
+## Remediation record — all six required items COMPLETE
+
+| # | Required (per the blocked draft) | Evidence |
+|---|---|---|
+| 1 | One explicit live mode, no synthetic boundary weakened | `KERNEL/tools/live_shadow.py` (`f8560f2c0`); `gate_c_boundary`/`acceptance`/`audit`/`projection` untouched, verified at the review |
+| 2 | Exact repository, commit, submission paths, policy files, event IDs, result/view paths as inputs | Activation-document schema `kernel.live-activation.1`: absolute root binding, pinned sha256 ×(2 submissions + 3 policies), exact command IDs, event-ID map |
+| 3 | Activation document carrying Will's exact half-open UTC window; absence/expiry/mismatch/ambiguity fail before any write | `authorize_live_activation` refuses first; window is half-open `[start, end)` exactly (review-verified) |
+| 4 | One PROME writer, explicit staging only, no auto commit/push, additions-only durable results, disposable `.rw/` | Unchanged from C6; custody-primary guard now direct-tested |
+| 5 | Exhaustive synthetic refusal tests, then the complete C6 rehearsal through the exact interface | **212 tests green** (was 191 pre-build); full rehearsal transcript durable at `KERNEL/rehearsals/2026-08-26_live-interface-rehearsal-transcript.txt` |
+| 6 | Independent adversarial review, then a fresh packet | **RED review 2026-08-27: PROCEED** (`AGENTS/RED/challenges/2026-08-27_KERNEL_GATE_C_LIVE_INTERFACE_ADVERSARIAL_REVIEW.md`); two MODERATE findings **closed by mechanism** same day (`67136c509` window-enforcement grant slot + store refusal; `ec254da22` views-path guard at `write_views`); both deltas **probe-verified by RED**; **CHG-RED-050 RESOLVED, no hold** |
+
+**Core review result (RED, verified by probe not assertion):** no route to a live write without a valid activation; the leftover-rehearsal-document-against-real-root case refuses at two independent layers; duck-typed fake grants refused by `isinstance`; all pin tampers, policy repointing, identity fields, and field-set equality refuse before any write. Both durable-write chokepoints (`store.publish` for events/receipts, `write_views` for registered views) are now **enforced by type, not call path**.
+
+## Fixed pilot perimeter (unchanged from the blocked draft)
+
+- source commit `1d9400425f7415083a9ffbd10964670bf255abf2`;
+- `AGENTS/SAM/thesis/PREDICTIONS.tsv`, locator `Pred_ID=SAM-33`;
+- `AGENTS/SAM/thesis/SAM-33_KERNEL_NATIVE_COMPANION.json`, pointers `/question` and `/forecast`;
+- exactly `CMD-019305f8-ec00-7000-8000-000000000033` then `CMD-019305f8-ec00-7000-8000-000000000034`;
+- PROME as sole active writer, RED dormant, no substitute activation;
+- `kernel.schema.1`, `kernel.policy.1`, checked-in `KERNEL/policies/custody-policy.json`;
+- one manual operator-attended window;
+- all stop conditions in `KERNEL/GATE_C_READINESS_PLAN.md`.
+
+**Pin status at cut (2026-08-27):** pinned commit present in history (verified `git cat-file -e`). The two SAM native files have advanced **2 commits** since the pin (SAM-41 grading, 2026-08-27 — unrelated rows). Native refs resolve against the **immutable pinned commit**, so they remain valid; the pilot's events will cite the pinned state, not HEAD. Stated here so the ruling is made knowing the pin is a dated snapshot, which is the designed shape for a shadow pilot.
+
+## Declared gaps (coverage section — stated, not absorbed)
+
+1. **Disposable-clone rehearsal not re-run after the review deltas.** The reviewer reconciled the durable transcript against the record (clean) instead; a full re-run would be strictly stronger. The deltas since the rehearsal are the two guard commits (test-covered) only.
+2. **Lock path — VERIFIED LOW-severity known gap** (upgraded from "unverified" by RED's re-probe): `FixtureAcceptanceLock` does not honour `window_enforced` — a lock acquires under an unenforced grant. `.rw/` is disposable by design (byte-identical projection rebuild proven in rehearsal), lock files sit outside the additions-only perimeter, and both durable paths refuse independently, so nothing durable follows from holding it. Post-pilot consistency extension registered.
+3. **`write_views` guard is opt-in by parameter** — a caller that holds a grant and simply does not pass it still writes. Same cooperative-actor posture as the disclosed `_MINT_KEY` limitation (spec §2.2 / decision 20); the live interface always passes it. Stronger destination-keyed form registered post-pilot.
+
+## Post-pilot items (registered, non-blocking, each with its own review)
+
+KERNEL/GATE_C_READINESS_PLAN.md:41:| C8 | Pilot closeout | Results, receipts, discrepancies, burden, audit completeness, rollback/stop disposition | Continue, pause, remediate, or end Gate C |
+KERNEL/GATE_C_READINESS_PLAN.md:57:| C8 | NOT AUTHORIZED | Requires an authorized and completed C7 pilot |
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:49:16.730Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && git add KERNEL/GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md && git commit KERNEL/GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md -m "PROME: C8 closeout packet drafted (runbook step 9) — pilot LIVE-2026-0001 complete, 2 events accepted + 4 views, all step-8 verifications PASS; 4 discrepancies recorded with dispositions (D1 tree deviation, D2 timestamp authoring defect, D3 step-6 view-idempotency criterion mismatch, D4 submitter-side window-guard halts); reviewer = RED or DAEDALUS, Will picks" && git log -1 --format=%H && date -u && git status --short | head
+---- OUTPUT [2026-08-27T16:49:16.858Z]:
+[master ca348e4a5] PROME: C8 closeout packet drafted (runbook step 9) — pilot LIVE-2026-0001 complete, 2 events accepted + 4 views, all step-8 verifications PASS; 4 discrepancies recorded with dispositions (D1 tree deviation, D2 timestamp authoring defect, D3 step-6 view-idempotency criterion mismatch, D4 submitter-side window-guard halts); reviewer = RED or DAEDALUS, Will picks
+ 1 file changed, 65 insertions(+)
+ create mode 100644 KERNEL/GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md
+ca348e4a5ff95bfd42d01bf899e48cbfbb5511b5
+Thu Aug 27 16:49:16 UTC 2026
+?? 50%
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:56:39.741Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && git commit KERNEL/GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md -m "PROME: C8 packet amended — D5 registered (SAM finding, PROME origin-verified): 'no push during the sitting' was mechanically unenforceable under the push-train; first four sitting commits reached origin mid-window via a peer's ordinary closeout sweep; integrity unaffected, runbook dependency flagged for the reviewer" && bash scripts/safe-push.sh 2>&1 | tail -3 && git rev-list --left-right --count HEAD...origin/master
+---- OUTPUT [2026-08-27T16:56:41.825Z]:
+[master 82fdb902b] PROME: C8 packet amended — D5 registered (SAM finding, PROME origin-verified): 'no push during the sitting' was mechanically unenforceable under the push-train; first four sitting commits reached origin mid-window via a peer's ordinary closeout sweep; integrity unaffected, runbook dependency flagged for the reviewer
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+To https://github.com/williepowen-debug/Research-workspace.git
+   85afdcd98..82fdb902b  HEAD -> master
+Pushed.
+0	0
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
+====================================================================================================
+[2026-08-27T16:57:06.749Z] COMMAND:
+cd "$(git rev-parse --show-toplevel)" && git add AGENTS/RED/inbox/2026-08-27_from-PROME_C8-review-assignment-pilot-LIVE-2026-0001-complete-five-discrepancies-recorded.md && git commit AGENTS/RED/inbox/2026-08-27_from-PROME_C8-review-assignment-pilot-LIVE-2026-0001-complete-five-discrepancies-recorded.md -m "PROME -> RED: C8 review assignment (Will picked RED in-session) — pilot LIVE-2026-0001 complete, packet at KERNEL/GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md, five discrepancies recorded, recommendation returns to Will" && git log -1 --format=%h
+---- OUTPUT [2026-08-27T16:57:06.853Z]:
+[master bbebc4429] PROME -> RED: C8 review assignment (Will picked RED in-session) — pilot LIVE-2026-0001 complete, packet at KERNEL/GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md, five discrepancies recorded, recommendation returns to Will
+ 1 file changed, 18 insertions(+)
+ create mode 100644 AGENTS/RED/inbox/2026-08-27_from-PROME_C8-review-assignment-pilot-LIVE-2026-0001-complete-five-discrepancies-recorded.md
+bbebc4429
+Shell cwd was reset to /home/willi/Research-workspace/PROME
+
