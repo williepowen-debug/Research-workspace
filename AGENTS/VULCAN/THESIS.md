@@ -263,7 +263,9 @@ form the promotion argument predicted.
 new issues*; this is neither. **Evidence strengthening without a band tripping is the normal case, and
 moving the score because a datum feels important is how a matrix stops meaning anything.**
 
-### What CANNOT be concluded yet — the two numbers that decide the size
+### What CANNOT be concluded — the two numbers that decide the size
+
+> ⚠️ **HEADING CORRECTED 2026-08-27 (second read): it said *"cannot be concluded YET"* while the body below now says the withholding is *"permanent rather than temporary."* Both numbers were withheld by AFFIRMATIVE ELECTION, so *"yet"* asserted a deferral that no longer exists.** 🔑 **Third instance today of one class: the BODY gets corrected and the HEADING is never re-read** (`STATUS.md`'s `LIVE CHANNEL READS`, its `BOTTOM LINE` yesterday, and this). **A heading is the part a reader trusts without checking, which is exactly why a stale one outranks a stale paragraph.**
 
 **The $105B is a CAP on NVDA's obligation, not an exposure estimate.** Actual exposure depends on:
 1. **the guaranteed-minimum-value schedule** — ~~not public~~ → **🔴 RESOLVED 2026-08-27: OMITTED BY
