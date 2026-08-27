@@ -15,6 +15,8 @@ entities: [SP500, Shiller_CAPE, dot_com_peak]
 
 # Shiller PE 42.39 has passed the July 1999 dot-com peak of 41.93 — the THIRD independent valuation-extreme instrument this session, all pointing the same way
 
+> ⚠️ **§3.6 CORRECTED 2026-08-26 → `SIG-W-20260826-005` (HENRY-caught, WALTER-verified): §4's rate-adjustment leg is INVERTED — it reads "real rates today (DFII10 ~2.43) are HIGHER than 1999's ~3.8%," and 2.43 < 3.8; the sentence contradicts its own parenthesis. Run correctly the leg FLIPS: real rates ~145bp BELOW 1999 ⇒ on an excess-CAPE-yield basis today is LESS extreme than 1999, not "strictly worse." Beneath it, a basis mismatch: DFII10's series BEGINS 2003 and cannot produce a 1999 figure. ✅ HOLDS: CAPE 42.39 = the 146-year high, the three-instrument agreement, and the cries-wolf guard.**
+
 ## 1. The datum
 
 **Shiller CAPE (cyclically-adjusted P/E ratio) = 42.39** per @InTheAssembly 2026-08-09 5:51 PM, plotted against the Shiller-primary long-history series. **Peak of the series** (from 1880) **is now 42.39** — surpassing the **Jul 1999 dot-com peak of 41.93** by 0.46 points, or **~1.1% ABOVE the previous all-time high.**

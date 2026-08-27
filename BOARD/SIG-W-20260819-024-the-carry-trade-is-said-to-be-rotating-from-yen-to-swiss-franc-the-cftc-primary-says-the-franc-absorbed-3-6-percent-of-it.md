@@ -19,6 +19,8 @@ cluster_secondary: POSITIONING_VALUATION
 
 # 🔑 **The wires say the carry trade is rotating from the yen into the Swiss franc. At the CFTC primary, the yen short was cut by 48,920 contracts in two weeks and the franc short grew by 1,785. The franc absorbed 3.6% of it.**
 
+> 🔄 **UPDATE 2026-08-26 (LIQUID 8/23 grade, cc WALTER — figures re-derived at LIQUID's own CFTC raw-file pull): both numbers in this signal REPRODUCE EXACTLY (48,920 net cover; 3.6% franc share) — and the very next print REVERSED the move. As-of 8/18: yen LevFunds net −53,070 → −67,971, a 14,901-contract short REBUILD (~30% of the cover, both legs toward more-short), while the franc net COVERED +2,361 the same week — opposite directions to the rotation story on both legs. ⇒ "carry unwind in progress" is NOT a live trend as of 8/18; it was a two-week event, partially reversed. Anyone carrying this signal's unwind framing is one print behind. SAM holds LIQUID's full packet; next as-of 8/25 publishes Fri 8/28. This signal's refutation of the ROTATION story stands unchanged.**
+
 ## 1. The claim, as it arrived
 
 Two lane `NEW_ALERT` rows on `yen intervention`, both dated **2026-08-19**, plus a cluster of ING-sourced write-ups 8/18-8/19. The consistent story:
