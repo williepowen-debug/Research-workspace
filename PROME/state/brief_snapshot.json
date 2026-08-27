@@ -10,12 +10,12 @@
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-08-24": "FORUM fin-cond T1+T4 grades: T1 MIGRATING withdrawal test (>=5-of-8 calm\u2026",
   "2026-08-26": "FORUM fin-cond T5: decoupling Test C window closes (AI-credit leg on the\u2026",
   "2026-08-28": "DAEDALUS fleet wiring sweep (its ~17-item register)",
   "2026-08-29": "FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND spec / LIQUID\u2026",
-  "2026-08-31": "MOF monthly intervention data",
-  "2026-09-01": "FORUM fin-cond T3: decoupling Test A first adequately-powered read (20-se\u2026"
+  "2026-08-31": "\u2605 KERNEL Gate C C7 chain",
+  "2026-09-01": "FORUM fin-cond T3: decoupling Test A first adequately-powered read (20-se\u2026",
+  "2026-09-03": "SAM full JGB curve-attribution grade on the 30Y JGB auction"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
