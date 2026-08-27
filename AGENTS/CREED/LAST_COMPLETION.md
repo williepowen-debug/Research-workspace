@@ -1,6 +1,8 @@
 # CREED — LAST_COMPLETION
 
-**STATUS:** DONE — **2026-08-27 (SECOND session: crash-recovery → band revisit → CORAL feed → trap widening).** Four work items, all closed, **stamped contemporaneously at closeout — not retroactively.** *(§⑩ below. The QBP-window entry it supersedes is retained as §⑨.)*
+**STATUS:** DONE — **2026-08-27 (THIRD block: a real trigger fire, a band re-base, SEC access, and a live Kernel submission).** ⛔ **A GATE C SITTING WAS IN PROGRESS AT CLOSEOUT** — `PREDICTIONS.tsv` is pin-locked, see `SCRATCH.md` §STANDING HAZARD. *(§⑪ below.)*
+
+**PRIOR:** DONE — **2026-08-27 (SECOND session: crash-recovery → band revisit → CORAL feed → trap widening).** Four work items, all closed, **stamped contemporaneously at closeout — not retroactively.** *(§⑩ below. The QBP-window entry it supersedes is retained as §⑨.)*
 
 **PRIOR:** DONE — **2026-08-27 (FDIC Q2 QBP window session)**. The mandatory in-window spawn (PROME brief `2026-08-23`, Will-ruled). **`CREED-T-03` GRADED NOT FIRED** on all three conjunctive legs, decided on the **basis-independent** reserve-coverage leg (166.8% → 172.7%). **`PRED-CREED-003` RESOLVED FALSE** (Brier 0.1225, n=2). **Grading the trigger impeached its own registered baseline** (`KB-CREED-024`) — proposed to Will, not self-fixed. **No band, op, value or sustain moved; convergence 25/45 UNCHANGED; S3 held at 2.**
 
@@ -148,3 +150,27 @@ REGINALD **concurred on `CREED-T-02`** and updated `REG-T-07` to July — **and 
 **Deliberate non-action, recorded so it is not mistaken for an omission:** **no auto-memory was written.** The retrieval-shape finding is durably homed on CREED's surfaces and routed to DAEDALUS for the 8/28 canonization sweep; writing a fleet memory now would **pre-empt the sweep and create a fourth home for one fact.** If DAEDALUS canonizes it, the memory is the right home *then*.
 
 **Packets out: 9.** Guards at closeout: `creed_selfcheck` ✅ · `threshold_scan` exit 1 *(`T-01a` NEAR — expected)* · `orphan_check` ✅ · `claim_check` ✅ 5 files clean · ledger nudge **disposition recorded, not silently ignored**.
+
+---
+
+## ⑪ THE 2026-08-27 THIRD BLOCK — the day the instruments got tested
+
+**Stamped contemporaneously.** Continuing §⑩; this block covers everything after the band-revisit closeout.
+
+| Item | Outcome |
+|---|---|
+| **`CREED-T-06b`** | 🔴 **FIRED** — SREIT, event 4/29, adjudicated 8/27, lag ~4 months. **S6 HELD AT 3** |
+| **`CREED-T-03`** | **Re-based** to the QBP combined cell; **level leg SUSPENDED**, grades on (b)+(c) |
+| **SEC access** | **Declared UA live** on Will's own word — EDGAR readable fleet-wide; `PRED-010` back-check **passes** |
+| **Gate C Increment 2** | **6 commands submitted**, `6b8678c67`, in-window under `LIVE-2026-0002` |
+| **CORAL feed** | Cycle 1 delivered; **1 of 3 legs structurally undeliverable** |
+
+**THE DAY'S FINDING, across all of it: CREED's analysis is in better shape than CREED's instruments.** Five instrument defects surfaced — a false zero that survived a month and two sweeps · a false `TRIPPED` the desk manufactured itself · a fix that would have recreated the very defect it was fixing (**twice**: the `T-06b` wiring and `T-03`'s fix (a)) · a state cell disagreeing with its own bands · a latent window ambiguity carried since July. **The guards caught none of them.** Every one was found by **executing something and looking at the result** — which is now standing trap #20.
+
+⚠️ **The single most uncomfortable one, kept in plain sight:** `VX-5.01`'s *"open-end fund gates NOT yet seen"* was **false when written**, not stale. **An event count reads identically whether nothing happened or nobody looked**, and nothing in the desk's tooling can tell those apart.
+
+**What the guard did do, and it matters:** `creed_selfcheck` **failed the `T-06b` fire** on cross-surface consistency until STATUS and THESIS both named it. Check 1 doing exactly its job.
+
+**The fix design is written and unbuilt** — three tiers (mechanize `state_vs_band` + pointer-yields-a-measurement · a `vector_class`/`last_verified` schema change with a BOOT check · and the two classes that are practice, not script). **Build Tiers 1–2 BEFORE the verification sweep, or the sweep is a one-off that decays.** Put to Will; not started.
+
+**Closeout note:** commits were deliberately **NOT pushed** — PROME's step-1 instruction, sitting live. ⚠️ **The step-1 commit reached origin anyway via a peer's push-train sweep — the second observed instance of the C7 `D5` finding** that "no push during the sitting" is mechanically unenforceable. Integrity unaffected; recorded because it recurred.
