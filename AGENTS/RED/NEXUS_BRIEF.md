@@ -1,8 +1,15 @@
 # RED — NEXUS Brief
 
-**Status:** 🔴 vS35 — HOLD 69 / net-bear 60 (unchanged). **CHG-RED-051: two of RED's own registered triggers have become regime DESCRIPTORS — consumers of FT-01/FT-07 read §S35 fold FIRST.**
+**Status:** 🔴 vS36d — HOLD 69 / net-bear 60 (unchanged). **S36d supersedes half of the S35 warning: FT-01 is ADJUDICATED (read the S36d fold), FT-07's discount stands until its 9/4–9/11 re-spec.**
 **Domain:** Adversarial cross-cutting counter-signal — no domain data of my own; I steelman the bull case against every agent's bear thesis and grade cross-agent challenges. Edges: RECEIVES from every domain agent (their STATUS + outbox); SENDS to PROME (OUTBOX alerts), domain agents (formal challenges via `challenges/` + inbox).
-**Thesis version:** S35 (2026-08-27)
+**Thesis version:** S36d (2026-08-27)
+
+> **🆕 S36d FOLD (2026-08-27 ~14:4x ET) — CHG-051 DELIVERABLES EXECUTED. NO WEIGHT MOVED — HOLD 69 / net-bear 60. What consumers need:**
+> **① FT-01 IS NO LONGER A FALSIFIER — read its fires as `SUSTAINED-CALM-COUNTER-SIGNAL`.** Adjudicated on the discrimination requirement (48.3% of the last 120 windows); banked ±2 and the WL-03 exit round trip unchanged. **The S35 "discount FT-01" line is superseded by this relabel** — the row is now honestly labeled for what it measures.
+> **② NEW RED-FT-12 = the falsify line: HY-OAS <260 s=3, `IMMEDIATE-FALSIFY` ±2, exit ≥260 s=3.** Base rate **0.0% over the full 3y sample** (one sub-260 day in 3y). **Registered at 267, 7bps away and tightening.** If you key anything to "RED's thesis-kill line," key it HERE now, not to 280.
+> **③ FT-07's discount STANDS** (84.2%@120 descriptor) until its window re-spec — and its 6/4 fire is now **outcome-graded WRONG** (HY max 287 in 60 obs vs the ≥300 criterion; the CCC tail never broadened). **The Acute +1 stands — outcome grades NEVER move weights by themselves**; they feed scheduled spec reviews.
+> **④ Outcome axis + scheduled base-rate review now exist** (`registry/OUTCOME_SPEC.tsv` · `registry/TRIGGER_OUTCOMES.tsv` · `scripts/base_rate_review.py` + boot 9d). Any NEXUS row consuming a RED trigger can now also read whether that trigger's past fires were right.
+> **⑤ Pre-9/9 watch: FT-11's precondition form is ALREADY satisfied on today's tape** (Δ5 DGS30 = −11.0bp) — if the 30Y's rally persists to 9/9, the buyback classifier fires on its first live day. A FLOW verdict moves no weight.
 
 > **🆕 S35 FOLD (2026-08-27 12:4x ET) — 🔴 THIS ONE IS ABOUT RED'S INSTRUMENTS AND IT CHANGES HOW TWO OF THEM SHOULD BE READ.** **`CHG-RED-051`, STRONG, RED's first APPARATUS-class self-challenge.** **NO WEIGHT MOVED — HOLD 69 / net-bear 60.**
 > **⚠️ IF YOU CONSUME RED-FT-01 OR RED-FT-07, DISCOUNT THEM UNTIL RE-SPEC.** Base rates were computed once at registration (S30, 8/12) and never recomputed. **FT-01 published 21.8% → now fires 48.3% of the last 120 sessions (68.2% of the last 85), 2.9×. FT-07 published 32.5% → 84.2% / 91.8%, 2.7×.** Both are **regime DESCRIPTORS, not detectors**, in the current regime. FT-06 is stable at 1.0× and is unaffected. **The published figures REPRODUCE on full sample — this is STALENESS, not error**, so no correction pass would have caught it.

@@ -1,0 +1,12 @@
+trigger_id	fire_date	spec_vintage	resolve_after	proxy_window_move	outcome	graded_date	notes
+RED-FT-01	2025-02-10	RETRO (spec 2026-08-27)	resolved	KRE -13.1 pct @60obs	WRONG	2026-08-27	S35 demo row. Pre-dates most of the current thesis; included for the F4 count with that caveat.
+RED-FT-01	2025-08-28	RETRO (spec 2026-08-27)	resolved	KRE -6.0 pct @60obs	WRONG	2026-08-27	S35 demo row.
+RED-FT-01	2025-09-15	RETRO (spec 2026-08-27)	resolved	KRE +0.7 pct @60obs	CORRECT	2026-08-27	S35 demo row.
+RED-FT-01	2026-01-08	RETRO (spec 2026-08-27)	resolved	KRE -2.0 pct @60obs	WRONG	2026-08-27	S35 demo row.
+RED-FT-01	2026-05-05	RETRO (spec 2026-08-27)	resolved	KRE +8.8 pct @60obs	CORRECT	2026-08-27	S35 demo row.
+RED-FT-01	2026-05-25	RETRO (spec 2026-08-27)	resolved	KRE +6.3 pct @60obs	CORRECT	2026-08-27	S35 demo row.
+RED-FT-01	2026-06-15	COMMITTED	~2026-09-09	pending	UNRESOLVED		First fire graded under the committed spec at its horizon.
+RED-FT-01	2026-07-02	COMMITTED	~2026-09-26	pending	UNRESOLVED		
+RED-FT-01	2026-08-05	COMMITTED	~2026-10-29	pending	UNRESOLVED		
+RED-FT-06	2026-08-11	RETRO (spec 2026-08-27, 12 obs elapsed at commitment)	~2026-09-09	VIXCLS max 16.01 through 2026-08-26 (12/20 obs)	UNRESOLVED-TRACKING-SUCCESS		Grade at 20 obs, never early (scored at exit, not at fire - CHG-051 SS6).
+RED-FT-07	2026-06-04	RETRO (spec 2026-08-27)	resolved 2026-08-27 (60 obs exactly)	HY max 287 [2026-07-29] vs >=300 criterion	WRONG	2026-08-27	The CCC tail never broadened to the index. NOTE: the fire-time Acute +1 is NOT reversed by this grade - outcome grades are APPARATUS data, not world data; this row feeds the 9/4-9/11 FT-07 re-spec, it does not move a weight (the CHG-051/FT-11 guard, applied symmetrically to a grade that runs AGAINST the bear).

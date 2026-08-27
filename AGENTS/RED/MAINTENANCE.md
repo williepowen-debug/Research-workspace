@@ -11,6 +11,13 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## 2026-08-27 (S36d) — CHG-051 deliverables: registry 15→17 cols, outcome-axis pair, base-rate review tool + boot step 9d
+
+- **Trigger:** Will-directed execution of CHG-RED-051's three owed deliverables (registry had no correctness axis; base rates computed once, never recomputed; FT-01 label self-refuting at 48.3%@120obs).
+- **What changed:** ① `registry/FALSIFICATION_TRIGGERS.tsv` **15→17 columns** — `last_reviewed` + `rolling_base_rate` APPENDED (cols 0–14 positions unchanged; WALTER notified pre-landing per the T5 precedent, packet in their inbox committed ahead of the change). All 12 rows populated from a fresh computation. FT-01 action relabeled (analytical half → CHANGELOG); **FT-12 registered** (new row). ② **Two new files:** `registry/OUTCOME_SPEC.tsv` (7-col, pre-committed proxy/horizon per trigger) + `registry/TRIGGER_OUTCOMES.tsv` (8-col, per-fire grade ledger, scored at horizon). ③ **New script `scripts/base_rate_review.py`** (read-only, recompute + ≥2× drift flag + `--candidate` pre-registration mode + FT-11 Δ5 surfacing). ④ `workbook/SCHEMA.tsv` +17 contract rows; `scripts/schema_check.py` file map +2 entries. ⑤ `CLAUDE.md` **boot step 9d added** (runs the review; W2 extended to disposition resolved TRIGGER_OUTCOMES rows).
+- **Files touched:** registry/FALSIFICATION_TRIGGERS.tsv · registry/OUTCOME_SPEC.tsv (new) · registry/TRIGGER_OUTCOMES.tsv (new) · scripts/base_rate_review.py (new) · scripts/schema_check.py · workbook/SCHEMA.tsv · CLAUDE.md · AGENTS/WALTER/inbox/ (notification packet, carve-out ①).
+- **Boot-impact:** one new advisory step (9d, ~10s, network); `schema_check` 12/12 conform verified post-change; `base_rate_review` round-trips 1.0× against the fresh cells. ⚠️ Migration method: tab-split + field-count validation pre/post + `os.replace` — never `csv` (ML-168).
+
 
 ## 2026-08-27 (S35) — CHG-RED-051 opened (first APPARATUS-class self-challenge); CHG-RED-049's missing ledger row written retroactively
 

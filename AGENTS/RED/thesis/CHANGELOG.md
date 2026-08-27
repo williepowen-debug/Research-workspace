@@ -6,6 +6,15 @@
 
 
 
+## 2026-08-27 ~14:4x ET — S36d: CHG-051 deliverables executed — FT-01 adjudicated, FT-12 registered, outcome axis live. NO WEIGHT MOVED; the entry exists because registered-trigger state changed on two rows
+
+**Confidence 69 (=). Net-bear 60 (=). No threshold value changed; what changed is what a fire MEANS and what the registry can now DETECT.**
+
+- **FT-01's action label adjudicated** `IMMEDIATE-FALSIFY` → `SUSTAINED-CALM-COUNTER-SIGNAL`, settled on the **selectivity** axis (48.3% of the last 120 windows cannot carry a falsify label), not the outcome axis (n=6 there is chance-level either way). Banked state, ±2 magnitudes, and the WL-03 round trip untouched — magnitude review stays in the 9/4–9/11 window. **Charge C's dilemma is resolved: the label was wrong, and RED was not ignoring a live falsifier — it was carrying a diluted one.**
+- **FT-12 registered** (HY<260 s=3, `IMMEDIATE-FALSIFY`, ±2, exit ≥260 s=3): the falsify power moved to a line that discriminates — base rate **0.0% full-3y AND @120obs** (single sub-260 day in 3y), registered **7bps away while approaching**, pre-data. Direction-balanced with the FT-01 demotion, so the pair clears the ML-161 ratchet outside the window. Also closes the S36-boot WL-04 gap ("nothing grades a cross") — a cross now has a registered, pre-registered-exit consumer.
+- **Outcome axis live** (CHG-051 deliverable 2): pre-committed proxy/horizon on all 12 rows; per-fire grades scored at horizon, never at fire; **a grade never moves a weight by itself.** First grades: FT-01 retro 3/6; **FT-07's 6/4 fire WRONG at exactly 60 obs** (HY max 287 vs ≥300 — the CCC tail never broadened; feeds the FT-07 window re-spec, weight NOT reversed); FT-06 tracking success at 12/20 obs.
+- **Base-rate review is now scheduled** (boot 9d + `base_rate_review.py`): the drift that took CHG-051 to find by hand is a 10-second boot check. First run also surfaced: **FT-11's current Δ5 = −11.0bp already satisfies the precondition form — it goes live 9/9 and may fire immediately.**
+
 ## 2026-08-27 ~14:1x ET — S36c: FT-11 amended PRE-DATA on BOND's review (leg choice STANDS). NO WEIGHT MOVED; the entry exists because a registration's content changed 13 days before go-live
 
 **Confidence 69 (=). Net-bear 60 (=). Thresholds, branches, and action all UNCHANGED — what changed is the rationale and the disclosed limits.**

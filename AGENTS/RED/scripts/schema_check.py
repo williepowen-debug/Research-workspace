@@ -48,6 +48,11 @@ FILES = {
     "FLOW.tsv": (WB / "FLOW.tsv", 1),
     "VX_HISTORY.tsv": (WB / "VX_HISTORY.tsv", 0),
     "FALSIFICATION_TRIGGERS.tsv": (ROOT / "registry" / "FALSIFICATION_TRIGGERS.tsv", 0),
+    # Outcome axis pair (added 2026-08-27 S36d, CHG-051 deliverable 2): the pre-committed
+    # per-trigger spec and the per-fire grade ledger. Registry-adjacent, so they live in
+    # registry/ beside the surface they grade.
+    "OUTCOME_SPEC.tsv": (ROOT / "registry" / "OUTCOME_SPEC.tsv", 0),
+    "TRIGGER_OUTCOMES.tsv": (ROOT / "registry" / "TRIGGER_OUTCOMES.tsv", 0),
     "../docket/CATALYSTS.tsv": (ROOT / "docket" / "CATALYSTS.tsv", 0),
     "../docket/WATCHLINES.tsv": (ROOT / "docket" / "WATCHLINES.tsv", 0),
 }

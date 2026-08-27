@@ -110,3 +110,20 @@ FALSIFICATION_TRIGGERS.tsv	exit_source	String	Free text: derivation, base rates,
 ../docket/WATCHLINES.tsv	Sustain	Integer	Observations	Yes	Sustain for display purposes
 ../docket/WATCHLINES.tsv	Label	String	Free text	Yes	One-line description shown in boot.py
 ../docket/WATCHLINES.tsv	Notes	String	Free text	No	Provenance and history
+FALSIFICATION_TRIGGERS.tsv	last_reviewed	Date	YYYY-MM-DD	Yes	When the row selectivity credential (base rate) was last recomputed. Added 2026-08-27 S36d (CHG-051 deliverable 1, appended col 16 - positional consumers of cols 0-14 unaffected; WALTER notified pre-landing per T5 precedent)
+FALSIFICATION_TRIGGERS.tsv	rolling_base_rate	String	Leading token always NN.N% @120obs [YYYY-MM-DD]; or MANUAL for release-derived metrics	Yes	Rolling 120-observation base rate vs published, recomputed by scripts/base_rate_review.py (boot step 9d). Added 2026-08-27 S36d (CHG-051 deliverable 1, appended col 17). The script parses the leading percentage for drift comparison - keep the format
+OUTCOME_SPEC.tsv	trigger_id	String	RED-FT-NN	Yes	Registry row this outcome spec binds (one spec row per trigger). File added 2026-08-27 S36d, CHG-051 deliverable 2
+OUTCOME_SPEC.tsv	proxy_series	String	Series/ticker name	Yes	PRE-COMMITTED outcome proxy - chosen before fires resolve so it cannot be picked after seeing the answer (finding_crosscheck_with_free_parameter_validates_nothing)
+OUTCOME_SPEC.tsv	proxy_source	String	FRED; yfinance; etc	Yes	Where the proxy is pulled
+OUTCOME_SPEC.tsv	horizon_obs	String	Integer obs count, or per-classification	Yes	PRE-COMMITTED grading horizon in observations of the proxy series
+OUTCOME_SPEC.tsv	success_criterion	String	Free text, must be computable	Yes	What makes a fire CORRECT - written to be mechanically checkable at horizon
+OUTCOME_SPEC.tsv	committed	Date	YYYY-MM-DD	Yes	When the spec was committed. Grades of fires BEFORE this date are RETRO and labeled so in TRIGGER_OUTCOMES
+OUTCOME_SPEC.tsv	notes	String	Free text	No	Caveats, retro-application disclosures, F4 linkage
+TRIGGER_OUTCOMES.tsv	trigger_id	String	RED-FT-NN	Yes	Which trigger fired. File added 2026-08-27 S36d, CHG-051 deliverable 2 - the per-fire grade ledger (scored at horizon, never at fire)
+TRIGGER_OUTCOMES.tsv	fire_date	Date	YYYY-MM-DD	Yes	Date the sustain window completed (FRED observation date basis)
+TRIGGER_OUTCOMES.tsv	spec_vintage	String	COMMITTED; RETRO (spec date)	Yes	Whether the spec pre-dated this fire (COMMITTED) or was retro-applied (RETRO = demonstration-grade)
+TRIGGER_OUTCOMES.tsv	resolve_after	String	resolved; or ~YYYY-MM-DD estimate	Yes	When the horizon completes
+TRIGGER_OUTCOMES.tsv	proxy_window_move	String	Free text with figures	Yes	The proxy measurement over the horizon
+TRIGGER_OUTCOMES.tsv	outcome	Categorical	CORRECT; WRONG; UNRESOLVED; UNRESOLVED-TRACKING-SUCCESS; UNRESOLVED-TRACKING-FAIL; ANNULLED	Yes	The grade. NEVER moves a weight by itself - outcome grades are apparatus data consumed by scheduled spec reviews
+TRIGGER_OUTCOMES.tsv	graded_date	Date	YYYY-MM-DD or blank while unresolved	No	When the grade was written
+TRIGGER_OUTCOMES.tsv	notes	String	Free text	No	Caveats and cross-refs
