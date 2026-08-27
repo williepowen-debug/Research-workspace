@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-23.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-26.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
@@ -11,7 +11,7 @@
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
 | PROME | Meta | L5 | M | 2026-08-17 | Coordinator / chief of staff | L5 CONFIRM at sweep run #2 ~9/6 — full 21d window, ZERO new unexecuted-… |
-| WALTER | Utility | L4 | H | 2026-08-17 | Signal & news routing | L5 blocked: ## BOTTOM LINE REGRESSION (installed 7/11 96d4de066, DELETE… |
+| WALTER | Utility | L4 | H | 2026-08-26 | Signal & news routing | L5 blocker RE-CUT 8/26: prior blocker (BOTTOM LINE regression) DISCHARG… |
 | NEXUS | Utility | L5 | M | 2026-08-17 | Cross-agent synthesis | L5 CONF M->H at next review if the §7 AUTHORITY label lands (optional p… |
 | RED | Utility | L4 | H | 2026-08-12 | Adversarial red-team | L4->L5 re-cut 8/12: (a) addendum-closeout subset defined in CLAUDE.md |
 | SAM | Market | L4 | H | 2026-08-17 | Japan — BOJ / JGB / carry | L5 on: owner-doc bidirectional sweep demonstrated one cycle |
@@ -27,11 +27,11 @@
 | REGINALD | Market | L4 | H | 2026-08-17 | Regional banks | L5 legs: THESIS v1.4 refresh (own trigger now +27d, WORSE than at 8/7 s… |
 | MARCO | Market | L4 | H | 2026-08-17 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | 8/21 write-back CLOSED-VERIFIED at artifact (3rd session): FLOW two-sta… |
 | ORACLE | Utility | L4 | H | 2026-08-07 | Prediction-market diagnostics ‡‡‡ | L5: §2 CONTRACT block (cheap) |
-| BOND | Market | L4 | H | 2026-08-20 | US bond-market structure / auctions / rates | Packet ROUTED 8/20 (Will verbatim "Approved on both - implement per you… |
+| BOND | Market | L4 | H | 2026-08-20 | US bond-market structure / auctions / rates | "Packet ROUTED 8/20 (Will verbatim ""Approved on both - implement per y… |
 | CORAL | Market | L3 | H | 2026-08-17 | Florida (whole-state, 10 pillars) | SLIPPED: ZERO self-commits 14d |
 | SHADE | Market | L3 | H | 2026-08-17 | Insurer-lender / PE-insurance-captive | L3->L4 leg (a) = 3 cheap handles (seed PREDICTIONS.tsv — NONE EXISTS an… |
 | ZHAO | Market | L3 | H | 2026-08-17 | China macro — UST demand / capital flows / Korea | DARK since 8/3 (14d — prior cell asserted LIVE, corrected PR#4) |
-| AEOLUS | Market | L2 | H | 2026-08-17 | Climate → economy (macro; insurance/ag/energy-demand channels) | 8/21 PR#4 write-back CLOSED-VERIFIED 6/6 (3rd session |
+| AEOLUS | Market | L2 | H | 2026-08-17 | Climate → economy (macro; insurance/ag/energy-demand channels) | "8/21 PR#4 write-back CLOSED-VERIFIED 6/6 (3rd session |
 | WATT | Market | L3 | H | 2026-08-07 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L3->L4: verify reader-side consumption at next review (AEOLUS seam two-… |
 | VULCAN | Market | L3 | H | 2026-08-15 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L3->L4: consumption legs only (WATT already consuming the CRWV S3-S5 co… |
 | MIDAS | Market | L3 | M | 2026-08-07 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | Firm L3 conf M->H at next touch: MIDAS-05 |
@@ -64,7 +64,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | H | 2026-08-23 | Fleet architect — design / structure / maturity / lifecycle | L5 HELD at L4 — WILL-RULED 2026-08-20 ("hold your L5", DAEDALUS's own r… |
+| DAEDALUS | Meta | L4 | H | 2026-08-23 | Fleet architect — design / structure / maturity / lifecycle | "L5 HELD at L4 — WILL-RULED 2026-08-20 (""hold your L5"", DAEDALUS's ow… |
 | YEYOU | Utility | L3 | H | 2026-08-20 | Repo-wide reviewer (manual / branch model) | L4 on PROOF OF CONSUMPTION (PROME acts on the digest / a flag becomes b… |
 | RAV | Meta | L2 | M | 2026-08-07 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST charter-conformant run report in AGENTS/RAV/runs/ — §5'… |
 
