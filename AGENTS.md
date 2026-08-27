@@ -80,6 +80,7 @@ Orchestration + protocols: `PROME/BOOT.md`, `PROME/CLOSEOUT.md`, `PROME/AUTONOMY
 - **Trade proposals** → Will approves/rejects (binary). Never execute without approval. TERRY may propose trade structure; approval still required.
 - **Agent check-in proposals** → when agents propose research or new tracking, route to Will for approval. Standard practice.
 - **Autonomy/proposal rules:** `PROME/AUTONOMY.md`; task completion format: `PROME/COMPLETION_SPEC.md`. Historical Toscanini files live under `PROME/archive/TOSCANINI_2026-03/`.
+- **Gate C Kernel Git boundary:** root `CLAUDE.md` Git Protocol carve-out ④ is canonical. It remains inactive until a separate bounded Gate C activation ruling; planning or installation alone does not authorize real-record processing or live shadow writes.
 
 ---
 

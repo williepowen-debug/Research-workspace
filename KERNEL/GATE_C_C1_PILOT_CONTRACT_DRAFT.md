@@ -2,17 +2,16 @@
 
 **Date:** 2026-08-26
 
-**Status:** DRAFT FOR WILL'S REVIEW — NOT APPROVED — NOT LIVE
+**Status:** APPROVED BY WILL 2026-08-26 — NOT LIVE
 
 **Depends on:** Gate B closed; `GATE_C_READINESS_PLAN.md`
 
-## Proposed ruling
+## Operator ruling
 
-Approve this contract as the fixed boundary for preparing one Gate C activation
-packet. Approval of C1 would authorize checkpoints C2–C6 only as each is
-separately approved. It would not authorize real-record inspection or processing,
-live writes, installation of the Git carve-out, substitute activation, or the C7
-pilot.
+Will approved this contract as the fixed boundary for preparing one Gate C
+activation packet. The ruling authorizes later checkpoints only when each is
+separately approved. It does not authorize real-record inspection or processing,
+live writes, substitute activation, or the C7 pilot.
 
 ## Purpose
 

@@ -117,6 +117,11 @@ The exact next increment and remaining Gate B sequence are canonical in `IMPLEME
 ```bash
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 
+python3 KERNEL/tools/git_policy_check.py \
+  CLAUDE.md AGENTS.md KERNEL/README.md KERNEL/SPEC.md \
+  KERNEL/IMPLEMENTATION_STATUS.md KERNEL/GATE_C_READINESS_PLAN.md \
+  KERNEL/GATE_C_C1_PILOT_CONTRACT_DRAFT.md
+
 python3 KERNEL/tools/acceptance.py \
   --inventory <temporary-explicit-path-and-command-inventory.json> \
   --actors KERNEL/tests/fixtures/permissions/actors.json \

@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will authorized Gate C planning on 2026-08-26 after closing Gate B. Planning does not authorize live implementation, real-record inspection or processing, installation of the Git carve-out, or shadow activation.
+**Latest operator ruling:** Will approved C1's bounded pilot contract and C2's root Git carve-out installation on 2026-08-26. The installed carve-out remains inactive; C3 implementation, real-record inspection or processing, custody activation, and live shadow activation remain unauthorized.
 
 **Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **155 tests pass**.
+Expected baseline at this checkpoint: **161 tests pass**.
 
 ## Authorization boundary
 
@@ -145,10 +145,10 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — Gate C checkpoints C1–C2 operator review
+## Next action — await C3 implementation authorization
 
-**Will reviews the bounded pilot contract and proposed root Git carve-out. Both
-remain drafts; do not install the carve-out or begin C3 without a separate ruling.**
+**C1 is approved and C2 is installed but inactive. Do not begin the synthetic
+live-boundary adapter in C3 without a separate Will ruling.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
@@ -157,7 +157,7 @@ authorize real records, install the live Git carve-out, or switch authority.
 The staged readiness and decision sequence is canonical in
 `KERNEL/GATE_C_READINESS_PLAN.md`.
 
-Drafts awaiting review:
+Approved C1–C2 records:
 
 - `KERNEL/GATE_C_C1_PILOT_CONTRACT_DRAFT.md`
 - `KERNEL/GATE_C_C2_GIT_CARVEOUT_DRAFT.md`
@@ -185,7 +185,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
 | Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
-| Gate C — live shadow activation | PLANNING AUTHORIZED / NOT ACTIVE | C1–C2 document drafting authorized; every installation, real-record selection, live implementation, and activation boundary remains separately gated |
+| Gate C — live shadow activation | C1 APPROVED / C2 INSTALLED / NOT ACTIVE | The bounded contract and inactive Git carve-out are installed; C3 implementation and all later boundaries remain separately gated |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record

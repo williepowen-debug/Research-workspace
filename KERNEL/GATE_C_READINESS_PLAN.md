@@ -43,6 +43,15 @@ that checkpoint.
 Checkpoint C7 is the first point at which processing a real record may be
 authorized. Completing C1–C6 does not activate shadow operation.
 
+## Checkpoint record
+
+| Checkpoint | State | Evidence |
+|---:|---|---|
+| C1 | APPROVED 2026-08-26 | `GATE_C_C1_PILOT_CONTRACT_DRAFT.md` |
+| C2 | APPROVED / INSTALLED / INACTIVE 2026-08-26 | Root `CLAUDE.md` carve-out ④, root `AGENTS.md` pointer, `tools/git_policy_check.py`, and six synthetic tests |
+| C3 | NOT AUTHORIZED | Await separate Will ruling |
+| C4–C8 | NOT AUTHORIZED | Separately gated as specified above |
+
 ## Required implementation properties
 
 1. Live input discovery is explicit and bounded. The operator-approved submission

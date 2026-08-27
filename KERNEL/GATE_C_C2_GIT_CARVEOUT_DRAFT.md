@@ -2,10 +2,10 @@
 
 **Date:** 2026-08-26
 
-**Status:** DRAFT WORDING FOR WILL'S REVIEW — NOT INSTALLED
+**Status:** APPROVED AND INSTALLED 2026-08-26 — INACTIVE UNTIL C7
 
-**Target if approved:** root `CLAUDE.md` § Git Protocol, as carve-out ④ plus
-the PROME scope note stated below.
+**Installed at:** root `CLAUDE.md` § Git Protocol, as carve-out ④ plus the PROME
+scope note stated below; short fleet pointer in root `AGENTS.md`.
 
 ## Design constraints
 
@@ -21,8 +21,8 @@ the PROME scope note stated below.
 
 ## Proposed root-canon wording
 
-The following text is proposed for insertion after carve-out ③ in root
-`CLAUDE.md` § Git Protocol. It is quoted here for review and has not been installed.
+The following approved text was installed after carve-out ③ in root `CLAUDE.md`
+§ Git Protocol.
 
 > **④ Gate C Kernel shadow paths (inactive until a separate Gate C activation
 > ruling):** after Will approves and activates a bounded Gate C pilot, a domain
@@ -62,7 +62,7 @@ The following text is proposed for insertion after carve-out ③ in root
 
 ## Proposed PROME scope-note amendment
 
-The existing `CLAUDE.md` scope note should add:
+The existing `CLAUDE.md` scope note now adds:
 
 > During an explicitly activated Gate C pilot, PROME also owns the approved
 > Kernel custody paths named in carve-out ④. This is mechanical shadow custody,
@@ -71,19 +71,18 @@ The existing `CLAUDE.md` scope note should add:
 > planning documents under its approved workstream but may not process real
 > records or write live results.
 
-## Installation procedure if C2 is approved
+## Installation record
 
-1. Confirm C1 is approved and the working tree is clean and synchronized.
-2. Insert the exact approved wording into root `CLAUDE.md`; do not silently edit
-   other carve-outs.
-3. Mirror only a short pointer in `AGENTS.md` and PROME boot surfaces if Will's
-   ruling requires it; root `CLAUDE.md` remains canonical.
-4. Add a targeted canon check that flags directory-wide Kernel staging recipes,
-   automatic commit/push instructions, and prose granting agents `KERNEL/` write
-   authority.
-5. Test the check using synthetic instruction fixtures.
-6. Commit the installed wording and test evidence separately from any live data.
-7. Present the installed commit for operator verification before C3 begins.
+1. C1 was approved and the tree was clean and synchronized before installation.
+2. The exact approved wording was inserted without changing carve-outs ①–③.
+3. Root `AGENTS.md` received only a short pointer; root `CLAUDE.md` remains
+   canonical.
+4. `KERNEL/tools/git_policy_check.py` checks explicit instruction perimeters for
+   directory-wide Kernel staging, automatic Kernel commit/push instructions, and
+   agent grants to shared `KERNEL/` paths.
+5. `KERNEL/tests/test_git_policy_check.py` covers safe explicit submission paths,
+   each prohibited class, and negated prohibitions.
+6. The installed instruction perimeter passes the new check.
 
 No installation step may create submission, event, receipt, registry, or view
 data for a real record.
@@ -97,5 +96,5 @@ data for a real record.
   additions-only protection.
 - Installation evidence states that live shadow remains inactive.
 
-C2 approval to install is not C3 implementation approval and is never C7
-activation approval.
+C2 installation is not C3 implementation approval and is never C7 activation
+approval.
