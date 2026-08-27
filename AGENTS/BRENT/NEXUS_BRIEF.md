@@ -1,6 +1,30 @@
 # BRENT — NEXUS Brief
 
-**As of:** 2026-08-21 Fri **~16:4x ET** *(session #4 FINAL CLOSEOUT — both grades taken, then a Will ruling and three position rulings landed)* · ⚑ **C6 ROUTE (b) — SCOPED-PARTIAL; boundary below.** · ⚑ **C6 ROUTE (b) — SCOPED-PARTIAL, boundary stated explicitly below.**
+**As of:** 2026-08-27 Thu **~09:0x ET** *(PROME-doorbelled spawn — Iran-Oman INTERIM Hormuz framework FINALISED 8/26, Brent gave back −8.5% in 3 sessions 94.39 [8/21] → 86.36 [8/26])* · ⚑ **C6 ROUTE (b) — SCOPED-PARTIAL BOUNDARY EXPLICITLY BELOW.** The top 8/27 STATE CHANGE section is content-re-verified against my STATUS block landed this session. Everything below that section is 8/21 vintage; re-verification against the 8/26 framework impact is scoped-out (deferred to next session).
+
+> ## 🔴 8/27 STATE CHANGE (this session, top-of-file)
+>
+> **REGIME VERDICT: PREMIUM UNWINDING ON DIPLOMACY, NOT ON SUPPLY RETURN. THE $100 POSTURE DISTANCE MORE THAN DOUBLED IN 6 SESSIONS (~$6.22 [8/21] → ~$13.75 [8/27 BZV26 basis]).**
+>
+> **Iran–Oman joint statement FINALISED 8/26 as INTERIM framework** — Araghchi/Albusaidi, carried by Oman News Agency. Temporary joint maritime corridor + mine-clearance project; technical talks continue on permanent corridor + strait administration + info exchange + traffic management. Iran DFM names a **30–60d window (~late Sep–late Oct)** for permanent route. Registered as CATALYSTS.tsv modeled midpoint 2026-10-10.
+>
+> **Three limits (from WALTER SIG-W-20260826-001, BRENT-re-verified at artifact):** ① OMAN track, not US track (Iran↔Oman converged while Iran↔US went backward — Trump admin support = wildcard, next state-change to watch); ② full-reopening condition references the DEAD MOU (expired 8/17); ③ 30–60d window IS a dated catalyst.
+>
+> **Slide decomposition (−8.5% 8/21→8/26):** ① DIPLOMATIC/NARRATIVE (Bessent 8/24 sanctions D-Day did not deliver + Iran-Oman FINALISED = load-bearing); ② CURVE FLATTENED (M1−M3 +$4.36 [8/24] → +$3.01 [8/27] = prompt scarcity easing alongside level); ③ NO CONFIRMED PHYSICAL SUPPLY EVENT (no fresh tanker attack 8/22-26; OPEC+ meeting 9/6); ④ NOT mechanical positioning (no fresh COT vintage; 8/18 was RAZOR-THIN NO-VERDICT).
+>
+> **JWC watch RAN CLEAN — JWLA-034 remains newest** (probed via `instrument_check.py --id KILL-LEG2-JWC-LISTING` + direct curl of IUA index). ★ **THIS AMENDS THE 8/21 CLOSEOUT FRAMING BELOW:** the JWC row did what it was built to do on its FIRST meaningful test (a diplomatic joint statement is a market-decision document, not an underwriter's verdict — the standing negative held, and the "corridor question... IS NOW CLOSED" phrasing below is COMPLETE ONLY IF one adds: "until a JWLA-035+ delists Gulf/Gulf of Oman"). Delisting remains PROMPT-ONLY per Will 8/21.
+>
+> **Tape 08:37 ET (named contracts):** BZV26 (Oct M1) $88.26 · BZX26 (Nov M2) $87.27 · BZZ26 (Dec M3) $85.25 · M1−M3 +$3.01 backwardated · OVX 46.83 (was 50.62 [8/21]) · VIX 14.94. **BZ=F rolled Oct→Nov somewhere in the 8/24-27 window; NAME THE CONTRACT.** Options open 9:30, TRADE.md refresh THIS SESSION.
+>
+> **Concentration flag (PROME doorbell verbatim):** *"one 'Mideast stays hot' bet, and this move IS that falsifier moving."* Falsifier MOVING, not FIRED; thesis mechanism unbroken. No trim proposed (8/21 SELL-ONE already the de-risk).
+>
+> **Owed:** TRADE.md mark refresh at 09:30 (may surface a mark-driven Will decision on the remaining 135C); Fri 8/28 dual grade (BRT-26 rigs + COT vintage #3 as-of 8/25 — DO NOT let stack).
+>
+> **⛔ BOUNDARY BELOW.** The 8/21 SCOPED-PARTIAL annotation stands for what was 8/21 as of that closeout; NOTHING BELOW has been re-verified against the 8/26 framework impact this session. Read the 8/21 material as 8/21 vintage. The specific claims most exposed to 8/26 revision: the "corridor question... IS NOW CLOSED" phrasing (amended above), the position marks (refresh pending), the CROSS-DOMAIN routing tables (senders/receivers unchanged but their trigger-language references pre-8/26 tape).
+>
+> ---
+
+⚑ **C6 ROUTE (b) — SCOPED-PARTIAL; boundary above.** (Prior stamp text preserved for the record.) · ⚑ **C6 ROUTE (b) — SCOPED-PARTIAL, boundary stated explicitly below.**
 
 > ✅✅ **BOTH 8/21 GRADES ARE TAKEN — rigs at ~13:00 and COT at ~15:30, each on its own print, neither stacked.**
 > ✅ **`BRT-26` GRADED — `452` US oil rigs, `−3` WoW, NOT BREACHED, distance to the frozen `457` line WIDENS `2 → 5`.** Window end-Q3 (Sep 30); no weekly print is a resolution date.
