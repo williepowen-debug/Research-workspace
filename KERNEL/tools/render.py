@@ -185,7 +185,25 @@ def render_views(
     }
 
 
-def write_views(views: dict[str, str], output_dir: Path, *, check: bool = False) -> list[Finding]:
+def write_views(
+    views: dict[str, str],
+    output_dir: Path,
+    *,
+    check: bool = False,
+    live_grant: object | None = None,
+) -> list[Finding]:
+    if live_grant is not None:
+        from live_grant import require_live_grant
+
+        grant = require_live_grant(live_grant)
+        # Durable view writes under a live grant require the operator window to
+        # have been checked at mint (adversarial review 2026-08-27, finding 1
+        # residual: the views path must not be read-only by call path alone).
+        # check=True is the read/compare mode and stays permitted.
+        if not check and not grant.window_enforced:
+            raise ValueError(
+                "live grant was minted without window enforcement; durable view writes refuse it"
+            )
     findings: list[Finding] = []
     if set(views) != set(VIEW_NAMES):
         return [Finding("VIEW_SET_INVALID", "renderer must produce exactly the registered view set")]

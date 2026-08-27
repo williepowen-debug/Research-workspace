@@ -568,7 +568,7 @@ def render_live_views(
 ) -> tuple[dict[str, str], list[Finding]]:
     accepted, receipts, unprocessed = _store_context(store, commands)
     views = render_views(accepted, render_as_of=render_as_of, context_inputs=receipts + unprocessed)
-    findings = write_views(views, grant.views_root, check=check)
+    findings = write_views(views, grant.views_root, check=check, live_grant=grant)
     return views, findings
 
 

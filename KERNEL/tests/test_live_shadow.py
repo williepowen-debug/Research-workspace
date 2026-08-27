@@ -327,6 +327,37 @@ class LiveWindowEnforcementTests(unittest.TestCase):
         self.assertEqual(self.live.event_files(), [])
         self.assertEqual(self.live.receipt_files(), [])
 
+    def test_unenforced_grant_refuses_durable_view_writes(self):
+        from live_shadow import render_live_views
+        from render import write_views
+
+        grant, _activation, findings = authorize_live_activation(
+            self.live.activation(window=self.CLOSED_WINDOW),
+            live_repository_root=self.live.path,
+            now=INJECTED_NOW,
+            require_window=False,
+        )
+        self.assertEqual(findings, [])
+        assert grant is not None
+        store = FixtureResultStore(grant.kernel_root, live_grant=grant)
+        with self.assertRaisesRegex(ValueError, "without window enforcement"):
+            render_live_views(store, grant, [], render_as_of=INJECTED_NOW, check=False)
+        with self.assertRaisesRegex(ValueError, "without window enforcement"):
+            write_views(
+                {"CALIBRATION.tsv": "", "EXCEPTIONS.md": "", "OPEN_QUESTIONS.md": "", "RESOLUTION_QUEUE.md": ""},
+                grant.views_root,
+                check=False,
+                live_grant=grant,
+            )
+        self.assertEqual(self.live.view_files(), [])
+        # check=True is the read/compare mode and must stay reachable for the
+        # read-only CLI path: it may report findings but must not refuse.
+        _views, check_findings = render_live_views(
+            store, grant, [], render_as_of=INJECTED_NOW, check=True
+        )
+        self.assertTrue(all(f.code in {"VIEW_MISSING", "VIEW_DRIFT"} for f in check_findings))
+        self.assertEqual(self.live.view_files(), [])
+
     def test_writer_id_must_equal_custody_primary_refuses(self):
         document = self.live.activation(writer_id="RED")
         path = self.live.write_activation(document, self)
