@@ -138,7 +138,7 @@
 | **Fri 8/28** | **T6 last gradeable data** (Option C, Will-ruled 8/21) — ⚠️ **`DGS30` publishes T+1, so this observation is not visible until ~Mon 8/31** |
 | **Sat 8/29** | **T6 HARD CLOSE** — 30Y benign-bucket test (BOND's instrument, LIQUID co-owner). Non-session; close STANDS per Option C. Trigger (ORACLE Fed Sept-hike <25%) still **UNMEASURED** |
 | **Wed 9/9** | ★ **Treasury long-end buyback step-up EFFECTIVE** — $2B → **≥$4B per operation** (10-20y + 20-30y nominal), release `sb0607`. **UN-PRICED, not pre-priced** — the announcement premium round-tripped on a program that has bought nothing. ⚠️ Classification CONTESTED (Treasury "liquidity support" vs El-Erian YCC — opposite trade implications); **BOND adjudicates, adopt neither premise** |
-| **~Tue 9/16** | **July TIC** — the arbiter for continued China duration selling (ZHAO). Read under the new **Rule Zero**: levels are not flows |
+| **~Wed 9/16** | **July TIC** — the arbiter for continued China duration selling (ZHAO). Read under the new **Rule Zero**: levels are not flows |
 | **Wed 11/4** | Treasury long-end buyback step-up **ENDS** |
 | **YE2026** | **NAIC CLO RBC bite** (insurer capital-arb engine repricing clock; forced reallocation = TECHNICAL widening, not credit recognition — KB-062 discipline) · **Warsh balance-sheet review** outcome (post-QT framework: RMP pace / SRF / RRP / SOMA — Leg A buffers) |
 
