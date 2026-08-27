@@ -72,7 +72,6 @@
 - feedback_agent_git_isolation — When pushing changes for one agent, never stash/commit other agents' files — scope strictly to the agent's directory
 - feedback_check_staged_before_commit — Always run git diff --cached before committing to catch pre-staged files from other agents/sessions
 - feedback_git_mv_for_inbox_processing — "When moving inbox files to processed/ subfolder, use `git mv` not bash `mv` — bash mv leaves the deletion unstaged and creates a two-commit hygiene problem."
-- finding_pathspec_commit_race_safety — pathspec commits on a shared .git/index; never `git reset HEAD`
 - feedback_defer_push_coordinate — Push is automated at closeout via ff-gated safe-push.sh (serial multi-machine) — pathspec commit, let safe-push sweep the train; non-ff abort = routine rebase, escalate only on simultaneous-use signatures
 - finding_push_train_pattern — one push ships every agent's unpushed commits; automated at closeout
 - feedback_shared_log_row_author_commits — "Will ratified (2026-07-24, to LABOR) that the agent who authors a row in the shared AGENTS/SIGNALS.md commits that row itself rather than flagging it to PROME — uncommitted shared-file edits orphan by design."

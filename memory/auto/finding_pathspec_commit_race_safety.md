@@ -1,5 +1,5 @@
 ---
-name: pathspec-commit-race-safety
+name: finding_pathspec_commit_race_safety
 description: "Use `git commit <pathspec>` for modified files and atomic `git add <files> && git commit <SAME files>` for new files; never `git reset HEAD`. Required when multiple agents share a `.git/index`. A pathspec-less `git commit -m` commits the WHOLE shared index no matter how carefully you scoped the `git add` — the add does not bound the commit. Peers' staged work is EXPECTED, not an anomaly."
 symptoms: "my commit contains another agent's files; git show lists deletions I never made; git add was scoped but the commit still swept; delete mode <someone else's path> in my commit output; commit -m without a path list"
 metadata: 
