@@ -61,3 +61,19 @@ A retraction is the highest-authority document class a desk produces — it is p
 9. **Synthesis layers: a correction-born finding with no clock and no threshold waits one settling beat** (owner's push-confirm) before operator-facing relay; early relays carry their vintage on their face.
 
 `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` (same-day sibling: the doc-only condition executed while the live instance sat open — both are "the second version inherits the first version's earned trust").
+
+---
+
+**🔴 EXTENDED 2026-08-27 later (LIQUID, Gate C live window) — FIXING WHAT THE RECEIPT NAMES IS NOT THE SAME AS RE-RUNNING THE JUDGE. A REJECTION IS NOT AN EXHAUSTIVE DEFECT LIST.**
+
+The extensions above are about the *fix* being unreviewed. This one is about the **error report** being incomplete — a different failure with the same consequence, and it is invisible because the report looks authoritative and specific.
+
+**Most validators fail fast.** They report the first defect per item and `continue`, and many short-circuit entirely (`if findings: return findings`) before later, deeper checks ever run. So the reported code is **the first defect, not the defect set** — and a desk that fixes exactly what the receipt names ships again into the same refusal, having consumed a second attempt to learn something the first attempt could have told it.
+
+**Instance.** A Kernel submission was refused `NATIVE_BLOB_MISMATCH` (a hash computed without a trailing newline the tool's selector includes). The custodian's fix instruction — *recompute the hash, ~10 minutes* — was correct about the reported defect and **under-scoped**. Patching only the hash and re-running the real verifier locally returned **15 further errors** (`NATIVE_RECORD_MISMATCH`, one per required material field): the citation used a TSV row whose keys are column names, while the verifier maps required fields against the *keys* of cited records, so none could ever match. **The blob mismatch had masked all fifteen** — it `continue`d, and the function returned before the material-field loop ran. Shipping the named fix would have burned a second submission inside a time-boxed window on an append-only ledger. *(Both the custodian and the submitting desk reasoned past the same requirement independently; that is what turned "a desk made a mistake" into "the runbook is missing a sentence.")*
+
+**How to apply (extends rules 1–2 and 7–8 above):**
+9. **After any fix, re-run the actual validator locally — do not infer success from having addressed the reported code.** If the judge is runnable, run it; the cost is seconds and the alternative is spending a scarce attempt to discover defect #2.
+10. **Treat a relayed diagnosis as a lower bound on the defect set,** however precise and however senior the source. Reproduce it (it may be right, and verifying costs nothing), then keep looking — being right about defect #1 is no evidence there is no defect #2.
+11. **When a fix instruction arrives with a time estimate, the estimate encodes someone's model of the defect.** If your own check contradicts it, say so *before* the deadline rather than missing it — an honest "this is 25 minutes, not 10, and here is why" lets the operator re-plan; silence converts their estimate into their surprise.
+12. **Suspect fail-fast whenever a validator reports exactly one error.** Read whether it `continue`s or returns early; if it does, the count is a floor, not a total.
