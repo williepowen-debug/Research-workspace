@@ -12,6 +12,7 @@ from pathlib import Path, PurePosixPath
 from typing import Any
 
 from acceptance import AcceptanceRun, FixtureAcceptanceRunner, format_acceptance_run
+from custody import load_custody, run_with_custody
 from native import FULL_SHA, SubprocessGitBoundary
 from permissions import PermissionRegistry
 from writer import FixtureResultStore
@@ -106,10 +107,13 @@ def run_synthetic(
     actors: Path,
     capabilities: Path,
     event_ids: Path,
+    custody_policy: Path,
     recorded_at: str,
     dry_run: bool,
 ) -> tuple[AcceptanceRun, Path]:
     registry = PermissionRegistry.from_files(actors, capabilities)
+    custody_document = json.loads(custody_policy.read_text(encoding="utf-8"))
+    custody = load_custody(custody_document)
     mapping = json.loads(event_ids.read_text(encoding="utf-8"))
     if not isinstance(mapping, dict):
         raise GateCBoundaryError("event ID map must be an object")
@@ -128,9 +132,15 @@ def run_synthetic(
             event_id_for=lambda command: mapping[command["command_id"]],
             recorded_at_for=lambda _command: recorded_at,
         )
-        run = runner.run(
-            [item.command for item in submissions],
-            {item.command["command_id"]: item.path for item in submissions},
+        commands = [item.command for item in submissions]
+        paths = {item.command["command_id"]: item.path for item in submissions}
+        run = run_with_custody(
+            runner,
+            custody,
+            writer_id="PROME",
+            recorded_at=recorded_at,
+            submissions=commands,
+            submission_paths=paths,
         )
         return run, result_root
     finally:
@@ -147,6 +157,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--actors", type=Path, required=True)
     parser.add_argument("--capabilities", type=Path, required=True)
     parser.add_argument("--event-ids", type=Path, required=True)
+    parser.add_argument("--custody-policy", type=Path, required=True)
     parser.add_argument("--recorded-at", required=True)
     mode = parser.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true")
@@ -161,6 +172,7 @@ def main(argv: list[str] | None = None) -> int:
             actors=args.actors,
             capabilities=args.capabilities,
             event_ids=args.event_ids,
+            custody_policy=args.custody_policy,
             recorded_at=args.recorded_at,
             dry_run=args.dry_run,
         )

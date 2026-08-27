@@ -124,6 +124,7 @@ class GateCBoundaryTests(unittest.TestCase):
             actors=ROOT / "tests/fixtures/permissions/actors.json",
             capabilities=ROOT / "tests/fixtures/permissions/capability-grants.json",
             event_ids=event_ids,
+            custody_policy=ROOT / "policies/custody-policy.json",
             recorded_at=RECORDED_AT,
             dry_run=True,
         )
@@ -141,6 +142,7 @@ class GateCBoundaryTests(unittest.TestCase):
             actors=ROOT / "tests/fixtures/permissions/actors.json",
             capabilities=ROOT / "tests/fixtures/permissions/capability-grants.json",
             event_ids=event_ids,
+            custody_policy=ROOT / "policies/custody-policy.json",
             recorded_at=RECORDED_AT,
             dry_run=False,
         )
