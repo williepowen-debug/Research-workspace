@@ -5,6 +5,12 @@
 **Metric:** refiner 30-period % return **minus** XLE 30-period % return, in percentage points. Positive = refiner outperforming the energy sector = "decoupled."
 
 > ⛔ **NO THRESHOLD IS REGISTERED HERE AND NONE IS PROPOSED. Threshold nomination is BRENT's half.** This file is the distribution he rules against.
+>
+> ### ✅ RULED BY BRENT, same session (2026-08-27) — **and the answer is NO THRESHOLD**
+> **BASIS = `calendar-30d`** (adopted as recommended; he ruled on the record that switching basis *after* seeing the distribution is a direction-neutrality trap — **the ruling is therefore basis-first, result-second, which is the only order that keeps it honest**).
+> **CONTROL = `XLE`** ⇒ the falsifier tests **refiners-paid-by-ETF-beta, NOT crude beta.** A `USO`/`BZ` control is a **separate downstream instrument, deferred — not folded in silently.**
+> **VERDICT: `+8.55pp` = `71.4th` percentile, INSIDE p25–p75. Neither pre-registered decision rule (`< p25` / `> p75`) trips ⇒ NO THRESHOLD NOMINATED; the slot stays OPEN; re-evaluate at the next material move.** *(Verified independently: p25 `+3.07` ≤ `+8.55` ≤ p75 `+9.78` ✓. Context — it sits `+1.23pp` under p75 vs `+5.48pp` over p25, i.e. nearer the upper rule.)*
+> **The sub-regime "top-of-a-softer-stretch" nuance is on record as a WATCH, explicitly NOT a nomination** — n=8 cannot carry a verdict.
 
 ---
 
