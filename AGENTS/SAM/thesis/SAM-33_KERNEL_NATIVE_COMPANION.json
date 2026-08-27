@@ -1,0 +1,60 @@
+{
+  "companion_version": 1,
+  "native_record": {
+    "path": "AGENTS/SAM/thesis/PREDICTIONS.tsv",
+    "locator_type": "TSV_RECORD_ID",
+    "locator": "Pred_ID=SAM-33",
+    "approved_source_commit": "7395352da0ff1e8b68b92dd3281b98b4427da0c5",
+    "approved_row_sha256": "3c306e845447193698076d12e45325bb118b12d7d7fab2b972589f08705a0fbe"
+  },
+  "question": {
+    "question_id": "Q-019305f8-ec00-7000-8000-000000000033",
+    "owner_actor_id": "SAM",
+    "claim": "Through 2026-12-31, the Bank of Japan does not deploy a qualifying emergency or unscheduled operation to cap a gradual rise in 30-year or 40-year Japanese government bond yields.",
+    "forecast_family": "BINARY_PROBABILITY",
+    "opens_at": "2026-06-30T00:00:00.000000Z",
+    "closes_at": "2027-01-01T00:00:00.000000Z",
+    "resolver_anchor_type": "FIXED_DEADLINE",
+    "resolution_condition": "The question resolves YES if no qualifying operation occurs from opens_at inclusive through closes_at exclusive. It resolves NO if, during that interval, the BOJ announces or conducts either (a) an unscheduled fixed-rate JGB purchase operation or (b) an increase, outside the then-published purchase schedule, in scheduled JGB purchases, and the BOJ's own announcement or contemporaneous official explanation explicitly says the action is intended to cap, restrain, stabilize, or respond to a gradual rise in 30-year or 40-year JGB yields.",
+    "resolution_rule": "A qualifying action resolves NO only when both the operation test and the explicit-purpose test in resolution_condition are met. A scheduled taper-plan or purchase-plan adjustment does not qualify. A response to a disorderly episode does not qualify. For this question, an episode is disorderly if either the 30-year or 40-year JGB yield rises by at least 20 basis points from the prior session close during one Tokyo trading session, or a primary 30-year or 40-year JGB auction has bid-to-cover below 2.0. An episode below both registered bars is treated as gradual. If official language does not make the purpose explicit, the event does not resolve NO. The material-stress precondition is already satisfied by the SAM-33 activation stamp and is not re-tested at resolution.",
+    "resolution_sources": [
+      "https://www.boj.or.jp/en/mopo/mpmdeci/index.htm",
+      "https://www.boj.or.jp/en/mopo/outline/index.htm",
+      "https://www.boj.or.jp/en/statistics/boj/other/acmai/index.htm"
+    ],
+    "fallback_resolution_source": "Contemporaneous BOJ releases preserved in the BOJ site archive or National Diet Library Web Archiving Project, cross-checked against Reuters or Bloomberg reporting that reproduces the operation date, terms, and stated purpose.",
+    "ambiguity_rule": "Do not infer a capping purpose from market timing, yield direction, operation size, or third-party characterization. If the BOJ action is confirmed but its official purpose remains unstated or ambiguous after the fallback search, it is non-qualifying and the question remains open until the deadline; at the deadline it resolves YES if no other qualifying action occurred. If the 20-basis-point session calculation is disputed, use official MOF end-of-day 30-year and 40-year benchmark yields where available and do not combine them with a vendor intraday basis.",
+    "annulment_rules": [
+      "Annul only if the BOJ permanently ceases to exist or permanently loses authority over JGB purchase operations before closes_at and no legal successor assumes that authority.",
+      "Annul only if all primary and fallback records needed to determine whether an identified candidate operation occurred and why are permanently unavailable, after the registered negative-search procedure, such that YES versus NO cannot be determined without inference.",
+      "Do not annul because no further material yield stress occurs; SAM-33's native activation stamp states that its original VOID/UNTESTED condition was lifted on 2026-08-17."
+    ],
+    "resolver_actor_id": "SAM",
+    "independent_verifier_actor_id": "RED",
+    "negative_search_procedure": "After closes_at, inspect every BOJ monetary-policy decision, market-operation notice, fixed-rate purchase-operation notice, outright-purchase result, and purchase-schedule revision published from 2026-06-30 through 2026-12-31. Search the BOJ English and Japanese sites for the date-bounded equivalents of 'fixed-rate purchase operation', 'outright purchases of JGBs', 'increase in JGB purchases', 'long-term interest rates', '30-year', '40-year', 'rapid rise', and 'nimble responses'. Reconcile every candidate against the schedule in force immediately before it. If a BOJ page is missing, repeat through the BOJ archive and National Diet Library WARP; then cross-check Reuters and Bloomberg. Record searched URLs, query terms, access timestamps, candidate dispositions, and clean-negative results before proposing YES."
+  },
+  "forecast": {
+    "forecast_id": "F-019305f8-ec00-7000-8000-000000000033",
+    "question_id": "Q-019305f8-ec00-7000-8000-000000000033",
+    "forecaster_actor_id": "SAM",
+    "forecast_version": 1,
+    "information_as_of": "2026-06-30T00:00:00.000000Z",
+    "probability": 0.72,
+    "rationale_ref": "AGENTS/SAM/thesis/PREDICTIONS.tsv#Pred_ID=SAM-33",
+    "evidence_refs": [
+      "AGENTS/SAM/research/outputs/JGB_SUPPLY_DEMAND_THESIS.md#leg-1-boj-reaction-function--let-the-grind-run-cap-the-disorder",
+      "AGENTS/SAM/red/CHALLENGES.md#ch-011",
+      "AGENTS/SAM/thesis/PREDICTIONS.tsv#Pred_ID=SAM-33"
+    ],
+    "intervention_stage": "POST_CHALLENGE",
+    "decision_consequence": "Signal-only test of the BOJ-backstop leg of SAM's JGB demand-vacuum thesis and RED CH-011. It does not itself authorize a trade, change SAM's forecast probability, or reactivate the retired carry-convexity thesis."
+  },
+  "mechanical_interpretations": {
+    "opens_at": "The native ledger supplies only the opening date 2026-06-30; 00:00:00Z is the mechanical start-of-date normalization, not a claimed publication time.",
+    "closes_at": "The native horizon says through 2026-12-31; 2027-01-01T00:00:00Z is the exclusive UTC boundary that includes the full stated date.",
+    "information_as_of": "The native ledger supplies only the forecast date 2026-06-30; 00:00:00Z is the conservative start-of-date cutoff, preventing later information from being attributed to the original 72% forecast.",
+    "disorderly_threshold": "The 20-basis-point lower edge and bid-to-cover below 2.0 are taken from SAM's existing JGB thesis and RED challenge canon. Choosing the lower edge of SAM's registered 20-40bp/session range classifies borderline episodes as disorderly and therefore avoids over-counting falsifiers.",
+    "intervention_stage": "POST_CHALLENGE is mechanical because the native notes explicitly state that SAM-33 tests RED CH-011.",
+    "actor_assignments": "SAM owns and resolves its native forecast; RED independently verifies the RED CH-011 test. These assignments do not grant either actor Kernel custody or writer authority."
+  }
+}
