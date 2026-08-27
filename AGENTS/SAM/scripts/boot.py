@@ -59,6 +59,7 @@ BOOT_SEQUENCE = [
     ("CFTC JPY Positioning",       "cftc_jpy.py",          [], "CFTC",         False),
     ("Rate Differential (SAM-41)", "rate_differential.py", [], "SAM-41",       False),
     ("MOF Weekly Flows",           "mof_flows.py",         [], "MOF FLOWS",    False),
+    ("JPY xccy basis PROXY",       "xccy_basis.py",        [], "XCCY BASIS",   False),
     ("GPIF Portfolio / Flows",     "gpif_flows.py",        [], "GPIF",         False),
     ("Japan Trade Balance",        "trade_balance_japan.py", ["--boot"], "TRADE BALANCE", False),
     ("Japan CPI",                  "cpi_japan.py",         [], "CPI",          False),
