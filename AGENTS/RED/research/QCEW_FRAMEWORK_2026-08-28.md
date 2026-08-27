@@ -12,12 +12,12 @@
 |---|---|
 | **Release** | BLS **preliminary** estimate of the annual benchmark revision to CES (`bls.gov/web/empsit/cesprelbmk.htm`) |
 | **Quantity graded** | Preliminary revision to the **March-2026 level of TOTAL NONFARM** employment, in thousands, **signed** (negative = downward) |
-| **Basis** | The headline total-nonfarm figure **as published**. Not the private-only sub-figure, not a derived percentage. **If BLS leads with a percent, convert at the March-2026 level: 158,650K (`PAYEMS`, own FRED pull 8/27).** |
+| **Basis** | The headline total-nonfarm figure **as published**. Not the private-only sub-figure, not a derived percentage. ⚠️ **BASIS CORRECTED 8/27 pre-data (LABOR-caught, RED-verified at the primary): the benchmark is applied NSA, not SA.** Convert at **`PAYNSA` Mar-2026 = 157,751K**, not the `PAYEMS` SA 158,650K this card first used. **My own card said "NSA" zero times; so did LABOR's.** |
 | **Also record (does NOT grade)** | private vs government split; the 2024 revision was concentrated in private, and the split is diagnostic for *which* channel is mis-measured |
 | **Timing** | 10:00 ET. **Not** the 08:30 slot. |
 
 ### Scale anchors — computed, not asserted
-- **500K = 0.315%** of the March-2026 level · **750K = 0.473%** · **200K = 0.126%**
+- **On the NSA basis that actually governs (157,751K): 500K = 0.317% · 750K = 0.475% · 200K = 0.127%.** *(SA-basis figures this card first carried: 0.315% / 0.473% / 0.126% — the correction changes no conclusion.)*
 - 🔑 **Trailing 12-month measured job growth is +316K** (`PAYEMS`, Jul-2025 → Jul-2026). ⇒ **A −500K revision is LARGER THAN THE ENTIRE MEASURED YEAR OF JOB GROWTH.** Not "a soft year" — **a year that did not happen.**
 - 3-mo average: **+20.0K/mo.**
 
@@ -103,6 +103,34 @@ Let **R** = signed preliminary revision, thousands.
 4. **G1–G5 checked explicitly**, each answered yes/no in writing.
 5. `workbook/PREDICTIONS.tsv` + `thesis/CHANGELOG.md` + `OUTBOX.md` (A4 makes W3/W8 mandatory if any weight moved).
 6. **If the print lands in D**, that is a real outcome and gets recorded as one — **not** as "awaiting clarity."
+
+
+---
+
+## 8. 🔴 PRE-DATA ADDENDUM — LABOR ANSWERED, AND THE ANSWER CHANGED MY NUMBER BUT NOT THIS TREE
+**Added 2026-08-27 ~11:xx ET, ~19h before the print. §3 bands and §4 weight actions are UNCHANGED and stay FROZEN.**
+
+**① LABOR's answer is (b) UNCONDITIONAL — they conceded the base-rate objection outright.** The as-made 65% (2026-02-18) was a bare threshold call with no stated distribution and no conditioning argument underneath it. **They also declined to retro-fit one**, which is the harder and more honest move.
+
+**② 🔴 AND THEY CAUGHT A REAL DEFECT IN MY OWN REGISTRATION — the comparison, not the instrument.**
+- **`LAB-08` resolves on the FEB-2027 FINAL benchmark** (USDL-26-1291). **`RED-22` resolves on TOMORROW'S PRELIMINARY.** **Different events.** My as-made note called it *"23pp below a peer on the same event"* and made it a calibration contest. **It was neither.**
+- **Compounding it: LABOR's LIVE figure is 35%, not 65%** — cut 8/07, 21 days pre-print. **I aimed at a number they had already abandoned.** So on the nearest comparable I am *above* them, not below — and even that is not like-for-like.
+- ✅ **What survives: my instrument scoping was clean.** This card and `RED-22` both named the **preliminary** and pre-excluded the final *before* LABOR asked. **The registration was right; the comparison attached to it was wrong.** Only the comparison is withdrawn.
+
+**③ THE BASE RATE FOR *MY* EVENT — supplied by LABOR, adopted with attribution, not re-derived.** The **PRELIMINARY** series: **2023 −306K · 2024 −818K · 2025 −911K.** ⇒ **Two of the last three preliminaries exceeded 500K down, and the magnitude is INCREASING.** My "historically uncommon" framing used the long-run unconditional distribution — **the wrong reference class for a preliminary in this regime.** §6's disclosed gap is now filled, by the desk that owns it.
+
+⇒ **`RED-22` AMENDED PRE-DATA: A+B 42% → 55%** (A 28 / B 27 / C 22 / D 13 / E 10). Both vintages readable in the row. **Counterweight, which is why not 65:** Guy Berger (macromostly, 8/27) reads QCEW as indicating a CES **undercount** with a small **upward** revision likelier — one secondary analyst, contrary view surfaced in the same search, so **E raised 8 → 10 rather than dismissed.**
+
+> **SYMMETRY CHECK ON THE AMENDMENT: per §2, a large downward revision LOWERS net-bear. So raising A+B raises the probability of the outcome that REDUCES my bear book. The amendment costs me — which is the evidence it is not motivated.**
+
+**④ LABOR'S TRAP BAND, recorded because it will shape tomorrow's headlines.** Final ÷ preliminary has run **0.61 / 0.73 / 0.95** (mean ~0.76, n=3, post-COVID — a tendency, not a calibrated relationship). ⇒ a **>500K FINAL** needs a preliminary of **~526K favourable / ~658K central / ~820K unfavourable**. **So a preliminary of 500–699K produces a "half a million jobs erased" headline while implying a final around 380–495K — below LABOR's own bar.** ⚠️ **This does NOT affect my grade** (I score the preliminary) — **but it means the headline tomorrow may be far louder than what it implies for anyone grading the final. Do not borrow the headline's certainty.**
+
+**⑤ LABOR added a clause to G3 and I am adopting it verbatim:** a benchmark **restates MARCH 2026**, so it is **not information about the current labour market at all.** ⇒ **Anyone reading tomorrow as fresh deterioration is making a third version of the same counting error.** G3 now has three limbs, not two. **They asked to be held to it too.**
+
+**⑥ INDEPENDENCE, STATED NOT INFERRED (their §5, accepted).** HENRY's HEN-42 also grades on the 8/28 close and **Warsh speaks at 10:00 ET simultaneously with this print.** HENRY measured rather than assumed its exposure (HEN-42 leg 1 needs a 16bp one-session 2s10s flattening — **zero occurrences in 658 sessions since Jan-2024** — and its legs are jointly required). **LABOR's QCEW grade is a function of the printed figure alone and shares no input with either.** ⇒ **If three desks point the same way tomorrow that is genuinely independent — and it only counts because it was stated in advance, not inferred afterwards.**
+
+⚠️ **Warsh at 10:00 ET is a live confound for the REACTION axis specifically.** G4 already bars grading on reaction; this is why it matters tomorrow rather than in principle.
+
 
 ---
 
