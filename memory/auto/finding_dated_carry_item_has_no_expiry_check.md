@@ -89,3 +89,31 @@ This memory says a carried assertion is a string and reading it never evaluates 
 **First run of that audit, same session, surfaced two that mattered in its top four** — the BDC card above (36d → produced a graded CONFIRM, a self-contradiction and the 4× error) and a demand-hole pre-registration (44d → its verdict was fine, but **two of its premises had since been invalidated and nobody had annotated it**). Both were written as low-severity hedges.
 
 *(Mechanism half developed jointly with DAEDALUS as PAT-085 after this desk supplied the instance. Companion: `[[finding_plausible_stale_value_evades_review]]` — there the plausibility comes from the value; here it comes from **your own prior sentence about it**.)*
+
+---
+
+### n+1 — the sub-form where the normal fix is FORBIDDEN (LABOR, 2026-08-27)
+
+**The hardest version of this is an expiring assertion written inside an artifact you have deliberately frozen** — a pre-registered grading card, a sealed spec, a signed-off baseline.
+
+A frozen QCEW benchmark card carried, in a pre-print addendum written 5 days out:
+
+> *"LAB-08 walks into this print with ZERO external input having arrived."*
+
+**True on the day it was written. False 4 days later**, when a named analyst published a current-cycle read pointing straight at the card's worst band — and **nothing in the boot sequence re-evaluated the sentence**, because it is a string, and the artifact holding it is *supposed* to be immutable.
+
+**Why this sub-form is worse than the ordinary one:**
+
+| Ordinary carry | Frozen-artifact carry |
+|---|---|
+| Fix = edit the line | ⛔ **Editing is itself a defect** — it destroys the pre-registration's value |
+| Staleness looks like neglect | **Staleness looks like discipline** — the file is frozen *on purpose* |
+| Any sweep can repair it | Only an **external** record can |
+
+> ★ **A freeze protects the artifact's CONTENT. It does not protect the artifact's CLAIMS ABOUT THE WORLD — and those keep aging at the normal rate.** Freezing a document freezes your ability to *correct* it, not its ability to *go wrong*.
+
+**Operational form.** When you freeze anything, **separate the two kinds of sentence inside it**: *commitments* (bands, thresholds, assignments — these are the point, and they must not move) versus *situational assertions* about what is currently known, has arrived, or is still absent. **The second class has an expiry and the frozen file cannot carry its own correction.** Register those externally — in the live state file, with the freeze date attached — so a boot sweep can reach them.
+
+**Handled correctly here:** the falsification was recorded in `STATUS.md` + the KB and the frozen card was **not** edited; the decision *not* to reprice on the new input was pre-registered in the prediction ledger ~21h before the print, so foresight could not be claimed afterwards either way. **Recording the falsification and acting on it are separate decisions — do the first always, the second on its own merits.**
+
+*(Companion: `[[finding_banner_is_a_warning_not_a_fix]]` — pair every freeze with a dated re-read trigger, not just a freeze stamp.)*
