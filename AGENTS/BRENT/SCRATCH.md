@@ -58,7 +58,7 @@
 
 ## POSITION DECISIONS PENDING
 
-- **💵 8/21 WILL RULED SELL ONE USO Oct-16 135C ×2 — status per SCRATCH last: NOTHING FILLED, NO ORDER STAGED. Post-mark-refresh may re-open the second SELL question if the leg has moved materially.** ⚠️ **The −8.5% Brent leg means USO down ~5.3% from 8/21 peak. On the ATM 135C bet, that's material.**
+- ✅✅ **8/27 ~11:12 ET WILL RULED VIA PROME RELAY: 8/21 SELL-ONE SUPERSEDED BY DELIBERATE HOLD ON `USO Oct-16 135C ×2`.** Verbatim: *"I want to wait. I do think this ride isn't over yet."* Fill status = CONFIRMED UNFILLED. **This is thesis-conviction HOLD with concentration flag standing, NOT a lapsed order and NOT a re-open of the roll question.** The leg NO LONGER carries fill-status as an open item. **Mark tracking continues** — packet PROME on material moves ≥±$1.50/contract from 8/26 last-trade $5.70 either direction. **Congruent with my (b) equilibrium analysis this session: Will's HOLD implicitly bets on my ~55% retracement branch, not the ~30% new-equilibrium branch or the ~15% continuation-lower branch.**
 - ✅ **HOLD the second 135C, no roll (Will 8/21).** Rationale: every live catalyst fires BEFORE Oct-16. Roll bought 63 days with ZERO live catalysts.
 - ✅ **35 USO shares HOLD (Will 8/18).** Basis $121.88 vs USO $127.35 [8/26 close] = +4.5% (giveback from +11.3% peak 8/21). No live stop. Row-58 construction: profit-keyed = primary rail (would have ratcheted); thesis-break = backstop (correctly silent).
 - ⚠️ **XLE Sep-30 $65C ×2 — 34 DTE, moneyness now depends on 09:30 mark.** Disposition LAPSE unchanged.
