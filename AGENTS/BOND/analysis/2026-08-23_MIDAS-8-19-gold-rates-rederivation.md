@@ -128,6 +128,32 @@ This is the construction MIDAS's own §3.1 caveat asks for and does not build. I
 
 **⇒ 90–93% of the currency-stripped move is unexplained by real yields, on EVERY window and BOTH instruments.**
 
+### 3.3-bis ★ THE UNIVARIATE TABLE — COMPUTED 2026-08-27, closing the provenance question PROME and MIDAS both raised
+
+⚠️ **This table did not exist until 2026-08-27, and its absence is the whole point of the ask.** `87–93%` was the one number in this episode a reader could not trace to a printed construction. **Here is the six-cell run, same shape as §3.3.**
+
+**Spec, stated so it is reproducible and comparable:** gold **log** return in %, regressed on **Δ`DFII10` in bp**, **intercept included**, univariate (no DXY). Event `2026-08-19`, Δ`DFII10` = **−6bp**.
+
+| Series | window | n | b_rates | R² | rates explain | **unexplained** |
+|---|---|---:|---:|---:|---:|---:|
+| GC=F | 2024-01+ | 660 | −0.0509 | 0.0224 | +0.3052pp | **89.0%** |
+| GC=F | 5y | 1,244 | −0.0573 | 0.0737 | +0.3441pp | **87.7%** |
+| GC=F | full | 5,895 | −0.0453 | 0.0408 | +0.2715pp | **90.3%** |
+| GLD | 2024-01+ | 659 | −0.0628 | 0.0344 | +0.3766pp | **90.0%** |
+| GLD | 5y | 1,243 | −0.0653 | 0.0972 | +0.3921pp | **89.6%** |
+| GLD | full | 5,435 | −0.0560 | 0.0622 | +0.3363pp | **91.1%** |
+
+> ### 🔴 **THE COMPUTED UNIVARIATE BAND IS 87.7–91.1% — i.e. ~88–91%. NEITHER PUBLISHED VERSION WAS RIGHT.**
+> - **`87–93%` (published 8/23, Will-ruled onto HEARTBEAT §8):** the **top is unsupported** — no univariate cell reaches 93; the maximum is **91.1**.
+> - **`85–92%` (my correction of 8/27 morning):** the **bottom is unsupported** — the minimum is **87.7**, not 85.
+> - **Computed: 87.7–91.1%.** Narrower than both, and sitting inside both.
+
+🔴 **AND THE CORRECTION I MADE THIS MORNING WAS ITSELF DERIVED, NOT COMPUTED — n+1, committed while fixing this exact class.** I produced `85–92%` by **complementing §3.4(a)'s "univariate 8–15%"**, a rounded summary figure, instead of running the regression. **§3.4(a)'s own range is loose: the computed explained share is 8.9–12.3%, not 8–15%.** So the chain was: real table → §3.4(a) rounds it wide → §6 fuses it with the currency-stripped construction → `87–93%` ships → **I "fixed" it by complementing the rounded figure rather than re-deriving at the primary.** **A derived figure repaired with another derived figure is not a repair.** *(Same shape as the `DFII10` gap-path defect caught the same morning: appending to a carried series instead of re-pulling the window.)*
+
+✅ **SPEC RECONCILED, so nobody reads a discrepancy where there is none:** §3.1's `b_rates` of −0.0284 / −0.0200 / −0.0175 / −0.0105 are **TWO-FACTOR** coefficients (with ΔDXY). The univariate coefficients here are **~2× larger in magnitude**, which is exactly what adding a correlated regressor predicts — attenuation, not disagreement. **Different models, both correct.**
+
+⚠️ **NO VERDICT MOVES.** Rates explain **8.9–12.3%** univariate, **7.4%** currency-stripped, **3–4%** two-factor — **no construction exceeds 15%**, so *"rates-ASSISTED, not rates-EXPLAINED"* is untouched, as it has been through every revision of this band.
+
 ### 3.4 THE RULING
 
 **(a) The surviving verdict — "rates-ASSISTED, not rates-EXPLAINED" — is SOUND, and it does not depend on the co-symptom argument at all.** It is robust across all three constructions and every one moves the rates share the SAME way:
@@ -144,7 +170,7 @@ No construction gets rates above 15%, and MIDAS's own retraction moves rates **d
 
 **(c) 🔴 THE COROLLARY IS INVERTED, AND THIS IS THE FINDING.** MIDAS argues the dollar is a co-symptom — and then rules that **"the magnitude claim is re-based here and every future citation must use the two-factor band"** (§0), installing **61–69%** as the canonical number. **Those two statements contradict each other.** If DXY is a co-symptom of the same monetary root, then a model containing DXY has a **regressor on the causal path** — a mediator, not a control. Regressing an outcome on a co-outcome does not measure how much of the move is explained; it re-describes part of the move in the mirror's units and then reports the mirror as an explanation. **The 61–69% band answers "how much of 8/19 is unexplained by real rates AND a fitted dollar factor." It does not answer "how much of 8/19 is unexplained by real rates," which is the question the premium thesis actually asks.**
 
-⇒ **The correct canonical figure for the debasement question is 85–92% (univariate) or 90–93% (currency-stripped)** 🔴 *(the univariate range read **87–93%** until 2026-08-27 — **CORRECTED, and the correction is MIDAS's, raised against a figure I published and they had already encoded.** §3.4(a)'s own table puts the univariate rates share at **8–15%**, whose complement is **85–92%**, not 87–93%. The printed table never supported the number beside it.)* **Restated cleanly: 85–92% (univariate) or 90–93% (currency-stripped) — i.e. materially CLOSER to MIDAS's ORIGINAL headline than to its retraction.** The 61–69% is a true number about a different question, and it should be published as such rather than as a supersession.
+⇒ **The correct canonical figure for the debasement question is 87.7–91.1% (univariate, COMPUTED — see §3.3-bis) or 90–93% (currency-stripped)** 🔴 *(the univariate range read **87–93%** until 2026-08-27 — **CORRECTED, and the correction is MIDAS's, raised against a figure I published and they had already encoded.** §3.4(a)'s own table puts the univariate rates share at **8–15%**, whose complement is **85–92%**, not 87–93%. The printed table never supported the number beside it.)* **Restated cleanly: 85–92% (univariate) or 90–93% (currency-stripped) — i.e. materially CLOSER to MIDAS's ORIGINAL headline than to its retraction.** The 61–69% is a true number about a different question, and it should be published as such rather than as a supersession.
 
 **What MIDAS should have retracted, and did not:** the original 89% was defective for the reasons MIDAS itself names — **R²=0.035, never flagged weak** (L-21 is exactly right, and it is the durable lesson of this whole episode). But the fix for a weak univariate instrument is **to say it is weak**, not to add a mediator and report the residual shrinkage as a correction. `[[finding_univariate_residual_is_a_claim_about_the_model]]` was applied correctly to diagnose and incorrectly to remedy.
 

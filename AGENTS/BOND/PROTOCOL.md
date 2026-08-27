@@ -36,6 +36,19 @@ For each file in `inbox/`:
 | 6 | If it creates a cross-domain implication, write `outbox/YYYY-MM-DD_to-[target]_[slug].md`. |
 | 7 | Move processed signal to `inbox/processed/`. |
 
+## ★ DELIVERY MODEL — DECLARED 2026-08-27 (was undeclared, and it failed twice)
+
+🔴 **STANDING MODEL, effective now: COPY-TO-RECIPIENT-INBOX. Writing a packet to `outbox/` is NOT sending it.**
+
+**For every outbound packet: write it to `outbox/` AND commit a copy to `AGENTS/<RECIPIENT>/inbox/`**, explicitly path-scoped, with the recipient named in the subject — root `CLAUDE.md` **carve-out ①** exists precisely to permit this and makes it mandatory for self-authored packets.
+
+⚠️ **Why this is declared rather than assumed.** BOND ran an undeclared **outbox-only** model. **The fleet's assumption is inbox-first**, so the two are incompatible in the one direction that fails silently: the packet exists, is committed, is findable — and the recipient has no signal it exists. **Measured failures: (a)** the 2026-08-23 MIDAS packet carried a **Will-ruled correction to MIDAS's own published headline** and `AGENTS/MIDAS/inbox/` held **zero**; MIDAS found it only by searching the tree, and was one step from encoding the correction **without ever reading its evidence**. **(b)** a 2026-06-05 VIOLET ask sat undelivered **76 days** while a local checkbox waited on it. **Both flagged independently by PROME and MIDAS on 2026-08-23.**
+
+⚠️ **An outbox-first convention is legitimate — an UNDECLARED one is not.** PROME's ask was *"not asking you to change it — asking you to declare it."* **Declared here, and changed, because the failure mode is silent on the recipient's side and BOND cannot see it.**
+⚠️ **PROME IS THE EXCEPTION AND IT BIT ON THE FIRST USE OF THIS RULE, THE SAME SESSION IT WAS WRITTEN.** PROME's inbox is **`PROME/inbox/` at the REPO ROOT**, *not* `AGENTS/PROME/inbox/`. Copying to `AGENTS/<RECIPIENT>/inbox/` by loop put a packet in the wrong tree **and re-created the `AGENTS/PROME/` directory that was removed 2026-07-24 and which silently regrows** (`[[finding_prome_inbox_is_repo_root_not_under_agents]]`). **Caught by memory, not by the rule — and note the failure mode: delivery APPEARED to work, because a copy existed at a plausible path.** Relocated to `PROME/inbox/` and the stray tree trashed. **Everyone else: `AGENTS/<NAME>/inbox/`.**
+
+**`outbox/delivered/` remains the confirmation record — move a packet there only after verifying the CONTENT reached the recipient, by grepping the owner's own files, never by filename.**
+
 ## Outbox Format
 
 ```markdown
@@ -50,8 +63,10 @@ For each file in `inbox/`:
 
 | Trigger | Target | Priority |
 |---|---|---|
-| Treasury auction **composition failure**: **indirect below the auctioned tenor's OWN trailing-12 MIN _and_ dealer above its OWN trailing-12 MAX** (of competitive accepted) — ⚠️ **re-specified 2026-08-18; this row hardcoded the 7Y's `<56.4% / >13.2%` as if general.** Current per-tenor MIN/MAX: 3Y 53.99/19.50 · 7Y 56.42/13.14 · 10Y 63.95/16.16 · 20Y 55.17/17.59 · 30Y 59.52/17.46 (`KB-BND-120`, re-derive each grade — these drift) | LIQUID, ZHAO | 🔴 |
+| Treasury auction **composition failure**: **indirect below the auctioned tenor's OWN trailing-12 MIN _and_ dealer above its OWN trailing-12 MAX** (of competitive accepted) — ⚠️ **re-specified 2026-08-18; this row hardcoded the 7Y's `<56.4% / >13.2%` as if general.** Current per-tenor MIN/MAX: **2Y 50.91/49.09** · 3Y 53.99/19.50 · **5Y 59.24/15.61** · 7Y 56.42/13.14 · 10Y 63.95/16.16 · 20Y 55.17/17.59 · 30Y 59.52/17.46 ⚠️ **The 2Y and 5Y rows were MISSING from this table until 2026-08-27 — i.e. this outbound-trigger table could not fire for either tenor, and both printed on 8/25–8/26.** Found by the first audit of this file in three sessions; derived at the primary that morning. **The 2Y dealer MAX of 49.09 is genuinely that wide — the 2Y dealer distribution is far more dispersed than the long end, which is exactly why reusing another tenor's cut-offs is forbidden.** (`KB-BND-120`, re-derive each grade — these drift) | LIQUID, ZHAO | 🔴 |
 | Treasury auction BTC <2.3 **alone** (cover marker, composition intact) | LIQUID, ZHAO | 🟠 — *note explicitly that the mechanism did NOT fail* |
+| ★ **`I'` — indirect below the tenor's own trailing-12 15th percentile, SUFFICIENT ALONE** *(MATRIX_V2 §3c, Will-ruled 8/20, adopted 2026-08-27)*. Current bars: **2Y 55.75 · 5Y 59.48 · 7Y 57.24** (% of competitive accepted) — **re-derive per tenor at every grade; snapshot rail in `monitors/AUCTION_HEALTH.md`** | LIQUID, ZHAO | 🟠 |
+| ~~Dealer take-down spikes~~ **DROPPED as a bearish trigger 2026-08-27** *(MATRIX_V2 §1, Will-ruled)* — dealer take is now **descriptive only**; **>18% is a contrarian-BULLISH note**, never an escalation. ⛔ **The thesis kill's dealer leg is UNTOUCHED and remains in force — that is a separate spec and the scope question is with Will** | — | ❌ |
 | ~~tail >2bps~~ | — | ❌ **RETIRED 2026-07-28 — UNSCOREABLE** |
 | Dealer take-down spikes / indirect demand weakens materially | LIQUID, ZHAO | 🟠 |
 | HY OAS >350 or HY issuance freezes | HENRY, REGINALD, LIQUID | 🔴 |
