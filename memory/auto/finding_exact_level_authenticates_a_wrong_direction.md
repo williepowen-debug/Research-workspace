@@ -1,6 +1,7 @@
 ---
 name: finding-exact-level-authenticates-a-wrong-direction
 description: "A claim of the form '<metric> at <level>, <direction>' can be exactly right on the level and inverted on the direction — and the precision of the level is what stops anyone checking the direction. Verify the two halves SEPARATELY; a one-word trend adjective usually carries a window choice nobody stated."
+symptoms: level is right but the day/trend direction is inverted · a percentage next to a price answers a different question than its column · "buffer above the line" printed as a day change · recomputing the number confirms it and the claim is still wrong · period-over-period figure differenced against the wrong prior session · same metric on three surfaces with three values
 metadata: 
   node_type: memory
   type: finding
@@ -36,3 +37,24 @@ Related: [[finding_relayed_level_predates_the_event]] (sibling: the level itself
 **Both levels were right. The word "drift" was wrong.** They are two constructions — BOND's own §3.4(c), twelve lines above the section PROME was reading: *"87–93% (univariate) or 90–93% (currency-stripped)."* ⇒ **the two verified numbers authenticated an unverified claim ABOUT THEIR RELATIONSHIP.** Confirming that two figures differ verifies the **surface**, not the **claim** — and a discrepancy report is exactly the format in which nobody re-reads the adjective, because the numbers are right there and they check out.
 
 ⚠️ **Generalised: the pattern is `<verifiable> + <unverifiable-in-the-same-glance>`, and the trend adjective is only its commonest costume.** Others seen: *"X and rising"* (window), *"A vs B, a drift"* (same-construction assumption), *"delivered"* beside a correct filename (`[[finding_record_of_an_action_is_not_the_action]]`). **Name which half you checked.** Root cause of this instance → `[[finding_summary_section_merges_what_the_body_separates]]`.
+
+---
+
+**Instance 2026-08-27 (REGINALD) — a third costume: the number is CORRECT, and it is in the WRONG SLOT.** Not a level+adjective, not a relational claim. A figure that is arithmetically right, freshly computed, and answers **a different question than its position says it answers.**
+
+My bank dashboard's threshold row read **`WAL $78.72 [Thu 8/27 CLOSE, +0.08%]`** and the headline said **"`REG-T-02` UN-FIRED at the settled close: WAL $78.72, +0.93%."** The settled tape: WAL closed **$78.71**, and against the prior close of **$79.60** the day was **−$0.89 / −1.12%.** **The stock fell 1.12% and my surface said it rose.**
+
+**`+0.93%` was a real, correctly-computed number** — the **buffer above the $78 trigger** ($0.72/78.00). It was printed where the **day change** goes. The sibling row failed the same way for a different reason: KRE's `+0.04%` was a true day change **against the wrong day** (it differenced the 8/25 close; 8/26 had been skipped).
+
+**Every check it faced passed.** The level beside it was right to the cent. The arithmetic was right. The sign was plausible. Recomputing the figure would have *confirmed* it — because the figure was never wrong. Only asking *"what question does this number answer?"* catches it.
+
+**The consequence was directional, not cosmetic.** The surface read *"WAL closed up, buffer intact"* on the day WAL printed the **deepest intraday breach of the entire cycle** ($77.13, below the trigger) and closed **0.91% from firing.** The desk's single most-watched threshold had its story inverted while every number on the row was defensible.
+
+**How to apply:**
+- **Verify a number is in the slot it belongs in, not just that it is true.** Ask what question the position claims it answers, then check it answers *that* one. A units/basis check catches this; a recomputation never will.
+- ⚠️ **Watch for figures that are dimensionally identical and semantically different.** "Distance to a threshold" and "change since prior close" are both *a small signed percentage beside a price*. Nothing in the layout distinguishes them, so the swap is invisible and survives review.
+- **For any period-over-period figure, name the reference point, not just the period.** "+0.04%" hid a skipped session; "vs the 8/26 close" would not have.
+- **Duplicating a metric across surfaces is the delivery mechanism.** The same value lived on three of my surfaces and had drifted to **three different answers** (74.33 / 74.36 / 74.35) — in a cell that had already diagnosed duplication as the drift vector and then drifted anyway. **One owner, pointers elsewhere.**
+
+Related: [[finding_distance_to_a_threshold_is_a_claim_about_its_basis]] (the sibling: quoting "X% away" without its basis) · [[finding_output_shape_implies_more_than_the_measurement]] · [[finding_derived_metric_across_vintages_biases_toward_stale_leg]]
+

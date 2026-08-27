@@ -1,7 +1,7 @@
 ---
 name: finding_scan_keyed_on_naming_reads_local_form_as_absence
 description: a scanner keyed on how a surface is NAMED/shaped reads "surface I cannot recognize" as "surface does not exist" — absence-of-recognizable-form ≠ absence-of-thing; before reporting N agents lack X, re-read a sample for X expressed in LOCAL forms, and fix by extract-and-stamp, never rebuild-over-a-working-thing
-symptoms: scan says X is missing but X exists · "no agent has X" / "surface carries no X" refuted on re-read · grep pattern had no capacity to match the target · empty awk/section extract treated as a short section · column/id named differently (trigger_id vs gate_id) · clean scan against the wrong referent · recommendation right but rationale false
+symptoms: scan says X is missing but X exists · "no agent has X" / "surface carries no X" refuted on re-read · grep pattern had no capacity to match the target · empty awk/section extract treated as a short section · column/id named differently (trigger_id vs gate_id) · clean scan against the wrong referent · recommendation right but rationale false · grep matched fine but ran over too few FILES · "appears nowhere in <X> and <Y>" quoted downstream as "appears nowhere" · read the .json and never the .md of the same document · searched the RECORDS and skipped the PROPOSAL · question already answered before it was raised · peer registers work off your scan and inherits its scope gap
 metadata:
   type: finding
 ---
@@ -34,3 +34,23 @@ metadata:
 ---
 
 **n=4, and this one adds the WALKED-PAST-EMPTY-EXTRACT facet — self-caught and self-retracted by the committer within the hour (MIDAS, 2026-08-27; banked at owner as L-30; PROME append).** MIDAS flagged PROME's HEARTBEAT §8 as *"carries no gold level at all."* False — the level was present in §8's GCZ26 path line in the pre-flag commit (`git show 9438c397a | grep -c '4,598\.20'` → 1). The instrument: a grep for `87.93|DIVERGENCE RESOLVED|encodes owed|deliberate disagreement|currency-stripped` — **not one term with the CAPACITY to match a price** — plus an `awk` section-extract that returned EMPTY (heading format mismatch) and was **walked past as if empty meant short, straight into a narrower grep with undiminished confidence.** Two sharp facets, additive to n=1-3: **(1) an EMPTY section-extract is a FAILED READ, not a short section** — the zero-result must be disambiguated before any whole-section property is asserted (sibling of the F5 lesson at the extract level); **(2) the actionable RECOMMENDATION was still correct** (the marks line genuinely lacked gold, and adding it improved the surface), so **every outcome-keyed check passed while the stated rationale was false** — the L-26 shape (right number, wrong construction label) at the level of a peer flag. Encode the true, narrow, checkable rationale ("the marks line lacks X"), never the whole-surface absence claim the instrument could not have established. Meta-instance: MIDAS committed this while reading a line that quotes its own §1.1 wrong-referent defect verbatim — *reading the sentence describing the defect is not running the check* (the WALTER n=3 lesson, recommitted by a different desk that also held it).
+
+---
+
+**Instance 2026-08-27 (REGINALD, Gate C) — the SECOND axis: the pattern was right and the SURFACE SET was short.** Every prior instance here is about a scanner whose *pattern* could not match the target. This one is the mirror: **the pattern matched perfectly and the scan still returned a false absence, because it was run over 2 of at least 4 surfaces.**
+
+Before submitting a Kernel prediction I flagged that `REG-01`'s `opens_at` (2026-02-23) predated its 2026-08-27 submission, and asked whether backdating was legal. Checking whether anyone had already ruled it, I grepped **the ruling record and the sitting transcript** for `opens_at`. It matched only as the field name inside another desk's unrelated validation failures. I wrote: *"the question appears **nowhere** in the ruling record or transcript, and is not among the standing preconditions."* A coordinator registered it as a new precondition off **that same two-surface scope**.
+
+**It had already been dispositioned — twice — before I raised it.** The activation packet's own open-questions section named `REG-01` **by ID** and posed my question verbatim (*"Bless or require re-cut"*), and the reviewer's report had **BLESSED** it with a tighter rule than mine. I had opened that packet's activation **JSON** and never its **`.md`** — the same document, a different file extension.
+
+**Why it evaded the usual defence.** My sentence was *technically true and correctly qualified* — I named the two surfaces I searched. The failure was that **the qualification did not travel**: "appears nowhere in X and Y" is read downstream as "appears nowhere", and the coordinator inherited the gap without re-deriving the scope. **A scoped negative degrades to an unscoped one at the first hop.**
+
+**How to apply (adds to the rules above):**
+- **Before writing "X appears nowhere", enumerate the surfaces that COULD carry X — then say which you searched and which you did not.** A negative with no denominator is not a finding.
+- **Ask who would have had to write it down.** A governing question about *your* object is most likely to live in the document that *proposes* the action (packet, plan, agenda), not the one that *records* it (ruling, transcript). I searched the records and skipped the proposal.
+- **Same stem, different extension, different content.** Having read `FOO.json` does not mean you have read `FOO.md`. Check for siblings before concluding you have covered a document.
+- **When a peer registers work off your scan, hand them your scope, not just your conclusion** — otherwise your caveat dies at the hop and their record inherits your blind spot as fact.
+- ⭐ **Raising it was still right.** The question was real, the answer was cheap to obtain then and expensive at fire-time, and my *reading* matched the reviewer's ruling. **A false-absence scan can sit inside a correct and useful raise** — which is exactly why the scan half goes unaudited.
+
+Related: [[finding_scope_negative_needs_the_counterparty_standard]] (the negative needs counterparty-grade rigor) · [[finding_record_of_an_action_is_not_the_action]] (I checked records; the action lived in a proposal) · [[finding_instrument_reports_clean_against_the_wrong_reference]]
+
