@@ -1,92 +1,38 @@
-# BOND — Run Receipt
+# BOND — RUN RECEIPT
 
-**Run:** 2026-08-27 (Thu) ~13:31 → ~14:2x ET · **CRASH-RECOVERY BOOT, then CLOSED OUT FOR THE DAY** (prior session died after 12:28)
-**Overwritten each session. Prior receipt superseded.**
+**Session:** 2026-08-27 (Thu) ~14:36 → ~15:1x ET · **THIRD session of the day** (morning crashed after 12:28; recovery session closed ~14:2x; this one).
+**Task as given:** "boot up" → became a boot + two Will/peer-ruled encodes that arrived mid-session.
 
----
-
-## CRASH DISPOSITION — nothing lost, one handoff gap closed
-
-| Check | Result |
-|---|---|
-| Working tree at boot | **CLEAN** (whole repo) |
-| BOND work committed? | **YES — all of it.** Last BOND commit `d878f0067` 12:28 |
-| Unpushed at boot | **2 commits, NEITHER BOND's**: `f2306d8d5` (PROME) + `36ded484d` (CREED), both themselves crash-recovery commits. Left for the push-train; swept by this closeout's push |
-| Gap found | 🔴 **SCRATCH was ONE WINDOW STALE** — last written 11:40 (`bdb379384`); two BOND commits landed after it (`c311181ce` 12:14, `d878f0067` 12:28: Will-directed inward audit, fixes 1–2 and 3–8 of 8) and were recorded **nowhere** |
-| Audit integrity | ✅ **COMPLETE 8/8.** All three closeout checks rc=0 before and after; no gate moved, no score moved, book untouched, $0. **Verified independently this boot** — the LQD/IEF sign-flip fix confirmed landed on `monitors/CDX_CASH_BASIS.md` |
-| Action | Crash-recovery block written into SCRATCH carrying the audit's four load-bearing finds, **so a cold boot does not re-run a finished audit** |
-| Fleet pattern | ⚠️ **n=3 today (PROME · CREED · BOND): work committed, SCRATCH never updated.** The commit log survived; the handoff did not |
-
-## BOOT SEQUENCE
-
+## Boot (steps 0–7)
 | Step | Result |
 |---|---|
-| 0 `git pull` | up to date |
-| 1–4 STATUS / SCRATCH / MEMORY / PREDICTIONS | read; `BND-20` flagged resolving today, `BND-15` OPEN in-window, nothing else DUE |
-| 5 `docket_check` | **rc=0 — but a DEGENERATE pass, see findings.** 0 coupon auctions in a 21-day window |
-| 6 `boot_recompute` | rc=1 = **two IMMINENT date-gates (T6 2d, 7Y 0d), NOT drift.** File scan ✅ clean; FR2004 vintage ✅ consistent. *(rc-message mislabel now **n=3**, still unpatched)* |
-| 7 WALTER lane | no unprocessed deliveries |
+| 0 `git pull` | Already up to date. HENRY/VIOLET work in flight — untouched. |
+| 1–3 STATUS · SCRATCH · MEMORY | Read in full. SCRATCH was clean and executable cold. |
+| 4 PREDICTIONS DUE-scan | **1 OPEN: `BND-15`. NOT due** — window to 8/29, last gradeable session 8/28 (publishes 8/31). |
+| 5 `docket_check.py` | **rc=0 — DEGENERATE.** Measured at the primary: `upcoming` = 4 rows, **all bills**, max auctionDate **9/1**. **Zero coupon auctions in the reference set.** `KB-BND-198` reproduced. |
+| 6 `boot_recompute.py` | **rc=1** — both findings are **date-gates** (T6 2d, the 7Y row 0d awaiting its prune), **not drift.** File scan clean; FR2004 vintage consistent. **rc mislabel is n=4.** All levels matched STATUS exactly. |
+| 7 WALTER lane | Clear. |
 
-**Levels re-pulled cache-busted and UNCHANGED:** 30Y **5.17** · 10Y **4.64** · 2Y **4.17** · DFII10 **2.32** [all 8/25] · T10YIE **2.32** / T5YIFR **2.33** · HY **267** / CCC **1031** / IG **80** [8/26]. Partial-H.15 split persists at **n=3**. Run **36 consecutive / 52 days ≥5.00 in 2026**.
-
-## TASKED DELIVERABLE — 7Y GRADED
-
-**`91282CRJ2`, $44B, 1:00PM ET — 🟢 CLEAN** at the TreasuryDirect primary (`grade_auction.py`, ~13:33 ET).
-BTC **2.50** · indirect **60.78%** · direct **26.96%** · dealer **12.26%** · HY **4.5120** (% of competitive accepted, $43.894B).
-
-**Margins, every leg (v1.1.4(e)):**
-- BTC **+0.01** vs med 2.49 · **+0.10 clear** of the 2.40 cover floor
-- indirect **−0.02** vs med 60.80 · **+4.36pp clear** of the 56.42 composition floor
-- dealer **+0.44** vs med 11.82 · **−0.88pp under** its 13.14 max
-
-**No cover marker, no composition failure — 18th consecutive benign resolution since 7/9.** No tail computed (retired 7/28).
-**`I'` DID NOT FIRE on its first live test** — bar indirect <57.24%, printed 60.78 ⇒ **+3.54pp clear.** *Logged with its margin because a new rule's first NON-firing is the outcome least likely to be written down.*
-
-**Predictions:** ✅ **`BND-20` TRUE** (BTC inside [2.40, 2.52]; +0.10 off the floor, −0.02 off the ceiling; +0.01 vs median). 🔴 **`BND-19` leg 3 recorded: 60.78 vs 60.80 = −0.02pp FAIL** (row already FALSE on the 5Y). Book **2 OPEN → 1** (`BND-15`).
-
-★ **FINDING — leg 3 sharpened rather than repeated: TWO of three legs failed, BOTH at rounding scale (−0.24pp, −0.02pp), on an auction that graded 🟢 CLEAN.** A leg missing its own trailing-12 **median** by 0.02pp is an auction sitting **ON** its median, not a demand miss. **The conjunction is FALSE on two legs that are, in substance, at median — brittleness at n=2, now the strongest single input to the Will-ruled 9/4 MATRIX_V2 base-rating.** Not acted on.
-
-## FINDING — GUARD DEFECT (`KB-BND-198`)
-
-🔴 **`docket_check`'s stated guarantee EXCEEDS what its source can support, and it reports the stronger claim.** Measured at the primary this boot: TA_WS `upcoming` returned **4 rows, ALL BILLS, max auctionDate 9/1** — a **~5-day** forward horizon against a **claimed 21-day** window. `announced` is backward-looking; the forward schedule is a QRA **PDF outside TA_WS** ⇒ **no API path closes it.**
-⇒ Today's **rc=0 was computed over ZERO coupon auctions** — clean across an **empty reference set**, which can never produce a finding.
-⇒ **September is undocketed:** no refunding (~9/8–10), no 20Y, no 10Y TIPS, no month-end cluster. **The gap is widest for the largest events** (refundings announce ~1 week ahead), so the **September refunding sits ~12–14 days out — inside the claimed window, outside the visible one.**
-⇒ **This is `docket_check`'s own founding failure set up to recur** (it exists because the August refunding ran ungraded, never docketed).
-**NOT patched** — a correction pass is unreviewed work and one checker was already patched 8/27. Docketed as a 🔴 recurring 9/3 row + mirrored to the STATUS twin. Fix direction (unruled): warn when `max(feed auctionDate) < horizon`.
-
-## MAIL
-
-**In: 3** *(SCRATCH said 2 — stale)*. ① **PROME** hyperscaler allocation — **RETAINED BY DECISION**, carrier of an undelivered ~9/3 deliverable. ② **SAM** xccy 4th leg — **READ**. ③ **RED** `RED-FT-11` — **arrived 12:18 INSIDE THE CRASH WINDOW, recorded in no handoff — READ**.
-**Out: 2 — BOTH SENT ~13:5x ET on Will's explicit word** (`d9dd34e7a`, pushed). Delivered copy-to-recipient-inbox; **PROME's copies to `PROME/inbox/` at repo ROOT** (the path that mis-delivered on this rule's first use — verified no `AGENTS/PROME/` tree regrew). **Doorbells per rule 6/6b: RED LIVE ⇒ doorbelled directly; SAM · LIQUID · TERRY DARK ⇒ 6b doorbell to PROME, bounded-touch decision left to them.** ✅ **RED packet MOVED to `outbox/delivered/` — consumption verified BY CONTENT at `AGENTS/RED/SCRATCH.md:36` (packet name + commit + read-by 9/8 + my framing), NOT from RED's message, which is a claim.** **n=4 deferral CLOSED for that packet.** ⚠️ **SAM packet NOT moved — path-verified only, SAM is DARK, no artifact to check. Deferral stands there.** 🔴 **Verifying RED's receipt surfaced a timing defect and was doorbelled back under their own clause: their 9/4–9/11 re-spec window STRADDLES FT-11's 9/9 go-live, so a post-read re-spec would re-tune a live classifier. Refutation supplied (their `SCRATCH:63` may scope the window to other IDs); their call.**
-- 🔴 **RED** — their `30Y−5Y` leg choice is **CORRECT**, but for a reason needing correction (`DGS10` is a CMT built off **on-the-run** issues; buybacks target **off-the-run** — true at sector level, not at the series they'd difference). **Real offer: BOND's TP-vs-path decomposition, run fresh 8/27, replaces their identification-by-null with a measurement.**
-- 🟠 **SAM** — their *"four independent instruments, no shared input"* **over-reaches**: legs 1 and 2 both come off the **H.4.1 release** (leg 2 is **mine**), and leg 3 (June TIC) is a **pre-op baseline by their own words**. Every leg is individually fine; the **convergence claim** is what fails. Runs against my own leg.
-
-## CHECKS AT CLOSE
-
-`kb_lint` ✅ · `closeout_check` **rc=0, 0 findings across all 3** · mirror check ✅ (PREDICTIONS 1 OPEN ↔ STATUS "ONE OPEN: BND-15") · catalyst twin ✅ event sets match · STATUS **246 lines** (cap 250).
-
-## POSITION
-
-**TLT puts HOLD, no add — UNCHANGED. Book untouched. $0.**
-Only live add-gate **DFII10 2.32 [8/25] = 18bp away** (non-monotonic path). **Composite 12/35 — nothing crossed a pre-registered line.**
-
----
-
-## END-OF-DAY CLOSEOUT (~14:1x–14:2x ET)
-
-| Step | Result |
+## Inbox processed
+| From | Disposition |
 |---|---|
-| 9 STATUS | End-of-day header written; **two retained session headers (8/19, 8/21) ARCHIVED verbatim with superseded-figures banners** → `domain/sources/2026-08-27_STATUS_archive_header_8-19.md`. **250 lines exactly, at the cap.** |
-| 10 predictions | **`BND-15` grade-date rider added — `Resolution_Criteria` verified BYTE-IDENTICAL** (a reading rule, not a re-spec) |
-| 12 forward-state | F2 row upgraded to a 🔴 **external dependency**; September-gap row added; both mirrored to the STATUS twin |
-| 13 SCRATCH | **Rewritten clean for a COLD boot** — the day's accreted in-session blocks superseded, 71 lines |
-| 15 promotion scan | Existing homes identified for all three of today's transferable lessons (`finding_delivery_check_is_not_a_knowledge_check`, `finding_instrument_reports_clean_against_the_wrong_reference`, `finding_asymmetric_rigor_counterparty_claims`) — **extension is the default over creation; not executed this session, flagged in SCRATCH** |
-| 16 closeout_check | **rc=0, 0 findings across all three** |
-| 17 mirror | PREDICTIONS 1 OPEN (`BND-15`) ↔ STATUS scoreboard ✅ · catalyst event sets ✅ |
-| MAIL | inbox 4 → **2, both RETAINED BY DECISION as task carriers**; RED + SAM filed to `processed/` |
+| **PROME** — MATRIX_V2 kill-scope **RULED** | **Read at the artifact** (`PROME/proposals/2026-08-27_matrix-v2-kill-scope-RULED.md`), relay verified accurate in every part, **ENCODED**, filed to `processed/`. |
+| **ORACLE** — T6 pin COMMITTED | **Read at the artifact.** Kalshi stays canonical; **gaps ZERO**; the 8/21 reference ruled to the **close 0.32**, not the intraday 0.35. **ADOPTED** (runs against BOND's own branch). Filed to `processed/`. |
+| **PROME** — lagged-series class ruling | Retained → consumed at tomorrow's T6 sitting per PROME's routing. |
+| **PROME** — hyperscaler allocation | **Retained by decision** as the carrier of the ~9/3 deliverable. |
 
-🔴 **TWO ITEMS A COLD BOOT MUST NOT MISS — both on STATUS, SCRATCH and the docket:**
-1. **`BND-15` MUST NOT RESOLVE ON 8/29** — window ends Sat 8/29, last gradeable session Fri 8/28, publishes **Mon 8/31**. The row resolves TRUE on the ABSENCE of a breach ⇒ **the error is asymmetric and runs toward a FALSE TRUE.** Authority: Will's lagged-series class ruling.
-2. **FROM 9/9, ROUTE THE F2 READ TO RED** — their `FT-11` v1.1 is gated on it and **they will not rebuild it.** Silent non-delivery strands a peer instrument.
+## Files written
+`STATUS.md` (kill spec · T6 block · divergence note (a) · header · BOTTOM LINE) · `thesis/THESIS.md` (**v1.1.8 → v1.1.9**) · `thesis/CHANGELOG.md` · `TRADE.md` · `monitors/AUCTION_HEALTH.md` · `CLAUDE.md` · `PROTOCOL.md` · `workbook/KB.tsv` (`KB-BND-202`) · `SCRATCH.md` · `RECEIPT.md` · `domain/sources/2026-08-27_STATUS_archive_bottomline_8-21-closeout.md` · `outbox/2026-08-27_to-PROME_kill-scope-ENCODED-plus-three-uses-*`
 
-**Final state: tree clean, all BOND work committed and pushed. Position UNCHANGED — TLT puts HOLD, no add. Composite 12/35. Book untouched. $0.**
+## Decisions
+- **ENCODED** the ruled composition-failure definition (matrix + kill, prospective, dual-print).
+- ⛔ **DID NOT EXTEND** three out-of-scope uses — the **TLT-put ADD re-arm**, the **outbound cross-agent trigger**, and **`grade_auction.py`**. Flagged to PROME per the ruling's own no-silent-extension ask.
+- **ADOPTED** ORACLE's 0.32 reference ruling despite it making BOND's own T6 branch harder to confirm.
+- **Fixed** two live defects on `STATUS.md` divergence note (a) found at boot.
+- **NOT patched:** `docket_check`, `boot_recompute`'s rc message, `watchers.py`, `grade_auction.py` — all deliberate (unreviewed-correction risk; one checker already patched today).
+
+## Position
+**UNCHANGED — TLT puts HOLD, no add. Composite 12/35, ninth unchanged scoring session. Book untouched. $0.** No gate fired; no threshold moved on any live position.
+
+## Git
+Committed path-scoped to `AGENTS/BOND/`; auto-push via `scripts/safe-push.sh`.

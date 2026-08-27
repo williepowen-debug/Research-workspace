@@ -4,6 +4,36 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.1.9 — 2026-08-27 (later — Will rules the kill-scope question v1.1.8 left open; the legs EXTEND, prospectively)
+
+**Old view → new view:** v1.1.8 adopted the MATRIX_V2 legs for the **escalation matrix** and deliberately left the **thesis kill** untouched, with the scope question flagged to Will and no action pending → **Will ruled the legs EXTEND to the kill's composition-failure test.** There is now **ONE composition-failure definition on this desk**: *indirect below that tenor's own trailing-12 **15th percentile**, sufficient alone*, with **dealer dropped as a bearish criterion**. Conviction unchanged. No position moved. $0.
+
+**Will's word:** *"go with your rec"* — on PROME's presentation of WILL_QUEUE row 93. Canonical record: `PROME/proposals/2026-08-27_matrix-v2-kill-scope-RULED.md`.
+
+**The three ruled parts**
+1. **EXTENDED, PROSPECTIVELY** — governs matrix AND kill for auctions graded **from 2026-08-27 forward**.
+2. **HISTORY PRESERVED** — the 18 consecutive benign resolutions since 7/9 are **not re-scored**; they stand as graded under the definition that graded them.
+3. **DUAL-PRINT** — both definitions reported side by side until the kill next evaluates (~9/8–9/10 cluster), so the difficulty shift is on the face of the record.
+
+**Live state under both, as encoded in STATUS**
+| Definition | Test | State |
+|---|---|---|
+| OLD (retained for the dual-print) | ind < trailing-12 MIN **AND** dlr > MAX | 18 consecutive benign since 7/9; no failure at any tenor |
+| NEW (in force 8/27 forward) | ind < trailing-12 **15th pctile**, standalone | n=1 — the 8/27 7Y printed **60.78%** vs its **57.24%** bar, clean by **+3.54pp** |
+
+**The two definitions agree on today's state**, and the counterfactual on the three dark-session prints was **computed, not asserted** (`I'` would have fired on none: 2Y +10.26pp · 2Y-R +10.44pp · 5Y +2.03pp clear). **So the re-definition changes no live verdict — luck, not vindication.**
+
+🔴 **Direction disclosed, because this is the change that needs it.** The new test is **strictly easier to fire** — the bar rises (7Y 56.42 → 57.24) *and* the dealer conjunct that vetoed it is removed — **and the kill firing is what CONFIRMS this desk's own standing bear thesis.** BOND halted on precisely this and asked rather than ruling it; the ruling record names the halt as part of why the ruling is clean.
+
+⛔ **What was NOT extended — flagged to PROME, not self-ruled.** Three live uses of "composition failure" sit outside "matrix AND kill" and were left governed by the OLD conjunctive test:
+- the **TLT-put ADD re-arm** (`TRADE.md`) — an *add* gate on a live position under Will's standing 7/16 NO-ADD; loosening it is the same direction-of-benefit problem, one hop over;
+- the **outbound cross-agent trigger** (`CLAUDE.md` signals table, `PROTOCOL.md`) — a routing spec that tells LIQUID/ZHAO what BOND is claiming;
+- **`grade_auction.py`** — still computes the old conjunctive test; **unpatched deliberately.** Until the kill next evaluates, the tool's print *is* the OLD-definition half of the dual-print — **useful, and not the authority.** Patch owed before the old print retires.
+
+**Untouched:** the kill's other legs (BTC <2.3, SOFR−IORB positive), every frozen pre-registration (`BND-18/19/20` grade on their own frozen letters), the composite, and every score.
+
+---
+
 ## v1.1.8 — 2026-08-27 (the Will-ruled MATRIX_V2 adoption is EXECUTED; the 8/25–27 cluster graded)
 
 **Old view → new view:** the escalation matrix's auction leg could only escalate through a **conjunctive** composition-failure test (indirect below trailing-12 MIN **AND** dealer above MAX) whose base rate is near zero by construction → **indirect alone, at the per-tenor 15th percentile, now fires 🟠 standalone**, and **dealer is no longer a bearish criterion at all**. Conviction unchanged. No threshold moved on any live position. No composite move.
