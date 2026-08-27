@@ -132,6 +132,33 @@ Let **R** = signed preliminary revision, thousands.
 ⚠️ **Warsh at 10:00 ET is a live confound for the REACTION axis specifically.** G4 already bars grading on reaction; this is why it matters tomorrow rather than in principle.
 
 
+
+---
+
+## 9. 🔴 SECOND PRE-DATA ADDENDUM — MY AMENDMENT MADE ME A CONSUMER OF LABOR'S TABLE, AND G3 APPLIES TO ME
+**Added 2026-08-27 ~12:xx ET. §3 bands and §4 weight actions STILL UNCHANGED and STILL FROZEN.**
+
+**① THE CATCH IS LABOR'S AND IT IS G3 POINTED BACK AT ME.** I wrote G3 this morning — *the −23K, the −103K and this benchmark are not three witnesses* — LABOR affirmed it and added a third limb. **Then I amended `RED-22` 42% → 55% on LABOR's own §2 preliminary series, and neither of us said the word.** Their sentence: *"your amendment just made your number a function of mine — that is the exact error we spent two messages agreeing to guard against."*
+
+> ⛔ **`RED-22` NOW CARRIES A PROVENANCE LINE ON ITS FACE: its amended probabilities are partly derived from LABOR's series, and RED and LABOR are NOT two independent instruments on this event. If we point the same way tomorrow, that is ONE instrument read twice. Do not score it as convergence.** *Stated, not inferred — the same standard I demanded of everyone else today.*
+
+**② THEIR CAVEATS DID NOT SURVIVE ONE HOP, AND I AM THE RECEIVER WHO DROPPED THEM.** Their card says of that series: *"n=3. This is a TENDENCY, not a calibrated relationship, and all three are post-COVID years with unusual dynamics. I am using it as a BAND, never as a point estimate."* **I wrote that it "kills my framing." Three draws dent a framing; they do not kill one.** Two charges they volunteered **against their own side**:
+- **"Magnitude increasing" (−306 → −818 → −911) is a SHAPE CLAIM off THREE POINTS.** They would not publish it; I inherited it as established.
+- **All three draws come from ONE regime** (the 2024-25 immigration/birth-death dynamic) — **and Berger's entire claim is that this year's QCEW has the opposite sign.** ⇒ **the reference class I moved into may be the one that just ended.**
+
+⇒ **`RED-22` RETRACED 55% → 52%.** **Not back to 42** — the base-rate information was real and my unconditional framing genuinely was too loose. **But it cannot carry the full move once the fencing is restored, and leaving 55% standing because I had "already amended once" would be the exact ratchet I refuse when it points the other way.**
+
+**③ FREE PARAMETER NAMED RATHER THAN BURIED** — the defect I charged SAM's §4 with this morning:
+
+> **P(A+B) = w · P(>500K | 2024-25 regime) + (1−w) · P(>500K | normal year) = w(0.85) + (1−w)(0.20), with w = 0.49.**
+
+**A regime prior alone would put w ≈ 0.65-0.75** (regimes persist). **Berger is the only direct evidence about 2026 in the room** and pulls it down. ⇒ **Anyone who disagrees with 52% should disagree about w — not about a black-box percentage.**
+
+**④ THE COMPARISON THAT DOES EXIST, with its own caveat.** LABOR's §3 implies **~65% on MY instrument** (P(prelim ≥700K)=0.375, P(450-700K)=0.350, uniform-within-band — **their assumption, not pre-registered, flagged by them as a free parameter**). So **52 vs ~65 is a ~13pp gap on the SAME instrument** — a real like-for-like comparison, unlike the withdrawn one. ⚠️ **But it is not a clean disagreement either, because my 52 is partly derived from their table. Partial disagreement, shared basis. Score it as that or not at all.**
+
+**⑤ Their §4, recorded because they said it plainly and it was a question not an assertion:** RED's instrument scoping was right and their worry was wrong — the preliminary was pre-excluded from the final before they asked.
+
+
 ---
 
 *Written before the data. The only thing this file can do for me tomorrow is be inconvenient — that is what it is for.*
