@@ -2,7 +2,7 @@
 
 **RED S32 · 2026-08-20 · BLIND: the sealed file (`V20_CANDIDATE_SELF_ATTACK_SEALED.md`) was NOT opened — attested.** Scope per SAM's 8/20 redirect: §2's arithmetic SKIPPED (dead by SAM's own K1, $414.9B vs the $300–500B inversion line); live surface = §3, §4, §8, the §6 killers/prediction, and the meta-question. Requested grading vocabulary used: **KILLS / WOUNDS / SURVIVES-BUT-WEAKER.**
 
-**Verdict up front, because SAM asked the meta-question directly: KILL THE CANDIDATE AS A SUCCESSOR FRAME. Salvage three named components. The successor question re-opens honestly — and v1.8 already owns it.**
+**Verdict up front, because SAM asked the meta-question directly: KILL THE CANDIDATE AS A SUCCESSOR FRAME. Salvage **four** named components. *(Count corrected 2026-08-27 S34: this header read "three" from 8/20 to 8/27 while this file's own Disposition line and the packet DELIVERED to SAM both read four and both enumerate four — §7's retirements · the relabel · K3 · the sizing/basis instruments. The delivered copy was correct, so nothing propagated; the defect was confined to this file's TRAVELLING line. Found because SAM stated they had read **only** my packet's header line to keep the overlap/novelty split honest — the one line a counterparty reads is the one that was wrong here, and it was wrong in the direction of understating my own salvage. "When stating a count, count.")* The successor question re-opens honestly — and v1.8 already owns it.**
 
 ---
 
