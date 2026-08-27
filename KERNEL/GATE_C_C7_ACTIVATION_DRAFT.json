@@ -1,0 +1,37 @@
+{
+  "schema_version": "kernel.live-activation.1",
+  "policy_version": "kernel.policy.1",
+  "activation_id": "LIVE-2026-0001",
+  "authorized_by": "WILL",
+  "authorization_ref": "KERNEL/GATE_C_C7_ACTIVATION_PACKET_v2.md",
+  "mode": "LIVE_SHADOW_PILOT",
+  "repository_root": "/home/willi/Research-workspace",
+  "repository": "williepowen-debug/Research-workspace",
+  "source_commit": "1d9400425f7415083a9ffbd10964670bf255abf2",
+  "window_start": "TO-BE-RULED",
+  "window_end": "TO-BE-RULED",
+  "revoked_at": null,
+  "writer_id": "PROME",
+  "commands": [
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000033",
+      "path": "AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000033.json",
+      "sha256": "71996c763e4d4150e4380814f476fe24513f148e335f832fc42f4eb5d7a7bbe2"
+    },
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000034",
+      "path": "AGENTS/SAM/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000034.json",
+      "sha256": "2dd24caee3884198dd440224b209b50e9ab8a52821b170065b06e91b043797e2"
+    }
+  ],
+  "actors_path": "KERNEL/policies/actors.json",
+  "actors_sha256": "48dbea3b449f69c47029210499c5182e7b6c97c5b5182dd67301ed0bc5da4db0",
+  "capabilities_path": "KERNEL/policies/capability-grants.json",
+  "capabilities_sha256": "57c76977cd6d2934b52928acee9786c4ddca90b381b265bbda5618cbba447b2c",
+  "custody_policy_path": "KERNEL/policies/custody-policy.json",
+  "custody_policy_sha256": "180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849",
+  "event_ids": {
+    "CMD-019305f8-ec00-7000-8000-000000000033": "EVT-019305f8-ec00-7000-8000-000000000033",
+    "CMD-019305f8-ec00-7000-8000-000000000034": "EVT-019305f8-ec00-7000-8000-000000000034"
+  }
+}
