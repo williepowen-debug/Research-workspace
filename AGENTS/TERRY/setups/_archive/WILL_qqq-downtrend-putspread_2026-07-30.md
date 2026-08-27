@@ -2,7 +2,16 @@
 **Card ID:** `TRY-WILL-QQQFADE`
 **Date:** 2026-07-30 (built ~11:20 ET, market open, live marks stamped inline)
 **Thesis owner:** **WILL** — his own directional read (*"I do not buy the upswing of the market today"*). ⚠️ **NO domain agent has confirmed this thesis.** TERRY does not own thesis (HARD BOUNDARY #3). See §7 for a live fleet-internal conflict.
-**Terry verdict:** ⏸️ **PARKED 2026-07-30 ~11:40 ET — Will-directed. DO NOT ACTION.**
+**Terry verdict:** 🔴 **RETIRED (terminal) — Will-ruled 2026-08-27 in-session (*"archive the QQQFADE card"*), on TERRY's ARCHIVE recommendation. 28 days PARKED · never armed · never fired · `$0` at risk from build to retirement.** Card filed to `setups/_archive/`.
+> **Why retired, the three reasons on the record — none of them tidiness:**
+> - **Its stated park reason was already DISCHARGED 2026-08-03.** The park was *"retained in case Will ever wants the durable expression"*; on 8/3 Will asked for a swing card and TERRY **built fresh strikes rather than reviving these** (recorded at the time in `INDEX.md`). **The condition the park was holding for arrived, and was met another way.**
+> - **Its replacement is already gone.** `TRY-WILL-QQQ-VFADE` — the card built to discharge this one — went terminal and was **formally closed 2026-08-13**, one day ahead of its 8/14 time stop. **The alternative that superseded this card no longer exists either.**
+> - **The structure was out of reach at the ruling.** **QQQ `719.58` live (2026-08-27 ~10:5x ET)** vs the long strike **`645` = −10.4% OTM**, short `620` = −13.8%, **22 DTE.** It needed a **>10% index crash inside three weeks** to reach the strike where it *starts* paying.
+>
+> ⛔ **NOT a refuted call and must never be scored as one.** The directional thesis was **WILL'S**, explicitly uncorroborated — no domain agent ever confirmed a QQQ short (see the header below and §7). **This card was never tested against the tape: it was parked at `$0` before it could be, and retired at `$0`.** Premise preserved un-graded, same disposition as `TRY-FIRE-001`.
+> ⚠️ **Retirement is TERMINAL, not a deeper park.** Reviving this expression means **re-underwriting from scratch on fresh marks** — never un-parking these 7/30 strikes.
+>
+> *Prior verdict (superseded 2026-08-27): ⏸️ PARKED 2026-07-30 ~11:40 ET — Will-directed. DO NOT ACTION.*
 > **Why parked:** Will's stated view was explicitly about **today** (*"I do not buy the upswing of the market today"*), and he holds 0–1 DTE instruments that **correctly match that horizon.** TERRY built this 7-week card against a durable macro thesis **Will never claimed** — importing the morning's VIXCS "right thesis, wrong tenor" lesson as a lens rather than testing it as a hypothesis. **The tenor critique that motivated this card was not valid.** Retained on file in case Will ever wants the durable expression; **it answers a question he did not ask.**
 >
 > *Prior verdict (superseded): 🟡 CONDITIONAL — structure clean and the tenor fix real, but the thesis premise Will stated is NOT the one the data supports, and I re-based it before building (§0). Conditional on Will accepting the re-based premise.*
