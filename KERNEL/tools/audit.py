@@ -239,6 +239,8 @@ def verify_durable_results(
     for command_id, count in sorted(result_ids.items()):
         if count > 1:
             check.findings.append(Finding("AUDIT_DUPLICATE_RESULT", command_id, "$results"))
+        if command_id not in submission_ids:
+            check.findings.append(Finding("AUDIT_UNEXPECTED_RESULT", command_id, "$results"))
 
     for command_id in sorted(submission_ids):
         count = result_ids.get(command_id, 0)

@@ -230,6 +230,16 @@ class DurableResultAuditTests(unittest.TestCase):
         duplicates = [finding for finding in result.findings if finding.code == "AUDIT_DUPLICATE_RESULT"]
         self.assertEqual([finding.message for finding in duplicates], [self.forecast["command_id"]])
 
+    def test_result_outside_submission_inventory_is_blocking(self):
+        result = verify_durable_results(
+            [self.question],
+            [accepted(self.question), accepted(self.forecast)],
+            pass_reported_success=True,
+        )
+        self.assertEqual(result.status, "EXCEPTION")
+        unexpected = [finding for finding in result.findings if finding.code == "AUDIT_UNEXPECTED_RESULT"]
+        self.assertEqual([finding.message for finding in unexpected], [self.forecast["command_id"]])
+
     def test_missing_result_after_reported_success_is_audit_gap(self):
         result = verify_durable_results(
             [self.question, self.forecast],
