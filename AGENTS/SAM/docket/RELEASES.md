@@ -110,4 +110,6 @@
 
 *MOF Sep auction-calendar alteration page (`2609ae.htm`) checked 2026-07-31: 404 — no alterations exist for September yet (consistent with the Jul/Aug precedent of alterations appearing mid-month, not at month-start). **Re-check due early September** (or at the October audit).*
 
+| 2026-08-27 | MOF monthly intervention data (feio index) — re-check, NOT a new confirm | ⚠️ **STILL UNRESOLVED between ~Fri 8/28 and ~Mon 8/31.** Fetched `mof.go.jp/english/policy/international_policy/reference/feio/` at primary: latest posted release is still Jul-31 (Jun29-Jul29 window); no August window posted as of this check. This is consistent with either candidate date — the page carries no forward-looking "next release" date, so it cannot itself distinguish 8/28 from 8/31. Re-confirm again next session (after 8/28 has passed). | `mof.go.jp/english/policy/international_policy/reference/feio/`, checked 2026-08-27 |
+
 *Add rows as dates are confirmed. Keep this table short — it's a verification scratchpad, not a full calendar (the calendar is `CALENDAR.md` / `CATALYSTS.tsv`).*

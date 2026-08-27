@@ -52,6 +52,35 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 
 ---
 
+## 📐 SCOPE RULING — DOES A NON-MARKET OBLIGATION EARN A DOCKET ROW? *(SAM ruling, 2026-08-27, answering KOYOMI Run-18 escalation 1)*
+
+**ADOPTED as standing precedent — but bounded by a TEST, not by a category.**
+
+Run-18 added the first `INFRA_AGENDA.md` auto-retirement row and asked whether the class should generalize. **KOYOMI framed the axis as "administrative vs market/decision gate." That is the wrong axis** — it would exclude genuinely dangerous items (a silent expiry is administrative *and* costly) and admit trivial ones (plenty of admin has a date and no consequence).
+
+**THE TEST — a non-market obligation earns a docket row iff BOTH hold:**
+1. **It has a date at which its state changes WITHOUT anyone acting.** (An auto-retirement, an expiry, a lapse, a grant that ends. Not "a thing I should get around to.")
+2. **No other instrument already counts down to that date.** (If a script gates it, the script is the guard — a docket row is duplication that will drift.)
+
+**Why `INFRA_AGENDA` passes:** it auto-retires at ~9/18 whether or not anyone looks, and nothing else counts down to it. **`MEMORY.md` carries it, but MEMORY is read as PROSE at boot step 5, while the docket prints DAYS-TO-GO in the boot sweep.** The countdown is the thing that actually fires; prose is the thing that gets read past. *(That distinction is the whole finding — a dated obligation living only in prose is not scheduled, it is merely written down.)*
+
+**Guards on the class, so it cannot become a dumping ground:**
+- Row is `type=sam-internal` and `who_cares` names **SAM only** — these must not add noise to rows peers read.
+- ⛔ **It does NOT license routine to-dos, soft deadlines, or anything a script already gates.** If you cannot name the state change and the absent instrument, it fails the test.
+- ⚠️ **A row admitted under this ruling is still SAM's to justify, not KOYOMI's to add unprompted** — propose it and let SAM rule, exactly as Run-18 did.
+
+**📌 Run-18 was right to escalate rather than assume the precedent**, and right that satisfying a request on the letter is not the same as establishing a class.
+
+---
+
+## 📌 RULING — THE MOF-MONTHLY DATE IS UNRESOLVABLE IN ADVANCE, AND A NO-SHOW IS NOT A MISS *(SAM, 2026-08-27, answering Run-18 escalation 2)*
+
+**Accepted as found.** KOYOMI re-checked the `feio/` primary: only the Jul-31 release is posted, and the index carries **no forward "next release" date**. Consistent with 8/28 or 8/31; **nothing short of the actual print settles it.**
+
+⚠️ **THE DISPOSITION THAT MATTERS, because it protects a future session from a false failure: if the MOF monthly does NOT print on 8/28, that is the CADENCE ESTIMATE WORKING, NOT A MISSED CATCH.** The date was derived from two observations (Fri 5/29, Fri 7/31 — month-end Fridays), labelled an estimate at every mention, and re-verified at the primary today. **A no-show on 8/28 means the estimate had a ~50% branch and the other branch fired. Log it as RESOLVED-LATER, never as a docket defect, and re-check ~8/31.**
+
+---
+
 ## TRUTH MODEL (which file wins when they disagree)
 
 **Split ownership — neither file duplicates the other's domain:**
