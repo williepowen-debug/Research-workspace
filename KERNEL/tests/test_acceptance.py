@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from acceptance import AcceptanceCheck, CLAIMS, FixtureAcceptanceRunner, format_acceptance_run  # noqa: E402
 from core import Finding, canonical_bytes  # noqa: E402
+from custody import load_custody, run_with_custody  # noqa: E402
 from permissions import PermissionRegistry  # noqa: E402
 from test_native import SyntheticGitRepository, ref, tsv_line  # noqa: E402
 from test_permissions import command, submission_path  # noqa: E402
@@ -72,6 +73,66 @@ class IntegratedAcceptanceTests(unittest.TestCase):
 
     def paths(self, *commands: dict) -> dict[str, str]:
         return {candidate["command_id"]: submission_path(candidate) for candidate in commands}
+
+    def custody_policy(self):
+        return {
+            "schema_version": "kernel.custody.1",
+            "policy_version": "kernel.policy.1",
+            "primary_writer_id": "PROME",
+            "substitutes": [
+                {"writer_id": "RED", "command_accept_default": False, "registered_by": "WILL"},
+            ],
+        }
+
+    def custody_activation(self):
+        return {
+            "schema_version": "kernel.custody.1",
+            "policy_version": "kernel.policy.1",
+            "activation_id": "CUSTODY-SYNTHETIC-001",
+            "authorized_by": "WILL",
+            "substitute_writer_id": "RED",
+            "window_start": "2026-08-26T11:00:00.000000Z",
+            "window_end": "2026-08-26T13:00:00.000000Z",
+            "command_ids": [self.question["command_id"]],
+            "revoked_at": None,
+        }
+
+    def test_custody_preflight_blocks_suspended_primary_before_any_write(self):
+        loaded = load_custody(self.custody_policy(), self.custody_activation())
+        run = run_with_custody(
+            self.runner(),
+            loaded,
+            writer_id="PROME",
+            recorded_at=RECORDED_AT,
+            submissions=[self.question],
+            submission_paths=self.paths(self.question),
+        )
+        self.assertEqual(run.status, "EXCEPTION")
+        self.assertFalse(run.outcomes)
+        self.assertFalse(list(self.store.root.glob("**/*.json")))
+        self.assertEqual(run.checks[0].name, "custody")
+
+    def test_activated_substitute_runs_identical_acceptance_binary(self):
+        loaded = load_custody(self.custody_policy(), self.custody_activation())
+        runner = FixtureAcceptanceRunner(
+            self.store,
+            writer_id="RED",
+            registry=self.registry,
+            git=self.repo.git,
+            event_id_for=lambda candidate: EVENT_IDS[candidate["command_id"]],
+            recorded_at_for=lambda _candidate: RECORDED_AT,
+        )
+        run = run_with_custody(
+            runner,
+            loaded,
+            writer_id="RED",
+            recorded_at=RECORDED_AT,
+            submissions=[self.question],
+            submission_paths=self.paths(self.question),
+        )
+        self.assertEqual(run.status, "PASS")
+        self.assertEqual(run.outcomes[self.question["command_id"]].document["writer_id"], "RED")
+        self.assertEqual(run.checks[0].status, "PASS")
 
     def test_valid_reverse_ordered_batch_runs_complete_path_in_dependency_order(self):
         run = self.runner().run(

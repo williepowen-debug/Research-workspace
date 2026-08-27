@@ -50,7 +50,7 @@ authorized. Completing C1–C6 does not activate shadow operation.
 | C1 | APPROVED 2026-08-26 | `GATE_C_C1_PILOT_CONTRACT_DRAFT.md` |
 | C2 | APPROVED / INSTALLED / INACTIVE 2026-08-26 | Root `CLAUDE.md` carve-out ④, root `AGENTS.md` pointer, `tools/git_policy_check.py`, and six synthetic tests |
 | C3 | COMPLETE / PRIMARY PASS 2026-08-26 | `tools/gate_c_boundary.py`, eleven synthetic-mirror tests, and `GATE_C_C3_SYNTHETIC_BOUNDARY.md` |
-| C4 | NOT AUTHORIZED | Await separate Will ruling |
+| C4 | TECHNICAL PASS / SUBSTITUTE NAME REQUIRED | `tools/custody.py`, fourteen synthetic tests, and `GATE_C_C4_CUSTODY.md`; Will must name the dormant substitute before closure |
 | C5–C8 | NOT AUTHORIZED | Separately gated as specified above |
 
 ## Required implementation properties
