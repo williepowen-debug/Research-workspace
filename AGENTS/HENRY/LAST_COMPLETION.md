@@ -1,57 +1,61 @@
 # HENRY — LAST COMPLETION
 
-**Session:** 2026-08-27 (Thu) ~14:15–15:xx ET — **catch-up boot after 3 dark days (8/24–8/26)** · **Status: COMPLETE**
+**Session:** 2026-08-27 (Thu) ~14:15–15:3x ET — **catch-up boot after 3 dark days (8/24–8/26), then a Will-directed self-audit** · **Status: COMPLETE**
 
-**RESULT:** The mechanical amplifier turned **OFF** (gamma flipped positive) — but it flipped on a **single stock**, and the credit tail did not move at all. HEN-43 graded **NOT-WITHDRAWN, three days late**. My own thesis kill is now **7bp away, for the wrong reason**.
+**RESULT:** The mechanical amplifier turned **OFF** — and it turned off on **one stock**. Meanwhile the credit tail did not move at all. HEN-43 graded **NOT-WITHDRAWN** (three days late). Then you asked me to audit this file, and the audit found **~24 defects, ~16 of them mine from the same session.**
 
 ---
 
 ## CHANGED
-`STATUS.md` (rotated 305 → **249** lines, under the 250 cap) · `workbook/PREDICTIONS.tsv` (HEN-43 graded) · `workbook/KB.tsv` (+4 rows → ML-HEN-157) · `workbook/MARKET_DATA.tsv` (+1 settled row) · `board_log.tsv` (246 → **249**) · `workbook/VX.tsv` **FROZEN** · `workbook/FLOW.tsv` **FROZEN** · `CLAUDE.md` (frozen-ledger pointers + Stale Data Rules) · `MAINTENANCE.md` · `MEMORY.md` · `NEXUS_BRIEF.md` · `status_archive/STATUS_ARCHIVE_2026-08.md` (+116 lines verbatim) · inbox 5→0, WALTER lane 2→0
+`STATUS.md` (305 → **249**, four Class-A rotations, all verbatim to archive) · `NEXUS_BRIEF.md` · `MEMORY.md` · `LESSONS.md` (+2 entries) · `CLAUDE.md` · `MAINTENANCE.md` · `workbook/PREDICTIONS.tsv` (HEN-43 graded) · `workbook/KB.tsv` (+5 → ML-HEN-158) · `workbook/MARKET_DATA.tsv` · `workbook/VX.tsv` **FROZEN** · `workbook/FLOW.tsv` **FROZEN** · `board_log.tsv` (246 → 250) · `status_archive/` (+4 rotations) · inbox 6→0, WALTER lane 2→0
 
-## Session Work
+## Session Work — the market
 
-**1. 🔑 Dealer gamma FLIPPED POSITIVE — the amplifier that ran 8/20–8/23 is off.**
-Net GEX **−$19.0B [8/23] → +$24.4B [8/27]**, flip **~7,690**, spot **7,724.92 = +35 above** ⇒ dealers now *dampen*. **But this is contingent, not established:** SPX chopped 7,652–7,677 **below** the band for three sessions, then **gapped +43pts through it the session after NVDA reported.** The flip is a **boundary, not support**, and the band moved **down** (7,709–7,723 → 7,690–7,706), so the re-arm level is lower than it was.
-🔴 **Walls unpublishable for the 5th time (published as "6th"; corrected in the self-audit) and in the worst form yet** — both horizons degenerate (14d put=call=7,700; 35d put=call=8,000) **and 300pts apart from each other.**
+**1. Dealer gamma FLIPPED POSITIVE.** −$19.0B [8/23] → **+$24.4B**, flip **~7,690**, SPX above ⇒ dealers dampen. ⚠️ **Contingent, not established:** SPX chopped *below* the band three sessions and gapped through only after NVDA. The flip is a **boundary, not support**, and it moved **down**, so the re-arm level is lower. **Walls withheld for the 5th time**, worst form yet (both horizons degenerate, 300pts apart).
 
-**2. 🔑 NVDA repaired NVDA, not the complex.** NVDA **+8.39%** to $227.26 [in-flight]; `^SOX` **+1.36%**, still **−6.75% below its 8/17 level.** The one name that could resolve the August semis unwind resolved it and the complex stayed put ⇒ **my 8/23 semis-specific read confirmed from the opposite direction, and the Path-B igniter is NOT retired.**
+**2. NVDA repaired NVDA, not the complex.** NVDA **+8.3%**; `^SOX` **+1.5%** and still **−6.6% under its 8/17 level.** ⇒ **Path-B igniter NOT retired.**
 
-**3. ✅ HEN-43 graded — falsifier NOT met, migration read NOT withdrawn.** 2 calm rows maximum against a line of ≥5 (six not calm, two unscored). **Verdict robust on the four FRED-primary rows I re-pulled myself**, and **identical on all three candidate vintages (8/21, 8/24, 8/26)**.
+**3. The state worth holding: equity vol priced for calm (VIX 14.6, VIX9D 12.2, clean contango) while distressed credit is priced for stress (CCC−BB 875, CCC +90bp/3mo vs BB −8bp) — on the same days.**
 
-**4. 🔴 The honest risk, and it points at me — with a correction that makes it LESS alarming than I first told you.** ⚠️⚠️ **CORRECTED 8/27 self-audit: 267 is NOT the closest ever. `BAMLH0A0HYM2` printed **263bp [2026-06-17] was 4bp nearer than today.** ⚠️ **RE-CORRECTED — TWO WINDOWS, do not fuse them.** ① **Thesis's life** (the `<260` leg has been on STATUS since **2026-03-16**, n=119): minimum **263 [2026-06-17]**; today's 267 merely **ties 7/7** and sits 4bp above the period low. ② **Full 3-year series** (n=787): **exactly ONE sub-260 print — 259.0 [2025-01-22]** ⇒ **the line HAS been broken once, before this leg was registered on my file.** ⛔ **My first correction listed 2026-01 prints inside a thesis's-life claim and wrote the dates year-unqualified, colliding with RED's canonical 2025-01-22 — a correction pass carrying its own defect, found by a peer and not by me.** 📊 **The seam PROME flagged is NOT a conflict: my "one sub-260 day" is a RAW-DAY count; RED's "0.0% of 3y" is the s=3 WINDOW rate. A single isolated day cannot complete a 3-session window; both re-verify.** **Today's 267 is no extreme on either window, and my error ran ALARMIST inside my own risk disclosure — after I had escalated it to Will and PROME.****  HY **267 [FRED 8/26]** is **7bp** from my <260 soft-kill leg; the VIX leg is satisfied at spot. **0 joint sessions ever** — HY has never printed sub-260 (one day in three years). **But HY is reaching 267 because BB compressed to 156, not because the distressed tail healed** (CCC 1,031, gap 875, CCC +90bp/3mo vs BB −8bp). ⇒ **My thesis's kill switch is being walked toward by the exact averaging artefact my thesis says to distrust. I am not relaxing the leg to escape it.**
+**4. HEN-43 GRADED — falsifier not met, migration read not withdrawn.** 2 calm rows max vs a line of ≥5. Robust on the four FRED-primary rows alone; identical verdict on all three candidate vintages ⇒ **the lateness did not buy the answer.** ⛔ **A falsifier that did not fire is not a confirmation.**
 
-**5. 🔑 Same-kill class is now n=3.** RED registered **FT-12 (HY<260, s=3)** today — my leg 1's threshold, my FRED series, shorter sustain. With LIQUID's `GATE-HY-REKILL` that is **three surfaces keying one series.** If HY breaks 260, three desks report a firing and a reader counting agents sees three witnesses where there is one. ⚡ **Corrected same session:** `FT-12` is a **necessary-but-not-sufficient precursor**, not a 2-session countdown — **my leg 1 is half of a conjunction** (H-1: VIX<15 AND HY<260 on the same session). `FT-12` can fire repeatedly while my kill never fires. **I published the loose version to RED and PROME, RED began encoding it on their row, and I corrected it within the sitting.**
+**5. Brent −8.5% in three sessions** (94.39 [8/21] → 86.36 [8/26]) on the Iran–Oman **interim** framework — **second energy impulse in six weeks to die before the CPI that would measure it.**
 
-**6. Two dead ledgers frozen, both overdue.** `FLOW.tsv` — executed **its own written rewrite-trigger** (due 8/15, 12 days late). `VX.tsv` — its "LIVE" section was 3 rows at 65 days carrying **VIX 18.95 against an actual 14.64**; consumer check run first (no live fleet surface cites `VX-HEN` rows). boot.py needed no change.
+**6. LIQUID's repo-to-IORB finding consumed and independently re-derived** — SOFR−IORB medians −10/−11/−10/−8/−5/−1bp (2021→2026) reproduce to the decimal on all six years, and run **against** the policy level. Changes the **conversion rate** from shock to price in my cascade; moves no level I hold.
 
-**7. Mail cleared: inbox 5→0, WALTER lane 2→0.** RED closed both my 8/23 items — **my item ② premise was false** (FT-06's exit was defined 8/12; RED never routed it to the row's own recipient chain, which names me — **their defect, logged as theirs**). BOND **rejected the evidence I offered** on `sb0607` (a 2bp gap on one session) and answered with a better instrument, the 10s20s30s butterfly: the 20Y entered the announcement at the **93rd percentile of its own dislocation and left at the 52nd** ⇒ liquidity-support, **strengthened**; **my front-end pin was adopted as the stronger half of my own packet.**
+**7. Mail cleared.** RED closed both my 8/23 items (my item ② premise was false — **their routing defect, logged as theirs**). BOND **rejected the evidence I offered** on `sb0607` and answered with the 10s20s30s butterfly; **adopted my front-end pin as the stronger half of my own packet.**
 
-## Corrections against my own surfaces
-- **SKEW basis:** Yahoo `^SKEW` publishes **lagged** — boot's "142.96 [8/27]" is the **8/26 close.** Every SKEW figure I publish off `boot.py` is dated one session back; stamped that way from here.
-- **SKEW emphasis:** **`>140` is this index's modal state (54–65% of sessions).** The rare event was the sub-140 spell, not its ending — **I measured a real step change and was reading a modal state as an event.**
-- **Brent:** my boot bar read **88.92 `[FUTURES BAR]`** and does not reconcile to WALTER's **86.36 [8/26 settle]** at the stated percentage. Carried provisional; WALTER's settle is the datum. *(The guard I shipped 8/23 caught my own number four days later.)*
-- **Grading late:** HEN-43 was due 8/24 and graded 8/27. Recorded as a discipline defect **and** checked — the delay did not change the verdict.
+## Session Work — the audit (Will-directed)
+
+**~24 defects. Measured against `0ecb7bfaf^`, not recalled: ~10 authored today · ~6 caused today · ~8 inherited.**
+- **Four false superlatives about my own instruments** — **two authored, two inherited-and-re-certified** (I refreshed the number beside the adjective, which certifies it without re-deriving it).
+- **Seven internal contradictions**, all from refreshing the top of the file and leaving downstream surfaces asserting the state I'd just reversed. **`ACTIVE THRESHOLDS` was 13-of-16 stale** while every one of those metrics had a fresh value elsewhere in the same file.
+- **Worst-sited:** `NEXUS_BRIEF` — the surface other desks boot-load — carried a bullet labelled *"GAMMA — CURRENT"* holding a 7/31 read, asserting **negative** gamma and **publishing wall levels I've withheld five times running.**
+- **Two more defects in the correction pass itself**, both found by a peer.
+
+## ⚠️ Corrections that reached you before I caught them
+1. **"My kill is closer than it has ever been"** — **FALSE.** HY hit **263 [2026-06-17]**; over the full 3y there is **one** sub-260 print. Today is no extreme. **My error ran alarmist, inside my own risk disclosure.**
+2. **"21 defects, 7 created by me today"** — **wrong by roughly double** (~16 of ~24). **Every intermediate version of the count read better for me**, and the honest split only arrived when a peer's caveat forced a third re-measure.
 
 ## GAPS / Still pending
-- **`consumer_check.py`:** PROME's `--self` **crashes** (`own_dir=None` at :842 vs the guard at :795) because PROME lives at `PROME/`, not `AGENTS/PROME/` — **a root-mandated closeout step that cannot run.** PROME asks (a) path fallback or (b) clear error + `--help` note; a decline is a real answer. **Not fixed this session** — root `scripts/` is DAEDALUS's lane and I owe semantics agreement first. Separately still open: **text-needle boundary checking** (LABOR's `31/75` matching inside `431/75.48`).
-- **audit-E2 cross-horizon wall guard** — 5th occurrence (count corrected), still unfixed. Strongest evidence yet for fixing it.
-- **HEN-36 successor** — instrumented, **deliberately not registered**; needs a two-sided test on the neocloud/HY channel.
-- `domain/ECON_CALENDAR.md` docket still expired (audit C3).
+- **Structural, and the real finding: not one automated check I run reads a file's content and tests it against itself.** Re-run against the known-defective file: `claim_check` ✓, `orphan_check` 0, `ledger_staleness` all fresh. `boot.py`'s N5 capture-time guard is the **only** content-level guard I have, and it was the only instrument that caught anything today.
+- **`consumer_check.py`:** PROME's `--self` crashes (`own_dir=None`); I owe an answer, plus the text-needle boundary fix. Root `scripts/` is DAEDALUS's lane — semantics agreement first.
+- **audit-E2 cross-horizon wall guard** — 5th occurrence, unfixed.
+- **HEN-36 successor** — instrumented, deliberately unregistered; needs a two-sided test.
+- `domain/ECON_CALENDAR.md` docket still expired.
 
-## COMMITS
-- **`0ecb7bfaf`** — *HENRY catch-up boot 2026-08-27: the amplifier turned OFF on a one-name move, HEN-43 graded three days late, and my own kill line is 7bp away for the wrong reason* (21 files, path-scoped to `AGENTS/HENRY/`)
-- Pushed via `scripts/safe-push.sh` — fast-forward, literal `Pushed.` confirmed, range `4d246d30e..0ecb7bfaf`.
-- ⚠️ **VIOLET was running concurrently with uncommitted work staged in the shared index.** The commit was path-scoped to `AGENTS/HENRY/` so none of it leaked in — verified post-commit (0 non-HENRY paths). VIOLET's files were left untouched.
+## COMMITS (9, all pushed)
+`0ecb7bfaf` catch-up boot · `8403c3e9c` push receipt · `3c0bb21b5` FT-12 conjunction correction · `eb3315a35` audit corrections · `d832e0da3` LIQUID packet + HEN-41 rotation · `8c98a57fd` correction-of-the-correction · `78e5bff3e` structural half · `da17fe566` re-measured defect count · `2d20df780` handoff gap
 
-## NEXT SESSION FOLLOW-UP (catalyst dates)
-- **🔴 Fri 8/28 — TRIPLE-STACKED: QCEW + Warsh's first Jackson Hole keynote 10:00 ET + HEN-42's grading close (resolves 8/29).** **HEN-42 → DENY, ~20%:** 2s10s **+34 [7/23] → +47 [8/25]**, held steeper five weeks; flipping leg 1 needs a **16bp one-session flattening — 0 of 658 sessions since Jan-2024** ⇒ **the keynote cannot rescue it.** No escape hatch, no re-dating.
-- **9/8** Canada retaliation (dated) · **9/9** RED FT-11 goes live with its precondition **already satisfied** (−11.0bp) · **9/11** August CPI · **~9/01** SKEW 20d re-cross at flat spot.
+## NEXT SESSION FOLLOW-UP
+- **🔴 Fri 8/28 — TRIPLE-STACKED: QCEW + Warsh's first Jackson Hole keynote 10:00 ET + HEN-42's grading close (resolves 8/29).** **Expect DENY (~20%):** 2s10s **+34 [7/23] → +47 [8/25]**, held five weeks; leg 1 needs a **16bp one-session flattening — 0 of 658 sessions** ⇒ Warsh-immune. **No escape hatch.** If DGS hasn't posted, grade on the latest published date and say so.
+- **9/3** — decide whether the grep-the-old-regime rule earns a DAEDALUS fleet route or gets dropped (RED's condition; **do not adopt-by-copy**).
+- **9/8** Canada retaliation · **9/9** RED FT-11 goes live with its precondition already satisfied (−11.0bp) · **9/11** August CPI · **~9/01** SKEW 20d re-cross.
 
 ## THESIS SNAPSHOT (frozen at close)
-Amplifier **OFF but contingent on one stock** · igniter **NOT retired** (`^SOX` still −6.75% under 8/17) · **equity vol priced for calm (VIX 14.64) while distressed credit is priced for stress (CCC−BB 875)** — the migration read's core observable · rates leg **heading to DENY** on HEN-42 · **twin soft-kill 7bp away and approaching through composition, not healing.**
+Amplifier **OFF but contingent on one stock** · igniter **NOT retired** · **equity vol calm / distressed credit wide, same days** — the migration read's core observable · rates leg **heading to DENY** · twin soft-kill **7bp away but not at an extreme**, approaching through composition rather than healing.
 
 ## WILL_NEEDS
-**Nothing blocking.** Two things worth your eye:
-1. **HEN-42 grades tomorrow and I expect to mark my own prediction DENY** — the registered call fails on the letter and I am declining the two available escape hatches (re-dating around Jackson Hole; re-reading the window as 7/17→7/23).
-2. ⚠️ **CORRECTED — I told you this was "closer than it has ever been." It is not: within the thesis's life the minimum is **263bp [2026-06-17]**, 4bp nearer than today; and over the full 3-year series there is **exactly one sub-260 print, 259.0 [2025-01-22]** — the line has been broken once, before this leg was registered. Today's 267 is no extreme on either window.** My thesis's own kill line is 7bp away and is being approached because high-quality credit rallied, not because stress eased. **If it fires I will take the kill rather than relax the rule** — flagging now so it is not a surprise if it happens.
+**Nothing blocking.** Two things:
+1. **HEN-42 grades tomorrow and I expect to mark my own prediction DENY.**
+2. **The analysis I gave you rests on FRED-primary figures re-pulled and re-verified today. The surfaces carrying it were unreliable until this afternoon**, and the mechanism is fixed for only one of four failure modes. **Three of today's four corrections were triggered externally — by you or by a peer.** That is the honest weight to put on this desk's self-checks right now.
