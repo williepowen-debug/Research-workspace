@@ -52,7 +52,8 @@ authorized. Completing C1–C6 does not activate shadow operation.
 | C3 | COMPLETE / PRIMARY PASS 2026-08-26 | `tools/gate_c_boundary.py`, eleven synthetic-mirror tests, and `GATE_C_C3_SYNTHETIC_BOUNDARY.md` |
 | C4 | COMPLETE 2026-08-26 | RED registered dormant in `policies/custody-policy.json`; custody mechanism, fifteen synthetic tests, and `GATE_C_C4_CUSTODY.md` |
 | C5 | COMPLETE 2026-08-26 | SAM-33 approved; SAM-owned companion committed at `1d9400425`; strict command and exact native-reference preflight pass |
-| C6–C8 | NOT AUTHORIZED | Separately gated as specified above |
+| C6 | COMPLETE / INDEPENDENT PASS 2026-08-26 | `GATE_C_C6_REHEARSAL.md`; disposable two-command rehearsal, abort/retry/rebuild, audits, and remediated adversarial review passed |
+| C7–C8 | NOT AUTHORIZED | Separately gated as specified above |
 
 ## Required implementation properties
 
@@ -110,7 +111,6 @@ Before requesting C7, the packet must contain:
 
 ## Immediate next action
 
-Draft checkpoint C1's bounded pilot contract and checkpoint C2's proposed Git
-carve-out for review. These are documents only. Do not install the carve-out,
-inspect a real native record, or implement a live adapter until separately
-approved.
+Present the C7 activation packet for a separate operator ruling after fixing its
+exact start and end timestamps. Do not create live commands or results, activate
+custody, or begin shadow operation before that ruling.

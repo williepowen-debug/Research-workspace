@@ -3,7 +3,7 @@
 
 ## ★ NEXT SESSION — START HERE
 
-**0. KERNEL BUILD HANDOFF — 2026-08-26.** Gate C C1–C5 complete. Will approved SAM-33; SAM's native companion committed at `1d9400425`. Strict representative Question/Forecast commands and exact TSV+JSON Pointer material-term verification pass after an independently caught timestamp-format correction. **NEXT:** await separate C6 disposable-rehearsal authorization. **BOUNDARY:** no durable command/result, custody activation, shadow operation, or authority switch is authorized.
+**0. KERNEL BUILD HANDOFF — 2026-08-26.** Gate C C1–C6 are technically complete. The exact two-command SAM-33 disposable rehearsal passed dry-run/apply, views, audits, projection rebuild, custody abort, and retry after five integration defects were found and fixed, including an independent-review exact-scope audit blocker; 191 tests pass. Evidence: `KERNEL/GATE_C_C6_REHEARSAL.md`. **NEXT:** separate C7 operator ruling with an exact time window. **BOUNDARY:** no live command/result, custody activation, shadow operation, or authority switch is authorized.
 
 **0a. CLOSEOUT GATE CAVEAT — unrelated to KERNEL:** `prome_gate.py closeout` reported the pre-existing Forum-4 N10 ORA deferral as blocking because the PROME/Will-owned DOCKET row remains pending without a named coverage disposition. This KERNEL session did not adjudicate or rewrite that research/governance item. Fresh PROME must grade it, name coverage, or take it to Will before claiming the full repository closeout gate is green.
 
