@@ -185,3 +185,34 @@ The cohort was selected under **ratio-era priors**: MTB, HBAN and VLY were admit
 **If the screen's question is "which bank is most concentrated," the current cohort is fine. If it is "where is hidden CRE pooling," the selection rule is measuring the wrong population** and a size-ranked or dollar-ranked frame is the right one (`finding_ranked_head_sample_is_not_the_population` — a cohort chosen by the ranked head of one metric cannot answer a question about a different metric).
 
 **Deliberately not closed this session**, because re-cutting the cohort mid-instrument would silently change what every prior figure means. **Read-path so it cannot rot:** carried on ROADMAP as a dated thread and named in the script header beside `COHORT` (*"do not silently grow the list"*), so the next runner meets the question at the point of temptation. **Decide it before the 2026Q3 run**, so any change lands on a quarter boundary with both cohorts reported once.
+
+---
+
+## 2026-08-27 — CLASS RULING CONSUMED: lagged-publication series grade-date (Will, option (i))
+
+**Record:** `PROME/proposals/2026-08-27_lagged-series-grade-date-RULED.md` — Will in-session ~14:0x ET, verbatim *"Approve option (i) as the class ruling - go ahead."* Arrived via PROME 8/27. **Consumed here, not re-derived.**
+
+**The rule.** Where a registered row's criteria name a metric from a lagged-publication series *"on `<date>`"*:
+1. **The observation DATED `<date>` governs.** No substitute observation — an earlier print merely *available on* that date does not instantiate the cell.
+2. **The grade WAITS for that observation to publish.** The strike time slips to the publication moment; **the referent never moves.** A publication lag is a transport artifact, not a spec term.
+3. Non-lagged legs of the same row read at their own time and are **held**, with the grade marked **PROVISIONAL on its face** until the lagged leg publishes.
+4. **It is a READING RULE for existing frozen letters, not an edit to any of them.**
+
+**Which REGINALD surfaces this governs — audited 8/27, not assumed:**
+
+| Row / vector | Series | Lagged? | Effect |
+|---|---|---|---|
+| `REG-T-03` HY OAS >320 | FRED `BAMLH0A0HYM2` | ✅ **T+1** | governed |
+| `VX-REG-18.04` CCC/HY >3.6× ×3 consec | FRED `BAMLH0A3HYC` ÷ `BAMLH0A0HYM2` | ✅ **T+1** | governed |
+| Claims >300K | FRED `ICSA` | ✅ weekly + lag | governed |
+| Funding plumbing SOFR−IORB | FRED | ✅ T+1 | governed |
+| 30Y level reads | FRED `DGS30` | ✅ T+1 | governed |
+| `REG-T-06` FHLB advances | FHLB OF combined report | ✅ **quarterly, ~30d** | governed — and this is the one with a live forward fire (leg 3, ~Nov) |
+| **`REG-T-01` KRE <$60** | yfinance regular-session close | ❌ same-day | **NOT governed** |
+| **`REG-T-02` WAL <$78** | yfinance regular-session close | ❌ same-day | **NOT governed** |
+
+⚠️ **The distinction that matters at fire time:** `REG-T-02`'s `value_basis` is *regular-session close* — same-day readable, so it is graded **on the day, at the close, and never off an intraday print**. **The lagged-series rule does NOT license waiting on it, and does NOT license grading it early off a last-trade.** Two different disciplines, opposite directions, and conflating them would be the expensive error.
+
+⚠️ **Practical effect on my consecutive-session counting** (`VX-REG-18.04`): a run counted *"through 8/26"* is legitimate only once the 8/26-dated observation has published — which for a T+1 series is 8/27. **Count dated observations, never "latest available."** *(My 8/27 recount satisfies this: 19 sessions through the 8/26 observation, published 8/27.)*
+
+**Not ruled, and I am not assuming it:** MIDAS's ask ② (observation-date and read-date as two separate registered fields) stays OPEN. Until it lands, `THRESHOLDS.tsv` carries no read-date column and this note is the read-path.
