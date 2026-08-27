@@ -57,6 +57,7 @@ BOOT_SEQUENCE = [
     ("JGB Auctions",               "jgb_auctions.py",      [], "JGB AUCTIONS", False),
     ("BOJ OIS (hike pricing)",     "boj_ois.py",           [], "BOJ OIS",      False),
     ("CFTC JPY Positioning",       "cftc_jpy.py",          [], "CFTC",         False),
+    ("Rate Differential (SAM-41)", "rate_differential.py", [], "SAM-41",       False),
     ("MOF Weekly Flows",           "mof_flows.py",         [], "MOF FLOWS",    False),
     ("GPIF Portfolio / Flows",     "gpif_flows.py",        [], "GPIF",         False),
     ("Japan Trade Balance",        "trade_balance_japan.py", ["--boot"], "TRADE BALANCE", False),
