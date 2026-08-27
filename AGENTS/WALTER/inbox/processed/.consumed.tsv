@@ -1,0 +1,4 @@
+# consume-declaration ledger (BOARD_CONSUMPTION_SPEC §5.1 / doctor filed_vs_consumed): a row here retro-certifies that the LIVE WALTER session consumed the named file before/at its move to processed/.
+consumed_date	file	consumer	note
+2026-08-23	2026-08-23_from-PROME_dark-owner-doorbell-RULED-adopt-with-three-amendments-and-four-riders.md	WALTER	consumed by live WALTER 8/23 midday session (the ruling was executed that session: SPEC v0.20 §3.5.7 + RULE 13 + DOORBELL_LOG created); move commit 0bf87b99f predated the declaration grammar's habit — retro-declared 2026-08-27
+2026-08-23	2026-08-23_from-TERRY_SIG-W-20260822-002-CONSUMED-with-a-basis-correction.md	WALTER	consumed by live WALTER 8/23 midday session (TERRY's refutation is folded into STATUS LIVE LEVELS + the -002 §3.6 marker chain); move commit 0bf87b99f — retro-declared 2026-08-27
