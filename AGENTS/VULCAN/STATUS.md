@@ -226,7 +226,6 @@
 ---
 
 ## BOTTOM LINE
-## BOTTOM LINE
 
 **As of 2026-08-27, after the NVDA print.** AI-capex is **accelerating, not rolling** — NVDA guided Q3 to **$108.0B** and hyperscaler capex is still being raised, so S1 stays **NOT-FIRED** and all five channels hold at **3 (composite 15/25)**; the systemic risk is building through *structure* rather than price. **The single most important reading is S5: NVDA's guarantee book went $3.5B → $108.5B in one quarter and the company now states in a filed document that its customers "lack the ability to secure… investment-grade financing capacity" — so the largest name in the index is underwriting part of its own forward demand, capped and indemnified but positively correlated with its own downside.** **Second, and new today: the physical memory leg turned** — DDR5 printed **−0.12%**, the first decline in the retained series, which fires VULCAN-16's pre-registered escape clause on the letter while being far too small to call a cycle roll. **Next:** the post-close reading grades VULCAN-16 today; TSMC August revenue ~9/10; **MU FQ4 ~9/22** (re-derived from MU's own filing history, not the ~9/29 I carried), which resolves three predictions on 9/30.
 
