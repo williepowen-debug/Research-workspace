@@ -56,6 +56,12 @@ ELEVATED_4W = 14000   # ¥1.4T — above THESIS base case upper bound
 STRESS_4W   = 35000   # ¥3.5T — entering THESIS stress case range
 CRISIS_4W   = 140000  # ¥14T — entering THESIS crisis case range
 
+# SAM's own registered WEEKLY bar (CLAUDE.md § KEY THRESHOLDS: 'MOF weekly LT-debt net
+# >¥1.5T selling => stress flow at weekly level'). Kept SEPARATE from the 4W ladder on
+# purpose: the 4W ladder is a ROLLING-SUM instrument and cannot see a single-week extreme
+# that a buying window absorbs. See the 2026-08-27 instrument-defect note below.
+WEEKLY_SELL_BAR = 15000  # ¥1.5T
+
 TSV_HEADER = "Period\tEquity_Net_oku\tLT_Debt_Net_oku\tSubtotal_Net_oku\tShort_Debt_Net_oku\tTotal_Net_oku\tLT_Debt_Net_T_yen\n"
 
 
@@ -222,6 +228,36 @@ def main():
     print(f"  Subtotal net:        {fmt_oku_as_yen(latest.get('subtotal_net') or 0)}")
     print(f"  Total net:           {fmt_oku_as_yen(latest.get('total_net') or 0)}")
 
+    # ---------------------------------------------------------------------
+    # WEEKLY ALERT — independent of the 4W ladder by design.
+    #
+    # INSTRUMENT DEFECT FOUND 2026-08-27 (class: rolling-sum instrument blind to a
+    # single-period extreme). Week 2026.8.16~8.22 printed LT-debt -¥1.978T -- the 10th
+    # most negative week in 1,129 back to 2005, and the 3rd most negative on both the
+    # equity+LT and total measures -- and this script printed "🟢 Net BUYING — no
+    # repatriation signal", because the ONLY alert path was keyed on the 4-week rolling
+    # (+¥1.264T, still buy-side after three buying weeks absorbed it).
+    #
+    # SAM's registered threshold is keyed on the WEEK; the alert was keyed on the SUM.
+    # A green light structurally could not fire SAM's own registered signal.
+    # This check is deliberately NOT nested inside the `len(rows) >= 4` block and NOT
+    # an elif of the 4W ladder: both would re-inherit the blindness being fixed.
+    # ---------------------------------------------------------------------
+    week_lt = latest["lt_debt_net"]
+    print(f"\n  WEEKLY ALERT (SAM registered bar: >{fmt_oku_as_yen(-WEEKLY_SELL_BAR)} selling in ONE week)")
+    print(f"  {'-'*60}")
+    if -week_lt > WEEKLY_SELL_BAR:
+        print(f"  🟠 WEEKLY SELL BAR TRIPPED — {fmt_oku_as_yen(week_lt)} LT-debt net selling")
+        print(f"     → Registered consequence: signal LIQUID (cross-agent bar) + PROME.")
+        print(f"     ⚠️  Yen-POSITIVE / UST-demand-NEGATIVE direction. ONE week, foreign LT debt")
+        print(f"        GLOBALLY (not USTs-specific).")
+        print(f"     ⛔ Does NOT re-open Channel 1: its re-add bar is a direct foreign-SALES")
+        print(f"        print across >=2 consecutive windows at >=2 institutions.")
+    elif week_lt < 0:
+        print(f"  ⚪ Weekly net selling {fmt_oku_as_yen(week_lt)} — inside the ¥1.5T bar")
+    else:
+        print(f"  🟢 Weekly net buying {fmt_oku_as_yen(week_lt)} — bar not applicable")
+
     # 4-week and 12-week rolling LT debt
     if len(rows) >= 4:
         last_4 = sum(r["lt_debt_net"] for r in rows[-4:])
@@ -251,7 +287,8 @@ def main():
         elif net_selling_4w > 0:
             print(f"  ⚪ Base case pace — {fmt_oku_as_yen(-net_selling_4w)} net selling")
         else:
-            print(f"  🟢 Net BUYING — no repatriation signal")
+            print(f"  🟢 4W rolling net BUYING — no repatriation signal ON THE 4W INSTRUMENT")
+            print(f"     ⚠️  Scope: this line is silent about the LATEST WEEK — see WEEKLY ALERT above.")
 
     # Recent history
     print(f"\n  RECENT HISTORY (last {min(weeks, len(rows))} weeks — LT debt net)")
