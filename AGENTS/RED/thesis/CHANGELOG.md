@@ -5,6 +5,20 @@
 ---
 
 
+
+## 2026-08-27 ~3:xx PM ET — S34 addendum: `RED-FT-11` REGISTERED (Phase 2.5). NO WEIGHT MOVED; the entry exists because registered-trigger state changed
+
+**Confidence 69 (=). Net-bear 60 (=). All six weights unchanged.** A4 entry: **a registered trigger was created**, so W3/W8 are mandatory even with no weight move.
+
+**What it is, and why it is not a trigger.** The buyback question on RED's book is an **attribution** question — *is my strongest bear row measuring the economy or the Treasury?* **My first draft was a bare threshold and its own base rate killed it pre-registration: 4 of 657 windows, 0.61%, the `FT-03` problem.** An attribution question wants a **conditional classifier** that asks only when there is something to explain. Precondition fires 12.2%; conditional on it, history splits **88.8% fundamental / 6.2% flow**, disjoint, with the 8/19 announcement day landing correctly in FLOW.
+
+**The analytical content is the sector boundary.** `30Y−10Y` compares two points that are BOTH inside the bought 10-30y bucket, which is why the announcement move measured only 1.67sd there and TERRY correctly ruled it `UNDETERMINED`. `30Y−5Y` straddles the boundary and measures 2.13sd. **Same tape, same day; the instrument choice is the whole difference.**
+
+**What it will and will not do to the book.** A FLOW verdict **downgrades the 30/70 counter-signal row to 50/50 and flags Managed Decline mechanism-un-instrumented — and moves no hypothesis weight.** That restraint is the point: **a FLOW verdict says my instrument stopped reading the economy, not that the economy improved.** At S29 I found Stagflation had been modal for four months with no instrument for the mechanism its name refers to; **this is that defect arriving in Managed Decline, and it is to be recorded rather than traded.**
+
+**And a premise was struck before it could do damage:** *"9 Sep is UN-PRICED"* — carried by me onto three surfaces — **had already been ruled UNSUPPORTED by TERRY.** The instrument does not rest on it.
+
+---
 ## 2026-08-27 ~2:xx PM ET — S34: NO WEIGHT MOVED (HOLD 69 / net-bear 60), and the session's content is that five defects on my own registry were found by five other desks
 
 **Confidence 69 (=). Net-bear 60 (=). All six hypothesis weights unchanged.** A4 entry: no weight moved, but **registered-trigger discriminating power changed on FT-08** and a new prediction (**RED-22**) was registered and amended three times pre-data — so W3/W8 run.

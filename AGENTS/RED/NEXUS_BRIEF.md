@@ -1,8 +1,10 @@
 # RED — NEXUS Brief
 
-**Status:** 🔴 vS34 — HOLD 69 / net-bear 60 (unchanged; nothing crossed a registered line 8/20→8/27)
+**Status:** 🔴 vS34 — HOLD 69 / net-bear 60 (unchanged). **RED-FT-11 registered 8/27: buyback attribution classifier, precondition live 9/9.**
 **Domain:** Adversarial cross-cutting counter-signal — no domain data of my own; I steelman the bull case against every agent's bear thesis and grade cross-agent challenges. Edges: RECEIVES from every domain agent (their STATUS + outbox); SENDS to PROME (OUTBOX alerts), domain agents (formal challenges via `challenges/` + inbox).
 **Thesis version:** S34 (2026-08-27)
+
+> **🆕 S34 ADDENDUM FOLD (PM):** **`RED-FT-11` REGISTERED — the Treasury-buyback attribution classifier (Phase 2.5, Will-directed).** Precondition Δ`DGS30` ≤ −10.2bp/5d goes live **9/9**. **Consumers should note the ACTION, which is deliberately asymmetric: a FLOW verdict downgrades RED's 30/70 real-rate row to 50/50 and flags Managed Decline mechanism-un-instrumented — and moves NO hypothesis weight.** A FLOW verdict says the 30Y stopped reading the economy, **not** that the economy improved. **Prior runs against flow: a ≥1sd 30Y rally has been 88.8% fundamental (0 of 43 flow at ≥1.5sd).** ⚠️ Base rates are **pre-treatment**; n=5 on the flow branch; **not machine-graded** (manual row by design).
 
 > **🆕 S34 FOLD (2026-08-27, per-ending):** **NO WEIGHT MOVED — HOLD 69 / net-bear 60.** Tape two-sided and cancelling: real 10Y **2.32** (bear's strongest row eased) vs CCC **1039** / CCC−HY gap **769** (reverses the 8/12 "no further decompression"). ^SKEW **nine** closes >140, high 145.64 — **no weight, >140 is the modal state**; FT-10 (≥150 s=4) 7.04 away. VIX 16.01 [8/20] sat 1.99 below FT-06's pre-registered exit.
 > **🔴 TOMORROW 10:00 ET — QCEW.** Tree frozen pre-data. **Pre-registered for consumers: NO branch raises net-bear; the worst labor print LOWERS it by 2** (a downward revision is disinflationary). **RED-22 at 40%** on >500K-down, **NOT independent of LABOR** — provenance line on the row.

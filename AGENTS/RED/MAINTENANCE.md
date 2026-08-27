@@ -12,6 +12,17 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 ---
 
 
+## 2026-08-27 (S34 addendum) — structural
+
+1. **`registry/FALSIFICATION_TRIGGERS.tsv` — `RED-FT-11` ADDED** (10 → 11 rows), `ARMED-UNFIRED`, precondition live **2026-09-09**. ⚠️ **It is a CONDITIONAL CLASSIFIER, not a threshold row, and `boot.py` correctly reports it `⚪ unmapped metric, manual check`.** That is disclosed rather than papered over: **a three-leg classification over a window has no single-metric comparator form, so it cuts against my own `ML-RED-156`** (machine-consumed registrations should carry their conjunction in the machine columns). **Labelled a MANUAL row.** Mitigation available later — the precondition alone (Δ`DGS30` 5-session) is mappable and would surface *when to look*.
+2. **`research/BUYBACK_ATTRIBUTION_2026-08-27.md`** — new: design, base rates, the struck first design, the 8/19 validation, four limits.
+3. **`workbook/ML.tsv`** — ML-RED-189.
+4. **`docket/CATALYSTS.tsv`** — 2026-09-09 row added (buyback step-up effective; FT-11 precondition goes live).
+5. **Routed AT THE WRITE** to BOND, TERRY and PROME inboxes — the `FT-06` lesson from this morning applied the same day (filling a `recipient_chain` is not routing).
+
+**Boot-impact:** registry is 11 rows; FT-11 prints ⚪ by design.
+
+
 ## 2026-08-27 (S34) — structural changes
 
 **Trigger:** Will-directed boot after 7 dark days + a Will-assigned KERNEL Gate C adversarial review.

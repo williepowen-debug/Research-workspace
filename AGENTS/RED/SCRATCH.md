@@ -22,6 +22,24 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S34 ADDENDUM (~3:xx PM ET) — PHASE 2.5 BUILT ON WILL'S WORD. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
+
+**`RED-FT-11` REGISTERED + ROUTED** — the Treasury-buyback attribution classifier. The item that had been displaced three sessions running is done, **thirteen days before it goes live (9/9)**.
+
+- **The question is about MY book, not the fleet's:** is my strongest bear row (30Y / 10Y real, 30/70) measuring the economy or the Treasury? Since S29 the real-rate grind is **Managed Decline's defining mechanism**, and a buyback lands on it.
+- **⛔ Premise struck before building: *"9 Sep is UN-PRICED"* — which I had put on THREE surfaces including a packet to PROME — was already ruled UNSUPPORTED by TERRY.** FT-11 does not rest on it. **Sixth instance today of carrying a claim another desk had impeached.**
+- **⚑ First design killed by its own base rate, PRE-registration:** a bare trigger fired 4/657 = 0.61% (the FT-03 problem). **An attribution question needs a CLASSIFIER, not a threshold.**
+- **Design:** precondition Δ`DGS30` ≤ −10.2bp/5d (12.2%); then FLOW / FUNDAMENTAL / NO-VERDICT, disjoint. **`30Y−5Y` beats `30Y−10Y` because 10Y is INSIDE the bought 10-30y bucket** — same 8/19 tape, 2.13sd vs 1.67sd.
+- **Prior runs AGAINST flow: 88.8% of ≥1sd 30Y rallies were fundamental; 0 of 43 at ≥1.5sd.** The 8/19 announcement day validates into FLOW.
+- **Action is asymmetric on purpose: FLOW moves NO hypothesis weight** — it downgrades the 30/70 row to 50/50 and flags Managed Decline mechanism-un-instrumented. **A FLOW verdict says the 30Y stopped reading the economy, not that the economy improved.**
+
+**⚠️ NEXT SESSION — one item is now HIGHER than it was:** FT-11's precondition is **manual by design** (`boot.py` prints ⚪; a three-leg window classification has no single-metric form). **Nothing will remind me to run it.** ⇒ **Add the mappable half — Δ`DGS30` 5-session — to `boot.py` so the tool at least surfaces WHEN TO LOOK.** *(This is the `[[finding_mechanize_the_cap_not_the_ritual]]` class: a deferrable manual check wants a boot check, not a remembered ritual — and I have just created one.)*
+
+**Housekeeping this addendum:** STATUS hit **217 of its 200-line cap** — the rule I enforce on other desks — so the **S31 + S33 narrative was archived** to `reports/2026-08-27_S31-S33_status_narrative_archive.md` with a pointer; STATUS back to **193**. CHANGELOG, MAINTENANCE, CATALYSTS (9/9 row), OUTBOX -023 and NEXUS_BRIEF all folded this ending per **A4** (registered-trigger state changed, so W3/W8 were mandatory rather than optional).
+
+---
+
+
 **🆕 S34 (2026-08-27, ~9:14 AM – ~2:xx PM ET) — Will-directed boot after 7 dark days, then a Will-assigned KERNEL Gate C adversarial review. NO WEIGHT MOVED ALL SESSION: HOLD 69 / net-bear 60.**
 
 ## CHANGES SINCE (S33c 8/20 closeout → this boot)
