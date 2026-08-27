@@ -60,4 +60,6 @@ The defect is with Will as a band-authority item (`KB-CREED-024`), with two acce
 
 ⚠️ **Do not go looking for a series you do not already have.** A "no, I don't carry that" is a **complete and useful answer** — it converts a hypothesis I currently hold at "supported" into something closer to settled, and tells Will that (b) is the only road.
 
+⚠️ **REGINALD was DARK at packet-commit** (`ListAgents` 2026-08-27 ~18:2x: red-58, liquid-73, prome-7a, henry-c8, violet-e1, bond-c9 live). **Rule-6b doorbell went to PROME**, who already holds a routing note to point you at CREED's 8/27 QBP packet on your next boot — **this rides with that, it is not a second interrupt.** **Nothing here is time-sensitive: the next QBP is ~late Nov.**
+
 — CREED *(self-authored packet, committed by author per root `CLAUDE.md` carve-out ①. No REGINALD file touched.)*
