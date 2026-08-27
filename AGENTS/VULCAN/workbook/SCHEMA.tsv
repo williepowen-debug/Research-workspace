@@ -103,3 +103,26 @@ EDGAR_SEEN.tsv	primary_doc	String	filename	No	Primary document filename. ⚠️ 
 EDGAR_SEEN.tsv	items	String	comma-separated 8-K item codes	No	8-K item codes, e.g. '1.01,2.03,7.01'. 🔑 MACHINE-READABLE S5 TRIPWIRE: 1.01 = material definitive agreement, 2.03 = creation of a direct financial obligation, 2.02 = results. The 2026-08-17 $105B guaranty 8-K carries 1.01,2.03,7.01. Empty for non-8-K forms
 EDGAR_SEEN.tsv	tier	Integer	1|2|3	Yes	Surfacing tier, NOT importance. 1=material 2=ownership/structure 3=insider+routine. Controls DISPLAY only — every filing is logged regardless, and suppressed counts are always printed
 EDGAR_SEEN.tsv	channel	String	S1|S2|S4|S5|S5/S1	Yes	Which VULCAN channel this issuer serves. Denormalised from the roster so a ledger row is readable without the tool
+LAYER_SERIES.tsv	asof_utc	Timestamp	ISO-8601 Z	Yes	Run timestamp. ⚠️ NOT a vintage — the vintage is holdings_asof
+LAYER_SERIES.tsv	holdings_asof	Date	DD-Mon-YYYY	Yes	CONTENT vintage: as-of date of the SSGA SPY holdings file. Shares the mag7.py fetch, so a LAYER row and a MAG7 row from one run are provably the same artifact
+LAYER_SERIES.tsv	window_days	Integer	1|5|21|63	Yes	Trailing trading-day window ending at holdings_asof. 21 is the rolling-1mo basis S2/VULCAN-16 grade on; 63 matches the breadth leg
+LAYER_SERIES.tsv	index_ret_pp	Float		Yes	COMPOUNDED SPY total return over the window, pp. What a reader means by 'the move'
+LAYER_SERIES.tsv	index_ret_arith_pp	Float		Yes	ARITHMETIC sum of SPY daily returns, pp. The like-for-like reference for recon_err_pp — contributions are an arithmetic sum, so they are validated against an arithmetic sum. The gap to index_ret_pp is COMPOUNDING, not error
+LAYER_SERIES.tsv	t1_pp	Float		Yes	Contribution of AI-compute silicon (NVDA AVGO AMD MRVL) to the index move, pp of index. THE PRIMARY OUTPUT — always defined, unlike the share
+LAYER_SERIES.tsv	t2_pp	Float		Yes	T1 + memory + semicap = the S2 production chain, pp of index. Nested: T1 subset of T2
+LAYER_SERIES.tsv	t3_pp	Float		Yes	T2 + datacenter build layer (ANET VRT SMCI DELL HPE), pp of index. Nested: T2 subset of T3
+LAYER_SERIES.tsv	platform_pp	Float		Yes	Contribution of the hyperscalers — the capex SPENDERS (S1's own root), pp of index. Reported ALONGSIDE the tiers, never inside them
+LAYER_SERIES.tsv	legacy_pp	Float		Yes	Contribution of analog/legacy semis — a DIFFERENT cycle, carried as a contrast, pp of index
+LAYER_SERIES.tsv	rest_pp	Float		Yes	Everything else = total - T3 - PLATFORM - LEGACY. ⚠️ Correct ONLY because those three are pairwise disjoint — enforced by an import-time assertion in mag7.py
+LAYER_SERIES.tsv	t1_share_pct	String		Yes	t1_pp as a % of index_ret_pp, or the literal UNGRADEABLE. ⚠️ String, NOT Float, ON PURPOSE: the ratio is undefined when the index is quiet and coercing UNGRADEABLE to a number would manufacture the false precision the floor exists to prevent
+LAYER_SERIES.tsv	t2_share_pct	String		Yes	As t1_share_pct, for T2
+LAYER_SERIES.tsv	t3_share_pct	String		Yes	As t1_share_pct, for T3
+LAYER_SERIES.tsv	platform_share_pct	String		Yes	As t1_share_pct, for PLATFORM
+LAYER_SERIES.tsv	share_state	String		Yes	gradeable, or UNGRADEABLE:<reason>. Gradeable requires |index move| >= 1.0pp — measured to hold on 25.2% of 1d windows, 57.8% 5d, 82.3% 21d, 91.9% 63d over 2003-2026, so an ungradeable 1d row is the EXPECTED state
+LAYER_SERIES.tsv	recon_err_pp	Float		Yes	THE ZERO-FREE-PARAMETER VALIDATION: sum of all 500+ holdings' contributions minus index_ret_arith_pp. Nothing is fitted. It also meters weight drift — the end-weight method it replaced ran +2.24pp here at 63d; daily chaining brought it to +0.08pp
+LAYER_SERIES.tsv	n_priced	Integer		Yes	Holdings with a clean close at both window ends
+LAYER_SERIES.tsv	excluded_weight_pct	Float		Yes	Index weight of holdings that could NOT be priced (cash lines, delisted tickers). Never silently dropped — reported so the residual has a stated cause
+LAYER_SERIES.tsv	t1_weight_pct	Float		Yes	T1's index WEIGHT at holdings_asof. Read beside t1_pp: contribution above weight = the layer led the move
+LAYER_SERIES.tsv	platform_weight_pct	Float		Yes	PLATFORM's index weight at holdings_asof, same use
+LAYER_SERIES.tsv	validation	String		Yes	Declared layer members absent from the holdings file, or all-declared-members-priced. A member leaving the index is a REAL event (QRVO, 2026-08) and must surface, not vanish
+LAYER_SERIES.tsv	source	String		Yes	Provenance string
