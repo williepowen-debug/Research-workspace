@@ -4,7 +4,7 @@
 
 **Updated:** 2026-08-26
 
-**Latest operator ruling:** Will approved C1's bounded pilot contract and C2's root Git carve-out installation on 2026-08-26. The installed carve-out remains inactive; C3 implementation, real-record inspection or processing, custody activation, and live shadow activation remain unauthorized.
+**Latest operator ruling:** Will approved C3 synthetic live-boundary implementation on 2026-08-26. C3 passes against marked synthetic Git mirrors. The installed carve-out remains inactive; C4 custody, real-record inspection or processing, and live shadow activation remain unauthorized.
 
 **Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
 
@@ -25,7 +25,7 @@ Before editing, verify a clean `master`, synchronize with `origin/master`, and r
 python3 -m unittest discover -s KERNEL/tests -p 'test*.py' -v
 ```
 
-Expected baseline at this checkpoint: **161 tests pass**.
+Expected baseline at this checkpoint: **172 tests pass**.
 
 ## Authorization boundary
 
@@ -145,10 +145,10 @@ The implementation does **not** yet:
 - issue receipts for inputs lacking the minimum parseable transport identity needed by the approved receipt path;
 - scan real repository submissions or generate live views.
 
-## Next action — await C3 implementation authorization
+## Next action — await C4 custody authorization
 
-**C1 is approved and C2 is installed but inactive. Do not begin the synthetic
-live-boundary adapter in C3 without a separate Will ruling.**
+**C3 is complete against marked synthetic mirrors. Do not register or test active
+or substitute custody in C4 without a separate Will ruling.**
 
 Will closed Gate B on 2026-08-26 based on the technical exit evidence recorded in
 `KERNEL/CHECKPOINT_12_ACCEPTANCE_REMEDIATION.md`. The ruling confirms only that
@@ -185,7 +185,7 @@ The sequence may be simplified when implementation evidence supports it, but any
 |---|---|---|
 | Gate A — specification approval | PASSED | Fixture implementation is authorized |
 | Gate B — fixture implementation | PASSED / CLOSED 2026-08-26 | Will approved closure after checkpoint 12 remediated checkpoint 11 findings and passed independent review |
-| Gate C — live shadow activation | C1 APPROVED / C2 INSTALLED / NOT ACTIVE | The bounded contract and inactive Git carve-out are installed; C3 implementation and all later boundaries remain separately gated |
+| Gate C — live shadow activation | C1–C3 COMPLETE / NOT ACTIVE | Bounded contract, inactive Git carve-out, and synthetic live-compatible boundary complete; C4 custody and all later boundaries remain separately gated |
 | Gate D — authority switch | OUT OF SCOPE | Requires later operational evidence and explicit ruling |
 
 ## Verification record

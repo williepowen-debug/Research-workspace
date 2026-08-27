@@ -3,7 +3,7 @@
 
 ## ★ NEXT SESSION — START HERE
 
-**0. KERNEL BUILD HANDOFF — 2026-08-26.** Gate B is closed. Will approved Gate C C1's bounded one-record/maximum-three-command contract and C2's root Git carve-out installation. Carve-out ④ is installed with a fleet pointer and targeted six-test policy checker, but stays inactive until C7; the full Kernel baseline is now 161 tests. **NEXT:** await separate C3 synthetic live-boundary implementation authorization. **BOUNDARY:** no real-record inspection/processing, custody activation, shadow operation, or authority switch is authorized.
+**0. KERNEL BUILD HANDOFF — 2026-08-26.** Gate B is closed; Gate C C1–C3 are complete. C2 carve-out ④ stays inactive. C3's marked-synthetic-mirror adapter reads one–three canonical submissions from exact committed blobs, refuses the live repo, supports ephemeral dry-run and canonical synthetic apply, and visibly labels all output. Eleven C3 tests; full baseline **172 tests**. **NEXT:** await separate C4 custody authorization. **BOUNDARY:** no real-record inspection/processing, custody activation, shadow operation, or authority switch is authorized.
 
 **0a. CLOSEOUT GATE CAVEAT — unrelated to KERNEL:** `prome_gate.py closeout` reported the pre-existing Forum-4 N10 ORA deferral as blocking because the PROME/Will-owned DOCKET row remains pending without a named coverage disposition. This KERNEL session did not adjudicate or rewrite that research/governance item. Fresh PROME must grade it, name coverage, or take it to Will before claiming the full repository closeout gate is green.
 
