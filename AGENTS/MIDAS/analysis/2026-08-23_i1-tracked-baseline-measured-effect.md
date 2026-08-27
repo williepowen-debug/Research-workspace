@@ -2,6 +2,11 @@
 
 **Written:** 2026-08-23 (Sun, mkts CLOSED) · **Channel:** I1 (copper — Dr. Copper / China) · **Status:** ESCALATION, not a repair. **No band moved. No score moved. Zero capital.**
 **Discharges:** the "flagged-not-repaired, mine to escalate **with measured effect**" item open since 2026-08-21 (STATUS open-item 3, SCRATCH carryover). PROME 8/23: *"I'd rather you escalate it early than clean."*
+> ⚠️ **AS-OF STAMP ADDED 2026-08-27 (MIDAS) — READ BEFORE CHECKING THIS WRITE-UP AGAINST A RE-RUN.**
+> Every magnitude in this document is **as-of 2026-08-23** and is **as-of-dependent by construction.** Re-running the companion script today (series end **2026-08-26**) returns **+45.02% drift · 43.62pp worst swing · 174% of the smallest band**, against the **+48.53% · 46.71pp · 187%** stated below.
+> ⛔ **That disagreement is the defect REPRODUCING, not a contradiction of this write-up** — the denominator being tracked is the entire finding, so a document measuring it cannot hold still either. **The VERDICT is what carries across vintages and it is unchanged: baseline drift alone CAN cross the Yellow band unaided** (174% of it today vs 187% on 8/23 — both far above 100%).
+> **Rule for any reader: compare verdicts across vintages, never bare magnitudes.** The script now prints this warning itself and stamps its own as-of, so a future re-run cannot be read as impeaching a dated figure. *(Found 2026-08-27 sweeping my own instruments for the L-29 date-label class; the escalation was in front of Will at the time, which is why it was stamped rather than left to be discovered by whoever re-ran it. → L-31.)*
+
 **Reproducible:** `analysis/measure_i1_baseline_drift.py` — pulls the same westmetall series `metals_watch.py` uses and recomputes the band's own denominator as-of past dates.
 
 ---
