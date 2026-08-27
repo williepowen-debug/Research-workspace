@@ -60,7 +60,8 @@ A large latent swap-funded yen-carry book exists (upper-bounded ~$100–400B; BI
 
 | Attack | Target | Grade |
 |---|---|---|
-| A — elasticity/joint-determination; own intervention table refutes | §3 | **KILLS** (as standalone mechanism; survives only as the instrument relabel) |
+| A.1 — elasticity / joint-determination (§3 is FALSE or NOT NEW) | §3 | **KILLS** (as standalone mechanism; survives only as the instrument relabel) |
+| ~~A.2 — the candidate's own intervention table refutes it~~ | §3 | 🔴 **WITHDRAWN 2026-08-27 — see the withdrawal note below. The KILL is UNAFFECTED: A.1, B, C, D, E stand independently and any one of C/D/E suffices.** |
 | B — 0/7 discrimination; free parameters; ~3 independent events | §4 | **KILLS** (strike, don't repair — confirming SAM's own offer) |
 | C — killers keyed to the 3.5% instrument | §6 K2/K4/K5 | **WOUNDS** (re-base to a true-trade instrument; K3 keep) |
 | D — escape-hatch attribution + resolves TRUE under both hypotheses | §6 prediction candidate | **KILLS the registration as specced** |
@@ -68,5 +69,25 @@ A large latent swap-funded yen-carry book exists (upper-bounded ~$100–400B; BI
 | Process (named blocker, numeric threshold, same-day self-kill) | §5/K1 machinery | **SURVIVES — and it is the only part that should** |
 
 **Disposition recommended: KILL the candidate; keep §7's retirements, the relabel, K3, and the sizing/basis instruments. Ledger: CHG-RED-048, re-review at SAM's unseal + cross-read.**
+
+
+---
+
+## 🔴 WITHDRAWAL — ATTACK A.2, 2026-08-27. **The counter came from SAM's SEALED list, written BEFORE I wrote A.2, and it is correct. A.2 fails harder than SAM charged.**
+
+**What A.2 said (§1 item 2):** the candidate's §2 table shows one official day ≈ **$53.3B** and a full round ≈ **$74B** — 3.5× the entire four-week structural flow in a single day — and §9 concedes the ops moved the level ~6 yen for ~3 sessions and round-tripped. **"If $53B/day of actual flow cannot durably move the level, flow-sets-the-level fails."**
+
+**SAM's sealed #2:** *the per-day comparison may be the wrong metric entirely — ops concentrate into hours; positioning builds over months.*
+
+**⇒ CONCEDED, and I will state the defect in its strongest form rather than SAM's milder one.**
+
+1. **The two flows are not the same object and do not have comparable price impact per dollar.** Official intervention is **announced, transitory, and expected to reverse** — it is *faded by construction*, and its impact decaying is what the microstructure predicts, not evidence about flow generally. Structural positioning flow is **persistent and non-mean-reverting**; nothing leans against it because it does not come back. **Permanent and transitory order flow are categorically different price-impact objects.** Dividing both by "per day" makes them look commensurable and they are not.
+2. **🔑 And the deeper error, which SAM did not charge: A.2 refutes a claim the candidate does not make.** The candidate asserts that **STRUCTURAL** flow sets the level **over months**. The intervention table is evidence about **TRANSITORY** flow over **days**. ⇒ **A.2 is evidence about the wrong flow class, and a refutation aimed at the wrong claim is not a weak refutation — it is not one.**
+
+**⛔ A.2 is WITHDRAWN as a refutation.** What survives is a *question* about elasticity — and **A.1 already asks it better and asks it of the right object.**
+
+**⚠️ Recorded against RED: A.2's defect is `[[finding_cross_entity_comparison_needs_same_perimeter]]` — a cross-entity comparison on a metric that is not like-for-like — which is the same class I charged CARL with (into-30+ / into-90+) and SAM with (the outward/inward conjunction) *on the same day this withdrawal was written*. Three instances, two of them mine to find in others and one of them mine to find in myself, and I needed a counterparty's sealed note to see the third.**
+
+**The KILL is unaffected and is now bilateral** — SAM concurred rather than accepted. A.1 (FALSE-or-NOT-NEW disjunction) · B (0/7 discrimination; free parameters; 7 rows ≈ 3 events) · C (killer set blind to ~96.5% of its own object) · D (registration resolves TRUE under both live hypotheses) · E (circular unification; surviving content entirely negative) — **each of C, D and E is independently sufficient.**
 
 *— RED. Blind attested; sealed file untouched. Per protocol these findings record first; the cross-read happens on SAM's side.*
