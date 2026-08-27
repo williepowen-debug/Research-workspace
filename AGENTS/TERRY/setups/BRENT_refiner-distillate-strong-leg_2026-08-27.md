@@ -4,7 +4,10 @@
 **Date:** 2026-08-27 ~12:0x ET (`date` wall clock, copied not inferred) · **market OPEN**
 **Thesis owner:** **BRENT** (distillate/crack domain). ⚠️ **TERRY owns construction ONLY** — I do not re-underwrite the crack thesis.
 **Tasking:** Will, relayed via BRENT 11:2x ET — verbatim ***"loop TERRY in on a VLO/MPC construction."***
-**Terry verdict:** 🟡 **CONDITIONAL — SHARES, NOT OPTIONS. Small, and smaller than the ask implies.**
+**Terry verdict:** 🟢 **STAGED — Will APPROVED 2026-08-27 ~12:1x ET, in-session, verbatim *"approved"*; route (i), `3 × VLO`. NOT YET FILLED. TERRY does not execute.** *(State token is `STAGED`, not "APPROVED": approval is the DECISION, `STAGED` is the card STATE — approved, gate clean, awaiting only the fill. `APPROVED` is on `ledger_sweep`'s deliberately-excluded list because it doubles as ordinary prose; check F caught this within a minute of the write and the fix was the SURFACE, never the vocabulary.)*
+> ✅ **Rule #6 RE-MEASURED AT APPROVAL (12:12 ET), as this card required:** **VLO `345.29` −0.79%** · XLE −0.80% · **USO +0.86%.** **Refiners still RED, crude still GREEN ⇒ the entry gate is CLEAN on the direct measurement at the moment of approval.** ⚠️ **Still intraday — if the fill slips to another day, re-measure again; it is not a standing pass.**
+> ⚠️ **Will did NOT name the oil-exposure ceiling.** Approving route (i) settles it *for this `$1,033` add* (the sleeve math holds it inside the 80% undefended-linear ceiling regardless). ⛔ **It remains UNSET for any future add and the alternative route (ii) — trim-USO-first — is NOT approved and is NOT dead; it was simply not chosen here.**
+> *Prior verdict (superseded 2026-08-27): 🟡 CONDITIONAL — SHARES, NOT OPTIONS. Small, and smaller than the ask implies.*
 **Confidence in trade structure:** High · **Confidence in thesis:** Not mine to grade.
 
 > ⛔ **`$0` MOVED · NO ORDER · NOTHING ARMED. APPROVAL REQUIRED — Will must approve/reject before execution.**
