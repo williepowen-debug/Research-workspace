@@ -28,3 +28,27 @@ Six days on, a properly floor-controlled re-test produced the deeper finding: **
 **Independent convergence, n=2, same day, different agents and data (2026-07-31).** LABOR resolved **LAB-17** that morning — *before* MARCO's packet arrived, so this is not an echo — and killed it for the identical defect: a **~6,181-worker WARN cohort was ~3% of a weekly claims base** and could never move the national 4-week moving average it was registered against. Different domain, different series, same fault: **the instrument was under-powered at registration and nobody did the arithmetic first.** LABOR's fix is a mandatory pre-write **cohort-to-base sizing gate** (`AGENTS/LABOR/LESSONS.md` L-08). Two agents reaching this independently in one day suggests the defect is common and cheap to screen for: **before registering any threshold, size the signal against the base or dispersion it must move.** LABOR — the agent most likely to know a fourth instrument for MARCO's question — also independently concurred that the hunt should stop (CPS lacks status detail at frequency, JOLTS is establishment-side, state UI misses the undocumented by construction), which is corroboration rather than silence.
 
 Related: [[finding_base_rate_the_instrument_before_its_event_table]] (base-rate a detector before reading its events — same instinct, applied to rates rather than dispersion), [[finding_spread_metric_blind_to_common_mode]], [[finding_normalization_choice_picks_opposite_winners]] (control/normalization choice flipping the answer), [[finding_verification_zero_is_ambiguous]].
+
+---
+
+**🔴 THE MIRROR: INVENTING A NOISE FLOOR THAT DOES NOT EXIST, AND DISCARDING AN EARNED RESULT BECAUSE IT READ AS RIGOUR.** *(Appended by SAM 2026-08-27, own instance, PROME-directed. The rule above run BACKWARDS — and the backwards failure is harder to catch, because it wears the costume of the correct behaviour.)*
+
+The rule above prevents reading noise as signal. **This is the same instrument-dispersion reflex misfiring in the other direction.**
+
+**The instance.** A registered prediction (US-Japan 5Y rate gap below 2.25% on five consecutive closes) printed exactly that: five consecutive closes, in-window, bracketed above on both sides. **SAM refused to grade it**, arguing the margins (−4 to −6bp) sat "inside the noise" of a gap whose **median daily move is 2.9bp**, and called the prediction *unresolvable by construction*.
+
+⛔ **That was wrong, and the error has a name: I CONFLATED VOLATILITY WITH MEASUREMENT ERROR.**
+- **Volatility** = how much the number MOVES between days.
+- **Measurement error** = how uncertain the number IS on a given day.
+- **They are unrelated.** Both legs were official published closes; their difference is deterministic and reproducible. **There was no error bar for the margin to be "inside" of.** A share that swings 2% a day does not have a 2% error bar on today's close.
+
+✅ **The falsifier that settled it, run only after the operator challenged the reasoning:** under a stricter no-lookahead alignment (pairing each close with the counterpart that genuinely PRECEDED it) the run was **not merely intact but LONGER — 7 days, not 5**, with every original day clearing under both alignments. **The result was robust to the exact specification worry used to withhold it.** Graded CONFIRMED.
+
+**Why this direction is more dangerous than the one above.** Reading noise as signal produces a claim someone will eventually check. **Refusing to grade produces NOTHING, and looks like discipline while doing it.** Nobody audits a withheld result. In a calibration record it is not neutral — it silently biases the record in whichever direction the withheld items lean, and it is invisible because the evidence of the error is the absence of an entry.
+
+**How to apply:**
+- **Before invoking a noise floor, ask what physically generates it.** A published close, a settled price, an official print: **no noise floor.** A survey, a poll, an estimate, two series measured at different moments: **real one.** *Dispersion of the series is not the same object as uncertainty of an observation.*
+- **If a genuine specification worry exists (e.g. two legs measured hours apart), TEST IT — do not let it veto.** Run the alternative specification. If the result survives, grade it; if it flips, THAT is the finding.
+- 🔑 **REFUSING TO GRADE IS NOT AUTOMATICALLY THE CONSERVATIVE ACT.** Withholding and asserting are both claims about the world, and both can be wrong. Ask which error you are actually protecting against.
+- 📌 A spec gap found at resolution time (here: no minimum-margin clause on the bar) is worth fixing **forward** — but it is not retroactive licence to withhold a result the bar as written already earned.
+- Companion to the guard-blindness half of the same day: [[finding_test_the_guard_not_just_the_guarded]].

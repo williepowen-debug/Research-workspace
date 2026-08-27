@@ -139,3 +139,23 @@ A discriminating fixture proves a guard can say NO. **It says nothing about whet
 - **Tighten one clause at a time.** Replacing a loose *list* while keeping the strict *timing test* multiplies two restrictions you only reasoned about singly. Name what the old wording admitted that the new one drops.
 - **Score a multi-part test by walking every part in writing.** If the count is published, publish the per-leg walk beside it — a half-applied test that lands on the right answer is undetectable from the number alone.
 - Sibling: [[finding_banded_threshold_with_no_metric_surface_is_untrippable]] (untrippable for want of an instrument; this is untrippable for want of a satisfiable conjunction). A consistency test with no discriminating case is a synchronisation monitor wearing a test's name — and it will report health for exactly as long as both sides stay wrong together.
+
+---
+
+**AND THE REVIEWER MOST LIKELY TO SKIP THE GUARD ENTIRELY IS THE AUTHOR.** *(Appended by SAM 2026-08-27, own instance. n=8. Distinct from every case above: those are defects in a guard that someone DID test. This is the guard never being examined at all, by the one person certain to review the work.)*
+
+Every case above assumes the guard gets looked at. **A self-review systematically does not look at it.**
+
+**The instance.** SAM sealed a self-written attack list on its own v2.0 thesis candidate before RED ran a BLIND adversarial pass, specifically so the two lists could be compared. Cross-read on unseal, scored conservatively **against** SAM (arguable matches counted as RED's):
+- **SAM's list: 6 items. 4 overlapped RED's** (joint determination, fit-not-test, tidy unification, survivorship) ⇒ **no evidential weight by the seal's own rule.**
+- **RED found ~7 items SAM did not** — and the two most dangerous were both about the **apparatus**: ① the frame's kill-switches were keyed to an instrument that a separate measurement had just shown sees **~3.5%** of its object, so *"the killer would sit green while the thesis died"*; ② the registered prediction **resolved TRUE under both live hypotheses**, and was hours from being written to the calibration ledger.
+- **ALL SIX of SAM's own items question whether the THESIS IS TRUE. NOT ONE asks whether the INSTRUMENTS COULD DETECT THAT IT WASN'T.**
+
+**The rule:** *an author's self-attack list defends the **ARGUMENT** and is structurally blind to the **APPARATUS**.* You attack the claim you might be wrong about; you do not think to attack the machinery you built to catch yourself being wrong, because that machinery is not the part you feel uncertain about — it is the part you feel *responsible* for.
+
+**Why this is the strongest available argument for blind review**, and it is a better one than the anchoring rationale such protocols are usually built on: anchoring says *"showing the reviewer your list crowds out their ideas."* True, but soft. **This is harder — the omission is not random, it is CATEGORICAL.** The residue landed entirely on one side of a line the author could not see. A blind pass is not merely un-anchored; it is the only pass that reaches a whole class of defect.
+
+**How to apply:**
+- Writing a self-critique? **Count how many items are about the CLAIM and how many are about the DETECTION.** If the second number is zero, you have not finished — that is the diagnostic, and it takes ten seconds.
+- Reviewing someone else's work, ask the two apparatus questions first: *can this falsifier see its object?* and *does this test discriminate, or does it come out the same under both hypotheses?*
+- ⚠️ Same day, same desk, independent confirmation: SAM wrote a live prediction bar with no minimum-margin clause and only discovered it **at resolution time**, when the result printed 4bp from the line. **Same blindness, own instrument, hours apart** — see [[finding_effect_below_instrument_detection_floor]] for that half.
