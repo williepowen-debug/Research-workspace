@@ -180,7 +180,7 @@
 - **BROCK:** cross-fund utilization series (E3b's 25pp band), faster primary for executed repurchases, instrument behind the 14%→17% demand figures.
 - **Guard-3 apportionment** — BRENT/HAWK/OSPREY kinetic read on 7/28-29. **OVX 53.60 vs VIX 14.82 keeps this live.**
 - ~~**Q2 FFIEC MI3**~~ **✅ RESOLVED S32 8/20** — and the ML-136 classification was the story: the data had been in-fleet since 8/13 (REGINALD's verified cohort pull, sitting in RED's own unread inbox) while the docket carried it as an unconfirmed-cadence external fetch. Grade → `research/MI3_Q2_2026_GRADE.md`.
-- **June MF-starts print** (618-008 second tiebreaker) — carried since 7/15, still not located. ⚠️ **28 days on this list — apply ML-RED-136 to it or retire it.**
+- ~~**June MF-starts print** (618-008 second tiebreaker)~~ **✅ RESOLVED 8/27 (Will-directed): REBOUND = single-month noise on the pre-registered branch.** FRED HOUST5F own pull: May 282 → **Jun 499 (above Apr 494 and every month since Dec) → Jul 421 (in the trailing-year 410-495 band)** — two prints, not one. **618-008's construction-finance-seize read is NOT confirmed; the 007/008 pair SPLITS** (CMBS flows-deterioration stands; the starts leg was the noisy subcomponent round-tripping). No weight — noise branch was pre-registered as no-move. ⚠️ **And it was ML-136 the whole time: public ~7/17, carried "not located" 43 days.** KB-RED-088 / ML-RED-197.
 
 ---
 ## BOTTOM LINE
