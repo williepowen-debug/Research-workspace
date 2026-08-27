@@ -26,3 +26,15 @@
 - **ODCE/$1B forward definition = WILL_QUEUE row 100** — separate ruling, before the next marginal case; not load-bearing for SREIT.
 
 **Executor:** CREED (all desk-side work); PROME (GATES row at fire-ruling, row 100, sweep routing, LIQUID doorbell at routing time).
+
+---
+
+## FIRE RULED — appended 2026-08-27 19:52 ET (evening fresh-context session)
+
+**Will, in-session, verbatim: "SREIT fire."** — Decision 1's sequencing is complete and the word landed: primary 8-K read done before ruling (acc. `0001193125-26-192168`, via the Decision-2 UA), three dates on the record, PROME rec FIRED presented ~16:3x and held through the kernel evening.
+
+**CREED-T-06b (OPEN-END-CRE-FUND-GATES ≥1 major fund) = FIRED, first fire of the band.** Basis = VX-5.01's 7/27 "fund gates" language per Decision 1. Dates: event **2026-04-29** · band **2026-07-27** · adjudicated **2026-08-27** at the word.
+
+**Consequence executed same hour by PROME:** `GATE-CREED-T06B` registered RESOLVED(FIRED) on `PROME/GATES.tsv` (29th row) · CREED fire-ledger packet · LIQUID action-routing packet (T-06b action recipient) · BROCK info packet — **all three desks DARK at execution (ListAgents-verified 19:5x), packets ride their inboxes; CREED is Tier-2 and cannot self-boot, so its ledger entry rides the spawn slate** (GATES review_by 8/29 carries the confirm). Queue row 101 closed.
+
+**No capital path. Zero thresholds moved by PROME. Propagation check on the false zero was already CLEAN (nobody cited it); the CREED↔BROCK coverage-seam finding rides the DAEDALUS sweep as previously routed.**
