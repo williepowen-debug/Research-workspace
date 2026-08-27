@@ -32,6 +32,38 @@
       "source_ref": "PROME/ROSTER.md",
       "active_from": "2026-01-01T00:00:00.000000Z",
       "active_until": null
+    },
+    {
+      "actor_id": "CREED",
+      "actor_type": "AGENT",
+      "canonical_name": "CREED",
+      "source_ref": "PROME/ROSTER.md",
+      "active_from": "2026-08-27T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "LIQUID",
+      "actor_type": "AGENT",
+      "canonical_name": "LIQUID",
+      "source_ref": "PROME/ROSTER.md",
+      "active_from": "2026-08-27T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "REGINALD",
+      "actor_type": "AGENT",
+      "canonical_name": "REGINALD",
+      "source_ref": "PROME/ROSTER.md",
+      "active_from": "2026-08-27T00:00:00.000000Z",
+      "active_until": null
+    },
+    {
+      "actor_id": "MIDAS",
+      "actor_type": "AGENT",
+      "canonical_name": "MIDAS",
+      "source_ref": "PROME/ROSTER.md",
+      "active_from": "2026-08-27T00:00:00.000000Z",
+      "active_until": null
     }
   ]
 }
