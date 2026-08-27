@@ -1,0 +1,97 @@
+{
+  "schema_version": "kernel.live-activation.1",
+  "policy_version": "kernel.policy.1",
+  "activation_id": "LIVE-2026-0002",
+  "authorized_by": "WILL",
+  "authorization_ref": "KERNEL/GATE_C_INCREMENT2_ACTIVATION_PACKET.md",
+  "mode": "LIVE_SHADOW_PILOT",
+  "repository_root": "/home/willi/Research-workspace",
+  "repository": "williepowen-debug/Research-workspace",
+  "source_commit": "a8b3ea7608f25ca7a7223e815ff5cc82dd11e732",
+  "window_start": "TO-BE-RULED",
+  "window_end": "TO-BE-RULED",
+  "revoked_at": null,
+  "writer_id": "PROME",
+  "commands": [
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000101",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000101.json",
+      "sha256": "5ea35802ca88478c52bbc87347dbd1db5cecd13eb8a0112579ca6477380ad915"
+    },
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000102",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000102.json",
+      "sha256": "45096c3e483b6e92047a2747a9457d7c2510bb7fc349ef9a6851b47e559a0c21"
+    },
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000103",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000103.json",
+      "sha256": "6469e6f8b47f6abf0e3d69bf8fa08d777078c950b6eeb04ef2b3a27ed425ecbf"
+    },
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000104",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000104.json",
+      "sha256": "06044dee1c3a19433a358f73b489bafdf4fcce68fe704bc58b193c8f92da2997"
+    },
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000105",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000105.json",
+      "sha256": "20682ed80a9d36aca406176c3467178f7ed7f19760b31e06eb42146ee08efb2a"
+    },
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000106",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000106.json",
+      "sha256": "cd4ee3fdbd29dcb6f23710e87435e1b657139181c80b8c06dd7b2235de1d2901"
+    },
+    {
+      "command_id": "CMD-01a044fc-e591-73e8-a74d-2f675abc09a0",
+      "path": "AGENTS/LIQUID/outbox/kernel/submissions/CMD-01a044fc-e591-73e8-a74d-2f675abc09a0.json",
+      "sha256": "8f5d1e5da53e02096e64b738a08feb89a6e79dfbd95cfa2f0d92bbf50b53f37c"
+    },
+    {
+      "command_id": "CMD-01a044fc-e591-769e-8199-994a92e9fafb",
+      "path": "AGENTS/LIQUID/outbox/kernel/submissions/CMD-01a044fc-e591-769e-8199-994a92e9fafb.json",
+      "sha256": "583e9f31194e9ab5ecae71f7b10a8620eaccd6fef56158027d054c908c76d344"
+    },
+    {
+      "command_id": "CMD-019306b4-1a00-7000-8000-0000000000a1",
+      "path": "AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a1.json",
+      "sha256": "c702ec942ae5db162a02a7f14ee4b1f64e7a61886a1bdf3fc9ec9fc0131ea02a"
+    },
+    {
+      "command_id": "CMD-019306b4-1a00-7000-8000-0000000000a2",
+      "path": "AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a2.json",
+      "sha256": "81d2a01db60910cb88ffb79f403c536058c8da29aa2705769746d4ac477e52fd"
+    },
+    {
+      "command_id": "CMD-019306b4-1a00-7000-8000-0000000000a6",
+      "path": "AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a6.json",
+      "sha256": "bef71f7a000419d7d57d4d7bc92f9f6213bd8ce336d58edb9d722fccf28b7d9c"
+    },
+    {
+      "command_id": "CMD-019306b4-1a00-7000-8000-0000000000a7",
+      "path": "AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a7.json",
+      "sha256": "f6334b33b2fcfbf98f13211ad6d80744bc26841a6705065d1ca16c81be068f1c"
+    }
+  ],
+  "actors_path": "KERNEL/policies/actors.json",
+  "actors_sha256": "ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f",
+  "capabilities_path": "KERNEL/policies/capability-grants.json",
+  "capabilities_sha256": "57c76977cd6d2934b52928acee9786c4ddca90b381b265bbda5618cbba447b2c",
+  "custody_policy_path": "KERNEL/policies/custody-policy.json",
+  "custody_policy_sha256": "180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849",
+  "event_ids": {
+    "CMD-019305f8-ec00-7000-8000-000000000101": "EVT-019305f8-ec00-7000-8000-000000000101",
+    "CMD-019305f8-ec00-7000-8000-000000000102": "EVT-019305f8-ec00-7000-8000-000000000102",
+    "CMD-019305f8-ec00-7000-8000-000000000103": "EVT-019305f8-ec00-7000-8000-000000000103",
+    "CMD-019305f8-ec00-7000-8000-000000000104": "EVT-019305f8-ec00-7000-8000-000000000104",
+    "CMD-019305f8-ec00-7000-8000-000000000105": "EVT-019305f8-ec00-7000-8000-000000000105",
+    "CMD-019305f8-ec00-7000-8000-000000000106": "EVT-019305f8-ec00-7000-8000-000000000106",
+    "CMD-01a044fc-e591-73e8-a74d-2f675abc09a0": "EVT-01a044fc-e591-73e8-a74d-2f675abc09a0",
+    "CMD-01a044fc-e591-769e-8199-994a92e9fafb": "EVT-01a044fc-e591-769e-8199-994a92e9fafb",
+    "CMD-019306b4-1a00-7000-8000-0000000000a1": "EVT-019306b4-1a00-7000-8000-0000000000a1",
+    "CMD-019306b4-1a00-7000-8000-0000000000a2": "EVT-019306b4-1a00-7000-8000-0000000000a2",
+    "CMD-019306b4-1a00-7000-8000-0000000000a6": "EVT-019306b4-1a00-7000-8000-0000000000a6",
+    "CMD-019306b4-1a00-7000-8000-0000000000a7": "EVT-019306b4-1a00-7000-8000-0000000000a7"
+  }
+}
