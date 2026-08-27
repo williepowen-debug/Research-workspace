@@ -183,3 +183,17 @@ Created 2026-08-23 under the STATUS two-state PILOT (`AGENTS/DAEDALUS/BLUEPRINTS
 - **July CPI (8/12) — HEN-41 RESOLVED 8/20** — see top block (CONFIRM-ON-LETTER/DEFECTIVE-TRIGGER; substance DENY, core 2.5%).
 ---
 
+
+
+---
+
+*Rotated 2026-08-27 (Class A) — the HEN-41 DEFECT DISPOSITION block, verbatim. HEN-41 RESOLVED 8/20; the ruling's canonical home is `workbook/PREDICTIONS.tsv`. Nothing deleted.*
+
+### 🔴 HEN-41 — DEFECT DISPOSITION (Will-ruled 2026-08-10 in-session, forum FINAL §5 item 1)
+
+**The defect, self-found 2026-08-10, two days before resolution:** HEN-41's CONFIRM condition is a disjunction — *"headline re-accels on energy **AND/OR** T10YIE >2.30."* **June headline CPI was −0.42% MoM** (deflationary on every layer: core −0.02%, supercore 3.1%). **"Headline re-accelerates" measured against −0.42% is effectively satisfied at registration** — almost any non-collapsing July print clears it. That disjunct **tests approximately nothing.**
+
+**Ruling as applied — no threshold moved, no retro-tightening, spec NOT amended:** ① **Grade ON THE LETTER as registered.** ② **CONFIRM via the headline disjunct ALONE ⇒ record `CONFIRM-ON-LETTER / DEFECTIVE-TRIGGER`** — a real grade with the defect attached; it does **NOT** count as evidence the oil-inverse-feedback mechanism worked. ③ **CONFIRM via T10YIE >2.30 ⇒ clean CONFIRM** — that disjunct is sound (2.25 [8/7], never touched 2.30 this episode) and carries the CONFIRM weight. ④ Pinned pre-print: *"re-accelerates"* = **MoM sequential**. ⑤ Pinned pre-print: T10YIE evaluated **on the 8/12 resolution date**, not at the most convenient intervening point — **explicitly will NOT grade this leg on an 8/11 STEO-driven breakeven move.**
+
+*Class: a threshold already satisfied at registration never tests the world. Full ruling text → `workbook/PREDICTIONS.tsv` HEN-41; LESSONS entry owed at next closeout.*
+
