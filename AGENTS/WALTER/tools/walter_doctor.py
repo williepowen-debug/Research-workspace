@@ -1886,9 +1886,14 @@ def check_terry_override_ratio():
                           f"awaits TERRY's own consume, no action"))
     n = len(action_rows)
     if n >= 10 and overrides and len(overrides) / n > 0.10:
-        out.append((MED, f"TERRY override ratio {len(overrides)}/{n} > 10% over 90d — "
-                         f"READ THE OVERRIDE LOG (never auto-widen T-1/T-2/T-3): "
-                         f"{', '.join(overrides)}"))
+        # Post-revert (2026-08-26, SPEC v0.21) the TERRY action lane is CLOSED — no new
+        # rows can be written, so the ratio measures a retired rule. The mandatory
+        # read-the-log was performed at the revert (all three named rows adjudicated in
+        # the 8/26 TERRY packet). Historical record, not an alarm.
+        out.append((INFO, f"TERRY override ratio {len(overrides)}/{n} over the trailing "
+                          f"90d window ({', '.join(overrides)}) — lane CLOSED by the "
+                          f"§3.5.5 revert 2026-08-26; log read at revert; rolls off with "
+                          f"the window"))
     if not out:
         out.append((INFO, f"TERRY lane clean: {n} action row(s) in 90d "
                           f"({len(overrides)} override(s), activation at n≥10), "
