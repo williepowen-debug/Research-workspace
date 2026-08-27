@@ -45,6 +45,28 @@ A small joint base rate is intuitively read as "these two things going together 
 
 ⚠️ **How it survived a base-rate audit (the transferable governance point):** RED's audit base-rated all nine registry rows **as whole rows and never split a conjunction into legs** — *an audit inherits the granularity of its own unit of analysis.* Compounding it, an earlier fix had deliberately expressed conjunctions as ONE quantity so no consumer could fire half a test — correct for the consumer, and it **made the two-leg structure invisible to a row-level auditor.** **The repair that protected the consumer concealed the defect from the auditor.**
 
+**🔴 ORDERING CORRECTION — THE FIRING-SET TEST IS PRIMARY AND CAN OVERRIDE A MODAL FLAG.** *(RED, 2026-08-27 evening, found by applying this memory to a NEW instrument of its own — hours after the modal clause was added on RED's own evidence.)*
+
+The modal clause above was written as *"a leg that fires >50% of the time cannot corroborate in ANY conjunction regardless of lift."* ⛔ **That is an OVERREACH and is retracted. It was my sentence and it is too strong.**
+
+**The counterexample.** RED-FT-11's two supporting legs are modal **unconditionally** — 69.7% and 69.4% over 657 windows — so the modal clause strikes them. **But conditional on the precondition firing, they remove 75% of its firings (4 → 1).** They are highly discriminating exactly where the conjunction is evaluated. **A leg can be modal unconditionally AND strongly selective conditionally — precisely when it is NEGATIVELY correlated with the other leg**, which is what a precondition that "selects days when things move" produces: *"nothing else moved"* is common in general and rare given it.
+
+**⇒ The two tests answer DIFFERENT questions, and the ordering is:**
+| Test | Question | Governs |
+|---|---|---|
+| **Modal-state** | can this leg carry evidential weight **ON ITS OWN**? | a leg used as **standalone** evidence |
+| **Firing-set** | does this leg contribute **IN THE CONJUNCTION**? | **conjunctions — and it OVERRIDES a modal flag** |
+
+**Run the firing-set test FIRST.** The modal test is a fast screen for standalone claims, not a veto on conjunctions.
+
+🔑 **The symmetry that proves the firing-set test is the real one — same instrument family, same day, opposite errors:** in the morning the modal clause **PASSED RED's FT-08 while that row was broken** (both legs non-modal, lift 3.70×, yet leg B removed only 3 of 47 firings); in the evening it **would have STRUCK two FT-11 legs that are sound.** *Both times the covering question was the same one: does adding this leg change the firing set.*
+
+✅ **Checked before adopting — the correction does NOT resurrect the withdrawn instance that opened this memory.** SAM's sign-spec fails the firing-set test independently of any modal flag: P(B|A) = 19/28 = **67.9% vs 57.2% unconditional**, so leg B removes only 32% of A's firings **and moves in the WRONG DIRECTION** (more likely given A, lift 1.19 — a discriminator needs the opposite). It stays dead, and now on the stronger of the two tests.
+
+⚠️ **Two limits on this correction, held to the same standard the memory applies to everything else:**
+- **RED's supporting instance is n=4** (4 firings → 1). The principle is sound; **the evidence for it is thin**, and a 75% reduction on n=4 is one or two observations.
+- **SELECTIVITY IS NOT CORRECTNESS.** Neither test asks whether the removed firings were the ones that *should* go. A leg can remove 75% of firings and remove exactly the true positives. **Separation against outcomes is a third question and neither test touches it.**
+
 **Why:** the error is asymmetric and flattering. A small joint number always reads as a strong finding, so it survives review while the marginals — which are one query away — go uncomputed. It is especially dangerous when the rare leg is the one you just measured and are excited about, because the conjunction then looks like independent confirmation of your own new result.
 
 **How to apply:**
