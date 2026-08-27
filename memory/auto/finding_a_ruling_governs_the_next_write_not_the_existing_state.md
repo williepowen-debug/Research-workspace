@@ -5,7 +5,8 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: caf3458a-6c5d-41b6-8f8e-67f8a322e6a1
-  modified: 2026-08-13T00:26:56.228Z
+  modified: 2026-08-27T18:00:00.000Z
+symptoms: "ruled but not swept; the rule exists so the area reads handled; doc-only condition executed while the live instance it describes sits in the old state; lapsed-but-unrevoked grant; compliance rate unknown at ruling time"
 ---
 
 A newly-ruled convention acts on **future writes only**. Nothing in a normal fleet kit scans existing state for violations of a rule at the moment that rule is made. So the **flow** gets cleaner while the **stock** of violations sits untouched — and because the rule now exists, everyone reads the area as handled.
@@ -25,5 +26,7 @@ A newly-ruled convention acts on **future writes only**. Nothing in a normal fle
 2. **Prefer structure over rule.** If a value must carry its unit, make the capture function return the unit so a bare value is unwritable. That converts an attention problem into an impossibility.
 3. **Find your own violations mechanically, not by re-reading.** Grep the strings you replaced and classify each hit as retirement-context vs live-claim; re-derive numbers from primaries rather than re-reading them. Re-reading does not catch what you just wrote — you skim your own text.
 4. **Never rely on the erring party's attention.** Every real catch in the evening above was external. Self-discipline is not a mechanism.
+
+**n+1, 2026-08-27, and the stakes were a live AUTHORITY GRANT, not prose:** the KERNEL C8 review's condition N3 ruled that activation closure is "an act, not a clock-lapse — a lapsed-but-unrevoked activation is a valid live grant sitting unattended." The condition was executed **doc-only** (runbook step 9 re-worded, Will-worded, pushed) while **the one live activation the finding described — `LIVE-2026-0001`, `revoked_at: null` — sat as a valid unattended grant for ~55 minutes**, and was closed 8 minutes before window-end only because the custodian's read-back happened to run inside the window (revocation `e0e7f859b`-adjacent commit, refusal then proven at preflight: `LIVE_WINDOW_REFUSED`). The reviewer wrote the rule about the exact instance and did not sweep the instance; the custodian who owned the instance was dark. Same structure as 8/12, sharper consequence class: for **grants and permissions**, the un-swept stock isn't stale prose — it's standing authority. Sweep order for authority objects: revoke the live instance FIRST, re-word the doc second.
 
 Related: [[finding_banner_is_a_warning_not_a_fix]] (a banner buys time on a *known* stale doc; this is the unknown stock behind a *new* rule) · [[finding_verification_correction_downstream_propagation]] · [[finding_retired_threshold_has_no_publisher]] · [[finding_dated_carry_item_has_no_expiry_check]] · [[finding_anti_ratchet_governs_state_not_prose]].
