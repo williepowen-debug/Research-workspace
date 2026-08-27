@@ -11,6 +11,24 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+
+## 2026-08-27 (S34) — structural changes
+
+**Trigger:** Will-directed boot after 7 dark days + a Will-assigned KERNEL Gate C adversarial review.
+
+1. **`workbook/PREDICTIONS.tsv` — RED-22 added, and its `Timeframe` cell had to be fixed TWICE.** As registered the cell was prose (*"Resolves Fri 2026-08-28 ~10:00 ET on the BLS…"*) which `boot.py`'s DUE-scan printed as **MANUAL CHECK**. ⚠️ **`parse_fuzzy_date` anchors `^…$` and requires the WHOLE cell to be a bare ISO date (or a `Q`/month form) — prose ANYWHERE makes an ACTIVE row invisible to automated loop-closure.** My **first** fix (leading the cell with the ISO date) **did not work**, and only re-running the tool showed that. `Timeframe` is now the bare date; the resolver detail moved to `Invalidation`. **Boot-impact: DUE-scan returns 🟢 again.** *(Same class as ML-RED-125 — an undated ACTIVE row is DUE-scan-invisible by construction.)*
+2. **`workbook/CHALLENGES.tsv`** — **CHG-RED-049** opened (CARL, STRONG) · **CHG-RED-050** opened and RESOLVED (KERNEL Gate C review) · **CHG-RED-048** → RESOLVED-CONVERGED · **CHG-RED-042** → **ACTIVE-BLOCKED** with a hard 9/30 backstop and its failure mode written in.
+3. **`workbook/ML.tsv`** — ML-RED-183…188 appended (FT-08 leg structure ×2 · the argument-vs-apparatus mechanism · the same-primary replication error · the cross-perimeter comparison class · the shared-antecedent loop with LABOR).
+4. **`workbook/KB.tsv` KB-RED-067** — the DFII10 label re-corrected on its **third** pass (BOND's canonical string encoded verbatim), and the row's **core claim SPLIT** into its two decompositions, with the policy-path half downgraded to CONTESTED and then **re-grounded** so it does not depend on BOND's instrument.
+5. **`research/` — two new files:** `QCEW_FRAMEWORK_2026-08-28.md` (pre-catalyst decision tree, FROZEN, two pre-data addenda) and `QCEW_PRIMARY_CHECK_2026-08-27.md` (primary verification + LABOR's charge + the seasonality refutation).
+6. **`challenges/` — `2026-08-27_KERNEL_GATE_C_LIVE_INTERFACE_ADVERSARIAL_REVIEW.md`** (review + 2 delta re-reviews). **`2026-08-20_SAM_V20_BLIND_PASS.md`** header count corrected three→four.
+7. **`research/FOMC_FRAMEWORK_JUL28-29_2026.md`** — dead-framework banner added (it carried the false "DFII10 series high" label in prose and in branch R-C). **Content left intact** — a pre-catalyst framework's value is recording what was believed before the print.
+8. **`AGENTS/SAM/red/CHALLENGES.md`** (RED's editing right, S31) — **CH-009 and CH-012 now carry STATED input perimeters** rather than inferable ones, verified by grep across the whole rail. Line count 280 → 291, **verified RISING** (a falling count would signal anchor-splice deletion, ML-RED-155).
+9. **No tooling changed. Nothing written into `KERNEL/`** — verified with `git status -- KERNEL/` at every commit in the review sequence.
+
+**Boot-impact:** DUE-scan green; `board_log` current; `schema_check` ALL CONFORM throughout.
+
+
 ## 2026-08-20 (S33c) — PHASE 2 CLOSED: IQHQ row re-anchored · retirement sweep (3 moved / 3 held) · fleet proposal routed
 
 **Trigger:** Will — "finish out the remaining phase 2 items."

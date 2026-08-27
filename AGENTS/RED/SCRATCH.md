@@ -22,6 +22,67 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S34 (2026-08-27, ~9:14 AM – ~2:xx PM ET) — Will-directed boot after 7 dark days, then a Will-assigned KERNEL Gate C adversarial review. NO WEIGHT MOVED ALL SESSION: HOLD 69 / net-bear 60.**
+
+## CHANGES SINCE (S33c 8/20 closeout → this boot)
+
+- **Bear's strongest row WEAKENED:** 10Y real **2.43 → 2.32** [FRED 8/25]; 30Y 5.23 → 5.17. The real-rate grind — the 30/70 row carrying the bear alone — eased.
+- **Tail/dispersion leg STRENGTHENED:** CCC **1023 → 1039**; **CCC−HY gap 751 → 769**, reversing the 8/12 "no further decompression" note. ⚠️ **Per VIOLET's discipline (adopted): this re-widening gets NO grade on a spent test — it needs a FRESH pre-registration or nothing.**
+- **^SKEW: NINE closes >140** [8/17–8/26], high **145.64** [8/24]. No weight — >140 is the MODAL state (54-65%); run length is not evidence. FT-10 (≥150 s=4) 7.04 away.
+- **VIX 16.01 [8/20]** — the session WALTER twice pre-flagged. **1.99 below FT-06's exit (≥18 s=5), which I wrote pre-data 8/12.** It held without a judgment call.
+- HY 270 (WL-03 re-arm 10bps away, moving AWAY) · Brent 87.5 (WL-11 firing deeper) · USDJPY 159.45 · 5y5y 2.33.
+- **Treasury buyback:** the 30Y round-tripped the announcement ~99% in three sessions; **TERRY ruled the 30Y-LEVEL framing UNDETERMINED in both directions.** §3 survives and is what RED needed: **9 Sep is an UN-PRICED event, not a pre-priced one.**
+
+## WHAT I DID
+
+1. **Inbox drained 3/3** (CARL, VIOLET, HENRY), board_log caught up (6 BOARD + 9 session rows), top level CLEAR.
+2. **CHG-RED-049 opened — CARL, STRONG.** Their inverse-configuration auto-DQ read is a legitimate hypothesis and an illegitimate inference: **the mechanism they KEPT (Philly Fed extensions) empties the delinquency stock WITHOUT loss**, so the paper supplies the benign explanation for the exact observation they read as adverse. Flow legs +15bp/+3bp on one quarter, no noise floor, and one pipeline observed twice. One-quantity registration offered.
+3. **HENRY answered — and the finding is against me.** Their item ② premise was false (FT-06's exit was defined 8/12), **but FT-06's `recipient_chain` names HENRY as an info-consumer and I routed the fill to PROME only.** The ORACLE defect with RED as publisher. cc VIOLET, same gap.
+4. **CHG-048 RESOLVED-CONVERGED** at SAM's Will-authorised unseal. Split: 4 overlap / **~7 NOVEL to RED**, including two entire attacks (C: the killer set was blind to ~96.5% of its object; D: the registered prediction resolved TRUE under both hypotheses and was about to be written to PREDICTIONS.tsv). **I withdrew my own A.2** on SAM's sealed counter — it refuted a claim the candidate never made.
+5. **FT-08 found broken (ML-183/184)** by running SAM's promoted memory against my own registry.
+6. **QCEW tree written and FROZEN** + **RED-22** registered and amended 3× pre-data.
+7. **Berger verified at the primary** (`api.bls.gov` works where `bls.gov` 403s) — then LABOR's circularity charge conceded and their replacement refuted (**the ratio is seasonal, 0.591pp**). Net: **change finding, not level finding.**
+8. **KERNEL Gate C review + two delta re-reviews** — PROCEED, 2 MODERATE findings, both closed by mechanism, **CHG-050 RESOLVED**. Nothing written into `KERNEL/`.
+9. **DFII10 label re-corrected on the third pass** (BOND's canonical string adopted verbatim), and **KB-067's core claim SPLIT**: real-rate half confirmed and strengthened, **policy-path half downgraded to CONTESTED** — then **re-grounded** on BOND's objection so it is not hostage to their instrument.
+
+## ⚑ THE SESSION'S FINDING, AND IT IS ABOUT RED
+
+**Five defects on my own book. Every one surfaced by another desk. Self-found: ZERO.**
+FT-06's unrouted exit (HENRY) · FT-08's inert leg (SAM) · the DFII10 label and then its grounding (BOND ×2) · RED-22's cross-instrument comparison (LABOR).
+**ML-185 supplies the mechanism** — *an author's self-attack list defends the ARGUMENT and is structurally blind to the APPARATUS* — and the mirror is exact: **CHG-027 and CHG-028 both attack the argument; neither attacks the apparatus.**
+⇒ **ADOPTED: every self-challenge declares ARGUMENT or APPARATUS, and RED carries ≥1 live APPARATUS self-challenge at all times. Currently 0 of 2 — this is the first NEXT-SESSION item.**
+
+## NEXT SESSION (dated, priority-ordered)
+
+1. **🔴 FRI 8/28 10:00 ET — QCEW. Read the number, name the band, execute the row as tabled. Do not improvise.** Then G1–G5 answered in writing, W2/W3/W8. **Same day: CHG-046 + CHG-043-B (NEXUS).**
+2. **🟠 Open RED's first APPARATUS self-challenge** (per ML-185). Candidate: the registry's own conjunction legs — S30 base-rated whole ROWS and could not see leg structure.
+3. **🟡 CARL V2 — was due 8/24, owner dark since 8/20.** Grade on their boot; not RED's instrument to move.
+4. **🟡 9/3 30Y JGB — CHG-047 / CH-009 / CH-012.** Perimeters now STATED in the rail. SAM owes: the perimeter line, marginal base rates vs their product, and whether the inward leg is independent.
+5. **🟡 9/4–9/11 — FT-04 / FT-07 / VX-004 / **FT-08** re-spec, on a day the bear is not losing.**
+6. **🟡 9/12 VX 9-vector re-review** · **9/15 CHG-044** · **9/30 RED-04 + CHG-042 hard backstop** · **~10/21 IQHQ** · **10/14 + 11/10 CHG-028**.
+7. **Daily:** ^SKEW vs 150 / 140 · HY vs 280 (10bps) · CCC vs 1000 (1039, gap 769) · WL-11 Brent <95 · USDJPY vs 160 (0.55) · VIX vs FT-06 exit ≥18 s=5.
+
+## OPEN THREADS
+
+- **🔴 RED has no apparatus self-challenge.** Item 2 above. The single most transferable thing from this session.
+- **CHG-042 ACTIVE-BLOCKED, hard backstop 9/30** — freight/insurance residual unverified 41d, **second** re-date. If the input is not found by 9/30 it retires UNVERIFIED and scores nothing. First test at the backstop: **unavailable or merely unfetched?**
+- **VX-RED-004's flip line is still dead** (`30Y JGB >2.5%` vs ~4.1%) — re-spec at Phase 4, do NOT carry it into 9/3.
+- **Publisher-side routing is unfixed as a class.** I fixed the HENRY instance; nothing yet serves a registry row's `recipient_chain` at the write that changes it.
+- **The Treasury buyback (Phase 2.5, Will-ruled ahead of Phase 3) is STILL NOT BUILT.** BOND/TERRY have graded enough; 9 Sep is un-priced. **This is the analytical task that keeps getting displaced by inbound work.**
+- Independence discount stands (ML-133) — and now also RED↔LABOR on QCEW, stated in both directions.
+
+## PENDING WILL-DECISIONS
+
+- **None blocking.** KERNEL: PROME cuts the fresh C7 packet on my RESOLVED word; **Will's activation ruling follows the packet**, attended pilot window **Sat–Sun 8/29-8/30** ⚠️ *(PROME's handoff said "Sat-Sun 8/30-31" — 8/30 is a SUNDAY and 8/31 is a MONDAY. Flagged to PROME: a wrong day-name on a scheduled ATTENDED pilot is the kind that gets someone to the desk on the wrong day. RED's `claim_check` caught it at closeout; the DATES vs the DAY-NAMES disagree and PROME owns which is intended.)*.
+- **FYI:** tomorrow's QCEW moves a weight on four of five branches. The tree is frozen and the magnitudes are pre-registered, so it executes without a decision from you — but Soft Landing's labor-side re-mark has been pre-committed to it since 8/12.
+
+## GIT STATE (one line)
+
+On master; S34 committed path-scoped (`AGENTS/RED/` + carve-out ① packets to CARL/HENRY/VIOLET/SAM/LABOR/DAEDALUS + `PROME/inbox/` review copies + the `AGENTS/SAM/red/` rail under RED's editing right); **nothing written into `KERNEL/`, verified at each commit**; safe-push at closeout.
+
+---
+
+
 **🆕 S33 (~2:20–3:5x PM ET) — Will-directed OPEN-ITEMS SWEEP + REVIEW-DEBT PHASE 1. NO WEIGHT MOVED: HOLD 69 / net-bear 60. Third session-ending of 8/20; W-A floor + A5/A6/A7 conditionals run.**
 
 **WHAT I DID**
