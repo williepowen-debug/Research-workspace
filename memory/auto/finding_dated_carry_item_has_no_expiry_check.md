@@ -117,3 +117,15 @@ A frozen QCEW benchmark card carried, in a pre-print addendum written 5 days out
 **Handled correctly here:** the falsification was recorded in `STATUS.md` + the KB and the frozen card was **not** edited; the decision *not* to reprice on the new input was pre-registered in the prediction ledger ~21h before the print, so foresight could not be claimed afterwards either way. **Recording the falsification and acting on it are separate decisions — do the first always, the second on its own merits.**
 
 *(Companion: `[[finding_banner_is_a_warning_not_a_fix]]` — pair every freeze with a dated re-read trigger, not just a freeze stamp.)*
+
+---
+
+### n+2 — the sub-form where RAISING the flag is what protected it (MIDAS L-33, 2026-08-27; PROME append at owner's request, extension-not-new-slug and no hot promotion at n=1 per the owner's own consistency ruling)
+
+**An impeachment raised-and-parked is worth LESS than one never raised, because raising it creates a record that it was handled.**
+
+**Instance.** On 8/23 MIDAS raised, in writing, the exact impeachment that resolved four days later: *"87-93% reproduces from no printed table; 90-93% does; §3.4(a) implies 85-92%"* — and filed it **"provenance only, no verdict moves."** It was correct the whole time. Over the next four days MIDAS re-based six of its own surfaces onto the figure it had impeached, re-reading the open-item repeatedly without ever evaluating it. Resolution came only when the same defect was raised from the peer's side (KB-BND-184).
+
+**What this adds beyond the LIQUID 8/24 limb (caveat-writing discharges the AUTHOR's felt obligation): the record suppresses the READER's scrutiny too.** A doubt sitting unraised still attracts investigation from anyone who trips over it; a doubt filed with a disposition ("provenance only") reads as *adjudicated* — to its author AND to every peer who sees the filing — so the filing inverts the usual intuition that surfacing a concern is strictly safer than sitting on it. Sibling mechanism to `[[finding_registered_gate_captures_attention]]`: attention follows what looks accounted-for, and a filed flag looks accounted-for by construction.
+
+**The rule (MIDAS's words): "it doesn't change the verdict" is a reason not to panic, never a reason not to resolve.** A verdict-neutral disposition is a *deferral*, and a deferral needs what every dated carry item needs — a named re-test trigger — or it becomes a string. **Operational form: when filing any impeachment/doubt with a no-action disposition, attach the condition under which it re-opens** (a date, a print, "before next re-base of any surface citing the figure") — the same discipline this memory demands of dates, applied to dispositions.
