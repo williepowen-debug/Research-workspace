@@ -20,9 +20,15 @@ class FixtureAcceptanceLock:
     an actor capability, validate a command, or authorize a result disposition.
     """
 
-    def __init__(self, workspace_root: str | Path):
+    def __init__(
+        self,
+        workspace_root: str | Path,
+        *,
+        forbidden_repository_root: str | Path | None = None,
+    ):
         self.workspace_root = Path(workspace_root).resolve()
-        repository_root = REPOSITORY_ROOT.resolve()
+        repository_root = Path(forbidden_repository_root or REPOSITORY_ROOT).resolve()
+        self.forbidden_repository_root = repository_root
         if (
             self.workspace_root == repository_root
             or repository_root in self.workspace_root.parents
@@ -41,7 +47,7 @@ class FixtureAcceptanceLock:
             raise RuntimeError("fixture acceptance lock instance is already held")
         self.path.parent.mkdir(parents=True, exist_ok=True)
         resolved_lock_directory = self.path.parent.resolve()
-        repository_root = REPOSITORY_ROOT.resolve()
+        repository_root = self.forbidden_repository_root
         if resolved_lock_directory == repository_root or repository_root in resolved_lock_directory.parents:
             raise ValueError("fixture acceptance lock cannot resolve into the live repository tree")
         flags = os.O_CREAT | os.O_RDWR

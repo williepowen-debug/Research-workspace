@@ -43,6 +43,7 @@ class SyntheticMirrorBoundary:
     def __init__(self, root: str | Path, *, live_repository_root: str | Path | None = None):
         self.root = Path(root).resolve()
         live = Path(live_repository_root or LIVE_REPOSITORY_ROOT).resolve()
+        self.live_repository_root = live
         if self.root == live or live in self.root.parents or self.root in live.parents:
             raise GateCBoundaryError("Gate C synthetic boundary refuses the live repository tree")
         marker_path = self.root / MARKER
@@ -125,7 +126,10 @@ def run_synthetic(
         result_root = boundary.root / "KERNEL"
     try:
         runner = FixtureAcceptanceRunner(
-            FixtureResultStore(result_root),
+            FixtureResultStore(
+                result_root,
+                forbidden_repository_root=boundary.live_repository_root,
+            ),
             writer_id="PROME",
             registry=registry,
             git=SubprocessGitBoundary(boundary.root),

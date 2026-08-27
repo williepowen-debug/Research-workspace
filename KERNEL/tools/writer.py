@@ -252,9 +252,11 @@ class FixtureResultStore:
         root: str | Path,
         *,
         before_publish: Callable[[Path, Path], None] | None = None,
+        forbidden_repository_root: str | Path | None = None,
     ):
         self.root = Path(root).resolve()
-        repository_root = REPOSITORY_ROOT.resolve()
+        repository_root = Path(forbidden_repository_root or REPOSITORY_ROOT).resolve()
+        self.forbidden_repository_root = repository_root
         if self.root == repository_root or repository_root in self.root.parents:
             raise ValueError("fixture result store cannot target the live repository tree")
         self.before_publish = before_publish
@@ -518,7 +520,10 @@ class FixtureResultWriter:
         )
 
     def _acceptance_lock(self) -> FixtureAcceptanceLock:
-        return FixtureAcceptanceLock(self.store.root.parent)
+        return FixtureAcceptanceLock(
+            self.store.root.parent,
+            forbidden_repository_root=self.store.forbidden_repository_root,
+        )
 
 
 def _validate_result_document(document: Any):
