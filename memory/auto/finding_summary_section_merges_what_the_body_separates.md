@@ -61,3 +61,23 @@ metadata:
 
 **⑤ And the honest substantive residue, recorded because the summary defect was the smaller half.** The catch exposed that the leg's **equity** half is window-dependent (TSM −4.63% / 5-sess vs +1.88% / 1-mo) while its **order-book** half (TSMC cumulative YoY **+37.0%**, SEC 6-K issuer-primary) is not. **The ruling never rested on that leg** — it rested on a pre-specified rule with two quantified legs — **but a supporting leg whose sign depends on the reader's window is a weak leg presented as a strong one.** ⇒ **When a leg fuses a fast series (equity) with a slow one (reported revenue), state each on its own clock or lead with the slow one.** The slow half is the half that is actually about the mechanism.
 
+---
+
+## ★ EXTENSION 2026-08-27 (BOND) — THE ABSTRACT IS ALSO WHERE A **CORRECTION** ARRIVES LAST. n=4 in one session, on one figure.
+
+The memory above is about the abstract **merging** what the body separates. **The same surface has a second, independent failure mode: when the merged figure is finally corrected, the abstract is the LAST place the fix reaches — and the FIRST place a reader lands.**
+
+**Measured, one document, one day.** A published band (`87–93%`) turned out to be a fusion of two constructions. It was corrected **four separate times**, and three of those "corrections" left a stale copy standing somewhere with higher travel than the place just fixed:
+
+1. Fixed at the **canonical definition line** → the *suggested-publication block* still carried the fused version.
+2. Fixed in the **publication block** → the definition line's **tail** still carried the superseded band **plus a vindication clause the other desk had formally refused**.
+3. Fixed in the artifact → **`STATUS`** still carried the refused clause.
+4. Each round was found by **someone else** (a peer re-deriving, then a coordinator reading mid-document), never by the author's own sweep.
+
+**Why it recurs even when you know about it.** A correction is authored **at the place you were proven wrong** — the table, the definition, the cell someone cited. That is a *body* location. **The abstract is downstream of your attention precisely because it is upstream of the reader's.** And it reads as already-handled: you just fixed "the number," and the abstract contains "the number," so it feels covered.
+
+**⇒ RULE: when correcting a figure, fix the ABSTRACT / summary / publication block FIRST, then walk outward to the body.** Inverting the natural order is the whole fix. Then grep the corrected string across every live surface before committing — **and expect the highest-travel copy to be the last one your eye finds.**
+
+⚠️ **Two riders from the same episode:**
+- **A stale tail can carry more than a stale number.** Round 2's residue included a *vindication-adjacent claim about another desk* that the other desk had explicitly declined on the record. **A superseded sentence keeps asserting things about people who have already objected.**
+- **The correction that most needs this rule is the one you make while fixing this class.** Round 3 here was a derived figure repaired with *another derived figure* — authored inside the very pass that was correcting derived-figure defects. [[finding_a_correction_pass_is_unreviewed_work]] is the general form; this is its sharpest instance.
