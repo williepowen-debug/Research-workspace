@@ -1,0 +1,141 @@
+# TRADE CARD — REFINER EQUITY (VLO / MPC / PSX / DINO) — LONG, expressing the distillate-crack STRONG leg
+
+**Setup ID:** `TRY-BRENT-REFINER`
+**Date:** 2026-08-27 ~12:0x ET (`date` wall clock, copied not inferred) · **market OPEN**
+**Thesis owner:** **BRENT** (distillate/crack domain). ⚠️ **TERRY owns construction ONLY** — I do not re-underwrite the crack thesis.
+**Tasking:** Will, relayed via BRENT 11:2x ET — verbatim ***"loop TERRY in on a VLO/MPC construction."***
+**Terry verdict:** 🟡 **CONDITIONAL — SHARES, NOT OPTIONS. Small, and smaller than the ask implies.**
+**Confidence in trade structure:** High · **Confidence in thesis:** Not mine to grade.
+
+> ⛔ **`$0` MOVED · NO ORDER · NOTHING ARMED. APPROVAL REQUIRED — Will must approve/reject before execution.**
+
+---
+
+## 1. One-line setup
+
+Own the leg of BRENT's oil thesis the book expresses **nowhere** — refining margin / distillate crack — in the **smallest instrument that does not deepen the concentration flag**, and accept that the honest size is ~$1,000, not a position that will change the book.
+
+## 2. THE HEADLINE: I AM RECOMMENDING A **SMALLER, DULLER** TRADE THAN WAS ASKED FOR, AND HERE IS WHY
+
+**Four independent facts, each measured this session, each pointing the same way — away from options.**
+
+### ⛔ (a) THE 60–90 DTE BAND IS **EMPTY** ON BOTH NAMES WILL NAMED. BRENT SAID IT WOULD NOT BE.
+
+His packet §4: *"the 60-90 window in USO didn't have November listings; VLO/MPC have monthly cycles and the 60-90 window is well-populated. **Not the trap it was on USO.**"*
+
+**Measured, live (`chain_fetch.py`, 12:0x):**
+
+| name | listed expiries around the band | 60–90 DTE window (10/26 → 11/25) |
+|---|---|---|
+| **VLO** | …9/25, 10/2, **10/16**, **12/18**, 1/15… | ⛔ **NOTHING** |
+| **MPC** | 9/18, **10/16**, **12/18**, 1/15… | ⛔ **NOTHING** |
+| **PSX** | …**11/20** present | ✅ **11/20 = 85 DTE, IN BAND** |
+
+⇒ **VLO and MPC skip November entirely** — they are quarterly beyond October. **`Oct-16` = 50 DTE (below band) · `Dec-18` = 113 DTE (above band).** **It is the same trap, on the two names the ask specified.** *(`[[finding_adoption_is_not_validation]]` — the claim was confident, consumed, and untested. I ran the pull instead of inheriting it.)*
+
+### ⛔ (b) IV IS RICH, AND YOU WOULD BE BUYING IT **AFTER** THE MOVE
+
+**Measured IV, this session:** VLO Oct-16 ≈ **44.9–45.9%** · VLO Dec-18 ≈ **46.6–47.5%** · MPC Dec-18 ≈ **45.5–47.5%** · PSX Nov-20 ≈ **40.1–42.9%**.
+
+**These names have already run +14–17% in 30 days** (BRENT's table). **Long premium at ~47 IV into a completed move is paying up for convexity you are buying late.** ⚠️ **PSX is the cheapest vol on the board by ~5–7 vol points AND owns the only in-band expiry** — if this trade is ever done with options, that is a fact that should decide the name, and it is *not* one of the two names the ask specified.
+
+### ⛔ (c) THE THESIS HAS **NO DATED CATALYST**, SO CONVEXITY BUYS NOTHING
+
+Inventories at a **1996 low for the date**, utilization **97.4%**, crack at a record — these are **stock-and-flow conditions, not events.** There is no print, no meeting, no expiry to be convex *around*. **`RISK_RULES` 71 (match expiry to catalyst + confirmation lag) has no catalyst to match.** An option here pays theta for optionality against a calendar with nothing on it.
+
+### ⛔ (d) THE `$500` CARD CAP MAKES EVEN **ONE** CONTRACT UNBUYABLE
+
+Standing rule (Will 2026-06-26): **max loss `$500` per card.**
+- VLO `Dec-18 350C` mark **32.35** ⇒ **`$3,235`/contract = 6.5× the cap.**
+- VLO `Oct-16 360/380` call spread ⇒ net debit ≈ **`$680` = 1.36× the cap**, and it sits at 50 DTE, *below* the band.
+- ⇒ **There is no options structure on VLO/MPC that fits the cap without going far OTM on a short tenor — a lottery ticket on a slow structural thesis.** ⛔ **Refused.**
+
+> 🔑 **The four are independent and they agree. That is the finding, not my preference.** *(Execution drag confirms it: quoted spreads run **5–10%** across these strips — VLO Dec `360C` at **2.11%** is the single best quote on the board and the exception.)*
+
+## 3. RULE #6 — ✅ **SATISFIED ON ITS OWN TERMS. NO BREAK TEST NEEDED.** *(and BRENT read the wrong tape)*
+
+**Root rule #6: puts on green days, calls on red days.** BRENT wrote (11:20): *"Today is a **GREEN** day (BZV26 +1.4%)… **my read: WAIT FOR A RED DAY on the refiners specifically.**"*
+
+**★ HIS INSTRUCTION IS RIGHT AND HIS PREMISE IS ALREADY FALSE — the refiners ARE red, right now.** Measured 12:04 ET:
+
+| VLO | MPC | PSX | DINO | CRAK | XLE | **USO** |
+|---|---|---|---|---|---|---|
+| **−1.01%** | **−0.44%** | **−1.08%** | **−0.34%** | **−0.50%** | **−0.79%** | **+0.91%** |
+
+⇒ **Crude is GREEN; every refiner and the refiner ETF are RED.** **The day-colour that binds is the instrument you transact, not its thesis cousin** — BRENT priced the day off `BZV26`. ✅ **A long refiner expression today is rule-#6-CLEAN on the direct measurement, and needs no break argument.** *(This is the day-colour split doing real work: the two legs genuinely decoupled today, which is the same evidence the trade rests on.)*
+
+⚠️ **INTRADAY, NOT A CLOSE.** Re-measure the refiner's own day-colour **on the day of the fill, before the fill** — an intraday red can close green. **The 8/27 figures above are NOT a standing pass.**
+
+## 4. STRUCTURE — **SHARES**
+
+- **Instrument:** ✅ **COMMON SHARES.** No theta, no IV to overpay, no expiry to match to an absent catalyst, no tenor-band violation, and the thesis is structural and slow — shares express *exactly* the view with nothing bolted on.
+- **Expiry / tenor:** **N/A — and that is a feature here**, not a dodge. The 60–90 band governs **new structural option deployments** (`RISK_RULES` #21); shares raise no tenor question, which is the cleanest way past a band the listings cannot satisfy. ⛔ **I did not "solve" the empty band by relaxing it.**
+- **Rationale vs alternatives:** calls ⇒ (b)+(c)+(d) · call spread ⇒ (d), and still 50 or 113 DTE · **CRAK** ⇒ BRENT's own objection (dilutes with foreign refiners, Reliance) and it is *also* red today · **HO=F / UNL** ⇒ the cleanest leg-expression in theory, **retail-thin and a futures contract is not sized in `$1,000` units** — refused on tradeability, not on merit.
+
+## 5. SIZING — **THE CONCENTRATION CEILING BINDS, NOT THE `$500` CAP**
+
+**BRENT's constraint, arithmetic run:** oil sleeve gross **`$5,831`**, undefended-linear **76.4% = `$4,455`**, ceiling **~80%**. Shares add **fully** to undefended-linear:
+
+> `(4,455 + X) / (5,831 + X) ≤ 0.80` ⇒ **X ≤ `$1,050`** *(check: 5,504/6,880 = 0.8000)*
+
+| name | last | max shares | cost | % of ceiling | trim step |
+|---|---:|---:|---:|---:|---:|
+| **VLO** | 344.50 | **3** | **`$1,033`** | 98.5% | 33% |
+| MPC | 360.67 | 2 | `$721` | 68.7% | 50% |
+| PSX | 239.62 | 4 | `$958` | 91.3% | 25% |
+| DINO | 96.19 | 10 | `$962` | 91.6% | **10%** |
+
+⇒ **RECOMMENDED: `3 × VLO` ≈ `$1,033`** (or **`4 × PSX` ≈ `$958`** — see §6, and PSX has the better vol and the only in-band expiry if this ever becomes an option).
+
+**On the `$500` cap:** a `$1,033` share position hits `$500` of loss only at **−48%**. **Any sane invalidation keeps this card inside the cap** — so the cap is not the binding constraint here, the concentration ceiling is. **Both are respected; neither was relaxed.**
+
+⚠️ **`[POSITION_STATE_UNKNOWN]` — CASH.** `FORGE/STATUS.md` is a **2026-08-14** reconcile (13 days stale) and I will not size against a stale cash figure. **If Will's intended oil-exposure ceiling as a share of total book is tighter than the sleeve math above, that number is his and it overrides this table.** *(Boundary #6 — I got a holdings fact wrong from an agent packet earlier today and am not repeating it.)*
+
+## 6. ⚠️ THE NAME CHOICE IS **UNDER-DETERMINED**, AND THE DATUM THAT SETTLES IT HAS BEEN OWED FOR 58 DAYS
+
+**`STATUS.md:137`, open since 2026-07-30:** *"Open ask back to BRENT, now **more** load-bearing: **distillate-yield-by-name** (if it isn't VLO, #1 moves to whichever name it is)."* **Never delivered.**
+
+★ **This is the exact question the ask puts to me — "VLO or MPC?" — and the exact number that answers it is the one outstanding.** ⛔ **I will not pick the name on a thesis basis I do not hold, and I will not assert a distillate-lever ranking from reputation** — that is a naked claim, and it is the class this desk has spent the week correcting.
+
+**So the name is chosen on CONSTRUCTION grounds only, and they are weak tie-breakers:** VLO fits the ceiling most closely (98.5%) and carries the deepest options liquidity should it ever matter; **PSX has cheaper vol (−5 to −7 vol pts) and the only in-band expiry; DINO gives 10% trim granularity against VLO's 33%.**
+
+⇒ **If BRENT delivers distillate-yield-by-name and it does not rank VLO first, THE NAME MOVES — and this card says so in advance so the switch is not a post-hoc rationalisation.** *(`[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]` — the thesis is *distillate*; the instrument should be selected on *distillate yield*, not on price convenience.)*
+
+## 7. RISK
+
+- **Max loss budget:** `$500` per card (standing). **Position notional `$1,033`; the cap binds at −48%, so it is not the operative limit.** ⚠️ **Shares have NO defined loss without a rule** — §8's invalidation is what makes this a defined trade rather than an open-ended long.
+- **Invalidation (thesis, BRENT's — carried, not mine to set):** distillate crack rolls over hard; refiner runs destroyed by higher crude or demand destruction.
+- **Invalidation (construction, MINE, and it is the one this card adds):** ⭐ **the DECOUPLING is the whole reason this is not a repackaged USO add — so the decoupling failing is what kills it.** Test: **refiner-vs-XLE 30d spread** (now **+8.9pp**: VLO +14.3% vs XLE +5.4%). **If that spread compresses toward zero while distillate holds a record, the "independent view" claim is dead and this becomes correlated oil beta wearing a different ticker.**
+- ⛔ **THE COMPRESSION THRESHOLD IS A NAMED SLOT, NOT A NUMBER — `RISK_RULES` #19.** I have **one observation** of that spread. **Naming "≤3pp" today off a single reading is precisely the error BRENT's own B-1 refutation exposed**, and I refused it on row 58 six days ago; refusing it here too. **It needs the spread's in-regime distribution with its bar count.** **→ owed by me, or by BRENT if he holds the series.**
+- **Gap/event risk:** single-name equity — earnings inside any multi-month hold *(VLO/MPC report late Oct; **date not verified this session — verify before any hold through it**)*. Refinery-specific operational risk (fire/outage) is a **single-asset** risk the ETF would diversify and the single name does not.
+
+## 8. TARGET / MANAGEMENT
+
+- **Driver test — `RISK_RULES` #23, and this card is its first live application.** ⭐ **On any session this position moves materially, name the driver IN FIGURES, IN-SESSION, BEFORE any add: is it the CRACK (the underwritten mechanism) or CRUDE BETA (not underwritten)?** **Discriminator: refiner move vs XLE/USO the same session.** **Crack-led ⇒ mechanism operating. Crude-led ⇒ you were paid by something this card never underwrote ⇒ that is evidence AGAINST it, and it TRIMS rather than adds.** ⛔ **No name ⇒ no add.**
+- **Target:** ⛔ **NOT NAMED.** Same reasoning as row 58's A2 — a structural thesis with no dated catalyst has no natural target, and a fixed one caps a winner the thesis says is being paid to run. **Ratchet, don't target** — and the ratchet width needs the same base-rate work as the §7 slot. **Deliberately left OPEN.**
+- **Partial exits:** trim step is **1 share = 33%** at VLO (25% at PSX, 10% at DINO). ⚠️ **Coarse — worth knowing before the fill, not after.**
+- **Roll rule:** **N/A** (shares).
+- **Time stop:** ⛔ **NONE, deliberately.** *(A fresh dated review clause on a card with a live invalidation is the silently-renewed-clause shape refused on `TRY-FIRE-006` and again on 004's 60-DTE review.)*
+
+## 9. WHY NOT / COUNTER-TRADE — *the best case against my own recommendation*
+
+**★ THE STRONGEST OBJECTION: `$1,033` may not be worth the operational weight of a position.** A +20% move on the whole thing makes **~`$207`** — real, but it will not change the book, and it consumes a card slot, a monitoring obligation, and a decision from Will. **If the honest size the constraints permit is too small to matter, the correct answer may be NO TRADE and to fix the CONSTRAINT instead** — i.e. **trim USO to make room**, which is BRENT's own §6 third bullet and is a *sleeve-sizing* decision I own but which needs Will's word on his oil ceiling first.
+
+⇒ **I am putting that on the table as the live alternative, not burying it:** **(i) 3 × VLO now at `$1,033`**, or **(ii) trim USO first, then size the refiner leg properly** — (ii) is strictly better on concentration (it cuts the 77.1% USO-linked share from both ends at once) and strictly worse on execution (two decisions, and it books a loss on USO at −9.5%).
+
+**Second objection, honestly stated:** the +14–17% run has **already happened**. Every fact in §2(b) that argues against options also argues that the *equity* is not cheap. **The counter is that shares carry no vol premium and no clock** — but "the move already happened" is a real risk and this card does not pretend otherwise.
+
+## 10. WHAT I AM SENDING BACK TO BRENT
+
+1. ⛔ **His 60–90 DTE claim is FALSE on both named tickers** (§2a) — measured, not argued.
+2. ⛔ **His "today is green" premise is FALSE for the instrument being transacted** (§3) — he priced the day off `BZV26`; the refiners are red. **His instruction was right; his tape was the wrong one.**
+3. 📌 **`distillate-yield-by-name` is 58 days owed and it is now the binding open item** (§6) — it decides the ticker.
+4. 📌 **A definitional question that is his, not mine:** does a **defined-risk debit spread** count toward *"undefended-linear share"*? He wrote that a call adds to it *"until it goes ITM."* **A debit spread's loss is capped by construction, so I would argue it is defended — but it is HIS metric and I will not redefine it to make my own structure fit.** *(Moot for this card, which is shares; live the moment anyone proposes a spread.)*
+
+## Decision
+
+**Recommended: BUY `3 × VLO` @ market-or-better, ≈ `$1,033`, as the distillate strong-leg starter** — rule-#6-clean on today's refiner tape, inside the 80% undefended-linear ceiling, inside the `$500` cap, no tenor-band violation.
+**Live alternative: (ii) trim USO first and size the leg properly** — better on concentration, needs Will's oil-ceiling number.
+⛔ **Both are blocked on: Will's intended oil-exposure ceiling, and a re-measured refiner day-colour on the day of the fill.**
+
+**APPROVAL REQUIRED — Will must approve/reject before execution.**
