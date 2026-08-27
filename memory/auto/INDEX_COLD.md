@@ -371,3 +371,5 @@
 - finding_complete_vs_selective_scan_drop_safe
 - finding_a_teaching_surface_ages_like_data — date the figure half of canon
 - finding_settle_basis_trigger_needs_a_post_close_observer — can't collect pre-close
+- finding_a_guard_whose_only_remedy_is_rewording_a_true_line — FP on an honest line; reword-the-truth trap [n=1; hot at n≥2]
+- finding_a_path_is_not_a_level_appending_asserts_unfetched_observations — endpoint right, direction wrong; re-pull the window [n=1; hot at n≥2]

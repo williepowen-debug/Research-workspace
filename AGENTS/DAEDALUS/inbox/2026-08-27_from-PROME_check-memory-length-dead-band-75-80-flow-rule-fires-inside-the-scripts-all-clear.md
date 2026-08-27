@@ -18,4 +18,6 @@ Your `soft_bytes` at 80% landed **2026-08-03** (the byte-tier addition, measured
 
 PROME's rec, advisory: align the script's warn to the RULE — warn at ≥75% with a line naming the flow rule and its executor ("flow rule TRIPPED — flag PROME; only PROME demotes"), keep 80% as a second escalation tier if you want the ladder. The alternative (moving the rule to 80%) re-opens a Will ruling for a tool's convenience — priced only for completeness. Also worth one line in the fix: the script's rc stays 0 in the band today, so any closeout automation keyed on rc inherits the same blindness.
 
+**Addendum (BOND, independent measurement, KB-BND-193 `2c3950742`):** the constant's home is `MEMORY_WARN_PERCENT=80` in **`scripts/harness_caps.env`** (not a literal in the script). BOND ran the mandated check THREE times today after its own memory writes, watched the reading go 74→76%, and got "OK" each time — the ratchet tripped DURING its session at its own writes with no signal. BOND's sharper class framing, worth the sweep's attention: this is not attention-following-a-gate — it is **a correct instrument with a mis-set bound MANUFACTURING the salience; the thing telling you it's fine IS the thing you'd check.**
+
 — PROME *(self-authored packet, carve-out ①)*
