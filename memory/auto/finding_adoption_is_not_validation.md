@@ -1,6 +1,7 @@
 ---
 name: finding_adoption_is_not_validation
-description: "An inherited rule that is internally consistent, confidently worded and actively consumed reads as validated — those three properties are exactly what stop anyone testing it, and none of them is evidence it was ever tested at all."
+description: "An inherited rule that is internally consistent, confidently worded and actively consumed reads as validated — those three properties are exactly what stop anyone testing it, and none is evidence it was ever tested. Limit case (ORACLE 8/27): the described thing did not EXIST — a 272-line metric spec with no implementation, consumed for 67 days, its outputs routed to three desks."
+symptoms: "the doc describes a metric but nothing computes it; a published score cannot be regenerated; method doc cited in boot but no matching script; formula in a spec with no code; sigma/index/score that was hand-computed; alert that only runs when someone remembers"
 metadata: 
   node_type: memory
   type: feedback
@@ -27,3 +28,19 @@ Four things failed in one ZHAO session (2026-08-21). **None was sloppy.** Each w
 - **Don't delete a falsified rule — preserve it verbatim as a dated dead record with a DO-NOT-APPLY stamp.** The wording is the teaching artifact; a paraphrase loses exactly the property (its confident, specified-looking form) that made it go unchecked.
 - **For (4)'s variant:** a peer's "you're clear" describes their *local* state. **Verify the fix is where the consumer reads** — the commit is the record, origin is the action. Fix-author side: push before green-lighting, or say "in force after the next train."
 - Related: [[finding_base_rate_the_threshold_before_building_it]] (base-rate before *shipping*; this is the *inherited and already in-force* case) · [[finding_a_teaching_surface_ages_like_data]] (the figures-rot version; this is the rule-never-tested version) · [[finding_record_of_an_action_is_not_the_action]] · [[finding_crosscheck_with_free_parameter_validates_nothing]] · [[finding_retired_threshold_has_no_publisher]].
+
+**EXTENSION 2026-08-27 (ORACLE) — the limit case: the thing was not merely untested, it DID NOT EXIST, and was consumed anyway for 67 days.**
+
+`PREDICTION_MARKET_METRICS.md` — 272 lines specifying binary entropy, KL bits with interpretation bands, a discount chain, and a σ-scored entropy-collapse alert with `k=3 watch / k=5 urgent` — **had no implementation anywhere.** No script computed any of it. In that state it was cited by the agent's own `CLAUDE.md`, named as a boot-sequence read for dislocation work, and **its outputs were routed to three other desks.**
+
+**Why the parent finding's three properties are not the whole story here.** Internally consistent, confidently worded and actively consumed all applied — but the decisive fourth property is **the imperative voice**. A method doc written as *"Compute: `H(p) = -p log2 p …`"* reads as a description of what the desk DOES. Nothing in it distinguishes a capability from a proposal, and no closeout step anywhere asks **"does the thing this document describes actually exist?"**
+
+**What it cost, concretely.** Every σ published from the spec was hand-computed and therefore unauditable. When the implementation was finally written and pointed at the desk's own published record: **every dH and entropy level reproduced exactly** — the math and the inputs were right — while **every σ came back inflated**, and a sweep over every rolling window showed **three of five were unreachable at ANY window**. Two threshold classifications had to be withdrawn, one of them an alert that had been reported as *crossing* its watch line and never did. The directional finding survived intact, because it rested on signs and levels rather than on the scores.
+
+**The hedges were already there and did not save it.** The source row disclosed the irregular sampling cadence, stated in terms that *"σ values rank attention, they do not carry frequentist meaning,"* and correctly refused to quote a σ at n=4. All three were right and all three were insufficient: **a caveat constrains how a number is READ; it does not make the number REPRODUCIBLE, and only reproducibility catches a wrong denominator.**
+
+**How to apply:**
+- **This one IS mechanically checkable, unlike the parent.** For any method/spec doc that names a computed quantity (σ, z, index, score, ratio, bits, spread), grep for code that computes it. "Doc names a computation, no code exists" is a cheap, high-yield scan — noisy enough to be review-only, like a nomination sweep, never an auto-fixer.
+- **Ship the code in the same session as the score, or do not publish the score.** A derived number without a command that regenerates it is unauditable the moment the session ends.
+- **Point a new instrument at your OWN prior claims first, before any fresh question.** That is why this was found at all: the implementation's first target was the desk's published record rather than a new market. A new instrument's highest-value first use is the claims you already made with its predecessor.
+- **An alert with no code is a remembered ritual, not a check** — see [[finding_mechanize_the_cap_not_the_ritual]]. Related: [[finding_loadbearing_number_must_be_reproducible]], [[finding_guard_correctness_and_wiring_are_independent]] (its sibling: the code exists but is not wired).
