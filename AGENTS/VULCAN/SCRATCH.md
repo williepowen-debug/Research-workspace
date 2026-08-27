@@ -1,5 +1,41 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> # ⛔ 2026-08-27 CLOSEOUT — READ THIS BLOCK BEFORE ANYTHING ELSE. ONE OBLIGATION IS UNDISCHARGED AND IT HAS A HARD CLOCK.
+>
+> **Will closed the session at ~12:3x ET and is booting fresh AFTER THE CLOSE. That is the whole reason this block exists.**
+>
+> ## 🔴 THE ONE THING OWED: grade VULCAN-16 on the POST-CLOSE reading (≥16:00 ET, 2026-08-27)
+> 1. **`.venv/bin/python AGENTS/VULCAN/tools/semi_watch.py`** — post-close. This is **reading #1 of the six** that count toward the S2 re-arm rule's *"3+ consecutive readings"*. ⚠️ **A partial run is a FAILED run, not a degraded one [L-16].**
+> 2. **`.venv/bin/python AGENTS/VULCAN/tools/mag7.py`** — same window, decided today so both readings share one basis and neither is an intraday sample taken after seeing the event. Last vintage **8/21, 32.87%**, which is **0.13pp under the 33% yellow line**; NVDA is 24.19% of the group and has just printed.
+> 3. **Grade VULCAN-16.** Pre-state frozen 8/24: **spread +3.31pp · DDR5 $54.17 · DDR4 $91.32.** Branches: **|Δ| < 5pp = BLOC/de-risking → CONFIRMED · Δ ≥ +5pp = memory-specific INFORMATION → REFUTED (and that IS re-arm evidence on the 8/21 basis) · Δ ≤ −5pp = AI-compute-specific → REFUTED, reroute S1/S5.**
+> 4. **Name WHICH claim died** — *"bloc/de-risking"* and *"not S2"* are SEPARATE and can fail independently. The row says so.
+> 5. **Then:** final STATUS write → **re-stamp `NEXUS_BRIEF.md`'s `STATUS commit:` pin to the new STATUS HEAD and re-commit** (Am.11, same-session rule — done four times today already) → packet PROME → `safe-push.sh`.
+>
+> ### ⚠️⚠️ AND THE THING THAT WILL DECIDE THE GRADE BEFORE YOU LOOK AT THE SPREAD — DO NOT MISS IT
+> **THE PHYSICAL LEG ALREADY TURNED TODAY AND IT FIRES THE ESCAPE CLAUSE ON THE LETTER.** DDR5 printed **−0.12%** ($53.93) — the **first decline in the retained series** (52.70 → 54.10 → 54.17 → **53.93**); DDR4 $91.05 (0.00%). Both now **below** the frozen 8/24 pre-state (DDR5 −0.44%, DDR4 −0.30%). Source: TrendForce, `spot_asof 2026-08-27T18:10+08:00` = **Asia session close, FINAL for the day** — it will NOT change post-close, which is exactly why it was legitimate to read pre-close while the equity leg was not. [KB-129]
+> - **VULCAN-16's escape clause:** *"a NEGATIVE DDR5 or DDR4 SESSION PRINT is a physical-market datum that OUTRANKS the equity spread and resolves this row on its own regardless of branch."* **On the letter, it has fired.**
+> - ⚠️ **BUT THE MAGNITUDE IS TRIVIAL AND THE CLAUSE IS UNDER-SPECIFIED — I wrote it with NO magnitude bar and NO session count, which violates this desk's own standing discipline that *"sustained" always carries N+ sessions.* That is my drafting error, made on 8/24.**
+> - 🔴 **DO NOT NARROW THE CLAUSE NOW. [L-11(b)]** An instance is in hand; re-wording the criterion to exclude it is exactly the post-hoc grader discretion pre-registration exists to prevent. **Grade it as written, state the magnitude honestly, and record the spec defect for FUTURE rows.**
+> - 🔑 **Second enumerated-clause surprise in one week, pointing the OPPOSITE way to the first:** VULCAN-13's escape clause was too **NARROW** (its enumerated set would have returned REFUTED while S5 was demonstrably firing); VULCAN-16's is too **LOOSE** (fires on a rounding-scale tick). **Same defect class — an enumerated mechanism test carries a completeness claim nobody checks — failing in both directions inside seven days.** That pairing is the durable finding, not either instance.
+>
+> ## WHAT TODAY DID (three arcs, all committed and pushed, `AGENTS/VULCAN/` verified identical at origin)
+> - **Arc 1 — NVDA Q2 FY27 + the 10-Q that landed 8/26, FIVE DAYS BEFORE my own tripwire.** All three registered tripwire questions answered, **two NEGATIVE BY AFFIRMATIVE ELECTION** (guaranteed-minimum-value schedule OMITTED by Reg S-K redaction election; *"satisfactory credit rating"* STILL UNDEFINED; ~3.8 GW option quantified in LOAD not MONEY). Guarantee book **$3.5B → $108.5B (31×)**. NVDA now asserts S5's rating-level mechanism **in its own filing**. **$500B financing platforms are MOUs ONLY.** Supply commitments **$119B → $279B, "primarily memory"** — cuts AGAINST a roll. **[L-22]**
+> - **Arc 2 — `tools/edgar_watch.py` BUILT, FALSIFIED (17 tests), WIRED (boot leg 8, SCHEMA 9th ledger, CLAUDE.md).** Immediately produced **MU FQ4 ~9/22, not ~9/29** — VULCAN-02/-11/-12 slip headroom went from ~1 day to ~6-13. **[L-23, L-25]**
+> - **Arc 3 — STATUS review.** BOTTOM LINE was **6 days stale, 1,088 words against a 2-4 sentence spec, carrying 4 claims today falsified** — rewritten to spec, old one archived. TRADE.md's *"both price legs still rising"* corrected. Kill rail's own 8/27 leg-3 entry **amended same-day** when the spot turn contradicted the morning's version.
+> - **Closeout — `consumer_check --self` found a FOURTH surface carrying the wrong NVDA figure** (`VX.tsv`, holding a **third** variant of the peak basis and contradicting itself in one sentence) **after** a three-surface sweep had already "fixed" it. **A content-specific sweep certifies the content it searched for, never the file.** KB-089/094 keep the wrong figure ON PURPOSE with superseded markers — KB is a permanent record and editing the number would erase the error while leaving the row looking always-right. [KB-130]
+>
+> ## STATE AT CLOSE — nothing moved, and the reason that is weak evidence is now on the page
+> **Composite 15/25, sixth session. S1-S5 all 3. Thesis-kill 1 of 3. Fired-count 0 of 5. S2's leading indicator STAYS DISARMED.**
+> ⚠️ **No band tripped — and I registered why that is weaker than it looks:** all three S5 upgrade bands are credit-market **pricing** events while S5 spent this quarter evolving through **structural obligations**; S2's band is a **cycle-roll** test while its evidence arrived as **supply lock-up** and **cost-push**. **Two channels, one morning, both accumulating real evidence their own triggers cannot register [L-23].** Bands deliberately **NOT** retuned with instances in hand. **With DAEDALUS for the 8/28 sweep — now FIVE VULCAN items.**
+>
+> ## ❌ STILL OPEN (carried, none discharged today)
+> - **The sector-within-index leg** on `mag7.py` (how much of QQQ's move is its AI-hardware layer) — cheap, scoped, deliberately not started while a post-close obligation was live.
+> - **The compute-spot-index baseline** (deferred since 7/22) — ⚠️ **same gap WALTER named as *agent-originated share of INFERENCE demand*; two desks, one gap, do not double-count.**
+> - **Hyperscaler long-dated-issuance check (KB-096).** **Company-level DRAM capacity is PROME's coverage gap, not my chase.**
+> - **`NEXUS_BRIEF` length** (~188 lines vs the 100-line §4.5 ceiling) — held pending NEXUS's amendment-9 revert ruling, asked 8/21, still unanswered.
+> - **8/28 DAEDALUS sweep, five items.** **PROME's L-21 routing to Will is still UNRULED.**
+
+
 > ## ▶ 2026-08-27 ARC 2 (Will-directed: *"build edgar_watch.py"*) — **BUILT, FALSIFIED, WIRED. And it immediately produced a research finding: MU FQ4 derives to ~9/22, not the ~9/29 three of my open predictions hang on.**
 >
 > ### ▶▶ THE POST-CLOSE OBLIGATION FROM ARC 1 IS STILL OPEN — see the arc-1 block below for the full procedure. Nothing here supersedes it.
@@ -60,7 +96,7 @@
 > 4. **I declined PROME's intraday resolver and PROME recorded it as its own defect.** The ask was to grade VULCAN-16 on the 9:30 tape; the registered resolver is **post-close** and the cadence was pre-committed 8/24 **before** the event. ⇒ **A relayed instruction from a peer does not override my own pre-registration** — and PROME's *same message* independently told me to pre-commit cadence before touching an s=N gate. **The correct move was visible inside the message that asked for the wrong one.**
 >
 > ### ❌ STILL OPEN / OWED (carried, none discharged today)
-> - **The 8/21 published NVDA −3.7% peak-to-current row is WRONG** (−8.92% recomputed; NVDA's YTD peak is 5/14 vs the cohort's late June) — **PROME has it kill-on-sight and never propagated it to Will.** Not corrected today.
+> - ~~**The 8/21 published NVDA −3.7% peak-to-current row is WRONG**~~ ✅ **CORRECTED 2026-08-27 to −8.8%** (verified at the tape before publishing: YTD max $235.47 on 5/14 → $214.72 on 8/21 = −8.81%; my own working figure had been −8.92%, the 0.11pp gap is dividend auto-adjust and I published the verified one). Fixed in STATUS, THESIS, NEXUS_BRIEF **and VX** — VX was found only by `consumer_check --self` at closeout, *after* a three-surface sweep had already 'fixed' it. Not corrected today.
 > - **The sector-within-index gap** (how much of QQQ's move is its AI-hardware layer) — cheap, scoped, still not built.
 > - **The compute-spot-index baseline** (deferred since 7/22) — **same gap WALTER named as *agent-originated share of INFERENCE demand*; two desks, one gap, do not double-count.**
 > - **Hyperscaler long-dated-issuance check (KB-096).** **Company-level DRAM capacity is PROME's coverage gap, not my chase.**
