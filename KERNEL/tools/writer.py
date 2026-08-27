@@ -331,6 +331,10 @@ class FixtureResultStore:
         return sorted(events, key=lambda event: (event["stream_id"], event["stream_version"], event["event_id"]))
 
     def publish(self, document: dict[str, Any]) -> Path:
+        if self.live_grant is not None and not self.live_grant.window_enforced:
+            raise ValueError(
+                "live grant was minted without window enforcement; durable writes refuse it"
+            )
         validation = _validate_result_document(document)
         if not validation.valid:
             raise ResultConstructionError(validation.findings)

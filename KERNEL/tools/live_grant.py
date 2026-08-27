@@ -29,6 +29,7 @@ class LiveShadowGrant:
         "activation_id",
         "writer_id",
         "recorded_at",
+        "window_enforced",
     )
 
     def __init__(
@@ -39,6 +40,7 @@ class LiveShadowGrant:
         activation_id: str,
         writer_id: str,
         recorded_at: str,
+        window_enforced: bool = False,
     ):
         if key is not _MINT_KEY:
             raise ValueError("live shadow grants are minted only by a validated activation")
@@ -48,6 +50,12 @@ class LiveShadowGrant:
         self.activation_id = activation_id
         self.writer_id = writer_id
         self.recorded_at = recorded_at
+        # Records whether the operator window was actually checked at mint time.
+        # Defaults False (fail-closed): a grant that cannot prove window
+        # enforcement is refused at every durable-write path (adversarial
+        # review 2026-08-27, finding 1 — read-onlyness must not rest on the
+        # call path alone).
+        self.window_enforced = bool(window_enforced)
 
 
 def require_live_grant(grant: object) -> LiveShadowGrant:

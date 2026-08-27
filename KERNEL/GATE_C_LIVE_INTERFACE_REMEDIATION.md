@@ -48,7 +48,9 @@ One explicit live mode; no synthetic refusal was weakened.
    document, any field-set or content defect, window not started, window
    closed, revocation passed, root binding mismatch, policy-pin hash mismatch,
    submission absent at the commit, submission byte mismatch, embedded-ID or
-   actor/path disagreement. Each is a named test.
+   actor/path disagreement. Each is a named subtest case (66 subtest cases
+   across two omnibus tests — granularity corrected per the 2026-08-27
+   adversarial review, note N1; coverage unchanged).
 4. **Writer and repository discipline preserved.** The activation `writer_id`
    must equal the custody policy's primary writer (PROME); an active substitute
    custody window blocks the primary before any write (abort drill, step 2 of

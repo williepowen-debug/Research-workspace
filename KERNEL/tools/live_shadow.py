@@ -252,8 +252,11 @@ def authorize_live_activation(
     """Validate the activation, the clock, and the root binding; mint the grant.
 
     Absence, expiry, mismatch, or ambiguity fails closed here — before any store,
-    lock, or writer exists. Read-only modes may skip the window requirement; a
-    write-capable caller must never pass ``require_window=False``.
+    lock, or writer exists. Read-only modes may skip the window requirement; the
+    minted grant records that choice as ``window_enforced``, and every durable
+    write refuses a grant minted without window enforcement, so a caller that
+    wrongly passes ``require_window=False`` on a write path is stopped by the
+    store, not by this comment (adversarial review 2026-08-27, finding 1).
     """
 
     activation, findings = load_activation_document(document)
@@ -294,6 +297,7 @@ def authorize_live_activation(
         activation_id=activation.activation_id,
         writer_id=activation.writer_id,
         recorded_at=now,
+        window_enforced=require_window,
     )
     return grant, activation, []
 

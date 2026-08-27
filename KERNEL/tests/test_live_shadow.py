@@ -17,9 +17,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from core import canonical_bytes  # noqa: E402
 from live_grant import LiveShadowGrant, require_live_grant  # noqa: E402
 from live_shadow import (  # noqa: E402
+    LiveRefusal,
     authorize_live_activation,
     load_activation_document,
     main,
+    prepare_live_inputs,
 )
 from locking import FixtureAcceptanceLock  # noqa: E402
 from test_native import SyntheticGitRepository, ref, tsv_line  # noqa: E402
@@ -271,6 +273,80 @@ class LiveGrantBoundaryTests(unittest.TestCase):
             FixtureResultStore(self.live.path / "KERNEL", forbidden_repository_root=self.live.path)
         with self.assertRaisesRegex(ValueError, "cannot target the live repository tree"):
             FixtureAcceptanceLock(self.live.path, forbidden_repository_root=self.live.path)
+
+
+class LiveWindowEnforcementTests(unittest.TestCase):
+    """Adversarial review 2026-08-27, findings 1 and 2 (RED).
+
+    Finding 1: read-only modes mint with ``require_window=False``; the grant
+    must record that choice and every durable write must refuse a grant minted
+    without window enforcement — read-onlyness must not rest on the call path.
+    Finding 2: the writer_id-must-equal-custody-primary guard had no direct
+    test in either direction.
+    """
+
+    CLOSED_WINDOW = ("2026-01-01T00:00:00.000000Z", "2026-01-02T00:00:00.000000Z")
+
+    def setUp(self):
+        self.live = LivePlayingRepository(self)
+
+    def test_require_window_true_refuses_a_closed_window(self):
+        grant, _activation, findings = authorize_live_activation(
+            self.live.activation(window=self.CLOSED_WINDOW),
+            live_repository_root=self.live.path,
+            now=INJECTED_NOW,
+            require_window=True,
+        )
+        self.assertIsNone(grant)
+        self.assertEqual({finding.code for finding in findings}, {"LIVE_WINDOW_REFUSED"})
+
+    def test_window_checked_grant_records_enforcement(self):
+        grant, _activation, findings = authorize_live_activation(
+            self.live.activation(),
+            live_repository_root=self.live.path,
+            now=INJECTED_NOW,
+            require_window=True,
+        )
+        self.assertEqual(findings, [])
+        assert grant is not None
+        self.assertTrue(grant.window_enforced)
+
+    def test_unenforced_window_mints_a_grant_the_store_refuses_to_publish_under(self):
+        grant, _activation, findings = authorize_live_activation(
+            self.live.activation(window=self.CLOSED_WINDOW),
+            live_repository_root=self.live.path,
+            now=INJECTED_NOW,
+            require_window=False,
+        )
+        self.assertEqual(findings, [])
+        assert grant is not None
+        self.assertFalse(grant.window_enforced)
+        store = FixtureResultStore(grant.kernel_root, live_grant=grant)
+        with self.assertRaisesRegex(ValueError, "without window enforcement"):
+            store.publish({})
+        self.assertEqual(self.live.event_files(), [])
+        self.assertEqual(self.live.receipt_files(), [])
+
+    def test_writer_id_must_equal_custody_primary_refuses(self):
+        document = self.live.activation(writer_id="RED")
+        path = self.live.write_activation(document, self)
+        with self.assertRaises(LiveRefusal) as context:
+            prepare_live_inputs(
+                activation_path=path,
+                live_repository_root=self.live.path,
+                submission_commit=self.live.submission_commit,
+                custody_activation_path=None,
+                now=INJECTED_NOW,
+                require_window=True,
+                load_submissions=True,
+            )
+        self.assertEqual(
+            {finding.code for finding in context.exception.findings},
+            {"LIVE_BINDING_MISMATCH"},
+        )
+        self.assertIn("custody policy primary writer", str(context.exception))
+        self.assertEqual(self.live.event_files(), [])
+        self.assertEqual(self.live.receipt_files(), [])
 
 
 class LiveShadowCliTests(unittest.TestCase):
