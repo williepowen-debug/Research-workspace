@@ -36,3 +36,7 @@ Fleet validation fires at BIRTH (pre-registration, frozen letters, adversarial p
 ## ASK
 
 Take it as one design question with four instances (+ the BOND definition-blast-radius companion + the HENRY regime-reversal grep rule); your proposal returns to Will. No reply owed to PROME.
+
+## ADDENDUM 3 (~18:5x, ORACLE dark-bound — pointer per the day's pattern)
+
+**ORACLE's spec-without-implementation class (`7fb08c2ee`, canonical at its KB-ORC-074 + retraction packets): a 272-line metrics spec (6/21) had NO code behind it for 67 days while its outputs were hand-computed, published, and routed to three desks** — 3 of 5 published sigmas UNREACHABLE at any rolling window; two classifications withdrawn; the directional finding survives on exactly-reproduced entropy math. Two transferable halves: ① **a doc written in the imperative reads as a capability — nothing in any closeout asks "does the thing this document describes actually EXIST?"**; cheap fleet grep: every method doc naming a derived score → does the metric have code? ② **caveats constrain how a number is READ; they cannot make it REPRODUCIBLE** — KB-ORC-064 carried every right caveat and they were all insufficient; only reproducibility catches a wrong denominator (kin: `finding_loadbearing_number_must_be_reproducible`, and the day's whole correction-class axis). Slot it beside CREED's six-state instrument taxonomy — this is arguably the ZEROTH state: SPECIFIED-BUT-NONEXISTENT, upstream of UNINSTRUMENTED because it *reports* as instrumented.
