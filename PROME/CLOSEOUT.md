@@ -45,7 +45,7 @@ Closeout is the **write-back tail** of boot (`[[finding_closeout_as_writeback_ta
 | `ACTIVE_DECISIONS.md` | boot: decisions read | Chunk 1 — surgical if a decision moved |
 | `PROME/GATES.tsv` | boot: fire-ledger gate (step 3) | Chunk 1 — surgical: register any action-gate approved this session; flip state on any landed verdict; refresh `last_checked` on rows touched. **A row must never leave a session `FIRED-UNEXECUTED` without an escalation note** |
 | `STATUS.md` | boot: health/queue read | Chunk 1 — surgical |
-| `HEARTBEAT.md` | boot: market-data / regime gate (step 5) | per Write-Back Contract — update after a regime-level change or >48h stale (market week); **commit is Will-gated** (shared doc) |
+| `HEARTBEAT.md` | boot: market-data / regime gate (step 5) | per Write-Back Contract — update after a regime-level change or >48h stale (market week); **commit PROME-standard since 2026-08-23** (Will "free it"; record `PROME/proposals/2026-08-23_heartbeat-gate-RULED.md` — this row carried "Will-gated" 4 days past the grant, n=3 of the ungating-leaves-mirror-behind class root canon records; synced 8/27 closeout) |
 | `memory/YYYY-MM-DD.md` | on-demand | Chunk 2 — create/append |
 | `PROME/DOCKET.tsv` | boot: fire-time gate input (step 5) | Chunk 1 — paired with the operator card: any catalyst date that moved/resolved updates its DOCKET row (canonical; SCRATCH/HEARTBEAT are views) |
 | **Fleet-Ops dashboard** | not a boot read — Will's comprehension surface | **Standard+ closeouts:** regenerate `python3 PROME/tools/fleet_dashboard.py -o <scratchpad>/fleet_dashboard.html` → republish via Artifact **to the recorded URL** (in the script header — pass `url=`, else it orphans Will's tab) |
@@ -72,7 +72,7 @@ Update only the owner doc whose state actually changed:
 | Action-gate approved / fired / resolved | `PROME/GATES.tsv` | Register the session it's approved; resolve the session the verdict lands (`[[finding_fired_gate_needs_owner_independent_ledger]]`) |
 | **Decision DEFERRED this session** | `PROME/DOCKET.tsv` | **Register a dated row at creation** (deferral class, reconsider-by date) — a deferral without a ledger row has no read-path (the 46-day-limbo class; governance batch 8/9) |
 | Agent/system health or work queue | `PROME/STATUS.md` | Surgical; no market narrative (that's SCRATCH/HEARTBEAT) |
-| Regime / thresholds / near gates | `HEARTBEAT.md` | PROME owns content; **commit Will-gated** (shared doc) — scope it, get OK, never sweep it into the PROME commit |
+| Regime / thresholds / near gates | `HEARTBEAT.md` | PROME owns content; **commit PROME-standard since 2026-08-23** (Will "free it") — still commit it EXPLICIT-PATH, never swept blind into a batch (synced 8/27; the discipline survived the ungating, per the ruling record) |
 | Forward catalyst date moved / resolved | `PROME/DOCKET.tsv` | Update the row **and run `scripts/firetime_check.py` on citing artifacts** — DATE flag ⇒ full logic re-read, never find-replace |
 | Daily activity | `memory/YYYY-MM-DD.md` | Append durable session log; **commit at closeout** (outside `PROME/` — Chunk 4 recipe) |
 | Durable insight / lesson | auto-memory (`memory/auto/`) | Promote sparingly; index row in `MEMORY.md`; **self-commit mandatory** (root carve-out ③, step 1d) |
@@ -81,7 +81,7 @@ Update only the owner doc whose state actually changed:
 | Autonomy grant/revoke | `PROME/AUTONOMY.md` **+ `PROME/CLAUDE.md` Ask-First** | Change-log alone never reaches the next boot — propagate to the auto-loaded surface |
 | Prototype learnings | `PROME/ORCHESTRAL_LAYER_DESIGN.md` or SCRATCH v_next | Pick one home, not both |
 | `PROME/FLEET_SCAN.md` | — | Don't touch (superseded snapshot) |
-| Root `CLAUDE.md`, `HEARTBEAT.md` commit, other shared | — | Flag to Will; never auto-edit |
+| Root `CLAUDE.md`, other shared/root docs | — | Flag to Will; never auto-edit *(HEARTBEAT removed from this row 8/27 — PROME-standard since the 8/23 ruling; root-doc HEARTBEAT LINES stay Will-gated per root canon)* |
 
 **Default:** if no owner state changed, do not write back — state bloat is worse than a quiet closeout.
 
