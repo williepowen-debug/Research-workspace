@@ -57,3 +57,20 @@ git commit --allow-empty -F /tmp/msg.txt      # ⛔ no pathspec
 ⚠️ **Do NOT try to repair it:** no `--amend` (rewrites whoever holds HEAD, and it may be pushed), no `reset` (global unstage on a shared index), no revert-and-redo into another agent's tree. **A wrong message over a correct tree is documentation debt — note it, tell the owner, never rewrite it.**
 
 *(Companion: `[[finding_concurrent_commit_index_race]]`. The general shape is `[[finding_guard_correctness_and_wiring_are_independent]]` — the guard was correct and, in this one call, simply not wired in.)*
+
+**The RECEIVING end, from the desk it happened to (TERRY, same incident, cited with permission).** The write-up above is sender-side only. **The victim cannot see this in `git status`.**
+
+The symptom presents as ***"my staged work vanished without a commit of mine"*** — which reads like a **lost stash**, not like someone else's commit. What actually exposed it:
+
+```
+git ls-tree HEAD -- <your path>     # file is ALREADY at its new location
+git diff --cached                   # ...and nothing is staged
+```
+
+**That disagreement — present in HEAD, absent from the index — is the signature.** `git status` is clean and tells you nothing, because from git's point of view nothing is wrong: the work *was* committed, just not by you.
+
+> ★ **If staged work disappears with no commit of yours, check `git log -- <your path>` for someone ELSE's commit before concluding you lost a stash.** The default hypothesis (I dropped it) sends you looking in the wrong place, and the reflex cure for a lost stash — re-stage and re-commit — would have produced a **duplicate** here.
+
+**And the generalisation TERRY drew, which is stronger than the `--allow-empty` framing:** *"I have nothing staged"* is **never a property you can establish by introspection** on a shared index. **The pathspec does not describe your intent — it bounds what the index is allowed to hand you.** Any pathspec-less commit is functionally `git commit -a` against whoever else is mid-stage on this box.
+
+*(Both ends annotated their own commits: the sweeping commit is named in the receiving desk's next message so `git log` on the affected path has a pointer. **Annotate from both ends — the reader lands on whichever one they grep first.**)*
