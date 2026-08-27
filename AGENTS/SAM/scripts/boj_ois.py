@@ -299,6 +299,38 @@ def prior_curve(as_of):
                        for r in rows if r["as_of_date"] == prev_as_of}
 
 
+def citable_sep_figure():
+    """Resolve "cite the converged multi-source row" MECHANICALLY.
+
+    FOUND 2026-08-27. The impeachment stamped on this source (see IMPEACHED_SOURCES) tells
+    the reader to "cite the converged multi-source row" -- but NOTHING produced or refreshed
+    that row. It was hand-added, so the pointer resolved to a hand-maintained artifact: the
+    exact defect the generated tool inventory was built to remove, one layer down.
+
+    Worse, the CONSOLE went on printing the impeached leg's number as a targeted headline
+    ("IN-WINDOW MEETING ... surprise room X% unpriced") with route-1 guidance attached, while
+    the do-not-cite sat in the TSV quality cell and in a warning printed 24 lines later. A
+    booting session reads the headline. Same class as mof_flows.py's 4-week alert the same
+    day: THE GUARD WAS IN THE LEDGER AND THE CONSOLE SHOWED THE WRONG NUMBER AS THE ANSWER.
+
+    Returns (row, age_days) for the newest NON-impeached in-window row, or (None, None).
+    """
+    yr, mo = IN_WINDOW_MEETING_MONTH
+    prefix = f"{yr:04d}-{mo:02d}"
+    cands = [r for r in read_tsv()
+             if r.get("meeting_date", "").startswith(prefix)
+             and r.get("source", "") not in IMPEACHED_SOURCES
+             and not r.get("quality", "").startswith(("SUPERSEDED", "UNKNOWN"))]
+    if not cands:
+        return None, None
+    row = max(cands, key=lambda r: r.get("as_of_date", ""))
+    try:
+        age = (date.today() - date.fromisoformat(row["as_of_date"])).days
+    except (ValueError, KeyError):
+        age = None
+    return row, age
+
+
 def main():
     args = sys.argv[1:]
     no_write = "--no-write" in args
@@ -370,7 +402,24 @@ def main():
                 delta += " 🔴"
                 alerts.append((d, dv))
         star = " ◀ IN-WINDOW" if (d["meeting"].year, d["meeting"].month) == IN_WINDOW_MEETING_MONTH else ""
-        print(f"  {mk:<13}{d['cum']:>9.1f}%{d['marginal']:>9.1f}%{d['unpriced']:>9.1f}%   {delta:<12}{star}")
+        # An impeached leg's FIGURES are redacted in the table too, not just in the headline.
+        # Suppressing the headline while leaving the number one line above it is not a fix --
+        # the table row is the copyable form (2026-08-27).
+        # TWO TIERS, and they must NOT be collapsed -- impeach() separates them on purpose:
+        #   SUPERSEDED = this leg is REFUTED  -> redact the level, it is known wrong
+        #   UNKNOWN    = uncorroborated only  -> SHOW it, marked; the source's day-over-day
+        #                                        move is readable even when its level is not
+        # My own first version of this redaction checked startswith(("SUPERSEDED","UNKNOWN"))
+        # and blanked ALL THREE legs, destroying the delta information this script says is
+        # usable. Over-redaction is a defect too: a guard that suppresses working data
+        # teaches the reader to bypass it. (Caught in test, 2026-08-27.)
+        tier = impeach(d["meeting"].isoformat(), "ok")
+        if tier.startswith("SUPERSEDED"):
+            print(f"  {mk:<13}{'--':>9} {'--':>9} {'--':>9}   {'(redacted)':<12}{star}  ⛔ REFUTED leg")
+        elif tier.startswith("UNKNOWN"):
+            print(f"  {mk:<13}{d['cum']:>9.1f}%{d['marginal']:>9.1f}%{d['unpriced']:>9.1f}%   {delta:<12}{star}  ⚠️ uncorroborated")
+        else:
+            print(f"  {mk:<13}{d['cum']:>9.1f}%{d['marginal']:>9.1f}%{d['unpriced']:>9.1f}%   {delta:<12}{star}")
     if prev_as_of:
         print(f"\n  (deltas vs stored as-of {prev_as_of})")
 
@@ -378,7 +427,34 @@ def main():
            if (d["meeting"].year, d["meeting"].month) == IN_WINDOW_MEETING_MONTH]
     if inw:
         d = inw[0]
-        print(f"\n  🎯 IN-WINDOW MEETING {d['meeting']} — surprise room {d['unpriced']:.1f}% unpriced")
+        impeached_leg = impeach(d["meeting"].isoformat(), "ok").startswith("SUPERSEDED")
+        if impeached_leg:
+            # ⛔ DO NOT PRINT THE IMPEACHED FIGURE AS A HEADLINE. Suppressed 2026-08-27:
+            # this line used to render the dead number with a 🎯 and route-1 guidance
+            # attached, which is the form a booting session copies.
+            print(f"\n  ⛔ IN-WINDOW MEETING {d['meeting']} — THIS SOURCE'S FIGURE IS SUPPRESSED.")
+            print( "      Its Sep leg is refuted MODEL-FREE; the number is deliberately not")
+            print( "      shown here, because a suppressed number cannot be mis-cited and a")
+            print( "      displayed one with a warning underneath repeatedly has been.")
+            row, age = citable_sep_figure()
+            if row is None:
+                print( "  🔴 AND THERE IS NO CITABLE ROW TO POINT AT — the do-not-cite resolves")
+                print( "      to NOTHING. Source a converged multi-source figure before citing")
+                print( "      any Sep number anywhere. Do NOT fall back to the line above.")
+            else:
+                stale = age is not None and age > 3
+                print(f"  ✅ CITE INSTEAD: {float(row['cum_hike_pct']):.1f}% cum "
+                      f"({float(row['unpriced_pct']):.1f}% unpriced), as-of {row['as_of_date']}"
+                      + (f", {age}d old" if age is not None else ""))
+                print(f"      source: {row.get('source','?')[:96]}")
+                if stale:
+                    print(f"  🔴 THE CITABLE FIGURE IS {age}d OLD — RE-PULL BEFORE QUOTING IT.")
+                    print( "      ⚠️ And do NOT attach a direction to a stale level. On 2026-08-27")
+                    print( "      this row's own caveat read \"the series is FALLING so this quote")
+                    print( "      is biased HIGH\" — it was biased LOW by 14pp. Naming a direction")
+                    print( "      on a stale level produces a WRONG finding, not a missing one.")
+        else:
+            print(f"\n  🎯 IN-WINDOW MEETING {d['meeting']} — surprise room {d['unpriced']:.1f}% unpriced")
         print( "      Route 1 is BOJ hawkish-OF-PRICED: it pays on SURPRISE, so a RISE in")
         print( "      cum hike SHRINKS this edge. Do not read 'more priced' as bullish —")
         print( "      CH-004 is confirmed (a fully-priced hike did NOT unwind carry, Jun-16).")
@@ -412,14 +488,18 @@ def main():
         print("  centralbank.watch's Sep-2026 leg is refuted MODEL-FREE: the observed TFX")
         print("  spread forces P(Sep) >= 81.3% under at-most-one-hike, and a ~51-52% print")
         print("  would require pricing 126.9% of a hike (ORACLE verdict 2026-08-17).")
-        print("  ✅ BEST AVAILABLE ~73% — Kalshi 74.5 / Polymarket 73.5 / TFX 72.2,")
-        print("     within 2.3pp in one 7-min window; stored in BOJ_OIS.tsv under")
-        print("     source 'multi-source-converged'.")
-        print("  🔴 BUT IT IS OBSERVED as_of 2026-08-17 AND THE SERIES IS FALLING, so")
-        print("     quoting it as CURRENT is biased HIGH. It is also the OLDEST as-of")
-        print("     in the file, because the newer rows are the impeached ones — i.e.")
-        print("     the only citable Sep number here is the stalest one. RE-PULL")
-        print("     before citing as current. (Caught by WALTER 2026-08-20.)")
+        print("  ⛔ THE ~73% FIGURE (Kalshi 74.5 / Polymarket 73.5 / TFX 72.2, 8/17) IS DEAD.")
+        print("     Re-pulled 2026-08-27: Polymarket's Sep-SPECIFIC traded binary reads")
+        print("     87.5%, wire/OIS ~80-85%. Like-for-like on ONE instrument, Polymarket")
+        print("     73.5 [8/17] -> 87.5 [8/27] = +14pp in ten days. The live figure is")
+        print("     resolved from the TSV above — see 'CITE INSTEAD'.")
+        print("  🔴 AND THIS BLOCK'S OWN CAVEAT WAS BACKWARDS UNTIL 2026-08-27. It read")
+        print("     \"the series is FALLING, so quoting it as current is biased HIGH.\"")
+        print("     It was biased LOW by 14pp — the series was RISING. Naming a DIRECTION")
+        print("     on a stale level produced a WRONG finding, not a missing one, and it")
+        print("     sat here hardcoded in a boot-wired script for seven days.")
+        print("  ⚠️  GUARD: state a stale figure's AGE, never its DIRECTION. The age is")
+        print("     measured; the direction is a guess that reads as precision.")
         print("  ⚠️  SAM's OWN ~72-77% TFX band is ALSO superseded — it bracketed the truth")
         print("     only because three derivation errors cancelled (+6.0 settlement-column")
         print("     offset, +8.0 day-count f_Sep=0.9121, -19.0 two-meeting reference quarter).")
