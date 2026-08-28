@@ -63,6 +63,8 @@
 
 **Measured result: 2 over budget / 0 over cap → 1 over budget / 0 over cap.**
 
+> 🔴 **STATUS CHANGE, same day: the read-cap budget became RATIFIED ROOT CANON while this pack was being written** — root `CLAUDE.md` §Data Hygiene now carries *"Read-cap byte budget (Will-approved 2026-08-28, P1): any surface a boot protocol tells a session to READ WHOLE stays under 32,550 B … binding above any owner-set number, per surface; owners choose rotation or hot/cold split, never the number."* ⇒ **STATUS at 46,033 B is not an advisory overage, it is a BREACH OF FLEET CANON, and the slate inherits it as such.** ⚠️ *(A DIFFERENT constant from the `MEMORY.md` 25,600 B auto-load cap — do not conflate them.)* Canon: `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`.
+
 🔴 **THE RESIDUAL IS A DECISION FOR THE SLATE, NOT A CHORE — and it was deliberately NOT improvised at the end of a long session.** STATUS is at 46,033 B against a 32,550 B budget. **Every prose block is already rotated; the remaining ~13,500 B is LIVE STATE** — convergence matrix, threshold proximity, catalyst docket, transmission chain, tensions, split, narrative gap. Reaching budget therefore requires a **hot/cold split of the board itself, which changes the BOOT CONTRACT** (`CLAUDE.md` BOOT step 1 names all seven of those surfaces as the boot read).
 
 **Candidate split, named in advance so the decision is about a concrete thing:** move the threshold table's **NOT CONFIRMING** section (rows that by definition are not firing) and the **ANTECEDENT MAP** (a per-pass methodology artifact, re-run each time) to a cold companion read on demand; keep matrix / tensions / docket / gap / split hot. **Not executed.** ⛔ **Never raise the budget — the instrument's own words, and the cap is not NEXUS's to move.**
