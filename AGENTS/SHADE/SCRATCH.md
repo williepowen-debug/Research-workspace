@@ -45,7 +45,7 @@
 - ⛔ **No POST-PAUSE flow figure exists.** *"Regulatory margin call"* and *"flows going the wrong way"* are the relayer's and are on **no SHADE surface**. The 1H-26 baseline below ends **2 months before** the pause.
 - **1H-2026 baseline (DLIC Q2 statutory):** direct premiums + deposit-type **$6,726,317,026** · individual annuities **$4,645,112,433** · **surrenders $2,060,811,753** · net cash from operations **$3,447,262,388** · capital and surplus **$4,028,108,426** · GA net admitted **$51,249,394,609.**
 - **Affiliate-contingent: $16,822,226,503 (6/30/26) = 32.82% of GA** vs **$16,371,945,130 = 35.67% (12/31/25 restated).** **NEVER quote the share alone or the dollars alone — they point opposite ways.**
-- 🔴 **`T-SHADE-01`: the SIGN LEG IS A DATED READING, NOT A STANDING STATE.** Last MEASURED **8/13** (both cohorts up; managers led down 3-for-3) ⇒ NOT MET *on that date*; **not re-read 8/28.** ⛔ **If the level leg crosses, DO NOT read "1 leg" off the 8/13 sign reading — re-read the sign leg on closes FIRST.** *(BROCK's catch, 8/28.)* **And LIQUID owns the HY series and its sustain count; SHADE owns only whether the trigger fires.**
+- 🔴 **`T-SHADE-01`: the SIGN LEG IS A DATED READING, NOT A STANDING STATE** *(rule added 8/28 on BROCK's catch — and it obliged its own first execution the same evening)*. 🆕 **RE-READ ON TWO CLEAN CLOSES 8/13 → 8/28: wrappers −2.66% vs managers −5.29%, spread +2.63pp ⇒ NOT MET, managers led down. 4-for-4 since registration.** ⚠️ **On a TIGHTENING tape (HY ~271 → 263bp).** ⛔ **My sign leg ≠ BROCK's wrapper half** — BROCK's additionally requires **HY WIDENING, CCC-led**; mine carries no decomposition condition, so **neither is evidence for the other.** **LIQUID owns the HY series and its sustain count; SHADE owns only whether the trigger fires.**
 - ⚠️ **FOUR DENOMINATORS circulate for Delaware Life and the concentration swings ~9pp on the choice** — total admitted incl. separate accounts **$70,464M ⇒ 23.9%** · **general account $51,249M ⇒ 32.8% (SHADE's basis)** · "total invested assets" (the 3%→39% basis, not pulled) · surplus $4,028M ⇒ 4.18× (a CONCENTRATION multiple, not leverage). **The media "$69B as of March" maps to the TOTAL line and understates the concentration by including $19.2B of separate accounts.** **Always name the denominator.** *(→ `REFERENCE.md` §2Q-bis.)*
 - **Illiquidity Ratio 10.05% is a FLOOR, not the ratio.** ⛔ **Do not say it is below the 30% red flag.**
 - **Affiliate-contingent = 4.18× surplus is a CONCENTRATION measure, NOT leverage.**
@@ -69,7 +69,7 @@
 | **Kill-path #2 / AG 55** | 🟠 **RE-BASED.** Dated public surface = **VAWG general findings, Summer 2026** — aggregate, never a single name. |
 | **Egan-Jones ladder** | 🟢 **INVESTIGATION — resolved 8/12, NOT advanced.** |
 | **BMA de-recognition** | ⬜ **DEAD-FOR-NOW.** Re-check trigger only: publication of the next Long-Term handbook edition. |
-| **`T-SHADE-01`** | ❌ **NOT ARMED, ZERO legs, moving away** (HY 263, 17bp below the bar). **Now canonically registered.** |
+| **`T-SHADE-01`** | ❌ **NOT ARMED, ZERO legs — BOTH freshly measured 8/28.** Level 17bp below the bar (from 9bp); **sign leg re-read on closes ⇒ NOT MET, managers led down 2.63pp, 4-for-4.** **Canonically registered.** |
 
 ---
 
