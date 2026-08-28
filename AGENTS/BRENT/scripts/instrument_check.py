@@ -96,6 +96,19 @@ def load_registry():
 # Probes. Each returns (ok, last_dt_or_None, detail)
 # ---------------------------------------------------------------------------
 
+# ---- LIVE EIA v2 access for probe_eia(): reuse FORGE's tested eia_fetch (key from gitignored .env) ----
+# Same import pattern eia_weekly.py already uses, so there is ONE EIA read-path on this desk, not two.
+try:
+    _FORGE_MD = str(Path(__file__).resolve().parents[3] / "FORGE" / "tools" / "market-data")
+    if _FORGE_MD not in sys.path:
+        sys.path.insert(0, _FORGE_MD)
+    import fetch as _forge_eia
+    HAVE_FORGE_EIA = True
+except Exception:
+    _forge_eia = None
+    HAVE_FORGE_EIA = False
+
+
 def probe_yf(ticker, want_intraday=False):
     try:
         import yfinance as yf
@@ -333,6 +346,62 @@ def probe_arcgis(spec):
         return False, None, f"unreachable: {type(e).__name__}: {e}"
 
 
+def probe_eia(spec):
+    """EIA v2 weekly-series probe — returns the REAL newest period, not a reachability 200.
+
+    Grammar: eia:<route>|<series_id>   e.g. eia:petroleum/stoc/wstk|W_EPC0_SAX_YCUOK_MBBL
+
+    ⚑ WHY THIS EXISTS (2026-08-28, BRENT). `CUSHING-20M` carried the probe
+    `manual:EIA v2 API via eia_weekly.py`. A `manual:` probe is NEVER network-checked, so
+    this checker fell back to `last_verified` — a HUMAN STAMP — and reported the row
+    STALE at 15d against a 10d budget. ⛔ THE SERIES WAS NEVER STALE: `eia_weekly.py`
+    pulls it LIVE at every boot and printed Cushing 22.43M for wk-2026-08-21 in the very
+    same boot that rendered the row amber. The row went red because nobody re-stamped it,
+    not because any datum aged.
+
+    ★ THIS IS THE FALSE-RED TWIN ALREADY FIXED ONCE ON THIS REGISTRY. On 2026-08-07 the
+    `KILL-LEG2-TRANSIT` probe was repointed from a landing page (`http:`) to the
+    FeatureServer QUERY path (`arcgis:`) precisely so "freshness is now read from the
+    SERIES itself, live, never from last_verified and never from reachability" — and that
+    row's own note names the failure mode: "a source that HEALS stayed red until a human
+    re-stamped it." Same disease, different row, three weeks later. The lesson had been
+    written down and the sweep for OTHER instances of it never happened
+    `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]`.
+
+    ⚠️ A manual: probe is not wrong in itself — it is right for a genuinely human-graded
+    test. It is wrong HERE because a machine-readable series exists and is already being
+    pulled every boot. Do not convert manual: rows wholesale; convert the ones with a live
+    read-path, and leave the rest honestly manual.
+
+    ⛔ NO LEVEL MOVED BY ADDING THIS: 20.0M is untouched, direction untouched, budget
+    untouched. Instrument repair only — the same scope as the 8/21 BRT-26-RIGS probe fix.
+    """
+    if "|" not in spec:
+        return False, None, f"bad eia: grammar {spec!r} — want eia:<route>|<series_id>"
+    route, series_id = spec.split("|", 1)
+    if not HAVE_FORGE_EIA:
+        return None, None, "FORGE fetch.eia_fetch unavailable (path or import failed)"
+    if not getattr(_forge_eia, "EIA_API_KEY", ""):
+        return None, None, "EIA_API_KEY not set (FORGE/tools/market-data/.env)"
+    try:
+        rows = _forge_eia.eia_fetch(series_id, route=route, limit=2)
+    except Exception as e:
+        return False, None, f"unreachable: {type(e).__name__}: {e}"
+    if not rows:
+        return False, None, "empty response — treat as FAILURE, never as 'no data exists'"
+    if isinstance(rows[0], dict) and rows[0].get("error"):
+        return False, None, f"API error: {rows[0]['error']}"
+    d = rows[0].get("date")
+    v = rows[0].get("value")
+    if not d:
+        return False, None, f"no period in newest row: {rows[0]!r}"
+    try:
+        last = datetime.fromisoformat(str(d)[:10])
+    except Exception:
+        return False, None, f"unparseable period {d!r}"
+    return True, last, f"newest period {d} = {v}"
+
+
 def probe_gie(spec):
     """GIE AGSI+ / ALSI+ probe — returns the REAL newest gas-day, not a reachability 200.
 
@@ -530,6 +599,8 @@ def evaluate(row, quick=False):
             ok, last_dt, detail = _cached(probe, lambda: probe_http(probe[5:]))
         elif probe.startswith("arcgis:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_arcgis(probe[7:]))
+        elif probe.startswith("eia:"):
+            ok, last_dt, detail = _cached(probe, lambda: probe_eia(probe[4:]))
         elif probe.startswith("gie:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_gie(probe[4:]))
         elif probe.startswith("jwc:"):
