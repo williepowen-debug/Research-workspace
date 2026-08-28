@@ -54,8 +54,22 @@ def _get(url, binary=False):
 
 
 def load_rows():
-    """Merge YTD history + current weekly. Returns {(contract, date): row}."""
+    """Merge YTD history + current weekly. Returns {(contract, date): row}.
+
+    ⚠️ EXCHANGE-COLLISION GUARD, added 2026-08-28 (KB-LIQ-116) after a live near-miss.
+    The key deliberately STRIPS the exchange ("SOFR-3M - CHICAGO MERCANTILE EXCHANGE"
+    -> "SOFR-3M"), which was safe for every prior week because SOFR-3M futures existed
+    on exactly ONE exchange. On the as-of 2026-08-25 file, FMX FUTURES EXCHANGE listed
+    its own SOFR-3M contract (OI 167,749 vs CME's 13,036,905) and, keyed identically,
+    it SILENTLY OVERWROTE the CME row. The tool then reported LF net -7,967 against the
+    prior week's -2,530,893 = a w/w "cover" of +2,522,926, which would have FIRED
+    GATE-LIQ-076's W1 leg (>300,000) by more than 8x, on a gate whose fire routes a
+    joint write-up to PROME and NEXUS. Nothing in the output looked wrong.
+    We now keep the FULL market name in a side index and FAIL LOUD on any collision
+    rather than let last-row-wins pick the venue.
+    """
     out = {}
+    seen = {}          # stripped name -> {full market name: (date, open interest)}
     try:
         z = zipfile.ZipFile(io.BytesIO(_get(YY, binary=True)))
         name = [n for n in z.namelist() if n.lower().endswith(".txt")][0]
@@ -65,7 +79,10 @@ def load_rows():
             rows = rows[1:]                       # history file carries a header
         for r in rows:
             if len(r) > I_TR_S:
-                out[(r[0].split(" - ")[0].strip(), r[I_DATE])] = r
+                k = r[0].split(" - ")[0].strip()
+                seen.setdefault(k, {})[r[0].strip()] = (r[I_DATE], r[I_OI])
+                out[(k, r[I_DATE])] = r
+                out[(r[0].strip(), r[I_DATE])] = r
         src_hist = f"history OK ({len(rows)} rows)"
     except Exception as e:                        # FAIL LOUD, never silently thin
         src_hist = f"history FAILED: {e}"
@@ -74,11 +91,14 @@ def load_rows():
         n = 0
         for r in rows:
             if len(r) > I_TR_S and r[0].startswith('"') is False:
-                out[(r[0].split(" - ")[0].strip(), r[I_DATE])] = r; n += 1
+                k = r[0].split(" - ")[0].strip()
+                seen.setdefault(k, {})[r[0].strip()] = (r[I_DATE], r[I_OI])
+                out[(k, r[I_DATE])] = r
+                out[(r[0].strip(), r[I_DATE])] = r; n += 1
         src_wk = f"weekly OK ({n} rows)"
     except Exception as e:
         src_wk = f"weekly FAILED: {e}"
-    return out, src_hist, src_wk
+    return out, src_hist, src_wk, seen
 
 
 def main():
@@ -88,7 +108,7 @@ def main():
     ap.add_argument("--contracts", default=",".join(DEFAULT_CONTRACTS))
     a = ap.parse_args()
 
-    rows, s1, s2 = load_rows()
+    rows, s1, s2, seen = load_rows()
     if not rows:
         print("FATAL: no CFTC rows loaded. " + s1 + " | " + s2); sys.exit(3)
     contracts = [c.strip() for c in a.contracts.split(",") if c.strip()]
@@ -98,6 +118,23 @@ def main():
     print("  Source: CFTC raw files (NOT Socrata).  " + s1 + " | " + s2)
     print("  As-of dates are TUESDAYS; files publish Fri ~15:30 ET. Net EXCLUDES spreading.")
     print("=" * 100)
+
+    # ---- F1 EXCHANGE-COLLISION CHECK (KB-LIQ-116) — run BEFORE any number is printed ----
+    _collided = False
+    for c in contracts:
+        venues = seen.get(c, {})
+        if len(venues) > 1 and ' - ' not in c:
+            _collided = True
+            print("\n  " + "!" * 92)
+            print(f"  🔴 INSTRUMENT-FAULT — '{c}' matches {len(venues)} MARKETS. Keyed identically, LAST ROW WINS,")
+            print(f"     so the figures below may be the WRONG VENUE. Rows are NOT comparable across exchanges.")
+            for full, (d, oi) in sorted(venues.items(), key=lambda kv: -int(kv[1][1] or 0)):
+                print(f"       · {full:<52} latest {d}  OI {int(oi or 0):>12,}")
+            print(f"     ⇒ RE-RUN with the FULL market name, e.g. --contracts \"{max(venues, key=lambda f: int(venues[f][1] or 0))}\"")
+            print("     ⛔ DO NOT GRADE A GATE OFF A COLLIDED ROW.")
+            print("  " + "!" * 92)
+    if _collided:
+        print("\n  (continuing, but every collided contract above is UNSAFE for grading)\n")
 
     for c in contracts:
         dates = sorted(d for (k, d) in rows if k == c)

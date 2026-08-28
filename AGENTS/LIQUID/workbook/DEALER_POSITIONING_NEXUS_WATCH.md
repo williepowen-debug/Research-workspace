@@ -98,6 +98,34 @@ To match the weekly leg's own 5.5% tail rate, the 8-week **cover-only** threshol
 3. **`review_by` re-date:** GATE-LIQ-076 discharges today. **Proposed next `review_by` = 2026-09-30**, aligned to the quarter-end funding turn already on my catalyst docket (the Q3 turn is the next event that could plausibly move any of the three legs) — owner-set, PROME to encode.
 4. **GATE-HY-REKILL `review_by` — PROME's 8/22 ASK, answered: CONFIRM 2026-09-30.** The provisional PROME-set date is right and for the right reason: the level is intake-lane auto-watched, so the clock reviews the **letter**, not the print. Matches my own 072 quarter-cadence rationale. **No re-date requested.**
 
+### 3-ter. ✅ W1 GRADED on the as-of Tue 2026-08-25 print — **NOT FIRED (branch (c))**. And the print arrived with an INSTRUMENT FAULT that would have produced a FALSE FIRE.
+
+**Graded 2026-08-28 ~15:4x ET against the branches pre-registered at 11:4x (commit `22d01ad17`), unchanged.**
+
+| leg | condition | as-of **Tue 2026-08-25** | grade |
+|---|---|---|---|
+| **(a)** record | net ≤ **−2,950,000** | **−2,596,865** | **NOT FIRED** — 353,135 away |
+| **(b)** cover | one-week cover > **+300,000** | **−65,972 — a BUILD, wrong direction entirely** | **NOT FIRED** |
+| **(c)** | neither | ✅ | **NOT FIRED — the base case** |
+
+**Full row [as-of Tue 8/25, CME]:** LF long **966,344** · LF short **3,563,209** · **net −2,596,865** · w/w **−65,972** · **spreading 2,894,444** (−67,763) · **OI 13,036,905** (−394,174). **Spreading and OI both fell modestly alongside net — a small, orderly re-build, no book-size event.** **Discriminator not applied: it is only owed on a (b) fire, and (b) did not fire — the week was a build, not a cover.**
+
+**GATE-LIQ-076 CONJUNCTION: 0-of-3, exactly as pre-registered.** W2 and W3 could not change before this print and did not. **No joint PROME/NEXUS write-up owed.** ★ **The 11:4x pre-registration called this correctly and in advance: "NO OUTCOME OF THIS PRINT CAN FIRE THE GATE."**
+
+**Read against the 7-week bleed: the pin has stopped leaving.** Peak −2,943,898 [6/30] → −2,530,893 [8/18] was +413,005 covered; **8/25 gives back −65,972 of it.** Net from peak now **+347,033 (−11.8%)**, and the last two prints are **+28,923 then −65,972** — the drift has flattened and turned. ⚠️ **Two prints is not a trend and I am not calling one.**
+
+### 🔴 THE PRINT ARRIVED BROKEN, AND MY PRE-REGISTRATION WOULD NOT HAVE SAVED ME → **KB-LIQ-116**
+
+**First read of the new file returned: net −7,967, w/w +2,522,926.** Under the pre-registered branch **(b)**, that is a **cover of 8.4× the 300,000 line — a FIRE**, on a gate whose fire routes a joint write-up to PROME and NEXUS.
+
+**Cause: `SOFR-3M - FMX FUTURES EXCHANGE` is NEW in the as-of 8/25 file.** `cftc_tff_rates.py` keyed rows on the market name **with the exchange stripped**, so both venues collapsed to `("SOFR-3M", date)` and **the 167,749-OI FMX row silently overwrote CME's 13,036,905-OI row. Last row wins.**
+
+> ⚠️ **THE PRE-REGISTRATION DID NOT PROTECT ME HERE, AND I WANT THAT ON THE RECORD.** The branches were correct, filed four hours early, and would have emitted a false fire on the first bad input. **Pre-registration defends against POST-HOC RATIONALISATION; it does nothing against a CORRUPTED INPUT.** What actually stopped it was refusing to grade an implausible magnitude — **a discretionary act, which is exactly what pre-registration is designed to remove.** ⇒ **A pre-registered rule needs a pre-registered INPUT CHECK or it is a loaded weapon pointed at whatever the fetcher hands it.**
+
+**This is `INSTRUMENT-FAULT` / detector `F1` (series-identity), designed with HENRY this afternoon and arriving live within the hour.** Same family as **KB-LIQ-113** (wrong basis, right on the median day) and **KB-LIQ-109** (dead-quiet band): **an instrument that looks right and is answering about something else.**
+
+**FIXED IN THE TOOL, not just noted:** the loader now indexes the **full market name**, prints a **loud `INSTRUMENT-FAULT` block** naming every colliding venue with its OI, refuses to let the number pass unremarked, and **the remedy it prints is executable** (`--contracts "SOFR-3M - CHICAGO MERCANTILE EXCHANGE"` now resolves — it did not on the first cut, which would have made the guard its own dead band). **Verified: the guard fires on today's file, and the CME-only series is continuous and clean back to 7/07.**
+
 ### 3-bis. ⏳ PRE-REGISTERED W1 GRADE for the as-of Tue 2026-08-25 print (filed 11:4x ET, ~4h BEFORE the ~15:30 publication)
 
 **Filed before the number is known, so the 15:33 grade is mechanical and cannot be shaped by what prints** — the KILL_MEMO principle applied to my own gate. **Last known: net −2,530,893 [as-of 8/18], w/w +28,923, LF spreading 2,962,207, OI 13,431,079.**
