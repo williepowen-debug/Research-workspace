@@ -28,6 +28,7 @@ When spawned with a task:
 2. **Read `STATUS.md`** — your current state, dashboard, active situations
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
+3c. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" ZHAO` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 4. **Execute the task** — then run the CLOSEOUT PROTOCOL below. Boot and closeout are one sequence; steps 5-7 are the head of the write-back tail, not the whole of it.
 5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
 6. **If your findings are relevant to another agent's domain, write to `outbox/`**
