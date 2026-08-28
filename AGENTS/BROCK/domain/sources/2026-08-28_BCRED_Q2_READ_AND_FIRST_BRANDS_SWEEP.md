@@ -66,7 +66,7 @@
 
 ⚠️ **This is precisely the LESSONS #20 failure mode, in a sharper form than the rule anticipates.** The rule says *don't derive div-action from the NA/NAV summary*. Here **the dedicated distributions table is itself the misleading surface** — it is complete, accurate, and covers only the period that ends before the cut.
 
-🔑 **FINDING 4 — the cut is sized exactly to the coverage gap, which is why it is not a gesture.** Class I financial highlights, six months to 6/30/26: **NII $1.07 · distributions $1.20 ⇒ 89.2% coverage, a $0.13/share shortfall.** Net operations were **+$0.06** against **$1.20** distributed — and NAV fell **$1.14**, which is that gap almost exactly. **Post-cut annualised distribution $2.16 vs NII run-rate $2.14.** The fund cut to the line where NII covers the payout, and not a basis point further. **Asset coverage 221.3%** (vs BRK-11's 150% breach threshold — comfortable). **Total return on NAV +0.2% for the half.**
+🔑 **FINDING 4 — the cut NEARLY CLOSES the coverage gap, which is why it is not a gesture.** ⚠️ *(Corrected on RAV QC: I first wrote "sized exactly" / "cut to the coverage line." It is 99.1%, ~$0.02/share annualised short — cut TOWARD coverage, not TO it.)* Class I financial highlights, six months to 6/30/26: **NII $1.07 · distributions $1.20 ⇒ 89.2% coverage, a $0.13/share shortfall.** Net operations were **+$0.06** against **$1.20** distributed — and NAV fell **$1.14**, which is that gap almost exactly. **Post-cut annualised distribution $2.16 vs NII run-rate $2.14 = 99.1% covered, ~$0.02/share still short.** The fund cut to *near* the line where NII covers the payout — it did not reach it. **Asset coverage 221.3%** (vs BRK-11's 150% breach threshold — comfortable). **Total return on NAV +0.2% for the half.**
 
 ⚠️ **Trigger discipline: this does NOT count toward my "4th public-BDC dividend cut" watch. BCRED is NON-TRADED.** The trigger says public. It is not satisfied and I am not counting it.
 
@@ -114,16 +114,16 @@ The filing states **15 issuers across 25 loans** at 6/30/26. **My extraction ret
 
 **Saratoga CLO 2013-1** *(5/31/26 SOI, $ actual)*: 1L cost $57,138 → FV **$37** (0.06¢) · 1L cost $36,431 → FV **$647** (1.78¢) · **New Money DIP TL A cost $1,549,452 → FV $353,276 (22.80¢)** · **Roll-Up DIP TL B cost $3,198,956 → FV $3,320 (0.10¢)**. **Total cost $4,841,977 → FV $357,280 = 7.38¢.**
 
-🔴 **THE DIP MARK IS THE FINDING.** A **new-money DIP term loan is super-priority — the most senior claim in the case — and it is marked at 22.8¢.** The **roll-up DIP is at 0.10¢.** **A super-priority claim marked at a fifth of cost is a filer's own valuation saying the estate cannot cover its most senior debt** — which corroborates OTTO's *"administrative expenses exceed estate value"* mechanic **at a mark**, from a schedule of investments rather than from the docket.
+🔴 **THE DIP MARK IS THE FINDING.** A **new-money DIP term loan is super-priority — the most senior claim in the case — and it is marked at 22.8¢**; the **roll-up DIP at 0.10¢**. **That is market-implied SEVERE IMPAIRMENT reaching even the DIP**, which is directionally consistent with OTTO's *"administrative expenses exceed estate value"* mechanic and puts a mark beside a docket inference. ⚠️ **Corrected on RAV QC: I first wrote that it says "the estate cannot cover its most senior debt." A DIP mark embeds claim disputes, collateral and timing as well as recovery, so it does not license that inference on its own.**
 
-### ⇒ THE RE-SIZE, tightened from an estimate to a measurement
+### ⇒ THE RE-SIZE — a REVISED ESTIMATE on observed marks, NOT a sector measurement
 
 | Basis | Marks | Implied remaining carrying value on $237M par |
 |---|---|---|
 | My prior (Feb-2026 marks, all-senior, generous end) | 13-16¢ | **$30.8-37.9M** |
 | **Q2-2026 observed** (Steele Creek 9.55¢ · Saratoga 7.38¢) | **7.4-9.5¢** | **$17.5-22.5M** |
 
-**⇒ The remaining markdown capacity is roughly HALF what I published last session, and these marks are all dated BEFORE the 8/24 Ch.7 conversion order.** ⚠️ **Two limits, stated:** the **$237M par is still OTTO's unverified Feb figure** — I have tightened the *mark*, not the *par* — and **two holders are not the sector**, though they bracket tightly (7.38¢ / 9.55¢) and both sit below the Feb range.
+**⇒ The remaining markdown capacity is roughly HALF what I published last session, and these marks are all dated BEFORE the 8/24 Ch.7 conversion order.** ⚠️ **This is a REVISED ESTIMATE, not a measurement, and the distinction is not pedantic: two measured marks applied to an UNVERIFIED par with an UNSTATED perimeter inherits both defects however good the marks are.** The **$237M par is still OTTO's unverified Feb figure** — I tightened the *mark*, not the *par* — and **two holders are not the sector**, though they bracket tightly (7.38¢ / 9.55¢) and both sit below the Feb range.
 
 ### 🔴 FINDING 7 — a realized BANK loss on First Brands, and it is not mine
 
