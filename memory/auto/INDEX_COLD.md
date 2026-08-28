@@ -82,7 +82,7 @@
 - finding_redated_falsifier_inherits_premise — When you re-date a falsifier/prediction because a catalyst moved
 - finding_prereg_dates_the_event_not_the_artifacts_cadence — a prereg resolving on an ARTIFACT is dated by that artifact's own publication history, not the event; a mis-dated read manufactures a "disclosure missing" signal out of a calendar
 - finding_lessons_file_cannot_detect_own_contradictions — A prose lessons/LEARNINGS file cannot detect its own contradictions
-- finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch — symmetric ±N magnitudes hide a branch that CANNOT fire; base-rate every branch for reachability JOINTLY before freezing, and check whether one leg sits in another leg's denominator. Found: 0-of-418 windows in 19 months
+- finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch — a registered trigger that CANNOT fire; re-run reachability on the AMENDED text, not just the original (n=4 desks, 1 day)
 - finding_pre_register_against_the_carrying_filing — Pre-register a threshold against the FILING/SOURCE that carries the metric
 - finding_anchor_prediction_to_surprise_not_priced — "Anchor an event→reaction prediction to the SURPRISE-vs-pricing, not to a named outcome that's already priced; dovish/hawkish labels can invert"
 - finding_thin_liquidity_prediction_market_discipline — "Thin-liquidity binary prediction-market single-print moves are not \"holds\"; require cross-source verification + ≥3-day re-check + earned-discount calibration before any mark update"

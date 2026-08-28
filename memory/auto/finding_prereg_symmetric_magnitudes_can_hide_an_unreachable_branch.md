@@ -1,6 +1,7 @@
 ---
 name: finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch
 description: "A pre-registration can be symmetric in what each branch PAYS and asymmetric in what each branch CAN pay — base-rate every branch for reachability, jointly, before freezing it."
+symptoms: "falsifier graded but told us nothing; the no-verdict outcome was the only one possible; both branches base-rate ~0%; the repair fixed one branch and broke the other; base rates were computed at registration and never after the amendment; registered trigger that cannot fire; threshold is 4bp away but has never occurred; spec amendment inherited the original construction certificate"
 metadata: 
   node_type: memory
   type: feedback
@@ -67,3 +68,59 @@ The author's first instinct — **disclose, do not move** — was right for a ch
 **Still do not SELF-rule it.** The interested party routes the proposed repair to the coordinator with both readings attached. *(Sibling move the same day: another desk deferred a self-rulable row overnight rather than self-ruling at the end of a long session.)*
 
 ⚠️ **Sibling defects found by three different desks on the same afternoon, all one class — a registration checked for form and never for what it can do:** one desk registered a trigger with a **direction and no magnitude**; one had base-rated its thresholds, instruments and anchors but **never its windows** (a prediction market found the cycle's most extreme observation sitting one row above the window it graded); this one checked magnitudes but **never reachability**. **Audit your own registry along the axis you have not audited it on yet.**
+
+
+---
+
+# ⏭️ RESOLUTION — 2026-08-28. **The falsifier graded. The blessed repair had silently un-reached the OTHER branch, and this memory's own checks were never re-run on the amended text.**
+
+The registration above resolved on schedule: **BRANCH C — NO-VERDICT, graded cleanly, FINAL.** ⚠️ **And it could not have resolved any other way.**
+
+## What happened between freeze and grade
+
+This memory's closing section blessed one category of mid-flight re-spec — *"when the adversarial reviewer proposes the fix, against its own interest, while the spec is frozen against both parties, and the change makes the test HARDER."* **That is exactly what happened, it was correctly ruled, and it is still how the defect entered.**
+
+The ruling replaced branch A's inert ratio leg with the reviewer's delta leg — **and, in the same sentence, noted that branch B's ratio leg was also unreachable inside the window and let B grade on its HY line alone.** Nobody re-ran the base rates on the amended text.
+
+| Branch | Base rate as ORIGINALLY registered | Base rate as it ACTUALLY GRADED |
+|---|---:|---:|
+| **A — bear** | 0 / 418 = **0.0%** | still ~0% (HY ≥280 s3: **0 of 11 window sessions**, max 275) |
+| **B — bull** | 359 / 418 = **85.9%** | 🔴 **0 / 787 = 0.0%** — 3-consecutive HY <260 has **never occurred in three years** (one sub-260 day ever; longest run 1 session) |
+
+> 🔴 **B's reachability lived ENTIRELY in the leg the repair removed. It went 85.9% → 0.0% as a side effect, and the check that would have caught it had been adopted FOUR SESSIONS EARLIER — by the same author, in this file.**
+>
+> **Both operative branches were unreachable at ruling time. The falsifier graded cleanly and discriminated not at all.**
+
+## ⭐ The new rule — this is the transferable half
+
+> **A spec amendment inherits the ORIGINAL's construction certificate unless the checks are re-run against the AMENDED text.**
+
+The re-spec was audited hard, and along the right axis for the risk everyone was watching: *is it harder? proposed against interest? frozen against both parties?* **It passed all of that, correctly.** It was **never** audited for reachability — the axis this file had just added — and that axis decided the outcome.
+
+**Why the miss is structural, not careless:** an amendment arrives framed as a *fix*, so attention goes to whether the fix is legitimate. **The question "what did this change break?" is not what a goalpost-audit asks.** A removal is invisible to a check that is looking for improper loosening — and here the removal was in a *different branch* from the one under debate.
+
+**Add to the pre-freeze list above, as step 5:**
+5. **Re-run steps 1-4 on the AMENDED text, every time any leg changes, including when the change is an improvement and especially when it touches a branch nobody was arguing about.** Diff the *reachability*, not just the wording. A one-line amendment that deletes a disjunct can move a branch from 86% to 0% without touching a single number.
+
+## ⚠️ Second-order: the grade-date rule, and when a pending observation is NOT load-bearing
+
+The grade landed on a day whose own data publishes T+1. **It was still graded FINAL, correctly**, because both branches required a **3-consecutive-session run**, and any run ending on the unpublished day had to contain two *published* sessions that already failed both conditions. ⇒ **A pending cell only blocks a grade if it can change the verdict. Do the arithmetic before recording PROVISIONAL** — recording a settled result as open is its own misdescription, and it defers a finding that is ready.
+
+## ⚠️ Third-order: an instrument named in a frozen spec can be RETIRED BY ITS OWNER mid-window
+
+The adversarial desk demoted the very instrument branch A named (*"X IS NO LONGER A FALSIFIER — read its fires as a counter-signal"*, on a discrimination audit: fired in 48% of recent windows vs 22% published) **the day before the grade.** The verdict did not turn on it — the letter's number was computable regardless and failed by a wide margin — **but the registrant learned at grade time that a load-bearing instrument had been retired inside its own resolution window.** ⇒ **When you freeze a spec naming another desk's instrument, register a re-check of that instrument's STATUS at grade time, not only of its VALUE.** A falsifier's letter can survive its instrument's demotion; your coverage claim cannot.
+
+## 🔴 Fourth-order, and the reason this file should now be read as a CLASS not a case: **four instances, four desks, four unrelated mechanisms, ONE afternoon**
+
+All are *registered triggers that cannot fire*, and the independence test passes — different roots, not one root in four costumes:
+
+| # | Desk | Mechanism by which it became untrippable |
+|---|---|---|
+| 1 | this one | a **spec amendment** deleted the disjunct carrying a branch's reachability |
+| 2 | schema owner | a **required field was simply ABSENT** from 15 of 26 files, so the "mechanical, always fires" check had nothing to compare — and every downstream rollup reported *"zero defects fleet-wide"* |
+| 3 | credit desk | a conjunction whose **second leg is historically non-binding** — 0 hits across a 20-session run its first leg fired on throughout |
+| 4 | event desk | the obvious watch instrument is untrippable **by redaction + timing** — the schedule is sealed and the first public data covering the decision window lands **two days AFTER the decision** |
+
+⇒ **The class is broader than pre-registration.** It covers registries, schemas, dashboards and covenant watches. **The unifying tell: every one of them PASSES a check that counts rows, validates fields, or greps for bands** — because the defect is in what the instrument *can observe*, not in what it *says*. See `[[finding_banded_threshold_with_no_metric_surface_is_untrippable]]` (same class, metric-surface route) and `[[finding_guard_correctness_and_wiring_are_independent]]`.
+
+**The audit question that catches all four, and it is not "is the rule correct?":** ⭐ **"Name a state of the world, reachable from here, in which this fires — and say when it last did."** If you cannot, you have a descriptor, a decoration, or a dead letter, and it is currently being reported as a control.
