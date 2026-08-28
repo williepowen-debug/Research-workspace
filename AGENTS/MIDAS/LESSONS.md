@@ -50,3 +50,5 @@
 | **L-36** | 2026-08-27 | An instrument that prints a VERDICT beside a VALUE trains you to read the verdict — so a mis-set bound hides the number that would have caught it. |
 | **L-37** | 2026-08-27 | A date label cannot falsify itself; a settled price can — the bar moved under a fixed 8/27 label, so pull twice and diff, never inspect metadata. |
 | **L-38** | 2026-08-28 | A ledger's vocabulary is a claim about what it can SCORE — a four-branch letter in a binary-only family passes every validator and still misleads. |
+| **L-39** | 2026-08-28 | A band on a 1bp-grid series is a step function of its width — five defensible σ windows collapsed to two bands, so register the print set, never "±1σ". |
+| **L-40** | 2026-08-28 | Volume identifies the contract; price does not — a continuous ticker stitched history to the dying contract at 1,000 lots while its live bar was the 200,000-lot front month. |

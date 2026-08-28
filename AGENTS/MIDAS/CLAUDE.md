@@ -33,6 +33,12 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 4. **Run `boot.py`** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/MIDAS/boot.py"` — ledger staleness + predictions-due. rc 0 = quiet · 1 = a prediction is due (REVIEW) · 2 = a leg failed. *(When `metals_watch.py` is built — the priority first increment — boot.py also pulls real-yield + gold/silver/copper/PGM spot + GSR.)*
 5. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log to KB.tsv; never leave OPEN-but-stale.
 6. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`.
+
+   **6b. WALTER signal intake (delivery lane)** — installed 2026-08-28 per `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1 (recipients self-apply; WALTER does not edit this file):
+   1. List `AGENTS/MIDAS/inbox/WALTER/*.md` not yet in `board_log.tsv` (v0.2 header: `timestamp_read⇥signal_id⇥disposition⇥source⇥notes`; ledger opened 2026-08-28).
+   2. For each: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row with `source=INBOX_WALTER`, then **`git mv`** it to `inbox/WALTER/processed/`. *(`git mv`, never bash `mv` — bash `mv` leaves the deletion unstaged: auto-memory `feedback_git_mv_for_inbox_processing`.)*
+   3. Let `acted` items inform this session.
+
 7. **Channel-liveness check** — for each of M1/M2/I1/I2, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard).
 8. **Execute the task.**
 
@@ -195,6 +201,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `workbook/FLOW.tsv` | Transmission pathways. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (MIDAS-NN) + resolution tracking. |
 | `inbox/` `outbox/` | Cross-agent messaging. |
+| `board_log.tsv` | WALTER delivery-lane consumption record (BOARD_CONSUMPTION_SPEC §8.1 v0.2). Opened 2026-08-28. Append-only; one row per signal consumed. Pre-ledger signals are enumerated in its header comment and deliberately NOT back-filled with reconstructed dispositions. |
 | `sources/` | Research corpus, briefings. |
 | `sources/SOURCES.md` | Data-access register — per-source access method, cadence, and documented walls (FRED/yfinance/westmetall/CFTC/WGC/FedReg/NBS/PBoC) + the raw-pull golden rule. |
 
