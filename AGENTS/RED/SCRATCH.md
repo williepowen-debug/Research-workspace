@@ -22,6 +22,14 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S38c (2026-08-28, ~12:2x ET) — WALTER hand-carry: Chicago PMI 47.1 + Polymarket HIKE-2026 67%. Pre-registration owed on FT-12 counter-pressure. NO WEIGHT MOVED.**
+
+- **Chicago PMI collapsed to 47.1 from 57.6** (~10.8pt miss vs consensus 57.9 — WALTER corrected a Schiff relay quoting 59; "biggest since Feb 2015" claim unsourced, treat as color).
+- **FT-12 row rider added: counter-pressure pre-registered on the row.** If <260 s=3 prints INTO a growth-shock tape (Chicago PMI sub-50), the divergence is the object, not the fire itself. Weight mechanics unchanged (−2 on fire); the transferable content moves to the DIVERGENCE record. Recorded pre-fire so the finding cannot be reverse-engineered after the print.
+- **Polymarket HIKE-2026 odds jumped to 67% (+12pts)** on Warsh's *"still has work to do"* line. **⛔ NOT MOVING POLICY RESCUE ON THIS**: one-hop relay, ORACLE-owned instrument, LABOR §3b guard binding (no attribution before NFP 9/4). It DOES reverse the direction of the 8/12 ORACLE stale-carry that moved Rescue 2→4 — audit owed at 9/4-9/11 window on ORACLE's own primary, not on this relay.
+- **⛔ WALTER's packet: "this is NOT a dispatch, walter-0828 is live on this desk and I'm holding all BOARD/log writes."** Do NOT log dispositions to board_log for this; when WALTER's archive lands, that's the file record. Local files (FT-12 row + STATUS + SCRATCH) are RED-owned.
+- **Chicago PMI is regional; national ISM Mfg is next Tue 9/2** — that's the direct RED-book counter to the growth-shock reading. Watch, don't pre-price.
+
 **🆕 S38b (2026-08-28, ~12:0x ET) — WILL-DIRECTED FOCUS-LIST ITEM #1: CHG-046 + CHG-043-B BOTH RESOLVED-CONVERGED same-sitting at NEXUS's own resolution artifact. NO WEIGHT MOVED.**
 
 - **CHG-046:** NEXUS graded their own successor split-falsifier at ~10:4x ET: Branch C, NO-VERDICT, EARNED, FINAL (arithmetic — neither A nor B can fire on any 8/28 value; verdict robust to the unpublished 8/28 cell and to both readings of "sustained 3"). Non-renewable clause CORRECTLY ARMED (C #1 of a max 2), next evaluation ~9/11 CPI, second C forces T-12 re-spec off pre-named candidate list with reachability base-rating required before freezing.
