@@ -20,6 +20,7 @@ Sections, most-actionable first:
   [4] KEY-FIGURE AGE     — load-bearing VX rows by days-since-update
   [5] DUE / OVERDUE      — predictions by Resolve_By
   [6] LEDGER STALENESS   — live VX rows only (FROZEN/RETIRED excluded by design)
+  [7] KB EXPIRY          — facts past their own Stale_By. This is what Stale_By is FOR.
 
 MUST run with the repo venv (yfinance is not in system python3):
   .venv/bin/python AGENTS/HANS/scripts/boot.py
@@ -31,6 +32,7 @@ from pathlib import Path
 HANS = Path(__file__).resolve().parent.parent
 VX = HANS / "workbook" / "VX.tsv"
 PRED = HANS / "workbook" / "PREDICTIONS.tsv"
+KB = HANS / "workbook" / "KB.tsv"
 THRESH = HANS / "registry" / "THRESHOLDS.tsv"
 FIRES = HANS / "registry" / "HANS_T_FIRED_LOG.tsv"
 
@@ -176,6 +178,28 @@ def main():
         print(f"  🔴 {len(stale)} live vector(s) over {STALE_DAYS}d:")
         for vid, nm, a in sorted(stale, key=lambda x: -(x[2] if x[2] is not None else 9999))[:12]:
             print(f"     {vid:<15} {nm:<38} {str(a)+chr(100) if a is not None else 'no date'}")
+    # [7] KB expiry — the whole point of the Stale_By field
+    print("\n[7] KB EXPIRY (facts past their own Stale_By)")
+    _, kb = _rows(KB)
+    live_kb = [k for k in kb if k.get("Status", "").strip() not in {"SUPERSEDED", "RETIRED"}]
+    expired = []
+    for k in live_kb:
+        sb = k.get("Stale_By", "").strip()
+        if not sb:
+            continue
+        a = _age(sb)
+        if a is not None and a >= 0:
+            expired.append((k["ID"], k.get("Group", ""), k["Fact"][:52], a))
+    noexp = [k["ID"] for k in live_kb if not k.get("Stale_By", "").strip()]
+    print(f"  {len(live_kb)} live fact(s) · {len(live_kb)-len(noexp)} carry an expiry")
+    if expired:
+        print(f"  🔴 {len(expired)} EXPIRED — re-verify or supersede:")
+        for i, g, f, a in sorted(expired, key=lambda x: -x[3]):
+            print(f"     {i:<14} {g:<12} +{a}d  {f}")
+    else:
+        print("  🟢 no live fact is past its Stale_By")
+    if noexp:
+        print(f"  ⚠️  {len(noexp)} live fact(s) with NO Stale_By — they can never expire: {', '.join(noexp[:6])}")
     print()
 
 
