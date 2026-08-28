@@ -2,6 +2,40 @@
 
 Reverse-chronological log of **structural** changes to RED's docs, folders, schemas, and tooling. Each entry: what changed, why, files touched, boot-impact.
 
+---
+
+## 2026-08-28 (S38g) — P1 read-cap housekeeping: STATUS fold + board_log rotation, 2 files went from 🔴 OVER-CAP to green
+
+**Trigger:** DAEDALUS P1 read-cap ruling (Will-approved 2026-08-28) — any file the boot protocol tells a session to read whole stays under 32,550 B (60% of the harness single-read cap). Instrument: `scripts/read_cap_check.py --agent RED`. Canon: `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`. RED's measured state at the ruling: **STATUS.md 86,955 B (157% of cap) and board_log.tsv 100,890 B (186% of cap) — both 🔴 OVER-CAP.**
+
+**What changed:**
+- **STATUS.md folded** from 86,955 B → **29,689 B (55% of cap, 91% of budget; 🟡 rotate-tier but under cap and readable)**.
+  - S38 section (lines 10-63, 6,912 B) and S35 section (lines 64-93, 4,863 B) archived verbatim → `reports/2026-08-28_S35-S38_status_narrative_archive.md`.
+  - State-line (line 2, was 32,053 B — 98% of cap on ONE row) rewritten to today's day-summary only, dropping the "Prior:" chain going back to 8/27 evening (verbatim snapshot preserved in the archive under STATE LINE SNAPSHOT).
+  - Three archive-pointer sections (SESSION 34, SESSIONS 31 & 33, SESSION 29/30) consolidated into a single PRIOR SESSIONS ARCHIVED nav block.
+  - FALSIFICATION CRITERIA (was 6,073 B narrative-mirror of registry TSV) compressed to firing/near-firing rows + registry pointer; full verbose form archived under STATUS SECTION SNAPSHOTS.
+  - OPEN CHALLENGES (was 8,250 B verbose table) compressed to headline row-per-CHG; canonical detail lives in `workbook/CHALLENGES.tsv` Resolution cells; verbose form archived.
+  - TOP ADVERSARIAL PRIORITIES (was 6,528 B with historical Section 0 audit-plan) compressed to 7 standing items; live priorities live in SCRATCH's NEXT SESSION block; verbose form archived.
+- **board_log.tsv rotated** from 100,890 B → **3,907 B (7% of cap, 12% of budget; ✅ ok)**.
+  - 220 rows dated pre-2026-08-28 moved verbatim to `archive/board_log_pre-2026-08-28.tsv` (with header + provenance banner).
+  - Live board_log retains header + 12 rows dated 2026-08-28. Future rotation cadence: monthly at closeout of the last session in the month, or on demand if read-cap check flags.
+
+**Files touched:**
+- `AGENTS/RED/STATUS.md` (rewrite, 86,955 → 29,689 B)
+- `AGENTS/RED/board_log.tsv` (rewrite, 100,890 → 3,907 B)
+- `AGENTS/RED/reports/2026-08-28_S35-S38_status_narrative_archive.md` (new)
+- `AGENTS/RED/archive/board_log_pre-2026-08-28.tsv` (new)
+
+**Boot-impact:** POSITIVE. Both boot-mandated whole-reads now under cap; no partial-read degradation risk. Every durable outcome remains on its live canonical surface (registry TSV, CHALLENGES.tsv, PREDICTIONS.tsv, ML.tsv, KB.tsv, CHANGELOG.md); the compression only touched narrative-mirror sections in STATUS.
+
+**Residual over-budget (not over-cap, no fix owed today):**
+- **MEMORY.md 50,168 B (92% of cap)** — Will-ruled 2026-07-28: RED must NOT compact its own MEMORY; flag to PROME. Recorded in this session's SCRATCH OPEN THREADS.
+- **CALENDAR.md 40,267 B (74% of cap)** — under cap, readable, not urgent. Rotation candidate at next housekeeping pass (resolved catalysts to archive).
+
+**Instrument note:** DAEDALUS's `read_cap_check.py` now recognizes existing scope markers ("last 2-3 entries" for CHANGELOG, scripted reads on KB/CHALLENGES) as `ℹ️ scoped-read-not-lean, not counted`. No wording fix needed for those three (heuristic false-positives in the original P1 packet, corrected in DAEDALUS's same-day recut).
+
+**Provenance:** ruling `PROME/proposals/2026-08-28_p1-read-cap-RULED.md` (Will "P1 approved go ahead"); DAEDALUS packets `inbox/processed/2026-08-28_from-DAEDALUS_P1-read-cap-RULED-…` + `…CORRECTION-P1-read-cap-packet-recut-…`. Root CLAUDE.md Data Hygiene amended 2026-08-28 with the byte-budget rule.
+
 **Distinct from `thesis/CHANGELOG.md`**, which logs **analytical** changes (confidence shifts, hypothesis re-weighting, challenge resolutions, prediction scoring). If a change moves a number or a probability → CHANGELOG. If it moves a *file, schema, or boot path* → here.
 
 **Conventions (adopted from SAM, S16):**

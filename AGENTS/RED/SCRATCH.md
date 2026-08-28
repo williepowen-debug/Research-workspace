@@ -22,6 +22,14 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S38g (2026-08-28, ~15:1x ET) — HOUSEKEEPING: P1 read-cap fold on STATUS + board_log. Both went 🔴 OVER-CAP → green (STATUS 🟡 rotate-tier under cap; board_log ✅). NO WEIGHT MOVED.**
+
+- **STATUS folded 86,955 B → 29,689 B (66% reduction).** State line was 32,053 B alone (98% of cap on ONE row) — rewritten to day-summary only. S38 + S35 sections archived verbatim → `reports/2026-08-28_S35-S38_status_narrative_archive.md`. FALSIFICATION CRITERIA table compressed to firing rows + registry pointer. OPEN CHALLENGES compressed to headline row per CHG (canonical detail in workbook TSV). TOP PRIORITIES compressed to 7 standing items (live queue lives in SCRATCH). Full verbose forms preserved in the archive under STATUS SECTION SNAPSHOTS.
+- **board_log rotated 100,890 B → 3,907 B.** 220 rows dated pre-2026-08-28 moved verbatim to `archive/board_log_pre-2026-08-28.tsv`. Live retains header + 12 rows dated 2026-08-28.
+- **Residual over-budget (both under cap, no fix owed today):** MEMORY.md 92% (Will-ruled 7/28: flag to PROME, do NOT compact); CALENDAR.md 74% (rotation candidate at next housekeeping pass, resolved catalysts to archive).
+- **Instrument note:** DAEDALUS's `read_cap_check.py` was updated same-day and now correctly recognizes RED's existing scope markers ("last 2-3 entries" for CHANGELOG, scripted reads on KB/CHALLENGES). Those three files are now ℹ️ scoped-not-lean, not counted — no wording fix needed for them.
+- **MAINTENANCE entry filed** naming files touched, boot-impact, residuals, and provenance.
+
 **🆕 S38f (2026-08-28, ~14:4x ET) — Will-ruled A on DAEDALUS item 3: T6 falsifier-seat PRE-STAGE COMPLETE. Verdict NO-VERDICT (trigger-never-fired). NO WEIGHT MOVED.**
 
 - **Assignment path (put on the grade record via F3):** DAEDALUS relay → RED refused-and-surfaced → Will "A" in-session. Proceeded on Will's word; F3 flags the missing FORUM-spec provenance.
