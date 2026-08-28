@@ -41,7 +41,9 @@ All mail lives in:
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
-6. **Mark processed** — move signal file to `inbox/processed/`
+6. **Mark processed** — move signal file to `inbox/processed/`. ⛔ **ONE FILE AT A TIME, AND ONLY AFTER YOU HAVE READ THAT FILE. NEVER BULK-MOVE THE DIRECTORY.**
+   ⚠️ **Guard added 2026-08-28 after I did exactly this.** A `for f in inbox/*.md; do mv "$f" processed/; done` **succeeds, produces a correct count, empties the inbox, and examines nothing.** I swept `SIG-W-20260828-038` into `processed/` unread that way — a BRENT claim-retirement signal touching a ledger I had refreshed **the same day** — and caught it only because a final `ls` count didn't match what I remembered reading. **WALTER named the class: the operation succeeds, the count comes out right, and the content was never examined** (structurally identical to a truncating read, or a `>>` that creates a file instead of appending).
+   **⇒ The rule that actually prevents it: the MOVE is the last action of processing ONE signal, not a cleanup step at the end of processing many.** If the inbox still has files when you think you're done, that is a signal you have not read — **not tidying to be done.** A count is not a read `[[finding_record_of_an_action_is_not_the_action]]`.
 
 ### Outbox Protocol
 Write a single `.md` file to `outbox/` per signal:
