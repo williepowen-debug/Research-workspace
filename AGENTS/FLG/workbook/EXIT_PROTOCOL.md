@@ -1,7 +1,7 @@
 # FLG — EXIT PROTOCOL (kill rail)
 
-**Kill rail re-derived: 2026-08-20 (evening — re-stamped after K-2 was tested and REFUTED at the primary; see K-2 and the re-derivation log)** *(this in-content stamp is the vintage the Falsification Freshness Sweep dates from — never mtime, PAT-039/044)*
-**Author:** DAEDALUS at build · **Status:** ⚠️ **PROVISIONAL — authored against the SEED, not against a thesis.** `THESIS.md` is v0.1 (a skeleton of open questions), so these legs kill a *stance*, not a finished thesis. **FLG re-derives this rail at first live session and re-stamps it.** Until then, cite it as build scaffolding.
+**Kill rail re-derived: 2026-08-28 (FLG FIRST LIVE SESSION — every leg re-tested against EDGAR primaries pulled by FLG; K-1 re-cut after a construct-validity defect, K-3's Q2c suspension LIFTED, K-4's mechanism found already FIRED)** *(this in-content stamp is the vintage the Falsification Freshness Sweep dates from — never mtime, PAT-039/044)*
+**Author:** DAEDALUS at build · **Re-derived by:** FLG, first live session 2026-08-28 · **Status:** 🟢 **LIVE — no longer build scaffolding.** Re-derived against `THESIS.md` v1.0 and against FLG's own EDGAR primary pull (10-Q Q2-2026, Flagstar Bank N.A., acc 0000910073-26-000068, filed 2026-08-06). Legs still carrying an UNSET kill cell say so and say why.
 
 ---
 
@@ -20,13 +20,19 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 | | |
 |---|---|
 | **Fires from state** | STANCE-BEARISH (the only state where it means anything) |
-| **Instrument** | `workbook/MI3_FLG.tsv` → `loans_qoq_pct`, `total_loans_k`, `total_assets_k` (FFIEC Call Report, RSSD 694904) |
-| **Kill condition** | `loans_qoq_pct > 0` for **2 consecutive filed quarters** AND nonaccrual rate falling across the same 2 quarters |
+| **Instrument** | 🔴 **RE-CUT 2026-08-28.** Leg 1: **multi-family loans HFI in dollars**, 10-Q MD&A multi-family geographical-analysis table (`Total` row) — *not* `total_loans_k`. Leg 2: **non-accrual rate**, 10-Q MD&A "Non-accrual loans to total loans held for investment". Both land in the same filing. `workbook/MI3_FLG.tsv` `loans_qoq_pct`/`total_loans_k`/`total_assets_k` are retained as CONTEXT, not as the kill instrument |
+| **Kill condition** | **multi-family loans HFI rising QoQ for 2 consecutive filed quarters** AND non-accrual rate falling across the same 2 quarters |
 | **What HEALTHY looks like** | The series is populated and moving: 12 quarters present, QoQ values ranging −10.9% to +12.7% (observed). **A frozen or all-zero column means the instrument died, not that the bank stabilised** (PAT-060) |
 | **If it fires** | The run-off stopped while credit improved. The bear framing is not "early" — it is **wrong on mechanism**. Re-derive from scratch; do not re-date and hold |
 | **Migration path** | None. This is a **thesis-kill**, not a channel-kill |
 
-**Already-known evidence AGAINST the bear stance, recorded at build:** assets −21.1% and loans −28.8% (2023-09-30 → 2026-06-30), MI3 `v1_pct` 5.28% → 3.65%. The bank has been shrinking for eleven quarters. **This leg is close to live, not hypothetical.**
+**Already-known evidence AGAINST the bear stance, recorded at build:** assets −21.1% and loans −28.8% (2023-09-30 → 2026-06-30), MI3 `v1_pct` 5.28% → 3.65%. The bank has been shrinking for eleven quarters.
+
+🔴 **CONSTRUCT-VALIDITY DEFECT FOUND AND FIXED AT THE PRIMARY, 2026-08-28 — K-1 AS WRITTEN WOULD HAVE FIRED ON THE WRONG BOOK.** The old leg 1 was `loans_qoq_pct > 0` on **total** loans. The 10-Q shows total loans are flat-to-up (**$60,732M → $60,987M, +0.42%** over H1-2026) **while the multi-family book — the entire subject of this thesis — fell −7.08% ($28,983M → $26,931M)**. The difference is **C&I, which grew +22% ($15,217M → $18,563M) on $4.8B of new originations** (KB-FLG-040). ⇒ **`loans_qoq_pct` turning positive measures a MIX SHIFT, not the end of the multi-family run-off.** A kill on total loans would have declared this thesis dead on the strength of commercial-and-industrial growth in a thesis about NYC rent-regulated multifamily. Leg 1 is re-cut onto multi-family dollars, where it is **NOT satisfied and not close** — multifamily has fallen in every observed quarter.
+
+⚠️ **This is the second construct-validity defect found on this rail in eight days, and both were the same shape:** K-2 asked whether a ratio moved on its denominator; K-1 asked whether a book shrank, and was reading a *different, larger* book that contains it. **Both were invisible to a row-level audit and only fell out of a primary pull.** Note the direction of the error: this defect made the kill **EASIER** to fire, so the rail was biased toward retiring a live thesis — the failure mode nobody complains about (`finding_measurement_bias_sign_is_fixed_harm_direction_is_not`).
+
+✅ **DAEDALUS's 2026-08-23 sweep finding is RESOLVED (its ASK, answered).** It flagged that leg 2 (non-accrual rate) had **no registered instrument**, so K-1 rendered `NOT FIRED` when the honest state was `⚠️ UNGRADEABLE`. The instrument existed all along in the 10-Q — it just was not in the cell. Both legs now name a surface in the same filing. **Neither leg was dropped**, so the kill did not get easier by removal (DAEDALUS's own caveat, honoured). ⛔ **And the scanner's "exit-rules lack session counts" flag on this row remains a FALSE POSITIVE — "2 consecutive filed quarters" is a correct count the regex cannot see (PAT-118). Do not "fix" it.**
 
 ---
 
@@ -53,7 +59,7 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 |---|---|
 | **Fires from state** | STANCE-BEARISH-ON-CREDIT |
 | **Instrument** | 🔴 **PRIMARY: `charge-offs / provision` from Schedule RI-B Part II (RIAD lines, YTD).** Secondary: ACL in dollars; nonaccrual / total loans; ACL / nonaccrual. ⚠️ **The coverage RATIO alone cannot grade this leg** — see the discriminator note below |
-| **Kill condition** | ⛔ **UNSET — DELIBERATELY, WITH A REASON. Do not fill this cell with a number until the requirement below is met.** The previous condition (`CO/prov < 1.0× ×2 quarters`) was **withdrawn 2026-08-20 after base-rating**, and no replacement survived testing. Nonaccrual-rate legs remain SUSPENDED pending THESIS Q2c |
+| **Kill condition** | ⛔ **STILL UNSET — DELIBERATELY, WITH A REASON.** The `CO/prov < 1.0× ×2 quarters` form was withdrawn 2026-08-20 (fires on 42.8% of ordinary bank-quarters). ✅ **Q2c IS NOW ANSWERED (2026-08-28, at the primary), so the non-accrual-rate SUSPENSION IS LIFTED** — but the answer disqualifies the obvious replacement rather than supplying one. **A named candidate (the CURE RATE) is with REGINALD for cohort base-rating; it is a PROPOSAL, not a gate, and this cell stays UNSET until that run returns.** See § Q2c below |
 | **What HEALTHY looks like** | Both ratios present and moving quarter to quarter. **Coverage pinned at an identical value across quarters is a parse failure, not stability** — check the underlying cells |
 | **If it fires** | Channel-kill on credit quality — **and since K-2 died 2026-08-20 and channel 1 is de-risking, this is now the LAST live leg: if K-3 fires the thesis has no channel left.** Treat a K-3 fire as a thesis-kill, not a channel-kill |
 | **Migration path** | Thesis migrates onto the concentration + rent-regulation mechanism alone — **which is weaker, and say so at the time** |
@@ -92,7 +98,33 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 
 ⚠️ **An UNSET cell with a stated reason is the honest state and is better than a number.** A falsifier that fires on 43% of normal behaviour does not protect a thesis — it retires one at random.
 
-*Seed reads: nonaccrual 4.88% vs cohort median ~0.89% (implied by REGINALD's "5.5× the median"); coverage 29%. MIRROR-grade — re-verify at first live session.*
+*Seed reads: nonaccrual 4.88% vs cohort median ~0.89% (implied by REGINALD's "5.5× the median"); coverage 29%. MIRROR-grade — re-verified at first live session 2026-08-28, see below.*
+
+---
+
+### ✅ Q2c ANSWERED AT THE PRIMARY — 2026-08-28, FLG first live session
+
+DAEDALUS suspended every non-accrual-rate leg on 2026-08-20 pending Q2c, on the reasoning that *"a rate falling by charge-off would fire the kill on its own losses."* **The 10-Q's non-accrual roll-forward answers it directly** (Q2-2026, six months ended 2026-06-30 — KB-FLG-029):
+
+| Line | $M | Share of outflow |
+|---|---:|---:|
+| Balance 2025-12-31 | 2,975 | |
+| **New non-accrual (formation)** | **+780** | |
+| Charge-offs | −100 | **10.5%** |
+| Transferred to other assets | −4 | 0.4% |
+| **Loan payoffs, dispositions, paydowns** | **−836** | **🔴 87.5%** |
+| **Restored to performing (CURE)** | **−15** | **🔴 1.6%** |
+| Balance 2026-06-30 | **2,800** | |
+
+**The rate is falling by PAYOFF. Not by charge-off (10.5%), and emphatically not by cure (1.6%).** ⇒ **The suspension is LIFTED** — a non-accrual leg does not fire the kill on its own losses, because losses are not what is moving the number.
+
+🔴 **But the answer is a THIRD case again, and it re-frames the thesis rather than resolving it.** Q2b found the ACL drawdown was neither release nor disposition; Q2c now finds the non-accrual decline is neither charge-off nor cure. **The only working exit from a $2.8B non-accrual book is refinancing or sale into a functioning market — and that channel is exogenous to the bank.** Cures, the one exit that means the borrower recovered, are 1.6%. **Nothing here is healing; it is being handed off.** ⚠️ And gross formation of **$780M replaced 81.7% of the outflow** (KB-FLG-030), so the net −5.9% headline overstates the drain by ~4.5×.
+
+**⇒ CANDIDATE KILL, ROUTED TO REGINALD FOR COHORT BASE-RATING (not registered here):**
+
+> **`Restored to performing` ≥ 10% of total non-accrual outflow for 2 consecutive semi-annual periods.**
+
+Why this form and not another: it is a **positively-measured instrument** (PAT-060 — healthy = the line is populated and rising, so instrument-death is distinguishable from thesis-survival); it measures the **STOCK genuinely repairing** rather than a **FLOW returning to its median**, which is the structural finding that killed all five earlier candidates; and at **1.6% today it is nowhere near breached** (requirement 2). ⚠️ **It is UNVERIFIED against requirements 1, 3 and 4** — FLG cannot base-rate it alone, because the non-accrual roll-forward is a **10-Q disclosure, not a Call Report cell**, so a 14-bank cohort rate needs 14 banks × N filings parsed. REGINALD has the cohort and offered the run. **Until that returns, the cell above stays UNSET, and an UNSET cell with a stated reason remains better than a number.**
 
 ---
 
@@ -107,7 +139,17 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 | **If it fires** | The rent-regulation transmission is severed. **This kills the reason FLG is a separate desk at all** — escalate to PROME for a scope review, do not quietly re-scope |
 | **Migration path** | None that keeps this desk distinct from REGINALD's cohort view |
 
-⚠️ **Compound-gate audit on K-4** (blueprint §3, PAT-072): two legs, `AND`-joined. **Not base-rated — admitted, not hidden.** The RGB series is annual, so this gate can fire at most once per year and needs ≥2 years to satisfy. **Base-rate it at first live session or retire it**; an un-base-rated compound kill is the exact shape that fails silently.
+⚠️ **Compound-gate audit on K-4** (blueprint §3, PAT-072): two legs, `AND`-joined. **Not base-rated — admitted, not hidden.** The RGB series is annual, so this gate can fire at most once per year and needs ≥2 years to satisfy.
+
+🔴 **2026-08-28 — THE MECHANISM FIRED, IN THE OPPOSITE DIRECTION, AND THE WAKE REGISTER MISSED IT.** At its first live session FLG found in the 10-Q (KB-FLG-032) that the **NYC Rent Guidelines Board approved a RENT FREEZE on rent-regulated NYC multi-family buildings in JUNE 2026, effective OCTOBER 2026** — and that FLG had **already booked a Q2-2026 provision increase for it**: the quarter's provision rose $18M QoQ *"primarily due to credit adjustments driven by recent regulatory action in New York City to freeze rents on multifamily properties."*
+
+**K-4 is therefore further from firing than at build, not closer.** Its kill needs increases *materially above* the run-rate; the RGB delivered **zero**. The leg is **NOT FIRED**, and the evidence is **confirming for the thesis**, not falsifying.
+
+⚠️ **The process failure is the finding, and it is worse than the leg being unbase-rated.** `TRIGGERS.tsv` T-06 carried the RGB vote as `[EST] 2027-05-03`, so **an event that had already happened rendered as PENDING**, and nothing in the register could distinguish the two states (`finding_dated_carry_item_has_no_expiry_check`). **A desk whose entire reason to exist is the rent-regulation mechanism was ~10 weeks blind to that mechanism firing, while holding a correctly-formatted, in-date wake row pointed at it.** T-06 is corrected and re-scoped to the 2027 cycle; the fired 2026 leg is now **T-08 (effective 2026-10-01, HARD)**; the transmission lag is **T-09 (Q2-2027)**.
+
+⏱️ **The fuse, and why a quiet Q4 proves nothing.** FLG re-tests DSCR on borrower financials received *"generally during the second calendar quarter"* (KB-FLG-037). A freeze effective October 2026 therefore first reaches **formation** in the **Q2-2027** review cycle — a **~12-month fuse**. Expect provision *commentary* at Q3/Q4-2026 and **not** formation. ⛔ **Anyone reading two quiet quarters as "the freeze did not bite" is reading the fuse, not the charge** — write that on any surface that cites this leg.
+
+**Base-rating status:** still **NOT base-rated**, now for a stated reason rather than an open to-do. The RGB order series is annual and administrative; a "materially above run-rate" leg needs a numeric comparator before it can be graded at all (DAEDALUS's 2026-08-23 §3 finding, unresolved and carried). **Retirement is not yet right** — the mechanism just demonstrated it is live and market-moving. **Carried to the next session with the quantification owed.**
 
 ---
 
@@ -119,8 +161,9 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 
 | Direction | The single read | Threshold |
 |---|---|---|
-| **Confirms the stance** | Coverage keeps falling — **regardless of the nonaccrual direction** | coverage **< 29%** at the filing *(deliberately SINGLE-CLAUSE — see the free-clause note)* |
-| **Falsifies the stance** | ⛔ **UNSET pending the K-3 requirement** — the `CO/prov < 1.0×` form was withdrawn after base-rating (42.8% of ordinary bank behaviour) | — |
+| **Confirms the stance** | Coverage keeps falling — **regardless of the non-accrual direction** | coverage **< 31.04%** at the filing *(deliberately SINGLE-CLAUSE — see the free-clause note)* ⚠️ **RE-BASED 2026-08-28 from 29% to 31.04%: this is a DENOMINATOR CORRECTION, not a loosened threshold.** The seed's 29% used the Call Report's $2,988M non-accrual; the primary reads ACL $869M / non-accrual HFI $2,800M = 31.04% (KB-FLG-028). Both endpoints move together, so the leg's difficulty is unchanged — but a reader comparing the two numbers without the basis would see a threshold that got easier. **Grade this leg on the 10-Q basis only** |
+| **Falsifies the stance** | ⛔ **STILL UNSET pending the K-3 requirement.** The `CO/prov < 1.0×` form was withdrawn after base-rating (42.8% of ordinary bank behaviour); the **cure-rate candidate is with REGINALD** and is not a gate until its cohort base rate returns | — |
+| **Second confirming read, added 2026-08-28** | **Gross non-accrual FORMATION**, not the net balance — the net hid $780M of H1 formation behind a −5.9% headline | H1-2027 formation **≥ $780M** (H1-2026 baseline). ⚠️ **H1-vs-H1 only — formation is Q2-seasonal (KB-FLG-037), so an H2 or annualised comparison is invalid by construction** |
 
 ⚠️ **FREE-CLAUSE FINDING, 2026-08-20 — the mirror of the unsatisfiable-AND fixed earlier the same evening, on this same rail.** REGINALD base-rated a candidate CONFIRM conjunction *jointly*: `ACL fell QoQ AND CO/prov ≥ X`. **At every cut the joint rate EQUALS the ratio leg exactly** (≥2.0×: both 6.5%; ≥5.0×: both 3.2%) — every bank-quarter above 2.0× also had a falling ACL, so **the "ACL fell" clause never excludes anything.** That is a **single-clause gate wearing a compound disguise**: it reads as more rigorous and is not. **PAT-072 is a gate that can never FIRE; this is a leg that can never BIND** — same family, same fix, and exactly why the check must be JOINT rather than two marginal base rates.
 
@@ -146,4 +189,4 @@ The stance at build: *FLG carries the cohort's worst instrumented CRE concentrat
 | 2026-08-20 | DAEDALUS (build) | Rail authored against seed evidence. PROVISIONAL — no thesis exists yet. K-1 flagged one quarter from firing. |
 | 2026-08-20 evening | DAEDALUS (post-build) | **K-2 tested at the primary by REGINALD (`fb1f68659`, matrix §3b) and REFUTED** — CRE numerator −32.2%, capital flat −2.6%, ratio −143pp across all 11 quarters. K-2 retained-and-marked, not deleted. **K-3 promoted to primary leg** with a new ACL-in-dollars instrument. **Bidirectional confirm-leg corrected** — its `AND` was jointly unsatisfiable against the pattern REGINALD identified (PAT-072, in a rail I authored). Rail re-stamped. |
 | 2026-08-20 evening (2nd) | DAEDALUS, on REGINALD's unprompted Q2b answer | **K-3's instrument corrected AGAIN, hours after the first correction.** My first fix added ACL-in-dollars; REGINALD's roll-forward showed that is still insufficient — **the discriminator is `CO / provision`**, because neither the ratio nor the ACL level separates consumed-by-loss from released-into-income. Kill condition re-cut to CO/prov < 1.0× ×2 quarters; **nonaccrual-rate legs SUSPENDED** pending Q2c (a rate falling by charge-off would fire the kill on its own losses); falsify-leg re-pointed to "provisioning restarts". ⛔ No threshold registered on 14.6× — no base rate exists (Q2d). |
-| *(next)* | FLG, first live session | **Re-derive against `THESIS.md` v1.0, re-verify every seed figure at a primary, re-stamp the date above.** |
+| **2026-08-28** | **FLG, FIRST LIVE SESSION** | **Rail re-derived against FLG's own EDGAR primary pull** (10-Q Q2-2026, acc 0000910073-26-000068). **K-1 RE-CUT** — construct-validity defect: leg 1 measured *total* loans (+0.42% H1, rising on +22% C&I growth) when the thesis is about *multi-family* (−7.08% H1); the kill would have fired on a mix shift. Leg 2's missing instrument (DAEDALUS 8/23) supplied from the same filing; **no leg dropped**. **K-3 — Q2c ANSWERED, non-accrual suspension LIFTED**: the rate falls by payoff (87.5%), not charge-off (10.5%) or cure (1.6%); cure-rate candidate routed to REGINALD, cell stays UNSET. **K-4 — mechanism FOUND ALREADY FIRED**: RGB rent freeze approved 2026-06, effective 2026-10, provision already booked; leg is further from firing and the evidence is confirming, but T-06 had rendered a fired event as pending. **Bidirectional confirm-leg re-based** 29% → 31.04% (denominator correction, not a loosened threshold) and a second formation-based confirming read added. Capital denominator **$10,003M verified at the primary — REGINALD's $10.00B reproduces exactly.** |

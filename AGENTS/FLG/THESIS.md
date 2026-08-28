@@ -1,10 +1,20 @@
 # FLG — THESIS
 
-**Version: v0.1 — SKELETON, NOT A THESIS** · **Authored: 2026-08-20** (DAEDALUS, at build) · **Owner from first live session: FLG**
+**Version: v1.0 — THESIS OF RECORD** · **Authored: 2026-08-28 by FLG at its first live session** · *(v0.1 skeleton: DAEDALUS, 2026-08-20, at build)*
 
-> ⚠️ **This document does not yet contain a thesis, and it must not be cited as one.** It is the structured set of **open questions** the desk was built to answer, plus the seed evidence bearing on each. A thesis-of-record (v1.0) is authored by FLG at its first live session, once the v1.0 bar at the foot of this file is met. *(Updated 2026-08-20 evening: Q1, the original blocking question, was answered and REFUTED at the primary the same day — the bar moved to Q2b.)*
+> ✅ **This document now contains a thesis and may be cited as one.** The v1.0 bar at the foot of this file is met on four of five items, with item 4 **PARTIAL and named**: FLG has pulled and verified its own EDGAR primary (10-Q Q2-2026, Flagstar Bank N.A., acc `0000910073-26-000068`, filed 2026-08-06), but has **NOT** re-pulled the MDRM-level MI3 cells at FFIEC CDR. Those specific cells remain MIRROR-grade and say so in `MI3_FLG.tsv`.
 >
-> **Why a skeleton rather than a draft thesis:** a thesis written by the architect at build time would be DAEDALUS's forecast wearing FLG's name, and every later session would inherit it as prior work rather than test it. The desk's founding evidence is MIRROR-grade (extracted from REGINALD, not pulled by FLG). **Nothing here is load-bearing until FLG re-derives it.**
+> **What changed from v0.1:** the skeleton's remaining blocking question (Q2c) is answered, the mechanism's front end (stages 1–2) is instrumented for the first time, and the thesis moved off the figure the desk was built on.
+
+---
+
+## 🔴 THE THESIS, IN ONE PARAGRAPH
+
+**The bear case on FLG is not concentration, and it is not the level of nonaccruals. Both are improving.** It is that a **$2.8B nonaccrual book carrying a $163M specific reserve (5.8%)** is being cleared **almost entirely by payoff and disposition — 87.5% of all outflow — while genuine cures run at 1.6%.** That exit channel is **exogenous to the bank**: it requires a functioning refinance and asset-sale market for NYC rent-regulated multifamily. Meanwhile **gross formation of $780M in H1-2026 replaced 81.7% of the outflow**, so the book is churning rather than draining, and **NYC has just frozen the rents on the collateral behind $8.9B of it** — RGB-approved June 2026, effective **October 2026**, with a **~12-month fuse** to the Q2-2027 DSCR review cycle.
+
+**The thesis is therefore about the DURABILITY OF AN EXIT CHANNEL, not about a stock of bad loans.** FLG's credit metrics improve for exactly as long as borrowers can refinance out. The rent freeze attacks the NOI that makes them refinanceable, and the reserve behind them has been drawn down 15.6% in six months.
+
+⚠️ **The honest counterweight, stated up front:** capital is **$10,003M and rising** (16.58%, up from 16.23%), 30–89 day delinquencies fell **63%**, nonaccruals fell 5.9%, concentration fell 143pp over eleven quarters, and management is executing a stated, visible pivot out of multifamily into C&I. **Stage 6 (capital) is NOT reached and there is no evidence for it.** This is a thesis about a channel that could close, not a bank that is failing.
 
 ---
 
@@ -14,16 +24,18 @@
 
 **Stage table** (blueprint §1, OTTO transmission form). `State` is the honest read at build, not a target.
 
-| # | Stage | Mechanism | State at build (2026-08-20) |
+| # | Stage | Mechanism | 🔴 State at 2026-08-28 (FLG first live session, at the primary) |
 |---|---|---|---|
-| 1 | **Rent regulation constrains NOI** | HSTPA-2019 caps rent growth on stabilized units; NOI cannot rise to meet debt service | **OPEN — un-instrumented.** No RGB series in any FLG ledger yet. `TRIGGERS.tsv` T-06 is the wake row |
-| 2 | **Refinance repricing** | Loans written at low rates reprice at maturity into higher rates against constrained NOI | **OPEN — un-instrumented.** The maturity-wall profile is not in the seed |
-| 3 | **CRE concentration** | Multifamily + construction + non-owner-occ NFNR / total risk-based capital vs the SR 07-1 300% line | ⬇️ **DE-RISKING — 327.5% and FALLING** (−143pp over 11 quarters; ~2 quarters from crossing 300%). Level-high, trajectory-down. **Not deterioration.** Verified at primary 2026-08-20 |
-| 4 | **Nonaccrual formation** | Constrained borrowers stop performing | ⚠️ **CONTESTED — 5.49% [25Q3] → 4.88%, but the fall may be MECHANICAL.** $232M charged off in 2026 H1; a rate falling by charge-off is not a rate falling by cure, and the roll-forward nets. **Not repair until Q2c splits it** |
-| 5 | **Reserve adequacy** | ACL must cover recognised nonaccruals | ⚠️ **THE LAST DETERIORATING LEG, AND IT IS IN TENSION WITH ITSELF.** Coverage 29%, monotonically down from 87%; ACL down 8 of 8 quarters ($1.27B → $0.87B). **But runway BOTTOMED at 1.29yr [2025Q1] and has lengthened EIGHT straight quarters to 2.15yr** — because the same charge-offs that consume the ACL are also resolving the book. **Coverage falling and runway lengthening are one mechanism seen two ways; neither reading is resolved** |
-| 6 | **Capital** | Losses exceed reserves → capital event | **NOT REACHED. No evidence at build.** Do not assume stage 6 from stages 3–5 |
+| 1 | **Rent regulation constrains NOI** | HSTPA-2019 caps rent growth on stabilized units; NOI cannot rise to meet debt service | ✅ **INSTRUMENTED 2026-08-28, AND IT JUST FIRED.** NYC RGB approved a **RENT FREEZE** June 2026, **effective October 2026** (KB-FLG-032); FLG booked a Q2 provision increase for it. Exposure sized: **$8.9B** with ≥50% rent-regulated units, inside **$13.4B** of NYC multifamily (KB-FLG-033). Wake rows **T-08 / T-09** |
+| 2 | **Refinance repricing** | Loans written at low rates reprice at maturity into higher rates against constrained NOI | 🟠 **PARTIALLY INSTRUMENTED.** The issuer states the mechanism verbatim: repricing rent-regulated loans "approach or exceed some properties' net operating income and may require the borrower to support the loan from sources unrelated to the collateral." **The maturity-wall schedule is still NOT in any FLG ledger** — the largest remaining gap |
+| 3 | **CRE concentration** | (construction + multifamily + non-owner-occ NFNR) / total risk-based capital vs the SR 07-1 300% line | ⬇️ **DE-RISKING — 327.5% and falling** (−143pp/11 quarters; ~2 quarters from crossing 300%). **Denominator VERIFIED at the primary: $10,003M** (KB-FLG-035) — REGINALD's figure reproduces exactly. Level-high, trajectory-down. **Not deterioration** |
+| 4 | **Nonaccrual formation** | Constrained borrowers stop performing | 🔴 **RE-READ — the LEVEL improves, the FLOW does not.** Net 4.90% → 4.59%, but **gross formation $780M in H1 replaced 81.7% of outflow** (KB-FLG-030). **Multifamily net charge-off rate is FLAT YoY at 1.17%** (KB-FLG-034). ✅ Q2c answered: falling by **payoff 87.5%**, not charge-off (10.5%) or cure (**1.6%**) |
+| 5 | **Reserve adequacy** | ACL must cover recognised nonaccruals | 🔴 **STILL THE DETERIORATING LEG, and sharper than coverage suggests.** Coverage **31.04%** on the 10-Q basis (not the seed's 29% — denominator, KB-FLG-028), down 3.58pp over H1 as ACL fell 15.6% against nonaccrual −5.9%. **The SPECIFIC allowance against nonaccrual is $163M = 5.8%; $1,571M carries NO allowance at all** (KB-FLG-031) |
+| 6 | **Capital** | Losses exceed reserves → capital event | **NOT REACHED, AND MOVING AWAY.** Total risk-based capital **$10,003M / 16.58%**, UP from 16.23%, on falling RWA. Do not assume stage 6 from stages 4–5 |
 
-**Read the state column honestly.** Stages 1 and 2 — *the causal front end, and the reason this is a separate desk* — are **entirely un-instrumented**. And after the 2026-08-20 primary re-read, **two of the three inherited 🔴 stages are improving**: concentration is de-risking and nonaccruals are past peak. **Only stage 5 is deteriorating.** The desk was created off a composite score whose two legs point in opposite directions — so it owns one live signal, not three, and it still lacks the mechanism that would explain it.
+**Read the state column honestly.** At build, stages 1–2 — *the causal front end, and the reason this is a separate desk* — were **entirely un-instrumented**, and the desk owned one live signal (stage 5) with no mechanism to explain it. ✅ **That is the single biggest change at this session: stage 1 is now instrumented, dated and sized, and it fired.** The desk now has a mechanism *and* a signal, and they connect: the rent freeze (stage 1) attacks the NOI that makes stage-4 borrowers refinanceable, which is the only working exit from the stage-5 problem.
+
+⚠️ **Stage 2 remains the weak link and is now the top research gap** — without the multifamily maturity schedule, the desk cannot say *when* repricing hits, only that it does. **Stages 3, 4-level and 6 are all improving or flat.** A read of this name as broadly deteriorating is wrong on four of six stages.
 
 ---
 
@@ -41,14 +53,27 @@ CRE concentration = CRE / total risk-based capital. FLG's book contracted **−2
 - **Unblocked:** concentration thresholds may now be proposed — but base-rate them against a *falling* series, not a rising one.
 - *(Hypothesis refuted, question worth asking. `finding_normalization_choice_picks_opposite_winners` still applies in reverse: the two normalizations AGREED, and the agreement is what redirected the desk.)*
 
-### Q2 — Has the deleveraging already bottomed? 🔴 **LIVE, one print from resolution**
+### Q2 — Has the deleveraging already bottomed? ✅ **ANSWERED 2026-08-28 — YES for TOTAL loans, NO for MULTIFAMILY, and the question was pointed at the wrong book**
 
 Total loans QoQ, eleven quarters: `−0.1, −2.9, −1.1, −10.9, −5.8, −3.0, −4.0, −1.9, −3.5, −0.6, **+0.9**`.
 
 **Q2-2026 is the first positive quarter in the series**, and the prior four decelerate monotonically toward zero (KB-FLG-014, first-hand recomputation — all eleven cells reproduce against `total_loans_k`).
 
-- **Resolves by:** the Q3-2026 Call Report, ~2026-11-14. A second positive quarter fires `EXIT_PROTOCOL.md` **K-1 — the thesis-kill.**
-- **This is the desk's most important near-term fact and it points against the bear case.** It was found at build, on the same day the cohort ranked FLG worst.
+✅ **ANSWERED AT THE PRIMARY 2026-08-28 — AND THE ANSWER DISSOLVES THE ALARM.** The 10-Q splits the book (KB-FLG-040):
+
+| Book | 2025-12-31 | 2026-06-30 | H1 change |
+|---|---:|---:|---|
+| **Multi-family** — *the thesis's actual subject* | $28,983M | **$26,931M** | 🔴 **−7.08%** |
+| Commercial & industrial | $15,217M | $18,563M | **+21.99%** |
+| CRE | $9,314M | $8,244M | −11.49% |
+| **Total loans HFI** | $60,732M | $60,987M | **+0.42%** |
+
+⇒ **Total loans turned positive because C&I grew $3.3B on $4.8B of new originations, while multifamily ran off −7.08%.** `loans_qoq_pct +0.9%` measures a **MIX SHIFT**, not the end of the run-off. **The deleveraging of the multifamily book has not bottomed and is not close.**
+
+🔴 **This was a CONSTRUCT-VALIDITY DEFECT IN K-1, now fixed** (`EXIT_PROTOCOL.md` K-1, re-cut 2026-08-28). The old kill would have fired on total loans and declared a NYC-rent-regulated-multifamily thesis dead on the strength of **commercial-and-industrial growth**. Leg 1 is re-cut onto multifamily dollars. ⚠️ **Note the error's direction: it made the kill EASIER, biasing the rail toward retiring a live thesis** — the failure nobody complains about.
+
+- **Now graded by:** prediction **FLG-03** (multifamily HFI < $26,931M at 2026-09-30, 88% EMPIRICAL, resolves 2026-11-20).
+- **What survives from the build read:** the *observation* was correct and correctly flagged as the strongest counter-evidence. Only the instrument was wrong.
 
 ### Q2b — Why is the reserve falling faster than the problem book resolves? ✅ **ANSWERED 2026-08-20 — and the answer is a THIRD case**
 
@@ -92,14 +117,32 @@ REGINALD built the runway instrument (`AGENTS/REGINALD/workbook/RUNWAY_COHORT.ts
 
 **Method note worth keeping (REGINALD's, and it corrects a misreading of PAT-119 before anyone makes it):** on this instrument the kill and the signal are **exact complements**, so there is no 99th/43rd asymmetry to find. **That asymmetry was a property of the CO/prov FORM, not a general one — so PAT-119 coming back clean here is INFORMATIVE, not a null result.** A clean pass means the form is sound, not that the check failed to run.
 
-### Q2c — Is the nonaccrual improvement CURE or CHARGE-OFF? 🔴 **REMAINS PRIMARY — REGINALD raised it against its own leg**
+### Q2c — Is the nonaccrual improvement CURE or CHARGE-OFF? ✅ **ANSWERED 2026-08-28 — NEITHER. IT IS PAYOFF, AND THAT IS A THIRD CASE AGAIN**
 
 REGINALD told this desk nonaccruals were past peak and improving (5.49% → 4.88%), then flagged unprompted that the reading is **partly mechanical**: *you do not charge off $232M in six months without the rate falling.* **A rate falling by charge-off is not a rate falling by cure**, and the roll-forward **nets** — it cannot separate them.
 
 ⇒ **A "past peak" nonaccrual rate is not evidence of credit repair until the composition is split.** REGINALD explicitly left this with FLG as single-name depth.
 
-- **Resolves by:** decomposing the nonaccrual delta into cures / paydowns / charge-offs / transfers-to-OREO, quarter by quarter. Not in any FLG ledger.
-- **Why primary:** it decides whether stage 4 reads ⬇️ improving or 🔴 still-forming — **and it is currently recorded as improving on a figure that may be measuring its own charge-offs.**
+✅ **ANSWERED AT THE PRIMARY, 2026-08-28.** The 10-Q publishes the nonaccrual roll-forward outright (KB-FLG-029), six months ended 2026-06-30:
+
+| Line | $M | Share of outflow |
+|---|---:|---:|
+| Balance 2025-12-31 | 2,975 | |
+| **New nonaccrual (formation)** | **+780** | |
+| Charge-offs | −100 | 10.5% |
+| Transferred to other assets | −4 | 0.4% |
+| **Payoffs, dispositions, paydowns** | **−836** | 🔴 **87.5%** |
+| **Restored to performing (CURE)** | **−15** | 🔴 **1.6%** |
+| Balance 2026-06-30 | **2,800** | |
+
+**REGINALD's caution was right in spirit and wrong in mechanism.** The rate is not falling by charge-off — but neither is it falling by cure. **It is falling by payoff: the loans are leaving via refinance and sale.** ⇒ **The nonaccrual-rate suspension on `EXIT_PROTOCOL.md` K-3 is LIFTED.**
+
+🔴 **AND THIS IS WHERE THE THESIS RELOCATED.** Q2b found the ACL drawdown was neither release nor disposition; Q2c now finds the nonaccrual decline is neither charge-off nor cure. **Twice, the binary was wrong and the true answer was a third cell.** The pattern: *this bank's problem book is not resolving — it is being handed off.* **The only exit that means a borrower recovered is 1.6%.**
+
+**Why that matters more than the level:** payoff is **exogenous**. It needs a buyer or a refinancing lender for NYC rent-regulated multifamily. Every improving credit metric on this name is a **derivative of that market staying open**, and stage 1 has just been attacked (October 2026 rent freeze).
+
+- **Stage 4 verdict:** the LEVEL reads ⬇️ improving; the FLOW reads 🔴 still-forming ($780M/half). **Both are true and the level alone is misleading** — cite them together or neither.
+- **Candidate kill routed to REGINALD:** `Restored to performing ≥10% of outflow, 2 consecutive halves` — a positively-measured, stock-repair instrument. **UNVERIFIED and not a gate** until REGINALD's cohort base rate returns.
 
 ### Q2d — Is 14.6× actually unusual? ✅ **ANSWERED 2026-08-20 — YES, 99th percentile. The line stands.**
 
@@ -121,12 +164,20 @@ REGINALD told this desk nonaccruals were past peak and improving (5.49% → 4.88
 
 🔴 **The same base rate then killed this desk's kill condition — see `EXIT_PROTOCOL.md` K-3.** `CO/prov < 1.0× ×2 quarters` fires on **42.8%** of ordinary bank behaviour, and FLG itself satisfied it for **six consecutive quarters before the pattern the thesis is about had begun.** Four replacement forms were base-rated here before any was proposed and **all four died** (42.8% / 46.4% / 58.0% / 42.9%; even a 5-quarter sustained form is 27.3% and costs 15 months of latency). **The cell is now UNSET with a stated requirement** — an honest gap beats a falsifier that retires theses at random.
 
-### Q3 — Does the rent-regulation mechanism actually transmit? 🟠
+### Q3 — Does the rent-regulation mechanism actually transmit? 🟠 **HALF-ANSWERED 2026-08-28 — the mechanism is real, dated and sized; the TIMING is not yet instrumented**
 
-Stages 1–2 have no instrument. Until they do, the desk holds a credit-quality observation, not a causal thesis — and a credit-quality observation is REGINALD's cohort work, not a reason for a separate seat.
+At build, stages 1–2 had no instrument, and the desk therefore held a credit-quality observation rather than a causal thesis — which is REGINALD's cohort work, not a reason for a separate seat. **That is no longer the position.**
 
-- **Resolves by:** instrumenting the RGB rent-guideline series and FLG's multifamily maturity profile, then testing whether nonaccrual formation follows repricing dates.
-- **If it does not transmit:** `EXIT_PROTOCOL.md` **K-4** fires, and the scope of this desk goes back to PROME for review. Say so; do not quietly re-scope.
+✅ **STAGE 1 IS INSTRUMENTED, AND THE ISSUER CONFIRMS THE TRANSMISSION IN ITS OWN WORDS.** From the Q2-2026 10-Q: rent-regulated loans that are repricing *"are incurring debt service levels that, when combined with inflationary pressure on operating costs and limits on the ability to increase rental rates, approach or exceed some properties' net operating income and may require the borrower to support the loan from sources unrelated to the collateral."* **That is this desk's charter mechanism, stated by the company.**
+
+✅ **AND IT FIRED, ON A DATE** (KB-FLG-032): NYC RGB approved a **rent freeze** in **June 2026**, **effective October 2026**; FLG's Q2 provision rose $18M QoQ explicitly for it. Sized (KB-FLG-033): **$8.9B** with ≥50% rent-regulated units; **$12.8B** subject to rent regulation to some degree; **$13.4B** of NYC multifamily.
+
+⏱️ **THE FUSE IS ~12 MONTHS, AND KNOWING THAT IS THE ACTIONABLE PART.** FLG re-tests DSCR on borrower financials received *"generally during the second calendar quarter"*, downgrading sub-1.0× DSCR loans then (KB-FLG-037). **A freeze effective October 2026 therefore first reaches nonaccrual FORMATION in the Q2-2027 review — not in Q3 or Q4-2026.** ⛔ **Two quiet quarters are the EXPECTED path, not disconfirmation.** Wake rows: **T-08** (2026-10-01, HARD) and **T-09** (2027-08-06, RULE).
+
+🔴 **A process failure worth more than the finding.** `TRIGGERS.tsv` T-06 carried the RGB vote as `[EST] 2027-05-03` — so **an event that had already happened rendered as PENDING**, and the register could not tell the two states apart. **This desk was ~10 weeks blind to its own defining mechanism firing, while holding a correctly-formatted, in-date wake row aimed at it.** Corrected; T-06 re-scoped to the 2027 cycle.
+
+- **Still open — the top research gap:** the **multifamily maturity/repricing schedule** (stage 2). Without it the desk knows the freeze bites but not *which vintages* reprice into it.
+- **K-4 is FURTHER from firing, not closer,** and the evidence is confirming rather than falsifying — the freeze is the opposite of the "increases materially above run-rate" its kill requires.
 
 ---
 
@@ -138,15 +189,17 @@ Blueprint §2 requires an Independence column: two vectors on the same root coun
 
 ---
 
-## What would make this a thesis (the v1.0 bar)
+## The v1.0 bar — MET (four of five; item 4 PARTIAL and named)
 
-1. ~~Q1 (CRE composition)~~ ✅ refuted 8/20 · ~~Q2b (ACL roll-forward)~~ ✅ answered 8/20 — consumption-by-charge-off, provisioning stopped. **Now Q2c** (cure vs charge-off) **and Q2d** (the CO/provision base rate): the first decides whether stage 4 is improving, the second decides whether 14.6× means anything.
-2. Q2 graded at the Q3-2026 Call Report.
-3. At least stage 1 or 2 instrumented, so the mechanism is measured and not assumed.
-4. Every seed figure re-verified at FFIEC CDR / EDGAR and its `Conf` upgraded from MIRROR-grade.
-5. A bidirectional flip that survives contact with the answers to 1–3.
+| # | Bar | Status at 2026-08-28 |
+|---|---|---|
+| 1 | Q1, Q2b, **Q2c**, Q2d answered | ✅ **MET.** Q1 refuted 8/20 · Q2b answered 8/20 (consumption-by-charge-off) · Q2d answered 8/20 (99.4th pctile, n=168) · **Q2c answered 8/28 at the primary — payoff 87.5%, cure 1.6%** |
+| 2 | Q2 graded | ✅ **MET, on a corrected instrument.** Answered 8/28: total loans bottomed on a C&I mix shift; **multifamily did not** (−7.08% H1). Q3 grading now runs through prediction **FLG-03** |
+| 3 | Stage 1 or 2 instrumented | ✅ **MET (stage 1).** Rent freeze dated, sized, and its ~12-month DSCR fuse documented. **Stage 2 remains open and is the top gap** |
+| 4 | Every seed figure re-verified at a primary, `Conf` upgraded | 🟠 **PARTIAL — AND NAMED.** ✅ Verified by FLG at EDGAR: total risk-based capital **$10,003M** (exact), the full ACL roll-forward (ties to the dollar), coverage, nonaccrual, loans, assets, composition — 13 new `A1` KB rows. ⛔ **NOT verified: the MDRM-level MI3 cells** (`mi3_k`, `item4_k`, `item9a_k/b`, `v1_pct`, `v1a_pct`) — these need an **FFIEC CDR** pull FLG has not made. They stay MIRROR-grade and `MI3_FLG.tsv` says so per row |
+| 5 | A bidirectional flip surviving contact with 1–3 | ✅ **MET.** Confirm leg re-based 29% → 31.04% (denominator correction, difficulty unchanged) + a second formation-based confirming read added. **Falsify leg deliberately UNSET** pending REGINALD's cohort base rate on the cure-rate candidate |
 
-**Until all five: this file stays v0.1 and the desk publishes findings, not a thesis.**
+⚠️ **What v1.0 does NOT mean.** It does not mean the thesis is proven; it means it is **stated, instrumented, falsifiable and sourced to primaries FLG pulled itself.** Two of its legs still carry no registered kill, by design and with reasons. **The single largest residual risk is that the payoff channel stays open indefinitely** — in which case this book resolves quietly and the thesis is simply wrong.
 
 ---
 
@@ -155,4 +208,4 @@ Blueprint §2 requires an Independence column: two vectors on the same root coun
 | Version | Date | Author | Note |
 |---|---|---|---|
 | v0.1 | 2026-08-20 | DAEDALUS (build) | Skeleton of open questions. No thesis. Seed is MIRROR-grade throughout. |
-| *(v1.0)* | *(first live session)* | *FLG* | *Authored only after the v1.0 bar above is met.* |
+| **v1.0** | **2026-08-28** | **FLG (first live session)** | **THESIS OF RECORD.** Authored off FLG's own EDGAR primary pull (10-Q Q2-2026). **Q2c answered** — the nonaccrual decline is payoff-driven (87.5%), not charge-off (10.5%) or cure (1.6%); K-3's suspension lifted. **Q2 re-answered on a corrected instrument** — total loans bottomed on a C&I mix shift while multifamily fell −7.08%; K-1 re-cut. **Stage 1 instrumented and found already fired** — NYC rent freeze approved June 2026, effective October 2026, ~12-month DSCR fuse; T-06 had rendered the fired event as pending. **Coverage re-based** 29% → 31.04% (denominator), direction unchanged. **Capital denominator verified exactly** at $10,003M. Thesis relocated from "a bad book" to **"an exit channel that could close."** |
