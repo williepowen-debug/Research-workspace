@@ -44,3 +44,4 @@ date	agent	cause	note
 2026-08-17	BROCK	stale	Trigger (a) - brief 8/3 vs STATUS 8/13 (private-credit grouping session: tranche dual-normalization agreement, APO $130 exit-rule fire, BCRED 5% cap, FORUM 5). Raw STATUS read; dual-normalization datum folded to M-08/T-12.
 2026-08-17	HENRY	stale	Trigger (a) - brief 8/6 vs STATUS 8/10 (forum vintage). Raw STATUS read (8/6 content); H-1 joint-condition correction already carried from the 8/10 forum; nothing new folded.
 2026-08-17	RED	stale	Trigger (a) scoped - brief 8/12 20:31 vs STATUS 8/17 S31 (SAM rail write-back only). Rail content consumed via SAM brief/commits (CH-016 preregistered discriminator, CH-017 SAM-41 relabel); RED raw STATUS not opened.
+2026-08-28	BROCK	stale	brief 8/03 (fleet-stalest of 26) vs STATUS 8/13 — trigger (a); read STATUS after BROCK own <270 re-eval line breached at HY 263 [FRED 8/27]. Nothing in it changes the falsifier grade. Packeted the breach + the missing STATUS-commit pin.
