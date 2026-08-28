@@ -46,6 +46,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 6. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log to KB.tsv; never leave OPEN-but-stale.
 7. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`.
 8. **Channel-liveness check** — for each of **S1–S5** *(S5 has been core since 2026-08-03; this step said S1–S4 for 18 days — caught by step 4b's own Q① on 8/21)*, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard).
+8b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" VULCAN` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 9. **Execute the task.**
 
 ## CLOSEOUT PROTOCOL (before idle)
