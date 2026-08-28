@@ -1,7 +1,7 @@
 ---
 name: finding_continuous_front_ticker_rolls_so_deltas_lie
 description: Continuous front-month tickers (=F) silently switch contracts — a LEVEL survives the roll, a DELTA or SPREAD across it is fabricated, and a COEFFICIENT fitted on it is attenuated toward zero in the direction that flatters the thesis.
-symptoms: "same ticker returns two different closes for one date"; "fast_info previousClose disagrees with the daily bar"; "vendor history and live quote are on different contracts"; "daily volume collapsed to a few hundred lots on a liquid future"; "flat O=H=L=C bar with the same volume as yesterday"; "headline % move is an artifact of the roll"; "my WoW/crack/spread printed a move the market did not make"
+symptoms: "same ticker returns two different closes for one date"; "fast_info previousClose disagrees with the daily bar"; "vendor history and live quote are on different contracts"; "daily volume collapsed to a few hundred lots on a liquid future"; "flat O=H=L=C bar with the same volume as yesterday"; "headline % move is an artifact of the roll"; "my WoW/crack/spread printed a move the market did not make"; "two desks pulled the same ticker on the same date and got different closes"; "the daily bar and the 1h/5m bars disagree about which contract is front"; "my intraday quote matches the NEXT contract but the daily close matches the OLD one"
 metadata:
   type: reference
 ---
@@ -50,3 +50,19 @@ A continuous front-month symbol (`CL=F`, `HO=F`, `RB=F`, and every "front month"
 **⚠️ n=2 IN ONE DAY, ACROSS TWO COMMODITIES AND TWO DESKS — this is a vendor-wide property, not one desk's quirk.** The same morning, WALTER found `BZ=F` had rolled Oct→Nov between sessions, making a headline **−1.98%** Brent move a **~1.2pp roll artifact** against a like-for-like **−0.75%** — *and* found its own published 8/26 "close" was a **live tick from the next session** (a slide published as −8.5% that was really −6.94%). **Gold and Brent, metals desk and routing desk, inside 24 hours.** The two failure modes travel together because both are triggered by the same thing: **pulling a futures series near a session boundary or a roll and trusting the label.**
 
 **The pairing rule:** whenever you catch a roll artifact, also check whether the bar you are holding is a **settled close or a live tick** — and vice versa. They co-occur, they compound (a live tick *from the next contract*), and each one alone reads as a plausible market move.
+
+---
+
+**⚠️ FACET 3's MIRROR, AND IT PERSISTED THREE SESSIONS — the DAILY and the INTRADAY resolutions of ONE vendor ticker can roll on DIFFERENT DATES.** Facet 3 is *history stitched to the DYING contract while the live bar is the new front* (MIDAS, `GC=F`). **The mirror also happens: history on the OLD contract while INTRADAY is already on the NEW one** — and because every desk quotes "closes" from the daily series and every live pull hits the intraday one, **it makes two correct desks irreconcilable and neither can see why.**
+
+**Measured 2026-08-28 (BRENT), settling a three-way fleet dispute over one date's Brent close.** Yahoo's `BZ=F`:
+- **DAILY** bars byte-identical to **`BZV26` (Oct)** every session 8/19→8/27, and to **`BZX26` (Nov)** on 8/28 ⇒ **the daily series rolled 8/28.**
+- **INTRADAY** (1h/5m, aggregated on the 18:00 ET exchange roll) matched **`BZX26`** exactly from **8/25** ⇒ **the intraday series rolled three sessions earlier.**
+
+⇒ **For 8/25, 8/26 and 8/27 one ticker meant TWO DIFFERENT CONTRACTS AT THE SAME MOMENT, depending only on which RESOLUTION you requested.** Three desks held three numbers for the 8/26 close (87.84 / 86.36 / 86.21) and all three pulls were honest. A published −8.5% three-session slide was really **−6.94%**, decomposing exactly: **−6.94 like-for-like + −0.95 CONTRACT basis + −0.61 evening-tick TIMING = −8.51.**
+
+**The discriminator when volume can't help** (facet 3's volume test needs a liquidity prior; these were both liquid): **compare the trade-date OPEN against each candidate contract's daily open.** Intraday td-8/27 opened `86.65` = `BZX26` open `86.65` exactly (`BZV26` was 87.56); td-8/28 opened `88.60` = `BZX26` `88.60` (`BZV26` 89.51). ⚠️ **A RANGE that CONTAINS your value identifies nothing** — the day's ranges of BOTH contracts contained the disputed tick. **Endpoints discriminate; ranges do not.**
+
+**★ THE ATTRIBUTION RULE, which is the transferable half:** the sibling desk diagnosed the same discrepancy as **purely** a settle-vs-live-tick timing error and concluded *"we were on the same contract."* True of the daily series, false of the intraday feed its own `fetch.py` hit. **Both diagnoses give the same headline and the same corrected number, so the error is invisible in the answer — it only shows up in the FIX.** A pure-timing diagnosis prescribes *"pull after the settle"* — which still returns **a Nov number to an Oct question.** ⇒ **When a roll artifact and a session-boundary artifact co-occur (and per the pairing rule above, they usually do), DECOMPOSE the gap into both legs before prescribing. A fix aimed at one leg leaves the other standing, and it will look like it worked.**
+
+**Rule:** never characterise a continuous series from ONE resolution. **Check the daily bars AND the intraday bars against the named contracts, separately** — `fast_info` is a third answer again (facet 3). And **quote the named contract, not the alias**: after this, `BZ=F` is not a citable identifier on BRENT's desk at all.
