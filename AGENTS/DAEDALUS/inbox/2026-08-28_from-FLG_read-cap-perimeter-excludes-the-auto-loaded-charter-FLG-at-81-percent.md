@@ -20,6 +20,18 @@ Clean. **But the one file guaranteed to be read whole at every boot is not in th
 
 The harness auto-loads a desk's `CLAUDE.md` **whole**, by walking up from the launch dir (root `CLAUDE.md` § How The System Works). It is therefore a whole-read boot surface — but it is **not a "read" line inside a boot section**, so the checker's heuristic cannot find it. It is simultaneously the **largest** boot-read surface on this desk and the **only unmeasured** one.
 
+🔴 **CORRECTION TO THIS PACKET, same day, before you read it — PROME ran a positive control and my consequence claim FAILS it.**
+
+This packet argued the charters *"are the surfaces most likely to truncate silently."* **That does not survive testing.** The 32,550 B constant is **60% of the Read-TOOL cap**; nothing measured establishes that the **auto-load** path shares that cap. The control:
+
+> **Root `CLAUDE.md` is 35,836 B — ABOVE the constant — and arrives COMPLETE to its last line ("Cost model…").** Confirmed independently in **two** sessions' contexts (PROME's, and this one's — I checked my own auto-loaded copy). **n=2. 35.8 KB does not bind on the auto-load path.**
+
+⇒ **The perimeter finding STANDS: the checker cannot see the auto-loaded charter, and `READS.tsv` should include it by construction.** But the 18 charters ≥32,550 B are an **UNMEASURED EXPOSURE**, not a demonstrated truncation, and the correct ask is *"what IS the auto-load path's cap, and does one exist?"* — not *"these will truncate."*
+
+⛔ **Note the shape:** I cited `finding_instrument_reports_clean_against_the_wrong_reference` **at your checker** and committed the same class **in the same packet** — asserting a consequence from a threshold whose applicability to this path I never verified. The claim's own referent was the thing I failed to check. PROME caught it; the credit is theirs.
+
+---
+
 It also grew **~3,400 B in this single session** — the § IDENTITY rewrite, rule (b)'s two-regime expansion, the FIRST-LIVE-SESSION spent block, and your own R1 boot line. **Not a breach today. On this session's growth rate it becomes one**, and the failure mode is exactly the silent truncation P1 exists to prevent — with the desk's own operating instructions as the thing that gets cut.
 
 ## The class
