@@ -1,3 +1,7 @@
+# OZK knowledge base — KB-OZK-xxx. Canonical row/group counts mirror to STATUS.md and INDEX.md.
+# Last real data refresh: 2026-08-23   (rows 223-227, MI3 2025Q3 adjudication)
+# Last reviewed: 2026-08-28            (integrity sweep: 227 rows / max ID 227 / no gaps or dupes)
+# Cadence: APPEND-ON-FINDING.
 ID	Date	Group	Entity	Fact	Source	Conf	Epistemic	Status	Stale_By	DerivedFrom	Vectors	Notes
 KB-OZK-001	2026-03-23	ACL_THINNING	ACL_Coverage	ACL coverage collapsed from 8.86x (Q2 2025) to 1.39x (Q4 2025) in two quarters. ACL balance cut $56.6M (from $532.3M to $475.7M) while noncurrent loans doubled.	FDIC API CERT 110	A2	EMPIRICAL	ACTIVE	2026-04-30		→CARL	Q1 2026 data expected ~Apr 2026
 KB-OZK-002	2026-03-23	ACL_THINNING	Noncurrent_Loans	Noncurrent loans: $341,223K (1.07% of total loans) at Q4 2025, up from $149,744K (0.46%) in Q3 2025 - a 128% QoQ increase.	FDIC API CERT 110	A2	EMPIRICAL	ACTIVE	2026-04-30			

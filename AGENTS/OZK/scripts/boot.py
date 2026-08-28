@@ -45,10 +45,18 @@ CATALYSTS = [
 # catalysts destroys the record of what this kit was watching.
 
 # Standing threshold lines — resolve at the next quarterly print (not live-computable here).
+# (text, as_of_print, next_resolver_iso) — next_resolver_iso is the print that RESOLVES this line.
+# ⚠️ Every row carries its own next-resolver DATE so a passed one is flagged, not printed as forward.
+#    v0.2 shipped these as bare strings hardcoding "Next: Q2 Jul-21" and kept printing it with Q1
+#    figures for 5 weeks after Q2 graded (found 2026-08-28 sweep). CATALYSTS filters past rows; this
+#    list had no date at all, so it could not.
 STANDING_WATCH = [
-    "NCO ≤55bps kill-line (Invalidation §2) — Q1'26 printed 0.56%, 1bp above. Next: Q2 Jul-21.",
-    "Past-due >$550M or >2.0% — Q1'26 $487.5M/1.48%. Next: Q2 Jul-21.",
-    "IQHQ specific reserve — any positive at Q2 = Scenario B firing early → REGINALD/BROCK/PROME 🔴.",
+    ("NCO ≤55bps kill-line (Invalidation §2) — Q2'26 printed 0.69%, ABOVE the kill line (OZK-05 TRUE)",
+     "Q2 2026", "2026-10-21"),
+    ("Past-due >$550M or >2.0% — Q2'26 $298M/0.92% (OZK-06 FALSE, improved from $465M/1.41%)",
+     "Q2 2026", "2026-10-21"),
+    ("IQHQ specific reserve — none at Q2 (OZK-08 FALSE); mgmt self-set “~92d” report-back → Q3 call",
+     "Q2 2026", "2026-10-21"),
 ]
 
 # OZK price bands (STATUS Signal Dashboard).
@@ -244,8 +252,16 @@ def main():
 
     # ---- STANDING WATCH ----
     section("STANDING WATCH  (resolve at next quarterly print)")
-    for w in STANDING_WATCH:
-        print(f"  • {w}")
+    for text, as_of, nxt in STANDING_WATCH:
+        d = datetime.strptime(nxt, "%Y-%m-%d").date()
+        if d < today:
+            # The resolver has PASSED and this line was never re-based -> say so loudly.
+            print(f"  \u26a0\ufe0f STALE  • {text}")
+            print(f"           \u21b3 resolver {nxt} PASSED {(today - d).days}d ago and this line "
+                  f"still reads as of {as_of} \u2014 re-base it against the print that resolved it.")
+        else:
+            print(f"  • {text}")
+            print(f"      [as of {as_of} \u00b7 resolves {nxt}, {(d - today).days}d]")
 
     # ---- INBOX ----
     section("INBOX  (unprocessed)")
@@ -259,12 +275,52 @@ def main():
 
     # ---- STALENESS ----
     section("STALENESS")
+    # ⚠️ NEVER key freshness on st_mtime: git sync restamps it, so on the machine that pulled,
+    #    every file reads FRESH -> the check fails FALSE-NEGATIVE, exactly when it matters.
+    #    ([[finding_mtime_is_corrupted_by_git_sync]]; found in this kit 2026-08-28.)
+    #    Order: git-commit vintage first, mtime last-resort, and the BASIS is always printed.
     for fname in ("STATUS.md", "CALENDAR.md"):
         f = OZK_DIR / fname
-        if f.exists():
-            age = (datetime.now() - datetime.fromtimestamp(f.stat().st_mtime)).days
-            flag = " ⚠️ STALE" if age > 7 else ""
-            print(f"  {fname:<14} {age:>3}d old{flag}")
+        if not f.exists():
+            continue
+        basis, stamp = "mtime(last-resort)", datetime.fromtimestamp(f.stat().st_mtime)
+        try:
+            out = subprocess.run(
+                ["git", "log", "-1", "--format=%at", "--", str(f.relative_to(REPO_ROOT))],
+                cwd=str(REPO_ROOT), capture_output=True, text=True, timeout=10)
+            if out.returncode == 0 and out.stdout.strip():
+                basis, stamp = "git-commit", datetime.fromtimestamp(int(out.stdout.strip()))
+        except Exception:
+            pass
+        age = (datetime.now() - stamp).days
+        dirty = ""
+        try:
+            ds = subprocess.run(["git", "status", "--porcelain", "--",
+                                 str(f.relative_to(REPO_ROOT))],
+                                cwd=str(REPO_ROOT), capture_output=True, text=True, timeout=10)
+            if ds.returncode == 0 and ds.stdout.strip():
+                dirty = "  (uncommitted edits in tree)"
+        except Exception:
+            pass
+        flag = " \u26a0\ufe0f STALE" if age > 7 else ""
+        print(f"  {fname:<14} {age:>3}d old{flag}   [basis: {basis}]{dirty}")
+
+    # Ledger staleness is a SEPARATE object from doc age (workbook/*.tsv, content-vintage first).
+    # OZK had zero calls to the fleet tool before 2026-08-28.
+    led = REPO_ROOT / "scripts" / "ledger_staleness.py"
+    if led.exists():
+        try:
+            r = subprocess.run([sys.executable, str(led), "OZK", "--quiet"],
+                               cwd=str(REPO_ROOT), capture_output=True, text=True, timeout=30)
+            body = (r.stdout or "").strip()
+            print(f"\n  ledgers (workbook/*.tsv, via scripts/ledger_staleness.py):")
+            print("\n".join(f"    {ln}" for ln in body.splitlines()) if body
+                  else "    all ledgers current vs STATUS")
+            if (r.stderr or "").strip():
+                print(f"    [stderr] {r.stderr.strip()[:200]}")
+        except Exception as e:
+            print(f"\n  ledgers: \u26a0\ufe0f check FAILED ({type(e).__name__}) \u2014 run "
+                  f"scripts/ledger_staleness.py OZK by hand")
 
     print(f"\n{'='*72}\n  Boot brief complete. Full detail: --verbose\n{'='*72}\n")
     return 0
