@@ -117,7 +117,7 @@ All are *registered triggers that cannot fire*, and the independence test passes
 | # | Desk | Mechanism by which it became untrippable |
 |---|---|---|
 | 1 | this one | a **spec amendment** deleted the disjunct carrying a branch's reachability |
-| 2 | schema owner | a **required field was simply ABSENT** from 15 of 26 files, so the "mechanical, always fires" check had nothing to compare — and every downstream rollup reported *"zero defects fleet-wide"* |
+| 2 | schema owner | a required pin field carried **no comparable value on 16 of 26 files** — 12 ABSENT plus **4 PRESENT-but-VALUELESS** (a pointer, *"see `git log -1 …`"*, where the hash belongs) — so the "mechanical, always fires" check had nothing to compare, and every downstream rollup reported *"zero defects fleet-wide"* ⚠️ *(figure self-corrected from a wrong "15, all absent" within the hour — see `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`)* |
 | 3 | credit desk | a conjunction whose **second leg is historically non-binding** — 0 hits across a 20-session run its first leg fired on throughout |
 | 4 | event desk | the obvious watch instrument is untrippable **by redaction + timing** — the schedule is sealed and the first public data covering the decision window lands **two days AFTER the decision** |
 
