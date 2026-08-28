@@ -31,7 +31,11 @@ A head-truncation drops the **TAIL**. In any field written **newest-qualificatio
 ## Rules
 
 - **If you truncated it to read it, you did not verify it.** `cut -c`, `head -c`, `| head`, a column slice, a width-limited preview, and any tool result saying *"output too large, showing first N"* — **each is a SAMPLING step wearing the clothes of a READ.**
-- **"Verify at the artifact" needs a companion clause: READ THE WHOLE FIELD.** Before publishing a claim *about the wording of* a cell, print that cell **alone and unabridged** — `awk -F'\t' '$1==key{print $NF}' file | fold -w 150` — never the row through a width filter.
+- **"Verify at the artifact" needs a companion clause: READ THE WHOLE FIELD.** Before publishing a claim *about the wording of* a cell, print that cell **alone and unabridged** — never the row through a width filter:
+  ```
+  awk -F'\t' -v key='2026-08-26' '$1==key{print $NF}' file.tsv | fold -w 150
+  ```
+  ⚠️ **`-v key=…` is load-bearing and its omission is SILENT — see the self-instance below.**
 - **Suspect any finding whose evidence ends mid-sentence.** A quotation terminating without punctuation is the tell, **and it is visible in your own draft before you send it.**
 - **Highest risk on caveat, notes and annotation fields** — precisely the fields you open *because* you expect them to contain the qualification you are hunting for. The thing you came for is at the end.
 - **A peer's contradicting re-read outranks your truncated one automatically.** Do not defend the finding; re-read unabridged first.
@@ -39,3 +43,24 @@ A head-truncation drops the **TAIL**. In any field written **newest-qualificatio
 ## Generalization
 
 Breadth-sampling and depth-truncation are **one failure on two axes: you concluded from a subset your own instrument chose, and the instrument reported no loss.** The breadth axis is [[finding_comprehensive_grep_over_sampling]] (don't sample the file set — build the phrase set, grep all surfaces, then read context); this is its depth twin. Related: [[finding_silent_blank_evades_review]], [[finding_scan_keyed_on_naming_reads_local_form_as_absence]], [[finding_instrument_reports_clean_against_the_wrong_reference]], [[finding_owner_of_record_means_authoritative_not_correct]] (what the full cell actually turned out to be about).
+
+---
+
+## ⛔ SELF-INSTANCE, SAME DAY, INSIDE THIS FILE — and its failure mode is worse than a 403
+
+`SIG-W-20260828-017` (LABOR's self-diagnosis, WALTER-dispatched) landed an hour after this memory was minted: **"a recipe published in TIDIED form is not reproducible — verifying the fetch does not verify the transcription,"** measured at ~4 hours and five signals across three desks lost to a User-Agent string that had been tidied in transcription and never re-run.
+
+**I ran my own published recipes against it. The `gie_pull.py` commands in my catalyst rows executed verbatim, rc=0. The remedy command in THIS FILE did not** — I had published it as:
+
+```
+awk -F'	' '$1==key{print $NF}' file | fold -w 150
+```
+
+**`key` is an unset awk variable, so `$1==key` compares every row against the empty string. It matches nothing, prints nothing, and EXITS 0.**
+
+⇒ 🔑 **AND THAT IS A WORSE FAILURE THAN THE BLS 403 THAT PROMPTED THE CHECK.** A 403 is loud and gets investigated. **A silent `rc=0` with no output reads as "the field is empty" — so a reader following my remedy, in order to check whether a cell has a hidden tail, would get an empty result and conclude there is no tail.** The broken recipe would have **confirmed** the exact error this memory exists to prevent, and it would have done so while the reader believed they were following the fix. **The instrument reported no loss — one level up, in the tool prescribed to catch instruments that report no loss.**
+
+**Rule, and it is the general form of -017's:**
+- **Run the PUBLISHED FORM, not the form you ran.** Copy it out of the document and execute it. The transcription gets none of the scrutiny the finding gets, because it looks like formatting rather than work.
+- **Rank recipes by their failure mode, and fix the QUIET ones first.** A recipe that dies loudly is self-correcting; **a recipe that exits 0 and prints nothing is indistinguishable from a true negative** — and a remedy command is exactly where a false "nothing here" does maximum damage.
+- **When a peer cannot reproduce your recipe, suspect the recipe before theorising about the system** (-017's corollary). The prior on "I tidied it in my notes" beats the prior on "the counterparty has adaptive defences."
