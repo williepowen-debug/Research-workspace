@@ -14,14 +14,17 @@
 |---|---|---|---|---|
 | **HY OAS** | 271 [FRED 8/12] | **263** [FRED 8/27] | **−8bp** | 🔴 **MY `<270` RE-EVAL LINE IS FIRED** — 267 (8/26) + 263 (8/27) = 2 consecutive <270. 5 of the last 6 sessions <270. **1.4th percentile of 3 years (n=787).** `<260` thesis-kill **0/10, 4bp away** |
 | **CCC OAS** | 1020 [8/12] | **1031** [8/27] | **+11bp** | 🔴 **The tail went the OTHER way again.** 4th consecutive measured instance of level-vs-composition on my board |
-| **CCC/BB · CCC/HY** | 6.38 · — | **6.739 · 3.920** | ↑ | 🔴🔴 **BOTH are the MAXIMUM of the 787-obs series since 2023-08-29.** My 8/13 dual-normalization finding is not just intact — **both normalizations are now at series records while the index prints a 3-year low** |
+| **CCC−BB gap** | 860 [8/12] | **878** [8/27, derived] | **+18bp** | 🔴 **My dual-normalization's LEVEL leg, completed off SHADE's 8/28 reconcile.** Derived: BB = 1031÷6.739 = **153.0** vs 160 [FRED 8/12] ⇒ **BB TIGHTENED 7bp as CCC widened 11bp.** ⚠️ **DERIVED, not a published BB print** |
+| **CCC/BB · CCC/HY** | 6.38 · — | **6.739 · 3.920** | ↑ | 🔴🔴 **BOTH at the MAXIMUM of the 787-obs series since 2023-08-29 — and my gap AND ratio legs now BOTH confirm.** ⚠️ **CCC/HY is NOT mine and NOT SHADE's — it is REGINALD's `VX-REG-18.04`** (cited, never copied; carries a Will-approved 8/13 stand-down). **Mine is the CCC/BB pair.** ⛔ **The two ratios are NOT independent — same series; their agreement is arithmetic, not corroboration** |
 | **APO** | $140.47 | **$135.01** | −3.9% | $130 exit rule FIRED 8/12 (Will-ruled HOLD 8/13). **$9.99 under the $145 close-re-eval** — did not reach it |
 | ARES | $144.93 | **$142.50** | −1.7% | Manager |
 | **BIZD** | $13.48 | **$13.37** | −0.8% | 🟢 $12.50 pin still cleared by 7.0%; the conditional Sep $12P stays far OTM |
 | ARCC · FSK · OBDC | 20.08 · 12.55 · 11.86 | **19.95 · 12.27 · 11.30** | −0.6 / −2.2 / −4.7% | **OBDC led the complex DOWN over the fortnight** — noted, not scored (verdict 1) |
 | KRE | $77.79 | **$74.31** | −4.5% | [REGINALD/LIQUID own] |
 
-**Tape read (8/28): the index reached a three-year low and its tail a three-year high, in the same fortnight.** HY 271→263 while CCC 1020→1031; **gap and ratio agree bear and both are at series records** — my own 7/27 dual-normalization discriminator, the one I used to call X1 NOT MET when the two disagreed, now agreeing at maximum amplitude. ⚠️ **Quality dispersion, not broad widening — and not readable as either the kill or the fire.** The kill line is a *level* test and the level says complacency; the composition says the tail is being repriced hard. **Fourth instance of that class this quarter.**
+> ⛔ **GUARD (SHADE's ruling 8/28, PROME-adopted): the Delaware Life distribution pause is `marker (0)` — an INDEPENDENT rung, NOT a "precursor to marker (2)."** The carriers link **the probe** to ratings, not **the pause**; "precursor" supplies an ordering **nobody published**. ⚠️ **I made that error in my packet to SHADE by inheriting a FRAMING from PROME's brief without testing it — that is the failure mode, not the wording.** Never reached a BROCK surface; this line stops it regrowing.
+
+**Tape read (8/28): the index reached a three-year low and its tail a three-year high, in the same fortnight.** HY 271→263 while CCC 1020→1031; **gap and ratio agree bear and both are at series records** — my own 7/27 dual-normalization discriminator, the one I used to call X1 NOT MET when the two disagreed, now agreeing at maximum amplitude. ⚠️ **Quality dispersion, not broad widening — and not readable as either the kill or the fire.** The kill line is a *level* test saying complacency; the composition says the tail is repriced hard. **Fourth instance this quarter.**
 
 ---
 
