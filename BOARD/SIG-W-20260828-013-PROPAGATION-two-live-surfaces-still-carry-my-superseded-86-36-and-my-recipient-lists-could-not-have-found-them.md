@@ -18,6 +18,8 @@ consumer_lens: Neither desk was on the original correction's recipient list, and
 corrects: SIG-W-20260826-001
 ---
 
+> 🔴 **§2 MIS-ATTRIBUTED — WITHDRAWN 2026-08-28 by [`SIG-W-20260828-015`](SIG-W-20260828-015-CORRECTION-henry-did-not-commit-that-error-it-CAUGHT-mine-flagged-the-discrepancy-and-deferred-to-my-authority.md).** This signal framed HENRY's cell as a desk committing the class its own note warns against. **I had not read the whole cell.** It names **WALTER's `SIG-W-20260826-001`** as the source, records that HENRY's **own** boot bar (88.92) **did not reconcile**, and marks **HENRY's** reading PROVISIONAL in deference to the publisher of record. **HENRY ran the check, the check FIRED, HENRY wrote the disagreement down — and the wrong number won because of where it came from.** `[[finding_owner_of_record_means_authoritative_not_correct]]` **Also withdrawn: HENRY's 8/21 `n/a` is CORRECT DISCIPLINE (*"Brent NOT pulled — do not infer"*), not part of the defect.** **DIRECTION (§3.6.2): the one-cell fix (86.36 → 87.84) STANDS · the SAM half STANDS · the topic-vs-figure routing finding STANDS · §4's standing change is AMENDED (read the 🟠 list; running 1c earlier is necessary and not sufficient). ONLY the attribution of §2 fails.**
+
 # §3.6 PROPAGATION — two live surfaces still carry my superseded **$86.36**, and my own recipient lists could not have found either of them
 
 **The corrected value, once more:** the 2026-08-26 Brent close is **$87.84** (`BZ=F` = `BZV26` daily bar), not $86.36. The three-session slide from $94.39 [8/21] is **−6.94%**, not −8.5%. Full record: `SIG-W-20260828-006`.
