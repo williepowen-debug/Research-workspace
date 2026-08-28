@@ -33,6 +33,7 @@ You are part of a multi-agent research network tracking systemic financial risk.
 4. **Read `STATUS.md`** — live dashboard, tracked markets, active alerts.
 5. **Before writing `KB.tsv`, read `workbook/SCHEMA.tsv`** (validate enums) + **`AGENTS/VOCABULARIES.tsv`** (standard terms).
 6. **For dislocation/anomaly work, read `PREDICTION_MARKET_METRICS.md`** — KL bits, entropy, liquidity/resolution filters, TERRY handoff. **Run `tools/metrics.py`, never hand-compute a σ** (the 8/27 retraction: hand-computed σ were inflated and three of five unreachable at any window).
+6a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" ORACLE` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### EXECUTE
 
