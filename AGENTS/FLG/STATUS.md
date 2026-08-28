@@ -81,6 +81,33 @@ NYC RGB **approved a rent freeze in June 2026, effective October 2026**. FLG's Q
 
 ---
 
+## 🔴 SECOND PASS — the thesis's load-bearing number went from n=1 to n=13
+
+**`workbook/NONACCRUAL_FLOW.tsv` — built from 13 EDGAR filings (2023Q2–2026Q2), pulled and parsed by FLG. Identity ties 13/13.**
+
+The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the endpoint of a **three-year migration**:
+
+| share of non-accrual outflow | 2023H1 | 2023FY | 2024FY | 2025FY | **2026H1** |
+|---|---:|---:|---:|---:|---:|
+| **cures** | **59.5%** | 24.0% | 5.5% | 8.5% | **1.6%** |
+| **payoffs / dispositions** | 23.8% | — | — | 74.4% | **87.5%** |
+
+**FLG used to cure its problem loans. It now hands them off.** The dependence on an exogenous exit channel is confirmed on n=13, not asserted on n=1.
+
+**Coverage is NOT monotonic** (correcting an inherited word): 65.31% [24Q2] → 35.61 [25Q1] → then **flat in a 33–36% band for five quarters** → **31.04% [26Q2], a new series low breaking that floor.**
+
+⚠️ **Formation is NOT reliably Q2-seasonal** — my own mechanism does not show in the numbers. Q2 peaks in 2024 only; 2025 runs Q1 842 > Q2 486, 2026 runs Q1 397 ≈ Q2 383.
+
+### K-3 is RESOLVED — the candidate is retired on two independent grounds, and the third is the real finding
+
+- **① REGINALD's cohort pilot (n=3, primary):** WAL/EGBN/CFG disclose ACL roll-forwards but **no non-accrual roll-forward and no cure line**. It is an **FR Y-14Q Schedule H** item, non-public; FLG discloses it as a NYCB-legacy choice. **The cohort base rate cannot be built** — and REGINALD's composition argument (the disclosers are a self-selected subset) means a bigger pilot would not fix it.
+- **② My own history kills it too:** cure share ≥10% for two consecutive halves **fires in 2023H1+H2**. Requirement 3 FAILS. ⛔ **I proposed this form before base-rating it — the order my own charter forbids.**
+- **③ REGINALD's offered alternative fails on data it did not have:** *"cure-share <5% for 2 consecutive halves"* is **already satisfied** (2025H2 1.8%, 2026H1 1.6%), breaching requirement 2 — and a *low* cure share is thesis-**confirming**, so it cannot be K-3's kill.
+
+🔑 **Why six candidates have now died — it is the REQUIREMENT, not the candidates.** Requirement 3 ("low spurious fires in the name's own history") **assumes one regime**. FLG's history has a break: non-accrual **$798M [24Q1] → $1,942M [24Q2], +143%**, with cure share at 59.5% in 2023. **A kill built to detect credit repair SHOULD fire in 2023, because in 2023 this bank was repairing** — scoring that as a spurious fire counts a correct positive as a false positive. **No repair-detecting kill can ever pass requirement 3 for a bank that used to be healthy.** On the post-break window (4 halves) the form fires zero times and would pass — but n=4 is too thin, and requirement 1 is now known unbuildable. **K-3 stays UNSET; cure share becomes a standing observable on the ledger instead.** Routed to REGINALD as a framework-level finding.
+
+---
+
 ## GATES & PREDICTIONS
 
 **Registered gates: still ZERO, and still deliberately.** Base-rate first, register second (FERT discipline, Will-ruled).
@@ -91,9 +118,11 @@ NYC RGB **approved a rent freeze in June 2026, effective October 2026**. FLG's Q
 
 | ID | Call | Conf | Resolve_By |
 |---|---|---|---|
-| **FLG-01** | H2-2026 gross nonaccrual formation **< $600M** (tests the Q2-seasonality claim) | 75% PROVISIONAL | 2027-03-15 |
+| **FLG-01** | H2-2026 gross nonaccrual formation **< $600M** | ⚠️ **75% → 50%** *(amended)* | 2027-03-15 |
 | **FLG-02** | Coverage at 2026-09-30 **< 31.04%** *(10-Q basis — grading on the Call Report basis flips this row)* | 65% PROVISIONAL | 2026-11-20 |
 | **FLG-03** | Multifamily HFI at 2026-09-30 **< $26,931M** (K-1 leg 1 does not satisfy) | 88% EMPIRICAL | 2026-11-20 |
+
+⚠️ **FLG-01's confidence is amended on the record, pre-print, threshold untouched.** I registered it on a Q2-seasonality rationale and then base-rated that rationale hours later — the wrong order, and my charter says so. The mechanism is real and issuer-disclosed but does not produce a dependable Q2 spike (KB-FLG-045). H2<H1 held 2 of 2 years, but at ratios 1.00× and 0.50×, and <$600M from an H1 of $780M needs <0.77× — so 1 of 2. **The $600M threshold is NOT moved and both confidences grade.** Voiding a live prediction because I improved my own prior is how a bad call gets laundered.
 
 **Price:** FLG **$13.48** (live, `fetch.py`, 2026-08-28) = **−5.34%** vs REGINALD's FROZEN $14.24 baseline. Band 1 ($12.82) sits 4.9% below spot — 53% of the way. **Essentially unchanged from the $13.49 build read eight days ago: the tape has not moved on any of this.** `VX-REG-6.03` is dual-action; FLG acts on a fire, REGINALD owns the row.
 
@@ -117,4 +146,4 @@ NYC RGB **approved a rent freeze in June 2026, effective October 2026**. FLG's Q
 
 ## BOTTOM LINE
 
-The desk ran its first real session and the thesis moved off the number it was built on. **FLG's problem book is not healing — 87.5% of it leaves by payoff and only 1.6% by cure — so every improving credit metric on this name is a derivative of the NYC rent-regulated refinance market staying open, against a specific reserve of $163M on a $2.8B book.** The single most important read is that **NYC approved a rent freeze in June 2026, effective October 2026**, which attacks precisely the NOI that makes those borrowers refinanceable; the desk's own wake register had that fired event recorded as pending, and the transmission fuse runs ~12 months to the Q2-2027 DSCR review. **Two kill legs were found defective and fixed this session — K-1 was measuring total loans when the thesis is about multifamily, and would have fired on C&I growth.** I wake on 2026-10-01 when the freeze takes effect, and properly at the Q3 10-Q around 2026-11-06 where FLG-02 and FLG-03 grade.
+The desk ran its first session and then its first real data build, and the thesis's load-bearing number went from **n=1 to n=13**: FLG's problem book is not healing, and the three-year series shows why — **cures fell from 59.5% of non-accrual outflow to 1.6% while payoffs rose to 87.5%**, so this bank has migrated from resolving bad loans to handing them off, against a **$163M specific reserve on $2.8B** and a coverage floor that just broke to a **new low of 31.04%**. The single most important read is that **NYC froze the rents on the collateral behind $8.9B of it, effective October 2026**, with a ~12-month fuse to the Q2-2027 DSCR review — the mechanism attacks precisely the NOI that makes those borrowers refinanceable, i.e. the one exit that is still working. **K-3's kill stays UNSET, now for a proven reason**: the cohort base rate is structurally unbuildable (the cure line is non-public FR Y-14Q), and requirement 3 itself is mis-specified for a bank whose regime changed — which is why six candidates have died and is a finding about the framework, not this name. I wake on **2026-10-01** when the freeze takes effect, and properly at the **Q3 10-Q ~2026-11-06** where FLG-02 and FLG-03 grade.

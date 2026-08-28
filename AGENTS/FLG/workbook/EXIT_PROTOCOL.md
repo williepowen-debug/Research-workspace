@@ -1,6 +1,6 @@
 # FLG — EXIT PROTOCOL (kill rail)
 
-**Kill rail re-derived: 2026-08-28 (FLG FIRST LIVE SESSION — every leg re-tested against EDGAR primaries pulled by FLG; K-1 re-cut after a construct-validity defect, K-3's Q2c suspension LIFTED, K-4's mechanism found already FIRED)** *(this in-content stamp is the vintage the Falsification Freshness Sweep dates from — never mtime, PAT-039/044)*
+**Kill rail re-derived: 2026-08-28 (FLG FIRST LIVE SESSION + same-day K-3 resolution on a 13-filing series FLG built itself — every leg re-tested against EDGAR primaries pulled by FLG; K-1 re-cut after a construct-validity defect, K-3's Q2c suspension LIFTED, K-4's mechanism found already FIRED)** *(this in-content stamp is the vintage the Falsification Freshness Sweep dates from — never mtime, PAT-039/044)*
 **Author:** DAEDALUS at build · **Re-derived by:** FLG, first live session 2026-08-28 · **Status:** 🟢 **LIVE — no longer build scaffolding.** Re-derived against `THESIS.md` v1.0 and against FLG's own EDGAR primary pull (10-Q Q2-2026, Flagstar Bank N.A., acc 0000910073-26-000068, filed 2026-08-06). Legs still carrying an UNSET kill cell say so and say why.
 
 ---
@@ -119,6 +119,34 @@ DAEDALUS suspended every non-accrual-rate leg on 2026-08-20 pending Q2c, on the 
 **The rate is falling by PAYOFF. Not by charge-off (10.5%), and emphatically not by cure (1.6%).** ⇒ **The suspension is LIFTED** — a non-accrual leg does not fire the kill on its own losses, because losses are not what is moving the number.
 
 🔴 **But the answer is a THIRD case again, and it re-frames the thesis rather than resolving it.** Q2b found the ACL drawdown was neither release nor disposition; Q2c now finds the non-accrual decline is neither charge-off nor cure. **The only working exit from a $2.8B non-accrual book is refinancing or sale into a functioning market — and that channel is exogenous to the bank.** Cures, the one exit that means the borrower recovered, are 1.6%. **Nothing here is healing; it is being handed off.** ⚠️ And gross formation of **$780M replaced 81.7% of the outflow** (KB-FLG-030), so the net −5.9% headline overstates the drain by ~4.5×.
+
+### 🔴 RESOLVED SAME SESSION — THE CANDIDATE IS RETIRED, ON TWO INDEPENDENT GROUNDS
+
+**① REGINALD's cohort pilot (n=3 at the primary, `180ca0157`): the cohort base rate CANNOT BE BUILT.** WAL, EGBN and CFG all disclose ACL roll-forwards, non-accrual balances, aging and NCO tables — and **none discloses a non-accrual roll-forward with a separate cure line.** The `returned to accrual` flow is an **FR Y-14Q Schedule H** item (non-public), not a GAAP 10-Q footnote; FLG discloses it as a **NYCB-legacy enhanced-disclosure choice**. OZK is structurally out entirely (deregistered SEC periodic reporting in 2017). ⚠️ **REGINALD's strongest point is not the sample size — it is composition:** the names that voluntarily disclose are the enhanced-disclosure large caps, so any rate built from them is *a self-selected subset median on the wrong cohort*, which is the same composition defect that killed the earlier five forms. **A bigger pilot would not fix it.** Retire on the structural argument, not on n.
+
+**② FLG's own history kills it too — and I could have known before proposing it.** Having built `workbook/NONACCRUAL_FLOW.tsv` (13 filings, identity ties 13/13) the same session, requirement 3 is now testable at this desk:
+
+| half | 23H1 | 23H2 | 24H1 | 24H2 | 25H1 | 25H2 | 26H1 |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| cure share of outflow | **59.5%** | **13.1%** | 2.9% | 6.1% | **16.1%** | 1.8% | 1.6% |
+
+**Single-half ≥10% fires 3 of 7 (43%). Two consecutive halves fires once — 2023H1+2023H2.** ⇒ **Requirement 3 FAILS.** ⛔ **And I proposed this form to REGINALD BEFORE base-rating it, which is precisely the order this charter forbids.** The rule I broke is my own.
+
+**③ REGINALD's offered alternative also fails, on data it did not have.** The suggested single-name-persistence form — *"cure-share <5% for 2 consecutive semi-annuals"* — is **ALREADY SATISFIED**: 2025H2 **1.8%** and 2026H1 **1.6%**. That breaches requirement 2 (no threshold already met at write time) on the day it was proposed. **And it points the wrong way**: a *low* cure share is thesis-**CONFIRMING**, so it cannot serve as K-3's kill, which must fire when credit **repairs**. Recorded so nobody re-derives it.
+
+### 🔑 WHY SIX CANDIDATES HAVE NOW DIED — the requirement, not the candidates
+
+> **Requirement 3 is MIS-SPECIFIED for a bank whose regime changed mid-sample.** "Low spurious-fire count in the name's own history" assumes one regime throughout. FLG's history contains a break — non-accrual **$798M [24Q1] → $1,942M [24Q2], +143%** — and in 2023 the bank had a $233M problem book curing at **59.5%**. **A kill built to detect credit repair SHOULD fire in 2023, because in 2023 this bank genuinely was repairing.** Counting that as a spurious fire scores a **correct positive as a false positive**.
+
+⇒ **No repair-detecting kill can ever pass requirement 3 for a bank that used to be healthy.** The run of six failures is a property of the **test**, not of the candidates — and every previous post-mortem, mine included, blamed the candidate.
+
+**The fix, and its own limit.** Evaluate requirement 3 on the **post-regime-break window only, with the break dated and the exclusion stated**. On FLG's post-24Q2 window (4 halves: 6.1 / 16.1 / 1.8 / 1.6) the ≥10%-two-consecutive form fires **zero** times and would **pass**. ⛔ **But n=4 halves is too thin to register a kill on, and requirement 1 is now known to be unbuildable for this instrument** — so passing a re-specified requirement 3 is not sufficient. **K-3's cell stays UNSET.** Routed to REGINALD as a **framework-level** finding: it applies to every name in the matrix whose regime broke, not to FLG alone.
+
+**What replaces the gate, and it is better than a gate nobody can calibrate:** cure share is now a **standing observable** on `NONACCRUAL_FLOW.tsv`, refreshed every filing, with three years of history behind it. **A watched series with a known trend beats an uncalibrated threshold** — and if cure share ever returns to double digits for two halves, that is visible on the ledger at the next print whether or not a gate exists.
+
+---
+
+*(Superseded proposal, retained so it is not re-derived — this was the candidate before the two tests above killed it:)*
 
 **⇒ CANDIDATE KILL, ROUTED TO REGINALD FOR COHORT BASE-RATING (not registered here):**
 
