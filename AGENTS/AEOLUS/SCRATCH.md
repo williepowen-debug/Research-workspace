@@ -65,6 +65,8 @@
 ⛔ **Do NOT set band levels yet: no base rate exists.** The worker correctly deferred them, per my own rule. **Order: (1)** base-rate Australian wheat against ONI/RONI across the PSD series — **the 2023 analogue is already in-series (40.5 La Niña → 25.96 El Niño → 34–36 neutral)**; **(2)** get **one more region confirming** before →4; **(3)** only then propose levels.
 **The re-scope is Option C from the report:** keep US G/E as a **labelled US-only CPI-bridge line**, add a **global physical-condition leg** as the driver instrument — **physical, not price, because price is stage 2 of C2's own mechanism**, and a price index would confirm the transmission rather than detect the driver.
 
+> ⚠️ **The two blocks below are EARLIER PASSES of 2026-08-27, in reverse order. Anything they say about AEO-10's price is superseded by the probes block above (80% → 30% → 65%).** Their other content stands.
+
 ### 🔴 POST-CLOSEOUT SWEEP (Will asked "what else needs updating?" AFTER I had closed out) — it found three defects, and that is the finding
 
 **I had already committed, pushed and reported. The sweep found three things, none of which any check of mine would have caught.**
@@ -97,7 +99,7 @@
 **C1 1 ⚪ · C2 2 🟡 · C3 3 🟠 · C4 3 🟠 · C5 3 🟠 ↓ from 4 · C6 4 🔴. Composite 16/30 · range 1–4 · moved 1 · fired 0/6.**
 **C5 stepped down because the European event ENDED** (Kaub 59.98 cm; **Duisburg at a folder-record HIGH**, above its NNW since 8/22; Danube below-LKV 14 → 5; the 3-day test **FAIL/FAIL/FAIL**). **Channel-kill, not thesis-kill — C5 migrated to Panama**, which escalates on a published schedule (slots →32/day 9/01, draft →48.0 ft 9/02, →47.5 ft 10/01).
 **Fired count went 1 → 0**: C5's exit is the same test failing, and it fails on all three days.
-**Re-priced: AEO-10 80% → 30%. Resolved: none.** AEO-01 strengthened (ratio *fell* to 12.94% through the ramp).
+**Re-priced: AEO-10 80% → 30% → 65% — TWICE, and the second move REVERSES the first. Read the probes block above before quoting it. Resolved: none.** AEO-01 strengthened (ratio *fell* to 12.94% through the ramp).
 
 ### DOMAINS SPAWNED, AND WHY *(kept so a quiet domain is a visible decision)*
 **`water/` · `hurricane/` · `wildfire/` · `regime/` — all four spawned** (6-day gap on every instrument + dated catalysts in window + a threshold near firing). **All four reports are excellent — read them if in doubt.** ⚠️ **`regime/` was spawned this time**, fixing the 8/21 blind spot where I did it myself and my own guard could not flag the gap. **`seismic/` not spawned — correct, no trigger.**

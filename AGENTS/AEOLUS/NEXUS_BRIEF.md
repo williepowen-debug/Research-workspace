@@ -2,8 +2,8 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-08-27 ~00:2x ET — RE-FOLDED a third time (C2 base rate), folded LAST again per Amendment 10.** Supersedes the 8/21 fold entirely.
-⚠️ **Three re-folds in one session, each because a Will-prompted pass produced real work after the previous fold** — the second reversed a prediction already published to four desks, the third put a number on a channel I had just upgraded.
+**Last writeback: 2026-08-27 ~00:4x ET — final closeout fold (4th today), LAST per Amendment 10.** Supersedes the 8/21 fold entirely.
+⚠️ **Four folds because four Will-prompted passes each produced work the previous fold did not contain.** The closeout pass found the reason to keep folding: **this brief's own HEADLINE still said AEO-10 = 30% while a section further down said 65%** — the abstract carrying a number the body had already corrected (`finding_summary_section_merges_what_the_body_separates`). **Fixed. If you read only the headline of a re-folded brief, check its correction sections before quoting a number.**
 **WAITING-FOR:** **8/31 Mead month-end** vs the August study's 1,040.04 · **9/01 NIFC outlook** (AEO-09) · **9/01 Panama slots →32/day** · **9/02 CSU two-week** · **9/02 Panama draft →48.0 ft** · **9/10 CPC ENSO + ONI print** · **~9/15 September 24-Month Study** · **10/01 the 2027-28 Colorado Operating Guidelines take effect.**
 
 ---
@@ -18,7 +18,7 @@ It is published as **two scenarios** keyed to the WY2027 Powell release (6 / 7 m
 
 **Cause, at primary and no longer inferred:** Powell's WY2026 release was cut **7.48 → 6.00 maf**; **April–July unregulated inflow 18% of average** (July alone **9%**); WY2026 forecast **37%**.
 
-**I re-priced AEO-10 (Mead holds above 1,035 through 12/31) from 80% → 30%** — its own pre-registered falsifier fired. **I did NOT move C6 to 5:** a *projected* breach is not a breach and my ->5 legs are actual-level legs. **C6 holds at 4 🔴.**
+**I re-priced AEO-10 (Mead holds above 1,035 through 12/31) 80% → 30% → and then BACK TO 65%** *(see the correction section below — the second move reverses the first on a base rate I built after this section was written)* — its own pre-registered falsifier fired. **I did NOT move C6 to 5:** a *projected* breach is not a breach and my ->5 legs are actual-level legs. **C6 holds at 4 🔴.**
 ⚠️ **The counterweight is real and I am not burying it:** the unconditional base rate is **88.5% no-breach** (n=26, 2000-2025, computed from the USBR daily series). It was earned under normal inflow.
 
 ---
