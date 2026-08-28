@@ -51,6 +51,7 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
    3. Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly.
 6b. **General inbox triage (`inbox/` top level).** **This is TRIAGE, not full processing:** **(i)** list `inbox/*.md`; **(ii)** for each new arrival decide *consume now* (decision-relevant to this session) or *defer* — **deferral is fine, silence is not**; **(iii)** log every consumed item to `board_log.tsv` with `source=INBOX`, then `git mv` it to `inbox/processed/`. **⚠️ Reconcile: every file you move MUST have a ledger row.** A moved-but-unlogged file is indistinguishable from one never read.
 6c. **⏳ PENDING-row guard.** Before reading anything else in the trade surface, **resolve-or-reaffirm every EXECUTION LOG row in `TRADE.md` marked PENDING / ⏳.**
+6d. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" BRENT` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### EXECUTE
 **EXECUTE THE TASK.** *(Deliberately UNNUMBERED — it collided with closeout step 7. Closeout keeps 7-14 because those ARE cited by number: `step 12` = the NEXUS fold, `step 11` = SCRATCH. **Do not renumber.**)*
