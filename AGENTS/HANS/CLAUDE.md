@@ -20,6 +20,9 @@ Primary value: German/EU PMI as ISM leading indicator, ECB/Fed policy divergence
 
 ## SPAWN PROTOCOL
 
+0. **RUN THE BOOT SCRIPT FIRST — `.venv/bin/python AGENTS/HANS/scripts/boot.py`** *(added 2026-08-28)*
+   Live pull + band check · **the NOT-AUTO-PULLABLE perimeter** · registry fire state · key-figure age · predictions due/overdue · live-vector staleness. **~5s.**
+   ⚠️ **Section [2] is the point of the script, not an appendix.** It names every load-bearing series this box **cannot** reach (Bund, both gilts, EU storage, EGB spreads, ECB/BoE rates, PMI). **A clean section [1] does NOT mean the board is clear** — read [2] and check those by hand. *(Ported from ZHAO's boot.py, which exists because ZHAO found a 2.5-month drift on 7/4 and built the fix. HANS found a **6.5-month** drift on 8/28 — BoE carried at 4.50 when it was 3.75 — **by hand**, in a session Will had to spawn. This script is that lesson as a mechanism.)*
 1. **Read `STATUS.md`** — current European macro state, PMI readings, ECB stance, stale-data warnings
 1a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" HANS` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 2. **Execute the task**
