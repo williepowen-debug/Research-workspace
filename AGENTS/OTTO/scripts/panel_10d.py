@@ -237,16 +237,57 @@ def deal_filings(phrase, want):
 
 
 def exhibit_text(cik, accession):
+    """Resolve the EX-99.1 servicer report for an accession.
+
+    ⚠ 2026-08-27: `index.json` began returning an INCOMPLETE directory listing for
+    these filers — only the primary 10-D document plus the index files, with the
+    exhibit ABSENT — while the exhibit itself still resolves 200 at its URL and is
+    still correctly typed `EX-99.1` in the human `-index.html` document table. The
+    old filename-heuristic path therefore matched nothing and fell through to a
+    silent "any .htm" fallback, which returns the 10-D WRAPPER (no data table). Every
+    field then missed, the row was written `OK-PARTIAL` with blanks, and the upsert
+    REPLACED four good rows with empty ones. The positive control passed throughout,
+    because it re-parses a FROZEN LOCAL exhibit and so cannot see a resolution fault.
+
+    Resolution order is now: (1) the `-index.html` document table, keyed on the
+    declared TYPE (`EX-99.*`) rather than on a filename convention; (2) the
+    index.json filename heuristic, kept as a fallback for filers whose index page
+    shape differs. There is deliberately NO third fallback: an unresolved exhibit
+    RAISES, because substituting a different document silently is what caused the
+    data loss."""
     acc = accession.replace("-", "")
-    idx = json.loads(fetch(f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/index.json", 30))
-    names = [i["name"] for i in idx["directory"]["item"]]
-    # exhibit 99.1 carries the servicer report; filename conventions differ by filer agent
+    base = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc}"
+
+    # (1) authoritative: the declared document TYPE in the filing index table
+    try:
+        page = fetch(f"{base}/{accession}-index.html", 30)
+        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", page, re.S | re.I)
+        for row in rows:
+            href = re.search(r'href="([^"]+\.(?:htm|txt))"', row, re.I)
+            if not href:
+                continue
+            cells = [re.sub(r"<[^>]+>", "", c).strip()
+                     for c in re.findall(r"<td[^>]*>(.*?)</td>", row, re.S | re.I)]
+            if any(re.fullmatch(r"EX-99(\.\d+)?", c, re.I) for c in cells):
+                url = "https://www.sec.gov" + href.group(1) if href.group(1).startswith("/") \
+                      else f"{base}/{href.group(1).rsplit('/', 1)[-1]}"
+                return flatten(fetch(url)), url
+    except Exception:
+        pass  # fall through to the filename heuristic
+
+    # (2) fallback: filename convention in the JSON directory listing
+    try:
+        idx = json.loads(fetch(f"{base}/index.json", 30))
+        names = [i["name"] for i in idx["directory"]["item"]]
+    except Exception as e:
+        raise RuntimeError(f"could not resolve exhibit: index.html and index.json both failed ({type(e).__name__})")
     cands = [n for n in names if re.search(r"(ex.?99|exhibit.?99)", n, re.I) and n.endswith((".htm", ".txt"))]
     if not cands:
-        cands = [n for n in names if n.endswith(".htm") and "index" not in n]
-    if not cands:
-        raise RuntimeError("no candidate exhibit in accession")
-    url = f"https://www.sec.gov/Archives/edgar/data/{cik}/{acc}/{cands[0]}"
+        # NO wrapper fallback — see the docstring. Fail loud rather than parse the wrong document.
+        raise RuntimeError(
+            "no EX-99 exhibit resolvable (index.html carried no EX-99 type row and "
+            f"index.json listed only {names!r}) — refusing to substitute the 10-D wrapper")
+    url = f"{base}/{cands[0]}"
     return flatten(fetch(url)), url
 
 
@@ -353,6 +394,17 @@ def main():
                 print(f"  {deal:14s} {fdate}  ERROR fetching exhibit: {type(e).__name__}"); continue
             v, misses = parse(txt, issuer)
             d = derive(v, issuer)
+            # ⚠ 2026-08-27: the ledger upsert is last-write-wins, which silently assumes
+            # the newest write is the better one. A FAILED parse also wins. On 8/27 a
+            # wrong-document fetch wrote all-blank rows over four good EART rows. A row
+            # carrying none of the five headline metrics is a PARSE FAILURE, not a
+            # partial read: report it and DROP it, so the good row on disk survives.
+            headline = ("dq_60plus_pct", "cnl_pct", "anl_pct", "recovery_pct", "ext_rate_pct")
+            if all(d[k] is None for k in headline):
+                print(f"  {deal:14s} {tier:5s} {fdate}  ⛔ PARSE FAILURE — zero of "
+                      f"{len(headline)} headline metrics resolved; row DROPPED, not upserted "
+                      f"(protects any existing row). source={url}")
+                continue
             status = "OK" if not misses else "OK-PARTIAL"
             rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, filing_date=fdate,
                              months_seasoned=months_between(first_date, fdate) if first_date else "",

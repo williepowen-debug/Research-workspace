@@ -35,10 +35,10 @@ run_ts	deal	tier	issuer	filing_date	months_seasoned	dq_60plus_pct	cnl_pct	anl_pc
 2026-08-14T16:19:11	EART 2024-1	DEEP	exeter	2026-04-28	26	9.37	15.53	16.0	31.64	4.88	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826001676/eart2024-1_exhibit991.htm
 2026-08-14T16:19:11	EART 2024-1	DEEP	exeter	2026-05-28	27	9.8	16.12	15.54	34.72	5.11	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826002071/eart2024-1_exhibit991.htm
 2026-08-14T16:19:11	EART 2024-1	DEEP	exeter	2026-06-30	28	10.26	16.7	15.92	30.89	5.71	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826002456/eart2024-1_exhibit991.htm
-2026-08-14T16:19:11	EART 2022-2	DEEP	exeter	2026-07-30	50	14.83	26.59	20.27	27.38	5.13	OK		https://www.sec.gov/Archives/edgar/data/1920761/000092963826002814/eart2022-2_exhibit991.htm
-2026-08-14T16:19:11	EART 2022-3	DEEP	exeter	2026-07-30	48	14.08	27.86	20.17	27.88	5.2	OK		https://www.sec.gov/Archives/edgar/data/1931330/000092963826002815/eart2022-3_exhibit991.htm
-2026-08-14T16:19:11	EART 2023-1	DEEP	exeter	2026-07-30	40	11.81	22.48	20.86	23.05	5.35	OK		https://www.sec.gov/Archives/edgar/data/1964225/000092963826002819/eart2023-1_exhibit991.htm
-2026-08-14T16:19:11	EART 2024-1	DEEP	exeter	2026-07-30	29	10.81	17.22	14.97	29.57	5.96	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826002824/eart2024-1_exhibit991.htm
+2026-08-27T20:02:32	EART 2022-2	DEEP	exeter	2026-07-30	50	14.83	26.59	20.27	27.38	5.13	OK		https://www.sec.gov/Archives/edgar/data/1920761/000092963826002814/eart2022-2_exhibit991.htm
+2026-08-27T20:02:32	EART 2022-3	DEEP	exeter	2026-07-30	48	14.08	27.86	20.17	27.88	5.2	OK		https://www.sec.gov/Archives/edgar/data/1931330/000092963826002815/eart2022-3_exhibit991.htm
+2026-08-27T20:02:32	EART 2023-1	DEEP	exeter	2026-07-30	40	11.81	22.48	20.86	23.05	5.35	OK		https://www.sec.gov/Archives/edgar/data/1964225/000092963826002819/eart2023-1_exhibit991.htm
+2026-08-27T20:02:32	EART 2024-1	DEEP	exeter	2026-07-30	29	10.81	17.22	14.97	29.57	5.96	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963826002824/eart2024-1_exhibit991.htm
 2026-08-14T16:19:11	EART 2022-2	DEEP	exeter	2026-03-03	46	15.33	25.22	22.7	15.97	5.96	OK		https://www.sec.gov/Archives/edgar/data/1920761/000092963826000840/eart2022-2_exhibit991.htm
 2026-08-14T16:19:11	EART 2022-2	DEEP	exeter	2026-01-28	44	14.95	24.86	18.59	23.94	6.67	OK		https://www.sec.gov/Archives/edgar/data/1920761/000092963826000351/eart2022-2_exhibit991.htm
 2026-08-14T16:19:11	EART 2022-2	DEEP	exeter	2025-12-23	43	13.94	24.56	19.22	23.58	6.02	OK		https://www.sec.gov/Archives/edgar/data/1920761/000092963825004752/eart2022-2_exhibit991.htm
@@ -78,3 +78,8 @@ run_ts	deal	tier	issuer	filing_date	months_seasoned	dq_60plus_pct	cnl_pct	anl_pc
 2026-08-14T16:19:11	EART 2024-1	DEEP	exeter	2025-07-25	17	8.84	9.71	13.2	29.62	5.41	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963825002781/eart2024-1_exhibit991.htm
 2026-08-14T16:19:11	EART 2024-1	DEEP	exeter	2025-06-27	16	8.15	9.0	12.01	37.41	5.65	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963825002406/eart2024-1_exhibit991.htm
 2026-08-14T16:19:11	EART 2024-1	DEEP	exeter	2025-05-28	15	8.21	8.33	12.08	35.67	4.66	OK		https://www.sec.gov/Archives/edgar/data/2005087/000092963825002084/eart2024-1_exhibit991.htm
+2026-08-27T20:02:32	SDART 2022-6	BROAD	santander	2026-08-17	46	10.11	12.16	5.78			OK		https://www.sec.gov/Archives/edgar/data/1383094/000119312526352765/d140430dex991.htm
+2026-08-27T20:02:32	SDART 2023-1	BROAD	santander	2026-08-17	42	9.68	10.24	6.15			OK		https://www.sec.gov/Archives/edgar/data/1383094/000119312526352786/d175114dex991.htm
+2026-08-27T20:02:32	SDART 2024-1	BROAD	santander	2026-08-17	30	9.08	9.46	5.69			OK		https://www.sec.gov/Archives/edgar/data/1383094/000119312526352807/d185805dex991.htm
+2026-08-27T20:02:32	BLAST 2024-1	CARVANA	bridgecrest	2026-08-17	30	15.3	25.41	23.5		4.56	OK		https://www.sec.gov/Archives/edgar/data/1974820/000110465926097635/tm2622707d2_ex99-1.htm
+2026-08-27T20:02:32	BLAST 2023-1	CARVANA	bridgecrest	2026-08-17	33	14.8	25.7	20.52		3.93	OK		https://www.sec.gov/Archives/edgar/data/1974820/000110465926097631/tm2622707d1_ex99-1.htm
