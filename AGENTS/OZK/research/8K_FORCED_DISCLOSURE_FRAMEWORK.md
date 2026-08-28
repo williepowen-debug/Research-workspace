@@ -19,7 +19,7 @@ Historical pattern across 2007-2008 AND 2023:
 | Bank | Earnings Date | 8-K Watch Window | Key Risk |
 |------|--------------|-----------------|----------|
 | OZK | Apr 16 | **Mar 25 - Apr 10** | Construction reserves cut 41%, Illinois NPLs, $19B unfunded |
-| WAL | ~Apr 22-24 | Apr 1-14 | Hidden CRE (Memo Item 3), $2.73B reclassified |
+| WAL | ~Apr 22-24 | Apr 1-14 | Hidden CRE (Memo Item 3), ~~$2.73B~~ **$2.55B [6/30/26]** reclassified ⚠️ *[2026-08-28: the $2.73B was a **12/31/25** vintage, superseded — corrected by **WAL**, the owner. State the window: **−6.4% off that peak, but +14% YoY** — the two directions are both true and a bare Δ picks whichever suits. WAL's KB-WAL-002 re-marked same day.]* |
 | EGBN | ~Apr 22-28 | Apr 1-18 | DC federal worker exposure, DOGE deposit risk |
 | ZION | ~Apr 22-24 | Apr 1-14 | CRE concentration |
 | SSB | ~Apr 22-24 | Apr 1-14 | FL exposure, single-name charge-off history |

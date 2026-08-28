@@ -7,6 +7,9 @@
 #   a single lowercase 'frozen' here silently exempted this file from staleness tracking on
 #   2026-08-28 (caught same minute by re-running the tool).
 # Cadence: EVENT-DRIVEN (moves only on a graded print or a Will-approved re-mark) — a gap here is NOT rot by itself.
+# Last re-pull ATTEMPTED: 2026-08-28  (all 9 rows read; 4 OPEN checked against their resolvers — OZK-02/03/04 all
+#   resolve Feb-2027, OZK-09 runs to the Q4'26 print. Nothing was due. 'Absence-expected' certifies nothing unless
+#   somebody provably looked, so this line records that somebody did — it is NOT a claim that data was refreshed.)
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Invalidation	Notes
 OZK-01	2026-02-23	OZK reports CRE charge-offs >5% annualized	55%	H1 2026	RESOLVED	2026-07-21	FALSE	NCO <2% through H1	Apr 16 earnings. Formerly REG-16. | RESOLVES Jul-21 Q2 (H1 close); tracking FALSE — Q1 NCO 0.56% vs invalidation NCO<2%. | STAGE-1 GRADE 7/21 (FDIC FLNG 11969 primary): H1'26 ann NCO 0.63% [Mgmt Comments] <=2.5% Tuesday-proxy (Z7) -> CRE NCO capped <5% -> FALSE. Brier (0.55)^2=0.3025.
 OZK-02	2026-04-22	OZK RESG problem-category share (Office+LifeSci+Land+Hotel) ≥32% of RESG total commitment by Q4 2026	25%	Q4 2026 (resolves at Feb 27 2027 earnings)	OPEN			Problem-category share ≤30% at Q4 2026 print	[CONFIDENCE REVISED 60%→25% on 2026-04-23 — see CHANGELOG.md v1.1, KB-OZK-185.] 6Q historical extract (Q4 24 → Q1 26) showed share metric STABLE in 27-31% band; Q4 24 was actually the high at 30.9%. Linear projection from 2Q window invalidated. Share metric breaching 32% would require structural break, not just continuation. Formerly REG-21.

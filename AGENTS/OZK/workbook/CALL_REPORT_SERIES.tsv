@@ -1,6 +1,7 @@
 # Bank OZK — FFIEC Call Report series. ID_RSSD 107244 (FDIC cert 110), filer type 041. Verified at the FFIEC primary (RetrievePanelOfReporters, 6/30/2026) — RSSD not assumed.
 # Last real data refresh: 2026-08-07 (FIRST-EVER OZK Call Report series pull; FFIEC CDR PWS REST/JWT RetrieveFacsimile SDF) | Next real data: Q3-2026 Call Report ~Nov 2026
 # SCOPE = LOG-ONLY, pre-registered (CALENDAR '~Aug 1-10' row; Z6 never re-grades off this source). NO grade moves, NO threshold moves were made from this file.
+# Last re-pull ATTEMPTED: 2026-08-28 (integrity sweep — series read, no new filing exists: Q3-2026 REPDTE 20260930 is not published until ~Nov 1-10. Cadence: QUARTERLY. A 4-STATUS-write gap here is the FILING CALENDAR, not rot. ⏰ FFIEC JWT expires 2026-11-05 — Will-action renewal, and the Q3 window straddles it.)
 # 12 mission quarters = Scope PRIMARY (2023-09-30..2026-06-30). 6 extra quarters (2022-03-31..2023-06-30) = Scope BASELINE_CHECK, pulled ONLY to test whether the recorded 37.6% MI3 reproduces anywhere. It does not.
 # MI3 = RCON2746 (RC-C Part I Memo 3, 'loans to finance CRE/construction/land NOT secured by real estate, included in items 4 and 9 col B').
 # TWO BASES REPORTED, both labeled: (a) LESSONS.md:18 recipe = MI3 / item-4 C&I (RCON1766); (b) fuller = MI3 / (item 4 + item 9a + item 9b). See CALL_REPORT_2026Q2_LOG.md P-OZK-1 — for OZK the numerator sits in item 9, NOT item 4.
