@@ -110,7 +110,7 @@
 
 | Metric | Current | Yellow | Orange | Red | State |
 |---|---|---|---|---|---|
-| **ISM Mfg PMI** | **55.6 [Jul, rel ~8/03]** | <50 | <48 | **<47** | Well above; registered 8/23 |
+| **ISM Mfg PMI** | **55.6 [Jul, rel ~8/03]** | <50 | <48 | **<47** | Well above. 🔻 **DETERIORATION LEG WEAKENED BY A LEADING INDICATOR [HANS 8/28]:** German Mfg PMI **54.1 (Aug flash, rel. 8/21)** — best since **May 2022**, 7th straight expansion month, beat 52.0 expected. On HANS's **~2-month lead** that maps to **US ISM Mfg holding around October**, i.e. **argues against a sub-49 break as hard as it ever has.** ⚠️ **AND THE SPLIT MUST TRAVEL WITH IT: German SERVICES PMI 48.5 (from 49.8 Jul) is CONTRACTING AND FALLING** — a composite read would mask a two-sided economy, and **my leg is the MANUFACTURING one**, which is the strong half. ⚠️ **HANS's own trigger to me (German Mfg PMI <47 sustained) did NOT fire and it says the sign is wrong for this regime**; it has added a `>52 sustained` companion and self-corrected a 55%-confidence call for a sub-50 July flash that printed 52.2. **No threshold moved here — a leading indicator is an input, not a rule change.** |
 | **ISM Mfg Employment** | **52.8 [Jul]** | <47 | <45 | <43 | NOT FIRED — first print **above 50 after 33 consecutive months below** |
 | **ISM Mfg Prices Paid** | **71.1 [Jul]** | >60 | >70 | >75 | 🟠 **THROUGH ORANGE** — 3rd straight month |
 | VIX | **14.21 [8/28 11:05 IN-FLIGHT, not a close]** | >23 | >28 | >30 sust | NOT FIRED — **~8.8 under** the vol-control trigger |
