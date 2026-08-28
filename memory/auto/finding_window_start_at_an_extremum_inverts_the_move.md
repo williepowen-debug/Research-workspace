@@ -1,12 +1,12 @@
 ---
 name: finding_window_start_at_an_extremum_inverts_the_move
 description: "A change measured from a local peak/trough measures the extremum, not the change — base-rating it as record-extreme CONFIRMS the wrong read. Before grading any move anomalous, price the SAME-LENGTH window immediately before it: if both are sample-record magnitudes in opposite directions, it is a ROUND-TRIP and the net is the real number."
-symptoms: "measured the retrace from the trough · the de-rate reversed so I disarmed it · stopped getting worse recorded as reversed · window start is my own prior write-date · 3 consecutive readings but I chose when to sample · rule counts readings on an analyst-triggered series · series mixes intraday and post-close rows · biggest move on record so I re-armed · the tape proves my retraction was wrong"
+symptoms: "the fix fires on half of all windows · my proposed threshold does not fire on the case it came from · peak-to-latest turned into a rolling-window rule · would have fired on X and is firing now · measured the retrace from the trough · the de-rate reversed so I disarmed it · stopped getting worse recorded as reversed · window start is my own prior write-date · 3 consecutive readings but I chose when to sample · rule counts readings on an analyst-triggered series · series mixes intraday and post-close rows · biggest move on record so I re-armed · the tape proves my retraction was wrong"
 metadata: 
   node_type: memory
   type: finding
   originSessionId: c40db896-5bf5-4a11-97bc-470cf5edd767
-  modified: 2026-08-24T17:00:00.000Z
+  modified: 2026-08-28T16:00:00.000Z
 ---
 
 **Correctly measured, correctly base-rated, and still inverted — because the window started at a peak.**
@@ -97,3 +97,35 @@ VIOLET terminated an elevated-SKEW regime on a **20-day average of 139.86** cros
 
 **⚠️ Symmetry kept honest, again.** HOLD is not vindication and was not written as one. The counter-evidence was carried in the ruling: peak-to-current the complex sits **−25% to −42%** off its peaks against the index's −5% — large, intact, and *itself extremum-anchored*. **The claim was bounded to the present** (*"this is a rotation"* is not *"this will stay one"*), with a **single-number tripwire** naming what would kill it (the equal-weight index turning negative alongside the sector). **A HOLD that names what would change it is a reading; a HOLD that does not is just inertia wearing a rule.**
 
+
+
+---
+
+## ⑤ 2026-08-28 · LIQUID — **the same error CONVERTED INTO A THRESHOLD, where it fails in BOTH directions at once**
+
+**This instance is not "a move mis-measured." It is a peak-anchored magnitude turned into a FIXED-WINDOW RULE — and that compounding is the new half.**
+
+On 8/23 LIQUID found a real blind spot: `GATE-LIQ-076`'s W1 leg keys on a **weekly** delta, so a record position leaving as a multi-week drift is invisible to it. The evidence was **+413,005 contracts covered, 6/30 → 8/18 = −14.0% of the pin**, and the proposed fix wrote that magnitude into a rule: *"OR cumulative net change **≥300,000 over any rolling 8-week window**,"* asserted to *"have fired ~8/04 and be firing now."*
+
+**Base-rated on the full series life (CFTC TFF, n=237 weekly as-of dates, 2022-02-08 → 2026-08-18) the proposal fails TWICE, and the two failures look like opposites:**
+
+| | result |
+|---|---|
+| **Dead-LOUD on history** | `\|Δ8w\| ≥ 300,000` fires **119/229 = 52.0%** of all rolling windows. **The median 8-week change is 311,665 — above the proposed line.** |
+| **Silent on its own case** | rolling-8w was **+255,355 [8/18]** (44,645 short) and **−82,222 [8/04]** — a net *build*. **Both halves of the "would have fired" claim are false.** |
+
+⇒ **ONE root cause. `6/30` is the series RECORD.** A **peak-anchored** magnitude is, by construction, **larger than any fixed window's reading of the same period** — it is a maximum over start dates, not a sample from the distribution of them. So a threshold set from it is **simultaneously too loud on the general tape and too quiet on the episode that produced it.** Those are not two bugs; they are the same bug seen from each side.
+
+> **The rule: a peak-anchored magnitude CANNOT be converted into a fixed-window threshold. If you want a window rule, take the threshold from the DISTRIBUTION of that window's own readings — never from the one reading you noticed.**
+
+**Three things that make this instance worth carrying beyond the arithmetic:**
+
+- ★ **The defect was authored FOUR DAYS BEFORE the same desk was caught on the sibling.** BOND caught LIQUID's WRESBAL instance on 8/27 (*"−$207B in five weeks"* measured from the **7/15 series maximum**); LIQUID had already written this one on **8/23**. **It then survived LIQUID's own 8/27 correction pass** — because that pass fixed the *instance* and never swept for *siblings*. `[[finding_a_correction_pass_is_unreviewed_work]]` **read in the other direction: the surfaces a correction did NOT touch are exactly where the same defect is still sitting. When you accept one of these, grep your own recent writes for the pattern before closing it.**
+- ★ **The proposal was made INSIDE a packet whose entire subject was another instrument's calibration failure**, by a desk that had killed three dead bands in the preceding six days. **Detecting the class does not immunise you against authoring it.** The detector and the author are different capabilities.
+- ★ **The finding SURVIVED the death of its fix, and separating them is the discipline.** W1 really is blind to an orderly multi-week exit — still true, measured. What died is *this particular repair*. **Killing a bad fix is not retracting the finding, and conflating them would have buried a real blind spot along with a bad threshold.**
+
+**⇒ Two checks, both cheap, at the moment you propose any window/cumulative rule:**
+1. **Base-rate it over the instrument's full history before writing it down** — a rule the *median* window satisfies is not a rule. Compare against the tail rate of the leg it sits beside (here: the weekly leg fires 5.51%, p95 = 312,882 — correctly calibrated; the proposal was 52%).
+2. **Re-run it on the episode that motivated it.** If the motivating case does not fire, your measurement and your rule are computing different quantities — and that is the tell, before any base rate.
+
+⚠️ **And the scale-invariant "fix" is often worse, so name it as rejected rather than leaving it available:** normalising to *% of the prior level* looked conservative and is not, because this series' net position **swings through zero** — median `\|Δ8w\|` = **56.2%** of the prior position, p95 = **385.6%**. **A ratio whose denominator can approach or cross zero has a discontinuity inside its own operating range.** *(Same session, same desk: the identical objection retired a `1.44× sub-beta` retention ratio once one leg went negative.)*
