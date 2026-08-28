@@ -50,7 +50,7 @@
 |---|---|---|---|---|---|---|
 | CREED | Market | L3 | H | 2026-08-20 | National CRE / CMBS | Packet ROUTED 8/20 w/ 3 Will rulings (pointer pass APPROVED · T-08a bas… |
 | DEWEY | Utility | L4 | M | 2026-08-07 | Deep on-demand research | CONTRACT block → L5 candidate |
-| HANS | Market | L3 | H | 2026-08-28 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | L4 when: (a) one HANS signal consumed downstream (WALTER re-cuts livene… |
+| HANS | Market | L4 | H | 2026-08-28 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | L5 legs: (a) clean closeouts sustained ≥2 cycles (ledger nudge clean, S… |
 | OTTO | Market | L4 | H | 2026-08-17 | Auto-industry fraud & stress | L5 blockers unmoved (OTTO-07 OPEN 15%, Dec-31 EDGAR-FTS re-instrument) |
 
 ## ⚪ DORMANT — revive only on explicit need
