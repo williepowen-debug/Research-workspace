@@ -103,6 +103,18 @@ def fleet_desks():
     return desks
 
 
+def _resolve(home, tok, charter):
+    """Resolve a file token: as written relative to home, else by basename anywhere shallow in home."""
+    cand = os.path.normpath(os.path.join(home, tok.lstrip("./")))
+    if not os.path.isfile(cand):
+        cand = None
+        for dp, dn, fn in os.walk(home):
+            dn[:] = [d for d in dn if d not in ("archive", "_archive", "processed", "inbox", "outbox")]
+            if os.path.basename(tok) in fn:
+                cand = os.path.join(dp, os.path.basename(tok)); break
+    return cand if cand and cand != charter else None
+
+
 def boot_reads(name):
     """(files, perimeter_note) — the boot-mandated whole-read set found in the charter."""
     home = desk_home(name)
@@ -119,6 +131,7 @@ def boot_reads(name):
                   and (len(lines[j]) - len(lines[j].lstrip("#"))) <= lvl), len(lines))
         spans.append((s, e))
     found = {}
+    scoped_overcap = {}
     scanned = 0
     skipped_on_demand = 0
     skipped_scoped = 0
@@ -162,16 +175,14 @@ def boot_reads(name):
                     continue
                 if any(k in before[rp:] or k in after for k in SCOPE_MARKERS):
                     skipped_scoped += 1
+                    # READ_CAP rule 8 (WALTER): a scoped read of an over-cap file is a PARTIAL fix —
+                    # the read is honest, the file is not lean. Keep it visible, never counted.
+                    sc = _resolve(home, tok, charter)
+                    if sc and os.path.getsize(sc) >= CAP_BYTES:
+                        scoped_overcap[sc] = f"boot-step line {i+1}"
                     continue
-                # resolve: as written relative to home; else basename anywhere shallow in home
-                cand = os.path.normpath(os.path.join(home, tok.lstrip("./")))
-                if not os.path.isfile(cand):
-                    cand = None
-                    for dp, dn, fn in os.walk(home):
-                        dn[:] = [d for d in dn if d not in ("archive", "_archive", "processed", "inbox", "outbox")]
-                        if os.path.basename(tok) in fn:
-                            cand = os.path.join(dp, os.path.basename(tok)); break
-                if cand and cand != charter:
+                cand = _resolve(home, tok, charter)
+                if cand:
                     found[cand] = f"boot-step line {i+1}"
     status = os.path.join(home, "STATUS.md")
     if os.path.isfile(status):
@@ -181,6 +192,7 @@ def boot_reads(name):
             f"boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)")
     if not spans:
         note = "perimeter: NO boot/spawn section heading found in CLAUDE.md — only STATUS.md assumed; " + note
+    boot_reads.scoped_overcap = {k: v for k, v in scoped_overcap.items() if k not in found}
     return found, note
 
 
@@ -213,6 +225,10 @@ def check_agent(name, quiet=False):
         print(f"READ-CAP [{name}] — cap {CAP_BYTES:,} B · budget {BUDGET_BYTES:,} B (60%) · {note}")
         for mark, rel, b, util, why, src in rows:
             print(f"  {mark} {rel:<34}{b:>9,} B  {util:>5.0%} of cap  {why}  ({src})")
+        for sp, src in sorted(getattr(boot_reads, "scoped_overcap", {}).items(), key=lambda kv: -os.path.getsize(kv[0])):
+            b = os.path.getsize(sp)
+            print(f"  ℹ️ {os.path.relpath(sp, desk_home(name)):<34}{b:>9,} B  {b / CAP_BYTES:>5.0%} of cap  "
+                  f"scoped read on an OVER-CAP file — honest read, not lean (READ_CAP rule 8: partial fix; not counted)  ({src})")
         if rc:
             print(f"⚠️  READ-CAP 1 [{name}]: {n_over_budget} boot-mandated read(s) over budget, "
                   f"{n_over_cap} over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, "
