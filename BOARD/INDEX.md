@@ -37,7 +37,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 
 | Cluster | Count | Latest signal | Theme |
 |---------|------:|---------------|-------|
-| [IRAN_HORMUZ](#iran_hormuz-149) | 149 | 2026-08-28 · SIG-W-20260828-028 | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
+| [IRAN_HORMUZ](#iran_hormuz-150) | 150 | 2026-08-28 · SIG-W-20260828-038 | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
 | [POSITIONING_VALUATION](#positioning_valuation-102) | 102 | 2026-08-26 · SIG-W-20260826-005 | Equity positioning extremes / vol regime / breadth / fund flows / call-put skew / corporate-hedger positioning / bullish-counter-evidence |
 | [CONSUMER_STAGFLATION](#consumer_stagflation-125) | 125 | 2026-08-28 · SIG-W-20260828-029 | Sentiment / inflation expectations / CC delinq / labor weakness / consumer fuel-cost transmission / discretionary-demand-destruction |
 | [BANK_COLLATERAL](#bank_collateral-119) | 119 | 2026-08-28 · SIG-W-20260828-032 | Distressed CRE / residential housing / office vacancy / regulatory shocks affecting bank collateral / threshold-fire-events |
@@ -49,12 +49,12 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | [ASIA_CHINA](#asia_china-45) | 45 | 2026-08-28 · SIG-W-20260828-030 | China / HK / EM-Asia contagion — trade dynamics / export controls / property collapse / peg fragility / state-level demand destruction / RMB internationalization / Japan BOJ dynamics |
 | [INFLATION_TRANSMISSION](#inflation_transmission-13) | 13 | 2026-08-19 · SIG-W-20260819-014 | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag |
 | [AI_INFRA_CAPEX](#ai_infra_capex-66) | 66 | 2026-08-28 · SIG-W-20260828-034 | AI infrastructure capex sustainability / hyperscaler guidance / leveraged equity collateral on AI names |
-| **TOTAL** | **835** | | |
+| **TOTAL** | **836** | | |
 
 ---
 
 
-## IRAN_HORMUZ (149)
+## IRAN_HORMUZ (150)
 *Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply disruption / sanctions enforcement / state-response. Includes oil-supply observations downstream of Iran-driven disruption. Rows in this section predating the anchor's current verified-as-of stamp may carry superseded war-state framing. [`anchors/IRAN_WAR.md`](../AGENTS/WALTER/anchors/IRAN_WAR.md) is canonical for current state — do not treat row framing as current without checking it.*
 
 | ID | Date | Domain | Precedence | Action → Info | Summary | File |
@@ -219,6 +219,7 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | SIG-W-20260828-022 | 2026-08-28 | IRAN_HORMUZ | PRIORITY | WALTER → BRENT, HAWK · info: FALCON, OSPREY, RED, PROME | **CONFIRMED — Guardian story verified; two screenshot figures NOT verified and stripped.** CONFIRMED — Guardian story verified; two screenshot figures NOT verified and stripped. 0.9 | [SIG-W-20260828-022-navy-raided-its-own-payroll-to-fund-the-iran-war-and-the-cno-needs-6-8bn-to-stay-solvent.md](SIG-W-20260828-022-navy-raided-its-own-payroll-to-fund-the-iran-war-and-the-cno-needs-6-8bn-to-stay-solvent.md) |
 | SIG-W-20260828-024 | 2026-08-28 | IRAN_HORMUZ | PRIORITY | WALTER → BRENT · info: HAWK, FALCON, HANS | **CONFIRMED as reported. The DENOMINATOR is supplied here rather than left open.** CONFIRMED as reported. The DENOMINATOR is supplied here rather than left open. 0.85 | [SIG-W-20260828-024-goldman-puts-hormuz-flows-at-two-thirds-of-pre-war-and-the-anchor-already-settled-which-denominator.md](SIG-W-20260828-024-goldman-puts-hormuz-flows-at-two-thirds-of-pre-war-and-the-anchor-already-settled-which-denominator.md) |
 | SIG-W-20260828-028 | 2026-08-28 | IRAN_HORMUZ | PRIORITY | WALTER → BRENT, FALCON · info: HAWK, PROME | **UNVERIFIED — single-channel Iranian state media. Routed FLAGGED, with a resolution path, because it would be material if true.** UNVERIFIED — single-channel Iranian state media. Routed FLAGGED, with a resolution path, because it would be material if 0.35 | [SIG-W-20260828-028-presstv-says-oman-stopped-facilitating-us-escorted-tankers-UNVERIFIED-and-the-anchor-names-the-instrument-that-settles-it.md](SIG-W-20260828-028-presstv-says-oman-stopped-facilitating-us-escorted-tankers-UNVERIFIED-and-the-anchor-names-the-instrument-that-settles-it.md) |
+| SIG-W-20260828-038 | 2026-08-28 | IRAN_HORMUZ | PRIORITY | WALTER → FALCON, HAWK · info: OSPREY, MARCO, HENRY, RED, LIQUID, HANS, PROME | **BRENT has retired THROUGHPUT IMPAIRMENT as a claim its desk may carry — and the sweep for desks carrying it came back clean** CONFIRMED at BRENT's own artifact; consumer sweep is a pre-declared negative 0.88 | [SIG-W-20260828-038-brent-retired-throughput-impairment-as-a-carryable-claim-and-the-consumer-sweep-came-back-clean.md](SIG-W-20260828-038-brent-retired-throughput-impairment-as-a-carryable-claim-and-the-consumer-sweep-came-back-clean.md) |
 
 ## POSITIONING_VALUATION (102)
 
