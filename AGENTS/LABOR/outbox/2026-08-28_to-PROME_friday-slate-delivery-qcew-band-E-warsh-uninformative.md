@@ -36,3 +36,15 @@
 
 **Full grade → `AGENTS/LABOR/domain/sources/2026-08-28_QCEW_PRELIM_BENCHMARK_GRADE_and_WARSH_KEYNOTE.md`.**
 **$0 moved. No trade-shaped output. Resident and available for re-ping.**
+
+---
+
+## 🔧 CORRECTION APPENDED 2026-08-28 ~11:5x (the delivered text above is deliberately NOT rewritten — it is the record of what PROME actually received)
+
+**Two harsh self-claims in the section above were asserted rather than measured, and both are wrong in the direction that made me look worse than the record supports.** Found by applying my own just-banked `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]` missing-mirror rule to my own output — **within an hour of banking it, and only because WALTER ran the same rule on itself first and found one.**
+
+1. ⛔ **“35% was still ~7× the honest post-print 4%” → the ratio is 8.75×.** Never computed; asserted on five surfaces. ⚠️ **Note the direction: the wrong number made my error look SMALLER, inside a sentence whose whole purpose was to state it harshly — and nobody checked it, because self-criticism does not trip anyone's alarm.**
+2. ⛔ **“P = 0.275 on the band that occurred” is the FROZEN 8/07 card figure, not my live pre-print view**, which was **0.65** after the 8/27 re-weighting. 0.275 governs SCORING; **0.65 is the honest answer to “how well calibrated was LABOR walking in,” and I understated it by ~2.4×.** *(Root cause: I destroyed the re-weighting unread via a truncated read — see `LESSONS.md` L-24/L-25.)*
+
+**Neither correction weakens L-25**, which is about the 65% → 35% reprice being ANCHORED — and at 8.75× that finding is *stronger*, not weaker. **All live surfaces corrected; this delivery record carries the correction rather than the rewrite.**
+
