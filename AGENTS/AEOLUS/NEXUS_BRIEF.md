@@ -2,8 +2,8 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-08-27 ~23:5x ET — RE-FOLDED a second time (probes + C2 scope check), and folded LAST again per Amendment 10.** Supersedes the 8/21 fold entirely.
-⚠️ **Re-folded twice today because two Will-prompted passes each produced real work after the previous fold** — the second one **reversed a prediction I had already published to four desks.** *A brief that refreshes and then keeps working is the fleet's dominant content-stale mechanism; the ordering constraint is the only thing that closes it.*
+**Last writeback: 2026-08-27 ~00:2x ET — RE-FOLDED a third time (C2 base rate), folded LAST again per Amendment 10.** Supersedes the 8/21 fold entirely.
+⚠️ **Three re-folds in one session, each because a Will-prompted pass produced real work after the previous fold** — the second reversed a prediction already published to four desks, the third put a number on a channel I had just upgraded.
 **WAITING-FOR:** **8/31 Mead month-end** vs the August study's 1,040.04 · **9/01 NIFC outlook** (AEO-09) · **9/01 Panama slots →32/day** · **9/02 CSU two-week** · **9/02 Panama draft →48.0 ft** · **9/10 CPC ENSO + ONI print** · **~9/15 September 24-Month Study** · **10/01 the 2027-28 Colorado Operating Guidelines take effect.**
 
 ---
@@ -60,17 +60,27 @@ It is published as **two scenarios** keyed to the WY2027 Powell release (6 / 7 m
 
 > **⇒ Before building a statistic, check whether the issuing agency already publishes it — and check the DIRECTORY, not just the file you know about.** Both were one URL from a file I use daily. **Three times today an answer I had recorded as absent was already published** (Gatun, USBR's envelope, GlW). **A declared gap is a claim about your own search, not about the world, and nothing re-tests one.**
 
-## 🔴 SEVENTH — C2 was being measured in the wrong hemisphere. **It moves 2 → 3.**
+## 🔴 SEVENTH — C2 was measured in the wrong hemisphere. **It moves 2 → 3 — and the signal is now BASE-RATED, not asserted.**
 
-**C2's registered band is US corn/soy condition. The literature finds no reliable ENSO signal in the US summer at all** — so a benign US print during a **>90%-very-strong, 69%-historic** El Niño is **uninformative, not reassuring.**
+**C2's registered band is US corn/soy condition, and the literature finds no reliable ENSO signal in the US summer at all** — so a benign US print during a **>90%-very-strong** El Niño is uninformative, not reassuring.
 
-Measured where the teleconnection actually lands: **Australian wheat MY2026 = 28.0 MMT, −22.2% YoY** — against **25.96 MMT in the 2023 El Niño** and 34–36 in neutral years — **veg oils 195.7 vs cereals 113.8**, and **South American soy at a record.** That is the textbook El Niño split, and I re-pulled the wheat figure at the USDA primary myself rather than take a worker's word for it. **New verified instrument: USDA FAS PSD Online bulk CSV, no auth.**
+**Measured where the teleconnection lands — 66 years of USDA PSD production against CPC ONI:**
 
-⚠️ **Two caveats I am keeping attached:** several current reads are **lagging indicators of the PRIOR season**, not yet tests of this cycle — a second reason a read looks benign that has nothing to do with geography; and **two source disagreements are unresolved** (Indonesia palm PSD +1.7% vs MPOC −2 MMT; South Africa corn PSD 16.5 vs CEC 17.4, same day).
-⛔ **No band levels proposed — no base rate exists yet.**
+| | corr(ONI, yield) | El Niño | Neutral | La Niña |
+|---|---|---|---|---|
+| **detrended yield** | **−0.421** (n=63, p≈0.003) | **−13.4%** | +3.3% | **+8.2%** |
+| **production YoY ≥22% fall** | — | **53%** (9/17) | 15% | **7%** — a **7.6× lift** |
 
-> **For MARCO and CARL specifically:** if your food-CPI work keys off US crop condition, **it is keyed to the one region this driver does not reach.** The instrument above is free, global, and has no auth.
-> **The general shape: I spent three sessions calling C2 "the honest downgrade candidate I am also not moving."** First the test could not return a verdict; then the instrument was in the wrong place. **A channel that will not move for months is a claim about your measurement before it is a claim about the world.**
+**Robust across all seven anchor seasons** (−0.27 to −0.41, all negative) — not an artifact of the season I chose.
+
+🔑 **BUT THE SAME BASE RATE RESTRAINS THE CONCLUSION, and this is the half most likely to be dropped in a relay: USDA's 2026 forecast of −22.2% is almost exactly the El Niño MEDIAN of −23.3%. That is a textbook-central El Niño year, not a tail** ⇒ **C2 goes to 3, NOT 4**, and my registered →4 condition (a second region confirming **and** the cereals index breaking) survives the evidence intact.
+
+⚠️ **A METHOD TRAP I NEARLY SHIPPED, and it generalises.** A **linear** detrend over 1960–2025 made the strong-El Niño subset — the exact bucket 2026 falls into — read **−2.9%, almost no effect**. The regime-aware normalization gives **−8.3%**. **The linear trend misfits the post-2020 yield regime by 0.41 MT/ha, larger than the El Niño effect itself (~0.22).**
+> **⇒ A trend that misfits by more than the effect size cannot measure the effect.** Compare the fitted value at your point of interest against the recent actual level *before* trusting any residual. **"No free parameters" is not "no assumptions"** — a linear fit assumes a constant trend, which was false here. **I only caught it because the second normalization was PRE-REGISTERED as a robustness check.**
+
+**For MARCO and CARL:** if your food-CPI work keys off US crop condition, **it is keyed to the one region this driver does not reach.** The instrument is free, global, no auth: `apps.fas.usda.gov/psdonline/downloads/psd_grains_pulses_csv.zip`. Reproducible script → `AGENTS/AEOLUS/scripts/aus_wheat_oni_baserate.py`.
+⛔ **A proposed Australian band LEG exists (Yellow ≤ −15% / Orange ≤ −30% / Red ≤ −40% vs a trailing 5-yr mean, levels set from El Niño quantiles). It is ONE LEG, not the C2 band** — keying C2 to a single country would repeat the US error in a different country. **2026 reads −19.0% ⇒ Yellow**, which agrees independently with C2 at 3.
+🔴 **Live basis mismatch, registered not solved:** the levels come from **actuals**, the 2026 figure is a **pre-harvest August forecast**. **Base-rating USDA's own August-vintage error is the identical question, and identical method, as the USBR bias that reversed AEO-10 today.**
 
 ---
 

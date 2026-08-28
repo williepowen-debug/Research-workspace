@@ -45,6 +45,22 @@
 ⚠️ **The worker's best caveat — carry it:** several "current" reads are **lagging indicators of the PRIOR season**, not yet tests of this El Niño cycle. **A second reason a read looks benign that has nothing to do with geography.**
 ⚠️ **Two source disagreements flagged and UNRESOLVED:** Indonesia palm (PSD +1.7% vs MPOC −2 MMT) and South Africa corn (PSD 16.5 vs CEC 17.4 MMT, same day).
 
+### ✅ C2 STEP (1) DONE — Australian wheat base-rated against ONI (Will-directed)
+
+**The signal is REAL and significant. The 2026 forecast is the CENTRAL CASE, not a tail.** Both halves matter.
+- **corr(ONI ASO, detrended Aus wheat yield) = −0.421** (regime-aware) / −0.365 (linear), **n=63–66, p≈0.003**. **Robust across all seven anchor seasons** (−0.27 to −0.41, all negative) — **not an artifact of my season choice.**
+- **Conditional yield:** El Niño **−13.4%** · Neutral +3.3% · La Niña **+8.2%**.
+- **Production YoY (normalization-free):** El Niño **median −23.3%**, and **9 of 17 (53%) fell ≥22.2%** vs Neutral 15% and La Niña 7% — **a 7.6× lift.**
+- 🔑 **USDA's 2026 −22.2% ≈ the El Niño median −23.3%. A textbook El Niño year, not a catastrophe** ⇒ **this does NOT support C2 → 4.** The registered →4 condition (second region + cereals breaking) **survives intact.**
+- **2026 will classify STRONG:** MJJ **+1.39** already exceeds 1987/1997/2015 (+1.11/+1.13/+1.19), all of which reached ASO ≥ +1.49. ⚠️ **But ASO 2026 is NOT YET PUBLISHED** — the classification is a projection.
+
+⚠️ **THE METHOD TRAP I NEARLY SHIPPED (KB-102).** A **linear** detrend over 1960-2025 made the strong-El Niño subset (1965/1997/2015/2023) read **−2.9% — almost no effect**, with 1997 positive. The **regime-aware** normalization gives **−8.3%**. **Cause: the linear trend fits 2.27 MT/ha at 2026 while the 2020-25 actual mean is 2.68 — a misfit of 0.41, LARGER THAN THE EL NIÑO EFFECT ITSELF (~0.22).** ⇒ **A trend that misfits by more than the effect size cannot measure the effect.** **I only caught it because the second normalization was PRE-REGISTERED as a robustness check** — otherwise I would have stopped at the first answer and published "strong El Niños are barely worse than neutral" about the exact subset 2026 falls into.
+
+### 🔧 NEXT ON C2 — steps (2) and (3), and one new registered item
+**(2) A SECOND REGION.** Base-rate SE Asian palm / Indian monsoon / southern African maize the same way before →4. **One region is not the channel** — keying C2 to Australia alone would repeat the US error in a different country.
+**(3) THEN levels.** ✅ **A proposed Australian LEG now exists** (KB-103), levels set from **El Niño quantiles, not invented**: metric = production vs its **trailing 5-yr mean** (real-time computable — no centered window, no trend fit); **Yellow ≤ −15%** (El Niño median) · **Orange ≤ −30%** (p25) · **Red ≤ −40%** (p10). **2026 reads −19.0% ⇒ YELLOW**, which agrees with C2 at 3 — a mutual check, not a coincidence. **The other legs stay DEFERRED, unbase-rated.**
+🔴 **(NEW) BASE-RATE USDA'S OWN AUGUST-VINTAGE FORECAST ERROR for Australian wheat against final actuals.** The 28,000 is a **pre-harvest forecast** (harvest is Nov–Dec) graded against a band built from **actuals** — a live basis mismatch. **This is the identical question and identical method as the USBR 24-Month-Study bias solved today (KB-097), which found +2.19 ft and reversed a prediction.** Assume nothing about the sign until measured.
+
 ### 🔧 NEXT ON C2 — it is now the live analytical thread
 ⛔ **Do NOT set band levels yet: no base rate exists.** The worker correctly deferred them, per my own rule. **Order: (1)** base-rate Australian wheat against ONI/RONI across the PSD series — **the 2023 analogue is already in-series (40.5 La Niña → 25.96 El Niño → 34–36 neutral)**; **(2)** get **one more region confirming** before →4; **(3)** only then propose levels.
 **The re-scope is Option C from the report:** keep US G/E as a **labelled US-only CPI-bridge line**, add a **global physical-condition leg** as the driver instrument — **physical, not price, because price is stage 2 of C2's own mechanism**, and a price index would confirm the transmission rather than detect the driver.
