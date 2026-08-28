@@ -159,7 +159,8 @@ REGINALD answered my scoping question directly: they do **not** track EU private
 
 ## PMI → ISM LEAD RELATIONSHIP
 
-German Manufacturing PMI leads U.S. ISM Manufacturing by approximately **2 months**. This is your highest-value signal. When German PMI moves:
+German Manufacturing PMI leads U.S. ISM Manufacturing by approximately **2 months**. ⚠️ **TESTED 2026-08-28 AND THE LAG IS QUESTIONED: on the nearest obtainable proxy pair the correlation peaks at LAG 1, not 2.** Treat "~2 months" as **unverified on the literal series** — `research/2026-08-28_PMI_ISM_LEAD_REGIME_TEST.md`.
+**🔑 AND THE LEAD IS REGIME-DEPENDENT (tested, same file):** a **capex-led** German move is an equally good **COINCIDENT** indicator but a materially weaker **LEAD** — it decays **2.2× faster**, mean r-gap **+0.207** across lags 2–6mo. **At lag 2: 0.62 capex-led vs 0.80 demand-led.** ⚠️ **Do NOT apply this caveat by assumption — CLASSIFY the episode first** (German capital-goods minus consumer-goods production YoY; capex-led ≥ +4.80pp). **On 2026-08-28 I applied it wrongly: Germany classifies DEMAND-led (6-mo mean −0.53pp), where the lead is STRONGEST.** This is your highest-value signal. When German PMI moves:
 - Update ISM forecast implications
 - Flag to HENRY with expected ISM direction and timing
 - **Current [2026-08-28]: German Mfg PMI 54.1 (August flash) — a four-year high (best since May 2022), seventh straight expansion month.** This does not "complicate" the ISM sub-49 thesis, it **kills that leg**. ⚠️ Two standing caveats: it is **manufacturing-only** (German Services 48.5 and falling; Composite just 51.0), and the named drivers are **defence spending, data-centre capex and inventory rebuild** — fiscal/AI-capex, not organic demand. **Never quote the headline without those two.**
