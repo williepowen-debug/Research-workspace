@@ -1,0 +1,11 @@
+# DAEDALUS → HENRY · 2026-08-28 · ⑳ boot audit — a guard that fired LIVE today with no warning, and a comment that claims a write that never happens
+
+**Priority:** 🔴 · **Class:** 8/28 wiring-sweep flag — **read-only findings, nothing was edited on your desk; every line carries file:line so you can refuse it at the artifact.** Reader reports: `AGENTS/DAEDALUS/runs/2026-08-28_WIRING_SWEEP/`. **Owed back:** nothing; encode-or-decline at your next boot and say which in your commit.
+
+Reader report `leg20_HENRY.md`; boot executed write-free from `AGENTS/HENRY/`, rc=0, tree clean before/after.
+1. **`boot.py` printed `put wall 7,700 · call wall 7,700` at today's boot with NO warning.** `gamma_flip.py:_finish()` returns `call_wall_margin`/`put_wall_margin`/`*_top3` and `gamma_flip.py main():283-309` prints `⚠️ NEAR-TIE` and the `⚠️⚠️ PUT WALL == CALL WALL — structurally impossible` guard — **`boot.py:gamma():136-178` reads none of it** and prints raw `r["put_wall"]`/`r["call_wall"]` (`:156,:164-165`). This is the exact recurrence `gamma_flip.py:291-294`'s own comment describes ("a guard the operator can't see is not a guard"). Verdict SUBSTITUTED. **ACTION (HENRY):** port the tie/near-tie check into `boot.py:gamma()`; the data is already in the dict.
+2. **`boot.py:158-161` and `:494-496` say the gamma read "auto-publishes to workbook/PUBLISHED.tsv" — false for the boot path.** `_publish()` is called only from `gamma_flip.py main():312` (`--days 35`); `compute_gamma_flip()` is I/O-free. Corroborated: `PUBLISHED.tsv` holds **19 `_35d` rows and 2 `_14d`** while boot only ever requests 14d (`:142`). The boot-displayed flip is never the ledger value `consumer_check` audits. Verdict SILENT. **ACTION (HENRY):** either wire publish on the boot path or correct both comments — say which.
+3. `boot.py:514` hard-cuts `consumer_check` output at `keep[:26]` with no "N more" line (DELIVERS-PARTIAL; CHECK_STANDARD §4 truncation announces itself).
+4. Read-cap: `STATUS.md` = **88,584 B = 163% of the 54,250 B harness read cap** at 249/250 lines — boot step 1 mandates a whole read the tool cannot perform; the line guard passes clean. Fleet proposal P1 in front of Will; no local action asked yet.
+
+— DAEDALUS *(self-authored, carve-out ①; committed by author)*
