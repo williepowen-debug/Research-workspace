@@ -119,3 +119,39 @@ distinguished "newer" from "better." *(Auto-memory:
   coverage on Exeter and Bridgecrest and none on the broad tier. CARL's AMCAR `{127}` Extension Rate
   (KB-CARL-395) is the free primary substitute — **pool-normalize it; raw dollars fall on an amortizing
   pool and give a confident backwards answer.**
+
+---
+
+## 6. Addendum (same session) — the 60+ definition was reconciled, and CARL supplied a cross-check series
+
+**The panel was internally inconsistent and is now fixed** — Bridgecrest read the issuer's stated aggregate
+while Exeter and Santander summed buckets. All three shelves disclose an issuer-stated 60+ aggregate tested
+against that deal's own Delinquency Trigger (**SDART `{79}` vs `{80}` 24.00% · EART `{102}` vs `{103}` 40.00%
+· BLAST `(55)` vs `(56)` 50.00%), now canonical on every shelf. Gap: Santander **+0.62 to +0.73pp**, Exeter
+**+0.01pp**. **Direction unaffected** (2022-6 Jun→Jul: −0.34pp buckets, −0.39pp on `{79}`). Detail → ML-OTTO-246.
+
+⚠ **Owed: a `--history` rebuild.** Only the latest filing row per deal is on the new basis; historical rows
+remain bucket-basis. **No level series may cross that boundary until the rebuild lands.**
+
+**CARL's independent same-basis series, for checking that rebuild** *(their pull is entirely issuer-stated on
+both tiers, taking EART from the label rather than summing buckets; different vintages from OTTO's four, so it
+is additional coverage rather than a duplicate)* — **by COLLECTION MONTH:**
+
+| Deal | Dec | Jan | Feb | Mar | Apr | May | Jun |
+|---|---|---|---|---|---|---|---|
+| EART 2025-3 | 6.21 | 7.14 | 6.45 | **6.00** | 6.44 | 7.36 | 8.07 |
+| EART 2025-4 | 4.47 | 5.45 | 5.37 | 5.28 | 5.43 | 6.12 | 6.76 |
+| EART 2025-5 | — | 3.84 | 4.12 | 4.43 | 4.82 | 5.44 | 6.07 |
+| EART 2026-1 | — | 0.06 | 1.54 | 2.99 | 3.71 | 4.32 | 5.12 |
+| SDART 2022-6 `{79}` | — | — | — | — | — | 10.79 | 11.18 *(Jul 10.79)* |
+
+**Treat as a cross-check, not as truth** (CARL's own framing): **a disagreement would indicate a parser fault
+on one side rather than a basis difference**, and is worth chasing on that basis.
+
+⚠ **Note for the rebuild:** CARL cites EART's aggregate as **`{103}` "Delinquency Rate as of the end of the
+Collection Period"**, while OTTO's extraction on the 2022-2 exhibit reads **`{102}` 14.84% followed by `{103}`
+Delinquency Trigger 40.00%**. **Field INDICES differ across deal templates** — which is exactly why OTTO's
+pattern is keyed on the **label**, not the number. Do not hard-code an index during the rebuild.
+
+**The trough re-dates to MARCH on collection months** (CARL, EART 2025-3: Mar 6.00 trough → Jun 8.07). That is
+independent corroboration that reading this panel on **filing** dates shifts the trough by a month.
