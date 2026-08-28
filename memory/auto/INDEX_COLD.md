@@ -85,6 +85,7 @@
 - finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch — a trigger that CANNOT fire; re-run reachability on the AMENDED text (n=4)
 - finding_pre_register_against_the_carrying_filing — Pre-register a threshold against the FILING/SOURCE that carries the metric
 - finding_anchor_prediction_to_surprise_not_priced — anchor event→reaction to the SURPRISE-vs-pricing, not an already-priced outcome
+- finding_continuation_hits_are_not_calibration — split a prediction book's hit rate by CONTINUATION vs TURN
 - finding_thin_liquidity_prediction_market_discipline — thin prediction-market single prints aren't "holds"; cross-verify (≥3d)
 - finding_calibration_discount_regime_conditional — an earned calibration discount is conditional on its pricing regime
 - feedback_two_way_read_directional_clarity — When presenting a \two-way read\" or scenario branches"
