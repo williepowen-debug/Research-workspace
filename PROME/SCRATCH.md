@@ -13,6 +13,8 @@
 
 **4. EXECUTED TODAY (do not re-present):** slate ✓ · wave 2 ✓ (6 STATUS rotations under P1) · wave 3 ✓ (14 stale DOCKET rows resolved from owner reports) · rows 89/108/110/113 CLOSED · root P1 line COMMITTED · GATE-FLG-T08 registered · GATES 35B/076/079/069/REKILL/REG-T02/VIO-RV1 written · T3 v2 registered (9/23) · INDEX_COLD 95→72% · hot index 75→<70% (3 rows demoted) · HEARTBEAT re-based (6th pull-forward; cold-reader run) · 2 FORGE fixes (eia_fetch route key · price_fetch string guard) · walter-0828/BRENT/CREED/MIDAS/LABOR/HENRY/LIQUID/NEXUS all closed + verified on origin + stopped.
 
+**5. POST-CLOSE DOORBELL (16:3x, rule 6b — TRIAGED ③, no spawn, no Will item):** FLG → DAEDALUS packet `03687d7c7` (P1 checker excludes the auto-loaded charter; FLG 26,500 B = 81%; 18 charters ≥32,550 B on disk, WALTER 71,776 top) — **canon already rules it OUT** (`READ_CAP.md` row `CLAUDE.md`: context cost, not truncation) and a positive control refutes the truncation clause (root `CLAUDE.md` 35,836 B auto-loads whole). PROME's reply packet is in DAEDALUS's inbox beside FLG's. Registry fuse-residue grep (Q2-2027 / 12-month fuse) came back clean — GATES row 40 already carries the phase-in. ⚠️ DAEDALUS dark; nothing dated hangs on it (READS.tsv R7-stage-2 ~9/14 is the referent).
+
 ## ⛔ MY ERRORS THIS SESSION (all peer-caught or self-caught same hour, all fixed)
 1. **Relayed a peer's negative as a verified absence — twice on one object** (HANS's figures; HENRY's grep was a dead ugrep instrument, then a narrowing scan). HANS declined the edit correctly both times. Memory n+3.
 2. **GATE-079 instruction named the wrong surface** (definition vs renderer) — LIQUID verified at the letter and refused.
@@ -20,6 +22,7 @@
 4. **"Dead pointer" claim on agent_freshness.py** — it existed; the advisory path was unqualified (fixed at the gate).
 5. **Copied REGINALD's calendar error** ("Tue 9/2 after Labor Day") onto the GATES row — corrected; Labor Day is 9/7.
 6. **Boot tape "Brent −1.89"** was a cross-roll delta from dashboard.py (FORGE tool item, with MIDAS's GC=F 4th instance).
+7. **Replied to FLG's read-cap flag before opening the canon table** — `READ_CAP.md` row `CLAUDE.md` already excludes charters with the reason; corrected to FLG within the hour. Read the owner's table before endorsing a finding against it.
 
 ## ⚠️ CAUTIONS FOR THE FRESH SESSION
 1. **Kill-on-sight (8/28 adds; full ledger = HEARTBEAT §Pointers + the 8/28 snapshot):** "Brent −1.9% today" [cross-roll] · "LAB-08 confirmed" [PRELIMINARY] · "three hawkish witnesses" [one shock] · "HEN-42 = policy channel dead" [alive] · "HY widening toward the kill" [263 = the LOW] · "$160B wall is Trepp's" [sponsor quote] · "rent-freeze bites Q2-2027" [Q2-2028] · "gold settled at $X" from a vendor [no vendor settle] · "Pd n=3 confirmed" [Monday] · "bls.gov is walled" [probe] · "walter-0828 is live" [closed].
