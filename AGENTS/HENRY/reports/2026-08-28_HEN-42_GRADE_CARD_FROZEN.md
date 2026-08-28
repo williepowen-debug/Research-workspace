@@ -176,3 +176,47 @@ Row 214 owes a check at HENRY's next boot: *"confirm BOND's packet was consumed,
 ---
 
 *HENRY, 2026-08-28 ~11:1x ET. Frozen. Row flips RESOLVED 8/29 per registration. All FRED figures are own pulls this session; auction figures are BOND's primaries, cited to his KB rows and not re-derived.*
+
+---
+
+# ADDENDUM 2026-08-28 ~11:3x ET — a policy-path datum arrived AFTER I froze the verdict. **The verdict does not move. What the verdict MEANS does.**
+
+**Routed by PROME after the freeze.** I am recording it in full, because a datum that would let me *soften* a DENY deserves exactly the rigor I applied to the ones that made me retract. `[[finding_asymmetric_rigor_counterparty_claims]]`
+
+## 1. The datum
+| Input | Figure | Source + date | Status |
+|---|---|---|---|
+| **Sept-hike odds, post-Warsh** | **0.31 [8/27 close] → 0.48** = **+17pp** (vol 43,307, OI +34K) | Kalshi `KXFED-26SEP-T3.75` via ORACLE `t6_pin.py`, run by PROME | ⚠️ **LIVE-INTRADAY [8/28 11:14 ET]** — *not* a settled close; ORACLE's daily close is the canonical field |
+| **Live tenor response** | **5Y +5.7bp · 10Y +2.8bp · 30Y −0.6bp** — monotonically **front-led**, long end **opposite direction**; 5s30s **−6.3bp**, 5s10s **−2.8bp** | `^FVX 4.45 +1.27%` · `^TNX 4.70 +0.60%` · `^TYX 5.18 −0.12%`, yfinance 2026-08-28 ~11:3x ET | ⚠️ **NON-GRADING** — see §3 |
+
+**On its face this is leg 2's signature — *"the front end leads on hawkish catalysts"* — firing on the THIRD hawkish catalyst of the window, with a large *measured* expectation shock behind it rather than an inferred one.**
+
+## 2. ⛔ THE VERDICT DOES NOT MOVE, AND THE REASON IS NOT A PREFERENCE
+1. **CONFIRM is a CONJUNCTION and leg 1 is independently dead.** 2s10s **+47bp [8/26]** vs the **+34bp [7/23]** low, failed **21 of 21** published sessions. **No leg-2 print of any strength rescues a conjunction whose other leg failed for five weeks.**
+2. **One session is not the four-week path the word *"KEEPS"* grades.**
+3. ⚠️ **AND THIS IS EXACTLY THE ESCAPE HATCH I ALREADY RULED AGAINST MYSELF ON 7/31**, verbatim from the letter: *"NO ESCAPE HATCH: the available save is 'the letter grades the 7/17-7/23 window'… but the letter says KEEPS flattening, which is forward-looking."* **Reaching for a late favourable datum to soften a verdict I froze two hours earlier is that same move wearing a better suit. I decline it.**
+
+## 3. What is wrong with this datum as evidence — stated before what is right about it
+- **`^FVX` is the 5Y. Leg 2's front end in my registration is the 2Y (`DGS2`).** This is the **belly**, not the front end proper. **No free 2Y instrument is available to me** — the gap is real and I am not papering it.
+- **yfinance live proxies, NOT `DGS`.** My registration forbids substituting them into a graded cell and I have not. **NON-GRADING.**
+- **Intraday, market open.** The close can reverse. **7/31 was precisely such a session and I refused to attribute it** (BOJ + month-end + mega-cap prints); the same discipline applies to a session carrying a chair's first keynote.
+- **Kalshi 0.48 is LIVE-INTRADAY**, not a settled close.
+
+## 4. 🔑 WHAT DOES CHANGE — and it is the input BOND actually needs
+My DENY rests partly on leg 2 failing at the **7/29 FOMC** and the **8/19 minutes**. Today is a **third** hawkish catalyst and, on non-grading instruments, **leg 2's mechanism appears to be firing.** ⇒ **The correct characterisation of the verdict is narrower than "policy-path lost":**
+
+> **HEN-42 DENY = "the 7/17→7/23 delta was NOT policy-path-led, AND the four-week path re-steepened."**
+> **It is NOT "the policy-path channel is dead."** On today's evidence that channel is **alive and transmitting.**
+
+**I would have handed BOND a subtly wrong C-36 input without this.** A one-part label ("term-premium") over-reads my verdict. **The two-part label is what my evidence actually supports.**
+
+## 5. 📌 PRE-REGISTERED READ OF CELL M — written NOW, before Monday's publication, so I cannot rationalise on 8/31
+When `DGS2/DGS10/DGS30` for **8/28** publish **Mon 8/31**:
+
+| Outcome | Reading — **pre-committed** |
+|---|---|
+| **Front end leads** (Δ2Y > Δ10Y > Δ30Y) | **Leg 2's mechanism CONFIRMED live** on the third hawkish catalyst, against a **+17pp** measured expectation shock. **Verdict stays DENY** (leg 1, conjunction, path). C-36 should read **two-part: policy-path channel ALIVE · term premium drove the July delta.** |
+| **Front end does NOT lead** despite the +17pp repricing | **The strongest available leg-2 refutation** — the channel failed to transmit even a large *measured* expectation shock. **DENY hardens**, and the one-part term-premium label becomes defensible. |
+| **Mixed / non-monotonic** | **NO ATTRIBUTION** — same treatment I gave 7/31. Record it, attribute nothing. |
+
+**In all three branches the VERDICT is DENY. I am pre-committing that now so no Monday print can be read as rescuing it.**
