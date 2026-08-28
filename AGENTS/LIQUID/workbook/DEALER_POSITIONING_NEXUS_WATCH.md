@@ -98,6 +98,24 @@ To match the weekly leg's own 5.5% tail rate, the 8-week **cover-only** threshol
 3. **`review_by` re-date:** GATE-LIQ-076 discharges today. **Proposed next `review_by` = 2026-09-30**, aligned to the quarter-end funding turn already on my catalyst docket (the Q3 turn is the next event that could plausibly move any of the three legs) — owner-set, PROME to encode.
 4. **GATE-HY-REKILL `review_by` — PROME's 8/22 ASK, answered: CONFIRM 2026-09-30.** The provisional PROME-set date is right and for the right reason: the level is intake-lane auto-watched, so the clock reviews the **letter**, not the print. Matches my own 072 quarter-cadence rationale. **No re-date requested.**
 
+### 3-bis. ⏳ PRE-REGISTERED W1 GRADE for the as-of Tue 2026-08-25 print (filed 11:4x ET, ~4h BEFORE the ~15:30 publication)
+
+**Filed before the number is known, so the 15:33 grade is mechanical and cannot be shaped by what prints** — the KILL_MEMO principle applied to my own gate. **Last known: net −2,530,893 [as-of 8/18], w/w +28,923, LF spreading 2,962,207, OI 13,431,079.**
+
+| Branch | Condition on the as-of 8/25 print | Grade |
+|---|---|---|
+| **(a) record leg** | LF net **≤ −2,950,000** | **FIRED.** Requires a one-week BUILD ≥ **419,107** — larger than any weekly build in the series (max **−619,056**, so reachable but ~p99) |
+| **(b) cover leg** | one-week **cover > +300,000** | **FIRED.** Largest cover in the series is **+248,236 [7/28]**, 83% of the line — never yet reached |
+| **(c) neither** | −2,950,000 < net, and w/w cover ≤ +300,000 | **NOT FIRED** — the base case |
+
+🔴 **PRE-REGISTERED AND DECISIVE: NO OUTCOME OF THIS PRINT CAN FIRE THE GATE.** GATE-LIQ-076 requires **2-of-3 inside a rolling 2-week window.** **W2 is NOT FIRED and moving away** (G10 −$7,869mm, G5L10 **+$2,302mm** [as-of 8/19], 4th consecutive net-LONG) and **W3 is NOT FIRED and receding** (MOVE 69.86 [8/27], 15.1 under the >85 line). **Both are weekly/daily instruments that cannot change before this print lands.** ⇒ **Even a W1 fire leaves the conjunction at 1-of-3, and NO joint PROME/NEXUS write-up is owed today.** *(Stated now so a dramatic W1 number cannot be read at 15:33 as more than it is.)*
+
+**Riders, all pre-committed:**
+1. **Read LF SPREADING and OI alongside net.** Spreading is excluded from net by construction, so a spread-heavy book can move net without changing gross risk.
+2. **If (b) fires, apply the §Basis-vs-directional discriminator BEFORE calling anything systemic:** swap spreads / SOFR-FF stable while shorts cover ⇒ **directional squeeze**; spreads moving with the cover ⇒ **RV unwind, less systemic.**
+3. **KB-LIQ-096 basis:** the as-of date is **Tuesday 8/25**; the file publishes Friday. **Never label the number with the Friday.**
+4. ⛔ **The withdrawn cumulative leg (KB-LIQ-107) is NOT part of this grade** and must not be reintroduced at the print — it is base-rated dead at 52.0% of rolling 8-week windows. **Named here so it cannot arrive at 15:33 as a fresh idea.**
+
 ### 4. Cadence + next prints
 
 - **CFTC TFF:** today **Fri 8/28 ~15:30 ET**, carrying **as-of Tue 8/25** — the W1 re-grade. This is also the 8/26 5Y auction's positioning read publishing **two days after** the auction (KB-LIQ-096); `KB-BND-092` already closed on the BTC 2.37 print, so nothing is pending on it.
