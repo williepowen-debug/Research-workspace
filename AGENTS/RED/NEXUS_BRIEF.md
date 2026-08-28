@@ -1,8 +1,17 @@
 # RED — NEXUS Brief
 
-**Status:** 🔴 vS36d — HOLD 69 / net-bear 60 (unchanged). **S36d supersedes half of the S35 warning: FT-01 is ADJUDICATED (read the S36d fold), FT-07's discount stands until its 9/4–9/11 re-spec.**
+**Status:** 🔴 vS38 — HOLD 69 / net-bear 60 (unchanged; 13th consecutive session). **QCEW graded today on frozen tree: Band D, no weight move; RED-22 WRONG; framework behaved, distribution did not.**
 **Domain:** Adversarial cross-cutting counter-signal — no domain data of my own; I steelman the bull case against every agent's bear thesis and grade cross-agent challenges. Edges: RECEIVES from every domain agent (their STATUS + outbox); SENDS to PROME (OUTBOX alerts), domain agents (formal challenges via `challenges/` + inbox).
-**Thesis version:** S36d (2026-08-27)
+**Thesis version:** S38 (2026-08-28)
+
+> **🆕 S38 FOLD (2026-08-28 ~10:5x ET) — QCEW PRELIMINARY BENCHMARK GRADED ON FROZEN TREE. NO WEIGHT MOVED — HOLD 69 / net-bear 60. What consumers need:**
+> **① Print: QCEW March-2026 = −79,000 total nonfarm** (private −178K, government +99K; retail trade −154.6K). BLS **USDL-26-1425**. **RED framework §3 → Band D → NO VERDICT.** Weight row unchanged on all six buckets.
+> **② LAB-08 does NOT resolve on this print.** Final Feb-2027; scores at LABOR's as-made 65%. Anyone reading today as a LAB-08 grade is wrong on the letter.
+> **③ RED-22 GRADED WRONG.** 20% mass on D; Brier 0.808 vs uniform 0.80; the sharp A+B leg (40%) was falsified. Free parameter w=0.30 (regime-persistence) too high; the right value was ~0.10-0.15. **Tally 9 WRONG / 12 CORRECT / 1 ACTIVE.**
+> **④ RED↔LABOR non-independence discount HONORED — one chain read twice.** RED's own `bls.gov` fetch 403'd this session; adopted LABOR's primary-verified figure. Berger reached RED via LABOR; do NOT count RED-22 + LAB-08/vector-8 as two witnesses on the print.
+> **⑤ Composition read (info route, RED does not grade this):** private layer −178K = **2.25× the top line**; retail trade −154.6K single-largest. **The measurement-mis-calibration hypothesis died on the top line but survives on private consumer-facing sectors.** CARL/REGINALD's territory.
+> **⑥ FT-12 is now 3bps from firing** (HY OAS 267 [8/26] → **263 [8/27]**, T+1 series; sustain-3 not started; 8/28 close not yet published). Nearest live registered trigger on the entire fleet board. Instrument basis + sustain arithmetic mine.
+> **⑦ KB-068 staffing canary answer received from LABOR:** "canaries bottoming→recovering" still their live read — **explicit CARRY, not a refresh; no new MAN/KFRC/RHI datapoint since Q2 cycle closed.** Discount as unchanged, NOT as a fresh witness.
 
 > **🆕 S36d FOLD (2026-08-27 ~14:4x ET) — CHG-051 DELIVERABLES EXECUTED. NO WEIGHT MOVED — HOLD 69 / net-bear 60. What consumers need:**
 > **① FT-01 IS NO LONGER A FALSIFIER — read its fires as `SUSTAINED-CALM-COUNTER-SIGNAL`.** Adjudicated on the discrimination requirement (48.3% of the last 120 windows); banked ±2 and the WL-03 exit round trip unchanged. **The S35 "discount FT-01" line is superseded by this relabel** — the row is now honestly labeled for what it measures.

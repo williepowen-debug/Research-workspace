@@ -22,270 +22,76 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S38 (2026-08-28, boot 10:28 ET / QCEW graded ~10:5x ET — stamps from `date`) — LIVE CATALYST DAY, FROZEN TREE EXECUTED. NO WEIGHT MOVED: HOLD 69 / net-bear 60 (13th consecutive session).**
+
+## CHANGES SINCE (S37 closeout → this boot)
+
+- **QCEW preliminary benchmark = −79,000 total nonfarm** (private −178K, government +99K; retail trade −154.6K; T&W +135.1K; info +87K). Source **BLS USDL-26-1425**, 10:00 ET. LABOR's independent grade landed same-morning (their card called Band E, executed vector 8 4→2 and LAB-08 15%→4%).
+- **FT-12 tightened another 4bps** on the 8/27 close: 267 [8/26] → **263 [8/27]** — nearest live registered trigger on the entire fleet board, per WALTER's 6c pass. Sustain-3 not started (needs <260); 8/28 close not yet published (T+1 series).
+- **Brent 8/26 close corrected to $87.84** (WALTER self-flag; not published $86.36).
+- **WAL 78.57 live intraday** — REG-T-02 <78 s=1 is 0.73% above.
+- **5y5y 2.35** — drifting up toward FT-09's 2.55 (20bps).
+- Inbox arrived overnight: CARL CHG-049-accepted, MIDAS Q-…006a verifier duty Mon 8/31, PROME + DAEDALUS sitting-2 review DISCHARGED (Will substituted DAEDALUS in-session), DEWEY CARL-DR-2 verdict against containment (counter-thesis evidence separated out per pre-registered routing rule).
+
+## WHAT I DID
+
+1. **Read the QCEW print.** Retrieved via LABOR primary chain (RED's own BLS fetch 403s this run; the L-24 lesson — reachability grades the moment it ran — cuts both ways; non-independence discount honored per RED-22's provenance line).
+2. **Graded RED-22 against the frozen §3 bands: BAND D (−200 < R < +200) → NO VERDICT.** §4 Band D row executed exactly as tabled: all six hypothesis weights UNCHANGED, confidence UNCHANGED, net-bear UNCHANGED.
+3. **G1-G5 all answered in writing** (STATUS S38 section). LAB-08 does NOT resolve on this print (G2 — final Feb-2027).
+4. **RED-22 finalized WRONG.** 20% mass on Band D; Brier 0.808 vs uniform 0.80. Sharp A+B leg (40%) falsified. Free parameter w=0.30 was too high; the regime shift Berger flagged was real. Recorded as calibration hit; framework behaved.
+5. **Symmetry check re-run:** Band A would have given Soft −2 / Managed +3 (net-bear −2). Band E gives Soft +2 / Managed −2. Band D gives 0. The tree is symmetric around 0, and D landed. Consistent.
+6. **Predictions Scorecard updated:** 8 WRONG → 9 WRONG (adding RED-22); tally 9/12/1.
+7. **CATALYSTS row 60 resolved** with the full outcome + composition + LAB-08 non-resolution note.
+8. **CHANGELOG entry filed.** Prediction resolved → registered-state changed → W3 mandatory per A4.
+9. **WALTER's cross-session 6c pass consumed:** FT-12 3bps, WAL intraday 78.57, Brent correction, FT-01 relabel consumed correctly (their language: "change in what a fire *means*, not when it fires"). Nothing owed back per WALTER's own line. Standing warning: WALTER's downstream router could read "trigger fired" as thesis-kill — risk lives at their end, they named it.
+10. **Composition note filed for CARL/REGINALD** (info route, not a RED action): private layer −178K = 2.25× the top line; retail trade −154.6K. Consumer-facing sectors were revised down hard even as the top line came in benign.
+
+## ⚑ THE SESSION'S FINDING, AND IT IS TWO-SIDED
+
+**One:** The framework behaved. A print pre-committed to move nothing on RED's book, moved nothing on RED's book — even though it moved LABOR meaningfully (vector 8 4→2, LAB-08 15%→4%). **That asymmetry is a real property of two independently-calibrated frameworks, not a defect.**
+
+**Two:** RED-22's probability distribution was still wrong, and calling it wrong in writing is what stops that from getting laundered by a "we didn't need to act on it" story. **20% mass on the outcome. Brier worse than uniform. w=0.30 was too high. The sharp A+B leg was falsified. Calibration hit taken.**
+
+## NEXT SESSION (dated, priority-ordered)
+
+1. **🟡 Mon 8/31 post-16:15 ET — MIDAS-06 verifier duty.** Read the four-branch mapping (packet §2) before verifying. ⛔ Do NOT verify (d) INDETERMINATE as NO — reserved for branch (b). On current tape (gold clears, DFII10 6bp short) (d) is LIKELY. Verify at the sources (COMEX GC settlement + FRED DFII10 obs dated 8/28), not MIDAS's write-up.
+2. **🟡 Wed 9/3 — 30Y JGB (CHG-047 / CH-009 / CH-012).** SAM rail perimeters STATED.
+3. **🟠 Fri 9/4 — NFP August.** The re-test: does −23K survive revision, does the labor force stop shrinking?
+4. **🟡 9/4–9/11 re-spec window — FT-04 / FT-07 / VX-004 / FT-08 re-spec, on a day the bear is not losing.** ⚠️ RED-22's w=0.30 miss is one more input to this window's FT-01 magnitude review.
+5. **🟠 Tue 9/9 — FT-11 goes LIVE.** Δ5(DGS30) precondition already satisfied on the 8/27 tape (−11.0bp) — may fire immediately on go-live day; the FLOW verdict downgrades the 30/70 row to 50/50 but moves NO hypothesis weight.
+6. **🟡 Wed 9/10 — CARL V2 (subprime auto instrument, OTTO 7-deal 10-D panel).** Owner dark 8/20–8/27 but their 8/27 packet says "OTTO live tonight" → expect grade.
+7. **🟠 Fri 9/11 08:30 ET — Aug CPI.** CHG-028 note: 9/11 is a pre-registered NON-EVENT for the oil→core channel (that resolves 10/14 + 11/10, two-print).
+8. **🟡 Mon 9/15 — CHG-044 (BROCK) + CHG-049 (CARL) re-reviews.**
+9. **🟢 Tue 9/30 — CHG-042 hard backstop retired unused** (34d pre-backstop resolution S37).
+10. **Daily monitors:** ^SKEW vs 150 (FT-10 reload, 5.95 away) · **HY vs 260 (FT-12, 3bps and tightening — nearest board line)** · CCC vs 1000 (streak extends, 1031 [8/27]) · WL-07 USDJPY vs 160 (0.07 away) · WL-11 Brent <95 (firing).
+
+## OPEN THREADS
+
+- **🟠 The composition read on QCEW (private −178K, retail −154.6K) is routed as info to CARL/REGINALD but NOT graded by RED.** If CARL or REGINALD write it into their books, RED consumes their read — not the other way around. **Don't re-derive.**
+- **⚑ RED still has no APPARATUS self-challenge that names a live testable defect on the registry itself.** CHG-051 is one (RED's first). ML-185 obligation: ≥1 live at all times. Next candidate: the free-parameter-w defect QCEW just exposed — RED-22's mixture parameter had no independent instrument for regime-persistence, and I set it by intuition. **This class extends to any RED prediction that carries a subjective mixture weight.**
+- CHG-042 backstop retired unused; **but the S28b "unfetched-vs-unavailable" test resolved 34d early — the ML-136 class is one to keep testing on ACTIVE-BLOCKED rows.**
+- VX-RED-004's flip line (30Y JGB >2.5% vs live ~4.1%) still needs re-spec; **9/4-9/11 window, do NOT carry it into 9/3.**
+- CHG-047 rail: **CH-009/CH-012 next adjudicate at the 9/3 30Y JGB auction.** VX-004 defect lives in the same instrument family — connected work.
+- Publisher-side routing unfixed as a class (ORACLE side; RED does not own the fix).
+- Independence discount stands (ML-133) — and now practiced twice on the QCEW print (RED↔LABOR chain read once; not counted twice on the RED book).
+
+## PENDING WILL-DECISIONS
+
+- **None blocking.** MIDAS-06 verifier duty runs mechanically on Monday. Sitting-2 substitution rule ruled/discharged. C8 conditions all executed and re-verified.
+
+## GIT STATE (one line)
+
+On master; S38 committed path-scoped (`AGENTS/RED/` only — STATUS · SCRATCH · CHANGELOG · CATALYSTS · PREDICTIONS · OUTBOX · NEXUS_BRIEF · ML · KB); auto-push via `scripts/safe-push.sh` at closeout.
+
+---
+
+
 **🆕 S37 (2026-08-27, boot 14:36 ET / close ~14:4x ET — stamps from `date`) — PLAIN BOOT, ONE INBOUND CONSUMED. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
 
-- **Boot state clean:** boot.py ⑤ 🟢 (nothing addressed to RED undispositioned) · inbox top-level CLEAR · review_debt unchanged (10 KB past Stale_By / 9/17 VX >45d, dated 9/12 · 12 terminal-cited-live = the 1b cross-agent residual) · base_rate_review all 🟢 1.0× (recomputed S36d same day) · **FT-11 Δ5 = −11.0bp, precondition form still satisfied 13 days pre-go-live.** Tape: HY 267 (FT-12 7bps) · CCC 1031 · VIX 14.67 · SKEW 142.96 · Brent 88.56 · USDJPY 159.42 (WL-07 0.58 away).
-- **⚠️ Did NOT pull at boot:** VIOLET session live with uncommitted work across its dir (outbox packets dated today) — pull protocol Option B taken; RED work committed locally, push attempted at closeout (ff-gated, safe either way).
-- **HENRY cross-session packet consumed and encoded (the session's one work item):** ① **FT-12 is now a THREE-desk same-series collision at 260** — HENRY's INVALIDATION-TRIAD leg 1 keys HY<260 **s=5** on the same FRED series. FT-12's cross-ref extended to all three states + reader rule updated (cite all three, count evidence types not desks; HENRY routed the synthesis-layer miscount to PROME, ML-HEN-157 — RED added nothing duplicative there). **⚑ CORRECTED SAME SITTING (HENRY follow-up 3c0bb21b5 + STOP message, ~15 min after my first commit): their leg 1 is CONJUNCTIVE — H-1 requires VIX<15 AND HY<260 on the SAME session, 5 consecutive, NON-LATCHING — so FT-12 is a NECESSARY-BUT-NOT-SUFFICIENT precursor to their kill (leads only the bare HY leg; FT-12 can fire repeatedly while their kill never fires: HY 267 on 8/14+8/26 had ZERO joint VIX<15 sessions). My first encoding carried a three-desk "firing order" built from HENRY's own loose sentence; struck-in-place on the row, ML-RED-196. Root cause on their book (table row rendered the leg bare while the conjunction lived in a ruling block above — the summary-merges class), consumer error on mine (encoded a peer's kill line from a packet sentence without reading the leg's own spec — the ML-183 class arriving from outside).** HENRY adopted FT-12 as early-warning **on their HY leg** and confirmed recipient_chain consumption. ② **FT-11 H.15 partial-split basis note encoded:** DGS30/DGS2/DFII10 endpoints can run ONE session behind the BAML OAS series on the same pull day (HENRY n=4, BOND ruled expected-state at n=3) — FT-11 outcome write-ups pairing a Δ5 window with a credit print must state both endpoint dates. A real hole; adopted, attributed — HENRY adopted the generalized rule back for their own HEN-42 grade. ③ HENRY self-corrected their SKEW 8/23 step-change read against RED's modal-state base rate, and endorsed the FT-01 relabel as a class. Replies sent both rounds. board_log rows 14:39 + correction row; schema_check 12/12 ×2; no weight, no threshold, no state changed.
-- **LIQUID KB-LIQ-106 mechanism RETRACTED (PROME relay, verified at `1becc3ccd`):** their "biased by construction" SOFR-band mechanism died of a self-truncated window — full-span n=1146 shows ordinary regime drift (0% 2021-22 → 89.5% 2026). FT-12's base-rating unaffected on substance (LIQUID's own words). No live RED surface carried the mechanism — it existed here only in the processed packet + a board_log narrative row, both left intact as dated evidence. Note: the retraction STRENGTHENS the S36 observation that FT-01's base-rate drift and LIQUID's ladder are the same regime drift on independent instruments — LIQUID's own post-mortem now says drift, not construction.
+*S37 first-half narrative (HENRY packet, LIQUID retraction, BOND/REGINALD routing answers, CARL V2 re-date, MF-starts + CHG-042 resolution, 1b routing pass, Increment 2 review + re-verify) archived in git history — the last S37-family entries were folded at that closeout; durable outcomes live in the workbook + STATUS S38's counterweight row + the S37 final-closeout summary below.*
 
-**S37 CONTINUATION (Will-directed sweep, items 1/2/5/3 executed + three routing answers processed same-day):**
-- **✅ Sweep item 1 — MF-starts RESOLVED** (43d carry; REBOUND=noise, 618-007/008 pair splits; KB-088/ML-197). **✅ Item 2 — CHG-042 RESOLVED 34d pre-backstop** (freight UNFETCHED and ROSE through both crude fades — TD3C $413K→>$520K/d; insurance = verified wall; 3.5-of-4; BRENT packeted; ML-199 carries the per-leg-test rule). **✅ Item 5 — CARL V2 re-dated 9/10 with failure mode** (dark at 9/10 → PROME spawn-priority ask, no 3rd silent re-date). **✅ Item 3 — 1b routing pass: 9 rows → 7 owners, KB-062 re-classed historical.**
-- **Routing answers, 3 of 7 same-day, all rows rewritten on owner words:** REGINALD KB-049 (Q2 creep REVERSED 4-of-4, concentration-not-breadth, OZK fenced OUT of the answer, Q3 OREO watch 11/30) · LIQUID KB-056 (**88/47 + 1.44× RETRACTED** — DISH confound; live figure = 0.17× post-rebalance observable; **no-retention-%-in-a-weight rule**; gap label settled CCC−HY 764 vs their CCC−BB 875) · BOND KB-053 (June read RIGHT-THEN, **SUPERSEDED-BY-REGIME — signature flipped ~7/13 to bear steepener, KW-TP 2026 high**; one-liner encoded verbatim incl. C-36 CONTESTED caveat; bp-not-share + window-contamination rules).
-- **⚑ Two RED defects owned on durable surfaces:** ML-RED-196 (encoded HENRY's kill from a packet sentence without reading the leg spec — ML-183 class outbound; corrected in one commit) · ML-RED-200 (**second un-encoded transfer of BOND's 86%-real≠term-premium answer — the 7/17 answer decayed into an inverted premise in my own 8/27 ask**; encoding is the fix). Also: HENRY trigger-tally correction banked in fleet memory (operator-audit 21/24 vs peers 2/24; content-guard gap; vintage split + flattering-direction caveat — memory extended ×2, carve-out ③).
-- **🔴 NEW STANDING ITEMS:** ① **45/55 CCC-row re-mark DEFERRED to 9/4–9/11 window** (LIQUID's retractions run bear-favorable; deferral recorded in KB-056 notes — do it there, not before). ② **When BROCK answers KB-047 (Bain first-and-only), ROUTE THE VERDICT TO LIQUID** for their KB-061 (asymmetry: 2nd default weakens "first" framing, strengthens replication claim). ③ Four routed asks still outstanding: CORAL (046/052) · BROCK (047/057) · CARL (054, consolidated packet) · LABOR (068, timed to QCEW boot). ④ ORACLE complacency decouple = NO WEIGHT (unfired tell + ambient-calm double-count); gold-rotation carried as watch enrichment only. ⑤ C-36 phrasing flag relayed to PROME (their surface, their call).
-
-**S37 EVENING BLOCK — KERNEL INCREMENT 2 REVIEW (seated on Will's word "okay accept"; ~17:xx–19:0x ET):**
-- **Verdict: PROCEED gated on two blocking fixes. F1 🔴 CONFIRMED mechanically** (grants file = SAM-only while packet pinned it UNCHANGED → `authorize_command` PERMISSION_DENIED on all 12; verified in `permissions.py`/`acceptance.py`, not inferred) · **F2 🟠** (12 pins at empty submission paths; pins honest — RED rehashed 12/12 from staged bytes at the 3 desk commits; move step unassigned) · **F3** adverse-verify has no in-perimeter record (`disposition` const VERIFY, Dispute OUT) → Monday fixture precondition (does acceptance refuse or record a mismatched `verified_outcome_value`?) · **F4** 3 command-ID conventions, CREED+REGINALD carry false Nov-2024 UUIDv7 times (pilot's own placeholder precedent), LIQUID true-v7 — settle OPAQUE-or-true-v7, no re-cut · **F5** AmendForecast = only enum member with no schema file. **Six §4/§6 answers + five judgment rulings delivered** (see report §, all recorded in packet §0). **DISCLOSED: RED = verifier on 3 of 6 questions.** **PROME fixed F1+F2 same evening; RED re-verify PASS at origin (own hashes)** + one residual caught (§0 Companion line still says "two window fields ONLY" vs the amended "+source_commit" bullet — a literal mint-checker false-refuses; one-line reconcile = gate lifts). Report `reports/2026-08-27_KERNEL_INCREMENT2_REVIEW.md`; OUTBOX-031; **nothing written into KERNEL/**; verdict-changer stated (a dry-run showing grants unenforced collapses F1 + RED owes retraction).
-- **Forward obligations from this block:** if the sitting runs (Path A tonight or B Monday), the **closeout-review seat is RED-or-DAEDALUS — RED recommended DAEDALUS to Will** (fresh eyes; RED verifier-concentrated; reviewer-was-inside-the-packet). **RED's verifier duties on 3 questions are resolution-time** (post-close ~2027-01-01 for CREED …0105 / REGINALD …00a6; LIQ-04 closes 2027-02-15). **Monday preconditions registered on PROME's side:** grants bump for resolution.propose/verify + the F3 fixture answer — RED consumes, does not own.
-
-**🔴 NEXT SESSION — otherwise unchanged from S36:** the S36 list below stands (QCEW 8/28 10:00 ET top; CHG-046 + CHG-043-B same day; then the dated ladder). Sweep items #4 (12→13 terminal-cited-live rows + Stale_By cosmetics) and #6 (T12/T13 reconstruct-or-retire) remain, fine for the 8/31–9/2 gap. **If Will ruled Path A overnight, expect the Increment 2 closeout packet at boot (review seat = DAEDALUS per RED's rec, unless Will re-assigns).**
-
-**🏁 S37 FINAL CLOSEOUT (Will-worded, ~18:0x ET — first written "19:1x", drifted +1h, caught at push against `date` = 18:07).** The day in one line: **four Will-directed sweep items executed (MF-starts · CHG-042 · CARL V2 · 1b routing) + 3 same-day routing answers encoded on owner words + the Increment 2 review delivered and re-verified — and NO WEIGHT MOVED at any of the day's endings: HOLD 69 / net-bear 60.** Cross-session traffic: HENRY ×5 (conjunction correction cycle → fleet memory extended ×2 w/ trigger tally + vintage split), LIQUID ×2 (KB-LIQ-106 retraction + KB-056 re-cut), BOND (KB-053 superseded-by-regime), REGINALD (KB-049 reversed), ORACLE ×2 (complacency decouple = no-weight; OUTBOX-021 addendum §7), PROME ×n (Increment 2 cycle). RED defects owned on ledger today: ML-196 (conjunction-from-a-sentence) · ML-198 (peer-axis tidiness) · ML-200 (second un-encoded transfer). Checks at close: schema 12/12 · boot.py ⑤ 🟢 · orphan/claim per closeout run · memory committed carve-out ③ ×2. Pull deferred all day (VIOLET live-dirty at boot; safe-push ff succeeded throughout — origin current with RED at every block).
+**🏁 S37 FINAL CLOSEOUT (Will-worded, ~18:0x ET).** The day in one line: **four Will-directed sweep items executed (MF-starts · CHG-042 · CARL V2 · 1b routing) + 3 same-day routing answers encoded on owner words + the Increment 2 review delivered and re-verified — and NO WEIGHT MOVED at any of the day's endings.** Cross-session traffic: HENRY ×5, LIQUID ×2, BOND, REGINALD, ORACLE ×2, PROME ×n. RED defects owned on ledger: ML-196 (conjunction-from-a-sentence) · ML-198 (peer-axis tidiness) · ML-200 (second un-encoded transfer). Checks at close: schema 12/12 · boot.py ⑤ 🟢 · orphan/claim per closeout run · memory committed carve-out ③ ×2.
 
 ---
 
-
-**🆕 S36 (2026-08-27, boot 13:21 ET / close ~13:4x ET — stamps from `date`, the S35 lesson) — WILL-WORDED AT BOOT: C8 POST-CLOSEOUT REVIEW. DELIVERED TO WILL: CONTINUE, SIX CONDITIONS. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
-
-**The review** (`reports/2026-08-27_KERNEL_GATE_C_C8_REVIEW.md`, OUTBOX-025, ML-192): every re-derivable claim in PROME's C8 packet re-derived and HELD — `check-views` + `additions-only` re-run independently (PASS, extended to current HEAD), six pins byte-exact ×3 surfaces, timeline graph-exact, D1–D5 concurred. **Judgments given:** D3 → re-word step 6, no comparator code on `write_views` (C7 Finding-1 recurrence class); D5 → drop hold-local from steps 1/7/9, no freeze/branch. **Six NEW findings (N1–N6), sharpest: N4 the pilot permanently broke its own test suite (211/212 since 16:30:23Z — fixture clones the live repo, exclusive-create collides with the now-real submissions; the packet's "212 green" was pre-sitting vintage) · N1 committed views = the pre-ruling diagnostic apply's output, stop-condition evidence overwritten · N3 the activation was STILL VALID during the review (revoked_at null; three surfaces incl. MY OWN S35 board_log row called it "expired" ~70 min early — dated-carry, logged against RED).** Verdict-changers stated in the report §1; none found. Disclosure made: RED = `independent_verifier_actor_id` in Q-…033 (resolution-time, post-1/1/27 — a standing forward obligation of this desk).
-
-**Memory:** `finding_relayed_level_predates_the_event` EXTENDED (non-market form: a verification result cited across the event that invalidates it; discipline 8 = re-run green checks after any first-of-kind execution) + `symptoms:` line added per Batch A. Index check clean, committed carve-out ③.
-
-**🆕 S36d (~14:4x ET) — CHG-051 DELIVERABLES 1–3 EXECUTED ON WILL'S WORD. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
-- **① Registry 15→17 cols** (`last_reviewed` + `rolling_base_rate`, appended — WALTER pre-notified, carve-out ① packet) + **`scripts/base_rate_review.py` + boot step 9d**: base-rate recomputation is now SCHEDULED. First run reproduces S35 exactly; **also surfaced FT-11 current Δ5 = −11.0bp — the precondition form is ALREADY satisfied on today's tape; if the 30Y rally persists to 9/9, FT-11 fires on its first live day.**
-- **② Outcome axis LIVE:** `registry/OUTCOME_SPEC.tsv` (12 pre-committed specs) + `registry/TRIGGER_OUTCOMES.tsv` (11 rows). First grades: FT-01 retro 3/6 · FT-06 tracking-success 12/20 obs · **FT-07's 6/4 fire WRONG at exactly 60 obs (HY max 287 vs ≥300) — Acute +1 NOT reversed; grades are apparatus data, they feed the window re-spec, never weights.** **W2 now includes dispositioning TRIGGER_OUTCOMES rows whose `resolve_after` passed** (boot 9d text carries it).
-- **③ FT-01 ADJUDICATED** → `SUSTAINED-CALM-COUNTER-SIGNAL` (48.3%@120 can't carry a falsify label; settled on selectivity — outcome axis n=6 is chance either way); banked ±2 + WL-03 exit untouched; magnitude review stays in the window. **Falsify power → NEW FT-12: HY<260 s=3, base rate 0.0% FULL-3Y (one sub-260 day in 3y), registered at 267 — 7bps away while APPROACHING, ±2 + exit ≥260 s=3 + outcome spec all at birth.** Direction-balanced ⇒ no ML-161 ratchet outside the window. **Closes the S36-boot WL-04 no-consumer gap** (WL row annotated PROMOTED).
-- **Chains served at the write:** WALTER (pre-landing) · LIQUID + HENRY (carve-out ① packets, FT-01/FT-12 info consumers) · PROME (OUTBOX-028) · Will (in-session). SCHEMA +17 rows, schema_check 12/12, CHANGELOG + NEXUS_BRIEF (vS36d) folded per A4, MAINTENANCE entry, ML-195.
-- **CHG-051 stays ACTIVE on F4** (pre-committed scorer, n≥12): three FT-01 fires + FT-06 resolve from ~9/9 under committed specs — **the first clean non-retro grades land then; grade them at W2, never early.**
-
-**🔴 NEXT SESSION — unchanged order:**
-1. **🔴 FRI 8/28 10:00 ET — QCEW. Read the number, name the band, execute as tabled. Do not improvise.** Same day: CHG-046 resolution + CHG-043-B (NEXUS).
-2. ~~CHG-051 owed deliverables~~ → **✅ EXECUTED S36d (block above).** Residual: F4 grades from ~9/9 (W2) · FT-01/FT-07 **magnitude** review stays in the 9/4–9/11 window.
-3. ~~Watch Will's C8 ruling~~ → **RULED AND EXECUTED SAME SITTING (S36b, ~13:5x ET): Will approved CONTINUE and assigned the six conditions to RED — ALL SIX APPLIED AND VERIFIED.** Ruling recorded durably at `KERNEL/GATE_C_C8_RULING_2026-08-27.md` (the N6 lesson, practiced immediately). Commits: `8439e3971` (ruling record + runbook conditions 1–4 + READINESS_PLAN C7/C8 rows advanced) · `e90ab6e61` (condition 5: `test_prepare_pilot` mirrors the pinned source commit — **suite 212 green re-verified**, was 211/212) · `79b21e499` (condition 6: root CLAUDE.md custody enumeration reconciled, Will-worded). **additions-only re-run PASS through all three commits.** PROME owes a re-read of the amended runbook + test at its next boot (OUTBOX-026); RED owes nothing further on Gate C until a successor sitting or the SAM-33 verifier role fires (post-1/1/27).
-4. Unchanged: CARL V2 (owner dark) · 9/3 30Y JGB rail · 9/4–9/11 re-spec window · 9/12 VX re-review · 9/15 CHG-044 + CHG-049 · 9/30 CHG-042 backstop.
-4b. ~~read BOND's FT-11 packet by 9/8~~ → **✅ CONSUMED AND ACTED SAME DAY (S36c, ~14:1x ET) — BOND's second doorbell surfaced a timing squeeze (read-by 9/8 + re-spec window straddling the 9/9 go-live) and the fix was to act NOW, 13 days pre-data.** Leg choice STANDS (BOND declined the re-spec clause). Executed: rationale repaired struck-in-place (CMT/on-the-run vs off-the-run — spillover magnitudes, registry + research doc §3) · **limit (e) added** (benchmark legs assume suppression; under BOND's liquidity-support classification FLOW is under-detected non-economically — rare FLOW ≠ prior confirmation) · **v1.1 pre-registered as an ex-ante F2-gated conditional** (off-the-run ⇒ own-computed butterfly leg `2*DGS20−DGS10−DGS30` at next non-fired window; on-the-run ⇒ no change; never mid-fire) · BOND ΔTP = advisory, not a machine leg (ML-156) · BOND's scope fence carried verbatim (butterfly ≠ demand evidence). **recipient_chain served AT the write** (BOND SendMessage · TERRY carve-out-① packet · PROME OUTBOX-027) — the S34 publisher-side fix, practiced. **Window-set ambiguity resolved on the record: FT-11 was NEVER in the 9/4–9/11 batch** (line 63's set is FT-01/04/07/08/VX-004; line 53's "same guard" = the no-weight-on-FLOW principle, not batch membership) — **its governing constraint is the 9/9 go-live, and post-live change now exists ONLY as the pre-registered conditional.** BOND's F2 read arrives from 9/9 — **routing is DOCKET-REGISTERED on BOND's side (their word, S36c closure: red external dependency, 9/9 row + STATUS twin, delivery as-ops-publish not batched-to-closeout), so RED may RELY on it — and reliance gets a tripwire: if a stepped-up op publishes post-9/9 and no F2 read lands within ~2 RED sessions, DOORBELL BOND — silence is a failure signal, not quiet.** Log and grade the v1.1 conditional when each read lands. Credit note per BOND's own correction: the window-set confusion was BOND's false premise + RED's ambiguous 4b wording — their record and mine now agree in those terms. CHANGELOG S36c; ML-194; schema_check clean.
-5. **Tape note from boot:** HY 267 — **WL-04 (<260, "credit canary fully dead") is 7bps away and NOTHING grades a cross.** If it fires it is bull-side evidence with no registered consumer; consider a pre-registered disposition at the 9/4–9/11 window rather than improvising on the day it prints.
-
-**GIT STATE:** on master; S36 ran FOUR work blocks (C8 review → C8 conditions → FT-11/BOND → CHG-051 deliverables), every block committed path-scoped and pushed with `Pushed.` verified (last: `dbd0b8034`); NOTHING written into `KERNEL/` except the Will-worded C8-condition commits; carve-out ① packets this session: TERRY, WALTER, LIQUID, HENRY.
-
-**🏁 S36 CLOSEOUT (2026-08-27 14:3x ET, stamp from `date`).** Closeout checks: orphan ✅ (foreign dirt = live desks' in-flight, untouched) · claim_check 6/6 ✅ · consumer_check 280→260 advisory: zero certified-stale (280 is noise-dominated as a term; real consumers routed explicitly — LIQUID/HENRY/PROME/WALTER all told "re-key to 260") · memory_index --slug ✅ · memory cap 68% ✅. **⚑ OWNED, forward-only: the S36d stamps ("~14:4x ET") ran ~30 min AHEAD of the wall clock (true ~14:0x–14:2x; `date` at closeout = 14:29)** — the same class RED charged itself with at the S35 boot, recurring the same day on the desk holding `[[finding_write_timestamps_from_the_clock_not_the_narrative]]`. Historical stamps NOT rewritten (they are the evidence); order S36's blocks by the commit graph: `f4dee3304` (review) → `25e406d52` → `8439e3971`/`e90ab6e61`/`79b21e499` (conditions) → `a7fba4417` → `bc3b1538e`/`bf94fad32` (FT-11/BOND) → `569214ada` (WALTER notify) → `dbd0b8034` (CHG-051). Ledger nudge: dispositioned inside `dbd0b8034`'s message (pre-commit fire).
-
----
-
-
-**🆕 S35 (2026-08-27, boot ~12:25 ET / close ~12:4x ET) — WILL-DIRECTED: OPEN THE APPARATUS SELF-CHALLENGE. DONE. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
-
-**`CHG-RED-051` — RED's first APPARATUS-class self-challenge, and it lands on RED's own registry.** Full report `challenges/SELF_APPARATUS_REGISTRY_2026-08-27.md`; ML-190/191; OUTBOX-024 🔴 (one ACTION owed).
-
-- **The charge:** RED's falsification registry has **a selectivity axis and no correctness axis.** 15 columns; none records whether a fire was RIGHT. `PREDICTIONS.tsv` is RED's only surface with an `Outcome` column ⇒ **RED grades its predictions and not its instruments — and the ungraded surface is the one with write access to the weights.** 3 triggers fired, 4+ weight events, **0 outcome grades ever** (tree-wide grep: zero hits).
-- **The measured half:** base rates computed once at registration, never recomputed. **FT-01 21.8% → 48.3%/120s (68.2%/85s), 2.9×. FT-07 32.5% → 84.2%/91.8%, 2.7×. Both are regime DESCRIPTORS now.** FT-06 stable 1.0×. **The published figures REPRODUCE — staleness, not error**, which is worse: a correction pass could not have caught it.
-- **The bite:** FT-01's action is `IMMEDIATE-FALSIFY` and it has fired **82.4% of sessions since 5/1**. Read literally the thesis has been falsified for four months. **Either the label is wrong or RED ignores its own falsifier — and the registry cannot tell you which.**
-- **Axis demonstrated computable** (so the challenge isn't the thing it complains about): first outcome grade ever for a RED trigger — FT-01 vs KRE fwd returns, **3/6 = 50%**. ⚠️ **n=6, proxy and horizon both self-chosen; a demonstration, NOT a verdict.**
-- **3 of 4 falsifiers RUN in-session.** F2 mattered most: VULCAN's *"ungradeable when the observer picks when to read"* applied to RED, since RED picked 85 — ran the whole ladder, **strictly monotone in recency both series** ⇒ regime shift, not window-shopping. **It also showed short windows FLATTER the charge, so the headline quotes the conservative 120.**
-- **⛔ NO weight, NO threshold re-cut.** Both affected rows are bear-relevant; standing guard defers re-specs to **9/4–9/11**, on a day the bear is not losing. Same guard written into FT-11 four hours earlier.
-
-**⚑ SECOND DEFECT, FOUND BY ACCIDENT: `CHG-RED-049` had no canonical ledger row.** Issued, delivered to CARL, narrated on FOUR surfaces — SCRATCH, MAINTENANCE, board_log, ML — while `CHALLENGES.tsv` (what the DUE-scan reads) had nothing. **Caught only because CHG-051 needed the next free ID.** Row written retroactively, ACTIVE, re-review 9/15. ML-191.
-
-**⚑ AND ONE AT BOOT: every timestamp RED wrote on 8/27 ran AHEAD of the wall clock** — the "~3:xx PM" addendum committed 12:22, board_log's last S34 row stamped 13:1x for work committed 12:12. **Historical stamps NOT rewritten (they are the evidence); forward-only correction on STATUS's state line.** Order S34's endings by the commit graph.
-
-**🔴 NEXT SESSION — one item arrived mid-session and is NOT started:**
-1. **🔴 FRI 8/28 10:00 ET — QCEW. Unchanged, still the top item. Read the number, name the band, execute as tabled. Do not improvise.**
-2. **🟠 C8 POST-CLOSEOUT REVIEW — ASSIGNED TO RED** (Will picked RED from the ruled RED-or-DAEDALUS pair; PROME built and ran the pilot so cannot review it). Object: `KERNEL/GATE_C_C8_CLOSEOUT_PACKET_2026-08-27.md` (`82fdb902b`); assignment `inbox/2026-08-27_from-PROME_C8-review-assignment-...` (`bbebc4429`). Pilot completed in-window: 2 SAM-33 events accepted, kernel commit `01478b659`, check-views + additions-only PASS. **Five discrepancies recorded — D2 (PROME's own activation doc drew the first live refusal, timestamp format — RED has a prior here: RED's C7 probe produced four false REFUSALs on RED's own malformed timestamps), D3 (byte-identical criterion unsatisfiable for views by tool design; Will ruled PROCEED), D5 (SAM-found: "no push during the sitting" is unhonorable under the push-train — four commits reached origin mid-window via a peer's sweep).** **Deliverable: continue / pause / remediate / end, TO WILL not to PROME.** **No hard clock** — the activation expired at its own 18:00Z bound, so nothing is live while it waits. **Re-derive everything; accept none of PROME's framing** (their instruction, and it is the standard that made RED's C7 delta re-review catch a real gap in the first fix).
-3. **🟠 CHG-051's owed deliverables — do NOT half-ship them:** `Last_Reviewed` + rolling base rate on every registry row (the cheap fix, where the value is) · an outcome axis with **pre-committed** proxy/horizon · **FT-01's label adjudicated.**
-4. Unchanged: CARL V2 (owner dark) · 9/3 30Y JGB rail · 9/4–9/11 re-spec window (now FT-01/FT-04/FT-07/FT-08/VX-004) · 9/12 VX re-review · 9/15 CHG-044 **+ CHG-049** · 9/30 CHG-042 backstop.
-
-**OPEN THREADS — one CLOSES:** ~~RED has no apparatus self-challenge~~ → **CLOSED, CHG-051 live (1 of 3 self-challenges is now apparatus-class).** Still open: publisher-side routing unfixed as a class · VX-004's dead flip line · CHG-042 blocked to 9/30 · independence discount (ML-133).
-
-**PENDING WILL-DECISIONS:** none blocking. **C8 sequencing is yours** — RED deferred rather than pivoting mid-task; it has no clock and QCEW outranks it.
-
-**GIT STATE:** on master; S35 committed path-scoped (`AGENTS/RED/` only); nothing written into `KERNEL/`; safe-push at closeout.
-
----
-
-
-**🆕 S34 ADDENDUM (~3:xx PM ET) — PHASE 2.5 BUILT ON WILL'S WORD. NO WEIGHT MOVED: HOLD 69 / net-bear 60.**
-
-**`RED-FT-11` REGISTERED + ROUTED** — the Treasury-buyback attribution classifier. The item that had been displaced three sessions running is done, **thirteen days before it goes live (9/9)**.
-
-- **The question is about MY book, not the fleet's:** is my strongest bear row (30Y / 10Y real, 30/70) measuring the economy or the Treasury? Since S29 the real-rate grind is **Managed Decline's defining mechanism**, and a buyback lands on it.
-- **⛔ Premise struck before building: *"9 Sep is UN-PRICED"* — which I had put on THREE surfaces including a packet to PROME — was already ruled UNSUPPORTED by TERRY.** FT-11 does not rest on it. **Sixth instance today of carrying a claim another desk had impeached.**
-- **⚑ First design killed by its own base rate, PRE-registration:** a bare trigger fired 4/657 = 0.61% (the FT-03 problem). **An attribution question needs a CLASSIFIER, not a threshold.**
-- **Design:** precondition Δ`DGS30` ≤ −10.2bp/5d (12.2%); then FLOW / FUNDAMENTAL / NO-VERDICT, disjoint. **`30Y−5Y` beats `30Y−10Y` because 10Y is INSIDE the bought 10-30y bucket** — same 8/19 tape, 2.13sd vs 1.67sd.
-- **Prior runs AGAINST flow: 88.8% of ≥1sd 30Y rallies were fundamental; 0 of 43 at ≥1.5sd.** The 8/19 announcement day validates into FLOW.
-- **Action is asymmetric on purpose: FLOW moves NO hypothesis weight** — it downgrades the 30/70 row to 50/50 and flags Managed Decline mechanism-un-instrumented. **A FLOW verdict says the 30Y stopped reading the economy, not that the economy improved.**
-
-**⚠️ NEXT SESSION — one item is now HIGHER than it was:** FT-11's precondition is **manual by design** (`boot.py` prints ⚪; a three-leg window classification has no single-metric form). **Nothing will remind me to run it.** ⇒ **Add the mappable half — Δ`DGS30` 5-session — to `boot.py` so the tool at least surfaces WHEN TO LOOK.** *(This is the `[[finding_mechanize_the_cap_not_the_ritual]]` class: a deferrable manual check wants a boot check, not a remembered ritual — and I have just created one.)*
-
-**Housekeeping this addendum:** STATUS hit **217 of its 200-line cap** — the rule I enforce on other desks — so the **S31 + S33 narrative was archived** to `reports/2026-08-27_S31-S33_status_narrative_archive.md` with a pointer; STATUS back to **193**. CHANGELOG, MAINTENANCE, CATALYSTS (9/9 row), OUTBOX -023 and NEXUS_BRIEF all folded this ending per **A4** (registered-trigger state changed, so W3/W8 were mandatory rather than optional).
-
----
-
-
-**🆕 S34 (2026-08-27, ~9:14 AM – ~2:xx PM ET) — Will-directed boot after 7 dark days, then a Will-assigned KERNEL Gate C adversarial review. NO WEIGHT MOVED ALL SESSION: HOLD 69 / net-bear 60.**
-
-## CHANGES SINCE (S33c 8/20 closeout → this boot)
-
-- **Bear's strongest row WEAKENED:** 10Y real **2.43 → 2.32** [FRED 8/25]; 30Y 5.23 → 5.17. The real-rate grind — the 30/70 row carrying the bear alone — eased.
-- **Tail/dispersion leg STRENGTHENED:** CCC **1023 → 1039**; **CCC−HY gap 751 → 769**, reversing the 8/12 "no further decompression" note. ⚠️ **Per VIOLET's discipline (adopted): this re-widening gets NO grade on a spent test — it needs a FRESH pre-registration or nothing.**
-- **^SKEW: NINE closes >140** [8/17–8/26], high **145.64** [8/24]. No weight — >140 is the MODAL state (54-65%); run length is not evidence. FT-10 (≥150 s=4) 7.04 away.
-- **VIX 16.01 [8/20]** — the session WALTER twice pre-flagged. **1.99 below FT-06's exit (≥18 s=5), which I wrote pre-data 8/12.** It held without a judgment call.
-- HY 270 (WL-03 re-arm 10bps away, moving AWAY) · Brent 87.5 (WL-11 firing deeper) · USDJPY 159.45 · 5y5y 2.33.
-- **Treasury buyback:** the 30Y round-tripped the announcement ~99% in three sessions; **TERRY ruled the 30Y-LEVEL framing UNDETERMINED in both directions.** §3 survives and is what RED needed: **9 Sep is an UN-PRICED event, not a pre-priced one.**
-
-## WHAT I DID
-
-1. **Inbox drained 3/3** (CARL, VIOLET, HENRY), board_log caught up (6 BOARD + 9 session rows), top level CLEAR.
-2. **CHG-RED-049 opened — CARL, STRONG.** Their inverse-configuration auto-DQ read is a legitimate hypothesis and an illegitimate inference: **the mechanism they KEPT (Philly Fed extensions) empties the delinquency stock WITHOUT loss**, so the paper supplies the benign explanation for the exact observation they read as adverse. Flow legs +15bp/+3bp on one quarter, no noise floor, and one pipeline observed twice. One-quantity registration offered.
-3. **HENRY answered — and the finding is against me.** Their item ② premise was false (FT-06's exit was defined 8/12), **but FT-06's `recipient_chain` names HENRY as an info-consumer and I routed the fill to PROME only.** The ORACLE defect with RED as publisher. cc VIOLET, same gap.
-4. **CHG-048 RESOLVED-CONVERGED** at SAM's Will-authorised unseal. Split: 4 overlap / **~7 NOVEL to RED**, including two entire attacks (C: the killer set was blind to ~96.5% of its object; D: the registered prediction resolved TRUE under both hypotheses and was about to be written to PREDICTIONS.tsv). **I withdrew my own A.2** on SAM's sealed counter — it refuted a claim the candidate never made.
-5. **FT-08 found broken (ML-183/184)** by running SAM's promoted memory against my own registry.
-6. **QCEW tree written and FROZEN** + **RED-22** registered and amended 3× pre-data.
-7. **Berger verified at the primary** (`api.bls.gov` works where `bls.gov` 403s) — then LABOR's circularity charge conceded and their replacement refuted (**the ratio is seasonal, 0.591pp**). Net: **change finding, not level finding.**
-8. **KERNEL Gate C review + two delta re-reviews** — PROCEED, 2 MODERATE findings, both closed by mechanism, **CHG-050 RESOLVED**. Nothing written into `KERNEL/`.
-9. **DFII10 label re-corrected on the third pass** (BOND's canonical string adopted verbatim), and **KB-067's core claim SPLIT**: real-rate half confirmed and strengthened, **policy-path half downgraded to CONTESTED** — then **re-grounded** on BOND's objection so it is not hostage to their instrument.
-
-## ⚑ THE SESSION'S FINDING, AND IT IS ABOUT RED
-
-**Five defects on my own book. Every one surfaced by another desk. Self-found: ZERO.**
-FT-06's unrouted exit (HENRY) · FT-08's inert leg (SAM) · the DFII10 label and then its grounding (BOND ×2) · RED-22's cross-instrument comparison (LABOR).
-**ML-185 supplies the mechanism** — *an author's self-attack list defends the ARGUMENT and is structurally blind to the APPARATUS* — and the mirror is exact: **CHG-027 and CHG-028 both attack the argument; neither attacks the apparatus.**
-⇒ **ADOPTED: every self-challenge declares ARGUMENT or APPARATUS, and RED carries ≥1 live APPARATUS self-challenge at all times. Currently 0 of 2 — this is the first NEXT-SESSION item.**
-
-## NEXT SESSION (dated, priority-ordered)
-
-1. **🔴 FRI 8/28 10:00 ET — QCEW. Read the number, name the band, execute the row as tabled. Do not improvise.** Then G1–G5 answered in writing, W2/W3/W8. **Same day: CHG-046 + CHG-043-B (NEXUS).**
-2. **🟠 Open RED's first APPARATUS self-challenge** (per ML-185). Candidate: the registry's own conjunction legs — S30 base-rated whole ROWS and could not see leg structure.
-3. **🟡 CARL V2 — was due 8/24, owner dark since 8/20.** Grade on their boot; not RED's instrument to move.
-4. **🟡 9/3 30Y JGB — CHG-047 / CH-009 / CH-012.** Perimeters now STATED in the rail. SAM owes: the perimeter line, marginal base rates vs their product, and whether the inward leg is independent.
-5. **🟡 9/4–9/11 — FT-04 / FT-07 / VX-004 / **FT-08** re-spec, on a day the bear is not losing.**
-6. **🟡 9/12 VX 9-vector re-review** · **9/15 CHG-044** · **9/30 RED-04 + CHG-042 hard backstop** · **~10/21 IQHQ** · **10/14 + 11/10 CHG-028**.
-7. **Daily:** ^SKEW vs 150 / 140 · HY vs 280 (10bps) · CCC vs 1000 (1039, gap 769) · WL-11 Brent <95 · USDJPY vs 160 (0.55) · VIX vs FT-06 exit ≥18 s=5.
-
-## OPEN THREADS
-
-- **🔴 RED has no apparatus self-challenge.** Item 2 above. The single most transferable thing from this session.
-- **CHG-042 ACTIVE-BLOCKED, hard backstop 9/30** — freight/insurance residual unverified 41d, **second** re-date. If the input is not found by 9/30 it retires UNVERIFIED and scores nothing. First test at the backstop: **unavailable or merely unfetched?**
-- **VX-RED-004's flip line is still dead** (`30Y JGB >2.5%` vs ~4.1%) — re-spec at Phase 4, do NOT carry it into 9/3.
-- **Publisher-side routing is unfixed as a class.** I fixed the HENRY instance; nothing yet serves a registry row's `recipient_chain` at the write that changes it.
-- **The Treasury buyback (Phase 2.5, Will-ruled ahead of Phase 3) is STILL NOT BUILT.** BOND/TERRY have graded enough; 9 Sep is un-priced. **This is the analytical task that keeps getting displaced by inbound work.**
-- Independence discount stands (ML-133) — and now also RED↔LABOR on QCEW, stated in both directions.
-
-## PENDING WILL-DECISIONS
-
-- **None blocking. ⚠️ SUPERSEDED WITHIN THE HOUR, corrected rather than left to rot:** the C7 packet, Will's activation ruling and the attended pilot were all queued for a **Sat–Sun 8/29-8/30** window when the section above was written. **Will has since ruled the sitting for TODAY 8/27**, explicitly waiving his own day-boundary rider — **RED's same-day independent re-review was cited as satisfying the rider's fresh-eyes substance.** ⇒ **The pilot runs this afternoon: PROME as writer, Will attending, and RED is DORMANT IN CUSTODY BY DESIGN — nothing is needed from this desk during it.** *(My date-discrepancy flag was confirmed: PROME's "Sat-Sun 8/30-31" was a carried error from the 8/26 handoff that had survived four surfaces including the packet headed for Will; corrected there with the catch credited. `[[finding_dated_carry_item_has_no_expiry_check]]` — and this very line is the second instance today, caught because I re-read my own handoff after the state moved.)*
-- **🆕 FORWARD SEAT, not yet dated:** RED holds a **C8 post-closeout review seat** (RED or DAEDALUS, **never PROME** — builder-reviewer separation). **It arrives after the pilot closes out, so expect it at the next boot.** Do not pre-judge the pilot's outcome; the seat is a review, not a ratification.
-- **FYI:** tomorrow's QCEW moves a weight on four of five branches. The tree is frozen and the magnitudes are pre-registered, so it executes without a decision from you — but Soft Landing's labor-side re-mark has been pre-committed to it since 8/12.
-
-## GIT STATE (one line)
-
-On master; S34 committed path-scoped (`AGENTS/RED/` + carve-out ① packets to CARL/HENRY/VIOLET/SAM/LABOR/DAEDALUS + `PROME/inbox/` review copies + the `AGENTS/SAM/red/` rail under RED's editing right); **nothing written into `KERNEL/`, verified at each commit**; safe-push at closeout.
-
----
-
-
-**🆕 S33 (~2:20–3:5x PM ET) — Will-directed OPEN-ITEMS SWEEP + REVIEW-DEBT PHASE 1. NO WEIGHT MOVED: HOLD 69 / net-bear 60. Third session-ending of 8/20; W-A floor + A5/A6/A7 conditionals run.**
-
-**WHAT I DID**
-1. **✅ Mechanical fix (Will-approved at boot): the "dead" WALTER lane was live.** 10 files 8/13–8/18, WALTER's own commits, fleet-wide (23 agents ~216 files). All 10 had been caught by boot 1.5 and logged `source=BOARD` — **nothing lost, and that is the finding: the redundancy covered for the spec.** Step 5.5 rewritten NO-OP → **LIVE** (consume/log/`git mv`, no-double-log rule, destination named — I moved them to the wrong `processed/` first and self-caught). Lane drained to `inbox/WALTER/processed/` (117). MAINTENANCE entry. **Standing obligation added: any boot that changes the channel list runs `ls -R inbox/` and reconciles every directory holding files against a numbered step.**
-2. **✅ Full open-items sweep delivered to Will** → 5-phase plan (below).
-3. **✅ PHASE 1 EXECUTED — KB.tsv past-Stale_By 33 → 9**, two atomic passes (tab-split, field-count validated whole-file pre+post, `.tmp`+`os.replace`; **never `csv`**, ML-168). 24 rows edited. `schema_check` ✅. ML-112/113/114 status-rot closed. **ML-180/181/182 filed.**
-4. **⚑ FIND ① — KFRC Q2 (7/27) never reached a RED surface, 24 days, and it runs AGAINST my book.** KB-012's conditional is a conjunction; it broke on RHI (RED-05 CORRECT 7/24, recorded on five surfaces same-week) so the KFRC leg went **scoreless — and scoreless is exactly what nobody writes down.** Tech Flex +4.0% YoY (from +0.2% Q1), Direct-Hire +27.6%, 3 consecutive quarters of revenue growth; LABOR cut LAB-11 55→50. **No weight owed by the letter; none taken. ROUTED to 8/28 QCEW, deliberately NOT pre-judged.** ML-180.
-5. **⚑ FIND ② — the published VX staleness figure was wrong in my favour and hid the vector that matters most this week.** *"7 of 14"* → measured **9 of 17**; the omitted row is **VX-RED-004 (SAM / Japan Muddle-Through, FLIPPED-BEAR 20/80, unreviewed 79d)** whose **`Flip_If` is "30Y JGB >2.5% sustained" while the instrument is ~4.096%.** FT-04/FT-07 class, third location. **Needs a RE-SPEC, not a re-review.** ⚠️ Flagged now because CH-009/CH-012 next adjudicate at the **9/3 30Y JGB auction**.
-
-**THE PLAN (Will-approved shape; phases fit the gaps between dated work)**
-
-| Phase | Window | Content | State |
-|---|---|---|---|
-| **1** | 8/20 | Review debt: KB triage + label-rot + VX reconcile | **✅ DONE** (residual 1b below) |
-| **1b** | next | **9 KB rows left — all cross-agent reads**, do NOT re-derive: KB-046/052 (FL → DEWEY/CORAL) · 047 (Bain CLO → BROCK/LIQUID) · 049 (CRE-DQ → REGINALD) · 053 (rates/term-premium → BOND) · 054 (consumer → CARL) · 056 (retention-ratchet → LIQUID) · 057 (BCRED → BROCK) · 062 (oil → BRENT) | open |
-| **2** | **✅ DONE 8/20** | `review_debt.py` + boot 9c · NEXUS_BRIEF header `vS29`→`vS33` · **IQHQ row RE-ANCHORED** (not a missing date — a resolvability problem; Aug passes with no print, ~75% of the tree) · **retirement sweep run** (3 archived, 3 held: the KRE cluster is a GRAPH, not files) · **OUTBOX -021 to PROME** (fleet proposal + the coverage-axis warning). Original scope: **NEXUS_BRIEF header** (body current to S32, but line 3 still reads `Status: 🔴 vS29` and line 6 `Thesis version: S29`) · IQHQ undated 🔴 docket row · retirement sweep · **and extend the staleness check to read row-level `Stale_By` + VX `Last_Reviewed`, or Phase 1 recurs on a 30-day clock** (ML-182) | open |
-| **2.5** | **8/21 — ✅ WILL RULED: JUMPS AHEAD OF PHASE 3** | **🔴 THE TREASURY BUYBACK INSTRUMENT — now the next analytical task.** A yield suppressor landed on the 30Y, the bear's carrying card and my strongest counter-signal row (30/70). Nobody's registered instrument. BOND/TERRY own mechanics (SIG-819-030) — watch their grades first | open |
-| **3** | 8/31–9/2 | T11 (R13 KRE collision) → **reconstruct T12/T13 or formally retire them** — their definitions exist in NO RED file while STATUS + SCRATCH both cite them as queued work | open |
-| **4** | 9/4–9/11 | FT-04 / FT-07 re-spec, on a day the bear is not losing. **ADD VX-004 to this** — same defect class | open |
-| **5** | 9/12 | VX 9-vector re-review (already dated) | open |
-
-**LOCKED / IMMOVABLE (the debt fits around these, never through them):** 8/21 Jackson Hole + OZK/KRE Aug expiry · 8/24 CHG-042 + CARL V2 · 8/27 CHG-048 (SAM unseal) · **🔴 8/28 QCEW + CHG-046 + CHG-043-B** · 9/3 30Y JGB (CHG-047) · 9/15 CHG-044 · 9/30 RED-04.
-
-**OPEN THREADS — S33 additions** (S32's list below still stands in full)
-- **VX-RED-004's flip line is dead and I did not notice while adjudicating the same instrument.** Re-spec at Phase 4; do not carry it into 9/3.
-- **Nothing checks `Stale_By` or `Last_Reviewed`.** `ledger_staleness.py` reads FILE vintage — KB.tsv scored clean with 38% of rows past their own review dates. Phase 2 fixes the check, not just the file (the T7 lesson, restated).
-- **The KB disposition rule is now two-dimensional** — STATUS decides whether review is *scheduled*, CITATION decides whether contents must be *current*. Applies to any agent with a review-date column.
-
-**PENDING WILL-DECISIONS:** none blocking. **Both S33 questions RULED by Will 8/20: (1) YES — Phase 2.5 jumps ahead of Phase 3. (2) YES — Phase 2 fixes the CHECK, not just the rows.** Ruling (2) is executed and shipped this session (`review_debt.py` + boot 9c). Ruling (1) makes the Treasury buyback the **next analytical task, ahead of T11/T12/T13.**
-
-**⚑ S33b SELF-CORRECTION, logged because it happened to a figure I had just corrected:** the new tool's FIRST RUN caught that *"9 of 18 live vectors"* — published on four surfaces hours earlier — was wrong. `VX.tsv` has a banner on line 0 and the HEADER on line 1, so `awk NR>1` **counted the header row as a vector.** True figure **9 of 17.** Numerator unaffected, so the error lived only in the denominator and flattered the ratio. Fixed on all four surfaces + the VX banner (which was carrying the older wrong *"7 of 14"*). **Two published counts of the same quantity, both wrong, both in my favour, inside one session** — the tool earned its place on its first execution. Skip-banner rule now lives in `rows()` with the incident in its docstring: **a prose warning inside a file does not parse.**
-
-**S33c — PHASE 2 CLOSED. Three items, and each turned out to be a different thing than the sweep called it:**
-- **IQHQ was never a missing DATE.** OZK mgmt (7/22 call): multi-year extension + recap in negotiation, interest from pre-established reserves, *"will remain a pass-rated credit"*, ~92 days to disclosure → **OZK's own STATUS says "likely no Aug print."** A-extend 30% + B-migration 45% = **~75% of the tree produces nothing observable in August.** Row re-anchored to the **Q3 call ~10/21 [DATE EST, labelled — the WAL V4 tilde lesson]**, with the standing guard written in: **an August that passes quietly is the MODAL path and is NOT evidence** (Option-2 ruling already covers it — recognition counts through the Q4'26 print absent an EXECUTED extension). ⚠️ **And I was carrying the owner's superseded number: $140M weighted EL → ~$129M** (OZK 7/23 re-weight, Will-approved), 28 days stale.
-- **Retirement sweep: 3 archived, 3 held.** `CHG-RED-005_EVENING_CHALLENGE` · `CHG-RED-005_REVISED` · `RUSSIAN_OIL_CHALLENGE`, each zero-ref on four axes incl. a **fleet-wide external grep**. ⚑ **Held: the three KRE challenge docs — because the candidate list is a GRAPH, not a list of files.** They are cross-linked to `workbook/KRE_EXECUTIVE_SUMMARY.md`, the T11 collision half already held back; retiring the leaves leaves that root pointing into `archive/`. **The whole KRE cluster moves after T11 or not at all.** Method note in `archive/README.md`: a file with zero referrers can still BE a referrer, and inbound-link counting is blind to that direction.
-- **OUTBOX -021 (PROME/DAEDALUS): 16 desks carry `Stale_By`, and 5 carry it DEAD** — FALCON/HAWK/HOMER/LABOR/WAL, **0 of 792 rows dated.** On a naive check those five rank **best in fleet.** **An unpopulated field scores perfectly**, so a review-date check without a COVERAGE axis rewards deleting the field over honouring it. Told PROME explicitly **not** to circulate the raw 767 fleet total — RED's own raw 33 was ~73% noise, and a number that reads unaffordable gets deferred, which is how this debt survived here.
-
-**GIT:** S33 committed path-scoped (`AGENTS/RED/` + auto-memory carve-out ③); safe-push at closeout.
-
----
-
-**🆕 S32 CLOSEOUT ADDENDUM (~2:2x PM ET) — second half of the day, after the ~1:45 PM full write-back below. NO WEIGHT MOVED all day.**
-
-- **✅ MI3 Q2 GRADED — bin (c), V1-demotion confirmed on the tree's OWN basis** (WAL 21.2 legacy; the 24.2 baseline REPRODUCES; same print = 8.99 uniform = would-be bin d, which is why the basis had to be named first). Graded on REGINALD's ×2-verified 8/13 pull — no re-pull. Weight actions SUPERSEDED (CHG-027(c)/S28b already priced the narrowing). Caveats live: WAL MI3 **dollars +13.7% YoY**; EGBN **#1 uniform basis + worst NCO**. Leg stays OZK+EGBN. `research/MI3_Q2_2026_GRADE.md`, ML-179. Both owed 37.6% corrections executed + a second defect found beside the flagged one (6-quarter window labeled 2q).
-- **⚑ 18-PACKET INBOX BACKLOG FOUND AND DRAINED 18/18.** Root cause structural: the boot spec enumerated BOARD + a retired lane, never the general inbox — **boot step 5.6 ADDED to CLAUDE.md this closeout** (disposition obligation attached; MAINTENANCE entry; auto-memory extended; DAEDALUS flagged via OUTBOX -019; PROME confirms root-cause-consistent with YEYOU YEY-011 + WALTER telemetry, ~9/2 DAEDALUS pass aware).
-- **✅ CHG-045 ANSWERED — (A), NO REOPEN** (packet to CARL, cc PROME): a count reset is legitimate iff **ex-ante-selected AND shadow-graded** — the two conditions ML-161 lacked, both present; (B) would keep a 25%-base-rate leg as live noise. Riders: card should state leg 2 IS the kill; servicer caveat stays the binding Will-gate. Resolves Nov HHDC, both counts.
-- **✅ CHG-048 OPENED AND DELIVERED SAME-DAY — BLIND pass on SAM's v2.0 candidate** (seal respected, ATTESTED; redirect honored, §2 skipped). **Verdict: KILL as successor frame / salvage 4** — §3 killed (accounting identity without elasticity; SAM's own intervention table refutes it), §4 killed (0/7 rows discriminate vs K1's rival), §8 killed (circular unification), §6 prediction registration killed as specced (attribution escape hatches + TRUE under both hypotheses); **K1 process graded SURVIVES.** New instrument handed over: **3m JPY xccy basis** = daily-frequency discriminator for the latent swap book. `challenges/2026-08-20_SAM_V20_BLIND_PASS.md`. **Re-review 8/27 at SAM's unseal — overlap/novelty split requested back.** PROME notified the BOND/NEXUS hold can lift.
-- **✅ Rest of backlog:** ORACLE label fix applied ×2 RED surfaces (71.5 = aggregate contract; grades unaffected) · TRY-FIRE-006 premise archive-note to TERRY (ALIVE-NOT-STRENGTHENING, UNGRADED ≠ refuted — card was Will-retired 8/18 eve) · **CHG-043 FALCON leg CONVERGED** (P/K/R live on their STATUS; NEXUS 043-B → 8/28) · CHG-044: BROCK's E3 packet resolves 1 of their 3 owed items (register defect confirmed; E3b dependency removed) · 10 quick-files logged.
-- **NEXT SESSION amendments to the list below:** #1 MI3 ~~owed~~ **DONE**. **NEW: 8/27 CHG-048 re-review (SAM unseal)** · the boot-5.6 step runs for the first time next boot · PROME 8/12 convention item pending: align registry rows to DAEDALUS's canonical basis-encode when it lands, **flag-before-encode the N5 cash-index seam**.
-
----
-
-**Session 32 — Thu 2026-08-20 ~11:54 AM–2:00 PM ET, Will-directed catch-up boot after 8 dark days (S30 8/12 was the prior domain session; S31 8/17 was the out-of-domain SAM-rail spawn). Will's ordering executed as given: ① SKEW ruling → ② board_log/W2 hygiene → ③ CHG-047 adjudication. Then Will's word: ④ MI3 (task #1) → ⑤ backlog per PROME's four riders. NO WEIGHT MOVED — HOLD 69 / net-bear 60.**
-
-## CHANGES SINCE (S30 closeout 8/12 → this boot)
-
-- **^SKEW (CBOE equity) re-crossed my 140 line: 142.91 [8/17] / 143.60 [8/18] / 142.93 [8/19]** — WALTER flagged the first close `action:[RED]` (SIG-818-004); my pull confirmed and extended. The *"no re-cross"* premise carried since S28 died on the tape.
-- **Rates regime event:** 30Y printed **5.31 [8/17], a 19-year high**, long-end highs in FOUR sovereigns at once — then **Treasury doubled 10-30y buybacks 8/19** (eff. 9/9; El-Erian calls it YCC, Treasury calls it liquidity support). A policy suppressor landed directly on the bear's real-rate-grind leg.
-- **July FOMC minutes released 8/19:** staff wrote the equity premium has been lower only during dot-com (spread, not level — the 30Y denominator is doing work); participants did NOT walk back "payroll gains had strengthened this year" (meeting pre-dates the −23K print).
-- **War/oil:** MOU expiry passed with NO kinetic conversion — 20 consecutive quiet nights (FALCON: "unchanged is not reversed"). First confirmed hostile sinking of the campaign (8/5) was in the WRONG SEA (Bab el-Mandeb) — Gate 2 not fired. SPR <300M bbl (1983-fill territory). Record diesel crack $101.98 [8/17], gave back $2.84 next session while the gasoline crack collapsed. Brent bar 93.8 (+2.4% on 8/20) — **WL-11 (<95) FIRING** (CHG-027 sub-trigger (d) price leg).
-- **Bull-side growth datum:** **ISM mfg employment crossed 50 after 33 months, PMI 55.6 = 4-yr high** (July print, surfaced via a coverage-gap signal) — direct tension with NFP −23K.
-- **Tape at boot:** VIX closes 8/13-8/19 all sub-16 (FT-06 state intact); HY 273 / CCC 1030 [8/19]; claims 206K [8/15]; 5y5y 2.32; USDJPY 158.9 (backed off 160).
-- **N5 v1.1 adopted fleet-wide** (capture-time clause; settlements strike 14:30 ET) + a **null/missing-bars price-source defect class** (TERRY's variant: bars ABSENT, zero nulls — sibling-count is the control).
-- PROME's 8/20 morning: seven desks ran; KRE repriced (alpha −3.00%, credit NOT confirming), TRY-FIRE-001 kill tripped pending Will; **RED+REGINALD named co-top for the second wave** — this session is that spawn.
-
-## WHAT I DID
-
-1. **✅ THE SKEW RULING (SIG-818-004, action:RED) — NO weight moved, and the base rates reframed the question.** Re-cross FACTUAL ×3; premise corrected on STATUS ×4, NEXUS_BRIEF, CALENDAR. **Kill stays banked** — no exit existed, and a retro-exit in the bear's favour is the ML-161 ratchet. **The naive symmetric re-arm (>140 s=4) was measured and REJECTED: 54-65% of sessions = the index's MODAL state** — the 140 line was one-way by construction; the EVENT was the sub-140 spell (11.5%). **Joint finding: conditional on VIX<16, SKEW>140 co-occurs 92%** — the "loaded spring" is the default calm tape; **what validated managed-decline was the 2.0%-rare joint state VIX<16 AND SKEW<140, now ended.** ML-RED-177.
-2. **✅ FT-10 REGISTERED PRE-DATA: `^SKEW-CBOE ≥150 s=4 → Acute +2 / Managed −2`** (7.5% 18-mo base rate, rarity-symmetric with the kill; 7.07 away at registration; **exit = the kill line itself** — the pair is now two-way). Grading basis declared in-row: Yahoo ^SKEW publishes LAGGED → the tool reads completed sessions, the INVERSE of FT-06's basis defect. Named `^SKEW (CBOE equity)` everywhere per the 3y10y-swaption naming collision (SIG-819-031).
-3. **⚑ FOUND AND FIXED PRE-DATA: boot.py's comparator evaluated every non-`>` operator as `<`** — a mapped `>=` row would have printed a SIGN-INVERTED false FIRING (≥150 read as <150 at 142.93). FT-08 was shielded only by being unmapped. Explicit four-op dispatch now; unknown op raises. ML-RED-178. Also: ^SKEW added to TICKERS/METRIC_MAP; functional verify both directions; schema_check clean.
-4. **✅ FT-06's five fire closes re-verified as REAL bars** (SIG-813-002's ask): exact match, complete session sequence, sibling-controlled.
-5. **✅ WALTER packet** answering five asks in one file (re-cross ruling · grading basis · FT-10 registry notification incl. the comparator warning · FT-06 re-verify · **dot-com inoculation HOLDS vs the Fed** — an authoritative source making a weak inference strengthens the fact, not the inference; falsifiable exit registered: HENRY's decomposition coming back numerator-led would flip me).
-6. **✅ board_log: 28 dispositions** (5 action consumed in full; 23 info-cc triaged honestly) — boot.py §⑤ clears 🟢 0/0.
-7. **✅ Passed catalysts dispositioned (W2/W4):** **FOMC minutes RESOLVED bull-branch** (labor = satisfied side-constraint; own primary fetch; vintage caveat carried) · **FFIEC MI3 cadence CONFIRMED** — bulk PDD = report date + 45 calendar days → Q2 public since ~8/14 ⇒ **PUBLIC-AND-UNFETCHED (ML-136), the pull is OWED** · **CARL V2 pushed 8/17→8/24 with reason** (owner dark since ~8/13; grade runs on CARL's boot against OTTO's 8/15 self-corrected framing).
-8. **✅ CHG-043 re-review (was due 8/15, caught 5d late by the DUE-scan): the FALCON leg is CONVERGED** — the P/K/R split is LIVE on FALCON's STATUS labelled "RED CHG-043," Will-ruled holds running inside it. NEXUS 043-B leg re-targeted 8/28.
-9. **✅ CHG-047 / SAM-rail 8/20 adjudication (the 20Y JGB auction day):** **CH-016 CLOSED RESOLVED-DISMISSED-CONVERGED** — SAM registered the frozen discriminator BEFORE the deadline on a form STRONGER than I offered (JGB 2Y cash retires the impeached-OIS dependency), and **their self-found scope defect (two-hypothesis universe, no third-driver branch) applied equally to MY proposed form — recorded against RED.** **CH-009 adjudicator #1 NO-VERDICT** on the frozen bright line (BTC 3.982× / tail 1.5bp — CONFIRM leg did not fire; DISMISS half-satisfied; **the original letter's >4.0% LEVEL is met [×5 MOF closes, series high 4.096, uncapped] but the character conjuncts (velocity, cascade) are absent** — graded against my own favouring drift). CH-012 interim NO-VERDICT (chained to the driver attribution). Rail **3 OPEN / 12 CLOSED**; CHG-047 re-targeted 9/3; SAM adopted CH-017's relabel (SAM-41 = mechanism marker, not a trade bar).
-10. **✅ STATUS mirror row for CHG-047 added** (S31 Doc-Mirror gap — the row existed only in the workbook). OUTBOX -017 (SKEW) + -018 (rail) shipped; NEXUS_BRIEF folded; CHANGELOG S32 entry; MAINTENANCE entry (FT-10 + boot.py); auto-memory `finding_base_rate_the_threshold_before_building_it` EXTENDED (Incident 3: base-rate BOTH directions; one-way-line class) — no new index row needed.
-
-## NEXT SESSION (dated, priority-ordered)
-
-1. **🟠 Q2 FFIEC MI3 PULL — owed, no longer excusable:** public since ~8/14, cadence confirmed at the source. WAL call report (June 30), grade on the pre-registered bins (≥25% = V1 confirmed +3 / <19% = demotion completes). Offered to Will at S32 close as the next task.
-2. **🟡 Fri 8/21 (tomorrow): Jackson Hole (Warsh) + OZK/KRE Aug puts expire** (position surface = Will/broker; TERRY constructs).
-3. **🟡 8/24: CHG-042 re-review + CARL V2 re-check** (pushed from 8/17; grade on OTTO's CORRECTED framing — their falsifier self-refuted 8/15).
-4. **🔴 Fri 8/28 10:00 ET QCEW** — pre-committed Soft-Landing GROWTH-leg decision, now with ISM employment >50 in tension with NFP −23K. Same day: CHG-046 resolution + CHG-043-B (NEXUS).
-5. **🟡 9/3: 30Y JGB auction** — rail CH-009/CH-012 next adjudicator + SAM's CH-016-discriminator full grade (their obligation to name which explanation a NO-VERDICT gets).
-6. **Daily:** **^SKEW (CBOE equity) vs FT-10 ≥150 (7.07 away) and <140 (kill re-fire)** · HY vs 280 (7bps) · CCC vs 1000 · WL-11 Brent <95 (FIRING — CHG-027 (d) price leg, watch what it feeds) · USDJPY vs 160 (1.11) · 5y5y vs 2.55 (23bps) · VIX vs FT-06 exit ≥18 s=5.
-7. **🟡 Queued (unchanged from S30):** FT-07/FT-04 threshold re-spec **on a day the bear is not losing** · ~10/7 pre-write the Sept-CPI core decision tree for 10/14 (CHG-028's real test) · post-audit plan T11 (R13 KRE name collision) → T12 → T13.
-
-## OPEN THREADS
-
-- **📋 Post-audit plan: 10 of 12 closed; next T11 (R13 KRE collision first), then T12, T13.** Unchanged from S30.
-- **⚠️ The Treasury buyback question is nobody's registered instrument on my book:** a yield-suppression operation landing on the 30Y — the bear's carrying card — makes "the 30Y won't rally" partly a policy variable. If the 10-30y sector rallies on buyback flow rather than on growth/inflation, the real-rate-grind read needs a suppressor caveat. BOND/TERRY own the mechanics (SIG-819-030); watch their grades before building anything.
-- **⚠️ VX.tsv staleness alert stays LIT deliberately** (+76d, pinned to the oldest live vector): 7 of 14 live vectors are CARRIED not measured (CARL ×2 · REGINALD ×3 · HENRY · LABOR), re-review 9/12.
-- **⚑ Soft Landing's growth leg now has evidence on BOTH sides** (ISM employment >50 ×1 + PMI 4-yr high + UNRATE falling vs NFP −23K + −103K revisions) — the 8/28 QCEW decision is genuinely live, do not pre-judge it.
-- **CHG-042 residual** (freight/insurance stickiness unverified) — re-review 8/24. **CHG-044:** BROCK still owes the cross-fund utilization series + repurchase primary. **EGBN Q3 (~late Oct)** decides CHG-027. **June MF-starts print:** 36+ days on the MISSING DATA list — apply ML-136 or retire it next session.
-- **Independence discount stands** (ML-133): FT-01/FT-06/SKEW-kill still share the 8/1-cancellation antecedent; the SKEW re-cross does NOT un-share it. Count once.
-
-## PENDING WILL-DECISIONS
-
-- **None blocking.** Offered at S32 close: run the MI3 pull now vs next session.
-- **FYI:** the SKEW ruling moved no weight in either direction — the re-cross was reversion to the index's modal state, not an alarm, and the alarm line that WOULD move weight (FT-10 ≥150 s=4) is registered, base-rated, and 7 points away. If it fires, Acute +2 executes mechanically.
-
-## GIT STATE (one line)
-
-On master; S32 committed path-scoped (`AGENTS/RED/` + SAM rail per S31 precedent + WALTER packet carve-out ① + auto-memory carve-out ③); safe-push at closeout; origin had 0 new at boot, local ahead (concurrent desks pushing all morning — non-ff at push is routine).
+*S36, S36b, S36c, S36d and S35 blocks archived in git history at commit `dbd0b8034` — the C8 review, the six pre-next-sitting conditions, FT-11 pre-data amendment, and CHG-051 deliverables (registry 15→17 cols, `base_rate_review.py`, FT-12 registration, FT-01 relabel). All durable outcomes live in the registry, `CHALLENGES.tsv`, `PREDICTIONS.tsv`, and the S36/S35 CHANGELOG entries.*

@@ -6,6 +6,21 @@
 
 
 
+## 2026-08-28 ~10:5x ET — S38: QCEW preliminary benchmark graded on frozen tree. RED-22 WRONG. NO WEIGHT MOVED — the entry exists because a registered prediction resolved
+
+**Confidence 69 (=). Net-bear 60 (=). Weights unchanged on all six buckets. The framework did exactly what the frozen text said it would do; the probability distribution I built pre-data was wrong.**
+
+- **Print: QCEW preliminary benchmark, March 2026 total nonfarm = −79,000** (private −178K, government +99K; retail trade −154.6K largest single downward). Source: **BLS USDL-26-1425**, 10:00 ET, verified via LABOR primary chain (RED's own `bls.gov` returned 403; RED↔LABOR non-independence discount honored — one chain read twice, per RED-22's own provenance line).
+- **Grade: §3 Band D (−200 < R < +200) → NO VERDICT.** Not a boundary call (|79K| ≪ 200K). §4 Band D → all six weights unchanged, confidence unchanged.
+- **G1-G5 all honored** (STATUS S38 for the yes/no answers). G2 in particular: **LAB-08 does NOT resolve on this print** (final Feb-2027).
+- **RED-22 = WRONG.** Vintage-4 A 18 / B 22 / C 26 / D 20 / E 14. **20% mass on the band that landed; 40% on the falsified A+B leg.** Multi-cat Brier **0.808** vs uniform 0.80 — marginally worse than uniform. Free parameter w (birth-death regime persistence, set 0.30) was too high; the right value was 0.10-0.15. **Recorded as calibration hit; framework behaved.**
+- **Predictions tally: 9 WRONG / 12 CORRECT / 1 ACTIVE (RED-04, 9/30).**
+- **Composition read (does NOT re-grade RED-22 but travels):** private layer −178K = 2.25× the total; the measurement-mis-calibration hypothesis died on the top line but survives on the private consumer-facing sectors. Not RED's read (CARL/REGINALD own it); routed info.
+- **Two-desk comparison:** LABOR (their card, not mine) called Band E, executed vector 8 4→2 and LAB-08 15%→4% — L-23 self-flag on their side that they moved further on the instrument further from the evidence. Berger called direction wrong (upward vs downward), magnitude right (small). RED called direction wrong on the sharp leg.
+- **The transferable finding:** the framework was written to be inconvenient, and it was — a small print pre-committed to move nothing on RED's book while it moved LABOR meaningfully. **That asymmetry is a real property of two independently-calibrated frameworks, not a flaw.** But refusing to call RED-22 wrong because "we didn't need to act" would launder a calibration miss into a process win.
+
+---
+
 ## 2026-08-27 ~14:4x ET — S36d: CHG-051 deliverables executed — FT-01 adjudicated, FT-12 registered, outcome axis live. NO WEIGHT MOVED; the entry exists because registered-trigger state changed on two rows
 
 **Confidence 69 (=). Net-bear 60 (=). No threshold value changed; what changed is what a fire MEANS and what the registry can now DETECT.**
