@@ -29,6 +29,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 4. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log resolution to KB.tsv; never leave OPEN-but-stale (PREDICTIONS section).
 5. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`. WALTER-lane handoffs (`inbox/WALTER/`) drain per the block below.
 6. **Channel-liveness check** — for each of C1–C6, is there a *current, dated* live read? Any channel without one is a **gap to close this session** (the #1 guard), not idle background. Also scan `CALENDAR.md` for any dated catalyst within ~30 days (C6 Colorado River ROD clock lives there). ⚠️ **`seismic/` is NOT part of this check** — it is an event-triggered watch with no standing read obligation (see FILES § Domain workspaces).
+6b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" AEOLUS` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 7. **Execute the task.**
 
 ### WALTER signal intake  (inbox/WALTER delivery lane)
