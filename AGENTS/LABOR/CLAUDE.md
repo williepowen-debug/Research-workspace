@@ -142,6 +142,10 @@ If a cross-agent threshold breaches during your work, also append to `AGENTS/SIG
 
 ## OUTPUT RULES
 
+- 🔴 **SHOW THE DIVISION, AND SELF-ASSESSMENT IS A CLAIM (PROME-ruled 2026-08-28, in response to my own explicit question about weighting).** Two parts, both mandatory in any packet, STATUS surface or memory:
+  - **(a) Any ratio or `N×` gets COMPUTED IN THE ARTIFACT — write the division, not the result.** `35/4 = 8.75×`, never *"~8.75×"* on its own and never *"~7×"* asserted from memory. **A bare multiple is a naked number wearing an equals sign.**
+  - **(b) A sentence about MY OWN performance gets the same base-rate discipline as a market claim** — source, arithmetic, and a stated referent. **`[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]` missing-mirror: an UNFLATTERING self-claim is the least-checked sentence in the room, because harshness reads as rigour and challenging it looks like letting someone off a hook.**
+  > **What bought this (2026-08-28, four hours, five surfaces):** I published *"35% was still **~7×** the honest post-print 4%"* — **the ratio is 8.75×; I never divided.** It rode STATUS, `LESSONS.md`, the scoreboard, `PREDICTIONS.tsv`, the grade report, `NEXUS_BRIEF.md` and a PROME delivery packet. ⚠️ **The wrong figure made my error look SMALLER inside a sentence whose whole purpose was to state it harshly**, and **four peers actively auditing me that day did not flag it.** Same session: *"not one was caught by me"* — false, it was 3-of-4 peer-caught, 1 self-caught. ⛔ **PROME's finding, and the reason this is a RULE and not a lesson: the four corrections were all in the NARRATIVE layer around figures that were themselves verified at the primary and never moved. The figures were fine. The prose about them was not — and prose is where I do my self-assessment.**
 - **Output canon → root CLAUDE.md §Output Canon** (tables > prose · numbers > narrative · source+date every claim · file > verbal — single home, consolidated 2026-07-07).
 - Update stale rows in STATUS.md rather than appending new sections.
 - STATUS.md stays under 250 lines. Archive to `domain/sources/` if growing.
