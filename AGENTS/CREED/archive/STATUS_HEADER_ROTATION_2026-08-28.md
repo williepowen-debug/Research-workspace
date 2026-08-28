@@ -66,3 +66,23 @@
 **The eval suite ran for the first time and found a defect in itself, not just in CREED's reasoning.** Both cases VOID on a literal contamination read (`CLAUDE.md`'s own ALWAYS-LOADED traps name ARI and the MBA line verbatim, so any compliant skip-boot session trips the check) — but the substance is real: case_01 would have PASSED cleanly, case_02 would have FAILED on a genuine partial-lesson-transfer (avoided anchoring to the single most recent print, but still matched the wrong season for a Q3-vs-H2 comparison).
 
 **Prior 7/27 thesis state (ARI lender-economics exit vs KREF credit-loss recognition, S5 demotion, S8 split, the 99.7%-counter-datum framing) is unchanged and archived, not superseded** → `archive/STATUS_CATCHUPS_2026-07-27.md`. Still **pre-bank-transmission**. **FDIC Q2 QBP correction (news sweep, 8/13):** not actually overdue — FDIC.gov confirms its own ~55-day-post-quarter cadence (Q1 landed 5/27, 57 days post-3/31), which puts Q2 at **~8/24–8/29**, still 11–16 days out. The earlier "3 weeks overdue" line in this file conflated CREED's own dark stretch with the print's release cadence; corrected here. `VX-CREED-9.03` office vacancy is now **two cycles** Q1-stale.
+
+---
+
+## THIRD ROTATED BLOCK — `## Legacy Signal Snapshot — Stale Until Refreshed`, crc32 `41ff86ee`
+
+**Feb/March-2026 legacy mechanism map, 601 B.** Rotated because it is **legacy by its own heading**, is a mechanism map rather than state, and is preserved independently at `archive/LEGACY_PULL_FORWARD_2026-06-21.md` and in `CLAUDE.md` §Current Stale-State Warning — which is where a session is actually pointed for it. **Its own closing instruction (*"Use this as mechanism map only. Refresh all levels and dates before quoting."*) is the argument for moving it out of the canonical state surface, not for keeping it there.** Verbatim below.
+
+## Legacy Signal Snapshot — Stale Until Refreshed
+
+Legacy CREED frame from Feb/March 2026:
+
+- CMBS office delinquency / special servicing was severe.
+- Maturity-wall and refinancing-gap risk were core forcing functions.
+- Bank CRE could look healthier than CMBS because of mods, FHLB liquidity, regulatory forbearance, and delayed recognition.
+- Multifamily stress mattered through Sunbelt oversupply and agency/private-channel divergence.
+- Employment was the major transmission trigger into broad bank recognition.
+
+Use this as mechanism map only. Refresh all levels and dates before quoting.
+
+---
