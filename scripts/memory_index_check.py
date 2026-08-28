@@ -115,7 +115,7 @@ _CAPS_FILE = os.path.join(REPO, "scripts", "harness_caps.env")
 _CAPS_DEFAULTS = {
     "MEMORY_HARNESS_CAP_BYTES": "25600",
     "MEMORY_HARNESS_CAP_LINES": "200",
-    "MEMORY_WARN_PERCENT": "80",
+    "MEMORY_WARN_PERCENT": "75",  # = the Will-ruled flow-rule trip line (8/12); re-keyed 8/28 with harness_caps.env — a default that disagrees with the shared file is the exact seam this block exists to close
     "MEMORY_HOOK_WARN_CHARS": "80",
 }
 

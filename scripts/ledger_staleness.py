@@ -107,6 +107,7 @@ and surface the one-line summary; decide freeze-vs-refresh at closeout.
 import argparse
 import datetime
 import glob
+import json
 import os
 import re
 import subprocess
@@ -316,6 +317,86 @@ CADENCE_EVENT_RE = re.compile(r"cadence\s*:\s*event-driven", re.IGNORECASE)
 # data clock (OSPREY 8/20 memo).
 REPULL_RE = re.compile(r"last\s+re-?pull\s+attempted[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)
 HEADER_SCAN_LINES = 40  # event-driven headers run long (WARRISK ~15 comment lines)
+
+# ---------------------------------------------------------------------------
+# "CORRECTLY QUIET" DECLARATIONS + KERNEL BYTE-PINS (2026-08-28, DAEDALUS 8/28 wiring
+# sweep, register leg ② + PROME item 8/27g). One law, four surfaces (STATE_VOCABULARY
+# Class 11 exemption law): a guard family that cannot express "correctly quiet" trains
+# its reader to ignore it. Before this edit the nudge could say EVENT-DRIVEN and nothing
+# else, so three legitimately-quiet shapes all read as "behind" every closeout:
+#   - AEOLUS seismic/ (a folder the CHARTER exempts) -- answered in commit messages,
+#   - CREED CREED_T_FIRED_LOG.tsv (an append-only EVENT ledger with one fire) -- "8 behind",
+#   - MIDAS PREDICTIONS.tsv (a row byte-PINNED by a Kernel submission) -- "18 behind",
+#     where the nudge's remedy ("refresh") is FORBIDDEN on the pinned row.
+# Same FORM rule as EVENT-DRIVEN (PAT-059): `Cadence:`-prefixed, front-loaded, header
+# block only. Bare prose ("scheduled for review", "exempt") never declares.
+#   Cadence: SCHEDULED next_due=YYYY-MM-DD   -> quiet until next_due; counted behind after
+#   Cadence: EXEMPT-BY-CHARTER -- <charter clause>  -> never counted; a bare token with no
+#                                                    clause is MISCONFIGURED (rc 2)
+# Kernel pins are not a declaration -- they are READ from the submissions/events
+# (native_refs[].path + locator), so the nudge names the pinned rows beside a behind
+# ledger and the remedy becomes "refresh only UNPINNED rows". No new state file (Will's
+# no-second-store constraint); the pin set is the Kernel's own record.
+# A2 rule (WALTER 8/26, bought live): an unparseable next_due is rc 2, never a row-skip.
+CADENCE_SCHED_RE = re.compile(r"cadence\s*:\s*scheduled\b", re.IGNORECASE)
+NEXT_DUE_RE = re.compile(r"next_due\s*[=:]\s*(\S+)", re.IGNORECASE)
+CADENCE_EXEMPT_RE = re.compile(r"cadence\s*:\s*exempt-by-charter\b(.*)$", re.IGNORECASE)
+KERNEL_PIN_GLOBS = ["AGENTS/*/outbox/kernel/submissions/*.json",
+                    "KERNEL/shadow/events/*/*/*.json"]
+_PIN_CACHE = None
+
+
+def scheduled_next_due(path):
+    """None if no `Cadence: SCHEDULED` declaration; ('ok', date) if next_due parses
+    (strict YYYY-MM-DD); ('unparseable', raw) otherwise -- rc 2 at the caller."""
+    for line in _header_block(path):
+        m = CADENCE_SCHED_RE.search(line)
+        if m and m.start() < MARKER_COL_CAP:
+            d = NEXT_DUE_RE.search(line)
+            raw = d.group(1).strip().rstrip(".,;") if d else "<none>"
+            mm = re.fullmatch(r"(\d{4})-(\d{2})-(\d{2})", raw)
+            if not mm:
+                return ("unparseable", raw)
+            try:
+                return ("ok", datetime.date(int(mm.group(1)), int(mm.group(2)), int(mm.group(3))))
+            except ValueError:
+                return ("unparseable", raw)
+    return None
+
+
+def exempt_by_charter(path):
+    """None if no `Cadence: EXEMPT-BY-CHARTER` declaration; ('ok', clause) when a charter
+    clause follows the token; ('missing-reason', None) on a bare token."""
+    for line in _header_block(path):
+        m = CADENCE_EXEMPT_RE.search(line)
+        if m and m.start() < MARKER_COL_CAP:
+            clause = re.sub(r"^[\s\-\u2014\u2013:]+", "", m.group(1)).strip()
+            return ("ok", clause) if len(clause) >= 8 else ("missing-reason", None)
+    return None
+
+
+def kernel_pins():
+    """repo-relative path -> set of locators pinned by Kernel submissions/accepted events.
+    Read-only; cached per process. Unparseable JSON is recorded under '__unparseable__'
+    and reported, never swallowed (PAT-106)."""
+    global _PIN_CACHE
+    if _PIN_CACHE is not None:
+        return _PIN_CACHE
+    pins = {}
+    for gp in KERNEL_PIN_GLOBS:
+        for f in glob.glob(os.path.join(REPO, gp)):
+            try:
+                with open(f, encoding="utf-8") as fh:
+                    d = json.load(fh)
+            except (OSError, ValueError):
+                pins.setdefault("__unparseable__", set()).add(os.path.relpath(f, REPO))
+                continue
+            for r in d.get("native_refs") or []:
+                pth = r.get("path")
+                if pth:
+                    pins.setdefault(pth, set()).add(str(r.get("locator") or "?"))
+    _PIN_CACHE = pins
+    return pins
 
 
 def _header_block(path):
@@ -580,29 +661,75 @@ def nudge(agent_dir, name):
     if not status_moved_this_session(agent_dir):
         print(f"nudge: [{name}] STATUS not moving this session — no gap being created")
         return 0
-    behind, event_driven = [], []
+    behind, event_driven, sched_quiet, exempt_ok, misdeclared = [], [], [], [], []
+    today = datetime.date.today()
+    pins = kernel_pins()
     for l in live:
         wb = status_writes_since(agent_dir, l)
-        if wb is not None and wb >= 1:
-            (event_driven if is_event_driven(l) else behind).append((wb, l))
-    if not behind and not event_driven:
+        if wb is None or wb < 1:
+            continue
+        ex = exempt_by_charter(l)
+        if ex is not None:
+            (exempt_ok if ex[0] == "ok" else misdeclared).append((wb, l, "EXEMPT-BY-CHARTER", ex[1]))
+            continue
+        sch = scheduled_next_due(l)
+        if sch is not None:
+            if sch[0] == "unparseable":
+                misdeclared.append((wb, l, "SCHEDULED", sch[1]))
+            elif sch[1] > today:
+                sched_quiet.append((wb, l, sch[1]))
+            else:
+                behind.append((wb, l, f"SCHEDULED, next_due {sch[1]} PASSED"))
+            continue
+        if is_event_driven(l):
+            event_driven.append((wb, l))
+        else:
+            behind.append((wb, l, None))
+    if not (behind or event_driven or sched_quiet or exempt_ok or misdeclared):
         print(f"nudge: [{name}] STATUS moving WITH its ledgers — clean ({len(live)} live ledger(s) checked)")
         return 0
     rc = 0
     if behind:
-        behind.sort(reverse=True)
+        behind.sort(key=lambda t: t[0], reverse=True)
         # UNIT RENDERED AS MEASURED (fix 2026-08-20, REGINALD via PROME): this counter is
         # STATUS-WRITES-behind, and "w" read as WEEKS. On a high-volume day every ledger
         # accumulates one per STATUS commit regardless of freshness -- REGINALD committed
         # STATUS 8x and a ledger written NINE MINUTES earlier printed "3w". A check that
         # reads catastrophically wrong on the desk's most productive day trains skipping
         # (PAT-110 inverse / PAT-116 family: measurement right, output shape misleads).
-        items = ", ".join(
-            f"{os.path.basename(l)} ({wb} STATUS-write{'' if wb == 1 else 's'} behind)"
-            for wb, l in behind)
+        def _item(wb, l, note):
+            bits = [f"{wb} STATUS-write{'' if wb == 1 else 's'} behind"]
+            if note:
+                bits.append(note)
+            rel = os.path.relpath(l, REPO)
+            if rel in pins:
+                locs = sorted(pins[rel])
+                shown = ", ".join(locs[:4]) + ("…" if len(locs) > 4 else "")
+                bits.append(f"⛔ {len(locs)} Kernel-pinned row(s): {shown} — byte-frozen, refresh only UNPINNED rows")
+            return f"{os.path.basename(l)} ({'; '.join(bits)})"
+        items = ", ".join(_item(wb, l, note) for wb, l, note in behind)
         print(f"⚠️  nudge: [{name}] STATUS moving without ledgers — {len(behind)} ledger(s) behind: "
               f"{items} — freeze-or-refresh EACH, or say why not in the commit")
         rc = 1
+    for wb, l, nd in sorted(sched_quiet, key=lambda t: t[0], reverse=True):
+        print(f"ℹ️  nudge: [{name}] scheduled: {os.path.basename(l)} ({wb} STATUS-write"
+              f"{'' if wb == 1 else 's'} behind — correctly quiet by declaration until next_due {nd})")
+    for wb, l, _, clause in sorted(exempt_ok, key=lambda t: t[0], reverse=True):
+        print(f"ℹ️  nudge: [{name}] exempt-by-charter: {os.path.basename(l)} ({wb} STATUS-write"
+              f"{'' if wb == 1 else 's'} behind — not counted; charter clause: {clause[:90]})")
+    for wb, l, kind, raw in misdeclared:
+        what = (f"declares Cadence: SCHEDULED but next_due {raw!r} is not a strict YYYY-MM-DD date"
+                if kind == "SCHEDULED" else
+                "declares Cadence: EXEMPT-BY-CHARTER with NO charter clause after the token")
+        print(f"🔴 nudge: [{name}] {kind}: {os.path.basename(l)} ({wb} STATUS-write"
+              f"{'' if wb == 1 else 's'} behind) {what} — a declaration that cannot be read "
+              f"exempts nothing; fix the header or drop the declaration")
+        rc = 2
+    if "__unparseable__" in pins:
+        bad = sorted(pins["__unparseable__"])
+        print(f"🔴 nudge: [{name}] {len(bad)} Kernel submission/event file(s) UNPARSEABLE — pin set incomplete: "
+              f"{', '.join(bad[:3])}{'…' if len(bad) > 3 else ''}")
+        rc = 2
     for wb, l in sorted(event_driven, reverse=True):
         rp = repull_date(l)
         if rp:
@@ -684,7 +811,7 @@ def main():
     ap.add_argument("--trade", action="store_true", help="scan trade/position surfaces (TRADE.md / trade/TRADE.md / TRADE_BOOK.md / POSITIONS.md) instead of workbook/*.tsv")
     ap.add_argument("--quiet", action="store_true", help="print only agents with stale ledgers (one line each)")
     ap.add_argument("--strict", action="store_true", help="disable by-name exemptions (schema/archive/backup/history/etc.)")
-    ap.add_argument("--nudge", action="store_true", help="(b) closeout nudge: enumerate all live ledgers >=1 STATUS-write behind while STATUS is moving this session (single agent only; thresholdless; 'Cadence: EVENT-DRIVEN' headers report under a distinct label with their re-pull clock)")
+    ap.add_argument("--nudge", action="store_true", help="(b) closeout nudge: enumerate all live ledgers >=1 STATUS-write behind while STATUS is moving this session (single agent only; thresholdless). Correctly-quiet declarations (header block, `Cadence:`-prefixed): EVENT-DRIVEN (+re-pull clock) · SCHEDULED next_due=YYYY-MM-DD · EXEMPT-BY-CHARTER — <clause>. Kernel byte-pinned rows are named beside a behind ledger (refresh only UNPINNED rows). rc 0/1/2 (2 = a declaration or pin set that cannot be read)")
     ap.add_argument("--writes", action="store_true", help="(a) also measure staleness in STATUS-commits-since-ledger-commit; flag at --writes-bar (activity-denominated — sprints can't hide, idle agents don't false-flag)")
     ap.add_argument("--writes-bar", type=int, default=12, help="writes-behind flag threshold for --writes (default 12)")
     ap.add_argument("--abs-floor", action="store_true", help="(c) also flag any live ledger whose absolute content vintage exceeds --abs-days regardless of the relative delta (PAT-092 counter)")

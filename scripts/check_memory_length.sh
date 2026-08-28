@@ -42,9 +42,12 @@ if (( lines >= hard_lines || bytes >= hard_bytes )); then
   echo "CRITICAL: index is at/over the boot-load cap — entries past the cap are NOT loaded at boot. Compact now." >&2
   exit 2
 elif (( lines >= soft_lines || bytes >= soft_bytes )); then
-  echo "WARNING: index approaching the boot-load cap (${pct_lines}% lines / ${pct_bytes}% bytes). Consolidate or retire low-value memories soon." >&2
-  echo "         Root CLAUDE.md: agents must NOT compact this file — flag to PROME (Will-ruled 7/28)." >&2
+  echo "WARNING: index at/over the ${MEMORY_WARN_PERCENT}% FLOW-RULE trip line (${pct_lines}% lines / ${pct_bytes}% bytes of the boot-load cap)." >&2
+  echo "         Flow rule (Will-approved 2026-08-12): at >=75% PROME demotes rows to INDEX_COLD.md until <70%." >&2
+  echo "         Agents must NOT compact this file — FLAG TO PROME; only PROME demotes (Will-ruled 7/28)." >&2
   exit 1
 fi
 # Never assert "comfortably" without the number that would contradict it.
-echo "OK: under the cap (${pct_lines}% lines / ${pct_bytes}% bytes; warns at 80%)."
+# The warn tier is read from harness_caps.env so this line cannot drift from the constant
+# (2026-08-28: it said "warns at 80%" as a literal while the rule tripped at 75%).
+echo "OK: under the cap (${pct_lines}% lines / ${pct_bytes}% bytes; flow-rule trip line at ${MEMORY_WARN_PERCENT}%)."
