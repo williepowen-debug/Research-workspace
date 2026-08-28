@@ -22,6 +22,11 @@
 - **Same session 15:30 ET: gold COT vintage #3 (as-of 8/25)** — registered positioning falsifier for the 8/19 write-up; first print spanning the 8/19–21 surge. Prior: net/OI **54.69%** [8/18]. `cot_gold.py` verified healthy; pull via `www.cftc.gov/files/dea/history/`.
 - Also live: **China Aug PMI ~8/31** (I1 discriminator) · **row 66 (f) re-present ~8/29**.
 
+**🔴 KERNEL — MONDAY IS TWO JOBS, NOT ONE (authored 8/27 eve, KB-075/076)**
+- ✅ **Activation 1 is DONE and frozen:** RegisterQuestion `…006a` · SubmitForecast `…006b` · CloseQuestion `…006c`, in `kernel/staged_submissions/` with hashes in that dir's README. Companion at `workbook/MIDAS-06_KERNEL_NATIVE_COMPANION.json`. **Verifier named: RED.** ⛔ **NOT at the submission path** — carve-out ④ activates at Will's ruling; copying + committing there is runbook step 1, IN-WINDOW.
+- ▶ **ACTIVATION 2 IS MONDAY'S AUTHORING JOB: `ProposeResolution`, and it cannot be written before the 8/31 publication** (its `outcome_value` is the grade). Sequence Monday: 8/28-dated DFII10 publishes ~16:15 ET → grade the frozen letter → THEN author/freeze ProposeResolution → RED runs VerifyResolution. **Do not author it early; do not let anyone treat activation 1's existence as the resolution.**
+- ⚠️ **Two things are ROUTED AND UNRESOLVED — check PROME replied before Monday:** ① **`CloseQuestion` is OUT of Increment 2's reviewed perimeter and IN my flow** — needs a perimeter amendment before RED's verdict, else a live stop at the sitting. ② **binary-only `forecast_family` vs my four-branch letter** — P(NO)=0.20, **not** 1−0.45; any two-outcome Brier on this row is wrong. **Neither is mine to rule. Neither is a reason to delay Monday.**
+
 **⏳ OWED TO ME / AWAITING OTHERS**
 - **ZHAO** — construction→refined-copper **lag estimate**; ask verified SENT, sitting **UNPROCESSED** in `AGENTS/ZHAO/inbox/`, ZHAO dark.
 - **HAWK** — the 8/3–8/4 PGM ask (a *"nothing crossed my desk"* is explicitly useful).

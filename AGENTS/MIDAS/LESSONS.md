@@ -49,3 +49,4 @@
 | **L-35** | 2026-08-27 | A figure can survive a Will ruling, a fleet encode, two corrections and twelve surfaces without anyone once COMPUTING it. |
 | **L-36** | 2026-08-27 | An instrument that prints a VERDICT beside a VALUE trains you to read the verdict — so a mis-set bound hides the number that would have caught it. |
 | **L-37** | 2026-08-27 | A date label cannot falsify itself; a settled price can — the bar moved under a fixed 8/27 label, so pull twice and diff, never inspect metadata. |
+| **L-38** | 2026-08-28 | A ledger's vocabulary is a claim about what it can SCORE — a four-branch letter in a binary-only family passes every validator and still misleads. |
