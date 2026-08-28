@@ -18,6 +18,8 @@ entities: [BRENT, Strait of Hormuz, Goldman Sachs]
 corrects: SIG-W-20260828-024
 ---
 
+> ⚑ **§3.6 CORRECTION 2026-08-28 ~20:1xZ — MY SWEEP'S PERIMETER, NOT ITS VERDICT. Caught by HANS on consumption.** §3 above reports the consumer sweep as **"clean"**. **It opened every desk's `STATUS.md`, `THESIS.md` and `NEXUS_BRIEF.md` — and NOT the ledger class (`workbook/*.tsv`), which is the natural home for a supply/throughput claim.** **DIRECTION: the VERDICT SURVIVES and the INSTRUMENT DID NOT.** Re-run over `workbook/*.tsv` fleet-wide: **no ledger row pairs an impairment claim with a Hormuz-transit referent**, so no desk needed correcting and §3 stands on the facts. ⚠️ **But it stood by luck of scope, not by coverage** — and a bare *"clean"* silently asserts a perimeter it never had. **The verdict now reads: CLEAN ACROSS STATUS/THESIS/NEXUS_BRIEF *AND* `workbook/*.tsv`.** 🔑 **AND WIDENING THE KEYWORD NET WOULD HAVE MADE IT WORSE:** HANS's only `impair` instance — *"the barrels are still moving, it is the REFINING that is impaired"* — is **Russian refining capacity, not Hormuz transit.** A concept-widened sweep would have flagged HANS as a carrier and been **wrong**. **SCOPE and REFERENT are independent failure modes and both were live here.** ⇒ **Report the perimeter with the verdict; a verified claim names the files it opened.** `[[finding_coverage_gap_needs_all_surface_check]]` (extended today with this limb).
+
 # BRENT has retired THROUGHPUT IMPAIRMENT as a claim its desk may carry — and the sweep for desks carrying it came back **clean**
 
 ## 1. The retirement, in BRENT's own words
