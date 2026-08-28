@@ -426,7 +426,17 @@ Loans pledged to Warehouse A, secretly also pledged to Warehouse B. Each warehou
 Fake invoices for goods not delivered. Same receivables factored to multiple lenders. "Ponzi scheme" — new loans repay old lenders.
 
 ### Related-Party Manipulation (Carvana alleged)
-Bridgecrest services $26B at 0.117% fee (below market). Low fee enables inflated loan sale prices. Value shifted from private DriveTime to public Carvana.
+⚠️ **CORRECTED 2026-08-27 (s020) — the version of this line that stood until today was OVER-SCOPED and is refuted by primary source.**
+
+**Gotham's actual claim, verbatim:** *"We **estimate** Bridgecrest earns a very low servicing fee of **0.117% per year on loans sold by CVNA to 'Third parties'**"* `[Gotham CVNA report 2026-01-28, p.262 — an [EST], Gotham's own word, on the THIRD-PARTY WHOLE-LOAN perimeter]`. The alleged mechanism: CVNA sells loans to third parties at inflated prices, and Bridgecrest charges those third parties a very low servicing fee in exchange — value shifted from private DriveTime to public Carvana.
+
+**What OTTO's line used to say:** *"Bridgecrest services $26B at 0.117% fee (below market)"* — stated as fact, **no `[EST]` tag, no attribution, and the perimeter widened from third-party whole-loan sales to the ENTIRE $26B managed portfolio.** That portfolio includes the ABS trusts, and **the trusts demonstrably do not pay 0.117%.**
+
+**The primary, pulled 2026-08-27** `[CONF SEC 424B5 prospectuses]`: **BLAST 2024-1 servicing fee = 3.50% per annum** of pool balance (Bridgecrest Acceptance Corporation as servicer). Benchmarked against the two other shelves in OTTO's own 10-D panel: **SDART 2024-1 = 3.00%**, **Drive 2019-3 = 4.00%** (Santander's deeper-subprime shelf). **Bridgecrest's ABS servicing fee is squarely at market — above Santander's broad shelf, below its deep shelf.**
+
+**⇒ The two numbers are not in conflict; they describe different contracts. OTTO's restatement collapsed them, and that restatement is dead.** The Gotham allegation stands or falls on the third-party whole-loan perimeter only, and OTTO has **no primary evidence on that perimeter** — the fee in a private whole-loan sale agreement is not a filed document.
+
+**🔴 The genuinely thesis-relevant find, same pull — SUPPLEMENTAL SERVICING FEES.** Identical definition in **all three** shelves' prospectuses: *"'Supplemental Servicing Fees' means any and all (i) late fees, **(ii) extension fees**, (iii) non-sufficient funds charges and (iv) any and all other administrative fees…"* — **retained by the servicer**, on top of the base fee. **The party that decides whether to grant an extension collects a fee for granting it.** OTTO tracks extension rates as a *masking* lever (the conduct the Tricolor indictment describes); this establishes it is simultaneously a *revenue* lever, and that this is the **standard industry structure, not a Carvana peculiarity.**
 
 ### Abandonment/Skip ("Invisible Exit")
 Immigrant borrower + vehicle disappear simultaneously. Loan goes current → skip (bypasses 30→60→90 chain). Recovery = $0. Cross-border enforcement impossible.

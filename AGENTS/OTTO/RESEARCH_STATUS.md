@@ -45,7 +45,7 @@ list — it does **not** own live monitoring snapshots.)*
 | Priority | Topic | Rationale |
 |----------|-------|-----------|
 | **CRITICAL** | Carvana Feb 18 earnings | 10-K filing, GT opinion, Gotham rebuttal |
-| HIGH | Bridgecrest servicing comparison | Validate 0.117% fee as below-market |
+| ~~HIGH~~ ✅ **CLOSED 2026-08-27** | Bridgecrest servicing comparison | ~~Validate 0.117% fee as below-market~~ — **DONE, and it refuted OTTO's own restatement.** `[CONF SEC 424B5 ×3]` BLAST 2024-1 **3.50%/yr** vs SDART **3.00%** / Drive **4.00%** ⇒ **at market at the ABS level.** The 0.117% is Gotham's `[EST]` on the **third-party whole-loan** perimeter, which OTTO had widened to the $26B portfolio. Whole-loan rates are private agreements — **that perimeter is not reachable from public filings.** → `thesis/THESIS.md` v1.5 |
 | HIGH | Carvana N-series ABS spreads | Track contagion signal |
 | MEDIUM | First Brands examiner report (Feb 25) | $2.3B missing factored receivables |
 | MEDIUM | Flagship Credit audit findings | InterVest forensic review |

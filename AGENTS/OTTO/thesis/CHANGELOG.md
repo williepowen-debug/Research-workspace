@@ -391,3 +391,18 @@ docs/predictions moved).
 ---
 
 *Seeded 2026-06-08 from STATUS/MEMORY trajectory at CHANGELOG introduction. Pre-2026-04 pivots not backfilled — reference STATUS archive + ML.tsv if needed.*
+
+## 2026-08-27 (s020) — Carvana sub-thesis: the headline mechanism number was over-scoped by OTTO and is retired
+
+**Was:** *"Bridgecrest services $26B at 0.117% fee (below market). Low fee enables inflated loan sale prices."* — carried as **fact**, with no `[EST]` tag and no attribution, in `CLAUDE.md` § Fraud Mechanisms, `THESIS.md` § Carvana Claim, `VX-OTTO-008`, `RP-OTT-3.1`, `RP-OTT-4.1` and `RESEARCH_STATUS`.
+
+**Is:** the claim is re-scoped to Gotham's own perimeter and OTTO's restatement is **refuted**. Gotham wrote *"we **estimate** Bridgecrest earns a very low servicing fee of 0.117% per year **on loans sold by CVNA to 'Third parties'**"* — an `[EST]` on **third-party whole-loan sales**. OTTO widened it to the entire **$26B managed portfolio**, which contains the ABS trusts. `[CONF SEC 424B5]` **BLAST 2024-1's disclosed base servicing fee is 3.50%/yr** — vs **SDART 2024-1 3.00%** and **Drive 2019-3 4.00%**. **At the ABS level Bridgecrest is at market**, sitting between Santander's broad and deep shelves exactly where its collateral quality sits.
+
+**Trigger:** Will supplied a popular-media video (*The Infographics Show*, "The Next Great Recession Isn't Housing") whose Santander/Drive 2019-3 section prompted a servicing-fee pull. **The video's own systemic claims are largely wrong** — its "30%+ of subprime auto loans defaulting" is refuted by OTTO's panel (broad ANL 5.69-6.15%, deep 14.97-20.86%) and it attributes Tricolor's fraud collapse to the truck cycle. **The lead was still worth running: a bad artifact pointed at a real document.**
+
+**Conviction effect: NO fall on related-party manipulation.** The claim was never load-bearing on the ABS perimeter, so refuting OTTO's over-scoped restatement removes a *bad argument for* the thesis, not evidence for it. What it removes is OTTO's ability to assert a below-market fee from anything filed. **Symmetrically:** if Gotham's estimate holds on its own perimeter, it is **26-34× below what the same servicer charges for identical work on its own trusts** — a sharper benchmark than any external peer set, and undecidable without private whole-loan agreements.
+
+**🔴 The larger find, same pull — and it cuts against OTTO.** *"Supplemental Servicing Fees"* is defined **identically in all three shelves** as *"(i) late fees, **(ii) extension fees**, (iii) non-sufficient funds charges and (iv) any and all other administrative fees,"* **all retained by the servicer.** So the party granting an extension is **paid** to grant it — extensions are a revenue line, not only a masking lever. **But the clause is industry-standard boilerplate present in Santander's shelves too, so a high extension rate is not evidence of intent by itself.** This weakens any inference OTTO might have drawn from extension levels alone, and it is recorded because it points away from the thesis.
+
+**Touches:** `CLAUDE.md` § Fraud Mechanisms · `thesis/THESIS.md` (v1.4 → **v1.5**, Claim + What-would-resolve) · `STATUS.md` (2 dashboard rows + thesis pointer) · `RESEARCH_STATUS.md` (HIGH item closed, ~6 months open) · `workbook/ML.tsv`. **NOT touched:** `workbook/VX.tsv` — FROZEN 2026-07-04, correcting one row inside a frozen ledger would imply the other 87 are maintained.
+
