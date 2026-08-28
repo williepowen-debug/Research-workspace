@@ -40,10 +40,18 @@ STALENESS = WORKSPACE / "scripts" / "ledger_staleness.py"  # fleet enforcer (PRO
 
 WATCHLIST = ["CVNA", "ALLY"]  # OTTO's tradeable names (TRADE.md)
 
-# (label, script_name, args)
+# (label, script_name, args, marker)
+# `marker` = a string the script emits UNCONDITIONALLY when it actually ran to completion.
+# Required by CHECK_STANDARD §8 rule 5 (RATIFIED 2026-08-17, Will verbatim; DAEDALUS packet
+# to OTTO 8/17, encoded 8/27): the summary verdict is derived from MARKER-PRESENT alongside
+# rc, never from rc alone. Reason: rc=1 was being folded into "OK" here because
+# predictions_due returns 1 on overdue rows — a real flag, not a failure — but that same
+# widening made "crashed after printing nothing" and "ran, found overdue" indistinguishable
+# in the summary table. Marker splits them: marker present grades FINDINGS vs OK on rc;
+# marker ABSENT is FAIL whatever rc says. Pick a banner line, not a conditional alert line.
 BOOT_SEQUENCE = [
-    ("Predictions Due",    "predictions_due.py",    []),
-    ("Catalyst Countdown", "catalyst_countdown.py", []),
+    ("Predictions Due",    "predictions_due.py",    [], "OTTO Predictions Due"),
+    ("Catalyst Countdown", "catalyst_countdown.py", [], "OTTO Catalyst Countdown"),
 ]
 
 
@@ -55,7 +63,12 @@ def run(cmd, timeout=60):
         )
         elapsed = time.time() - start
         output = result.stdout
-        if result.returncode != 0 and result.stderr:
+        # CHECK_STANDARD §8 (RATIFIED 2026-08-17): relay stderr UNCONDITIONALLY. The old
+        # `rc != 0 and stderr` guard discarded every producer warning emitted at rc 0 —
+        # a silent-fallback warning from panel_10d/abs_issuance/extension could not reach
+        # this report, which is the one layer above them. A warning nobody can see is
+        # indistinguishable from no warning. (DAEDALUS silent-fallback green sweep 8/17.)
+        if result.stderr and result.stderr.strip():
             output += f"\n  STDERR: {result.stderr[:400]}"
         return result.returncode, output, elapsed
     except subprocess.TimeoutExpired:
@@ -92,7 +105,7 @@ def main():
         results.append(("Price Snapshot", "SKIP", 0))
 
     # 2..N scripts
-    for label, script_name, args in BOOT_SEQUENCE:
+    for label, script_name, args, marker in BOOT_SEQUENCE:
         script_path = SCRIPTS_DIR / script_name
         print(f"\n  ⏳ {label}...", flush=True)
         if not script_path.exists():
@@ -129,8 +142,17 @@ def main():
                     shown = True
             if not shown:
                 print(f"    ✓ ran cleanly, no alerts")
-        # predictions_due returns 1 when overdue exist — that's a flag, not a failure
-        status = "OK" if rc in (0, 1) else "FAIL"
+        # §8 rule 5 — verdict from MARKER-PRESENT alongside rc, never rc alone.
+        # predictions_due returns 1 when overdue rows exist: a flag, not a failure. But
+        # rc alone cannot tell that apart from a crash, so the banner marker gates it.
+        if marker not in out:
+            status = "FAIL"          # did not run to completion, whatever rc claims
+        elif rc == 0:
+            status = "OK"
+        elif rc == 1:
+            status = "FINDINGS"      # ran, and is telling you something
+        else:
+            status = "FAIL"
         results.append((label, status, elapsed))
 
     # N. Ledger staleness — workbook TSVs + trade surface (fleet enforcer, read-only alert; PROME PAT-035)

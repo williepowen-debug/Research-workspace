@@ -182,7 +182,7 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
 7. **Route cross-agent signals via WALTER** — drop `SIG-OTTO-WALTER-YYYYMMDD-[topic].md` into
    `AGENTS/WALTER/inbox/` with proper frontmatter (`to: WALTER (ACTION)`, `info: [target]`). Do
    not write directly into other agents' inboxes.
-7a. **Write-back `NEXUS_BRIEF.md`** — the cross-agent synthesis brief (schema:
+7a. **Write-back `NEXUS_BRIEF.md`** — ⚠️ **ORDERING (NEXUS schema Amendment 10, RATIFIED 2026-07-31 Will-approved; propagated to OTTO 8/4, encoded 8/27): the brief fold is the session's LAST write-back — after your final STATUS write, immediately before git commit.** **Checkable form: the brief's commit timestamp ≥ this session's last STATUS commit timestamp.** *(Why an ORDERING rule and not a reminder: the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed and then kept working — **zero** had skipped the refresh. "Refresh every closeout" cannot fix a brief that is written mid-session and then outrun by the session's own later findings. Objections route to NEXUS, which owns the schema — not PROME.)* — the cross-agent synthesis brief (schema:
    `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`). **Mandatory every session, even no-change** —
    minimum is refreshing the `As of:` stamp + `STATUS commit:` hash so staleness self-corrects.
    Material STATUS change → brief content updates same session. **Protect CROSS-DOMAIN +
