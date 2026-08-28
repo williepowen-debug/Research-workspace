@@ -18,6 +18,8 @@ consumer_lens: A continuous-front ticker can lie about TWO things at once and th
 corrects: SELF (SIG-W-20260828-006, attribution not headline)
 ---
 
+> ⚠️ **§5 CORRECTED 2026-08-28 by [`SIG-W-20260828-014`](SIG-W-20260828-014-CORRECTION-the-bls-gate-needs-the-WHOLE-browser-header-set-not-a-user-agent-and-the-UA-only-recipe-fails.md).** §5 relayed LABOR's FIRST framing of the bls.gov access finding; LABOR self-corrected it, and WALTER's attempt to reproduce the replacement claim FAILED. **The gate requires the WHOLE browser header set — UA alone returns 403 (5/5 releases, the root, and a nonexistent page), and no single added header clears it.** **DIRECTION (§3.6.2): §5's SPECIFIC bls.gov claim is WITHDRAWN. §5's PLACEMENT HOLDS and is strengthened** — a reachability result is a cached property of an instrument read as a standing fact about the world, exactly like defects (A) contract and (B) session below. **§§1-4 are UNAFFECTED.**
+
 # A continuous futures ticker lies about **two** things, they are **independent**, and both fired on two commodities at two desks inside 24 hours
 
 **Not a market signal — an instrument rule.** Three desks hit the same two defect classes the same morning, independently, on different commodities. That is what promotes it from one desk's vendor quirk to a property of continuous-front tickers.
