@@ -92,11 +92,62 @@ def _items(r: dict) -> dict[int, str]:
     return d
 
 
+def _max_suffix_today(rows: list[dict], today: str) -> tuple[int, int]:
+    """Highest NN already used for today, from BOTH sources.
+
+    Returns (ledger_max, file_max). Either may be 0 if that source has none.
+
+    ⚠️ WHY THIS IS max() OVER TWO SOURCES AND NOT A ROW COUNT (2026-08-28):
+    the allocator used to be `sum(1 for r in rows if ...) + 1`, which has TWO
+    independent failure modes and hit both on the same day:
+      (a) COUNT != MAX. Any gap in the ledger re-issues a used id.
+      (b) THE LEDGER IS NOT THE ONLY RECORD. A batch staged as a per-batch
+          manifest FILE (which is what a session does under a concurrent-writer
+          hold, when the shared ledger must not be written) is INVISIBLE to a
+          ledger-only scan.
+    Live collision: 2026-08-28. BM-20260828-02/03/04 were declared and fully
+    dispositioned as manifest FILES under a walter-0828 writer hold and never
+    got ledger rows; the ledger held only -01, so `--open` re-issued the LIVE id
+    BM-20260828-02 for a new 10-image batch. Caught before the first --item
+    write, so the morning manifest was not overwritten -- but only by luck of
+    the operator checking. [[finding_record_of_an_action_is_not_the_action]]
+    """
+    def suffix(bid: str) -> int:
+        try:
+            return int(bid.rsplit("-", 1)[1])
+        except (IndexError, ValueError):
+            return 0
+
+    ledger_max = max((suffix(r["batch_id"]) for r in rows
+                      if r["batch_id"].startswith(f"BM-{today}")), default=0)
+    file_max = max((suffix(f.name.replace("-manifest.tsv", ""))
+                    for f in LEDGER.parent.glob(f"BM-{today}-*-manifest.tsv")), default=0)
+    return ledger_max, file_max
+
+
 def cmd_open(args) -> int:
     rows = _read()
     today = datetime.now(timezone.utc).strftime("%Y%m%d")
-    n = sum(1 for r in rows if r["batch_id"].startswith(f"BM-{today}")) + 1
+    ledger_max, file_max = _max_suffix_today(rows, today)
+    n = max(ledger_max, file_max) + 1
     bid = f"BM-{today}-{n:02d}"
+
+    # Belt-and-braces: never hand back an id either source already knows.
+    # A guard's own v1 is the thing most likely to be wrong
+    # [[finding_test_the_guard_not_just_the_guarded]], so this asserts the
+    # OUTCOME rather than trusting the arithmetic above.
+    taken = {r["batch_id"] for r in rows} | {
+        f.name.replace("-manifest.tsv", "")
+        for f in LEDGER.parent.glob("BM-*-manifest.tsv")}
+    if bid in taken:
+        print(f"\u2717 REFUSING TO OPEN {bid} — id already in use "
+              f"(ledger_max={ledger_max}, manifest_file_max={file_max}). "
+              f"Reconcile the ledger against registry/BM-*-manifest.tsv before opening.")
+        return 1
+    if file_max > ledger_max:
+        print(f"\u26a0 NOTE: {file_max - ledger_max} batch(es) today exist as manifest FILES "
+              f"with no ledger row (file_max={file_max} > ledger_max={ledger_max}). "
+              f"Id allocated safely above both; backfill those ledger rows when convenient.")
     rows.append({"batch_id": bid, "opened_utc": _now(), "source": args.source,
                  "declared": str(args.open), "dispositioned": "0", "state": "OPEN",
                  "items": "", "notes": args.notes or ""})
