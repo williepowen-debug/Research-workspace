@@ -42,6 +42,7 @@ At boot, after STATUS / SCRATCH / MEMORY:
 
 ⚠️ **`git mv`, not bash `mv`** — bash mv leaves the deletion unstaged ([[git_mv_for_inbox_processing]]).
 ⚠️ **This lane is exempt from the "do NOT process inbox on normal spawns" MAIL rule below.** WALTER signals are a boot-time drain, not a separate spawn — that ambiguity is what let the backlog build.
+4b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" MARCO` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### Execute
 5. **Execute the task.** If boot surfaces a live regime-moving print or active catalyst window, EXECUTE stays open — snapshot STATUS as a working dashboard and stay engaged; don't trigger the full write-back until the event stabilizes, the task completes, or Will signals stop ([[finding_boot_protocol_live_event_override]]).
