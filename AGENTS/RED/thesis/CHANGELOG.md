@@ -6,6 +6,20 @@
 
 
 
+## 2026-08-28 ~14:1x ET — S38e: VX-RED-004 CLOSED as FLIPPED-BEAR-TERMINAL rather than fake-re-specced. NO WEIGHT MOVED — vector state changed
+
+**Confidence 69 (=). Net-bear 60 (=). Weight unchanged on all six buckets; VX row moves TERMINAL, not RE-SPEC.**
+
+- **The problem:** VX-004's Flip_If (`30Y JGB >2.5% sustained`) FIRED 6/2 at 3.859% and has lived as a DEAD FIRING RECORD for 87 days. Live 30Y JGB = **4.039% [MOF 8/26 per SAM]**, 154bp above the trigger, stable at/above 4.00 for two weeks. RED was carrying a dead line INTO the 9/3 30Y JGB auction week (SAM adjudicates CH-009/CH-012/CH-016 on the same instrument family).
+- **The fix: CLOSURE, not synthetic re-spec.** Strength FLIPPED-BEAR → FLIPPED-BEAR-TERMINAL. Flip_If rewritten to record firing history + an owner-signalled reopening ("if SAM materially reverses their JGB rail, reopen"). Bear_Wt/Bull_Wt unchanged at 80/20; TERMINAL is a CLOSURE label, not a weight change.
+- **Why not a fake un-flip line (e.g., <3.5% s=5):** exactly the ML-RED-203 defect NEXUS charged RED with THIS morning — amend-without-re-base-rating, on a level whose reachability I could not verify without the owner's series. **Closure needs no base rate; RE-SPEC would.**
+- **Compliant with:** boot 9c review-debt rule (*"terminal rows are owed no review — Stale_By is a trigger for LIVE facts"*) · ML-RED-203 (edit-axis staleness class) · CHG-051 charge B (extended to closures) · SAM ownership convention.
+- **VX live-count: 9-of-17 unreviewed → 8-of-16 unreviewed.**
+- **The transferable finding:** any FLIPPED VX row whose Flip_If describes what FIRED it (not what would UN-FIRE it) is in the same TERMINAL-vs-re-spec question. **Audit trigger for the 9/12 VX re-review:** run each FLIPPED row through this test.
+- **ML-204 filed** naming the closure as a live application of ML-203.
+
+---
+
 ## 2026-08-28 ~12:0x ET — S38b: CHG-046 + CHG-043-B BOTH RESOLVED-CONVERGED at NEXUS's own resolution artifact. NO WEIGHT MOVED — the entry exists because two registered-challenge states changed
 
 **Confidence 69 (=). Net-bear 60 (=). Two challenges close; framework NO-OP; the transferable content is an INBOUND finding on RED's own registry.**

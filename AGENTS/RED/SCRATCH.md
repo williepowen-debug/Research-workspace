@@ -22,6 +22,17 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S38e (2026-08-28, ~14:1x ET) — Top-priority focus item: VX-RED-004 CLOSED as FLIPPED-BEAR-TERMINAL. Flip_If was a dead firing record 87 days; refused to fake-re-spec it into the 9/3 auction. NO WEIGHT MOVED.**
+
+- **The dead line:** VX-004's Flip_If was `30Y JGB >2.5% sustained` — but that fired 6/2 at 3.859% and lives 154bp below the current instrument (**4.039% [MOF 8/26]**, stable at/above 4.00 for two weeks per SAM). A Flip_If that has already fired is a firing RECORD, not a test — and I was carrying it into 9/3 30Y JGB auction where SAM adjudicates CH-009/CH-012/CH-016 on the same instrument family.
+- **Chosen path: CLOSURE.** Strength FLIPPED-BEAR → **FLIPPED-BEAR-TERMINAL**. Flip_If rewritten to state firing history + owner-signalled reopening (if SAM materially reverses their JGB rail). Bear_Wt/Bull_Wt unchanged at 80/20 (TERMINAL is a CLOSURE label, not a weight change). Last_Reviewed → 2026-08-28. VX_HISTORY row logged.
+- **Rejected: fake un-flip line** (e.g., <3.5% s=5). Exactly the ML-RED-203 defect NEXUS charged RED with THIS morning — amend-without-re-base-rating on a level I cannot verify without SAM's series. **Closure needs no base rate.**
+- **Compliant with:** boot 9c review-debt (terminal rows owed no review), ML-RED-203 (edit-axis staleness), CHG-051 charge B extended to closures, SAM ownership.
+- **VX live-count 9-of-17 → 8-of-16 unreviewed.**
+- **SAM courtesy packet queued for closeout** — RED closing a vector on their turf; they own the instrument via their rail.
+- **The transferable finding + audit trigger for 9/12 VX re-review:** any FLIPPED VX row whose Flip_If describes what FIRED it (not what would UN-FIRE it) is in the same TERMINAL-vs-re-spec question. Run each FLIPPED row through this test.
+- **ML-RED-204 filed** naming the closure as a live application of ML-203.
+
 **🆕 S38d (2026-08-28, ~13:5x ET) — PROME doorbell: R1 receipt APPLIED + FT-12 8/28-cell pre-registration + WILL_QUEUE row 106 label-only-change context. NO WEIGHT MOVED.**
 
 - **R1 rc=1 was a REAL block** — COR-20260828-01 (WALTER's BZ correction; Brent 8/26 close $87.84 not $86.36). Found live cite on OUTBOX line 71 (RED-TO-PROME-030), corrected in-place with strike-through leaving a trail. Receipt written APPLIED via `corrections_boot_check.py RED --receipt COR-20260828-01 --action APPLIED`; `registry/corrections_receipts.tsv` created; rc=0 now.
