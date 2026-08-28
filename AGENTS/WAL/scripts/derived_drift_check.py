@@ -190,7 +190,15 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 12, 54      # RE-BASELINED 2026-08-28 (session #5 sweep). Was 11,35 (8/23); 11,23 (8/20).
+        BASE_DRIFT, BASE_REVIVED = 12, 68      # RE-BASELINED 2026-08-28 #2 (read-cap hot/cold split). Was 12,54 earlier same day; 11,35 (8/23); 11,23 (8/20).
+                                               # check-2 +14, and the arithmetic RECONCILES EXACTLY -- verified before re-baselining:
+                                               #   STATUS_ARCHIVE.md contributes 17, MEMORY_ARCHIVE.md 6  = +23 in the two NEW cold files
+                                               #   the live files LOST 9 as that text moved out of them            = -9
+                                               #   net +14. NO LIVE SURFACE REGRESSED.
+                                               # ⚠️ THE COLD FILES ARE VERBATIM BY DESIGN, so they preserve dead tokens ON PURPOSE --
+                                               #    a hot/cold split necessarily RAISES this check, exactly as killing a claim does.
+                                               #    If this number jumps again, check whether the delta is confined to archive/* BEFORE
+                                               #    assuming rot: same reconciliation, archives-gain minus live-loss.
                                                # 8/28 deltas, each verified hit-by-hit BEFORE re-baselining:
                                                #   check-1 +1  = STATUS.md KB-count token, synced 180->183 this session; the residual
                                                #                 12 are historical version cites inside dated records (correct as history).

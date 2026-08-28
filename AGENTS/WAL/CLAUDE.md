@@ -59,9 +59,15 @@ You inherit the spawner's cwd and this CLAUDE.md does NOT auto-load. So:
    (cd "$(git rev-parse --show-toplevel)/AGENTS/WAL" && python3 scripts/derived_drift_check.py --quiet)
    ```
    `THESIS.md` OWNS the version/EV/PT and each vector's live state; **every other surface RESTATES them, and a thesis bump touches the owner and nothing else.** Measured 8/20: the MI3 falsifier was described as **"never-run" on THREE derived surfaces 13 days after it ran.** ⚠️ **It finds surfaces by SCANNING, never from a list** — an enumerated fold-list is a hidden claim the list is complete and misses the next surface anyone creates (`finding_enumerated_mechanism_test_hides_a_completeness_claim`). **When you kill a claim, add a row to `workbook/RETIRED_CLAIMS.tsv` in the same edit — that is the whole discipline; the check finds the files for you.** **The signal is the DELTA against the baseline in the script docstring, not the level** — residual hits are known history.
+4d. **Predictions due check** (read-only, ~1s — built + wired 2026-08-28, PAT-041):
+   ```
+   (cd "$(git rev-parse --show-toplevel)/AGENTS/WAL" && python3 scripts/predictions_due_check.py --quiet)
+   ```
+   Reads `workbook/PREDICTIONS.tsv`'s **`Resolve_By` column, added the same day because nothing could flag an overdue prediction** — `Timeframe` is free text and `Date_Resolved` only fills in AFTER the fact, so **WAL-01/WAL-02 sat OPEN for 126 days and every check on this desk passed clean.** ⚠️ **An OVERDUE flag is a prompt to LOOK, never an instruction to grade** — a slipped print is a legitimate reason to **re-pin `Resolve_By` WITH A REASON**; forcing a verdict to clear the flag is the failure it guards against. **Blanks are their own class and are not a pass** (the defect KB's `Stale_By` has on 41 rows). **State the anchor TYPE — SCHEDULED-FILING vs EXPECTED-EVENT — and re-pin an expected-event cell on announcement.**
 5. **Live price** — STATUS price >24h old? Pull before citing: `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)`. WAL can move 3-5% in a session. *(No boot.py yet — deliberately instrument-light at standup (PAT-048); building it is a flagged first increment in MEMORY. When built, it gets wired HERE in the same session — PAT-041.)*
 6. **Inbox awareness** — list `inbox/` unprocessed count + senders. Do NOT process on normal spawns (separate task).
 7. **`REGINALD_CHANNEL.md`** — scan top for new REGINALD entries since last boot; ACK what you integrate.
+7a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" WAL` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session; inserted by WAL on Will's in-session word, not on the peer relay.)*
 
 ### Execute
 
