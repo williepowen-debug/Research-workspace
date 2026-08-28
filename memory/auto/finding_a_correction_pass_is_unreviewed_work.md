@@ -4,7 +4,7 @@ description: "Fix passes carry a HIGHER defect rate than the original work — t
 metadata:
   node_type: memory
   type: feedback
-symptoms: "finding born inside a retraction; correction carried a second wrong number; shipped the fix without testing it; validation ran only because it was going to the operator; retraction with passengers"
+symptoms: "finding born inside a retraction; correction carried a second wrong number; shipped the fix without testing it; validation ran only because it was going to the operator; retraction with passengers; fixed the flagged label and shipped the stale number beside it; same row wrong on three consecutive passes; the flagger only looked at one cell; corrected row read as reviewed row"
 ---
 
 **The work you do to correct an error is the least-reviewed work in the session, and it is where the next error lands.**
@@ -77,3 +77,14 @@ The extensions above are about the *fix* being unreviewed. This one is about the
 11. **Treat a relayed diagnosis as a lower bound on the defect set,** however precise and however senior the source. Reproduce it (it may be right, and verifying costs nothing), then keep looking — being right about defect #1 is no evidence there is no defect #2.
 12. **When a fix instruction arrives with a time estimate, the estimate encodes someone's model of the defect.** If your own check contradicts it, say so *before* the deadline rather than missing it — an honest "this is 25 minutes, not 10, and here is why" lets the operator re-plan; silence converts their estimate into their surprise.
 13. **Suspect fail-fast whenever a validator reports exactly one error.** Read whether it `continue`s or returns early; if it does, the count is a floor, not a total.
+
+---
+
+## EXTENSION 2026-08-28 — the INPUT-SCOPE facet (RED, 8/27; encoded at the DAEDALUS wiring sweep — RED asked for an extension, not a new slug, so the fleet keeps one grep target for "corrections are dangerous")
+
+Everything above points at the OUTPUT of a correction — your own fix is unreviewed, sweep it. **This facet points at the INPUT: an inbound correction names ONE defect, and that is evidence the surface was not being maintained — a claim about the whole row, not the flagged token.** The flagger's scope is structurally narrow and that is nobody's fault (MIDAS flagged a label because MIDAS owns a colliding metric; BOND flagged an era because BOND reads era claims); the receiving desk supplies the width. **You can execute every rule above flawlessly and still ship this one**, because sweeping your own correction re-reads the token you were told about, and nothing in that loop sends you to the number beside it. And the corrected row now reads as a REVIEWED row, so everything else on it has been implicitly certified by the fix commit.
+
+**Evidence (RED `KB-RED-067`, DFII10 inside one row):** fire 1 (8/12) — MIDAS flagged a dead LABEL; the LEVEL beside it was stale (2.37-2.39 vs 2.43), found by luck. Fire 2 (8/27) — BOND flagged a wrong ERA; the rule said look, and found **two more defects not in the flag** (the 2026 peak was 2.47 not 2.43; the level was stale AGAIN, 2.32 live). **Same claim wrong on three consecutive passes; each pass corrected what it was told about and shipped what it wasn't.** n=2 fires, 3 defects beyond the flags, 0 false positives.
+
+**The check (one step, free):** on applying any inbound correction — (1) fix the flagged item; (2) identify every OTHER dated quantity on the same row; (3) re-pull each from its PRIMARY — not "does it look right", pull it; (4) **log any stale one as a SEPARATE defect with its own provenance** — never fold it into the flagger's record, or the flagger gets credit for a catch they did not make and the desk's own miss disappears (`finding_summary_section_merges_what_the_body_separates`); (5) correct ACTIVE surfaces, MARK dated-historical ones superseded and leave them readable. Step 4 is the one a desk skips and the one that makes the class visible. Fleet encode proposed as C3 in `AGENTS/DAEDALUS/design/2026-08-28_CORRECTION_CLASS_VALIDATION_PROPOSAL.md` (Will-gated).
+

@@ -41,3 +41,6 @@ re-point at content-derived vintage / require a corroborating content check);
 the ruling is DAEDALUS's, but the underlying fact holds regardless.
 Related: [[finding_ledger_drift_behind_narrative]],
 [[finding_completion_stamp_skip_reads_as_current]], [[finding_passive_surface_rot_push_not_dashboard]].
+
+**EXTENSION 2026-08-28 (DAEDALUS wiring sweep ⑯, n+4 measured in one grep):** four desks' `boot.py` key ledger age on `st_mtime`/`getmtime` and NEVER invoke the content-vintage enforcer — CORAL `scripts/boot.py:60`, CREED `:47`, LABOR `:113`, OZK `:265` (grep: 0 `ledger_staleness` refs in boot.py or CLAUDE.md on all four). On the machine that pulled, every ledger reads FRESH after the sync — the root Data-Hygiene (b) alert exists on paper and is blind in practice. CARL/HENRY/MARCO also compute an mtime age but ALSO run `ledger_staleness` (a duplicate display, not a blind guard). Discriminator for any staleness leg: does the desk's boot call `scripts/ledger_staleness.py` (content-vintage → git-commit → mtime last-resort, basis PRINTED)? If not, the mtime leg is the only guard and it fails false-negative on exactly the box that just synced. Owner packets routed 8/28; `symptoms:` grep-bait: "ledgers all read fresh right after a pull", "staleness alert never fires on the laptop", "age_days from st_mtime".
+
