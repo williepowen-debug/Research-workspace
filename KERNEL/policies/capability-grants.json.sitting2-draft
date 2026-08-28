@@ -51,7 +51,7 @@
       ]
     },
     {
-      "actor_id": "TO-BE-NAMED-BY-MIDAS-AUTHORING--FAILS-CLOSED-UNTIL-REPLACED",
+      "actor_id": "RED",
       "capabilities": [
         "resolution.verify"
       ]
