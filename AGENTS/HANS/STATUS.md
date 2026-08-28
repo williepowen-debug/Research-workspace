@@ -206,6 +206,12 @@ The later-session sweep narrative (two self-corrections: **wrong tenor** on the 
 
 **Also live, no clock:** ECB Sept 10 · EA flash HICP Sept 1 · German flash PMI ~Sept 23 (`HNS-06`) · EU storage window Oct 1–Dec 1 (`HNS-07`, resolves 11/01) · next Qatar force-majeure decision ~end-Sept · `HNS-08` is **continuous-monitoring** — it resolves MISS the instant the Bund closes ≥4.00%, not at year-end.
 
+**✅ INFRASTRUCTURE BUILT 2026-08-28 (Will approved the recs) — use it, don't rebuild it:**
+- **`.venv/bin/python AGENTS/HANS/scripts/boot.py` is SPAWN PROTOCOL step 0.** 7 sections, ~5s. ⚠️ **§[2] names what it CANNOT pull (Bund, both gilts, EU storage, EGB spreads, ECB/BoE rates, PMI) — a clean §[1] is NOT a clear board.**
+- **`workbook/KB.tsv`** — 34 facts on ZHAO's schema; **`Stale_By` is enforced by boot §[7]**. New facts go here, not into `ML.tsv`.
+- **VX is now 40 live / 67 total.** 27 rows are FROZEN or RETIRED **on purpose**; boot excludes them by design. **Do not "helpfully" refresh a frozen row — read its named upgrade source first.**
+- **`thesis/ECB_2026-09-10_PREREGISTRATION.md`** — grade **both** `HNS-05` **and** its §3b tactical-vs-regime read. Reporting only the binary is the failure that document exists to prevent.
+
 **Standing hygiene bought this session — run these, don't rediscover them:**
 - **Verify delivery at the RECIPIENT's tree**, never from `outbox/delivered/`: `find AGENTS/<RECIPIENT> -iname "*HANS*"`.
 - **Fire counts come from `registry/HANS_T_FIRED_LOG.tsv`, not from prose.** *Did it fire?* and *how much does it tell us?* are two axes — never let a down-weighting caveat drop a row from the count.

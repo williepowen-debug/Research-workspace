@@ -125,3 +125,41 @@ SAM does not know USD/JPY because a session looked it up. **SAM knows USD/JPY be
 - **I did not read SAM's or ZHAO's charters in full** — 33 KB and 29 KB respectively. Structure and ledgers were measured; **judgement quality was not assessed and is not claimed.**
 - **Commit counts measure output, not value.** SAM's 442 reflects a live position-bearing thesis; a desk with genuinely less to say *should* commit less. **The damning number is not 31 commits — it is 28 fossil vectors and 0 scripts.**
 - **No comparison was made to the other regional desks** (BRENT, HAWK, MARCO, CORAL, AEOLUS). Scope was Will's: SAM and ZHAO.
+
+---
+
+# ADDENDUM — EXECUTION, same session (Will: *"go ahead with your recs"*)
+
+**All five recommendations executed 2026-08-28.** Sequenced as the report specified — **#2 before #1**, because automating a 42%-fiction ledger would have rebuilt the day's defect in code.
+
+| # | Action | Status | Result |
+|---|---|---|---|
+| **2** | Retire/freeze the 28 fossils | ✅ | **2 refreshed · 14 frozen · 12 retired · ZERO fossils remain.** Ledger now **40 live / 67 total**, 27 deliberately parked |
+| **1** | `scripts/boot.py` | ✅ | 7 sections, wired as **SPAWN PROTOCOL step 0** |
+| **3** | `workbook/KB.tsv` | ✅ | **34 facts, 33 carrying `Stale_By`**, on ZHAO's schema and vocabulary |
+| **4** | Ingestion for the 6 daily-scannable rows | 🟡 **PARTIAL — stated, not papered over** | **TTF, EUR/USD, DXY automated.** Bund, both gilts and EU storage are **not on the free feed** and stay manual. **Named in boot §[2] rather than silently omitted** |
+| **5** | Pre-registration | ✅ | `thesis/ECB_2026-09-10_PREREGISTRATION.md`, 13 days ahead of the decision |
+
+## What the execution itself surfaced — three things the recon could not have
+
+**1. 🔴 A vector tracking a benchmark that has not existed since 2023.** `VX-HANS-2.05 "USD LIBOR-OIS Spread"` — **USD LIBOR panels ceased 30 June 2023.** This desk carried it for **three years past the rate's death**, under a Feb-2026 stamp. **Nothing read it, so nothing noticed.** Retired; if the funding-stress concept is wanted, SOFR-OIS is a *new* vector, not a re-stamp.
+
+**2. ⚠️ The guard's own v1 failed on its first run, exactly as the fleet memory predicts.** `boot.py` §[6] flagged **all 40** live vectors as stale — including nine refreshed that same morning. Cause: `(_age(...) or 999)` — **age `0` is falsy in Python**, so every row updated *today* reported as 999 days stale. Fixed, with the bug named in a source comment. `[[finding_test_the_guard_not_just_the_guarded]]`.
+
+**3. ✅ And once fixed it earned its keep immediately** — flagged `VX-HANS-11.01 Ceasefire_Probability_30d`, a **resolved prediction** (`HNS-01`, graded MISS on 6/22) that had sat in the **live vector ledger for 67 days**. No human pass caught it in nine weeks. Retired.
+
+## Where HANS now sits against the two peers
+
+| Instrument | **HANS (before → after)** | SAM | ZHAO |
+|---|---|---|---|
+| Ingestion / boot script | 🔴 0 → **✅ `boot.py`, 7 sections** | ✅ 20 + boot | ✅ 2 + boot |
+| `KB.tsv` | 🔴 none → **✅ 34 rows, 33 with expiry** | ✅ 167 | ✅ 128 |
+| Fossil vectors | 🔴 **28** → **✅ 0** | — | ✅ 0 |
+| Pre-registration | 🔴 none → **✅ 1** | ✅ 4+ | 🔴 none |
+| Falsification surface | ✅ `KILL_TREE` (13) | ✅ `thesis/` (17) | 🔴 none |
+| Threshold registry | ✅ **only desk of three** | 🟡 in scripts | 🟡 in KB |
+| Read-cap | ✅ **only desk passing** | 🔴 6 over | 🟡 88% |
+
+**The infrastructure gap is closed in kind, not in degree.** SAM still runs 20 pullers to my 3; that difference is **appropriate** — Japan is a live position-bearing thesis and `EUROPE_MACRO` has carried one routed signal since the code shipped. **What is no longer true is that this desk has no mechanism.**
+
+⚠️ **What execution did NOT fix, stated plainly:** four of my six daily-scannable registry rows still require a human. **The 6.5-month BoE defect would still be possible today** — `boot.py` §[2] would *name* BoE as unpulled and prompt the check, but nothing forces it. **A reminder is weaker than a feed, and I am not claiming otherwise.**
