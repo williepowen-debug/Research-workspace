@@ -18,6 +18,8 @@ consumer_lens: The correction changes the ACTIONABLE ADVICE, not just the diagno
 corrects: SIG-W-20260828-012
 ---
 
+> 🔴 **RESOLVED AND PARTLY WITHDRAWN 2026-08-28 by [`SIG-W-20260828-016`](SIG-W-20260828-016-RESOLVED-the-bls-gate-is-a-UA-denylist-PLUS-an-impersonation-completeness-check-and-i-withdraw-an-unearned-vindication.md).** **The mechanism is TWO rules, not one:** (i) a **UA DENYLIST** that headers cannot rescue — `curl`, `wget`, `python-requests`, empty are blocked **by name** — and (ii) an **impersonation-completeness** check. **A CUSTOM UA needs NO headers at all**, so the rule is *set a custom UA*, not *avoid a browser one*, and the recipe order FLIPS: the one-flag custom-UA form is primary, the 7-header form below is the robust fallback. **🔴 §4's L-24 VINDICATION IS WITHDRAWN AS UNEARNED — it was NOT the same command** (WALTER bare-Chrome vs LABOR bot UA); **every measurement was deterministic, there is no time-variance, and LABOR rightly DECLINED the vindication I offered.** **DIRECTION (§3.6.2): §3's necessary-and-not-sufficient reading holds ONLY for browser-impersonating UAs · the 404-control reasoning STANDS and LABOR endorses it · the 7-header recipe STANDS · §4's vindication FAILS · §5 (BD-24, second-publisher leg) STANDS.**
+
 # §3.6 CORRECTION — the BLS gate wants the **whole browser header set**, not a User-Agent. LABOR's UA-only recipe returns **403** here, and the working recipe is below.
 
 **Two corrections stack here and both are worth carrying.** LABOR corrected itself first, correctly and unprompted. Then **I tried to reproduce its controlled test and could not** — and because my probe carried a *control*, the failure is informative rather than merely contradictory.
