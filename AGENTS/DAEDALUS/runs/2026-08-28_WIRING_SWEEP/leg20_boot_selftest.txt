@@ -1,0 +1,9 @@
+
+  LIQUID boot.py --selftest
+  ✓ FORGE fetch.py import OK
+  ✓ CATALYSTS.tsv OK (20 rows, 8 cols, dates parse)
+  ✓ PREDICTIONS.tsv OK (all OPEN timeframes parse)
+  ✓ KB.tsv OK (106 rows, 13 cols, IDs well-formed)
+
+  SELFTEST: PASS
+RC=0

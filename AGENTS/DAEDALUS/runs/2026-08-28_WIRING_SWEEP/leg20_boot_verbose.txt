@@ -1,0 +1,69 @@
+
+####################################################################
+#               LIQUID BOOT — 3-dashboard live sweep               #
+#                  Friday, August 28, 2026  10:35                  #
+####################################################################
+
+  Dashboard 1 — Credit Spreads
+    🟢 HY OAS       263bps               green (260-265) — 3bps to 260 kill / 17bps to 280 X1 trigger
+       trend: 275 → 270 → 269 → 270 → 267 → 263   [2026-08-27]
+    🔴 CCC OAS      1031bps              CCC tail >1000 trip
+       trend: 1035 → 1037 → 1036 → 1039 → 1031 → 1031   [2026-08-27]
+    🟢 BB OAS       153bps               (feeds CCC-BB gap)
+       trend: 163 → 158 → 157 → 158 → 156 → 153   [2026-08-27]
+    🟢 CCC-BB gap   878bps               pin INTACT — quality bifurcation wide (KB-LIQ-058)
+    🟢 IG OAS       79bps                benign (15bps below the 94 range-high)
+       trend: 82 → 81 → 81 → 81 → 80 → 79   [2026-08-27]
+    🟢 HY-IG basis  184bps               flat — no aggregate decompression (stress stays tail-only)
+    🟢 Euro HY OAS  256bps               (Euro−US -7bps)
+       trend: 256 → 256 → 254 → 257 → 258 → 256   [2026-08-27]
+    🟡 APO          $135.03 (+1.19%)     co-trigger satisfied (>$130) — NOT Trigger C absent HY compression
+    🟡 BIZD         $13.43 (+0.28%)      above $12.50 mark-stress line
+    🟢 VIX          $14.50 (-0.07%)      calm
+    🟢 HYG          $79.81 (-0.08%)      (price ref — HY ETF)
+
+  Dashboard 2 — Domestic Plumbing
+    🟢 SOFR         3.64%               
+       trend: 3.63 → 3.65 → 3.65 → 3.66 → 3.64 → 3.64   [2026-08-27]
+    🟢 IORB         3.65%                (ceiling ref)
+    🟢 SOFR-IORB    -1bps                negative/clean — no funding stress
+    🟢 SOFR75-IORB  +5bps                z +0.0 — ordinary for the current regime · regime tightening +7.1bp/yr (p75 of its own history)
+    🟢 SOFR99 tail  +8bps                tail contained (<20bps)
+    🟢 2Y (DGS2)    4.19%                (front-end ref / bear-flattener tell)
+       trend: 4.19 → 4.19 → 4.24 → 4.24 → 4.17 → 4.19   [2026-08-26]
+    🟠 10Y (DGS10)  4.66%                ABOVE 4.50 pivot
+       trend: 4.65 → 4.69 → 4.74 → 4.70 → 4.64 → 4.66   [2026-08-26]
+    🟠 30Y (DGS30)  5.18%                ABOVE 5.00 — duration regime re-establishing (need ≥5 closes)
+       trend: 5.19 → 5.23 → 5.27 → 5.23 → 5.17 → 5.18   [2026-08-26]
+    🟢 Reserves     $2.925T              cushion $125B above floor
+    🟢 RRP          $0.46B               structural zero
+    🟢 SRF usage    $0.10B               no funding stress (both legs)
+    🟢 TLT          $83.30 (+0.20%)      (price ref — 20Y+ UST)
+
+  Dashboard 3 — Foreign Official
+    🟢 USD/JPY      159.85 (+0.31%)      below 160
+    🟢 Brent        $87.80 (-2.12%)      (price ref — BZ=F ≠ ICE settle)
+
+  Catalyst Countdown (workbook/CATALYSTS.tsv, 60d horizon)
+    🟠  2026-08-28 Fri    0d cal /  0d trd  GATE-LIQ-076 review_by — dealer-positioning amplif  ⏰ IMMINENT
+    🔴  2026-08-28 Fri    0d cal /  0d trd  T6 LAST GRADEABLE DATA — 30Y benign-bucket (Option  ⏰ IMMINENT
+    🔴  2026-08-29 Sat    1d cal /  0d trd  T6 HARD CLOSE — 30Y benign-bucket test (BOND instr  ⏰ IMMINENT
+    🔴  2026-09-09 Wed   12d cal /  8d trd  Treasury long-end buyback step-up EFFECTIVE — $2B 
+    🔴  2026-09-16 Wed   19d cal / 13d trd  September FOMC decision — the T6 trigger's own eve
+    🟡  2026-09-30 Wed   33d cal / 23d trd  Q3 quarter-end funding turn — the SOFR-dispersion 
+
+  Predictions Due-Scan (workbook/PREDICTIONS.tsv)
+    🟡 LIQ-04: due 2026-12-31 (125d) — US BSL new-issue CLO AAA monthly average exceeds SOF
+
+  Unattended Watcher (AGENTS/LIQUID/alerts/HY_OAS_STATE)
+    🟡 HY OAS last yellow 267bps (obs 2026-08-26, checked 2026-08-27 15:33 )  ⚠️ ELEVATED — check alerts/HY_OAS_ALERTS.log
+
+  ==================================================================
+  BOOT SUMMARY   🔴 1   🟠 2   🟡 2   ⏰ 3 imminent   📋 0 overdue-pred   (25 series, 0 fetch errors, 0.4s)
+  Headline: HY OAS 263bps — green (260-265) — 3bps to 260 kill / 17bps to 280 X1 trigger
+    🔴 CCC OAS: CCC tail >1000 trip
+
+  ⚠️  Basis: FRED prints lag T+1 (latest may be 1-2 sessions back, more on a weekend);
+      yfinance = last close; Brent BZ=F ≠ ICE settle; USD/JPY ≠ 5pm-ET NY close.
+      Declare the basis when citing any figure downstream.
+

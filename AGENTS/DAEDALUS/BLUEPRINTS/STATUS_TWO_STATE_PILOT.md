@@ -66,7 +66,7 @@ My P3 assumed one mass (session narrative). Measurement on 2026-08-07 says three
 
 **Reported by the piloted agents themselves, not by DAEDALUS.** One line each into their own STATUS or a packet to PROME: what was rotated (bytes), pair size before and after, and whether they hit the falsifier. **I do not grade the pilot on files I would have an incentive to read favourably** — I proposed the cut and would run the fleet sweep.
 
-Second failure condition, on the mechanism rather than the agents: **if the pair total falls while the brief's share rises, the narrative relocated and the joint cap did not bind.** Measure both legs separately at grading, never only the total.
+Second failure condition, on the mechanism rather than the agents: ~~if the pair total falls while the brief's share rises, the narrative relocated~~ → **RE-SPECIFIED 2026-08-28 (CARL seat, 8/27 — the share test as written fires on a pure DENOMINATOR move: CARL's brief share went 23.9% → 38.1% while the brief did not change by one byte, because STATUS shrank). The condition is now ABSOLUTE: if the brief GREW IN BYTES during the rotation window (brief_after − brief_before > 0, measured in bytes, both stamps recorded) while STATUS shrank, the narrative relocated and the joint cap did not bind.** A ratio cannot carry a claim about a numerator — CARL re-specced its own CC-90+ kill rule for the identical defect the same day (Will-ratified); PATTERNS row pending at the 8/28 sweep. Measure both legs separately at grading, never only the total.
 
 ## What does NOT change
 
@@ -81,3 +81,19 @@ Nothing about an owner's obligations, thresholds, predictions, kill rails, brief
 **Scanner-design finding (load-bearing for the fleet sweep):** my pilot scoping predicted WATT had "nothing to rotate" off a scan keyed on dated section HEADINGS — WATT's accretion lived inside prose BLOCKQUOTES self-labelled "retained for continuity." Density and accretion are INDEPENDENT properties; a FORM-keyed instrument returns a claim about the pattern set, not the population, and fails toward "clean" so nobody re-checks (second FORM mis-read of this same agent in two weeks — PAT-078 was the first). **Rotation targets are defined by SUPERSESSION SEMANTICS, not structural form.** Cheap proxies that would have caught it: any block containing a date older than the file's Last-Updated stamp; any block whose own text says "prior / retained / superseded / for continuity."
 
 **Amendment-10 v2 candidate (WATT-declared exception, one hygiene-only STATUS write after the fold + one empty "noop" commit on shared history, both declared not papered over):** "fold after the last STATUS write that changes FLEET-FACING content; a declared hygiene-only write after is permitted." Adopt at next pilot touch.
+
+## PILOT RESULTS — HENRY seat (PROME-graded 2026-08-26; DAEDALUS recused) + CARL seat (owner-reported 2026-08-27, 5d late, dark 8/20→8/27)
+
+| Seat | Pair before → after | Cap 61,440 met? | Falsifier | 2nd condition | Seat verdict |
+|---|---|---|---|---|---|
+| WATT (8/17) | 67,485 → 61,572 after 4 rotations | NO (132 B over, live state) | NOT HIT | CLEAN | cap does not fit; mechanism works |
+| HENRY (8/26) | 90,407 (8/07) → 98,368 (8/23) → **118,716** (8/26) | NO — grew 31% while brief share FELL 32.9→30.6% | NOT HIT | CLEAN (anti-relocation confirmed) | cap does not fit; mechanism works. **Growth is genuine state: Class A exhausted; residue = mixed-vintage thesis body + CORRECTION RIDERS** |
+| CARL (8/27) | 252,078 → 157,793 (STATUS −94,285 B, −49%; brief 60,139 unchanged) | NO — **brief alone is 98% of the pair cap** | NOT HIT (0 days elapsed; reportable ~9/10) | **DEFECTIVE AS WRITTEN** (share rose on a pure denominator move) → re-specified above | joint cap not actionable by the owner; per-surface cap would bind on what each owner controls |
+
+**Three seats, one shape: the ROTATION MECHANISM is confirmed on every seat (verbatim, crc, falsifier never hit, nothing re-derived) and the NUMBER fits none of them.** Two findings the seats produced that the spec did not anticipate, both now inputs to the 8/28 wiring sweep's read-cap leg (㉔):
+
+1. **Corrections are permanently un-rotatable current-state mass** (HENRY, PROME-verified). Every ratified correction convention (DELEGATION_TIER rider R2, self-ruling record format, prune-scan remedy menu) requires superseded text preserved verbatim in place; two-state rotation can only remove FULLY superseded content; a correction block is by construction current state. ⇒ two ratified conventions pull opposite ways on the same bytes and only one is instrumented. A desk doing exactly the work the fleet wants (draining inboxes, correcting its own surfaces) grows STATUS monotonically with no rotation relief — ~13 KB of correction mass in one 28-packet drain.
+2. **A JOINT cap on a pair where one half is a schema'd cross-agent surface is not actionable by the agent** (CARL). `NEXUS_BRIEF.md` content rules are NEXUS-schema-owned and protective under length pressure; cutting it is a NEXUS question. **Disposition: per-surface caps, each owned by the surface's owner** — STATUS by the desk, the brief by the NEXUS schema.
+
+**Side yield worth telling every seat (CARL):** classifying every row for rotation IS a staleness audit — CARL's rotation surfaced four materially stale live values it did not cause (HY OAS 275→267bp, Brent 7/23 levels vs $88.24 [8/25]). Budget a rotation as a DATA pass, not only a byte pass. **Class-B masthead accretion rate measured: 23,885 B (8/07) → 31,454 B (8/27), ~+375 B/day on the cheapest-to-cut class.**
+

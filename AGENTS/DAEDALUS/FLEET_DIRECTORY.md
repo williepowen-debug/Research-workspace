@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-26.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-08-28.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
@@ -64,7 +64,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | H | 2026-08-23 | Fleet architect — design / structure / maturity / lifecycle | "L5 HELD at L4 — WILL-RULED 2026-08-20 (""hold your L5"", DAEDALUS's ow… |
+| DAEDALUS | Meta | L4 | H | 2026-08-28 | Fleet architect — design / structure / maturity / lifecycle | Staleness #4 ~9/1 ON TIME (last L5 cadence leg) |
 | YEYOU | Utility | L3 | H | 2026-08-20 | Repo-wide reviewer (manual / branch model) | L4 on PROOF OF CONSUMPTION (PROME acts on the digest / a flag becomes b… |
 | RAV | Meta | L2 | M | 2026-08-07 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST charter-conformant run report in AGENTS/RAV/runs/ — §5'… |
 

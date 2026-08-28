@@ -1,0 +1,25 @@
+# INSTRUMENT-STATE TAXONOMY — how a registered threshold ends up ungradeable while every audit passes (wiring sweep ⑰ output, 2026-08-28)
+
+**Owner:** DAEDALUS · **Sources (framing travels, not paraphrase):** CREED 8/27 (states 1–3, 5, 6 + the merge with VULCAN) · VULCAN 8/27 (state 4) · ORACLE 8/27 via PROME (state 0) · PROME 8/27 sweep item 9 (the safe-silent vs loud-false split) · Falsification #2 L-31 (per-leg rule). **Measured today on n=68 rows → `runs/2026-08-28_WIRING_SWEEP/RUN_RECORD.md §1`.**
+
+**The property every state shares:** it passes a row-counting audit, a fire-state audit and a count audit. None was found by a guard; all were found by someone FOLLOWING A POINTER, RUNNING A FIX, or READING THE WORLD against the band list. Detection rate is a function of traffic, not correctness (CREED).
+
+| # | State | Band | Instrument | Pointer | Fails how | Found by | Discoverer / n |
+|---|---|---|---|---|---|---|---|
+| **0** | **SPECIFIED-BUT-NONEXISTENT** | ✅ | spec doc only — **no code** | — | 🔴 **reports as instrumented**: outputs hand-computed, published, routed; caveats constrain the READ but cannot make the number REPRODUCIBLE | closeout question "does the thing this document describes EXIST?" | ORACLE KB-ORC-074 (272-line spec, 67 days, 3 of 5 sigmas unreachable) |
+| **1** | **UNINSTRUMENTED** (true K5) | ✅ | ❌ absent | — | safe-silent — scanner says unscannable | registry audit | `finding_banded_threshold_with_no_metric_surface_is_untrippable`; AEOLUS n=7; today 17/29 live desk rows NONE/PROSE |
+| **2** | **UNWIRED** | ✅ | ✅ exists | ❌ absent | safe-silent — reads as state 1, is not | registry audit | CREED n=3; today PRODUCER-EXISTS-UNCITED 3 desk + 4 GATES |
+| **3** | **WIRED-BUT-NOT-MEASURED** | ✅ | ✅ | ✅ | 🔴 **loud-FALSE** — value cell is prose quoting its own threshold; scan grades `30 >= 1.0` and fires | running the fix | CREED n=2 (T-06/T-06b: a false `🔴🔴 TRIPPED` on the run after wiring) |
+| **4** | **ORPHANED INSTRUMENT / MISKEYED BAND** | ❌ none points at it — or the band is keyed to a DIFFERENT mechanism than the one the evidence arrives through | ✅ exists, working, issuer-primary | — | invisible from the registry (every row is fine); invisible from the taxonomy (CREED had the class written and could not self-apply it) | reading the WORLD against the band list — nothing schedules it | VULCAN n=2 (S5 credit-pricing bands vs $108.5B guarantee book; S2 roll band vs supply lock-up) + CREED self-instance n=1 |
+| **5** | **WRONG-REFERENT (C1/C2)** | ✅ | ✅ | ⚠️ names the wrong instance / wrong series | wrong grade, row reads fine | executing an unrelated ruling | CREED n=2 (T-08a, T-01b); today GATE-TERRY-006 WRONG-SERIES, GATE-LIQ-079 WRONG-BASIS |
+| **6** | **SOURCE-LACKS-VALUE (C3)** | ✅ | ✅ | ⚠️ names a real external document that does not contain the value | ungradeable on the registered basis; graded by luck if another leg carries the conjunction | a like-for-like primary pull at a print | CREED n=1 (T-03: "FDIC Q1 2026 QBP 3.40%" — the cell reads 2.73%) |
+
+## Rules that travel with the table
+1. **The remedy for state 2 CREATES state 3.** "Wire the unwired bands" without the state-3 check manufactures fires across the fleet — run the scan after EACH wire, not after the batch (CREED). A `[QUALITATIVE-VALUE]` marker is the only current guard; the scan has no unit awareness.
+2. **States 1–2 fail safe into "nobody graded it"; state 3 fails loud into "something fired"; state 4 fails silent into "quiet channel."** Severity axis (LIQUID/PROME): a state-3/4 defect on a BOOT-RENDERED surface is the worst quadrant — a latent bad band becomes a continuous false positive on the instrument used to decide what to look at.
+3. **Per-leg, never per-gate** (L-31): a conjunctive gate renders the state of its WEAKEST leg; `CANNOT-FIRE` is the Class-2 token, distinct from `NOT-FIRED`.
+4. **C3 does not get a checker.** No check can fetch every cited primary; the cheap fix is registration-time: every external baseline names its exact LOCATOR (table/column/row-label) — STRICT_TEXT rule 7(d).
+5. **State 4 needs a cross-desk pass or a self-prompt against the THESIS, not the registry** — articulating the class did not confer the ability to self-apply it (CREED, 6 of 9 blind spots found by other agents).
+6. **State 0's closeout question is free:** every method doc naming a derived score → does the metric have code? (CHECK_STANDARD §12 gains the zeroth state on Will's word — proposal C5.)
+
+**Standing arm:** `registry_chain_check` leg (a) when built (queued after `docket_view`) asserts surface-exists AND surface-ALIVE (the PortWatch control: a surface that existed and printed 0 through a demonstrable VLCC load).

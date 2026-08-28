@@ -1,5 +1,7 @@
 # 8/28 WIRING SWEEP — THE CUT LIST
 
+> ✅ **RUN 2026-08-28 — 6/6 LANDED** (⑰ n=68 · ② block + split · ⑯+⑪+㉕ · ㉔ 18/39 · ⑳ 5/5 · ① 36/36 anchors, batch in front of Will). Record → `runs/2026-08-28_WIRING_SWEEP/RUN_RECORD.md`; register dispositions → `WIRING_SWEEP.md` §RUN 2026-08-28. Rides-the-date: ㉑ delivered · ⑱ DECLINE-WITH-TRIGGERS · ⑬②/⑬⑤ found ALREADY RULED 8/21 (struck — a third stale carry this register held). This file is now HISTORICAL — the commitment it made is discharged.
+
 **Written:** 2026-08-23 (promised to PROME *"before Friday"*, packet `760315757`) · **Runs:** 2026-08-28 · **Owner:** DAEDALUS
 **Register (canonical, do not duplicate):** `sweeps/WIRING_SWEEP.md`
 
