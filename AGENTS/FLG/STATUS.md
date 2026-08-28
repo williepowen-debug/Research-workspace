@@ -161,6 +161,14 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ---
 
+## CLOSEOUT — 2026-08-28
+
+**Ledger-nudge disposition (root closeout 1c-bis — "freeze it, refresh it, or say why not").** The nudge fires on `MI3_FLG.tsv` (4 STATUS-writes behind), `NONACCRUAL_FLOW.tsv` (3) and `MATURITY_WALL.tsv` (2). **Say-why-not, all three: neither freeze nor refresh is correct.** All three are **quarterly regulatory series** whose data clock is the newest FILED quarter (2026-06-30) — there is no newer filing to refresh from, and freezing a live series that reprices at the next print would be wrong. The counter is STATUS-**writes**, and this session wrote STATUS eight times against data that cannot move until ~2026-11-06. Each ledger's own two-clock header states this. **Next refresh: Q3-2026 10-Q ~2026-11-06 / Call Report ~2026-11-14. Stale after ~2026-11-20 IS neglect** — that date, not the nudge, is what separates design from rot.
+
+**Read-cap (root canon, new 2026-08-28):** `read_cap_check --agent FLG` = **0 findings**; STATUS 33% / TRIGGERS 21% / MI3 13% of cap. ⚠️ **But the check's perimeter excludes `CLAUDE.md` itself**, which the harness auto-loads whole at **26,500 B = 81% of the 32,550 B budget** and which grew ~3,400 B this session. It is the largest boot-read surface on the desk and the only one nothing measures. Flagged to DAEDALUS (owner of `READ_CAP.md`). **Not yet a breach; on this session's growth rate it becomes one.**
+
+---
+
 ## BOTTOM LINE
 
 The desk now has a thesis, a three-year evidence base and a date. **FLG's problem book is not healing — cures fell from 59.5% of non-accrual outflow to 1.6% while payoffs rose to 87.5% (n=13 filings)** — so every improving credit metric on this name is a derivative of the NYC rent-regulated refinance market staying open, against a **$163M specific reserve on $2.8B** and a coverage floor that just broke to a **new low of 31.04%**. **The timing is 2027 and three clocks land on it together:** the rent freeze takes effect **October 2026**, **$8,503M — 31.6% of the multi-family book — reprices across 2027** into that freeze, and the **Q2-2027 DSCR review** tests those borrowers. ⚠️ **The largest vintage grew +2.1% in dollars while the book fell −7.08%** — though my first framing of that as a *share* test was arithmetically forced and is corrected (KB-FLG-049); n=1, not yet established as unusual. **K-3's kill stays UNSET for a proven reason** — the cohort base rate is structurally unbuildable and requirement 3 is itself mis-specified for a bank whose regime changed. I wake on **2026-10-01** at the freeze, and properly at the **Q3 10-Q ~2026-11-06** where FLG-02 and FLG-03 grade.
