@@ -72,15 +72,14 @@ LIVE = [
 ]
 
 # ⚠️ The honest half. Load-bearing and NOT reachable from this box.
+# ⚠️ Only what genuinely has NO feed. Bund + EGB spreads MOVED to fetch_eu.py
+# on 2026-08-28 — they were never truly unreachable, only absent from yfinance.
 MANUAL = [
-    ("German 10Y Bund",      "HANS-T-05  🟠 WATCH FIRED", "tradingeconomics.com/germany/government-bond-yield"),
-    ("UK 10Y gilt",          "HANS-T-06",                 "tradingeconomics.com/united-kingdom/government-bond-yield"),
-    ("UK 30Y gilt",          "HANS-T-13  (LDI instrument)","tradingeconomics.com/united-kingdom/30-year-bond-yield"),
-    ("EU gas storage vs norm","HANS-T-08 🟠 ORANGE FIRED", "GIE AGSI+ / global-energy-flow.com/storage/"),
-    ("Italy / France / Spain-Bund spreads", "HANS-T-09 / T-10", "countryeconomy.com · ideal-investisseur.fr"),
-    ("ECB deposit rate",     "HANS-T-04",                 "ecb.europa.eu/press/pr  (8 GovC dates/yr)"),
-    ("BoE Bank Rate",        "— (75bp stale for 6.5mo pre-8/28)", "bankofengland.co.uk  (8 MPC dates/yr)"),
-    ("German/EU flash PMI",  "HANS-T-01/02/03",           "pmi.spglobal.com  (~22nd-24th monthly)"),
+    ("UK 10Y gilt",         "HANS-T-06",                  "tradingeconomics.com/united-kingdom/government-bond-yield"),
+    ("UK 30Y gilt",         "HANS-T-13 (LDI instrument)", "tradingeconomics.com/united-kingdom/30-year-bond-yield"),
+    ("ECB deposit rate",    "HANS-T-04",                  "ecb.europa.eu/press/pr  (8 GovC dates/yr)"),
+    ("BoE Bank Rate",       "— (was 75bp stale 6.5mo)",   "bankofengland.co.uk  (8 MPC dates/yr)"),
+    ("German/EU flash PMI", "HANS-T-01/02/03",            "pmi.spglobal.com  (~22nd-24th monthly)"),
 ]
 
 
@@ -117,11 +116,18 @@ def main():
                 # a failed pull is REPORTED, never silently skipped
                 print(f"  ⚠️  {label:<28} {'PULL FAILED':>10}   {sym}: {str(e)[:38]}")
 
-    # [2] the perimeter — what this script CANNOT see
-    print("\n[2] ⚠️  NOT AUTO-PULLABLE — CHECK BY HAND. This list is the script's own perimeter;")
-    print("    a clean section [1] does NOT mean the board is clear.")
+    # [2] European primary pull — ECB Data Portal (keyless) + AGSI+
+    print("\n[2] EUROPEAN PRIMARY PULL")
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import fetch_eu
+        fetch_eu.main()
+    except Exception as e:
+        print(f"  ⚠️  fetch_eu failed: {str(e)[:70]} — run it directly to diagnose")
+    print("  ⚠️  PERIMETER: a clean [1]+[2] still does NOT clear the board. Event-driven rows")
+    print("     (ECB/BoE decisions, monthly PMI) have no feed by nature — check the calendar:")
     for label, tid, src in MANUAL:
-        print(f"  •  {label:<38} {tid:<32} {src}")
+        print(f"  •  {label:<34} {tid:<30} {src}")
 
     # [3] registry
     print("\n[3] REGISTRY STATE")
