@@ -185,3 +185,17 @@
 | **Insurer-lender double-jeopardy** | 🟠 **mechanism retained, instances ZERO. The LENDER leg is REFUTED at named-entity level for all 5 gated funds** — every filed facility bank-led, zero insurer names; **Athene↔ADS refuted.** ⚠️ **GUARDRAIL: "not confirmable" is a public-data limit, NOT proof of no exposure.** **Dig trigger-gated (§10.6).** |
 | **Lee Robinson $1.8T insurer-short** | 🟠 Shorting the **insurer-exposure channel specifically**; the **Burry round-tripping allegation** is a second named short on it. **Both allegation-grade, NOT realized impairment.** No primary sourcing yet. |
 | **System transmission** | 🟡/🟠 Broad confirmation absent — **HY OAS 263 (8/27) ties the 2026 low.** Latent unless funding, rating, regulatory or bank/NDFI fires. |
+
+### 2Q-bis. ⚠️ FOUR DENOMINATORS ARE IN CIRCULATION FOR DELAWARE LIFE — the concentration swings ~9pp on the choice alone
+
+*(Added 2026-08-28 on a WALTER NOTE flagging that the board's "39% of total INVESTED assets" and a media "$69 billion of assets as of March" have different denominators and are not interchangeable. SHADE now holds primary figures for three of the four.)*
+
+| Denominator | Value | Affiliate-contingent **$16,822M** as a share | Note |
+|---|---:|---:|---|
+| **Total net admitted, incl. separate accounts** | **$70,463,756,039** (6/30/26) | **23.9%** | ⚠️ **This is what the media "$69B as of March" maps to** (12/31/25 total: $64,700,107,722). ⛔ **It includes $19.2B of SEPARATE ACCOUNT assets, which are not general-account risk — using it UNDERSTATES the concentration.** |
+| **General account net admitted** | **$51,249,394,609** (6/30/26) | **32.8%** | ✅ **SHADE's basis.** The general account is where the affiliate-contingent book actually sits. |
+| **Total invested assets** | not separately pulled | — | The basis of the circulating **"3% → 39%"** restatement figure. **Not the same as either row above.** |
+| **Capital and surplus** | **$4,028,108,426** (6/30/26) | **4.18×** | ⛔ **A CONCENTRATION multiple, NOT leverage** — it does not resurrect the retracted 12× (`SIG-W-20260727-021`, filing figure 5.1×). |
+
+⇒ **Always name the denominator in the same breath as the percentage.** `[[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]` · `[[finding_cross_entity_comparison_needs_same_perimeter]]`
+⚠️ **Clear Spring ~$16B** *(same relay, same March-2026 vintage)* — **SHADE has pulled no Clear Spring primary; that remains ladder marker (5).**

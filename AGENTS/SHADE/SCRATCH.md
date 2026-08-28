@@ -45,6 +45,7 @@
 - ⛔ **No POST-PAUSE flow figure exists.** *"Regulatory margin call"* and *"flows going the wrong way"* are the relayer's and are on **no SHADE surface**. The 1H-26 baseline below ends **2 months before** the pause.
 - **1H-2026 baseline (DLIC Q2 statutory):** direct premiums + deposit-type **$6,726,317,026** · individual annuities **$4,645,112,433** · **surrenders $2,060,811,753** · net cash from operations **$3,447,262,388** · capital and surplus **$4,028,108,426** · GA net admitted **$51,249,394,609.**
 - **Affiliate-contingent: $16,822,226,503 (6/30/26) = 32.82% of GA** vs **$16,371,945,130 = 35.67% (12/31/25 restated).** **NEVER quote the share alone or the dollars alone — they point opposite ways.**
+- ⚠️ **FOUR DENOMINATORS circulate for Delaware Life and the concentration swings ~9pp on the choice** — total admitted incl. separate accounts **$70,464M ⇒ 23.9%** · **general account $51,249M ⇒ 32.8% (SHADE's basis)** · "total invested assets" (the 3%→39% basis, not pulled) · surplus $4,028M ⇒ 4.18× (a CONCENTRATION multiple, not leverage). **The media "$69B as of March" maps to the TOTAL line and understates the concentration by including $19.2B of separate accounts.** **Always name the denominator.** *(→ `REFERENCE.md` §2Q-bis.)*
 - **Illiquidity Ratio 10.05% is a FLOOR, not the ratio.** ⛔ **Do not say it is below the 30% red flag.**
 - **Affiliate-contingent = 4.18× surplus is a CONCENTRATION measure, NOT leverage.**
 - **NPORT rerun +37.8bp is a POOLED median; 7/27's +40.2bp was the within-fund PAIRED estimator.** ⛔ **Do not difference them.**
@@ -73,6 +74,7 @@
 
 ## MAIL STATE
 
-**BOTH LANES CLEAN.** 18 consumed this session (15 `inbox/WALTER/` + 3 `inbox/`, incl. BROCK's FHLB packet), all logged in `board_log.tsv` and `git mv`'d to `processed/`.
+⚠️ **ONE ITEM DELIBERATELY LEFT UNCONSUMED — `inbox/WALTER/2026-08-28_from-WALTER_NOTE-delaware-life-and-clear-spring-asset-denominators.md`.** It arrived mid-session and **WALTER's own header says a spawned instance does not consume it and it belongs to the next LIVE session** (BOARD_CONSUMPTION_SPEC §3.5.2). **Its CONTENT was acted on** — it guards a number this session published, and the four-denominator table is now in `REFERENCE.md` §2Q-bis. **NEXT SESSION: formally consume it (board_log row + `git mv` to processed/).** *(A falsely-cleared inbox is worse than an unconsumed one.)*
+**BOTH LANES OTHERWISE CLEAN.** 18 consumed this session (15 `inbox/WALTER/` + 3 `inbox/`, incl. BROCK's FHLB packet), all logged in `board_log.tsv` and `git mv`'d to `processed/`.
 **Outbound:** 2 memos to PROME (`outbox/`, copies in `PROME/inbox/`); **2 SendMessages** — `brock-0828` (CCC + X1 reconcile, **awaiting reply**), `prome-0f`.
 **Not sent:** no packet to REGINALD — it is an `action` recipient on `SIG-W-20260828-041` in its own right, and restating what it already received is the routine acknowledgement `CLAUDE.md` §11 forbids.
