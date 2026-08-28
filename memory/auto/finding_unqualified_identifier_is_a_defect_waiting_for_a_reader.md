@@ -1,6 +1,7 @@
 ---
 name: finding_unqualified_identifier_is_a_defect_waiting_for_a_reader
 description: "A label that omits the dimension distinguishing it from a sibling — sovereign, denominator, basis, venue — reads as complete and propagates until a downstream reader fuses it to the wrong object. The author never sees the defect because in the author's context the label was unambiguous. Qualify the identifier at the source; a correct row is still the upstream if its label is under-specified."
+symptoms: "my own memory contradicts itself; two rows in the same file disagree and the newer one is wrong; a compressed restatement of my earlier finding lost a word; I wrote 'X does not exist' when I meant 'X is not at source Y'; a research path was closed by a note I wrote; the empty search result WAS the expected result"
 metadata:
   node_type: memory
   type: finding
@@ -42,5 +43,26 @@ CARL had published *"Brent −8.16% to $82.77 [8/3]"* across ~13 sites, and it w
 - **When two siblings exist, register BOTH even if you only track one** — the absence of the US rows is what made the Japan row the only match for a US query. A one-sided register is an invitation to fuse.
 - **Add an explicit do-not-conflate guard** on rows with a known sibling, and put a kill-string on the ambiguous phrasing (here: *"the 20Y auction is Thursday"* used without a country).
 - **On the reading side:** when a label resolves suspiciously well to your need, ask *which object does this actually name?* before citing it — especially when you are borrowing it from another desk's surface.
+
+**⚠️ THE SELF-INFLICTED VARIANT — YOU DROP THE QUALIFIER WHILE COMPRESSING YOUR OWN CORRECT FINDING, AND BOTH ROWS THEN LIVE IN THE SAME FILE (OZK, 2026-08-28, n+1).** Every variant above involves two objects or two desks. This one needs neither: **one desk, one file, one fact, degraded by its own author in the act of summarising it.**
+
+OZK's MEMORY Findings carried a correct row from **2026-07-04**: *"as an FDIC state non-member bank it files 10-K/10-Q/8-K **and** Section 16 insider forms with the **FDIC** (efr.fdic.gov, cert #110), not SEC EDGAR. **There is no SEC 10-Q for OZK.**"* Precise, mechanism-bearing, and it names the qualifier that does all the work.
+
+On **2026-08-23** the same desk wrote a new row: **"OZK files no 10-Q — there is no MD&A. EDGAR CIK `0001038205` has no filings after 2017 … Do not plan a research step around an MD&A that does not exist."** That is the 7/04 row **restated with `SEC` deleted** — and deleting it inverts the claim's *type*: a **routing** fact ("look at the FDIC, not the SEC") becomes a **non-existence** fact ("the document does not exist"), which then licenses a standing instruction to stop looking.
+
+**The cost, and why this variant earns its own line.** Bank OZK does file Form 10-Q — with the FDIC. Cover page: *"UNITED STATES **FEDERAL DEPOSIT INSURANCE CORPORATION** … **FORM 10-Q** … FDIC Certificate No. 110 … BANK OZK"* (Exchange Act **§12(i)**: a bank registered thereunder files periodic reports with its **primary federal banking regulator**, which is the identical mechanism the desk already knew for Form 3/4/5). The 10-Q was **already on disk and already read** — and it is the source of the **~$490M debt-on-debt book**, the figure the operator ruled the desk's **replacement thesis pillar four days later**, plus its NCO and collateral-marking findings. **The desk wrote a false negative over its single most productive primary, and the note's own wording told future sessions not to go back.**
+
+**Three properties that make this the hardest variant to catch:**
+1. **Both rows coexist, and the newer wins.** They sat four rows apart in the same section for five days. A grep, a boot read, or a fresh session resolves the contradiction **by recency**, not by correctness — and nothing flags a file for disagreeing with itself.
+2. **The empty search WAS the expected observation.** EDGAR genuinely returns nothing for OZK. The evidence *for* the false claim is real and reproducible; only the inference from it is wrong. There is no anomaly to notice.
+3. **It is written in the voice of a settled finding**, with a directive attached ("do not plan a research step around…"). Compressions are written *after* the work, in summary mode, when confidence is highest and verification feels redundant.
+
+**How to apply (self-inflicted variant):**
+- **When you restate or compress an existing finding, RE-READ THE ROW YOU ARE COMPRESSING FIRST.** The qualifier (`SEC` / `as-reported` / `segment` / `average-basis` / `front-month`) is usually the entire content. A compression that drops it does not lose precision — **it reverses meaning.**
+- **Never let a compression stand beside its source.** Replace the old row, or cross-link them explicitly. Two rows on one fact is a defect regardless of which is right, because the resolution rule is recency.
+- **Type-check the restatement, not just the words:** did a **routing/availability** claim ("not at X") become an **existence** claim ("no such thing")? Did a **scoped** negative become an **absolute** one? That type-shift is the whole failure, and it survives a proofread that only checks the facts.
+- **Before writing any "there is no Y", grep your own `raw/` and KB.** Here the refutation was a 783KB PDF the desk had pulled itself. [[finding_scope_negative_needs_the_counterparty_standard]]
+- **Treat a note that CLOSES a research path as load-bearing.** "Do not look for Y" deserves the verification standard of a published number, because its failure mode is silent and unbounded: nobody ever reports the finding they didn't go looking for.
+
 
 Related: [[finding_digit_regex_on_markup_can_match_the_threshold_value]] (the regex sibling — that one MATCHES a wrong value out of markup, this one SILENTLY TRUNCATES a right one; together: a regex is a lossy reader of identifiers in both directions), [[finding_fused_true_facts_false_premise]] (the resulting error's shape — true components, false weld), [[finding_asymmetric_rigor_counterparty_claims]] (BOND's leg: primary rigor on the figure, none on the claim about another desk — the memory pointing inward), [[finding_unnamed_instrument_makes_a_threshold_a_family]] (the threshold-side twin), [[finding_number_carries_threshold_unit_source]], [[finding_ratio_gauge_denominator_branch]] (the denominator instance).
