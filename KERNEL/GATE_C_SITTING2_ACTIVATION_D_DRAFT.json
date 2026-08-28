@@ -1,0 +1,43 @@
+{
+  "schema_version": "kernel.live-activation.1",
+  "policy_version": "kernel.policy.1",
+  "activation_id": "LIVE-2026-0010",
+  "authorized_by": "WILL",
+  "authorization_ref": "KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md",
+  "mode": "LIVE_SHADOW_PILOT",
+  "repository_root": "/home/willi/Research-workspace",
+  "repository": "williepowen-debug/Research-workspace",
+  "source_commit": "TO-BE-RECUT-AT-MINT",
+  "window_start": "TO-BE-RULED",
+  "window_end": "TO-BE-RULED",
+  "revoked_at": null,
+  "writer_id": "PROME",
+  "commands": [
+    {
+      "command_id": "CMD-019306b4-1a00-7000-8000-0000000000a2",
+      "path": "AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a2.json",
+      "sha256": "81d2a01db60910cb88ffb79f403c536058c8da29aa2705769746d4ac477e52fd"
+    },
+    {
+      "command_id": "CMD-019306b4-1a00-7000-8000-0000000000a6",
+      "path": "AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a6.json",
+      "sha256": "bef71f7a000419d7d57d4d7bc92f9f6213bd8ce336d58edb9d722fccf28b7d9c"
+    },
+    {
+      "command_id": "CMD-019306b4-1a00-7000-8000-0000000000a7",
+      "path": "AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a7.json",
+      "sha256": "f6334b33b2fcfbf98f13211ad6d80744bc26841a6705065d1ca16c81be068f1c"
+    }
+  ],
+  "actors_path": "KERNEL/policies/actors.json",
+  "actors_sha256": "ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f",
+  "capabilities_path": "KERNEL/policies/capability-grants.json",
+  "capabilities_sha256": "6e73c29e9abd16270575cf1c0ba316c24c72d89ebb9e7e13099f5a2f6e9960de",
+  "custody_policy_path": "KERNEL/policies/custody-policy.json",
+  "custody_policy_sha256": "180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849",
+  "event_ids": {
+    "CMD-019306b4-1a00-7000-8000-0000000000a2": "EVT-019306b4-1a00-7000-8000-0000000000a2",
+    "CMD-019306b4-1a00-7000-8000-0000000000a6": "EVT-019306b4-1a00-7000-8000-0000000000a6",
+    "CMD-019306b4-1a00-7000-8000-0000000000a7": "EVT-019306b4-1a00-7000-8000-0000000000a7"
+  }
+}

@@ -16,6 +16,10 @@
 | Writer | PROME (custody primary; RED dormant; no substitute activation) |
 | Activation draft | `GATE_C_C7_ACTIVATION_DRAFT.json` — window fields read `TO-BE-RULED` and fail strict validation until Will's exact UTC bounds replace them |
 
+## Submission authoring requirement (added 2026-08-27 evening per the Increment-2 pause disposition, precondition ④ — a SENTENCE, not an example)
+
+**Every command whose `native_refs` cite a TSV row MUST also pin a structured native companion (a JSON file carrying the typed fields the acceptance layer reconciles), referenced as a second `native_refs` entry with `locator_type: JSON_POINTER` beside the `TSV_RECORD_ID` entry, and the companion file is authored, frozen, hashed, and committed exactly like the command itself.** A bare TSV ref fails acceptance with `NATIVE_RECORD_MISMATCH` on every material field — a TSV row cannot carry the typed fields exact-native reconciliation checks. Provenance: this requirement was previously conveyed only by SAM-33's example; on 8/27 CREED and LIQUID independently reasoned past the example in ~20 minutes (Increment-2 stop-2 and the LF-adjacent stop-3), while REGINALD — the one desk that followed the example — was the only desk to pass preflight. An example is not a requirement; this sentence is the requirement, and future desk authoring packets cite it.
+
 ## The sitting (Will present throughout; any stop condition on screen ⇒ stop, preserve, no disposition without Will)
 
 **Stop-condition discipline (C8 N1):** *preserve* means capture the on-screen state into the durable transcript **before any further tool invocation**. **No additional live apply — diagnostic or otherwise — until Will rules on the stop condition.** Each mid-sitting ruling is appended to the sitting's ruling record **at ruling time** (C8 N6), never only summarized in the closeout packet.

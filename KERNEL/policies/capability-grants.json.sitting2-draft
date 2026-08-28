@@ -1,0 +1,60 @@
+{
+  "policy_version": "kernel.policy.1",
+  "grants": [
+    {
+      "actor_id": "SAM",
+      "capabilities": [
+        "question.register",
+        "forecast.submit_own"
+      ]
+    },
+    {
+      "actor_id": "PROME",
+      "capabilities": [
+        "command.accept"
+      ]
+    },
+    {
+      "actor_id": "WILL",
+      "capabilities": [
+        "policy.override"
+      ]
+    },
+    {
+      "actor_id": "CREED",
+      "capabilities": [
+        "question.register",
+        "forecast.submit_own"
+      ]
+    },
+    {
+      "actor_id": "LIQUID",
+      "capabilities": [
+        "question.register",
+        "forecast.submit_own"
+      ]
+    },
+    {
+      "actor_id": "REGINALD",
+      "capabilities": [
+        "question.register",
+        "forecast.submit_own"
+      ]
+    },
+    {
+      "actor_id": "MIDAS",
+      "capabilities": [
+        "question.register",
+        "forecast.submit_own",
+        "question.close_own",
+        "resolution.propose"
+      ]
+    },
+    {
+      "actor_id": "TO-BE-NAMED-BY-MIDAS-AUTHORING--FAILS-CLOSED-UNTIL-REPLACED",
+      "capabilities": [
+        "resolution.verify"
+      ]
+    }
+  ]
+}
