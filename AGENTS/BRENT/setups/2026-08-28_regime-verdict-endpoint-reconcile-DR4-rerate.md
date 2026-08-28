@@ -1,6 +1,6 @@
 # BRENT — 2026-08-28 Fri · **REGIME VERDICT (owed since 8/26) · BZ 8/26 THREE-WAY ENDPOINT RECONCILE · DR-4 RE-RATE**
 
-**Written:** 2026-08-28 Fri ~10:4x–11:1x ET, markets OPEN · **Session:** PROME-orchestrated Friday slate (Will "start the Friday slate", 8/28 AM)
+**Written:** 2026-08-28 Fri ~10:3x–11:0x ET, markets OPEN · **Session:** PROME-orchestrated Friday slate (Will "start the Friday slate", 8/28 AM)
 **`$0` moved · no position changed · no threshold registered · no gated surface touched.** Gated needs are returned to PROME in §E.
 **Every figure below is either an own pull dated in-line, or a named desk's figure cited to that desk.**
 

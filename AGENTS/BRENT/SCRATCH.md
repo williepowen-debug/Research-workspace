@@ -1,6 +1,6 @@
-# BRENT SCRATCH — Fri Aug 28, 2026 **~12:1x ET** *(PROME-orchestrated Friday slate; markets OPEN; session STILL RESIDENT for the 13:00 rigs print and the 15:30 COT print — this file is written mid-session and gets a second pass at the true close)*
+# BRENT SCRATCH — Fri Aug 28, 2026 **~11:0x ET** *(PROME-orchestrated Friday slate; markets OPEN; session STILL RESIDENT for the 13:00 rigs print and the 15:30 COT print — this file is written mid-session and gets a second pass at the true close)*
 
-**Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
+**Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11). ⛔ **STAMP CORRECTED 2026-08-28 11:0x ET — this file was first written carrying a `~12:1x`/`~12:2x` ET session stamp while the wall clock read `11:0x`. I wrote the timestamp from the SESSION NARRATIVE (how much work had happened) instead of from `date`. `[[finding_write_timestamps_from_the_clock_not_the_narrative]]`, caught by running `date` before the Baker Hughes pre-check rather than by any guard. ⚠️ THE PRICE STAMPS ARE UNAFFECTED AND WERE ALWAYS RIGHT: every `~10:5x ET` tape figure was stamped AT CAPTURE and cross-checks to WALTER's independent `~14:5xZ` pull. Only the SESSION stamps drifted, and they drifted LATE — i.e. they made this work look more recent than it is. Corrected in place, left visible.**
 
 > # ⛔ THE ONE THING TO READ FIRST: `BZ=F` ALONE IS NO LONGER A CITABLE IDENTIFIER ON THIS DESK
 >
@@ -60,4 +60,4 @@
 
 ## 📬 MAIL STATE
 
-**Inbox EMPTY of actionable items except two WALTER artifacts left in place deliberately** — both untracked in git at 11:4x, therefore WALTER's to commit under carve-out ①; consumed and logged (board_log 2026-08-28T11:4x ×2), **archive to `processed/` once they are tracked.** Four items `git mv`'d to `processed/` this session. **Outbox: nothing pending.** Five packets delivered today (DEWEY · RED · WALTER · HAWK · PROME).
+**Inbox EMPTY of actionable items except two WALTER artifacts left in place deliberately** — both untracked in git at ~11:0x, therefore WALTER's to commit under carve-out ①; consumed and logged (board_log 2026-08-28T11:4x ×2), **archive to `processed/` once they are tracked.** Four items `git mv`'d to `processed/` this session. **Outbox: nothing pending.** Five packets delivered today (DEWEY · RED · WALTER · HAWK · PROME).
