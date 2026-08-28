@@ -1,7 +1,12 @@
 # INSIDERS STATUS
 **Updated:** 2026-07-06 (fresh pull via FDIC securities-filings API — 16 new Form 4s since Apr 12)
 
+> ⚠️ **VINTAGE FLAG (2026-08-28 integrity sweep) — this file is PRE-Q2-PRINT and has not been refreshed against it.** Everything below is **Q1-2026-based**; the Q2 print (7/21-22) and the Q2 Call Report (8/7) are **not** reflected. Q2 moved the relevant aggregates materially: classified+criticized **$1,215M→$1,282M**, RESG commitments **$27.8B→$25.7B**, NPA **$446M/1.07%→$589M/1.41%**, OREO **+93%**, NCO **0.56%→0.69%**. **Do not cite figures below as current** — root `STATUS.md` is canonical. *(Flagged, not rewritten: a refresh is real analytical work, not a stamp. This banner is the honest state; silently carrying Q1 figures under a current-looking header is what it replaces — [[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]].)*
+
+
 ## Assessment: 🔴 FULL CONVERGENCE (Score 13) — Maximum bearish signal; **pattern ESCALATING at 7/6 pull**
+
+> ⏰ **Score vintage: 2026-07-06 — 53 days old at the 8/28 sweep.** The FDIC EFR (cert #110) re-pull owed since 7/6 has **not** been run, so "ESCALATING" describes the trajectory *as of early July*, not today. Within the charter's quarterly minimum; the **pre-Q3 window opens ~Oct**. ⚠️ **An unrun pull is no evidence in either direction** — do not read the absence of new filings here as "no insider activity since July."
 
 ## Current State
 - **🆕 CRO Majumdar sold AGAIN (May 20): 827 @ $48.07 ≈ 24% of remaining** — 2nd discretionary sale in 3 months (Feb 24: 419 = 10.78%); cumulative ~32% lighter since Feb, with the Q2 print + IQHQ maturity inside 90 days. Upgraded from single event to **active de-risking pattern.**

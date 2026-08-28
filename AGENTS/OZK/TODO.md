@@ -61,6 +61,20 @@ First-ever 10-Q primary read. Findings → KB-210 (debt-on-debt), KB-211 (collat
 
 ---
 
+
+## 🔴 OPENED BY THE 2026-08-28 INTEGRITY SWEEP (`SWEEP_2026-08-28.md`)
+
+| # | Item | Why | Owner |
+|---|---|---|---|
+| S1 | **Re-derive SEVEN_CREDIT §TL;DR item 3 ($150-300M reserve build)** off the Q2 migration evidence directly, retiring the retracted 37.6% ratio as an input | The estimate is now **single-supported and un-recomputed**. Not falsified — but it must not be quoted as if both supports stand | OZK |
+| S2 | **Refresh the 4 subdomain STATUS files against Q2** (LIFE_SCI · GEOGRAPHY · INSIDERS · PRIVATE_CREDIT) | All are pre-Q2-print; vintage-flagged 8/28 but **flagging is not refreshing**. Largest remaining body of work | OZK |
+| S3 | **Reconcile the $87M IQHQ injection date** (KB-OZK-086) — TIMELINE has it at Jun-2024, Oct-2024 and sorted under 2025-06 | Same figure, up to 3 dates, 2 roles. Needs a primary re-check | OZK |
+| S4 | **Q2'26 10-Q — PULL AND READ** | ⭐ **Newly unblocked**: the 8/23 "OZK files no 10-Q" note was false (FDIC cert #110 filer). The Q1'26 10-Q produced the debt-on-debt pillar; the Q2 one is the natural next primary and nobody has looked | OZK |
+| S5 | **Insider re-pull (FDIC EFR cert #110)** — not run since 7/6 (53d) | Score 13 "ESCALATING" is a July-vintage read presented as current. Pre-Q3 window ~Oct | OZK |
+| S6 | **Two boot.py items owed back to DAEDALUS** — my STANDING_WATCH instance (their ⑪ named the filtered list, not the unfiltered one) + the variance on their ⑯ fix (doc-age ≠ ledger-age) | Their sweep gets the corrected instance back | OZK → DAEDALUS |
+
+*(Sweep items already CLOSED 8/28: charter fallback, FILES-table weights, R1 boot line, 37.6% survivors ×5, EL/weights mirrors ×6, version tokens ×2, scoring-card refresh, OZK-09 anchor, two-clock headers, boot.py ⑪+⑯, P-OZK-2 encode, PAT-025 lift record.)*
+
 ## HIGH PRIORITY — material thesis impact
 
 ### 1. Boston Life Sci $169M sponsor disambiguation — ✅ RESOLVED HIGH (2026-04-23 PM)

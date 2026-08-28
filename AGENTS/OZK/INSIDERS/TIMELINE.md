@@ -16,7 +16,7 @@
 2024-12-XX | [BANK]  | Q4 2024 — CRE/Tier 1 at ~415%; noncurrent still low
 2025-01-XX | [SELL]  | CFO Hicks sells tranche 2, completing ~$944K / ~22% reduction
 2025-05-05 | [GRANT] | Dir. Kenny receives 2,043 shares (2019 Omnibus Equity Incentive Plan) → 8,325 total
-2025-06-XX | [BANK]  | IQHQ sponsor contributes $87M to reserves (Jun 2024) [KB-OZK-086]
+2025-06-XX | [BANK]  | IQHQ sponsor contributes $87M to reserves (Jun 2024) [KB-OZK-086] ⚠️ **[2026-08-28 sweep: INTERNAL DATE CONTRADICTION — row is sorted under 2025-06 but labeled "(Jun 2024)", and line 15 puts an $87M IQHQ injection at Oct 2024. Same figure, up to three dates, two roles (equity injection vs reserve contribution). Flagged, NOT resolved — needs a KB-OZK-086 primary re-check before any of the three is treated as the date. Do not cite this row's date.]**
 2025-06-12 | [SELL]  | Dir. Kenny sells 782 shares @ $45.16 (multiple trades $45.15-$45.18) → 7,543 total
 2025-01-XX | [BANK]  | IQHQ sponsor contributes $82M to reserves (Jan 2025) [KB-OZK-086]
 2025-06-XX | [BANK]  | Q2 2025 — ACL coverage 8.86x on noncurrent; ACL peaks at $679.6M (Q3)

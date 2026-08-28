@@ -2,6 +2,23 @@
 
 Tracks changes to `OZK/THESIS.md` and structural shifts in the OZK bear case. Mirrors `AGENTS/REGINALD/thesis/CHANGELOG.md` format. Sub-docs (IQHQ_PLAYBOOK, SEVEN_CREDIT_DEEP_DIVE, RESG_MIX_DETERIORATION, IQHQ_SECONDARY_EXPOSURE, CIB_MARGIN_COMPRESSION) carry the deep math; this log tracks thesis-level deltas only.
 
+## 2026-08-28 — Data-integrity sweep (Will-directed): 22 findings · P-OZK-2 successor ENCODED · a FALSE "no 10-Q" memory retracted (NO THESIS VERSION BUMP — v1.5 stands; zero weights, thresholds, probabilities or conviction moved)
+
+**Scope:** a full-surface integrity sweep, not an analysis session. **Nothing in it re-derives, re-grades or re-marks anything.** Report → `SWEEP_2026-08-28.md`.
+
+| Area | Old view | New view |
+|---|---|---|
+| **P-OZK-2 (the vacated pillar)** | "A replacement pillar is NOT declared here — RETURNED 8/23" | ✅ **RULED 8/23 (Will, verbatim "approved"), ENCODED 8/28: the ~$430-490M debt-on-debt / note-assignment book is the successor pillar** — adopted as the pillar's **SUBJECT, not a graded finding**; inherits **none** of the dead ratio's evidentiary standing. The charter line had sat waiting for a disposition already made — a dated carry-item that never self-evaluates. Evidence home → `PRIVATE_CREDIT/STATUS.md` |
+| **OZK's 10-Q** | *(MEMORY 8/23)* "OZK files no 10-Q — there is no MD&A… do not plan a research step around an MD&A that does not exist" | ⛔ **RETRACTED — FALSE.** OZK files **Form 10-Q with the FDIC** (cert #110; `raw/Q1_2026_10Q.pdf` cover page verified at the primary). The 8/23 note was the **correct 7/04 finding with its qualifier dropped** — *"no **SEC** 10-Q"* → *"**no** 10-Q"* — and both rows coexisted in MEMORY for 5 days. **It had closed research on the desk's most productive primary**, the source of the ~$490M debt-on-debt book *(i.e. the pillar ruled 4 days later)*, NCO 0.57%, and the $250.4M-at-$0-ALL deferral-engine finding |
+| **37.6% MI3 retraction coverage** | 8/23: "RETRACTED across all local surfaces" | **Incomplete — 4+ more surfaces found live and unbannered**, incl. the premise under SEVEN_CREDIT's $150-300M reserve-build estimate and the bull argument's own number in WEAKNESSES C1. The 8/23 pass swept root docs only |
+| **Weighted EL mirrors** | `$140M` in 6 surfaces | **~$129M** in the EL role. ⚠️ **`$140M` remains LIVE as OZK-09's recognition threshold** — same token, two roles; a global replace would destroy a Will-approved threshold |
+| **OZK-09 resolver** | `Timeframe` = "Aug 2026 (may surface at Q3 print, Oct)" | **EVENT-ANCHORED (Option-2, frozen 7/23) — runs through the Q4'26 print.** The cell would have read **overdue 9/1** with 5 months left; the governing ruling lived only in free-text Notes |
+| **`POSITIONS.md` PAT-025 freeze** | Frozen; condition met 8/2, unlifted | ⚖️ **LIFTED** (Will-ruled 8/23, recorded 8/28 **with provenance**, not silently removed). ⛔ `TRADE.md`'s freeze is **separate and still stands** |
+
+**Also:** charter's documented boot fallback verified **broken** and fixed (`scripts/market.py` is repo-root, not agent-local — the remedy for a broken boot kit was itself broken 55 days, certified by an annotation asserting a parity that never held) · R1 corrections boot line wired (rc=0) · `boot.py` STANDING_WATCH re-based + date-guarded (it printed "Next: Q2 Jul-21" with **Q1 figures** five weeks after Q2 graded) and staleness re-based off mtime onto git vintage · two-clock headers on KB/PREDICTIONS · 4 subdomain STATUS files vintage-flagged as pre-Q2 · scoring-card OZK-09 refreshed to the live 45% **beside** its frozen 52% pre-registration.
+
+**⛔ Explicitly NOT moved:** RESERVOIR **v1.5** · OZK-09 **45%** · **A30/B45/C8/D17** · Option-2 window FROZEN · ≤55bps kill line · kill-§1 criterion text · conviction **🔴🔴 HIGH**. `PREDICTIONS.tsv` confidences and statuses untouched (only OZK-09's `Timeframe` cell was re-anchored, and its own note records that).
+
 ## Version convention
 
 - **Major (vX.0):** Structural change to the thesis — new channel, retired channel, conviction direction reversed, framework rewrite.

@@ -1,11 +1,26 @@
 # PRIVATE CREDIT STATUS
-**Updated:** 2026-07-18 (Q1'26 10-Q READ — debt-on-debt ~$490M primary-confirmed [KB-210]; The Jack = first debt-on-debt casualty; NDFI-contagion regime channel flagged to REGINALD+BROCK [C8/KB-215])
+**Updated:** 2026-08-28 (**★ THIS BOOK IS NOW THE THESIS'S NAMED SECOND PILLAR** — Will-ruled 8/23, verbatim "approved" — replacing the retracted 37.6% MI3 ratio in "what makes OZK special." Plus the Q2-26 Call Report data this file was missing for 21 days: `RIAD5409` **$42,437K — the first nonzero in 18 quarters.**) Prior: 2026-07-18 (Q1'26 10-Q READ — debt-on-debt ~$490M primary-confirmed [KB-210]; The Jack = first debt-on-debt casualty; NDFI-contagion regime channel flagged to REGINALD+BROCK [C8/KB-215])
+
+> ### ★ PILLAR STATUS (Will-ruled 2026-08-23, encoded here 2026-08-28)
+> The **~$430–490M debt-on-debt / note-assignment book** owned by this subdomain is the **adopted successor to `P-OZK-2`** — the "what makes OZK special" slot vacated when the 37.6% Memo-Item-3 ratio was retracted on four independent paths.
+> ⚠️ **Adopted as the pillar's SUBJECT, not as a graded finding.** Per the ruling: *"it does not inherit the dead ratio's evidentiary standing"* — it starts from the two filings already sourced **and nothing more.** ⛔ **The ruling sets no threshold, no band, no weight and no score.** OZK-09 45% and A30/B45/C8/D17 are untouched; **if an encode moves a number, it has exceeded the ruling.**
+> **Provenance note:** this desk **declined to name its own successor** (the desk that lost a pillar must not pick its replacement, or the replacement is reverse-engineered to preserve the conclusion). Naming came from Will/PROME; **the evidence work is ours and starts at zero.**
+
+> ### 🔴 Q2-2026 CALL REPORT — the pillar's first hard datum *(added 2026-08-28; this file had been missing it since 8/7)*
+> | Item | Q1-26 | Q2-26 | Read |
+> |---|---|---|---|
+> | **`RCON2746`** (CRE-purpose, not secured by RE) | $489,284K | **$430,277K** | −$59.0M / **−12.1% QoQ**; **−64.2% over 4 quarters.** Ties the 10-Q's "~$490M debt-on-debt book" — **same book, two independent filings.** |
+> | **`RIAD5409`** CRE-purpose-not-secured charge-offs, YTD | **$0** | **$42,437K** | 🔴 **FIRST NONZERO IN 18 QUARTERS.** "All other loans" c/o broke regime: ~$1–4M/yr for 16 quarters → **$43,812K in H1-26**, 97% attributed to CRE-purpose. |
+>
+> **Read: the acquired-paper book is not just shrinking, it is CHARGING OFF while it shrinks.** That distinguishes deliberate runoff from loss-driven contraction — but ⚠️ **it does not settle which**, and the Call Report **names no credits**, so the $42.4M is **UNATTRIBUTED**: it cannot be tied to The Jack, 777 Industrial, Southline or any other node from this source. Routed to **BROCK as UNATTRIBUTED** 8/7 — their flip (a) is theirs to grade, not ours.
+> ⚠️ **A −64% YoY decline must not be quoted as a smooth economic trend:** MI3 sat in a $980M–$1,480M band for eleven quarters and then fell **−36% in ONE quarter at 2025Q3**. The step-quarter adjudication is **UNRESOLVED with three live branches** → `../MI3_2025Q3_ADJUDICATION.md`.
+> ⛔ **Scope fence:** this book is CRE **NOT secured** by real estate. It is a **different object** from RESG / IQHQ / the 11 tracked credits. Its collapse is **not** evidence about the secured book in either direction.
 
 ## Assessment: 🟠→🔴 PRE-STRESS — Components assembled, reflexive channel activating + Q1 competitive-displacement layer
 
 ## Current State
 - **$2.74B NDFI book is 50-75% CRE-correlated.** CEO (Gleason Q3 2025) admitted NDFI contains RESG loans to CRE debt funds. Structural exposure unchanged post-Q1.
-- **🆕 Q1'26 10-Q (primary) — the "debt-on-debt" channel sized: ~$490M** of RESG-originated NDFI loans "collateralized by an assignment of a promissory note," classified as **"Other"** in the Call Report [KB-210]. This is OZK buying senior/junior positions in *other lenders'* construction paper — named cases: **777 Industrial (SqMile/Affinius, $95M), Southline (SqMile junior), The Jack (ex-Claros Mortgage Trust, $25.9M).** Refines older KB-021 ($1.06B "Other," broader/older scope).
+- **🆕 Q1'26 10-Q (primary — FDIC Form 10-Q, cert #110; ⚠️ OZK files 10-Qs with the FDIC, NOT SEC EDGAR — a 8/23 MEMORY note claiming "OZK files no 10-Q" was RETRACTED 8/28 as false) — the "debt-on-debt" channel sized: ~$490M** *(now **$430,277K** at Q2-26, see the Call Report block above)* of RESG-originated NDFI loans "collateralized by an assignment of a promissory note," classified as **"Other"** in the Call Report [KB-210]. This is OZK buying senior/junior positions in *other lenders'* construction paper — named cases: **777 Industrial (SqMile/Affinius, $95M), Southline (SqMile junior), The Jack (ex-Claros Mortgage Trust, $25.9M).** Refines older KB-021 ($1.06B "Other," broader/older scope).
 - **🆕 The Jack = the FIRST identified debt-on-debt casualty:** disclosed in the 10-Q "Other" nonaccrual line ($25.9M, $0 ALL, 30-59 DPD) after a $27.7M Q1 charge-off — a leading tell on the ~$490M acquired-paper book [KB-207/210].
 - **🆕 NDFI-contagion REGIME channel (C8/KB-215):** the Oct'25 regional-bank selloff (Zions/WAL C&I fraud + First Brands/Tricolor) proved the market gaps NDFI-exposed regionals down hard/fast on any private-credit fraud headline. OZK's debt-on-debt concentration = a fast-transmission surface *ahead of* its own RESG timeline. Flagged REGINALD (regime) + BROCK (private credit).
 - **🆕 Q1 2026 — Jake Munn (CIB President) disclosed PULLBACK on 2 of 4 CIB sub-segments:**

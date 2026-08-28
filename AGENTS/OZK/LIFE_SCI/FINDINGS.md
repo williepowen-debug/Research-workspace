@@ -27,7 +27,7 @@ The RaDD senior loan matures **Aug 2026**. Prior versions of this file claimed a
 
 OZK committed $915M total, **$555M funded**, ~$360M in "good news funding" (released only when leases are signed). JCVI ~50K SF is the only signed tenant — 3.3% of 1.5M SF.
 
-**Implication for our trade:** Aug 2026 IS the forced recognition catalyst. Extension is possible but not confirmed by management; Gleason told analysts "August is an eternity" on the Q1 26 call, framing possible sponsor support but hedging timing. Four-scenario resolution tree lives in `../IQHQ_PLAYBOOK.md`: weighted EL $140M, scenario weights A-extend 20% / B-substandard migration 50% / C-takeout 12% / D-foreclosure 18%.
+**Implication for our trade:** Aug 2026 IS the forced recognition catalyst. Extension is possible but not confirmed by management; Gleason told analysts "August is an eternity" on the Q1 26 call, framing possible sponsor support but hedging timing. Four-scenario resolution tree lives in `../IQHQ_PLAYBOOK.md`: weighted EL **~$129M**, scenario weights **A-extend 30% / B-substandard migration 45% / C-takeout 8% / D-foreclosure 17%** *(re-weighted 2026-07-23, Will-approved; this line carried the pre-7/23 tree and $140M until the 2026-08-28 sweep. `IQHQ_PLAYBOOK.md` §4 is canonical, never this file.)*
 
 **Position implication:** $42.5P Aug 21 expiry does catch the maturity event. Thread 3 roll (May $42.5P × 2 → Jan27 $42.5P × 2) extends duration past any late-Q3 / Q4 recognition tempo if scenario B/D plays out.
 

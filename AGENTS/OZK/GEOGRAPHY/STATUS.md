@@ -1,6 +1,9 @@
 # GEOGRAPHY STATUS
 **Updated:** 2026-07-06 (staleness stamp + 2 corrections: Boston sponsor resolved, Lincoln Yards foreclosed-not-sold) | Prior refresh: 2026-04-23
 
+> ⚠️ **VINTAGE FLAG (2026-08-28 integrity sweep) — this file is PRE-Q2-PRINT and has not been refreshed against it.** Everything below is **Q1-2026-based**; the Q2 print (7/21-22) and the Q2 Call Report (8/7) are **not** reflected. Q2 moved the relevant aggregates materially: classified+criticized **$1,215M→$1,282M**, RESG commitments **$27.8B→$25.7B**, NPA **$446M/1.07%→$589M/1.41%**, OREO **+93%**, NCO **0.56%→0.69%**. **Do not cite figures below as current** — root `STATUS.md` is canonical. *(Flagged, not rewritten: a refresh is real analytical work, not a stamp. This banner is the honest state; silently carrying Q1 figures under a current-looking header is what it replaces — [[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]].)*
+
+
 ## Assessment: 🔴 Risk is surgical — 24% of RESG (life sci + office) holds 100% of identified distress
 
 The geographic research is the most complete view of OZK's loan book available outside the bank itself. 58 MSAs mapped, project-level distress inventoried, FDIC supervisory mismatch quantified. The core finding: **geography is not the risk — it's the intersection of geography and asset type.** Florida is 23% of RESG and has zero problems. Life science and office are 24% and have all of them.
