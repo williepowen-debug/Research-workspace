@@ -10,7 +10,12 @@
 
 ## Frame
 
-Every OZK trade is a bet on the core convergence: hidden CRE (MI3 37.6% — worst in coverage) + single-sponsor concentration (11 tracked problem credits, $719M) + private-credit deterioration (IQHQ/Bluerock stack) → credit recognition event. Two discrete 2026 catalysts: **IQHQ RaDD maturity (Aug 2026)** and **$350M sub notes reprice (Oct 1, 2026)**. RESERVOIR v1.3.
+Every OZK trade is a bet on the core convergence: ~~hidden CRE (MI3 37.6% — worst in coverage)~~ + single-sponsor concentration (11 tracked problem credits, $719M) + private-credit deterioration (IQHQ/Bluerock stack) → credit recognition event. Two discrete 2026 catalysts: **IQHQ RaDD maturity (Aug 2026)** and **$350M sub notes reprice (Oct 1, 2026)**. ~~RESERVOIR v1.3.~~
+
+> ⚠️ **[2026-08-28 sweep — two dead tokens struck in the line above; the rest of this doc is a FROZEN entry-rationale record and is deliberately NOT rewritten.]**
+> **(1) `MI3 37.6% / "worst in coverage"` is RETRACTED — both halves**, on four independent paths; live **9.35% [Q2-26]**, rank **5th of 14**, and "worst" formally retracted by the screen's owner (REGINALD, 8/13). Full retraction → `LESSONS.md` §Hidden CRE Methodology · `CALL_REPORT_2026Q2_LOG.md` §3. **This was the first leg of the convergence bet and it did not survive contact with the primary** — that is a fact about the entry rationale, which is why it is struck here rather than deleted. ⛔ **Scope fence: MI3 is CRE NOT secured by real estate. RESG, IQHQ and every secured book are untouched.**
+> **(2) Successor pillar (Will-ruled 2026-08-23, verbatim "approved"):** the ~**$430–490M debt-on-debt / note-assignment book** — two independent filings, **charging off in H1-26** (`RIAD5409` $42,437K, first nonzero in 18 quarters). Adopted as the pillar's **SUBJECT, not as a graded finding**; it inherits none of the dead ratio's evidentiary standing.
+> **(3) Thesis version is v1.5**, not v1.3 (v1.3 was current at entry, Mar 2026 — accurate as history, misleading as a live token). `THESIS.md` header is canonical.
 
 ---
 

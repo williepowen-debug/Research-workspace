@@ -50,7 +50,9 @@
 
 ## 3. Impact on IQHQ_PLAYBOOK Weighted EL Math
 
-**No change.** Weighted EL stays at ~$140M on $555M RaDD funded balance. Scenario tree (A 20% / B 50% / C 12% / D 18%) unchanged. 22% of OZK ACL on-one-credit figure unchanged. Aug 21 put duration thesis unchanged.
+**No change** — *from this thread's finding.* Weighted EL stays at ~~~$140M~~ **~$129M** on $555M RaDD funded balance. Scenario tree ~~(A 20% / B 50% / C 12% / D 18%)~~ **(A30 / B45 / C8 / D17)** unchanged *by this thread*. ~~22%~~ **~21%** of OZK ACL on-one-credit. ~~Aug 21 put duration thesis unchanged.~~
+
+> ⚠️ **[2026-08-28 sweep] The "unchanged" above is scoped to THIS THREAD's sole-exposure finding — it was never a claim that the tree is frozen.** The tree and EL WERE moved on 2026-07-23 (Will-approved reweight, A20→30/B50→45/C12→8/D18→17; EL ~$140M→**~$129M**), and this line carried the pre-reweight figures for 36 days while asserting "unchanged" — which is how a correctly-scoped negative turns into a stale mirror. `IQHQ_PLAYBOOK.md` §4 is canonical. **The sole-exposure verdict itself is untouched and stands.** The Aug-21 puts referenced above **expired worthless 8/21/2026**; OZK holds zero options.
 
 **If verdict flipped** (hypothetical second IQHQ credit existed — NOT the case): a second $100-200M Boston IQHQ credit behind Citizens in the cap stack would be structurally subordinate, but OZK doesn't play junior — so the arithmetic scenario was always thin.
 

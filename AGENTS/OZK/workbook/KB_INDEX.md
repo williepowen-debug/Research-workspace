@@ -12,7 +12,7 @@ Navigate the KB by investigation cluster. Each group maps to a folder or researc
 |-------|------|-------|---------------|----------------|
 | **CRE_CONCENTRATION** | 007–015, 048–050 | 12 | THESIS.md (core) | 455% CRE/tangible equity, C&D at 197%, RESG 54.4% of loans, $500M hold cap |
 | **SHADOW_CRE** | 021–027 | 7 | research/D3_SHADOW_CRE_LEVER.md | ~~MI3 at 37.6% ($1.289B hidden CRE in C&I)~~ ⚠️ **37.6% DEAD 2026-08-23 — see KB-OZK-226; live 9.35% [Q2-26], rank 5th/14. `research/D3_SHADOW_CRE_LEVER.md` is built on the dead ratio and carries a do-not-cite banner.** NDFI $2.74B debt-on-debt (unaffected) |
-| **MEMO_ITEM_3** | 018–020, 087 | 4 | research/D3_SHADOW_CRE_LEVER.md | MI3/C&I ratio worst in peer set, reclassification rebuttal |
+| **MEMO_ITEM_3** | 018–020, 087 | 4 | research/D3_SHADOW_CRE_LEVER.md | ~~MI3/C&I ratio worst in peer set~~ ⚠️ **RETRACTED 2026-08-23 — both halves. Live 9.35% [Q2-26], rank 5th/14; "worst" formally retracted by the screen's owner (REGINALD). See KB-OZK-226.** Reclassification rebuttal stands |
 | **CAPITAL_LIQUIDITY** | 042–047 | 6 | research/D2_PLEDGED_LOANS_LIQUIDITY.md | 74% loans pledged, $11.9B uninsured deposits, FHLB capacity |
 
 ## Thesis Layer 2: Mechanism (Extend-and-Pretend)
@@ -128,9 +128,9 @@ These research files exist in `research/` but span multiple KB groups or predate
 - "What's the bull case?" → BULL_COUNTER
 
 **By 2026 catalyst:**
-- **May 1-10 Q1 Call Report (FFIEC):** MI3 37.6% baseline trajectory, peer MI3 cohort drift → SHADOW_CRE + MEMO_ITEM_3 + PEER_COMP
+- ~~**May 1-10 Q1 Call Report (FFIEC):** MI3 37.6% baseline trajectory, peer MI3 cohort drift~~ → SHADOW_CRE + MEMO_ITEM_3 + PEER_COMP ⚠️ **[2026-08-28: PASSED and superseded — the Q2 pull ran 8/7 and the 37.6% baseline it was to 'trajectory' is RETRACTED. Live series → `workbook/CALL_REPORT_SERIES.tsv`.]**
 - **Mid-late Jul Q2 earnings (dress rehearsal for Aug IQHQ):** specific reserve build, classified+criticized trajectory, NCO tempo → ACL_THINNING + EXTEND_PRETEND + DISTRESSED_LOANS + RESG_MIX
-- **Aug 2026 IQHQ RaDD maturity:** 4-scenario tree (`IQHQ_PLAYBOOK.md`), weighted EL $140M → IQHQ + DISTRESSED_LOANS + LIFE_SCI
+- **Aug 2026 IQHQ RaDD maturity:** 4-scenario tree (`IQHQ_PLAYBOOK.md`, **A30/B45/C8/D17**), weighted EL **~$129M** [was $140M pre-7/23 reweight] → IQHQ + DISTRESSED_LOANS + LIFE_SCI
 - **Oct 1, 2026 $350M sub notes reprice + Affinius $2.7B bond maturity:** Tier 2 -20%, $0.09 EPS drag, NDFI counterparty stress → MATURITY_WALL + AFFINIUS + CAPITAL_LIQUIDITY
 - **Cross-feed evidence (market-side):** SELLSIDE (analyst trajectory), SHORT_INTEREST (squeeze risk), FAILURE_COMP (MetCap precedent)
 

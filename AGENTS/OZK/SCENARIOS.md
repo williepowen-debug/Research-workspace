@@ -220,7 +220,7 @@ Q1 earnings resolved Apr 21 (not Apr 16). Framework superseded by post-Q1 resolu
 | Field | Live source |
 |---|---|
 | Scenario weights / EV | THIS FILE (reweighted 2026-04-23) |
-| Thesis pillars + invalidation | `THESIS.md` v1.4 |
+| Thesis pillars + invalidation | `THESIS.md` **v1.5** *(cell said v1.4 until 2026-08-28 sweep; THESIS.md's own header is canonical, never this table)* |
 | Bull-case rebuttals | `WEAKNESSES.md` (C7 RESG-runoff steelman added 2026-07-04) |
 | IQHQ scenario tree (detailed) | `IQHQ_PLAYBOOK.md` |
 | Pre-registered Q2 reads | `workbook/PREDICTIONS.tsv` OZK-05→09 |

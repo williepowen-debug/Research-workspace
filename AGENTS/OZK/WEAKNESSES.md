@@ -6,7 +6,12 @@
 ## C1: Reclassification Has an Innocent Explanation
 
 ### The Bull Argument
-OZK launched CIB to diversify away from CRE. C&I growth (+153% over 8 quarters) is genuine corporate lending. Memo Item 3 at 37.6% means only 37.6% of C&I is RE-linked — the other 62.4% is real diversification.
+OZK launched CIB to diversify away from CRE. C&I growth (+153% over 8 quarters) is genuine corporate lending. ~~Memo Item 3 at 37.6% means only 37.6% of C&I is RE-linked — the other 62.4% is real diversification.~~
+
+> ⚠️ **[2026-08-28 sweep — the bull argument's own number is RETRACTED, and honesty requires saying which way that cuts.]**
+> `37.6%` is dead on four independent paths (live **9.35% [Q2-26]**; → `LESSONS.md` §Hidden CRE Methodology). **Read naively, the retraction makes THIS BULL ARGUMENT STRONGER, not weaker** — 9.35% RE-linked implies *more* genuine diversification than 37.6% did, and OZK's MI3 dollars are **−64% YoY**, the fastest fall in REGINALD's 14-bank cohort. **I am recording that plainly because this is the counter-argument file and suppressing it here would be exactly the motivated move this document exists to prevent.**
+> **What blocks the bull from banking it:** the ratio is a **category mismatch** for OZK on either basis — OZK's entire Memo-3 balance sits in RC-C **item 9.a**, not item 4 (`RCONPV09` ≡ `RCON2746` to the dollar, 6/6 quarters), so anything CRE-purpose landing in item 4 is invisible to the reported ratio **by construction**. A number that cannot see part of what it claims to measure supports **neither** side's conclusion. The disclosure question (C&I doubled while memo-3 fell 64%) is registered **UNRESOLVED** with three live branches, not resolved for the bull → `MI3_2025Q3_ADJUDICATION.md`.
+> ⛔ **Scope fence:** MI3 is CRE **not secured** by real estate. This whole C1 exchange is about the **unsecured** book. The RESERVOIR thesis lives in the **secured** book (RESG/IQHQ/classified) and **neither** the retraction nor this bull point touches it. **C1's status: the argument is neither won nor lost — its instrument was withdrawn.**
 
 ### Our Rebuttal
 **The bull argument is partially correct but materially overstated.**
@@ -137,7 +142,7 @@ Four independent research models confirm OZK's GFC performance was exceptional: 
 - **3.3% leased** (JCVI 50K SF only). Tracy Murphy's Jan 2025 guidance of "two tenants by March 2025" did NOT materialize.
 - **Aimco $50M fraud/breach complaint filed April 2026** — chills any 4th rescue round.
 - **Rossow (OZK CCO) on-record 3/19/26:** RaDD is OZK's sole IQHQ exposure.
-- **Weighted EL $140M = 22% of OZK ACL** on one credit.
+- **Weighted EL ~$129M = ~21% of OZK ACL** on one credit. *(Was $140M/22%; re-weighted 7/23 Will-approved. `IQHQ_PLAYBOOK.md` §4 canonical.)*
 - **Scenario tree:** 50% substandard migration / 18% foreclosure / 20% extend / 12% takeout.
 
 Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in THESIS.md "What Would Invalidate" §3.
@@ -166,7 +171,7 @@ Detail → `IQHQ_PLAYBOOK.md`. Invalidation triggers for this channel listed in 
 **Implication:** OZK's own RESG/CRE credit **has not been the price driver — regime/beta has** — and the deferred-recognition mechanism (C-series + the Q1'26 10-Q appraisal-marking read, 7/18) means it likely won't be until an actual reserve/charge-off prints. **A naive standalone short has been a losing churn for a year.**
 
 **Our response — two parts.**
-1. **This is a timing/catalyst argument, not a thesis-breaker.** It sharpens *how* to hold the thesis — patience, duration, size into the recognition event; don't grind the range or press short-dated puts into a catalyst we expect to print quiet (Jul-21). The same conclusion the accounting-deferral read and the crowded-short/squeeze setup independently reach. The RESERVOIR loss is intact and large ($140M weighted EL on IQHQ alone); the tape just says the market won't price it until it's booked.
+1. **This is a timing/catalyst argument, not a thesis-breaker.** It sharpens *how* to hold the thesis — patience, duration, size into the recognition event; don't grind the range or press short-dated puts into a catalyst we expect to print quiet (Jul-21). The same conclusion the accounting-deferral read and the crowded-short/squeeze setup independently reach. The RESERVOIR loss is intact and large (**~$129M** weighted EL on IQHQ alone [was $140M pre-7/23 reweight]); the tape just says the market won't price it until it's booked.
 2. **BUT it surfaces a genuine, previously-untracked vulnerability that cuts BOTH ways — the NDFI-contagion channel.** OZK is heavily NDFI-exposed: Fund Finance, Lender Finance Group, and the **~$490M "debt-on-debt"/note-assignment book confirmed in the Q1'26 10-Q** (The Jack came via a Claros note assignment; the Affinius/SqMile co-lending sits here too). Oct 2025 proved the market punishes NDFI-exposed regionals **hard and fast** on any private-credit/fraud headline, regardless of the bank's own timeline. That's a **second, faster catalyst path** for the short (a future First-Brands-style NDFI blowup could gap OZK down on beta *ahead* of our RESG recognition) — and simultaneously a **squeeze/beta risk** (benign NDFI regime + crowded short = the year-long grind higher). **OZK's near-term direction is regime-gated; own-credit recognition is the H2-2026→2027 driver.**
 
 **Cross-agent:** the NDFI/private-credit contagion regime is **REGINALD** (bank-system) + **BROCK** (private credit) scope — consume their regime read, cross-reference OZK's NDFI concentration as the transmission surface. Flagged to both 2026-07-18. Do NOT maintain an independent OZK regime copy (one-source-of-truth rule).

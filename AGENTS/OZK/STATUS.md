@@ -152,7 +152,7 @@
 
 ## Navigation
 
-**Cold boot → `INDEX.md`** · **Thesis → `THESIS.md` (v1.3)** · **Q1 → `Q1_2026_ANALYSIS.md`** · **IQHQ → `IQHQ_PLAYBOOK.md`** · **Seven credits → `SEVEN_CREDIT_DEEP_DIVE.md`** · **Bull pushback → `WEAKNESSES.md`** · **Backlog → `TODO.md`** · **KB → `workbook/KB_INDEX.md`**
+**Cold boot → `INDEX.md`** · **Thesis → `THESIS.md` (v1.5)** · **Q1 → `Q1_2026_ANALYSIS.md`** · **IQHQ → `IQHQ_PLAYBOOK.md`** · **Seven credits → `SEVEN_CREDIT_DEEP_DIVE.md`** · **Bull pushback → `WEAKNESSES.md`** · **Backlog → `TODO.md`** · **KB → `workbook/KB_INDEX.md`**
 
 ---
 
