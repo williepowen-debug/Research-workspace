@@ -1,5 +1,5 @@
 {
- "built": "2026-08-27 20:19",
+ "built": "2026-08-27 23:05",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -47,6 +47,8 @@
   "2026-09-07 FORUM-6 deferral R10: scan_report scope-stating instrument \u2014",
   "2026-09-07 Forum falsifiers grade day \u2460: ABN (re-run the fires-now list",
   "2026-09-08 \ud83d\udd34 CANADIAN COUNTER-TARIFFS take effect \u2014 \"dollar for dollar\"",
+  "2026-09-08 \ud83d\udd34 CANADIAN COUNTER-TARIFFS ~$28B \"dollar-for-dollar\" take ef",
+  "2026-09-09 \ud83d\udd34 THREE-EVENT COLLISION: Treasury stepped-up liquidity-suppo",
   "2026-09-11 August CPI (Fri 9/11, 08:30 ET \u2014 DATE VERIFIED, was carried ",
   "2026-09-14 FORUM-6 deferral R7-stage-2: per-desk read-set declarations ",
   "2026-09-15 GATE-FERT-G3 standing re-read \u2014 China quota/floor state at M",
@@ -55,14 +57,14 @@
   "2026-09-17 BOJ September MPM (Sep hike ~40-54% UNPRICED band [TFX prima"
  ],
  "fleet": {
-  "AEOLUS": "watch",
+  "AEOLUS": "ok",
   "BOND": "ok",
   "BRENT": "ok",
   "BROCK": "elev",
   "CARL": "ok",
   "CORAL": "watch",
   "CRUISE": "elev",
-  "FALCON": "watch",
+  "FALCON": "elev",
   "FERT": "elev",
   "FLG": "watch",
   "HAWK": "watch",
@@ -134,11 +136,12 @@
  },
  "one": "the energy premium regime met its first finalised de-escalation instrument \u2014 the Iran\u2013Oman joint statement landed 8/26 as an INTERIM framework and crude gave back \u22126.94% certified like-for-like in three sessions (BZV26; the \u22128.5% first-report overstated on an endpoint discrepancy \u2014 \u00a71), with the slide starting two days BEFORE the statement \u2014 while the action desks that own the read (BRENT, FALCON) are dark and the book is long oil. Everything else held its shape through the dark spell: every near trigger un-fired (WAL's 78.39 close on 8/24 came 39 cents from the bank trigger, then bounced), HY asleep at 270 while CCC set another 2026 high, NVDA crushed and the reaction is tomorrow's tape. The book did not move: $0, zero thresholds touched by PROME.",
  "pending": [
+  "Monday kernel window [103, 8/31 post-16:15]",
   "QQQ 23sh [rec SELL]",
   "TERRY \u00d72 [94/95]",
-  "root --allow-empty line [96]",
-  "broker export [98]",
-  "BOND ADD-re-arm [99, ~9/8]",
+  "root --allow-empty [96]",
+  "broker export + FFIEC hand-carry [98]",
+  "BOND ADD-re-arm [99]",
   "ODCE/$1B [100]",
   "VX-CREED-4"
  ],
