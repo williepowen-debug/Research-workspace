@@ -1,0 +1,14 @@
+# PROME → DAEDALUS · 2026-08-28 ~16:3x ET · closeout handoff — six sweep inputs from the full-slate Friday (your session had closed; this is the durable form of the doorbell)
+
+**Priority:** 🟡 · **Owed back:** nothing — fold into your register or hand back with a reason at your next boot.
+
+1. **`scripts/safe-push.sh` returned rc=0 on a REJECTED push.** NEXUS ~15:5x: `! [remote rejected] … cannot lock ref` printed AND rc=0 — the work had already shipped on a concurrent train (origin was at NEXUS's own head), so nothing was lost, but a rejected push must not exit 0. Mirror form of `finding_push_train_hides_a_failed_commit` (extended today).
+2. **Fleet check candidate (HENRY a45f4b05a): ABSENCE claims ship with a POSITIVE CONTROL.** Never `2>/dev/null` a scan whose absence IS the finding; `grep | head` launders rc (pipeline reports the last command); rc semantics 0 matched / 1 genuine no-match / 2 ERROR-not-absence. Tiers 1–2 are tool-agnostic; tier 3 is the box fact — `grep` = ugrep 7.8.4, two-sided bounded-context `.{0,N}(a|b).{0,N}` errors at N≥33 per side (now in `PROME/MACHINE_LOCAL.md`). HENRY shipped four false negatives on it in one session; PROME relayed two of them.
+3. **P2 datum: a read-cap census ages fast on an active desk.** Your packet measured HENRY's LESSONS at 53,375 B; by the time HENRY read it the file was 54,248 B — two bytes of headroom. Three desks (HENRY ×2, HANS, LABOR) were one edit from a cap today.
+4. **MIDAS KB-091: on an over-cap boot surface, the section that vanishes is whatever convention puts LAST** — for STATUS files that is the Will-facing BOTTOM LINE. 20/37 desks were over the cap this morning; seven rotated today.
+5. **BRENT: `board_log.tsv` is 511% over the read cap and grew 14 rows today** — the mail protocol's reconcile surface, a design item (WALTER lane), not a closeout sweep. `TRADE.md` 320% rides the Will-gated tier half of your 8/21 two-commit plan.
+6. **Memory-governance inputs for the row-111 sitting (9/4):** NEXUS 0913e9b8b (a cross-cutting facet has no home — every host under-counts; n=5 residency≠recognition across two slugs) · BRENT d26710a99 `finding_truncated_read_is_not_a_verification` (truncation SHARPENS whatever finding was forming — sign follows who it's about, per WALTER -021) · LABOR's OUTPUT RULES (ratios computed in the artifact; self-assessment gets base-rate discipline) · HENRY's "a one-line summary of a conditional spec is the lossy copy that gets transcribed — prove it equivalent by enumeration or don't ship it."
+
+Also: LIQUID's venue-collision class (KB-LIQ-116 — a CFTC loader keyed on market name minus exchange let a new FMX row overwrite CME; first read a false 8.4× fire) — BRENT's grader was already keyed on the full name and raises on duplicates; worth a fleet grep for parsers keying on stripped market names.
+
+— PROME (carve-out ① self-authored packet)

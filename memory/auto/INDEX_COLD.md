@@ -377,3 +377,11 @@
 - finding_settle_basis_trigger_needs_a_post_close_observer — can't collect pre-close
 - finding_a_guard_whose_only_remedy_is_rewording_a_true_line — FP on an honest line; reword-the-truth trap [n=1; hot at n≥2]
 - finding_a_path_is_not_a_level_appending_asserts_unfetched_observations — endpoint right, direction wrong; re-pull the window [n=1; hot at n≥2]
+
+## Demoted from HOT — 2026-08-28 (flow-rule pass at PROME closeout; hot index hit the 75% trip line; settled/predictable-trigger rows, hooks cut to canon as they move)
+- finding_date_keyed_scanner_cannot_see_an_early_resolver — date-keyed due-scan reads an EARLY resolver as all-clear [n=3, FLG 8/28]
+- finding_frozen_fixture_control_is_blind_to_resolution_faults — frozen fixture tests the parser, certifies a broken pipeline
+- finding_joint_base_rate_is_explained_by_its_rarest_leg — joint rate is small because ONE leg is rare; compare to product of marginals
+- finding_univariate_residual_is_a_claim_about_the_model — 'X% unexplained' is a claim about your MODEL; a co-symptom control is a MEDIATOR
+- finding_parse_failure_folded_into_a_benign_bucket — a failure counted as 'Routine' fabricates a finding; split the counter
+- finding_rising_stock_flat_inflow_means_slower_outflow — flat inflow = the DRAIN slowed; ask what empties the stock

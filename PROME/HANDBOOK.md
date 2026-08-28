@@ -3,29 +3,26 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **★ THE REGISTRY PILOT RAN THIS AFTERNOON — three clean stops, zero entries written, everything re-staged for MONDAY after the close** [twelve corrected entries verified byte-for-byte; the precondition list is down to three: the red team's sign-off (Friday spawn) · the metals desk authoring its entries (Friday spawn) · your start/end time Monday]. The stops were the design working: each one refused before writing, each root-caused and fixed the same evening.
-- **★ THE CRE FUND-GATE TRIPWIRE IS FORMALLY FIRED on your word tonight** [a $22.5B property fund froze withdrawals in April; discovered yesterday, adjudicated today with all three dates honest — event April 29 · rule written July 27 · ruled August 27]. Recorded and routed; no money moved; the real finding is that it sat in a coverage seam between two desks for four months.
-- **★ FRIDAY 8/28 IS THE MONTH'S HEAVIEST DAY — nine items plus the two kernel spawns.** The QCEW employment revision [labor desk pre-cut 35%→15%; "confirmed" claims tomorrow are the day's most likely error — it's the *preliminary*] · the new Chair's 10 AM keynote · the gold test's provisional read [final Monday] · the architecture sweep [~20 items].
-- **A volatility gate fired and killed itself in one evening — zero dollars ever at risk.** [The cheap-tail edge is real pre-2018, indistinguishable from chance since; the desk refused its own trade, did its owed homework, and the homework retired the gate under its own pre-written rule. The keeper: level-keyed signals decay across regimes; change-keyed signals travel.]
-- **A September Bank of Japan hike is now ~87% priced** [8/27; was carried at ~73% on a stale read whose direction-caveat was backwards]. The risk flipped: the bigger yen move now comes from a surprise *hold*.
-- **Nvidia's quarterly filing quantifies the AI-credit structure: $3.5B → $108.5B of customer-obligation guarantees in one quarter** [filed 8/26, five days early], with the filing itself stating customers lack investment-grade financing capacity. Logged as structure, not panic.
-- **⛔ THE CANADA TARIFF REMAINS LIVE** [since 8/22]. **Canada retaliates Tue 9/8 on ~$28B.** Carried, unchanged.
-- **Credit is parked, not resolved**: HY 10bp from both lines [270, 8/25] · Western Alliance $1.60 above the bank trigger · the consumer-credit desk's new kill-rule went LIVE tonight at 0-of-2 [the Fed's own footnote confirmed the scary mortgage decline was a paperwork artifact].
+- **★ MONDAY 8/31 AFTER 16:15 IS THE DECISION: the kernel sitting needs only your window** [row 103 — every other precondition closed 8/27; sequence: the 8/28 real-yield print decides MIDAS-06 (one number) → your word on the no-verdict band [row 66] → MIDAS authors activation 2 → you rule the window → MIDAS + RED spawn → grants promotion between activations D and E, by design].
+- **★ THE MARKET BELIEVED WARSH — and credit ignored it.** Sept-hike odds 31%→50% [8/28 live], long end *rallied* (5s30s −6bp), gold −3.3%, NVDA −4.6%; HY 263bp [8/27] = 2026 low while CCC/HY = the three-year record. Nearest trigger on the board: RED's HY<260 ×3 at 3bp; 8/28's close publishes Monday.
+- **★ Four counts sit on the HY 260 line and only one is a registered kill** [row 106 — LIQUID + HENRY concur on the relabel; one word]. LIQUID's silent dealer gate [row 88 — option A, unanimous].
+- **HEN-42 = DENY (term premium led July; the policy channel is alive today)** — flips Saturday on its pre-written record; BOND owes the C-36 two-part label and is dark; the 9/9 collision's precondition is clear.
+- **Oil's verdict: the peace framework unwound the paper premium, not the physical one** — Hormuz flows at two-thirds of pre-war (1.7× the old falsifier), "supply impaired" retired; rigs 447 (−5) is reclassification with horizontal rigs at a series high; crude positioning joint no-verdict; EU storage will NOT refill to 84% (~70–76%).
+- **Gold: the positioning falsifier fired against its own desk** [COT net/OI 56.86%, chased spec flow]; MIDAS-06 provisional (d), Monday one number; palladium +8% / +4.5σ needs Monday's closed bars to confirm.
+- **Banks/BDC:** WAL closed $0.55 above its trigger [78.55, un-fired, next close Monday]; First Brands is Chapter 7 (BROCK dark 15d — re-size owed); Tricolor's CEO sat on Origin Bancorp's board (not a Reg O violation on face, enforcement orange); the $160B multifamily wall was a misattributed sponsor quote — retires 9/4.
+- **Europe (HANS revived):** Bund 3.29% = highest since 2011 (European term premium), UK 30Y 5.80% = highest since 1998, BoE 3.75% with three hike votes — three hawkish banks off ONE energy shock, count it once.
+- **⛔ THE CANADA TARIFF REMAINS LIVE** [since 8/22]; **Canada retaliates Tue 9/8 on ~$28B.** Carried, unchanged.
+- **Housekeeping you ruled today:** P1 read-cap budget is canon (root line committed; 7 desks rotated under it); row 89 declined; HANS spawned as Europe owner; FLG's charter rewritten; T3 re-specified by LIQUID+HENRY (no dissent; earliest verdict 9/23).
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **LABOR** · Fri AM FIRST · 🔴 the QCEW revision is its live test + the Warsh keynote at 10
-- **RED** · Fri AM · its sign-off on the corrected pilot files is Monday's only remaining gate besides your window [packet waiting in its inbox]
-- **MIDAS** · Fri AM · authors its registry entries [packet waiting] + the gold test provisional read + positioning report at 15:30
-- **BRENT** · Fri · rig count + positioning + the Iran–Oman regime verdict it has owed since 8/26
-- **DAEDALUS** · Fri · the weekly architecture sweep — its inbox holds ~20 items from six desks
-- **LIQUID** · next wave · its gate review lands Friday + the fund-gate action packet + the credit-quality ratio flip it owns
-- **CREED** · next wave · records the fund-gate fire on its own ledger [it cannot self-boot; packet waiting]
-- **BROCK** · soon · two-plus weeks dark holding the private-credit adjudication with a Sept-15 clock; the fund-gate info cc adds context
-- **WALTER** · any window · owes the three-way crude-close reconciliation the certified figure depends on
-- **ORACLE** · before 9/1 · the deferred instrument-succession decision needs its options brief; the supply leg dies 9/1
-- **FALCON** · with/behind the next oil touch · corridor gates, the permanent-route calendar row, tanker weekly
-*(Ran and closed today, no re-spawn needed: VIOLET [gate lifecycle complete] · CARL [row 44 closed; V2 grade owed by 9/10] · REGINALD [pilot files verified, closed clean] · VULCAN [closed 13:04 — its post-close grade rides its next boot] · plus the morning's eight-desk slate.)*
+- **BOND** · before Mon 8/31 · owes the C-36 two-part label within a session of Saturday's HEN-42 flip; HANS's Bund/gilt packets + T6 words in its inbox
+- **BROCK** · Mon 8/31 · First Brands → Chapter 7 (8/24) needs the BDC re-size; dark 15 days; WALTER's one doorbell recommendation
+- **HOMER** · by Thu 9/3 · publishes the $160B maturity-wall retirement on 9/4 (kill-setter); five carriers to route
+- **MIDAS + RED** · Mon 8/31 post-16:15 · the kernel sitting (MIDAS-06 final first)
+- **OZK** · Mon 8/31 · IQHQ August maturity window closes; disclosure sweep unrun (your window)
+- **HAWK** · Mon 8/31 · palladium I2 re-open "n=3" if Monday's closed bars confirm
+- **SAM · VULCAN · DEWEY · CARL · FALCON · FERT · ORACLE** · next week · dated items per DOCKET (Friday quadruple · VULCAN-16 grade · DR-4 refuted · retail question + V2 9/10 · consumer dates 9/1-9/2 · T6 daily close)
 
 ## Runs itself — no window needed from you
 - **The registry review brief is already written** [in the remediation record] — the reviewer lane needs no design work from you, only a session.
