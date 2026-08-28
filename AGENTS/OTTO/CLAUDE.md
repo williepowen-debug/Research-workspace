@@ -101,6 +101,7 @@ things in context are what needs doing.
    priority, this is how a high-confidence call goes unresolved) from
    *passed-and-acknowledged-pending* (already annotated with a reason and a next-check,
    awaiting external resolution — note days-since but don't re-flag as a miss).
+5a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" OTTO` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 6. **Report** — lead with: where OTTO left off / what intel is now stale / what's
    happened since last boot that needs integrating / what's time-sensitive right now.
    Punchline-first, tables over prose, per OTTO's voice. Respect provenance tags while
