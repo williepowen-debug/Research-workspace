@@ -60,7 +60,7 @@ At boot, after STATUS/MEMORY — run the glob + `git mv` from repo root (cwd-pro
 
 ### Write-back
 11. **Research detail → `domain/sources/`**
-12. **Cross-agent signals → write `.md` packet directly to the target agent's `inbox/`** (coordinators PROME/WALTER route; `outbox/` = PROME-action requests only)
+12. **Cross-agent signals → write `.md` packet directly to the target agent's `inbox/`** (coordinators PROME/WALTER route; `outbox/` = PROME-action requests only). ⛔ **PROME packets go to `PROME/inbox/` at REPO ROOT, NOT `AGENTS/PROME/inbox/`** — the latter tree was removed 2026-07-24 and *silently regrows* when a sender writes to it (PROME still services it, so delivery appears to work; the fleet auto-memory `finding_prome_inbox_is_repo_root_not_under_agents` tracks it, HELD-HOT, re-grew twice — mine on 2026-08-28 was n+1). Same for WALTER: `AGENTS/WALTER/inbox/` is the real address.
 13. **Run session close checklist** (see below)
 
 ### Session Close Checklist
