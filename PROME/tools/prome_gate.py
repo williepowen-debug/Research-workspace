@@ -87,23 +87,32 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,)):
 
 # ---------------------------------------------------------- T3-a mechanical core
 
-def check_gates_tsv():
-    """Token vocabulary + FIRED-UNEXECUTED + LIVE ages. The silent-blank class
-    (bare-date cells 7/28, bare ARMED 7/28, SAM-30 7/11) becomes impossible to
-    miss: a state cell not LEADING with an enumerated token is a BLOCKING fail."""
-    path = ROOT / "PROME/GATES.tsv"
-    today = dt.date.today()
-    bad_tokens, fired, stale_live = [], [], []
-    with open(path, encoding="utf-8") as f:
-        rows = [r for r in csv.reader(f, delimiter="\t")
-                if r and not r[0].startswith("#") and r[0] != "gate_id"]
+def scan_gates_rows(rows, today):
+    """Pure scan over GATES rows (list-of-cells) → dict of flag lists. Factored
+    out 2026-08-28 so the review_by leg is TESTABLE (Codex audit H1, Will-approved
+    "go ahead approved"): the discriminating case is a LIVE row whose consumed_by
+    is still valid while its review_by has passed — before this, that row read
+    unqualified green.
+
+    Columns (GATES.tsv header): 0 gate_id · 5 state · 6 last_checked · 8 consumed_by
+    · 9 scannable · 11 review_by.
+
+    What the registry can and cannot distinguish: a passed review_by is one of
+    {review overdue · publication pending · owner dark · graded at the owner but
+    registry unreconciled}. The scan prints scannable class + last_checked so the
+    reader can tell which; the disposition (consume the owner's grade, re-date, or
+    read the instrument yourself as a CONSUMER read — never as the grade) is human.
+    """
+    out = {"bad_tokens": [], "fired": [], "stale_live": [],
+           "review_overdue_instrument": [], "review_overdue_judgement": [],
+           "instrument_unchecked": []}
     for r in rows:
         gate, state = r[0], (r[5] if len(r) > 5 else "")
         lead = state.split(" ")[0].split("(")[0].strip()
         if not any(state.startswith(t) for t in GATES_STATES):
-            bad_tokens.append(f"{gate} leads '{lead[:20]}'")
+            out["bad_tokens"].append(f"{gate} leads '{lead[:20]}'")
         if state.startswith("FIRED-UNEXECUTED"):
-            fired.append(gate)
+            out["fired"].append(gate)
         if state.startswith("LIVE"):
             # consumed_by discipline (forum S2/ABN ruling 8/7, Will-adopted; check
             # re-keyed 8/9 — spine-audit #8 found the ruling propagated to none of
@@ -113,17 +122,59 @@ def check_gates_tsv():
             cb = r[8] if len(r) > 8 else ""
             m = re.match(r"(\d{4}-\d{2}-\d{2})", cb)
             if m and dt.date.fromisoformat(m.group(1)) < today:
-                stale_live.append(f"{gate} consumer-date {m.group(1)} passed")
+                out["stale_live"].append(f"{gate} consumer-date {m.group(1)} passed")
             elif not cb.strip():
-                stale_live.append(f"{gate} consumed_by EMPTY (required since 8/7)")
-    record(BLOCK, "GATES fired-unexecuted", not fired,
-           "; ".join(fired) or "none", "PROME/GATES.tsv (clear or escalate SAME session)")
-    record(BLOCK, "GATES token vocabulary", not bad_tokens,
-           "; ".join(bad_tokens) or f"{len(rows)} rows all lead with enumerated tokens",
+                out["stale_live"].append(f"{gate} consumed_by EMPTY (required since 8/7)")
+            # review_by = the OWNER's review clock (independent of consumed_by — a
+            # gate can have a valid downstream consumer and still miss its own
+            # review). Leading ISO date only; prose after it is for the reader.
+            scannable = (r[9] if len(r) > 9 else "").strip().split(" ")[0].split("(")[0]
+            last_checked = (r[6] if len(r) > 6 else "").strip()
+            rb = r[11] if len(r) > 11 else ""
+            m2 = re.match(r"(\d{4}-\d{2}-\d{2})", rb)
+            if m2 and dt.date.fromisoformat(m2.group(1)) < today:
+                msg = (f"{gate} review_by {m2.group(1)} passed [{scannable or 'unclassed'}; "
+                       f"last_checked {last_checked[:10] or 'BLANK'}]")
+                key = "review_overdue_instrument" if scannable == "INSTRUMENT" else "review_overdue_judgement"
+                out[key].append(msg)
+            if scannable == "INSTRUMENT" and not last_checked:
+                out["instrument_unchecked"].append(gate)
+    return out
+
+
+def check_gates_tsv():
+    """Token vocabulary + FIRED-UNEXECUTED + LIVE consumed_by + review_by. The
+    silent-blank class (bare-date cells 7/28, bare ARMED 7/28, SAM-30 7/11) becomes
+    impossible to miss: a state cell not LEADING with an enumerated token is a
+    BLOCKING fail. review_by enforcement added 2026-08-28 (Codex audit H1,
+    Will-approved): a LIVE INSTRUMENT row past its review date is BLOCKING —
+    the instrument may have crossed while nobody looked, which is the ledger's
+    one job; JUDGEMENT rows past review are advisory (owner-graded at cadence);
+    a LIVE INSTRUMENT row with blank last_checked is advisory."""
+    path = ROOT / "PROME/GATES.tsv"
+    today = dt.date.today()
+    with open(path, encoding="utf-8") as f:
+        rows = [r for r in csv.reader(f, delimiter="\t")
+                if r and not r[0].startswith("#") and r[0] != "gate_id"]
+    o = scan_gates_rows(rows, today)
+    record(BLOCK, "GATES fired-unexecuted", not o["fired"],
+           "; ".join(o["fired"]) or "none", "PROME/GATES.tsv (clear or escalate SAME session)")
+    record(BLOCK, "GATES token vocabulary", not o["bad_tokens"],
+           "; ".join(o["bad_tokens"]) or f"{len(rows)} rows all lead with enumerated tokens",
            "PROME/GATES.tsv header STATES line")
-    record(ADVISE, "GATES consumed_by (consumer passed / cell empty)", not stale_live,
-           "; ".join(stale_live) or "all LIVE rows have live consumers or declared NONE",
+    record(ADVISE, "GATES consumed_by (consumer passed / cell empty)", not o["stale_live"],
+           "; ".join(o["stale_live"]) or "all LIVE rows have live consumers or declared NONE",
            "PROME/GATES.tsv (resolve at the consumer, re-date, or declare NONE)")
+    record(BLOCK, "GATES review_by passed — LIVE INSTRUMENT rows", not o["review_overdue_instrument"],
+           "; ".join(o["review_overdue_instrument"]) or "no live INSTRUMENT row past its review date",
+           "PROME/GATES.tsv (consume the owner's grade → re-date review_by; if the owner is dark, "
+           "read the instrument as a CONSUMER read and say so in the row — never as the grade)")
+    record(ADVISE, "GATES review_by passed — LIVE JUDGEMENT rows", not o["review_overdue_judgement"],
+           "; ".join(o["review_overdue_judgement"]) or "no live JUDGEMENT row past its review date",
+           "PROME/GATES.tsv (owner grades at review_by; re-date or summon the owner)")
+    record(ADVISE, "GATES last_checked blank on LIVE INSTRUMENT rows", not o["instrument_unchecked"],
+           "; ".join(o["instrument_unchecked"]) or "every live INSTRUMENT row carries a last_checked",
+           "PROME/GATES.tsv (fill from the owner's latest grade; a blank reads as never-graded)")
 
 
 def check_docket_overdue():
