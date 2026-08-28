@@ -1,5 +1,7 @@
 # OTTO COMPLETION — 2026-08-27 (session 019)
 
+> **Blocks 2-4 (same session, post-write-back):** the 10-D panel was swept (**Carvana read UNFROZEN after 43 days**), the panel's own **data-destroying resolution defect** was found and fixed, the **60+ DQ definition was reconciled with CARL** after it exposed an inconsistency inside OTTO's panel, the **SEC Tricolor complaint** was read in full (**Chu sat on Origin Bancorp's BOARD**), and OTTO's **mtime-keyed catalyst-countdown** was fixed. **CARL graded V2 on OTTO's calendar catch and it holds at 4.** See § BLOCKS 2-4 at the foot of this file.
+
 > **One sentence for the next boot:** Lopez **denied First Brands plan confirmation and ordered every debtor into Chapter 7 on Aug 24** — OTTO-32's resolver, fired 22 days early while the desk was dark — so the poll target changes from *"has he ruled?"* to **"has the CONVERSION ORDER been ENTERED?"**, which is what actually resolves OTTO-32 at 97%.
 
 ## STATUS
@@ -42,3 +44,35 @@
 **P1 — clocked.** Poll `docket_id:71483359` **first, every session — new target: ENTRY of the conversion order** (OTTO-32's resolver). **Re-run `panel_10d.py`** for the 10-day-stale Bridgecrest/SDART read + the EART 2026-4 FWP window.
 **P2 — owed with dates.** Process the **10-item inbox**, starting with the SEC Tricolor-executives charge (OTTO-33 contact) and the Apollo bates-stamp docket lead. Equifax unit-share refresh for OTTO-10 **before Sep 30**. Chase the **CARL CE-stack discriminator** via PROME. **~Nov 15 SDT quarterly re-run** (`--manheim <yoy>` required — **two more REFUTEs ⇒ cut, don't narrow again**).
 **P3 — undated.** `thesis/THESIS.md` **v1.4**. PREDICTIONS_ARCHIVE post-mortems for OTTO-04 + OTTO-30. Kollar/Seibold transcripts (**re-examine the delay itself at ~Sep 28**). The **8/24 hearing transcript unlocks ~11/2** — Lopez's reasons. Fix `predictions_due.py` to key on resolver EVENTS, not only dates. Re-raise PROME's unanswered `2026-12-25` date-gate query.
+
+
+---
+
+## BLOCKS 2-4 — the carried items, worked (same session)
+
+**P1 CLEARED.**
+- **10-D panel swept; Carvana read UNFROZEN after 43 days.** BLAST 2024-1 **60+ DQ 15.30** (−0.27), **CNL 25.41**, ext 4.56%. The +1.80pp July break **gave back** while losses accrued — the ordinary shape of a DQ spike converting into charge-offs. **Extensions stay LOW vs Exeter ⇒ the not-masking finding stands. No conviction change.**
+- **All 3 SDART broad deals FELL** on 60+ DQ (first broad decline since the spring trough); **both BLAST deals fell.** **EART deep still 3 of 4 rising.**
+- **⚠ TIER CLOCK OFFSET — the finding that governs all of that.** Verified at the exhibits: **SDART/BLAST 8/17 = JULY collection; EART 7/30 = JUNE.** Reading the latest row of each **manufactures a tier divergence out of a filing calendar.** Matched on month, **June had BOTH tiers rising.**
+- **First Brands docket re-polled 20:00 EDT — conversion order STILL NOT ENTERED**, tip unchanged at Dkt 3727.
+
+**DEFECTS FOUND AND FIXED (two, both OTTO's own).**
+- **7th — `panel_10d.py` DESTROYED DATA.** EDGAR's `index.json` began omitting the exhibit → a **silent fallback** parsed the 10-D **wrapper** → all-blank rows → **last-write-wins overwrote four good EART rows.** ⚠ **The positive control PASSED throughout — it re-parses a FROZEN LOCAL exhibit, so it tests the PARSER and is blind to a RESOLUTION fault.** Restored from git; resolver keys on **declared EX-99.1 type**, wrapper fallback **deleted (raises)**, guard **drops** any zero-of-five-metrics row. Post-fix run recovers all 9 deals, control PASS, **EART values reproduce the committed ones exactly.**
+- **8th — `catalyst_countdown.py` was MTIME-KEYED** (DAEDALUS 8/21, found by ZHAO; **verified before acting**). Git sync restamps mtime → window collapses to the 10-day floor → fired rows age out as a clean *"nothing fired"* line. **Fixture: old 10d vs new 16d; a row firing 8/11 is HIDDEN to old, VISIBLE to new.** Back-ported ZHAO's basis; **basis now printed.**
+
+**CROSS-AGENT — CARL's V2 leg, answered pre-grade.**
+- CARL was firing the V2 downgrade tonight with OTTO's panel as the registered instrument. **Answered same night: DO NOT FIRE** — not two-tier (deep unobservable in July) and not sustained (n=1 off a large June jump). **CARL graded it: downgrade does NOT fire, V2 HOLDS 4** (`ac86eab9a`), and **verified OTTO's collection-period claim independently before using it.** Their own first table was labelled by filing date and would have produced the false reversal.
+- **60+ DEFINITION RECONCILED.** CARL's 10.79 vs OTTO's 10.11 exposed that **OTTO's panel used two definitions** — Bridgecrest issuer-stated, Exeter/Santander bucket-summed, **inside an instrument built for cross-tier comparison.** All three shelves disclose an issuer aggregate tested against their own trigger ⇒ **now canonical on every shelf.** **Direction verified unaffected BEFORE telling CARL the grade was safe.**
+- ⚠ **Correction against OTTO's own published work: the BROAD tier was UNDERSTATED ~0.7pp**, so **every deep-vs-broad LEVEL bifurcation figure OTTO published is overstated by about that much.** Routed to **REGINALD + LIQUID** via WALTER. CARL's surfaces carry off-trough **changes** (deltas, immune) and need no correction.
+
+**INBOX — 3 of 10 CONSUMED (integrated, not merely read).**
+- **SEC complaint read in full** `[CONF 1:26-cv-07041 (S.D.N.Y.), filed 8/18, 39pp]`. **🔴🔴 Chu sat on the Board of Origin Bancorp (NYSE: OBK) and Origin Bank, resigning Sept 2025** — OTTO had OBK as *exposed* ($74.7M) and **never had the board seat. EXPOSURE → RELATED PARTY**; REGINALD's to size. **$1.9B reconciled** (7 TASTs, $1,816,960,000 issued / $945,396,000 outstanding; the SEC headline is the larger all-offerings figure). **Jan-2027 trial already calendared.**
+- **✅ OTTO-33 TESTED AND HELD AT 68% — a negative that was easy to get backwards.** The complaint **names no new corporate counterparty; every institution is a pseudonym.** The defendants are **individuals OTTO already had.** OBK cannot satisfy it either — **already on the named list.** *Important finding, unmoved prediction.*
+- **SIG-026 answered** from OTTO's own July 10-D print (OTTO has no Fitch primary — dead lead by design).
+
+**STILL OWED (next session).**
+1. **EART July 10-D, ~Aug 28-31** — the print that makes July a two-tier observation. **Committed to CARL: unprompted deal-level send, collection month stated per row.**
+2. **`panel_10d.py --history` rebuild** — only the latest row per deal is on the new basis. **No level series across that boundary.** CARL supplied a same-basis cross-check series (in the research artifact).
+3. **First Brands conversion-order ENTRY** — poll every session; OTTO-32's resolver.
+4. **7 inbox items**, incl. the **Apollo bates-stamp docket lead** (`AGM-FBG-00000006` / `FBG_CH1_00097864`) — OTTO now has a proven RECAP channel into that exact case.
+5. **EART 2026-4 FWP** window (unswept). **OTTO-10 Equifax unit share** before Sep 30. **`thesis/THESIS.md` v1.4 → v1.5** owed for the OBK re-classification.
