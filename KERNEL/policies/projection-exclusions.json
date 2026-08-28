@@ -1,0 +1,21 @@
+{
+  "exclusion_reasons": {
+    "OUTCOME_VOCABULARY_MISMATCH": "The question's native forecast assigns probability mass to an outcome the enabled forecast family cannot represent (BINARY_PROBABILITY cannot carry a legitimate AMBIGUOUS outcome). A binary score would infer a complementary probability the forecaster never stated. The forecast row renders unscored in every state; the native distribution remains in the native companion."
+  },
+  "exclusions": [
+    {
+      "exclusion_reason": "OUTCOME_VOCABULARY_MISMATCH",
+      "native_companion": "AGENTS/MIDAS/workbook/MIDAS-06_KERNEL_NATIVE_COMPANION.json",
+      "native_row": "MIDAS-06",
+      "note": "Native forecast P(YES)=0.45 with (d) AMBIGUOUS a registered legitimate outcome (question ambiguity_rule). Never collapse (d) into NO after the result. Multi-outcome support is a later schema proposal.",
+      "question_id": "Q-019306a1-4c00-7000-8000-00000000006a",
+      "ruled_at": "2026-08-28",
+      "ruled_by": "WILL",
+      "ruling_record": "PROME/proposals/2026-08-28_codex-high-value-audit-RULED.md"
+    }
+  ],
+  "policy_version": "kernel.policy.1",
+  "purpose": "Registered CALIBRATION.tsv exclusions the deterministic renderer applies REGARDLESS of outcome or question state. Bounded: one enumerated reason set; one entry per question_id; every entry names its ruling. Joins the render source-input digest as a context input (provenance), never enters replay.",
+  "registry_id": "projection-exclusions",
+  "schema_version": "kernel.projection-exclusions.1"
+}

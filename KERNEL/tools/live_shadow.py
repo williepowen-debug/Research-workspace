@@ -39,7 +39,7 @@ from gate_c_boundary import SUBMISSION
 from live_grant import LiveShadowGrant, _MINT_KEY  # noqa: F401  (mint key import is this module's exclusive door)
 from native import FULL_SHA, SubprocessGitBoundary, normalized_repository_path, verify_native_references
 from permissions import PermissionRegistry, authorize_command
-from render import render_views, write_views
+from render import DEFAULT_EXCLUSIONS_RELPATH, load_projection_exclusions, render_views, write_views
 from writer import FixtureResultStore
 
 
@@ -567,7 +567,16 @@ def render_live_views(
     check: bool,
 ) -> tuple[dict[str, str], list[Finding]]:
     accepted, receipts, unprocessed = _store_context(store, commands)
-    views = render_views(accepted, render_as_of=render_as_of, context_inputs=receipts + unprocessed)
+    # Registered projection exclusions (2026-08-28): read from the activation's
+    # declared repository root, validated fail-closed, joined to the digest.
+    # Absent file = no exclusions; malformed file = LiveRefusal, never a render.
+    exclusions_path = Path(grant.repository_root) / DEFAULT_EXCLUSIONS_RELPATH
+    try:
+        registry = load_projection_exclusions(exclusions_path)
+    except (ValueError, OSError, json.JSONDecodeError) as exc:
+        raise LiveRefusal([Finding("PROJECTION_EXCLUSIONS_INVALID", str(exc), str(exclusions_path))]) from exc
+    views = render_views(accepted, render_as_of=render_as_of, context_inputs=receipts + unprocessed,
+                         projection_exclusions=registry)
     findings = write_views(views, grant.views_root, check=check, live_grant=grant)
     return views, findings
 

@@ -166,6 +166,21 @@ python3 KERNEL/tools/render.py \
   --as-of 2026-08-26T00:00:00.000000Z \
   --check
 
+# Registered projection exclusions (kernel.renderer.2, 2026-08-28): a validated
+# registry the CALIBRATION view applies in EVERY question state — a listed
+# question_id renders brier_score empty + its registered exclusion_reason on
+# YES, NO, AMBIGUOUS and NOT_FINAL alike. Live path: live_shadow reads
+# <repository_root>/KERNEL/policies/projection-exclusions.json automatically
+# (absent = none registered; malformed = LiveRefusal, never a render). The
+# registry joins the source-input digest as a context input; it never enters
+# replay. Reasons are enumerated (render.EXCLUSION_REASONS); every entry names
+# who ruled it and the ruling record.
+python3 KERNEL/tools/render.py \
+  --events KERNEL/tests/fixtures/events/valid_binary.json \
+  --output "$fixture_out" \
+  --as-of 2026-08-26T00:00:00.000000Z \
+  --exclusions KERNEL/policies/projection-exclusions.json
+
 python3 KERNEL/tools/verify_native.py \
   <synthetic-command.json> \
   --repository <temporary-synthetic-git-repository>

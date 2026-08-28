@@ -13,7 +13,10 @@ from typing import Any, Iterable
 from core import AUTHORITY_MODE, POLICY_VERSION, SCHEMA_VERSION, Finding, canonical_bytes, replay
 
 
-RENDERER_VERSION = "kernel.renderer.1"
+RENDERER_VERSION = "kernel.renderer.2"   # .2 (2026-08-28): registered projection exclusions in CALIBRATION.tsv
+EXCLUSIONS_SCHEMA_VERSION = "kernel.projection-exclusions.1"
+EXCLUSION_REASONS = frozenset({"OUTCOME_VOCABULARY_MISMATCH"})
+DEFAULT_EXCLUSIONS_RELPATH = Path("KERNEL/policies/projection-exclusions.json")
 NOTICE = "GENERATED — DO NOT EDIT — NON-AUTHORITATIVE"
 VIEW_NAMES = ("OPEN_QUESTIONS.md", "RESOLUTION_QUEUE.md", "EXCEPTIONS.md", "CALIBRATION.tsv")
 
@@ -21,8 +24,9 @@ VIEW_NAMES = ("OPEN_QUESTIONS.md", "RESOLUTION_QUEUE.md", "EXCEPTIONS.md", "CALI
 def _source_digest(inputs: Iterable[dict[str, Any]]) -> tuple[int, str]:
     identities: list[tuple[str, str, str]] = []
     for value in inputs:
-        kind = "event" if "event_id" in value else "input"
-        identity = str(value.get("event_id") or value.get("command_id") or value.get("receipt_id") or "UNIDENTIFIED")
+        kind = "event" if "event_id" in value else ("registry" if "registry_id" in value else "input")
+        identity = str(value.get("event_id") or value.get("command_id") or value.get("receipt_id")
+                       or value.get("registry_id") or "UNIDENTIFIED")
         digest = hashlib.sha256(canonical_bytes(value)).hexdigest()
         identities.append((kind, identity, digest))
     identities.sort()
@@ -52,6 +56,52 @@ def _markdown_header(title: str, metadata: list[tuple[str, str]]) -> list[str]:
 
 def _escape(value: Any) -> str:
     return str(value).replace("|", "\\|").replace("\n", " ")
+
+
+def validate_projection_exclusions(value: Any) -> dict[str, dict[str, Any]]:
+    """Validate a projection-exclusions registry; return {question_id: entry}.
+
+    Fail-closed on any malformation (ValueError) — an unreadable registry must
+    never degrade to "no exclusions", because the failure mode this guards is a
+    score that looks correct. Bounded by construction: enumerated reasons, one
+    entry per question_id, every entry names who ruled it and where the ruling
+    lives. Registered 2026-08-28 (Will "go ahead approved"; Codex audit H2 +
+    follow-up: documentation alone did not implement the fence).
+    """
+    if not isinstance(value, dict):
+        raise ValueError("projection exclusions must be a JSON object")
+    if value.get("schema_version") != EXCLUSIONS_SCHEMA_VERSION:
+        raise ValueError(f"projection exclusions schema_version must be {EXCLUSIONS_SCHEMA_VERSION}")
+    if value.get("registry_id") != "projection-exclusions":
+        raise ValueError("projection exclusions registry_id must be 'projection-exclusions'")
+    entries = value.get("exclusions")
+    if not isinstance(entries, list):
+        raise ValueError("projection exclusions must carry an 'exclusions' array")
+    required = {"question_id", "exclusion_reason", "ruled_by", "ruled_at", "ruling_record"}
+    out: dict[str, dict[str, Any]] = {}
+    for index, entry in enumerate(entries):
+        location = f"$.exclusions[{index}]"
+        if not isinstance(entry, dict) or not required.issubset(entry):
+            raise ValueError(f"{location} must carry {sorted(required)}")
+        for key in required:
+            if not isinstance(entry[key], str) or not entry[key].strip():
+                raise ValueError(f"{location}.{key} must be a non-empty string")
+        if entry["exclusion_reason"] not in EXCLUSION_REASONS:
+            raise ValueError(f"{location}.exclusion_reason is not a registered reason")
+        if entry["question_id"] in out:
+            raise ValueError(f"{location}.question_id duplicates an earlier entry")
+        out[entry["question_id"]] = entry
+    return out
+
+
+def load_projection_exclusions(path: Path) -> dict[str, Any] | None:
+    """Read + validate the registry file; None when the file is absent (no
+    exclusions registered is a legitimate state — a malformed file is not)."""
+    if not path.exists():
+        return None
+    value = json.loads(path.read_text(encoding="utf-8"))
+    validate_projection_exclusions(value)
+    return value
 
 
 def _question_and_forecasts(replay_result: Any) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
@@ -119,17 +169,24 @@ def _exceptions(metadata: list[tuple[str, str]], replay_result: Any) -> str:
     return "\n".join(lines) + "\n"
 
 
-def _calibration(metadata: list[tuple[str, str]], replay_result: Any) -> str:
+def _calibration(metadata: list[tuple[str, str]], replay_result: Any,
+                 exclusions: dict[str, dict[str, Any]] | None = None) -> str:
     lines = [f"# {key}: {value}" for key, value in metadata]
     lines.append("question_id\tforecast_id\tforecast_version\tprobability\toutcome\tbrier_score\texclusion_reason")
     rows: list[tuple[str, str, int, Any, str, str, str]] = []
     for forecast in replay_result.forecast_states.values():
         question = replay_result.question_states.get(forecast["question_id"])
         outcome = question["outcome"] if question is not None and question["state"] == "FINAL" else None
+        registered = (exclusions or {}).get(forecast["question_id"])
         for version in forecast["versions"]:
             score = ""
             exclusion = "QUESTION_NOT_FINAL"
-            if outcome in {"YES", "NO"}:
+            if registered is not None:
+                # Registered exclusion wins in EVERY state — before finality, and on
+                # YES/NO/AMBIGUOUS alike. A binary score on a question whose native
+                # forecast carries non-binary mass is a number that looks right.
+                exclusion = registered["exclusion_reason"]
+            elif outcome in {"YES", "NO"}:
                 target = Decimal(1 if outcome == "YES" else 0)
                 probability = Decimal(str(version["probability"]))
                 score = format(((probability - target) ** 2).normalize(), "f")
@@ -157,16 +214,24 @@ def render_views(
     *,
     render_as_of: str,
     context_inputs: Iterable[dict[str, Any]] = (),
+    projection_exclusions: dict[str, Any] | None = None,
 ) -> dict[str, str]:
     """Render the registered views from accepted events.
 
     ``context_inputs`` (rejected receipts, unprocessed approved submissions)
     join the declared source-input digest but never enter replay — they carry
     provenance for the render perimeter, not lifecycle state.
+
+    ``projection_exclusions`` (the validated registry document, or None) joins
+    the digest the same way and is applied by the CALIBRATION view only.
     """
 
     inputs = list(events)
     context = list(context_inputs)
+    exclusions: dict[str, dict[str, Any]] | None = None
+    if projection_exclusions is not None:
+        exclusions = validate_projection_exclusions(projection_exclusions)
+        context.append(projection_exclusions)
     if not isinstance(render_as_of, str):
         raise ValueError("render_as_of must be a UTC RFC 3339 timestamp with six fractional digits")
     try:
@@ -181,7 +246,7 @@ def render_views(
         "OPEN_QUESTIONS.md": _open_questions(metadata, replay_result),
         "RESOLUTION_QUEUE.md": _resolution_queue(metadata, replay_result, render_as_of),
         "EXCEPTIONS.md": _exceptions(metadata, replay_result),
-        "CALIBRATION.tsv": _calibration(metadata, replay_result),
+        "CALIBRATION.tsv": _calibration(metadata, replay_result, exclusions),
     }
 
 
@@ -235,13 +300,19 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--as-of", required=True)
     parser.add_argument("--check", action="store_true")
+    parser.add_argument("--exclusions", type=Path, default=None,
+                        help="projection-exclusions registry (validated; joins the digest; CALIBRATION only)")
     args = parser.parse_args(argv)
     print(
         f"perimeter: check=view-reproduction mode={'check' if args.check else 'render'} "
-        f"events={args.events.resolve()} output={args.output.resolve()} render_as_of={args.as_of}"
+        f"events={args.events.resolve()} output={args.output.resolve()} render_as_of={args.as_of} "
+        f"exclusions={args.exclusions.resolve() if args.exclusions else 'NONE'}"
     )
     try:
-        views = render_views(_load_events(args.events), render_as_of=args.as_of)
+        registry = load_projection_exclusions(args.exclusions) if args.exclusions else None
+        if args.exclusions and registry is None:
+            raise ValueError(f"exclusions registry not found: {args.exclusions}")
+        views = render_views(_load_events(args.events), render_as_of=args.as_of, projection_exclusions=registry)
         findings = write_views(views, args.output, check=args.check)
     except (OSError, ValueError, json.JSONDecodeError) as exc:
         print(f"EXCEPTION: view-reproduction input failed: {exc}")
