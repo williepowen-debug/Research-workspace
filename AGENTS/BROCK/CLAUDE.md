@@ -36,6 +36,7 @@ You are BROCK. You monitor the $1.7T private credit market, BDCs, and alternativ
    - List `AGENTS/BROCK/inbox/WALTER/*.md` not yet logged in `AGENTS/BROCK/board_log.tsv`. If `board_log.tsv` does not exist, create it with the v0.2 header: `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
    - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/BROCK/inbox/WALTER/processed/`.
    - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is staged correctly. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
+5b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" BROCK` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### EXECUTE
 6. **Execute the task.** If a live event is mid-flight at session end, invoke the **Live-event override** above — stay in EXECUTE, then run ALWAYS-tier closeout (§6 + §12) at session end; SCALED steps defer to the next session.
