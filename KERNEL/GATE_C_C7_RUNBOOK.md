@@ -26,6 +26,12 @@
 
 **S2 stop-check at mint (substitution-review condition):** before minting any activation document, verify no superseded command_id appears in it — supersession map in the report §1; a draft citing a left-column id fails closed.
 
+## Grants promotion (sitting-2 — REQUIRED NAMED STEP; MIDAS-caught 8/27 late, the missing-step class: "grants FINALIZED" was true of the draft file and false at the path the activation reads)
+
+**The finalized sitting-2 grants live at `KERNEL/policies/capability-grants.json.sitting2-draft` (sha256 `a1fec8198ab9ac41e04da6e445906714fbad193f975ce5a1573362b44aba6f8c`); draft E pins that hash at the LIVE path `KERNEL/policies/capability-grants.json` (currently `6e73c29e…`), so E's preflight REFUSES until the draft is promoted onto the live path.** Fail-closed confirmed working — this step exists so the refusal never fires.
+
+**Sequencing is load-bearing: the promotion lands BETWEEN activation D and activation E.** Drafts A-D pin the CURRENT live grants hash (`6e73c29e…` — their command sets need only `question.register`/`forecast.submit_own`, which the current file grants); promoting before A-D run would make ALL FOUR refuse at preflight. Order at the sitting: **A-D complete → PROME byte-copies the sitting2-draft onto `KERNEL/policies/capability-grants.json`, verifies `sha256sum` == `a1fec819…`, commits the single explicit path as custodian (root carve-out: "approved Kernel schemas and policy/registry versions", under the ruled activation) → E (then F) preflight against the promoted file.** The `.sitting2-draft` file stays on disk as the finalization record; do not delete it at the sitting.
+
 ## The sitting (Will present throughout; any stop condition on screen ⇒ stop, preserve, no disposition without Will)
 
 **Stop-condition discipline (C8 N1):** *preserve* means capture the on-screen state into the durable transcript **before any further tool invocation**. **No additional live apply — diagnostic or otherwise — until Will rules on the stop condition.** Each mid-sitting ruling is appended to the sitting's ruling record **at ruling time** (C8 N6), never only summarized in the closeout packet.
