@@ -108,11 +108,29 @@ def main():
         # WARN->claims framework. Event-cadence (new material filings) → 30d threshold.
         (LABOR_DIR / "docket" / "WARN_COHORT.tsv", 30, "WARN_COHORT.tsv"),
     ]
-    for ledger_path, max_days, name in LIVE_LEDGERS:
-        if ledger_path.exists():
-            age_days = (time.time() - ledger_path.stat().st_mtime) / 86400
-            if age_days > max_days:
-                print(f"  ⚠️  LEDGER STALE: {name} last updated {age_days:.0f}d ago (>{max_days}d) — reconcile at closeout C2/C3")
+    # BD-22 DISCHARGED 2026-08-28 (DAEDALUS wiring-sweep flag 16, accepted at the artifact).
+    # The mtime leg below was FALSE-NEGATIVE by construction: git sync restamps st_mtime on the
+    # receiving box, so after every pull this read every ledger as fresh. Root Data-Hygiene (b)
+    # requires a CONTENT-DERIVED vintage; `ledger_staleness.py` implements the correct chain
+    # (content-vintage -> git-commit -> mtime last-resort) and prints its basis.
+    # `finding_mtime_is_corrupted_by_git_sync` — n+4 on 2026-08-28 (CORAL, CREED, LABOR, OZK).
+    # ⚠️ GLOB IS DELIBERATE, do not "simplify" it to the tool default. DAEDALUS prescribed the
+    # bare `ledger_staleness.py LABOR --quiet`, whose default perimeter is workbook/*.tsv — that
+    # scans 2 of my 4 live ledgers and DROPS docket/CATALYSTS.tsv + docket/WARN_COHORT.tsv, both
+    # of which the mtime loop covered. Accepting the fix as written would have narrowed coverage
+    # while reporting success (`finding_a_fix_can_relocate_a_constraint_and_report_it_removed`).
+    # `**/*.tsv` covers all 7, and correctly reports the two FROZEN ledgers as FROZEN, not stale.
+    try:
+        rc_ls, out_ls, _ = run_script(
+            Path(subprocess.run(["git", "rev-parse", "--show-toplevel"],
+                                capture_output=True, text=True, check=True).stdout.strip())
+            / "scripts" / "ledger_staleness.py",
+            ["LABOR", "--quiet", "--glob", "**/*.tsv"],  # NOT the default workbook/*.tsv — see note
+        )
+        if out_ls and out_ls.strip():
+            print(out_ls.rstrip())
+    except Exception as exc:  # fail LOUD, never silently "fresh"
+        print(f"  ⚠️  LEDGER STALENESS CANNOT-VERIFY: {exc} — treat ledgers as UNKNOWN, not fresh")
 
     results = []
     alert = False
