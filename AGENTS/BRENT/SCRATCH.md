@@ -1,98 +1,63 @@
-# BRENT SCRATCH — Thu Aug 27, 2026 **~09:0x ET** *(PROME-doorbelled spawn on the domain state change; TRADE.md mark refresh pending at 09:30 options open)*
+# BRENT SCRATCH — Fri Aug 28, 2026 **~12:1x ET** *(PROME-orchestrated Friday slate; markets OPEN; session STILL RESIDENT for the 13:00 rigs print and the 15:30 COT print — this file is written mid-session and gets a second pass at the true close)*
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
-> # 🔴 THE DOMAIN STATE CHANGED WHILE I WAS DARK — IRAN-OMAN INTERIM HORMUZ FRAMEWORK FINALISED 8/26, BRENT −8.5% IN THREE SESSIONS
+> # ⛔ THE ONE THING TO READ FIRST: `BZ=F` ALONE IS NO LONGER A CITABLE IDENTIFIER ON THIS DESK
 >
-> **Path:** 94.39 [8/21] → 92.17 [8/24] → 88.58 [8/25] → 86.36 [8/26] = **−8.5% aggregate**; biggest single day 8/25 (−3.9%) landed **BEFORE the 8/26 statement** — market priced the DIRECTION of talks, not the document.
+> **Yahoo's `BZ=F` DAILY and INTRADAY series rolled Oct→Nov on DIFFERENT DATES and disagreed about what "front" meant for three sessions (8/25, 8/26, 8/27).** Daily was `BZV26` through 8/27 and `BZX26` from 8/28. Intraday was `BZX26` from 8/25. **One ticker, two contracts, same moment, depending on which resolution you request.**
 >
-> **Live tape 08:37 ET (named contracts per L23):** BZV26 (Oct M1) $88.26 · BZX26 (Nov M2) $87.27 · BZZ26 (Dec M3) $85.25 · **M1−M3 +$3.01 backwardated but FLATTENED $1.35 vs 8/24 (+4.36) ⇒ prompt scarcity easing alongside the level.** OVX 46.83 (−7.5% vs 50.62 [8/21]) · VIX 14.94.
+> **BINDING FROM TODAY: every Brent figure this desk publishes NAMES (a) the CONTRACT and (b) the BASIS — `close` vs `live bar`.**
 >
-> **$100 posture:** fired 7/23, was ~$6.22 AWAY [8/21], **now ~$13.75 AWAY** on BZV26 = 15.6%. **First time since 7/23 the line has widened materially without a supply-side fault appearing.** Threshold did NOT move, distance more than doubled.
->
-> **BZ=F rolled Oct→Nov somewhere 8/24-27** — WALTER's $86.36 vs my $87.84 on BZ=F is a contract-basis delta, not a data error. **Reporting rule this session forward: NAME THE CONTRACT.**
+> **Certified endpoint: `BZV26` (Oct26) `$87.84` [8/26 close]. Certified move: `94.39` [8/21 close] → `87.84` = `−6.94%`.** The fleet's `−8.5%` is retired; WALTER concurs and is fixing its own four surfaces.
 
 ---
 
-## ✅ WHAT SESSION DID *(this session)*
+## ✅ WHAT THIS SESSION DID
 
-**① REGIME VERDICT DELIVERED — STATUS block landed at top of file with 5 new current-state rows:** state change + decomposition + $100 posture + tape + JWC clean. PROME's regime-verdict ask (①) answered on-artifact, not just in a packet. Decomposition into 4 drivers with a bound (not precision) on the diplomatic/narrative share as load-bearing.
+**① REGIME VERDICT DELIVERED WITH A NAMED CHECKABLE RESOLUTION — the ask owed since 8/26 is now closed properly.** The 8/27 delivery had a verdict and falsifiers but **no dated, gradeable resolution**; that gap is what today filled. **Verdict: `PAPER-PREMIUM UNWIND ON A DEAL PATH; THE PHYSICAL PREMIUM DID NOT UNWIND WITH IT.`** Three independent physical/insurance witnesses (JWC listing = mine · TD3C freight = RED's · event pricing = ORACLE's), plus WALTER's bypass-leg framing as a fourth reason. **Registered `BRT-30`, 80%, resolves 2026-10-26.**
 
-**② JWC WATCH RAN CLEAN — JWLA-034 remains newest.** Probed via `instrument_check.py --id KILL-LEG2-JWC-LISTING` AND direct curl of IUA index (HTTP 200, 79KB, JWLA-025→JWLA-034 present, nothing newer). Standing negative holds; **the row did what it was built to do on its FIRST meaningful test** — a diplomatic joint statement is a market-decision document, not an underwriter's verdict, and the JWC didn't move.
+**② BZ 8/26 THREE-WAY ENDPOINT RECONCILE CLOSED — and it retracted one of my own 8/27 claims.** Two defects, neither a desk error: the daily/intraday roll split, and the evening-tick-labelled-as-close. **`−8.5%` decomposes to `−6.94` like-for-like + `−0.95` contract + `−0.61` timing = `−8.51`, reproducing WALTER's figure to the decimal.** **WALTER independently derived the same headline mid-session; I returned one refinement (its live tick was Nov-basis, not only next-session).**
 
-**③ 6 INBOX PACKETS CONSUMED, board_log rows 245-251:** PROME S338 (energy carve-out = UNKNOWN-AT-PRIMARY, carry forward not-asserted); MIDAS retraction (nothing owed); TERRY row-58 reordering (RISK_RULES #21+#22 landed, honest §4 answer sent); LIQUID §3 (no post-closure energy-HY figure on my desk, 8/07 retirement reasoning matches, packet sent to record UNMEASURED); WALTER Perm (extends v5.6 distillate mechanism, no threshold moved); WALTER Iran-Oman (the state change, verified at artifact, drove this session's STATUS write). DAEDALUS boot-load stays deferred on its own condition (TRADE.md cut still partial).
+**③ DR-4 RE-RATED — DEWEY's softening REFUTED, and my own `77–80%` superseded as TOO HIGH.** Built a 5-year pace-decay test off 1,913 daily EU AGSI+ observations: the naive-pace method over-projected **5 of 5 years**, median **+14.0pp**. **Seasonally-corrected landing zone `~70–76%`.** The **80% floor needs `0.81×` against a five-year BEST of `0.623×` ⇒ out of reach at 5/5.**
 
-**④ REPLIED SAME SESSION to LIQUID §3 + TERRY §4.** LIQUID: their 6/30 183bp is freshest anywhere; systemic-credit leg deferred to LIQUID; refuted substitution. TERRY: no thesis-break instrument at defensible base rate TODAY (using their own escape); row-58 construction validated by the −8.5% stress (thesis-break rail correctly silent, profit-keyed would have ratcheted). Both packets under `AGENTS/<they>/inbox/`.
+**④ `gie_pull.py` OWNER-WIRE ACCEPTED AND CADENCE INSTALLED** — two `CATALYSTS.tsv` edits, `supersedes: none`, per-boot wire deliberately refused under the retirement ratchet, **limit named rather than papered over.**
 
-**⑤ PROME PACKET DELIVERED PRE-OPEN** to `PROME/inbox/` (not `AGENTS/PROME/inbox/` — the dead-path guard on my desk since 7/30 held). Regime verdict + decomp + $100 posture + JWC clean + owed items. Delivered BEFORE 09:30 open so PROME has it without waiting on mark refresh.
+**⑤ INBOX DRAINED — 6 items, every sender, board_log rows 258–263.** Includes **ending the DAEDALUS deferral at its 4th re-affirmation** — the content is already verbatim in `board_log` 8/21T12:0x, so archiving lost nothing and un-stuck a rotting inbox slot.
 
-**⑥ CATALYSTS.tsv +1 row:** 2026-10-10 modeled midpoint for the 30-60d permanent-route window (~2026-09-25 to ~2026-10-25). Registers three branches: US-endorsed permanent route / Oman-only permanent route / window lapses. Grades against joint statement, not delegate sourcing (L18).
+**⑥ FIVE PACKETS OUT** (DEWEY · RED · WALTER · HAWK · PROME), commits `37955e32f` + `fea13a864`. **Doorbelled live: `walter-0828`, `red-96`. DEWEY and HAWK are DARK → flagged to PROME per rule 6b.**
 
-**⑦ NEXUS_BRIEF re-cut with C6 SCOPED-PARTIAL boundary explicit.** Top block is 8/27 content-re-verified; everything below is 8/21 vintage NOT re-verified against the 8/26 impact. Named the amendment to the 8/21 "corridor question... IS NOW CLOSED" language: it was correct AT 8/21 but is complete only if one adds "until JWLA-035+ delists" (JWC probed clean, so still valid, but the framing needs the guard).
+---
 
-## ⏳ WHAT'S OWED — inside this session
+## ⏳ NEXT — IN THIS SESSION, NOT NEXT SESSION
 
-**⑧ TRADE.md MARK REFRESH at 09:30 open.** Four legs need live-chain marks: USO Oct-16 135C ×2 (Will-ruled SELL-ONE unfilled 8/21), USO Sep-18 150/165, XLE Sep-30 65C. **May surface a mark-driven Will decision on the remaining 135C** (post-open packet to PROME if so).
+| when | what | state |
+|---|---|---|
+| **~13:00 ET today** | **`BRT-26` Baker Hughes.** Direction verified: `above 457`, **fails on a RISE.** Ladder …455 (8/14) → **452 (8/21)**, distance **5**. Locator: probe URL as `.xlsx` → `NAM Summary` → `U.S. Breakout Information` → `Oil` → `This Week`. **Browser UA** (the host tarpits a self-identifying one). **Never** a digit-regex on the BH HTML. **Two independent pulls.** | **PENDING — NOT PRE-GRADED** |
+| **~15:30 ET today** | **COT vintage #3, as-of Tue 8/25.** `COT-FUEL-35B`: Leg A ≤113,745 / deadband 109,165–118,325 · Leg B ≤4.909% GATING · both must agree. Ladder **108,059 / 5.7206%**. RAW `f_disagg.txt`, never Socrata; query by market NAME; verify `report_date` IN-ROW; `cot_grade.py --expect 2026-08-25`, **exit 3 = WAIT**. | **PENDING — NOT PRE-GRADED** |
+| **at the true close** | **Second pass on this file + `NEXUS_BRIEF.md` + `STATUS.md` grade rows + `CATALYSTS.tsv` 8/28 rows updated from ⏳ to ✅ + prune the 8/17 and 8/21 fired rows past 1-week retention.** | owed |
 
-**⑨ Git commit + safe-push.** Path-scoped `AGENTS/BRENT/` + shared-log carve-out (`AGENTS/BRENT/inbox/processed/` moves + board_log + this SCRATCH + STATUS + NEXUS_BRIEF + CATALYSTS + the three outbound packets). Auto-push per closeout protocol.
+## 📌 NEXT SESSION (dated, future-verifiable)
 
-## 🆕 LATE-SESSION ADDITIONS *(11:12-11:2x ET, after the STATUS write)*
+1. **Sun 8/30 — Jazan refinery restart** (400 kb/d, shut 7/27, date revised 8/15 → 8/30). Verify at a primary; log to `INCIDENTS.tsv` only on facility evidence.
+2. **Tue 9/1 — Russia diesel ban, producer-direct carve-out takes effect.** Grade against the INSTRUMENT (the decree), never a minister's forward guidance — that error is on my record from 7/31.
+3. **Sun 9/6 — OPEC+ Q4 decision.** Grade against the STATEMENT, not delegate sourcing (the 8/2 error). Per LESSONS #10, grade any adopted number against DELIVERABILITY: effective spare ~0.02 mb/d makes a quota change close to a paper event either way.
+4. **Wed 9/9 — SPR exchange window test**, first EIA prints covering September.
+5. **~8/31 — `BZV26` EXPIRES.** M1−M3 on the V/X/Z legs dies with it. **Successor basis already recorded so the series does not silently change definition: `X26−F27 = +$4.32` [8/28 ~10:5x].** Do this BEFORE the next curve write, not after.
+6. **`INCIDENTS.tsv` re-verify queue: 12 ACTIVE rows past the 60d budget** (oldest RF-004 at 162d) **+ 6 present-tense rows the budget does not cover.** Flags only — downgrading on a timer would fabricate a restart nobody observed.
+7. **`CUSHING-20M` instrument STALE** — newest datapoint 8/13 is 15d old against a 10d budget. *(The EIA weekly monitor separately reads 22.43M for wk-8/21, so the SERIES is fine; it is the registry row's freshness path that is stale. Diagnose the path, do not re-level the row.)*
 
-- ✅ **Will's HOLD RULING on 135C ×2 encoded (PROME relay 11:12).** *"I want to wait. I do think this ride isn't over yet."* Fill status = CONFIRMED UNFILLED, SELL-ONE SUPERSEDED. Leg no longer carries fill-status question. Mark-tracking continues at ±$1.50/contract threshold vs 8/26 last-trade $5.70.
-- ✅ **PROME cross-roll certification packet delivered.** Certified BZV26 like-for-like 8/21→8/26 = **−$6.55 / −6.94%** (NOT −8.5%). Cross-roll ruled out for the window (BZ=F was Oct-basis through 8/26; roll happened overnight 8/26→8/27). WALTER endpoint discrepancy $86.36 vs my $87.84 = source issue, not roll issue — reconcile owed to WALTER.
-- ✅ **Ticker sweep (PROME-requested MIDAS-parallel):** 8 registered MKT-BZ-F-* / MKT-CL-F-* level rows all safe by explicit L23-compliant design; 1 DIESEL-CRACK spread row has ruled t-4 net-change basis — deeper look someday, not urgent. No re-registration needed.
-- ✅ **L26 encoded** (pathspec-rename discipline, C2-clean same-commit prose+index).
-- ✅ **TERRY refiner-construction ask delivered.** Will asked "should I buy more USO"; my answer: no on USO, yes on thesis, better via refiner name (VLO/MPC). Will: *"loop TERRY in on a VLO/MPC construction."* Packet at `AGENTS/TERRY/inbox/2026-08-27_from-BRENT_construction-ask-refiner-add-*.md` provides thesis fit, refiner-vs-XLE decoupling data (+14-17% 30d vs +5.4%), concentration constraints, timing/tenor/instrument menu. **Construction stays TERRY's; nothing armed.**
-- ✅ **Deep (b) equilibrium analysis delivered to Will.** Verdict: NOT converged on $88-90 as equilibrium. ~55% probability temporary dip (retracement to $90-95 within weeks), ~30% probability equilibrium holds, ~15% probability continuation to $82-85. Bias check: I'm long, my prior favors thesis; without the 8/27 curve-bounce data point my probabilities shift to 35/50/15 — still against equilibrium but weaker. Will agreed with the temporary-dip framing.
-- 🟠 **TOP-LEVEL CLEANUP (12:1x–12:2x):** 4 files rotated off root, TRADE.md refs repointed. `LAST_COMPLETION.md` → `archive/LAST_COMPLETION_20260813_frozen.md`. Both `AUDIT_2026-08-12_*.md` → `archive/`. `PREREG_20260628_CME_reopen.md` → `setups/` + 2 LIVE TRADE.md refs repointed. Root .md/.tsv 15 → **11**. Left: `2026-07-06_teams-session.md` — carries LIVE refs on 3 thesis surfaces, needs surgery (DAEDALUS 8/17 sequenced this ~9/04). Commit `dd030140f`, pushed ff-only.
-- 🔴 **TERRY REPLY LANDED (12:3x, cross-session `SendMessage`):** TERRY delivered `TRY-BRENT-REFINER` conditional spec = **3× VLO shares, NOT options**. Two of my §4 premises CORRECTED at TERRY's live measurement: **(a) VLO/MPC 60-90 DTE window is EMPTY** (both skip November; my "monthly cycles, well-populated" was reputation-not-verified — `[[finding_adoption_is_not_validation]]` on my own outgoing surface), **(b) refiners are RED today** (VLO −1.01, MPC −0.44, PSX −1.08 vs USO +0.91 — I priced day off BZV26, wrong instrument for the transaction). Both retracted. Reply packet delivered at `AGENTS/TERRY/inbox/2026-08-27_from-BRENT_concur-both-corrections-yield-delivered-VLO-holds-debit-spread-ruled-DEFINED.md`: (1) full concur on corrections, (2) `distillate-yield-by-name` DELIVERED 58d late — VLO 37.7% holds top slot within TERRY's set (CVI 41.3 / DK 37.9 rank higher but outside set; PSX unsourceable), (3) **debit spread RULED DEFINED, not undefended-linear** (metric doctrine canonised — max loss capped by construction, ITM/OTM changes delta not loss floor; retracts any morning-packet "until ITM" claim), (4) decoupling-vs-XLE series slot stays honestly open, neither desk holds it, proposal to co-build with regime window nominated by BRENT.
-- 🔴🔴 **STATE CORRECTION (TERRY commit `3d3a866c7`, verified at card L7): WILL APPROVED THE CARD ~12:1x ET, verbatim `"approved"`, route (i) 3× VLO. Card state = `STAGED`, NOT `CONDITIONAL`.** Rule #6 re-measured at approval moment (12:12): VLO −0.79 / XLE −0.80 vs USO +0.86 — gate clean at approval. TERRY ruled: **approval settles the ceiling FOR THIS $1,033 ADD ONLY**; ceiling remains UNSET for any future add, and route (ii) trim-USO-first is NOT approved and NOT dead — simply not chosen here. **My prior SCRATCH line ("blocked on Will's oil-ceiling number") was already stale by ~10 minutes when I wrote it — TERRY caught it in reply.** ⛔ **TRADE.md POSITIONS NOT TOUCHED** — card is staged AT TERRY, fill happens off-repo (broker); my concentration table gets +3 VLO shares only when TERRY confirms FILL, not on approval. Awaiting fill signal.
-- 🔴 **URGENCY INVERTED — DECOUPLING-VS-XLE CO-BUILD IS NOW TOP OPEN ITEM.** I had said "not urgent while CONDITIONAL." With approval, the falsifier slot is live on a real position the instant it fills — a named-but-empty slot on a filled position is worse than on a conditional one. **TERRY accepts the co-build with my Feb-2026 war-start → present regime window as the load-bearing distribution.** My deliverable back (this session): the regime-window scope + sub-regime caveats + suggestion to include CVI in the pull for future-proofing (CVI is TERRY's deferred-not-forgotten alt if the position ever scales). Reply landing at `AGENTS/TERRY/inbox/2026-08-27_from-BRENT_state-corrections-accepted-cobuild-methodology-confirmed.md`.
-- 🟠 **STATUS.md CUT LANDED (14:3x–14:4x, Will green-lit).** 6 dated-history blocks archived verbatim + crc32 to `workbook/STATUS_archive_20260827_dated_history_cut.md`. Cut: 133,915 B / 212 lines → **112,876 B / 144 lines** (−21,039 B / −15.7% / −68 lines). Actual reduction less than my earlier ~60K estimate because the rows are dense but not as heavy as I sized; documented at DAEDALUS ADD #4 discipline (don't inflate cut to hit a target). Two-clock header NOT bumped (hygiene commit). Line-anchor regression clean (only PILOT_STATE:40,111 → STATUS:7-21 which is above the cut; board_log dated-audit rows unchanged per 8/21 precedent). CATALYST CALENDAR live-twin preserved. **Commit 2 of 2 (byte-tier declaration + boot wiring) deferred** per DAEDALUS ADD #3 — needs post-cut density measured and §3-watched-both-directions falsification.
-- 🔴 **CO-BUILD LOOP CLOSED (14:0x–14:2x).** TERRY caught anchor-pointer defect: I named "your CHANGELOG" without dir qualifier (AGENTS/TERRY/ has none; meant `thesis/CHANGELOG.md`) and even that would have been the wrong class of surface (L825 "~2026-03-01" is rounded narration, not the load-bearing base-rate anchor). Third instance today of "remembered label read as a key" class. Pulled authoritative war-start = **2026-02-27** from `setups/2026-08-21_row58-*.md:158` verbatim. TERRY built distribution (n=126 US-equity-calendar sessions, cal-30d basis) — commit `a635431c3`, artifact `AGENTS/TERRY/research/2026-08-27_refiner-XLE-decoupling-distribution.md`, script `AGENTS/TERRY/scripts/decoupling_series.py` (reproducible, re-run at next material move rather than re-derive). Headline was BASIS FLIP: 28.5-percentile swing on definitional choice (cal-30d VLO 71.4% vs 30-sess 42.9%). Ruled: **BASIS = cal-30d** (four grounds, switching after seeing distribution is LESSONS #21(b) direction-neutrality trap); **CONTROL = XLE** (falsifier tests refiners-paid-by-ETF-beta not crude beta; USO/BZ deferred as separate downstream). Today VLO at 71.4% overall inside p25–p75 = middle-of-distribution, **NO THRESHOLD NOMINATED TO WILL**, slot stays open. TERRY closed loop `ca25b54a5`, nothing owed back — respected the explicit close, no reply sent.
+## 🔓 OPEN THREADS
 
-## NEXT SESSION (dated, future-verifiable)
+- **⚠️ WILL-GATED, UNCHANGED, NOW FOUR SESSIONS OLD: the `TRADE.md` half of the boot-load cut (five sections left) + the byte-tier declaration and boot wiring.** DAEDALUS's addition #3 says archive and guard are TWO commits; **only the archive half landed (8/27).** **`STATUS.md` is now 128,824 B / 159 lines — comfortably under the LINE cap and that is exactly the disease DAEDALUS measured: archiving by line count does not reduce bytes when retained lines are heavy.** The packet is now in `processed/`; **its load-bearing breakage mapping is verbatim in `board_log` 8/21T12:0x** — read it there, not from the archived file.
+- **TERRY: the decoupling-vs-XLE falsifier slot is NAMED BUT EMPTY on a FILLED position** (3× VLO, Will-approved ~12:1x on 8/27). TERRY ruled the urgency INVERTED — an empty falsifier on a filled position outranks one on a conditional position. **Still the top open item between us.** No threshold nominated to Will; `+8.55` sits mid-distribution (p25 3.07 ≤ 8.55 ≤ p75 9.78) on the ruled calendar-30d basis.
+- **Row 58 / USO shares leg:** LEG A (profit-keyed) with a ratchet remains better calibrated than any thesis-break instrument I can name at a defensible base rate. Unchanged today.
+- **S338 Canadian energy-lines status = UNKNOWN-AT-PRIMARY** (PROME ruling). Carry the framing; assert neither inclusion nor exclusion. Counter-tariff date **Tue 9/8**.
+- **Energy HY OAS: PERMANENTLY UNMEASURED** on this desk (`HY-ENERGY-OAS` retired 8/07, no free feed, substitution refused). LIQUID's 6/30 183bp is the fleet's freshest. Systemic-credit leg formally deferred to LIQUID.
 
-1. **🔴 FRI 8/28 DUAL GRADE:** BRT-26 Baker Hughes rigs (~13:00 ET; fires on RISE to ≥457; last 452 [8/21]) + COT vintage #3 as-of 8/25 (~15:30 ET). **DO NOT LET COT STACK past next Fri.** Grader is READY per 8/21 verification (rc=3 WAIT was healthy at 13:18 ET last Fri). BH primary path repaired 8/21 (browser UA fix), instrument check clean this boot.
-2. **🔴 30-60d PERMANENT-ROUTE WINDOW** — starts ~9/25. Registered CATALYSTS row 2026-10-10 modeled midpoint. Watch for: WSJ/Bloomberg joint announcement, Oman News Agency corroboration, US endorsement/rejection statement.
-3. **🔴 OPEC+ MEETING 9/6** — Q4 (Oct-Dec) decision, spare-capacity single-agency caveat (EIA STEO alone), Bloomberg 7/28 pause expectation is UN-REFRESHED (row updated 8/21).
-4. **🔴 RUSSIA DIESEL BAN 9/1** — producer-direct carve-out takes effect.
-5. **⏸️ WILL-GATED:** the remaining `USO Oct-16 135C ×1` disposition (post 09:30 mark refresh may re-open the second SELL question); DAEDALUS boot-load cut TRADE.md half (five sections left, do NOT rotate by heading).
-6. **🟠 12 ACTIVE INCIDENTS + 6 unbudgeted still past 60d re-verify budget** (boot instrument-check flags; no action forced, disclosure honest).
-7. **🟠 BRT-29 mechanism deadline is 8/31 — 4 days** (from 8/27). Its leg needs ≥3 NAMED carriers citing fuel/war economics. ⛔ Do not substitute off-list evidence.
+## 💼 PENDING POSITION DECISIONS
 
-## OPEN THREADS / WATCHES
+**NONE PROPOSED TODAY. `$0` moved.** Book unchanged: **USO 35 shares · USO Oct-16 135C ×2 · USO Sep-18 150/165 spread · XLE Sep-30 65C ×2** *(`TRADE.md` is canonical; marks were NOT refreshed this session — a live-chain pull at every decision point is RISK_RULES #5 and no decision point arose)*. **TERRY's concentration flag reads the same as 8/27: the falsifier is MOVING, not FIRED — and §A's three physical witnesses are the evidence for that distinction, because a genuine break would show in the JWC listing and the freight tape first, and neither has moved.**
 
-- **⛔ SHARPEST EXPOSURE (v5.7):** the 8/21 framing named this closed; the 8/26 framework tested it and the JWC held. But: an Oman-track permanent-route agreement WITHOUT US endorsement could reprice again on nothing but a signature. Watch US State Department for endorse/reject statement on the Iran-Oman framework.
-- **⚠️ BZ=F ROLL CAUGHT ONE VINTAGE DISPARITY BUT MORE MAY BE OUT THERE** — for the 8/24-27 window, any BZ=F delta may mix Oct+Nov contracts. This applies to competing figures on other desks; if I see a Brent close disagreeing with WALTER or FALCON by ~$1-2, ASK THE CONTRACT BEFORE ARGUING THE PRICE.
-- **⚠️ S338 Canadian energy-lines status = UNKNOWN-AT-PRIMARY** (per PROME 8/22 ruling). Do not re-assert exclusion NOR inclusion. Watch for HTSUS annex line-list release (was `[TIFF OMITTED]` in the FR text; CBP CSMS returns 403 to this fleet per PROME).
-- **⚠️ Russian capacity-offline estimates disagree ~2.5× — DO NOT AVERAGE.** Reuters 17% (conservative live) · S&P 7 offline end-July +4 in Aug (cleanest count) · Kyiv Post 42.7% CUMULATIVE-EVER-STRUCK belligerent-aligned.
-- **⛔ EXPORT-SIGN WARNING live · RUNS-DECLINE IS NOT CAPACITY-OFFLINE · every 8/19-20 Russian strike item is "fire reported" or CLAIMED with ZERO operator statements — do not convert into barrels.**
-- **⛔ Unresolved:** Petroline 5 vs 7 mb/d · SPR floor 252.4M vs 400.0 · Yanbu↔Sidi Kerir double-count seam · TANECO incrementality · Mina Al-Ahmadi capacity 346k (reporting) vs 466k (ledger).
-- **⚠️ TRADE.md has still not been re-marked since 8/21 14:2x — the very defect PROME flagged 8/21 (11-day stale marks class). Being fixed at 09:30 this session.**
+## 📬 MAIL STATE
 
-## POSITION DECISIONS PENDING
-
-- ✅✅ **8/27 ~11:12 ET WILL RULED VIA PROME RELAY: 8/21 SELL-ONE SUPERSEDED BY DELIBERATE HOLD ON `USO Oct-16 135C ×2`.** Verbatim: *"I want to wait. I do think this ride isn't over yet."* Fill status = CONFIRMED UNFILLED. **This is thesis-conviction HOLD with concentration flag standing, NOT a lapsed order and NOT a re-open of the roll question.** The leg NO LONGER carries fill-status as an open item. **Mark tracking continues** — packet PROME on material moves ≥±$1.50/contract from 8/26 last-trade $5.70 either direction. **Congruent with my (b) equilibrium analysis this session: Will's HOLD implicitly bets on my ~55% retracement branch, not the ~30% new-equilibrium branch or the ~15% continuation-lower branch.**
-- ✅ **HOLD the second 135C, no roll (Will 8/21).** Rationale: every live catalyst fires BEFORE Oct-16. Roll bought 63 days with ZERO live catalysts.
-- ✅ **35 USO shares HOLD (Will 8/18).** Basis $121.88 vs USO $127.35 [8/26 close] = +4.5% (giveback from +11.3% peak 8/21). No live stop. Row-58 construction: profit-keyed = primary rail (would have ratcheted); thesis-break = backstop (correctly silent).
-- ⚠️ **XLE Sep-30 $65C ×2 — 34 DTE, moneyness now depends on 09:30 mark.** Disposition LAPSE unchanged.
-- ⚠️ **USO Sep-18 150/165 spread — 22 DTE, deep OTM given USO $127.35.** Disposition unchanged.
-
-## MAIL STATE
-
-- **INBOX 1 OPEN (DAEDALUS deferred, own condition) · WALTER lane 0 · outbox 0.** board_log **251** rows (was 244; +7 this session).
-- **SENT THIS SESSION (3):** LIQUID (energy-HY UNMEASURED reply, §3 answered) · TERRY (row-58 §4: no thesis-break instrument at defensible base rate today) · PROME (regime verdict + decomp + $100 posture + owed items).
-- **Owed TO me:** Will — remaining 135C disposition (may re-open post-09:30 mark). DEWEY — `gie_pull.py` (from 8/21). HAWK — the three 8/21 asks (unchanged, not blocking this session).
-- ✅ **6 packets consumed and `git mv`'d to processed/** — PROME S338, MIDAS retraction, TERRY row-58, LIQUID §3, WALTER Perm, WALTER Iran-Oman.
-
-## 📒 LEDGER-NUDGE DISPOSITION *(pending closeout run)*
-
-| Ledger | Disposition |
-|---|---|
-| **`TRADE.md`** | ✅ **REFRESHED 08:35 ET via 8/26 last-trade prints (options market pre-open)** — new LIVE-VINTAGE COMPANION table added, 8/21 table untouched. **Book NOW `−$611.23 / −9.5%` vs basis (was `+$837.62 / +13.0%` [8/21 14:2x]) — swung `−$1,448.85` in 6 sessions.** Undefended-linear share `65.2% → 76.4%`, exactly the 8/21 STAR note's predicted reversal on the way down. **DECISION-RELEVANT: 8/21 SELL-ONE ruled at mid $10.35, 8/26 last-trade $5.70 — if unstaged, ~$465/contract of harvest opportunity has degraded.** Follow-up packet sent to PROME. |
-| **`INCIDENTS.tsv`** | ⏸️ NOT touched this session (no new strike events verified at primary; existing 12 ACTIVE + 6 unbudgeted stay past 60d budget per boot flag). |
-| **`REGISTRY.tsv`** | ⏸️ NOT touched this session (no new registrations, no level changes). |
-| **`LESSONS_INDEX.tsv`** | ⏸️ NOT touched this session (no new lesson coined; the "NAME THE CONTRACT" reporting rule from the BZ=F roll is a candidate for L26 if it reifies — flagged, not authored). |
-| **`board_log.tsv`** | ✅ **REFRESHED** — 244 → 251. |
-| **`docket/CATALYSTS.tsv`** | ✅ **REFRESHED** — +1 row (permanent-route window). |
+**Inbox EMPTY of actionable items except two WALTER artifacts left in place deliberately** — both untracked in git at 11:4x, therefore WALTER's to commit under carve-out ①; consumed and logged (board_log 2026-08-28T11:4x ×2), **archive to `processed/` once they are tracked.** Four items `git mv`'d to `processed/` this session. **Outbox: nothing pending.** Five packets delivered today (DEWEY · RED · WALTER · HAWK · PROME).
