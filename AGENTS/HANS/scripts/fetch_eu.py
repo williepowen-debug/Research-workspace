@@ -59,12 +59,21 @@ def agsi_eu():
     if not key:
         return None, "no AGSI_API_KEY — free signup at agsi.gie.eu/account"
     try:
-        req = urllib.request.Request("https://agsi.gie.eu/api?country=EU&size=1",
+        # ⚠️ `country=EU` returns total=0 — there is NO 'EU' country code. The EU
+        # aggregate is `type=EU` (equivalently /api/data/eu). Found 2026-08-28 by
+        # testing rather than assuming; the wrong form fails SILENTLY with an empty
+        # data array and a 200, which reads as "no data today" rather than "wrong query".
+        req = urllib.request.Request("https://agsi.gie.eu/api?type=EU&size=1",
                                      headers={"x-key": key, "User-Agent": "HANS/1.0"})
         with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
             d = json.load(r)
-        rec = (d.get("data") or [{}])[0]
-        return (rec.get("gasDayStart"), float(rec.get("full"))), None
+        recs = d.get("data") or []
+        if not recs:
+            return None, "AGSI returned an EMPTY data array (query form wrong, or gas day unpublished)"
+        rec = recs[0]
+        if rec.get("full") in (None, "", "-"):
+            return None, f"AGSI gas day {rec.get('gasDayStart')} has no 'full' value yet (D+1 lag)"
+        return (rec.get("gasDayStart"), float(rec["full"]), rec.get("trend")), None
     except Exception as e:
         return None, f"AGSI pull failed: {str(e)[:60]}"
 
@@ -105,7 +114,18 @@ def main():
     st, err = agsi_eu()
     print("\n  EU gas storage (GIE AGSI+):")
     if st:
-        print(f"     {st[1]:.2f}% full  [gas day {st[0]}]   HANS-T-08 measures the GAP to the 5-yr norm, not this level")
+        NORM = 82.0  # 5-yr seasonal norm for this date [GEF, 2026-08-28]
+        gap = st[1] - NORM
+        em = "🔴" if gap < -25 else "🟠" if gap < -15 else "🟢"
+        try:
+            tr = f" trend {float(st[2]):+.2f}pp/d"
+        except (TypeError, ValueError):
+            tr = ""   # AGSI returns trend as a STRING and sometimes empty — coerce, never assume
+        print(f"     {st[1]:.2f}% full  [gas day {st[0]}]{tr}   ✅ PRIMARY (GIE AGSI+)")
+        print(f"  {em} GAP TO 5-YR NORM {gap:+.1f}pp  (vs {NORM:.1f}% norm)   HANS-T-08 bands -15 orange / -25 red")
+        print(f"     ⚠️ PERIMETER MISMATCH, STATED: fill is AGSI primary; the {NORM:.1f}% norm is from GEF,")
+        print(f"        a DIFFERENT source whose EU member-set may differ. The GAP is therefore a")
+        print(f"        CROSS-SOURCE derivation. Proper fix: compute the norm from AGSI history.")
     else:
         print(f"     🔑 {err}")
 
