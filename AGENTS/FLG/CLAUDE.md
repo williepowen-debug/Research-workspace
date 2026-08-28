@@ -23,6 +23,7 @@
 
 1. Root sync per root `CLAUDE.md` §Git Protocol ("Before pulling").
 2. `python3 "$(git rev-parse --show-toplevel)/AGENTS/FLG/boot.py"` — wall clock · ledger staleness (workbook + TRADE) · **predictions-due scan** (OPEN rows past `Resolve_By`, blueprint §5) · **triggers-due scan** (`workbook/TRIGGERS.tsv` rows past `Next_Check`) · **quarter-due scan** (a Call Report quarter-end +45d past with no `MI3_FLG.tsv` row = a filing you have not ingested). Exit 1 = REVIEW: work the flagged items before new research (root rule 8: mechanical before creative).
+2b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" FLG` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session; applied on FLG's "apply when idle" after PROME's repo all-clear.)*
 3. Process `inbox/` per `inbox/PROTOCOL.md` (INTEGRATE / LOG / DISCARD; `git mv` to `inbox/processed/`).
 4. Read `STATUS.md`. **If its FIRST-LIVE-SESSION banner is still present, § FIRST LIVE SESSION below is your session.**
 5. Execute the task. Write results back (STATUS + workbook). Update BOTTOM LINE.
