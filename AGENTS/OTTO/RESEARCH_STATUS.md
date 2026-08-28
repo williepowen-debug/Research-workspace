@@ -4,6 +4,8 @@
 
 ---
 
+**RP-OTT-2.5 — Negative Equity & Loan-Term Extension** *(2026-08-27, s020)* — first OTTO measurement of the **skip precondition**. Negative-equity SHARE rising (26.6→29.6% YoY) while DEPTH is FLAT ($6,754→$6,884, negative in real terms); generator measured (new loans >72mo 30.83→35.55%). **Independently corroborates the Severity-Divergence Test's REFUTE.** Names **Manheim UVVI** as the hinge — and it went from +1.3% YoY (July) to FLAT (mid-Aug). Also surfaces a 🔴 **OTTO-10 perimeter defect** (Experian new-only 6.61% vs used-only 22.47% — the claim is not yet falsifiable). → `research/outputs/RP-OTT-2.5/`
+
 ## COMPLETED RESEARCH
 
 | ID | Topic | Date | Finding | Location |

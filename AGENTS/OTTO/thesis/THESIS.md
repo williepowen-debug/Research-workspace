@@ -156,6 +156,21 @@ OTTO has framed the picture since s015 as *deep-subprime bleeds while broad subp
 
 ---
 
+### 🔑 Independent corroboration of the SDT REFUTE — negative-equity DEPTH (added 2026-08-27, s020)
+
+**The skip precondition is spreading but not deepening, and depth is the part the mechanism needs.** `[PRESS Edmunds Q2-2026; Experian SAFM Q1-2026; Cox/Manheim — vendor releases, not filings]`
+
+| | Q2 2025 | **Q2 2026** |
+|---|---|---|
+| Share of new-vehicle trade-ins underwater | 26.6% | **29.6%** (+3.0pp) |
+| **Average amount underwater** | $6,754 | **$6,884** (+1.9% nominal, **negative real**, and below Q1's $7,183) |
+
+The generator is real — **new loans >72 months went 30.83% → 35.55% in one year** — but it has **not** converted into deeper negative equity, because **used values absorbed it** (Manheim +1.3% YoY in July). **Walk-away incentive scales with how deep a borrower is, not whether they are**, so flat depth means the skip economics are **not** worsening.
+
+**⇒ This is a second, independent instrument returning the SDT's answer** — different provider, different population, different construction — and it arrives **before** the ~Nov 15 re-run. It strengthens the pre-set rule (*this REFUTE + one more ⇒ cut the Secondary thesis's load-bearing role, do NOT narrow again*) rather than softening it.
+
+**⚠️ The hinge, now named and already moving: Manheim UVVI went from +1.3% YoY (July) to FLAT (mid-August, index 207.4; non-adjusted −0.2%).** If it turns materially negative the 35.55% long-term cohort surfaces as a step-change in depth and severity should finally move — the SDT's **CONFIRM** condition. **Manheim is now an input to this thesis, not only the SDT's control gate.** Full → [`RP-OTT-2.5`](../research/outputs/RP-OTT-2.5/RP-OTT-2.5_Negative_Equity_and_Loan_Term_Extension.md).
+
 ## CARVANA SUB-THESIS *(carved out — lower conviction)*
 
 ### Claim
