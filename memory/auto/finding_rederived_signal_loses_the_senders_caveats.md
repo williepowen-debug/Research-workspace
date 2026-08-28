@@ -23,3 +23,34 @@ WALTER routed an Oracle collateral item with an explicit instruction: *"FT 7/21,
 **The damage mechanism is precise: a caveat is attached by its author to a datum, but not to that datum's restatement.** The source said "single-lineage, confirm." The relay said "X was hit with a >$7B requirement, triggered by the cut" — grammatically assertive, no lineage, no instruction. **Three downstream readers received as fact what one agent had published as a lead.** The sender did everything right; the hop is where it broke.
 
 **How to apply (adds to the rules above):** (5) when a source carries a confirmation instruction you have exactly two honest options — **execute it, or forward the instruction verbatim alongside the datum**; silently dropping it is the only wrong one. (6) A relayed figure is **not yours to assert** until you've done what its author told you to do — treat "confirm vs X" as a **blocking precondition on outbound routing**, not a footnote. (7) **Verify before you score or promote.** The same evidence supported a 4 before verification and a 3 after; the check took twenty minutes. (8) When the correction lands, **push it to everyone who got the original** and **mark the superseded record rather than editing it** — an unmarked fix leaves the old number citable.
+
+---
+
+### n+1 — the INVERSE direction: handing a peer a TEST is worse than handing them a FINDING (FLG → REGINALD, 2026-08-28)
+
+The cases above are about a **received** signal arriving stripped of its guardrails. This is the same seam crossed the other way: **what you SEND can carry authority it has not earned — and a test carries more of it than a finding does.**
+
+**Instance.** FLG found that a bank's worst loan-maturity vintage grew **+2.1%** while the book shrank **−7.08%**, and shipped the parent desk a framing plus a runnable test: *"watch the SHARE of the worst vintage; falling dollars + rising share = deterioration, not de-risking."* REGINALD registered it as a cohort pull feeding a **live matrix leg**.
+
+FLG then tested its own framing on its own data. **In a shrinking book, ANY vintage shrinking slower than the book gains share — roughly half by construction. 4 of that bank's own 6 vintages gained share.** The cohort pull would very likely have returned "8+ of 14 names show it" and been read as *the pattern generalises*, feeding a discriminator built on **arithmetic rather than credit**. Retracted before the pull ran.
+
+**Why a test is the dangerous thing to hand over, and worse than a finding:**
+
+| you send | the recipient can | failure mode |
+|---|---|---|
+| a **finding** | weigh it, check your source, disagree | they under-weight it |
+| a **test** | **run it** | 🔴 **it emits a NUMBER, and the number looks like evidence** |
+
+> ★ **A finding is a claim the recipient evaluates. A test is a claim the recipient EXECUTES — and its output launders the defect into a measured result with their name on it.** Construct validity is nearly invisible from the receiving end: the recipient sees a well-specified procedure, runs it correctly, and gets a clean answer to the wrong question.
+
+**And the defect compounds downstream.** The recipient's output then travels as *their* measurement, so the original sender is no longer in the chain to caveat it — the exact stripping this memory describes, now applied to a result the sender caused but does not own.
+
+**How to apply:**
+
+- **Base-rate a test BEFORE offering it, on data you already hold.** FLG's refutation took one pass over a ledger it had built an hour earlier. **The cost of checking was minutes; the cost of not checking was another desk's live scoring instrument.**
+- **Ask what the test returns under the NULL.** If "roughly half of everything" satisfies it, it is measuring mechanics. That question is cheap and it is the whole check. (Same class as a threshold satisfied by ordinary behaviour — the failure that had killed six candidate kills on this same desk **one exchange earlier**. Naming a trap does not stop you walking into it.)
+- **Send the null WITH the test.** "How many vintages gained dollars at that name?" turns an unfalsifiable count into a comparison.
+- **When you retract, retract before the run, and say what to run instead.** A bare retraction leaves the recipient with a hole where a roadmap item was.
+- ⚠️ **Correct every surface carrying the bad wording, not just the message** — the retracted framing had propagated to a KB row, a trigger's grading note, a STATUS body and a BOTTOM LINE. **A retraction that leaves the original phrasing standing in your own ledgers re-ships itself at the next read.**
+
+*(Recipient's corollary, worth keeping: "a peer who does NOT self-audit an offered contribution costs the next desk exactly this much." The saving is invisible when it works — which is why it needs writing down.)*
