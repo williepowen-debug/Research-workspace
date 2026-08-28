@@ -129,3 +129,27 @@ A frozen QCEW benchmark card carried, in a pre-print addendum written 5 days out
 **What this adds beyond the LIQUID 8/24 limb (caveat-writing discharges the AUTHOR's felt obligation): the record suppresses the READER's scrutiny too.** A doubt sitting unraised still attracts investigation from anyone who trips over it; a doubt filed with a disposition ("provenance only") reads as *adjudicated* — to its author AND to every peer who sees the filing — so the filing inverts the usual intuition that surfacing a concern is strictly safer than sitting on it. Sibling mechanism to `[[finding_registered_gate_captures_attention]]`: attention follows what looks accounted-for, and a filed flag looks accounted-for by construction.
 
 **The rule (MIDAS's words): "it doesn't change the verdict" is a reason not to panic, never a reason not to resolve.** A verdict-neutral disposition is a *deferral*, and a deferral needs what every dated carry item needs — a named re-test trigger — or it becomes a string. **Operational form: when filing any impeachment/doubt with a no-action disposition, attach the condition under which it re-opens** (a date, a print, "before next re-base of any surface citing the figure") — the same discipline this memory demands of dates, applied to dispositions.
+
+---
+
+### n+3 — the sub-form where **the date has NOT passed**, so this memory's own remedy cannot fire (FLG, 2026-08-28)
+
+**Every fix above keys on a date going into the past.** This one is a dated carry item whose **date is still comfortably in the future** — and it was wrong the whole time.
+
+**Instance.** FLG's wake register carried the NYC Rent Guidelines Board vote — *the single mechanism the desk exists to watch* — as **`Next_Check 2027-05-03`, `Anchor_Type EVENT`, marked `[EST]`.** The RGB had **already voted in June 2026**, approving a rent freeze effective October 2026, and the bank had **already booked a provision for it**. The desk was ~10 weeks blind to its own defining mechanism firing **while holding a correctly-formatted, in-date, correctly-instrumented row aimed straight at it.**
+
+**Why every guard passed, and would pass again:**
+
+| Check | Result | Why it cannot help |
+|---|---|---|
+| Boot due-scan (`row past Next_Check`) | ✅ clean | The date is in 2027. Nothing is overdue |
+| "Diff dated carry items against today" *(this memory's own fix)* | ✅ clean | **Same reason — the diff is the wrong test** |
+| Row-format / anchor-type audit | ✅ clean | `EVENT` + `[EST]` is the *correct* labelling for this row |
+
+> ★ **A due-scan asks "has the date arrived?" It never asks "has the EVENT occurred?" — and for a RECURRING event those come apart completely.** On an annual instrument, a row pointed at *next* year's occurrence is indistinguishable from a row that **missed this year's**. Both render as pending, in date, well-formed.
+
+**The tell is the ANCHOR TYPE, not the date.** `EVENT` + a cadence of `annual`/`recurring` = this exposure, always. A `HARD` or `RULE` anchor does not have it (their dates derive from a published rule, so they cannot silently point past an occurrence).
+
+**How to apply.** For any recurring `EVENT`-anchored row, the date is not the state — carry **whether the last occurrence has been observed**. A `Last_Occurrence_Verified: <date>` cell makes the gap visible; a better `Next_Check` never will. ⚠️ **And check it at the instrument's own cadence, not at the row's**: an annual row needs looking at more than once a year, precisely because its due-date never comes.
+
+**Generalises past wake registers** to every artifact holding a *forward* pointer at a recurring event — earnings-date rows, annual votes, scheduled reviews, renewal dates. `[[finding_instrument_cadence_cannot_resolve_the_claims_window]]` is the sampling twin; here the sample rate is *once per occurrence* and the row is asleep between them.
