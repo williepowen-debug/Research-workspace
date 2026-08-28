@@ -40,17 +40,25 @@ Exit contract (CHECK_STANDARD §9):
 
 Usage (cwd-proof):
     python3 "$(git rev-parse --show-toplevel)/AGENTS/DAEDALUS/scripts/read_cap_check.py" [FILE ...]
+    (DAEDALUS mandated-set + --all tree sweep; the FLEET per-desk tool is scripts/read_cap_check.py --agent/--fleet)
 """
 import os
 import sys
 
-READ_CAP_TOKENS = 25_000      # OBSERVED from a live truncation message, 2026-08-23
-BYTES_PER_TOKEN = 2.17        # MEASURED, provenance (A) above -- re-measure on any truncation
-TARGET_UTILISATION = 0.60     # headroom for ratio error + intra-session growth
-WARN_UTILISATION = 0.50
-
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.normpath(os.path.join(HERE, ".."))
+REPO = os.path.normpath(os.path.join(ROOT, "..", ".."))
+
+# CONSTANTS ARE OWNED BY THE SHARED FLEET TOOL (scripts/read_cap_check.py, P1 Will-approved
+# 2026-08-28). Imported, never restated — two copies of 25,000 / 2.17 / 0.60 is the PAT-006 drift
+# this very file exists to catch. Import failure is rc 2, never a silent local fallback (PAT-106).
+sys.path.insert(0, os.path.join(REPO, "scripts"))
+try:
+    from read_cap_check import READ_CAP_TOKENS, BYTES_PER_TOKEN, TARGET_UTILISATION  # noqa: E402
+except Exception as _e:  # pragma: no cover
+    print(f"read-cap check: CANNOT-CERTIFY — shared constants unimportable from scripts/read_cap_check.py ({_e})")
+    sys.exit(2)
+WARN_UTILISATION = 0.50
 
 # THE MANDATED-READ SET. Must track DAEDALUS CLAUDE.md SPAWN PROTOCOL steps 1-4 plus the
 # always-loaded charter. ⚠️ THIS LIST IS ITSELF A REGISTER AND REGISTERS GO INCOMPLETE:

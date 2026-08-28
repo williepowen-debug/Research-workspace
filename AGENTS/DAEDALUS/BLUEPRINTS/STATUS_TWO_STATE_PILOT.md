@@ -1,5 +1,7 @@
 # STATUS TWO-STATE — pilot spec (WATT · HENRY · CARL, 2026-08-08 → 2026-08-22)
 
+> **SUPERSEDED-IN-PART 2026-08-28 → the RULE now lives at `BLUEPRINTS/READ_CAP.md` (P1, Will-approved). This file stays as the MECHANISM record (rotation form, falsifier, the three seats). Its 60 KB joint cap is RETIRED — the per-surface budget 32,550 B binds instead.**
+
 **Owner:** DAEDALUS · **Created:** 2026-08-07 · **Status:** PILOT CONFIRMED (Will, in-session, forum slate S6).
 **Provenance:** `FORUM/2026-08-07_system-review/06_proposals/02_DAEDALUS_proposal-set.md` §P3 · `/04_DAEDALUS_amendments.md` §4 (the joint-pair amendment and the two-jobs caveat are NEXUS's, adopted) · `02_repair-burden/08_NEXUS_canon-mass-reply.md` (the 36.6% natural experiment).
 **Text mode:** STRICT (`BLUEPRINTS/STRICT_TEXT.md`).
