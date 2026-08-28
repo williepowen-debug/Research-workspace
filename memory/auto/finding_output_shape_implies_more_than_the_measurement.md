@@ -41,3 +41,23 @@ Related: [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]] · 
 **Fix shipped 2026-08-20 same day (DAEDALUS — instrument owner):** `ledger_staleness.py --nudge` output shape v2 — every behind-ledger enumerated count-first (no more `+N` footnote), and a ledger can declare `Cadence: EVENT-DRIVEN` in its header (STATE_VOCABULARY Class 8) to report under a distinct label keyed to its re-pull clock (declaration without a parseable `Last re-pull ATTEMPTED:` line = rc 2). Nudge mode only; the `--days` scan still flags WARRISK by owner design. The two nudge INSTANCE rows above are fixed; the CLASS this memory carries stays live — design-side register: DAEDALUS PAT-116.
 
 **Fix shipped 2026-08-20 same day (DAEDALUS — instrument owner):** `ledger_staleness.py --nudge` output shape v2 — every behind-ledger enumerated count-first (no more `+N` footnote), and a ledger can declare `Cadence: EVENT-DRIVEN` in its header (STATE_VOCABULARY Class 8) to report under a distinct label keyed to its re-pull clock (declaration without a parseable `Last re-pull ATTEMPTED:` line = rc 2). Nudge mode only; the `--days` scan still flags WARRISK by owner design. The two nudge INSTANCE rows above are fixed; the CLASS this memory carries stays live — design-side register: DAEDALUS PAT-116.
+
+
+**★ EXTENSION 2026-08-28 — WHY this class has no failing test: a timing asymmetry, and it is the reason the documented denominator rules keep getting violated by desks that know them.** *(LABOR data, WALTER synthesis, cross-verified both directions.)*
+
+This file already says the failure is *"worse than a wrong number: it has no failing test."* **Here is the mechanism, and it is about WHEN each kind of error is catchable, not about care.**
+
+**Two defects from one desk in one afternoon, audited side by side:**
+
+- **Arithmetic defect.** LABOR computed a preliminary benchmark revision as *"9.1% of last year's −911K."* It is **8.67%**. **Caught mid-reasoning. Never reached a file** — verified by grep, and the negative independently reproduced by a second desk.
+- **Referent defect.** LABOR published *"private −178K is **more than twice** the headline −79K."* **2.25× — the arithmetic is exactly right.** But it compares a **component to a net**, and the relation is *arithmetically guaranteed* the moment government moves the other way (+99K). It survived review and shipped.
+
+🔑 **The asymmetry: an arithmetic error is catchable while you are still holding the numbers, because the numbers are still wrong. A referent error is only POSSIBLE once the numbers are correct — so by the time it exists, every check that inspects values passes.** ⇒ **These are not two severities of one problem. They are two instruments, and running the first one harder never finds the second.**
+
+**Same-day confirmation from the other desk, different domain, identical axis:** WALTER published *"29 of 39 STATUS exceed 25,600 B"* — **correct count, correct arithmetic, against a constant that governs `MEMORY.md` auto-load and does not bind a STATUS file at all.** Binding recount: **20 of 39.** ⇒ **LABOR's verb quantified over the wrong POPULATION; WALTER's over the wrong FILE CLASS. Both counts correct. Both answering a question nobody asked.**
+
+**Runnable form (WALTER's, and it is better than "check the denominator" because it names the step people skip):** **say the claim's VERB out loud, then name what that verb quantifies over.** *"Exceeds the cap"* — which cap binds this file class? *"More than twice"* — twice **what population**, and is the relation forced by an identity? *(A component-vs-net comparison is always "large" when the components offset; that is arithmetic, not a finding.)*
+
+⚠️ **Disclosure is a partial defence, not a fix.** LABOR's referent claim was survivable only because the **−0.1% private figure and the +99K government offset rode in the same sentence**, giving the reader what they needed to not be misled. **A number this class survives on is one edit away from travelling alone** — the shape of `[[finding_rederived_signal_loses_the_senders_caveats]]`.
+
+Related: [[finding_verified_figures_do_not_verify_the_shape_claim]] · [[finding_cross_entity_comparison_needs_same_perimeter]] · [[finding_loadbearing_number_must_be_reproducible]]
