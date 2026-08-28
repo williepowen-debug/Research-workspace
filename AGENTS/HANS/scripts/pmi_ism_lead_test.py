@@ -172,6 +172,33 @@ def main():
                 print("     => CONTRADICTS the claim.")
             else:
                 print("     => no material difference across the lead horizons.")
+    # ── SHIP GATE — charter Rule #2. Imported and EXECUTED here, where the finding is
+    # produced, not remembered as a checklist step. Added 2026-08-28 after review found
+    # the rule existed and this script — the very one whose finding was retracted — did
+    # not call it. [[finding_a_ruling_governs_the_next_write_not_the_existing_state]]
+    try:
+        from finding_check import gate
+        def _gap(keys):
+            sub = {k: v for k, v in inten.items() if k in keys}
+            if len(sub) < 60: return None
+            vv = sorted(sub.values()); h = vv[int(len(vv)*2/3)]; l = vv[int(len(vv)/3)]
+            cp = {k for k in sub if sub[k] >= h}; dm = {k for k in sub if sub[k] <= l}
+            gs = []
+            for lg in (2, 3, 4, 5, 6):
+                sh2 = shift(dconf, lg)
+                x, _ = corr({k: v for k, v in sh2.items() if k in cp}, us)
+                y, _ = corr({k: v for k, v in sh2.items() if k in dm}, us)
+                if x is not None and y is not None: gs.append(y - x)
+            return sum(gs)/len(gs) if gs else None
+        shipped = gate(claim="capex-led German moves are a weaker lead on US manufacturing",
+                       about="lag", varied="lag", stat=_gap, keys=set(inten),
+                       label="mean (demand-capex) r-gap, lags 2-6mo")
+        if not shipped:
+            print(" ⛔ SHIP GATE FAILED — this finding is a HYPOTHESIS, not an established result.")
+            print("    That verdict is CORRECT: this finding was retracted on 2026-08-28.")
+    except ImportError:
+        print(" ⚠️  finding_check not importable — ship gate NOT run. Do not treat this as verified.")
+
     print("\n ⚠️  LIMITS — read these before quoting any number above:")
     print("   1. AUTOCORRELATION IS THE BIG ONE. These are YoY series on overlapping 12-month")
     print("      windows. n~100 monthly observations is NOT ~100 independent ones — effective df")

@@ -22,6 +22,16 @@ Sections, most-actionable first:
   [6] LEDGER STALENESS   — live VX rows only (FROZEN/RETIRED excluded by design)
   [7] KB EXPIRY          — facts past their own Stale_By. This is what Stale_By is FOR.
 
+EXIT CODES (added 2026-08-28 after review: this script previously ALWAYS exited 0
+while the charter claimed boot "enforces" expiry. Diagnostic dressed as enforcement.)
+  0  CLEAN     — nothing needs attention
+  1  ATTENTION — stale live vectors, expired KB facts, or failed pulls. NOT blocking:
+                 a boot report should inform a session, not refuse to start one.
+  2  BLOCKING  — an INTEGRITY failure, not a freshness one. Currently one condition:
+                 a live pull shows a threshold BREACHED with no corresponding OPEN
+                 row in the fire ledger, i.e. registry and ledger disagree about
+                 reality. That is the state where acting on the board is unsafe.
+
 MUST run with the repo venv (yfinance is not in system python3):
   .venv/bin/python AGENTS/HANS/scripts/boot.py
 """
@@ -96,6 +106,9 @@ def _age(d):
 
 
 def main():
+    rc = 0            # 0 clean · 1 attention · 2 blocking (see module docstring)
+    breached = []     # thresholds the live pull shows breached, for the §3 integrity check
+    pull_fails = 0
     print(f"\n{'='*74}\n HANS BOOT — {date.today()}\n{'='*74}")
 
     # [1] live pull
@@ -112,9 +125,12 @@ def main():
                 if px is None: raise ValueError("no lastPrice")
                 em, txt = band(float(px))
                 print(f"  {em} {label:<28} {float(px):>10,.2f}   {txt}")
+                if em in ("🔴", "🟠") and "HANS-T-" in txt:
+                    breached.append(txt.split("[")[-1].rstrip("]").strip())
             except Exception as e:
                 # a failed pull is REPORTED, never silently skipped
                 print(f"  ⚠️  {label:<28} {'PULL FAILED':>10}   {sym}: {str(e)[:38]}")
+                pull_fails += 1
 
     # [2] European primary pull — ECB Data Portal (keyless) + AGSI+
     print("\n[2] EUROPEAN PRIMARY PULL")
@@ -140,6 +156,14 @@ def main():
     scan = [t for t in th if "SCANNABLE-DAILY" in t.get("scannable", "")]
     unre = [t for t in th if "UNINSTRUMENTED" in t.get("scannable", "")]
     print(f"  {len(scan)} of {len(th)} rows are daily-scannable · {len(unre)} UNINSTRUMENTED (cannot fire — excluded from any clean-board count)")
+    # INTEGRITY CHECK — the only blocking condition. Registry vs ledger disagreement.
+    open_ids = {f["threshold_id"] for f in openf}
+    orphan = [t for t in breached if t not in open_ids]
+    if orphan:
+        rc = 2
+        print(f"  🔴 BLOCKING — live pull shows {orphan} BREACHED with no OPEN fire row.")
+        print("     Registry and fire ledger disagree about reality. Log the fire or correct the band")
+        print("     BEFORE acting on this board.")
 
     # [4] key-figure age
     print("\n[4] KEY-FIGURE AGE")
@@ -181,6 +205,7 @@ def main():
     if not stale:
         print(f"  🟢 no live vector older than {STALE_DAYS}d")
     else:
+        rc = max(rc, 1)
         print(f"  🔴 {len(stale)} live vector(s) over {STALE_DAYS}d:")
         for vid, nm, a in sorted(stale, key=lambda x: -(x[2] if x[2] is not None else 9999))[:12]:
             print(f"     {vid:<15} {nm:<38} {str(a)+chr(100) if a is not None else 'no date'}")
@@ -199,14 +224,28 @@ def main():
     noexp = [k["ID"] for k in live_kb if not k.get("Stale_By", "").strip()]
     print(f"  {len(live_kb)} live fact(s) · {len(live_kb)-len(noexp)} carry an expiry")
     if expired:
+        rc = max(rc, 1)
         print(f"  🔴 {len(expired)} EXPIRED — re-verify or supersede:")
         for i, g, f, a in sorted(expired, key=lambda x: -x[3]):
             print(f"     {i:<14} {g:<12} +{a}d  {f}")
     else:
         print("  🟢 no live fact is past its Stale_By")
-    if noexp:
-        print(f"  ⚠️  {len(noexp)} live fact(s) with NO Stale_By — they can never expire: {', '.join(noexp[:6])}")
+    # a setup/metadata row with no expiry is expected; only flag if it is NOT the seed row
+    real_noexp = [i for i in noexp if not i.endswith("-001")]
+    if real_noexp:
+        rc = max(rc, 1)
+        print(f"  ⚠️  {len(real_noexp)} live fact(s) with NO Stale_By — they can never expire: {', '.join(real_noexp[:6])}")
+    elif noexp:
+        print(f"  ·  {len(noexp)} seed/metadata row(s) without an expiry — expected, not flagged")
+    if pull_fails:
+        rc = max(rc, 1)
+        print(f"\n  ⚠️  {pull_fails} live pull(s) FAILED — the board is partially blind.")
+    verdict = {0: "🟢 CLEAN", 1: "🟡 ATTENTION", 2: "🔴 BLOCKING"}[rc]
+    print(f"\n  EXIT {rc} — {verdict}")
+    if rc == 1:
+        print("  (attention, not blocking: a boot report informs a session, it does not refuse to start one)")
     print()
+    return rc
 
 
 if __name__ == "__main__":
