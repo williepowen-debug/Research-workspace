@@ -43,3 +43,24 @@ Three retractions: the 7/27 auction leg (I published a label BOND had already co
 
 **STATUS:** third Class-A rotation + pointer merge ⇒ **248 lines / 77,984 B**. **Still ~144% of the read cap** — unchanged ask.
 **Commits (addendum):** `d4853cd60`. **Total this session: 7.** Still **NOT PUSHED** — you name the last touch.
+
+---
+
+## ADDENDUM 2 ~12:1x — R1 already done; WALTER 012–020 drained (7 signals); **four defects found by RUNNING my own instruments**
+
+**⚠️ R1 IS ALREADY COMPLETE — drop it from the final ping.** Boot step **`3e.` was inserted, run (rc=0), and committed at `5f8eee8fd`**; the DAEDALUS packet is in `inbox/processed/`. Single instance in the charter, no duplicate. *(DAEDALUS's `bfb2fcd83` already counts me — 31/37 = 83%.)*
+
+**Four findings, none reachable by reading:**
+
+| # | Class | Finding |
+|---|---|---|
+| **A** | 🎭 **PLAUSIBLE** | `consumer_check --from-ledger` prints ***"69 stale consumer reference(s). Send each owner a packet"*** — **ZERO are real.** 64/69 (93%) on bare ≤3-sig-fig values (`−3.6` alone = 49) that **canon 1c forbids packeting on**; the 5 "discriminating" 4-digit hits are all **one Japanese MOF flow table in ¥100mn**. The noise-demotion guard exists but **doesn't fire on 2-sig-fig values — the noisiest possible needles.** **Sent nothing.** → packet in `PROME/inbox/` (repo-root). ⚠️ Wired into my boot step (g) **and** fleet-mandatory at step 1c. |
+| **B** | 🔇 **QUIET** | `corrections_boot_check.py ZZZNOTANAGENT` returns **byte-identical `rc=0 OK`** — a typo'd token is indistinguishable from a clean pass, biting exactly where the **9/26 coverage checkpoint** is scored. My own rc=0 *is* true (6 rows, all NAMED, HENRY in none) — but that is **not evidence the check discriminates**, and I had written it into my charter implying verification. **Corrected.** → DAEDALUS (boot leg) + WALTER (schema; the *"unparseable date ⇒ rc=2 CANNOT-EVALUATE"* precedent already exists one field over). |
+| **C** | 🔇 **QUIET, self-inflicted** | Adding a guard header to `MARKET_DATA.tsv` **nearly broke `update_data.py`**: `get_latest_row()` took `lines[0]` as the header ⇒ zipped a 1-element header against a 12-element row, returning a **one-key dict, no error, rc=0**. **Proved the break before fixing**, made it comment-aware, **added a loud-fail on length mismatch, and falsified that branch too.** |
+| **D** | 🎭 **PLAUSIBLE, in my own words** | My ACTIVE THRESHOLDS row read *"7bp from my <260 **kill leg**"* — arithmetic right, **verb wrong**: the kill is a **CONJUNCTION**, so the HY leg's distance is **not the kill's distance.** My own triad row already warned this leg *"must not be quoted as a standalone kill"* — **and my threshold row was quoting it as one, two sections apart on one file.** Tightened; same edit refreshed its stale **267 [8/26] → 263 [8/27]**. |
+
+**The `-018` tail rule paid immediately:** I had read 012/013/015/019 **head-only** (45–60 of 66–89 lines) and **`-013`'s ASK to HENRY carried a second clause I never saw** — *"consider whether the ledger's capture-time policy needs a guard."* **Unaddressed until now.** Actioned: a **7-line CAPTURE-BASIS GUARD** on `MARKET_DATA.tsv` (G1 basis-at-the-cell · G2 foreign values name source **+ contract/series** · G3 disagreement is **routed**, not just recorded), with the **8/21 `n/a` marked the positive control — do not "fix" it.** **Standing change: read WALTER signals tail-first.**
+
+**`-017` clean negative, verified not assumed:** I published bare `python3` but ran `.venv/bin/python3`. Ran both published forms verbatim under `/usr/bin/python3` — rc=0, equivalent. **`-020` referent pass:** 7 figures, 6 clean — byte caps correctly against **54,250 B** (not the 25,600 B `MEMORY.md` cap — WALTER's own failure, avoided), Brent contract identity **verified** (BZ=F ≡ BZV26 every bar 8/19–8/27), *"21 of 21"* re-pulled and exact.
+
+**Inbox 12→0 across the session. STATUS 248 lines. Commits:** `391657a04`, `30b4c4eef` (**10 total**). Still **NOT PUSHED**.
