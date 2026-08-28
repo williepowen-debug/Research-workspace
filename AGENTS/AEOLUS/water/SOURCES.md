@@ -91,8 +91,33 @@ EOF
 ```
 ⚠️ **A base rate is only valid while the mechanism generating it still holds.** Mead's Aug→Sep *rise* is driven by Glen Canyon releases — and **2026 releases are at a 9-year low** (§3). **Check Lees Ferry before trusting Mead's seasonal pattern.**
 
+### 🔴 24-MONTH STUDY — registered 2026-08-27 as the PRIMARY C6 instrument (it was NOT in this file before)
+
+**This is the forward-looking instrument. The daily elevations above are the backward-looking one.** It is what moved AEO-10 and it prints monthly.
+
+```bash
+# The UC index lists every month. VERIFIED 2026-08-27.
+curl -sL "https://www.usbr.gov/uc/water/crsp/studies/index.html" | grep -oiE 'href="[^"]*24Month[^"]*"'
+# Current-month Lower Colorado copy (Mead + Powell in one file):
+curl -sL "https://www.usbr.gov/lc/region/g4000/24mo.pdf" -o 24mo.pdf
+```
+⚠️ **AUGUST 2026 IS SPLIT INTO TWO FILES AND EVERY OTHER MONTH IS ONE.** `24Month_08_6.pdf` (6 maf Powell release) and `24Month_08_7.pdf` (7 maf) — **scenarios keyed to the WY2027 release decision.** A scraper expecting one file per month silently misses a branch. *(Mead's path is identical in both through Apr-2027; they diverge from May-2027.)*
+⚠️ **`.../lc/region/g4000/24mo.pdf` served the JULY study on 2026-08-27, six days after the August one published.** **Check the document's own title line — never trust "current" in a URL.**
+
+**HOW TO READ IT — this is where I went wrong.** The elevation tables extract as a bare column of numbers with no month labels.
+1. **Anchor on a known ACTUAL** (e.g. Mead 2025-12-31 = 1062.24) and count outward; values are **end-of-month**.
+2. **VERIFY the mapping** against the daily CSV for ≥6 consecutive months before trusting any projected cell. *(I verified 12 months to the cent.)*
+3. 🔴 **READ THE PATH, NOT THE ENDPOINT.** A criterion saying *"at any point through 12/31"* is graded on the projected **MINIMUM over the window**. **Grading AEO-10 on the 31-December value overstated its buffer 2.4× for two weeks** (0.86 ft real vs 2.1 ft claimed) — **L-36**.
+4. The narrative pages carry the **release decision, the runoff forecast as % of average, and the operating tier** — often more decision-relevant than the tables.
+
+**Aug-2026 study, key figures (all verbatim/primary):** WY2026 Powell release cut **7.48 → 6.00 maf** · July unregulated inflow **9% of average** · **April–July 1.14 maf = 18% of average** · WY2026 forecast **37%** · *"Lake Powell's elevation is projected to decline below 3,510 feet during water year 2027"* · Mead **Dec-2026 projected 1,034.74 ft** (below the binding 1,035).
+
 ### Colorado Post-2026 Guidelines — the policy clock
 `https://www.usbr.gov/ColoradoRiverBasin/` · DOI newsroom · **Federal Register** (search *"Colorado River"* + *"Record of Decision"*) → milestones in `../CALENDAR.md`.
+
+⚠️ **ROD PATH — the one recorded earlier 404s.** ✅ Working, verified 2026-08-27:
+`https://www.usbr.gov/ColoradoRiverBasin/post2026/decision-doc/P26_RecordofDecision_Final.pdf` (1.17 MB → 136,430 chars via pdfminer). Same directory: `2027-2028OperatingGuidelines_Final.pdf`, `FutureColoradoOperations_Factsheet.pdf`, `P26_BiologicalOpinion_Final.pdf`. ❌ **`/ColoradoRiverBasin/documents/post2026/…` returns 404 — do not reconstruct it.**
+🔑 **The ROD adopts a PROCESS, not a numeric alternative.** Do not go looking for "the selected alternative" — that string does not appear. The binding numbers live in the **Operating Guidelines**, a separate PDF.
 
 ---
 
@@ -181,8 +206,37 @@ Returns `date | time | level | Δ | — | previous`. **Trailing-year distributio
 ⚠️ **One year is a SHORT base.** The 2021 crisis went far lower — reporting has Rosario near **0.08 m** in May 2020 and 2021 as the lowest since **1944**, with basin discharge ~6,200 m³/s against a ~17,000 normal and a 1944 record of ~5,800. **A trailing-year percentile is a rank within a benign year, not a historic reference.**
 🔴 **CORRECTION to my own read from earlier today: 3.02 m is NOT "mid-range" — it is the 99th percentile of the trailing year** (max 3.03, median 2.14). **The Paraná is near the TOP of its recent range, not the middle.** I characterised it as mid-range before pulling the distribution; **the distribution is what made the read possible, and it reversed the adjective.** **This channel is not firing, and it is not close to firing.**
 
-### Mississippi / Ohio
-USACE Rivergages + NWS AHPS + USGS NWIS (§3). ⚠️ **Autumn (Sep–Nov) is the window** — an August "normal" is not evidence of a benign season. I retracted a "firing" read on 7/22 for exactly this.
+### ✅ MISSISSIPPI — INSTRUMENT GAP CLOSED 2026-08-27 (NOAA NWPS API — the issuing agency)
+
+🔴 **This band stood with NO METRIC SURFACE AT ALL — a registered threshold under a standing Will directive, graded on an aggregator's word "~normal".** Closed with **~3 weeks to spare** before the Sep–Nov low-water window.
+
+```bash
+# Memphis — live stage + the published low-water reference. VERIFIED 2026-08-27 (HTTP 200).
+curl -s "https://api.water.noaa.gov/nwps/v1/gauges/MEMT1" | python3 -c "
+import json,sys; d=json.load(sys.stdin)
+print(d['name'], d['status']['observed']['primary'], d['status']['observed']['primaryUnit'], d['status']['observed']['validTime'])
+print('lowThreshold:', d['lowThreshold'])
+for r in d['flood']['lowWaters']['historic'][:6]: print(' ', r['occurredTime'][:10], r['stage'], r.get('statement',''))
+"
+```
+⚠️ **PIPE IT — never fetch this endpoint raw.** The full JSON is enormous (every historic crest + every flood-impact statement) and will bury a session's context. Ask for the four fields you need.
+
+**Live read 2026-08-27: 12.47 ft @ 2026-08-28T01:00Z. `lowThreshold` = −8 ft. Margin +20.47 ft — NOT STRESSED.**
+
+🔑 **THE `lowThreshold` IS NOT THE RECORD LOW — do not grade a crisis against it.** The same response carries `flood.lowWaters.historic`, which is the far better instrument because it dates the **actual disruption events**:
+
+| Date | Stage | Note |
+|---|---|---|
+| **2023-10-17** | **−12.06 ft** | the deepest in the series |
+| **2022-10-21** | **−10.81 ft** | the other recent barge-disruption autumn |
+| 1988-07-10 | −10.70 ft | ⚠️ labelled *"LOWEST STAGE ON RECORD"* — **and two later readings are lower.** NOAA's own statement is stale; **never quote that label** |
+| 2012-09-19 | −9.80 ft | |
+
+⇒ **Key the C5 band to the 2022/2023 analogues (≈ −10.8 / −12.1 ft), not to −8 ft.** Those two autumns are when Mississippi barge freight actually repriced into grain logistics — the C5 → goods-CPI path. **A −8 ft reading is a watch, not an event.**
+
+⚠️ **PARTIAL CLOSURE — say so rather than implying full coverage.** **Only Memphis is referenced.** **St. Louis** (USGS `07010000`) returns stage — falling fast, **8.15 → 4.27 ft in 4 days to 8/27** — but **no reference plane was found, so carry that level with NO adjective attached.** **Vicksburg and Cairo AHPS IDs are unresolved** (guessed VICM6/VKBM6/VIKM6, CAIA2/CACT1 all 404; the AHPS `usgsId=` filter did not work as expected). USACE Rivergages + USGS NWIS (§3) remain the fallback routes.
+
+⚠️ **Autumn (Sep–Nov) is the window** — an August "normal" is not evidence of a benign season. I retracted a "firing" read on 7/22 for exactly this.
 
 ### 🔴 Panama — INSTRUMENT GAP CLOSED 2026-08-13
 
@@ -206,7 +260,24 @@ By class: 6.37 (<91′ beam) · 22.07 (91-107′) · 10.27 (Neopanamax). Booking
 ⚠️ **Read TRANSITS (38.70), not ARRIVALS (40.5).** They sit adjacent in the same block and my threshold is on transits.
 ✅ **This also anchors the "~36 normal" in my threshold table, which had no provenance.** April 2026 actual = **38.70/day**.
 
-### 🔴 GATUN LAKE ELEVATION — the physical driver, and it is UNRESOLVED (opened 2026-08-21, Will-prompted)
+### ✅ GATUN LAKE ELEVATION — GAP CLOSED 2026-08-27, and I had declared it unreachable
+
+```bash
+# ACP's own daily series, 1965-01-01 → present. VERIFIED 2026-08-27 (HTTP 200, 405,357 B).
+curl -s "https://evtms-rpts.pancanal.com/eng/h2o/Download_Gatun_Lake_Water_Level_History.csv" -o gatun.csv
+head -1 gatun.csv; tail -3 gatun.csv     # header: DATE_LOG,GATUN_LAKE_LEVEL(FEET)
+```
+**Live read: 83.80 ft (2026-08-26)**; 83.86 (8/24) → 83.84 (8/25) → 83.80 (8/26). Series opens 1965-01-01 at 86.49 ft. **Consistent with the sole prior anchor** (85.02 ft, A-27-2024, 2024-08-09) — **1.22 ft below it** — and inside the 82–87 ft normal operating range.
+
+🔴 **HOW I GOT THIS WRONG FOR SIX DAYS — the lesson is bigger than the source (L-35).** On 8/21 I wrote *"NOT PUBLISHED ANYWHERE I can reach"*, declared the gap, refused to substitute a secondary (correct), and filed it in `SCRATCH.md` under **"WHAT IS AND IS NOT MEASURABLE — settled, do not re-hunt."** **The Tableau dashboard was blocked; the DATA never was**, and a plain CSV sits on ACP's own site navigation. **A negative finding written with the confidence of a positive one suppresses the retry that would overturn it.**
+⇒ **Rule: a declared data gap must name what was tried AND carry a retry path. Never write "do not re-hunt." Distinguish RENDERING failure from PUBLICATION absence — a broken chart is evidence about the chart.**
+
+⚠️ **TWO ACP PRIMARIES DISAGREE — unreconciled, and this is live.** ACP also publishes a forward **projection** CSV tying lake level to draft steps, and its modelled step dates (**~9/12, ~10/9**) **do not match Advisory A-29-2026's official dates (9/02, 10/01)**. **Cite the ADVISORY for dates.** The projection is a planning artifact, not the schedule.
+🔑 **A lake-elevation band is NOT yet registered — deliberately.** Base-rate it against the 61-year series **before** setting levels; the 2023-24 drought is in that series and is the analogue to beat. *(`finding_base_rate_the_threshold_before_building_it` — the same discipline that deferred the slot-utilisation band.)*
+
+---
+
+### ⬇️ SUPERSEDED — the 8/21 "UNRESOLVED" entry, kept because the failure is the lesson (opened 2026-08-21, Will-prompted)
 
 **My Panama band measures TRANSITS. Will asked about WATER HEIGHT. I have no lake-level data at all**, and the transit instrument is **structurally blind** to a draft-only restriction — **ACP states plainly: *"The draft adjustment will not affect the number of daily vessel transits."*** The issuer is deliberately holding constant the exact variable my threshold reads.
 

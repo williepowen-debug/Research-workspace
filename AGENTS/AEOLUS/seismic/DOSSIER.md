@@ -2,7 +2,34 @@
 
 **First read: 2026-08-13** (folder created same day). **Status: 🟡 event-triggered watch — no trigger currently fired.**
 
-> **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
+> **Last real data refresh: 2026-08-27**  ·  **Source + trigger audit run 2026-08-27**
+
+---
+
+## 🔴 AUDIT 2026-08-27 — sources verified, and TWO M7+ EVENTS WERE SITTING UNASSESSED
+
+**Audited the way the charter says to — by checking the triggers and sources still RESOLVE, never by entry count.**
+
+**All three sources return HTTP 200** (USGS significant_month.geojson · USGS volcanoApi/elevated · GVP WeeklyVolcanoRSS). **The instruments are sound.**
+
+⚠️ **But the feed carried 13 significant events in 30 days, including two M7+ that this folder had never graded:**
+
+| Date | Event | PAGER | S-2 verdict |
+|---|---|---|---|
+| **2026-08-14** | **M7.7** — 68 km NNW of Ende, **Indonesia** | YELLOW | **NOT FIRED** — low insured density, limited-impact alert, 51 felt reports, no tsunami, no insured-loss estimate located |
+| **2026-08-10** | **M7.4** — San José del Palmar, **Colombia** | 🔴 **RED** | **NOT FIRED** — but on stated grounds, not asserted ones |
+
+🔑 **The Colombia grading is the one that needed doing properly.** A **RED** PAGER alert is USGS's highest impact level, and the 8/13 dossier disposed of it in half a clause (*"both M7+ events in low-insured-density areas"*). **PAGER RED estimates FATALITIES and TOTAL ECONOMIC loss — not INSURED loss.** Colombian insurance penetration is ~2–3% of GDP, so a red economic alert does **not** imply the **>$10B insured** figure S-2 requires. **PERIL AND LOSS ARE DIFFERENT INSTRUMENTS** — the same discipline `hurricane/` and `wildfire/` carry, applied here. **If a credible insured-loss figure surfaces → REGINALD.**
+
+🔴 **AND THE M7.7 IS THE REAL FINDING: it occurred ONE DAY AFTER the 8/13 dossier and went unassessed for 13 days.**
+**`seismic/` is exempt from the #1 guard's *standing-live-read* obligation — that exemption is correct and I am not proposing to change it.** But **the exemption is from maintaining a standing read, NOT from grading a trigger-relevant event when one occurs.** Nothing in my boot sequence distinguishes those two things, so a folder whose *quiet* is expected also stays quiet when it should not be.
+⇒ **Rule adopted: the seismic source audit runs whenever the folder is touched, and its FIRST question is "did any qualifying event occur since the last audit?" — not "is the dossier stale?"** Entry count still proves nothing; **an ungraded M7+ does.**
+
+**S-1 · S-3 · S-4 · S-5: unchanged, NOT FIRED** (no VEI 5+ / stratospheric SO₂; no >48 h aviation closure; no named energy asset; Great Sitkin still WATCH/ORANGE at *High* not *Very High* threat).
+
+---
+
+> *(superseded header) **Last real data refresh: 2026-08-13**  ·  **Dossier written: 2026-08-13**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `seismic/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1 · C2 · C3 · C4 (on trigger only)

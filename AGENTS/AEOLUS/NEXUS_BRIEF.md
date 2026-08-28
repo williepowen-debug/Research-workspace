@@ -2,7 +2,8 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-08-27 ~22:2x ET — folded as the session's LAST write-back, after the final STATUS write and immediately before commit (Amendment 10 ordering).** Supersedes the 8/21 fold entirely.
+**Last writeback: 2026-08-27 ~23:0x ET — RE-FOLDED after a post-closeout sweep, and re-folded LAST again (Amendment 10 ordering).** Supersedes the 8/21 fold entirely.
+⚠️ **Re-folded rather than left standing, because the sweep produced real work after the first fold** — three defects, four KB rows, and corrections to my charter and two `SOURCES.md`. **A brief that refreshed and then kept working is the fleet's dominant content-stale mechanism; the ordering constraint is the only thing that closes it.**
 **WAITING-FOR:** **8/31 Mead month-end** vs the August study's 1,040.04 · **9/01 NIFC outlook** (AEO-09) · **9/01 Panama slots →32/day** · **9/02 CSU two-week** · **9/02 Panama draft →48.0 ft** · **9/10 CPC ENSO + ONI print** · **~9/15 September 24-Month Study** · **10/01 the 2027-28 Colorado Operating Guidelines take effect.**
 
 ---
@@ -31,6 +32,24 @@ It is published as **two scenarios** keyed to the WY2027 Powell release (6 / 7 m
 **3. A one-time successful pull is indistinguishable from a durable instrument, because every audit counts sources instead of re-executing them.** My C2 crop-condition read is sourced to a NASS path I labelled *"first primary read of this metric"* six days ago. **It returns 404 today**, no sibling path resolves, and no `SOURCES.md` in my tree carries a NASS command. **The three bands I already had on my untrippable table never had a surface; this one HAD one and cannot be re-run — a worse shape, and invisible to a source-counting audit.** *(L-37: an instrument is not verified until re-executed on a LATER DAY than the one it was written on.)*
 
 **4. Recompute the to-date normal every pass — a stale denominator inverts the read.** Atlantic **ACE 3.4575 = 12.94%** of the *freshly computed* to-date normal **26.72**. On 8/21 it read 16.3% against 18.98. **A storm formed in the gap (TS Dolly, 8/27) and the ratio got WORSE**, because the climatological normal ramps ~7.7 ACE units in six peak-season days while 2026 added 0.37. **Reusing 18.98 would have shown improvement.** Second consecutive session where a stale denominator would have flipped the sign.
+
+---
+
+## 🔴 A FIFTH FLEET-GENERAL FINDING — and it is the one I would most want other desks to read
+
+**I closed out, committed, pushed and reported. Then the operator asked "what else needs updating?" — and the answer was three live defects, every one of which had passed clean through every check I own.**
+
+| Defect | Why no check saw it |
+|---|---|
+| **My charter carried a RETIRED gate definition** — the C5 →5 trigger read *"10 consecutive days"*, superseded 8/21 by *"3 most recent complete days"* — **while STATUS carried the live one.** The charter is the file that **AUTO-LOADS AT BOOT**, so the dead rule was the one a session would actually read | A superseded **definition** is not a number, not a date, and not a missing row. `consumer_check` hunts stale **values**; nothing compares two files for **agreement** |
+| **Two gaps I published as CLOSED had NEITHER command recorded** in `water/SOURCES.md` — the file whose entire job is *"verified working pull commands, copy-paste, never reconstruct"* — an hour after I announced both in STATUS, this brief, and a packet | The closure was real in the **synthesis** layer and absent from the **instrument** layer. A worker writes its DOSSIER/SERIES/LOG because `AGENT.md` disciplines it to; **`SOURCES.md` is the orchestrator's file and nothing disciplines the orchestrator** — the identical shape as the gap that produced `domain_log_check` |
+| **A M7.7 sat unassessed for 13 days** in `seismic/`, landing one day *after* the last read; a **M7.4 with a RED PAGER alert** was disposed of in half a clause | `seismic/` is **correctly exempt** from the standing-live-read guard. **But the exemption is from maintaining a READ, not from grading an EVENT — and nothing in my boot sequence distinguishes those.** A folder whose quiet is *expected* also stays quiet when it should not be |
+
+> **The generalisation, and it is not about my scripts specifically: guards test FRESHNESS, ARITHMETIC, LOGGING and CLAIMS. None of them tests whether two files still AGREE, whether a claimed instrument was written down, or whether an exempt surface had something to say.** All four of mine passed clean while all three defects were live.
+> ⚠️ **The sharpest version: an agent's own charter is the least-audited file it owns, and the most-read.** Everything else has a staleness signal — a date, a value, a row count. **A rule's text has none, and it is what governs.**
+> **If your desk carries registered thresholds in both a charter and a state file, diff them.** I found a 6-day fork on the first look.
+
+⚠️ **Second-order, and I am flagging it against myself:** I wrote **L-37** this session (*"an instrument is not verified until re-executed on a later day"*) and then, **in the same session**, declared two instruments closed without recording either command. **A lesson written is not a lesson applied.** Both commands were re-executed before being written down on the second pass.
 
 ---
 

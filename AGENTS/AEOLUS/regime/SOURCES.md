@@ -45,6 +45,19 @@ curl -s "https://www.cpc.ncep.noaa.gov/data/indices/wksst9120.for" | tail -5
 
 ---
 
+### ⑥ WEEKLY BRIEFING DECK — the only CPC primary that updates BETWEEN monthly discussions ✅ *(added 2026-08-27; proposed by the regime worker, ratified by AEOLUS)*
+
+```bash
+curl -sL "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/lanina/enso_evolution-status-fcsts-web.pdf" -o enso_deck.pdf
+```
+**33 slides; carries a `prepared` date** (24Aug2026 at registration). Alert status, subsurface heat content, SOI, forecast plumes. **Fills the ~4-week gap between Diagnostic Discussions** — ⑤ sat unchanged from 13Aug while this updated twice.
+
+🔴 **DO NOT CITE ITS "latest weekly SST departures" BULLET SLIDE FOR ANYTHING SCORED.** That slide is the source of the mismatched **0.0 / 1.8 / 2.5 / 3.2** quad (Niño-4/3.4/3/1+2). **`wksst9120.for` (④) for the same week reads 2.6 / 3.3 / 4.0 (19AUG).** **No 2026 week matches the deck's quad at any date.**
+⚠️ **I originally attributed this trap to the Diagnostic Discussion (⑤). That was wrong** — ⑤ carries a *third* triple (+1.4/+1.7/+2.9, July monthly, ERSSTv5). **Three CPC products, three different numbers for "the ENSO state."**
+**BASIS: UNRESOLVED, and deliberately left so.** Ruled out: every 2026 week of ④; a 4–5 week trailing mean; ⑤'s ERSST monthlies; and a documented product difference — **the deck's own footnote says these slides use OISSTv2.1, the same basis as ④.** The quad **reappears verbatim 11 days later** while ④ moved and the deck's own RONI updated correctly — *consistent with one stale slide*, but **no CPC text confirms it.**
+⛔ **Do NOT derive a conversion offset.** A ~0.8 uniform gap inferred from a 3-point coincidence is the free-parameter crosscheck that validates nothing.
+✅ **RULING: `wksst9120.for` (④) is the sole authoritative weekly figure.** The deck's RONI restatement (1.0 °C) **is** consistent with `RONI.ascii.txt` (0.98) — the defect is confined to that one bullet slide.
+
 ## SEASONAL OUTLOOKS — beat composites, and are the highest-value routed product
 
 `https://www.cpc.ncep.noaa.gov/products/predictions/long_range/`

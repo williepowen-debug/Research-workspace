@@ -31,6 +31,23 @@
 4. 🔴 **Register a durable NASS command** (or get a QuickStats key). **C2 is currently scored on a read I cannot refresh** — see the gap note below.
 5. **C5 →5 base-rate obligation — 34 days left, hard deadline 9/30.** Multi-year WSV series, then **re-price or retire N=3**. Unchanged and still open.
 
+### 🔴 POST-CLOSEOUT SWEEP (Will asked "what else needs updating?" AFTER I had closed out) — it found three defects, and that is the finding
+
+**I had already committed, pushed and reported. The sweep found three things, none of which any check of mine would have caught.**
+
+1. **🔴 `CLAUDE.md` carried the RETIRED C5 trigger** — *"10 consecutive days"* — while STATUS carried the live *"3 most recent complete days."* **The charter is the file that AUTO-LOADS at boot, so the dead rule was the one a session would actually read.** Fixed. **KB-093.**
+2. **🔴 `water/SOURCES.md` had NEITHER newly-closed instrument** — no Mississippi, no Gatun — an hour after I published both as CLOSED in three places. **Also missing: the 24-Month Study itself**, the instrument that moved AEO-10. All now recorded, **both commands re-executed before writing them down.** **KB-094.** *(This is L-37 recurring inside the session that wrote L-37.)*
+3. **🔴 A M7.7 (Ende, Indonesia, 8/14) sat unassessed for 13 days** — it landed one day *after* the last seismic read — and a **M7.4 Colombia (8/10) carried a RED PAGER alert** disposed of in half a clause. Both graded properly; **S-2 NOT FIRED on stated grounds** (PAGER RED = fatalities + total economic loss, **not insured** loss). **KB-095.**
+
+> 🔑 **WHAT THE THREE SHARE — carry this forward: every one is a surface no check reads.** My guards test **freshness** (`ledger_staleness`), **arithmetic** (`consumer_check`), **logging** (`domain_log_check`) and **weekday claims** (`claim_check`). **None tests whether two files still AGREE, whether a claimed instrument was written down, or whether an exempt folder had something to say.** ⚠️ **And all four passed clean at closeout while all three defects were live.** A file is only as current as the last thing that forced someone to open it — **and "what else needs updating?" was that thing, not any script.**
+
+### 🔧 REGISTERED, NOT BUILT (2 items — both deliberately deferred, both small)
+- **Extend `domain_log_check`** to flag a session that publishes a gap as **CLOSED** without a same-session `SOURCES.md` edit. Directly targets defect #2.
+- **Generate the STATUS byte figure** instead of typing it. **That header line has now been wrong TWICE in one session** (once by 1,011 B, then stale within the hour), and an exact self-referential count **cannot converge** — writing it changes the length. Fold into the same script as the `total == sum(rows)` conservation check registered on 8/21.
+
+### ✅ ALSO UPDATED IN THE SWEEP
+**`TRADE.md`** — added a **C6 row**; my most escalated channel had **no trade expression at all**. Conviction **1, NOT armed**, with the blockers stated: I have **no instrument for who is short the power** (Hoover is contracted through Boulder Canyon allotments, not merchant — it may reprice a *contract*, not a *ticker*; **asked WATT, unanswered**). **`OPEN_THREADS_2026-07-09.md`** — marked **CONSUMED** with all 7 items dispositioned; its one live item (**no mid-cycle reinsurance repricing instrument** — and **AEO-03 resolves on Jan'27 ROL with nothing in between**) folded out to the untrippable-bands table as its **5th** entry. **Archive scheduled 9/07.**
+
 ### ✅ CLOSED THIS SESSION — two long-standing gaps, and one of them I had declared unreachable
 
 - **MISSISSIPPI/OHIO — the highest-value gap on the board, closed 5 days before its autumn window opens.** `curl -s "https://api.water.noaa.gov/nwps/v1/gauges/MEMT1"` returns live stage **and a published `lowThreshold`**. Memphis **12.47 ft (8/27)** vs a **−8 ft** threshold = **+20.47 ft. NOT stressed.** ⚠️ St. Louis has stage (falling fast, 8.15 → 4.27 ft in 4 days) but **no reference plane found — carry the level with no adjective.** Vicksburg/Cairo IDs unresolved.

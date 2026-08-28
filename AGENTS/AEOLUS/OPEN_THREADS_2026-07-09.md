@@ -1,5 +1,22 @@
 # AEOLUS — OPEN THREADS (2026-07-09)
 
+> ## ✅ CONSUMED 2026-08-27 — every item is resolved, superseded, or FOLDED OUT. Do not action from this file.
+> **`CLAUDE.md` §FILES says this artifact should be *"folded into STATUS/SCRATCH or archived once integrated."* It sat unactioned for 49 days.** Disposition of all seven items, so the fold is auditable rather than asserted:
+>
+> | Item | Disposition |
+> |---|---|
+> | Q1 ENSO weekly jump — noise or regime? | ✅ **RESOLVED — regime.** ONI +1.39 (MJJ), CPC >90% very-strong, 69% historic OND |
+> | Q2 C2/C4/C5 THESIS stage-tables 6/28 vintage | ⚠️ **PARTLY OPEN.** C6's table was rewritten 8/27; **C2/C4/C5 are still 6/28 vintage** → carried to STATUS OPEN/NEXT |
+> | Q3 Citizens FL count 395K vs CORAL 294,253 | ✅ **RESOLVED** — CORAL reconciled; FL is CORAL's, not imported here |
+> | Q4 CFSv2 +4.01 °C Nov tail | ✅ **RESOLVED** — downgraded to a warm-bias model's upper tail (KB-AEO-020) |
+> | Gap 1 — no season-to-date ACE tally | ✅ **CLOSED.** Computed every session from HURDAT2+ATCF against a **freshly recomputed to-date normal** |
+> | Gap 2 — C3 has no price-confirmation instrument | ⚠️ **STILL OPEN** — this is the CDD/HDD band on the untrippable table |
+> | Gap 3 — no mid-cycle reinsurance repricing instrument | 🔴 **STILL OPEN, and FOLDED OUT to STATUS's untrippable-bands table 8/27** — it had never been on it. ROL prints only at Jan/Jun renewals, and **AEO-03 resolves on Jan'27 ROL with no instrument in between** |
+>
+> **Retirement:** eligible under the >60-day rule on **2026-09-07**; `git mv` to `archive/` then. **Not archived today** — the rule is >60 days AND not boot-read AND not referenced by a live doc, and today it is 49. *(Recording the date so the retirement is a scheduled action rather than a thing I notice again in November.)*
+
+
+
 **Domain:** climate → economy. Grounded in tonight's STATUS/THESIS/KB refresh + self-sweep. No trade recs.
 
 ## 1. Open Questions (unresolved, matter now)
