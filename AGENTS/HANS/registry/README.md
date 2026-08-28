@@ -32,5 +32,13 @@ Following CREED's hard-won lesson (WALTER `CLAUDE.md` 6b): **only 5 of the 12 ro
 - **`T-09`/`T-10` are compound BY DESIGN.** Their spread legs alone read "all clear" through a +33bp common-mode Bund move to a 15-year high. Do not simplify them back to one number.
 - **`T-06` UK gilt: WALTER's limit binds — BOND takes anything TIME-CRITICAL on this row.** HANS is Tier 2 and was 43 days dark at the time the leg was assigned.
 
+## Counting fires — the rule, bought 2026-08-28
+
+**FOUR fires are OPEN across four thresholds: `T-05`, `T-07`, `T-08`, `T-02`.** (Five ledger entries; `F-002` is SUPERSEDED by `F-003`.)
+
+⚠️ **A caveat about a band's evidentiary WEIGHT is NOT a decision about whether its fire COUNTS. Never let one become the other.** On the day this registry was built its author said "three bands are currently fired" while the ledger recorded four — **`T-02` was silently dropped from the count because it carried a down-weighting caveat** (its band was written 8/28, after the condition was satisfied 8/21). The caveat was correct and it is still attached. The exclusion was not: the metric genuinely crossed a registered band, and the weakness lives in the band's *predictive claim*, not in the *fact of the crossing*. Caught by WALTER counting the file instead of taking the number — `[[finding_ledger_drift_behind_narrative]]`.
+
+**⇒ Two independent axes. Record both, never merge them:** *did it fire?* (binary, goes in the count) and *how much does this band's fire tell us?* (judgement, goes in the notes). **A quarantine flag must never be able to suppress a fire.**
+
 ## Backdated fires
 `HANS_T_FIRED_LOG.tsv` opens with **five entries, four of them backdated or retrospective**, because the levels were reached before the ledger existed — two of them while the desk was dark. They are logged as fires with the backdating stated in each row. **Starting the ledger clean today would have made the board look quiet on the day it was loudest.**

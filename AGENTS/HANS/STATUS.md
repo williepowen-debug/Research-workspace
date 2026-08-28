@@ -56,6 +56,8 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 
 **DEWEY's DR-4 (8/12) reconciled:** its storage read (59.32% on 8/11, 13.0pp below 2025) and its LNG-impairment finding (EU send-out −20.4% YoY at only 38.3% utilisation — **cargoes, not capacity**) both hold and are corroborated by my 8/28 pull. **Its projection has aged BETTER than stated**: DR-4 modelled 77–80% by peak; the current 5-day pace implies ~83%. I am carrying **80–83%**, not 90%. ⚠️ **DR-4's inverted-premise warning applies to me too** — my 7/16 file described TTF at €55 as the crisis; it is now €66 and **+109% YoY**. *Nothing in my tree said "European gas prices are falling," but the frame that produced my ladder is a €40-60 world and the market has left it.*
 
+📌 **Half a read, and the other half is frozen elsewhere — flagged by WALTER 2026-08-28.** My `T-07` (TTF L2, €66.19) and `T-08` (storage gap −18.2pp) fires are **dispatched**; WALTER is holding four staged oil/energy signals for BRENT and HAWK (incl. a Goldman Hormuz-flows item and a BofA US-crude days-of-supply chart at a **40–50 year low**) behind a concurrent-write freeze. **European gas tightening while US crude buffers sit at multi-decade lows is a joint read neither desk can make alone, and BRENT is the desk that can.** Recorded here so a reader of my fires knows the other half exists rather than assuming BRENT will connect them unprompted.
+
 **⇒ The €50 "crisis line" is now a historical artifact.** TTF has not closed below it since early July. **L1/L2 of the ladder are where the decisions are; the €50 line is retired as a trigger** (kept as history).
 
 ---
@@ -148,7 +150,7 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 
 ## KEY THRESHOLDS (rebuilt — spread AND level)
 
-📌 **Now REGISTERED, not prose: `registry/THRESHOLDS.tsv` (HANS-T, 12 rows) + `registry/HANS_T_FIRED_LOG.tsv` (5 fires logged, 4 backdated).** Built 2026-08-28 after WALTER asked whether my new UK bands were registered or informal — the answer was *informal, and so was everything else on this desk.* **Three bands are currently in a FIRED state and are logged as such: `T-05` Bund watch, `T-07` TTF L1+L2, `T-08` storage-gap orange.** ⚠️ Only 5 of the 12 rows are daily-scannable; see the registry README before reading a clean scan as a clear board.
+📌 **Now REGISTERED, not prose: `registry/THRESHOLDS.tsv` (HANS-T, 12 rows) + `registry/HANS_T_FIRED_LOG.tsv` (5 fires logged, 4 backdated).** Built 2026-08-28 after WALTER asked whether my new UK bands were registered or informal — the answer was *informal, and so was everything else on this desk.* **FOUR bands are currently in an OPEN FIRED state** *(corrected 2026-08-28 — WALTER counted my ledger and I had said three)*: **`T-05`** Bund watch · **`T-07`** TTF L1+L2 · **`T-08`** storage-gap orange · **`T-02`** German Mfg PMI >52 sustain-2. ⚠️ **`T-02` counts.** I had mentally excluded it because its band was written post-hoc and I had flagged it for evidentiary down-weighting — but **a caveat about a band's WEIGHT is not a decision about whether its fire COUNTS**, and letting one become the other is how a real fire goes missing from a board. The metric genuinely crossed a registered band; the weakness is in the band's predictive claim, not in the fact. ⚠️ Only 5 of the 12 rows are daily-scannable; see the registry README before reading a clean scan as a clear board.
 
 | Metric | Current (8/28) | Threshold | State |
 |---|---|---|---|
