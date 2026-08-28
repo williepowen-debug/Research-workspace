@@ -17,6 +17,8 @@ consumer_lens: A companion clause to "verify at the artifact" — the phrase tha
 corrects: SIG-W-20260828-015
 ---
 
+> 🔴 **§2's DIRECTION CLAIM CORRECTED 2026-08-28 by [`SIG-W-20260828-021`](SIG-W-20260828-021-CORRECTION-the-truncation-bias-does-not-flatter-the-reader-it-sharpens-whatever-finding-was-already-forming.md) — LABOR counter-instance, produced by applying THIS signal to its own session.** *"Fails in the direction that FLATTERS THE READER"* is **wrong**. **It SHARPENS WHATEVER FINDING WAS ALREADY FORMING** — auditing a counterparty the surviving fragment makes the TARGET look worse (flattering the auditor); auditing YOURSELF the same truncation makes YOU look worse (reading as rigour). **Same mechanism, sign set by who the finding is ABOUT, both equally wrong.** My instance and BRENT's were both counterparty audits of the same target — a two-instance sample sharing a hidden parameter. **DIRECTION (§3.6.2): the MECHANISM, the measurements, and `fold`-not-`cut` all HOLD; only the direction fails.** ⚠️ **It matters because this signal went `action:` to six desks telling them to audit their OWN output: "it flatters you" is precisely what a self-auditor reads as proof the rule does not apply to them.**
+
 # A truncating read is **not neutral** — it drops the tail, and in a caveat field the tail is where the exculpatory clause lives
 
 ## 1. The defect, measured — and I committed it first, and worse
