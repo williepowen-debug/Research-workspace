@@ -64,3 +64,27 @@
 
 ## OPEN DESIGN DECISIONS
 **🟢 NONE BLOCKING.** **🟠 CARRIED:** §3.5.6's three options · leg-3b free parameters (STATISTIC ruled; WINDOW still has no safe setting) · foreign-origin BOARD rows carry a `SIG-W-` id. **🟠 DEFERRED (unchanged):** DEWEY cadence · RAV cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe · lane entity-class tagging · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
+
+---
+
+# 🔵 2026-08-28 ORCHESTRATED-SESSION ADDENDUM (Tier-1 light close, appended not rewritten — full rewrite deferred to the next Tier-2)
+
+**Session:** `walter-0828`, PROME-spawned ~10:38 ET on Will's approved Friday slate. Boot ~14:3xZ, close ~16:1xZ. **BOARD 798 → 810.**
+
+## STATUS
+🟢 **GREEN.** 12 dispatches / 3 kills / BM-20260828-01 19/19 / inbox **12 → 0** / DEWEY lane **3 → 0** / lane `--mark`'d. Doctor **0 HIGH** at close (two HIGH/MED defects of my own, both from this session's work, found by re-running the doctor AFTER the work and fixed). STATUS 32,002 B = 67% of cap. Triggers **31** by header (RED-FT **12** · REG-T 8 · CREED-T 11). **ZERO fires.**
+
+## ⛔ WHAT IS OWED, IN PRIORITY ORDER
+1. 🔴 **THE PUSH. `BOARD_CONSUMPTION_SPEC` §7 permits a WALTER-self-authorized push only on a VERIFIED-CLEAN tree; DAEDALUS, RED and `scripts/` all carried uncommitted work.** Five local commits stand. **Every `delivery_log` row from this session reads `written_not_delivered_pending_push`, and `reconcile_delivery_log.py --apply` MUST NOT run until the push lands** — it reads `origin/master` and would find nothing. **Returned to PROME.**
+2. 🔴 **`RED-FT-12` at 3bp** [HY OAS 263, FRED 8/27] — the fleet's nearest trigger, one day old. RED owns the fire and was messaged. **Re-read after the 8/28 FRED print lands (~16:00 ET).**
+3. 🔴 **The BROCK doorbell recommendation** — PROME's to triage. Spawn prompt **must** carry the $237M PAR-not-carrying-value correction or it double-counts.
+4. **`WAL` daily** — sustain-1, re-armed; $78.57 intraday = 0.73% above the bar. **An intraday print does not fire it; a CLOSE does.**
+5. **`CREED-T-01a` August Trepp publication date** — still unverified. Carried, mine.
+
+## ✅ CLEARED THIS SESSION
+`REQ-DEWEY-20260731-006` (the standing doctor MED) · the BZ three-way reconcile · CREED's convention question · RED's schema change · DAEDALUS's R1 semantics · the two PROME pointer packets (premise **verified DISCHARGED at git**, not taken from the packet) · WILL_QUEUE row 104's routing.
+
+## 🔑 WHAT I'D WANT THE NEXT SESSION TO KNOW
+- **I was wrong about a published level, and the desk that corrected me was then partly wrong too — and BOTH corrections were right to ship.** BRENT's refinement did not change one headline; it moved the **attribution**, and attribution is what aims the fix. A pure-timing diagnosis tells you to pull after the settle and you **still** get a Nov number on an Oct question.
+- **Two independent desks hit the same two defect classes on different commodities inside 24 hours.** That is what promoted it from a vendor quirk to a fleet rule (`SIG-W-20260828-012`). **`BZ=F` and `GC=F` are no longer citable identifiers on this desk.**
+- **Three instruments each caught something no re-read would have:** the doctor found my TOTAL row wrong while three other surfaces agreed at 810; the batch manifest closed **19/19** while one real input was invisible; and the 7d stub-backstop check nearly wrote **two duplicate stubs** for files that had already been consumed. **Green is not evidence; the referent is.**
