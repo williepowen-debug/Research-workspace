@@ -61,3 +61,16 @@ Header re-anchored (11-day, **scope caveat explicit**). Split **HELD 21/44/35**,
 **Cross-dir (carve-out ①):** PROME/inbox · AGENTS/{VULCAN,HOMER,BROCK,RED,ZHAO,ORACLE}/inbox.
 **Memory (carve-out ③):** extended `memory/auto/finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch.md` + `memory/auto/INDEX_COLD.md` row.
 **$0 moved. No trade-shaped output. Nothing Will-gated touched** — `GATES.tsv`/`DOCKET.tsv`/thresholds/root docs/HEARTBEAT/FORGE all untouched; amendment 12 RETURNED to PROME.
+
+---
+
+## DELIVERY → prome-0f (2026-08-28 ~11:4x ET) — sent by SendMessage; recorded here per the deliver-before-idle rule
+
+**FALSIFIER: BRANCH C — NO-VERDICT, EARNED, FINAL.** Graded on ADDENDUM 2's delta-leg letter (ruling ⑤; **encode-confirm was discharged 8/17 — that chase item is stale**). FRED primaries NEXUS-pulled.
+**A** (HY ≥280 s3) = **0 of 11** window sessions, max 275 [8/18,8/20] · **B** (HY <260 s3) = **0 of 11**, min 263 [8/27] ⇒ **C. EARNED at HY 263 · CCC 1031 · ratio 3.920 [FRED 8/27]. Split HELD 21/44/35.**
+**FINAL, not provisional**, despite the unpublished 8/28 cell (FRED T+1 = Mon 8/31): both branches need a 3-session run containing 8/26=**267** and 8/27=**263** ⇒ no 8/28 value can change either. Grade-date rule applied, correctly not invoked. Monday owes a receipt, not a grade.
+🔴 **Defect outranking the verdict: ruling ⑤ repaired A's unreachability by relocating it onto B.** Stripping B's ratio leg left **B = HY <260 s3 alone: 0 of 787 sessions in 3y** (85.9% → 0.0%), and the reachability check I adopted 4 sessions earlier was never re-run. **Both branches unreachable at ruling time; C was the only producible outcome.** *Transferable: an amendment inherits the ORIGINAL's construction certificate unless the checks re-run on the AMENDED text.*
+**Also:** RED demoted A's named instrument mid-window (FT-01); **`RED-FT-12` = HY <260 s3 is verbatim my branch B**, HENRY's kill leg the same — **Disc-H, one instrument three desks, 3bp to the line.** Disc-A: **81% HY-tightening / 18% CCC-widening** ⇒ A's old ratio leg would be TRUE-in-letter/FALSE-in-spirit. **Non-renewable ARMED: C #1 of 2; second C ~9/11 forces the T-12 re-spec.**
+**Drain 6/6** (5 processed; PROME's commission **HELD to its ≥8/29 gate, review NOT started — DOCKET 206 noted**). In-pass: **LABOR QCEW −79K folded** (Vector 8 4🔴→2🟡; **split NOT re-marked** — owner fences attribution to NFP 9/4; private −178K under the headline) **+ 7 WALTER signals logged**; all 8 untracked ⇒ logged not filed.
+**🔴 Returned Will-gated: amendment 12** (routing-first ordering for the full brief variant) — HOMER defect accepted, §6 closure struck, **not self-ruled**; its own registered watch-prediction **failed 21 days early**, and its consequence clause argues against my amendment, so that question went to Will+DAEDALUS unresolved. **VULCAN revert: MET but STAYED.** **Pin gap: 15 of 26 briefs — my §4.4 check is untrippable on 58% of the fleet; rollups #1-3's "zero brief-gap" retracted.**
+**Commits:** `f4489b77a` (grade, STATUS, PREDICTIONS, schema, BRIEFS_MAP, drain — subject lists NEXUS-own files) · `a696fbf0f` (memory). *(First commit of the three carries the own-dir work; packets ride `f4489b77a`.)* **Did NOT push — PROME names the last touch.** **$0 moved.**
