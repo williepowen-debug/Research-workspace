@@ -35,7 +35,7 @@
 | **3–6y (the "5Y" tenor)** | **T+112.0 (n=46)** | **T+74.2 (n=84)** | **+37.8bp** |
 | 6–11y | T+136.4 (n=9) | T+86.6 (n=9) | +49.7bp |
 
-### 🔑 Read: the independent series CORROBORATES the deck, and confirms the narrowing from a different source
+### 🔑 Read: SUGGESTIVE CORROBORATION from an independent holder-side series — directionally consistent, NOT a confirmation
 
 | Reading | Source | 5Y-ish penalty | Athene level |
 |---|---|---|---|
@@ -44,7 +44,7 @@
 | Q2'26 deck (8/13; JPM spreads **as of 2026-08-07**) | **Athene's own** | **+33.0bp like-for-like** (+30.0 as published) | T+110 |
 | **SHADE NPORT rerun, 8/28 (5/31–6/30 data)** | **independent, holder-side** | **+37.8bp** | **T+112.0** |
 
-🔑 **Athene's own deck says T+110; an independent holder-side reconstruction says T+112.0. Two bp apart, from unrelated data.** The penalty lands **between** the two deck readings and **moves the same direction as the deck** (down). ⇒ **The 8/13 leg-1 STABLE grade is corroborated by a source Athene does not control.**
+🔑 **Athene's own deck says T+110; an independent holder-side reconstruction says T+112.0. Two bp apart, from unrelated data.** The penalty lands **between** the two deck readings and **moves the same direction as the deck** (down). ⇒ **The 8/13 leg-1 STABLE grade gets SUGGESTIVE, DIRECTIONALLY CONSISTENT support from a source Athene does not control.** ⛔ **Not "confirmed":** the windows overlap, CUSIP composition changes between runs, and the estimator differs from the prior headline (+55.4 pooled → +37.8 pooled vs a +40.2 within-fund PAIRED headline). **A level agreeing to 2bp is a striking coincidence of two noisy estimates, not a validation of either.**
 
 ⚠️ **BASIS GUARD — do not difference these runs naively.** The `>>> ATHENE PEER PENALTY` line is a **pooled median-of-medians**; the 7/27 study's headline `+40.2bp` was the **within-fund PAIRED** estimator (strictest), and its pooled figure was **+55.4bp**. **On the consistent pooled basis the move is +55.4 → +37.8**, but the windows differ (3/31–5/31 vs 5/31–6/30) and **CUSIP composition changes between them**, which is the exact caveat registered on 7/27. ⇒ **Carry the DIRECTION as corroborated and the MAGNITUDE as not comparable across runs.**
 ⚠️ **6–11y is n=9 vs n=9.** Better than the 7/27 run's single-CUSIP n=4, still thin. **Do not cite it as a tenor bucket.**

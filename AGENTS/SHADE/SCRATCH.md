@@ -35,7 +35,7 @@
 6. **Q3 cluster ~11/5–11/18** — first GRADED canary reading; **a quarter is INCOMPLETE until BOTH instruments land.**
 7. **~11/15 Delaware Life Q3 statutory** — difference **Exhibit 1** and **SoO L15** against the 1H-26 baseline below.
 8. **Watch: a THIRD named distributor pausing** · **the next public FABN syndication.**
-9. **BROCK↔SHADE CCC reconcile — SENT 8/28, awaiting BROCK's call.** My proposal: **register that TWO figures survive with the reason, rather than collapse them.**
+9. ✅ **BROCK↔SHADE CCC reconcile — CLOSED 8/28.** **Two ratios, ONE OWNER EACH; SHADE registers NEITHER.** **CCC/HY → REGINALD `VX-REG-18.04`** (cite, never copy — it carries a **Will-approved 8/13 escalation stand-down**, and registering it here would fork a ruled metric); **CCC/BB + the CCC−BB gap → BROCK `KB-BRK-221`.** **BROCK's reason adopted over my weaker one: each is WRONG FOR THE OTHER'S JOB** — CCC/HY is constituent-inclusive so it **damps exactly at the extreme** (wrong for a tail threshold); CCC/BB references no investable index (wrong for context). 🔴 **THE INDEPENDENCE BAR NEVER LIFTS — same 787-obs series, so agreement is ARITHMETIC, not corroboration.**
 
 ---
 
@@ -45,6 +45,7 @@
 - ⛔ **No POST-PAUSE flow figure exists.** *"Regulatory margin call"* and *"flows going the wrong way"* are the relayer's and are on **no SHADE surface**. The 1H-26 baseline below ends **2 months before** the pause.
 - **1H-2026 baseline (DLIC Q2 statutory):** direct premiums + deposit-type **$6,726,317,026** · individual annuities **$4,645,112,433** · **surrenders $2,060,811,753** · net cash from operations **$3,447,262,388** · capital and surplus **$4,028,108,426** · GA net admitted **$51,249,394,609.**
 - **Affiliate-contingent: $16,822,226,503 (6/30/26) = 32.82% of GA** vs **$16,371,945,130 = 35.67% (12/31/25 restated).** **NEVER quote the share alone or the dollars alone — they point opposite ways.**
+- 🔴 **`T-SHADE-01`: the SIGN LEG IS A DATED READING, NOT A STANDING STATE.** Last MEASURED **8/13** (both cohorts up; managers led down 3-for-3) ⇒ NOT MET *on that date*; **not re-read 8/28.** ⛔ **If the level leg crosses, DO NOT read "1 leg" off the 8/13 sign reading — re-read the sign leg on closes FIRST.** *(BROCK's catch, 8/28.)* **And LIQUID owns the HY series and its sustain count; SHADE owns only whether the trigger fires.**
 - ⚠️ **FOUR DENOMINATORS circulate for Delaware Life and the concentration swings ~9pp on the choice** — total admitted incl. separate accounts **$70,464M ⇒ 23.9%** · **general account $51,249M ⇒ 32.8% (SHADE's basis)** · "total invested assets" (the 3%→39% basis, not pulled) · surplus $4,028M ⇒ 4.18× (a CONCENTRATION multiple, not leverage). **The media "$69B as of March" maps to the TOTAL line and understates the concentration by including $19.2B of separate accounts.** **Always name the denominator.** *(→ `REFERENCE.md` §2Q-bis.)*
 - **Illiquidity Ratio 10.05% is a FLOOR, not the ratio.** ⛔ **Do not say it is below the 30% red flag.**
 - **Affiliate-contingent = 4.18× surplus is a CONCENTRATION measure, NOT leverage.**
@@ -61,7 +62,7 @@
 | **Delaware Life / vector #1** | 🔴🔴 **FIRING. Marker (0) MET.** Score unchanged at the scale max — **BASIS change.** ⚠️ **n=2 of an unknown denominator; paused share unsized; "paused" ≠ terminated; NO CHARGES FILED. Refutation pre-registered.** |
 | **Remediation plan** | 🔴 **Not visibly shrinking the book in dollars** (+2.75%) **while shrinking as a share** (−2.85pp). **The plan's own metric is not public — that decides which reading is operative.** |
 | **FHLB funding leg** *(BROCK)* | 🟠 **#2 borrower at FHLB Indianapolis, $4,963M = 12%, flat to the dollar two quarters.** Both readings live. |
-| **M-11 leg 1 / FABN canary** | 🟢 **STABLE, now independently corroborated** (+37.8bp holder-side vs +33.0bp deck; levels 2bp apart). **Kill-path-1 YELLOW, RED bar ~212bp away.** |
+| **M-11 leg 1 / FABN canary** | 🟢 **STABLE; SUGGESTIVE independent support** (+37.8bp holder-side vs +33.0bp deck; levels 2bp apart). ⛔ **Not a confirmation** — overlapping windows, changed CUSIP composition, different estimator. **Kill-path-1 YELLOW, RED bar ~212bp away.** |
 | **Canary identification defect** | 🚩 **UNTOUCHED by the rerun** — a price-only instrument cannot separate "credit improved" from "supply withdrawn." **S1/S2/S3 is the answer; first graded reading Q3-2026.** |
 | **M-11 leg 2 / `PRED-CREED-010`** | 🟠 **PARTIAL** (Δ +$6,897M, −$103M short). Joint branch verdict waits on MBA ~mid-Sept. |
 | **§2.8 landing-entity gap** | 🟡 **OPEN, diversion branch WEAKLY DISFAVORED.** |
@@ -76,5 +77,5 @@
 
 ⚠️ **ONE ITEM DELIBERATELY LEFT UNCONSUMED — `inbox/WALTER/2026-08-28_from-WALTER_NOTE-delaware-life-and-clear-spring-asset-denominators.md`.** It arrived mid-session and **WALTER's own header says a spawned instance does not consume it and it belongs to the next LIVE session** (BOARD_CONSUMPTION_SPEC §3.5.2). **Its CONTENT was acted on** — it guards a number this session published, and the four-denominator table is now in `REFERENCE.md` §2Q-bis. **NEXT SESSION: formally consume it (board_log row + `git mv` to processed/).** *(A falsely-cleared inbox is worse than an unconsumed one.)*
 **BOTH LANES OTHERWISE CLEAN.** 18 consumed this session (15 `inbox/WALTER/` + 3 `inbox/`, incl. BROCK's FHLB packet), all logged in `board_log.tsv` and `git mv`'d to `processed/`.
-**Outbound:** 2 memos to PROME (`outbox/`, copies in `PROME/inbox/`); **2 SendMessages** — `brock-0828` (CCC + X1 reconcile, **awaiting reply**), `prome-0f`.
+**Outbound:** 2 memos to PROME (`outbox/`, copies in `PROME/inbox/`); **2 SendMessages** — `brock-0828` (CCC + X1 reconcile — **REPLIED; closed, see owed item 9**), `prome-0f`.
 **Not sent:** no packet to REGINALD — it is an `action` recipient on `SIG-W-20260828-041` in its own right, and restating what it already received is the routine acknowledgement `CLAUDE.md` §11 forbids.

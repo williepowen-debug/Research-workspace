@@ -11,6 +11,11 @@ Global Funding AND at least one peer FABN program in the SAME filing (same fund,
 same valuation date, same pricing vendor). Cross-issuer level differences from
 pricing methodology then cancel, and what is left is issuer credit.
 
+OUTPUT: `research/FABN_PEER_SPREAD_NPORT_RERUN_<RUN-DATE>.json` — the filename is derived
+from the RUN date so a rerun can never overwrite a prior vintage's artifact (fix 1c).
+SAMPLE: enumeration stops at MAX_FILINGS by default, which is a BOUNDED SAMPLE, not a
+census — the run line says so explicitly (fix 3b).
+
 Spread = YTM(price, coupon, maturity) - matched-tenor Treasury (FRED, at period end).
 Systematic YTM-approximation error largely cancels in the PEER DIFFERENCE at matched tenor.
 """
@@ -86,9 +91,15 @@ for frm in range(0, 300, 10):
     if len(filings) >= MAX_FILINGS:
         break
 print(f"    {len(filings)} filings"
-      f" | enumeration {'EXHAUSTED (complete to the query bound)' if enum_exhausted else 'STOPPED EARLY'}"
+      f" | enumeration {'EXHAUSTED (complete to the query bound)' if enum_exhausted else f'STOPPED EARLY at the MAX_FILINGS={MAX_FILINGS} bound'}"
       f" | pages lost to failure: {enum_truncated}"
-      f"{'  ⚠️ FILING SET IS INCOMPLETE — do not read counts as a population' if enum_truncated else ''}",
+      # DEFECT FIX 3b (RAV QC, 2026-08-28): the original reserved its only
+      # incompleteness warning for NETWORK failure. A MAX_FILINGS stop is just as
+      # incomplete — it is a BOUNDED SAMPLE, not a population census — and it is the
+      # NORMAL exit, so it is the one a reader is most likely to treat as complete.
+      # Warn on BOTH, and name which kind of incompleteness it is.
+      f"{'  ⚠️ FILING SET TRUNCATED BY FETCH FAILURE — counts are not a population' if enum_truncated else ''}"
+      f"{'  ⚠️ BOUNDED SAMPLE, NOT A CENSUS — the run stopped at its own MAX_FILINGS bound, not because the query was exhausted; counts are a sample floor' if (not enum_exhausted and not enum_truncated) else ''}",
       flush=True)
 
 # ---------- 2. pull each filing, extract the 7 issuers' debt holdings ----------
@@ -304,7 +315,14 @@ for b in ["0-3y", "3-6y", "6-11y", "11y+"]:
         pm = statistics.median(peer_pool)
         print(f"   >>> ATHENE PEER PENALTY: {ath - pm:+.1f}bp  (peer median T+{pm:.1f}, n={len(peer_pool)})")
 
-out = "/home/willi/Research-workspace/AGENTS/SHADE/research/FABN_PEER_SPREAD_NPORT_2026-07-27.json"
+# DEFECT FIX 1c (RAV QC, 2026-08-28): this line hardcoded the 2026-07-27 output
+# name, so EVERY rerun overwrote the 7/27 baseline — which is exactly what happened
+# on the 8/28 rerun (caught only by an unintended deletion in `git status`, restored
+# from git). A dated analysis needs a DATED OUTPUT FILENAME. The name is now derived
+# from the RUN date, so a rerun can never destroy its own comparator.
+RUN_DATE = datetime.date.today().isoformat()
+out = (f"/home/willi/Research-workspace/AGENTS/SHADE/research/"
+       f"FABN_PEER_SPREAD_NPORT_RERUN_{RUN_DATE}.json")
 # DEFECT FIX 1b (found 2026-08-28 while committing the rerun): fix 1 stamped the
 # PRINTED curve but not the SAVED artifact — and the run log is gitignored (*.log),
 # so the backfill provenance would have survived only in an uncommitted file. The
