@@ -258,10 +258,31 @@ def build_domestic():
         add("DOMESTIC", "SOFR dispersion", "ERR", "🔴",
             f"fetch error (SOFR75={e75 or 'ok'} / SOFR99={e99 or 'ok'}) — dispersion rows BLIND; "
             f"do not read their absence as calm")
+    # ---- BASIS REPAIR 2026-08-28 (KB-LIQ-113; DAEDALUS GATES audit row 14). ----
+    # This line rendered SOFR99 MINUS SOFR (the median) and was read as GATE-LIQ-079's ARM
+    # leg. The gate is specified on SOFR99 MINUS IORB — the 99th percentile of repo against
+    # the POLICY CEILING — and its definition surface has said so explicitly since 2026-07-17
+    # (FUNDING_SEIZURE_GATE_SCOPED.md item 5: "acute leg = SOFR99-IORB ... not 99pct-SOFR.
+    # This spec adopts SOFR99-IORB throughout"). THE SPEC WAS ALREADY CORRECT; the instrument
+    # was never brought along, so a live gate could not fire correctly for 42 days.
+    #   Why nobody caught it: median wedge between the two bases = +0.0bp (n=273). They agree
+    #   on the ordinary day and diverge -15 to +32bp in the tail — a spread LARGER than the
+    #   30bp ARM line itself. Measured: days >= +30bp on the CORRECT basis 6/273 (2.2%); on
+    #   the rendered basis 0/273 (0.0%). The wrong instrument would have missed EVERY arm-day
+    #   in the sample. Dead-QUIET direction: it under-reports exactly when the gate matters.
+    #   Note the SOFR75 line four rows above ALREADY used IORB — the correct pattern was
+    #   sitting one line up from the wrong one.
+    # Both quantities now render; ONLY the IORB-based row is labelled as the gate leg.
+    if not e99 and iorb is not None:
+        s99 = (p99 - iorb) * 100
+        if s99 >= 30:   m, n = "🔴", f"GATE-LIQ-079 ACUTE LEG AT/ABOVE +30bp — check non-calendar AND ≥2 consecutive before calling ARMED"
+        elif s99 >= 20: m, n = "🟠", f"tail elevated — {30 - s99:.0f}bps under the +30 ARM line"
+        else:           m, n = "🟢", f"tail contained — {30 - s99:.0f}bps under the +30 ARM line"
+        add("DOMESTIC", "SOFR99−IORB (079 ARM leg)", f"{s99:+.0f}bps", m, n, d99)
     if not e99 and sofr is not None:
-        s99 = (p99 - sofr) * 100
-        m, n = ("🟠", "tail blowout (99th−SOFR ≥20bps)") if s99 >= 20 else ("🟢", "tail contained (<20bps)")
-        add("DOMESTIC", "SOFR99 tail", f"{s99:+.0f}bps", m, n, d99)
+        s99m = (p99 - sofr) * 100
+        add("DOMESTIC", "SOFR99−SOFR (dispersion)", f"{s99m:+.0f}bps", "⚪",
+            "intra-distribution spread — NOT the 079 leg (that is SOFR99−IORB, above)", d99)
 
     # 2Y — front-end reference (FOMC-day hawkish reprice tell)
     v, d, tr, err = fred_series("DGS2")
@@ -601,7 +622,12 @@ def render(verbose):
         if not rows:
             continue
         # collapsed: show alerts (non-🟢) + headline rows; verbose: show all
-        shown = [r for r in rows if (verbose or r["marker"] != "🟢" or r["headline"])]
+        # ⚪ = reference-only rows (a number rendered so it is not MISSING, but which grades
+        # nothing). Suppressed with 🟢 in the default view 2026-08-28: the SOFR99−SOFR
+        # dispersion row was showing while its 🟢 sibling SOFR99−IORB — the actual
+        # GATE-LIQ-079 ARM leg — was hidden, i.e. the default view displayed the
+        # NON-gate number and concealed the gate one. That is KB-LIQ-109/113 inverted.
+        shown = [r for r in rows if (verbose or r["marker"] not in ("🟢", "⚪") or r["headline"])]
         print(f"\n  {DASH_TITLE[dash]}")
         if not shown:
             print("    🟢 all clear")
