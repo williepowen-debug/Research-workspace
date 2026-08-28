@@ -153,6 +153,7 @@
 - finding_printf_format_tsv_append_corruption — Appending TSV/log rows via shell printf corrupts the row when the data contains · *embed-pending → scripts/tsv_append.py header (pending scripts/-ownership ruling, queue row 6)*
 - finding_market_data_venv_invocation — market-data fetch.py/dashboard.py need the repo .venv python — plain system python3 fails with ModuleNotFoundError (yfinance) · *embed-pending → FORGE/tools/market-data/README.md*
 - finding_subdir_launch_hooks_dont_fire — Claude Code hooks (SessionStart etc.) configured in the repo-root .claude/settings.json do NOT execute for sessions launched from subdirectories (CC bug · *embed-pending → PROME/BOOT.md (already cited there — pure dedup)*
+- finding_truncated_read_is_not_a_verification — truncation drops the TAIL, where the exculpatory half lives
 
 ## Rare infra findings (Tier-3 COLD)
 - finding_gh_run_watch_exit_status_unreliable — "`gh run watch --exit-status` can report failure on a run that actually succeeded; confirm via `gh run view --json conclusion`"

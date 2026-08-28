@@ -82,20 +82,8 @@ Related: [[finding_unfetched_is_not_unavailable]] · [[finding_partitioned_sourc
 
 ---
 
-## ⚠️ THE SECOND AXIS — the same disease *within* one field, not across files. **A TRUNCATING READ IS NOT A VERIFICATION, AND IT IS NOT NEUTRAL.**
+## ⚠️ THE DEPTH AXIS LIVES IN ITS OWN MEMORY — [[finding_truncated_read_is_not_a_verification]]
 
-The rule above governs **breadth** (don't sample the file set). The identical failure runs on **depth**: you open the right artifact, you read part of the field, and you draw a conclusion from what survived your own filter.
+This rule governs **breadth**: don't sample the *file set*. The identical failure runs on **depth** — right artifact, **partial field**, conclusion drawn from what survived a filter you chose yourself (`cut -c`, `head -c`, `| head`, "output too large, showing first N").
 
-**Measured 2026-08-28 (BRENT).** Checking whether a peer desk's ledger cell carried a stale figure, I read it with `cut -c1-320` and published a finding: *"the cell's own note NAMES the class it commits — disclaimer, precedent citation and defect in one cell."* I had told two desks, in the same message, *"verified at the artifact, not on relay."*
-
-**That claim was TRUE ABOUT THE FETCH AND FALSE ABOUT THE CONTENT.** The cut landed at `…SPX/VIX = 8/26 closes (yfinance). Br` — **one clause before the sentence that inverted the finding.** The full cell continued: *"Brent 86.36 = 8/26 close per WALTER SIG-W-…; my own boot bar read 88.92 and does NOT reconcile at the stated pct — carried as PROVISIONAL, WALTER's settle is the datum."* **That desk had pulled its own bar, found the disagreement, written it down, marked its own reading provisional, and deferred to a published settle by signal ID.** It did not commit the error; it caught the error and was overruled. My finding was exactly backwards, and it named the wrong desk.
-
-**⚠️ AND THE TRUNCATION HAS A DIRECTION — this is the part that makes it worth a rule rather than a resolution to be careful.** A head-truncation drops the **TAIL**, and in any field written *newest-qualification-last* — a caveat cell, a notes column, a changelog line, a status annotation — **the tail is where the reconciliation attempt, the provisional marking and the counter-evidence live.** The head carries the assertion; the tail carries the doubt. So a convenience filter systematically discards the exculpatory half: **it makes the subject look worse and your finding look sharper.** The finding forms out of whatever survived the filter, and nothing in the output says anything was removed. Sibling of [[finding_a_charitable_reading_of_your_work_is_the_one_to_check]] — there the flattering *explanation* goes unchecked; here the flattering *evidence set* is manufactured by your own tooling.
-
-**Rules:**
-- **If you truncated it to read it, you did not verify it.** `cut -c`, `head -c`, `| head`, a column slice, a preview pane, a tool result that says *"output too large, showing first N"* — each is a **sampling** step wearing the clothes of a **read**.
-- **"Verified at the artifact" needs a companion clause: read the WHOLE field.** Before publishing a claim *about the wording of* a cell, print that cell alone and unabridged (`awk -F'\t' '$1==key{print $NF}'`, `fold`), not the row through a width filter.
-- **Suspect any finding whose evidence ends mid-sentence.** A quote that terminates without punctuation is the tell, and it is visible in your own draft.
-- **Highest risk when the field is a caveat, a notes column, or an annotation** — precisely the fields you read *because* you expect them to contain the qualification you are looking for.
-
-**Generalization:** breadth-sampling and depth-truncation are one failure with two axes — **you concluded from a subset your own instrument chose, and the instrument reported no loss.** Related: [[finding_silent_blank_evades_review]], [[finding_scan_keyed_on_naming_reads_local_form_as_absence]], [[finding_instrument_reports_clean_against_the_wrong_reference]].
+**Split out 2026-08-28 rather than kept here**, because the facet is real but this slug does not NAME it: a future search for "truncated read" or "cut -c" would never reach it under a slug about grep breadth, and a cross-cutting facet filed as a parenthetical in whichever slug was in hand is the fleet's measured fragmentation failure (NEXUS, 2026-08-28). **One line to remember: the truncation is not neutral — it drops the TAIL, where the qualification and the counter-evidence live, so it discards the exculpatory half and sharpens your finding.**
