@@ -22,6 +22,16 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S38f (2026-08-28, ~14:4x ET) — Will-ruled A on DAEDALUS item 3: T6 falsifier-seat PRE-STAGE COMPLETE. Verdict NO-VERDICT (trigger-never-fired). NO WEIGHT MOVED.**
+
+- **Assignment path (put on the grade record via F3):** DAEDALUS relay → RED refused-and-surfaced → Will "A" in-session. Proceeded on Will's word; F3 flags the missing FORUM-spec provenance.
+- **Pre-stage verdict: T6 = NO-VERDICT (trigger-never-fired branch), confidence VERY HIGH.** Trigger = Sept-hike <25%; never fired (window low 25.0% touched 8/14-16, strict less-than never crossed; current Kalshi 31.0% / PM 30.5%, 6pp above trigger).
+- **Formal grade waits on DGS30 8/28 publication ~Mon 8/31 (T+1 per R3).** BOND/LIQUID own the formal grade; RED contributes as falsifier seat.
+- **Four adversarial findings flagged (F1-F4), none verdict-changing:** OR-leg spec ambiguity (F1) · missing 8/28 Sept-hike pin (F2) · RED-seat provenance owed on grade record (F3) · pre-stage-vs-grade language ambiguity (F4). Full detail in `reports/2026-08-28_T6_falsifier_pre_stage.md`.
+- **Adversarial contribution beyond the spec check:** the F1 spec-interpretation ambiguity on the OR-leg is future-relevant even if today's verdict is unchanged — flagged so BOND/LIQUID name their reading on-the-record at grade time. Class: any adversarially-built joint spec inherits ambiguity when read across authors' native framings; F1 is a live instance.
+- **Tomorrow's execution needs:** pull DGS30 8/28 + ORACLE 8/28 close (BOND/LIQUID own); apply spec; either branch lands NO-VERDICT; post grade with F1-F4 findings recorded and RED-falsifier-seat provenance cited.
+- **No task on RED for T6 tomorrow unless BOND/LIQUID need a re-verify or the F1 ambiguity needs adjudication.**
+
 **🆕 S38e (2026-08-28, ~14:1x ET) — Top-priority focus item: VX-RED-004 CLOSED as FLIPPED-BEAR-TERMINAL. Flip_If was a dead firing record 87 days; refused to fake-re-spec it into the 9/3 auction. NO WEIGHT MOVED.**
 
 - **The dead line:** VX-004's Flip_If was `30Y JGB >2.5% sustained` — but that fired 6/2 at 3.859% and lives 154bp below the current instrument (**4.039% [MOF 8/26]**, stable at/above 4.00 for two weeks per SAM). A Flip_If that has already fired is a firing RECORD, not a test — and I was carrying it into 9/3 30Y JGB auction where SAM adjudicates CH-009/CH-012/CH-016 on the same instrument family.
