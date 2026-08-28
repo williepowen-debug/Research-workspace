@@ -16,12 +16,14 @@ Primary value: German/EU PMI as ISM leading indicator, ECB/Fed policy divergence
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
+**⚠️ RULE #2, added 2026-08-28 after a finding was shipped and retracted the same day: BEFORE SHIPPING AN EMPIRICAL FINDING, RUN `scripts/finding_check.py`'s `gate()` INSIDE THE RESEARCH SCRIPT.** Not as a checklist step — **imported, so it runs where the finding is produced.** *Four hot-index fleet memories describing that exact failure were loaded in context at boot and none fired: **a finding that confirms your prior does not feel wrong**, so nothing prompts the lookup. This is a trigger gap, and only a mechanism closes it.* ⚠️ **It catches the independence and crisis-artifact failures. It does NOT catch construct validity — *does my classifier measure what I claim?* — which still needs a human question.**
+
 ---
 
 ## SPAWN PROTOCOL
 
 0. **RUN THE BOOT SCRIPT FIRST — `.venv/bin/python AGENTS/HANS/scripts/boot.py`** *(added 2026-08-28)*
-   Live pull + band check · **the NOT-AUTO-PULLABLE perimeter** · registry fire state · key-figure age · predictions due/overdue · live-vector staleness. **~5s.**
+   Live pull + band check · **European PRIMARY pull via `fetch_eu.py`** (ECB keyless; AGSI+ storage) · **the perimeter of what it CANNOT reach** · registry fire state · key-figure age · predictions due/overdue · live-vector staleness · **KB expiry**. **~10s.**
    ⚠️ **Section [2] is the point of the script, not an appendix.** It names every load-bearing series this box **cannot** reach (Bund, both gilts, EU storage, EGB spreads, ECB/BoE rates, PMI). **A clean section [1] does NOT mean the board is clear** — read [2] and check those by hand. *(Ported from ZHAO's boot.py, which exists because ZHAO found a 2.5-month drift on 7/4 and built the fix. HANS found a **6.5-month** drift on 8/28 — BoE carried at 4.50 when it was 3.75 — **by hand**, in a session Will had to spawn. This script is that lesson as a mechanism.)*
 1. **Read `STATUS.md`** — current European macro state, PMI readings, ECB stance, stale-data warnings
 1a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" HANS` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
@@ -180,8 +182,21 @@ German Manufacturing PMI leads U.S. ISM Manufacturing by approximately **2 month
 
 ## FILES
 
-| File | Purpose |
-|------|---------|
-| `STATUS.md` | Live state — PMI readings, ECB stance, political risk. **Primary memory.** |
-| `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. One file per signal. Write a copy directly to the target's `inbox/` (HERMES retired). |
+*Rebuilt 2026-08-28 — the previous table was the original February 3-row version and listed none of the desk's instruments, including ones that had existed for months.*
+
+| File / dir | Purpose |
+|---|---|
+| **`scripts/boot.py`** | **SPAWN step 0.** 7 sections: live pull · European primary pull · registry fire state · key-figure age · predictions due · live-vector staleness · KB expiry. ⚠️ **§[2] prints the perimeter — what it CANNOT reach. A clean §[1] is not a clear board.** |
+| **`scripts/fetch_eu.py`** | **European PRIMARY pull, called by boot §[2].** ECB Data Portal (**keyless**): euro-area AAA 10Y daily + DE/IT/FR/ES 10Y monthly with derived spreads. GIE **AGSI+** (key in `FORGE/tools/market-data/.env`): EU storage fill + gap-to-norm. Runs standalone too. |
+| **`scripts/finding_check.py`** | **SHIP-GATE for empirical findings — `import gate()` into the research script itself.** Gate A: does the robustness check vary something *independent* of the claim? Gate B: auto re-run ex-crisis, fail on sign flip. ⚠️ **Catches 2 of 3 failure modes; does NOT catch construct validity.** Fleet adoption is DAEDALUS's to rule. |
+| `scripts/pmi_ism_lead_test.py` | The German→US lead test + its own verification pass. Reproducible. |
+| **`registry/THRESHOLDS.tsv`** | **14 rows, canonical.** ⚠️ Only 6 daily-scannable · 3 monthly prints · 1 event · 2 compound · **1 UNINSTRUMENTED and unable to fire — excluded from any clean-board count.** |
+| **`registry/HANS_T_FIRED_LOG.tsv`** | **The single fire record.** Other desks may read it; **never mirror it.** |
+| **`workbook/KB.tsv`** | Knowledge base on ZHAO's schema. **`Stale_By` is enforced by boot §[7]** — new facts go here, **not** into `ML.tsv`. |
+| `workbook/VX.tsv` | Vectors. **Live vs FROZEN/RETIRED is load-bearing** — boot excludes parked rows by design. Don't "helpfully" refresh a frozen row; read its named upgrade source first. |
+| `workbook/FLOW.tsv` · `PREDICTIONS.tsv` · `ML.tsv` | Transmission chains · prediction book (with `Resolve_By` + `Anchor_Type`) · master log |
+| **`thesis/KILL_TREE.md`** | Falsification surface + apparatus self-challenges. |
+| `thesis/*_PREREGISTRATION.md` | Pre-registered event calls — hypotheses and discriminators written **before** the event. |
+| `research/` · `reports/` | Analytical output · desk-level reports |
+| `STATUS.md` | Live state. **Primary memory.** Cap 250 lines. |
+| `inbox/` · `outbox/` | Inbound / outbound. ⚠️ **`outbox/delivered/` is a claim only the RECIPIENT'S tree can verify** — `find AGENTS/<RECIPIENT> -iname "*HANS*"`. `outbox/closed_undelivered/` = written then ruled undeliverable. |

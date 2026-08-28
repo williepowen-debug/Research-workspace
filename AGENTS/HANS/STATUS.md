@@ -207,7 +207,11 @@ The later-session sweep narrative (two self-corrections: **wrong tenor** on the 
 **Also live, no clock:** ECB Sept 10 · EA flash HICP Sept 1 · German flash PMI ~Sept 23 (`HNS-06`) · EU storage window Oct 1–Dec 1 (`HNS-07`, resolves 11/01) · next Qatar force-majeure decision ~end-Sept · `HNS-08` is **continuous-monitoring** — it resolves MISS the instant the Bund closes ≥4.00%, not at year-end.
 
 **✅ INFRASTRUCTURE BUILT 2026-08-28 (Will approved the recs) — use it, don't rebuild it:**
-- **`.venv/bin/python AGENTS/HANS/scripts/boot.py` is SPAWN PROTOCOL step 0.** 7 sections, ~5s. ⚠️ **§[2] names what it CANNOT pull (Bund, both gilts, EU storage, EGB spreads, ECB/BoE rates, PMI) — a clean §[1] is NOT a clear board.**
+- **`.venv/bin/python AGENTS/HANS/scripts/boot.py` is SPAWN PROTOCOL step 0.** 7 sections, ~10s.
+- **`scripts/fetch_eu.py` — European PRIMARY pull, called by boot §[2].** ✅ **Bund proxy (euro-area AAA 10Y, daily) + DE/IT/FR/ES 10Y with derived spreads — ECB Data Portal, NO KEY.** ✅ **EU gas storage fill + gap-to-norm — GIE AGSI+ (key live in `FORGE/tools/market-data/.env`, installed 8/28).**
+  ⚠️ **AGSI query form is `type=EU`, NOT `country=EU`** — the wrong form returns HTTP 200 with an empty array and reads as *"gas day not published yet."* Comment is in the source; don't re-derive it.
+  ⚠️ **The storage GAP is a CROSS-SOURCE derivation** — AGSI fill minus a GEF norm. Script prints the caveat every run. **Follow-up: compute the norm from AGSI history.**
+- ⚠️ **STILL MANUAL and named in boot §[2]: UK 10Y/30Y gilt** (no free daily source), plus the event-driven rows (ECB/BoE decisions, monthly PMI) which have no feed by nature. **A clean §[1]+§[2] is NOT a clear board.**
 - **`workbook/KB.tsv`** — 34 facts on ZHAO's schema; **`Stale_By` is enforced by boot §[7]**. New facts go here, not into `ML.tsv`.
 - **VX is now 40 live / 67 total.** 27 rows are FROZEN or RETIRED **on purpose**; boot excludes them by design. **Do not "helpfully" refresh a frozen row — read its named upgrade source first.**
 - **`thesis/ECB_2026-09-10_PREREGISTRATION.md`** — grade **both** `HNS-05` **and** its §3b tactical-vs-regime read. Reporting only the binary is the failure that document exists to prevent.
