@@ -210,8 +210,21 @@ reconstructing how a view, or the architecture, evolved; NEXUS_BRIEF is read by 
 - Pathspec: `AGENTS/OTTO/` — path-scoped commits only, run from repo root.
 - Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort →
   `git pull --rebase` + re-push; NEVER force.
-- OTTO-specific: the WALTER inbox signal drop stays untracked — WALTER processes + commits it
-  himself; never commit it.
+- **WALTER inbox signal drops: COMMIT THEM YOURSELF.** Explicitly pathed, recipient named in the
+  subject (`OTTO -> WALTER: <what>`), **at authoring** — per root `CLAUDE.md` carve-out ① (a packet
+  you authored into another agent's inbox is yours to commit, *and you must*: an uncommitted packet
+  never reaches the recipient and nobody is told).
+  > ⚠️ **AMENDED 2026-08-27 — this line previously read: *"the WALTER inbox signal drop stays
+  > untracked — WALTER processes + commits it himself; never commit it."*** That wording stood from
+  > its authoring until 2026-08-27 and **directly contradicted root carve-out ①.** The conflict went
+  > live **twice in one day** (four OTTO-authored signal packets left untracked with the recipients
+  > dark, including CARL's overdue V2 downgrade-leg spec; PROME repaired delivery both times with
+  > committed pointer packets). **Will ruled it 2026-08-27, verbatim "row 102 ruled (a)": root
+  > carve-out ① OVERRIDES this local line.** Ruling record — including the deciding check, that
+  > WALTER's `BOARD_CONSUMPTION_SPEC.md` contains **no** requirement that drops stay untracked —
+  > `PROME/proposals/2026-08-27_row102-carveout1-vs-otto-local-RULED-a.md` (`2dca890e8`).
+  > **Amended with provenance, never silently deleted.** The PROME pointer-packet class retires for
+  > future OTTO drops: the author's own commit is now the delivery guarantee.
 
 ---
 
