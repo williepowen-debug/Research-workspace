@@ -122,7 +122,7 @@ The frozen letter names **`GC=F`**. Today that ticker returns **three different 
 |---|---|---|---|
 | `GC=F` **daily history** bar | **$4,609.70** | **1,051** | the **expiring** contract — O=H=L=C flat bar |
 | `GCZ26.CMX` **daily history** bar | **$4,664.00** | **151,459** | the real front month |
-| `GC=F` **`fast_info.previousClose`** | **$4,631.40** | — | a **third** basis, unidentified |
+| `GC=F` **`fast_info.previousClose`** | **$4,631.40** | — | ✅ **IDENTIFIED 11:1x ET — the INTRADAY series' last bar** (KB-087). `GC=F`'s intraday-last for 8/27 is $4,631.40 exactly. **`fast_info` is intraday-sourced, not daily-sourced — never take a settle from it.** |
 
 **Spread: $54.30 (1.18%) across bases on one date.**
 
@@ -172,7 +172,7 @@ At **10:4x ET (PRE-SETTLE)**: **Pd `PA=F` $1,451.50** · Pt `PL=F` $1,881.60 · 
 |---|---|---|---|---|---|---|
 | **A** — GCZ26 both ends *(only internally consistent futures pair)* | −1.20% | +8.52% | +1.97% | **+9.92%** | **+3.98σ** | +1.67σ |
 | **B** — `GC=F` daily-history *(cross-roll contaminated; shown to bound only)* | −0.04% | +8.52% | +1.97% | +8.63% | **+3.46σ** | +1.01σ |
-| **C** — vendor `previousClose` on all three legs | −0.51% | +5.91% | +1.67% | +6.54% | **+2.62σ** | +1.13σ |
+| **C** — ⚠️ **MIS-LABELLED WHEN FIRST PUBLISHED; CORRECTED 11:2x ET.** Called *"vendor previousClose"*, which implies a **close**. It is an **INTRADAY LAST**, on a **different contract** than the daily series, and **it is not a settle** (KB-087). Kept as a bound only. | −0.51% | +5.91% | +1.67% | +6.54% | **+2.62σ** | +1.13σ |
 
 **I2 re-open condition (b)** *(`reports/2026-08-27_pgm-surge-attribution.md` §7)*: *a third Pd-led PGM tail event — Pt or Pd residual **>2.5σ** vs gold, **Pd leading** — n=3 is a pattern and demands a mechanism, not another filing.*
 

@@ -66,3 +66,23 @@ A continuous front-month symbol (`CL=F`, `HO=F`, `RB=F`, and every "front month"
 **★ THE ATTRIBUTION RULE, which is the transferable half:** the sibling desk diagnosed the same discrepancy as **purely** a settle-vs-live-tick timing error and concluded *"we were on the same contract."* True of the daily series, false of the intraday feed its own `fetch.py` hit. **Both diagnoses give the same headline and the same corrected number, so the error is invisible in the answer — it only shows up in the FIX.** A pure-timing diagnosis prescribes *"pull after the settle"* — which still returns **a Nov number to an Oct question.** ⇒ **When a roll artifact and a session-boundary artifact co-occur (and per the pairing rule above, they usually do), DECOMPOSE the gap into both legs before prescribing. A fix aimed at one leg leaves the other standing, and it will look like it worked.**
 
 **Rule:** never characterise a continuous series from ONE resolution. **Check the daily bars AND the intraday bars against the named contracts, separately** — `fast_info` is a third answer again (facet 3). And **quote the named contract, not the alias**: after this, `BZ=F` is not a citable identifier on BRENT's desk at all.
+
+**⚠️ FACET 3, SHARPENED SAME DAY — one ticker serves SEVERAL series, and they can sit on DIFFERENT CONTRACTS *and* different clocks. Three independent axes, not one.**
+
+The facet-2 detector ("match the continuous close against each candidate contract for the same date") silently assumes the alias means one contract **per date**. It can mean different contracts **per SERIES**.
+
+**BRENT, 2026-08-28, on `BZ=F`:** Yahoo's **daily** series rolled Oct→Nov between 8/27 and 8/28; its **intraday** series had already rolled between **8/24 and 8/25 — three sessions earlier**. So WALTER's stale tick was **wrong session AND wrong contract**, and its own supporting argument ("the 8/27 daily low brackets my figure") was a **range coincidence** — both contracts' ranges contained it. **Bracketing cannot identify a contract; the trade-date OPEN can.**
+
+**MIDAS reproduced it on gold the same hour:** `GC=F`'s **intraday** series matched `GCZ26`'s intraday **exactly on all five days 8/24–8/28** (gap 0.00) while `GC=F`'s **daily** series carried the **dying** contract through 8/27 — **at least four sessions wide.** That test also identified a value previously recorded as *"a third basis, unidentified"*: **`fast_info.previousClose` is INTRADAY-sourced** (`GC=F` intraday-last for 8/27 = $4,631.40, exactly the `previousClose`). **It is not a settle. Never grade from it.**
+
+**And the third axis is not a contract question at all:** `GCZ26`'s **own** daily and intraday disagree — 8/27 daily $4,664.00 vs intraday-last $4,631.40, **−$32.60, same contract both sides** — because the last 60m bar of a ~23h Globex session is **not** the settlement.
+
+⇒ **One ticker can disagree with itself along CONTRACT · SERIES TYPE · TIMESTAMP, independently.**
+
+**Rules:**
+- **Never mix series in one delta.** Daily-to-daily or intraday-to-intraday, never one of each — and say which in the label.
+- **`fast_info` / `previousClose` shortcuts inherit the intraday axis.** For a settle, use the daily-interval history explicitly.
+- **When you catch a roll, check whether the OTHER series rolled on a different date.** Assume they did until measured.
+- **Identify a contract by its OPEN or its VOLUME, never by whether a value falls inside a range.** A range wide enough to contain your figure is usually wide enough to contain both candidates — `[[finding_crosscheck_with_free_parameter_validates_nothing]]`.
+
+**The framing that generalises past futures (WALTER, `SIG-W-20260828-012`):** *a continuous-front ticker lies about **two independent things** — **which contract** and **which session** — and **a fix aimed at one leaves the other standing.*** A pure-timing diagnosis tells you to "pull after the settle" and you still get a Nov number on an Oct question. **Diagnose both axes before declaring a data defect fixed.**

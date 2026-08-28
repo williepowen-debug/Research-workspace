@@ -8,6 +8,10 @@ WHY THIS EXISTS
   1. PRINT BOTH BASES (L-19). The frozen letter names `GC=F`. Today GC=F's DAILY HISTORY is stitched
      to the DYING contract while its LIVE bar is GCZ26 -- three different values for 2026-08-27
      ($4,609.70 / $4,664.00 / $4,631.40, a 1.18% spread). KB-080, L-40.
+  1b. THE SAME TICKER SERVES SEVERAL SERIES AND THEY CAN SIT ON DIFFERENT CONTRACTS (KB-087).
+     GC=F's INTRADAY series matched GCZ26 exactly on all five days 8/24-8/28 while its DAILY series
+     carried the dying contract through 8/27 -- the split is at least four sessions wide. And
+     fast_info.previousClose is INTRADAY-sourced: it is NOT a settle. Never grade from it.
   2. IDENTIFY THE CONTRACT BY VOLUME, NOT PRICE (L-40). A ~1,000-lot day on the world's most liquid
      gold future is not the front month. This is the cheapest contract-identity test there is and it
      needs no contract codes.
@@ -84,6 +88,25 @@ def main():
             print("    %-11s bar %s  close %10.4f  vol %9s%s" % (t, bar, last, format(vol, ","), flag))
         except Exception as e:
             print("    %-11s ERROR %s" % (t, str(e)[:50]))
+
+    # --- INTRADAY vs DAILY series check (KB-087; BRENT's BZ=F finding, reproduced on gold) ---
+    # yfinance serves MULTIPLE series under one ticker and they can sit on DIFFERENT CONTRACTS.
+    # GC=F's intraday matched GCZ26 exactly on all five days 8/24-8/28 while its DAILY series
+    # carried the dying contract through 8/27. And even on ONE contract, the last 60m bar of a
+    # ~23h Globex session is NOT the 13:30 settlement. Three axes: contract, series type, timestamp.
+    print("\n  --- INTRADAY vs DAILY, same ticker (KB-087: they can disagree on all three axes) ---")
+    for t in ["GC=F", "GCZ26.CMX"]:
+        try:
+            i = yf.Ticker(t).history(period="2d", interval="60m")["Close"]
+            d = yf.Ticker(t).history(period="3d", interval="1d")["Close"]
+            il, dl = float(i.iloc[-1]), float(d.iloc[-1])
+            gap = il - dl
+            note = "  <<< SERIES DISAGREE -- do not mix them in one delta" if abs(gap) > 1.0 else "  (consistent)"
+            print("    %-11s daily-last %10.4f   intraday-last %10.4f   gap %+8.2f%s" % (t, dl, il, gap, note))
+        except Exception as e:
+            print("    %-11s intraday check unavailable: %s" % (t, str(e)[:40]))
+    print("    ⛔ NEVER take a settle from fast_info.previousClose -- it is INTRADAY-sourced (KB-087).")
+    print("       Every figure above comes from history(interval='1d'), which is the right series.")
 
     if "GC=F" in tick and "GCZ26.CMX" in tick:
         gap = tick["GCZ26.CMX"] - tick["GC=F"]
