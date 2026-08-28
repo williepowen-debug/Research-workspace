@@ -1,0 +1,13 @@
+batch_id	BM-20260828-04
+source	Will-Telegram 8-image batch 2026-08-28 ~17:04Z (13:04 ET) — Will flagged "these might be old" => NOVELTY/DATE is the gate
+declared_open	8
+state	ALL-8-DISPOSITIONED (writes held)
+item	file	disposition	ref
+1	1787936644311-AQADhg1rG2ISiUR9.jpg	DUP	Exact duplicate of BM-03 item 8 (BofA crude days-of-supply)
+2	1787936645356-AQADiA1rG2ISiUR-.jpg	KILL	Novelty + repeats a conflation the fleet ALREADY refuted: SIG-W-20260819-034 (buyback-vs-bills = synthesis of two separate Treasury actions); SIG-W-20260822-002 round-trip
+3	1787936647009-AQADiQ1rG2ISiUR-.jpg	DISPATCH-STAGED	W4-A Bernstein data-centre DOUBLE-ORDERING survey (multi-origin w/ item 4: Zitron + Burry). NOVEL - zero BOARD hits for bullwhip/double-order
+4	1787936647729-AQADig1rG2ISiUR-.jpg	FOLD	Multi-origin duplicate of item 3 -> W4-A (Burry 'Bullwhip will sting' on the same survey)
+5	1787936648319-AQADiw1rG2ISiUR-.jpg	DISPATCH-CORRECTED	W4-B Burry private credit - BOTH headline numbers UNVERIFIED (half of AI DCs; 3,000 PE firms). Substitute verified $849B PE-owned life-insurer PC (Yale/UT, >2x 2014)
+6	1787936649023-AQADjA1rG2ISiUR-.jpg	DISPATCH-STAGED	W4-C Britain worst harvest 40yr, food shortages within months (Telegraph) -> AEOLUS/FERT/MARCO. NOVEL
+7	1787936649841-AQADjQ1rG2ISiUR-.jpg	DISPATCH-STAGED	W4-D Berkshire/Clayton + Taylor Morrison -> #4 US homebuilder. DEAL announced 5/31/26 (stale) but ZERO BOARD coverage -> HOMER
+8	1787936650612-AQADjg1rG2ISiUR-.jpg	KILL	Novelty: Perm refinery ALREADY dispatched SIG-W-20260822-003 (1600km deep, crude-vs-products, OSPREY owns)

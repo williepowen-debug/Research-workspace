@@ -1,0 +1,14 @@
+batch_id	BM-20260828-03
+source	Will-Telegram 8-image batch 2026-08-28 ~16:25Z (12:25 ET)
+declared_open	8
+state	ALL-8-DISPOSITIONED (writes held)
+note	STAGED IN SCRATCHPAD — walter-0828 subagent live, shared registry write withheld.
+item	file	disposition	ref
+1	1787934298828-AQADfw1rG2ISiUR9.jpg	DISPATCH-STAGED	W3-A US saving rate near record low (Bloomberg/BEA chart; take exact print from BEA)
+2	1787934299633-AQADgA1rG2ISiUR-.jpg	DISPATCH-FLAGGED	W3-B Oman halts US escort cooperation - UNVERIFIED, PressTV single-channel, contradicts anchor verified 12h later
+3	1787934300413-AQADgQ1rG2ISiUR-.jpg	DISPATCH-STAGED	W3-C New home sales -10.5% to 607K (rel 8/25; June revised UP 678K; prices at 5yr low AND sales fell)
+4	1787934301015-AQADgg1rG2ISiUR-.jpg	DISPATCH-CORRECTED	W3-D Amur GCC fire REAL (7 dead, 9 Chinese missing, SIBUR/Sinopec) - drone attribution FALSE, 6000km from Ukraine
+5	1787934301216-AQADgw1rG2ISiUR-.jpg	KILL	Credibility/novelty: Financelot Bessent thread - no datum, no primary, unfalsifiable narrative
+6	1787934301695-AQADhA1rG2ISiUR-.jpg	DISPATCH-CORRECTED	W3-E Fed 4-of-12 discount vote - 3 of 4 are the SAME July dissenters, NOT independent breadth
+7	1787934302173-AQADhQ1rG2ISiUR-.jpg	DISPATCH-CORRECTED	W3-F Polymarket 67% bank failure - resolves from MARKET CREATION; the 5 2026 failures do NOT count
+8	1787934302969-AQADhg1rG2ISiUR9.jpg	DISPATCH-STAGED	W3-G BofA US crude days-of-supply incl SPR ~42d vs 65 avg, 40-50yr low

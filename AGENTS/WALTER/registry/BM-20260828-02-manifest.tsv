@@ -1,0 +1,15 @@
+batch_id	BM-20260828-02
+source	Will-Telegram 8-image batch 2026-08-28 ~15:53Z (11:53 ET)
+declared_open	8
+state	ALL-8-DISPOSITIONED (writes held: walter-0828 live)
+note	STAGED IN SCRATCHPAD — walter-0828 subagent live, shared registry write withheld. Port to registry/ at dispatch.
+item	file	disposition	ref
+1	1787932400742-AQADdg1rG2ISiUR-.jpg	DISPATCH-STAGED	W2-A Navy payroll raid (Guardian, multi-origin w/ item 7)
+2	1787932401209-AQADdw1rG2ISiUR-.jpg	KILL	Credibility+materiality: Rosatom single-channel, source's own text says no damage/no radiation/no injuries; no IAEA
+3	1787932401922-AQADeA1rG2ISiUR-.jpg	DISPATCH-STAGED	W2-B Chicago PMI 47.1 (+ Kalshi item FOLDed into W2-D)
+4	1787932402591-AQADeQ1rG2ISiUR-.jpg	DISPATCH-STAGED	W2-C Goldman: Hormuz flows ~2/3 pre-war
+5	1787932403098-AQADeg1rG2ISiUR-.jpg	DISPATCH-STAGED	W2-D Polymarket 67% 2026 hike odds post-Warsh
+6	1787932403671-AQADew1rG2ISiUR-.jpg	KILL	Novelty: QCEW -79,000 already dispatched+primary-verified by fleet today (PROME DOCKET 120, USDL-26-1425)
+7	1787932404160-AQADfA1rG2ISiUR-.jpg	FOLD	Multi-origin duplicate of item 1 -> W2-A
+8	1787932404656-AQADfQ1rG2ISiUR-.jpg	DISPATCH-STAGED	W2-E Wages 43% of GDI (w/ correction: narrow measure; broad=54.1% since 1947)
+#	NOTE	batch_manifest.py NOT used: all three batches were declared and dispositioned under a concurrent-writer hold (walter-0828 live), so the manifest was staged in scratchpad and ported here on release. --open/--close discipline was followed by hand: count declared BEFORE processing, every item dispositioned, NO-ACTION/DUP/FOLD recorded explicitly.
