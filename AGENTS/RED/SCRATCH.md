@@ -22,6 +22,16 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S38h (2026-08-28, ~15:3x ET) — Two remaining focus-list tasks: CHG-051 two-axes rider + FT-01/FT-06/FT-07 amendment-inherits-certificate audit COMPLETE. Zero live ML-203 defects on the audit set; three future-risk items flagged. NO WEIGHT MOVED.**
+
+- **CHG-051 body extended with two-axes rider** (TIME + EDIT staleness). Both belong to the same class; both need scheduled checks; different fixes. Live examples on both sides recorded.
+- **Five-row audit (expanded from FT-01/06/07 to include FT-08 + FT-11 that came up under the same class):** FT-01 ✅ (measurement drove the amendment) · FT-06 ✅ on ML-203 axis (action-side, ML-144 pre-existing) · FT-07 ⏳ (no amendment yet; 9/4-9/11 rule made explicit on row) · FT-08 ⚠️ CLASS-NEIGHBOR (ML-183 manual-review methodology) · **FT-11 ⚠️ FUTURE RISK — v1.1 conditional butterfly leg has NO base rate registered; if BOND F2 activates it post-9/9 without a base-rate check, this is the exact ML-203 defect. Row updated with the v1.1 obligation.**
+- **Standing rule adopted:** any amendment to a trigger's CONDITION runs `base_rate_review.py` against AMENDED text BEFORE landing. Enforcement is BEHAVIORAL until the tool learns spec-diff. Corollary: conditional spec-swaps must base-rate the alternative leg at REGISTRATION of the conditional, not at activation.
+- **Owed forward — full-registry audit** of the remaining 7 rows (FT-02/03/04/05/09/10/12) at 9/4-9/11 window.
+- **Apparatus self-check:** audit relies on `last_reviewed` accuracy; turtles-all-the-way-down risk noted, deferred. A git-log-based amendment detector or `AMENDMENTS.tsv` would harden the check.
+- **Report:** `challenges/2026-08-28_amendment_inherits_cert_audit.md`. **ML-RED-205 filed.**
+- **FT-11 v1.1 base-rate obligation** goes on the next-session priority queue: base-rate the butterfly leg `2*DGS20−DGS10−DGS30` before v1.1 activates. Deferrable but time-bounded — the trigger goes live 9/9 and BOND's F2 read follows.
+
 **🆕 S38g (2026-08-28, ~15:1x ET) — HOUSEKEEPING: P1 read-cap fold on STATUS + board_log. Both went 🔴 OVER-CAP → green (STATUS 🟡 rotate-tier under cap; board_log ✅). NO WEIGHT MOVED.**
 
 - **STATUS folded 86,955 B → 29,689 B (66% reduction).** State line was 32,053 B alone (98% of cap on ONE row) — rewritten to day-summary only. S38 + S35 sections archived verbatim → `reports/2026-08-28_S35-S38_status_narrative_archive.md`. FALSIFICATION CRITERIA table compressed to firing rows + registry pointer. OPEN CHALLENGES compressed to headline row per CHG (canonical detail in workbook TSV). TOP PRIORITIES compressed to 7 standing items (live queue lives in SCRATCH). Full verbose forms preserved in the archive under STATUS SECTION SNAPSHOTS.

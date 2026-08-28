@@ -6,6 +6,20 @@
 
 
 
+## 2026-08-28 ~15:3x ET — S38h: CHG-051 two-axes rider + FT-01/FT-06/FT-07 amendment-inherits-certificate audit COMPLETE. NO WEIGHT MOVED — challenge state extended; three future-risk items flagged; standing rule adopted
+
+**Confidence 69 (=). Net-bear 60 (=). Weight unchanged; the entry exists because CHG-051's scope extended and three registry-row conditions moved into audit-tracked state.**
+
+- **CHG-051 rider (two-axes decomposition of charge B):** Axis ① TIME staleness (original charge B — base rates computed once, never recomputed; live examples FT-01 21.8→48.3%, FT-07 32.5→84.2%; fix = boot 9d `base_rate_review.py`) + Axis ② EDIT staleness (NEXUS ML-203 sibling — base rates not re-verified against AMENDED spec text; amendment inherits the ORIGINAL's construction certificate; live example NEXUS's T6 ADDENDUM 2 stripping B's ratio leg → B 85.9%→0.0% reachability as a side effect).
+- **Row-by-row audit (FT-01/FT-06/FT-07 + FT-08/FT-11 which surfaced under the same class):** FT-01 ✅ COMPLIANT (measurement drove the amendment); FT-06 ✅ COMPLIANT on ML-203 axis (action-side amendment, not condition); FT-07 ⏳ WATCH (9/4-9/11 rule made explicit on row); FT-08 ⚠️ CLASS-NEIGHBOR (manual-review methodology, ML-183 issue); **FT-11 ⚠️ FUTURE RISK — v1.1 conditional butterfly leg has NO BASE RATE registered; if BOND F2 read fires post-9/9 and v1.1 activates without a pre-registration base-rate check, this row falls into the exact ML-203 defect.**
+- **Standing rule adopted:** at any amendment to a trigger's CONDITION (metric/threshold/sustain/leg structure), re-run `base_rate_review.py` against the AMENDED text BEFORE the amendment lands. Enforcement is BEHAVIORAL until the tool learns to diff spec-versions. Corollary from FT-11: any conditional spec-swap must base-rate the alternative leg at REGISTRATION of the conditional, not at activation.
+- **Owed forward:** full-registry audit of the 7 remaining rows (FT-02/03/04/05/09/10/12) at the 9/4-9/11 window when three of them will be under active amendment.
+- **Apparatus self-check on the audit itself:** the audit relies on `last_reviewed` cells being accurate — turtles-all-the-way-down risk noted but bounded; a git-log-based amendment detector or an authored `AMENDMENTS.tsv` per row would harden it. Deferred as scope creep.
+- **What DID NOT move:** no weight, no threshold, no trigger state, no fires, no exits. The audit's finding is about my instruments, not the world (per the S35 apparatus-self-challenge guard).
+- **Report:** `challenges/2026-08-28_amendment_inherits_cert_audit.md`. **ML-RED-205 filed.**
+
+---
+
 ## 2026-08-28 ~14:1x ET — S38e: VX-RED-004 CLOSED as FLIPPED-BEAR-TERMINAL rather than fake-re-specced. NO WEIGHT MOVED — vector state changed
 
 **Confidence 69 (=). Net-bear 60 (=). Weight unchanged on all six buckets; VX row moves TERMINAL, not RE-SPEC.**
