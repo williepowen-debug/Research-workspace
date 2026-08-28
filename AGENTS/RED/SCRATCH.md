@@ -22,6 +22,13 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S38d (2026-08-28, ~13:5x ET) — PROME doorbell: R1 receipt APPLIED + FT-12 8/28-cell pre-registration + WILL_QUEUE row 106 label-only-change context. NO WEIGHT MOVED.**
+
+- **R1 rc=1 was a REAL block** — COR-20260828-01 (WALTER's BZ correction; Brent 8/26 close $87.84 not $86.36). Found live cite on OUTBOX line 71 (RED-TO-PROME-030), corrected in-place with strike-through leaving a trail. Receipt written APPLIED via `corrections_boot_check.py RED --receipt COR-20260828-01 --action APPLIED`; `registry/corrections_receipts.tsv` created; rc=0 now.
+- **FT-12 8/28-cell pre-registered UNGRADEABLE-PENDING-PUBLICATION.** Monday discipline written onto the row: read 8/28 obs at BAMLH0A0HYM2 on FRED at boot; if <260 → start sustain-3 as day 1 (needs 8/31 AND 9/1 also <260 to fire); if ≥260 → count stays 0. Absence-of-print does NOT clear a sustain count and does NOT extend one.
+- **WILL_QUEUE row 106 context noted on FT-12 row** — PROME proposes reserving "kill" for the registry 2-close rung, labelling the other three (LIQUID intraday, RED/LIQUID s=3, HENRY s=5) OBSERVABLES. **FT-12 LETTER unchanged if Will rules** (mechanics, trigger, weight, exit all identical); only vocabulary shifts.
+- **Monday MIDAS-06 verifier duty (post-16:15 ET)** — packet still in processed; briefing already consumed at S38 boot. VerifyResolution authoring rides that.
+
 **🆕 S38c (2026-08-28, ~12:2x ET) — WALTER hand-carry: Chicago PMI 47.1 + Polymarket HIKE-2026 67%. Pre-registration owed on FT-12 counter-pressure. NO WEIGHT MOVED.**
 
 - **Chicago PMI collapsed to 47.1 from 57.6** (~10.8pt miss vs consensus 57.9 — WALTER corrected a Schiff relay quoting 59; "biggest since Feb 2015" claim unsourced, treat as color).
