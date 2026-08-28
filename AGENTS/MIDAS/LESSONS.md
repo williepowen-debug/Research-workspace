@@ -52,3 +52,6 @@
 | **L-38** | 2026-08-28 | A ledger's vocabulary is a claim about what it can SCORE — a four-branch letter in a binary-only family passes every validator and still misleads. |
 | **L-39** | 2026-08-28 | A band on a 1bp-grid series is a step function of its width — five defensible σ windows collapsed to two bands, so register the print set, never "±1σ". |
 | **L-40** | 2026-08-28 | Volume identifies the contract; price does not — a continuous ticker stitched history to the dying contract at 1,000 lots while its live bar was the 200,000-lot front month. |
+| **L-41** | 2026-08-28 | Pre-register the COMPUTATION and freeze the distribution, not just the boundary — and write the expected value into the dry run, or a plausible failure passes as a pass. |
+| **L-42** | 2026-08-28 | An over-cap surface loses whatever convention puts LAST — for STATUS files that's the summary; measure the dropped bytes, never assume them. |
+| **L-43** | 2026-08-28 | The exchange's clock is not the vendor's clock — "settled at 13:30" can be true while the feed has no settle at all; verify STATIC, not just closed. |

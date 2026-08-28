@@ -2,7 +2,7 @@
 
 ⛔ **CITE 87.7–91.1% unexplained by real rates (UNIVARIATE, computed — BOND's six cells, reproduced here at 87.6–91.1%, L-22 fork).** ⛔ **NAME THE CONSTRUCTION:** currency-stripped **90–93%** (own re-derivation 93.0–93.8%) · two-factor **61–69%** answers a DIFFERENT question. **Never cross-attribute.** Verdict through four re-bases: **rates-ASSISTED, not rates-EXPLAINED** (rates 8.9–12.3%, nothing >15%). → KB-068, L-35.
 
-**Last Updated:** 2026-08-28 ~15:5x ET — **COT #3 GRADED (falsifier FIRED) · MIDAS-06 provisional (d) · STATUS rotated under the P1 read cap.** ⛔ **MIDAS-06 final grade STRIKES MON 8/31** on the 8/28-dated DFII10 observation (Will's grade-date class ruling, option (i)). **Composite 7/20 unchanged · kill-cond #3 FIRED 1/4 · zero capital · no threshold, band or frozen letter touched.**
+**Last Updated:** 2026-08-28 ~16:1x ET — **CLOSEOUT.** COT #3 GRADED (**falsifier FIRED against me**) · MIDAS-06 provisional **(d)** · **no vendor settle exists** (KB-088/L-43) · Pd **+4.72σ, rank ~2 of 666, NOT confirmed** · STATUS rotated **55,838 → 30,009 B, READ-CAP 0** · inbox drained to 0. ⛔ **MIDAS-06 final grade STRIKES MON 8/31** on the 8/28-dated DFII10 observation (Will's grade-date class ruling, option (i)). **Composite 7/20 unchanged · kill-cond #3 FIRED 1/4 · zero capital · no threshold, band or frozen letter touched.**
 **Class:** Market-agent (metals as macro tells) · **Spawnable by:** PROME or Will · **Maturity:** L2 (spot/yield/GSR/LME via `metals_watch.py`; COT via `cot_gold.py`; settle/COT graders `settle_check.py` + `grade_cot3.py`, 8/28)
 
 > ### 🔴 LIVE MARKS — read the label, not just the number
