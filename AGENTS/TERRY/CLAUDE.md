@@ -158,6 +158,7 @@ Input: closed/failed trade. Output: thesis right/wrong, timing right/wrong, stru
 11. Pull live prices before citing levels. Prefer `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/snapshot.py TICKER --benchmark BENCHMARK --stress)`; use `FORGE/tools/market-data/fetch.py price ...` / `dashboard.py` directly when needed.
 12. For sizing math, use `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/risk_calc.py …)` and paste the output into the trade card risk section when helpful.
 13. For pasted/exported option chains, use `(cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/TERRY/scripts/chain_parse.py …)`; if no chain is available, mark option-specific terms as conditional and name the chain fields Will must verify.
+14. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" TERRY` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### Standing context — two things that are true every session
 *(Embedded from auto-memory 2026-08-04, Phase-2 restructure — these no longer auto-load at boot, so they live here.)*
