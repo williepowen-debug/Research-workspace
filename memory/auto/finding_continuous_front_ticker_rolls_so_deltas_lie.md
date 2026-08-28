@@ -1,6 +1,7 @@
 ---
 name: finding_continuous_front_ticker_rolls_so_deltas_lie
 description: Continuous front-month tickers (=F) silently switch contracts — a LEVEL survives the roll, a DELTA or SPREAD across it is fabricated, and a COEFFICIENT fitted on it is attenuated toward zero in the direction that flatters the thesis.
+symptoms: "same ticker returns two different closes for one date"; "fast_info previousClose disagrees with the daily bar"; "vendor history and live quote are on different contracts"; "daily volume collapsed to a few hundred lots on a liquid future"; "flat O=H=L=C bar with the same volume as yesterday"; "headline % move is an artifact of the roll"; "my WoW/crack/spread printed a move the market did not make"
 metadata:
   type: reference
 ---
@@ -24,3 +25,28 @@ A continuous front-month symbol (`CL=F`, `HO=F`, `RB=F`, and every "front month"
 **Rules for this facet:** re-fit any load-bearing coefficient on an **unrolled proxy** (ETF, spot, or a single stitched contract) before publishing it · **report both** and say **which direction the error flatters** · treat sign-disagreement rate, not just magnitude, as the contamination measure — 13% of days pointing opposite ways will not show up in a correlation summary.
 
 **Generalization:** any auto-advancing pointer — front-month futures, "latest vintage", rolling N-day windows, `LIMIT 1` on a re-keyed series — has this shape. **The identity of what you are measuring changed while the name stayed the same.** Sibling of [[finding_derived_metric_across_vintages_biases_toward_stale_leg]] and [[finding_cross_entity_comparison_needs_same_perimeter]]; the twin where the *label* rather than the *perimeter* moves is [[finding_bypass_turns_a_flow_proxy_into_a_routing_metric]]. Related: [[finding_number_carries_threshold_unit_source]], [[finding_ohlc_verify_before_session_claims]].
+
+---
+
+**⚠️ THE THIRD FACET — a continuous ticker's HISTORY and its LIVE bar can be on DIFFERENT contracts AT THE SAME TIME, and the cheapest detector is the VOLUME column, not the price.** The "detect the roll by matching the continuous close against each candidate contract" rule above assumes the alias means **one** contract per date across the whole series. It can mean two at once.
+
+**Measured 2026-08-28 (MIDAS), on the instrument a frozen prediction was about to grade against.** `GC=F` returned **three** different values for **one date, 2026-08-27**:
+
+| asked for | 8/27 value | volume | what it actually was |
+|---|---|---|---|
+| `GC=F` daily-history bar | **$4,609.70** | **1,051** | the **expiring** contract, `O=H=L=C` flat |
+| `GCZ26.CMX` daily-history bar | **$4,664.00** | **151,459** | the real front month |
+| `GC=F` `fast_info.previousClose` | **$4,631.40** | — | a **third** basis, unidentified |
+
+**Spread $54.30 = 1.18% on a single date, nothing erroring.** `GC=F`'s 8/28 bar then returned **identical OHLC *and volume*** to `GCZ26.CMX`'s own 8/28 bar ⇒ its **history was stitched to the dying contract while its current bar was the new front month**, putting a **~$55 contract gap inside the series at the exact session boundary being graded across.**
+
+**The volume column answered it with no contract codes at all:** `GC=F`'s 8/19–8/27 bars carried **311–1,336** lots against `GCZ26`'s **151,459–250,482**. *A ~1,000-lot day on the world's most liquid gold future is not the front month.*
+
+**Rules for this facet:**
+- **Pull VOLUME beside price on any continuous ticker and sanity-check it against the instrument's known liquidity.** Cheapest contract-identity test there is — needs no contract codes and no roll calendar, so it works on **first contact with an unfamiliar ticker**, which is exactly when facet-2's matching method is unavailable.
+- **Check the live quote and the daily history separately.** They can disagree; `fast_info.previousClose` can be a third answer again. Never assume one pull characterises the series.
+- **A flat `O=H=L=C` bar carrying a duplicated volume figure is a dying-contract tell, not a quiet session.** ⚠️ **Prompt to look, never a verdict** — in this same pull *both* tickers reported identical volume for 8/26 and 8/27, so duplicated volume can also mean a partly carried bar on a healthy contract.
+
+**⚠️ n=2 IN ONE DAY, ACROSS TWO COMMODITIES AND TWO DESKS — this is a vendor-wide property, not one desk's quirk.** The same morning, WALTER found `BZ=F` had rolled Oct→Nov between sessions, making a headline **−1.98%** Brent move a **~1.2pp roll artifact** against a like-for-like **−0.75%** — *and* found its own published 8/26 "close" was a **live tick from the next session** (a slide published as −8.5% that was really −6.94%). **Gold and Brent, metals desk and routing desk, inside 24 hours.** The two failure modes travel together because both are triggered by the same thing: **pulling a futures series near a session boundary or a roll and trusting the label.**
+
+**The pairing rule:** whenever you catch a roll artifact, also check whether the bar you are holding is a **settled close or a live tick** — and vice versa. They co-occur, they compound (a live tick *from the next contract*), and each one alone reads as a plausible market move.
