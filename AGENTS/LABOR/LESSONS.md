@@ -17,7 +17,7 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 **Fix (and it is one line at C2, not a new gate):** when repricing a prediction, **write the number twice — once as a move from the standing value, once cold from base rates with the standing value not visible — and if they disagree by more than ~2×, take the cold one and record both.** Then, at resolution, **score the CORRECTIVE as its own row, not just the as-made value.** LABOR's scoreboard grades as-made 65% and is blind to the fact that the 35% was also wrong; a book that never grades its own repricing steps cannot learn that its repricing is mis-calibrated. ⚠️ **This partners with C2-0 but is not the same thing:** C2-0 sweeps *stale* high-confidence rows. **This one fires on the freshly-repriced row — the one that just received attention and therefore looks safest.** Partner auto-memory: `[[finding_corrective_inherits_the_anchor_it_corrects]]`.
 
-**First seen:** LAB-08, 2026-08-28 (QCEW preliminary benchmark = −79,000; card §4 Band E → 4%; the 8/07 reprice to 35% was ~7× high).
+**First seen:** LAB-08, 2026-08-28 (QCEW preliminary benchmark = −79,000; card §4 Band E → 4%; the 8/07 reprice to 35% was **~8.75×** high). *(🔧 8/28: “~7×” was asserted, never computed — 35/4 = 8.75×.)*
 
 ---
 
