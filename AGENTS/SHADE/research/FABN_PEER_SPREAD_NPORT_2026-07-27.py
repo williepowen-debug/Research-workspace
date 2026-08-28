@@ -29,6 +29,11 @@ ISSUERS = {
 }
 PEERS = [k for k in ISSUERS if k != "ATHENE"]
 MAX_FILINGS = int(sys.argv[1]) if len(sys.argv) > 1 else 120
+# 2026-08-28 rerun: the enumeration window was hardcoded to the 2026-05-01..07-27
+# vintage. Parameterised so a window is an explicit, stamped input rather than a
+# silent constant. Defaults are the 6/30-period window (filed ~Jul-Aug 2026).
+START_DT = sys.argv[2] if len(sys.argv) > 2 else "2026-07-01"
+END_DT   = sys.argv[3] if len(sys.argv) > 3 else "2026-08-28"
 
 
 def get(url, raw=False, tries=4):
@@ -49,17 +54,29 @@ def get(url, raw=False, tries=4):
 # ---------- 1. enumerate candidate filings (those naming Athene Global Funding) ----------
 print("[1] enumerating NPORT-P filings holding Athene Global Funding ...", flush=True)
 filings = {}
+# DEFECT FIX 3 (DAEDALUS SFG sweep 2026-08-17): the original `if not raw: break`
+# truncated enumeration silently — a fetch failure and "no more results" were the
+# same exit, with no count. §2 already reported "{bad} fetch failures"; that honest
+# form is extended here. enum_truncated counts pages LOST to failure, and is
+# reported at the end so a short filing set can never look complete.
+enum_truncated = 0
+enum_exhausted = False
 for frm in range(0, 300, 10):
     u = ("https://efts.sec.gov/LATEST/search-index?q=%22Athene+Global+Funding%22"
-         f"&forms=NPORT-P&startdt=2026-05-01&enddt=2026-07-27&from={frm}")
+         f"&forms=NPORT-P&startdt={START_DT}&enddt={END_DT}&from={frm}")
     raw = get(u)
     if not raw:
+        enum_truncated += 1
+        print(f"    [1!] page from={frm}: FETCH FAILED — enumeration truncated", flush=True)
         break
     try:
         hits = json.loads(raw)["hits"]["hits"]
     except Exception:
+        enum_truncated += 1
+        print(f"    [1!] page from={frm}: PARSE FAILED — enumeration truncated", flush=True)
         break
     if not hits:
+        enum_exhausted = True
         break
     for h in hits:
         acc, doc = h["_id"].split(":")
@@ -68,7 +85,11 @@ for frm in range(0, 300, 10):
     time.sleep(0.12)
     if len(filings) >= MAX_FILINGS:
         break
-print(f"    {len(filings)} filings", flush=True)
+print(f"    {len(filings)} filings"
+      f" | enumeration {'EXHAUSTED (complete to the query bound)' if enum_exhausted else 'STOPPED EARLY'}"
+      f" | pages lost to failure: {enum_truncated}"
+      f"{'  ⚠️ FILING SET IS INCOMPLETE — do not read counts as a population' if enum_truncated else ''}",
+      flush=True)
 
 # ---------- 2. pull each filing, extract the 7 issuers' debt holdings ----------
 HOLD = re.compile(r"<invstOrSec>(.*?)</invstOrSec>", re.S)
@@ -173,6 +194,14 @@ if not key:
         except OSError:
             pass
 curve = {}
+# DEFECT FIX 1/2 support (DAEDALUS SFG sweep 2026-08-17):
+#   curve_asof[period] = the date the curve values ACTUALLY came from (may lag the period).
+#   MIN_TENORS / REQUIRED_TENORS = the emptiness test replacement. 5Y and 7Y bracket the
+#   deliverable "5Y FABN" tenor; without both, a 5-7y spread is an extrapolation dressed
+#   as an interpolation. 2 and 10 anchor the short and long ends of the bracket.
+curve_asof = {}
+MIN_TENORS = 5
+REQUIRED_TENORS = (2, 5, 7, 10)
 periods = sorted({r["period"] for r in mrows})
 for pe in periods:
     curve[pe] = {}
@@ -187,23 +216,43 @@ for pe in periods:
         except Exception:
             pass
         time.sleep(0.08)
-    # fallback: nearest prior business day
-    if not curve[pe]:
+    # DEFECT FIX 2 (DAEDALUS SFG sweep 2026-08-17): the original test was
+    # `if not curve[pe]` — EMPTY only. A PARTIAL curve (say only DGS2 and DGS30
+    # landing) passed it, the fallback never fired, and tsy() then interpolated a
+    # 7Y benchmark BETWEEN THE 2Y AND THE 30Y POINT. Require a minimum tenor set.
+    if len(curve[pe]) < MIN_TENORS or not (set(REQUIRED_TENORS) <= set(curve[pe])):
         d0 = datetime.date.fromisoformat(pe)
         for back in range(1, 6):
             d = (d0 - datetime.timedelta(days=back)).isoformat()
+            trial = {}
             for t, sid in FRED.items():
                 u = (f"https://api.stlouisfed.org/fred/series/observations?series_id={sid}"
                      f"&api_key={key}&file_type=json&observation_start={d}&observation_end={d}")
                 raw = get(u)
                 try:
-                    curve[pe][t] = float(json.loads(raw)["observations"][0]["value"])
+                    trial[t] = float(json.loads(raw)["observations"][0]["value"])
                 except Exception:
                     pass
-            if curve[pe]:
+            if len(trial) >= MIN_TENORS and set(REQUIRED_TENORS) <= set(trial):
+                curve[pe] = trial
+                curve_asof[pe] = d          # DEFECT FIX 1: record WHICH DATE this curve is
                 break
-    print(f"[5] curve {pe}: {curve[pe]}", flush=True)
+    # DEFECT FIX 1 (DAEDALUS SFG sweep 2026-08-17): the original printed the PERIOD
+    # as the key and never the curve's own date, so `[5] curve 2026-06-30: {...}`
+    # rendered identically whether the values were from 6/30 or 6/25, and the
+    # printed penalty inherited the backfill silently. Stamp the source date.
+    _asof = curve_asof.get(pe, pe)
+    _lag = (datetime.date.fromisoformat(pe) - datetime.date.fromisoformat(_asof)).days
+    _ok = len(curve[pe]) >= MIN_TENORS and set(REQUIRED_TENORS) <= set(curve[pe])
+    print(f"[5] period {pe} | curve as-of {_asof}"
+          f"{f' (BACKFILLED {_lag}d)' if _lag else ' (exact)'}"
+          f" | tenors {sorted(curve[pe])}"
+          f" | {'OK' if _ok else '⚠️ BELOW MINIMUM TENOR SET — interpolation refused'}"
+          f": {curve[pe]}", flush=True)
+    if not _ok:
+        curve[pe] = {}   # refuse to serve an under-specified curve to tsy()
 
+MAX_BRACKET = 5   # years; 3->5, 5->7, 7->10 are fine, 2->30 is not
 def tsy(pe, yrs):
     c = curve.get(pe) or {}
     if not c:
@@ -213,6 +262,10 @@ def tsy(pe, yrs):
     hi = min([t for t in ts if t >= yrs], default=ts[-1])
     if lo == hi:
         return c[lo]
+    # DEFECT FIX 2 (cont.): never interpolate across a bracket wider than MAX_BRACKET
+    # years. A 2y-to-30y "interpolation" for a 7y bond is not a benchmark.
+    if (hi - lo) > MAX_BRACKET:
+        return None
     w = (yrs - lo) / (hi - lo)
     return c[lo] * (1 - w) + c[hi] * w
 
@@ -252,6 +305,13 @@ for b in ["0-3y", "3-6y", "6-11y", "11y+"]:
         print(f"   >>> ATHENE PEER PENALTY: {ath - pm:+.1f}bp  (peer median T+{pm:.1f}, n={len(peer_pool)})")
 
 out = "/home/willi/Research-workspace/AGENTS/SHADE/research/FABN_PEER_SPREAD_NPORT_2026-07-27.json"
-json.dump({"periods": periods, "curve": curve, "n_matched_funds": len(matched),
+# DEFECT FIX 1b (found 2026-08-28 while committing the rerun): fix 1 stamped the
+# PRINTED curve but not the SAVED artifact — and the run log is gitignored (*.log),
+# so the backfill provenance would have survived only in an uncommitted file. The
+# same defect one layer down. Persist curve_asof and the window with the results.
+json.dump({"periods": periods, "curve": curve, "curve_asof": curve_asof,
+           "window": {"start": START_DT, "end": END_DT},
+           "enum_truncated": enum_truncated, "enum_exhausted": enum_exhausted,
+           "n_matched_funds": len(matched),
            "rows": mrows}, open(out, "w"), indent=1)
 print(f"\nwrote {out}")
