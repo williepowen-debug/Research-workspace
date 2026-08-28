@@ -91,6 +91,7 @@
 - **NEW (s019): a date-keyed scanner measures the calendar, never the world.** Absence of a flag is not absence of a due item — the standing poll rule caught what the instrument could not.
 
 ### FLEET-FLAG (surface to Will/PROME)
+- **✅ DISCHARGED, do not re-raise:** the two untracked OTTO→WALTER packets (8/27) were **dispositioned by PROME same hour** — committed pointer packet in WALTER's inbox (`a30d95135`, verified at the artifact) carrying both filenames + all four items' substance, so **delivery survives a machine switch**. The **carve-out-① vs `CLAUDE.md:213` conflict is `PROME/WILL_QUEUE.md` row 102**, awaiting Will. ⚠️ **Do not edit `CLAUDE.md:213` unprompted — Will-gated; the answer lands with Will's word.** OTTO's WALTER drops stay untracked until then.
 - **For BROCK (routed via WALTER):** **First Brands confirmation DENIED and all debtors ordered into Ch.7 on Aug 24.** The **$237M First Brands BDC par figure** and the **PSEC Rule 2004** thread both worsen materially. OTTO does not size BDC exposure — this is the trigger to re-size.
 - **Two corrections propagating outward:** any fleet surface saying First Brands is *"under advisement"* or *"awaiting a confirmation ruling"* is **stale as of Aug 24**; and **CVNA is $74.09**, not the $63.95 several surfaces inherited on Aug 3.
 - **PROME date-gate:** the `2026-12-25` query from s017 is **still unanswered** at 24 days. Re-raised.
