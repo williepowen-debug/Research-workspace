@@ -28,4 +28,4 @@ Correction riders preserved verbatim IN PLACE (DELEGATION_TIER rider R2) grow ST
 ## Enforcement
 - `scripts/read_cap_check.py --agent <NAME>` at boot (perimeter is a heuristic until R7-stage-2 `READS.tsv` declares each desk's read set; the check prints what it could and could not see); `--fleet` for the table. §9 rc 0/1/2.
 - Blueprint REQUIRED element (market/utility/meta variants cite this file); registration checklist row at build.
-- Fleet baseline 2026-08-28: **18/39 STATUS over the cap, 28/39 with ≥1 boot read over budget** — the packets routed that day are the first tranche; the Staleness Sweep (#4 ~9/1) gains this as a grading leg.
+- Fleet baseline 2026-08-28: **18/39 STATUS over the cap (10:30 measure); fleet boot-read tool at 13:4x: 30/37 desks with ≥1 boot-mandated read over budget, 23 over the cap** — the packets routed that day are the first tranche; the Staleness Sweep (#4 ~9/1) gains this as a grading leg.

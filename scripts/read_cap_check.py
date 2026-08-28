@@ -67,6 +67,17 @@ READ_VERB_RE = re.compile(r"\bre-?read\b(?!\s*-?\s*(?:cap|window|set|tool|instru
 WRITE_VERB_RE = re.compile(r"\b(append|write|update|log a row|git mv|regenerate|commit)\b")
 OBJECT_WINDOW = 160        # chars between the read verb and the file token it governs
 QUALIFIER_TAIL = 80        # chars AFTER the token in which 'on demand'/'cold'/'grep' still qualifies it
+# SCOPED READS ARE NOT WHOLE READS (fifth correction, WAL 2026-08-28, one-directional bias): "the
+# top `CHANGELOG.md` entry", "`THESIS.md` header + calibration tables", "cross-reference KB.tsv" were
+# scored as whole reads — a scoped read can only OVER-count, never under, so the fleet figure was
+# inflated and rankings shifted. A scope token in the verb→token window or the qualifier tail
+# means a PART is read; the file drops out. READS.tsv will declare scope explicitly.
+SCOPE_MARKERS = ("header", "the top", "top entry", "top of", "top block", "first ", "last ", "head of",
+                 "tail of", "section", "block", "table", "tables", "cross-reference", "skim", "spot-check",
+                 "consult", "lines ", "rows ", "preamble", "summary", "bottom line", "only the", "just the")
+# Sub-headings nested under a boot heading that are protocols, not boot steps (WAL: a KB.tsv
+# mention inside "Inbox Processing Protocol" under the boot section was scored as a boot read).
+NON_BOOT_SUBHEAD_RE = re.compile(r"\b(inbox|protocol|closeout|mail|output|writing|delivery|escalation)\b", re.I)
 ON_DEMAND_MARKERS = ("on demand", "on-demand", "grep", "cold", "by id", "per-agent", "do not read",
                      "never read", "not a boot read", "read per-agent")
 STEP_RE = re.compile(r"^\s*(?:[-*]|\d+[a-z]?[.)]|[A-Z]\d[a-z]?[.)])\s")
@@ -110,9 +121,17 @@ def boot_reads(name):
     found = {}
     scanned = 0
     skipped_on_demand = 0
+    skipped_scoped = 0
     for s, e in spans:
+        boot_lvl = len(lines[s]) - len(lines[s].lstrip("#"))
+        in_nonboot_sub = False
         for i in range(s, e):
             l = lines[i]
+            if HEADING_RE.match(l) or l.startswith("####"):
+                lvl = len(l) - len(l.lstrip("#"))
+                in_nonboot_sub = lvl > boot_lvl and bool(NON_BOOT_SUBHEAD_RE.search(l))
+            if in_nonboot_sub:
+                continue
             low = l.lower()
             reads = [m.start() for m in READ_VERB_RE.finditer(low)]
             if not reads:
@@ -141,6 +160,9 @@ def boot_reads(name):
                 if any(k in before[rp:] or k in after for k in ON_DEMAND_MARKERS):
                     skipped_on_demand += 1
                     continue
+                if any(k in before[rp:] or k in after for k in SCOPE_MARKERS):
+                    skipped_scoped += 1
+                    continue
                 # resolve: as written relative to home; else basename anywhere shallow in home
                 cand = os.path.normpath(os.path.join(home, tok.lstrip("./")))
                 if not os.path.isfile(cand):
@@ -155,7 +177,7 @@ def boot_reads(name):
     if os.path.isfile(status):
         found.setdefault(status, "STATUS.md — universal boot read (root canon)")
     note = (f"perimeter: {len(spans)} boot section(s) in CLAUDE.md, {scanned} 'read' line(s) scanned "
-            f"({skipped_on_demand} on-demand/grep token(s) excluded by marker), {len(found)} whole-read file(s) found; "
+            f"({skipped_on_demand} on-demand/grep + {skipped_scoped} SCOPED-read token(s) excluded by marker), {len(found)} whole-read file(s) found; "
             f"boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)")
     if not spans:
         note = "perimeter: NO boot/spawn section heading found in CLAUDE.md — only STATUS.md assumed; " + note
