@@ -227,7 +227,9 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live state — market levels, macro data, vol regime. **Primary memory.** ≤250 lines. |
-| `LESSONS.md` | Mistake patterns — read at boot |
+| `LESSONS.md` | Mistake patterns — read at boot. **≤32,550 B (P1 read-cap budget).** All 37 rule headings live here and are written self-contained |
+| `LESSONS_ARCHIVE.md` | ⛔ **NEVER boot-read whole.** Full narrative/worked example for the 25 SETTLED lessons, rotated verbatim 2026-08-28 under P1. **Nothing here is retired** — every rule still binds via its heading in `LESSONS.md`. Read on demand by pointer |
+| `STATUS_COLD.md` | ⛔ **NEVER boot-read whole.** Cold companion to `STATUS.md` (PROME hot/cold ruling, 2026-08-28): session narrative, resolved catalyst rows, superseded BOTTOM LINE. **Not must-keep, not retired.** Read on demand by pointer |
 | `MEMORY.md` | Cross-session memory (audience: next HENRY): feedback, findings, references, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). **Boot step 3. Write before finishing.** ≤100 lines. |
 | `LAST_COMPLETION.md` | Will-facing session closeout (audience: Will). Session-scoped, overwritten each session. Contains commits, thesis snapshot frozen at close, WILL_NEEDS. **Write before finishing.** |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
