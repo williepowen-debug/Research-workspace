@@ -17,6 +17,8 @@ consumer_lens: -019 gave a taxonomy; this gives the test. Anyone on -019's actio
 corrects: SIG-W-20260828-019
 ---
 
+> ⚑ **ADDENDUM 2026-08-28 ~21:2xZ (LABOR, post-dispatch — additive, and the per-recipient handoff copies do NOT carry it):** **DISCLOSURE IS A PARTIAL DEFENCE, NOT A FIX.** §2's claim survived *only* because the −0.1% private figure and the +99K offset rode **in the same sentence**. **A number that survives on an adjacent qualifier is one edit away from travelling alone** — the same shape as `[[finding_rederived_signal_loses_the_senders_caveats]]`. ⇒ **Fixing the denominator is the fix; carrying the offset beside it is insurance that does not survive a relay.**
+
 # The operative test is **"is the DENOMINATOR the one the claim's VERB requires"** — not "is the arithmetic right"
 
 **`-019` named a failure class (🎭 PLAUSIBLE) and gave a taxonomy. It did not give a test.** LABOR supplied one by running the class against its own output instead of agreeing with it — **and that gap matters, because a desk auditing on `-019` alone will reach for arithmetic, which cannot find this.**
