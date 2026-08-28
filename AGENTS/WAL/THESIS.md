@@ -107,7 +107,7 @@ This loss-absorption-vs-tenor framing is the substance owed to PROME for the Jun
 
 ## COHORT CONTEXT — RESOLVED: HYPOTHESIS A (NCO decomposition, 6/8 PM)
 
-**Decomposition done 6/8 PM — full record: `research/COHORT_NCO_DECOMP_2026-06-08.md`.** SIG-W-20260511-030 reported 5 of 10 peers improving NPA Q1 YoY: ZION −3bp / CFG −11bp / MTB −25bp / FITB −24bp / EGBN −48bp. The open question was whether the 4 NPA-only names shared EGBN's cosmetic pattern (Hyp B) or genuinely healed (Hyp A). All 5 NPA deltas + the decisive NCO ratios were primary-verified against SEC EDGAR (REGINALD self-curl on ZION/CFG/MTB/FITB/EGBN).
+**Decomposition done 6/8 PM — full record: `../REGINALD/research/COHORT_NCO_DECOMP_2026-06-08.md`.** SIG-W-20260511-030 reported 5 of 10 peers improving NPA Q1 YoY: ZION −3bp / CFG −11bp / MTB −25bp / FITB −24bp / EGBN −48bp. The open question was whether the 4 NPA-only names shared EGBN's cosmetic pattern (Hyp B) or genuinely healed (Hyp A). All 5 NPA deltas + the decisive NCO ratios were primary-verified against SEC EDGAR (REGINALD self-curl on ZION/CFG/MTB/FITB/EGBN).
 
 **Verdict: Hypothesis A — genuine cohort improvement. The "whole cohort doing the EGBN trick" worry is REFUTED.**
 
@@ -199,7 +199,7 @@ Vecchione's "stable asset quality" narrative skips both the all-loans leading bu
 **Why this fires Bucket B1:**
 - Pass → substandard in a single quarter. Confirms rating-quality concern (RED M5 family).
 - Sponsor strategic-default, not credit deterioration — borrower elected not to repay a performing loan.
-- **Same mechanic as IQHQ (OZK Aug 2026 maturity).** Two Class-A life-science strategic defaults across watchlist in 6 months = sector signal.
+- **Same mechanic as IQHQ (OZK RaDD).** Two Class-A life-science strategic defaults across watchlist in 6 months = sector signal. ⛔ **DATE CORRECTED 2026-08-28: the Aug-2026 date is the MATURITY, not the disclosure.** Per OZK's own read the modal August outcome is **silence** (no earnings print in the window; mgmt 7/22 guided *"~92 days"*), so the carrying instrument is **OZK's Q3 call ~Oct 2026**, with an 8-K the only in-window escape hatch. **August passing quietly is a NO-VERDICT, not a disconfirmation** — full instrumentation + scope fence in `STATUS.md` §EXPECTED SIGNALS.
 - At 60% LGD, ~$60M Q2 charge-off = ~10bps annualized incremental on $58.2B avg loans. Q1 was 39bps; Q2 crosses 40bps before normal Q2 activity. **REG-25 near-locked.**
 - Small offset: $60M LOI early-May on different substandard at carrying value.
 
@@ -211,7 +211,7 @@ Three life-science distress events across cohorts in 6 months were captured in t
 |----------|------|-------------|-----------|------|
 | **WAL $99M** | Apr 2026 | bank loan | strategic walk-away on **PASS-graded** sponsor | V1 thesis-direct fire |
 | **KREF Boston** | Q1 2026 | mortgage REIT | **TAKING REO** on known-impaired credit (write-down) | ~$37M expected loss |
-| **OZK IQHQ** | Aug 2026 (forward) | bank loan | sponsor support test at MATURITY | weighted EL ~$140M |
+| **OZK IQHQ** | Maturity Aug 2026; **resolution carried by OZK's Q3 call ~Oct 2026** (8-K = only in-window escape hatch) | bank loan | sponsor support test at MATURITY | ⛔ **peer-owned figure, NOT restated here** (seam rule): scenario tree + weighted EL live at `../OZK/IQHQ_PLAYBOOK.md` §3-4, **last verified 2026-08-28**. ⚠️ *This cell read "weighted EL ~$140M" until 8/28 — superseded by OZK's own Will-approved 7/23 reweight; a restated peer figure that went stale in exactly the way the seam rule exists to prevent.* |
 
 **KREF Boston is NOT a 3rd instance of the WAL B1 mechanism.** KREF is a mortgage REIT recognizing a previously-known impaired credit by taking REO — different position in capital stack, different recognition mechanism (mark-to-loss on collateral seized vs strategic-walk on previously-PASS-graded loan).
 
@@ -219,7 +219,7 @@ Three life-science distress events across cohorts in 6 months were captured in t
 
 **v2.5/v3 promotion requires** either:
 - (a) Another BANK loan with previously-pass-graded sponsor walking strategically, OR
-- (b) Same-mechanic event at OZK (IQHQ Aug 2026 maturity if sponsor walks pre-maturity) or EGBN (Office concentration shares profile)
+- (b) Same-mechanic event at OZK (IQHQ RaDD — sponsor-support test; **resolution ~Oct at OZK's Q3 call, not at the Aug maturity date**) or EGBN (Office concentration shares profile). ⛔ **Sponsor-behaviour signal ONLY — OZK's loss band does NOT transfer** (their $555M-funded construction campus at a maturity test vs WAL's completed building already on nonaccrual with the borrower current; same mechanic, different stage)
 
 OZK IQHQ Aug maturity is the next discrete event window for confirmation/denial. Pre-maturity sponsor walk on IQHQ = both (a) and (b) combined — would be a hard 2nd instance.
 
@@ -246,13 +246,13 @@ Pattern flag, tracked — not promoted to standalone bear-trigger without a seco
 ⚠️ **Scope fence: V1a ≠ V1.** MI3 measures CRE-purpose lending **not secured by real estate**. The $99M life-science credit, the office book, the classified balance and the pending appraisal are all in the **secured** book and are untouched by this result.
 
 **SELF-RULED 2026-08-20 (DELEGATION_TIER) — P8, the MI3 denominator basis:** does MI3 divide by RC-C item 4 alone, or by items 4 + 9?
-→ **Ruling, in two halves, because the question has two owners.** **(a) MY frozen rule keeps the ÷item-4 basis, unchanged.** The bear-fast trigger was pre-registered on `RCON2746 ÷ item 4` and is graded verbatim on that basis; a rule is graded on the letter it was written in. Tests 1-5 PASS (the grading basis of my own instrument is a property of my instrument). **(b) I do NOT rule the cross-bank basis — it is not mine.** Which denominator is legitimate for COMPARING banks is a data/unit-base question, fleet-wide by default (test 5), and the cohort owner has already settled it: REGINALD adopts **v1a = ÷(item 4 + item 9)**, the numerator's own stated parent, for all cross-bank claims [REGINALD `reports/2026-08-13_MI3_cohort_rerun.md`]. **I adopt his ruling as a consumer, I do not originate it.** Riders: R1 dated · R2 n/a (additive, nothing superseded) · R3 no weight moved in this edit.
+→ **Ruling, in two halves, because the question has two owners.** **(a) MY frozen rule keeps the ÷item-4 basis, unchanged.** The bear-fast trigger was pre-registered on `RCON2746 ÷ item 4` and is graded verbatim on that basis; a rule is graded on the letter it was written in. Tests 1-5 PASS (the grading basis of my own instrument is a property of my instrument). **(b) I do NOT rule the cross-bank basis — it is not mine.** Which denominator is legitimate for COMPARING banks is a data/unit-base question, fleet-wide by default (test 5), and the cohort owner has already settled it: REGINALD adopts **v1a = ÷(item 4 + item 9)**, the numerator's own stated parent, for all cross-bank claims [REGINALD `../REGINALD/reports/2026-08-13_MI3_cohort_rerun.md`]. **I adopt his ruling as a consumer, I do not originate it.** Riders: R1 dated · R2 n/a (additive, nothing superseded) · R3 no weight moved in this edit.
 
 ⚠️ **WHY THE SPLIT IS NOT COSMETIC — the basis INVERTS THE CROSS-BANK RANK.** On ÷item 4, WAL is **#1 of 14** at 21.20%. On ÷(4+9), WAL is **#3 of 14** at **8.99%**, behind EGBN 10.77% and MTB 9.69%. The item-9 share of the base runs 5.5%-65.8% across the cohort and **WAL's is 57.6%** (a $16.4B item-9 book) against EGBN's 13.4%, so ÷item-4 inflates WAL ~2.4x *relative to EGBN specifically*. **Consequence, binding on every future WAL surface: no "highest/fastest/most in cohort" language on this metric without naming the basis** — and cross-bank claims use v1a only. On v1a the legacy `>20%` screen catches **nobody** in the cohort (max EGBN 10.77%) [REGINALD 8/13, 14 banks x 4 quarters, 56/56 OK; WAL's 24.24/23.88/21.20 reproduce to the basis point on his independent run].
 
 ⚠️ **AND THE OFFSET I AM NOT DROPPING: the ratio falls while the DOLLARS RISE.** WAL's MI3 balance is **+14% YoY ($2,246M → $2,555M)**; the ratio declines only because item 4 grew faster. A plateau in the ratio is **not** a shrinking hidden-CRE book. Say which series a claim is about. *(Same-shape caution from REGINALD's OZK work: a bank whose C&I grows while its memo-3 disclosure falls is disclosing less about a larger book — that is not, on its face, de-risking.)*
 
-⚠️ **Step-candidates in this series, logged not laundered:** REGINALD's 12-quarter step detector (|ΔMI3|>25% while |Δloans|<5%) fires 17 times in 154 cohort transitions, and **the two largest are both WAL's** — 2024Q1 +64.8% ($899M→$1,482M) and 2024Q4 +27.2% ($1,610M→$2,048M), loans +1.8%/+0.5%. `RCON2746` is step-prone cohort-wide (11.0% of transitions, 9 up / 8 down), so **this is not evidence of relabeling and is not read as any.** It does bound what the series supports: **LEVEL claims are solid and reproduce; TRAJECTORY claims off this series must survive the steps.** The bear-fast grade is a level claim and is unaffected. *(REGINALD 8/13, `2026-08-13_OZK_MI3_adversarial_verification.md` §7.)*
+⚠️ **Step-candidates in this series, logged not laundered:** REGINALD's 12-quarter step detector (|ΔMI3|>25% while |Δloans|<5%) fires 17 times in 154 cohort transitions, and **the two largest are both WAL's** — 2024Q1 +64.8% ($899M→$1,482M) and 2024Q4 +27.2% ($1,610M→$2,048M), loans +1.8%/+0.5%. `RCON2746` is step-prone cohort-wide (11.0% of transitions, 9 up / 8 down), so **this is not evidence of relabeling and is not read as any.** It does bound what the series supports: **LEVEL claims are solid and reproduce; TRAJECTORY claims off this series must survive the steps.** The bear-fast grade is a level claim and is unaffected. *(REGINALD 8/13, `../REGINALD/reports/2026-08-13_OZK_MI3_adversarial_verification.md` §7.)*
 
 **SELF-RULED 2026-08-20 (DELEGATION_TIER) — P9: retire the v2.1 implication column below.**
 → **RETIRED. The column's `<24%` row is VOID and must not be executed.** It reads *"bear shifts back toward 30%"*, which was written when v2.1 carried a **single** bear at ~30%. Under v2.3's **split** bear (fast 10 + medium 16 = **26%**), applying it mechanically **RAISES total bear to 30% on a DISCONFIRMATION** — a ratchet. **Will's 8/12 ruling on P7 carries the constraint "total bear must NOT rise on a disconfirmation" and therefore voids this column independently of my judgment; P9 records that, it does not substitute for it.** Tests 1-5 PASS. Riders: R1 dated · R2 the table is preserved verbatim below, struck-not-deleted · R3 no weight moved in this edit — the P7 re-allocation is a SEPARATE dated edit (see CHANGELOG v2.4).
@@ -352,7 +352,7 @@ V3 is now a **quality-of-names question on the 2,000 underlying lender-finance o
 | Thesis type | Reservoir (gradual past-due build) | **Compounder with concentrated tail risk** |
 | Pipeline signal | Past-due $207M → $465M QoQ (firing) | Leading buckets +24% to +45% QoQ; classified -9bps QoQ |
 | Loss pattern | Through delinquency funnel | **Episodic (V2) + concentrated tail (V1 Office)** |
-| Catalyst | IQHQ Aug 2026 + sub-notes Oct 1 reprice | **Office maturity wall $946M during 2026** |
+| Catalyst | IQHQ (maturity Aug 2026, **disclosure ~Oct at OZK's Q3 call**) + sub-notes Oct 1 reprice | **Office maturity wall $946M during 2026** |
 | Q1 print | EPS miss + reservoir thesis fires | **GAAP miss + V2 fraud labeled in 8-K** |
 | PT vs current | $42.5-45 strikes / $48 spot | **$55-70 range / $80-82 spot** |
 
@@ -432,4 +432,4 @@ Current positions: **grep `POSITIONS.md` (canonical) — do not trust any strike
 
 *v2.2.1 (Jun 8, 2026) — SUPERSEDED. Was a refinement of v2.2 — NO structural vector change. Added MACRO-NIM TAILWIND SOFTENING (loss-absorption channel only) + COHORT CONTEXT (RESOLVED 6/8 PM → Hyp A genuine cohort improvement; "sharpen to WAL-specific" earned, no weight change) + Life-Sci Sector Signal N=1 distinction. Probability reweight Bear-medium 30→25, Base 33→35, Bull 18→21. EV $67.98 → $68.93. Overvaluation 14.2% → 16.3% (÷EV convention pinned). PT range $50-68 UNCHANGED.*
 
-*v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../REGINALD/thesis/CHANGELOG.md`.*
+*v2.2 supersedes v2.1 (May 11, 2026) following 10-Q drill (May 21). B1 fired via $99M life-science subsequent event + Curley resignation + market reaction. Detailed findings in `../REGINALD/research/WAL_10Q_DRILL_2026-05-21.md`. Change rationale and old-vs-new view documented in `CHANGELOG.md` (this directory) and `../REGINALD/thesis/CHANGELOG.md`.*

@@ -6,6 +6,9 @@ Tracks all changes to `WAL/THESIS.md`. Reverse chronological. Mirrors format of 
 - `vX.Y` — major (X) = structural thesis change (vector resolved / disconfirmed / added, framing change, conviction reversal). Minor (Y) = refinement (updated probability, new evidence for existing view, threshold adjustment).
 - `vX.Y.Z` — intra-version POV pivot (per [[finding_pov_changelog_pattern]]) — substantive context update that doesn't shift structural vectors but reweights probability or adds material framing.
 
+
+> ⛔ **PATH CONVENTION NOTE (added 2026-08-28, session #5 sweep) — READ BEFORE FOLLOWING ANY LINK BELOW.** Entries dated **before 2026-07-25** were written while this desk lived at `AGENTS/REGINALD/WAL/`, so they cite **`WAL/THESIS.md`, `WAL/STATUS.md`, `WAL/SCENARIOS.md`** and ~19 siblings. **Those paths have resolved to nothing since the 7/25 promotion** — every one now lives at `AGENTS/WAL/<same name>` (drop the `WAL/` prefix). ⚠️ **They are deliberately NOT rewritten:** they sit inside dated historical entries, and editing the paths inside a record to match today's tree is rewriting the record. *(The four **cross-agent** refs in this file — REGINALD's `research/` and `reports/` — WERE repointed to `../REGINALD/…`, because those were never self-references and a reader had no way to guess the owner.)*
+
 ---
 
 ## v2.4 — 2026-08-20 — **THE MI3 DISCONFIRMATION IS RE-MARKED. Bear-fast 10% → 2%; total bear FELL 26% → 18%; the margin of safety is nearly closed.**
@@ -199,7 +202,7 @@ v2.3 covers **THESIS.md · SCENARIOS.md · PREDICTIONS.tsv re-grades · this CHA
 
 **Author:** REGINALD (Will-directed, Orchestrator-reviewed) | **No version bump** — evidence resolution of the open question v2.2.1 (AM) explicitly held open; no weight/EV/PT/prediction change.
 
-**Trigger:** Executed the queued ZION/CFG/MTB/FITB Q1 NCO decomposition (full record `research/COHORT_NCO_DECOMP_2026-06-08.md`). 5 parallel EDGAR pulls; decisive NCO ratios + all 5 NPA deltas re-verified by REGINALD self-curl.
+**Trigger:** Executed the queued ZION/CFG/MTB/FITB Q1 NCO decomposition (full record `../REGINALD/research/COHORT_NCO_DECOMP_2026-06-08.md`). 5 parallel EDGAR pulls; decisive NCO ratios + all 5 NPA deltas re-verified by REGINALD self-curl.
 
 **Old view (AM v2.2.1):** Cohort signal AMBIGUOUS — 3 hypotheses (A genuine / B cosmetic / C mixed) all consistent with NPA-only data; "sharpen to WAL-specific" framing held OPEN as unforced narrowing; master STATUS "12/12 cohort fade intact" QUALIFIED.
 
@@ -299,7 +302,7 @@ Hard error caught by Orchestrator: prior drafts mixed ÷EV and ÷Price denominat
 
 ### THESIS Updated → v2.2
 **Author:** REGINALD (with Will approval; full V2.2 ship per session direction)
-**Trigger:** WAL Q1 2026 10-Q drill (EDGAR accession `0001628280-26-033054`, filed 2026-05-11; drilled 2026-05-21 — 10-day integration lag). Drill findings: `research/WAL_10Q_DRILL_2026-05-21.md`. Market awareness check confirmed ~10% week-of drawdown (5/11-5/15) on combined 10-Q + Curley news per Simply Wall St (5/14) + DA Davidson PT cut $93→$90 (5/13, Buy maintained).
+**Trigger:** WAL Q1 2026 10-Q drill (EDGAR accession `0001628280-26-033054`, filed 2026-05-11; drilled 2026-05-21 — 10-day integration lag). Drill findings: `../REGINALD/research/WAL_10Q_DRILL_2026-05-21.md`. Market awareness check confirmed ~10% week-of drawdown (5/11-5/15) on combined 10-Q + Curley news per Simply Wall St (5/14) + DA Davidson PT cut $93→$90 (5/13, Buy maintained).
 
 **Why v2.2 not v2.1.1:** Two bear-buckets fired (B1 + B3) per the V2.1 calibration framework. B1 = "first material Office credit walking away" — fired via $99M life-science strategic default. B3 = mgmt held NCO guide despite Q1 ex-fraud 39bps (fired at Investor Day 5/12 per `WAL/INVESTOR_DAY_FINDINGS_2026-05-12.md`). Single-bucket fire would have been v2.1.1 minor revision; compound 2-bucket fire is major-version threshold.
 
@@ -389,7 +392,7 @@ If Q2 print shows the $99M is the ONLY material Office migration, V2.2 may overs
 - `WAL/SCENARIOS.md` v2.2 (header + new EV summary + v2.1 preserved + position-level read expanded to 8 positions + footer)
 - `WAL/CHANGELOG.md` v2.2 (this entry)
 - `workbook/PREDICTIONS.tsv` (REG-24 60→70%, REG-25 55→75% — step 4d pending)
-- `research/WAL_10Q_DRILL_2026-05-21.md` (drill findings, ~280 lines)
+- `../REGINALD/research/WAL_10Q_DRILL_2026-05-21.md` (drill findings, ~280 lines)
 - `POSITIONS.md` (May 15 cluster cleared; WAL position count 8→7; v2.2-pending flag added → cleared)
 
 ---

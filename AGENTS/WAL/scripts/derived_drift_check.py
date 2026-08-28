@@ -190,7 +190,15 @@ def main():
                                 (row.get("replacement") or "")[:80]))
 
     if a.quiet:
-        BASE_DRIFT, BASE_REVIVED = 11, 35      # RE-BASELINED 2026-08-23 (session #4 sweep). Was 11,23 (8/20 closeout).
+        BASE_DRIFT, BASE_REVIVED = 12, 54      # RE-BASELINED 2026-08-28 (session #5 sweep). Was 11,35 (8/23); 11,23 (8/20).
+                                               # 8/28 deltas, each verified hit-by-hit BEFORE re-baselining:
+                                               #   check-1 +1  = STATUS.md KB-count token, synced 180->183 this session; the residual
+                                               #                 12 are historical version cites inside dated records (correct as history).
+                                               #   check-2 +19 = the 3 NEW retired-claim patterns filed today (the 8/21 tape figures, the
+                                               #                 overvaluation series, and the 'not the cohort' verdict). Each matches its OWN
+                                               #                 death record and the audit-trail lines that preserve the superseded figure --
+                                               #                 e.g. POSITIONS.md:28 and NEXUS_BRIEF.md:9 deliberately ENUMERATE the dead
+                                               #                 tokens so nobody re-derives them. Those hits are the discipline working.
                                                # check-2 moved 23 -> 35 for TWO known reasons, neither of them new rot:
                                                #   +1  the 8/20 NEXUS_BRIEF re-pin landed AFTER the 8/20 baseline was written,
                                                #       so the tree the number described was already one edit old. (Read 24/23 for
