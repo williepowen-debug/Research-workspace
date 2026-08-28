@@ -237,6 +237,7 @@ def numeric_needle(n: str):
     t = SIGN_RE.sub("", str(n).strip())
     return normalize(t) if NUM_RE.fullmatch(t) else None
 COLLISION_FILE_CAP = 4   # context-less needle in >4 distinct files ⇒ 🟠
+CAND_PRINT_CAP = 8       # 🟠 hits printed per needle; the rest summarised as a count (2026-08-28)
 
 
 def sig_digits(tok: str) -> int:
@@ -507,6 +508,14 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
     series = series or []
     num_wanted = {numeric_needle(n) for n in needles if numeric_needle(n) is not None}
     txt_wanted = {str(n) for n in needles if numeric_needle(n) is None}
+    # A NEGATIVE needle matches only a SIGNED occurrence on the line: stripping the sign for
+    # tokenization must not turn "-19.0" into every "19" in the corpus (first cut of the
+    # 8/28 fix did exactly that: 242 → 24,500 output lines). The sign is part of the value.
+    neg_wanted = {numeric_needle(n) for n in needles
+                  if numeric_needle(n) is not None and SIGN_RE.match(str(n).strip())
+                  and not str(n).strip().startswith("+")}
+    def _signed_on_line(line, v):
+        return re.search(r"[-−]\s?" + re.escape(v) + r"(?!\d)", line.replace(",", "")) is not None
     weak_nums = {n for n in num_wanted if sig_digits(n) < MIN_SIG_DIGITS}
     have_ctx = bool(units or series)
     for path in iter_files(workspace, own_dir, restrict):
@@ -530,6 +539,7 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
             if is_blob(line):
                 continue
             num_hits = num_wanted & line_values(line, csvish)
+            num_hits = {v for v in num_hits if v not in neg_wanted or _signed_on_line(line, v)}
             txt_hits = {n for n in txt_wanted if n in line}
             hits = num_hits | txt_hits
             if not hits:
@@ -732,9 +742,23 @@ def report(label, current, olds, stale, cand, mail, handled, show_handled=False)
     if cand:
         print(f"     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, "
               f"then re-run with --unit/--series. NO packet on a 🟠. ({len(cand)})")
-        for p, ln, hits, txt, why in cand:
-            print(f"        {p}:{ln}  [{', '.join(hits)}]  ({why})")
-            print(f"           {txt}")
+        # PER-NEEDLE PRINT CAP (2026-08-28): a bare 3-4 digit needle can match thousands of
+        # table cells; listing them all (12,235 lines on HENRY's first post-fix run) is the
+        # PAT-116 output-shape failure — the count is COMPLETE, the display is capped and
+        # says so (CHECK_STANDARD §4: truncation announces itself).
+        by_needle = {}
+        for rec in cand:
+            by_needle.setdefault(tuple(rec[2]), []).append(rec)
+        for key, recs in by_needle.items():
+            shown = recs[:CAND_PRINT_CAP]
+            for p, ln, hits, txt, why in shown:
+                print(f"        {p}:{ln}  [{', '.join(hits)}]  ({why})")
+                print(f"           {txt}")
+            if len(recs) > CAND_PRINT_CAP:
+                nfiles = len({r[0] for r in recs})
+                print(f"        … +{len(recs) - CAND_PRINT_CAP} more 🟠 hit(s) on [{', '.join(key)}] "
+                      f"across {nfiles} file(s) — display capped at {CAND_PRINT_CAP}/needle, count is "
+                      f"complete; a bare needle this common certifies nothing — re-run with --unit/--series")
     if mail:
         owners = sorted({p.split('/')[1] for p, *_ in mail if '/' in p})
         print(f"     🟡 in MAIL, point-in-time — usually no action ({len(mail)}"
