@@ -26,6 +26,26 @@ Following CREED's hard-won lesson (WALTER `CLAUDE.md` 6b): **only 5 of the 12 ro
 
 **So: 5 auto-gradable, 6 that need a human or a calendar, and 1 that is broken and says so.**
 
+## Registry → metric-surface map (the check, run on itself 2026-08-28)
+
+**Standing check adopted this session: every registry row must name a metric surface.** Run against `workbook/VX.tsv` on adoption it **failed on 8 of 12 rows** — the vectors existed but the mapping was not written down, which is the same class of defect as having no vector at all: *nobody can verify coverage they cannot see.* Mapping recorded here, at the registry, rather than annotated across 8 VX rows.
+
+| Registry row | Metric surface (`workbook/VX.tsv`) | Note |
+|---|---|---|
+| `HANS-T-01` / `T-02` | `VX-HANS-8.06` German Manufacturing PMI | ⚠️ `VX-HANS-10.02` **duplicates** 8.06 — update both or neither |
+| `HANS-T-03` | *(none — German Composite PMI has no vector)* | 🔴 **GAP.** Tracked in `STATUS.md` only |
+| `HANS-T-04` | `VX-HANS-4.01` ECB Deposit Rate | — |
+| `HANS-T-05` | **`VX-HANS-3.05` Bund yield (LEVEL)** | Created 8/28 — the row was FIRED with no surface |
+| `HANS-T-06` | **`VX-HANS-3.06` UK gilt (LEVEL)** | Created 8/28 with the UK leg |
+| `HANS-T-07` | `VX-HANS-8.01` TTF | ⚠️ `VX-HANS-11.02` is a **third surface** on the same number |
+| `HANS-T-08` | **`VX-HANS-8.07` storage GAP** | Created 8/28. `8.02` is the *absolute fill* — **paired, not duplicate** |
+| `HANS-T-09` | `VX-HANS-3.01` spread + *(no BTP level vector)* | 🔴 **HALF-COVERED** — compound row, level leg unsurfaced |
+| `HANS-T-10` | `VX-HANS-3.02` spread + **`VX-HANS-3.07` OAT level** | Both legs surfaced 8/28 |
+| `HANS-T-11` | `VX-HANS-2.01` EUR/USD | — |
+| `HANS-T-12` | `VX-HANS-2.04` (last value **2026-02-13**) | 🔴 Vector exists but is **197 days stale** — this is *why* T-12 is UNINSTRUMENTED |
+
+**⇒ Three gaps remain and are named rather than closed: `T-03` (no vector), `T-09` (level leg unsurfaced), `T-12` (vector dead).** They are listed so the gaps are countable. **A registry row without a live surface is untrippable however correct its band** `[[finding_banded_threshold_with_no_metric_surface_is_untrippable]]`.
+
 ## Standing caveats
 - **`T-07` TTF is a FRONT-MONTH contract and it ROLLS.** A delta across a roll is not a price move `[[finding_continuous_front_ticker_rolls_so_deltas_lie]]`.
 - **`T-08` measures the GAP to the 5-year norm, not the absolute fill.** Absolute fill rises all summer and reads reassuring while the gap widens — that is exactly what happened Jul→Aug 2026.
