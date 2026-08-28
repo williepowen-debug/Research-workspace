@@ -54,6 +54,7 @@ At boot, after STATUS/MEMORY — run the glob + `git mv` from repo root (cwd-pro
     - **(b) cluster_mediating unconditional** — `grep 'cluster_mediating: true' /BOARD/SIG-W-*.md` since last-session — read all hits.
     - **(c) info-recipient cluster-filtered** — read info-cc only when cluster ∈ {BANK_COLLATERAL, PC_STRESS, FED_FRAMEWORK, CONSUMER_STAGFLATION} (primary, always); secondary {IRAN_HORMUZ, ASIA_CHINA, AI_INFRA_CAPEX} read only on bank-ticker hit per `BANK_EXPOSURE_MATRIX.md` watchlist; skip POSITIONING_VALUATION / HYDROCARBON_INFRA / MISC unless cluster_mediating.
     - **Append disposition row** to `board/BOARD_LOG.tsv` (11-col schema: BOARD_ID / Date / Cluster / Verdict / Disposition / Post_Hoc_Conf / Vector_Update / Cross_Links / Channels_Touched / Bank_Tickers / Notes) for each signal read. Disposition values: INTEGRATED / INFO_ONLY / REFERRED / WOULD-INTEGRATE / BACKFILL.
+9c. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" REGINALD` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### Execute
 10. **Execute the task**
