@@ -502,6 +502,10 @@ US_MARKET_HOLIDAYS = {
 def price_fetch(tickers, delta_threshold=0.0):
     """Fetch current prices for a list of tickers with optional delta filtering."""
     import yfinance as yf
+    # A bare string iterates per character ("CRWV" -> C, R, W, V = Citigroup..Visa) and the call
+    # returns a plausible-looking wrong basket with rc=0 (LIQUID KB-LIQ-117, 2026-08-28). Wrap it.
+    if isinstance(tickers, str):
+        tickers = [tickers]
     
     cache_key = f"prices_{'_'.join(sorted(tickers))}"
     cached = _cache_get(cache_key)
