@@ -5,6 +5,37 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
+## L-25 — A corrective is anchored to the number it is correcting, and no gate in this book ever re-grades the correction
+
+**The instance (2026-08-28, LAB-08).** On 2026-08-07 I repriced LAB-08 **65% → 35%**, 21 days before its gate, under §C gate #14. The reprice was *good* work by every process test it was built to pass: declared pre-print with a commit receipt, unforced (no new data — pure arithmetic nobody had run), symmetric, and it **explicitly cited LABOR's 0-for-4 record at ≥60% on threshold calls as its reason (c)**. Then the print landed at **−79,000**, card §4 **Band E**, whose pre-committed assignment is **4%**.
+
+🔴 **35% was still ~7× the honest number. The corrective that was made *specifically because my threshold calls run too hot* was itself too hot, by the same failure mode, in the same direction.**
+
+**Why it happens.** A reprice is framed as a *move from* the standing number, so the standing number sets the scale of the move. "65 is too high, cut it hard" produces 35 — a 30-point cut *feels* large precisely because it is measured against 65. **Nothing in the procedure ever asks the independent question: *what number would I write if I had never published 65?*** The card's own §3 decomposition answered that (bands × conditionals ≈ 0.33) — but the band probabilities feeding it were themselves set beside a 65% prior, so the "independent" derivation inherited the anchor and returned a number confirming it. **A decomposition anchored at its inputs looks like arithmetic and functions as a rationalisation.**
+
+**The measurement, so this is not a story:** card §3 put **P = 0.275** on the band that actually occurred — 72.5% of my mass on bands that did not happen — while the card simultaneously claimed to be correcting for over-confident threshold calls.
+
+**Fix (and it is one line at C2, not a new gate):** when repricing a prediction, **write the number twice — once as a move from the standing value, once cold from base rates with the standing value not visible — and if they disagree by more than ~2×, take the cold one and record both.** Then, at resolution, **score the CORRECTIVE as its own row, not just the as-made value.** LABOR's scoreboard grades as-made 65% and is blind to the fact that the 35% was also wrong; a book that never grades its own repricing steps cannot learn that its repricing is mis-calibrated. ⚠️ **This partners with C2-0 but is not the same thing:** C2-0 sweeps *stale* high-confidence rows. **This one fires on the freshly-repriced row — the one that just received attention and therefore looks safest.** Partner auto-memory: `[[finding_corrective_inherits_the_anchor_it_corrects]]`.
+
+**First seen:** LAB-08, 2026-08-28 (QCEW preliminary benchmark = −79,000; card §4 Band E → 4%; the 8/07 reprice to 35% was ~7× high).
+
+---
+
+## L-24 — A reachability probe grades the moment it ran; it is not a property of the wall — and the wall is a HOST, not the object
+
+**The instance — twice in one session, in opposite directions (2026-08-28).**
+
+1. **`bls.gov` was recorded as a *known-dead path*.** An 8/27 smoke test returned **403** under the BD-18 desktop-UA curl while `api.bls.gov/publicAPI/v2` returned **200**, and STATUS was written to say the UA-curl "is NOT a fallback — it is a known-dead path." **On 8/28 the same UA-curl returned HTTP 200 on all three `prebmk*` URLs and is how the print was actually graded.** The 8/27 probe was *correct when it ran*; what was wrong was writing a dated observation into a state file as a **standing property of the source**.
+2. **`kansascityfed.org` still 403s — and it never mattered.** For weeks the Jackson Hole date could not be `[CONF]`'d because "the issuer returns 403 to this fleet." **But a Fed Chairman's remarks are published by the BOARD OF GOVERNORS**, and `federalreserve.gov/newsevents/speech/warsh20260828a.htm` returned **200** on the first try, full text. **The wall was around a HOST. The object had a second publisher nobody had tried.**
+
+**Why both instances are the same mistake.** In each case the failure was re-testing *the same host with more effort* — a different user agent, a retry, a longer timeout — instead of asking **who else publishes this object**. RED's BD-24 already found the endpoint half of this on 8/27 (`api.bls.gov` vs `bls.gov`); the keynote generalises it from *"try a different endpoint on the same publisher"* to **"enumerate the publishers of the object."** A speech has an issuing institution *and* a host; a release has an HTML page, a text file, and an API; a filing has EDGAR *and* the company site.
+
+**Fix:** (a) **Never write a reachability result into a state file as a standing fact** — stamp it `[probe YYYY-MM-DD]` and re-test at use, because the cost of one extra curl is seconds and the cost of a false "dead path" is grading a 🔴 event off a worse source. (b) **Before declaring any source unreachable, list the object's other publishers**, not the same host's other paths. (c) A dead-path claim is a **claim with an expiry** — it belongs in `[[finding_dated_carry_item_has_no_expiry_check]]`'s class, and this is now that finding's *n+1* inside my own book.
+
+**First seen:** 2026-08-28 QCEW/Warsh grading session (both instances same morning).
+
+---
+
 ## L-23 — Evidence about an UPSTREAM quantity must move a DOWNSTREAM-graded instrument LESS, not more, when the mapping adds a step the evidence never touches
 
 **The instance (2026-08-27, caught by RED within the hour, conceded on both limbs).** Berger's QCEW claim — verified at the BLS primary — is a finding about the **PRELIMINARY** benchmark. RED grades `RED-22` on the preliminary and moved **52 → 40 (12pp)**. I grade `LAB-08` on the **FINAL**, reached from the preliminary through a **0.76** shrinkage ratio, and moved **35 → 15 (20pp)**. **I moved further on the instrument further from the evidence.**

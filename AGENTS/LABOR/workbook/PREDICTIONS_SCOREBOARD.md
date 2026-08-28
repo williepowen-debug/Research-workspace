@@ -43,6 +43,27 @@
 | High-confidence bucket (≥60%) | 🔴 **3 C / 4 F** | **7 preds.** All **four** misses (LAB-01 85%, **LAB-10 75%**, LAB-06 80%, LAB-02 65%) are level/threshold calls. 🔴 **LABOR is now 0-for-4 at ≥60% on threshold calls.** The three confirmed at ≥60% are *all* mechanism calls. **This is no longer a tendency; at n=7 it is the single most reliable regularity in the book.** |
 | Update-discipline (separate diagnostic) | LAB-02 walked 65→50→10; LAB-17 walked 30→35→5 | both conceded fast as evidence turned (LAB-02 pre-marked effective-miss Jun 16; LAB-17 cut 35→5 on the 7/23 counter-print, then resolved ❌ on 7/31 rather than running out the formal Aug-6 clock on a path needing a +149K weekly jump). Good *process*; scored as-made per convention, so it earns a note here, not Brier credit. |
 
+### 🔴 CONFIDENCE-MOVE RECORD (NOT a resolution) — LAB-08, 2026-08-28
+
+⛔ **NO §A ROW IS ADDED AND THE STATS BELOW ARE UNCHANGED.** LAB-08 is **still OPEN**. The 2026-08-28 QCEW release printed the **PRELIMINARY** benchmark; **LAB-08 resolves on the FINAL, February 2027** (verbatim in the release) and will score at its **as-made 65%**. This block exists because card §7 requires the confidence move to be recorded here, and because the movement itself is calibration evidence the §A table cannot hold.
+
+| Date | Live diagnostic | Basis | Pre-registered? |
+|---|---|---|---|
+| 2026-02-18 | **65%** (as-made — **this is what scores**) | original registration | — |
+| 2026-08-07 | **35%** | §C gate #14 pre-print reprice, 21d early; unforced arithmetic (prelim→final ratio band + BLS dispersion) | ✅ receipt `a0c17ed74` |
+| 2026-08-27 | **15%** | BLS-primary verification via `api.bls.gov` after the 35%'s stated ground died at the primary | ✅ counterfactual declared before the evidence; receipt `972f00acd` |
+| **2026-08-28** | **4%** | **Card §4 BAND E, mechanical** — preliminary printed **−79,000** | ✅ frozen 2026-08-07 |
+
+🔴 **THE CALIBRATION FINDING, and it is about this scoreboard's own blind spot.** The 8/07 reprice cut 65% → 35% **citing finding #2 below — LABOR's 0-for-4 record at ≥60% on threshold calls — as its stated reason.** The honest post-print number is **4%**. **So the corrective that was made *because* threshold calls run too hot was itself ~7× too hot, in the same direction, by the same failure mode.**
+
+**The tell was in the card and went unread:** §3's decomposition put **P = 0.275** on the band that actually occurred — 72.5% of the mass on bands that did not happen — in a document whose whole purpose was correcting over-confidence. **A decomposition whose input probabilities were set beside the standing 65% inherits that anchor and returns a number confirming it.**
+
+⇒ **OWED, and it is a §D maintenance item, not a §C gate:** this scoreboard scores only **as-made** values, so **it is structurally blind to a mis-calibrated repricing step** — the 35% is wrong on no ledger anywhere. **Add a scored CORRECTIVE column at the next §D pass** and re-derive whether LABOR's *repricing* is systematically too small. → `LESSONS.md` **L-25**, auto-memory `[[finding_corrective_inherits_the_anchor_it_corrects]]`.
+
+⚠️ **Forward note for the ECI Q3 card (2026-10-30, next card owed):** LAB-08's as-made 65% will resolve in **Feb-2027** and, on current evidence, takes LABOR to **0-for-5 at ≥60% on threshold calls** against 3-for-3 on mechanism calls. **Put the gate-#3 threshold-vs-mechanism split in that card's FIRST section, not its fifth.**
+
+---
+
 ### Two findings that drive this scoreboard
 
 1. **The single biggest error wasn't judgment — it was measure specification.** LAB-01 (85% → false) contributes 0.72 of 2.22 total Brier mass (33%). It failed because the prediction was denominated in a company proxy (KELYA/staffing-firm revenue) while the canonical series (BLS CES Temp Help) was *expanding*. Codified as **L-01**. Takeaway for §C: **police the measure before the confidence** — a defeatable measure, not bad judgment, is the calibration killer.
