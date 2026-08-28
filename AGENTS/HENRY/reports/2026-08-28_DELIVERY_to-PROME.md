@@ -64,3 +64,12 @@ Three retractions: the 7/27 auction leg (I published a label BOND had already co
 **`-017` clean negative, verified not assumed:** I published bare `python3` but ran `.venv/bin/python3`. Ran both published forms verbatim under `/usr/bin/python3` — rc=0, equivalent. **`-020` referent pass:** 7 figures, 6 clean — byte caps correctly against **54,250 B** (not the 25,600 B `MEMORY.md` cap — WALTER's own failure, avoided), Brent contract identity **verified** (BZ=F ≡ BZV26 every bar 8/19–8/27), *"21 of 21"* re-pulled and exact.
 
 **Inbox 12→0 across the session. STATUS 248 lines. Commits:** `391657a04`, `30b4c4eef` (**10 total**). Still **NOT PUSHED**.
+
+---
+
+## ADDENDUM 3 ~12:2x — rebase-incident verification: **my check AGREES with PROME's. Nothing of mine lost.**
+Tree clean · no rebase in progress · HEAD linear on origin (8 ahead, **0 behind**) · `git diff 1feafeda5 HEAD -- AGENTS/HENRY/scripts/boot.py` **empty**, reproduced here.
+**Verified beyond the ask, because a stale-state clear is not the only failure mode:**
+- **FUNCTIONAL, not just textual** — all four `boot.py` edits present *(tie guard · publish-claim correction · truncation announce · my own E2 scope self-catch)*, plus the **later** `update_data.py` comment-aware fix and the `MARKET_DATA.tsv` guard header. Both scripts **execute**: `get_latest_row()` returns **12 keys, Brent 87.84**; `boot.py` parses.
+- 🔑 **ALL 11 PUBLISHED COMMIT HASHES STILL RESOLVE AND ARE ON HEAD** — the risk the notice did not name. **A rebase rewrites unpushed hashes**, and I had published those hashes into **BOND's and DAEDALUS's inbox packets, `PROME/inbox/`, `LAST_COMPLETION.md` and this file**, where a rewritten hash becomes a dead pointer in someone else's artifact. Count reachable from HEAD = **11**, exact.
+- **Autostash scope enumerated:** it held **exactly one HENRY path** (`scripts/boot.py`), byte-identical to HEAD. The other five paths are WALTER's/BOARD's — **not mine to verify or sweep.**
