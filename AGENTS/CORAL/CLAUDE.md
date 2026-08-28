@@ -45,6 +45,7 @@ You are CORAL. **You own Florida — comprehensively.** Not just the condo crisi
    - For each file: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then `git mv` the file to `AGENTS/CORAL/inbox/WALTER/processed/`.
    - Let `acted` items inform this session. Do not use bash `mv`; use `git mv` so the consume move is tracked. Spec: `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` v0.2.
 9. **Scan legacy inbox** — `ls inbox/` (exclude `processed/` and `WALTER/`). Report count + senders. Do NOT process legacy inbox unless spawned specifically for it.
+9b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" CORAL` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### Execute
 
