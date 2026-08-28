@@ -15,11 +15,13 @@ Usage:
   .venv/bin/python3 AGENTS/OTTO/scripts/catalyst_countdown.py --days 200
 """
 
+import subprocess
 import sys
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 OTTO_DIR = Path(__file__).resolve().parent.parent
+REPO = OTTO_DIR.parent.parent
 CATALYSTS_TSV = OTTO_DIR / "docket" / "CATALYSTS.tsv"
 STATUS_MD = OTTO_DIR / "STATUS.md"
 
@@ -36,16 +38,62 @@ def past_retention_days():
     ages fired catalysts out of the past-due-catch before they were ever swept — the
     Jul 14 Q2-bank row, an OTTO-30 input, aged out exactly this way.
 
-    STATUS.md's mtime is OTTO's last closeout, so this window tracks "everything that
-    fired since I last wrote back." Deliberately asymmetric: re-showing an
-    already-swept row costs one line of noise; hiding an unswept one costs a catalyst.
+    The window tracks "everything that fired since I last wrote back." Deliberately
+    asymmetric: re-showing an already-swept row costs one line of noise; hiding an
+    unswept one costs a catalyst.
+
+    ⚠ 2026-08-27 — BASIS CORRECTED, and the original was defective in the silent
+    direction. This sized the window off `STATUS.md`'s **mtime**, which root
+    Data-Hygiene canon forbids because **git sync restamps it**
+    (`finding_mtime_is_corrupted_by_git_sync`). On any desk that pulls at session
+    start, `dark_days` reads ≈0, the window collapses to the 10-day floor, and fired
+    rows older than the floor age out BEFORE being swept — which is precisely the miss
+    this function exists to prevent. It fails as a clean "nothing fired" line, so
+    nothing about the output would reveal it. Found by ZHAO while porting this
+    function as a donor, routed by DAEDALUS 2026-08-21; verified against this file
+    2026-08-27 before back-porting.
+
+    Basis order is now git commit time → content vintage → mtime (last resort), and
+    the basis that answered is RETURNED so the caller can print it — a corrected
+    mechanism whose basis is invisible is one restamp away from being wrong again.
     """
+    lc, basis = _last_closeout()
+    dark_days = (date.today() - lc).days + 3  # +3 grace
+    return max(PAST_RETENTION_MIN, min(dark_days, PAST_RETENTION_MAX)), basis
+
+
+def _git_commit_date(path):
+    """Canon-preferred vintage: git commit time, NOT mtime (git sync restamps mtime)."""
     try:
-        last_close = datetime.fromtimestamp(STATUS_MD.stat().st_mtime).date()
+        out = subprocess.run(
+            ["git", "-C", str(REPO), "log", "-1", "--format=%cI", "--", str(path)],
+            capture_output=True, text=True, timeout=10)
+        stamp = out.stdout.strip()[:10]
+        return datetime.strptime(stamp, "%Y-%m-%d").date() if stamp else None
+    except Exception:
+        return None
+
+
+def _last_closeout():
+    """When did OTTO last write back? git commit → content vintage → mtime → floor."""
+    d = _git_commit_date(STATUS_MD)
+    if d:
+        return d, "git-commit"
+    try:  # content vintage: the newest dated row the docket itself carries
+        best = date.min
+        for row in (load_catalysts() or []):
+            try:
+                best = max(best, datetime.strptime(row["date"].strip(), "%Y-%m-%d").date())
+            except (ValueError, KeyError, AttributeError):
+                continue
+        if best != date.min:
+            return best, "content"
+    except Exception:
+        pass
+    try:
+        return datetime.fromtimestamp(STATUS_MD.stat().st_mtime).date(), "mtime⚠️"
     except OSError:
-        return PAST_RETENTION_MIN
-    dark_days = (datetime.now().date() - last_close).days + 3  # +3 grace
-    return max(PAST_RETENTION_MIN, min(dark_days, PAST_RETENTION_MAX))
+        return date.today() - timedelta(days=PAST_RETENTION_MIN), "floor"
 
 
 def load_catalysts():
@@ -101,7 +149,7 @@ def main():
     upcoming = []
     recent_past = []
     horizon_cutoff = today + timedelta(days=horizon)
-    past_retention = past_retention_days()
+    past_retention, retention_basis = past_retention_days()
     past_cutoff = today - timedelta(days=past_retention)
 
     for c in catalysts:
@@ -118,7 +166,7 @@ def main():
     # Past-due-catch: recently fired, surface for sweep
     if recent_past:
         recent_past.sort(key=lambda x: x[0])
-        print(f"\n  ⚠️  RECENTLY FIRED (last {past_retention} days = since last closeout — sweep now)")
+        print(f"\n  ⚠️  RECENTLY FIRED (last {past_retention} days = since last closeout, basis={retention_basis} — sweep now)")
         print(f"  {'-'*68}")
         for edate, c in recent_past:
             days_since = (today - edate).days
