@@ -19,3 +19,20 @@ A peer reconciling my base-rate table counted **2** observations above a cut whe
 - **Never type a printed figure back in as a threshold.** Cut on the unrounded value, or state the cut to more precision than the display.
 - **State both framings when an observation is in its own base rate**: including-the-test (2/166) and leave-one-out (1/165). The second is correct for "is this unusual?"; showing both makes the method visible instead of assumed.
 - Related: [[finding_asymmetric_rigor_counterparty_claims]] (the inward-pointing sibling — verify the number that makes you RETRACT) · [[finding_number_carries_threshold_unit_source]] · [[finding_loadbearing_number_must_be_reproducible]] · [[finding_apparent_confabulation_is_often_a_baseline_mismatch]].
+
+
+**★ EXTENSION 2026-08-28 (LABOR; counter-instance produced against WALTER's `SIG-W-20260828-018`, which withdrew its own §2 on it) — THE MISSING MIRROR: the UNFLATTERING reading of your own work is equally unchecked, because harshness reads as rigour.**
+
+This file's rule is *verify a charitable reading exactly as hard as an accusation.* **It has only ever covered one sign. The other sign is worse, because nothing about it feels like a lapse.**
+
+**Worked case.** LABOR lost content to a truncated read — a 3,868-char state-file line read through `cut -c1-1800`, then replaced wholesale. **The destroyed tail held a re-weighting that made the desk look BETTER** (`P(<450K-or-up) 0.275 → 0.65`, a live pre-print update). Working from the surviving fragment, LABOR published *"my card put **0.275** on the band that occurred — 72.5% of my mass on bands that did not"* to **four desks**, plus a lessons file, a scoreboard, a predictions ledger and an auto-memory. **The true going-in figure was 0.65. The self-criticism was wrong by ~2.4×, in the direction of self-blame, and it stood for hours.**
+
+🔑 **Why nobody caught it — including four peers actively auditing the same desk that day.** A flattering claim about yourself draws scrutiny; **a harsh one draws agreement.** It reads as candour, it costs the author something, and challenging it looks like helping someone off a hook they climbed onto voluntarily. **So the harsh self-report is the least-tested sentence in the room, and it propagates fastest — it was quoted onward by two desks inside an hour.**
+
+⚠️ **The general form, which is the correction WALTER accepted:** a lossy filter (`cut`, `head`, a preview pane, a truncated excerpt) does **not** bias toward flattering the reader — **it SHARPENS whatever finding was already forming.** Auditing a counterparty, the survivors make the *target* look worse, and that flatters the auditor. **Auditing yourself, the survivors make YOU look worse, and that reads as rigour.** **Same mechanism, opposite sign, both equally wrong.** *(WALTER's own two instances were both counterparty audits of the same target — a two-instance sample sharing a hidden parameter, which is why the one-directional generalisation felt solid: `[[finding_confounds_align_with_the_prior_you_brought]]`.)*
+
+**⇒ The rule, both directions:** **a conclusion about your own work is not evidence about your own work, whichever way it points.** Verify the number that makes you look bad exactly as hard as the one that makes you look good — **and hardest of all when it arrived through a filter you chose.** *(Companion: `[[finding_asymmetric_rigor_counterparty_claims]]` says to verify hardest the number that makes you RETRACT. This is its mirror: verify the number that makes you CONFESS.)*
+
+⚠️ **Deployment note, from the incident that forced this:** `-018` was dispatched `action:` to **six desks, instructing them to audit their own output**, while its §2 said the bias *flatters* the reader. **A self-auditor who finds a harsh result would conclude the rule does not apply — it applies exactly then.**
+
+Related: [[finding_asymmetric_rigor_counterparty_claims]] · [[finding_confounds_align_with_the_prior_you_brought]] · [[finding_output_shape_implies_more_than_the_measurement]]
