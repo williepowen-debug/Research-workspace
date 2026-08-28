@@ -74,7 +74,7 @@
 - **FT-12 row rider added: counter-pressure pre-registered on the row.** If <260 s=3 prints INTO a growth-shock tape (Chicago PMI sub-50), the divergence is the object, not the fire itself. Weight mechanics unchanged (−2 on fire); the transferable content moves to the DIVERGENCE record. Recorded pre-fire so the finding cannot be reverse-engineered after the print.
 - **Polymarket HIKE-2026 odds jumped to 67% (+12pts)** on Warsh's *"still has work to do"* line. **⛔ NOT MOVING POLICY RESCUE ON THIS**: one-hop relay, ORACLE-owned instrument, LABOR §3b guard binding (no attribution before NFP 9/4). It DOES reverse the direction of the 8/12 ORACLE stale-carry that moved Rescue 2→4 — audit owed at 9/4-9/11 window on ORACLE's own primary, not on this relay.
 - **⛔ WALTER's packet: "this is NOT a dispatch, walter-0828 is live on this desk and I'm holding all BOARD/log writes."** Do NOT log dispositions to board_log for this; when WALTER's archive lands, that's the file record. Local files (FT-12 row + STATUS + SCRATCH) are RED-owned.
-- **Chicago PMI is regional; national ISM Mfg is next Tue 9/2** — that's the direct RED-book counter to the growth-shock reading. Watch, don't pre-price.
+- **Chicago PMI is regional; national ISM Mfg is next Wed 9/2** — that's the direct RED-book counter to the growth-shock reading. Watch, don't pre-price.
 
 **🆕 S38b (2026-08-28, ~12:0x ET) — WILL-DIRECTED FOCUS-LIST ITEM #1: CHG-046 + CHG-043-B BOTH RESOLVED-CONVERGED same-sitting at NEXUS's own resolution artifact. NO WEIGHT MOVED.**
 
@@ -119,14 +119,14 @@
 ## NEXT SESSION (dated, priority-ordered)
 
 1. **🟡 Mon 8/31 post-16:15 ET — MIDAS-06 verifier duty.** Read the four-branch mapping (packet §2) before verifying. ⛔ Do NOT verify (d) INDETERMINATE as NO — reserved for branch (b). On current tape (gold clears, DFII10 6bp short) (d) is LIKELY. Verify at the sources (COMEX GC settlement + FRED DFII10 obs dated 8/28), not MIDAS's write-up.
-2. **🟡 Wed 9/3 — 30Y JGB (CHG-047 / CH-009 / CH-012).** SAM rail perimeters STATED.
+2. **🟡 Thu 9/3 — 30Y JGB (CHG-047 / CH-009 / CH-012).** SAM rail perimeters STATED.
 3. **🟠 Fri 9/4 — NFP August.** The re-test: does −23K survive revision, does the labor force stop shrinking?
 4. **🟡 9/4–9/11 re-spec window — FT-04 / FT-07 / VX-004 / FT-08 re-spec, on a day the bear is not losing.** ⚠️ RED-22's w=0.30 miss is one more input to this window's FT-01 magnitude review.
-5. **🟠 Tue 9/9 — FT-11 goes LIVE.** Δ5(DGS30) precondition already satisfied on the 8/27 tape (−11.0bp) — may fire immediately on go-live day; the FLOW verdict downgrades the 30/70 row to 50/50 but moves NO hypothesis weight.
-6. **🟡 Wed 9/10 — CARL V2 (subprime auto instrument, OTTO 7-deal 10-D panel).** Owner dark 8/20–8/27 but their 8/27 packet says "OTTO live tonight" → expect grade.
+5. **🟠 Wed 9/9 — FT-11 goes LIVE.** Δ5(DGS30) precondition already satisfied on the 8/27 tape (−11.0bp) — may fire immediately on go-live day; the FLOW verdict downgrades the 30/70 row to 50/50 but moves NO hypothesis weight.
+6. **🟡 Thu 9/10 — CARL V2 (subprime auto instrument, OTTO 7-deal 10-D panel).** Owner dark 8/20–8/27 but their 8/27 packet says "OTTO live tonight" → expect grade.
 7. **🟠 Fri 9/11 08:30 ET — Aug CPI.** CHG-028 note: 9/11 is a pre-registered NON-EVENT for the oil→core channel (that resolves 10/14 + 11/10, two-print).
-8. **🟡 Mon 9/15 — CHG-044 (BROCK) + CHG-049 (CARL) re-reviews.**
-9. **🟢 Tue 9/30 — CHG-042 hard backstop retired unused** (34d pre-backstop resolution S37).
+8. **🟡 Tue 9/15 — CHG-044 (BROCK) + CHG-049 (CARL) re-reviews.**
+9. **🟢 Wed 9/30 — CHG-042 hard backstop retired unused** (34d pre-backstop resolution S37).
 10. **Daily monitors:** ^SKEW vs 150 (FT-10 reload, 5.95 away) · **HY vs 260 (FT-12, 3bps and tightening — nearest board line)** · CCC vs 1000 (streak extends, 1031 [8/27]) · WL-07 USDJPY vs 160 (0.07 away) · WL-11 Brent <95 (firing).
 
 ## OPEN THREADS

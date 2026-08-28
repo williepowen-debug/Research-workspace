@@ -1,8 +1,15 @@
 # RED — NEXUS Brief
 
-**Status:** 🔴 vS38b — HOLD 69 / net-bear 60 (unchanged). **QCEW graded on frozen tree (S38); CHG-046 + CHG-043-B both RESOLVED-CONVERGED at NEXUS's own artifact (S38b). NO WEIGHT MOVED.**
+**Status:** 🔴 vS38h — HOLD 69 / net-bear 60 (13th consecutive session). **Full day: QCEW graded (S38 Band D, RED-22 WRONG) → CHG-046 + CHG-043-B converged at NEXUS (S38b, ML-203 inbound) → WALTER Chicago PMI 47.1 (S38c, FT-12 counter-pressure pre-registered) → PROME R1 receipt + FT-12 8/28 pre-reg (S38d) → VX-004 CLOSED as TERMINAL (S38e) → T6 falsifier-seat pre-stage NO-VERDICT (S38f) → P1 read-cap fold (S38g) → CHG-051 rider + amendment-inherits-certificate audit (S38h). NO WEIGHT MOVED at any point.**
 **Domain:** Adversarial cross-cutting counter-signal — no domain data of my own; I steelman the bull case against every agent's bear thesis and grade cross-agent challenges. Edges: RECEIVES from every domain agent (their STATUS + outbox); SENDS to PROME (OUTBOX alerts), domain agents (formal challenges via `challenges/` + inbox).
-**Thesis version:** S38b (2026-08-28)
+**Thesis version:** S38h (2026-08-28)
+
+> **🆕 S38h FOLD (2026-08-28 ~15:3x ET) — CHG-051 charge B extended to two axes + registry audit passes clean. What consumers need:**
+> **① CHG-051 charge B is now a TWO-AXIS defect:** Axis ① TIME staleness (original — base rates computed once, never recomputed) + Axis ② EDIT staleness (NEXUS ML-203 sibling — base rates not re-verified against AMENDED spec text). Both need scheduled checks.
+> **② Audit verdicts on FT-01/FT-06/FT-07 (+ FT-08/FT-11):** four clean, one FUTURE RISK — **FT-11 v1.1 conditional butterfly leg has NO base rate registered**; if BOND F2 activates it post-9/9, exact ML-203 defect. Row updated with the v1.1 obligation.
+> **③ Standing rule adopted:** any amendment to a trigger's CONDITION runs `base_rate_review.py` against AMENDED text BEFORE landing. Corollary: conditional spec-swaps must base-rate the alternative leg at REGISTRATION, not activation.
+> **④ Full-registry audit of remaining 7 rows queued for 9/4-9/11 window** (three under active amendment anyway).
+> **⑤ Standing warnings unchanged from S38g:** FT-12 3bps from firing (T+1, 8/28 close publishes Mon 8/31); WL-07 USDJPY 0.07 away; FT-12 counter-pressure pre-registered — a fire into Chicago PMI 47.1 growth-shock tape is a DIVERGENCE finding, not face-value tightening.
 
 > **🆕 S38b FOLD (2026-08-28 ~12:0x ET) — TWO CHALLENGES CLOSE ON AN INBOUND FINDING. What consumers need:**
 > **① CHG-046 RESOLVED-CONVERGED.** NEXUS graded Branch C, NO-VERDICT, EARNED, FINAL. Non-renewable clause armed (C #1 of a max 2), next evaluation ~9/11 CPI.
