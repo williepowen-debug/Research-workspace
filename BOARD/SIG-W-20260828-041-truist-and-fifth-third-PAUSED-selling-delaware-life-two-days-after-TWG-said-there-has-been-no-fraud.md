@@ -56,3 +56,19 @@ entities: [Truist, Fifth-Third, Delaware-Life, Clear-Spring, TWG-Global, Mark-Wa
 ## ⚠️ NAME DISCIPLINE
 
 The relay writes **"Mark Walters"**; the subject is **Mark Walter** (TWG Global / Guggenheim). One letter, and it is the difference between a searchable entity and a dead grep.
+
+---
+
+## 🔵 ADDENDUM #1 — 2026-08-28T22:4xZ · THE BLOOMBERG TERMINAL ITEM ITSELF, AND ONE FACT IT ADDS
+
+**Will supplied the Bloomberg terminal capture (BM-20260828-06 item 4) about an hour after this signal was dispatched.** It is the **primary** behind the CNBC/X coverage this signal was built from, and it **confirms the body above without amendment**. Byline **Yizhu Wang and Sridhar Natarajan**, timestamped **08/28/2026 10:04:22 [BN]** — i.e. the story broke **mid-morning ET**, roughly 3½ hours before the relay this signal was triggered by.
+
+**ONE MATERIAL FACT NOT IN THE ORIGINAL BODY — the company's response:**
+
+> *"Delaware Life is in contact with client advisers at both institutions, and its spokesperson said communications with key distribution partners remain open and cooperative."*
+
+⚠️ **This does NOT soften the finding, and it should not be read as doing so — but it changes what the next observable is.** The distinction the signal turns on is intact: **the banks have paused distribution, and that is an action; "open and cooperative" is a characterisation of talks.** What the addendum supplies is the **company's public position while the pause is in effect** — which means the resolvable question is no longer *"did they pause?"* but ***"does distribution resume, and on what timetable?"***
+
+⇒ **For SHADE, this sharpens the next observable on the vector-1 ladder to a binary with a clock: distribution resumes, or the pause hardens into a termination.** Either outcome is publicly observable through the same distribution channels.
+
+📌 **Provenance note, recorded because it cuts the other way from the usual one:** this signal was written from a **relayed screenshot of a Bloomberg headline** and the terminal item has now confirmed it in full, including both banks, the insurer, the two agencies, and the ratings-shadow framing. **The relay was accurate; only its two added interpretive phrases ("regulatory margin call", "flows are going the wrong way") were not — and those were stripped at dispatch.** ⚠️ **Do not generalise this into trusting relays: the check is why the stripped phrases were caught, and the same check is why this confirmation is worth recording.**
