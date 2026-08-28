@@ -31,6 +31,24 @@
 4. 🔴 **Register a durable NASS command** (or get a QuickStats key). **C2 is currently scored on a read I cannot refresh** — see the gap note below.
 5. **C5 →5 base-rate obligation — 34 days left, hard deadline 9/30.** Multi-year WSV series, then **re-price or retire N=3**. Unchanged and still open.
 
+### 🔴🔴 THE PROBES + C2 SCOPE CHECK (Will-directed, third pass) — AEO-10 REVERSED, C2 UPGRADED
+
+**AEO-10 went 80% → 30% → 65% in one day, and the second move reverses the first. Read this before touching it.**
+- **Probe A found an archive I did not know existed:** `usbr.gov/lc/region/g4000/24mo/YYYY/MONYY.pdf` (verified to 2020) **plus MIN/MAX PROBABLE studies published monthly.** My own files said the error bar did not exist.
+- **The base rate, n=6, at AEO-10's exact horizon:** August studies **UNDER-project** December Mead by **mean +2.19 ft, 5 of 6 years**. Mechanism: studies model *scheduled* deliveries while conservation is **voluntary and additive ⇒ structurally upside-only**. Bias-adjusted December ≈ **1,036.93**.
+- 🔴 **I RETRACTED MY OWN MORNING HEADLINE.** *"Both reservoirs tracking below the six-day-old path"* is **noise**: corr(Aug err, Dec err) = **+0.287 at n=6**, and **2025 ran −0.64 in August and finished +6.36 in December** — the largest positive error in the set. **I published an un-base-rated signal as evidence in the same session I wrote three lessons against exactly that.** **Corrections sent to WATT / VULCAN / MARCO / REGINALD.**
+- **65% and not 78%** because n=6 is thin, **the bias mechanism is discretionary** under a framework the new Guidelines just replaced (L-18 applied consistently, not only when it suits), and **2 of USBR's 3 scenarios still breach.**
+
+**Probe B FAILED, usefully.** The multi-year WSV series is genuinely unreachable (retention ~31 days, confirmed four ways) ⇒ **the 9/30 C5 obligation cannot be met as written and must be RE-SCOPED, not worked harder.** But the same API showed **my trigger levels ARE each station's all-time record low** — a confirm-the-catastrophe gate, not an upgrade trigger. **`GlW` (Kaub 77 / Duisburg 227) is the navigation reference where freight economics actually bite.** **Re-key PROPOSED, NOT EXECUTED** — confirm GlW's definition at WSV/BfG first, then base-rate.
+
+**C2 → 3 🟠 — first move in four sessions, because the channel was measured in the wrong hemisphere.** The literature finds **no reliable ENSO signal in the US summer at all**, so a benign US corn/soy print during a historic El Niño is **uninformative, not reassuring**. Measured where the teleconnection lands: **Australian wheat MY2026 28.0 MMT, −22.2% YoY** — against **25.96 in the 2023 El Niño** and 34–36 in neutral years — veg oils **195.7** vs cereals **113.8**, South American soy at a record (the textbook split). **I re-pulled the wheat figure at the USDA primary myself rather than take the worker's word for it.** ✅ **New verified instrument: USDA FAS PSD Online bulk CSV, no auth.** Full report → `sources/2026-08-27_C2-global-scope-check.md`.
+⚠️ **The worker's best caveat — carry it:** several "current" reads are **lagging indicators of the PRIOR season**, not yet tests of this El Niño cycle. **A second reason a read looks benign that has nothing to do with geography.**
+⚠️ **Two source disagreements flagged and UNRESOLVED:** Indonesia palm (PSD +1.7% vs MPOC −2 MMT) and South Africa corn (PSD 16.5 vs CEC 17.4 MMT, same day).
+
+### 🔧 NEXT ON C2 — it is now the live analytical thread
+⛔ **Do NOT set band levels yet: no base rate exists.** The worker correctly deferred them, per my own rule. **Order: (1)** base-rate Australian wheat against ONI/RONI across the PSD series — **the 2023 analogue is already in-series (40.5 La Niña → 25.96 El Niño → 34–36 neutral)**; **(2)** get **one more region confirming** before →4; **(3)** only then propose levels.
+**The re-scope is Option C from the report:** keep US G/E as a **labelled US-only CPI-bridge line**, add a **global physical-condition leg** as the driver instrument — **physical, not price, because price is stage 2 of C2's own mechanism**, and a price index would confirm the transmission rather than detect the driver.
+
 ### 🔴 POST-CLOSEOUT SWEEP (Will asked "what else needs updating?" AFTER I had closed out) — it found three defects, and that is the finding
 
 **I had already committed, pushed and reported. The sweep found three things, none of which any check of mine would have caught.**

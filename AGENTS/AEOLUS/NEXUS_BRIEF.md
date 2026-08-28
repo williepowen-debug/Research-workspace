@@ -2,8 +2,8 @@
 
 **Purpose:** curated synthesis writeback, refreshed **every closeout** (CLOSEOUT step 3). Compact routing-first variant (NEXUS Amendment 9, Will-approved 7/31). `outbox/` is 🔴-crisis-only.
 
-**Last writeback: 2026-08-27 ~23:0x ET — RE-FOLDED after a post-closeout sweep, and re-folded LAST again (Amendment 10 ordering).** Supersedes the 8/21 fold entirely.
-⚠️ **Re-folded rather than left standing, because the sweep produced real work after the first fold** — three defects, four KB rows, and corrections to my charter and two `SOURCES.md`. **A brief that refreshed and then kept working is the fleet's dominant content-stale mechanism; the ordering constraint is the only thing that closes it.**
+**Last writeback: 2026-08-27 ~23:5x ET — RE-FOLDED a second time (probes + C2 scope check), and folded LAST again per Amendment 10.** Supersedes the 8/21 fold entirely.
+⚠️ **Re-folded twice today because two Will-prompted passes each produced real work after the previous fold** — the second one **reversed a prediction I had already published to four desks.** *A brief that refreshes and then keeps working is the fleet's dominant content-stale mechanism; the ordering constraint is the only thing that closes it.*
 **WAITING-FOR:** **8/31 Mead month-end** vs the August study's 1,040.04 · **9/01 NIFC outlook** (AEO-09) · **9/01 Panama slots →32/day** · **9/02 CSU two-week** · **9/02 Panama draft →48.0 ft** · **9/10 CPC ENSO + ONI print** · **~9/15 September 24-Month Study** · **10/01 the 2027-28 Colorado Operating Guidelines take effect.**
 
 ---
@@ -32,6 +32,45 @@ It is published as **two scenarios** keyed to the WY2027 Powell release (6 / 7 m
 **3. A one-time successful pull is indistinguishable from a durable instrument, because every audit counts sources instead of re-executing them.** My C2 crop-condition read is sourced to a NASS path I labelled *"first primary read of this metric"* six days ago. **It returns 404 today**, no sibling path resolves, and no `SOURCES.md` in my tree carries a NASS command. **The three bands I already had on my untrippable table never had a surface; this one HAD one and cannot be re-run — a worse shape, and invisible to a source-counting audit.** *(L-37: an instrument is not verified until re-executed on a LATER DAY than the one it was written on.)*
 
 **4. Recompute the to-date normal every pass — a stale denominator inverts the read.** Atlantic **ACE 3.4575 = 12.94%** of the *freshly computed* to-date normal **26.72**. On 8/21 it read 16.3% against 18.98. **A storm formed in the gap (TS Dolly, 8/27) and the ratio got WORSE**, because the climatological normal ramps ~7.7 ACE units in six peak-season days while 2026 added 0.37. **Reusing 18.98 would have shown improvement.** Second consecutive session where a stale denominator would have flipped the sign.
+
+---
+
+## 🔴🔴 CORRECTION TO THIS BRIEF'S OWN HEADLINE — I over-corrected on Mead, and the retraction is the finding
+
+**Earlier today this brief led with: USBR projects Mead below 1,035 in December, supported by "both reservoirs are already tracking below that six-day-old path", and AEO-10 cut 80% → 30%. The support does not survive its own base rate.**
+
+**USBR archives every past 24-Month Study** (`/24mo/YYYY/MONYY.pdf`, verified to 2020) **and publishes MIN/MAX PROBABLE editions monthly** — while my files carried *"projection error not base-rated, so the buffer has no error bar"* for 14 days.
+
+**Each AUGUST study's projected end-December Mead vs the ACTUAL 12/31:**
+
+| | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|---|
+| **actual − projected (ft)** | −1.56 | +0.54 | +4.04 | +2.78 | +0.97 | **+6.36** |
+
+**n=6 · mean +2.19 · 5 of 6 finished HIGHER.** The studies model *scheduled* deliveries; conservation is **voluntary and additive**, so it can only arrive as upside. **AEO-10 → 65%.**
+🔴 **And the retracted part: corr(August error, December error) = +0.287 at n=6 — noise. The closest analogue to 2026 is 2025, which ran 0.64 ft BELOW in August and finished 6.36 ft ABOVE in December.** **Corrections sent to WATT, VULCAN, MARCO and REGINALD.**
+
+> **The fleet-general version, and it is uncomfortable: I used an un-base-rated signal as supporting evidence in the same session I wrote three lessons about not doing that — and the base rate was one archive URL away.** A caveat ("n=1 is thin") that does not stop you publishing is performing the function of a hedge, not a constraint.
+> ⚠️ **And note what did NOT move: C6 stayed at 4 all day, through an 80→30→65 swing.** A *projected* breach was never a breach, and the score is keyed to actual levels — **which is the only reason the swing stayed inside the prediction and never reached the channel.**
+
+## 🔴 SIXTH — twice in one session the issuer already published the statistic I was building
+
+**C6:** USBR's error envelope and full study archive, carried as "does not exist" for 14 days.
+**C5:** the multi-year Rhine series really is unreachable (~31-day retention, confirmed four ways) — **but the same API publishes the distribution's landmarks, and they show my trigger levels ARE each station's ALL-TIME RECORD LOW.** That is a *confirm-the-catastrophe gate*, not an upgrade trigger — and **`GlW`, the waterway administration's own navigation reference (Kaub 77 / Duisburg 227), is where freight economics bite.** Re-key **proposed, not executed**: confirm GlW's definition first, then base-rate. **I will not again register a level because it was easy to defend rather than right.**
+
+> **⇒ Before building a statistic, check whether the issuing agency already publishes it — and check the DIRECTORY, not just the file you know about.** Both were one URL from a file I use daily. **Three times today an answer I had recorded as absent was already published** (Gatun, USBR's envelope, GlW). **A declared gap is a claim about your own search, not about the world, and nothing re-tests one.**
+
+## 🔴 SEVENTH — C2 was being measured in the wrong hemisphere. **It moves 2 → 3.**
+
+**C2's registered band is US corn/soy condition. The literature finds no reliable ENSO signal in the US summer at all** — so a benign US print during a **>90%-very-strong, 69%-historic** El Niño is **uninformative, not reassuring.**
+
+Measured where the teleconnection actually lands: **Australian wheat MY2026 = 28.0 MMT, −22.2% YoY** — against **25.96 MMT in the 2023 El Niño** and 34–36 in neutral years — **veg oils 195.7 vs cereals 113.8**, and **South American soy at a record.** That is the textbook El Niño split, and I re-pulled the wheat figure at the USDA primary myself rather than take a worker's word for it. **New verified instrument: USDA FAS PSD Online bulk CSV, no auth.**
+
+⚠️ **Two caveats I am keeping attached:** several current reads are **lagging indicators of the PRIOR season**, not yet tests of this cycle — a second reason a read looks benign that has nothing to do with geography; and **two source disagreements are unresolved** (Indonesia palm PSD +1.7% vs MPOC −2 MMT; South Africa corn PSD 16.5 vs CEC 17.4, same day).
+⛔ **No band levels proposed — no base rate exists yet.**
+
+> **For MARCO and CARL specifically:** if your food-CPI work keys off US crop condition, **it is keyed to the one region this driver does not reach.** The instrument above is free, global, and has no auth.
+> **The general shape: I spent three sessions calling C2 "the honest downgrade candidate I am also not moving."** First the test could not return a verdict; then the instrument was in the wrong place. **A channel that will not move for months is a claim about your measurement before it is a claim about the world.**
 
 ---
 
@@ -72,13 +111,13 @@ It is published as **two scenarios** keyed to the WY2027 Powell release (6 / 7 m
 | Ch | Score | Δ | One-line state |
 |---|:--:|:--:|---|
 | **C1** Insurance | **1 ⚪** | — | **ACE 12.94% of the to-date normal — WORSE than 8/21 despite TS Dolly forming.** Zero hurricanes all season; Dolly forecast dissipated by ~8/30, not Gulf/FL |
-| **C2** Agriculture | **2 🟡** | — | corn 60 / soy 61 G/E (wk-end 8/16). ⚠️ **Scored on a read I can no longer refresh — the cited NASS path 404s** |
+| **C2** Agriculture | **3 🟠** | **↑ 2→3** | 🔴 **Measured in the wrong hemisphere.** Australian wheat **−22.2% YoY** (28.0 vs 25.96 MMT in the 2023 El Niño); veg oils 195.7 vs cereals 113.8. US G/E kept as a labelled US-only line |
 | **C3** Energy demand | **3 🟠** | — | No new data. **CDD/HDD still has no metric surface — the exit-triad leg cannot be graded** |
 | **C4** Property | **3 🟠** | — | ⚠️ **Acres % fell 171→164 while absolute acres ROSE +329,317 — a DENOMINATOR effect, not a deceleration.** Uncontained large fires **76 → 94**. Loss leg flat |
 | **C5** Supply chain | **3 🟠** | **↓ 4→3** | **The European event ENDED** — Duisburg at a folder-record HIGH, Danube below-LKV 14→5, 3-day test FAIL/FAIL/FAIL. **Channel-kill, not thesis-kill: C5 migrated to Panama** |
 | **C6** Water | **4 🔴** | — | 🔴 **USBR's own path now breaches my binding line in December.** Both reservoirs below record and below projection |
 
-**Composite: 16/30 · range 1–4 · moved 1 · fired 0/6.**
+**Composite: 17/30 · range 1–4 · moved 2 (C5 −1, C2 +1) · fired 0/6.**
 > **The bare scalar stays impeached** (disposition 8/21). **Fired count went 1 → 0:** C5's exit is the same test failing, and it fails on all three days. Conservation verified against the verdict CELL, not the row.
 
 ---

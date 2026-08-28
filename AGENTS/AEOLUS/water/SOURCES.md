@@ -91,6 +91,31 @@ EOF
 ```
 ⚠️ **A base rate is only valid while the mechanism generating it still holds.** Mead's Aug→Sep *rise* is driven by Glen Canyon releases — and **2026 releases are at a 9-year low** (§3). **Check Lees Ferry before trusting Mead's seasonal pattern.**
 
+### ✅ 24-MONTH STUDY **ARCHIVE + MIN/MAX PROBABLE** — probe 2026-08-27, and both were declared non-existent in my own files
+
+```bash
+# EVERY PAST STUDY. Pattern verified HTTP 200 back to 2020.
+curl -sL -o AUG25.pdf "https://www.usbr.gov/lc/region/g4000/24mo/2025/AUG25.pdf"   # /24mo/YYYY/MONYY.pdf
+# MIN and MAX PROBABLE — the issuer's own inflow envelope, published monthly beside the Most Probable:
+curl -sL -o AUG26_MIN.pdf "https://www.usbr.gov/lc/region/g4000/24mo/2026/AUG26_MIN.pdf"
+curl -sL -o AUG26_MAX.pdf "https://www.usbr.gov/lc/region/g4000/24mo/2026/AUG26_MAX.pdf"
+```
+
+🔴 **AEO-10's notes carried *"USBR 24-month-study projection error NOT base-rated, so the buffer has no error bar"* from 8/13 to 8/27 — while the issuer published an error bar every month and archived every past study, one directory level from a file I used daily.** Same class as the Gatun gap (L-35): **a declared absence I never re-tested.**
+
+**THE BASE RATE, built from the archive in ~15 minutes** — each **August** study's projected end-December Mead vs the **actual** 12/31 elevation (AEO-10's exact horizon and instrument):
+
+| | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 |
+|---|---|---|---|---|---|---|
+| **actual − projected (ft)** | −1.56 | +0.54 | +4.04 | +2.78 | +0.97 | **+6.36** |
+
+**n=6 · mean +2.19 · median +1.88 · stdev 2.56 · 5 of 6 finished HIGHER.** ⇒ **USBR's August studies systematically UNDER-project December Mead.**
+**Mechanism:** the studies model *scheduled* operations and full contracted deliveries; actual LB use runs below entitlement because conservation (ICS, DCP/500+, LC Conservation Program) is **voluntary and additive** — structurally upside-only. **The bias is growing in the conservation era.** ⚠️ **Which is also its limit — it is DISCRETIONARY, and the 2027-28 Guidelines just replaced the framework that produced it (L-18 applies to error base rates too).**
+
+⚠️ **AND THE AUGUST DEVIATION IS NOT A SIGNAL.** corr(August error, December error) = **+0.287 at n=6 — below the noise floor.** **2025 ran 0.64 ft BELOW in August and finished +6.36 ABOVE.** **Do not use "tracking below the path" as evidence** — I did, in four packets, and had to retract it (KB-098).
+
+**METHOD — do not skip this.** Extract with pdfminer; the elevation tables come out as a bare column with no month labels. **Anchor on a known ACTUAL and match the study's historical head month-by-month against `921/csv/49.csv` to within 0.02 ft before reading ANY projected cell.** *(10–12 consecutive months matched per study in the run above — the alignment is self-verifying, and an unverified alignment silently shifts every figure by a month.)*
+
 ### 🔴 24-MONTH STUDY — registered 2026-08-27 as the PRIMARY C6 instrument (it was NOT in this file before)
 
 **This is the forward-looking instrument. The daily elevations above are the backward-looking one.** It is what moved AEO-10 and it prints monthly.
@@ -144,6 +169,25 @@ curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/W/
 ```bash
 curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations.json?waters=RHEIN" | python3 -c "import json,sys;[print(s['shortname'], s.get('km')) for s in json.load(sys.stdin)]"
 ```
+### 🔴 WSV **CHARACTERISTIC VALUES** — probe 2026-08-27, and it reframes the C5 trigger
+
+```bash
+curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/W.json?includeCharacteristicValues=true" \
+ | python3 -c "import json,sys;[print(c['shortname'],c['value'],c.get('validFrom')) for c in json.load(sys.stdin)['characteristicValues']]"
+```
+
+| | **NNW** record low | **MNW** mean low water | **MW** mean stage | **GlW** navigation reference | TuGLW |
+|---|---|---|---|---|---|
+| **Kaub** | **25** | **65** | 208 | **77** | 190 |
+| **Duisburg-Ruhrort** | **153** | **201** | 394 | **227** | 280 |
+
+🔴 **THE MULTI-YEAR SERIES IS GENUINELY UNREACHABLE — confirmed four ways, so the 9/30 obligation cannot be met as written.** PEGELONLINE returns the **identical ~31-day window** for `P31D`, `P45D`, `P60D` and `P90D` (2,976→2,991 rows, 2026-07-28 → 2026-08-28), and an explicit **2024 date-range query returns ZERO rows** — it is a **retention** wall, not a query limit. UNDINE (`undine.bafg.de`) is an **extreme-events narrative portal**, not a series download. GRDC is discharge, not stage.
+
+🔑 **BUT THE PROBE CHANGED THE QUESTION.** My trigger levels — **Kaub ≤25, Duisburg ≤153 — ARE each station's all-time record low (`NNW`).** A record is by construction a ~1-in-record-length event *per station*; requiring **both simultaneously for 3 days** is rarer still. **That is not an upgrade trigger, it is a confirm-the-catastrophe gate**, and it explains why C5 sat at 4 for weeks and then fired only during a genuinely historic event.
+**The economically meaningful line is sitting right beside it: `GlW` (gleichwertiger Wasserstand) — the waterway administration's own low-water NAVIGATION reference, derived from a duration curve. Kaub 77 cm · Duisburg 227 cm.** That is far closer to where freight economics actually bite *(my logged ~€150/t and ~16% loadings occurred with Kaub in the 30–40 cm range — well below GlW, well above NNW)*.
+
+⛔ **RE-KEY PROPOSED, NOT EXECUTED.** Two things must happen first: **(1)** confirm `GlW`'s exact definition and exceedance percentile at WSV/BfG documentation — **do not infer it**; **(2)** base-rate the level. **I will not repeat registering a threshold because the number was easy to defend rather than right** — which is exactly how 25/153 got chosen.
+
 ### 🔴 WSV FORECAST endpoint — registered 2026-08-13 (found by the water worker, verified by AEOLUS)
 ```bash
 curl -s "https://www.pegelonline.wsv.de/webservices/rest-api/v2/stations/KAUB/WV/measurements.json" \
