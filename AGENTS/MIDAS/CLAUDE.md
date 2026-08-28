@@ -31,6 +31,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 2. **Read `SCRATCH.md`** — where you left off; the single most important "pick up here."
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
 4. **Run `boot.py`** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/MIDAS/boot.py"` — ledger staleness + predictions-due. rc 0 = quiet · 1 = a prediction is due (REVIEW) · 2 = a leg failed. *(When `metals_watch.py` is built — the priority first increment — boot.py also pulls real-yield + gold/silver/copper/PGM spot + GSR.)*
+4b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" MIDAS` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 5. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log to KB.tsv; never leave OPEN-but-stale.
 6. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`.
 
