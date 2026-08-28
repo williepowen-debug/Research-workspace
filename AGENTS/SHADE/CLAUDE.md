@@ -75,9 +75,13 @@ Rule: reference BROCK for fund-level facts with `[CONF BROCK date]`; SHADE adds 
 Read→write pairings: STATUS (read 1 → write 6), SCRATCH (read 2 → write 8), MEMORY (read 3 → prune/promote 9), **`NEXUS_BRIEF.md` (write 11a — LAST)**. *(The "not built yet, add it in a later architecture pass" deferral is CLOSED — the brief was created 2026-08-03 and is a standing surface; step 11a owns it.)*
 
 ### Boot (read phase)
-1. **Read `STATUS.md`** — current-but-stale dashboard, active vectors, and old kill paths. Treat all March prices/position rows as historical until refreshed.
-2. **Read `SCRATCH.md`** — canonical next-session handoff: what moved, what Prome changed, and next tasks.
-3. **Read `MEMORY.md`** — durable SHADE-specific learnings: BROCK boundary, source-quality caveats, operational traps.
+
+> ⚠️ **READ-CAP DISCIPLINE (P1, Will-approved 2026-08-28; canon `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`).** Every file named as a WHOLE read below stays under **32,550 B** (60% of the 54,250 B harness single-read cap). **Past the cap a Read returns a PARTIAL file with no error and every line-count guard still passes.** **`REFERENCE.md` is deliberately NOT a whole read** — it is consulted **on demand, by section**. ⛔ **Never raise the budget.** Check: `python3 scripts/read_cap_check.py --agent SHADE`.
+
+1. **Read `STATUS.md` WHOLE** — the LIVE dashboard: session verdict + live rails (§0l), vector dashboard (§3), the dated forward calendar and the Delaware Life escalation ladder (§6), cross-agent routing (§7), the owed list (§10), BOTTOM LINE. **Canonical on live state.** *(Treat any March price/position row as historical until refreshed.)*
+2. **Read `SCRATCH.md` WHOLE** — canonical session handoff: what moved, what's owed, numbers discipline, open threads, mail state.
+3. **Read `MEMORY.md` WHOLE** — durable SHADE-specific learnings: BROCK boundary, source-quality caveats, forensic-discipline lessons, operational traps.
+3a. **`REFERENCE.md` — ON DEMAND, BY SECTION. Do NOT read it whole at boot.** Open it **before citing any figure** (§2 carried figures: every load-bearing number with its source, date and handling rule), or when opening a watchlist name (§5), picking up an open question (§8), or needing a vector's evidence narrative (§3D) / the full transmission map (§4) / the standing monitor-class calendar rows (§6M). ⚠️ **`STATUS.md` wins on live state where the two disagree.**
 4. **Targeted owner reads only as needed:**
    - BROCK for fund/BDC/gate facts.
    - LIQUID for broad credit/funding spread state.
@@ -97,7 +101,10 @@ Read→write pairings: STATUS (read 1 → write 6), SCRATCH (read 2 → write 8)
 5.5. **`git status -- AGENTS/SHADE/`** — scan for unstaged deletions (bash-mv residue), unintended modifications in other dirs, and orphaned new files before writing anything. A dangling unstaged deletion from a bash-mv will produce a separate cleanup commit in the push-train. Fix first. Also scan `inbox/WALTER/` for unprocessed signals; if any, triage now (minimum: `noted` disposition + board_log append + `git mv` to processed/) so the push-train does not carry a stale inbox.
 
 ### Closeout (write-back — run at every session end)
-6. **`STATUS.md` write-back** — update insurer-wrapper dashboard, active vectors, regulatory/funding state, and next actions. Put threshold breaches and active situations at the top. Keep BROCK facts referenced, not duplicated. Keep under ~250 lines; archive overflow to `research/`.
+6. **`STATUS.md` write-back** — update the insurer-wrapper dashboard, active vectors, regulatory/funding state and next actions. Threshold breaches and active situations at the top. Keep BROCK facts referenced, not duplicated.
+   🔴 **THE SIZE RULE IS A BYTE BUDGET, NOT A LINE COUNT (adopted 2026-08-28):** **STATUS stays under 32,550 B**, verified with `python3 scripts/read_cap_check.py --agent SHADE` **before commit.** *(A ~250-line cap was in force while STATUS grew to 125,359 B — the lines got longer. Lines do not measure what the harness truncates on.)*
+   🔑 **AND THE RULE THAT ACTUALLY HOLDS IT: the session delta lives in `research/`; STATUS carries only the VERDICT and the LIVE RAILS.** Retiring the oldest §0 delta each closeout (PAT-055) does **not** work on its own — each new delta arrived bigger than the one retired. **Write the full delta to `research/<THREAD>_<DATE>.md` and leave a compact verdict block in §0.**
+   ⚠️ **When compressing, MEASURE per section and cut the biggest block STRUCTURALLY.** Rewording is not compression: three passes on 2026-08-28 each *felt* substantial and delivered 93–239 B.
 7. **Research detail → `research/`** — statutory filing extracts, NAIC/SVO notes, FABN/FHLB schedules, insurer asset-transfer analysis.
 8. **Rewrite `SCRATCH.md`** — CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state. This is SHADE's canonical handoff. `LAST_COMPLETION.md` is legacy/historical.
 9. **Promotion scan** — thesis-level insurer-wrapper finding → `STATUS.md` and, when thesis scaffolding exists, thesis files; SHADE-specific durable lesson → `MEMORY.md`; transferable cross-agent lesson → auto-memory, then remove duplicate from local `MEMORY.md`.
@@ -105,6 +112,7 @@ Read→write pairings: STATUS (read 1 → write 6), SCRATCH (read 2 → write 8)
 10a. **Retirement scan** — any file in `research/` or `domain/sources/` that is (a) >60 days old AND (b) not actively boot-read AND (c) not referenced by a current STATUS section: `git mv` to `archive/`. `tmp_*` dirs are always session-temp — archive at every closeout. Log archived files in `MAINTENANCE.md`. For `domain/sources/` KB docs: check the `LAST_REVIEWED` field in each doc header; if >60d, flag the doc as stale at STATUS §0 and schedule a refresh before next cite.
 11. **Cross-agent signals** — steady-state cross-agent context flows through `NEXUS_BRIEF.md` (below); write `outbox/` only for acute/time-sensitive insurer-wrapper signals. Do not send routine acknowledgements.
 11a. **`NEXUS_BRIEF.md` fold — THE SESSION'S LAST WRITE-BACK.** ⚠️ **Ordering rule, not a reminder** (NEXUS schema **Amendment 10**, ratified 2026-07-31 Will-approved; PROME fleet-propagation packet 2026-08-04). Fold the brief **after the final `STATUS.md` write, immediately before the step-12 commit.** **Checkable form: the brief's commit timestamp ≥ this session's last STATUS commit timestamp.** *Why ordering and not "remember to refresh": the 7/31 fleet audit found **5-of-5 content-stale briefs had refreshed and then kept working; zero had skipped the refresh** — a brief written mid-session and left behind while STATUS work continues is the dominant staleness mechanism, and only the ordering constraint closes it. **SHADE has already failed this once** (8/4 morning proxy: STATUS written, brief never folded).* Canon: `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1 + §7. Schema questions → NEXUS, not PROME.
+11b. **Read-cap check (mandatory, before commit)** — `python3 scripts/read_cap_check.py --agent SHADE` from the repo root. **rc must be 0.** If a boot-read surface is over budget: rotate verbatim + crc32-stamped to `archive/`, or split hot/cold — **never raise the budget, and never delete rather than rotate.** **Verify a rotation by recomputing the crc32 of the archived copy** (`tail -n +N | crc32`), not by trusting the banner: the first banner written on 2026-08-28 claimed the wrong line offset and silently dropped a line.
 12. **Git** — commit own files per root CLAUDE.md §Git Protocol (pathspec `AGENTS/SHADE/`, SHADE domain only; commit-message subject `SHADE: <subject>`) + auto-push via `scripts/safe-push.sh` (ff-gated; non-ff → `git pull --rebase` + re-push, never force — flag PROME/Will if it recurs). **Always use `git mv`, not bash `mv`, when moving inbox/research files.**
 
 **Discipline overlay:** one source of truth per metric; stale-marked beats carried-forward-as-current; primary/statutory filings beat media summaries; do not let BROCK's fund-level stress substitute for SHADE's insurer-wrapper mechanism.
@@ -122,7 +130,8 @@ Foundational research currently lives in `research/` plus legacy inbox signals. 
 
 | File | Purpose |
 |---|---|
-| `STATUS.md` | Live insurer-wrapper dashboard and active vectors. |
+| `STATUS.md` | **Boot-read whole.** Live insurer-wrapper dashboard, active vectors, dated calendar, owed list. **Canonical on live state.** |
+| `REFERENCE.md` | **Cold half — consulted on demand, by section, NOT boot-read whole.** Carried figures (§2), watchlist (§5), per-vector evidence (§3D), full transmission map (§4), monitor-class calendar rows (§6M), open questions (§8), historical notes (§9), maturity asks (§10b). |
 | `SCRATCH.md` | Canonical session handoff; rewritten each closeout. |
 | `MEMORY.md` | Durable SHADE-specific learnings and domain boundary rules. |
 | `MAINTENANCE.md` | Structural-change log for architecture/protocol/script changes. |
