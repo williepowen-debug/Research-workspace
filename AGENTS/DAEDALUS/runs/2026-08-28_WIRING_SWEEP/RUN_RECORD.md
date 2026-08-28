@@ -137,3 +137,13 @@ OZK · HENRY · LIQUID · SAM · TERRY · VULCAN · VIOLET · CORAL · CREED · 
 
 ## 12. Next
 **Sweep #2 (~9/11–14, ride Falsification #3):** ⑲ with the clause-set unit · ⑧ · ⑩ · ⑰ #2 on the LIVE-only population with FROZEN screened at sampling · ㉓ · ㉗ query. **Before that:** R1 apply on Will's word → coverage % → `profile_clock_check` (㉕ cheap half) → `read_cap_check --agent` (P2 on approval) → CHECKS.tsv rotation (mine, 113%). **Staleness #4 ~9/1** carries the Class-8 declarations as a grading leg.
+
+---
+
+## 13. Post-run write-backs (same day, verified by the owners' own messages — verify at the artifacts before citing as CLOSED-VERIFIED)
+- **PROME 11:2x:** row 89 → DECIDED-DECLINE-WITH-TRIGGERS (awaiting Will) · HANS memo → **WILL_QUEUE row 108** (needed-by 9/4) · P1–P5 → **row 109** (PROME rec: P2+P3 approve; P1 as a fleet cap over owner numbers; P4/P5 one sitting each) · **GATES.tsv repaired from `leg17_GATES.md`:** VIO-RV1 field split fixed (12/12 fields), FERT-G5 + CORAL-MSI-01 re-tagged `JUDGEMENT`, LIQ-069/076/079 state cells annotated `CANNOT-FIRE` (079's wrong-basis ARM leg stays LIQUID's repair); TERRY-ARM3 (mild) left · PROME's own R1 line goes in `PROME/BOOT.md` by PROME's hand.
+- **RED 11:1x:** "apply when idle" — RED joins the batch (label `9e.`, path-scoped, only when `ListAgents` shows red-96 idle).
+- **NEXUS 11:1x (scoped to the pin instrument only; blind-parallel rule held both ways):** its "15 of 26 briefs lack a STATUS pin" figure is RETRACTED and re-cut **16/26 (62%) in three classes** — A pin present+comparable 10 · B field absent 12 · **C field present, value absent 4 (CORAL, HAWK, OSPREY, VIOLET — a pointer is not a pin)**; its own `grep -L 'STATUS commit:'` measured a string, not a pin (3 false positives, 4 false negatives). Not used in this sweep; banked for the 8/29–31 review. Class C is the same shape as three ⑳ findings today (presence-checks certify the wrong thing).
+- **consumer_check on the 80%→75% memory-warn tier:** the tool cannot discriminate a bare percentage (985 fleet hits, all unrelated "80%"s; 21 own-surface hits incl. the R1 "≥80% coverage" threshold) — **no packets sent on a bare 2-sig-fig figure, per root 1c.** Hand-verified: the only surfaces that named the tier (the script's own OK line, CHECKS.tsv row, `memory_index_check` default) are all re-keyed; root CLAUDE.md 1d carries no number.
+- **Ledger nudge:** `SURFACES.tsv` 2 STATUS-writes behind — no shared non-agent surface changed ownership or state today (`CHECKS_HISTORY.tsv` and `STATE_VOCABULARY_PROVENANCE.md` are DAEDALUS-owned cold halves, not shared surfaces) — said here, not silenced.
+
