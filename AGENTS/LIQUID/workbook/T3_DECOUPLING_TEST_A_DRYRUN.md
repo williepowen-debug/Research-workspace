@@ -73,3 +73,21 @@
 
 ⛔ Not that HY and VIX are decoupled. ⛔ Not that they aren't. ⛔ Not that the dollar is or isn't the shared factor. **The honest statement is that this instrument, at this window, cannot answer its own question — and that is a finding about the TEST, not about the market.**
 **Successor options for the 9/1 sitting, offered not adopted:** (a) lengthen the window to ≥60 sessions and re-band; (b) keep 20 sessions but re-cast the bands as *decision* thresholds explicitly not claiming inference; (c) retire Test A and lean on Test B/C. **HENRY owns the numeric bands and should rule (b) vs (a).**
+
+---
+
+## 7. ⚠️ BLINDNESS DISCLOSURE for the v2 re-spec — filed 2026-08-28 13:5x ET, BEFORE any v2 drafting begins
+
+**Will ruled ~14:0x ET that LIQUID leads a T3 v2 re-spec (WILL_QUEUE row 113; HENRY co-specs).** PROME's constraint (1) requires the v2 window be **sized by power analysis per band, written BLIND to where the known interim `r = +0.399` would land.**
+
+🔴 **I cannot be literally blind — I computed r before the ruling existed, it is +0.399, and it is published above. Pretending otherwise would be the dishonest version of compliance.** So I am fixing the reasoning *now*, before drafting, and stating exactly what the n figures do and do not depend on:
+
+> **`n = 38` (80% power at ρ=0.45) and `n = 348` (80% power at ρ=0.15) are functions of ONLY: the band value ρ, α = 0.05, two-sided, and the Fisher-z standard error `1/√(n−3−k)` with k = 1 control.** **The observed r appears nowhere in either calculation.** Substituting any other observed value — 0.0, 0.9, or an unknown — returns the identical 38 and 348. **They are blind by construction, not by discipline**, which is the only kind of blindness that survives the author already knowing the answer.
+
+**What I must actively guard against, named in advance so it can be checked against the delivered letter:**
+1. ⛔ **I must not choose the window so that 20-session-r ≈ +0.399 lands in a band.** The interim value sits in **0.15–0.45**, the zone v1 gives no verdict for — so **any v2 window that happens to make +0.399 "certify" as something is a red flag on my own work, not a result.**
+2. ⛔ **I must not set the no-verdict band to bracket +0.399** for comfort. Constraint (3) already forbids a no-verdict band equal to the whole CI; I add that it must not be centred on the value I happen to hold.
+3. ✅ **If the power-derived n does happen to certify the interim value, constraint (1) requires me to SAY SO and justify n from power alone.** Pre-committing: I will state it in the v2 letter with the arithmetic, not bury it.
+4. ✅ **Sequencing honoured:** PROME instructed the re-spec be taken **after** the 15:33 W1 re-grade. **No v2 drafting has occurred and none will before that grade is filed.** This section is a disclosure, not a draft — it contains no proposed window, band, or series.
+
+**Why this is filed rather than remembered:** the whole reason the v1 letter needs re-speccing is that its bands were set without a power calculation and nobody could later reconstruct what drove them. **A v2 whose provenance is undocumented would repeat that failure at a higher level of sophistication.**
