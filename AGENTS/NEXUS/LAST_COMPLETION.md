@@ -74,3 +74,24 @@ Header re-anchored (11-day, **scope caveat explicit**). Split **HELD 21/44/35**,
 **Drain 6/6** (5 processed; PROME's commission **HELD to its ≥8/29 gate, review NOT started — DOCKET 206 noted**). In-pass: **LABOR QCEW −79K folded** (Vector 8 4🔴→2🟡; **split NOT re-marked** — owner fences attribution to NFP 9/4; private −178K under the headline) **+ 7 WALTER signals logged**; all 8 untracked ⇒ logged not filed.
 **🔴 Returned Will-gated: amendment 12** (routing-first ordering for the full brief variant) — HOMER defect accepted, §6 closure struck, **not self-ruled**; its own registered watch-prediction **failed 21 days early**, and its consequence clause argues against my amendment, so that question went to Will+DAEDALUS unresolved. **VULCAN revert: MET but STAYED.** **Pin gap: 15 of 26 briefs — my §4.4 check is untrippable on 58% of the fleet; rollups #1-3's "zero brief-gap" retracted.**
 **Commits:** `f4489b77a` (grade, STATUS, PREDICTIONS, schema, BRIEFS_MAP, drain — subject lists NEXUS-own files) · `a696fbf0f` (memory). *(First commit of the three carries the own-dir work; packets ride `f4489b77a`.)* **Did NOT push — PROME names the last touch.** **$0 moved.**
+
+
+---
+
+## ⚠️ SAME-SESSION CORRECTION (~11:5x ET) — my own `15 of 26` pin figure was wrong; LABOR's doorbell exposed it within the hour
+
+**What happened:** I published **"15 of 26 briefs lack a `STATUS commit:` pin (58%)"** to four desks off a single string grep. LABOR then doorbelled, having re-pinned its brief with a **correct** hash (`8ffadab31` = its STATUS HEAD) — **and my sweep still scored it missing.** A second, form-agnostic detector disagreed with the first **in both directions on 7 of 26 desks** while the totals differed by **one** (15 vs 16). ⚠️ **The near-identical total was the trap** — adjusting the count would have destroyed the evidence (`[[finding_reconcile_mismatch_does_not_say_which_side_is_wrong]]`).
+
+**Reconciled — three classes, not two:** **A** pin present + comparable = **10** (BROCK CARL FALCON LABOR MARCO ORACLE OTTO SAM VULCAN WAL) · **B** field absent = **12** · 🔴 **C** field PRESENT, value ABSENT (a pointer: *"see `git log -1 …`"*) = **4** (CORAL HAWK OSPREY VIOLET). ⇒ **untrippable = 16 of 26 = 62%**, not 15/58%.
+
+**The two findings, going opposite ways:**
+- **① The scan measured a STRING, not a PIN.** Three desks are compliant in three different forms (CARL has no colon — the colon alone defeated the grep; WAL `STATUS pin:`; LABOR `STATUS-HEAD PIN:`). 🔴 **The schema never specified a canonical token, so any check keyed on one literal string is blind to the COMPLIANT briefs too — the real defect, and it is mine.** `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` is in the HOT index; I read it at boot and did not apply it. **n=5 for that memory.**
+- **② Class C is worse than absence and is why the count went UP:** field present + value absent **passes a presence audit while defeating the consuming check.** VULCAN's class one level deeper.
+
+**What survives:** the headline and the retraction, slightly stronger — **§4.4 cannot fire on 62% of the fleet** and rollups #1-3's *"zero brief-gap fleet-wide"* stays **RETRACTED**. **The number got smaller in error; the defect got bigger.**
+
+**Ruled into `templates/NEXUS_BRIEF_SCHEMA.md` §4.4** (my own form/invariant — NOT fleet-facing, so not escalated): canonical token `` STATUS commit: `<hash>` `` forward-only with the four variants **grandfathered and not to be rewritten** · **a pointer is not a pin** (Amendment 10 already makes the hash knowable at fold time) · **sweeps report COVERAGE + CLASS, never a bare defect count** · **never publish an "N lack X" figure off one string grep — sample-re-read the hits.**
+
+**Corrections sent (4):** VULCAN (origin credited, hypothesis confirmed + extended) · **BROCK — ⚠️ I told it its brief lacked a pin; it carries `96bf99d96`. Claim WITHDRAWN**, with the still-live `<270` breach and staleness explicitly NOT retracted alongside it · HOMER (ordering ruling unaffected) · PROME (routing figure superseded; BROCK error self-reported).
+
+**Also closed:** **LABOR's QCEW packet is now FILED to `inbox/processed/`** — it was untracked at my first pass (author's commit in flight, correctly not moved); LABOR has since committed it (`ec9018565`). **The 7 WALTER lane files remain untracked and unfiled** — still owed once WALTER commits.

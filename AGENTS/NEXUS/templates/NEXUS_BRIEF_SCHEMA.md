@@ -296,6 +296,28 @@ NEXUS is mid-E-phase with a Mon 6/9 deadline. **Do not interrupt E.** Ratificati
 
 *Prior open items: **NONE.** Amendment 11 (`pin-follows-STATUS-HEAD`, LABOR-originated n=4) was **RATIFIED 2026-08-07 by NEXUS self-ruling** under DELEGATION_TIER — decision row 21, record block in §4.1, digest row in `AGENTS/SELF_RULINGS.tsv`. WILL_QUEUE row 38 closes without a Will ruling. All prior items closed (amendment 9 ratified 7/31, row 19; amendment 10, row 20).*
 
+### 🔴 §4.4 COMPANION DEFECT — **NO CANONICAL PIN TOKEN, AND A POINTER IS NOT A VALUE** *(found 2026-08-28; NEXUS's own defect, measured after publishing a wrong count)*
+
+**§4.4 defines trigger (a) as comparing *"the STATUS commit hash in the brief header"* to STATUS HEAD and calls it *"mechanical / always fires."* It never specified the TOKEN that carries the hash.** Measured across all 26 briefs:
+
+| Class | n | Detail |
+|---|---:|---|
+| **A — hash present, comparable** | **10** | BROCK · CARL · FALCON · LABOR · MARCO · ORACLE · OTTO · SAM · VULCAN · WAL — **in three different string forms**: `STATUS commit: \`h\`` · `STATUS commit \`h\`` (no colon) · `STATUS pin: \`h\`` · `STATUS-HEAD PIN: \`h\`` |
+| **B — field absent** | **12** | AEOLUS · BOND · BRENT · HENRY · HOMER · LIQUID · MIDAS · RED · REGINALD · SHADE · WATT · ZHAO |
+| **C — field present, VALUE absent** 🔴 | **4** | CORAL · HAWK · OSPREY · VIOLET — *"see `git log -1 -- …`"*, *"see session commit below"*, *"written this session, refresh at close"* |
+
+⇒ **trigger (a) cannot fire on B + C = 16 of 26 = 62% of the fleet**, and a check keyed on any ONE literal string is **also blind to the class-A briefs written in the other forms.**
+
+⛔ **Class C is the sharper half: a field PRESENT but carrying a POINTER instead of a VALUE defeats the consuming check AND passes a presence audit** — strictly worse than absence, which at least fails a coverage grep. *(This is VULCAN's "absent required field is untrippable by construction" one level deeper.)*
+
+**RULED (form/invariant, NEXUS's own §4.4 — not fleet-facing, so not escalated):**
+1. **Canonical token: `STATUS commit: \`<hash>\`` — that exact string, hash in backticks, 7+ hex.** Existing class-A variants are **grandfathered and must NOT be rewritten**; the canonical form is required going forward and any checker must accept the four known variants until owners next touch their headers.
+2. **A pointer is not a pin.** *"see `git log …`"* / *"refresh at close"* **does not satisfy §4.4** — if the hash is unknown at write time, Amendment 10 (fold LAST) already puts the fold after the STATUS write, so the hash IS knowable. Write it or say `STATUS commit: NONE (reason)` so it fails loudly.
+3. **Any pin sweep reports COVERAGE and CLASS (A/B/C), never a bare defect count** — a rate over a population the instrument cannot see is not a rate.
+4. ⚠️ **Detector rule, from how this was found: never publish an "N lack X" figure off a single string grep. Sample-re-read the hits first** (`[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`). Two detectors here disagreed on **7 of 26 desks** while their totals differed by **one** — the near-agreement was the trap.
+
+*Origin: VULCAN raised the class n=1 (8/21); NEXUS ran the test and published **15 of 26**, which was wrong in composition on 7 desks; LABOR's 8/28 re-pin — a CORRECT pin my sweep scored as missing — exposed it within the hour. Corrections issued to VULCAN, BROCK, HOMER, PROME.*
+
 ### ⚠️ AMENDMENT 12 — **PROPOSED 2026-08-28, ESCALATED TO WILL VIA PROME. NOT RATIFIED. ⛔ NOBODY REORDERS UNTIL WILL RULES.**
 
 > **Proposal: extend amendment 9's routing-first ordering to the FULL variant — `CROSS-DOMAIN` above `VIEW`/`CALIBRATION`.** Zero new obligations, zero new text, no content changed; it aligns physical order with the priority the schema already declares. **Precedent: amendment 9's own ratification rationale, applied to the population it excluded.**
