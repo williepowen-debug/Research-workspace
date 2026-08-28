@@ -61,6 +61,30 @@ Rule: reference BROCK for fund-level facts with `[CONF BROCK date]`; SHADE adds 
 | NAIC SVO overrides | <5 | 5-20 | >20 systematic |
 | APO stock | >$120 | $100-120 | <$100 |
 
+## REGISTERED TRIGGERS (canonical locus — registered 2026-08-28)
+
+> **Why this section exists.** The wrapper-decoupling trigger has been graded, cited and reported across STATUS, SCRATCH, `NEXUS_BRIEF`, `LAST_COMPLETION` and `MAINTENANCE` since **2026-07-09** — and had **no locus in this charter**. Its 7/9 registration was never located. FORUM-5's X1 reconcile named establishing that locus as **SHADE's own precondition** (obligation ②), 15 days overdue at registration. **A threshold that lives only in deltas and handoffs is not registered — it is remembered.** *(`finding_dated_carry_item_has_no_expiry_check`; the P3 citation defect of 2026-08-13, where I cited the trigger "verbatim" from a preserved historical block whose adjacent text was 10bp stale.)*
+
+### T-SHADE-01 — WRAPPER-DECOUPLING (the statutory-dig arming trigger)
+
+| Field | Value |
+|---|---|
+| **Trigger id** | `T-SHADE-01` |
+| **Registered** | 2026-07-09 (origin); **canonical locus established here 2026-08-28** |
+| **Owner** | SHADE |
+| **Fires when** | **BOTH legs, conjunctive (AND):** **(1) LEVEL — HY OAS > 280 bp, SUSTAINED ≥5 consecutive published sessions**; **(2) SIGN — the wrapper basket LEADS the manager basket DOWN.** |
+| **Level instrument** | **FRED `BAMLH0A0HYM2`**, published daily with a lag. **`value_basis`: ICE BofA US High Yield Index option-adjusted spread, in bp; the published series is in percent — 2.80 = 280bp.** Sessions counted are **PUBLISHED** sessions, not calendar days. |
+| **Sign instrument** | **Wrapper basket ARCC · FSK · OBDC · BIZD** vs **manager basket APO · ARES**, **equal-weighted simple % change, measured on CLOSES only** — never intraday, never a close blended with an intraday print. |
+| **Sign leg is DIRECTIONAL, not relative** | ⚠️ **Both cohorts falling with wrappers falling MORE = MET. Both cohorts RISING with wrappers rising less = NOT MET.** A relative lag in an up-tape is not decoupling — the leg exists to catch **collateral re-marking**, not multiple compression. **3-for-3 to date (7/29, 8/5, 8/12): on every down-day in window, the MANAGERS led down.** |
+| **⚠️ Window-sensitivity guard** | The *relative* spread **flips sign with the start date** (+1.04pp from 8/3 vs −0.88pp from 7/31 on the same end date). **Never quote the relative spread without its window.** Immaterial to the leg itself, which turns on direction. |
+| **Sustain count** | **Owner-adjudicated (FORUM-5 rule 3).** A run is broken by any published session ≤280. |
+| **On fire** | Execute the pre-registered double-jeopardy statutory entity+fund dig (STATUS §10 item 6, ordered a→d). **Standing rule: no dig absent a trigger.** |
+| **State 2026-08-28** | ❌ **NOT ARMED — ZERO legs.** HY OAS **263** [FRED, 8/27 print] = **17bp below the bar** (vs 9bp below on 8/13 — *further away, not closer*). Sign leg not met on any basis since registration. |
+
+⛔ **`T-SHADE-01` IS NOT THE SAME SYSTEM AS THE HY OAS ENVIRONMENT BAND** in §Thresholds & Triggers above (`<300 green / 300-350 yellow / >350 red`). **Not a conflict — different purposes:** the band describes the *credit environment*; `T-SHADE-01`'s level leg is one conjunct of an *arming* condition for a specific dig. **They will disagree by construction** — at HY 290 the environment band reads GREEN while the level leg reads MET. **Cite them by name, never as "the HY threshold."**
+
+---
+
 ## Historical Precedents
 - **Executive Life (1991):** Junk bonds → run → $4B liquidated → annuitants cut to 70%
 - **Confederation Life (1994):** Illiquid real estate → cross-border ring-fencing → 250K policyholders stranded

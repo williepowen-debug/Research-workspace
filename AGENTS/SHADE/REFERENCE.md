@@ -1,7 +1,9 @@
 # SHADE REFERENCE — carried figures, watchlist, open questions
 **Created:** 2026-08-28 (P1 read-cap hot/cold split) · **Owner:** SHADE
 
-> **This file is NOT a whole-file boot read.** `CLAUDE.md` boot step 1 reads `STATUS.md` (the live dashboard); this is the **cold half** — consulted **on demand**, by section, when citing a figure, opening a watchlist name, or picking up an open question. Kept under the 32,550 B read-cap budget anyway so a whole read is always safe.
+> ⚠️ **THIS FILE IS NOW LARGER THAN THE 32,550 B READ-CAP BUDGET (34,639 B at 2026-08-28) — READ IT BY SECTION, NEVER WHOLE.** That is a correct protocol statement, not a workaround: it is not a boot read, and a whole read of it would return a partial file with no error. Use `grep -n '^## '` to find the section, then `sed -n 'A,Bp'`.
+>
+> **This file is NOT a whole-file boot read.** `CLAUDE.md` boot step 1 reads `STATUS.md` (the live dashboard); this is the **cold half** — consulted **on demand**, by section, when citing a figure, opening a watchlist name, or picking up an open question. **Sections are the unit of access.**
 > **`STATUS.md` is canonical for live state** — vectors, thresholds, the calendar and the owed list. **Where the two disagree, STATUS wins and this file is the stale one.**
 
 ---
@@ -148,3 +150,38 @@
 *(Stage 4b added 2026-08-28. The map had no liability-side inflow stage — the same structural gap as the §6 ladder's missing counterparty marker, found by the same event.)*
 
 ---
+
+---
+
+## 2Q. Delaware Life Q2-2026 statutory — figures, basis and limits
+
+*(Added 2026-08-28. Instrument: DLIC Quarterly Statement as of 2026-06-30, barcode `79065202620100102`, cocode 79065, domicile DE. Full working → `research/DELAWARE_LIFE_Q2_2026_STATUTORY_2026-08-28.md`. **STATUS §0l carries the verdicts; this is the arithmetic.**)*
+
+**④ 🔑 THE FLOW FIGURE EXISTS — pre-pause baseline, at primary** *(DLIC Q2-2026, barcode `79065202620100102`, jurat verified before any figure was read)*. **1H-2026 vs 1H-2025:** direct premiums + deposit-type **$6,726M vs $5,903M = +13.9%** · individual annuities **$4,645M vs $4,188M = +10.9%** · **surrenders and withdrawals $2,061M vs $1,425M = +44.6%** · **surrenders ÷ inflows 24.1% → 30.6%** · net cash from operations **$3,447M vs $2,968M.**
+⇒ **Inflows were still growing strongly into the pause — the channel that closed was an ACTIVELY GROWING one, which makes the pause more consequential, not less. But outflows grew ~3× faster than inflows.** ⛔ **This does NOT confirm the stripped "flows going the wrong way" framing: it ends 6/30/26, two months BEFORE the pause; a rising surrender rate in an annuity book is not per se distress (surrender-charge cohorts undisclosed); net operations IMPROVED. Not a liquidity event.**
+
+**⑤ 🔴 THE REMEDIATION PLAN IS NOT VISIBLY SHRINKING THE BOOK — share and dollars disagree.** Affiliate-contingent private credit **$16,372M (12/31/25 restated) → $16,822M (6/30/26) = +2.75% in DOLLARS** (bonds $12,619M → $13,091M); incl. SAFAs + trust notes **$17,006M → $17,643M.** **But GA net admitted grew +11.6% ($45,903M → $51,249M), so the SHARE fell 35.67% → 32.82%.** **Both true — report the PAIR.** 🔑 **The same share-vs-quantity trap I adopted from `-021-CORRECTION` hours earlier, landing on my own primary vector.** ⚠️ **A carrying-value rise is not necessarily new purchases, and the plan's own metric is not public** — ratio ⇒ met, dollars ⇒ not. **Both readings live.** ✅ **Carried figures CONFIRMED EXACTLY from an independent document: FY2025 affiliate-contingent $16.37B, bond leg $12.62B, GA $45.90B, admitted $64.7B.**
+
+**⑥ CHARTER RATIOS — what a quarterly can bear.** **Illiquidity Ratio: 10.05% FLOOR ONLY** (mortgages $3,289M + Schedule BA $1,863M ÷ GA $51,249M) — ⛔ **the illiquid-ABS leg is missing (Schedule D is ANNUAL) and the bond line is $33,715M with $13.09B affiliate-contingent, so I CANNOT say the ratio is under the 30% red flag.** **Affiliated Reinsurance Ratio and TSR/Gober: NOT COMPUTABLE from a quarterly** (Schedule S is annual; TSR is also under-specified — publish no number for it). **Capital and surplus $4,028,108,426** (12/31/25 $3,838,481,434). **Affiliate-contingent = 4.18× surplus — a CONCENTRATION measure, NOT leverage; it does not resurrect the retracted 12×.** ✅ **Two clean negatives, verified not assumed: GOING CONCERN NEGATIVE** (Note 1.D — a truncated fragment nearly inverted it) · **NO state prescribed or permitted practices** — a registered SHADE mechanism confirmed **NOT in use** at this name.
+
+**⑦ 🔑 THE LIABILITY-SIDE CONSTRAINT, from BROCK** `[CONF BROCK 8/28, FHLB Indianapolis 10-Q acc 0001331754-26-000161]`: **Delaware Life is FHLBI's #2 borrower at $4,963M = 12% of advances (6/30/26), +71.6% YoY — then FLAT TO THE DOLLAR across two quarters in a table where every other row moved.** ⚠️ **Both readings live: no maturities in the window (benign) vs a cap or collateral constraint (not).** **Pairs with ④** — retail inflow closing while ~$5.0B of **secured, prior-ranking** wholesale funding is drawn; **replacing paused inflows means posting more collateral out of a general account 32.8% affiliate-contingent.** ⛔ **An FHLB is a cooperative — NOT commercial-bank exposure, not a Truist/Fifth Third credit story.**
+
+
+---
+
+## 3R. Per-vector current read (one line each)
+
+*(Moved from `STATUS.md` §3, 2026-08-28. **STATUS carries the convergence index, the FIRING vector's row, and a headline digest — those are canonical.** The full evidence narrative is §3D above.)*
+
+| Vector | Live read |
+|---|---|
+| **Related-party classification integrity** | 🟠 **A measurement-integrity finding, not a single-name one** — the line can be wrong by **5.1×** at a **$64.7B** insurer and survive audit until a grand jury forces a re-look. **Key Ratios #1/#3 carry a standing relabel** (REFERENCE §2). |
+| **AMAPS / rated structured wrappers** | 🔴 **$11B / ~3% at Athene, expected to double** as CLO falls (>$40B/~11% → <8%). **The rating, not collateral liquidity, is the capital relief.** ⚠️ **Absent from Athene's FI decks — the disclosure-channel split IS the watch item.** |
+| **Live insurance-WRAPPED PC bond** | 🟠 **PRE-MORTEM, 0-of-4 tripwires** (UBS ~$500M / $375M insured senior / Moody's A2 / wrap reportedly Nationwide Mutual). ⚠️ **Issuance, not distress.** |
+| **Funding fragility: FABN/FHLB/FAs** | 🟠 **Kill-path-1 YELLOW. RED bar = FABN spread >250bp OR a pulled/failed syndication — 140bp away, untouched.** Peer penalty **narrowed to +33.0bp L4L**. 🚩 **Registered defect: a price-only canary cannot separate "credit improved" from "the issuer stopped feeding the market paper"** — supply-adjusted companion BUILT, **companion not replacement, cannot alone move to RED.** |
+| **Regulatory capital: NAIC/PBR/AG55/SVO** | 🟠→🟡 **net relief** — CLO RBC slipped its 6/15 gate (YE2026 at-risk, YE2027 fallback), **MM-CLOs deferred to 2027**, FSOC SIFI bar raised. 🟠 **AG 55 from 2026 reporting adds L3 / PIK / private-letter-rating disclosure — it moves kill-path-#2's basis. NAIC primary pull OWED.** |
+| **Ratings / valuation machinery** | 🟠 **Egan-Jones 8/12 RESOLVED and does NOT advance the ladder: the SEC DENIED a NEW application** (`34-106092`, classes **(iv) ABS + (v) govt/muni**) — **it did not REVOKE. EJR retains (i) financial institutions, (ii) INSURANCE COMPANIES, (iii) corporates** — the classes A-CAP/777 relied on. **Ladder 🟢; kill-path-3 NOT advanced.** ⚠️ Grounds **narrow and procedural**; the Commission **expressly declined** to reach integrity (fn.23) — **never report it as the SEC finding EJR unfit.** ⚠️ **Contamination guards: the Wander/777 indictment is 777's principal, NOT EJR;** the 11/6/25 enforcement probe is single-source and separate. **The surveillance→rating-ACTION line is crossed at Delaware Life ONLY** — Athene/GA/Aspida/AEL un-actioned. |
+| **BROCK stress translation** | 🔴 Matters to SHADE **only if** insurer allocations, asset transfers, capital marks or funding confidence are affected. |
+| **Insurer-lender double-jeopardy** | 🟠 **mechanism retained, instances ZERO. The LENDER leg is REFUTED at named-entity level for all 5 gated funds** — every filed facility bank-led, zero insurer names; **Athene↔ADS refuted.** ⚠️ **GUARDRAIL: "not confirmable" is a public-data limit, NOT proof of no exposure.** **Dig trigger-gated (§10.6).** |
+| **Lee Robinson $1.8T insurer-short** | 🟠 Shorting the **insurer-exposure channel specifically**; the **Burry round-tripping allegation** is a second named short on it. **Both allegation-grade, NOT realized impairment.** No primary sourcing yet. |
+| **System transmission** | 🟡/🟠 Broad confirmation absent — **HY OAS 263 (8/27) ties the 2026 low.** Latent unless funding, rating, regulatory or bank/NDFI fires. |
