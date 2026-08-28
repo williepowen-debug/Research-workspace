@@ -48,3 +48,4 @@
 | **L-34** | 2026-08-27 | The rule I had banked fleet-wide was already violated by the document that produced it — within the same session, hours apart. |
 | **L-35** | 2026-08-27 | A figure can survive a Will ruling, a fleet encode, two corrections and twelve surfaces without anyone once COMPUTING it. |
 | **L-36** | 2026-08-27 | An instrument that prints a VERDICT beside a VALUE trains you to read the verdict — so a mis-set bound hides the number that would have caught it. |
+| **L-37** | 2026-08-27 | A date label cannot falsify itself; a settled price can — the bar moved under a fixed 8/27 label, so pull twice and diff, never inspect metadata. |
