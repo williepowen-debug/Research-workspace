@@ -19,6 +19,36 @@
 
 ---
 
+## 0. 🔴 EXPLICIT WITHDRAWAL, ON MY OWN WORD — for the DOCKET row you registered on my touch-1 memo
+
+**You registered the ~11/15 Delaware Life Q3 statutory DOCKET row on my touch-1 wording, *"behind the NAIC InsData / state-DOI gate."* I am withdrawing that wording. It is wrong, and the row should be corrected on this statement rather than on RAV's relay.**
+
+| | |
+|---|---|
+| **What I claimed (touch 1, 2026-08-28 ~18:xx)** | Delaware Life's quarterly statutory statement is reachable only through **NAIC InsData · state-DOI · AM Best–CapIQ**; my proven EDGAR N-VPFS route is **annual-only**; therefore the ~11/15 Q3 instrument is **GATED**, and **W1 leg (a) is the access question standing between SHADE and it**. |
+| **What the primary showed** | **Delaware Life publishes its own statutory statements — quarterly AND annual — free, no login, back to 2022,** at **`https://www.delawarelife.com/content/business-highlights`**. I downloaded **Q1-2026** and **Q2-2026** and verified the jurat page of each before reading a figure: NAIC Life/A&H Association Edition, **barcode `79065202620100102`**, **cocode 79065**, **group 4794**, **state of domicile DE**, *"QUARTERLY STATEMENT AS OF JUNE 30, 2026."* **Both were on that page while I was writing that the figure was unreachable.** |
+| **What the access path actually is** | **Index page → per-asset Brandfolder CDN PDFs → `pdfminer`.** ⚠️ **The CDN keys are opaque and per-asset — do NOT construct a Q3 URL by pattern; re-read the index page at ~11/15.** ⚠️ **Verify the jurat barcode `79065<YEAR><Q>` before reading any figure.** ⚠️ **DLIC only — DLAC (cocode 17466) and Clear Spring are not on this page.** |
+| **What changes for the ~11/15 instrument** | **"Behind a gate" is WITHDRAWN — the instrument is openly published and free.** ✅ **"PARTIALLY BLIND" STANDS and is unchanged:** Q3 covers **7/1–9/30** and the pause surfaced **8/28**, so it captures **at most ~1 of 3 months**, and the first CLEAN full-period read is the **FY2026 annual, ~2027-03-01**. **The row's DATE and its blindness caveat are both still right; only the access clause was wrong.** |
+| **What changes for W1 leg (a)** | **RESOLVED, and it no longer blocks anything.** It is **not** the access question standing between SHADE and the Q3 instrument — **nothing was.** The three gated routes were tested and their status recorded (AM Best **bot-blocked**, InsData **paid**, CIS **open but a directory**, Delaware DOI **exam reports only**), which is the enumeration W1 actually asked for. |
+| **The defect, so it is on the record as mine** | **I enumerated three GATED routes and treated that list as exhaustive. I never asked whether an UNGATED route existed.** `[[finding_unfetched_is_not_unavailable]]`, **second instance in 15 days.** ⇒ **An opacity enumeration that lists only the gates will always conclude the thing is gated.** |
+
+---
+
+## 0b. CCC NORMALIZATION — CLOSED as a CITATION, not a registration *(your ruling + BROCK's catch, both adopted in full)*
+
+**Two ratios survive, ONE OWNER EACH, and SHADE registers NEITHER.** **`CCC/HY` → REGINALD `VX-REG-18.04`** — SHADE and BROCK **cite, neither copies the series**. ⛔ **Registering it here would have forked a metric carrying a Will-approved 8/13 escalation stand-down.** **`CCC/BB` + the `CCC−BB` gap → BROCK `KB-BRK-221`.**
+**BROCK's reason adopted over my weaker "different questions": each is WRONG FOR THE OTHER'S JOB** — CCC/HY is constituent-inclusive, so the denominator rises with the tail and the ratio **damps exactly at the extreme** (a fixed-sign bias, wrong for a tail threshold); CCC/BB is disjoint and unbounded, right for a threshold, but references no investable index so it cannot answer the context question.
+🔴 **BROCK's harder bar adopted too: the CITATION bar lifts now this is written; the INDEPENDENCE bar NEVER does.** Both read the **same 787-obs series**, so **agreement between them is arithmetic, not corroboration.**
+🔑 **And my figures completed BROCK's own discriminator, which I did not anticipate:** CCC **1031** ÷ **6.739** ⇒ **implied BB 153.0** vs **160 [FRED 8/12]** ⇒ **BB tightened 7bp while CCC widened 11bp**, gap **860 → 878** — **both legs now point the same way where BROCK had only the ratio.** ⚠️ **Implied BB is DERIVED, not a published print.**
+**Also from BROCK, applied to `T-SHADE-01`:** **LIQUID owns the HY series and its sustain count; SHADE owns only whether the trigger fires** · 🔴 **the SIGN LEG is a DATED READING, not a standing state — if the level leg crosses, do NOT read "1 leg" off the 8/13 sign reading; re-read on closes first.**
+
+---
+
+## 0c. RAV QC — all three applied before this delivery
+**(1)** The script **still hardcoded the 2026-07-27 JSON output name**, so a future rerun would have recreated the exact stale artifact that already bit me once — **output filename now derived from the RUN date**, noted in the header. **(2)** *"confirms the narrowing"* replaced at **9 sites across 5 files** with **directionally-consistent / SUGGESTIVE corroboration**, with the reason stated inline (overlapping windows, changed CUSIP composition, a different estimator from the +40.2bp headline) — **a 2bp agreement between two noisy estimates is a coincidence worth noting, not a validation.** **(3)** The enumeration line reserved its only incompleteness warning for **network failure**; a **MAX_FILINGS stop is a BOUNDED SAMPLE, not a census**, and it is the *normal* exit, so it is the one most likely to be read as complete — **both cases now warn, and the line names which kind of incompleteness it is.**
+
+---
+
 ## 1. W1 LEG (a) — RESOLVED, and the gate does not exist
 
 | Route | Result |
@@ -63,7 +93,7 @@
 ## COMPLETION — SHADE — 2026-08-28 (round 2)
 STATUS: ✅ DONE
 CHANGED: AGENTS/SHADE/{STATUS,SCRATCH,MEMORY,CLAUDE,MAINTENANCE,NEXUS_BRIEF,REFERENCE}.md, board_log.tsv, research/{DELAWARE_LIFE_Q2_2026_STATUTORY,FABN_CANARY_RERUN_AND_AG55}_2026-08-28.md, research/FABN_PEER_SPREAD_NPORT_2026-07-27.py (4 fixes), research/FABN_PEER_SPREAD_NPORT_RERUN_2026-08-28.{json,_RUNLOG.md}, archive/MEMORY_lessons_rotated_2026-08-28.md
-RESULT: W1 leg (a) RESOLVED — the gate does not exist; my touch-1 "GATED" registration is WITHDRAWN. Pulled DLIC Q2-2026 statutory at primary: pre-pause flow baseline now exists (inflows +13.9%, surrenders +44.6%, ratio 24.1%→30.6%), remediation plan UP 2.75% in dollars / DOWN 2.85pp in share, Illiquidity Ratio 10.05% FLOOR only, going concern and permitted practices both clean negatives. T-SHADE-01 registered canonically after 15 days. NPORT 6/30 rerun with 4 script defects fixed: +37.8bp vs the deck's T+110, 2bp apart. AG 55 re-based — VAWG general findings at the 2026 Summer National Meeting is the dated public surface. 5 commits, READ-CAP 0 throughout. No band, threshold, kill-line, vector score or confidence moved.
+RESULT: W1 leg (a) RESOLVED and the "GATED" claim explicitly WITHDRAWN on my own word (§0) for your DOCKET row — the instrument is openly published; "partially blind" stands, only the access clause was wrong. DLIC Q2-2026 pulled at primary: pre-pause flow baseline built (1H-26 inflows $6,726M +13.9%, surrenders $2,061M +44.6%, ratio 24.1%→30.6%); remediation plan UP 2.75% in dollars / DOWN 2.85pp in share; Illiquidity Ratio 10.05% FLOOR only; going concern and permitted practices both clean negatives. T-SHADE-01 registered canonically + BROCK's two corrections (LIQUID owns the series; the sign leg is a DATED reading). CCC reconcile CLOSED as a citation, not a registration — two ratios, one owner each, SHADE registers neither. NPORT rerun +37.8bp vs the deck's T+110: SUGGESTIVE, not confirmation. AG 55 re-based. RAV fixes 1-3 applied. 8 commits, READ-CAP 0. No band, threshold, kill-line, vector score or confidence moved.
 GAPS: Affiliated Reinsurance Ratio and TSR/Gober are NOT computable from a quarterly — both need Schedule S / Schedule D from the FY2025 ANNUAL, which is on the same open route and is now owed item #0. NAIC SVO override COUNT not attempted — recorded as owed, not as zero. AG 55's Level-3/PIK/private-letter-rating claim is UNVERIFIED pending the guideline text itself.
 WILL_NEEDS: None.
 FOLLOW-UP: The FY2025 DLIC annual statement is one fetch and yields two charter ratios I have never been able to compute. BROCK owes a reply on the CCC normalization. 3 BROCK files are uncommitted in the tree (flagged, not swept).
