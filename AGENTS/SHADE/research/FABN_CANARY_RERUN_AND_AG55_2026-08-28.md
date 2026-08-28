@@ -88,3 +88,20 @@ LATF created and approved **standardized templates** covering: *"details about t
 My 8/13 news sweep recorded that **AG 55, from 2026 reporting, mandates disclosure of *Level-3 exposure, PIK interest, and private letter ratings***. **Nothing in this primary says that**, and the template contents quoted above do not include those three items. **Those disclosures belong to the AG 53 / annual-statement complex-asset lineage, not obviously to AG 55.** ⇒ **Downgraded to UNVERIFIED pending a read of the guideline text itself on the LATF page.** `[[finding_rederived_signal_loses_the_senders_caveats]]` — it entered my surfaces as a one-line sweep item and was about to be used to re-base a kill path.
 
 **Kill-path #2 disposition: RE-BASED, not advanced.** The forced-disclosure mechanism is real and running (~first filings in, VAWG reviewing); **the public trigger is VAWG's Summer-2026 general findings, aggregate and unnamed.** **No threshold moved.**
+
+
+---
+
+## Appendix C — RAV letter-fix verification audit (2026-08-28, touch 4)
+
+**PROME reported, line by line, that RAV's three fixes were absent from the tree. They are present — in `b586bcd28`, which landed after the 7 commits PROME had verified; PROME's own message notes it likely crossed my final commit.** Verified at the artifacts rather than asserted from memory (`finding_record_of_an_action_is_not_the_action`):
+
+| RAV fix | Where it landed | Verified at |
+|---|---|---|
+| **1 — dated output filename** | `RUN_DATE = datetime.date.today().isoformat()`; `out = …FABN_PEER_SPREAD_NPORT_RERUN_{RUN_DATE}.json` | **script lines 323–325.** ⚠️ **PROME cited "line 307" — the line MOVED to 323 as a result of the fix itself**, which is consistent with a pre-`b586bcd28` checkout. |
+| **2 — "confirms the narrowing" → suggestive** | Heading now reads *"SUGGESTIVE CORROBORATION … directionally consistent, NOT a confirmation"* | **research file line 38**, plus 8 further sites across STATUS / SCRATCH / NEXUS_BRIEF / the outbox memo. |
+| **3 — bounded sample, not a census** | `STOPPED EARLY at the MAX_FILINGS={MAX_FILINGS} bound` + `⚠️ BOUNDED SAMPLE, NOT A CENSUS …counts are a sample floor` | **script lines 94 and 102**, and the header note at line 16. |
+
+**Scoped audit of every remaining `confirm*` across the six SHADE surfaces: 36 instances, NONE attached to the narrowing claim.** They are: *"behavioural confirmation"* (the distribution pause — which genuinely is one), *"NOT confirmed" / "not a confirmation"* (the corrected wording itself), *"Confirmation evidence needed"* (a table header), *"Broad confirmation absent"* (HY), *"confirms the date I carried"* (AG 55's 2026-04-01 first-reports date — **genuinely confirmed at primary**), *"ONE CARRIED CLAIM I CANNOT CONFIRM"*, *"does NOT confirm the stripped framing"*, and *"Confirmed exactly from an independent document"* (the FY2025 figures, which **are** exact matches). **All correct usages; none softened, because softening a true confirmation would be its own defect.**
+
+⚠️ **AND A DEFECT IN THE AUDIT ITSELF, recorded:** my first pass used `grep -o 'confirm[a-z]*[^.|]\{0,95\}'`, which **returned ZERO matches across files that in fact contain 36** — a malformed pattern reporting a clean scan. Had I reported off it, I would have told PROME "no instances remain" on an instrument I had never validated. **Caught only because zero looked wrong against a file I had just read.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]` — **the clean scan is the dangerous result, because there is no error to notice.** ⇒ **Validate a search pattern against a known-positive before reporting a negative from it.**
