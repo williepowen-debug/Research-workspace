@@ -1,5 +1,8 @@
 # RP-OTT-4.1 — Ally Financial + GM/Ford ILC Analysis
 
+> ⚠️ **CORRECTION 2026-08-27 (s020) — the `0.117%` Bridgecrest servicing fee below is SUPERSEDED as written.** It is **Gotham's own `[EST]`** on a narrow perimeter — *"loans sold by CVNA to **'Third parties'**"* — not a portfolio-wide rate, and this package states it without that qualifier. Primary `[CONF SEC 424B5]`: **BLAST 2024-1's disclosed ABS servicing fee is 3.50%/yr**, against **SDART 2024-1 3.00%** and **Drive 2019-3 4.00%** — **at market.** **Conviction on the related-party claim does not fall** (it was never load-bearing on the ABS perimeter), but the below-market assertion as phrased here **does not survive.** Full: [`RP-OTT-2.5`](../../outputs/RP-OTT-2.5/RP-OTT-2.5_Negative_Equity_and_Loan_Term_Extension.md) · `thesis/THESIS.md` v1.5 · ML-OTTO-255. **Left in place rather than edited — a research output is a dated record of what was found, and rewriting its findings destroys the trajectory.**
+
+
 **Source:** Gemini Deep Research  
 **Date:** 2026-02-14  
 **Prompt:** RP-OTT-4.1
