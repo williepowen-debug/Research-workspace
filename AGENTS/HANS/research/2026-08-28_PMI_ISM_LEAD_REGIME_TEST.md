@@ -101,3 +101,71 @@ That is a sharper and more useful statement than *"a capex-led PMI is a weaker s
 4. **Proxy pair** (restated): not PMI, not ISM.
 5. **Correlation, not causation** — both series load on the global manufacturing cycle, and a common driver could produce the regime difference without German activity causing anything in the US.
 6. **Survey vs hard data conflict is unresolved**, see Finding 3.
+
+---
+
+# 🔴 VERIFICATION PASS — SAME DAY, AT WILL'S REQUEST. **THE HEADLINE FINDING DOES NOT SURVIVE.**
+
+Will asked me to double-check. Five adversarial checks were run. **One claim survives, three fail, and one new defect was found in my own instrument.** Everything above this line stands as the original record; the verdicts below supersede it.
+
+## ✅ CHECK 1 — the lead itself is REAL and DIRECTIONAL. **Survives, and strongly.**
+| Lag | DE→US | US→DE |
+|---:|---:|---:|
+| 0 | +0.720 | +0.720 |
+| 2 | **+0.705** | +0.569 |
+| 6 | **+0.573** | +0.185 |
+**German confidence leads US manufacturing IP; the reverse decays three times faster.** This is not a symmetric contemporaneous correlation. **The core premise of the desk's #1 signal holds.**
+
+## 🔴 CHECK 2 — the regimes are CONFOUNDED WITH ERA
+| Era | capex-led | demand-led |
+|---|---:|---:|
+| 2001–07 pre-GFC | **45** | 13 |
+| 2016–19 late-cycle | 2 | **26** |
+| 2020–21 COVID | 2 | **19** |
+**Capex-led is concentrated pre-GFC; demand-led in 2016–21.** The samples are not comparable.
+
+## 🔴 CHECK 3 — THE REGIME EFFECT IS A CRISIS ARTIFACT. **This kills the headline finding.**
+Mean (demand − capex) r-gap across lags 2–6mo:
+| Sample | Gap | Verdict |
+|---|---:|---|
+| Full sample *(the original finding)* | **+0.207** | ✅ survives |
+| ex-COVID | +0.163 | ✅ barely |
+| **ex-GFC and ex-COVID** | **−0.100** | ❌ **VANISHES** |
+| **2010–2026 only** | **+0.039** | ❌ **VANISHES** |
+| **2010–2026 ex-COVID** | **−0.155** | 🔄 **REVERSES** |
+| pre-2010 only | +0.243 | ✅ survives |
+
+**⇒ The entire effect is carried by GFC + COVID + the pre-2010 era. In the modern non-crisis sample it vanishes, and reversing sign at −0.155 means capex-led periods lead *better*.**
+
+**The mechanism, now visible:** crises make everything correlate, **and** crises crush capital goods harder than consumer goods — so crisis months score as *"demand-led."* **"Demand-led" was partly a proxy for "crisis," and crisis months carry inflated cross-country correlations at every lag.** Textbook confound; I did not check it before reporting.
+
+## 🔴 CHECK 4 — the peak lag is NOT identifiable. **My "correction" to the charter made it worse.**
+| Sample | Peak |
+|---|---|
+| Full | 1mo |
+| **ex-GFC ex-COVID** | **2mo** |
+| 2010–2026 | 0mo |
+| **2010–2026 ex-COVID** | **2mo** |
+| 2016–2026 | 0mo |
+**Correlations are nearly flat across lags 0–3 in every sample.** The peak moves with the window. ⚠️ **I amended the charter to say "peaks at lag 1, not 2." That was overconfident — and in both ex-crisis samples the peak IS lag 2, i.e. what the charter originally said. Reverted.**
+
+## 🔴 CHECK 5 — MY CLASSIFIER DOES NOT MEASURE WHAT I CLAIMED
+**62% of "demand-led" months (64 of 103) have NEGATIVE capital-goods growth.**
+⇒ The classifier measures *relative* growth. **It cannot distinguish "consumer demand is driving the expansion" from "capex is simply falling."** Those are different states and I labelled both "demand-led."
+⚠️ **This also invalidates the current-regime call:** German capital goods at **−2.49% YoY** scored as "demand-led" — but that is **weak capex, not demand-driven strength.**
+
+---
+
+## REVISED VERDICT
+
+| Claim | Verdict |
+|---|---|
+| German confidence leads US mfg IP, directionally | ✅ **CONFIRMED** — robust and asymmetric |
+| Capex-led moves are a weaker lead | 🔴 **NOT SUPPORTED.** Crisis artifact; vanishes or reverses ex-crisis |
+| Germany is currently demand-led | 🔴 **WITHDRAWN.** Classifier invalid |
+| The lead peaks at ~1mo not ~2mo | 🔴 **WITHDRAWN.** Peak not identifiable; ex-crisis samples say 2mo |
+| The original caveat to HENRY | 🟡 **STILL UNTESTED** — my test was invalid, so it is neither confirmed nor refuted |
+
+**What a valid test would need:** a classifier built on **drivers** (capital-goods *new orders*, defence procurement, construction) rather than relative output growth; **explicit crisis controls**; and the **literal PMI/ISM pair**, which needs a licensed source. **I am not able to run that from this box today, and I would rather say so than ship the version that failed.**
+
+**`[[finding_confounds_align_with_the_prior_you_brought]]` — every confound I failed to check pointed the same way as the conclusion I expected.**
