@@ -17,8 +17,9 @@ rc contract (CHECK_STANDARD SS9):
   0  no unreceipted NAMED rows for this desk (ALL-row WARNs may still print — WARN-never-block)
   1  >=1 unreceipted NAMED row still live (block-class; EVERY instance printed, count-first)
   2  CANNOT-EVALUATE — register absent (expected pre-creation state, loud), required header
-     column missing, unparseable date in ANY row (A2: NEVER a silent row-skip), or
-     unparseable receipts file. Loud, never silent-green.
+     column missing, unparseable date in ANY row (A2: NEVER a silent row-skip),
+     unparseable receipts file, or an UNKNOWN AGENT NAME (B, 2026-08-28: a typo'd desk
+     token must never read as a clean pass). Loud, never silent-green.
 """
 import argparse, csv, io, re, sys
 from datetime import date, datetime, timezone
@@ -49,6 +50,35 @@ def parse_day(field, val, where):
         return date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
     except ValueError:
         die2(f"impossible {field} {val!r} at {where}")
+
+
+def known_agents(root):
+    """Every agent named in the generated FLEET_DIRECTORY.md (all sections: active, tier-2,
+    dormant, special) — the same source cmd_coverage reads. Returns None if the directory
+    is unreadable (caller then cannot validate and must say so, never pass silently)."""
+    fd = root / "AGENTS/DAEDALUS/FLEET_DIRECTORY.md"
+    if not fd.exists():
+        return None
+    names = set()
+    for ln in fd.read_text().splitlines():
+        m = re.match(r"^\| ([A-Z][A-Z0-9_]+) \|", ln)
+        if m and m.group(1) != "Agent":
+            names.add(m.group(1))
+    return names
+
+
+def require_known_agent(agent, root):
+    """B (HENRY 2026-08-28, PROME-endorsed): `corrections_boot_check.py ZZZNOTANAGENT` returned
+    a byte-identical rc=0 OK — a typo'd desk token was indistinguishable from a clean pass on
+    the exact surface the 9/26 checkpoint is scored on. Same law as A2 one field over: an
+    unparseable date is rc 2, never a silent skip; an unknown agent is rc 2, never a clean pass."""
+    names = known_agents(root)
+    if names is None:
+        die2(f"cannot validate agent {agent!r}: FLEET_DIRECTORY.md missing — regenerate it "
+             f"(render_directory.py); a check that cannot name its subject must not pass")
+    if agent.upper() not in names:
+        die2(f"unknown agent {agent!r} — not in AGENTS/DAEDALUS/FLEET_DIRECTORY.md (any section). "
+             f"A typo'd desk token must never read as a clean pass; check the spelling")
 
 
 def receipts_path(agent, root):
@@ -198,6 +228,7 @@ def main():
         sys.exit(cmd_coverage(ROOT, reg))
     if not a.agent:
         p.error("agent name required (or --coverage)")
+    require_known_agent(a.agent, ROOT)
     rcpt = Path(a.receipts) if a.receipts else receipts_path(a.agent, ROOT)
     today = parse_day("--today", a.today, "cli") if a.today else date.today()
     if a.receipt:

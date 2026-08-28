@@ -216,7 +216,26 @@ def iter_num_tokens(line: str, csv_mode: bool = False):
 # 🟠 CANDIDATE prints the hits but never the send-packets instruction: confirm
 # same series AND unit, then re-run with --unit/--series for the 🔴 verdict.
 UNIT_WINDOW = 8          # chars either side of the matched number
-MIN_SIG_DIGITS = 3       # ≤2 sig digits ⇒ never 🔴 without unit/series context
+MIN_SIG_DIGITS = 5       # ≤4 sig digits ⇒ never 🔴 without unit/series context
+# RAISED 3→5 on 2026-08-28 (PROME asked ≤3; the 5 residual 🔴 after ≤3 were ALL 4-digit
+# gamma-flip levels colliding with SAM's ¥100mn MOF_FLOWS table — a bare 4-digit integer
+# is a table cell somewhere; only ≥5 digits or a unit/series match certifies a series) (HENRY via PROME, wiring-sweep day): --from-ledger printed
+# "🔴 69 stale consumer reference(s). Send each owner a packet" with ZERO real — 64/69 sat
+# on bare ≤3-sig-fig values; root canon 1c says "send nothing on a bare 2-sig-fig figure"
+# and the tool's imperative was instructing the packet storm canon forbids (~49 spurious
+# packets to ~8 desks). A 3-sig-fig bare number is noise-dominated in this corpus too.
+# SIGNED NEEDLES (same fix): NUM_RE carries no sign, so a superseded NEGATIVE value
+# ("-3.6") fell through to the TEXT-needle branch — "exact by construction", exempt from
+# every numeric-noise gate — which is exactly why 49 hits on "-3.6" (Mexican remittances,
+# FL home prices, GD -3.6%…) went 🔴 while "7465" and "38.1" were correctly demoted.
+SIGN_RE = re.compile(r"^[-−+]\s*")
+
+
+def numeric_needle(n: str):
+    """'-3.6' -> '3.6' (numeric, sign stripped for matching — the haystack tokenizer is
+    unsigned); '7,496' -> '7496'; a non-number -> None. A sign is not text."""
+    t = SIGN_RE.sub("", str(n).strip())
+    return normalize(t) if NUM_RE.fullmatch(t) else None
 COLLISION_FILE_CAP = 4   # context-less needle in >4 distinct files ⇒ 🟠
 
 
@@ -479,14 +498,15 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
     text needles are exempt from all three numeric-noise gates.
 
     🟠 CANDIDATE (2026-08-07) = a live-surface hit the tool cannot certify as the
-    same series: no unit/series context on the line, a ≤2-sig-digit needle, or a
+    same series: no unit/series context on the line, a ≤4-sig-digit needle (≤2 until
+    2026-08-28; signed needles are numeric, not text), or a
     context-less needle spanning >COLLISION_FILE_CAP files. Printed, never
     packet-instructed."""
     stale, cand, mail, handled = [], [], [], []
     units = units or []
     series = series or []
-    num_wanted = {normalize(str(n)) for n in needles if NUM_RE.fullmatch(str(n).strip())}
-    txt_wanted = {str(n) for n in needles if not NUM_RE.fullmatch(str(n).strip())}
+    num_wanted = {numeric_needle(n) for n in needles if numeric_needle(n) is not None}
+    txt_wanted = {str(n) for n in needles if numeric_needle(n) is None}
     weak_nums = {n for n in num_wanted if sig_digits(n) < MIN_SIG_DIGITS}
     have_ctx = bool(units or series)
     for path in iter_files(workspace, own_dir, restrict):
