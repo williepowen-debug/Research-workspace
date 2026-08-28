@@ -1,5 +1,5 @@
 # Dealer-Positioning Nexus Watch — registered 2026-07-11 (Sat ~18:00 ET)
-**Owner:** LIQUID (credit-plumbing side; HENRY covers rates→equity — reconcile on contact, one figure per shared metric) · **Status:** ARMED-WATCH (a monitoring conjunction, **NOT a prediction of the CPI print** — the print branch lives in `CPI_20260714_CREDIT_PREREG.md`) · **Born from:** threads-sweep TOP-1 (7/11), Will-approved.
+**Owner:** LIQUID (credit-plumbing side; HENRY covers rates→equity — reconcile on contact, one figure per shared metric) · **Status:** ARMED-WATCH · **LAST REVIEW 2026-08-28 (the registry `review_by` date) — CONJUNCTION NOT MET, 0-of-3, no leg within a week of firing; W1 graded PRE-PRINT vs as-of 8/18. Next `review_by` proposed 2026-09-30 (PROME encodes). ⚠️ The 8/23 suggested W1 cumulative amendment is WITHDRAWN — base-rated dead-loud at 52.0% of rolling 8-week windows (n=237, 2022-02-08→2026-08-18) AND silent on its own motivating episode. See §GATE-LIQ-076 REVIEW below.** (a monitoring conjunction, **NOT a prediction of the CPI print** — the print branch lives in `CPI_20260714_CREDIT_PREREG.md`) · **Born from:** threads-sweep TOP-1 (7/11), Will-approved.
 
 ## The mechanism (why these three belong in one file)
 
@@ -25,6 +25,87 @@ A hot CPI 7/14 landing on a completed arm-#2 (10Y 5-of-5 ≥4.50 if Mon holds) h
 ## Basis-vs-directional caveat (added 7/11 PM deep-dive — load-bearing for interpretation)
 
 The directional/RV split of the short is **not knowable from free data** (CFTC doesn't tag strategy; per-expiry positioning unpublished — front-vs-deferred strip placement is a labeled unknowable). Observable structure leans **substantially directional** (build tracks the hike-repricing exactly; asset managers same-side short since 5/5; 185 traders = broad; press/analyst framing = higher-for-longer), with a **real but unsizable RV component** (dealer mirror-long = warehoused hedging flow; record SOFR-FF spread volumes). Consequences: (a) the squeeze mechanic runs on the *directional share only* — a soft CPI puts the short offside and the cover bid lands in the FRONT-END/STIR complex; transmission to the 10Y is indirect (steepener impulse), so "forced cover caps the 10Y" over-claims; (b) **at any W1 cover, check swap spreads / SOFR-FF spread concurrently: spreads stable while shorts cover = directional squeeze confirmed; spreads moving with the cover = RV unwind, less systemic.** Full evidence table → `research/2026-07-11_sofr-deep-dive.md` §3.
+
+## ★★ GATE-LIQ-076 REVIEW — Fri 2026-08-28 (the `review_by` DATE itself; owner pass, W1 PRE-PRINT)
+
+**Why this section exists:** `GATE-LIQ-076.review_by = 2026-08-28`, owner-set 8/20 in the Will-ruled envelope pass, migrated to the real `review_by` column by PROME 8/22. **This is that review.** ⛔ **I do not edit `PROME/GATES.tsv`** — every registry consequence below is **RETURNED to PROME**, never applied here.
+
+**VERDICT: CONJUNCTION NOT MET — 0-of-3 at the latest data on every leg. No joint PROME/NEXUS amplification write-up owed. The gate is NOT ARMED and no leg is within a week of firing.**
+
+⏳ **W1 is PRE-PRINT.** The CFTC TFF file carrying **as-of Tue 8/25** publishes **today ~15:30 ET**; everything below reads **as-of 8/18** and gets re-graded after the print. Per KB-LIQ-096 an as-of date is never labelled with its release date.
+
+### 1. The three legs at latest data
+
+| Leg | Grade | Latest data [as-of] | vs the registered terms | Direction |
+|-----|-------|--------------------|------------------------|-----------|
+| **W1 — SOFR-3M leveraged-fund net** | **NOT FIRED** · ⏳ **PRE-PRINT** | **−2,530,893 [as-of Tue 2026-08-18]** (LF long 1,052,967 − short 3,583,860); w/w **+28,923**. At the spec's own $240–250K/contract band ≈ **−$607B to −$633B** notional-equiv, vs the **−$707–736B** peak | (a) at/past the **−2,950,000** record? **NO — 419,107 contracts AWAY** and on the wrong side; the −2,943,898 [6/30] peak is 7 weeks old. (b) one-week cover **>300,000**? **NO — +28,923**, 9.6% of the line | **AWAY.** LF *spreading* 2,962,207 and OI 13,431,079 [8/18] both stable, so this is a net-risk change, not a book-size change |
+| **W2 — dealer warehouse (NY Fed PD)** | **NOT FIRED — and moving decisively AWAY** | **G10 IG >10y −$7,869mm [as-of Wed 2026-08-19]** (−9,157 [8/05] · −6,929 [8/12] · **−7,869 [8/19]**). **G5L10 +$2,302mm [8/19]** — the **4th consecutive positive print and the largest of the series window** (+793 · +508 · +1,921 · **+2,302**) | G10 **< −$12.0B**? **NO** — $4.1B of room, and the 2026 extreme −$11,663 [6/10] keeps receding. G5L10 **< −$800mm ×2 consecutive**? **NO — it has not printed below −$800mm once since 6/17, and the last four prints are net LONG** | **AWAY. Dealers are ADDING inventory, not shedding it.** The one thing a funding-seizure read needs — a withdrawing warehouse bid — is absent in the series built to measure it |
+| **W3 — rates-vol (MOVE vs VIX)** | **NOT FIRED — and the closest approach has receded** | **MOVE 69.86 [2026-08-27 close, yfinance `^MOVE`]** · **VIX 14.36 [2026-08-28 ~11:0x ET intraday]** | MOVE **>85 while VIX <20**? **NO — MOVE is 15.1 points under the line.** The VIX condition is satisfied and always has been; MOVE is the whole binding leg | **AWAY.** 83.02 [7/31] was the window max and nearest-ever approach; 73.40 [8/21] → **69.86 [8/27]**, now **13.2 points below** that high |
+
+**Cross-read (unchanged from 8/23 and now on one more PD print):** W2's direction independently corroborates BOND's benign dealer read. A genuine funding-stress unwind pushes dealer warehouse short *wider*; G10 has gone −$9.6B → −$7.9B while the 5–10y bucket went **net long +$2.3B**. Two instruments sharing no input, same answer.
+
+### 2. ★★ THE REVIEW'S FINDING — **the fix I proposed on 8/23 is a DEAD BAND, and it fails in BOTH directions at once**
+
+On 8/23 I routed a suggested amendment to W1: *"OR cumulative net change ≥300,000 over any rolling 8-week window,"* and asserted *"on the current tape that leg would have fired ~8/04 and would be firing now."* **PROME's objection was that an 8-week window fitted to one 7-week observation has zero out-of-sample. I base-rated it before answering. PROME is right, and the measurement is worse than the objection.**
+
+**Basis:** CFTC TFF futures-only, **raw history archives** `fut_fin_txt_YYYY.zip` 2022–2026 merged with the current `FinFutWk.txt` (never Socrata). Net = LF long − LF short, spreading excluded by construction. **n = 237 weekly as-of dates, 2022-02-08 → 2026-08-18** — the full life of the SOFR-3M TFF series; 2018–2021 return zero rows, so this is the entire population, not a sample.
+
+#### (a) It is dead-LOUD on history — the MEDIAN 8-week window clears it
+
+| Rolling window | windows | `|Δ| ≥ 300,000` | **base rate** |
+|---|---:|---:|---:|
+| 4 weeks | 233 | 107 | **45.9%** |
+| 6 weeks | 231 | 121 | **52.4%** |
+| **8 weeks** *(my proposal)* | **229** | **119** | **🔴 52.0%** |
+| 10 weeks | 227 | 126 | **55.5%** |
+| 12 weeks | 225 | 137 | **60.9%** |
+
+**The median 8-week absolute change is 311,665 contracts — above the line I proposed.** One-sided (cover-only, the direction I actually cared about) it is **50/229 = 21.8% of all windows, 13 distinct episodes in 4.6 years ≈ 2.8/year.** For a gate whose deliverable is a joint PROME/NEXUS write-up, 2.8 write-ups a year on a leg that is supposed to mark a record position leaving is not a trigger; it is a subscription.
+
+**Contrast — the leg AS WRITTEN is a real tail:** single-week `|Δ| ≥ 300,000` fires **13/236 = 5.51%** (p95 = 312,882). **The existing W1 weekly leg is correctly calibrated. The cumulative leg I proposed to sit beside it is not.**
+
+#### (b) It is ALSO silent on the exact episode it was designed to catch
+
+| as-of | LF net | w/w | **rolling 8-wk cum** | fires ≥300K? |
+|---|---:|---:|---:|---|
+| 2026-07-28 | −2,445,938 | +248,236 | −342,549 | no |
+| **2026-08-04** | −2,532,086 | −86,148 | **−82,222** | **NO** *(a net BUILD)* |
+| 2026-08-11 | −2,559,816 | −27,730 | −159,916 | no |
+| **2026-08-18** | −2,530,893 | +28,923 | **+255,355** | **NO — 44,645 short of the line** |
+
+**My 8/23 claim that "that leg would have fired ~8/04 and would be firing now" is FALSE on both halves.** The last 8-week cumulative ≥300,000 was **2026-04-28 (+305,968)**, four months ago.
+
+#### (c) Both failures have ONE root cause, and it is a class I was caught on five days ago
+
+The **+413,005** is measured **6/30 → 8/18 — peak-to-latest, 7 weeks, anchored on the series' record extreme.** A *rolling* 8-week window does not compute that; on 8/18 it computes **+255,355**. **A peak-anchored magnitude cannot be converted into a fixed-window threshold, and I converted one.**
+
+> ⚠️ **`[[finding_window_start_at_an_extremum_inverts_the_move]]` — n=2 for this desk in five days.** BOND caught the first on 2026-08-27: WRESBAL *"−$207B in five weeks"* measured from the 7/15 **series maximum**. I wrote the second on **8/23**, four days *before* being caught on the first, and it survived my own 8/27 correction pass because I fixed the instance and never swept for siblings. **`[[finding_a_correction_pass_is_unreviewed_work]]` cuts the other way too: the surfaces a correction did NOT touch are where the same defect is still sitting.**
+
+> 🔴 **And this is the 4th DEAD-BAND instance in six days (KB-LIQ-104 ES-LIQ-04 · the TIC_FRAMEWORK kill · KB-LIQ-106 SOFR75−IORB · this), the 3rd in the DANGEROUS manufactures-a-signal direction — and the FIRST one I authored myself, in a packet whose whole subject was another instrument's calibration failure.** A desk that has killed three dead bands in a week proposed a fourth in the middle of doing it. **The competence is in the detector, not in the author.**
+
+#### (d) If a cumulative leg is still wanted, here is what it costs
+
+To match the weekly leg's own 5.5% tail rate, the 8-week **cover-only** threshold must be **≥600,000** (13/229 = **5.7%**); ≥700,000 gives 3.1%, ≥800,000 gives 2.2%.
+
+⛔ **The scale-invariant %-of-position form is WORSE and I am naming it as rejected now so it cannot arrive later from whoever it favours.** The net position swings *through zero* on this series (+1,188,431 [2023-12-26] to −2,943,898 [2026-06-30]), so a ratio to the prior level has a near-zero denominator: median |Δ8w| = **56.2% of the prior position**, p95 = **385.6%**. It is uninterpretable, not conservative.
+
+⚠️ **Honest limit on my own replacement number:** ≥600,000 is a **percentile of a 4.6-year sample containing no funding seizure** — the identical defect I flagged on KB-LIQ-106's proposed bands and on GATE-079's R4. It is a *better-calibrated* band, not a validated one. **Stated rather than buried.**
+
+### 3. ⇒ RETURNED TO PROME (registry consequences — PROME's to apply on Will's word, not mine)
+
+1. **WITHDRAW the 8/23 suggested W1 amendment.** *"OR cumulative net change ≥300,000 over any rolling 8-week window"* is **base-rated at 52.0% of windows and does not fire on its own motivating episode.** Do not encode it. **PROME's objection is upheld and should be recorded as upheld** — the base rate it asked for is what killed the proposal.
+2. **The 8/23 FINDING survives the death of its fix.** W1 keys on a weekly delta; a record position can leave on a multi-week drift; a weekly-delta trigger is structurally blind to that. **That is still true** (the pin is −14.0% off its peak and no weekly print ever tripped 300K). **What is now also true is that no calibrated 8-week leg would have caught this particular exit either** — +255,355 at its widest rolling reading. **Either the blindness is accepted as the price of a rare trigger, or the successor is a differently-shaped instrument, not a longer window.** My recommendation, offered as a recommendation: **accept it, document the blind spot on the row, and change nothing** — PROME's option (a). That is a reversal of my 8/23 preference and it is caused by the number PROME asked for.
+3. **`review_by` re-date:** GATE-LIQ-076 discharges today. **Proposed next `review_by` = 2026-09-30**, aligned to the quarter-end funding turn already on my catalyst docket (the Q3 turn is the next event that could plausibly move any of the three legs) — owner-set, PROME to encode.
+4. **GATE-HY-REKILL `review_by` — PROME's 8/22 ASK, answered: CONFIRM 2026-09-30.** The provisional PROME-set date is right and for the right reason: the level is intake-lane auto-watched, so the clock reviews the **letter**, not the print. Matches my own 072 quarter-cadence rationale. **No re-date requested.**
+
+### 4. Cadence + next prints
+
+- **CFTC TFF:** today **Fri 8/28 ~15:30 ET**, carrying **as-of Tue 8/25** — the W1 re-grade. This is also the 8/26 5Y auction's positioning read publishing **two days after** the auction (KB-LIQ-096); `KB-BND-092` already closed on the BTC 2.37 print, so nothing is pending on it.
+- **NY Fed PD:** weekly Thu; next ~**9/3** (as-of Wed 8/26).
+- **MOVE / VIX:** daily via FORGE (`^MOVE` is T+1 on this feed — declare the basis).
+- **Reusable fetchers:** `scripts/cftc_tff_rates.py` (weekly + YTD merge); the multi-year base-rate pull used for §2 runs off the same raw archives and reproduces the table in one pass.
+
+---
 
 ## ★ GRADED — Sun 2026-08-23 (the overdue leg-(a) pass; covers 7/21 → 8/18 CFTC, → 8/12 NY Fed PD, → 8/21 MOVE)
 

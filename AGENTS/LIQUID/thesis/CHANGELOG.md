@@ -1,5 +1,26 @@
 # LIQUID — Thesis Changelog
 
+> ⚠️ **TWO-STATED 2026-08-28 (DAEDALUS falsification-sweep #2 ASK 1, flagged 8/23 at 59d; now 101d).** **This file is NO LONGER how this desk records thesis change, and pretending otherwise is the defect.** Since v2.0 the pivots have been recorded as **dated `KB-LIQ-NNN` rows in `workbook/KB.tsv`** (the durable-findings track) and as **dated Current-State entries in `STATUS.md`** — both of which carry the evidence, the source and the vintage that a version bullet here would only summarise. **A silent gap between a v2.0 stamp and 101 days of live revision is worse than either state**, so: the file is **DORMANT-BY-DESIGN, superseded by KB.tsv + STATUS.md**, and the running log below is the bridge rather than a fabricated set of retroactive version numbers.
+>
+> **Rewrite trigger (paired with the banner per `finding_banner_is_a_warning_not_a_fix`):** a **v3.0** is authored here the next time a *structural leg* of THESIS v2.0 is added, retired, or inverted — not for a level move, a band recut, or a gate grade. **On current evidence the nearest candidate is the tail-recognition leg** (KB-LIQ-101), which is at RECOGNITION-CANDIDATE and would force a v3.0 if it ever promotes to RECOGNITION.
+
+## Running revision log since v2.0 — pointers, not a version history *(added 2026-08-28)*
+
+**What actually changed in the thesis between 2026-05-19 and 2026-08-28, each pointing at its own dated record. Read the record, never this summary, for any load-bearing figure.**
+
+| Change | Direction vs v2.0 | Record |
+|---|---|---|
+| **The HY>280 X1 half FIRED and then UN-FIRED.** 281→284→287 sustain 3-of-3 [7/27-7/29], the ladder's first-ever widening tag; the 280 line broke 8/3 and has not been recrossed. | v2.0 anticipated the widening side; it arrived, and it did **not** hold | KB-LIQ-088/089, STATUS 7/29 + 8/20 |
+| **A level touch is not a thesis event until it is ATTRIBUTED — guard made TWO-SIDED.** The 7/30 attribution graded the +19bp at 68–84% broad DM HY beta / 15–30% AI-data-center / ~0% bank-CRE. v2.0 carried a tape-vs-substance guard on the **kill** side only, and the **confirm** side is the one that fired wrong. | **New constraint on BOTH sides of the ladder** | KB-LIQ-091, **KB-LIQ-105** |
+| **Tail recognition became a candidate leg the thesis did not have.** CCC−BB at series maxima while BB round-trips; CCC/BB 6.739 and CCC/HY 3.920 [8/27] are 3-year records set as the index tied its 2026 low. **RECOGNITION-CANDIDATE, twice strengthened, NOT promoted** — no funding-side signature. | **Candidate new leg** — promotion would force v3.0 | KB-LIQ-101, **KB-LIQ-108** |
+| **The Hormuz/oil→HY lagging tell graded NEITHER pre-registered path** — the base case died on its own antecedent (Brent never round-tripped <$75). A pre-registration defect, not a market outcome. | v2.0's oil-beta channel is **retired as specified**, not merely unfired | KB-LIQ-081 → KB-LIQ-101 |
+| **Energy-HY sector OAS recorded PERMANENTLY UNMEASURED, not pending.** Two desks, opposite ends of the fleet, same verdict: no free energy-specific HY OAS series exists; BRENT retired its own `HY-ENERGY-OAS` row 8/07 as `NO_INSTRUMENT` and explicitly refused broad-HY substitution. | **A v2.0 channel loses its instrument** — the question survives, the measurement does not | BRENT packet 8/27, KB-BRT-052 |
+| **Belgium-as-China-proxy FALSIFIED as an inference** (rho ≈ +0.05, n=41; Belgium buys in 56% of China-selling months). Survives only as a bare >$500B **level** alert with no attribution. **And the China-rotation refutation leg was WITHDRAWN** — the demand-hole count is **three ways + one conditional-on-valuation**, not four independent. | **v2.0's foreign-official leg is weaker and more contingent than written** | ZHAO 8/21 ×2, `workbook/TIC_FRAMEWORK.md` §2, `CALENDAR.md` Jul-16 |
+| **Four registered bands killed as DEAD in six days** — ES-LIQ-04 UST-fails, the TIC_FRAMEWORK line, SOFR75−IORB (on the boot surface), and my own proposed GATE-LIQ-076 cumulative leg. Three were dead-LOUD, i.e. they manufacture signals. | **Method-level, not thesis-level — but it bounds what every v2.0 threshold is worth** | KB-LIQ-104, 106, **107** |
+| **Reserves/QT leg re-based.** Leg-A mechanism corrected (RRP exhausted → post-QT reserves absorb TGA/settlement swings directly); the "−$207B in five weeks" **rate** framing died (window started at the series maximum), the **level** claim survives. | **Same leg, correct mechanism, smaller claim** | KB-LIQ-067/070, BOND 8/27 |
+
+---
+
 ## v2.0 — 2026-05-19
 **Major revision after 32-day staleness gap (Apr 16 → May 18) and channel-migration finding.**
 

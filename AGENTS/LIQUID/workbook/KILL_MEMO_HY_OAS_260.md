@@ -53,6 +53,17 @@
 | **HY OAS >280 sustained** | 🟠 X1 DECOUPLING (LIQUID half) | **My half of the X1 PC→public decoupling trigger.** Fires as a CONFIRM only WHEN PAIRED with BROCK's wrapper-basket-leads-managers-down (KB-LIQ-062 conjunction). On BOTH: PC becomes a genuine independent bear root → **PROPOSE a credit-bear entry/sizing-up to Will** (HYG/CDX put or BDC short per the open channel). Solo (HY>280 but wrappers flat) = LIQUID-half ARMED → log + hold for BROCK's half, do NOT propose yet. |
 | HY OAS 270–280 (hold band) | 🟢 cushion | **CURRENT band — no rung active** (live bps → boot.py). Watch the gap to 280 + BROCK's wrapper basket. |
 
+> 🔴 **LADDER STATE 2026-08-28, and a WIRING DEFECT REPAIRED THE SAME SESSION (KB-LIQ-109).**
+> **State on FRED `BAMLH0A0HYM2` closes: HY 263 [8/27] · 267 [8/26] · 270 [8/25] · 269 [8/24] · 270 [8/21].**
+> - **🟡 PRE-TRIGGER (<270 sustained ≥2) — SATISFIED** (267 [8/26] → 263 [8/27]).
+> - **🟠 TRIGGER A (<265 sustained ≥2) — 1-of-2.** 263 [8/27] is the only obs ≤265 since 6/17; **2026 has ZERO obs below 260 (n=173).**
+> - **🔴 TRIGGER B (<260 intraday) and TRIGGER C (<260 sustained ≥3) — NOT REACHED.** **GATE-HY-REKILL (<260 ×2 closes) NOT FIRED, 0-of-2.**
+> - ⚠️ **The 8/28 close is `UNGRADEABLE-PENDING-PUBLICATION`, never `NOT-FIRED`** — this series is T+1 and the 8/28-dated observation reads at its Mon 8/31 publication (PROME lagged-series class ruling 8/27, Will *"Approve option (i)"*).
+>
+> ⚠️ **The defect: the column below is headed "boot.py label" and `boot.py` did not render these rungs.** It printed a flat **🟢 "green (260-265)"** across the whole band — so **on 8/27, with PRE-TRIGGER already satisfied and TRIGGER A at 1-of-2, the boot surface said GREEN.** The memo asserted a rendering that did not exist. **This is the DEAD-QUIET direction of the dead-band class** (KB-LIQ-104 / 106 / 107 were all dead-LOUD): a loud band manufactures a signal, a quiet one **misses** it — and this one was missing the approach to the kill line the file exists to make mechanical. **Wired 2026-08-28; NO threshold, rung or count was invented or changed — only the rendering of rungs already written here.** `boot.py` now prints PRE-TRIGGER / TRIGGER A / TRIGGER A 1-of-2 off the same numbers.
+>
+> ⛔ **Unreconciled and RETURNED TO PROME, not fixed here — FOUR persistence counts sit on ONE level (260) across the fleet:** **2 consecutive closes** (GATE-HY-REKILL, registry) · **1 intraday print** (TRIGGER B, below) · **≥3 sessions** (TRIGGER C below, THESIS §5, **HEARTBEAT line 80**) · **5 sessions** (HENRY INVALIDATION TRIAD). The H-2 rule (§ above, Will 8/10) reconciles the **first and fourth** as one kill differing in latency and is silent on the middle two. **The reconciliation touches HEARTBEAT and a root-doc line, so it is Will-gated and is NOT mine to resolve** — flagged at 3bp from the line, which is precisely when four counts on one level stop being a documentation issue.
+
 ### KILL / EXIT side — credit-channel thesis weakening (these are THESIS events; book is FLAT, so the cut-list is empty)
 
 | Condition | boot.py label | Action |

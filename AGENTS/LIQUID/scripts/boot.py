@@ -102,7 +102,33 @@ def build_credit():
         if bps >= 280:   m, n = "🔴", "HY >=280 LEVEL LEG MET — X1 half ONLY, NOT 'X1 MET' (R1: wrapper-leads leg conjunctive + NOT MET; RED owns sustain) — 7/30 attribution says broad DM beta, NOT credit-recognition"
         elif bps >= 265: m, n = "🟡", f"X1 APPROACH (265-280 band) — {280 - bps:.0f}bps to the 280 master trigger"
         elif bps < 260:  m, n = "🔴", "BEAR-AXIS KILL (<260 ×2 closes) — credit-thesis invalidation, NOT a stress event"
-        else:            m, n = "🟢", f"green (260-265) — {bps - 260:.0f}bps to 260 kill / {280 - bps:.0f}bps to 280 X1 trigger"
+        else:
+            # ---- KILL-SIDE LADDER WIRED 2026-08-28 (KB-LIQ-109). NO THRESHOLD INVENTED HERE. ----
+            # This band rendered a flat 🟢 "green (260-265)" while workbook/KILL_MEMO_HY_OAS_260.md
+            # § KILL/EXIT side already registered TWO rungs inside it, in a table whose own column
+            # is headed "boot.py label":
+            #     <270 sustained >=2 sessions -> 🟡 PRE-TRIGGER
+            #     <265 sustained >=2 sessions -> 🟠 TRIGGER A
+            # The memo asserted a rendering that did not exist. DEAD-QUIET direction (misses a
+            # signal), found live at 263bps [8/27] = 3bp from the kill and with PRE-TRIGGER already
+            # satisfied (267 [8/26] -> 263 [8/27]) while this line printed GREEN.
+            # Sibling class: KB-LIQ-104 / 106 / 107 (dead bands), but those were dead-LOUD.
+            # tr is newest-first; count the CURRENT consecutive run only.
+            def crun(lim):
+                c = 0
+                for x in (tr or []):
+                    if x * 100 < lim: c += 1
+                    else: break
+                return c
+            r265, r270 = crun(265), crun(270)
+            if bps < 265 and r265 >= 2:
+                m, n = "🟠", f"TRIGGER A — HY <265 sustained {r265} sessions (KILL_MEMO ladder). Thesis-confidence event; book FLAT so no cut to make. {bps - 260:.0f}bps to the 260 kill"
+            elif bps < 265:
+                m, n = "🟠", f"TRIGGER A 1-of-2 — HY <265 on the latest print only ({bps:.0f}). {bps - 260:.0f}bps to the 260 kill / {280 - bps:.0f}bps to 280. ⚠️ read against the tail: a tape-only compression is what KB-LIQ-105 blocks"
+            elif r270 >= 2:
+                m, n = "🟡", f"PRE-TRIGGER — HY <270 sustained {r270} sessions (KILL_MEMO ladder). {bps - 260:.0f}bps to the 260 kill"
+            else:
+                m, n = "🟢", f"260-265 band, ladder rungs NOT sustained — {bps - 260:.0f}bps to 260 kill / {280 - bps:.0f}bps to 280 X1 trigger"
         add("CREDIT", "HY OAS", f"{bps:.0f}bps", m, n, d, trend_str(tr, 100, 0), headline=True)
 
     # CCC OAS — >1000 trip
