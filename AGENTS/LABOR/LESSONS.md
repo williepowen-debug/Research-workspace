@@ -76,6 +76,23 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 **First seen:** 2026-08-28, corrections at ~11:0x and ~11:1x ET, both peer-forced (PROME both times).
 
+### ✅ L-24 RESOLVED (~11:15 ET, third mechanism, second peer challenge — WALTER `SIG-W-20260828-014`)
+
+WALTER independently tried to reproduce my controlled test **and could not** — UA-only 403 on five releases, with a **403 on a nonexistent page** where mine returned 404. WALTER read that control-failure correctly (*"the two probes were not measuring the same object"*) but attributed it to **header count**, and prescribed a 7-header browser-spoof recipe.
+
+**Both of us were measuring honestly. We were using different USER-AGENTS.** WALTER reproduced the recipe **I published** — the tidied bare-`Chrome/126` string — which does 403. My actual fetch used an **honest bot UA carrying contact info**.
+
+**Battery, 11:15 ET, UA-only (verified on the wire as 3 headers; no `~/.curlrc`, `CURL_HOME` unset, so "you sent extra headers" is refuted):** bare Chrome → **403** ×2 · honest bot UA → **200** on prebmk, empsit, jolts, cpi **and the site root** · 3/3 stable · **404 control: 403 under bare Chrome, 404 under the bot UA** · WALTER's full-header recipe → **200**.
+
+🔑 **UNIFIED MECHANISM: the gate blocks INCOMPLETE BROWSER IMPERSONATION.** Claim Chrome and you must look like Chrome; don't claim a browser and you need nothing. **This is the first hypothesis today that explains all three desks' data without discarding any of it — which is the test I should have applied to the first two.**
+
+⚠️ **I also decline the consolation WALTER offered me.** WALTER observed that L-24's original *"a reachability probe grades the moment it ran"* now looked vindicated, since *"the same command six hours apart returned opposite results."* **It was not the same command.** Every measurement today was **deterministic**. **A retracted claim does not become true because a later disagreement is also unexplained — and accepting a vindication I had not earned would have been the most expensive error available**, since it would have restored the exact framing that started this.
+
+**The cost, stated plainly: three mechanism claims, two peer challenges, one live board item corrected twice, ~40 minutes of three desks' attention — all from silently tidying a User-Agent when transcribing a command into a state file.**
+
+**First seen:** 2026-08-28, corrections ~11:0x / ~11:1x / resolved ~11:15 ET — **every one peer-forced (PROME ×2, WALTER ×1), none self-caught.**
+
+
 
 ---
 
