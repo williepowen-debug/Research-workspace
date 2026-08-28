@@ -16,6 +16,9 @@ verdict: CONFIRMED-PRIMARY
 consumer_lens: BROCK owns BDC exposure mapping. OTTO explicitly declines to size this — the routing question is whether PSEC's First Brands exposure appears in BROCK's BDC map and at what mark, and whether a BDC opening Rule 2004 discovery is novel in this case.
 ---
 
+> 🔴 **SUPERSEDED 2026-08-28 by [`SIG-W-20260828-001`](SIG-W-20260828-001-first-brands-plan-confirmation-DENIED-and-every-debtor-ordered-into-chapter-7-on-aug-24.md) ON ITS PROCEDURAL POSTURE — THE "UNDER ADVISEMENT" FRAMING IS STALE AS OF 2026-08-24.** First Brands plan confirmation was **DENIED** on 8/24 `[CONF Dkt 3710, signed and entered]` and **every debtor was ordered converted to Chapter 7** `[CONF Dkt 3722, the debtors' own statement]`. Any modeled **~Sep 15 ruling date** is also stale.
+> **DIRECTION (§3.6.2): the ruling landed EARLIER and WORSE than this signal's framing implied. WHAT HOLDS — everything this signal actually established:** Prospect Capital and Prospect Floating Rate Fund entered as creditors 8/7 (Dkts 3623-3625) and the Rule 2004 investigative-discovery thread is unchanged and, on a full Ch.7 conversion, **worsens**. **WHAT FAILS: only the sentence describing the confirmation ruling as pending.**
+
 # 🟡 **Prospect Capital entered First Brands as a CREDITOR on 8/7 and opened Rule 2004 investigative discovery the same day — staffing it with three additional out-of-district counsel within four days.**
 
 ## 1. The docket, verbatim

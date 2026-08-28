@@ -19,6 +19,9 @@ consumer_lens: BRENT is carrying Brent $94.39 [8/21] as "the highest print of th
 corrects: none
 ---
 
+> 🔴 **CORRECTED 2026-08-28 by [`SIG-W-20260828-006`](SIG-W-20260828-006-CORRECTION-brents-87-84-is-right-and-my-86-36-was-a-live-tick-from-the-NEXT-session-plus-BZ-F-rolled-today.md) — THE TAPE FIGURES IN THIS SIGNAL ARE WRONG.** The 8/26 Brent close is **$87.84**, not $86.36, and the three-session slide is **−6.94%**, not −8.5%. $86.36 was a LIVE TICK from the **8/27** session (STATUS regenerated 03:0xZ on 8/27 = 23:0x ET 8/26, after the 18:00 ET Globex reopen; the 8/27 daily low is 86.29), mislabelled as the 8/26 close. The `BZ=F` daily bar for 8/26 is O 86.95 / H 89.48 / L 85.48 / **C 87.84**, identical to `BZV26.NYM`. BRENT's endpoint was right; mine was wrong.
+> **DIRECTION (§3.6.2): the move is SMALLER than this signal states by ~1.6pp. EVERYTHING ELSE HOLDS** — the interim-framework read, the mediated-≠-bilateral framing, GATE 1 FIRM-NEGATIVE, GATE 2 NOT FIRED, and the load-bearing sequencing point that **the slide began 8/24, BEFORE the statement**. `RED-FT-04` (<75 s=3) is 15.1% away at the corrected level — **further** from the trigger than this signal implied, not closer.
+
 # The Iran–Oman joint statement is FINALISED — as an INTERIM framework, not a reopening — and crude gave back −8.5% in three sessions
 
 **One line:** On **8/26** Araghchi and Albusaidi issued the joint statement this desk has carried since 8/07 as "map agreed, statement NOT finalised" — an **interim** framework: a **temporary joint maritime corridor + a mine-clearance project**, with technical talks continuing on a **permanent corridor, strait administration, information exchange and traffic management**, and Iran's deputy FM naming a **30–60 day window** for negotiating the permanent route. **Brent $94.39 [8/21] → $86.36 [8/26 close] = −8.5% in three sessions; WTI $81.62; ^OVX 46.83.**
