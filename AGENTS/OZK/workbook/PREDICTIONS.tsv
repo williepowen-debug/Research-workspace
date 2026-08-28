@@ -1,11 +1,15 @@
 # OZK prediction ledger — canonical for every OZK-xx confidence, status and resolver.
 # Last real data refresh: 2026-07-23   (OZK-09 re-mark 52%->45% + A30/B45/C8/D17 reweight, Will-approved)
 # Last reviewed: 2026-08-28            (sweep: OZK-09 Timeframe re-anchored to its Option-2 event-anchored window; NO confidence, status or weight moved)
-# Status: LIVE (not frozen) — this ledger is TRACKED. Do not write banner-vocabulary words
-#   (FROZEN/RETIRED/SUPERSEDED/ARCHIVED/NOT CURRENT/DO NOT CITE) into these header lines even
-#   descriptively: scripts/ledger_staleness.py scans the pre-data block for them as TOKENS, and
-#   a single lowercase 'frozen' here silently exempted this file from staleness tracking on
-#   2026-08-28 (caught same minute by re-running the tool).
+# Status: LIVE (not frozen) — this ledger is TRACKED.
+# History + residual rule: on 2026-08-28 a descriptive 'frozen' in a header line silently exempted
+#   this file from staleness tracking (ledger_staleness.py scanned the pre-data block for
+#   FROZEN/RETIRED/SUPERSEDED/ARCHIVED as TOKENS, not prose). Reported to DAEDALUS and FIXED fleet-wide
+#   the same day — rule 8, commit 2f8846050: a header KEY line (# Last…/# Cadence…/# Status…/# Notes…)
+#   never declares a banner. Independently re-verified from OZK on 3 fixtures: this exact prose header
+#   -> LIVE; a real line-1 banner -> FROZEN; a key line followed by a real banner -> FROZEN.
+#   ⚠️ RESIDUAL, still live: rule 8 protects KEY lines only. Banner vocabulary in a NON-key comment
+#   line above the data boundary is still read as a token. Keep prose in key lines.
 # Cadence: EVENT-DRIVEN (moves only on a graded print or a Will-approved re-mark) — a gap here is NOT rot by itself.
 # Last re-pull ATTEMPTED: 2026-08-28  (all 9 rows read; 4 OPEN checked against their resolvers — OZK-02/03/04 all
 #   resolve Feb-2027, OZK-09 runs to the Q4'26 print. Nothing was due. 'Absence-expected' certifies nothing unless
