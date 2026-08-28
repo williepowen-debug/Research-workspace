@@ -1,92 +1,88 @@
 # CARL SCRATCH
-**Last session:** 2026-08-20 (Thu, Will-directed **data sweep** after a 5-day dark gap)
-**Type:** Sweep session. **Three dated items resolved · one 4-month-old counter-evidence gap closed · two instrument defects reproduced live · one docket date defect + one docket gap found · one self-correction inside the session.** **No score change — 53/70 holds.** ⚠️ **Inbox drained 0 of 9; BOARD 0 of 47 — deliberately deferred to spend the session on data.**
+**Last session:** 2026-08-27 (Thu eve, **Will-directed work-through** after a 7-day dark gap)
+**Type:** Execution session. **Five items closed — a Will-ratified thesis-rule encode, a vector grade, a live wrong-figure correction, an adversarial registration, and the STATUS rotation.** **NO vector moved — 53/70 (76%) holds, 6th consecutive cycle.** Eight commits. ⚠️ **Inbox drained 6 of 18; BOARD 0 of 61.**
 
 ---
 
-## PRIORITY-1: **THE KILL RULE IS RATIFIED AND ONE PDF PULL FROM ENCODE.**
-**Will ruled (A) on 8/16** — *"approved - go ahead with A as recommended"* (`PROME/proposals/2026-08-16_carl-row44-respec-optionA-RULED.md`). **RED answered (A), NO REOPEN on 8/20.** Both are in hand. **The only remaining gate is mine.**
-
-**§5: re-pull `HHD_C_Report_2026Q2.pdf` and quote the servicer-transfer caveat VERBATIM WITH ITS STATED SCOPE.**
-- **Mortgage-servicing-only ⇒** encode §7 (THESIS.md:397-398 + CHANGELOG + card template + KB row), confirm to PROME.
-- **Reaches card reporting ⇒ STOP, encode nothing, ratification returns to Will.**
-- ⛔ **Until it clears, the AS-WRITTEN rule is live and the count is 1-of-2. Do not move any surface to the 0-of-2 basis.**
-
-**Fold in at encode (all three are free, all three are on the record):** PROME's **Finding 1** — my morning draft would have **killed the thesis in 25:Q2** on live data; PROME's **Finding 2** — the incumbent as-written share rule base-rates at **25.0%** (I never base-rated it and **under-sold my own case**); RED's **rider 1** — write on the card that **leg 2 is currently the ENTIRE kill** (claims continuously sub-220K ⇒ leg 1 filters nothing ⇒ effective base rate is 5.4%, not the joint). Reword §3's false "rose monotonically" (endpoints exact, strict monotonicity is not).
+## PRIORITY-1: **EART'S JULY 10-D LANDS IN DAYS AND IT IS THE ONLY THING THAT CAN MOVE V2.**
+**~8/28-31.** July is currently a **one-tier observation**: broad fell (SDART 3/3, BLAST 2/2), **deep has no July print.**
+- **EART July ALSO falls ⇒ genuine matched-month two-tier turn ⇒ ⛔ TAKE THE DRAFTED LEG SPEC TO WILL. DO NOT FIRE AD HOC.** The leg arithmetic is still owed to Will — a fixed amortizing panel is not an index.
+- **EART July rises ⇒ the July broad dip was a one-tier give-back** and V2 continues to hold 4.
+- ⛔ **MATCH ON COLLECTION MONTH, NEVER FILING DATE.** Exeter files ~1mo after collection close; Santander/Bridgecrest file to a 15th-17th distribution. **My own first table made this mistake and would have fired a false reversal.** Read `Collection Period` at the exhibit, per deal.
+- OTTO sends deal-level numbers **unprompted** on landing, collection month stated per row.
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- **Gas kept going the OTHER way and the V5 downgrade watch expired answering NO.** AAA **$4.104** (8/20) vs $4.070 (8/15); FRED weekly **$4.049** w/e 8/17, **+4.3¢ and rising** off the $4.006 trough. Cushion **0.9¢ → 10.4¢**.
-- **Brent round-tripped UP**: $86.47 trough (8/4) → **$95.29** (8/18), now **4.7% from $100**. The energy leg that was arming DOWN on 8/11 is arming **UP**.
-- **25 ABS 10-Ds landed 8/17-8/20** (20 SDART, COMET, 4 Ally) — V2's re-pointed instrument. I was dark for the window.
-- **July FOMC minutes (8/19)** + **9 inbox packets** + **47 BOARD signals** accumulated.
+- **Claims drifted UP off the cycle low but stayed sub-220K** — 212K (8/8) → 207K (8/15, revised from 206K) → **203K (8/22)**. Kill-rule leg 1 still satisfied, so **leg 1 filters nothing.**
+- **The energy leg reversed AGAIN.** Brent $96.92 (8/21) → **$88.24 (8/25)**, −8.9%, while the **pump kept rising** ($4.049 → **$4.085** w/e 8/24, 3rd consecutive week). **V5's downgrade watch is re-arming on the mechanism that answered NO on 8/20.**
+- **July PCE landed:** core +0.2% MoM / 3.3% YoY; **savings rate recovered to 3.0%** — and **June was revised DOWN 2.7 → 2.6**, so the floor broke harder than I published, then bounced.
+- **Inbox 9 → 18** while dark; **BOARD 47 → 61.**
 
 ## WHAT HAPPENED
-1. **V5 downgrade watch → NO, V5 HOLDS 4**, and the mechanism is measured not assumed: the 8/2-8/3 crude break **never sustained**, so no falling input ever reached the pump. KB-389.
-2. **Diesel natural experiment → CONFOUNDED, scored NEITHER way.** Pre-registered peak week (8/10) **fell 9.1¢ *with* gasoline** (common-mode, not divergence); the +19.7¢ landed at the window **EDGE** still rising (censored ⇒ lower bound only); **two in-window shocks** (Jazan product-supply loss; the Brent round-trip) broke the design's unstated one-pulse-quiet-background premise. **My 8/15 "consistent with the structural legs" read is WITHDRAWN.** KB-390.
-3. **🔴 Philadelphia Fed (Apr 2026) says my auto-DQ metric class OVERSTATES distress — and no agent in the fleet held it.** Impeaches the **LEVEL**, corroborates the **MECHANISM** (extensions = my own extend-and-pretend, found independently off ABS data). Level hit taken. → **RED** (adversarial, because the inverse read flatters me) + **OTTO** (extension data is its panel). KB-388.
-4. **I over-called my own figure and corrected it in-session.** Declared my published *"Brent $82.77 [8/3]"* unreconcilable vs FRED, **then checked properly**: my chain runs **~$5-6 under FRED spot at every point with matching percentages** — two legitimate Brents, **no surface naming either**. **Nothing was wrong; a LABEL is owed.** Corrected on 4 surfaces + KB-389; auto-memory extended with the inverse variant.
-5. **Docket date defect: Affirm FQ4 is 8/27, not 8/20 — and my row said "CONFIRMED"** (Affirm IR announced it 8/6). **PHAN's spawn AND its +37d ledger-sweep obligation were pinned to a date that does not exist.** Both move to 8/27.
-6. **Docket gap: Jackson Hole 8/28** (Warsh's **first keynote as Chair**, 19d before the SEP/dots FOMC) had **no forward row** — the earliest surface where V12's registered un-fire path would appear. Added 🔴.
-7. **Two instrument defects reproduced in today's own boot:** housing_pulse printed hardcoded `3.98M SAAR` **directly beneath** the live FRED `4.06M`; thresholds.py fired 🟢 *"UMich <55 recessionary"* off a **2026-06-01** vintage when July final printed **55.2, above the line**. Three FRED series also timed out silently (visible only because I ran the scripts directly).
+1. **★ KILL-RULE RE-SPEC RATIFIED + ENCODED — THESIS v2.6.6.** §5 gate cleared at primary (caveat scoped to mortgage **balances**, does not reach card reporting). Leg 2 → CC flow into 90+, 2 consecutive declines cumulative **≥100bp**. **Count resets 1-of-2 → 0-of-2.** PROME verified all four artifacts and **CLOSED ROW 44**.
+2. **V2 FIRST PANEL GRADE → HOLDS 4.** Not a sustained two-tier reversal (not two-tier: deep unpublished; not sustained: n=1 off a large June jump). Caught the filing-calendar defect before it fired.
+3. **Colorado River figure corrected at USBR primary** — I was carrying the cut **~2.9× too large** on AEOLUS's twice-wrong relay. AZ weighting survives; only the level was wrong. Found a **700 kaf System Conservation leg** absent from their packet.
+4. **RED's `CHG-049` accepted in full; `CARL-AUTO-OUTFLOW-01` registered** on a **free** primary instrument after finding RED's nominated Intex series is paywalled. **Not graded — the answer favours me and one seasoning trust cannot carry it.**
+5. **STATUS two-state rotation #1: 94,285 B rotated (49%).** Found a defect in the pilot spec's own second failure condition.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| **V5** | Downgrade watch **RESOLVED NO — HOLDS 4**; "possibly short tenancy" caveat **retired** |
-| **Diesel experiment** | **CONFOUNDED** — scored neither way; 8/15 structural read withdrawn |
-| **Auto 90+** | Philly Fed counter-evidence attached — **LEVEL impeached, MECHANISM corroborated**, not scored |
-| **CRL-08** | Unchanged 45%, but the **input is re-climbing** (Brent $95.29, 4.7% from $100) |
-| **V12** | Holds 5 — July minutes hawkish **beyond** the dissenters; Warsh floated 8→6 meetings |
+| **Kill rule** | **RE-SPECCED, RATIFIED, LIVE (v2.6.6)** — count **1-of-2 → 0-of-2**; leg 2 is the entire kill |
+| **V2** | **HOLDS 4** — first panel grade, directional; resolver = EART July 10-D |
+| **Gas / Brent / Diesel / HY OAS** | Refreshed: $4.100 · $88.24 · $5.618 (fresh high) · **267bps (was carrying 275bps [Jun 30])** |
+| **Colorado** | 3.6 maf / AZ 1.96 → **1.25 maf/yr / AZ 760 kaf**; old figure re-labelled, NOT deleted |
 | **Convergence** | **NO CHANGE — 53/70 (76%)** |
-| KB / docket | KB 387 rows (+4: 388-391) · docket 22→19 (4 pruned, 2 re-dated, 1 added), CALENDAR hand-verified **19↔19** |
+| KB / docket / STATUS | KB 390 → **396 rows** (+6: 392-397) · docket **20 rows**, CALENDAR hand-verified **20↔20** · **STATUS 191,939 → 97,654 B** |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE
-1. **Pull gas first** (standing rule). Watch is now the **UP** side: CRL-08 needs $4.50, currently $4.104, Brent re-climbing.
-2. **⛔ THE §5 PDF PULL — it gates a Will-ratified encode and costs one curl.** Do it before anything discretionary.
-3. **~8/24 OTTO panel first grade — the 25 filings are ALREADY ON DISK at EDGAR.** The data is not missing; only the read. Leg spec still owed to Will before registration; until then the panel reads **directionally only**.
+1. **Pull gas first** (standing rule). Watch **BOTH** sides now: CRL-08 needs $4.50 (gap 40.0¢) while **V5's downgrade line sits 8.5¢ below** on a falling crude input.
+2. **EART July 10-D — PRIORITY-1 above.** Do not fire ad hoc.
+3. **⚠️ PHAN IS OVERDUE, NOT PENDING.** Affirm FQ4 reported **AMC 8/27** + Klarna Q2 — PHAN's spawn AND its `COCKROACH`/`REGULATORY` ledger sweep were pinned to that date and are now **+42d**. Spawn and discharge: advance the DATA clock or record an explicit `DID_NOT_APPEAR` null.
 
 ### THIS WEEK
-4. **Inbox 9 + BOARD 47 — both untouched today and both are now the largest carried debt.** Inbox leads: WALTER (**CARL-DR-1 overdue at PARTIAL — the 22.5bps figure must not travel as a pass**), TERRY (**TRY-FIRE-002 premise input before ZONE 1 re-locks; "premise weakened, keep dormant" is a real answer and is my lean**), DAEDALUS ×2 (script fixes — **ACTION 2 wants a two-STATE on PHAN's ledgers, and a two-clock header is a disclosure, not a disposition**), WATT (PJM filed Door B — do not build on the socialization premise), FERT ×2 (channel open, **not firing** — do not carry fertilizer-driven food-CPI acceleration).
-5. **8/27 Affirm FQ4 + PHAN spawn + the +37d ledger sweep** (COCKROACH/REGULATORY — advance the DATA clock or record an explicit DID_NOT_APPEAR null). **8/28 Jackson Hole.** **8/29 CARL-DR-5 — read §5 of the commission first, not the finding; two of four branches cost me the grocery datum entirely.** **8/31 CRL-07 forced call, do not roll again.**
+4. **8/28 Jackson Hole — Warsh's FIRST keynote as Chair**, 19d before the SEP/dots FOMC; the earliest surface where V12's registered un-fire path would appear.
+5. **8/29 CARL-DR-5 (DEWEY)** — ⚠️ **read §5 of the commission first, not the finding**; two of four branches cost me the grocery datum entirely.
+6. **8/31 CRL-07 FORCED CALL — PRE-REGISTERED, DO NOT ROLL AGAIN.**
+7. **Inbox 12 unread / BOARD 61 undispositioned — now the largest carried debt by far.** Leads: **WALTER (CARL-DR-1 overdue at `PARTIAL` — the 22.5bps figure must NOT travel as a pass)**, TERRY (TRY-FIRE-002 premise input; *"premise weakened, keep dormant"* is a real answer and is my lean), DAEDALUS ×2 (**SFG finding CONFIRMED live tonight — `housing_pulse.py:226` still prints a hardcoded 3.98M under the live 4.06M**), HOMER ×2, WATT, FERT ×2.
 
 ### NEXT 2 WEEKS
-6. **9/1 ISM** · **9/4 August NFP = V16 escalate-to-5 resolver, month 2** · **9/11 August CPI = THE pass-through test** (first month the $4 cross and full Sec-301 + partial Sec-338 land in the index) · **9/15 August retail sales** (demand the control / ex-auto-gas decomposition) · **9/18 CARL-DR-1 FHA re-commission** · **~9/30 kill-rule ratification deadline**.
+8. **9/1 ISM** · **9/4 August NFP = V16 escalate-to-5 resolver, month 2** · **9/10 falsifier report owed to DAEDALUS** (rotation #1; send unprompted, hit or not) · **9/11 August CPI = THE pass-through test** · **9/15 August retail sales** · **9/18 CARL-DR-1 FHA re-commission** · **~Oct 20 `CARL-AUTO-OUTFLOW-01` first grade.**
 
 ### BACKLOG
-7. **Stamp series+venue on every Brent level CARL publishes** (13 sites; 4 load-bearing ones annotated, rest historical — **do NOT find-replace, the numbers are correct for their series**). · **Adopt the metric-literature check**: on any 🔴 metric, search the *measurement critique* separately from the data pull — that is how the Philly Fed paper sat 4 months unheld. · Check D upgrade (Instrument must name publisher+series) · BOARD_LOG `challenges_threshold` column · Check-G seam-lint · GIG-P03/P06 re-instrumentation · Brier re-run at N≈20 · AMCAR Apr-vs-Jun cert + GMCAR label fix.
+9. Stamp series+venue on every Brent level (**do NOT find-replace — the numbers are correct for their series**) · **metric-literature check on any 🔴 metric** (search the *measurement critique* separately from the data pull — that is how the Philly Fed paper sat 4 months unheld) · CRL-05 basis question **must be settled before November** · leg-1 revision exposure · GIG-P03/P06 re-instrumentation · Brier re-run at N≈20 · **GMCAR label fix — CONFIRMED tonight: `abs_monitor.py` labels CIK 0002099048 "GMF Consumer 2025-4 / subprime" and it files as 2026-1 and is PRIME.**
 
 ---
 
 ## OUTBOX (0 new; 6 stale Apr-17 signals still deferred)
 
-## INBOX (⚠️ 9 UNPROCESSED — carried, not drained)
-*PROME ×2 (row-44 RULED (A) · FERT verdict) · RED (CHG-045 (A), no reopen) · DAEDALUS ×2 (PR#4 addendum · SFG sweep) · FERT (delivery #1) · WATT (PJM Door B) · WALTER (DR-1 overdue) · TERRY (TRY-FIRE-002).*
-**Sent (2):** RED (Philly Fed counter-evidence + diesel confound) · OTTO (extension channel + filings landed).
+## INBOX (⚠️ 12 UNPROCESSED — 6 of 18 drained)
+*Drained: PROME ×2 (row-44 RULED · FERT verdict) · RED ×2 (CHG-045 no-reopen · CHG-049) · LABOR (claims) · AEOLUS (Colorado retraction).*
+**Sent (5):** PROME (row-44 encode-confirm) · RED (CHG-049 acceptance + registration) · DAEDALUS (pilot report) · OTTO ×2 via SendMessage (V2 panel ask + reconcile).
 
 ---
 
 ## WORKBOOK HEALTH
 | File | Rows/Size | Note |
 |---|---|---|
-| STATUS.md | **250 lines / 185KB** | **AT the cap** — all edits in-place. ⚠️ **Byte mass GREW ~10KB today; the DAEDALUS rotation (was due 8/22) is now overdue and unaddressed** |
-| KB.tsv | 388 (387 data) | +4 (388-391). LF file, all rows 15-field verified |
-| PREDICTIONS.tsv | 29 | 15 OPEN, none past-window today. ⚠️ **CRLF file — binary-mode edits ONLY** |
-| CATALYSTS.tsv | 20 (19 data) | 4 pruned / 2 re-dated / 1 added; **CALENDAR mirror hand-verified 19↔19** |
-| BOARD_LOG.tsv | 745 (737 data) | ⚠️ **47 undispositioned — untouched today** |
-| MEMORY.md | 92 lines | +2 — **8 lines from the cap; next session promotes, does not append** |
-| PHAN COCKROACH/REGULATORY | +37d | **STILL a disclosure, not a disposition** — sweep now rides the **8/27** spawn |
-| **`ledger_staleness --nudge`** | **23 ledgers flagged** | **Answered, not swept.** **PREDICTIONS.tsv (25 STATUS-writes behind) is the only PARENT ledger flagged and it is NOT rot** — no prediction resolved, was registered, or changed confidence today, so there was nothing to write; a predictions ledger that moves with every STATUS write would be the defect. **19 of 23 belong to sub-agents already dispositioned** (GIG VX/ML/PLATFORM/DRIVER_ECONOMICS · POLLY CARRIER/COVERAGE/ML · STUE SERVICER/TIMELINE/CASCADE · DOC FLOW = FROZEN) — dossier-mode/frozen by ratified decision, recorded in TEAM.md, and stale-but-tagged is the EXPECTED state between catalysts. **The 2 that ARE live: PHAN COCKROACH/REGULATORY — and they are the row above.**
+| **STATUS.md** | **213 lines / 97,654 B** | ✅ **ROTATION #1 DONE — 94,285 B (49%) rotated.** Pair still 157,793 vs the 61,440 cap; **blocker is `NEXUS_BRIEF.md` at 60,139 B = 98% of the joint cap ALONE.** Awaiting the cap ruling — do NOT unilaterally cut a NEXUS-schema'd surface |
+| `status_archive/STATUS_ARCHIVE_2026-08.md` | 108,863 B | **NEW.** Append-only, 6 class blocks, every row carrying its rotation reason. **Grep it before re-deriving anything** |
+| KB.tsv | 397 (396 data) | +6 (392-397). All rows 15-field verified |
+| PREDICTIONS.tsv | 29 | 15 OPEN, **none past-window**. ⚠️ **CRLF file — binary-mode edits ONLY.** Nudge says 27 STATUS-writes behind: **NOT rot** — no prediction resolved, registered or re-priced this session |
+| CATALYSTS.tsv | 20 data | 1 re-dated (OTTO panel → EART July), 1 replaced (Colorado), 1 added (`CARL-AUTO-OUTFLOW-01`); **CALENDAR hand-verified 20↔20** |
+| BOARD_LOG.tsv | 745 | ⚠️ **61 undispositioned — untouched, and growing (was 47)** |
+| MEMORY.md | 95 lines | 2 entries **PROMOTED OUT**, 2 added. 5 from cap |
+| PHAN COCKROACH/REGULATORY | **+42d** | ⚠️ **Now OVERDUE — its gating date (8/27) fired today** |
 
 ---
 
 ## URGENT
-- **⛔ THE §5 GATE IS THE WHOLE PRIORITY. One PDF pull stands between a Will-ratified re-spec and encode** — and until it clears, the as-written kill rule is live at **1-of-2**, meaning **a second CC 90+ decline at the Q3 (~Nov) print fires a full-thesis kill on terms Will has already superseded.** That gap is the entire risk and it closes for the price of a curl.
-- **⚠️ THE ENERGY LEG HAS FLIPPED SIDES AND MY SURFACES STILL READ LIKE IT IS FALLING.** On 8/11 the live question was whether crude's break would force V5 down. It didn't; Brent is back to **$95.29, 4.7% from $100**, and **CRL-08 (gas ≥$4.50, Aug-Sep, 45%) is the live leg now.** Re-read the energy rows as an UP-side watch.
-- **⚠️ CRL-05 IS STILL BASIS-EXPOSED** — resolves on a **LEVEL** (>13.74%, an **Equifax-3.0-era** figure) against VantageScore-4.0 prints. **Settle the basis question BEFORE grading it in November.** Unchanged from 8/15 and still nobody's assignment.
-- **⚠️ CARL-DR-1 IS OVERDUE AT `PARTIAL` AND THAT IS THE STATE WHERE A PARTIAL RESULT GETS READ AS A FINAL ONE.** One leg of six; **22.5bps vs a 50bps bar reads as a comfortable pass and is not** — the unmeasured five include **FHA partial claims, the leg most likely to be large, with selection running AGAINST the kill.** Disposition is CARL's, docketed ~9/18.
+- **⚠️ THE ENERGY LEG IS NOW A TWO-SIDED WATCH AND MY INSTINCT IS ONE-SIDED.** The pump has risen three straight weeks **into a falling crude input**. That is the pass-through lag, not a contradiction — and it means **CRL-08 ($4.50, 45%) and V5's downgrade line (8.5¢ below) are both live at once.** Read the energy rows from both ends.
+- **⚠️ CRL-05 IS STILL BASIS-EXPOSED AND IT IS STILL NOBODY'S ASSIGNMENT.** It resolves on a **LEVEL** (>13.74%, an **Equifax-3.0-era** figure) against VantageScore-4.0 prints. **Settle the basis question BEFORE grading it in November.** Unchanged since 8/15 — the kill rule got fixed and this did not.
+- **⚠️ CARL-DR-1 IS OVERDUE AT `PARTIAL` — the state where a partial result gets read as a final one.** One leg of six; **22.5bps against a 50bps bar reads as a comfortable pass and is not**; the unmeasured five include **FHA partial claims, the leg most likely to be large, with selection running AGAINST the kill.**
+- **⚠️ A PROMOTION FLAG IS OWED TO PROME** — I extended the indexed COLD-tier memory `finding_base_rate_the_threshold_before_building_it` to **n=4**; per the 8/21 rule that obligates a promotion flag, executed or declined at the next flow pass.

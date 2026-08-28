@@ -192,7 +192,7 @@ V9 merged into V8 (May 1). V15 Refi-Window dropped (RED domain). **Independence 
 - **Time-based:** consumer earnings quarters = mandatory review. Forward dates → **`docket/CALENDAR.md`**; per-company watch-metric templates → `archive/EARNINGS_WATCH_Q1.md` (Q1, reusable for Q2+ prep).
 
 *Next catalysts: full dated feed in **`docket/CALENDAR.md`** (run `scripts/docket_countdown.py`). Highest-leverage near-term: ~~8/11 Q2 HHDC~~ **✅ FIRED & GRADED 8/11 — CRL-05 85→20, cell B, CRL-21 = HOLD, no score move; auto 90+ verify CLOSED at 5.60% Q1; kill-rule proximity surfaced to Will** · **Wed 8/12 July CPI — DO-NOT-GRADE ×2** (gasoline base effect + only ~8 days of Sec-301 in-month) · ~~8/7 July NFP~~ **✅ FIRED — −23K negative, V16 3→4 EXECUTED 8/10 (52→53)** · **~8/17 OTTO panel filings** (V2's re-pointed instrument + KB-366 discriminator hook) · **Wed 8/19 Canada Sec-338 +50% effective** (consumer-facing annex; HAWK TRADE-02) · **Aug 21 Iran waiver expiry** (CRL-08 live tail) · **~8/20 V5 downgrade watch** (0.9¢ cushion; crude round-tripping) · **~Sep 22 Russia diesel producer-channel read** (OSPREY: ban extended to Jan-31-27, producer-direct carve-out 9/1) · **~Oct 20 Q3 credit prints** (CRL-21 vintage leg).*
-*Key docs: `thesis/THESIS.md` | `thesis/PREDICTIONS.tsv` | `thesis/CHANGELOG.md` | `workbook/KB.tsv` | `domain/sources/CVNA_FRAUD_WATCH.md` | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*
+*Key docs: `thesis/THESIS.md` | `thesis/PREDICTIONS.tsv` | `thesis/CHANGELOG.md` | `workbook/KB.tsv` | `archive/CVNA_FRAUD_WATCH.md` *(RETIRED 2026-08-27 — >60d, index-ref only; Carvana collateral is OTTO's since its Bridgecrest read. Historical, do not cite as current)* | `workbook/ABS_BASELINE.tsv` | `workbook/STATE_DIFFUSION.tsv`*
 
 ---
 
