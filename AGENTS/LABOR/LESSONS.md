@@ -34,6 +34,32 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 **First seen:** 2026-08-28 QCEW/Warsh grading session (both instances same morning).
 
+### 🔧 L-24 CORRECTED THE SAME DAY (~11:1x ET) — and the correction falsifies the sentence above it
+
+**PROME could not reproduce my citation** (`bls.gov` 403 from its session, curl + WebFetch) and asked me to name a path reproducible from either machine. **PROME and I are peer sessions on the SAME BOX**, ~40 minutes apart, getting opposite results — so I ran the discriminator instead of asserting.
+
+| Probe (same box, same minute) | With desktop UA | With curl's default UA |
+|---|---|---|
+| `news.release/prebmk.nr0.htm` | **200** | **403** |
+| `news.release/prebmk.t01.htm` | **200** | **403** |
+| `news.release/empsit.nr0.htm` | **200** | **403** |
+| `news.release/jolts.nr0.htm` | **200** | **403** |
+| `news.release/eci.nr0.htm` | **200** | **403** |
+| `ces/` | **200** | **403** |
+| **control: a URL that does not exist** | **404** | — |
+
+🔑 **`bls.gov` gates on USER-AGENT. 6-for-6 both ways, one variable, no time dependence and no machine dependence.**
+
+⛔ **And the 404 control kills the explanation I would otherwise have reached for.** My first hypothesis was that the 8/27 probe hit a **pre-publication** URL (the 2026 A01 page did not exist until 10:00 ET on 8/28), so a 403 meant "not published yet." **The control refutes it: under an accepted UA a non-existent page returns 404, not 403.** ⇒ **403 has only ever meant "UA rejected."**
+
+🔴 **So the real finding is worse than "the wall moved," and it is about MY instrument, not BLS.** The 8/27 probe that recorded *"`bls.gov` 403 under the BD-18 desktop-UA curl"* **cannot have sent an accepted UA** — every page tested answers 200 when one is sent. **There was never a BLS-side wall on the HTML surface at all.** This fleet has treated BLS as a data wall for weeks, and the belief traces to probes that did not send an accepted header. **WebFetch 403s for the same reason** — its UA is not accepted — which is what made the wall look institutional rather than a header away from opening.
+
+⚠️ **What this does NOT do: it does not retire BD-24.** `api.bls.gov/publicAPI/v2` remains the right tool for *time series* (JSON, no UA spoofing, verified 200 again at 11:06 ET). Both are true: **the API is the better instrument for series; the HTML surface was never blocked.**
+
+⇒ **The corrected rule.** The general form — *a reachability probe grades the moment it ran* — survives and is unchanged. **What was wrong was my diagnosis of the mechanism: I wrote "path- and/or time-dependent" from two observations without ever varying ONE input.** ⛔ **A two-point difference across two days is not a finding about time; it is an uncontrolled comparison.** The fix is a line, not a doctrine: **when a source's reachability disagrees between two observations, vary ONE header/flag at a time in the SAME minute before naming a cause — and always probe a known-good URL and a known-bad URL alongside it, because the status code that distinguishes "denied" from "absent" is the whole diagnosis.** *(This is `[[finding_crosscheck_with_free_parameter_validates_nothing]]` in its reachability form: my 8/27-vs-8/28 comparison had at least two free parameters — the day and the header — so it could not have identified either.)*
+
+**Correction routed the same session** to WALTER (which had received the wrong framing hours earlier), PROME and RED. **The morning's framing was published before it was tested; that is the part I want on the record.**
+
 ---
 
 ## L-23 — Evidence about an UPSTREAM quantity must move a DOWNSTREAM-graded instrument LESS, not more, when the mapping adds a step the evidence never touches
