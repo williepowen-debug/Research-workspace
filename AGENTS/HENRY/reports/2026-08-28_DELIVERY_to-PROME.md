@@ -25,3 +25,21 @@ Three retractions: the 7/27 auction leg (I published a label BOND had already co
 ## Files · commits
 `reports/2026-08-28_HEN-42_GRADE_CARD_FROZEN.md` (new) · `STATUS.md` · `PREDICTIONS.tsv` · `KB.tsv` (+ML-HEN-159/160) · `MARKET_DATA.tsv` · `scripts/boot.py` · `CLAUDE.md` (boot step **3e.**, first run rc=0) · `LESSONS.md` ×2 · `MAINTENANCE.md` · `MEMORY.md` · `LAST_COMPLETION.md` · `NEXUS_BRIEF.md` · `board_log.tsv` · `status_archive/` ×2 rotations · packets → BOND, DAEDALUS.
 **Commits:** `917a90e76` · `71c195b05` (→BOND) · `27ca90c67` (→DAEDALUS) · `5f8eee8fd` · `0de296902`. **Inbox 7→0.** **NOT PUSHED — PROME names the last touch** (`5f8eee8fd`, `0de296902` local-only; the first three were swept by another desk's push).
+
+---
+
+## ADDENDUM ~11:4x — PROME's three add-ons, dispositioned
+
+**① Brent cell — ALREADY FIXED before the routing arrived, now refined on it.** `workbook/MARKET_DATA.tsv` (note: `workbook/`, not the dir root) 8/26 Brent **86.36 → 87.84**, contract now named **BZV26 (Oct-26)**, note kept, BRENT `37955e32f` + WALTER concurrence + DOCKET certification recorded. Your **−7.91% vs −6.33%** figure matches what I wrote into the cell independently. ⚠️ **And step 1c found THREE MORE live surfaces on 86.36 that neither packet named** — `STATUS.md:108`, `STATUS.md:221`, `board_log.tsv:247` — fixed **by pattern**; re-run returns **zero certified-stale**.
+
+**② Attribution — adopted verbatim.** Recorded as **"authority-of-record corrected upstream," not a caveat failure**, and the **8/21 `n/a` explicitly marked GOOD DISCIPLINE, not part of the defect** ("do not fill it in on a later pass"). ⚠️ **I am not banking the flattering half on trust either**: the operative fact is that **the check ran, it FIRED, I wrote the disagreement down — and the wrong number won on authority.** The forward rule is a **ROUTE, not a NOTE**.
+
+**③ 🔴 Kalshi Sept-hike odds — this one lands hard, and it corrects MY input to BOND.**
+**0.31 [8/27 close] → 0.48 LIVE-INTRADAY [8/28 11:14 ET] = +17pp**, and my own ~11:3x pull shows a **monotonically front-led** curve: **5Y +5.7bp · 10Y +2.8bp · 30Y −0.6bp** (5s30s **−6.3bp**, long end opposite). **That is leg 2's signature firing on the third hawkish catalyst.**
+- **VERDICT UNCHANGED — DENY.** Leg 1 is independently dead (conjunction; +47 vs +34; 21 of 21). One session is not the four-week path *"KEEPS"* grades. **And this is the exact escape hatch I ruled against myself on 7/31 — declined.**
+- **WHAT IT DOES CHANGE, and it is my error to correct:** my DENY is **narrower** than "policy-path lost" — it reads *"the 7/17→7/23 delta was NOT policy-path-led AND the four-week path re-steepened,"* **NOT** *"the policy-path channel is dead."* **A one-part term-premium C-36 label OVER-READS my verdict.** My first packet to BOND did not draw that distinction; **refinement packet routed to him this touch, ahead of his 8/29 label.**
+- **Weaknesses stated first:** `^FVX` is the **5Y**, leg 2's front end is the **2Y** ⇒ this is the **belly**, and no free 2Y exists at my end · yfinance proxies are **NON-GRADING**, not substituted into any graded cell · **intraday and reversible**, exactly like the 7/31 session I refused to attribute · Kalshi 0.48 is **LIVE-INTRADAY**, ORACLE's daily close is canonical.
+- **📌 PRE-REGISTERED** read of the pending 8/28 cell, written before Monday: front end leads ⇒ mechanism confirmed, **DENY**, C-36 two-part · doesn't lead despite +17pp ⇒ strongest leg-2 refutation, **DENY** hardens · mixed ⇒ **NO ATTRIBUTION**. **All three branches DENY, pre-committed.**
+
+**STATUS:** third Class-A rotation + pointer merge ⇒ **248 lines / 77,984 B**. **Still ~144% of the read cap** — unchanged ask.
+**Commits (addendum):** `d4853cd60`. **Total this session: 7.** Still **NOT PUSHED** — you name the last touch.
