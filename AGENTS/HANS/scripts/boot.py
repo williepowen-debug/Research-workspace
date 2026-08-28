@@ -53,14 +53,16 @@ DEAD = {"FROZEN", "RETIRED", "UNREACHABLE"}  # deliberately parked — never nag
 
 # ---------------------------------------------------------------- bands
 def _ttf(v):
-    if v > 200: return "🔴", "L4 CRISIS >200"
-    if v > 100: return "🔴", "L3 RED >100"
+    # ⚠️ L3/L4 CARRIED NO THRESHOLD ID until 2026-08-28 — the two MOST SEVERE tiers
+    # were the ones excluded from the integrity check. Caught by test_hans, not by eye.
+    if v > 200: return "🔴", "L4 CRISIS >200  [HANS-T-07]"
+    if v > 100: return "🔴", "L3 RED >100  [HANS-T-07]"
     if v >= 66: return "🟠", "L2 ORANGE >=66  [HANS-T-07]"
-    if v >= 60: return "🟡", "L1 WATCH >=60"
+    if v >= 60: return "🟡", "L1 WATCH >=60  [HANS-T-07]"   # id was MISSING: only L2+ reached the integrity check
     return "🟢", "below L1 (<60)"
 
 def _eurusd(v):
-    if v < 1.00: return "🔴", "CRISIS <1.00"
+    if v < 1.00: return "🔴", "CRISIS <1.00  [HANS-T-11]"     # id was missing on the SEVERE tier too
     if v < 1.05: return "🟠", "WATCH <1.05  [HANS-T-11]"
     return "🟢", "no stress"
 
@@ -133,13 +135,23 @@ def main():
                 pull_fails += 1
 
     # [2] European primary pull — ECB Data Portal (keyless) + AGSI+
+    #     Its structured return feeds BOTH the exit code and the §3 integrity check.
     print("\n[2] EUROPEAN PRIMARY PULL")
     try:
         sys.path.insert(0, str(Path(__file__).resolve().parent))
         import fetch_eu
-        fetch_eu.main()
+        eu = fetch_eu.main()          # returns {observations, failures, breached}
+        # ⚠️ CONSUME the return. Before 2026-08-28 this was called for its PRINTING only,
+        # so ECB/AGSI failures and breaches never reached the exit code or the integrity
+        # check — a run with working Yahoo and dead European primaries exited 0 CLEAN
+        # while the screen said PULL FAILED.
+        breached.extend(eu.get("breached", []))
+        pull_fails += len(eu.get("failures", []))
+        for f in eu.get("failures", []):
+            print(f"  ⚠️  PRIMARY PULL FAILED: {f}")
     except Exception as e:
-        print(f"  ⚠️  fetch_eu failed: {str(e)[:70]} — run it directly to diagnose")
+        print(f"  ⚠️  fetch_eu failed entirely: {str(e)[:70]} — run it directly to diagnose")
+        pull_fails += 1
     print("  ⚠️  PERIMETER: a clean [1]+[2] still does NOT clear the board. Event-driven rows")
     print("     (ECB/BoE decisions, monthly PMI) have no feed by nature — check the calendar:")
     for label, tid, src in MANUAL:
@@ -158,7 +170,10 @@ def main():
     print(f"  {len(scan)} of {len(th)} rows are daily-scannable · {len(unre)} UNINSTRUMENTED (cannot fire — excluded from any clean-board count)")
     # INTEGRITY CHECK — the only blocking condition. Registry vs ledger disagreement.
     open_ids = {f["threshold_id"] for f in openf}
-    orphan = [t for t in breached if t not in open_ids]
+    breached_u = sorted(set(breached))
+    orphan = [t for t in breached_u if t not in open_ids]
+    print(f"  integrity perimeter: {len(breached_u)} breach(es) observed this run "
+          f"across Yahoo + ECB + AGSI → {breached_u if breached_u else 'none'}")
     if orphan:
         rc = 2
         print(f"  🔴 BLOCKING — live pull shows {orphan} BREACHED with no OPEN fire row.")

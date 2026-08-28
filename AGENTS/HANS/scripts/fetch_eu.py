@@ -79,6 +79,16 @@ def agsi_eu():
 
 
 def main():
+    """Prints the report AND returns structured status so a caller can act on it.
+
+    Returns {"observations": [...], "failures": [str], "breached": [threshold_id]}
+    ⚠️ ADDED 2026-08-28 on review: this function previously ONLY printed. boot.py
+    therefore could not see ECB/AGSI failures or breaches, so a run with working
+    Yahoo and FAILED European primaries would exit 0 CLEAN while the screen said
+    PULL FAILED — exit semantics advertising a wider perimeter than they checked.
+    [[finding_instrument_reports_clean_against_the_wrong_reference]]
+    """
+    obs, failures, breached = [], [], []
     print("\n  EUROPEAN PRIMARY PULL — ECB Data Portal (keyless) + GIE AGSI+")
 
     aaa = ecb(AAA10Y, 2)
@@ -88,8 +98,12 @@ def main():
         em = "🔴" if v > 4.50 else "🟠" if v > 3.75 else "🟡" if v > 3.00 else "🟢"
         print(f"  {em} Euro-area AAA 10Y   {v:6.3f}%  [{d}]{prev}   HANS-T-05 bands 3.00/3.75/4.50")
         print(f"     ⚠️  AAA CURVE, not Germany specifically — a proxy. Referent stated on purpose.")
+        obs.append(("HANS-T-05", v, d))
+        if v > 3.00:
+            breached.append("HANS-T-05")
     else:
         print("  ⚠️  Euro-area AAA 10Y — PULL FAILED (reported, not skipped)")
+        failures.append("ECB euro-area AAA 10Y")
 
     de = ecb(CTRY["DE"])
     print("\n  Per-country 10Y (MONTHLY convergence series) + spreads vs DE:")
@@ -100,16 +114,26 @@ def main():
             r = ecb(CTRY[c])
             if not r:
                 print(f"     {c} — PULL FAILED")
+                failures.append(f"ECB {c} 10Y")
                 continue
             cd, cv = r[0]
             sp = (cv - dv) * 100
             note = ""
-            if c == "IT": note = "  T-09 spread leg (>200bp)"
-            if c == "FR": note = "  T-10 spread leg (>100bp)"
+            # COMPOUND rows: T-09/T-10 need BOTH the spread leg AND the level leg.
+            # A single leg is NOT a breach — recording that correctly matters, because
+            # reporting one leg as a fire is how a compound gate gets simplified away.
+            if c == "IT":
+                note = "  T-09 spread>200 AND BTP>5.50"
+                if sp > 200 and cv > 5.50: breached.append("HANS-T-09")
+            if c == "FR":
+                note = "  T-10 spread>100 AND OAT>4.50"
+                if sp > 100 and cv > 4.50: breached.append("HANS-T-10")
+            obs.append((f"{c}-10Y", cv, cd))
             print(f"     {c} {cv:6.3f}%  [{cd}]   spread {sp:6.1f}bp{note}")
         print("     ⚠️  MONTHLY. Lags a daily print by weeks — cross-check, not a live level.")
     else:
         print("     ⚠️  DE base leg PULL FAILED — spreads not computed (never computed off a stale base)")
+        failures.append("ECB DE 10Y (base leg — spreads not computed)")
 
     st, err = agsi_eu()
     print("\n  EU gas storage (GIE AGSI+):")
@@ -126,13 +150,19 @@ def main():
         print(f"     ⚠️ PERIMETER MISMATCH, STATED: fill is AGSI primary; the {NORM:.1f}% norm is from GEF,")
         print(f"        a DIFFERENT source whose EU member-set may differ. The GAP is therefore a")
         print(f"        CROSS-SOURCE derivation. Proper fix: compute the norm from AGSI history.")
+        obs.append(("HANS-T-08", gap, st[0]))
+        if gap < -15:
+            breached.append("HANS-T-08")
     else:
         print(f"     🔑 {err}")
+        failures.append(f"AGSI+ EU storage ({err[:40]})")
 
     print("\n  🔴 STILL MANUAL — named so this file cannot imply coverage:")
     print("     UK 10Y / 30Y gilt (HANS-T-06 / T-13) — no free DAILY source found.")
     print("     FRED IRLTLT01GBM156N is monthly and ~2mo lagged: a cross-check, not a level.\n")
+    return {"observations": obs, "failures": failures, "breached": breached}
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    _r = main()
+    sys.exit(1 if _r["failures"] else 0)

@@ -185,5 +185,83 @@ class TestFetchEuParsing(unittest.TestCase):
         self.assertNotIn('"https://agsi.gie.eu/api?country=EU', src)
 
 
+class TestExitSemanticsPerimeter(unittest.TestCase):
+    """The 0/1/2 contract must cover ALL live pulls, not just Yahoo.
+
+    Added 2026-08-28 on review: fetch_eu only PRINTED, so ECB/AGSI failures and
+    breaches never reached the exit code or the registry-integrity check. A run
+    with working Yahoo and dead European primaries would exit 0 CLEAN while the
+    screen said PULL FAILED — semantics advertising a wider perimeter than checked.
+    """
+
+    def test_REGRESSION_ttf_L1_carries_its_threshold_id(self):
+        """Only the L2+ branch used to enter the integrity comparison, because the
+        L1 band text had no HANS-T- id in it."""
+        for level in (60.0, 62.0, 65.9):
+            _, txt = boot._ttf(level)
+            self.assertIn("HANS-T-07", txt, f"L1 at {level} must carry its threshold id")
+
+    def test_every_banded_ttf_tier_is_identifiable(self):
+        for level, tier in ((66.0, "L2"), (100.1, "L3"), (200.1, "L4")):
+            _, txt = boot._ttf(level)
+            self.assertIn("HANS-T-07", txt)
+            self.assertIn(tier, txt)
+
+    def test_ttf_below_L1_is_not_a_breach(self):
+        em, txt = boot._ttf(50.0)
+        self.assertEqual(em, "🟢")
+        self.assertNotIn("HANS-T-07", txt, "an unbreached band must not enter the integrity list")
+
+    def test_eurusd_band_ids_only_when_breached(self):
+        self.assertNotIn("HANS-T-11", boot._eurusd(1.16)[1])
+        for breached in (1.02, 0.98):     # 0.98 = the CRISIS tier, which also lacked its id
+            self.assertIn("HANS-T-11", boot._eurusd(breached)[1])
+
+    def test_REGRESSION_no_banded_tier_omits_its_threshold_id(self):
+        """The general form of the bug: severe tiers were the ones missing ids, so the
+        WORST states silently skipped the integrity check. Assert every non-green
+        tier of every banded fn is identifiable."""
+        cases = [(boot._ttf, [60.0, 66.0, 101.0, 201.0], "HANS-T-07"),
+                 (boot._eurusd, [1.02, 0.98], "HANS-T-11")]
+        for fn, levels, tid in cases:
+            for lv in levels:
+                em, txt = fn(lv)
+                self.assertNotEqual(em, "🟢", f"{fn.__name__}({lv}) should be a breach")
+                self.assertIn(tid, txt, f"{fn.__name__}({lv}) omits {tid} — skips integrity")
+
+    def test_fetch_eu_exposes_the_three_key_contract(self):
+        """boot depends on these keys existing. Network-tolerant: a total failure
+        still has to return the contract, not None."""
+        import io, contextlib, fetch_eu
+        buf = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(buf):
+                r = fetch_eu.main()
+        except Exception as e:
+            self.skipTest(f"network unavailable: {str(e)[:40]}")
+        for k in ("observations", "failures", "breached"):
+            self.assertIn(k, r, f"boot consumes r[{k!r}] — the contract must hold")
+        self.assertIsInstance(r["failures"], list)
+        self.assertIsInstance(r["breached"], list)
+
+    def test_compound_rows_need_BOTH_legs(self):
+        """T-09/T-10 must not fire on a spread leg alone — reporting one leg as a
+        fire is how a compound gate gets simplified into a single number."""
+        src = (Path(__file__).resolve().parent / "fetch_eu.py").read_text()
+        self.assertIn("sp > 200 and cv > 5.50", src)
+        self.assertIn("sp > 100 and cv > 4.50", src)
+
+    def test_boot_consumes_the_return_not_just_the_printing(self):
+        src = (Path(__file__).resolve().parent / "boot.py").read_text()
+        self.assertIn("eu = fetch_eu.main()", src)
+        self.assertIn('breached.extend(eu.get("breached"', src)
+        self.assertIn('pull_fails += len(eu.get("failures"', src)
+
+    def test_boot_declares_all_three_exit_codes(self):
+        src = (Path(__file__).resolve().parent / "boot.py").read_text()
+        for token in ("0  CLEAN", "1  ATTENTION", "2  BLOCKING"):
+            self.assertIn(token, src)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
