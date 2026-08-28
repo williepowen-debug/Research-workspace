@@ -46,7 +46,7 @@
 | **Sat 8/29** | **HEN-42 row flips RESOLVED** · BOND's C-36 label lands (DOCKET 217) · FORUM T6 hard close |
 | **Mon 8/31** | The pending curve cells publish — close the card |
 | **Fri 9/4** | NFP — LABOR's hard guard on demand-vs-supply attribution lifts |
-| **Tue 9/9** | **sb0607 buybacks begin — curve-shape attribution is contaminated from here on the same instrument.** HEN-42 resolved 11 days ahead, as BOND required |
+| **Wed 9/9** | **sb0607 buybacks begin — curve-shape attribution is contaminated from here on the same instrument.** HEN-42 resolved 11 days ahead, as BOND required |
 | **~9/11** | August CPI |
 
 ## THESIS SNAPSHOT (frozen at close)
