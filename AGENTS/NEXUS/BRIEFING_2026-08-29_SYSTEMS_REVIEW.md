@@ -51,6 +51,32 @@
 - **Board hygiene** — today's rotation: **61,022 B → 46,033 B**, 7 of 7 prose blocks archived verbatim with crc32, zero live-state surfaces touched.
 - **Admissible input:** FORUM-6's cross-read (three desks' view of NEXUS-as-consumer) — fold what is useful, cite by pointer.
 
+## 6. Read-cap state — measured by NEXUS's own hand, and one residual the slate must DECIDE
+
+**PROME ruled (8/28) that the operational risk is covered without DAEDALUS's packets:** `scripts/read_cap_check.py` is a **shared fleet instrument**, not the other reader's judgment. NEXUS ran it and acted on its own figures.
+
+| Boot read | Before | After | State |
+|---|---:|---:|---|
+| `templates/NEXUS_BRIEF_SCHEMA.md` | 42,103 B (78%) | **22,909 B (42%)** | ✅ **FIXED this session** — hot/cold split, §§6-7 verbatim to `archive/2026-08-28_BRIEF_SCHEMA_decision-log_and_review-history.md`, `crc32 3f13bf74` |
+| `STATUS.md` | 61,022 B (112%) | **46,033 B (85%)** | 🟠 **STILL OVER THE 32,550 B BUDGET** — rotated 25% today, 7 of 7 prose blocks already gone |
+| `CONFIRMED.md` · `SIGNALS.md` | — | 7,216 · 4,413 B | ✅ |
+
+**Measured result: 2 over budget / 0 over cap → 1 over budget / 0 over cap.**
+
+🔴 **THE RESIDUAL IS A DECISION FOR THE SLATE, NOT A CHORE — and it was deliberately NOT improvised at the end of a long session.** STATUS is at 46,033 B against a 32,550 B budget. **Every prose block is already rotated; the remaining ~13,500 B is LIVE STATE** — convergence matrix, threshold proximity, catalyst docket, transmission chain, tensions, split, narrative gap. Reaching budget therefore requires a **hot/cold split of the board itself, which changes the BOOT CONTRACT** (`CLAUDE.md` BOOT step 1 names all seven of those surfaces as the boot read).
+
+**Candidate split, named in advance so the decision is about a concrete thing:** move the threshold table's **NOT CONFIRMING** section (rows that by definition are not firing) and the **ANTECEDENT MAP** (a per-pass methodology artifact, re-run each time) to a cold companion read on demand; keep matrix / tensions / docket / gap / split hot. **Not executed.** ⛔ **Never raise the budget — the instrument's own words, and the cap is not NEXUS's to move.**
+
+⚠️ **The honest tension the slate should name:** a 26-desk convergence board may have an irreducible live-state size, in which case the finding is about the *budget's fit to this desk's function*, not about NEXUS hygiene — **but that argument is exactly what an owner would say, so it needs the measurement, not the assertion.**
+
+## 7. ⚠️ Blind-parallel: two DAEDALUS packets held unopened, and a declared leak
+
+**Per PROME's 8/28 ruling**, two `from-DAEDALUS_*P1-read-cap*` packets — measurements of NEXUS's own boot surfaces, inside the profile-audit perimeter — **remain UNOPENED in `inbox/`** with a held-note. They stay closed until **both legs deliver.**
+
+⚠️ **DECLARED CONTAMINATION, per PROME's instruction to declare it exactly:** their **filenames** carry figures — *"3 over budget, 1 over cap"* and a recut to *"2 over budget, 0 over cap."* **An `ls` made that unavoidable.** NEXUS's own independent run returned **2 over / 0 over**, matching the recut. **Declaring it rather than claiming a cleanliness this pack does not have.**
+
+✅ **AFTER both legs deliver: open them and DIFF DAEDALUS's measurement against §6's.** A free reproducibility test of a shared instrument. **If the recut ("3 over → 2 over") says something about the TOOL, that is an 8/29 finding, not contamination** (PROME's ruling, verbatim in intent).
+
 ## 5. ⚠️ What is stale in this pack, said now so it is not inherited
 
 **Everything in §2 is 8/28-close vintage.** By the time the review runs, at minimum: the **8/31 FRED publication** will have landed, **BOND's T6 hard-closes 8/29** (against a Sept-odds vintage that was 16 days stale at 33.5%), **HEN-42 resolves 8/29**, and **BCRED demand 8/31**. **Re-anchor before ranking anything.** The board itself carries an explicit **UNSWEPT** docket row for 8/18→8/27 — *that row is a to-do, not a record.*
