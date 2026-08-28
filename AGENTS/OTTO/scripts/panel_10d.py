@@ -139,6 +139,9 @@ SPECS = {
         "dq_61_90":   r"61-90 days" + PCT,
         "dq_91_120":  r"91-120 days" + PCT,
         "dq_120plus": r"over 120 days" + PCT,
+        # Issuer-stated 60+ aggregate {102}, tested against {103} Delinquency Trigger
+        # (40.00%). Canonical since 2026-08-27 — see derive().
+        "dq_60plus_direct": r"\{\d+\}\s*(?P<v>[\d.]+)\s*%\s*\{\d+\}\s*Delinquency Trigger",
         "cnl_pct":    r"Cumulative\s+net\s+loss\s+ratio" + PCT,
         "ext_rate":   r"Extension Rate" + PCT,
         "net_loss_period": r"Net losses during period" + SKIP + NUMV,
@@ -150,6 +153,9 @@ SPECS = {
         "dq_61_90":   r"61-90 days" + PCT,
         "dq_91_120":  r"91-120 days" + PCT,
         "dq_120plus": r"121 \+ days delinquent" + PCT,
+        # Issuer-stated 60+ aggregate {79}, tested against this deal's own {80}
+        # Delinquency Trigger (24.00%). Canonical since 2026-08-27 — see derive().
+        "dq_60plus_direct": r"Delinquency Percentage as of the End of the Collection Period\s*\{?\d*\}?\s*(?P<v>[\d.]+)\s*%",
         "cum_loss_dollars": r"Cumulative Net losses since Cut-off Date" + SKIP + NUMV,
         "net_loss_period":  r"Net losses during period" + SKIP + NUMV,
         # Initial Purchase row: units, cut-off date, closing date, THEN the balance.
@@ -307,9 +313,30 @@ def parse(txt, issuer):
 def derive(v, issuer):
     """Compute the four comparable metrics. Any input missing -> output None, never 0."""
     out = {}
+    # ⚠ 2026-08-27 — DEFINITION RECONCILED WITH CARL, and the panel was internally
+    # INCONSISTENT before it. Bridgecrest read the issuer's stated aggregate while
+    # Exeter and Santander SUMMED the 61-90 / 91-120 / 121+ buckets — so the deep and
+    # broad tiers were measured one way and Carvana another, INSIDE a panel whose whole
+    # purpose is cross-tier comparison. All three shelves in fact disclose an
+    # issuer-stated 60+ aggregate, each tested against that deal's OWN Delinquency
+    # Trigger: SDART {79} (vs {80} 24.00%), EART {102} (vs {103} 40.00%), BLAST (55)
+    # (vs (56) 50.00%). That is the contractually operative number and it is now
+    # canonical on every shelf; the bucket sum is retained only as a fallback.
+    # MEASURED GAP (issuer aggregate MINUS bucket sum): Santander +0.62 to +0.73pp
+    # across three deals and three months — the BROAD tier was UNDERSTATED by ~0.7pp,
+    # so published deep-vs-broad level bifurcation was overstated by about that much.
+    # Exeter +0.01pp (its buckets already ~equal its aggregate).
+    # DIRECTION IS UNAFFECTED, which is why CARL's V2 grade stands either way:
+    # SDART 2022-6 Jun->Jul reads -0.34pp on buckets and -0.39pp on {79}; 2024-1 reads
+    # -0.11pp and -0.13pp. Found by CARL 2026-08-27; adopted here because it also
+    # removes a defect internal to this panel.
     if issuer != "bridgecrest":
-        dq = [v.get("dq_61_90"), v.get("dq_91_120"), v.get("dq_120plus")]
-        out["dq_60plus_pct"] = round(sum(dq), 2) if all(x is not None for x in dq) else None
+        direct = v.get("dq_60plus_direct")
+        if direct is not None:
+            out["dq_60plus_pct"] = direct
+        else:
+            dq = [v.get("dq_61_90"), v.get("dq_91_120"), v.get("dq_120plus")]
+            out["dq_60plus_pct"] = round(sum(dq), 2) if all(x is not None for x in dq) else None
 
     if issuer == "exeter":
         out["cnl_pct"] = v.get("cnl_pct")
