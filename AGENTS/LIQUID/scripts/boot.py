@@ -135,8 +135,18 @@ def build_credit():
     v, d, tr, err = fred_series("BAMLH0A3HYC")
     if not err:
         ccc = v * 100
-        if ccc > 1000:  m, n = "🔴", "CCC tail >1000 trip"
-        elif ccc > 960: m, n = "🟡", f"{1000 - ccc:.0f}bps below 1000 trip"
+        # YELLOW FLOOR SOURCED FROM THE SHARED CONFIG 2026-08-28 (DAEDALUS wiring-sweep item 2).
+        # Was hand-typed 960 while FORGE config.py carries CCC yellow (900, 1000) — a fork a
+        # SENTRY retune would propagate to hy_oas_watch.py and NOT to here. Not diverging on
+        # today's 1031bps print; wired before it does. If the import fails we fall back to the
+        # historical 960 and SAY SO on the row rather than showing a silently-forked band.
+        try:
+            from config import SERIES as _CFG   # NB: a LIST of dicts, not a dict — search by "name"
+            _lo = float(next(x for x in _CFG if x.get("name") == "CCC OAS")["yellow"][0]); _src = ""
+        except Exception as _e:
+            _lo = 960.0; _src = " ⚠️ band = LOCAL FALLBACK 960 (config.py unreachable)"
+        if ccc > 1000:  m, n = "🔴", "CCC tail >1000 trip" + _src
+        elif ccc > _lo: m, n = "🟡", f"{1000 - ccc:.0f}bps below 1000 trip (yellow floor {_lo:.0f})" + _src
         else:           m, n = "🟢", ""
         add("CREDIT", "CCC OAS", f"{ccc:.0f}bps", m, n, d, trend_str(tr, 100, 0))
     else:
@@ -203,13 +213,17 @@ def build_domestic():
     sofr = iorb = None
 
     v, d, tr, err = fred_series("SOFR")
-    if not err:
+    if err:
+        add("DOMESTIC", "SOFR", "ERR", "🔴", f"fetch error: {err}")
+    else:
         sofr = v
         m, n = ("🟠", "above 3.70") if v > 3.70 else ("🟢", "")
         add("DOMESTIC", "SOFR", f"{v:.2f}%", m, n, d, trend_str(tr, 1, 2))
 
     v, d, tr, err = fred_series("IORB")
-    if not err:
+    if err:
+        add("DOMESTIC", "IORB", "ERR", "🔴", f"fetch error: {err}")
+    else:
         iorb = v
         add("DOMESTIC", "IORB", f"{v:.2f}%", "🟢", "(ceiling ref)", d)
 
@@ -240,6 +254,10 @@ def build_domestic():
             add("DOMESTIC", "SOFR75-IORB", f"{s75:+.0f}bps", "⚪",
                 f"dispersion instrument UNAVAILABLE ({type(_e).__name__}) — level shown raw, "
                 f"NOT graded; do not read the absence of a marker as calm", d75)
+    if e75 or e99:
+        add("DOMESTIC", "SOFR dispersion", "ERR", "🔴",
+            f"fetch error (SOFR75={e75 or 'ok'} / SOFR99={e99 or 'ok'}) — dispersion rows BLIND; "
+            f"do not read their absence as calm")
     if not e99 and sofr is not None:
         s99 = (p99 - sofr) * 100
         m, n = ("🟠", "tail blowout (99th−SOFR ≥20bps)") if s99 >= 20 else ("🟢", "tail contained (<20bps)")
@@ -247,18 +265,24 @@ def build_domestic():
 
     # 2Y — front-end reference (FOMC-day hawkish reprice tell)
     v, d, tr, err = fred_series("DGS2")
-    if not err:
+    if err:
+        add("DOMESTIC", "2Y (DGS2)", "ERR", "🔴", f"fetch error: {err}")
+    else:
         add("DOMESTIC", "2Y (DGS2)", f"{v:.2f}%", "🟢", "(front-end ref / bear-flattener tell)", d, trend_str(tr, 1, 2))
 
     # 10Y — >4.50 sustained
     v, d, tr, err = fred_series("DGS10")
-    if not err:
+    if err:
+        add("DOMESTIC", "10Y (DGS10)", "ERR", "🔴", f"fetch error: {err}")
+    else:
         m, n = ("🟠", "ABOVE 4.50 pivot") if v > 4.50 else ("🟢", "below 4.50 pivot")
         add("DOMESTIC", "10Y (DGS10)", f"{v:.2f}%", m, n, d, trend_str(tr, 1, 2))
 
     # 30Y — >5.00 re-establish / <4.90 unwind  [headline]
     v, d, tr, err = fred_series("DGS30")
-    if not err:
+    if err:
+        add("DOMESTIC", "30Y (DGS30)", "ERR", "🔴", f"fetch error: {err} — headline duration row is BLIND; do not read its absence as calm", headline=True)
+    else:
         if v > 5.00:    m, n = "🟠", "ABOVE 5.00 — duration regime re-establishing (need ≥5 closes)"
         elif v < 4.90:  m, n = "🟠", "BELOW 4.90 — duration UNWIND test firing"
         else:           m, n = "🟢", f"5.00-pivot oscillation ({v - 4.90:.2f} above the 4.90 unwind)"
@@ -267,7 +291,9 @@ def build_domestic():
     # Reserves WRESBAL ($ millions on FRED) — <2.8T floor. Canonical WRESBAL only —
     # NOT the FFIEC bank-reported reserves figure (different measure; see STATUS 6/20).
     v, d, tr, err = fred_series("WRESBAL")
-    if not err:
+    if err:
+        add("DOMESTIC", "Reserves", "ERR", "🔴", f"fetch error: {err}")
+    else:
         t = v / 1e6  # $millions -> $T
         if t < 2.8:   m, n = "🟠", "BELOW $2.8T floor — escalate PROME"
         elif t < 2.9: m, n = "🟡", f"cushion ${(t - 2.8) * 1000:.0f}B (<$100B) — Leg-A drain watch (KB-LIQ-067: RRP drained, QT hits reserves directly)"
@@ -276,7 +302,9 @@ def build_domestic():
 
     # RRP (billions) — >5 signal; structural zero now
     v, d, tr, err = fred_series("RRPONTSYD")
-    if not err:
+    if err:
+        add("DOMESTIC", "RRP", "ERR", "🔴", f"fetch error: {err}")
+    else:
         m, n = ("🟡", "ABOVE $5B — buffer re-activating? (check sustained vs month-end noise)") if v > 5 else ("🟢", "structural zero")
         add("DOMESTIC", "RRP", f"${v:.2f}B", m, n, d)
 
