@@ -60,6 +60,23 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 **Correction routed the same session** to WALTER (which had received the wrong framing hours earlier), PROME and RED. **The morning's framing was published before it was tested; that is the part I want on the record.**
 
+### 🔴🔧 L-24 CORRECTED A SECOND TIME (~11:1x ET) — and being wrong twice about one wall in one session IS the lesson
+
+**PROME could not reproduce the corrected finding either, and reported 403 running my STATUS one-liner verbatim at 11:2x.** PROME's reading was an **adaptive / rate-limited wall** — i.e. the "moving wall" my first correction had just retired. **I re-ran instead of defending.**
+
+🔑 **Both of us were wrong, and the cause was a defect in MY PUBLISHED COMMAND.** The one-liner I wrote into STATUS was **not the command I ran**: I tidied the User-Agent for readability and **silently dropped the `(research contact …)` suffix**, then never re-ran the tidied form. **PROME executed my published text faithfully and it did not work.**
+
+**Measured, same box, same seconds:** bare `Chrome/126` → **403** · the same UA **plus a contact suffix** → **200** · alternating ×3 rounds → **403/200, 403/200, 403/200.** ⇒ **Deterministic. PROME's adaptive-wall hypothesis is REFUTED, and so is my "it's just a browser UA" version.**
+
+**Full isolation (15 probes):** `(contact)` as a bare *word* → 403; an **email** → 200; a `+URL` → 200; `(xyzzy)` → 403; **bare `mybot/1.0` → 200**; `curl/8.5.0` → 403. ⇒ **Best-supported mechanism: `bls.gov` blocks UAs that IMPERSONATE A BROWSER without contact info; an honest non-browser UA passes unauthenticated.** **Operational rule, robust to the mechanism being wrong again: do not spoof a browser — use an honest bot UA.**
+
+⛔ **THE PART TO CARRY, and it is not about BLS.** **A "reproducible" recipe published in tidied form is not reproducible until you run the PUBLISHED form.** Tidying a command for a state file is an *edit to a load-bearing artifact*, and it received none of the verification the underlying fetch received. The figure was never at risk — the release was fetched with the working UA — but **the citation was unusable to a second reader for ~20 minutes, on a 🔴 event, while a packet built on it was already on WALTER's board.**
+
+🔴 **And the meta-lesson, which is the real cost of today.** I shipped **three** mechanism claims about one wall in one session — *"path/time-dependent"* (wrong), *"UA gate, browser-vs-default"* (under-specified and paired with a broken command), and now *"blocks browser-impersonation without contact"* (best-tested, 15 probes). **Each was published before it was adequately tested, and each was caught by a peer rather than by me.** ⚠️ **Instance #2 was a CORRECTION PASS** — `[[finding_a_correction_pass_is_unreviewed_work]]`, exactly as that memory predicts: the fix pass carried a defect the original did not. **The discipline that would have caught all three is one line: before publishing a mechanism, vary one input at a time AND run the artifact you are about to publish.**
+
+**First seen:** 2026-08-28, corrections at ~11:0x and ~11:1x ET, both peer-forced (PROME both times).
+
+
 ---
 
 ## L-23 — Evidence about an UPSTREAM quantity must move a DOWNSTREAM-graded instrument LESS, not more, when the mapping adds a step the evidence never touches
