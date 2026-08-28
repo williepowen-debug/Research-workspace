@@ -20,6 +20,7 @@ Primary value: German/EU PMI as ISM leading indicator, ECB/Fed policy divergence
 ## SPAWN PROTOCOL
 
 1. **Read `STATUS.md`** — current European macro state, PMI readings, ECB stance, stale-data warnings
+1a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" HANS` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 2. **Execute the task**
 3. **Write results back to `STATUS.md`**
 
