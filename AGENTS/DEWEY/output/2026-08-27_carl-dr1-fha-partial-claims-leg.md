@@ -52,6 +52,8 @@ The stock grew **147,444 more** in FY26 H1 than FY25 H1. **21.5% of that is high
 
 ⚠️ **`[[finding_rising_stock_flat_inflow_means_slower_outflow]]`** — the same signature I found on bank cards in the C3 run, here far more extreme. **A reader taking FHA's +226bps SDQ move as a pure credit signal is reading a pipeline change as borrower behaviour.**
 
+⚠️ **THIS SUPERSEDES MY OWN PRIOR FRAMING, and I would rather say so than let it stand.** `output/2026-07-24_fha-va-loss-waterfall.md` reported *"FHA DQ is rising sharply… SDQ +212bps YoY"* and framed the rise through a student-loan-defaulter channel. **The level was right; the cause was not established, and this report shows ~79% of the move is a drain artifact.** The student-loan mechanism may still contribute to the *inflow* term (+8.3%), which is the smaller half. **Anyone carrying the 7/24 framing should re-rate it.** *(A different figure in that report — the MBA NDS 11.52%/11.88% series — is NOT superseded here: it is a different series on a different perimeter, and my own 7/25 synthesis already flagged it as 403'd and unverified at primary. Do not reconcile the two.)*
+
 ## 2. Why — the mechanism, at primary
 
 - **COVID-19 ALM, COVID-19 Recovery Options and FHA-HAMP expired 2025-09-30**; servicers had to migrate to the new waterfall from **2025-10-01** (ML 2025-12 moved this forward from ML 2025-06's original 2026-02-02 date), with full implementation required no later than **2025-12-30**.
