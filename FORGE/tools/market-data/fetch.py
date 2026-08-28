@@ -340,7 +340,9 @@ def eia_fetch(series_id, route="petroleum/stoc/wstk", limit=2):
     mirroring fred_fetch's shape so dashboard handling is identical.
     `route` is the EIA v2 dataset path; `series_id` is its `series` facet value."""
     start_time = time.time()
-    cache_key = f"eia_{series_id}_{limit}"
+    # route is part of the identity (sibling eia_fetch_facets already keys on it) — without it a
+    # warm cache silently serves any route, including one the API would 400 (BRENT, 2026-08-28).
+    cache_key = f"eia_{route.replace('/', '_')}_{series_id}_{limit}"
     cached = _cache_get(cache_key)
     if cached:
         _audit_log("EIA_CACHE_HIT", {"series": series_id, "limit": limit})
