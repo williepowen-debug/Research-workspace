@@ -55,3 +55,27 @@ Three times in one day a fix-by-pattern pass reported clean and left the same de
 3. **For decision-bearing numbers, ask someone to re-read rather than re-running your own sweep.** The second sweep finds what the first was already shaped to find.
 
 Related: [[finding_test_the_guard_not_just_the_guarded]] · [[finding_silent_blank_evades_review]] · [[finding_fail_loud_on_incomplete_data]] · [[finding_ledger_drift_behind_narrative]] · [[finding_state_token_sweep_all_surfaces]]
+
+
+**EXTENSION 2026-08-28 (WALTER walter-06 own instrument, self-caught) — a MONITOR THAT DIED PRODUCES THE SAME OUTPUT AS A MONITOR THAT SAW NOTHING; the remedy is instrument-liveness, not downstream inference.**
+
+**Instance, narrow.** walter-06 launched a detached background watcher (`bts7z5tuh`) scheduled to sleep ~2h52m and pull WAL at 20:04Z (4 min after the equity close) to backstop REGINALD's own REG-T-02 close-grade. The task was **killed by the harness at ~42 minutes**, almost certainly hitting a background-task duration cap; the output file recorded `sleep=10323s` then `[killed]`. **Nothing distinguished that killed sleep from a still-sleeping one until the kill notification happened to fire on a separate channel.** Had the harness not surfaced the kill, both desks would have believed a second net existed under REGINALD's fire card.
+
+**Why it survived design.** The watcher had **no self-report path**: it emitted output only on the close event. A silent death emitted the same nothing as a healthy sleep. The failure mode looks identical to a clean read — form ①/③ of this memory at the monitoring layer.
+
+⚠️ **Scope note walter-06 insisted on (accept it verbatim):** *"My case is narrower than the general claim. I had a watcher with no self-report path, and a harness cap killed it. A watcher that dies is not the same object as a check whose scope silently misses — both produce silence, but the fixes differ (liveness heartbeat vs. scope assertion). If you fuse them the memory gets a remedy that doesn't fit half its instances."* Filed at n=1 with the mechanism named.
+
+**Remedy walter-06 shipped, on re-arming (`Monitor` task `b9gmbryrv`):**
+- Polls the underlying instrument every 5 minutes rather than sleeping blind.
+- Emits **on the intraday event** (an early warning, not a fire — the fire is sustain-1 close-basis and owned by the primary desk).
+- Emits a **post-close read** at the scheduled time, then exits.
+- **Emits on its own failure** — three consecutive fetch failures print `watch is DEGRADED, do not read silence as no-breach`.
+
+The fourth bullet is the memory's contribution: **when the reporting mechanism cannot distinguish "nothing happened" from "the instrument died," silence is not evidence, and the default must come from the instrument's own liveness signal rather than downstream inference.** Applied here: a degradation-emit converts silence-as-nothing into silence-that-flags-degradation, without changing what a healthy monitor does.
+
+**Cross-links:**
+- **`finding_fail_loud_on_incomplete_data`** — the implementation half; the degradation-emit is that rule applied to a monitor.
+- **`finding_absence_tell_needs_a_talkative_instrument`** — same logic in the *document-language* form (base-rate an institution's verbosity before reading silence in a statement). Adjacent instrument class; do not fuse.
+- **`finding_loadbearing_number_must_be_reproducible`** — related in spirit (silence-vs-signal is one class of it), distinct in kind (that memory is about RECIPES/COMMANDS; this one is about INSTRUMENT LIVENESS). Filed correctly here rather than there. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` was the shape of the mis-filing walter-06 caught before I banked it — a memory filed at a related-but-wrong home is invisible to the person who needs it most.
+
+**Meta-observation for the file, since it happened three times in the same afternoon (REGINALD's duplicate slug, `edgar`/BLS burial, this near-mis-filing):** the dedup question — *"where does this already live?"* — did more work in this fleet on 2026-08-28 than the findings did.
