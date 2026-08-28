@@ -84,6 +84,7 @@ Geopolitical risk is binary in ways domestic stress isn't. Wars start on specifi
    - **c. WALTER lane** — list `inbox/WALTER/*.md` not yet logged `source=INBOX_WALTER`; for each, read → decide disposition → append `board_log.tsv` row → **`git mv`** (never bash `mv`) to `inbox/WALTER/processed/`.
    - Let `acted` items inform this session.
 7. **`web_search` for latest developments** — your domain moves fast; never rely solely on the task prompt for current events. Search before updating. **Sweep the mechanism, not just named targets** (LESSONS item 4) — day-by-day gap sweep during active-conflict windows, not topic-shaped searches (LESSONS item 2).
+7b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" FALCON` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### EXECUTE
 8. **Execute the task.**
