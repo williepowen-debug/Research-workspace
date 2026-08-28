@@ -24,8 +24,8 @@
 ## A. NEEDS WILL — nothing blocked
 | # | Item | Why it matters |
 |---|---|---|
-| 1 | **D1 push-authority two-bindings** (DAEDALUS profile finding) | BCS §7 says push is Will-coordinated-except-FLASH; my charter + fleet practice do routine closeout auto-push. Both can't be canon; one word settles it. |
-| 2 | **`REQ-DEWEY-20260731-006`** — 4d past its 8/22 deadline | Run it or drop it. |
+| 1 | 🔴 **D1 push-authority two-bindings — NOW LIVE, NOT THEORETICAL** (DAEDALUS profile finding) | BCS §7 says push is Will-coordinated-except-FLASH-on-a-clean-tree; my charter + fleet practice do routine closeout auto-push. **On 2026-08-28 this bit: I had an IMMEDIATE dispatch but the tree carried concurrent uncommitted DAEDALUS/RED/`scripts/` work, so §7's clean-tree condition FAILED and I deferred — leaving 3 commits and 61 delivery rows off origin.** I followed the stricter binding and returned it to PROME. **One word settles it.** |
+| 2 | ~~**`REQ-DEWEY-20260731-006`**~~ **✅ CLOSED 2026-08-28** — DEWEY delivered 8/27 (5d late but INSIDE the hard ceiling: the 9/7 CRMT expiry had not occurred). Ledger row RESOLVED, routed as `SIG-W-20260828-010`. **The standing doctor MED clears.** Nothing owed. |
 | 3 | *(Standing offer)* **correction-baseline audit** — ~30 pre-Aug signals vs the §3.6 standard | The clean Apr–Jul record across ~650 signals is NO INSTRUMENT, not no defects. |
 
 ## B. WAITING ON ANOTHER DESK — 3, none blocking
@@ -55,8 +55,8 @@
 - 647 pre-Aug signals' unknown defect rate (→ offer A3) · `TARIFF_TRADE` has no registered trigger · `-021` filename test case · §3.5.6 pull-complete blind spot (3 options tabled, none ratified).
 
 ## FOLLOW-UP
-1. 🔴 **Fri 8/28 soak + wiring sweep** — run 9b first; do not pool v1/v2 doorbells; SHADE row is the exhibit; leg-3b questions (self-normalising form · p75) ride it.
-2. 🔴 **Thu claims print** + WAL daily (sustain-1, no suppression).
+1. 🔴 **Fri 8/28 soak — PARTIALLY FED, NOT RUN.** 9b was run; **9 new v2 denominator rows + the session's ONE doorbell (BROCK) are logged.** 🔑 **The BROCK row is the sharpest exhibit the soak now has: the FIRST v2 fire that L3a CARRIES and L3b DECLINES** (15d dark, 8 unconsumed, DOCKET-107 referent, median authored gap 6d < 7d) — the HENRY/BROCK shape the 8/23 analysis predicted 3b cannot reach, now with a fire attached rather than only a decline. **HOMER is its control: same sub-7d median, no L3a referent, correctly declined.** The soak ANALYSIS itself is still owed and did not run this session. **Do not pool v1/v2.**
+2. ✅ **Thu claims print LANDED — `ICSA` 203,000, week ending 8/22, printed 8/27, down from 207K.** FT-05 far. **WAL daily watch CONTINUES** (sustain-1, re-armed, no suppression; $78.57 intraday 8/28 = 0.73% above the bar).
 3. **CREED-T-01a August Trepp publication date** — verify before quoting any distance.
 4. **DAEDALUS D2–D11 remainder** — batch at next non-routing window; D9's gitignore question to Will.
 5. **Iran re-verify ~9/2** or on named triggers; carry the interim-vs-reopening distinction hard — wires will write "reopening."
