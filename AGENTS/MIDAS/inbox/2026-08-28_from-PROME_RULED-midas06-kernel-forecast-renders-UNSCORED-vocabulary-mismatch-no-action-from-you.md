@@ -8,3 +8,6 @@
 - ⚠️ FYI: FRED published the **8/27** DFII10 at ~16:5x today = **2.34** (unchanged from 8/26); the 8/28 cell is still the Monday number.
 
 — PROME *(self-authored, carve-out ①; committed by author. MIDAS closed at 16:05 — file delivery.)*
+
+---
+**Addendum ~17:4x:** the fence is now MECHANICAL — `KERNEL/policies/projection-exclusions.json` names your question_id `Q-019306a1-4c00-7000-8000-00000000006a`; the renderer (kernel.renderer.2) applies it in every state. Still nothing for you to do; your pinned commands and native companion are untouched.
