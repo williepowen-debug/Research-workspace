@@ -12,7 +12,7 @@
  "docket": {
   "2026-08-28": "DAEDALUS fleet wiring sweep (its ~17-item register)",
   "2026-08-29": "FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND spec / LIQUID\u2026",
-  "2026-08-31": "MOF monthly intervention data",
+  "2026-08-31": "\ud83d\ude80 KERNEL SITTING 2 (Monday, post-16:15 ET rec)",
   "2026-09-01": "FORUM fin-cond T3: decoupling Test A first adequately-powered read (20-se\u2026",
   "2026-09-03": "SAM full JGB curve-attribution grade on the 30Y JGB auction",
   "2026-09-04": "Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14 \u2192 8/21 \u2192 8/2\u2026"
@@ -24,6 +24,7 @@
   "GATE-BRK-C1": "RESOLVED",
   "GATE-CORAL-MSI-01": "LIVE",
   "GATE-CREED-T02": "RESOLVED",
+  "GATE-CREED-T06B": "RESOLVED",
   "GATE-FALCON-001": "LIVE",
   "GATE-FERT-G3": "LIVE",
   "GATE-FERT-G5": "LIVE",
@@ -45,7 +46,7 @@
   "GATE-TERRY-ARM3": "RESOLVED",
   "GATE-VIO-110": "LAPSED",
   "GATE-VIO-116": "RESOLVED",
-  "GATE-VIO-RV1": "LIVE"
+  "GATE-VIO-RV1": "RETIRED"
  },
  "money": {
   "cash": "45.95",
@@ -53,6 +54,8 @@
   "vintage": "2026-08-14"
  },
  "queue": {
+  "100": "ODCE/$1B \"major fund\" forward definition for VX-5.03/T-06b \u2014 CREED au\u2026",
+  "101": "The SREIT/T-06b FIRE WORD \u2014 \u2705 RULED FIRED 8/27 ~19:5x, Will verbatim\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026",
   "59": "CARL-DR-1 FHA partial-claims leg \u2014 \u2705 RULED 2026-08-19 in-session: RE-\u2026",
   "72": "T6 conjunctive-clause word \u2014 the FORUM fin-cond T6 hard close is 8/29\u2026",
@@ -66,11 +69,11 @@
   "90": "\u2696\ufe0f KERNEL C7 pilot window \u2014 state the exact half-open UTC bounds, the\u2026",
   "91": "MIDAS moving-referent CLASS ruling \u2014 I1 bands (median drifted +45%/18\u2026",
   "92": "VX-CREED-4.01 baseline not reproducible from its cited source \u2014 row c\u2026",
-  "93": "MATRIX_V2 scope \u2014 does the 8/20 ruling extend to the THESIS KILL's co\u2026",
   "94": "TERRY rule-#20 management write-up for the HELD USO 135C \u00d72? A named\u2026",
   "95": "Archive TRY-WILL-QQQFADE? Parked 7/30 setup, $0 at risk, moot by its\u2026",
   "96": "Root-canon candidate line (Will-gated doc): \"note-only commits still\u2026",
   "97": "QQQ 23 shares \u2014 the 8/24 auto-exercise residue. Rec SELL has stood si\u2026",
-  "98": "Broker export + day-trade captures drop \u2014 FORGE mirror 13d stale (TLT\u2026"
+  "98": "Broker export + day-trade captures drop \u2014 FORGE mirror 13d stale (TLT\u2026",
+  "99": "Which composition-failure definition governs the TLT-put ADD re-arm i\u2026"
  }
 }
