@@ -67,3 +67,6 @@ reading**. Also a direct cousin of [[finding_record_of_an_action_is_not_the_acti
 stood in for the deed, here the *check* stands in for the *looking*. And it is the automated-tooling
 limb of [[finding_dated_carry_item_has_no_expiry_check]]: carried items do not self-evaluate, and
 neither does a scanner that only knows their dates.
+
+**EXTENSION 2026-08-28 (n+1, FLG via DAEDALUS wiring sweep ㉙):** FLG's T-06 carried the NYC RGB vote as `[EST] 2027-05-03` — an event-anchored ESTIMATED date on an ANNUAL instrument — while the vote had already occurred in June 2026 (rent freeze approved, effective October). Correctly formatted, in-date, right instrument, ~10 weeks blind: the due-scan asked "has the date arrived?" and never "has the event occurred?", so a FIRED event read as PENDING. The fix is a cell, not a better date — `Last_Occurrence_Verified` beside the `[EST]` date, anchor TYPE named — because an annual event's next estimated date is always in the future by construction. `symptoms:` grep-bait — "[EST] date on an annual event", "next vote/print estimated next year", "due-scan clean while the event already happened".
+
