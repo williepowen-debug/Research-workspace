@@ -18,7 +18,8 @@
 | **2027-05-xx** | EVENT | NYC RGB 2027 preliminary vote | T-06. **Last occurrence VERIFIED: June 2026 (rent freeze approved, effective Oct 2026).** Re-verify occurrence before treating this row as pending |
 | **2027 (full year)** | **RULE** | 🔴 **$8,503M of multi-family reprices/matures — 31.6% of the book**, into the freeze | T-10 · `workbook/MATURITY_WALL.tsv`. Watch the SHARE, not just the dollars |
 | ~2027-03-01 | RULE | FY2026 10-K — refreshes the maturity wall | T-10 re-dates here |
-| **2027-08-06** | RULE | Q2-2027 10-Q — the DSCR review that first reflects the rent freeze | T-09. **The desk's highest-value scheduled observation.** Instrument is GROSS formation, H1-vs-H1 |
+| 2027-08-06 | RULE | Q2-2027 10-Q — EARLY watch point; freeze content near-zero | T-09, demoted (KB-FLG-052). Grade formation for the ORDINARY trend, not for the freeze |
+| **2028-08-04** | **RULE** | 🔴 **Q2-2028 10-Q — the DSCR review carrying most of a freeze year (FY2027)** | **T-11. The desk's highest-value scheduled observation.** Instrument is GROSS formation, H1-vs-H1 |
 
 ## 🔴 The 2027 convergence — the desk's whole timing in three rows
 
@@ -26,9 +27,9 @@
 |---|---|
 | **2026-10** | NYC rent freeze takes EFFECT — NOI growth on rent-regulated collateral goes to zero |
 | **2027, across the year** | **$8,503M of multi-family reprices or matures — 31.6% of the book** — into that freeze |
-| **2027-Q2** | The **DSCR review** that tests those borrowers on financials reflecting the freeze |
+| **2028-Q2** | The **DSCR review** carrying most of a freeze year (FY2027 financials) — ⚠️ corrected from Q2-2027, KB-FLG-052 |
 
-⚠️ **The interim prints are quiet BY DESIGN.** Q3/Q4-2026 carry provision commentary, not formation. Reading them as "the freeze did not bite" is reading the fuse, not the charge.
+⚠️ **The interim prints are quiet BY DESIGN, and the quiet runs LONGER than this desk first said.** RGB Order #58 governs leases **commencing 2026-10-01 → 2027-09-30**, so it phases in as leases renew: FY2026 financials (reviewed Q2-2027) hold at most Oct–Dec 2026 of partial exposure. **The bite is the Q2-2028 review of FY2027 financials** (T-11). Q3/Q4-2026 AND Q2-2027 carry commentary, not formation. ⚠️ And a 0% guideline **caps** revenue rather than cutting it — expect grinding cost-driven DSCR decay, not a cliff.
 
 ## Standing cadence
 

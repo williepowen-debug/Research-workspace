@@ -10,7 +10,7 @@
 
 ## 🔴 THE THESIS, IN ONE PARAGRAPH
 
-**The bear case on FLG is not concentration, and it is not the level of nonaccruals. Both are improving.** It is that a **$2.8B nonaccrual book carrying a $163M specific reserve (5.8%)** is being cleared **almost entirely by payoff and disposition — 87.5% of all outflow — while genuine cures run at 1.6%.** That exit channel is **exogenous to the bank**: it requires a functioning refinance and asset-sale market for NYC rent-regulated multifamily. Meanwhile **gross formation of $780M in H1-2026 replaced 81.7% of the outflow**, so the book is churning rather than draining, and **NYC has just frozen the rents on the collateral behind $8.9B of it** — RGB-approved June 2026, effective **October 2026**, with a **~12-month fuse** to the Q2-2027 DSCR review cycle.
+**The bear case on FLG is not concentration, and it is not the level of nonaccruals. Both are improving.** It is that a **$2.8B nonaccrual book carrying a $163M specific reserve (5.8%)** is being cleared **almost entirely by payoff and disposition — 87.5% of all outflow — while genuine cures run at 1.6%.** That exit channel is **exogenous to the bank**: it requires a functioning refinance and asset-sale market for NYC rent-regulated multifamily. Meanwhile **gross formation of $780M in H1-2026 replaced 81.7% of the outflow**, so the book is churning rather than draining, and **NYC has just frozen the rents on the collateral behind $8.9B of it** — RGB-approved June 2026 (Order #58, 0% on both one- and two-year renewals), effective **October 2026**, with a **~21-month fuse** to the **Q2-2028** DSCR review. ⚠️ *(Corrected from "~12 months / Q2-2027", KB-FLG-052 — the order governs leases COMMENCING through 2027-09-30, so FY2027 financials are the first carrying most of a freeze year. And a 0% guideline CAPS revenue rather than cutting it: expect grinding cost-driven DSCR decay, not a cliff.)*
 
 ✅ **AND IT IS NO LONGER n=1.** At v1.0 that split rested on a single six-month roll-forward. FLG has since built `workbook/NONACCRUAL_FLOW.tsv` from **13 EDGAR filings, 2023Q2–2026Q2, identity ties 13/13**, and the split is the endpoint of a **monotone three-year migration** (KB-FLG-041):
 
@@ -27,7 +27,7 @@
 |---|---|---|
 | **2026-10** | NYC rent freeze takes **effect** — NOI growth on rent-regulated collateral goes to zero | KB-FLG-032 |
 | **2027 (full year)** | **$8,503M of multi-family reprices or matures — 31.6% of the book**, into that freeze | KB-FLG-046 |
-| **2027-Q2** | The **DSCR review** that tests those borrowers on financials reflecting the freeze | KB-FLG-037 |
+| **2028-Q2** | The **DSCR review** carrying most of a freeze year (FY2027 financials) — ⚠️ **corrected from Q2-2027, KB-FLG-052** | KB-FLG-037/052 |
 
 ⚠️ **And the deleveraging is not reducing the wall — it is concentrating it.** The 2027 vintage **grew +2.1%** ($8,327M → $8,503M) while the multi-family book **fell −7.08%**; as a share it went **28.7% → 31.6%** (KB-FLG-047). **The loans leaving are the ones that can leave.** That is the sharpest available answer to the deleveraging counter-thesis.
 
@@ -193,7 +193,7 @@ At build, stages 1–2 had no instrument, and the desk therefore held a credit-q
 
 ✅ **AND IT FIRED, ON A DATE** (KB-FLG-032): NYC RGB approved a **rent freeze** in **June 2026**, **effective October 2026**; FLG's Q2 provision rose $18M QoQ explicitly for it. Sized (KB-FLG-033): **$8.9B** with ≥50% rent-regulated units; **$12.8B** subject to rent regulation to some degree; **$13.4B** of NYC multifamily.
 
-⏱️ **THE FUSE IS ~12 MONTHS, AND KNOWING THAT IS THE ACTIONABLE PART.** FLG re-tests DSCR on borrower financials received *"generally during the second calendar quarter"*, downgrading sub-1.0× DSCR loans then (KB-FLG-037). **A freeze effective October 2026 therefore first reaches nonaccrual FORMATION in the Q2-2027 review — not in Q3 or Q4-2026.** ⛔ **Two quiet quarters are the EXPECTED path, not disconfirmation.** Wake rows: **T-08** (2026-10-01, HARD) and **T-09** (2027-08-06, RULE).
+⏱️ **THE FUSE IS ~21 MONTHS — I FIRST SAID ~12 AND WAS WRONG (KB-FLG-052).** FLG re-tests DSCR on borrower financials received *"generally during the second calendar quarter"*, downgrading sub-1.0× DSCR loans then (KB-FLG-037). Order #58 governs leases **commencing** 2026-10-01 → 2027-09-30, so it **phases in as leases renew.** FY2026 financials (reviewed **Q2-2027**) hold at most Oct–Dec 2026 of partial exposure; **FY2027 financials, reviewed Q2-2028, are the first carrying most of a freeze year.** ⛔ **A quiet Q2-2027 is the EXPECTED path, not disconfirmation** — and I had that date wrong by a year in v1.0. ⚠️ **A 0% guideline CAPS revenue rather than cutting it**, so DSCR degrades by operating costs outrunning frozen rents — grinding and compounding, not a step down. Wake rows: **T-08** (2026-10-01, HARD) and **T-09** (2027-08-06, RULE).
 
 🔴 **A process failure worth more than the finding.** `TRIGGERS.tsv` T-06 carried the RGB vote as `[EST] 2027-05-03` — so **an event that had already happened rendered as PENDING**, and the register could not tell the two states apart. **This desk was ~10 weeks blind to its own defining mechanism firing, while holding a correctly-formatted, in-date wake row aimed at it.** Corrected; T-06 re-scoped to the 2027 cycle.
 

@@ -54,7 +54,7 @@ NYC RGB **approved a rent freeze in June 2026, effective October 2026**. FLG's Q
 
 ⚠️ **`TRIGGERS.tsv` T-06 carried this as `[EST] 2027-05-03`** — a fired event rendering as pending, with nothing able to tell the two apart. **The desk was ~10 weeks blind to its own defining mechanism while holding a correctly-formatted, in-date wake row aimed at it.** Corrected: T-06 re-scoped to 2027; **T-08** (freeze effective, 2026-10-01, HARD) and **T-09** (Q2-2027 DSCR cycle, RULE) registered.
 
-⏱️ **The fuse is ~12 months.** FLG re-tests DSCR on borrower financials received *"generally during the second calendar quarter"*. A freeze effective October 2026 first reaches **formation** at the **Q2-2027** review. ⛔ **Q3 and Q4-2026 are expected to be quiet on formation — that is the fuse, not disconfirmation.**
+⏱️ 🔴 **FUSE CORRECTED — I HAD IT A YEAR TOO SHORT AND HAD ALREADY SHIPPED IT (KB-FLG-052).** RGB Order #58 governs leases **commencing 2026-10-01 → 2027-09-30**, so it phases in as leases renew. FY2026 financials (reviewed **Q2-2027**) hold at most Oct–Dec 2026 of partial exposure; **FY2027 financials, reviewed Q2-2028, are the first carrying most of a freeze year.** ⇒ **the bite is Q2-2028** (new trigger T-11); T-09 is demoted to an early watch point. I stated "~12-month fuse" in THESIS v1.0, STATUS, CALENDAR, T-08/T-09 and in packets to REGINALD and PROME — all corrected, both desks told. ⚠️ **And a 0% guideline CAPS revenue rather than cutting it** — DSCR degrades by costs outrunning frozen rents, grinding and compounding, not a step down.
 
 ### 🔴 K-1 had a construct-validity defect — it would have fired on the wrong book
 
@@ -115,7 +115,7 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 | $M repricing/maturing | 2,700 | **8,503** | 5,447 | 3,843 | 2,048 | 4,191 |
 | share of the $26.9B book | 10.0% | **31.6%** | 20.2% | 14.3% | 7.6% | 15.6% |
 
-**2026-10 the rent freeze takes effect · 2027 a third of the multi-family book reprices into it · 2027-Q2 the DSCR review tests those borrowers.** The desk previously knew the freeze bit but not *which vintages* — that was the named top gap at v1.0, and it is closed.
+**2026-10 the rent freeze takes effect · 2027 a third of the multi-family book reprices into it · 2028-Q2 the DSCR review carries most of a freeze year** *(⚠️ corrected from Q2-2027 — KB-FLG-052; see below).* The desk previously knew the freeze bit but not *which vintages* — that was the named top gap at v1.0, and it is closed.
 
 ⚠️ **The 2027 vintage GREW +2.1% in absolute dollars** ($8,327M → $8,503M) while the multi-family book **fell −7.08%** — the largest vintage getting larger as the book shrinks (KB-FLG-047).
 

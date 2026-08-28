@@ -175,9 +175,30 @@ Why this form and not another: it is a **positively-measured instrument** (PAT-0
 
 ⚠️ **The process failure is the finding, and it is worse than the leg being unbase-rated.** `TRIGGERS.tsv` T-06 carried the RGB vote as `[EST] 2027-05-03`, so **an event that had already happened rendered as PENDING**, and nothing in the register could distinguish the two states (`finding_dated_carry_item_has_no_expiry_check`). **A desk whose entire reason to exist is the rent-regulation mechanism was ~10 weeks blind to that mechanism firing, while holding a correctly-formatted, in-date wake row pointed at it.** T-06 is corrected and re-scoped to the 2027 cycle; the fired 2026 leg is now **T-08 (effective 2026-10-01, HARD)**; the transmission lag is **T-09 (Q2-2027)**.
 
-⏱️ **The fuse, and why a quiet Q4 proves nothing.** FLG re-tests DSCR on borrower financials received *"generally during the second calendar quarter"* (KB-FLG-037). A freeze effective October 2026 therefore first reaches **formation** in the **Q2-2027** review cycle — a **~12-month fuse**. Expect provision *commentary* at Q3/Q4-2026 and **not** formation. ⛔ **Anyone reading two quiet quarters as "the freeze did not bite" is reading the fuse, not the charge** — write that on any surface that cites this leg.
+⏱️ **The fuse, and why a quiet Q4 — or a quiet Q2-2027 — proves nothing.** ⚠️ **Corrected 2026-08-28, KB-FLG-052: I first wrote ~12 months / Q2-2027 and that was a year short.** Order #58 governs leases **commencing 2026-10-01 → 2027-09-30**, so the effect phases in as leases renew. FY2026 financials (reviewed **Q2-2027**) hold at most Oct–Dec 2026 of partial exposure; **FY2027 financials, reviewed Q2-2028, are the first carrying most of a freeze year** ⇒ the bite is **Q2-2028** (trigger T-11; T-09 demoted to an early watch point). Expect provision *commentary* through Q3/Q4-2026 and Q2-2027, **not** formation. ⛔ **Anyone reading those quiet prints as "the freeze did not bite" is reading the fuse, not the charge** — and the fuse is longer than this rail originally said. ⚠️ **A 0% guideline CAPS revenue rather than cutting it**, so the signal is grinding cost-driven DSCR decay, not a step change — size expectations accordingly.
 
-**Base-rating status:** still **NOT base-rated**, now for a stated reason rather than an open to-do. The RGB order series is annual and administrative; a "materially above run-rate" leg needs a numeric comparator before it can be graded at all (DAEDALUS's 2026-08-23 §3 finding, unresolved and carried). **Retirement is not yet right** — the mechanism just demonstrated it is live and market-moving. **Carried to the next session with the quantification owed.**
+✅ **COMPARATOR SET 2026-08-28 — DAEDALUS's 2026-08-23 §3 finding is CLOSED.** *"Materially above"* now has a number, off a verified per-order series (`workbook/RGB_GUIDELINES.tsv`, KB-FLG-051):
+
+| order | 54 | 55 | 56 | 57 | **58** |
+|---|---:|---:|---:|---:|---:|
+| one-year renewal guideline | 3.25% | 3.0% | 2.75% | 3.0% | **0.0%** |
+
+**Post-HSTPA run-rate: mean 3.00%, range 2.75–3.25% — a 0.50pp band across four consecutive votes.** Remarkably tight, which is what makes a comparator possible at all.
+
+> **K-4 leg 1 is now: one-year renewal guideline ≥ 6.0% (2× the verified run-rate) at two consecutive annual votes.**
+
+**Base rate: 0 of 5 post-HSTPA votes.** ⚠️ **And the base rate is deliberately NOT extended backwards** — HSTPA-2019 removed vacancy decontrol and most vacancy allowances, so pre-2019 guidelines governed a different collateral regime and counting their fires would be the exact error this desk documented at K-3 (`finding_historical_fire_count_assumes_one_regime`). n=5 in the only relevant regime is thin, and the leg is registered as **thin-but-numeric rather than absent** — a gradeable leg with a stated n beats an ungradeable one.
+
+🔴 **AND THE FUSE WAS WRONG — MINE, ALREADY SHIPPED, NOW CORRECTED (KB-FLG-052).** Order #58 governs leases **commencing** 2026-10-01 → 2027-09-30, so the effect **phases in as leases renew**, not at once. FLG reviews DSCR on annual borrower financials received *"generally during the second calendar quarter"*:
+
+| review | financials it sees | freeze content |
+|---|---|---|
+| **Q2-2027** *(what I called the bite)* | FY2026 | at most Oct–Dec 2026, partial → **near-zero** |
+| **Q2-2028** | FY2027 | most of a freeze year → **the actual bite** |
+
+⇒ **The DSCR bite is Q2-2028.** I stated "~12-month fuse" in THESIS v1.0, STATUS, CALENDAR, T-08/T-09 and in packets to REGINALD and PROME; all corrected. ⛔ **Reading a quiet Q2-2027 as disconfirmation is now an explicit trap** — it was always the expected path, and I had the date wrong by a year.
+
+⚠️ **Second refinement, cutting the same way: a 0% guideline does not CUT revenue, it CAPS it.** DSCR degrades through operating costs outrunning frozen rents — **a grinding, compounding effect, not a step down.** The thesis should be stated that way; "the freeze bites" overstates the sharpness.
 
 ---
 

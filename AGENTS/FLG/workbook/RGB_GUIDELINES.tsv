@@ -1,0 +1,11 @@
+# LIVE — Last real data refresh: 2026-06 (Order #58 adopted; effective 2026-10-01) | Staleness sweep: 2026-08-28 | Next: the 2027 RGB vote (~2027-05/06, EVENT — see TRIGGERS T-06)
+# NYC RENT GUIDELINES BOARD — annual apartment/loft renewal guidelines. STAGE 1 OF THE TRANSMISSION CHAIN: this is the policy variable that sets rent growth on FLG's rent-regulated multifamily collateral.
+# Source-authority: PRIMARY — each row pulled by FLG 2026-08-28 from that order's OWN page at rentguidelinesboard.cityofnewyork.us, verbatim "For a one-/two-year lease commencing..." text. NOT from the summary-chart PDF.
+# ⚠️ WHY NOT THE PDF: the RGB "Apartment Orders #1-#58" summary chart was fetched and pdfminer returned it with COLUMNS SCRAMBLED — one-year and two-year figures interleaved so that order-to-value assignment was ambiguous. A run-rate built from it would have been a guess wearing a citation. Rows below come from per-order pages instead, where the sentence names the lease term and the date window explicitly. Pre-2022 rows are deliberately ABSENT rather than parsed from the chart.
+# ⚠️ REGIME: HSTPA-2019 changed what these guidelines mean for collateral (vacancy decontrol and most vacancy allowances removed). Pre-2019 guidelines are NOT comparable and are not a base rate for the post-HSTPA world (finding_historical_fire_count_assumes_one_regime).
+order_no	lease_window_start	lease_window_end	one_year_pct	two_year_pct	note	source	Verified_By
+58	2026-10-01	2027-09-30	0.0	0.0	🔴 FULL FREEZE — 0% on BOTH one- and two-year renewals. The desk's mechanism, adopted June 2026.	rentguidelinesboard.cityofnewyork.us/2026-27-apartment-loft-order-58/	FLG 2026-08-28 PRIMARY
+57	2025-10-01	2026-09-30	3.0	4.5		rentguidelinesboard.cityofnewyork.us/2025-26-apartment-loft-order-57/	FLG 2026-08-28 PRIMARY
+56	2024-10-01	2025-09-30	2.75	5.25		rentguidelinesboard.cityofnewyork.us/2024-25-apartment-loft-order-56/	FLG 2026-08-28 PRIMARY
+55	2023-10-01	2024-09-30	3.0		two-year was a split guideline (1st yr / 2nd yr); not reduced to one figure here	rentguidelinesboard.cityofnewyork.us/2023-24-apartment-loft-order-55/	FLG 2026-08-28 PRIMARY
+54	2022-10-01	2023-09-30	3.25	5.0		rentguidelinesboard.cityofnewyork.us/2022-23-apartment-loft-order-54/	FLG 2026-08-28 PRIMARY
