@@ -47,9 +47,10 @@ When PROME spawns you in a live session **you inherit PROME's cwd (`PROME/`), an
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/OZK/scripts/boot.py)
    ```
-   `--verbose` for the full cohort table + all catalysts. Compare OZK against STATUS thresholds, flag moves >3%, note what changed for CHANGES SINCE. **Manual fallback** (if boot.py breaks): `.venv/bin/python3 scripts/market.py`. *(boot.py v0.1 added 2026-07-04 — self-contained; catalysts/thresholds inlined, kept in sync with CALENDAR/STATUS by hand. Future: decompose per DAEDALUS market-agent blueprint.)*
+   `--verbose` for the full cohort table + all catalysts. Compare OZK against STATUS thresholds, flag moves >3%, note what changed for CHANGES SINCE. **Manual fallback** (if boot.py breaks): `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)` — ⚠️ **the `cd` wrapper is load-bearing, not decoration: `market.py` lives at REPO ROOT (`scripts/market.py`), and `AGENTS/OZK/scripts/` contains only `boot.py`.** Run bare from the launch dir it fails `No such file or directory` — as both `.venv/` and `scripts/` are root-relative. *(Fixed 2026-08-28 sweep: this line carried the bare form for 55 days while line 132 carried the correct one and annotated itself "matches boot step 5" — it did not. The desk's documented remedy for a broken boot kit was itself broken; verified by running it.)* *(boot.py v0.2 (§8 wrapper contract, 2026-08-23); v0.1 added 2026-07-04 — self-contained; catalysts/thresholds inlined, kept in sync with CALENDAR/STATUS by hand. Future: decompose per DAEDALUS market-agent blueprint.)*
 6. **Inbox awareness** — boot.py lists unprocessed inbox files (step 5). Report count + senders. Do NOT process — just awareness.
 7. **(Situational, not routine)** Read `../REGINALD/MEMORY.md` only when a task specifically requires shared Will feedback that isn't already duplicated into OZK/MEMORY.md. Routine boot is local-only.
+7a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" OZK` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session; applied at the OZK desk on Will's own in-session word 2026-08-28, not on the relayed packet.)*
 
 ### Execute
 
@@ -238,7 +239,7 @@ At session start and end, follow root CLAUDE.md pull/commit protocol:
 | `STATUS.md` | Live dashboard — price, positions, convergence score, catalysts, problem credits. **Primary snapshot.** ≤250 lines. |
 | `THESIS.md` | Master thesis — RESERVOIR **v1.5** *(this cell read "v1.3" until 2026-08-23 — two versions stale; THESIS.md's own header is canonical, never this table)*. Slow-moving structural doc. |
 | `CHANGELOG.md` | Thesis evolution audit trail — what changed, why, old vs new view. Version-pinned. |
-| `IQHQ_PLAYBOOK.md` | Aug 2026 RaDD maturity — 4 scenarios (A-extend 20% / B-substandard migration 50% / C-takeout 12% / D-foreclosure 18%), weighted EL $140M. |
+| `IQHQ_PLAYBOOK.md` | Aug 2026 RaDD maturity — 4 scenarios (**A-extend 30% / B-substandard migration 45% / C-takeout 8% / D-foreclosure 17%**), weighted EL **~$129M**. *(This cell read "20/50/12/18, EL $140M" until 2026-08-28 — the pre-7/23 tree, superseded by the Will-approved re-weight for 36 days. The 8/23 pass fixed this file's core-thesis bullet at line 16 and its version token, and missed this row 225 lines below. `IQHQ_PLAYBOOK.md` §4 is canonical, never this table.)* ⚠️ **`$140M` is NOT dead everywhere — OZK-09's threshold is still "$140M+ recognition." Dead in the EL role only; never global-replace it.** |
 | `SEVEN_CREDIT_DEEP_DIVE.md` | 11 tracked problem credits — sponsor IDs, severity math, gap decomposition (§3A). |
 | `SCENARIOS.md` | Bank-level scenario branches (non-IQHQ). |
 | `WEAKNESSES.md` | Thesis counter-arguments. Living doc. |
