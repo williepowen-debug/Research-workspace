@@ -14,6 +14,24 @@ routine content edits. Archive to `archive/` if it grows past ~300 lines (SAM ca
 
 ---
 
+## 2026-08-27 (s020) — five structural changes, three of them repairs to OTTO's own instruments
+
+**Trigger:** a same-day re-boot after s019, an inbox drain (9→0), and a Will-supplied media artifact that pointed at a real document.
+
+**What changed**
+1. **`scripts/boot.py` — CHECK_STANDARD §8 wrapper contract encoded** (DAEDALUS packet 8/17, ratified Will-verbatim). Two defects: `run()` discarded stderr whenever rc==0, so **a producer warning from `panel_10d`/`abs_issuance`/`extension` could not reach the one layer above them**; and `status = "OK" if rc in (0,1)` folded a real finding into OK, making *"crashed after printing nothing"* and *"ran, found overdue"* indistinguishable. Now: **stderr relayed unconditionally**, and the verdict derives from **marker-present alongside rc** (`BOOT_SEQUENCE` gained a per-step banner marker). **Guard falsified before being trusted** — all five branches tested, including `NOmarker + rc0 → FAIL`, which the old rule rendered as OK.
+2. **`workbook/PANEL_10D.tsv` — backfilled to common depth and re-based.** `panel_10d.py --history 15`: the broad and Carvana tiers had **5 observations** against the **≥13** a matched-calendar-month YoY test needs, which made CARL's V2 requirements (a)×(c) **jointly unsatisfiable and nobody had noticed.** Now **14-15 observations on all nine deals**, control PASS, and the same run re-based the whole history onto the reconciled issuer-aggregate 60+ definition — **discharging the mixed-basis debt in the same pass.** 84 → 133 rows.
+3. **`CLAUDE.md:213` amended** — the WALTER-drop never-commit line replaced with the carve-out-① form, per Will's `WILL_QUEUE` row 102 ruling (a). **Amended with provenance, not silently deleted:** the old wording is quoted in place and dated. Git traced it to **2026-04-15, where it was a parenthetical EXAMPLE of the then-correct general rule**; carve-out ① created the exception three months later and nothing swept the derived examples. **There was no independent rationale.**
+4. **`CLAUDE.md` closeout step 7a — NEXUS Amendment 10 ordering encoded.** The brief fold is the session's **last** write-back, checkable as *brief commit timestamp ≥ last STATUS commit timestamp*. It is an ORDERING rule because the 7/31 audit found 5-of-5 content-stale briefs **had** refreshed and then kept working.
+5. **`EDGAR_8K_MONITOR.md` — all five standing TBD CIKs resolved** (FLG 0000910073, EGBN 0001050441, ZION 0000109380, SSB 0000764038, APO 0001858681), verified via EDGAR's ticker map and cross-checked against the file's own hand-entered WAL/OZK rows.
+
+**Boot-impact:** boot.py can now surface a producer warning and can no longer report a silent crash as OK. The panel supports matched-month YoY on every tier. The 8-K monitor can fire for the first time on five names.
+
+**Lessons**
+- **A frozen ledger stays frozen.** I corrected the stale `0.117%` inside `workbook/VX.tsv` and **reverted it** — VX is FROZEN 2026-07-04, and a freshly-corrected row inside a frozen file implies the other 87 are maintained. The banner already says do not cite it.
+- **The earnings-window column in `EDGAR_8K_MONITOR.md` was NOT guessed.** Resolved CIKs make the monitor *able* to fire; the Apr-2026 windows are marked `[STALE — refresh]` with an explicit banner that able ≠ scheduled. Its *"Next mandatory sweep: March 25, 2026"* line had fired and passed five months earlier and was never re-set — **flagged, not quietly rewritten.**
+- **Recurring pattern, four instances in one session: a ruling governs the next write, not the existing state.** Carve-out ① left its derived examples unswept (item 3); the s019 block-1 write-back left three summary surfaces contradicting their own CRITICAL TIMELINE; PROME's pointer amendment left my catalyst note asserting a gap that had closed; the reconciled 60+ definition left the history mixed-basis until item 2. **Pair every ruling with a retroactive sweep.**
+
 ## 2026-08-14 (session 018b) — Severity-Divergence Test built; panel ledger upsert fix; three integrity defects found
 
 **Trigger:** v1.3 of the thesis named an owed item — the retired NY Fed falsifier had been one-sided and needed a properly-scoped replacement. Building it required touching the panel ledger, which surfaced defects.
