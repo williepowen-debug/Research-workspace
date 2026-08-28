@@ -75,6 +75,8 @@
 - **Encoded 2 Will rulings from PROME's 8/23 packet:** P-OZK-2 successor = the debt-on-debt book (as SUBJECT, not a graded finding); `POSITIONS.md` PAT-025 freeze **LIFTED with provenance recorded**, and the scope fence that `TRADE.md`'s separate freeze still stands.
 - **ZERO grades, thresholds, probabilities, weights or conviction moved.** v1.5 · OZK-09 45% · A30/B45/C8/D17 · Option-2 FROZEN · 🔴🔴.
 
+⚠️ **PUSH PENDING AT CLOSEOUT (2026-08-28).** 7 commits pushed and origin-verified; the **last 3 are committed locally but NOT pushed.** `safe-push` aborted non-ff (BRENT pushed concurrently), and the rebase was **deliberately not forced**: the working tree carries **14 uncommitted files from four live desks** (DAEDALUS 3 · HANS 6 · REGINALD 3 · `scripts/ledger_staleness.py`). Verified the incoming commit does not touch OZK paths. Per root protocol Option B — **commit locally, defer the push** — rather than autostash-rebase over four agents' in-flight work. **Nothing is lost:** the next desk's closeout push-train sweeps them. **Not a tripwire** — ordinary same-box concurrency, no escalation owed. Unpushed: `be498aa20` (scoped negatives), `d7ff98c7d` (inbox drain), `c087d5553` (WAL corrections). ⚠️ Rebase rewrites unpushed hashes — verify by SUBJECT if a hash goes missing.
+
 ### NEXT SESSION
 
 1. **🔴🔴 The two owed August checks — the window closed Mon 8/31 and BOTH are still unrun.** ① 8-K / press / FDIC-FLNG disclosure sweep; ② Campus at Horton leasing. ⚠️ **Nothing anywhere claims "August passed quiet"** and nothing may until ① runs. An unrun check is no evidence either way — the 65-70% RaDD severity band does not move on silence.
