@@ -15,7 +15,7 @@ signal_type: correction
 confidence: 0.90
 verdict: CONFIRMED by the publisher against its own work — OTTO summed delinquency buckets for the broad tier while reading the issuer-stated aggregate for Carvana, inconsistent inside one panel. Reconciled onto issuer-stated aggregates on every shelf.
 consumer_lens: The correction hits LEVELS and SPREADS, not DELTAS. Off-trough CHANGES are deltas and are immune — CARL self-checked clean. Direction and the bifurcation FINDING are unaffected; only the SIZE of the gap moves.
-corrects: EXTERNAL (OTTO 10-D panel published delinquency levels, all vintages before 2026-08-27)
+corrects: EXTERNAL: OTTO 10-D panel published delinquency levels, all vintages before 2026-08-27 (no BOARD signal carries the corrected 60+ DQ levels; SIG-W-20260727-003's ~2.9x is annualized NET LOSS, a DIFFERENT measure, and is deliberately NOT listed here)
 ---
 
 # §3.6 CORRECTION — OTTO's BROAD tier was UNDERSTATED by ~0.7pp. Any deep-vs-broad delinquency **spread** quoted from OTTO is overstated by about that much.
