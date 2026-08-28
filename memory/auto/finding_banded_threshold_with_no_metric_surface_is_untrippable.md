@@ -1,6 +1,7 @@
 ---
 name: finding_banded_threshold_with_no_metric_surface_is_untrippable
 description: "A registry row and a dashboard vector are two different instruments — a threshold that exists in only one of them is ungradeable in practice however correctly it is written, and it passes every audit that counts rows"
+symptoms: "threshold never fires, band written but never graded, registry looks fully instrumented, clean scan but nothing trips, condition met for weeks unnoticed, qualitative row bucketed as unscannable"
 metadata:
   node_type: memory
   type: finding
@@ -26,5 +27,27 @@ On **2026-08-13** the desk pulled the monthly print and wrote **"66% of $6.0B ne
 3. **When you write ANY number into a workbook, check it against the threshold registry in the same action.** A boot-time scan of predictions is not a scan of thresholds — those are different lists, and having one invites the belief you have both.
 4. **Count surfaces, not rows.** Ask how many places state a condition and how many are actually read. One condition on three surfaces with one reader is a latent six-week miss.
 5. **Record the detection lag as its own field** when a late fire is logged. Collapsing "when the band was met" into "when we noticed" erases the only evidence the defect existed.
+
+---
+
+## ⚠️ THE INVERSE FAILURE — THE REMEDY KILLS WORKING TRIGGERS IF IT BUCKETS BY THE WRONG PROPERTY
+
+**Added 2026-08-28 (HANS revival session; framing independently endorsed by REGINALD, who asked for it to be banked beyond that desk).**
+
+Once you adopt the fix above, the natural next step is to **classify every registry row by whether it can be auto-scanned** — and that classification is where the second defect enters. HANS built a 14-row registry and split it into scannable / monthly-print / event-driven / compound / uninstrumented. **Two rows both failed a numeric daily scan and are NOT the same class:**
+
+| Row | Fails numeric scan? | Can it fire? |
+|---|---|---|
+| `HANS-T-12` EUR/USD 3M basis | yes | **NO — no feed exists.** Last value 197 days old. Untrippable however far the basis moves. |
+| `HANS-T-14` EU bank/private-credit distress | yes | **YES — a live feed exists** (news routing + ECB/ESRB publications). It is merely **not numeric.** |
+
+**⇒ The discriminator is the FEED, not the datatype.** *A qualitative row with a live feed is trippable. An unfed numeric band is not.* A scannability audit that buckets on "can I auto-grade this?" merges them, and **the merge silently converts a working trigger into a dead one** — reproducing the original defect *inside the tool built to detect it*.
+
+**This is the sharper form of the class, because it survives the fix.** The original failure is a band nobody instrumented. This one is a band that *is* instrumented, judged unscannable, and filed with the genuinely dead rows — where nobody looks again.
+
+**How to apply, additional:**
+6. **Bucket registry rows by WHETHER A FEED EXISTS, then by whether grading is numeric — in that order.** Never by "auto-gradable?" alone.
+7. **A qualitative trigger is legitimate if it names its feed and its event class.** *"Fires on a G-SIB earnings warning tied explicitly to private-credit losses, or an ECB/ESRB warning naming specific institutions"* is trippable. *"Rising, qualitative — no numeric band set"* is not.
+8. **State the un-fireable rows as un-fireable, in the registry, and exclude them from clean-board counts explicitly** — HANS registers `T-12` with *"do not scan it and do not count it toward a clean board"* attached, so the gap stays **countable** rather than either deleted or silently passing. **A named dead row beats an absent one.**
 
 Related: [[finding_record_of_an_action_is_not_the_action]] · [[finding_registry_names_a_concept_tool_resolves_an_instrument]] · [[finding_registered_gate_captures_attention]].
