@@ -549,10 +549,23 @@ LINE_INITIAL_QUALIFIED_RE = re.compile(
     r"^[^A-Z0-9]{0,12}(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED)-[A-Z]")
 
 
+# KEY LINES ARE NEVER BANNERS (2026-08-28, OZK live footgun): a PAT-044 two-clock header
+# "# Last real data refresh: … re-anchored to the frozen Option-2 window" carried the word
+# 'frozen' in PROSE and the recognizer silently reclassified a LIVE ledger as FROZEN — every
+# other check kept passing. Banner vocabulary is common in exactly the sentences that explain
+# an irregular cadence. A line whose first token is a header KEY is a key/value line, not a
+# declaration; markers on it are prose. Declarations start the line (after # and decoration).
+KEY_LINE_RE = re.compile(r"^\s*#\s*(?:Last|Cadence|Status|Source|Owner|Schema|Note|Notes|Vintage|"
+                         r"Re-?pull|Refresh|Provenance|Basis|Unit|Units)\b", re.IGNORECASE)
+
+
 def _line_has_marker(u_line):
     """Un-negated, un-glued banner marker in the pre-tab portion of ONE uppercased
-    line, within MARKER_COL_CAP, and not a row-retention policy sentence (rule 6)."""
+    line, within MARKER_COL_CAP, and not a row-retention policy sentence (rule 6).
+    Rule 8 (2026-08-28): a header KEY line (Last …/Cadence …/Status …) never declares."""
     scan = u_line.split("\t", 1)[0]
+    if KEY_LINE_RE.match(scan):
+        return False
     if ROW_POLICY_RE.search(scan):
         return False
     if LINE_INITIAL_QUALIFIED_RE.match(scan):
