@@ -109,15 +109,24 @@ def get_latest_row():
     if not DATA_TSV.exists():
         return None
     
-    lines = DATA_TSV.read_text().strip().split("\n")
+    # ⚠️ COMMENT-AWARE 2026-08-28. This used to do `headers = lines[0]`, which broke the
+    # moment MARKET_DATA.tsv gained its CAPTURE-BASIS GUARD header (7 leading `#` lines):
+    # lines[0] became a comment, so zip() paired a 1-element header against a 12-element
+    # row and returned a ONE-KEY dict with NO error and rc=0 — the QUIET failure class
+    # (SIG-W-20260828-019). Caught by running the parser rather than assuming the append
+    # was additive. -> finding_a_correction_pass_is_unreviewed_work.
+    lines = [l for l in DATA_TSV.read_text().strip().split("\n")
+             if l.strip() and not l.startswith("#")]
     if len(lines) < 2:  # Header only
         return None
-    
-    # Parse header
+
     headers = lines[0].split("\t")
-    # Parse latest data row
     latest = lines[-1].split("\t")
-    
+    if len(headers) != len(latest):
+        # FAIL LOUD rather than return a silently-short dict.
+        raise ValueError(
+            f"MARKET_DATA.tsv schema mismatch: header has {len(headers)} cols, "
+            f"latest row has {len(latest)}. Refusing to return a partial row.")
     return dict(zip(headers, latest))
 
 
