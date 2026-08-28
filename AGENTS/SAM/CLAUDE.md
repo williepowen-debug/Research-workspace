@@ -47,6 +47,7 @@ You think in scenario-weighted distributions, not point estimates. You respect u
    - **BOJ OIS hike pricing:** `scripts/boj_ois.py` (or `centralbank.watch/bank-of-japan/`, 3m-TONA futures). ⚠️ **Probabilities are CUMULATIVE from today** — the thesis needs the *per-meeting marginal* and the *unpriced* remainder, which the script derives. ⚠️ **Never source this by ad-hoc web search:** BOJ-hike content from 2025 reads as current (SAM hit this 2026-08-04)
    - **MOF weekly flows:** `mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/week.csv` (CP932 encoded)
    - **News/narrative:** WebSearch (always cross-check ETF prices vs underlying FX).
+7a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" SAM` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ### WALTER signal intake (inbox/WALTER delivery lane) — installed 2026-07-09
 
