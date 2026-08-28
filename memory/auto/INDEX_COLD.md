@@ -173,6 +173,8 @@
 - finding_shallow_clone_false_fork
 - finding_difftree_multihash_tree_diff_false_positive
 - finding_backtick_command_substitution_in_commit_message
+- feedback_cross_agent_inbox_writes — author commits own cross-agent packet; 'leave untracked' DEAD; untracked = 1 box [cold-direct 8/28: predictable trigger; 5/21 body superseded in-file by carve-out ① + row 102]
+
 ### Verify before acting
 - feedback_verify_etf_vs_fx
 - feedback_verify_treasury_security_type
