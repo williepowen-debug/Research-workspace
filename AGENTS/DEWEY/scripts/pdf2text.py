@@ -14,17 +14,39 @@ Engine: pdfminer.six (already in the repo .venv per root CLAUDE.md). Run with
 the venv python: .venv/bin/python3 AGENTS/DEWEY/scripts/pdf2text.py ...
 """
 
-import sys, os, re, argparse, tempfile, urllib.request
+import sys, os, re, argparse, tempfile, urllib.request, urllib.error
 
 UA = "Research DEWEY williepowen@gmail.com"
+
+
+class PdfError(Exception):
+    """A reportable PDF-fetch/parse failure — never a traceback."""
 
 
 def _materialize(src):
     """Return a local path; download if src is a URL."""
     if re.match(r"^https?://", src):
         req = urllib.request.Request(src, headers={"User-Agent": UA})
-        with urllib.request.urlopen(req, timeout=60) as r:
-            data = r.read()
+        # A transport failure is a REPORTABLE RESULT, not a crash — a traceback
+        # reads as "the tool is broken" instead of "that PDF is not there".
+        # Class swept 2026-08-27 with fetch_url/edgar_fetch/edgar_doc.
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                data = r.read()
+        except urllib.error.HTTPError as e:
+            hint = "\n  some hosts want a BROWSER UA here (see fetch_url.py --ua)" \
+                   if e.code in (401, 403) else ""
+            raise PdfError(f"HTTP {e.code} for {src}{hint}") from e
+        except urllib.error.URLError as e:
+            raise PdfError(f"transport error for {src}: "
+                           f"{type(e.reason).__name__}: {e.reason}") from e
+        if not data.startswith(b"%PDF"):
+            # Fail LOUD: an HTML error page saved as .pdf parses to junk or to
+            # nothing, and "0 chars extracted" reads as an empty PDF rather than
+            # as the login/404 page it actually is.
+            head = data[:80].decode("utf-8", "replace").replace("\n", " ")
+            raise PdfError(f"{src} did not return a PDF ({len(data)} bytes, "
+                           f"starts {head!r}) — likely an HTML error/login page")
         fd, path = tempfile.mkstemp(suffix=".pdf")
         with os.fdopen(fd, "wb") as f:
             f.write(data)
@@ -82,4 +104,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        sys.exit(main() or 0)
+    except PdfError as e:
+        sys.stderr.write(f"{e}\n")
+        sys.exit(1)

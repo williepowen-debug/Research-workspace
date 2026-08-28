@@ -29,7 +29,7 @@ CIK cheatsheet + ticker->CIK authority: see edgar_fetch.py header /
 https://www.sec.gov/files/company_tickers.json  (always verify before citing).
 """
 
-import json, sys, argparse, urllib.request, urllib.parse, re
+import json, sys, argparse, urllib.request, urllib.parse, urllib.error, re
 from html.parser import HTMLParser
 
 # SEC requires a declared User-Agent (with contact). This is the whole 403 fix.
@@ -43,10 +43,35 @@ CONCEPT = "https://data.sec.gov/api/xbrl/companyconcept/CIK{cik}/us-gaap/{concep
 FACTS = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
 
 
+class EdgarError(Exception):
+    """A reportable EDGAR failure — never a traceback.
+
+    A transport error is a RESULT (404 = no such CIK/accession, 403 = UA wall),
+    and a traceback reads to the caller as "the tool is broken" rather than
+    "that document does not exist". Class fixed in fetch_url.py 2026-08-02 and
+    edgar_fetch.py 2026-08-27; swept here the same day per the BACKLOG row's
+    own instruction to fix the CLASS, not the instance.
+    """
+
+
 def _get(url, headers, timeout=30):
     req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return r.read()
+    except urllib.error.HTTPError as e:
+        hint = ""
+        if e.code == 404:
+            hint = "\n  not found — verify the CIK/accession/concept exists"
+        elif e.code in (403, 401):
+            hint = ("\n  sec.gov wants a DECLARED-CONTACT User-Agent "
+                    "('Research NAME email'); a browser UA is 403'd here")
+        elif e.code == 429:
+            hint = "\n  SEC rate limit — slow down and retry"
+        raise EdgarError(f"HTTP {e.code} for {url}{hint}") from e
+    except urllib.error.URLError as e:
+        raise EdgarError(f"transport error for {url}: "
+                         f"{type(e.reason).__name__}: {e.reason}") from e
 
 
 def _cik10(cik):
@@ -107,17 +132,64 @@ def search(query, cik=None, forms=None, startdt=None, enddt=None, limit=10):
     return data.get("hits", {}).get("total", {}).get("value", 0), out
 
 
+def _int(v):
+    """size fields come back as '' on some accessions — int('') is a ValueError."""
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return 0
+
+
+def list_documents(cik, accession):
+    """Every document filename in an accession, best-effort.
+
+    ⚠️ `index.json` CANNOT BE TRUSTED ALONE — on some accessions it returns
+    HTTP 200 with a `directory.item` list containing ONLY the wrapper files
+    (`-index.html`, `-index-headers.html`, `.txt`, `-xbrl.zip`) and OMITS every
+    real document and exhibit. Verified 2026-08-27 on CRMT 8-K
+    0001171843-26-004311, where index.json hid exh_101/102/103 — and exh_101
+    was the conformed credit agreement carrying that run's entire answer.
+    The failure is a FALSE NEGATIVE with a clean 200, so an exhibit-discovery
+    negative taken from index.json is not evidence of absence.
+
+    So: read index.json, then ALSO parse `-index.html` for /Archives/ hrefs and
+    merge. The HTML index is the authoritative listing.
+    """
+    base = ARCH.format(cik=cik.lstrip("0"), acc=accession.replace("-", ""))
+    names = {}
+    try:
+        idx = json.loads(_get(base + "/index.json", HJSON))
+        for i in idx.get("directory", {}).get("item", []):
+            n = i.get("name", "")
+            if n:
+                names[n] = _int(i.get("size"))
+    except (EdgarError, ValueError):
+        pass                                   # HTML index below is the fallback
+    try:
+        html = _get(f"{base}/{accession}-index.html", HHTML).decode("utf-8", "replace")
+        # ⚠️ TWO href shapes. Inline-XBRL PRIMARY documents are linked through the
+        # viewer as `/ix?doc=/Archives/...`, NOT as a bare /Archives/ href — so a
+        # regex matching only the bare form finds every exhibit but MISSES the
+        # primary document, and _primary_doc then falls back to a wrapper file.
+        for href in re.findall(r'href="(?:/ix\?doc=)?(/Archives/[^"?]+)"', html):
+            n = href.rsplit("/", 1)[-1]
+            names.setdefault(n, 0)
+    except EdgarError:
+        pass
+    if not names:
+        raise EdgarError(f"no documents listed for {accession} (cik {cik}) — "
+                         "verify the accession exists")
+    return names
+
+
 def _primary_doc(cik, accession):
-    acc_nodash = accession.replace("-", "")
-    idx = json.loads(_get(ARCH.format(cik=cik.lstrip("0"), acc=acc_nodash) + "/index.json", HJSON))
-    items = idx.get("directory", {}).get("item", [])
+    names = list_documents(cik, accession)
     # prefer the largest .htm that isn't the index / R-exhibit / cover
-    cands = [i for i in items if i.get("name", "").lower().endswith((".htm", ".html"))]
-    cands = [i for i in cands if not re.match(r"(R\d|.*index|.*\bex)", i.get("name", ""), re.I)]
-    if not cands:
-        cands = [i for i in items if i.get("name", "").lower().endswith((".htm", ".html"))]
-    cands.sort(key=lambda i: int(i.get("size", 0)), reverse=True)
-    return cands[0]["name"] if cands else None
+    cands = [n for n in names if n.lower().endswith((".htm", ".html"))]
+    filtered = [n for n in cands if not re.match(r"(R\d|.*index|.*\bex)", n, re.I)]
+    cands = filtered or cands
+    cands.sort(key=lambda n: names[n], reverse=True)
+    return cands[0] if cands else None
 
 
 # --- XBRL context-header strip -------------------------------------------
@@ -268,4 +340,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        sys.exit(main() or 0)
+    except EdgarError as e:
+        sys.stderr.write(f"{e}\n")
+        sys.exit(1)

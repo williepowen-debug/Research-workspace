@@ -172,6 +172,8 @@ def cmd_gate(args):
     print("  scoped to FUNDING-ORIGIN seizures only. GCF is the earliest dealer tell.")
     print("=" * 74)
 
+    ok = err = 0
+
     print("\n-- OFR repo average rates (%) --")
     lat = {}
     for base, desc in GATE_RATES:
@@ -179,13 +181,16 @@ def cmd_gate(args):
             rows, vint = ofr_series_auto(base)
             if not rows:
                 print(f"  {base:<20} NO DATA")
+                err += 1
                 continue
             d, v = rows[-1]
             prev = rows[-6][1] if len(rows) > 5 else None
             chg = f"{(v - prev) * 100:+.0f}bp/5d" if prev is not None else "n/a"
             lat[base] = v
+            ok += 1
             print(f"  {base:<20} {v:>6.2f}%  as-of {d}  [{vint}]  {chg:>12}   {desc}")
         except Exception as e:                        # noqa: BLE001
+            err += 1
             print(f"  {base:<20} ERROR: {e}")
 
     if "REPO-GCF_AR_TOT" in lat and "REPO-TRI_AR_TOT" in lat:
@@ -200,12 +205,30 @@ def cmd_gate(args):
             d, v = rows[-1]
             prev = rows[-2][1] if len(rows) > 1 else None
             chg = f"{(v - prev) / prev * 100:+.0f}% w/w" if prev else "n/a"
+            ok += 1
             print(f"  {keyid:<14} ${v:>12,.0f}mn  as-of {d}  {chg:>10}   {desc}")
         except Exception as e:                        # noqa: BLE001
+            err += 1
             print(f"  {keyid:<14} ERROR: {e}")
 
     print("\n  NOTE: fails are WEEKLY (Wed) and lag — diagnostic, not pre-emptive.")
     print("  Pair with FRED SOFR99-IORB (fred_pull.py) for the acute leg.\n")
+
+    # FAIL LOUD: a gate view that reached NOTHING must not exit 0. A caller (or a
+    # cron) reads rc=0 as "gate checked, nothing to see" — which is exactly the
+    # false all-clear this tool exists to prevent. Routed by DAEDALUS 2026-08-17
+    # (SFG sweep §8 rule 3, residual 2); fixed 2026-08-27.
+    total = ok + err
+    print(f"  [gate] {ok}/{total} series retrieved, {err} error(s).")
+    if ok == 0 and total:
+        sys.stderr.write(
+            "GATE UNAVAILABLE: every series errored — this is a TOOL/NETWORK failure, "
+            "NOT a quiet funding market. Do not read it as an all-clear.\n")
+        return 1
+    if err:
+        sys.stderr.write(f"WARNING: {err} of {total} series unavailable — "
+                         "the gate view is PARTIAL; say so if you cite it.\n")
+    return 0
 
 
 def main():
@@ -218,7 +241,7 @@ def main():
     start = a[a.index("--start") + 1] if "--start" in a else None
 
     if cmd == "gate":
-        cmd_gate(a)
+        return cmd_gate(a)
     elif cmd == "rates":
         for base, desc in GATE_RATES:
             rows, vint = ofr_series_auto(base, start)
@@ -246,4 +269,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)

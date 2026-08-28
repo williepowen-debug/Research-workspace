@@ -121,12 +121,46 @@ def _check_hard_wall(url):
             sys.exit(3)
 
 
+class DecompressError(Exception):
+    """Body declared gzip and would not decompress.
+
+    ⚠️ NEVER degrade to returning the still-compressed bytes. They decode to
+    garbage, and a --grep over garbage exits 1 with `NO MATCH ... (N chars
+    fetched, HTTP 200)` — the RIGHT exit code carrying the WRONG reason. This
+    tool's negatives are consumed as primary-grade evidence ("the primary does
+    not say this"), so a gzip hiccup would mint a false refutation.
+    Routed by DAEDALUS 2026-08-17 (SFG sweep §8 residual 1); fixed 2026-08-27.
+    """
+
+
+def _looks_like_garbage(data, sample=8192, max_control=0.02):
+    """True if the bytes are not decoded text (undetected compression, or a
+    binary body served as text).
+
+    Tested on ASCII CONTROL-BYTE RATIO, not a printable ratio. ⚠️ v1 of this
+    guard counted every byte >=128 as printable so UTF-8 would pass — which
+    made a real 67KB gzip stream from federalreserve.gov read as CLEAN, i.e.
+    the guard failed on the exact case it exists to catch. High-entropy bytes
+    are ~50% >=128, so that test can never separate them from text.
+    Control bytes DO separate: decoded text runs ~0%, gzip ~10% (25 of 256
+    byte values are control). Caught 2026-08-27 by testing the guard against
+    a live gzip body rather than a synthetic one.
+    """
+    if not data:
+        return False
+    chunk = data[:sample]
+    ctrl = sum(1 for b in chunk if b < 9 or b in (11, 12) or 14 <= b <= 31 or b == 127)
+    return (ctrl / len(chunk)) > max_control
+
+
 def _decompress(data, resp):
     if resp.headers.get("Content-Encoding", "").lower() == "gzip":
         try:
             return gzip.decompress(data)
-        except OSError:
-            return data          # some hosts mislabel; fall through
+        except OSError as e:
+            raise DecompressError(
+                f"Content-Encoding: gzip but gzip.decompress failed "
+                f"({type(e).__name__}: {e}); {len(data)} bytes received") from e
     return data
 
 
@@ -230,6 +264,11 @@ def main():
     else:
         try:
             status, final, data = fetch_urllib(args.url, timeout=args.timeout, ua=args.ua)
+        except DecompressError as e:
+            # A REPAIR, not a fallback: curl --compressed does its own gzip.
+            sys.stderr.write(f"gzip decode failed on the urllib path ({e}); "
+                             "retrying via curl --compressed\n")
+            status, final, data = fetch_curl(args.url, timeout=args.timeout, ua=args.ua)
         except Exception as e:
             sys.stderr.write(f"urllib path failed ({e}); retrying via curl\n")
             status, final, data = fetch_curl(args.url, timeout=args.timeout, ua=args.ua)
@@ -249,6 +288,18 @@ def main():
         with open(args.save, "wb") as f:
             f.write(data)
         sys.stderr.write(f"saved {len(data)} bytes -> {args.save}\n")
+
+    # Integrity gate BEFORE any verdict. A NO-MATCH over an undecoded body is a
+    # false primary-grade negative, so refuse to render one — exit 4, distinct
+    # from 1 (true no-match), 2 (HTTP>=400) and 3 (hard wall).
+    if _looks_like_garbage(data):
+        sys.stderr.write(
+            f"UNDECODABLE BODY from {final} ({len(data)} bytes, HTTP {status}, "
+            f"Content-Encoding not resolved).\n"
+            "  REFUSING to report a NO MATCH: this body is not decoded text, so a\n"
+            "  negative here would be a false refutation, not a finding.\n"
+            "  Try: --curl (does its own --compressed), or --save FILE and inspect.\n")
+        sys.exit(4)
 
     body = data.decode("utf-8", "replace")
     if not args.raw:
