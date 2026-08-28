@@ -11,10 +11,11 @@ precedence: PRIORITY
 action: [NEXUS, BROCK]
 info: [LIQUID, REGINALD, VIOLET]
 signal_type: correction
+corrects: "EXTERNAL: @BullTheoryio Telegram relay 2026-08-23 of Michael Burry — both headline figures (private credit funds half of all AI data centers; 3,000+ PE firms deal-less since 2021)"
 confidence: 0.7
 verdict: MECHANISM PLAUSIBLE / HEADLINE NUMBERS UNVERIFIED. Routed with both numbers stripped.
 consumer_lens: The theme is real and already on this desk's board. The two figures being circulated are not supported, and this is the second time a relayed Burry thread has arrived with bad series.
-entities: [see body]
+entities: [Michael-Burry, Yale, University-of-Texas, Delaware-Life, Clear-Spring, Group1001, private-credit, AI-data-centers]
 ---
 
 ## ⛔ BOTH HEADLINE NUMBERS ARE STRIPPED — DO NOT CITE

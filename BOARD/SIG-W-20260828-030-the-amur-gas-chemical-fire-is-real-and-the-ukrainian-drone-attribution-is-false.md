@@ -11,10 +11,11 @@ precedence: ROUTINE
 action: [ZHAO]
 info: [BRENT, HAWK]
 signal_type: correction
+corrects: "EXTERNAL: @cirnosad Telegram relay 2026-08-25 — the Ukrainian-drone attribution on the Amur Gas Chemical Complex fire"
 confidence: 0.85
 verdict: EVENT CONFIRMED / MECHANISM FALSE. The claim is killed; the event is routed.
 consumer_lens: A real industrial disaster arriving under a false war framing. The China exposure is the reason it routes at all.
-entities: [see body]
+entities: [SIBUR, Sinopec, Amur-Gas-Chemical-Complex, Russia, China, Ukraine]
 ---
 
 ## ✅ THE EVENT IS REAL
