@@ -30,6 +30,9 @@
 
 ## ⏳ NEXT — IN THIS SESSION, NOT NEXT SESSION
 
+> ⛔ **DO NOT SCHEDULE A TIMED GRADE ON A BACKGROUND BASH WAITER IN THIS ENVIRONMENT — MEASURED n=2 TODAY.** Two `until [ $(date +%H%M) -ge … ]; do sleep; done` background waiters armed for the 13:00 rig print were **KILLED, not fired** (11:05→11:27 and 11:27→11:35 — **different durations, so it is not a timeout**; each died around a session turn boundary). Their output files contain only `[killed]`; **there is no error and no signal until the task notification arrives.** ⚠️ **A reaped waiter is worse than no waiter, because you stop watching for the thing yourself.** ✅ **What replaced it:** a **persistent Monitor** polling the BH primary every 4 min and emitting on a **HASH CHANGE** — i.e. on the report actually posting, not on a clock — plus fetch-failure lines and a periodic still-unchanged heartbeat, **so silence is never ambiguous.** ✅ **And the real backstop needs nothing running: the `2026-08-28` Baker Hughes row in `docket/CATALYSTS.tsv` is self-contained** (URL, the `urllib`-not-`curl` warning, a runnable one-liner executed in its published form, ladder, direction, hash guard) **and Catalyst Countdown prints it at every boot.**
+
+
 | when | what | state |
 |---|---|---|
 | **~13:00 ET today** | **`BRT-26` Baker Hughes.** Direction verified: `above 457`, **fails on a RISE.** Ladder …455 (8/14) → **452 (8/21)**, distance **5**. Locator: probe URL as `.xlsx` → `NAM Summary` → `U.S. Breakout Information` → `Oil` → `This Week`. **Browser UA** (the host tarpits a self-identifying one). **Never** a digit-regex on the BH HTML. **Two independent pulls.** | **PENDING — NOT PRE-GRADED** |
