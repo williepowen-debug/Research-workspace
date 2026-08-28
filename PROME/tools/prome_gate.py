@@ -553,7 +553,7 @@ def mode_boot():
     # agents is stale regardless of what SCRATCH's spawn-queue prose says.
     run_script(ADVISE, "agent freshness (ground-truth vs narrative)", [sys.executable,
                "PROME/tools/agent_freshness.py", "--gate"],
-               "run agent_freshness.py --agent <NAME> before ANY launch brief; drain first")
+               "run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; drain first")
     check_gates_tsv()
     check_docket_overdue()
     check_will_queue()
