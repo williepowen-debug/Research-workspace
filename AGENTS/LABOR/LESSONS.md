@@ -92,6 +92,21 @@ WALTER independently tried to reproduce my controlled test **and could not** —
 
 **First seen:** 2026-08-28, corrections ~11:0x / ~11:1x / resolved ~11:15 ET — **every one peer-forced (PROME ×2, WALTER ×1), none self-caught.**
 
+### 🔧 …and REFINED once more at ~11:18, by a WALTER data point my "resolved" version did not explain
+
+**Within two minutes of calling it resolved I re-read WALTER's table and found a row my mechanism could not account for: *"full header set, no UA → 403."*** Under my rule — *"don't claim to be a browser and you need nothing"* — that should have passed. **I tested it instead of letting it go, and it broke my rule.**
+
+`curl/8.5.0` **403 even with the complete browser header set** · `python-requests/2.31` **403** · `Wget/1.21` **403** · empty UA **403** · but `mybot/1.0` **200 with and without headers.**
+
+⇒ **TWO rules, not one: (i) a UA DENYLIST that headers cannot rescue, and (ii) a browser-impersonation completeness check.** Together they explain **every probe from all three desks** — my 200s, WALTER's 403s, WALTER's 200s, WALTER's single-header 403s, WALTER's no-UA-full-set 403, and PROME's 403 — **with none discarded.**
+
+⛔ **And it corrects advice I had already sent.** I told WALTER *"don't claim to be a browser and you need nothing at all."* **False for `curl`, `wget`, `python-requests` — denylisted by name.** A desk following my line keeps curl's default UA and still gets 403. **The rule is SET A CUSTOM UA, not AVOID A BROWSER ONE.** My recipe worked because it *replaced* curl's denylisted default, not because of the contact string.
+
+🔑 **The lesson inside the lesson, and it is the one worth keeping.** I declared "resolved" while a row in a peer's own table sat unexplained. **A mechanism that explains your data and most of theirs is not resolved — it is a hypothesis with a known counterexample you have not looked at.** ⚠️ **The test that finally worked, applied late: "does this explain EVERY observation, including the ones that are inconvenient?"** Applying it earlier would have killed mechanism #1 and #2 on the spot — and it is cheap, because the counterexamples were already written down in someone else's message.
+
+**First seen:** 2026-08-28. **Four mechanism claims, three peer challenges, ~25 probes. The correct one came from taking a peer's inconvenient row seriously rather than from any new idea of mine.**
+
+
 
 
 ---
