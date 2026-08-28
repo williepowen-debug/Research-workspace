@@ -39,6 +39,20 @@
 | **~15:30 ET today** | **COT vintage #3, as-of Tue 8/25.** `COT-FUEL-35B`: Leg A ≤113,745 / deadband 109,165–118,325 · Leg B ≤4.909% GATING · both must agree. Ladder **108,059 / 5.7206%**. RAW `f_disagg.txt`, never Socrata; query by market NAME; verify `report_date` IN-ROW; `cot_grade.py --expect 2026-08-25`, **exit 3 = WAIT**. | **PENDING — NOT PRE-GRADED** |
 | **at the true close** | **Second pass on this file + `NEXUS_BRIEF.md` + `STATUS.md` grade rows + `CATALYSTS.tsv` 8/28 rows updated from ⏳ to ✅ + prune the 8/17 and 8/21 fired rows past 1-week retention.** | owed |
 
+### 🔧 GRADE PATH — SETTLED, AND IT IS THE PART A COLD SESSION NEEDS
+
+**Run the URL PICKER FIRST at every rig grade, not only if a monitor is silent.** Full runnable recipe (HEAD-only, 11 requests) lives in the `2026-08-28` Baker Hughes row of `docket/CATALYSTS.tsv`, **verified in its published form**. ⛔ **PICK BY THE DATE IN `content-disposition`, NEVER BY LINK TEXT — `na-rig-count` lists 10 uuids including `e98bcf83`, the YEAR-STALE archive that cost this desk a month on 8/14, and BOTH link texts say "New Report."** The picker also **self-validates the registry probe** every run.
+
+**Trigger stack for today's 13:00 print (5 nets, 3 of them uuid-independent):** PROME 13:02 clock wake *(the guarantee — now carries the picker rule)* · PROME hash monitor · BRENT hash Monitor · the in-page **US total `588`** on `rig-count-overview` *(⛔ TRIGGER ONLY, never a grade source — total ≠ oil leg; 8/14 was total +5 / oil +1)* · the self-contained catalyst row. ⚠️ **Both hash monitors share ONE untested assumption — that `6f748ddc` updates in place; n=0 observed transitions. The picker and the `588` signal are the nets that survive a uuid rotation.**
+
+### ⚑ ADOPTED THIS SESSION — HENRY'S ROUTING OBLIGATION (supersedes my "no fix exists")
+
+**When my own instrument disagrees with a publisher of record: the cell carries BOTH figures with BOTH bases named, AND the disagreement is routed back to that publisher the same session.** Deferring silently is what turns a caught error into a propagated one. ★ **I had concluded "no note fixes this" and stopped — a correct negative read as "nothing fixes this." The remedy was a ROUTING obligation, not a note.**
+
+### ⚠️ `STATUS.md` IS 229% OVER THE ~54,250 B READ CAP — AND EVERY LINE CHECK PASSES
+
+124,233 B / 158 lines = **786 B/line**; **64% of the 250-line cap.** My 8/28 narrative was rotated verbatim (`workbook/STATUS_archive_20260828_session_rows.md`, `crc32 f8cc283a`, −23,312 B) but **the file was already 208% over before this session** — the rest is the **Will-gated** second half of DAEDALUS's two-commit plan (byte-tier from measured density, then boot-wired). **Returned to PROME; do not cut further without the ruling.** ⛔ **A `cat` of this file truncates — read it in slices.**
+
 ## 📌 NEXT SESSION (dated, future-verifiable)
 
 1. **Sun 8/30 — Jazan refinery restart** (400 kb/d, shut 7/27, date revised 8/15 → 8/30). Verify at a primary; log to `INCIDENTS.tsv` only on facility evidence.
