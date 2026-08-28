@@ -9,22 +9,25 @@
 ## Files
 | File | Purpose |
 |---|---|
-| `THRESHOLDS.tsv` | **12 rows.** The registry. Bands are HANS-owned and revisable — but a band change is an edit that must be logged in the row's `notes` with a date, never a silent overwrite. |
+| `THRESHOLDS.tsv` | **14 rows.** The registry. Bands are HANS-owned and revisable — but a band change is an edit that must be logged in the row's `notes` with a date, never a silent overwrite. |
 | `HANS_T_FIRED_LOG.tsv` | **The SINGLE record of fires.** Modelled on `AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv`. Other desks may read it freely; **never mirror it** — key stale-fire suppression to this file. |
 
 ## ⚠️ Read this before scanning — a clean scan of the scannable rows does NOT mean the board is clear
 
-Following CREED's hard-won lesson (WALTER `CLAUDE.md` 6b): **only 5 of the 12 rows are numerically scannable on a daily pull.**
+Following CREED's hard-won lesson (WALTER `CLAUDE.md` 6b): **only 6 of the 14 rows are numerically scannable on a daily pull.**
 
 | Class | Rows | Why it cannot be auto-graded |
 |---|---|---|
-| **SCANNABLE-DAILY (5)** | `T-05` Bund · `T-06` gilt · `T-07` TTF · `T-08` storage gap · `T-11` EURUSD | — (these are the auto-gradable set) |
+| **SCANNABLE-DAILY (6)** | `T-05` Bund · `T-06` gilt 10Y · **`T-13` gilt 30Y** · `T-07` TTF · `T-08` storage gap · `T-11` EURUSD | — (these are the auto-gradable set) |
 | **MONTHLY-PRINT (3)** | `T-01`, `T-02` German Mfg PMI · `T-03` Composite | Monthly survey prints, **not live levels**. Surface as *"last known print + its date."* |
-| **EVENT-DRIVEN (1)** | `T-04` ECB deposit rate | Scannable only on the 8 scheduled GovC dates plus any emergency meeting. |
+| **EVENT-DRIVEN (1)** | `T-04` ECB deposit rate |
+| **🟡 QUALITATIVE-EVENT (1)** | **`T-14`** EU bank/private-credit distress | Scannable only on the 8 scheduled GovC dates plus any emergency meeting. |
 | **COMPOUND-TWO-LEG (2)** | `T-09` Italy · `T-10` France | Both a spread leg **and** an absolute-level leg are required. Neither leg alone fires. |
 | **🔴 UNINSTRUMENTED (1)** | `T-12` EUR/USD 3M basis | **No feed, no pull, no owner-instrument. It CANNOT fire however far the basis moves.** Last value is 2026-02-13. Registered so the gap is *countable*, not because it works. **Do not count it toward a clean board.** |
 
-**So: 5 auto-gradable, 6 that need a human or a calendar, and 1 that is broken and says so.**
+**So: 6 auto-gradable, 7 that need a human or a calendar, and 1 that is broken and says so.**
+
+⚠️ **`T-14` and `T-12` look alike and are NOT the same class. Keep them apart.** `T-12` is **UNINSTRUMENTED** — no feed exists, so it cannot fire however far the basis moves. `T-14` **has a live feed** (WALTER news routing + ECB/ESRB publications); it is merely **not numeric**. *A qualitative row with a feed is trippable. An unfed numeric band is not.* Collapsing them into one "can't auto-scan" bucket would quietly convert a working trigger into a dead one.
 
 ## Registry → metric-surface map (the check, run on itself 2026-08-28)
 

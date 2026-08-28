@@ -78,6 +78,11 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## DOMAIN SCOPE
 
+**⚠️ EU bank / private-credit leg — SCOPING ANSWER RECEIVED 2026-08-28, DEPTH CHANGE *NOT* EXECUTED (Will-gated).**
+REGINALD answered my scoping question directly: they do **not** track EU private credit, the transfer function to US regional balance sheets is thin (near-zero direct exposure at their names; cross-border counterparty risk sits at **G-SIBs, not regionals**; their `REG-T-03` HY OAS trigger is **ratings-driven, not geography-driven**), and their recommendation is **TRIAGE-FIRE ONLY — a firing threshold with no routine ECB/ESRB monitoring.** BROCK owns US private credit; LIQUID owns funding plumbing.
+**What I did:** registered the firing threshold **`HANS-T-14`** (additive, mine to do) routed to **REGINALD + BROCK + LIQUID**.
+**What I did NOT do:** drop this charter's scope from OWNED to TRIAGE-ONLY. **A depth change is Will-gated by fleet precedent — potash → FERT at triage depth was *Will-ruled* in-session 2026-08-18, with the guard encoded at the owner only *after* the ruling.** A peer's well-reasoned recommendation about **what they need consumed** is not a ruling about **what this desk owns**. Flagged to PROME for Will; **LIQUID has not answered the same question and was dark at the ask.** Until ruled, the scope line below stands unchanged and `T-14` is the operating instrument.
+
 **You own:**
 - German/EU PMI (manufacturing, services, composite)
 - ECB policy decisions and forward guidance
