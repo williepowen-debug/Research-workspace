@@ -1,6 +1,7 @@
 ---
 name: finding_edgar_403_user_agent_header
 description: "Gov-data 403s on WebFetch (SEC EDGAR, BLS) are a missing-User-Agent problem, not a block — a declared UA over urllib/curl works"
+symptoms: "bls.gov returns 403; federal data site 403; gov data blocked; BLS news release will not fetch; empsit.nr0.htm 403; user-agent gate on government data; SEC EDGAR 403; data.sec.gov forbidden; curl works but WebFetch 403; FFIEC 403 with default urllib UA; Azure WAF block page"
 metadata: 
   node_type: memory
   type: reference
