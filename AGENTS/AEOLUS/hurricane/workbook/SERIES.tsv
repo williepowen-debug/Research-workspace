@@ -10,3 +10,12 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-21	csu_named_storms	9	count	CSU-Klotzbach	2026-08-21	RE-VERIFIED UNCHANGED from the 8/5 seasonal update. NOT a new forecast
 2026-08-21	csu_hurricanes	4	count	CSU-Klotzbach	2026-08-21	RE-VERIFIED UNCHANGED from 8/5
 2026-08-21	csu_major_hurricanes	1	count	CSU-Klotzbach	2026-08-21	RE-VERIFIED UNCHANGED from 8/5
+2026-08-27	nhc_atlantic_active	1	count	NHC-CurrentStorms	2026-08-27	TS Dolly (AL04) 35kt 13.7N 40.7W. Feed returned 4 active total (Dolly, ep112026 Karina, ep122026 Lowell, cp012026 Lala) - only Dolly is Atlantic. First Atlantic activity in 14 days (last was TD Cristobal 8/13)
+2026-08-27	ace	3.4575	index	NHC-ATCF-btk	2026-08-27	Season-to-date, RECOMPUTED by the SOURCES.md method: Arthur 0.405 + Bertha 2.2425 + Cristobal 0.4425 + Dolly 0.3675 (2026082712/18/2026082800, TS 35kt x3, ONGOING - Dolly still active). +0.3675 since 8/21, first ACE accrual in 14 dark days. Parse re-validated: bal01/02/03 reproduce 0.405/2.2425/0.4425 exactly
+2026-08-27	ace_todate_normal_exclusive	26.72	index	NHC-HURDAT2-derived	2026-08-27	To-date normal for Aug 27, EXCLUSIVE convention (mmdd < 0827, matches the convention that reproduced 13.25 for Aug13 and 18.98 for Aug21 exactly). 21.8pct of full-season mean 122.58 has normally accrued by Aug 27 (vs 15.48pct by Aug21, 10.81pct by Aug13)
+2026-08-27	ace_todate_normal_inclusive	28.41	index	NHC-HURDAT2-derived	2026-08-27	To-date normal for Aug 27, INCLUSIVE convention (mmdd <= 0827). 23.18pct of full-season mean has normally accrued
+2026-08-27	noaa_below_normal_prob	75	pct	NOAA-CPC	2026-08-27	RE-VERIFIED UNCHANGED - page still carries the 6 Aug 2026 issuance. NOT a new outlook
+2026-08-27	csu_named_storms	9	count	CSU-Klotzbach	2026-08-27	RE-VERIFIED UNCHANGED from the 8/5 seasonal update
+2026-08-27	csu_hurricanes	4	count	CSU-Klotzbach	2026-08-27	RE-VERIFIED UNCHANGED from 8/5
+2026-08-27	csu_major_hurricanes	1	count	CSU-Klotzbach	2026-08-27	RE-VERIFIED UNCHANGED from 8/5
+2026-08-27	csu_ace_forecast	50	index	CSU-Klotzbach	2026-08-27	RE-VERIFIED UNCHANGED from 8/21 - table still reads 'Accumulated Cyclone Energy (ACE) 50 / Average for 1991-2020 123'. Vocabulary entry ratified correct (name and value both match SOURCES.md/AGENT.md)

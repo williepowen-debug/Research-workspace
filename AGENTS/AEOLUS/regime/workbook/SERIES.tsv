@@ -33,3 +33,7 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-20	djf_temp_abovenormal_max	50	pct	CPC-GIS-lead4DJF	2026-08-21	max above-normal prob on the DJF map; zone = Pacific NW + upper Midwest (Seattle/Minneapolis/Detroit). Fcst_Date stamped 20260820 in the data
 2026-08-20	djf_temp_northeast_corridor	40	pct	CPC-GIS-lead4DJF	2026-08-21	Chicago/NYC/Boston = 40% above-normal band. The 50% contour does NOT reach NY or Boston despite the prose saying 'exceeding 50 percent ... to the Northeast'
 2026-08-20	djf_temp_florida_category	33	pct	CPC-GIS-lead4DJF	2026-08-21	NEAR-NORMAL is the FAVORED category for all FL metros. Exactly ONE near-normal polygon on the whole CONUS map: Gulf/S-Atlantic coastal band, bbox lon -95.6..-79.2 lat 24.5..33.4
+2026-08-19	nino34_weekly	2.6	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026. Traj 05AUG +2.6 -> 12AUG +2.7 -> 19AUG +2.6: first WoW pullback, still 3rd-highest week of season
+2026-08-19	nino3_weekly	3.3	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026
+2026-08-19	nino12_weekly	4.0	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026, unchanged from 12AUG
+2026-08-19	nino4_weekly	0.8	degC	CPC-wksst9120	2026-08-27	week of 19AUG2026, down from 1.0 (12AUG)

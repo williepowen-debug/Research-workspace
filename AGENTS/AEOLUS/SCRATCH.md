@@ -13,6 +13,66 @@
 
 ## NEXT SESSION — START HERE
 
+*(2026-08-27 closeout. Supersedes everything below. **The standing Will river/water directive at the top of this file is UNCHANGED and still governs** — and see item 2: it now has a number behind it for the first time.)*
+
+### 🔴 THE ONE THING TO CARRY FORWARD
+
+**USBR's own most-probable projection now crosses the line I have been measuring the distance to.** The **August 2026 24-Month Study** (issued 8/21 *with* the ROD, published as **two scenarios** keyed to the WY2027 Powell release) projects **Mead 1,034.74 ft at end-December 2026** — below the **1,035 ft Hoover economic threshold**. The **July** study had Dec at **1,037.31**. **The year-end number fell 2.57 ft between consecutive monthly studies and crossed.** The path shows **no autumn turn at all** and keeps falling to Feb-2027.
+
+**AEO-10 re-priced 80% → 30%** — its own pre-registered falsifier (*"Mead tracking below USBR's monthly projection path"*) fired: Mead is **0.99 ft below** the six-day-old August path. **I did NOT move C6 to 5**: a projected breach is not a breach, and my ->5 legs are actual-level legs. **C6 holds at 4.**
+
+⚠️ **Do not lose the counterweight.** The unconditional base rate is **88.5% no-breach** (n=26, 2000-2025, computed from the USBR daily series: only 3 of 26 years drew down >=4.05 ft between 8/26 and 12/31). It was earned under normal inflow; **2026 has 18%-of-average April-July runoff and a release cut 7.48 -> 6.00 maf.** I also tested the late-Aug rate as a predictor: **corr +0.337 at n=26, below the noise floor — it conditions nothing in either direction.**
+
+### FIRST FIVE THINGS TO DO
+
+1. 🔴 **Grade Mead's 8/31 print against the August study's 1,040.04 ft.** First clean monthly actual-vs-projection test; it is now AEO-10's tracking instrument. One command: `curl -s "https://www.usbr.gov/uc/water/hydrodata/reservoir_data/921/csv/49.csv" | tail`.
+2. 🔴 **Base-rate USBR 24-month-study projection error.** It is the tier-limiter on AEO-10, open since 8/13, and **I now have two consecutive studies to start from.** ⚠️ **The 2.57 ft revision is n=1 — a magnitude, not a distribution.** Do not quote it as an error bar.
+3. **Reconcile two ACP primaries that disagree.** The Gatun projection CSV models draft steps at **~9/12 and ~10/9**; **Advisory A-29-2026 says 9/02 and 10/01**. **Cite the Advisory for dates.** Then re-price **AEO-12** — Gatun is finally instrumented, so the magnitude re-price I have owed since 8/21 is now possible.
+4. 🔴 **Register a durable NASS command** (or get a QuickStats key). **C2 is currently scored on a read I cannot refresh** — see the gap note below.
+5. **C5 →5 base-rate obligation — 34 days left, hard deadline 9/30.** Multi-year WSV series, then **re-price or retire N=3**. Unchanged and still open.
+
+### ✅ CLOSED THIS SESSION — two long-standing gaps, and one of them I had declared unreachable
+
+- **MISSISSIPPI/OHIO — the highest-value gap on the board, closed 5 days before its autumn window opens.** `curl -s "https://api.water.noaa.gov/nwps/v1/gauges/MEMT1"` returns live stage **and a published `lowThreshold`**. Memphis **12.47 ft (8/27)** vs a **−8 ft** threshold = **+20.47 ft. NOT stressed.** ⚠️ St. Louis has stage (falling fast, 8.15 → 4.27 ft in 4 days) but **no reference plane found — carry the level with no adjective.** Vicksburg/Cairo IDs unresolved.
+- **GATUN LAKE — and I had recorded it as UNINSTRUMENTED with a "settled, do not re-hunt" tag.** ACP publishes a **61-year daily series** as a plain CSV on its own site: `evtms-rpts.pancanal.com/eng/h2o/Download_Gatun_Lake_Water_Level_History.csv`. **83.80 ft (8/26)**, 1.22 ft below the only prior anchor. **The Tableau dashboard was blocked; the data never was.** → **L-35. Never write "do not re-hunt" on a negative finding again.**
+- **BOOT PRIORITY #1 DISCHARGED** — the ROD read in full. **It answered a different question than the one I registered** (it adopts a *process*, not an alternative) and **corrected a gate I wrote on 8/21** (Mead consultation is **1,000 ft, not 1,010**). → KB-085/086/087, L-36.
+- **C4 non-renewal: PARTLY closed** — FIO/NAIC baseline **1.04% national (2018-2022)**, defined denominator. ⚠️ **A baseline is not a live read**; my band is a *change* band, so the leg **stays ungradeable**.
+
+### 🔴 THE NEW GAP, AND IT IS A NEW SHAPE
+
+**C2's primary instrument is not reproducible.** The NASS path my own STATUS cites — labelled *"first primary read of this metric"* on 8/21 — **returns 404 today**, as do all sibling paths; QuickStats needs a key; **no `SOURCES.md` in my tree carries a NASS command** (C2 has no domain folder, so nothing recorded it). **The other three untrippable bands never had a surface; this one HAD one and cannot be re-run.** → **L-37: an instrument is not verified until its command has been re-executed on a LATER DAY than the one it was written on.**
+
+### SCORES + PREDICTIONS AFTER THIS SESSION
+**C1 1 ⚪ · C2 2 🟡 · C3 3 🟠 · C4 3 🟠 · C5 3 🟠 ↓ from 4 · C6 4 🔴. Composite 16/30 · range 1–4 · moved 1 · fired 0/6.**
+**C5 stepped down because the European event ENDED** (Kaub 59.98 cm; **Duisburg at a folder-record HIGH**, above its NNW since 8/22; Danube below-LKV 14 → 5; the 3-day test **FAIL/FAIL/FAIL**). **Channel-kill, not thesis-kill — C5 migrated to Panama**, which escalates on a published schedule (slots →32/day 9/01, draft →48.0 ft 9/02, →47.5 ft 10/01).
+**Fired count went 1 → 0**: C5's exit is the same test failing, and it fails on all three days.
+**Re-priced: AEO-10 80% → 30%. Resolved: none.** AEO-01 strengthened (ratio *fell* to 12.94% through the ramp).
+
+### DOMAINS SPAWNED, AND WHY *(kept so a quiet domain is a visible decision)*
+**`water/` · `hurricane/` · `wildfire/` · `regime/` — all four spawned** (6-day gap on every instrument + dated catalysts in window + a threshold near firing). **All four reports are excellent — read them if in doubt.** ⚠️ **`regime/` was spawned this time**, fixing the 8/21 blind spot where I did it myself and my own guard could not flag the gap. **`seismic/` not spawned — correct, no trigger.**
+
+### WORKER FINDINGS I ADJUDICATED
+**Ratified:** the C5 3-day grade · Mississippi + Gatun instruments · the **ACE to-date normal recomputed for 8/27 (26.72, NOT the 8/21 value of 18.98)** — reusing it would have shown the ratio *improving* on the news of a storm · the **acreage-denominator catch** (171% → 164% while absolute acres ROSE +329,317 — **not a deceleration**) · the CPC weekly-deck **misattribution** (the bad triple is from the weekly briefing deck, **not** the Prognostic Discussion) · the FIO/NAIC non-renewal baseline · the two-archive IEM AFOS command.
+**Ratified as PROPOSALS pending my instrument naming:** the Mississippi gauge rows (deliberately not written to SERIES.tsv by the worker) · adding CPC's weekly briefing PDF to `regime/SOURCES.md` as a fifth source.
+
+### DATED, NEXT 30 DAYS
+**8/31** Mead month-end vs 1,040.04 · **9/01** NIFC monthly outlook (AEO-09 checkpoint; **confirmed not yet issued**) · **9/01** Panama slots →32/day · **9/02** CSU two-week · **9/02** Panama draft →48.0 ft · **9/10** CPC ENSO discussion + ONI print · **~9/15** September 24-Month Study · **9/30** C5 base-rate deadline **+ STATUS trim pass (STANDS, not discharged)** · **10/01** the 2027-28 Operating Guidelines take effect · **10/01** Panama draft →47.5 ft · **C1 peak ~9/10.**
+
+### 📬 INBOX / OUTBOX
+**`inbox/` and `inbox/WALTER/` were both EMPTY at boot and are empty now** — verified, not assumed; no `board_log.tsv` rows owed.
+**5 packets written this session** (all committed per carve-out ①): **WATT** (Hoover projection breach + Powell <3,510 in WY2027) · **REGINALD cc CREED** (ROD priority-apportionment path + the erratum caveat — **owed since 8/21, now sent**) · **MARCO** (the **95% does not exist** — drop to >90%; Mead re-base; the CPC misattribution) · **CARL** (C5 direction change — retire the European freight cost; Panama is the leg) · **VULCAN** (Colorado water as the third AI-capex siting constraint, with an explicit list of what I am *not* claiming).
+
+### OWED / OPEN
+**WATT** — asked whether they want the Hoover derate priced on a projection or only on the actual breach · **VULCAN** — asked whether industrial/data-center water is a live constraint for them; if not, stop routing it · **CARL/MARCO/REGINALD/CREED** — no reply required.
+**Still open:** CDD/HDD instrument for C3 (the last band with no surface at all) · **the CPC weekly-basis question is UNRESOLVED and stays that way** — the source is traced, the mechanism is not; **do NOT propose a conversion offset** · two Danube `12-31` LKV dates (Bogojevo 1953, Novi Sad 1946) undecided · global-crop scope check for C2 (ABARES/FAO) · no verified freight source anywhere, so C5's operational leg stays UNARMED.
+
+### ⚠️ ONE THING I FIXED IN MY OWN FILES THAT WAS ACTIVELY MISLEADING
+**`THESIS.md`'s C6 bear-kill flip test required *"a signed ROD whose adopted alternative is identified from the EIS matrix."* The ROD adopts no alternative — the leg asked the document for a thing it does not contain, so it could never have been graded.** Eighth dead gate since 8/13, and the second whose defect was a **wrong premise** rather than a wrong level. Re-specified against the 24-Month Study, which exists and prints monthly.
+
+---
+
+### ⬇️ SUPERSEDED — the 8/21 pickup block, retained as history. Do NOT action from here.
+
 *(2026-08-21 closeout. Supersedes everything below. **Standing Will river/water directive at the top of this file is UNCHANGED** — and see item 2, which is a live gap against it.)*
 
 ### 🔴 PANAMA — THE LATE-SESSION WORK, AND IT IS THE LIVE THREAD

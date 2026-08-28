@@ -1,15 +1,15 @@
 # AEOLUS · REGIME — live dossier
 
-**As-of: 2026-08-13**, all figures CPC primary. Consolidated from KB-AEO-016/021/038/045/046/053/054 + VX-19/20.
+**As-of: 2026-08-27**, all figures CPC primary. Consolidated from KB-AEO-016/021/038/045/046/053/054 + VX-19/20.
 
-> **Last real data refresh: 2026-08-21**  ·  **Dossier written: 2026-08-21**
+> **Last real data refresh: 2026-08-27**  ·  **Dossier written: 2026-08-27**
 >
-> **2026-08-21 — refreshed by AEOLUS directly (no worker spawned).** Recorded here because **L-28 binds whoever DID the work, not whoever was spawned**: I pulled these primaries in my own context and would otherwise have left this folder reading silent while the central `KB.tsv` gained regime rows. ⚠️ **`scripts/domain_log_check.py` did NOT and COULD NOT flag that** — it tests *touched-but-silent*, and I had not touched the folder at all. **Worked-on-but-untouched is a blind spot in my own guard.**
+> **2026-08-27 — worker pass.** No new ONI/RONI season posted (still MJJ 2026, next release ties to the 10Sep2026 monthly discussion). Weekly Niño-3.4 ticked DOWN for the first time this season: 05AUG +2.6 → 12AUG +2.7 → **19AUG +2.6**. `ensodisc.shtml` unchanged (still the 13Aug issue). **Found CPC's standing weekly briefing PDF** — "ENSO: Recent Evolution, Current Status and Predictions" — prepared **24Aug2026**, confirming a weekly product DOES exist and DID land in the monthly-discussion gap (not previously in `SOURCES.md`).
 >
-> **This pass:** ✅ **RONI pulled for the first time — MJJ 2026 = +0.98** vs ONI +1.39 (offset −0.41, matching the derived 2020s value; **still not constant**). CPC 8/20 seasonal discussion **restates >90% very-strong and 69% historic — neither was RAISED**; no CPC primary states 95%. Weekly Niño-3.4 **+2.7 (12AUG)**, strengthening from +2.1 (15JUL). **DJF 2026-27 outlook read at the primary as a GIS product** (`lead4_DJF_temp`, `Fcst_Date=20260820`) rather than an image.
+> 🔴 **8/21's discussion-basis trap — INVESTIGATED, VERDICT UNRESOLVED (not converted, not asserted).** Traced the 1.8/2.5/3.2 Niño-3.4/3/1+2 quote to the weekly briefing PDF's "latest weekly SST departures" bullet slide, **not** `ensodisc.shtml` (whose own July monthly figures are a third, different triple: +1.4/+1.7/+2.9, ERSSTv5/v6 basis). Ruled out: any single 2026 `wksst9120.for` week (exhaustive check, no match), a 4–5wk running mean (~2.5–2.6, too high), and the monthly ERSST figures (different numbers again). New evidence: the **identical** 0.0/1.8/2.5/3.2 quad reappears verbatim in the 24Aug deck, 11 days later, while `wksst9120.for` itself moved in that window and the same deck's RONI figure (1.0°C) DID update — consistent with **that one slide being stale/not-regenerated**, but that is a pattern observation, not a CPC documentation statement, so **not asserted as the mechanism.** No CPC methodology text (RONI definition page, ONI/RONI footnotes, the weekly deck's own basis note) documents a base-period or product difference that would explain a **uniform** ~−0.8°C offset across all four Niño regions at once. Full ruled-out list → `workbook/LOG.tsv` `weekly_mismatch_basis_investigation_UNRESOLVED`. **Treat `wksst9120.for` as the sole authoritative weekly figure; do not cite the briefing-deck bullet numbers for anything scored.**
 >
-> 🔴 **INSTRUMENT TRAP LOGGED — the CPC discussion's weekly figures do not match CPC's own weekly file** (+1.8/+2.5/+3.2 in the prose vs +2.7/+3.2/+4.0 in `wksst9120.for`). **Reading across them inverts the trend sign.** Consistent with a relative/RONI basis; **not proven, not asserted.** See `workbook/LOG.tsv`.
-> ⚠️ **Also known-bad now: `wksst8110.for`** — I reconstructed it from memory and got a dead file ending 27JAN2021. `SOURCES.md` had the right one all along.
+> **Prior pass (2026-08-21, by AEOLUS directly — no worker spawned).** ✅ RONI pulled for the first time — MJJ 2026 = +0.98 vs ONI +1.39 (offset −0.41, matching the derived 2020s value; still not constant). DJF 2026-27 outlook read at the primary as a GIS product (`lead4_DJF_temp`, `Fcst_Date=20260820`) rather than an image.
+> ⚠️ **Known-bad: `wksst8110.for`** — reconstructed from memory once, got a dead file ending 27JAN2021. `SOURCES.md` had the right one (`wksst9120.for`) all along.
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `regime/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C1 · C2 · C3 · C5 · C6 (root: owns the ENSO indices)
@@ -23,8 +23,8 @@
 | **ONI** (official level) | **+1.39** | MJJ 2026 | 0.11 below the "strong" (≥1.5) line |
 | **RONI** (dynamical) | **+0.98** | MJJ 2026 | **only moderate in relative terms** — see §2 |
 | **OISST monthly** (trend) | **+2.03** | Jul 2026 | Apr +0.47 → May +0.94 → Jun +1.55 → **Jul +2.03** |
-| **Weekly** (fast trend) | **+2.6** | 05 Aug 2026 | 15Jul +2.1 → 22Jul +2.2 → 29Jul +2.3 → **05Aug +2.6** |
-| Niño-1+2 | **+3.56** | Jul 2026 | *the number that gets misquoted as "3.4"* |
+| **Weekly** (fast trend) | **+2.6** | 19 Aug 2026 | 29Jul +2.3 → 05Aug +2.6 → 12Aug +2.7 → **19Aug +2.6** — first WoW pullback this season, still 3rd-highest week |
+| Niño-1+2 | **+3.56** monthly / **+4.0** weekly (19Aug) | Jul 2026 / 19Aug 2026 | *the number that gets misquoted as "3.4"* |
 
 **CPC forward odds (8/13 Discussion, verbatim):**
 - *"El Niño is strengthening, with a **greater than 90% chance of a very strong event** during the Northern Hemisphere fall and winter 2026-27."* — from **81%** on 7/9.
@@ -116,7 +116,10 @@ Composites are built mostly from **weak and moderate** events. I hit the degrada
 ## OPEN QUESTIONS
 
 1. **🔴 CPC DJF 2026-27 outlook (~8/20)** — supersedes every composite in my 8/12 WATT and MARCO packets. **Owed to both.**
-2. **Should channel signs be re-derived against RONI rather than ONI?** (§2). Real work, not a one-line fix. **Would likely *soften* several reads** — worth doing before winter, and worth telling WATT/MARCO if it changes anything.
+2. **Should channel signs be re-derived against RONI rather than ONI?** (§2). Real work, not a one-line fix, **still not done** — this pass reports the two current magnitude reads side by side, on separate lines, per AEOLUS's ask; it does not re-derive the channel signs itself:
+   - **ONI-based read (MJJ 2026): +1.39** — 0.11 below the "strong" ≥1.5 line. On this basis the event reads *nearly strong, not yet historic.*
+   - **RONI-based read (MJJ 2026): +0.98** — squarely *moderate* on the dynamical/relative scale, well below the +2.5 OND "historic" bar CPC quotes odds against. Trajectory FMA −0.44 → MAM −0.04 → AMJ +0.49 → **MJJ +0.98**, pace ~+0.45–0.53/season; would need roughly **+1.5 more over the 5 remaining seasons to OND** to reach +2.5, i.e. a continued acceleration, not just a hold.
+   - **Do not average these two reads or convert one into the other** — ONI answers "how warm is the water," RONI answers "how dynamically strong is the event relative to the warm background." Both are simultaneously true. **Would likely *soften* several composite-derived reads if RONI became the keying instrument** — worth doing before winter, and worth telling WATT/MARCO if it changes anything.
 3. **Track the ONI−RONI offset as OND approaches** — if it holds ~+0.41, +2.5 RONI implies ~+2.9 ONI. **Re-compute, never carry the conversion forward.**
 4. **AEO-02** (ONI ≥1.5 in an NDJ season, 70%) resolves on **ONI**, currently +1.39. **Not closing early** despite >90% very-strong odds — the prediction resolves on the letter, and >90% is about a *different, higher* bar.
 5. **AEO-09** (`../wildfire/`) is the cheapest live test of composite reliability: does the wet-south signal verify **where it is strongest**? If not, L-14 governs and the C1 suppression leg — same composite machinery — downgrades with it.

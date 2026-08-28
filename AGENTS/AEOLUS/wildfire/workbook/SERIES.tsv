@@ -10,3 +10,8 @@ date	instrument	value	unit	source	pulled_at	notes
 2026-08-21	nifc_fires_ytd	50077	count	NIFC-NFN	2026-08-21	129% of 10-yr avg; +3,568 vs 8/12 read (46,509)
 2026-08-21	nifc_acres_pct_10yr_avg	171	pct	NIFC-NFN	2026-08-21	ACREAGE - NOT the cat-loss RED band; revised from 155 on 8/12
 2026-08-21	nifc_large_fires_uncontained	76	count	NIFC-NFN	2026-08-21	DOWN from 101 on 8/12; page field = Total Number of Large Fires Being Suppressed
+2026-08-27	nifc_preparedness_level	5	level	NIFC-NFN	2026-08-27	PL5 since 7/18/26 07:30 MDT = 41 days INCLUSIVE (40 elapsed); same inclusive convention as 8/12/8/21 rows
+2026-08-27	nifc_acres_ytd	7971399	acres	NIFC-NFN	2026-08-27	164% of 10-yr avg; +329,317 ac vs 8/21 read (7,642,082)
+2026-08-27	nifc_fires_ytd	51434	count	NIFC-NFN	2026-08-27	127% of 10-yr avg; +1,357 vs 8/21 read (50,077)
+2026-08-27	nifc_acres_pct_10yr_avg	164	pct	NIFC-NFN	2026-08-27	ACREAGE - NOT the cat-loss RED band; revised from 171 on 8/21; pct FELL despite absolute acres RISING because the to-date accreting 10-yr avg denominator grew faster (implied avg 8/21 ~4,469,053 -> 8/27 ~4,860,609)
+2026-08-27	nifc_large_fires_uncontained	94	count	NIFC-NFN	2026-08-27	UP from 76 on 8/21 (+18); page field = Total number of large fires (Current Active Large Fires); 7 new large fires reported yesterday, 1 contained

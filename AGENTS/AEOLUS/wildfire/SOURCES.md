@@ -6,9 +6,10 @@
 
 ## PERIL LEG
 
-### NIFC National Fire News — preparedness level, active fires, YTD acres ✅ verified 8/13
+### NIFC National Fire News — preparedness level, active fires, YTD acres ✅ verified 8/13, 8/21, 8/27
 `https://www.nifc.gov/fire-information/nfn`
 **Verified return (8/12 report):** PL **5**, **101** uncontained large fires, **6,447,442** acres YTD, **46,509** fires = **126%** and **155%** of 10-yr averages respectively.
+**Verified return (8/27 report):** PL **5** (set 7/18/26 07:30 MDT), **94** uncontained large fires (label = "Total number of large fires" / "Current Active Large Fires"), **7,971,399** acres YTD = **164%**, **51,434** fires = **127%**, **21,854** personnel. Field labels confirmed present: "Number of new large fires" (7), "Total number of large fires" (94), "Fires contained" (1). ⚠️ **10-yr-average fields still render BLANK in served HTML** — pct figures are narrative-derived, not from a labeled field (unchanged from 8/21).
 
 ### NIFC statistics (the numeric series)
 `https://www.nifc.gov/fire-information/statistics`
@@ -44,6 +45,17 @@ Drought was originally filed in this folder because it was the instrument I was 
 | **Climate Central** | the NCEI successor for event-loss framing |
 | **CA DOI** / **CA FAIR Plan** | non-renewal rates, residual-pool enrollment, assessments |
 | State insurance departments (WA, CO, OR, TX) | non-renewal + carrier-exit filings in newly-repricing states |
+
+### 🔑 Non-renewal rate — NATIONAL + REGIONAL, verified 2026-08-27
+**US Treasury FIO, "Analyses of U.S. Homeowners Insurance Markets, 2018-2022: Climate-Related Risks and Other Factors" (Jan 2025)** — built on the NAIC/FIO PCMI Data Call (80% of HO-3/HO-5 policies nationwide by premium).
+```
+curl -sL -A "Mozilla/5.0" -o fio_report.pdf "https://home.treasury.gov/system/files/311/Analyses_of_US_Homeowners_Insurance_Markets_2018-2022_Climate-Related_Risks_and_Other_Factors_0.pdf"
+python3 -c "from pdfminer.high_level import extract_text; open('fio_report.txt','w').write(extract_text('fio_report.pdf'))"
+grep -n -i "nonrenewal rate" fio_report.txt
+```
+**Verified return (8/27):** ~3.4MB PDF, extracts cleanly with pdfminer.six. **Definition (p.7, verbatim): "Nonrenewal Rate = Count of Nonrenewals in Reporting Year / Policies in Force at End of Reporting Year."** National avg 2018-2022 = **1.04%** (rose to 1.20% by 2022). By national climate-risk (TLCR) quintile: Highest-Risk **1.61%** vs Lowest-Risk **0.90%**; Highest-Risk rose 1.10%→2.37%, 2018→2022. Southwest region (CA/AZ/NV/CO/NM/UT) **1.28%** avg, Highest-Risk category **1.92%**. Northwest region (WA/OR/ID/MT/WY/AK) **0.67%** avg, Highest-Risk **0.86%**. **Full detail → `workbook/LOG.tsv` 2026-08-27 `nonrenewal_gap_partially_closed`.**
+⚠️ **Vintage ceiling: data ends 2022, published Jan 2025. No 2023/2024/2025/2026 coverage** — the report's own limitations section says so. **No WA-state-specific cut** (regional only). **TX excluded from nonrenewal calc entirely** (insurer data gap, per report footnote).
+⚠️ **Failed on 2026-08-27:** `insurance.ca.gov/01-consumers/140-catastrophes/WildfireInsuranceInformation.cfm` → 404. `cfpnet.com/about-us/newsroom/policy-in-force-data/` → 404. Neither yielded a working command for a CA-specific or more-current (2023+) cut.
 
 ⚠️ **These are commercial publishers on their own schedule.** H1 figures land ~Jul–Aug; full-year ~Jan. **Between publications the loss leg is genuinely stale and should be labelled so** — do not substitute an acreage figure to fill the gap. That substitution is the exact error this folder's README is built to prevent.
 

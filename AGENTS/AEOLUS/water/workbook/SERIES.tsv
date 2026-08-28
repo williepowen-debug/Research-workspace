@@ -285,3 +285,42 @@ date	instrument	value	unit	source	pulled_at	notes
 2024-07-11	panama_max_draft_ft	48	feet	ACP-ADVISORY	2026-08-21	A-21-2024/A-27-2024: raised to 48 ft, effective 2024-07-11 [historical backfill from Monthly Ops Summary appended news article]
 2024-08-09	panama_max_draft_ft	49	feet	ACP-ADVISORY	2026-08-21	A-27-2024: raised to 49.0 ft (14.94 m) effective immediately, "based on the present and projected level of Gatun Lake" [historical backfill from Monthly Ops Summary appended news article]
 2024-08-15	panama_max_draft_ft	50	feet	ACP-ADVISORY	2026-08-21	A-33-2024: raised to 50 ft (15.24 m) -- FULL RECOVERY from the 44 ft drought trough [historical backfill from Monthly Ops Summary appended news article]
+2026-08-21	powell_elev	3519.07	ft	USBR-919-49	2026-08-27	
+2026-08-22	powell_elev	3518.96	ft	USBR-919-49	2026-08-27	
+2026-08-23	powell_elev	3518.79	ft	USBR-919-49	2026-08-27	
+2026-08-24	powell_elev	3518.56	ft	USBR-919-49	2026-08-27	
+2026-08-25	powell_elev	3518.59	ft	USBR-919-49	2026-08-27	small uptick (+0.03 vs 8/24), reported not explained; resumed falling next day
+2026-08-26	powell_elev	3518.48	ft	USBR-919-49	2026-08-27	
+2026-08-21	mead_elev	1039.38	ft	USBR-921-49	2026-08-27	
+2026-08-22	mead_elev	1039.31	ft	USBR-921-49	2026-08-27	
+2026-08-23	mead_elev	1039.27	ft	USBR-921-49	2026-08-27	
+2026-08-24	mead_elev	1039.23	ft	USBR-921-49	2026-08-27	
+2026-08-25	mead_elev	1039.16	ft	USBR-921-49	2026-08-27	
+2026-08-26	mead_elev	1039.05	ft	USBR-921-49	2026-08-27	
+2026-08-21	lees_ferry_q	7960	cfs	USGS-09380000-00060	2026-08-27	
+2026-08-22	lees_ferry_q	7780	cfs	USGS-09380000-00060	2026-08-27	
+2026-08-23	lees_ferry_q	7760	cfs	USGS-09380000-00060	2026-08-27	
+2026-08-24	lees_ferry_q	7940	cfs	USGS-09380000-00060	2026-08-27	
+2026-08-25	lees_ferry_q	7940	cfs	USGS-09380000-00060	2026-08-27	
+2026-08-26	lees_ferry_q	7910	cfs	USGS-09380000-00060	2026-08-27	
+2026-08-21	kaub_stage	45.0	cm	WSV-PEGELONLINE-KAUB	2026-08-27	daily mean of 15-min obs (n=96, complete); UNROUNDED mean 44.615; NNW 25.0, margin +19.615 | REVISED: supersedes the 8/21 partial-day row (n=93, mean 44.699)
+2026-08-22	kaub_stage	37.0	cm	WSV-PEGELONLINE-KAUB	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 37.010; NNW 25.0, margin +12.010
+2026-08-23	kaub_stage	45.0	cm	WSV-PEGELONLINE-KAUB	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 44.635; NNW 25.0, margin +19.635
+2026-08-24	kaub_stage	68.0	cm	WSV-PEGELONLINE-KAUB	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 67.802; NNW 25.0, margin +42.802
+2026-08-25	kaub_stage	72.0	cm	WSV-PEGELONLINE-KAUB	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 71.969; NNW 25.0, margin +46.969
+2026-08-26	kaub_stage	65.0	cm	WSV-PEGELONLINE-KAUB	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 65.406; NNW 25.0, margin +40.406
+2026-08-27	kaub_stage	60.0	cm	WSV-PEGELONLINE-KAUB	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 59.979; NNW 25.0, margin +34.979 | C5 3-day grade day, FAIL (>25)
+2026-08-21	duisburg_ruhrort_stage	152.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-27	daily mean of 15-min obs (n=96, complete); UNROUNDED mean 152.031; NNW 153.0, margin -0.969 | REVISED: supersedes the 8/21 partial-day row (n=93, mean 151.935); LAST DAY the joint-below run's Duisburg leg held
+2026-08-22	duisburg_ruhrort_stage	164.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 163.802; NNW 153.0, margin +10.802; crossed above NNW for the first time since the 8/09 run began
+2026-08-23	duisburg_ruhrort_stage	182.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 182.135; NNW 153.0, margin +29.135
+2026-08-24	duisburg_ruhrort_stage	170.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 170.354; NNW 153.0, margin +17.354
+2026-08-25	duisburg_ruhrort_stage	170.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 170.208; NNW 153.0, margin +17.208 | C5 3-day grade day, FAIL (>153)
+2026-08-26	duisburg_ruhrort_stage	187.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 187.219; NNW 153.0, margin +34.219 | C5 3-day grade day, FAIL (>153)
+2026-08-27	duisburg_ruhrort_stage	194.0	cm	WSV-PEGELONLINE-DUISBURG-RUHRORT	2026-08-27	daily mean of 15-min obs (n=96); UNROUNDED mean 194.146; NNW 153.0, margin +41.146; highest reading in this folder's Duisburg record | C5 3-day grade day, FAIL (>153)
+2026-08-25	usdm_conus_none	22.53	pct	USDM-API-CONUS	2026-08-27	CONUS (not Total); mapDate 2026-08-25, released Thu 8/27
+2026-08-25	usdm_conus_d0d4	77.47	pct	USDM-API-CONUS	2026-08-27	CONUS (not Total)
+2026-08-25	usdm_conus_d1d4	56.61	pct	USDM-API-CONUS	2026-08-27	CONUS (not Total). 4th straight week up; move +3.91pp vs 8/18 (prior week move was +2.32pp) — acceleration itself accelerating
+2026-08-25	usdm_conus_d2d4	31.59	pct	USDM-API-CONUS	2026-08-27	CONUS (not Total)
+2026-08-25	usdm_conus_d3d4	11.76	pct	USDM-API-CONUS	2026-08-27	CONUS (not Total)
+2026-08-25	usdm_conus_d4	1.75	pct	USDM-API-CONUS	2026-08-27	CONUS (not Total); +0.40pp w/w = +30% again, same pct move as the prior week
+2026-08-27	rosario_stage	2.87	m	UNL-FICH-ROSARIO	2026-08-27	grain-export gauge; delta -0.04; published ALERT level 5.00 (flood, not low-water); 91.5th pctile of 366-day trailing dist (min 1.08 P10 1.40 med 2.21 max 3.03), down from 96.2nd (8/21) and 99th (8/13)

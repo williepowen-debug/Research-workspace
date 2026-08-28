@@ -1,17 +1,49 @@
 # AEOLUS · WATER — live dossier
 
-**As-of: 2026-08-21.** All figures primary (USDM API / USBR / USGS NWIS / WSV / FR / ACP / OVF / UNL-FICH / CJH). Consolidated from KB-AEO-035/036/041/044/047-052/054/056 + the 2026-08-21 worker pass.
+**As-of: 2026-08-27.** All figures primary (USDM API / USBR / USGS NWIS / WSV / FR / ACP / NWS-AHPS / ACP-Gatun-CSV / OVF / UNL-FICH). Consolidated from KB-AEO-035/036/041/044/047-052/054/056 + the 2026-08-21 and 2026-08-27 worker passes.
 
-> **Last real data refresh: 2026-08-21**  ·  **Dossier written: 2026-08-21**
+> **Last real data refresh: 2026-08-27**  ·  **Dossier written: 2026-08-27**
 > *Two-clock header (PAT-044) — `scripts/ledger_staleness.py` reads the first line. **The data date, not the edit date**: a hygiene edit must NOT bump it.*
 > **Observations → `water/workbook/SERIES.tsv`** · findings → central `workbook/KB.tsv` · synthesis → `STATUS.md`. **Flow is one-way.**
 > **Feeds:** C2 · C4 · C5 · C6 (root: owns drought + reservoirs + streamflow + river stage)
+> **🔴 8/27 worker pass headline: TWO NEW INSTRUMENTS FOUND — Gatun Lake elevation (1965-present daily series + a forward projection tied to draft steps) and a working Mississippi low-water reference at Memphis (NWS AHPS, `lowThreshold -8 ft`). Both close named gaps this folder had carried as UNINSTRUMENTED. AEOLUS: register both in SOURCES.md/AGENT.md's controlled vocabulary — not done by the worker, per the no-invented-instrument-name limit.**
 
 ---
 
 ## 1. DROUGHT — the shared upstream input
 
-### 🔴 8/21 UPDATE — third straight week with every tier up, and the geography has SPLIT harder
+### 🔴 8/27 UPDATE — a FOURTH straight week up, and the acceleration itself is accelerating
+
+| Category | 8/11 | 8/18 | **8/25** | Move 8/18→8/25 |
+|---|---|---|---|---|
+| **D1–D4** (drought) | 50.38% | 52.70% | **56.61%** | **+3.91 pp** (prior week +2.32 pp) |
+| D0–D4 | 73.62% | 76.21% | **77.47%** | +1.26 pp |
+| D2–D4 | 29.50% | 29.87% | **31.59%** | +1.72 pp |
+| D3 (extreme) | 10.27% | 10.60% | **11.76%** | +1.16 pp |
+| D4 (exceptional) | 1.04% | 1.35% | **1.75%** | **+0.40 pp = +30% in a week, again** |
+
+*CONUS, valid 8/25 (mapDate), released Thu 8/27. Total (US+PR) D1–D4 = 47.56% — a 9.05 pp gap vs CONUS; read `areaOfInterest`.*
+
+#### State cut, 8/18 → 8/25 (`StateStatistics?aoi=<2-digit FIPS>` — the corrected recipe, confirmed working)
+
+| Deteriorating | D1 8/18→8/25 | D4 8/18→8/25 |
+|---|---|---|
+| **OK** | 94.64% → **100.0%** | 8.68% → **12.06%** |
+| **TX** | 36.11% → **57.36%** | 1.42% → **2.49%** |
+| **AR** | 71.01% → **84.90%** | 0.99% → 0.99% |
+
+| Improving / mixed | D1 8/18→8/25 | D0 (any dryness) |
+|---|---|---|
+| **IL** | flat (0%) | 5.53% → **4.42%** (further improved) |
+| **IN** | flat (0%) | 0.00% → 0.00% (fully clear, unchanged) |
+| **IA** | 19.64% → 19.64% (flat) | 30.48% → 30.52% (flat) |
+| **NE** | 77.82% → **67.43%** (improved) | 87.04% → **82.70%** (improved) |
+
+⇒ **The southern-Plains/corn-belt split from 8/18 not only held, it sharpened further.** OK is now **100% D1+**, D4 up 40% w/w. TX D1 nearly doubled (36.11→57.36) — the earlier "TX improving" read from the raw `none` figure was a **denominator-direction error** (falling `none` = MORE area affected, not less); TX is deteriorating, not recovering. NE continues to improve, unlike OK/TX/AR. **Pull the state cut before reading a national drought headline into C2 or C4** — unchanged discipline from 8/13/8/21.
+
+---
+
+### 🔶 8/21 UPDATE — third straight week with every tier up, and the geography has SPLIT harder
 
 | Category | 8/04 | 8/11 | **8/18** | Move 8/11→8/18 |
 |---|---|---|---|---|
@@ -68,7 +100,25 @@
 
 ## 2. 🔴 THE COLORADO SYSTEM (C6)
 
-### 🔴🔴 8/21 — THE ROD IS SIGNED, AND POWELL BROKE ITS ALL-TIME LOW ON 8/15
+### 🔴 8/27 UPDATE — both reservoirs still falling every day; margins narrowing at a stated, unextrapolated rate
+
+| Instrument | Value | As-of | Margin | 6-day rate (8/20→8/26) |
+|---|---|---|---|---|
+| **Lake Powell** | **3,518.48 ft** | 8/26 | **8.48 ft above** ROD protection line **3,510 ft**; **1.44 ft below** the pre-8/15 all-time-low record 3,519.92 | **−0.12 ft/day** |
+| **Lake Mead** | **1,039.05 ft** | 8/26 | **4.05 ft above** Hoover economic threshold **1,035 ft** *(was 4.44 on 8/20 — margin narrowed 0.39 ft in 6 days)* | **−0.065 ft/day** |
+| **Lees Ferry release** | **7,905.0 cfs** (8/13–26 mean, n=14, no gaps) | 8/26 | **−41.06%** vs 2018-25 same-window mean **13,411.6 cfs** *(was −41.5% on the 8/13–20 window — deficit essentially flat, not deteriorating)* | — |
+
+**Powell daily series 8/21→8/26:** 3519.07 · 3518.96 · 3518.79 · 3518.56 · **3518.59 (uptick)** · 3518.48. **20 of 21 daily declines 7/29→8/26**, the lone exception 8/24→8/25 (+0.03 ft) — noted, not explained; resumed falling next day.
+**Mead daily series 8/21→8/26:** 1039.38 · 1039.31 · 1039.27 · 1039.23 · 1039.16 · 1039.05 — **6 of 6 straight declines**, no plateau this window (unlike the 8/14–17 plateau).
+
+⚠️ **Implied dates, extrapolated at the stated 6-day rate — reported per L-16, NOT asserted as a forecast:**
+- **Mead reaches 1,035 ft:** margin 4.05 ft ÷ 0.065 ft/day ≈ **62 days → ~2026-10-27**, *if* the current rate holds.
+- **Powell reaches 3,510 ft:** margin 8.48 ft ÷ 0.12 ft/day ≈ **71 days → ~2026-11-04**, *if* the current rate holds.
+- **Driver check (L-16), not transferred automatically:** Lees Ferry release — the water that refills Mead — sits at a flat **−41% deficit level** across two consecutive 8-day windows, not a still-worsening slope. A flat deficit is a different input than an accelerating one; **AEOLUS decides whether a straight-line extrapolation off a 6-day window is more or less reliable than the 5-year Aug→Sep seasonal base rate this folder already flagged as contaminated (§ AEO-10).**
+
+---
+
+### 🔴🔴 8/21 (superseded by the above; retained) — THE ROD IS SIGNED, AND POWELL BROKE ITS ALL-TIME LOW ON 8/15
 
 **Two of this folder's three standing watches resolved inside the 8/13→8/21 dark window.**
 
@@ -226,7 +276,116 @@ The robust El Niño wet signal is the **Southwest / Lower Basin**. **Powell's in
 
 ## 3. 🔴 RIVER NAVIGATION (C5)
 
-### 🔴 8/21 UPDATE — the Rhine recovered hard; the lower Danube did not
+### 🔴 8/27 UPDATE — C5 3-day grade FAILS on both legs; Duisburg-Ruhrort now RISING hard; Mississippi and Panama-Gatun gaps CLOSED
+
+#### C5 upgrade-trigger grade — 3 most recent COMPLETE days (report only, AEOLUS grades)
+
+**Complete-day rule applied: n≥90/96 15-min readings; 8/28 excluded as partial (n=15).**
+
+| Date | Kaub mean (unrounded) | ≤25? | Duisburg mean (unrounded) | ≤153? | Joint |
+|---|---:|---|---:|---|---|
+| 8/25 | **71.969** | ❌ FAIL | **170.208** | ❌ FAIL | **FAIL** |
+| 8/26 | **65.406** | ❌ FAIL | **187.219** | ❌ FAIL | **FAIL** |
+| 8/27 | **59.979** | ❌ FAIL | **194.146** | ❌ FAIL | **FAIL** |
+
+**Verdict: FAIL / FAIL / FAIL — the trigger is not close.** Both legs sit 35–47 cm (Kaub) and 17–41 cm (Duisburg) above their NNW on every one of the 3 most recent days. **Full 7-day complete-day table below.**
+
+#### Full Rhine trigger-leg table, 8/21→8/27 (all n=96, complete days; 8/21 REVISES the 8/21-partial row logged at closeout 8/21)
+
+| Date | Kaub mean | vs NNW 25 | Duisburg-Ruhrort mean | vs NNW 153 |
+|---|---:|---:|---:|---:|
+| 8/21 | 44.615 | +19.615 | **152.031** | **−0.969** *(still below — last day of the run)* |
+| 8/22 | 37.010 | +12.010 | 163.802 | +10.802 |
+| 8/23 | 44.635 | +19.635 | 182.135 | +29.135 |
+| 8/24 | 67.802 | +42.802 | 170.354 | +17.354 |
+| 8/25 | 71.969 | +46.969 | 170.208 | +17.208 |
+| 8/26 | 65.406 | +40.406 | 187.219 | +34.219 |
+| 8/27 | 59.979 | +34.979 | 194.146 | +41.146 |
+
+⇒ **Duisburg-Ruhrort crossed above its NNW for good on 8/22 and has been climbing since — 194.146 cm on 8/27 is the highest reading in this folder's entire Duisburg record.** This is a **change in direction from 8/21**, when Duisburg was still (barely) inside the joint-below condition. **Kaub troughed at 37.0 on 8/22, then also climbed hard** (peaking 71.969 on 8/25, easing slightly since). **Neither station shows any sign of returning toward its NNW.** The C5 joint-below run (11 days, 8/09→8/19, broken 8/20 — reported 8/21) remains the only run observed to date; nothing since has come close to restarting it.
+
+#### Danube — the below-LKV count COLLAPSED from 14 to 5, but with a genuine reversal at Pfelling
+
+**ArcGIS LKV query re-pulled 8/27** (same primary as 8/21): **44 stations total, 5 non-sentinel stations below their LKV** (down from **14 of 44** on 8/21):
+
+| Station | km | Current (cm) | LKV (cm) | Margin | LKV set |
+|---|---:|---:|---:|---:|---|
+| Pfelling (Bavaria) | 2305.5 | 222 | 226 | **−4** | 2018-08-22 |
+| Hofkirchen | 2256.9 | 164 | 166 | **−2** | 2003-08-27 |
+| Kvassay zsilip | 1642.2 | 26 | 28 | **−2** | 2018-10-24 |
+| Baja | 1478.7 | 26 | 27 | **−1** | 2018-10-26 |
+| Duna Mohács | 1446.9 | 43 | 50 | **−7** | 2018-10-26 |
+
+**Longest contiguous run: 2 stations (Pfelling→Hofkirchen, 48.6 km), tied with Baja→Mohács (2 stations, 31.8 km).** Down sharply from **11 stations / 195.3 km** on 8/21. **The Hungarian middle reach (Vác through Dombori) has fully recovered** — Vác now **+10** above LKV (was +16 on 8/21, still positive), Budapest **+9** (was +8).
+
+⚠️ **Pfelling is a genuine REVERSAL, not noise.** DOSSIER's 8/21 pass recorded Pfelling as **"+30 ✅ recovered."** It is now **−4, below its (real, non-sentinel, 2018-08-22) LKV again.** Hofkirchen (−2, LKV set 2003-08-27) was not in the 8/21 named table at all — plausibly a new below-crossing this week. **Both are in the UPPER (German/Bavarian) reach — the one that had fully recovered on 8/21 — while the middle Hungarian reach that was still deteriorating on 8/21 has now recovered.** The divergence pattern **flipped ends** in 6 days; report as observed, do not assume persistence in either direction.
+
+`Novo Selo` still shows `LKV_viszony=-1` but is correctly excluded — its `LKVIdopont` is the `1799-12-31` sentinel.
+
+#### Paraná at Rosario — still near the top of its range, receding from the peak
+
+**UNL-FICH primary, 8/27: Rosario 2.87 m** (Δ −0.04 from 8/26), down from 2.97 on 8/21 and 3.02 on 8/13. **Santa Fe 3.00 m** (flat) · **Corrientes 2.78 m** (Δ −0.01). *(Villa Constitución 2.26 · Diamante 3.17 · Barranqueras 2.77.)*
+
+**Full 366-day trailing distribution re-pulled (`fich.unl.edu.ar/cim/rios/historico/39`):** min **1.08** · P05 **1.34** · P10 **1.40** · median **2.21** · P75 **2.51** · P90 **2.85** · P95 **2.93** · max **3.03**. **Current 2.87 m ranks at the 91.5th percentile** — down from 96.2nd (8/21) and 99th (8/13), a real but modest recession from the trailing-year high, **not** a move toward the P10≈1.40 working low-water reference. **Still not firing, not close.**
+
+#### 🔴 Mississippi / Ohio — GAP CLOSED, working command + documented low-water reference found
+
+**Two working primaries, both verified live 8/27:**
+
+**(1) NWS AHPS (`api.water.noaa.gov`) — Memphis, TN (`MEMT1`, = USGS 07032000):**
+```bash
+curl -s "https://api.water.noaa.gov/nwps/v1/gauges/MEMT1"
+```
+Returns `status.observed.primary` (current stage, ft) **and** `lowThreshold` (a **published low-water reference**, ft). **Verified 8/27: observed 12.47 ft (valid 2026-08-28T01:00Z) · `lowThreshold = -8 ft`.** Margin: **20.47 ft above** the AHPS low-water threshold — not close to a low-water event at Memphis. Flood categories also carried (action 28 · minor 34 · moderate 40 · major 46 ft) for context, not relevant here.
+
+**(2) Same API, Baton Rouge, LA (`BTRL1`):**
+```bash
+curl -s "https://api.water.noaa.gov/nwps/v1/gauges/BTRL1"
+```
+**Verified 8/27: observed 14.43 ft**, rising (USGS 07374000 dv confirms: 9.69→10.61→11.80→12.82→13.58 ft, 8/22→8/26). ⚠️ **No `lowThreshold` published for this gauge** (`null`) — cite level only, no reference yet.
+
+**(3) USGS NWIS, St. Louis, MO (07010000), gauge height (00065):**
+```bash
+curl -s "https://waterservices.usgs.gov/nwis/dv/?format=json&sites=07010000&parameterCd=00065&startDT=2026-08-20&endDT=2026-08-27"
+```
+**Verified 8/27: 8.15 (8/23) → 7.68 → 6.84 → 6.25 → 4.27 ft (8/27)** — a **fast, real decline (~1 ft/day the last 2 days)**, reported as observed, **not** graded and **no low-water reference found for this gauge yet** (AHPS lid untried/unresolved this session).
+
+**(4) USGS NWIS, Memphis (07032000), discharge (00060) — corroborating, not a stage series:**
+```bash
+curl -s "https://waterservices.usgs.gov/nwis/dv/?format=json&sites=07032000&parameterCd=00060&startDT=2026-08-20&endDT=2026-08-27"
+```
+**Verified: 508,000 → 597,000 → 586,000 cfs, 8/20→8/26** — a robust, rising-then-plateauing flow, consistent with the AHPS stage read (well above any low-water signature; 2022's Memphis drought low was in the ~100–150 kcfs range for scale, uncited/approximate, not a registered reference).
+
+⚠️ **No instrument name registered.** Per AGENT.md's hard limit, none of the four series above were written to `SERIES.tsv` under an invented name. **Proposed names for AEOLUS to approve:** `memphis_stage` (ft, `NWS-AHPS-MEMT1`, carries `lowThreshold −8`), `batonrouge_stage` (ft, `NWS-AHPS-BTRL1`, no threshold yet), `stlouis_stage` (ft, `USGS-07010000-00065`), `memphis_q` (cfs, `USGS-07032000-00060`). **Memphis is the strongest candidate to register first — it is the only one of the four with both a live command and a documented low-water reference**, closing the highest-value named gap in this folder (root CLAUDE.md's "Rhine/Mississippi level vs navigable minimum" threshold row has had no Mississippi metric surface at all until this pull).
+
+#### 🔴🔴 Panama — Gatun Lake elevation is now INSTRUMENTED (was declared UNINSTRUMENTED 8/21)
+
+**The lead named in SOURCES.md — "Daily average level of Gatun Reservoir for the last 12 months" — resolved.** Chased via the live ACP site nav (not the dead Tableau URL): the working page is `https://evtms-rpts.pancanal.com/eng/h2o/index.html` ("Gatun Water Level Indicators"), which links four assets:
+
+```bash
+curl -sLk -A "Mozilla/5.0" "https://evtms-rpts.pancanal.com/eng/h2o/Download_Gatun_Lake_Water_Level_History.csv"
+curl -sLk -A "Mozilla/5.0" "https://evtms-rpts.pancanal.com/eng/h2o/Gatun_Water_Level_Projection.csv"
+```
+
+**Verified 8/27 — both HTTP 200, both CSV, both plain and re-pullable:**
+- **History CSV: `DATE_LOG,GATUN_LAKE_LEVEL(FEET)` — daily, 1965-01-01 → 2026-08-26, 22,518 data rows.** Latest 10 days: 84.13 · 84.13 · 84.09 · 84.05 · 83.99 · 83.97 · 83.92 · 83.86 · 83.84 · **83.80 ft (8/26)**. Trend 8/17→8/26 (9 days): −0.33 ft, ≈ **−0.037 ft/day**.
+- **Projection CSV: `projected_date,projected_gatun_water_level,surcharge_pcent,max_neopanamax_draft_ft,max_panamax_draft_ft`** — a forward series through **2026-10-27**, tying lake level directly to the operational drafts. Projects the lake easing from 83.7 ft (8/28) to **82.7 ft by 10/27**, with `max_neopanamax_draft_ft` stepping **48.5 → 48.0 (~9/12–13) → 47.5 (~10/9)**.
+
+⚠️ **The projection's own draft-step dates do NOT match A-29-2026's officially announced dates.** A-29-2026 (the numbered advisory, primary-verified 8/21) states 48.0 ft effective **9/2** and 47.5 ft effective **10/1**; this projection CSV shows the *modeled* step-downs at **~9/12–13** and **~10/9** — roughly **10 and 8 days later** than the advisory. **Two ACP publications disagree on the schedule and both are primary.** Reported as observed, not reconciled — **AEOLUS's call which governs** (the numbered Advisory to Shipping is likely the binding/legal instrument; the CSV may be an internal planning tool that has since assumed a slower drawdown than the advisory's worst case).
+
+**Corroboration:** current 83.80 ft (8/26) sits **1.22 ft below** the one previously-known spot reading in this folder (**85.02 ft, 2024-08-09**, from advisory A-27-2024) at a comparable point in the season — consistent with 2026 being a drier year, and inside the carried 82–87 ft PLD "normal operating range." Units (feet) and rough magnitude both self-consistent with the only prior anchor.
+
+⚠️ **Not yet added to `SERIES.tsv`** — same no-invented-instrument-name limit as Mississippi. **Proposed name: `gatun_elev` (ft, `ACP-GATUN-CSV`, daily).** This is the single highest-value finding of this session — it converts Panama's water-level leg from a zero-data gap into a 61-year daily series with a live forward projection, and it is a *different* variable from the `panama_transits` instrument already tracked (ACP itself states the draft/booking restrictions are keyed to lake level, not transits).
+
+**Attempted and declined, per instructions (bounded effort):** the Tableau URL from 8/21 (`apps.pancanal.com/t/TI/views/GatunH2OIndicators/GatunWaterLevel`) was re-tried. **It now returns HTTP 200 at 55,605 B — but the content is ACP's unrelated internal procurement/tender portal ("Sistema de Licitaciones por Internet"), not a Gatun viz.** This is a **definitive does-not-resolve for that specific URL** (not a repeat of the 8/21 cert/JS-blocked read) — do not re-try it; use the CSV links above instead.
+
+#### 🔶 A-30-2026 checked — NO further postponement or deepening beyond A-29-2026
+
+**Advisory index scanned through A-30-2026 (the newest entry as of 8/27).** `A-30-2026`, dated **2026-08-25**, subject *"Modifications to the Transit Reservation (Booking) System"* — read in full at the primary PDF. **Content is booking/tiebreaker procedural rule changes only** (slot-reallocation priority order for cancelled slots, Last-Minute Transit Reservation eligibility wording, LoTSA/Net Zero swap-vs-substitution rules). **No draft figure, no slot-count figure, no watershed hydrology, no schedule change.** A-29-2026's **9/1 slot cap (32/day)** and **draft postponements (48.0 ft → 9/2, 47.5 ft → 10/1)** stand unmodified as of this pull.
+
+---
+
+### 🔶 8/21 UPDATE (superseded by the above; retained) — the Rhine recovered hard; the lower Danube did not
 
 **Rhine daily means (UNROUNDED — grading basis), 8/13 → 8/21:**
 
@@ -432,7 +591,16 @@ Water is the **third constraint on AI data centers after credit and power**. **N
 
 ## OPEN QUESTIONS / GAPS
 
-*(Refreshed 2026-08-21. Items 1, 4 and 5 from the 8/13 list are RESOLVED — kept below with their outcome so the record shows what closed.)*
+*(Refreshed 2026-08-27. New items 11-14 below; items 1-10 are the 8/21 list, kept for continuity.)*
+
+11. ✅ **RESOLVED 8/27 — Mississippi/Ohio gauge + low-water reference.** NWS AHPS `MEMT1` (Memphis) gives a live stage AND a published `lowThreshold` (−8 ft); current margin 20.47 ft, not stressed. See §3. **AEOLUS: approve instrument name(s) — proposed `memphis_stage` / `batonrouge_stage` / `stlouis_stage` / `memphis_q` — before the worker can log to SERIES.tsv.**
+12. ✅ **RESOLVED 8/27 — Panama Gatun Lake elevation.** A 61-year daily CSV + forward projection exist at a live ACP host (`evtms-rpts.pancanal.com`), found via the site's own nav menu, not the dead Tableau URL. Current 83.80 ft (8/26), inside the 82-87 ft normal range but 1.22 ft below the one prior spot-anchor (85.02 ft, 8/2024). **AEOLUS: approve `gatun_elev` (ft) before the worker can log to SERIES.tsv — this is the highest-value open item this folder has closed.**
+13. **🆕 The Gatun projection CSV and A-29-2026's published draft-step dates DISAGREE by 8-10 days** (CSV models 48.0 ft ~9/12-13 and 47.5 ft ~10/9; the Advisory states 9/2 and 10/1). **AEOLUS owns which is binding for AEO-04 grading.**
+14. **🆕 C5 3-day grade (8/25-27): FAIL/FAIL/FAIL on both legs**, Duisburg-Ruhrort now at its highest reading in this folder's record (194.146 cm, 8/27). The trigger is not close; **AEOLUS decides whether the 11-day near-miss run (8/09-19, reported 8/21) remains relevant context or should be treated as fully closed.**
+
+---
+
+*(8/21 list below, superseded items retained for history.)*
 
 1. ✅ **RESOLVED — Powell record break.** First print below 3,519.92 was **2026-08-15 (3,519.91)**; 8/20 is **3,519.20**, 0.72 ft through. **AEO-06 is AEOLUS's to grade — the worker did not fire it.**
 2. **🔴 STILL OPEN — base-rate USBR's 24-month-study projection error.** AEO-10's confidence still rests on a 2.1 ft buffer with **no error bar**. ⚠️ **The August 2026 24-Month Study was released with the 8/21 ROD** — it is the natural input, but **no 24-Month-Study URL is registered in `SOURCES.md`**, and the URLs tried on 8/21 returned **HTTP 404**. **Register a primary before the next attempt** (same class of blocker as the 8/13 Yangtze/Danube/Paraná gap).
