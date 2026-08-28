@@ -554,6 +554,14 @@ def mode_boot():
     run_script(ADVISE, "agent freshness (ground-truth vs narrative)", [sys.executable,
                "PROME/tools/agent_freshness.py", "--gate"],
                "run PROME/tools/agent_freshness.py --agent <NAME> before ANY launch brief; drain first")
+    # R1 corrections check (FORUM-6 ruling ①, Will-approved 2026-08-17; wired for PROME 2026-08-28 at the
+    # DAEDALUS R1 batch — BOOT.md rule: new fleet-wide checks land in THIS script, prose points here).
+    # rc=1 = a NAMED correction is unreceipted → read the pointer, receipt it, commit registry/corrections_receipts.tsv.
+    run_script(ADVISE, "R1 corrections check (FORUM-6 ①)", [sys.executable,
+               "scripts/corrections_boot_check.py", "PROME"],
+               "rc=1 = a NAMED correction is unreceipted: read the pointer, then "
+               "`scripts/corrections_boot_check.py PROME --receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` "
+               "and commit PROME/registry/corrections_receipts.tsv")
     check_gates_tsv()
     check_docket_overdue()
     check_will_queue()
