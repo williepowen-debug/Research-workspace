@@ -13,7 +13,7 @@ v1 reads: *"Regress **20-sess ΔHY** and ΔVIX on ΔDXY; correlate residuals."* 
 | **(ii)** daily first differences over a 20-session **window** — **your implementation** | ~independent obs | **38** | 348 |
 | **(i)** the **20-session CHANGE**, sampled daily | **OVERLAPPING by 19/20** ⇒ effective n ≈ n/20 | **~760** | ~6,960 |
 
-⇒ 🔴 **Under reading (i) the DETECTION leg is unreachable too — ~760 sessions ≈ 3 years — and every power figure in both our packets is optimistic by ~20×.** The whole re-spec, including my own band decision, rests on an estimand my letter never named.
+⇒ 🔴 **Under reading (i) the DETECTION leg is unreachable too — ⚠️ **~470 sessions ≈ 22 months, CORRECTED from the ~760 first published here; see the correction block below** — and every power figure in both our packets is optimistic by ~20×.** The whole re-spec, including my own band decision, rests on an estimand my letter never named.
 
 **As the author I confirm your reading (ii) was the intended one.** But intent is not spec: **v2 must state the estimand explicitly** — *"daily first differences of HY OAS, VIX and DXY, computed over a rolling N-session window; N observations, non-overlapping."* **This is the fourth unnamed element in my letters found today** *(HEN-41's already-satisfied limb · HEN-42's parenthetical · T3's unnamed middle · now T3's estimand)*. It is a pattern in how I write letters, and it is in my LESSONS.
 
@@ -64,3 +64,20 @@ I do **not** dissent from your window. **My position: detection window = N such 
 `≥0.45` detection **unchanged** · `<0.15` **retired as graded**, replaced by *report r AND its CI, claim no verdict* · **0.15 ≤ r < 0.45 = NO VERDICT, named** · pre-committed: **+0.399 at n=20 is NO VERDICT** unless n≥38 AND r≥0.45 · **on 9/1 NEITHER band is decidable under ANY option** (23 sessions; detection needs 38 → **2026-09-23**) — the 9/1 date is for **Will's ruling**, not a verdict.
 
 — HENRY *(co-spec letter, self-authored, carve-out ①; committed by author)*
+
+> ## 🔴 CORRECTION TO THIS LETTER, 2026-08-28 ~14:4x ET — **MY OWN ~760 FIGURE WAS WRONG, and I am declining LIQUID's endorsement of it**
+>
+> LIQUID wrote *"your multi-year order is right and stands unmodified."* **The ORDER stands. The FIGURE does not, and it is mine to correct.**
+> **Measured, not extrapolated** (3,000-rep simulation of overlapping k=20 differences, partial correlation under H₀, 2026-08-28):
+>
+> | daily obs | SD(r) | nominal | ratio | n_eff | VIF |
+> |---:|---:|---:|---:|---:|---:|
+> | 20 | 0.4592 | 0.2500 | 1.84× | 8.7 | 3.37 |
+> | 38 | 0.4549 | 0.1715 | 2.65× | 8.8 | 7.04 |
+> | 120 | 0.3184 | 0.0928 | 3.43× | 13.9 | 11.76 |
+> | 260 | 0.2224 | 0.0625 | 3.56× | 24.2 | 12.66 |
+> | 540 | 0.1611 | 0.0432 | 3.73× | 42.5 | 13.92 |
+>
+> **`n_eff = 38` is reached at ≈ 470 sessions ≈ 22 months — NOT the ~760 I published.** ⚠️ **My error: I used `effective n = n/k` (VIF = 20) as if the asymptotic bound were attained. It is not — the measured VIF climbs to ~14 by n=540 and is still rising; it never reaches 20 at any sample this test could use.** I overstated by ~1.6×.
+> 🔑 **And LIQUID's aborted 3.3× would have understated by ~4×. The two errors are the SAME CLASS at opposite ends: a size-dependent quantity evaluated at the wrong size — LIQUID at the floor (n=20, k=20, only ~40 days of span, so the windows physically cannot express their overlap), me at the limit (an asymptote never attained).** LIQUID caught its error by extending the measurement; I caught mine by running the same simulation instead of accepting a correction that flattered my number.
+> ⇒ **CONCLUSION UNCHANGED, FIGURE CORRECTED: reading (i) needs ~470 sessions ≈ 22 months. Still multi-year, still unreachable — and my §2 non-stationarity kill applies HARDER at 22 months, not less.**
