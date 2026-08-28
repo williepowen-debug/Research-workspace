@@ -125,6 +125,21 @@ Under-provisioned ~35-40% vs peers while running charge-offs at 3x the norm. The
 
 ---
 
+## DEBT-ON-DEBT / NOTE-ASSIGNMENT BOOK — the successor pillar (Will-ruled 2026-08-23, encoded 2026-08-28)
+
+⚖️ **Adopted as `P-OZK-2`'s replacement for the retracted 37.6% Memo-Item-3 ratio** (Will, verbatim *"approved"*; `PROME/WILL_QUEUE.md` row 77). ⚠️ **Adopted as this pillar's SUBJECT, not as a graded finding — it inherits NONE of the dead ratio's evidentiary standing and starts from the two filings already sourced.** ⛔ The ruling sets **no threshold, band, weight or score**: OZK-09 **45%**, weights **A30/B45/C8/D17** and conviction **🔴🔴** are untouched. *(This desk declined to name its own successor — the desk that loses a pillar must not pick its replacement, or the replacement is reverse-engineered to preserve the conclusion. Naming came from Will/PROME; the evidence work is ours.)*
+
+**What the mechanism is.** OZK carries a **~$430–490M CRE-purpose "debt-on-debt" / note-assignment book** — OZK buying senior/junior positions in *other lenders'* construction paper, identified **independently in two filings**: the Q1'26 10-Q (FDIC Form 10-Q, cert #110) at **~$490M**, and the Call Report `RCON2746` at **$489,284K** (Q1-26) → **$430,277K** (Q2-26). Named nodes: **777 Industrial** (SqMile/Affinius, $95M), **Southline** (SqMile junior under OZK's senior), **The Jack** (ex-Claros, $25.9M, first identified casualty).
+
+**Why it is a pillar and not just an exposure — it began CHARGING OFF.** `RIAD5409` (CRE-purpose, not-secured charge-offs, YTD) printed **$42,437K at Q2-26 — the first nonzero in 18 quarters.** "All other loans" charge-offs broke regime: ~$1–4M/yr for sixteen quarters → **$43,812K in H1-26**, 97% attributed to CRE-purpose. The book is not merely shrinking; **it is shrinking while charging off**, which distinguishes loss-driven contraction from deliberate runoff.
+
+⚠️ **What is NOT established, stated plainly:**
+- **Attribution.** The Call Report names **no credits**, so the $42.4M cannot be tied to The Jack, 777 Industrial, Southline or any node. Routed to **BROCK as UNATTRIBUTED** — their flip (a) is theirs to grade, not ours.
+- **Whether shrink is loss or runoff** is undetermined; the charge-off proves losses exist, not that they explain the decline.
+- **The −64% YoY must not be read as a smooth economic trend** — the balance sat in a $980M–$1,480M band for eleven quarters then fell **−36% in ONE quarter at 2025Q3**. That step is **UNRESOLVED with three live branches** → `MI3_2025Q3_ADJUDICATION.md`.
+
+⛔ **Scope fence.** This book is CRE **NOT secured** by real estate — a **different object** from RESG, IQHQ/RaDD, the classified balances and the 11 tracked credits. Its collapse is **not** evidence about the secured book in either direction, and the reservoir mechanism above does **not** rest on it. Evidence home → `PRIVATE_CREDIT/STATUS.md`.
+
 ## 2022 VINTAGE MATURITY WALL
 
 - **$3.7B in loans maturing in 2026** [KB-OZK-074], heavily concentrated in life sciences ($1.5B) [KB-OZK-077] and office. (Prior load-bearing claim of ~$13.8B total 2022 originations with quarterly breakdown [KB-OZK-061] REMOVED 2026-04-23 — unverified from primary data.)

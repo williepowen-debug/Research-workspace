@@ -4,7 +4,7 @@
 
 ---
 
-**Verdict:** **NO EVIDENCE** — Bank OZK has publicly represented (on the record, March 19, 2026) that RaDD is its ONLY IQHQ credit. Gleason's "any other project" phrasing reads as a reference to IQHQ's other projects generally, not to OZK-financed ones. Playbook's $140M weighted EL on $555M RaDD stands unchanged.
+**Verdict:** **NO EVIDENCE** — Bank OZK has publicly represented (on the record, March 19, 2026) that RaDD is its ONLY IQHQ credit. Gleason's "any other project" phrasing reads as a reference to IQHQ's other projects generally, not to OZK-financed ones. Playbook's weighted EL on $555M RaDD stands unchanged **by this finding** — ⚠️ the figure itself is now **~$129M** (7/23 Will-approved reweight; this line said $140M until the 2026-08-28 sweep, which caught line 53 and missed this one on its first pass — found by `consumer_check --self`).
 
 ---
 

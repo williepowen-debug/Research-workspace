@@ -4,7 +4,12 @@
 
 ---
 
-## RESOLVED (Apr–Jul 2026 — outcomes logged this revival; pruning scheduled)
+## RESOLVED (Apr–Jul 2026) — ⚠️ **PRUNE OWED, deliberately NOT executed 2026-08-28**
+
+> The file's own rule is *"RESOLVED events older than ~2 weeks get removed at next update"* and this block is **7-19 weeks old** — overdue, and it has said *"pruning scheduled"* since the July revival, which is a scheduling claim nobody was ever going to discharge.
+> **Not pruned today, and the reason is a rule that outranks the pruning rule:** root Data-Hygiene's **pending-event carve-out** — a row that is the registered artifact of a **pending dated event** is not retirement-eligible however old. Several rows here are load-bearing for **live** items (the May Bluerock-NAV and Aimco-MTD checks were **RE-OPENED today**; the May-12 WAL Investor Day row is the source of an Open-Item just corrected by WAL). Pruning them at a closeout, to satisfy a tidiness rule, would delete the provenance of three currently-open threads.
+> **Owed as its own task, not a closeout side-effect:** prune row-by-row against the open queue, keeping any row a live doc travels. Logged `TODO.md`.
+
 
 | Date | Event | Outcome |
 |------|-------|---------|
