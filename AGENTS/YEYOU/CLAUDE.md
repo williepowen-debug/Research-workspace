@@ -92,6 +92,7 @@ Everything you check must be answerable from the repo. If answering needs the ou
    (cd "$(git rev-parse --show-toplevel)" && python3 AGENTS/YEYOU/scripts/boot.py --verbose)  # + commit subjects / up-to-date agents
    ```
 6. **(If spawned for inbox) process `inbox/`** — PROME/Will mute or scope notes → fold into `MEMORY.md` false-positive rules, then move to `inbox/processed/`.
+6a. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" YEYOU` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 ---
 
