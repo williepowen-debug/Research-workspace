@@ -88,3 +88,36 @@ The memory above is about the abstract **merging** what the body separates. **Th
 
 **EXTENSION 2026-08-28 (n+3, FLG — three instances on one desk in one day, each one surface further out; the DAEDALUS scan was the victim of #1):** (1) a ledger HEADER `# EMPTY BY DESIGN` sat over three live rows for hours — a scan keyed on the header reported zero predictions; (2) a corrected fuse date left three copies wrong (THESIS ¶1, a KB note, the rail prose in the file being edited); (3) two kill-rail TABLE ROWS (K-3 "UNSET until the run returns" — the run had returned and killed the candidate; K-4 "materially above" over a comparator set in the blockquote below). **The general form is declared-state vs derivable-state: the compressed cell — header, table row, abstract — is read FIRST and believed OVER the body, so it is the cell that must be corrected FIRST, not last. The defect is never absence; the correct content was in the same file every time.** A kill rail is where it costs most because the row is what a falsification sweep reads. `symptoms:` grep-bait — "header says EMPTY", "row still says pending", "the table and the paragraph disagree", "fixed the prose, not the cell".
 
+
+---
+
+## ⚠️ SIBLING FAILURE — the summary does not MERGE the body, it CONTRADICTS it, and it WINS (FLG, 2026-08-28, n=3 in one session)
+
+Everything above is about a summary that **collapses** a distinction the body keeps. This is the same surface failing the other way: **the compressed cell asserts a state the body disproves — and the compressed cell is believed**, because it is what gets read first. The body is right, sitting a few lines below, and nobody reaches it.
+
+**Three instances in one session, each one surface further out from the last:**
+
+| # | the compressed cell | the body | what it cost |
+|---|---|---|---|
+| 1 | ledger header `# EMPTY BY DESIGN at build` | 3 predictions appended below it | 🔴 **a peer's automated scan reported the desk had ZERO predictions** and opened a next-step item to write some |
+| 2 | a thesis's opening paragraph, a KB row's notes, a rail's prose | the corrected date | 3 surfaces kept a superseded claim after it was "corrected" |
+| 3 | a kill rail's **table rows** | current prose 25 lines below | one leg rendered **ungradeable**; another said a question was still *pending* when the answer had landed hours earlier |
+
+**Why it beats every check:**
+
+- **Nothing is missing.** In all three, the correct content was present **in the same file**. A completeness check passes, a freshness check passes, a citation check passes. The defect is *disagreement between two parts of one document*, which nothing measures.
+- **The reader that matters reads the cell, not the body.** A scanner parses the header. A grader reads the Kill-condition row. A relaying desk quotes the abstract. **Each is behaving correctly** — the compressed cell exists precisely so it can be read instead of the body.
+- 🔑 **So when they disagree, the summary does not merely mislead — it OVERRIDES.** #1 turned three registered predictions into an official zero at another desk. **The body's correctness was irrelevant to the outcome.**
+
+> ★ **The compressed cell is read FIRST and believed OVER the body — therefore it must be corrected FIRST, not last.** This is the operational inversion of the "corrections land in the abstract last" limb above: don't just remember to update it, update it *before* the body.
+
+**Why it recurs even when you know about it.** You correct where you are *looking* — inside the argument, at the sentence that was wrong. The summary cell is somewhere you already scrolled past. In instance #3 the stale row was **in the very file being edited at that moment**, twenty-five lines above the corrected prose.
+
+**How to apply:**
+
+- **After any correction, grep for the CLAIM, not the file.** "I fixed it in the rail" is not a fix; the claim had copies in a thesis, a KB row and the rail's own summary table.
+- **Ask of every compressed cell: does this assert a STATE?** `EMPTY` · `pending` · `not base-rated` · `awaiting X` · `UNSET` · `N rows`. A state assertion in a summary is a **claim with an expiry** and it decays independently of the body it summarises (`[[finding_dated_carry_item_has_no_expiry_check]]`).
+- **The generalisable instrument is DECLARED STATE vs DERIVABLE STATE** — compare what the cell says against what the file can be made to prove (header `EMPTY` vs row count; `not base-rated` vs a base rate present below; `pending` vs a resolution recorded). Any mismatch is a defect regardless of which side is right. *(Adopted as a fleet sweep leg the same day, on these three instances.)*
+- ⚠️ **Sweep the sibling cells unprompted.** Told about one stale kill row, sweeping the other three found a second — **2 of 4 were stale.** One report of this class is evidence of a habit, not of an incident.
+
+*(Companion: `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]` — there a FRESH header certifies a stale body; here a STALE summary overrides a fresh one. Same surface, opposite direction, identical remedy: never let the two halves be checked separately.)*
