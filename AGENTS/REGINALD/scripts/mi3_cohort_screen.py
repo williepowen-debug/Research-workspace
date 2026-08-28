@@ -8,6 +8,20 @@
     freshness-checking the numbers inside it. Trust the rules; RE-MEASURE the
     figures each run. (Labelled 2026-08-20 after LESSONS.md was found teaching
     a WAL NDFI figure that had quadrupled while its rule stayed correct.)
+
+🔴 RULING 2026-08-28 — v1a DEFINITION REVISED. The prior v1a formula
+    `MI3 / (item 4 + item 9.a + item 9.b)` is SUPERSEDED. The current formula is
+    `v1a = MI3 / (item 4 + item 9.a)` — drop item 9.b (RCONJ464 for 041/051;
+    the 9.b component for 031). Basis: OZK's `RCONPV09 ≡ RCON2746` across 6 of 6
+    quarters proves MI3 is a 9.a mirror, not a distribution across 9.a and 9.b;
+    item 9.b is a heterogeneous residual catchall unrelated to the MI3 loan
+    population; cross-bank comparability requires a denominator matched to the
+    numerator's residence. See `reports/2026-08-13_MI3_cohort_rerun.md`
+    ADDENDUM 2026-08-28 and the WAL packet at `AGENTS/WAL/inbox/2026-08-28_
+    from-REGINALD_ruling-v1a-is-4-plus-9a-only-...md`. The 2026-11-07 cohort
+    refresh applies this at the code level; until then any prior-run cohort
+    v1a Q2-2026 LEVEL is superseded and any prior-run RANK is UNVERIFIED (not
+    arithmetically recoverable — needs the re-run).
     [[finding_a_teaching_surface_ages_like_data]]
 WHAT THIS MEASURES
   Numerator  RCON/RCFD 2746 — "Loans to finance commercial real estate,
