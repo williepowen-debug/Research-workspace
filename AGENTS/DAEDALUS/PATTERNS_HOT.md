@@ -1,5 +1,5 @@
 # PATTERNS — HOT INDEX (GENERATED — do not hand-edit; regenerate via scripts/regen_patterns_hot.py)
-> One line per pattern; full sourced rows in `PATTERNS.tsv` (cold). Boot reads THIS file (425KB-spine fix, self-audit F37/B0). Generated 2026-08-26 · 133 rows · conservation: hot count MUST equal cold row count.
+> One line per pattern; full sourced rows in `PATTERNS.tsv` (cold). Boot reads THIS file (425KB-spine fix, self-audit F37/B0). Generated 2026-08-27 · 133 rows · conservation: hot count MUST equal cold row count.
 
 - **PAT-001** (2026-06-27, ANTI/B2) — Forcing the market template (KB/VX/FLOW, convergence matrix, TRADE.md) onto a non-market agent produces dead never-filled files.
 - **PAT-002** (2026-06-27, ANTI/B2) — "Open-ended ""watch the whole external landscape"" mandates drift and go stale."
