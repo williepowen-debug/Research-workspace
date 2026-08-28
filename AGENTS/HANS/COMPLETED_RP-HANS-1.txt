@@ -67,7 +67,8 @@ SCENARIO 2: LDI Crisis 2.0 (3-6 months) — 15% probability if triggered
 TRIGGERS TO MONITOR
 -------------------
 ⚠️ UK holdings < $800B (3-month decline)
-⚠️ Belgium > $550B or < $350B (China custody shift)
+⚠️ [RETIRED 2026-08-28 — DO NOT USE] Belgium > $550B or < $350B (China custody shift)
+   ^^ Retired because ZHAO FALSIFIED the underlying Belgium-as-China-custody-mirror premise (2026-08-21): rho(China net sales, Belgium net sales) = +0.05 over n=41, ~zero on every window; Belgium buys in 15 of 27 China-selling months (56%, a coin flip). A Belgium level move does NOT license a China-position inference. Retired in place rather than deleted so a future grep finds the retirement, not the threshold.
 ⚠️ Gilt-UST 10Y spread flips negative (UK repatriation)
 ⚠️ EUR/USD above 1.20 (unhedged EUR holders exit)
 ⚠️ Cross-currency basis < -50bps (hedging cost spike)

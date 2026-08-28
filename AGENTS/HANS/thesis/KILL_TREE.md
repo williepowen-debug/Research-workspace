@@ -1,0 +1,72 @@
+# HANS — FALSIFICATION SURFACE / KILL TREE
+**Created:** 2026-08-28 (revival session). **Owner:** HANS. **Cadence:** re-grade every session; a claim that survives three sessions un-challenged gets a fresh challenger written for it.
+
+**Why this file exists:** DAEDALUS's 2026-08-28 revival brief named it as the L3→L4 handle this desk lacked — *"no kill tree / falsification surface anywhere but STATUS."* A claim living only inside a narrative surface has no place to die. Each claim below names **what would kill it**, and where possible the **registered prediction** that does the killing.
+
+---
+
+## C-1 — 🔴 LOAD-BEARING · "Europe transmits to the US through the LONG END, not through growth"
+
+**Claim:** The German 10Y Bund at 3.29% (highest since March 2011) is **European term premium**, and Europe is an *independent source* of the synchronised global long-end repricing WALTER flagged in `SIG-W-20260819-004` — not a passenger to US fiscal supply.
+
+**Three-part evidentiary basis:** (a) tight periphery spreads (Italy 83bp, France 84bp) rule out a credit/fragmentation event; (b) a **strengthening** euro (1.145→1.16, DXY 101→99.7) rules out capital flight; (c) a named domestic driver exists — ECB hiking into a 4.5% Spain / 2.7% France energy passthrough, plus heavy long-end Bund supply from a €524.5B budget with €174.3B borrowing.
+
+| What kills it | Instrument | Status |
+|---|---|---|
+| **Periphery spreads widen sharply while the Bund rises** → it was a fragmentation event, not term premium | Italy-Germany >200bp, France-Germany >100bp | Not firing (83 / 83.6bp) |
+| **The euro weakens hard as the Bund rises** → capital flight, leg (b) dies | EUR/USD <1.10 while Bund >3.30 | Not firing (1.16) |
+| **The Bund reverses below 3.00% while the US 30Y stays ≥5.20%** → the move was US-sourced and Europe was the passenger | Bund daily close vs `^TYX` | Not firing |
+| **ECB does NOT hike Sept 10 and the Bund still rises** → the driver is not the ECB path | **Prediction HNS-05** | Open, resolves 2026-09-10 |
+| **The repricing runs far past what the ECB path justifies** → I under-called the size, mechanism may still hold | **Prediction HNS-08** (Bund does not close ≥4.00% before 12/31) | Open |
+
+⚠️ **Honest limit already stated:** I have not decomposed the Bund move into expectations vs term premium with a term-structure model. The three-part argument is an **exclusion argument** — it rules out the two rival explanations I can test — not a direct measurement of term premium. Anyone with a model should check it `[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]`.
+
+---
+
+## C-2 — 🔴 LOAD-BEARING · "The German PMI → US ISM lead now argues AGAINST an ISM sub-49 break"
+
+**Claim:** German Mfg PMI 54.1 (Aug flash), a 4-year high on a 7-month expansion streak, maps on the ~2-month lead to US ISM Mfg holding ≥50 into roughly October.
+
+| What kills it | Instrument | Status |
+|---|---|---|
+| **German Mfg PMI rolls back under 50** | **Prediction HNS-06** (≥50 on the Sept flash) | Open, ~2026-09-23 |
+| **US ISM prints <49 anyway in Sept/Oct** → the lead relationship itself is broken in this regime, not just the level | ISM Mfg headline (HENRY owns) | Watch |
+| **The Composite/services split widens further** (services <47) → "German recovery" was never the right unit | German Services / Composite PMI | 🟡 **Partially live already: services 48.5 and FALLING** |
+
+⚠️ **The caveat is half the claim, not a footnote.** This is a **manufacturing-only** expansion driven by defence spending, data-centre capex and inventory rebuild — *fiscal and AI-capex, not organic demand*. A fiscal/capex-driven manufacturing print is a **weaker** ISM lead than a demand-driven one, because the US ISM is not receiving the same German fiscal impulse. **⚠️ I have not tested whether the ~2-month lead holds for capex-driven vs demand-driven PMI moves — that is an untested assumption inside my highest-value signal.** Registered as an open method gap.
+
+---
+
+## C-3 — 🟠 "The EU energy shock is structural, and storage clears 80% but misses 90%"
+
+**Claim:** Hormuz shut ~6 months with the Jun-17 MOU collapsed and Qatar force majeure extended (exports −96%); EU storage 63.8% vs an 82.0% norm is the lowest fill for the date in the AGSI record, and lands ~80-83% by Nov 1.
+
+| What kills it | Instrument | Status |
+|---|---|---|
+| **Storage misses 80%** → the shock is worse than modelled and curtailment becomes live | **Prediction HNS-07** | Open, resolves 2026-11-01 |
+| **Hormuz reopens / Qatar lifts force majeure** → structural reverts to episodic; TTF round-trips toward €42 | Qatar FM status, TTF | Watch — next FM decision ~end-Sept |
+| **TTF breaks L3 (€100)** → I under-called it; genuine ECB stagflation trap | TTF ladder | Not firing (€66.19) |
+
+⚠️ **My two storage instruments disagree** and I am not hiding it: my 5-day-pace extrapolation says ~83%, DEWEY DR-4's peak-pace model says 77-80%. They **straddle the 80% line.** That disagreement is priced into HNS-07 at 65% rather than 80%.
+
+---
+
+## C-4 — 🟡 "The European bank/credit contagion channel is QUIET"
+
+**Claim:** No European bank stress transmitting to US funding or credit. DB record Q2 (€1.9B post-tax, ROTE 11.9%); sector index doubled in two years on higher-for-longer.
+
+| What kills it | Instrument | Status |
+|---|---|---|
+| European bank CDS widen materially, or a named funding event | LIQUID/REGINALD own; I hold the European nexus | Not firing |
+| **Higher-for-longer turns:** the same rate level that is currently *supporting* bank earnings begins impairing asset quality | NPL / cost-of-risk in Q3 prints | 🟡 **This is the asymmetry to watch — the bull case and the bear case run through the SAME variable** |
+
+---
+
+## ⚠️ SELF-CHALLENGE ON THE APPARATUS (not just the argument)
+
+`[[finding_self_attack_defends_the_argument_not_the_apparatus]]` — carrying at least one live challenge to my instruments, not my conclusions:
+
+1. **My prediction book is 4-for-4 on the easy sign and 0-for-1 on the hard one.** HNS-02 (ECB holds) and HNS-04 (TTF stays elevated) were momentum continuations. **HNS-03 was the only call that required me to predict a TURN, and I missed it by 2.2 points at 55% confidence.** Two hits on continuations are not evidence of calibration. HNS-05 and HNS-06 are both continuation calls too — **HNS-08 is the only prediction in the current book that can embarrass me.**
+2. **My entire threshold table was spread-based and would have passed a row-count audit while missing the event.** Fixed 8/28. **The class question I have NOT answered: what else in this desk is measured as a difference when the level is what moves?**
+3. **43 days dark, and the frame flipped twice inside that window** (7/16 energy-crisis → 8/28 long-end/PMI-boom). A desk that reads its own state at boot reads a frame that has been wrong for six weeks. **A print cadence is the mitigation (PAT-061); I do not have one yet.**
+4. **FLOW-HANS-10 is `ACTIVE-STALE`** — I left a row asserting a live channel on 43-day-old numbers rather than deleting or re-verifying it. That is the honest label, but it is still an unverified row in a live ledger.

@@ -1,182 +1,186 @@
 # HANS STATUS.md
-**Updated:** 2026-07-16 ~14:15 ET (compact staleness refresh; primary session task was a China-custody-hub build, see `research/2026-07-16_china-custody-hub-check.md`)
-**Status: 🟠 REGIME FLIPPED SINCE 6/22 — Iran formally closed Hormuz 7/11-12; TTF gas has BREACHED my own >€50 crisis threshold (€55.11, 7/16). German Mfg PMI is corrected UP (see below) — was in expansion in May/June, not sub-50 as I had it. Jul-4 tariff cliff RESOLVED (deal took effect). ECB next meets Jul 22-23.**
+**Updated:** 2026-08-28 ~14:30 ET — **REVIVAL SESSION.** Desk was dark 43 days (last HANS commit 7/16). Every number below re-pulled live this session; nothing carried forward unverified.
+**Boot ack:** revived 2026-08-28 on Will's word; DAEDALUS revival brief (`inbox/2026-08-28_from-DAEDALUS_...`) consumed. R1 corrections check rc=0 clean. I own **`EUROPE_MACRO`** (WALTER FORMAT_SPEC v0.17, ROUTING_TABLE v0.28; BOND = time-critical backup). **UK leg: TAKEN — see §UK SCOPE.**
 
-**⚠️ 7/16 correction:** the 6/22 STATUS below understated German Mfg PMI materially — verified-primary May/June **final** readings are **50.1 / 50.3** (both expansion), not the 48.3/49.0 this file previously carried. See corrected row in §1. Everything else in the 6/22 body (ECB hike, TTF €42, sovereign spreads, bank calm) is unchanged/historical-context unless updated below.
+## 🔴 THE FRAME FLIPPED AGAIN — AND THE CHANNEL SWITCHED
 
-> **Revival note:** Full-domain live refresh via workflow `wf_d99906ff` (10 agents, each dimension self-verified vs an INDEPENDENT source). **Every number below web-verified as of Jun 22 2026.** Prior STATUS (the "🔴🔴🔴 WAR DAY 62 / protracted-conflict / EU energy-crisis" frame) archived → `workbook/STATUS_archive_20260430.md`. **That frame is now directionally wrong** — the war de-escalated (Islamabad MOU signed Jun 17; Brent $111→$78), and every European stress vector I was tracking has relaxed.
+**Europe stopped transmitting to the US through growth. It now transmits through the long end.**
 
----
+My 7/16 frame said energy was re-arming a stagflation channel while German PMI mildly complicated the ISM-break thesis. Both halves are now **wrong in degree, and the second is wrong in kind**:
 
-## THE FRAME FLIP — APR 30 → JUN 22
+| Dimension | 7/16 (my stale state) | **2026-08-28 (verified)** | Read |
+|---|---|---|---|
+| **German Mfg PMI** (my #1 signal) | 50.3 (Jun final) | **54.1 (Aug flash)** — 4-yr high, 7th straight expansion month | **ISM-break leg is dead**, not "complicated" |
+| German Services PMI | 49.4 | **48.5** (from 49.8 Jul) — contracting | The expansion is **manufacturing-only** |
+| German Composite | 50.4 | **51.0** (from 51.2 Jul) | Barely expanding — services offsets |
+| **German 10Y Bund** | 2.96% | **3.29% — highest since March 2011 (15-yr)** | **THE NEW EVENT** |
+| UK 10Y gilt | *not tracked* | **5.07%** (Aug) | Newly mine — see §UK SCOPE |
+| France 10Y OAT | *(spread only)* | **4.08%**, spread **83.6bp** (8/21) | Level is the story, not the spread |
+| Italy–Germany 10Y | 71bp | **83bp** (8/28) | Still deep inside my 200bp line |
+| ECB deposit rate | 2.25% (just hiked) | **2.25% — HELD 7/23**; **Sept 10 hike near-consensus**; mkt prices **2.80% by Mar-27** | Hiking cycle **resumed, not cresting** |
+| **TTF gas** | €55.11 | **€66.19** (8/28), **+109% YoY**, +9.3%/mo | **L2 orange on my own ladder** |
+| EU gas storage | 52.5% (~14pp below norm) | **63.8% vs 82.0% 5-yr norm** — **lowest for the date since records began 2011** | Gap-to-norm **widened to ~18pp** |
+| EUR/USD · DXY | 1.145 · ~101 | **1.16 · 99.71** | Euro **stronger** — ECB convergence, not euro stress |
+| Spain HICP | — | **4.5% Aug** (3.9% Jul) — 3-yr high | Energy passthrough live |
+| France HICP | — | **2.7% Aug** (2.4% Jul); energy **+16.7%** (12.6%) | Energy passthrough live |
 
-| Dimension | Apr 30 (my stale frame) | Jun 22 (verified) | Read |
-|-----------|------------------------|-------------------|------|
-| War / energy axis | Protracted, Hormuz closed, Brent ~$111 | **MOU signed Jun 17; Brent $78.10** | De-escalated |
-| German Mfg PMI (#1 signal) | *no current reading* | **49.0 (June flash, 34-mo high, +0.7 MoM)** | Inflected UP, still sub-50 |
-| ECB | 2.00% on hold (assumed) | **HIKED to 2.25% Jun 11** (1st hike since 2023) | Regime flip — energy-inflation driven |
-| TTF gas | €44-47 (war-elevated) | **€42/MWh, +18% YoY** (was +47%) | Below my €50 crisis line |
-| EU gas storage | ~31% (crisis) | **~46.7%**, refill marginally AHEAD of pace | Residual winter risk only |
-| Sovereign spreads | Watching for stress | **Italy 71 / France 72 bps** — deep inside baselines | Pricing tranquility |
-| EUR/USD · DXY | 1.178 · 98.25 | **1.145 · ~101** (DXY 18-mo high) | Dollar-strength story, not euro-crisis |
-| Net European role | Stress AMPLIFIER to US thesis | **REMOVES amplifiers** | Complicates the bear case |
-
-**Bottom line (said directly, per my output rules):** European data does **not** currently supply the stress the US thesis needs. My single highest-value signal — German Mfg PMI as a ~2-month ISM lead — **inflected UP**, which argues *against* a clean US ISM break below 49. The only live European→US transmission channel is policy-driven: the **July 4 EU-US tariff implementation cliff**.
-
----
-
-## #1 SIGNAL — GERMAN PMI → US ISM (~2-MONTH LEAD)
-
-**[as-of 2026-07-16]** — **CORRECTED:** German Mfg PMI **June FINAL = 50.3** (revised up from 50.0 flash) and **May FINAL = 50.1** (revised up from 49.9 flash) — both readings are **in expansion (>50)**, a five-month-low pace for June per TradingEconomics but still >50. This replaces/corrects the 6/22 row below, which had carried 49.0 June-flash / 48.3 May-final — those May/June-final figures were wrong; do not cite them further. Net effect: the "still sub-50, inflecting up" framing from 6/22 is **superseded** — PMI has actually been in expansion for at least 2 months. This still argues against a clean US ISM sub-49 break (if anything more strongly), but the specific levels below need replacing. **July flash due ~Jul 24 2026 — docketed, not yet released.** Sources: [investinglive.com 2026-07-01](https://investinglive.com/news/germany-june-final-manufacturing-pmi-503-vs-500-prelim-20260701/), [tradingeconomics.com/germany/manufacturing-pmi](https://tradingeconomics.com/germany/manufacturing-pmi) — both retrieved 2026-07-16.
-
-| Metric | Latest | Prior | Source (verified) |
-|--------|--------|-------|-------------------|
-| **German Mfg PMI** | **50.3 June FINAL** ✓ 7/16 (revised from 50.0 flash) | **50.1 May FINAL** ✓ 7/16 (revised from 49.9 flash) — ~~48.3/49.0 6/22 vintage, WRONG~~ | HCOB/S&P Global via TE/investinglive ✓✓ (2 sources) |
-| German Services PMI | 49.4 (June flash; 3-mo high) | 47.1 May | HCOB ✓ |
-| German Composite | **50.4 — back in EXPANSION** (June flash) | 48.5 May | HCOB ✓ |
-| Eurozone Mfg PMI | 51.6 (May final) | 52.2 Apr (~4-yr high) | HCOB ✓ |
-| Eurozone Composite | 48.5 (May final, revised up from 47.5 flash) | 48.8 Apr | HCOB ✓ |
-| German Ifo | 84.9 (May; +0.4 vs Apr) | 84.5 Apr (6-yr low) | ifo ✓ |
-| German ZEW (expectations) | **10.5 (June; +20.7 MoM, 1st positive since Mar)** — explicitly Iran-de-escalation-driven | -10.2 May | ZEW ✓ |
-| ZEW current conditions | -81.0 (June; WORSENED) | -77.8 May | ZEW ✓ — hard data still lagging |
-| German IP YoY (Apr) | -0.5% (cal-adj); +0.4% MoM (1st rise of 2026) | ~-1.1% 2025 FY | Destatis ✓ |
-| German 2026 GDP forecast | **0.5%** (Council, Spring Report) — *corrected from a bad 0.4% pull; MATCHES baseline* | 0.9% (Nov) | Council of Economic Experts ✓ |
-
-**ISM-lead implication (→ HENRY):** German Mfg PMI direction is **clearly UP** (49.0, 34-mo high, first new-orders rise in >1yr) but the **level is still BELOW 50**. The ~2-month-out read (≈ August US ISM Mfg) = **stabilization in the ~49–50.5 band and rising, NOT a fresh leg down / NOT confirming a sub-49 break.** This **COMPLICATES the ISM-deterioration thesis.** Caveats: (1) still sub-50 — a less-bad inflection off a low base, not a boom; (2) it's a one-month flash, and hard data (IP, ZEW current -81) still lags negative; (3) the rebound is almost entirely a **de-escalation/sentiment** story — a Hormuz/energy re-escalation reverses it fast. *Note: my formal trigger to HENRY is "German Mfg PMI <47 sustained" — that did NOT fire; the live signal is the opposite sign.*
+**Bottom line, said directly:** European data now **removes the growth leg of the US-stress thesis outright** and **supplies a duration/term-premium leg in its place.** These are opposite-signed and they are not a wash — the growth leg was a *thesis* input, the rates leg is a *live-position* input.
 
 ---
 
-## ECB — REGIME FLIP (HIKING, NOT CUTTING)
+## 🔑 THE DISCRIMINATOR — this is my seat, and it answers a question WALTER left open
 
-| Metric | Latest | Prior baseline | Source ✓ |
-|--------|--------|----------------|----------|
-| **ECB Deposit Rate** | **2.25%** (HIKED +25bps, eff Jun 17) — 1st hike since Sept 2023 | 2.00% on-hold (STALE) | ECB ecb.mp260611 ✓ |
-| ECB refi / marginal | 2.40% / 2.65% | — | ECB ✓ |
-| ECB 2026 inflation proj | 3.0% headline / 2.5% core (revised UP on energy) | — | ECB staff ✓ |
-| Fed Funds | 3.50–3.75% (HELD 12-0 Jun 17, Warsh's 1st mtg; 2026 dot 3.8% → hike bias) | 4.25-4.50% (STALE) | FOMC ✓ |
-| **Fed-ECB differential** | **~150bps** (compressed ~75-90bps) | 225bps | derived ✓ |
-| German 10Y Bund | 2.96% | — | TE ✓ |
-| US-German 10Y spread | ~156bps | 170 | derived ✓ |
-| ECB excess liquidity | ~€2.47tn (→ ~€2.2tn end-26); QT ongoing | ~2500 | ECB ✓ |
+WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across five sovereigns** (US 30Y 5.31 = 19-yr high; AU10Y >5%; Bund and OAT green on the same tape) and named the open question: **US fiscal supply, or global term premium?** It assigned the discriminator to BOND. **Europe answers it, and the answer is term premium:**
 
-**Read:** The "🔴 ECB emergency cut → risk-off" threshold in my playbook is now the **wrong sign** — the ECB is *hiking* on the energy-inflation passthrough, not cutting into recession. BOTH the ECB and Fed now carry a hiking bias. Differential compressed toward Europe, yet EUR is *weak* (1.145) → dollar-strength dominates the carry signal. **Key nuance:** the ECB hike was driven by the *earlier* war-inflation impulse; with Brent back at $78, that hawkish phase is likely **cresting, not accelerating** — the rates channel is near a turning point.
+1. **The Bund is at a 15-year high while periphery spreads are benign (Italy 83bp, France 84bp).** A credit or fragmentation event widens spreads. This didn't. **The whole move is in the risk-free base rate.**
+2. **The euro STRENGTHENED into it** (1.145 → 1.16, DXY 101 → 99.7). Capital flight out of Europe would do the opposite.
+3. **It has a named domestic driver that is not the US**: an ECB expected to hike Sept 10 into a 4.5%-Spain / 2.7%-France energy passthrough, plus **heavy long-end Bund supply** from the German fiscal expansion (2026 budget €524.5B, borrowing €174.3B, defence €108.2B on a ~€650B/5yr path).
+
+⇒ **A US-fiscal-supply story cannot produce a 15-year-high Bund with a strengthening euro and tight spreads.** Europe is an **independent source** of the global long-end repricing, not a passenger. **→ BOND, TERRY.**
+
+### ⚠️ AND A DEFECT IN MY OWN INSTRUMENT, FOUND BY THIS
+**Every sovereign threshold I carry is a SPREAD** (Italy >200bp, France >100bp). Both read **"all clear"** through a **+33bp common-mode Bund move to a 15-year high** — the actual event. A spread metric is structurally blind to a common-mode move [[finding_spread_metric_blind_to_common_mode]]. **Fixed below: absolute-level thresholds added beside every spread.** I would have missed this event entirely on my 7/16 threshold table, and the table would have passed a row-count audit clean.
 
 ---
 
-## ENERGY — 🔴 CRISIS RE-ARMED (7/16 update — Hormuz formally closed 7/11-12)
+## ENERGY — THE SHOCK IS STRUCTURAL NOW, NOT AN EPISODE
 
-**[as-of 2026-07-16]** Regime flip since the 6/22 "crisis relieved" read below: Iran **formally closed the Strait of Hormuz 7/11-12** (fleet-wide 🔴 ACTIVE per PROME); Qatar suspended maritime LNG transit; Trump ordered an Iranian-port blockade resumption + demanded a 20% security fee on Hormuz cargo (~7/14-15). **TTF has breached my own >€50 crisis threshold** — this is a fired threshold, not a watch item. Cross-agent flag sent to BRENT/HENRY/LIQUID (below).
+**Hormuz has been shut ~6 months.** The Jun-17 US-Iran MOU **collapsed in July** when Iran targeted commercial shipping; the reopening thesis has faded to stalemate. **Qatar extended LNG force majeure again on 8/28** (exports **−96%**, ~$24B lost sales; cancellations to Pakistan run into October, Bangladesh past September).
 
-| Metric | Latest | Threshold | Source ✓ |
-|--------|--------|-----------|----------|
-| **TTF gas** | **€55.11/MWh (7/16, +1.10% d/d)**; €53.1 (7/15); **+31.5% over trailing month** | **>€50 crisis — BREACHED 🔴** | TradingEconomics ✓ 7/16 |
-| EU gas storage | **~52.5% full (7/14, GIE AGSI+)** — up from 46.7% (6/22) on continued refill, but **~14pp BELOW the 5-yr seasonal norm**; mandatory 2026 winter target relaxed 90%→80% | <40 orange / <30 red (absolute); norm-gap is the binding constraint now | GIE/AGSI+ via GEF ✓ 7/14 |
-| Qatar LNG | Maritime transit **suspended again** following the formal Hormuz closure — reverses the 6/22 "recovering" read | — | search-corroborated, not primary-doc verified this pass |
-| Brent (cross-check, BRENT owns) | $84.7-85.0 (7/14-15, per PROME briefing) | — | BRENT |
+| Metric | Latest | My ladder level | Source ✓ |
+|---|---|---|---|
+| **TTF front-month** | **€66.19/MWh (8/28, −3.04% d/d)**; +9.29% m/m; **+109.32% YoY** | **L2 ORANGE (€66) reached** — L1 (€60) breached during Aug | TradingEconomics ✓ 8/28 |
+| EU gas storage | **63.8% (8/28)** vs **82.0% 5-yr norm** — **lowest for the date since AGSI records began (2011)**; 75.7% a year ago | Binding constraint = **norm gap ~18pp**, not the absolute | GEF/AGSI+ ✓ 8/28 |
+| 2026 winter target | **90% binding, 10% deviation flex → 80% floor** (Council of the EU 2025-07-18) | At implied 5-day pace (~+0.29pp/d) → **~83% by Nov 1**, i.e. clears the relaxed floor, misses 90% | GEF ✓ |
+| Qatar LNG | **Force majeure EXTENDED 8/28**, exports −96% | — | Bloomberg ✓ 8/28 |
 
-### TTF Escalation Ladder (standing instrument, built 2026-07-16)
+**DEWEY's DR-4 (8/12) reconciled:** its storage read (59.32% on 8/11, 13.0pp below 2025) and its LNG-impairment finding (EU send-out −20.4% YoY at only 38.3% utilisation — **cargoes, not capacity**) both hold and are corroborated by my 8/28 pull. **Its projection has aged BETTER than stated**: DR-4 modelled 77–80% by peak; the current 5-day pace implies ~83%. I am carrying **80–83%**, not 90%. ⚠️ **DR-4's inverted-premise warning applies to me too** — my 7/16 file described TTF at €55 as the crisis; it is now €66 and **+109% YoY**. *Nothing in my tree said "European gas prices are falling," but the frame that produced my ladder is a €40-60 world and the market has left it.*
 
-My old **>€50 crisis line is March-cycle vintage** — set when TTF traded in a €40-47 band and €50 marked a clean break. It just breached (€55.11, 7/16) under a **different regime** (a real, formal Hormuz closure + Qatar transit re-suspension, not the March episode's contested/declaratory phase). Replacing the single-line threshold with a graded ladder, anchored to two historical analogs: the **March-2026 episode** (TTF "nearly doubled to over €60/MWh by mid-March" — [CNBC 3/28](https://www.cnbc.com/2026/03/28/oil-gas-prices-iran-war-hormuz.html)/Oxford Energy) and the **Aug-2022 crisis** (TTF peaked **€339/MWh** 8/26/22, 5 days >€265 — [ESMA](https://www.esma.europa.eu/sites/default/files/2023-10/ESMA50-524821-2963_TRV_Article_the_August_2022_surge_in_the_price_of_natural_gas_futures.pdf)). **Source/cadence for all levels: TTF front-month daily settle, ICE/TradingEconomics.**
-
-| Level | TTF (€/MWh) | Anchor | (a) EU cost/inflation → ECB | (b) Storage/winter | (c) EU→US transmission |
-|---|---:|---|---|---|---|
-| **Current** | 55.11 | 7/16 print | Reinforces the energy-inflation impulse behind the Jun-11 hike | Refill continues but norm-gap widens if sustained | Cost-push/disinflation-fade channel HENRY tracks; monitor only |
-| **L1 watch** | 60 | March-episode breakout level (re-test) | Keeps ECB's inflation projection elevated into Jul 23 — supports HNS-02 (hold) but raises hike-tail risk if it persists past Jul 23 | Refill pace needs to accelerate further to reach the relaxed 80% target | No new channel, deepens the existing one |
-| **L2 orange** | 66 | Full re-test/breach of the March-2026 peak | Tilts risk toward **HNS-02 resolving MISS** (hawkish surprise) rather than hold; raises odds of a Sept hike signal | Storage target (80%) becomes doubtful without demand curtailment | Corroboration trigger to BRENT/HAWK: market pricing "sticks, not declaratory" |
-| **L3 red** | 100 | Round-number crisis level; supersedes Goldman's old €74 "war scenario" ceiling entirely | Genuine ECB stagflation-trap risk (hiking into demand destruction) | EU-coordinated demand-reduction mechanism (2022-style, ~15% voluntary cut) becomes live discussion | First-order channel for HENRY/LIQUID, not monitor-only |
-| **L4 crisis** | 200 | ~60% of the way to the 2022 all-time peak | Full stagflation channel live; industrial curtailment across energy-intensive sectors | 2022-style emergency response playbook | Direct 2022-recession-risk comparison, escalate to PROME same-day |
-
-**De-escalation marker:** €42/MWh = full round-trip to the pre-closure (6/22) baseline — "Europe has stopped pricing the closure." A partial-unwind marker sits at ~€45-48 (below my old >€50 line but not yet at baseline). **Cross-check for LIQUID/HENRY:** if TTF fully round-trips to €42 while HY OAS (272, 7/14 per PROME's brief) never re-priced materially wider from its pre-closure level, that pairs with the fleet's divergence-resolved-benign pattern — HANS doesn't own HY OAS, flagging the pairing only.
-
-**Read:** Energy is back to an **acute, live US-thesis stress vector** — reverse of the 6/22 call. TTF +31% in a month and above the crisis line; storage refill continued but the gap-to-norm is what matters entering an autumn/winter window under an active-closure regime (vs 6/22's temporary/declaratory framing). This directly complicates HENRY's disinflation read (cost-push channel re-arming) and is BRENT's lane for the oil/energy-price leg — HANS owns the EU gas/storage number only.
-
-**⚠️ 6/23 sweep update (energy axis marginally HOTTER on supply, CALM on price):** (a) **Qatar Ras Laffan explosion Jun 21-22 — 13 dead, 66 injured** at the Barzan facility *during* the LNG restart Europe is counting on (Italy 33% / Poland 25% / Belgium 16% of LNG from Qatar pre-war); Qatar calls it a technical accident, says exports unaffected — but it's a **2nd disruption at the same hub**, a real tail on the EU refill narrative `[BREAKING/UNCONFIRMED impact]`. (b) Hormuz transits collapsed to ~12 Sun (from ~35 Sat) on Iran's re-declaration, but **Geneva talks convened Jun 22 and set a safe-passage "mechanism"** + US issued a temporary Iranian-oil license → diplomacy live, strait contested-not-closed. (c) Price shrugged it off: **TTF ~€42 flat, Brent ~$78-80.** (d) The concrete re-escalation lever is the **Israel-Lebanon ceasefire fraying** (Iran's Hormuz re-declaration traces directly to Israeli S. Lebanon strikes) — **next Lebanon-Israel talks Washington Jun 23-25 = the near-term energy catalyst.**
+**⇒ The €50 "crisis line" is now a historical artifact.** TTF has not closed below it since early July. **L1/L2 of the ladder are where the decisions are; the €50 line is retired as a trigger** (kept as history).
 
 ---
 
-## SOVEREIGN / FX / BANKS — EUROPE IS CALM
+## ECB — HIKING CYCLE RESUMED (the 7/16 "cresting" call was wrong)
 
-| Metric | Latest | Baseline | Source ✓ |
-|--------|--------|----------|----------|
-| Italy-Germany 10Y | **71bps** (far inside 150 stress) | 95 | countryeconomy ✓ |
-| France-Germany 10Y | **72bps** (Lecornu govt stable; compressed vs ~80 Oct peak) | 75 | ideal-investisseur ✓ |
-| EUR/USD · GBP/USD · DXY | 1.145 · ~1.32 · ~101 (DXY 18-mo high) | 1.178 · 1.26 · 98.25 | TE ✓ |
-| VSTOXX | ~20 (calm; >35 = severe) | 18 | STOXX ✓ |
-| Euro Stoxx Banks (SX7E) | near cycle highs (~268 price idx) | — | STOXX ✓ |
-| MFS fraud / UBS CRE gate | crystallized, **idiosyncratic, non-systemic, no new contagion** (Barclays £228m, Santander $267m; UBS $469m gate) | — | CNBC ✓ |
-| TIC (Apr, rel. ~Jun 18) | foreigners ADDED **+$206B** LT USTs (official +$42B) | — | Treasury sb0536 ✓ |
+| Metric | Latest | Source ✓ |
+|---|---|---|
+| Deposit / refi / marginal | **2.25% / 2.40% / 2.65%** — **HELD 7/23** (data-dependent, meeting-by-meeting, no pre-commitment) | ECB `mp260723` ✓ **primary** |
+| Next meeting | **Sept 10 2026** — **25bp hike is near-consensus**; markets "almost unanimously" expect it | CNBC/Morningstar ✓ |
+| Market-implied path | **2.80% deposit by March 2027** | TradingEconomics ✓ 8/28 |
+| ECB own guidance | Inflation **"well above target until H1-2027"**; Lagarde: longer energy stays elevated, "the more likely they are to drive up broader inflation through indirect and second-round effects" | ECB presser ✓ |
+| July minutes | The pause is **"not the end of the tightening cycle"** | ECB ✓ |
 
-**Read:** No European stress transmitting to US funding/credit — if anything Europe is a **source of calm**: benign periphery spreads, bank stocks near highs, low vol, continued foreign UST bid. The FX move is a **dollar-strength** story (hawkish Fed hold), not a euro-crisis. The **LIQUID-watched European bank-contagion channel is quiet.** Emerging wildcard *outside* core EU scope: **UK PM Starmer resigned Jun 22** (7th PM/decade) — but gilts ~4.8% / GBP ~1.32 reaction was orderly; flag, not fire.
+**My 7/16 read — "the hawkish phase is likely cresting, not accelerating, with Brent back at $78" — is REFUTED.** It was built on a de-escalation that reversed in July. The ECB paused once and is being pushed straight back into hiking by an energy shock that did not resolve. **Fed–ECB differential compresses further on a Sept ECB hike into a Fed on hold** (Warsh hawkish-hold, per WALTER 8/28 cross-read) — that is the euro-strength mechanism already visible at 1.16.
 
 ---
 
-## POLITICAL / DEFENSE / TRADE — THE ONE LIVE US CHANNEL
+## UK SCOPE — ✅ **I TAKE THE UK LEG** (answers WALTER's 8/18 either/or)
 
-- ✅ **JULY 4 2026 EU-US TARIFF CLIFF — RESOLVED, loop closed 7/16.** EU implemented its side of the deal and published enacting texts before the deadline (confirmed 6/25, in force ~6/30-7/1) — **beat** the deadline as the 6/23 sweep expected. Terms: **15% baseline on most EU exports to US; zero tariffs on US industrial goods into EU**; includes a Commission suspension-safeguard if the US side reneges, and a **2029 sunset/renewal clause**. No further action; this catalyst is closed. Sources: [dailycaller.com 6/25](https://dailycaller.com/2026/06/25/eu-finalizes-us-trade-deal-trump-july-4-deadline/), [rte.ie 6/30](https://www.rte.ie/news/business/2026/0630/1581078-eu-to-implement-trade-deal-with-us-from-tomorrow/).
-- France: **Lecornu in office, stable** (survived no-confidence votes; 2026 budget passed via 49.3). OAT-Bund 72bps = NOT transmitting; fastest-repricing tail if it destabilizes.
-- Germany: **Merz coalition intact;** 2026 budget €524.5B (borrowing €174.3B, ~3× two-years-prior); defense €108.2B (€82.7B core + €25.5B Zeitenwende), ~€650B/5yr path to NATO 3.5% by 2029 — orderly, heavy long-end Bund supply.
-- EU-China: rare-earth truce (EU benefits derivatively via the US-China truce) expires ~Oct/Nov 2026; ACI threatened/under-study, NOT invoked — latent, not live.
-- Ukraine: **NO ceasefire** (Putin rejected Zelensky's early-June offer). → resolves **HNS-01 = MISS**.
+**Decision: YES.** `EUROPE_MACRO` as coded names UK gilts and the BoE, and I am taking them. **Reasoning, stated so it can be argued with:**
+1. My charter already claims **"sovereign-spread/LDI stress"** — and **gilt-LDI (Sep 2022) is the canonical Europe→US funding-transmission event.** Owning the mechanism while disowning the instrument is incoherent.
+2. **The live channel this session IS the global long end.** Excluding the most volatile DM long end from a desk whose current finding is a term-premium repricing would leave a hole exactly where the signal is.
+3. `workbook/FLOW.tsv` has carried **FLOW-HANS-5 `UK_Pension_Stress`** since inception, and **VX-HANS-1.01 UK UST Holdings ($948.6B)** is my largest single vector. The UK was already in my book; only the label was missing.
+
+**Live UK level:** 10Y gilt **5.07%** (Aug 2026), high 5.1267% over 7/14–8/14 — **~178bp above the Bund** and the widest DM core long end I track. ⚠️ **WALTER's limit stands and I am keeping it: BOND takes anything time-critical.** One session back from 43 days dark does not make this desk a fast lane. → **WALTER: charter line landing this session; update the routing note.**
 
 ---
 
-## CROSS-AGENT FLAGS (Jul 16)
+## SOVEREIGN / FX / BANKS
+
+| Metric | Latest | Threshold (spread) | **Threshold (LEVEL — new)** | Source ✓ |
+|---|---|---|---|---|
+| German 10Y Bund | **3.29%** (8/28) | — | **>3.00 watch ✅FIRED / >3.75 orange / >4.50 red** | TradingEconomics ✓ |
+| Italy–Germany 10Y | **83bp** (8/28) | >200 stress | BTP level **>5.50%** | countryeconomy ✓ |
+| France–Germany 10Y | **83.6bp** (8/21) | >100 core-fragmentation | OAT level **>4.50%** (now 4.08%) | ideal-investisseur ✓ |
+| UK 10Y gilt | **5.07%** | vs Bund ~178bp | **>5.50 orange / >6.00 red** (LDI-adjacent) | ycharts/salarywise ✓ |
+| EUR/USD · DXY | **1.16 · 99.71** | <1.05 watch | — | own `fetch.py` ✓ 8/28 |
+| FEZ (EuroStoxx50) · EWG · EWU | **$71.36 · $44.56 · $48.45** | — | — | own `fetch.py` ✓ 8/28 |
+| European banks | **No stress.** Deutsche Bank record Q2 post-tax profit **€1.9B**, revenues +9% YoY to €8.5B, ROTE 11.9%; sector index has **doubled in two years** on higher-for-longer | contagion → LIQUID/REGINALD | — | Yahoo/STOXX/CreditSights ✓ |
+
+**Read:** The **credit** channel is quiet and the **rates** channel is loud — and higher-for-longer is *why* the banks are strong, so these are the same fact seen twice. **→ LIQUID: the European bank-contagion channel remains QUIET; my 6/22 and 7/16 calls both hold.** Sovereign spreads benign **in spread terms only** — see the instrument defect above.
+
+**France political risk:** Lecornu minority government survived two no-confidence votes and passed the 2026 austerity budget via 49.3 (deficit target 4.7% of GDP, debt 117.9%). **Stable but fragile** — fragmentation sustains early-election risk into 2027. OAT at **4.08% absolute with an 84bp spread** is the shape to watch: France is paying a high rate for a *European* reason, not a *French* one. A French reason arriving on top of it is the fast-repricing tail.
+
+---
+
+## CROSS-AGENT FLAGS (2026-08-28)
 
 | → Agent | Signal | Pri |
-|---------|--------|-----|
-| **BRENT / HENRY / LIQUID** | **TTF gas €55.11/MWh (7/16) — BREACHED my >€50 crisis threshold**, +31.5% trailing month, driven by the 7/11-12 formal Hormuz closure + Qatar transit re-suspension. EU storage 52.5% (7/14) — refilling but ~14pp below 5-yr norm. Reverses my 6/22 "energy no longer acute" call. Cost-push/stagflation channel re-arming — relevant to HENRY's disinflation read and LIQUID's funding-stress watch. | 🟠 |
-| **ZHAO** | Custody-hub check delivered (Lux/Cayman/Ireland) — Cayman +$28.2B Feb-Apr vs China's -$43.1B is the one candidate re-routing flag, didn't sustain into May as China itself rebounded +$8.2B Apr→May. Full detail: `research/2026-07-16_china-custody-hub-check.md` + outbox delivered to ZHAO inbox. | 🟠 |
-| **HENRY** | German Mfg PMI **correction**: May/June final = 50.1/50.3 (expansion), not the 48.3/49.0 this file previously carried — supersedes the 6/22 flag below; still argues against a clean ISM sub-49 break. | 🟡 |
-| **PROME** | Jul-4 tariff cliff RESOLVED (deal in force, terms above) — remove from live catalyst docket. ECB next meets Jul 22-23 (decision 13:45 CET, presser 14:30 CET). | 🟡 |
-
-## CROSS-AGENT FLAGS (Jun 22, historical)
-
-| → Agent | Signal | Pri |
-|---------|--------|-----|
-| **HENRY** | German Mfg PMI 49.0 (June flash, 34-mo high, +0.7, 1st new-orders rise in >1yr) → ~2mo-out US ISM = **stabilizing ~49-50.5 and rising, NOT a sub-49 break.** Corroborates your "cyclical axis soft-killed" read; downgrade conviction on any ISM-deterioration leg. *(Holding the outbox file pending Will — HENRY not live, signal is corroborating not threshold-breaching.)* | 🟠 |
-| HENRY | DXY ~101 (18-mo high) + Fed hold w/ hike-risk = US financial-conditions tightening impulse; energy cost-push fading (TTF +18% YoY vs +47%, diesel -4% WoW) supports disinflation | 🟡 |
-| LIQUID | European bank-contagion channel **QUIET** — MFS/UBS losses crystallized, non-systemic; ECB excess liq ~€2.47tn (>2000 floor) but draining. ECB "emergency cut" threshold now wrong-sign (ECB hiking) | 🟡 |
-| HAWK/BRENT | EU side **confirms de-escalation** — TTF €42, no EU energy-crisis vector live; Qatar LNG recovering. The whole German survey rebound is priced on Iran de-escalation → re-escalation reverses it directly | 🟡 |
-| PROME | **Jul-4 EU-US tariff cliff** = live dated US-market catalyst (~12d). HNS-01 (Ukraine ceasefire) = MISS. UK political wildcard (Starmer resigned Jun 22) | 🟠 |
+|---|---|---|
+| **HENRY** | 🔴 **German Mfg PMI 54.1 (Aug flash) — 4-yr high, 7th expansion month.** On the ~2-mo lead this maps to **US ISM Mfg ~Oct holding at/above 50 and rising**. My PMI→ISM signal now argues **against an ISM sub-49 break as hard as it ever has.** ⚠️ **Two caveats that matter:** (1) it is **manufacturing-only** — German Services 48.5 and *falling*, Composite only 51.0, so this is not a broad European recovery; (2) the named drivers are **defence spending, data-centre capex and inventory rebuild** — fiscal/AI-capex, i.e. the same concentration VULCAN tracks, not organic demand. **Separately: the disinflation read is now contested from Europe** — Spain HICP 4.5%, France 2.7% with energy +16.7%. | 🔴 |
+| **BOND / TERRY** | 🔴 **Bund 10Y 3.29% = highest since March 2011.** Europe is an **independent source** of the global term-premium repricing WALTER's `SIG-W-20260819-004` flagged — three-part discriminator above (tight spreads + stronger euro + domestic ECB/supply driver). **This is a tailwind to both duration-short legs** (`TRY-FIRE-004` 30x TLT Sep-30-26 77P, BE 76.89; TBT). Cross-check at own pull 8/28: **TLT $82.92, ^TYX 5.21, ^TNX 4.73** — TLT is **$6.03 above the 76.89 BE with ~33d to expiry**, so the European tailwind has **not** shown up in the position. **No proposal, no gate call — level statement only.** | 🔴 |
+| **WALTER** | ✅ **UK leg ANSWERED: I take it** (gilts/BoE). Charter line lands this session. Your two limits accepted unchanged — **BOND still takes time-critical.** Please update the `EUROPE_MACRO` routing note. | 🟠 |
+| **ZHAO / PROME** | ✅ **Belgium proxy: I do NOT carry it as a live China-position adjustment** — full answer + one dormant threshold retired, see §ZHAO ANSWER. **France −$20.92B June TIC leg accepted.** | 🟠 |
+| **BRENT / HAWK** | 🟠 **EU side: the energy shock is STRUCTURAL, not episodic.** Hormuz ~6 months shut, Jun-17 MOU collapsed in July, **Qatar force majeure extended 8/28 (exports −96%)**. TTF **€66.19, +109% YoY**; EU storage **63.8% vs 82.0% norm = lowest for the date since 2011**. My 6/22 "de-escalation confirmed" call is **fully reversed**. | 🟠 |
+| **LIQUID** | 🟡 European bank-contagion channel **QUIET** — DB record Q2 (€1.9B), sector doubled in 2yr, no CDS stress. The ECB "emergency cut" trigger in my playbook remains **wrong-sign** (ECB hiking; Sept 10 hike near-consensus). | 🟡 |
+| **PROME** | 🟠 Docket: **ECB Sept 10** (hike expected) · **EA flash HICP Sept 1** · **German flash PMI ~Sept 23** · **Oct 1–Dec 1 EU storage-target window**. Two 7/16 docket rows graded (below). Retiring my **€50 TTF crisis line** as a trigger — superseded by the L1/L2 ladder. | 🟠 |
 
 ---
 
-## KEY THRESHOLDS (refreshed)
+## PREDICTIONS — 7/16 BOOK GRADED (2 HIT, 1 MISS), FORWARD BOOK RE-ARMED
 
-| Metric | Current (Jun 22) | Threshold | Implication |
-|--------|------------------|-----------|-------------|
-| German Mfg PMI | **49.0** ↑ | <47 sustained → HENRY | NOT firing; inflecting up = opposite sign |
-| ECB Deposit Rate | **2.25%** (hiking) | Emergency CUT → risk-off | Wrong sign now — ECB tightening |
-| TTF gas | **€42/MWh** | >€50 → energy crisis | Below line; storage 46% = Q4 winter trip-wire |
-| Italy-Germany 10Y | **71bps** | >150 fiscal stress | Deep inside; benign |
-| EUR/USD | **1.145** | <1.05 watch / <1.00 crisis | Dollar-strength, far from stress |
+| ID | Call | Result | Note |
+|---|---|---|---|
+| **HNS-02** | ECB holds at 2.25% on Jul 23 (60%) | ✅ **HIT** | Confirmed at ECB primary `mp260723` — all three key rates unchanged. |
+| **HNS-03** | German Mfg flash PMI (July) prints **<50.0** (55%) | ❌ **MISS** | Printed **52.2** vs 50.5 expected (7/24). **Missed by 2.2 points at 55% confidence, then August came in at 54.1.** Honest read: I sized a sentiment shock (Hormuz/TTF mid-survey) against two months of momentum and **had the sign wrong** — German manufacturing was inflecting on fiscal/capex drivers I was not tracking. This is the calibration lesson of the session. |
+| **HNS-04** | TTF closes **>€50 every day** through Jul 31 (70%) | ✅ **HIT** | 7/28–7/31 closes 57.74 / 60.42 / 58.18 / 59.07; DEWEY's independent 7/31 pull €59.07 agrees. ⚠️ **Limit:** 7/17–7/27 not verified close-by-close — graded on the endpoints plus a monotonic-rise characterisation, not a full daily series. |
+
+| ID | New prediction | Conf | Resolves | Resolver |
+|---|---|---|---|---|
+| **HNS-05** | **ECB HIKES 25bp to 2.50% deposit on Sept 10 2026** | **75%** | 2026-09-10 | ECB press release `ecb.europa.eu/press/pr` 13:45 CET. Hike = HIT; hold/cut = MISS. *Anchor type: **fixed calendar date**, not an expected event — no slip risk* [[finding_resolver_anchored_to_expected_event_inherits_slip_risk]]. |
+| **HNS-06** | **German Mfg PMI stays ≥50.0 on the Sept flash** (~Sept 23) | **80%** | ~2026-09-23 | HCOB/S&P flash headline. ≥50.0 = HIT. *Deliberately the OPPOSITE side of the HNS-03 error — I am now betting with the momentum I bet against.* ⚠️ Anchor type: **expected release**, flash dates slip ±2 business days; grade on the first flash print after 9/20. |
+| **HNS-07** | **EU gas storage reaches ≥80% by Nov 1 2026** (clears the relaxed floor, misses the 90% binding target) | **65%** | 2026-11-01 | GIE AGSI+ EU aggregate fill %. ≥80.0% = HIT. Basis: 5-day pace ~+0.29pp/d off 63.8% (8/28) → ~83%; DEWEY DR-4's independent peak-pace model says 77–80%, so **my two instruments straddle the line** — that disagreement is why this is 65% and not 80%. |
+| **HNS-08** | **German 10Y Bund does NOT close ≥4.00% before Dec 31 2026** | **70%** | 2026-12-31 | TradingEconomics / Bundesbank daily close. Any close ≥4.00% = MISS. Basis: 3.29% now, market-implied ECB terminal 2.80% by Mar-27 ⇒ ~120bp of term premium already in the 10Y. A falsifier for "the long-end repricing runs much further." |
 
 ---
 
-## CATALYST DOCKET (forward, refreshed 7/16)
+## ZHAO ANSWER — Belgium proxy: **NOT CARRIED**
+
+**Confirmed by grep of the full tree.** Belgium appears in four places; **none is a live surface using it as a China-position adjustment:**
+- `research/EUROPE_UST_HOLDINGS_2026-04_TIC.md` — treats Belgium as **one custody country among seven**, no China inference. ✅ unaffected.
+- `sources/RP-HANS-5` — a single descriptive line ("Belgium = Euroclear = European sovereign custody linkage"). ✅ true independent of the proxy.
+- `workbook/STATUS_archive_20260325.md`, `prompts/` — archived/historical. ✅ no action.
+- ⚠️ **`COMPLETED_RP-HANS-1.txt:70` — "Belgium > $550B or < $350B (China custody shift)"** — a **March-vintage threshold in a completed-research artifact**. Not boot-read and not referenced by a live doc, so it is not currently firing — but it is exactly the kind of **dormant threshold that gets resurrected by a future grep** [[finding_banded_threshold_with_no_metric_surface_is_untrippable]]. **I am marking it RETIRED in place** rather than leaving it to be re-found.
+
+**⇒ ZHAO: nothing of mine needs to change, and your falsification costs me nothing.** I accept the honest limit as you stated it — rho +0.05 over n=41 refutes **systematic monthly mirroring**, not an episodic migration channel; reinstate at rho < −0.5 rolling 24m. **France −$20.92B June TIC is accepted as my leg**; the Belgium hub table is mine and I will pull it against the September TIC release, not before (my 7/16 custody work is the last pull and it stands).
+
+---
+
+## KEY THRESHOLDS (rebuilt — spread AND level)
+
+| Metric | Current (8/28) | Threshold | State |
+|---|---|---|---|
+| German Mfg PMI | **54.1** | <47 sustained → HENRY | **Not firing — opposite sign, strongest in 4 yrs** |
+| German Composite | **51.0** | <48 → HENRY | Not firing; services 48.5 is the soft leg |
+| ECB deposit rate | **2.25%** | *(old: emergency CUT)* → **replaced: hike to ≥2.75% = policy-shock watch** | Sept 10 hike expected → 2.50% |
+| **German 10Y Bund (NEW)** | **3.29%** | **>3.00 watch / >3.75 orange / >4.50 red** | 🟠 **WATCH FIRED** |
+| **UK 10Y gilt (NEW)** | **5.07%** | **>5.50 orange / >6.00 red** | 🟡 monitoring |
+| TTF gas | **€66.19** | **L1 €60 / L2 €66 / L3 €100 / L4 €200** *(€50 line RETIRED)* | 🟠 **L2 reached** |
+| EU storage vs 5-yr norm | **63.8% vs 82.0% (−18.2pp)** | gap >15pp = orange; >25pp = red | 🟠 **ORANGE** |
+| Italy–Germany 10Y | 83bp | >200 spread / BTP >5.50% level | Benign |
+| France–Germany 10Y | 83.6bp | >100 spread / OAT >4.50% level | 🟡 approaching spread line |
+| EUR/USD | 1.16 | <1.05 watch / <1.00 crisis | Far from stress; **strengthening** |
+
+---
+
+## CATALYST DOCKET
 
 | Date | Event | Pri |
-|------|-------|-----|
-| ~~Jul 4 2026~~ | ~~EU-US tariff cliff~~ — **RESOLVED**, deal in force since ~7/1 | ✅ closed |
-| **Jul 22-23 2026** | **ECB Governing Council** — decision Jul 23 13:45 CET, Lagarde presser 14:30 CET. Watch for any response to the energy-inflation re-impulse from Hormuz (ECB hiked once already on the earlier war-inflation pass; a second acute leg could re-open the hiking debate) | 🟠 |
-| **~Jul 24 2026** | German/EU flash PMI (July) — first read since the confirmed May/June expansion prints; also first read to reflect any Hormuz-driven sentiment hit | 🟠 |
-| Ongoing | Hormuz closure / TTF trajectory — my own >€50 threshold already fired; next watch line is a sustained break toward the Goldman €74 war-scenario band | 🔴 |
+|---|---|---|
+| ~~Jul 23~~ | ~~ECB Governing Council~~ — **GRADED: held at 2.25%** (HNS-02 HIT) | ✅ closed |
+| ~~~Jul 24~~ | ~~German flash PMI~~ — **GRADED: 52.2, beat** (HNS-03 MISS) | ✅ closed |
+| **Sept 1 2026** | **Euro-area flash HICP (August)** — France 2.7% / Spain 4.5% already in; this is the aggregate that feeds Sept 10 | 🔴 |
+| **Sept 10 2026** | **ECB Governing Council** — 25bp hike near-consensus (HNS-05). Decision 13:45 CET, presser 14:30 CET | 🔴 |
+| **~Sept 23 2026** | German/EU flash PMI (September) — HNS-06 resolver | 🟠 |
+| **Oct 1 – Dec 1 2026** | **EU storage-target compliance window** (90% binding, 80% deviation floor) — HNS-07 resolves Nov 1 | 🟠 |
+| Ongoing | Hormuz / Qatar force majeure — next extension decision ~end-Sept | 🔴 |
 | ~Oct/Nov 2026 | EU-China rare-earth truce expiry | 🟡 |
-
----
-
-## PREDICTIONS
-
-| ID | Status | Note |
-|----|--------|------|
-| **HNS-01** | **RESOLVED — MISS** (Jun 22) | "Ukraine ceasefire within 30d" (made Mar 4, resolve Apr 3). No ceasefire by Apr 3 or Jun 22; Putin rejected Zelensky's early-June offer. |
 
 ---
 
 ## TWO-SENTENCE SUMMARY
 
-The April "EU energy-crisis / protracted-war competitiveness shock" frame has de-escalated across every vector I track: German Mfg PMI inflected up to a 34-month high (49.0, Composite back in expansion), TTF gas fell to €42 (below crisis), periphery spreads are benign (Italy 71bps), the ECB *hiked* on receding war-inflation, and Europe is now a source of calm that **removes amplifiers** from the US-stress thesis rather than adding them. My single highest-value read — German PMI as a ~2-month ISM lead — therefore argues *against* a clean US ISM break below 49 over the next two months, and the only live European→US transmission channel is the policy-driven July 4 EU-US tariff cliff.
+Europe has stopped being a source of stress **through growth** and become one **through the long end**: German manufacturing PMI at 54.1 is a four-year high that kills the ISM-sub-49 leg of the US thesis outright, while the Bund at 3.29% — the highest since March 2011 — arrives with tight periphery spreads, a *strengthening* euro and an ECB about to hike into a 4.5%-Spain energy passthrough, which together identify it as **genuinely European term premium rather than US fiscal spillover**. The unresolved input under all of it is energy: Hormuz has been shut roughly six months, Qatar's force majeure was extended again on 8/28 with exports down 96%, and EU storage at 63.8% against an 82.0% norm is the thinnest cover for the date in the entire AGSI record.
 
 ---
-
-*Archives: `workbook/STATUS_archive_20260430.md` (Apr-30 war-crisis frame), `STATUS_archive_20260325.md`. Vectors: `workbook/VX.tsv`. Predictions: `workbook/PREDICTIONS.tsv`. Master log: `workbook/ML.tsv`. Refresh workflow: `wf_d99906ff`.*
+*Prior state archived → `workbook/STATUS_archive_20260716.md` (7/16 energy-ladder frame), `STATUS_archive_20260430.md` (Apr-30 war frame), `STATUS_archive_20260325.md`. Falsification surface → `thesis/KILL_TREE.md`. Vectors `workbook/VX.tsv` · Flows `workbook/FLOW.tsv` · Predictions `workbook/PREDICTIONS.tsv`.*
