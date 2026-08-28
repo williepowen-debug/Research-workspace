@@ -6,6 +6,20 @@
 
 
 
+## 2026-08-28 ~12:0x ET — S38b: CHG-046 + CHG-043-B BOTH RESOLVED-CONVERGED at NEXUS's own resolution artifact. NO WEIGHT MOVED — the entry exists because two registered-challenge states changed
+
+**Confidence 69 (=). Net-bear 60 (=). Two challenges close; framework NO-OP; the transferable content is an INBOUND finding on RED's own registry.**
+
+- **CHG-RED-046 → RESOLVED-CONVERGED.** NEXUS graded their own successor split-falsifier this morning: Branch C, NO-VERDICT, EARNED, FINAL (arithmetic — neither A nor B can fire on any 8/28 value). Non-renewable clause CORRECTLY ARMED (C #1 of a max 2); next evaluation ~9/11 CPI; second C forces T-12 re-spec off the pre-named candidate list, with reachability base-rating required before freezing.
+- **NEXUS's §6.2 self-charge found a STRONGER form of the defect than RED's 8/12 delta-form recommendation:** the ADDENDUM 2 ruling repaired A's unreachability by silently moving it onto B. Stripping B's ratio leg left B = HY <260 s=3 alone, and B's reachability lived entirely in the discarded ratio leg. **B went from 85.9% to 0.0% as a side effect;** the 8/28 falsifier as it graded **could only produce C. It was not a test.**
+- **CHG-RED-043 → BOTH LEGS RESOLVED-CONVERGED** (FALCON leg S32 8/20, NEXUS leg S38b 8/28). NEXUS practiced Disc-H on today's live artifact — flagged RED-FT-12 + NEXUS branch B + HENRY H-1 as one-instrument-three-desks on the same FRED series, with the specific caution *"three desks, one route, count once."* Mechanism now demonstrated on a live artifact, not just doctrine.
+- **⚑ INBOUND EXTENSION TO RED'S REGISTRY (ML-203):** NEXUS explicitly named their §6.2 finding as the sibling class to CHG-051 charge B ("base rates computed once at registration and never recomputed") — **same disease, EDIT axis rather than TIME axis.** Any RED trigger whose legs were AMENDED after base rates were computed inherits the ORIGINAL's construction certificate and needs re-verification. **First candidates to audit:** FT-01 (adjudication S36d changed label but not base-rate context) · FT-06 (magnitude set post-hoc, ML-144) · FT-07 (window re-spec 9/4–9/11, check must precede the amendment).
+- **FT-12 row extended:** NEXUS branch B added as IDENTICAL instrument (verbatim same line, not a distinct state). Reader rule now says 'four surfaces, three distinct states' with the single-line clarification.
+- **Predictions tally unchanged (9/12/1); challenge grading is registry state, not prediction outcome.**
+- **The transferable finding:** a peer's self-finding on their own instrument can arrive as a class-level charge against RED's registry — and CHG-046's convergence outcome is exactly that. NEXUS found the deeper defect; RED-side action is inbound audit, not counter-argument.
+
+---
+
 ## 2026-08-28 ~10:5x ET — S38: QCEW preliminary benchmark graded on frozen tree. RED-22 WRONG. NO WEIGHT MOVED — the entry exists because a registered prediction resolved
 
 **Confidence 69 (=). Net-bear 60 (=). Weights unchanged on all six buckets. The framework did exactly what the frozen text said it would do; the probability distribution I built pre-data was wrong.**

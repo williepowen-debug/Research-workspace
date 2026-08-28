@@ -1,8 +1,15 @@
 # RED — NEXUS Brief
 
-**Status:** 🔴 vS38 — HOLD 69 / net-bear 60 (unchanged; 13th consecutive session). **QCEW graded today on frozen tree: Band D, no weight move; RED-22 WRONG; framework behaved, distribution did not.**
+**Status:** 🔴 vS38b — HOLD 69 / net-bear 60 (unchanged). **QCEW graded on frozen tree (S38); CHG-046 + CHG-043-B both RESOLVED-CONVERGED at NEXUS's own artifact (S38b). NO WEIGHT MOVED.**
 **Domain:** Adversarial cross-cutting counter-signal — no domain data of my own; I steelman the bull case against every agent's bear thesis and grade cross-agent challenges. Edges: RECEIVES from every domain agent (their STATUS + outbox); SENDS to PROME (OUTBOX alerts), domain agents (formal challenges via `challenges/` + inbox).
-**Thesis version:** S38 (2026-08-28)
+**Thesis version:** S38b (2026-08-28)
+
+> **🆕 S38b FOLD (2026-08-28 ~12:0x ET) — TWO CHALLENGES CLOSE ON AN INBOUND FINDING. What consumers need:**
+> **① CHG-046 RESOLVED-CONVERGED.** NEXUS graded Branch C, NO-VERDICT, EARNED, FINAL. Non-renewable clause armed (C #1 of a max 2), next evaluation ~9/11 CPI.
+> **② NEXUS FOUND A STRONGER DEFECT THAN RED DID:** both operative branches of their frozen falsifier were unreachable at ruling time — the ADDENDUM 2 repair silently un-reached B by stripping its ratio leg (B went 85.9% → 0.0% as a side effect). The 8/28 falsifier as graded **could only produce C. It was not a test.**
+> **③ CHG-043 both legs converged:** FALCON leg S32 8/20 (P/K/R split adopted); NEXUS leg S38b 8/28 (Disc-H practiced live in their FT-12 flag packet).
+> **④ INBOUND CHARGE ON RED'S REGISTRY (ML-203):** NEXUS named their §6.2 finding as sibling to CHG-051 charge B — same disease, EDIT axis rather than TIME axis. Any RED trigger whose legs were AMENDED after base rates were computed inherits the original construction certificate. First audit candidates: FT-01 (S36d relabel), FT-06 (post-hoc magnitude), FT-07 (9/4-9/11 window — check must precede the amendment).
+> **⑤ FT-12 row extended** with NEXUS branch B as IDENTICAL instrument (not a distinct state). Reader rule reads: 'four surfaces, three distinct states' — LIQUID kill (s=2), FT-12 = NEXUS branch B (s=3, two registrations of one line), HENRY H-1 (s=5 conjunctive with VIX<15). Any relay saying 'four desks converged' is the exact defect NEXUS Disc-H is aimed at.
 
 > **🆕 S38 FOLD (2026-08-28 ~10:5x ET) — QCEW PRELIMINARY BENCHMARK GRADED ON FROZEN TREE. NO WEIGHT MOVED — HOLD 69 / net-bear 60. What consumers need:**
 > **① Print: QCEW March-2026 = −79,000 total nonfarm** (private −178K, government +99K; retail trade −154.6K). BLS **USDL-26-1425**. **RED framework §3 → Band D → NO VERDICT.** Weight row unchanged on all six buckets.

@@ -22,6 +22,16 @@
      by heading OFFSET (which occurrence), never by presence.
 -->
 
+**🆕 S38b (2026-08-28, ~12:0x ET) — WILL-DIRECTED FOCUS-LIST ITEM #1: CHG-046 + CHG-043-B BOTH RESOLVED-CONVERGED same-sitting at NEXUS's own resolution artifact. NO WEIGHT MOVED.**
+
+- **CHG-046:** NEXUS graded their own successor split-falsifier at ~10:4x ET: Branch C, NO-VERDICT, EARNED, FINAL (arithmetic — neither A nor B can fire on any 8/28 value; verdict robust to the unpublished 8/28 cell and to both readings of "sustained 3"). Non-renewable clause CORRECTLY ARMED (C #1 of a max 2), next evaluation ~9/11 CPI, second C forces T-12 re-spec off pre-named candidate list with reachability base-rating required before freezing.
+- **NEXUS §6.2 self-charge is stronger than RED's 8/12 delta-form rec:** the ADDENDUM 2 ruling repaired A's unreachability by silently moving it onto B. Stripping B's ratio leg left B = HY <260 s=3 alone; B's reachability lived entirely in the discarded ratio leg. Measured at primary: B went from 85.9% base rate to 0.0% as a side effect. **The 8/28 falsifier as it graded could only produce C. It was not a test.** This is worse than RED's original charge (3), which had described only that "resolves on HY alone."
+- **CHG-043-B:** NEXUS practiced Disc-H on today's live artifact (their FT-12 flag packet) — flagged RED-FT-12 + branch-B + HENRY H-1 as one-instrument-three-desks on the shared HY <260 line, with the specific caution *"three desks, one route, count once."* Both legs of CHG-043 now RESOLVED-CONVERGED (FALCON S32 8/20, NEXUS S38b 8/28).
+- **⚑ ML-203 filed — the inbound extension to RED's registry.** NEXUS explicitly named their §6.2 finding as the sibling class to CHG-051 charge B (base rates "computed once at registration and never recomputed"): same disease, EDIT axis not TIME axis. Any RED trigger whose legs were AMENDED after base rates were computed inherits the ORIGINAL's construction certificate. **First audit candidates: FT-01 (S36d relabel), FT-06 (post-hoc magnitude ML-144), FT-07 (window re-spec 9/4-9/11 — the check MUST precede the amendment, not follow it).**
+- **FT-12 registry row extended:** NEXUS branch B added as IDENTICAL instrument (verbatim same line, not a distinct state). Reader rule now reads 'four surfaces, three distinct states.'
+- **STATUS + CHANGELOG + OUTBOX (-033) + NEXUS_BRIEF vS38b all folded** per A4 (registered-challenge state changed).
+- **NEXUS packet + LABOR packet + BRENT packet + LIQUID retraction packet** all queued for `git mv` to processed/.
+
 **🆕 S38 (2026-08-28, boot 10:28 ET / QCEW graded ~10:5x ET — stamps from `date`) — LIVE CATALYST DAY, FROZEN TREE EXECUTED. NO WEIGHT MOVED: HOLD 69 / net-bear 60 (13th consecutive session).**
 
 ## CHANGES SINCE (S37 closeout → this boot)
