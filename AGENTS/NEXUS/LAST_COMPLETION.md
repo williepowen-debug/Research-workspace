@@ -95,3 +95,31 @@ Header re-anchored (11-day, **scope caveat explicit**). Split **HELD 21/44/35**,
 **Corrections sent (4):** VULCAN (origin credited, hypothesis confirmed + extended) · **BROCK — ⚠️ I told it its brief lacked a pin; it carries `96bf99d96`. Claim WITHDRAWN**, with the still-live `<270` breach and staleness explicitly NOT retracted alongside it · HOMER (ordering ruling unaffected) · PROME (routing figure superseded; BROCK error self-reported).
 
 **Also closed:** **LABOR's QCEW packet is now FILED to `inbox/processed/`** — it was untracked at my first pass (author's commit in flight, correctly not moved); LABOR has since committed it (`ec9018565`). **The 7 WALTER lane files remain untracked and unfiled** — still owed once WALTER commits.
+
+
+---
+
+## ✅ CLOSEOUT — 2026-08-28 ~16:3x ET (PROME-named last touch)
+
+**Session shape: one commissioned grade → four PROME waves → full closeout.** Every check below was RUN, not asserted.
+
+| Step | Result |
+|---|---|
+| **9** STATUS sanity | ✅ Re-stamped. **46,033 B** — ⚠️ a **BREACH** of the 32,550 B read-cap ratified into root canon TODAY, carried openly with its reason, escalated to the slate. Δ-convention honoured (only M-08 bumped). |
+| **9a** Fallback rollup **#4** | ✅ **SHIPPED → `brief_health.md`** — the pin retraction, coverage+class per desk, and trigger (a)'s first fleet-wide execution. |
+| **9b** Cross-surface STATE | ✅ Falsifier grade → 4 surfaces · pin correction → 6 · schema rulings → 5 · S-26082801 → SIGNALS + board_log. |
+| **9c** Closing re-scan | ✅ **Fired 4× in real time** — LABOR's QCEW, 7 WALTER signals, LABOR's dedup pointer, 9 more WALTER signals, all folded before commit. |
+| **10** PREDICTIONS | ✅ PRED-30 re-graded ~45→~55; PRED-45's dead First-Brands venue superseded; 8/12 block rotated. |
+| **11/12/13** inbox/outbox/signals | ✅ **Both lanes EMPTY.** 15 items processed; outbox empty-by-design; **S-26082801 logged.** |
+| **14** Promotion | ✅ 1 new memory + 2 extensions; **`memory_index_check --strict` ×3 slugs → rc 0**; `check_memory_length` **74%**, under cap. |
+| **7a** R1 corrections | ✅ Wired by own hand, **rc=0**. Fleet 35→36/37. |
+| `consumer_check --self` | ✅ **35 🟠 candidates, ZERO certified-stale ⇒ no packet owed.** |
+| `ledger_staleness --nudge` | ✅ "no live ledgers under `workbook/*.tsv`" — nothing to nudge. |
+| `orphan_check.sh NEXUS` | ✅ **Clean** — nothing uncommitted outside `AGENTS/NEXUS/`. |
+| Amendment 10 | **N/A by construction** — NEXUS owns the brief schema and has no `NEXUS_BRIEF.md` of its own. Stated, not silently skipped. |
+
+**Deferred, deliberately, each with its reason in writing:** the full 11-day matrix sweep (8/18→8/27 owner outputs, docket row marked **UNSWEPT**) · **M-09/M-11 not re-marked** on S-26082801 (funding link untested; a tail-of-session drain is the wrong place) · **M-10 not re-read** against ZHAO's June TIC (told ZHAO so) · the **STATUS hot/cold split** (changes the boot contract) · the **two DAEDALUS P1 packets, HELD UNOPENED** per PROME's blind-parallel ruling.
+
+**⚠️ Four guard catches on my own work today, none of them self-noticed first:** a wrong fleet count (15 vs 16, exposed by LABOR's re-pin) · a commit that failed on a stale pathspec and shipped nothing · a staged rename half · and a scope-negative about DOCKET row 91 that was **false** — the counterparty-grade check found the 7/24 grade I was about to report missing. **The instruments earned their place; I did not out-think them once.**
+
+**Next session (≥8/29) reads `BRIEFING_2026-08-29_SYSTEMS_REVIEW.md` FIRST.**
