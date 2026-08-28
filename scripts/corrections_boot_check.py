@@ -169,8 +169,15 @@ def cmd_coverage(root, reg_path):
             desks.append(m.group(1))
     wired, unwired = [], []
     for d in desks:
-        charter = (root / "PROME" if d == "PROME" else root / "AGENTS" / d) / "CLAUDE.md"
-        (wired if charter.exists() and "corrections_boot_check" in charter.read_text() else unwired).append(d)
+        home = root / "PROME" if d == "PROME" else root / "AGENTS" / d
+        # A desk's boot may live in a BOOT.md its charter points to (PROME does this by rule:
+        # "new checks go in the script/BOOT.md, CLAUDE.md must not restate"). Scanning only
+        # CLAUDE.md under-counted PROME on 2026-08-28 the very hour it wired the line — the
+        # coverage instrument's own scan set was narrower than the fleet's boot-surface forms
+        # (PAT-084). Scan both; a desk is wired if EITHER names the check.
+        surfaces = [home / "CLAUDE.md", home / "BOOT.md"]
+        hit = any(f.exists() and "corrections_boot_check" in f.read_text() for f in surfaces)
+        (wired if hit else unwired).append(d)
     pct = 100 * len(wired) // len(desks) if desks else 0
     print(f"R1 BOOT-LEG COVERAGE: {len(wired)}/{len(desks)} active+tier-2 desks wired = {pct}% "
           f"(checkpoint 2026-09-26 needs >=80%); register {'EXISTS' if reg_path.exists() else 'NOT YET CREATED (WALTER)'}")
