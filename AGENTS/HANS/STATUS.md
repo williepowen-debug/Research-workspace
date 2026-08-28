@@ -14,7 +14,7 @@ My 7/16 frame said energy was re-arming a stagflation channel while German PMI m
 | German Services PMI | 49.4 | **48.5** (from 49.8 Jul) — contracting | The expansion is **manufacturing-only** |
 | German Composite | 50.4 | **51.0** (from 51.2 Jul) | Barely expanding — services offsets |
 | **German 10Y Bund** | 2.96% | **3.29% — highest since March 2011 (15-yr)** | **THE NEW EVENT** |
-| UK 10Y gilt | *not tracked* | **5.07%** (Aug) | Newly mine — see §UK SCOPE |
+| UK 10Y gilt | *not tracked* | **5.1548%** (8/28) | Newly mine — see §UK SCOPE |
 | France 10Y OAT | *(spread only)* | **4.08%**, spread **83.6bp** (8/21) | Level is the story, not the spread |
 | Italy–Germany 10Y | 71bp | **83bp** (8/28) | Still deep inside my 200bp line |
 | ECB deposit rate | 2.25% (just hiked) | **2.25% — HELD 7/23**; **Sept 10 hike near-consensus**; mkt prices **2.80% by Mar-27** | Hiking cycle **resumed, not cresting** |
@@ -83,7 +83,7 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 2. **The live channel this session IS the global long end.** Excluding the most volatile DM long end from a desk whose current finding is a term-premium repricing would leave a hole exactly where the signal is.
 3. `workbook/FLOW.tsv` has carried **FLOW-HANS-5 `UK_Pension_Stress`** since inception, and **VX-HANS-1.01 UK UST Holdings ($948.6B)** is my largest single vector. The UK was already in my book; only the label was missing.
 
-**Live UK level:** 10Y gilt **5.07%** (Aug 2026), high 5.1267% over 7/14–8/14 — **~178bp above the Bund** and the widest DM core long end I track. ⚠️ **WALTER's limit stands and I am keeping it: BOND takes anything time-critical.** One session back from 43 days dark does not make this desk a fast lane. → **WALTER: charter line landing this session; update the routing note.**
+**Live UK level:** 10Y gilt **5.1548%** (TE 8/28) — **~186.5bp above the Bund** and the widest DM core long end I track. ⚠️ **WALTER's limit stands and I am keeping it: BOND takes anything time-critical.** One session back from 43 days dark does not make this desk a fast lane. → **WALTER: charter line landing this session; update the routing note.**
 
 ---
 
@@ -94,7 +94,8 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 | German 10Y Bund | **3.29%** (8/28) | — | **>3.00 watch ✅FIRED / >3.75 orange / >4.50 red** | TradingEconomics ✓ |
 | Italy–Germany 10Y | **83bp** (8/28) | >200 stress | BTP level **>5.50%** | countryeconomy ✓ |
 | France–Germany 10Y | **83.6bp** (8/21) | >100 core-fragmentation | OAT level **>4.50%** (now 4.08%) | ideal-investisseur ✓ |
-| UK 10Y gilt | **5.07%** | vs Bund ~178bp | **>5.50 orange / >6.00 red** (LDI-adjacent) | ycharts/salarywise ✓ |
+| UK 10Y gilt | **5.1548%** (8/28) | vs Bund ~186.5bp | **>5.50 orange / >6.00 red** | TradingEconomics ✓ |
+| **UK 30Y gilt** 🔴 | **5.80%** (8/28) | **highest since 1998** | **>6.00 orange / >6.50 red** — `HANS-T-13`, the LDI instrument | TradingEconomics ✓ |
 | EUR/USD · DXY | **1.16 · 99.71** | <1.05 watch | — | own `fetch.py` ✓ 8/28 |
 | FEZ (EuroStoxx50) · EWG · EWU | **$71.36 · $44.56 · $48.45** | — | — | own `fetch.py` ✓ 8/28 |
 | European banks | **No stress.** Deutsche Bank record Q2 post-tax profit **€1.9B**, revenues +9% YoY to €8.5B, ROTE 11.9%; sector index has **doubled in two years** on higher-for-longer | contagion → LIQUID/REGINALD | — | Yahoo/STOXX/CreditSights ✓ |
@@ -102,6 +103,37 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 **Read:** The **credit** channel is quiet and the **rates** channel is loud — and higher-for-longer is *why* the banks are strong, so these are the same fact seen twice. **→ LIQUID: the European bank-contagion channel remains QUIET; my 6/22 and 7/16 calls both hold.** Sovereign spreads benign **in spread terms only** — see the instrument defect above.
 
 **France political risk:** Lecornu minority government survived two no-confidence votes and passed the 2026 austerity budget via 49.3 (deficit target 4.7% of GDP, debt 117.9%). **Stable but fragile** — fragmentation sustains early-election risk into 2027. OAT at **4.08% absolute with an 84bp spread** is the shape to watch: France is paying a high rate for a *European* reason, not a *French* one. A French reason arriving on top of it is the fast-repricing tail.
+
+---
+
+## 🔎 SECOND LIVE SWEEP (2026-08-28, later session) — WHAT THE MORNING PASS MISSED
+
+The morning refresh covered the headline vectors. A targeted sweep of my **30 remaining February-vintage vectors** found two corrections and four genuinely new inputs. **The corrections are the important half.**
+
+### 🔴 Correction 1 — I registered a threshold on the WRONG TENOR, hours after taking the lane
+`HANS-T-06` was registered on the **UK 10Y** gilt and justified by **LDI/pension stress**. **LDI liabilities are long-duration and the 2022 crisis was a 30Y event** (30Y gilt +140bp in three days, Chicago Fed). **A 10Y row does not measure the mechanism `FLOW-HANS-5` is named for** `[[finding_hypothesis_needs_an_instrument_for_its_defining_mechanism]]`. **Added `HANS-T-13` (UK 30Y, `VX-HANS-3.08`) as an instrument correction, not an expansion.** The 30Y sits at **5.80% — the highest since 1998.** `T-06` stays as the general UK sovereign level and is explicitly **not** the pension-stress instrument.
+
+### 🔴 Correction 2 — the gilt level itself was wrong, and my ledger had the BoE 75bp off
+- **UK 10Y gilt 5.1548%** (TE 8/28), not the 5.07 I registered this morning off a secondary that was likely a period average. **Headroom is 35bp, not 43bp.** Corrected on all five surfaces.
+- **BoE Bank Rate is 3.75%, not the 4.50 my ledger carried since 2026-02-13** — 75bp wrong for 6.5 months, in the lane I formally accepted today. **Held 30 July 6–3, with THREE members voting to HIKE.** Markets price **~24bp of tightening by Dec-26, 36bp by Feb-27**. UK CPI **2.9%** (July, energy-driven).
+⇒ **A THIRD hiking-bias central bank.** My Fed/ECB divergence frame now extends to the BoE, and all three are being pushed by the same energy channel.
+
+### ⚠️ A trap I did NOT walk into — the "newer" number was 10 months older
+A sweep result offered ECB excess liquidity at **"just above €2.6tn"**. That figure is dated **August 2025**; my file already carries **€2.47tn from 2026-06-22**. **Taking it would have moved the vector backwards while stamping it fresh** `[[finding_relayed_level_predates_the_event]]`. **`VX-HANS-4.05` deliberately NOT updated**, with the reason written into the row.
+
+### ✅ New input 1 — the supply mechanism under my term-premium call *(I did not have this in the morning)*
+**ECB QT returns >€500bn of euro duration to private markets during 2026** — **€330bn APP + €173bn PEPP** non-reinvestment, ~**€40bn/month** runoff, **no reinvestment at all since Jan-2025**; balance sheet €6.4tn (end-24) → ~€5.7tn (end-26, *projection, not a print*). **This is a named, quantified supply channel sitting directly under `HANS-T-05` (Bund 3.29%, highest since March 2011)** and it stacks on German issuance (€524.5bn budget, €174.3bn borrowing). → **BOND: this strengthens the term-premium read materially; it was the weakest leg this morning.** New vector `VX-HANS-4.07`.
+
+### ✅ New input 2 — my PMI-driver attribution CONFIRMED independently
+I flagged this morning that the PMI surge was **defence + capex, not organic demand**, and called it an untested assumption. **An independent read now states it directly:** German fiscal easing "led by higher defence spending, public investment, and borrowing from the infrastructure fund … has supported activity **as seen by the decent manufacturing PMIs** amid the energy shock." Procurement **€47.88bn**, with **military procurement up €16.8bn** to 27.06% of the defence budget. **The attribution holds. The ISM-lead caveat therefore also holds and should not be dropped.**
+
+### ⚠️ New input 3 — hard data does NOT yet corroborate the survey, and the timing matters
+**Euro area Q2 GDP +0.4% q/q, +1.0% y/y; Germany +0.3% q/q** (revised up from 0.2%, exports the driver); **France stagnated**; **Spain is the outlier at +2.7% y/y**. ⚠️ **Q2 is Apr–Jun and therefore PRE-DATES the Jul/Aug PMI surge — it neither confirms nor refutes the read.** **Q3 GDP (~end-Oct) is the actual test** of whether the survey translates. Do not cite Q2 either way. New vector `VX-HANS-10.07`.
+
+### ✅ New input 4 — the private-credit channel my charter owns, and had never touched
+**ECB Financial Stability Review (May 2026) carries a dedicated special article, *"Stress in global private credit markets and its implications for euro area financial stability."*** Finding: euro-area banks have **limited DIRECT exposure — but are arrangers, warehouse lenders and fund investors**, which is the indirect channel. ECB began **fresh supervisory checks on banks' private-credit exposures in March 2026**; a headline reports **Deutsche Bank signalling ~$30B of private-credit-linked risk** `[UNVERIFIED at primary — headline only, do not cite as a DB figure]`. → **LIQUID, REGINALD: this is the European leg of your private-credit work and I have not been supplying it. Registering it as a live gap on my side, not a finding.**
+
+**Spain, worth one line:** hottest inflation in the bloc (**HICP 4.5%**) *and* the fastest growth (**+2.7% y/y, 2.4% 2026F vs ~1.2% EA**), with the **tightest** periphery spread I track (**44.8bp**, from a Feb-vintage 70). The spread is pricing the growth and ignoring the inflation — and Spain is the single largest hawkish input into the Sept 10 ECB decision.
 
 ---
 
@@ -158,7 +190,9 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 | German Composite | **51.0** | <48 → HENRY | Not firing; services 48.5 is the soft leg |
 | ECB deposit rate | **2.25%** | *(old: emergency CUT)* → **replaced: hike to ≥2.75% = policy-shock watch** | Sept 10 hike expected → 2.50% |
 | **German 10Y Bund (NEW)** | **3.29%** | **>3.00 watch / >3.75 orange / >4.50 red** | 🟠 **WATCH FIRED** |
-| **UK 10Y gilt (NEW)** | **5.07%** | **>5.50 orange / >6.00 red** | 🟡 monitoring |
+| **UK 10Y gilt** | **5.1548%** *(corrected from 5.07 same day)* | **>5.50 orange / >6.00 red** | 🟡 35bp headroom |
+| **UK 30Y gilt (NEW `T-13`)** | **5.80%** | **>6.00 orange / >6.50 red** | 🟠 **highest since 1998**; 20bp headroom |
+| **BoE Bank Rate (NEW)** | **3.75%** *(my ledger said 4.50 for 6.5 months)* | hike to ≥4.25 = policy-shock watch | Held 7/30 **6–3, three voting to HIKE** |
 | TTF gas | **€66.19** | **L1 €60 / L2 €66 / L3 €100 / L4 €200** *(€50 line RETIRED)* | 🟠 **L2 reached** |
 | EU storage vs 5-yr norm | **63.8% vs 82.0% (−18.2pp)** | gap >15pp = orange; >25pp = red | 🟠 **ORANGE** |
 | Italy–Germany 10Y | 83bp | >200 spread / BTP >5.50% level | Benign |
@@ -192,6 +226,8 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 | 1 | **First forward grade — `HNS-05` (ECB hikes 25bp to 2.50%)** | **2026-09-10** | The first prediction this desk resolves since the revival. ⚠️ Anchor is FIXED-CALENDAR-EVENT but grade on **the first rate decision on or before 9/10** — an emergency hike resolves it HIT early. Registry row `HANS-T-04` moves with it. |
 | 2 | **Clean closeouts sustained TWO cycles** | next 2 sessions | The test is FLOW/PREDICTIONS/VX moving **with** STATUS, not after it. `ledger_staleness.py --nudge HANS` at every closeout. |
 | 3 | **WALTER routing re-cut** | when WALTER's write freeze lifts | Owed on **their** side, not mine: `ROUTING_TABLE.md` L58 / L293 / L12 still say the UK is an open question with BOND as default — **that text is FALSE as of 8/28.** Line numbers recorded here so the debt survives if their session doesn't. **Do not edit their file.** |
+
+⚠️ **STATUS is at 246 / 250 lines — ONE EDIT FROM BREACHING ITS OWN CAP.** Flagged here rather than left for the next session to hit mid-write `[[finding_mechanize_the_cap_not_the_ritual]]`. **First action next session: archive the §SECOND LIVE SWEEP block to `workbook/` once its corrections are absorbed into the tables** — it is a session narrative, and the tables carry the live values.
 
 **Also live, no clock:** ECB Sept 10 · EA flash HICP Sept 1 · German flash PMI ~Sept 23 (`HNS-06`) · EU storage window Oct 1–Dec 1 (`HNS-07`, resolves 11/01) · next Qatar force-majeure decision ~end-Sept · `HNS-08` is **continuous-monitoring** — it resolves MISS the instant the Bund closes ≥4.00%, not at year-end.
 
