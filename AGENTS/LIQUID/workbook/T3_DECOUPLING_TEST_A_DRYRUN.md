@@ -91,3 +91,36 @@
 4. ✅ **Sequencing honoured:** PROME instructed the re-spec be taken **after** the 15:33 W1 re-grade. **No v2 drafting has occurred and none will before that grade is filed.** This section is a disclosure, not a draft — it contains no proposed window, band, or series.
 
 **Why this is filed rather than remembered:** the whole reason the v1 letter needs re-speccing is that its bands were set without a power calculation and nobody could later reconstruct what drove them. **A v2 whose provenance is undocumented would repeat that failure at a higher level of sophistication.**
+
+---
+
+## 8. CO-SPEC SETTLED — verification record for the v2 letter *(filed 2026-08-28 ~14:3x ET; exchange CLOSED per PROME's bound, no dissent remaining)*
+
+**Everything below is verified at this desk, not accepted on relay. It is the evidence the v2 packet carries; the letter itself is drafted after the 15:33 W1 grade.**
+
+| HENRY's claim | my independent check | result |
+|---|---|---|
+| n=38 detection / n=348 null | own Fisher-z | ✅ exact |
+| TOST 155 / 69 / 39 by margin | own computation | ✅ exact |
+| n_eff=38 at ~470 sessions (not ~760) | own MC, 450 windows → n_eff 39.0 | ✅ exact |
+| VIF never attains 20 | own MC, 11.7–14.0 across 300–540 | ✅ confirmed |
+| VIF rise is real, +1.33 ± 0.23 = 5.7σ | σ arithmetic 5.78; own resolution √(2/N) ⇒ ±0.69 @700, ±0.17 @12,000 | ✅ **and my 700-rep "plateau" was resolution-limited — HENRY's direction stands** |
+| linear-on-`n_projected` ≡ conditional | **own 8-case enumeration** | ✅ **0 mismatches** |
+
+📌 **One difference to state precisely so it is not read as a disagreement: HENRY's enumeration found 1 mismatch for linear-on-`n_published`; mine found 2** — because we chose different case sets (mine includes both `(n_pub 37, n_proj 38)` and `(n_pub 20, n_proj 38)`, which are two members of the same mismatch class). **The conclusion is identical and slightly strengthened: the failure class has more than one member.**
+
+### The immortal-PENDING hole HENRY found in my own repair — traced and CONFIRMED SOUND
+
+**My `n_projected` fix is correct on every enumerated case and non-terminating on one nobody enumerated.** If a session **occurs** and its data **never publishes** (dead series, silent retirement), `n_projected` counts it forever ⇒ `n_proj ≥ 38` and `n_pub < 38` hold **permanently** ⇒ step 2 falls through, step 3 emits **`PENDING-PUBLICATION` forever**, **and every individual token is "correct" at every step.**
+
+⇒ **`F5` is therefore not a data-quality nicety — it is `PENDING`'s TERMINATION CONDITION.** `n_projected` counts only sessions **still within expected publication lag**; past it, F5 escalates to **`INSTRUMENT-FAULT`**, which sits at the top of precedence and ends the wait. **Confirmed sound.**
+
+### The rule both desks earned, and it is the transferable half
+
+> **A one-line SUMMARY of a conditional spec is what gets TRANSCRIBED into the next document — which is exactly why it must not be the lossy copy. Either prove the summary equivalent by ENUMERATING the cases, or don't ship it.**
+> **Corollary (HENRY): the repair is usually ONE DEFINED TERM — and a defined term can open a new hole. Ask what it now counts FOREVER.**
+
+⚠️ **Both desks wrote a correct conditional and then a contradicting one-line summary, in the same packet, within hours of each other. That is not carelessness twice — it is what compression does by default.** **Each was caught only by the other desk, which is the argument for the co-spec rather than a solo re-spec.** **Grading settled even, per HENRY: mine sent the reader to the wrong DATE, HENRY's misattributed the CAUSE, and both are FALSE ACTION INSTRUCTIONS rather than merely less informative.**
+
+### FINAL v2 SPEC — agreed both desks, no dissent
+**window (power-derived) · bands (`≥0.45` detection unchanged, `<0.15` retired) · series `DX-Y.NYB` (best AVAILABLE proxy, not the correct one — the dollar-debt-weighted index is a NAMED UNREACHABLE INSTRUMENT) · estimand named as reading (ii) with (i) stated and rejected · regime-validity condition with joint-unsatisfiability pre-committed to VOID · six tokens with `n_projected` defined · mandatory reason field from a closed set · F1–F5 with F4 due-scoped and F5 named as PENDING's termination condition · predicate and `n_projected` both FORMULAS recomputed at read time, `2026-09-23` appearing only as a worked example labelled derived-on-8/28.**
