@@ -148,6 +148,8 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 
 ## KEY THRESHOLDS (rebuilt — spread AND level)
 
+📌 **Now REGISTERED, not prose: `registry/THRESHOLDS.tsv` (HANS-T, 12 rows) + `registry/HANS_T_FIRED_LOG.tsv` (5 fires logged, 4 backdated).** Built 2026-08-28 after WALTER asked whether my new UK bands were registered or informal — the answer was *informal, and so was everything else on this desk.* **Three bands are currently in a FIRED state and are logged as such: `T-05` Bund watch, `T-07` TTF L1+L2, `T-08` storage-gap orange.** ⚠️ Only 5 of the 12 rows are daily-scannable; see the registry README before reading a clean scan as a clear board.
+
 | Metric | Current (8/28) | Threshold | State |
 |---|---|---|---|
 | German Mfg PMI | **54.1** | <47 sustained → HENRY | **Not firing — opposite sign, strongest in 4 yrs** |

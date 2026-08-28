@@ -118,6 +118,10 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## KEY THRESHOLDS
 
+📌 **CANONICAL REGISTRY: `registry/THRESHOLDS.tsv` (HANS-T, 12 rows) + `registry/HANS_T_FIRED_LOG.tsv`** *(created 2026-08-28, answering WALTER's registered-or-informal question — before that this desk had **zero** registries and a band that had already fired with nothing recording it).* **The registry is authoritative; this table is a reader's mirror.** On disagreement the registry wins and the fix lands there.
+
+⚠️ **ONLY 5 OF THE 12 ROWS ARE NUMERICALLY SCANNABLE DAILY** (`T-05` Bund · `T-06` gilt · `T-07` TTF · `T-08` storage gap · `T-11` EURUSD). Three are **MONTHLY PRINTS** (PMI — surface as *"last known print + its date,"* never as a live level), one is **EVENT-DRIVEN** (ECB, 8 dates/yr), two are **COMPOUND two-leg** (Italy, France — neither leg fires alone), and one is **🔴 UNINSTRUMENTED and cannot fire at all** (`T-12` EUR/USD 3M basis, no feed; registered so the gap is countable, **not** to be counted toward a clean board). **A clean scan of the 5 does not mean the 12 are clear.**
+
 *Levels refreshed **2026-08-28** (revival session). Live values live in `STATUS.md` — this table is the **trigger spec**, cite STATUS for the current print.*
 
 ⚠️ **Structural fix made 2026-08-28 — read this before using the table.** Every sovereign threshold this desk carried was a **SPREAD**. All of them read "all clear" straight through a **+33bp common-mode move in the Bund to a 15-year high** — the actual event of Jul–Aug 2026 — because a spread metric is by construction blind to a common-mode move `[[finding_spread_metric_blind_to_common_mode]]`. **Every spread threshold below is now paired with an absolute-LEVEL threshold. Never carry one without the other.**
