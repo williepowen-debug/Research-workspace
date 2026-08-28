@@ -98,6 +98,7 @@ Standing rule: route to the **domain owner**, one signal at a time, transmission
    6. `AGENTS/CREED/research/REIT_EQUITY_TAPE_MODULE_2026-06-21.md` — ⚠️ **read its header first**; the S8a level and its *direction* were both revised on 2026-08-20 (afternoon). **Recompute with `scripts/s8a_relative.py` before citing S8a.**
    7. `AGENTS/CREED/archive/LEGACY_PULL_FORWARD_2026-06-21.md`
 7. **Read `AGENTS/CREED/workbook/VX.tsv`** (the live metric layer — 34 vectors mapped to the Expected Signals) **and run the staleness check below.**
+7b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" CREED` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 
 If a task only asks for file hygiene or topology checks, do not make fresh market claims from the rails. If a task asks for current market analysis, refresh live/monthly data first where needed.
 
