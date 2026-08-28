@@ -102,8 +102,8 @@ Full detail + severity math → `../SEVEN_CREDIT_DEEP_DIVE.md`.
 ## What's Needed
 
 - [x] Boston Life Sci $169M sponsor disambiguation — ✅ DONE Apr 23 (10 Prospect / USQ D2.1 / Magellan JV, UCC-1 dispositive [KB-195]; roster + root STATUS reconciled 7/6 after erroneous 7/4 re-open)
-- [x] Bluerock Q1 2026 NAV marks — ✅ CHECKED 7/4: no fresh Q1 mark exists; latest is H2'25 vintage (TI+ −4.4% → $6.28). Standing watch → COUNTERPARTY_WATCH.
-- [x] Aimco v. IQHQ MTD — ✅ CHECKED 7/4: no ruling; likely still in briefing; complaint does not name Bluerock. Re-check docket with Q2 prep.
+- [ ] Bluerock TI+ NAV marks — ⚠️ **RE-OPENED 2026-08-28.** ✅ checked 7/4: no fresh Q1 mark existed *then*; latest documented remains H2'25 vintage (TI+ −4.4% → $6.28). **The `[x]` was the defect: a negative closed with a tick stops being re-checked, and this one is 55 days old with Q2 fund reporting since elapsed.** A fresh TI+ mark is a leading indicator for RaDD credit. Standing watch → COUNTERPARTY_WATCH.
+- [ ] Aimco v. IQHQ MTD — ⚠️ **RE-OPENED 2026-08-28.** ✅ checked 7/4: no ruling *as of then*; likely still in briefing; complaint does not name Bluerock. **Its own re-check trigger — "with Q2 prep" — FIRED on 7/21 and nobody acted, because the `[x]` made it look settled.** Docket pull owed (courts.delaware.gov, Del. Chancery).
 - [ ] IQHQ next capital raise or asset sale announcement
 - [ ] Campus at Horton post-foreclosure leasing update (late July)
 - [ ] Any new RaDD lease signing (changes narrative)
