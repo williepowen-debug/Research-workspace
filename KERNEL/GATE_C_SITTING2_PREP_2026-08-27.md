@@ -6,7 +6,7 @@
 
 | # | Precondition | State | Whose move |
 |---|---|---|---|
-| ① | Reviewer blessing of the **substitution rule** (corrected CREED 111-116 + LIQUID pair are NEW files exceeding R3's subset-only delta baseline) | **OPEN — the long pole.** Ask packeted to RED's inbox this evening (`2026-08-27_from-PROME_sitting2-reviewer-seat...`) | RED at its next boot (or DAEDALUS as named substitute) |
+| ① | Reviewer blessing of the **substitution rule** (corrected CREED 111-116 + LIQUID pair are NEW files exceeding R3's subset-only delta baseline) | **✅ DISCHARGED 2026-08-27 ~21:44 — DAEDALUS ran the review as NAMED SUBSTITUTE on Will's in-session word (*"can you review KERNEL now?"*, recorded in the report header; seat eligibility = the 8/26 "RED or DAEDALUS, never PROME" ruling). Substitution rule BLESSED with the rule stated precisely + TWO CONDITIONS: **S1** — every future refused→corrected substitution gets a machine-produced per-pair field diff IN the sitting transcript (discharged for THIS set by the report's own diffs); **S2** — a superseded command_id appearing in any future activation draft is a STOP (supersession map in the report §1; 0004/0006 stay never-reused). Also: LIQUID 23s timing commit STANDS as-is (§4 consumed — rule-executability defect, successor wording owed, see runbook §Carve-out-④ successor scope) · F3 ENDORSED, suite 212 re-run by reviewer · 12/12 pins + 16/16 native refs independently re-derived. Report: `AGENTS/DAEDALUS/reports/2026-08-27_KERNEL_SITTING2_SUBSTITUTION_REVIEW.md` (`791e77db1`); RED stand-down packet in its inbox | Done — PROME verified at the artifact ~21:5x (rule-2 pass: commit real, packet delivered, evidence table reconciles with prep §3) |
 | ② | Resolution-family grants bump | **DRAFTED, fails closed** — `KERNEL/policies/capability-grants.json.sitting2-draft` (sha256 `e27c15fb…ac372` at cut; recompute after finalization). See §2 for the `question.close_own` catch and the verifier sentinel | PROME finalizes after MIDAS authors (verifier name); lands at the sitting under Will's activation |
 | ③ | F3 fixture answer | **ANSWERED at fixture level** — §1 below | Done; reviewer may endorse |
 | ④ | Companion runbook SENTENCE | **DONE** — `GATE_C_C7_RUNBOOK.md` §Submission authoring requirement (2026-08-27 evening edit) | Done |
@@ -62,7 +62,7 @@ All 12 corrected commands **already sit at their C1 submission paths, byte-ident
 
 ## 5. What remains, and whose it is
 
-1. **RED (or DAEDALUS):** bless the substitution rule (①) + the LIQUID timing note (§4) — packet in RED's inbox.
-2. **Will, Friday:** spawn MIDAS (⑤ — authors commands + names the verifier) and RED (①).
+1. ~~**RED (or DAEDALUS):** bless the substitution rule (①) + the LIQUID timing note (§4)~~ **✅ DONE 8/27 ~21:44 — DAEDALUS as named substitute (scoreboard ①); S2 stop-check rides step 2 of the runbook at mint.**
+2. **Will, Friday:** spawn MIDAS (⑤ — authors commands + names the verifier). *(RED's Friday spawn is no longer kernel-critical — its kernel leg is discharged and a stand-down packet sits in its inbox; RED spawns on its own docket's merits.)*
 3. **PROME, after MIDAS authors:** finalize the grants draft (replace the sentinel, recompute hash), cut activation drafts E(/F) for the MIDAS set + resolution pair, re-point `authorization_ref`s if a fresh Monday packet is cut.
 4. **Will, Monday post-16:15:** the window, in his words, canonical form — then runbook steps 0-9 per activation.
