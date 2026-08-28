@@ -106,6 +106,21 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 🔑 **Why six candidates have now died — it is the REQUIREMENT, not the candidates.** Requirement 3 ("low spurious fires in the name's own history") **assumes one regime**. FLG's history has a break: non-accrual **$798M [24Q1] → $1,942M [24Q2], +143%**, with cure share at 59.5% in 2023. **A kill built to detect credit repair SHOULD fire in 2023, because in 2023 this bank was repairing** — scoring that as a spurious fire counts a correct positive as a false positive. **No repair-detecting kill can ever pass requirement 3 for a bank that used to be healthy.** On the post-break window (4 halves) the form fires zero times and would pass — but n=4 is too thin, and requirement 1 is now known unbuildable. **K-3 stays UNSET; cure share becomes a standing observable on the ledger instead.** Routed to REGINALD as a framework-level finding.
 
+### 🔴 STAGE 2 CLOSED — the wall is 2027, and three clocks land on it together
+
+`workbook/MATURITY_WALL.tsv` (EDGAR, "Loan Maturity and Repricing", FY2025 10-K + Q2-2026 10-Q).
+
+| multi-family vintage | 2026 | **2027** | 2028 | 2029 | 2030 | 2031+ |
+|---|---:|---:|---:|---:|---:|---:|
+| $M repricing/maturing | 2,700 | **8,503** | 5,447 | 3,843 | 2,048 | 4,191 |
+| share of the $26.9B book | 10.0% | **31.6%** | 20.2% | 14.3% | 7.6% | 15.6% |
+
+**2026-10 the rent freeze takes effect · 2027 a third of the multi-family book reprices into it · 2027-Q2 the DSCR review tests those borrowers.** The desk previously knew the freeze bit but not *which vintages* — that was the named top gap at v1.0, and it is closed.
+
+⚠️ **The deleveraging is concentrating the wall, not reducing it.** The 2027 vintage **grew +2.1%** ($8,327M → $8,503M) while the multi-family book **fell −7.08%**; as a share, **28.7% → 31.6%** (KB-FLG-047). The loans leaving are the ones that *can* leave. **This is the sharpest answer available to the deleveraging counter-thesis.**
+
+⛔ **Do not cite the issuer's 93%.** FLG discloses *"93% of loans that repriced during 2026 are current on their contractual payments **or paid off**"* (89% for FY2025). **That fuses the confirming case with the refuting one** — still-current means the reset was absorbed; paid off means the loan left through the channel this thesis is about, which is 87.5% of non-accrual outflow. The rise 89%→93% is equally consistent with the payoff channel working harder. The split is not disclosed (KB-FLG-048).
+
 ---
 
 ## GATES & PREDICTIONS
@@ -146,4 +161,4 @@ The 87.5%-payoff / 1.6%-cure split was a single observation at v1.0. It is the e
 
 ## BOTTOM LINE
 
-The desk ran its first session and then its first real data build, and the thesis's load-bearing number went from **n=1 to n=13**: FLG's problem book is not healing, and the three-year series shows why — **cures fell from 59.5% of non-accrual outflow to 1.6% while payoffs rose to 87.5%**, so this bank has migrated from resolving bad loans to handing them off, against a **$163M specific reserve on $2.8B** and a coverage floor that just broke to a **new low of 31.04%**. The single most important read is that **NYC froze the rents on the collateral behind $8.9B of it, effective October 2026**, with a ~12-month fuse to the Q2-2027 DSCR review — the mechanism attacks precisely the NOI that makes those borrowers refinanceable, i.e. the one exit that is still working. **K-3's kill stays UNSET, now for a proven reason**: the cohort base rate is structurally unbuildable (the cure line is non-public FR Y-14Q), and requirement 3 itself is mis-specified for a bank whose regime changed — which is why six candidates have died and is a finding about the framework, not this name. I wake on **2026-10-01** when the freeze takes effect, and properly at the **Q3 10-Q ~2026-11-06** where FLG-02 and FLG-03 grade.
+The desk now has a thesis, a three-year evidence base and a date. **FLG's problem book is not healing — cures fell from 59.5% of non-accrual outflow to 1.6% while payoffs rose to 87.5% (n=13 filings)** — so every improving credit metric on this name is a derivative of the NYC rent-regulated refinance market staying open, against a **$163M specific reserve on $2.8B** and a coverage floor that just broke to a **new low of 31.04%**. **The timing is 2027 and three clocks land on it together:** the rent freeze takes effect **October 2026**, **$8,503M — 31.6% of the multi-family book — reprices across 2027** into that freeze, and the **Q2-2027 DSCR review** tests those borrowers. ⚠️ **The deleveraging is concentrating that wall rather than reducing it** (the 2027 vintage grew +2.1% while the book fell −7.08%), which is the sharpest answer available to the counter-thesis. **K-3's kill stays UNSET for a proven reason** — the cohort base rate is structurally unbuildable and requirement 3 is itself mis-specified for a bank whose regime changed. I wake on **2026-10-01** at the freeze, and properly at the **Q3 10-Q ~2026-11-06** where FLG-02 and FLG-03 grade.

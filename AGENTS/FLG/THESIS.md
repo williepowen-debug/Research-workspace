@@ -21,6 +21,16 @@
 
 **FLG used to resolve its problem loans by curing them. It now resolves them almost entirely by handing them off.** That is a far stronger statement than the snapshot, and it is the single most important thing this desk knows.
 
+🔴 **AND THE THESIS NOW HAS A DATE. THREE CLOCKS CONVERGE ON 2027:**
+
+| when | what | source |
+|---|---|---|
+| **2026-10** | NYC rent freeze takes **effect** — NOI growth on rent-regulated collateral goes to zero | KB-FLG-032 |
+| **2027 (full year)** | **$8,503M of multi-family reprices or matures — 31.6% of the book**, into that freeze | KB-FLG-046 |
+| **2027-Q2** | The **DSCR review** that tests those borrowers on financials reflecting the freeze | KB-FLG-037 |
+
+⚠️ **And the deleveraging is not reducing the wall — it is concentrating it.** The 2027 vintage **grew +2.1%** ($8,327M → $8,503M) while the multi-family book **fell −7.08%**; as a share it went **28.7% → 31.6%** (KB-FLG-047). **The loans leaving are the ones that can leave.** That is the sharpest available answer to the deleveraging counter-thesis.
+
 **The thesis is therefore about the DURABILITY OF AN EXIT CHANNEL, not about a stock of bad loans.** FLG's credit metrics improve for exactly as long as borrowers can refinance out. The rent freeze attacks the NOI that makes them refinanceable, and the reserve behind them has been drawn down 15.6% in six months.
 
 ⚠️ **One inherited word corrected:** coverage is **not** "monotonic" (KB-FLG-042). It fell steeply through 2024, then sat **flat in a 33–36% band for five quarters**, and **31.04% is a new series low** — a five-quarter floor that has just given way. That makes it more interesting than a smooth slide, not less.
@@ -38,7 +48,7 @@
 | # | Stage | Mechanism | 🔴 State at 2026-08-28 (FLG first live session, at the primary) |
 |---|---|---|---|
 | 1 | **Rent regulation constrains NOI** | HSTPA-2019 caps rent growth on stabilized units; NOI cannot rise to meet debt service | ✅ **INSTRUMENTED 2026-08-28, AND IT JUST FIRED.** NYC RGB approved a **RENT FREEZE** June 2026, **effective October 2026** (KB-FLG-032); FLG booked a Q2 provision increase for it. Exposure sized: **$8.9B** with ≥50% rent-regulated units, inside **$13.4B** of NYC multifamily (KB-FLG-033). Wake rows **T-08 / T-09** |
-| 2 | **Refinance repricing** | Loans written at low rates reprice at maturity into higher rates against constrained NOI | 🟠 **PARTIALLY INSTRUMENTED.** The issuer states the mechanism verbatim: repricing rent-regulated loans "approach or exceed some properties' net operating income and may require the borrower to support the loan from sources unrelated to the collateral." **The maturity-wall schedule is still NOT in any FLG ledger** — the largest remaining gap |
+| 2 | **Refinance repricing** | Loans written at low rates reprice at maturity into higher rates against constrained NOI | ✅ **INSTRUMENTED 2026-08-28 — the wall is 2027.** $8,503M of multi-family reprices or matures in 2027 (**31.6% of the book in one year**, $7,038M of it Option loans hitting reset), and it **GREW +2.1% while the book shrank −7.08%** (KB-FLG-046/047). Ledger: `workbook/MATURITY_WALL.tsv`. Formerly: The issuer states the mechanism verbatim: repricing rent-regulated loans "approach or exceed some properties' net operating income and may require the borrower to support the loan from sources unrelated to the collateral." ~~the maturity-wall schedule is not in any FLG ledger — the largest remaining gap~~ **CLOSED.** |
 | 3 | **CRE concentration** | (construction + multifamily + non-owner-occ NFNR) / total risk-based capital vs the SR 07-1 300% line | ⬇️ **DE-RISKING — 327.5% and falling** (−143pp/11 quarters; ~2 quarters from crossing 300%). **Denominator VERIFIED at the primary: $10,003M** (KB-FLG-035) — REGINALD's figure reproduces exactly. Level-high, trajectory-down. **Not deterioration** |
 | 4 | **Nonaccrual formation** | Constrained borrowers stop performing | 🔴 **RE-READ — the LEVEL improves, the FLOW does not.** Net 4.90% → 4.59%, but **gross formation $780M in H1 replaced 81.7% of outflow** (KB-FLG-030). **Multifamily net charge-off rate is FLAT YoY at 1.17%** (KB-FLG-034). ✅ Q2c answered: falling by **payoff 87.5%**, not charge-off (10.5%) or cure (**1.6%**) |
 | 5 | **Reserve adequacy** | ACL must cover recognised nonaccruals | 🔴 **STILL THE DETERIORATING LEG, and sharper than coverage suggests.** Coverage **31.04%** on the 10-Q basis (not the seed's 29% — denominator, KB-FLG-028), down 3.58pp over H1 as ACL fell 15.6% against nonaccrual −5.9%. ⚠️ **NOT monotonic** — flat 33–36% for five quarters, and 31.04% is a **new series low breaking that floor** (KB-FLG-042). **The SPECIFIC allowance against nonaccrual is $163M = 5.8%; $1,571M carries NO allowance at all** (KB-FLG-031) |
@@ -187,7 +197,8 @@ At build, stages 1–2 had no instrument, and the desk therefore held a credit-q
 
 🔴 **A process failure worth more than the finding.** `TRIGGERS.tsv` T-06 carried the RGB vote as `[EST] 2027-05-03` — so **an event that had already happened rendered as PENDING**, and the register could not tell the two states apart. **This desk was ~10 weeks blind to its own defining mechanism firing, while holding a correctly-formatted, in-date wake row aimed at it.** Corrected; T-06 re-scoped to the 2027 cycle.
 
-- **Still open — the top research gap:** the **multifamily maturity/repricing schedule** (stage 2). Without it the desk knows the freeze bites but not *which vintages* reprice into it.
+- ✅ **CLOSED 2026-08-28 — the former top gap.** The multi-family maturity/repricing schedule is now `workbook/MATURITY_WALL.tsv`: **2027 is the wall, $8,503M / 31.6% of the book**, and it is growing as a share while the book shrinks. The freeze, the wall and the DSCR review all land in 2027.
+- ⚠️ **New open item — the issuer's own repricing metric is uninformative and must not be cited** (KB-FLG-048): *"93% of loans that repriced during 2026 are current on their contractual payments **or paid off**"* **fuses the thesis's confirming case with its refuting one.** Still-current means the borrower absorbed the reset; paid off means the loan left via the very channel this thesis is about. The 89% → 93% improvement is equally consistent with the payoff channel working harder. **The split is not disclosed.**
 - **K-4 is FURTHER from firing, not closer,** and the evidence is confirming rather than falsifying — the freeze is the opposite of the "increases materially above run-rate" its kill requires.
 
 ---

@@ -16,7 +16,19 @@
 | ~2026-11-14 | RULE | Q3-2026 Call Report (FFIEC, RSSD 694904) | T-01. Quarter-end +45d |
 | ~2027-03-01 | RULE | FY2026 10-K | **Grades FLG-01.** FY2025 10-K filed 2026-02-27. `Resolve_By` carries a 2027-03-15 buffer — a slip is STUCK, never MISS |
 | **2027-05-xx** | EVENT | NYC RGB 2027 preliminary vote | T-06. **Last occurrence VERIFIED: June 2026 (rent freeze approved, effective Oct 2026).** Re-verify occurrence before treating this row as pending |
+| **2027 (full year)** | **RULE** | 🔴 **$8,503M of multi-family reprices/matures — 31.6% of the book**, into the freeze | T-10 · `workbook/MATURITY_WALL.tsv`. Watch the SHARE, not just the dollars |
+| ~2027-03-01 | RULE | FY2026 10-K — refreshes the maturity wall | T-10 re-dates here |
 | **2027-08-06** | RULE | Q2-2027 10-Q — the DSCR review that first reflects the rent freeze | T-09. **The desk's highest-value scheduled observation.** Instrument is GROSS formation, H1-vs-H1 |
+
+## 🔴 The 2027 convergence — the desk's whole timing in three rows
+
+| when | what |
+|---|---|
+| **2026-10** | NYC rent freeze takes EFFECT — NOI growth on rent-regulated collateral goes to zero |
+| **2027, across the year** | **$8,503M of multi-family reprices or matures — 31.6% of the book** — into that freeze |
+| **2027-Q2** | The **DSCR review** that tests those borrowers on financials reflecting the freeze |
+
+⚠️ **The interim prints are quiet BY DESIGN.** Q3/Q4-2026 carry provision commentary, not formation. Reading them as "the freeze did not bite" is reading the fuse, not the charge.
 
 ## Standing cadence
 

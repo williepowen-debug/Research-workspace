@@ -1,0 +1,21 @@
+# LIVE — Last real data refresh: 2026-06-30 (Q2-2026 10-Q) | Staleness sweep: 2026-08-28 | Next: FY2026 10-K ~2027-03-01 (the 10-K carries the fullest version of this table)
+# MULTIFAMILY / CRE MATURITY & REPRICING WALL — stage 2 of the transmission chain, instrumented 2026-08-28 (previously the desk's named top gap: it knew the rent freeze bit but not WHICH vintages reprice into it).
+# Source-authority: PRIMARY — EDGAR, 'Loan Maturity and Repricing' table, pulled and parsed by FLG.
+# ⚠️ DEFINITIONS ARE LOAD-BEARING. `Option Loans` = ADJUSTABLE-rate, tabulated BY REPRICING DATE — the borrower may elect a fixed rate at reset, else it defaults to variable. `Non-Option Loans` = FIXED-rate, tabulated BY CONTRACTUAL MATURITY. These are DIFFERENT EVENTS: a repricing loan stays on the book at a new rate; a maturing loan must be refinanced or repaid. Do not sum them and call the total a 'maturity wall' without saying so.
+# ⚠️ PERIMETER: unpaid principal balance, gross. EXCLUDES ADC loans, Specialty Finance CRE, multi-family serviced-by-others, and loans already past contractual maturity in modification/foreclosure ($132M at 6/30/26, $295M at 12/31/25). So MF total here ($26,732M) is slightly BELOW multifamily HFI ($26,931M) — a perimeter difference, not a discrepancy.
+# ⚠️ EXPECTED-STALE BY CONSTRUCTION between filings. Stale after ~2027-03-08 IS neglect.
+as_of	vintage_year	mf_option_repricing_musd	mf_nonoption_maturity_musd	mf_total_musd	cre_option_repricing_musd	cre_nonoption_maturity_musd	row_total_musd	mf_share_of_mf_book_pct	source	Verified_By
+2025-12-31	2026	3893	967	4860	1967	263	7090	16.8	EDGAR 10-K FY2025 acc 0000910073-26-000025	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2025-12-31	2027	7266	1061	8327	912	646	9885	28.7	EDGAR 10-K FY2025 acc 0000910073-26-000025	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2025-12-31	2028	3685	2074	5759	367	1020	7146	19.9	EDGAR 10-K FY2025 acc 0000910073-26-000025	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2025-12-31	2029	2279	1474	3753	239	499	4491	12.9	EDGAR 10-K FY2025 acc 0000910073-26-000025	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2025-12-31	2030	75	2344	2419	13	373	2805	8.3	EDGAR 10-K FY2025 acc 0000910073-26-000025	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2025-12-31	2031+	87	3442	3529	5	646	4180	12.2	EDGAR 10-K FY2025 acc 0000910073-26-000025	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2025-12-31	TOTAL	17285	11362	28647	3503	3447	35597	98.8	EDGAR 10-K FY2025 acc 0000910073-26-000025	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2026-06-30	2026	2035	665	2700	1263	282	4245	10.0	EDGAR 10-Q Q2-2026 acc 0000910073-26-000068	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2026-06-30	2027	7038	1465	8503	802	751	10056	31.6	EDGAR 10-Q Q2-2026 acc 0000910073-26-000068	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2026-06-30	2028	3524	1923	5447	354	1351	7152	20.2	EDGAR 10-Q Q2-2026 acc 0000910073-26-000068	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2026-06-30	2029	2238	1605	3843	235	637	4715	14.3	EDGAR 10-Q Q2-2026 acc 0000910073-26-000068	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2026-06-30	2030	75	1973	2048	12	353	2413	7.6	EDGAR 10-Q Q2-2026 acc 0000910073-26-000068	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2026-06-30	2031+	86	4105	4191	5	1000	5196	15.6	EDGAR 10-Q Q2-2026 acc 0000910073-26-000068	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
+2026-06-30	TOTAL	14996	11736	26732	2671	4374	33777	99.3	EDGAR 10-Q Q2-2026 acc 0000910073-26-000068	FLG 2026-08-28 PRIMARY (EDGAR, pulled+parsed by FLG)
