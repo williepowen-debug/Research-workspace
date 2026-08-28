@@ -157,12 +157,60 @@ def gamma(asof=None):
     pw_note = " (SPX THROUGH it)" if pw and spot < pw else ""
     # SFG sweep 2026-08-17 (DAEDALUS): print the SOURCE token. A silent CBOE->yfinance
     # demotion used to render byte-identical to a healthy read, and yfinance has zeroed
-    # openInterest on 97% of the ^SPX chain before (7/23). This value auto-publishes to
-    # workbook/PUBLISHED.tsv, which other agents' gates consume.
+    # openInterest on 97% of the ^SPX chain before (7/23).
+    # ⚠️ CLAIM CORRECTED 2026-08-28 (DAEDALUS wiring sweep leg20, finding 2 -- CONFIRMED
+    # at the artifact by HENRY). This comment used to end "This value auto-publishes to
+    # workbook/PUBLISHED.tsv, which other agents' gates consume." That is FALSE on the
+    # boot path: _publish() is called ONLY from gamma_flip.py main():312, and
+    # compute_gamma_flip() -- the function boot calls -- is I/O-free. Ledger evidence
+    # (HENRY's own re-count; DAEDALUS's "19 and 2" was wrong on both figures):
+    # PUBLISHED.tsv holds 16 _35d rows vs 4 _14d, and all four 14d rows are dated
+    # 2026-07-31 and 2026-08-23 -- the two sessions with an explicit `--days 14` main()
+    # run -- while boot has run on many more days. WIRING DECLINED, deliberately:
+    # boot is a read-only display pass ("it displays; it never writes STATUS"), and
+    # auto-publishing a boot-vintage 14d value into a 35d-dominant series that other
+    # agents' gates consume would manufacture exactly the cross-horizon comparison the
+    # 7/31 row already warns against in its own note field. The 35d run stays the
+    # publishing path. -> MAINTENANCE.md.
     src = r.get("source", "?")
     src_flag = "" if src == "cboe" else "  ⚠️ NON-PRIMARY SOURCE"
     print(f"  Net GEX {g0/1e9:+.1f}B/1% · put wall {pw:,.0f}{pw_note} · call wall {cw:,.0f}"
           f"   [{r['horizon']}d, {r['n_contracts']} contracts, src={src}]{src_flag}")
+    # ⚠️ WALL GUARD PORTED 2026-08-28 (DAEDALUS leg20 finding 1 -- CONFIRMED at the
+    # code). gamma_flip.py main():283-309 carries a NEAR-TIE guard and a
+    # put==call "structurally impossible" guard; boot.gamma() read NEITHER and printed
+    # the raw strikes. The data was already in the dict (call_wall_margin /
+    # put_wall_margin / *_top3 from compute_gamma_flip():251-256) -- only the read was
+    # missing. This is the recurrence gamma_flip.py:291-294 predicts in its own words:
+    # "a guard the operator can't see is not a guard". Threshold NEAR_TIE is IMPORTED,
+    # never re-declared, so the two surfaces cannot drift apart.
+    try:
+        from gamma_flip import NEAR_TIE
+    except Exception:  # noqa: BLE001
+        NEAR_TIE = 0.10
+    tied = False
+    for label, wall, key in (("call", cw, "call"), ("put", pw, "put")):
+        margin = r.get(f"{key}_wall_margin")
+        top3 = r.get(f"{key}_wall_top3") or []
+        if margin is not None and margin < NEAR_TIE:
+            tied = True
+            band = "-".join(f"{x:,.0f}" for x in sorted(top3[:2])) or f"{wall:,.0f}"
+            print(f"  ⚠️  NEAR-TIE on the {label} wall ({margin*100:.0f}% over #2) — "
+                  f"report the BAND {band}, NOT the bare strike")
+    if cw and pw and cw == pw:
+        tied = True
+        print("  ⚠⚠ PUT WALL == CALL WALL — structurally impossible as stated; the put "
+              "side is UNRESOLVED at this horizon (LESSONS 7/23). DO NOT PUBLISH A WALL.")
+    if tied:
+        # ⚠️ SCOPE, stated precisely (HENRY caught this in his own fix, same session):
+        # this guard fires on a WITHIN-horizon tie. CLAUDE.md audit-E2 is a different,
+        # CROSS-horizon rule (14d vs 35d disagree). Citing E2 here would mislabel the
+        # trigger, so the two are named separately and neither is used to authorise the
+        # other. -> finding_a_correction_pass_is_unreviewed_work.
+        print("  → WALLS WITHHELD at this horizon: #1 and #2 strikes are a coin flip, so "
+              "the 'wall' is a BAND, not a level. Publish the flip band only.")
+        print("  → (Separate, still unfixed: audit-E2 CROSS-horizon disagreement — "
+              "run `gamma_flip.py --days 35` and withhold if 14d and 35d disagree.)")
     # ACTION 2: pct-of-healthy floor. MIN_CONTRACTS=400 vs a healthy ~6,000 lets a 90%
     # degraded chain print a confident flip. Warn (never suppress) below 25% of healthy.
     # ⚠️ CALIBRATION CAVEAT, stated rather than hidden: 6,000 is DAEDALUS's figure for a
@@ -511,7 +559,18 @@ def stale_consumers():
     keep = [l for l in out.split("\n")
             if l.strip() and not l.startswith("=") and "own dir excluded" not in l
             and "CONSUMER CHECK" not in l]
-    print("\n".join(keep[:26]) if keep else "  (no output)")
+    # ⚠️ TRUNCATION ANNOUNCED 2026-08-28 (DAEDALUS leg20 finding 3 -- CONFIRMED).
+    # keep[:26] hard-cut with no tail line = DELIVERS-PARTIAL; CHECK_STANDARD §4 requires
+    # a truncation to announce itself, or a clean-looking short list reads as "that was
+    # all of it".
+    CAP = 26
+    if not keep:
+        print("  (no output)")
+    else:
+        print("\n".join(keep[:CAP]))
+        if len(keep) > CAP:
+            print(f"  … {len(keep)-CAP} more line(s) NOT SHOWN (cap {CAP}) — rerun "
+                  f"`python3 scripts/consumer_check.py --agent HENRY --from-ledger` for the full list.")
 
 
 def selftest_triage():
