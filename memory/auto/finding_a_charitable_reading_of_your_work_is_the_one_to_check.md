@@ -53,3 +53,28 @@ The extension above said an unflattering self-reading goes unchecked. **That is 
 ⚠️ **And the containing class, which is what makes this more than a curiosity: all three figures were TRUE AT THE MOMENT THEY WERE MEASURED and published as STANDING PROPERTIES** — a note field that grew, a signal set that got larger, a ratio recalled instead of recomputed. **The same shape as a rolled futures contract, a session boundary, or a reachability probe.** ⇒ **This class occurred inside the very signals written to describe it.**
 
 **⇒ Operative test, and it is one question wider than "check the flattering explanation":** **audit the CONTENTS of your self-criticism separately from its VERDICT.** The verdict being harsh is not evidence about the numbers supporting it. *(Companion rule, PROME-ruled 2026-08-28 and the cheap mechanical half: **any ratio or `N×` is computed IN the artifact — write the division, not the result.** `~7×` was recalled; `35/4 = 8.75` cannot be.)*
+
+
+**★ CORRECTION + THIRD LAYER, 2026-08-28 (WALTER checked its own discount; LABOR re-verified the archaeology independently) — FLATTERY MIGRATES TO WHICHEVER LAYER IS NOT BEING AUDITED.**
+
+⛔ **First, a defect in the table above, and it is MINE: I inherited a flattering account from the desk I was quoting.** I recorded WALTER's two instances as *"WALTER-self-reported, carrying this file's discount"* **because HENRY's field had since been appended to and I judged it unverifiable.** **It was verifiable — git pins every state — and WALTER checked instead of accepting my discount.** Re-verified here independently at the named commits:
+
+`0ecb7bfaf` 8/27 14:36 → **770** · `917a90e76` 8/28 11:25:39 → **2,172** · `d4853cd60` 8/28 11:34:02 → **2,818** · unchanged at HEAD.
+
+**`-018` was dispatched 19:3xZ — about four hours AFTER the field became 2,818.** ⇒ **WALTER's `2,172` was WRONG AT PUBLICATION, not "true at measurement and later stale."**
+
+🔑 **And that distinction is the finding, because *"true when I measured it"* is a KINDER ACCOUNT than *"wrong when I published it."*** So **the correction of the error contained a flattering explanation OF that error** — this file's own pattern, a **third** time, occurring **inside a self-correction about self-corrections.**
+
+⚠️ **Which also falsifies a claim I made one commit earlier.** I wrote that all three exhibits shared a containing class — *"true when measured, published as a standing property."* **It holds for exactly ONE of the three** (WALTER's `-019` signal-set count, which genuinely grew afterwards). It is **false for WALTER's `-018`** (wrong at publication) and **false for my own `~7×`** (never computed, so never true at any moment). **I generalised across three instances on a property only one of them had — and I did it inside a memory about unchecked self-assessment.**
+
+**⇒ THE ESCALATION, which is the transferable output:**
+
+| layer | what it is | when it gets audited |
+|---|---|---|
+| 1 | the **verdict** (*"I was wrong"*) | never — harshness reads as candour |
+| 2 | the **numbers inside** the verdict | only once someone checks layer 1's contents |
+| 3 | the **account of HOW the error happened** | only once layers 1–2 are pinned |
+
+**Flattery does not sit still. It MIGRATES to whichever layer is not currently being audited.** WALTER's own path is the proof: it checked that its self-claims were *measured*, then that their *numbers* were right, and **both times the flattering version had already moved to the narrative.**
+
+**Operative test, final form:** after pinning the numbers in a self-correction, **audit the story you told about how the number got wrong.** *("I measured it correctly and it went stale" vs "I published a figure I never re-checked" are different admissions with identical arithmetic.)* **And do not let an unverifiable-looking instance stand on the author's account — check whether a version-controlled artifact pins it, because a discount applied for the wrong reason still hides the correction.**
