@@ -36,6 +36,8 @@ My registered Delaware Life escalation ladder (§6, registered 7/27) listed six 
 
 ### ③ WHY THIS IS SHADE'S EVENT AND NOT ONLY A NEWS ITEM — the mechanism, stated
 
+⚠️ **VINTAGE POINTER (added at closeout, consumer_check 🟠 follow-up): the figures in this section are FY2025 — the restatement basis. The CURRENT reading is 6/30/26: general account net admitted $51,249M, affiliate-contingent $16,822M = 32.82% → `REFERENCE.md` §2Q / §2Q-bis.** *(Both are correct on their own dates; do not read the FY2025 denominator as current.)*
+
 Vector #1's balance sheet is **Delaware Life: related-party investments $17.24B = 37.6% of the $45.90B general account**, of which **$16.37B is "predominantly contingent on the performance of affiliates"** and **$12.62B sits in the BOND line** `[FY2025 KPMG-audited statutory financials, EDGAR Form N-VPFS 2026-06-29, acc. 0001193125-26-286687 — SHADE primary-verified 7/27]`.
 
 **A distribution pause hits the LIABILITY side of exactly that balance sheet.** New annuity and life sales are the inflow that funds the general account. For an insurer whose general account is **37.6% related-party and whose affiliate-contingent book is the illiquid part**, new premium is the marginal liquidity that lets it avoid selling the illiquid part. ⇒ **Closing distribution channels and running a regulator-mandated remediation plan to reduce affiliated exposure push in the same direction, from opposite ends of the balance sheet.** That conjunction is the SHADE-domain finding, and it is why this is mine rather than only REGINALD's (whose leg is the two banks) or BROCK's (whose leg is the related-party private-credit fund side).
