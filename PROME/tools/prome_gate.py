@@ -602,17 +602,20 @@ def check_claude_dir_drift():
     for every launch from PROME/ — the harness stops at the nearest copy. The two diverged
     silently (ANVIL's 8/14 hardened rule 10 never reached the copy PROME spawns from).
     Advisory: any agent file present in one and missing/different in the other."""
-    root_d, prome_d = ROOT / ".claude/agents", ROOT / "PROME/.claude/agents"
-    names = {p.name for p in root_d.glob("*.md")} | {p.name for p in prome_d.glob("*.md")}
-    bad = []
-    for n in sorted(names):
-        a, b = root_d / n, prome_d / n
-        if not a.exists() or not b.exists():
-            bad.append(f"{n} (only in {'root' if a.exists() else 'PROME'})")
-        elif a.read_bytes() != b.read_bytes():
-            bad.append(f"{n} (differs)")
-    record(ADVISE, ".claude/agents root↔PROME parity", not bad,
-           ("drift: " + ", ".join(bad)) if bad else f"{len(names)} agent definition(s) identical",
+    bad, total = [], 0
+    for sub, pat in (("agents", "*.md"), ("skills", "*/SKILL.md")):
+        root_d, prome_d = ROOT / ".claude" / sub, ROOT / "PROME/.claude" / sub
+        rel = lambda p, d: str(p.relative_to(d))
+        names = {rel(p, root_d) for p in root_d.glob(pat)} | {rel(p, prome_d) for p in prome_d.glob(pat)}
+        total += len(names)
+        for n in sorted(names):
+            a, b = root_d / n, prome_d / n
+            if not a.exists() or not b.exists():
+                bad.append(f"{sub}/{n} (only in {'root' if a.exists() else 'PROME'})")
+            elif a.read_bytes() != b.read_bytes():
+                bad.append(f"{sub}/{n} (differs)")
+    record(ADVISE, ".claude/{agents,skills} root↔PROME parity", not bad,
+           ("drift: " + ", ".join(bad)) if bad else f"{total} agent/skill definition(s) identical",
            "cp .claude/agents/<name>.md PROME/.claude/agents/ (root is canonical) and commit both")
 
 

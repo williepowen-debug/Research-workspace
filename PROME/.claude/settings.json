@@ -36,6 +36,19 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/PROME/tools/hooks/forge_validate.py\"",
+            "timeout": 90,
+            "statusMessage": "post-save validator (FORGE/STATUS \u00b7 GATES \u00b7 DOCKET)"
+          }
+        ]
+      }
     ]
   }
 }
