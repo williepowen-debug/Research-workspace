@@ -597,6 +597,25 @@ def check_byte_budgets():
            "PROME/CLOSEOUT.md Chunk 1 flow rules · READ_CAP.md (32,550 B) · MEMORY flow rule 8/12")
 
 
+def check_claude_dir_drift():
+    """8/29 (Will's .claude/ walkthrough): PROME/.claude/agents/ SHADOWS root .claude/agents/
+    for every launch from PROME/ — the harness stops at the nearest copy. The two diverged
+    silently (ANVIL's 8/14 hardened rule 10 never reached the copy PROME spawns from).
+    Advisory: any agent file present in one and missing/different in the other."""
+    root_d, prome_d = ROOT / ".claude/agents", ROOT / "PROME/.claude/agents"
+    names = {p.name for p in root_d.glob("*.md")} | {p.name for p in prome_d.glob("*.md")}
+    bad = []
+    for n in sorted(names):
+        a, b = root_d / n, prome_d / n
+        if not a.exists() or not b.exists():
+            bad.append(f"{n} (only in {'root' if a.exists() else 'PROME'})")
+        elif a.read_bytes() != b.read_bytes():
+            bad.append(f"{n} (differs)")
+    record(ADVISE, ".claude/agents root↔PROME parity", not bad,
+           ("drift: " + ", ".join(bad)) if bad else f"{len(names)} agent definition(s) identical",
+           "cp .claude/agents/<name>.md PROME/.claude/agents/ (root is canonical) and commit both")
+
+
 def mode_boot():
     run_script(BLOCK, "env_doctor", [sys.executable, "scripts/env_doctor.py", "--quiet"],
                "PROME/MACHINE_LOCAL.md")
@@ -627,6 +646,7 @@ def mode_boot():
     check_heartbeat_chain()
     check_dashboard_state()
     check_symmetry()
+    check_claude_dir_drift()
     check_desk_catalyst_summons()
     check_byte_budgets()
 

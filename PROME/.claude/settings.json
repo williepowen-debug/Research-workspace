@@ -11,6 +11,31 @@
           }
         ]
       }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$(git rev-parse --show-toplevel)/PROME/tools/hooks/prompt_clock.sh\"",
+            "timeout": 5,
+            "statusMessage": "Clock stamp"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$(git rev-parse --show-toplevel)/PROME/tools/hooks/git_guard.py\"",
+            "timeout": 5,
+            "statusMessage": "git guard (root canon prohibitions)"
+          }
+        ]
+      }
     ]
   }
 }
