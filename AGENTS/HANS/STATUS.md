@@ -218,6 +218,8 @@ The later-session sweep narrative (two self-corrections: **wrong tenor** on the 
 
 - **`scripts/finding_check.py` — RUN `gate()` INSIDE any research script before shipping an empirical finding.** Two gates: INDEPENDENCE (does the robustness check vary something independent of what the claim is *about*?) and SUBSAMPLE STABILITY (auto re-run ex-crisis; fail on sign flip). ⚠️ **It catches 2 of the 3 failure modes that bit this desk on 8/28 — it does NOT catch construct validity** (*does my classifier measure what I claim?*). That one still needs a human question. Fleet adoption is DAEDALUS's to rule; HANS-local until then.
 
+**⚙️ RUN AFTER TOUCHING ANY SCRIPT: `.venv/bin/python AGENTS/HANS/scripts/test_hans.py` — 36 offline tests, ~4s.** Regression-first: the falsy-zero staleness bug · the AGSI `trend`-as-string crash · the `country=EU` silent-empty trap · **every non-green band tier carrying its threshold id** (the severe tiers were the ones missing it) · and that boot **consumes** `fetch_eu`'s return rather than calling it for side effects.
+
 **Standing hygiene bought this session — run these, don't rediscover them:**
 - **Verify delivery at the RECIPIENT's tree**, never from `outbox/delivered/`: `find AGENTS/<RECIPIENT> -iname "*HANS*"`.
 - **Fire counts come from `registry/HANS_T_FIRED_LOG.tsv`, not from prose.** *Did it fire?* and *how much does it tell us?* are two axes — never let a down-weighting caveat drop a row from the count.
