@@ -82,7 +82,10 @@ git add -- AGENTS/YEYOU/<newfile>
 git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<newfile>
 ```
 
-## Commit cookbook (PROME pathspec)
+## Commit cookbook
+
+**Default from 2026-08-29 (RAV review, Will-endorsed): commit through `PROME/tools/commit_check.py`** — `python3 PROME/tools/commit_check.py commit -F <msg.txt> -- <exact paths>` writes an intent manifest, REFUSES before git runs if any intended path has no change (the d3915f75d / 6704cfc37 overclaim shape — a script died, the file was unchanged, the message was written anyway), commits by pathspec, then verifies HEAD against the manifest and against paths named in the message (advisory; `--strict-message` to block). A mismatch is fixed by a follow-up commit, never `--amend` (root 4b). The recipes below remain valid as the underlying git; the wrapper is the checked path.
+ (PROME pathspec)
 
 *(Relocated from `BOOT.md` 2026-07-01. Path-scoped commits avoid the shared-`.git/index` race — `[[finding_pathspec_commit_race_safety]]`.)* **Option order matters: put `-m` before `--`; everything after `--` is a pathspec.**
 
