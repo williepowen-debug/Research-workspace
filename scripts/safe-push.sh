@@ -82,5 +82,22 @@ if [ "$DRY_RUN" = "1" ]; then
   echo "[--dry-run] stopping before push."
   exit 0
 fi
-git push "$REMOTE" "HEAD:$BRANCH"
-echo "Pushed."
+# ── ⑦b the push's OWN exit code is not the receipt (2026-08-28, NEXUS via PROME): a
+#     `! [remote rejected] … cannot lock ref` line printed AND the caller saw rc=0 — either the
+#     push status was laundered (a `| tail`/`| head` on the caller side reports the LAST
+#     command's rc, HENRY's pipe finding the same day) or the ref race resolved oddly. Either
+#     way the only receipt that certifies anything is git's OWN answer to "is my HEAD now an
+#     ancestor of the freshly-fetched remote branch?" — so we ask it, after the push, and
+#     never print `Pushed.` on a bare exit code. rc contract: 0 confirmed · 1 NOT confirmed
+#     (the push output is above; treat it as a failed push and re-run the rebase recipe).
+push_rc=0
+git push "$REMOTE" "HEAD:$BRANCH" || push_rc=$?
+git fetch -q "$REMOTE" "$BRANCH"
+if git merge-base --is-ancestor HEAD "$REMOTE/$BRANCH"; then
+  echo "Pushed. CONFIRMED: HEAD $(git rev-parse --short HEAD) is on $REMOTE/$BRANCH (fresh fetch)."
+  [ "$push_rc" -ne 0 ] && echo "  (note: git push exited $push_rc but the ref IS on origin — a concurrent train carried it)"
+  exit 0
+fi
+echo "NOT PUSHED: HEAD $(git rev-parse --short HEAD) is NOT on $REMOTE/$BRANCH after the push (git push rc=$push_rc)."
+echo "  Do not read any 'Pushed.' above this line as a receipt. Recipe: git pull --rebase --autostash, then re-run."
+exit 1
