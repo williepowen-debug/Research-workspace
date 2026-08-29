@@ -1,6 +1,6 @@
 # Root `CLAUDE.md` restructure — DRAFT for RAV review (WQ-120)
 
-**Owner:** PROME · **Written:** 2026-08-29 · **Status:** DRAFT, RAV pass 1 PASSED with two corrections (both applied below: atomic apply, rule-key parity) — Will-ruled *"approved for a proposal draft and RAV review only; do not edit root canon until I rule on the reviewed draft"* (8/29). **Nothing in this folder is live.** Root `CLAUDE.md` is untouched.
+**Owner:** PROME · **Written:** 2026-08-29 · **Status:** RAV pass 2 **PASS** (8/29 — *"preserves rule force … ready for final atomic-apply approval, with tests 1–5 rerun immediately before commit"*); pass-1 corrections applied (atomic apply, rule-key parity) — Will-ruled *"approved for a proposal draft and RAV review only; do not edit root canon until I rule on the reviewed draft"* (8/29). **Nothing in this folder is live.** Root `CLAUDE.md` is untouched.
 
 ## 1. The problem, measured
 
@@ -33,7 +33,8 @@ Two independent readers said the same thing the same day: PROME's own cold boot 
 1. **A rule without its incident is easier to weaken.** Mitigation: the one-clause whys kept on the load-bearing rules (§2.2), and provenance is one link away. Counter-view: the live root's incident prose has not prevented re-litigation either (the non-ff rule was re-argued 8/29 with the history in place).
 2. **Two files can drift.** Mitigation = rule-KEY parity (test 3): every provenance block carries a `key:` + a `root-anchor:` phrase that must survive verbatim in root; a rule deleted or reworded in root breaks its anchor. Mechanism, not vigilance. *(Pass-1 proposed heading parity; RAV: too weak — a block can keep its heading while describing a removed rule. Strengthened.)*
 3. **Placeholders `<YOU>` / `<YOUR_NAME>`** are both used in the live root; the draft keeps both where live had them rather than normalizing, so existing greps match. A follow-up could normalize under its own row.
-4. **The Gate C custody paragraph** (root §Git Protocol) is kept near-verbatim — it is dense but every clause is a rule reconciled 8/27 with Will's own wording; trimming it is not this draft's business.
+4. **Rule-key parity is one-directional (RAV pass 2, documented limitation, not a blocker):** it detects deletion or rewording of EXISTING anchors; it does not prove that every FUTURE root rule receives a provenance entry. Mitigation is procedural — root's header line tells amenders *rule → root; why → provenance* — and a later check could require every new root paragraph to be anchored; not this restructure's business.
+4b. **The Gate C custody paragraph** (root §Git Protocol) is kept near-verbatim — it is dense but every clause is a rule reconciled 8/27 with Will's own wording; trimming it is not this draft's business.
 5. **WALTER's auto-push exception** still cites `BOARD_CONSUMPTION_SPEC` §7, which DAEDALUS D1 found contradicted by WALTER's own file; that is a WALTER reconcile, recorded in provenance, not resolved here.
 
 ## 5. Tests before any root edit (Will rules on the reviewed draft first)
