@@ -35,7 +35,8 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 
 ## Boot Sequence
 
-0. **Check repo state:**
+0. **Check repo state (and take the clock):**
+   Every prompt in a PROME session carries a `NOW: <day> <date> <time> ET` line injected by the UserPromptSubmit hook (wiring `PROME/.claude/settings.json`) — **that line is the clock; stamp from it, never from narrative** (narrative stamps drifted 40 min on 8/29). No `NOW:` line ⇒ run `date` before writing any timestamp.
    A **SessionStart banner** (`scripts/session_banner.sh`) should already have printed fetch/ahead-behind/dirty-tree/env_doctor at launch. Live wiring = `PROME/.claude/settings.json` (the root-level hook never fires for subdir launches — CC bug #10367, `finding_subdir_launch_hooks_dont_fire`). **No banner = flag it to Will**, then run the checks below manually. (Banner present ⇒ the checks below are confirmation, not discovery.)
    ```bash
    git status --short
@@ -49,6 +50,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 2. **Read `PROME/SCRATCH.md`** — immediate handoff / what is hot **+ the operator card** (today's date, catalysts, near-gates; absorbed the old `TODAY.md`).
 3. **Read `PROME/ACTIVE_DECISIONS.md`** — unresolved/approved-but-not-executed decisions before new work — **and `PROME/GATES.tsv` (fire-ledger):** any `FIRED-UNEXECUTED` row = 🔴 blocking (clear or escalate to Will before new work); LIVE-row staleness keys on the **`consumed_by`** field (flag rows whose consumer date passed or whose cell is empty; the old >5d raw-age rule is RETIRED). Register action-gates the session they're approved; owners' KBs stay canonical for full logic.
 4. **Read `PROME/STATUS.md`** — agent/system health and work queue.
+   - **4b. Read § Boot-class fleet memories** (the last section of this file) — the boot-class lessons have no other carrier; a runner that skips them re-learns a solved failure (8/29: `/boot` omitted the read for its first two live runs).
 5. **Market-data freshness gate:**
    - Explicit-`Read` `HEARTBEAT.md` (PROME-facing regime memo — not auto-injected).
    - If today is a weekend/holiday or markets are closed, use it as **orientation only** and preserve its observation dates.

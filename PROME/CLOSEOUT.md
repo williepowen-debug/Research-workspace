@@ -29,7 +29,7 @@ Before `/clear` or `/new` · before stepping away from a long session · after a
 | **Standard** *(default)* | End-of-thread / end-of-day | Chunk 1 + Chunk 2 (+ auto-memory if earned) + Chunk 4 + auto-push | Yes |
 | **Heavy** | Pattern-discovery session | Standard + design docs + Chunk 3 full sweep | Yes |
 
-End-of-day always runs at least Standard. **Chunk 3 is trigger-gated at ANY tier** — a fired trigger (spawned-agent release, autonomy change, …) runs its step even on a lighter closeout. **Bounce procedure:** append 3-5 lines to `PROME/SCRATCH.md` (what happened / what's pending / next entry point); recommended checkpoint commit from repo root: `git commit -m "PROME: bounce checkpoint" -- PROME/SCRATCH.md`.
+End-of-day always runs at least Standard. **Standard+ also runs the two Will-facing surfaces the "Boot↔Closeout symmetry" table marks MANDATORY** (Fleet-Ops dashboard regen · THE HELM) — they live in that table's rows, not in the Touches column above. **Chunk 3 is trigger-gated at ANY tier** — a fired trigger (spawned-agent release, autonomy change, …) runs its step even on a lighter closeout. **Bounce procedure:** append 3-5 lines to `PROME/SCRATCH.md` (what happened / what's pending / next entry point); recommended checkpoint commit from repo root: `git commit -m "PROME: bounce checkpoint" -- PROME/SCRATCH.md`.
 
 ---
 
@@ -117,6 +117,8 @@ Update only the owner doc whose state actually changed:
 
 ## Chunk 4 — Git + report (Standard/Heavy; Light optional)
 
+**PROME commit form (since 2026-08-29):** every commit goes through the intent-checked wrapper — `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/commit_check.py commit -F <msgfile> -- <exact paths>` (pre-commit intent, refuse-if-no-change, post-commit path verify; born of `6704cfc37`'s overclaim). The block below shows the underlying git the wrapper drives; the `-- <paths>` tail is identical. **Message text:** write it to a file — the Write tool or a quoted heredoc (`cat > <file> <<'EOF'`), both fine — never inline in the Bash argument: the PreToolUse git guard (`PROME/.claude/`) reads command-like prose there as a command and refuses the call. The same applies to any prose that QUOTES a git command (DOCKET/WILL_QUEUE row text, packet bodies).
+
 **Root session-end steps 1b-1e** (root `CLAUDE.md` owns the full text):
 - **1b orphan check:** `bash scripts/orphan_check.sh PROME` — `[likely YOURS]` → commit per carve-out ① (⚠️ `memory/auto/` files PROME wrote are path-classified `[not yours]` but carve-out ③ makes committing them MANDATORY).
 - **1c consumer check** (if a published number was superseded): `python3 scripts/consumer_check.py --agent PROME --old <old> --new <new>` → packet each 🔴 owner, never edit their files.
@@ -140,9 +142,9 @@ git add -- memory/auto/<slug>.md memory/YYYY-MM-DD.md && git commit -m "PROME: <
 git status --short --branch                              # final: clean tree + "ahead 0, behind 0" BEFORE reporting synced
 ```
 
-**Auto-push:** `safe-push.sh` is the closeout tail — ff-gated, fails safe, sweeps the push-train. **POST-PUSH VERIFY:** the literal `Pushed.` line ("Nothing to push" when you expected commits = you forgot to commit). Non-ff abort = **routine** → `git pull --rebase --autostash` + re-push; escalation rules = root canon (out-of-dir conflicts, or non-ff persisting through a completed rebase→re-push cycle). Commit style: `PROME: <short one-liner>`; **`-m` before `--`** (everything after `--` is a pathspec).
+**Auto-push:** `safe-push.sh` is the closeout tail — ff-gated, fails safe, sweeps the push-train. **POST-PUSH VERIFY:** the receipt is the line `Pushed. CONFIRMED: HEAD <sha> is on origin/master (fresh fetch).` — a bare `Pushed.`, a log tail, or `Nothing to push` when you expected commits (= you forgot to commit) is NOT a receipt (`safe-push.sh` hardened 8/28; the kill-on-sight claim "`Pushed.` = pushed" lives in SCRATCH cautions). Non-ff abort = **routine** → `git pull --rebase --autostash` + re-push; escalation rules = root canon (out-of-dir conflicts, or non-ff persisting through a completed rebase→re-push cycle). Commit style: `PROME: <short one-liner>`; **`-m` before `--`** (everything after `--` is a pathspec).
 
-**Session summary to Will:** what landed (1-2 lines) · what's pending · next-session entry point (points at SCRATCH).
+**Session summary to Will:** what landed (1-2 lines; commit hashes belong HERE, never in state files — they decay) · what's owed at next boot · open `PROME/WILL_QUEUE.md` rows by number · the push receipt line verbatim · next-session entry point (points at SCRATCH).
 
 ---
 
