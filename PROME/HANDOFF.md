@@ -2,7 +2,7 @@
 
 **Purpose:** Single live continuity surface for Prome across sessions. Keep this file short: latest 3–5 entries only. Archive older entries to `PROME/archive/`.
 
-**Archive:** older entries → `PROME/archive/HANDOFF_*.md` (one file per rotated block; each file's header carries its own entry-crc32; `ls PROME/archive/HANDOFF_*.md` is the index — no hand-maintained index exists by design). The 50-entry pointer paragraph that lived here through 8/28 → `PROME/archive/HANDOFF_ARCHIVE_POINTERS_2026-08-28.md` (crc32 3088833333). Rotation recipe → `PROME/CLOSEOUT.md` Chunk 1.
+**Archive:** older entries → `PROME/archive/HANDOFF_*.md` (one file per rotated block; each file's header carries its own entry-crc32; `ls PROME/archive/HANDOFF_*.md` is the index — no hand-maintained index exists by design). The 49-pointer paragraph that lived here through 8/28 (frozen snapshot, nothing appends to it) → `PROME/archive/HANDOFF_ARCHIVE_POINTERS_2026-08-28.md` (crc32 3088833333). Rotation recipe → `PROME/CLOSEOUT.md` Chunk 1.
 
 ---
 
