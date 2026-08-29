@@ -668,6 +668,7 @@ def mode_closeout():
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
     check_byte_budgets()       # flow-rule meter: >=75% here means rotate NOW, in this closeout
+    check_claude_dir_drift()   # root<->PROME skill/agent parity at CLOSEOUT too (REV 8/29): a closeout that edits one tree would otherwise ship drift and find it next boot
     run_script(ADVISE, "orphan_check (advisory by design)", ["bash", "scripts/orphan_check.sh", "PROME"],
                "[likely YOURS] = commit per carve-out ① · [not yours] = flag, never sweep")
     record(ADVISE, "MANUAL: memory_index_check", True,
