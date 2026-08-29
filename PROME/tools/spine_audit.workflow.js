@@ -3,7 +3,7 @@
 // PURPOSE: boot-read/protocol docs accumulate canon-contradicting claims between
 // Will-triggered deep audits (the 7/1 24-file audit found 9 of 24 files carrying
 // rot, incl. a boot-read STATUS with a canon-contradicting push directive). This
-// is the standing catch-all: 7 read-only readers over the 14-file spine set vs
+// is the standing catch-all: 8 read-only readers over the 16-file spine set vs
 // enumerated canon anchors. Companion to the deterministic canon-change mirror
 // sweep (PROME/SYSTEM.md → Canonical → Mirrors map, CLOSEOUT Chunk-3 trigger).
 //
@@ -13,7 +13,7 @@
 // (checked at boot step 8 / closeout Chunk 3). Update the stamp after each run.
 // OUTPUT: consolidated per-file verdicts; PROME applies fixes same-session
 // (pathspec commits; shared docs Will-gated) and re-stamps STATUS.
-// COST: ~8 agents (7 paired + 1 anchor), roughly 1/4 of the 7/1 verify round.
+// COST: ~9 agents (8 paired + 1 anchor), roughly 1/4 of the 7/1 verify round.
 //
 // FIX-ROUND GUIDANCE (added 8/16, audit-#9 process review, Will-approved): prefer
 // DELETE-AND-POINT over annotate-and-accrete. Dated correction parentheticals are
@@ -45,7 +45,7 @@
 export const meta = {
   name: 'spine-audit',
   description: 'Weekly reconciliation of PROME boot-read/protocol docs against canon anchors',
-  phases: [{ title: 'Audit', detail: '7 paired readers x 2 spine files + 1 DOCKET anchor sampler vs canon anchors' }],
+  phases: [{ title: 'Audit', detail: '8 paired readers x 2 spine files + 1 DOCKET anchor sampler vs canon anchors' }],
 }
 
 // args must be a JSON OBJECT ({ today: "YYYY-MM-DD", repo?: "/abs/path" }). The
@@ -70,9 +70,22 @@ const GROUPS = [
   ['PROME/ACTIVE_DECISIONS.md', 'HEARTBEAT.md'],
   ['PROME/GIT_COORDINATION.md', 'PROME/SYSTEM.md'],
   // S4 coverage fix (DAEDALUS 7/28 audit, shipped 8/9): the four omitted
-  // protocol/spine docs join as two pairs — 7 readers / 14 files.
+  // protocol/spine docs join as two pairs — brought the set to 7/14 AT THAT TIME
+  // (current count is stated once, below the skill-runner block).
   ['PROME/HANDOFF.md', 'PROME/AUTONOMY.md'],
   ['PROME/MACHINE_LOCAL.md', 'PROME/COMPLETION_SPEC.md'],
+  // Skill-runner coverage (8/29, Will-approved): the `.claude/skills/` runners
+  // execute the manuals already in this set, but were in NO audit — so the
+  // root<->PROME parity gate reported green while /boot omitted five of
+  // BOOT.md's steps. Parity compares the two COPIES, never a copy to its
+  // manual; this set is the only instrument that can see runner<->manual drift.
+  // SCOPED TO ONE PAIR ON PURPOSE: /boot and /closeout are the only runners with
+  // a prose manual to diverge FROM (/coldread cites no manual; /reconcile and
+  // /spineaudit point at an agent def and this script). Adding those three would
+  // buy 2 readers/week of coverage over a near-zero divergence surface — the
+  // "more work for little benefit" test. Add them IF they ever grow a manual.
+  // 8 readers / 16 files (+ 1 DOCKET anchor sampler).
+  ['PROME/.claude/skills/boot/SKILL.md', 'PROME/.claude/skills/closeout/SKILL.md'],
 ]
 
 const CANON = `CANON ANCHORS (read these FIRST; they win on any conflict):
@@ -81,7 +94,8 @@ const CANON = `CANON ANCHORS (read these FIRST; they win on any conflict):
 - Forward catalyst dates: ${REPO}/PROME/DOCKET.tsv (canonical docket — prose date claims must match it).
 - Roster/classification: ${REPO}/PROME/ROSTER.md.
 - Trigger bands/levels: ${REPO}/FORGE/tools/market-data/config.py + ${REPO}/AGENTS/LIQUID/workbook/KILL_MEMO_HY_OAS_260.md (HY >280 X1 / <260 two-closes re-kill; NEVER cite market LEVELS as current from state files — only band DEFINITIONS are checkable).
-- Mirror map: ${REPO}/PROME/SYSTEM.md "Canonical -> Mirrors" table (which doc owns which fact).`
+- Mirror map: ${REPO}/PROME/SYSTEM.md "Canonical -> Mirrors" table (which doc owns which fact).
+- Skill-runner layering (Will-ruled 2026-08-29, BOTH directions are defects): files under .claude/skills/*/SKILL.md are RUNNERS over a manual (/boot -> PROME/BOOT.md, /closeout -> PROME/CLOSEOUT.md; /reconcile -> .claude/agents/anvil.md; /spineaudit -> PROME/tools/spine_audit.workflow.js). Manuals own RULES + REASONS; runners own SEQUENCE + COMMANDS and point back. (a) A numbered step, required read, or trigger-gated residual present in the manual but ABSENT from its runner is a defect — the runner is what executes, so a step only in the manual never runs. (b) A RULE stated only in a runner and absent from its manual is a defect — it is invisible to this audit and to a cold reader. Check both directions explicitly; do not assume a runner is complete because it cites the manual.`
 
 const SCHEMA = {
   type: 'object',
