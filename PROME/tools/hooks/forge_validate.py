@@ -59,6 +59,8 @@ def main() -> int:
     if not fp:
         return 0
     p = pathlib.Path(fp)
+    if not p.is_absolute():
+        p = ROOT / p   # PROME launches from PROME/; a cwd-relative path would resolve under PROME/ and fail open (RAV 8/29)
     try:
         if fp.endswith("FORGE/STATUS.md"):
             msgs = forge_status(p)

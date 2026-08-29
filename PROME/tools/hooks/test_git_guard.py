@@ -16,6 +16,13 @@ BLOCK = [
     f"{G} push --force origin master",
     f'{G} commit -am "x"',
     f"cd x && {G} add --all",
+    # RAV bypass set (8/29 PM) — each passed the original 14/14 self-test; now fixtures
+    f'{G} add "."',
+    f"{G} -C /tmp add .",
+    f'bash -c "{G} add ."',
+    f'{G} commit "--amend" -m x',
+    f"{G} add ./",
+    f"{G} -c core.editor=true commit --amend",
 ]
 ALLOW = [
     f"{G} add A.md B.md",
@@ -25,6 +32,8 @@ ALLOW = [
     f'{G} commit -m "never {G} add -A or {G} reset HEAD"',
     f"cat > m.txt <<'EOF'\nnever {G} add -A/. · commit --amend\nEOF\n{G} commit -F m.txt -- A.md",
     f"python3 - <<'PY'\nold = '{G} add -A'\nPY",
+    f'echo "{G} add . is forbidden here"',   # prose with whitespace stays prose
+    f"{G} add ./A.md ./B.md",                # dot-prefixed PATHS are not add-dot
 ]
 
 
