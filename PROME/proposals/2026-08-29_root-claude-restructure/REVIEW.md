@@ -1,6 +1,6 @@
 # Root `CLAUDE.md` restructure — DRAFT for RAV review (WQ-120)
 
-**Owner:** PROME · **Written:** 2026-08-29 · **Status:** DRAFT — Will-ruled *"approved for a proposal draft and RAV review only; do not edit root canon until I rule on the reviewed draft"* (8/29). **Nothing in this folder is live.** Root `CLAUDE.md` is untouched.
+**Owner:** PROME · **Written:** 2026-08-29 · **Status:** DRAFT, RAV pass 1 PASSED with two corrections (both applied below: atomic apply, rule-key parity) — Will-ruled *"approved for a proposal draft and RAV review only; do not edit root canon until I rule on the reviewed draft"* (8/29). **Nothing in this folder is live.** Root `CLAUDE.md` is untouched.
 
 ## 1. The problem, measured
 
@@ -31,7 +31,7 @@ Two independent readers said the same thing the same day: PROME's own cold boot 
 ## 4. Known trade-offs (RAV — please weigh)
 
 1. **A rule without its incident is easier to weaken.** Mitigation: the one-clause whys kept on the load-bearing rules (§2.2), and provenance is one link away. Counter-view: the live root's incident prose has not prevented re-litigation either (the non-ff rule was re-argued 8/29 with the history in place).
-2. **Two files can drift.** Provenance is keyed by root section heading; a section renamed in root orphans its provenance block. Mitigation: `scripts/consumer_check.py --mirror-map` gains a root↔provenance heading-parity check (proposed test 3) — mechanism, not vigilance.
+2. **Two files can drift.** Mitigation = rule-KEY parity (test 3): every provenance block carries a `key:` + a `root-anchor:` phrase that must survive verbatim in root; a rule deleted or reworded in root breaks its anchor. Mechanism, not vigilance. *(Pass-1 proposed heading parity; RAV: too weak — a block can keep its heading while describing a removed rule. Strengthened.)*
 3. **Placeholders `<YOU>` / `<YOUR_NAME>`** are both used in the live root; the draft keeps both where live had them rather than normalizing, so existing greps match. A follow-up could normalize under its own row.
 4. **The Gate C custody paragraph** (root §Git Protocol) is kept near-verbatim — it is dense but every clause is a rule reconciled 8/27 with Will's own wording; trimming it is not this draft's business.
 5. **WALTER's auto-push exception** still cites `BOARD_CONSUMPTION_SPEC` §7, which DAEDALUS D1 found contradicted by WALTER's own file; that is a WALTER reconcile, recorded in provenance, not resolved here.
@@ -40,17 +40,16 @@ Two independent readers said the same thing the same day: PROME's own cold boot 
 
 1. **Token survival** — every backticked token, date and byte constant in live root appears in `CLAUDE.proposed.md ∪ CANON_PROVENANCE.proposed.md` (script run 8/29: 0 missing after the placeholder restore). Re-run at apply time against the then-live root.
 2. **Blind cold reader** (CLOSEOUT Chunk 1 rec-2): a fresh Explore-class agent reads ONLY the proposed root and answers ~15 ground-truth rule questions whose answers live in the live root (where do PROME requests go · what do you never `git add` · which carve-out lets you commit a memory file · what is the read cap · what happens on a non-ff · may you renumber rule 6 · where is the roster · what is potash's depth …). Target 15/15; any miss = the rule moved too far.
-3. **Heading parity** — every `##` section in root has a matching block in provenance (and vice-versa); scriptable, ~10 lines, proposed as a `consumer_check --mirror-map` extension.
+3. **Rule-key parity (strengthened per RAV pass 1 — heading parity was too weak: a block can keep its heading while describing a removed or renamed rule).** Every provenance block carries a stable `key:` (e.g. `critical-rule-6`, `git-carveout-3`, `git-step-1c`, `data-read-cap`) AND a `root-anchor:` — a short phrase that must appear verbatim in root. The test asserts every anchor is present in root and every root section has ≥1 keyed block; a rule deleted or reworded in root breaks its anchor and fails the test. Keys live in provenance only — root gains no bytes. Scriptable, ~20 lines, proposed as a `consumer_check --mirror-map` extension; keys are already in `CANON_PROVENANCE.proposed.md` (pass-1 revision).
 4. **Read-cap** — proposed root is 20,085 B: under the 32,550 B budget for the first time (the live root is not formally in the read-cap perimeter because it is auto-loaded, but the budget is the right yardstick).
 5. **Mirror walk** — `PROME/SYSTEM.md` → Canonical → Mirrors rows that cite root line numbers or section wording get re-pointed in the same commit (root is canonical for 6 rows).
 
-## 6. Apply plan (only after Will's ruling on the reviewed draft)
+## 6. Apply plan (only after Will's ruling on the reviewed draft) — corrected per RAV pass 1 (8/29)
 
-1. `docs/CANON_PROVENANCE.md` committed FIRST (so root's pointer never dangles).
-2. Root replaced whole — `git commit CLAUDE.md docs/CANON_PROVENANCE.md -F msg` via `commit_check.py`; message names WQ-120 and the ruling verbatim.
-3. Tests 1–5 run and recorded in the commit message; cold-reader transcript filed under this folder.
-4. `PROME/SYSTEM.md` mirror rows + `PROME/CLAUDE.md` step-1 wording ("root is auto-injected") checked the same sitting.
-5. Root's own header line tells every future amender: *rule → root; why → provenance; diff → git log.*
+1. **ONE atomic commit** — root `CLAUDE.md`, `docs/CANON_PROVENANCE.md`, and every required mirror (`PROME/SYSTEM.md` mirror-map rows, `PROME/CLAUDE.md` step-1 wording) land together through `commit_check.py`; message names WQ-120 and the ruling verbatim. *(Pass-1 draft said "provenance first, then both" — `commit_check` would have refused the unchanged provenance file on the second commit, and an intermediate half-applied state is exactly what atomicity avoids. RAV's preference adopted.)*
+2. Tests 1–5 run BEFORE the commit and recorded in its message; cold-reader transcript filed under this folder.
+3. Root's own header line tells every future amender: *rule → root; why → provenance; diff → git log.*
+4. Rollback = `git revert` of the one commit (atomic ⇒ one revert restores the whole prior state).
 
 ## 7. Ask of RAV
 

@@ -28,6 +28,8 @@ CHECKS (verify)
 
 The manifest lives inside .git/ (per-clone, never committed, no gitignore needed).
 Exit: 0 clean · 1 mismatch · 2 usage/unknown state (never guess).
+Preflight parses `git status --porcelain=v2 -z` (RAV 8/29: v1 is not robust for quoted/unusual
+filenames or renames; renames count BOTH paths as dirty).
 """
 from __future__ import annotations
 import argparse, os, re, subprocess, sys
@@ -146,23 +148,45 @@ def verify(ref: str, strict_message: bool) -> int:
 def do_commit(msg_file: str, paths: list[str], strict_message: bool, extra_git: list[str]) -> int:
     rel = write_intent(paths)
     print(f"commit_check · intent written: {len(rel)} path(s) → {MANIFEST.relative_to(ROOT)}")
-    # pre-flight: every intended path must actually have something to commit
-    dirty = set()
-    for line in sh("status", "--porcelain=v1", "--untracked-files=all", "--", *rel).splitlines():
-        if len(line) >= 4:
-            dirty.add(line[3:].split(" -> ")[-1])
+    # pre-flight: every intended path must actually have something to commit.
+    # porcelain v2 + NUL (RAV 8/29): v1 line-splitting is not robust for quoted /
+    # unusual filenames or renames. v2 -z entries: "1 <xy> ... <path>" (changed),
+    # "2 <xy> ... <path>\0<origpath>" (rename/copy — BOTH paths count as dirty),
+    # "? <path>" (untracked), "! <path>" (ignored).
+    raw = subprocess.run(["git", "status", "--porcelain=v2", "-z", "--untracked-files=all", "--", *rel],
+                         capture_output=True, cwd=ROOT).stdout
+    fields = raw.split(b"\0")
+    dirty, untracked = set(), set()
+    i = 0
+    while i < len(fields):
+        f = fields[i].decode("utf-8", "surrogateescape")
+        if not f:
+            i += 1; continue
+        kind = f[0]
+        if kind == "1":
+            dirty.add(f.split(" ", 8)[8]); i += 1
+        elif kind == "2":
+            dirty.add(f.split(" ", 9)[9])
+            if i + 1 < len(fields):
+                dirty.add(fields[i + 1].decode("utf-8", "surrogateescape"))
+            i += 2
+        elif kind == "?":
+            untracked.add(f[2:]); i += 1
+        elif kind == "!":
+            i += 1
+        else:
+            print(f"  ❌ unparseable porcelain-v2 entry {f[:40]!r} — refusing (unknown state)"); return 2
     staged = set(sh("diff", "--cached", "--name-only", "--", *rel).splitlines())
-    nothing = [p for p in rel if p not in dirty and p not in staged]
+    nothing = [p for p in rel if p not in dirty and p not in staged and p not in untracked]
     if nothing:
         print(f"  ❌ {len(nothing)} intended path(s) have NO change to commit — refusing before git runs "
               f"(this is the overclaim, caught early):")
         for p in nothing: print(f"     - {p}")
         return 1
-    untracked = [p for p in rel if any(l.startswith("??") and l[3:] == p for l in
-                 sh("status", "--porcelain=v1", "--untracked-files=all", "--", *rel).splitlines())]
-    if untracked:
-        print(f"  ❌ {len(untracked)} intended path(s) are UNTRACKED — `git add <exact paths>` first (root recipe 2), then re-run:")
-        for p in untracked: print(f"     - {p}")
+    still_untracked = [p for p in rel if p in untracked and p not in staged]
+    if still_untracked:
+        print(f"  ❌ {len(still_untracked)} intended path(s) are UNTRACKED — `git add <exact paths>` first (root recipe 2), then re-run:")
+        for p in still_untracked: print(f"     - {p}")
         return 1
     r = subprocess.run(["git", "commit", *extra_git, "-F", msg_file, "--", *rel], cwd=ROOT)
     if r.returncode != 0:
