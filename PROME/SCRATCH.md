@@ -23,7 +23,7 @@
 
 ## ⚠️ CAUTIONS FOR THE FRESH SESSION
 1. **Hooks are LIVE in PROME sessions:** every prompt carries `NOW: <ET clock>` — stamp from it, never from narrative · a Bash command containing add-all / add-dot / `reset HEAD` / `--amend` / `commit -a` / force-push is REFUSED before it runs (a block message = the rule fired, not git broken) — and the guard reads heredoc/quoted text as prose, so **write commit messages with the Write tool** · every Edit/Write to `FORGE/STATUS.md` / `GATES.tsv` / `DOCKET.tsv` runs a validator; exit-2 text = fix it before proceeding.
-2. **Skills exist:** `/reconcile` (broker screenshots → ANVIL → commit), `/coldread`, `/closeout` (this one ran it), `/spineaudit`. Use them instead of re-deriving the flow.
+2. **Skills exist:** `/boot` (Monday = first run; asks the owed-items question first), `/closeout` (ran this closeout), `/reconcile` (broker screenshots → ANVIL → commit), `/coldread`, `/spineaudit` — pointer now in `PROME/CLAUDE.md` step 2. Use them instead of re-deriving the flow.
 3. **Subagents cannot `SendMessage` in this harness** — their idle notification carries the final text; ANVIL rule 10 has the fallback. Root and PROME `.claude/` copies must stay identical (gate advisory checks agents + skills).
 4. **Book line below is FROM THE MIRROR** (`FORGE/STATUS.md` reconciled 8/29 to Fri 8/28 close). The mirror is canonical for composition; live prices at any fire-time (root rule #4).
 5. **Root `CLAUDE.md` rules-only; `AGENTS.md` now the same pattern** (`agents-anchor:` in provenance). HEARTBEAT carries no calendar/decisions (WQ-121). Commit through `commit_check.py`. Never `--amend`.
