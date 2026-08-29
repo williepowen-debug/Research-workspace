@@ -385,3 +385,4 @@
 - finding_univariate_residual_is_a_claim_about_the_model — 'X% unexplained' is a claim about your MODEL; a co-symptom control is a MEDIATOR
 - finding_parse_failure_folded_into_a_benign_bucket — a failure counted as 'Routine' fabricates a finding; split the counter
 - finding_rising_stock_flat_inflow_means_slower_outflow — flat inflow = the DRAIN slowed; ask what empties the stock
+- feedback_number_every_decision_by_will_queue_row — ⚖️ blocks cite their WQ row, registered before the ask (rule lives in WQ + USER.md)

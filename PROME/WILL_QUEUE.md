@@ -3,6 +3,7 @@
 **Last reconciled:** 2026-08-28 ~23:2x Fri LATE closeout (slim-down session: **117** REGISTERED [DAEDALUS three-encodes bundle, 9/4 batch] · 85/108/110/113 → RECENTLY DONE · 106 title re-based to FIVE counts · stamp-chain + roll-offs + >7d DONE rotated → archive §A–E · cap 27 actionable vs 20, relief = the 9/4 batch; due-today 72/73/88/106 carried to Sat/Mon). *Prior stamps → `PROME/archive/WILL_QUEUE_ROWS_2026-08-28_slimdown.md` §A (crc32 312777999). This line carries ONE stamp — never a chain.*
 
 **Rules (v1, deliberately dumb — one markdown table until real use earns more structure):**
+- **Every ⚖️ decision PROME shows Will carries its row number here, registered BEFORE the ask** (Will 8/29) — Will rules by number (`WQ-118 = approved`); the row closes on the word; RECENTLY DONE is the decision log. No second numbered series.
 - **Only items where WILL is the actor.** Types: `LAUNCH` (agent windows) · `[Approve]` (trade/proposal) · `RULE` (canon/disposition) · `BROKER` (exports/confirms) · `BUY` · `ACTION` · `READ`. Fleet work lives on DOCKET + agent boards — the moment an item stops needing Will, it leaves this file.
 - Dated rows first (soonest). Hard dates are ISO in the Needed-by column — `prome_gate` reads them (boot+closeout advisory: flags passed dates and a stale reconcile stamp; adopted at birth per `finding_hygiene_commit_rearms_the_staleness_lie` — a schedule decays like any surface).
 - **This is the ONLY live copy.** SCRATCH operator card carries a 3-line pointer view; HANDOFF "Open for Will" entries are dated history, not the live list.
