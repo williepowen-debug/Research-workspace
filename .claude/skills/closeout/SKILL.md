@@ -14,7 +14,7 @@ Commands are quoted here only where they are stable interfaces, copied verbatim 
 1. **Read CLOSEOUT.md § Closeout-class fleet memories** (the last section of the file) — before the writes, so they can shape them.
 2. **Mechanical gate** → CLOSEOUT.md "⚡ Mechanical tail in one shot":
    `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout`
-3. **State files** → CLOSEOUT.md Chunk 1 (which now lists the two ledgers), plus the "Boot↔Closeout symmetry" table's Chunk-1 rows (`GATES.tsv`, `DOCKET.tsv`) and Standard+ rows.
+3. **State files** → CLOSEOUT.md Chunk 1 (which now lists the two ledgers), plus the "Boot↔Closeout symmetry" table's Chunk-1 rows (`GATES.tsv`, `DOCKET.tsv`) and Standard+ rows (**the two Will-facing pages regenerate LAST**). Before the ledgers: name every gate and catalyst this session touched; each gets a row edit or a stated no-op — "nothing moved" from memory is how a landed verdict fails to flip its row.
 4. **Memory** → CLOSEOUT.md Chunk 2.
 5. **Residuals** → CLOSEOUT.md Chunk 3 — trigger-gated at ANY tier; walk its list, don't recall it.
 6. **Git + push** → CLOSEOUT.md Chunk 4 in full — root steps 1b–1e, "PROME commit form" (the wrapper + the message-file rule), the command block including its pre-commit and post-push `git status` checks and the `memory/` commits, "Auto-push" for the receipt:

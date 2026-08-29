@@ -417,7 +417,7 @@ def check_heartbeat_chain():
         record(ADVISE, "HEARTBEAT amendment chain (<4)", False,
                f"UNVERIFIABLE — counted {counted} amendment block(s) but the header declares "
                f"Chain: {declared}. One of them is wrong and this check cannot say which: "
-               f"either the header is stale or the block format moved again. Tripping on the "
+               f"either the header is stale or the block format moved again (a block must START a line as `> **AMENDMENT #N`). Tripping on the "
                f"larger ({max(counted, declared)}) so the re-base rule fails LOUD, not silent",
                src + " · reconcile the header stamp against the blocks before trusting either")
         return
