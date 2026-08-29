@@ -643,7 +643,56 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
             else:
                 kept.append(rec)
         stale = kept
+
+    # ── LINE-CLASS DEMOTION (2026-08-28) — a 🔴 cannot tell a stale COPY from a FROZEN
+    # THRESHOLD from a DATED HISTORY ROW. Measured on BROCK's first --from-ledger run (via
+    # PROME): 123 candidates, BOTH certified 🔴 were NOT stale — (a) DOCKET.tsv:183
+    # "CCC/BB ≤5.93 ×2 obs", a deliberately FROZEN kill line (packeting it invites re-basing
+    # a test to the current value, the ratchet that destroys a falsifier); (b) a MARKET_DATA
+    # row DATED 2026-07-27 carrying the then-current 5.93 — a correct time-series capture
+    # (asking for a refresh would corrupt a series). Root canon 1c's "confirm same series AND
+    # unit before packeting" is the manual half; this is the mechanised half. Both are the
+    # same DEMOTE-NEVER-SUPPRESS form as the path-class pass above (PAT-118) — the hit stays
+    # printed as 🟠 with the reason, so a stale line that merely LOOKS like a threshold is
+    # still visible to a reader who looks.
+    if stale:
+        kept = []
+        for rec in stale:
+            rel, _ln, hits, txt = rec
+            why = _line_class(txt, hits, rel)
+            if why:
+                cand.append(rec + (why,))
+            else:
+                kept.append(rec)
+        stale = kept
     return stale, cand, mail, handled
+
+
+THRESH_OP_RE = r"(?:≤|≥|<=|>=|=<|=>|<|>|≠)\s?~?\$?"
+THRESH_TAIL_RE = re.compile(r"(?:×|x)\s?\d+\s?obs|consecutive|kill[ -]line|kill[ -]level", re.I)
+ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2})?Z?$")
+
+
+def _line_class(txt: str, hits, rel: str):
+    """Reason string if the hit line reads as a FROZEN THRESHOLD or a DATED HISTORY ROW,
+    else None. Threshold = a comparison operator immediately before a hit value, OR a
+    '×N obs' / 'consecutive' / 'kill line' tail on the line. History row = a .tsv line whose
+    FIRST cell is an ISO date (a time-series capture, dated by construction)."""
+    flat = txt.replace(",", "")
+    for h in hits:
+        if re.search(THRESH_OP_RE + re.escape(str(h)) + r"(?!\d)", flat):
+            return ("threshold operator beside the value — FROZEN-THRESHOLD candidate: a "
+                    "registered kill/trigger level is SUPPOSED to hold its registration "
+                    "value; never re-base a test to the current print")
+    if THRESH_TAIL_RE.search(txt):
+        return ("'×N obs'/'consecutive'/'kill line' on the line — FROZEN-THRESHOLD candidate: "
+                "a registered kill/trigger level is SUPPOSED to hold its registration value")
+    if rel.lower().endswith(".tsv"):
+        first = txt.split("\t", 1)[0].strip()
+        if ISO_DATE_RE.match(first):
+            return (f"dated TSV row ({first}) — HISTORY-ROW candidate: a time-series capture "
+                    "holds the value AS OF its date; a refresh would corrupt the series")
+    return None
 
 
 def read_ledger(ledger: Path):
@@ -662,7 +711,16 @@ def read_ledger(ledger: Path):
     get a ⚠️ so the tie-break is visible, never silent."""
     if not ledger.exists():
         return {}
-    raw = [l for l in ledger.read_text().strip().split("\n") if l.strip()]
+    # '#' COMMENT LINES ARE SKIPPED ANYWHERE (2026-08-28, BROCK via PROME — QUIET class):
+    # raw[0] was taken as the header unconditionally, so a '#' banner above the header was
+    # read AS the header, name-lookup failed, the positional fallback kicked in, and the
+    # parser MANUFACTURED a phantom metric named "metric" — no error, no warning, every real
+    # metric still parsed. Every desk that builds a PUBLISHED.tsv off an example will put
+    # comments at the top (BROCK did, caught it by calling read_ledger directly, and worked
+    # around it on its own file). The register-side twin (corrections_boot_check.read_tsv)
+    # already skipped '#' lines; this one did not.
+    raw = [l for l in ledger.read_text().strip().split("\n")
+           if l.strip() and not l.lstrip().startswith("#")]
     if not raw:
         return {}
     header = [h.strip().lower() for h in raw[0].split("\t")]
