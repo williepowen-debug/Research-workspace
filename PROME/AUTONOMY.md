@@ -1,6 +1,6 @@
 # AUTONOMY TIERS
 
-**Created:** 2026-03-25 · **Updated:** 2026-08-09 (spine-audit #8: header git note DEMOTED to a bare pointer per the 8/9 T1-a census pattern — its restated copy carried the pre-8/3 non-ff rule [no `--autostash`, plus the retired "simultaneous-use signature" escalation class that produced a false escalation, CORAL 8/3]; a reader acting on it would falsely escalate routine concurrent pushes. Scope manifest: header note + this stamp only.) Prior: 2026-07-01 PM (de-OpenClaw refresh; git/commit/push autonomy explicitly ceded to root `CLAUDE.md` Git Protocol)
+**Created:** 2026-03-25 · **Updated:** 2026-08-29 (audit #11 — Tier-1 inbox-write clause → carve-out ①; stamp now covers the change-log rows through 8/23). Prior: 2026-08-09 (spine-audit #8: header git note DEMOTED to a bare pointer per the 8/9 T1-a census pattern — its restated copy carried the pre-8/3 non-ff rule [no `--autostash`, plus the retired "simultaneous-use signature" escalation class that produced a false escalation, CORAL 8/3]; a reader acting on it would falsely escalate routine concurrent pushes. Scope manifest: header note + this stamp only.) Prior: 2026-07-01 PM (de-OpenClaw refresh; git/commit/push autonomy explicitly ceded to root `CLAUDE.md` Git Protocol)
 **Purpose:** What Prome can do without asking, what needs approval, and the gray zone.
 
 > **Git / commit / push autonomy is owned by root `CLAUDE.md` Git Protocol** (auto-injected canon — recovery commands and escalation conditions live THERE, deliberately not restated here; demoted to pointer 8/9, spine-audit #8), **not this doc** — don't re-add a git rule here. This file owns the *general* Tier 1/2/3 logic below.
@@ -15,7 +15,7 @@ These are internal actions that don't change thesis, don't touch positions, don'
 - Read any file in the workspace
 - Search the web for public information
 - Update Prome's own state: `PROME/` docs (STATUS, SCRATCH, HANDOFF, etc.) + `memory/YYYY-MM-DD.md` + auto-memory
-- Scan/triage to-PROME signals (`AGENTS/*/outbox/*to-PROME*` at boot) and Prome's own intake; route operational **task packets** to domain agents. *(WALTER owns signal/news routing; cross-agent **inbox** writes are exception-only, Will-authorized — `[[feedback_cross_agent_inbox_writes]]`.)*
+- Scan/triage to-PROME signals (`AGENTS/*/outbox/*to-PROME*` at boot) and Prome's own intake; route operational **task packets** to domain agents. *(WALTER owns signal/news routing. A self-authored packet into another agent's `inbox/` is standard Tier-1 practice AND mandatory to commit — root `CLAUDE.md` carve-out ①, ratified 2026-07-23. The "exception-only, Will-authorized" clause that sat here was DEAD canon — struck 8/29 audit #11; `[[feedback_cross_agent_inbox_writes]]` §SUPERSEDED.)*
 - **Flag** stale/erroneous content in another agent's files to its owner (SIG/packet) — *editing* another agent's files is Will-scoped per root canon, not Tier 1 *(March-era "fix any agent file" grant removed 7/1 — it contradicted the live "no agent domain edits unless scoped" constraint)*
 - Archive resolved Prome items to `PROME/archive/` (rotation discipline: HANDOFF, drafts, served-purpose reports)
 - Cross-reference and link existing research

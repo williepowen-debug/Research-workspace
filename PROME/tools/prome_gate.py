@@ -559,7 +559,15 @@ def check_byte_budgets():
     guards. Enforcement stays closeout-side (CLOSEOUT Chunk 1); this row only
     measures. st_size == wc -c (true bytes — the rule's own instrument; the 8/22
     pass's diagnosis mislabeled char counts as bytes, so: same instrument, always)."""
-    budgets = [("PROME/STATUS.md", 51200), ("PROME/ACTIVE_DECISIONS.md", 51200)]
+    # Read-cap budget (root Data Hygiene P1, Will-approved 2026-08-28; READ_CAP.md
+    # rules 1-2/5): every surface BOOT tells a session to READ WHOLE stays under
+    # 32,550 B, binding above any owner number. Re-keyed 2026-08-29 (spine audit
+    # #11) from the retired 51,200 B STATUS/AD pair; HEARTBEAT + SCRATCH added.
+    READ_CAP_BUDGET = 32550
+    budgets = [("PROME/STATUS.md", READ_CAP_BUDGET),
+               ("PROME/ACTIVE_DECISIONS.md", READ_CAP_BUDGET),
+               ("HEARTBEAT.md", READ_CAP_BUDGET),
+               ("PROME/SCRATCH.md", READ_CAP_BUDGET)]
     caps = ROOT / "scripts/harness_caps.env"   # shared caps file — the two memory
     if caps.exists():                          # guards must never disagree (8/14)
         for line in caps.read_text(encoding="utf-8").splitlines():
@@ -584,9 +592,9 @@ def check_byte_budgets():
         detail += (" — ⚠️ ACTIVE_DECISIONS ≥100%: the 8/22 scripted-check revisit "
                    "trigger has FIRED — build the rc-keyed check, no re-litigation")
     elif worst >= 75:
-        detail += " — ≥75%: rotation due at this closeout per the flow rules"
+        detail += " — ≥75%: rotation / hot-cold split due at this closeout (READ_CAP.md rule 5)"
     record(ADVISE, "byte budgets (flow-rule meter)", worst < 75, detail,
-           "PROME/CLOSEOUT.md Chunk 1 flow rules · MEMORY flow rule 8/12")
+           "PROME/CLOSEOUT.md Chunk 1 flow rules · READ_CAP.md (32,550 B) · MEMORY flow rule 8/12")
 
 
 def mode_boot():

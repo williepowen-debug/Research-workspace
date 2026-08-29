@@ -13,7 +13,7 @@ This doc is the live coordination surface (vs the archived `AGENTS/PROME/` tree)
 ## Hard Rules
 
 - Run repo-state checks before sync or write work: `git status --short`, staged paths, and ahead/behind.
-- Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout. **Never `git commit --amend`** (root Git Protocol 4b, Will-approved 8/21 — amend rewrites whoever holds HEAD, which may not be you; write messages via quoted-heredoc `git commit -F <file>`, not inline `-m`, whenever they carry backticks/quotes) *(mirror synced audit #10)*.
+- Never use broad index operations: no `git add .`, no `git add -A`, no `git reset HEAD`, no force-push, no broad checkout. **Never `git commit --amend`** (root Git Protocol 4b, Will-approved 8/21 — amend rewrites whoever holds HEAD, which may not be you; write messages via quoted-heredoc `git commit -F <file>`, not inline `-m`, for EVERY message (root 4b — nothing to remember under tempo; the cookbook's inline `-m` forms below are subject-line shorthand)) *(mirror synced audit #10)*.
 - Dirty tree means inspect and triage. Do not stash, reset, or pull to make the dirt disappear.
 - Use explicit pathspecs for adds and commits.
 - Local scoped commits use explicit pathspecs; **push is automated at closeout via `scripts/safe-push.sh`** (ff-gated, fails safe; serial multi-machine predicate). **Auto-push exceptions (full list, root canon):** YEYOU manual/branch · TERRY self-sweeps · WALTER architectural per `BOARD_CONSUMPTION_SPEC` §7 (see Push Discipline).
@@ -28,15 +28,17 @@ Live Prome state lives in root `PROME/`.
 Prome may write:
 
 - Root `PROME/` owner docs.
-- Selected root state files, such as `HEARTBEAT.md` or memory logs, only when scoped.
+- `HEARTBEAT.md` and `FORGE/` — PROME-standard commits (freed 8/23 and 7/30; explicit-path, never swept blind). `memory/auto/` files PROME authored — MANDATORY self-commit (carve-out ③ below); daily `memory/YYYY-MM-DD.md` = standard closeout set.
 - Explicitly scoped integration/archive paths approved by Will.
 
 Prome must not treat archived `AGENTS/PROME/` files as live instructions.
 
-**Cross-dir carve-outs (root canon "the ONLY three" — mirror re-synced 2026-07-28 spine-audit; this doc had lagged root by TWO ratifications):**
+**Cross-dir carve-outs (root canon ①–③ + ④ — mirror re-synced 2026-08-29 audit #11):**
 - **① Self-authored inbox packets (ratified 2026-07-23 — HENRY orphan-gap memo):** a packet **PROME authored** into another agent's `inbox/` is PROME's to commit, **and PROME must** — an uncommitted packet never reaches the recipient (~12% orphaned this way pre-detector). Commit it explicitly-pathed with the recipient named in the subject (`PROME -> <RECIPIENT>: <what>`).
 - **② Self-authored shared-log rows (ratified 2026-07-25):** a row PROME authored in a shared cross-agent log (`AGENTS/SIGNALS.md` class) is PROME's to commit, explicitly path-scoped. Rows other agents wrote and file restructures stay off-limits.
 - **③ Self-authored auto-memory files (ratified 2026-07-27, MANDATORY):** any memory file under `memory/auto/` that PROME authored or appended MUST be self-committed — the shared `MEMORY.md` index row rides out on whoever commits next while the FILE needs a deliberate add, so an uncommitted memory leaves the index advertising content the other machine doesn't have (worse than the memory not existing). Enforcement at closeout: `python3 scripts/memory_index_check.py --strict --slug <slug>` per memory written — **the `--slug` form, never bare `--strict`** (bare gates the whole index and blocks on OTHER agents' orphans ③ forbids PROME to commit).
+
+- **④ Gate C Kernel custody (inactive outside an operator-activated packet):** under an approved activation PROME is the sole acceptance custodian for `KERNEL/shadow/events/`, `KERNEL/audit/commands/`, the four registered `KERNEL/views/` projections and the sitting's governance records — additions-only, exact pathspecs, never a directory. Domain agents may commit only their own `AGENTS/<NAME>/outbox/kernel/submissions/<command_id>.json`. Full text = root Git Protocol ④ + the custody paragraph (reconciled 8/27 C8).
 
 Someone else's work outside `PROME/` remains strictly off-limits. Root `CLAUDE.md` Git Protocol owns the full carve-out text; on any drift, root wins.
 
@@ -106,7 +108,7 @@ git add -- PROME/<newfile>
 git commit -m "PROME: <subject>" -- PROME/<modified> PROME/<newfile>
 ```
 
-Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (usually a concurrent same-box session, not the other machine — see Push Discipline; serial multi-machine): don't force — `git pull --rebase --autostash` + re-push (full form + caveats in Push Discipline below); escalate to Will only on the tripwire signatures in Push Discipline. Shared/root-doc commits still need Will scope.
+Push is auto at closeout via ff-gated `scripts/safe-push.sh` (see Push Discipline below + root `CLAUDE.md` Git Protocol). Non-ff abort = **routine** (usually a concurrent same-box session, not the other machine — see Push Discipline; serial multi-machine): don't force — `git pull --rebase --autostash` + re-push (full form + caveats in Push Discipline below); escalate to Will only on the tripwire signatures in Push Discipline. Root `CLAUDE.md` / `AGENTS.md`-core commits still need Will scope (HEARTBEAT and FORGE are PROME-standard since 8/23 / 7/30).
 
 ## Push Discipline
 

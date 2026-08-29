@@ -63,7 +63,7 @@ FOLLOW-UP: ARESSI data drops Wed — spawn BROCK again to integrate when availab
    - BRENT updates NOPI estimate → route to HENRY inbox (demand destruction)
    - Any agent shifts scenario probability → route to RED inbox
 
-   **Format:** `{SOURCE}_ROUTING_{DATE}.md` — 5 lines max. Signal, source, why it matters to the recipient. Don't duplicate the full output — just the actionable fragment.
+   **Format:** `{YYYY-MM-DD}_from-{SOURCE}_{slug}.md` (the fleet's date-first convention — 538 live files vs 52 on the older `{SOURCE}_ROUTING_{DATE}.md` form, which stays readable but is no longer the spec; re-keyed 8/29 audit #11) — 5 lines max. Signal, source, why it matters to the recipient. Don't duplicate the full output — just the actionable fragment.
 
 ---
 

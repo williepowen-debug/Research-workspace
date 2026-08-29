@@ -54,6 +54,7 @@ Core rule:
 
 | Canonical fact | Canonical home | Known mirrors (verify on canon change) |
 |---|---|---|
+| Gate C Kernel custody / carve-out ④ (PROME sole acceptance custodian; additions-only paths; desk submission carve-out) | root `CLAUDE.md` Git Protocol ④ + custody ¶ (reconciled 8/27 C8) | `PROME/GIT_COORDINATION.md` (carve-out ④) · `PROME/AUTONOMY.md` · `PROME/CLOSEOUT.md` Chunk 4 · `KERNEL/` runbooks |
 | Git/push protocol (pathspec, auto-push, non-ff=routine, repo-root cwd) | root `CLAUDE.md` Git Protocol | `PROME/CLAUDE.md` (git-default ¶) · `PROME/BOOT.md` (non-negotiables) · `PROME/GIT_COORDINATION.md` (cookbook + Push Discipline) · `PROME/CLOSEOUT.md` (Chunk 4) · `PROME/AUTONOMY.md` (header note) · auto-memory `feedback_defer_push_coordinate` |
 | Machine model (serial multi-machine, desktop ⇄ laptop) | root `CLAUDE.md` + `PROME/MACHINE_LOCAL.md` | `PROME/CLAUDE.md` (identity) · `SYSTEM.md` (Prome Runtime) · `ORCHESTRAL_LAYER_DESIGN.md` (open-questions bullet) · `PROME/public-prep/HISTORY_SCRUB_PLAN.md` (safety rail 5) |
 | HY-watch mechanism (intake lane primary, desktop timer redundancy) | `HEARTBEAT.md` §Thresholds + intake repo | `PROME/STATUS.md` (Core State + HY lane row) · `SYSTEM.md` (Architecture Note 1) · `ACTIVE_DECISIONS.md` (RESEARCH-INTAKE + Post-FOMC rows) · bank-put proposal §F |
