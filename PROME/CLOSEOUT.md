@@ -148,7 +148,7 @@ git status --short --branch                              # final: clean tree + "
 ## Skip rules
 
 - **Operator card** — part of SCRATCH's rewrite (standalone `TODAY.md` retired 2026-07-01).
-- **`AGENTS/<other>/` files** — default **never** (owners own their state). Exceptions = root canon's **ONLY-three carve-outs** (① self-authored inbox packets — must commit · ② self-authored shared-log rows · ③ `memory/auto/` self-commit mandatory; full text root `CLAUDE.md` Git Protocol) + **Will-approved per-instance apply-on-behalf** (specific files, authorization named in the commit body).
+- **`AGENTS/<other>/` files** — default **never** (owners own their state). Exceptions = root canon's **three self-authorship carve-outs ①–③ (+ the PROME-only Gate C custody carve-out ④ when activated)** (① self-authored inbox packets — must commit · ② self-authored shared-log rows · ③ `memory/auto/` self-commit mandatory; full text root `CLAUDE.md` Git Protocol) + **Will-approved per-instance apply-on-behalf** (specific files, authorization named in the commit body).
 - **Root `CLAUDE.md` / shared files** — flag to Will; Will-approval gates the change.
 
 ## Cross-session behavioral rules
