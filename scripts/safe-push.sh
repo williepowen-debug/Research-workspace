@@ -89,10 +89,17 @@ fi
 #     way the only receipt that certifies anything is git's OWN answer to "is my HEAD now an
 #     ancestor of the freshly-fetched remote branch?" — so we ask it, after the push, and
 #     never print `Pushed.` on a bare exit code. rc contract: 0 confirmed · 1 NOT confirmed
-#     (the push output is above; treat it as a failed push and re-run the rebase recipe).
+#     (the push output is above; treat it as a failed push and re-run the rebase recipe) · 2 CANNOT-CONFIRM.
+#     rc 2 = CANNOT-CONFIRM: the post-push fetch itself failed (network, lock), so neither
+#     "pushed" nor "not pushed" is certifiable — a third state, never folded into either
+#     (RAV review 2026-08-28: `set -e` was exiting with git's raw status against a 0/1 contract).
 push_rc=0
 git push "$REMOTE" "HEAD:$BRANCH" || push_rc=$?
-git fetch -q "$REMOTE" "$BRANCH"
+if ! git fetch -q "$REMOTE" "$BRANCH"; then
+  echo "CANNOT-CONFIRM: git push exited $push_rc, but the post-push fetch of $REMOTE/$BRANCH FAILED — the receipt cannot be issued either way."
+  echo "  Re-run scripts/safe-push.sh once the remote is reachable; do not read this as pushed OR as not pushed."
+  exit 2
+fi
 if git merge-base --is-ancestor HEAD "$REMOTE/$BRANCH"; then
   echo "Pushed. CONFIRMED: HEAD $(git rev-parse --short HEAD) is on $REMOTE/$BRANCH (fresh fetch)."
   [ "$push_rc" -ne 0 ] && echo "  (note: git push exited $push_rc but the ref IS on origin — a concurrent train carried it)"

@@ -671,6 +671,7 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
 THRESH_OP_RE = r"(?:≤|≥|<=|>=|=<|=>|<|>|≠)\s?~?\$?"
 THRESH_TAIL_RE = re.compile(r"(?:×|x)\s?\d+\s?obs|consecutive|kill[ -]line|kill[ -]level", re.I)
 ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}(?:T\d{2}:\d{2})?Z?$")
+THRESH_WINDOW = 40   # chars either side of a hit within which a threshold tail word demotes it
 
 
 def _line_class(txt: str, hits, rel: str):
@@ -684,9 +685,18 @@ def _line_class(txt: str, hits, rel: str):
             return ("threshold operator beside the value — FROZEN-THRESHOLD candidate: a "
                     "registered kill/trigger level is SUPPOSED to hold its registration "
                     "value; never re-base a test to the current print")
-    if THRESH_TAIL_RE.search(txt):
-        return ("'×N obs'/'consecutive'/'kill line' on the line — FROZEN-THRESHOLD candidate: "
-                "a registered kill/trigger level is SUPPOSED to hold its registration value")
+    # PROXIMITY-SCOPED (RAV review 2026-08-28): the first cut matched the tail words anywhere on
+    # the line, so a long prose line containing "consecutive" demoted EVERY hit on it — that
+    # removes automatic escalation from a genuinely stale live value that merely shares a line
+    # with the word. Now the tail must sit within THRESH_WINDOW chars of a hit (MARKER_WINDOW's
+    # convention); the fixture scripts/tests/test_consumer_check.py holds the far-tail case.
+    for h in hits:
+        for m in re.finditer(re.escape(str(h)) + r"(?!\d)", flat):
+            lo, hi = max(0, m.start() - THRESH_WINDOW), m.end() + THRESH_WINDOW
+            if THRESH_TAIL_RE.search(flat[lo:hi]):
+                return ("'×N obs'/'consecutive'/'kill line' within %d chars of the value — "
+                        "FROZEN-THRESHOLD candidate: a registered kill/trigger level is SUPPOSED "
+                        "to hold its registration value" % THRESH_WINDOW)
     if rel.lower().endswith(".tsv"):
         first = txt.split("\t", 1)[0].strip()
         if ISO_DATE_RE.match(first):
