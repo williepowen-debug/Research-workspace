@@ -799,7 +799,7 @@ vintage shown on Sunday is disclosure, not an error; refresh before acting</td><
 until its gate fires — so decision speed never requires decision haste</td></tr>
 <tr><td>env / firetime chips</td><td>boot health checks: machine keys present ·
 fire-path artifacts free of date-drift/dead pointers (known-benigns allowlisted)</td></tr>
-<tr><td>spine audit</td><td>weekly 7-reader (+1 anchor-leg) reconciliation of PROME's core
+<tr><td>spine audit</td><td>weekly 8-reader (+1 anchor-leg) reconciliation of PROME's core
 docs against canon — the age chip shows days since last run (&gt;7d = due)</td></tr></table></div>
 </div>
 """

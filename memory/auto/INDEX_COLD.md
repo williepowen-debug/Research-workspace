@@ -386,3 +386,4 @@
 - finding_parse_failure_folded_into_a_benign_bucket — a failure counted as 'Routine' fabricates a finding; split the counter
 - finding_rising_stock_flat_inflow_means_slower_outflow — flat inflow = the DRAIN slowed; ask what empties the stock
 - feedback_number_every_decision_by_will_queue_row — ⚖️ blocks cite their WQ row, registered before the ask (rule lives in WQ + USER.md)
+- finding_reading_review_cannot_find_what_an_executing_stranger_finds — 4 read passes → 0 ❌; 2 EXECUTING strangers → 6 defects, 5 in the manuals pointed at (8/29)
