@@ -15,7 +15,7 @@ All agents run as **Claude Code sessions on Will's current box** (serial multi-m
 - **PROME** (chief of staff / coordinator) runs as a CC session: assigns decision work, manages state/decision rails, and owns Will-facing synthesis via Telegram. WALTER owns signal/news routing.
 - **Domain agents** (CARL, REGINALD, SAM, RED, …) run as independent CC sessions. They are not persistently spawned by PROME; they coordinate with PROME and each other via inbox/outbox files — and via teams-mode `SendMessage` when PROME orchestrates a live multi-agent session.
 
-Coordination is file-based. Write to `AGENTS/<NAME>/outbox/` to request Prome action. Read `AGENTS/<NAME>/inbox/` for incoming signals. Prome checks these and routes accordingly.
+Coordination is file-based. **Write to `PROME/inbox/` (repo root — NOT under `AGENTS/`; `AGENTS/PROME/` does not exist and must not be recreated) to request Prome action;** `AGENTS/<NAME>/outbox/*to-PROME*` files are for signal/routing work. Read `AGENTS/<NAME>/inbox/` for incoming signals. Prome checks these and routes accordingly. *(Will-ruled WQ-118, 2026-08-29 — spine audit #11.)*
 
 **If a coordinator spawns you (teams-mode):** deliver your result — `SendMessage` it to the coordinator AND write it to your own dir — as your **final action before going idle**. Never idle "holding" without delivering; it forces the coordinator to chase you.
 
