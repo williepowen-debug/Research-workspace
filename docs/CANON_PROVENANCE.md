@@ -87,3 +87,8 @@
 
 - `key: reference-cost-model` · `root-anchor: Status key`
   **Cost model line** ("Heavy research on Sonnet, synthesis on Opus. Typical sub-agent: $0.02-0.05. Long research: $0.10-0.20.") deleted 2026-08-29 (WQ-119, RAV F5) — stale, not a rule.
+
+## AGENTS.md (routing topology — same rules-vs-provenance split, WQ-123, 2026-08-29)
+
+- `key: agents-routing-table` · `agents-anchor: 34 rows: 31 of the 33 live ACTIVE agents`
+  **Table count history:** the caption said "~20 rows against 30" from authoring — never true; corrected 8/6 (Will-directed review) to 31 rows; 31→32 at the 2026-08-16 FERT registration; 32→33 at the 2026-08-21 FLG row (build 8/20, Will-ruled root batch); 33→34 same day at the CRUISE re-class row (Will-ruled queue row 55). **Potash line history:** the chain-10 line read "Potash = UNOWNED, routes to PROME" for 3 days after Will's 2026-08-18 triage-only ruling; reconciled 2026-08-21 under the root-batch word — but the FERT TABLE ROW kept "potash EXCLUDED-UNOWNED" until WQ-123 (2026-08-29); Codex's 2026-08-24 evaluation (line 26) named the pair as evidence that an annotated correction does not clear the mirrored cell. **Dropped sections (WQ-123):** `First Message` (PROME boot pointer in a fleet file), `Safety` and `Core Principles` restated root Critical Rules 5/11 + AUTONOMY; the one load-bearing line (Gate C carve-out ④ pointer, KERNEL readiness plan C2) survives in the `Pointers` block.

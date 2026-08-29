@@ -1,38 +1,32 @@
 # Research Workspace
 
-This repo is two things at once: a 21-agent empirical research system tracking systemic risk transmission across credit, energy, labor, and capital flows — and a working test of whether someone without traditional credentials can build empirical-research capability by sustained iteration with frontier LLMs, at the depth where claims are falsifiable and being wrong has a real cost.
+This repo is two things at once: a 33-agent empirical research system tracking systemic risk transmission across credit, energy, labor, and capital flows — and a working test of whether someone without traditional credentials can build empirical-research capability by sustained iteration with frontier LLMs, at the depth where claims are falsifiable and being wrong has a real cost.
 
 One person + AI here produces output that would traditionally require a small research team — augmenting individual capacity and substituting for team labor at the same time. The goal was to build a lasting, durable framework in which the agents could grow.
 
 ## Three exhibits
 
-1. **Architecture in operational use since February 2026.** A multi-agent + persistent-memory + adversarial-RED-team architecture has been running in this repo's daily use since February 1, 2026 (earliest commits in current form; see the day-one memory logs from `memory/2026-02-01.md` onward and dated early briefings under `archive/IRA/briefings/`). ~3,400+ commits over five months is the timestamped operational record. The design problems the field is now publishing on — multi-agent orchestration, durable agent memory, adversarial verification — were the design problems this workflow had been navigating in production for months. The interesting claim isn't priority; it's convergence: a solo-operator workflow arriving at the same structural answers as the labs, on a working clock.
+1. **Architecture in operational use since February 2026.** A multi-agent + persistent-memory + adversarial-RED-team architecture has been running in this repo's daily use since February 1, 2026 (earliest commits in current form; see the day-one memory logs from `memory/2026-02-01.md` onward and dated early briefings under `archive/IRA/briefings/`). ~10,200 commits over seven months is the timestamped operational record. The design problems the field is now publishing on — multi-agent orchestration, durable agent memory, adversarial verification — were the design problems this workflow had been navigating in production for months. The interesting claim isn't priority; it's convergence: a solo-operator workflow arriving at the same structural answers as the labs, on a working clock.
 
 2. **Calibration discipline, not vibes.** Most domain agents maintain a pre-registered predictions ledger (`PREDICTIONS.tsv`) with a public scoreboard (CONFIRMED / FAILED / special-resolved) and a failure-pattern taxonomy. Predictions carry explicit thresholds and time-boxes set before the event, and are graded against the line. Post-hoc rationalization, when it occurs, is explicitly flagged as a calibration failure and tracked in the taxonomy — the catch-and-track loop is the discipline, not an absence of failure modes. See `AGENTS/SAM/thesis/PREDICTIONS.tsv`, `AGENTS/BRENT/thesis/PREDICTIONS.tsv`.
 
-3. **Operational scale and discipline.** 21 active specialist agents. Single-machine coordination protocols developed in daily use: pathspec git commits for concurrent-writer races, fail-safe push gating, formal adversarial RED-team integration with documented dialogue logs (e.g. `AGENTS/SAM/V16_RED_DIALOGUE.md` plus the broader `AGENTS/RED/challenges/` corpus), fleet protocol audits, and agent lifecycle management (retirement, promotion, dormant states).
+3. **Operational scale and discipline.** 33 active specialist agents. Single-writer coordination protocols developed in daily use (one machine live at a time, desktop ⇄ laptop, concurrent agent sessions on it): pathspec git commits for concurrent-writer races, fail-safe push gating, formal adversarial RED-team integration with documented dialogue logs (e.g. `AGENTS/SAM/V16_RED_DIALOGUE.md` plus the broader `AGENTS/RED/challenges/` corpus), fleet protocol audits, and agent lifecycle management (retirement, promotion, dormant states).
 
 ## How it's organized
 
-**Two layers — 21 active agents:**
+**33 active agents in five responsibility classes** (descriptive, not authority tiers — canonical list and classification method: `PROME/ROSTER.md`):
 
-**15 domain owners** — each owns a market or transmission channel:
-SAM (Japan / BOJ / carry), BRENT (oil / energy), VIOLET (vol / VIX), MARCO (migration / labor / FL sub), LIQUID (HY / credit spreads / funding plumbing), REGINALD (regional banks), CARL (consumer credit), BROCK (private credit / BDCs), HAWK (geopolitics → energy), BOND (US rates / auctions), LABOR (claims / JOLTS / NFP), HENRY (macro velocity), CORAL (Florida — whole state, 10 pillars), SHADE (insurer-lender / PE-insurance-captive), AEOLUS (climate → economy).
+- **Organizing / service (3)** — **PROME** (chief of staff; decision rails, state, operator-facing synthesis), **WALTER** (signal & news routing — the most active agent in the system), **NEXUS** (cross-agent synthesis; reads each domain agent's NEXUS_BRIEF).
+- **Review / QC (1)** — **RED** (formal adversarial red-team; challenges every thesis).
+- **Domain active (17)** — SAM (Japan / BOJ / carry), LIQUID (HY / credit spreads / funding plumbing), VIOLET (vol / VIX), BRENT (oil / energy), HENRY (macro velocity), CARL (consumer credit), LABOR (claims / JOLTS / NFP), BROCK (private credit / BDCs), HAWK (geopolitics → energy), TERRY (trade construction — proposes only, never executes), REGINALD (regional banks), MARCO (migration / labor / FL sub), ORACLE (prediction-market diagnostics — independent calibration signal), BOND (US rates / auctions), CORAL (Florida — whole state, 10 pillars), SHADE (insurer-lender / PE-insurance-captive), ZHAO (China / capital flows).
+- **Provisional active (7)** — AEOLUS (climate → economy), WATT (power / grid), VULCAN (AI-capex / semis), MIDAS (metals), OSPREY (Russia/Ukraine theater), FALCON (Iran/Gulf theater), HOMER (housing).
+- **Event-driven specialist (5)** — OZK, WAL, FLG (single-bank specialists), CRUISE (CCL vehicle), FERT (fertilizer / food-CPI).
 
-**6 orchestration agents** — coordination, synthesis, adversarial verification, fleet maintenance:
-
-- **PROME** — chief of staff; decision rails, state, operator-facing synthesis
-- **WALTER** — signal & news routing (most active agent in the system)
-- **NEXUS** — cross-agent synthesis; reads each domain agent's NEXUS_BRIEF
-- **RED** — formal adversarial red-team; challenges every thesis
-- **TERRY** — trade construction (proposes-only; never executes)
-- **ORACLE** — prediction-market diagnostics (independent calibration signal)
-
-Plus DAEDALUS (fleet architect meta-agent; cross-agent structural maintenance) and 4 Tier-2 specialists spawned on demand.
+Plus DAEDALUS (fleet architect meta-agent; cross-agent structural maintenance, on demand) and a Tier-2 bench spawned on demand.
 
 Each agent runs as an independent Claude Code session with its own CLAUDE / STATUS / MEMORY tree, plus `thesis/` and `TRADE.md` files where applicable. Verified-active roster + classification methodology: `PROME/ROSTER.md`.
 
-**Operational context siloing.** Each agent's boot sequence loads only its own domain files plus the root operating rules; cross-agent coordination flows through `NEXUS_BRIEF.md` — a compressed write-once-read-many surface each agent emits at every closeout — rather than raw STATUS reads. The discipline is enforced by operational convention, not technology. That convention is the architectural answer to the context-window erosion that kills most multi-agent attempts: silos keep each agent coherent on its domain over months of operation; the brief layer carries the cross-agent synthesis at a compressed grain. Cost economics fall out — domain agents run on cheaper Sonnet with focused boot contexts; synthesis runs on Opus where judgment is the bottleneck.
+**Operational context siloing.** Each agent's boot sequence loads only its own domain files plus the root operating rules; cross-agent coordination flows through `NEXUS_BRIEF.md` — a compressed write-once-read-many surface each agent emits at every closeout — rather than raw STATUS reads. The discipline is enforced by operational convention, not technology. That convention is the architectural answer to the context-window erosion that kills most multi-agent attempts: silos keep each agent coherent on its domain over months of operation; the brief layer carries the cross-agent synthesis at a compressed grain. Cost economics fall out — focused boot contexts keep every session cheap; a hard read-cap per boot surface (32,550 B) is enforced by script.
 
 ## Guided tour
 
@@ -53,7 +47,7 @@ Each agent runs as an independent Claude Code session with its own CLAUDE / STAT
 
 **Depth:**
 
-- `AGENTS/` — 21 active agents, each with own CLAUDE / STATUS / MEMORY tree (+ thesis/, TRADE.md where applicable)
+- `AGENTS/` — 33 active agents, each with own CLAUDE / STATUS / MEMORY tree (+ thesis/, TRADE.md where applicable)
 - Multi-version thesis evolution in each agent's `thesis/CHANGELOG.md`
 - Adversarial RED dialogue logs — e.g. `AGENTS/SAM/V16_RED_DIALOGUE.md`; the formal challenge corpus lives at `AGENTS/RED/challenges/`
 - `AGENTS/DAEDALUS/builds/AEOLUS_SPEC.md` — meta-agent specifying how to build a new agent. Recursive architecture in production.
@@ -66,8 +60,8 @@ Finance is the forcing function, not the point. Markets generate ground truth on
 
 A calibration-honest list, because the doc claims this discipline:
 
-- **Single-machine coordination.** The auto-push and pathspec-commit protocols are tuned for one desktop with multiple concurrent Claude Code sessions. A distributed second writer would require per-agent branches; the architecture has tripwires for that case but isn't multi-machine yet.
-- **Broker reconciliation is manual and lags.** Live position truth lives in operator broker exports; the parseable mirror (`FORGE/STATUS.md`) is currently stale and requires operator reconciliation before any trade-state inference.
+- **Serial, not distributed.** The auto-push and pathspec-commit protocols are tuned for ONE live machine at a time (desktop ⇄ laptop, switching checklist in `PROME/MACHINE_LOCAL.md`) with multiple concurrent Claude Code sessions on it. Two machines writing at once would require per-agent branches; the push gate refuses non-fast-forward pushes but the architecture is not built for concurrent writers.
+- **Broker reconciliation is manual and lags.** Live position truth lives in operator broker exports; the parseable mirror (`FORGE/STATUS.md`) carries its own reconcile vintage in its header and stales between exports; it requires operator reconciliation before any trade-state inference.
 - **No published P&L attribution.** The operation is calibration-graded (predictions ledgers, RED dialogue, scoreboards) but dollar-outcome attribution isn't externally audited and isn't claimed here.
 - **Agent maturity varies.** `AGENTS/DAEDALUS/MATURITY_MAP.md` ranks the fleet against a structured rubric — some agents are mature, others earlier-stage. The map is a hygiene input, not a capability scoreboard.
 - **Data-source hallucination is a tracked failure mode, not eliminated.** Root rule #3 — "Agent data can be hallucinated. Verify against SEC filings before trading. (PSEC PIK was 8.6%, not 35%.)" — encodes a real, repeated failure mode the calibration discipline is designed to catch.

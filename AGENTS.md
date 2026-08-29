@@ -12,7 +12,7 @@ Detect stress transmission early enough to position ahead of consensus.
 7. **AI-capex:** VULCAN (concentration mechanism / memory cycle / compute-demand / Taiwan chokepoint) → VIOLET (concentration-unwind vol) + HENRY (FCF) + WATT (power demand)
 8. **Metals:** {BOND (gold↔real-rates), ZHAO (copper↔China)} ↔ MIDAS → LIQUID (safe-haven) + HENRY (growth tell); HAWK → MIDAS (PGM supply)
 9. **Housing:** HOMER (asset market: pipeline, GSE+CMBS multifamily, builders, HPI) → CARL (consumer transmission) + REGINALD (Path C bank collateral) + HENRY (wealth effect)
-10. **Fertilizer/food:** BRENT (gas/feedstock cost) → FERT (nitrogen + phosphate supply/price/policy; China policy = live vector) → CARL (food-CPI transmission) + HENRY; {OSPREY, FALCON} theater signals → FERT (Hormuz/Black-Sea supply shocks). *Potash → FERT at TRIAGE DEPTH (Will-ruled 2026-08-18; log + flag PROME, no deep-dive — full rule canonical in FERT's `CLAUDE.md` §POTASH). ⛔ This line's prior "Potash = UNOWNED, routes to PROME" was 3 days stale against that ruling — reconciled 2026-08-21 under the root-batch word; "potash is UNOWNED" is kill-on-sight fleet-wide.*
+10. **Fertilizer/food:** BRENT (gas/feedstock cost) → FERT (nitrogen + phosphate supply/price/policy; China policy = live vector) → CARL (food-CPI transmission) + HENRY; {OSPREY, FALCON} theater signals → FERT (Hormuz/Black-Sea supply shocks). *Potash → FERT at TRIAGE DEPTH (log + flag PROME, no deep-dive — full rule canonical in FERT's `CLAUDE.md` §POTASH). ⛔ "potash is UNOWNED" is kill-on-sight fleet-wide.*
 
 NEXUS synthesizes across all chains. MARCO feeds immigration/labor supply into LABOR + BRENT. **VIOLET tracks credit-to-vol transmission — when credit spreads widen and VIX hasn't caught up.** **TERRY converts thesis into trade construction: entry, structure, sizing, invalidation, roll/no-roll rules, and postmortems.**
 
@@ -22,7 +22,7 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 
 **Run model (all agents):** every agent is a Claude Code session — launch it from its own dir (`cd AGENTS/<NAME> && claude`), or PROME spawns it via teams-mode when orchestrating (mode-split rule → `PROME/ORCHESTRATION_PLAYBOOK.md`). Live vs Tier-2 vs dormant classification → `PROME/ROSTER.md` (single source of truth — dormant/retired agents do not launch unless Will revives). **Exceptions:** CREED = explicit-permission only; DAEDALUS = on-demand meta-agent (PROME/Will). *(The old per-agent "Spawn?" column — OpenClaw-era "Persistent (Telegram)" framing — was retired 2026-07-01; the spawnable-vs-persistent split no longer exists.)*
 
-> **⚠️ The table below is a ROUTING subset, not the roster.** It lists the agents in the canonical transmission chains — **34 rows: 31 of the 33 live ACTIVE agents (all but PROME and WALTER, who route from root canon and their own specs) plus 3 non-ACTIVE chain members (CREED, OTTO, DAEDALUS)** *(count corrected 8/6, Will-directed review — this line said "~20 rows against 30" from authoring, never true; 31→32 at the 2026-08-16 FERT registration; 32→33 at the 2026-08-21 FLG row [build 8/20], Will-ruled root batch; 33→34 same day at the CRUISE re-class row, Will-ruled queue row 55)* — so a name's absence here means "not on a named chain," never "not active." Roster membership and **responsibility class** are owned by **`PROME/ROSTER.md`**, which as of the **2026-08-05 Phase 1 taxonomy pass** splits the live roster into five descriptive classes: **ORGANIZING / SERVICE · REVIEW / QC · DOMAIN ACTIVE · PROVISIONAL ACTIVE · EVENT-DRIVEN SPECIALIST**. Read class there; **do not mirror per-agent classes into this table** — a duplicated high-churn field rots independently, which is the failure that pass exists to fix. Classes are **descriptive only** (no routing, boot-priority, grading or read-obligation effect), and neither `PROVISIONAL ACTIVE` nor `EVENT-DRIVEN SPECIALIST` is a demotion.
+> **⚠️ The table below is a ROUTING subset, not the roster.** It lists the agents in the canonical transmission chains — **34 rows: 31 of the 33 live ACTIVE agents (all but PROME and WALTER, who route from root canon and their own specs) plus 3 non-ACTIVE chain members (CREED, OTTO, DAEDALUS)** — so a name's absence here means "not on a named chain," never "not active." Roster membership and **responsibility class** are owned by **`PROME/ROSTER.md`** (five descriptive classes since the 2026-08-05 Phase 1 pass). Read class there; **do not mirror per-agent classes into this table** — a duplicated high-churn field rots independently. Classes are **descriptive only** (no routing, boot-priority, grading or read-obligation effect). *(Count history + potash line history → `docs/CANON_PROVENANCE.md` `key: agents-routing-table`.)*
 
 | Agent | Domain | Chain |
 |-------|--------|-------|
@@ -58,40 +58,14 @@ Grouped directory views live in `AGENTS/_INDEX.md`; the canonical topology map l
 | **WATT** | **Power/grid (PJM stress → wholesale price → data-center/industrial cost)** | **AEOLUS C3 → WATT → {HENRY, CARL}** |
 | **VULCAN** | **AI-capex / semiconductor / memory (systemic: concentration, memory cycle, power demand, Taiwan chokepoint)** | **VULCAN → {VIOLET, HENRY, WATT}** |
 | **MIDAS** | **Metals (monetary: gold/silver debasement/real-rates; industrial: copper/PGM growth/China/supply)** | **{BOND, ZHAO} ↔ MIDAS → {LIQUID, HENRY}** |
-| **FERT** | **Fertilizer supply/price/policy (nitrogen + phosphate; potash EXCLUDED-UNOWNED) — re-chartered EVENT-DRIVEN 2026-08-16** | **BRENT feedstock → FERT → {CARL, HENRY}; {OSPREY, FALCON} theater in** |
+| **FERT** | **Fertilizer supply/price/policy (nitrogen + phosphate; potash TRIAGE-ONLY — rule in FERT `CLAUDE.md` §POTASH) — re-chartered EVENT-DRIVEN 2026-08-16** | **BRENT feedstock → FERT → {CARL, HENRY}; {OSPREY, FALCON} theater in** |
 | **DAEDALUS** | **Fleet architect — design / structure / maturity / lifecycle** | **Meta / system** |
 
 ---
 
-## First Message
+## Pointers (rules live in root `CLAUDE.md`, auto-injected — not restated here)
 
-On session start, read `PROME/BOOT.md` and follow its sequence.
-Before `/clear` or `/new`, read `PROME/HANDOFF.md`.
-Orchestration + protocols: `PROME/BOOT.md`, `PROME/CLOSEOUT.md`, `PROME/AUTONOMY.md`, `PROME/COMPLETION_SPEC.md`, `PROME/ORCHESTRAL_LAYER_DESIGN.md`
-
----
-
-## Safety
-
-- Don't exfiltrate private data. Ever.
-- `trash` > `rm`
-- **Internal actions** (read, organize, search): do freely
-- **External actions** (emails, tweets, public posts): ask first
-- **Trade proposals** → Will approves/rejects (binary). Never execute without approval. TERRY may propose trade structure; approval still required.
-- **Agent check-in proposals** → when agents propose research or new tracking, route to Will for approval. Standard practice.
-- **Autonomy/proposal rules:** `PROME/AUTONOMY.md`; task completion format: `PROME/COMPLETION_SPEC.md`. Historical Toscanini files live under `PROME/archive/TOSCANINI_2026-03/`.
-- **Gate C Kernel Git boundary:** root `CLAUDE.md` Git Protocol carve-out ④ is canonical. It remains inactive until a separate bounded Gate C activation ruling; planning or installation alone does not authorize real-record processing or live shadow writes.
-
----
-
-## Core Principles
-
-| Principle | Meaning |
-|-----------|---------|
-| **Files > Memory** | Write it down or lose it |
-| **Fresh > Stale** | Clear context beats long context |
-| **Read > Assume** | Read the file before editing. Always. |
-| **Verify > Trust** | Check that it worked |
-| **Simple > Clever** | Obvious solutions beat elegant complexity |
-
-**Anti-pattern:** "I remember from earlier" — No you don't. Read the file.
+- PROME boot/closeout: `PROME/BOOT.md` · `PROME/CLOSEOUT.md` · `PROME/HANDOFF.md`. Autonomy tiers + proposal rules: `PROME/AUTONOMY.md`; task-completion format: `PROME/COMPLETION_SPEC.md`; orchestration: `PROME/ORCHESTRATION_PLAYBOOK.md` / `PROME/ORCHESTRAL_LAYER_DESIGN.md`.
+- Trade proposals → Will approves (binary); TERRY proposes structure, never executes. Agent research/tracking proposals → Will. External sends → ask first.
+- **Gate C Kernel Git boundary:** root `CLAUDE.md` Git Protocol carve-out ④ is canonical; inactive until a separate bounded Gate C activation ruling — planning or installation alone authorizes nothing.
+- Historical Toscanini files: `PROME/archive/TOSCANINI_2026-03/`.
