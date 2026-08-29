@@ -1,6 +1,6 @@
 # PROME Boot
 
-**Owner:** PROME · **Updated:** 2026-08-28 (step-provenance trim, PROME slim-down 6/6 — incident histories and adoption dates that rode inside boot steps now live in `git log -p -- PROME/BOOT.md`; the steps carry the RULE only. Fleet-memory embeds untouched pending per-item review.)
+**Owner:** PROME · **Updated:** 2026-08-29 (step 8 owed-items-as-a-choice rule — the rule lives HERE; `/boot` carries only the sequence). Prior: 2026-08-28 (step-provenance trim, PROME slim-down 6/6 — incident histories and adoption dates that rode inside boot steps now live in `git log -p -- PROME/BOOT.md`; the steps carry the RULE only. Fleet-memory embeds untouched pending per-item review.)
 
 **Goal:** become operational fast without loading manuals.
 
@@ -65,7 +65,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
    - Prome implementation/identity docs (`PROME/CLAUDE.md`, `PROME/SYSTEM.md`) only for implementation work.
    - `PROME/CLOSEOUT.md` before `/clear`, `/new`, or durable handoff.
 7. **Declare boot state briefly:** synced/dirty, current regime source, market-data freshness posture, top pending decision/work lane, and any blocker.
-8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers, and a stale spine-audit stamp (`PROME/STATUS.md` header "Last spine audit" >7d — **or missing = stale** → run `PROME/tools/spine_audit.workflow.js` this session or flag it).
+8. **Flag top issues:** catalysts within 24h, stale agents, pending decisions, blockers, and a stale spine-audit stamp — **and put OWED prior-session work to Will as a choice, not a mention** (one line: *"owed from <date>: A · B · C — first, or after the <directed lane>?"* with a rec; a dated owed item reaching its third boot unrun leaves SCRATCH for a DOCKET `COVERED:` annotation or a WQ row — three consecutive boots 8/28–8/29 mentioned T6/HEN-42/NEXUS and let the directed lane absorb them) (`PROME/STATUS.md` header "Last spine audit" >7d — **or missing = stale** → run `PROME/tools/spine_audit.workflow.js` this session or flag it).
 9. **Present top proposals** only when useful; max 5, ranked by urgency/position relevance.
 
 ---
