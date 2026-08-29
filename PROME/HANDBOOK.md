@@ -59,7 +59,7 @@
 | ★ | Notable result | decoration |
 | ✅ ❌ | Resolved true / resolved false | agreement/disagreement |
 
-- **In chat:** decisions arrive as `⚖️ YOUR DECISION` blocks at the top of PROME's message; load-bearing facts as `ATTENTION` blocks whose circle is the item's true severity. **A message with neither block needs nothing from you.**
+- **In chat:** decisions arrive as `⚖️ WQ-<row>` blocks at the top of PROME's message — **the number is the WILL_QUEUE row, registered before the block is shown; you rule by number (`WQ-118 = approved`), and RECENTLY DONE is the log** [your word, 8/29]; load-bearing facts as `ATTENTION` blocks whose circle is the item's true severity. **A message with neither block needs nothing from you.**
 
 ## Where things live
 - **`PROME/WILL_QUEUE.md`** — your open-items ledger (the brief's top section renders it).
