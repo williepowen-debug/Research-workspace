@@ -79,6 +79,9 @@ def run_script(severity, name, cmd, owner, ok_rc=(0,)):
         ok = p.returncode in ok_rc
         tail = (p.stdout + p.stderr).strip().split("\n")
         detail = f"rc={p.returncode}" + ("" if ok else f" · {tail[-1][:110]}" if tail else "")
+        if not ok:  # 8/29: name the flagged artifacts — a bare "1 flag(s)" cannot satisfy BOOT.md's re-read rule
+            flagged = [l.strip()[:120] for l in tail if l.lstrip().startswith(("❌", "⚠️"))][:3]
+            detail += "".join(f"\n       ↳ {l}" for l in flagged)
     except Exception as e:
         ok, detail = False, f"{type(e).__name__}: {str(e)[:100]}"
     record(severity, name, ok, detail, owner)
@@ -627,7 +630,7 @@ def mode_boot():
     run_script(BLOCK, "board_scan", [sys.executable, "PROME/tools/board_scan.py", "--advance"],
                "BOARD action line ⇒ disposition before proceeding (§3.5.4)")
     run_script(ADVISE, "firetime (owner-routed flags persist)", [sys.executable,
-               "scripts/firetime_check.py", "--window", "7", "--quiet"],
+               "scripts/firetime_check.py", "--window", "7"],  # not --quiet: the flagged lines are the payload
                "scripts/firetime_allowlist.tsv · DATE flag = full logic re-read, never find-replace")
     # 8/14 Will-directed: agent staleness reads come from ground truth, not narrative.
     # rc=1 = unread from-agent packets sit in PROME/inbox — PROME's model of those
