@@ -1,6 +1,6 @@
 # PROME Boot
 
-**Owner:** PROME · **Updated:** 2026-08-29 (step 8 owed-items-as-a-choice rule — the rule lives HERE; `/boot` carries only the sequence). Prior: 2026-08-28 (step-provenance trim, PROME slim-down 6/6 — incident histories and adoption dates that rode inside boot steps now live in `git log -p -- PROME/BOOT.md`; the steps carry the RULE only. Fleet-memory embeds untouched pending per-item review.)
+**Owner:** PROME · **Updated:** 2026-08-29 EVE (§ Boot-class fleet memories per-item review — 14 embeds regrouped by who acts on them, hooks trimmed [NOT the ≤80 index canon — an embed carries the lesson, an index row carries a pointer], 4,719 → 2,807 B, every slug retained: the embed contract holds). Prior same-day: step 8 owed-items-as-a-choice rule — the rule lives HERE; `/boot` carries only the sequence). Prior: 2026-08-28 (step-provenance trim, PROME slim-down 6/6 — incident histories and adoption dates that rode inside boot steps now live in `git log -p -- PROME/BOOT.md`; the steps carry the RULE only. Fleet-memory embeds untouched pending per-item review.)
 
 **Goal:** become operational fast without loading manuals.
 
@@ -50,7 +50,7 @@ Canonical doc-ownership / trust map: `PROME/SYSTEM.md` → **Boot Trust Stack** 
 2. **Read `PROME/SCRATCH.md`** — immediate handoff / what is hot **+ the operator card** (today's date, catalysts, near-gates; absorbed the old `TODAY.md`).
 3. **Read `PROME/ACTIVE_DECISIONS.md`** — unresolved/approved-but-not-executed decisions before new work — **and `PROME/GATES.tsv` (fire-ledger):** any `FIRED-UNEXECUTED` row = 🔴 blocking (clear or escalate to Will before new work); LIVE-row staleness keys on the **`consumed_by`** field (flag rows whose consumer date passed or whose cell is empty; the old >5d raw-age rule is RETIRED). Register action-gates the session they're approved; owners' KBs stay canonical for full logic.
 4. **Read `PROME/STATUS.md`** — agent/system health and work queue.
-   - **4b. Read § Boot-class fleet memories** (the last section of this file) — the boot-class lessons have no other carrier; a runner that skips them re-learns a solved failure (8/29: `/boot` omitted the read for its first two live runs).
+   - **4b. Read § Boot-class fleet memories** (the last section of this file) — its FIRST group is the every-boot read; the other three groups are keyed to their own moments (mechanized step · desk revival · desk-hardening) and are there so the embed contract holds, not to act on now. The boot-class lessons have no other carrier; a runner that skips them re-learns a solved failure (8/29: `/boot` omitted the read for its first two live runs).
 5. **Market-data freshness gate:**
    - Explicit-`Read` `HEARTBEAT.md` (PROME-facing regime memo — not auto-injected).
    - If today is a weekend/holiday or markets are closed, use it as **orientation only** and preserve its observation dates.
@@ -105,20 +105,25 @@ Closeout is the write-back tail of boot: update only the owner docs whose state 
 
 ---
 
-## Boot-class fleet memories (fleet-memory embeds — migrated 2026-07-31, Phase-2 restructure)
-*One-liners embedded from memory/auto/ (files unchanged); index rows now in memory/auto/INDEX_COLD.md. Read the linked file for the full lesson.*
+## Boot-class fleet memories (fleet-memory embeds — migrated 2026-07-31, Phase-2 restructure; per-item review 2026-08-29 EVE)
+*Every slug embedded 7/31 is still named here (the embed contract: `INDEX_COLD.md` rows point at this section); hooks trimmed 8/29 (embeds, not index rows — the ≤80-char canon does not apply) and the 14 regrouped by WHEN they trigger: only the first group is an every-boot read; the other three are keyed to their own moments. Memory FILES unchanged — read `memory/auto/<slug>.md` for the full lesson.*
 
-- finding_display_filter_gating_safety_net — "A boot-summary keyword/priority filter written for forward sections silently gates the past-due safety net too — low-priority FIRED items vanish, and a fixed look-back window ages out unswept ones. Audit compact-mode filters against every section they touch (OTTO boot 7/25: 3 of 4 fired catalysts hidden, a 5th aged out)" `[[finding_display_filter_gating_safety_net]]`
-- finding_boot_protocol_live_event_override — "SPAWN PROTOCOL framing pulls agents toward CLOSEOUT after boot even mid-event; the fix is neutral \"Write-back\" framing + explicit live-event override in EXECUTE step. Validated on VIOLET 2026-06-05 mid-VIX-spike." `[[finding_boot_protocol_live_event_override]]`
-- finding_boot_predictions_scan — A cheap boot-time PREDICTIONS due/stale scan catches silently-stale OPEN predictions; caught a 24d-stale MISS on first run. Transferable to any agent with a predictions TSV. `[[finding_boot_predictions_scan]]`
-- finding_boot_closeout_hardening_recipe — "Phased recipe for hardening an agent's boot/closeout protocol — mirror, strip live-state, audit-produce doc-ownership + deferred punch-list" `[[finding_boot_closeout_hardening_recipe]]`
-- finding_boot_py_cadence_skip_pattern — "For monthly/low-frequency-data agents, the mature boot.py pattern is SAM/BRENT run-at-boot-defensively + mtime cadence-skip on fetchers — NOT a read-only/--pull opt-in split" `[[finding_boot_py_cadence_skip_pattern]]`
-- finding_boot_sweep_macro_regime_context — Boot sweeps should include a macro-regime-context check (current Fed Chair / BOJ Gov / key central-bank principals + statement-style); month-old Chair changes can sit un-modeled across multiple sessions if the boot baseline only covers data feeds and event calendars `[[finding_boot_sweep_macro_regime_context]]`
-- finding_revival_proxy_pattern — Step 4 of PROME/ORCHESTRAL_LAYER_DESIGN.md — foreground general-purpose subagent briefed as revival proxy for a stale persistent domain agent. Produces decision-grade catch-up + inbox-deposited revival packet for target agent to integrate on next boot. `[[finding_revival_proxy_pattern]]`
-- finding_revival_boot_doc_sweep — "When reviving an agent stale 30+ days, sweep boot docs (CLAUDE.md, MEMORY.md, CALENDAR.md, STRATEGY.md, IDENTITY.md, USER.md) alongside STATUS — staleness compounds across all of them, not just the dashboard" `[[finding_revival_boot_doc_sweep]]`
-- feedback_scan_agent_outboxes_at_boot — "When booting PROME, scan AGENTS/*/outbox/ for PROME-targeted signals — not just the PROME inbox — to close the outbox-resident signal discovery gap" *(quoted path modernized 8/3: the memory's original text said `AGENTS/PROME/inbox/`, a tree removed 2026-07-24 — delivery surface is `PROME/inbox/` per step 6; the directive half is unchanged)* `[[feedback_scan_agent_outboxes_at_boot]]`
-- feedback_front_load_planning — "For multi-step deterministic work, surface all decisions in a pre-execution planning pass; let Will batch-approve defaults; then execute mechanical with proceed-pacing at step boundaries" `[[feedback_front_load_planning]]`
-- finding_freshness_audit_vs_caught_up — mtime/STATUS-freshness ≠ caught-up; a fresh agent can still be behind on inbox backlog AND on a pending test in its own STATUS that already resolved `[[finding_freshness_audit_vs_caught_up]]`
-- finding_gitignored_private_drop_boot_surfaced — "User-private data drops (broker/account exports) should be gitignored AND boot-surfaced — gitignore keeps them off the shared repo but also hides them from git status, so a boot-card line is the only discovery path. Privacy and discoverability are a matched pair; do one without the other and you either lose the data or leak it." `[[finding_gitignored_private_drop_boot_surfaced]]`
-- finding_fetch_before_trusting_boot_sync — At boot, git ahead/behind reads the LOCAL remote-tracking ref and is stale until you `git fetch` — a `0/0` can hide a large gap (53 commits here), especially right after a serial-multi-machine switch; fetch before declaring "synced" or reading state. `[[finding_fetch_before_trusting_boot_sync]]`
-- finding_inbound_lane_is_the_falsification_channel — "If a signal lane can carry a falsifier for a thesis you own, it is boot-mandatory not spawn-optional — HAWK's 9-day-unread WALTER signal contained the exact correction to its own canonical thesis" `[[finding_inbound_lane_is_the_falsification_channel]]`
+**PROME's own boot (unpredictable-trigger — read every boot):**
+- finding_boot_sweep_macro_regime_context — a month-old Fed-Chair/BOJ-Gov change can sit un-modeled if boot covers only feeds + calendars; check principals
+- finding_inbound_lane_is_the_falsification_channel — a lane that can carry a falsifier for a thesis you own is boot-MANDATORY, never spawn-optional (HAWK 9d unread)
+- finding_gitignored_private_drop_boot_surfaced — gitignored drops (broker exports) are invisible to `git status`; a boot-card line is the only discovery path
+- feedback_front_load_planning — multi-step deterministic work: surface every decision in ONE planning pass, let Will batch-approve, then execute mechanically
+- finding_display_filter_gating_safety_net — a forward-section display filter silently gates the past-due safety net too (OTTO 7/25: 3-of-4 fired items hidden)
+
+**Already mechanized on PROME's boot path (pointer only — the step is the carrier):**
+- finding_fetch_before_trusting_boot_sync → step 0 (`git fetch` before ahead/behind) · feedback_scan_agent_outboxes_at_boot → step 6 (BOARD diff-scan + outbox line) · finding_freshness_audit_vs_caught_up → `prome_gate.py boot` (step 5) check "agent freshness (ground-truth vs narrative)", ADVISORY class — never stops boot (mtime-fresh ≠ caught-up on inbox backlog)
+
+**Reviving a stale desk (read at spawn time, not every boot — the procedure is `ORCHESTRAL_LAYER_DESIGN.md` § Revival-proxy v3 brief spec):**
+- finding_revival_proxy_pattern — foreground subagent briefed as revival proxy → decision-grade catch-up + inbox-deposited packet for the desk's next boot
+- finding_revival_boot_doc_sweep — 30+ days stale: sweep CLAUDE/MEMORY/CALENDAR/STRATEGY/USER alongside STATUS; staleness compounds across all of them
+
+**Domain-desk boot-protocol patterns (not PROME's boot — read when hardening a desk's boot/closeout; DAEDALUS blueprint class):**
+- finding_boot_protocol_live_event_override — SPAWN framing pulls a desk to CLOSEOUT mid-event; neutral "write-back" framing + explicit live-event override (VIOLET 6/5)
+- finding_boot_predictions_scan — a cheap boot-time PREDICTIONS due/stale scan; caught a 24d-stale MISS first run
+- finding_boot_closeout_hardening_recipe — phased: mirror → strip live-state → audit doc-ownership → deferred punch-list
+- finding_boot_py_cadence_skip_pattern — low-frequency-data desks: run-at-boot-defensively + mtime cadence-skip on fetchers, not a read-only/--pull split

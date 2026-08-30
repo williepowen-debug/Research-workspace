@@ -4,7 +4,7 @@
 > **Legal: TRIM hook text · ROTATE waves out · SHARD by theme.** ⛔ Never delete a row (pointers — deleting orphans a memory). ⛔ Never raise the ceiling. ⛔ Demoted rows append at the END and the cut takes the END, so the newest rescues fall first.
 > Check: `read_cap_check.py memory/auto/INDEX_COLD.md` (its % is vs a 60%-of-cap budget; the hard line is the measured **53,819 B**). **2026-08-23 pass: 60 hooks → ≤80 canon, 58,825 → 45,641 B, slugs 333==333 proven. ~134 still over canon.** **2026-08-28 TRIM pass (PROME-executed clerk, DAEDALUS TRIM-this-wave rec): 107 hooks → canon, 48,674 → 37,101 B = 72.5% of ceiling; row-slugs 329==329 AND whole-file slug tokens 363==363 proven (6 rows embed other slugs in their hooks — prose-only trimmed, still over canon by design). Next-wave form pre-registered: SHARD by theme when the file re-crosses ~43 KB (80% of the hard line).**
 
-## Boot / closeout / handoff / revival / sync — embedded → `PROME/BOOT.md` §Fleet-memory embeds (2026-07-31)
+## Boot / closeout / handoff / revival / sync — embedded → `PROME/BOOT.md` § Boot-class fleet memories (2026-07-31; regrouped 8/29, all 14 slugs still named there)
 - finding_display_filter_gating_safety_net — a forward-section display filter silently gates the past-due safety net too
 - finding_boot_protocol_live_event_override — SPAWN PROTOCOL framing pulls agents to CLOSEOUT mid-event; needs a live override
 - finding_boot_predictions_scan — a boot-time PREDICTIONS due/stale scan catches silently-stale OPEN predictions
