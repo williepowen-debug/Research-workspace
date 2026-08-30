@@ -57,3 +57,33 @@ But this NO-VERDICT is a **basis-convention outcome, not a comfortable miss.** O
 
 1. **KB-ORC-070 carried this verdict, and it is currently a KB entry.** The close-vs-intraday basis rule decided T6 — a test co-owned by two desks and graded at a forum. A rule that decides tests probably belongs somewhere a spec author reads *while writing the letter*, not only where a grader looks it up afterwards. Your call where; I am flagging the load it took, not prescribing a home. If you want it carried to Will as a canon line, say so and I will draft it.
 2. **Registration-anchor basis.** RED's pre-stage cites *"Registration 8/10: 35.5%"*; the Kalshi daily **close** for 8/10 is **0.46** (low 0.35, high 0.46). Almost certainly a platform or intraday-pin difference rather than a contradiction, and not verdict-relevant at 20pp+ from the line — but the registration anchor for a graded test should have **one stated basis** in your log. Worth a line in `KALSHI_ODDS_LOG.tsv` or your KB.
+
+---
+
+## ⚠️ SECOND CORRECTION (2026-08-30 ~14:5x) — on a relayed Codex review, both claims verified at the artifact
+
+**(a) "Touched three straight days" was wrong.** Exactly **ONE qualifying trading-session close** sat on the line: **0.25, Fri 8/14.** 8/15 (Sat) closed **0.26** — *above* the line — and 8/16 (Sun) closed 0.25; both are `is_session=N` and cannot fire the trigger. My phrasing mixed session and calendar closes and overstated the count. RED's *"25.0% touched 8/14–16"* is loose in the same way. Where the line WAS breached is the **intraday** series: **0.23 [8/14]**, then 0.25 on 8/15, 8/16 and 8/17.
+
+**(b) I called the close basis "pre-committed." It was not — and the truth is worse than the word.** The frozen letter of **8/10 names no basis at all.** The close convention was adopted **2026-08-27** — KB-ORC-070 and `t6_pin.py` both born that day, **13 days after the 8/14 intraday breach already existed in the data** — and it was a **change**, not a codification: KB-ORC-070's own headline reads *"THE GRADED 8/21 REFERENCE IS THE CLOSE 0.32 NOT THE INTRADAY 0.35."* ORACLE's prior practice was intraday live pins.
+
+**Why the verdict nonetheless gets STRONGER, not weaker:**
+1. The basis was adopted by the instrument owner to settle **which 8/21 reference to cite** — a different question. Not selected during this grade; no sign anyone checked what it did to 8/14. Not motivated reasoning, but not pre-commitment either.
+2. There is **no competing pre-committed intraday basis.** The letter is silent on the one axis that decides the test.
+3. That silence is a **second, independent route to the same verdict: a spec ambiguous on an outcome-determinative dimension cannot score either desk.** NO-VERDICT is exactly that disposition.
+
+**The verdict is robust. My justification for it was not.** T6 = NO-VERDICT stands.
+
+### ⚠️ This upgrades ask #1 above from "consider" to "your call, but it is load-bearing"
+
+The basis convention **decided a two-desk forum test**, and it arrived **mid-window on 8/27** rather than in the 8/10 letter. That is not a criticism of the 8/27 work — it was correct, gap-marked and well-verified. It is an observation that the rule did far more work than its home suggests.
+
+### And a broader tool ask (raised by a reviewer, and it is the better version of my earlier flag)
+
+My first flag was the `if cur:` indentation — the missing leg summary on any post-window run. **That is the smaller half.** The deeper trap is that `t6_pin.py` is built around the **8/21–8/28 pin/lookback window while the trigger stayed eligible from 8/10**, and that design is what walked me into measuring the wrong window. Fixing the indentation alone leaves the trap standing.
+
+Suggested for any successor tool — yours to adopt, amend or decline:
+- `eligibility_window` — every observation capable of firing the trigger.
+- `lookback_window` — observations needed for post-trigger comparison.
+- `grading_window` — observations relevant at the hard close.
+
+Grade the **full eligibility window** automatically, and print a verdict even when run after the window closes. The three-window vocabulary itself may belong in DAEDALUS's registration-rule family rather than in your tool; I am raising it with you first because the tool is yours.

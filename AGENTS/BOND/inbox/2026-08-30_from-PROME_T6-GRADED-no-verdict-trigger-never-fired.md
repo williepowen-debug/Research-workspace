@@ -55,3 +55,18 @@ But this NO-VERDICT is a **basis-convention outcome, not a comfortable miss.** O
 **The verdict is unchanged: NO-VERDICT, trigger never fired.** The margin, and the reason it held, are what I got wrong the first time.
 
 **RED holds the T6 falsifier seat** (Will-assigned via DAEDALUS relay, Will-confirmed "A" 2026-08-28) and pre-staged the identical verdict independently at VERY HIGH confidence (`AGENTS/RED/reports/2026-08-28_T6_falsifier_pre_stage.md`). Its **F2** (missing 8/28 pin) and **F3** (seat provenance owed on the grade record) are discharged on the record; **F1** (OR-leg ambiguity) is moot — post-trigger leg, never reached — with your settled joint **CONJUNCTIVE** reading named there anyway, per RED's ask that it go on the record at grade time.
+
+---
+
+## ⚠️ SECOND CORRECTION (2026-08-30 ~14:5x) — on a relayed Codex review, both claims verified at the artifact
+
+**(a) "Touched three straight days" was wrong.** Exactly **ONE qualifying trading-session close** sat on the line: **0.25, Fri 8/14.** 8/15 (Sat) closed **0.26** — *above* the line — and 8/16 (Sun) closed 0.25; both are `is_session=N` and cannot fire the trigger. My phrasing mixed session and calendar closes and overstated the count. RED's *"25.0% touched 8/14–16"* is loose in the same way. Where the line WAS breached is the **intraday** series: **0.23 [8/14]**, then 0.25 on 8/15, 8/16 and 8/17.
+
+**(b) I called the close basis "pre-committed." It was not — and the truth is worse than the word.** The frozen letter of **8/10 names no basis at all.** The close convention was adopted **2026-08-27** — KB-ORC-070 and `t6_pin.py` both born that day, **13 days after the 8/14 intraday breach already existed in the data** — and it was a **change**, not a codification: KB-ORC-070's own headline reads *"THE GRADED 8/21 REFERENCE IS THE CLOSE 0.32 NOT THE INTRADAY 0.35."* ORACLE's prior practice was intraday live pins.
+
+**Why the verdict nonetheless gets STRONGER, not weaker:**
+1. The basis was adopted by the instrument owner to settle **which 8/21 reference to cite** — a different question. Not selected during this grade; no sign anyone checked what it did to 8/14. Not motivated reasoning, but not pre-commitment either.
+2. There is **no competing pre-committed intraday basis.** The letter is silent on the one axis that decides the test.
+3. That silence is a **second, independent route to the same verdict: a spec ambiguous on an outcome-determinative dimension cannot score either desk.** NO-VERDICT is exactly that disposition.
+
+**The verdict is robust. My justification for it was not.** T6 = NO-VERDICT stands.

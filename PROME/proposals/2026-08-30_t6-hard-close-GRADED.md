@@ -47,7 +47,8 @@ Captured 2026-08-30 14:19 / 14:4x ET from the exchange's daily candlestick recor
 ## The grade
 
 - **Minimum session CLOSE over the full eligibility window: `0.25` [Fri 8/14]** — **exactly ON the line, 0.0pp of margin.** The trigger reads `<25%`, **strict**; 0.25 does not satisfy it. The weekend closes 0.26 [8/15] and 0.25 [8/16] sit on the same level and are non-sessions besides.
-- The trigger was **touched on three consecutive days (8/14–8/16) and never crossed**, then ground away: 0.31 [8/17] → 0.29 [8/20] → 0.31 [8/27] → **0.48 [8/28]**, +17pp on the Warsh keynote.
+- ⚠️ **Precisely: exactly ONE qualifying trading-session close sat on the line — 0.25, Fri 8/14.** 8/15 (Sat) closed **0.26**, *above* the line; 8/16 (Sun) closed 0.25; both are `is_session=N` and neither can fire the trigger. "Touched for three straight days" — my earlier phrasing, and loosely RED's *"25.0% touched 8/14–16"* — mixes session and calendar closes and overstates the count. The **intraday** lows are where the line was breached: **0.23 [8/14]**, then 0.25 on 8/15, 8/16 and 8/17.
+- The trigger then ground away: 0.31 [8/17] → 0.29 [8/20] → 0.31 [8/27] → **0.48 [8/28]**, +17pp on the Warsh keynote.
 - ⇒ **TRIGGER NEVER FIRED** ⇒ the frozen letter's own **"NO-VERDICT ... or trigger never fires"** branch.
 
 ### ⇒ **T6 = NO-VERDICT. Neither desk scored. Earned, not an artifact.**
@@ -58,7 +59,15 @@ Captured 2026-08-30 14:19 / 14:4x ET from the exchange's daily candlestick recor
 
 ORACLE flagged this abstractly in its 8/28 BOTTOM LINE: *"a graded reference value that changes T6's verdict depending on whether you read a close or an intraday capture."* **This record supplies the number that makes it concrete.** ORACLE was right that it mattered — and it mattered more than which 8/21 reference to cite: it decides the test. Neither RED's pre-stage nor ORACLE's STATUS stated the sub-25 intraday print numerically; both correctly reported the close-basis result (*"25.0% touched 8/14–16, strict less-than never crossed"*) without surfacing that the intraday went through the line.
 
-**Nothing here changes the grade.** The close basis was pre-committed, is ORACLE-ruled, and was not selected after the fact. It is recorded because a future reader comparing T6 against a successor spec must know this NO-VERDICT is a **basis-convention outcome, not a comfortable miss** — and any successor keying a probability trigger to an exchange series should name close-vs-intraday **in the letter**.
+⚠️ **CORRECTED — I first called the close basis "pre-committed." It was not, and the record is worse than that word implies.** The frozen letter of **8/10 names no basis at all**. The close convention was adopted on **2026-08-27** — KB-ORC-070 and `t6_pin.py` were both born that day, **13 days after the 8/14 intraday breach was already sitting in the data** — and it was a **change**, not a codification: KB-ORC-070's own headline reads *"THE GRADED 8/21 REFERENCE IS THE CLOSE 0.32 NOT THE INTRADAY 0.35."* ORACLE's prior practice was intraday live pins (its Kalshi log shows 8/18 captures at 15:11–15:38Z).
+
+**What survives the correction, and why the verdict actually gets STRONGER:**
+
+1. The basis was adopted by the instrument owner, under BOND's locked fallback with LIQUID's two conditions met, **to settle which 8/21 reference to cite — a different question entirely.** It was not selected during this grade, and nothing suggests anyone checked what it did to 8/14. Not motivated reasoning; not pre-commitment either.
+2. There is no competing pre-committed intraday basis. **The letter is silent on the one axis that decides the test.**
+3. That silence is itself a second, independent route to the same verdict: **a spec ambiguous on an outcome-determinative dimension cannot score either desk.** NO-VERDICT is exactly the disposition for that. The grade holds on the close basis *and* holds because the basis was never specified.
+
+So: **the verdict is robust; my justification for it was not.** Recorded because a future reader comparing T6 against a successor spec must know this NO-VERDICT is a **basis-convention outcome, not a comfortable miss**, and that the convention arrived mid-window.
 
 ## RED's falsifier seat — F3 discharged, provenance now on the grade record
 
