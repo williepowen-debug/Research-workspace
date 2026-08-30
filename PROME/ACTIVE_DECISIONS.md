@@ -1,5 +1,5 @@
 # ACTIVE_DECISIONS.md
-**Updated:** 2026-08-28 (slim-down 5/6 + cold-reader fix round — two live rows re-based to the ≤2 KB convention; prior 8/22 flow-rule adoption stamp verbatim → `ROTATION_2026-08-28` Block 2. Flow rule itself lives in `PROME/CLOSEOUT.md` Chunk 1 + the 8/22 DESIGN proposal — this line carries ONE stamp.)
+**Updated:** 2026-08-29 EVE (structure lane — four June-vintage prose sections rotated verbatim → `ROTATION_2026-08-29` [crc in its header]; Current Mode + Next Maintenance Step re-based to pointers; ZERO decision rows touched; 22,849 → 19,970 B. Prior 8/28 slim-down stamp → `ROTATION_2026-08-28` header. This line carries ONE stamp.)
 **Owner:** Prome
 **Purpose:** Boot-readable index of non-terminal decisions. Full logic stays in action cards / execution rails.
 **Rotated history:** `PROME/archive/ACTIVE_DECISIONS_ROTATION_*.md` — per-pass manifest, per-chunk crc32, and guard dispositions live in each file's own header. *(This pointer line never enumerates passes — the HANDOFF-archive-line lesson.)*
@@ -8,14 +8,7 @@
 
 ## Current Mode — Verification Required
 
-Prome state has been cleaned up for reboot, but position/trade rails remain **verification-required**. Do not act from old `BROKER_PENDING`, May-roll, Jun18-trigger, CPI/refunding, or HYG language without fresh broker/Will reconciliation. The **June-cycle** CPI/refunding/BOJ/FOMC have passed *(scoped 7/28 — the JULY FOMC is live 7/28-29 and a July BOJ MPM lands 7/31; this sentence describes the June events only)*; Geneva de-escalation fired; the Jun-20 Hormuz re-closure first resolved non-kinetic — **superseded 6/28 by Iran's kinetic re-escalation; the 6/29 CME-reopen decoupling test then HELD (Brent <$74) → fragile-watch — then the 7/7-7/8 truce collapse re-armed ACTIVE and the 7/10 sustain verdict DENIED → reverted FRAGILE-WATCH, zero capital deployed through the cycle** (live state: Post-FOMC row below); claims/FRED HY update arrived; CFTC/FXY and expiry cleanup remain context only unless Will/broker truth is provided.
-
-Key supersessions:
-- **HYG Jun $75P:** LIQUID says written off / let expire 6/19. **Stop surfacing as actionable.**
-- **Duration/TLT:** CPI/refunding/FOMC rails resolved into mixed read: Fed hawkish, but long-end did not break. Hormuz tail is back in play but not kinetic-confirmed. No add/roll/expiry action without broker/Will truth.
-- **FXY/BOJ:** BOJ hike was as-priced; Will had chosen hold on Jun18 $58C. TIC/expiry are context, not auto-action.
-- **Bank basket:** broad-cohort fade retired; WAL/OZK are idiosyncratic/Q2-print gated.
-- **Position truth:** off-repo/broker-direct; **`FORGE/STATUS.md` = the mirror and its RECONCILE VINTAGE lives in its own header, never restated here** *(hardcoded "RECONCILED 7/16" stripped 8/16 audit #9 — it was four reconcile cycles stale, the exact PAT-068 class root canon killed)*. Re-verify the live book at any fire-time (root rule #4); the mirror stales between exports. The Jun-18 expiry-cluster rows below (TLT Jun18 salvage · 6/18 theta-killer cluster · FXY Jun18 — cite by NAME, row numbers rot) are month-past-expiry holdovers the reconciles largely resolve — **FOLDED 2026-08-22 (first rotation pass)** — rows verbatim → `ROTATION_2026-08-22`; do not act on any Jun-18-cluster salvage language without fresh broker/Will truth (the supersession bullets above govern).
+Position/trade rails are **verification-required**: position truth is off-repo (Will/broker direct); **`FORGE/STATUS.md` = the mirror, its reconcile vintage in ITS header, never restated here**; re-verify the live book at any fire-time (root rule #4). Never act from a row's older pending language without fresh broker/Will truth — when a sub-state resolves, the resolution REPLACES the pending text (Rules below). *(June-cycle narrative + the HYG/duration/FXY/bank-basket supersession bullets, all terminal → `ROTATION_2026-08-29`.)*
 
 ---
 
@@ -50,30 +43,6 @@ Key supersessions:
 
 ---
 
-## Next Candidate Rows — Not Active During State Correction
-
-- SAM Sep-18 $60C × 5-10 contracts — SAM v1.5 said Sep $60 calls were not warranted under then-current single-path framing; do not use old pending-entry language without reading current SAM.
-- TLT $88P May 15 disposition unknown — portfolio/fill-state issue, not solved here; do not confuse it with Jun $85P catalyst salvage.
-- VIOLET 4/15 VIX/SKEW trade adjudication — no new entry unless VIOLET/NEXUS current vol rails re-arm.
-- WAL Sep $67.5P × N fresh Q2-print exposure — possible later REGINALD rail; not active during state correction.
-- AAL Jul 17 $10P × 1 — standalone orphan; not active during state correction.
-- APD long thesis tag unassigned.
-
----
-
-## Explicitly Dead / Do Not Surface
-
-- **HYG Jun $75P** — written off / let expire 6/19 per LIQUID. Not actionable.
-- **Pre-CPI / pre-refunding TLT Sep-add packet** — historical. Post-FOMC review required.
-- **Broad bank-cohort fade** — retired by REGINALD; WAL/OZK are idiosyncratic/Q2-print, not current sector cascade.
-
----
-
 ## Next Maintenance Step
 
-When Will wants positions reconciled, create a separate **position-state reconciliation pass**:
-
-1. Pull broker / FORGE / trade-decision state.
-2. Compare against these rows and action-card logs.
-3. Mark each row terminal, active, or superseded.
-4. Only then consider any recommendation.
+Position reconciliation = the `/reconcile` skill (broker capture → PROME transcribes → ANVIL reconciles → verify at artifact → Will's word). Candidate/dead-row lists (May–June vintage) → `ROTATION_2026-08-29`.
