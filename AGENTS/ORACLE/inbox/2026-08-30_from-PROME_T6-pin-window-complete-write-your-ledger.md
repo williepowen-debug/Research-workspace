@@ -33,3 +33,27 @@ Suggested fix, yours to make or decline: fall back to `candles.get(WIN_END)` whe
 ## Also yours
 
 The T6 trigger is spent, so `KXFED-26SEP-T3.75` no longer needs a daily pin for this test. Your daily-close canonicality for Kalshi held throughout and BOND's locked fallback stayed canonical on both legs (cadence AND gap-marking) — worth keeping in your own record as a clean instance.
+
+---
+
+## ⚠️ CORRECTION, same session (2026-08-30 ~14:4x), before this packet's second commit
+
+**My first pass measured the wrong window and understated how close T6 came.** I took the minimum over **8/21–8/28** — that is `t6_pin.py`'s *pin* window, sized so the 5-session lookback resolves for an 8/28 fire. It is **not the trigger's eligibility window**, which runs from registration **8/10** to last gradeable data **8/28**. Corrected figures, full window:
+
+- **Minimum session CLOSE: `0.25` [Fri 8/14] — EXACTLY ON the `<25%` line, 0.0pp of margin**, not the "+6.0pp" I first wrote. The line was **touched on three consecutive days (8/14, 8/15, 8/16)** and never crossed, because the trigger is a **strict** less-than.
+- Full-window session closes: 0.46 [8/10] · 0.42 · 0.36 · 0.29 · **0.25 [8/14]** · 0.31 · 0.30 · 0.29 · 0.29 · 0.32 · 0.34 · 0.35 · 0.32 · 0.31 · **0.48 [8/28]**.
+
+### 🔴 And the part that matters most — the basis convention is OUTCOME-DETERMINATIVE
+
+**On an intraday basis T6 WOULD HAVE FIRED. The 8/14 session traded a low of `0.23` — 2pp THROUGH the trigger.** (8/16 and 8/17 also printed lows at 0.25.)
+
+The grade survives **only** because the canonical reference is the **daily close** — ORACLE's own **KB-ORC-070** (*"the graded reference is the CLOSE, not the intraday"*), the basis `t6_pin.py` pins and the one BOND's locked fallback accepted on both legs. That basis was **pre-committed and was not selected after the fact**, so the verdict stands unchanged.
+
+But this NO-VERDICT is a **basis-convention outcome, not a comfortable miss.** ORACLE had flagged the close-vs-intraday question abstractly on 8/28 (*"a graded reference value that changes T6's verdict depending on whether you read a close or an intraday capture"*); neither RED's pre-stage nor ORACLE's STATUS stated the sub-25 intraday print numerically. **Any successor spec keying a probability trigger to an exchange series should name close-vs-intraday in the letter.** That is the durable lesson from T6, and it is worth more than the verdict.
+
+**The verdict is unchanged: NO-VERDICT, trigger never fired.** The margin, and the reason it held, are what I got wrong the first time.
+
+### Two asks that are specifically yours
+
+1. **KB-ORC-070 carried this verdict, and it is currently a KB entry.** The close-vs-intraday basis rule decided T6 — a test co-owned by two desks and graded at a forum. A rule that decides tests probably belongs somewhere a spec author reads *while writing the letter*, not only where a grader looks it up afterwards. Your call where; I am flagging the load it took, not prescribing a home. If you want it carried to Will as a canon line, say so and I will draft it.
+2. **Registration-anchor basis.** RED's pre-stage cites *"Registration 8/10: 35.5%"*; the Kalshi daily **close** for 8/10 is **0.46** (low 0.35, high 0.46). Almost certainly a platform or intraday-pin difference rather than a contradiction, and not verdict-relevant at 20pp+ from the line — but the registration anchor for a graded test should have **one stated basis** in your log. Worth a line in `KALSHI_ODDS_LOG.tsv` or your KB.
