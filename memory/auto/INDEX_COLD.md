@@ -388,12 +388,10 @@
 - feedback_number_every_decision_by_will_queue_row — ⚖️ blocks cite their WQ row, registered before the ask (rule lives in WQ + USER.md)
 - finding_reading_review_cannot_find_what_an_executing_stranger_finds — 4 read passes → 0 ❌; 2 EXECUTING strangers → 6 defects, 5 in the manuals pointed at (8/29)
 
-## Demoted from HOT — 2026-08-29 EVE (structure lane, Will "approved go ahead" 22:17; hot index at 74.7% = one row from the 75% trip — pre-emptive pass under the 8/12 flow rule; settled/predictable-trigger rows, hooks cut to canon as they move; ZERO deletions; rollback = move a row back)
+## Demoted from HOT — 2026-08-29 EVE (structure lane, Will "approved go ahead" 22:17; two prediction rows RETURNED to hot 22:3x pending their real canon embed — Codex, verified; hot index at 74.7% = one row from the 75% trip — pre-emptive pass under the 8/12 flow rule; settled/predictable-trigger rows, hooks cut to canon as they move; ZERO deletions; rollback = move a row back)
 - finding_fdic_failures_api_lags_the_newest_failure — FDIC failures API lags ~7d; HTML paginates; neither naive read is complete
 - finding_continuous_front_ticker_rolls_so_deltas_lie — a continuous front ticker rolls, so deltas across the roll lie (HEARTBEAT canon)
 - finding_historical_fire_count_assumes_one_regime — 'would it have fired before?' scores correct old-regime fires as false positives
-- finding_conditional_swap_needs_base_rate_at_registration — base-rate the alt leg at REGISTRATION, not activation (ML-203 sibling)
-- finding_corrective_inherits_the_anchor_it_corrects — a reprice inherits the anchor it corrects; write it cold, score the correction
 - finding_inherited_default_threshold_is_a_silent_decision — set the bound from the CADENCE of what you measure, vs a companion artifact
 - finding_escalation_ladder_blind_to_its_first_observable — HYPOTHESIS n=1: counterparty PAUSE may precede official acts; candidate rung (0)
 - finding_bare_since_date_drops_same_day_commits — --since=DATE means 'since now-o'clock today'; a zero-result delivery check lies

@@ -1,6 +1,6 @@
 # PROME Boot
 
-**Owner:** PROME · **Updated:** 2026-08-29 EVE (§ Boot-class fleet memories per-item review — 14 embeds regrouped by who acts on them, hooks trimmed [NOT the ≤80 index canon — an embed carries the lesson, an index row carries a pointer], 4,719 → 2,807 B, every slug retained: the embed contract holds). Prior same-day: step 8 owed-items-as-a-choice rule — the rule lives HERE; `/boot` carries only the sequence). Prior: 2026-08-28 (step-provenance trim, PROME slim-down 6/6 — incident histories and adoption dates that rode inside boot steps now live in `git log -p -- PROME/BOOT.md`; the steps carry the RULE only. Fleet-memory embeds untouched pending per-item review.)
+**Owner:** PROME · **Updated:** 2026-08-29 EVE (§ Boot-class fleet memories per-item review — 14 embeds regrouped by who acts on them, hooks trimmed [NOT the ≤80 index canon — an embed carries the lesson, an index row carries a pointer], 4,719 → 2,807 B, every slug retained: the embed contract holds). Prior same-day: step 8 owed-items-as-a-choice rule — the rule lives HERE; `/boot` carries only the sequence. Prior: 2026-08-28 (step-provenance trim, PROME slim-down 6/6 — incident histories and adoption dates that rode inside boot steps now live in `git log -p -- PROME/BOOT.md`; the steps carry the RULE only. Fleet-memory embeds untouched pending per-item review.)
 
 **Goal:** become operational fast without loading manuals.
 
