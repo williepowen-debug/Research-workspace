@@ -82,6 +82,7 @@ flowchart LR
 
     BROCK -->|private-credit vehicle stress| SHADE
     SHADE -->|insurer/funding wrapper stress| LIQUID
+    SHADE -->|insurer / FHLB / NDFI bank exposure| REGINALD
     BROCK -->|NDFI / BDC bank bridge| REGINALD
     BROCK -->|credit market stress| BOND
 
@@ -115,6 +116,8 @@ flowchart LR
     ZHAO -->|China export controls| VULCAN
     HAWK -->|Taiwan chip chokepoint| VULCAN
     MIDAS -->|gold ↔ real-rate tell| BOND
+    BOND -->|real-yield level (DFII10, one figure)| MIDAS
+    ZHAO -->|China macro / demand read| MIDAS
     MIDAS -->|safe-haven flow| LIQUID
 
     %% Fertilizer (FERT) — re-chartered EVENT-DRIVEN 2026-08-16 (Will-ruled; potash = TRIAGE-ONLY at FERT, rule in FERT/CLAUDE.md §POTASH)
@@ -166,6 +169,8 @@ flowchart LR
     BROCK -->|credit stress / vol lag| VIOLET
     REGINALD -->|bank stress / vol lag| VIOLET
     VIOLET --> HENRY
+    VIOLET -->|vol-regime / funding stress| LIQUID
+    VIOLET -->|vol-regime for adversarial review| RED
 
     NEXUS --> RED
     RED --> NEXUS
