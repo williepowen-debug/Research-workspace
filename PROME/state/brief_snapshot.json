@@ -10,12 +10,12 @@
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-08-29": "FORUM fin-cond T6 HARD CLOSE: 30Y benign-bucket test (BOND spec / LIQUID\u2026",
   "2026-08-31": "\ud83d\ude80 KERNEL SITTING 2 (Monday, post-16:15 ET rec)",
   "2026-09-01": "FORUM fin-cond T3: decoupling Test A first adequately-powered read (20-se\u2026",
   "2026-09-03": "SAM full JGB curve-attribution grade on the 30Y JGB auction",
   "2026-09-04": "Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14 \u2192 8/21 \u2192 8/2\u2026",
-  "2026-09-05": "CRUISE arm-CCL ladder disposition RECONSIDER-BY (row-55 ruling 8/21): the\u2026"
+  "2026-09-05": "CRUISE arm-CCL ladder disposition RECONSIDER-BY (row-55 ruling 8/21): the\u2026",
+  "2026-09-06": "OPEC+ meeting"
  },
  "gates": {
   "GATE-BRENT-COT-35B": "LIVE",
@@ -69,6 +69,8 @@
   "116": "BROCK: two of its own registered lines need a re-spec, and thresholds\u2026",
   "117": "DAEDALUS three-encodes bundle (8/28 late packet \u00a74) \u2014 A HANS finding_\u2026",
   "133": "PROME hygiene carry (BOOT step 8: owed items leave SCRATCH after the\u2026",
+  "134": "Boot-path slim-down batch (Codex-amended) \u2014 item 0 _NETWORK.md mermai\u2026",
+  "135": "Root CLAUDE.md:24 non-launch vocabulary \u2014 \"shelved\" \u2192 \"dormant, or re\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026",
   "72": "T6 conjunctive-clause word \u2014 the FORUM fin-cond T6 hard close is 8/29\u2026",
   "73": "BOND T6 frozen-text repairs await Will's word \u2014 AND one clause the 8/\u2026",
