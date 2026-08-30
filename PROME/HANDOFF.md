@@ -2,6 +2,8 @@
 
 **Purpose:** Single live continuity surface for Prome across sessions. Keep this file short: latest 3–5 entries only. Archive older entries to `PROME/archive/`.
 
+⚠️ **Supersession note (2026-08-30 ~17:1x):** entries dated **8/29 and earlier** carry *"MIDAS-06 + row 66"* in their "Open for Will" lines. **Row 66 was archived 8/28**; PROME re-registers the band as a NEW row at Monday's grade. Those are DATED HISTORY, deliberately not rewritten — the TOP entry is live state.
+
 **Archive:** older entries → `PROME/archive/HANDOFF_*.md` (one file per rotated block; each file's header carries its own entry-crc32; `ls PROME/archive/HANDOFF_*.md` is the index — no hand-maintained index exists by design). The 49-pointer paragraph that lived here through 8/28 (frozen snapshot, nothing appends to it) → `PROME/archive/HANDOFF_ARCHIVE_POINTERS_2026-08-28.md` (crc32 3088833333). Rotation recipe → `PROME/CLOSEOUT.md` Chunk 1.
 
 ---
@@ -16,7 +18,7 @@
 **⑤ ERRORS OWNED (SCRATCH #41–46):** wrong-window margin · "pre-committed" overclaim · **four false absence-claims in one hour** (GATES pass) · **n+5 of that class inside the sweep run to fix it — Will caught line 15's "full canon"** while I had fixed only the three files nobody boot-reads · Python `len()` = characters not bytes · an anchor-splice near-miss killed by an assert.
 **⑥ RULE EARNED:** when a claim appears in **both an index and its target, fix the INDEX first** — it is read more and verified less. And a continuous *"TRUE since \<date\>"* claim becomes *"last verified \<date\>"*; only a point-in-time form forces the re-check.
 
-**Open for Will at reboot:** **Mon 8/31 is the heavy day** — kernel sitting post-16:15 [103] + MIDAS-06 + row 66 · he sells the RH 715P · FMHPI · BCRED tender · IQHQ · REG-T-02 · TERRY-007 review_by. Rows 106 · 88 · 98 · 87 · 84 · 86 · 91 · 94/95/96/99/100/92 · 104 · 107 · 74 · 9/4 batch (+133) · 114. Next lane: WQ-133's remaining portable legs; **`INDEX_COLD.md` at 81% of ceiling wants a TRIM wave** (it truncated silently once). Entry point → `PROME/SCRATCH.md` ★ NEXT SESSION.
+**Open for Will at reboot:** **Mon 8/31 is the heavy day** — kernel sitting post-16:15 [103] + MIDAS-06 + **the DFII10 NO-VERDICT band re-registered as a NEW WQ row AT the grade** (⚠️ *not* "row 66" — that row was archived 8/28 with the trigger "re-present after MIDAS-06 grades"; band NARROW 2.37–2.43 / WIDE 2.35–2.45) · he sells the RH 715P · FMHPI · BCRED tender · IQHQ · REG-T-02 · TERRY-007 review_by. Rows 106 · 88 · 98 · 87 · 84 · 86 · 91 · 94/95/96/99/100/92 · 104 · 107 · 74 · 9/4 batch (+133) · 114. Next lane: WQ-133's remaining portable legs; **`INDEX_COLD.md` 41,251 B — its OWN registered next wave is SHARD BY THEME at ~43 KB (80% of the hard line), NOT another TRIM (that pass completed 8/28); ~1.8 KB headroom, NOT FIRED.** Entry point → `PROME/SCRATCH.md` ★ NEXT SESSION.
 
 ## 2026-08-29 NIGHT-2 (Sat, **THE SLIM-DOWN NIGHT-2** — **LAPTOP** [`WilliePOwen`; FFIEC absent = env_doctor blocker WQ-98]; boot 22:48 on *"continue to work on seeing what we can condense, prune, slim down"*; STANDARD closeout Sun 8/30 ~13:2x on *"close out"* after a ~14h pause; Will in-session relaying one Codex review; **Fable 5**; markets closed)
 
