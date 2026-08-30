@@ -1,0 +1,16 @@
+# HANDOFF archive — rotated 2026-08-29 ~23:1x ET (NIGHT-2 session, LAPTOP, WQ-134 #2)
+**Entry:** 2026-08-29 (Sat, **THE STRUCTURE SATURDAY** — DESKTOP [ma… · **entry-crc32:** 1923144867 over 2978 B (the block below, verbatim, from the first `## ` line to end-of-entry incl. trailing newline) · rotated because HANDOFF holds 3–5 live entries and five from one day is the max, not the target.
+
+---
+
+## 2026-08-29 (Sat, **THE STRUCTURE SATURDAY** — DESKTOP [machine switch hostname-verified; laptop night pulled clean 0/0]; boot 10:00 on *"please boot up … let me know if you detect any irregularities"*; push ~11:5x on *"lets commit and push now"*; STANDARD closeout ~12:0x on *"okay lets close out now"*; Will in-session, RAV reviewing through Will; **Fable 5**; markets closed)
+
+**Shape: a PROME-structure session. Boot verified clean (11/11 slim-down crcs recomputed). Spine audit #11 on-cadence → RAV's root review → Will's new rule *"number my decisions"* → four decisions ruled BY ROW NUMBER and executed the same sitting, each cold-read before commit, each committed through the new `commit_check.py`.** $0 · zero thresholds set by PROME · 20 commits · pushed (`Pushed. CONFIRMED`).
+**① LANDED:** **root `CLAUDE.md` 36,062 → 20,621 B, RULES ONLY** (WQ-120, one atomic commit `7e94f91f4`; reasons/dates/counts → `docs/CANON_PROVENANCE.md`, 32 keyed blocks with `root-anchor:` parity; RAV pass 2 PASS; cold reader 16/16; ~4,000 tokens off EVERY agent boot) · **HEARTBEAT eighth re-base, STRUCTURAL: 30,307 → 21,286 B** (WQ-121; Near Gates + Blocking/Pending → pointers; levels once in the dashboard; cold reader 16/16; snapshot crc 1706488653) · WQ-118 root line 18 → `PROME/inbox/` · WQ-119 carve-out count + cost-model line · spine audit #11 4 blocking + ~26 minors fixed · prome_gate byte meter re-keyed to 32,550 B and widened to all four boot surfaces (all green: 45/70/65/35%) · `PROME/tools/commit_check.py` (pre-commit intent, refuse-if-no-change, post-commit verify; porcelain v2).
+**② CONVENTION (Will 8/29):** every ⚖️ decision block carries its WILL_QUEUE row number, registered BEFORE the ask; Will rules `WQ-N = …`; RECENTLY DONE is the log. Rule lives in WILL_QUEUE rules block + USER.md (Will: not in memory — correct; row demoted to cold).
+**③ IN FLIGHT WITH RAV:** non-ff recovery tool DESIGN v3 (`PROME/proposals/2026-08-29_nonff-recovery-tool-DESIGN.md`) — pass 3 pending, **no code until it passes**; safe-push stays push-only.
+**④ ERRORS OWNED (SCRATCH #16–18):** `6704cfc37` overclaimed the WQ move (same table-shape failure as `d3915f75d`; fixed in 18s; commit_check born of it) · a memory row for a convention that belonged in governing files · a snapshot crc first written over the wrong perimeter (recompute caught it).
+**⑤ NOT RUN TODAY (owed first at next boot):** T6 hard close · HEN-42 flip stamp · NEXUS systems review open · GATES advisories (BRENT-COT-35B consumed_by · CORAL-MSI-01 review_by) · WQ 88/106/72/73 "needed 8/28" passed (Will's word).
+
+**Open for Will at reboot:** **Mon 8/31** kernel window [103] + MIDAS-06 + row 66 · rows 106 · 88 · 72/73 · 97 · 9/4 batch (105 · 109 · 111 · 112 · 115 · 116 · 117) · 114 · structure lane next (calendar generator · git stamps · recovery build after RAV pass 3). Entry point → `PROME/SCRATCH.md` ★ NEXT SESSION.
+
