@@ -146,6 +146,7 @@ Prome surfaces to Will only: **(a)** a decision Will must make, **(b)** a consol
 
 ### 3. Right-size the agent count
 The synthesis is the coordinator's job. Don't spawn an agent for work you'll redo. Match N to the *actual* parallelism, not to the number of agents that exist.
+**Batch protocol** *(from retired root LESSONS #6–8, WQ-130 2026-08-29)*: **one spawn, one objective** — context is finite and a bundled spawn does the first job and drops the second (REGINALD P-002: inbox got done, the EARNINGS_PREP upgrade didn't move) · **dry-run one agent before a batch** — it catches file-path, date and context errors invisible from outside (missing KB.tsv; TIC Mar 18 not Mar 15) · **inject batch N's confirmed findings into batch N+1 as context** — never make later agents re-search them (saves tokens, prevents conflicting figures).
 
 ### 4. Concurrency / git hygiene
 - **Mode A (Workflow) serializes** the agent lifecycle → avoids the shared-`.git/index` race entirely. Prefer it for any write-heavy parallel work.

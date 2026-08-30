@@ -1,3 +1,9 @@
+# ROOT LESSONS.md — FROZEN 2026-08-29 (WQ-130, Will "ok approved" 20:52 ET)
+
+*Retired as a standalone numbered canon. Basis: no boot-reader in the fleet (every `LESSONS.md` boot-read is agent-local) and the numbered list broke a live consumer the hour it was renumbered (`FORGE/STATUS.md` D-17 cited #9). Content routed to the surfaces that ARE read — USER.md (#1, #3-half, #9, #10), RED `CLAUDE.md` L26 (#3), `AGENTS/TERRY/RISK_RULES.md` option checklist (#2, #4), `PROME/ORCHESTRATION_PLAYBOOK.md` §3 (#6–8), `PROME/COMPLETION_SPEC.md` rule 6 (#11); #5 and #12 retired as covered (KERNELS research principles; weekly spine audit). Agent-local `AGENTS/<NAME>/LESSONS.md` files untouched. Body below is the verbatim last text; entry-crc32 of the body = 2818582906. Do not cite rows as current.*
+
+---
+
 # LESSONS.md — Fleet-wide mistake patterns (root)
 
 *If you catch yourself breaking one, stop. This is the ROOT file — every agent also keeps its own `AGENTS/<NAME>/LESSONS.md` for domain-specific patterns; those are what agent boot protocols read.*

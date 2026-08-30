@@ -76,6 +76,8 @@ Day colour is a cheap, fast stand-in for that question. It is not the question i
 - Do not recommend an option without checking or caveating: bid/ask width, IV/skew, open interest/liquidity, theta/day, event date vs expiry, expected move.
 - Prefer spreads when outright IV/theta makes the thesis path too expensive.
 - Match expiry to catalyst + confirmation lag; avoid buying too little time for slow-moving credit theses.
+- **Two expiry frameworks — don't mix them:** dateable single-name catalysts (PC names: APO, ARES, ARCC) → near expiry keyed to the catalyst (BROCK owns the PC catalyst clock); macro/index (HYG, KRE, IWM) → the Hamilton demand-destruction clock → far expiry (BRENT owns it). *(From retired root LESSONS #2, WQ-130 2026-08-29.)*
+- **Earnings / event dates come from company IR or the 8-K, never from an agent's memory** (OZK was wrong twice). *(From retired root LESSONS #4, WQ-130 2026-08-29.)*
 - If the trade needs a roll to work, the roll rule must be part of the original plan.
 
 ## Durable findings — EMBEDDED FROM AUTO-MEMORY 2026-08-04

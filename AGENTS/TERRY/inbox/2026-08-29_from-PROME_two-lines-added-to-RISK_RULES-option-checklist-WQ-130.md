@@ -1,0 +1,5 @@
+# PROME → TERRY: two lines added to your `RISK_RULES.md` option checklist (WQ-130, Will "ok approved" 2026-08-29 20:52 ET)
+
+**ACTION:** read `AGENTS/TERRY/RISK_RULES.md` § Option-Specific Rules — two new bullets beside "Match expiry to catalyst + confirmation lag". Keep, re-word, or move them; they are yours now.
+**WHY:** root `LESSONS.md` was retired tonight (no fleet boot-reader; its numbered list broke a `FORGE/STATUS.md` cite when renumbered). Its two trade-construction lessons — the two-expiry-frameworks split (dateable single-name catalyst → near expiry; macro/index → Hamilton clock → far expiry) and earnings/event dates from IR or the 8-K, never agent memory — belong in the file you boot-read, not a root file nobody does. Will's word on WQ-130 scoped the edit to your desk file (root canon: no agent edits without his explicit OK); you were dark, so this packet is the doorbell (messaging rule 6b).
+**ASK:** none beyond the read. Frozen source text → `archive/ROOT_LESSONS_FROZEN_2026-08-29.md` items 2 and 4.

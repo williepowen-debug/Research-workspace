@@ -31,7 +31,7 @@ Both are required. The file is the backup; the system message is the primary cha
 3. **WILL_NEEDS is sacred.** Only things that literally require Will's hands, eyes, or judgment. Not "Will should review" — that's always true. More like "needs brokerage screenshot" or "requires login credentials" or "judgment call on position sizing."
 4. **STATUS must be honest.** ⚠️ PARTIAL is not failure — it's useful information. ❌ BLOCKED means the task literally cannot proceed without intervention.
 5. **RESULT must include at least one number.** Forces concreteness. "Integrated 3 signals, added 2 KB entries, updated scenario probability from 68% to 78%" beats "updated agent status with new information."
-
+6. **A major data release leaves a synthesis file, not a raw dump.** The owning agent writes a short `.md` in its domain folder — the ~5 things that matter for positions — because the next session wakes with no memory and curated context beats a transcript. *(From retired root LESSONS #11, WQ-130 2026-08-29.)*
 ---
 
 ## Example
