@@ -40,7 +40,7 @@ Core rule:
 | `PROME/STATUS.md` | Surgical at closeout | Operational status, work queue, agent/system health. |
 | `PROME/ACTIVE_DECISIONS.md` | Surgical when a decision moves | Non-terminal decision safety index. |
 | `PROME/FLEET_SCAN.md` | **Superseded snapshot — do not rebuild** | Historical only (its own banner). Fleet stale-state/maturity is **DAEDALUS territory**: `PROME/ROSTER.md` (classification) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (maturity/state). *(Rebuild advertisement retired 7/28 — DAEDALUS objection, PROME-ratified: a vestigial design doc is the re-entry path for a duplicate surface.)* |
-| `KERNELS.md` | On-demand reference | Thesis-spine: compressed transmission map + durable system lessons (renamed from root `MEMORY.md` 6/30; not injected). |
+| `KERNELS.md` | On-demand reference | Durable cross-domain market mechanisms + research principles — no live levels, positions, roster or tool config (re-shaped 8/29 WQ-129; topology lives at `AGENTS.md` / `AGENTS/_NETWORK.md`; renamed from root `MEMORY.md` 6/30; not injected). |
 | `memory/YYYY-MM-DD.md` | On-demand (daily log) | Daily session activity detail; not root-memory insight. |
 
 ### Canonical → Mirrors map
