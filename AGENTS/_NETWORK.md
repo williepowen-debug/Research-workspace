@@ -2,7 +2,7 @@
 
 **Purpose:** canonical topology for agent transmission, synthesis, and routing.
 
-**Status:** live map source. Historical visual maps live in `PROME/archive/agent_network.*`. Do not maintain separate live topologies. Dormant agents with historically-wired edges (OZK, BARON) remain as reference nodes; retired / archive-source agents are omitted — full roster + tiers → [`_INDEX.md`](./_INDEX.md) + [`../PROME/ROSTER.md`](../PROME/ROSTER.md).
+**Status:** live map source. Historical visual maps live in `PROME/archive/agent_network.*`. Do not maintain separate live topologies. Dormant agents with historically-wired edges (BARON; OZK was revived — see ROSTER) remain as reference nodes; retired / archive-source agents are omitted — full roster + tiers → [`_INDEX.md`](./_INDEX.md) + [`../PROME/ROSTER.md`](../PROME/ROSTER.md).
 
 ## Core model
 
@@ -47,6 +47,7 @@ flowchart LR
         WATT[WATT<br/>Grid stress / power price]
         MIDAS[MIDAS<br/>Metals: monetary + industrial]
         FERT[FERT<br/>Fertilizer: N + P → food CPI]
+        CRUISE[CRUISE<br/>Cruise sector: CCL fuel-cost vehicle]
     end
 
     subgraph MACRO[Funding / macro / market structure]
@@ -97,6 +98,7 @@ flowchart LR
     BRENT -->|gas pump / consumer pressure| CARL
     MARCO -->|labor supply / migration| LABOR
     MARCO -->|tourism / migration bridge| CORAL
+    MARCO -->|trade policy / tariff impact on energy flows| BRENT
     BARON -->|policy vector| HAWK
     AEOLUS -->|energy demand| BRENT
     AEOLUS -->|FL insurance / property| CORAL
@@ -115,8 +117,9 @@ flowchart LR
     MIDAS -->|gold ↔ real-rate tell| BOND
     MIDAS -->|safe-haven flow| LIQUID
 
-    %% Fertilizer (FERT) — re-chartered EVENT-DRIVEN 2026-08-16 (Will-ruled; potash EXCLUDED-UNOWNED fleet-wide → PROME w/ caveat)
+    %% Fertilizer (FERT) — re-chartered EVENT-DRIVEN 2026-08-16 (Will-ruled; potash = TRIAGE-ONLY at FERT, rule in FERT/CLAUDE.md §POTASH)
     BRENT -->|gas / feedstock cost| FERT
+    BRENT -->|fuel cost → CCL| CRUISE
     OSPREY -.->|Black-Sea / RU supply shocks| FERT
     FALCON -.->|Hormuz / Gulf ammonia-urea shocks| FERT
     FERT -->|food-CPI transmission| CARL
@@ -188,12 +191,13 @@ flowchart LR
 | Power | AEOLUS → WATT → HENRY / CARL; BRENT → WATT | Grid emergencies (PJM EEA), LMP spikes, capacity-auction clears at cap, data-center load |
 | AI-capex | VULCAN → VIOLET / HENRY / WATT; ZHAO / HAWK → VULCAN | Hyperscaler capex guides, Mag-7 concentration, memory cycle, export controls, Taiwan chokepoint |
 | Metals | {BOND, ZHAO} ↔ MIDAS → LIQUID / HENRY; HAWK → MIDAS | Gold real-rate divergence (debasement), copper/China demand, GSR, PGM supply |
+| Energy → consumer discretionary | BRENT → CRUISE (CCL vehicle; event-driven, re-classed ACTIVE 2026-08-21) | Fuel-cost pass-through, pre-announce channels, Q3 print |
 | Japan/carry | SAM → LIQUID/HENRY | JGB/BOJ/carry unwind, USDJPY/FXY, global funding volatility |
 | Credit-to-vol | BOND/BROCK/REGINALD → VIOLET → HENRY/LIQUID/RED | Credit spreads or bank stress widen before VIX/vol catches up |
 
 ## Ownership rules
 
-- `AGENTS.md` owns compact roster, spawn restrictions, and canonical transmission chains.
+- `AGENTS.md` owns the compact transmission-chain table, launch/authority rules, and the sources-of-truth pointer block (its per-agent roster table retired 2026-08-29, WQ-128).
 - `AGENTS/_INDEX.md` owns grouped directory navigation.
 - This file owns the live topology map — **specifically the MARKET-TRANSMISSION topology** (who moves what to whom as a thesis propagates).
 

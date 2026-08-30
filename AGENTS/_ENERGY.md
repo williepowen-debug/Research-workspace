@@ -12,7 +12,7 @@ Canonical paths remain `AGENTS/<NAME>/`. This file is an index only.
 | BRENT | [`BRENT/`](./BRENT/) | Oil and energy markets, storage, tankers, refinery damage, energy-credit transmission. |
 | WATT | [`WATT/`](./WATT/) | Power/grid: PJM stress → power price → cost transmission (DAEDALUS-built 2026-07-10/11). |
 | MIDAS | [`MIDAS/`](./MIDAS/) | Metals: monetary (gold/silver ↔ real rates, with BOND) + industrial (copper/PGM ↔ China, with ZHAO); safe-haven/growth tells to LIQUID/HENRY (DAEDALUS-built 2026-07-10/11). |
-| FERT | [`FERT/`](./FERT/) | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = live vector; potash EXCLUDED-UNOWNED fleet-wide). **Re-chartered EVENT-DRIVEN SPECIALIST 2026-08-16** (Will-ruled; wakes on `TRIGGERS.tsv`, not standing cadence). |
+| FERT | [`FERT/`](./FERT/) | Fertilizer supply/price/policy → food-CPI transmission → CF positioning (nitrogen + phosphate; China policy = live vector; potash TRIAGE-ONLY per FERT `CLAUDE.md` §POTASH). **Re-chartered EVENT-DRIVEN SPECIALIST 2026-08-16** (Will-ruled; wakes on `TRIGGERS.tsv`, not standing cadence). |
 | MARCO | [`MARCO/`](./MARCO/) | Migration/labor supply bridge into labor, agriculture, energy demand, tourism. |
 | AEOLUS | [`AEOLUS/`](./AEOLUS/) | Climate → economy (macro). Channels: insurance/reinsurance, agriculture/food, energy demand. Tiered weather (live) / structural-climate (backdrop) horizon. |
 | BARON | [`BARON/`](./BARON/) | Trump/policy network and political vector tracking. *(dormant — revive on need.)* |
@@ -33,7 +33,7 @@ MARCO bridges labor supply, migration, agriculture, tourism, and energy demand.
 
 ## Archived / dormant — do not launch
 
-- **CRUISE** [`CRUISE/`](./CRUISE/) — cruise/tourism canary, Gulf itinerary/insurance/fuel-cost exposure (archive-source; Will's personal interest; folder left in place). *(⚠️ label under review — DAEDALUS 8/16 sweep flagged de-facto ACTIVE; decision at Will.)*
+- **CRUISE** [`CRUISE/`](./CRUISE/) — cruise-sector event specialist — CCL vehicle, BRENT fuel-cost transmission, pre-announce watchlist (ACTIVE / EVENT-DRIVEN, re-classed 2026-08-21 per `PROME/ROSTER.md`).
 - *(FERT moved to the core table 2026-08-16 — re-chartered ACTIVE/EVENT-DRIVEN, Will-ruled.)*
 
 ## Closest bridges

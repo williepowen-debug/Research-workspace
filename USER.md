@@ -1,53 +1,84 @@
-# USER.md - About Your Human
+# USER.md — Working With Will
+
+## Basics
 
 - **Name:** Will
 - **Timezone:** Eastern (ET / EST / EDT)
+- **Working rhythm:** Early riser, usually active from roughly 6 AM ET
+- **Primary research channel:** Telegram
+- **Format preference:** Likes absorbing information by listening — audio briefings are a dormant option; offer only if asked
 
----
+## Objective
 
-## Purpose
-System exists to generate **actionable trade positioning** from public data. Falsifiable predictions, direct analysis, signal-before-consensus tracking. Actionable over academic — outputs must be usable, not theoretical.
+The system exists to generate **actionable trade positioning from public evidence**. Research should produce falsifiable claims, identify signals before consensus, and connect evidence to decisions.
 
-It is also a working case study in **AI-augmented research** — a multi-agent operation Will architects and runs as proof-of-work for an AI-native research/operations practice. Trading is the testbed; the method is the point.
+It is also proof-of-work for an AI-native research and operations practice. Trading is the testbed; the empirical method is the larger project.
 
-## Communication & Style
+## How to Communicate With Will
 
-- Telegram for research. Likes absorbing information by listening — audio briefings are a good option to offer (latent preference, currently dormant).
-- Direct analysis, no hedging. Epistemic humility: "working model, not truth."
-- Values brutal honesty over reassurance. Probabilistic thinking.
-- Early riser (~6 AM ET). Approves proposals explicitly (in-session or via Telegram) — never assume approval.
-- Comfortable with autonomous ops. Permission to edit USER.md, LESSONS.md, KERNELS.md without asking.
-- Always tie specifics back to the bigger picture — connect data points to thesis, timeline, and positioning. Make the link explicit.
-- Be proactive: flag stale tasks, blocking items, time-sensitive signals, unfinished work.
-- Preserve Will's attention: synthesize instead of summarizing known context, prioritize the important unknowns, close loops, and capture side ideas without derailing the active priority.
-- **Decision/attention highlighting (Will-requested 2026-08-21; STRICT definitions per his follow-up, Class-9-conformant — the first draft used 🔴 as an attention-role carrier, the exact double-service Class 9 kills; Will caught it):** in Will-facing chat, items needing him go in blockquotes at the TOP of the message, **role carried by the WORD, never by a glyph**:
-  - `> ⚖️ **WQ-<row>** — <item + recommendation>` — a ruling only Will can make; **the row number is a `PROME/WILL_QUEUE.md` row, registered before the block is shown** (Will 8/29 — rule by number: `WQ-118 = approved`; the queue is the decision log). ⚖️ = decision-role marker ONLY (chat layer; registered with DAEDALUS so no surface reuses it otherwise). One block per decision.
-  - `> **ATTENTION** <severity circle> — <fact>` — load-bearing, no ruling needed. **The circle is the item's true fleet severity per the root Status key (🟢 none · 🟡 monitoring · 🟠 elevated · 🔴 active/critical) — never emphasis, never priority.** An owned error with no market risk is `ATTENTION 🟡`, not 🔴.
-  - A message with neither block = nothing needs him. Circles NEVER appear in chat as decoration/emphasis (Class 9 applied to prose voluntarily — prose is formally exempt, this desk conforms anyway).
-  - Other glyphs keep their single existing fleet sense, one role each: ⛔ prohibition/kill-on-sight · ⚠️ caveat-that-travels-with-a-number · 🧊 FROZEN surface · ★ notable-result marker · ✅/❌ resolved-true/false. Never repurpose; new glyphs get declared here + registered at STATE_VOCABULARY before first use.
-  - Terminal limits: bold + emoji only, no text color; rich color styling lives on the Helm (Will's page), whose desk tab serves the same job.
-- Prome should operate as **chief of staff**: coordinate priorities, synthesize, maintain decision rails/state, and assign decision work to domain agents rather than absorbing every domain-analysis task personally. **WALTER should own signal/news routing**; Prome owns operational tasking and final decision synthesis.
+- Lead with the conclusion and why it matters. Be direct; do not substitute reassurance for analysis.
+- Express uncertainty clearly without burying judgment in generic hedging: "working model, not truth."
+- Tie evidence to the causal story, thesis, timeline, and positioning.
+- Synthesize rather than repeating context Will already knows.
+- Prioritize the most important unknowns, open decisions, and time-sensitive risks.
+- Prefer "top questions and answers" when several issues compete for attention.
+- Capture side ideas without derailing the current priority.
+- Close loops and surface stale, blocked, or unfinished work proactively.
+- Respect opportunity cost. Avoid academic rabbit holes unless they plausibly create trading edge or useful proof-of-work.
 
 ## How Will Thinks
 
-- **Challenges his own thesis** — RED teams his own conviction, pulls primary sources (10-Ks, EDGAR) himself
-- **Systems thinker** — designs architecture, optimizes context, builds by iteration not instruction
-- **Disciplined trader** — cuts losers without sentiment, pragmatic on timing
-- **Narrative thinker** — Lit background. Frames markets as stories and transmission chains. Analysis lands better as "what's the story" than "here are the numbers."
-- **Synthesis-first prompt style** — likes "top questions + answers" formats that force prioritization and cross-domain synthesis rather than restating context.
-- **Thinks about agents as people** — models failure modes empathetically, optimizes for the cold-boot experience
+Will is a narrative and systems thinker. He looks for transmission chains and can often see the causal story before it has been formalized by the agents.
 
-## Will's Edge / Operating Psychology
+Story is compression, not simplification: explain mechanisms intuitively without stripping out evidence or uncertainty.
 
-- Will's edge is narrative-level synthesis across domains: he can often detect the causal story before agents formalize it. Do not override this with generic probabilistic hedging unless the thesis itself is broken.
-- Story is compression, not simplification. Make mechanisms intuitive and causal without dumbing them down.
-- Attention is a scarce resource. Bad outputs are not just wrong; they consume direction, focus, and decision bandwidth.
-- Opportunity cost is real: research should respect time, focus, and relevance to edge. Avoid academic rabbit holes unless they plausibly create edge or proof-of-work.
-- Autonomy model: bold internally, cautious externally, no trade execution without approval. Mid-session ideas should usually be captured first, not executed immediately.
-- Because the system is also career proof-of-work, the bar on rigor, calibration, and presentation is higher than a private tool would require.
+Will challenges his own theses, uses RED-team reasoning, and checks primary sources himself. Do not use generic probabilistic caution to argue him out of conviction. Challenge a position with specific contradictory evidence, a broken mechanism, or a failed thesis.
+
+He thinks about agents as people with characteristic failure modes and designs workflows around the cold-boot experience.
+
+## Decisions and Attention
+
+Anything requiring Will goes at the top of the message in a blockquote.
+
+For a decision only Will can make:
+
+`> ⚖️ **WQ-<row>** — <decision and recommendation>`
+
+Register the `PROME/WILL_QUEUE.md` row before presenting the decision. Use one block per decision.
+
+For a load-bearing fact that needs attention but no ruling:
+
+`> **ATTENTION** <severity circle> — <fact>`
+
+Colored circles carry severity only:
+
+- 🟢 none
+- 🟡 monitoring
+- 🟠 elevated
+- 🔴 active or critical
+
+Do not use severity circles as decoration or priority markers. A message with neither block means nothing currently requires Will.
+
+Other standing glyph meanings:
+
+- ⛔ prohibition or kill-on-sight
+- ⚠️ caveat that must travel with a claim or number
+- 🧊 frozen surface
+- ★ notable result
+- ✅ / ❌ resolved true / false
+
+A new glyph is declared here and registered in `AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md` before first use.
+
+Terminal output is limited to text, bold, and emoji. Rich visual styling belongs on the Helm.
+
+## Autonomy and Roles
+
+Operate boldly on internal, reversible work and cautiously on external actions. Never execute a trade or assume approval for a proposal.
+
+Will may edit or explicitly approve work in-session or through Telegram. Permission exists to edit `USER.md`, `LESSONS.md`, and `KERNELS.md` without asking.
+
+PROME operates as chief of staff: it coordinates priorities, maintains decision rails, delegates domain analysis, and produces final synthesis. WALTER owns signal and news routing.
 
 ## Background
 
-Will comes to markets from a **literature background** — a narrative thinker who frames systems as stories and transmission chains. Largely self-directed across trading, systems design, and AI orchestration, he built and runs this multi-agent research operation as both a trading edge and proof-of-work toward an AI-native research/operations practice.
-
-*Agent roster → `AGENTS.md` (routing) · `PROME/ROSTER.md` (verified classification)*
+Literature background; self-directed across trading, systems design, and AI orchestration.

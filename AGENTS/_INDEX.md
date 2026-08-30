@@ -37,7 +37,7 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 | DEWEY | [`DEWEY/`](./DEWEY/) | Synthesis / Ops · Tier-2 |
 | HANS | [`HANS/`](./HANS/) | Funding / Macro · Tier-2 |
 | FALCON | [`FALCON/`](./FALCON/) | Energy / Geopolitics (Iran-Gulf war theater; ←HAWK split 7/12) |
-| FERT | [`FERT/`](./FERT/) | Energy / Commodities (fertilizer supply/price/policy → food-CPI → CF; nitrogen + phosphate, potash EXCLUDED-UNOWNED; re-chartered EVENT-DRIVEN 2026-08-16, ←archive-source) |
+| FERT | [`FERT/`](./FERT/) | Energy / Commodities (fertilizer supply/price/policy → food-CPI → CF; nitrogen + phosphate; potash TRIAGE-ONLY per FERT `CLAUDE.md` §POTASH; re-chartered EVENT-DRIVEN 2026-08-16, ←archive-source) |
 | HAWK | [`HAWK/`](./HAWK/) | Energy / Geopolitics (cross-war synthesis + dormant book) |
 | HENRY | [`HENRY/`](./HENRY/) | Funding / Macro |
 | HOMER | [`HOMER/`](./HOMER/) | Credit (housing asset market; ←CARL promotion 7/12) |
@@ -73,7 +73,7 @@ Active + Tier-2 agents and meta-agents with live folders. Full verified classifi
 |---|---|---|
 | [`SENTRY/`](./SENTRY/) | dormant | Cross-domain signal pipeline; human-idle since 6/02 |
 | [`BARON/`](./BARON/) | dormant | Trump financial-policy network; dormant since 5/08 |
-| [`CRUISE/`](./CRUISE/) | archive-source | Cruise / tourism canary (Will's personal interest) — do not launch *(⚠️ label under review: DAEDALUS 8/16 sweep flagged de-facto ACTIVE; decision at Will)* |
+| [`CRUISE/`](./CRUISE/) | ACTIVE / EVENT-DRIVEN | Cruise-sector event specialist — CCL vehicle, BRENT fuel-cost transmission (re-classed 2026-08-21, `PROME/ROSTER.md` ‡‡) |
 | [`ATHENA/`](./ATHENA/) | archive-source | Reading / knowledge companion — do not launch |
 
 ## Retired → `AGENTS/_archive/`
@@ -86,4 +86,4 @@ When adding a new agent:
 1. Create the canonical folder as `AGENTS/<NAME>/`.
 2. Add it to this roster.
 3. Add it to exactly one primary group file, plus cross-links if it bridges domains.
-4. Update `PROME/ROSTER.md` (verified classification) + `AGENTS.md` (routing table) if it is an operational agent, not just an experimental/workbook folder.
+4. Update `PROME/ROSTER.md` (verified classification) if it is an operational agent, not just an experimental/workbook folder; add it to the `AGENTS.md` chain table and `_NETWORK.md` only if it joins a named transmission chain.

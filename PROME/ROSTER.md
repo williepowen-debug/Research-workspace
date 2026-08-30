@@ -119,7 +119,7 @@
 ## TIER-2 — spawned as needed (4)
 | Agent | Domain | Note |
 |---|---|---|
-| CREED | National CRE / CMBS | committed 6/27; spawn for CMBS / REIT-tape work |
+| CREED | National CRE / CMBS | committed 6/27; spawn for CMBS / REIT-tape work — **launch only on Will's explicit permission** (standing since 6/27; carried in AGENTS.md, sourced here 8/29) |
 | DEWEY | Deep on-demand research | self-identified Tier-2 "go deep on one question"; stateless (INDEX.tsv only) |
 | HANS | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | ~4 commits/30d; label fixed 7/10 (was "Geopolitics (energy-geo)" — PAT-042, DAEDALUS catch vs `AGENTS/HANS/CLAUDE.md`; military ceded to HAWK) |
 | OTTO | Auto-industry fraud & stress | 13/30d; STATUS 6/09 |
