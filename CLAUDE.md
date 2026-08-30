@@ -21,7 +21,7 @@ Coordination is file-based. **Write to `PROME/inbox/` (repo root — NOT under `
 
 **Transmission chain:** LABOR → CARL → REGINALD → market repricing. HENRY (velocity), LIQUID (amplification), SAM (Japan, parallel trigger). {OSPREY, FALCON} → HAWK → BRENT (war theaters → geopol → oil/energy; acute theater signals direct to BRENT, HAWK cc'd). HOMER → {CARL, REGINALD} (+ HENRY wealth-effect). AEOLUS → {BRENT, CORAL, MARCO}. AEOLUS C3 → WATT → {HENRY, CARL}. VULCAN → {VIOLET, HENRY, WATT}. {BOND, ZHAO} ↔ MIDAS → {LIQUID, HENRY}.
 
-**Roster:** `PROME/ROSTER.md` is the single source of truth for who is active, Tier-2, special, or shelved, and for responsibility classes (descriptive, not authority tiers — they change no routing or obligations). Routing topology → `AGENTS.md`. Do not re-list membership anywhere else; when a mirror and ROSTER disagree, ROSTER wins. **Potash is triage-only at FERT** (log + flag PROME, no deep-dive) — the full rule is FERT's `CLAUDE.md` §POTASH; read it there.
+**Roster:** `PROME/ROSTER.md` is the single source of truth for who is active, Tier-2, special, dormant, or retired, and for responsibility classes (descriptive, not authority tiers — they change no routing or obligations). Routing topology → `AGENTS.md`. Do not re-list membership anywhere else; when a mirror and ROSTER disagree, ROSTER wins. **Potash is triage-only at FERT** (log + flag PROME, no deep-dive) — the full rule is FERT's `CLAUDE.md` §POTASH; read it there.
 
 **Scoped overlaps are intentional** — reconcile shared metrics to one figure, don't silo: CORAL↔MARCO (FL migration/tourism), AEOLUS↔CORAL (FL climate/coastal). **Florida is a top-priority geography for Will.**
 
