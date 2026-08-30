@@ -87,3 +87,22 @@ Related: [[finding_scope_negative_needs_the_counterparty_standard]] (the negativ
 > ⭐ **The transferable part is the fragmentation, not the number: a facet that cuts ACROSS memories has no home, so it gets recorded as a parenthetical inside whichever slug was in hand — and every host under-counts it, because each host only sees its own instances.** This is the memory-index form of the surface-reuse error: not one observation counted N times, but **one pattern split N ways so it never reaches the n= that would force action.** **Before appending "n=k" for a cross-cutting observation, grep the corpus for the FACET, not for the slug you are standing in.**
 > **LABOR's instance is the worst form of it and belongs on the record: LABOR held `crosscheck_with_free_parameter` in its HOT index, published an uncontrolled two-free-parameter diagnosis, and then CITED THAT VERY SLUG in its own correction hours later** — citation is proof of possession at the time of the violation.
 > ⛔ **The design question this raises — whether the HOT tier's premise is doing the work it is priced at — is the tier owner's (PROME's), flagged by LABOR and NOT answered here or there.** What both files can say is the shared measurement: **the failure is never at the LOADING step. It is at recognising that the situation in front of you is an instance.**
+
+---
+
+## n+4 IN ONE SITTING — PROME, 2026-08-30, GATES `condition` pass (four false alarms, zero real defects)
+
+**The densest instance yet, and every one was mine inside a single hour.** Auditing 30 `GATES.tsv` rows, my scans asserted a defect **four separate times** and were wrong all four:
+
+| # | What I scanned for | False claim | What was actually true |
+|---|---|---|---|
+| 1 | tokens matching `path/with.extension` | 4 LIVE rows have "NO PATH" in `definition_surface` | bare directories (`AGENTS/FLG`) and owner-relative paths (`reports/…`) are valid pointer forms — my regex required a dot and a repo-relative prefix |
+| 2 | the metric's NAME (`"motivated seller index"`) in CORAL's `STATUS.md` | the canonical letter is absent from its own declared home | present — the file indexes the gate by **gate id**, not by metric name |
+| 3 | `gate_id` inside the `definition_surface` target | 6 LIVE rows' letters "NOT FOUND" | all present under the **owner's LOCAL id**, which each cell explicitly declares in parentheses (`COT-FUEL-35B`, `KB-FERT-006`, `T4`, `§REG-T-02`) |
+| 4 | an exact guard phrase in one owner file | HY-REKILL's H-2 counting rule is unique-homed; cutting it would delete it | owner-homed at LIQUID `STATUS.md` + `KB.tsv` **and** at HENRY |
+
+⭐ **The sharpened rule: when a scan reports ABSENCE, the first hypothesis is that you searched for YOUR name for the thing, not the owner's.** Instances 2 and 3 are the same error one level apart — I searched a *metric* name where the file uses a *gate* id, then a *registrar* id where the file uses the *owner's* id. **A federated registry names things differently at every hop, and `definition_surface` cells here literally declare the local id — the answer was inside the cell I was auditing.** Read the pointer's own declaration before searching its target.
+
+⚠️ **What saved it was the pass being a JUDGEMENT pass, not a sweep.** Every false alarm died the moment I opened the artifact. Had this run as the sweep the scope item implied, it would have "repaired" four non-defects into a file of live fire-gates — and `[[finding_a_correction_pass_is_unreviewed_work]]` says fix passes carry a HIGHER defect rate than the work they correct. **A clean-looking absence report on a federated registry is a claim about your naming assumptions, and it should be spent opening two artifacts before it is spent writing anything.**
+
+**Second-order:** the pass's real deliverable became the checker (`gates_pointer_check.py`, proposed) — and its negative-control set is free: these four false alarms are exactly the cases a v1 must not re-raise (`[[finding_test_the_guard_not_just_the_guarded]]`).
