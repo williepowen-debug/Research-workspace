@@ -76,7 +76,7 @@
 - finding_push_train_pattern — one push ships every agent's unpushed commits; automated at closeout
 - feedback_shared_log_row_author_commits — the author of a row in a shared log commits that row itself (Will-ratified 7/24)
 
-## Prediction & calibration — embedded → `FORGE/PREDICTION_DISCIPLINE.md` (2026-07-31; hot residue re-based 2026-08-21 pass #5 — canon file now carries the FULL set, only the 2 HELD-HOT rows stay in MEMORY.md)
+## Prediction & calibration — embedded → `FORGE/PREDICTION_DISCIPLINE.md` (2026-07-31; hot residue re-based 2026-08-21 pass #5; **2 more embedded + demoted 2026-08-30, see that dated section**) ⚠️ **The "canon file carries the FULL set" claim has now gone FALSE TWICE (9 rows at 8/21, 2 rows at 8/30) — it is a live assertion that decays every time a prediction memory is written. Check it at each flow pass; never inherit it.**
 - finding_widened_scope_needs_rescoped_instrument — widening a prediction's scope with the old base-rate instrument can pre-fail it
 - finding_discovery_instrument_defines_the_claim — press-sampling measures YOUR discovery latency, not the world — name the scan
 - finding_redated_falsifier_inherits_premise — When you re-date a falsifier/prediction because a catalyst moved
@@ -395,3 +395,7 @@
 - finding_inherited_default_threshold_is_a_silent_decision — set the bound from the CADENCE of what you measure, vs a companion artifact
 - finding_escalation_ladder_blind_to_its_first_observable — HYPOTHESIS n=1: counterparty PAUSE may precede official acts; candidate rung (0)
 - finding_bare_since_date_drops_same_day_commits — --since=DATE means 'since now-o'clock today'; a zero-result delivery check lies
+
+## Demoted 2026-08-30 — embed-then-demote (PROME, WQ-133 leg; Will *"proceed with the two prediction-canon embeds if they are already scoped under WQ-133"* — verified scoped, rec column reads "PROME runs these in a structure session; no ruling needed"). Both rows were demoted-pending-embed and grepped **ZERO** in `FORGE/PREDICTION_DISCIPLINE.md`, so `MEMORY.md`'s "full canon is embedded" header was FALSE for them (SCRATCH kill-on-sight #6, now discharged). **Embedded first, demoted second — the order WQ-133 required.** ZERO deletions; memory FILES unchanged; rollback = move a row back to MEMORY.md.
+- finding_conditional_swap_needs_base_rate_at_registration — base-rate the swap-in leg at REGISTRATION [embedded→PREDICTION_DISCIPLINE]
+- finding_corrective_inherits_the_anchor_it_corrects — write it cold, score the correction [embedded→PREDICTION_DISCIPLINE]
