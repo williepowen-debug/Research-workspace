@@ -13,6 +13,23 @@ the destination files parse, every size check improves, and the loss is discover
 only when somebody looks for a line that is no longer anywhere. A rotation is exactly
 the operation whose success and whose worst failure look identical from the outside.
 
+🔴 VERBATIM IS THE DEFAULT (v3, 2026-08-30 — Codex, reproduced by PROME). v2 near-matched a
+missing line against EVERY destination line and exited 0 if anything resembled it. That let a
+GENUINELY DELETED line be "explained" by a surviving SIBLING: source with RULE A and RULE B
+differing by one word, destination drops B, v2 printed "CONSERVED (no loss)" rc=0 on a 90% match
+to A. SIMILARITY TO ANY LINE CANNOT ESTABLISH LINEAGE.
+
+The v2 change had been made to stop a false "content lost" on a benign in-place edit — and that
+is the trap worth naming: FIXING A FALSE ALARM BY LOOSENING THE CHECK CONVERTS A NOISY-BUT-SAFE
+FAILURE INTO A SILENT-AND-UNSAFE ONE. For a conservation verifier the only acceptable direction
+is fail-closed. Two corrections restore it:
+  (a) the near-match pool is `added` ONLY — destination lines with no exact source counterpart,
+      consumed one-for-one. A line already accounted for by its own exact match cannot also
+      explain a different missing line.
+  (b) candidates are REPORTED, never accepted. Exit 0 requires --adjudicated: exact old->new
+      pairs the CALLER has verified. A bogus pair cannot launder a deletion, because (a) leaves
+      the deleted line with no candidate at all.
+
 SEMANTICS — CONSERVATION IS "NO LOSS", NOT "EQUALITY". Destination files legitimately
 gain scaffolding (headers, provenance comments, pointer tables), so the test is a
 multiset SUBSET test: every line of the original must appear across the outputs at
@@ -28,7 +45,8 @@ USAGE
   # or from a file on disk
   tools/split_verify.py --orig-file /tmp/before.md --into <fileA> <fileB>
 
-EXIT: 0 = nothing lost · 1 = LINES MISSING (names them) · 2 = bad invocation.
+EXIT: 0 = every source line present verbatim or caller-adjudicated · 1 = anything unaccounted
+      for (missing outright, OR an unadjudicated candidate edit) · 2 = bad invocation.
 """
 import argparse, collections, difflib, subprocess, sys, pathlib
 
@@ -52,9 +70,14 @@ def main():
     ap.add_argument("--strict-blank", action="store_true", help="count blank lines too")
     ap.add_argument("--show", type=int, default=10, help="how many missing lines to print")
     ap.add_argument("--edit-threshold", type=float, default=0.75,
-                    help="similarity above which a missing line is EDITED, not LOST (default 0.75)")
+                    help="similarity above which an UNEXPLAINED destination line is offered as an "
+                         "edit CANDIDATE (default 0.75). Candidates are reported, never accepted.")
+    ap.add_argument("--adjudicated", metavar="FILE",
+                    help="TSV of <old-line>\t<new-line> pairs the CALLER has verified as in-place "
+                         "edits. ONLY these are accepted; anything else missing is still LOST. "
+                         "Without this, an edited line fails — verbatim is the default.")
     ap.add_argument("--strict-edit", action="store_true",
-                    help="fail on edited-in-place lines too (use when the split must be byte-verbatim)")
+                    help="deprecated no-op: verbatim-only is now the DEFAULT.")
     a = ap.parse_args()
 
     src = read_git(a.orig) if a.orig else pathlib.Path(a.orig_file).read_text(errors="replace")
@@ -89,15 +112,63 @@ def main():
     # ⇒ Near-match each missing line against the outputs and SHOW BOTH TEXTS, so the
     # reader judges rather than trusts the classifier. Conservative by construction:
     # anything below the threshold stays LOST, and --strict-edit restores verbatim-only.
-    pool = [l for t in dst for l in t.split("\n") if keep(l)]
-    edited, lost = [], []
+    # 🔴 THE POOL MUST EXCLUDE DESTINATION LINES ALREADY EXPLAINED BY AN EXACT MATCH.
+    # v2 near-matched against EVERY destination line, so a DELETED line could be
+    # "explained" by its resemblance to a SURVIVING SIBLING and the run exited 0.
+    # Reproduced 2026-08-30 (Codex, via PROME): source has RULE A and RULE B differing
+    # by one word; destination drops B entirely; v2 printed "CONSERVED (no loss)" rc=0,
+    # matching the deleted B against the surviving A at 90%.
+    # SIMILARITY TO ANY LINE CANNOT ESTABLISH LINEAGE. The only defensible candidate for
+    # "B was edited into X" is an X that NOTHING ELSE accounts for — i.e. the multiset
+    # `added` (destination lines with no exact source counterpart), consumed one-for-one.
+    pool = list(added.elements())
+    cand, lost = [], []
     for line, n in missing.most_common():
         near = difflib.get_close_matches(line, pool, n=1, cutoff=a.edit_threshold)
-        (edited if near else lost).append((line, n, near[0] if near else None))
+        if near:
+            pool.remove(near[0])          # one destination line explains at most one source line
+            cand.append((line, n, near[0]))
+        else:
+            lost.append((line, n, None))
+
+    # Adjudication: only caller-supplied exact old->new pairs are ACCEPTED as edits.
+    adj = set()
+    if a.adjudicated:
+        for raw in pathlib.Path(a.adjudicated).read_text(errors="replace").split("\n"):
+            if "\t" in raw:
+                o_, n_ = raw.split("\t", 1)
+                adj.add((o_, n_))
+    accepted = [(l, n, near) for l, n, near in cand if (l, near) in adj]
+    unaccepted = [(l, n, near) for l, n, near in cand if (l, near) not in adj]
+    edited = accepted
+    # `lost` stays ONLY the truly-unmatched — a line the CONTENT LOST section can honestly
+    # say nothing resembles. Unaccepted candidates are unexplained too and block exit 0,
+    # but they get their own section: printing them under "nothing resembles them" while
+    # showing a 99% match directly above would be a report contradicting itself.
+
+    if unaccepted:
+        print(f"\n⚠ CANDIDATE EDITS — {len(unaccepted):,} missing line(s) resemble an otherwise "
+              f"unexplained destination line. NOT ACCEPTED and NOT counted as conserved: "
+              f"similarity is a hint, never proof of lineage. Verify each pair yourself, then "
+              f"pass them via --adjudicated to accept:")
+        for i, (line, n, near) in enumerate(unaccepted):
+            if i >= a.show:
+                print(f"    … and {len(unaccepted)-a.show:,} more")
+                break
+            sm = difflib.SequenceMatcher(None, line, near)
+            ops = [o for o in sm.get_opcodes() if o[0] != "equal"]
+            print(f"  [{n}x, {sm.ratio():.0%} match]")
+            if ops:
+                _, i1, i2, j1, j2 = ops[0]
+                print(f"    was …{line[max(0,i1-45):i2+45]}…")
+                print(f"    now …{near[max(0,j1-45):j2+45]}…")
+            else:
+                print(f"    was: {line[:150]}")
+                print(f"    now: {near[:150]}")
 
     if edited:
-        print(f"\n⚠ EDITED IN PLACE — {len(edited):,} line(s) changed rather than moved. "
-              f"NOT content loss; verify each is the change you intended:")
+        print(f"\n✔ ADJUDICATED EDITS — {len(edited):,} line(s) the caller verified as in-place "
+              f"changes:")
         for i, (line, n, near) in enumerate(edited):
             if i >= a.show:
                 print(f"    … and {len(edited)-a.show:,} more")
@@ -132,14 +203,21 @@ def main():
             print(f"  [{n}x] {line[:150]}")
         print("\n  A split must be lossless. Re-run the migration; do not hand-patch"
               "\n  the destinations, or the next verification passes over a repaired symptom.")
+
+    if lost or unaccepted:
+        bits = []
+        if lost:
+            bits.append(f"{len(lost):,} with no counterpart")
+        if unaccepted:
+            bits.append(f"{len(unaccepted):,} unadjudicated candidate edit(s)")
+        print(f"\n✗ NOT CONSERVED — {' + '.join(bits)} unaccounted for. "
+              f"Verbatim is the default: a resemblance does not close the gap. "
+              f"Adjudicate real edits explicitly (--adjudicated) or restore the content.")
         return 1
 
-    if edited and a.strict_edit:
-        print("\n✗ --strict-edit: edited lines fail. This split was required to be verbatim.")
-        return 1
     if edited:
-        print(f"\n✅ CONSERVED (no loss): every source line is present or accounted for as an "
-              f"in-place edit ({len(edited)} edited).")
+        print(f"\n✅ CONSERVED: every source line is present verbatim, or covered by a "
+              f"caller-adjudicated in-place edit ({len(edited)} adjudicated).")
         return 0
     print("\n✅ CONSERVED: every source line appears in the outputs. Nothing lost.")
     return 0
