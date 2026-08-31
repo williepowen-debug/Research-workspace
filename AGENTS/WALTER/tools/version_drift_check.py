@@ -35,6 +35,15 @@ SPECS = [
     "design/BOARD_CONSUMPTION_SPEC.md",
 ]
 
+# COMPANION SPECS (added 2026-08-30, Codex finding 3): files that are ONE spec split
+# across two paths for read-cap reasons. They must declare the SAME version and move in
+# lockstep. Without this, a ROUTING_CARVEOUTS.md edit could change WHO RECEIVES A SIGNAL
+# while ROUTING_TABLE.md still reads v0.31 and every existing drift check passes clean —
+# the split created a synchronisation boundary that no instrument was watching.
+COMPANIONS = {
+    "design/ROUTING_CARVEOUTS.md": "design/ROUTING_TABLE.md",
+}
+
 # version token: title form `# ... vX.Y` OR `**Version:** [v]X.Y`
 _TITLE = re.compile(r"^#.*?\bv(\d+\.\d+)\b")
 _FIELD = re.compile(r"\*\*Version:\*\*\s*v?(\d+\.\d+)\b")
@@ -92,11 +101,30 @@ def main() -> int:
         print(f"{rel:<40} {('v'+sv) if sv else '—':>11} "
               f"{('v'+stv) if stv else '—':>9}  {status}")
     print("-" * 74)
+
+    # COMPANION LOCKSTEP — a split spec must not drift against its parent.
+    for rel, parent in COMPANIONS.items():
+        cv, pv = spec_version(WALTER / rel), spec_version(WALTER / parent)
+        if cv is None:
+            print(f"{rel:<40} {'—':>11} {'—':>9}  ?? no version header (companion of {parent})")
+            drift.append(rel)
+        elif cv != pv:
+            print(f"{rel:<40} {'v'+cv:>11} {'v'+(pv or '?'):>9}  "
+                  f"COMPANION DRIFT — {parent} is v{pv}")
+            drift.append(rel)
+        else:
+            print(f"{rel:<40} {'v'+cv:>11} {'v'+pv:>9}  ok (lockstep with {parent})")
+    if COMPANIONS:
+        print("-" * 74)
+
     if drift:
         print(f"\n✗ {len(drift)} drift: {', '.join(drift)}")
         print("  → fix STATE.md §1 (or the spec header) so they agree.")
+        print("  → COMPANION DRIFT means one spec was split across two paths and only one")
+        print("    half was bumped: routing behaviour can change with the parent version")
+        print("    unmoved. Bump BOTH; they are one spec.")
         return 1
-    print("\n✓ STATE.md §1 matches every spec header.")
+    print("\n✓ STATE.md §1 matches every spec header; companions in lockstep.")
     return 0
 
 
