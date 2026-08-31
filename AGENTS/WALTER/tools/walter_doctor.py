@@ -1519,9 +1519,26 @@ def check_registered_but_unrouted():
     Tier-2/dormant agents are legitimately spawn-on-demand. Scoped to Tier-1 ACTIVE rows
     to avoid alarming on the dormant tail — a dormant agent nobody routes to is fine."""
     reg = _read(WALTER / "REGISTRY.tsv")
-    rt = _read(WALTER / "design/ROUTING_TABLE.md")
-    if reg is None or rt is None:
+    # THE ROUTING CORPUS IS TWO FILES, NOT ONE (2026-08-30). The per-agent carve-outs
+    # were split into design/ROUTING_CARVEOUTS.md to get ROUTING_TABLE.md under the read
+    # cap (121,557 -> 31,764 B). They are ROUTING LAW, not commentary, so routing
+    # PRESENCE must be evaluated over both — reading only the table made this check
+    # report OZK and OTTO as UNROUTED within minutes of the split, when OZK is named
+    # 5x and OTTO 1x in the carve-outs. A false MED, manufactured by the split itself.
+    # ⇒ GENERALISABLE, and it bit twice in one session: A SPLIT RELOCATES CONTENT OUT
+    # FROM UNDER EVERY INSTRUMENT THAT READS THE OLD PATH, and each instrument fails
+    # independently — read_cap_check needed a CLAUDE.md rewording, this one needed code.
+    # Sweep the consumers when you move a file; the checker that stays silent is the
+    # dangerous one. [[finding_guard_correctness_and_wiring_are_independent]]
+    parts = [_read(WALTER / "design/ROUTING_TABLE.md"),
+             _read(WALTER / "design/ROUTING_CARVEOUTS.md")]
+    if reg is None or parts[0] is None:
         return [(LOW, "REGISTRY.tsv or ROUTING_TABLE.md unreadable — routing coverage unchecked")]
+    if parts[1] is None:
+        return [(MED, "design/ROUTING_CARVEOUTS.md unreadable — half the routing corpus is "
+                      "missing, so an UNROUTED verdict here would be unsafe. Fix the path, "
+                      "do not interpret a clean run.")]
+    rt = "\n".join(parts)
     # WALTER routes; PROME/Will/meta + reviewer agents are not routing targets.
     NON_TARGETS = {"WALTER", "PROME", "DAEDALUS", "YEYOU", "DEWEY", "WILL"}
     DORMANT = {"RETIRED", "DORMANT", "ARCHIVE", "GRAY", "GREY"}
