@@ -45,6 +45,15 @@ USAGE
   # or from a file on disk
   tools/split_verify.py --orig-file /tmp/before.md --into <fileA> <fileB>
 
+⚠️ A CONSERVATION RE-RUN IS ONLY MEANINGFUL AGAINST THE DESTINATION SET AS OF THE SPLIT COMMIT.
+Destinations get edited afterwards by ordinary maintenance, and every such edit correctly fails a
+later re-run — the tool cannot tell "the split lost this" from "someone edited it two commits on."
+Verified live 2026-08-30 (PROME): re-running the CLAUDE.md-slim verification after a follow-up
+commit legitimately edited one destination returned rc=1 with candidates + LOST. THAT IS CORRECT
+FAIL-CLOSED BEHAVIOUR, NOT A DEFECT — but do not read a stale re-run as evidence of loss. Pin both
+sides to the split commit: --orig <split>~1:<path> --into with the destinations AS OF <split>
+(git worktree/checkout that commit if they have since moved).
+
 EXIT: 0 = every source line present verbatim or caller-adjudicated · 1 = anything unaccounted
       for (missing outright, OR an unadjudicated candidate edit) · 2 = bad invocation.
 """
