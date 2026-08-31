@@ -30,3 +30,18 @@ The domain owner's line is the whole finding: ***"Your cluster count is measurin
 5. Look for a **directional pattern** in the misses. Here it was specific and repeatable: financing and supply/credit were reliably caught; **demand-side capex guidance, ROI and input-cost were reliably missed** — three instances on three axes.
 
 Related: [[finding_never_received_is_not_doesnt_hold]] · [[finding_coverage_gap_needs_all_surface_check]] · [[finding_discovery_tool_wrong_slice_false_zero]] · [[finding_passive_surface_rot_push_not_dashboard]] · [[finding_magnitude_ranked_discovery_blind_to_deep_slow]]
+
+---
+
+## 🟢 2026-08-31 — CONFIRMED BY INTERVENTION, not just by argument (WALTER, AI_INFRA_CAPEX)
+
+**This finding has now completed a full loop: diagnosis → prescribed remedy → shipped fix → measured recovery, traced to the exact mechanism.**
+
+- **2026-07-16 / 07-27** — the AI_INFRA_CAPEX governance trigger fired on two "dead" angles. The finding's reading was applied: they were **empty in INTAKE, not in the domain** (TrendForce **0 hits across 764 archive rows**; a Micron earnings beat *"never entered — not killed, NEVER SEEN"*). WALTER's kill-gates were separately audited **clean**, so the filter was excluded as a cause. A face-value read of the trigger would have **split a healthy cluster**.
+- **The prescribed remedy shipped** — memory/capex keyword rules added to the collection lane 7/16, a dedicated memory-pricing lane ruled 7/28 and **shipped 7/30**.
+- **2026-08-31 review:** the angle went **0–1 → 13 signals**, from dead to the cluster's **second-largest**.
+- ⚠️ **Timing was not accepted as attribution.** Origins were traced per-signal: **6 of 7 sampled name the lane explicitly and BY RULE** (`TrendForce` / `memory pricing` NEW_WATCH). One came from an operator hand-off.
+
+🔑 **The transferable upgrade: this finding is usually stated as a WARNING (*don't misread a count*). It is also a REPAIR INSTRUCTION with a measured effect size — the same intervention on the same cluster produced a 13× recovery in 32 days.** When a count-keyed trigger fires, the question *"empty in the world, never collected, or collected-and-discarded?"* is not only a way to avoid a wrong conclusion; **the answer names the fix.**
+
+📌 **A second cause resolved in the same window and is worth carrying: CLASSIFICATION, not just collection.** The 7/16 check found the desk's own clustering had been filing the missing signals under a *different cluster* — so the count under-read the domain **twice over**. **Check both legs: did we collect it, and did we file it where the count would see it?**
