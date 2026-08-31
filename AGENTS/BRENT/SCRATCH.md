@@ -1,5 +1,13 @@
 # BRENT SCRATCH — Fri Aug 28, 2026 **~15:5x ET** *(PROME-orchestrated Friday slate — FINAL CLOSEOUT of a long session; both Friday grades TAKEN on their own prints)*
 
+> ## ⚡ SCOPED TOUCH 2026-08-31 Mon ~12:2x ET (PROME-orchestrated combined BRENT+FALCON touch — Kharg correction; the 8/28 handoff below is otherwise still the live handoff)
+> - 🔴 **KHARG WAS NOT STRUCK THIS WEEKEND.** The Monday routine's claim (committed `c377ca311`) is corrected: the artefact is **Trump's 8/30 Truth Social post with an AI-GENERATED video** (Reuters AI-detection); NIOC "laughable", loading (resumed 8/12) unchanged. **Larak strike 8/30 (CENTCOM), Jordan salvo Mon 8/31 (8 intercepted), and the +3.4-3.5% rally are REAL.** UAE leg DENIED by UAE MoD. Full record: `demand_destruction/data/monday_2026-08-31.md` §DATED CORRECTION (C1–C8) + TRACKER 8/31 row annotation. **Kharg supply-side registry-line flag CLOSED: NOT OPENED, event did not occur.**
+> - ✅ **The 8/31 roll item below is DONE:** BZV26 off the board; **front re-pinned `BZX26` (Nov); M1−M3 = `X26−F27` = +$4.35 live ~12:1x ET** (successor basis +$4.32 [8/28] confirmed). ⛔ `BZ=F` printed a WRONG-SIGN roll-spanning delta today — never quote it. `^SKEW` stale 8/28.
+> - ✅ **JWC: `JWLA-034` still newest** (WebSearch 8/31, SEARCH-NOT-FOUND ≥035) — BRT-30 instrument unmoved, row NOT graded.
+> - 📐 **ADOPTED: series+source+window tag on every Hormuz transit figure** (WALTER four-series table, `SIG-W-20260831-002`). "~5/day weekend" was a 7/15–8/23 six-week average; USNI 8/28: transits UP. Pause arithmetic corrected: **~32 nights 7/29→8/30** (supersedes "~26 through 8/25").
+> - 📬 **Inbox drained 5/5** (PROME dead-pointer → NEXUS_BRIEF path qualified, TRADE.md:454 was already correct; SIG -042 VIX-print, -049 ERCOT, -20260831-001/-002) — logged + archived.
+> - ⛔ **NOT this touch (fences held):** no BRT-xx graded/re-armed, no threshold moved, no GATES/DOCKET edit, no position action, no EIA/COT/rigs pulls (their next prints are 9/2–9/4). $0 moved.
+
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
 > # ⛔ READ FIRST — THE THREE THINGS THAT CHANGE HOW YOU WORK TOMORROW
