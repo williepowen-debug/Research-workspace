@@ -1,3 +1,20 @@
+## 2026-08-31 (Mon, ~19:15 ET boot → ~20:0x ET) — `walter-09` session 2 · **TIER-2 FULL** · Will-ruled DEDICATED maintenance
+
+**Shape: the two surfaces that were over the read-cap budget got fixed, and both fixes turned up something the size problem was hiding.** Zero dispatches, zero kills, zero verify-spawns — architecture only, by Will's order (item 2 of the 8/31 work order; item 3, the named-check migration, deliberately NOT taken).
+
+- ⚠️ **CLOCK vs BRIEF, flagged not resolved:** Will's brief said *"Today is Tuesday 9/1"*; the box read **Mon 2026-08-31 19:15 EDT / 23:15Z**. All stamps written from the clock. `[[finding_write_timestamps_from_the_clock_not_the_narrative]]`
+- **`MEMORY.md` 47,219 → 12,327 B (145% → 37.9% of the 32,550 B BUDGET).** A **promotion pass**, not a fourth mechanical rotation — Will ruled that out and the criterion genuinely fails (5 of 29 findings name a mechanism; one is a false match on a digit-run). **All 30 Findings lines adjudicated to an owning surface, then removed.** 12 → `CHECKLIST` v0.39 + `FILTER_SPEC` v0.7 as dispatch-time law · **7 NEW auto-memory files** · **4 extensions** · rest already shipped/duplicated. The file is now a **trigger index**: 23 one-liners, each naming its executing surface.
+- **`IRAN_WAR.md` 26,555 → 21,438 B (81.5% → 66%).** Split ③, **by USE not by DATE**.
+- 🔴 **THE ANCHOR'S LEAD CONTRADICTED ITS OWN CURRENT ADDENDUM.** The 8/26 header said the pause *"EXTENDED through 8/25 to ~26 consecutive nights"* and told readers to consult ADDENDUM #21 before citing state — while ADDENDUM #22, in the same file, records the pause **BROKE 8/30** and re-derives it as **~32 nights (7/29→8/30)**. **Read-the-lead-and-stop returned a state the file itself refutes.** This is the concrete cost of a surface too big to re-read whole.
+- 🔑 **A DATE ROTATION WOULD HAVE BURIED A LIVE GUARD — which is exactly Will's stated 8/30 lesson, and it was load-bearing here.** The **`BZ=F` roll trap** lived ONLY in dated addenda #21/#22; the guard corpus had **zero** copies. Lifted to **`IRAN_WAR_GUARDS.md` ADD#23 BEFORE anything moved** (22 → 23 blocks). Two instances in four days; **the second printed the WRONG SIGN** (`BZ=F` −0.91% vs BZX26 **+2.92%** on 8/31) — crude recorded DOWN on the session the pause broke.
+- **Conservation PROVED both times: `split_verify.py` exit 0.** MEMORY needed **zero adjudication** — when it reported 5 lost lines (three of them the 8/30 rotation's OWN provenance), ⛔ **the fix was not to loosen `--edit-threshold`** but to preserve them verbatim. Anchor: 2 adjudicated in-place edits (block count 22→23, addenda range #1–#20→#21).
+- **Consumer sweep (Will's lesson #4): 4 live consumers corrected** — `CLAUDE.md` boot step 1 + the Iran guard line, `STATUS.md` three-files block, `design/STATE.md`. The block count moved **21 → 22 → 23 in 48 hours**, so `CLAUDE.md` now says to read it off the anchor's inventory heading rather than quote a number.
+- ⚠️ **Self-inflicted and recorded: the sweep pushed `STATUS.md` into rotate-tier, and each attempt to DOCUMENT the overshoot re-crossed the line** — a file cannot hold a stable quote of its own size. The figure is now deferred to `read_cap_check` instead of restated.
+- **Boot was clean:** doctor 0 HIGH / 1 MED (the standing unconsumed backlog, 195, down from 216). Corrections check rc=0. Lane live — **3 NEW breaches left UNROUTED and flagged to Will as out-of-scope**, incl. an `MU 2026-08-26 ['5.02','9.01']` → VULCAN.
+- **PROME packet filed** with the one item that has no WALTER home (the two-branch-test finding → `FORGE/PREDICTION_DISCIPLINE.md`, PROME-owned), the hot-index headroom flag (74.3%), and 3 COLD-tier promotion flags.
+
+---
+
 ## 2026-08-31 (Mon, 11:45 ET → ~18:0x ET) — `walter-09` boot in Will's window · **TIER-2 FULL closeout**
 
 **Shape: a routine Monday boot that walked into a live war escalation, and the highest-consequence thing on the board turned out not to have happened.**

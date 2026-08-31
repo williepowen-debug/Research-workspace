@@ -365,3 +365,17 @@ The 7/23 guard reads *"Kharg Island strike = **April 7**, MILITARY targets not t
 `gcaptain.com/iran-resumes-kharg-island-oil-loadings-after-us-blockade-lifted` is dated **2026-06-20** — an **earlier blockade cycle** — and ranks high on current-date queries. **There have been at least THREE Kharg halt/resume cycles in 2026** (≈May–Jun · 7/18–8/12 · the 7/31 operations halt). **Never cite a Kharg loading halt OR resume without its date and its cycle.** Current state as of 8/31: **halted 7/31, resumed 8/12, running at ~135k bpd vs 1.98m bpd in February — blockade-caused, not strike-caused.**
 
 ---
+
+## 🆕 ADD#23 — ⚠️ THE CONTINUOUS FRONT-MONTH TICKER ROLLS, SO ANY DELTA ACROSS A ROLL IS AN ARTIFACT (new class, 2026-08-31)
+
+*Registered as its own block because it had been living **only inside dated addenda** (#21's 8/28 tape correction and #22 ⑤). A date rotation would have sent both to history while the anchor, the board and Will's own boot brief still relied on the rule — the exact failure this corpus exists to prevent (`[[finding_live_claim_in_a_closed_container_is_invisible]]`). **Two instances in four days, and the second printed the WRONG SIGN.***
+
+**THE RULE: never compute a Brent delta off `BZ=F` across a contract roll. Quote NAMED contracts (`BZV26` / `BZX26` / `BZZ26`) whenever a change is being asserted, and state which contract the change is measured on.**
+
+**Instance 1 — 2026-08-27 → 08-28 (magnitude wrong).** `BZ=F` rolled Oct→Nov between the sessions: it tracked `BZV26` through 8/27 and `BZX26` from 8/28. The headline move printed **−1.98%**; like-for-like it was **~−0.75%** (BZV26 89.70→89.01 = −0.77%; BZX26 88.52→87.87 = −0.73%).
+
+**Instance 2 — 2026-08-31 (SIGN wrong, which is the dangerous form).** `BZ=F` rolled **again** and printed **−0.91%** on a day the named contracts printed **BZX26 $90.67 (+2.92%)** and **BZZ26 $88.46 (+2.72%)**. ⇒ **A reader taking the continuous ticker would have recorded crude DOWN on the session the strike pause broke, when it was up ~3%.** On a chokepoint-risk repricing that inversion is not a rounding problem — it inverts the entire read.
+
+⚠️ **WHY IT EVADES EVERY NORMAL CHECK:** the ticker is correct, the fetch succeeds, both endpoint values are real prints, and the series is continuous by construction. **Nothing is broken — the two endpoints just describe different instruments.** Freshness checks, source checks and reproducibility checks all pass clean. `[[finding_derived_metric_across_vintages_biases_toward_stale_leg]]` · `[[finding_continuous_front_ticker_rolls_so_deltas_lie]]`
+
+📌 **STATUS: the underlying `fetch.py` defect is FLAGGED TO PROME (shared FORGE surface, WALTER does not own it) — the date-label defect and this wrong-sign defect were taken as one family, structure item ⑯. UNTIL IT IS FIXED, NAMED CONTRACTS ARE THE ONLY QUOTABLE BRENT BASIS.** Confirmed live by Will at the 2026-08-31 boot brief.
