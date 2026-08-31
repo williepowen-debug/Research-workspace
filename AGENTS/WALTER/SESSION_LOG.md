@@ -1,4 +1,4 @@
-## 2026-08-31 (Mon, MIDDAY → ~16:5x ET) — `walter-09` boot in Will's window · **TIER-1 LIGHT** *(full deferred)*
+## 2026-08-31 (Mon, 11:45 ET → ~18:0x ET) — `walter-09` boot in Will's window · **TIER-2 FULL closeout**
 
 **Shape: a routine Monday boot that walked into a live war escalation, and the highest-consequence thing on the board turned out not to have happened.**
 
@@ -10,7 +10,10 @@
 - 📌 **Corollary the review did not reach: my own ADDENDUM #22 took the anchor 18,590 → 26,555 B — 57% of the post-split headroom in ONE session — pushing it over the rotation trigger.** The 9/30 re-trigger is no longer operative; the rotation is owed now.
 - **Also corrected:** the intake lane is **weekday-only BY DESIGN** (`cron: 0 15 * * 1-5`) — I had framed the weekend gap as a malfunction; it is a coverage-design question for Will. **`BOOT_PROTOCOL` §21** described the retired soft-cap rule while the code ran the ≥25-signal/30-day cadence rule. **Added the missing `**Updated:**` header** — WALTER was the one desk whose own staleness its own doctor could not measure.
 - **Numbering defect FLAGGED not fixed:** `BOOT_PROTOCOL` has two entries numbered **24**, drifted from the live check numbers. Renumbering touches identifiers cited from outside ⇒ RULE 8 proposal to Will.
-- Doctor 0 HIGH / 2 MED throughout. It caught **three defects in my own writes pre-commit** (stale TOTAL row, one missing and one malformed `corrects:`). Receipts `4b30bcbdb`, `a5dddfd3b`.
+- Doctor 0 HIGH / 2 MED throughout. It caught **three defects in my own writes pre-commit** (stale TOTAL row, one missing and one malformed `corrects:`).
+- **AFTERNOON, on Will's ruled order.** ① **AI_INFRA_CAPEX coherence review** (35d overdue, cleared): **KEEP** — limb (a) does not fire but has moved to the boundary (5 populated angles, was 4); limb (b) fires on **obsolescence alone, down from two**. 🔑 **`memory/input-cost` went 0–1 → 13** because the July *"empty in INTAKE not domain"* diagnosis was right, the prescribed lane fix shipped 7/30, and **6 of 7 sampled signals trace to the lane BY RULE** — diagnosis → fix → **measured recovery**. **Obsolescence's diagnosis CHANGED:** zero lane queries **and** zero registered thresholds — empty in intake *and* uninstrumented, while live in the world. ② The **doorbell converted end-to-end** — FALCON confirmed GATE 1 FIRM-NEGATIVE and drained 19/19 ~3h after the pointer. ③ Auto-memory: **1 new slug + 2 extended.**
+- ⚠️ **Two of my own framings were corrected by others today, both the same shape — I held the right information and quoted the convenient half:** the read-cap constant, and calling the weekday-by-design lane "asleep" when the doctor's own line said *"1 missed **weekday** run."*
+- Receipts `4b30bcbdb` · `a5dddfd3b` · `d3ce1bb18` · `71dc2ccfc` · `031064f34` · `596954728`.
 
 ---
 
