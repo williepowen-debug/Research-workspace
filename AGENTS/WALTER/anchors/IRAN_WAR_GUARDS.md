@@ -328,3 +328,40 @@
 - **"CEASEFIRE" IS STILL THE WRONG WORD AND STILL KILL-ON-SIGHT.** Several wires today — including a CNBC headline — describe a *ceasefire* expiring. **There was no ceasefire.** There was a 60-day MOU negotiation window, and a strikes PAUSE whose durability this file tracks separately. **Do not let the wire's vocabulary rewrite the record.**
 
 **⑥ THE REGIME QUESTION IS FALCON'S, AND THE EXPIRY MOOTS THE WORDING DISPUTE I RAISED ON 8/17.** FALCON's **Regime-D** watch line reads **"formal MOU collapse."** That line now has **two independent legs**: Iran's **formal repudiation 7/13** (`KB-FALCON-017`) and **expiry by term 8/17**. My `-20260817-014` asked whether the Supreme Leader invoking the MOU as *breached* trips a trigger whose text reads *formal MOU withdrawal*. **That question has been overtaken by an event that moots it: the MOU did not have to be withdrawn — it ran out.** **WALTER does not adjudicate the regime; FALCON owns it.**
+
+---
+
+## 🆕 ADD#22 — 🔴🔴 THE AI-GENERATED STATE-ACTOR ARTEFACT (new class, 2026-08-31) · the Kharg date-anchor AMENDED to name BOTH strikes · the Kharg "loadings resume" date trap
+
+<!-- NOT verbatim — new block authored 2026-08-31 at ADDENDUM #22. -->
+
+### ① 🔴🔴 NEW TRAP CLASS — **AI-GENERATED STATE-ACTOR ARTEFACT.** *Registered because it defeated this desk's standard defence.*
+
+**The event:** Sunday 2026-08-30, Trump posted *"Kharg Island being blown to smithereens"* on Truth Social **with an AI-generated explosion video attached.** **Reuters ran AI-detection software and established the clip as synthetically generated.** No strike occurred. NIOC: *"laughable… none of the ongoing work on Kharg has stopped."* It propagated into a fleet desk's committed artifact inside ~24 hours as *"Kharg Island reportedly targeted."*
+
+🔑 **WHY THIS IS A NEW CLASS AND NOT AN INSTANCE OF THE DATE TRAP.** The date trap is *a real event, correctly reported, at the wrong date.* **This was neither a resurfaced 4/7 event nor a real new strike.** It has no true event anywhere behind it.
+
+🔴 **AND IT DEFEATS "TRACE IT TO THE ORIGINATING SOURCE" — THE DEFENCE INVERTS.** Our standing rule says syndication ≠ corroboration, so trace the chain back to the originator. **Here the chain traces cleanly to a PRIMARY SOURCE: the President of the United States, posting in his own name, on his own platform.** Every step of our normal provenance discipline **passes**, and passing is what carries the claim forward.
+
+⇒ **THE RULE: on any extraordinary kinetic claim whose evidence is an IMAGE or a VIDEO, the artefact is evidence only once it has been AUTHENTICATED. Provenance to a primary actor RAISES its status; it does not SETTLE it.** A head of state is a primary source **for the fact that he said it** and is **not** a source for the event depicted.
+
+⚠️ **THE PRACTICAL TELL:** ask *"what would confirm this INDEPENDENTLY of the poster?"* — a CENTCOM/DoD release, dated satellite imagery, an operator or oil-ministry damage statement, a force-majeure declaration. **On 8/30 the answer was: nothing exists.** That absence, against a claim this large, **is itself the finding** — and it is checkable in minutes.
+
+⚠️ **INVERSE, which binds equally:** this guard is a false-negative risk the moment a real strike is posted about first by a state actor. **It says AUTHENTICATE, never DISMISS.** *(Method note above: check the world, not the guard.)*
+
+📌 **Related earlier instance, different mechanism:** the AFP-flagged decades-old sinking-tanker PHOTO recirculating (image-intake hazard, 7/23 block). **That was a REAL image at the wrong date; this is a SYNTHETIC image with no date at all.** Both are image-borne; only this one survives a provenance check.
+
+### ② ⚠️ AMENDMENT to the 7/23 block — **THE KHARG DATE-ANCHOR NAMES ONE STRIKE AND THERE ARE TWO**
+
+The 7/23 guard reads *"Kharg Island strike = **April 7**, MILITARY targets not the terminal (terminal loading normally, UANI)."* **That is correct and it did its job on 8/31.** But it is incomplete:
+
+- **2026-03-13** — USAF raid; CENTCOM: *">90 Iranian military sites"* incl. naval mine storage and missile bunkers. **This is the one Wikipedia canonicalises as "2026 Kharg Island attack" and the one a current-date search surfaces FIRST.**
+- **2026-04-07** — second strike, *">50 military targets"*; US official: **did not target oil facilities.**
+
+⇒ **Read the anchor as: "Kharg Island strikes = 2026-03-13 AND 2026-04-07, BOTH military-target-only with oil/gas infrastructure deliberately spared."** 🔑 **A KHARG STRIKE HAS NEVER YET BEEN A FAL-01 EVENT** — so *"Kharg was hit"* does **not** imply the terminal, and the terminal-vs-military distinction must be made explicitly every time before FAL-01 is even considered.
+
+### ③ ⚠️ THE KHARG "LOADINGS RESUME" DATE TRAP
+
+`gcaptain.com/iran-resumes-kharg-island-oil-loadings-after-us-blockade-lifted` is dated **2026-06-20** — an **earlier blockade cycle** — and ranks high on current-date queries. **There have been at least THREE Kharg halt/resume cycles in 2026** (≈May–Jun · 7/18–8/12 · the 7/31 operations halt). **Never cite a Kharg loading halt OR resume without its date and its cycle.** Current state as of 8/31: **halted 7/31, resumed 8/12, running at ~135k bpd vs 1.98m bpd in February — blockade-caused, not strike-caused.**
+
+---
