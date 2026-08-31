@@ -107,6 +107,38 @@ def _git_last_commit_date(relpath: str) -> dt.date | None:
 _UPDATED_RE = re.compile(r"(?i)\b(?:last\s+)?updated\b[\s:*]*?(\d{4}-\d{2}-\d{2})")
 
 
+def _agent_paths(agent: str) -> "tuple[str | None, str]":
+    """Resolve (status_relpath | None, dir_relpath) for a registry agent.
+
+    Most desks live at AGENTS/<NAME>/. PROME does NOT: its home is PROME/ at the
+    repo root, and root CLAUDE.md forbids recreating AGENTS/PROME/. Every registry
+    check hardcoded the AGENTS/ prefix, so the coordinator -- the desk that commits
+    most often -- could never raise a lag flag however stale its row got. Found
+    2026-08-30 with PROME's row FOUR of its sessions stale and registry_lag printing
+    its all-clear line.
+
+    The mechanism is worse than "invisible", and a positive-control probe against the
+    pre-patch code is what corrected the first diagnosis (which said `uncheckable`):
+    AGENTS/PROME/ HAS commit history -- from the accidental recreations root CLAUDE.md
+    warns about ("silently regrows"; twice in 8/27-8/28). So the dir fallback resolved,
+    and PROME was graded against the commit dates of an erroneously-recreated directory,
+    landing in the `dir_only` INFO bucket that is explicitly "NOT flagged". A wrong
+    referent inside a bucket that cannot escalate -- clean scan, wrong object.
+    [[finding_instrument_reports_clean_against_the_wrong_reference]]
+
+    Resolved by LOOKING rather than by naming PROME, so a future root-level desk is
+    covered without another edit. Returns status_relpath=None when neither location
+    has a STATUS.md (RAV/DARWIN/BARON/HERMES/DEWEY as of 8/30) -- those keep the
+    existing dir-fallback/uncheckable handling, which is correct for them."""
+    nested = REPO / "AGENTS" / agent / "STATUS.md"
+    if nested.exists():
+        return f"AGENTS/{agent}/STATUS.md", f"AGENTS/{agent}/"
+    root = REPO / agent / "STATUS.md"
+    if root.exists():
+        return f"{agent}/STATUS.md", f"{agent}/"
+    return None, f"AGENTS/{agent}/"
+
+
 def _status_header_date(agent: str) -> "dt.date | None":
     """The agent's OWN self-declared last-update date — the first date directly
     after an 'Updated:' / 'Last Updated:' marker in the first ~25 STATUS.md lines.
@@ -114,9 +146,11 @@ def _status_header_date(agent: str) -> "dt.date | None":
     merely touched the file (the registry_lag false-positive class, e.g. the 6/19
     REGINALD CORAL-promotion ref-sweep). Returns None if no canonical marker is
     found — caller then falls back to commit-date logic (no regression)."""
-    p = REPO / "AGENTS" / agent / "STATUS.md"
+    rel, _ = _agent_paths(agent)
+    if rel is None:
+        return None
     try:
-        head = p.read_text(errors="replace").splitlines()[:25]
+        head = (REPO / rel).read_text(errors="replace").splitlines()[:25]
     except OSError:
         return None
     for line in head:
@@ -404,14 +438,14 @@ def check_registry_lag():
     for agent, tier, updated in _registry_rows():
         if updated is None:
             continue
-        status_exists = (REPO / "AGENTS" / agent / "STATUS.md").exists()
-        commit = _git_last_commit_date(f"AGENTS/{agent}/STATUS.md") if status_exists else None
+        status_rel, dir_rel = _agent_paths(agent)
+        commit = _git_last_commit_date(status_rel) if status_rel else None
         if commit is None:
             # No (current) STATUS.md → a dir-level commit is an unreliable proxy:
             # it catches cross-agent / bulk commits that merely touched the dir
             # (e.g. DARWIN's "4/30" was a HANS/MARCO-STATUS + memory-log commit).
             # Surface as INFO, never let it drive a MED/LOW lag flag.
-            dcommit = _git_last_commit_date(f"AGENTS/{agent}/")
+            dcommit = _git_last_commit_date(dir_rel)
             if dcommit is None:
                 uncheckable.append(agent)
             elif (dcommit - updated).days >= 3:
