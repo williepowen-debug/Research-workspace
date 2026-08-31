@@ -42,6 +42,7 @@ Checks:
   terry_override_ratio   S1 — TERRY inverted-token override ratio (90d/10%/n≥10) + the 72h revert falsifier
   filed_vs_consumed      S7 — processed/ moves without a consume:<AGENT> declaration are FILED, not CONSUMED (§5.1)
   entities_at_dispatch   `entities:` header present on every signal dated ≥2026-08-19 (FORMAT_SPEC v0.18, never retro)
+  auto_load_budget       CLAUDE.md's UNCONDITIONAL auto-load cost vs the read cap (read_cap_check cannot see it)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -999,12 +1000,26 @@ def check_claude_md_version_drift():
     with `vN.M`. Historical 'feature X landed in FORMAT_SPEC v0.8' provenance (the
     CANONICAL-SOURCE table — filename in one cell, version in another) is deliberately
     NOT matched, so the check stays low-noise (a noisy check gets ignored)."""
+    # THE TABLE MOVED (2026-08-30). KEY DESIGN FILES + CANONICAL-SOURCE LOOKUP were split
+    # to design/SPEC_OWNERSHIP.md to get the always-loaded CLAUDE.md under the read cap
+    # (75,296 -> 51,121 B). This check greps for table ROWS, so after the move it matched
+    # nothing and reported "version claims match spec headers" — a VACUOUS PASS. It was
+    # not verifying anything; it had run out of things to verify and said OK.
+    # ⇒ Scan BOTH files, and FAIL LOUD when zero claims are found anywhere: a check that
+    # finds nothing to check must say so, never pass. Silence and success must not render
+    # identically. [[finding_verification_zero_is_ambiguous]]
     from version_drift_check import SPECS, spec_version
-    try:
-        claude = (WALTER / "CLAUDE.md").read_text(errors="replace")
-    except OSError:
-        return [(LOW, "CLAUDE.md unreadable — skipped")]
-    out = []
+    srcs, missing = [], []
+    for fn in ("CLAUDE.md", "design/SPEC_OWNERSHIP.md"):
+        try:
+            srcs.append((fn, (WALTER / fn).read_text(errors="replace")))
+        except OSError:
+            missing.append(fn)
+    if not srcs:
+        return [(MED, f"neither CLAUDE.md nor design/SPEC_OWNERSHIP.md readable "
+                      f"({', '.join(missing)}) — version claims UNVERIFIED, not clean")]
+    claude = "\n".join(t for _, t in srcs)
+    out, claims = [], 0
     for rel in SPECS:
         base = Path(rel).name
         hv = spec_version(WALTER / rel)
@@ -1013,11 +1028,19 @@ def check_claude_md_version_drift():
         # | `design/<base>` | **vN.M ...  — filename in cell-1, version leads cell-2
         m = re.search(rf"^\|\s*`?[^|]*{re.escape(base)}[^|]*`?\s*\|\s*\*{{0,2}}v(\d+\.\d+)",
                       claude, re.M)
-        if m and m.group(1) != hv:
-            out.append((MED, f"CLAUDE.md KEY DESIGN FILES row cites {base} at v{m.group(1)} "
-                            f"but spec header is v{hv} — update the boot doc"))
-    if not out:
-        out.append((INFO, "CLAUDE.md KEY-DESIGN-FILES version claims match spec headers"))
+        if m:
+            claims += 1
+            if m.group(1) != hv:
+                out.append((MED, f"KEY DESIGN FILES row cites {base} at v{m.group(1)} "
+                                f"but spec header is v{hv} — update the owning doc"))
+    if claims == 0:
+        out.append((MED, "ZERO KEY-DESIGN-FILES version claims found in CLAUDE.md or "
+                         "design/SPEC_OWNERSHIP.md — the table moved, was renamed, or its "
+                         "row format changed. This is NOT a pass: the check has nothing to "
+                         "verify. Re-anchor it to wherever the table now lives."))
+    elif not out:
+        out.append((INFO, f"KEY-DESIGN-FILES version claims match spec headers "
+                          f"({claims} claim(s) checked across {len(srcs)} file(s))"))
     return out
 
 
@@ -2038,6 +2061,51 @@ def check_entities_at_dispatch():
     return out
 
 
+
+def check_auto_load_budget():
+    """THE COST NO READ-CAP INSTRUMENT WAS MEASURING (added 2026-08-30).
+
+    scripts/read_cap_check.py enumerates the files a BOOT STEP names — it opens
+    CLAUDE.md to find those 'read X' lines and never weighs CLAUDE.md itself. But
+    CLAUDE.md is loaded UNCONDITIONALLY, on every session, before boot step 0 runs:
+    it is the one read no branch can avoid, and it was the largest single surface on
+    the desk (75,296 B = 139% of the cap) while every read-cap report said nothing.
+
+    ⇒ The perimeter of a budget check is a CHOICE, and anything outside it is not
+    'compliant', it is UNMEASURED. A file can be the biggest cost on the desk and
+    absent from the report that ranks costs. [[finding_instrument_reports_clean_against_the_wrong_reference]]
+
+    SCOPE — only AGENTS/WALTER/CLAUDE.md is WALTER's to fix. Root CLAUDE.md and the
+    fleet auto-memory index are PROME-owned; they are REPORTED (they are real cost on
+    every WALTER session) but never graded against WALTER, per the flag-don't-commit rule."""
+    cap, budget = 54_250, 32_550
+    own = WALTER / "CLAUDE.md"
+    others = [(REPO / "CLAUDE.md", "root CLAUDE.md (PROME-owned)"),
+              (Path.home() / ".claude/projects/-home-willi-Research-workspace/memory/MEMORY.md",
+               "fleet auto-memory index (PROME-owned)")]
+    try:
+        n = own.stat().st_size
+    except OSError:
+        return [(LOW, "AGENTS/WALTER/CLAUDE.md unreadable — auto-load cost UNMEASURED, not clean")]
+    parts, total = [], n
+    for p, label in others:
+        try:
+            b = p.stat().st_size
+            total += b
+            parts.append(f"{label} {b:,} B")
+        except OSError:
+            parts.append(f"{label} unreadable")
+    detail = (f"WALTER CLAUDE.md {n:,} B = {n*100//cap}% of the {cap:,} B cap "
+              f"({n*100//budget}% of budget) · unconditional total with "
+              f"{' + '.join(parts)} = {total:,} B = {total*100//cap}% of cap")
+    if n > cap:
+        return [(MED, f"AUTO-LOAD OVER THE CAP — {detail}. This loads on EVERY session before "
+                      f"boot step 0 and no read-cap run will show it. Move incident history to "
+                      f"design/BOOT_PROTOCOL.md; keep action/condition/failure/pointer.")]
+    if n > budget:
+        return [(LOW, f"auto-load over budget (under cap) — {detail}")]
+    return [(INFO, f"auto-load within budget — {detail}")]
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -2069,6 +2137,7 @@ CHECKS = [
     ("terry_override_ratio", check_terry_override_ratio),
     ("filed_vs_consumed", check_filed_vs_consumed),
     ("entities_at_dispatch", check_entities_at_dispatch),
+    ("auto_load_budget", check_auto_load_budget),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
