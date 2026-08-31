@@ -55,3 +55,4 @@
 | **L-41** | 2026-08-28 | Pre-register the COMPUTATION and freeze the distribution, not just the boundary — and write the expected value into the dry run, or a plausible failure passes as a pass. |
 | **L-42** | 2026-08-28 | An over-cap surface loses whatever convention puts LAST — for STATUS files that's the summary; measure the dropped bytes, never assume them. |
 | **L-43** | 2026-08-28 | The exchange's clock is not the vendor's clock — "settled at 13:30" can be true while the feed has no settle at all; verify STATIC, not just closed. |
+| **L-44** | 2026-08-31 | "Converged" seen on a live feed is a claim about the INTRADAY series — the DAILY bars can still close on different contracts, and that split contaminated a published both-bases margin. |

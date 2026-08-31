@@ -346,3 +346,8 @@ Round 1's correction opened a hole; round 2 filled it with data. **M1 v2** (THES
 
 **▶ NOTHING OWED UNTIL MONDAY.** Friday = market legs only.
 
+---
+
+**2026-08-28 CLOSEOUT (orch, four touches).** MIDAS-06 provisional **(d)**; **COT #3 falsifier FIRED against me** (net/OI 56.86%, Δ+2.17pp vs a boundary pre-registered four hours early); **there is no vendor settle** (KB-088/L-43); **Pd +4.72σ, rank ~2 of 666, NOT confirmed for want of a settle**; STATUS rotated **55,838 → 30,009 B, READ-CAP 0**; 11 inbox items drained, inbox 0; `board_log.tsv` opened + §8.1 boot-step installed; `grade_cot3.py` / `settle_check.py` / frozen COT distribution built. **New: KB-079…091, L-39…L-43.** ⚠️ **Own error recorded: I filed six WALTER signals before reading them, on a "consumed" framing that did not match my own ledger — read and logged after the fact.** Zero capital, no score/band/threshold/frozen-letter moved, composite **7/20**.
+
+---
