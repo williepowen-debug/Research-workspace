@@ -1,6 +1,6 @@
 # FORGE — Full Portfolio Snapshot
 
-> **SUPERSEDED 2026-05-21** — Current position state is in `FORGE/STATUS.md` (reconciled against 5/21 Fidelity CSV + SAM TRADE.md v1.4). This Feb 19 snapshot is retained as **historical reference only**. Do not use for live position state. ~22 equity positions listed below have since been closed (see `_archive/JOURNAL.md` reconstruction-gap entry for the partial trim list).
+> 🧊 **FROZEN historical snapshot — SUPERSEDED 2026-05-21 for live position state** (token aligned to root canon 2026-08-30, WQ-137; both facts kept deliberately). Current position state is in `FORGE/STATUS.md` (reconciled against 5/21 Fidelity CSV + SAM TRADE.md v1.4). This Feb 19 snapshot is retained as **historical reference only**. Do not use for live position state. ~22 equity positions listed below have since been closed (see `_archive/JOURNAL.md` reconstruction-gap entry for the partial trim list).
 
 **Last Updated:** 2026-02-19 (from TRADING.md migration)
 
