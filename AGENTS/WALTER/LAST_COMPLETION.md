@@ -59,6 +59,7 @@
 - **3 lane breaches were left UNROUTED on purpose** (out of your ruled scope) and are **NOT `--mark`ed**, so they re-present as fresh onsets. The one worth a look is **`MU 2026-08-26 ['5.02','9.01']` → VULCAN** — Item 5.02 is officer/director departure at a memory maker in the middle of the AI-capex thread.
 
 ## GAPS (WALTER-facing)
+- 🔴 **CORRECTION TO THIS SESSION'S OWN HEADLINE — `READ-CAP 0` IS A SCOPED VERDICT AND I QUOTED IT AS "CLEAR."** `read_cap_check --agent WALTER` measures **9 files**. Boot step 6b also mandates reading **`AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` — 45,248 B = 139% of the 32,550 B budget** — and that file is in **NEITHER** WALTER's nor RED's perimeter (RED's check measures 5 files and does not include it). **A 139%-of-budget mandated read is measured by nobody.** Cause is structural: the tool builds its perimeter from the OWNING agent's boot section, so a cross-agent mandated read is invisible to both ends. **The tool printed its perimeter in its own header and I read past it — the same half-quoting error as 8/30, found the same night I promoted the finding about it.** Packet filed to PROME (`2026-08-31b_from-WALTER_...`). ⚠️ **`BOARD/INDEX.md` (1.6 MB) is NOT a breach — step 7 says "Scan … cluster ToC first," a scoped read with the mitigation in the step.**
 - **`ROUTING_TABLE.md` 31,764 B · `REGISTRY.tsv` 26,499 B · `STATUS.md`** all sit in **ROTATE-TIER** (≥75% of budget, under it). **Breaches 0 — "zero breaches" is not "clear."**
 - **`MEMORY_PROMOTED.md` is now 85,602 B.** Not a boot read, so not a cap issue — but it is the archive everything now points at, and nothing measures it.
 - 647 pre-Aug signals' unknown defect rate · `TARIFF_TRADE` has no registered trigger · §3.5.6 pull-complete blind spot (3 options tabled, none ratified) · notes still carry **no delivery telemetry**.
@@ -66,6 +67,7 @@
 - 3 doctor `action_line_rule` LOWs unresolved (SIG-...819-007 MARCO · 819-019 HOMER · 828-040 HENRY).
 
 ## FOLLOW-UP
+0. 🔴 **Quote `READ-CAP n` WITH ITS FILE COUNT, always.** And carry the RED trigger-registry finding until PROME rules on whether a cross-agent mandated read belongs in the READER's perimeter (my view) or the OWNER's. **RED is dark and was deliberately NOT doorbelled** — nothing decays before it boots, the triggers stay readable, and a 00:2xZ doorbell on a hygiene finding is an over-doorbell. Considered decline, not an oversight.
 1. 🔴 **Work-order item 3 — NAMED-CHECK MIGRATION + `BOOT_PROTOCOL` §21 cleanup.** Will ruled **named checks rather than renumbering**, which dissolves the duplicate-`24` ambiguity instead of relabelling it. **The next session's headline job.**
 2. 🔴 **Route or explicitly kill the 3 unrouted lane breaches**, then `intake_scan.py --mark`.
 3. **Chase, don't re-ask:** ZHAO (9/08 dependency) · WATT · VULCAN · SAM · CREED.
