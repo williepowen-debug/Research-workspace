@@ -58,9 +58,31 @@
 
 ## Session Notes
 
-⚠️ **Open question:** the sweep found the desk's *correction passes* are where its defects now originate — 8/23 reported "37.6% retracted across all local surfaces" and "mirror drift fixed" while missing 4 surfaces **and a second hit inside a file it had just edited**, and its MEMORY write turned a correct 7/04 finding into a false one that closed a live research path. Three sweeps (7/6, 8/7, 8/23) each fixed the previous one's misses and each introduced or left its own. **What is the check that a correction pass has actually landed?** "I swept it" is exactly the claim that has now failed three times, and the desk has no instrument for it — a completion claim is currently self-certified. *(Candidate: the sweep-report + file:line list produced today is auditable by a third party in a way "RETRACTED across all local surfaces" never was. Untested.)*
+⚠️ **Open question:** carried from 8/28 — what is the check that a correction pass has actually landed? A completion claim is still self-certified. *(This session's partial answer, untested at scale: the 8/31 sweep wrote a per-instrument assertion ledger — claim/artifact/command/observed/token — BEFORE any surface claimed "swept"; a third party can re-run every row.)*
 
 **CHANGES SINCE:** *(leave blank — next boot populates via boot.py)*
+
+### LAST SESSION (2026-08-31 — PROME-orchestrated touch: IQHQ Aug-window close-day disclosure sweep + inbox drain)
+
+- **The owed August check ① RAN on the window's last business day: SWEPT AND EMPTY.** FDIC-FLNG cert-110 full list (182 filings): **zero Aug-2026 filings except the 8/5 Q2'26 10-Q** [VERIFIED]; that 10-Q pulled (`raw/Q2_2026_10Q.pdf`, 69pp, text-extractable) and keyword-checked clean on IQHQ/RaDD/life-sci/subsequent-event; press ×3 SEARCH-NOT-FOUND (Jun-2024 "two-year extension" trap resurfaced a 3rd time, discarded on vintage); SD-recorder leg UNKNOWN, never checked. **Said "swept, nothing found" everywhere — never "silence."** Ledger → `research/threads/IQHQ_AUG_WINDOW_CLOSE_SWEEP.md`.
+- **Zero grades/thresholds/weights/conviction moved** — quiet close is the v1.5 pre-registered path; frozen Option-2 ruling means it resolves nothing (OZK-09 45%, window runs through Q4'26 print). Carrying instrument → **Q3 call ~Oct**.
+- **WAL pinged** (packet in `AGENTS/WAL/inbox/`, carve-out ①): swept-and-empty ≠ unswept; their NO-VERDICT band applies.
+- **Inbox drained 2/2** (WALTER -005 bank-failure count, -032 Polymarket resolution-rule — both info-tier, no OZK threshold touched, no reply owed) → `inbox/WALTER/processed/`.
+- STATUS/CALENDAR written back; both price tokens synced ($48.94 live 8/31 14:46 ET). PROME report in `outbox/`; HEARTBEAT §7 staleness flagged to PROME (report-only).
+
+### NEXT SESSION
+
+1. **⭐ S4 — READ the Q2'26 10-Q, now local** (`raw/Q2_2026_10Q.pdf`; this session pulled it and keyword-checked only). The Q1 read produced the pillar; the Q2 one is unread.
+2. **🔴 Owed check ② — Campus-at-Horton leasing** (window passed late Jul; still UNRUN, no severity number moves until it runs).
+3. S1 — re-derive SEVEN_CREDIT's $150-300M reserve build off Q2 migration evidence (still single-supported).
+4. S2 — refresh LIFE_SCI / GEOGRAPHY / INSIDERS STATUS against Q2. S5 — insider EFR re-pull (cert #110; 56d since 7/6).
+5. S3 — $87M IQHQ date reconcile (KB-OZK-086). S7 — KB_INDEX rollups 218–229. S8 — CALENDAR RESOLVED prune, row-by-row (pending-event carve-out).
+6. S9 → PROME (re-flagged 8/31): STATUS 31,306 B + MEMORY ~31 KB, both ~96% of read-cap — rotation is PROME's, do not self-compact.
+7. Carried: P-OZK-1/4/5 Will-gated · broker-export confirm of the $0 settle · Bluerock TI+ NAV mark · ⏰ FFIEC JWT expires 2026-11-05 (Will-action; Q3 pull ~Nov 1-10 straddles it).
+
+⛔ **Standing:** D1/OZK-salvage is **RULED-CLOSED.** Do not re-present, re-litigate or propose a successor. Any future OZK expression is a **new** trade — TERRY-built, Will-gated.
+
+<details><summary>Prior session notes (2026-08-28 — Will-directed data-integrity sweep)</summary>
 
 ### LAST SESSION (2026-08-28 — Will-directed data-integrity sweep, executed end-to-end)
 
@@ -75,19 +97,6 @@
 
 ✅ **PUSH RESOLVED (2026-08-28) — and the record of it decayed inside 5 minutes, which is the session's own lesson firing on itself.** `safe-push` aborted non-ff (BRENT concurrent). I deliberately did NOT autostash-rebase — the tree held **14 uncommitted files from four live desks** (DAEDALUS · HANS · REGINALD · `scripts/ledger_staleness.py`) — and took root protocol **Option B: commit locally, defer the push**, writing "3 commits pending" here. **Minutes later all three were on origin**: another desk's closeout push swept them, exactly as the push-train is designed to. ⚠️ **The hash MOVED in the sweep** — `be498aa20` → `73f61d18e` — so the three were confirmed **by SUBJECT, not by hash**, which is precisely why that rule exists. **All OZK work for this session is on origin, verified.** ⚠️ Note the shape: a correctly-written, correctly-dated status line went stale in ~5 minutes because the thing it described was resolved by someone else. Same class as everything this sweep fixed — **a status claim is only true as of its write**, and deferring a push is a claim about the world, not about your repo.
 
-### NEXT SESSION
+*(The 8/28 NEXT-SESSION queue is superseded by the 8/31 one above: ① discharged 8/31 swept-and-empty; S4 unblocked with the 10-Q now local; the WALTER-lane inbox warning discharged — both items drained 8/31.)*
 
-*(Rewritten at true closeout 2026-08-28 ~15:0x ET. The first draft of this block was written BEFORE the closeout checks ran, and was already stale by three items when Will asked "did you run the full closeout" — the answer was no. Fixed here, and the staleness is itself this session's theme.)*
-
-1. **🔴🔴 The two owed August checks — the IQHQ window CLOSES Mon 8/31 (today is Fri 8/28; ~1 business day left).** ① 8-K / press / FDIC-FLNG disclosure sweep; ② Campus at Horton leasing. ⚠️ **Nothing anywhere claims "August passed quiet" and nothing may until ① runs** — the desk holds only a CALENDAR negative. ⚠️ **WAL has encoded a hard "record NO August outcome until OZK pings"** and explicitly distinguishes *unswept* from *swept-and-empty*, so this is load-bearing for two desks. **If ① runs and finds nothing, say "swept, nothing found" — never report it as silence.**
-2. **⭐ S4 — pull and read the Q2'26 10-Q** (FDIC, cert #110). Newly unblocked by today's retraction; the Q1 one produced the pillar and nobody has looked at the Q2.
-3. **S1 — re-derive SEVEN_CREDIT's $150-300M reserve build** off Q2 migration evidence directly, retiring the dead ratio as an input. **Currently single-supported and un-recomputed** — the note says so, but it is still a live number on one leg.
-4. **S2 — refresh LIFE_SCI / GEOGRAPHY / INSIDERS STATUS against Q2.** Vintage-flagged today; **flagging is not refreshing.** PRIVATE_CREDIT is genuinely done (pillar + RIAD5409).
-5. **S3** — reconcile the $87M IQHQ date (3 dates, 2 roles, KB-OZK-086). **S5** — insider re-pull (FDIC EFR cert #110, 53d since 7/6). **S7** — KB_INDEX group rollups **218–229** *(debt predates me and this session GREW it)*. **S8** — CALENDAR RESOLVED prune, row-by-row against the open queue *(declined at closeout with cause: pending-event carve-out)*.
-6. **S9 → PROME, not self-executed:** `MEMORY.md` (30.9 KB) and `STATUS.md` (30.6 KB) sit at **~95% of the 32,550 B read-cap budget**, rotate-tier — **this session pushed them there.** Rotation method is the owner's choice; the number is not. Do not self-compact (7/28 ruling).
-7. **✅ CLOSED today, do not re-do:** S6 (DAEDALUS replied twice, ACK'd — rule 8 shipped fleet-wide at `2f8846050`, re-verified here on 3 fixtures) · P-OZK-2 (ruled + encoded) · PAT-025 lift (recorded with provenance) · WAL's two corrections · the 4 inbox packets (filed).
-8. **Carried:** P-OZK-1/4/5 still Will-gated via PROME · broker-export confirm of the $0 settle · Bluerock TI+ NAV mark · **⏰ FFIEC JWT expires 2026-11-05, Will-action, and the Q3 Call Report window (~Nov 1-10) straddles it.**
-
-⚠️ **Unprocessed inbox:** `inbox/WALTER/SIG-W-20260828-005` (fifth US bank failure 2026, Tioga Franklin — "the RATE is the datum, not the size"). **Note the subdirectory** — a top-level `inbox/*.md` scan misses the WALTER lane entirely, which is how a peer's next-step pass missed it today. Glob `inbox/**/*.md`.
-
-⛔ **Standing:** D1/OZK-salvage is **RULED-CLOSED.** Do not re-present, re-litigate or propose a successor. Any future OZK expression is a **new** trade — TERRY-built, Will-gated.
+</details>
