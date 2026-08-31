@@ -73,19 +73,21 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-08-28 Fri EVENING — Tier-2 FULL, post-`/clear` re-boot; boot ~20:41Z → close 2026-08-29T00:5xZ = Fri 20:5x ET)
-- **BOARD 836 → 849.** 13 dispatches across **three** Will-Telegram batches (BM-05/06/07): **30 inputs declared, 30 dispositioned, zero undeclared.** 7 dispatch / 2 kill / 3 dup on BM-06; **BM-07 was 10-for-10 already covered, ZERO dispatches.**
-- **🔑 THE DOORBELL CLOSED A 15-DAY GAP IN ONE EVENING — first end-to-end success.** `-041` → SHADE + BROCK → PROME triage ② → Will's word → **both spawned, both to FULL CLOSEOUT.** SHADE's STATUS names `-041` as its trigger.
-- **🔴 PROME's triage held better reasons than my gate did** — refuted my one-session fold on **§3.5.2 (my own spec)** and supplied dated referents I never had. **My gate passed on the WEAKER leg.** Annotated onto both PASS rows; promoted to auto-memory `finding_gate_pass_is_not_evidence_it_found_the_best_reason`.
-- **21 doctor `registry_lag` MEDs cleared** (23 rows at boot, 6 more at closeout). CARL ORANGE→RED and CREED YELLOW→ORANGE were substantive, not date-only.
-- **`batch_manifest.py` allocator fixed** — `max(ledger, manifest-file)` replacing a row **count**; PROME asked about one defect, the expression held **two**. Regression-tested both; first live run correct.
-- **Boot 6b/6c: HANS-T 12→14 rows, 5→6 scannable-daily** — the omitted `T-13` is 20bp from its band. The line's own "count, never hardcode" warning caught its author.
-- **Two DEWEY commissions filed + registered**; **STATUS 40,867→20,279 B** (SESSION_LOG verified to hold the superseded narrative *before* the cut); **REGISTRY 33,057→25,167 B, now under the P1 budget.**
+### CHANGES SINCE LAST SESSION (2026-08-30 Sun EVENING — Tier-2 FULL; boot ~02:46Z → close 2026-08-31T03:5xZ = Sun 23:5x ET)
+- **ZERO dispatches — BOARD stays 849.** Architecture session on Will's direction ("clean up WALTER's bloat"), run against a Codex diagnosis with a Codex/PROME review loop. **12 commits.**
+- **Boot-read path 657,525 → 160,315 B (−76%); hard-cap violations 4 → 0.** `IRAN_WAR.md` 263,371→18,590 · `ROUTING_TABLE.md` 121,557→31,764 · `MEMORY.md` 79,596→46,327 · `CLAUDE.md` 75,296→51,152. Nothing deleted — every cut is a split with a line-multiset conservation proof.
+- **Boot find: `RED-FT-10` (SKEW ≥150 s=4) at 149.77 — 0.23 away, nearest on the fleet board, never fired.** Near-trigger watch only. `fetch.py` mislabelled its date by one session (value right); **flagged to PROME, shared FORGE surface.**
+- **New:** `tools/split_verify.py` (v3, fail-closed) · doctor check #31 `auto_load_budget` · `ROUTING_CARVEOUTS` companion versioning · 5 new content files (GUARDS / CARVEOUTS / SPEC_OWNERSHIP / MEMORY_PROMOTED / ROUTING version history).
+- **Fixed `walter_doctor` `registry_lag`'s blind spot on PROME** — its STATUS lives at `PROME/STATUS.md`, outside the `AGENTS/*/` scan, so the desk that commits most could never raise a lag flag. Root cause was worse than invisible: `AGENTS/PROME/` **has** commit history from the accidental regrowths root `CLAUDE.md` warns about, so it was being graded against a dead tree.
+- **Answered PROME's EIA lane-gap ASK at the artifacts → Will ruled it LIVE (WQ-141)** at my amended priority `low`.
+- **New auto-memory** `finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction` (hot index 71%, under the 75% trip line).
 
 ### NEXT SESSION
-1. 🔴 **THE ANCHOR SPLIT is the top item** — `anchors/IRAN_WAR.md` at **485% of the read cap**. Rotate addenda verbatim to HISTORY and **leave a DATED RE-TRIGGER, not a leanness claim**: the 6/28 header still asserts leanness over an 818-line body, which is precisely what let it reach 485%. Then **rewrite boot step 1 to say what is actually read.**
-2. **AI_INFRA_CAPEX coherence review** — 32d overdue, 67 signals, and today's three additions contradict each other. Natural front end to `REQ-DEWEY-20260829-001`.
-3. **Doorbell soak** — now has 10 fresh rows (2 PASS / 8 FAIL) **plus the first end-to-end success**. ⚠️ Read the PASS annotations: one passed on its weaker leg. v1/v2 still do not pool.
-4. **Chase, don't re-ask:** ZHAO CXMT-in-bits (~40d, now a DEWEY input) · SAM JP30Y stamp · HOMER FHA level · CREED cold-storage scope · WATT ERCOT discriminator.
-5. **Iran re-verify ~9/2.** "Ceasefire" is still circulating in the wild — killed once tonight.
-6. **Close `REQ-DEWEY-20260829-001/002` ledger rows on delivery** — mine, not DEWEY's.
+1. 🔴 **`MEMORY.md` PROMOTION PASS — the last read-cap residue** (46,327 B = 85% of cap, under the cap, no headroom). **Do NOT attempt a fourth mechanical rotation:** I tested this file's own criterion (*"hunt entries whose fix has SHIPPED"*) and it is **not mechanically detectable** — only 5 of 29 findings name a mechanism and one of those is a false match on a digit-run (`§6241` inside "252.4M"). The real move is adjudicating each remaining finding to its owning `design/` spec or to auto-memory, then removing it here. Judgment work; give it a fresh session.
+2. **AI_INFRA_CAPEX cluster coherence review — now 34d overdue, 70 signals**, and one of only two standing doctor MEDs. Natural front end to `REQ-DEWEY-20260829-001`.
+3. **The fleet unconsumed backlog** — 49 >2d / 9 ACTION, oldest **ZHAO ~42d**. The other standing MED; nothing consumed over the weekend.
+4. **`RED-FT-10` SKEW 0.23 from firing.** Re-pull before quoting any distance — and **never publish a distance without its print date**; `fetch.py` mislabelled this one by a session.
+5. **Owed to others:** the **WQ-141 4-week routable-fraction report (~2026-09-27)** — I declared the low-volume claim a PRIOR, not a measurement, and owe the count · close `REQ-DEWEY-20260829-001/002` ledger rows on delivery (mine, not DEWEY's; deadlines 9/08, 9/15).
+6. **Iran re-verify ~9/2** or on a US accept/reject of the interim framework. Anchor is now three files — read `IRAN_WAR.md` at boot, `IRAN_WAR_GUARDS.md` pre-dispatch, `IRAN_WAR_HISTORY.md` never at boot.
+7. **Flagged to PROME, not mine to fix:** `fetch.py` date-label defect · auto-memory index has 1 DOUBLE-LISTED slug + 3 EMBED-PENDING stale >14d.
+8. **All six splits carry a dated re-trigger: NEXT MANDATORY CHECK 2026-09-30.** `stat` them at Tier-2; re-split above budget. **Never replace a re-trigger with a leanness claim** — that is exactly how the 6/28 anchor split failed.

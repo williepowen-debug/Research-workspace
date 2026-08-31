@@ -1,24 +1,23 @@
 # WALTER — LAST COMPLETION
 
-**Session:** 2026-08-28 **Fri EVENING** → closed 2026-08-29T00:5xZ (**= Fri 20:5x ET**; both clocks stated, the UTC date has rolled). `walter-06`, **post-`/clear` re-boot** in Will's own window on *"Hi WALTER please boot up."* Full boot (steps 0–9b), three Will-Telegram batches, two research commissions, Tier-2 closeout.
+**Session:** 2026-08-30 **Sun EVENING** → closed 2026-08-31T03:5xZ (**= Sun 23:5x ET**; both clocks stated, the UTC date has rolled). `walter-a7`, boot in Will's own window on *"Hi WALTER please boot up"*, then Will-directed bloat cleanup on a Codex diagnosis. Full boot (steps 0–9b), **zero dispatches**, Tier-2 closeout. **12 commits.**
 
 ## STATUS
-🟢 **GREEN.** **BOARD 836 → 849.** Doctor **0 HIGH**, **24 MED at boot → 2** (both standing: the fleet unconsumed backlog, and the AI_INFRA_CAPEX cluster review). INDEX reconciles four ways. **STATUS 20,279 B = 42% of seat budget** (was 85%; the two regenerated blocks were derived surfaces, and SESSION_LOG was verified to hold the superseded narrative in full BEFORE the cut). **REGISTRY 25,167 B — now UNDER the P1 read-cap budget** (was 33,057 B, over).
+🟢 **GREEN.** **BOARD unchanged at 849** (architecture session). Doctor **0 HIGH, 2 MED** — both standing and pre-existing: the fleet unconsumed backlog and the AI_INFRA_CAPEX review. **READ-CAP: 0 over the hard cap** (was 4). **31 doctor checks** (was 30).
 
 ## CHANGED
-- **13 signals `-039`…`-051`** across three batches. **30 inputs declared, 30 dispositioned, ZERO undeclared.**
-- **29 REGISTRY rows refreshed** (23 at boot clearing **21 doctor `registry_lag` MEDs**, 6 at closeout). Two were substantive, not date-only: **CARL ORANGE → RED**, **CREED YELLOW → ORANGE**.
-- **`batch_manifest.py` allocator FIXED** — `max(ledger, manifest-file)` replacing a ledger-row **count**. Two failure modes, one asked about. Regression-tested; first live run returned `-06` correctly.
-- **Boot 6b/6c corrected**: HANS-T **12 → 14 rows, 5 → 6 scannable-daily**. The omitted row (`T-13`, UK 30Y gilt) is **20bp from its band**.
-- **Two DEWEY commissions filed + registered** (`REQ-DEWEY-20260829-001/002`).
-- **New auto-memory** `finding_gate_pass_is_not_evidence_it_found_the_best_reason` (index 74%, under the 75% trip line).
+- **Boot-read path 657,525 → 160,315 B (−76%).** `IRAN_WAR.md` 263,371→**18,590** · `ROUTING_TABLE.md` 121,557→**31,764** · `MEMORY.md` 79,596→**47,219** · `CLAUDE.md` 75,296→**51,152**.
+- **Five new content files, all verbatim:** `IRAN_WAR_GUARDS.md` (21 standing-guard blocks) · `ROUTING_CARVEOUTS.md` (20 per-agent sections) · `design/SPEC_OWNERSHIP.md` · `MEMORY_PROMOTED.md` · `design/history/ROUTING_TABLE_VERSION_HISTORY.md`.
+- **New instruments:** `tools/split_verify.py` (v3) · doctor check #31 `auto_load_budget` · `COMPANIONS` lockstep versioning in `version_drift_check.py`.
+- **Six instrument repairs** (five self-inflicted): `registry_lag` PROME blind spot · routing presence over both files · `claude_md_version_drift` vacuous pass · `restated_set_drift` re-anchor · `boot_protocol_xref` orphans · `split_verify` v2→v3.
+- **New auto-memory** `finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction`.
 
 ## RESULT
-🔑 **THE DOORBELL WORKED END TO END FOR THE FIRST TIME, IN ONE EVENING.** `-041` → SHADE + BROCK (both 15d dark) → PROME triage ② → Will's word → **both spawned, both ran to FULL CLOSEOUT.** SHADE's STATUS names `-041` as its trigger; BROCK drained 38 items and adjudicated the X1 wrapper half **18 days early**.
+🔑 **THE SPLITS ARE BY USE, NOT BY DATE — that single decision is what made them safe.** The anchor's standing guards were written INSIDE dated stamps (the 88/day Hormuz denominator and the JMIC instrument both sit in a July block), so a date rotation would have buried them in history while the anchor still cited them — **re-committing the very defect the split existed to fix.** A mechanical guard-stranding audit run to convergence caught **~24 guards** I would otherwise have buried, and caught that I was about to keep the OLDEST re-verify ladder hot.
 
-🔴 **AND THE CORRECTION IS WORTH MORE THAN THE WIN.** PROME refuted my one-session fold on **§3.5.2 — my own spec** — and supplied **dated referents I never had**. **My gate passed on the WEAKER leg (L3b cadence) while a stronger L3a existed and was invisible to me.** ⇒ *A PASS is not evidence the gate found the best reason.* Written onto both PASS rows, not banked as clean.
+🔴 **AND THE LESSON IS ABOUT INSTRUMENTS, NOT BYTES.** Every split relocated content out from under something that was reading the old path, and **no two failed the same way** — one went blind and under-reported, one went blind and over-reported, one went **vacuous** and reported success with nothing left to check. **The one that goes quiet is the dangerous one.**
 
-📌 **The evening's shape, three times: every figure correct, the conclusion wrong** — NVDA (timing + denominator), cold storage (composition), Japan (an unverifiable 4.1%). **Arithmetic review cannot catch this class; only checking the referent can.**
+⚠️ **The one I got wrong in the dangerous direction:** `split_verify` v2 fixed a false alarm **by loosening the check**, and would have passed a genuine deletion off its resemblance to a surviving sibling. Codex found it, PROME reproduced it, I reproduced it again, then fixed it fail-closed. **A guard that cries wolf gets ignored; a guard that quietly certifies gets believed.**
 
 ---
 
@@ -27,45 +26,50 @@
 ## A. NEEDS WILL
 | # | Item | Why it matters |
 |---|---|---|
-| 1 | **Whether to spawn DEWEY for the two commissions** — `REQ-DEWEY-20260829-001` (bullwhip, deadline **9/08**) and `-002` (NVDA vendor financing, **9/15**) | Filed and registered on your word. **Not urgent tonight** — deadlines are 10 and 17 days out and I invited DEWEY to counter-propose. PROME holds spawn timing. |
+| 1 | **Nothing blocking.** | The cleanup is done to the point where the next step is judgment, not mechanics. |
 | 2 | *(Standing offer, unchanged)* **correction-baseline audit** — ~30 pre-Aug signals vs the §3.6 standard | The clean Apr–Jul record across ~650 signals is **NO INSTRUMENT, not no defects**. |
+| 3 | **Whether to spawn DEWEY** for `REQ-DEWEY-20260829-001` (bullwhip, **9/08**) and `-002` (NVDA vendor financing, **9/15**) | Not urgent; PROME holds spawn timing. Deadlines 8 and 15 days out. |
 
 ## B. WAITING ON ANOTHER DESK — none blocking
 | Who | What |
 |---|---|
-| **ZHAO** | **CXMT output in BITS** — third ask, ~40d, the fleet's oldest unconsumed ACTION. **Now a named INPUT to `REQ-DEWEY-20260829-001`.** |
-| **SAM** | ¥5tn magnitude reconcile **+ the JP30Y stamp at the MOF primary** (`-051`) — no BOARD signal holds a JP30Y level. |
-| **HOMER** | The FHA level at the MBA NDS primary (`-043`) — three carriers give arithmetically impossible figures; MBA 403s on fetch. |
-| **CREED** | Whether **cold storage** belongs in its instrument set (`-046`) — a scope question, not a threshold. |
-| **WATT** | The ERCOT gas-cost discriminator (`-049`) — the cheap falsifier for the AI-demand narrative. |
+| **ZHAO** | **CXMT output in BITS** — third ask, **~42d, the fleet's oldest unconsumed ACTION**, and a named INPUT to `REQ-DEWEY-...-001`. |
+| **SAM** | ¥5tn magnitude reconcile + the JP30Y stamp at the MOF primary. |
+| **HOMER** | The FHA level at the MBA NDS primary (three carriers give impossible figures; MBA 403s). |
+| **CREED** | Whether cold storage belongs in its instrument set — a scope question, not a threshold. |
+| **WATT** | The ERCOT gas-cost discriminator — the cheap falsifier for the AI-demand narrative. |
+| **PROME** | `fetch.py` date-label defect (shared FORGE tool) · auto-memory index: 1 DOUBLE-LISTED slug + 3 EMBED-PENDING stale >14d. |
 
 ## C. RESOLVES ON A CLOCK
-- **Mon 8/31:** `REG-T-02` re-grade at the close (REGINALD owns; **not 9/2 — Labor Day is 9/7**) · BCRED tender.
-- **`RED-FT-12`** HY OAS **<260 s=3**, at **263 [FRED 8/27]** — 3bp, nearest on the board, base rate **0.0%**. ⚠️ The 8/28 print was unpublished at close; **re-read before quoting a distance.**
-- **`HANS-T-13`** UK 30Y gilt **5.80 vs 6.00** — 20bp, highest since 1998.
-- **`CREED-T-01a`** 9bp away [Trepp JUL; **August publication date still unverified — mine**].
-- **Iran:** anchor re-verify **~9/2** or on a US accept/reject of the interim framework *(verified-as-of 8/27T02:35Z, inside cadence)*.
-- **9/7** CRMT waiver · **9/8** Canadian retaliation · **9/9** Treasury buyback begins · **9/15** X1 wrapper-half · **9/30** TRY-FIRE-004 · **10/1** OZK sub-note reprice.
+- **`RED-FT-10`** CBOE SKEW **149.77 vs 150** — **0.23 away, the nearest trigger on the fleet board**, never fired, sustain 0/4. Moved +3.97% in one session while VIX fell to 14.43. ⚠️ **Re-pull before quoting any distance.**
+- **`RED-FT-12`** HY OAS **<260 s=3, at 263 [FRED 8/27]** — 3bp; the 8/28 print was **still unpublished** as of Sun 23:5x ET.
+- **`REG-T-02`** WAL **<78, at $78.53** — $0.53; REGINALD re-grades at the **Mon 8/31** close. **`HANS-T-13`** UK 30Y gilt 5.80 vs 6.00 — 20bp. **`CREED-T-01a`** 11.91 vs 12 [Trepp **JUL** print; August publication date still unverified — mine].
+- **Mon 8/31:** BCRED tender · **9/07** CRMT waiver · **9/08** Canadian retaliation + DEWEY-001 · **9/09** Treasury buyback · **9/15** X1 wrapper-half + DEWEY-002 · **9/30** TRY-FIRE-004 **and all six split re-triggers** · **10/01** OZK sub-note reprice.
+- **Iran:** anchor re-verify **~9/2** (verified-as-of 8/27T02:35Z, inside cadence) or on a US accept/reject of the interim framework.
+- **~2026-09-27:** the **WQ-141 4-week routable-fraction report** I owe on the EIA feed.
 
 ## D. WHAT I'D WANT YOU TO KNOW, not do
-- **A tool of mine handed back a LIVE batch id** and I caught it before the first write. PROME asked for one fix; opening the code showed **two** defects in one expression. Both closed.
-- **My own boot protocol drifted inside a single day** — and the line's own *"count the rows, never hardcode"* warning is what caught it.
-- **BM-07 was the best filter-health reading I could not have engineered:** ten circulated month-old items, **zero gaps**, four already inoculated — two within 48h of the original post. **Zero dispatches, and I did not manufacture one to justify the pass.**
+- **I broke five of my own instruments tonight and each broke differently.** The worst printed *"version claims match spec headers"* while verifying **nothing** — its table had moved out from under it. A check that finds nothing to check must say so, never pass.
+- **I made a tool worse in the dangerous direction and shipped it,** fixing a false alarm by loosening the guarantee. Codex caught it by *reading the algorithm*; PROME's earlier "verified" had re-run **my own four test cases**, which inherit my blind spot. Replaying an author's examples tests execution, not the guarantee.
+- **I walked into a trap I had flagged hours earlier** — read an exit code through a pipe and got `tail`'s status. Twice tonight, the second time *after* writing the warning down.
+- **Nothing was deleted all night.** Every reduction is a split with a conservation proof, and the proof is now a re-runnable tool rather than a claim in a commit message.
 
 ## GAPS (WALTER-facing)
-- **P1 read-cap: 5 boot reads over budget, 4 over the cap** — anchor **485%**, HISTORY 239%, `ROUTING_TABLE` 224%, `MEMORY.md` 148%. REGISTRY fell under tonight (6 → 5) **incidentally, which is not a fix.** ⚠️ **BROCK proved the defect live today:** its STATUS at 167% meant *"15 days of boots read fragments while every line-count guard passed."*
-- **AI_INFRA_CAPEX coherence review 32d overdue, 67 signals** — and today's three additions **do not cohere with each other**, which is what the review test exists to catch.
-- 647 pre-Aug signals' unknown defect rate · `TARIFF_TRADE` has no registered trigger · §3.5.6 pull-complete blind spot (3 options tabled, none ratified) · notes still carry **no delivery telemetry** (`note_log.tsv` trigger armed; 2 notes written tonight).
+- **`MEMORY.md` 47,219 B = 87% of cap** — under the cap, no headroom; the last read-cap residue. **The mechanical route is exhausted** (criterion tested, not detectable); needs a promotion pass.
+- **AI_INFRA_CAPEX coherence review 34d overdue, 70 signals** — a standing MED.
+- **49 unconsumed >2d / 9 ACTION across 8 desks, oldest ~42d** — the other standing MED; unchanged over the weekend.
+- 647 pre-Aug signals' unknown defect rate · `TARIFF_TRADE` has no registered trigger · §3.5.6 pull-complete blind spot (3 options tabled, none ratified) · notes still carry **no delivery telemetry**.
+- **`REGISTRY.tsv` 25,574 B and `ROUTING_TABLE.md` 31,764 B sit in the rotate-tier band** (under cap, over the 60% budget) — recorded, not hidden.
 
 ## FOLLOW-UP
-1. 🔴 **THE ANCHOR SPLIT — top of the next session's list.** Re-run the 6/28 hot/cold split, addenda rotate verbatim to HISTORY, and **leave a DATED RE-TRIGGER, not a leanness claim** (the 6/28 header still asserts leanness over an 818-line body — that is what let it reach 485%).
-2. 🔴 **Boot step 1 rewritten to say what is ACTUALLY read** (current-state block + guard ladder; remainder grep-on-demand). A whole-read claim on a 263 KB file is a defect either way.
-3. **AI_INFRA_CAPEX cluster coherence review** — overdue, and the natural front end to `REQ-DEWEY-...-001`.
-4. **The doorbell soak analysis** — still owed, and **it now has 10 fresh rows (2 PASS / 8 FAIL) plus the first end-to-end success.** ⚠️ v1/v2 still do not pool. **Read the PASS rows' annotations: one passed on its weaker leg.**
+1. 🔴 **`MEMORY.md` promotion pass** — adjudicate each remaining finding to its owning `design/` spec or auto-memory. **Do NOT attempt a fourth mechanical rotation; the criterion was tested and fails.**
+2. **AI_INFRA_CAPEX cluster coherence review** — 34d overdue; front end to `REQ-DEWEY-...-001`.
+3. **Chase, don't re-ask:** ZHAO · SAM · HOMER · CREED · WATT (list in §B).
+4. **The doorbell soak analysis** — still owed; 10 rows (2 PASS / 8 FAIL) + the first end-to-end success. v1/v2 still do not pool; **one PASS carried on its weaker leg.**
 5. **`CREED-T-01a` August Trepp publication date** — still unverified, carried, mine.
-6. **Iran re-verify ~9/2**; carry the interim-vs-reopening distinction hard. **"Ceasefire" is still circulating in the wild** — killed once tonight.
+6. **Close `REQ-DEWEY-20260829-001/002` ledger rows on delivery** — WALTER's audit chokepoint, not DEWEY's.
 7. **DAEDALUS D2–D11 remainder** at cadence; **D9's gitignore question is Will's.**
-8. **Close `REQ-DEWEY-20260829-001/002` ledger rows on delivery** — WALTER's, not DEWEY's (audit chokepoint).
+8. **2026-09-30: `stat` all six split surfaces** and re-split anything over budget. The re-triggers are dated for a reason.
 
 ## OPEN DESIGN DECISIONS
-**🟢 NONE BLOCKING.** **🟠 CARRIED:** §3.5.6's three options · leg-3b free parameters (WINDOW still has no safe setting) · foreign-origin BOARD rows carry a `SIG-W-` id · whether a memory whose body generalises past its slug should be **renamed/split** or only re-`symptoms:`'d. **🟠 NEW:** should `DOORBELL_LOG` carry a **which-leg-carried-the-pass** column? Tonight showed a PASS can hide its own basis — one field would make the soak diagnosable. *(Proposal, not taken — the log is mine but the soak is a joint instrument.)* **🟠 DEFERRED (unchanged):** DEWEY cadence · RAV cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe · lane entity-class tagging · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
+**🟢 NONE BLOCKING.** **🟠 CARRIED:** §3.5.6's three options · leg-3b free parameters (WINDOW still has no safe setting) · foreign-origin BOARD rows carrying a `SIG-W-` id · whether a memory whose body generalises past its slug should be renamed/split or only re-`symptoms:`'d · should `DOORBELL_LOG` carry a **which-leg-carried-the-pass** column. **🟠 NEW:** should `split_verify` become a closeout gate on any commit that adds a file to a split set, rather than a tool run by memory? *(Proposal, not taken — it would need a declared split-set registry, which is a new surface that can itself go stale.)* **🟠 DEFERRED (unchanged):** DEWEY cadence · RAV cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe · lane entity-class tagging · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
