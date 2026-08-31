@@ -5,7 +5,7 @@
   "Energy": "crit",
   "Equity-vol": "watch",
   "Japan / carry": "watch",
-  "Metals": "elev",
+  "Metals": "crit",
   "Rates": "crit",
   "War theaters + tariffs + housing": "crit"
  },
@@ -69,6 +69,7 @@
   "116": "BROCK: two of its own registered lines need a re-spec, and thresholds\u2026",
   "117": "DAEDALUS three-encodes bundle (8/28 late packet \u00a74) \u2014 A HANS finding_\u2026",
   "133": "PROME hygiene carry (BOOT step 8: owed items leave SCRATCH after the\u2026",
+  "142": "DFII10 NO-VERDICT band \u2014 ratify for SUCCESSOR rows (the re-registrati\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026",
   "74": "Row-58 oil exit LEVELS return for ratification \u2014 the 8/21 ruling chos\u2026",
   "84": "Rule-6b leg 3b \u2014 WALTER's re-score came back WRONG-not-stale, and it\u2026",
