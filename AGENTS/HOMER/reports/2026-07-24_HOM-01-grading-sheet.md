@@ -37,7 +37,7 @@ Read the release's OWN table for May-YoY (call it M) and June-YoY (call it J). T
 
 **Why the rows stopped being exclusive, which is the part worth carrying:** at registration May stood at **+1.9%**, so *"J below M"* and *"J above +1.9%"* **could not both hold** — the middle row (*"J ≥ M but J ≤ +1.9%"*) is the thin strip between them, and the table's whole shape assumes that geometry. **The June vintage revised M down to +1.58% SA and opened a ~16bp band where both rows fire at once.** ⇒ **The spec was not ambiguous when written; a revision beneath it made it ambiguous.** **Any spec pairing a frozen absolute level with a vintage-floating comparator has this property, and nothing announces the day they cross.**
 
-Let **J** = July-2026 YoY **SA**, **M** = June-2026 YoY **SA as revised in that same release** (~+2.06% on current vintage).
+Let **J** = July-2026 YoY **SA**, **M** = June-2026 YoY **SA as revised in that same release** (~+2.06% on the vintage current at drafting — ⚠️ **ACTUAL M = +1.81% SA** in the July release; see ✅ EXECUTED below).
 
 | July print | Grading action |
 |---|---|
@@ -63,3 +63,9 @@ Let **J** = July-2026 YoY **SA**, **M** = June-2026 YoY **SA as revised in that 
 - Case-Shiller (7/28, May data, 2 days earlier) is **context, not a resolver** — different index, deeper lag. It cannot confirm or kill HOM-01.
 - New cross-currents logged 7/24 (KB-HOMER-003): DHI aging-spec hoard = timing headwind for the rollover; NAHB price-cut breadth (32→35→37% May→Jul) = mechanism support. Neither changes the pre-registered triggers — **resolve on the numbers, not the narrative** (CRL-03 lesson).
 - On ANY resolution (either leg, either direction): push the read to HENRY (wealth-effect edge) + CARL (housing-consumer context) via NEXUS_BRIEF; if MISSED/FALSIFIED, log the Realtor.com list-price lead failure to LESSONS.md per the registration's if-falsified clause.
+
+---
+
+## ✅ EXECUTED 2026-08-31 — SHEET CLOSED
+
+The July-data release posted 2026-08-31 and was graded same-day off the issuer master file (PRIMARY): **J = +2.31% SA** (NSA +2.24%), **M = +1.81% SA as revised in that release**. The standing geometry check ran first: M < +1.90% ⇒ the kill line and the prior-month comparator bound **disjoint** regions on this vintage — the 8/22 overlap band closed itself; ruling (A) not invoked. **Row 1 of the July decision table applies: J > +1.9% ⇒ HOM-01 CLOSED `MISSED (early-kill)`.** (J ≥ M as well, so Leg-1 also failed independently — the outcome is over-determined.) Record of record: `thesis/PREDICTIONS.tsv` HOM-01, 2026-08-31 Notes entry. Discipline notes executed: year-verify (no article used; issuer file + same-day stamp), mirror unavailable (CalculatedRisk front page at Jan-2026 — a successor prediction needs a new named mirror), IF-MISSED clause → `LESSONS.md`, pushes to HENRY + CARL via `NEXUS_BRIEF`. **This sheet is now a historical instrument — do not grade against it again.**

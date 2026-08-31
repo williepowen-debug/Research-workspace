@@ -1,63 +1,55 @@
-# HOMER SCRATCH — 2026-08-23 (Sun) closeout → handoff
+# HOMER SCRATCH — 2026-08-31 (Mon) PROME-orchestrated touch → handoff
 
-**Purpose:** Canonical ephemeral session handoff. Read at boot; rewritten at closeout. Durable findings -> `LESSONS.md` / `MEMORY.md` / workbook; live state -> `STATUS.md`.
-*(Today ran ~14 passes and this file reached 391 lines / 70KB. All durable content was moved to `LESSONS.md`, `workbook/KB_LIVE.tsv`, `CLAUDE.md`, `NEXUS_BRIEF.md` and the ledgers BEFORE this rewrite.* **That move was itself the closeout's finding — the work had existed only here, and this file is rewritten every session.**)
+**Purpose:** Canonical ephemeral session handoff. Read at boot; rewritten at closeout. Durable findings → `LESSONS.md` / workbook; live state → `STATUS.md`.
+*(This session was a SCOPED TOUCH — PROME spawned it for the 8/31 FMHPI decider while the desk was dark. It graded, drained the inbox, and deliberately did NOT start the approved queue items. The 8/23 queue below is carried forward, not superseded.)*
 
 ---
 
-## 🔴 THE QUEUE — WILL APPROVED FOUR ITEMS 2026-08-23 AND DEFERRED THEM TO THIS SPAWN
+## 🔴 WHAT CHANGED TODAY — READ FIRST
 
-⚠️⚠️ **READ THE SCOPE BEFORE ACTING. "Approved" does not mean the same thing for all four.**
+1. **HOM-01 IS CLOSED: MISSED (EARLY-KILL), graded 2026-08-31, the day the print posted.** FMHPI July **+2.31% SA** (June revised in-vintage to +1.81%) > frozen +1.9% ⇒ arm 2 fired; Leg-1 also failed independently (0-for-2). **The desk's first closed prediction.** Full record: `thesis/PREDICTIONS.tsv` HOM-01 Notes 8/31 entry; grading sheet marked EXECUTED/closed. **IF-MISSED clause executed → `LESSONS.md`: the Realtor.com headline list-price lead LOSES STANDING** (downgraded to context; any future list lead must be specified on mix-controlled $/sqft). ⛔ No confidence re-rate (Will-gated); 60% PROVISIONAL stands as the calibration record.
+2. **⚠️ CalculatedRisk may be GONE** — front page's newest posts are Jan-2026 ("This is the End and a New Beginning", 1/12). UNKNOWN, not chased. **It is the named mirror in HOM-01's spec class — any successor prediction needs a NEW named mirror. Verify before registering anything that cites CR.**
+3. **$160B MF wall: CREED's VERDICT consumed — NOT ATTACHABLE, never Trepp's** (sponsor quote, CF Capital, misattributed by co-location; MBA publishes the MF cut as a share only). **The ~9/4 retirement stands AS SCHEDULED** — next session executes it at the September Trepp cycle, **published, not silent** (STATUS row 80 annotated; consistent with HEARTBEAT §7).
+4. **FHA PROCESS BREAK caveat is now binding** (PIPELINE.tsv): any FHA DQ YoY spanning Oct-2025 is ~79% slower-cure-drain, not credit (WALTER SIG-028-009 / DEWEY DR-1). Qualifies HOM-02's "+122bps YoY" context. Opposite-signed to the HUD ML 2026-08 FC-migration mechanic — say which when citing.
+5. **Inbox 13 → 0.** Dispositions in `board_log.tsv`. New ledger rows: FMHPI July + Census NHS July (PRICING), FHA process break (PIPELINE), Berkshire/Clayton–Taylor Morrison #4-builder consolidation, closing UNVERIFIED (BUILDER).
+6. **⛔ NEW DOCKETED OWED: P1 read-cap remediation** (DAEDALUS 8/28, Will-ruled): STATUS 273% / LESSONS 175% of the 32,550B boot read cap. This touch deferred it with why-not in the commit (scoped touch ≠ the place for a 148KB restructure). **Next full session: rotation or hot/cold split, per surface.**
+7. **NEXUS: brief now carries the canonical `STATUS commit:` pin** (class-B fixed per NEXUS 8/28 — folded 8/31 after the desk commit so the hash is real, per Amendment 10 ordering); ordering defect ACCEPTED, escalated to Will as amendment 12 — nothing further owed by HOMER.
+8. **FL routed observation (NOT published as mine — statewide ⇒ CORAL rules): FMHPI FL +1.68% SA YoY July, from +0.04% May.** Tension vs SIG-813-017 (all six FL top-50 counties negative on ZHVI). Sent to PROME for CORAL reconciliation — packet `PROME/inbox/2026-08-31_from-HOMER_FL-statewide-FMHPI-reaccelerating-to-plus-1-68pct-SA-routing-to-CORAL-for-the-one-figure-reconcile.md` (FL July **+1.68% SA**, from +0.04% May / +0.66% Jun; VERIFIED at the master file). ⚠️ Three statewide FL instruments now disagree in sign (FMHPI +1.68 · ZHVI counties all negative per SIG-813-017 · CORAL median +4.9%) — CORAL's reconcile, not mine.
 
+## 🔴 THE QUEUE — WILL APPROVED FOUR ITEMS 2026-08-23, STILL DEFERRED TO THE NEXT FULL SPAWN
+
+⚠️⚠️ **Scope differs by item — read before acting** (verbatim from the 8/23 handoff):
 | # | Item | What the approval authorizes |
 |---|---|---|
-| **1** | **Non-funding-leverage RIDER** | **Read as option (A) — ratify the NO-VERDICT PRECURSOR** (no threshold, never fires, scoped to issuer-reporting names). ⚠️ **AN INTERPRETATION, NOT A QUOTED RULING** — I offered A/B/C and "approved" named none; (A) was my stated recommendation. **If Will meant B or C, one word overrides and NOTHING IS LOST — (A) encodes a class that cannot fire by construction, so a wrong reading costs zero signals.** Draft: `reports/2026-08-23_non-funding-leverage-RIDER-DRAFT-for-ratification.md` |
-| **2** | **Rent Growth (% cities negative) RETUNE** | ⛔ **WORK ONLY. NOT LEVELS.** |
-| **3** | **National Foreclosures (Qtr) RETUNE** | ⛔ **WORK ONLY. NOT LEVELS.** |
-| **4** | **L3 BUILDS 3b + 3c** | **Unambiguous — authorization to BUILD.** 3b `thesis/THESIS.md` + thesis-level KILL RAIL; 3c the convergence handle. |
+| **1** | **Non-funding-leverage RIDER** | Read as option (A) — ratify the NO-VERDICT PRECURSOR. ⚠️ An interpretation, not a quoted ruling; if Will meant B or C, one word overrides and nothing is lost. Draft: `reports/2026-08-23_non-funding-leverage-RIDER-DRAFT-for-ratification.md` |
+| **2** | **Rent Growth (% cities negative) RETUNE** | ⛔ **WORK ONLY. NOT LEVELS.** Successor: % of Zillow metros negative YoY; 20/40/55 CANNOT carry over (different denominator). Row grades NOTHING until ruled. |
+| **3** | **National Foreclosures (Qtr) RETUNE** | ⛔ **WORK ONLY. NOT LEVELS.** Needs a sourced ATTOM quarterly-STARTS distribution spanning crisis→workout→normal. Basis=STARTS was MY choice informed by CARL's CRL-06 ruling, not inherited. |
+| **4** | **L3 BUILDS 3b + 3c** | Unambiguous — authorization to BUILD (`thesis/THESIS.md` + kill rail; convergence handle). ★ Do NOT build 3b by generalizing HOM-01/HOM-02 — per-prediction machinery is not a thesis-level rail. **With HOM-01 now closed, the resolver-first argument for deferral has partly expired: only HOM-02 (~mid-Nov) remains open.** |
 
-⛔⛔ **ON 2 AND 3 — THE SENTENCE THAT MATTERS: "approved" CANNOT mean "these levels are ratified," because I NEVER PROPOSED ANY LEVELS and said explicitly that both were Will-gated and not proposed.** It authorizes **deriving levels from a sourced distribution and bringing them back.** **NO LEVEL GETS ENCODED WITHOUT BEING PUT TO WILL FIRST.** Encoding a retune as ratified when only the work was authorized puts **unreviewed levels on a live band** — the exact failure the *rule-the-definition / escalate-the-retune* split exists to prevent.
-
-**Derivation requirements, recorded so neither retune gets invented under time pressure:**
-- **National Foreclosures:** a sourced **ATTOM quarterly foreclosure-STARTS** distribution spanning crisis -> workout -> normal — **the same derivation the FL pair got, which is why that pair works.** Basis is ruled: **STARTS** — and that was **MY choice informed by CARL's CRL-06 ruling, NOT inherited precedent.** Do not re-describe it as inherited.
-- **Rent Growth:** successor is **% of tracked metros with negative rent YoY, computed from the Zillow metro series I already receive.** ⚠️⚠️ **Zillow's metro universe is NOT Apollo/Slok's top-100, so 20/40/55 CANNOT be carried over — a different denominator has a different distribution.** Last reading **56% (Jan-2026) against a Red of >55%**; **the row grades NOTHING until ruled.**
-
----
-
-## ⚠️ THE CALENDAR OWNS THE WEEK — SEQUENCE THE QUEUE AROUND IT, NOT INSTEAD OF IT
+## ⚠️ THE CALENDAR
 
 | When | Event |
 |---|---|
-| **~Mon 8/24-26** | **ICE First Look JULY** — 2nd read on the two-instrument composition tell; does the **FHA new-default −15% YoY** improvement extend? **Path-test with a June control.** |
-| **Tue 8/25** | **Case-Shiller JUNE** · **Census New Home Sales JULY** (median **vs AVERAGE** — the gap is the mix tell) |
-| **~8/25-28** | **Fannie + Freddie JULY monthlies** — the mod-suppression test. ⚠️ Fannie path is `/media/document/pdf/073126.pdf` **with `curl -L`** (June 301-redirects; the `monthly-summary-` prefix is WRONG and 404s on BOTH months = a false absence) |
-| **Wed 8/26** | MBA apps — **watch the two YoY legs separately** |
-| **Thu 8/27** | PMMS · **BEA Q2 RFI second estimate** (⚠️ the advance's *"first positive in five quarters"* is a first-print superlative on a revising series) |
-| **🔴🔴 ~Mon 8/31** | **FMHPI JULY — HOM-01 DECIDES.** **>+1.9% ⇒ CLOSES MISSED EARLY even if it also prints below the prior month** (precedence ruled 8/22). Grade off the **July** table in `reports/2026-07-24_HOM-01-grading-sheet.md`. **Year-verify: the trap has hit 3x on this series, in BOTH directions.** |
-| **~9/4** | Trepp Aug + **two pre-committed dated kills** (mat-adj re-spec, docket row 24; the $160B maturity wall at PROME `DOCKET.tsv:224` — **its retirement must be PUBLISHED, not silent**) |
-| **9/17 · 9/21** | Census NRC August (issuer-stated) · **HUD ML 2026-08 MANDATORY** — the clearest dated FC accelerant I hold |
+| **~9/1-3** | **Fannie + Freddie JULY monthlies** (mod-suppression test, 2nd datapoint — highest-value recurring pull; Fannie path `/media/document/pdf/083126.pdf`-style with `curl -L`). Were due ~8/25-28 — check whether they posted while dark. Also ICE July First Look, Case-Shiller June (rel 8/25), BEA Q2 second estimate (8/27), MBA apps, PMMS — **a week of prints may have landed while the desk was dark; sweep the gap list in STATUS header vintage first.** |
+| **🔴 ~9/4** | **Trepp Aug print + TWO pre-committed dated kills execute:** ① mat-adj MF leg RE-SPEC if absent a third month (successor named: MF special servicing); ② **$160B wall RETIREMENT — now verdict-backed (CREED 8/28), publish it, don't just delete it.** |
+| **9/17 · 9/21** | Census NRC August · **HUD ML 2026-08 MANDATORY** — the clearest dated FC accelerant held |
+| **~9/30** | FMHPI Aug data — no longer a resolver (HOM-01 closed); routine PRICING pull |
+| **~mid-Nov** | **MBA Q3 NDS — HOM-02 modal decider** (kill arm 1 fired; a second QoQ decline closes it MISSED early) |
 
-⛔ **DO NOT START A GREENFIELD BUILD (3b/3c) AHEAD OF A DATED RESOLVER.** A resolver missed is a calibration record that cannot be rebuilt — REGINALD made exactly this argument to me on 8/23 about a different item and was right.
-★ **Standing caution on 3b: my per-prediction machinery LOOKS like the missing thesis-level kill rail and is NOT one** — it covers two metrics; the thesis covers a transmission chain. **Do not build 3b by generalizing HOM-01/HOM-02.**
+## ⚠️ OPEN / UNSETTLED — carried forward (renumbered; HOM-01 item retired)
 
----
-
-## ⚠️ OPEN / UNSETTLED — do not publish these as settled
-
-1. **HOM-01: one early-kill arm fired. 8/31 decides.** The mechanism weakened materially on 8/23 — nine consecutive negative list-price months against close prices that ACCELERATED, and the **mix-controlled** list series is *improving* (−2.5 -> −2.1 -> −2.0). ⛔ **That does NOT grade it.**
-2. **HOM-02: one early-kill arm fired (Q2). Q3 ~mid-Nov decides.** ⛔ **Now behind on the FRONT END too** — ICE June FHA new defaults **−15% YoY**, largest annual decline in 4+ years. It rides the FC-migration mechanic, which became **two-instrument** on 8/23 (MBA + ICE).
-3. **⛔ GSE MF band re-spec — STILL OWED.** REGINALD holds the rider and recommended it wait until after 8/31.
-4. **Cure Rates band has NO CURRENT FEED** — the First Look does not publish cures; it needs the **Mortgage Monitor**, a separate later release. Dated re-spec condition set, successor named.
-5. **5 sample-limited threshold rungs** — need multi-year series I do not hold. **Research, not a ruling.**
-6. **CARL owes a freeze/refresh/retire call on "help with mortgage"** (5-month-stale 🔴🔴; instrument verified manual-only). **CORAL came back live 8/23.**
-7. **REGINALD's `NEXUS_BRIEF:23`** carried three superseded figures of mine at last check — **their file, their edit**; packet sent.
-8. **Lead 5 from the buydown work: the 25–27% FHA-underwater claim at builder-affiliated lenders is UNLOCATED.** ⛔ Not adopted. **The only remaining transcript item that would be materially bearish if it verified.**
-9. **`## VIEW` in `NEXUS_BRIEF` runs ~57 accumulated items with NO CAP** — schema-owned, flagged to NEXUS and Will, **not mine to gut.** My 6-item digest bound governs only my own hoist.
-
-## ★ STANDING RULES ADOPTED TODAY — all now on durable surfaces, listed so they are not re-derived
-**Byte tier + retention rule** (`CLAUDE.md` closeout 1b) · **ruling-residue sweep** (closeout 1c) · **boot docket ENUMERATION** (boot step 5) · **the builder incentive-masking standing caveat** (`CLAUDE.md` Scope) · **the Trepp read-regardless-of-routing-line rule** (`CLAUDE.md` Scope) · **rung-census reporting rule — state the highest UNCROSSED rung and the distance to it** (`CLAUDE.md` thresholds).
+1. **HOM-02: one early-kill arm fired (Q2). Q3 ~mid-Nov decides.** Behind on the front end (ICE June FHA new defaults −15% YoY). FC-migration mechanic is two-instrument; **now ALSO qualified by the Oct-2025 process break (today's PIPELINE caveat).**
+2. **⛔ GSE MF band re-spec — STILL OWED** (REGINALD holds the rider; the after-8/31 wait it recommended is now over).
+3. **Cure Rates band NO CURRENT FEED** (needs Mortgage Monitor, not First Look). Dated re-spec condition set.
+4. **5 sample-limited threshold rungs** — research, not a ruling.
+5. **CARL owes freeze/refresh/retire on "help with mortgage"** (docket row: chase at CARL's next boot).
+6. **REGINALD `NEXUS_BRIEF:23`** carried three superseded figures of mine at last check — their file, their edit; packet sent 8/23.
+7. **Lead 5 (25–27% FHA-underwater at builder-affiliated lenders) UNLOCATED** — not adopted.
+8. **`## VIEW` in NEXUS_BRIEF ~57 items, no cap** — schema-owned, flagged to NEXUS and Will.
+9. **⛔ READ-CAP REMEDIATION OWED (new, docketed)** — STATUS + LESSONS over the boot whole-read cap; rotation/split next full session.
+10. **SIG-043 residue: MBA NDS primary still 403-gated** — carrier B-vs-C FHA SDQ untangle owed if anyone contests; my 11.79% total-DQ figure stands (HousingWire direct-fetch-verified 8/13).
 
 ## OPEN THREADS
-- **Marquee (recognition regimes)** — direction unchanged; **the CMBS leg OSCILLATES and CURES, the GSE books do not.**
-- **★ The referent class remains the most productive lens on this desk**, and today added its sharpest variant: **a figure I HOLD that I never connected to the question it answers** — I set a two-month wait for an instrument already in my own workbook. **Invisible to every check I run, because both halves were correct and simply never met.**
-- **★ "Inflow cooling / conversion accelerating" is the domain's cleanest sentence and now has THREE instruments** (ATTOM timelines+REO, MBA composition, ICE composition). **It is also the sentence that cuts against HOM-02's front end. Say both.**
+- **Marquee (recognition regimes)** — unchanged; CMBS leg oscillates and cures, GSE books do not.
+- **"Inflow cooling / conversion accelerating"** remains the domain's cleanest sentence (three instruments) — and it cut against HOM-02's front end; say both.
+- **HOM-01's postmortem thread:** nominal HPI reaccelerating monotonically off the Jan-2026 SA trough (+0.98%) while REAL HPI stays negative — the wealth-effect read (HENRY) now keys on whether nominal accel outruns CPI, not on a rollover.
