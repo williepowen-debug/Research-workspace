@@ -30,7 +30,7 @@ USAGE
 
 EXIT: 0 = nothing lost · 1 = LINES MISSING (names them) · 2 = bad invocation.
 """
-import argparse, collections, subprocess, sys, pathlib
+import argparse, collections, difflib, subprocess, sys, pathlib
 
 
 def read_git(spec):
@@ -51,6 +51,10 @@ def main():
     ap.add_argument("--into", nargs="+", required=True, help="resulting file(s)")
     ap.add_argument("--strict-blank", action="store_true", help="count blank lines too")
     ap.add_argument("--show", type=int, default=10, help="how many missing lines to print")
+    ap.add_argument("--edit-threshold", type=float, default=0.75,
+                    help="similarity above which a missing line is EDITED, not LOST (default 0.75)")
+    ap.add_argument("--strict-edit", action="store_true",
+                    help="fail on edited-in-place lines too (use when the split must be byte-verbatim)")
     a = ap.parse_args()
 
     src = read_git(a.orig) if a.orig else pathlib.Path(a.orig_file).read_text(errors="replace")
@@ -75,18 +79,68 @@ def main():
     print(f"output lines: {sum(d.values()):,}")
     print(f"added (scaffolding, expected): {sum(added.values()):,}")
 
-    if missing:
-        print(f"\n✗ CONTENT LOST — {sum(missing.values()):,} line-instance(s) "
-              f"({len(missing):,} distinct) are in the source and in NO output file:")
-        for i, (line, n) in enumerate(missing.most_common()):
+    # EDITED-IN-PLACE vs GONE. A subset test cannot tell "this line was deleted" from
+    # "this line was edited in the same commit" — both are simply absent. Reporting an
+    # edit as CONTENT LOST is not a harmless false alarm: the remediation text says
+    # "re-run the migration", which for a benign edit is WRONG ADVICE, and a verifier
+    # that cries loss on routine edits is one nobody believes when loss is real.
+    # (Found 2026-08-30 by PROME re-running this tool over the CLAUDE.md slim commit:
+    # one "lost" line was the doctor step's "30 checks" -> "31 checks" edit.)
+    # ⇒ Near-match each missing line against the outputs and SHOW BOTH TEXTS, so the
+    # reader judges rather than trusts the classifier. Conservative by construction:
+    # anything below the threshold stays LOST, and --strict-edit restores verbatim-only.
+    pool = [l for t in dst for l in t.split("\n") if keep(l)]
+    edited, lost = [], []
+    for line, n in missing.most_common():
+        near = difflib.get_close_matches(line, pool, n=1, cutoff=a.edit_threshold)
+        (edited if near else lost).append((line, n, near[0] if near else None))
+
+    if edited:
+        print(f"\n⚠ EDITED IN PLACE — {len(edited):,} line(s) changed rather than moved. "
+              f"NOT content loss; verify each is the change you intended:")
+        for i, (line, n, near) in enumerate(edited):
             if i >= a.show:
-                print(f"    … and {len(missing)-a.show:,} more distinct")
+                print(f"    … and {len(edited)-a.show:,} more")
+                break
+            sm = difflib.SequenceMatcher(None, line, near)
+            # SHOW THE DIFFERING REGION, NOT THE HEAD. On a 99%-match line the change is
+            # usually far from the start, so printing line[:150] renders two identical-
+            # looking strings and teaches the reader nothing — a decorative report.
+            # Window on the first non-equal opcode instead.
+            ops = [o for o in sm.get_opcodes() if o[0] != "equal"]
+            print(f"  [{n}x, {sm.ratio():.0%} match]")
+            if ops:
+                _, i1, i2, j1, j2 = ops[0]
+                lo, hi = max(0, i1 - 45), i2 + 45
+                lo2, hi2 = max(0, j1 - 45), j2 + 45
+                print(f"    was …{line[lo:hi]}…")
+                print(f"    now …{near[lo2:hi2]}…")
+                if len(ops) > 1:
+                    print(f"    ({len(ops)} differing region(s); showing the first)")
+            else:
+                print(f"    was: {line[:150]}")
+                print(f"    now: {near[:150]}")
+
+    if lost:
+        print(f"\n✗ CONTENT LOST — {sum(n for _, n, _ in lost):,} line-instance(s) "
+              f"({len(lost):,} distinct) are in the source, and NOTHING in the outputs "
+              f"resembles them:")
+        for i, (line, n, _) in enumerate(lost):
+            if i >= a.show:
+                print(f"    … and {len(lost)-a.show:,} more distinct")
                 break
             print(f"  [{n}x] {line[:150]}")
         print("\n  A split must be lossless. Re-run the migration; do not hand-patch"
               "\n  the destinations, or the next verification passes over a repaired symptom.")
         return 1
 
+    if edited and a.strict_edit:
+        print("\n✗ --strict-edit: edited lines fail. This split was required to be verbatim.")
+        return 1
+    if edited:
+        print(f"\n✅ CONSERVED (no loss): every source line is present or accounted for as an "
+              f"in-place edit ({len(edited)} edited).")
+        return 0
     print("\n✅ CONSERVED: every source line appears in the outputs. Nothing lost.")
     return 0
 
