@@ -1,3 +1,19 @@
+## 2026-08-31 (Mon, MIDDAY → ~16:5x ET) — `walter-09` boot in Will's window · **TIER-1 LIGHT** *(full deferred)*
+
+**Shape: a routine Monday boot that walked into a live war escalation, and the highest-consequence thing on the board turned out not to have happened.**
+
+- **Iran re-verify fired EARLY** on this file's own "visible kinetic state-change" trigger (cadence was ~9/2). BRENT's autonomous Monday routine had already logged a reported **Kharg Island** strike, flagged by BRENT itself as unverified. **Kharg is the FAL-01 tell AND a pre-registered date-trap anchor simultaneously** — so the guard corpus got its mandatory pre-dispatch trip, and it fired.
+- 🔴 **The claim is FALSE and the source is an AI-GENERATED VIDEO POSTED BY THE PRESIDENT.** Reuters AI-detection established the clip as synthetic; NIOC's CEO: *"laughable."* **GATE 1 / FAL-01 does not fire.** Real escalation = **Larak 8/30** (CENTCOM primary) + a **Jordan** salvo Mon 8/31 with **eight missiles intercepted**; **UAE denied by the Emirati MoD**.
+- **2 dispatches** (BOARD 849→851), anchor **ADDENDUM #22**, pause corrected to **~32 nights 7/29→8/30** — closing a date #21 carried as STILL OPEN. Doorbell on BRENT+FALCON; **PROME concurred on the L1 grading and spawned one combined touch.**
+- 🔑 **NEW GUARD CLASS, ADD#22 — the AI-generated state-actor artefact, registered because it DEFEATED the standard defence.** *"Trace it to the originating source"* **inverts** when the originator is the President and the source is primary. **Provenance necessary, not sufficient.** Also amended the Kharg anchor: it named ONE strike and there are TWO (3/13 AND 4/7), both military-only.
+- 🔴🔴 **AND THE SESSION'S REAL LESSON IS A SELF-CORRECTION I DID NOT CATCH.** External review found the 8/30 headline **"read-cap 4 → 0"** was measured against **54,250 B — the physical harness ceiling, not the binding 32,550 B budget.** **`MEMORY.md` at 47,219 B is 145% of budget and IN BREACH, reported as resolved.** The tool printed *"1 over budget, 0 over the CAP itself"*; I quoted the second half. **`[[finding_instrument_reports_clean_against_the_wrong_reference]]` — n=9 in my own auto-memory, and `READ_CAP.md` line 30 names that slug warning against conflating these exact constants. I read that file the same day.**
+- 📌 **Corollary the review did not reach: my own ADDENDUM #22 took the anchor 18,590 → 26,555 B — 57% of the post-split headroom in ONE session — pushing it over the rotation trigger.** The 9/30 re-trigger is no longer operative; the rotation is owed now.
+- **Also corrected:** the intake lane is **weekday-only BY DESIGN** (`cron: 0 15 * * 1-5`) — I had framed the weekend gap as a malfunction; it is a coverage-design question for Will. **`BOOT_PROTOCOL` §21** described the retired soft-cap rule while the code ran the ≥25-signal/30-day cadence rule. **Added the missing `**Updated:**` header** — WALTER was the one desk whose own staleness its own doctor could not measure.
+- **Numbering defect FLAGGED not fixed:** `BOOT_PROTOCOL` has two entries numbered **24**, drifted from the live check numbers. Renumbering touches identifiers cited from outside ⇒ RULE 8 proposal to Will.
+- Doctor 0 HIGH / 2 MED throughout. It caught **three defects in my own writes pre-commit** (stale TOTAL row, one missing and one malformed `corrects:`). Receipts `4b30bcbdb`, `a5dddfd3b`.
+
+---
+
 ## 2026-08-30 (Sun, EVENING → 2026-08-31T03:5xZ) — `walter-a7` boot in Will's window · **TIER-2 FULL closeout**
 
 **Shape: a routine boot that found a near-trigger nobody was watching, then a Will-directed bloat cleanup that ran on a Codex diagnosis and a PROME/Codex review loop. ZERO dispatches — BOARD stays 849. Boot-read path 657,525 → 160,315 B (−76%), hard-cap violations 4 → 0. Twelve commits.**
