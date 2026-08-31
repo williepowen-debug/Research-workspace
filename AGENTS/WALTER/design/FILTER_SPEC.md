@@ -1,4 +1,4 @@
-# WALTER Filter Specification v0.6
+# WALTER Filter Specification v0.7
 
 WALTER filters BEFORE routing. Every piece of incoming information passes through a **pre-gate System-Critical bypass**, then **Gate 1** (the two hard kill gates: Novelty + Relevance), then **a soft credibility check** that adjusts confidence before reaching Gate 2 (classification + routing). Most raw information should die at Novelty or Relevance.
 
@@ -129,6 +129,26 @@ An unsourced-but-relevant rumor about a held position is still actionable — at
 
 **Example:** An anonymous X post claiming WAL is about to announce a capital raise — novel (not in any STATUS), relevant (directly names a held position), credibility Low (anonymous + specific). Resulting confidence ~0.35. Under the old v0.1 "fail-all-three" logic this might still route because it passed Novelty and Relevance. Under v0.2 it still routes — but now explicitly at confidence 0.35 with a credibility flag, so RED or REGINALD can weigh it accordingly.
 
+### Source-credibility map + the two framing-error classes (promoted from `MEMORY.md`, 2026-08-31)
+
+> **Provenance:** these were WALTER `MEMORY.md` findings dated 2026-05-08 / 2026-05-22 / 2026-07-25. They are **credibility-gate law**, applied at filter time, so they live here. Verbatim originals: `MEMORY_PROMOTED.md`.
+
+**(1) The credibility map is PER-ACCOUNT-PER-TOPIC, never a blanket prior.** Do not default-to-hoax on an extreme X claim — verify against SEC filings / press releases. Standing per-account reads:
+
+| Account | Read |
+|---|---|
+| `gurgavin` | high-accuracy on **layoffs** |
+| `Visegrad24` | framing-stretch on **Iran** |
+| `WhaleInsider` | framing-stretch on **petro** |
+| `Kobeissi` | numbers-right, framing-stretch — default-verify, expect a precision overlay |
+| `Amit Tal` | **sign-inversion** on Fed-plumbing |
+| `@infraa_` | numbers-right, inference-stretch |
+
+**(2) SIGN-INVERSION is the most pernicious framing-error class** — the metric looks familiar but the DIRECTION is opposite the canonical convention (SOFR−IORB at −15bp framed as *"scarcity"* when negative = ample-reserves / loose). ⇒ **For any registered-threshold metric (RED-FT / REG-T / CREED-T / HANS-T), verify-research must EXPLICITLY confirm the sign convention**, especially on *"negative spread"* / *"compression"* framing.
+
+**(3) The most kill-prone SHAPE can wrap an official primary — verify the CORE against the primary the artifact is implicitly citing, not against the artifact.** An inbound arrived as a **celebrity-signed paid advertisement** (QR code, donation ask, catastrophist register, an 1877 "40 million deaths" invocation): every marker that says *kill on Credibility*. Applying the standing advocacy rule (*extract the falsifiable core, don't route the narrative*) **inverted the verdict** — the core was **NOAA CPC's own forecast: 81% probability of a VERY STRONG El Niño in Oct–Dec, "among the largest in the record back to 1950," 97% persistence into spring 2027, GFDL SPEAR and NMME/CFSv2 agreeing.** Dated, probabilistic, officially published, multi-model. **A Novelty/Credibility kill would have cost the fleet an 81% probability on a Q4 macro event AND LEFT NO TRACE THAT IT HAPPENED** — the asymmetry that makes this kill class uniquely expensive. ⇒ **An advocacy artifact usually cites *something*; find and check THAT — the wrapper's quality tells you nothing about the source's.** What still gets refused: the ad's "3-4°C" figure was **index-ambiguous** (exceeds every ONI event on record; unremarkable on Niño 1+2; the ad names no index). And check the sign before it propagates: **a strong El Niño typically SUPPRESSES Atlantic hurricanes**, so a "catastrophic El Niño" frame imports as FL-*negative* when it may be FL-benign. Strongest instance of `[[feedback_walter_no_kill_on_lede]]`.
+
+
 ---
 
 ## Confidence Scoring Guide
@@ -175,6 +195,12 @@ Date	Origin	Summary	Failed_Gate	Confidence	Notes
 ```
 
 **Purpose:** Audit trail for tuning. Review weekly: did we filter anything that turned out to matter? If yes, adjust criteria.
+
+**Attribution discipline on a quote-post (promoted from `MEMORY.md` 2026-07-17) — `kill_log` is the SUBSTRATE of the per-account credibility map above, so WHO said it is load-bearing, not incidental.**
+A doom-wrapper quoting a benign post is **two sources with two verdicts**. I once logged *"10Y getting NO BID from international governments… hyperinflation"* against **QE Infinity @StealthQE4**. A later batch carried the source post standalone and disproved it: QE Infinity's actual post is only *"The 10 year bond yield is now back to 4.6%. We haven't seen this level since the tariff stock panic last April"* + a chart — **factual, sourced, benign.** The doom wrapper belonged to an **unnamed quote-poster.**
+⚠️ **Because the credibility map is per-account-per-topic, mis-recording a claim against an account means future-WALTER DOWN-WEIGHTS AN ACCOUNT FOR SOMETHING IT NEVER SAID** — same species as `[[finding_confabulated_counterparty_position]]`, except the invented thing is the *attribution*.
+⇒ **RULE: log the wrapper and the quoted post as separate rows with separate `Failed_Gate` values.** In the instance: wrapper KILLED on **credibility**; QE Infinity's own post ALSO killed, but on **novelty**. Correct on the record rather than silently.
+
 
 ---
 
