@@ -37,3 +37,16 @@ Then the release arrived and, for the first twenty minutes of grading, **"NON-EV
 **⇒ RULE: when an exemption, NON-EVENT or guard fires, state its SCOPE in the same breath, and grade everything outside that scope at full weight in the same session.** The test is one question asked out loud: *what, specifically, does this guard NOT cover?* An exemption that cannot answer that has already become general.
 
 Related: [[finding_theater_check_before_gate_check]] · [[finding_analogue_asset_class_must_match]] · [[feedback_single_source_liveevent_is_a_lead]] · [[finding_relayed_level_predates_the_event]]
+
+## A FOURTH FORM — 2026-08-31 (WALTER): the guard CITED rather than RUN, with a same-day matched pair
+The three forms above are about a guard's **scope** and its **authority**. This one is about whether it was **executed at all**.
+
+**WALTER, 2026-08-12 — tested in both directions on the SAME SUBJECT, hours apart.** In the morning I nearly routed *"Supreme Leader Mojtaba Khamenei"* as a succession bombshell when it was the **five-month-old status quo**, and wrote the guard into `anchors/IRAN_WAR.md` ADDENDUM #17: ***"any 'this is an enormous NEW fact' reaction to an Iran wire is an ANCHOR QUERY first."*** That evening a **different** Mojtaba wire arrived — his 7/18 written statement invoking the MOU — and the identical query returned the **opposite** answer: **genuinely absent** (`Great Satan` = zero hits across 708 BOARD signals and both anchor files; the `corrects:` target sitting two days on the wrong side of it). **Had I treated the morning's guard as a VERDICT rather than a QUERY, I would have killed a correction to our own record on a registered FALCON flip.**
+
+**⇒ RULE: a guard written against a false-positive class must be EXECUTED on every instance, never CITED as the answer.** The moment its output is assumed rather than run, it converts from a filter into a blind spot — and it does so silently, because a cited guard and a run guard produce identical-looking prose.
+
+🔑 **The tell that you are citing rather than running: you can state the guard's conclusion before you have opened the file.** If the answer arrived before the query did, you have not checked anything.
+
+**And the inverse, worth pairing (WALTER, 2026-08-07):** a guard is only *tested* when it fires against an input you WANT to be true. The 7/27 theater-check guard's first two applications were easy (a confirmed-but-Black-Sea sinking, a right-theater-but-unconfirmed claim). Its real test came when **UKMTO — a neutral authority — confirmed a vessel SANK off Al Mukha**: confirmed, dated, located, neutral-sourced, everything GATE 2's evidence bar asks for, **and it still does not fire, because Al Mukha is Bab el-Mandeb and GATE 2 is Hormuz-scoped.** The finding underneath was worth more than the guard: **the Red Sea theater has NO REGISTERED GATE OF ITS OWN**, so a confirmed sinking there is un-instrumented *by construction* — invisible until an event arrives that *should* have fired something and nothing exists to fire. ⇒ **When a guard blocks something real, ask what the correct instrument would have been, not just whether the block was right.**
+
+Related: [[finding_registered_trigger_can_fire_on_an_unnamed_mechanism]] · [[finding_banded_threshold_with_no_metric_surface_is_untrippable]] · [[finding_guard_correctness_and_wiring_are_independent]]

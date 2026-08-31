@@ -21,6 +21,7 @@
 - finding_inbound_lane_is_the_falsification_channel — a lane that can carry a falsifier for a thesis you own is boot-mandatory
 
 ## Closeout-moment rows — embedded → `PROME/CLOSEOUT.md` §Fleet-memory embeds (2026-07-31)
+- finding_a_finding_written_too_abstract_will_not_bind_you — enumerate the STATES; a principle won't bind its own author
 - finding_closeout_as_writeback_tail — codify closeout in the auto-loaded CLAUDE.md, not a standalone doc
 - feedback_intra_day_closeout_discipline — run closeout at EVERY session end, not just end-of-day
 - feedback_handoff_cadence — Will prefers handoffs at natural breakpoints over riding to degradation
@@ -127,6 +128,7 @@
 - finding_grade_execution_only_against_same_timestamp_marks — grading a fill against marks from another time manufactures a fake finding
 
 ## Deep-research method — embed-pending → `AGENTS/DEWEY/CLAUDE.md` (already cited inline there; packet 2026-07-31)
+- finding_a_challenge_that_strengthens_its_target_is_a_success — conclusion survives, evidence replaced IS the finding, not a null
 - finding_deep_research_stale_vintage_headline — the load-bearing headline figure is often a stale VINTAGE; refresh it
 - finding_deep_research_slate_mining — Build deep-research prompt slates by mining agents' SELF-flagged gaps
 - finding_deep_research_primary_pull_owns_three_data_classes — deep research cannot reach paywalled, live-reading, or single-name filings
@@ -157,6 +159,7 @@
 - finding_truncated_read_is_not_a_verification — truncation drops the TAIL, where the exculpatory half lives
 
 ## Rare infra findings (Tier-3 COLD)
+- finding_never_infer_a_documents_subject_from_token_presence — name-in-body is not about; reports all FRESH, goes quiet forever
 - finding_gh_run_watch_exit_status_unreliable — gh run watch --exit-status can lie; confirm via gh run view --json conclusion
 - finding_injection_claim_is_openclaw_vestige — verify a file is actually boot-loaded before calling it load-bearing
 - finding_fdic_securities_filings_api — FDIC securities-filings JSON API (securitiesfilings.fdicconnect.fdic.gov) gives
