@@ -1,0 +1,102 @@
+# PROME/registry/READS.tsv — the DECLARED boot-read manifest: which desk reads which surface, and HOW.
+# Born 2026-08-31 ET (PROME, Will's word in-session 23:09 ET: "lets build READS").
+# ⚠️ IT DOES NOT REPLACE THE PERIMETER HEURISTIC YET, AND MUST NOT BE QUOTED AS IF IT DOES. This is the
+#   DECLARATION half only. `scripts/read_cap_check.py` still derives its perimeter by scanning charters and
+#   will keep doing so until DAEDALUS's R7-stage-2 teaches it to read this file (see PROVENANCE below).
+#   TWO DIFFERENT TOOLS, never call either one "the checker":
+#     · `PROME/tools/reads_check.py`  — consumes THIS file today. Validates + measures what is DECLARED.
+#     · `scripts/read_cap_check.py`   — the fleet read-cap instrument. Does NOT read this file yet.
+#   ⇒ Ruling ④'s interim convention ("READ-CAP 0 within N discovered whole-read files; heuristic perimeter")
+#     REMAINS LIVE for every read_cap_check verdict. It retires only when read_cap_check consumes this file.
+# Canon for the byte budget stays AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md; this file never restates a constant.
+# ⚠️ DATE BASIS: filenames and `declared_on` are ET (PROME's clock). Will's rulings below are stamped
+#   2026-09-01 UTC and were made the same evening, 2026-08-31 ~20:5x ET. Same night, two clocks.
+#
+# RULINGS IT ENCODES (Will, in-session 2026-09-01 in the WALTER window; relayed verbatim-in-substance
+# via AGENTS/WALTER -> PROME/inbox/2026-09-01_from-WALTER_WILL-RULED-the-read-cap-perimeter-question...md):
+#   1. A cross-agent read belongs to the READER's perimeter. ONE PATH MAY APPEAR UNDER SEVERAL READERS —
+#      that is CORRECT, never a duplicate to dedupe. The reader's boot mandates it; the reader pays the context.
+#   2. Declare `reader` · `path` · `mode` · `source_boot_step`. (row_kind/declared_by/declared_on/notes are PROME's additions — see PROVENANCE below.)
+#   3. A programmatic read COUNTS if its CONTENTS ENTER SESSION CONTEXT. If the tool only computes a
+#      bounded output, register `summary` instead.
+#   4. Until this file is consumed by the checker, every verdict travels with its perimeter:
+#      "READ-CAP 0 within N discovered whole-read files; heuristic perimeter" — NEVER simply "clear".
+#
+# STATES / MODE VOCABULARY — `mode` is a claim about THE SESSION, not about the file:
+#   CAP-BEARING (measured against the 32,550 B budget):
+#     whole         a session reads the entire file into context (a Read call, or a step that says so).
+#     programmatic  a script reads it and its CONTENTS land in context (ruling 3's counting case).
+#   NOT CAP-BEARING (declared so the read is VISIBLE, and so nobody later "discovers" it as a breach):
+#     scoped        a named part only — a section, a header, a ToC-first drill (READ_CAP.md rule 8).
+#     grep          matched lines only.
+#     summary       a tool reads it and emits a BOUNDED output; the rows never enter context (ruling 3).
+#   ATTESTATION rows carry mode `manifest-complete` and are NOT reads.
+#
+# ⛔ NO BYTE COLUMN, AND THAT IS DELIBERATE. This file declares WHAT IS READ; the checker MEASURES at run
+#    time. A stored byte figure is a stale mirror within hours — measured 2026-08-31: WALTER/CLAUDE.md step 1
+#    carried IRAN_WAR.md at 20,288 B (live 21,438 B) and step 2 carried MEMORY.md at 46,327 B (live 13,956 B),
+#    both true when written. `finding_plausible_stale_value_evades_review` · READ_CAP.md rule 13.
+#
+# TWO INDEPENDENT DEFECT AXES — do not collapse them. (a) CAP: is a cap-bearing read over budget?
+#   The checker grades this. (b) PROTOCOL ACCURACY: does the boot step's VERB describe the operation
+#   that actually runs? No instrument can grade this — the READER owns it, and declaring `mode`
+#   honestly is where a mismatch becomes visible. A step that says "Read" over a bounded script call
+#   is a defect even when the cap is satisfied (live instance: PROME:BOOT.md-3 over GATES.tsv, below).
+#
+# ⛔ AN UNATTESTED DESK IS *UNKNOWN*, NEVER CLEAN. A desk's manifest is complete only when THAT DESK's
+#    ATTESTATION row says so. Rows without an attestation are a partial perimeter, and a check over a partial
+#    perimeter must report UNKNOWN — reporting clean is the exact defect this file exists to retire
+#    (`finding_instrument_reports_clean_against_the_wrong_reference`).
+# ⛔ WHO MAY ATTEST — the rule that makes the line above enforceable rather than decorative:
+#    AN `ATTESTATION` ROW IS VALID ONLY WHERE `declared_by` == `reader`. PROME may TRANSCRIBE a desk's
+#    attestation (no desk can commit inside PROME/), but must then write the READER's name in `declared_by`
+#    and cite the desk's own statement in `notes`. ⛔ `PROME(from-charter)` can NEVER attest: PROME reading
+#    someone else's charter is INFERENCE, not attestation, and a desk's charter cannot know what its boot
+#    session actually does. Without this rule the ⛔ above is defeated by a single row anyone can type —
+#    found by a blind cold reader who built exactly that row (2026-08-31). Enforced in
+#    PROME/tools/reads_check.py, and the selftest's negative control is a PROME-signed attestation for
+#    another desk, which must NOT clear it.
+#
+# DECLARED OUT OF SCOPE by READ_CAP.md's own "what binds" table — recorded here so the next desk does not
+# re-derive FLG's 8/28 flag: auto-loaded `CLAUDE.md` charters (context cost, not truncation) and
+# `memory/auto/MEMORY.md` (a DIFFERENT 25,600 B auto-load cap — do not conflate the two constants).
+#
+# WRITE PATH: the READER owns its declaration, but no desk may commit inside PROME/ — so a desk declares by
+#   packet to PROME/inbox/ (or at any live touch) and PROME registers the rows. `declared_by` records WHO
+#   asserted each row, because `mode` is the field most likely to be filled in charitably by an author
+#   describing their own tooling (`finding_a_charitable_reading_of_your_work_is_the_one_to_check`).
+# MAINTENANCE: append-only in spirit; retire a row by setting mode `RETIRED-<date>` with the reason in notes,
+#   never by deletion — a read that was dropped is history a stranger needs.
+# PROVENANCE: this file is the DECLARATION half of DAEDALUS's registered R7-stage-2 (~2026-09-14, named in
+#   scripts/read_cap_check.py and READ_CAP.md §Enforcement, and promised to 30 desks in the 8/28 packets).
+#   The CONSUMER half — teaching scripts/read_cap_check.py to read this instead of scanning charters —
+#   stays DAEDALUS's lane (scripts/ grant, 7/31). Packeted 2026-08-31.
+row_kind	reader	path	mode	source_boot_step	declared_by	declared_on	notes
+ATTESTATION	PROME	PROME/BOOT.md	manifest-complete	PROME:CLAUDE.md-Boot-2	PROME	2026-08-31	Enumerated line by line from PROME/CLAUDE.md Boot 1-2 and BOOT.md steps 0-9 (its FULL range — an earlier draft of this cell said "steps 0-6" while row PROME:BOOT.md-8 cited step 8, i.e. a completeness claim over a short enumeration). Steps 7 and 9 mandate NO read (declare state; present proposals) — checked, not skipped. Step 8 reads only STATUS.md's spine-audit header, already covered by its whole-read row, plus WILL_QUEUE's OPEN table, declared separately. IN = every surface a boot step names as a Read. OUT = the two canon exclusions above, plus BOOT.md step 6 conditional-module reads (not boot-mandated; they enter a session only when it travels them).
+READ	PROME	USER.md	whole	PROME:CLAUDE.md-Boot-1	PROME	2026-08-31	Will's operator model. Explicitly NOT auto-injected; every-boot explicit Read.
+READ	PROME	PROME/BOOT.md	whole	PROME:CLAUDE.md-Boot-2	PROME	2026-08-31	The boot protocol itself. Read whole in order to execute it; the /boot skill is an index over it, not a substitute.
+READ	PROME	PROME/HANDOFF.md	whole	PROME:BOOT.md-1	PROME	2026-08-31	Held to 3-5 live entries by its own rotation rule; that is a maintenance bound, not a read scope.
+READ	PROME	PROME/SCRATCH.md	whole	PROME:BOOT.md-2	PROME	2026-08-31	Immediate handoff state plus the operator card.
+READ	PROME	PROME/ACTIVE_DECISIONS.md	whole	PROME:BOOT.md-3	PROME	2026-08-31	Non-terminal decision index.
+READ	PROME	PROME/GATES.tsv	summary	PROME:BOOT.md-3	PROME	2026-08-31	⚠️ PROTOCOL/PRACTICE MISMATCH, DECLARED NOT PAPERED OVER — and note WHICH debt this is. On CAP grounds nothing is owed: a ledger consumed by a script is the cold/on-demand class, where a large file is the split working. The debt is PROTOCOL-TEXT ACCURACY: BOOT.md step 3 says "Read", and what executes is bounded (prome_gate.py's fired-unexecuted / consumed_by / review_by / last_checked checks plus a session awk over the state column) — rows do NOT enter context, and at 161% of budget a literal whole read is not available anyway. PROME owes step 3 a rewrite naming the real operation. A step whose verb does not describe the operation is a defect on its own axis, cap or no cap.
+READ	PROME	PROME/STATUS.md	whole	PROME:BOOT.md-4	PROME	2026-08-31	The only PROME file the read-cap heuristic sees today.
+READ	PROME	HEARTBEAT.md	whole	PROME:BOOT.md-5	PROME	2026-08-31	PROME-facing regime memo, not auto-injected. 95.5% of budget at declaration; its own cadence rule requires the next re-base to be a STRUCTURAL SPLIT.
+READ	PROME	PROME/DOCKET.tsv	summary	PROME:BOOT.md-5	PROME	2026-08-31	Consumed via prome_gate.py boot (overdue-unannotated check). Bounded verdict only; rows never enter context. The catalyst VIEW a session actually reads is SCRATCH's live-catalyst calendar.
+READ	PROME	PROME/WILL_QUEUE.md	summary	PROME:BOOT.md-5	PROME	2026-08-31	Consumed via prome_gate.py boot (due/passed/aging + actionable-cap check). Bounded verdict only.
+READ	PROME	PROME/WILL_QUEUE.md	scoped	PROME:BOOT.md-8	PROME	2026-08-31	SECOND row for the same path under ruling 1's own logic applied within one reader: step 8 requires flagging Will's due items, and a session scope-reads the OPEN table to do it. Two steps, two operations, two rows.
+READ	WALTER	AGENTS/WALTER/STATUS.md	whole	WALTER:1	WALTER	2026-08-31	Live state, NETWORK AWARENESS, FILTER POSTURE.
+READ	WALTER	AGENTS/WALTER/anchors/IRAN_WAR.md	whole	WALTER:1	WALTER	2026-08-31	Load-bearing macro anchor; whole read with headroom after split ③ (2026-08-31). Sibling anchors are explicitly NOT boot reads: IRAN_WAR_GUARDS.md is pre-dispatch on demand, IRAN_WAR_HISTORY.md is grep on demand.
+READ	WALTER	AGENTS/WALTER/MEMORY.md	whole	WALTER:2	WALTER	2026-08-31	MEMORY_PROMOTED.md is explicitly NOT a boot read (grep on demand).
+READ	WALTER	AGENTS/WALTER/LAST_COMPLETION.md	whole	WALTER:3	WALTER	2026-08-31	FOLLOW-UP + OPEN DESIGN DECISIONS; step 3 requires EVALUATING the carried items, not merely reading them.
+READ	WALTER	AGENTS/WALTER/REGISTRY.tsv	whole	WALTER:4	WALTER	2026-08-31	Agent directory; refreshed at step 8.
+READ	WALTER	AGENTS/WALTER/design/ROUTING_TABLE.md	whole	WALTER:6	WALTER	2026-08-31	Whole read that fits after its own split. ROUTING_CARVEOUTS.md is dispatch-time on demand (step 10.7), NOT a boot read.
+READ	WALTER	AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv	whole	WALTER:6b	WALTER	2026-08-31	⭐ THE ROW THAT BOUGHT THIS FILE. Cross-agent: read by WALTER, owned by RED, and in NEITHER desk's heuristic perimeter — WALTER's scan skips paths outside its own tree, RED's boot does not read its own trigger registry. 45,248 B = 139% of budget, and step 6b mandates it EXHAUSTIVELY ("COUNT THE ROWS, DO NOT CARRY A NUMBER HERE"). Under ruling 1 it is WALTER's to declare and RED's to remedy; WALTER's standing proposal to RED is a compact GENERATED scan view.
+READ	WALTER	AGENTS/REGINALD/registry/THRESHOLDS.tsv	whole	WALTER:6b	WALTER	2026-08-31	REG-T triggers. Cross-agent.
+READ	WALTER	AGENTS/CREED/registry/THRESHOLDS.tsv	whole	WALTER:6b	WALTER	2026-08-31	CREED-T triggers, all rows band_status FROZEN under a Will ruling — read, never edit. Cross-agent. Only 5 of 11 are numerically scannable and a clean scan of the 5 does not clear the 11.
+READ	WALTER	AGENTS/HANS/registry/THRESHOLDS.tsv	whole	WALTER:6b	WALTER	2026-08-31	HANS-T triggers. Cross-agent. 6 of 14 auto-gradable; a clean scan of the 6 does not clear the 14.
+READ	WALTER	AGENTS/WALTER/registry/FALSIFICATION_FIRED_LOG.tsv	whole	WALTER:6b	PROME(from-charter)	2026-08-31	Fire-history for stale-fire suppression. Step 6b names it as a bare `registry/` path; resolved at the filesystem to WALTER's OWN registry dir, not RED's.
+READ	WALTER	AGENTS/WALTER/registry/REG_THRESHOLDS_FIRED_LOG.tsv	whole	WALTER:6b	PROME(from-charter)	2026-08-31	Fire-history for stale-fire suppression; same bare-path resolution as the row above.
+READ	WALTER	AGENTS/CREED/registry/CREED_T_FIRED_LOG.tsv	whole	WALTER:6b	WALTER(packet)	2026-08-31	⚠️ CLAIMED IN WALTER'S PACKET, NOT NAMED IN STEP 6b's TEXT. File exists (CREED's tree). Plausibly consumed at step 6c's repeat-fire suppression rather than 6b. WALTER to confirm the step and the mode; registered visible rather than dropped.
+READ	WALTER	AGENTS/HANS/registry/HANS_T_FIRED_LOG.tsv	whole	WALTER:6b	WALTER(packet)	2026-08-31	⚠️ Same as the row above — packet-claimed, absent from step 6b's text, file exists in HANS's tree. WALTER to confirm.
+READ	WALTER	BOARD/INDEX.md	scoped	WALTER:7	WALTER	2026-08-31	⭐ 1.6 MB and CORRECTLY NOT A BREACH — step 7 reads the cluster ToC first, then drills only into clusters with new signals, with the mitigation written into the step. Registered precisely so a future session cannot "discover" a 4,933%-of-budget violation and re-litigate a settled design.
+READ	WALTER	AGENTS/WALTER/design/EVENT_WINDOW_STATE.md	whole	WALTER:7b	WALTER	2026-08-31	OPEN/CLOSED window posture; carries its own >7d stale-gate.
