@@ -52,7 +52,7 @@
 22. `[[finding_roster_change_propagates_to_all_surfaces]]` — after any promotion, ask whether a trigger in the PARENT's registries names the promoted entity as its METRIC.
 23. `[[finding_push_train_hides_a_failed_commit]]` — **path existence is NOT a push receipt**; use the ahead/behind count + a content grep.
 
-**⚠️ ONE ITEM IS OWED, NOT PLACED:** the **two-branch-test-sharing-a-premise** finding (2026-08-03 — *write the premise BOTH branches rest on, as a sentence, and ask whether it is observed or assumed*) belongs in `FORGE/PREDICTION_DISCIPLINE.md`, which is **PROME-owned**. WALTER cannot file it. **Packet written to `PROME/inbox/` this session; it stays on this list until PROME lands it.**
+**✅ RETIRED 2026-09-01 — the two-branch-test-sharing-a-premise finding (2026-08-03) is PLACED:** PROME landed it as the n=5 extension of `[[finding_enumerated_mechanism_test_hides_a_completeness_claim]]` (8/31 night, packet filed to WALTER 9/1) and the test now sits in bold in `FORGE/PREDICTION_DISCIPLINE.md` § Registration. *(Was: "owed, not placed — WALTER cannot file to a PROME-owned surface." The obligation discharged the way it was supposed to: a packet, then the owner's write.)*
 
 ## References
 
