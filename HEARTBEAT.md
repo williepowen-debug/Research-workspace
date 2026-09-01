@@ -54,7 +54,7 @@ NVDA **$219.73 [8/31] (+1.00%)** after −4.57% on 8/28. Q2 FY27 crushed [8/26]:
 GLD **$408.42 [8/31]**, 16sh riding the fired direction, unprotected.
 
 ## ⛔ KERNEL — SITTING 2 BLOCKED 9/1 (see Amendment #1)
-**Carve-out ④ INACTIVE — zero live activation packets** (four dated ones revoked 8/27; seven DRAFTs at `TO-BE-RULED`). ⛔ Kill-on-sight: *"a DRAFT packet with `revoked_at: null` is live."* **Sole precondition = WQ-103: a NEW Will-ruled half-open UTC window with PROME live at its open to mint the dated non-DRAFT packet.** MIDAS's `outcome_value` READY (a) and already submitted. Record → DOCKET row 233 · DAEDALUS verdict `AGENTS/DAEDALUS/reports/2026-09-01_GATE_C_SITTING2_STOP_VERDICT.md`.
+**Carve-out ④ INACTIVE — zero live activation packets** (four dated ones revoked 8/27; seven DRAFTs at `TO-BE-RULED`). ⛔ Kill-on-sight: *"a DRAFT packet with `revoked_at: null` is live."* **WINDOW RULED 9/1 18:13 (WQ-103): `[2026-09-02T14:00Z, 17:00Z)` — PROME mints A–E at the 10:00 ET open, then RED verifies.** MIDAS's `outcome_value` READY (a) and already submitted. Record → DOCKET row 233 · DAEDALUS verdict `AGENTS/DAEDALUS/reports/2026-09-01_GATE_C_SITTING2_STOP_VERDICT.md`.
 
 ## Book state (mirror = `FORGE/STATUS.md`, reconcile vintage in ITS header; **$0 moved by PROME 8/28–8/31**)
 - Fidelity IRA **$36,457.14** · cash **$13,600.67** · pending $722.58 · **3 QQQ @ $714.75** [FORGE reconcile 8/29 to Fri 8/28 close]. Robinhood $414.81; **the QQQ 715P expired today (8/31)** — QQQ closed $714.28, i.e. it expired slightly IN the money; ⚠️ **disposition is Will's own hand and is NOT confirmed on any repo surface.**
