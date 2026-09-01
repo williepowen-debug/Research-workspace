@@ -121,3 +121,13 @@ LIVE ⚠️ **NOT the FIRED-UNEXECUTED class — do not read it as blocking:** t
 entry-crc32: 3655924124 · bytes: 1101 · compacted 2026-08-29 (WQ-131)
 
 RESOLVED(FIRED 2026-08-27 on Will's verbatim in-session word 'SREIT fire' [~19:5x ET evening session] — FIRST FIRE of the band. THE EVENT: SREIT ($22.5B NAV REIT) suspended repurchases effective 2026-04-29, 8-K accession 0001193125-26-192168, PRIMARY-READ under the Decision-2 authorized UA before ruling. THREE DATES ON THE RECORD per Decision 1: event 2026-04-29 / band authored 2026-07-27 / adjudicated 2026-08-27 at the word — neither backdated nor dressed as fresh; the fire strikes at adjudication. Provenance: VX-5.01's 7/27 'fund gates NOT yet seen / 0' was FALSE WHEN WRITTEN and survived a dedicated sweep + self-audit + the 8/27 build; CREED found it via VULCAN's lens, declined to self-adjudicate on source-tier + authorship-conflict grounds [correct], and the propagation check on the false zero came back CLEAN — nobody cited it; the real find = the CREED-BROCK coverage seam. Consequence EXECUTED at ruling: this row + CREED fire-ledger packet + LIQUID action packet + BROCK info packet, all three desks DARK at execution [ListAgents-verified 19:5x] so packets ride their inboxes)
+
+## GATE-TERRY-007 — superseded 2026-09-01 (PROME boot consumer read)
+entry-crc32: 1960777774 · bytes: 187 · superseded 2026-09-01
+
+LIVE — 004 TLT Sep-30 77P exit counter 0 of 5 on every published DGS10 official (window low 4.63); 8/26–27 = PROME consumer reads, TERRY grades next boot · hist→GATES_STATE_HISTORY
+
+## GATE-REG-T02 — superseded 2026-09-01 (PROME boot consumer read)
+entry-crc32: 3834766218 · bytes: 160 · superseded 2026-09-01
+
+LIVE — UN-FIRED (owner re-grade 8/23; 8/28 close WAL $78.55 = $0.55 above the <78 one-close line); next evaluable close Mon 8/31 · hist→GATES_STATE_HISTORY
