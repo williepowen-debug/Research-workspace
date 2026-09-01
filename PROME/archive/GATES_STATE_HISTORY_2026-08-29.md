@@ -141,3 +141,8 @@ FIRED-UNEXECUTED — WAL $77.26 [9/1 close, yfinance, PROME CONSUMER read] < $78
 entry-crc32: 252794620 · bytes: 202 · superseded 2026-09-01
 
 LIVE — 004 TLT Sep-30 77P exit counter 0 of 5 on every published DGS10 official (4.75 [8/31]; window low 4.63); 8/26–8/31 = PROME consumer reads, TERRY grades next boot · hist→GATES_STATE_HISTORY
+
+## GATE-FALCON-001 — superseded 2026-09-01 (owner re-read at the combined touch)
+entry-crc32: 1769940778 · bytes: 211 · superseded 2026-09-01
+
+LIVE — leg 3 (Yanbu) FIRED 8/15; leg 2 open (owner re-read 8/31: NOT FIRED); 8/17 discriminator R3 = HOLD on corrected grounds (magnitude imputed); PortWatch chokepoint6 impeached · hist→GATES_STATE_HISTORY
