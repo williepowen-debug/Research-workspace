@@ -100,6 +100,7 @@ Agents share one working directory and branch. **GitHub is the single source of 
 3. Optional: `git diff --cached --stat` between add and commit.
 4. **Never `git reset HEAD`** — shared index; it is a global unstage.
 4b. **Never `git commit --amend`** — amend rewrites whoever holds HEAD, which with concurrent sessions may not be you. A damaged message over a correct tree is documentation debt — note it in the next commit, never rewrite. Write messages via quoted heredoc to a file (`cat > /tmp/msg.txt <<'EOF'` … `git commit -F /tmp/msg.txt`) so nothing shell-expands.
+4c. **A commit with no pathspec commits WHATEVER THE SHARED INDEX HOLDS** — another session's staged renames included — and `git commit --allow-empty -m "..."` is the dangerous form because it *succeeds either way*, so a "note-only" marker silently sweeps the index. For a marker commit, name a clean tracked path you own: `git commit --allow-empty -F /tmp/msg.txt -- AGENTS/<YOUR_NAME>/STATUS.md` (only that path's changes, if any, are committed). Fallback only: confirm `git diff --cached --name-only` prints nothing immediately before committing — it is check-then-act on a shared index, so prefer the pathspec. *(WQ-96, Will 2026-09-01; cold-read verified empirically.)*
 5. **Pre-commit sanity check (mandatory):** `git status -- AGENTS/<YOUR_NAME>/` — no dangling deletions (bash-`mv` residue; use `git mv`), no unstaged new files you meant to include, nothing staged outside your dir.
 
 **Before pulling:**
