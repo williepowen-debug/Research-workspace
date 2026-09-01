@@ -20,7 +20,8 @@ TERRY_DIR = SCRIPTS_DIR.parent
 WORKSPACE = SCRIPTS_DIR.parents[2]
 
 REQUIRED = [
-    "CLAUDE.md", "README.md", "STATUS.md", "RISK_RULES.md", "TRADE_CARD_TEMPLATE.md",
+    "CLAUDE.md", "README.md", "STATUS.md", "RISK_RULES.md", "RISK_SCORING.md", "TRADE_CARD_TEMPLATE.md",
+    "TRADE_CARD_TEMPLATE_FIRE.md",  # both added 2026-09-01 (DAEDALUS 8/28 sweep item 2): boot step 4 + CONTRACT block name them
     "POSITION_INTAKE.md", "CHART_OPTIONS_WORKFLOW.md", "TRADE_BOOK.md", "SETUPS.tsv", "SIGNALS.tsv", "POSTMORTEMS.md",
     "scripts/boot.py", "scripts/snapshot.py", "scripts/risk_calc.py", "scripts/chain_parse.py",
     "scripts/ledger_sweep.py",
@@ -275,10 +276,15 @@ def run(args):
         if d:
             days = (today - d).days
             age = f"{days}d"
-            if st in {"LIVE", "LIVE-WEAK"} and days > SIGNAL_STALE_DAYS:
-                flag = "  ⚠ STALE >21d — re-verify or retire"
-            elif st == "DECAYING" and days > SIGNAL_STALE_DAYS:
+            # 2026-09-01 (DAEDALUS 8/28 wiring-sweep ⑳): the STALE flag gated on an EXACT set
+            # {"LIVE","LIVE-WEAK"} / "DECAYING" while _is_active() above was widened 7/30 to a
+            # SUBSTRING test -- so a row could be counted active and never earn its retirement
+            # warning (live 8/28: 3 of 12 active rows at 65d/36d/39d printed with NO flag, one of
+            # them literally labelled LEVELS-STALE). Split-brain fix: same substring test here.
+            if "DECAYING" in st and days > SIGNAL_STALE_DAYS:
                 flag = "  ⚠ decaying >21d — reconfirm before use"
+            elif "LIVE" in st and days > SIGNAL_STALE_DAYS:
+                flag = "  ⚠ STALE >21d — re-verify or retire"
         print(f"  - [{r.get('source')}] {r.get('signal_id')} [{st}] {r.get('bears_on')} | {r.get('key_level')} | as_of {r.get('as_of')} ({age}){flag}")
     for r in unknown:
         print(f"  ? [{r.get('source')}] {r.get('signal_id')} [{(r.get('status') or '').upper()}] "

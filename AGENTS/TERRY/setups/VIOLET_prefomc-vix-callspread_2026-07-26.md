@@ -792,9 +792,11 @@ I published, and told Will in conversation, that *"my limit-setting on liquid ve
 
 VIOLET re-derived it rather than accept my relay (OLS, ΔM1 on ΔVIX, **n=246** CBOE settlements from `VX_M1_HISTORY.tsv`):
 
+> ⚠️ **CORRECTED 2026-09-01 (VIOLET 8/27 packet, consumed 9/1 — desk dark in between):** the **0.274** row below was a **bucketing bug in VIOLET's own OLS** — the "21–35 DTE" bucket had no upper cap and pooled 136 observations at DTE > 60 (β ≈ 0.16) under a 21–35 label. Correctly capped, the same sample gives **0.531 (n=48)**; the canonical 13-yr all-contract figure is **0.500 (n=1,615, R² 0.706, KB-VIO-208)**. The ≤10 and 11–20 rows reproduce and stand. **The tenor-gradient conclusion — the load-bearing part — SURVIVES** (0.643 → 0.653 → 0.500 → 0.448 → 0.327 across ≤10 / 11–20 / 21–35 / 36–60 / 61–90 DTE), and every construction read on this card that used the gradient is unchanged; this card lived at ≤10 DTE, where β is now **0.643** (higher, not lower). Table below kept as the dated record, first row struck. `[[finding_asymmetric_rigor_counterparty_claims]]` n+1 (VIOLET's own words: *"verifying the number you retract on is not paranoia"*).
+
 | M1 tenor | beta | n |
 |---|---|---|
-| 21–35 DTE | **0.274** | 200 |
+| 21–35 DTE | ~~**0.274**~~ → **0.500** (canonical KB-VIO-208, n=1,615; 0.531 on this sample correctly capped) | ~~200~~ (mislabelled: was DTE ≥ 21 unbounded, n=201) |
 | 11–20 DTE | 0.505 | 27 |
 | **≤10 DTE** | **0.591** | 19 |
 | pooled | 0.345 | 246 |
