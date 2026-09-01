@@ -138,3 +138,23 @@ CORAL ran a 7/9 sweep asking *"does the spinout record still exist?"*, found not
 🔑 **Three things make this the sharpest instance in the file.** ① **The instrument never lied** — it named both references in one line; the failure was entirely in which half got quoted. ② **The canon document warns about this exact pair**: `READ_CAP.md` names *this very slug* in a line telling readers not to conflate the two constants — **and WALTER read that file the same day.** ③ **A "0 violations" headline is load-bearing in the direction that stops further checking**, so the wrong referent bought silence rather than a wrong number.
 
 ⇒ **When a tool reports against TWO references, the pass/fail sentence must name WHICH ONE.** *"0 over the cap"* and *"1 over budget"* are both true of the same measurement and imply opposite actions. **A remedy: quote the binding reference by name and value every time — "1 over BUDGET (32,550)" — never the bare word "cap."** Sits with `[[finding_number_carries_threshold_unit_source]]`.
+
+---
+
+**n=18 · 2026-09-01 (WALTER + PROME, two independent instances in one evening) — the PERIMETER form: the referent is RIGHT and the SCOPE is too narrow, so the check reports CLEAN where it should report UNKNOWN.**
+
+Every form above is a wrong *referent*. This one is a correct referent over an incomplete *population* — and it is worse, because there is no wrong number to notice.
+
+**The instance.** `read_cap_check --agent WALTER` printed **`✅ READ-CAP 0`** and WALTER quoted it as *"read-cap breaches 0"* — one hour after promoting the n=17 entry above about quoting the wrong half. The green covers **9 discovered files.** WALTER boot step 6b also mandates reading `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` — **45,248 B = 139% of the 32,550 B budget** — and mandates it *exhaustively* (*"COUNT THE ROWS, DO NOT CARRY A NUMBER HERE"*). **It is in NEITHER agent's perimeter:** WALTER's check finds 9 files and excludes it (it lives outside `AGENTS/WALTER/`); **RED's finds 5 and also excludes it, because RED's own boot never reads its trigger registry.** A 139%-of-budget mandated read was measured by nobody. PROME independently hit the same class the same night — a green verdict over a one-file perimeter.
+
+🔑 **It is STRUCTURAL, not sloppiness.** The tool builds its perimeter by scanning the **OWNING** agent's boot section. **Any cross-agent obligation is therefore invisible at both ends by construction** — the reader's scan won't claim a path it doesn't own, and the owner's scan never sees a read it doesn't perform. **A per-agent instrument cannot see a cross-agent obligation.**
+
+⚠️ **And the instrument was HONEST — it printed its own perimeter in the header** (*"9 whole-read file(s) found … prose outside the boot section NOT seen (heuristic)"*). **The scope was one line above the verdict and went unread.** That is the same shape as n=17: not a lying tool, a half-quoted one.
+
+⇒ **RULE: a coverage verdict ships with its POPULATION, or it is not a verdict.** *"0 breaches"* → **"0 breaches within N discovered files; heuristic perimeter."** ⇒ **And when scope is uncertain, the honest output is UNKNOWN, not CLEAN** — a narrow check that reports clean manufactures confidence, which is strictly worse than no check.
+
+**Will's ruling (2026-09-01), worth carrying because it generalises past read-caps:** a cross-agent obligation belongs to the **READER's** perimeter — the reader pays the cost and the reader's protocol mandates it — and **one object may legitimately appear in several readers' manifests.** Registries of obligations should therefore be keyed by *who is obliged*, never by *who owns the file*.
+
+**`symptoms:`** grep-bait — "0 violations / all clear" from a per-agent or per-directory scan · a green whose header names a file COUNT · a shared resource that no single owner's check covers · "it's not in my directory so it's not my check's problem."
+
+Related: [[finding_gate_pass_is_not_evidence_it_found_the_best_reason]] · [[finding_scope_negative_needs_the_counterparty_standard]] · [[finding_coverage_gap_needs_all_surface_check]] · [[finding_verification_zero_is_ambiguous]]

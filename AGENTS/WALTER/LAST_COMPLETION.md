@@ -13,6 +13,7 @@
 - **Guard corpus 22 → 23 — `IRAN_WAR_GUARDS.md` ADD#23**, the `BZ=F` roll trap, lifted out of dated stamps **before** the rotation.
 - **`STATE.md` §1 updated** for both spec bumps (`version_drift` clean). **4 live consumers swept.**
 - **PROME packet filed** — 3 asks (prediction-canon candidate · hot-index headroom · 3 COLD-tier promotion flags).
+- 🔴 **POST-CLOSEOUT: self-correction + Will's 5 rulings actioned.** `READ-CAP 0` is a **9-file** verdict; `AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv` (**45,248 B = 139% of budget**, mandated by boot 6b) is in **no** perimeter. Ruling 4 adopted in `CLAUDE.md` 1 + 6b and `STATUS.md`; `READS.tsv` schema → PROME; generated-scan-view proposal → RED (+ `DOORBELL_LOG` row, dark, not doorbelled). Auto-memory `finding_instrument_reports_clean_against_the_wrong_reference` → **n=18**, PERIMETER form.
 
 ## RESULT
 🔴 **THE ANCHOR'S LEAD CONTRADICTED ITS OWN CURRENT ADDENDUM, AND THAT IS THE REAL FIND.** The 8/26 top-of-file block asserted *"the strikes pause EXTENDED through 8/25 to ~26 consecutive nights"* and directed readers to *"READ ADDENDUM #21 before citing any state-claim"* — while **ADDENDUM #22, in the same file, records the pause BROKE on 8/30** and re-derives it as **~32 nights, 7/29 → 8/30**. **Read-the-lead-and-stop returned a state the file itself refutes 90 lines down.** That is the concrete operational cost of a surface too big to re-read whole, and it is why the size trigger is not bookkeeping.
@@ -67,7 +68,7 @@
 - 3 doctor `action_line_rule` LOWs unresolved (SIG-...819-007 MARCO · 819-019 HOMER · 828-040 HENRY).
 
 ## FOLLOW-UP
-0. 🔴 **Quote `READ-CAP n` WITH ITS FILE COUNT, always.** And carry the RED trigger-registry finding until PROME rules on whether a cross-agent mandated read belongs in the READER's perimeter (my view) or the OWNER's. **RED is dark and was deliberately NOT doorbelled** — nothing decays before it boots, the triggers stay readable, and a 00:2xZ doorbell on a hygiene finding is an over-doorbell. Considered decline, not an oversight.
+0. ✅ **RULED — cross-agent reads belong to the READER's perimeter (Will, 2026-09-01).** Standing: quote `READ-CAP n` **within N discovered whole-read files, heuristic perimeter** — never "clear." **Open until `READS.tsv` lands (PROME) and RED rules on the generated scan view.** **RED is dark and was deliberately NOT doorbelled** — nothing decays before it boots, the triggers stay readable, and a 00:2xZ doorbell on a hygiene finding is an over-doorbell. Considered decline, not an oversight.
 1. 🔴 **Work-order item 3 — NAMED-CHECK MIGRATION + `BOOT_PROTOCOL` §21 cleanup.** Will ruled **named checks rather than renumbering**, which dissolves the duplicate-`24` ambiguity instead of relabelling it. **The next session's headline job.**
 2. 🔴 **Route or explicitly kill the 3 unrouted lane breaches**, then `intake_scan.py --mark`.
 3. **Chase, don't re-ask:** ZHAO (9/08 dependency) · WATT · VULCAN · SAM · CREED.
