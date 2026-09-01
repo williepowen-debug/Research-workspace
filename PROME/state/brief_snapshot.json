@@ -10,8 +10,8 @@
   "War theaters + tariffs + housing": "crit"
  },
  "docket": {
-  "2026-08-31": "\ud83d\ude80 KERNEL SITTING 2 (Monday, post-16:15 ET rec)",
   "2026-09-01": "FORUM fin-cond T3: decoupling Test A first adequately-powered read (20-se\u2026",
+  "2026-09-02": "\ud83d\ude80 KERNEL SITTING 2 (Monday, post-16:15 ET rec)",
   "2026-09-03": "SAM full JGB curve-attribution grade on the 30Y JGB auction",
   "2026-09-04": "Tricolor criminal: privilege-log schedule ladder (8/7 \u2192 8/14 \u2192 8/21 \u2192 8/2\u2026",
   "2026-09-05": "CRUISE arm-CCL ladder disposition RECONSIDER-BY (row-55 ruling 8/21): the\u2026",
@@ -37,7 +37,7 @@
   "GATE-NEXUS-SEAT-01": "LIVE",
   "GATE-OP-SCALE-01": "LIVE",
   "GATE-OSPREY-001": "LIVE",
-  "GATE-REG-T02": "LIVE",
+  "GATE-REG-T02": "FIRED",
   "GATE-RESHAPE-BC": "RESOLVED-FIRED",
   "GATE-SAM-30": "RESOLVED",
   "GATE-TERRY-006": "RETIRED",
@@ -45,6 +45,8 @@
   "GATE-TERRY-ARM1": "RESOLVED",
   "GATE-TERRY-ARM2": "RESOLVED",
   "GATE-TERRY-ARM3": "RESOLVED",
+  "GATE-TERRY-ROLL70": "LIVE",
+  "GATE-TERRY-USO135C": "LIVE",
   "GATE-VIO-110": "LAPSED",
   "GATE-VIO-116": "RESOLVED",
   "GATE-VIO-RV1": "RETIRED"
@@ -55,33 +57,10 @@
   "vintage": "2026-08-29"
  },
  "queue": {
-  "100": "ODCE/$1B \"major fund\" forward definition for VX-5.03/T-06b \u2014 CREED au\u2026",
-  "103": "\u2696\ufe0f KERNEL SITTING-2 WINDOW \u2014 the ONLY remaining precondition. State t\u2026",
   "104": "CARL-DR-1 class-wide-kill AGGREGATION RULE \u2014 now DECISIVE and deliber\u2026",
-  "105": "NEXUS amendment 12 \u2014 routing-first ordering extended to the FULL brie\u2026",
-  "106": "\ud83d\udfe0 FIVE persistence counts sit on ONE level (HY OAS 260) across the fl\u2026",
-  "107": "OTTO's CARL-V2 downgrade-leg table (SIG-W-20260828-004) is REGISTERED\u2026",
-  "109": "DAEDALUS 8/28 sweep proposals P1\u2013P5 (bundled; evidence RUN_RECORD \u00a79)\u2026",
-  "111": "WALTER proposal: PREVENTION-class findings need a PUSH surface \u2014 the\u2026",
-  "112": "CANON GAP: FORGE/PREDICTION_DISCIPLINE.md has NO scoring-vintage rule\u2026",
-  "114": "GATE-LIQ-069: two legs carry UNNAMED sub-thresholds and are unfalsifi\u2026",
-  "115": "WALTER: a correct BLS-403 answer sat unreachable for 57 days inside a\u2026",
-  "116": "BROCK: two of its own registered lines need a re-spec, and thresholds\u2026",
-  "117": "DAEDALUS three-encodes bundle (8/28 late packet \u00a74) \u2014 A HANS finding_\u2026",
   "133": "PROME hygiene carry (BOOT step 8: owed items leave SCRATCH after the\u2026",
-  "142": "DFII10 NO-VERDICT band \u2014 ratify for SUCCESSOR rows (the re-registrati\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026",
   "74": "Row-58 oil exit LEVELS return for ratification \u2014 the 8/21 ruling chos\u2026",
-  "84": "Rule-6b leg 3b \u2014 WALTER's re-score came back WRONG-not-stale, and it\u2026",
-  "86": "Rule gap, demonstrated TWICE IN ONE DAY IN OPPOSITE DIRECTIONS: nothi\u2026",
-  "87": "\ud83d\udd34 OSPREY's 8/17 ruling contains a conflict between its OPERATIVE TEST\u2026",
-  "88": "\ud83d\udfe0 GATE-LIQ-076's W1 leg reported NOT FIRED every week while the posit\u2026",
-  "91": "MIDAS moving-referent CLASS ruling \u2014 I1 bands (median drifted +45%/18\u2026",
-  "92": "VX-CREED-4.01 baseline not reproducible from its cited source \u2014 row c\u2026",
-  "94": "TERRY rule-#20 management write-up for the HELD USO 135C \u00d72? A named\u2026",
-  "95": "Archive TRY-WILL-QQQFADE? Parked 7/30 setup, $0 at risk, moot by its\u2026",
-  "96": "Root-canon candidate line (Will-gated doc): \"note-only commits still\u2026",
-  "98": "FFIEC hand-carry (broker half DELIVERED 8/29: screenshot pair + activ\u2026",
-  "99": "Which composition-failure definition governs the TLT-put ADD re-arm i\u2026"
+  "98": "FFIEC hand-carry (broker half DELIVERED 8/29: screenshot pair + activ\u2026"
  }
 }
