@@ -251,7 +251,7 @@
 - finding_governance_doc_stale_default_drift
 - finding_status_spine_staleness_under_appended_top
 - finding_passive_surface_rot_push_not_dashboard
-- finding_roster_change_propagates_to_all_surfaces
+- finding_roster_change_propagates_to_all_surfaces — the surface a sweep cannot catch = the PARENT threshold registry [n=3; promo flag 9/1 DECLINED — hot at 74%]
 - finding_reconcile_match_on_key_not_substring
 - finding_owned_surface_without_a_ledger_destroys_history — ownership ≠ retention
 - finding_proposed_rule_must_be_canon_tested — canon-test a NEW rule before downstream is written against it
@@ -308,7 +308,7 @@
 - finding_outside_this_rail_disclosure
 - feedback_refuse_rail_scope_creep
 - feedback_evidence_standalone
-- finding_board_lags_agents_not_vice_versa
+- finding_board_lags_agents_not_vice_versa — ahead/behind is per-LEG, not per-agent [n=2; promo flag 9/1 DECLINED — hot at 74%]
 - feedback_check_domain_owner_before_messaging
 - feedback_check_recipient_before_sharing
 - finding_coordinator_packet_position_row_staleness
@@ -349,7 +349,7 @@
 - finding_number_carries_threshold_unit_source *(embedded → STRICT_TEXT rule 7 by name + root Output Canon "no naked numbers")*
 - finding_registry_names_a_concept_tool_resolves_an_instrument — diff the registry against the code; n=4 in one day [embedded→STRICT_TEXT r7]
 - finding_deliberate_and_unnoticed_asymmetry_look_identical — read the RATIONALE before flagging [embedded→CHECK_STANDARD §6]
-- finding_standing_guard_is_a_false_negative_risk — a guard against a known FP waves away the real event [embedded→CHECK_STANDARD]
+- finding_standing_guard_is_a_false_negative_risk — a guard against a known FP waves away the real event [embedded→CHECK_STANDARD] [n=4 forms; promo flag 9/1 DECLINED — embedded, hot at 74%]
 - finding_verification_zero_is_ambiguous — NO findings ⊇ "read nothing"; a check certifies SCOPE [embedded→CHECK_STANDARD]
 - finding_unfetched_is_not_unavailable — UNCHECKED ≠ UNAVAILABLE — classify before "blocked" [embedded→CHECK_STANDARD §8]
 
