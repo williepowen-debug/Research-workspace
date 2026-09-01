@@ -7,3 +7,4 @@
 # ⇒ Cite ONLY for "did X ever fire, and on what print" — never for "is X fired now."
 trigger_id	fired_date	metric_value_at_fire	dispatched_signal_id	sustain_confirmation
 REG-T-02	2026-05-11	76.95	SIG-W-20260511-037	sustain=1-met-binary-fire
+REG-T-02	2026-09-01	77.26	OWNER-GRADED-REGINALD (no WALTER SIG; routed by owner: AGENTS/WAL/inbox + PROME/inbox will-leg + AGENTS/SIGNALS.md row 2026-09-01; letter AGENTS/REGINALD/registry/NOTES.md §REG-T-02)	sustain=1-met-binary-fire-regular-session-close-first-sub-78-close-of-cycle-2-since-6-30-exit-KRE-72.62-REG-T-01-unfired-attribution-SECTOR-day-WAL-minus-1.11pct-vs-KRE-minus-1.28pct
