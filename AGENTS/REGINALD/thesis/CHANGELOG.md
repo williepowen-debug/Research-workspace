@@ -302,3 +302,21 @@ The thesis evolved through multiple sessions prior to formal change tracking. Ke
 
 *~~Thesis → `THESIS.md`~~ → **RETIRED 2026-08-13. Thesis state → `../STATUS.md` (canonical). Archived original → `../archive/thesis_THESIS_v1.4_2026-04-16.md` (history only).***
 *Timeline → ⛔ RETIRED 2026-08-20 (R2). Forward dates → `CALENDAR.md`; archived original → `archive/thesis_TIMELINE_v1.4_2026-04-02.md`.*
+
+---
+
+## 2026-09-01 — `REG-T-02` FIRED (WAL $77.26 close) — thesis-STATE change on `STATUS.md#wal-v1v3-thesis`; the mechanism claim did NOT move
+
+**Authority:** owner grade, REGINALD, at the registered instrument (`registry/NOTES.md §REG-T-02` ruling 2026-09-01). Logged here because the trigger's `threshold_thesis_ref` is the WAL V1/V3 leg of the thesis-canonical `STATUS.md`, and a registered-trigger state flip is a thesis-state change under the RE-SCOPED rule (2026-08-20).
+
+**Old view → new view:**
+
+| Until 9/1 | From 9/1 |
+|---|---|
+| `REG-T-02` **UN-FIRED** since the 6/30 exit; seven closes above the line 8/21→8/31 (79.67 → 78.13), buffer quoted per close | **FIRED** on the 9/1 close ($77.26, 0.95% below); **cycle 2 open**; exit `≥81.90 ×3` LIVE (0-of-3). Sub-78 re-entries suppressed. |
+| "WAL <$78 = hidden-CRE thesis accelerating" (KEY THRESHOLDS implication, unchanged wording since spring) | **The LEVEL fired; the MECHANISM did not.** V1 (MI3) disconfirmed 8/7 (<25% ×12q); V3 (NDFI) 11-for-11 no reserve build Q2; 9/1 was a sector day (WAL −1.11% < KRE −1.28%, cohort median, ρ(PC-NDFI, move) +0.253). The `V1V3-ACCELERATE` routing is executed as a **letter obligation**, with the attribution attached so it cannot be re-read as evidence. |
+
+**Not changed:** severity CONCENTRATED-not-tier-wide (matrix v2.0), no threshold, no prediction confidence, no matrix score. **What is now live that was not:** the exit condition (graded every close) and a Will decision on the Sep-18 67.5/70P pair (routed).
+
+### Also 2026-09-01 — the last open row of the retired `TIMELINE.md` closes: First Brands auction recovery → **RESOLVED-BY-SUPERSESSION (2026-08-24, Ch.7 conversion ordered)**
+The 8/20 R2 retirement left one branch point open (Mar 31 First Brands auction recovery, 40% line). BROCK 8/28: the recovery was **never established as an auction print**, but the question it proxied — permanent charge-off vs temporary mark — is answered at the docket: plan confirmation **DENIED 2026-08-24** (Dkt 3710, Lopez), all debtors ordered to **Chapter 7** (Dkt 3722); marks 13-16¢ senior / ~0.4¢ 2L [Feb-2026] ⇒ **below 40%, and the reorganisation path that was the only route above the admin-expense floor is gone.** Resolves in the pre-registered direction (permanent charge-offs). ⚠️ Guard carried: the **$237M / 15-BDC figure is PAR, not carrying value** — remaining markdown capacity ~$31-38M sector-wide (BROCK, upper bound, estimate). Not edited into the archived TIMELINE (history stays byte-intact); recorded here and in ROADMAP §Recently Resolved.
