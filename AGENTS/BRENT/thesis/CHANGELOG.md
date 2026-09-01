@@ -8,6 +8,11 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-01 — BRT-26 confidence field: WQ-112 applied (no thesis version change)
+- **Old view:** Confidence field `60% [Date_Made 2026-05-31] -> ~58% [re-marked 2026-07-28 per grade-note; field updated 2026-08-28]` with no fleet rule on which value scores.
+- **New view (Will 2026-09-01 17:22 via PROME, WQ-112):** the LATEST dated pre-resolution mark in the machine field governs scoring ⇒ **58% [7/28] scores**; 60% [5/31] retained and reported separately as first-call calibration. The 7/28 re-mark is evidenced as written that day by commit `09d0ea03e` (2026-07-28) and was entered in the field with its date on 8/28 (`8297c1314`). Intermediate narrative marks (Jun-1 ~50, Jun-7 52–55, Jun-20 ~55, Jul-1 50–55) are superseded, not scoring marks.
+- **BRT-30:** checked 9/1, not graded (resolves 10/26 on the circular number; JWLA-034 still newest). THESIS stays v5.7.
+
 ## 2026-08-21 (Fri, ~15:5x ET) — **⚖️ WILL RULING ENCODED: `KILL-LEG2-TRANSIT` RETIRED, `KILL-LEG2-JWC-LISTING` REGISTERED. NO THESIS VERSION CHANGE (stays v5.7).**
 
 **Ruled by Will 15:52 ET, all three decisions per BRENT's own recommendations unmodified** — verbatim **"yes retire" · "yes ok" · "ok yes"**. Ruling of record: `PROME/proposals/2026-08-21_kill-leg2-transit-respec-RULED.md`. Verified at the artifact and on origin (`c29eff56e`) before encoding — **a relayed operator word does not clear a gated surface on its own.**
