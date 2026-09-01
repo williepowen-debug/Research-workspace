@@ -131,3 +131,8 @@ LIVE — 004 TLT Sep-30 77P exit counter 0 of 5 on every published DGS10 officia
 entry-crc32: 3834766218 · bytes: 160 · superseded 2026-09-01
 
 LIVE — UN-FIRED (owner re-grade 8/23; 8/28 close WAL $78.55 = $0.55 above the <78 one-close line); next evaluable close Mon 8/31 · hist→GATES_STATE_HISTORY
+
+## GATE-REG-T02 — superseded 2026-09-01 (owner grade replaces the PROME consumer read)
+entry-crc32: 35489089 · bytes: 214 · superseded 2026-09-01
+
+FIRED-UNEXECUTED — WAL $77.26 [9/1 close, yfinance, PROME CONSUMER read] < $78.00 ⇒ FIRST FIRE of new cycle; owner REGINALD dark, grade + V1V3-ACCELERATE routing owed (spawned 9/1) · hist→GATES_STATE_HISTORY
