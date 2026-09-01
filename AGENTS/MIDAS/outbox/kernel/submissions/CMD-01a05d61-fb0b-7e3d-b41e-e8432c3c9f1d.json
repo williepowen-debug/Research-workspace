@@ -1,0 +1,48 @@
+{
+  "schema_version": "kernel.schema.1",
+  "policy_version": "kernel.policy.1",
+  "command_id": "CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d",
+  "command_type": "ProposeResolution",
+  "actor_id": "MIDAS",
+  "submitted_at": "2026-09-01T14:31:37.487864Z",
+  "expected_version": 2,
+  "target_stream_id": "QS-Q-019306a1-4c00-7000-8000-00000000006a",
+  "correlation_id": "gate-c-midas-06-increment2",
+  "caused_by": null,
+  "depends_on": [
+    "CMD-019306a1-4c00-7000-8000-00000000006c"
+  ],
+  "payload": {
+    "resolution_id": "R-01a05d61-fb0b-7848-a239-6820d48fd4fc",
+    "question_id": "Q-019306a1-4c00-7000-8000-00000000006a",
+    "outcome_value": "YES",
+    "proposed_by": "MIDAS",
+    "resolution_evidence_refs": [
+      "AGENTS/MIDAS/workbook/PREDICTIONS.tsv#id=MIDAS-06",
+      "AGENTS/MIDAS/analysis/2026-08-31_midas-06-TERMINAL-GRADE.md",
+      "https://fred.stlouisfed.org/series/DFII10",
+      "https://www.federalreserve.gov/releases/h15/",
+      "https://www.cmegroup.com/markets/metals/precious/gold.settlements.html"
+    ],
+    "negative_search_attempt": null,
+    "annulment_reason": null
+  },
+  "native_refs": [
+    {
+      "repository": "williepowen-debug/Research-workspace",
+      "source_commit": "a1f1a4c0c4a252a6e7d8e4510547dc5a8a157dfb",
+      "path": "AGENTS/MIDAS/workbook/PREDICTIONS.tsv",
+      "locator_type": "TSV_RECORD_ID",
+      "locator": "id=MIDAS-06",
+      "raw_record_sha256": "4af7968fca64f9f10a2d62909b1a97ca3e243aa9ab10f4498697abfb85651c4f"
+    },
+    {
+      "repository": "williepowen-debug/Research-workspace",
+      "source_commit": "a1f1a4c0c4a252a6e7d8e4510547dc5a8a157dfb",
+      "path": "AGENTS/MIDAS/workbook/MIDAS-06_KERNEL_NATIVE_COMPANION.json",
+      "locator_type": "JSON_POINTER",
+      "locator": "/resolution",
+      "raw_record_sha256": "5f864857460e49de23cc41d36fba0af5362d535999a4b8a27c7eb2d3e1caa2c8"
+    }
+  ]
+}
