@@ -1,4 +1,15 @@
-# FALCON SCRATCH — 2026-08-20 Thu *(⚡ SCOPED-TOUCH BLOCK 2026-08-31 PREPENDED BELOW — read it first; the 8/20 handoff otherwise stands)* **FAL-04 GRADED `PARTIALLY`
+# FALCON SCRATCH — 2026-09-01 Tue ⚡ COMBINED-TOUCH BLOCK PREPENDED (read first) · prior 8/31 touch block + 8/20 handoff stand below
+
+> ## ⚡ COMBINED TOUCH 2026-09-01 Tue ~17:4x ET (PROME-orchestrated FALCON+BRENT, Tier 1 — WALTER rule-6b doorbell on `SIG-W-20260901-005`)
+> - 🔴 **IT IS A CAMPAIGN:** Larak 8/30 → Jordan 8/31 (8 intercepted) → **two laden VLCCs (*Sidr*, *Senegal Prosperity*) hit by projectiles off Khasab 8/31 19:52Z/20:00Z, crews safe, no sinking** → **CENTCOM wave 2, 12:00 ET 9/1** → Aqaba salvo claimed ~15:27 ET. KB-FALCON-116..119; VESSELS VI-2026-0020/0021.
+> - ⚖️ **GATE 1 / FAL-01-class ADJUDICATED FIRM-NEGATIVE on the 9/1 record — against CENTCOM's OWN release, which names NO targets.** The Iranian-media list (all ports/bases/airport) is the only list and was the one adjudicated; the negative rests on three absences. **Re-adjudicate on any CENTCOM target list / BDA.**
+> - ⛔ **GATE 2 NOT FIRED — the IRGC "supertanker hit two mines" claim is CENTCOM-denied disinformation, ~15h older than the real hits.** Losses = 1. False-fire register row.
+> - ⚖️ **RE-MARK MADE (owed since 8/31): B 5 / C 30 / D 65. Convergence 43/50 UNCHANGED (kinetic vectors at ceiling); P 23 / K 15 / R 13 unchanged.** No D→70+ indicator fires; 60 was priced off "one wave" and that condition lapsed. No OPEN prediction keyed on the pause. KB-FALCON-120.
+> - 🎯 **GATE-FALCON-001 9/1 consumer CONFIRMED:** legs 1+3 FIRED stand · leg 2 OPEN NOT FIRED (Khasab = Hormuz, not Bab) · **proposed `review_by 2026-09-08`** — PROME edits GATES.tsv.
+> - ⚠️ **`bypass_watch.py` CRASHED (empty PortWatch series → IndexError) — tell #7 UNGRADED tonight; fix owed.** WARRISK 5/5 rows expired +29d (falsifier at 40d), no primary print. COR-20260828-01 receipted APPLIED.
+> - 📬 Inbox 1/1 drained (WALTER). STATUS rotation: two 8/20 blocks archived (−14.5 KB) — **still over cap, more owed.**
+> - ⏳ **OWED TO THE NEXT FULL SESSION:** ① FAL-05 registration (base rate FIRST) · ② remaining STATUS rotation · ③ `bypass_watch.py` empty-series guard · ④ WARRISK re-pull when any primary prints · ⑤ the 8/20 deferred bundles — unchanged. **$0 moved; no gate STATE changed here.**
+
 
 > ## ⚡ SCOPED TOUCH 2026-08-31 Mon ~12:4x ET (PROME-orchestrated combined BRENT+FALCON touch)
 > - 🔴 **KHARG WAS NOT STRUCK 8/29–31 — the claim is an AI-GENERATED VIDEO on Trump's 8/30 Truth Social post** (Reuters AI-detection; NIOC "laughable"; no CENTCOM/imagery/Iranian statement). **GATE 1 / FAL-01-class FIRM-NEGATIVE confirmed.** The REAL events: **Larak struck 8/30 (CENTCOM, IRGC minelaying party — first US strike on Iranian territory since 7/29) + Jordan salvo Mon 8/31 (8 intercepted); UAE leg DENIED** (Iran ARMY + drones). STATUS 8/31 session block + `KB-FALCON-111..115`.

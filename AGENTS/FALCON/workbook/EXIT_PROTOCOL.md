@@ -33,7 +33,7 @@
 
 ## 2. SCENARIO DOWNGRADE / UPGRADE TRIGGERS
 
-**Live ladder is 3-tier B/C/D. There is no Scenario A** — where pre-July documents say "A," read "further de-escalation beyond B." Current marks **B 5 / C 35 / D 60** (re-marked 2026-07-30).
+**Live ladder is 3-tier B/C/D. There is no Scenario A** — where pre-July documents say "A," read "further de-escalation beyond B." Current marks **B 5 / C 30 / D 65** (re-marked 2026-09-01 — kinetic-resumption re-mark: two US waves in three days = a campaign; prior B 5 / C 35 / D 60 re-marked 2026-07-30).
 
 | Move | Registered trigger | Status |
 |---|---|---|
@@ -49,7 +49,7 @@
 
 1. **Confirmed CRUDE capacity offline** — ⚠️ **GOVERNED BY FAL-04's REGISTERED TEXT. Read it in `thesis/PREDICTIONS.tsv`; do not restate it here** (HAW-10). Still the highest-value missing number; with **OPEC spare at 0.02 mb/d (Middle East 0.00)** there is no buffer under it.
 2. **A second, larger salvo at YANBU** — 92% of Saudi seaborne crude; fired on once (7/25) and saved by a **consumable** interceptor. ⚠️ **Or the PETROLINE** — 1,200 km of undefendable linear asset, the same objective by a route no Patriot can cover. *(Line **OPERATIONAL** as of AGBI 7/28.)*
-3. **US strike tempo returns to NIGHTLY** (vs the single 7/29 wave) — **or the US target set crosses into ENERGY for the first time.** It has now spared the energy complex across 13 nights *and* the resumption.
+3. **US strike tempo returns to NIGHTLY** (vs the single 7/29 wave) — **or the US target set crosses into ENERGY for the first time.** It has now spared the energy complex across 13 nights *and* the resumption. **[9/1 status: NOT FIRED on either limb — two waves in three days (Larak 8/30, southern Iran 9/1) is a CAMPAIGN, not NIGHTLY; the 9/1 target set is non-energy on every channel (CENTCOM names no targets; Iranian-media list is all ports/bases/airport). This partial — campaign-not-nightly — is what carried D 60→65 without reaching 70.]**
 4. **Iraq/PMF backlash turns kinetic** — 🔴 **firing on the ACTOR axis** (Abqaiq drones from Iraqi territory 7/27; US+Saudi struck Iraq 7/29). The next rung is a **damaging follow-on**, not rhetoric. → `domain/IRAQ_PMF_DISCRIMINATOR_REVIEW.md`.
 5. **A SECOND fatality — especially a US one.** The 7/30 Kuwait death was the exchange's first. **A fatality is historically the ratchet that converts an intercepted-salvo exchange into a casualty-driven one.**
 6. **Vessel confirmed SUNK / mine detonation on a hull** — hard gate, **unfired all war in-theater** (UKMTO/JMIC Notes 067/068/073/074).
@@ -70,7 +70,7 @@
 
 ## 5. TIME-BASED REVIEW
 
-- **Scenario probabilities: review every 7 days minimum.** Last re-mark **2026-07-30** ⇒ next due **2026-08-06**.
+- **Scenario probabilities: review every 7 days minimum.** Last re-mark **2026-09-01** ⇒ next due **2026-09-08** (prior re-mark 2026-07-30; the 8/6–8/31 sessions reviewed and HELD).
 - **This file: re-read at every closeout falsification check** (CLAUDE.md closeout step 11).
 - **Rewrite trigger (dated, per `[[finding_banner_is_a_warning_not_a_fix]]`):** **FAL-04 resolving, a fifth belligerent axis, a dated Oman framework, or 2026-09-01 — whichever is first.** If a future reader finds this file describing a war phase that has passed, that is the same failure this rewrite corrected.
 
