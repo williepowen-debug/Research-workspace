@@ -69,4 +69,30 @@ Run by the `coldreader` agent against both files before first commit, per `PROME
 
 **Falsification set: 10 → 13 cases, all passing.** The three additions came from the cold reader, not from me — and case #11 is the bypass it built by hand. That is the difference between a suite and a test.
 
-⏳ **Still owed:** the reader's sections B–D (stranger-execution test, output-vs-promise, and its list of MISSING falsification cases) truncated in transit and were re-requested. **Section D is the one that matters — inputs where this checker gives a wrong verdict and no test catches it.** It gets its own round; this record is not the end of the review.
+## 7. Cold read, ROUND 2 — a seventh blocker and nine missing falsification cases
+
+The reader's sections B–D arrived after the first commit and were **more valuable than round 1**, because they attacked the assumptions the falsification set shared rather than the code it covered. Its framing: my 10 cases all assumed *`declared_by` is honest, `path` is a real repo file, and the sheet is well-formed* — and it went hunting outside all three.
+
+**❌7 — AN ATTESTATION NEVER EXPIRED, in a file whose entire argument is that stored values rot.** `declared_on` was shape-checked and never compared to anything. The reader ran an attestation dated **2019-01-01**: it printed `manifest ATTESTED 2019-01-01` and certified **`✅ READS-CAP 0`**. The header spends five lines arguing a stored byte is "a stale mirror within hours" — then stored the one value that gates `rc=0` with no expiry. A desk attests once, its boot protocol changes for a year, the tool keeps saying clean. `finding_dated_stamp_is_a_trigger_not_a_shield`.
+⇒ **FIXED, and content-derived rather than clock-keyed:** an attestation names in `path` the protocol it enumerated, so a **git COMMIT to that file after `declared_on`** makes it STALE and drops the desk to UNKNOWN. Commit date, never mtime (root canon: a git sync restamps mtime, so an mtime-keyed check fails false-negative). It immediately caught four of my own test fixtures attesting to a protocol file that does not exist.
+
+**⭐ D1 — MODE-FLIP LAUNDERING, the most important finding of the night.** Re-declaring the ⭐ 139%-of-budget headline row as `summary` took the tool from `rc=1` to a clean `rc=0`, printing *"correctly NOT a breach and nothing owed."* **A breach is erasable by one word, in the field the header itself calls the most corruptible.**
+⇒ **Fixed as far as it CAN be honestly fixed.** No instrument can adjudicate whether contents entered a session's context, so the tool must not pretend to rule — but it must never let the claim pass silently. Every over-budget row excused by declaration is now printed in a `⚠️ MODE IS A SELF-ASSERTED CLAIM` block **with whoever signed the excuse**, and the verdict line says the exclusion was by declaration, not by measurement. Running it against the live registry immediately names **PROME's own four excused rows.**
+
+| Case | Was | Now |
+|---|---|---|
+| D3 attested desk with **zero** READ rows | `rc=0` — "manifest of 0 declared read(s) is under budget" | **rc=2** — nothing measured is UNKNOWN |
+| D12 every row `RETIRED-*` | `rc=0`, measured nothing | **rc=2** (same rule; my case 13's expectation was superseded and flipped) |
+| D4 one reader, one path, one step, **two modes** | `rc=0` | **rc=1** — dedup key now excludes `mode`, so a contradiction is caught while ruling 1's legitimate multi-rows still pass |
+| D5 `path` is a **directory** | `rc=0` — 4,096 B, 13% | **rc=1** — `isfile`, not `getsize` |
+| D6 `path` absolute (`/etc/hostname`) | `rc=0` — 16 B, measured outside the repo | **rc=1** — `os.path.join` ate the leading `/` |
+| D8 invalid mode | header printed `1 declared read(s) = 0 + 0` | bucket arithmetic is exact; UNCLASSIFIED rows are counted and named |
+| D9 `row_kind` typo (`Read`) | row **silently vanished** from the perimeter — `0 declared read(s)` over a 52 KB whole read | counted as UNCLASSIFIED, never dropped |
+| D11 `--agent` with no value | uncaught `IndexError`, exit outside the 0/1/2 contract | **rc=2** with a usage line |
+| D10 fleet precedence | **structurally untestable** — the harness only ever called `report_agent` | the harness now asserts on OUTPUT as well as exit code |
+
+**Falsification set: 13 → 20 cases, all passing. Ten of the twenty came from the cold reader.** Five of my existing cases failed on the first run of the hardened code — every one a fixture defect the new rules exposed, which is the guard working on its own author.
+
+**Stranger-execution test (section B) — four forced guesses, two still open:** what `path` means on an ATTESTATION row (now defined and enforced: the protocol enumerated, and it must exist); who may assert `manifest-complete` (now enforced); **`source_boot_step` grammar is still unruled** — three incompatible shapes ship in the file (`PROME:CLAUDE.md-Boot-1`, `PROME:BOOT.md-3`, `WALTER:6b`), with no rule and no validation, and the field is part of the duplicate key, so guessing wrong silently defeats dedup. **Owed.**
+
+⏳ **Still owed:** section C (output vs. promise) and the tail of B, truncated again in transit; the `source_boot_step` grammar; a re-verify pass on the hardened build. **This record is not the end of the review, and the tool is 20-for-20 on a set it has now been taught — which is not the same as being right.**
