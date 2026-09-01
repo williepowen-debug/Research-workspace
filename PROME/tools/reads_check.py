@@ -53,6 +53,11 @@ ROSTER = os.path.join(ROOT, "PROME", "ROSTER.md")
 ROSTER_INCLUDE = ("ACTIVE", "TIER-2", "TIER 2", "DORMANT", "SPECIAL")
 ROSTER_EXCLUDE = ("RETIRED", "ARCHIVE SOURCE", "TOOL-CLASS", "TOOL CLASS", "OFF-FLEET", "OFF FLEET")
 AGENT_TOKEN = re.compile(r"^[A-Z][A-Z0-9_]{1,15}$")
+# A boot read can legitimately live in ANOTHER REPO. WALTER's step 7e(f) reads Will's phone-dropped
+# signals out of the RESEARCH-INTAKE lane (separate repo, pulled --ff-only). Such a row is DECLARED
+# for visibility and never byte-graded here — treating it as a missing local file would emit exactly
+# the false ❌ that class rows used to, and a false ❌ teaches readers to discount ❌ rows.
+EXTERNAL_ROOTS = ("RESEARCH-INTAKE/",)
 CAP_BEARING = {"whole", "programmatic"}
 DECLARED_NOT_BEARING = {"scoped", "grep", "summary"}
 VALID_READ_MODES = CAP_BEARING | DECLARED_NOT_BEARING
@@ -131,6 +136,8 @@ def parse(text, source="READS.tsv"):
                           f"'complete' cannot mean two different things.")
     # A path cell that escapes the repo is a schema error, not a measurement of something else.
     for row in rows:
+        if row["path"].startswith(EXTERNAL_ROOTS):
+            continue
         if os.path.isabs(row["path"]) or resolve(row["path"]) is None:
             errors.append(f"{source}:{row['_line']}: path '{row['path']}' is absolute or resolves outside the repo")
     return rows, errors
@@ -199,6 +206,8 @@ def classify(path):
     finding, and the cost is not the bytes — a false ❌ teaches readers to discount ❌ rows, which is
     the class this tool most needs believed.
     """
+    if path.startswith(EXTERNAL_ROOTS):
+        return "external", None
     if any(ch in path for ch in "*?["):
         import glob as _glob
         matches = sorted(m for m in _glob.glob(os.path.join(ROOT, path), recursive=True)
@@ -311,6 +320,10 @@ def report_class_row(row, kind, payload, findings):
     """Render a glob or directory row. A glob IS graded — every match is measured, and the largest
     is what a session actually pays. A directory has no meaningful read size and is declared-only."""
     bearing = row["mode"] in CAP_BEARING
+    if kind == "external":
+        print(f"  ⇢  {row['path']:<52} {'EXTERNAL':>9}     another repo — declared for visibility, not "
+              f"byte-graded here ({row['mode']}, {row['source_boot_step']})")
+        return
     if kind == "dir":
         if bearing:
             # You cannot read a directory whole. Declared `summary`/`scoped` it is a legitimate
@@ -389,7 +402,7 @@ def report_agent(rows, agent, errors):
         if kind == "missing":
             missing.append(row)
             continue
-        if kind in ("glob", "dir"):
+        if kind in ("glob", "dir", "external"):
             report_class_row(row, kind, payload, findings)
             continue
         size = payload
@@ -412,7 +425,7 @@ def report_agent(rows, agent, errors):
         if kind == "missing":
             missing.append(row)
             continue
-        if kind in ("glob", "dir"):
+        if kind in ("glob", "dir", "external"):
             report_class_row(row, kind, payload, findings)
             continue
         size = payload
@@ -668,6 +681,13 @@ def selftest():
                        r("BASIS", "T", "PROME/CLAUDE.md", BASIS_MODE, "T:0"),
                         r("READ", "T", "AGENTS/*/STATUS.md", "scoped", "T:8")), "T",
                   lambda rc: rc == 0, "files  largest"))
+
+    # 27. a cross-repo read is declared, never rendered as a missing local file
+    cases.append(("an external-repo read is declared, not reported missing",
+                  sheet(r("ATTESTATION", "T", "PROME/BOOT.md", ATTEST_MODE, "T:0"),
+                        r("BASIS", "T", "PROME/CLAUDE.md", BASIS_MODE, "T:0"),
+                        r("READ", "T", "RESEARCH-INTAKE/phone_inbox/signal_*.md", "whole", "T:7e")),
+                  "T", lambda rc: rc == 0, "EXTERNAL"))
 
     import io, contextlib
     passed = failed = 0
