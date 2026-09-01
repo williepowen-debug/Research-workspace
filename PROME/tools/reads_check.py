@@ -212,7 +212,22 @@ def classify(path):
         import glob as _glob
         matches = sorted(m for m in _glob.glob(os.path.join(ROOT, path), recursive=True)
                          if os.path.isfile(m))
-        return ("glob", matches) if matches else ("missing", None)
+        if matches:
+            return "glob", matches
+        # A CONDITIONAL class row (`outbox/REQ-*.md`, `inbox/DEWEY/*`) matches nothing on most days
+        # BY DESIGN — the read fires only when a file lands. That is not an orphan row: the parent
+        # directory exists and the step is live. Rendering it ❌ MISSING re-creates the false-❌
+        # class this function was rewritten to retire (WALTER, 2026-09-01: `outbox/REQ-*.md`, a row
+        # WALTER had deliberately registered as flagged-borderline, came back as "does not exist").
+        # A glob whose STATIC PREFIX directory is itself absent stays `missing` — that IS an orphan.
+        static = []
+        for part in path.split("/"):
+            if any(ch in part for ch in "*?["):
+                break
+            static.append(part)
+        if static and os.path.isdir(os.path.join(ROOT, *static)):
+            return "glob-empty", "/".join(static)
+        return "missing", None
     full = resolve(path)
     if full is None:
         return "missing", None
@@ -324,6 +339,11 @@ def report_class_row(row, kind, payload, findings):
         print(f"  ⇢  {row['path']:<52} {'EXTERNAL':>9}     another repo — declared for visibility, not "
               f"byte-graded here ({row['mode']}, {row['source_boot_step']})")
         return
+    if kind == "glob-empty":
+        print(f"  ⇢  {row['path']:<52} {'0 files':>9}     conditional class row — no match today under "
+              f"existing dir {payload}/; the read fires only when a file lands, so it measures nothing "
+              f"until then ({row['mode']}, {row['source_boot_step']})")
+        return
     if kind == "dir":
         if bearing:
             # You cannot read a directory whole. Declared `summary`/`scoped` it is a legitimate
@@ -402,7 +422,7 @@ def report_agent(rows, agent, errors):
         if kind == "missing":
             missing.append(row)
             continue
-        if kind in ("glob", "dir", "external"):
+        if kind in ("glob", "glob-empty", "dir", "external"):
             report_class_row(row, kind, payload, findings)
             continue
         size = payload
@@ -425,7 +445,7 @@ def report_agent(rows, agent, errors):
         if kind == "missing":
             missing.append(row)
             continue
-        if kind in ("glob", "dir", "external"):
+        if kind in ("glob", "glob-empty", "dir", "external"):
             report_class_row(row, kind, payload, findings)
             continue
         size = payload
@@ -681,6 +701,20 @@ def selftest():
                        r("BASIS", "T", "PROME/CLAUDE.md", BASIS_MODE, "T:0"),
                         r("READ", "T", "AGENTS/*/STATUS.md", "scoped", "T:8")), "T",
                   lambda rc: rc == 0, "files  largest"))
+
+    # 28. a conditional class row with NO match today renders as 0 files, never as a missing file
+    #     (WALTER's `outbox/REQ-*.md`, 2026-09-01) — the parent dir exists, the step is live
+    cases.append(("an empty conditional glob under an existing dir is 0 files, not missing",
+                  sheet(r("ATTESTATION", "T", "PROME/BOOT.md", ATTEST_MODE, "T:0"),
+                        r("BASIS", "T", "PROME/CLAUDE.md", BASIS_MODE, "T:0"),
+                        r("READ", "T", "PROME/registry/ZZ_selftest_nomatch_*.tsv", "grep", "T:9")),
+                  "T", lambda rc: rc == 0, "0 files"))
+    # 28b. NEGATIVE CONTROL for 28: a glob whose static prefix dir does not exist is STILL an orphan
+    cases.append(("a glob under a non-existent dir is still reported missing",
+                  sheet(r("ATTESTATION", "T", "PROME/BOOT.md", ATTEST_MODE, "T:0"),
+                        r("BASIS", "T", "PROME/CLAUDE.md", BASIS_MODE, "T:0"),
+                        r("READ", "T", "ZZ_selftest_no_such_dir/REQ-*.md", "grep", "T:9")),
+                  "T", lambda rc: rc == 1, "MISSING"))
 
     # 27. a cross-repo read is declared, never rendered as a missing local file
     cases.append(("an external-repo read is declared, not reported missing",
