@@ -146,3 +146,8 @@ LIVE — 004 TLT Sep-30 77P exit counter 0 of 5 on every published DGS10 officia
 entry-crc32: 1769940778 · bytes: 211 · superseded 2026-09-01
 
 LIVE — leg 3 (Yanbu) FIRED 8/15; leg 2 open (owner re-read 8/31: NOT FIRED); 8/17 discriminator R3 = HOLD on corrected grounds (magnitude imputed); PortWatch chokepoint6 impeached · hist→GATES_STATE_HISTORY
+
+## GATE-REG-T02 — superseded 2026-09-01 closeout (token reconciled to the STATES vocabulary)
+entry-crc32: 1930946190 · bytes: 226 · superseded 2026-09-01
+
+FIRED — owner grade REGINALD 9/1 (WAL $77.26 regular-session close, first fire of cycle 2, 5c94c9622); routing EXECUTED (WAL leg + Will leg = WQ-143 + SIGNALS row); EXIT ≥81.90 ×3 LIVE 0-of-3 · hist→GATES_STATE_HISTORY
