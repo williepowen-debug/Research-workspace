@@ -117,3 +117,14 @@
 
 ### Half-thought, not pursued
 - `market.py` prints a % without naming the close it differenced against. If it printed the reference date, this session's defect would have been visible at a glance rather than needing a separate history pull. Possible small ask to whoever owns that script — **not raised, not verified as feasible.**
+
+## 2026-09-01 (Tue — spawned post-close for the `REG-T-02` fire; inbox drain 28/28)
+
+- **Fire arithmetic, both bases, so nobody re-derives it wrong:** $78.00 − $77.26 = $0.74 → 0.95% (÷78) / 0.96% (÷77.26). Exit: $81.90 − $77.26 = $4.64 → +6.01% (÷77.26). Day −$0.87 / −1.11% (÷78.13).
+- **yfinance `history()` had NO 8/28 bar for WAL/KRE (or most tickers) today** — 8/27 → 8/31. SPY/XLF had it. Not a grade defect (9/1 bar present, quote endpoint agrees). If it recurs, note it as an instrument quirk, not a missing session.
+- **Cohort-sort recipe (reused from 8/20):** `NDFI_COHORT.tsv` has a `#` comment line ABOVE the header — `csv.DictReader` silently uses the comment as the header and returns nothing usable. Strip `#` lines first. `scipy` is not in `.venv`; use `pandas.DataFrame.corr(method="spearman")`.
+- **AEOLUS 8/27 (×2):** Colorado ROD — if Lower Basin implementing agreements go unexecuted, shortage apportions by PRIORITY (Law of the River): CA senior shielded, AZ junior CAP absorbs. Apparent erratum: §10.7 drops the "not" in "shall not preclude or predetermine" (7 of 8 instances carry it). Mead consultation trigger = 1,000 ft (not 1,010). AEO-10 (no breach of 1,035 through 12/31) re-priced 30% → 65% after AEOLUS base-rated USBR's August under-projection (+2.19 ft mean, n=6). **Credit-relevant leg for me = AZ CAP-dependent munis/ag districts; CREED cc'd. No action; parked.**
+- **DEWEY CRMT playbook (8/27):** the one transferable structure — "non-recourse" ABS ring-fenced for PAYMENT but cross-defaulted for CONTROL (§8.1(p): any servicer-termination event at any trust = term-loan EOD; §8.1(b) carves that debt out of the general cross-default). → ROADMAP backlog: do the bank-syndicate credits I cover treat sponsor-serviced securitizations the same way?
+- **CREED 8/28 on WALTER-005:** the failure cohort (sub-$100M thrifts) ≠ CREED's OREO recognition cohort ($10-250B). QBP Table V-A has a `<$100M` class with a `Failed institutions` line — but pdfminer emits its columns out of order (trap #14); anchor on a known cell before quoting. Verdict 0.75 stands; low-priority backlog to run the class at primary.
+- **Cold storage (SIG-046):** first negative 1H net absorption since 2007, vacancy 7.7%, but it is a COMPOSITION story (pre-2020 stock vacated, post-2020 absorbing). No bank on my surfaces names cold-storage collateral. CREED scope call.
+- **Fifth Third has two things this week:** Delaware Life distribution pause (8/28) + the Sep 5-7 Comerica systems cutover. Different objects; do not fuse.
