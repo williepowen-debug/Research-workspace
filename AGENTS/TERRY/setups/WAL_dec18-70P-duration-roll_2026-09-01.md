@@ -1,0 +1,132 @@
+# TRADE CARD — WAL — DURATION ROLL of the $70P leg (Sep-18 → Dec-18, same strike)
+**Date:** 2026-09-01 Tue, built ~17:3x–18:0x ET (`date` wall clock, copied not inferred; markets shut — the 9/1 close is the last tape)
+**Setup ID:** `TRY-WAL-ROLL70`
+**Thesis owner:** **WAL desk** (`AGENTS/WAL/`, THESIS v2.4 — EV **$75.96**, Base range $74–82) · trigger owner **REGINALD** (`REG-T-02`, FIRED 2026-09-01) · **Will** (the book is his; ruling WQ-143 (B))
+**Thesis reference:** `PROME/inbox/2026-09-01_from-REGINALD_REG-T-02-FIRED-WAL-77.26-V1V3-ACCELERATE-will-leg-Sep-18-pair.md` (read whole) · `AGENTS/REGINALD/registry/NOTES.md §REG-T-02 STATE RULING 2026-09-01` · `AGENTS/WAL/STATUS.md` (re-based 8/28: EV $75.96 v2.4) · `AGENTS/WAL/POSITIONS.md` (strike/expiry canon)
+**Terry verdict:** **CONDITIONAL** — Will-ruled shape (WQ-143 (B), *"approve all of those with your recs"*, 17:22 ET 9/1); fires ONLY on a green WAL day, at ≤ **$2.75**/contract, with the live broker book open. Structure CLEAN; the edge case is stated in §8 and it is not flattering.
+**Confidence in trade structure:** High (structure) · Low-Medium (that the $70 strike is reached — the market prices it at ~32%, and the 2-yr base rate says ~31%; see §6)
+**Data freshness:** WAL close **$77.26** [9/1 regular session, yfinance via `snapshot.py` 17:29 ET] · option chains **`chain_fetch.py --no-cache` 17:28 ET 9/1** (post-close; Dec-18 strip's freshest print is **8/27 11:51** — stale strip, see §3) · broker position truth = `FORGE/STATUS.md` 8/29 reconcile (D-32) — **structural only; re-pull the live book at fill (root rule #4 / TERRY boundary #6)**
+
+> ⛔ **NOTHING SELF-EXECUTES. `$0` MOVED. This card returns to Will for [Approve] AT THE FILL, with that day's live prices.** PROME registers the fire in `PROME/GATES.tsv` from TERRY's packet; TERRY does not edit `PROME/`.
+
+## 0. Missing inputs / hard caveats
+- [x] Live price checked — WAL $77.26 close 9/1 (−1.11%); KRE $72.62 (−1.28%) — **RED day ⇒ no fill today (root rule #6). No break offered; none exists** (REGINALD's cohort sort says sector beta = the proxy working, not failing).
+- [x] Option chain checked — Dec-18 $70P **bid 2.05 / ask 2.75 / mark 2.40**, IV 35.3%, OI 31, vol 6, last trade 8/27 · Nov-20 $70P **1.70 / 2.35 / 2.02**, IV 37.6%, OI 28, last trade 9/1 11:16 · Sep-18 $70P 0.20/0.40, $67.5P 0.10/0.25 (pair ≈ **$30 at the bid**, $47 at last). REGINALD's 9/1 reads (Dec-18 $2.50 last / $2.75 ask · Nov-20 $1.86 / $2.35) **reconcile** — same ask on both; his "last" on Dec-18 is the 8/27 print.
+- [x] Existing position truth — `FORGE` 8/29: **WAL $67.5P ×1 + $70P ×1, Sep-18-2026, Fidelity IRA 216461326, basis $1,519.34 ($7.69 + $7.51)**; 12 sessions to expiry. ⚠️ Basis is a state-file figure (RISK_RULES #4) — confirm at fill. **HELD TO EXPIRY per Will's ruling; nothing sold.**
+- [x] Catalyst dates — WAL Q3 print **NOT ANNOUNCED** (REGINALD 8/27: established absence; announcement expected ~Oct 1–6; pattern ESTIMATE Tue Oct 20 AMC — **do not key anything to the estimate**). Both candidate expiries span it: Nov-20 (~23 sessions post-print), Dec-18 (~42).
+- [x] Thesis owner current — WAL desk re-based 8/28 (EV $75.96 unchanged since v2.4 8/20); REGINALD graded the fire 9/1 at the instrument.
+
+## 1. One-line setup
+`REG-T-02` fired on the 9/1 close (WAL $77.26 < $78, first sub-78 close of cycle 2). The mechanism legs (V1 hidden-CRE / V3 NDFI) are **unchanged** and the day was **sector-wide** (WAL −1.11% vs KRE −1.28%, cohort median 14/26) ⇒ under **root rule #7** this is *timeline uncertain*, not *thesis broken* ⇒ **roll duration, don't add conviction**: one **Dec-18 $70P**, same strike as the dying Sep-18 $70P, ≤ $275, on the next green WAL day, with the roll's exit = the trigger's own exit (WAL ≥ $81.90 ×3 official closes).
+
+## 2. Preconditions (ALL must hold at the fill)
+- **Trigger-state precondition:** `REG-T-02` still **FIRED** on REGINALD's registry (exit count < 3 of 3). If the exit has completed before the fill, the card is **VOID — do not fill.**
+- **Thesis precondition:** WAL desk thesis not retracted; EV still ≤ spot is *not* required (see §8 — EV is already ~$1.30 below spot, so the roll is a tail expression on the owner's own arithmetic).
+- **Tape precondition — root rule #6, defined on the INSTRUMENT TRANSACTED:** **WAL is GREEN at the moment of fill** = last trade ABOVE the prior regular-session official close (9/1 = $77.26; roll forward daily), **and** the fill lands before the close so the colour can be read. KRE's colour is context, not the test (8/27 lesson: *the day-colour that binds is the instrument you transact*). ⚠️ Green intraday that turns red before the fill ⇒ stand down. **No break today and none pre-authorised** — a break needs the direct measurement written on THIS card in figures before the fill (RISK_RULES § Breaking root rule #6); *"the window is closing"* is a chase.
+- **Price precondition:** Dec-18 $70P **ask ≤ $2.75** (the cap = the no-chase line). If a green day has re-priced the ask above $2.75 ⇒ **no fill, return to Will** with the live number — do not substitute Nov-20 without a fresh [Approve].
+- **Book precondition (root rule #4 / boundary #6):** live Fidelity book open at fill — confirm the Sep-18 pair is still ×1/×1 and nothing else changed; confirm cash. `FORGE` is 8/29 vintage and stales.
+- **Do NOT trade if:** exit count has reached 3 · WAL red · ask > $2.75 · the Dec-18 $70P returns any `chain_fetch --legs 70` hard flag (`LOCK`/`XSD`/`DEAD`/`NOBID`) · the WAL desk has retracted/downgraded the thesis in a way REGINALD or WAL packets before the fill.
+
+## 3. Chart / tape read (9/1 close; `snapshot.py WAL --benchmark KRE`, 29 bars of a 30d window — coverage stated per RISK_RULES #19)
+| Item | Read |
+|---|---|
+| Current price | **$77.26** (−1.11%, −$0.87) · O 77.94 / H 78.93 / **L 77.05** · vol 1.04M (1.03× 3-mo avg — no volume tell) |
+| Trend | 30d **−6.90%** vs KRE −3.94% ⇒ rel. **−2.96%**; **near range LOW** (30d range 77.26–83.90 — today IS the low). 20d MA 80.60 · 50d 81.21 · 200d 81.45 — price below all three |
+| Key support | $77.05 (today's low) · $76.00–75.96 (WAL desk EV) · $74 (Base-range floor) · 52-wk low **$66.70** |
+| Key resistance | $78.00 (the trigger line, now overhead) · $78.13 (8/31 close) · $80.60 (20d MA) · **$81.90 (REG-T-02 exit line, +6.0%)** |
+| Relative strength | WAL fell LESS than KRE today (−1.11 vs −1.28) and sat at the 26-bank cohort median; ρ(PC-NDFI %, move) **+0.253** (n=26) — sign wrong for a private-credit repricing ⇒ **sector beta day, not a WAL story** (REGINALD) |
+| Vol / gap risk | Dec-18 $70P IV **35.3%** · Nov-20 **37.6%** · Sep-18 38.9% — a mild inverted term structure (front rich into the print/expiry). WAL 250-bar daily σ **2.29%**, median |move| 1.22%; 20-session return p10 **−11.6%**, p5 **−21.1%** (n=250 overlapping) ⇒ a $70 print (−9.4%) inside a month is ~a 1-in-8 event unconditionally. VIX 16.34 (+13.2% today) |
+| Liquidity | **THIN.** Dec-18 strip: OI 6–72 per strike, spreads 13–43% of mark; the $70P is **29.2% wide** (2.05/2.75), OI 31, last print 8/27 ⇒ **pay the ask or don't fill; a limit at mid ($2.40) is a lottery ticket on being hit.** Nov-20 $70P: 32.1% wide, OI 28, printed today. No `LOCK/XSD/DEAD/NOBID` on either leg (`--legs 70` ✓ both). |
+
+## 4. Entry
+- **Trigger:** the FIRST session after 9/1 on which WAL is **green** (§2 definition) while `REG-T-02` is still FIRED.
+- **Preferred entry:** Dec-18 $70P, **limit at the ask up to $2.75** (thin strip — work a limit ≥ mid but expect to pay ≥ $2.60; don't leave a $2.40 order sitting for a fill that never comes). Fill window: after 10:00 ET (let the strip print) and before ~15:30 ET.
+- **Do not chase:** **$2.75 hard** (Will's cap). If WAL gaps green and the ask is above it ⇒ no fill, report.
+- **If missed:** a green day that is not filled is not a lost trade — the next green day is the same trigger. **If three consecutive green days pass without a fill** (every ask > $2.75) ⇒ return to Will: the market has re-priced the tail and the cap, not the day-colour, is what binds.
+- **Same-day form for the fire packet:** `chain_fetch.py WAL 2026-12-18 --type put --legs 70 --no-cache` at fill-time; `snapshot.py WAL --benchmark KRE`; the live Fidelity book. Numbers go on this card under §10 with the wall-clock stamp (RISK_RULES 6b/#14).
+
+## 5. Structure
+- **Instrument:** **BUY 1 × WAL Dec-18-2026 $70 PUT**, Fidelity IRA (same account as the pair).
+- **Expiry / tenor:** Dec-18-2026 — **108 calendar / ~76 trading days**. Nov-20 (80 cal / ~57 td) is the registered alternative (§5b).
+- **Strike:** **$70** — SAME as the Sep-18 $70P leg. ⚠️ **RISK_RULES #21 definition check, said in those words:** *same underlying · same strike · later expiry* ⇒ this IS a "roll" of the $70P leg by the #21 guard, so the 60–90 DTE **entry-economics band does not bind** — **BUT the Sep-18 leg is HELD, not closed**, so no proceeds offset the new debit. Economically this is a roll whose close-leg is worth **$20 at the bid** and is being left to run rather than sold (Will's ruling: *nothing left to save*). The card treats that $20 as forgone, not as a reason to relabel. The $67.5P leg is **NOT rolled** (Will's shape: ×1 at $70 only).
+- **Alternatives considered:**
+  | Shape | Cost (ask, 9/1) | DTE | vs the print (est. ~10/20) | Verdict |
+  |---|---|---|---|---|
+  | **Dec-18 $70P ×1** | **≤ $275** | 108 | ~42 sessions post-print | **RULED (Will).** Buys the most transmission time per dollar; #18(a): a >9% OTM strike's catalyst is multi-quarter transmission, so tenor should run PAST the print — Dec does, by two months |
+  | Nov-20 $70P ×1 | ≤ $235 | 80 | ~23 sessions post-print | Alternative. $40 cheaper, inside the 60–90 band, IV 2.3 pts richer, **but** only ~1 month of post-print time — the shape #18 warns about (print-adjacent expiry on a deep strike) |
+  | Nov-20 $70P ×2 | ≤ $470 | 80 | | Rejected — doubles size on an unchanged mechanism = a conviction add, not a duration roll (root rule #7) |
+  | Dec-18 $67.5P ×1 | ≤ $215 | 108 | | Rejected — moves the strike ⇒ NEW DEPLOYMENT under #21, tenor band binds, and it deepens the strike problem §8 names |
+  | Dec-18 $75P/$70P put spread ×1 | ~$165 net (4.50 − 2.05 worst-case) | 108 | | Not ruled; noted as the shape that would pay on the WAL desk's own EV ($75.96) — it changes STRUCTURE ⇒ new deployment, new card, if Will wants it |
+  | Sell the Sep-18 pair to fund | +$30 at bid | | | Rejected by Will (hold to expiry). Recorded: the pair is a $30 lottery on a −9.4% move in 12 sessions (2-yr base rate **10.9%**, n=488 overlapping windows) |
+- **Why this expression:** the fire changes the *timeline* (WAL is now inside the band the registry says it *stays* in — prior cycle ran 9 sub-78 closes over 5/11→6/03) and not the *mechanism*; the cheapest way to keep the same view alive past the print is the same strike, one tenor out. **It is not the way to profit from WAL reaching its own EV** — that is §8's job to say plainly.
+
+### 5b. Registered alternative (no separate approval needed to *quote*; a separate [Approve] needed to *fill*)
+Nov-20 $70P ×1 at ≤ $2.35. Take it only if Will prefers the cheaper, in-band tenor and accepts ~1 month of post-print time. Not a fallback if Dec-18's ask is > $2.75 — that case returns to Will.
+
+## 6. Risk / scoring
+
+### 6a. EFFECTIVE-N — independence audit (RISK_SCORING §2b, MANDATORY)
+| Field | Entry |
+|---|---|
+| **N_claimed** | 3 — (i) `REG-T-02` level fire · (ii) V1/V3 credit-transmission mechanism (WAL desk) · (iii) 9/1 risk-off tape (alt managers −3 to −5%, VIX +13%) |
+| **Shared antecedent** | **"regional-bank credit does not crack / WAL re-rates UP toward $81.90"** kills (i) and (ii) together; (iii) is a one-day sector beta that REGINALD's own sort says did NOT transmit to bank-level sorting — it corroborates nothing about WAL |
+| **EFFECTIVE N** | **1.** One view: the WAL grind/credit-transmission bear. Size as a single view |
+| **Book independence** | Shares its falsifier **exactly** with the Sep-18 $67.5P/$70P pair (same name, same direction, same mechanism) and with the dormant `TRY-WAL-GRIND` (unfilled). Partial overlap with `TRY-FIRE-004` (TLT 77P — higher-rates-hurt-banks channel) and the HBAN dust. **Combined forward bank-put exposure after this fill = $275 (this) + ~$30 (pair at bid) + HBAN dust ≈ $305–330** — one bet, stated as one number |
+| **Whole-book note (PROME's ask, answered)** | The desk's live legs — TLT puts (rates up), USO longs (oil up), bank puts (credit stress) — **all paid on 9/1's tape at once** (10Y 4.80, WTI +5.7%, banks −1.1 to −1.3%). They are three names for one macro state (stagflationary risk-off), i.e. **book N_eff ≈ 1 incl. energy**. This card adds $275 to that one bet. It is small; it is not diversifying |
+
+- **Max loss budget:** **$275 + commission** (100% of debit) — 55% of the $500/card cap. Sunk basis of the Sep-18 pair ($1,519.34) is **not** forward risk (RISK_RULES #20(d)); the pair's forward exposure is its ~$30 residual.
+- **Edge estimate (probability-style, so §8b applies):** risk-neutral **P(WAL < $70 at Dec-18) ≈ 31.6%** (BS, IV 35.3%, 108d — the chain's own price). **2-yr unconditional base rate of a ≤ −9.4% move over 76 sessions = 30.9%** (n=424 heavily overlapping windows from 500 bars ⇒ effective n is a handful — a shape read, not a probability). ⇒ **the market prices the strike at about its own historical frequency. There is no base-rate edge; the edge, if any, is the WAL desk's mechanism claim (EV $75.96 — which is ABOVE $70).** Breakeven at a $2.75 fill = **$67.25 (−13.0%)**; base rate of ≤ −13.0% over 76 sessions = 24.5%.
+- **Kelly reference:** not applicable at N_eff = 1 with no model edge over market — size is Will's cap, not Kelly. 0.25× Kelly on a zero-edge view is zero; **the honest sizing statement is: this is a $275 timeline extension of an existing view, sized by the cap, not by edge.**
+- **Sizing proposal:** **×1** (Will-ruled). Consistent with N_eff = 1.
+- **Invalidation:** (price) **`REG-T-02` EXIT = WAL ≥ $81.90 on 3 consecutive official closes** (REGINALD grades; TERRY consumes the owner's grade, never a `^` intraday) ⇒ **close the roll at market the next session** · (thesis) WAL desk retracts the short thesis ⇒ close · (time) §7 time stop.
+- **Stop / hedge / exit rule:** the EXIT above is the stop. **No price stop below it** — a defined-risk long put's max loss is the debit; adding a mark-based stop on a 29%-wide strip sells the low (RISK_RULES #16 corollary: the structure's max loss IS the control).
+- **Gap/event risk:** Q3 print (est. ~10/20, unconfirmed) is INSIDE the window — a good print (+3–9% realized envelope, #18) takes the put toward $1 fast; a crisis print is the tail this strike pays on. FOMC 9/15–16 and the Treasury buyback window (9/9–11/4) move the sector's rate channel. The put is long vega (+$13/pt) — vol crush post-print is a real cost.
+- **Liquidity / spread check:** **CONDITIONAL** — 29% wide, OI 31. Acceptable for ×1 at the ask; NOT acceptable as a leg to trade around. Exit will also pay the spread.
+- **Execution block (what must be true before Will could act):** green WAL (§2) · `REG-T-02` FIRED, exit < 3 · `chain_fetch --legs 70` ✓ · ask ≤ $2.75 · live book confirms the pair ×1/×1 · figures written under §10 with the wall clock · Will's [Approve] on the one-line ticket (two-stage: this card = approve-in-principle; the fill-day ticket = the execute authorization, RISK_RULES embedded #3).
+
+## 7. Target / management
+- **Target 1 (P/L-keyed harvest — RISK_RULES #9, mandatory):** put mark **≥ 2.0× the debit paid** (≥ $5.50 on a $2.75 fill; ≈ WAL ~$71–72 inside the first 6 weeks, or ~$70 later) ⇒ **sell the contract** (×1 cannot be halved). A resting GTC limit sell at 2.0× debit is the self-executing form — place it the day after the fill.
+- **Target 2:** none. The strike is the thesis's tail, not its central case; a ratchet on ×1 has nothing to ratchet.
+- **Partial exits:** n/a (×1).
+- **Roll rule:** ⛔ **NO further roll is pre-registered.** A Dec-18 → Mar-19-2027 roll would be a NEW proposal (Non-Negotiable #6 — no roll-by-hope), admissible only if `REG-T-02` is still FIRED **and** the WAL desk's EV has moved BELOW $70 by then. If EV is still above the strike at the time stop, the honest disposition is to let the timeline claim die, not to buy it a third life.
+- **Time stop:** **Fri 2026-12-04** (10 sessions before expiry): if OTM, sell for whatever residual remains (do not let it expire for $0 with a bid on it); if ITM, Will decides take-vs-hold into expiry (an ITM long put in the IRA auto-exercises into a 100-share WAL short — not a position this book wants). Review cadence: weekly (Friday close) + the day of any REGINALD `REG-T-02` grade that moves the exit count.
+- **Exit-count watch:** REGINALD grades the exit every close; the count reaching **2 of 3** is the pre-warning — pull a live mark that day so the close-out is priced, not improvised.
+
+## 8. Why not / counter-trade — the strongest case, on the card
+1. **This desk pre-registered the opposite answer, cold, on 8/20.** `REG-T-02_FIRE_PROCEDURE.md` §3: *"A fire does NOT re-open the Sep-18 cores … these legs have a STRIKE problem, and rolling to fix a strike is a new trade wearing an old trade's clothes … size any new card to WAL's central case, not to the bear tail."* The ruled shape keeps the **same $70 strike** — so it inherits the strike problem the procedure named, and it does so on Will's explicit ruling, which is the ruling's right. **Recorded so nobody later reads this card as TERRY's construction preference.**
+2. **The thesis owner's own arithmetic does not reach the strike.** WAL desk EV **$75.96**, Base range $74–82. Spot $77.26 is 1.7% above EV. **A $70 put pays only if WAL overshoots its owner's central case by ~8%** — a crisis/regime tail (`REG-26` crash tell was 33% when the grind card was built). If Will wants to be paid on the WAL desk's *central* view, the instrument is a $75/$70 (or $77.5/$72.5) put spread, not a naked $70P.
+3. **The fire is a level event with the mechanism unchanged — and it is sector beta.** REGINALD carried the attribution WITH the fire for exactly this reason: `[[finding_registered_trigger_can_fire_on_an_unnamed_mechanism]]`. A registered gate firing feels like confirmation; RISK_RULES #15 says say so before it fires: **the routing executed because the letter has no mechanism clause. Nothing about V1/V3 improved today.**
+4. **No base-rate edge.** §6: risk-neutral 31.6% vs historical 30.9%. The put is fairly priced for a name with a 2.3% daily σ. What is being bought is time for a mechanism to show up, at fair value, on a thin strip that charges ~29% to get in and again to get out.
+5. **Concentration.** One more dollar on the one macro bet the book already is (§6a). Small, but in the same direction as everything else.
+
+**The honest one-line:** *Good thesis-recognition trigger, fair-priced tail, timeline extension by the owner's choice — CONDITIONAL, not CLEAN, and the cheapest correct version of what was asked.*
+
+## 8b. Calibration note
+- **Forecast (TERRY, pre-registered):** P(WAL closes < $70 on any day before 12/18) ≈ **30%** (matching market/base rate — I claim no edge). P(the roll is exited by the `REG-T-02` EXIT before 12/18) ≈ **25%** (needs +6.0% to $81.90 ×3; WAL 20-session p90 ≈ +9%).
+- **Market-implied:** ~32% (BS at the chain's IV).
+- **Outcome to score:** (a) did WAL print < $70 before 12/18? (b) did the EXIT fire first? (c) realized P/L on the contract.
+- **Brier row:** yes, at resolution.
+
+## 9. Decision
+- [ ] **APPROVE** — build stands; fill on the next green WAL day at ≤ $2.75, Dec-18 $70P ×1; fill-day ticket returns with live figures for the final [Approve].
+- [ ] **REJECT** — hold the Sep-18 pair to expiry, no roll (REGINALD's option (A)).
+- [ ] **REWORK** — e.g. Nov-20 $70P ×1 ≤ $2.35 (§5b), or a $75/$70 spread (new card).
+
+**APPROVAL REQUIRED — Will must approve/reject before execution. Terry never executes.**
+
+---
+
+## 10. LIVE-MARKS BLOCK — filled ONLY on the fill day (blank by design)
+| Field | Value | Stamp |
+|---|---|---|
+| Wall clock (`date`) | | |
+| WAL last / prior official close / colour | | |
+| KRE colour (context) | | |
+| `REG-T-02` state + exit count (REGINALD registry) | | |
+| Dec-18 $70P bid / ask / mark / IV / OI / flag (`--legs 70 --no-cache`) | | |
+| Live Fidelity book: Sep-18 $67.5P / $70P qty + cash | | |
+| Limit submitted / fill price / contracts | | |
+| Root rule #6 verdict | | |
+
+## 11. Dated log
+- **2026-09-01 ~17:3x–18:0x ET — BUILT.** `REG-T-02` FIRED on the close (REGINALD owner-grade, $77.26). Will ruled WQ-143 (B) 17:22 ET. Chains pulled 17:28 ET post-close. Today RED ⇒ no fill, no break. `$0` moved. Card → SETUPS.tsv / TRADE_BOOK / INDEX; PROME packeted for the GATES.tsv registration.
