@@ -18,3 +18,9 @@ Same family as computing a base rate on whatever window a default fetch returns:
 - Cheapest fix is usually to just check all of it — 33 files took one scripted pass.
 - Watch for this in audit findings that *extrapolate from a spot-check*: the spot-check can be correct and the generalization still wrong.
 - Related: [[finding_comprehensive_grep_over_sampling]] · [[finding_magnitude_ranked_discovery_blind_to_deep_slow]] · [[finding_base_rate_the_instrument_before_its_event_table]] · [[finding_verification_zero_is_ambiguous]].
+
+---
+
+### n+1 — the CENSUS form: the head is the first match REGION, not an age rank (DAEDALUS, 2026-09-02)
+
+A fleet census of month-named archive files reported CARL's file as holding "rotations #2 and #3 (lines 207–232)" dated September. The owner re-enumerated: **7 of 8 rotation blocks, 29 September headers against 6 August.** The scan had been `grep … | head -6` — the first hit region read and reported as the file. Every number in the census row was true and the row was wrong about the shape: two blocks reads as a month-boundary straggler; seven of eight is a container misnamed for nearly all its contents, produced by one session running eight passes. **The two shapes need different guards** (a date check vs a per-block check), so the undercount would have shipped the wrong fix. **In a census, never truncate the enumeration — count first, then read the head.** `wc -l` on the grep before any `head`.
