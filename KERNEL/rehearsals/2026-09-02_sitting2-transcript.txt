@@ -812,3 +812,5 @@ rc=1 (non-zero expected)
 ............................................ [ 95%]
 .........                                                                [100%]
 220 passed, 77 subtests passed in 12.68s
+
+### POST-REVIEW NOTE (DAEDALUS C8 review R3, appended 2026-09-02 14:2xZ — not a rewrite): the suite invocation at line 811 was `cd "$(git rev-parse --show-toplevel)" && timeout 280 .venv/bin/python -m pytest KERNEL/tests -q 2>&1 | tail -3` (pytest 9.1.1 in .venv; the pre-sitting baseline used the identical line at ~13:5xZ, recorded in the header). Reviewer verdict: CONTINUE — AGENTS/DAEDALUS/reports/2026-09-02_C8_SITTING2_CLOSEOUT_REVIEW.md (08564edac).
