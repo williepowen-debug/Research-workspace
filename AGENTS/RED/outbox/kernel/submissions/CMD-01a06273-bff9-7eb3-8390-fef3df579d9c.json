@@ -1,0 +1,40 @@
+{
+  "schema_version": "kernel.schema.1",
+  "policy_version": "kernel.policy.1",
+  "command_id": "CMD-01a06273-bff9-7eb3-8390-fef3df579d9c",
+  "command_type": "VerifyResolution",
+  "actor_id": "RED",
+  "submitted_at": "2026-09-02T14:09:08.089994Z",
+  "expected_version": 3,
+  "target_stream_id": "QS-Q-019306a1-4c00-7000-8000-00000000006a",
+  "correlation_id": "gate-c-midas-06-increment2",
+  "caused_by": null,
+  "depends_on": [
+    "CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d"
+  ],
+  "payload": {
+    "resolution_id": "R-01a05d61-fb0b-7848-a239-6820d48fd4fc",
+    "question_id": "Q-019306a1-4c00-7000-8000-00000000006a",
+    "verified_outcome_value": "YES",
+    "verified_by": "RED",
+    "verification_evidence_refs": [
+      "AGENTS/RED/reports/2026-09-02_KERNEL_GATE_C_SITTING2_MIDAS06_VERIFICATION.md",
+      "AGENTS/RED/reports/2026-09-01_KERNEL_GATE_C_SITTING2_MIDAS06_VERIFICATION_STOP.md",
+      "AGENTS/MIDAS/workbook/PREDICTIONS.tsv#id=MIDAS-06",
+      "AGENTS/MIDAS/outbox/kernel/submissions/CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json",
+      "https://fred.stlouisfed.org/series/DFII10",
+      "https://www.cmegroup.com/markets/metals/precious/gold.settlements.html"
+    ],
+    "disposition": "VERIFY"
+  },
+  "native_refs": [
+    {
+      "repository": "williepowen-debug/Research-workspace",
+      "source_commit": "ab909bb63dc10dbb9628f5fae2c5b41f1866d081",
+      "path": "AGENTS/RED/outbox/kernel/MIDAS-06_VERIFY_NATIVE_COMPANION.json",
+      "locator_type": "JSON_POINTER",
+      "locator": "/verification",
+      "raw_record_sha256": "18342acaa4e05b591910fd75cc3d1dfbda2f7b1f3eacd27138d6033a890f998f"
+    }
+  ]
+}
