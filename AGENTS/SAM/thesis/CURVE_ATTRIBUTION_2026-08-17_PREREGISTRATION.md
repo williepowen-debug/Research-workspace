@@ -155,3 +155,17 @@ BOND (`bond-27`, artifact `AGENTS/BOND/analysis/2026-09-01_DM-cross-section-rebu
 ⚠️ **Neither desk can speak to 9/1 with this table** — US/EA stop 8/31, UK 8/27; only JP reaches 9/1. **It must not stand in for the 9/1 selloff.**
 
 📌 **Convergence caveat, BOND's and correct:** our JP 30Y +9.2bp [8/26→9/1] figures match exactly, but **we both pull MOF — that verifies the FETCH on both sides, not the VALUE** (KB-BND-159). The genuinely independent parts are BOND's construction, its 30s10s segment, and its US/EA/UK legs. **BOND's JP 30s10s is flat-to-trivial (−0.3 to +1.5bp) across three windows including 9/1** — a different segment from my 30s2s (−1.6bp vs ±15bp), **same answer: near-parallel, no long-end steepening.**
+
+### §D addendum-2 — 2026-09-01 ~22:2x ET, BOND's 9/1 selloff grade (INPUT, **not** a leg; no bar moved)
+
+BOND graded the selloff after my pre-registration was written and reached the same place from an **independent instrument set** (US TIPS real/breakeven decomposition; commit `8455d0dd9`).
+
+**Leg 1, the week into 9/1 (8/26→8/31):** ~100% **REAL** and monotonically **FRONT-LED** — DGS2 +15.0 > DGS5 +12.0 > DGS10 +9.0 > DGS30 +7.0; 2s30s −8.0; the long-end real did **not** lead (DFII30 +7.0 vs DFII5 +12.0). BOND's verdict: **textbook POLICY-PATH, explicitly NOT term premium.**
+
+🔑 **This is the corroboration that actually counts, and it is a different kind from the last one.** My JP 30Y +9.2bp matching BOND's verified only the **fetch** (we both pull MOF — KB-BND-159). **This one is genuinely independent**: different market (US, not JGB), different instrument (a real/breakeven split, not a slope), different desk. It reaches **the same signature I read off the JGB curve** — front-led, hike-repricing, not term-premium.
+
+⚠️ **Scope, stated so it is not over-claimed:** BOND's decomposition is about the **US** curve. It does **not** by itself establish that the *JGB* move is policy-path. What the two BOND results jointly support is: **a global policy-path repricing in which Japan participated LEAST** (cross-section: JP +2.4bp, last of four). That is a coherent picture, not a proof, and **H1/H2 remain formally OPEN** — both are Japan-domestic mechanisms and §D's scope defect still bites.
+
+**Leg 2, the 9/1 session itself:** breakevens **jumped** where the week had them flat-to-down (T5YIE +6.0, T10YIE +4.0, T5YIFR +2.0) — a near-dated inflation impulse **decaying with horizon**, the shape an energy shock makes. **Consistent with my own ⑧: Brent $96.36 and Phase-1 oil-in-yen re-arming.**
+
+⛔ **Changes nothing in §3.** The 9/3 grade runs on the frozen letter alone.
