@@ -1,88 +1,95 @@
 # CARL SCRATCH
-**Last session:** 2026-08-27 (Thu eve, **Will-directed work-through** after a 7-day dark gap)
-**Type:** Execution session. **Five items closed — a Will-ratified thesis-rule encode, a vector grade, a live wrong-figure correction, an adversarial registration, and the STATUS rotation.** **NO vector moved — 53/70 (76%) holds, 6th consecutive cycle.** Eight commits. ⚠️ **Inbox drained 6 of 18; BOARD 0 of 61.**
+**Last session:** 2026-09-01 (Tue eve, **boot + PROME-scoped Tier-1 work-through**)
+**Type:** Execution session. **V2's second panel grade ran and the headline is an INSTRUMENT ERROR I had been making for two sessions.** **NO vector moved — 53/70 (76%) holds, 7th consecutive cycle.** One commit at write-time + this closeout. ⚠️ **BOARD drained 15 of 128; inbox NOT drained (27).**
 
 ---
 
-## PRIORITY-1: **EART'S JULY 10-D LANDS IN DAYS AND IT IS THE ONLY THING THAT CAN MOVE V2.**
-**~8/28-31.** July is currently a **one-tier observation**: broad fell (SDART 3/3, BLAST 2/2), **deep has no July print.**
-- **EART July ALSO falls ⇒ genuine matched-month two-tier turn ⇒ ⛔ TAKE THE DRAFTED LEG SPEC TO WILL. DO NOT FIRE AD HOC.** The leg arithmetic is still owed to Will — a fixed amortizing panel is not an index.
-- **EART July rises ⇒ the July broad dip was a one-tier give-back** and V2 continues to hold 4.
-- ⛔ **MATCH ON COLLECTION MONTH, NEVER FILING DATE.** Exeter files ~1mo after collection close; Santander/Bridgecrest file to a 15th-17th distribution. **My own first table made this mistake and would have fired a false reversal.** Read `Collection Period` at the exhibit, per deal.
-- OTTO sends deal-level numbers **unprompted** on landing, collection month stated per row.
+## PRIORITY-1: **V2's TIER VERDICT LANDS ~9/30 AND IT MUST BE GRADED ON YoY, NEVER MoM.**
+**Broad tier files ~9/15-17; deep tier ~9/30; the verdict DEFERS to the later-filing tier (OTTO F1).**
+- ⛔ **THE REGISTERED DEEP DEALS ARE `EART 2022-2 / 2022-3 / 2023-1 / 2024-1` — CIK 1920761 / 1931330 / 1964225 / 2005087.** **NOT** 2025-3/4/5 or 2026-1. Those are a **disjoint set** and are **not the instrument.**
+- ⛔ **`abs_monitor.py` CANNOT SEE THE REGISTERED PANEL** — it tracks only the four newest Exeter CIKs. **Pull the four above directly until the monitor is fixed.** Fix is owed.
+- ⛔ **LEG L1 IS MATCHED-COLLECTION-MONTH YoY IMPROVEMENT. A MoM DECLINE IS NOT A LEG** (OTTO: *"conflates seasoning with credit"*). WQ-151 was registered on the MoM reading and PROME corrected it on my flag — do not re-introduce it.
+- **Two consecutive months of YoY improvement in BOTH tiers = V2 4→3.** July was worse YoY **4 of 4**.
+- Verify `Collection Period` at every exhibit; parse by row LABEL, never by `{tag}` number (numbering shifts across shelves AND across months on the same deal).
 
 ---
 
 ## CHANGES SINCE LAST SESSION
-- **Claims drifted UP off the cycle low but stayed sub-220K** — 212K (8/8) → 207K (8/15, revised from 206K) → **203K (8/22)**. Kill-rule leg 1 still satisfied, so **leg 1 filters nothing.**
-- **The energy leg reversed AGAIN.** Brent $96.92 (8/21) → **$88.24 (8/25)**, −8.9%, while the **pump kept rising** ($4.049 → **$4.085** w/e 8/24, 3rd consecutive week). **V5's downgrade watch is re-arming on the mechanism that answered NO on 8/20.**
-- **July PCE landed:** core +0.2% MoM / 3.3% YoY; **savings rate recovered to 3.0%** — and **June was revised DOWN 2.7 → 2.6**, so the floor broke harder than I published, then bounced.
-- **Inbox 9 → 18** while dark; **BOARD 47 → 61.**
+- ⭐ **EART's July 10-D landed 8/31** — the print PRIORITY-1 was pinned to. Graded tonight.
+- **The three-week pump rise BROKE:** FRED GASREGW **$4.071 w/e 8/31, −1.4¢ WoW** (was $4.085). V5 cushion above $4.00 now **7.1¢**; CRL-08 gap widened to **42.9¢**.
+- **But crude snapped back:** BZ=F **$96.27** vs Brent $88.24 on 8/25 — the pump now falls into a *rising* input, re-loading pass-through onto the **9/11 CPI**.
+- **UMich AUGUST FINAL 51.7** (revised UP from 51.0 prelim) — **reverses the two-month recovery** (44.8 → 49.5 → 55.2 → **51.7**), damage concentrated in the cohorts that cannot absorb it. ⚠️ **STATUS still carries July 55.2 — largest unintegrated consumer datum.**
+- **ISM Manufacturing August 54.6**, 8th month of expansion; Chicago's 47.1 did NOT generalise. Internals softened on every demand leg; Prices flat 71.1.
+- **Inbox 12 → 27; BOARD 61 → 128.**
 
 ## WHAT HAPPENED
-1. **★ KILL-RULE RE-SPEC RATIFIED + ENCODED — THESIS v2.6.6.** §5 gate cleared at primary (caveat scoped to mortgage **balances**, does not reach card reporting). Leg 2 → CC flow into 90+, 2 consecutive declines cumulative **≥100bp**. **Count resets 1-of-2 → 0-of-2.** PROME verified all four artifacts and **CLOSED ROW 44**.
-2. **V2 FIRST PANEL GRADE → HOLDS 4.** Not a sustained two-tier reversal (not two-tier: deep unpublished; not sustained: n=1 off a large June jump). Caught the filing-calendar defect before it fired.
-3. **Colorado River figure corrected at USBR primary** — I was carrying the cut **~2.9× too large** on AEOLUS's twice-wrong relay. AZ weighting survives; only the level was wrong. Found a **700 kaf System Conservation leg** absent from their packet.
-4. **RED's `CHG-049` accepted in full; `CARL-AUTO-OUTFLOW-01` registered** on a **free** primary instrument after finding RED's nominated Intex series is paywalled. **Not graded — the answer favours me and one seasoning trust cannot carry it.**
-5. **STATUS two-state rotation #1: 94,285 B rotated (49%).** Found a defect in the pilot spec's own second failure condition.
+1. **★ V2 SECOND PANEL GRADE — DOWNGRADE DOES NOT FIRE, AND NOW ON THE STRONG GROUND.** On the registered instrument the July deep tier is **worse YoY 4 of 4** (+1.31 / +0.74 / +1.47 / +1.33pp), extending OTTO's 26-of-26 to **30 OF 30 matched-month deal-months worse YoY, zero improving, all three tiers.**
+2. **⛔ INSTRUMENT SUBSTITUTION FOUND — the bigger finding.** I had been grading V2 on a **disjoint set of Exeter deals** for two sessions. Both pulls clean at primary, both collection-month matched, June direction agreed across both sets ⇒ **no check could see it.** Dated correction written into STATUS + THESIS. KB-CARL-398/399/400.
+3. **⚠️ SAME-SESSION SELF-CORRECTION THAT RAN AGAINST MY OWN THESIS.** First pass graded MoM (deep fell 3/4), called it *"the first genuine two-tier reversal, one month from 4→3"* — **wrong comparison.** Corrected STATUS/THESIS/KB/both packets in-session. **I reached for the easiest comparison and it happened to be the adverse one; the lesson is neither "lean adverse" nor "lean favourable" but USE THE COMPARISON THE REGISTERED LEG NAMES.**
+4. **CRL-07 FORCED CALL EXECUTED → MISSED, SCORED.** One day past its "do not roll again" deadline. **Deliberately NOT excluded from the Brier record** — unlike CRL-14 (genuine resolvability defect), CRL-07 failed because **I wrote no numeric bar**, an authorship defect I own.
+5. **WQ-104 delivered** (aggregation rule: **(a) book-weighted**, with the disclosure that **I am the beneficiary of 3 of the 4 candidates**, a private-leg precondition, and three pre-registered guards). **PROME routed it to Will with a rec to approve.**
+6. **3 NAMED corrections receipted** (COR-02 NO-OP · COR-03 NO-OP · **COR-04 APPLIED** — the FHA +122bps YoY row now carries the Oct-2025 process-break warning). Boot check now **0 unreceipted**.
 
 ## STATUS CHANGES
 | Item | Change |
 |------|--------|
-| **Kill rule** | **RE-SPECCED, RATIFIED, LIVE (v2.6.6)** — count **1-of-2 → 0-of-2**; leg 2 is the entire kill |
-| **V2** | **HOLDS 4** — first panel grade, directional; resolver = EART July 10-D |
-| **Gas / Brent / Diesel / HY OAS** | Refreshed: $4.100 · $88.24 · $5.618 (fresh high) · **267bps (was carrying 275bps [Jun 30])** |
-| **Colorado** | 3.6 maf / AZ 1.96 → **1.25 maf/yr / AZ 760 kaf**; old figure re-labelled, NOT deleted |
+| **V2** | **HOLDS 4** — 30/30 worse YoY, zero improving. Verdict resolver ~9/30 |
+| **V2 instrument** | ⛔ **Registered panel identified and corrected** — was grading a disjoint deal set |
+| **CRL-07** | **MISSED, scored, closed.** OPEN predictions **15 → 14** |
+| **PREDICTIONS.tsv** | **REFRESHED, not frozen** — two-clock header + event-driven cadence declaration (answers DAEDALUS Sweep #4) |
 | **Convergence** | **NO CHANGE — 53/70 (76%)** |
-| KB / docket / STATUS | KB 390 → **396 rows** (+6: 392-397) · docket **20 rows**, CALENDAR hand-verified **20↔20** · **STATUS 191,939 → 97,654 B** |
+| KB / BOARD / docket | KB 393 → **396 data rows** (+3: 398-400) · BOARD **128 → 113** undispositioned (15 dispositioned, all 14 CARL-action + 1) · docket **19 rows**, CALENDAR hand-verified **19↔19** |
 
 ---
 
 ## NEXT SESSION SHOULD
 
 ### IMMEDIATE
-1. **Pull gas first** (standing rule). Watch **BOTH** sides now: CRL-08 needs $4.50 (gap 40.0¢) while **V5's downgrade line sits 8.5¢ below** on a falling crude input.
-2. **EART July 10-D — PRIORITY-1 above.** Do not fire ad hoc.
-3. **⚠️ PHAN IS OVERDUE, NOT PENDING.** Affirm FQ4 reported **AMC 8/27** + Klarna Q2 — PHAN's spawn AND its `COCKROACH`/`REGULATORY` ledger sweep were pinned to that date and are now **+42d**. Spawn and discharge: advance the DATA clock or record an explicit `DID_NOT_APPEAR` null.
+1. **Pull gas first** (standing rule). Two-sided: V5 downgrade line **7.1¢** below vs CRL-08 **42.9¢** above, on a re-rising crude input.
+2. **⚠️ INTEGRATE UMich AUGUST 51.7 INTO STATUS** — three rows still carry July 55.2. Dispositioned in BOARD_LOG but **not yet in the dashboard**. Largest unintegrated datum.
+3. **Refresh the STATUS ISM row to August** (54.6; internals + flat 71.1 prices). Row currently reads July.
+4. **⚠️ PHAN — dated row now at 2026-09-08.** +49d, gate fired 8/27. Discharge the Affirm/Klarna prints AND the COCKROACH/REGULATORY sweep.
 
 ### THIS WEEK
-4. **8/28 Jackson Hole — Warsh's FIRST keynote as Chair**, 19d before the SEP/dots FOMC; the earliest surface where V12's registered un-fire path would appear.
-5. **8/29 CARL-DR-5 (DEWEY)** — ⚠️ **read §5 of the commission first, not the finding**; two of four branches cost me the grocery datum entirely.
-6. **8/31 CRL-07 FORCED CALL — PRE-REGISTERED, DO NOT ROLL AGAIN.**
-7. **Inbox 12 unread / BOARD 61 undispositioned — now the largest carried debt by far.** Leads: **WALTER (CARL-DR-1 overdue at `PARTIAL` — the 22.5bps figure must NOT travel as a pass)**, TERRY (TRY-FIRE-002 premise input; *"premise weakened, keep dormant"* is a real answer and is my lean), DAEDALUS ×2 (**SFG finding CONFIRMED live tonight — `housing_pulse.py:226` still prints a hardcoded 3.98M under the live 4.06M**), HOMER ×2, WATT, FERT ×2.
-
-### NEXT 2 WEEKS
-8. **9/1 ISM** · **9/4 August NFP = V16 escalate-to-5 resolver, month 2** · **9/10 falsifier report owed to DAEDALUS** (rotation #1; send unprompted, hit or not) · **9/11 August CPI = THE pass-through test** · **9/15 August retail sales** · **9/18 CARL-DR-1 FHA re-commission** · **~Oct 20 `CARL-AUTO-OUTFLOW-01` first grade.**
+5. **9/4 August NFP = V16 escalate-to-5 resolver, month 2.**
+6. **9/8 PHAN spawn** (above) + S338 Canadian counter-tariffs dated row.
+7. **9/10 falsifier report owed to DAEDALUS** (rotation #1; send unprompted, hit or not).
+8. **9/11 August CPI = THE pass-through test** — first full month of $4+ pump AND full-month tariff.
+9. **~9/15-17 SDART/BLAST August 10-D** — V2 leg L1, YoY basis.
 
 ### BACKLOG
-9. Stamp series+venue on every Brent level (**do NOT find-replace — the numbers are correct for their series**) · **metric-literature check on any 🔴 metric** (search the *measurement critique* separately from the data pull — that is how the Philly Fed paper sat 4 months unheld) · CRL-05 basis question **must be settled before November** · leg-1 revision exposure · GIG-P03/P06 re-instrumentation · Brier re-run at N≈20 · **GMCAR label fix — CONFIRMED tonight: `abs_monitor.py` labels CIK 0002099048 "GMF Consumer 2025-4 / subprime" and it files as 2026-1 and is PRIME.**
+10. **⚠️ INBOX 27 UNPROCESSED — untouched tonight and now the largest debt.** Live leads: **DEWEY CARL-DR-2** (charged-off cohort stopped paying voluntarily — bears on `CARL-AUTO-OUTFLOW-01`), **DAEDALUS read-cap ruling** (ROADMAP 342% / STATUS 180% / MEMORY 79% of cap), **TERRY TRY-FIRE-002** premise input, **LABOR retail-employment −154.6K benchmark question**, **RED ×2**, **HOMER ×2**, WATT, FERT, AEOLUS.
+11. **BOARD 113 undispositioned** — all CARL-action ones are now cleared; the remainder are REFERRED-class. WALTER has the count as a routing datum.
+12. **`abs_monitor.py` coverage fix** — add the registered panel CIKs; it structurally cannot see V2's instrument.
+13. **CRL-05 basis question STILL unsettled** (Equifax-3.0-era 13.74% level vs VantageScore-4.0 prints) — **must be settled before November.** Unchanged since 8/15, now three sessions running.
+14. **A PROMOTION FLAG IS STILL OWED TO PROME** — `finding_base_rate_the_threshold_before_building_it` extended to n=4 (carried from 8/27, not discharged).
+15. `housing_pulse.py:226` hardcoded 3.98M under the live 4.06M — DAEDALUS SFG finding, still live. Fannie URL 404s (BRENT 8/21).
 
 ---
 
-## OUTBOX (0 new; 6 stale Apr-17 signals still deferred)
+## OUTBOX / PACKETS SENT (3 new)
+**PROME ×2** (WQ-104 aggregation rule · WQ-107 not-registered + the grade) · **OTTO ×1** (panel vindicated, substitution disclosed, YoY row completed to 30/30, `collection_period` column asked). All committed at `33d609f81`.
 
-## INBOX (⚠️ 12 UNPROCESSED — 6 of 18 drained)
-*Drained: PROME ×2 (row-44 RULED · FERT verdict) · RED ×2 (CHG-045 no-reopen · CHG-049) · LABOR (claims) · AEOLUS (Colorado retraction).*
-**Sent (5):** PROME (row-44 encode-confirm) · RED (CHG-049 acceptance + registration) · DAEDALUS (pilot report) · OTTO ×2 via SendMessage (V2 panel ask + reconcile).
+## INBOX (⚠️ 27 UNPROCESSED — 0 drained this session)
 
 ---
 
 ## WORKBOOK HEALTH
 | File | Rows/Size | Note |
 |---|---|---|
-| **STATUS.md** | **213 lines / 97,654 B** | ✅ **ROTATION #1 DONE — 94,285 B (49%) rotated.** Pair still 157,793 vs the 61,440 cap; **blocker is `NEXUS_BRIEF.md` at 60,139 B = 98% of the joint cap ALONE.** Awaiting the cap ruling — do NOT unilaterally cut a NEXUS-schema'd surface |
-| `status_archive/STATUS_ARCHIVE_2026-08.md` | 108,863 B | **NEW.** Append-only, 6 class blocks, every row carrying its rotation reason. **Grep it before re-deriving anything** |
-| KB.tsv | 397 (396 data) | +6 (392-397). All rows 15-field verified |
-| PREDICTIONS.tsv | 29 | 15 OPEN, **none past-window**. ⚠️ **CRLF file — binary-mode edits ONLY.** Nudge says 27 STATUS-writes behind: **NOT rot** — no prediction resolved, registered or re-priced this session |
-| CATALYSTS.tsv | 20 data | 1 re-dated (OTTO panel → EART July), 1 replaced (Colorado), 1 added (`CARL-AUTO-OUTFLOW-01`); **CALENDAR hand-verified 20↔20** |
-| BOARD_LOG.tsv | 745 | ⚠️ **61 undispositioned — untouched, and growing (was 47)** |
-| MEMORY.md | 95 lines | 2 entries **PROMOTED OUT**, 2 added. 5 from cap |
-| PHAN COCKROACH/REGULATORY | **+42d** | ⚠️ **Now OVERDUE — its gating date (8/27) fired today** |
+| **STATUS.md** | 213 lines / ~101 KB | ⚠️ **180% of the 54,250 B read cap** — rotation #2 owed; DAEDALUS ruling unread in inbox |
+| **ROADMAP.md** | 198 lines / 185 KB | 🔴 **342% of cap — worst surface on the desk**, cannot be read whole |
+| **MEMORY.md** | 95 lines / 43 KB | 🟠 79% of cap, 5 lines from the 100-line cap |
+| KB.tsv | **396 data rows** | +3 (398-400). All 15-field verified; +3/−0 vs HEAD confirmed |
+| PREDICTIONS.tsv | 29 (14 OPEN) | ⚠️ **CRLF — binary-mode edits ONLY.** Two-clock header added; CRL-07 resolved |
+| CATALYSTS.tsv | 19 data | 4 pruned, 3 added; **CALENDAR hand-verified 19↔19** |
+| BOARD_LOG.tsv | 760 | 15 appended, no dupes, 9-field verified. **113 still undispositioned** |
+| PHAN COCKROACH/REGULATORY | **+49d** | ⚠️ Now has a dated docket row (9/8) — no longer a buried flag |
 
 ---
 
 ## URGENT
-- **⚠️ THE ENERGY LEG IS NOW A TWO-SIDED WATCH AND MY INSTINCT IS ONE-SIDED.** The pump has risen three straight weeks **into a falling crude input**. That is the pass-through lag, not a contradiction — and it means **CRL-08 ($4.50, 45%) and V5's downgrade line (8.5¢ below) are both live at once.** Read the energy rows from both ends.
-- **⚠️ CRL-05 IS STILL BASIS-EXPOSED AND IT IS STILL NOBODY'S ASSIGNMENT.** It resolves on a **LEVEL** (>13.74%, an **Equifax-3.0-era** figure) against VantageScore-4.0 prints. **Settle the basis question BEFORE grading it in November.** Unchanged since 8/15 — the kill rule got fixed and this did not.
-- **⚠️ CARL-DR-1 IS OVERDUE AT `PARTIAL` — the state where a partial result gets read as a final one.** One leg of six; **22.5bps against a 50bps bar reads as a comfortable pass and is not**; the unmeasured five include **FHA partial claims, the leg most likely to be large, with selection running AGAINST the kill.**
-- **⚠️ A PROMOTION FLAG IS OWED TO PROME** — I extended the indexed COLD-tier memory `finding_base_rate_the_threshold_before_building_it` to **n=4**; per the 8/21 rule that obligates a promotion flag, executed or declined at the next flow pass.
+- **⚠️ THE INSTRUMENT LESSON IS THE ONE TO CARRY, NOT THE GRADE.** Two sessions of clean, primary-sourced, collection-month-matched pulls against **the wrong four deals**, and the only reason it surfaced is that I chased a number that disagreed with OTTO's. **A clean scan against the wrong referent has no error in it to notice.** Before the ~9/30 verdict, re-verify the deal list against `PANEL_10D.tsv` rather than against `abs_monitor.py`.
+- **⚠️ I ERRED AGAINST MY OWN THESIS TONIGHT AND THAT IS ALSO A CALIBRATION DATUM.** The desk's known failure mode is the flattering read; this was the reverse. Both come from the same root — grading on the comparison that is easiest to compute rather than the one the spec names.
+- **⚠️ THE INBOX WAS NOT DRAINED.** PROME's scope said drain first; the V2 resolver was perishable and I took it first. **27 packets, some >2 weeks old, including a DAEDALUS ruling on read-caps that ROADMAP is 342% over.** Say so plainly next session rather than letting it compound a third time.
+- **⚠️ CRL-05 IS STILL BASIS-EXPOSED AND STILL NOBODY'S ASSIGNMENT** — third session unchanged. It resolves on a LEVEL (>13.74%, Equifax-3.0-era) against VantageScore-4.0 prints. **Settle before November.**
