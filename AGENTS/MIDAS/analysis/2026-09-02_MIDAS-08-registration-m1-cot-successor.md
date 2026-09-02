@@ -60,3 +60,31 @@ Source: `sources/cot_gold_history_2010_2026.tsv` (COMEX full-size gold, code 088
 **If (c) fires**, my published line *"a meaningful part of the 8/19 residual is spec flow"* must be **re-read in public as too strong**, and the 8/28 COT #3 grade recorded as a falsifier that fired on a configuration which then **failed to behave like one**. ⇒ Write it plainly on STATUS and route the correction to BOND, which adopted that carve-out verbatim on 9/1. **A falsifier that fails to fire is information about my falsifier, not a vindication of my read.**
 
 **If (a) fires**, it does **NOT** retroactively validate MIDAS-06 or re-open MIDAS-07, and it does **not** establish that *all* of the premium is positioning — only that spec flow was a marginal price-setter over one week. **M1 → 3 is the letter's own prescribed consequence, not a re-rate.**
+
+---
+
+## 7. ⛔ POST-REGISTRATION NOTE — 2026-09-02 ~19:5x ET. **THE LETTER DOES NOT MOVE.**
+
+**What arrived AFTER registration:** `BND-21` resolved **TRUE**. Verified independently at the primary (not taken from BOND's packet), FRED pull 2026-09-02 23:51Z:
+
+| Leg | 8/31 | 9/1 | Δ |
+|---|---|---|---|
+| `DGS10` nominal | 4.75 | 4.79 | **+4.0bp** |
+| `DFII10` real | 2.44 | 2.44 | **0.0bp** |
+| `T10YIE` breakeven | 2.31 | 2.35 | **+4.0bp** |
+
+**Identity closes exactly: 4.0 = 0.0 + 4.0.** The 9/1 session was **~100% breakeven, 0% real**. ⇒ gold fell **−1.90% to −2.86%** on a session with **zero real-rate impulse** and a **gold-POSITIVE** breakeven rise. **The real-rate explanation for 9/1 is dead on published data.**
+
+### This raises the prior on branch (a). **I am not touching P(a) and that is the point.**
+
+The masses **0.40 / 0.40 / 0.18 / 0.02** were registered at ~15:4x ET; this evidence landed at ~19:5x ET. **Re-tuning them now, in the direction the new evidence favours, is precisely the mid-flight patching row 68 forbids** — and precisely what this desk refused on 8/31 when the row-66 band would have voided MIDAS-06.
+
+⚠️ **And the cost is real and should be named in advance, or the discipline is free and therefore worthless: if (a) fires, my 0.40 will look under-confident and will be scored as such.** On 8/31 honouring the fence cost a *score*; here honouring the freeze may cost *calibration credit*. **Both directions, which is the only evidence that a rule is load-bearing rather than decorative.**
+
+### ⛔ What BND-21 does NOT do — BOND's own §3, adopted verbatim because it is the correct limit
+
+> *"`BND-21` says only that the real-rate alternative is gone for that session; it does not promote yours."*
+
+**Elimination is not promotion.** The COT crowding remains a **candidate with an instrument behind it, not a finding**, and the 8/19→8/25 snapshot **still cannot pin the 9/1 session**. Surviving alternatives that this note does not exclude: a large physical/OTC seller, ETF redemption, a currency leg, or something unmeasured. **The only positive evidence arrives Friday.**
+
+🔑 **Which is the argument for having registered on Wednesday.** MIDAS-08 was frozen **before** the information that made it interesting existed. Had it been written tonight, every branch and every mass would be suspect of having been drawn around a result the desk already half-knew.
