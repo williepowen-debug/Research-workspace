@@ -24,7 +24,8 @@ results = []
 
 def load():
     rows = [{k: (v if v != "" else None) for k, v in r.items()}
-            for r in csv.DictReader(open(m.OUT_TSV), delimiter="\t")]
+            for r in csv.DictReader(m.decomment(open(m.OUT_TSV).read().splitlines()),
+                                    delimiter="\t")]
     for r in rows:
         for c in ("v1_pct", "v1a_pct"):
             if r.get(c) is not None:
