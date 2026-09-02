@@ -6,6 +6,14 @@
 
 
 
+## 2026-09-02 ~10:5x ET — S39: Kernel verifier seat executed, inbox corrections applied. NO weight/confidence change
+
+**Confidence 69 (=). Net-bear 60 (=). 14th consecutive session unchanged.** Nothing this session was thesis evidence:
+- **MIDAS-06 VerifyResolution** — RED independently re-derived the frozen letter at the primaries (DFII10 8/28 = 2.42; gold 8/28 GC=F 4478.10 / GCZ26 4529.90 → branch (a)) and verified MIDAS's YES; accepted as `EVT-01a06273…` (stream v4). A ledger fact about a MIDAS row, not a RED weight input.
+- **Registered-trigger states unchanged.** FT-12 ARMED-UNFIRED (8/28 = 260.0 strict-miss, 8/31 = 263, 9/1 = 265 — widening away); FT-10 base-rate drift 🔴 (0.8%@120 vs 3.3% recorded) re-reviewed as MORE selective, threshold not re-cut. ISM Aug 54.6 removes the national sub-50 leg from FT-12's pre-registered counter-pressure test (recorded on the row).
+- **KB-054 corrected on CARL's primary refresh** (card 90+ DQ 12.92% first decline, 15-yr-high superlative basis-broken; SL 9.0M/$220B). The SHAPE the row feeds VX-002/VX-003 with (bottom-cohort stress real but diffuse/non-bank) HOLDS and is better evidenced — no vector weight moved.
+- **Counterweight read for the bull steelman, standing:** CARL V2 30/30 subprime-auto ABS deal-months worse YoY, all tiers — but the YoY gap is NARROWING (broad +1.92→+1.00pp). Deceleration of deterioration is the bull's best consumer-credit line this week and RED carries it at full strength; it is not improvement.
+
 ## 2026-08-28 ~15:3x ET — S38h: CHG-051 two-axes rider + FT-01/FT-06/FT-07 amendment-inherits-certificate audit COMPLETE. NO WEIGHT MOVED — challenge state extended; three future-risk items flagged; standing rule adopted
 
 **Confidence 69 (=). Net-bear 60 (=). Weight unchanged; the entry exists because CHG-051's scope extended and three registry-row conditions moved into audit-tracked state.**

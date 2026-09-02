@@ -48,6 +48,9 @@ FILES = {
     "FLOW.tsv": (WB / "FLOW.tsv", 1),
     "VX_HISTORY.tsv": (WB / "VX_HISTORY.tsv", 0),
     "FALSIFICATION_TRIGGERS.tsv": (ROOT / "registry" / "FALSIFICATION_TRIGGERS.tsv", 0),
+    # Generated SCAN view (S39 2026-09-02, WALTER proposal): line 0 is the generator banner
+    # carrying the canon sha256 — skip it. Content drift vs canon is gen_trigger_scan.py --check's job.
+    "FALSIFICATION_TRIGGERS_SCAN.tsv": (ROOT / "registry" / "FALSIFICATION_TRIGGERS_SCAN.tsv", 1),
     # Outcome axis pair (added 2026-08-27 S36d, CHG-051 deliverable 2): the pre-committed
     # per-trigger spec and the per-fire grade ledger. Registry-adjacent, so they live in
     # registry/ beside the surface they grade.

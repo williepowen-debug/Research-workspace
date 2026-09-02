@@ -127,3 +127,17 @@ TRIGGER_OUTCOMES.tsv	proxy_window_move	String	Free text with figures	Yes	The pro
 TRIGGER_OUTCOMES.tsv	outcome	Categorical	CORRECT; WRONG; UNRESOLVED; UNRESOLVED-TRACKING-SUCCESS; UNRESOLVED-TRACKING-FAIL; ANNULLED	Yes	The grade. NEVER moves a weight by itself - outcome grades are apparatus data consumed by scheduled spec reviews
 TRIGGER_OUTCOMES.tsv	graded_date	Date	YYYY-MM-DD or blank while unresolved	No	When the grade was written
 TRIGGER_OUTCOMES.tsv	notes	String	Free text	No	Caveats and cross-refs
+FALSIFICATION_TRIGGERS.tsv	instrument_basis_operative	String	Free text, target <=350 B: series/venue + unit + publication lag + WHICH DATE GOVERNS the sustain count + N5 scope; no rationale	Yes	ADDED 2026-09-02 S39 (WALTER proposal 8/31, Will-ruled 9/1 point 5: RED owns the restructure). The OPERATIVE clause of instrument_basis, authored ONCE here in canon and copied verbatim into the generated SCAN view by scripts/gen_trigger_scan.py. instrument_basis keeps the rationale/history (244 B on FT-01, 8.2 KB on FT-12 - the dispersion WALTER measured); this column is the part a scan must execute on. Appended col 18 - positional consumers of cols 0-16 unaffected.
+FALSIFICATION_TRIGGERS_SCAN.tsv	trigger_id	String	RED-FT-NN	Yes	GENERATED VIEW of registry/FALSIFICATION_TRIGGERS.tsv - 13 of 18 canon columns, projected by scripts/gen_trigger_scan.py (deterministic; line 0 = '#' banner carrying the canon sha256). NEVER hand-edit; run gen_trigger_scan.py after ANY registry edit and `--check` at closeout. CANON GOVERNS every fire, citation and ruling; the view exists so WALTER boot 6b/6c can read the registry under the 32,550 B read cap (view ~6 KB vs canon ~49 KB). Added 2026-09-02 S39. Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	metric	String	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	threshold_op	Categorical	<;>;<=;>=;==	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	threshold_value	Numeric	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	sustain_window	Integer	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	action	Categorical	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	state	Categorical	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	recipient_chain	String	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	exit_op	Categorical	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	exit_threshold	Numeric	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	exit_sustain	Integer	as canon	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	last_reviewed	Date	YYYY-MM-DD	Yes	Copied from canon
+FALSIFICATION_TRIGGERS_SCAN.tsv	instrument_basis_operative	String	as canon	Yes	Copied from canon
