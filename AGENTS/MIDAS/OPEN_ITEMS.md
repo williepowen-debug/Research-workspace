@@ -5,7 +5,21 @@
 > ⛔ **This file is NOT dropped from the boot — `STATUS.md` carries the live top-3 inline and points here for the rest. Read it whenever you touch an open item.**
 > **Consistency rule (both files or neither):** an item that changes state must be updated **here** and, if it is in the STATUS top-3, **there too**. STATUS's pointer names this file by path.
 
-**Last updated:** 2026-09-02 ~14:5x ET.
+**Last updated:** 2026-09-02 ~15:2x ET.
+
+---
+
+## 20. 🟠 PGM MECHANISM (n=3) — the sweep is DISCHARGED; the INSTRUMENT ask is what remains
+
+✅ **No-news sweep RUN 2026-09-02 after three carried sessions — NO-NEWS CONFIRMED.** Five hit criteria + an explicit non-hit list **frozen to file before the first query**; seven probes; nothing dated **2026-08-25 → 2026-08-28** on supply, sanction/policy, demand, market-structure or corporate. → `analysis/2026-09-02_pgm-0828-news-sweep.md`, **KB-101**.
+
+🔑 **Stronger than absence:** the only published cause (*dovish Fed / softer dollar*) is **refuted by the same day's tape** — gold FELL on every basis (`GCZ26` −2.875% · `GC=F` −2.855% · GLD −3.244%) while **Pd rose +6.803%**, and the statistic is a residual **vs gold**, so a monetary root is regressed out by construction. ⇒ **the 8/4 "residually unexplained" disposition survives its strongest public challenger.**
+
+🔴 **Two negatives worth carrying:** the **Russian-palladium duty channel is CLOSED, not quiet** — USITC voted **2026-05-29** that unwrought Russian Pd does **not** injure US industry ⇒ **no AD/CVD order at all**, despite Commerce's 109.1% CVD / 132.83% AD. And the only concrete supply item found runs the **wrong way** (Nornickel guidance *"aligns with expectations"*).
+
+⛔ **STILL OPEN — and now the ONLY route:** re-open (c)'s three instruments (**PGM lease rates · COMEX/NYMEX PGM stocks · PPLT/PALL share-count flows**), confirmed by probe 6 as **not publicly retrievable at the needed cadence**. **HAWK 5th asking (9/2)**, PROME carrying. **An explicit "no access here" closes the loop and is accepted.**
+
+⚠️ **Limits travel or the finding is misquoted:** bounds the **public-catalyst** hypothesis only, not "no cause" · **English-language, US-centric sources only — no Russian or Afrikaans reachable**, the hole most likely to hide a supply/sanction event in a Russia/SA-concentrated market · absence of news is **weaker** than a positive instrument reading. **I2 score UNCHANGED at 2 🟡** — no registered trigger fired.
 
 ---
 
