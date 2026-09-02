@@ -33,3 +33,23 @@ A proposed fix can **relocate** a constraint instead of removing it, and the aut
 **⇒ The diagnostic question, sharpened: it is not enough to ask "what does the fix now depend on." Ask WHERE THE DISPLACED QUANTITY WENT, and whether that destination has a bound.** A split, a tier, an archive, a queue and a cache are all relocations. If the receiving side has no ceiling, the constraint has not been removed — it has been made **quieter and later**, and it will resurface where nobody is measuring.
 
 ⭐ **And the tell that it was a relocation rather than a fix was available for free the whole time: the sink had no check.** The hot index had a flow rule, a byte meter in the closeout gate, and a size hook. The cold index had none of the three — and nobody noticed the asymmetry for 23 days, because every instrument that existed kept returning green (`[[finding_registered_gate_captures_attention]]`, `[[finding_guard_correctness_and_wiring_are_independent]]`).
+
+---
+
+**Instance 2026-09-02 (MIDAS, `metals_watch.py` kill rail) — n=4, and the NEW variant: the relocation was WRITTEN DOWN AS A REPAIR, in a source comment, where it read as verification for ten days.**
+
+**What happened.** A boot instrument graded a registered kill-condition window using `GC=F`, a *continuous* futures ticker. On 2026-08-23 it was fixed for a real defect — it had been reading a **live** quote instead of a settled close. That fix was correct. The comment shipped with it was not:
+
+> *"The live quote also crosses the GCZ26 roll, so the old reading was contaminated twice — in-flight AND cross-contract. **Settled+prior-bar keeps both legs on one contract and one calendar.**"*
+
+**Settling a bar cures the in-flight defect only.** It cannot cure the cross-contract one, because **the ticker IS the roll**: its underlying contract changes *inside* the measurement window, so both endpoints can be perfectly settled and still be different instruments. Measured 2026-09-02: the leg read **+1.59%** off two thin dying-contract prints (volume **1,303** and **360** on the world's most liquid gold future) against **+1.398%** same-contract and **+1.461%** no-roll.
+
+**⇒ What this instance adds to the pattern.** The earlier instances relocated a dependency and *left the reader to notice*. This one **relocated it and then filed a certificate** — the false half sat in the comment beside the true half, in the one artifact a later auditor reads to find out whether the question was already handled. **A comment is where "I inferred this" and "I measured this" become indistinguishable.** An auditor checking that exact leg for roll contamination would have found a sentence saying it was addressed, and stopped.
+
+⚠️ **The aggravating detail, and it generalises.** The desk's own boot-read STATUS banner carried an explicit **CROSS-ROLL BAN** the entire time. **The banner and the code disagreed for ten days and nothing could see it, because they are different surfaces with different readers** — the banner is re-read every boot, the comment is read only by whoever opens that function. A rule stated on the surface you re-read does not propagate to the code that violates it.
+
+**How to apply — one addition:**
+- **When a fix addresses defect A and you believe it also addresses defect B, B needs its own test and its own measurement, or the claim about B does not go in the comment.** Write what you *measured*; for what you *inferred*, write that you inferred it. A fix pass is unreviewed work ([[finding_a_correction_pass_is_unreviewed_work]]) and its **comments** are the least reviewed part of it.
+- **Grep your own standing bans against the code that could violate them.** A banner is not a guard.
+
+**Harm this instance: zero — and that is ordering luck, not method.** The condition this leg feeds had already fired on an earlier window and its registered test was terminal, so a wrong number had nothing left to escalate. Had it been live, a REVIEW would have been raised on a cross-roll figure. Sibling of [[finding_instrument_reports_clean_against_the_wrong_reference]].

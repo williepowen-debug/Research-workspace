@@ -14,7 +14,35 @@
 
 > ⚠️ **This block is the ONLY live forward list in this file.**
 
-> ⛔ **CLOSEOUT 2026-08-31 ~18:0x ET (PROME-orchestrated grade touch). THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
+> ⛔ **BOOT + WORKING SESSION 2026-09-02 ~10:0x–10:3x ET (Wed). THIS BLOCK SUPERSEDES EVERYTHING BELOW IT.**
+>
+> **▶ THE HEADLINE IS AGAINST MYSELF: `metals_watch.py` was grading the registered kill rail ACROSS A CONTRACT ROLL, and the comment inside it said that was fixed.** Leg 5b read `GC=F` **4,361.80 [8/10, vol 1,303] → 4,431.10 [8/31, vol 360]** = **+1.59%** — two thin dying-contract prints. Same-contract `GCZ26` **+1.398%**, no-roll `GLD` **+1.461%**. The 8/23 fix cured the in-flight defect (L-29) and *asserted* it also pinned the contract — false, because **`GC=F` IS the roll**. ✅ **REPAIRED THIS SESSION:** GLD arbitrates, >0.50pp divergence prints ROLL CONTAMINATION, new **YIELD LEG INSIDE NOISE** guard below 5bp. Re-run reproduces +1.46%. **Harm zero — ordering luck** (kill-cond #3 already fired, MIDAS-06 CONSUMED). → KB-096, **L-45**
+>
+> **▶ GOLD 9/1 — I OWN THIS LEVEL AND THE FLEET'S FIGURE DOES NOT REPRODUCE.** ⛔ **CITE −2.95% over 8/28→9/1** (`GC=F` −2.905% · `GCZ26` −2.947% · `GLD` −2.969%, **0.064pp** apart). ⚠️ **Never quote a bare 1-day 9/1 figure** — 8/31→9/1 splits **−1.875 / −1.899 / −2.857%**. The GLD/GCZ26 ratio isolates **8/31 (10.9728)** against an **11.036–11.081** band ⇒ **the contaminated leg is the 8/31 MARK.** The **−2.35%** relayed via WALTER/REGINALD lands on nothing; **asked for its construction, did not declare it wrong.** → KB-097
+>
+> **▶ BOND'S 9/1 TENSION IS REAL, CONFIRMED AT THE PRIMARY BY ME, AND BASIS-INVARIANT.** T10YIE **2.31→2.35 (+4bp)**, T5YIE **2.31→2.37 (+6bp)**, T5YIFR **+2bp** — rising breakevens are **gold-positive** and gold fell on **every** basis. ⇒ **correcting the level does NOT rescue the simple real-rate read.** ⏳ **The H.15 partial split is STILL OPEN as of 14:05Z: breakevens reach 9/1, `DFII10`/`DGS10` stop at 8/31 ⇒ `BND-21` ungradeable until today ~16:15 ET.** My COT crowding is the leading candidate resolution — **not ruled; the 8/19→8/25 snapshot cannot pin 9/1.**
+>
+> **▶ CHINA AUG PMI GRADED — the registered I1 discriminator favours the structural read, and caught my own registration failing.** Composite **49.5** = **2nd consecutive sub-50** (Jul 49.3), mfg **49.8** (+0.6, beat), copper firm **$6.51–6.63** ⇒ **satisfied on the letter.** ⚠️ But it is a **REBOUNDING** sub-50 (production 50.4, new orders 50.6 back in expansion) ⇒ strengthened **less than my spec's language implies**. ⛔ **MY BRANCH SET IS NOT MECE** — first grade after Will ratified the MECE rule (WQ-142) and it fails it. → KB-098
+>
+> **▶ INSTRUMENT: THE VOLUME DISCRIMINATOR WAS DEAD ON THE 9/1 ROW.** All 7 futures tickers returned 8/31's volume duplicated into 9/1; all 4 ETFs distinct. **Warning ② names volume as *the* discriminator** — on that row it silently returns the prior session. Fallbacks that worked: **degenerate bar shape (O=H)** and **level spread vs `GCZ26`**. ⛔ **Bycatch corrects a live STATUS claim: the `GC=F` daily roll completed 9/2, NOT 8/31.** → KB-099, **L-46**
+>
+> **▶ GATE C — CLOSED, NOTHING OWED. 5 MIDAS commands ACCEPTED, 0 refusals.** ⚠️ **I REFUSED THE FIRST REQUEST**: the custodian asked me to commit while activation E was still `..._E_DRAFT.json` with `window_start`/`window_end` = **"TO-BE-RULED"** ⇒ carve-out ④ inactive. Verified at the artifact, refused with the failing legs named; E was minted; then executed (SUBMISSION_COMMIT **3a4d996a9**). **The refusal is in the sitting's ruling record as load-bearing.** `CALIBRATION.tsv` row 14 carries the MIDAS-06 forecast (0.45 YES) with a **designed** `OUTCOME_VOCABULARY_MISMATCH` exclusion — not a defect.
+>
+> **▶ WQ-142 + WQ-91 RECEIVED AND ENCODED** (STATUS item 19 — PROME asked for the one-line confirmation; it is written). Band = **NARROW 2.37–2.43, prospective-only**; successor branch sets **MECE with a declared catch-all**; MIDAS-01/02 + I1 band grade **both bases 9/30**.
+>
+> **⏳ BLOCKED / OWED — the real next-session list:**
+> 1. ⏳ **`BND-21` + the 9/1 `DFII10` print — ~16:15 ET TODAY.** Decides whether positioning or the real-rate impulse carries 9/1. **Do not pre-empt it.**
+> 2. **PGM mechanism (n=3)** — blocked on the three absent instruments (**PGM lease rates · COMEX/NYMEX PGM stocks · PPLT/PALL flows**). PROME ask 8/31; HAWK re-asked 3×.
+> 3. ⚠️ **NEWS SWEEP ON THE 8/28 PGM SESSION STILL OWED — not run 8/31 AND not run 9/2 ⇒ UNKNOWN, second session carried.**
+> 4. **ZHAO** — construction→refined-copper lag; and whether the PMI rebound is weather-unwind (would weaken my attribution). **Will** — I1 upside band (L-13(b)), margin-inside-noise-by-rule. ⛔ **NO-VERDICT vs (d) INDETERMINATE still unruled — must be settled BEFORE a successor row registers.**
+> 5. **`fetch.py` metals settlement source (KB-047) — 6th instance**, PROME/FORGE-gated.
+> 6. **MIDAS-01 / MIDAS-02** grade **9/30**, **BOTH BASES** (WQ-91, DOCKET row 231).
+> 7. 🟠 **FLAG TO PROME, do NOT self-rule:** `analysis/LESSONS_ARCHIVE_2026-08.md` now carries **September** lessons (L-45, L-46) under an August filename. The protocol names that file, so I appended as instructed rather than restructuring — **the archive needs a September roll or a rename decision.**
+> 8. 📏 **STATUS needed THREE rotation passes to fit the read cap this session** (30,541 → 32,359 B against a 32,550 B budget). It is at **99.4% of budget** and will breach on the next session's writes. **Rotation candidates are exhausted at the closed-item tier.**
+
+---
+
+> ⛔ **CLOSEOUT 2026-08-31 ~18:0x ET (PROME-orchestrated grade touch). SUPERSEDED BY THE BLOCK ABOVE.**
 >
 > **▶ MIDAS-06 IS GRADED, TERMINAL, AND CLOSED: (a) DIVERGE PERSISTS.** DFII10 **2.42 [obs 8/28]**, re-pulled at the primary 17:41 ET, cleared the ≥2.40 binding leg by **+2bp**; gold cleared $4,340.70 on **BOTH** bases (**+3.165%** `GC=F` $4,478.10 · **+4.359%** `GCZ26` $4,529.90, T+1 confirmed, two-pull PASS, same-contract both pairs). **M1 3 → 4 · composite 7/20 → 8/20** — the letter's own prescribed consequence. No joint satisfaction, no adjudication owed. → `analysis/2026-08-31_midas-06-TERMINAL-GRADE.md`, KB-092/093.
 >
@@ -35,6 +63,8 @@
 ---
 
 **2026-08-31 CLOSEOUT (PROME-orchestrated grade touch).** **MIDAS-06 GRADED TERMINAL (a)** on the published 8/28 DFII10 cell (2.42); **band fence honored — the band was NOT applied and honoring it cost a score**; **M1 3→4, composite 7/20→8/20**, the letter's own consequence. **I2 re-open (b) FIRED, n=3** (Pd +4.03σ, rank 2/665) with the score **deliberately held at 2**. **COT #3's impeachment carried forward INTO the grade rather than around it.** **Two corrections published against myself:** the *"+4.34% on both bases"* margin was an in-flight artifact (daily bars never converged — $51.80/1.16% apart ⇒ true +3.165%/+4.359%, KB-093/L-44), and the Pd σ was revised **down ~0.6σ** (KB-095). **Inbox drained 2/2 → 0.** **New: KB-092…095, L-44.** **Zero capital; no threshold, band or frozen letter set or moved.** Composite **8/20**.
+
+**2026-09-02 BOOT + WORKING SESSION.** Boot found **three instrument defects and repaired the one that is mine**: `metals_watch.py` grading the kill rail cross-roll with a comment certifying it fixed (**KB-096, L-45**); the vendor's **volume discriminator dead on the 9/1 row** (**KB-099, L-46**, and it corrected a live STATUS roll-date claim); and gold's 9/1 move **basis-dependent at 1 day, robust at 2 (−2.95%)** with the fleet's **−2.35%** reproducing on nothing (**KB-097**). **China Aug PMI graded** — registered leg satisfied, **and my own branch set found non-MECE on the first grade after the MECE ruling** (**KB-098**). **BOND's 9/1 tension independently confirmed and basis-invariant**; `BND-21` ungradeable until ~16:15 ET. **Gate C: 5 commands accepted, 0 refusals — after I refused the first request against a DRAFT activation.** **Inbox drained 4/4 → 0.** **STATUS rotated three times to fit the read cap.** **New: KB-096…099, L-45, L-46.** **Zero capital; no threshold, band or frozen letter set or moved. Composite 8/20, unchanged.**
 
 ---
 

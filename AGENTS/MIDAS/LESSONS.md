@@ -56,3 +56,5 @@
 | **L-42** | 2026-08-28 | An over-cap surface loses whatever convention puts LAST — for STATUS files that's the summary; measure the dropped bytes, never assume them. |
 | **L-43** | 2026-08-28 | The exchange's clock is not the vendor's clock — "settled at 13:30" can be true while the feed has no settle at all; verify STATIC, not just closed. |
 | **L-44** | 2026-08-31 | "Converged" seen on a live feed is a claim about the INTRADAY series — the DAILY bars can still close on different contracts, and that split contaminated a published both-bases margin. |
+| **L-45** | 2026-09-02 | A fix that cures one contamination can CERTIFY a second as cured — my own comment claimed settled bars pinned the contract; `GC=F` IS the roll, and the false claim sat in the source for 10 days. |
+| **L-46** | 2026-09-02 | When the DISCRIMINATOR goes stale the check passes and measures nothing — vendor duplicated futures volume into the 9/1 row; keep a fallback that fails on a different field. |

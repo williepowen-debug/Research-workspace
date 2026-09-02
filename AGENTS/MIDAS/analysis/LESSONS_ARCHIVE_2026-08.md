@@ -75,3 +75,45 @@
 **What saved it this time — and it was not care.** The gold leg cleared branch (a)'s key by **≥3.1pp on both bases**, so a 1.19pp error in the margin could not reach the verdict. ⚠️ **That is slack, not method.** Had the branch key sat between $4,478.10 and $4,529.90, the published claim would have asserted a PASS on a basis that FAILED, on the desk's own headline surface, into a Will-facing grade. **The margin was wrong; the verdict was not — and the order of that sentence is the only reason this is a lesson and not an incident.**
 
 → KB-092, KB-093. Instance of `finding_instrument_reports_clean_against_the_wrong_reference`; n+1 on KB-087.
+
+---
+
+## L-45 — 2026-09-02 — A fix that cures one contamination can CERTIFY a second as cured, and the certificate is written in the source comment where it reads as verification
+
+**What happened.** `metals_watch.py` leg 5b grades the registered M1 kill-condition #3 window (gold rising through rising real yields over 3+ weeks). On 2026-08-23 I fixed it for the in-flight defect (L-29): use SETTLED closes date-matched to the yield leg, never the live quote. The fix was correct. The comment I wrote alongside it was not:
+
+> *"The live quote also crosses the GCZ26 roll (KB-050/052), so the old reading was contaminated twice — in-flight AND cross-contract. **Settled+prior-bar keeps both legs on one contract and one calendar.**"*
+
+**The second clause is false.** Settling a bar cures the in-flight problem only. It cannot cure the cross-contract problem, because **`GC=F` IS the roll** — a continuous ticker whose underlying contract changes *inside* a 21-day window. Both endpoints can be perfectly settled and still be different contracts.
+
+**Measured 2026-09-02.** The leg read `GC=F` **4,361.80 [8/10, vol 1,303]** → **4,431.10 [8/31, vol 360]** = **+1.59%**. Both endpoints are thin dying-contract prints — a 360-lot day on the world's most liquid gold future. Same-contract `GCZ26`: **+1.398%**. No-roll `GLD`: **+1.461%**. The instrument overstated by **0.13–0.19pp** on the leg that feeds the kill rail.
+
+**Why the comment is the finding and the arithmetic is not.** 0.19pp changed nothing here. What changed something is that for ten days the source file *told every reader, including me, that the contract question had been handled.* A reader auditing this leg for roll contamination would have found a comment saying it was addressed, and stopped. **The fix relocated the constraint and reported it removed** — and then documented the removal in the one place that looks like evidence.
+
+**The aggravating detail.** My own `STATUS.md` carries a ⛔ **CROSS-ROLL BAN** in its standing-warnings block, in terms: *"never a like-for-like delta across that pair."* The banner and the code disagreed for ten days, and the banner is the surface I re-read every boot while the comment is the one I do not.
+
+**The rule.** ⛔ When a fix addresses defect A and you believe it also addresses defect B, **B needs its own test and its own measurement, or the claim about B does not go in the comment.** Write what you measured; for what you inferred, write that you inferred it. A fix pass is unreviewed work (`finding_a_correction_pass_is_unreviewed_work`) and its *comments* are the least reviewed part of it.
+
+**The fix shipped this session.** `GLD` now **arbitrates** the state decision (it never rolls — STATUS standing warning ②); `GC=F` is still printed for continuity; a `GC=F`-vs-`GLD` divergence >0.50pp prints a **ROLL CONTAMINATION** banner naming both figures. Re-run reproduces **+1.46%** exactly. A second guard was added on a defect found in the same read: a 3-week yield move of 0 < Δ < 5bp now prints **YIELD LEG INSIDE NOISE**, because the registered shape test passes on the **sign** of Δy and **+1bp over three weeks is not a rising-yield regime** — the shape was "present" on a 1bp move.
+
+**Harm this instance: zero — and that is ordering luck.** M1 kill-cond #3 had already FIRED (leg 3) on the 7/17→8/7 window and MIDAS-06 is TERMINAL/CONSUMED, so this leg had nothing left to escalate. Had it been live, a REVIEW would have been raised on a cross-roll number.
+
+→ KB-096. Instance of `finding_a_fix_can_relocate_a_constraint_and_report_it_removed`; sibling of L-44 (both are *the check that counterfeits itself*).
+
+---
+
+## L-46 — 2026-09-02 — When the discriminator itself goes stale, the check passes and measures nothing; keep a SECOND discriminator that fails differently
+
+**What happened.** STATUS standing warning ② states my method for identifying which contract a `GC=F` bar carries: *"The discriminator is **VOLUME**, not price."* On the 2026-09-01 row that discriminator was **unavailable** — the vendor duplicated 8/31's volume into it.
+
+**Measured.** Every futures ticker returned an identical volume for 8/31 and 9/1 — `GC=F` 360/360, `GCZ26` 152,216/152,216, `SI=F` 423/423, `SIZ26` 37,431/37,431, `HG=F` 2,535/2,535, `PL=F` 0/0, `PA=F` 83/83 — while every ETF returned distinct volumes (`GLD` 9,490,000 vs 13,080,700; `SLV` 14,752,300 vs 17,681,000). **Prices on those rows differ**, so it is a stale *volume field*, not a duplicated row. Re-pulled once; same result.
+
+**Why it is dangerous.** A contract check keyed on volume would have returned a clean, plausible answer built from the *previous session's* number. Nothing errors, nothing looks stale, and the audit passes — `finding_instrument_reports_clean_against_the_wrong_reference`, landing on the very instrument the warning nominates.
+
+**What worked instead — two fallbacks that fail differently from volume.** ① **Bar shape:** `GC=F` 9/1 printed **O = H = 4,402.00** on a 4,329.10–4,402.00 range; a degenerate open-equals-high bar is the dying-contract signature (same shape as 8/27's flat O=H=L=C). ② **Level spread:** 4,348.00 vs `GCZ26` 4,396.40 — a ~$48 gap consistent with Q/Z contango, not with two prints of one contract.
+
+**The rule.** A named discriminator is an instrument and inherits every instrument failure mode, staleness included. **Carry at least one fallback that depends on a different field**, and when the primary is unavailable say so explicitly rather than letting the fallback's answer inherit the primary's authority.
+
+**Bycatch, and it corrects a live STATUS claim.** `GC=F` and `GCZ26` print **identical OHLCV on 9/2** (O 4,377.20 H 4,427.00 L 4,329.20 C 4,426.20 V 125,498), so the `GC=F` **daily** series completed its roll to `GCZ26` on **9/2** — one session later than STATUS recorded. STATUS said 8/31 ("both $4,497.30"); on 8/31 the two still differed (**4,431.10** vs **4,481.50**). ⛔ **That 8/31 roll-completion claim is SUPERSEDED.**
+
+→ KB-099, KB-097.

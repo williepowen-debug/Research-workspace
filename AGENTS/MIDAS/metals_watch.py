@@ -366,10 +366,22 @@ def main():
                 # SETTLED close as-of the yield leg's date — never the live quote.
                 # Same FIX/rationale as the 90d leg (KB-061 / L-29), and it matters
                 # MORE here: this is the REGISTERED kill-cond #3 window, its state
-                # trips rc and feeds the kill rail. The live quote also crosses the
-                # GCZ26 roll (KB-050/052), so the old reading was contaminated twice —
-                # in-flight AND cross-contract. Settled+prior-bar keeps both legs on
-                # one contract and one calendar.
+                # trips rc and feeds the kill rail.
+                #
+                # ⛔ CORRECTION 2026-09-02 (KB-096, L-45). The lines that stood here
+                # claimed settled+prior-bar "keeps both legs on one contract and one
+                # calendar." THAT WAS FALSE AND IT CERTIFIED THE DEFECT AS FIXED.
+                # Settling the bar cures the IN-FLIGHT defect (L-29) only. It cannot
+                # cure the CROSS-CONTRACT one, because `GC=F` IS the roll: it is a
+                # continuous ticker whose underlying contract changes inside a 21d
+                # window, so both endpoints can be settled and still be different
+                # contracts. Measured on 2026-09-02: this leg read GC=F 4,361.80
+                # [8/10, vol 1,303] -> 4,431.10 [8/31, vol 360] = +1.59%, both of them
+                # thin dying-contract prints, against same-contract GCZ26 +1.398% and
+                # no-roll GLD +1.461%. The 8/23 fix relocated the constraint and
+                # reported it removed. ⇒ GLD now ARBITRATES the state decision (it
+                # never rolls — STATUS standing warning ②); GC=F is printed for
+                # continuity and a divergence >0.50pp is reported as roll contamination.
                 _bars3 = [b for b in hist3["history"] if b.get("close") is not None]
                 _prior3 = [b for b in _bars3 if b["date"] <= latest_y["date"]]
                 if not _prior3:
@@ -377,6 +389,30 @@ def main():
                 g_now, g_now_d = _prior3[-1]["close"], _prior3[-1]["date"]
                 dy_bp = (float(latest_y["value"]) - float(y_then["value"])) * 100
                 dg_pct = (g_now - g_then) / g_then * 100
+
+                # --- ROLL ARBITER: GLD never rolls, so it grades the same window ---
+                dg_arb, arb_src, roll_note = dg_pct, "GC=F", None
+                try:
+                    _hg = fetch.price_history(["GLD"], days=30)["GLD"]
+                    if "error" not in _hg:
+                        _gb = [b for b in _hg["history"] if b.get("close") is not None]
+                        _gthen = [b for b in _gb
+                                  if (latest_d - _d.fromisoformat(b["date"])).days >= 21]
+                        _gnow = [b for b in _gb if b["date"] <= latest_y["date"]]
+                        if _gthen and _gnow:
+                            _a, _b = _gthen[-1]["close"], _gnow[-1]["close"]
+                            dg_gld = (_b - _a) / _a * 100
+                            dg_arb, arb_src = dg_gld, "GLD (no-roll arbiter)"
+                            if abs(dg_gld - dg_pct) > 0.50:
+                                roll_note = (f"ROLL CONTAMINATION — GC=F {dg_pct:+.2f}% vs "
+                                             f"GLD {dg_gld:+.2f}% differ by "
+                                             f"{abs(dg_gld - dg_pct):.2f}pp; GC=F endpoints "
+                                             f"are not one contract. STATE GRADED ON GLD.")
+                except Exception as _e:                       # arbiter is advisory
+                    roll_note = f"GLD arbiter unavailable ({_e}) — GC=F ungraded for roll"
+
+                # the registered shape is graded on the ARBITER, never on GC=F alone
+                dg_pct = dg_arb
                 if dy_bp > 0 and dg_pct > 0:
                     kc3_state = ("KILL-COND-#3 SHAPE PRESENT (gold UP through RISING real "
                                  "yields over 3wk = debasement-premium reassertion) — REVIEW/escalate")
@@ -390,8 +426,16 @@ def main():
                 print(f"    DFII10:      {y_then['value']} [{y_then['date']}] -> "
                       f"{latest_y['value']} [{latest_y['date']}]  ({dy_bp:+.0f}bp)")
                 print(f"    Gold (GC=F): ${g_then:,.2f} [{g_then_d}] -> "
-                      f"${g_now:,.2f} [{g_now_d}]  ({dg_pct:+.2f}%)  "
+                      f"${g_now:,.2f} [{g_now_d}]  ({(g_now - g_then) / g_then * 100:+.2f}%)  "
                       f"[settled closes, NOT the live quote — L-29]")
+                print(f"    Gold graded on: {arb_src}  ({dg_pct:+.2f}%)")
+                if roll_note:
+                    print(f"    ⛔ {roll_note}")
+                # A 3-week yield move inside noise cannot support "RISING real yields"
+                if 0 < dy_bp < 5:
+                    print(f"    ⚠️  YIELD LEG INSIDE NOISE — {dy_bp:+.0f}bp over 3wk is not "
+                          f"a rising-yield regime; the SHAPE test passes on a sign, not a move. "
+                          f"Do not read as decoupling without a yield move that clears ~5bp.")
                 print(f"    State: {kc3_state}")
             else:
                 failures.append("kc3-window: insufficient history")

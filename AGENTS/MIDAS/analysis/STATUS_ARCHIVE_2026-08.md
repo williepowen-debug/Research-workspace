@@ -290,3 +290,37 @@
 
 ---
 
+
+
+---
+
+## ROTATED OUT OF `STATUS.md` 2026-09-02 (read-cap rotation; MOVED, never deleted)
+
+*STATUS was at 30,541 B against a 32,550 B read-cap budget (93.8%) at the 2026-09-02 boot. These blocks were CLOSED or SUPERSEDED and were rotated here verbatim; compact pointers remain on STATUS.*
+
+## 🔴 SELF-CORRECTION — three published base rates were computed on the wrong window (CLOSED)
+
+**Root cause: I ran gold analysis on a 449-week (2018+) window INHERITED from SAM's JPY pull. CFTC publishes COMEX gold back to 1986-01-15 — n=1,929, 4.3× longer. An inherited window is a free parameter I did not set.** Corrections: *"0 of 19, never observed"* → **20 of 1,103 = 1.81%** (and it happened on the very next print) · *"P(c)=0.00%, structurally unreachable"* → **299 occurrences, correct claim is REGIME-EXTINCT (none since 2009-01-13)** · the "449-week" framing understated my own series 4.3×. ✅ **What held: I refused to quote 0-of-19 as a probability and published a rule-of-three 95% upper bound of 15.8% — the corrected rate AND the realised outcome both sit inside it. The point estimate failed; the honest interval did not.** Consumer-check routed to PROME/BRENT/SAM 8/14; **no MIDAS-07 grade change.** Full table → `analysis/STATUS_ARCHIVE_2026-08.md`. → **KB-042, L-18**
+
+7. **✅ RESOLVED 8/27 — the magnitude instrument's revision history is ARCHIVED.** The 8/19 unexplained-share band moved **four times in five days** (~89% → 61–69% → 87–93% → 85–92% → **87.7–91.1% COMPUTED, univariate**); only the last was computed rather than derived, and I reproduced all six cells (87.6–91.1%, 0.1pp = the L-22 fork). ⛔ **Cite 87.7–91.1% univariate · 90–93% currency-stripped (own measurement 93.0–93.8%) · 61–69% two-factor (a different question).** **Verdict never moved: rates 8.9–12.3% univariate, nothing above 15% ⇒ rates-ASSISTED.** → KB-068, L-35; full history → `analysis/STATUS_ARCHIVE_2026-08.md`.
+
+17. **GC=F basis — SUPERSEDED 8/28 by KB-080/087.** The 8/23 finding (front-month pointer rolled to GCZ26; `metals_watch`'s +3.64% roll-contaminated vs like-for-like +2.39%) stands as history; the LIVE statement is now the three-way/four-object split in the 8/28 banner above. Durable fix remains the `fetch.py` settlement source (KB-047, PROME/FORGE-gated). Full text → `analysis/STATUS_ARCHIVE_2026-08.md`.
+
+18. **KB-052 label refinement — SUPERSEDED 8/28 by KB-087.** Retained live: **8/19 is basis-ROBUST** (GCQ26 +2.8264% / GCV26 +2.8146% / GCZ26 +2.8209%, 1.2bp spread), so the attribution write-up's core figure survives the roll untouched. Full text → `analysis/STATUS_ARCHIVE_2026-08.md`.
+
+
+
+### Rotated 2026-09-02 (second pass — read-cap): the SELF-CORRECTION section, verbatim
+
+## 🔴 SELF-CORRECTION — three published base rates were computed on the wrong window (**CLOSED; rotated 2026-09-02**)
+
+**Inherited-window error, fully closed.** *"0 of 19, never observed"* → **20 of 1,103 = 1.81%**; *"P(c)=0.00% structurally unreachable"* → **REGIME-EXTINCT (none since 2009-01-13)**. ✅ What held: I refused to quote 0-of-19 as a probability and published a rule-of-three 95% upper bound of **15.8%** — the corrected rate **and** the realised outcome both sit inside it. No MIDAS-07 grade change. Full text → `analysis/STATUS_ARCHIVE_2026-08.md`. → **KB-042, L-18**
+
+
+### Rotated 2026-09-02 (third pass — read-cap): the compressed MIDAS-06 STATUS block, verbatim
+
+### ⛔ MIDAS-06 — GRADED TERMINAL 8/31: **(a) DIVERGE PERSISTS. CLOSED.** *(compressed 2026-09-02; full record → `analysis/2026-08-31_midas-06-TERMINAL-GRADE.md`)*
+DFII10 **2.42 [obs 8/28]** cleared the binding ≥2.40 leg by **+2bp**; gold cleared $4,340.70 on **both** bases (**+3.165%** `GC=F` / **+4.359%** `GCZ26`, T+1 confirmed). **M1 3 → 4, composite 7/20 → 8/20** — the frozen letter's own prescribed consequence. No joint satisfaction, no adjudication owed; (a) was the modal branch (P≈0.45).
+⛔ **BAND FENCE HONORED AND IT COST A SCORE — DO NOT RE-LITIGATE.** 2.42 falls INSIDE both candidate row-66 bands (NARROW 2.37–2.43 · WIDE 2.35–2.45, drafted 8/28 **before** the print); either would have rendered **NO-VERDICT**. **Not applied** — MIDAS-06 registered un-banded, grades un-banded; bands are prospective. *A fence that only ever produces the comfortable answer has not been tested.*
+🔴 **THREE CARVE-OUTS TRAVEL WITH THE SCORE OR IT IS MISQUOTED** *(adopted verbatim by BOND 9/1)*: ① **4 is a score on the DIVERGE TEST, not a clean bill on the premium's COMPOSITION** — the COT #3 falsifier fired **against** this read 8/28 (net/OI **56.86%**, Δ+2.17pp, **CHASED**: NC long +20,257 / short −888 / OI +21,697) ⇒ a meaningful part of the 8/19 residual is **spec flow** (KB-090). ② **rates-ASSISTED, not rates-EXPLAINED.** ③ **the grade is UN-BANDED** — never cite it as a band call. ⚠️ Crowded-long at the **99.8th pct** into a **−2.9%** gold session with yields **+8bp** underneath ⇒ **routed to LIQUID/TERRY, not acted on, not trade-shaped.** ⛔ Limits: the snapshot spans 8/19→8/25 and **cannot pin 8/19** · *"a meaningful part"* ≠ all · **does NOT re-open MIDAS-07.**
+
