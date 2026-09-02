@@ -1178,7 +1178,7 @@ def _fmt_conf(c):
 # Reporting
 # --------------------------------------------------------------------------
 def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None,
-                 f_stats=None, g_stats=None, quiet=False):
+                 f_stats=None, g_stats=None, quiet=False, mirror_path=None):
     """groups: ordered list of (label, findings)."""
     all_f = [f for _, fs in groups for f in fs]
     hard = [f for f in all_f if f[0] == "HARD"]
@@ -1191,7 +1191,11 @@ def print_report(groups, tsv, status_open, n_entries, e_stats=None, b_stats=None
         print(f"  Canonical : thesis/PREDICTIONS.tsv "
               f"({sum(1 for v in tsv.values() if v['status'] == 'OPEN')} OPEN "
               f"/ {len(tsv)} total)")
-        print(f"  Mirror    : STATUS.md '## PREDICTIONS' Open table "
+        # Name the file actually read, never a hardcoded one (PAT-137: a mirror
+        # check that does not say what it read licenses every copy outside the
+        # pair it names). Derived from the live path so it cannot go stale again.
+        _mirror = Path(mirror_path).name if mirror_path else DEFAULT_PRED_MIRROR.name
+        print(f"  Mirror    : {_mirror} '## PREDICTIONS' Open table "
               f"({len(status_open)} rows)")
         print(f"  Ledgers   : {n_entries} instrument-declared rows across "
               f"CARL + sub-agents")
@@ -1294,7 +1298,8 @@ def main():
         ("CHECK G — registration-time failure-shape lint", fg),
     ]
     print_report(groups, tsv, status_open, len(entries), e_stats=e_stats,
-                 b_stats=b_stats, f_stats=f_stats, g_stats=g_stats, quiet=args.quiet)
+                 b_stats=b_stats, f_stats=f_stats, g_stats=g_stats, quiet=args.quiet,
+                 mirror_path=pred_mirror_path)
 
     hard = [f for _, fs in groups for f in fs if f[0] == "HARD"]
     if hard and args.warn_only:
