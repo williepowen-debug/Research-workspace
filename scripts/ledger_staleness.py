@@ -443,10 +443,18 @@ def is_event_driven(path):
 
 
 def repull_date(path):
-    """The re-pull clock date string ('Last re-pull ATTEMPTED: YYYY-MM-DD'), or None."""
+    """The re-pull clock date string ('Last re-pull ATTEMPTED: YYYY-MM-DD'), or None.
+    VALIDATED (2026-09-01 late, external review via PROME): an impossible date such as
+    2026-99-99 matched the YYYY-MM-DD regex and was returned raw, so it read as a FRESH clock and
+    silenced an EVENT-DRIVEN ledger. Unparseable now == ABSENT (fail closed: the ledger stays
+    flagged in --all; the nudge reports the declaration MISCONFIGURED, rc 2)."""
     for line in _header_block(path):
         m = REPULL_RE.search(line)
         if m:
+            try:
+                datetime.datetime.strptime(m.group(1), "%Y-%m-%d")
+            except ValueError:
+                return None
             return m.group(1)
     return None
 
