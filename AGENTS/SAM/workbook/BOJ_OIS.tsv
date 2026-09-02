@@ -34,3 +34,6 @@ as_of_date	meeting_date	cum_hike_pct	hold_pct	cut_pct	marginal_hike_pct	unpriced
 2026-08-31	2026-09-17	57.20	42.80	0.00	57.20	42.80	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	SUPERSEDED refuted model-free; cite the converged multi-source row	2026-09-01T21:03
 2026-08-31	2026-10-28	86.30	13.70	0.00	29.10	13.70	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	UNKNOWN impeached source; this leg not independently corroborated	2026-09-01T21:03
 2026-08-31	2026-12-17	95.00	5.00	0.00	8.70	5.00	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	UNKNOWN impeached source; this leg not independently corroborated	2026-09-01T21:03
+2026-09-01	2026-09-17	57.70	42.30	0.00	57.70	42.30	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	SUPERSEDED refuted model-free; cite the converged multi-source row	2026-09-01T22:12
+2026-09-01	2026-10-28	87.70	12.30	0.00	30.00	12.30	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	UNKNOWN impeached source; this leg not independently corroborated	2026-09-01T22:12
+2026-09-01	2026-12-17	96.10	3.90	0.00	8.40	3.90	cumulative-from-today	3m-TONA-futures	centralbank.watch	1.00	UNKNOWN impeached source; this leg not independently corroborated	2026-09-01T22:12
