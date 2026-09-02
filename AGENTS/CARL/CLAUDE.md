@@ -112,6 +112,8 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 
 **Inbox / Outbox:**
 - **Inbox:** `inbox/` — inbound signals. Process only when spawned for it. Do NOT process on normal spawns.
+  - ⛔ **COUNT IT WITH THE LANE-DESCENDING FORM, NEVER `ls inbox/`:** `find inbox -maxdepth 2 -name "*.md" -not -path "*/processed/*"`. **`inbox/` has SUB-LANES** (`inbox/WALTER/`, each with its own `processed/`), so `ls inbox/*.md` returns a number that silently excludes a whole live lane. *(2026-09-02: boot reported "inbox at 1" and SCRATCH had claimed "INBOX AT ZERO" on 9/1 — both measured on `inbox/*.md` while `inbox/WALTER/` held two PRIORITY signals. Both had in fact been consumed via the BOARD route on 8/15; what was wrong was the COUNT, not the work. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.)*
+  - **A consumed WALTER lane packet must be `git mv`'d to `inbox/WALTER/processed/`** — the packets say so in their own delivery-handoff line. **An unmoved delivery copy is indistinguishable from an unconsumed signal**, so it costs a re-derivation every boot until someone files it; disposition in `board/BOARD_LOG.tsv` does NOT file the lane copy.
 - **Outbox:** `outbox/` — reserved for PROME-action requests. HERMES is retired: send a cross-agent signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); move integrated inbound signals to `inbox/processed/`.
 - **Reply only if:** (a) new info sender doesn't have, (b) error correction, or (c) threshold trigger. Silence = received and integrated.
 
