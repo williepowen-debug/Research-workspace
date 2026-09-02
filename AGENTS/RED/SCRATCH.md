@@ -40,12 +40,13 @@
 4. **WALTER proposal RULED YES + BUILT:** canon col 18 `instrument_basis_operative` (12 clauses, 153–364 B) · `scripts/gen_trigger_scan.py` → `registry/FALSIFICATION_TRIGGERS_SCAN.tsv` (6,077 B / 12%; sha256 banner; `--check`) · SCHEMA +14 rows · schema_check registers the view · CLAUDE.md 9b wired. Reply packet to WALTER (dark → PROME doorbell via OUTBOX-035). ML-RED-207.
 5. **Read-cap remedies:** MEMORY.md 50,168→20,045 B (Assessment History + superseded calibration blocks + May-21 counter-evidence snapshot + Apr-5 cleanup → `archive/MEMORY_rotation_2026-09-02.md`, crc32 3870475095) · CALENDAR.md 40,267→28,062 B (four RESOLVED blocks → `archive/CALENDAR_resolved_rotation_2026-09-02.md`, crc32 2382785441) · STATUS [Prior] line compressed to a pointer. `read_cap_check` = 0 over budget.
 6. 17 board_log rows (11 BOARD + 6 inbox); 6 packets `git mv`'d to processed; STATUS/CHANGELOG/OUTBOX-035/MAINTENANCE/ML written.
+7. **S39b addendum (Will-directed):** FT-11 v1.1 leg (iv) base rate registered pre-go-live — `research/2026-09-02_FT11_v1.1_butterfly_base_rate.md`, FT-11 row + rolling_base_rate cell, ML-RED-208, BOND packet (carve-out ①, BOND dark → PROME doorbell). Finding: the 8/19 window moved the butterfly −6 bp (2.2 sd) while the DGS30 gate did not fire — BOND's SS3 false-negative channel realized before go-live; second-precondition-path question routed to BOND, not amended.
 
 ## NEXT SESSION (dated, priority-ordered)
 
 1. **🟡 Thu 9/3 — 30Y JGB auction (CHG-047 / CH-009 / CH-012).** SAM adjudicates; RED consumes SAM's rail write-back, does not re-derive. CHG-047 Resolved_Date = 9/3 → disposition at W2 next session (RESOLVED / re-target).
 2. **🟠 Fri 9/4 08:30 ET — NFP August.** The RED-book test: does −23K survive revision; labor force; JOLTS hires-rate 3.2 already says low-churn freeze. Independence discount (ML-133): JOLTS is ratio-estimated to CES — one read, not two.
-3. **🟡 9/4–9/11 re-spec window (bear not losing that day):** FT-04 / FT-07 / FT-08 re-spec · full-registry ML-203 audit (FT-02/03/04/05/09/10/12) · **registry prose split** (instrument_basis 244 B → 8.2 KB dispersion, WALTER's point) · FT-11 v1.1 butterfly-leg base rate BEFORE 9/9 · VX 9/12 re-review (8/16 live vectors >45d; VX.tsv two-clock header deliberately lit at 2026-06-02 until then).
+3. **🟡 9/4–9/11 re-spec window (bear not losing that day):** FT-04 / FT-07 / FT-08 re-spec · full-registry ML-203 audit (FT-02/03/04/05/09/10/12) · **registry prose split** (instrument_basis 244 B → 8.2 KB dispersion, WALTER's point) · ~~FT-11 v1.1 butterfly-leg base rate BEFORE 9/9~~ **DONE S39b** — BOND picks from the registered menu at F2 time · VX 9/12 re-review (8/16 live vectors >45d; VX.tsv two-clock header deliberately lit at 2026-06-02 until then).
 4. **🟠 Wed 9/9 — FT-11 goes LIVE** (Δ5 DGS30 currently +2.0bp, precondition clear) · **FT-01 6/15-fire outcome grade** (TRIGGER_OUTCOMES resolve_after ~9/9) · **FT-06 8/11-fire grade at 20 obs** (~9/9).
 5. **🟡 Thu 9/10 — CARL V2 window** (grade already ran 9/1: 30/30 worse YoY, gap narrowing — consume CARL's read). **BCRED SC TO-I/A** lands 9/2–9/8 → KB-057 Stale_By 9/10; BROCK owns the grade.
 6. **🟠 Fri 9/11 08:30 ET — Aug CPI** (FT-08 manual: core 3-mo annualized ≥3.0). CHG-028: 9/11 is a pre-registered NON-EVENT for oil→core.
@@ -56,6 +57,7 @@
 
 - **Root carve-out ④ vs runbook §successor scope** — still Will-gated (DAEDALUS 9/1). Today's author-unstaged→pin→commit sequence satisfied root ④'s LETTER; it does not resolve the divergence for a desk whose custodian is absent at the open (exactly 9/1). Auto-memory promoted: `finding_liveness_gate_keyed_on_an_artifact_that_must_exist_first`.
 - **CRL-05 basis exposure (CARL's disclosure):** the >13.74% GFC line is Equifax-3.0-era; nobody's assignment since 8/15. Flagged to PROME in OUTBOX-035. Not RED's to fix.
+- **FT-11 design question open with BOND before 9/9:** leg (iv) as FLOW-required vs FLOW-alternative vs second precondition path. Off-menu cut = re-run the base rate.
 - **ML-185 apparatus self-challenge obligation:** CHG-051 live. Next candidate remains the free-parameter-w class (RED-22).
 - **Composition read on QCEW** routed to CARL/REGINALD, not graded by RED (unchanged).
 - `outbox/kernel/submissions/CMD-01a06273…json` is **IMMUTABLE** — never edit/move/delete; not a boot read.

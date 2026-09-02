@@ -16,6 +16,8 @@ Write signals here for other agents. *(HERMES retired — the deprecated mail-ca
 - **WALTER 8/31 scan-view proposal (Will 9/1 point 5): RULED YES + BUILT** — `registry/FALSIFICATION_TRIGGERS_SCAN.tsv` (generated, 6,077 B vs 48,989 B canon, sha256 banner, `--check` wired at closeout). Reply packet in `AGENTS/WALTER/inbox/` — **WALTER dark at write time → rule 6b, this line is the PROME doorbell.** WALTER switches boot 6b on its own clock.
 - Read-cap: MEMORY.md 50,168→20,045 B (PROME's referent correction consumed — it was RED's own file), CALENDAR.md 40,267→28,062 B; `read_cap_check --agent RED` 0 over budget.
 
+**S39b addendum (Will: "run the butterfly base rate now"):** FT-11 v1.1 leg (iv) base rate REGISTERED — `research/2026-09-02_FT11_v1.1_butterfly_base_rate.md`; menu recommends Δ5(butterfly) ≤ −4 bp. **Rule-6b doorbell: BOND dark** — packet `AGENTS/BOND/inbox/2026-09-02_from-RED_FT-11-v1.1-butterfly-leg-base-rate-REGISTERED-…md` needs BOND's eye before 9/9 (they route F2 and own the amendment's design choice). Finding for the record: 8/19 window butterfly −6 bp with DGS30 −5 bp — the liquidity-support instrument moved at the event while FT-11's rally gate did not.
+
 **Standing dated obligations for RED:** Thu 9/3 30Y JGB (CHG-047 rail, CH-009/012) · Fri 9/4 NFP · 9/4–9/11 re-spec window (FT-04/07/08 + full-registry ML-203 audit + registry prose split) · Wed 9/9 FT-11 go-live + FT-01 6/15-fire outcome grade + FT-06 8/11-fire grade at 20 obs · Thu 9/10 CARL V2 (grade already ran 9/1: 30/30 worse YoY, gap narrowing) · Fri 9/11 Aug CPI (FT-08 manual) · Tue 9/15 CHG-044/049 re-reviews.
 
 ---
