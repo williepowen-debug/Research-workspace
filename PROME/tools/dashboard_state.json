@@ -1,5 +1,5 @@
 {
- "built": "2026-09-01 18:58",
+ "built": "2026-09-01 21:56",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -50,10 +50,10 @@
  ],
  "fleet": {
   "AEOLUS": "watch",
-  "BOND": "watch",
+  "BOND": "ok",
   "BRENT": "ok",
   "BROCK": "watch",
-  "CARL": "watch",
+  "CARL": "ok",
   "CORAL": "watch",
   "CRUISE": "watch",
   "FALCON": "ok",
@@ -62,7 +62,7 @@
   "HAWK": "watch",
   "HENRY": "watch",
   "HOMER": "ok",
-  "LABOR": "watch",
+  "LABOR": "ok",
   "LIQUID": "watch",
   "MARCO": "watch",
   "MIDAS": "ok",
@@ -73,7 +73,7 @@
   "PROME": "ok",
   "RED": "ok",
   "REGINALD": "ok",
-  "SAM": "watch",
+  "SAM": "ok",
   "SHADE": "watch",
   "TERRY": "ok",
   "VIOLET": "watch",
@@ -103,7 +103,7 @@
   "GATE-NEXUS-SEAT-01": "live:LIVE",
   "GATE-OP-SCALE-01": "live:LIVE",
   "GATE-OSPREY-001": "live:LIVE",
-  "GATE-REG-T02": "live:FIRED",
+  "GATE-REG-T02": "resolved:RESOLVED(FIRED",
   "GATE-RESHAPE-BC": "resolved:RESOLVED-FIRED",
   "GATE-SAM-30": "resolved:RESOLVED",
   "GATE-TERRY-006": "resolved:RETIRED",
@@ -132,14 +132,14 @@
  },
  "one": "the weekend's escalation was half real and half synthetic \u2014 Larak and the Jordan salvo are confirmed, the Kharg strike never happened (an AI-generated video on a head-of-state post, Reuters-verified) \u2014 and oil repriced up anyway (BZX26 +2.92% [8/31 close]), retracing the whole post-framework unwind. Then the 16:15 tape did the real damage to the priors: DFII10 jumped +8bp to 2.42 in one session (outside its own 2-y p90), taking MIDAS-06 to a fired branch (a); DGS10 4.73; and HY OAS printed 260 \u2014 the 2026 low, sitting exactly ON the fleet's nearest line and not through it. Housing's leg died on its own numbers (HOM-01 MISSED). Kernel Sitting 2 could not convene \u2014 every Gate C activation packet is dead. $0 moved; zero thresholds set by PROME.",
  "pending": [
+  "151 (CARL \"sustained\", YoY basis, by 9/14)",
   "133",
-  "104",
   "98",
   "74",
   "31",
   "the two broker orders (144/145, his hand)",
-  "LABOR summons",
-  "Sitting 2 at 10:00 ET 9/2 (his presence not required; PROME's is)"
+  "the spawn slate (ZHAO \u00b7 CRUISE \u00b7 WATT \u00b7 YEYOU \u00b7 OTTO \u00b7 CORAL \u00b7 OSPREY \u00b7 CARL)",
+  "Sitting 2 at 10:00 ET 9/2 (PROME's presence, not Will's)"
  ],
  "split": "Break 21 / Grind 44 / Unresolved 35",
  "v": 1
