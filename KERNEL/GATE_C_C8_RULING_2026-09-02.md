@@ -15,3 +15,13 @@
 - **Tests:** a fixture for the four-branch letter + a negative control proving a binary row's score is byte-identical before/after.
 - **Review before any live render:** DAEDALUS or RED, adversarial; `--check-views` reproduction must still PASS at the committed `render_as_of` for all prior sittings (a vocabulary widening must not change historical views).
 - **First live consumer:** MIDAS-06 (row 14) scores at the next sitting or at a PROME-run view re-render under a ruled activation — never by hand.
+
+## AMENDMENT — build-spec gate on leg 3 (PROME 2026-09-02 12:5x ET; external review relayed by Will 12:43, every citation PROME-verified at the artifact before adoption; the ruling itself is unchanged)
+**Finding (🟠, verified):** the accepted Kernel records carry no structured three-outcome vector — `schemas/question.schema.json` permits only `forecast_family: BINARY_PROBABILITY`; `schemas/forecast.schema.json` stores one scalar `probability`; `tools/core.py` `_question_payload` rejects every other family (`FAMILY_NOT_ENABLED`); `tools/render.py` computes a binary Brier from that scalar. MIDAS-06's accepted `ForecastSubmitted` event (`EVT-…006b`) carries `probability: 0.45` only; the NO 0.20 / AMBIGUOUS 0.35 masses live in prose (`decision_consequence`, the native companion). A renderer that read them from prose or from the mutable companion would break the event-derived model. And "scores on the declared mass" is under-specified: for realized YES, binary Brier = 0.3025 · unnormalized multiclass = 0.465 · half-normalized = 0.2325 — three defensible numbers.
+**Gate (binding on the DOCKET L247 build, before any code):** the spec letter must define, and pass independent review (DAEDALUS or RED) on —
+1. the authoritative STRUCTURED carrier for `outcome_vocabulary` and the complete probability vector;
+2. how MIDAS-06 acquires that carrier without editing an accepted event or extracting numbers from prose (a successor command class, or a projection-metadata declaration keyed to the immutable event — named, not assumed);
+3. the exact multiclass scoring rule and its normalization, with the three candidate numbers above as the worked example;
+4. validation: sum-to-one, duplicate label, missing label, realized label ∈ vocabulary;
+5. whether this is projection metadata or a schema-v2 / native-event change — and therefore which review seat and which activation class it needs.
+**MIDAS-06 stays excluded (`OUTCOME_VOCABULARY_MISMATCH`) until the spec passes review.** The (a) direction stands; the registration had jumped from "approve three outcomes" to "renderer change" without the data-and-score contract between them — PROME's miss, recorded.
