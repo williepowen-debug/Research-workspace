@@ -64,7 +64,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L4 | H | 2026-09-01 | Fleet architect — design / structure / maturity / lifecycle | Will's word on L5 → then: profile refresh queue (NEXUS·RED·PROME·HANS·O… |
+| DAEDALUS | Meta | L5 | H | 2026-09-01 | Fleet architect — design / structure / maturity / lifecycle | Sustain L5: profile refresh queue (NEXUS→RED→PROME 9/08 |
 | YEYOU | Utility | L3 | H | 2026-09-01 | Repo-wide reviewer (manual / branch model) | L4 on proof of consumption beyond YEY-012 |
 | RAV | Meta | L2 | M | 2026-09-01 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST §5 run report in AGENTS/RAV/runs/ (Will-driven |
 

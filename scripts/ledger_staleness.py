@@ -318,6 +318,20 @@ CADENCE_EVENT_RE = re.compile(r"cadence\s*:\s*event-driven", re.IGNORECASE)
 REPULL_RE = re.compile(r"last\s+re-?pull\s+attempted[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)
 HEADER_SCAN_LINES = 40  # event-driven headers run long (WARRISK ~15 comment lines)
 
+# ATTENTION CLOCK (WQ-148, Will 2026-09-01 21:09 "Approve 147 and 148 with your recs"; Staleness #4 M2):
+# the THIRD clock of a PAT-044 header — "the data clock is old ON PURPOSE and someone looked on
+# this date". Canonical key `Last attention check: YYYY-MM-DD`; the four convergent local
+# spellings are honoured during the forward-only soak (owners rename their OWN headers).
+# Semantics in --all/--days scans: a behind ledger whose attention date is inside the threshold
+# prints `held (attention Nd)`; one whose attention line is OLDER than the threshold prints
+# `UNATTENDED`; a ledger with NO attention line prints exactly as before (default byte-identical).
+ATTENTION_RES = [
+    ("Last attention check", re.compile(r"last\s+attention\s+check[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)),
+    ("Last re-pull ATTEMPTED", REPULL_RE),                                                    # FALCON / OSPREY
+    ("Last hygiene/no-event check", re.compile(r"last\s+hygiene/?no-?event\s+check[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)),  # CARL/PHAN
+    ("Last reviewed", re.compile(r"last\s+reviewed[:\s]+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)),  # OZK
+]
+
 # ---------------------------------------------------------------------------
 # "CORRECTLY QUIET" DECLARATIONS + KERNEL BYTE-PINS (2026-08-28, DAEDALUS 8/28 wiring
 # sweep, register leg ② + PROME item 8/27g). One law, four surfaces (STATE_VOCABULARY
@@ -434,6 +448,57 @@ def repull_date(path):
         m = REPULL_RE.search(line)
         if m:
             return m.group(1)
+    return None
+
+
+def attention_info(path, now):
+    """(key, date_str, age_days) for the newest attention-clock line in the header block
+    (canonical key first, then the legacy spellings), or None when no line exists."""
+    best = None
+    for key, rx in ATTENTION_RES:
+        for line in _header_block(path):
+            m = rx.search(line)
+            if m and m.start() < MARKER_COL_CAP:
+                try:
+                    d = datetime.datetime.strptime(m.group(1), "%Y-%m-%d").timestamp()
+                except ValueError:
+                    continue
+                if best is None or d > best[1]:
+                    best = (key, d, m.group(1))
+    if best is None:
+        return None
+    return (best[0], best[2], (now - best[1]) / 86400.0)
+
+
+def declared_quiet(path, now):
+    """M1 (WQ-147): the same `Cadence:` declarations --nudge honours, applied to the --all/--days
+    scans. Returns (label, detail) when the ledger is CORRECTLY quiet, else None:
+      SCHEDULED with next_due in the future -> ('SCHEDULED', 'next_due YYYY-MM-DD')
+      EXEMPT-BY-CHARTER with a clause        -> ('EXEMPT-BY-CHARTER', clause)
+      EVENT-DRIVEN with a re-pull clock      -> ('EVENT-DRIVEN', 're-pull YYYY-MM-DD')
+    A MISDECLARED form (bad next_due, bare exemption, event-driven with no re-pull clock) or a
+    SCHEDULED date that has PASSED returns None — the ledger stays flagged (negative control)."""
+    sch = scheduled_next_due(path)
+    if sch is not None:
+        if sch[0] == "ok":
+            v = sch[1]
+            try:
+                if isinstance(v, datetime.datetime):
+                    nd = v.timestamp()
+                elif isinstance(v, datetime.date):
+                    nd = datetime.datetime(v.year, v.month, v.day).timestamp()
+                else:
+                    nd = datetime.datetime.strptime(str(v), "%Y-%m-%d").timestamp()
+            except (ValueError, TypeError):
+                return None
+            return ("SCHEDULED", f"next_due {v}") if nd > now else None
+        return None
+    ex = exempt_by_charter(path)
+    if ex is not None:
+        return ("EXEMPT-BY-CHARTER", ex[1][:60]) if ex[0] == "ok" else None
+    if is_event_driven(path):
+        rp = repull_date(path)
+        return ("EVENT-DRIVEN", f"re-pull {rp}") if rp else None
     return None
 
 
@@ -638,12 +703,20 @@ def scan_agent(agent_dir, days, glob_pats, strict=False, writes=False, writes_ba
         # (c) absolute floor: content vintage beats the relative delta (PAT-092 counter).
         abs_age = (now - t) / 86400.0 if (abs_floor and live and t) else None
         stale_a = abs_floor and live and abs_age is not None and abs_age > abs_days
+        any_stale = stale or stale_w or stale_a
+        # M1 (WQ-147): a correctly-declared quiet ledger is not counted stale in --all/--days.
+        dq = declared_quiet(led, now) if (live and any_stale) else None
+        # M2 (WQ-148): attention clock annotates a behind ledger; absent line = unchanged output.
+        att = attention_info(led, now) if (live and any_stale and not dq) else None
         rows.append({
             "file": os.path.relpath(led, REPO),
             "frozen": frozen,
             "exempt": exempt,
             "age_d": age,
-            "stale": stale or stale_w or stale_a,
+            "declared_quiet": dq,
+            "attention": att,
+            "attention_held": bool(att) and att[2] <= days,
+            "stale": any_stale and not dq,
             "writes_behind": wb,
             "stale_writes": stale_w,
             "abs_age_d": abs_age,
@@ -765,9 +838,18 @@ def fmt_age(age):
     return f"{age:+5.0f}d"
 
 
+def _quiet_decl(name, rows):
+    """M1: name declared-quiet ledgers on their own ℹ️ line (never silently dropped)."""
+    dq = [r for r in rows if r.get("declared_quiet")]
+    if dq:
+        items = ", ".join(f"{os.path.basename(r['file'])} ({r['declared_quiet'][0]} {r['declared_quiet'][1]})" for r in dq)
+        print(f"ℹ️  [{name}] {len(dq)} declared-quiet ledger(s) not counted stale (Cadence: declaration, WQ-147): {items}")
+
+
 def report(name, status_t, rows, quiet):
     stale = [r for r in rows if r["stale"]]
     if quiet and not stale:
+        _quiet_decl(name, rows)
         return 0
     if not rows:
         if not quiet:
@@ -781,12 +863,15 @@ def report(name, status_t, rows, quiet):
                 bits.append(f"{r['writes_behind']}w")
             if r.get("stale_abs"):
                 bits.append(f"ABS {r['abs_age_d']:.0f}d")
+            if r.get("attention"):
+                bits.append(f"held (attention {r['attention'][2]:.0f}d)" if r.get("attention_held") else f"UNATTENDED (attention {r['attention'][2]:.0f}d)")
             return f"{os.path.basename(r['file'])} ({', '.join(bits)})"
         flags = ", ".join(_why(r) for r in stale)
         print(f"⚠️  [{name}] {len(stale)} stale ledger(s) behind STATUS: {flags}")
+        _quiet_decl(name, rows)
         return len(stale)
     # In non-quiet mode hide exempt-and-fresh-looking noise unless they'd be stale.
-    show = [r for r in rows if not (r["exempt"] and not r["frozen"]) or r["stale"]]
+    show = [r for r in rows if not (r["exempt"] and not r["frozen"]) or r["stale"] or r.get("declared_quiet")]
     if not show:
         if not quiet:
             print(f"[{name}] all ledgers ok/ref ({len(rows)} scanned)")
@@ -800,11 +885,19 @@ def report(name, status_t, rows, quiet):
             tag = "FROZEN"
         elif r["exempt"]:
             tag = "ref"
+        elif r.get("declared_quiet"):
+            tag = "quiet"
+        elif r["stale"] and r.get("attention"):
+            tag = "held" if r.get("attention_held") else "⚠️ UNATT"
         elif r["stale"]:
             tag = "⚠️ STALE"
         else:
             tag = "ok"
         extra = ""
+        if r.get("declared_quiet"):
+            extra += f"  [{r['declared_quiet'][0]} {r['declared_quiet'][1]}]"
+        if r.get("attention"):
+            extra += f"  [attention {r['attention'][2]:.0f}d via '{r['attention'][0]}']"
         if r.get("writes_behind") is not None:
             extra += f"  {r['writes_behind']:>3}w"
         if r.get("abs_age_d") is not None:

@@ -128,3 +128,5 @@ For the `date_class` column of a catalyst/docket ledger: `CONFIRMED` *(issuer-pu
 
 ### Class 9 companion clause
 Companion mechanism rule = CHECK_STANDARD §8 (verdicts key on alert COUNTS, never glyph scraping). *(Rationale + kin → PROVENANCE, rotated 2026-09-01.)*
+
+**WQ-153 RULED 2026-09-01 21:43 (Will, "Approve 153, 152, and 104 with your recs"): TWO-AXIS CONFIRMED — the Class 2 `Trigger` companion field (SCHEDULED / EVENT / MANUAL) + the existing INSTRUMENT/JUDGEMENT adjudicator axis, as encoded 4d937cb91. Both texts (row-117 single-axis label · bundle §C two-axis rec) sit above; this line is the ruling that settles them.**
