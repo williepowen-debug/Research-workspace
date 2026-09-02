@@ -1,7 +1,7 @@
 # AGENTS/WALTER/registry/DOORBELL_LOG.tsv — dark-owner doorbell ledger (rule 6b / BOARD_CONSUMPTION_SPEC §3.5.7). WALTER owns; PROME reads.
 # ONE ROW PER DARK-RECIPIENT `action:` DISPATCH — NOT only the doorbelled ones. Without the non-doorbelled rows the miss counter has no denominator.
 # The five ruled fields: desk · referent · doorbelled · disposition · drained. The other four are bookkeeping that make MISS computable.
-# referent: the named clock + its date (DOCKET-<n> / GATES-<id> / EXPIRY-<date> / OPEN-<date>), or CADENCE:<median-gap>d (leg 3b), or NONE (leg 3 failed).
+# referent: the named clock + its date (DOCKET-<n> / GATES-<id> / EXPIRY-<date> / OPEN-<date>), or CADENCE:p75=<n>d/dark=<d>d(nr,w90+,n=<gaps>) (leg 3b, v0.22 SELF-NORMALISING form from 2026-09-01; rows before that used CADENCE:<median-gap>d under the RETIRED ≥7d form — a THIRD population, never pooled) or CADENCE:n<8 (leg 3b not computable), or NONE (leg 3 failed).
 # gate: which legs passed, dot-joined (P0.L1.L2.L3a) — or the first leg that failed (L3-FAIL). Case-normalise `action`/`ACTION` before counting (rider R1).
 # doorbelled: YES|NO. disposition: SPAWNED|DECLINED|DEFERRED|NA. drained: items the touch actually cleared (NA if not spawned).
 # consumed_at: filled retro when the item is consumed. MISS is computed, never typed: referent date < consumed_at.
