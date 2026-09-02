@@ -1,0 +1,43 @@
+{
+  "schema_version": "kernel.live-activation.1",
+  "policy_version": "kernel.policy.1",
+  "activation_id": "LIVE-2026-0009",
+  "authorized_by": "WILL",
+  "authorization_ref": "KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md",
+  "mode": "LIVE_SHADOW_PILOT",
+  "repository_root": "/home/willi/Research-workspace",
+  "repository": "williepowen-debug/Research-workspace",
+  "source_commit": "579f71ce5112a41df300390c309aa9ed1d8beda0",
+  "window_start": "2026-09-02T14:00:00.000000Z",
+  "window_end": "2026-09-02T17:00:00.000000Z",
+  "revoked_at": null,
+  "writer_id": "PROME",
+  "commands": [
+    {
+      "command_id": "CMD-01a04562-3bfe-7741-a320-74502ec64473",
+      "path": "AGENTS/LIQUID/outbox/kernel/submissions/CMD-01a04562-3bfe-7741-a320-74502ec64473.json",
+      "sha256": "a532190b156530ab81aecab104918bfd544227256705de4c4e0717af9b58983a"
+    },
+    {
+      "command_id": "CMD-01a04562-3bfe-752f-9347-a1c2c3af5d65",
+      "path": "AGENTS/LIQUID/outbox/kernel/submissions/CMD-01a04562-3bfe-752f-9347-a1c2c3af5d65.json",
+      "sha256": "88dd3d3dd14ed180e0df191993617c7716a9bef755e75eed21c617cac5b973bb"
+    },
+    {
+      "command_id": "CMD-019306b4-1a00-7000-8000-0000000000a1",
+      "path": "AGENTS/REGINALD/outbox/kernel/submissions/CMD-019306b4-1a00-7000-8000-0000000000a1.json",
+      "sha256": "c702ec942ae5db162a02a7f14ee4b1f64e7a61886a1bdf3fc9ec9fc0131ea02a"
+    }
+  ],
+  "actors_path": "KERNEL/policies/actors.json",
+  "actors_sha256": "ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f",
+  "capabilities_path": "KERNEL/policies/capability-grants.json",
+  "capabilities_sha256": "6e73c29e9abd16270575cf1c0ba316c24c72d89ebb9e7e13099f5a2f6e9960de",
+  "custody_policy_path": "KERNEL/policies/custody-policy.json",
+  "custody_policy_sha256": "180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849",
+  "event_ids": {
+    "CMD-01a04562-3bfe-7741-a320-74502ec64473": "EVT-01a04562-3bfe-7741-a320-74502ec64473",
+    "CMD-01a04562-3bfe-752f-9347-a1c2c3af5d65": "EVT-01a04562-3bfe-752f-9347-a1c2c3af5d65",
+    "CMD-019306b4-1a00-7000-8000-0000000000a1": "EVT-019306b4-1a00-7000-8000-0000000000a1"
+  }
+}
