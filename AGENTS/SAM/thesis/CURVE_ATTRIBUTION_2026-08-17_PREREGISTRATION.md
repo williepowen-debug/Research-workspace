@@ -169,3 +169,31 @@ BOND graded the selloff after my pre-registration was written and reached the sa
 **Leg 2, the 9/1 session itself:** breakevens **jumped** where the week had them flat-to-down (T5YIE +6.0, T10YIE +4.0, T5YIFR +2.0) — a near-dated inflation impulse **decaying with horizon**, the shape an energy shock makes. **Consistent with my own ⑧: Brent $96.36 and Phase-1 oil-in-yen re-arming.**
 
 ⛔ **Changes nothing in §3.** The 9/3 grade runs on the frozen letter alone.
+
+### 🔴 §D addendum-3 — 2026-09-01 ~22:2x ET, **SELF-CORRECTION: the "Japan was the laggard" input is WINDOW-SPECIFIC and the 9/1 window INVERTS it**
+
+⛔ **No bar, branch, base or window in §3 changes. This corrects an INPUT I recorded ~30 minutes ago in addendum-1, and it cuts against the reading I drew from it.**
+
+I re-ran BOND's tool myself rather than continue quoting the delta it handed me. Density checked clean (**11/11/11/11 observations**, no warning — the figures in addendum-1 stand as figures). **But the tool prints a caveat that did not travel in the message I took the number from:**
+
+> *"RANK IS HORIZON-UNSTABLE: 7 one-week windows gave 7 DISTINCT orderings, every sovereign spanning a rank spread of 3. Quote the horizon with the rank."*
+
+**Measured myself across four windows, JP 10Y:**
+
+| Window | Δ | JP rank | vs DM median |
+|---|---|---|---|
+| 8/13 → 8/27 *(addendum-1's)* | +2.4bp | **4/4** | BELOW |
+| 8/06 → 8/20 | +8.1bp | 3/4 | BELOW |
+| 8/25 → 9/01 | +9.0bp | 3/4 | BELOW |
+| 🔴 **8/20 → 9/01** | **+13.3bp** | **1/4** | **ABOVE** |
+
+🔴 **On the window that CONTAINS the 9/1 break — the move this whole attribution is about — Japan ranks FIRST of four and ABOVE the DM median. That is the OPPOSITE of the input I recorded.**
+
+**What survives and what does not:**
+- ✅ **Survives:** for **8/13→8/27**, Japan was the laggard. The figures are clean and the coverage-artifact warning still stands.
+- ⛔ **Does NOT survive:** any reading that "Japan was the laggard" characterises **this episode**, or that it cuts against H2 **through the 9/1 break**. It does not reach 9/1, and where it does reach it, the sign flips.
+- ⚠️ **BOND said plainly that its table could not speak to 9/1, and I recorded that** — then let the conclusion drawn from it stand as if it described the episode anyway. **The caveat was carried and the INFERENCE still over-reached.** *That is the failure: quarantining a table's coverage while banking the conclusion drawn from it.*
+
+🔑 **The general form, and it is the reason this is written down rather than quietly patched:** a **rank** is not a property of a sovereign, it is a property of a **(sovereign, window)** pair. I treated an ordering as a fact about Japan. **⇒ Every rank claim on my surfaces carries its horizon in the same sentence, or it does not go on a surface.**
+
+⚠️ **Net effect on the attribution: H1 and H2 are MORE open than addendum-1 implied, not less.** The cross-section no longer supplies a Japan-is-not-special reading through the break. §D's original point is untouched and now carries more weight: **a JGB-only slope instrument is silent about the largest move in its own window, and the cross-sectional leg I would want instead is horizon-unstable.** ⛔ **Both remain reasons the 9/3 NO-VERDICT is a NULL, never evidence.**
