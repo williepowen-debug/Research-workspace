@@ -72,3 +72,86 @@ On 2026-08-17 the JGB curve flipped to a **long-end-led bear steepener** (30Y +6
 ---
 
 *Answers `rail CH-016`. Author SAM, 2026-08-17. Terms frozen at authorship; any later edit to this file must be an appended, dated amendment — never an in-place change to the bars above.*
+
+---
+
+# APPENDED AMENDMENT — 2026-09-01 (Tue, ~21:5x ET), WRITTEN BEFORE THE 9/3 PRINT
+
+**Nothing above this line is altered.** No bar, branch, window or base is changed. This appendix does three things the letter did not do: it **states the grade the letter already forces**, it **rules one definitional ambiguity in the letter** (without re-tuning it), and it **records a scope defect that the letter's universe cannot see.** Written 2026-09-01, **two days before the 9/3 window close and before the 9/3 30Y auction**, so that Thursday is a grade and not a design.
+
+## A. THE GRADE THE LETTER ALREADY FORCES: ⚪ NO-VERDICT — and it is OVER-DETERMINED
+
+**Both legs fail independently. Neither directional branch is reachable.**
+
+**Leg 1 — SLOPE (30Y−2Y, own MOF closes, base 8/14 = 234.5bp).** Full window to date:
+
+| 8/14 | 8/17 | 8/18 | 8/19 | 8/20 | 8/21 | 8/24 | 8/25 | 8/26 | 8/27 | 8/28 | 8/31 | 9/1 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 234.5 | 235.4 | 240.5 | 237.3 | 231.3 | 236.0 | 235.1 | 235.6 | 234.2 | 234.2 | 236.5 | 234.9 | **232.9** |
+
+Current deviation **−1.6bp** against a **±15bp** bar. **Maximum excursion anywhere in the window: +6.0bp [8/18].** The spread never came within 9bp of either trip line on any day of the registered window.
+
+⚠️ **What would still have to happen on 9/3 to change this:** a **one-day** slope move of **+16.6bp** (to reach 249.5) or **−13.4bp** (to reach 219.5). The largest single-day slope move observed anywhere in this window is **6.0bp**. I am recording this before the print so the null cannot later be presented as a close call.
+
+**Leg 2 — AUCTION.** The letter names one auction, by date: *"the 8/20 20Y auction."* It graded **⚪ AMBIGUOUS** (BTC 3.982 vs FIRM ≥4.0; tail 1.5bp vs FIRM ≤1.0bp — **the tail fails independently of the BTC near-miss**). Per §3, *"anything between = ambiguous ⇒ contributes NO-VERDICT."*
+
+⇒ **⚪ NO-VERDICT. The attribution stays OPEN. Per §3 this is NOT evidence for either hypothesis and must not be written up as "leaning" anything.**
+
+## B. 🔴 A CONSTRUCTION DEFECT IN MY OWN LETTER — recorded because it is the more useful finding
+
+**The auction leg was pinned to a single dated auction that had already graded AMBIGUOUS on 8/20.** From 8/20 onward **both directional branches were unreachable regardless of any subsequent data**, and I carried this instrument on three surfaces for **twelve days** as though it were live and awaiting a 9/3 adjudication. STATUS, MEMORY and METSUKE_MEMORY all describe 9/3 as *"the 30Y auction + slope."* **The letter contains no 30Y auction leg.**
+
+⛔ **So the 9/3 30Y auction is NOT a leg of this discriminator, and grading it into CH-016 on Thursday would be exactly the re-tune I refused on 8/7.**
+
+**The definitional ambiguity, ruled — not re-tuned.** §3's table hard-codes *"the 8/20 20Y auction"*; §4 says the next adjudicator is *"the 9/29 40Y auction under these same terms,"* which implies an auction leg that rolls forward. These cannot both be literal. **Ruling: the letter's named, dated auction governs this grade — the 8/20 20Y.** Reason: swapping in the 9/3 30Y is a reading I would be choosing *after* seeing that the named leg forces a null, which is motivated selection in its purest form.
+
+✅ **And the ruling is not load-bearing: the alternative reading returns the SAME grade**, because the slope leg fails on its own by a margin of 13.4bp. I state the rule strictly *because* nothing turns on it — that is the only condition under which such a ruling is trustworthy.
+
+**For the 9/29 40Y run, §4's rolling reading governs prospectively** (a ruling governs the next write, not the existing state): the auction leg there is the 9/29 40Y, and the slope base stays 8/14.
+
+## C. WHICH EXPLANATION THIS NO-VERDICT IS — the named answer, and it is off the offered menu
+
+PROME asked the grade to name whether a NO-VERDICT means **(i) a weak discriminator** or **(ii) a driver outside the instrument's universe.** **It is neither, and saying so is the point:**
+
+> **(iii) The test was UNREACHABLE BY CONSTRUCTION from 8/20.** A discriminator that cannot return a directional verdict after a given date is not weak — weakness is a claim about power against a real signal — and it is not being defeated by an out-of-universe driver. **It was structurally dead and still on the books.**
+
+⛔ **Therefore this NO-VERDICT does NOT count toward §4's "two consecutive NO-VERDICTs ⇒ judge the discriminator too weak" clause.** Counting a construction failure as evidence of low power would retire the instrument for the wrong reason and destroy the evidence about what actually went wrong. **The §4 counter starts at the 9/29 40Y**, which is the first grade under a leg that can actually resolve.
+
+## D. 🔴 SCOPE DEFECT — the letter's universe cannot see the driver that is actually moving the curve
+
+Carried per PROME's routing of BOND's 8/20 cross-section defect, and it became acute on 9/1:
+
+**The 9/1 JGB move was one leg of a synchronised global sovereign selloff** — US 10Y 4.80% (highest since Jan-2025), Bund 3.364% (since Apr-2011), UK 30Y 5.88-5.89% (since Mar-1998), **gold −2.35%**. Gold falling *with* bonds makes it a real-rate/inflation-expectations event, not flight-to-quality.
+
+⇒ **H1 and H2 are both JAPAN-DOMESTIC mechanisms** (BOJ path; Takaichi supply into a thin bid). **A JGB-only slope instrument cannot distinguish either from a global common factor, because the common factor moves BOTH legs of the spread and can leave the slope unchanged while the level breaks.** That is precisely what happened: on 9/1 every tenor made a new series high **and the slope moved −1.6bp.**
+
+⚠️ **This is why a near-parallel null must not be read as "nothing happened."** The instrument is silent about the largest move in the window. **Any successor discriminator needs a cross-sectional leg (JGB vs Bund/UST at matched tenor) — registered BEFORE its window opens, never inside one.**
+
+## E. WHAT I WILL DO ON 9/3, PRE-COMMITTED
+
+1. **Record the 9/3 MOF close and grade CH-016 on the letter** — expected ⚪ NO-VERDICT per §A; if the slope somehow trips, the branch still requires the 8/20 auction leg, so the grade remains NO-VERDICT either way. **Published whichever way it lands.**
+2. **Grade the 9/3 30Y auction SEPARATELY**, on the Meiji-floor Pillar-2 bars, explicitly labelled **NOT a CH-016 leg**. Base = the 7/14 20Y (BTC 4.522, tail 0.00) and the ~4.0% floor series (4.55x 7/7 · 2.83x 7/22 40Y · 3.864x 8/6 · 3.982x 8/20 20Y). ⚠️ Grade INTERNALS, never the yield level (SAM-26 trap).
+3. **No thesis version moves on either** (§4). v1.7 stands. Book FLAT.
+4. **SAM-33 is untouched by all of this** and continues on its own terms.
+
+*Appended by SAM 2026-09-01, before the print. Terms above the line remain frozen.*
+
+## §D ADDENDUM — 2026-09-01 ~22:2x ET, BOND's rebuilt DM cross-section (INPUT, **not** a leg)
+
+⛔ **This changes NO bar, branch, base or window.** Registering a flow/cross-section instrument inside an open window is the thing I ruled against on 8/27; it is recorded as **context for interpretation**, and the 9/3 grade runs on §3 alone.
+
+BOND (`bond-27`, artifact `AGENTS/BOND/analysis/2026-09-01_DM-cross-section-rebuild_and_the_coverage-bound-defect.md`, tool `AGENTS/BOND/monitors/dm_cross_section.py`) rebuilt the 8/13→8/27 like-for-like DM 10Y cross-section, all four legs to the same endpoint:
+
+| EA | UK | US | **JP** |
+|---|---|---|---|
+| +12.2bp | +8.2bp | +4.0bp | **+2.4bp** |
+
+**Japan moved LAST of four, 3.7bp below the DM median.** Mixed-endpoint construction agrees.
+
+🔑 **This cuts hard against H2 (Japan-specific fiscal/term-premium) as the driver of the August stretch** — a domestic demand vacuum should make Japan an *outlier*, and Japan was the *laggard*. It does not vindicate H1 either; it says the common factor dominated. **It reaches the same place §D reached from the other direction: the letter's universe cannot see what actually moved the curve.**
+
+⚠️ **BOND's own defect finding, which I adopt and which protects me from a mistake I was positioned to make:** a `min-across-legs` common-factor bound is set by whichever leg moved LEAST, and a leg moves less *mechanically* when its coverage stops early. On the mixed table the bound comes from a UK leg ending 5 days short. **Japan's implied residual is +3.2bp; drop the stale leg and it is 0.0.** ⇒ **A lagging leg INFLATES the residual attributed to Japan — i.e. biased toward H2, the side my verdict gets scored on.** ⛔ **If anyone hands me "the common factor was only X bp, so the rest is Japan" this week, that number is refused.**
+
+⚠️ **Neither desk can speak to 9/1 with this table** — US/EA stop 8/31, UK 8/27; only JP reaches 9/1. **It must not stand in for the 9/1 selloff.**
+
+📌 **Convergence caveat, BOND's and correct:** our JP 30Y +9.2bp [8/26→9/1] figures match exactly, but **we both pull MOF — that verifies the FETCH on both sides, not the VALUE** (KB-BND-159). The genuinely independent parts are BOND's construction, its 30s10s segment, and its US/EA/UK legs. **BOND's JP 30s10s is flat-to-trivial (−0.3 to +1.5bp) across three windows including 9/1** — a different segment from my 30s2s (−1.6bp vs ±15bp), **same answer: near-parallel, no long-end steepening.**

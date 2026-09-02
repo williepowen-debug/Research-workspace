@@ -13,6 +13,7 @@ Usage:
   .venv/bin/python3 AGENTS/SAM/scripts/thresholds.py
 """
 
+import os
 import sys
 from datetime import datetime
 
@@ -50,13 +51,30 @@ THRESHOLDS = [
 # Context tickers (quoted but no thresholds)
 CONTEXT_TICKERS = ["EURJPY=X", "GBPJPY=X", "AUDJPY=X"]
 
-# Note: JGB 10Y 2.40% and JGB 30Y 4.0% thresholds are tracked manually for now.
-# Will be automated in Phase 2 via jgb_yields.py + integration back here.
-MANUAL_NOTES = [
-    ("JGB 10Y", 2.40, "Stress crossover — check manually via web"),
-    ("JGB 30Y", 4.00, "Severe insurer stress — check manually via web"),
-    ("JGB 40Y", 4.00, "Extreme long-end stress — check manually via web"),
+# JGB thresholds are NOT evaluated in this script. They are fetched and graded by
+# jgb_yields.py, which runs in the same boot. DAEDALUS 8/28 (confirmed by SAM 9/1)
+# found that printing them here as "⚪ MANUAL CHECK ... check manually via web", in the
+# SAME visual form as the live USDJPY/FXY/Brent rows, makes a reader believe the KEY
+# THRESHOLDS table is being monitored inline when nothing is fetched or compared.
+# Verdict: SUBSTITUTED. Fix = render them in a visibly different form that names the
+# owner, and echo the last stored close so the pointer is checkable rather than bare.
+JGB_DELEGATED = [
+    ("JGB 10Y", "10Y", 2.40, "Stress crossover"),
+    ("JGB 30Y", "30Y", 4.00, "Severe insurer stress"),
+    ("JGB 40Y", "40Y", 4.00, "Extreme long-end stress"),
 ]
+JGB_TSV = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "workbook", "JGB_YIELDS.tsv")
+
+
+def _last_jgb_row():
+    """Last stored MOF close, or None. Read-only echo — jgb_yields.py owns the grade."""
+    try:
+        with open(JGB_TSV, encoding="utf-8") as fh:
+            rows = [ln.rstrip("\n").split("\t") for ln in fh if ln.strip()]
+        hdr, last = rows[0], rows[-1]
+        return dict(zip(hdr, last))
+    except Exception:
+        return None
 
 WARN_PCT = 0.05  # 5% proximity warning
 
@@ -213,11 +231,18 @@ def main():
             price_str = f"{p['price']:>9.2f}" if sym.endswith("=X") else f"${p['price']:>8.2f}"
             print(f"  {arrow} {sym:<12} {price_str}  ({p['chg']:+.2f}%)")
 
-    # Manual JGB notes
-    print(f"\n  MANUAL CHECK (Phase 2 will automate)")
-    print(f"  {'-'*60}")
-    for name, level, note in MANUAL_NOTES:
-        print(f"  ⚪ {name:<10} threshold {level:.2f}%  — {note}")
+    # JGB thresholds are owned by jgb_yields.py — deliberately rendered differently
+    # from the live rows above so this block cannot be mistaken for inline monitoring.
+    row = _last_jgb_row()
+    stamp = f"last stored MOF close {row['Date']}" if row else "NO STORED DATA"
+    print(f"\n  ┌─ JGB thresholds: NOT EVALUATED HERE ─ owned by jgb_yields.py (same boot)")
+    print(f"  │  This block fetches and compares NOTHING. Read its verdict there.")
+    print(f"  │  Echo only, {stamp}:")
+    for name, col, level, note in JGB_DELEGATED:
+        val = row.get(col) if row else None
+        shown = f"{float(val):.3f}%" if val else "  n/a "
+        print(f"  │    {name:<8} {shown:>8}  vs {level:.2f}%  ({note})")
+    print(f"  └─ ⚠️  echo may be stale; jgb_yields.py is the grade of record")
 
     print()
     return 0

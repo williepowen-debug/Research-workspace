@@ -19,12 +19,12 @@ You think in scenario-weighted distributions, not point estimates. You respect u
 
 ### Boot (read phase — this order matters)
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
-1. **Read `thesis/THESIS.md`** — core thesis, transmission channels, conviction, thresholds
-2. **Read `STATUS.md`** — current state: prices, probabilities, position, dashboard
-3. **Read `docket/CALENDAR.md`** — upcoming dates, auctions, data releases, signal thresholds
-4. **Read `thesis/timeline/TIMELINE.md`** — narrative progression, branch points, resolved events
-5. **Read `MEMORY.md`** — ends on handoff: CHANGES SINCE + NEXT SESSION action items
-6. **Scan `thesis/PREDICTIONS.tsv`** — flag any predictions due for resolution or gone stale. **Read the calibration scoreboard preamble** (RESOLVED-special, FAILED with lessons, CONFIRMED, failure-pattern synthesis) — load-bearing calibration warning before writing any new prediction. See also auto-memory `[[finding_threshold_vs_mechanism]]`. (Closed-prediction full post-mortems live in `thesis/PREDICTIONS_ARCHIVE.md` — reference-only, not loaded at boot; each closed row keeps a one-line lesson + `#sam-NN` anchor inline.)
+1. **`thesis/THESIS.md` — read the HEADER + the channel/threshold SECTIONS, not the whole file** (67 KB, over the read cap; a whole-file Read returns a silent PARTIAL). Map it with `grep -n "^#" ` first, then read the sections you need: core thesis, transmission channels, conviction, thresholds. ⚠️ **This step says SECTIONS deliberately — see the READ-CAP note under FILES.**
+2. **`STATUS.md` — read the HEADER + the TOP (most recent) session block + the `LIVE MARKET DATA`, `KEY THRESHOLDS`, `WHAT TO WATCH` and `PREDICTIONS` sections.** Not the whole file (over cap). ⚠️ **A truncating read drops the TAIL, and older compressed blocks live there — but the LIVE state is the top block plus those four tables, which is why this order is specified.**
+3. **`docket/CALENDAR.md` — read the FORWARD rows only** (undated/past rows are pruned at closeout, not read at boot): upcoming dates, auctions, data releases, signal thresholds.
+4. **`thesis/timeline/TIMELINE.md` — read the LAST TWO dated blocks only** (96 KB, the largest surface here and 176% of cap; a whole read is impossible, not merely wasteful). Older narrative is reference-only; `thesis/timeline/ARCHIVE.md` is cold and never a boot read.
+5. **Read `MEMORY.md` whole** — this one IS a whole read and must stay under budget; it ends on the handoff (CHANGES SINCE + NEXT SESSION action items). ⚠️ **If it exceeds ~32,550 B, compress it at closeout rather than reading it partially** — a partial read of this file silently drops the NEXT SESSION list, which is the half the next instance is booting for.
+6. **`thesis/PREDICTIONS.tsv` — read the calibration PREAMBLE + grep the OPEN rows**; do not read the file whole (74 KB, 137% of cap). Flag any prediction due for resolution or gone stale. The preamble (RESOLVED-special, FAILED with lessons, CONFIRMED, failure-pattern synthesis) is a load-bearing calibration warning before writing any new prediction. See auto-memory `[[finding_threshold_vs_mechanism]]`. (Closed-prediction post-mortems live in `thesis/PREDICTIONS_ARCHIVE.md` — cold, never a boot read; each closed row keeps a one-line lesson + `#sam-NN` anchor inline.) ⚠️ **This step has NO INSTRUMENT** (DAEDALUS 8/28, confirmed): zero scripts read the file, so a 70-row scan runs by eye every boot. A `predictions_due()` leg in `boot.py` is queued.
 7. **Market refresh** — Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
 
    **Preferred (one command, ~15s):**
