@@ -1,9 +1,9 @@
 # RESOLUTION QUEUE — SHADOW
 
 **authority_mode:** SHADOW
-**render_as_of:** 2026-09-02T14:03:03.066426Z
-**source_input_count:** 12
-**source_input_set_sha256:** 345ee336125adb67b13a6dd5802f3a17e645f7af6ee43d40aa47d43823277760
+**render_as_of:** 2026-09-02T14:03:13.125595Z
+**source_input_count:** 15
+**source_input_set_sha256:** 9eed0e432b9813fa43fd95ab044f886215fe90baf458dc5c7c03fbaf1b5c236f
 **schema_versions:** kernel.schema.1
 **policy_versions:** kernel.policy.1
 **renderer_version:** kernel.renderer.2
@@ -18,4 +18,5 @@
 | Q-019305f8-ec00-7000-8000-000000000103 | NOT_DUE | CREED | 2027-01-01T00:00:00.000000Z |
 | Q-019305f8-ec00-7000-8000-000000000105 | NOT_DUE | CREED | 2027-01-01T00:00:00.000000Z |
 | Q-019306b4-1a00-7000-8000-0000000000a1 | NOT_DUE | REGINALD | 2027-01-01T00:00:00.000000Z |
+| Q-019306b4-1a00-7000-8000-0000000000a6 | NOT_DUE | REGINALD | 2027-01-01T00:00:00.000000Z |
 | Q-01a044fc-e591-73e8-a74d-2f675abc09a0 | NOT_DUE | LIQUID | 2027-02-15T00:00:00.000000Z |
