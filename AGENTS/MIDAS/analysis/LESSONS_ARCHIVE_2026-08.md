@@ -1,4 +1,9 @@
-# MIDAS — LESSONS ARCHIVE (full bodies, L-01 … L-38)
+# MIDAS — LESSONS ARCHIVE (full bodies, L-01 … L-46)
+
+> ## ⛔ CONTENT RANGE — MEASURED 2026-09-02, NOT ASSERTED
+> **The `2026-08` in this filename is the ROTATION month, not the content range** (DAEDALUS month-container census §CORRECTION `1cd35a367`; CARL pilot `2c7615a3d`; PROME 9/2 — **no rename**).
+> **True content range: 2026-07-11 → 2026-09-02.** Dated-block tally: **58 August · 4 September.** Lesson bodies run **L-01 … L-46**; the September bodies are **L-45 and L-46 (both 2026-09-02)**, appended by the 9/2 boot session.
+> **Splice rule from here:** assert each new block's date against this file's month **at the splice**; on assert failure open `LESSONS_ARCHIVE_2026-09.md` rather than appending. **Nothing already here moves.**
 
 > **This file holds the COMPLETE text of every MIDAS lesson. Nothing here was deleted or edited — rows are byte-identical to the pre-split `LESSONS.md`.**
 >

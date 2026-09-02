@@ -187,7 +187,8 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 
 | File | Purpose |
 |------|---------|
-| `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** <250 lines. |
+| `STATUS.md` | Live state — convergence matrix, live channel reads, exit triad, BOTTOM LINE. **Primary memory.** <250 lines **and under the 32,550 B read-cap budget** — the open-items register lives in `OPEN_ITEMS.md` since 2026-09-02, so do not re-grow it here. |
+| `OPEN_ITEMS.md` | **Standing open-items register — split out of `STATUS.md` 2026-09-02** (read-cap hot/cold split). STATUS carries the live **top-3** inline and points here for the rest. **Not optional reading:** touch an open item, read this file. Consistency rule: a state change updates BOTH surfaces when the item is in the STATUS top-3. |
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas feeding PROME synthesis. FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |
 | `boot.py` | Boot instrument: ledger staleness + predictions-due. cwd-proof; self-locating. (`metals_watch.py` = flagged first increment.) |

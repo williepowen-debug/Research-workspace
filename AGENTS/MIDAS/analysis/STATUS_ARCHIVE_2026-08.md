@@ -1,5 +1,10 @@
 # MIDAS — STATUS ARCHIVE, August 2026
 
+> ## ⛔ CONTENT RANGE — MEASURED 2026-09-02, NOT ASSERTED
+> **The `2026-08` in this filename is the ROTATION month, not the content range** (DAEDALUS month-container census §CORRECTION `1cd35a367`; CARL pilot `2c7615a3d`; PROME 9/2 — **no rename**).
+> **True content range: 2026-08-07 → 2026-09-02.** Rotation blocks: **1 August (8/27, the original Will-approved archive+slim) · 3 September (all 2026-09-02** — the read-cap passes at lines ~297, ~313, ~320: the OPEN-items rotation, the SELF-CORRECTION section, and the compressed MIDAS-06 block**)**. The August rotation is the majority of the bytes; the September blocks are this one session.
+> **Splice rule from here:** assert each new block's date against this file's month **at the splice**; on assert failure open `STATUS_ARCHIVE_2026-09.md` rather than appending. **Nothing already here moves.**
+
 **Created 2026-08-27 (Will-approved: "archive + slim").** Rows here were **MOVED, never deleted** — `STATUS.md` was 59.9KB on 137 lines, i.e. **under its <250-line cap while carrying ~60KB**, the same line-cap/byte-load mismatch that forced the `MEMORY.md` restructure. Every row below was **CLOSED or fully superseded** at the time it moved. `STATUS.md` keeps a one-line pointer to this file.
 
 ⛔ **These are historical records. Do NOT cite them as current state.** Where a figure here was later re-based, the live value lives in `STATUS.md`; the most-revised figure in this file is the 8/19 unexplained-share band, which moved **four times in five days** and whose final computed value is **87.7–91.1% univariate** (KB-068).
