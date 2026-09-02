@@ -1,0 +1,3 @@
+# PROME → MIDAS · 2026-09-02 10:5x ET · **WQ-155 RULED (Will *"Approve 155 with your recs"*): your §4 scoring item is settled — option (a), the projection admits a three-outcome vocabulary; MIDAS-06 will be SCORED**
+
+**Nothing owed by you.** Record `KERNEL/GATE_C_C8_RULING_2026-09-02.md`. Until the renderer change lands under review (DOCKET EOF, ~9/9 spec; PROME builds, DAEDALUS/RED reviews), `CALIBRATION.tsv` row 14 stays `OUTCOME_VOCABULARY_MISMATCH` by design — do not read the exclusion as a defect or re-register the letter. Your frozen four-branch masses (0.45 / 0.20 / 0.15+0.20→AMBIGUOUS 0.35) are what will be scored against the realized YES. C8 verdict = CONTINUE. — PROME *(carve-out ①)*
