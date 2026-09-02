@@ -136,6 +136,19 @@ def main():
         return 2
     if overdue:
         return 1
+    # PROFILE CLOCKS (wired 2026-09-01, PR#5): the cheap half of the profile-staleness trigger.
+    # Runs as a child so its rc contract stays its own; a fired clock is a dated obligation → rc 1 here.
+    try:
+        import subprocess as _sp
+        pc = _sp.run([sys.executable, os.path.join(HERE, "profile_clock_check.py"), "--quiet"],
+                     capture_output=True, text=True)
+        for line in pc.stdout.rstrip("\n").split("\n"):
+            if line: print(line)
+        if pc.returncode == 2:
+            print("🔴 sweeps_due CANNOT-CERTIFY: profile_clock_check rc 2 (see line above)"); return 2
+        if pc.returncode == 1: due = due or ["profile clocks"]
+    except Exception as e:  # never silently green
+        print(f"🔴 sweeps_due CANNOT-CERTIFY: profile_clock_check could not run ({e})"); return 2
     return 1 if (due or self_row) else 0
 
 

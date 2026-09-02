@@ -1,5 +1,7 @@
 # PROFILE — PROME (coordinator / chief of staff)
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** spine re-based 8/20 (named trigger) · 35d since 7/28 body. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-08**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built:** 2026-07-28 (from the same-day 4-reader full-directory audit — `upgrades/PROME_AUDIT_2026-07-28.md` + `_readers/`; graded into FLEET_MAP the same day, Will-ratified) · **Class:** Meta · **Home:** repo-root `PROME/` (NOT `AGENTS/` — deliberate; Will-scoped shared-doc steward) · **Refresh trigger:** after the 7/31-8/2 maintenance batch lands, or any re-base of the protocol spine, or ±2 surfaces added/removed from BOOT.md's read list.
 
 ## 1. What it is (charter, in its own shape)

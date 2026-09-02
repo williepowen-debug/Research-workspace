@@ -1,5 +1,7 @@
 # VULCAN — DAEDALUS Comprehension Profile
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** 25d > 21d day clock (header-date 2026-08-07) · mail snapshot overtaken · promoted L3→L4 M at PR#5. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built:** 2026-08-07 (first profile — discharges the row's "graded twice with no comprehension layer" debt; Mode-A single-reader full read, 19 own files + all mail, boot.py executed read-only) · **Grade at build:** L3 Conf-H (promoted L2→L3 8/7 — FLEET_MAP owns it; ⚠️ VULCAN's own STATUS:4 still self-reports L2 — the promotion packet sits unprocessed) · **Class:** Market (DAEDALUS-built 7/10, VULCAN_SPEC; MIDAS/WATT wave) · **Staleness (content-derived):** re-read when the author-rail retrofit is consumed, when VULCAN-02/11 resolve (9/30), or when STATUS's Last-Updated leads this build date >21d.
 
 ## Identity in one line

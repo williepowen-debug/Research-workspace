@@ -1,5 +1,7 @@
 # Agent Profile — NEXUS
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** live pass 8/28 (named trigger) · body 8/17 · desk demoted L5→L4 at PR#5. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-08**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 ## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): BODY SUPERSEDED IN THE FLATTERING DIRECTION — L4-PROVISIONAL lifted 7/22, all 3 grounds false; 'idle since 6/27' → 3 sessions/31 commits; WALTER-lane 'never processed' → 22 files; DO-NOT-TOUCH 'board_log absence is not a bug' → file EXISTS 30 rows (actively misleading, STRUCK); closeout-16 RESOLVED 8/7; counters M-01..11/R1..R10/T-01..24; briefs 12→26; PREDICTIONS_MONITOR 47→43 uniques (8/7 resolved block ROTATED to archive — not loss); inbox root holds ONE deliberately-HELD ≥8/29 commission (grading it dwell-debt = false positive). PROMOTED L5/M at PR#4. ⚠️ R-prefix collision: antecedent R1..R10 ≠ forum-6 R1..R10 — cite with the qualifier.
 
 > Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH.** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.

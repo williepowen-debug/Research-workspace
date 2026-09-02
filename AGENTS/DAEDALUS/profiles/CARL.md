@@ -1,5 +1,7 @@
 # Agent Profile — CARL
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** CRL-21 graded 8/11 · THESIS v2.6.6 (8/27) · body 7/10. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 ## Δ 2026-08-17 — PR#4 (evidence: upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md): STALE, TRIGGER CONFIRMED FIRED (matrix re-scored ×2 in-period; CRL-21 graded) — 10 verified-wrong claims incl. THESIS v2.6.1/51 → v2.6.5/53 · STATUS 265-over-cap → 250-at-cap (trend inverted) · consistency_check 'IN BUILD' → B-G ALL SHIPPED · ABS_BASELINE 'LIVE' → FROZEN-since-7/10 (wrong when written) · KB 297→384 · PHAN 'live-append' → +37d two-clocked-not-dispositioned · DEWEY commission layer + FERT route absent. FULL REFRESH queued (the 7/22 refresh-at-touch promise did not execute through repeated touches — PAT-089's shape).
 
 > Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH.** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.

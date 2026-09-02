@@ -1,5 +1,7 @@
 # Agent Profile — ORACLE
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** day clock 64d > 45d (content legs not fired). Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built by:** DAEDALUS · **Date:** 2026-06-29 · **Comprehension method:** 1-reader live comprehension (workflow `firm7-profiles-cards`; documents the 6/28 firm-next7 adversarially-confirmed L4)
 **Sources read:** CLAUDE.md, STATUS.md, TRADE.md, NEXUS_BRIEF.md, SCRATCH.md, MEMORY.md, MAINTENANCE.md, SIGNAL_INTAKE.md, PREDICTION_MARKET_METRICS.md, workbook/{SCHEMA,KB,VX,KALSHI_ODDS_LOG,ODDS_LOG(head)}.tsv, watchlist.tsv + kalshi_watchlist.tsv (heads), HISTORY.tsv (row-count only). **Staleness:** refresh when the calibration-loop status changes (Brier scoreboard added), the role rubric (`PREDICTION_MARKET_METRICS.md`) materially changes, or > 45 days.
 

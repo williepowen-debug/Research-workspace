@@ -1,5 +1,7 @@
 # Agent Profile — BOND
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** convergence matrix re-cut (MATRIX_V2 adopted 8/27) + TRADE posture moved · body 8/07. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 > Δ **2026-08-20 — 3-reader Will-directed structure review superseded the 7/22 deltas: current truth = `upgrades/BOND_REVIEW_2026-08-20.md` (synthesis) + `_reader_raw.md` (evidence + not-read lists + PROME blind-leg provenance). Body below is 6/29-vintage — READ WITH THE REVIEW; full profile rewrite at next firming touch.**
 
 **Built by:** DAEDALUS · **Date:** 2026-06-29 · **Comprehension method:** 1-reader live comprehension (workflow `firm7-profiles-cards`; documents the 6/28 firm-next7 adversarially-confirmed L4)

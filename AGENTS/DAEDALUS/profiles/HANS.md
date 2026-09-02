@@ -1,4 +1,6 @@
 # HANS — DAEDALUS Comprehension Profile
+
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** FLOW reconcile landed 8/28 · 51d > 45d · body 7/12. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
 **Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L3 Conf-M-high (was L2 Conf-L — under-rate, PAT-024 #8) · **Class:** Market, tier-2 spawn-as-needed · **Staleness:** refresh on FLOW reconcile-or-freeze changelist landing or >45d
 
 ## Identity in one line — ⚠️ THE LABEL IS WRONG FLEET-WIDE

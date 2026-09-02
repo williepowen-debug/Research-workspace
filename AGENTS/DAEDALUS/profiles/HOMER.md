@@ -1,5 +1,7 @@
 # HOMER — DAEDALUS Comprehension Profile
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** own DATED REWRITE TRIGGER (:14) fired · :54 CORAL-lock superseded · 25d. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 > ⚠️ **SUPERSEDED IN PART — 2026-08-22. READ THE REVIEW FIRST, NOT THIS FILE.**
 > A full Will-directed structure review ran 2026-08-22 (4-reader Mode-A fan-out). Its findings are current;
 > this profile is the **2026-08-07** comprehension layer built against **61 files** (the tree is now 89) and

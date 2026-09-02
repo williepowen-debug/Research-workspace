@@ -1,5 +1,7 @@
 # TERRY — DAEDALUS Comprehension Profile
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** ★ stamp leads build by 25d > 21d · REG-T-02 → new fire card · DO-NOT-TOUCH anchor moved · body 8/07. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built:** 2026-07-04 · **FULLY REWRITTEN:** 2026-08-07 (refresh-queue slot serviced; the 7/4 body was not merely stale — **its §5 DO-NOT-TOUCH list contained the exact #6/#7 numbering-collision error TERRY itself formalized 7/27**: it attributed root rules #6/#7 [puts-on-green / roll-not-trim] to RISK_RULES Non-Negotiables #6/#7 [no-roll-by-hope / no-expiry-drift]. The load-bearing section a section-task is most likely to act on without re-reading was the wrong one.) · **Class:** Utility (trade construction — converts thesis into sized/timed/structured proposals or vetoes the expression; owns timing/structure/sizing/risk, never truth; proposes only, never executes) · **Staleness (content-derived):** re-read when STATUS's ★ stamp leads this build date >21d, when a fire card fires/closes, or when any DO-NOT-TOUCH anchor line moves.
 
 ## Identity in one line

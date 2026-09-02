@@ -1,5 +1,7 @@
 # Agent Profile — YEYOU
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** first live review cycle ran 8/20 (REVIEW_LOG 28 rows) · 59d > 45d · body 7/04. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built by:** DAEDALUS · **Date:** 2026-07-04 · **Comprehension method:** solo live read (fast-follow of the 6/28→7/3 utility-cohort firming; promotes `upgrades/UTILITY_FIRMING_2026-07-03.md`'s YEYOU row into DAEDALUS's durable per-agent format, re-verified against current live files rather than assumed)
 **Sources read:** `CLAUDE.md`, `STATUS.md`, `CLOSEOUT.md`, `MEMORY.md`, `SOUL.md`, `IDENTITY.md`, `reviews/REVIEW_CHECKLIST.md`, `reviews/REVIEW_LOG.tsv`, `reviews/STATE.tsv`, `reviews/CROSS_SILO_CONSISTENCY_FINDINGS.md`, `reviews/YEYOU_PROME_COORDINATION.md`, `scripts/boot.py`, `inbox/`/`outbox/` (listing only — `.gitkeep` each), plus `git log`/`git show` on `AGENTS/YEYOU/` for drift verification. **Staleness:** refresh when YEYOU runs its first live review cycle (REVIEW_LOG.tsv accrues a row — the L2→L3 verification event), the OpenClaw/GLM stale-cluster is swept, or > 45 days.
 

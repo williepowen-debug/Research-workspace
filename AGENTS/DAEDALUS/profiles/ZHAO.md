@@ -1,5 +1,7 @@
 # Agent Profile — ZHAO
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** one session since reactivation rewrote canon (8/21) · 55d > 45d. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built by:** DAEDALUS · **Date:** 2026-07-07 · **Comprehension method:** solo direct read (full core: CLAUDE, STATUS, boot.py, NEXUS_BRIEF, TRADE, workbook ×6 TSV, LAST_COMPLETION, inbox/outbox; subagent readers lost to a credit outage — small enough to hold)
 **Sources read:** all of the above + PROME reactivation packet (7/5) + ZHAO's own reactivation outbox (7/4). · **Staleness:** refresh after ZHAO's next 2-3 sessions (freshly reactivated — profile will age fast) or >45d.
 **Context:** reactivated **2026-07-04 after ~2.5mo dormancy** (8 commits: STATUS rewrite, KB-076..087, VX/FLOW/PREDICTIONS refresh, boot.py + NEXUS_BRIEF built). PROME flipped ROSTER dormant→ACTIVE 7/5. Architecture is a **pre-June-buildout vintage** + a high-quality 7/4 self-rehab layer.

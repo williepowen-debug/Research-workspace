@@ -1,5 +1,7 @@
 # Agent Profile — CORAL
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** THESIS bumped to rails v1.1 + STATUS moved 91/115 lines (8/23) · 41d > 30d. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 > Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH (L2->L3 re-grade 7/22; §7 open-Q per-metro-handle RESOLVED: GRID_PER_METRO.md).** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
 
 **Built by:** DAEDALUS · **Date:** 2026-06-27 · **Method:** 2-reader fan-out (analytical core + support/memory) → synthesis

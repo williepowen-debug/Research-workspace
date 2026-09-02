@@ -1,4 +1,6 @@
 # MARCO — DAEDALUS Comprehension Profile
+
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** 51d > 45d · body 7/10 (VX-MARCO-3.03 leg not adjudicated). Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
 **Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L4 Conf-H (was L2 Conf-L — 2-level under-rate, PAT-024 #7) · **Class:** Market (FL-economy specialist; CORAL shares FL, one-figure rule) · **Staleness:** refresh when VX-MARCO-3.03 adjudicates (BofA Tier-1) or >45d
 
 ## Identity in one line

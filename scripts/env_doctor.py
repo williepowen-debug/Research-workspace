@@ -115,8 +115,8 @@ EXPECTED_VENV_DEPS = ["bs4", "pdfminer"]
 # MESSAGING tier (ruled 2026-08-07, built 8/11 — SAM PyYAML outage: 'CLEAN'
 # printed on a box where DM v1 could not run): NON-BLOCKING by design — never
 # widens the BLOCKING set (its market-data lean is deliberate). PyYAML ships
-# as package dir `yaml`. NB: scripts/requirements.txt pins pyyaml but is
-# CI-SCOPED (feeds GH Actions, never .venv) — a pin there is NOT coverage.
+# as package dir `yaml`. (The former CI pin file scripts/requirements.txt was retired
+# with the SENTRY feed pipeline 2026-08-29 — .venv is the only coverage that counts.)
 MESSAGING_VENV_DEPS = [("yaml", "PyYAML — MESSAGING/DM v1 lane dark without it; fix: .venv/bin/pip install pyyaml")]
 
 
@@ -262,7 +262,7 @@ def main() -> int:
                  f"CLIs {'/'.join(c for c, _, _ in EXPECTED_CLIS)} · "
                  f"global extras ({'/'.join(l for l, _, _ in GLOBAL_EXTRAS)}) "
                  f"| NOT checked: agent-local .envs · MESSAGING service state · `gh` auth state "
-                 f"(installed ≠ authed) · scripts/requirements.txt (CI-scoped pin file, not .venv coverage)")
+                 f"(installed ≠ authed)")
     if not quiet:
         for n in notes:
             print(f"ENV-DOCTOR {n}")

@@ -1,5 +1,7 @@
 # OZK — DAEDALUS Comprehension Profile
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** STATUS-stamp lead over build 24d > 21d · body 8/07. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built:** 2026-08-07 (first profile — discharges the "profile owed since first row" debt; Mode-A single-reader full read, 178 files) · **Grade at build:** L4 Conf-H HOLD, legs STRENGTHENED same-day (FLEET_MAP owns it) · **Class:** Market — single-name bank specialist (Bank OZK only: FDIC cert #110, RSSD 107244 verified at the FFIEC primary; NOT CRE-generally — CLAUDE:185-193 hands CRE-market-wide to CREED-via-REGINALD, the multi-bank matrix to REGINALD, WAL to the WAL agent "peer since 7/25, same lifecycle as you") · **Staleness (content-derived):** re-read after the P-OZK-1..5 Will dispositions land, after the ~Oct Q3 print, or when STATUS's stamp leads this build date >21d.
 
 ## Identity in one line

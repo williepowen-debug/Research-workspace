@@ -1,5 +1,7 @@
 # WATT — DAEDALUS Comprehension Profile
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** 25d > 21d day clock (header-date 2026-08-07; the reader's 'no dated trigger' call was wrong — the 21d clock lives in the trigger line) · 15d dark, AEOLUS seam packets unconsumed. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built:** 2026-08-07 (first profile — build-queue slot serviced; Mode-A single-reader full read, 65 files) · **Grade at build:** L3 Conf-H (promoted L2→L3 8/7 — FLEET_MAP owns it) · **Class:** Market (DAEDALUS-built 7/10, WATT_SPEC; the seat HENRY held provisionally until spinout — power_watch.py docstring records the move and that "HENRY consumes WATT's OUTPUT, no longer runs the instrument") · **Staleness (content-derived):** re-read when STATUS's Last-Updated leads this build date >21d, when WATT-09/FERC resolves, or when the extract-and-stamp retrofit is consumed.
 
 ## Identity in one line

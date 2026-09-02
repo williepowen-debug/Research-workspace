@@ -1,5 +1,7 @@
 # DEWEY — DAEDALUS Comprehension Profile
 
+> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** ≥3 sessions since (8/27-28 build passes) · body 8/11. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+
 **Built:** 2026-08-07 (first profile — build-queue slot #2; Mode-A single-reader full read: CLAUDE/CONTEXT/REVIVAL_PLAN, all 7 scripts + BACKLOG, all 15 inbox-root packets + WALTER lane + processed/, all 9 outbox, INDEX.tsv 46 rows, 5 reports in full + structural audit across all 46) · **Grade at build:** L4 Conf-M (FLEET_MAP 8/7; conf M stood BECAUSE the corpus was never fan-out read — this profile is that read) · **Class:** Utility (confirmed against own files: create-only cross-inbox stubs = the WALTER precedent, no structure-mutation authority) · **Staleness:** re-read after the next 2+ DEWEY sessions or any intake-mechanism change, whichever first.
 
 ## Identity in one line
