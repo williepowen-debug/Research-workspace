@@ -31,7 +31,8 @@ which any single-file review could have caught:
 --------------------------------------------------------------------------
 CHECK A — Predictions mirror
   Canonical:  thesis/PREDICTIONS.tsv   (Pred_ID / Confidence / Timeframe / Status)
-  Mirror:     STATUS.md "## PREDICTIONS" section — the **Open** table
+  Mirror:     PREDICTIONS_MIRROR.md "## PREDICTIONS" section — the **Open** table
+              (moved out of STATUS.md 2026-09-01, read-cap remedy; Check B still reads STATUS.md)
               (ID | Prediction | Conf | Timeframe | Current) and the
               **Resolved** table (ID | Prediction | Status).
 
@@ -126,6 +127,14 @@ SCRIPTS_DIR = Path(__file__).resolve().parent
 CARL_DIR = SCRIPTS_DIR.parent
 DEFAULT_TSV = CARL_DIR / "thesis" / "PREDICTIONS.tsv"
 DEFAULT_STATUS = CARL_DIR / "STATUS.md"
+# 2026-09-01: the PREDICTIONS mirror MOVED OUT of STATUS.md under the read-cap
+# ruling (STATUS was 119% of the 54,250 B whole-read cap; that section was 23.7%
+# of it). Check A now reads THIS file; Check B (convergence matrix) still reads
+# STATUS.md, because the matrix did not move. The move, this re-point and the
+# CLAUDE.md Doc Ownership re-point were made in ONE commit deliberately -- a
+# relocated mirror whose checker still points at the old location is how a check
+# starts passing green against a file nobody updates.
+DEFAULT_PRED_MIRROR = CARL_DIR / "PREDICTIONS_MIRROR.md"
 DEFAULT_THESIS = CARL_DIR / "thesis" / "THESIS.md"
 
 PRED_ID_RE = re.compile(r"^CRL-\d+$")
@@ -248,7 +257,7 @@ def parse_status(path):
             start = i
             break
     if start is None:
-        raise SystemExit("FATAL: '## PREDICTIONS' section not found in STATUS.md")
+        raise SystemExit(f"FATAL: '## PREDICTIONS' section not found in {path}")
     for i in range(start + 1, len(text)):
         if text[i].startswith("## "):
             end = i
@@ -1246,6 +1255,8 @@ def main():
                          "different things and must not look the same in the boot summary.")
     ap.add_argument("--tsv", default=str(DEFAULT_TSV), help="override PREDICTIONS.tsv path")
     ap.add_argument("--status", default=str(DEFAULT_STATUS), help="override STATUS.md path")
+    ap.add_argument("--pred-mirror", default=str(DEFAULT_PRED_MIRROR),
+                    help="override PREDICTIONS_MIRROR.md path (Check A's mirror side)")
     ap.add_argument("--thesis", default=str(DEFAULT_THESIS), help="override THESIS.md path")
     args = ap.parse_args()
 
@@ -1257,7 +1268,14 @@ def main():
         raise SystemExit(f"FATAL: STATUS not found: {status_path}")
 
     tsv = parse_tsv(tsv_path)
-    status_open, status_resolved = parse_status(status_path)
+    pred_mirror_path = Path(args.pred_mirror)
+    if not pred_mirror_path.exists():
+        raise SystemExit(
+            f"FATAL: predictions mirror not found: {pred_mirror_path}\n"
+            "  Check A's mirror side moved out of STATUS.md on 2026-09-01 (read-cap remedy).\n"
+            "  Fail LOUD rather than silently falling back to STATUS.md: a checker that\n"
+            "  quietly re-points at a stale location is the failure this move was guarding.")
+    status_open, status_resolved = parse_status(pred_mirror_path)
 
     fa = check_a(tsv, status_open, status_resolved)
     fb, b_stats = check_b(Path(args.thesis), status_path)
@@ -1268,7 +1286,7 @@ def main():
     fe, e_stats = check_e(entries, gaps)
 
     groups = [
-        ("CHECK A — predictions mirror (PREDICTIONS.tsv ↔ STATUS.md)", fa),
+        ("CHECK A — predictions mirror (PREDICTIONS.tsv ↔ PREDICTIONS_MIRROR.md)", fa),
         ("CHECK B — convergence score (THESIS matrix ↔ STATUS mirror ↔ histogram)", fb),
         ("CHECK D — instrument declaration (does each OPEN row name what resolves it?)", fd),
         ("CHECK E — cross-ledger threshold monotonicity (parent + sub-agents)", fe),

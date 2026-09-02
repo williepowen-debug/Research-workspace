@@ -141,7 +141,8 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 
 | Doc | Owns | Does NOT contain |
 |-----|------|------------------|
-| **STATUS.md** | Current dashboard values; K-shape snapshot; convergence score/matrix *mirror*; DANGER WINDOW synthesis (NOW read + thesis-window triggers + recently-fired digest) | Multi-session process / what-CARL-shipped → ROADMAP. Canonical thesis/scores → THESIS. |
+| **STATUS.md** | Current dashboard values; K-shape snapshot; convergence score/matrix *mirror*; DANGER WINDOW synthesis (NOW read + thesis-window triggers + recently-fired digest) | Multi-session process / what-CARL-shipped → ROADMAP. Canonical thesis/scores → THESIS. **Prediction mirror → `PREDICTIONS_MIRROR.md` (moved out 2026-09-01, read-cap).** |
+| **PREDICTIONS_MIRROR.md** | Human-readable mirror of `thesis/PREDICTIONS.tsv` — the Open + Resolved tables. **Machine-checked by Check A.** | Canonical prediction state → `thesis/PREDICTIONS.tsv` (the TSV wins on any disagreement). Never resolve/re-price/register here. |
 | **ROADMAP.md** | Cross-session process: open threads, open questions, investigations backlog, RECENTLY RESOLVED audit trail | Market/data snapshots → STATUS. Dated forward catalysts → docket. |
 | **SCRATCH.md** | Next-session handoff (PRIORITY-1, CHANGES SINCE, immediate items, workbook health) | Persistent state → ROADMAP. Canonical claims → THESIS/workbook. |
 
@@ -149,7 +150,7 @@ Finding bigger than SCRATCH → route by type: **thesis-level** (mechanism/thres
 
 **Mirror pairs (canonical → mirror):**
 - THESIS matrix/score → STATUS matrix section *(machine-checked: consistency_check Check B)*
-- PREDICTIONS.tsv OPEN IDs → STATUS PREDICTIONS table *(machine-checked: Check A)*
+- PREDICTIONS.tsv OPEN IDs → **`PREDICTIONS_MIRROR.md`** *(machine-checked: Check A)* — ⚠️ **MOVED OUT OF STATUS.md 2026-09-01** under the read-cap remedy (STATUS was 119% of the 54,250 B whole-read cap; the section was 23.7% of it). **Check B still reads STATUS.md** — the convergence matrix did NOT move.
 - CATALYSTS.tsv → CALENDAR.md (event set) — **HAND-VERIFY ONLY: Check C was evaluated and DECLINED (reasoning in `scripts/CONSISTENCY_CHECK_SPEC.md`); no script checks this pair.** *(Claim corrected 7/31 — PROME audit found the prior wording asserted machine coverage that does not exist.)*
 
 ---

@@ -4,7 +4,7 @@ description: "Fix passes carry a HIGHER defect rate than the original work — t
 metadata:
   node_type: memory
   type: feedback
-symptoms: "finding born inside a retraction; correction carried a second wrong number; shipped the fix without testing it; validation ran only because it was going to the operator; retraction with passengers; fixed the flagged label and shipped the stale number beside it; same row wrong on three consecutive passes; the flagger only looked at one cell; corrected row read as reviewed row"
+symptoms: "the row I just moved is not where I left it · the archive has a thread that is still open · my rotation guards all passed · row conservation held but the wrong rows moved · a transition marker matched a state the row is no longer in · classified on a substring instead of the leading token · finding born inside a retraction; correction carried a second wrong number; shipped the fix without testing it; validation ran only because it was going to the operator; retraction with passengers; fixed the flagged label and shipped the stale number beside it; same row wrong on three consecutive passes; the flagger only looked at one cell; corrected row read as reviewed row"
 ---
 
 **The work you do to correct an error is the least-reviewed work in the session, and it is where the next error lands.**
@@ -106,3 +106,17 @@ Everything above points at the OUTPUT of a correction — your own fix is unrevi
 **Why this shape evades the author specifically:** a flag names a LOCATION, and fixing that location produces the full sensation of having fixed the CLAIM. The author never forms the question "where else does this claim appear?" because the flag already answered "where" — wrongly, and only for one instance. Note both fires were found by *readers*, and note (a) was found only because the second reader was **fresh**: the first reader had seen the fix list and could no longer see the file as a stranger.
 
 **Rule that survives: a flag is a sample, never a census.** On any flagged claim, grep the whole surface for the claim's OTHER instances before calling it fixed — and treat the file's own stated prohibitions as the highest-yield grep, because a file that bans a pattern is a file that contains it. Pairs with `[[finding_summary_section_merges_what_the_body_separates]]` (the correction lands last in the summary) and `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` (a fix keyed on a name misses the un-named twin).
+
+---
+
+**CARL 2026-09-01 — n+1, and the new content is that the FIX ITSELF SHIPPED A FRESH DEFECT rather than missing an instance.** The prior instances are all *incomplete* correction passes (a flag fixed at one location while the claim lived elsewhere). This one is different in kind: the remedy was correct, executed with conservation assertions, and **introduced a new fault of exactly the class it was fixing.**
+
+Under the read-cap ruling CARL rotated `ROADMAP.md` (342% → 58% of cap) and classified a thread as closed with `'✅' in line`. **This desk marks a partly-closed-but-still-live thread with a `✅→🟠` / `✅→🟡` prefix**, so the substring test read *"partly closed"* as *"closed"* and archived **two live threads** — one of them the very item a ruling had just landed on. The rotation's own guards all passed: row conservation held, no line between anchors was lost, the line count fell exactly as intended. **Nothing was lost; the wrong things were moved, and every check was about loss.**
+
+⭐ **The detection is the most useful part and it was luck, not process.** It surfaced only because an unrelated correction (a weight-basis fix to a different number) sent the author back to a row he had moved twenty minutes earlier. **No closeout step, no consistency check and no orphan scan would have found it** — the archived rows were exactly where a rotation is supposed to put things.
+
+**Two rules from it:**
+1. **Classify on a row's LEADING state token, never on whether a glyph appears anywhere in the line.** A transition marker (`✅→🟠`) contains the token for a state the row is no longer in — so any "does it contain X" test reads the *past* state as the current one. Same family as `[[finding_supersession_marker_suppresses_the_live_value_beside_it]]`.
+2. **A correction pass needs a re-read of its own OUTPUT, not just its inputs.** The author's guards asked *"did I lose anything?"* — the right question was *"is everything I moved actually the thing I meant to move?"* Conservation checks cannot see mis-classification, because a mis-classified row is conserved.
+
+⚠️ **Context that makes it sharper:** in the same session this author had already found and fixed **four** filters keying on the wrong signal — a tier-1 conjunction gate defeated by markdown bolding, a boot filter with no failure vocabulary, a mirror check blind to a third copy of its own ledger, and a monitor pointed at a disjoint set of deals — and then wrote a fifth. **Fluency at spotting the class in others' work did not protect against authoring it.**
