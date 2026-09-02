@@ -220,7 +220,7 @@ def main():
     ordering = " > ".join(r[0] for r in sorted(rows, key=lambda r: -r[5]))
 
     print(f"\n== CROSS-SECTION (n={len(rows)} legs) ==")
-    print(f"   ordering            : {ordering}")
+    print(f"   ordering            : {ordering}   ⚠️ RANK IS HORIZON-UNSTABLE — quote the window {start}→{end} in the SAME sentence as any rank (SAM 9/1: 4 windows, JP ranked 4/4, 3/4, 3/4 and 1/4)")
     print(f"   DM median delta     : {med:+.1f}bp")
     print(f"   min-across-legs     : {min(ds):+.1f}bp   ⚠️ a crude LOWER BOUND, NOT a factor decomposition")
     print(f"   spread (max-min)    : {max(ds)-min(ds):.1f}bp")

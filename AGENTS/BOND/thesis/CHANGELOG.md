@@ -4,6 +4,18 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.1 — 2026-09-02 (**the KILL's composition-failure leg is base-rated and cannot discriminate as ruled · 2Y FRN contamination found/fixed · `FL-BND-12` confirmed out-of-sample**)
+
+**Old view → new view:** the 8/27 Will ruling extended MATRIX_V2's `I'` (indirect < per-tenor trailing-12 15th percentile, standalone) to the thesis kill, prospectively, dual-printed until the kill next evaluates 9/8–9/10, with the per-tenor base-rating owed 9/4. **Delivered 9/2:** out-of-sample, per tenor, `I'` fires **15.6–28.1%/auction** (23.2% pooled; OLD conjunctive 1.8%) and on the draft's own yardstick (TLT close→close+5) fires hit **50.0% vs 53.2%** for all auctions, median **+0.14% vs −0.12%** — no separation, wrong-signed, and worse at deeper margins (≤−3pp: 31.6%; OLD min-only 40.9%; two consecutive same-tenor fires 46%). **P(≥1 fire across the refunding) ≈ 49%.** ⇒ the matrix marker stands as ruled; **the kill leg as ruled is a coin flip that fires in the direction that confirms this desk's own thesis.** Minor bump — no regime change, no position change, **no threshold moved** (dual-print stands; Will-gated question §5 of the record). Record: `analysis/2026-09-02_MATRIX_V2_per-tenor-base-rating.md`; tool `monitors/matrix_v2_base_rate.py`; `KB-BND-222`.
+
+**Defect disclosed:** the 2Y benchmark pool contained **43 two-year FRN rows** (`floatingRate=Yes` at TA_WS; `securityType Note`, `originalSecurityTerm 2-Year`). Every 2Y bar published 8/27 was FRN-set (min 50.91 / dealer max 49.09 / `I'` 55.75 → clean 53.21 / 24.12 / 54.82). **No verdict changes** (8/25 2Y cleared by >11pp either way; BND-18/19/20 grade as frozen). `grade_auction.py` patched. `KB-BND-221`. Class: `[[finding_instrument_measures_a_superset_of_the_thesis_subject]]`.
+
+**`FL-BND-12` (oil shock → breakevens ONLY, real leg insulated) — SECOND out-of-sample pass, opposite direction:** `BND-21` resolved **TRUE** 9/2 — `DFII10` [9/1] = **2.44, +0.0bp** (bar ≤2.46, margin 2.0bp) while `T10YIE` [9/1] +4.0bp / `T5YIE` +6.0 / `T5YIFR` +2.0. The 7/24–27 crude COLLAPSE moved breakevens −7bp with DFII10 flat; the 9/1 ~+5% Brent SPIKE moved breakevens +4 to +6bp with DFII10 flat. **Symmetric, both signs, both at zero real change.** `KB-BND-223`. Caveat that travels: the 9/1 nominal was `DGS10` +4.0 = real +0.0 + BE +4.0 (identity closes to 0.0), so the 9/1 SESSION was ~100% breakeven where the WEEK into it was ~100% real (v1.2.0 leg 1) — two adjacent moves, opposite signatures, and neither is a term-premium event.
+
+**Frozen for the refunding (pre-registered 9/2):** 3Y `91282CRL7` `I'` <58.90 · 10Y-R `91282CRF0` <65.05 (reopening-only alt 66.32) · 30Y-R `912810UW6` <62.93 (alt 60.28); OLD conjunctive bars beside each in `monitors/AUCTION_HEALTH.md`. `BND-23` registered (55%: `I'` fires at none of the three).
+
+---
+
 ## v1.2.0 — 2026-09-01 (**C-36 RULED: the label is TWO-PART.** The board's oldest open ask closes on a pre-registered branch that resolved on published data)
 
 **Old view → new view:** C-36 has sat **CONTESTED ~50%** since the Will-ruled 8/10 financial-conditions forum downgraded it from a one-part *"policy-path-led"* CONFIRM (~80-85%). It is now ruled **TWO-PART: the policy-path channel is ALIVE AND TRANSMITTING · term premium drove the July delta.** Minor bump — this is a **refinement that narrows a claim**, not a regime change or conviction reversal; the underlying real-rate / higher-for-longer regime is unchanged and no position moved.

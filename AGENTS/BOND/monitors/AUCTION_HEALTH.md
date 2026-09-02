@@ -1,7 +1,7 @@
 # BOND Monitor — Treasury Auction Health
 
 **Owner:** BOND
-**Last Updated:** 2026-08-27 by BOND — **the 8/25 2Y, 8/26 2Y-reopening and 8/26 5Y are graded and IN the table below, and the MATRIX_V2 §3d percentile-snapshot rail is seeded.** ⚠️ *(This stamp read **2026-08-20** until 2026-08-27 ~12:2x ET while the body already carried three 8/27 rows — a header stale against its own fresher body. The safe direction of that error, but the same mirror break, and the third header/body divergence found in one audit.)* *(Prior stamp:)* **2026-08-20 by BOND** — **8/19 20Y and 8/20 30Y TIPS graded and added the same day they printed** (the 8/18 sweep's whole lesson: this table went 27 days stale twice and lost a $125B refunding). *(Prior: 2026-08-18 — full staleness sweep, Will-tasked.)*
+**Last Updated:** 2026-09-02 by BOND — **MATRIX_V2 per-tenor base-rating DELIVERED (owed 9/4): all seven `I'` bars frozen for the refunding in the snapshot table below, and a 2Y FRN contamination found and fixed** (the 8/26 "2Y reopening" row was a 2-YEAR FRN — see its row). *(Prior stamp:)* **2026-08-27 by BOND — the 8/25 2Y, 8/26 2Y-reopening and 8/26 5Y are graded and IN the table below, and the MATRIX_V2 §3d percentile-snapshot rail is seeded.** ⚠️ *(This stamp read **2026-08-20** until 2026-08-27 ~12:2x ET while the body already carried three 8/27 rows — a header stale against its own fresher body. The safe direction of that error, but the same mirror break, and the third header/body divergence found in one audit.)* *(Prior stamp:)* **2026-08-20 by BOND** — **8/19 20Y and 8/20 30Y TIPS graded and added the same day they printed** (the 8/18 sweep's whole lesson: this table went 27 days stale twice and lost a $125B refunding). *(Prior: 2026-08-18 — full staleness sweep, Will-tasked.)*
 **[8/18 entry retained]** — **full staleness sweep (Will-tasked).** ⚠️ **The rolling table was missing FOUR auctions, including the entire August quarterly refunding ($125B, the quarter's largest supply event).** The 7/28 7Y was graded the same day this file was last touched and never reached the table; 8/11–8/13 was never docketed at all. All four back-filled below off TreasuryDirect primaries, with per-tenor trailing-12 benchmarks recomputed 8/18. *(Prior: 2026-07-28 — rolling table 27 days stale, 6 auctions back-filled 7/09→7/27.)*
 **Purpose:** Track whether Treasury market absorption is improving, mechanically supported, or deteriorating.
 
@@ -27,7 +27,7 @@
 | Date | Tenor | Size | BTC | High Yield | Indirect % | Direct % | Dealer % | Read | Source | Notes |
 |---|---:|---:|---:|---:|---:|---:|---:|---|---|---|
 | **2026-08-25** | **2Y** | $69B | **2.60** | 4.2040% | **66.01** | 23.09 | **10.90** | 🟢 | TreasuryDirect | `91282CRH6`. STRONG: ind **+8.36pp** vs med 57.65, **+15.10pp** above its failure bar; dlr −14.59pp vs med. No cover marker, no composition failure. |
-| **2026-08-26** | **2Y reopening** | $28B | **3.14** | — | **66.56** | **0.36** | **33.08** | 🟢 | TreasuryDirect | `91282CRD5`, `securityTerm` "1-Year 11-Month". Ind **+7.99pp**, **+15.65pp** above its bar ⇒ **NOT** a composition failure. ★ **Direct 0.36% = essentially zero**, dealers absorbed the residual. Logged as a real compositional fact; **interpretation WITHHELD — no base rate for reopening direct-take exists and no threshold is invented at n=1** (`KB-BND-175`). No `highYield` in the feed. |
+| **2026-08-26** | ~~**2Y reopening**~~ **2Y FRN reopening** | $28B | **3.14** | — | **66.56** | **0.36** | **33.08** | ⚪ n/a | TreasuryDirect | `91282CRD5`, `securityTerm` "1-Year 11-Month", **`floatingRate` = Yes (verified at TA_WS 2026-09-02)**. 🔴 **This is a 2-YEAR FLOATING RATE NOTE, not a nominal 2Y — it does not belong in the nominal benchmark set at all, and neither do the 43 other FRN rows the corpus filed under 2Y.** The 8/27 read ("direct 0.36% = essentially zero, interpretation withheld", `KB-BND-175`) is EXPLAINED, not mysterious: FRN auctions structurally carry ~zero directs and high dealer take. **Verdict retired to n/a; the bars it was graded against (ind min 50.91 / dlr max 49.09) were themselves FRN-set.** `KB-BND-221`. |
 | **2026-08-26** | **5Y** | $70B | **2.37** | 4.3930% | **61.51** | 28.44 | 10.05 | 🟢 | TreasuryDirect | `91282CRK9`. **The soft one**: ind **−0.24pp** vs its own med 61.75 (still +2.27pp above the failure bar); BTC +0.03 vs med but **−0.00 vs the trailing-12 MEAN**. **The 7/27 cover marker did NOT repeat** (2.37 vs 2.28). `BND-18` TRUE; `BND-19` FALSE on this leg. |
 | 2026-04-22 | 20Y reopening | $13B | 2.68 | 4.883% | 59.6 | 20.2 | 8.6 | 🟢/🟡 | FiscalData | Good cover; long-end yield high. |
 | 2026-04-23 | 5Y TIPS | $26B | 2.57 | 1.367% | 57.0 | 23.7 | 7.5 | 🟢 | FiscalData | Improved vs March stress. |
@@ -77,7 +77,8 @@
 
 | Tenor | BTC med | BTC min | Indirect med | **Indirect MIN** | Dealer med | **Dealer MAX** | Window |
 |---|--:|--:|--:|--:|--:|--:|---|
-| 3Y | 2.64 | 2.53 | 62.96 | **53.99** | 12.11 | **19.50** | 2025-08-05 → 2026-07-07 |
+| **2Y** *(FRN-clean, added 9/2)* | 2.63 | 2.44 | 56.84 | **53.21** | 11.33 | **24.12** | 2025-08-26 → 2026-08-25 — ⚠️ the 8/27 2Y figures (min 50.91 / dlr max 49.09) were set by FRN prints; RETRACTED |
+| 3Y | 2.64 | 2.53 | 62.96 | **53.99** | 12.11 | **19.50** | 2025-08-05 → 2026-07-07 *(9/2 re-derive: min 56.50 / dlr max 19.50, window 2025-09-09 → 2026-08-11)* |
 | 7Y | — | — | — | **56.42** | — | **13.14** | (7/28 grade) |
 | 10Y | 2.46 | 2.35 | 68.32 | **63.95** | 9.96 | **16.16** | 2025-08-06 → 2026-07-08 |
 | 20Y | 2.67 | 2.36 | 64.95 | **55.17** | 9.88 | **17.59** | 2025-08-20 → 2026-07-22 |
@@ -92,7 +93,10 @@
 
 | Date | Instrument | CUSIP | Size | Failure test |
 |---|---|---|--:|---|
-| ⏳ **Thu 8/27, 1PM ET** | **7Y** (cluster leg 3) | `91282CRJ2` | **$44B** | **FROZEN PRE-PRINT 2026-08-27:** composition failure = ind <56.42 **AND** dlr >13.14 · cover marker = BTC <2.40 · ★ **adopted `I'` = ind <57.24 fires 🟠 STANDALONE** |
+| ✅ Thu 8/27 | 7Y (cluster leg 3) | `91282CRJ2` | $44B | GRADED CLEAN (ind 60.78 / dlr 12.26 / BTC 2.50) — rolling table |
+| ⏳ **Tue 9/8, 1PM ET** | **3Y new** — refunding leg 1 | `91282CRL7` | TBA | **FROZEN 2026-09-02 (FRN-clean, trailing-12 2025-09-09 → 2026-08-11):** `I'` = ind <**58.90** (kill, NEW) · OLD conjunctive = ind <56.50 AND dlr >19.50 (dual-print + WQ-99 ADD re-arm) · cover marker BTC <2.53 (re-derive at grade) |
+| ⏳ **Wed 9/9, 1PM ET** | **10Y REOPENING** — leg 2, **first kill evaluation** | `91282CRF0` | TBA | **FROZEN 2026-09-02 (pooled, 2025-09-10 → 2026-08-12):** `I'` = ind <**65.05** · OLD = ind <63.95 AND dlr >13.38 · reopening-only alt 66.32 — a print in 65.05–66.32 is CONVENTION-DEPENDENT, graded both ways |
+| ⏳ **Thu 9/10, 1PM ET** | **30Y REOPENING** — leg 3 | `912810UW6` | TBA | **FROZEN 2026-09-02 (pooled, 2025-09-11 → 2026-08-13):** `I'` = ind <**62.93** · OLD = ind <59.95 AND dlr >14.74 · reopening-only alt 60.28 — a print in 60.28–62.93 is CONVENTION-DEPENDENT |
 
 ★ **MATRIX_V2 §1/§3c ADOPTED 2026-08-27**, executing Will's 2026-08-20 ruling. **`I'` (indirect < the per-tenor 15th percentile of trailing-12) now fires 🟠 STANDALONE; dealer is DROPPED as a bearish criterion** and retained only as a descriptive field and a contrarian-**bullish** note >18%. Registered PRE-PRINT against the 1PM 8/27 7Y. Full working → `analysis/2026-08-27_MATRIX_V2-adoption_and_8-25-27-cluster-grade.md`; `KB-BND-173`.
 
@@ -104,9 +108,18 @@
 
 | Snapshot date | Tenor | 15th pctile (of competitive accepted) | trailing-12 min | **bar − min** | 15th pctile (of offering, for reference) |
 |---|---|---:|---:|---:|---:|
-| 2026-08-27 | 2Y | **55.75** | 50.91 | **+4.84pp** | — |
+| 2026-08-27 | 2Y | ~~**55.75**~~ | ~~50.91~~ | ~~**+4.84pp**~~ | — | ⚠️ **FRN-CONTAMINATED (found 9/2)** — clean same-date value 54.82 / 53.21 / +1.61pp. Left struck, not deleted: §3d audit rule says the snapshot IN FORCE on an auction date governs, and the 8/25 2Y (66.01) clears both bars by >11pp so no verdict moves. |
 | 2026-08-27 | 5Y | **59.48** | 59.24 | **+0.24pp** | — |
 | 2026-08-27 | 7Y | **57.24** | 56.42 | **+0.82pp** | 57.15 |
+| **2026-09-02** | **2Y** | **54.82** | 53.21 | +1.61pp | 54.17 |
+| **2026-09-02** | **3Y** ← 9/8 | **58.90** | 56.50 | +2.40pp | 58.65 |
+| **2026-09-02** | **5Y** | **60.27** | 59.24 | +1.03pp | 60.16 |
+| **2026-09-02** | **7Y** | **57.24** | 56.42 | +0.82pp | 57.15 |
+| **2026-09-02** | **10Y** ← 9/9 R | **65.05** | 63.95 | +1.10pp | 64.88 · reopening-only alt **66.32** |
+| **2026-09-02** | **20Y** | **61.72** | 55.17 | +6.55pp | 61.10 · reopening-only alt 64.66 |
+| **2026-09-02** | **30Y** ← 9/10 R | **62.93** | 59.95 | +2.98pp | 62.83 · reopening-only alt **60.28** |
+
+★ **BASE-RATED 2026-09-02 (the Will-ruled 9/4 deliverable, early): `I'` fires 15.6–28.1%/auction by tenor out-of-sample (23.2% pooled, 13× the OLD conjunctive test's 1.8%) with NO TLT-5d separation — fires hit 50.0% vs 53.2% base, median +0.14% vs −0.12%, and deeper margins do WORSE (≤−3pp: 31.6%). P(≥1 fire across 9/8–9/10) ≈ 49%.** As the 🟠 vector marker it stands; as the thesis-KILL leg it cannot discriminate — **Will-gated question raised, nothing moved** (`analysis/2026-09-02_MATRIX_V2_per-tenor-base-rating.md` §5, `KB-BND-222`). Tool: `monitors/matrix_v2_base_rate.py`.
 
 🔴 **READ THE `bar − min` COLUMN — it is the finding, and the adoption did not predict it.** The new rule is meant to be a *looser, better-calibrated* bar than the old trailing-12 min. **At the 2Y it loosens by 4.84pp; at the 5Y by 0.24pp — i.e. at the 5Y it is barely a change at all**, because that tenor's trailing-12 indirect distribution is bunched hard at its bottom. **One rule, three effective strictnesses.** ⇒ **The Will-ruled 9/4 base-rating MUST report hit-rate and separation PER TENOR; a pooled figure would average three different rules.** `KB-BND-174`.
 

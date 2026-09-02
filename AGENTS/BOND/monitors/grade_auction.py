@@ -70,6 +70,39 @@ def _f(x):
 
 
 CORPUS = __import__("pathlib").Path(__file__).resolve().parent.parent / "data" / "auction_history_v2_prome-spawned.csv"
+FRN_CACHE = CORPUS.parent / "frn_cusips_ta_ws.json"
+FRN_SEARCH = "https://www.treasurydirect.gov/TA_WS/securities/search?type=FRN&format=json"
+
+
+def frn_cusips():
+    """CUSIPs of every 2-Year FLOATING RATE NOTE TreasuryDirect has auctioned.
+
+    ⚠️ 2026-09-02: FRNs carry securityType "Note", originalSecurityTerm "2-Year" and
+    securityTerm "2-Year" (new) / "1-Year 11-Month" (reopening) — i.e. they are
+    INDISTINGUISHABLE from nominal 2Y notes on every field this tool keyed on, and the
+    corpus has no floating flag at all. Every 2Y bar this desk published through
+    2026-08-27 (indirect MIN 50.91, dealer MAX 49.09, I' 55.75) was set by FRN prints
+    (the 3/25 print is a 2Y FRN reopening: indirect 50.91 / dealer 49.09). FRN buyer
+    composition is structurally different (dealer 27-62%, directs ~0), so pooling them
+    measures a SUPERSET of the instrument the composition test is about
+    ([[finding_instrument_measures_a_superset_of_the_thesis_subject]]).
+    Live pull from TA_WS `type=FRN`; local cache is the fallback and is refreshed on
+    every successful pull. A failed pull WITH no cache raises — a silent empty set would
+    re-admit the contamination and report clean.
+    """
+    try:
+        rows = _get(FRN_SEARCH)
+        cus = sorted({r["cusip"] for r in rows if r.get("cusip")})
+        if cus:
+            FRN_CACHE.write_text(json.dumps(cus))
+            return set(cus)
+    except Exception as e:  # noqa: BLE001
+        print(f"[grade] ⚠️ FRN list pull failed ({e}); using cached {FRN_CACHE.name}", file=sys.stderr)
+    if FRN_CACHE.exists():
+        return set(json.loads(FRN_CACHE.read_text()))
+    raise RuntimeError("no FRN CUSIP list (live pull failed and no cache) — refusing to build 2Y benchmarks over a pool that may contain FRNs")
+
+
 TERM_MAP = {"2Y": "2-Year", "3Y": "3-Year", "5Y": "5-Year", "7Y": "7-Year",
             "10Y": "10-Year", "20Y": "20-Year", "30Y": "30-Year"}
 
@@ -93,6 +126,8 @@ def _from_ta_ws():
               file=sys.stderr)
     for r in rows:
         if r.get("securityType") not in ("Note", "Bond"):
+            continue
+        if r.get("floatingRate") == "Yes":   # 2Y FRN — not a nominal 2Y (2026-09-02)
             continue
         ind, dir_, pd_ = (_f(r.get("indirectBidderAccepted")),
                           _f(r.get("directBidderAccepted")),
@@ -120,8 +155,13 @@ def _from_corpus():
         print(f"[grade] ⚠️ corpus missing at {CORPUS}; benchmarks will be TRUNCATED.", file=sys.stderr)
         return []
     out = []
+    frn = frn_cusips()
+    dropped = 0
     with open(CORPUS, encoding="utf-8") as fh:
         for r in _csv.DictReader(fh):
+            if r.get("cusip", "") in frn:   # 2Y FRN rows filed under tenor 2Y (2026-09-02)
+                dropped += 1
+                continue
             comp = _f(r.get("total_competitive_accepted"))
             pd_ = _f(r.get("primary_dealer_accepted"))
             dir_ = _f(r.get("direct_bidder_accepted"))
@@ -138,6 +178,8 @@ def _from_corpus():
                         "offering": _f(r.get("offering_amt")) or 0.0, "comp": comp,
                         "ind": 100 * ind / comp, "dir": 100 * dir_ / comp,
                         "dlr": 100 * pd_ / comp, "src": "corpus"})
+    if dropped:
+        print(f"[grade] corpus: {dropped} FRN row(s) EXCLUDED from the 2Y pool (floating-rate notes are not nominal 2Y)", file=sys.stderr)
     return out
 
 
