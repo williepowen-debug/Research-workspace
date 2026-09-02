@@ -148,8 +148,12 @@ Maintain in STATUS.md. Four categories required:
 
 ### 1. Thesis Kill (exit 100% private credit overlay)
 - Fed announces emergency lending facility for private credit vehicles
-- HY OAS reverses below 260bps for 10+ sessions [ref LIQUID]
 - Major private credit fund reports default rate declining 2 consecutive quarters
+
+> 🔴 **RE-SPEC'D 2026-09-02 under WQ-106 (Will-ruled 2026-09-01 17:22 ET, *"approve all of those with your recs"*; record `PROME/proposals/2026-09-01_wq-batch-RULED.md` row 106; packet `inbox/processed/2026-09-01_from-PROME_WQ-106-116-RULED-...md`).** The former third kill leg — *"HY OAS reverses below 260bps for 10+ sessions"* — **is NO LONGER A KILL. It is an OBSERVABLE.**
+> - **THE kill on the 260 level is the registry 2-close `GATE-HY-REKILL`** (LIQUID owns the series and the count). Every other count on that level, mine included, is confirmation — never an independent exit authority.
+> - **BROCK's observable, as re-spec'd:** *HY OAS closes <260 for 10+ sessions ⇒ confirmation that the registry kill held.* It authorises **no** position action on its own.
+> - **Why:** my own 8/28 base-rate memo (`domain/sources/2026-08-28_SESSION_CATCHUP_ADJUDICATIONS.md` §1③) measured `<260` closing **exactly once in three years (n=787, 259 on 2025-01-22), longest run 1 session, 3-consecutive zero times** — a kill that was never reachable in its own sample. **A label was corrected on Will's word; no threshold was moved.**
 
 ### 2. Position-Specific
 - APO reclaims $130 sustained (3+ sessions) → reassess puts
