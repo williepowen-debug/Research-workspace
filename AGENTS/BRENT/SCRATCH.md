@@ -1,69 +1,56 @@
-# BRENT SCRATCH — Tue Sep 1, 2026 ~17:5x ET ⚡ COMBINED-TOUCH BLOCK PREPENDED (read first) · the 8/31 touch block + 8/28 handoff stand below
-
-> ## ⚡ COMBINED TOUCH 2026-09-01 Tue ~17:5x ET (PROME-orchestrated FALCON+BRENT, Tier 1 — WALTER rule-6b doorbell on `SIG-W-20260901-005`; markets CLOSED, 9/1 close = last tape, next referent Wed 9/2 open)
-> - 📈 **TAPE (named contracts, yfinance daily CLOSES, no ICE settle reachable):** `BZX26` **$95.22** (+$4.73 / +5.23%) · `BZZ26` 91.80 · `BZF27` 88.88 · `CLV26` 90.68 (barchart settle `90.22s`) · `CLX26` 88.09 · USO 141.00 · XLE 64.77 · VIX 16.34. **$100 posture: $4.78 / 5.0% away.** ⛔ `BZ=F` still banned for deltas.
-> - 📐 **M1−M3 `X26−F27` = +$6.34 on closes — steepest of the leg** (+3.56 [8/26] → +3.94 [8/28] → +4.34 [8/31] → +6.34); prompt-scarcity repricing, not parallel. **Physical-vs-paper UNMEASURED for 9/1** (FRED `DCOILBRENTEU` newest 8/25 $88.24 ≈ flat vs V26); matched read ~9/8.
-> - ⚖️ **`BRT-30` CHECKED NOT GRADED** — resolves on a DATE (10/26) vs the circular number; own curl: `JWLA-034` still newest, both areas listed; ≥035 SEARCH-NOT-FOUND. Registry `last_verified` → 9/1 (boot BLOCKING cleared). **Regime verdict CONFIRMED in direction: paper re-converged on physical; still PREMIUM, not supply-loss.**
-> - ⚖️ **Will question ANSWERED + ROUTED: campaign + 2 VLCC hits = SAME EVENT CLASS RE-CLEARING under the frame-breaker letter (no destroyed capacity / no sinking / FAL-01 negative). NO new arm; 8/4 decline NOT re-surfaced.** New-class triggers pre-stated: GATE 2 (mine/sinking) or FAL-01 hit ⇒ carve-out deploys on leg (b) alone.
-> - 📋 **DOCKET L198 dispositioned → CATALYSTS `2026-09-08` mirror row:** ① Sidi Kerir lag test RUN direction-only (Kpler: ~2.3 mb/d Aug vs ~1.0 Jul — NO lagged fall ⇒ westbound rerouting, not constraint) · ② PortWatch control UNDERPOWERED as specified, RE-SPECIFIED on *Sidr*/*Senegal Prosperity* in the strait 8/31 (grade on the 8/31 print ~9/5–9/8: `capacity_tanker` ≥~500k vs <250k) · ③ done 8/13.
-> - ⚖️ **WQ-112 applied to `BRT-26`: scoring mark 58% [7/28]** (commit `09d0ea03e` evidences the date); field + CHANGELOG.
-> - 📅 **9/1 Russia diesel test Q1 = UNKNOWN-AT-PRIMARY, reported NEGATIVE** (decree ~8/29 extends producer-direct ban to 9/30 — carve-out never opened; primaries 403). First read 9/8 stands.
-> - 📬 **Inbox 3/3 drained** (WALTER -005 acted, -002 noted, PROME WQ-112 acted). COR-20260828-01 receipted APPLIED. TRACKER block re-stamped SCOPED-PARTIAL.
-> - ⏳ **NEXT:** Wed 9/2 WPSR (wk-8/28; lines 1–6) · Fri 9/4 BH (picker FIRST — primary 403 tonight) + COT as-of 9/1 · Sun 9/6 OPEC+ frozen letter · ~9/8 the three re-dated reads (L198 ①②, diesel Q1 decree text, matched Dated-Brent) · Wed 9/9 SPR test. **`$0` moved; no BRT graded/re-armed; no threshold moved; no position action.**
-
-
-> ## ⚡ SCOPED TOUCH 2026-08-31 Mon ~12:2x ET (PROME-orchestrated combined BRENT+FALCON touch — Kharg correction; the 8/28 handoff below is otherwise still the live handoff)
-> - 🔴 **KHARG WAS NOT STRUCK THIS WEEKEND.** The Monday routine's claim (committed `c377ca311`) is corrected: the artefact is **Trump's 8/30 Truth Social post with an AI-GENERATED video** (Reuters AI-detection); NIOC "laughable", loading (resumed 8/12) unchanged. **Larak strike 8/30 (CENTCOM), Jordan salvo Mon 8/31 (8 intercepted), and the +3.4-3.5% rally are REAL.** UAE leg DENIED by UAE MoD. Full record: `demand_destruction/data/monday_2026-08-31.md` §DATED CORRECTION (C1–C8) + TRACKER 8/31 row annotation. **Kharg supply-side registry-line flag CLOSED: NOT OPENED, event did not occur.**
-> - ✅ **The 8/31 roll item below is DONE:** BZV26 off the board; **front re-pinned `BZX26` (Nov); M1−M3 = `X26−F27` = +$4.35 live ~12:1x ET** (successor basis +$4.32 [8/28] confirmed). ⛔ `BZ=F` printed a WRONG-SIGN roll-spanning delta today — never quote it. `^SKEW` stale 8/28.
-> - ✅ **JWC: `JWLA-034` still newest** (WebSearch 8/31, SEARCH-NOT-FOUND ≥035) — BRT-30 instrument unmoved, row NOT graded.
-> - 📐 **ADOPTED: series+source+window tag on every Hormuz transit figure** (WALTER four-series table, `SIG-W-20260831-002`). "~5/day weekend" was a 7/15–8/23 six-week average; USNI 8/28: transits UP. Pause arithmetic corrected: **~32 nights 7/29→8/30** (supersedes "~26 through 8/25").
-> - 📬 **Inbox drained 5/5** (PROME dead-pointer → NEXUS_BRIEF path qualified, TRADE.md:454 was already correct; SIG -042 VIX-print, -049 ERCOT, -20260831-001/-002) — logged + archived.
-> - ⛔ **NOT this touch (fences held):** no BRT-xx graded/re-armed, no threshold moved, no GATES/DOCKET edit, no position action, no EIA/COT/rigs pulls (their next prints are 9/2–9/4). $0 moved.
+# BRENT SCRATCH — Wed Sep 2, 2026 ~18:0x ET
 
 **Purpose:** Ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
 > # ⛔ READ FIRST — THE THREE THINGS THAT CHANGE HOW YOU WORK TOMORROW
 >
-> **① `BZ=F` ALONE IS NOT A CITABLE IDENTIFIER ON THIS DESK.** Yahoo's DAILY and INTRADAY series for one ticker **rolled Oct→Nov on different dates** and disagreed for three sessions. **Every Brent figure NAMES (a) the CONTRACT and (b) the BASIS (close vs live bar).** Canonical BZV26 closes: **8/20 `93.78` · 8/21 `94.39` · 8/26 `87.84` · 8/27 `89.70`.**
-> **② THE BAKER HUGHES URL ROTATES.** BH minted a new uuid for the 8/28 report while **the old one kept serving the 8/21 file at HTTP 200** — so both hash monitors reported "unchanged" forever. **RUN THE URL PICKER FIRST AT EVERY RIG GRADE** (recipe in the `2026-08-28` CATALYSTS row): HEAD every uuid on `na-rig-count`, **pick by the DATE in `content-disposition`, NEVER by link text** — that index also lists the year-stale `e98bcf83` archive whose link *also* says "New Report".
-> **③ THE REGIME VERDICT IS NARROWER THAN IT WAS THIS MORNING.** Goldman puts Hormuz flows at **2/3 of pre-war (~59/day vs the retired falsifier's >35 bar)**. **Throughput impairment is DEAD as a claim.** The live claim is **"the barrels move, and the risk of moving them has not re-rated"** — carried by the **insurance** and **delivered-cost** legs only.
+> **① BASIS DISCIPLINE IS NOT A SOLVED PROBLEM ON THIS DESK — IT FAILED TWICE IN ONE DAY.** Every Brent figure NAMES **(a) the CONTRACT** and **(b) the BASIS (settled close vs live intraday bar)**. On 9/1 I wrote a 17:5x live bar (`$95.22`) into STATUS as a *close*; the settled close was **`$94.65`**. I corrected that this morning — **and then reproduced the identical defect four hours later**, putting a 15:05 bar (`M1−M3 +$6.72`) into a ladder whose other rungs were all closes (true close figure **`+$6.43`**). ★ **Writing the guard is not obeying it. Only re-pulling on ONE declared basis caught the second one.** Canonical `BZX26` closes: **8/26 `86.94` · 8/28 `88.10` · 8/31 `90.49` · 9/1 `94.65` · 9/2 `95.23`.** ⛔ `BZ=F` still banned for deltas.
+> **② THE BAKER HUGHES URL ROTATES *AND* THE PRIMARY IS NOW 403-ING.** Picker first at every rig grade: HEAD every uuid on `na-rig-count`, **pick by the DATE in `content-disposition`, NEVER by link text** (the index also lists a year-stale archive whose link also says "New Report"). ⚠️ **NEW: `instrument_check` has probed `BRT-26-RIGS` DEAD (HTTP 403) on BOTH 9/1 and 9/2.** `curl` cannot reach the BH primary from this box; **`urllib` can.** Budget time for that before Friday's print.
+> **③ THE REGIME VERDICT IS A PROMPT SQUEEZE, NOT A BULL MARKET.** Throughput impairment is **DEAD** as a claim I may carry (Goldman `~2/3` of pre-war ≈ `59/day` vs the retired `>35/day` bar). What survives: **"the barrels move, and the risk of moving them has not re-rated"** — insurance + delivered-cost legs only. **`$100` is NOT a live threshold — it fired 7/23. The next registered rung is `$120` and it needs a NEW event class.**
 
 ---
 
 ## ✅ WHAT THIS SESSION DID
 
-**BOTH FRIDAY GRADES TAKEN ON THEIR OWN PRINTS, ZERO LATENCY.**
-- **`BRT-26` @ 8/28: `447` oil rigs, `−5`, NOT BREACHED, distance `5 → 10`.** ★ **Reclassification, not retreat** — gas +5 exactly offsets oil −5, US total flat 588, **Horizontal +2 → 535 (series high)**. No rigs left the field; **BRT-04's shale-non-response is STRENGTHENED.**
-- **COT #3 @ as-of 8/25: shorts `112,862` / OI `1,906,740` / share `5.9191%` ⇒ Leg A NO-VERDICT · Leg B NOT-SPENT ⇒ JOINT NO-VERDICT, base-case sizing.** ★ **Leg A REVERTED from its first-ever SPENT exactly as the 8/21 note predicted** ("razor-thin, 0.12 median units; a ~1% move flips it back") — **REVERT semantics validated on their first real test.**
+**Boot → Will POV → STATUS/TRADE write → full closeout. `$0` moved, no `BRT-xx` graded, no threshold or gate touched.**
 
-**REGIME VERDICT + `BRT-30`** (80%, resolves 2026-10-26: no circular ≥`JWLA-035` removes the Gulf or Gulf of Oman) · **BZ endpoint reconcile CLOSED** at `BZV26 $87.84`, `−6.94%` certified · **DR-4 re-rate: softening REFUTED, my own 77–80% superseded → `~70–76%`** · **`gie_pull` cadence wired** · **CUSHING-20M false-red killed** (new `eia:` probe grammar) · **STATUS 147,545 → 44,674 B** across two Will-approved rotations · **INBOX 18 → 0.**
+- **Inbox 3 → 0.** All three WALTER signals logged + archived. **`SIG-W-20260901-011` (Edouard) ACTED — I closed the question WALTER deliberately left open:** Valero Port Arthur (385 kb/d) partial blackout Tue night, smaller **AVU-147 CDUs SHUT**, larger **AVU-146 at minimum runs**; **Motiva (656.4 kb/d), Exxon Beaumont, TotalEnergies (238 kb/d) ALL NORMAL** [Reuters via TradingView/oedigital + qcintel 9/2]. **Run-cut CONFIRMED but NARROW.** `-010` Ust-Luga and `-014` Iran declaration noted (other desks' action).
+- **WPSR wk-8/28 pulled twice, independently, agreeing to the decimal** (my 15:19 pull + the 11:3x autonomous routine): commercial **424.5M (−4.45M)** · SPR **286.604M (−3.12M)** · Cushing **22.51M (+0.08M)** · **refinery util 98.0% 🔴 leg high** · gasoline demand YoY **−1.61%** (deepening).
+- **THESIS v5.7 → v5.8 (minor): THE TIMED RACE RE-CLOCKED AND ONE OF ITS TWO CLOCKS REVERSED.** vs the June wk-6/12 calibration: combined draw **−17.2M/wk → −7.57M/wk (44% of pace)**; **Cushing 20.03M AT the floor → 22.51M, REBUILT +2.5M, moving AWAY.** ⇒ the up-whipsaw branch is **DE-CLOCKED, not refuted.** **The SPR is the only buffer still counting: `34.2M` over the `252.4M` statutory floor at −3.12M/wk ≈ `11 weeks` ⇒ ~mid-November 2026.** CHANGELOG entry written.
+- **TRADE.md first mark refresh in 6 days** (Will-asked). Four legs **$6,442.48 → $7,829.95 (+21.5%)**, driven almost entirely by the Oct-16 135C (+68.9%). **`N_eff = 1` unchanged — the gain is ONE factor working, not four.**
+- **`consumer_check` on the 9/1 correction ⇒ 9 🔴 on live surfaces.** Packets sent to **WALTER** (4 hits) and **PROME** (2 hits, one written TODAY at 13:4x = live propagation). Dated TSV history rows deliberately EXCLUDED.
+- **TRACKER registered-alert-lines block: lines 7–11 refreshed, 1–6 verified current.**
+
+## 🔴 THE FINDING THAT IS BIGGER THAN THIS SESSION
+
+**`demand_destruction/TRACKER.md` lines 7 (rigs) and 8 (COT) sat a FULL PRINT STALE FOR FIVE DAYS.** Both were graded on 8/28 with zero latency and written to STATUS — **and neither was written back to the block THREE CLOUD ROUTINES READ AT RUN TIME.** ★ **Both autonomous routines (8/26, 9/2) re-stamped SCOPED-PARTIAL correctly and correctly scoped themselves to lines 1–6. The routines did their job. NOTHING OWNED THE HOP from "grade taken" to "machine-read block updated."** `[[finding_transfer_completes_only_when_the_receiver_encodes]]` — flagged to PROME as **plausibly fleet-wide**: any desk whose grades feed a machine-read surface has the same unowned hop.
 
 ## ⏳ NEXT SESSION (dated, future-verifiable)
 
 | when | what |
 |---|---|
-| **Sun 8/30** | **Jazan restart** (400 kb/d, shut 7/27). Verify at a primary; `INCIDENTS.tsv` only on facility evidence. |
-| **~Mon 8/31** | ⚠️ **`BZV26` EXPIRES.** M1−M3 on V/X/Z dies. **Successor basis already recorded: `X26−F27 = +$4.32` [8/28].** Do this BEFORE the next curve write. |
-| **Tue 9/1** | **Russia diesel producer-direct carve-out — DECISION TEST PRE-REGISTERED** (`CATALYSTS` 9/1 + artifact §D). **Graded ONLY on a published INSTRUMENT** — the 7/31 failure was grading off a minister's guidance. Discriminator: **carve-out in force + crack still >$100 ⇒ the ban was never the binding constraint.** OSPREY cc'd. |
-| **Fri 9/4** | Next BH print. **Picker first.** Ladder 447; needs +2.5/wk to breach. |
-| **Sun 9/6** | **OPEC+ Q4 quota — FROZEN LETTER PRE-REGISTERED** (`CATALYSTS` 9/6 + artifact §C). Three outcomes fixed; **graded on the STATEMENT, never delegate sourcing** (the 8/2 error). ⚠️ **LESSONS #10 deliverability gate: at ~0.02 mb/d effective spare a quota INCREASE is close to a paper event.** |
-| **Tue 9/8** | Canadian counter-tariffs (~$28B). S338 energy status stays **UNKNOWN-AT-PRIMARY**. |
-| **Wed 9/9** | SPR exchange window test — first EIA prints covering September. |
+| **Fri 9/4** | 🔴 **THE FRIDAY PAIR — both now have a CATALYSTS row (they had none).** Baker Hughes ~13:00 (**picker FIRST; primary 403 on 9/1 AND 9/2 — use `urllib`**); ladder 447, needs **+2.5/wk** over 4 prints vs a negative pace. COT as-of **Tue 9/1** ~15:30 (`f_disagg.txt` primary, not Socrata). ⛔ **DO NOT LET THEM STACK.** |
+| **Sun 9/6** | 🔴 **OPEC+ Q4 — FROZEN LETTER pre-registered.** Graded on the STATEMENT, never a relay (the 8/2 error). ⚠️ At ~**0.02 mb/d** effective spare a quota INCREASE is close to a paper event. |
+| **~Tue 9/8** | DOCKET L198 ①② re-dated reads · Russia diesel Q1 decree text · matched Dated-Brent physical-vs-paper. |
+| **Wed 9/9** | 🔴 **SPR exchange-window test** — AND the **row is now EXTENDED**: the same wk-9/4 WPSR is the **first instrumented read of Edouard**. **Pre-registered so it cannot be fitted after the fact:** >~1pp utilization fall ⇒ the outage was **under-disclosed**; flat-to-−1pp ⇒ the narrow read was right. |
+| **Fri 9/18** | 🔴 **USO 150/165 spread EXPIRY — now has a CATALYSTS row (it had none, despite being the earlier of the two expiries and the one under active question).** |
+| **Wed 9/30** | XLE 65C expiry · `BRT-12` and `BRT-29` both resolve. |
 
-## 🔓 OPEN THREADS / DEBT — named, not cleared
+## 🔓 OPEN THREADS / DEBT
 
-- 🔴 **READ-CAP (new root canon, Will-approved today, 32,550 B budget):** `board_log.tsv` **511% OVER THE CAP** · `TRADE.md` **320% OVER** · `LESSONS.md` 90% · `STATUS.md` 82%. ⛔ **`board_log` is boot-read AND I appended 14 rows to it today** — every row that made the session auditable made the ledger less readable. **NOT fixed: it is the mail protocol's reconcile surface, so a hot/cold split is a DESIGN change, not a closeout sweep. Returned to PROME/DAEDALUS.**
-- ⚠️ **`INCIDENTS.tsv` — 19 STATUS-writes behind; 12 ACTIVE rows past the 60d re-verify budget** (oldest RF-004 at 162d) + 6 present-tense rows the budget doesn't cover. **The one real ledger debt.** Needs primary-source verification of 12 facility statuses — a research job. **Not frozen: live and correct, just under-verified.**
-- ⚠️ **`catalyst_countdown.py` fork lacks OTTO's fired-row rule** (0 `fired` refs) — today I marked TWO rows FIRED and nothing keeps them visible for the sweep. DAEDALUS flag accepted; **a boot-path script edited late and unfalsified is the defect shape I spent today finding.**
-- ⚠️ **WILL-GATED, unchanged:** the `TRADE.md` cut (five sections) + the byte-tier declaration/boot-wiring — DAEDALUS's second commit.
-- **BRT-26 Confidence is now a dated history** (`60% [5/31] → ~58% [re-marked 7/28, field updated 8/28]`) per PROME's re-taken ruling. ⛔ **The fleet canon contains NO scoring-vintage rule** — returned to PROME.
-- **TERRY:** decoupling-vs-XLE falsifier slot NAMED BUT EMPTY on a filled position. Top open item.
-- **Energy HY OAS: PERMANENTLY UNMEASURED** here; LIQUID owns the systemic leg.
+- 🔴 **READ-CAP — NOW THREE SURFACES OVER, WAS TWO.** `board_log.tsv` **536%** · `TRADE.md` **320%** · **`STATUS.md` 101% (crossed during the 9/1 session; today's writes added to it).** ⛔ **Remedy is a Will-approved rotation, not a closeout trim. Re-flagged to PROME today.**
+- 🟠 **`XLE Sep-30 65C ×2` CHANGED CHARACTER AND NOBODY RE-ASKED.** Its **LAPSE** disposition was set when it was dying at 4.1% OTM / −59%. It is now **0.1% ITM at XLE $65.10, delta 0.539, P(ITM) 51.1%, mark −25.8%.** **A LAPSE call on a coin-flip is a different decision from a LAPSE call on a corpse.** Flagged to Will/TERRY; **not re-dispositioned by me.** `[[finding_dated_carry_item_has_no_expiry_check]]`
+- 🟠 **Root `CLAUDE.md` § DOMAIN SCOPE carries `~$5,131 at market` [8/4 broker vintage] — now ~$2,700 light** vs my $7,829.95 pull. **Will-gated file, outside my commit boundary — routed to PROME, not edited.**
+- ⚠️ **`INCIDENTS.tsv` — 12 ACTIVE rows past the 60d re-verify budget** (oldest RF-004 at 167d) + 6 present-tense rows the budget doesn't cover. **The one real ledger debt; a research job, not a sweep.** ⛔ **Ust-Luga 9/1 NOT logged: no facility damage, no throughput loss and no operator/tank specifics were established — a fire in a port area is not facility damage evidence** (LESSONS #1). HAWK owns the cross-theater ledger; check `AGENTS/HAWK/` before ever logging it.
+- ⚠️ **`catalyst_countdown.py` fork still lacks OTTO's fired-row rule** (0 `fired` refs).
+- ⚠️ **`NEXUS_BRIEF.md` is `234` lines against its provisional `100`-line cap — it was ALREADY `215` before this session and I added `19`.** Per its own rule the compression comes **upward from FORWARD CATALYSTS/VIEW**, protecting CROSS-DOMAIN + CALIBRATION-divergence. **Not done today — flagged rather than hidden;** the overflow is dated 8/28–8/31 retained history, so the cut is a rotation decision, not a trim.
+- **TERRY:** decoupling-vs-XLE falsifier slot NAMED BUT EMPTY on a filled position. Top open item, unchanged.
+- **Energy HY OAS: PERMANENTLY UNMEASURED here;** LIQUID owns the systemic leg.
 
 ## 💼 POSITIONS
 
-**NONE PROPOSED. `$0` moved all session.** Book unchanged: **USO 35 shares · USO Oct-16 135C ×2 · USO Sep-18 150/165 spread · XLE Sep-30 65C ×2.** `TRADE.md` canonical; **marks NOT refreshed — no decision point arose, and RISK_RULES #5 pulls the chain AT a decision point, not on a schedule.** TERRY's concentration flag: **falsifier MOVING, not FIRED.**
+**NONE PROPOSED. `$0` moved.** **USO 35 sh · USO Oct-16 135C ×2 · USO Sep-18 150/165 ×1 · XLE Sep-30 65C ×2.** `TRADE.md` canonical, **marks refreshed 9/2 post-close (first in 6 days)**. **The Sep-18 spread is the one leg my own thesis argues against** — ~19% to break even, $125 of $300 recoverable now, needs a spike that HOLDS while my read is spike-and-fade. **Disposition Will's, construction TERRY's.**
 
 ## 📬 MAIL
 
-**Inbox 0.** 18 items consumed, logged and archived this session. **Outbox clear.** Packets delivered: DEWEY · RED · WALTER ×2 · HAWK · SAM · PROME.
+**Inbox 0** (3 consumed, logged, archived). **Outbox clear.** **Packets sent this session: WALTER ×1, PROME ×1** (both the 9/1 close correction; PROME's also carries the root-`CLAUDE.md` stale-book-value flag, the read-cap re-flag and the TRACKER unowned-hop finding). The autonomous routine independently filed its own SPR packet to PROME at 11:3x — **checked for conflict, none; it agrees with my pull on every figure.**

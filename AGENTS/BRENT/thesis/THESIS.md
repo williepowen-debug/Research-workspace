@@ -1,7 +1,23 @@
-# BRENT THESIS — v5.7
+# BRENT THESIS — v5.8
 
-**Version:** 5.7 *(⚠️ **BOTH version fields moved together in one edit, 2026-08-21 — this field read `5.5` against a `v5.6` title for 8 days until it was corrected earlier the same day, so the two-clock drift is fresh enough to still be the thing to guard.** `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`)*
-**Last Updated:** 2026-08-21 (Fri — v5.7 **minor: THE CORRIDOR IS BEING TOLLED, AND THE TOLL IS NOW ENFORCED BY SEIZURE**). Prior: 2026-08-13 (Thu — v5.6 **minor: THE BYPASS WORKS, SO A TRANSIT COUNT IS NOT A BARREL COUNT**). Prior: 2026-08-12 (Wed — v5.5 **minor: v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH**). Prior: 2026-08-04 (Tue — v5.4 **minor: A DEAL IS NOT A REOPENING. THROUGHPUT IS THE TEST, NOT SIGNATURE**); 2026-08-02 (v5.3 minor, CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE); 2026-07-30 (v5.2 minor, the discriminator is MOLECULE-SCOPED); 2026-07-21 (v5.1 minor, Phase-1 re-squeeze REALIZED); 2026-07-06 (calibration note, no bump); 2026-06-29 (v5.0 **MAJOR: asymmetry flipped to upside-convex**).
+**Version:** 5.8 *(⚠️ **BOTH version fields moved together in one edit, 2026-08-21 — this field read `5.5` against a `v5.6` title for 8 days until it was corrected earlier the same day, so the two-clock drift is fresh enough to still be the thing to guard.** `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`)*
+**Last Updated:** 2026-09-02 (Wed — v5.8 **minor: THE TIMED RACE RE-CLOCKED ON ITS OWN BENCHMARK — draw pace at 44% of June, Cushing REBUILT +2.5M off the floor, and the SPR is the one clock still counting down (~11 weeks to the statutory floor, ~mid-Nov)**). Prior: 2026-08-21 (Fri — v5.7 **minor: THE CORRIDOR IS BEING TOLLED, AND THE TOLL IS NOW ENFORCED BY SEIZURE**). Prior: 2026-08-13 (Thu — v5.6 **minor: THE BYPASS WORKS, SO A TRANSIT COUNT IS NOT A BARREL COUNT**). Prior: 2026-08-12 (Wed — v5.5 **minor: v5.4 NOW HAS A PRICE SHADOW, AND IT IS NOT MADE OF PORTWATCH**). Prior: 2026-08-04 (Tue — v5.4 **minor: A DEAL IS NOT A REOPENING. THROUGHPUT IS THE TEST, NOT SIGNATURE**); 2026-08-02 (v5.3 minor, CAPACITY-IRREVERSIBLE ≠ PRICE-IRREVERSIBLE); 2026-07-30 (v5.2 minor, the discriminator is MOLECULE-SCOPED); 2026-07-21 (v5.1 minor, Phase-1 re-squeeze REALIZED); 2026-07-06 (calibration note, no bump); 2026-06-29 (v5.0 **MAJOR: asymmetry flipped to upside-convex**).
+
+> # ⚑ **2026-09-02 — v5.8 (minor): THE TIMED RACE RE-CLOCKED ON ITS OWN BENCHMARK, AND ONE OF ITS TWO CLOCKS REVERSED.**
+>
+> **The `TIMED RACE` frame below is unchanged. What moved is the arithmetic that TIMES it — and it was calibrated on June figures that are now three months old.**
+>
+> | clock | June benchmark (wk-6/12) | **now (wk-8/28)** | verdict |
+> |---|---|---|---|
+> | combined crude draw | **−17.2M/wk** | **−7.57M/wk** *(−4.45 commercial + −3.12 SPR)* | **44% of the June pace — SLOWED** |
+> | Cushing | **20.03M, AT the operational floor** | **22.51M (+0.08 WoW, 2nd straight build)** | **REBUILT +2.5M — REVERSED** |
+> | SPR | 340.3M, −8.9M/wk no throttle | **286.604M, −3.12M/wk** | **still counting: `34.2M` over the `252.4M` statutory floor ≈ `11 weeks` ⇒ ~mid-November 2026** |
+>
+> ⇒ **The up-whipsaw branch (*buffers empty first while the reopening stalls*) is NOT refuted — it is DE-CLOCKED.** It sits further out in time than the June calibration implied, and **the SPR is now the only buffer on a measurable countdown.** ⛔ **Do not read "the race slowed" as "the deficit closed": the market is still drawing, refiners are at a `98.0%` leg high, and `M1−M3` printed a new leg high `+$6.43` [9/2 closes].**
+>
+> ⚠️ **The honest counterweight, recorded in the same breath:** gasoline demand is `−1.61%` YoY and deepening; **throughput impairment is dead as a claim** (Goldman `~2/3` of pre-war ≈ `59/day` vs the retired `>35/day` bar); and **the tape has faded three escalation headlines this leg.** **The desk read is a PROMPT SQUEEZE, not a bull market — `~70%` front-month bid into mid-Sept, `~25–30%` sustained `>$100` through end-Sept.** **Registered falsifiers: `M1−M3` back under `+$3.50`, or Cushing building two more weeks on a halving draw pace.**
+>
+> **`$0` moved. No `BRT-xx` graded. No threshold or gate touched.** *(Full data + basis discipline → `STATUS.md` § CURRENT STATE 9/2 block; entry → `CHANGELOG.md`.)*
 
 > # ⚑ **2026-08-21 — v5.7 (minor): THE CORRIDOR IS BEING TOLLED, AND THE TOLL IS NOW ENFORCED BY SEIZURE.**
 >

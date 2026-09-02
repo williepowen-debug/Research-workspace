@@ -8,6 +8,18 @@ Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each ent
 
 ---
 
+## 2026-09-02 (Wed) — **v5.7 → v5.8 (minor): THE TIMED RACE RE-CLOCKED ON ITS OWN BENCHMARK, AND ONE OF ITS TWO CLOCKS REVERSED.**
+
+- **What changed:** the v4.4/v5.7 core frame is a **race between two clocks** — *the deficit closing* vs *the buffers hitting their hard floors* — and it was calibrated on **June wk-6/12 figures: combined draw `−17.2M/wk`, Cushing `20.03M` AT the operational floor.** WPSR **wk-8/28** (own EIA v2 pull 15:19 ET 9/2, independently reproduced by the 11:3x autonomous routine on every figure) re-measures both clocks.
+- **Old view:** buffers are emptying fast and Cushing is through its operational floor; the up-whipsaw branch (*buffers empty first while the reopening stalls*) is live and near.
+- **New view:** **the draw is still real but running at `−7.57M/wk` = `44%` of the June pace, and Cushing has REBUILT `+2.5M` to `22.51M`, moving AWAY from the 20M line.** ⇒ **The race slowed and the Cushing clock reversed outright.** The up-whipsaw branch is **further away in TIME than the June calibration implied** — it is not refuted, it is **de-clocked**.
+- **What SURVIVES unchanged:** the **SPR** clock. `286.604M` vs the `252.4M` statutory floor = **`34.2M` of runway at `−3.12M/wk` ≈ `11 weeks`, landing ~mid-November 2026.** That is the one buffer still on a measurable countdown, and it is the date the frame now hangs on.
+- **Why MINOR not major:** no phase transition, no conviction reversal, no structural change. The frame is unchanged and the mechanism is intact; **the numbers that time it moved.** `[[finding_threshold_vs_mechanism]]`
+- **Corroborating this cycle (not independent of each other — all one curve fact):** `M1−M3 +$6.43` [9/2 closes], a new leg high; Dated Brent `RBRTE $96.02` [9/1] above the paper front. ⛔ **Spot above a deferred future is what backwardation MEANS — logged as ONE witness, not two.** `[[finding_crosscheck_with_free_parameter_validates_nothing]]`
+- **Cuts AGAINST the same read, recorded so the entry is not one-sided:** gasoline demand `−1.61%` YoY and deepening two prints running; throughput impairment already dead as a carryable claim (Goldman `~2/3` of pre-war ≈ `59/day` vs the retired `>35/day` bar, 8/28); **the tape has faded three escalation headlines this leg**, most recently a `$97.01` overnight print that closed at `95.23`.
+- **`BRT-12` (80%, resolves 2026-09-30) — evidence direction NOTED, row NOT graded:** it predicts the first Phase-2 credit warning appears as **crack-spread compression**. Refinery util printed a **new leg high `98.0%`** with diesel cracks **>$100** ⇒ **compression still ABSENT**, four prints running (96.2 → 97.2 → 97.4 → 98.0). Row stays OPEN to its own date; recorded here so the 9/30 grade is not taken off a blank record.
+- **No position action, no threshold moved, no gate touched. `$0`.**
+
 ## 2026-09-01 — BRT-26 confidence field: WQ-112 applied (no thesis version change)
 - **Old view:** Confidence field `60% [Date_Made 2026-05-31] -> ~58% [re-marked 2026-07-28 per grade-note; field updated 2026-08-28]` with no fleet rule on which value scores.
 - **New view (Will 2026-09-01 17:22 via PROME, WQ-112):** the LATEST dated pre-resolution mark in the machine field governs scoring ⇒ **58% [7/28] scores**; 60% [5/31] retained and reported separately as first-call calibration. The 7/28 re-mark is evidenced as written that day by commit `09d0ea03e` (2026-07-28) and was entered in the field with its date on 8/28 (`8297c1314`). Intermediate narrative marks (Jun-1 ~50, Jun-7 52–55, Jun-20 ~55, Jul-1 50–55) are superseded, not scoring marks.
