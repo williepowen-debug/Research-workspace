@@ -452,7 +452,13 @@ def check_g(tsv, tsv_path):
         conf = v["confidence"]
 
         # G1 — conjunction
-        if " AND " in text and len(NUMERIC_BAR.findall(text)) >= 2 \
+        # ⚠️ 2026-09-01: the test used to be `" AND " in text` and MISSED a real
+        # conjunction (CRL-29) because this desk's house style bolds it: "**AND**".
+        # Markdown emphasis is stripped before the test, so `**AND**`, `*AND*` and
+        # `__AND__` all count. A tier-1 HARD gate that any emphasis mark defeats is
+        # not a gate. Found by registering CRL-29 and noticing G1 stayed silent.
+        text_plain = re.sub(r"[*_`]+", " ", text)
+        if re.search(r"\bAND\b", text_plain) and len(NUMERIC_BAR.findall(text)) >= 2 \
                 and "[conjunction-priced]" not in notes.lower():
             findings.append((sev, pid,
                 f"G1 CONJUNCTION{tag}: two+ thresholds joined by AND. P(A∧B) ≤ min(P(A),P(B)) — "
