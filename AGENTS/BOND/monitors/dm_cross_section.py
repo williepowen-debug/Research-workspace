@@ -141,6 +141,22 @@ def asof(series, target):
     return d, series[d], (t - date.fromisoformat(d)).days
 
 
+def coverage(series, start, end):
+    """Observation COUNT inside the window -- the check the endpoint guard cannot make.
+
+    STALE_ENDPOINT_DAYS only asks whether a leg's ENDPOINT falls back. It says nothing
+    about how densely the leg is observed BETWEEN the endpoints, and a two-point delta
+    reads identically off 15 observations and off 2. Unequal density is a property of
+    the SET, not of any member, so no per-series freshness check can see it -- the same
+    shape as the coverage-artifact bound this tool already warns about (KB-BND-207).
+
+    Prompted by SAM 2026-09-01: a derived ledger inherited a hole from its source
+    ledger, looked contiguous, and reported nothing. An absent row is invisible to a
+    range check, to a cross-source compare, and to a reader who knows the number.
+    """
+    return sum(1 for d in series if start <= d <= end)
+
+
 def main():
     start = sys.argv[1] if len(sys.argv) > 1 else "2026-08-13"
     end = sys.argv[2] if len(sys.argv) > 2 else date.today().isoformat()
@@ -163,11 +179,28 @@ def main():
             continue
         if fb is not None and fb > STALE_ENDPOINT_DAYS:
             stale.append(f"{name}: endpoint {d1} falls back {fb}d from {end}")
-        rows.append((name, d0, v0, d1, v1, round((v1 - v0) * 100, 1), fb))
+        rows.append((name, d0, v0, d1, v1, round((v1 - v0) * 100, 1), fb,
+                     coverage(s, start, end)))
 
-    print(f"{'Leg':<12}{'start':<13}{'value':>7}   {'end':<13}{'value':>7}   {'delta bp':>9}  lag")
-    for n, d0, v0, d1, v1, dl, fb in rows:
-        print(f"{n:<12}{d0:<13}{v0:>7.3f}   {d1:<13}{v1:>7.3f}   {dl:>+9.1f}  {fb}d")
+    print(f"{'Leg':<12}{'start':<13}{'value':>7}   {'end':<13}{'value':>7}   "
+          f"{'delta bp':>9}  {'lag':>4}  {'obs':>4}")
+    for n, d0, v0, d1, v1, dl, fb, nobs in rows:
+        print(f"{n:<12}{d0:<13}{v0:>7.3f}   {d1:<13}{v1:>7.3f}   {dl:>+9.1f}  "
+              f"{str(fb)+'d':>4}  {nobs:>4}")
+
+    # DENSITY — unequal observation counts make a two-point delta not like-for-like
+    if len(rows) > 1:
+        counts = [r[7] for r in rows]
+        lo, hi = min(counts), max(counts)
+        if hi and lo < 0.6 * hi:
+            thin = [f"{r[0]} ({r[7]} obs)" for r in rows if r[7] < 0.6 * hi]
+            print(f"\n⚠️ UNEQUAL COVERAGE INSIDE THE WINDOW — densest leg has {hi} obs, "
+                  f"thinnest {lo}.")
+            print(f"   Thin: {', '.join(thin)}")
+            print("   A two-point delta reads IDENTICALLY off 15 observations and off 2.")
+            print("   Matched endpoints do NOT make legs like-for-like if their interior")
+            print("   density differs — treat a thin leg's delta as lower-confidence and")
+            print("   NEVER let it set a min/max bound (that is the KB-BND-207 artifact).")
 
     if errs:
         print("\n🔴 LEGS THAT DID NOT RESOLVE (a missing leg is NOT a zero):")
@@ -193,7 +226,7 @@ def main():
     print(f"   spread (max-min)    : {max(ds)-min(ds):.1f}bp")
     same = all(d > 0 for d in ds) or all(d < 0 for d in ds)
     print(f"   common DIRECTION    : {'YES — every leg same sign' if same else 'NO — legs disagree in sign'}")
-    for n, _, _, _, _, dl, _ in rows:
+    for n, _, _, _, _, dl, _, _ in rows:
         rank = sorted(ds, reverse=True).index(dl) + 1
         print(f"     {n:<12} {dl:>+7.1f}bp   rank {rank}/{len(ds)}   "
               f"{'ABOVE' if dl > med else 'BELOW' if dl < med else 'AT'} DM median")

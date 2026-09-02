@@ -26,7 +26,7 @@
 | `DGS2` · `DGS5` · `DGS10` · `DGS30` | **2026-08-31** | ❌ 9/1 publishes 9/2 |
 | `DFII5` · `DFII10` · `DFII30` | **2026-08-31** | ❌ 9/1 publishes 9/2 |
 
-⇒ **The 9/1 session cannot be decomposed into real + breakeven tonight. I have one of the three legs.**
+⇒ **The 9/1 session cannot be decomposed into real + breakeven tonight. I have one of the three legs.** **`re-test: 2026-09-02`** — the H.15 split resolves on the next publication and `BND-21` is registered against it. **This is a same-day publication lag, NOT a data wall.**
 
 🔴 **AND I AM NOT INFERRING THE REAL LEG FROM A WIRE NOMINAL.** The wires put the 10Y at ~4.798–4.80 against `DGS10` 4.75 [8/31], which would imply nominal ≈ +5bp and therefore real ≈ +1bp against the published breakeven +4bp. **That arithmetic is basis-mixed** — a wire benchmark quote differenced against a FRED constant-maturity close — and **this desk has already paid for exactly that construction once**: T6's `>5.28` leg graded a `^TYX` intraday against a `DGS30` close and was unreachable by construction. **The number is quoted here as the reason for a confidence, never as evidence.**
 
@@ -73,7 +73,7 @@ A term-premium expansion requires the **long-end real to LEAD** — this desk's 
 
 ## 4. INTERNATIONAL — like-for-like, and the UK leg is unusable
 
-**8/26 → 8/31, endpoints matched where the primary allows:** EA AAA 10Y **+9.1bp** ≈ US 10Y **+9.0bp** · JP 10Y **+5.1bp** · ~~UK **+1.3bp**~~ **UNUSABLE — the BoE endpoint is 8/27, four days stale.**
+**8/26 → 8/31, endpoints matched where the primary allows:** EA AAA 10Y **+9.1bp** ≈ US 10Y **+9.0bp** · JP 10Y **+5.1bp** · ~~UK **+1.3bp**~~ **UNUSABLE — the BoE endpoint is 8/27, four days stale.** ⚠️ **`re-test: 2026-09-03`. This is a PUBLICATION LAG, not an unavailable source** — BoE IADB republishes daily and the leg pulled cleanly; saying "unusable" without the re-test would make it self-sealing, which is the class this desk has shipped three times.
 
 ⛔ **The min-across-legs bound is NOT quoted here**, because it would be **+1.3bp taken from the stale UK leg** — precisely the coverage artifact documented tonight in `KB-BND-207`. **A bound computed on mixed endpoints is a statement about publication calendars, not about markets.**
 
