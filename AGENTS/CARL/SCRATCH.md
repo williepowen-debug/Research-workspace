@@ -1,6 +1,6 @@
 # CARL SCRATCH
 **Last session:** 2026-09-01 (Tue eve, **boot + PROME-scoped Tier-1 work-through**)
-**Type:** Execution session. **V2's second panel grade ran and the headline is an INSTRUMENT ERROR I had been making for two sessions.** **NO vector moved — 53/70 (76%) holds, 7th consecutive cycle.** One commit at write-time + this closeout. ⚠️ **BOARD drained 15 of 128; inbox NOT drained (27).**
+**Type:** Execution session, two phases. **① V2's second panel grade — the headline is an INSTRUMENT ERROR I had been making for two sessions. ② FULL INBOX DRAIN: 27 → 0.** **NO vector moved — 53/70 (76%) holds, 7th consecutive cycle.** Nine commits. ✅ **BOARD drained 15 of 128 (every CARL-action signal cleared); INBOX AT ZERO.**
 
 ---
 
@@ -58,8 +58,10 @@
 9. **~9/15-17 SDART/BLAST August 10-D** — V2 leg L1, YoY basis.
 
 ### BACKLOG
-10. **⚠️ INBOX 27 UNPROCESSED — untouched tonight and now the largest debt.** Live leads: **DEWEY CARL-DR-2** (charged-off cohort stopped paying voluntarily — bears on `CARL-AUTO-OUTFLOW-01`), **DAEDALUS read-cap ruling** (ROADMAP 342% / STATUS 180% / MEMORY 79% of cap), **TERRY TRY-FIRE-002** premise input, **LABOR retail-employment −154.6K benchmark question**, **RED ×2**, **HOMER ×2**, WATT, FERT, AEOLUS.
-11. **BOARD 113 undispositioned** — all CARL-action ones are now cleared; the remainder are REFERRED-class. WALTER has the count as a routing datum.
+10. ✅ **INBOX DRAINED 27 → 0.** Eight replies sent (PROME ×2, OTTO, DAEDALUS ×2, DEWEY, TERRY, LABOR, RED). **Nothing owed back except what is listed under URGENT.**
+11. **BOARD ~115 undispositioned** — all 14 CARL-action signals cleared 9/1; the remainder are REFERRED-class. WALTER has the count as a routing datum.
+11b. ⛔ **STATUS IS STILL 119% OF THE READ CAP AND THE LAST ~11KB IS A DECISION, NOT A SWEEP** — the only candidate that size is moving `## PREDICTIONS` (15,384 B, a machine-checked mirror) to its own file. **Do NOT do it piecemeal:** move the table, update `consistency_check.py` Check A's STATUS-side reader, and re-point the `CLAUDE.md` Doc Ownership row **in one commit, or not at all.** Recommendation is with DAEDALUS.
+11c. **`MEMORY.md` 43,053 B = 79% of budget** — over budget, under cap, untouched. Least-bad of the three.
 12. **`abs_monitor.py` coverage fix** — add the registered panel CIKs; it structurally cannot see V2's instrument.
 13. **CRL-05 basis question STILL unsettled** (Equifax-3.0-era 13.74% level vs VantageScore-4.0 prints) — **must be settled before November.** Unchanged since 8/15, now three sessions running.
 14. **A PROMOTION FLAG IS STILL OWED TO PROME** — `finding_base_rate_the_threshold_before_building_it` extended to n=4 (carried from 8/27, not discharged).
@@ -67,24 +69,24 @@
 
 ---
 
-## OUTBOX / PACKETS SENT (3 new)
-**PROME ×2** (WQ-104 aggregation rule · WQ-107 not-registered + the grade) · **OTTO ×1** (panel vindicated, substitution disclosed, YoY row completed to 30/30, `collection_period` column asked). All committed at `33d609f81`.
+## OUTBOX / PACKETS SENT (8 new — all committed)
+**PROME ×2** (WQ-104 aggregation rule · WQ-107 not-registered + the grade) · **OTTO** (panel vindicated, substitution disclosed, YoY completed to 30/30, `collection_period` asked) · **DAEDALUS ×2** (Sweep-#2 answer: energy-kill base rate refuted + the rotted third ledger copy · read-cap remedy + the PREDICTIONS-mirror decision) · **DEWEY** (DR-2 adjudicated, survivor-pool reconciliation declined) · **TERRY** (TRY-FIRE-002: premise weakened, keep dormant) · **LABOR** (benchmark reconciles, but it is a LEVEL claim) · **RED** (KB-054 refresh: two figures corrected).
 
-## INBOX (⚠️ 27 UNPROCESSED — 0 drained this session)
+## INBOX ✅ **ZERO** (27 → 0 this session)
 
 ---
 
 ## WORKBOOK HEALTH
 | File | Rows/Size | Note |
 |---|---|---|
-| **STATUS.md** | 213 lines / ~101 KB | ⚠️ **180% of the 54,250 B read cap** — rotation #2 owed; DAEDALUS ruling unread in inbox |
-| **ROADMAP.md** | 198 lines / 185 KB | 🔴 **342% of cap — worst surface on the desk**, cannot be read whole |
-| **MEMORY.md** | 95 lines / 43 KB | 🟠 79% of cap, 5 lines from the 100-line cap |
-| KB.tsv | **396 data rows** | +3 (398-400). All 15-field verified; +3/−0 vs HEAD confirmed |
-| PREDICTIONS.tsv | 29 (14 OPEN) | ⚠️ **CRLF — binary-mode edits ONLY.** Two-clock header added; CRL-07 resolved |
-| CATALYSTS.tsv | 19 data | 4 pruned, 3 added; **CALENDAR hand-verified 19↔19** |
+| **STATUS.md** | ~64 KB | 🔴 **191% → 119% of cap** (rotations #2-#8, all verbatim + crc32). **Still over — the last ~11KB is the `## PREDICTIONS` decision, see BACKLOG 11b** |
+| **ROADMAP.md** | 111 lines / 31 KB | ✅ **342% → 58% of cap, UNDER BUDGET.** RECENTLY RESOLVED + 25 closed threads → `archive/ROADMAP_ARCHIVE_2026-09.md`; INVESTIGATIONS BACKLOG → `ROADMAP_BACKLOG.md` (LIVE, hot/cold split — **read it when picking up new work**) |
+| **MEMORY.md** | 95 lines / 43 KB | 🟠 79% of budget, untouched, 5 lines from the 100-line cap |
+| KB.tsv | **401 data rows** | +8 (398-405). All 15-field verified, no dup IDs |
+| PREDICTIONS.tsv | 30 (**15 OPEN**) | ⚠️ **CRLF — binary-mode edits ONLY.** Two-clock header + cadence declaration; CRL-07 resolved MISSED; **CRL-29 registered** (`CARL-AUTO-OUTFLOW-01` had been live on six surfaces with NO ledger row) |
+| CATALYSTS.tsv | 20 data | 4 pruned, 4 added (incl. 9/8 Canadian counter-tariffs); **CALENDAR hand-verified 20↔20** |
 | BOARD_LOG.tsv | 760 | 15 appended, no dupes, 9-field verified. **113 still undispositioned** |
-| PHAN COCKROACH/REGULATORY | **+49d** | ⚠️ Now has a dated docket row (9/8) — no longer a buried flag |
+| PHAN COCKROACH/REGULATORY | **FROZEN 9/1** | ✅ Two-state dispositioned with a **dated unfreeze trigger** (the 9/8 spawn row). ⚠️ **PHAN/PREDICTIONS.tsv deliberately NOT frozen** — 6 OPEN rows still owe resolution, and frozen must never be a way to stop owing a verdict; given a cadence declaration instead |
 
 ---
 
