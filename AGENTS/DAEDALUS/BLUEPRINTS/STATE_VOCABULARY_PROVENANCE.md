@@ -65,3 +65,24 @@
 - **Adopted spellings verbatim from BRENT's first application** (his ASK: canonical vs local — the distinctions are the ruling, spellings were not). Rename-in-place is prohibited by the anti-ratchet rider: existing legacy blanks and bare `0`s are grandfathered; the class binds NEW quantitative columns and any column undergoing a next-write.
 - **A candidate 8th token — quiescent watch row (event never occurred vs event evaluated with zero loss)** — is deliberately NOT added on n=1. If a second desk hits the distinction, promote per PAT-089. Until then, BRENT-style watch rows use `ZERO-INTACT`.
 
+
+
+## Rotated 2026-09-01 (hot file at 99.4% of budget before the WQ-140 / WQ-117 C / WQ-148 registrations; verbatim, never edited)
+
+### Class 2 exemplars bullet
+- **Three exemplars promoted to canon 2026-08-28 (Falsification #2 ⭐, wiring-sweep ②):** **AEOLUS** renders `CANNOT FIRE` vs `NOT FIRED` per leg (spelling normalises to the hyphenated tokens above on next-write); **HENRY** publishes per-leg live counts under an explicit **non-latching AND** rule (a fired leg does not stay fired for the conjunction; every leg is re-tested at every evaluation); **VULCAN**'s dated retrofit rail (a band re-keyed AFTER registration carries the retrofit date on the row, so a fire can be read against the band that was live when it fired). Display form (AEOLUS): `total · range · moved · fired` beside any convergence score.
+
+### Class 9 rider narrative
+⚠️ **Enforcement is FORWARD-ONLY (Will-ruled): new surfaces and next-writes conform; legacy is grandfathered — NO retroactive fleet sweep.** **Template-surface rider (added same day, ZHAO `9c5bd623d` — refines the ruling's application, does not reinstate a sweep): on a surface whose EXISTING ROWS ARE THE TEMPLATE FOR NEW ONES (TSVs, registries, schema-bearing files), forward-only is defeated by copy-the-neighbour — the next writer consults the row above, not the ruling, so grandfathered rows TEACH non-conformance. Rider: conform-on-touch, OR conform-now-while-the-author-is-still-holding-it (ZHAO's own 10-cell conversion cost ten minutes, four hours after authoring). Prose surfaces are exempt — a stale paragraph is not copied into the next paragraph. Kin: `finding_a_ruling_governs_the_next_write_not_the_existing_state` (64% compliance hours after the author's own ruling — template-copying is the hypothesized driver, n=1, testable at the 8/28 ⑫ walk).** Rationale on the record: 🔴-as-priority exists on hundreds of legacy surfaces (packet headers, HEARTBEAT, DOCKET, dashboards); a big-bang re-mark creates a mixed-vocabulary transition worse for every scraper than one dirty vocabulary, and the grandfather-forward pattern is how every prior class of this file healed. **Companion rule, NOT restated here:** verdicts key on alert COUNTS returned by code, never on scraping output for glyphs — that is CHECK_STANDARD §8 territory (encode at the ⑤b sitting); this class fixes the vocabulary, that rule fixes the mechanism, and neither substitutes for the other (a clean vocabulary still collides in quoted/historical text).
+
+### Class 11 don't-mints
+**Don't-mints on the record (ruled):** `CREATED` (census 0 — a state nobody records) · `READ` (collapses into CONSUMED) · `ANSWERED` (a prose verb — an answer is itself a packet with its own ladder) · `OWNER-ENCODED` (RAV's spelling; `ENCODE-CONFIRMED` survives, 17 vs 4) · **`UNPROCESSED` (ruled NOT minted — it is `DELIVERED` + age; the unfiled-vs-unprocessed distinction resolves at the METRIC layer: the fleet_triage metric is named `delivered_unread`; "unprocessed" stays legal prose).**
+
+### Class 11 first exemplar
+First live exemplar (citable): the 2026-08-22 encode-ask packet's own ladder — ROUTED at commit `7f963e93a` → DELIVERED at DAEDALUS `inbox/` → CONSUMED at this encode session → ENCODE-CONFIRMED at this section's commit.
+
+### Class 10 deployment paragraph
+⚠️ **Rows that EXPIRE or are re-derived at read time (fire-ledger rows, artifact-verify-per-presentation) are already conformant** — the class targets rows that ASSERT; that is where the rot concentrates (forum-6 P1 measurement). Deployment, not invention: GATES `consumed_by` + WILL_QUEUE artifact-verify-per-presentation are this contract already working on two surfaces.
+
+### WQ-117 C provenance
+Ruling row text (PROME/proposals/2026-09-01_wq-batch-RULED.md row 117) quotes the pre-RAV single-axis wording *"operating-mode axis MACHINE-MONITORED / OWNER-GRADED / EVENT-SUMMONED"*; the bundle Will approved *"with your recs"* (`design/2026-08-28_late-batch-three-encodes-for-Will.md` §C) recommends the RAV-redesigned two-axis form (Trigger ∈ {SCHEDULED, EVENT, MANUAL} + the existing INSTRUMENT/JUDGEMENT adjudicator). Encoded per the rec; flagged to PROME 2026-09-01 so the two texts cannot be read as two rulings.
