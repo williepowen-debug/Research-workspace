@@ -122,3 +122,24 @@
 **Bycatch, and it corrects a live STATUS claim.** `GC=F` and `GCZ26` print **identical OHLCV on 9/2** (O 4,377.20 H 4,427.00 L 4,329.20 C 4,426.20 V 125,498), so the `GC=F` **daily** series completed its roll to `GCZ26` on **9/2** — one session later than STATUS recorded. STATUS said 8/31 ("both $4,497.30"); on 8/31 the two still differed (**4,431.10** vs **4,481.50**). ⛔ **That 8/31 roll-completion claim is SUPERSEDED.**
 
 → KB-099, KB-097.
+
+
+---
+
+## L-47 — 2026-09-02 — A frozen criteria list creates the APPEARANCE of coverage; only a criterion→probe mapping that someone checks creates the fact — and the mapping cell is where the false claim hides
+
+**What happened.** I ran a no-news sweep on the 8/28 PGM session and did the hard part right: I **froze five hit criteria and an explicit non-hit list to a file before the first query**, precisely because my expectation was "no hit" and a confirmatory sweep that could never have found anything is worthless. I ran seven probes, recorded every query verbatim, and published **NO-NEWS CONFIRMED**.
+
+**HAWK then found a dated, in-window, English-language event meeting my own criterion ⑤ (corporate)** — Northam Platinum opening a competitive process on **2026-08-25** after an unsolicited approach, and **Valterra identified as the suitor on 2026-08-28, my +4.03σ session.** I verified it independently; it holds.
+
+**⭐ The root cause is not a bad query. It is that the coverage was CLAIMED, not PERFORMED.** My probe table maps probe 3 — *"South Africa platinum palladium mine outage strike load-shedding late August 2026"* — to criteria **①⑤**. That label is false: the query targets *operational disruption*, and **no phrasing of it could ever surface an M&A approach.** Criterion ⑤ sat in the frozen list and in the mapping column and **was never actually queried.**
+
+**Why this is the dangerous version.** The frozen-criteria discipline is a *real* method improvement, and it worked on ①②③④. But it produces an audit trail that **looks like** a coverage proof, and **the criterion→probe mapping — the very artifact whose job is to catch a gap — is exactly where the false claim lived.** A filled mapping cell passes a coverage audit while the criterion behind it is starved: `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`, landing on the audit trail of a sweep whose entire purpose was rigour.
+
+**The rule.** ⛔ **A criterion is covered only when a probe exists whose text could, in principle, RETURN A HIT ON IT.** After writing the mapping, read each row backwards: *"if a criterion-⑤ event had occurred, would THIS query have surfaced it?"* Where the answer is no, the cell is a lie, not a shortcut. **Count criteria with ≥1 genuinely capable probe, and report that count beside the verdict** — "5 criteria, 7 probes" concealed "4 criteria actually probed."
+
+**Second cause, cheaper to fix (HAWK's diagnosis, adopted).** The missed item is JSE/SA-led (Daily Maverick, Moneyweb, Miningmx, Business Day). **The corporate criterion is not gradeable at all without an SA-listed-issuer surface (JSE SENS).** A criterion whose source-set cannot reach its subject is untestable however well it is worded — the sibling of `[[finding_banded_threshold_with_no_metric_surface_is_untrippable]]`.
+
+**⇒ And the finding got STRONGER for being wrong.** Northam/Valterra is a **platinum consolidation** story: predicted signature Pt-led and equity-led. My tape has **Pt +0.125%, not clearing**, while Pd ran +6.803%. **The largest dated PGM corporate event in the window predicts the metal that did not move.** An absence claim resting on a positive item that discriminates the *wrong way* is worth more than one resting on having found nothing. **The corrected sweep is better evidence than the clean one I published.**
+
+→ KB-104, KB-105. Sibling of L-41 (freeze the expected value before the run) — **L-41 is necessary and this shows it is not sufficient.**
