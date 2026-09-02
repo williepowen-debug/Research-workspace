@@ -1,5 +1,5 @@
 {
- "built": "2026-09-02 13:35",
+ "built": "2026-09-02 13:42",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -132,14 +132,15 @@
  },
  "one": "the Kernel's first live resolution landed this morning (MIDAS-06 \u2014 desk-graded TERMINAL (a) 8/31, DOCKET L45; Kernel-accepted RESOLVED YES + VERIFIED YES 9/2 at Sitting 2, 17 events, zero refusals), the bank trigger fired on the 9/1 close (GATE-REG-T02, WAL $77.26) and the approved roll is now fillable because WAL is GREEN today (+3.25% intraday) \u2014 while Iran became a campaign (BZX26 $94.65 [9/1 close], +4.6% on the day, backwardation +5.98), Japan printed a RECORD \u00a515.4T intervention month with every JGB tenor at a series high, and credit moved AWAY from its kill (HY 265 [9/1]). $0 moved by PROME; zero thresholds set by PROME. NEXUS 21/44/35 [8/12] (Break/Grind/Unresolved %, anchor \u2014 re-weighs at the ~9/11 second-C window).",
  "pending": [
-  "151 (CARL \"sustained\", YoY basis, by 9/14)",
+  "WAL fill confirm (\u00a71)",
+  "USO GTC confirm",
+  "151 (CARL \"sustained\", by 9/14)",
   "133",
   "98",
   "74",
   "31",
-  "the two broker orders (144/145, his hand)",
-  "the spawn slate (ZHAO \u00b7 CRUISE \u00b7 WATT \u00b7 YEYOU \u00b7 OTTO \u00b7 CORAL \u00b7 OSPREY \u00b7 CARL)",
-  "Sitting 2 at 10:00 ET 9/2 (PROME's presence, not Will's)"
+  "LABOR summons (9/3\u20139/4)",
+  "spawn slate (TERRY for the ROLL70 chain \u00b7 OTTO by 9/4 \u00b7 CORAL ~9/5 \u00b7 ZHAO \u00b7 CRUISE \u00b7 WATT \u00b7 OSPREY \u00b7 HAWK)"
  ],
  "split": "Break 21 / Grind 44 / Unresolved 35",
  "v": 1
