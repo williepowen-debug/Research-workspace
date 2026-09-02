@@ -1,3 +1,12 @@
+# Last real data refresh: 2026-07-10  |  Hygiene/touch: 2026-09-01  |  STATE: LIVE (deliberately NOT frozen)
+# CADENCE DECLARATION added 2026-09-01 by CARL, answering DAEDALUS PR#4 ACTION 2 + Staleness Sweep #4.
+# Its two sibling ledgers (COCKROACH.tsv, REGULATORY.tsv) were FROZEN today. THIS ONE WAS NOT, and the asymmetry is deliberate:
+#   a DATA ledger that nobody is appending to should be frozen; a PREDICTION ledger with OPEN rows still owes RESOLUTION,
+#   and freezing it would convert 6 open predictions into rows nobody is obliged to grade. Frozen must never be a way to stop owing a verdict.
+# OPEN rows at this stamp: PHAN-P01, P03, P04, P05, P06, P07. Resolution routes to PHAN's next spawn, not to a CARL-side edit.
+# SCHEDULED RUNNER (this is what the ledger was missing, not a banner): docket/CATALYSTS.tsv row 2026-09-08 'PHAN SPAWN — OVERDUE'.
+#   Gate fired 2026-08-27 (Affirm FQ4 + Klarna Q2) unworked; the DATA clock has not moved since 2026-07-10.
+# Read staleness here against the RESOLUTION calendar (next: 2026-09-08), not against parent STATUS mtime.
 # DISPOSITIONED 2026-07-10 ad-hoc pass — verdicts in Status/Date_Resolved/Outcome cols; DOSSIER.md §4 mirrors this ledger (ledger of record). COCKROACH/REGULATORY are the live append surfaces. All 2026 windows still open → mostly OPEN with re-marked confidence; no clean HIT/MISS possible (year not closed). Next data event: Affirm/Klarna Q2 ~Aug (ad-hoc spawn trigger).
 Pred_ID	Date_Made	Prediction	Confidence	Timeframe	Status	Date_Resolved	Outcome	Notes	Instrument
 PHAN-P01	2026-04-09	BNPL stacking >70%	60%	H2 2026	OPEN			Currently 63% at build (CFPB Jan-2025); no fresh stacking print in own files or parent. [2026-07-10 pass: H2 window just opened (we are Jul-10); no premise movement; HELD 60%, OPEN. DATA-NEEDED: CFPB/NY-Fed BNPL stacking update H2 2026. Mode: unresolvable in-file, no data drop.]	BNPL provider disclosures + survey data :: BNPL stacking rate :: >70%

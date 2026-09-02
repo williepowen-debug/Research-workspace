@@ -1,3 +1,12 @@
+# ⛔ FROZEN 2026-09-01 — not maintained; STATUS is canonical, do not cite rows as current.
+# TWO-STATE DISPOSITION (root CLAUDE.md Data Hygiene), answering DAEDALUS PR#4 ACTION 2 (2026-08-17) and Staleness Sweep #4 (2026-09-01).
+# The 2026-08-15 two-clock header below was a DISCLOSURE, not a disposition. DAEDALUS was right: it recorded the rot instead of resolving it.
+# Why FROZEN and not refreshed: the 8/15 note said 'NOT frozen -- the channels are live and a spawn is imminent.'
+# The spawn was not imminent. Its gate (Affirm FQ4 + Klarna Q2) fired 2026-08-27 and was not worked; this ledger is now +54d.
+# 'Imminent' has failed twice, so it is no longer an honest state. Frozen is.
+# UNFREEZE TRIGGER (dated, per finding_banner_is_a_warning_not_a_fix -- a banner without a dated rewrite trigger is just a label):
+#   docket/CATALYSTS.tsv row 2026-09-08 'PHAN SPAWN — OVERDUE'. On that spawn, delete this banner and either advance the DATA clock
+#   or record an explicit DID_NOT_APPEAR null. Do NOT unfreeze without doing one of those two things.
 # TWO-CLOCK HEADER (PAT-044) — added 2026-08-15 by CARL. This ledger is APPEND-ON-EVENT, not periodic-refresh.
 # Last real data refresh: 2026-07-10
 # Last hygiene/no-event check: 2026-08-15
