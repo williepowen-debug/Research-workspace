@@ -55,7 +55,7 @@
 
 ## NEXT DECISION POINT
 
-- **What:** **`REG-T-02` EXIT grading every close** (≥81.90 ×3; 0-of-3) and **Will's ⚖️ on the Sep-18 pair** (routed 9/1; expiry Fri 9/18 — pre-register the disposition before that close). Second: FLG's cohort base-rate ask (cure-share kill form) — decide run vs NOT-PARSEABLE by 9/11.
+- **What:** **`REG-T-02` EXIT grading every settled close** (≥81.90 ×3 consecutive; run **0-of-3**). ✅ **Will's ⚖️ on the Sep-18 pair is RULED AND FILLED — nothing pending:** `WQ-143` (B) 9/1 17:22 ET, then **FILLED 9/2 14:21 ET (1× WAL Dec-18 $70P @ $2.20; `GATE-TERRY-ROLL70` RESOLVED-FILLED)**; the Sep-18 pair is **HELD to expiry, not sold**. 🔴 **Consequence for cross-readers: my exit grade now guards a LIVE position, not a staged card** — 3 qualifying closes close the roll. Second: FLG's cohort base-rate ask (cure-share kill form) — decide run vs NOT-PARSEABLE by 9/11.
 - **When:** every session at the close (exit); Will's word on the pair before 9/18; FLG answer by 9/11.
 - **Falsifier context:** the fire is a LEVEL event with the mechanism unmoved — the falsifier that matters is the EXIT (three closes ≥81.90 un-fires it); nothing on my own book can flip the aggregate on an unread leg.
 
@@ -69,7 +69,7 @@
 | 🔴 **Every close from Sep 1** | `REG-T-02` EXIT grading (WAL ≥81.90 ×3; FIRED 9/1 at $77.26) | +6.01% to the first qualifying close; re-entries suppressed |
 | 🟠 **Sep 5-7** | Comerica/FITB systems cutover + ~76 branch closures | Operational-risk class at ~$294B scale |
 | 🟠 **Mon Sep 7 (Labor Day)** | CRMT standstill expires (no bank in the structure; OTTO action) | Template for a PC-manager control package firing; 10-Q ~9/9 |
-| 🔴 **Fri Sep 18** | WAL Sep-18 $67.5P/$70P expiry (WAL-desk book; Will's ⚖️ routed 9/1) | Hold vs roll duration; ≤$500/card; green-day fill; TERRY constructs |
+| 🔴 **Fri Sep 18** | WAL Sep-18 $67.5P/$70P expiry (WAL-desk book) | ✅ **RULED + FILLED — pair HELD to expiry, not sold**; the duration roll (Dec-18 $70P ×1 @ $2.20) filled 9/2 on a GREEN day within cap. Nothing owed before 9/18. |
 | 🟡 **~Sep 15** | Canadian winter FL schedule filings | MARCO's capacity tell for the FL-$ hole → my Q1-Q2 2027 FL stress window |
 | 🟠 **Q3 prints (Oct)** | BRK-31 resolution legs + credit-intermediation concentration read + WAL/OZK Q3 (appraisal, REG residuals at `../WAL/`) | The next real confirmation load |
 
