@@ -1,5 +1,11 @@
 # CARL — STATUS ARCHIVE 2026-08
 
+> ⛔ **THE FILENAME'S MONTH IS WRONG ABOUT MOST OF THIS FILE. TRUE RANGE: 2026-08-27 → 2026-09-01, rotations #1–#8.**
+> **Only rotation #1 is August (8/27). Rotations #2–#8 are ALL dated 2026-09-01** — seven of eight blocks, and the large majority of the bytes. A reader who trusts the `2026-08` in the name will not look here for September content and will conclude it was never rotated.
+> **Not renamed deliberately** — `STATUS.md:5`, `STATUS.md:159` and the ROADMAP pointer all name this path (PAT-091: a rename breaks every pointer that travels to it). The banner is the fix; the name is load-bearing.
+> **Cause, and it is not a CARL defect:** `BLUEPRINTS/STATUS_TWO_STATE_PILOT.md:46` prescribed `STATUS_ARCHIVE_<YYYY-MM>.md` and never said what happens when a rotation runs on the 1st. DAEDALUS amended it 2026-09-02 (PAT-050): **a date in a filename asserts a CLOSED range, and nothing was maintaining that claim.** Fleet census: `AGENTS/DAEDALUS/runs/2026-09-02_MONTH_CONTAINER_CENSUS.md`.
+> 📅 **Forward rule for the next rotation (closeout guard, owed):** assert `block month == file month` before the splice, and open `STATUS_ARCHIVE_2026-09.md` when it fails. This file stays closed at rotation #8.
+
 **This file is the ARCHIVE half of the DAEDALUS two-state STATUS pilot** (`AGENTS/DAEDALUS/BLUEPRINTS/STATUS_TWO_STATE_PILOT.md`, accepted by CARL 2026-08-10).
 
 > **Content here is SUPERSEDED, preserved VERBATIM, and never deleted.** `STATUS.md` carries current state only.
