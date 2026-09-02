@@ -86,3 +86,27 @@ First live exemplar (citable): the 2026-08-22 encode-ask packet's own ladder —
 
 ### WQ-117 C provenance
 Ruling row text (PROME/proposals/2026-09-01_wq-batch-RULED.md row 117) quotes the pre-RAV single-axis wording *"operating-mode axis MACHINE-MONITORED / OWNER-GRADED / EVENT-SUMMONED"*; the bundle Will approved *"with your recs"* (`design/2026-08-28_late-batch-three-encodes-for-Will.md` §C) recommends the RAV-redesigned two-axis form (Trigger ∈ {SCHEDULED, EVENT, MANUAL} + the existing INSTRUMENT/JUDGEMENT adjudicator). Encoded per the rec; flagged to PROME 2026-09-01 so the two texts cannot be read as two rulings.
+
+
+## Rotated 2026-09-01 — second pass (the first pass left the hot file at 34,781 B = 106.9%; the commit message `4d937cb91` claimed 'under budget' and was WRONG — corrected here, never amended)
+
+### Class 2 Trigger provenance clause
+(WQ-117 C, Will 2026-09-01 *"approve … with your recs"* — the rec being the RAV-redesigned two-axis form in `design/2026-08-28_late-batch-three-encodes-for-Will.md` §C; PROME's ruling-row label quotes the pre-redesign single-axis wording, flagged 9/1):
+
+### Class 12 don't-mints
+**Don't-mints on the record (ruled):** `UNVERIFIED` as a token (census 1,591 but generic — it cannot discriminate `OWNER-ASSERTED` from `UNANCHORED`, the exact distinction this class exists to make; stays prose) · `MARKET-DATA-CURRENT-AS-OF` (a timestamp practice, governed by PAT-044 + root pricing rules — not a state).
+
+### Class 12 neighbour
+**Neighbour reconciliation (Class 6):** Class 6 declares the SOURCE a figure cites (`PRIMARY`/`MIRROR`/`MIRROR-WALLED`); Class 12 declares the CHECKING performed on a claim. A `MIRROR`-cited figure can later be `PRIMARY-VERIFIED`; the two compose, neither substitutes.
+
+### Class 8 scope paragraph
+⚠️ **Scope: the declaration affects `ledger_staleness.py --nudge` ONLY** (distinct ℹ️ label, not counted behind — a check structurally always-red on one surface trains skipping on every surface, PAT-110's inverse). The `--days`/`--writes`/`--abs-floor` scans still grade the file — the owner's dispositions there stay "refresh / freeze / say why not." The declaration is a FORM, not a keyword (PAT-059): `Cadence:`-prefixed, front-loaded (col ≤100), header-block only — bare prose "event-driven" mentions do not declare (measured live: WARRISK's own caveat prose would have self-declared under a bare-token match).
+
+### Enforcement map Class 5 row
+| 5 (zero/UNKNOWN/NA) | ⛔ **UNBUILT — CORRECTED 2026-08-17: `basis_check` never shipped as code** (BRENT-confirmed — class-5 tokens live as INCIDENTS.tsv column enum + prose, no script check exists; this cell previously named it as the ruled enforcement arm, and the correction sat in an overflow 4th cell GFM silently dropped at render — self-audit F25). Candidate home rides the forum-4 #11 registration-checklist build; extend an existing checker per anti-ratchet rider | New quantitative TSV columns ship the enum in a header comment; existing columns adopting the class name what they supersede |
+
+### Enforcement map Class 6 row
+| 6 (source authority) | No dedicated enforcer today — reader-side convention; a fleet grep for `PRIMARY`\|`MIRROR`\|`MIRROR-WALLED` on threshold rows is a candidate follow-on *(pipes escaped 2026-08-17 — unescaped they split this row and GFM dropped the obligation cell, self-audit F25)* | New citations on load-bearing figures carry one of the three tokens; HOMER `RATES.tsv` (`workbook/`) is the first-application worked example |
+
+### Class 13 neighbour
+**Neighbour reconciliation (Class 12):** Class 12 says what KIND of checking backs a load-bearing claim (`ARTIFACT-VERIFIED` vs `PRIMARY-VERIFIED` …); Class 13 says how far THIS session's check went on THIS claim — a Class-13 `VERIFIED` on a repo artifact is Class-12 `ARTIFACT-VERIFIED`, never `PRIMARY-VERIFIED`. They compose. Machine reader today: none — reader-side convention on packets/reports; candidate rider on the forum-4 #11 registration checklist.
