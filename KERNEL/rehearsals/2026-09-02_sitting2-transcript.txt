@@ -1,0 +1,814 @@
+# LIVE-2026-0007..0011 (+F) SITTING-2 TRANSCRIPT — tee'd live per C8 N2, begun before first invocation
+# Window [2026-09-02T14:00:00.000000Z, 2026-09-02T17:00:00.000000Z) — Will verbatim "confirm the 103 window" 2026-09-01 18:13 ET (WQ-103; record PROME/WILL_QUEUE.md RECENTLY DONE row 103; DOCKET 233)
+# Custodian/writer: PROME (session prome-94, DESKTOP-BC6EF81). Reviewer (C8 closeout): DAEDALUS (live, daedalus-05). Verifier: RED (Will spawns). Proposer: MIDAS (Will spawns).
+# Pre-sitting state (09:5x ET = 13:5xZ): staged index EMPTY; custody paths (KERNEL/) clean; other desks' UNSTAGED in-flight files outside custody paths recorded per C8 D1: AGENTS/CARL/scripts/data/{CONSUMER_PULSE,GAS_TRACKER,HOUSING_PULSE}.tsv, AGENTS/SAM/workbook/FXY_OPTIONS.tsv, PROME/state/board_cursor.txt (PROME's own, boot-gate cursor). Kernel suite 220 passed (+77 subtests) pre-sitting via .venv pytest 9.1.1.
+# Pre-verified: 12/12 A-D pins == on-disk bytes; E 3/3 pins == MIDAS staged bytes (AGENTS/MIDAS/kernel/staged_submissions/, NOT yet at the submission path — MIDAS commits at the sitting, C1); MIDAS Propose CMD-01a05d61 sha256 8bb18ca2…8f4a at the submission path (b7e839238); S2 stop-check CLEAN across A-E; live policy hashes == drafts; sitting2 grants draft sha256 a1fec819…; mint diff vs draft = exactly source_commit + window_start + window_end (dry-run in scratchpad).
+# Submission commits (full SHA): A,B -> CREED 8dc211f949d0f2c4556387781d48e821c1ba50b9 · C -> c3b89dc9db70771a1ebdfd75324be76d977325ab (LIQUID pair; REGINALD a1 e4a51fb35 is its ancestor) · D -> REGINALD e4a51fb35964ee123c1b6057e0251fcf5f6db812 · E -> MIDAS's sitting commit (TBD) · F -> RED's sitting commit (TBD; contains MIDAS b7e839238).
+
+### STEP 0 — preconditions 2026-09-02T14:00:15Z
+$ date -u; git status --short; git diff --cached --name-only; sha256sum policies + grants draft
+Wed Sep  2 14:00:15 UTC 2026
+ M AGENTS/CARL/scripts/data/CONSUMER_PULSE.tsv
+ M AGENTS/CARL/scripts/data/GAS_TRACKER.tsv
+ M AGENTS/CARL/scripts/data/HOUSING_PULSE.tsv
+ M AGENTS/SAM/workbook/FXY_OPTIONS.tsv
+ M PROME/state/board_cursor.txt
+?? KERNEL/rehearsals/2026-09-02_sitting2-transcript.txt
+?? PROME/proposals/2026-09-02_sitting2-RULING-RECORD.md
+STAGED:
+(end staged)
+ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f  KERNEL/policies/actors.json
+6e73c29e9abd16270575cf1c0ba316c24c72d89ebb9e7e13099f5a2f6e9960de  KERNEL/policies/capability-grants.json
+180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849  KERNEL/policies/custody-policy.json
+a1fec8198ab9ac41e04da6e445906714fbad193f975ce5a1573362b44aba6f8c  KERNEL/policies/capability-grants.json.sitting2-draft
+8bb18ca2caaa69cdd91153ead37b7fa91878743aca0812314bb56b605eb88f4a  AGENTS/MIDAS/outbox/kernel/submissions/CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json
+S2 stop-check A-E:
+S2 CLEAN
+
+### ACTIVATION A (LIVE-2026-0007) — STEP 2 mint 2026-09-02T14:00:31Z
+KERNEL/GATE_C_SITTING2_ACTIVATION_A_2026-09-02.json source_commit 915af2e8bdd97baff74c9343819b48684e6392a0
+$ diff draft vs minted (expect exactly source_commit + window_start + window_end)
+10,12c10,12
+<   "source_commit": "TO-BE-RECUT-AT-MINT",
+<   "window_start": "TO-BE-RULED",
+<   "window_end": "TO-BE-RULED",
+---
+>   "source_commit": "915af2e8bdd97baff74c9343819b48684e6392a0",
+>   "window_start": "2026-09-02T14:00:00.000000Z",
+>   "window_end": "2026-09-02T17:00:00.000000Z",
+diff rc=1
+[master 0a857e4f3] KERNEL: LIVE-2026-0007 minted (Sitting 2 activation A: CREED 111/112/113) — window [2026-09-02T14:00:00Z, 17:00:00Z) per WQ-103; diff vs draft = source_commit + two window fields only (F2 rider); S2 stop-check clean. Sitting ruling record opened (PROME/proposals)
+
+### A — STEP 3 preflight 2026-09-02T14:00:32Z
+$ python3 KERNEL/tools/live_shadow.py --activation KERNEL/GATE_C_SITTING2_ACTIVATION_A_2026-09-02.json --live-repository-root /home/willi/Research-workspace --submission-commit 8dc211f949d0f2c4556387781d48e821c1ba50b9 --preflight
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+perimeter: activation_id=LIVE-2026-0007 authorized_by=WILL authorization_ref=KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md repository_root=/home/willi/Research-workspace window=2026-09-02T14:00:00.000000Z..2026-09-02T17:00:00.000000Z writer_id=PROME commands=3 recorded_at=2026-09-02T14:00:32.188211Z
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000111 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000111 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000111 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000111 preflight=read_only
+PASS: native-reference
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000111 preflight=read_only
+PASS: lifecycle
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000112 preflight=deferred_pending_dependency
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000112 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000112 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000112 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000112 preflight=read_only
+PASS: native-reference
+perimeter: check=custody command_id=CMD-019305f8-ec00-7000-8000-000000000113 preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-019305f8-ec00-7000-8000-000000000113 preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000113 preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000113 preflight=read_only
+PASS: native-reference
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000113 preflight=read_only
+PASS: lifecycle
+preflight-writes: 0 (read-only mode wrote nothing)
+PASS proves: every read-only preflight check passed for the printed perimeter
+PASS does not prove: acceptance, durable results, or state outside this perimeter
+rc=0
+
+### A — STEP 4 BASE + STEP 5 apply 2026-09-02T14:00:44Z
+BASE=0a857e4f3652c6157db5979d7cfcf84df0f0b107
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_APPLY
+perimeter: activation_id=LIVE-2026-0007 authorized_by=WILL authorization_ref=KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md repository_root=/home/willi/Research-workspace window=2026-09-02T14:00:00.000000Z..2026-09-02T17:00:00.000000Z writer_id=PROME commands=3 recorded_at=2026-09-02T14:00:44.253007Z
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000111 recorded_at=2026-09-02T14:00:44.253007Z
+PASS: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000112 recorded_at=2026-09-02T14:00:44.253007Z
+PASS: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000113 recorded_at=2026-09-02T14:00:44.253007Z
+PASS: custody
+PASS proves: the named writer holds custody for this command at the injected instant
+PASS does not prove: research authority, command validity, or permission to process any other command
+perimeter: check=schema submission_index=0 command_id='CMD-019305f8-ec00-7000-8000-000000000111'
+PASS: schema
+PASS proves: the supplied command matches the registered strict command contract
+PASS does not prove: research truth, authorization, native fidelity, or lifecycle legality
+perimeter: check=schema submission_index=1 command_id='CMD-019305f8-ec00-7000-8000-000000000112'
+PASS: schema
+PASS proves: the supplied command matches the registered strict command contract
+PASS does not prove: research truth, authorization, native fidelity, or lifecycle legality
+perimeter: check=schema submission_index=2 command_id='CMD-019305f8-ec00-7000-8000-000000000113'
+PASS: schema
+PASS proves: the supplied command matches the registered strict command contract
+PASS does not prove: research truth, authorization, native fidelity, or lifecycle legality
+perimeter: check=planning completed=2 ready=3 waiting=0 rejections=0
+PASS: planning
+PASS proves: the explicit submission/result inventories have the reported deterministic dependency disposition
+PASS does not prove: filesystem completeness, live submission discovery, or execution of any non-ready command
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000111 path=AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000111.json
+PASS: permissions
+PASS proves: the actor, owned path, identity, activity window, and capabilities satisfy the injected policy
+PASS does not prove: actor competence, substantive independence beyond policy, or native fidelity
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000111 references=2
+PASS: native-reference
+PASS proves: the exact cited synthetic bytes and implemented material terms reconcile
+PASS does not prove: research quality, analytical persuasiveness, or trusted-history reachability beyond the supplied commit
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000111 accepted_history=2
+PASS: lifecycle
+PASS proves: the command is legal against the explicitly replayed accepted fixture history
+PASS does not prove: permission, native fidelity, or the absence of unsubmitted commands
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000111 outcome=WRITTEN
+PASS: writer
+PASS proves: the reported fixture result was atomically published or matched one prior durable result
+PASS does not prove: checks not listed as PASS for this command or authority outside the injected fixture store
+perimeter: check=durability command_id=CMD-019305f8-ec00-7000-8000-000000000111 store=/home/willi/Research-workspace/KERNEL
+PASS: durability
+PASS proves: the command has exactly one valid durable fixture result in the explicit store inventory
+PASS does not prove: that every native action was submitted or that the inventory covers undisclosed state
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000112 path=AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000112.json
+PASS: permissions
+PASS proves: the actor, owned path, identity, activity window, and capabilities satisfy the injected policy
+PASS does not prove: actor competence, substantive independence beyond policy, or native fidelity
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000112 references=2
+PASS: native-reference
+PASS proves: the exact cited synthetic bytes and implemented material terms reconcile
+PASS does not prove: research quality, analytical persuasiveness, or trusted-history reachability beyond the supplied commit
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000112 accepted_history=3
+PASS: lifecycle
+PASS proves: the command is legal against the explicitly replayed accepted fixture history
+PASS does not prove: permission, native fidelity, or the absence of unsubmitted commands
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000112 outcome=WRITTEN
+PASS: writer
+PASS proves: the reported fixture result was atomically published or matched one prior durable result
+PASS does not prove: checks not listed as PASS for this command or authority outside the injected fixture store
+perimeter: check=durability command_id=CMD-019305f8-ec00-7000-8000-000000000112 store=/home/willi/Research-workspace/KERNEL
+PASS: durability
+PASS proves: the command has exactly one valid durable fixture result in the explicit store inventory
+PASS does not prove: that every native action was submitted or that the inventory covers undisclosed state
+perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000113 path=AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000113.json
+PASS: permissions
+PASS proves: the actor, owned path, identity, activity window, and capabilities satisfy the injected policy
+PASS does not prove: actor competence, substantive independence beyond policy, or native fidelity
+perimeter: check=native-reference command_id=CMD-019305f8-ec00-7000-8000-000000000113 references=2
+PASS: native-reference
+PASS proves: the exact cited synthetic bytes and implemented material terms reconcile
+PASS does not prove: research quality, analytical persuasiveness, or trusted-history reachability beyond the supplied commit
+perimeter: check=lifecycle command_id=CMD-019305f8-ec00-7000-8000-000000000113 accepted_history=4
+PASS: lifecycle
+PASS proves: the command is legal against the explicitly replayed accepted fixture history
+PASS does not prove: permission, native fidelity, or the absence of unsubmitted commands
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000113 outcome=WRITTEN
+PASS: writer
+PASS proves: the reported fixture result was atomically published or matched one prior durable result
+PASS does not prove: checks not listed as PASS for this command or authority outside the injected fixture store
+perimeter: check=durability command_id=CMD-019305f8-ec00-7000-8000-000000000113 store=/home/willi/Research-workspace/KERNEL
+PASS: durability
+PASS proves: the command has exactly one valid durable fixture result in the explicit store inventory
+PASS does not prove: that every native action was submitted or that the inventory covers undisclosed state
+perimeter: check=aggregate explicit_submissions=3 durable_outcomes=3 waiting=0
+PASS: aggregate
+PASS proves: every required check instantiated by this fixture run passed and no selected command remains waiting
+PASS does not prove: live readiness, research truth, Gate C authorization, or state outside the printed fixture perimeter
+view: /home/willi/Research-workspace/KERNEL/views/CALIBRATION.tsv sha256=cc572d7433ea11380f77f40c5b96faf1194eb95a57b9243d2be0872c0dc52a24
+view: /home/willi/Research-workspace/KERNEL/views/EXCEPTIONS.md sha256=f1e8baa3deec4ec1ed5ab65dbfde648556aba764c04c26bf8f17d718cf562470
+view: /home/willi/Research-workspace/KERNEL/views/OPEN_QUESTIONS.md sha256=9c1dd99fb7ca4fc23fad45a88f46df31b5096168103693116ccd081d76c56389
+view: /home/willi/Research-workspace/KERNEL/views/RESOLUTION_QUEUE.md sha256=aaf4cbf8f4f39cabcec7428f069de86ec59882cf3a3dc36b80eaf0b07234e52d
+perimeter: check=durable-results explicit_submissions=3 explicit_results=3 pass_reported_success=true
+PASS: durable-results
+operator-staging: this tool never runs git write commands; stage explicitly, path by path:
+  git add KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000111.json
+  git add KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000112.json
+  git add KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000113.json
+  git add KERNEL/views/CALIBRATION.tsv
+  git add KERNEL/views/EXCEPTIONS.md
+  git add KERNEL/views/OPEN_QUESTIONS.md
+  git add KERNEL/views/RESOLUTION_QUEUE.md
+apply rc=0
+
+### A — STEP 6 idempotent retry 2026-09-02T14:00:44Z
+ M KERNEL/views/CALIBRATION.tsv
+ M KERNEL/views/EXCEPTIONS.md
+ M KERNEL/views/OPEN_QUESTIONS.md
+ M KERNEL/views/RESOLUTION_QUEUE.md
+?? KERNEL/rehearsals/2026-09-02_sitting2-transcript.txt
+?? KERNEL/shadow/events/2026/09/
+retry rc=0
+events byte-identical check:
+sha256sum: /tmp/claude-1000/-home-willi-Research-workspace-PROME/ccba86c3-2af9-4e78-ac88-1ac067d1e634/scratchpad/A_events1.sha: no properly formatted checksum lines found
+views diff excluding render_as_of (expect empty):
+  CALIBRATION.tsv: identical modulo render_as_of
+  EXCEPTIONS.md: identical modulo render_as_of
+  OPEN_QUESTIONS.md: identical modulo render_as_of
+  RESOLUTION_QUEUE.md: identical modulo render_as_of
+run1 vs run2 output diff (expect only clocks):
+3,4c3,4
+< perimeter: activation_id=LIVE-2026-0007 authorized_by=WILL authorization_ref=KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md repository_root=/home/willi/Research-workspace window=2026-09-02T14:00:00.000000Z..2026-09-02T17:00:00.000000Z writer_id=PROME commands=3 recorded_at=2026-09-02T14:00:44.253007Z
+< perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000111 recorded_at=2026-09-02T14:00:44.253007Z
+---
+> perimeter: activation_id=LIVE-2026-0007 authorized_by=WILL authorization_ref=KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md repository_root=/home/willi/Research-workspace window=2026-09-02T14:00:00.000000Z..2026-09-02T17:00:00.000000Z writer_id=PROME commands=3 recorded_at=2026-09-02T14:00:44.405642Z
+> perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000111 recorded_at=2026-09-02T14:00:44.405642Z
+8c8
+< perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000112 recorded_at=2026-09-02T14:00:44.253007Z
+---
+> perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000112 recorded_at=2026-09-02T14:00:44.405642Z
+12c12
+< perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000113 recorded_at=2026-09-02T14:00:44.253007Z
+---
+> perimeter: check=custody writer_id=PROME command_id=CMD-019305f8-ec00-7000-8000-000000000113 recorded_at=2026-09-02T14:00:44.405642Z
+28c28
+< perimeter: check=planning completed=2 ready=3 waiting=0 rejections=0
+---
+> perimeter: check=planning completed=5 ready=0 waiting=0 rejections=0
+32c32
+< perimeter: check=permissions command_id=CMD-019305f8-ec00-7000-8000-000000000111 path=AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000111.json
+### A — STEP 6 (cont.) retry writer outcomes + event hashes 2026-09-02T14:01:03Z
+run2 writer outcomes:
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000111 outcome=EXISTING
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000112 outcome=EXISTING
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000113 outcome=EXISTING
+run2 event writes tell (WRITTEN count run1 vs run2):
+run1: 3  run2: 0
+62f343fd1026e9e4ef5e3c22bc3824180b317ddc79a7372ae1e8f6171e31099a  KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000111.json
+9fc107fbca14faa31428b9e23cca4bfd949ab46815e2ec2113537e6d4d076b90  KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000112.json
+0bd6ec9cf9abadfea4167f7c8fd27f9ff6792a3b0b5f7a7fd1e1c965bfd3e244  KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000113.json
+
+### A — STEP 7 git_policy_check on the printed paths 2026-09-02T14:01:03Z
+PASS: Gate C Git policy instruction check
+perimeter: KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000111.json, KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000112.json, KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000113.json, KERNEL/views/CALIBRATION.tsv, KERNEL/views/EXCEPTIONS.md, KERNEL/views/OPEN_QUESTIONS.md, KERNEL/views/RESOLUTION_QUEUE.md
+proves: no registered unsafe Gate C Git prescription appears in the explicit instruction files
+does_not_prove: runtime Git enforcement or absence of unsafe instructions outside the perimeter
+policy rc=0
+### A — STEP 7 stage exact paths + commit 2026-09-02T14:01:18Z
+---STAGED---
+A	KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000111.json
+A	KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000112.json
+A	KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000113.json
+M	KERNEL/views/CALIBRATION.tsv
+M	KERNEL/views/EXCEPTIONS.md
+M	KERNEL/views/OPEN_QUESTIONS.md
+M	KERNEL/views/RESOLUTION_QUEUE.md
+[master 21ddfdf40] KERNEL: LIVE-2026-0007 (Sitting 2 activation A) — 3 accepted events (CREED 111 Register · 112 Forecast · 113 Register) + 4 views; apply rc=0, idempotent retry outcome=EXISTING x3 (zero event writes), views identical modulo render_as_of; git_policy_check PASS. Custodian PROME, exact pathspecs
+HEAD=21ddfdf4028c369d4f8ce2c15f1068194618554f
+
+### A — STEP 8 verify 2026-09-02T14:01:18Z
+perimeter: check=view-reproduction views_root=/home/willi/Research-workspace/KERNEL/views render_as_of=2026-09-02T14:00:44.405642Z commands=3
+PASS: view-reproduction
+PASS proves: committed registered views equal deterministic renderer output for the stored events
+PASS does not prove: coverage of unregistered repository state or research truth
+check-views rc=0
+perimeter: check=additions-only repository=/home/willi/Research-workspace history=0a857e4f3652c6157db5979d7cfcf84df0f0b107..21ddfdf4028c369d4f8ce2c15f1068194618554f protected=KERNEL/audit/commands/,KERNEL/shadow/events/
+PASS: additions-only
+PASS proves: protected accepted-event and receipt paths contain additions only in the compared history
+PASS does not prove: protection outside the compared range or against the excluded threat model
+audit rc=0
+
+### ACTIVATION B (LIVE-2026-0008) — STEP 2 mint 2026-09-02T14:01:30Z
+KERNEL/GATE_C_SITTING2_ACTIVATION_B_2026-09-02.json source_commit 21ddfdf4028c369d4f8ce2c15f1068194618554f
+10,12c10,12
+<   "source_commit": "TO-BE-RECUT-AT-MINT",
+<   "window_start": "TO-BE-RULED",
+<   "window_end": "TO-BE-RULED",
+---
+>   "source_commit": "21ddfdf4028c369d4f8ce2c15f1068194618554f",
+>   "window_start": "2026-09-02T14:00:00.000000Z",
+>   "window_end": "2026-09-02T17:00:00.000000Z",
+diff rc=1 (expect 3 fields)
+[master 3b23fdc7c] KERNEL: LIVE-2026-0008 minted (Sitting 2 activation B: CREED 114/115/116; 114 <- 113 cross-activation) — window per WQ-103; diff vs draft = source_commit + two window fields only; S2 clean
+
+### B — STEP 3 preflight 2026-09-02T14:01:30Z
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+perimeter: activation_id=LIVE-2026-0008 authorized_by=WILL authorization_ref=KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md repository_root=/home/willi/Research-workspace window=2026-09-02T14:00:00.000000Z..2026-09-02T17:00:00.000000Z writer_id=PROME commands=3 recorded_at=2026-09-02T14:01:30.303122Z
+PASS: custody
+PASS: schema
+PASS: permissions
+PASS: native-reference
+PASS: lifecycle
+PASS: custody
+PASS: schema
+PASS: permissions
+PASS: native-reference
+PASS: lifecycle
+PASS: custody
+PASS: schema
+PASS: permissions
+PASS: native-reference
+preflight-writes: 0 (read-only mode wrote nothing)
+PASS proves: every read-only preflight check passed for the printed perimeter
+PASS does not prove: acceptance, durable results, or state outside this perimeter
+preflight rc=0
+
+### B — STEP 4 BASE + STEP 5 apply 2026-09-02T14:02:16Z
+BASE=3b23fdc7c84b75d95791636d205b91bba5ad73f5
+apply rc=0
+perimeter: check=planning completed=5 ready=3 waiting=0 rejections=0
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000114 outcome=WRITTEN
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000115 outcome=WRITTEN
+perimeter: check=writer command_id=CMD-019305f8-ec00-7000-8000-000000000116 outcome=WRITTEN
+perimeter: check=aggregate explicit_submissions=3 durable_outcomes=3 waiting=0
+PASS: aggregate
+PASS: durable-results
+  git add KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000114.json
+  git add KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000115.json
+  git add KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000116.json
+  git add KERNEL/views/CALIBRATION.tsv
+  git add KERNEL/views/EXCEPTIONS.md
+  git add KERNEL/views/OPEN_QUESTIONS.md
+  git add KERNEL/views/RESOLUTION_QUEUE.md
+
+### B — STEP 6 idempotent retry 2026-09-02T14:02:16Z
+98bdbb39f548fde24c79a60af4558ab7db6bdb55b89fdec11c2c88964cd93cb6  KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000114.json
+97e91dae8b2419b127fe4d51e2777b5ab20f8bc2ba3945998630284a7ed70e24  KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000115.json
+78f7af166a78d501d1139d8d7f9c19daa76d10d33117eb809d33e01120977b8d  KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000116.json
+retry rc=0
+events byte-identical:
+KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000114.json: OK
+KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000115.json: OK
+KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000116.json: OK
+WRITTEN run1=3 run2=0; run2 outcomes: EXISTING EXISTING EXISTING 
+views diff excluding render_as_of (expect all identical):
+  CALIBRATION.tsv: identical modulo render_as_of
+  EXCEPTIONS.md: identical modulo render_as_of
+  OPEN_QUESTIONS.md: identical modulo render_as_of
+  RESOLUTION_QUEUE.md: identical modulo render_as_of
+
+### B — STEP 7 git_policy_check 2026-09-02T14:02:16Z
+PASS: Gate C Git policy instruction check
+policy rc=0
+### B — STEP 7 stage exact paths + commit 2026-09-02T14:02:28Z
+---STAGED---
+A	KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000114.json
+A	KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000115.json
+A	KERNEL/shadow/events/2026/09/EVT-019305f8-ec00-7000-8000-000000000116.json
+M	KERNEL/views/CALIBRATION.tsv
+M	KERNEL/views/EXCEPTIONS.md
+M	KERNEL/views/OPEN_QUESTIONS.md
+M	KERNEL/views/RESOLUTION_QUEUE.md
+[master 579f71ce5] KERNEL: LIVE-2026-0008 (Sitting 2 activation B) — 3 accepted events (CREED 114 Forecast <- 113 CROSS-ACTIVATION first live pass · 115 Register · 116 Forecast) + 4 views; apply rc=0, retry EXISTING x3, events byte-identical, views identical modulo render_as_of; git_policy_check PASS. Custodian PROME, exact pathspecs
+HEAD=579f71ce5112a41df300390c309aa9ed1d8beda0
+
+### B — STEP 8 verify 2026-09-02T14:02:28Z
+perimeter: check=view-reproduction views_root=/home/willi/Research-workspace/KERNEL/views render_as_of=2026-09-02T14:02:16.456215Z commands=3
+PASS: view-reproduction
+PASS proves: committed registered views equal deterministic renderer output for the stored events
+PASS does not prove: coverage of unregistered repository state or research truth
+check-views rc=0
+perimeter: check=additions-only repository=/home/willi/Research-workspace history=3b23fdc7c84b75d95791636d205b91bba5ad73f5..579f71ce5112a41df300390c309aa9ed1d8beda0 protected=KERNEL/audit/commands/,KERNEL/shadow/events/
+PASS: additions-only
+PASS proves: protected accepted-event and receipt paths contain additions only in the compared history
+PASS does not prove: protection outside the compared range or against the excluded threat model
+audit rc=0
+
+### ACTIVATION C (LIVE-2026-0009) — STEP 2 mint 2026-09-02T14:03:02Z
+KERNEL/GATE_C_SITTING2_ACTIVATION_C_2026-09-02.json source_commit 579f71ce5112a41df300390c309aa9ed1d8beda0
+10,12c10,12
+<   "source_commit": "TO-BE-RECUT-AT-MINT",
+<   "window_start": "TO-BE-RULED",
+<   "window_end": "TO-BE-RULED",
+---
+>   "source_commit": "579f71ce5112a41df300390c309aa9ed1d8beda0",
+>   "window_start": "2026-09-02T14:00:00.000000Z",
+>   "window_end": "2026-09-02T17:00:00.000000Z",
+[master b7c3f55be] KERNEL: LIVE-2026-0009 minted (Sitting 2 activation C: LIQUID Q ...2ec64473 + LIQUID F ...c3af5d65 + REGINALD a1 Register) — window per WQ-103; diff vs draft = source_commit + two window fields only; S2 clean
+
+### C — STEP 3 preflight 2026-09-02T14:03:02Z
+      1 PASS does not prove: acceptance, durable results, or state outside this perimeter
+      1 PASS proves: every read-only preflight check passed for the printed perimeter
+      3 PASS: custody
+      2 PASS: lifecycle
+      3 PASS: native-reference
+      3 PASS: permissions
+      3 PASS: schema
+      1 preflight-writes: 0 (read-only mode wrote nothing)
+preflight rc=0
+
+### C — STEP 4 BASE + STEP 5 apply 2026-09-02T14:03:02Z
+BASE=b7c3f55be3625798a0d3c057c7498af3d4a498fd
+apply rc=0
+perimeter: check=planning completed=8 ready=3 waiting=0 rejections=0
+perimeter: check=writer command_id=CMD-019306b4-1a00-7000-8000-0000000000a1 outcome=WRITTEN
+perimeter: check=writer command_id=CMD-01a04562-3bfe-7741-a320-74502ec64473 outcome=WRITTEN
+perimeter: check=writer command_id=CMD-01a04562-3bfe-752f-9347-a1c2c3af5d65 outcome=WRITTEN
+perimeter: check=aggregate explicit_submissions=3 durable_outcomes=3 waiting=0
+PASS: aggregate
+PASS: durable-results
+  git add KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a1.json
+  git add KERNEL/shadow/events/2026/09/EVT-01a04562-3bfe-7741-a320-74502ec64473.json
+  git add KERNEL/shadow/events/2026/09/EVT-01a04562-3bfe-752f-9347-a1c2c3af5d65.json
+  git add KERNEL/views/CALIBRATION.tsv
+  git add KERNEL/views/EXCEPTIONS.md
+  git add KERNEL/views/OPEN_QUESTIONS.md
+  git add KERNEL/views/RESOLUTION_QUEUE.md
+
+### C — STEP 6 idempotent retry 2026-09-02T14:03:02Z
+a684354c1767d8f54ab4b2ebeb589215631f366f0a7307b59c8573d77775391b  KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a1.json
+90ee7e458c6b401a7e80c6b51e0c64b0c4086e9994ade69c995547fb0c10dc88  KERNEL/shadow/events/2026/09/EVT-01a04562-3bfe-7741-a320-74502ec64473.json
+61b3311d1689cf5155c54a643a48200bdb23de7c17cedc0dc81bc5819470f5c5  KERNEL/shadow/events/2026/09/EVT-01a04562-3bfe-752f-9347-a1c2c3af5d65.json
+retry rc=0
+KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a1.json: OK
+KERNEL/shadow/events/2026/09/EVT-01a04562-3bfe-7741-a320-74502ec64473.json: OK
+KERNEL/shadow/events/2026/09/EVT-01a04562-3bfe-752f-9347-a1c2c3af5d65.json: OK
+WRITTEN run1=3 run2=0; run2 outcomes: EXISTING EXISTING EXISTING 
+  CALIBRATION.tsv: identical modulo render_as_of
+  EXCEPTIONS.md: identical modulo render_as_of
+  OPEN_QUESTIONS.md: identical modulo render_as_of
+  RESOLUTION_QUEUE.md: identical modulo render_as_of
+
+### C — STEP 7 git_policy_check + stage exact paths + commit 2026-09-02T14:03:03Z
+PASS: Gate C Git policy instruction check
+---STAGED---
+A	KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a1.json
+A	KERNEL/shadow/events/2026/09/EVT-01a04562-3bfe-752f-9347-a1c2c3af5d65.json
+A	KERNEL/shadow/events/2026/09/EVT-01a04562-3bfe-7741-a320-74502ec64473.json
+M	KERNEL/views/CALIBRATION.tsv
+M	KERNEL/views/EXCEPTIONS.md
+M	KERNEL/views/OPEN_QUESTIONS.md
+M	KERNEL/views/RESOLUTION_QUEUE.md
+[master d63a63be3] KERNEL: LIVE-2026-0009 (Sitting 2 activation C) — accepted events (LIQUID Q ...2ec64473 + LIQUID F ...c3af5d65 + REGINALD a1 Register) + 4 views; apply rc=0, retry EXISTING (zero event writes), events byte-identical, views identical modulo render_as_of; git_policy_check PASS. Custodian PROME, exact pathspecs
+HEAD=d63a63be3339d6843e4508178919e2e4a7e816cf
+
+### C — STEP 8 verify 2026-09-02T14:03:03Z
+perimeter: check=view-reproduction views_root=/home/willi/Research-workspace/KERNEL/views render_as_of=2026-09-02T14:03:03.066426Z commands=3
+PASS: view-reproduction
+PASS proves: committed registered views equal deterministic renderer output for the stored events
+PASS does not prove: coverage of unregistered repository state or research truth
+check-views rc=0
+perimeter: check=additions-only repository=/home/willi/Research-workspace history=b7c3f55be3625798a0d3c057c7498af3d4a498fd..d63a63be3339d6843e4508178919e2e4a7e816cf protected=KERNEL/audit/commands/,KERNEL/shadow/events/
+PASS: additions-only
+PASS proves: protected accepted-event and receipt paths contain additions only in the compared history
+PASS does not prove: protection outside the compared range or against the excluded threat model
+audit rc=0
+✅ ACTIVATION C COMPLETE 2026-09-02T14:03:03Z
+
+### ACTIVATION D (LIVE-2026-0010) — STEP 2 mint 2026-09-02T14:03:12Z
+KERNEL/GATE_C_SITTING2_ACTIVATION_D_2026-09-02.json source_commit d63a63be3339d6843e4508178919e2e4a7e816cf
+10,12c10,12
+<   "source_commit": "TO-BE-RECUT-AT-MINT",
+<   "window_start": "TO-BE-RULED",
+<   "window_end": "TO-BE-RULED",
+---
+>   "source_commit": "d63a63be3339d6843e4508178919e2e4a7e816cf",
+>   "window_start": "2026-09-02T14:00:00.000000Z",
+>   "window_end": "2026-09-02T17:00:00.000000Z",
+[master 7de7bb54c] KERNEL: LIVE-2026-0010 minted (Sitting 2 activation D: REGINALD a2 Forecast <- a1 CROSS-ACTIVATION + a6 Register + a7 Forecast) — window per WQ-103; diff vs draft = source_commit + two window fields only; S2 clean
+
+### D — STEP 3 preflight 2026-09-02T14:03:12Z
+      1 PASS does not prove: acceptance, durable results, or state outside this perimeter
+      1 PASS proves: every read-only preflight check passed for the printed perimeter
+      3 PASS: custody
+      2 PASS: lifecycle
+      3 PASS: native-reference
+      3 PASS: permissions
+      3 PASS: schema
+      1 preflight-writes: 0 (read-only mode wrote nothing)
+preflight rc=0
+
+### D — STEP 4 BASE + STEP 5 apply 2026-09-02T14:03:12Z
+BASE=7de7bb54cdaef4605537131cbe4a80a63a9dd967
+apply rc=0
+perimeter: check=planning completed=11 ready=3 waiting=0 rejections=0
+perimeter: check=writer command_id=CMD-019306b4-1a00-7000-8000-0000000000a2 outcome=WRITTEN
+perimeter: check=writer command_id=CMD-019306b4-1a00-7000-8000-0000000000a6 outcome=WRITTEN
+perimeter: check=writer command_id=CMD-019306b4-1a00-7000-8000-0000000000a7 outcome=WRITTEN
+perimeter: check=aggregate explicit_submissions=3 durable_outcomes=3 waiting=0
+PASS: aggregate
+PASS: durable-results
+  git add KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a2.json
+  git add KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a6.json
+  git add KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a7.json
+  git add KERNEL/views/CALIBRATION.tsv
+  git add KERNEL/views/EXCEPTIONS.md
+  git add KERNEL/views/OPEN_QUESTIONS.md
+  git add KERNEL/views/RESOLUTION_QUEUE.md
+
+### D — STEP 6 idempotent retry 2026-09-02T14:03:13Z
+1e193c1a0befe78471396f20a301b794cd716e6a4fcee58aab5f4eef3ca85371  KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a2.json
+f862cace890dc70fea11d59e2e9125b8debf366b27711afd96d568fb62f65533  KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a6.json
+edf233fce3492ed8807117716268d699b2472a5684a7ec9a8e9b20e5966c09e0  KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a7.json
+retry rc=0
+KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a2.json: OK
+KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a6.json: OK
+KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a7.json: OK
+WRITTEN run1=3 run2=0; run2 outcomes: EXISTING EXISTING EXISTING 
+  CALIBRATION.tsv: identical modulo render_as_of
+  EXCEPTIONS.md: identical modulo render_as_of
+  OPEN_QUESTIONS.md: identical modulo render_as_of
+  RESOLUTION_QUEUE.md: identical modulo render_as_of
+
+### D — STEP 7 git_policy_check + stage exact paths + commit 2026-09-02T14:03:13Z
+PASS: Gate C Git policy instruction check
+---STAGED---
+A	KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a2.json
+A	KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a6.json
+A	KERNEL/shadow/events/2026/09/EVT-019306b4-1a00-7000-8000-0000000000a7.json
+M	KERNEL/views/CALIBRATION.tsv
+M	KERNEL/views/EXCEPTIONS.md
+M	KERNEL/views/OPEN_QUESTIONS.md
+M	KERNEL/views/RESOLUTION_QUEUE.md
+[master 0f879395f] KERNEL: LIVE-2026-0010 (Sitting 2 activation D) — accepted events (REGINALD a2 Forecast <- a1 CROSS-ACTIVATION + a6 Register + a7 Forecast) + 4 views; apply rc=0, retry EXISTING (zero event writes), events byte-identical, views identical modulo render_as_of; git_policy_check PASS. Custodian PROME, exact pathspecs
+HEAD=0f879395f9489d14ea27611fe37bb9278834305f
+
+### D — STEP 8 verify 2026-09-02T14:03:13Z
+perimeter: check=view-reproduction views_root=/home/willi/Research-workspace/KERNEL/views render_as_of=2026-09-02T14:03:13.125595Z commands=3
+PASS: view-reproduction
+PASS proves: committed registered views equal deterministic renderer output for the stored events
+PASS does not prove: coverage of unregistered repository state or research truth
+check-views rc=0
+perimeter: check=additions-only repository=/home/willi/Research-workspace history=7de7bb54cdaef4605537131cbe4a80a63a9dd967..0f879395f9489d14ea27611fe37bb9278834305f protected=KERNEL/audit/commands/,KERNEL/shadow/events/
+PASS: additions-only
+PASS proves: protected accepted-event and receipt paths contain additions only in the compared history
+PASS does not prove: protection outside the compared range or against the excluded threat model
+audit rc=0
+✅ ACTIVATION D COMPLETE 2026-09-02T14:03:13Z
+
+### GRANTS PROMOTION (runbook §Grants promotion — between D and E) 2026-09-02T14:03:35Z
+pre: live 6e73c29e9abd16270575cf1c0ba316c24c72d89ebb9e7e13099f5a2f6e9960de  KERNEL/policies/capability-grants.json
+pre: draft a1fec8198ab9ac41e04da6e445906714fbad193f975ce5a1573362b44aba6f8c  KERNEL/policies/capability-grants.json.sitting2-draft
+post: live a1fec8198ab9ac41e04da6e445906714fbad193f975ce5a1573362b44aba6f8c  KERNEL/policies/capability-grants.json
+HASH == a1fec819 ✅
+ KERNEL/policies/capability-grants.json | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+[master 53293f461] KERNEL: Sitting-2 GRANTS PROMOTION — capability-grants.json.sitting2-draft byte-copied onto the live path KERNEL/policies/capability-grants.json, sha256 a1fec8198ab9ac41e04da6e445906714fbad193f975ce5a1573362b44aba6f8c verified; runbook §Grants promotion, sequenced AFTER activation D (LIVE-2026-0010 landed 0f879395f) and BEFORE E. Custodian PROME under root Gate C custody (approved policy/registry versions), single explicit path; .sitting2-draft retained as the finalization record
+KERNEL/policies/capability-grants.json.sitting2-draft
+draft retained on disk
+
+### ACTIVATION E (LIVE-2026-0011) — STEP 2 mint BEFORE step 1 (MIDAS refused its C1 commit under root carve-out ④ leg 1/3 with E still a DRAFT — correct; the mint is what activates the desk grant) 2026-09-02T14:05:23Z
+KERNEL/GATE_C_SITTING2_ACTIVATION_E_2026-09-02.json source_commit 53293f461887075ec55fc93dcb6f5dd9dffa6512
+10,12c10,12
+<   "source_commit": "TO-BE-RECUT-AT-MINT",
+<   "window_start": "TO-BE-RULED",
+<   "window_end": "TO-BE-RULED",
+---
+>   "source_commit": "53293f461887075ec55fc93dcb6f5dd9dffa6512",
+>   "window_start": "2026-09-02T14:00:00.000000Z",
+>   "window_end": "2026-09-02T17:00:00.000000Z",
+diff rc=1 (3 fields)
+E capabilities pin vs live grants:
+  "capabilities_sha256": "a1fec8198ab9ac41e04da6e445906714fbad193f975ce5a1573362b44aba6f8c",
+a1fec8198ab9ac41e04da6e445906714fbad193f975ce5a1573362b44aba6f8c  KERNEL/policies/capability-grants.json
+[master 813d40e06] KERNEL: LIVE-2026-0011 minted (Sitting 2 activation E: MIDAS 006a Register · 006b Forecast · 006c Close) — window per WQ-103; diff vs draft = source_commit + two window fields only; capabilities pin a1fec819 == live grants post-promotion (53293f461). Minted BEFORE MIDAS's step-1 commit: MIDAS correctly refused under root carve-out ④ (E was DRAFT/undated); this mint is the packet that names its paths and activates the desk grant
+813d40e061bbe0188aa90bafaa554c1cf7df0b29
+Wed Sep  2 14:05:23 UTC 2026
+
+### E — STEP 1 (desk commit) VERIFIED AT ARTIFACT 2026-09-02T14:06:56Z
+3a4d996a976477ac2220c7d86aa4081b211e0b52 2026-09-02 10:06:27 -0400 williepowen-debug MIDAS -> KERNEL: activation-1 submissions committed under Gate C carve-out ④ (LIVE-2026-0011, sitting 2 window E)
+
+ .../kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006a.json     | 1 +
+ .../kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006b.json     | 1 +
+ .../kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006c.json     | 1 +
+ 3 files changed, 3 insertions(+)
+in HEAD ✅
+20b200ff2d01d62389e3b708cb7f12481606aa7b7017adc48168cd36e5a9037c  AGENTS/MIDAS/outbox/kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006a.json
+9ccbde6d4e334b462a0d9ca26157efed6f79b3b046a8ad160a0646593a8fee0d  AGENTS/MIDAS/outbox/kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006b.json
+6dace933866f2126b6fd9ad5a29e9f6097bf6415941d99718d4fcbf05854e32a  AGENTS/MIDAS/outbox/kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006c.json
+
+### ACTIVATION E (LIVE-2026-0011) — STEP 3 preflight 2026-09-02T14:07:01Z
+      1 PASS does not prove: acceptance, durable results, or state outside this perimeter
+      1 PASS proves: every read-only preflight check passed for the printed perimeter
+      3 PASS: custody
+      1 PASS: lifecycle
+      3 PASS: native-reference
+      3 PASS: permissions
+      3 PASS: schema
+      1 preflight-writes: 0 (read-only mode wrote nothing)
+preflight rc=0
+
+### E — STEP 4 BASE + STEP 5 apply 2026-09-02T14:07:01Z
+BASE=3a4d996a976477ac2220c7d86aa4081b211e0b52
+apply rc=0
+perimeter: check=planning completed=14 ready=3 waiting=0 rejections=0
+perimeter: check=writer command_id=CMD-019306a1-4c00-7000-8000-00000000006a outcome=WRITTEN
+perimeter: check=writer command_id=CMD-019306a1-4c00-7000-8000-00000000006b outcome=WRITTEN
+perimeter: check=writer command_id=CMD-019306a1-4c00-7000-8000-00000000006c outcome=WRITTEN
+perimeter: check=aggregate explicit_submissions=3 durable_outcomes=3 waiting=0
+PASS: aggregate
+PASS: durable-results
+  git add KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006a.json
+  git add KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006b.json
+  git add KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006c.json
+  git add KERNEL/views/CALIBRATION.tsv
+  git add KERNEL/views/EXCEPTIONS.md
+  git add KERNEL/views/OPEN_QUESTIONS.md
+  git add KERNEL/views/RESOLUTION_QUEUE.md
+
+### E — STEP 6 idempotent retry 2026-09-02T14:07:01Z
+dd764c5719dbd88a2b55cc84cbd5265f7a4f4251a3679ca2d0ce356de6b7aaf9  KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006a.json
+a6976e8fea3ed7d795d96c85e47d01fc26c9a2ffb9a9e4b1bce6c64fa372406b  KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006b.json
+e6439bbaa3263d714189a7511d93accdd37233086b6701dd76ed4b58e3de20f5  KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006c.json
+retry rc=0
+KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006a.json: OK
+KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006b.json: OK
+KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006c.json: OK
+WRITTEN run1=3 run2=0; run2 outcomes: EXISTING EXISTING EXISTING 
+  CALIBRATION.tsv: identical modulo render_as_of
+  EXCEPTIONS.md: identical modulo render_as_of
+  OPEN_QUESTIONS.md: identical modulo render_as_of
+  RESOLUTION_QUEUE.md: identical modulo render_as_of
+
+### E — STEP 7 git_policy_check + stage exact paths + commit 2026-09-02T14:07:01Z
+PASS: Gate C Git policy instruction check
+---STAGED---
+A	KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006a.json
+A	KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006b.json
+A	KERNEL/shadow/events/2026/09/EVT-019306a1-4c00-7000-8000-00000000006c.json
+M	KERNEL/views/CALIBRATION.tsv
+M	KERNEL/views/EXCEPTIONS.md
+M	KERNEL/views/OPEN_QUESTIONS.md
+M	KERNEL/views/RESOLUTION_QUEUE.md
+[master 879158dc0] KERNEL: LIVE-2026-0011 (Sitting 2 activation E) — accepted events (MIDAS 006a RegisterQuestion + 006b SubmitForecast + 006c CloseQuestion (MIDAS-06)) + 4 views; apply rc=0, retry EXISTING (zero event writes), events byte-identical, views identical modulo render_as_of; git_policy_check PASS. Custodian PROME, exact pathspecs
+HEAD=879158dc0afbae0f32669f06b46d7d7c66cd3c6f
+
+### E — STEP 8 verify 2026-09-02T14:07:01Z
+perimeter: check=view-reproduction views_root=/home/willi/Research-workspace/KERNEL/views render_as_of=2026-09-02T14:07:01.573871Z commands=3
+PASS: view-reproduction
+PASS proves: committed registered views equal deterministic renderer output for the stored events
+PASS does not prove: coverage of unregistered repository state or research truth
+check-views rc=0
+perimeter: check=additions-only repository=/home/willi/Research-workspace history=3a4d996a976477ac2220c7d86aa4081b211e0b52..879158dc0afbae0f32669f06b46d7d7c66cd3c6f protected=KERNEL/audit/commands/,KERNEL/shadow/events/
+PASS: additions-only
+PASS proves: protected accepted-event and receipt paths contain additions only in the compared history
+PASS does not prove: protection outside the compared range or against the excluded threat model
+audit rc=0
+✅ ACTIVATION E COMPLETE 2026-09-02T14:07:02Z
+
+### ACTIVATION F (LIVE-2026-0012, resolution pair) — STEP 2 mint from both desks' bytes (RED file un-staged, hash as reported 51763d23…) 2026-09-02T14:10:10Z
+?? AGENTS/RED/outbox/kernel/submissions/
+RED companion commit ab909bb63 in HEAD ✅
+KERNEL/GATE_C_SITTING2_ACTIVATION_F_2026-09-02.json source_commit ab909bb63dc10dbb9628f5fae2c5b41f1866d081
+MIDAS 8bb18ca2caaa69cdd91153ead37b7fa91878743aca0812314bb56b605eb88f4a
+RED   51763d230eec5647179f037848a676558c13a849409a791bd3b280f8f1a413fb CMD-01a06273-bff9-7eb3-8390-fef3df579d9c
+RED reported hash == pinned ✅
+--- F diff vs E (expect activation_id, source_commit, commands, event_ids only) ---
+4c4
+<   "activation_id": "LIVE-2026-0011",
+---
+>   "activation_id": "LIVE-2026-0012",
+10c10
+<   "source_commit": "53293f461887075ec55fc93dcb6f5dd9dffa6512",
+---
+>   "source_commit": "ab909bb63dc10dbb9628f5fae2c5b41f1866d081",
+17,19c17,19
+<       "command_id": "CMD-019306a1-4c00-7000-8000-00000000006a",
+<       "path": "AGENTS/MIDAS/outbox/kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006a.json",
+<       "sha256": "20b200ff2d01d62389e3b708cb7f12481606aa7b7017adc48168cd36e5a9037c"
+---
+>       "command_id": "CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d",
+>       "path": "AGENTS/MIDAS/outbox/kernel/submissions/CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json",
+>       "sha256": "8bb18ca2caaa69cdd91153ead37b7fa91878743aca0812314bb56b605eb88f4a"
+22,29c22,24
+<       "command_id": "CMD-019306a1-4c00-7000-8000-00000000006b",
+<       "path": "AGENTS/MIDAS/outbox/kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006b.json",
+<       "sha256": "9ccbde6d4e334b462a0d9ca26157efed6f79b3b046a8ad160a0646593a8fee0d"
+<     },
+<     {
+<       "command_id": "CMD-019306a1-4c00-7000-8000-00000000006c",
+<       "path": "AGENTS/MIDAS/outbox/kernel/submissions/CMD-019306a1-4c00-7000-8000-00000000006c.json",
+<       "sha256": "6dace933866f2126b6fd9ad5a29e9f6097bf6415941d99718d4fcbf05854e32a"
+---
+>       "command_id": "CMD-01a06273-bff9-7eb3-8390-fef3df579d9c",
+>       "path": "AGENTS/RED/outbox/kernel/submissions/CMD-01a06273-bff9-7eb3-8390-fef3df579d9c.json",
+>       "sha256": "51763d230eec5647179f037848a676558c13a849409a791bd3b280f8f1a413fb"
+39,41c34,35
+<     "CMD-019306a1-4c00-7000-8000-00000000006a": "EVT-019306a1-4c00-7000-8000-00000000006a",
+<     "CMD-019306a1-4c00-7000-8000-00000000006b": "EVT-019306a1-4c00-7000-8000-00000000006b",
+<     "CMD-019306a1-4c00-7000-8000-00000000006c": "EVT-019306a1-4c00-7000-8000-00000000006c"
+---
+>     "CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d": "EVT-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d",
+>     "CMD-01a06273-bff9-7eb3-8390-fef3df579d9c": "EVT-01a06273-bff9-7eb3-8390-fef3df579d9c"
+[master 16a47364c] KERNEL: LIVE-2026-0012 minted (Sitting 2 activation F — the resolution pair, WQ-149 as executed): MIDAS ProposeResolution CMD-01a05d61 (sha256 8bb18ca2…, committed b7e839238 9/1 14:32Z inside Will's ruled [14:30Z,17:30Z) with no activation live — accepted under runbook §successor scope per the DAEDALUS standing ruling, circumstance stated in the sitting ruling record) + RED VerifyResolution CMD-01a06273 (sha256 51763d23…, authored un-staged, RED commits under this live packet). Window per WQ-103; policy pins == live post-promotion; S2 clean; cut from both desks' bytes per SITTING2_PREP §5.6
+16a47364c427c628499fd97339b875f7ffd79701
+Wed Sep  2 14:10:10 UTC 2026
+
+### F — STEP 1 (RED commit) VERIFIED AT ARTIFACT + index check 2026-09-02T14:11:47Z
+20caea9aa0464f9eacc6395805553b8320a0e760 2026-09-02 10:11:26 -0400 RED: submit MIDAS-06 VerifyResolution under LIVE-2026-0012 (Sitting 2 activation F)
+
+ .../CMD-01a06273-bff9-7eb3-8390-fef3df579d9c.json  | 40 ++++++++++++++++++++++
+ 1 file changed, 40 insertions(+)
+in HEAD ✅
+51763d230eec5647179f037848a676558c13a849409a791bd3b280f8f1a413fb  AGENTS/RED/outbox/kernel/submissions/CMD-01a06273-bff9-7eb3-8390-fef3df579d9c.json
+8bb18ca2caaa69cdd91153ead37b7fa91878743aca0812314bb56b605eb88f4a  AGENTS/MIDAS/outbox/kernel/submissions/CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json
+STAGED (shared index):
+R100	AGENTS/REGINALD/inbox/WALTER/SIG-W-20260901-001-alt-managers-fell-3-to-5pct-on-a-global-bond-selloff-day-and-no-bcred-tender-result-has-been-filed-the-circulating-1-7bn-is-the-old-print.md	AGENTS/REGINALD/inbox/WALTER/processed/SIG-W-20260901-001-alt-managers-fell-3-to-5pct-on-a-global-bond-selloff-day-and-no-bcred-tender-result-has-been-filed-the-circulating-1-7bn-is-the-old-print.md
+R100	AGENTS/REGINALD/inbox/2026-09-01_from-TERRY_yes-carry-the-Oct-1-WAL-Q3-date-confirm-as-a-dated-obligation-plus-REG-T-02-roll-card-built-on-your-fire.md	AGENTS/REGINALD/inbox/processed/2026-09-01_from-TERRY_yes-carry-the-Oct-1-WAL-Q3-date-confirm-as-a-dated-obligation-plus-REG-T-02-roll-card-built-on-your-fire.md
+
+### F — STEP 3 preflight (read-only; step 7 commit HELD until REGINALD clears its staged renames) 2026-09-02T14:12:00Z
+notice: SHADOW — NON-AUTHORITATIVE
+mode: LIVE_SHADOW_PREFLIGHT
+perimeter: activation_id=LIVE-2026-0012 authorized_by=WILL authorization_ref=KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md repository_root=/home/willi/Research-workspace window=2026-09-02T14:00:00.000000Z..2026-09-02T17:00:00.000000Z writer_id=PROME commands=2 recorded_at=2026-09-02T14:12:01.054150Z
+perimeter: check=custody command_id=CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d preflight=read_only
+PASS: native-reference
+perimeter: check=lifecycle command_id=CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d preflight=read_only
+PASS: lifecycle
+perimeter: check=lifecycle command_id=CMD-01a06273-bff9-7eb3-8390-fef3df579d9c preflight=deferred_pending_dependency
+perimeter: check=custody command_id=CMD-01a06273-bff9-7eb3-8390-fef3df579d9c preflight=read_only
+PASS: custody
+perimeter: check=schema command_id=CMD-01a06273-bff9-7eb3-8390-fef3df579d9c preflight=read_only
+PASS: schema
+perimeter: check=permissions command_id=CMD-01a06273-bff9-7eb3-8390-fef3df579d9c preflight=read_only
+PASS: permissions
+perimeter: check=native-reference command_id=CMD-01a06273-bff9-7eb3-8390-fef3df579d9c preflight=read_only
+PASS: native-reference
+preflight-writes: 0 (read-only mode wrote nothing)
+preflight rc=0
+
+### F — index cleared by REGINALD commit 3b45aa60c at 14:12:31Z; proceeding steps 3-8 2026-09-02T14:12:41Z
+
+### ACTIVATION F (LIVE-2026-0012) — STEP 3 preflight 2026-09-02T14:12:41Z
+      1 PASS does not prove: acceptance, durable results, or state outside this perimeter
+      1 PASS proves: every read-only preflight check passed for the printed perimeter
+      2 PASS: custody
+      1 PASS: lifecycle
+      2 PASS: native-reference
+      2 PASS: permissions
+      2 PASS: schema
+      1 preflight-writes: 0 (read-only mode wrote nothing)
+preflight rc=0
+
+### F — STEP 4 BASE + STEP 5 apply 2026-09-02T14:12:41Z
+BASE=3b45aa60c16abe5876a98e7c9740988ffd87013f
+apply rc=0
+perimeter: check=planning completed=17 ready=2 waiting=0 rejections=0
+perimeter: check=writer command_id=CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d outcome=WRITTEN
+perimeter: check=writer command_id=CMD-01a06273-bff9-7eb3-8390-fef3df579d9c outcome=WRITTEN
+perimeter: check=aggregate explicit_submissions=2 durable_outcomes=2 waiting=0
+PASS: aggregate
+PASS: durable-results
+  git add KERNEL/shadow/events/2026/09/EVT-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json
+  git add KERNEL/shadow/events/2026/09/EVT-01a06273-bff9-7eb3-8390-fef3df579d9c.json
+  git add KERNEL/views/CALIBRATION.tsv
+  git add KERNEL/views/EXCEPTIONS.md
+  git add KERNEL/views/OPEN_QUESTIONS.md
+  git add KERNEL/views/RESOLUTION_QUEUE.md
+
+### F — STEP 6 idempotent retry 2026-09-02T14:12:42Z
+b757124ba38873a842e2a3279abf692e5e14aab02477824eeec5a8c40a4c550a  KERNEL/shadow/events/2026/09/EVT-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json
+5016a4b22c277b726bb33eb07bc3620d3afbbbb69da3f45cc368ddc3b6bd657d  KERNEL/shadow/events/2026/09/EVT-01a06273-bff9-7eb3-8390-fef3df579d9c.json
+retry rc=0
+KERNEL/shadow/events/2026/09/EVT-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json: OK
+KERNEL/shadow/events/2026/09/EVT-01a06273-bff9-7eb3-8390-fef3df579d9c.json: OK
+WRITTEN run1=2 run2=0; run2 outcomes: EXISTING EXISTING 
+  CALIBRATION.tsv: identical modulo render_as_of
+  EXCEPTIONS.md: identical modulo render_as_of
+  OPEN_QUESTIONS.md: identical modulo render_as_of
+  RESOLUTION_QUEUE.md: identical modulo render_as_of
+
+### F — STEP 7 git_policy_check + stage exact paths + commit 2026-09-02T14:12:42Z
+PASS: Gate C Git policy instruction check
+---STAGED---
+A	KERNEL/shadow/events/2026/09/EVT-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json
+A	KERNEL/shadow/events/2026/09/EVT-01a06273-bff9-7eb3-8390-fef3df579d9c.json
+M	KERNEL/views/CALIBRATION.tsv
+M	KERNEL/views/EXCEPTIONS.md
+M	KERNEL/views/OPEN_QUESTIONS.md
+M	KERNEL/views/RESOLUTION_QUEUE.md
+[master d37277f90] KERNEL: LIVE-2026-0012 (Sitting 2 activation F) — accepted events (MIDAS ProposeResolution CMD-01a05d61 YES + RED VerifyResolution CMD-01a06273 YES — MIDAS-06 RESOLVED) + 4 views; apply rc=0, retry EXISTING (zero event writes), events byte-identical, views identical modulo render_as_of; git_policy_check PASS. Custodian PROME, exact pathspecs
+HEAD=d37277f90d7b198ad4b91a6dd33807fc78a8c9b9
+
+### F — STEP 8 verify 2026-09-02T14:12:42Z
+perimeter: check=view-reproduction views_root=/home/willi/Research-workspace/KERNEL/views render_as_of=2026-09-02T14:12:42.149129Z commands=2
+PASS: view-reproduction
+PASS proves: committed registered views equal deterministic renderer output for the stored events
+PASS does not prove: coverage of unregistered repository state or research truth
+check-views rc=0
+perimeter: check=additions-only repository=/home/willi/Research-workspace history=3b45aa60c16abe5876a98e7c9740988ffd87013f..d37277f90d7b198ad4b91a6dd33807fc78a8c9b9 protected=KERNEL/audit/commands/,KERNEL/shadow/events/
+PASS: additions-only
+PASS proves: protected accepted-event and receipt paths contain additions only in the compared history
+PASS does not prove: protection outside the compared range or against the excluded threat model
+audit rc=0
+✅ ACTIVATION F COMPLETE 2026-09-02T14:12:42Z
+
+### RESOLUTION STATE IN VIEWS 2026-09-02T14:13:08Z
+KERNEL/views/CALIBRATION.tsv:14:Q-019306a1-4c00-7000-8000-00000000006a	F-019306a1-4c00-7000-8000-00000000006a	1	0.45	YES		OUTCOME_VOCABULARY_MISMATCH
+
+### STEP 9 — AFFIRMATIVE CLOSE of all six activations (C8 N3) 2026-09-02T14:13:08Z
+revoked_at=2026-09-02T14:13:08.190997Z
+GATE_C_SITTING2_ACTIVATION_A_2026-09-02.json revoked_at set
+GATE_C_SITTING2_ACTIVATION_B_2026-09-02.json revoked_at set
+GATE_C_SITTING2_ACTIVATION_C_2026-09-02.json revoked_at set
+GATE_C_SITTING2_ACTIVATION_D_2026-09-02.json revoked_at set
+GATE_C_SITTING2_ACTIVATION_E_2026-09-02.json revoked_at set
+GATE_C_SITTING2_ACTIVATION_F_2026-09-02.json revoked_at set
+ 6 files changed, 6 insertions(+), 6 deletions(-)
+post-revocation preflight on F must REFUSE (window closed) — fail-closed proof:
+LIVE_WINDOW_REFUSED	$.window_end	window is closed (now=2026-09-02T14:13:08.415893Z end=2026-09-02T14:13:08.190997Z)
+PASS proves: nothing; the requested live operation was refused before any write
+PASS does not prove: live readiness, research truth, or authorization
+rc=1 (non-zero expected)
+[master 78d8b5b37] KERNEL: Sitting 2 AFFIRMATIVELY CLOSED (C8 N3) — revoked_at 2026-09-02T14:13:08.190997Z set on all six activations LIVE-2026-0007..0012 (A-F); 17 events accepted (12 Increment-2 + MIDAS-06 Register/Forecast/Close + Propose/Verify), zero refusals, zero rejected receipts; post-revocation preflight refuses (fail-closed proved). Custodian PROME, six explicit paths
+
+### POST-SITTING SUITE RE-RUN (C8 N4) 2026-09-02T14:13:22Z
+............................................ [ 95%]
+.........                                                                [100%]
+220 passed, 77 subtests passed in 12.68s
