@@ -61,13 +61,27 @@ BOOT_SEQUENCE = [
 # vocabulary of failure, or the collapsed view is an advert for the happy path.
 # When in doubt add the marker -- a false positive costs one line of screen; a
 # false negative costs a session run on data that was never fetched.
+# Failure vocabulary is matched CASE-INSENSITIVELY and lives in its own tuple.
+# ⚠️ 2026-09-01 (second fix, same night — external review via PROME): the first
+# version listed "UNAVAILABLE" and "MISSING" in UPPER CASE only, so real output
+# like "AAA unavailable" or "empty or missing" still matched NOTHING. Listing a
+# few hand-picked lowercase variants is not a fix either -- it is the same bug
+# with more entries. These are casefolded at match time so every variant catches.
+#
+# ⛔ Do NOT casefold KEY_MARKERS below. Those are status tokens and several are
+# short enough to over-match once case is dropped: "RED" is already a substring of
+# "RETIRED", "REQUIRED" and "COVERED", and casefolding would add "predicted",
+# "credit", "reduced". Collapsed mode would stop collapsing anything, which fails
+# the other way -- a view that shows everything hides just as effectively.
+FAILURE_MARKERS_CF = tuple(m.casefold() for m in (
+    "ERROR", "FAIL", "Traceback", "Exception", "Could not", "Unable",
+    "SKIP", "TIMEOUT", "timed out", "404", "403", "429", "500", "refused",
+    "NOT PULLED", "unavailable", "CANNOT", "missing", "no data", "NOT FOUND",
+    "STALE", "RETIRED", "BLOCKED", "PAYWALL", "not computable", "could not be",
+    "no fresh", "not found", "aborted", "denied", "invalid", "empty",
+))
+
 KEY_MARKERS = (
-    # --- failure / non-delivery (added 2026-09-01; these must never be collapsed) ---
-    "ERROR", "Error", "error", "FAIL", "Fail", "Traceback", "Exception",
-    "Could not", "could not", "Unable", "unable", "SKIP", "TIMEOUT", "Timeout",
-    "timed out", "404", "403", "429", "500", "refused", "NOT PULLED",
-    "UNAVAILABLE", "CANNOT", "MISSING", "no data", "No data", "NOT FOUND",
-    "STALE", "RETIRED", "BLOCKED", "PAYWALL", "not computable", "NOT COMPUTABLE",
     "\U0001f534", "\U0001f7e0", "\U0001f7e1", "\U0001f7e2", "\u26a0\ufe0f",
     "BREACH", "CRISIS", "STRESS", "ELEVATED", "FIRED",
     "ALERT", "WARNING", "RED", "URGENT",
@@ -131,7 +145,8 @@ def collapse_output(output):
     lines = output.splitlines()
     shown = []
     for line in lines:
-        if any(marker in line for marker in KEY_MARKERS):
+        low = line.casefold()
+        if any(m in line for m in KEY_MARKERS) or any(m in low for m in FAILURE_MARKERS_CF):
             shown.append(f"    {line}")
     return shown
 
