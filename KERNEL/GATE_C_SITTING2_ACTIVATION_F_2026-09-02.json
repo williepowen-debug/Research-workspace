@@ -1,0 +1,37 @@
+{
+  "schema_version": "kernel.live-activation.1",
+  "policy_version": "kernel.policy.1",
+  "activation_id": "LIVE-2026-0012",
+  "authorized_by": "WILL",
+  "authorization_ref": "KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md",
+  "mode": "LIVE_SHADOW_PILOT",
+  "repository_root": "/home/willi/Research-workspace",
+  "repository": "williepowen-debug/Research-workspace",
+  "source_commit": "ab909bb63dc10dbb9628f5fae2c5b41f1866d081",
+  "window_start": "2026-09-02T14:00:00.000000Z",
+  "window_end": "2026-09-02T17:00:00.000000Z",
+  "revoked_at": null,
+  "writer_id": "PROME",
+  "commands": [
+    {
+      "command_id": "CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d",
+      "path": "AGENTS/MIDAS/outbox/kernel/submissions/CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json",
+      "sha256": "8bb18ca2caaa69cdd91153ead37b7fa91878743aca0812314bb56b605eb88f4a"
+    },
+    {
+      "command_id": "CMD-01a06273-bff9-7eb3-8390-fef3df579d9c",
+      "path": "AGENTS/RED/outbox/kernel/submissions/CMD-01a06273-bff9-7eb3-8390-fef3df579d9c.json",
+      "sha256": "51763d230eec5647179f037848a676558c13a849409a791bd3b280f8f1a413fb"
+    }
+  ],
+  "actors_path": "KERNEL/policies/actors.json",
+  "actors_sha256": "ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f",
+  "capabilities_path": "KERNEL/policies/capability-grants.json",
+  "capabilities_sha256": "a1fec8198ab9ac41e04da6e445906714fbad193f975ce5a1573362b44aba6f8c",
+  "custody_policy_path": "KERNEL/policies/custody-policy.json",
+  "custody_policy_sha256": "180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849",
+  "event_ids": {
+    "CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d": "EVT-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d",
+    "CMD-01a06273-bff9-7eb3-8390-fef3df579d9c": "EVT-01a06273-bff9-7eb3-8390-fef3df579d9c"
+  }
+}
