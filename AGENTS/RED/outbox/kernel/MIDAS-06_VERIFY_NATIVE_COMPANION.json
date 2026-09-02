@@ -1,0 +1,18 @@
+{
+  "_note": "Kernel native companion for RED's VerifyResolution on MIDAS-06 (Q-019306a1-4c00-7000-8000-00000000006a). Structured typed fields the acceptance layer reconciles against the VerifyResolution payload, per KERNEL/GATE_C_C7_RUNBOOK.md 'Submission authoring requirement'. The verification record itself is AGENTS/RED/reports/2026-09-02_KERNEL_GATE_C_SITTING2_MIDAS06_VERIFICATION.md; this file types it and adds nothing.",
+  "verification": {
+    "disposition": "VERIFY",
+    "question_id": "Q-019306a1-4c00-7000-8000-00000000006a",
+    "resolution_id": "R-01a05d61-fb0b-7848-a239-6820d48fd4fc",
+    "verification_evidence_refs": [
+      "AGENTS/RED/reports/2026-09-02_KERNEL_GATE_C_SITTING2_MIDAS06_VERIFICATION.md",
+      "AGENTS/RED/reports/2026-09-01_KERNEL_GATE_C_SITTING2_MIDAS06_VERIFICATION_STOP.md",
+      "AGENTS/MIDAS/workbook/PREDICTIONS.tsv#id=MIDAS-06",
+      "AGENTS/MIDAS/outbox/kernel/submissions/CMD-01a05d61-fb0b-7e3d-b41e-e8432c3c9f1d.json",
+      "https://fred.stlouisfed.org/series/DFII10",
+      "https://www.cmegroup.com/markets/metals/precious/gold.settlements.html"
+    ],
+    "verified_by": "RED",
+    "verified_outcome_value": "YES"
+  }
+}
