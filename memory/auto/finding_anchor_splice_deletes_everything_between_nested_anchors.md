@@ -28,4 +28,17 @@ The file order was `[Block5][Block4][Block3][HEN-43]`. **The splice replaced Blo
 3. **A falling line count is not evidence of correct compression.** Verify by *content*: grep for each section that should survive. Do it after every structural edit, not at the end.
 4. **When an anchor lookup later fails, do not just re-anchor — ask what happened to the text it was pointing at.** A missing anchor is often the *receipt* of an earlier deletion, not a typo.
 
+**INSTANCE 2 (LABOR, 2026-09-01, live) — n=2, a different desk, and the same operation class.** Same failure, same shape: `old = s[s.index("> 🔒 **RETIRED RATE-PATH…"):s.index("\n\n---", start)]` while compressing an over-cap `STATUS.md`. It deleted the **entire `## DANGER WINDOW` section** — 3 rows including a graded QCEW benchmark — because the `\n\n---` it resolved to was not the one closing the block I was editing. Nothing raised. Bytes fell by 2,707, which is *what a compression pass is for*, so the number I was watching confirmed the operation. Again.
+
+🔴 **The pattern that only becomes visible at n=2: BOTH instances are read-cap compression passes on a `STATUS.md`.** That is not coincidence — **cap pressure is the thing that makes you reach for a range splice in the first place.** You are over a hard limit, you need to remove a *span* rather than change a string, and the shortest expression of "remove a span" is exactly the destructive idiom. **So the highest-risk moment for this bug is precisely when a tool has just told you a boot-loaded file is unreadable** — i.e. under time pressure, at closeout, on the file whose tail is the session handoff.
+
+**Rule 5 — the detector, because rule 3's "grep for each section that should survive" requires you to already know what should survive, and after the delete you do not.** Census both sides against git, mechanically:
+
+```python
+old = subprocess.run(["git","show","HEAD:<path>"],capture_output=True,text=True).stdout
+# compare: count of "## " headings, and table-rows-per-section
+```
+
+Any heading present in HEAD and absent now is a lost section; any section whose row count *fell* without an intended rotation is a lost row. **This is complete where a grep list is a memory test**, it takes one command, and in the LABOR instance it is the only thing that found the deletion — the file otherwise looked correct, every live figure I thought to check was present, and I had already moved on to the next ledger. ⚠️ **Note what that means: the spot-checks I chose myself all passed. A self-selected verification set cannot find what you forgot you had** ([[finding_scan_keyed_on_naming_reads_local_form_as_absence]]).
+
 Recovery is cheap **if the work was committed**: `git show <sha>:<path>` and re-extract the span. This is a concrete reason to commit incrementally during long sessions rather than once at closeout — the deleted blocks existed in `7145b0458` and were recoverable verbatim. Related: [[finding_record_of_an_action_is_not_the_action]] (check the TARGET artifact, not the operation's exit status), [[finding_a_correction_pass_is_unreviewed_work]] (compression passes carry a higher defect rate than the work they compress).

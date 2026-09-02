@@ -29,6 +29,22 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
+## L-26 — A modeled catalyst date that slips EARLIER is invisible to every check I own, because every check assumes dates slip LATER
+
+**The instance (2026-09-01).** `CATALYSTS.tsv` carried JOLTS July as **`~2026-09-02`** — modeled, not source-confirmed. **It printed 2026-09-01 at 10:00 ET.** My boot ran that evening and `catalyst_countdown.py` showed it as **upcoming, 1 day out**, in the IMMINENT block. The countdown was working correctly and was reporting a released figure as a future event.
+
+**Why every guard missed it.** B5's rule reads *"modeled dates within ~1wk should be re-verified against the source schedule **before relying on them**"* — which is a rule about **not acting too early on a date that may move out**. **There is no symmetric check for a date that moved IN**, and there cannot be a countdown-based one: a countdown that says "1 day out" is, by construction, not going to tell you the thing already happened. **B2a does not cover it either** — the spine gate reads *claims* series only, so a landed JOLTS print is outside its perimeter, and it returned a clean ✅ PASS on the same boot. **B5b does not cover it** — there was no frozen card for JOLTS, and B5b enumerates cards, not events.
+
+🔴 **What actually caught it was WALTER routing a signal.** Not one of my own instruments. That is luck of routing, not a control — and the same print landing in a week when WALTER is quiet would have sat until my next boot, or indefinitely if no session ran (the summons gap, `BUILD_DEBT.md` BD-23).
+
+**The asymmetry stated plainly:** a date that slips **later** costs me a wasted look. A date that slips **earlier** costs me *the grade*, because a catalyst I have pre-committed bands for gets read after I have already seen the number elsewhere — which is precisely the condition a frozen card exists to prevent.
+
+**Fix (cheap, and it is a boot step, not a new tool):** for every `~`-prefixed row inside the IMMINENT block, **check the series for a landed observation before trusting the countdown** — for anything on FRED that is one `fetch.py` call, and `boot.py` already pulls JOLTS. **The data to detect this was in my own boot output on the same run:** `labor_data.py` printed `JOLTS openings … 2026-07-01` — a **July** reference month, which can only exist if the July release has happened. **I read that line as a stale spine and it was a landed print.** Partner: `[[finding_dated_carry_item_has_no_expiry_check]]`.
+
+**First seen:** JOLTS July, 2026-09-01. Cost: none this time — the grade was still done same-day, off the pre-committed bands, because the routing happened to be there.
+
+---
+
 ## L-25 — A corrective is anchored to the number it is correcting, and no gate in this book ever re-grades the correction
 
 **The instance (2026-08-28, LAB-08).** On 2026-08-07 I repriced LAB-08 **65% → 35%**, 21 days before its gate, under §C gate #14. The reprice was *good* work by every process test it was built to pass: declared pre-print with a commit receipt, unforced (no new data — pure arithmetic nobody had run), symmetric, and it **explicitly cited LABOR's 0-for-4 record at ≥60% on threshold calls as its reason (c)**. Then the print landed at **−79,000**, card §4 **Band E**, whose pre-committed assignment is **4%**.
