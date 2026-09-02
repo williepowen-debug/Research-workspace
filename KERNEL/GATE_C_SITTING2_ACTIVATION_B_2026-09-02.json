@@ -1,0 +1,43 @@
+{
+  "schema_version": "kernel.live-activation.1",
+  "policy_version": "kernel.policy.1",
+  "activation_id": "LIVE-2026-0008",
+  "authorized_by": "WILL",
+  "authorization_ref": "KERNEL/GATE_C_SITTING2_PREP_2026-08-27.md",
+  "mode": "LIVE_SHADOW_PILOT",
+  "repository_root": "/home/willi/Research-workspace",
+  "repository": "williepowen-debug/Research-workspace",
+  "source_commit": "21ddfdf4028c369d4f8ce2c15f1068194618554f",
+  "window_start": "2026-09-02T14:00:00.000000Z",
+  "window_end": "2026-09-02T17:00:00.000000Z",
+  "revoked_at": null,
+  "writer_id": "PROME",
+  "commands": [
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000114",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000114.json",
+      "sha256": "ad23ae796e36280d4dc7f2076611898e41a689d888e20c83e3592e56f8696252"
+    },
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000115",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000115.json",
+      "sha256": "665b80f32cdc28844dd725308ededdc132716ab49f8583f06b4388d479c2bd61"
+    },
+    {
+      "command_id": "CMD-019305f8-ec00-7000-8000-000000000116",
+      "path": "AGENTS/CREED/outbox/kernel/submissions/CMD-019305f8-ec00-7000-8000-000000000116.json",
+      "sha256": "3029ba178ce6192b5ac06eeb2fb8380097357ff3af82c61a2d1f0f60e56a9b29"
+    }
+  ],
+  "actors_path": "KERNEL/policies/actors.json",
+  "actors_sha256": "ad16ca28b451f0e9666922b85fa8051641b0c39578fb15a8f300f2d7ca2aa20f",
+  "capabilities_path": "KERNEL/policies/capability-grants.json",
+  "capabilities_sha256": "6e73c29e9abd16270575cf1c0ba316c24c72d89ebb9e7e13099f5a2f6e9960de",
+  "custody_policy_path": "KERNEL/policies/custody-policy.json",
+  "custody_policy_sha256": "180c47ee39e494e7998c6039e6d9c43693c3099df76990f04faaab9243e9e849",
+  "event_ids": {
+    "CMD-019305f8-ec00-7000-8000-000000000114": "EVT-019305f8-ec00-7000-8000-000000000114",
+    "CMD-019305f8-ec00-7000-8000-000000000115": "EVT-019305f8-ec00-7000-8000-000000000115",
+    "CMD-019305f8-ec00-7000-8000-000000000116": "EVT-019305f8-ec00-7000-8000-000000000116"
+  }
+}
