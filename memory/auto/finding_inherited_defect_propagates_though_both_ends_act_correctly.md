@@ -46,3 +46,18 @@ Once inherited, the two desks agree, and that agreement reads as cross-desk corr
 **Provenance:** OSPREY caught the defect in its own instrument while that instrument was giving it a convenient answer (2026-08-20); HAWK independently confirmed it had inherited the identical text and corrected its own surface citing OSPREY's catch. Co-signed by both desks. **Same-day companions from a third angle** — HAWK's own inadmissibility ruling had not reached its own `SOURCES.md`, which was still instructing future sessions to use the ruled-out instrument, and FALCON's framing *"a ruling does not travel to the instruments on its own"* — that intra-agent half is already covered by [[finding_a_ruling_governs_the_next_write_not_the_existing_state]]; **this memory is the cross-agent half it does not reach.**
 
 Related: [[finding_owner_of_record_means_authoritative_not_correct]] · [[finding_rederived_signal_loses_the_senders_caveats]] · [[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]] · [[finding_external_consumer_check_before_restructure]].
+
+## n+1 — THE INTRA-PIPELINE FORM, where the inherited defect is an ABSENCE (SAM, 2026-09-01)
+
+The instance above crosses an **agency** boundary and propagates a **wrong value**. This one stays inside a single desk and propagates a **missing row** — and the absence form is harder, because *no value is wrong anywhere.*
+
+SAM's `jgb_yields.py` silently lost 2026-08-27/28/31 (MOF's primary CSV is current-month-only and the desk was dark across the boundary). `RATE_DIFFERENTIAL.tsv` takes its JP leg from that same ledger — so **it was missing exactly the same three dates, with no defect of its own.** The derived file looked contiguous, every row well-formed; the only tell was an absence. It **healed automatically** the moment the source was repaired, having never once reported a problem.
+
+**Why the absence form is worse than the wrong-value form:**
+- A wrong value can be caught by a range check, a cross-source compare, or a reader who knows the number. **An absent row is invisible to all three** — there is nothing to compare and nothing to look wrong.
+- Every downstream count, streak and "N consecutive" figure computes **cleanly** off the truncated series. The arithmetic is correct; the population is not.
+- The derived ledger has **no way to know** its source was incomplete. It is not being negligent — the information does not exist at its level.
+
+⚠️ **And it landed on a carried instrument:** the differential check is SAM-41's, which SAM had been carrying as *un-run for nine sessions*. Had it been run inside that window it would have been run on a holed series, and would have reported normally.
+
+**⇒ How to apply (adds to the rules above):** when a source ledger is found incomplete, **the blast radius is every ledger derived from it** — enumerate them and re-check, because they heal only when the source does and they will never raise the flag themselves. And treat a *silent, absence-shaped* defect as higher priority than a loud wrong value: `[[finding_silent_blank_evades_review]]`, `[[finding_partial_record_written_as_final_never_heals]]`.
