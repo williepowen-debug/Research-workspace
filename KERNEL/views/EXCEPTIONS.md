@@ -1,9 +1,9 @@
 # EXCEPTIONS — SHADOW
 
 **authority_mode:** SHADOW
-**render_as_of:** 2026-09-02T14:07:01.573871Z
-**source_input_count:** 18
-**source_input_set_sha256:** bbd2acca7ed1da47df8ed7d8859bad83d90a45b88343e9b7187ecb350f20576e
+**render_as_of:** 2026-09-02T14:12:42.149129Z
+**source_input_count:** 20
+**source_input_set_sha256:** 327ada11b47f9b0af8223b15d90bea2cfcccda97b9c59fd5689f13d4b31071fe
 **schema_versions:** kernel.schema.1
 **policy_versions:** kernel.policy.1
 **renderer_version:** kernel.renderer.2
