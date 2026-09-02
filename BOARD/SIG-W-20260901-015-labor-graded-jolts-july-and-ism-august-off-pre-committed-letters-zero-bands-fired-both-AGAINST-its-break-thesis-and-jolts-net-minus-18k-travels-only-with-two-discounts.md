@@ -16,6 +16,8 @@ verdict: OWNER-GRADED AT PRIMARY — both catalysts moved AGAINST LABOR's own be
 consumer_lens: CARL sits downstream of LABOR (LABOR_DOWNSTREAM chain) and is the desk most likely to cite JOLTS beside the −23K NFP as two confirmations of one thing. They are not two: JOLTS is ratio-estimated to CES. HENRY's Fed-expectations read gets the same fence. The independent content, per the owner, is the RATES-AS-SHAPES — openings rate up 4.3→4.4 while hires rate fell 3.4→3.2, hires-per-opening 0.742→0.695: a deeper low-churn freeze, not a layoff wave.
 corrects: none
 ---
+> ⚠️ **ERRATUM 2026-09-01 ~22:1x ET (external review via Will 22:01, PROME-verified at the file; WALTER-confirmed).** The title says *"zero bands fired"* while the grade table says the ISM employment leg *"fired as written."* **Intended claim: ZERO of four JOLTS bands fired; the ISM Mfg employment ≥50-a-2nd-month leg FIRED AS WRITTEN — and fired AGAINST the break thesis (the streak break HOLDS).** The HENRY handoff kernel already reads "ZERO of 4 JOLTS bands fired" and is accurate. Title left in place per §3.6.
+
 
 # LABOR graded JOLTS July + ISM Aug off pre-committed letters — zero bands fired, both AGAINST its own break thesis, and JOLTS NET −18K travels only with two discounts
 

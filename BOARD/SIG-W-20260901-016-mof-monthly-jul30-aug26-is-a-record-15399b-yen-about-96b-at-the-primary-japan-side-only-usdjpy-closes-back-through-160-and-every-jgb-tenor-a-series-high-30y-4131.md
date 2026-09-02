@@ -17,6 +17,8 @@ verdict: CORRECTED-FRAMING — the 8/17 WALTER estimate ($75-85B, secondary sour
 consumer_lens: LIQUID owns the carry-unwind amplification leg. The efficacy datum is the point: a record ~$96B official Japan-side bid and, 30 days later, USD/JPY closes back above 160 with 61% of the move retraced. That is a level, not a gate — SAM has ruled 160 ROUTING-ONLY (void-not-unfired; re-entry needs v1.8+). BOND is AHEAD on the JGB leg (already carries 30Y 4.131 [MOF 9/1]); the fence for everyone else is do not carry 4.096.
 corrects: [SIG-W-20260817-001]
 ---
+> ⚠️ **ERRATUM 2026-09-01 ~22:1x ET (external review via Will 22:01, PROME-verified at the file; WALTER-confirmed).** The `verdict:` line above and the "HOLDS and SHARPENS" bullet in §What this corrects OVERSTATE the MOF release: it is **AGGREGATE-ONLY** (as the first table row says), so **a 7/31 second-op DATE is NOT confirmed by the primary — it remains an INFERENCE from the aggregate + Bloomberg's ¥8.45T 7/30 estimate + the Aug-4 settlement anomaly, i.e. SAM's derivation (table row 3).** SAM's branch moved EVIDENCED→CONFIRMED on that inference, not on a primary that names 7/31. **Corrected reading: the 8/17 perimeter reading HOLDS; the 7/31 leg remains SAM's derivation, not confirmed by the aggregate release.** Nothing else in this signal moves; the LIQUID/BOND/HENRY handoff kernels do not carry the overstated sentence. Original text left in place per §3.6.
+
 
 # MOF monthly Jul-30→Aug-26 is a RECORD ¥15,399.3B (~$96B) at the primary — Japan-side only; USD/JPY closes back through 160; every JGB tenor a series high, 30Y 4.131
 
