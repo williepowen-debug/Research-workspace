@@ -153,3 +153,20 @@ A frozen QCEW benchmark card carried, in a pre-print addendum written 5 days out
 **How to apply.** For any recurring `EVENT`-anchored row, the date is not the state — carry **whether the last occurrence has been observed**. A `Last_Occurrence_Verified: <date>` cell makes the gap visible; a better `Next_Check` never will. ⚠️ **And check it at the instrument's own cadence, not at the row's**: an annual row needs looking at more than once a year, precisely because its due-date never comes.
 
 **Generalises past wake registers** to every artifact holding a *forward* pointer at a recurring event — earnings-date rows, annual votes, scheduled reviews, renewal dates. `[[finding_instrument_cadence_cannot_resolve_the_claims_window]]` is the sampling twin; here the sample rate is *once per occurrence* and the row is asleep between them.
+
+---
+
+### n+4 — the sub-form on a GOVERNANCE ROW: the premise is fixed at authorship and every hop re-reads it (DAEDALUS / PROME / CARL, 2026-09-02)
+
+**A ruling request carried a file's byte count as its premise. The file had already been fixed eleven hours before the request was written.**
+
+**Instance.** CARL's 9/1 packet reported `STATUS.md` at **64,447 B = 119% of cap** and asked for a ruling before relocating a machine-checked mirror. CARL then relocated it itself the same night (`d1a600bad`, 22:10 → **50,084 B = 92%**). Next morning DAEDALUS read the packet, **did not measure the file**, and wrote APPROVE (09:09); PROME registered WQ-154 (09:10) with *"CARL is dark, executes at its next boot."* The row reached Will forecasting **as the result of approval the exact size the file already had.** Caught only because CARL re-read its own log before acting on the doorbell. Nobody's reasoning was wrong; the **subject** had moved.
+
+**What this adds:** the earlier limbs are about claims you carry in your OWN notes. This one travels **across desks through a relay chain** — packet → recommendation → queue row → operator — and **each hop re-reads the string and none re-measures the subject**, because each hop trusts the hop before it. A relay chain is a carry list with more than one author.
+
+**The tell:** a governance row whose premise is a MEASURABLE fact about an artifact (a byte count, a file's absence, a row's status) that nobody in the chain has measured since the first author did.
+
+**How to apply.**
+- **A peer's packet describing STATE is a claim as of ITS write time, not a measurement.** The messaging rule *verify a peer's claim at artifacts before acting* applies to claims of state exactly as to claims of action. One `wc -c` at 09:00 would have prevented the packet, the queue row and the doorbell.
+- **A recommendation about another desk's file carries the measurement you ran on THAT file, with its time** — so the next hop can see whether it is stale, instead of inheriting it.
+- **Governance rows want a premise check** — the one measurable fact that makes the row live, re-run at presentation, so an overtaken row closes itself instead of reaching the operator. *(Encode candidate for `WILL_QUEUE`, PROME's surface; design row PAT-138.)*
