@@ -217,14 +217,14 @@ Declares what KIND of checking stands behind a load-bearing claim — the repo-v
 
 ## Class 13 — Claim-confidence tokens *(WQ-140, Will 2026-08-30 22:56 *"approved go ahead"*; record `PROME/proposals/2026-08-30_wq140-codex-process-reform-RULED.md`; encoded 2026-09-01)*
 
-Report-side twin of CHECK_STANDARD §14. Binding on PROME reports since 8/30; fleet-wide on NEW surfaces from this registration; forward-only.
+Report-side twin of CHECK_STANDARD §14; forward-only on NEW surfaces.
 
 | Canonical token | Operational definition |
 |---|---|
 | `VERIFIED` | Directly checked at the ARTIFACT (the owner-side file/cell/row the claim is about), THIS session |
 | `INFERRED` | Supported by evidence but not directly established at the artifact |
 | `SEARCH-NOT-FOUND` | A query returned nothing. **A claim about the SEARCH, never about the world** — the pattern set missed; it does not say the thing is absent (kin in PROVENANCE) |
-| `UNKNOWN` | Unresolved; no check run |
+| `UNKNOWN` | No check run |
 
 **Upgrade rule (the point of the class):** an ABSENCE claim moves `SEARCH-NOT-FOUND → VERIFIED` **only after** (a) the owner-declared path/identifier for the thing was checked AND (b) any documented fallback location was checked. **A broader grep is NOT an upgrade.** **Neighbour (Class 12):** Class 12 = the KIND of checking; Class 13 = how far THIS session's check went. A Class-13 `VERIFIED` on a repo artifact is Class-12 `ARTIFACT-VERIFIED`, never `PRIMARY-VERIFIED`.
 
