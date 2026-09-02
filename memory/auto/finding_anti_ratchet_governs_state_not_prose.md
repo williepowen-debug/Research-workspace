@@ -27,3 +27,19 @@ metadata:
 - **Prefer merging versions over stacking them.** A spec written as a *delta* on its predecessor ("v2 stands except…") forces every reader to apply a patch mentally; fold it into one self-contained spec and move the lineage to the record.
 - **The record file must never acquire an instruction.** If you write "always do X" there, X belongs in the operating doc.
 - Related: [[finding_ownership_claim_is_last_to_move]] (the same refactor's other half — the pointer is last to move), [[finding_mechanize_the_cap_not_the_ritual]], [[finding_banner_is_a_warning_not_a_fix]], [[finding_governance_doc_stale_default_drift]], [[finding_retired_threshold_has_no_publisher]].
+
+---
+
+**⚠️ INSTANCE 2 — LABOR, 2026-09-02: the same mechanism inside the REMEDY. A "compaction" pass that rewrites prose can ADD bytes, and you will not notice because the pass felt like shrinking.**
+
+Executing a mandated hot/cold split of `AGENTS/LABOR/STATUS.md` (53,375 B against a binding 32,550 B read-cap budget), the block-moving passes worked: **53,375 → 24,856 B**. The next pass rewrote two sections (PENDING INPUTS, NEXT SESSION PICKUP) *as part of the same byte-reduction task* — and took the file **24,856 → 26,558 B, +1,702 B**, because a freshly-written "compact" replacement for a stale section is almost always longer than what it replaced. A later pass repeated it in miniature: swapping a 60-B provenance parenthetical for a 100-B pointer **grew** the row it was meant to shrink.
+
+**The generalisation: MOVING is measurable and REWRITING is not.** A verbatim block move has a known sign — bytes leave. A rewrite has an unknown sign, and the author's belief about the sign is systematically optimistic, because they are comparing their new text against the *old text's worst parts*, not against its length.
+
+**How to apply:**
+- **Measure after EVERY pass, not at the end of the session.** One measurement at the end attributes the whole delta to the work and hides which pass went the wrong way.
+- **Do the verbatim MOVES first and separately from the REWRITES**, so the two deltas never net against each other in one measurement.
+- **Budget the rewrite before writing it:** the section you are replacing has a byte count; treat it as the ceiling, and check.
+- **Symmetric to instance 1:** there the anti-accumulation rule couldn't count prose; here the *remedy* couldn't either. The remedy for accumulation is subject to accumulation.
+- Related: [[finding_disambiguation_costs_bytes_so_a_capped_surface_cannot_absorb_every_flag]] (fixing ambiguity ADDS prose; flags and the cap are ONE budget), [[finding_a_correction_pass_is_unreviewed_work]], [[finding_mechanize_the_cap_not_the_ritual]].
+

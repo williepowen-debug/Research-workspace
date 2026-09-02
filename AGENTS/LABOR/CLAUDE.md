@@ -19,7 +19,7 @@ Key tension you must hold: **freeze depth vs demand-vs-supply attribution**. Pay
 
 This `CLAUDE.md` does **not** auto-load when PROME spawns you from another cwd — a spawn prompt should point here. Minimum viable boot for a scoped/spawned task (do NOT skip the freshness gate even on a narrow task):
 
-1. **Read** `STATUS.md` (state) + your task packet. Read `LESSONS.md` if the task touches a known mistake-pattern.
+1. **Read** `STATUS.md` (state — the **HOT half**, and the only STATUS surface a boot reads) + your task packet. Read `LESSONS.md` if the task touches a known mistake-pattern. ⛔ **`STATUS_DETAIL.md` is the COLD half: on-demand only, never a boot read** — open it (or grep it) when you need the record behind a live figure, never to find the figure itself.
 1a. **Scan `inbox/` AND `inbox/WALTER/`** (the subdirectory is a distinct lane — do NOT skip it) for un-dispositioned items. Even on a scoped spawn where full inbox-processing is deferred: disposition anything threshold-relevant, or write a dated PARKED entry — never let a WALTER SIG or routed note sit unseen across sessions. *(Origin: SIG-W-20260710-005 + SIG-W-20260717-008 sat undispositioned because spawned sessions skipped the `inbox/WALTER/` scan — the exact blind spot B2a/C1 exist to prevent.)*
 1b. **Unconsumed dated-artifact check (B5b, floor version — 10 seconds):** `ls docket/GRADING_CARD_*.md docket/FOMC_LABOR_LANGUAGE_*.md`. **Any card dated ≤ today whose grade is not already written into `STATUS.md` is owed work and outranks the task you were spawned for** — grade it off the frozen card first. *(This is the step whose absence let the 7/30 grading card and the 7/29 FOMC card both go unconsumed until a 7/31 spawn stumbled on them. Scoped spawns are exactly where it gets skipped, which is why it is on the floor card.)*
 1c. **R1 corrections check (B5c):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" LABOR` — rc=1 means a NAMED correction is unreceipted; read the pointer and receipt it. *(Wired 2026-08-28.)*
@@ -39,7 +39,7 @@ Full protocol below; this card is the floor, not a replacement.
 
 ### BOOT (read phase)
 B0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
-B1. **Read `STATUS.md`** — current dashboard, core tension, danger window.
+B1. **Read `STATUS.md`** — the **HOT half**: header, convergence matrix, KEY THRESHOLDS, exit rules, open predictions, forward calendar, pickup, bottom line. ⛔ **Do NOT read `STATUS_DETAIL.md` at boot — it is the COLD half, on-demand / grep only** (graded history, per-release evidence with primary citations, derivations, retired and no-fire thresholds). *Split 2026-09-02 (BD-25) because `STATUS.md` was 53,375 B against the binding 32,550 B READ_CAP budget — an over-cap boot surface returns a PARTIAL file with no error, and the part it drops is the tail (PICKUP + BOTTOM LINE).* 📅 **Dated re-trigger: re-measure `STATUS.md` at every closeout append and unconditionally on 2026-10-02, whichever first** (`python3 scripts/read_cap_check.py --agent LABOR`).
 B2. **Run `boot.py` — automated data refresh BEFORE analysis** (parity with SAM/BRENT):
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/LABOR/scripts/boot.py --verbose)
@@ -275,6 +275,7 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | File | Purpose |
 |------|---------|
 | `STATUS.md` | Live state — dashboard, tensions, predictions. **Primary memory.** |
+| `STATUS_DETAIL.md` | **COLD half of STATUS (created 2026-09-02, BD-25).** Graded history, the SIGNAL DASHBOARD evidence record with primary citations, CORE TENSION, derivations, retired/no-fire thresholds, superseded session blocks. **On-demand / grep only — NEVER a boot read**, so it carries no read-cap budget of its own; if it ever becomes a boot read it acquires one. **Verbatim and contiguous:** blocks were moved, never edited, and no figure was changed in the move (census at the split: 232/232 source lines + 112/112 matrix cells accounted for exactly once). ⛔ **STATUS.md wins on any live figure** — cite this file as what was written on the day, with its own date. |
 | `NEXUS_BRIEF.md` | Cross-agent sync surface NEXUS/PROME read. **LABOR = Tier-1 (Will override 2026-06-16); required closeout artifact — re-pinned at EVERY closeout, As-of/pin re-bumped even on no-change sessions (C1).** |
 | `LESSONS.md` | LABOR-specific mistake-patterns. Read at boot (B3), written at closeout (C5). |
 | `BUILD_DEBT.md` | Standing register of deferred build/tooling work (owed code). Maintained at closeout (C5). |
