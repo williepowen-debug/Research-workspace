@@ -1,9 +1,9 @@
 # OPEN QUESTIONS — SHADOW
 
 **authority_mode:** SHADOW
-**render_as_of:** 2026-09-02T14:02:16.456215Z
-**source_input_count:** 9
-**source_input_set_sha256:** ec3de1d850a43a614ded4c94a14f0139d1ea9f048605360eb5f4e7c1cea1e08c
+**render_as_of:** 2026-09-02T14:03:03.066426Z
+**source_input_count:** 12
+**source_input_set_sha256:** 345ee336125adb67b13a6dd5802f3a17e645f7af6ee43d40aa47d43823277760
 **schema_versions:** kernel.schema.1
 **policy_versions:** kernel.policy.1
 **renderer_version:** kernel.renderer.2
@@ -17,3 +17,5 @@
 | Q-019305f8-ec00-7000-8000-000000000101 | CREED | 2027-01-01T00:00:00.000000Z | Between 2026-07-27 and 2026-12-31, the Trepp monthly office CMBS delinquency rate prints strictly above 12.00 percent in two consecutive monthly reports. | CREED=0.4 |
 | Q-019305f8-ec00-7000-8000-000000000103 | CREED | 2027-01-01T00:00:00.000000Z | Between 2026-07-27 and 2026-12-31, at least one public CRE mortgage REIT in CREED's registered eleven-name cohort, other than ARI, KREF and RC, announces a dividend cut, a strategic-alternatives review, a wind-down, or a whole-book sale. | CREED=0.6 |
 | Q-019305f8-ec00-7000-8000-000000000105 | CREED | 2027-01-01T00:00:00.000000Z | Between 2026-07-27 and 2026-12-31, the VNQ-versus-SPY trailing three-month relative return, measured on a window ENDING within that interval, reaches minus ten percentage points or worse. | CREED=0.15 |
+| Q-019306b4-1a00-7000-8000-0000000000a1 | REGINALD | 2027-01-01T00:00:00.000000Z | Through 2026-12-31, the Trepp office CMBS delinquency rate does not print below 10.00 percent in two or more consecutive monthly prints. | — |
+| Q-01a044fc-e591-73e8-a74d-2f675abc09a0 | LIQUID | 2027-02-15T00:00:00.000000Z | In at least one calendar month from 2026-07-01 through 2026-12-31 inclusive, the United States broadly-syndicated-loan (BSL) new-issue CLO AAA monthly average spread exceeds 150 basis points over term SOFR. | LIQUID=0.25 |
