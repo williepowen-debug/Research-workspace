@@ -40,6 +40,21 @@
         "question.register",
         "forecast.submit_own"
       ]
+    },
+    {
+      "actor_id": "MIDAS",
+      "capabilities": [
+        "question.register",
+        "forecast.submit_own",
+        "question.close_own",
+        "resolution.propose"
+      ]
+    },
+    {
+      "actor_id": "RED",
+      "capabilities": [
+        "resolution.verify"
+      ]
     }
   ]
 }
