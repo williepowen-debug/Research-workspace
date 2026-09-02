@@ -31,8 +31,8 @@
 | 10Y (DGS10) | **4.75%** | 🔴 | [CONF FRED **8/31**] · wire marks 4.798–4.80 on 9/1, FRED publishes 9/2 |
 | 2Y (DGS2) | **4.34%** | 🟠 ↑ | [CONF FRED **8/31**] |
 | **10Y real (DFII10)** | **2.44%** | 🟠 ↑ | [CONF FRED **8/31**] — **96.7th pctile full series (n=5,920, from 2003), 99.7th post-2010** |
-| 5Y5Y fwd (T5YIFR) | **2.33%** | 🟡 = | [CONF FRED **9/1**] — publishes one date ahead of the nominals |
-| 10Y BE (T10YIE) | **2.35%** | 🟢 = | [CONF FRED **9/1**] — publishes one date ahead |
+| 5Y5Y fwd (T5YIFR) | **2.33%** | 🟡 ↑ | [CONF FRED **9/1**] — **+2.0bp on 9/1.** Publishes one date ahead of the nominals (H.15 partial split, `KB-BND-168`) |
+| 10Y BE (T10YIE) | **2.35%** | 🟠 ↑ | [CONF FRED **9/1**] — 🔴 **+4.0bp ON 9/1**, after a week of flat-to-FALLING. Publishes one date ahead |
 | ACM 10Y term premium | **+0.73%** | 🟠 | [CONF NY Fed, **Jul-2026 monthly — NOT daily**] |
 | Kim-Wright 10Y TP (daily) | **0.8682** | 🟠 ↑ | [CONF FRED `THREEFYTP10` **8/21** — model output, not a market price] |
 | **HY OAS** | **263bps** | 🟢 ↓ | [CONF FRED `BAMLH0A0HYM2` **8/31**] |
@@ -96,9 +96,8 @@
 
 ### Prediction scoreboard *(canonical: `thesis/PREDICTIONS.tsv`)*
 
-**OPEN: none.** `BND-15` resolved **TRUE** this session (2026-09-01) — the last open row on the desk.
-**Live file holds `BND-15` → `BND-20`** (6 rows, all resolved); **`BND-01` → `BND-14` rotated verbatim** to `thesis/archive/PREDICTIONS_resolved_BND-01_to_BND-14.tsv` under the same read-cap ruling as this file — **20 rows conserved, 6 + 14, nothing deleted.** Resolved tally across both files: **9 TRUE · 10 FALSE · 1 VOID.**
-⚠️ **A desk with zero open predictions is a desk making no falsifiable forward claims.** The 9/8–9/10 refunding is the natural place to register the next ones, and the per-tenor `I'` bars owed 9/4 are their precondition.
+**OPEN: 2 — `BND-21` and `BND-22`, both registered this session.** `BND-15` resolved **TRUE** (2026-09-01) and is **re-armed as `BND-22`** over the window that matters (9/1→9/11, the refunding cluster) with **confidence CUT 70% → 55%** — the gate is 6bp away vs 8bp at BND-15's closest approach. **`BND-21` is the `FL-BND-12` test** — whether the real leg stayed insulated on 9/1 — **registered BEFORE `DFII10` [9/1] publishes on 9/2**, because the breakeven half is already visible and grading it after publication would be grading a half-known answer.
+**Live file holds `BND-18` → `BND-22`**; **`BND-01` → `BND-17` rotated verbatim** to `thesis/archive/PREDICTIONS_resolved_BND-01_to_BND-17.tsv` under the same read-cap ruling as this file — **22 rows conserved, 5 + 17, nothing deleted.** Resolved tally across both files: **9 TRUE · 10 FALSE · 1 VOID.**
 
 ---
 
@@ -154,6 +153,22 @@
 ---
 
 ## BOTTOM LINE
+
+**[2026-09-01 Tue ~22:4x ET — THE 9/1 SELLOFF, GRADED.]** Full working: `analysis/2026-09-01_GRADE_the-9-1-global-selloff.md`.
+
+★ **IT IS NOT ONE MOVE, IT IS TWO, AND THEY HAVE OPPOSITE SIGNATURES.** Treating them as one "global bond selloff" merges the two things this desk exists to keep apart.
+**LEG 1 — the week INTO 9/1 (8/26→8/31, fully published): essentially 100% REAL and monotonically FRONT-LED.** 5Y nominal **+12.0 = real +12.0 + BE +0.0** (real share **100%**); 10Y **+9.0 = real +10.0 + BE −1.0** (**111%**); the identity closes to **0.0bp residual** at both tenors. `DGS2` **+15.0** > `DGS5` +12.0 > `DGS10` +9.0 > `DGS30` **+7.0**, and every curve measure flattened (2s10s **−6.0**, 5s30s −5.0, 2s30s −8.0). **The long-end real did NOT lead** — `DFII30` +7.0 vs `DFII5` +12.0. ⇒ **Textbook POLICY-PATH, explicitly not term premium.** ★ **This is OUT-OF-SAMPLE corroboration of tonight's C-36 two-part ruling, on data that had not been decomposed when the label was ruled** — the label was not fitted to it.
+**LEG 2 — the 9/1 session itself (breakeven leg only): breakevens JUMPED where the week had them flat-to-down.** `T5YIE` **+6.0** · `T10YIE` **+4.0** · `T5YIFR` **+2.0** — a near-dated inflation impulse **decaying with horizon**, the shape an energy shock makes. 🔑 **This is a LIVE TEST of `FL-BND-12`** (an oil shock is a BREAKEVEN event, real/policy leg INSULATED) **run in the opposite direction from the crude collapse that promoted it.**
+
+⛔ **THE GRADE IS INCOMPLETE BY CONSTRUCTION AND I AM NOT COMPLETING IT TONIGHT.** The H.15 partial split has breakevens reaching **9/1** while nominals and reals stop at **8/31** and publish **9/2**. 🔴 **I did NOT infer the real leg from a wire nominal** — differencing a wire benchmark quote against a FRED constant-maturity close is the exact construction that made T6's `>5.28` leg unreachable by design. **Registered as `BND-21` instead of guessed.**
+
+🔴 **THE SELLOFF FIRED NOTHING.** DFII10 **6bp** from the add-gate · T5YIFR 17bp · HY 37bp · CCC/HY 58bp. The only "fired" rows (`DGS30` >5.00, `DGS10` >4.50) were breached long before 9/1. ⇒ **A multi-decade-high tape across four sovereigns moved NO pre-registered line on this desk** — the levels are historic and the thesis is exactly where it was. **Composite 12/35. Position UNCHANGED: TLT puts HOLD, no add. $0.**
+
+**Credit:** CCC **1042** (+16.0bp) vs HY **263** (+3.0) — **the tail widened 5.3× the index.** Computed at write time (`BAMLH0A3HYC`, daily closes, 2023-09-04→2026-08-31, **n=785**): a **fresh 2026 high**, **NOT a series high** (max **1137**, 2025-04-07), with **13 obs ≥1042 distributed 2023:1 · 2024:1 · 2025:10 · 2026:1** ⇒ **elevated and unremarkable against 2025, not unprecedented.**
+**Funding:** SOFR−IORB flipped **+3bp [8/31]** — **month-end, NOT called as stress**, but it is a named input to `DEALER_CAPACITY`'s forced-de-risking discriminator: **if it does not normalise on 9/1–9/2, the FR2004 11-21Y re-build re-reads as forced rather than benign.**
+**International, like-for-like 8/26→8/31:** EA AAA 10Y **+9.1** ≈ US **+9.0** · JP +5.1 · ~~UK +1.3~~ **unusable, endpoint 8/27.** ⛔ **The min-across-legs bound is NOT quoted** — it would come from the stale UK leg, which is precisely the coverage artifact logged tonight as `KB-BND-207`.
+
+🔴 **ROUTED TO MIDAS, NOT RULED HERE — "gold fell, so it's real rates" is not safe for 9/1.** It is right for LEG 1 (100% real). But **9/1's breakevens ROSE +4–6bp, which is gold-POSITIVE**, and gold fell 2.35% anyway. **Candidate resolution is MIDAS's own finding:** their pre-registered positioning falsifier fired against their own read on 8/28 — gold COT **net/OI 56.86%**, composition **CHASED** (NC longs **+20,257**). **A crowded spec long unwinds hard with or without a real-rate impulse.** Gold is their instrument class.
 
 **[2026-09-01 Tue ~21:0x–2x ET — first boot after four dark days, into a live global selloff.]**
 

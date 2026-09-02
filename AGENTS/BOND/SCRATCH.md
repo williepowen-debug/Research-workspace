@@ -29,13 +29,20 @@
 
 **10. 🔴 A PACKET MIDAS ASKED FOR THREE TIMES HAD BEEN SITTING IN MY OUTBOX FOR 5 DAYS.** The univariate table (band 87.7–91.1%) was written 8/27, addressed to PROME **and MIDAS**, and never copied to their inbox. **Delivered with a cover note owning it.** *This desk created `outbox/delivered/` for exactly this and it happened again.*
 
+**11. ★ THE 9/1 SELLOFF IS GRADED** (`analysis/2026-09-01_GRADE_the-9-1-global-selloff.md`; `KB-BND-215` → `-218`). **It is TWO moves with opposite signatures. Leg 1 (8/26→8/31, published): ~100% REAL, monotonically front-led, bear-flattening ⇒ policy-path, NOT term premium** — and it is **out-of-sample corroboration of tonight's C-36 two-part ruling**, on data decomposed after the label was ruled. **Leg 2 (the 9/1 session): breakevens JUMPED +4 to +6bp** after a week flat-to-down ⇒ an energy impulse decaying with horizon, and **a live test of `FL-BND-12`**. 🔴 **THE SELLOFF FIRED NOTHING** — a multi-decade-high tape moved no pre-registered line. ⛔ **The 9/1 real leg is NOT published (H.15 split; publishes 9/2) and I did NOT infer it from a wire nominal.**
+
+**12. ✅ TWO PREDICTIONS REGISTERED — the desk is no longer at zero open.** **`BND-21` (60%)** the `FL-BND-12` insulation test, **resolves 9/2 on `DFII10` [9/1] ≤ 2.46** vs the already-published `T10YIE` +4.0bp — **registered BEFORE publication on purpose.** **`BND-22` (55%)** re-arms the add-gate over 9/1→9/11, **confidence CUT from BND-15's 70%** because the gate is 6bp away vs 8bp then.
+
 ## NEXT SESSION (dated, future-verifiable)
+
+0. 🔴 **FIRST THING, 9/2 — RESOLVE `BND-21`.** Pull `DFII10` for obs **2026-09-01** (publishes 9/2) cache-busted. **TRUE if ≤ 2.46.** State the margin in bp **and restate `T10YIE` +4.0bp beside it.** ⚠️ **`BND-21` also gates the MIDAS gold question** — if TRUE, the 9/1 real impulse was small and MIDAS's crowded-positioning explanation carries gold's −2.35%; if FALSE, the simple real-rate read survives. **Route the answer to MIDAS either way.**
+0b. 🔴 **9/2 — re-read SOFR−IORB.** It flipped **+3bp [8/31]**, called as month-end and NOT as stress. **If it does NOT normalise, the FR2004 11-21Y re-build re-reads as FORCED rather than benign** — which WOULD be a genuine dealer-absorption vector move. `KB-BND-218`.
 
 1. 🔴 **BY FRI 9/4 — THE PER-TENOR `I'` TABLE. It is the PRECONDITION for 9/8–9/10, not a deliverable beside it.** Only the **7Y (57.24%)** is computed. **The 9/9 10Y-R and 9/10 30Y-R are the first auctions the KILL evaluates**, and the kill needs that tenor's 15th-pctile bar **frozen pre-print**. **PER TENOR, NEVER POOLED** — the bar sits +4.84pp (2Y) / +0.82pp (7Y) / **+0.24pp (5Y)** above the trailing-12 min: one rule, three effective strictnesses.
 2. 🔴 **BY 9/4 — the re-dated US-sovereign-CDS item.** Existence + pullability BEFORE any threshold. **Audit the PATH before reporting a wall — n=5 on this desk's claimed-unavailability-is-a-path-artifact class, and TWO more instances landed this session** (MOF `/historical/`, MOF column `10Y` not `10`).
 3. 🔴 **FROM 9/9 — ROUTE THE F2 READ TO RED AS THE OPS PUBLISH. Do NOT batch to a closeout.** `RED-FT-11` v1.1 is an ex-ante conditional **gated on BOND's F2** and **RED will not rebuild it**. Off-the-run ⇒ they add a butterfly leg at the next NON-FIRED window; on-the-run ⇒ no change.
 4. 🔴 **BY 9/11 — hand-verify the `docket_check` BLIND SPAN 9/11→9/22 against the Treasury QRA.** 20Y ~9/16, 10Y TIPS ~9/17, month-end 2Y/5Y/7Y ~9/22-24 are **PATTERN-EXPECTED, NOT CONFIRMED.** No API path closes this.
-5. 🟠 **REGISTER NEW PREDICTIONS — the desk currently has ZERO OPEN.** A desk making no falsifiable forward claims is not a forecasting desk. The refunding cluster is the natural place; #1 is its precondition.
+5. 🟠 **REGISTER AUCTION PREDICTIONS FOR THE REFUNDING** once #1's per-tenor bars exist. `BND-21`/`BND-22` closed the zero-open gap but neither is auction-shaped.
 6. 🟠 **RE-RUN `dm_cross_section.py` ~9/3 for a 9/1-INCLUSIVE window.** Tonight **no leg reaches 9/1** except JP (US/EA 8/31, UK 8/27). **UK will still be the binding leg.** Both SAM and HANS were told not to quote tonight's table for 9/1.
 7. 🟠 **OPEN MIRROR DIVERGENCE, flagged NOT reconciled: `VX-BND-05` = 4 and `VX-BND-16` = 4 in `workbook/VX.tsv` while the matrix rows they roll into read 3 and 2.** The components are **HOTTER** than the matrix — the divergence under-states risk. **Do not fix by editing whichever number is convenient** (`finding_reconcile_mismatch_does_not_say_which_side_is_wrong`).
 8. 🟠 **9 ACTIVE KB rows past `Stale_By`** (KB-BND-082/097/100/103/104/107/118/131/132), 1–5d overdue. **Deliberately NOT bulk-flipped** — flipping a Status without reading the row is hygiene theatre. Read and adjudicate each.
@@ -51,7 +58,8 @@
 
 ## OPEN THREADS / KNOWN GAPS
 
-- ⚠️ **The 9/1 global selloff is UNGRADED BY THIS DESK.** Levels are wire marks; FRED publishes 9/1 on 9/2. **WALTER put BOND on ACTION and the decomposition — real-rate vs breakeven vs term-premium — has NOT been done.** Gold fell with bonds, so it is not flight-to-quality; that is the only thing established.
+- ⚠️ **The 9/1 grade is COMPLETE FOR WHAT IS PUBLISHED AND INCOMPLETE BY CONSTRUCTION.** The 9/1 real and nominal legs publish 9/2; `BND-21` is registered against them. **Do not let the grade be quoted as a full 9/1 decomposition until that row resolves.**
+- 🔴 **"Gold fell so it's real rates" is NOT safe for the 9/1 session** — 9/1's breakevens ROSE +4 to +6bp, which is gold-positive, and gold fell 2.35% anyway. Routed to MIDAS (their instrument class), with their own 8/28 COT finding (net/OI 56.86%, CHASED) named as the candidate resolution. **Not ruled by BOND.**
 - ⚠️ **`docket_check`'s blind span cannot be closed by any API.** Structural, not a fetch problem.
 - ⚠️ **Sibling-staleness remains invisible to every instrument this desk owns.** The FR2004 vintage check caught 6 surfaces this time **only because someone built a check for that specific series.** A drift check passes on a correct endpoint and never looks sideways.
 - ⚠️ **`CLAUDE.md` describes the PREDICTIONS Status enum as "declared in this file's header" — it is NOT in the TSV header; it is declared in `kb_lint.py` (`PRED_STATUS`).** Enforcement is real, the description is imprecise. Minor, unfixed.
@@ -62,12 +70,12 @@
 **TLT puts HOLD, no add — UNCHANGED. Nothing this session touched the book. $0.**
 **Only live add-gate: DFII10 ≥2.50, now 6bp away** [2.44, 8/31] — **12bp closer than at last handoff.**
 **Composite 12/35 — eighth consecutive unchanged scoring session.** Auction-health downgrade counter **= 0**.
-**OPEN predictions: NONE.** `BND-15` resolved TRUE 9/1.
+**OPEN predictions: 2 — `BND-21` (resolves 9/2) · `BND-22` (resolves ~9/14).** `BND-15` resolved TRUE 9/1 and is re-armed as `BND-22` at 55%, cut from 70%.
 ⛔ **Harvest, roll and sizing are TERRY's calls on TERRY's rules with Will's approval.**
 
 ## MAIL
 
 **In: 1 retained by decision** (PROME hyperscaler, carrier of the ~9/3 task). **35 processed this session.**
-**Out: 4 new** — ① **SAM** cross-section + coverage-artifact (doorbelled, they are LIVE) · ② **MIDAS** the 5-days-undelivered univariate table + DFII10 reconciled (no conflict: we agree 8/28 = 2.42) · ③ **HANS** cross-section corroborates their Bund exclusion argument (EA rank 1/4) + UK basis question · ④ **HENRY** their pre-registered branch resolved + C-36 ruled.
+**Out: 5 new** — ① **SAM** cross-section + coverage-artifact (doorbelled, they are LIVE) · ② **MIDAS** the 5-days-undelivered univariate table + DFII10 reconciled (no conflict: we agree 8/28 = 2.42) · ③ **HANS** cross-section corroborates their Bund exclusion argument (EA rank 1/4) + UK basis question · ④ **HENRY** their pre-registered branch resolved + C-36 ruled · ⑤ **MIDAS (2nd)** the gold-vs-breakeven tension on 9/1, routed not ruled.
 **Recipients HANS · MIDAS · HENRY are DARK** — doorbell PROME per messaging rule 6b if these need to move before their next boot.
 **WALTER lane: CLEAR (22 processed).**
