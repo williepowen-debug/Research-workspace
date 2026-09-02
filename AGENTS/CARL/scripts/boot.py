@@ -46,8 +46,28 @@ BOOT_SEQUENCE = [
     ("Consistency Check (A/B/D/E/F/G)", "consistency_check.py", ["--quiet", "--warn-only"], "CONSISTENCY", False),
 ]
 
-# Key markers to show in collapsed mode
+# Key markers to show in collapsed mode.
+#
+# ⛔ 2026-09-01 (DAEDALUS SFG sweep 8/17 ACTION 1, + its PR#4 addendum):
+# THIS WHITELIST USED TO CARRY NO FAILURE VOCABULARY AT ALL. It matched "RED",
+# "BREACH", "ALERT" and friends -- every one of which is a word a HEALTHY run
+# prints -- while "ERROR", "Could not", "404", "Traceback", "SKIP" and "TIMEOUT"
+# matched nothing. So in collapsed mode a hardcoded literal survived on the
+# substring "RED" and the line reporting that the fetch had FAILED was deleted.
+# The filter was strictly better at showing fake data than at showing real
+# breakage, which is the silent-fallback-green shape with an amplifier on it.
+#
+# Rule going forward: a marker list that gates what a human sees MUST include the
+# vocabulary of failure, or the collapsed view is an advert for the happy path.
+# When in doubt add the marker -- a false positive costs one line of screen; a
+# false negative costs a session run on data that was never fetched.
 KEY_MARKERS = (
+    # --- failure / non-delivery (added 2026-09-01; these must never be collapsed) ---
+    "ERROR", "Error", "error", "FAIL", "Fail", "Traceback", "Exception",
+    "Could not", "could not", "Unable", "unable", "SKIP", "TIMEOUT", "Timeout",
+    "timed out", "404", "403", "429", "500", "refused", "NOT PULLED",
+    "UNAVAILABLE", "CANNOT", "MISSING", "no data", "No data", "NOT FOUND",
+    "STALE", "RETIRED", "BLOCKED", "PAYWALL", "not computable", "NOT COMPUTABLE",
     "\U0001f534", "\U0001f7e0", "\U0001f7e1", "\U0001f7e2", "\u26a0\ufe0f",
     "BREACH", "CRISIS", "STRESS", "ELEVATED", "FIRED",
     "ALERT", "WARNING", "RED", "URGENT",

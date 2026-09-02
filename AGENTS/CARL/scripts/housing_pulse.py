@@ -77,24 +77,28 @@ def fred_fetch(series_id, limit=5):
 
 
 def check_fannie_mf():
-    """Check Fannie Mae website for latest MF DQ rate. Returns (rate, date) or (None, None)."""
-    # Fannie publishes monthly summary at a known URL pattern
-    try:
-        url = "https://www.fanniemae.com/research-and-insights/multifamily-market-commentary"
-        req = urllib.request.Request(url, headers={
-            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36",
-        })
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            html = resp.read().decode()
-        # Look for delinquency rate patterns
-        # Common format: "serious delinquency rate" or "60+ day delinquency"
-        m = re.search(r'(?:serious\s+)?delinquency\s+rate[^0-9]*?(\d+\.\d+)%', html, re.IGNORECASE)
-        if m:
-            return float(m.group(1)), "fanniemae.com"
-        return None, None
-    except Exception as e:
-        return None, f"error: {e}"
+    r"""RETIRED 2026-09-01. Do not re-enable without reading this comment.
 
+    TWO independent reasons, either of which is sufficient:
+
+    1. DOMAIN. Fannie multifamily serious-DQ was promoted to HOMER on 2026-07-12.
+       CARL is not the owner and must not publish a competing figure. Reconcile
+       MF numbers with AGENTS/HOMER/, not here.
+    2. DEAD URL. The scraped page 404s on every User-Agent (BRENT measured it
+       2026-08-21: 404 in 0.2s and 0.6s, browser UA and CARL-Monitor/1.0 alike).
+       Not a tarpit, not a UA problem -- the page is gone.
+
+    It also carried the trap BRENT warned about: a bare `(\d+\.\d+)%` grep over
+    raw HTML, which on his Baker Hughes page returned his own frozen threshold
+    value out of Drupal CSS. A digit-regex over undifferentiated markup can
+    fabricate a threshold breach.
+
+    Returns the retirement reason so the caller fails LOUD rather than printing
+    a stale literal -- the previous fallback printed "0.74% (Feb 2026)" and
+    "Mar data expected late April", both of which were still on screen in
+    September against a STATUS that had read 0.58% since July.
+    """
+    return None, "RETIRED 2026-09-01 - Fannie MF belongs to HOMER (promoted 7/12); scraped URL 404s on every UA (BRENT 8/21)"
 
 def status_for(value, thresholds, direction_bad):
     """Determine status color."""
@@ -213,18 +217,22 @@ def main():
         gap = 0.80 - mf_rate
         print(f"  MF Serious DQ: {mf_rate:.2f}%  [{mf_status}]  (GFC peak 0.80%, gap {gap:+.2f}pp)")
     else:
-        print(f"  Could not scrape Fannie MF DQ rate ({mf_source})")
-        print(f"  Last known: 0.74% (Feb 2026) \u2014 6bps from GFC peak")
-        print(f"  Mar data expected late April \u2014 CRITICAL WATCH")
+        print(f"  Fannie MF DQ: NOT PULLED HERE — {mf_source}")
+        print(f"  → owner is HOMER (AGENTS/HOMER/); do not cite a CARL figure for MF")
 
     # Key housing signals summary
+    # ⛔ 2026-09-01: the hardcoded block that stood here was DELETED. It printed four
+    # literals under a live heading and every one had rotted: "Fannie MF DQ 0.74%"
+    # (STATUS had read 0.58% since July), "CMBS MF DQ 7.15% (Trepp Mar)" (June was
+    # 7.23%), and "Existing Home Sales: 3.98M SAAR" printed directly BENEATH this
+    # script's own live FRED pull of 4.06M -- the hardcode contradicted the fetch on
+    # the same screen. Flagged by DAEDALUS (SFG sweep 8/17, housing_pulse.py:226) and
+    # confirmed still live at CARL's 9/1 boot.
+    # Numbers do not go here. STATUS.md is canonical; this script pulls live series
+    # above and says nothing it has not fetched.
     print(f"\n  KEY HOUSING SIGNALS")
     print(f"  {'-'*68}")
-    print(f"  Fannie MF DQ: 0.74% (last known) \u2014 6bps from 0.80% GFC peak")
-    print(f"  CMBS MF DQ: 7.15% ATH (Trepp Mar) \u2014 shadow rate 9.07%")
-    print(f"  FL Condo: 13.2mo inventory, prices -6.1% YoY")
-    print(f"  Existing Home Sales: 3.98M SAAR (approaching <4.0M RED)")
-    print(f"  (These are STATUS.md values \u2014 check freshness)")
+    print(f"  (no stored figures — live pulls are above; STATUS.md is canonical)")
 
     # Write TSV
     DATA_DIR.mkdir(exist_ok=True)
