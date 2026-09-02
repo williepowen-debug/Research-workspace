@@ -10,7 +10,7 @@
   "source_commit": "21ddfdf4028c369d4f8ce2c15f1068194618554f",
   "window_start": "2026-09-02T14:00:00.000000Z",
   "window_end": "2026-09-02T17:00:00.000000Z",
-  "revoked_at": null,
+  "revoked_at": "2026-09-02T14:13:08.190997Z",
   "writer_id": "PROME",
   "commands": [
     {
