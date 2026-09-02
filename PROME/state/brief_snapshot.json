@@ -37,7 +37,7 @@
   "GATE-NEXUS-SEAT-01": "LIVE",
   "GATE-OP-SCALE-01": "LIVE",
   "GATE-OSPREY-001": "LIVE",
-  "GATE-REG-T02": "FIRED",
+  "GATE-REG-T02": "RESOLVED",
   "GATE-RESHAPE-BC": "RESOLVED-FIRED",
   "GATE-SAM-30": "RESOLVED",
   "GATE-TERRY-006": "RETIRED",
@@ -57,8 +57,8 @@
   "vintage": "2026-08-29"
  },
  "queue": {
-  "104": "CARL-DR-1 class-wide-kill AGGREGATION RULE \u2014 now DECISIVE and deliber\u2026",
   "133": "PROME hygiene carry (BOOT step 8: owed items leave SCRATCH after the\u2026",
+  "151": "CARL V2 downgrade leg \u2014 spec the word \"sustained\" BEFORE the August p\u2026",
   "31": "SCHEDULE RATIFIED 2026-08-21 \u2014 ROW STAYS OPEN (dated Will-action; the\u2026",
   "74": "Row-58 oil exit LEVELS return for ratification \u2014 the 8/21 ruling chos\u2026",
   "98": "FFIEC hand-carry (broker half DELIVERED 8/29: screenshot pair + activ\u2026"
