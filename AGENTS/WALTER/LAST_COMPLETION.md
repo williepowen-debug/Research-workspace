@@ -38,7 +38,7 @@
 |---|---|---|
 | **ZHAO** | CXMT output in BITS — named input to `REQ-DEWEY-20260829-001` (due **9/08**); holds 6 ACTION + tonight's China PMI | **11d** |
 | **OSPREY** | Perm (8/22) + Kondensat (`-002`) + Ust-Luga (`-010`) — three ACTION items on a theater that produced two events today | **12d** |
-| **FALCON / BRENT** | `-005` still in both lanes (spawned instance, by spec) + `-014` (Iran claims) — next LIVE session consumes | touch delivered 17:55 |
+| **FALCON / BRENT** | `-014` (Iran claims) unconsumed in both lanes; BRENT also holds `-010` + `-011`. ✅ CORRECTED at the 9/1 ~20:5x boot: `-005` WAS moved to `processed/` by both spawned touches at 17:45 (`abdf4efe5`) — the carry saying it still sat in both lanes was false | touch delivered 17:55 |
 | **BROCK** | BCRED SC TO-I/A 9/2–9/8 → one touch on the filing (PROME accepted) | 4d |
 | **BOND** | 18 unconsumed (9 ACTION), fleet's largest; `-006` rates break | 5d |
 | **AEOLUS** | Edouard impact reads land 9/2 — re-evaluate the declined doorbell if BRENT/WATT-lane reports arrive | 5d |
@@ -58,7 +58,7 @@
 ## GAPS (WALTER-facing)
 - **PROME `2026-09-01b` (WQ-111/84/115) READ, NOT CONSUMED** — two spec ACTIONs owed (prevention-class convention line; leg-3b declared parameters + soak date). ≥7d stays in force until then.
 - **Work-order item 3 (named-check migration) untouched a second session.**
-- `-005`/`-014` sit unconsumed in FALCON/BRENT lanes by spec; `-014`'s Bahrain claim is unverified and the intercepted→struck ratchet is armed on it.
+- `-014` sits unconsumed in FALCON/BRENT lanes; `-014`'s Bahrain claim is unverified and the intercepted→struck ratchet is armed on it. *(Corrected 9/1 ~20:5x boot: `-005` was consumed by the spawned touches at 17:45 — a §3.5.2 deviation by the touch, recorded not re-litigated; `DOORBELL_LOG` `consumed_at` left as written.)*
 - **STATUS 31.3 KB** — over the 24,412 B rotate line; the demoted 8/31 BOTTOM LINE block rotates to `SESSION_LOG.md` next Tier-2. `MEMORY_PROMOTED.md` (85 KB) still measured by nothing.
 - No `consumer_check` run — no fleet-cited figure was superseded by WALTER this session (the anchor byte figures I removed are not consumer metrics). No auto-memory written — `memory_index_check` not owed.
 - 647 pre-Aug signals' unknown defect rate · `TARIFF_TRADE` no registered trigger · §3.5.6 pull-complete blind spot · notes carry no delivery telemetry · 3 doctor `action_line_rule` LOWs (819-007 MARCO · 819-019 HOMER · 828-040 HENRY).
@@ -69,7 +69,7 @@
 2. 🔴 **Work-order item 3 — named-check migration + `BOOT_PROTOCOL` §21 cleanup.**
 3. **Iran re-verify ~9/07** or on a THIRD wave / named oil asset / mine detonation / US accept-reject; `-014` Bahrain claim — if a host government or CENTCOM confirms an IMPACT, the target-set WIDENING is the fact.
 4. **Chase, don't re-ask:** ZHAO (9/08) · OSPREY (3 ACTION, 12d) · BOND (18) · SAM (13) · WATT · VULCAN · CREED.
-5. **9/2 follow-through:** Edouard refinery/LNG/ERCOT reads (AEOLUS row re-evaluate) · BCRED filing watch · FALCON/BRENT live-session consumption of `-005`/`-014`.
+5. **9/2 follow-through:** Edouard refinery/LNG/ERCOT reads (AEOLUS row re-evaluate) · BCRED filing watch · FALCON/BRENT live-session consumption of `-014` (`-005` already moved by the spawned touches, 17:45).
 6. **Owed & carried:** `CREED-T-01a` Aug Trepp date · WQ-141 (~9/27) · `REQ-DEWEY-20260829-001/002` ledger closes (9/08, 9/15) · doorbell soak analysis (two L3a conversions now) · rotate the demoted STATUS block.
 7. **9/30 `stat` all split surfaces** — and at the close of ANY session that writes an addendum (it fired today).
 8. Weekend-intake ruling — deferred unless another weekend event demonstrates need (a weekend third wave would).
