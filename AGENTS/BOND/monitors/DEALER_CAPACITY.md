@@ -1,7 +1,7 @@
 # BOND Monitor — Dealer Capacity / Absorption
 
 **Owner:** BOND
-**Last Updated:** 2026-08-21 by BOND — ★ **NEW PRINT: the 8/12 as-of landed, and it is the refunding week itself.** Long-end total **$149.2B** (11–21Y **$61.2B**, >21Y 48.6B, 7–11Y 39.3B); peak-to-current **−14.8%** (from 175.0B, 6/24) and **−20.9%** on 11–21Y (from 77.4B). **Second consecutive 11–21Y decline (−$2.9B); long-end total −$0.8B w/w.** ★ **THE READ IS THE STRONGEST FORM BENIGN DISTRIBUTION HAS TAKEN: this is the week of the $125B August refunding — dealers ran long-end inventory DOWN THROUGH the quarter's largest supply event, and that refunding cleared with indirect at/above trailing-12 median at ALL THREE tenors and dealers at or below median.** The monitor's own discriminator requires **weak auctions and/or SOFR−IORB positive** for the forced-de-risking branch: the auctions were firm and **SOFR−IORB is −2bp [8/20]** (the +1bp of 8/17 fully reversed). ⇒ **Distribution is now confirmed THROUGH a supply test, not merely around one. Vector HOLDS at 2 — no build, so the 'two consecutive weekly builds' upgrade leg (instrument = long-end TOTAL, named 2026-08-18) is nowhere.** *(Prior header:)* 2026-08-18 by BOND — **staleness sweep. 3 prints recovered (7/22, 7/29, 8/05); the benign reading is now CONFIRMED by the August refunding rather than assumed.** ⚠️ **And a contradiction inside this file is fixed: the 7/28 header announced "the record has unwound" while the *Current Read* section below still said vector 3, fresh record highs, 4-trigger ARMED — the header was corrected and the body was not.** *(That is the third instance of this exact shape found today: `thesis/THESIS.md` v1.1.3 did it with the falsifier apparatus, its status line did it with this same dealer record, and this monitor did it here. **Updating a header is not updating a document.**)* *(Prior: 2026-07-28 — gap closed.)*
+**Last Updated:** 2026-09-01 by BOND — 🔴 **NEW PRINT, AND IT REVERSES THE BUCKET THIS MONITOR TRACKS: the 8/19 as-of is a DURATION EXTENSION, not a continued unwind.** 7–11Y **−$8.6B** into 11–21Y **+$7.7B (+12.6% w/w)**; >21Y −1.9B; total long-end **−$2.9B to $146.3B**. Peak-to-current **−16.4%** on the total (from 175.0B, 6/24) but only **−11.0%** on 11–21Y (from 77.4B) — **the 11–21Y drawdown NARROWED from −20.9%.** *(Header and body refreshed in the SAME edit — a fresh header over a stale body CERTIFIES it, which is this file's own recorded defect.)* **Second consecutive 11–21Y decline (−$2.9B); long-end total −$0.8B w/w.** ★ **THE READ IS THE STRONGEST FORM BENIGN DISTRIBUTION HAS TAKEN: this is the week of the $125B August refunding — dealers ran long-end inventory DOWN THROUGH the quarter's largest supply event, and that refunding cleared with indirect at/above trailing-12 median at ALL THREE tenors and dealers at or below median.** The monitor's own discriminator requires **weak auctions and/or SOFR−IORB positive** for the forced-de-risking branch: the auctions were firm and **SOFR−IORB is −2bp [8/20]** (the +1bp of 8/17 fully reversed). ⇒ **Distribution is now confirmed THROUGH a supply test, not merely around one. Vector HOLDS at 2 — no build, so the 'two consecutive weekly builds' upgrade leg (instrument = long-end TOTAL, named 2026-08-18) is nowhere.** *(Prior header:)* 2026-08-18 by BOND — **staleness sweep. 3 prints recovered (7/22, 7/29, 8/05); the benign reading is now CONFIRMED by the August refunding rather than assumed.** ⚠️ **And a contradiction inside this file is fixed: the 7/28 header announced "the record has unwound" while the *Current Read* section below still said vector 3, fresh record highs, 4-trigger ARMED — the header was corrected and the body was not.** *(That is the third instance of this exact shape found today: `thesis/THESIS.md` v1.1.3 did it with the falsifier apparatus, its status line did it with this same dealer record, and this monitor did it here. **Updating a header is not updating a document.**)* *(Prior: 2026-07-28 — gap closed.)*
 
 > ## ✅ RESOLVED 2026-07-28 — it was never an access problem
 >
@@ -23,9 +23,10 @@
 > | 2026-07-22 | 39.1 | 64.7 | 53.5 | 157.2 | −2.0 |
 > | 2026-07-29 | 37.1 | 65.0 | 57.2 | 159.3 | +2.1 |
 > | 2026-08-05 | 33.4 | 64.1 | 52.5 | 150.0 | −9.3 |
-> | **2026-08-12** | **39.3** | **61.2** | **48.6** | **149.2** | **−0.8** ← *latest, pulled 2026-08-21; the $125B refunding week* |
+> | 2026-08-12 | 39.3 | 61.2 | 48.6 | 149.2 | −0.8 | *the $125B refunding week* |
+> | **2026-08-19** | **30.7** | **68.9** | **46.7** | **146.3** | **−2.9** ← *latest, pulled 2026-09-01; **7–11Y −8.6 into 11–21Y +7.7 — a duration EXTENSION*** |
 >
-> **11-21Y −$13.4B (−17.4%) off peak; long-end −$15.8B (−9.0%) across four consecutive accelerating weekly declines.** Note the 6/17 print BOND carried as "the fresh all-time record" was **one week early** — 6/24 was the true peak, unobserved because the series was unreadable.
+> **As of the 8/19 print: 11-21Y −$8.5B (−11.0%) off peak — the drawdown has NARROWED; long-end total −$28.7B (−16.4%) and still widening.** *(This line read "−$13.4B (−17.4%) … −$15.8B (−9.0%) across four consecutive accelerating weekly declines" through the 8/12 print; the run of declines is BROKEN in the 11–21Y bucket.)* Note the 6/17 print BOND carried as "the fresh all-time record" was **one week early** — 6/24 was the true peak, unobserved because the series was unreadable.
 >
 > ### Verdict: **BENIGN DISTRIBUTION**, not forced de-risking — and the discriminator is in the triggers table below
 >
@@ -59,12 +60,12 @@
 
 ## Current Read
 
-**🟡 Dealer-absorption vector = 2 (watch). The record is GONE and the 4-trigger is DISARMED.** FR2004 as-of **2026-08-12**, re-pulled **2026-08-21** via `monitors/fr2004_fetch.py` *(⚠️ this body read as-of **8/05** beneath an 8/12 header until 2026-08-21 — a fresh header over a stale body CERTIFIES it; `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`)*, pulled 8/18 for the 8/05 vintage (series break `SBN2024` resolved at runtime).
+**🟡 Dealer-absorption vector = 2 (watch) — HELD, not re-scored.** ⚠️ **The 8/19 print pushes BACK toward the bear side (11–21Y +12.6% w/w) but no pre-registered trigger fired, and this is a STOCK vector: one print with the total still falling is ambiguous under this monitor's own benign-distribution-vs-forced-de-risking discriminator.** FR2004 as-of **2026-08-19**, re-pulled **2026-09-01** via `monitors/fr2004_fetch.py` *(⚠️ this body read as-of **8/05** beneath an 8/12 header until 2026-08-21 — a fresh header over a stale body CERTIFIES it; `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`)*, pulled 8/18 for the 8/05 vintage (series break `SBN2024` resolved at runtime).
 
-| Bucket | 6/24 peak | 7/15 | 8/05 | **8/12 (latest)** | Δ from peak |
-|---|--:|--:|--:|--:|--:|
-| 11–21Y | **$77.4B** | $63.9B | $64.1B | **$61.2B** | **−$16.1B / −20.9%** |
-| Long-end total (7–11 + 11–21 + >21) | **$175.0B** | $159.2B | $150.0B | **$149.2B** | **−$25.9B / −14.8%** |
+| Bucket | 6/24 peak | 7/15 | 8/05 | 8/12 | **8/19 (latest)** | Δ from peak |
+|---|--:|--:|--:|--:|--:|--:|
+| 11–21Y | **$77.4B** | $63.9B | $64.1B | $61.2B | **$68.9B** | **−$8.5B / −11.0%** |
+| Long-end total (7–11 + 11–21 + >21) | **$175.0B** | $159.2B | $150.0B | $149.2B | **$146.3B** | **−$28.7B / −16.4%** |
 
 **The week to 8/05 was −$9.3B — the largest weekly long-end drawdown in the window. The week to 8/12 added a further −$0.8B, and 8/12 IS the $125B refunding week: dealers ran inventory DOWN THROUGH the quarter's largest supply event.** *(⚠️ Δ-from-peak figures re-derived off 8/12 — they read −17.1% / −14.3% off the 8/05 leg until 2026-08-21. A derived figure does not inherit a level fix.)*
 
@@ -91,7 +92,8 @@
 | **2026-07-22 → 07-29 FR2004** | 11–21Y **64.7 → 65.0** (two consecutive BUILDS); total 157.2 → 159.3 | 7/28 7Y ind 70.15%, dlr 12.97% — no composition failure | SOFR-IORB negative | 🟡 | NY Fed FR2004 *(added 8/18)* |
 | **2026-08-05 FR2004** | **11–21Y $64.1B; 7–11Y $33.4B; >21Y $52.5B; total $150.0B = −$9.3B w/w, the largest weekly drawdown of the window** | **August refunding 8/11–13 then cleared CLEAN at all three tenors** (3Y ind 64.24 / 10Y ind 76.73 / 30Y ind 66.85, dealers at-or-below median) | SOFR-IORB −3bp → **+1bp [8/17]**, inside its −3/+1 monthly range | 🟡 **benign distribution CONFIRMED** | NY Fed FR2004 + TreasuryDirect *(added 8/18)* |
 
-| **2026-08-12 FR2004** | **11–21Y $61.2B; 7–11Y $39.3B; >21Y $48.6B; total $149.2B = −$0.8B w/w** — *the $125B August refunding week itself* | **Refunding cleared with indirect at/above trailing-12 median at all three tenors and dealers at or below** | SOFR−IORB negative (−2bp [8/20]) | 🟡 benign | NY Fed FR2004 `SBN2024`, pulled 2026-08-21 |
+| 2026-08-12 FR2004 | 11–21Y $61.2B; 7–11Y $39.3B; >21Y $48.6B; total $149.2B = −$0.8B w/w — *the $125B August refunding week itself* | Refunding cleared with indirect at/above trailing-12 median at all three tenors and dealers at or below | SOFR−IORB negative (−2bp [8/20]) |
+| **2026-08-19 FR2004** | 🔴 **11–21Y $68.9B (+$7.7B, +12.6% w/w); 7–11Y $30.7B (−$8.6B); >21Y $46.7B; total $146.3B = −$2.9B w/w — a DURATION EXTENSION within a shrinking book** | **8/25–8/27 cluster then cleared CLEAN at all four legs** (2Y ind 66.01 / 2Y-R 66.56 / 5Y 61.51 / 7Y 60.78; no composition failure on either live definition) | SOFR−IORB negative (−2bp [8/20], stale) | 🟡 benign | NY Fed FR2004 `SBN2024`, pulled 2026-08-21 |
 
 ## Triggers
 

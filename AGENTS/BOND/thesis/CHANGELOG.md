@@ -4,6 +4,39 @@ Version history for `thesis/THESIS.md`. Newest first. Bump rules: **major (X.0)*
 
 ---
 
+## v1.2.0 — 2026-09-01 (**C-36 RULED: the label is TWO-PART.** The board's oldest open ask closes on a pre-registered branch that resolved on published data)
+
+**Old view → new view:** C-36 has sat **CONTESTED ~50%** since the Will-ruled 8/10 financial-conditions forum downgraded it from a one-part *"policy-path-led"* CONFIRM (~80-85%). It is now ruled **TWO-PART: the policy-path channel is ALIVE AND TRANSMITTING · term premium drove the July delta.** Minor bump — this is a **refinement that narrows a claim**, not a regime change or conviction reversal; the underlying real-rate / higher-for-longer regime is unchanged and no position moved.
+
+**What decided it — and the order matters, because it is what makes this clean:**
+HENRY froze **HEN-42 = DENY (FINAL)** on 8/28, then sent an unrequested **self-correction** the same morning: their DENY is *"the 7/17→7/23 delta was NOT policy-path-led AND the four-week path re-steepened"* and explicitly **NOT** *"the policy-path channel is dead."* With it they **pre-registered, before publication, how each branch of the pending 8/28 print should be read** — all three branches DENY, but the **label** differing by branch. That pre-commitment is what stops this being a post-hoc branch pick.
+
+**The 8/28 print (published Mon 8/31; graded here 9/1 at the FRED primary, cache-busted):**
+
+| | 8/27 | 8/28 | Δ |
+|---|---:|---:|---:|
+| DGS2 | 4.20 | 4.34 | **+14.0bp** |
+| DGS10 | 4.67 | 4.73 | **+6.0bp** |
+| DGS30 | 5.19 | 5.22 | **+3.0bp** |
+
+**Δ2Y > Δ10Y > Δ30Y — MONOTONICALLY FRONT-LED**, 2s10s **47 → 39bp** (−8bp), 2s30s **99 → 88bp** (−11bp), against a **measured** +17pp Sept-hike repricing (Kalshi 0.31 → 0.48). ⇒ **HENRY's branch 1: leg 2's mechanism CONFIRMED LIVE.** The policy-path channel transmitted a large measured shock on the third hawkish catalyst of the window.
+
+**⇒ THE RULING: C-36 is TWO-PART.** A **one-part term-premium label OVER-READS** HEN-42, which is HENRY's own words about their own verdict. A one-part *policy-path* label is equally dead — leg 1 (2s10s *keeps* flattening from +34 [7/23]) failed **21 of 21** published sessions, and the long-end real **led by 8bp** over 7/23→8/26 on this desk's own v2 discriminator.
+
+**⚠️ The v2 discriminator now runs AGAINST the CONFIRM it once produced, and that is recorded rather than quietly dropped.** BOND ruled in July that *"a term-premium expansion requires the LONG-END real to LEAD."* Re-run by HENRY over 7/23→8/26: DFII5 **−11** · DFII10 −9 · DFII20 −5 · DFII30 **−3** ⇒ long-end real led by 8bp. **The exact test that produced this desk's July CONFIRM now produces DENY.** HENRY flagged it *to* BOND rather than around it.
+
+**Caveats that travel with the ruling — none of them optional:**
+- **One session is not a path.** Branch 1 confirms the **mechanism transmits**; it does **not** re-establish a four-week policy-path *trend*. That is exactly why the label is two-part rather than a re-CONFIRM.
+- **The 8/28 tape is confounded**: Warsh's keynote, a +17pp hike repricing, and the front end of a global synchronised selloff all land on one session.
+- **The term-premium half rests on a MODEL** (Kim-Wright `THREEFYTP10`, n=1 model, ~3-4 session lag, model output not a market price), and on ACM which is **monthly, not daily**.
+- **NOT a re-CONFIRM of the 8/10 downgrade's rejected one-part label.** The forum's guard-rail stands: this does not move C-36 "toward term premium." It splits it.
+
+**Consumer note:** LIQUID independently registered the same mechanism from the other side — *"credible-hawkish Fed rallies the long end"* (`KB-LIQ-060`, June, re-fired out-of-sample on a Jackson Hole keynote as `KB-LIQ-112`). **Two desks, different instruments, same signature, and LIQUID disclosed it cuts against their own duration-divergence framing.**
+
+**KB:** `KB-BND-211`. **Encoded to:** `STATUS.md` regime line · this CHANGELOG · `thesis/THESIS.md` header.
+
+---
+
 ## v1.1.9 — 2026-08-27 (later — Will rules the kill-scope question v1.1.8 left open; the legs EXTEND, prospectively)
 
 **Old view → new view:** v1.1.8 adopted the MATRIX_V2 legs for the **escalation matrix** and deliberately left the **thesis kill** untouched, with the scope question flagged to Will and no action pending → **Will ruled the legs EXTEND to the kill's composition-failure test.** There is now **ONE composition-failure definition on this desk**: *indirect below that tenor's own trailing-12 **15th percentile**, sufficient alone*, with **dealer dropped as a bearish criterion**. Conviction unchanged. No position moved. $0.
