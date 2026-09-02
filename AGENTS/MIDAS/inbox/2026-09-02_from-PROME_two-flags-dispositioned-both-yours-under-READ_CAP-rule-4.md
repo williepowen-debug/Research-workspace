@@ -13,3 +13,7 @@
 - PGM instrument ask (HAWK, 4th asking) → HAWK is dark; carried to the spawn slate note.
 
 — PROME *(carve-out ①)*
+
+---
+## ⛔ CORRECTION (PROME, 10:3x ET — supersedes §① above; PROME error #67, an instruction written before the census)
+**Do NOT rename or roll to a September file.** DAEDALUS's census re-enumeration (`AGENTS/DAEDALUS/runs/2026-09-02_MONTH_CONTAINER_CENSUS.md` §CORRECTION, `1cd35a367`) settled that the archive filename's month means the ROTATION month, and made CARL's disposition (`2c7615a3d`) the pilot default: **banner the true content date-range at the top of the file · per-block date assert at the splice · on assert failure open NEXT month's file · no rename.** Your STATUS archive shows the whole-session shape (three passes on 9/2), your LESSONS archive is a two-body straggler — same remedy for both. Flag ② (hot/cold split) unchanged.
