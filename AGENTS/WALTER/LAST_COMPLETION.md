@@ -1,9 +1,9 @@
 # WALTER — LAST COMPLETION
 
-**Session:** 2026-09-01 **TUESDAY** (boot ~21:1xZ / 17:1x ET → closed ~23:1xZ / 19:1x ET). `walter-aa`. Will: *"please boot up"* → full boot (steps 0–9b) → routing → *"do a news sweep"* → *"lets close out"*. **14 dispatches, 12 kill rows, 1 verify-spawn, 2 batch manifests (18/18 + 10/10). Tier-2 FULL closeout.**
+**Session:** 2026-09-01 **TUESDAY** (boot ~21:1xZ / 17:1x ET → closed ~23:1xZ / 19:1x ET). `walter-aa`. Will: *"please boot up"* → full boot (steps 0–9b) → routing → *"do a news sweep"* → *"lets close out"*. **14 dispatches, 12 kill rows, 1 verify-spawn, 2 batch manifests (18/18 + 10/10). Tier-2 FULL closeout.** **SESSION 2 — `walter-e5`, late re-boot ~20:5x → ~22:0x ET, Tier-1 LIGHT:** PROME `2026-09-01b` CONSUMED (SPEC v0.22 — leg 3b self-normalising with DECLARED parameters, ≥7d RETIRED; §3.2 prevention-class ASK convention; rule 6b amended by PROME same night, `0430ca45f`); routing pass on Will's word via PROME: **2 dispatches (`-015` → CARL, `-016` → LIQUID, corrects `-0817-001`), 0 kills, BM-20260902-01 2/2**; first `DOORBELL_LOG` row under the v3 form (LIQUID L3-FAIL); expired `-005` carry corrected. BOARD **867**.
 
 ## STATUS
-🟢 **GREEN.** BOARD **851 → 865**. Doctor **0 HIGH, 1 MED** (standing fleet unconsumed backlog, 177 at boot, before tonight's 56 handoffs). Corrections check rc=0. **READ-CAP 0 within the 9-file discovered perimeter — heuristic, never "clear"**; `ROUTING_TABLE.md`, `REGISTRY.tsv`, `STATUS.md` in rotate-tier; `RED/registry/FALSIFICATION_TRIGGERS.tsv` 139% of budget outside every perimeter. All trains pushed with receipts (last `HEAD` on origin at the closeout push below). Telegram MCP failed to connect all session.
+🟢 **GREEN.** BOARD **851 → 865** (session 1) **→ 867** (session 2). Doctor **0 HIGH, 1 MED** (standing fleet unconsumed backlog, 177 at boot, before tonight's 56 handoffs). Corrections check rc=0. **READ-CAP 0 within the 9-file discovered perimeter — heuristic, never "clear"**; `ROUTING_TABLE.md`, `REGISTRY.tsv`, `STATUS.md` in rotate-tier; `RED/registry/FALSIFICATION_TRIGGERS.tsv` 139% of budget outside every perimeter. All trains pushed with receipts (last `HEAD` on origin at the closeout push below). Telegram MCP failed to connect all session.
 
 ## CHANGED
 - **Boot dispatches (6):** `-005` IMMEDIATE FALCON+BRENT (second US strike wave = campaign; two VLCCs hit off Khasab; IRGC mine claim FALSE) · `-006` PRIORITY BOND+SAM+TERRY (global sovereign selloff) · `-001` PRIORITY BROCK+TERRY (alt managers −3.6/−4.6%, NO BCRED filing) · `-002` PRIORITY OSPREY (Russia tolling crude via Kazakhstan) · `-003` ROUTINE SAM (Nagel rebuke) · `-004` ROUTINE VULCAN (TrendForce).
@@ -56,7 +56,7 @@
 - **The anchor rotation rule worked exactly as written:** one addendum crossed the ≥75% trigger inside the session, and the split ran before closeout instead of at 9/30.
 
 ## GAPS (WALTER-facing)
-- **PROME `2026-09-01b` (WQ-111/84/115) READ, NOT CONSUMED** — two spec ACTIONs owed (prevention-class convention line; leg-3b declared parameters + soak date). ≥7d stays in force until then.
+- ✅ **PROME `2026-09-01b` CONSUMED (session 2)** — SPEC v0.22 + CHECKLIST v0.40; ≥7d retired; rule 6b agrees (`0430ca45f`). **NEW GAP (CARL's own count, via PROME 21:3x): BOARD at 128 undispositioned (61 five days ago) with 14 CARL-action signals inside** — CARL is pull-complete EXEMPT so no handoff telemetry exists for it; this is §3.5.6's blind spot measured by the recipient. Growth rate, not the level, is the thing to watch; no ask tonight.
 - **Work-order item 3 (named-check migration) untouched a second session.**
 - `-014` sits unconsumed in FALCON/BRENT lanes; `-014`'s Bahrain claim is unverified and the intercepted→struck ratchet is armed on it. *(Corrected 9/1 ~20:5x boot: `-005` was consumed by the spawned touches at 17:45 — a §3.5.2 deviation by the touch, recorded not re-litigated; `DOORBELL_LOG` `consumed_at` left as written.)*
 - **STATUS 31.3 KB** — over the 24,412 B rotate line; the demoted 8/31 BOTTOM LINE block rotates to `SESSION_LOG.md` next Tier-2. `MEMORY_PROMOTED.md` (85 KB) still measured by nothing.
@@ -65,11 +65,11 @@
 
 ## FOLLOW-UP
 0. ✅ `READS.tsv` attested; `reads_check --agent WALTER` is the measurement of record. Open: (b) RED on the generated scan view (dark, not doorbelled) · (c) `ORCH_LOG.tsv` 179% of budget (PROME's) · (d) DAEDALUS R7-stage-2 (~9/14).
-1. 🔴 **Consume PROME `2026-09-01b`** — `BOARD_CONSUMPTION_SPEC.md` one-line prevention-class convention; leg-3b **statistic · estimator · window** + soak review date; retire ≥7d on the commit. Rule 8: owning spec first, then `CLAUDE.md`/CHECKLIST pointers.
-2. 🔴 **Work-order item 3 — named-check migration + `BOOT_PROTOCOL` §21 cleanup.**
+1. ✅ **DONE (session 2) — PROME `2026-09-01b` consumed; SPEC v0.22.** Carry forward: **leg-3b SOAK REVIEW 2026-09-30** — grade the v3 rows (first: LIQUID 9/1, L3-FAIL at p75 5d vs dark 4d) separately from v1/v2; parameters move only by proposal to Will. **CARL's BOARD backlog (128 / 14 action, growing from 61 in 5d) is the §3.5.6 instance to carry into that review** — the exemption removes the artifact that would show it.
+2. 🔴 **Work-order item 3 — named-check migration + `BOOT_PROTOCOL` §21 cleanup — NEEDS RE-SCOPING FIRST:** `BOOT_PROTOCOL.md` (166 lines) has no §21 heading; the carried item names a section by a label that no longer resolves. Find the work order's original text before executing (third session untouched).
 3. **Iran re-verify ~9/07** or on a THIRD wave / named oil asset / mine detonation / US accept-reject; `-014` Bahrain claim — if a host government or CENTCOM confirms an IMPACT, the target-set WIDENING is the fact.
 4. **Chase, don't re-ask:** ZHAO (9/08) · OSPREY (3 ACTION, 12d) · BOND (18) · SAM (13) · WATT · VULCAN · CREED.
-5. **9/2 follow-through:** Edouard refinery/LNG/ERCOT reads (AEOLUS row re-evaluate) · BCRED filing watch · FALCON/BRENT live-session consumption of `-014` (`-005` already moved by the spawned touches, 17:45).
+5. **9/2 follow-through:** Edouard refinery/LNG/ERCOT reads (AEOLUS row re-evaluate) · BCRED filing watch · FALCON/BRENT live-session consumption of `-014` (`-005` already moved by the spawned touches, 17:45) · **LIQUID consumption of `-016`** (dark 4d, p75 5d — if still dark 9/3 the v3 gate fires on its own math) · **SAM still owes the `-0823-002` ¥5tn reconcile — a different series from the MOF record; do not let `-016` be read as closing it.**
 6. **Owed & carried:** `CREED-T-01a` Aug Trepp date · WQ-141 (~9/27) · `REQ-DEWEY-20260829-001/002` ledger closes (9/08, 9/15) · doorbell soak analysis (two L3a conversions now) · rotate the demoted STATUS block.
 7. **9/30 `stat` all split surfaces** — and at the close of ANY session that writes an addendum (it fired today).
 8. Weekend-intake ruling — deferred unless another weekend event demonstrates need (a weekend third wave would).

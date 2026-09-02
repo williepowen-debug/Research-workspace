@@ -74,7 +74,7 @@
 - Telegram MCP failed to connect all session — untested, not broken.
 
 ### NEXT SESSION
-1. 🔴 **Consume PROME `2026-09-01b` (WQ-111/84/115):** (a) one-line prevention-class convention in `BOARD_CONSUMPTION_SPEC.md`; (b) amend leg 3b with **statistic · estimator · window** + a soak review date, then retire ≥7d on the commit. Rule 8: spec owner first.
+1. ✅ **DONE 9/1 session 2 — PROME `2026-09-01b` consumed: SPEC v0.22 (leg 3b self-normalising, parameters DECLARED, ≥7d retired) + CHECKLIST v0.40; rule 6b agrees.** Carry: **leg-3b soak review 2026-09-30** (v3 rows graded apart from v1/v2; first v3 row = LIQUID 9/1 L3-FAIL) and CARL's BOARD backlog 128/14-action as the §3.5.6 instance.
 2. 🔴 **Work-order item 3 — NAMED-CHECK MIGRATION + `BOOT_PROTOCOL` §21 cleanup** (Will-ruled; untouched two sessions running).
 3. **Iran re-verify ~9/07** or on a THIRD wave / named oil asset / mine detonation / US accept-reject. FALCON holds `-014` (Iran "decisive operation" claims) unconsumed; Bahrain would be a target-set WIDENING if confirmed.
 4. **Chase, don't re-ask:** ZHAO (11d dark, CXMT-in-bits feeds `REQ-DEWEY-20260829-001` due **9/08** — the 8/29 re-evaluate clause is live) · OSPREY (3 ACTION items at 12d dark) · WATT · VULCAN · SAM (13 items) · BOND (18 items, fleet's largest).
