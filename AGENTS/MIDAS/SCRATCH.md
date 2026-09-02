@@ -30,6 +30,8 @@
 >
 > **▶ WQ-142 + WQ-91 RECEIVED AND ENCODED** (STATUS item 19 — PROME asked for the one-line confirmation; it is written). Band = **NARROW 2.37–2.43, prospective-only**; successor branch sets **MECE with a declared catch-all**; MIDAS-01/02 + I1 band grade **both bases 9/30**.
 >
+> **▶ MIDAS-08 REGISTERED 9/2 — RESOLVES FRI 9/4, AND IT IS THE FIRST THING TO DO NEXT SESSION.** M1 sat at **4 with no live test** since MIDAS-06 went terminal; it has one now. *Did a 99.8th-pct crowded spec long run when handed a **−6.35%** week?* Δ net/OI vs frozen **56.8600%** [as-of 8/25]. **(a) ≤−2.00pp ⇒ M1 4→3 · (b) −2.00<Δ<+1.00 ⇒ hold · (c) ≥+1.00pp ⇒ hold AND my own COT #3 impeachment WEAKENS · (d) NO-VERDICT catch-all.** ⚠️ **Resolve with `cot_gold.py --expect 2026-09-01` AFTER 15:30 ET — NEVER the first response** (the raw file serves last week's vintage on a clean 200). ⛔ **The first design was a 2×2 and it was WRONG — both legs were as-of 9/1, so the price leg is ALREADY OBSERVED; treating a known quantity as a forecast dimension manufactures a harder-looking test than it is.** Corrected to a one-leg forecast with the price as a frozen conditioning fact. → KB-102, `analysis/2026-09-02_MIDAS-08-registration-m1-cot-successor.md`
+>
 > **⏳ BLOCKED / OWED — the real next-session list:**
 > 1. ⏳ **`BND-21` + the 9/1 `DFII10` print — ~16:15 ET TODAY.** Decides whether positioning or the real-rate impulse carries 9/1. **Do not pre-empt it.**
 > 2. **PGM mechanism (n=3)** — blocked on the three absent instruments (**PGM lease rates · COMEX/NYMEX PGM stocks · PPLT/PALL flows**). PROME ask 8/31; HAWK re-asked 3×.

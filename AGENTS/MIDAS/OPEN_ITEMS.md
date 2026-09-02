@@ -5,7 +5,23 @@
 > ⛔ **This file is NOT dropped from the boot — `STATUS.md` carries the live top-3 inline and points here for the rest. Read it whenever you touch an open item.**
 > **Consistency rule (both files or neither):** an item that changes state must be updated **here** and, if it is in the STATUS top-3, **there too**. STATUS's pointer names this file by path.
 
-**Last updated:** 2026-09-02 ~15:2x ET.
+**Last updated:** 2026-09-02 ~15:4x ET.
+
+---
+
+## 21. 🔴 MIDAS-08 — the M1 successor test. REGISTERED 9/2, RESOLVES FRI 9/4
+
+**Why it exists:** M1 sat at **4 with no live test** — MIDAS-06 graded terminal 8/31 and its own cell said any further escalation needs a NEW registered row. Everything learned about M1 since (BOND's breakeven tension, the gold-basis work, the COT crowding) was **unregistered observation** and could not move a score.
+
+**The question, which this desk and BOND both declined to rule on 9/2:** is gold's premium **spec-funded**? Δ net/OI vs the frozen baseline **56.8600%** [as-of 2026-08-25].
+
+⚠️ **It is a ONE-LEG forecast and the design note says so.** The first sketch was a 2×2 over {positioning × price} — **wrong, because both legs are as-of 9/1 and the price leg is ALREADY OBSERVED.** A branch set treating a known quantity as a forecast dimension manufactures a harder-looking test than it is. ⇒ the price move is a **frozen conditioning fact**: `GCZ26` **4,694.50 [8/25] → 4,396.40 [9/1] = −6.350%**, exactly the COT window. **Only the positioning response is unknown** — and that is what makes it sharp.
+
+**Branches (MECE, half-open, boundary owner named, declared catch-all):** (a) **Δ ≤ −2.00pp** ⇒ spec was a marginal price-setter ⇒ **M1 4 → 3** · (b) **−2.00 < Δ < +1.00** ⇒ hold 4 · (c) **Δ ≥ +1.00pp** ⇒ held/added through −6.35% = conviction not hot money ⇒ hold 4 **and the COT #3 impeachment materially weakens** · (d) NO-VERDICT catch-all (unpublished by 9/8 · reconciliation fail · as-of mismatch · code 088691 absent). **P = 0.40 / 0.40 / 0.18 / 0.02.**
+
+⛔ **Boundary provenance:** full-sample weekly Δ, **n=867** (p25 −1.92, p50 −0.03, p75 +1.78, sd 3.315). The crowded-start conditional set is **n=7 only** and is context, **deliberately not load-bearing** — this desk already published one base rate off a too-short window and had to correct it (KB-042). **P(a)=0.40 departs from the 14% conditional base rate** because of the −6.35% shock and the CHASED composition; **if (b) or (c) fires, that departure was wrong.**
+
+**If (c) fires:** my published *"a meaningful part of the 8/19 residual is spec flow"* must be re-read **in public** as too strong, and routed to BOND, which adopted that carve-out verbatim. **A falsifier that fails to fire is information about my falsifier, not a vindication of my read.**
 
 ---
 
