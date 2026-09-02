@@ -37,7 +37,7 @@ You coordinate sub-agent CREED (CRE market-level). BROCK (BDC/private credit), C
 2. **Read `LESSONS.md`** — mistake patterns to avoid
 3. **Read `CALENDAR.md`** — upcoming dates, earnings, signal thresholds
 4. **Read `MEMORY.md`** — ends on session handoff: CHANGES SINCE + NEXT SESSION action items
-5. **Read `ROADMAP.md`** — persistent state across sessions: open threads, awaiting data, open questions, investigations backlog, recently resolved. Tells you what's alive across sessions.
+5. **Read `ROADMAP.md`** — persistent state across sessions: open threads, awaiting data, open questions, recently resolved (~2wk). Tells you what's alive across sessions. ⚠️ **The investigations backlog is NO LONGER here** — split 2026-09-02 to `ROADMAP_BACKLOG.md` (cold, on-demand, **NOT a boot read**) per READ_CAP rule 4(b); pull it deliberately when starting research, never at boot.
 6. **(Optional) Skim `SCRATCH.md`** — loose intra-day notes. Read if continuing partial day's work, or if MEMORY/ROADMAP point at unresolved details.
 7. **Price refresh** — run `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 scripts/market.py)` *(cwd-proof form, 2026-07-01 — no longer relies on remembering to cd)*. Compare against STATUS.md thresholds (KRE <$60, WAL <$78, HY OAS >320). Flag breaches or significant moves (>3%) in boot report. Note what changed since last session for CHANGES SINCE section.
 7a. **Ledger staleness check** — run `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" REGINALD --quiet`; surface any ⚠️ stale-ledger alert and freeze-or-refresh it at closeout (root CLAUDE.md Data Hygiene — workbook ledgers are FROZEN-bannered or live, never silent-rot). *(Wired 2026-06-27; 4 orphan feeds frozen, FLOW/KB still flagged → refresh. Invocation cwd-proofed 2026-07-01 — the bare root-relative form failed from an own-dir launch cwd.)*
@@ -147,6 +147,21 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | DATE | REGINALD | TARGET | 🔴/🟠 | Description |
 ```
 
+
+---
+
+## ⚠️ READ-CAP — this desk breached it; the remedy is STRUCTURAL (2026-09-02)
+
+Boot 9/2 measured **3 boot-mandated reads over the 54,250 B cap** (ROADMAP 218% · STATUS 204% · MEMORY 115%) and `STATUS.md` **regrown +4,561 B** since the 8/28 partial rotation — the trim-again remedy was being outrun. Fixed structurally: two cold splits (`STATUS_DASHBOARD.md`, `ROADMAP_BACKLOG.md`), verbatim crc-stamped rotations (`archive/{STATUS,ROADMAP,MEMORY}_rotation_2026-09-02.md`), and three de-duplications that were correctness fixes in their own right. **Result: all three under the CAP, all three still over the 32,550 B BUDGET — and the residual is LIVE state.**
+
+⛔ **Binding on the next session, not just that one:**
+1. **Run `python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent REGINALD` at EVERY closeout.** A census ages in hours (READ_CAP rule 13).
+2. **Never raise the budget** (rule 6). **Never write a leanness claim** (rule 7) — every pointer this desk writes carries *"re-check at any append, or on 2026-10-02, whichever is first."* A size remedy that runs once and boasts is worse than none: it disarms the next check.
+3. **DE-DUPLICATE BEFORE YOU REFRESH.** Three defects this pass were one class — a level copied to a second surface drifts, then contradicts canon. §CROSS-AGENT TRIGGERS read `CCC/HY 3.530×, below line and FALLING` while §THRESHOLD STATUS read `3.861×, 🔴 HARD-FIRE, 19th session`: **two surfaces, one metric, opposite fire states.** A refresh buys five weeks; the de-dup ends the class. **Duplicating a level IS the drift vector — point at the owner, never restate.**
+4. **A ruling governs the next write, not the existing state.** The 8/20 de-versioning rule ("a peer's version number is THEIRS") lived in the Doc Ownership table and had reached **nothing the table governs** — WAL's version + EV + PT were still restated in two places 13 days later. **Pair every ruling with a retroactive sweep.**
+5. **A line cap does not bound a byte-growing surface.** `MEMORY.md`'s own 100-line cap read **167 lines**; its 8/27 flag said "compact next session" and it grew 27 more across three sessions. Measure BYTES (READ_CAP rule 9, PAT-086).
+6. **Rotation is verbatim + contiguous + crc-stamped, never deletion** — and **verify by RECOMPUTING the crc, never by trusting the banner** (rule 11). That check earned its keep on 9/2: the first cut of the ROADMAP archive used `<!--A-->` as both delimiter and example text inside its own instructions, so the self-check split on the instructions and returned a 410 B fragment. **A delimiter and the snippet that reads it must never share a literal.**
+
 ---
 
 ## OUTPUT RULES
@@ -169,7 +184,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | **MEMORY.md** | Cross-session memory: feedback from Will, data source findings, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). | Recaps of STATUS data. If it's already in STATUS, don't repeat here. |
 | **LESSONS.md** | Mistake patterns — verified errors that burned us. Structural rules. | Session notes or findings. Only confirmed mistakes with prevention rules. |
 | **`../WAL/`** (peer agent since 2026-07-25) | WAL promoted to standalone agent — deep coverage, **its own thesis version (read it at `../WAL/STATUS.md`, do NOT pin a version number here)**, predictions WAL-01/02 all live there. ⚠️ **De-versioned 2026-08-20: this cell hardcoded "v2.3" and went stale the day WAL shipped v2.4. A peer's version number is THEIRS and must never be mirrored here** — `[[feedback_behavior_language_over_hash_pinning]]`. REGINALD keeps the matrix row + cohort context (pointer-only seam, no restated figures). | Anything WAL-deep (→ `../WAL/`) |
-| **ROADMAP.md** | Persistent state across sessions: open threads (with last-touched dates), awaiting data (calendar of external prints), open questions, investigations backlog, recently resolved (~2wk audit trail). Updated at session end. | Live dashboard data (→ STATUS), session-bridge handoff (→ MEMORY Session Notes), thesis-level shifts (→ thesis/CHANGELOG), curated facts (→ MEMORY) |
+| **ROADMAP.md** | Persistent state across sessions: open threads (with last-touched dates), awaiting data (calendar of external prints), open questions, recently resolved (**~2wk audit trail — ENFORCE it; it had reached ~16 weeks by 9/2**). Updated at session end. | Live dashboard data (→ STATUS), session-bridge handoff (→ MEMORY Session Notes), thesis-level shifts (→ thesis/CHANGELOG), curated facts (→ MEMORY) |
 | **SCRATCH.md** | Loose intra-day workspace: half-thoughts, format gotchas, one-liners cached, things noticed but not pursued, draft language. Promoted or deleted regularly. | Tasks (→ MEMORY NEXT SESSION). Curated facts (→ MEMORY). Thesis (→ THESIS). Backlog items (→ ROADMAP investigations). |
 
 *OZK is a top-level peer agent — its doc ownership lives in `../OZK/CLAUDE.md`.*
@@ -278,7 +293,9 @@ Metropolitan Capital failed with 61% true CRE (labeled 10.7%). Three masking lev
 | `STATUS.md` | Live state — sub-agent dashboard, FHLB, watchlist. **Primary snapshot.** ≤250 lines. |
 | `CALENDAR.md` | Forward-looking dates, earnings, signal thresholds. Pure table. **Boot step 3.** Prune weekly. |
 | `MEMORY.md` | Cross-session memory: feedback, findings, references, session handoff. **Boot step 4. Write before finishing.** |
-| `ROADMAP.md` | Persistent state across sessions — open threads, awaiting data, open questions, investigations backlog, recently resolved. **Boot step 5. Update before finishing.** |
+| `ROADMAP.md` | Persistent state across sessions — open threads, awaiting data, open questions, recently resolved. **Boot step 5. Update before finishing.** |
+| `ROADMAP_BACKLOG.md` | **COLD, on-demand — NOT a boot read** (split 2026-09-02, READ_CAP 4b). Research/deep-dive ideas not yet started; nothing dated or owed. Pull when starting a research session. |
+| `STATUS_DASHBOARD.md` | **COLD, on-demand — NOT a boot read** (split 2026-09-02, READ_CAP 4b). The 42 channel rows formerly in `STATUS.md` §SIGNAL DASHBOARD — per-channel analysis and audit trail. ⛔ **Live levels are canonical in `STATUS.md` §THRESHOLD STATUS, not here.** |
 | `SCRATCH.md` | Loose intra-day notes / observations / format gotchas / one-liners. **Boot step 6 (optional). Prune before finishing.** |
 | `POSITIONS.md` | Thesis-relevant positions (bank puts, credit, convergence). Updated from broker screenshots. |
 | `LESSONS.md` | Mistake patterns — read at boot. Distinct from MEMORY (lessons = verified errors, memory = learnings + handoff). |
