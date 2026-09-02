@@ -21,6 +21,10 @@
 *Instance (PROME's own):* `t6_pin.py` was built around 8/21–8/28 (sized for a 5-session lookback on an 8/28 fire); the trigger was eligible from 8/10. The minimum over the tool's window (0.31, "+6.0pp above the line") shipped as the grade — clean against the wrong reference; the true minimum was 0.25, zero margin. Caught by a consumer scan, not the grading run. RED's "+6.0pp" was a DIFFERENT referent (current distance), correctly labelled — same number, different referent, looked corroborated.
 *Tool twin:* any successor to `t6_pin.py` grades the FULL eligibility window and prints a verdict even when run after the window closes (ORACLE holds the packet; the vocabulary is registered here so the tool and the letter cannot fork).
 
+### SL-4 — The grading source must be able to PRODUCE the registered level (added 2026-09-01, BOND via PROME + WAL's §0 spec-executability rail, its 4th instance at PR#5)
+*Instance:* T6's 5.28% was a `^TYX` intraday figure dated to a Sunday; `DGS30` — the named grading series — never printed 5.28. That cost BOND four registrations. WAL's §0 check asks the same question before grading: *can the named instrument physically carry this datum?*
+*The rule:* at registration, show that the named series, at the named basis and session set, HAS printed at the registered granularity (or state that it cannot and pick a level it can). A level lifted from a different instrument, a different basis (intraday vs close), or a non-session date is UNPRODUCIBLE and fails registration — it is not a threshold, it is a wish with a number on it. Kin: STRICT_TEXT rule 7 (INSTRUMENT names the ticker that grades it), `finding_registry_names_a_concept_tool_resolves_an_instrument`.
+
 ## Registration form (what a conforming letter carries, one line each)
 | Element | Example |
 |---|---|
@@ -28,6 +32,7 @@
 | Comparison period + strictness + fixed/prior-max | `> 5.28 (FIXED) AND > max(2026 YTD closes) (PRIOR-MAX) — BOTH` |
 | Exchange trigger (if any) | `Kalshi FED-SEP-HIKE, session CLOSE, is_session=Y only, strict <0.25, missing session = no observation (not 0)` |
 | Windows | `eligibility 2026-08-10→08-28 · lookback 5 sessions post-fire · grading = eligibility ∪ lookback` |
+| Producibility (SL-4) | `DGS30 daily close has printed to 0.01 since 1977; 5.28 producible` |
 | Revision policy | per `STRICT_TEXT.md` rule 7 |
 
 ## Enforcement

@@ -110,3 +110,21 @@ Ruling row text (PROME/proposals/2026-09-01_wq-batch-RULED.md row 117) quotes th
 
 ### Class 13 neighbour
 **Neighbour reconciliation (Class 12):** Class 12 says what KIND of checking backs a load-bearing claim (`ARTIFACT-VERIFIED` vs `PRIMARY-VERIFIED` …); Class 13 says how far THIS session's check went on THIS claim — a Class-13 `VERIFIED` on a repo artifact is Class-12 `ARTIFACT-VERIFIED`, never `PRIMARY-VERIFIED`. They compose. Machine reader today: none — reader-side convention on packets/reports; candidate rider on the forum-4 #11 registration checklist.
+
+
+## Rotated 2026-09-01 — third pass (second pass left 33,228 B = 102.1%; commit message a95… also claimed 'under budget' — WRONG twice; the hot file is measured, not described, from here on)
+
+### Class 8 extension — catalyst date_class (whole subsection)
+### Class 8 extension — catalyst `date_class` (ZHAO census 2026-08-21: 8 values + 19 blanks + one desk-private token fleet-wide; ZHAO's docket = reference implementation, VULCAN conforming second; one-field-one-token)
+
+For the `date_class` column of a catalyst/docket ledger: `CONFIRMED` *(issuer-published date)* · `ESTIMATED` *(inferred from a pattern or a prior year)* · `MODELED` *(desk-derived; carry the model)* · `EXTERNAL` *(another desk owns the date — cite the row; PAT-063)*. Lowercase legacy spellings are grandfathered, conform-on-touch (Class 9 rider). **Schema case, ruled at the sweep (VULCAN ⑮b):** column NAMES are `lower_snake` on NEW catalyst/prediction files; existing Title_Case columns are NOT renamed under graded rows — readers match headers case-insensitively; a rename that risks a frozen calibration artifact is never cosmetic.
+
+
+
+## Rotated 2026-09-01 — fourth pass (third left 32,843 B = 100.9%)
+
+### Class 10 read-side rule
+**Read-side rule: reconciliations and re-presentations verify at the COMPLETION ARTIFACT, never at the asserting row.** The three-place search (target's `processed/` · own delivery record · downstream lineage) is the CONTRACT of the row, not a memory item. Kin: `finding_record_of_an_action_is_not_the_action` (n=11, owed-row limb) · PAT-115 (a resolver dated to an expected event inherits its slip risk — name the anchor type in the cell).
+
+### Class 9 companion clause
+Companion mechanism rule = CHECK_STANDARD §8 (verdicts key on alert COUNTS, never glyph scraping). *(Rationale + kin → PROVENANCE, rotated 2026-09-01.)*
