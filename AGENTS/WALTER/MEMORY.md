@@ -73,6 +73,12 @@
 - **PROME 01b packet (WQ-111/84/115) READ, not consumed** — two spec ACTIONs owed; ≥7d leg-3b bar stays in force until the soak parameters are declared.
 - Telegram MCP failed to connect all session — untested, not broken.
 
+**SESSION 2 — `walter-e5`, ~20:5x → ~22:2x ET, TIER-2 on Will's word:**
+- **PROME `2026-09-01b` CONSUMED → `BOARD_CONSUMPTION_SPEC` v0.22:** leg 3b SELF-NORMALISING (fire when an unconsumed `action:` exists AND dark > the desk's OWN p75), parameters DECLARED (p75 · nearest-rank · trailing-90d→n≥8; n<8 not computable), ≥7d RETIRED, soak review 9/30, v1/v2/v3 never pooled, HENRY class OUT; §3.2 prevention-class ASK names the auto-loading home. PROME amended rule 6b the same night (`0430ca45f`).
+- **Routing pass on Will's word (via PROME): `-015` → CARL, `-016` → LIQUID (corrects `-0817-001`; `-0823-002` ¥5tn explicitly NOT resolved). First v3 `DOORBELL_LOG` row (LIQUID L3-FAIL).**
+- **Defects, mine:** the `-005` carry was FALSE (spawned touches moved it) — caught at boot step 3. **Two errata from an external review via Will 22:01:** `-016` verdict overstated an AGGREGATE-ONLY release as confirming the 7/31 leg; `-015` title said "zero bands" for zero JOLTS bands. Both = *caveats correct in the body, headline claiming past them* — the 8/28 BROCK class, now on this desk; fixed additively. **STATUS crossed the budget on one addendum → the demoted 8/31 block rotated (crc `40fb4b47`).**
+- Noted, not routed: CARL's BOARD 128 undispositioned / 14 CARL-action (from 61 in 5d) — §3.5.6 instance for the 9/30 review.
+
 ### NEXT SESSION
 1. ✅ **DONE 9/1 session 2 — PROME `2026-09-01b` consumed: SPEC v0.22 (leg 3b self-normalising, parameters DECLARED, ≥7d retired) + CHECKLIST v0.40; rule 6b agrees.** Carry: **leg-3b soak review 2026-09-30** (v3 rows graded apart from v1/v2; first v3 row = LIQUID 9/1 L3-FAIL) and CARL's BOARD backlog 128/14-action as the §3.5.6 instance.
 2. 🔴 **Work-order item 3 — NAMED-CHECK MIGRATION + `BOOT_PROTOCOL` §21 cleanup** (Will-ruled; untouched two sessions running).

@@ -17,6 +17,8 @@ verdict: HEADLINE-ONLY — two high-credibility outlets agree on the framing, bu
 consumer_lens: The datum is the DATED WINDOW, not the assessment. The 7/30-31 intervention is one month old today, which is the point at which SAM's durability question becomes gradeable — and SAM is dark with a ¥5tn reconcile already owed.
 corrects: none
 ---
+> ℹ️ **CITATION NOTE 2026-09-01:** this signal cites `SIG-W-20260817-001`'s $75–85B Japanese-leg ESTIMATE. That estimate is SUPERSEDED by the MOF primary — ¥15,399.3B ≈ $96B for Jul-30→Aug-26, Japan-side only, aggregate only — per `SIG-W-20260901-016`. The perimeter reading HOLDS; this signal's own argument is unaffected.
+
 
 # One month after the 7/30-31 intervention, two outlets independently call the gains faded — and USD/JPY is back at **159.89**.
 

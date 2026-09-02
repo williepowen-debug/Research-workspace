@@ -16,6 +16,8 @@ verdict: CORRECTED-FRAMING — the rotation is REAL and DIRECTIONALLY as reporte
 consumer_lens: SAM's parallel-trigger thesis rests on a yen-carry UNWIND forcing global deleveraging. "The carry is rotating to CHF, not unwinding" would materially weaken that. The CFTC primary says the rotation is a rounding error against the unwind — so the unwind reading SURVIVES, and it survives on evidence rather than on nobody having checked.
 cluster_secondary: POSITIONING_VALUATION
 ---
+> ℹ️ **CITATION NOTE 2026-09-01:** this signal cites `SIG-W-20260817-001`'s $75–85B Japanese-leg ESTIMATE. That estimate is SUPERSEDED by the MOF primary — ¥15,399.3B ≈ $96B for Jul-30→Aug-26, Japan-side only, aggregate only — per `SIG-W-20260901-016`. The perimeter reading HOLDS; this signal's own argument is unaffected.
+
 
 # 🔑 **The wires say the carry trade is rotating from the yen into the Swiss franc. At the CFTC primary, the yen short was cut by 48,920 contracts in two weeks and the franc short grew by 1,785. The franc absorbed 3.6% of it.**
 
