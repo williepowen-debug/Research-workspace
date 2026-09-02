@@ -1,0 +1,9 @@
+# REG-T-02 EXIT-GRADE LOG — append one row per SETTLED regular-session close while state=FIRED.
+# Purpose: the exit run count is COUNTED from this file, never carried in prose or from memory.
+# Exit condition (registry/THRESHOLDS.tsv): WAL >= 81.90 on 3 CONSECUTIVE daily closes -> state UN-FIRED.
+# run_count resets to 0 on any non-qualifying close. Sub-78 re-entries are SUPPRESSED (state machine, not event counter).
+# Grade the SETTLED close only. An in-progress yfinance daily bar is NOT a close.
+# Last real data refresh: 2026-09-02
+date	wal_close	qualifying_ge_81_90	run_count	state	instrument	note
+2026-09-01	77.26	NO	0	FIRED	scripts/market.py + yfinance daily bar + regularMarketPrice (agree)	FIRE. First sub-78 close since the 6/30 exit = first fire of cycle 2. 0.95% below the line. Sector day, not WAL-specific (rho +0.253).
+2026-09-02	79.12	NO	0	FIRED	scripts/market.py + yfinance daily bar + regularMarketPrice (all 79.12, agree)	Not qualifying: 79.12 < 81.90, needs +3.51%. Run stays 0-of-3. Closed ABOVE 78 but that is NOT an exit -- exit is the 81.90x3 condition ONLY. Intraday H 80.55; the 14:23 intraday print was 79.51 and the close came in LOWER, which is why intraday is not gradeable. Vol 1,245,295 in line.

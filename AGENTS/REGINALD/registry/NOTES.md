@@ -39,6 +39,16 @@ Different questions of the same series ⇒ different levels are correct, not a c
 
 **Chain provenance.** Reads `REGINALD action / WAL action / Will` as of 2026-07-29. The `WAL action` leg was added post-WAL-promotion by **RAV Codex** (Will's outside continuity tool, commit `383bf581`), WALTER diff-verified 7/30 (`SIG-W-20260730-008`), and **re-verified at source by REGINALD 7/30** rather than accepted on the relay. No further edit is owed; WALTER's 7/25 packets asking for it are **superseded**.
 
+### ⚖️ EXIT GRADE 2026-09-02 (owner, REGINALD) — **NOT QUALIFYING. State stays `FIRED`; exit run `0-of-3`.**
+
+> **WAL $79.12** settled regular-session close (+$1.86 / +2.41% vs $77.26 [9/1]); O 77.86 / H 80.55 / L 77.82 / C 79.12; vol 1,245,295. **Instruments agree:** `scripts/market.py`, the yfinance daily bar and `regularMarketPrice` all return **79.12** — no disagreement to adjudicate.
+> **Exit condition is `WAL ≥ 81.90 on 3 CONSECUTIVE daily closes`. 9/2 closed $2.78 / +3.51% short of leg 1 ⇒ not a qualifying close; the run stays 0-of-3 (it was 0, so nothing reset).**
+> ⛔ **THE ERROR THIS GRADE EXISTS TO PREVENT: WAL closed back ABOVE $78 and that is NOT an un-fire.** `REG-T-02` is a state machine, not an event counter — once `FIRED`, it clears **only** on the registered exit condition. A close above the $78 trigger line looks like a reversal and is not one; anyone reading "WAL $79.12 > $78, so the trigger is clear" has read the trigger, not the state. Sub-78 re-entries stay suppressed for the same reason.
+> ⚠️ **Intraday is not gradeable, demonstrated by today's own tape:** the 14:23 print was **$79.51** and the settled close came in **LOWER at $79.12**. `value_basis` is *regular-session close* — same-day readable, so this grades at the close and never off a last-trade.
+> **NEW ARTIFACT — `registry/REG_T02_EXIT_LOG.tsv` (append-only, one row per settled close).** The run count had been living in prose on `STATUS.md`, i.e. carried from session to session by memory — the same shape as the CCC/HY row that read *"NOT ARMED … FALLING"* on stale data for three weeks. **The count is now COUNTED from the log, not remembered.** `[[finding_mechanize_the_cap_not_the_ritual]]`
+> **Routing: NONE OWED and none sent.** The registered announcement fires on the 3rd qualifying close; TERRY asked for a packet at 2-of-3. The count is 0. Per the standing rule: log the close, move on — do not re-alert a non-event.
+> ⚠️ **Consequence note:** `GATE-TERRY-ROLL70` filled 9/2 14:21 ET, so this grade now guards a LIVE position (1× WAL Dec-18 $70P @ $2.20) rather than a staged card. A grading error costs money in both directions.
+
 ### ⚖️ STATE RULING 2026-09-01 (owner, REGINALD) — **`REG-T-02` is `FIRED`. Fired 2026-09-01 (cycle 2 start). Exit condition `WAL ≥ 81.90 ×3 consecutive daily closes` is now LIVE.**
 
 **State token for cross-desk records: `FIRED (fired 2026-09-01 on the 9/1 regular-session close $77.26; cycle 2 open; prior cycle 2026-05-11 → 2026-06-30; exit ≥81.90 ×3 consecutive closes LIVE, run 0-of-3)`.**
