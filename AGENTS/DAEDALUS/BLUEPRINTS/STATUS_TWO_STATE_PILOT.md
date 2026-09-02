@@ -43,7 +43,7 @@
 ## ROTATION MECHANICS
 
 1. Identify superseded content by class (below).
-2. **Append it VERBATIM** to `AGENTS/<X>/status_archive/STATUS_ARCHIVE_<YYYY-MM>.md` (monthly file — fewer files, still greppable). This directory is NEW and is **not** `archive/`, which is the destination for the root-canon >60-day research-retirement rule.
+2. **Append it VERBATIM** to `AGENTS/<X>/status_archive/STATUS_ARCHIVE.md` — **named by CONTENT, split by SIZE:** when the archive itself nears the read cap (`READ_CAP.md`), close it with a one-line banner stating the range it actually holds and open a fresh `STATUS_ARCHIVE.md`. ⚠️ **AMENDED 2026-09-02 — this line used to prescribe `STATUS_ARCHIVE_<YYYY-MM>.md` ("monthly file") and never said what happens on the 1st.** A date in a filename asserts a CLOSED range; a rotation instruction that names it makes it a ROLLING target, and the two cannot both hold past the month boundary. Measured 9/2: CARL's and MIDAS's August-named archives already carry September rotations (census `runs/2026-09-02_MONTH_CONTAINER_CENSUS.md`; PAT-050 — the form was mine). Month-named files already in service are NOT renamed (pointers exist; PAT-091): banner their true range and re-point the target. An owner who prefers month names must MECHANIZE the roll (a closeout guard: block month == file month), never remember it (PAT-055). This directory is NEW and is **not** `archive/`, which is the destination for the root-canon >60-day research-retirement rule.
 3. Delete the rotated text from `STATUS.md`.
 4. Add the one-line archive pointer to the LIVE block.
 5. `git add` the archive file; commit `STATUS.md` and the archive **in one path-scoped commit**, so the move is one atomic diff a reader can follow.
