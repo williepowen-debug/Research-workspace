@@ -1,7 +1,7 @@
 # TERRY POSTMORTEMS
 **Created:** 2026-06-20
 
-No Terry-reviewed trades have been closed yet. **One PROCESS postmortem is recorded below (no trade, no P&L) — a gate that resolved correctly but was never logged.**
+**What this file holds (re-cut 2026-09-02 — the line here said *"No Terry-reviewed trades have been closed yet"* for 34 days beside two closed entries; DAEDALUS PR#5 caught it, PAT-112 n+2 — a header over appended entries):** **TWO CLOSED TRADES WITH REALIZED P/L** — `TRY-VIOLET-VIXCS` (7/30, **−$111.60 / −38.8%**, the desk's first realized loss; evaluation appendix 8/07) and the **QQQ short-dated put cluster** (8/04, 11 Will-direct tickets, **≈ −$4,341**, not a TERRY card) — **FIVE PROCESS / NO-TRADE entries** at `$0` risked (`TRY-FIRE-005` 7/10 · `TRY-FIRE-007` 8/07 · `TRY-BRENT-USOARM` 8/13 · `TRY-WILL-QQQ-VFADE` 8/13 · `TRY-FIRE-006` 8/18) — and one partial harvest still open elsewhere (`TRY-FIRE-004`, 5 of 30 realized +$128.86 on 7/31; its postmortem is owed at close, not here). ⚠️ **The header is a COUNT, and counts rot: append an entry ⇒ update this line in the same commit.** Entries are chronological by event date below; the `## Template` block sits mid-file (after the 8/04 entry) and is not an entry.
 
 ---
 

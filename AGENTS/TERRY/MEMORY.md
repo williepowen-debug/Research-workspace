@@ -21,7 +21,7 @@ Detection (HY-280 break, print alerts) is LIQUID/SENTRY; TERRY owns everything A
   book-reshape; limited funds = dry powder. Reshape = recycle decaying premium, no new net risk.
 - **Default risk ceiling:** 0.25× Kelly or lower (RISK_SCORING.md). Final size = min(Kelly, max-loss, liquidity, event-risk).
 - **Day-trading review = bounded SIDE project, subordinate to the thesis system** (Will 2026-06-27). Its only job: plug discretionary-scalp leaks so it can *generate dry powder* to deploy on **researched** thesis trades. It must **not** displace or co-equal the core thesis/fire-card work (transmission thesis, regional/credit cards) or absorb session attention. *Don't let the journal become the system.* (Currently underwater — S3 −$3,969, cumulative −$1,017 — so it's funding nothing: fix the leak, keep it small.)
-- Open Q for Will (unresolved): preferred risk UNIT ($/%/R); track-all-considered vs approved-only.
+- ~~Open Q for Will (unresolved): preferred risk UNIT ($/%/R)~~ → **RESOLVED 2026-08-04 (Will-ratified): DOLLARS, `1R ≡ $250`, hard cap `2R = $500` per idea — ONE surface: `daytrading/PROFILE.md` § risk unit** (this line closed 9/2; it read "unresolved" for 29 days). Still open: track-all-considered vs approved-only.
 
 ---
 
