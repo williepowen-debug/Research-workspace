@@ -402,3 +402,16 @@
 ## Demoted 2026-08-30 — embed-then-demote (PROME, WQ-133 leg; Will *"proceed with the two prediction-canon embeds if they are already scoped under WQ-133"* — verified scoped, rec column reads "PROME runs these in a structure session; no ruling needed"). Both rows were demoted-pending-embed and grepped **ZERO** in `FORGE/PREDICTION_DISCIPLINE.md`, so `MEMORY.md`'s "full canon is embedded" header was FALSE for them (SCRATCH kill-on-sight #6, now discharged). **Embedded first, demoted second — the order WQ-133 required.** ZERO deletions; memory FILES unchanged; rollback = move a row back to MEMORY.md.
 - finding_conditional_swap_needs_base_rate_at_registration — base-rate the swap-in leg at REGISTRATION [embedded→PREDICTION_DISCIPLINE]
 - finding_corrective_inherits_the_anchor_it_corrects — write it cold, score the correction [embedded→PREDICTION_DISCIPLINE]
+
+## Demoted 2026-09-01 NIGHT (PROME flow pass — MEMORY.md 75%→<70%; predictable-moment git/closeout triggers; hooks ≤80 canon at the move; slug-conservation proven in the commit)
+- finding_pathspec_rename_needs_both_paths — a pathspec commit of a rename needs BOTH the old and the new path
+- finding_dirty_path_means_in_flight_not_orphaned — a dirty path is a peer's in-flight work, never an orphan to sweep
+- finding_push_train_hides_a_failed_commit — "Pushed." can be true of OTHERS' commits; verify your own paths after
+- finding_git_mv_rescopes_gitignore_rules — a tree move un-ignores files silently; git status after ANY move
+- feedback_git_reconcile_scope
+- finding_add_with_one_bad_pathspec_stages_nothing — `git add A B C` is ATOMIC: one bad path stages NOTHING (root Git Protocol)
+- finding_banner_is_a_warning_not_a_fix — pair every banner with a dated rewrite trigger
+- finding_hygiene_commit_rearms_the_staleness_lie — a sweep COMMIT re-arms git-time freshness fallbacks
+- finding_dated_stamp_is_a_trigger_not_a_shield — a stamp older than last session forces re-pull-or-freeze
+- finding_canonical_surfaces_stale_inbox_carries_live_state — the live fact rides the unprocessed INBOX, not the canonical surface
+- finding_reconcile_mismatch_does_not_say_which_side_is_wrong — adjusting the COUNT destroys the evidence; flags are a LOWER BOUND
