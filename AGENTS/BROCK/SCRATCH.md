@@ -1,9 +1,30 @@
 # BROCK SCRATCH — Forward-State, Watch Order, Session Log
 
 **Purpose:** Session-handoff working state — "where are we / what next." Read at boot (after STATUS), refreshed at closeout. Holds NEXT-BOOT moves, open debts, watch order, FOLLOW-UP tiers, SESSION LOG, and a workbook/mail/git health block. Persistent learnings → `LESSONS.md`; dated catalysts → `docket/CATALYSTS.tsv`; cross-agent → `NEXUS_BRIEF.md`; superseded STATUS narrative → `domain/sources/STATUS_SESSION_BLOCKS_ARCHIVE_AUG13.md`.
-**Updated:** 2026-08-28 Fri ~21:0x ET — **FULL CLOSEOUT, session ENDED.** PROME-orchestrated catch-up, two touches + RAV QC + this closeout. 38-item inbox drained · X1 wrapper half ADJUDICATED NOT ARMED · `<270` re-eval FIRED and RUN · First Brands re-sized twice · BCRED Q2 READ (3rd carry closed) · Delaware Life FHLBI found at primary · STATUS rotated 90,609→~32.5K B (READ-CAP 0) · CCC/BB registered per PROME's ownership ruling · two RAV wording corrections applied · LESSONS #28-30 added. **Convergence HELD 59/70; $0 moved; zero thresholds moved by me.**
+**Updated:** 2026-09-03 Thu ~12:5x ET — **BCRED Q3 LETTER GRADED AT PRIMARY; BRK-30 RESOLVED-TRUE (and worth ~nothing, by my own LESSONS #23).** PROME-tasked session off a live cross-session ping. Inbox **4/4 drained** · **BRK-30 resolved 42d early** · **WQ-158 denominator shipped** (the '≥3 consecutive' level is STRUCTURALLY UNGRADABLE on 8 of 9 vehicles; an out-of-sample referent EXISTS — BREIT 2022-23) · **DOCKET L242 = RESOLVED** · packets → OTTO + PROME · **DAEDALUS WALTER-routing defect FIXED in my own `CLAUDE.md` (2 rows)** · **LIQUID condition-(b) RULED NOT MET, against my own interest** · **STATUS rotated 40,603 → 30,976 B (read-cap breach cleared)** and its BOTTOM LINE cut to the charter's 2-4 sentences. **Two corrections against me: my pre-registered bull counter-data did not verify, and my REGIME PIK figure was a stale Q1 vintage flattering my thesis.** **Convergence HELD 59/70; $0 moved; zero thresholds moved by me.**
 
 ---
+
+## ⚡ NEXT BOOT — FIRST MOVES (ranked, **2026-09-03**)
+
+**1. 🔴 BRK-02 RESOLVES 9/30 — 27 days, and the binding constraint is STILL NOT the evidence.** Name set **PROPOSED, awaiting PROME**. The **C4 metadata-only rule binds — do NOT open the Fitch report body before resolution.** ⛔ **The FT/Solve ~2.8% chart-read must NOT resolve it** (pixels · as-of date UNKNOWN · publicly-traded-only cost basis). ⚠️ **New 9/3 counter-datum, against me: BCRED Q2 NA 2.2% cost, FALLING, and below the Raymond James 115-BDC 2006-2026 average of 3.3% at cost** — BCRED is NOT in the ratified six-name set so it does not grade the row, **noted because it cuts against me.**
+
+**2. 🟠 CRMT 9/7 (Labor Day) — nothing public in time, by construction.** Live business days **Fri 9/4** (weekly liquidity test, tape bands <$1.80 / >$2.90) and **Tue 9/8**; grade **9/11, not before the 9/8 close**. Milestone Schedule redacted ⇒ **the only public observable on 9/7-9/8 is the presence or absence of an 8-K.** I am **INFO**, OTTO is action, **no convergence vote.** ⚠️ **Silence past 9/8 is evidence of NEITHER failure nor health — pre-registered 9/2, do not collapse the readings.**
+
+**3. 🟡 BCRED Q3 10-Q ~2026-11-13 — the FIRST non-estimated dollar figure.** fn.6: final value only after the **9/30** NAV. **The test that matters: does the $2.3bn backlog compound again, or clear?** Everything shipped 9/3 is a transfer-agent estimate.
+
+**4. 🟠 OWED, unstarted, no date claimed — the row-to-footnote parser.** Blocks THREE things at once: BCRED's **NA name list** (PASS 4 failed its own validation — 23 issuers/69 loans parsed vs a stated 15/25, because footnote (17) appears in the current schedule, the comparative schedule AND both JV schedules), the **per-holder First Brands dollar totals** (Kennedy Lewis / GECC / Palmer Square / Monroe), and WALTER `-028` ask (a) for OBDC's June SOI. **Build it ONCE, properly.**
+
+**5. 🟠 WQ-158 — ball is with PROME.** Denominator shipped 9/3. **My rec: do NOT re-place the two levels off this panel at all** — re-place against the **BREIT/SREIT 2022-23** out-of-sample series once pulled, or declare them un-gradable and inert. **The bounded pull I offered and PROME has not yet registered: CCLFX `N-23C3A` × 4 offers + `N-CSR` financial highlights**, to convert its fulfilment series (3.42→2.90→5.32→7.00%) into a genuine satisfaction series. ⚠️ **Without the requests leg that cell cannot grade a satisfaction threshold at all.**
+
+**6. 🟡 FLEET GATE FAILING ON ROWS I MAY NOT FIX — flagged to PROME 9/3, do not bypass.** `walter_route_check.py` returns **rc=1** on **3 ROUTE-AROUND rows at other desks**; **my two are fixed.** Same shape as `memory_index_check --strict`. If a future closeout is blocked by it, **that is the gate's defect, not a reason to skip the check.**
+
+**7. 🟢 LIQUID's manager-leg comparator — recorded as owed on THEIR side, unstarted, no date claimed.** If they build it, **I grade it.** Until then X1's wrapper half stays **NOT ARMED / CLOSED / DON'T-SIZE**, and my 9/3 ruling stands: **the decomposition leg is a modifier on a DOWN-LEG, not a free-standing observable.**
+
+---
+
+## 📦 PRIOR NEXT-BOOT LIST (2026-09-02) — items A–H
+*Retained below unchanged; A/B/C/F are DONE and their live tails have been promoted into items 1-5 above. **C is CLOSED: the BCRED letter filed 9/3 and is graded.***
 
 ## ⚡ NEXT BOOT — FIRST MOVES (ranked, **2026-09-02**)
 

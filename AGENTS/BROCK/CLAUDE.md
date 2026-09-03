@@ -74,7 +74,7 @@ All mail lives under `AGENTS/BROCK/` (HERMES is retired — there is no delivery
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Signal Protocol
-Write a single `.md` packet per signal directly to the target agent's `inbox/` (use your own `outbox/` only to request PROME action):
+**SIGNALS (a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on) → WALTER.** **ANALYSIS and PACKETS → direct to the recipient's `inbox/`, self-committed per root carve-out ①.** Use your own `outbox/` only to request PROME action. *(Corrected 2026-09-03 on DAEDALUS's fleet census — this line had instructed direct SIGNAL delivery, which contradicts root `CLAUDE.md` §Direct Messaging v1 "never route signals around WALTER" and `MESSAGING/CROSS_SESSION_MESSAGING.md` §2 rule 4. Root canon wins. Residue of the 2026-06-30 HERMES-retirement template, propagated to ~20 desks; 10 still carried it at the census.)* Format for a packet you send direct:
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -243,5 +243,5 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 | `workbook/BDC_CASH_COVERAGE.tsv` | BDC dividend/cash coverage tracking |
 | `domain/sources/` | Research archives, STATUS backups, deep analysis |
 | `archive/` | Resolved catalysts, historical snapshots, superseded analysis |
-| `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Requests for PROME action. One file per signal. (Signals to other agents go directly to their `inbox/` — HERMES retired.) |
+| `inbox/` | Inbound signals and packets from other agents (WALTER-routed signals land in `inbox/WALTER/`). Process when spawned for it. |
+| `outbox/` | Requests for PROME action. One file per request. (**SIGNALS → WALTER**, never direct — root §Direct Messaging v1. **ANALYSIS/PACKETS** → direct to the recipient's `inbox/`, self-committed per carve-out ①. HERMES retired; that did not make WALTER bypassable.) |
