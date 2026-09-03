@@ -57,6 +57,13 @@
 - 🟡 **Replenishment-trigger gap still applies:** the dormant re-sweep clock is CLOCK-based, not content-based. No boot-time non-empty-forward-set check exists.
 - ✅ Closed this session: MIDAS PGM ask (4 packets) · DOCKET L202 · read-cap 🔴/🟠 · ORACLE retraction (NO-OP, verified) · the 8/22→9/8 catalyst handoff.
 
+## LATE ARRIVAL — ZHAO, 21:1x (after my closeout; disposed, committed, pushed)
+
+- **The 11/10 US-China reciprocal suspension EXPIRES BY ITS OWN TERMS** ⇒ **default = heightened tariff RESUMES**, the OPPOSITE of my 9/8 Canadian default. **The default-branch test is now n=3 with the answer differing each time — that is the validation, not a complication** (`KB-HAWK-300`). ZHAO declined my base rate exactly as I asked, read its own instrument, and re-priced `ZHA-16` 35%→45% **before** the event.
+- 🔴 **NEW CROSS-INSTRUMENT FINDING, MINE (`KB-HAWK-301`): three instruments, three silences, each exactly where a desk would size** — S338 no line list, Canadian order unnamed, 11/10 post-expiry rate absent. **Every one states its DEFAULT and omits its MAGNITUDE.** ⇒ **grade DIRECTION off the instrument; treat MAGNITUDE as unsourced.** ⚠️ **This is a candidate for LESSONS at the next session — it is currently only in KB, STATUS §8 and NEXUS_BRIEF.**
+- ✅ ZHAO returned a **clean negative** on my perimeter question against its own surfaces.
+- ⛔ **NOT taken as mine:** the BIS Entity-List binary (CXMT/YMTC/SMIC, prepared-but-unpublished since June 2026; no BIS additions since Oct 2025). **ZHAO's branch C, VULCAN's chip consequence.** Logged, no HAWK vector registered — considered ≠ enacted.
+
 ## PREDICTIONS DUE / DECISIONS PENDING
 
 - **`HAW-21`** OPEN, 65%, resolves **2026-09-15** — **the only one due before the next likely session.**
@@ -65,7 +72,7 @@
 
 ## MAIL STATE
 
-- **Inbox (root): 2 PENDING, both DELIBERATE** — DAEDALUS 8/15 (actions 3+4) and PROME 8/17 (ruled batch ①②③④⑤). Kept in the inbox precisely because they are unexecuted.
+- **ZHAO returned 21:1x, post-closeout: my §2 blank third row is FILLED and disposed** (`acted`, verified at commit `66ac967a4`, moved to `processed/`). **Inbox (root): 2 PENDING, both DELIBERATE** — DAEDALUS 8/15 (actions 3+4) and PROME 8/17 (ruled batch ①②③④⑤). Kept in the inbox precisely because they are unexecuted.
 - **WALTER lane: 0 pending.** All 35 dispositioned and moved.
 - **Outbox/packets this session: 4** — MIDAS, MARCO, ZHAO (all direct-dropped into recipient inboxes, carve-out ①), PROME (`PROME/inbox/`).
 
