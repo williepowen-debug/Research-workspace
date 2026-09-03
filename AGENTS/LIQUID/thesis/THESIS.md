@@ -62,8 +62,8 @@ LIQUID monitors its own active channels (repo plumbing, credit spreads). Other c
 | HY OAS 400bps+ | Forced selling / full systemic | Crisis pricing |
 | HY OAS 270–310 range | Hold / monitor | No action |
 | HY OAS sustained <265 (≥2 sessions) | TRIGGER A — cut credit-thesis-only positions to half | See KILL_MEMO ladder |
-| HY OAS <260 intraday | TRIGGER B — full credit-channel kill drill | See KILL_MEMO |
-| HY OAS sustained <260 (≥3 sessions) | **TRIGGER C — credit-channel killed** (HEARTBEAT line 80) | Full kill, re-frame around duration only |
+| ~~HY OAS <260 intraday~~ | ⛔ **TRIGGER B — RETIRED AS A KILL 2026-09-01 (WQ-106 RULED, Will 17:22 ET)** | **Dead rung. Untrippable as written** — `BAMLH0A0HYM2` is an end-of-day index published T+1 with **no intraday series**. Not a kill and not an observable. |
+| HY OAS sustained <260 (≥3 sessions) | 🟠 **TRIGGER C — RE-LABELLED A NON-KILL OBSERVABLE 2026-09-01 (WQ-106 RULED)** | ⛔ **NOT a kill.** **`GATE-HY-REKILL` (<260 on TWO CONSECUTIVE CLOSES) is THE credit-axis re-kill — the only one.** C is CONFIRMATION persistence beside an already-fired GATE-HY-REKILL; it starts no count and produces no kill memo. |
 | **APO >$130 ≥3 sessions** | Co-trigger — public-equity PC sentiment recovered (**day-count on closes only**) | If concurrent with HY OAS compression run, treat as Trigger C precondition even without 260 breach |
 
 **Currently (6/12):** HY OAS 280 (6/10, FRED), widening from the 274 cycle-tight (6/4); cushion above the 260 kill = 20bps, direction currently AWAY from the kill. **APO co-trigger:** the May run — **ten consecutive closes >$130, 5/8–5/21** (raw/unadjusted basis; initial cross 5/8 at $133.20, peak $135.52 on 5/14) — broke 5/22 ($128.51; one-day re-cross 5/27). A new fire printed 6/9–6/11 — three consecutive closes >$130 ($132.70 / $131.14 / $133.91; post-5/19-ex-date, so raw = adjusted until APO's ~Aug ex-date). **This is NOT a Trigger C precondition: the co-trigger escalates only alongside HY OAS *compression*, and HY widened into and through the fire window (274 on 6/4 → 280 on 6/10).** What it did fire is the HEARTBEAT line-80 reassess obligation — resolved 6/12 with the equity/mark-decoupling read (PC equity bid strengthening while the credit tail deteriorates: CCC 957, CCC−BB 787bps; outbox → BROCK, who owns the APO Dec $95P reassess). Day-counts verify on daily **unadjusted** closes only — the 6/8 intraday $131.5 was not a close ($127.57 was), and dividend-adjusted series mutate retroactively at every ex-date (yfinance: `auto_adjust=False`, `Close` column).
@@ -88,7 +88,7 @@ LIQUID stands down its bear thesis when:
 
 | Condition | Channel killed |
 |---|---|
-| HY OAS sustained <260 ≥3 sessions | Credit-channel only (Trigger C) — see KILL_MEMO. Other legs may persist. |
+| **HY OAS <260 on two consecutive closes (`GATE-HY-REKILL`)** | Credit-channel only — see KILL_MEMO. Other legs may persist. ⚠️ **RE-LABELLED 2026-09-01 (WQ-106):** this row previously read *"sustained <260 ≥3 sessions (Trigger C)"*. **The registry 2-close gate is THE kill; Trigger C is a non-kill observable and Trigger B is retired.** Level unchanged at 260 — only the count that kills. |
 | 10Y back below 4.30% sustained AND HY OAS <270 | Both credit + duration unwinding — full thesis reassessment |
 | Fed expands liquidity facilities (SRF reform, standing repo, restart QE) | Leg A killed — Fed buffer restored |
 | TIC confirms FOI buying resumed for 2+ consecutive prints | Leg B killed — demand hole closing |
@@ -106,7 +106,7 @@ LIQUID stands down its bear thesis when:
 | Condition | Target | Priority |
 |---|---|---|
 | HY OAS >320bps confirmation | ALL | 🔴 |
-| HY OAS <260 sustained (Trigger C) | ALL + PROME | 🔴 |
+| **HY OAS <260 on two consecutive closes (`GATE-HY-REKILL` — THE kill; WQ-106 2026-09-01)** | ALL + PROME | 🔴 |
 | SRF usage >$50B sustained | REGINALD, HENRY, PROME | 🔴 |
 | Auction failure (BTC <2.0x) | ALL | 🔴 |
 | Reserves <$2.8T | PROME | 🟠 |
