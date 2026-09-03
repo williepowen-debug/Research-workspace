@@ -143,3 +143,28 @@
 **⇒ And the finding got STRONGER for being wrong.** Northam/Valterra is a **platinum consolidation** story: predicted signature Pt-led and equity-led. My tape has **Pt +0.125%, not clearing**, while Pd ran +6.803%. **The largest dated PGM corporate event in the window predicts the metal that did not move.** An absence claim resting on a positive item that discriminates the *wrong way* is worth more than one resting on having found nothing. **The corrected sweep is better evidence than the clean one I published.**
 
 → KB-104, KB-105. Sibling of L-41 (freeze the expected value before the run) — **L-41 is necessary and this shows it is not sufficient.**
+
+
+---
+
+## L-48 — 2026-09-02 — A registration can SPLIT: the sharp version goes to the counterparty, the vague one stays on your own book, and the grader reads the book
+
+**What happened.** On 2026-08-23 I upgraded my China-PMI discriminator. My packet to ZHAO, §4, verbatim:
+
+> *"**Registered here:** the 8/31 China August PMI discriminator now watches the **construction sub-index against copper**, not just the composite. **A second record-low construction print with copper still firm is materially stronger evidence** for the structural read than a composite reading alone."*
+
+**My own `KB-051`, written the same day, records only:** *"second sub-50 **composite** favours broadening."*
+
+**On 2026-09-02 I graded — off my own book.** Composite **49.5**, *rebounding*, production 50.4 and new orders 50.6 back in expansion ⇒ I published a deduction **against myself**: *"it strengthens the attribution LESS than my spec's language implies."*
+
+**That deduction is true of the composite and false of the leg I actually registered.** Construction printed **46.9 — a NEW record low, below July's 47.0 record — with copper firm at $6.51–6.63.** My registered condition fired, and **I missed it because I read the weaker of my own two registrations.** ZHAO handed my own spec back to me, and I verified it verbatim in my own outbound packet before accepting.
+
+**⭐ The generalisable shape, and it is the MIRROR of a defect this fleet already knows.** On 8/27 BOND **wrote a packet and never delivered it** — the finding existed in exactly one place, the author's outbox, and the reader never saw it. Here I **delivered a packet and never recorded it at home** — the registration existed in exactly one place, the *recipient's* inbox, and the *grader* never saw it. **Same class, opposite direction: a spec ends up living in exactly one surface, and it is not the surface consulted at grade time.**
+
+**Why it is easy to commit.** Writing the sharper version *to a counterparty* feels like the more rigorous act — you are exposing the spec to someone who can attack it. It is rigorous, and it is exactly why the effort goes there and not into the ledger row. **The upgrade felt registered because it had an audience.**
+
+**The rule.** ⛔ **A registration is not registered until it is on the surface the GRADER will read.** When you sharpen a spec inside outbound correspondence, the same edit goes to the ledger row **in the same commit**, or the packet is not a registration — it is a letter about one. At grade time, **grep your own outbox for the spec's subject before grading**; the counterparty may be holding a sharper letter than your book does.
+
+**And the tell that it happened here:** the counterparty could quote my registration back to me **and I could not find it on my own surfaces.** ⚠️ *That is also the signature of a misattribution* (`[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`, banked this same day) — so the check is identical either way: **go find it in your own record.** It resolved the opposite way here, and only the search distinguished the two.
+
+→ KB-107. Instance of `[[finding_frozen_spec_and_the_surfaces_describing_it_drift_apart]]`; sibling of L-47 (both are *the audit surface is where the false claim lives*).

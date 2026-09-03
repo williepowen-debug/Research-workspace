@@ -59,3 +59,4 @@
 | **L-45** | 2026-09-02 | A fix that cures one contamination can CERTIFY a second as cured — my own comment claimed settled bars pinned the contract; `GC=F` IS the roll, and the false claim sat in the source for 10 days. |
 | **L-46** | 2026-09-02 | When the DISCRIMINATOR goes stale the check passes and measures nothing — vendor duplicated futures volume into the 9/1 row; keep a fallback that fails on a different field. |
 | **L-47** | 2026-09-02 | Freezing criteria proves nothing if no probe is MAPPED to each one — my criterion→probe cell claimed coverage a query could never deliver, and the mapping is where the false claim hid. |
+| **L-48** | 2026-09-02 | I published the SHARPER spec to the counterparty and recorded the VAGUER one on my own book — then graded my book and missed my own registration; ZHAO handed it back. |
