@@ -135,7 +135,7 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 | **1G** | Any other **issuer** filing, not qualifying under 1A | **8%** |
 | **1B** | **No issuer filing at all** — scores as **NO INFORMATION about compliance**, explicitly NOT as a missed milestone | **72%** |
 
-**Partition 2 — the tape** (independent of Partition 1; basis = Amendment 2(i)): **1C** close **< $1.80** — **15%** · **1D** close **> $2.90** — **10%** · **1E** close **≥ $1.80 and ≤ $2.90** — **75%**. *(Strict outside, inclusive inside; endpoints belong to 1E.)*
+**Partition 2 — the tape** (independent of Partition 1; basis = Amendment 2(i)): **1C** close **< $1.80** — **15%** · **1D** close **> $2.90** — **10%** · **1E** close **≥ $1.80 and ≤ $2.90** — **75%**. *(Strict outside, inclusive inside; endpoints belong to 1E.)* **Observation count: ONE** — the single 9/4 close. These three are the only genuinely single-observation bands in the letter.
 
 **Override — 1F:** a trading **halt (T1/T12)** on 9/3–9/4, **probability 3%**. ⛔ **1F DOMINATES 1B**: a halt is information, so if 1F fires, 1B does **not** score as silence.
 
@@ -156,7 +156,7 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 
 ⚠️ **"No acceleration" was removed from 2B as a requirement** — acceleration is not publicly observable, which violated this letter's own governing rule that every band be keyed to a public artifact. It survives only inside 2C, where it is observable *if disclosed*.
 
-⚠️ **The ±15% gap test is a DELTA and both endpoints are now pinned** (LIQUID, 2026-09-02 — a delta carries twice the revision exposure of a level): **prior session's close → that session's close**, both on the Amendment 2(i) basis. **The 9/8 session is measured against the 9/4 close** (the Labor Day gap is included — it is the most likely gap and excluding it would be a choice made after seeing the calendar).
+⚠️ **The ±15% gap test reads FIVE published observations, not two — recounted 2026-09-02 under LIQUID's corrected rule.** The first pin called it *"a delta, both endpoints pinned."* That undercounts: the band is *"ANY session in 9/8-9/11,"* so it reads the closes of **9/4, 9/8, 9/9, 9/10 and 9/11 — five observations, four adjacent pairs** — and **every one of the five must be on the Amendment 2(i) basis** (Nasdaq official close, unadjusted). **The 9/8 session is measured against the 9/4 close**; the Labor Day gap is INCLUDED, because it is the most likely gap in the window and excluding it would be a choice made after seeing the calendar. 🔑 **The general rule, which supersedes "delta = 2× level": count the separately-published OBSERVATIONS the grade reads — each is an independent restatement surface.** Classifying LEVEL-vs-DELTA sends you hunting for subtractions and misses the other three shapes: a **persistence** condition (*n* consecutive closes = *n* observations, and it looks like a single level), a **spread** between two contemporaneous series, and a comparison against a **running extreme** (the extreme is a restatable series, not a constant). *(LIQUID, 2026-09-02, correcting its own rule after that rule's own author misclassified this very band — and then found four more undercounts across its own five gates.)*
 
 ### Smaller corrections, applied
 

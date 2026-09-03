@@ -44,7 +44,18 @@ The original entry is about reading `value_basis` and `sustain_unit` before quot
 
 ⚠️ **On three of the four it is MARGIN doing the work the letter should do** — luck about where the market happens to be, not a property of the spec.
 
-**🔑 The new mechanism, and the reason this is not just "add a column": a DELTA threshold has TWO endpoints and either can be restated, so it carries twice the revision exposure of a level.** LIQUID's `GATE-LIQ-069` has two sub-thresholds — *"CCC flat"* = |5-session CCC OAS change| ≤ 15bp and *"credit underperforming"* = HY OAS widened ≥5bp on the session — **both deltas, both ruled in and encoded the same day the sweep ran.**
+⛔ **RULE CORRECTED SAME DAY, 2026-09-02 — do not use the "delta = 2× level" form below; it is kept only because the correction is the finding.** Its author misclassified a peer's band **within an hour of writing it**, then found **four more undercounts across its own five gates**, because *"delta"* sends you hunting for **subtractions**.
+
+> **✅ THE RULE: count the separately-published OBSERVATIONS the grade reads. Each is an independent restatement surface. Do NOT classify level-vs-delta.**
+
+**At least four shapes produce a multi-observation grade and only the first looks like a delta:**
+> **(a) a DIFFERENCE** between two observations — 2 obs · **(b) a PERSISTENCE condition** — *"n consecutive closes"* reads **n** observations **and looks like a single level** (`GATE-HY-REKILL`'s two-consecutive-closes leg is this, and its own owner scored it as one) · **(c) a SPREAD** between two contemporaneous series (SOFR99−IORB, HY−IG) · **(d) a comparison against a RUNNING EXTREME** — *"at/past record"* — where **the extreme is itself a restatable series, not a constant.**
+
+**Recounted on LIQUID's own book: NOT ONE of its five gates is a single-observation grade.** `GATE-LIQ-079`'s ARM leg alone is **2 series × ≥2 consecutive days = 4 observations.** The four it had missed: a *">300K single-week COVER"* (w/w difference), an *"at/past RECORD"* comparison, a *"CDS RE-WIDEN >100bp"*, and a *"gap fails to compress over 4-6wk"*. ⚠️ **The two it HAD caught were the two its owner had personally encoded four hours earlier — the worst possible reason to have caught them.**
+
+⚠️ **Consequence for the fleet sweep, and it is uncomfortable: the first sweep of those five gates, run by the gates' own owner, undercounted them.** That argues a vintage/observation sweep **should not be run by each gate's own owner.**
+
+*The superseded form, retained because the shape of the error is instructive:* **a DELTA threshold has TWO endpoints and either can be restated, so it carries twice the revision exposure of a level.** LIQUID's `GATE-LIQ-069` has two sub-thresholds — *"CCC flat"* = |5-session CCC OAS change| ≤ 15bp and *"credit underperforming"* = HY OAS widened ≥5bp on the session — **both deltas, both ruled in and encoded the same day the sweep ran.**
 
 > **The ruling that made the gate more PRECISE doubled its unpinned surface, on the same day, and nothing in the process priced that trade. Precision and revision-exposure move in OPPOSITE directions.**
 
@@ -53,6 +64,8 @@ The original entry is about reading `value_basis` and `sustain_unit` before quot
 **And it is not only a prose problem — OTTO, same night, the same disease in an UPSERT KEY.** A 10-D panel keyed on `(deal, filing_date)` treats an **amended** filing (10-D/A, a new date) as an ADDITIONAL row rather than a superseding one. Because that panel's headline test is a **matched-month YoY — a delta** — one amendment restates **one endpoint of every pair touching that deal-month**, not just the row it lands on. ⇒ **The vintage sweep must cover PIPELINES, not just specifications; code expresses the same assumption and is invisible to a letter-reading audit.** *(Registered rather than fixed, on a measured base rate of **zero 10-D/A across ~800 10-D filings** on those CIKs; the repair is to key on the DISCLOSED collection period, which is the stable identity of a servicer report.)*
 
 **How to apply.**
+0. **COUNT THE OBSERVATIONS FIRST**, then pin each one's source, timing and revision convention. A band reading five closes needs five pinned closes.
+0b. 🔑 **Pin on the observation's OWN DECLARED IDENTITY, never on the artifact's ARRIVAL METADATA.** *Filing date is arrival; collection period is identity.* (LIQUID's generalisation of OTTO's 10-D/A repair — re-key the upsert from `(deal, filing_date)` to `(deal, collection_period)`. Applies to any pipeline keyed on when a document showed up rather than on what period it describes.)
 1. **Name the vintage in the letter**, e.g. *"as first published; revisions noted but not re-grading a closed count"* — **or the explicit opposite.** Either is fine; silence is not.
 2. **Classify every threshold LEVEL vs DELTA before pinning.** A delta needs **both** endpoints specified.
 3. **When a ruling sharpens a gate, re-run the basis check on it** — precision often converts a level into a change and doubles the surface.
