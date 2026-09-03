@@ -63,3 +63,26 @@ Not originally a LESSONS.md item (it lived in HAWK's `domain/energy-strikes/SUMM
 - **`≥45d`, carried verbatim from the deleted limb my clause replaced**, never re-checked against the row's own **8/20 → 9/30** window. **Verified: the latest start for a ≥45-consecutive-day run finishing by 9/30 is 2026-08-17 — three days before the window opens ⇒ no in-window event can satisfy it, and LEG A cannot fire at all.**
 **Why this is the sharpest instance of the day's defect and not a fifth footnote:** I had *just established* that a fix inherits the **enumeration** of the case it came from — and in **the same packet** committed the parameter version of the identical error. **And the direction is the tell: I was arguing LEG A was TOO HARD to fire, which is exactly the position that should have made me check the duration bound.** An argument's own direction tells you which number you have not checked — *the one whose value would embarrass your thesis if you looked.*
 **⇒ Practice: when you propose a clause built from an existing one, list every constant you carried over and re-derive each against the NEW row's window, units and resolver. Carried constants are the least-reviewed text in any spec, because they arrive pre-legitimised.** *(And: an unbound placeholder must never leave a draft — bind it or delete the limb.)*
+
+---
+
+## [2026-09-02] ★ ITEM 8 — A NAME-SHAPED QUERY CAN ONLY RETURN EVENTS YOU ALREADY SUSPECT. For a clock that counts EVENTS, sweep a source indexed by TIME, not by name.
+
+**What happened.** The Channel-3 kill clock counts days since the last **vessel-strike incident**. Off the 8/16 *Skiros* row it stood at **17 of 21 days** on 9/2 and would have expired **9/6** — days away from this theater's **first ever channel kill**. Two searches said the window was quiet: a **vessel-name** query, and a **"shadow fleet tanker"** keyword query. Both returned nothing dated in-window. What actually happened: **two Russian shadow-fleet vessels — a bulk carrier and a tanker — were struck 8/24**, plus a chemical tanker 8/25 and a sinking 8/27. The clock resets to **8/24 = 9 days.** They were found in a **dated-window maritime security bulletin** — a weekly report indexed by **time and sea area**.
+
+**Why the searches failed, and it is not that they were badly worded.** A name query can only surface events whose **names you already hold**. The incidents that matter most to a completeness check are precisely the ones you cannot name — a *"Russian shadow fleet vessel"* with no published name is invisible to every name-shaped query that will ever be run. A keyword query is only marginally better: it depends on an outlet using **your** vocabulary. **The kill clock's unit is `an event in a window`. So the source must be indexed by `window`.** Match the index to the clock.
+
+**⚠️ THIS IS THE THIRD INSTANCE OF ONE SHAPE ON THIS DESK, and the escalation is the point:**
+1. **HAW-15 (7/12, the founding lesson)** — searched the prediction's **named terminals** instead of the mechanism. Wrong twice in one day.
+2. **8/16 (*Skiros*)** — a **hull-class** check ("is it shadow-fleet?") would have declared a channel kill on a false quiet; §1's letter says *"vessel-strike incident"*, unqualified.
+3. **8/24 (this session)** — a **vessel-name / keyword** check returned a false quiet on a 21-day clock four days from expiry.
+
+Each time the fix has been *narrow the gap in the name list*; each time the list was not the problem. **Adding another vessel name is the same error with one more name.**
+
+**⇒ PRACTICE, REGISTERED AS AN INSTRUMENT, NOT AS A RESOLUTION:**
+- **Before any name-shaped query, sweep a dated-window source covering the whole gap** — for Channel 3, a weekly maritime security bulletin covering the Black Sea / Sea of Azov / Baltic. Name queries come **after**, to enrich rows the window sweep already found.
+- **Never grade a channel kill on the absence of NAMED events.** Absence of names is a fact about your index, not about the sea.
+- **When a clock is within one sweep-interval of expiring, that is the session to distrust your own quiet.** The near-expiry case is exactly when a false negative is most expensive and least visible — the quiet reads as *confirmation the campaign stopped*, which is the finding you were hoping for.
+- Generalisation for any desk: **ask what UNIT your clock counts, then ask what your source is INDEXED BY.** If those two differ, the search cannot see what the clock measures, and every check will pass clean.
+
+*(Related: `finding_scan_keyed_on_naming_reads_local_form_as_absence` · `finding_instrument_reports_clean_against_the_wrong_reference` · this desk's item 1 and item 7.)*

@@ -1,75 +1,43 @@
 # OSPREY — NEXUS Brief
 
-**Status:** 🔴 — Russia/Ukraine energy war at high intensity. **★ THE CRUDE CHANNEL HAS CONVERTED ON AN AGGREGATE MEASURE FOR THE FIRST TIME — and not one barrel of it is irreversible.** The 8/8 de-escalation HELD its ~8/17 rung, but only because the agreement is narrower than this desk's published instrument said.
+**Status:** 🔴 — Russia/Ukraine energy war at high intensity. **★ THE CRUDE DECLINE REACHED A SIXTH CONSECUTIVE WEEK AND DID NOT SNAP BACK — and still not one barrel of it is irreversible.**
 **Domain:** Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel model, Ukraine-side shadow-fleet kinetic strikes, Druzhba/EU angle, Baltic/Black-Sea oil ports.
 **Position:** None — OSPREY holds no trade book; military/infrastructure inputs feed BRENT's.
-**As of:** 2026-08-20 ~14:00 ET — 8/17 ruling encoded and committed (`2ac56f239`) → OSP-05 graded FAILED → gap sweep 8/16-8/20 (prior session 8/15). **STATUS commit: see session commit below.**
+**As of:** **2026-09-02 ~23:2x ET** — full owner session after 13 dark days (8/20 → 9/2). OSP-04 graded · WQ-87 encoded · GATE-OSPREY-001 re-graded · read-cap discharged · both inbox lanes drained to zero. **STATUS commit: see this session's commit.**
 
 ---
 
 ## VIEW
 
-- **★★ THE HEADLINE — Russian seaborne crude exports 3.58 M bpd** (4-wk to 8/16): lowest since April, **fifth consecutive weekly fall**, per Bloomberg the largest such slide of the war; **zero crude cargoes loaded at Novorossiysk** in the seven days to 8/16; attributed by the source to *"actual and threatened drone strikes in the Black Sea"* [Bloomberg tanker-tracking 8/18]. **~-640 kbpd** vs the 4.22 M bpd wartime high of 7/5.
-- **★ AND THE MECHANISM IS THE FINDING: deterrence of OFFTAKE, not destruction or blockade.** No crude-export berth has ever been confirmed destroyed; **no crude-export halt has exceeded 7 days**; no damage-attributed FM, no ≥90d restoration statement, no ≥45d outage — all campaign. Kinetic threat → charterers decline to lift → loadings stop → shore tanks top out → pipeline backs up → upstream cuts. **Sheskharis's 8/14 halt is the clean tell: it stopped accepting oil because its tanks were FULL, i.e. because nobody was lifting.** ⇒ **This is FAST-REVERSIBLE supply loss and must not be priced as attrition** (KB-OSPREY-042).
-- **① Refineries/products — 4 🔴 carried.** Tempo continued through ~8/13 (Orsk 8/11 conceded ~6mo; a "fourth attack in three days" run incl. Nizhnekamsk).
-- **② Crude-export terminals — 4 🔴 carried, UPGRADE CANDIDATE ROUTED NOT SELF-MARKED.** The Upgrade Trigger's **liftings-drop limb now appears FIRED** (3.58 M bpd, strike-attributed by the source itself); the destroyed-berth limb has never been close. **Not self-marked — Will/PROME call.** Sheskharis is now a **four**-episode recurrence since 7/22 and the interval is **not** lengthening. CPC kept loading; **SPM-2 back in service after ~9 months**.
-- **③ Shadow-fleet tankers — 3 🟠 carried. ★ KILL CLOCK RESET TO 8/16 (4/21) — it would have expired TODAY.** On 8/16 a drone struck the Greek Suezmax **Skiros** at the CPC berth after it loaded Russian crude. A hull-class-only check ("is it shadow-fleet?") would have declared this theater's **first-ever channel kill on a false quiet**; §1's letter says *vessel-strike incident*. **Thesis-kill theater clock stays N/A.**
-- **★ The ~8/17 CPC rung is RESOLVED on a sourced positive, not an absence-of-report** — which is precisely what WALTER and HAWK both flagged was missing. **Understanding NOT broken:** its actual letter (FT via Meduza) exempts non-Russian-flagged hulls **carrying Russian cargo**, and Skiros was laden with Russian crude. **Ukraine is *exercising* the carve-out — sparing CPC steel, hunting Russian-cargo hulls at the CPC berth.**
-- **⚠️ CONSUMER-FACING CORRECTION: this desk's published falsifier was over-broad.** It read *"any strike on CPC or a non-Russian tanker breaks it"*, omitting the cargo qualifier the agreement contains. **On the letter published, this event fires** — a mechanical 8/17 grade would have routed "understanding BROKEN" to BRENT and HAWK. Corrected ladder in STATUS; verdict not bent to match.
-- **Canonical refining-offline band: ~30%, 25-35% [EST] — UNCHANGED (KB-OSPREY-029).** The ~33% re-centre is **APPROVED BUT SEQUENCED** behind HAWK's refining-offline basis-pair audit — **cite the band, never the candidate.** Runs-decline-is-a-PROXY caveat rides.
-- **Black Sea war-risk (AWRP): 30-day print gap, FOURTH consecutive empty canvass** across five step-change events. **9th vintage trap caught:** the "underwriters reassess exposure" piece circulating as fresh repricing direct-fetches to **2025-12-01**. **"Unobserved" is not "unchanged."**
-- **Predictions: OSP-05 FAILED 8/20** (0-of-2; R3 ruled resolvability-defective). **It failed in the very week the outcome it was built to detect arrived** — construct defect, not confidence defect. Ledger now 1 CONFIRMED / 3 FAILED / 1 OPEN (OSP-04 only).
+- **★★ THE HEADLINE — Russian seaborne crude 3.46 M bpd** (4-wk to 8/23): **sixth consecutive weekly fall**, from 3.58 (8/16), 3.71 (8/9) and a 4.22 wartime high (7/5) ⇒ **~-760 kbpd** [Bloomberg tanker-tracking via EnergyConnects 8/25]. On 8/20 this desk said the only question that mattered was persistence-vs-snap-back. **It persisted.**
+- **★ AND THE MECHANISM IS UNCHANGED, WHICH IS THE PART THAT PRICES.** **BARRELS DESTROYED = zero; BARRELS NOT SHIPPED = large, rising, reversible** (HAWK's split, adopted verbatim so BRENT hears one phrasing from both desks). No crude-export berth has ever been confirmed destroyed this campaign; every individual halt has reversed in 2-7 days. **A reader who collapses those two lines gets the theater wrong in either direction.**
+- **★ THE MECHANISM NOW HAS A NAMED COMMERCIAL ACTOR: MSC suspended new bookings to and from Novorossiysk (8/27)** after its containership was struck. Offtake deterrence, observable. ⛔ **Trigger deliberately NOT fired** — the letter says a *war-risk **buyer** pullback*, and a container line is not a buyer of Russian crude. Watched as a **class**: a crude charterer/trader/refiner withdrawing **would** fire it.
+- **Campaign tempo unbroken and reaching further:** **Perm 8/21 at ~1,600 km — the deepest oil target of the war** · Afipsky 8/26 · **YANOS/Yaroslavl 8/28** (top-5 refinery, 2nd hit) · **Ust-Luga 9/1** (largest Baltic terminal, 2nd hit in 18 days; a drone crossed **Latvian and Estonian** airspace and NATO scrambled F-16s — **HAWK/HANS's object, not an oil fact**) · Novorossiysk grain terminals halted ~9/1. **21 refinery attacks in August alone.**
+- **★ BEHAVIOURAL CONFIRMATION OF THE PRODUCTS SHORT:** Russia is **tolling its own crude through Kazakhstan's Kondensat refinery**, ~70% of output returned — but ≤200,000 t of gasoline **per year** against ~120,000 t **per day** of Russian summer consumption ⇒ **~0.3-0.5% of daily demand.** Russia's own revealed preference, which is stronger evidence than any outside estimate — and still a **direction tell, not a fix**.
+- **The Sept-1 producer-direct diesel carve-out NEVER OPENED** — extended to **9/30**; traders' diesel + gasoline to 1/31/27; **jet fuel to end-Nov 2026**. ⚠️ **REPORTED (4+ wires), NOT PRIMARY-VERIFIED** — decree 403 unread at pravo.gov.ru.
+- **Refining-offline band: ~30%, 25-35% [EST] — UNCHANGED and canonical (KB-OSPREY-029).** The ~33% re-centre is **approved-in-principle, FROZEN in execution** behind HAWK's basis-pair audit. **Cite the band, never the candidate.**
 
-## CALIBRATION
+## WHAT I GOT WRONG, PUBLISHED RATHER THAN BURIED
+- **I carried BRENT's floating-storage series at ~120M bbl (mid-June) behind a DARK label while it had already printed ~94M (8/18) and ~83M (8/25, "lowest in a year") — ~45% too high, for 15 days, on a consumer-facing surface.** **A DARK mark is a promise to re-pull, not a substitute for one.** Corrected; the series stays BRENT's. `consumer_check` found **3 further live carries on HAWK's surfaces and 1 on BRENT's** — both packeted, neither edited by me.
+- **OSP-04 confirmed on a letter I wrote too generously** — an OR-shaped confirm limb against an AND-shaped fail limb, and half the claim was falsified in-window. **Verdict taken on the letter; calibration credit is not.**
 
-- **Conviction:** MEDIUM on the channel marks, **HIGH on the mechanism** (products impaired, crude escaping).
-- **⚠️ ALL THREE MARKS STILL CARRIED, NOT RE-MARKED** — the no-downgrade-trigger instrument defect flagged 8/10 is unresolved (WILL-class, unchanged).
-- **NEW this session — thesis-kill theater clock published for the first time** (per the 8/10 self-ruling's own requirement): `days since last channel re-armed` = **N/A, nothing individually killed yet.** Channel-3 is the one to watch — if it kills ~8/20, this counter starts printing a real number for the first time.
-- **Row-33b (EXIT RULES §3 attribution clause) CLOSED end-to-end this session.** Taken up (not self-ruled — fails DELEGATION_TIER tests 3/4), drafted, routed, **Will ruled and adopted it in-session same day.** `CLAUDE.md` §3 now requires at least one of the ≥2 institutional legs behind a Brent break/fade to name Russia/Ukraine causation before firing for OSPREY's channels — dated ruling block, superseded text preserved verbatim, R1-R3 riders, commit `727c032f6`. Kill rail `audited` → `re-derived`.
-- **Rule N6 (Will-ratified 8/11) ACCEPTED** on my own surfaces — added a symmetric extension branch to the 8/8 falsifier ladder so a formalization/extension gets an explicit graded path, not silent absorption into "still holding."
-- **Calibration record unchanged: 1 CONFIRMED / 2 FAILED / 2 OPEN.** OSP-05 (RED's rotation test) closes ~8/24, was 0-of-3 as of 8/10, not re-checked this session — due next session.
-- **Instrument-integrity finding this session:** a WebSearch summary asserted an "August 18" Druzhba pipeline strike; direct WebFetch of the cited Wikipedia article showed its timeline ends 4/23/26 — the date was not in the source. Logged (KB-OSPREY-039), not rowed. Portable finding: summarizers can assert dates the underlying source doesn't contain.
+## CHANNEL STATE (marks CARRIED; none moved, none movable by me)
+| Channel | Score | Kill clock (§1) |
+|---|---:|---|
+| 1 · Refineries/products | **4** 🔴 | newest row 8/28 — **4 of 30 days** |
+| 2 · Crude-export terminals | **5** 🔴 | newest row 9/1 — **1 of 30 days** |
+| 3 · Shadow-fleet tankers | **3** 🟠 | newest row **8/24** — **9 of 21 days** ⚠️ **RESET; a name-shaped check would have read 17/21 and expired 9/6** |
 
-## CROSS-DOMAIN
+**Thesis-kill theater clock: N/A — no channel has ever been individually killed.**
 
-**SENDING (routine, via this brief — no new 🔴 direct packets this session; both action items from WALTER were already routed to BRENT directly by WALTER):**
+## FOR OTHER DESKS
+- **BRENT** 🔴 — the 3.46 print; my floating-storage correction (and one stale carry at `thesis/THESIS.md:207`); MSC's Novorossiysk withdrawal. **AWRP silent 43 days — do not read as flat**, and the TD6 tripwire behind that silence is 26 days stale, so my absence rows are weaker than they read.
+- **CARL** 🔴 — **second wrong premise from me on the same item.** The Sept-1 carve-out never opened; earliest producer-direct loadings **on/after 10/1** ⇒ a pass-through check is tradeable **mid-to-late OCTOBER**. A September-timed check measures a release that did not happen and its null is the *expected* result.
+- **HAWK** 🟠 — **the armed test you asked me to run has fired, reported publicly**; you reported it against yourself first. Band stays frozen. Three stale `~120M bbl` carries on your surfaces, one of them the **evidence row for your floating-storage-saturation scenario** — and oil-on-water is now **falling hard**, which does not kill the row but does invert its stated evidence. Still open: the redundancy-exhaustion clause for `HAW-19` LEG A; the joint propagation-finding memo.
+- **RED** 🟠 — OSP-05 **FAILED recorded**, and the reason is **R3's ruled defect, not R1** (R1 **did** fire on Taman 7/30). Capability and outcome have visibly separated; **OSP-06** is built to hold both.
+- **PROME** 🟠 — GATE-OSPREY-001 packet: legs (a)/(c) NOT FIRED by fresh verification, `review_by` **confirmed 9/15** with a named reason, `consumed_by` proposed. WQ-87 (a)-(d) executed.
+- **DAEDALUS** 🟡 — read-cap P1 discharged on both surfaces (rc 0), crc-verified; `Cadence: EVENT-DRIVEN` adopted. **New ask:** OSP-04's search-attempt guard has a date floor and **no ceiling** — routed, not self-ruled.
+- **NEXUS** 🟠 — the **OWED REGISTER** in my STATUS is the obligation-audit method your 9/2 split needed: enumerate every owed action before a hot/cold split and again after (**25 → 25 + 6, 0 dropped**). **A byte check cannot see an obligation.** Offered, not imposed.
 
-| To | Signal | Priority | Mechanism it triggers |
-|----|--------|----------|----------------------|
-| **BRENT** | Sheskharis is now a 3-episode recurrence at the terminal behind your CPC 2→3 convergence move — confirming evidence, same pattern now visible at a second terminal. CPC itself still not reported hit as of 8/15. | 🟠 | Reinforces existing recurrence-over-reversibility read, no new mark asked |
-| **BRENT** | War-risk gap now 25 days across THREE consecutive absence windows, including two step-change-class events this week (8/12, 8/14) — "unobserved" is not "unchanged," now more informative than ever. | 🟠 | Guards against a flat-read of a genuinely uninformative-looking absence |
-| **HAWK** | Same Sheskharis update; capability step-change (missile+jet-drone+USV vs a naval base) has no column in my Type/Channel taxonomy — flagged, not fixed. | 🟡 | Cross-war synthesis input |
-| **PROME / Will** | Row-33b CLOSED — thanks for the same-day ruling. Nothing further owed on this row. | 🟢 | Closed |
-
-**WAITING FOR:**
-
-| From | Input | Expected by | How it changes my view |
-|------|-------|-------------|------------------------|
-| **Ukraine / the tape** | **Any strike on CPC infrastructure or a non-Russian tanker** | **~8/17** | Breaks the 8/8 understanding — survived 8/12, one window left |
-| **Ukraine / any party** | A written/institutional artifact from the 8/8 understanding | **~9/8** | Falsifies my "structureless suspension" reading — theaters converging, not diverging |
-| Any independent outlet | A post-July print for floating storage **or** Urals discount | 8/31 | Resolves OSP-04 |
-| Nothing (a non-event) | Any new Channel-3 (shadow-fleet) STRIKES.tsv row | **~8/20** | Its ABSENCE kills Channel-3 under §1 — first channel-kill this theater has had |
-
-## NEXT DECISION POINT
-
-- **What:** **Does the 8/8 understanding hold through ~8/17?** It just survived the loudest test available short of that date. If it holds to 8/24, the Channel-2/3 downgrade case matures; if it breaks, it breaks loudly and prices differently from an ongoing campaign.
-- **Second, new this session:** **Does Channel-3 hit its 21-day kill clock ~8/20?** No shadow-fleet-tanker row since 7/30. This would be the first channel this theater has individually killed under §1 — and the first time the thesis-kill theater clock (published this session as N/A) starts counting a real number.
-- **The one Will item this session had is CLOSED:** `EXIT RULES §3`'s attribution clause was drafted, routed, ruled and encoded same day — no open Will item on this row anymore. **Still open, unrelated:** `THESIS.md` remains the v0.1 spinout-seed (7/12) and now materially contradicts live state — it reads "Brent has stayed ~$76-79," while EXIT RULES §3 (as of today) is keyed to an >$85 rail and the tape has run $86-100+ since 7/23. Flagged with a dated banner this session (see THESIS.md); a real v0.2 pass is still owed and not done here — out of scope for a closeout hygiene pass.
-
-## FORWARD CATALYSTS (next 2-4 weeks)
-
-| Date | Event | Threshold / Signal |
-|------|-------|---------------------|
-| 🔴 **~Aug 17** | 8/8 understanding — first falsifier | **Any** strike on CPC or a non-Russian tanker breaks it. Survived 8/12. |
-| 🟠 **~Aug 20** | Channel-3 kill clock | No shadow-fleet row since 7/30 (16/21 days as of 8/15) — first potential channel-kill this theater |
-| 🔴 **~Aug 24** | 8/8 understanding — durability | Sustained absence ⇒ Channel-2/3 downgrade case matures (candidate, Will-gated) |
-| 🟠 **~Aug 24** | OSP-05 RED rotation test, 2-of-3 | 0-of-3 as of 8/10, not re-checked this session — due next |
-| 🔴 **~Sept 8** | 8/8 understanding — institutionalisation | A document or standing mechanism ⇒ coupling read is wrong |
-| 🟠 **Sept 1** | Producer-direct diesel exports resume | CARL's real test — reads mid-to-late September |
-| 🟡 **Aug 31** | OSP-04 — are floating storage + Urals discount still DARK? | 60%, search-attempt guard in force |
-| 🟡 Jan 31 2027 | Fuel-export ban full expiry | Gasoline all-participants; non-producer diesel |
-
----
-
-*Brief format follows `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md`.*
-**⚠️ FOLD-LAST RULE (NEXUS action 4, re-affirmed 8/10): this brief is refreshed as the LAST closeout step, AFTER the final STATUS write, diffed against every retraction/correction made this session.** One correction to diff against this time: the mid-session row-33b ruling superseded this brief's own earlier "recommendation routed, not applied" framing (written pre-ruling) — caught and fixed in this pass, per DAEDALUS's war-triad review flagging derived surfaces that still contradicted the encode. All other findings (Orsk/Salavat/Sheskharis rows, N6 acceptance, Druzhba vintage trap) are additive.
+## WATCH NEXT (dated)
+**~9/8 — three things land together:** the 8/8 understanding's **institutionalisation rung** (+ Rule N6's extension branch) · **DOCKET L140**, BRENT's first real diesel read · the next export print — **a seventh week, or the snap-back.**
