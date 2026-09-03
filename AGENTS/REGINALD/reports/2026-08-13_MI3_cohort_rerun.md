@@ -112,6 +112,8 @@ Ranked by v1, Q2-2026. All figures $K→$M, source FFIEC CDR Call Report, pulled
 | Secured office books (WAL office, OZK RESG), classified balances, the $99M life-science credit, the pending appraisal | **UNTOUCHED.** V1a ≠ V1. |
 | NEXUS's "no valid cross-bank hidden-CRE number fleet-wide" hold | **RELEASED** — §2 is the valid cross-bank number, on a stated uniform basis, 56/56 rows sourced to primary. |
 
+> ✅ **UPDATE 2026-09-02 — the MTB half of "Owed next" below is ANSWERED: `NO ROW`.** Tested against a frozen pre-registration → `reports/2026-09-02_MTB_baltimore_FROZEN_frame.md`. The $4.95B book grows by **ORIGINATION, not migration** (item 4 +4.51% · item 9.a **+26.46%** · loans +5.26% YoY), `step_flag` empty on all 12 quarters, credit GENUINE on NCO. ★ **The deciding read: MI3 grew +15.70%, SLOWER than its own 9.a parent — gaining dollars while losing share of the bucket it sits in, the inverse of the relabelling signature.** ⚠️ **The item-4 → item-9.a migration series (the other half) is STILL OWED** — answering it for one bank is not building the cohort instrument.
+
 **Owed next (not done here):** a per-bank item-4 → item-9.a migration series (the mechanism instrument, §5 row 4), and whether MTB's $4.95B absolute book warrants a Matrix row. Both → ROADMAP.
 
 ---
