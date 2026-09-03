@@ -166,3 +166,23 @@ LIVE — 🔴 holds (5-of-5 >6.0, 4th reading 8/23); stand-down RULED 8/23: <5-o
 entry-crc32: 2000038728 · bytes: 175 · superseded 2026-09-02
 
 LIVE — leg (b) FIRED 7/24 (CPC halt 5 sessions = duration fire); legs (a) SPM damage / (c) Tengiz FM UNFIRED at 8/10 + 8/15 grades; OSP-04 8/31 · hist→GATES_STATE_HISTORY
+
+## GATE-TERRY-ROLL70 — superseded 2026-09-03 (WQ-131 ≤220 contract restored — 531-char cell; management terms live in consequence_on_fire + the TERRY card)
+entry-crc32: 3642145893 · bytes: 555 · superseded 2026-09-03
+
+RESOLVED(FILLED 2026-09-02 — Will's word 14:21 ET: BUY 1× WAL Dec-18-2026 $70P @ $2.20 (≤$2.75 cap held; green WAL day; REG-T-02 exit 0-of-3) — ⚠️ filled on ROBINHOOD, not the card's Fidelity IRA (account deviation, ANVIL reconciles at the next export); management now per the card: harvest GTC ≥2.0× debit = $4.40 · time stop 2026-12-04 · guard = GATE-REG-T02 EXIT (WAL ≥81.90 ×3 official closes, REGINALD grades) — the prior 'GREEN-DAY LEG MET / chain unverified' cell is superseded by the fill itself) · hist→GATES_STATE_HISTORY
+
+## GATE-HY-REKILL — superseded 2026-09-03 (WQ-131 ≤220 contract restored — 330-char cell)
+entry-crc32: 1947024082 · bytes: 340 · superseded 2026-09-03
+
+LIVE — 0 of 2 closes <260 (strict less-than; bp = FRED percent ×100); HY 265 [9/1] ← 263 [8/31] ← 260 [8/28] = a 2026 MINIMUM ON the line, 0bp, NOT a close below (LIQUID owner-grade 9/2 + blind cold read CONFIRMED) ; letter SELF-GRADING since WQ-162 9/2 (unit, boundary, consecutiveness, reset explicit) · hist→GATES_STATE_HISTORY
+
+## GATE-TERRY-007 — superseded 2026-09-03 (9/1 official folded into the state cell — the 25bp distance was 4bp stale vs last_checked)
+entry-crc32: 1287805091 · bytes: 214 · superseded 2026-09-03
+
+LIVE — 004 TLT Sep-30 77P exit counter 0 of 5, OWNER-graded through 8/31 (TERRY 9/1 25a86b4f2: 4.66·4.67·4.73·4.75, window HIGH 4.75; gate 25bp away); 9/1 official owed ~9/2 16:15 · hist→GATES_STATE_HISTORY
+
+## GATE-CORAL-MSI-01 — superseded 2026-09-03 (parenthetical glossed — the two metros named are the ones BELOW 6.0)
+entry-crc32: 2326409356 · bytes: 210 · superseded 2026-09-03
+
+LIVE — 🔴 HOLDS; reading #5 (Parcl 9/2, stamped 9/3) breadth 3-of-5 >6.0 (Cape Coral 5.95 · Lakeland 5.97) = sub-threshold reading 1 of 2; clock RUNNING; 2nd countable ≥9/13 · hist→GATES_STATE_HISTORY
