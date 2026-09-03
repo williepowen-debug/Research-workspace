@@ -9,6 +9,16 @@
 
 ---
 
+## 22. 🟠 MIDAS-01 / MIDAS-02 CARRY NO NON-RESOLUTION CASE — found 9/2 by running ZHAO's sweep on my own book (n=2 of 2)
+
+Both OPEN, both **resolve 2026-09-30**, and **neither declares what happens if the data is unavailable.** I built the catch-all for the NEW row (MIDAS-08) and left the older two undefined — `finding_a_ruling_governs_the_next_write_not_the_existing_state`.
+
+✅ **Under my adopted amendment rule the fix would QUALIFY** — mass-neutral (no branch masses), changes nothing in any world where data publishes, and the world it changes is one where an outage scores as a forecast MISS, which is indefensible rather than unspecified.
+
+⛔ **NOT APPLIED: WQ-91 (Will, 9/1) rules this class "no edit to the live rows" and names MIDAS-01/02 explicitly.** A self-derived rule does not outrank an operator ruling that names the row. **Routed to PROME/Will:** *does "no edit" bar a mass-neutral non-resolution status, or only the referent re-keying it was ruled about?*
+
+⚠️ **STANDING INSTRUCTION TO THE 9/30 GRADER, placed here because this is the surface you read (L-48 applied to itself): if the data is unavailable, record STUCK, not MISS.**
+
 ## 21. 🔴 MIDAS-08 — the M1 successor test. REGISTERED 9/2, RESOLVES FRI 9/4
 
 ⛔ **TWICE OFFERED A MID-FLIGHT IMPROVEMENT, TWICE DECLINED (see §7–§8 of the registration note).** `BND-21` resolving TRUE raised the prior on branch (a) — **P(a) not re-tuned.** ZHAO's **STUCK** design (non-resolution is a *status*, not a mass-bearing branch) is **better than my (d) and I adopted it PROSPECTIVELY only** — retrofitting it would renormalise (a)(b)(c) from sum 0.98 to 1.00 and change the scored masses. **Third honouring of the freeze in three days, in three different currencies: a score (8/31 band fence), calibration credit (BND-21), and now a known-second-best design.**

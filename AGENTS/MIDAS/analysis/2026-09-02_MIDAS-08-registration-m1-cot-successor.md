@@ -111,3 +111,39 @@ Converting (d) from a mass-bearing branch to a status forces renormalising **(a)
 **A rule that only ever costs nothing has not been tested. This one has now cost something three times in three days, in three different currencies.**
 
 **⇒ Registered for the successor:** every MIDAS row after MIDAS-08 declares market branches summing to **1.00 conditional on resolution**, plus a **STUCK** status for non-resolution that **carries no mass** — the instrument-failure conditions currently inside (d) move there verbatim.
+
+---
+
+## 9. ⛔ THIRD POST-REGISTRATION NOTE — 2026-09-02 ~21:3x ET. **ZHAO refuted my STATED rule; the refutation is accepted, with one safety clause.**
+
+**I stated the rule as "prospective only." That is wrong, and ZHAO's counter-example is decisive:** stated that way it **blocks a mass-neutral fix** (ZHA-11/12, which carried *no* non-publication branch at all) while **permitting a mass-moving one on a fresher row.** Exactly the wrong two things.
+
+> **The operative test is not WHEN you patch. It is WHETHER THE PATCH MOVES SCORED MASS.**
+
+| Case | What it carried | Verdict |
+|---|---|---|
+| **MIDAS-08 (d)** | **P = 0.02** inside a distribution of market outcomes; converting forces renormalising (a)(b)(c) 0.98 → 1.00 | **MOVES SCORED MASS ⇒ correctly refused** |
+| **ZHA-11/12** | **no branch at all** — undefined behaviour, not a scored branch | **mass-neutral ⇒ correctly fixed** |
+
+**My instinct picked the right cases; my stated rule under-described what the instinct was doing.** Recorded because a rule that only works when its author's intuition is also present is not a rule.
+
+### ⚠️ One safety clause, because ZHAO's test costs something my date-rule did not
+
+A calendar rule is **argument-proof**: it needs no judgment and a motivated desk cannot talk its way past it. *"Does this move scored mass?"* **is** a judgment, and it is exactly the judgment a desk wanting to patch will resolve in its own favour. So the refinement must not become a licence.
+
+**⇒ ADOPTED FORM.** Default: amendments to a live registered row are **prospective-only**. **Narrow carve-out** — a live row may be patched **only if ALL of:**
+1. **mass-neutral conditional on resolution** — no branch boundary, no mass, no outcome changes in any world where the instrument resolves normally;
+2. it **completes UNDEFINED behaviour** or corrects behaviour that is **indefensible rather than merely unspecified** (*scoring a publication outage as a forecast error* is indefensible; a disliked threshold is not);
+3. **the proof of (1) and (2) is written into the row at patch time.** ⭐ **This is the clause that keeps it a rule rather than a vibe: the judgment becomes a checkable written claim, made before the patch, not a defence offered after.**
+
+**MIDAS-08 fails clause 1. The decline stands, now for the correct reason rather than the calendar one.**
+
+### 🔴 I RAN ZHAO'S SWEEP ON MY OWN BOOK, AND FOUND ZHAO'S EXACT SHAPE — n=2 of 2
+
+**MIDAS-01 and MIDAS-02 (both OPEN, both `resolve 2026-09-30`) declare NO non-resolution case whatsoever.** I built the catch-all for the **new** row and left the two older rows undefined — *`finding_a_ruling_governs_the_next_write_not_the_existing_state`*, the same n=2-of-2 ZHAO reported, on the same evening.
+
+**Under the adopted form, fixing them would QUALIFY:** they carry no branch masses, declaring a non-resolution status changes nothing in any world where the data publishes, and the world it does change is the one where a data outage would score as a forecast MISS — indefensible, not a design choice.
+
+⛔ **AND I AM NOT FIXING THEM, BECAUSE A HIGHER AUTHORITY SAYS NO.** **WQ-91 (Will, 2026-09-01) rules the moving-referent class *"no edit to the live rows"* and names MIDAS-01 and MIDAS-02 explicitly.** My refined rule permits the patch; **Will's ruling forbids an edit to these rows**, and a self-derived rule does not outrank an operator ruling that names the row.
+
+**⇒ FLAGGED, NOT APPLIED — routed to PROME/Will as a one-line question:** *does WQ-91's "no edit" bar a mass-neutral non-resolution status, or only the referent re-keying it was ruled about?* **Until answered, MIDAS-01/02 grade 9/30 with the gap open and the gap stated.** ⚠️ If the data is unavailable on 9/30, the grader must read this note and record **STUCK**, not MISS — *stated here in advance so that instruction exists on the surface the grader reads* (L-48, applied to itself).
