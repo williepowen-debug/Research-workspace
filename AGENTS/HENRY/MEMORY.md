@@ -48,30 +48,31 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-08-28 Fri, ~11:00–15:4x ET — PROME-orchestrated, five waves)
-*The shape: my flagship discriminator graded against me; four of the day's sharpest findings were about my OWN instruments; and two surfaces came within bytes of silently truncating.*
-- **✅ HEN-42 = DENY, frozen + pre-committed 8/28, row flips 8/29.** Leg 1 (*2s10s KEEPS flattening* from **+34bp [7/23]**) reads **+47bp [FRED 8/26]**, failed **21 of 21** post-FOMC sessions. **FINAL** — rescuing CONFIRM needs a **13bp two-session flattening** vs a 658-session distribution whose largest one-session move is **14bp**. **8/29 flip record PRE-WRITTEN** (`reports/2026-08-29_HEN-42_FLIP_RECORD.md`) with a **Monday receipt template**, so 8/31 is a stamp not a grade.
-- **🔴 POST-FREEZE the DENY got NARROWER, not weaker.** Kalshi Sept-hike **0.31→0.48** with a front-led curve ⇒ **the DENY kills the July ATTRIBUTION, not the policy-path CHANNEL.** A one-part C-36 label over-reads it; refinement routed to BOND. **Independence guard added** after WALTER `-031`: the keynote, the repricing and the four-Fed-banks item are **substantially ONE event** — my note rests on one repricing **plus the curve response**, and the curve is the independent leg.
-- **🔴 THREE RETRACTIONS + a fourth defect class.** The 7/27 auction leg withdrawn · "CONTESTED 2-vs-1" was 1-vs-2 against me · **I ran a discriminator named *policy-path vs TERM-PREMIUM* for five weeks with an instrument for only one half** (THREEFYTP10, free and daily) · and **my ~760-session figure was WRONG (~470)** — I used VIF=k=20 as if the asymptote were attained.
-- **🔴 260 LEG: 0 OF 5.** **HY 263 [FRED 8/27] = 3bp**, **ties** the thesis-life minimum; **8/27 is a NEW joint high-water mark** (VIX closed 14.51 ✓ same session). Joint count still **0**. Count NOT changed. **Rung-4 relabel DRAFTED, NOT APPLIED** — `proposals/2026-08-28_DRAFT_rung4-relabel-nonkill-observable.md`, applies on Will's word.
-- **T3 v2 CO-SPEC settled with LIQUID** (Will ruled row 113). Bands: **≥0.45 unchanged · <0.15 RETIRED** (n=348 → 2027-12-01) · **0.15–0.45 NAMED no-verdict** — my letter named nothing there. **My letter also never named its ESTIMAND** (the two readings differ ~20× in required sample). Final: six tokens, **F1–F5 detectors**, `n_projected`, mandatory reason field.
-- **⚠️ TWO NEAR-TRUNCATIONS, BOTH MINE, BOTH CAUGHT AT THE MEASUREMENT.** `LESSONS.md` hit **54,248 B against a 54,250 B cap — two bytes** — in the session I wrote the byte-cliff lesson. `STATUS.md` hit **100% of the P1 budget with 120 B** later the same afternoon. Both rotated; **all 4 boot-reads now pass `scripts/read_cap_check.py` rc=0.**
-- **STATUS 78,384 → ~30,6xx B** across a WAVE-2 prose rotation + a P1 **hot/cold split**, with a **figure manifest built BEFORE the first cut** that caught a real **67/80** loss mid-split. **80/80 re-verified after every pass.**
-- **Four defects found by RUNNING my own instruments** (consumer_check 69 🔴 / zero real · corrections_boot_check rc=0 on a bogus token · a self-inflicted parser break · a wrong VERB in my own threshold row). DAEDALUS fixed both tools; **its root cause beat mine** (unsigned `NUM_RE`, not sig-figs).
-- **ISM row moved AGAINST my first integration TWICE:** HANS's German **54.1** is **fiscal/capex-driven ⇒ a weaker lead**, and Chicago **47.1** is a US regional print **closer to my object**. Benign leg is now the weakest of three. Threshold unmoved.
-- **Timestamps:** I stamped 7 records into the FUTURE; caught because a consumption row postdated its own commit. Corrected to what the commit graph supports.
+### CHANGES SINCE LAST SESSION (2026-09-02 Wed ~20:1x–21:3x ET — PROME teams-spawn, dark-owner drain, last closeout 8/28)
+*The shape: the one thing I was spawned to measure had inverted its SIGN while nobody looked, and four of my own owed items were sitting undone.*
+- **🔴 GAMMA BOARD RE-MEASURED AFTER 12 DAYS AND THE SIGN INVERTED.** SPX **7,666.60** · **14d flip ~7,699 (−33, −$16.7B/1%) · 35d flip ~7,689 (−23, −$16.3B/1%)** — **both horizons agree on the sign.** Published as **flip band 7,689–7,699, NEGATIVE, dealers AMPLIFY.** On 8/28 it was **+$20.4B with spot +39 ABOVE ~7,718**. **Walls WITHHELD** (35d put wall == its own call wall; cross-horizon disagreement; E2 still unfixed). Packeted VIOLET the same night — she was live in parallel and cites it.
+- **✅ HEN-42 ROW FLIPPED — OWED 8/29, DONE 9/2, FOUR DAYS LATE.** My own NEXT-SESSION item #1 was *"confirm the row ACTUALLY flipped"* and no session was spawned to do it. `[[finding_record_of_an_action_is_not_the_action]]` fired on my own file, in the exact place I predicted it would. **Verdict unchanged.** Pending cells closed at the primary (**DGS2 +14.0 > DGS10 +6.0 > DGS30 +3.0**, front-led); **BOND ruled C-36 TWO-PART 9/1; DOCKET L217 closed; nothing owed back.**
+- **✅ WQ-106 APPLIED (Will 9/1).** My 5-session HY-260 leg is now a **NON-KILL OBSERVABLE**; the registry 2-close `GATE-HY-REKILL` is THE kill. **No count moved and no rung retired — only the label.** The 8/28 draft applied on Will's word, not before, exactly as written.
+- **✅ TWO LETTERS FROZEN BEFORE THEIR EVENTS, both written against my own past defects.** **HEN-44** (Aug CPI, 9/11, nine days early): three two-sided legs, graded **C-first**; Brent monthly avg **$83.76 → $91.08 (+8.74%)**, pump **$3.932 → $4.058 (+3.20%)**. **HEN-45** (FOMC 9/16, fourteen days early): Leg 1 is a **document** (the dot-plot delta), Leg 2 a **price** — different evidence types, unlike HEN-42's two curve legs.
+- **🔑 THE CPI METHOD PASSED AN OUT-OF-SAMPLE CHECK FIRST (n=1), and I checked before reusing it.** My 7/23 re-mark forecast a NEGATIVE July gasoline CPI with the pump at $4.09 and climbing: **NSA pump Jun→Jul −2.91% vs SA gasoline CPI −2.86% — 0.05pp, right sign.** One pass widens confidence, **not the band**.
+- **⚠️ THE AUG-2025 BASES ARE HARD, NOT EASY** — headline **+0.35%** MoM, core **+0.31%** MoM. **A +0.35% Aug-2026 headline leaves YoY UNCHANGED at ~3.30%.** Anyone reading a 3.3-handle on 9/11 as re-acceleration is reading a base, not a move.
+- **INBOX 26 → 0, BOTH LANES** (6 root + 20 WALTER). Threshold rows that actually moved: **10Y through ORANGE at 4.79 [9/1]** (synchronised sovereign selloff; JGB 10Y 3.00%, first since 1996), **30Y ~5.27 through orange**, all three **ISM rows to August (54.6 / 51.2 / 71.1)**.
+- **🔴 HANS RETRACTED THE ISM INPUT I FOLDED ON 8/28.** Three packets in one day ending in a retraction: the *"capex-led ⇒ weaker lead"* caveat is **UNTESTED**, not confirmed — the whole effect was GFC+COVID and 62% of his "demand-led" months had NEGATIVE capital-goods growth. **The lead itself survives** (DE→US r=+0.573 at 6mo). ⇒ **My ISM row now rests on two US prints only.**
+- **⚠️ I WAS HANDED A WRONG FIGURE AND CAUGHT IT: the brief's VVIX 88.20 vs 86.25 on two independent pulls.** Carried 86.25, routed to PROME, flagged to VIOLET.
+- **⚠️ MY ROTATION PASS ADDED BYTES TWICE BEFORE IT CUT ANY.** STATUS went 30,628 → 33,760 → 33,813 across two "rotations" because I kept replacing long text with long text. **`[[finding_anti_ratchet_governs_state_not_prose]]` — a REWRITE is not a CUT.** Only the third pass, which deleted rather than restated, worked: **32,289 B, read_cap rc=0.**
+- **Sept archive opened on CARL's shape** (DAEDALUS 9/2 + its correction): banner the true range, **per-block assert at the splice**, no rename. Four blocks rotated verbatim.
 
 ### NEXT SESSION
-1. **🔴 Confirm the HEN-42 row ACTUALLY FLIPPED to RESOLVED on 8/29.** A pre-commitment nobody executes is worse than none. `[[finding_record_of_an_action_is_not_the_action]]`
-2. **🔴 MON 8/31 — close the pending cells** (DGS 8/27+8/28 incl. the Warsh front-end cell, DFII, THREEFYTP10) using the receipt template. **They are UNGRADEABLE-PENDING-PUBLICATION, never NOT-FIRED, and none can flip the DENY.**
-3. **🔴 HY OAS 263, 3bp from my leg.** If it breaks 260, **three desks report ONE event** (H-2). Say "one event" in the first sentence.
-4. **Row-106 rung-4 relabel: apply on Will's word, not before.** Draft is written and dated.
-5. **T3 v2: LIQUID drafts; first decidable date 2026-09-23** — recompute it, never carry it.
-6. **ECB QT / UK 30Y gilt figures — take ONLY when PROME lands the commit hash.** They were relay-only and I declined them.
-7. **audit-E2 CROSS-horizon wall gap still unfixed** — today's guard is within-horizon only. **HEN-36 successor still unregistered, deliberately.**
+1. **🔴 RE-MEASURE THE GAMMA BOARD. It is the item that just proved it decays fastest** — a SIGN changed inside 12 days. **Do not carry tonight's sign; re-run `gamma_flip.py --days 35`.**
+2. **🔴 Fri 9/11 08:30 ET — HEN-44 grades. LEG C FIRST** (core), then A, then B. **The falsifier is core MoM ≥+0.35% or YoY ≥2.60%.** Do not re-specify a band.
+3. **🔴 Wed 9/16 — HEN-45 grades. LEG 1 FIRST** (the dot-plot delta, available 14:00 ET, uncontaminated by tape), then Leg 2 on the 9/17 H.15 cell. ⛔ **Do NOT use the 9/16 equity/vol reaction as evidence — VIX quarterly expiry that day.**
+4. **Fri 9/4 NFP — the JOLTS fence is live.** JOLTS NET −18K is partly circular with the −23K NFP; never two confirmations.
+5. **Wed 9/9 — sb0607 buybacks begin; curve attribution contaminated after.** BOND owns the curve.
+6. **audit-E2 CROSS-horizon wall gap STILL unfixed** — it bound again tonight and withheld both walls for the second session running. **HEN-36 successor still unregistered, deliberately; DEWEY REQ-001 says a successor should point at POWER, not semis.**
+7. **STATUS has only ~260 B of headroom.** The next session that adds anything must rotate first, and **must CUT, not rewrite.**
 
 ### CARRY / STATE
-- **Tape [8/28 11:05, IN-FLIGHT]:** SPX 7,767.24 · VIX 14.21 · VIX9D 11.26 · SKEW 144.05 · ^TNX 4.67 · KRE 74.29 · USD/JPY 159.91.
-- **Settled [FRED 8/27]:** **HY 263 · CCC 1,031 · BB 153, gap 878 · VIXCLS 14.51.** Curve **latest published 8/26**: 2s10s **+47** · 30s10s **+52**. ⚠️ H.15 partial-split now **n=5**.
-- **Gamma POSITIVE:** flip **~7,718**, spot **+39** above, Net GEX **+$20.4B/1%**. **Walls NOT published** (no 35d run).
-- **Cold surfaces (NEVER boot-read whole):** `STATUS_COLD.md` · `LESSONS_ARCHIVE.md` · `status_archive/`. Registered in `CLAUDE.md`'s file table.
+- **Tape [9/2 closes]:** SPX 7,666.60 · VIX 15.20 · VIX9D 12.57 · VIX3M 17.73 · VVIX 86.25 · SKEW 144.12 · ^TNX 4.80 · KRE 74.24 · USD/JPY 158.93 · NVDA 224.41. **Brent BZX26 $95.23 [9/2 settle] — never `BZ=F` for a delta.**
+- **Settled [FRED obs 9/1]:** **HY 265 · CCC 1,049 · BB 152, gap 897** · DGS10 **4.79** · DGS2 **4.39** · DFII10 **2.44**.
+- **Gamma NEGATIVE:** flip band **7,689–7,699**, spot **23–33 BELOW**, Net GEX **≈−$16B/1%**. **Walls WITHHELD.**
+- **Cold surfaces (NEVER boot-read whole):** `STATUS_COLD.md` · `LESSONS_ARCHIVE.md` · `status_archive/` (2026-08 CLOSED, **2026-09 is the live target**).
