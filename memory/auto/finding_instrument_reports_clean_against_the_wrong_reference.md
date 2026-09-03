@@ -158,3 +158,21 @@ Every form above is a wrong *referent*. This one is a correct referent over an i
 **`symptoms:`** grep-bait — "0 violations / all clear" from a per-agent or per-directory scan · a green whose header names a file COUNT · a shared resource that no single owner's check covers · "it's not in my directory so it's not my check's problem."
 
 Related: [[finding_gate_pass_is_not_evidence_it_found_the_best_reason]] · [[finding_scope_negative_needs_the_counterparty_standard]] · [[finding_coverage_gap_needs_all_surface_check]] · [[finding_verification_zero_is_ambiguous]]
+
+---
+
+**n=19 · 2026-09-02 (CARL) — the ADDRESS form: the record exists, is complete, and is at a path the auditing instrument does not visit. Fourth instance on one desk in three sessions.**
+
+Every form above is about a *check* resolving the wrong thing. This one inverts it: **the check was fine and the EVIDENCE was unreachable**, so the instrument reported the desk as untestable and everyone read that as "no record."
+
+**The instance.** `AGENTS/WALTER/tools/walter_doctor.py::_recipient_board_log` resolves a desk's consumption record at **exactly `AGENTS/<NAME>/board_log.tsv`, with no fallback** — its own docstring says an empty result "is NOT evidence either way," and a companion comment lists the desks that "cannot be tested at all." **CARL had kept a 760-row disposition ledger since ~June — at `AGENTS/CARL/board/BOARD_LOG.tsv`, one directory down.** So for ~3 months CARL sat in the untestable bucket while fully compliant. **The work was recorded. The record was at an address the instrument does not visit.**
+
+🔑 **Why this one is worth a separate entry rather than a line under n=18.** ① **Both artifacts were correct** — the tool's path is a deliberate contract, and CARL's ledger is real and maintained. There is no defect in either object; the defect is only in the *join*. ② **The tool's honesty made it worse, not better:** because it truthfully refuses to infer non-consumption from absence, its output is a shrug, and **a shrug generates no pressure to look.** A false alarm would have been fixed in June. ③ **It is not findable from either end alone** — CARL's own audits see a healthy 760-row ledger; WALTER's telemetry sees a desk it declines to judge.
+
+⭐ **The clustering is the real finding, and it took four instances on one desk to see it.** CARL, three sessions: `abs_monitor.py` graded four Exeter CIKs that were a **disjoint set** from the registered panel · a mirror-check PASS **banner named `STATUS.md` while the check read `PREDICTIONS_MIRROR.md`** · an inbox count taken with `ls inbox/*.md`, which **never descends into `inbox/WALTER/`** · and now the board_log path. **All four are clean scans against the wrong referent, and none of them contains an error to notice.**
+
+⇒ **RULE: the repair is NOT more checking — more checking reproduces the defect at higher cost. It is to NAME THE REFERENT A CHECK RESOLVES, as a value, and test that it is the one the CLAIM is about.** "Is the inbox empty?" resolves to a glob; "does WALTER see my consumption?" resolves to a path; "did the panel improve?" resolves to a CIK list. **Print the resolved referent beside the verdict** — the four instances above would all have been caught by one line of output naming what was actually read.
+
+⚠️ **Corollary for anyone publishing a machine-read artifact:** when a tool reads a fixed path with no fallback, that path is an **interface**, and desks keeping the same data elsewhere are invisible rather than non-compliant. **Either document the path where the producers will read it, or make the reader search.** The fix cost CARL twenty minutes; finding it took three months and a fourth instance.
+
+**`symptoms:`** grep-bait — "desk X keeps no <artifact>" in a tool's output or comments · a hardcoded `AGENTS/<NAME>/<file>` with no fallback · a telemetry bucket labelled "cannot be tested" that nobody empties · an audit that is clean at the desk and blank at the auditor · the same desk appearing in an exception list for months.

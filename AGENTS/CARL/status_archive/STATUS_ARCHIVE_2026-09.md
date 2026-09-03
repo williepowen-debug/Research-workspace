@@ -16,6 +16,22 @@
 | Residual over budget | **6924 B** — ⚠️ **NOT CLOSED. Stated as a residual, not a win.** |
 | Under the CAP? | ✅ yes, by 14,189 B — no silent truncation risk |
 
+### ⚠️ ADDENDUM, same session — the number I would have reported was the wrong one
+
+**The STATUS line (−11,746 B) is NOT the boot-read saving, and rule 17's whole point is to catch exactly that substitution.** In the same session I also installed a new boot-step (WALTER lane intake) and grew two other boot-read surfaces. **Measured honestly, per file:**
+
+| boot-read surface | before | after | delta |
+|---|---:|---:|---:|
+| STATUS.md | 51,220 | 39,474 | **−11,746** |
+| MEMORY.md | 45,005 | 46,494 | +1,489 |
+| ROADMAP.md | 37,648 | 40,978 | +3,330 |
+| SPAWN_PROTOCOL / TEAM / SCHEMA | 30,201 | 30,201 | 0 |
+| **TOTAL** | **164,074** | **157,147** | **−6,927** |
+
+⇒ **The real saving is −6,927 B, not −11,746 B — 41% of the headline was given back elsewhere in the same session.** ROADMAP grew because this session's resolved entries went in (and its own morning rows were rotated to `archive/ROADMAP_ARCHIVE_2026-09.md` to partly offset); MEMORY grew because the board_log finding was written up in place rather than as a new line against a 100-line cap.
+
+⛔ **And one near-miss worth recording, because it is the same defect this desk keeps finding:** the first wording of boot-step 5b read as a whole-file `Read` of `board_log.tsv` and put **11,772 B onto the measured boot path** — which would have made a rotation that genuinely cut 11,746 B from STATUS look like a **net saving of ~0**, while the instrument reported both numbers correctly. The step is a **grep/lookup**, not a whole read, and now says so. **A rotation's headline is a claim about ONE file; the obligation is to the TOTAL.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
+
 ⚠️ **THIS ROTATION DID NOT REACH BUDGET AND I AM NOT REPORTING IT AS IF IT DID.** *"A split that reports only its win is a claim, not a fix"* (rule 17). Tail-trimming has hit its informational floor: the dashboard rows that remain are live levels, dates, thresholds and named obligations, and cutting further would remove signal rather than narrative. **The remedy for the residual is STRUCTURAL — a hot/cold split of the SIGNAL DASHBOARD — and it is deliberately NOT attempted in the same late session as a broad trim pass.** It needs its own obligation re-home pass and a cold read first, because `### Macro / Energy / Stress` is the most action-dense section on the desk (V5's $4.00 line, CRL-08, the 9/11 CPI legs) and is exactly the container rule 17 warns about moving.
 
 ## Obligation audit — three passes, ZERO obligations lost
