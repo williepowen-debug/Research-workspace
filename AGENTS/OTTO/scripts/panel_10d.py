@@ -179,9 +179,74 @@ SPECS = {
     },
 }
 
-COLUMNS = ["run_ts", "deal", "tier", "issuer", "filing_date", "months_seasoned",
+COLUMNS = ["run_ts", "deal", "tier", "issuer", "filing_date", "collection_period",
+           "months_seasoned",
            "dq_60plus_pct", "cnl_pct", "anl_pct", "recovery_pct", "ext_rate_pct",
            "status", "parse_misses", "source_url"]
+
+# The 14-column shape that stood until 2026-09-02, kept ONLY so the upsert can read a
+# pre-backfill ledger without discarding rows as ragged. Never written.
+LEGACY_COLUMNS_14 = [c for c in COLUMNS if c != "collection_period"]
+
+# ── Collection period ────────────────────────────────────────────────────────
+# WHY A COLUMN AND NOT A DERIVATION (WQ-107, Will-ruled 2026-09-01):
+#   The panel's L1 test is matched-COLLECTION-MONTH YoY. Until 2026-09-02 the collection
+#   month was inferred as filing_month minus one. That inference is wrong wherever a
+#   filer goes off cadence — Exeter double-filed Dec-2025 and Mar-2026, producing 8
+#   collisions and 9 gaps in the inferred series. A leg table registered on an inferred
+#   month is the seasonality-mislabel class the 26-of-26 spec exists to kill, so CARL
+#   cannot register the V2 downgrade leg until the DISCLOSED period is on the row.
+#
+# KEYED ON THE ROW LABEL, NEVER ON A TAG NUMBER (CARL 2026-09-01 §3): tag numbering is
+# not stable across shelves OR across months on the SAME deal — EART's older template
+# runs buckets {97}-{101} with the stated rate at {103}, the same deal a month later
+# runs {98}-{102}/{104}, and EART 2026-1 runs {114}-{118}/{120}. A parser keyed on the
+# number silently reads the wrong field.
+#
+# Three disclosed shapes, all label-anchored:
+#   exeter/santander : "Collection Period Beginning: MM/DD/YYYY" … "Ending: MM/DD/YYYY"
+#   bridgecrest      : "Collection Period: M/D/YYYY Through M/D/YYYY"
+# ⚠ 2026-09-02: the date components are separate HTML CELLS on some Bridgecrest
+# exhibits, so the flattened text reads "3 /1/2026" — whitespace INSIDE the date. A
+# tight \d{1,2}/\d{1,2}/\d{4} missed 2 of 133 rows and reported them as
+# label-not-found, i.e. as a missing disclosure rather than a reader defect. The
+# separators therefore tolerate surrounding whitespace; the components do not, so this
+# cannot bridge two different numbers on the same line.
+_D = r"(?P<{}>\d{{1,2}}\s*/\s*\d{{1,2}}\s*/\s*\d{{4}})"
+CP_PATTERNS = [
+    # bridgecrest single-line form FIRST — its label is a prefix of nothing else,
+    # and the two-label form below would not match it.
+    re.compile(r"Collection\s+Period\s*:\s*" + _D.format("a")
+               + r"\s*(?:Through|through|-|–|—|to)\s*" + _D.format("b")),
+    # exeter / santander two-label form. The two labels are NOT adjacent in the
+    # flattened text (an "Original" column header sits between them on Exeter), so
+    # they are matched independently rather than as one span.
+    None,
+]
+CP_BEGIN = re.compile(r"Collection\s+Period\s+Beginning\s*:\s*" + _D.format("a"))
+CP_END   = re.compile(r"Collection\s+Period\s+Ending\s*:\s*" + _D.format("b"))
+
+
+def _iso(mdy):
+    m, d, y = [p.strip() for p in mdy.split("/")]
+    return f"{int(y):04d}-{int(m):02d}-{int(d):02d}"
+
+
+def collection_period(txt):
+    """Return ("YYYY-MM-DD/YYYY-MM-DD", None) or (None, reason).
+
+    NEVER falls back to the distribution/filing date. An unreadable period is
+    reported as a miss and written EMPTY — the whole point of the column is that the
+    period is DISCLOSED, not inferred (root: fail-loud contract above)."""
+    m = CP_PATTERNS[0].search(txt)
+    if m:
+        return f"{_iso(m.group('a'))}/{_iso(m.group('b'))}", None
+    b, e = CP_BEGIN.search(txt), CP_END.search(txt)
+    if b and e:
+        return f"{_iso(b.group('a'))}/{_iso(e.group('b'))}", None
+    if b or e:
+        return None, "collection_period-half-matched"
+    return None, "collection_period-label-not-found"
 
 
 def _num(s):
@@ -400,7 +465,8 @@ def main():
             continue
         if issuer not in SPECS:
             rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, status="UNSUPPORTED",
-                             parse_misses="no field spec for issuer", filing_date="", months_seasoned="",
+                             parse_misses="no field spec for issuer", filing_date="", collection_period="",
+                             months_seasoned="",
                              dq_60plus_pct="", cnl_pct="", anl_pct="", recovery_pct="", ext_rate_pct="", source_url=""))
             print(f"  {deal:14s} UNSUPPORTED — no field spec"); continue
         try:
@@ -410,7 +476,8 @@ def main():
         if not filings:
             rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, status="INVALID",
                              parse_misses="deal phrase matched no 10-D — check the name stem",
-                             filing_date="", months_seasoned="", dq_60plus_pct="", cnl_pct="",
+                             filing_date="", collection_period="", months_seasoned="",
+                             dq_60plus_pct="", cnl_pct="",
                              anl_pct="", recovery_pct="", ext_rate_pct="", source_url=""))
             print(f"  {deal:14s} INVALID — phrase matched no 10-D (name stem wrong?)"); continue
 
@@ -421,6 +488,9 @@ def main():
                 print(f"  {deal:14s} {fdate}  ERROR fetching exhibit: {type(e).__name__}"); continue
             v, misses = parse(txt, issuer)
             d = derive(v, issuer)
+            cper, cmiss = collection_period(txt)
+            if cmiss:
+                misses.append(cmiss)
             # ⚠ 2026-08-27: the ledger upsert is last-write-wins, which silently assumes
             # the newest write is the better one. A FAILED parse also wins. On 8/27 a
             # wrong-document fetch wrote all-blank rows over four good EART rows. A row
@@ -434,12 +504,13 @@ def main():
                 continue
             status = "OK" if not misses else "OK-PARTIAL"
             rows.append(dict(run_ts=run_ts, deal=deal, tier=tier, issuer=issuer, filing_date=fdate,
+                             collection_period=cper or "",
                              months_seasoned=months_between(first_date, fdate) if first_date else "",
                              status=status, parse_misses=";".join(misses), source_url=url,
                              **{k: ("" if d[k] is None else d[k]) for k in
                                 ("dq_60plus_pct","cnl_pct","anl_pct","recovery_pct","ext_rate_pct")}))
             f = lambda k: f"{d[k]:6.2f}" if d[k] is not None else "   n/d"
-            print(f"  {deal:14s} {tier:5s} {fdate}  60+DQ {f('dq_60plus_pct')}  CNL {f('cnl_pct')}"
+            print(f"  {deal:14s} {tier:5s} {fdate}  CP {cper or 'NOT-DISCLOSED':>21s}  60+DQ {f('dq_60plus_pct')}  CNL {f('cnl_pct')}"
                   f"  ANL {f('anl_pct')}  REC {f('recovery_pct')}  EXT {f('ext_rate_pct')}"
                   + (f"   ⚠ missed: {','.join(misses)}" if misses else ""))
 
@@ -495,10 +566,19 @@ def main():
             lines = lines[1:]
         for ln in lines:
             parts = ln.split("\t")
-            if len(parts) != len(COLUMNS):        # field-count the WHOLE file
+            if len(parts) == len(LEGACY_COLUMNS_14):
+                # Pre-2026-09-02 ledger shape. Migrate in memory rather than discard —
+                # a "ragged row skipped" here would drop real history. The row is read
+                # with an EMPTY collection_period, never a guessed one.
+                print(f"  ⚠ legacy 14-col row migrated (collection_period left EMPTY): "
+                      f"{parts[1]} {parts[4]}")
+                rec = dict(zip(LEGACY_COLUMNS_14, parts))
+                rec["collection_period"] = ""
+            elif len(parts) != len(COLUMNS):      # field-count the WHOLE file
                 print(f"  ⚠ RAGGED ROW skipped ({len(parts)} of {len(COLUMNS)} fields): {ln[:60]}…")
                 continue
-            rec = dict(zip(COLUMNS, parts))
+            else:
+                rec = dict(zip(COLUMNS, parts))
             k = (rec["deal"], rec["filing_date"])
             if k not in existing:
                 order.append(k)
