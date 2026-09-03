@@ -136,3 +136,11 @@
 **Consequence for a reader:** treat this one block as a **faithful-intent extract of superseded items, not a verbatim passage.** The other ten carry the verbatim guarantee.
 
 **Practice going forward:** compute and record the crc32 **at rotation time**, and rotate only **contiguous** regions — if a rotation requires reassembling non-adjacent content, archive each piece as its own block so every entry keeps the verbatim guarantee.
+
+---
+
+## ⛔ CONTAINER CLOSED 2026-09-02
+
+**True range of this file: rotations made 2026-08-17 only** (one session, six blocks + a reassembled block). It was opened as `STATUS_ARCHIVE_2026-08.md` under the DAEDALUS two-state pilot, whose spec prescribed a `<YYYY-MM>` name and never said what happens on the 1st of a month (DAEDALUS PAT-050, amended 2026-09-02: *a date in a filename asserts a CLOSED range*).
+
+**September 2026 rotations and later go to `STATUS_ARCHIVE_2026-09.md`.** Per DAEDALUS's 9/2 CORRECTION the month in the filename means the **ROTATION** month, and the assert runs **per block at the splice**, not once per session. **This file is NOT renamed** — pointers to it exist on `STATUS.md` and in `archive/SCRATCH_ARCHIVE_2026-07-08.md`.

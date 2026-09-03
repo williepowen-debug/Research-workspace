@@ -151,49 +151,68 @@ def predictions_due():
     return len(due), due
 
 
-# --- STATUS byte budget (fleet BYTE TIER convention, Will-ratified 2026-08-17) -----
-# The line cap alone measures the one dimension that stops moving (PAT-086). Every
-# STATUS cap carries a byte budget beside it; at >=75% the owner rotates the oldest
-# history blocks VERBATIM into a dated archive until <70%. Rotation, never deletion.
+# --- BOOT-READ BYTE BUDGET (root CLAUDE.md fleet READ-CAP rule) --------------------
+# ⛔ WATT's self-set 64,000 B budget is RETIRED (2026-09-03). Root CLAUDE.md
+# §Data Hygiene: any surface a boot protocol tells a session to READ WHOLE stays
+# under 32,550 B — "binding above any owner-set number, per surface; owners choose
+# rotation or hot/cold split, never the number." Canon: DAEDALUS BLUEPRINTS/READ_CAP.md.
 #
-# WATT's budget is 64,000 B — NOT the ~128 B/line x 250 = 32,000 default — set from
-# measurement, per the convention's "owner sets it" clause:
-#   measured 2026-08-17: STATUS = 105 lines / 41,190 bytes = 392 B/line.
-# That is 3.1x the 128 B/line the default assumes. On the default budget this file
-# would sit at 129% while using only 42% of its LINE cap, forcing rotation of LIVE
-# state on day one — the opposite of the convention's intent. 64,000 B = 256 B/line
-# across the 250-line cap, still BINDING WELL BEFORE the line cap (~163 lines at
-# measured density), which is correct: for a dense file the byte budget should bind
-# first. Trigger 48,000 · rotate to <44,800.
-STATUS_BYTE_BUDGET = 64_000
+# WHY THE OLD NUMBER HAD TO GO, recorded so nobody re-derives it:
+# the 64,000 B figure was defensible on its own terms (measured 392 B/line, 3.1x the
+# 128 B/line default; on a 32,000 B default this file read 129% while using 42% of its
+# LINE cap). What it could not account for is a PHYSICAL limit found later: past
+# ~54,250 B a harness Read returns a PARTIAL FILE WITH NO ERROR. A budget above the
+# cap is not a looser policy, it is an unenforceable one — it authorises a boot that
+# silently reads a fragment while every line-count guard passes. Will ratified the
+# byte-tier CONVENTION on 2026-08-17 (set the cap in bytes; measured density beats a
+# default assumption) — that reasoning is kept. It never exempted this file from a
+# cap discovered afterwards. Trigger 75% (24,412 B) · rotate to <70% (22,785 B).
+#
+# SCOPE NOTE: this leg checks BOTH boot-read surfaces, not just STATUS. SCRATCH.md is
+# boot-step 2 and was 62,072 B = 114% OF THE PHYSICAL CAP on 2026-08-28 — i.e. every
+# boot from 8/17 to 9/02 read a TRUNCATED SCRATCH and reported nothing. A one-file
+# check is what let that run for six weeks.
+READ_CAP_BUDGET = 32_550          # 60% of the ~54,250 B harness single-read cap
+READ_CAP_PHYSICAL = 54_250        # past this a Read returns a partial file, silently
+BOOT_READ_SURFACES = ("STATUS.md", "SCRATCH.md", "workbook/PREDICTIONS.tsv")
 STATUS_ARCHIVE_DIR = HERE / "status_archive"
 
 
 def status_byte_budget():
-    """Byte-tier check on STATUS.md. Returns 0 quiet / 1 rotate-now / 2 unreadable.
+    """READ-CAP check across EVERY boot-read surface (root CLAUDE.md §Data Hygiene).
+    Returns 0 quiet / 1 rotate-now / 2 unreadable.
     ADVISORY BY DESIGN: it prints a marker and asks for a rotation decision; it never
     rotates anything itself. Choosing WHAT is superseded is a judgment call, and an
     auto-rotator would eventually move live state to hit a number — the exact
     corruption the two-state pilot spec warns about."""
-    p = HERE / "STATUS.md"
-    try:
-        b = p.stat().st_size
-        lines = sum(1 for _ in p.open())
-    except Exception as e:  # noqa: BLE001
-        print(f"  STATUS byte budget: UNREADABLE ({e})", file=sys.stderr)
-        return 2
-    pct = b / STATUS_BYTE_BUDGET * 100
-    dens = b / lines if lines else 0
-    if pct >= 75.0:
-        target = int(STATUS_BYTE_BUDGET * 0.70)
-        print(f"  \u26a0\ufe0f STATUS {b:,} B = {pct:.0f}% of the {STATUS_BYTE_BUDGET:,} B budget "
-              f"({lines} lines, {dens:.0f} B/line) — ROTATE oldest history blocks "
-              f"verbatim into {STATUS_ARCHIVE_DIR.name}/ until < {target:,} B. "
-              f"Rotation, never deletion; never trim live state to hit the number.")
-        return 1
-    print(f"  \u2713 STATUS {b:,} B = {pct:.0f}% of {STATUS_BYTE_BUDGET:,} B budget "
-          f"({lines} lines = {lines/250*100:.0f}% of the 250-line cap, {dens:.0f} B/line)")
-    return 0
+    rc = 0
+    for rel in BOOT_READ_SURFACES:
+        p = HERE / rel
+        try:
+            b = p.stat().st_size
+            lines = sum(1 for _ in p.open())
+        except Exception as e:  # noqa: BLE001
+            print(f"  READ-CAP {rel}: UNREADABLE ({e})", file=sys.stderr)
+            rc = 2
+            continue
+        pct = b / READ_CAP_BUDGET * 100
+        dens = b / lines if lines else 0
+        if b >= READ_CAP_PHYSICAL:
+            print(f"  \U0001f6d1 {rel} {b:,} B = {b/READ_CAP_PHYSICAL*100:.0f}% OF THE PHYSICAL "
+                  f"{READ_CAP_PHYSICAL:,} B CAP — a boot Read of this file returns a PARTIAL "
+                  f"FILE WITH NO ERROR. Split it before trusting anything read from it.")
+            rc = max(rc, 1)
+        elif pct >= 75.0:
+            target = int(READ_CAP_BUDGET * 0.70)
+            print(f"  \u26a0\ufe0f {rel} {b:,} B = {pct:.0f}% of the {READ_CAP_BUDGET:,} B read-cap "
+                  f"budget ({lines} lines, {dens:.0f} B/line) — ROTATE oldest superseded blocks "
+                  f"verbatim into archive until < {target:,} B. Rotation, never deletion; "
+                  f"never trim live state to hit the number.")
+            rc = max(rc, 1)
+        else:
+            print(f"  \u2713 {rel} {b:,} B = {pct:.0f}% of {READ_CAP_BUDGET:,} B read-cap budget "
+                  f"({lines} lines, {dens:.0f} B/line)")
+    return rc
 
 
 def main():
@@ -226,7 +245,7 @@ def main():
         print("  ✓ quiet (alert-contract: output only when stale/misconfigured)")
     rcs.append(("staleness", 2 if 2 in (sw, st) else (1 if 1 in (sw, st) else 0)))
 
-    print("\n--- 3. STATUS byte budget (byte-tier convention) ---")
+    print("\n--- 3. READ-CAP: every boot-read surface vs the 32,550 B fleet budget ---")
     rcs.append(("status_bytes", status_byte_budget()))
 
     print("\n--- 4. predictions-due scan ---")

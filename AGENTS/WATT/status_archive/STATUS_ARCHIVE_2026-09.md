@@ -1,0 +1,299 @@
+# WATT — STATUS ARCHIVE, rotations made in 2026-09
+
+**Container rule (adopted 2026-09-02 from DAEDALUS's 9/2 packet + its same-day CORRECTION):** the month in this filename is the **ROTATION month** — when the block moved — **not** the month the content describes. A date in a filename asserts a **CLOSED range**. Blocks below therefore all moved in **September 2026** and may describe August content. **Per-block assert at the splice:** if a block's rotation month != this file's month, open the next month's file — the check runs **per block**, never once per session (a session-level check passes on block one and the rest ride through — DAEDALUS's correction, from CARL's 8-pass file).
+
+**What this is:** superseded content rotated verbatim out of `STATUS.md`. `STATUS.md` carries **LIVE current state only**; everything here was **replaced by a later read**, not deleted. Nothing is edited on the way in.
+
+⚠️ **Do not cite anything in this file as current.** If a figure here disagrees with `STATUS.md`, `STATUS.md` wins.
+
+**Why this rotation happened:** root `CLAUDE.md` §Data Hygiene read-cap rule — any surface a boot protocol tells a session to READ WHOLE stays under **32,550 B**, binding above any owner-set number. WATT's `STATUS.md` measured **41,493 B = 127% of budget**; its own header claimed a self-set **64,000 B** budget, which the fleet rule overrides. See STATUS's header note.
+
+---
+
+## CRC MANIFEST
+
+| block | source lines | bytes | crc32 | why rotated |
+|---|---|---:|---|---|
+| `LEAD_2026-08-17` | 8–8 | 1,361 | 2904104778 | session lead blockquote — superseded by the 2026-09-02 lead. |
+| `P1_RED_BAND_INVESTIGATION_2026-08-17` | 27–38 | 2,779 | 300199442 | the 8/16 re-specification narrative + the four-explanations elimination trail. |
+| `LIVE_READ_P1_2026-08-17` | 44–44 | 2,923 | 1516731811 | P1 live read — superseded by the 9/1-9/2 emergency episode read. |
+| `TWO_STATE_PILOT_2026-08-17` | 90–94 | 1,316 | 183063610 | pilot section — the pilot window closed 8/22; result delivered to DAEDALUS 8/17. |
+| `BOTTOM_LINE_2026-08-17` | 96–106 | 4,542 | 2764499296 | session BOTTOM LINE — superseded by the 2026-09-02 version. |
+| **TOTAL** | | **12,921** | | source `STATUS.md` @ 41,493 B crc32 1183333349 |
+
+**Rotation month assert:** every block above rotated **2026-09** == this file's month **2026-09** ✅ (checked per block).
+
+---
+
+## LEAD_2026-08-17
+
+*Rotated 2026-09-02 · source `STATUS.md` lines 8–8 · 1,361 B · crc32 2904104778 · verbatim.*
+**Why:** session lead blockquote — superseded by the 2026-09-02 lead
+
+> **Sixth session, 2026-08-17.** Two things fired and **neither one was the summer heat this seat was built to catch.** **(1) P2's switch stopped being a forecast: PJM has FILED Door B.** Its ~8/13 **Interim Resource Adequacy Service (IRAS)** petition asks FERC to accept, within 60 days, a framework in which new Large Loads *"build, bring, or buy the new generation resources… **paying the full cost of those resources**"* — the exact assignment **WATT-08** was registered to forecast, put in front of FERC ~10 months before its resolve date. **Not banked** (a filing by the proposing party is not an order by the deciding one); confidence ~65% → **~70% Door B, date unchanged**, and FERC's order is registered as **WATT-10**. **(2) P1 produced its first RED-band price print of the season — and it is anti-correlated with demand.** On Sunday **8/16** the 5-min RT LMP hit **$1,217.52**, five intervals ≥$1,000 across two short episodes, **on the month's LOWEST-demand day (122,075 MW)** while the month's *highest* day (145,375 MW, 8/6) printed a max of only $422.35. **That exposed a real mis-specification in my own RED band**, recorded below as fired-on-letter / mechanism-refuted rather than reinterpreted away. **WATT-06 resolved MISS** on three independent legs. **Composite holds 13/20; P1 held at 2 deliberately; no deploy-posture change.**
+
+---
+
+## P1_RED_BAND_INVESTIGATION_2026-08-17
+
+*Rotated 2026-09-02 · source `STATUS.md` lines 27–38 · 2,779 B · crc32 300199442 · verbatim.*
+**Why:** the 8/16 re-specification narrative + the four-explanations elimination trail. THE BAND TEXT ITSELF STAYS LIVE in STATUS's exit triad; only the investigation narrative rotates. Superseded 2026-09-02: the 8/16 verified hourly printed $502.38 (ORANGE, 0 hrs >=$1,000) exactly as pre-registered, AND a mechanism-CONFIRMED RED fired 9/2.
+
+## ⚠️ P1 RED BAND — RE-SPECIFIED 2026-08-17 (my own rule fired on its letter; I am recording that, not reinterpreting it)
+
+**The old rule:** *"RT LMP >$1,000 sustained 2+ intervals."* It named **no interval length** and carried **no scarcity qualifier**.
+
+**What happened 8/16:** two consecutive 5-min intervals (19:50 $1,084.94, 19:55 $1,081.81) printed ≥$1,000. **On the 5-min reading the letter FIRED. On the verified-hourly reading it cannot fire at all** — a 10–20 minute spike inside a **$78.41-mean day** cannot produce a ≥$1,000 hourly print. *The instrument you grade on decides the answer, and the rule never said which.*
+
+**How it is recorded:** **FIRED-ON-LETTER / MECHANISM-REFUTED.** I am **not** retro-reading the rule to manufacture a NOT-FIRED — relaxing a guard to fit an unwanted reading is the failure the root-rule-#6 break test exists to stop. The old rule's firing **stays in the record**.
+
+**The replacement (conjunction, per the standing LIQUID discipline my own THRESHOLDS section already mandates):**
+> **RED fires when LMP ≥$1,000 sustained 2+ CONSECUTIVE 5-min intervals *AND* (an emergency-class posting is live *OR* demand ≥97% of the trailing 24h peak).** Price alone = a **logged transient**, not a band.
+
+⚠️ **And the inverse guard, because it cuts both ways:** *a standing guard against a known false positive is what waves away the real event.* The genuinely new information in 8/16 is that **PJM printed $1,200 at ~67% of installed capacity with no posting** — scarcity-*type* pricing decoupled from demand **level**. That was logged as a live hypothesis (**FL-WATT-10**, minimum-commitment fragility) — and **tested and REFUTED the same day** (its crux prediction of thin online reserve failed: 2,514 MW vs 2,571 MW on the peak day). **Local congestion is decisively ruled out** (max $3.84 vs a $1,217.52 total ⇒ 99.6–99.8% system energy), and the successor **FL-WATT-13** (ramp/flexibility scarcity) was registered with its own test and **REFUTED hours later**: across 8/3–8/13 the **20 steepest net-load up-ramps** (to **+6,595 MW/hr**) max out at **$155.18** with none clearing $300, while the window's highest price came on a ramp ranked **239/263**. **FOUR explanations are now eliminated** — congestion · thin reserve · ramp · forced outage (z=+0.23) — and a fifth (elevated maintenance) is contradicted by 8/15 carrying more of it with no spike. **The cause is UNEXPLAINED, and that is the recorded state, not a placeholder for a sixth guess.** ⚠️ **Do not let *unexplained* drift into *suspicious*:** a 20-minute transient on the month's quietest day, with the RED band re-specified so price alone can no longer fire it, needs no further action. **The value of the work was ELIMINATION.**
+
+---
+
+## LIVE_READ_P1_2026-08-17
+
+*Rotated 2026-09-02 · source `STATUS.md` lines 44–44 · 2,923 B · crc32 1516731811 · verbatim.*
+**Why:** P1 live read — superseded by the 9/1-9/2 emergency episode read
+
+- **P1 — Stress → price** 🟡 **COLD ON POSTINGS, ONE UNEXPLAINED PRICE TRANSIENT** [boot 2026-08-17 12:31Z + deliberate DM2 range pulls]. **WATT-06 RESOLVED MISS** — zero PJM-RTO emergency-class postings effective 7/17–8/15, resolved on **three independent legs** because the PJM board retains only recent postings and cannot alone certify a 30-day window: **(1) board/ID-continuity** — my dated 8/4 boot recorded 0 emergency-class with #105429 (8/3) latest; today's board carries **#105434 (8/6) as the only posting and the latest ID**, so nothing of any class was issued 8/6→8/17, confining residual uncertainty to IDs **105430–105433**; **(2) physical** — EIA-930 across the whole window, highest **August** day **145,375 MW (8/6)**, ~14 GW below the **159,046 MW** at which the 7/15-16 EEA-1 fired and ~37 GW below ~182 GW capacity; **(3) publisher** — PJM issued a **Hot Weather Alert for Aug 9-11** (forecast 136,029/146,541/144,018 MW) and states it is *"a routine procedure"* that *"does not require any action from customers"* — **preparatory, explicitly not emergency-class** — and published no Max Gen / Load Management / EEA post in August. **August was not flat-mild:** demand ramped from a 113,985 MW trough (7/25) to 145,375 MW (8/6). ⚠️ **THE 8/16 EVENT** — max **$1,217.52 @16:35 EPT**, **5 intervals ≥$1,000** across two ~20-min episodes, day mean **$78.41**; **8/16 is the ONLY August day with any print ≥$500** (10 of 4,149 intervals, 0.24%) and it was the month's **LOWEST**-demand day (122,075 MW) while the **highest** (145,375 MW, 8/6) maxed at $422.35. **Zero postings of any class.** ⚠️ **Tested 8/17 — FOUR explanations eliminated, none surviving: UNEXPLAINED.** *(congestion · thin reserve · net-load ramp · forced outage; detail → KB-WATT-068/069/086/087/088/089.)* ⚠️ **THE VERIFIED HOURLY FOR 8/16 IS NOT AVAILABLE UNTIL ~8/20 — and my stated clock for it was wrong, corrected same session (L-33).** Re-pulled at 09:16 EPT 8/17: still 0 rows. **The reason is not the Sunday-posting rule I published this morning — the feed's frontier is 2026-08-13, a ~4-day lag.** 8/14 and 8/15 also return 0, while a control pull of **7/23–8/2 returns its full 264 rows**, so the query is sound and the feed simply has not reached mid-August. **PUBLIC-AND-UNFETCHED, not unavailable.** ▶ **Pre-registered in its place:** predicted max hourly **$502.28 @ 19:00 EPT** (upper bound ~$525), **zero hours ≥$1,000** — from the 12-print-per-hour mean, an estimator validated across **261 overlapping hours (mean error −$0.13/MWh, max |err| $22.25)**. ⚠️ **$502.28 is in the ORANGE band** — the verified read is likely *Orange, not Red*, missing the RED bar by ~2×, which **strengthens** the transient verdict without depending on it. Retail backdrop [EIA, 2026-05]: industrial **8.71¢/kWh**, residential **18.44¢/kWh**. (KB-WATT-068/069/081.)
+
+---
+
+## TWO_STATE_PILOT_2026-08-17
+
+*Rotated 2026-09-02 · source `STATUS.md` lines 90–94 · 1,316 B · crc32 183063610 · verbatim.*
+**Why:** pilot section — the pilot window closed 8/22; result delivered to DAEDALUS 8/17. Superseded by the fleet READ_CAP rule, which replaced the 61,440 B pair cap with a per-surface 32,550 B budget.
+
+## TWO-STATE STATUS PILOT — live state (WATT = control case) · full report DELIVERED to DAEDALUS
+
+**Pair: 61,440-byte cap · currently ~4 bytes under after THREE rotations in one session** (67,485 → 52,799 → **64,880 OVER** → 58,361 → **61,589 OVER** → 61,436). Every rotation was genuinely superseded content — two 8/4 session-lead blockquotes, superseded live reads, the 8/16 raw tape detail (now permanent in KB), the 6 OPEN items that closed, a dead hypothesis trail, and the morning BOTTOM LINE. **Nothing deleted, nothing edited on the way in, nothing manufactured.** Archive → `status_archive/STATUS_ARCHIVE_2026-08.md`.
+
+**Reported to DAEDALUS in full** (3 packets, 8/17): the rotation result; **the finding that its scan was wrong about me in the direction of "clean"** — density and accretion are independent, and a scan keyed on section *headings* cannot see accretion living inside prose blockquotes (second mis-read of this agent in two weeks by the same detector class); and the addendum that **the cap bound twice in one session**, so for this seat it is a live constraint rather than slack, and a 4-byte margin is not a stable state. **Falsifier not hit.** ⚠️ **Amendment-10 exception declared** at this close, with reasons, rather than satisfied by manufacturing a brief edit.
+
+---
+
+## BOTTOM_LINE_2026-08-17
+
+*Rotated 2026-09-02 · source `STATUS.md` lines 96–106 · 4,542 B · crc32 2764499296 · verbatim.*
+**Why:** session BOTTOM LINE — superseded by the 2026-09-02 version
+
+## BOTTOM LINE
+
+**Two things fired this session and neither was the weather.** **P2's switch stopped being a forecast: PJM has *filed* Door B** — its ~8/13 IRAS petition asks FERC to accept, inside 60 days, a framework in which new Large Loads *"build, bring, or buy… paying the full cost of those resources."* That is the precise assignment **WATT-08** was registered to forecast, arriving ~10 months early **from the proposing party**. Confidence **~65% → ~70%, date unchanged, NOT banked** — a filing is not an order, and much of retail allocation sits at state commissions FERC does not reach. FERC's order is registered as **WATT-10** (~10/12). The under-noticed limb is the **curtailment** one: it writes priority **into tariff**, converting the DOE §202(c) precedent from an emergency action into a **standing commercial term of service**. The **abeyance is still unruled** with a **third** motion filed (Silver Run, 8/3), FERC having declined a shortened answer period **twice** — while *every* ISO/RTO asked for the same 90 days, which is evidence about how hard these rules are to write, not about PJM.
+
+**The second firing was my own rule, and the day's real work was killing explanations for it.** Sunday **8/16** printed **$1,217.52/MWh** on the month's **lowest**-demand day with **no posting of any class** — 10 of 4,149 August intervals cleared $500 and **all ten were that Sunday**. My RED band named no interval and no instrument, so the letter fired on the 5-min tape and could not fire on the hourly; recorded **FIRED-ON-LETTER / MECHANISM-REFUTED** and re-specified prospectively as a conjunction. Then I tested the explanations and **eliminated four**: local congestion (congestion max **$3.84** against a $1,217.52 total ⇒ 99.6–99.8% system energy), thin online reserve (**2,514 vs 2,571 MW** on the peak day — FL-WATT-10 refuted on its own crux), net-load ramp (the **20 steepest** ramps across 8/3–8/13 max out at **$155.18**, none clearing $300, while the window's highest price came on a ramp ranked **239/263** — FL-WATT-13 refuted), and a large forced outage (**z = +0.23**). A fifth, elevated maintenance, is contradicted by 8/15 carrying more of it with no spike. **No surviving explanation. Recorded as UNEXPLAINED — not as a placeholder for a sixth guess.** ⚠️ *Unexplained is not suspicious*: a 20-minute transient on the quietest day of the month, with the band re-specified so price alone cannot fire it, needs no further action.
+
+**The instrument work was the other half, and most of it was correcting myself.** The DM2 **verified-hourly clock** I published in the morning was assumed and wrong; my *correction* was measured **once** and also wrong — the frontier moved **8/13 → 8/15 while I was working**, so the feed is **batch-published with a variable ~1–4 day lag** and the standing form is *measure the frontier at use time*. The **queue figure** I had embargoed resolved at PJM primaries to **811 projects / 220 GW** (Cycle 1) **+30 GW** transition remainder ⇒ **active ≈250 GW = 1.56×** the 2027 peak, not the **1.32×** I published — a correction that runs *toward* my trigger, which is why it went to VULCAN rather than quietly into my file. **P3's rule never named its population either**, so it was re-specified — the same defect as the RED band, second surface, same day. And PJM's **`solar_gen`/`wind_gen` return a full 24-row day of `0.0`** for unpublished dates where the LMP feed returns 0 rows: I was one step from silently deleting ~10–12 GW of solar from a net-load calculation that would have passed every structural check.
+
+**Delivered:** the **P4 instrument fixed** (same-vintage spark primary at **+$48.12**; the stale-proxy spark **refused, not caveated**), both **DAEDALUS SFG actions** (rc-or-marker boot guard, tested 5/5; EIA cache-provenance wall stated), **`THESIS.md` rewritten** (9 contradictions and a **dead flip** that pointed at an auction resolved 7/14), the **`KILL_MEMO`** my own thresholds had always mandated, `FLOW.tsv`'s missing vintage column, and the `CLAUDE.md` 3-legs rot open since 7/22. Packets to **VULCAN ×2, HENRY, CARL, DAEDALUS ×3, PROME ×2**.
+
+**Composite holds 13/20 · status holds 🟠 · P1 held at 2 · no deploy-posture change.** ⚠️ **Two process defects of my own are in the record** (an empty `noop` commit, and a declared Amendment-10 exception), and **the pilot pair sits 4 bytes under a cap it breached twice today** — the trajectory, not the endpoint, is what DAEDALUS should grade.
+
+
+
+---
+
+## ASHBURN_RIDE_THROUGH_2026-08-11
+
+*Rotated 2026-09-02 (second pass, same session) · source `STATUS.md` line 46 · 1,312 B · crc32 252073485 · verbatim.*
+**Why:** stable sourced background, permanent in `workbook/KB.tsv`; STATUS keeps a pointer + the live-this-week joins. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+- **P2/P1 — correlated-control risk: the Ashburn event, with a regulatory clock.** [PJM Inside Lines **8/11**] **~3,800 MW** of data-center load disconnected **7/22** — largest such event in PJM history. A **mechanical failure** triggered automatic removal of a **230 kV** line in Northern Virginia; data centers disconnected in **two cascading waves — 2,970 MW, then 1,099 MW.** **PJM restored balance in nine minutes against NERC's 30-minute standard**; PJM's verdict: they *"should not disconnect from the grid"* during routine faults properly cleared. 🔑 **FORWARD COST LINE, DATED:** PJM is evaluating **ride-through standards** through the Planning Committee, to set requirements *"before the load comes on the system"*; **FERC has ordered NERC to submit enforcement provisions by 2026-12-31**, minimum voltage/frequency ride-through standards **expected 2027**. A compliance cost landing on **operators**, not utilities → degrades AI-capex ROI directly. **VULCAN carries no such cost line.** ⚠️ **NOT SIZED.** **Mechanism is inverted vs the viral framing:** the disturbance came from the sudden **ABSENCE** of load ⇒ risk scales with **concentration + identical automation**, not demand growth. **Direct join: the 10-GW OpenAI/SoftBank Ohio campus sits in PJM.** (KB-WATT-071, FL-WATT-11.)
+
+---
+
+## CRWV_DDTL_POWER_COVENANT_2026-08-03
+
+*Rotated 2026-09-02 (second pass, same session) · source `STATUS.md` line 47 · 1,367 B · crc32 2788768241 · verbatim.*
+**Why:** stable sourced background, permanent in `workbook/KB.tsv`; STATUS keeps a pointer + the live-this-week joins. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+- **P3 — filed mechanism: power price is a CONTRACTUAL input to neocloud borrowing capacity** [VULCAN 8/3, from DEWEY's read of Exhibit 10.1 to CoreWeave's 8-K of 2026-03-31, acc `0001769628-26-000129`]: CRWV's **$8.5B DDTL 4.0** re-marks its Base Case Model for **exactly two things: hedge/SOFR rates, and POWER.** **§5.25 "Power Cost Protection"**; **"Excess Unhedged Power Costs"** a defined term; unhedged power marked to *"the average actual Power Costs for the most recently completed three calendar months"*; debt-sizing resolves to **Projected DSCR ≥ 1.20:1.00** tested every Monthly Date, plus maintenance **DSCR ≥ 1.15:1.00**; a **"Negative NOI Event"** forces repayment **two calendar months BEFORE the first projected negative month**. ⇒ **power price → Modeled Power Costs → Projected DSCR → borrowing capacity AND mandatory prepayment**, ~3-month lag on the unhedged portion, biting on a **projection**. ⚠️ **Correction carried:** DEWEY initially tied the borrowing base to **GPU depreciable cost** and **retracted it** — the advance rate is **90% of COST struck at funding date**. **Open on WATT (owed to VULCAN):** what share of neocloud load is hedged via `Permitted Commodity Agreements` vs floating. 🔑 **This week's join: a §202(c)-driven scarcity episode is exactly the event that moves the unhedged three-month average.**
+
+---
+
+## CRWV_10Q_393MW_2026-08-12
+
+*Rotated 2026-09-02 (second pass, same session) · source `STATUS.md` line 48 · 616 B · crc32 173181001 · verbatim.*
+**Why:** stable sourced background, permanent in `workbook/KB.tsv`; STATUS keeps a pointer + the live-this-week joins. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+- **🆕 P3 — a FILED, dated, site-specific undelivered-MW quantity** [CoreWeave 10-Q, period 2026-06-30, acc `0001769628-26-000366`, filed **8/12**]: **$35.5B of leases executed but not yet commenced**, and **excluded from that $35.5B — explicitly because the payments are uncertain — a single-site lease with 393 MW of electrical power still UNDELIVERED**, phased 2026 and 2028. 🔑 **The class my 32-vs-55 reconciliation was short of:** a filer telling the SEC under liability that a named site is short a specific MW quantity on a dated schedule. ⚠️ **n=1.** Double-count guard applies. (KB-WATT-075.)
+
+---
+
+## ERCOT_474GW_AUDIT_2026-08-13
+
+*Rotated 2026-09-02 (second pass, same session) · source `STATUS.md` line 49 · 673 B · crc32 1292669421 · verbatim.*
+**Why:** stable sourced background, permanent in `workbook/KB.tsv`; STATUS keeps a pointer + the live-this-week joins. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+- **🆕 P3 — Texas ordered the measurement I can only suspect in PJM.** Abbott directed **PUCT + ERCOT to audit every data center in the interconnection process** — **474 GW** of large-load requests, **>1,800 projects**, ~90% data-center, **>5× the state's record peak**; **Batch Zero transmission study POSTPONED**. ⚠️ **An audit, not a moratorium.** The August STEO **cut ERCOT 2027 load growth 14% → 6%**. 🔑 **474 GW against a <95 GW record peak cannot all be real demand.** ⚠️ **ANALOGUE, NOT TRANSFER** — do **not** apply an ERCOT attrition rate to PJM. **No PJM score moves** — out of footprint, and the fleet has no ERCOT owner. (KB-WATT-074.)
+
+
+---
+
+## WATT-02_GRADE_LONGFORM_2026-09-02
+
+*Rotated 2026-09-02 (third pass, same session) · 2,366 B · crc32 2846099708 · verbatim.*
+**Why:** the long form of a record whose permanent home is elsewhere — the WATT-02 grade lives in `workbook/PREDICTIONS.tsv`, the read-cap receipts in the commit message. STATUS keeps the verdict, the lesson and the receipt table. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+## ✅ WATT-02 — RESOLVED **HIT**, and the grading exposed a defect in my own notes
+
+**Registered 7/10, verbatim:** *"At least one more PJM **EEA2+ (or DOE §202(c))** grid-emergency event before Labor Day 2026."* **Criteria, verbatim:** *">=1 EEA2+ posting **or 202(c) order** in PJM footprint by 9/7."*
+
+**Resolved HIT on the §202(c) limb.** **DOE Order No. 202-26-41**, issued **2026-09-01** to PJM Interconnection, effective through **11:59 PM ET 9/8** — a 202(c) order in the PJM footprint, before 9/7. **The EEA-postings limb did NOT fire: EEA-1 is not EEA2+.** Both facts recorded; the disjunction only needed one.
+
+⚠️ **AND IT WAS ALREADY A HIT ON 2026-07-14, SEVEN WEEKS BEFORE I GRADED IT.** **Order No. 202-26-35** (issued **7/14**, PJM, effective 7/14–7/21, *"dispatch units for reliability; backup generation at loads before/during EEA 3"*) also satisfies the criteria. On 7/22 I wrote *"the 7/15-16 EEA-1 is sub-EEA2 (near-miss, **not banked**)"* — **a correct statement about the posting limb, applied as if it settled the whole prediction.** The DOE order covering that same episode was one index page away.
+
+🔑 **Root cause, and it is a documentation defect, not a research one.** The registered row in `PREDICTIONS.tsv` carries both limbs. **Every carry-forward summary of it dropped the second one** — STATUS said *"WATT-02 (9/7) — EEA2+ by Labor Day"*, SCRATCH said *"its bar is a **POSTING**"*, and the PROME task brief for this session inherited that compression and restated it back to me as fact. **Four surfaces, one dropped limb, and the ledger was right the whole time.** `[[finding_summary_section_merges_what_the_body_separates]]` — **grade at the registered row, never at the surface that quotes it.** (⚠️ Note the *neighbouring* prediction is genuinely posting-only: **WATT-06's** criteria really does say *"on emergencyprocedures.pjm.com"* — so the compressed sentence was true of WATT-06 and got attached to WATT-02. **A correct caveat migrated to the wrong prediction.**) Logged **L-39**.
+
+**Registered `if_falsified` does NOT execute** (it was written for a MISS). The HIT's content: **the recurrence case is n=3 episodes in one season, and it now spans July AND September** — the "heat-clustered, not a cadence" read that WATT-06's MISS established for *July* does not extend across the season.
+
+---
+
+
+
+---
+
+## READ_CAP_REASONING_LONGFORM_2026-09-02
+
+*Rotated 2026-09-02 (third pass, same session) · 2,786 B · crc32 2338958150 · verbatim.*
+**Why:** the long form of a record whose permanent home is elsewhere — the WATT-02 grade lives in `workbook/PREDICTIONS.tsv`, the read-cap receipts in the commit message. STATUS keeps the verdict, the lesson and the receipt table. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+## ⚠️ READ-CAP — the 64,000 B budget is retired, and I am saying why rather than dropping it quietly
+
+My header carried **"budget 64,000 B — set from measurement (392 B/line), fleet convention Will-ratified 2026-08-17."** **It is retired.** Root `CLAUDE.md` §Data Hygiene: *any surface a boot protocol tells a session to READ WHOLE stays under **32,550 B** — **binding above any owner-set number**, per surface; owners choose rotation or hot/cold split, **never the number**.*
+
+**Does the 8/17 Will ratification survive it? No, and the reason is scope, not seniority.** What Will ratified on 8/17 was the **byte-tier CONVENTION** — that a STATUS cap should be set in bytes as well as lines, and that a measured B/line beats a default assumption. **That reasoning is still correct and I keep it.** What it did not do, and could not have, is exempt this file from a *physical* limit discovered later: past **54,250 B** a harness `Read` returns a **partial file with no error**, so a 64,000 B budget authorises a boot that silently reads a fragment while every line-count guard passes. **A budget above the cap is not a looser policy; it is an unenforceable one.** `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` — the 8/17 ratification governed the writes of 8/17. **No Will ruling is being overridden; a narrower one is being superseded by a later, wider one, and I am not treating "Will-ratified" as a shield.**
+
+**Executed this session (READ_CAP rules 16–17, `python3 PROME/tools/measure.py` receipts in the commit):**
+| surface | before | after | remedy |
+|---|---:|---:|---|
+| `SCRATCH.md` | **62,072 B** (191% of budget, **114% of the physical cap**) | see commit receipt | **hot/cold split** — lines 54–367 verbatim → `archive/SCRATCH_ARCHIVE_2026-07-08.md` (56,324 B, body crc32 **1809430476**, round-trip verified) |
+| `STATUS.md` | **41,493 B** (127%) | see commit receipt | **rotation** — 5 blocks / **12,921 B** verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md`, per-block crc |
+| `workbook/PREDICTIONS.tsv` | 16,397 B (50%) | unchanged | ✅ ok |
+
+**Audited BY OBLIGATION, both directions.** Every owed action and standing watch was enumerated **before** the cut and re-homed **before** the bytes moved — the table is in `archive/SCRATCH_ARCHIVE_2026-07-08.md` § "WHAT WAS OWED AT ROTATION TIME" (12 items: 1 discharged this session, 8 still open and carried below, 2 already closed, 1 re-homed as a standing operational constraint). **Nothing was retired by being rotated.** ⚠️ **The one that nearly went:** the standing **PJM rate limit** (non-member = 6 calls/min, never loop) lived only in rotated session notes — it is an operational constraint, not history, and is now in the live `SCRATCH.md` header.
+
+---
+
+
+
+
+---
+
+## BOTTOM_LINE_LONGFORM_2026-09-02
+
+*Rotated 2026-09-02 (fourth pass, same session) · 2,746 B · crc32 3854707426 · verbatim.*
+**Why:** four paragraphs against a CLAUDE.md spec of '2-4 plain-language sentences' — compacted in place, long form preserved here. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+## BOTTOM LINE
+
+**The channel this desk was built for finally fired, and it fired clean.** PJM ran a capacity emergency on **two consecutive days**, dispatched **load management** in five zones, served a **season-high 152,518 MW**, and operated under a **DOE §202(c) order** — while the tape printed **$1,868.78/MWh on eight consecutive five-minute intervals** with **congestion of $1.25**, i.e. 99.85% system-wide energy scarcity. My RED band, re-specified in writing two weeks earlier and deliberately hardened so price alone could not trip it, **met every limb**. **P1 2 → 5, composite 13 → 16/20, status 🟠 → 🔴.** No deploy-posture change: a fired gate raises conviction and supplies no entry.
+
+**The discipline that makes the upgrade trustworthy is what it did NOT lean on.** The 8/16 mystery spike closed this session on its own pre-registered terms — verified hourly **$502.38 @19:00 against a forecast of $502.28**, a ten-cent error, **ORANGE not RED, zero hours ≥$1,000**. Its registered upgrade trigger did **not** fire and **contributed nothing** to P1's move. 8/16 stays **UNEXPLAINED and closed**; September is a separate event with the opposite signature — high demand, live postings, RTO-wide. **Same price band, opposite mechanism, and they are not allowed to borrow evidence from each other.**
+
+**The session's uncomfortable finding is in my own filing cabinet, not in the market.** **WATT-02 resolves HIT** — but its registered criteria always read *"EEA2+ posting **or 202(c) order**"*, and **every summary surface I wrote had dropped the second limb**, so it was already a HIT on **2026-07-14** (Order 202-26-35) and I graded it *"trending MISS"* for seven weeks. The ledger was correct throughout; four derived surfaces were not, and this session's own task brief inherited the error and handed it back to me as fact. **Grade at the registered row, never at the surface that quotes it.** The neighbouring caveat that caused it — *"the bar is a POSTING"* — is **true of WATT-06 and was migrated to the wrong prediction.**
+
+**Structurally nothing moved and one thing sharpened.** P2 holds at max; P3 holds at 4 on a genuine net of opposing evidence (DEWEY's slot-reservation finding against the operational reliance on large-load backup generation); P4 widened a third time to **+$53.65/MWh** on a power-side move, not a gas one. **The sharpened item is IRAS limb (c):** Order 202-26-41 authorised PJM to direct **backup generation at large loads** this week — **the practice ran ahead of the tariff.** That corroborates Door B's direction and must not be banked as its outcome, because the gap between an *emergency action* and a *standing commercial term of service* **is the entire prediction.**
+
+
+---
+
+## OPEN5_WINTER_GATE_LONGFORM
+
+*Rotated 2026-09-02 (fourth pass, same session) · 1,068 B · crc32 4289929332 · verbatim.*
+**Why:** stable carry-forward; permanent in KB-WATT-076. STATUS keeps the rule + the new September counter-example. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+5. **⚠️ Winter P1 registration is GATED and the gate HELD — but its premise now has a counter-example.** AEOLUS: winter **ENERGY/mean DOWN, ESTABLISHED**; winter **PEAK — NO SIGN** (n=2 very-strong analogues, split). **2023-24 is decisive: US warmest winter on record AND PJM still peaked 134,777 MW on Jan 17 2024**, running Cold Weather Advisory → Alert → Conservative Operations → NERC TLR-1. ⇒ **do NOT register "no EEA because El Niño."** Any winter P1 call must be **peak-based and sign-agnostic, weighted mid-Jan–Feb, not December.** 🔑 **Reinforced this week:** the September episode fired at a **lower** load than July's — **the load level at which PJM goes to emergency is not a constant**, which is exactly why a peak-based call must not be pinned to a fixed MW threshold. Vintage discipline: ONI is revised as ERSSTv5 updates; `sstoi.indices` runs a different baseline from the discussion prose — **never mix +2.03 and +1.2 in one sentence.** The "~1–3 °F Ohio Valley" figure is **secondary and uncorroborated**. (KB-WATT-076.)
+
+
+
+---
+
+## TWO_DOORS_LF_LADDER_LONGFORM
+
+*Rotated 2026-09-02 (fifth pass, same session) · 987 B · crc32 2955226729 · verbatim.*
+**Why:** the $555/MW-day load-factor ladder is settled, delivered to VULCAN 8/21 and permanent in KB-WATT-077; STATUS keeps the cited figure + the basis caveat. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+- **THE TWO DOORS (WATT owns the docket).** **DOOR A — cost lands on RATEPAYERS** ⇒ consumer power prices rise across PJM (~65M people, 13 states + DC) = a CPI / consumer-squeeze channel → **CARL, HENRY**. **DOOR B — cost lands on the DATA CENTERS** ⇒ hyperscaler opex rises and AI-capex ROI degrades → **VULCAN S1, HENRY HEN-36**. Same dollar, one door or the other. Prior number on the table: the stakeholder-approved reliability backstop caps average cost at **$555/MW-day (≈$202,575/MW-year)** = **$25.69/MWh @90% LF · $27.21 @85% · $33.04 @70% · $38.54 @60%** — cite **85%/$27.21**; basis is arithmetic at assumed load factors, **not observed utilisation**, and must travel with the number. 🔑 **The read is insensitive across the whole band** — even at 60% LF the queue-skip price is **5×–33× below** the $201–1,283/MWh cost of a year of delay (FL-WATT-07). ⚠️ **KEEP THE TWO DOCKETS APART** — capacity backstop ≠ transmission cost allocation.
+
+
+---
+
+## OPEN7_ERCOT_LONGFORM
+
+*Rotated 2026-09-02 (fifth pass, same session) · 862 B · crc32 291993621 · verbatim.*
+**Why:** long form of an open instrument task; the finding, the basis caveat and the prohibition are all retained in STATUS. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+7. **🟡 The ERCOT counter-signal needs its discriminator run** (WALTER SIG-W-20260828-049) — ERCOT North Hub **Cal-27 ~$42/MWh**, all four strips lower than early July. **WALTER named the discriminator and it is mine: is it a gas-cost story or a demand story?** Partial answer already in hand and it leans **demand/supply, not gas** — front Henry Hub *rose* ~12% (2.694 → 3.017) over roughly the same window in which Cal-27 power fell ~18%, so implied heat rate compressed. ⚠️ **[INFERRED, basis mismatch stated]** — that pairs a **chart-read Cal-27 power level** with a **spot** gas move; the clean test needs the ERCOT North Hub Cal-27 strip and the Henry Hub Cal-27 strip **on the same date**, neither of which I can pull free. **Levels are chart-read and must never be quoted as settles or used to set a threshold** (WALTER's caveat, adopted).
+
+
+
+---
+
+## P1_8-16_CLOSURE_LONGFORM_2026-09-02
+
+*Rotated 2026-09-02 (sixth pass, same session) · 1,115 B · crc32 818099015 · verbatim.*
+**Why:** a CLOSED item whose permanent home is KB-WATT-090 + `workbook/PREDICTIONS.tsv`; STATUS keeps the figures, the not-met trigger and the do-not-retro-fit guard. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+- **P1 — the 8/16 puzzle is CLOSED, and it closed on its own pre-registered terms** [KB-WATT-090]. The verified hourly (`rt_hrl_lmps`, pnode 1, 8/16) finally published: **24/24 rows, max $502.38 @19:00 EPT, ZERO hours ≥$1,000, day mean $78.34.** Against the estimate registered **on 8/17, before the data existed** — max **$502.28 @19:00**, zero hours ≥$1,000, day mean **$78.41** — the errors are **+$0.10 on the max (0.02%), −$0.07 on the day mean**, both inside the ±$22.25 validation band. ⇒ **the estimator is confirmed**, and substantively **8/16 was ORANGE, not RED, missing the RED bar by ~2×.** **The registered upgrade trigger *"the 8/16 verified hourly confirming ≥$1,000 → P1 2→3"* is NOT MET.** 🔑 **This matters for the honesty of the P1 upgrade above: 8/16 contributed ZERO to it.** The five eliminated explanations stand; 8/16 stays **UNEXPLAINED and closed**. ⚠️ **Do not retro-fit 8/16 to the September event** — 8/16 was the month's lowest-demand day with no posting; 9/2 was near season-peak with an EEA-1 and a §202(c) order. Same price band, opposite mechanism.
+
+
+
+---
+
+## IRAS_COMPONENTS_LONGFORM
+
+*Rotated 2026-09-02 (seventh/final pass, same session) · 1,071 B · crc32 2048713310 · verbatim.*
+**Why:** components (a)–(d) are quoted verbatim in `workbook/PREDICTIONS.tsv` WATT-10 `resolution`, which is the GRADED copy. STATUS keeps the headline, limb (c), and all four caveats. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+- **PJM HAS FILED DOOR B (~2026-08-13).** The **Interim Resource Adequacy Service (IRAS)** petition asks FERC to accept, **within 60 days (⇒ ~2026-10-12)**, a framework in which new Large Loads *"build, bring, or buy the new generation resources and electricity needed to satisfy their new energy demands, **paying the full cost of those resources**."* Components: **(a)** Reliability Backstop Procurement, from **June 2027**; **(b)** a **Large Load Registry**; **(c)** **emergency load-reduction procedures PRIORITIZING large loads over residential consumers**; **(d)** from **2029/30**, new large loads without their own supply **excluded** from procurement calculations. ⚠️ **NOT BANKED** — a filing by the proposing party is not an order by the deciding one; states/ratepayer advocates/large loads will litigate; much retail allocation sits at **state** commissions outside FERC's rate-design jurisdiction. ⚠️ **DOCKET NUMBER STILL NOT VERIFIED — cite no docket for IRAS.** ⚠️ **Relationship to EL26-67 NOT established.** (KB-WATT-070, FL-WATT-12.)
+
+
+
+---
+
+## ABEYANCE_LONGFORM_2026-08-17
+
+*Rotated 2026-09-02 · 2,036 B · crc32 1290759886 · verbatim.*
+**Why:** a 16-day-stale regulatory read whose permanent record is KB-WATT-072 and whose live action is STATUS OPEN #2. STATUS keeps the state, the two tells and the fused-claim warning. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+- **⚠️ THE ABEYANCE WAS STILL UNRULED at last check (8/17) — THREE motions.** Silver Run Electric filed **8/3** for 90 days on **EL26-67-000**; **FERC declined a shortened answer period for the second time**, answers 5:00 p.m. ET Fri **8/7** [FR **91 FR 51171-72**, FR Doc 2026-16175]. 🔑 **Declining a shortened answer period twice is weak evidence AGAINST a grant.** ⚠️ **A search-engine summary once asserted "Abeyance Granted" over text reciting only the MOTIONS — a fused claim, refuted by the FR primary.** 🔑 **Fleet-wide unanimity:** *every* ISO/RTO asked for the extra 90 days [RTO Insider 8/4; EL26-67/68/70/71/72] — evidence about the **difficulty of writing large-load rules**, consistent with the administrative-rationing read (FL-WATT-07). **⚠️ NOT RE-CHECKED THIS SESSION — 16 days stale. See OPEN #2.** (KB-WATT-072.)
+- **📁 STANDING P2/P3 REFERENCE — four sourced mechanism bullets rotated 2026-09-02 to `status_archive/STATUS_ARCHIVE_2026-09.md` (verbatim, per-block crc), because they are STABLE BACKGROUND, not live state, and each is permanent in `workbook/KB.tsv`:** the **Ashburn 3,800 MW correlated-control event** + its ride-through regulatory clock (NERC enforcement provisions due **2026-12-31**, standards expected 2027 — an un-sized AI-capex compliance cost landing on OPERATORS) [KB-WATT-071, FL-WATT-11] · **CoreWeave's $8.5B DDTL §5.25 Power Cost Protection** covenant chain (power price → Modeled Power Costs → Projected DSCR ≥1.20 → borrowing capacity AND mandatory prepayment, ~3-month lag on the unhedged share) [FL-WATT-08] · the **393 MW undelivered single-site lease** excluded from CRWV's $35.5B not-yet-commenced total, n=1 [KB-WATT-075] · **Texas/ERCOT's 474 GW large-load audit** and the STEO's 14%→6% ERCOT load-growth cut — **ANALOGUE, NOT TRANSFER**, no PJM score moves [KB-WATT-074]. ⚠️ **The double-count guard and the ANALOGUE-NOT-TRANSFER caveat travel with these and are NOT rotated — they are restated in the P3 live read above.**
+
+
+
+
+---
+
+## P2_REGULATORY_LAYER_LONGFORM_2026-09-03
+
+*Rotated 2026-09-03 · 2,963 B · crc32 3019213517 · verbatim.*
+**Why:** the P2 regulatory case file, duplicated in `workbook/PREDICTIONS.tsv` (WATT-08/09/10 `resolution`, the GRADED copy) and KB-WATT-070/072. STATUS keeps the live state, limb (c), the two doors, the cited figure and every caveat. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+### P2 — the regulatory layer (the switch by which AI capex becomes macro)
+
+- **PJM HAS FILED DOOR B (~2026-08-13).** The **Interim Resource Adequacy Service (IRAS)** petition asks FERC to accept **within 60 days (⇒ ~2026-10-12)** a framework in which new Large Loads *"build, bring, or buy the new generation resources… **paying the full cost of those resources**."* **All four components (a)–(d) are quoted verbatim in `workbook/PREDICTIONS.tsv` → WATT-10 `resolution`** — that is the graded copy; this is a pointer, not a second one. 🔑 **The live limb is (c)** — *"emergency load-reduction procedures **prioritizing large loads over residential consumers**"* — which writes curtailment priority **into tariff**, converting the DOE §202(c)/Manual 13 precedent from an **emergency action** into a **standing commercial term of service**. ⚠️ **NOT BANKED** — a filing by the proposing party is not an order by the deciding one; states/ratepayer advocates/large loads will litigate; much retail allocation sits at **state** commissions outside FERC's rate-design jurisdiction. ⚠️ **DOCKET NUMBER STILL NOT VERIFIED — cite no docket for IRAS.** ⚠️ **Relationship to EL26-67 NOT established.** (KB-WATT-070, FL-WATT-12.)
+- **THE TWO DOORS (WATT owns the docket).** **DOOR A — cost lands on RATEPAYERS** ⇒ consumer power prices rise across PJM (~65M people, 13 states + DC) = a CPI / consumer-squeeze channel → **CARL, HENRY**. **DOOR B — cost lands on the DATA CENTERS** ⇒ hyperscaler opex rises and AI-capex ROI degrades → **VULCAN S1, HENRY HEN-36**. Same dollar, one door or the other. The backstop caps average cost at **$555/MW-day ≈ $202,575/MW-year** ⇒ **cite $27.21/MWh @85% LF** (full LF ladder + basis: KB-WATT-077, adopted verbatim by VULCAN 8/21). **Basis travels with the number: arithmetic at ASSUMED load factors, not observed utilisation.** 🔑 **The read is insensitive across the whole band** — even at 60% LF the queue-skip price is **5×–33× below** the $201–1,283/MWh cost of a year of delay (FL-WATT-07), which is what makes it safe to publish. ⚠️ **KEEP THE TWO DOCKETS APART** — capacity backstop ≠ transmission cost allocation.
+- **⚠️ THE ABEYANCE — 16 DAYS STALE, NOT RE-CHECKED THIS SESSION.** Last verified state (8/17): three Rule 212 motions on **EL26-67-000** for a 90-day abeyance (PJM + Indicated TOs 7/28, **Silver Run 8/3**); **FERC declined a shortened answer period twice**, answers 5:00 p.m. ET **8/7**; **unruled**. 🔑 **Declining a shortened answer period twice is weak evidence AGAINST a grant**; *every* ISO/RTO asked for the same 90 days, which is evidence about the difficulty of writing large-load rules, not about PJM. ⚠️ **A search summary once ran the heading "Abeyance Granted" over text reciting only the MOTIONS — a fused claim, refuted by the FR primary [91 FR 51171-72].** **Full record KB-WATT-072; the live action is OPEN #2.**
+
+
+
+
+---
+
+## P2_REGULATORY_LAYER_FULL_2026-09-03
+
+*Rotated 2026-09-03 · 2,595 B · crc32 2211048658 · verbatim. Supersedes the partial rotation above — this is the whole subsection.*
+**Why:** L-43 applied — relocate the block, do not rewrite it. Live actions live in STATUS OPEN #2; the graded copy is `workbook/PREDICTIONS.tsv`. **Rotation month 2026-09 == file month 2026-09 ✅**
+
+### P2 — the regulatory layer (**full text → `status_archive/STATUS_ARCHIVE_2026-09.md`; graded copy → `workbook/PREDICTIONS.tsv` WATT-08/09/10; live actions → OPEN #2**)
+
+**In one block, because the detail is duplicated in two permanent homes and STATUS is a live-state surface, not a case file:** PJM **filed Door B ~8/13** — the **IRAS** petition asks FERC to accept within 60 days (⇒ **~2026-10-12**) a framework where new Large Loads *"build, bring, or buy… **paying the full cost of those resources**."* 🔑 **The live limb is (c)** — *"emergency load-reduction procedures **prioritizing large loads over residential consumers**"* — which writes curtailment priority **into tariff**, converting the DOE §202(c)/Manual 13 precedent from an **emergency action** into a **standing commercial term of service**. ⚠️ **NOT BANKED** (a filing by the proposing party is not an order by the deciding one; states/ratepayer advocates/large loads will litigate; much retail allocation sits at **state** commissions outside FERC's rate-design reach). ⚠️ **DOCKET NUMBER STILL UNVERIFIED — cite no docket for IRAS.** ⚠️ **Relationship to EL26-67 NOT established.** **The abeyance was UNRULED at last check (8/17, now 16 days stale)** — three Rule 212 motions on **EL26-67-000**, FERC having **declined a shortened answer period twice** (weak evidence *against* a grant); *every* ISO/RTO asked for the same 90 days, which is evidence about how hard large-load rules are to write, not about PJM. ⚠️ **A search summary once ran the heading *"Abeyance Granted"* over text reciting only the MOTIONS — a fused claim, refuted by the FR primary [91 FR 51171-72].**
+
+**THE TWO DOORS (WATT owns the docket).** **DOOR A — cost lands on RATEPAYERS** ⇒ consumer power prices rise across PJM (~65M people, 13 states + DC) = a CPI / consumer-squeeze channel → **CARL, HENRY**. **DOOR B — cost lands on the DATA CENTERS** ⇒ hyperscaler opex rises and AI-capex ROI degrades → **VULCAN S1, HENRY HEN-36**. Same dollar, one door or the other. The backstop caps average cost at **$555/MW-day ≈ $202,575/MW-year** ⇒ **cite $27.21/MWh @85% LF** (ladder + basis: KB-WATT-077, adopted verbatim by VULCAN 8/21). **Basis travels with the number: arithmetic at ASSUMED load factors, not observed utilisation.** 🔑 **Insensitive across the whole band** — even at 60% LF the queue-skip price is **5×–33× below** the $201–1,283/MWh cost of a year of delay (FL-WATT-07). ⚠️ **KEEP THE TWO DOCKETS APART** — capacity backstop ≠ transmission cost allocation.
+
+
