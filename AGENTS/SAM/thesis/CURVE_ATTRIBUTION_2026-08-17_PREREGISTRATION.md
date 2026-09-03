@@ -197,3 +197,91 @@ I re-ran BOND's tool myself rather than continue quoting the delta it handed me.
 🔑 **The general form, and it is the reason this is written down rather than quietly patched:** a **rank** is not a property of a sovereign, it is a property of a **(sovereign, window)** pair. I treated an ordering as a fact about Japan. **⇒ Every rank claim on my surfaces carries its horizon in the same sentence, or it does not go on a surface.**
 
 ⚠️ **Net effect on the attribution: H1 and H2 are MORE open than addendum-1 implied, not less.** The cross-section no longer supplies a Japan-is-not-special reading through the break. §D's original point is untouched and now carries more weight: **a JGB-only slope instrument is silent about the largest move in its own window, and the cross-sectional leg I would want instead is horizon-unstable.** ⛔ **Both remain reasons the 9/3 NO-VERDICT is a NULL, never evidence.**
+
+---
+
+# 🔒 GRADE — 2026-09-03 (Thu, ~07:5x ET / 20:5x JST), RUN ON THE LETTER
+
+**Nothing above this line is altered.** No bar, branch, base, window or explanation was changed at scoring time. This is the §5 full grade and the §E.1 pre-commitment discharged.
+
+## VERDICT: ⚪ **NO-VERDICT** — attribution stays **OPEN**
+
+**Explanation branch: (iii) UNREACHABLE BY CONSTRUCTION** (§C). ⛔ **Does NOT count toward §4's "two consecutive NO-VERDICTs ⇒ discriminator too weak" clause. That counter starts at the 9/29 40Y and stands at 0 of 2.**
+
+### Leg 2 — AUCTION (deterministic; this leg alone forces the verdict)
+
+The letter's named, dated auction is **the 8/20 20Y** (§3 table; ruling in §B). It graded ⚪ **AMBIGUOUS** (BTC 3.982 vs FIRM ≥4.0; tail 1.5bp vs FIRM ≤1.0bp — the tail fails independently). Per §3, *"anything between = ambiguous ⇒ contributes NO-VERDICT."* Both directional branches require BOTH legs. **⇒ NO-VERDICT, VERIFIED, and independent of anything the slope did.**
+
+### Leg 1 — SLOPE (30Y − 2Y, own MOF closes, base 8/14 = 234.5bp)
+
+| 8/14 | 8/17 | 8/18 | 8/19 | 8/20 | 8/21 | 8/24 | 8/25 | 8/26 | 8/27 | 8/28 | 8/31 | 9/1 | **9/2** |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 234.5 | 235.4 | 240.5 | 237.3 | 231.3 | 236.0 | 235.1 | 235.6 | 234.2 | 234.2 | 236.5 | 234.9 | 232.9 | **226.8** |
+
+**9/2 MOF close: 30Y 4.122 · 2Y 1.854 ⇒ 226.8bp. Deviation from base −7.7bp against a ±15bp bar. NOT TRIPPED.**
+
+⚠️ **The terminal observation is PENDING and I am not going to pretend otherwise.** The window closes at the **9/3 MOF close**, which MOF publishes ~9/4 AM JST. Latest published is **9/2**. Confidence: leg 1 is **VERIFIED through 9/2**, **INFERRED** for the terminal day — a trip would need a **−7.3bp one-day slope move**, against a largest-single-day move anywhere in this window of **6.1bp** (9/1→9/2). **The verdict does not depend on it** (leg 2 is deterministic), so the grade is published now rather than held.
+
+### 🔴 A correction to my own §A, recorded against my own interest
+
+§A called the null **OVER-DETERMINED** and said, on 9/1: *"I am recording this before the print so the null cannot later be presented as a close call"* — citing a required one-day move of **13.4bp**. With the 9/2 close in hand the requirement is **7.3bp**, and the slope's deviation went **−1.6bp → −7.7bp**. **The over-determination roughly halved between pre-registration and grade.** It still holds — leg 2 is deterministic and leg 1 has never come within 7.3bp of a trip line — but **§A's margin figure is superseded, and the symmetric obligation to a pre-committed "this is not a close call" is to say so when it gets closer.** ⛔ **The verdict is unchanged; only the margin claim is.**
+
+### §D stands and is reinforced
+
+The 9/2 session moved the slope **−6.1bp** — the largest single-day move of the window — on a day the **2Y rose 5.2bp while the 30Y FELL 0.9bp**. That is a further front-led, policy-path signature, and the JGB-only slope instrument still cannot separate it from a global common factor (§D). **A near-parallel null is not "nothing happened."**
+
+---
+
+# 📎 SEPARATE GRADE — 2026-09-03 30Y JGB AUCTION (Pillar-2 Meiji-floor internals)
+
+⛔ **NOT a leg of CH-016** (§B). Graded on the frozen §3 internals bars per §E.2. ⚠️ **INTERNALS, never the yield level — SAM-26 trap.**
+
+**Own MOF primary, read this session:** `https://www.mof.go.jp/english/policy/jgbs/auction/calendar/eresul/eresul20260903.htm`
+
+| field | value |
+|---|---|
+| competitive bids | ¥1,728.1B |
+| accepted | ¥456.2B |
+| **bid-to-cover** | **3.79× (MOF-printed); 3.788 computed** |
+| lowest accepted price / yield | 98.65 / **4.100%** |
+| weighted average price / yield | 98.93 / **4.079%** |
+| **tail (yield)** | **2.1bp** (4.100 − 4.079) |
+| tail (price) | 0.28 yen (98.93 − 98.65) |
+
+## VERDICT: 🟠 **SOFT** — the tail leg trips
+
+Bars (frozen §3): **SOFT** = BTC **<3.5** OR tail **>2.0bp** · **FIRM** = BTC ≥4.0 AND tail ≤1.0bp.
+- BTC 3.788 — neither <3.5 nor ≥4.0 ⇒ contributes nothing.
+- **Tail 2.1bp > 2.0bp ⇒ SOFT.**
+
+**This is the first SOFT grade at the 30Y tenor in the ~4.0%-floor series.**
+
+## ⚠️ THE MARGIN IS INSIDE THE PUBLISHER'S RESOLUTION — stated because it is the honest weakness of my own bar
+
+The trip margin is **0.1bp on a 2.0bp bar**. MOF publishes yields to **three decimals**, i.e. a quantization step of **0.001pp = 0.1bp**. **The margin by which this auction grades SOFT is exactly one quantization unit**, so the true tail lies in **[2.0, 2.2]bp** and the bar cannot discriminate SOFT from AMBIGUOUS at its own trip point on this publisher's precision. The price tail (0.28 yen on 2-decimal prices) is no finer.
+
+⛔ **I am NOT re-tuning the bar at scoring time** — the letter runs on published figures and published figures say 2.1 > 2.0. **SOFT is the grade.** This is registered as an **instrument defect for the 9/29 40Y run**: a bar whose trip margin equals its instrument's quantization is a coin flip at the boundary, which is the BND-11 defect §3 was written to avoid, reappearing at the *tail* leg after §3 fixed it at the *slope* leg.
+
+## Context — own MOF primary, 13 auctions, built this session
+
+30Y series Sep-2025 → Sep-2026 (backfilled via MOF's date-keyed result pages):
+
+| date | BTC | tail bp | | date | BTC | tail bp |
+|---|---|---|---|---|---|---|
+| 2025-09-04 | 3.308 | 1.3 | | 2026-03-05 | 3.656 | 0.8 |
+| 2025-10-07 | 3.411 | 1.1 | | 2026-04-07 | 3.115 | 1.3 |
+| 2025-11-11 | 3.125 | 1.7 | | 2026-05-14 | 3.494 | 1.6 |
+| 2025-12-04 | 4.045 | 0.7 | | 2026-06-10 | 2.936 | 2.8 |
+| 2026-01-08 | 3.138 | 1.0 | | 2026-07-07 | 4.550 | 0.3 |
+| 2026-02-05 | 3.635 | 0.8 | | 2026-08-06 | 3.864 | 1.5 |
+| | | | | **2026-09-03** | **3.788** | **2.1** |
+
+- **Trailing-12 mean BTC (Sep-2025→Aug-2026, excl. this print) = 3.523.**
+- Cover **3.788 is ABOVE** that mean and above the 13-obs median (3.494) — **10th of 13 ascending.**
+- Tail **2.1bp is the 2nd-WIDEST of 13** (only 6/10's 2.8bp is wider); trailing-12 median tail **1.2bp**.
+
+🔑 **RED's "two-sided" read is correct and now quantified: the cover is top-third, the tail is near-worst.** The §3 bars resolve it because the soft side is an **OR** — a bad tail can veto a decent cover, which is what the bar was built to do. **That is the bar working, not the bar being lucky.**
+
+⛔ **What this does NOT say.** It is not a floor break and not a level call — the 30Y cleared at 4.100%/4.079% and **the level is not graded** (SAM-26). It is a statement about *internals at one auction*. **No thesis version moves (§E.3): v1.7 stands. Book FLAT.**
+
+*Graded by SAM 2026-09-03. Terms above the line remain frozen. Figures read at the MOF primary named above, not relayed.*

@@ -86,7 +86,7 @@ At boot, after STATUS / MEMORY reads — run the glob + `git mv` from repo root
 **⚠️ Messaging system status:** File-based mail is being overhauled (per auto-memory `[[project_messaging_overhaul]]`). HERMES delivery is unreliable; outbox writes may sit undelivered. Don't invest in inbox/outbox hygiene infrastructure. For time-sensitive cross-agent signals, prefer Convention B (own-outbox routing, scanned by PROME at boot) or surface to Will directly. **Steady-state cross-agent synthesis flows through `NEXUS_BRIEF.md`** (refreshed every closeout — write-back step 13a; NEXUS + peer agents read it in place of raw STATUS).
 
 Mail folder layout:
-- **Inbox:** `inbox/` — inbound signals from other agents (historically delivered by HERMES)
+- **Inbox:** `inbox/` — inbound analysis/packets from other agents, and SIGNALS routed to you by **WALTER**. ⚠️ **HERMES is RETIRED (2026-06-30) and is not a router** — this line named it as one until 2026-09-03 (DAEDALUS fleet census, DEAD-ROUTER class: a signal addressed per the old wording reached nobody, and nothing reported the failure).
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
 - **Delivered:** `outbox/delivered/` — signals marked delivered (manually — HERMES retired)
@@ -110,7 +110,7 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); reserve `outbox/` for PROME-action requests
+- ⛔ **SIGNALS go to WALTER for routing. ANALYSIS and PACKETS go direct.** A **SIGNAL** (a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on) → **WALTER**; WALTER owns dedupe, archive and routing judgment, and root `CLAUDE.md` § Direct Messaging v1 is explicit: *never route signals around WALTER*. **ANALYSIS and PACKETS** (a grade, a memo, a correction, a reply) → write the `.md` directly to the recipient's `inbox/` and self-commit it per carve-out ①. Reserve `outbox/` for PROME-action requests. *(HERMES retired 2026-06-30; this line said "deliver a **signal** … directly" until 2026-09-03 — a route-around, corrected in the same pass as the DEAD-ROUTER row above.)*
 - ⚠️ **PROME's inbox is `PROME/inbox/` — NEVER `AGENTS/PROME/inbox/`.** PROME's home dir is `PROME/`, not `AGENTS/PROME/` (root CLAUDE.md § scope note); the `AGENTS/PROME/` tree was **removed 2026-07-24** and `PROME/inbox/` is the **sole** PROME delivery surface (Will-ruled 7/24, DM v1 spec). Writing to `AGENTS/PROME/inbox/` **recreates a dead tree**; nothing is lost (PROME migrates-and-flags it) but **it costs a session of latency every time**. SAM did this on 8/3 (regrow #4) and **again twice on 8/4 (regrow #5) — after PROME had already flagged it in writing**, because the flag arrived as a legacy inbox packet that the MAIL rule above says not to read at boot. *(Fixed here 2026-08-04 so the path lives in the protocol, not in a packet nobody reads.)*
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
@@ -187,10 +187,10 @@ The CHANGES SINCE section is populated at BOOT (step 7, market refresh) and writ
 
 ## CROSS-AGENT SIGNALS
 
-**You send:**
+**You send:** ⚠️ **The `Target` column names who must ACT on the signal — it is NOT a delivery address.** Every row below is a **SIGNAL** (a registered threshold firing / a market datum another desk must act on), so it is **routed to WALTER**, who dedupes, archives and delivers to the named targets. ⛔ **Do not write these direct to the target's inbox — that is the route-around root `CLAUDE.md` forbids.** *(Self-caught 2026-09-03 under DAEDALUS's leg-B "agent-judged" perimeter: leg A cleared my prose rows while this table — a recipient-named trigger table with no WALTER in it — was still the OTTO structural form, and I had a live signal in hand the same session.)*
 
-| Condition | Target | Priority |
-|-----------|--------|----------|
+| Condition | Who must act | Priority |
+|-----------|--------------|----------|
 | Carry unwind (yen gaps +2%+ intraday) | HENRY, ALL | 🔴 |
 | JGB auction failure (BTC <2.0x) | LIQUID, HENRY, PROME | 🔴 |
 | USDJPY breaks 160 or <147 | HENRY, PROME | 🔴 |
@@ -269,8 +269,8 @@ Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-i
 | `scripts/` | All SAM tooling. **Do not maintain an inventory by hand — run `boot.py --tools`** for the live list (name · boot-wired? · one-line purpose), generated from disk so it cannot rot. Boot prints a tool count every run and flags drift in both directions (on-disk-but-unwired = boot never runs it and a future session never learns it exists; wired-but-absent = boot references a ghost). `--tools` exits 1 on drift, so it can gate a check. |
 | `workbook/BOJ_OIS.tsv` | Market-implied BOJ hike probability per MPM — `scripts/boj_ois.py`, 3m-TONA futures via centralbank.watch. Stores **cumulative** hike % plus the derived **per-meeting marginal** and **unpriced surprise room** (the quantity route 1 actually needs — it pays on SURPRISE, so a RISE in priced probability SHRINKS the edge). Two-clock: the source's own `as_of_date` is stored separately from `pulled_at`, and a source whose as-of has not advanced writes NOTHING. The script **asserts the cumulative basis on the page every run** and hard-stops if it disappears — an unverified basis is exactly what produced SAM's 8/4 sign error. Idempotent by (as_of_date, meeting_date). Built 2026-08-04. |
 | `workbook/GPIF_FLOWS.tsv` | GPIF (Government Pension Investment Fund) release tracker — `scripts/gpif_flows.py`. Idempotent by report URL; GPIF is quarterly-laggy by construction (interim update PDFs ~5wk after quarter-end, annual summary + portfolio-holdings Excel ~Jul 1-3). Captures asset size, period return, 4-way asset-class allocation %, and (annual report only) net rebalancing flow by asset class — the closest GPIF publishes to a "flow" number. Portfolio-holdings Excel link is logged, not parsed (security-level detail, out of scope). Built 2026-07-09. |
-| `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | Outbound signals for other agents. One file per signal. (See ⚠️ messaging-overhaul note in SPAWN PROTOCOL > MAIL.) |
+| `inbox/` | Inbound **analysis/packets** from other agents, plus **SIGNALS routed in by WALTER** (`inbox/WALTER/` lane). Process when spawned for it. |
+| `outbox/` | **PROME-action requests** and delivery memos. ⛔ **Not a signal lane: SIGNALS → WALTER; ANALYSIS/PACKETS → direct to the recipient's `inbox/`, self-committed (carve-out ①).** (See ⚠️ messaging-overhaul note in SPAWN PROTOCOL > MAIL.) |
 
 ---
 
