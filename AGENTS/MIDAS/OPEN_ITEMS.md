@@ -11,6 +11,8 @@
 
 ## 21. 🔴 MIDAS-08 — the M1 successor test. REGISTERED 9/2, RESOLVES FRI 9/4
 
+⛔ **TWICE OFFERED A MID-FLIGHT IMPROVEMENT, TWICE DECLINED (see §7–§8 of the registration note).** `BND-21` resolving TRUE raised the prior on branch (a) — **P(a) not re-tuned.** ZHAO's **STUCK** design (non-resolution is a *status*, not a mass-bearing branch) is **better than my (d) and I adopted it PROSPECTIVELY only** — retrofitting it would renormalise (a)(b)(c) from sum 0.98 to 1.00 and change the scored masses. **Third honouring of the freeze in three days, in three different currencies: a score (8/31 band fence), calibration credit (BND-21), and now a known-second-best design.**
+
 **Why it exists:** M1 sat at **4 with no live test** — MIDAS-06 graded terminal 8/31 and its own cell said any further escalation needs a NEW registered row. Everything learned about M1 since (BOND's breakeven tension, the gold-basis work, the COT crowding) was **unregistered observation** and could not move a score.
 
 **The question, which this desk and BOND both declined to rule on 9/2:** is gold's premium **spec-funded**? Δ net/OI vs the frozen baseline **56.8600%** [as-of 2026-08-25].

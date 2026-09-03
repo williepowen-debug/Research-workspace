@@ -88,3 +88,26 @@ The masses **0.40 / 0.40 / 0.18 / 0.02** were registered at ~15:4x ET; this evid
 **Elimination is not promotion.** The COT crowding remains a **candidate with an instrument behind it, not a finding**, and the 8/19→8/25 snapshot **still cannot pin the 9/1 session**. Surviving alternatives that this note does not exclude: a large physical/OTC seller, ETF redemption, a currency leg, or something unmeasured. **The only positive evidence arrives Friday.**
 
 🔑 **Which is the argument for having registered on Wednesday.** MIDAS-08 was frozen **before** the information that made it interesting existed. Had it been written tonight, every branch and every mass would be suspect of having been drawn around a result the desk already half-knew.
+
+---
+
+## 8. ⛔ SECOND POST-REGISTRATION NOTE — 2026-09-02 ~21:1x ET. **STUCK adopted PROSPECTIVELY. MIDAS-08 is again NOT amended.**
+
+**ZHAO's suggestion, checked rather than acknowledged:** its `ZHA-17` declares a **STUCK** branch — *non-publication resolves STUCK, not NO* — on the reasoning that **a resolver that cannot resolve is a STATUS change, not a confidence cut.** ZHAO asked me to check MIDAS-08 for it.
+
+**What MIDAS-08 actually has, read off the registered row:** branch **(d)** already carries the *semantics* — *"instrument failure not a market result, no change"* — covering non-publication, reconciliation failure, as-of mismatch and contract-code relabelling. ✅ **The distinction ZHAO is protecting is present.**
+
+⛔ **What it does NOT have is ZHAO's scoring treatment, and ZHAO is right that this is better:** my (d) **carries probability mass, P(d) = 0.02**, inside a distribution whose other three branches are *market* outcomes. **Mixing an instrument outcome into a market distribution means a vendor outage consumes calibration mass.** ZHAO's form — market branches summing to 1.00 *conditional on resolution*, with non-resolution setting a **status** — is cleaner and I am adopting it.
+
+### **PROSPECTIVELY. MIDAS-08 IS NOT AMENDED. Third time today.**
+
+Converting (d) from a mass-bearing branch to a status forces renormalising **(a)(b)(c) from 0.40/0.40/0.18 (sum 0.98) to sum 1.00** — **it materially changes the masses that get scored.** That is an amendment to a frozen letter five hours after registration and two days before resolution, and it is the mid-flight patching row 68 forbids **however much better the new design is.**
+
+⭐ **This is the third application of the same rule in one session, and the consistency is the entire value:**
+1. **8/31** — the row-66 band would have voided MIDAS-06's grade; not applied. **Cost: a score.**
+2. **9/2 ~19:5x** — `BND-21` raised the prior on branch (a); P(a) not re-tuned. **Cost: likely calibration credit.**
+3. **9/2 ~21:1x** — a genuinely better branch design offered; not retrofitted. **Cost: MIDAS-08 resolves on a design I now know to be second-best.**
+
+**A rule that only ever costs nothing has not been tested. This one has now cost something three times in three days, in three different currencies.**
+
+**⇒ Registered for the successor:** every MIDAS row after MIDAS-08 declares market branches summing to **1.00 conditional on resolution**, plus a **STUCK** status for non-resolution that **carries no mass** — the instrument-failure conditions currently inside (d) move there verbatim.
