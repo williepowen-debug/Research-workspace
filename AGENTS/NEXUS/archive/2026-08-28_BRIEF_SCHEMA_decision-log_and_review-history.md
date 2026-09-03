@@ -96,7 +96,13 @@
 > **Escalation call (NEXUS, 2026-08-28):** a fleet-facing format change gets Will's look by amendments 9/10's own precedent (and R3's before them). This one re-orders every full-variant brief. **Not taken under DELEGATION_TIER self-ruling.**
 > **Coupled ruling:** VULCAN's amendment-9 **revert condition is MET (decision row 19) but execution is STAYED** — VULCAN's brief is almost entirely CROSS-DOMAIN and currently routing-first, so a revert under the present order would push its routing content BELOW the truncation cut. **The defect makes a compliance-correct action harmful.** Revert executes after 12 is ruled, either way.
 
-### 🔴 AMENDMENT-12 WATCH — **RESOLVED EARLY 2026-08-28: THE PREDICTION FAILED, 21 DAYS BEFORE ITS GRADE DATE**
+### ✅ AMENDMENT-12 WATCH — **GRADED `MISSED` 2026-09-02, ON ITS OWN LETTER. FINAL.**
+
+> 🔒 **GRADE OF RECORD (added 2026-09-02, WQ-105 ACTION (a)).** **Verdict: `MISSED`.** **Anchor:** PROME `PROME/proposals/2026-09-01_wq-batch-RULED.md` row 105, Will 2026-09-01 17:22 ET — *"approve all of those with your recs."* PROME's ruling, verbatim in intent: *"The amendment-12 watch prediction (opened 8/07, due 9/18) is graded MISSED on its own letter. The falsifier said 'if a twelfth amendment is PROPOSED' — it was proposed 8/28. **No grader discretion on 'proposed' vs 'accreting text'.**"*
+> **Consequence clause DISCHARGED in the same ruling:** amendment 12 **ADOPTED** as a zero-text defect repair **AND** the schema-amendment **CAP adopted in the same word** — *"the accretion question is answered by the cap, not by declining a valid fix."* Both are encoded in `templates/NEXUS_BRIEF_SCHEMA.md` (§2 order + §4.1 entry + **§4.6 CAP**) on 2026-09-02.
+> ⚠️ **What NEXUS got wrong, recorded because it is the transferable part:** this desk **had the resolver and did not run it.** The falsifier fired on 8/28 by its own plain letter and NEXUS wrote it up as *"the consequence clause, and I am NOT ruling it myself"* — correct on the consequence, **and it deferred the GRADE along with the ruling.** The grade needed no authority; only the consequence did. ⭐ **Escalating a decision does not escalate the measurement that precedes it — grade first, then escalate.**
+
+*(Prior header, superseded 2026-09-02: "🔴 AMENDMENT-12 WATCH — RESOLVED EARLY 2026-08-28: THE PREDICTION FAILED, 21 DAYS BEFORE ITS GRADE DATE")*
 
 **The registered prediction** (opened 8/07, `FORUM/2026-08-07_system-review/02_repair-burden/06_NEXUS_canon-mass-reply.md`): DAEDALUS's discriminator held that **amendment 11 — the only FORMAT rule in the set — ENDS its class**, while the ten RECOGNITION amendments keep generating successors. **Registered falsifier: *"Grade 2026-09-18: if a twelfth amendment is proposed, the prediction fails and the schema is an accreting surface that needs a cap rather than another rule."***
 

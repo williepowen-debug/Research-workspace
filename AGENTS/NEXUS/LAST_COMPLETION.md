@@ -1,125 +1,86 @@
-# NEXUS LAST COMPLETION
+# NEXUS — LAST COMPLETION
 
-**Session:** 2026-08-28 Fri ~10:3x–11:3x ET (PROME-orchestrated spawn; 11-day gap since 8/17). **Scoped falsifier-grade + full inbox drain — deliberately NOT a matrix sweep.**
-
-## Headline: **the successor falsifier resolved BRANCH C — EARNED, FINAL — and the grade's own defect outranks its verdict: ruling ⑤ repaired branch A's unreachability by relocating it onto branch B, and nobody re-ran the reachability check I had adopted four sessions earlier. Both operative branches base-rate ~0%. C was the only producible outcome.**
-
-## The grade
-Graded on **ADDENDUM 2's delta-leg letter** (ruling ⑤ — encoded 8/17; **the chase-list "encode-confirm still owed" is STALE, discharged 8/17**). Safe-default "resolves on HY alone" did **not** grade. FRED primaries **NEXUS-pulled**, not inherited.
-
-| Branch | Letter | Observed | |
-|---|---|---|---|
-| A | HY ≥280 s3 **AND** CCC retraces <40% of HY retracement | **0 of 11** sessions ≥280; max **275** [8/18, 8/20] | ❌ |
-| B | HY <260 s3 | **0 of 11**; min **263** [8/27] | ❌ |
-| C | neither | ✅ **FIRES** | ✅ |
-
-**EARNED at HY 263 · CCC 1031 · ratio 3.920 [FRED, 8/27]. Split HELD 21/44/35** (C forces nothing).
-**FINAL not PROVISIONAL** despite the unpublished 8/28 cell (FRED T+1 = Mon 8/31): both branches need a 3-session run containing **8/26 = 267** and **8/27 = 263**, so **no 8/28 value can change either — the pending cell is non-load-bearing.** Grade-date rule (Will 8/27) applied and correctly not invoked. **Owed Monday: a one-line receipt, not a grade.**
-**Disc-A:** window ratio move is **81% HY-tightening / 18% CCC-widening** ⇒ A's original ratio leg would have graded TRUE-in-letter/FALSE-in-spirit. **Baseline-sensitive 2nd consecutive grade** (7/16 base reads CCC +61bp vs HY −8bp = CCC-led). Both true — name the baseline.
-🔒 **Non-renewable clause ARMED: C #1 of 2. Second C at ~9/11 CPI forces the T-12 re-spec.**
-
-## The four self-defects recorded (not smoothed)
-1. 🔴 **B went 85.9% → 0.0% as a side effect of the repair.** Measured at primary, n=787 daily/3y: **3-consecutive HY <260 = 0 occurrences ever** (one sub-260 day, 2025-01-22; longest run 1). **Transferable: a spec amendment inherits the ORIGINAL's construction certificate unless the checks are re-run on the AMENDED text.** The re-spec was audited for goalpost-moving (passed, correctly) and never for reachability (which decided it).
-2. **Branch A's named instrument was demoted by its owner mid-window** — RED S36d 8/27: *"FT-01 IS NO LONGER A FALSIFIER."* Graded on the letter regardless; learning it at grade time is a coverage defect.
-3. **The delta leg is numerically degenerate in a no-widening window** (HY denominator = 4bp, inside daily noise; HY closed below its baseline ⇒ "retracement" 300%). Two defensible readings disagree (53.3% absolute vs 17.8% relative). **Moot — A died on leg 1 — and deliberately NOT patched mid-flight.**
-4. 🔴 **My §4.4 brief stale-check is untrippable on 58% of the fleet** (below).
-
-## Inbox — DRAINED 6-of-6 + 8 in-pass arrivals
-**Processed (5, `git mv`):** ORACLE 8/18 (label fix applied) · VULCAN 8/21 + 8/27 (RULED) · ZHAO 8/21 (PRED-30 re-graded) · HOMER 8/22 (RULED).
-**HELD by its own gate (1):** PROME's 8/17 systems-review commission — **≥8/29, NOT started, sequencing is the ruling.**
-**Arrived DURING the pass (9c late-mover corollary, fired twice):** LABOR's QCEW grade + **7 WALTER lane signals**. All read, all logged, **folded as delta-annotations, NOT a re-sweep** (~2-patch cap honored). ⚠️ **All 8 are UNTRACKED (authors' commits in flight) ⇒ could NOT `git mv` to `processed/` — consumed and logged in `board_log.tsv`; filing next session. Bash-moving another agent's uncommitted file would orphan their commit.**
-
-## Rulings issued (schema owner-of-record)
-- **VULCAN amendment-9 revert: condition MET (row 19), execution STAYED.** A revert under the current ordering would push VULCAN's routing content below the truncation cut — **the defect makes a compliance-correct action harmful.** Told explicitly: **do not cut 87 lines; hold at 187.**
-- **HOMER ordering defect ACCEPTED verbatim.** §6's *"resolved by practice / 20+ passes"* closure **STRUCK** — the certifying consumer was NEXUS reading whole files, so **the practice never exercised the failure mode.**
-- **Amendment 12 drafted + ESCALATED to Will** (fleet-facing format change; not self-ruled). **§4.5's 100-line cap ruled off the enforcement path pending 12** — 12 of 26 briefs over it; line count nearly uncorrelated with bytes.
-- 🔴 **Amendment-12 WATCH resolved EARLY: the registered prediction FAILED, 21 days before its 9/18 grade date** — a twelfth amendment was proposed, and it is itself a format rule. **Date-keyed-scanner defect: a 9/18 due-scan would have read this all-clear while the resolver had already fired.** ⚠️ **Its consequence clause argues AGAINST my own amendment; I did NOT rule that — routed unresolved to Will + DAEDALUS** (arguing my own amendment out of the falsifier it fired is exactly what Disc-J §5 forbids).
-
-## 🔴 The pass's best output — a 4-desk convergence
-**Four instances, four unrelated mechanisms, one afternoon: *registered triggers that cannot fire.*** ① my branch B (amendment) · ② the pin gap, **15 of 26** (missing field) · ③ REGINALD's re-arm, **0 hits in a 20-session run** (conjunction design) · ④ WALTER's CRMT covenant watch (redaction + publication lag). **Independence test PASSES — four roots, not one in four costumes.** ⭐ **Tell: all four PASS checks that count rows / validate fields / grep for bands, because the defect is in what the instrument CAN OBSERVE.** **Audit question: *"name a state of the world, reachable from here, in which this fires — and say when it last did."***
-
-## STATUS changes
-Header re-anchored (11-day, **scope caveat explicit**). Split **HELD 21/44/35**, written EARNED. **M-08 held 68, `Last updated` bumped 8/28** on load-bearing evidence change (divergence extended AND index at 3-yr low AND instrument shown non-discriminating — they cancel). Threshold table: credit rows to 8/27; **FT-01 struck (owner-demoted)**; **HY<260 consolidated — branch B + `RED-FT-12` + HENRY's kill leg are ONE line, 4bp away, base rate 0/787, Disc-H count-once**; **BROCK <270 BREACHED**. Docket rebuilt with an explicit **UNSWEPT** row for 8/18→8/27. Narrative gap, edge question, bottom line rewritten. **189 lines <200.**
-
-## Closeout record
-**9** ✓ line count 189; Δ-convention (only M-08 bumped; held rows keep old dates); docket rebuilt; thresholds sorted; new cited paths existence-checked. **9a** rollup #4 still **OWED** (overdue since 8/3) — now carries the pin-coverage retraction as its headline. **9b cross-surface STATE ✓:** falsifier grade → STATUS + PREDICTIONS header + resolution record + PROME packet (4/4); PRED-30 re-grade → PREDICTIONS row + ZHAO packet; schema rulings → SCHEMA §4.5/§6/amendment-12 block + BRIEFS_MAP + VULCAN + HOMER + PROME. **9c ✓ FIRED IN REAL TIME** — LABOR + 7 WALTER items landed mid-closeout; all folded before commit, **delta-annotated, board NOT re-swept.** **10** ✓ PRED-30 re-graded ~45→~55; PRED-45's dead First-Brands venue superseded (conf deliberately unmoved); **8/12 pass block rotated verbatim** to `signals_archive/…` per current+ONE-prior. **11** ✓ 5 moved; 1 held by gate; 8 in-flight logged not moved. **12** outbox empty-by-design. **13** signals — no change. **14** promotion: **extended** `finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch` (dedup-before-create; `symptoms:` added; cold-index row trimmed to canon + n=4; **promotion flag raised to PROME** per the Batch-A rule). `memory_index_check --slug` **exit 0**; `check_memory_length` OK (72%). **15** this file. **16** commits below; **PROME names the last touch — NOT pushing this touch.**
-
-## Packets sent (carve-out ①) — 6
-**PROME** 🔴 grade + amendment-12 escalation + 4-desk convergence + promotion flag · **VULCAN** 🟠 ruling + n=15 pin result · **HOMER** 🟠 ruling + fleet measurements · **BROCK** 🟠 `<270` breached + stalest-brief flag · **RED** 🟠 Disc-H one-line-three-desks + the amendment-inherits-certificate finding · **ZHAO** 🟡 PRED-30 re-graded ~45→~55 · **ORACLE** 🟢 label fix confirmed. *(7 files; PROME counts as the delivery.)*
-
-## Next boot (≥8/29) owes
-1. 🔴 **THE SYSTEMS REVIEW COMMISSION** — war-triad slate, blind-parallel with DAEDALUS, Will rules merged ~9/1. **§8 of the grade record is the pre-answer, not the slate.**
-2. **The full 11-day matrix re-anchor** the docket's UNSWEPT row names (T-24 20Y auction, PortWatch control, T7 minutes, Jackson Hole, 22 unread briefs).
-3. 🔴 **Draft the T-12 re-spec NOW and base-rate it for REACHABILITY before freezing** — 9/11 is the non-renewable second evaluation.
-4. **Rollup #4** (overdue 8/3) with pin coverage reported beside the brief-gap count.
-5. File the 8 in-flight WALTER/LABOR packets once their authors' commits land.
-6. **M-10 re-read** against ZHAO's June TIC (told ZHAO it was queued, not folded); PRED-45 conf vs First Brands Ch7.
-7. BOND T6 hard-closes 8/29 against a **16-day-stale** ORACLE Sept-odds vintage (33.5% [8/12]) — flagged to ORACLE.
-
-## Files
-**NEXUS:** `research/2026-08-28_successor_falsifier_RESOLUTION.md` (new) · STATUS.md · PREDICTIONS_MONITOR.md · signals_archive/PREDICTIONS_PASS_LOG_20260627_20260724.md · templates/NEXUS_BRIEF_SCHEMA.md · BRIEFS_MAP.md · board_log.tsv (+7) · brief_fallback_log.tsv (+1) · inbox moves ×5 · this file.
-**Cross-dir (carve-out ①):** PROME/inbox · AGENTS/{VULCAN,HOMER,BROCK,RED,ZHAO,ORACLE}/inbox.
-**Memory (carve-out ③):** extended `memory/auto/finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch.md` + `memory/auto/INDEX_COLD.md` row.
-**$0 moved. No trade-shaped output. Nothing Will-gated touched** — `GATES.tsv`/`DOCKET.tsv`/thresholds/root docs/HEARTBEAT/FORGE all untouched; amendment 12 RETURNED to PROME.
+**Pass:** 2026-09-02 Wed ~20:17 → ~22:xx ET · **SYSTEMS-REVIEW SESSION (DOCKET L206)** · PROME-spawned, Tier-1 dark-owner drain + open Will-approved commission · 5-day gap since 8/28.
 
 ---
 
-## DELIVERY → prome-0f (2026-08-28 ~11:4x ET) — sent by SendMessage; recorded here per the deliver-before-idle rule
+## WHAT THIS SESSION DID — four units
 
-**FALSIFIER: BRANCH C — NO-VERDICT, EARNED, FINAL.** Graded on ADDENDUM 2's delta-leg letter (ruling ⑤; **encode-confirm was discharged 8/17 — that chase item is stale**). FRED primaries NEXUS-pulled.
-**A** (HY ≥280 s3) = **0 of 11** window sessions, max 275 [8/18,8/20] · **B** (HY <260 s3) = **0 of 11**, min 263 [8/27] ⇒ **C. EARNED at HY 263 · CCC 1031 · ratio 3.920 [FRED 8/27]. Split HELD 21/44/35.**
-**FINAL, not provisional**, despite the unpublished 8/28 cell (FRED T+1 = Mon 8/31): both branches need a 3-session run containing 8/26=**267** and 8/27=**263** ⇒ no 8/28 value can change either. Grade-date rule applied, correctly not invoked. Monday owes a receipt, not a grade.
-🔴 **Defect outranking the verdict: ruling ⑤ repaired A's unreachability by relocating it onto B.** Stripping B's ratio leg left **B = HY <260 s3 alone: 0 of 787 sessions in 3y** (85.9% → 0.0%), and the reachability check I adopted 4 sessions earlier was never re-run. **Both branches unreachable at ruling time; C was the only producible outcome.** *Transferable: an amendment inherits the ORIGINAL's construction certificate unless the checks re-run on the AMENDED text.*
-**Also:** RED demoted A's named instrument mid-window (FT-01); **`RED-FT-12` = HY <260 s3 is verbatim my branch B**, HENRY's kill leg the same — **Disc-H, one instrument three desks, 3bp to the line.** Disc-A: **81% HY-tightening / 18% CCC-widening** ⇒ A's old ratio leg would be TRUE-in-letter/FALSE-in-spirit. **Non-renewable ARMED: C #1 of 2; second C ~9/11 forces the T-12 re-spec.**
-**Drain 6/6** (5 processed; PROME's commission **HELD to its ≥8/29 gate, review NOT started — DOCKET 206 noted**). In-pass: **LABOR QCEW −79K folded** (Vector 8 4🔴→2🟡; **split NOT re-marked** — owner fences attribution to NFP 9/4; private −178K under the headline) **+ 7 WALTER signals logged**; all 8 untracked ⇒ logged not filed.
-**🔴 Returned Will-gated: amendment 12** (routing-first ordering for the full brief variant) — HOMER defect accepted, §6 closure struck, **not self-ruled**; its own registered watch-prediction **failed 21 days early**, and its consequence clause argues against my amendment, so that question went to Will+DAEDALUS unresolved. **VULCAN revert: MET but STAYED.** **Pin gap: 15 of 26 briefs — my §4.4 check is untrippable on 58% of the fleet; rollups #1-3's "zero brief-gap" retracted.**
-**Commits:** `f4489b77a` (grade, STATUS, PREDICTIONS, schema, BRIEFS_MAP, drain — subject lists NEXUS-own files) · `a696fbf0f` (memory). *(First commit of the three carries the own-dir work; packets ride `f4489b77a`.)* **Did NOT push — PROME names the last touch.** **$0 moved.**
-
+| # | Unit | Result |
+|---|---|---|
+| 1 | **THE COMMISSION — self-audit improvement slate (leg ①)** | ✅ `proposals/2026-09-02_self-audit-improvement-slate.md` — **11 ranked items**, war-triad format, SELF/WILL/CROSS, **proposals only**. 9 HEALTHY findings recorded. **§DIFF opened only after items 1-11 were on disk.** |
+| 2 | **READ-CAP CURE (DAEDALUS PR#5 condition #1 + root canon)** | ✅ **46,471 B → 32,526 B**, verified `✅ READ-CAP 0` at the fleet instrument. **13 crc32 blocks moved VERBATIM → `STATUS_COLD.md`** (20,595 → 59,469 B). Zero live state dropped, budget not raised. |
+| 3 | **FULL MATRIX REVIEW (PR#5 condition #2) + inbox drain both lanes** | ✅ Board re-anchored 8/18→9/02, **22/22 items drained**, split re-marked **21/44/35 → 20/47/33**. |
+| 4 | **9/11 PRE-REGISTRATION + WQ-105 discharge** | ✅ `research/2026-09-02_t12_respec_admission_gate_prereg.md` (frozen). WQ-105 ACTIONs (a)-(e) all executed. |
 
 ---
 
-## ⚠️ SAME-SESSION CORRECTION (~11:5x ET) — my own `15 of 26` pin figure was wrong; LABOR's doorbell exposed it within the hour
+## 🔴 THE THREE FINDINGS THAT OUTRANK THE NUMBERS
 
-**What happened:** I published **"15 of 26 briefs lack a `STATUS commit:` pin (58%)"** to four desks off a single string grep. LABOR then doorbelled, having re-pinned its brief with a **correct** hash (`8ffadab31` = its STATUS HEAD) — **and my sweep still scored it missing.** A second, form-agnostic detector disagreed with the first **in both directions on 7 of 26 desks** while the totals differed by **one** (15 vs 16). ⚠️ **The near-identical total was the trap** — adjusting the count would have destroyed the evidence (`[[finding_reconcile_mismatch_does_not_say_which_side_is_wrong]]`).
+### 1. The blind reproducibility test FAILED, and it failed on the slate's own item 1
 
-**Reconciled — three classes, not two:** **A** pin present + comparable = **10** (BROCK CARL FALCON LABOR MARCO ORACLE OTTO SAM VULCAN WAL) · **B** field absent = **12** · 🔴 **C** field PRESENT, value ABSENT (a pointer: *"see `git log -1 …`"*) = **4** (CORAL HAWK OSPREY VIOLET). ⇒ **untrippable = 16 of 26 = 62%**, not 15/58%.
+Both readers measured `PREDICTIONS_MONITOR.md` at **57,566 B = 106% of the read CAP**. **DAEDALUS's same-day correction DELETED the row** as a "scoped" read. NEXUS's own `CLAUDE.md:235` calls that file **"Full at boot"** — while `CLAUDE.md:33` says "scan". ⇒ **the desk's largest boot surface is unmeasured because a read-cap perimeter is defined by a VERB and this owner wrote two verbs.**
+⭐ **The correction's stated "one-directional bias (a scoped read can only OVER-count)" is wrong wherever the owner's own surfaces disagree — there it under-counts and the file drops off the report entirely. It traded a loud false-positive for a silent false-negative.**
+⭐ And DAEDALUS's ORIGINAL packet already named the right disposition — *"a whole-read claim on a file this size is the defect either way"* — **which the correction discarded.** Routed to DAEDALUS as R7-stage-2 `READS.tsv` design input: **a declaration file inherits this defect unless it is validated against the desk's other read-describing surfaces.**
 
-**The two findings, going opposite ways:**
-- **① The scan measured a STRING, not a PIN.** Three desks are compliant in three different forms (CARL has no colon — the colon alone defeated the grep; WAL `STATUS pin:`; LABOR `STATUS-HEAD PIN:`). 🔴 **The schema never specified a canonical token, so any check keyed on one literal string is blind to the COMPLIANT briefs too — the real defect, and it is mine.** `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` is in the HOT index; I read it at boot and did not apply it. **n=5 for that memory.**
-- **② Class C is worse than absence and is why the count went UP:** field present + value absent **passes a presence audit while defeating the consuming check.** VULCAN's class one level deeper.
+### 2. My own new rule caught my own draft successor, before freezing — and then found something better
 
-**What survives:** the headline and the retraction, slightly stronger — **§4.4 cannot fire on 62% of the fleet** and rollups #1-3's *"zero brief-gap fleet-wide"* stays **RETRACTED**. **The number got smaller in error; the defect got bigger.**
+Applying slate item 3's rule (**base-rate reachability against the AMENDED text**) to the draft T-12 successor, at primary, **n=503 CCC OAS sessions**:
+- Draft (absolute): **CCC ≥1100 = 1.2% · CCC ≤950 = 83.3%** — **asymmetry 69×. This is 0.0/85.9 again, three weeks later, on a different instrument, drafted by the desk that had just written the lesson down.** REJECTED.
+- Repaired to symmetric **relative** thresholds (regime cannot decide the outcome) — **still fails**: ±40/50/60/75bp all give NO-VERDICT 86-96% at a 7-session window.
+- 🔴 **The window sweep is the finding: NOTHING is admissible at ANY threshold below 21 sessions. The 8/28 falsifier ran ELEVEN.** Minimum admissible = **21 sessions, ±50bp** (BREAK 27.4% / GRIND 17.0% / NO-VERDICT 55.4%, ratio 1.61).
+> ⭐ **The resolution WINDOW is a construction parameter and it is the one parameter nobody base-rated.** Every argument about that falsifier — mine, RED's, the ruling's — was about the **thresholds**. The window came from the calendar and was never tested. **C was over-determined twice: once by the levels, and independently by the clock.**
+- ⚠️ **Regime-conditional check published alongside, as the gate now requires:** the asymmetry **INVERTS** (BREAK 2.8% / GRIND 27.8%, n=36). Publishing one figure would have hidden it. `[[finding_historical_fire_count_assumes_one_regime]]` — BROCK filed this counter against itself on 8/28 and it applies here.
 
-**Ruled into `templates/NEXUS_BRIEF_SCHEMA.md` §4.4** (my own form/invariant — NOT fleet-facing, so not escalated): canonical token `` STATUS commit: `<hash>` `` forward-only with the four variants **grandfathered and not to be rewritten** · **a pointer is not a pin** (Amendment 10 already makes the hash knowable at fold time) · **sweeps report COVERAGE + CLASS, never a bare defect count** · **never publish an "N lack X" figure off one string grep — sample-re-read the hits.**
+### 3. Disc-I ran as a memory instead of as a check, and it cost 9 board cells for 21 days
 
-**Corrections sent (4):** VULCAN (origin credited, hypothesis confirmed + extended) · **BROCK — ⚠️ I told it its brief lacked a pin; it carries `96bf99d96`. Claim WITHDRAWN**, with the still-live `<270` breach and staleness explicitly NOT retracted alongside it · HOMER (ordering ruling unaffected) · PROME (routing figure superseded; BROCK error self-reported).
-
-**Also closed:** **LABOR's QCEW packet is now FILED to `inbox/processed/`** — it was untracked at my first pass (author's commit in flight, correctly not moved); LABOR has since committed it (`ec9018565`). **The 7 WALTER lane files remain untracked and unfiled** — still owed once WALTER commits.
-
+`STATUS.md` carried **"Kharg 1.5M bpd offline"** in **9 places across 5 sections**. WALTER `SIG-W-20260831-001`: the **strike was an AI-generated video** (FAL-01 FIRM-NEGATIVE) — **and the underlying blockade STATE had lapsed: loading RESUMED 2026-08-12.** My own Discipline I says *"a STATE has a DURATION and needs a lifted-check, not a memory of the start date"* — written 7/31, after the last propagation of this exact class.
+⭐ **A discipline with no FIELD on the surface it governs is a discipline that runs only when remembered.** Proposal (slate item 5): every STATE cell carries a `lifted-check: <date>` stamp that ages like the Δ-column.
 
 ---
 
-## ✅ CLOSEOUT — 2026-08-28 ~16:3x ET (PROME-named last touch)
+## BOARD OUTPUT
 
-**Session shape: one commissioned grade → four PROME waves → full closeout.** Every check below was RUN, not asserted.
+**Split: Break 20% (↓1) · Grind-lasts 47% (↑3) · Unresolved-divergence 33% (↓2).** ⚠️ **Evidence re-weigh, NOT a falsifier-forced move** — the T-12 falsifier fired C #1 of 2 and forces nothing; written as such per Disc-J. **Unresolved's first move in four marks** (was 38/38/38/35/35/35).
 
-| Step | Result |
-|---|---|
-| **9** STATUS sanity | ✅ Re-stamped. **46,033 B** — ⚠️ a **BREACH** of the 32,550 B read-cap ratified into root canon TODAY, carried openly with its reason, escalated to the slate. Δ-convention honoured (only M-08 bumped). |
-| **9a** Fallback rollup **#4** | ✅ **SHIPPED → `brief_health.md`** — the pin retraction, coverage+class per desk, and trigger (a)'s first fleet-wide execution. |
-| **9b** Cross-surface STATE | ✅ Falsifier grade → 4 surfaces · pin correction → 6 · schema rulings → 5 · S-26082801 → SIGNALS + board_log. |
-| **9c** Closing re-scan | ✅ **Fired 4× in real time** — LABOR's QCEW, 7 WALTER signals, LABOR's dedup pointer, 9 more WALTER signals, all folded before commit. |
-| **10** PREDICTIONS | ✅ PRED-30 re-graded ~45→~55; PRED-45's dead First-Brands venue superseded; 8/12 block rotated. |
-| **11/12/13** inbox/outbox/signals | ✅ **Both lanes EMPTY.** 15 items processed; outbox empty-by-design; **S-26082801 logged.** |
-| **14** Promotion | ✅ 1 new memory + 2 extensions; **`memory_index_check --strict` ×3 slugs → rc 0**; `check_memory_length` **74%**, under cap. |
-| **7a** R1 corrections | ✅ Wired by own hand, **rc=0**. Fleet 35→36/37. |
-| `consumer_check --self` | ✅ **35 🟠 candidates, ZERO certified-stale ⇒ no packet owed.** |
-| `ledger_staleness --nudge` | ✅ "no live ledgers under `workbook/*.tsv`" — nothing to nudge. |
-| `orphan_check.sh NEXUS` | ✅ **Clean** — nothing uncommitted outside `AGENTS/NEXUS/`. |
-| Amendment 10 | **N/A by construction** — NEXUS owns the brief schema and has no `NEXUS_BRIEF.md` of its own. Stated, not silently skipped. |
+**The weighing, by evidence TYPE not by desk or headline** (the 8/30 Kharg case is why): the window's defining feature is that **six previously-open instrument questions were CLOSED by their owners in five days — and five closed against the bear.** PortWatch's veto (FALCON + BRENT, both) · BOND's T6 · HENRY's HEN-42 · HOMER's HOM-01 · WALTER's Kharg correction. **Break lost two legs of its weakest root (oil-physical) and gained one genuinely new root. Grind gained three data points graded by their own owners as losses to their own books** — this fleet's highest-quality evidence class. **Unresolved falls because ambiguity became verdicts, not because the divergence resolved.**
 
-**Deferred, deliberately, each with its reason in writing:** the full 11-day matrix sweep (8/18→8/27 owner outputs, docket row marked **UNSWEPT**) · **M-09/M-11 not re-marked** on S-26082801 (funding link untested; a tail-of-session drain is the wrong place) · **M-10 not re-read** against ZHAO's June TIC (told ZHAO so) · the **STATUS hot/cold split** (changes the boot contract) · the **two DAEDALUS P1 packets, HELD UNOPENED** per PROME's blind-parallel ruling.
+**Matrix (full review, dated 9/02):** M-03 **↓4→72** (HEN-42 DENY; C-36 ruled a SPLIT) · M-05 **↑3→48** (GATE-REG-T02 fired, mechanism disowned by its owner) · M-06 **↓5→43** (Kharg + PortWatch, two legs lost) · M-07 **↑3→81** (LABOR ×2 self-graded, HOM-01, HY widening off the kill) · M-09 **↑4→66** (DEWEY REQ-001: order book SECTOR-SPLIT) · M-10 **↓2→30** (record MOF intervention, FIMA zero, 61% retraced) · M-11 **↑3→51** (first counterparty ACTION) · M-01 / M-04 / M-08 **held, dates NOT bumped where nothing material moved.**
+🆕 **R11 China domestic demand PROMOTED from watch to a live break root** (construction 46.9 = NEW record low, 2nd month, same attribution — ZHAO: *"a distortion that recurs is a condition"*). **Fleet effective-N 4 → 5.** ⚠️ **Counted honestly, the break base ROTATED, it did not widen.**
 
-**⚠️ Four guard catches on my own work today, none of them self-noticed first:** a wrong fleet count (15 vs 16, exposed by LABOR's re-pin) · a commit that failed on a stale pathspec and shipped nothing · a staged rename half · and a scope-negative about DOCKET row 91 that was **false** — the counterparty-grade check found the 7/24 grade I was about to report missing. **The instruments earned their place; I did not out-think them once.**
+**Disc-H, load-bearing twice:** `HY <260 s3` is now **FOUR desks, ONE line** (branch B · RED-FT-12 · HENRY's kill leg · LIQUID's GATE-HY-REKILL). **And three separate desks carry one-sided conjunctions whose easy leg is near and whose hard leg recedes** — REGINALD's re-arm leg (a) is **1bp away at CCC 1049** while leg (b) is 7bp out of reach and receding. **Disc-H changes the COUNT and has no ACTION** — slate item 4, routed to Will as a fleet question because I am one of the four.
 
-**Next session (≥8/29) reads `BRIEFING_2026-08-29_SYSTEMS_REVIEW.md` FIRST.**
+---
+
+## FILES CHANGED
+
+**Created:** `proposals/2026-09-02_self-audit-improvement-slate.md` · `STATUS_COLD.md` · `research/2026-09-02_t12_respec_admission_gate_prereg.md` · `outbox/2026-09-02_to-PROME_self-audit-slate-drain-and-split.md`
+**Modified:** `STATUS.md` (rebuilt, 32,526 B) · `PREDICTIONS_MONITOR.md` (PRED-49 graded MISSED) · `SIGNALS.md` (S-26082801 leg (a) weakened at primary) · `templates/NEXUS_BRIEF_SCHEMA.md` (amendment 12 + §4.6 CAP) · `archive/2026-08-28_BRIEF_SCHEMA_decision-log_and_review-history.md` (watch graded) · `board_log.tsv` (+14 rows) · `LAST_COMPLETION.md`
+**Packets authored (carve-out ①, committed by author):** HOMER · VULCAN · DAEDALUS · RED · PROME (`PROME/inbox/`, repo root — **not** `AGENTS/PROME/`)
+**Moved:** 22 inbox items → `processed/` via `git mv` (8 root + `_HELD_UNOPENED_NOTE.md` + 14 WALTER lane, all logged to `board_log.tsv` first).
+
+## WQ-105 — DISCHARGED (Will 9/1 *"approve all of those with your recs"*)
+
+(a) ✅ watch graded **MISSED** on its own letter — `PREDICTIONS_MONITOR.md` **PRED-49** *and* the schema archive (closeout **9b** cross-surface check: a state change must reach every surface carrying it) · (b) ✅ **amendment 12 encoded** — `## CROSS-DOMAIN` is now the FIRST body section of the full variant, zero text added · (c) ✅ **CAP written: §4.6, the schema stops at 12**; a 13th change triggers a **RE-SPEC SITTING** (whole schema re-opened as R4, Will-gated, amendments 7-12 re-argued from evidence or dropped) — **with its own falsifier registered so it cannot become a ratchet** · (d) ✅ **VULCAN's held revert RELEASED**, condition MET · (e) ✅ **HOMER packeted**, defect accepted verbatim.
+
+## ⚠️ NOT DONE AND OWED
+
+- **R9 (Russia/Ukraine) unswept at owner level** — **marked `[STALE 2026-08-17]` on the antecedent map rather than inherited as current.**
+- **`RED-FT-09` (5y5y, 21 sessions stale) and `OSPREY` Channel-3 (8/15)** — owner-stale, flagged in-cell, not refreshed by me.
+- **Fallback rollup #5 not run** (#4 shipped 8/28; the 62% pin-gap retraction stands).
+- 🔴 **`PREDICTIONS_MONITOR.md` at 59,146 B is UNCURED** — deliberately. Slate item 1 routes the "which verb is correct" question to **Will**, because I am the interested party in an answer that decides whether this desk has one over-budget boot surface or two.
+- **Retirement backlog:** 3 files clean-eligible (>60d, 0 live refs), 3 unresolved pending a referrer-liveness check. **Nothing moved** — proposals-only, and a retirement sweep at the tail of a long session is the pattern the 8/28 briefing correctly refused.
+
+## PROMOTION SCAN (closeout step 14)
+
+**Cross-agent transferable — candidates, NOT written to `memory/auto/` this pass** (dedup-before-create is the default and each is close to an existing memory; flagged to PROME rather than creating near-duplicates):
+1. **"A resolution WINDOW is a construction parameter"** — extends `finding_hypothesis_needs_an_instrument_for_its_defining_mechanism` / the prediction-canon set. **Strongest candidate; n=1 but measured at n=503.**
+2. **"A perimeter defined by a verb inherits the owner's ambiguity"** — extends `finding_instrument_reports_clean_against_the_wrong_reference` (perimeter form, already at n=18).
+3. **"A hot/cold split must separate STATE from REASONING, not current from historical"** — new, from this session's two-cut cure; useful to every desk still running the read-cap remedy.
+4. **"A discipline with no field on the surface it governs runs only when remembered"** — extends `finding_mechanize_the_cap_not_the_ritual`.
+
+## NEXT BOOT OWES
+
+(a) **9/4 NFP + T-03** (fires on a **FLAT 58.9% EPOP** — LABOR's referent rolls Apr 59.1 → May 59.2) + **MIDAS-08**, same-day fold · (b) **9/5-9/8 BRENT's re-specified PortWatch control** — it decides T-20, M-06 **and** C-35's grading line · (c) **BCRED `SC TO-I/A` letter, backstop 9/8** · (d) 🔒 **9/11 — grade C #2 on the frozen letter FIRST, then run the ADMISSION GATE against the flow/volume candidates; if none clears, register NO successor and escalate** · (e) **R9 owner sweep** · (f) **fallback rollup #5.**
+
+**Push:** see the receipt line quoted in the outbox packet.
