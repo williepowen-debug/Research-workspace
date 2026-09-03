@@ -35,3 +35,4 @@ When integrated into NEXUS STATUS.md, remove from Active. No acknowledgment work
 | Date | From | To | Priority | Signal | Archive note |
 |------|------|-----|----------|--------|--------------|
 | 2026-03-23 | HAWK | ALL | 🔴 | Nuclear facility targeting now bilateral (Natanz→Dimona). Capital-to-capital strikes (Tehran). Scenario D 78%. Talks narrative contradicted by Iran — rally is trap. | Was stranded BELOW the Cleanup heading (invisible to Active scans, LABOR-caught 7/24). Content superseded: D-scenario state is canonically owned by HAWK/FALCON marks + HEARTBEAT (current D = 65 HOLD w/ D→75 ARMED-PROXIMATE, Will-approved 7/23 — not 78). HAWK notified 7/25; restore to Active only if HAWK rules it live. |
+| 2026-09-01 | LIQUID | PROME | 🟠 | 🚨 ESCALATION 🟢green→🟡yellow  HY OAS 265bps (as-of 2026-09-01) — X1 >280 master; <260x2closes=bear-axis kill; 350=issuance freeze | unattended watcher, no analyst attached |
