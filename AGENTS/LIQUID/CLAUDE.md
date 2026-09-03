@@ -61,10 +61,13 @@ Write a single `.md` file to `outbox/` per signal:
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); reserve `outbox/` for PROME-action requests
+- ⛔ **CORRECTED 2026-09-03 — this line pointed AROUND WALTER and was never exercised, which is why it survived (KB-LIQ-124 inversion, run on my own desk after OTTO found the identical defect on its board).** It read: *"deliver a **signal** by writing the `.md` packet **directly to the target agent's `inbox/`** (coordinators PROME/WALTER route)"* — and read at the 🔴 speed my own send table specifies (`HY OAS >320bps → ALL`), that instructs this desk to bypass the signal router on the single highest-consequence event it has. **Root canon: WALTER owns signal/news routing; never route signals around WALTER.**
+- ✅ **THE RULE, as it should have read: SIGNALS go to WALTER for routing. ANALYSIS goes direct.** A **signal** (a registered threshold firing, a cross-agent trip, a news/market datum other desks must see) → route via **WALTER**. A **self-authored analytical packet** answering a named peer — an adjudication, a correction, a reply to their ask — → write directly to that agent's `inbox/` under carve-out ①, and commit it yourself. **`outbox/` is reserved for PROME-action requests.** ⚠️ **When unsure which one you are holding, it is a signal — route it via WALTER.**
 - **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
+
+⚠️ **PERIMETER DEFECT ON THE `Second private credit fund gate` ROW, found 2026-09-03 by running the KB-LIQ-124 inversion on this table (*audit the rules whose consequence is currently moot*).** The row **defines no perimeter** — *gate* is undefined across suspension / pro-rated tender / cap cut / distribution cut — and on the loosest defensible reading **the condition was met around 2026-06-03/04** (my own `board_log` row 22, logged 2026-07-02: *"BCRED $79B (5% cap on ~10% requests) + PG Global Value SICAV (−17%) hit gates SAME week Jun 3-4"*), with ADS 16.8%/5%, CCLFX 7%→5%, ASIF, MS PIF and KREST since. **`AGENTS/SIGNALS.md` carries ZERO LIQUID rows for it.** ⇒ **A registered trigger sat in a fired condition for three months and was never graded.** ⛔ **I am NOT defining the perimeter unilaterally: BROCK owns private credit AND is the recipient**, and BROCK's own record calls BCRED's 5/29 pro-ration *"the first-ever BCRED gate"*, which if adopted puts the count far past two. **Routed to BROCK via WALTER for scoping.** ⚠️ **Mitigation, stated because it is real and is probably why nobody noticed: BROCK has been SENDING me this data all along, so the recipient already knows the facts. That is not the same as the trigger having been graded — a registered trigger's STATE is different information from the underlying number.**
 
 If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.md`:
 ```
@@ -123,7 +126,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 | Auction failure (BTC <2.0x) | ALL | 🔴 |
 | Reserves <$2.8T | PROME | 🟠 |
 | Belgium >$500B — **bare level, NO China-exit inference** (see §DOMAIN SCOPE) | SAM, PROME | 🟠 |
-| Second private credit fund gate | BROCK, REGINALD | 🟠 |
+| ⚠️ **Second private credit fund gate — TRIGGER IS IN A FIRED CONDITION AND HAS NO PERIMETER. DO NOT re-grade it here; BROCK owns the definition (see below).** | BROCK, REGINALD *(route via WALTER)* | 🟠 |
 | AI-HY re-arm trigger fires (KB-LIQ-069 set) or KB-LIQ-073 basket stress | VULCAN (S1/S5), VIOLET (Path-B) | 🟠 |
 
 **You receive from:**
