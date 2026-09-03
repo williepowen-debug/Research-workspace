@@ -36,19 +36,21 @@ When spawned with a task:
 6. **If your findings are relevant to another agent's domain, write to `outbox/`**
 7. **If the task changes your thesis or key numbers, update STATUS.md AND refresh `NEXUS_BRIEF.md` before finishing** (As-of stamp always; content on material change — this is ZHAO's primary cross-agent intake surface for NEXUS). ⚠️ **Do NOT pin a STATUS commit hash.** This line used to require one; hashes churn on every shared-branch rebase, so a pinned SHA decays within 2-3 commits and then points at nothing (`finding_forced_update_rebase_churn`, `feedback_behavior_language_over_hash_pinning`). Use behaviour-language — "synced to origin", "as-of <date>" — never a SHA.
 
-⚠️ **File > verbal (root canon).** Always WRITE to STATUS.md — don't just report findings back verbally. If it's not in the file, it doesn't persist, and cross-agent session visibility is restricted regardless.
+⚠️ **File > verbal (root canon).** Always WRITE to STATUS.md — a finding reported only verbally does not persist. ⚠️ **And write it where the READER travels, not merely where it belongs:** four times on 2026-09-02 this desk filed a correct fix on a surface no boot reader consults — including the *"do not cite as canon"* flag, filed in `KB.tsv`, the file this desk had documented the same session as having no reader. **Ask which surface the reader consults, never which surface the item belongs to** (KB-ZHAO-136/139).
 
 ⚠️ **Critical:** Log significant findings to workbook TSV files, not just STATUS.md. STATUS gets rewritten; workbook entries are permanent.
 
-**MAIL:** **BULK inbox processing** is a separate task — wait to be spawned for it. **But boot-time TRIAGE is mandatory, not optional** — see SPAWN step 1 *(the two rules were contradictory until 2026-08-21; the restrictive one was governing and it cost a 4-month backlog, an applied-but-unprocessed fleet rule, and an 18-day packet)*. Triage = scan titles, pull what bears on live vectors/rules/ACTIONs, leave the rest queued.
+**MAIL:** **BULK inbox processing** is a separate task — wait to be spawned for it. **But boot-time TRIAGE is mandatory, not optional — see SPAWN step 1**, which owns the rule and its cost history. Triage = scan titles, pull what bears on live vectors/rules/ACTIONs, leave the rest queued. ⚠️ **A bulk `git mv inbox/*.md` treats a live inbox as a snapshot; re-list immediately before moving** (2026-09-02: two mid-session arrivals swept unread, caught at the pre-commit check).
 
 ---
 
 ## CLOSEOUT PROTOCOL (write-back — run at EVERY session end, not just end-of-day)
 
 1. **`STATUS.md`** — refresh the Signal Dashboard (live values, sourced + dated), Convergence Matrix scores, CALENDAR, PREDICTIONS table, NEXT ACTIONS, BOTTOM LINE. **Rewrite the spine; never prepend a fresh block over a stale body** (`finding_status_spine_staleness_under_appended_top`). Archive overflow to `archive/` to hold ≤250 lines.
-   ⚠️ **READ-CAP IS THE BINDING CONSTRAINT, NOT THE LINE COUNT** (DAEDALUS P1, Will-ruled 2026-08-28; split executed 2026-09-02). STATUS is boot-read WHOLE, so it must stay under **32,550 B** — check with `python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent ZHAO` **before committing**, not after. Past the cap a Read returns a **partial file** and boot degrades to fragments **with no error**, so every line-count guard passes while the surface is silently truncated. **The ≤250-line cap is a proxy that has now been wrong twice** — 264 lines measured 47,477 B. **The remedy is rotation or a hot/cold split, never raising the number**; cut blocks move **VERBATIM** to `archive/` with pointers both ways (current cold file: `archive/STATUS_COLD_20260902.md`).
+   ⚠️ **READ-CAP IS THE BINDING CONSTRAINT, NOT THE LINE COUNT** (canon → DAEDALUS `READ_CAP.md`). STATUS **and this file** are read whole, so both stay under **32,550 B** — run `python3 "$(git rev-parse --show-toplevel)/scripts/read_cap_check.py" --agent ZHAO` **before committing**, not after. Past the cap a Read returns a **partial file with no error**, so every line-count guard passes while the surface is silently truncated. **The ≤250-line cap is a proxy that has been wrong twice** (264 lines = 47,477 B). Remedy = rotation or hot/cold split, **never raising the number**; cut blocks move **VERBATIM** to `archive/` with pointers both ways (cold file: `archive/STATUS_COLD_20260902.md`). ⚠️ **A rewrite pass can ADD bytes — measure after every edit, not at the end.**
 2. **Workbook** — new facts → `KB.tsv` (13-col, validate enums against `workbook/SCHEMA.tsv` first); vector/threshold changes → `VX.tsv`; new pathways → `FLOW.tsv`; new or graded forecasts → `PREDICTIONS.tsv`. **STATUS gets rewritten; the workbook is the permanent record — if it's only in STATUS, it's temporary.**
+2b. **⚠️ BEFORE AMENDING ANY OPEN `PREDICTIONS.tsv` ROW — check for a superseding operator ruling. MECHANICAL, NOT REMEMBERED:** `grep -n "<ROW-ID>\|ZHAO" "$(git rev-parse --show-toplevel)"/PROME/WILL_QUEUE.md PROME/GATES.tsv PROME/DOCKET.tsv`. **A rule this desk derived does not outrank an operator ruling that names the row.** *(Added 2026-09-02 after amending ZHA-11/12 without running it — nothing named them, so the patch was clear **by luck, not process**. MIDAS ran the equivalent check the same evening only because the ruling was in working memory: **a disposition you already hold is not a check.** This grep is also what surfaced WQ-161 — this desk's own new rule, already a registered item with a decision date. KB-ZHAO-139.)*
+
 3. **Grade what came due.** Any `PREDICTIONS.tsv` row whose Timeframe passed gets resolved *this session* — and **only after its registered window expires**, never early (boot.py §5 surfaces open rows). If a resolver can't resolve, that's a STATUS change (STUCK), not a confidence cut.
 4. **`NEXUS_BRIEF.md`** — refresh every closeout (As-of stamp minimum, content on material change). ≤100 lines. ⚠️ **ORDERING RULE — the brief fold is the session's LAST write-back, AFTER your final STATUS write and immediately before git commit** (NEXUS schema Amendment 10, ratified 2026-07-31 Will-approved; adopted here 2026-09-02 from PROME's 8/04 fleet-propagation packet). **Checkable form: the brief's commit timestamp ≥ the session's last STATUS commit timestamp.** *Why an ORDERING rule and not a reminder: the 7/31 fleet brief audit found **5 of 5 content-stale briefs had refreshed and then kept working** — **zero had skipped the refresh.** "Refresh every closeout" is what all five were already doing. A brief written mid-session and left untouched while STATUS work continues is the dominant content-stale mechanism, and only the ordering constraint closes it. NEXUS owns the schema — route objections there, not to PROME.*
 5. **`LAST_COMPLETION.md`** — rewrite the PROME-facing completion contract (`PROME/COMPLETION_SPEC.md`: STATUS / CHANGED / RESULT / GAPS / WILL_NEEDS / FOLLOW-UP, ≤10 lines). Different consumer from STATUS — this is what PROME reads, and it is ZHAO's only session-handoff surface (no `SCRATCH.md`).
@@ -65,10 +67,9 @@ When spawned with a task:
 *(Fleet-wide Tables/Numbers/Source-your-claims rules now live in root `CLAUDE.md` § Output Canon — don't restate here. Kept below: agent-specific caps + rules not covered by the fleet canon.)*
 
 - **Update > append.** Replace stale sections in STATUS.md rather than appending new sections at the top.
-- **Compress.** STATUS.md should stay under 250 lines. If it's growing, archive old research to `sources/` or `archive/`.
+- **Compress.** Archive old research to `sources/`/`archive/` — but the BINDING limit is bytes, not lines (CLOSEOUT 1).
 - **Source tags on dashboards.** Every Signal Dashboard value must include a source tag: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. No naked numbers.
-- **Don't maintain stale copies.** If another agent owns a data point, reference their value with `[CONF HENRY Mar 5]` rather than keeping your own copy.
-- China data is often opaque — flag confidence level and source reliability.
+- **Don't maintain stale copies.** If another agent owns a data point, reference their value (`[CONF HENRY Mar 5]`) rather than keeping one. China data is often opaque — flag confidence and source reliability.
 
 ---
 
@@ -106,7 +107,7 @@ When spawned with a task:
 | Condition | Target | Priority |
 |-----------|--------|----------|
 | China TIC <$650B | LIQUID | 🟠 |
-| Belgium >$500B | LIQUID, HANS | 🟡 **FYI only** — custody-hub level milestone. ⚠️ **Carries NO China-position inference** (VX-ZHAO-1.09). Send the level and the rho-as-of-date; **never send it as "stealth exit"** |
+| Belgium >$500B | LIQUID, HANS | 🟡 **FYI level only**, no China inference; send the level **and the rho-as-of-date** (VX-ZHAO-1.09) |
 | China sells >$50B in single quarter | LIQUID, PROME | 🔴 |
 | HK peg intervention / LERS stress | LIQUID, PROME | 🔴 |
 | Trade war escalation (new tariffs, rare earth controls) | HAWK, HENRY | 🟠 |
@@ -130,7 +131,7 @@ When spawned with a task:
 | Metric | Threshold | Implication |
 |--------|-----------|-------------|
 | China TIC | <$650B | Accelerated exit — signal LIQUID |
-| Belgium (proxy) | >$500B | ⚠️ **RE-SPEC'D 2026-08-21 — descriptive milestone, NOT a China-position inference.** Route FYI to LIQUID/HANS. **Do NOT dispatch "stealth exit"** — that implication died with the proxy (rho +0.05, n=41 → §BELGIUM PROXY METHODOLOGY / VX-ZHAO-1.09). Belgium $482.5B and rising; ~$17.5B away |
+| Belgium (proxy) | >$500B | ⚠️ **FYI level only — NOT a China-position inference; do NOT dispatch "stealth exit."** Rules + bands → §BELGIUM PROXY METHODOLOGY / VX-ZHAO-1.09 |
 | HK Aggregate Balance | <HK$45B | Peg defense stress |
 | USD/CNY | >7.30 | PBOC forced defense → UST selling |
 | USD/KRW | >1,500 | BoK UST selling active |
@@ -190,7 +191,7 @@ Belgium TIC = Euroclear Brussels custody for China PBOC.
 
 ## CONVERGENCE MATRIX
 
-Your STATUS.md includes a scored Convergence Matrix (11 vectors, 5-point scale). Update scores when data changes — current total lives in STATUS.md only (was 34/50 CRITICAL pre-reactivation; ~28/55 ELEVATED as of 2026-07-09, do not hardcode the number here again).
+Scored in STATUS.md (12 vectors, 5-point scale). **The total lives in STATUS.md ONLY — never hardcode it here**, and sum the rows every closeout rather than carrying it forward.
 
 ---
 
@@ -224,9 +225,7 @@ When spawned for inbox processing: **check inbox/ for pending signals**, log eac
 | `FLOW.tsv` | Transmission pathways — 9 columns (ID, Name, Speed, Status, Trigger, Current_Position, Pathway, Cross-Agent, Notes) |
 | `PREDICTIONS.tsv` | Falsifiable forecasts with Invalidation criteria |
 
-**KB Conf field:** Admiralty code (A1=best, F6=unknown). Default F6 for new unverified claims.
-**KB Epistemic field:** EMPIRICAL (observed) / ESTIMATE (derived) / ASSUMPTION (unverified).
-**KB Group field:** Use NETWORK_GROUPS from `AGENTS/VOCABULARIES.tsv`. ZHAO's primary groups: UST_FOREIGN, ASIA_CONTAGION.
+**KB enums:** `Conf` = Admiralty (A1 best → F6 unknown; default F6 unverified) · `Epistemic` = EMPIRICAL/ESTIMATE/ASSUMPTION · `Group` = NETWORK_GROUPS from `AGENTS/VOCABULARIES.tsv` (ZHAO: UST_FOREIGN, ASIA_CONTAGION).
 
 ---
 
@@ -255,12 +254,9 @@ When spawned for inbox processing: **check inbox/ for pending signals**, log eac
 | `STATUS.md` | Live dashboard — ≤250 lines. Signal dashboard, convergence matrix, situations, exit rules, calendar, bottom line. |
 | `scripts/boot.py` | Boot brief — live FX/Brent pull + band check, key-figure staleness flags, TIC-release watch, catalyst docket, open predictions. Run at boot via `.venv/bin/python`. |
 | `NEXUS_BRIEF.md` | Standing brief NEXUS consumes for cross-agent synthesis (VIEW/CALIBRATION/CROSS-DOMAIN/NEXT/FORWARD CATALYSTS, ≤100ln). Schema: NEXUS `templates/NEXUS_BRIEF_TEMPLATE.md`. Refresh every closeout. |
-| `workbook/KB.tsv` | Knowledge base — 13-col permanent factual record |
-| `workbook/VX.tsv` | Vectors — risk indicators with Y/O/R thresholds |
-| `workbook/FLOW.tsv` | Transmission pathways |
+| `workbook/KB.tsv` · `VX.tsv` · `FLOW.tsv` | Permanent 13-col factual record · vectors with Y/O/R thresholds · transmission pathways |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts (ZHA-NN) with Invalidation criteria. Grade only after the registered window expires. |
-| `workbook/SCHEMA.tsv` | Data dictionary for `KB.tsv` — **read before writing KB rows** (validates Conf / Epistemic / Status enums). |
-| `workbook/VX_HISTORY.tsv` | Historical vector states — the retention layer behind `VX.tsv`'s current values. |
+| `workbook/SCHEMA.tsv` · `VX_HISTORY.tsv` | KB data dictionary — **read before writing KB rows** (validates enums) · historical vector states behind `VX.tsv`. |
 | `LAST_COMPLETION.md` | **PROME-facing completion contract** (`PROME/COMPLETION_SPEC.md`: STATUS/CHANGED/RESULT/GAPS/WILL_NEEDS/FOLLOW-UP, ≤10 lines). Different consumer from STATUS, and ZHAO's **only** session-handoff surface — there is no `SCRATCH.md`. Rewrite every closeout. |
 | `TRADE.md` | 🧊 **FROZEN 2026-07-04** — superseded, not maintained; STATUS is canonical. Unfreeze only if a concrete position re-emerges. |
 | `OPEN_THREADS_<date>.md` | Dated register of unresolved questions / coverage holes / unchased leads. Dated gates live in STATUS's CALENDAR, not here. Newest-dated file is current. |
