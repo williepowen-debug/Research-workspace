@@ -363,7 +363,23 @@ def check_will_queue():
                 if s and (today - s).days > 21:
                     problems.append(f"AGING #{cells[0]} {cells[1][:30]} (undated, open {(today - s).days}d)")
         elif section == "done" and len(cells) >= 3 and cells[0] != "Item":
-            dn = _mmdd(cells[1])
+            # Done-date = the ruling/closing date stated in the outcome cell
+            # (RULED/DONE/CLOSED/... <date>), else the Since cell. 9/2 fix: the
+            # DONE table's second cell is the OPEN date, so rows ruled 9/1 in
+            # the batch word flagged "done 10d ago" — aging a roll-off off the
+            # wrong clock (six false flags at the 9/2 21:5x boot, zero true).
+            dn = None
+            m3 = re.search(r"(?:RULED|DONE|CLOSED|EXECUTED|RESOLVED|DECLINED|"
+                           r"OVERTAKEN|WITHDRAWN|DELIVERED)\D{0,25}?"
+                           r"(\d{4}-\d{2}-\d{2}|\d{1,2}/\d{1,2})", cells[2])
+            if m3:
+                tok = m3.group(1)
+                try:
+                    dn = dt.date.fromisoformat(tok) if "-" in tok else _mmdd(tok)
+                except ValueError:
+                    dn = None
+            if dn is None:
+                dn = _mmdd(cells[1])
             if dn and (today - dn).days > 7:
                 problems.append(f"ROLL-OFF {cells[0][:30]} (done {(today - dn).days}d ago)")
     if actionable > 20:
