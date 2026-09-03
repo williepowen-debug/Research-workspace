@@ -311,16 +311,18 @@ else references it. *(Finalized via the Phase-3b cross-doc audit, 2026-06-02. Ro
 | Warehouse lender pulls lines broadly | CARL, LIQUID | 🔴 URGENT | 2008 mortgage warehouse freeze |
 | Carvana 10-K delayed or GT resigns | ALL | 🔴 URGENT | Enron/WorldCom auditor issues |
 | ABS downgrade wave (5+ deals/month) | REGINALD | 🟠 ELEVATED | 2007-2008 MBS downgrades |
-| Recovery ratio <28% | CARL | 🟠 ELEVATED | — |
+| Recovery ratio <28% ⚠️ **PERIMETER NAMED 2026-09-02** — **deep-subprime 10-D panel, deal-level, latest collection month** (NOT the Fitch aggregate, which is ~37% and would never trip). ⛔ **CONDITION IS CURRENTLY MET and this trigger has never fired: EART 2022-2 21.97%, 2022-3 23.52% on the 2026-07 collection month.** CARL already holds these figures in OTTO's 9/2 panel packet, so what is owed is the TRIGGER STATE, not the data | CARL | 🟠 ELEVATED | — |
 | Cooperating witness reveals new fraud/participants | CARL, REGINALD | 🟠 ELEVATED | Enron cooperators expanded scope |
 | Subprime origination -30%+ YoY | CARL | 🔴 URGENT | 2008-2009 credit crunch |
 
 ### How to Signal
 
-Append to `AGENTS/SIGNALS.md`:
-```markdown
-| 2026-02-15 | OTTO | REGINALD | 🔴 | [Description of signal] |
-```
+> ⛔ **CORRECTED 2026-09-02 — this section previously said *"Append to `AGENTS/SIGNALS.md`"* and the trigger table above still names recipient desks directly. Read together at 🔴 URGENT speed, that instructed OTTO to route AROUND WALTER, which root canon forbids and closeout step 7 explicitly contradicts (*"Do not write directly into other agents' inboxes"*).**
+> **Found by auditing rules whose consequence is currently MOOT** (LIQUID, KB-LIQ-124, 2026-09-02): **not one of these triggers has ever fired**, so the conflict had never been exercised — and the first time it would be exercised is the single highest-consequence event on this desk, at maximum urgency, when nobody re-reads the protocol.
+
+**Route via WALTER. Always.** Drop `SIG-OTTO-WALTER-YYYYMMDD-[topic].md` into `AGENTS/WALTER/inbox/` with frontmatter `to: WALTER (ACTION)` and `info: [the desks in the table above]`, and **commit it yourself** (root carve-out ①). **The recipient column in the trigger table names who WALTER routes it TO — it is not an instruction to write into their inboxes.** A direct packet is legitimate only when it is an answer to that desk's own ASK, never for a triggered signal.
+
+*(`AGENTS/SIGNALS.md` is a shared cross-agent log. A row you author there is yours to commit under carve-out ②, but it is a LOG, not a route — appending to it does not deliver anything to anyone.)*
 
 ### Sub-Agents (OTTO-internal — not network peers)
 
@@ -468,6 +470,8 @@ same-data-in-two-docs).
 | Metric | 🟡 Yellow | 🟠 Orange | 🔴 Red |
 |--------|-----------|-----------|--------|
 | Known fraud cases | 4 | 5+ | 7+ |
+
+> ⚠️ **Audit the MOOT rules, not just the live ones** (LIQUID KB-LIQ-124, 2026-09-02). A defect inside a rule whose consequence is currently inoperative **generates no evidence of itself** — the only thing that would surface it is the rule being exercised, and the suppressor ends exactly when the rule starts mattering, so **the defect and its first consequence arrive in the same event.** Two were found on this desk the day the rule was written: the routing conflict below, and an unperimetered recovery trigger whose condition was already met. **Quiet is not the same as verified.**
 | Bank losses disclosed | $1.5B | $2B | $3B+ |
 | 60+ DQ rate | >6.5% | >7.0% | >8.0% |
 | Recovery ratio | <35% | <30% | <25% |
