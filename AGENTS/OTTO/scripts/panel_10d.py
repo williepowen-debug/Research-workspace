@@ -558,6 +558,25 @@ def main():
     # falsifier, which reads exactly these columns. Key is (deal, filing_date)
     # because that pair identifies one servicer report; last write wins, so a
     # re-parse after a parser fix supersedes rather than accumulates.
+    # ⚠ REGISTERED 2026-09-02 (LIQUID, vintage-pinning sweep) — NOT FIXED TONIGHT, ON PURPOSE.
+    # THE VINTAGE HOLE, EXPRESSED IN AN UPSERT KEY RATHER THAN IN PROSE. The key is
+    # (deal, filing_date). A 10-D/A — an AMENDED servicer report — filed under a NEW
+    # date would therefore land as an ADDITIONAL row rather than superseding the
+    # original. Two consequences, the second worse than the first:
+    #   (1) a duplicate deal-month inflates n and double-weights that month;
+    #   (2) the panel's headline test is matched-collection-month YoY, which is a
+    #       DELTA — it has TWO endpoints, and an amendment restates ONE OF THEM. So a
+    #       single 10-D/A can corrupt every YoY pair that touches that deal-month, not
+    #       just the row it lands on. A delta carries twice the revision exposure of a
+    #       level because both endpoints can be restated independently.
+    # WHY IT IS REGISTERED AND NOT REPAIRED: measured base rate, pulled 2026-09-02 —
+    # ZERO 10-D/A across ALL panel CIKs over ~800 10-D filings (SDART shelf 478,
+    # BLAST 84+34+31, EART 52/50/43/31). The amendment path is effectively unused on
+    # these shelves. Touching the upsert eight days before CARL's V2 grade sitting, on
+    # a path with no live instances, is the worse trade. Owed at the ~2026-10-01 cycle.
+    # FIX WHEN TAKEN: key on (deal, collection_period) — now that the column exists and
+    # is DISCLOSED rather than inferred, it is the stable identity of a servicer report;
+    # an amendment covers the SAME collection period and would correctly supersede.
     existing, order = {}, []
     if LEDGER.exists():
         with LEDGER.open() as fh:
