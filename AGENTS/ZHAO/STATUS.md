@@ -192,7 +192,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 5. 🟠 **HK peg + SOFR: four rows 30d stale, SOFR leg NEVER verified** (NY Fed + FRED both 403'd 8/3). Refresh HKMA; find a third SOFR source.
 6. 🟠 **Vector 8 scored 🟠 3 off Brent $76.01; Brent is $95.30.** Not ZHAO's to re-price — flagged to BRENT/HAWK 9/2. No answer ⇒ mark the vector 🧊 rather than carry it.
 7. 🟠 **Korea's two unverified caveats** — foreign KOSPI selling not reversed; SK hynix conversion share. Unchecked since 8/3; needed before calling Korea risk closed.
-8. 🟠 **WFE export-control bindingness on Chinese DRAM** — ZHAO's leg of the VULCAN ask, delivered 9/2 as a range with unknowns named. **Owed: an enactment watch on the MOFCOM TSMC/QCOM fabrication restriction** (FT 7/21 — *considered ≠ enacted*). If it becomes an instrument it is a third vector on VULCAN's S4.
+8. 🟠 **WFE export-control bindingness on Chinese DRAM** — ZHAO's leg of the VULCAN ask, delivered 9/2 as a range with unknowns named. **Enactment watch (BIS Entity-List package · FT 7/21 MOFCOM TSMC/QCOM restriction) is now a DATED re-check row in `docket/CATALYSTS.tsv` (2026-09-16), not this bullet** — it was committed in writing to VULCAN and HAWK while living only in KB and undated prose here, i.e. on zero surfaces `boot.py` travels (KB-ZHAO-136). Publication ⇒ same-session packets **and** ZHA-16 branch C.
 9. 🟡 **Re-register ZHA-03 (Belgium >$500B) for H2** on a mechanism that survives the rho test — not custody migration. · 10. 🟡 **China 10Y / CGB is newly ZHAO's** and carries one stale datum (1.710%, 7/31): establish a refresh path or freeze the row honestly.
 
 ---
