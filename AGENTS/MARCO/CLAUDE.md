@@ -77,7 +77,9 @@ Mail is direct file drops (HERMES retired — no delivery daemon):
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-Write a single `.md` packet per signal directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
+⚠️ **ROUTING RULE (corrected 2026-09-02, DAEDALUS fleet census; `MESSAGING/CROSS_SESSION_MESSAGING.md` §2 rule 4 + root `CLAUDE.md` § Direct Messaging v1):** **SIGNALS — a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on — go to WALTER for routing (dedupe, archive, routing judgment); WALTER owns the semantics of what counts as a signal. ANALYSIS and PACKETS go direct to the recipient's `inbox/`, self-committed per carve-out ①.** Never route a signal around WALTER.
+
+Write a single `.md` ANALYSIS/PACKET file directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -241,7 +243,7 @@ After close: move `thread.md` content to `sub_agents/[NAME]/threads/archive/YYYY
 | `scripts/version_drift_check.py` | **Residue guard (boot step, built 2026-08-12)** — the "a section-scoped fix does not clear a FILE" class. Three checks: **V** a line claiming the *canonical* thesis version while disagreeing with `thesis/THESIS.md` · **C** the same `**Label:**` twice in one line (stamp residue) · **B** a staged deletion with no matching add (the `git mv` half-commit — you path-scoped the DESTINATION). **ADVISORY: exit 0 whether or not it flags** (`--strict` exits 1 for gates). Known-FP register: `scripts/version_drift_allowlist.tsv`, per-instance and **expiring**, never pattern suppression. ⚠️ **A flag is a prompt to LOOK — a correctly-dated history line ("v2.7 retired the thermometer") is RIGHT; never find-replace a version token.** Two candidate classes were **measured and deliberately NOT built** (forward-language-vs-passed-date, 21/21 FP; resolved-ID-written-as-pending, 2/2 FP) — re-measure before reviving either. |
 | `domain/sources/` | Research archives, STATUS backups |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |
+| `outbox/` | PROME-action requests only. **SIGNALS → WALTER for routing (never around WALTER). ANALYSIS / PACKETS → direct to the recipient's `inbox/`, self-committed per carve-out ①.** *(Corrected 2026-09-02 — the HERMES-retirement template edit propagated a route-around-WALTER instruction to ~10 desks.)* |
 | `workbook/VX.tsv` | 57 vectors — live indicator dashboard (status/levels/thresholds). Sync changed levels here at closeout. **Carries a PAT-044 two-clock banner (added 8/21) whose date is the OLDEST LIVE-AND-TRACKED row's `Last Updated`, not the last edit** — so refreshing a fresh row correctly does NOT move it. **Parse with `tsvutil.read_tsv()`; `readline()`/`next(f)` both fail silently here.** |
 | `workbook/KB.tsv` | **Living knowledge base** — new facts/claims go here at closeout (step 7). The current workbook. |
 | `workbook/ML.tsv` | **FROZEN founding-research log** (entries Jan 20–Feb 4 2026). Superseded by `KB.tsv` for new findings; not in the closeout write path. Dated snapshots — treat values as as-of-Created, not current (see VX.tsv/STATUS for live values). `scripts/ml_to_kb.py` is LEGACY — it regenerates KB from ML in mode `'w'` and would WIPE hand-added KB rows (sessions 8+); do not run a full regen. |

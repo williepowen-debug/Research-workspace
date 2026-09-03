@@ -1,0 +1,427 @@
+# MARCO STATUS — cold half, rotated out 2026-09-02 (session 25)
+
+**Rotation basis:** READ_CAP rules 16–17. `STATUS.md` measured **68,113 B = 126% of the 32,550 B per-surface read cap** — the boot Read was returning a TRUNCATED file with no error (DAEDALUS P1 packet 2026-08-28, corrected same day).
+**Destination is OFF the boot reading path** ⇒ per rule 17 this file carries the OBLIGATION CENSUS below, and every obligation that moved has been re-homed on the hot half.
+**Content below is VERBATIM** from `STATUS.md` as of the pre-split state; each block is labelled with its source line number. Nothing here is current — cite it as history only.
+
+## Obligation census — every owed action / live watch, before and after
+
+| # | Obligation | Was (pre-split location) | Now (re-homed to) |
+|---|---|---|---|
+| 1 | S338 Annex-II scope UNREAD; CBP CSMS 403; energy/potash/USMCA claims unsupported | 8/22 READ FIRST block (L21) + UNRESOLVED L214 | ✅ **DISCHARGED 9/2** — CSMS + HTS list read at the primary; energy/potash CONFIRMED absent. UNRESOLVED row rewritten to the residual (USMCA + Canadian line list) |
+| 2 | Energy re-arm NOT GRADED — T+1 confirm of the 8/21 Brent settle was due Mon 8/24 off `BZV26` | Energy section L127-138 | ⚠️ **STILL OWED** — re-homed to ACTIVE SITUATIONS / Energy (compact block) + UNRESOLVED. **Went ungraded through 11 dark days; the grade window has passed and the re-arm must be re-specified, not back-graded** |
+| 3 | Do NOT credit the tariff for the air-stack re-widening (pre-tariff trend) | 8/22 block L27 + Canadian Travel L112 | ✅ Re-homed — CANADA 9/8 block constraint ③, and now formalised as registered condition `ID-01` |
+| 4 | FL-$ hole $600M–$1.2B scope-mismatched + underived — do not re-cite | UNRESOLVED L213 | ✅ Unmoved — UNRESOLVED L213 retained whole on the hot half |
+| 5 | Nov 3 FL property-tax Amendment 3 (anti-migration by design) | Florida Triple Exposure L148 + KEY DATES | ✅ Re-homed — KEY DATES row retained (the bullet was the duplicate) |
+| 6 | FL labor cooling context (FL jobless 4.8% > US 4.3%) | Florida Triple Exposure L147 | ⚠️ **Archived as STALE (WALTER SIG-007, 6/19, April data)** — not a live obligation; re-pull before any citation |
+| 7 | ES-MARCO-05 resolver — do not push a 4th time | Produce L98 + KEY DATES + UNRESOLVED L216 | ✅ Re-homed — resolver date corrected 8/12 → **9/11** on the hot half; duplicate UNRESOLVED row L216 archived |
+| 8 | MAR-24 (all 3 FL airports negative) 60%, caveated; MCO via BTS T-100 | Dashboard L70 + Canadian Travel L117 | ✅ Unmoved — both retained on the hot half |
+| 9 | `VX-1.04` index defined; ELEVATED −13.15% is a THRESHOLD reading, not FL demand withdrawal | Dashboard L70 | ✅ Unmoved — retained whole |
+| 10 | Wage-panel build KILLED 7/31 (row instructed a future session to re-run a falsified test) | UNRESOLVED L212 | ✅ Archived deliberately — a killed instruction is safer off the reading path; the kill is recorded in `thesis/CHANGELOG.md` |
+| 11 | VX-3.01 household insurance figure ADOPTED; VX stale sweep #2 DONE; MCO UNBLOCKED | UNRESOLVED L204/L208/L211 | ✅ Archived — all three are ✅ CLOSED rows, no forward action |
+| 12 | FL Citizens ~$295.1B / PIF 278,246 — CORAL owns FL insurance, cite CORAL | Florida Triple Exposure L145 | ✅ Re-homed as a one-line CORAL pointer on the hot half (the 1,135 B narrative was a parallel copy of CORAL's cells) |
+
+⚠️ **Zero obligations stranded.** Item 2 was ALREADY overdue before this split and is the split's one genuine find — it was buried inside a 4,243 B forensic block that read as settled.
+
+---
+
+### [STATUS.md line 4]
+
+**This session in one line:** **The tariff I correctly said had NOT fired, fired — 12:01 a.m. ET this morning — and the reason nobody expected it is that my own docket had the DEFAULT BACKWARDS.** I wrote "pause expires 8/22, three-way branch," but Proclamation 11056 did not create an expiring pause awaiting a decision: **it re-set the effective date to a datetime in its own operative text.** "Deal" and "extension" each needed an affirmative presidential act; **"tariff goes live" needed nothing.** A default with two override paths, not a three-way fork. I fixed the DATE leg on 8/21 and left the MECHANISM leg wrong. **Canada then suspended negotiations 8/21 evening and announced dollar-for-dollar counter-tariffs on ~$28B for Tue 9/8** — so the branch resolved to the most escalatory enumerated outcome *and past it*. **HAWK's autos flag is RESOLVED (his hypothesis #1 was right): motor vehicles ARE covered by a dedicated proclamation AND there is an explicit §232 carve-out.** Two carried scope claims — "energy/potash excluded" and "USMCA does not exempt" — **are not primary-supported and are downgraded.** ⚠️ **Channel-2 conviction UNCHANGED** (it rests on TOUR-01's own stack); the fold is deliberately two-sided and **carries no dollar figure.**
+
+### [STATUS.md line 6]
+
+**Prior (s23) in one line:** **No primary was pulled and six of my own marks moved anyway — every one of them a mark that followed from nothing.** A boot warning I had been reading as housekeeping turned out to be a FALSE POSITIVE whose remediation would have corrupted the file: yesterday's parser fix repaired `read_tsv` and left its twin `read_tsv_numbered` on the raw split forty lines below, **disagreeing on 5 of 6 ledgers**. Then the *"unscorable-band family, n=3"* I had carried in SCRATCH turned out not to be a measurement but **a list of rows I happened to have noticed — the census is 35 of 37.** Fixed ledger-wide with five grading conventions rather than 35 rewrites, plus 23 rows re-spec'd individually. **`TX-03` had literally written *"this runs AGAINST the stress thesis and I am marking it that way"* — and then carried ELEVATED.** `1.02` and `1.04` went to **UNSCORED** (a mark reachable from neither adopting nor refusing their own input), `FL-02` to **CRITICAL** (level band, de-marked on a trend argument), `VX-2.05` **RETIRED** (NASS survey cancelled — no primary exists or is coming). **1,928 probe values, zero unscored, no prediction contradicted.** PROME desk-review roll premise corrected against BRENT's own written warning.
+
+### [STATUS.md line 8]
+
+## 8/22 UPDATE (session 24) — READ FIRST
+
+### [STATUS.md line 9]
+
+
+
+### [STATUS.md line 10]
+
+> ### 🔴 SECTION 338 WENT LIVE 12:01 a.m. ET 2026-08-22 — VERIFIED AT PRIMARIES ON BOTH SIDES
+
+### [STATUS.md line 11]
+
+> **US primary (Federal Register).** **Proc. 11056** (signed 8/18, FR doc **2026-17294**, public inspection 8/21, publishes 8/24) suspended **Procs 11046** (alcoholic beverages) / **11047** (dairy) / **11048** (motor vehicles) — all signed 7/20, published 7/23, FR docs 2026-14991/14992/14997 — for **3 days**, and re-set their effective date in its own operative text: *"The effective date of the additional ad valorem duties imposed in Proclamations 11046, 11047, and 11048 shall be **12:01 a.m. eastern time on August 22, 2026**."* Rate: *"an additional ad valorem duty of 50 percent on certain products of Canada, as identified in Annex II."* **Year confirmed 2026 at the primary.**
+
+### [STATUS.md line 12]
+
+> **Negative check (primary):** FR public-inspection list 8/21 (87 docs) carries **exactly one** Canada document — 11056. whitehouse.gov/presidential-actions latest action of any kind = **8/20**; latest Canada action = **8/18**. **No further suspension.**
+
+### [STATUS.md line 13]
+
+> **Canada primary (pm.gc.ca — and it publishes on weekends).** 8/21 statement: *"this evening, I have decided to **suspend trade negotiations with the U.S.** and have directed Canada's negotiators to return to Ottawa"* · *"At midnight tonight, the U.S. intends to impose a 50% tariff on roughly **$28 billion** of Canadian goods"* · *"Canada will **match those tariffs dollar for dollar**."* 8/22 remarks: counter-tariffs on steel/dairy/appliances/ag-equipment/pulp&paper/electronics + §232- and §338-subject goods, effective **"the Tuesday after Labour Day"** (⇒ **Tue 2026-09-08**, DERIVED from the primary phrase: Labour Day = Mon 9/7, calendar-verified — not adopted from press).
+
+### [STATUS.md line 14]
+
+>
+
+### [STATUS.md line 15]
+
+> ### 🔴 THE DEFECT IS MINE AND IT IS A FRAMING DEFECT, NOT A DATA ONE
+
+### [STATUS.md line 16]
+
+> My 8/21 docket said **"pause EXPIRES 8/22"** with a three-way branch, *"two of three cutting AGAINST the boycott-hardening read."* **That inverts the default.** 11056 set a datetime; branches (a) and (b) each required an **affirmative presidential act**; branch (c) required **nothing**. **A default with two override paths.** [[finding_no_action_ruling_does_not_disarm_an_automatic_mechanism]] — *ask what fires on its own* — and [[finding_dated_carry_item_has_no_expiry_check]]. **I corrected the DATE leg on 8/21 and left the MECHANISM leg wrong**, and the corrected row read as safe *because it had just been corrected*.
+
+### [STATUS.md line 17]
+
+> 🔑 **METHOD: the weekend blackout is a FEDERAL REGISTER property, not a property of primaries.** FR froze Friday and 11056 does not publish until Monday — yet the resolving sentence was already **on public inspection** (the datetime was set *prospectively*), and the **counterparty government published a same-day head-of-government transcript on a Saturday.** ⇒ **A bilateral action has TWO official records and they do not share a publication calendar.**
+
+### [STATUS.md line 18]
+
+>
+
+### [STATUS.md line 19]
+
+> ### ✅ HAWK'S AUTOS FLAG — RESOLVED; BOTH HIS CONFLICTING SOURCES WERE HALF-RIGHT
+
+### [STATUS.md line 20]
+
+> Motor vehicles **ARE covered** (Proc. 11048 is a *dedicated motor-vehicles proclamation*), **AND** there is an explicit carve-out, verbatim: *"The duties imposed in this proclamation shall not apply to articles subject to duties pursuant to section 232 of the Trade Expansion Act of 1962… or articles, excluding unmanned aircraft, subject to the World Trade Organization Agreement on Trade in Civil Aircraft."* ⇒ **§232-dutiable vehicle lines OUT; non-§232 vehicle lines IN at 50%** — exactly HAWK's hypothesis #1, which he refused to smooth on 8/10. ⚠️ **Cannot enumerate lines: Annex II renders as `[TIFF OMITTED]` graphics in the FR full-text. Carry the mechanism, never a line list.**
+
+### [STATUS.md line 21]
+
+> ⚠️ **TWO CARRIED CLAIMS DOWNGRADED — not primary-supported:** *"energy / potash EXCLUDED"* (the operative carve-out names **only** §232 and civil aircraft; energy/potash are more likely simply **absent from the Annex II positive list** — same effect, different mechanism, **unread**) and *"USMCA preference does NOT exempt"* (Proc. 11046 says **nothing** about USMCA either way). ⚠️ **UNREAD PRIMARY: CBP CSMS #69606660** — `content.govdelivery.com` and `cbp.gov` both **HTTP 403**; everything on HTSUS 9903.03.12–.16 is secondary relay and is **not load-bearing**.
+
+### [STATUS.md line 22]
+
+>
+
+### [STATUS.md line 23]
+
+> ### ⚖️ THE FOLD IS TWO-SIDED AND CARRIES NO DOLLAR FIGURE
+
+### [STATUS.md line 24]
+
+> **Guard first:** this is a **goods** action; my channel is **visitors**. The only transmission is **sentiment** plus a second-order real-income leg — fusing them is my characteristic error and I am declining it.
+
+### [STATUS.md line 25]
+
+> **HARDENS:** consumer-visible categories (beer, wine, dairy, hockey equipment, clothing, cement — per Carney's own words); talks suspended; a **second dated escalation (9/8) inside the Sep–Nov FL winter-booking window**; and 🔴 **the Canadian head of government publicly framing *"vacationing in our national parks"* as solidarity on the day the tariff landed** — the sentiment re-arm I docketed 8/10 and correctly reported as *not-yet-happened* on 8/21. **It happened on 8/22.**
+
+### [STATUS.md line 26]
+
+> **AGAINST — five constraints, none rhetorical:** **(1) Saturation ceiling** — Nanos already had **82%** calling the boycott helpful; **~18pp of headroom** bounds any further attitude hardening. **(2) Habit ≠ sentiment** — my own carried read is *"emotional protest → logistical habit"*; if that holds, fresh news adds little, **and the tariff does not discriminate between the two readings.** **(3) 🔴 IDENTIFICATION PROBLEM, pre-registered BEFORE the print:** the air 2-yr stack re-widened **−25.0% (Jun) → −26.8% (Jul), i.e. BEFORE the tariff** — any post-8/22 deepening is **confounded with a trend already in motion** and the tariff's marginal contribution is **not separately identifiable**. **Do not credit the tariff for a widening it did not cause.** **(4) Capacity is already deleted and winter 26-27 schedules are largely FILED** (Transat exit 6/30, AC zero new FL routes, WestJet −32% ASM) — **an August sentiment shock cannot un-file seats that were never filed**, so the marginal FL-$ effect runs through **load factors and per-visitor spend**, not further capacity deletion. **(5) Still two-sided forward** — the suspension of talks is **Canada's** choice and reversible; **9/8 is the next branch point, not a terminus.**
+
+### [STATUS.md line 27]
+
+> **NET: Channel-2 conviction UNCHANGED** (TOUR-01 rests on its own stack, 5th confirm). What changed is that **a docketed catalyst resolved, escalatory** — the escalation leg is now a *realized event*, not a forecast. **The winter 26-27 FL-$ window now has THREE live inputs, not two:** boycott · `FLOW-ENR-01` energy · tariff/counter-tariff sentiment with a dated 9/8 step. ⚠️ **They COMPOUND, they do not add.** Mechanism **HIGH**; **magnitude UNDERIVED; NO DOLLAR FIGURE ATTACHED** — the $600M–$1.2B stays retracted-pending, and three compounding inputs make a naive sum *more* wrong, not less.
+
+### [STATUS.md line 28]
+
+> ⛔ **The energy re-arm was NOT graded and NOT touched this session** — T+1 confirm of the 8/21 Brent settle grades **Monday 8/24** off `BZV26` with the `BZ=F` cross-check. **8/24 is now a double-resolve date** (Brent confirm + FR publication of 11056 / any weekend US action becoming observable).
+
+### [STATUS.md line 29]
+
+> *Full source-tier ledger → `outbox/2026-08-22_to-PROME_s338-pause-expiry-primary-verify.md`. HAWK packeted same day; he ran an independent parallel pull and I did not read it.*
+
+### [STATUS.md line 30]
+
+
+
+### [STATUS.md line 31]
+
+## 8/21 UPDATE (session 23)
+
+### [STATUS.md line 32]
+
+
+
+### [STATUS.md line 33]
+
+> ### 🔴 SIX MARKS MOVED, AND NONE WAS A MISREAD OF DATA
+
+### [STATUS.md line 34]
+
+> Each followed from **neither adopting nor refusing the row's own input** — and four times the row's own text already said the right thing. **`TX-03`** wrote *"the municipal terminus is measured and it is GROWING — this runs AGAINST the stress thesis **and I am marking it that way**"* (+4.75% YoY, 10 of 11 cities positive) and carried **ELEVATED**. **`1.02`** scores vs-2019 and its only vs-2019 figure is a derived chain **it forbids citing** — adopt ⇒ CRITICAL, refuse ⇒ UNSCORED, marked ELEVATED. **`1.04`** is named an *index* with **no index ever defined**; BREACHED rested on the one airport the row itself calls a Spirit **supply** shock. **`FL-02`** asserted an SF mark with **no SF figure in the row**, and de-marked condo 8.1mo out of its own 6-9 CRITICAL band on a **trend** argument.
+
+### [STATUS.md line 35]
+
+> **Diagnostic, one pass: read `Current Value` and `Status` as two independent claims and ask whether the second follows from the first.** Four of six fell out that way. **A mark is a CLAIM, not a summary** — nothing re-derives it when the text beneath it is rewritten. ⚠️ **Staleness, version-drift and boot were all clean the entire time: every check I own grades a row's AGE and FORMAT, none grades whether the mark follows from the cell beside it.**
+
+### [STATUS.md line 36]
+
+>
+
+### [STATUS.md line 37]
+
+> ### 🔴 "n=3" WAS NOT A MEASUREMENT — THE CENSUS IS 35 OF 37
+
+### [STATUS.md line 38]
+
+> `SCRATCH` carried *"the unscorable-band family is now n=3"*. Auditing all 37 live vectors found **35 defective**; the only two clean rows were the two I had hand-fixed in the previous ten days. **A hand-curated list of your own defects is a SAMPLE biased toward whatever was recently touched, not a census** — one level above the 8/11 *"sweep instruments as a SET"* rule: the set has to be **enumerated, not recalled**.
+
+### [STATUS.md line 39]
+
+> **Fixed as a CONVENTION, not 35 rewrites** — five grading rules now in the `VX.tsv` banner (highest satisfied band wins · boundary → more severe band · **a value in no band is UNSCORED and is never rounded into the nearest one** · `>-N%` means a decline deeper than N% · **a band must name its basis and observation window**). Rule 1 changed **no** status, which is the evidence it codifies existing intent. 23 rows then re-spec'd individually for what convention cannot reach. **Full census with a witness value per claim → `domain/sources/_archive/S23_BAND_AUDIT_2026-08-21.md`.**
+
+### [STATUS.md line 40]
+
+>
+
+### [STATUS.md line 41]
+
+> ### ⚠️ THREE GAPS HAD A LIVE VALUE SITTING IN THEM
+
+### [STATUS.md line 42]
+
+> **`2.06`** — TX at **−3.22pp below national** in a band set that only covered *above*-national readings. **`GTR-01`** — its own context leg at **−7.2%** where *"index stable"* was undefined. **`3.02`** — spread compressed 15-30pp → **+6.34pp**, and the unbanded 2-5pp hole was its next stop. **`FL-01`** was about to be swallowed too (+1.6pp above national and climbing).
+
+### [STATUS.md line 43]
+
+>
+
+### [STATUS.md line 44]
+
+> ### 🔑 THE PARSER FIX THAT REPAIRED ONE READER AND LEFT ITS TWIN BROKEN
+
+### [STATUS.md line 45]
+
+> Boot had been printing *"doubled quotes — collapse `""` to `"`"* on four `PREDICTIONS.tsv` rows. **The quoting was correct RFC-4180 and the advice would have manufactured the corruption it hunts.** Cause: 8/21 fixed `read_tsv` to be csv-aware and left **`read_tsv_numbered`** — same module, forty lines below, under the warning comment the fix had just written — on the raw `split("\t")`. The two readers **disagreed on 5 of 6 ledgers**. ⚠️ **The warning read as benign because it MATCHED THE STORY I HAD JUST WRITTEN.** Guard shipped: `scripts/tsvutil_selftest.py`, boot-wired, 6 ledgers × 4 invariants, with `--verify-guard` that restores the broken reader and **requires the check to fail on it**.
+
+### [STATUS.md line 46]
+
+> **Also retracted:** the 8/21 write-up claimed *"VX has several embedded newlines, which is why its 57 rows occupy 91 physical lines."* **False and never true** — all 49 commits scanned, zero embedded newlines; 91 = 33 banner + 1 header + 57 rows. A fabricated mechanism invented to explain a number I had not decomposed, written into the file I boot-read every session.
+
+### [STATUS.md line 47]
+
+
+
+### [STATUS.md line 48]
+
+
+
+### [STATUS.md line 49]
+
+*Canonical session history → `thesis/CHANGELOG.md`; full blocks under `domain/sources/_archive/`.* **s22 (8/21, 9-day catch-up)** `STATUS_s22_block_20260821.md` — five primaries pulled after 9 days dark and **four came back AGAINST the thesis**: H-2A Q3 the **first negative quarter** (−3.99% YoY, MAR-11 88→72), `VX-2.03` construction de-marked with **TX ABOVE national** (4th Channel-1 null), produce CPI +5.55% for a 3rd month, FL proxies' inflow legs growing; **only Canada held** (TOUR-01 5th read, air leg re-widened). Section 338 **never took effect** *(⚠️ true as of 8/21 and SUPERSEDED 8/22 — it fired 12:01 a.m. ET 8/22; see the 8/22 READ FIRST block)*. WALTER lane 25→0. · **s21 (8/11-12)** `STATUS_s21_block_20260812.md` — the **SDL-01 count tell broke on its own letter** (Jun count +0.35% YoY) **while the 2-yr stack hit −12.96%**, deepest of 2026; July NFP **−23K** with LFPR **61.4%**; VX stale sweep #2 took 3 loaded rows to 0 and **two came back against the thesis** (TX border receipts +4.75% YTD; NV dollars leg inverted); built `version_drift_check.py`. · **s19 (7/31)** `STATUS_s19_block_20260731.md` — **both thesis moves still LIVE:** Channel 1 demoted from spine (v2.8→**v3.0**, three pre-registered nulls) and Channel 4 **MED-LOW** and split (→**v3.1**); plus VX backlog 25→0, the H-2A puller revived after 101 days dead, and five basis-traps written into `FIGURES.md`. · **s18 (7/25)** `STATUS_s18_block_20260725.md` — ES-MARCO-08 resolved against the produce thermometer (v2.7); the wage instrument promoted then **falsified same-session** (v2.8); FLL −10.7% = the **Spirit liquidation**, not FL demand. · **s17 (7/9) + s16 (7/2)** `STATUS_prior_header_s17_and_earlier.md` — several reads since superseded (energy watch stood down; Citizens count corrected 385K→278,246).
+
+### [STATUS.md line 50]
+
+
+
+### [STATUS.md line 53]
+
+**7/31 eve — 🔎 FL METRO-MASKING, ESTABLISHED ON THREE DATASETS (answers PROME's 7/21 question: (c) COMPOSITION, decisively).** BLS CES metro-level FL L&H employment, Jun'26 YoY: **Orlando +3.74%** (positive every month of 2026) · Naples +1.58 · Cape Coral +1.22 (*negative Jan–May*) · **Miami-Dade +0.90** · Tampa +0.47 · **Punta Gorda −3.09%** (negative **all six months**) — around a **statewide +0.55%** that displays neither end, **below** national (+0.68%), and negative Jan–Apr.
+
+### [STATUS.md line 54]
+
+**① Internal FL spread is 6.83pp** — the blend is not a summary, it is a cancellation. **② "FL L&H adding jobs" does not support tourism resilience at state level.** **③ Punta Gorda is negative on three independent datasets from three agencies:** ATTOM foreclosure #1 US (0.50%) · ZHVI −8.2% · L&H −3.09% (6/6 months). ⚠️ **Practical rule for consumers: assume any FL-statewide metric hides a ~7pp internal spread until shown otherwise.**
+
+### [STATUS.md line 55]
+
+⚠️ **Deliberately NOT promoted to an instrument** — Punta Gorda is a small MSA (9.4K L&H jobs, wide CES bands; the evidence is 6-of-6 consistency, not any print), and employment is a *quantity* while Channel 2 is a *$-per-visitor* thesis. **Also corrected MARCO's own caveat: Miami-Dade is a World Cup host city and posted +0.90%, below state and nation — the WC employment mask is measurably weaker than assumed.** *(Metro-series ownership settled 8/3: **CORAL owns metro-level FL**, MARCO frames nationally — cite CORAL's cells, don't maintain a parallel copy.)*
+
+### [STATUS.md line 63]
+
+| ICE/CBP Reconciliation | **SIGNED INTO LAW Jun 10 (6/15 update).** After missing the Jun 1 deadline + Byrd carve, GOP reworked to comply and passed **Senate 52-47 (Jun 5) / House 214-212 (Jun 9); Trump signed Jun 10.** ~$70B (ICE + parts of CBP; $38B/$26B split = pre-trim May-4 proposal, enacted split pending signed-text reconciliation), funds **through end of term (Jan 2029).** Enforcement FLOW now law (trimmed from $71.7B via Byrd rework). | 🔴 LOCKED — LAW (was 🟠 CONTESTED) |
+
+### [STATUS.md line 77]
+
+| **FL Hospitality Wages — ❌ FALSIFIED as a Channel-1 instrument (7/25b)** | **FL L&H AHE $23.99 Jun'26 vs US $23.62 = +1.6% ABOVE national** (carried row said 11% BELOW at $20.74 — Jan vintage, REVERSED). **FL +8.75% YoY vs national +3.87%, 3 straight months >2x national** (BLS CES `SMU12000007000000003` vs `CES7000000003`, live API). Wage series carries no freeze/tariff/diesel confound → replaces produce CPI as the Channel-1 readout. **The panel ran and killed it:** TX L&H −6.45pp vs national and FALLING despite maximal immigrant exposure + no state minimum above $7.25; CA −1.94pp; AZ −1.05pp. FL's cell is **Amendment 2** ($13→$14 Sep-30-2025→$15 Sep-30-2026 = 7.7% statutory floor rise inside the YoY window). Reclassified: a **statutory-cost variable in CARL's lane**, not a MARCO population signal. Forward: floor steps $14→$15 Sep 30 2026 = dated ~7% FL services-cost impulse in Q4. | ❌ FALSIFIED — not a MARCO signal |
+
+### [STATUS.md line 78]
+
+| DHS Shutdown · E-Verify | Shutdown **ENDED Apr 30** (76-day record; TSA/FEMA/CG/CISA/SS funded, ICE/CBP carved out → reconciliation, now law). **E-Verify OPERATIONAL.** Both quiet — merged 8/11. | 🟢 RESOLVED |
+
+### [STATUS.md line 80]
+
+**Composite (rev 8/11 — session 21):** **Channel 1 DEMOTED FROM SPINE — quantity HIGH and HARDENING, transmission UNDEMONSTRATED.** Quantity got its best print of the year and its first counter-print in the same release: the **Mar→Jul foreign-born LF path (−5.6%) is far outside the +0.1/+1.7% seasonal norm**, July payrolls went **negative (−23K)** with LFPR at **61.4%** — while **less-than-HS LFPR rose 43.1→45.5%**, breaking its own accelerating run. **Two honest deflators on the quantity leg: the anomaly began in 2025 (−4.9%), and the 2024 surge has been given back but no more (Jul'26 still above Jul'23).** *(Prior quantity basis, 7/31: H-2A ~455-465K pace on 254,688 thru Q2, LFPR 61.5%, foreign-born LF −700K YoY, less-than-HS LFPR 43.1%.)* Transmission unchanged — **all three transmission instruments are now dead** — produce CPI (ES-MARCO-08 → freight), wage divergence (statutory-floor artifact), and the floor-controlled re-test (NULL under both controls, TX negative every month, and a design whose 80%-power MDE of ~8.8pp on the stratum difference — with a ~11.5pp band around any single state's gap — puts the 4.88pp signal it was meant to test far inside the noise). **Channel 2 is now the highest-conviction transmitting channel by default.** *(Prior composite, 7/25: "Channel 1 RE-INSTRUMENTED, not weakened" — that read is superseded; the replacement instrument it referred to was falsified the same session and the follow-up test confirmed the null.)* **Channel 2 unchanged, higher variance, and its next catalyst is DATED**: TOUR-01 holds on the −28.7% stack but the air leg narrowed to −25.0% (on the line), and the **50% Canada tariff is now IN EFFECT as of 12:01 a.m. ET 2026-08-22 — realized, not forward** *(7/20 = proclamations 11046/47/48; 8/19 = their original effective date; **8/22 = the operative datetime**, re-set by Proc. 11056 — three dates, do not conflate; s24 primary-verified, superseding the 8/11 and 8/21 reads in turn)*. **FL acute-stress layer still NOT firing on MARCO's own metrics** (condo 8.1mo dead, FL L&H adding jobs, Citizens de-escalating) — but that is now understood as **statewide-blend masking metro concentration**, not as absence: ATTOM puts the national foreclosure epicenter (Punta Gorda #1, Cape Coral, FL #1 state) in exactly MARCO's SW-FL snowbird/migration geography. ⚠️ **RANK, not LEVEL** (HOMER publisher-side correction 7/31, adopted 8/11): FL's 2025 rate 0.435% is **~31% BELOW its own 2019 level (0.63%)** and it ranked **#8 as recently as 2023** — FL is #1 because every other state fell further, not because FL exceeded its own history. **A foreclosure rate below its own 2019 level is weak support for a migration-outflow story**; the load-bearing legs are conversion SPEED (563-day timelines, lowest since 2013; REO +33% H1) and composition, not level. **FLL −10.7% excluded from the composite** — Spirit-liquidation supply shock, not demand. *(Prior composite, 6/15: 4 structural-hardening / 4 reversed-softened / 2 stale.)*
+
+### [STATUS.md line 88]
+
+- **Ended Apr 30, 2026** (76-day record); TSA/FEMA/CG/CISA/SS funded, **ICE/CBP deliberately carved out** → reconciliation (below). TSA callout ~10.6% vs ~2% normal, 1,110+ quit since Feb, 4-6mo training lag = lingering capacity drag, but the acute crisis is over. **Nothing live here — retire this block next session if it stays quiet.**
+
+### [STATUS.md line 91]
+
+- **Signed Jun 10 2026:** after missing the Jun 1 deadline + the parliamentarian's Byrd carve, GOP reworked the bill to comply and it passed **Senate 52-47 (Jun 5) / House 214-212 (Jun 9); Trump signed Jun 10.** ~$70B, funds **ICE + parts of CBP through end of Trump's term (Jan 2029).**
+
+### [STATUS.md line 92]
+
+- **Sub-split caveat:** do NOT cite "$38B ICE / $26B CBP" as enacted — those are the pre-trim May-4 $71.7B *proposal*; the signed ~$70B allocation is **pending signed-text reconciliation.** Some CBP/HSGAC provisions were trimmed via the Byrd rework. *(The 6/2 structural→CONTESTED downgrade is superseded — the flow is law, not intent.)*
+
+### [STATUS.md line 96]
+
+- **🔴 7/25 — THERMOMETER RETIRED (thesis v2.7).** The forward test below (ES-MARCO-08) **resolved AGAINST labor**: June gasoline −9.68% MoM (energy −5.7%, largest since Apr'20) so the pump-relief premise held, and fresh F&V fell *with* it (+6.74%→+5.71% YoY, −1.05% MoM) = the **freight** branch of MARCO's own fork. Produce CPI demoted a 2nd time → **weak corroboration only; do not cite F&V as Channel-1 evidence in either direction.** Replaced by the **wage instrument** (FL L&H +8.75% vs national +3.87%). MAR-14 74%→45%; ES-05 → RECEDING.
+
+### [STATUS.md line 97]
+
+- **ATTRIBUTION (resolved 5/31, v2.1 — the template for every "is this really my channel?" call):** the spike was real but **MULTI-CAUSAL**, and labor was **one co-driver, not the dominant clean signal** STATUS had claimed. A slow labor *stock* drift cannot produce a one-month +4.0%→+6.1% *acceleration*. Verified co-drivers: **FL freeze** Dec'25–Feb'26 ($3.17B, USDA disaster declaration — a fleet blind spot nobody caught), **Mexican tomato tariff** (17% AD, Jul'25), and **diesel/freight** from the oil-war spike (transient, since reversed). **MAR-21 RESOLVED wrong-mechanism.** Exact split unknowable; the directional conclusion — labor over-credited — is robust. *(I first called the freeze fabricated: WRONG, verified real. Full record + analyst-error log → `domain/sources/PRODUCE_ATTRIBUTION_DECOMP_2026-05-31.md`.)*
+
+### [STATUS.md line 101]
+
+- ICE is **refraining from agricultural worksite raids** (Stateline Nov 2025; ag-press May 2026), concentrating on Democratic-led cities — harvest-protection motive explicit. The Apr-23 "expanding to rural ag/meatpacking" framing has reversed *on the raid vector specifically.*
+
+### [STATUS.md line 105]
+
+- Red River Valley (MN/ND) potato H-2A delays threaten the 2026 crop; South Africa consular interviews backed to **July** (past planting). ~44% of ~2M US farmworkers undocumented; structural drift to larger industrial farms + mechanization as small farms lose labor access.
+
+### [STATUS.md line 110]
+
+- **🟡 7/25 — June: stack holds, air leg narrowing into a fresh tariff.** StatCan (rel 7/13): 1.7M return trips **+3.2% YoY** (3rd consecutive) / **2-yr stack −28.7%** (auto −29.6%, air −25.0%) — TOUR-01 holds. **The air stack narrowed −28.4% → −25.0%** and now sits *on* the threshold — that is the FL-snowbird leg thawing at the margin against still-deleted capacity. **NB: FLL's May collapse is NOT this channel** — Spirit liquidation, see dashboard.
+
+### [STATUS.md line 111]
+
+- **🟢 8/21 — JULY: TOUR-01 CONFIRMED A 5TH TIME, AND THE AIR LEG RE-WIDENED OFF THE LINE.** StatCan Daily (rel 8/11): total return trips **2.3M, +10.2% YoY — the 4th consecutive monthly gain**, which StatCan itself attributes to the base year. **On the scoring basis — the 2-yr stack vs Jul'24 — auto −28.9% and air −26.8%, both still below the −25% structural line.** 🔑 **The air stack REVERSED its narrowing: −25.0% in June (sitting *on* the threshold, flagged last session as the FL-relevant leg thawing) → −26.8% in July.** Air remains **negative YoY (−1.4%)** even in a base-effect month; auto +12.8%. **The FL-snowbird thaw did not continue.** *This is the spec working as designed: a +10.2% headline against a −26.8% stack, and TOUR-01 scores the stack.*
+
+### [STATUS.md line 113]
+
+- **🔴 8/21 — [SUPERSEDED BY THE ROW ABOVE, kept for the record] THE TARIFF NEVER FIRED *ON 8/19*.** Proclaimed 7/20, effective 8/19 12:01 ET, then **PAUSED to Aug 22** on a Trump-Carney deal announced 8/18-19 (USTR: market access, economic security, digital trade; Canada: *"substantial progress"* but *"important work remains"*). This finding was **correct and is confirmed** — the 8/19 date never operated. **What was wrong was the framing bolted to it** (*"the pause expires TODAY"*, three-way branch, *"a concluded deal cuts AGAINST the boycott-hardening read"*): the pause did not expire, **it named a datetime**, and no deal concluded.
+
+### [STATUS.md line 114]
+
+- **Macro frame (v2.4):** the boycott sits *inside* the **first US inbound-tourism decline in 20 years** (CY2025 −5.5%, 68.3M; overseas stuck 14–26% below 2019). Canada is the sharp edge, not the whole story. **FIFA World Cup (Jun 11–Jul 19) was the live reversal test and 8/21 has the answer: it did NOT reverse the decline.** NTTO June — the opening WC month — printed **overseas arrivals 2.75M, −1.8% YoY**; YTD Jan-Jun **15.24M, −4.3%**; July international visitors **−3%**. Industry verdict: *"a room rate event rather than an occupancy event."* **Structural read hardens.** ⛔ ES-MARCO-09 still resolves on **Jun+Jul COMBINED** off the primary workbook (~mid-Sep) — the volume leg may PASS on July seasonality while the vs-2019 leg FAILS. *(Owner: `thesis/THESIS.md` Channel 2 / KB-MARCO-IVF-27 → ES-MARCO-09.)*
+
+### [STATUS.md line 115]
+
+- ⭐ **"The April recovery was base-effect" is the template MARCO failed to apply to itself this session.** Apr prelim +1.4% YoY but **−30.0% vs 2024** — the 2-yr stack *worsened* while the headline flipped positive. TOUR-01 is framed on the stack **for exactly this reason**. The Banxico count tell was written on bare YoY and broke on a base effect three months later. **Same failure, different corridor.**
+
+### [STATUS.md line 127]
+
+- **8/11 — the stand-down text was wrong on the level leg** (it claimed Brent *"never neared $85"* when it had peaked **$100.69** on 7/23). Superseded by the grade above; kept for the lesson: **a watcher reading "never approached" is biased against flagging**, and AEOLUS was holding this trigger on my behalf while that sentence was live.
+
+### [STATUS.md line 128]
+
+- 🔴 **8/21 — THE RUN HELD, AND THE RE-ARM IS ONE CONFIRMATION FROM FIRING. This block said "the current run is 2 sessions"; it is now NINE.** Graded on settlements (`BZ=F`, pulled 8/21):
+
+### [STATUS.md line 129]
+
+
+
+### [STATUS.md line 130]
+
+**Settles (`BZ=F`, pulled 8/21):** 8/07 `83.55` ✗ — **run starts 8/10** `87.72` · 8/11 `88.91` · 8/12 `88.98` · 8/13 `87.07` · 8/14 `88.52` · 8/17 `90.87` · 8/18 `91.02` · 8/19 `91.62` · **8/20 `93.78`** — all ✅ >$85 · *8/21 `94.40` ⚠️ PROVISIONAL*
+
+### [STATUS.md line 131]
+
+
+
+### [STATUS.md line 132]
+
+- ✅ **NINE consecutive COMPLETED settlements >$85 (8/10 → 8/20), unbroken, spanning 11 calendar days** — and **the level is ACCELERATING, not fading toward the line**: the last four completed settles are the four highest of the run, ending **$93.78**, a **10.3% cushion** above the threshold. The prior record run was 7 sessions / 11 calendar days (7/17–7/27), which failed.
+
+### [STATUS.md line 133]
+
+- ⚠️ **NOT GRADED AS FIRED TODAY, and the reason is my own rule.** The spec is *14 calendar days from 8/10, i.e. holding through ~8/23*. **8/23 is a Sunday, so 8/21 (today) is the last trading session inside the window — and today's bar is a PROVISIONAL LIVE BAR** (pulled ~14:2x ET; ICE Brent trades to 18:00 ET). **N5 clause (ii) and my own text both say: do not grade a sustain session off a provisional bar.** ⇒ **Every completed settlement in the window is >$85; the condition is satisfied the moment 8/21's settle confirms, on a T+1 re-pull Monday 8/24.** At $94.40 that confirmation is near-certain but it is not mine to assume.
+
+### [STATUS.md line 134]
+
+- 🔑 **STATUS: RE-ARM PENDING-CONFIRM — the highest state this trigger has reached.** Mechanism AND threshold are both effectively met, pending one clerical confirmation. **On confirmation: re-check the airfare/capacity leg** (Spirit's 5/2 liquidation is the jet-fuel-kills-marginal-carrier precedent) **and DOT Transport CPI**, and re-open the energy→FL tourism/cost channel that was stood down 7/25.
+
+### [STATUS.md line 135]
+
+- ✅ **8/21 late — BRENT RE-PULLED AND WITHDREW ITS OWN FIGURE IN FAVOUR OF MINE.** BRENT's STATUS dashboard carried **8/20 = `93.28`**; **mine (`93.78`) is confirmed correct** and theirs is withdrawn — they re-pulled `BZ=F` and `BZV26.NYM`, both returning `93.78` to the cent, and the whole ladder reproduces on their side. **Their error was captured as a late bar that revised under observation (`93.32` 19:37 ET → `93.28` 19:42) beneath their own footnote saying a moving bar is not a settle.** ⇒ **The Monday grade is unchanged and now rests on two independent pulls that agree.** *(Same $0.50 error reached three HENRY surfaces; BRENT has packeted them.)*
+
+### [STATUS.md line 136]
+
+- 🔑 **RULE AMENDMENT ADOPTED (BRENT's own proposal) — my deference rule would have propagated their error into this grade.** I defer to BRENT on crude because they own the series; they disclosed the weakness in a footnote; **both desks behaved correctly and the wrong number still travelled.** ⇒ **Defer to the owner on SERIES and BASIS questions (which contract, settle-vs-bar, roll handling) — but an INDEPENDENT PULL of the same named contract that disagrees on a VALUE is EVIDENCE AGAINST THE OWNER, not noise to reconcile away.** ⚠️ **Keep roll calendars separate: Brent rolled ~8/3, but `CL`/`HO`/`RB` rolled 8/20** — same trap, different contracts, different dates.
+
+### [STATUS.md line 137]
+
+- ✅ **Series validated before citing, not after:** my `BZ=F` settles reproduce BRENT's independently-pulled 8/10 **$87.72** and 8/11 **$88.91** exactly, and **`BZ=F` == `BZV26.NYM` across every session 8/05–8/21** (the Sep→Oct roll was ~8/3, *before* this window) — **checked, not assumed** ([[finding_continuous_front_ticker_rolls_so_deltas_lie]]).
+
+### [STATUS.md line 138]
+
+- *(What the original stand-down got right and keeps: June energy **−5.7% MoM**, gasoline **−9.68% MoM**; the feared ES-MARCO-08 contamination never happened, so that test ran clean and resolved against labor.)* *(Detail on the 7/9 Iran/Russia mechanism → `thesis/TIMELINE.md`.)*
+
+### [STATUS.md line 141]
+
+- **⚠️ 7/25 — the three legs now point in THREE directions, and the statewide blend hides it.** **Insurance:** split into two vectors that moved *opposite* ways — Citizens' insurer-side exposure de-escalating (PIF corrected 385K→**278,246** Jun-30, rate cut eff **7/1** not 6/1) while **household cost (VX-3.01) stays breached** at ~2.8-3.3x national, most expensive state in the US; momentum broken though (+18% 2025 → ~+2% 2026E). **Migration responds to the household number, not the insurer's balance sheet — do not substitute.** No figure adopted; needs FL OIR primary. **Tourism/condo:** condo 8.1mo (MAR-08 dead), FL L&H *adding* jobs, FL UR 4.7% first decline since 2024, Orlando TDT record — statewide metrics benign. **But:** ATTOM H1-2026 puts the **national foreclosure epicenter — Punta Gorda 0.50% (#1 US), Cape Coral 0.35%, FL #1 state (0.27%)** — in exactly MARCO's SW-FL snowbird/migration geography, with Cape Coral carrying the #1 US negative-equity share (11.1%). **Read: stress is metro-concentrated and statewide blends cannot see it** — an instrument problem, not an absence. → CORAL reconcile **CLOSED 8/3** (Lakeland ruled a third category — see below). ⚠️ **These are RANK claims on an H1-cumulative basis, and FL's LEVEL is still below its own history** (HOMER 7/31, adopted 8/11) — 2025 0.435% vs 2019 0.63%, FL was #8 in 2023, and Lakeland's worst-in-America 0.69% is under its own 2019 0.81%. ⚠️ **Never mix bases**: ATTOM annual / H1-cumulative / quarterly / monthly, plus the MBA "% of LOANS in foreclosure inventory" stock metric — **a FL foreclosure figure near 3–4% is the loans basis and is not convertible.**
+
+### [STATUS.md line 142]
+
+- Condo inventory **8.6mo May** statewide (↓ from 8.9 Apr; inventory −13.4% YoY, sales +6.6% 9th straight). Miami-Dade May: median $415K (−2.35% YoY), sales +5.4% (9th straight up), inventory declining (~12.9mo elevated but absorbing; days-to-sale 106); PB 8.2mo. The distress-inventory thesis softened — supply absorbed, not piling up (MAR-08 >9.0 not met).
+
+### [STATUS.md line 144]
+
+- Airports (session-9 update): **MIA flipped negative** (Mar −1.76%, Apr −2.02%); FLL +10.2% Mar but base-effect; MCO record spring break (domestic anchor). Canadian/discretionary weakness concentrated in air + winter capacity, not yet aggregate FL airport volume.
+
+### [STATUS.md line 145]
+
+- Insurance (FL Citizens) — **RE-MARKED 7/2 (live-verified): crisis PAST-PEAK.** Exposure **~$295.1B (June'25, −43% YoY from $520.1B)**, 67% below peak entering 2026; **PIF 278,246 total at Jun-30-2026** (273,684 personal + 4,562 commercial; CORAL primary from citizensfla.com, 7/21) — lowest ever, trajectory Jan-31 392,689 → Apr-30 294,894 → Jun-30 278,246. **MAR-17 (>$750B) INVALIDATED.** Rates now being **CUT** — personal-lines cut **effective 7/1/26** (HO multiperil −8.8%, wind-only −5.5%), reversing a +15% ask 6mo prior; commercial +10.4% the exception. Next assumption round **8/18**. Crisis easing on exposure AND personal rates, not just risk-shifted. FL insurance → CORAL's domain (CORAL-canonical figures above; MARCO cites, does not re-derive). ⚠️ *This line carried "~385K policies" and a "−2.6% cut eff. Jun'26" until 2026-07-31 eve — both superseded by CORAL's 7/21 primary packet, which sat unprocessed in MARCO's inbox for 10 days while the corrected figure was already written four lines above at STATUS:152. Same class as [[finding_canonical_surfaces_stale_inbox_carries_live_state]].*
+
+### [STATUS.md line 147]
+
+- **FL labor cooling context (WALTER SIG-007, 6/19, April UCF data):** FL jobless **4.8% > US 4.3%** — FL no longer outperforming post-COVID; UCF forecasts payroll growth slowing to 0.1% 2026, slight contraction 2027. Directional support for the cooling read; not yet independently re-verified this session.
+
+### [STATUS.md line 148]
+
+- **Forward driver, new (7/9):** FL property-tax amendment (Nov 3 2026 ballot, Amendment 3/HJR 1F) caps new-resident (post-12/31/26) homestead exemption at $50K for 5yr vs existing residents' $150K→$250K — **structurally anti-migration by design** (FL Phoenix: "without fueling a fresh migration wave"). If passed (poll 64%±3.8 vs 60% bar — tight), reinforces rather than reverses the migration-collapse thesis; does not create a new tax-arbitrage pull for movers. Watch Nov 3.
+
+### [STATUS.md line 174]
+
+| ✅ **Aug 1** | Banxico June remittances — **DONE 8/11.** Count +0.35% = tell broken on the letter, −12.96% 2-yr stack = intact on the stack | ✅ |
+
+### [STATUS.md line 175]
+
+| ⏳ **Aug 1** | OFLC H-2A Q3 FY26 — **NOT PUBLISHED.** Live discovery 8/11 still returns `FY2026_Q2`; DOL is late. MAR-11 (>425K, 88%) unchanged on the 254,688 base. **Re-check each boot** | 🟡 |
+
+### [STATUS.md line 176]
+
+| ✅ **Aug 8** | BLS July NFP — **DONE 8/11.** −23K, LFPR 61.4%, foreign-born LF −550K YoY. *(The state-CES wage leg was NOT re-run — v3.0 pre-commits against it)* | ✅ |
+
+### [STATUS.md line 177]
+
+| 🔴 **Aug 12 — TODAY** | BLS July CPI — ES-MARCO-05 (RECEDING): a 3rd sub-6% F&V print → **resolve DID_NOT_APPEAR, do not push a 4th time.** *(Session 21 ran across midnight; this row was written as "TOMORROW" on 8/11 and is now due.)* | 🟠 |
+
+### [STATUS.md line 178]
+
+| ✅ **Aug 22** | **Section 338 Canada tariff (+50%) — FIRED 12:01 a.m. ET 8/22, primary-verified s24.** Proc. 11056 re-set the date (8/19 never operated). Canada **suspended talks** 8/21 eve. ✅ **Autos RESOLVED** (Proc. 11048 covers motor vehicles; §232-dutiable lines carved out). Canada pull-forward flatters August then reverses | ✅ |
+
+### [STATUS.md line 179]
+
+| 🔴 **Sep 8** | **CANADIAN COUNTER-TARIFFS EFFECTIVE** — dollar-for-dollar on ~$28B, scope steel/dairy/appliances/ag-equipment/pulp&paper/electronics + §232/§338 goods. **Inside the Sep–Nov FL winter-booking window.** Watch the **Canada Gazette / Dept of Finance order** (lands before 9/8) — that is the primary, and if it names a different date the ORDER WINS | 🔴 |
+
+### [STATUS.md line 180]
+
+| 🔴 **Aug 24 (Mon)** | **DOUBLE-RESOLVE.** (i) Brent T+1 confirm of the 8/21 settle → energy re-arm grades (`BZV26`, cross-check `BZ=F`). (ii) FR publishes Proc. 11056 + any weekend US action becomes observable | 🔴 |
+
+### [STATUS.md line 181]
+
+| **~Aug 15** | **NTTO June arrivals (1st World-Cup month)** — ES-MARCO-09 fork: PASS if Jun+Jul overseas ≥5.5M AND ≥−10% vs 2019; FAIL if ≥−20%. Advance signals lean FAIL | 🟠 |
+
+### [STATUS.md line 182]
+
+| **~Aug 15** | Banxico Q1/H1 state-of-origin map — SDL-01 *spatial* test: concentrated drop in high-enforcement states = confirmation. ✅ **Data is already live** — CE99 carries Abr-Jun 2026 (verified 8/11); this is a pull, not a wait | 🟡 |
+
+### [STATUS.md line 183]
+
+| **Aug 18** | FL Citizens assumption round — **now the tell for whether the depop STALL (PIF −185 in 3.5 wks after −29%/5mo, CORAL 8/3) is a pause or a floor** | 🟠 |
+
+### [STATUS.md line 184]
+
+| **Nov 3** | FL property-tax Amendment 3 / HJR 1F — caps new-resident homestead exemption at $50K/5yr vs $150K→$250K for existing. **Anti-migration by design.** Poll 64%±3.8 vs a 60% bar — tight | 🟠 |
+
+### [STATUS.md line 198]
+
+*(Resolved items pruned 7/25 to `thesis/TIMELINE.md` — remittance paradox 6/2, ICE/CBP reconciliation 6/10, TOURISM shelve, SDL-01 formalization. This table now carries OPEN items only.)*
+
+### [STATUS.md line 202]
+
+| *(9 resolved-7/31 rows pruned 8/11 → `thesis/TIMELINE.md`: VX stale sweep triaged 37, boot guard built, VX refresh backlog cleared, Channel-4 v3.1 re-mark, ATTOM overlap answered, SDL-01 magnitude reconcile closed, WALTER consume step installed, inbox 27→0.)* | ✅ |
+
+### [STATUS.md line 204]
+
+| ✅ **VX-3.01 household insurance — FIGURE ADOPTED 8/11** (CORAL 8/3): **~$7,136 / $300K dwelling / 2026**, always with the dwelling-value tag. **The "needs FL OIR primary" blocker was unsatisfiable as written — OIR publishes no statewide average-premium series at all, only rate-change filings.** The $3,815–$8,458 spread was four methodologies, not four disagreements ($8,458 = a year-end *projection*, not an actual). LEVEL high / DIRECTION easing, and only direction has OIR support | ✅ |
+
+### [STATUS.md line 208]
+
+| ✅ **VX stale sweep #2 DONE 8/11 — loaded-status stale rows 3 → 0.** All three pulled from primaries. `TX-03` **BREACHED → ELEVATED** (municipal-stress leg measured and absent); `NV-01` refreshed but **band deliberately NOT re-marked** (see next row); `1.03` **band found unscorable**, confidence 70% → 50% | ✅ |
+
+### [STATUS.md line 211]
+
+| ✅ **MCO pax — UNBLOCKED 2026-08-21 after six sessions.** flymco/GOAA is genuinely JS-rendered, but **BTS T-100 was never tried and it works** — ASP.NET form, 751 airports, 284 monthly rows, and it covers **FLL and MIA too**, replacing the Broward route that died the same day. → `tools/bts_airport_pull.py`. **MAR-22 resolved off it; MAR-24 now scoreable.** ⚠️ ENPLANEMENTS, ~half the airport-reported figure — YoY/stacks within-series only. | ✅ CLOSED |
+
+### [STATUS.md line 212]
+
+| ⚫ ~~**Wage-panel build (thesis v2.7 follow-through)**~~ — **KILLED 7/31 eve. This row instructed a future session to run the exact test v3.0 demoted**, and it survived the v3.0 write-up by six hours. The panel *was* run (7/25, falsified the instrument) and then re-run floor-controlled (7/31, NULL). **v3.0 pre-commits AGAINST a fourth payroll specification** — reopening requires a non-payroll source that observes the population directly (H-2A offer premia above AEWR, vacancy duration, firm-level cost disclosure) | ⚫ KILLED |
+
+### [STATUS.md line 216]
+
+| ES-MARCO-05 → RECEDING: if July + August F&V stay <6%, resolve DID_NOT_APPEAR rather than push a 4th time | 🟡 |
+

@@ -179,6 +179,14 @@ def main():
             later.append(rec)
 
     # PASSED-but-still-listed: the NFP-gap catcher. Most urgent — needs action.
+    #
+    # FIRED-ROW RULE (DAEDALUS ⑫(a) flag 2026-08-28, answered 2026-09-02): OTTO's 7/25 rule
+    # keeps recently-FIRED rows visible for a look-back so they get swept. This fork does NOT
+    # need it, and porting it would be a no-op: `passed` is unconditional on `delta < 0`, with
+    # NO look-back window and NO expiry, so a fired or resolved row CANNOT age out of the print.
+    # It stays in PASSED, every boot, until a human prunes it at closeout step 9 (docket refresh).
+    # That is strictly more conservative than a windowed look-back. DECLINED-AS-NO-OP, not skipped;
+    # re-verify this comment against the `delta < 0` branch above before assuming it still holds.
     if passed:
         print(f"\n  ⚠️  PASSED — still in docket, needs resolve/prune ({len(passed)}):")
         for dt, delta, c in sorted(passed, key=lambda r: r[0]):
