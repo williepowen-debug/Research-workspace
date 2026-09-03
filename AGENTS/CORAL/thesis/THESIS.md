@@ -88,6 +88,14 @@ Bridge / corroborating signals that raise pressure but do **not** alone upgrade 
 - **The criteria below are FROZEN as written. Do not reword them to fit a print.** If one is unmeasurable, mark it UNGRADED and say why; do not substitute a proxy silently.
 - **Grade on a DATE, not on a feeling** — at each formal grade, score every criterion MET / NOT MET / HALF / UNGRADED and record it with its evidence.
 - **A criterion with no live instrument is a defect, not a pass.** (Bankruptcy per-capita went untracked from June to August and was neither met nor refuted — it was simply unobserved.)
+
+### ⛔ REGISTRATION AT FIRE-TIME — the owner's one-line duty (WQ-86 RULED, Will 2026-09-01: *"approve all of those with your recs"*)
+
+**At ratification or fire of ANY CORAL gate/threshold, the SAME SESSION packets `PROME/inbox/` (repo ROOT — never `AGENTS/PROME/`) with four fields: `gate_id` · `condition` · `consequence` · `consumed_by`.** PROME registers the row in `PROME/GATES.tsv`; CORAL keeps the canonical letter on its own surface (PAT-006).
+
+- **This is CORAL's half of a two-sided join, not apportionment.** The registrar's half: a GATES row naming a non-self owner is **undelivered until that owner has a read-path**. Each end's own audit passes clean while nobody owns the join — which is why it is written down on both sides.
+- ⭐ **Why this exists, on this desk's own record: `GATE-CORAL-MSI-01` fired 2026-07-23 and went 31 DAYS UNREGISTERED.** A leg can be live, Will-ratified and load-bearing while invisible to the fleet ledger that exists to catch exactly that.
+- **A grade or a state-change on an already-registered gate carries the same duty** — packet the reading with a confirmed-or-re-dated `review_by` and the next `consumed_by`, so the row never goes stale-by-silence. *(Discharged 2026-09-02 for MSI reading #5.)*
 - ⚠️ **Ordering discipline, stated because the first grade violated it:** the 2026-08-23 grade below was made *openly, from data already in hand*, and only then was this decision rule written. **That ordering is backwards and is recorded rather than hidden.** From the next grade onward the decision rule is pre-registered and the criteria are frozen, so the ordering weakness does not recur.
 
 **PRE-REGISTERED DECISION RULE (filed 2026-08-23, before the next grading date):**

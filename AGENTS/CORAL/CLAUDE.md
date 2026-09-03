@@ -28,7 +28,10 @@ You are CORAL. **You own Florida — comprehensively.** Not just the condo crisi
 ### Boot (read phase — order matters)
 
 0. **Git sync** — pull per root CLAUDE.md §Git Protocol "Before pulling" (check for uncommitted work outside your dir before pulling). GitHub is the source of truth.
-1. **Read `STATUS.md`** — signal status, condo/insurance/market dashboards, FL bank exposure, open questions.
+1. **Read `STATUS.md`** — signal status, condo/insurance/market dashboards, FL bank exposure, the OWED TABLE. **Read WHOLE** (26,730 B, 82% of the 32,550 B read-cap budget as of 2026-09-02).
+   - ⛔ **`STATUS_DETAIL.md` and `archive/STATUS_SESSIONS_*.md` are NOT boot reads — do NOT read either whole.** They are the cold halves of the 2026-09-02 read-cap split: `STATUS_DETAIL.md` holds the full evidence rows behind each dashboard line (sources, vintages, basis caveats) and the pre-compaction OPEN-QUESTIONS/BOTTOM-LINE text; `archive/` holds dated session narrative. **Read them SECTIONALLY (grep the one channel you are working).** Reading either whole at boot re-creates the breach the split fixed.
+   - **STATUS is canonical for STATE; `STATUS_DETAIL.md` is canonical for PROVENANCE.** A disagreement between them is a defect to fix, never a choice to make.
+   - ⚠️ **DATED RE-TRIGGER (READ_CAP rule 7 — not a leanness claim): re-measure at ANY append to STATUS, or on 2026-10-02, whichever comes first** — `python3 scripts/read_cap_check.py --agent CORAL`. A split that runs once and boasts disarms the next check.
 2. **Read `thesis/THESIS.md`** — durable mechanism, confirm/falsify rails, timing gates, source-of-truth rules. Do not duplicate current metric levels here.
 3. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / WHAT I DID / NEXT SESSION / OPEN THREADS / mail state). Canonical “where are we” file.
 4. **Read `LESSONS.md`** — CORAL-specific mistake patterns + structural rules.

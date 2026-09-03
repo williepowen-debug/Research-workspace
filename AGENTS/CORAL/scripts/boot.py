@@ -54,15 +54,63 @@ def rel(path: Path) -> str:
         return str(path)
 
 
+_VINTAGE_RE = re.compile(
+    r"Last real data refresh:\s*(\d{4})-(\d{2})-(\d{2})", re.IGNORECASE
+)
+
+
+def _vintage_epoch(path: Path) -> float | None:
+    """Content-derived vintage: the two-clock header root Data Hygiene (b) wants."""
+    try:
+        head = path.read_text(errors="replace")[:4000]
+    except Exception:
+        return None
+    m = _VINTAGE_RE.search(head)
+    if not m:
+        return None
+    try:
+        return datetime(int(m[1]), int(m[2]), int(m[3])).timestamp()
+    except ValueError:
+        return None
+
+
+def _git_commit_epoch(path: Path) -> float | None:
+    try:
+        out = subprocess.run(
+            ["git", "log", "-1", "--format=%ct", "--", str(path)],
+            cwd=str(WORKSPACE), capture_output=True, text=True, timeout=10,
+        )
+        if out.returncode == 0 and out.stdout.strip():
+            return float(out.stdout.strip())
+    except Exception:
+        pass
+    return None
+
+
 def file_age(path: Path) -> tuple[float | None, str]:
+    """Age with a NON-mtime-primary basis.
+
+    ⛔ mtime is CORRUPTED BY GIT SYNC — a pull restamps every file on the
+    receiving box, so an mtime-keyed staleness check reads every ledger as
+    FRESH right after a pull and fails FALSE-NEGATIVE (DAEDALUS wiring-sweep
+    flag ⑯, 2026-08-28; `finding_mtime_is_corrupted_by_git_sync`).
+    Chain, per root CLAUDE.md §Data Hygiene (b): content-derived vintage →
+    git-commit time → mtime LAST RESORT (uncommitted files only). The basis is
+    printed so a reader can see which clock answered.
+    """
     if not path.exists():
         return None, "MISSING"
-    age_h = (time.time() - path.stat().st_mtime) / 3600
+    epoch, basis = _vintage_epoch(path), "vintage"
+    if epoch is None:
+        epoch, basis = _git_commit_epoch(path), "git"
+    if epoch is None:
+        epoch, basis = path.stat().st_mtime, "mtime!"
+    age_h = (time.time() - epoch) / 3600
     if age_h < 1:
-        return age_h, f"{age_h*60:.0f}m"
+        return age_h, f"{age_h*60:.0f}m[{basis}]"
     if age_h < 48:
-        return age_h, f"{age_h:.1f}h"
-    return age_h, f"{age_h/24:.1f}d"
+        return age_h, f"{age_h:.1f}h[{basis}]"
+    return age_h, f"{age_h/24:.1f}d[{basis}]"
 
 
 def read_text(path: Path, max_chars: int = 20000) -> str:
