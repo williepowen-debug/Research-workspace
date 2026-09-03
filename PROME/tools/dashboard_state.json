@@ -1,5 +1,5 @@
 {
- "built": "2026-09-03 08:31",
+ "built": "2026-09-03 09:21",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -79,12 +79,7 @@
  },
  "gates": {
   "GATE-BRENT-COT-35B": "live:LIVE",
-  "GATE-BRENT-DEPLOY-V2": "resolved:RETIRED",
-  "GATE-BRENT-SUSTAIN": "resolved:RESOLVED",
-  "GATE-BRK-C1": "resolved:RESOLVED",
   "GATE-CORAL-MSI-01": "live:LIVE",
-  "GATE-CREED-T02": "resolved:RESOLVED",
-  "GATE-CREED-T06B": "resolved:RESOLVED(FIRED",
   "GATE-FALCON-001": "live:LIVE",
   "GATE-FERT-G3": "live:LIVE",
   "GATE-FERT-G5": "live:LIVE",
@@ -98,18 +93,9 @@
   "GATE-OP-SCALE-01": "live:LIVE",
   "GATE-OSPREY-001": "live:LIVE",
   "GATE-REG-T02": "resolved:RESOLVED(FIRED",
-  "GATE-RESHAPE-BC": "resolved:RESOLVED-FIRED",
-  "GATE-SAM-30": "resolved:RESOLVED",
-  "GATE-TERRY-006": "resolved:RETIRED",
   "GATE-TERRY-007": "live:LIVE",
-  "GATE-TERRY-ARM1": "resolved:RESOLVED",
-  "GATE-TERRY-ARM2": "resolved:RESOLVED",
-  "GATE-TERRY-ARM3": "resolved:RESOLVED",
   "GATE-TERRY-ROLL70": "resolved:RESOLVED(FILLED",
-  "GATE-TERRY-USO135C": "live:LIVE",
-  "GATE-VIO-110": "resolved:LAPSED",
-  "GATE-VIO-116": "resolved:RESOLVED",
-  "GATE-VIO-RV1": "resolved:RETIRED"
+  "GATE-TERRY-USO135C": "live:LIVE"
  },
  "levels": {
   "10Y Yield": 4.79,
