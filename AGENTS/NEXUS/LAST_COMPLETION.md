@@ -9,8 +9,8 @@
 | # | Unit | Result |
 |---|---|---|
 | 1 | **THE COMMISSION — self-audit improvement slate (leg ①)** | ✅ `proposals/2026-09-02_self-audit-improvement-slate.md` — **11 ranked items**, war-triad format, SELF/WILL/CROSS, **proposals only**. 9 HEALTHY findings recorded. **§DIFF opened only after items 1-11 were on disk.** |
-| 2 | **READ-CAP CURE (DAEDALUS PR#5 condition #1 + root canon)** | ✅ **46,471 B → 32,526 B**, verified `✅ READ-CAP 0` at the fleet instrument. **13 crc32 blocks moved VERBATIM → `STATUS_COLD.md`** (20,595 → 59,469 B). Zero live state dropped, budget not raised. |
-| 3 | **FULL MATRIX REVIEW (PR#5 condition #2) + inbox drain both lanes** | ✅ Board re-anchored 8/18→9/02, **22/22 items drained**, split re-marked **21/44/35 → 20/47/33**. |
+| 2 | **READ-CAP CURE (DAEDALUS PR#5 condition #1 + root canon)** | ✅ **46,471 B → 32,376 B**, verified `✅ READ-CAP 0`. **13 crc32 blocks VERBATIM → `STATUS_COLD.md`** (59,469 B). Zero live state dropped, budget not raised. 🔴 **Took THREE passes — pass 3 was PROME's obligation diff, which found my split had DELETED two live obligations from BOTH files. See §POST-SPLIT AUDIT.** |
+| 3 | **FULL MATRIX REVIEW (PR#5 condition #2) + inbox drain both lanes** | ✅ Board re-anchored 8/18→9/02, **23/23 items drained** (22 + one late mover), split re-marked **21/44/35 → 20/47/33**. |
 | 4 | **9/11 PRE-REGISTRATION + WQ-105 discharge** | ✅ `research/2026-09-02_t12_respec_admission_gate_prereg.md` (frozen). WQ-105 ACTIONs (a)-(e) all executed. |
 
 ---
@@ -51,6 +51,37 @@ Applying slate item 3's rule (**base-rate reachability against the AMENDED text*
 **Disc-H, load-bearing twice:** `HY <260 s3` is now **FOUR desks, ONE line** (branch B · RED-FT-12 · HENRY's kill leg · LIQUID's GATE-HY-REKILL). **And three separate desks carry one-sided conjunctions whose easy leg is near and whose hard leg recedes** — REGINALD's re-arm leg (a) is **1bp away at CCC 1049** while leg (b) is 7bp out of reach and receding. **Disc-H changes the COUNT and has no ACTION** — slate item 4, routed to Will as a fleet question because I am one of the four.
 
 ---
+
+## 🔴 POST-SPLIT AUDIT — PROME's obligation diff (run AFTER the first push; it found real defects)
+
+**PROME's instruction, off ZHAO's same-day instance (`1760582bd`): audit the split by OBLIGATION, not by bytes or lines — ZHAO's split moved an owed action verbatim into cold and the fresh hot list carried every other item forward without it.** Run against the pre-split artifact at `58eca316c^`. **It found three, and they are mine.**
+
+| Pre-split obligation | Disposition after MY split | Verdict |
+|---|---|---|
+| **Gamma flip — "Vintage 8/6, refresh owed by owner"** | **In NEITHER file** | 🔴 **DELETED, not relocated.** Worse than ZHAO's case: hers went cold, mine vanished. **RESTORED HOT**, now marked `[STALE 8/6, 27 days]` with HENRY named. |
+| **OTTO 8/17 10-D panel — "legs owed to Will BEFORE"** | **In NEITHER file** | 🔴 **DELETED.** It lived inside the CARL→REGINALD chain cell and died when I compacted that cell. **RESTORED HOT** in the same link. |
+| **RED's FT-01 demotion guard** (*"do NOT key anything to RED's kill line at 280"*) | Cold only | 🟠 **A live INSTRUCTION pushed into an archive.** **RESTORED HOT** as a standing guard row. |
+| (a) commission · (b) matrix re-anchor · (c) 9/11 re-spec · (d) rollup · (f) T6+ORACLE · MIDAS row 51 · BROCK <270 · RED-FT-09 · OSPREY · TTF · R9 · C-35 | hot, or discharged with the discharge visible on a boot-read surface | ✅ **clean, 12 of 15** |
+| (e) VULCAN §4.5 + HOMER ordering | **discharged this session**; discharge is on a boot-read surface (`NEXUS_BRIEF_SCHEMA.md` §4.5 + §4.6) | ✅ clean |
+
+⭐ **THE RULE THIS PRODUCES: a hot/cold split must be audited by OBLIGATION, because a byte or line census is STRUCTURALLY BLIND TO A DELETION.** Both my earlier checks — `measure.py` and `read_cap_check.py` — returned green on a file that had silently lost two owed actions. **The instruments were working; they were answering a different question.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.
+⚠️ **Second-order, recorded against myself:** my first survival scan used fuzzy substring matching and produced **five false positives** (JGB, T6, BROCK <270, 10Y/30Y, Core CPI all read as "dropped" when they were present under reworded labels). **Hand-checking was what separated the two real drops from the five relabels** — `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`, which is in my own loaded HOT index and which I ran into anyway. **At n=21 rows the definition-plus-read beats the detector, exactly as slate item 8 says.**
+
+## 📏 BOOT-READ TOTAL, before → after (PROME's second ask — MIDAS's failure mode)
+
+| Surface | BEFORE | AFTER | Δ |
+|---|---:|---:|---:|
+| `STATUS.md` | 46,471 | **32,376** | **−14,095** |
+| `templates/NEXUS_BRIEF_SCHEMA.md` | 22,909 | 28,971 | **+6,062** |
+| `SIGNALS.md` | 6,859 | 9,393 | **+2,534** |
+| `CONFIRMED.md` | 7,216 | 7,216 | 0 |
+| **INSTRUMENT-SCOPED BOOT-READ TOTAL** | **83,455** | **77,956** | **−5,499 (−6.6%)** |
+| (+) `CLAUDE.md` (auto-injected) | 50,948 | 50,948 | 0 |
+| (+) `PREDICTIONS_MONITOR.md` (contested, item 1) | 57,566 | 59,146 | +1,580 |
+| **WIDEST BOOT-LOAD TOTAL** | **191,969** | **188,050** | **−3,919 (−2.0%)** |
+
+✅ **MIDAS's exact failure mode did NOT occur: `STATUS_COLD.md` (59,469 B) is not named as a read anywhere in the boot section** — verified by grep, not assumed. The cut material did not go to a live register.
+🔴 **But a sibling of it DID, and the honest headline is the composition, not the −5,499:** **62% of the 14,095 B I cut from STATUS was consumed by growth on TWO OTHER boot-read surfaces in the SAME session** — the schema (+6,062, amendment 12 + the §4.6 CAP) and SIGNALS (+2,534, the DEWEY correction). **Every per-surface check passes and the total barely moved.** ⭐ **A per-surface budget with no total is a budget a single session can satisfy on one file while spending the savings on two others.** Offered to DAEDALUS/READ_CAP as a design question — **not proposed as a rule**, because a total-load cap would trade against the spec-text rule (inline-first) and that trade is not mine to price.
 
 ## FILES CHANGED
 
