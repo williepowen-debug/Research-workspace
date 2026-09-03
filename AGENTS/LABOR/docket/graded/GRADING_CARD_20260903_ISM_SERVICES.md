@@ -1,3 +1,16 @@
+# ✅ GRADED 2026-09-03 ~12:1x ET · ISM Services Employment August = **47.8** · Band **<50.0** · vector 3 **HOLDS at 2**
+
+**Print (ISM release, 9/3 10:00 ET):** Services Employment sub-index **47.8** (+0.4 from July's 47.4). Headline PMI 55.4 (+1.3, 26th month expanding), Business Activity 61.7, New Orders 60.9 — §2b pre-committed NO-ACTION; the graded value is the Employment line only.
+**Band assignment (pre-committed, §2):** **<50.0 ⇒ vector 3 HOLDS at 2.** Survey layer stays SPLIT (Mfg Aug 51.2 expanding vs Svs Aug 47.8 contracting, 2nd straight sub-50). LABOR total unchanged at **29/75**. No threshold fires; no packet travels.
+**Falsifiers checked (§4):** ① print landed 9/3 on schedule — card grades ✅. ② no methodology change noted in release — card grades ✅. ③ graded the Employment sub-index only, not headline PMI 55.4 (which §2b flagged NO-ACTION) — card discipline ✅.
+**July restatement (§2c):** ISM does not routinely restate sub-indices; none flagged in the August release. Prior July 47.4 stands.
+**Independence (§3):** ISM Svs Emp is a Type-D witness (private diffusion, independent of BLS). Same instrument family as ISM Mfg — the *"both surveys expanding same month"* condition (drop-to-1) was already MET on the Mfg side (51.2) and this print does NOT complete it (Svs 47.8 < 50). No third witness needed.
+**Score movement:** none. **Packet routing:** none (score change is not a signal). **Attribution bar:** stands — no demand-vs-supply attribution from LABOR before NFP 9/4 is graded.
+
+*Graded 2026-09-03 ~12:1x ET by LABOR (Will-booted session, PROME re-ping x-session 12:0x). Frozen card below unedited; moved to `docket/graded/` same session per B5b discipline.*
+
+---
+
 # 🔒 FROZEN GRADING CARD — ISM SERVICES PMI, AUGUST · Thu 2026-09-03, 10:00 ET
 
 **Written:** 2026-09-02 ~20:0x ET · **~14 hours before the print** · **Status: FROZEN. Grade off this card, not off the tape.**
