@@ -1,2 +1,10 @@
+# FROZEN 2026-09-02 — not maintained; STATUS is canonical, do not cite rows as current.
+# Single-run probe (run_ts 2026-07-25, verdict NO HALT — 8/8 validated shelves issued in 2026).
+# Cadence: EVENT-DRIVEN — re-run scripts/shelf_halt_monitor.py when OTTO-07 (>=1 subprime ABS shelf halts
+#   issuance, OPEN 15%, resolve 2026-12-31) needs a fresh reading, or on any reported shelf withdrawal.
+# Named in STATUS.md SIGNAL DASHBOARD (Subprime ABS shelf activity row) as of 2026-09-02 — DAEDALUS
+#   staleness sweep #4 / PAT-095 asked for re-run-or-declare-or-freeze; OTTO declares FROZEN + EVENT-DRIVEN.
+# Why frozen and not re-run: OTTO-07 sits at 15% after the 8/8 measurement moved it 55 -> 15; a monthly
+#   re-run of an instrument whose last reading was unanimous buys no decision before the 12/31 resolve.
 run_ts	status	probe_year	control_year	shelves_checked	shelves_issuing	shelves_quiet	shelves_invalid	per_issuer_vintages	verdict	notes
 2026-07-25T13:36:42	OK	2026	2025	8	8	0	0	Exeter=2026-1,2026-2,2026-3;Santander=2026-1;CPS=2026-A,2026-B,2026-C;Westlake=2026-1,2026-2;Lendbuzz=2026-1;GLS=2026-1,2026-2;ACA=2026-1,2026-2,2026-3;Bridgecrest=2026-1,2026-2,2026-3	NO HALT — every validated shelf issued this year	All 8 validated shelves show at least one 2026 vintage. This is a REAL observed zero-halts reading, attributable to a run that executed at 2026-07-25T13:36:42 with per-issuer controls passing against 2025.

@@ -49,40 +49,52 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (s019 → s020, same evening, 2026-08-27)
-- Same-day re-boot. **Nothing external moved**: First Brands conversion order still NOT entered at the 21:47 EDT poll (tip Dkt 3727), EART July 10-D not filed (verified at EDGAR, not inferred from a quiet tool).
-- What moved was **internal**: the inbox drained 9→0 and three of OTTO's own instruments were repaired.
+### CHANGES SINCE LAST SESSION (s020 2026-08-27 → s021 2026-09-02, PROME-spawned dark-owner drain)
+- **The 9/9 deliverable landed 7 days early.** `collection_period` is on `PANEL_10D.tsv`, 137/137, and CARL's registration condition (WQ-107) is discharged.
+- **External movement, all of it found by the drain rather than by a poll:** the Tricolor privilege chain fired 8/7 + 8/14 (OTTO's row had been re-keyed forward across it); CRMT went silent on EDGAR after 8/14 while the stock fell 27.6% in two weeks; the First Brands proposed conversion order was filed 8/27 (Dkt 3722) but ENTRY is still unverified.
+- **Inbox 15 → 0** (5 root + 10 WALTER), both lanes.
 
-### LAST SESSION (s020 — the instruments got fixed, and three of the four fixes cut against OTTO)
-- **🔴 26 of 26 deal-months worse YoY, zero improving, all three tiers.** The matched-**collection-month** test ran for the first time after `--history 15` took all nine deals from 5-15 to **14-15 observations** (control PASS, history re-based onto the reconciled 60+ definition). **CARL's V2 requirements (a)×(c) had been jointly UNSATISFIABLE** — the broad/Carvana tiers had 5 observations against the ≥13 a matched-month test needs — **and nobody had noticed.** New signal: **broad-tier YoY gap narrows monotonically (+1.92 → +1.63 → +1.00) while deep and Carvana do not.**
-- **🔴 A number OTTO published as FACT for six months was an analyst's [EST] about a different contract.** *"Bridgecrest services $26B at 0.117% (below market)"* vs Gotham's actual *"we **estimate**… on loans sold by CVNA to **'Third parties'**."* Primary: **BLAST 2024-1 = 3.50%/yr, SDART 3.00%, Drive 4.00% — at market.** Conviction unchanged: **the claim was never load-bearing on the ABS perimeter, so what died is a bad argument FOR the thesis, not evidence for it.** THESIS v1.4→**v1.5**.
-- **🔴 Extension fees accrue to the SERVICER — identical boilerplate in all three shelves.** The party granting an extension is paid to grant it. **But because it is universal, a high extension rate is NOT evidence of intent by itself** — only deviation from peers can carry weight. Cuts against OTTO; recorded for that reason.
-- **🔑 RP-OTT-2.5:** skip precondition **spreading but not deepening** (share 26.6→29.6%, depth flat/negative-real). **Independent corroboration of the SDT REFUTE**, before the ~Nov 15 re-run. **Manheim is the hinge and it just went +1.3% → FLAT.**
-- **🔴 OTTO-10 is NOT FALSIFIABLE** — new-only 6.61% would already CONFIRM `<13%`; used-only 22.47% is unreachable. Gate row created for **Sep 20**, ten days early on purpose.
-- **⚖️ Will ruled row 102 (a).** `CLAUDE.md:213` amended **with provenance**; both WALTER drops committed. Git showed the overridden line was a **2026-04-15 parenthetical example** of the then-correct general rule — no rationale was lost.
+### LAST SESSION (s021 — a consumer got unblocked, and four instrument defects came out of it)
+- **✅ `collection_period` LANDED, 137/137, zero inferred.** Label-anchored (CARL's §3 warning: tag numbers are unstable across shelves AND across months on the same deal). No fallback to filing_month−1.
+- **🔑 The corrected basis changed NOTHING** — 30 of 30 matched-collection-month deal-months worse YoY; BROAD +1.92/+1.63/+1.00 and DEEP +2.29/+1.85/+1.21 reproduce to the decimal. That is the result that makes the leg registerable.
+- **⭐ The retired inference was wrong on 8 rows** (8 collisions, 9 gaps → 0/0/1), all Exeter DEEP at the two double-filing dates, off by TWO months not one — and **zero land in the months the YoY table uses**, so 8/27's "the 26-of-26 stands" is now VERIFIED rather than asserted.
+- **⚠️ `months_seasoned` is issuer-stated MINUS ONE, 7 of 7.** Flagged to CARL, NOT silently shifted 8 days before his sitting (Bridgecrest does not disclose the field ⇒ adopting issuer-stated everywhere mixes bases).
+- **⛔ A reader defect was one commit from being recorded as an issuer non-disclosure** — 2 Bridgecrest exhibits split the date across HTML cells ("3 /1/2026") and the first pass called them `label-not-found`.
+- **🔴 The 9/4 Tricolor row had already fired** on 8/7 and 8/14. Ladder closed, re-dated to Dec 4 / Dec 9 with the reason.
+- **📐 STATUS was at 214% of the read cap** — boots had been reading a partial file with no error. Verbatim hot/cold split; 69,591 → 32,427 B; `read_cap_check` rc 1 → 0.
+- **⛔ OTTO-10's Experian Q1-2026 pair is not primary-confirmable** (chart-image locked; DEWEY). Only Q4-2025 is verified.
 
 ### NEXT SESSION
-0. **⚠️ STANDING — field-count EVERY tsv you touch.** `awk -F'\t' 'NF!=<n>&&NF>0{print NR}' <file>`. Ran clean at s020 on CATALYSTS(8)/PREDICTIONS(9)/ML(8)/PANEL_10D(14).
-0b. **🔴 COMMITTED TO CARL: the EART July 10-D gets an UNPROMPTED deal-level send the day it lands, collection month stated per row.** Live band **Fri 8/28 or Mon 8/31** (measured from Exeter's own cadence: 0-2 business days before month-end). **CARL grades V2 by ~9/10 using this panel.**
-1. **🔴 POLL `docket_id:71483359` FIRST, EVERY SESSION** — target is **ENTRY of the conversion order**, OTTO-32's resolver at 97%. Not entered at 8/27 21:47 EDT. **RECAP lag ≠ non-filing.** The 8/24 transcript (Dkt 3727) unlocks ~11/2 — **do not speculate about Lopez's reasons.**
-2. **Bundle the EART 2026-4 FWP check with the July 10-D run** — both Exeter EDGAR pulls, one extra query. **If still unswept after that: escalate to P1 or RETIRE the row.**
-3. **OTTO-10 perimeter gate fires Sep 20**, ten days before the resolve, because the failure mode is drift-then-resolve-on-convenience.
-4. **Watch Manheim UVVI** — now a named Secondary-thesis input, not just the SDT gate. Flat as of mid-Aug.
-5. **Owed:** PREDICTIONS_ARCHIVE post-mortems for OTTO-04 + OTTO-30 (carried since 8/14). `panel_10d.py` **`collection_period` column** — the V2 leg spec cannot be registered on an inferred collection month that is known to break off-cadence (8 collisions, 9 gaps at Exeter's double-filed Dec/Mar). `EDGAR_8K_MONITOR` earnings-window refresh + first FLG check.
-6. **DEAD LEADS — do not re-run.** (a) TBK syndicate roster. (b) Fitch alternatives. (c) 2018-2021 Tricolor vintages. (d) Press-sweeping First Brands — the docket is the source. (e) Party-to-party discovery dates. (f) Quoted CourtListener FTS as an exact-phrase check. **(g) NEW — the 0.117% as a portfolio-wide fee: it is an [EST] on the third-party whole-loan perimeter, and that perimeter is a private agreement, not obtainable.**
+0. **⚠️ STANDING — field-count EVERY tsv you touch.** `awk -F'\t' 'NF!=<n>&&NF>0{print NR}' <file>`. Ran clean at s021 on CATALYSTS(8), ML(8), PANEL_10D(15), PREDICTIONS.
+1. **🔴 GRADE LETTER 1 on Sat 9/5** and **LETTER 2 on Fri 9/11 (NOT before the 9/8 close — 9/7 is Labor Day).** Bands are FIXED in `research/outputs/RP-OTT-5.1`. **A band moved after the fact is a retrofit, not a read.**
+2. **🔴 CARL owes one answer: which seasoning basis** (issuer-stated vs OTTO-computed) the V2 leg registers on. CARL was DARK on 9/2 and his sitting is ≤9/10 — **if he has not booted by ~9/8, doorbell PROME.**
+3. **🔴 POLL `docket_id:71483359` FIRST, EVERY SESSION** — ENTRY of the conversion order is OTTO-32's resolver at 97%. Proposed order Dkt 3722 filed 8/27; entry UNVERIFIED at 9/2; **PacerMonitor's "Chapter 7" header is INFERRED, not verification — do not resolve on it.**
+4. **🔴 NEW live intermediate on the Tricolor track:** the **exhaustive securitization list for Counts 7-8**, owed ~8/28 under the 8/14 bill-of-particulars ruling, **UNVERIFIED**. It names the charged securitizations = a direct read on the double-pledging perimeter. Highest-value item on that track.
+5. **OTTO-10 perimeter gate fires Sep 20.** First item is now the Experian impeachment — OTTO cannot settle a perimeter against a figure it cannot read at source.
+6. **~Oct 1 10-D cycle** — August collection month, first two-tier read after the CRMT decision. `collection_period` now populates automatically.
+7. **Owed, carried:** PREDICTIONS_ARCHIVE post-mortems (OTTO-04, OTTO-30, carried since 8/14). EART 2026-4 FWP still unswept — **escalate to P1 or retire at the next Exeter pull, as pre-committed.** `EDGAR_8K_MONITOR` windows Apr-2026 vintage. Manheim UVVI watch.
+8. **DEAD LEADS — do not re-run.** (a) TBK syndicate roster. (b) Fitch alternatives. (c) 2018-2021 Tricolor vintages. (d) Press-sweeping First Brands BDC counts — **BROCK measured it at the Q2-10-Q perimeter; OTTO's $237M perimeter is unrecoverable and will not be reconstructed.** (e) PACER-dependent questions (Rule 2004 counting) — **instrument gap, not effort gap; do not re-attempt without PACER.**
+
+- **⛔ PROCESS ERROR, s021, mine:** BROCK's reply packet ARRIVED DURING the session and I swept it into `processed/` **without reading it** — caught only at the pre-commit `git status`. It carried three things that changed my output: (1) *do NOT re-date your letter to mine*, (2) a structural correction that moved band 2A **40% → 50%**, and (3) BROCK **retiring** the `$17.5–22.5M` figure my STATUS row was quoting. **A bulk `inbox/ → processed/` sweep at closeout does not distinguish "consumed" from "arrived while I was working."** Next time: re-list the inbox immediately before the sweep and read anything whose mtime is inside the session.
 
 ### DURABLE LESSONS CARRIED
-- **A ruling governs the next write, not the existing state — FOUR instances this session.** Pair every ruling with a retroactive sweep. `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]`
-- **Before writing "X is unanswered at N days," grep the inbox for X.** Two such items had been answered 17 and 24 days earlier; each selected work that did not need doing. WALTER charged me with this class 8 days before I reproduced it. `[[finding_canonical_surfaces_stale_inbox_carries_live_state]]`
-- **A date-keyed scanner measures the calendar, never the world.** `[[finding_date_keyed_scanner_cannot_see_an_early_resolver]]`
-- **A frozen ledger stays frozen** — correcting one row inside it implies the rest are maintained.
-- **Grade the claims, follow the pointers anyway.** A media artifact whose two headline numbers both failed still produced the pull that corrected OTTO's own canon.
+- **A bulk inbox sweep cannot tell "consumed" from "arrived mid-session."** Re-list before sweeping; read anything newer than session start.
+- **An amendment to a pre-registration is legitimate; a retrofit is not — and the difference is checkable, not a matter of intent.** Band 2A moved 40 → 50 on BROCK's structural read, **five days before the event, with the superseded number kept visible and both scheduled for grading.** Score both.
+- **Two desks restating one source is ONE source.** OTTO and BROCK independently registered the same non-collapse of CRMT's silence — but both are downstream of the same DEWEY read of the same redaction. That is agreement, not corroboration.
+- **A flagged weakness that does not change what ships is decoration** (BROCK, against himself: he wrote "I tightened the MARK, not the PAR" and published the product anyway).
+- **A date-keyed sweep asks "has this date passed?" and never "did the event already happen?"** The 9/4 Tricolor row was moved forward across the window in which all four of its rungs fired. Every guard passed. `[[finding_dated_carry_item_has_no_expiry_check]]`
+- **A line-cap and a byte-cap measure different things.** STATUS sat at 261 lines — inside OTTO's own ~250-line cap by a hair — while being **214% of the fleet byte cap**. The local guard read green throughout the breach.
+- **Report the instrument defect that cuts against you, in the same packet as the result.** Two of tonight's four findings weakened OTTO's own instruments; both went to CARL in the delivery, not in a later correction.
+- **When a consumer refuses to assume your perimeter, the honest answer may be "I cannot state it."** BROCK asked; OTTO could not recover it; the disposition is to mark the figure unqualified rather than invent a denominator.
+- **A ruling governs the next write, not the existing state.** Pair every ruling with a retroactive sweep.
+- **Before writing "X is unanswered at N days," grep the inbox for X.**
 
 ### FLEET-FLAG (surface to Will/PROME)
-- **✅ Row 102 RULED (a) and EXECUTED** — `CLAUDE.md:213` amended with provenance, both drops committed. **Scope note worth acting on:** OTTO's line turned out to be an unswept *example*, not a considered policy — **other agents' lookalike local lines are likely the same class and warrant a grep rather than waiting for each to fire.** PROME's call.
-- **For CARL:** V2 leg spec delivered with two requirement defects named; **26-of-26 result means the downgrade does not fire on the seasonality-honest instrument.**
-- **For BROCK (unchanged):** First Brands Ch.7 conversion ordered — **$237M BDC par + PSEC Rule 2004 both worsen.**
-- **Corrections propagating:** any surface citing **Bridgecrest's servicing fee as 0.117% portfolio-wide** is wrong (it is 3.50% at the ABS level); **CVNA is $74.09**.
+- **For CARL (time-critical, ≤9/10):** panel unblocked, 30-of-30 registerable, **one ASK open on seasoning basis**; CARL was DARK on 9/2.
+- **For DAEDALUS:** both asks answered — **read-cap split executed** (rc 1→0) and **`SHELF_ACTIVITY.tsv` FROZEN + cadence declared EVENT-DRIVEN + named in STATUS**, so the boot alarm that had printed since ~8/24 is now carried by a named list.
+- **For BROCK:** First Brands $237M perimeter is **unstatable** — treat as `[PRESS][STALE 2026-02]`; his six-at-Q2-10-Q is the live measurement. Rule 2004 counting stays open as an **instrument** gap on both desks.
+- **For CARL/RED/PROME:** OTTO's Experian Q1-2026 subprime-share pair is **chart-image locked and not primary-confirmable** — anyone quoting 14.40 → 15.75% as a filed figure is wrong.
+- **Corrections still propagating:** Bridgecrest servicing fee is **3.50% at the ABS level**, not 0.117% portfolio-wide. **Wilmington Trust has NO live trustee role at CRMT** — Deutsche Bank on all five ACM trusts.
 
 ### PENDING PUSH
-- s020 committed + pushed throughout (`58f938ea0`, `4d1a2be81`, `e6d7d8ec1`, `84c76ec13`, `8b9bfda5d`, `7fcd0a0b6`, `b9764b623`); closeout commit follows.
+- s021: see LAST_COMPLETION for shas. Packet to CARL committed `62f658566` before the rest of the closeout, deliberately — an uncommitted packet never reaches the recipient.
