@@ -29,7 +29,21 @@ REQUIRED = [
 ]
 
 # Active rows older than this many days get a re-verify / retire flag at boot (anti-rot).
-SIGNAL_STALE_DAYS = 21
+SIGNAL_STALE_DAYS = 21   # fallback ONLY — the tightest bar, used when a row declares no decay class
+
+# SIGNALS.tsv line 3 declares its own bars: "Decay bars: short=21d med=45d durable=90d,
+# measured against as_of (NOT date_recv)". Until 2026-09-03 boot.py ignored that column and
+# applied 21d to EVERY row, so a `durable` row at 22d printed "⚠ STALE >21d" against a bar of
+# 90. Measured on the live ledger the day of the fix: 5 rows flagged, only ONE (23d vs a short
+# bar of 21) was actually over — a 4-in-5 false-positive rate on a line whose only job is to be
+# believed. ⚠️ That is how an advisory dies: the desk's own ledger_sweep notes record the same
+# lesson ("a false positive here buys alert fatigue"). Fallback is the TIGHTEST bar, so a row
+# with a missing or unknown decay class still warns rather than going quiet.
+SIGNAL_DECAY_BARS = {"short": 21, "med": 45, "durable": 90}
+
+
+def _signal_bar(row) -> int:
+    return SIGNAL_DECAY_BARS.get((row.get("decay") or "").strip().lower(), SIGNAL_STALE_DAYS)
 
 
 def _tsv_rows(path):
@@ -301,8 +315,8 @@ def run(args):
         d = _parse_date(r.get("as_of"))
         if not d:
             note = "  ⚠ UNSET — pull from NEXUS"
-        elif (today - d).days > SIGNAL_STALE_DAYS:
-            note = f"  ⚠ {(today - d).days}d old — refresh from NEXUS"
+        elif (today - d).days > _signal_bar(r):
+            note = f"  ⚠ {(today - d).days}d old vs its {r.get('decay') or 'short'} bar ({_signal_bar(r)}d) — refresh from NEXUS"
         else:
             note = ""
         print(f"  ★ PIN {r.get('cluster')} [{r.get('source')}]: {r.get('key_level')}{note}")
@@ -319,10 +333,11 @@ def run(args):
             # SUBSTRING test -- so a row could be counted active and never earn its retirement
             # warning (live 8/28: 3 of 12 active rows at 65d/36d/39d printed with NO flag, one of
             # them literally labelled LEVELS-STALE). Split-brain fix: same substring test here.
-            if "DECAYING" in st and days > SIGNAL_STALE_DAYS:
-                flag = "  ⚠ decaying >21d — reconfirm before use"
-            elif "LIVE" in st and days > SIGNAL_STALE_DAYS:
-                flag = "  ⚠ STALE >21d — re-verify or retire"
+            bar = _signal_bar(r)
+            if "DECAYING" in st and days > bar:
+                flag = f"  ⚠ decaying {days}d > its {r.get('decay') or 'short'} bar ({bar}d) — reconfirm before use"
+            elif "LIVE" in st and days > bar:
+                flag = f"  ⚠ STALE {days}d > its {r.get('decay') or 'short'} bar ({bar}d) — re-verify or retire"
         print(f"  - [{r.get('source')}] {r.get('signal_id')} [{st}] {r.get('bears_on')} | {r.get('key_level')} | as_of {r.get('as_of')} ({age}){flag}")
     for r in unknown:
         print(f"  ? [{r.get('source')}] {r.get('signal_id')} [{(r.get('status') or '').upper()}] "
@@ -390,6 +405,28 @@ _TERMINAL_CASES: list[tuple[str, bool]] = [
 ]
 
 
+_BAR_CASES: list[tuple[str, int]] = [
+    ("short", 21), ("med", 45), ("durable", 90),
+    ("DURABLE", 90),          # case-insensitive
+    (" med ", 45),            # whitespace
+    ("", 21), ("bogus", 21),  # unknown/missing -> TIGHTEST bar, never silence
+]
+
+
+def _selftest_bars() -> list[str]:
+    bad = []
+    for decay, want in _BAR_CASES:
+        got = _signal_bar({"decay": decay})
+        if got != want:
+            bad.append(f"_signal_bar(decay={decay!r}) = {got}, want {want}")
+    # the live regression: a durable PIN at 22d must NOT flag; a short row at 23d must.
+    if 22 > _signal_bar({"decay": "durable"}):
+        bad.append("durable row at 22d would flag — the 4-of-5 false-positive bug is back")
+    if 23 <= _signal_bar({"decay": "short"}):
+        bad.append("short row at 23d would NOT flag — real staleness missed")
+    return bad
+
+
 def _selftest_terminal() -> list[str]:
     terminal = {"CLOSED", "EXPIRED", "SUPERSEDED", "CREATED", "N/A", "SHELVED", "DEAD",
                 "RETIRED", "LAPSED"}
@@ -408,7 +445,7 @@ def selftest():
         return 1
     _, errors = setups()
     _, sig_errors = signals()
-    errors = errors + sig_errors + _selftest_terminal()
+    errors = errors + sig_errors + _selftest_terminal() + _selftest_bars()
     if errors:
         print(f"SELFTEST FAIL: {errors}")
         return 1
