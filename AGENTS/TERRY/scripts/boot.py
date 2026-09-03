@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import re
 import subprocess
 import sys
 from datetime import date, datetime
@@ -81,6 +82,23 @@ def file_health():
     return rows
 
 
+def _is_terminal_status(status: str | None, terminal: set[str]) -> bool:
+    """True if a SETUPS.tsv status claims a terminal state.
+
+    Exact whole-string match FIRST (preserves every pre-2026-09-03 catch, incl. "N/A"),
+    then the LEADING token. Leading only, never a scan of the whole cell: a status that
+    discusses another card ("005 is DEAD-terminal per its own rule") must not donate that
+    card's state here — the same cross-card leakage ledger_sweep.py records for its own
+    vocabulary.
+    """
+    raw = (status or "").upper().strip()
+    if raw in terminal:
+        return True
+    stripped = re.sub(r"^[^A-Z0-9]+", "", raw)   # drop leading emoji/markdown: "🔴 DEAD — ..."
+    head = re.split(r"[\s/]+", stripped, maxsplit=1)[0] if stripped else ""
+    return head.strip("-\u2014,.:;()*_") in terminal
+
+
 def setups():
     p = TERRY_DIR / "SETUPS.tsv"
     if not p.exists():
@@ -89,8 +107,28 @@ def setups():
     rows = _tsv_rows(p)
     # SHELVED/DEAD added 2026-07-17: a card killed by its own gate is terminal. Without these,
     # TRY-FIRE-005 kept reporting as an open/actionable row after its DENY shelve (see POSTMORTEMS).
-    terminal = {"CLOSED", "EXPIRED", "SUPERSEDED", "CREATED", "N/A", "SHELVED", "DEAD"}
-    openish = [r for r in rows if (r.get("status") or "").upper() not in terminal and (r.get("instrument") or "") != "TERRY"]
+    #
+    # 🔴 FIXED 2026-09-03 (Will-approved) — THAT 7/17 FIX NEVER WORKED, AND NOTHING SAID SO FOR 48 DAYS.
+    # The test was `status.upper() not in terminal`, an EXACT WHOLE-STRING match, so it only ever
+    # fired on a status that was *nothing but* the bare word. Real rows are written
+    # "DEAD / TERMINAL / ARCHIVED — $0 at risk" and "CLOSED — REALIZED -$111.60", which match
+    # nothing. ★ TRY-FIRE-005 — the exact row SHELVED/DEAD were added FOR — kept reporting as
+    # actionable the entire time. Measured on the live ledger the day of the fix: boot printed
+    # "actionable/open rows: 20" when only 8 rows were genuinely open.
+    # ⚠️ The failure direction is what made it invisible: over-reporting open work makes the desk
+    #    look BUSY, never broken, so nobody reads the number as a defect.
+    # ⇒ Now ALSO matched on the LEADING state token. Strictly ADDITIVE — the exact-string test is
+    #   kept first, so this can only ever catch MORE, never fewer (that also preserves "N/A",
+    #   whose leading token is "N").
+    # ⛔ RETIRED and LAPSED added; DORMANT, NO-BUILD and "NO AT THIS PRICE" DELIBERATELY NOT.
+    #   A false TERMINAL here HIDES A LIVE CARD from the boot card, which is the dangerous
+    #   direction — worse than showing a dead one. Those three are revivable by construction
+    #   (TRY-FIRE-002 is DORMANT with a dated re-examination), so they stay visible on purpose.
+    terminal = {"CLOSED", "EXPIRED", "SUPERSEDED", "CREATED", "N/A", "SHELVED", "DEAD",
+                "RETIRED", "LAPSED"}
+    openish = [r for r in rows
+               if not _is_terminal_status(r.get("status"), terminal)
+               and (r.get("instrument") or "") != "TERRY"]
     errors += _tsv_shape_errors(p, "SETUPS.tsv")
     return openish, errors
 
@@ -325,6 +363,44 @@ def run(args):
     return 1 if missing or errors else 0
 
 
+_TERMINAL_CASES: list[tuple[str, bool]] = [
+    # ★ PERMANENT REGRESSIONS — the verbatim live strings the pre-2026-09-03 exact-match
+    #   filter reported as OPEN for 48 days. Case 1 is TRY-FIRE-005, the row the 7/17 fix
+    #   was written for and never caught.
+    ("DEAD / TERMINAL / ARCHIVED \u2014 $0 at risk, never entered", True),
+    ("CLOSED \u2014 REALIZED -$111.60 / -38.8%", True),
+    ("RETIRED (terminal, Will-ruled 2026-08-18) \u2014 never armed", True),
+    ("DEAD (terminal) 2026-08-13 \u2014 arm expired unfired", True),
+    ("LAPSED", True),
+    ("N/A", True),                       # exact-match preservation: leading token is "N"
+    ("\U0001f534 DEAD \u2014 terminal", True),   # emoji/markdown prefix
+    # ⛔ MUST STAY OPEN. A false terminal HIDES a live card from the boot card, which is the
+    #    dangerous direction; these four pin that.
+    ("FIRED/ACTIVE", False),
+    ("FIRED / LIVE - filled 9/2 @ $2.20 x1 in ROBINHOOD", False),
+    ("STAGED - Will APPROVED (decision) WQ-168 12:45 ET", False),
+    ("CONDITIONAL / DECISION-READY / $0 new risk", False),
+    # ⛔ DELIBERATELY NOT TERMINAL \u2014 revivable by construction, kept visible on purpose.
+    ("HELD DORMANT \u2014 adjudicated, owner reassigned", False),
+    ("NO-BUILD / LIQUIDITY GATE FAILED / $0 at risk", False),
+    ("NO AT THIS PRICE / SCOPE-DELIVERED \u2014 unarmed", False),
+    # substring guard: a terminal word must be the whole leading TOKEN, never a prefix
+    ("DEADLINE 9/30 for the exit", False),
+    ("", False),
+]
+
+
+def _selftest_terminal() -> list[str]:
+    terminal = {"CLOSED", "EXPIRED", "SUPERSEDED", "CREATED", "N/A", "SHELVED", "DEAD",
+                "RETIRED", "LAPSED"}
+    bad = []
+    for text, want in _TERMINAL_CASES:
+        got = _is_terminal_status(text, terminal)
+        if got != want:
+            bad.append(f"_is_terminal_status({text!r}) = {got}, want {want}")
+    return bad
+
+
 def selftest():
     missing = [name for name, ok, size in file_health() if not ok or size <= 0]
     if missing:
@@ -332,7 +408,7 @@ def selftest():
         return 1
     _, errors = setups()
     _, sig_errors = signals()
-    errors = errors + sig_errors
+    errors = errors + sig_errors + _selftest_terminal()
     if errors:
         print(f"SELFTEST FAIL: {errors}")
         return 1
