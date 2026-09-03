@@ -156,3 +156,8 @@ FIRED — owner grade REGINALD 9/1 (WAL $77.26 regular-session close, first fire
 entry-crc32: 1704640795 · bytes: 4 · superseded 2026-09-02
 
 LIVE
+
+## GATE-CORAL-MSI-01 — superseded 2026-09-02 (owner grade CORAL reading #5 replaces the 8/23 reading-#4 cell)
+entry-crc32: 1820249223 · bytes: 199 · superseded 2026-09-02
+
+LIVE — 🔴 holds (5-of-5 >6.0, 4th reading 8/23); stand-down RULED 8/23: <5-of-5 on two readings ≥10d apart ⇒ 🟠; earliest ~9/12; NOT the FIRED-UNEXECUTED class · hist→GATES_STATE_HISTORY
