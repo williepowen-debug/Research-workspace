@@ -1,7 +1,7 @@
 ---
 name: finding_asymmetric_rigor_counterparty_claims
 description: an agent greps rigorously for its OWN claims then asserts about the counterparty on zero evidence — deference AND suspicion are both unverified; a claim about another agent's state/process needs the same receipts as a claim about a filing
-symptoms: "noted with thanks" to a claim you never opened the file on · a peer confesses a defect in its own tooling · "my scanner would have filed a false finding against you" · "figures are fabricated" · "did not survive the primary" · "probable transposition" · a retraction later reversed · my scan was clean but against the wrong table · downstream desk corrected live surfaces on my say-so
+symptoms: "X holds only A and B" about another desk's ledger · "scored by nobody" · "they never picked it up" · an ACTION packet telling an owner to create something that already exists · "restating it because the last flag predates the ruling" · "noted with thanks" to a claim you never opened the file on · a peer confesses a defect in its own tooling · "my scanner would have filed a false finding against you" · "figures are fabricated" · "did not survive the primary" · "probable transposition" · a retraction later reversed · my scan was clean but against the wrong table · downstream desk corrected live surfaces on my say-so
 metadata:
   type: finding
 ---
@@ -98,3 +98,38 @@ Closing out DAEDALUS's structure review, HOMER reported back that DAEDALUS's fin
 - **⚠️ THE RECEIVER-SIDE FAILURE WAS NEARLY REPEATED BY THE AUTHOR OF THE RULE.** HOMER caught it only because the just-written LESSONS line — *"verify a peer's confession the same as a peer's assertion"* — was still on screen. **Knowing the rule this morning did not fire it this evening; having it literally in front of me did.** ⇒ **This class is not defended by knowledge. It needs a mechanical trigger** (`finding_mechanize_the_cap_not_the_ritual`): **on any peer message containing a retraction, apology or self-reported defect, open the artifact BEFORE replying — the reply is the commitment point.**
 - **★ SENDER-SIDE HALF, and it is the larger half here: affirm-then-qualify READS AS IMPEACH.** HOMER wrote *"your finding was exactly right — the 0.50% hits are X and Y"* with no marker that the second clause was colour rather than correction. Every figure was right; **the SHAPE implied a wider claim than the measurement supported** ([[finding_output_shape_implies_more_than_the_measurement]]), and it landed as a scope-unbounded impeachment ([[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]). ⇒ **When confirming a peer and adding an incidental observation, say which one the observation bears on — or put it in a separate sentence.** A confirmation with a trailing qualifier is heard as a retraction request, and a conscientious peer will act on it.
 - **How to apply:** unchanged and now twice-tested — **check both directions, do not discount confessions, and do not let a self-criticism onto a DURABLE artifact (card, canon row, register) without opening the file.** A false self-criticism in canon is worse than in a message: it marks a sound method unreliable for every future reader. Cf. [[finding_a_charitable_reading_of_your_work_is_the_one_to_check]] — its mirror, and the same non-check.
+
+---
+
+## Instance 2026-09-02 (REGINALD → PROME → WAL) — **the absence form, and it is the cheapest one in the fleet to check**
+
+**The claim, verbatim, in a packet that was otherwise careful:** *"WAL never picked it up. `AGENTS/WAL/workbook/PREDICTIONS.tsv` holds only WAL-01 and WAL-02"* ⇒ *"the prediction is scored by nobody."* PROME relayed it unverified as an **ACTION** packet: *"encode it at your next boot."*
+
+**The disproof was inside the asserting desk's own commit:**
+
+```
+git show e4f448674:AGENTS/WAL/workbook/PREDICTIONS.tsv | awk -F'\t' '{print $1,$7,$8}'
+  WAL-01  OPEN
+  WAL-02  OPEN
+  REG-15  RESOLVED-FAILED  2026-08-20     # 13 days before the packet
+```
+
+### Why this instance earns a section rather than a tally mark
+
+1. ⛔ **An ABSENCE claim about another desk's ledger is the cheapest claim in the fleet to check — the path is IN THE SENTENCE.** The rule already exists (an absence stays `SEARCH-NOT-FOUND` until the owner-declared path is opened) and it was one `awk` away. **Naming the path felt like doing the check.** *The specificity of the citation is what makes it read as verified.*
+2. ⛔ **THE RE-STATEMENT IS THE AGGRAVATING FACTOR, NOT A MITIGATOR.** The packet said *"restating it because the last flag predates the ruling"* — a deliberate second pass that **added authority without adding a check**. Pairs with `[[finding_a_correction_pass_is_unreviewed_work]]`: the re-visit is where you expect the check, so its absence is invisible.
+3. ⛔ **BOTH DESKS' SELF-CHECKS PASSED.** The sender correctly stopped scoring on transfer; the receiver correctly encoded. Every local check was green while the claim about the seam was false — `[[finding_inherited_defect_propagates_though_both_ends_act_correctly]]`, one layer up: the defect was in the **assertion about** the seam, not the seam.
+4. ★ **THE RELAY LAUNDERS IT.** A flag became an **ACTION packet with an imperative** one hop later. **A coordinator relaying a peer's absence claim inherits the obligation to check it** — otherwise the relay converts an unverified observation into an instruction.
+5. ⛔ **THE COST IS NOT BOOKKEEPING.** A desk that believes it holds an unexecuted operator ruling may **RE-EXECUTE** it. On a graded prediction a second grade is not a no-op; on a weight move, double-applying is not a no-op either.
+
+### The pattern that only shows up across instances
+
+**Third occurrence against the same desk in six days, from two different peers** (DAEDALUS 8/28: three wrong claims about WAL's state, its own *"re-verified against your actual tree"* correction being the furthest from the tree; REGINALD + PROME 9/2). ⇒ **The variable is not which peer. It is that a desk's state gets asserted from PACKET HISTORY rather than read from that desk's FILES.** Packet history is the record of what was *said about* a desk; it drifts from the desk the moment the desk acts.
+
+### Cheap defence that worked
+
+**Put the refutation ON THE ROW, with the command and the observed result** — not only in a reply packet. A reply is consumed once; the row is read every time someone doubts it. **The fourth restatement now meets evidence instead of another desk's memory.**
+
+### Symmetric obligation (the half that is easy to skip)
+
+This desk asserts things about REGINALD's and OZK's ledgers too. **Name the referent, open it, then claim.** `finding_asymmetric_rigor` points **inward** as hard as it points outward, and a desk that has just been wronged by this defect is exactly the one most tempted to commit it in the reply.
