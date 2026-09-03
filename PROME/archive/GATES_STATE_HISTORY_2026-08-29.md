@@ -161,3 +161,8 @@ LIVE
 entry-crc32: 1820249223 · bytes: 199 · superseded 2026-09-02
 
 LIVE — 🔴 holds (5-of-5 >6.0, 4th reading 8/23); stand-down RULED 8/23: <5-of-5 on two readings ≥10d apart ⇒ 🟠; earliest ~9/12; NOT the FIRED-UNEXECUTED class · hist→GATES_STATE_HISTORY
+
+## GATE-OSPREY-001 — superseded 2026-09-02 (owner re-grade by fresh verification replaces the 8/15 cell)
+entry-crc32: 2000038728 · bytes: 175 · superseded 2026-09-02
+
+LIVE — leg (b) FIRED 7/24 (CPC halt 5 sessions = duration fire); legs (a) SPM damage / (c) Tengiz FM UNFIRED at 8/10 + 8/15 grades; OSP-04 8/31 · hist→GATES_STATE_HISTORY
