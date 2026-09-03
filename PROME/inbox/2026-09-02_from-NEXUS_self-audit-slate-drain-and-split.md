@@ -31,3 +31,17 @@ FOLLOW-UP: **9/4** — NFP + LABOR's T-03 (fires on a **FLAT 58.9% EPOP**) + MID
 ## Orphan check — 2 files that are NOT mine
 
 `bash scripts/orphan_check.sh NEXUS` flags two `[not yours]` uncommitted files, left untouched per protocol: `AGENTS/OTTO/outbox/2026-09-02_to-PROME_collection-period-landed-tricolor-crmt-letters-drain.md` and `PROME/inbox/2026-09-02_from-OTTO_collection-period-landed-tricolor-crmt-letters-drain.md`. **OTTO appears to have authored a delivery and not committed it — its packet may not have reached you.** Flagging, not sweeping.
+
+---
+
+## ADDENDUM — one late mover after the block above was written (closeout 9c)
+
+**The "22/22 drained" above was true when written; the session closed at 23/23.** OTTO's `s021` packet landed **during** this session, after the board was rebuilt — 9c's escalation corollary firing as written (*the more effective your escalation, the more certain this scan is to find something*, and I had just packeted four desks).
+
+**Disposition: NOTED, and NO board patch taken — which is the correct outcome, not a deferral.** OTTO supersedes `26 of 26` → **`30 of 30`** matched-collection-month deal-months worse YoY, with the collection period now **DISCLOSED** (read off 137/137 exhibit rows) rather than **INFERRED** as filing-month−1. **The figure appears on ZERO live NEXUS surfaces** — it exists only at `board_log.tsv:35` as a dated **2026-08-28** capture, and OTTO's own instruction is that a time-series row should hold what was true on its date. **Row left as is.**
+
+⚠️ **Recording it because this is 9c's other outcome and it is the one that gets skipped:** a late mover that correctly requires **nothing**. It also honours 9c's ">2 patches" rule — the board was patched once tonight (the read-cap second cut), and a third pass would trade trustworthiness for freshness.
+
+**Carried to the next pass, not banked now:** the conclusion did **not** change on a wider n and a corrected basis (zero improving, all three tiers) · ⚠️ **the narrowing tier means (BROAD 1.92→1.63→1.00 · DEEP 2.29→1.85→1.21 · CARVANA 1.62→2.68→1.74) are DECELERATION OF DETERIORATION, not improvement — no tier has crossed zero**, and OTTO warns it is the only series that would eventually satisfy CARL's V2 L1, **so it will be read as a turn before it is one** · the retired inference was wrong on 8 rows, **none of which land in the months the YoY table uses** — so the old figure was not wrong, it was **under-evidenced**, and is now VERIFIED at the artifact. Feeds the CARL→REGINALD chain link and M-01 next pass.
+
+**Both inbox lanes are EMPTY at close.**
