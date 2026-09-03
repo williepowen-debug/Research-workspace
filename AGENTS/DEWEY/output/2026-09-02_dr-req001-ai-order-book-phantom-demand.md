@@ -176,16 +176,44 @@ The 10-Q's actual words:
 
 **But the residual is the story.** Conventional DRAM 2027 = 117 − 15.2 = 101.8 ⇒ **+11.9% YoY only**. HBM consumes ~3× silicon area per GB; HBM wafer input goes 22% → 30% of total DRAM wafer input in 2027 to yield 9% → 13% of bits. **Every HBM wafer erases ~3× its DDR5-equivalent. The 2027 squeeze is in CONVENTIONAL DRAM, not HBM — and that mechanism is arithmetic, not ordering psychology.**
 
-**FY29 ($88B) is UNKNOWN, not merely uncertain.** No bit-denominated industry supply forecast for CY2028 or CY2029 was found, so the reconciliation above cannot be run for that year. The fabs are announced and funded (Samsung P5 2028 + Yongin **pulled forward** to 2029 from 2030-31; SK hynix Yongin Ph.1 cleanroom early 2027, M15X pulled forward; Micron $200B US + $24B Singapore; CXMT to 500 kwspm by end-2028) — the risk is timing/yield, not existence.
+**FY29 ($88B) is UNKNOWN, not merely uncertain** *(status changed same-day — see the update box below)*. No bit-denominated industry supply forecast for CY2028 or CY2029 was found **by this run**, so the reconciliation above could not be run for that year. The fabs are announced and funded (Samsung P5 2028 + Yongin **pulled forward** to 2029 from 2030-31; SK hynix Yongin Ph.1 cleanroom early 2027, M15X pulled forward; Micron $200B US + $24B Singapore; CXMT to 500 kwspm by end-2028) — the risk is timing/yield, not existence.
 
-### 3.4 ⚠️ CXMT output in BITS — the commission's named live-desk dependency: STILL MISSING
+### 3.4 ✅ CXMT output in BITS — CLOSED at the primary, 2026-09-02 (updated post-delivery)
 
-Per the commission's instruction ("say so rather than substituting a proxy silently"):
+> **📌 UPDATE 2026-09-02, after this report was delivered.** I recorded this leg as SEARCH-NOT-FOUND and named the CXMT STAR Market IPO prospectus as the **unchecked fallback**, declining to upgrade to VERIFIED without it. **ZHAO reached it the same day** and closed the leg (`inbox/processed/2026-09-02_from-ZHAO_your-named-fallback-is-reached...`, commit `66ac967a4`). The original text is superseded below rather than deleted, because the *reason* the number is absent turned out to matter more than the absence.
 
-- **Fleet status:** ZHAO's own STATUS records VULCAN's CXMT ask at **n=3 (8/3, 8/13, 8/21)**, replied 8/21 with **"a disposition, not an answer"**; bit-output is **"not ZHAO's, UNCHECKED (not 'unavailable')"**, with **no date promised**. It remains the fleet's oldest unconsumed ACTION. **[VERIFIED at `AGENTS/ZHAO/STATUS.md` lines 127, 221.]**
-- **This run's independent attempt: SEARCH-NOT-FOUND** for absolute CXMT DRAM output in bits (Gb/EB) for 2026 or 2027. **Not upgraded to VERIFIED** — the CXMT Shanghai IPO prospectus is a named, unchecked fallback and is the most likely primary home for the figure.
-- **No proxy was substituted.** What exists and what it is: bit-*share* 9% (2025) → 12% (2027) [INSTITUTIONAL, SemiAnalysis 2026-06-23] — a bits metric but a share, not a level; wafer 265→350→420→500 kwspm [explicitly NOT a bits substitute]; revenue share 8% of global DRAM [explicitly NOT a bits substitute].
-- **Analytically:** CXMT's IPO prospectus reportedly contains **no HBM project**. CXMT relieves *conventional* DRAM only — irrelevant to the HBM constraint, but the largest single swing factor for the conventional-DRAM squeeze identified above.
+**As originally delivered:** ZHAO's own STATUS recorded VULCAN's CXMT ask at **n=3 (8/3, 8/13, 8/21)**, replied 8/21 with "a disposition, not an answer"; bit-output **"not ZHAO's, UNCHECKED (not 'unavailable')"**, no date promised. This run's independent attempt returned **SEARCH-NOT-FOUND**, **not upgraded to VERIFIED**, and **no proxy was substituted** — per the commission's instruction.
+
+**Now closed — SEARCH-NOT-FOUND → VERIFIED ABSENCE, and the absence is DELIBERATE:**
+
+CXMT STAR Market IPO prospectus, SSE `002170_20260517_MGLN.pdf` (2026-05-17), pulled and text-extracted, 411,324 chars [PRIMARY, via ZHAO]:
+
+> **The unit string 万片 (10,000 wafers — the standard PRC capacity unit) appears exactly THREE times in the entire document, all three inside a profitability SENSITIVITY table as deltas (±2万片/月, −3万片/月). There is no absolute 产能 / 产量 / 销量 figure anywhere in the filing, in wafers OR in bits.**
+
+⇒ **CXMT disclosed ratios and growth rates only, never a level.** That is a materially better answer than "we looked and did not find it," because it says **why** the number does not exist. `[[finding_owner_of_record_means_authoritative_not_correct]]` — redaction suppresses a number's falsifier.
+
+**What the filing DOES disclose (several on a BIT basis)** [all PRIMARY]:
+
+| Figure | Value | Basis |
+|---|---|---|
+| Capacity utilisation 2023/24/25 | 87.06% / 92.46% / **95.73%** | wafer — **running flat out** |
+| Total DRAM sales-volume CAGR 2023→2025 | **+83.98%** | **BITS** (销量按容量口径) |
+| DDR-series 2025 volume | **+282.22%** (ASP +61.00%, rev +515.36%) | **BITS** |
+| LPDDR-series 2025 volume | **+65.18%** (ASP +24.46%, rev +105.59%) | **BITS** |
+| Global DRAM share Q4-2025 | **7.67%** | **REVENUE** (Omdia, cited in-prospectus) |
+| Omdia global DRAM content | 2025 **40.16 EB** → 2030 **97.42 EB** | **BITS** |
+
+**✅ My "no HBM project" claim is CONFIRMED at the primary** — I had carried it as *"reportedly."* IPO use of proceeds RMB 29.5bn = **13.0bn DRAM tech upgrade / 9.0bn next-gen DRAM R&D / 7.5bn wafer-line upgrade. No dedicated HBM project.**
+
+⚠️ **But carry ZHAO's qualifier, which cuts against my own framing:** *"no HBM in the IPO projects" is NOT "no HBM ever"* — SemiAnalysis separately models CXMT HBM wafers at **5 → 30 → 55 → 100 kwspm across 2025-2028**. My line "CXMT relieves conventional DRAM only" is a statement about **what this raise funds**, not about CXMT's roadmap. **The analytical point survives for the 2027 window and should not be extended past it.**
+
+⚠️ **BASIS TRAP — a reader guard, because the trap is one hop from my own citation.** I carried SemiAnalysis's **bit-share 9% (2025) → 12% (2027)**, correctly typed. **The figure that has travelled furthest from that same author — "~17% of global DRAM supply by 2028" — is WAFERS, not bits.** Same note, same author, ~5-point basis gap that most relaying outlets erase. Also **strike "30% of global DRAM by 2030"** on sight: unmodelled investor soundbite, no stated basis. And **"350k WSPM, just 25,000 below Micron"** is single-lineage (Citrini, Jul 2026, ~7 relayers) — the 350k level is corroborated, **the 25k gap is not** (SemiAnalysis puts Micron at 385k ⇒ a 35k gap). `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]`
+
+⚠️ **AND THE BASE ITSELF IS CONTESTED — this propagates into §3.3.** Omdia **~240k wpm and FLAT through 2026** / SemiAnalysis 265k / Nomura 280k / Reuters ~300k / Counterpoint 320k. **±25% uncertainty before any forecast is applied.** ⇒ **the "CXMT to 500 kwspm by end-2028" figure I cited in §3.3 inherits that spread**, and Omdia's flat-through-2026 view is a live alternative to the ramp I quoted.
+
+**📌 One input I declared absent now exists.** §3.3 says no bit-denominated CY2028/29 forecast was found; the prospectus carries **Omdia global DRAM content 2025 40.16 EB → 2030 97.42 EB, in BITS** — interpolable, and a genuine input to the FY29 test. ⛔ **I am deliberately NOT retro-fitting arithmetic onto it tonight:** it is a **DEMAND/content** series, and the FY29 question is a **SUPPLY** question. Running one into the other is precisely the basis error this section warns about. **Registered as follow-on work** (natural owner: ZHAO or VULCAN), not silently folded into the verdict.
+
+**Fleet state:** the ask is **CLOSED** — ZHAO's answer went to VULCAN 2026-09-02 at **n=4 asks / 30 days**. Nothing owed back to me.
 
 ---
 
@@ -455,7 +483,7 @@ The commission rests on **"two independent arrivals of the same mechanism, from 
 
 **Weaker, and flagged inline:** HBM TAM path (could not re-verify — Micron IR 403/JS-gated); HBM $/GB by customer ($32/$36/$40, [UNVERIFIED], load-bearing for the bit test); GEV's "~20% cash down" (secondary, paywalled substack); Siemens Energy GW figures ([NEWS] — the Q3 FY26 release contains no GW figures at all); SIA billings and US Commerce RFI (403, snippet-sourced); "2027 sold out" (single-origin, widely relayed).
 
-**Absent entirely:** the Bernstein survey; slot-to-order conversion rates; NVDA's cancelable/non-cancelable split; CXMT bits; AI take-or-pay prepay coverage; CY2028-29 memory bit forecasts.
+**Absent entirely:** the Bernstein survey; slot-to-order conversion rates; NVDA's cancelable/non-cancelable split; AI take-or-pay prepay coverage. **CXMT bits — RECLASSIFIED 2026-09-02 from "absent" to VERIFIED ABSENCE AT THE PRIMARY** (ZHAO reached the IPO prospectus I named as the fallback: CXMT disclosed ratios and growth rates only, never a level — §3.4). **CY2028-29 memory bit forecasts — partially available after all** (Omdia 40.16 EB → 97.42 EB, in the same prospectus), but a demand series, not the supply series the FY29 test needs.
 
 **Overall confidence: MEDIUM-HIGH on the decomposition and the base rate (primary, reproducible); MEDIUM on the turbine read (primary filings, but the deciding number is undisclosed); LOW on the memory contract/spot discrimination (paywalled).**
 
@@ -480,7 +508,7 @@ The commission rests on **"two independent arrivals of the same mechanism, from 
 
 **Completeness-critic pass (which commission sub-answers did I NOT answer?):** Instrument 1 (contract-vs-spot) **PARTIAL — direction only, level paywalled**. Instrument 2 (capacity reconciliation) **ANSWERED, with the memory-share assumption named and bounded**. Instrument 3 (turbine backlogs) **ANSWERED**. Instrument 4 (cancellation economics) **PARTIAL — qualitative from filings; the deciding quantitative number is undisclosed by every issuer**. Instrument 5 (2021-22 base rate) **ANSWERED, and it inverted the instrument list**. The named analogue was used as the backbone, not a footnote, as required. Pre-registration written before evidence. Both scope fences observed (demand-reality not re-litigated; the NVDA aggregate explicitly not treated as the finding).
 
-**Live-desk dependency, per the commission's instruction:** **ZHAO's CXMT bits ask is STILL UNANSWERED (n=3, no date promised) and no proxy was substituted** — §3.4. **WATT's ERCOT falsifier had not landed** as of this run (no delivery in WATT's outbox), so it was not used.
+**Live-desk dependency, per the commission's instruction:** at delivery, **ZHAO's CXMT bits ask was UNANSWERED (n=3) and no proxy was substituted** — I reported it as missing and named the IPO prospectus as the unchecked fallback rather than upgrading to VERIFIED. ✅ **ZHAO reached that fallback the same day and CLOSED the leg** (§3.4) — the answer is that CXMT deliberately discloses no capacity level at all. **Naming the specific unchecked fallback, rather than logging a generic gap, is what made it closable within hours.** **WATT's ERCOT falsifier had not landed** as of this run (no delivery in WATT's outbox), so it was not used.
 
 ---
 
@@ -538,4 +566,5 @@ The commission rests on **"two independent arrivals of the same mechanism, from 
 - SIA billings (2026 fetch returned 403; snippet-sourced) — https://www.semiconductors.org/global-semiconductor-sales-increase-0-1-year-to-year-in-august/
 
 ### Fleet-internal (state verification, not evidence)
-- `AGENTS/ZHAO/STATUS.md` lines 127, 221 — CXMT ask n=3, UNCHECKED, no date promised (verified 2026-09-02)
+- `AGENTS/ZHAO/STATUS.md` lines 127, 221 — CXMT ask n=3, UNCHECKED, no date promised (verified 2026-09-02, state AT DELIVERY)
+- **CXMT STAR Market IPO prospectus, SSE `002170_20260517_MGLN.pdf` (2026-05-17)** — reached by ZHAO 2026-09-02, 411,324 chars extracted; the source of §3.4's VERIFIED ABSENCE. Relayed via `AGENTS/DEWEY/inbox/processed/2026-09-02_from-ZHAO_your-named-fallback-is-reached...md` (commit `66ac967a4`). **[PRIMARY, not independently re-pulled by DEWEY — ZHAO's extraction is the reader of record.]**
