@@ -4,6 +4,27 @@ Reverse-chronological log of **structural** changes to RED's docs, folders, sche
 
 ---
 
+## S40 — 2026-09-02 ~23:0x ET
+
+**Trigger:** PROME wave-4 spawn (Will 22:43, *"Spawn the next six"*); WQ-162 RULED; five inbox packets (PROME · VIOLET · BOND · CORAL · NEXUS).
+
+| What changed | Files touched | Boot-impact |
+|---|---|---|
+| **`RED-FT-10` grading basis DECLARED** (8 clauses; series moved to CBOE `SKEW_History.csv`, publisher of record; Yahoo demoted to provisional mirror) + row re-graded | `registry/FALSIFICATION_TRIGGERS.tsv` cols 7/16/17/18; new `research/2026-09-02_FT10_GRADING_BASIS_DECLARED.md` | ⚠️ **boot.py's FT-10 line now evaluates a PROVISIONAL MIRROR, not the declared basis** — see the wiring gap below |
+| **`RED-FT-11` v1.1 encoded** on BOND's adopted design call; leg-(iv) base rate corrected for the tie convention | `registry/FALSIFICATION_TRIGGERS.tsv` cols 7/16/17/18; new `research/2026-09-02_FT11_v1.1_second_path_partition_AND_tie_set.md` | none (manual row) |
+| Scan view regenerated after both canon edits (CLAUDE.md 9b) | `registry/FALSIFICATION_TRIGGERS_SCAN.tsv` — 12 rows, 6,840 B, 11% of canon | WALTER boot 6b consumes it |
+| CORAL confirmation encoded; `Stale_By` → 2026-11-15 | `workbook/KB.tsv` (KB-RED-046, KB-RED-052) | review-debt: two rows off the past-due list |
+| **`NEXUS_BRIEF.md` rebuilt + rotated for the READER's cap** (READ_CAP rule 15): Jackson Hole corrected to 8/27–29; FORWARD CATALYSTS table rebuilt (7 of 12 rows were resolved August events); NEXT DECISION POINT rewritten; six dated FOLD blocks (S38h·S38b·S38·S36d·S35·S34) moved **verbatim** | `NEXUS_BRIEF.md` **43,094 → 31,811 B** (132% → **98%** of 32,550 B); new `archive/NEXUS_BRIEF_folds_rotation_2026-09-02.md` (17,463 B, crc32 2842239224 + a second crc for the appended S38h block) | NEXUS boot surface now under budget |
+| Armed read recorded pre-print on the SAM rail | `workbook/CHALLENGES.tsv` (CHG-RED-047) | disposition at next boot on SAM's write-back |
+| 4 findings rows | `workbook/ML.tsv` ML-RED-209 … 212 | — |
+| STATUS / CHANGELOG / OUTBOX / SCRATCH / board_log (7 rows) | — | — |
+
+**⚠️ WIRING GAP OPENED BY THIS SESSION, stated rather than deferred (`[[finding_guard_correctness_and_wiring_are_independent]]`):** FT-10's letter now declares CBOE as the grading basis and says the Yahoo mirror **cannot complete a grade**. **`scripts/boot.py` still evaluates FT-10 from the mirror.** Tonight the two agree (144.12 both) so the printed line is correct — **but it is a PROVISIONAL DISPLAY, not a grade**, and on any session where the mirror drops or mis-values a bar (measured: 0.79% of sessions) boot.py would print a clean row off a series the letter has disqualified. **Fix owed in the 9/4–9/11 window: point boot.py's FT-10 evaluation at the CBOE CSV, or label its output PROVISIONAL.** Not done tonight — the two-correction discipline and the late-session rule both say a new tooling edit is the wrong last act of a session that has already made two canon edits.
+
+**Read-cap note:** `STATUS.md` 29,570 → **32,087 B = 98.6% of the 32,550 B budget.** Under, but this is the next rotation and it should not be deferred twice.
+
+---
+
 ## 2026-08-28 (S38g) — P1 read-cap housekeeping: STATUS fold + board_log rotation, 2 files went from 🔴 OVER-CAP to green
 
 **Trigger:** DAEDALUS P1 read-cap ruling (Will-approved 2026-08-28) — any file the boot protocol tells a session to read whole stays under 32,550 B (60% of the harness single-read cap). Instrument: `scripts/read_cap_check.py --agent RED`. Canon: `AGENTS/DAEDALUS/BLUEPRINTS/READ_CAP.md`. RED's measured state at the ruling: **STATUS.md 86,955 B (157% of cap) and board_log.tsv 100,890 B (186% of cap) — both 🔴 OVER-CAP.**

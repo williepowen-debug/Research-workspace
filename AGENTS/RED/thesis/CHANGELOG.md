@@ -4,6 +4,31 @@
 
 ---
 
+## S40 — 2026-09-02 ~23:0x ET — **NO WEIGHT MOVED: HOLD 69 / net-bear 60 (15th consecutive session).** Two grading bases declared; one of them after a peer found it defective.
+
+**Old view → new view (assessment):** unchanged. **This session moved no hypothesis weight, no threshold, no sustain window and no capital path.** What moved is what RED can *claim* about two of its own instruments.
+
+**1. `RED-FT-10` — basis declared, margin withdrawn, state re-affirmed.** Under WQ-162 (Will 9/2 21:29, *a grade on an unnamed basis is NO-VERDICT*) the old letter was audited against the six-item checklist and found **silent on four**: unit, vintage, tie convention, missing-bar treatment (and reset, carried only in MEMORY). Basis now declared in eight clauses on **CBOE `SKEW_History.csv`, publisher of record**. **Re-graded: ARMED — NOT FIRED, sustain 0-of-4, 144.12 [9/2].** The **closest approach is 149.77 [8/28] = 0.23 below**, and the previously published **0.77** is **withdrawn** — wrong by 3.3×.
+
+> **Assessment consequence, stated precisely because it is small and the temptation is to inflate it:** the *state* was convention-independent — 149.77 < 150 on every basis, tie convention and gap treatment — so **nothing RED concluded from FT-10 changes.** What changed is a *distance* four desks quote. **That is the whole finding and it should not be dressed as more.**
+
+**2. The transferable half.** The old basis clause described the series' **TIMING** (it publishes lagged) and was silent about its **COMPLETENESS**. Independent failure modes — and the second is invisible to state-keyed checks, because the row read ARMED-UNFIRED on the good series and the bad one alike. It surfaced only because VIOLET graded a *different* item off the *same* series and landed **0.04** the wrong side of a line.
+
+**3. 🆕 RED went past the packet it received.** Widening VIOLET's 10-session comparison to **253 sessions** found **two defect modes, not one**: the omitted 2026-08-28 session **and** a value disagreement at **2025-12-24** (CBOE 161.30 vs yfinance 160.53) — **0.79% of sessions**. A trading-calendar completeness check — VIOLET's proposed hardening — catches the first and is structurally blind to the second. **RED replaced the series; VIOLET hardened it; both are defensible on the evidence each desk had, and the only difference was window length.**
+
+**4. `RED-FT-11` v1.1 encoded on BOND's call, and a defect found in RED's own morning number.** All three of BOND's on-menu choices adopted as one letter both desks carry before the 9/9 go-live. **BOND's partition ask answered and the answer is negative:** the FLOW/FUND partition does **not** transfer to non-rally windows — 17.6% resolution (n=51) against 95.0% inside rally windows, because both branches key on a 2Y move a non-rally window does not have. The second path therefore yields a **butterfly-only FLOW FLAG with no usable FUND branch**. Adopted anyway, because v1.0's precondition **slept through the entire 8/19–8/24 step-up cluster** and the second path wakes on all four windows — BOND's disclosed SS3 false negative, closed.
+
+**5. 🔴 The tie-set defect.** Reproducing S39b before encoding it: every distributional statistic reproduced exactly; every cut base rate came back shifted. **The registered `≤ −4bp = 5.0%/3.8%, LR≈34` is the STRICT cut `< −4`.** On the letter as written — and as BOND adopted it — the leg fires **8.5%/6.2%, LR≈21: 1.7× more often than the number that justified choosing −4 over −3.** The statistic is integer-valued in bp and **the tie atom at exactly −4 holds 23 of 661 windows (3.5%) — more mass than the entire tail beyond it**, so the operator choice is **41% of the fires.** Declared and corrected before go-live. **This is CREED's routed finding (`9dce322ba`) validated on a second desk within four hours, and RED's instance is materially the larger.** RED's *other* realised tie set sits on **FT-10's exit leg** (`{140.00}`, realised twice) while the fire leg's is empty — **a desk auditing only its fire operator logs the row clean.**
+
+> **Confidence-discipline note:** finding a defect in one's own number the same day one published it is **not** a reason to move an assessment, and no weight moved. It is a reason to distrust the *artifact class*: a base rate whose construction lives in a session transcript is **not registered, it is remembered.**
+
+**6. Disclosed unresolved.** The FT-11 v1.0 partition of the 80 does not reconcile under either tie convention (registered 4/68/8 · non-strict 5/71/4 · strict 4/60/16). **Cause UNKNOWN. Docketed 9/4–9/11, ahead of the 9/9 go-live.** Every comparison BOND relied on keeps its direction, which is why the letter was encoded rather than held.
+
+**7. Cross-desk, no assessment change.** CORAL confirmed both FL rows (`KB-046`/`052` → `Stale_By` 11/15) with the owner's closed-quarter caveat carried verbatim — **a benign Q2 does not shrink the 30% winter tail**, and the 5-way convergence *raises* the unanimity flag rather than lowering it, since the fifth read comes from the same closed-quarter instrument class. **FMHPI exposure checked and absent (VERIFIED).** Jackson Hole corrected to 8/27–29 and **verified at the primary — `kansascityfed.org` does not 403**, so the premise that put three desks on a relayed date is false.
+
+
+---
+
 
 
 ## 2026-09-02 ~10:5x ET — S39: Kernel verifier seat executed, inbox corrections applied. NO weight/confidence change
