@@ -41,6 +41,13 @@
 > 4. **TSMC August 6-K ~9/10** — run `tsmc_watch.py`, cite the **cumulative**. **ORCL window opens 9/8.**
 > 5. **DAEDALUS flag ① accepted and queued:** boot step 8 (channel liveness) has **no leg in `boot.py`** and is silent by construction. Flags ② and ③ declined-for-now with reasons in the commit.
 >
+> ## 📋 LEDGER-NUDGE DISPOSITION (step 1c-bis — it fired AFTER the commits, so the "say why not" goes here)
+> **3 ledgers named: `S4_SERIES` (15 STATUS-writes behind) · `S2_SERIES` (11) · `FLOW` (8). NONE is rotting, and I am not refreshing any of them.**
+> - **`S4_SERIES.tsv` — correctly event-cadenced, and the cadence is MONTHLY.** Its latest row is **Jul 2026, which is the latest month TSMC has published.** The next 6-K is **~2026-09-10**. A "refresh" today would fetch nothing; the ledger is as current as the world is. **Freezing it would be worse** — it is live and it is due in 7 days.
+> - **`S2_SERIES.tsv` — 🔴 DO NOT REFRESH IT TONIGHT, and this is the one that matters.** Its readings are on a **cadence pre-committed 2026-08-24, before the event it grades**. The S2 re-arm rule counts *"3+ **consecutive readings**"*, so **whoever chooses the run times chooses the readings** [L-21]. **Running it off-cadence to satisfy a staleness nudge would be the exact sampling-selection defect the cadence exists to prevent — a hygiene check inducing a research defect.** Next reading **Fri 2026-09-04**. ⚠️ **2 of 6 readings WERE lost to the dark period (8/27 post-close, 8/28 Fri) and that is recorded, not hidden — but the remedy for a missed reading is not an extra unscheduled one.**
+> - **`FLOW.tsv` — pathways change rarely by design.** Nothing this session created or killed a transmission pathway. `FL-VULCAN-10` (tool controls giving opposite signs on two channels) remains CANDIDATE and **unfalsified**; ZHAO's 9/2 answer strengthens its mechanism but does not test it, so the row does not move.
+> - ⚠️ **n+2 on a defect already routed to DAEDALUS: the nudge counts STATUS-WRITES, not elapsed time, so a multi-pass session inflates every count.** I wrote STATUS several times tonight (split → band trip → deferral note), which is most of the "behind" figures above. **Confirming instance, NOT a new finding — do not re-report it as one.**
+
 > ## ❌ STILL OPEN (carried, honestly)
 > - **The compute-spot baseline** (deferred since 7/22 — now the highest-value open instrument here, but ownership is PROME's).
 > - **Hyperscaler long-dated-issuance check** (KB-096, one query). **QQQ sector variant** (blocker NAMED: Invesco 406s its whole domain — PUBLIC-BUT-UNFETCHED, not unavailable).
