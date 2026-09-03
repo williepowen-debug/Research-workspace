@@ -1,5 +1,31 @@
 #!/usr/bin/env python3
 """
+⛔ RETIRED 2026-09-02 — DO NOT WIRE THIS INTO THE BOOT SEQUENCE.
+
+Disposition of DAEDALUS's 2026-08-28 wiring-sweep item 3 ("orphaned tool,
+PAT-108 writer-with-no-reader, boot edition") and CREED SCRATCH deferred
+item 10. The choice offered was wire / fix the keying / retire with a note.
+RETIRE, for one reason that is a rule and not a preference:
+
+  Its staleness checks key on os.path.getmtime. Root CLAUDE.md § Data Hygiene
+  says NEVER key a NEW freshness mechanism on mtime — git sync restamps it, so
+  it fails FALSE-NEGATIVE (reads FRESH after a pull). Wiring it would install a
+  known-broken freshness check into the boot path, which is worse than the
+  orphan it currently is.
+
+Every check it performed is already done, correctly keyed, elsewhere in
+CLAUDE.md's boot sequence:
+  · workbook staleness  -> boot step 7's `find -mtime` (advisory, and the
+    content-vintage authority is scripts/ledger_staleness.py, which reads the
+    PAT-044 "Last real data refresh:" header FIRST)
+  · prediction resolve dates -> boot step 4b
+  · threshold/band scan      -> boot step 4c, scripts/threshold_scan.py
+  · corrections register     -> boot step 7b
+This file is kept for its source trail only. It is not run and must not be
+cited as a check that ran.
+"""
+
+"""
 CREED Boot Check — the mechanical half of the boot sequence.
 
 CREED is Tier-2 spawn-on-need: sessions are far apart and the expensive failure
