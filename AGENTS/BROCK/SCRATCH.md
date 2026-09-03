@@ -5,12 +5,14 @@
 
 ---
 
-## ⚡ NEXT BOOT — FIRST MOVES (ranked, 2026-08-28)
+## ⚡ NEXT BOOT — FIRST MOVES (ranked, **2026-09-02**)
+
+> ⚠️ **Items A/B/F below are 8/28-vintage and are marked DONE in place rather than deleted** — the open tails inside them are still live and would vanish with the item.
 
 > 🔴 **READ THIS FIRST — ONE ITEM IS DELIBERATELY UNCONSUMED AND IT IS NOT AN OVERSIGHT.** `SIG-W-20260828-048` (Chicago condo deconversion, $51M / 137 units / 7 towers, CoreVest-originated, trustee *"Wilmington Trust… solely as Trustee of RWT"* ⇒ securitized Redwood collateral) **sits in `inbox/WALTER/` UNCONSUMED BY DESIGN.** It arrived mid-session on 8/28; **its own header states that a spawned instance does not consume it and the next LIVE session owns it** (BOARD_CONSUMPTION_SPEC §3.5.2). The orchestrated session read it, moved it to `processed/` by reflex, **caught that and moved it BACK.** I am `info:`, **CREED is `action`**. My read, offered not banked: **$51M is immaterial and the ORIGINATION CHANNEL is the routed object.** ⚠️ **A falsely-cleared inbox is worse than an unconsumed one — do not "tidy" this without a board_log row.**
 
 
-**A. 🔴 CONSUME `SIG-W-20260828-048` — it is sitting UNCONSUMED in `inbox/WALTER/` BY DESIGN and it is yours.** Chicago condo deconversion default, $51M / 137 units / 7 towers, originated by CoreVest, trustee "Wilmington Trust… solely as Trustee of RWT" ⇒ securitized (Redwood) collateral, not a whole loan. It arrived mid-session on 8/28 and **its own header says a spawned instance does not consume it (BOARD_CONSUMPTION_SPEC §3.5.2) — the orchestrated session read it, moved it to `processed/` by reflex, then moved it BACK.** I am `info:`, CREED is `action`; my read is that **$51M is immaterial and the ORIGINATION CHANNEL is the routed object**, but the disposition and the board_log row are the live session's to make.
+**A. ✅ DONE 2026-09-02 — `SIG-W-20260828-048` CONSUMED** (`board_log.tsv`, disposition `info-only`, `git mv`'d to `processed/`). Verdict: **no BROCK vector effect; my universe is defined by INSTRUMENT, and no BDC or private-credit fund is named as lender, holder or servicer.** WALTER's guard adopted: **do NOT aggregate with the office/multifamily CRE thread.** Routes back only if a BDC/credit fund appears as a holder of the RWT wrapper. *Original item:* Chicago condo deconversion default, $51M / 137 units / 7 towers, originated by CoreVest, trustee "Wilmington Trust… solely as Trustee of RWT" ⇒ securitized (Redwood) collateral, not a whole loan. It arrived mid-session on 8/28 and **its own header says a spawned instance does not consume it (BOARD_CONSUMPTION_SPEC §3.5.2) — the orchestrated session read it, moved it to `processed/` by reflex, then moved it BACK.** I am `info:`, CREED is `action`; my read is that **$51M is immaterial and the ORIGINATION CHANNEL is the routed object**, but the disposition and the board_log row are the live session's to make.
 
 **B. ✅ BCRED Q2 10-Q — READ 2026-08-28, third carry CLOSED.** Four passes, all primary → `domain/sources/2026-08-28_BCRED_Q2_READ_AND_FIRST_BRANDS_SWEEP.md`, KB-BRK-222/223. **Headline: a 10.0% distribution cut disclosed ONLY in Subsequent Events** (the six-month distributions table shows six flat months at $0.2000). NAV −2.23%, net assets −5.02%, FV/cost −1.07pp. **Non-accruals IMPROVED** (2.4%→2.2% cost, 17/29→15/25 issuers) — carried because it cuts against me. **Unconsolidated Emerald JV at 3.5% vs the fund's 2.2% = a third understatement mechanism.** ⚠️ **STILL OPEN from this read: PASS 4 (which NAMES are on non-accrual) is NOT ESTABLISHED** — my parse returned 23 issuers/69 loans against a stated 15/25 because footnote (17) appears in the current schedule, the comparative schedule AND both JV schedules. **The migration test (do BCRED's NA names match the small-fund <50¢ list?) needs a proper row-to-footnote parser — the same one WALTER `-028` ask (a) needs for OBDC's June SOI. Build it ONCE, properly.**
 
@@ -20,7 +22,7 @@
 
 **E. 🟠 CRMT 9/7 (Labor Day) — three levers, arm the calendar, expect nothing public in time.** Live business days **Fri 9/4** and **Tue 9/8**; extensions 9/21 (path (a) is the watchable one — it uniquely qualifies on *"Payment in Full **or a permanent waiver**"*) and 11/6. ⚠️ **Untrippable by construction: Milestone Schedule redacted, first public data is the 10-Q due ~9/9, TWO DAYS AFTER.** I am INFO, OTTO is action, **no convergence vote.**
 
-**F. ✅ FIRST BRANDS Q2 EXPOSURE SWEEP — DONE 2026-08-28; ⚠️ its DERIVED $17.5-22.5M was RETIRED 9/2 (see item 6). The measured count and marks stand.** Six BDCs at the Q2-10-Q perimeter (not fifteen); marks **7.4-9.5¢**; **super-priority New Money DIP at 22.80¢, Roll-Up DIP at 0.10¢.** Re-size tightened **$31-38M → ~$17.5-22.5M**. KB-BRK-224. ⚠️ **Two open tails:** (i) per-holder dollar totals for Kennedy Lewis / GECC / Palmer Square / Monroe need the same row-to-footnote parser as item B — the mark range rests on two holders and says so; (ii) **OTTO's perimeter for its "15 BDCs" figure is still unstated and I asked for it rather than assuming its figure was wrong.**
+**F. ✅ FIRST BRANDS Q2 EXPOSURE SWEEP — DONE 2026-08-28; ⚠️ its DERIVED $17.5-22.5M was RETIRED 9/2 (see item 6). The measured count and marks stand.** Six BDCs at the Q2-10-Q perimeter (not fifteen); marks **7.4-9.5¢**; **super-priority New Money DIP at 22.80¢, Roll-Up DIP at 0.10¢.** Re-size tightened **$31-38M → ~$17.5-22.5M**. KB-BRK-224. ⚠️ **Open tails, updated 9/2:** (i) **STILL OPEN** — per-holder dollar totals for Kennedy Lewis / GECC / Palmer Square / Monroe need the same row-to-footnote parser as item B; the mark range rests on two holders and says so. (ii) ✅ **CLOSED 9/2, in the negative and permanently: OTTO answered that the "15 BDCs" perimeter was NEVER RECORDED and can never be supplied.** ⇒ **the derived dollar figures are RETIRED, not re-caveated** — do not quote $17.5-22.5M or $31-38M. KB-BRK-229.
 
 **H. 🟢 LEDGER NUDGE — answered, nothing owed.** At final closeout the nudge reported FLOW / VX / PREDICTIONS / PC_REDEMPTION_REGISTER each **1 STATUS-write behind.** ⚠️ **That is the nudge working as designed, not a defect: the trailing STATUS write was the SHADE reconcile (CCC−BB gap 878 + the marker-(0) guard), and that edit genuinely changed none of those four ledgers** — the reconcile's content landed in `KB.tsv` (KB-BRK-221), which WAS committed with it. **Why-not recorded rather than refreshed:** refreshing four ledgers to clear a 1-write gap that no evidence moved would be a hygiene commit that re-arms the git-time staleness fallback for nothing (`[[finding_hygiene_commit_rearms_the_staleness_lie]]`). **PC_REDEMPTION_REGISTER was genuinely refreshed earlier this same session** (two-clock header + BCRED Q3 leg to primary + the $78B wrong-concept kill), so its content vintage is 8/28.
 
@@ -70,28 +72,29 @@
 
 | # | Debt | Owed to | Since | State |
 |---|---|---|---|---|
-| 1 | BCRED Q2 10-Q read | myself / BRK-02 / BRK-32 L2 | 8/12 filed | **FETCHED, UNREAD** |
+| 1 | BCRED Q2 10-Q read | myself / BRK-02 / BRK-32 L2 | 8/12 filed | ✅ **CLOSED 8/28** — four primary passes. ⚠️ **PASS 4 (non-accrual NAMES) NOT ESTABLISHED and NOT shipped** — parse failed its own validation. **BRK-32's L2 weight still needs re-basing $45.04B → $42.78B before 11/30** |
 | 2 | BRK-02 name-set ruling | — | 8/7 | ✅ **RULED 8/13 — SCRATCH SIX ADOPTED**, encoded to PREDICTIONS w/ disclosures + rejected reading preserved. Artifact: `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` |
 | 8 | **BRK-02 INSTRUMENT question** — registered letter says *"INDUSTRY non-accruals"*; the six-name median is a PROXY | PROME → **RULED by Will 8/13** | 8/13 | ✅ **CLOSED ON RULING ⑤.** Proxy scope guard **RATIFIED** (median = tell, never resolver). Blind spec **PRE-REGISTERED** → `domain/sources/BRK02_INDUSTRY_INSTRUMENT_BLIND_SPEC_AUG13.md`. NO-VERDICT fallback **pre-registered**. ⏳ *Spec awaits Will's ratification before it is live as the resolver* |
 | 3 | PC redemption register: CCLFX demand `~17.0` source field names a DOCUMENT, not a LINE ITEM — and the N-CSR does not contain it | RED (flagged §4b), myself | 8/13 | ⚠️ **OPEN VERIFICATION DEBT.** Carries a `~`; must not be treated as filing-grade |
 | 4 | 4th-public-div-cut trigger: RED's reframe ACCEPTED 8/7 — *"watching a wave that crested a quarter ago"* — **re-base or retire is OWED** | RED, my own register | 8/7 | **Not done.** Zero base cuts across five names; FSK RAISED |
 | 5 | VX-BRK-023 (OTF litigation) `STUCK` — re-spec was scheduled "after 8/7" | myself | 7/28 | **Still STUCK, deliberately unconsumed** |
-| 6 | 8/6 MFIC + FSK CALL transcripts never pulled — all five 8/7 grades are off the FILED record only | myself | 8/7 | **NAMED GAP, open** |
+| 6 | 8/6 MFIC + FSK CALL transcripts never pulled | myself | 8/7 | ✅ **DISPOSED 9/2 — PATH AUDITED, not re-attempted.** Quartr MCP returns `subscription_required` (plan `none`) = a **VERIFIED negative on the instrument**, not a search miss. **The five 8/7 grades STAND on the filed record.** 🔴 **What was missing is management TONE, not a number — I had been carrying it as though a figure were outstanding, and that mis-label WAS the defect.** Re-dated to **MFIC Q3 (early Nov)**. ⛔ Do not re-attempt Quartr |
 | 7 | BRK-32 spec: `oversubscribed := pct_repurchased > cap` fix offered to RED | RED (their register) | 8/13 | **Sent, awaiting RED** |
 
 ---
 
-## 👀 WATCH ORDER (next session)
+## 👀 WATCH ORDER (next session — **rebuilt 2026-09-02**)
 
-1. 🔴 **HY OAS vs the <270 line — 271 [FRED 8/12], ONE basis point away.** ⚠️ **Do not read the level alone.** Over the same 7/24→8/12 window CCC widened +24bp while HY/BB/B each tightened 8bp (CCC−BB 828→**860**; ratio 5.93→**6.38**). **Both normalizations now agree bear for the first time** — my own 7/27 discriminator's stated bar. **LIQUID owns the sustain count; do not self-grade it.**
-2. 🔴 **APO — the $130 rule FIRED 8/12** (3 consecutive closes). Next band **>$145 sustained, $4.53 away** at $140.47 [8/13 intraday]. Dec $95P mid ~$0.75, 127 DTE, 32.4% OTM.
-3. 🟠 **Wrapper-vs-manager on the NEXT DOWN leg.** 8/3→8/13 the basket averaged +7.9% vs APO +8.5% with FSK (+13.2%) and OBDC (+7.8%) individually beating the manager — **the beta-insensitivity explanation I have cited since 7/27 took a hit.** An up-leg cannot fire X1 (my half is wrapper-leads-DOWN); **the real test is the next drawdown.**
-4. 🟠 **BIZD $13.48 — the $12.50 pin is CLEARED by 7.8%** and it is no longer the red name. The conditional BIZD Sep $12P (BRK-25's attached trade) is now far OTM.
-5. 🟡 **CRMT / Silver Point covenant relief expires EARLY SEPTEMBER 2026** — a hard dated trigger on the PC-manager→subprime join. Still n=1, no vote.
-6. 🟡 **NAIC CLO RBC charge biting YE-2026** → VX-BRK-024 (first downgrade of an insurance-wrapped/CFO tranche).
-7. ⚪ **AI-infra origination** — CRWV DDTL is DSCR-sized project finance (1.20x/1.15x, DEWEY-filed), repriced +100-125bp to 10.44% YTM; FY26 capex raised to $35-39B on $12.4-13.2B revenue. **My checkable question, registered not done: does that DDTL appear in any BDC SOI?** VULCAN owns the capex lane.
+> ⚠️ **The prior list was 8/12–8/13 vintage under a "next session" heading**: HY *"271 [FRED 8/12]"*, APO *"$140.47 [8/13 intraday]"*, BIZD *"$13.48"*, CRMT *"EARLY SEPTEMBER"*. **Stale by omission — no wrong token for a string sweep to find.** Superseded rows → `archive/STATUS_ROTATED_2026-09-02.md` lineage + STATUS tape.
 
----
+1. 🔴 **BCRED Q3 `SC TO-I/A` letter — NOT FILED at 9/2 19:29 ET.** Check **9/3, 9/4, 9/8**. ⚠️ **Rule 13e-4(c)(1) written-communication amendment, NOT a "final results" filing.** Nothing by the 9/8 close ⇒ **re-date with a reason, do not carry.**
+2. 🟢 **HY OAS — 265 [FRED 9/1 official], +2bp from 263 [8/31], moving AWAY from the kill.** `GATE-HY-REKILL` (LIQUID's 2-close <260) **0-of-2.** ⚠️ **My own 10-session count is an OBSERVABLE now, not a kill (WQ-106).** ⛔ **Do not read the level alone — CCC 1,049 [9/1], +18bp with the index ~flat: 5th consecutive level-vs-composition instance.**
+3. 🔴 **Wrapper-vs-manager on the next DOWN leg — the sign has printed AGAINST X1 five times.** 9/1: managers **−2.85 to −4.59%**, wrappers **−0.80 to −1.39%** ⇒ managers led by ~2.5-3.5pp, the **wrong sign** for arming test (b). **Only the decomposition leg (CCC/BB series max) points the other way, and either alone is nothing.** X1 **CLOSED**.
+4. 🟠 **APO $132.29 (9/2, +0.46%) after −3.58% (9/1).** $130 rule fired 8/12 → **Will-ruled HOLD**; >$145 re-eval **$12.71 away**. Book mark **19d stale** and one of five rows marking at exactly $0.05 (FORGE D-21 — not readable as realizable).
+5. 🟠 **CRMT 9/7 → 9/8 → the ~9/9 10-Q.** Pre-registered 9/2: **no outcome moves a vector**; **silence is evidence of neither failure nor health.** ⚠️ **My non-collapse and OTTO's are NOT independent** — same DEWEY read, same redaction.
+6. 🟡 **BIZD $13.34** — the $12.50 pin cleared by 6.7%; the conditional BRK-25 Sep $12P far OTM.
+7. 🟡 **VX-BRK-024** — first downgrade of an insurance-wrapped/CFO tranche as the NAIC CLO RBC charge bites YE-2026.
+8. ⚪ **AI-infra origination** — registered-not-done: does the CRWV DDTL appear in any BDC schedule of investments?
 
 ## 📋 FOLLOW-UP TIERS
 
