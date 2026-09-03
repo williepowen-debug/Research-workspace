@@ -59,9 +59,9 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 | Foreign Official vs Non-Official | **official −$45.4B / non-official +$23.2B** (Jun) | — | 🟠 | [CONF] TIC Jun'26 — private bid absorbing official supply. Level fall −$72.1B but only −$22.3B sold (KB-122) |
 | Combined Anchor Selling | **Jun: China −$22.0B, Korea +$2.7B — DIVERGED** | >$50B/qtr = 🔴 to LIQUID | 🟠 | [CONF] TIC Jun. **Q2 China −$14.8B does NOT trip the >$50B/qtr route** (VX-ZHAO-7.01) |
 | Brent crude | **$95.30** (live) | Asia shock transmission | 🟠 | [CONF] boot.py live **9/2 ~19:40 ET** (`BZ=F` continuous front contract — **never compute a % move across a roll**). **HAWK/BRENT own the price** |
-| Property / LGFV / banking cluster | Land sales H1 **−6.5% to −27% YoY** · LGFV ~**60T RMB** (IMF 44-58T) · Guizhou/Zhengzhou NPL **11.6% / 9.55%** 🧊 FROZEN 7/16 · small banks consolidated **130+** by Jun 4 (run-rate ~310+, ZHA-06) | mixed | 🟠 [CONF] as dated. **One source of truth = `workbook/VX.tsv`**; 8/21 rows verbatim at COLD §⑥ |
-| PBOC gold streak | **20 months** (+14.93t Jun) | — | 🟢 [CONF] diversification continues — **not** the primary UST-reallocation channel, too small (KB-099/102) |
-| Korea CPI (Jun) **3.2%** · China real property (BIS) **~86** vs 2021 peak ~113 | — | — | 🟠 BoK hiked +25bp to 2.75% 7/16 (KB-093) · 20yr property gains erased (WALTER SIG-W-20260706-017, Hedgeye 7/5). **Hormuz flows 🧊 STALE 7/9 — HAWK/BRENT domain, do not cite** |
+| Property / LGFV / banking cluster | Land sales H1 **−6.5% to −27% YoY** · LGFV ~**60T RMB** (IMF 44-58T) · Guizhou/Zhengzhou NPL **11.6% / 9.55%** 🧊 FROZEN 7/16 · small banks **130+** by Jun 4 (run-rate ~310+, ZHA-06) | mixed | 🟠 [CONF] as dated. **Source of truth = `workbook/VX.tsv`** |
+| PBOC gold streak | **20 months** (+14.93t Jun) | — | 🟢 [CONF] **not** the primary UST-reallocation channel — too small (KB-099/102) |
+| Korea CPI (Jun) **3.2%** · China real property (BIS) **~86** vs 2021 peak ~113 | — | — | 🟠 BoK hiked +25bp to 2.75% 7/16 (KB-093) · 20yr property gains erased (WALTER SIG-W-20260706-017) |
 
 ### Currency / HK Peg
 | Metric | Value | Threshold | Status | Source |
@@ -69,7 +69,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 | USD/CNY | **6.72** | >7.30 = 🟠 | 🟢 | [CONF] boot.py live **9/2 ~19:40 ET** — appreciation bias intact into the summit window |
 | USD/KRW | **1,358.73** | >1,500 = BoK selling | 🟢 **EASED THROUGH** | [CONF] boot.py live **9/2 ~19:40 ET**, stronger again vs 1,385.70 (8/21). Tripwire FIRED 8/12, basis-independent. Korea BOUGHT +$2.70B in June (KB-123). ⚠️ Two caveats **unverified, not resolved**: foreign KOSPI selling; SK hynix conversion share (KB-126) |
 | HK Aggregate Balance | **HK$54,108M** | <$45B = 🟡 | 🟢 🧊 **[STALE 8/3, 30d]** | [CONF] HKMA API 8/3. **boot.py flags 🔴 STALE — refresh before citing** (KB-ZHAO-108) |
-| 1-mo HIBOR | **2.65589%** | — | 🟢 🧊 **[STALE 8/3, 30d]** | [CONF] HKMA API 8/3 |
+| 1-mo HIBOR | **2.65589%** | — | 🟢 🧊 **[STALE 8/3]** | [CONF] HKMA API 8/3 |
 | HIBOR-SOFR Spread | **~-164bps** | >-200bps = 🟠 | 🟢 inside 🧊 **[STALE 8/3]** | ⚠️ **HIBOR leg [CONF] HKMA 8/3; SOFR leg [EST] ~4.30%, NEVER re-verified — NY Fed *and* FRED both 403'd.** Direction certain, **level is not.** Do not cite −164 as load-bearing |
 
 ### Domestic Stress
@@ -103,7 +103,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 | 5b | Domestic Demand / Broad Activity | 🟠 **3 ↓** | ⬇️ **DOWNGRADED 9/2, and only the manufacturing leg earns it.** Mfg 49.2→**49.8** (beat), **production 50.4** and **new orders 50.6** back in expansion from 48.5. **But services are FLAT at 49.3 for a second month and the composite is sub-50 twice.** Read as *shallowing, not recovering* | **Aug 31** |
 | 6 | PBOC Defensive Wall | 🟢 1 | Yuan **6.72** live; 7d repo 1.4%; LPR held 14th month (7/20) with FX room available = **restraint**, a stronger comfort signal than the level | yuan **live 9/2**; LPR **Jul 20** |
 | 7 | HK Peg Channel | 🟢 1 | AB HK$54,108M flat, no peg defense; 1M HIBOR 2.656%; spread ~−164bps inside −200. ⚠️ **All three legs 30d stale and the SOFR leg was never verified** | 🧊 **8/3** (SOFR leg [EST]) |
-| 8 | LNG/Energy Shock | 🟠 3 | Brent **$95.30** live 9/2 — **+25% above the $76.01 that armed this vector on 7/9** and ZHAO has not re-scored it on that move. **BRENT/HAWK-owned; carried, not adjudicated.** ⚠️ Flagged: a 🟠 3 set at $76 is not obviously the right score at $95 | **BRENT/HAWK-owned**; price live 9/2 |
+| 8 | LNG/Energy Shock | 🟠 3 | **Scored 🟠 3 on 7/9 when this row's Brent leg read $76.01 (contract UNNAMED). BRENT's 9/2 settle is `BZX26` $95.23.** ⚠️ **No % move is quoted and none can be** — the 7/9 leg names no contract and `BZ=F` rolls, so the two are not delta-comparable (PROME basis note, 9/2). **The finding is the 55-day-old score, not a computed move.** BRENT/HAWK-owned; carried, not adjudicated — freeze if no re-score returns | **BRENT/HAWK-owned**; 9/2 settle |
 | 9 | USD/CNY Defense | 🟢 1 | **6.72**, appreciation bias intact | **live 9/2** |
 | 10 | Gulf Recycling | 🟡 2 | Revenue recovering with oil exports; acute collapse over | **BRENT/HAWK-owned, Jul 4** |
 | 11 | Gulf Infra Destruction | 🟡 2 | Rebuild underway; capacity recovering | **BRENT/HAWK-owned, Jul 4** |
@@ -149,8 +149,8 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 
 | Date | Event | Priority |
 |------|-------|----------|
-| ✅ Mon Aug 31 | **China August PMI** — the registered discriminator. **DONE, graded 9/2**: mfg 49.8, construction **46.9 record low**, composite 49.5, services 49.3 flat | ✅ KB-ZHAO-128 |
-| ~Sep 7 | China Aug trade + SAFE FX reserves/gold | 🟠 |
+| ✅ Mon Aug 31 | **China August PMI** — **DONE, graded 9/2** (above) | ✅ KB-128 |
+| ~Sep 7 | China Aug trade + SAFE reserves/gold | 🟠 |
 | early Sep | **RatingDog (ex-Caixin) August mfg PMI** — the state-vs-private divergence check (Jul: 50.9 vs NBS 49.2). **OWED PULL** | 🟠 |
 | ~Sep 9-10 | China Aug CPI / PPI — deflation check | 🟡 |
 | **~Sep 16** | **July TIC** — the composition arbiter (**ZHA-17**) and the CORRECT arbiter for **ZHA-11** (a 9-July auction cannot be tested by June flows). Also **ZHA-12** resolves | 🔴 |
@@ -160,7 +160,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 | **October 2026** | **Fifth Plenum, 20th CPC Central Committee** — 15th Five-Year-Plan venue; the realistic home for a large fiscal figure | 🟠 (KB-ZHAO-106) |
 | **Tue Nov 10** | 🔴 **Reciprocal-tariff suspension EXPIRES BY ITS OWN TERMS at 12:01 ET — the default is LAPSE, not continuation.** Suspended-state rate 10%; **resumed rate NOT specified in the order.** Fentanyl tariff cut 20%→10% under the same arrangement | 🔴 |
 | ~May 2027 | Rare-earth control postponement expiry | 🟡 |
-| Dec 2026 | SEC Cash Clearing mandate (LIQUID's; ZHAO tracks the seam) | 🟡 |
+| Dec 2026 | SEC Cash Clearing mandate (LIQUID's) | 🟡 |
 
 ---
 
@@ -190,7 +190,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 3. 🔴 **Sept 24 summit** — grade ZHA-16 off the official output only. Verify the date holds; a slip grades as branch B with the slip logged.
 4. 🟠 **KB.tsv `Stale_By` has NO READER; 30 rows past theirs** (oldest KB-ZHAO-060). Carried from 8/21, **still not fixed.** ⚠️ Do NOT bulk-mark SUPERSEDED — past-`Stale_By` means *may need re-verification*, not *wrong*. Fix ≈5 lines in `boot.py` §6, then work by age.
 5. 🟠 **HK peg + SOFR: four rows 30d stale, SOFR leg NEVER verified** (NY Fed + FRED both 403'd 8/3). Refresh HKMA; find a third SOFR source.
-6. 🟠 **Vector 8 scored 🟠 3 off Brent $76.01; Brent is $95.30.** Not ZHAO's to re-price — flagged to BRENT/HAWK 9/2. No answer ⇒ mark the vector 🧊 rather than carry it.
+6. 🟠 **Vector 8 scored 🟠 3 on 7/9 at $76.01 (contract unnamed); BRENT 9/2 settle `BZX26` $95.23.** Not ZHAO's to re-price — routed to BRENT via PROME 9/2. No answer ⇒ mark 🧊 rather than carry it. ⚠️ **Quote levels with contracts, never a delta — `BZ=F` rolls.**
 7. 🟠 **Korea's two unverified caveats** — foreign KOSPI selling not reversed; SK hynix conversion share. Unchecked since 8/3; needed before calling Korea risk closed.
 8. 🟠 **WFE export-control bindingness on Chinese DRAM** — ZHAO's leg of the VULCAN ask, delivered 9/2 as a range with unknowns named. **Enactment watch (BIS Entity-List package · FT 7/21 MOFCOM TSMC/QCOM restriction) is now a DATED re-check row in `docket/CATALYSTS.tsv` (2026-09-16), not this bullet** — it was committed in writing to VULCAN and HAWK while living only in KB and undated prose here, i.e. on zero surfaces `boot.py` travels (KB-ZHAO-136). Publication ⇒ same-session packets **and** ZHA-16 branch C.
 9. 🟡 **Re-register ZHA-03 (Belgium >$500B) for H2** on a mechanism that survives the rho test — not custody migration. · 10. 🟡 **China 10Y / CGB is newly ZHAO's** and carries one stale datum (1.710%, 7/31): establish a refresh path or freeze the row honestly.
