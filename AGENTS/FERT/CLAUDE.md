@@ -25,6 +25,11 @@
 2. `python3 "$(git rev-parse --show-toplevel)/AGENTS/FERT/boot.py"` — wall clock · ledger staleness (workbook + TRADE) · **predictions-due scan** (OPEN rows past `Resolve_By` print as named flags — mechanized per blueprint §5) · **triggers-due scan** (`workbook/TRIGGERS.tsv` rows past `Next_Check`). Exit 1 = REVIEW: work the flagged items before new research (root rule: mechanical before creative).
 2b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" FERT` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 3. Process `inbox/` per `inbox/PROTOCOL.md` (INTEGRATE / LOG / DISCARD; move to `inbox/processed/`).
+3b. **Consumption record — `board_log.tsv`** *(installed 2026-09-02 per `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1; recipients self-apply)*. Header: `timestamp_read⇥signal_id⇥disposition⇥source⇥notes`.
+   1. List `AGENTS/FERT/inbox/WALTER/*.md` not yet in `board_log.tsv`.
+   2. For each: read it, pick a disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row with `source=INBOX_WALTER`, then **`git mv`** it to `inbox/WALTER/processed/` (`git mv`, never bash `mv` — bash leaves the deletion unstaged).
+   3. Let `acted` items inform the session.
+   **FERT extension (deliberate, wider than the template):** this desk logs **one row per item consumed from EVERY sender**, not just the WALTER lane — root-level packets get `source=INBOX_ROOT`. Rationale: the drain that matters here is the whole inbox (a 16-day dark gap left 5 root packets and 1 WALTER signal), and a log that can only see one lane cannot show a reviewer what was left unread.
 4. Read `STATUS.md`. *(The `FROZEN 2026-03-20` first-live-session trigger was spent 2026-08-17 — STATUS is live. Its own banner remains the authority on whether it is live.)*
 5. Execute the task. Write results back (STATUS + workbook). Update BOTTOM LINE.
 6. Closeout per root `CLAUDE.md` §Git Protocol (commit own pathspec, orphan check, auto-push).
