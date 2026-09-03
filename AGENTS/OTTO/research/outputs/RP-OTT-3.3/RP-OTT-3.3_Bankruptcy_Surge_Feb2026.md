@@ -1,5 +1,12 @@
 # The 2026 Corporate Insolvency Crisis: Large Bankruptcies and Systemic Exposure
 
+> ⛔ **CORRECTION 2026-09-02 — the "$237M across 15 BDCs" First Brands figure below is `[PRESS][STALE 2026-02-04]` and its PERIMETER IS PERMANENTLY UNQUALIFIABLE.**
+> OTTO never recorded what the "15 BDCs" perimeter counted, so **the denominator can never arrive** — the figure is not merely stale, it is unqualifiable.
+> ⛔ **It must NOT be multiplied by a mark to produce a remaining-capacity number.** BROCK retired his derived `$237M × 7.4-9.5¢ ≈ $17.5-22.5M` on exactly that ground (2026-09-02).
+> ✅ **Live measurement instead: SIX BDCs disclose First Brands in a Q2-2026 10-Q at a NAMED perimeter** — Steele Creek **9.55¢**, Saratoga **7.38¢**, New Money super-priority DIP **22.80¢**, Roll-Up DIP **0.10¢**.
+> ⚠️ A DIP mark carries claim disputes, collateral and timing — **not a clean recovery estimate.**
+> *(Banner added because this file surfaced in OTTO's own superseded-string sweep and was NOT fixed in the first pass — RP-OTT-3.1 and RP-OTT-4.1 got their banners, this one was seen and skipped. `[[finding_a_correction_pass_is_unreviewed_work]]`)*
+
 **Source:** Gemini Deep Research  
 **Date:** 2026-02-14  
 **Prompt:** RP-OTT-3.3

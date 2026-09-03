@@ -52,6 +52,22 @@ Everything below is still OPEN unless marked ✅. Resolve at a dedicated content
 | 11 | **"Below-IG clearing" reframe not propagated to VX** | The Jun 8 correction (below-IG tranches ARE clearing; "IG-only" retired) lives in STATUS/PREDICTIONS/CHANGELOG but VX-002/003 still say "BB 350bps+ / IG-only" framing. If VX is kept (item 3), propagate; covered by the item-3 refresh. |
 
 ## Recommended next-session order
+
+> ⛔ **THIS ORDERED LIST IS 39 DAYS OLD (2026-07-25) AND CONTRADICTS THE DISPOSITIONS AT THE TOP OF ITS OWN FILE. Re-audited 2026-09-02; do not work it as written.**
+> Found by BROCK's heading test — *read every heading that implies currency* — not by a string sweep, because a stale to-do list carries no wrong token. `STALE_PUNCHLIST`'s own charter says *"re-audit each major session"*; it had not been opened in **39 days and roughly eight sessions**. **A punch-list that goes stale is the one document class where staleness is self-refuting.**
+>
+> **Item-by-item reconcile against what actually happened:**
+> - **#2 "re-point ACTIVE MONITORING"** — ⛔ **IMPOSSIBLE.** That table was **DELETED** in s016 by disposition ③ at the top of this very file. **The header retired the table and the footer still schedules work on it.**
+> - **#5 "EDGAR_8K_MONITOR — retire or hand to REGINALD"** — ⛔ **REVERSED.** Disposition ④, four paragraphs above, **explicitly reverses this line**: the file was REPURPOSED, its EDGAR full-text-search method promoted to OTTO's canonical instrument registry. **The same file says both.**
+> - **#4 "stub-script decision"** — ✅ **PARTLY DONE.** `EXTENSION_PROXY` and `ABS_ISSUANCE` frozen (s016); **`SHELF_ACTIVITY.tsv` FROZEN with an EVENT-DRIVEN cadence 2026-09-02** (DAEDALUS staleness #4 / PAT-095).
+> - **#1 TRADE.md rehab** — ⚠️ **STILL OPEN and now ~5.2 months rotted.** TRADE.md is FROZEN and no position is live, so behavioural risk is contained — but the item is real and carried.
+> - **#3 VX.tsv / DQ-series reconcile** — ⚠️ **STILL OPEN.** VX is FROZEN; the `0.117%` row inside it was deliberately left (a frozen ledger stays frozen; correcting one row implies the rest are maintained).
+> - **#6-#7 Will-decision + hygiene** — unchanged, still open.
+>
+> 🔑 **The generalisable defect: a file can contain its own refutation and pass every check, because nothing compares a document's header to its footer.** Disposition ④ reversed recommendation #5 in the same edit that wrote it, and both have coexisted for 39 days. `[[finding_a_file_that_examples_its_own_structure_is_ambiguous]]` · `[[finding_summary_section_merges_what_the_body_separates]]`
+>
+> **⇒ WORK THE RECONCILE ABOVE, NOT THE LIST BELOW. The list is retained verbatim as the record of what was recommended, not as instructions.**
+
 1. **TRADE.md rehab (#1)** — highest behavioral risk; split-adjust CVNA, kill dead triggers, fix cross-refs. (Roadmap #3.)
 2. **RESEARCH_STATUS.md (#2)** — re-point ACTIVE MONITORING to live catalysts; index RP-OTT-3.3 + recon STAGE2.
 3. **VX.tsv (#3) + DQ-series reconcile (#10)** — do together; resolves the 3-way threshold dup AND the DQ-series ambiguity. Propagate below-IG reframe (#11).
