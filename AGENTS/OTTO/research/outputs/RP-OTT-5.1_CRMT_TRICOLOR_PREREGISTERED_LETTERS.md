@@ -1,5 +1,62 @@
 # RP-OTT-5.1 — Pre-registered letters: CRMT 9/4 + 9/7, and the Tricolor 9/4 ladder graded
 
+---
+
+# ⬛ GRADE CARD — **THE ONLY THING A GRADER NEEDS TO READ. Everything below this card is provenance.**
+
+**Sealed 2026-09-02 21:23 ET. Supersedes EVERY band definition, window, instrument pin and scoring instruction elsewhere in this file, including all three Amendments and the grading-schedule table at the end.** Where the card and any other line disagree, **THE CARD WINS**.
+
+> ⚠️ **Why a card and not a fourth amendment.** Two adversarial cold reads found the same root cause each time: **corrections were written into the newest section and never reached the surface a grader actually opens.** Pass 2 found the grading-schedule table still instructing a convention Amendment 3 had withdrawn, and Letter 2's window pinned to two different fields sixteen lines apart. **A fourth amendment would have reproduced the defect a fourth time.** `[[finding_transfer_completes_only_when_the_receiver_encodes]]`
+
+## Universal conventions (both letters)
+
+| | |
+|---|---|
+| **Timing field** | **EDGAR ACCEPTANCE DATETIME, ET — for BOTH letters.** Never `filingDate`. *(EDGAR rolls post-17:30-ET acceptances to the next business day, so `filingDate` would grade a Fri-19:00 8-K as silence.)* |
+| **Issuer filing** | A filing whose **filer is America's Car-Mart, Inc. (CIK 0000850429 / 0000799850 as the feed reports it)** filing **about itself**. ⛔ **Forms 3/4/5, SC 13D/G and any filing by a third party are OUT OF SCOPE — they never fire a band and never break a negative.** |
+| **Qualifying issuer 8-K** | **ANY 8-K or 8-K/A filed by the issuer.** *(Not "one that matches a band." Pass 2: leaving this undefined re-opened the uncovered outcome — an extension 8-K with no new date, or an Item 3.01 delisting notice, fell through every band.)* |
+| **Price** | **Nasdaq Official Closing Price (NOCP) for CRMT, UNADJUSTED**, from the primary listing exchange. ⛔ **NOT the consolidated/SIP close, NOT adjusted close, NOT a Yahoo pull.** If NOCP is unobtainable, the price partition grades **UNGRADED** — do not substitute. |
+| **$2.23 / $3.08 / −27.6%** | ⛔ **CONTEXT ONLY, Yahoo-sourced, NOT on the NOCP basis, NOT graded.** The −19% / +30% labels on 1C/1D are derived off $2.23 and are **decorative**; the graded lines are the absolute **$1.80** and **$2.90**. |
+| **Corporate action** | If a split / reverse split / special dividend has an ex-date on or before the graded session, **the $1.80 and $2.90 lines are multiplied by the same adjustment ratio.** A reverse split must not fire 1D. |
+| **Halts** | Source: **Nasdaq Trader daily trade-halt file.** If no archived record is retrievable at grade time, **1F grades UNGRADED and does NOT override 1B.** |
+| **Missing close** | Any session in a graded window with no official close is **skipped**, and any band that required it grades **UNGRADED** rather than false. |
+| **Confidence tokens** | VERIFIED · INFERRED · SEARCH-NOT-FOUND · UNKNOWN. **Apply one to every graded band.** |
+
+## LETTER 1 — grade **Sat 2026-09-05**. Window: **acceptance 2026-09-03 00:00:00 → 2026-09-04 23:59:59 ET**
+
+**Partition A — issuer filings** (sums 100): **1A** qualifying issuer 8-K under Item **1.01 / 1.02 / 2.04 / 3.01** — **20%** · **1G** any other issuer filing — **8%** · **1B** **no issuer filing at all** — **72%**, scoring as **NO INFORMATION about compliance, explicitly not a missed milestone**.
+**Partition B — the tape**, independent of A (sums 100): **1C** NOCP **< $1.80** — **15%** · **1D** NOCP **> $2.90** — **10%** · **1E** **$1.80 ≤ NOCP ≤ $2.90** — **75%**.
+**Override — 1F** halt on 9/3 or 9/4 — **3%**; **dominates 1B** *(only if the halt file is retrievable; see above)*.
+
+⚠️ **Item numbers are read from the 8-K DOCUMENT COVER PAGE, not the feed's `items` field, where they disagree.** An **8-K/A** amending an in-window 8-K is graded on the amended content.
+
+## LETTER 2 — grade **Fri 2026-09-11, NOT before the 9/8 close**. Window: **acceptance 2026-09-05 00:00:00 → 2026-09-11 23:59:59 ET**. A 9/4 filing belongs to Letter 1 only.
+
+**Graded by PRECEDENCE, first match wins** (sums 100):
+
+| # | band | prob |
+|---:|---|---:|
+| 1 | **2E** — voluntary Chapter 11/7 petition. ⚠️ **Instrument is the COURT DOCKET, not EDGAR** — if PACER is unreachable, grade **SEARCH-NOT-FOUND**, not false | **2%** |
+| 2 | **2C** — a **NEW public act**: acceleration · Cash Dominion newly imposed or noticed · Servicing Centralization Period Notice · servicer-termination at any ACM trust. ⚠️ **Trust events appear on the TRUSTS' own CIK feeds, which this letter never enumerated — if those feeds are not checked, grade this leg SEARCH-NOT-FOUND, not false.** Cash Dominion is **already triggered** (BROCK), so persistence of the existing condition is NOT 2C | **13%** |
+| 3 | **2A** — issuer 8-K disclosing extension/amendment **with a NEW DATED termination** (beats 2D even if the same 8-K carries financing) | **50%** |
+| 4 | **2D** — issuer 8-K with a **binding, non-contingent** financing commitment or signed definitive sale docs, **and no new dated termination** | **10%** |
+| 5 | **2G** — ⚠️ **NEW: any other qualifying issuer 8-K** (e.g. an extension with NO new date, or an Item 3.01 delisting notice). **This is the residual that closes the hole pass 2 re-opened** | **3%** |
+| 6 | **2F** — **no qualifying issuer 8-K**, and any session 9/8–9/11 closes more than **±15%** from the prior session's close | **7%** |
+| 7 | **2B** — no qualifying issuer 8-K and no such move. **UNRESOLVED — hand to the ~9/9 10-Q** | **15%** |
+
+**2F/2B observation count: FIVE NOCP prints — 9/4, 9/8, 9/9, 9/10, 9/11 — forming four adjacent pairs, with the three interior prints each serving twice.** Δ = **(close − prior close) / prior close**, simple, not log. **The 9/8 session is measured against the 9/4 close; the Labor Day gap is INCLUDED** (it is the most likely gap in the window and excluding it would be a choice made after seeing the calendar) — ⚠️ **note that ±15% across a four-calendar-day break is not the same test as ±15% overnight, and this letter applies one number to both.**
+
+## Scoring
+
+1. **Grade the card's bands above.** These are the live set.
+2. **Also grade the ORIGINAL Letter 2 set — 2A 40 / 2B 30 / 2C 15 / 2D 10 / 2E 5 — AGAINST THE ORIGINAL DEFINITIONS as written in the Letter 2 table below**, not against the card's. A probability cannot be graded apart from its event definition.
+3. ⛔ **Letter 1 WAS RE-PRICED and the earlier text wrongly implied otherwise:** 1B **70% → 72%**, 1F **"<5%" → 3%**, and **1G 8% is new**. Letter 2's ladder was **not** re-priced through Amendment 3 (2B+2F = 25 = Amendment 1's lapse-quiet); **the card's 2G 3% is new and takes 2B 18 → 15.** All disclosed here rather than buried.
+4. ⛔ **Calibration, corrected — this file twice instructed the opposite:** **if 2A fires, the amended 50% BEAT the original 40%** (Brier 0.25 vs 0.36) and BROCK's structural correction earned its move. If 2A does not fire, 40% was closer. **Record which won.**
+5. **GRADE COLD.** BROCK asked for this in a cross-session message on 2026-09-02 — **a coordination channel with no archived artifact, so treat the attribution as UNKNOWN**; the instruction stands on its own merits regardless of provenance.
+
+---
+
+
 **Author:** OTTO · **Written:** 2026-09-02 20:4x ET (session 021) · **Series:** 5.x (pre-registered reads)
 **Status:** LETTERS 1 + 2 are PRE-COMMITMENTS, written BEFORE their dates. Letter 3 is a GRADE of an event that already fired.
 **Rule:** bands below are fixed at authorship. **A band moved after the fact is a retrofit, not a read.** No NUMERIC THRESHOLD OTTO publishes elsewhere is changed by this document. *(Letter 3 does retire a dated catalyst row — a calendar change, not a threshold change.)*
@@ -53,7 +110,7 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 | **2D — SALE / FINANCING** | 8-K by **9/11** with a **binding, non-contingent** financing commitment or signed definitive sale documents | Extension paths 9/21 / 11/6 are live. ⚠️ **"Binding and non-contingent" is the whole test — an LOI or a highly-confident does NOT satisfy it** | **10%** |
 | **2E — FILING** | Voluntary Chapter 11/7 by **9/11** | Requires **3-of-4 Special Committee consent**, on a committee where **two of four seats were created by the lenders' own waiver milestone**. Low, not negligible | **5%** |
 
-**Fifth-fraud-case check (standing, root CLAUDE.md signal trigger):** ⛔ **CRMT is NOT a fraud case and this letter does not make it one.** It is a covenant/liquidity event at a BHPH lender. **Nothing here increments the confirmed-fraud-case count (4).** If a CRMT filing or complaint alleges misstatement, double-pledging or servicing manipulation, that is a **separate** trigger and routes 🔴 URGENT to CARL/REGINALD/PROME on its own facts.
+**Fifth-fraud-case check** (standing trigger — ⛔ **`AGENTS/OTTO/CLAUDE.md` § Signal Triggers (Outbound), NOT root `CLAUDE.md`, which contains no such text**): ⛔ **CRMT is NOT a fraud case and this letter does not make it one.** It is a covenant/liquidity event at a BHPH lender. **Nothing here increments the confirmed-fraud-case count (4).** If a CRMT filing or complaint alleges misstatement, double-pledging or servicing manipulation, that is a **separate** trigger and routes 🔴 URGENT to CARL/REGINALD/PROME on its own facts.
 
 **Cross-desk:** BROCK's packet **LANDED 2026-09-02, after the bands above were written.** See the AMENDMENT immediately below — it is dated, it is pre-event, and the original band is kept visible.
 
@@ -93,12 +150,12 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 
 ⚠️ **Why:** LIQUID reported tonight that its `GATE-HY-REKILL` letter pinned the **operator** (`<`, strict) and the **rounding** (FRED, 2dp = 1bp granularity) but **named a SERIES without naming a VINTAGE** — and at 0bp of margin a 1bp restatement would flip that gate from *nothing happened* to *the count has started*. It could not settle it empirically (ALFRED vintage endpoint 404s) and recorded **SEARCH-NOT-FOUND** rather than upgrading to "no revisions occurred."
 
-**I checked my own letter against that axis and found the same class in four places.** All four are pinned below, **two days before Letter 1 grades** and five before Letter 2. Nothing about the bands or their probabilities changes — this fixes *how a band is read*, not *what it predicts*.
+**I checked my own letter against that axis and found the same class in four places.** All four are pinned below. ~~*two days before Letter 1 grades and five before Letter 2*~~ — ⛔ **those were distances to the EVENTS (9/4, 9/7), not to the GRADES (9/5, 9/11), which are 3 and 9 days.** Nothing about the bands or their probabilities changes — this fixes *how a band is read*, not *what it predicts*.
 
 | # | What was unstated | **Pinned, 2026-09-02** |
 |---|---|---|
-| **i** | **"CRMT closes below $1.80 / above $2.90"** named no price source and no close definition. The $2.23 / −27.6% baseline came from the Yahoo chart API. | **Nasdaq official consolidated closing price for CRMT, as published by the primary listing exchange, UNADJUSTED.** Not adjusted-close, not last-trade, not a pre/post-market print. **The $1.80 / $2.90 lines and the $2.23 reference are all on that same unadjusted basis.** ⚠️ **If a split, reverse split or special dividend occurs before the grade, the LINES move with the corporate action, not the price** — a reverse split must not fire 1D. |
-| **ii** | **"filed 9/3–9/4"** and **"by 9/11"** named no filing-date convention. | **EDGAR's own `filingDate` field on the CIK-0000799850 submissions feed**, not the acceptance datetime and not the document's cover date. **A filing whose `filingDate` is 9/4 counts for Letter 1 even if accepted after the close.** |
+| **i** | **"CRMT closes below $1.80 / above $2.90"** named no price source and no close definition. The $2.23 / −27.6% baseline came from the Yahoo chart API. | **Nasdaq Official Closing Price (NOCP) for CRMT, UNADJUSTED** — ⛔ **NOCP, not the consolidated/SIP close; the original wording conflated two different prints.** Not adjusted-close, not last-trade, not a pre/post-market print. **The $1.80 / $2.90 lines and the $2.23 reference are all on that same unadjusted basis.** ⚠️ **If a split, reverse split or special dividend occurs before the grade, the LINES move with the corporate action, not the price** — a reverse split must not fire 1D. |
+| **ii** | **"filed 9/3–9/4"** and **"by 9/11"** named no filing-date convention. | ⛔ **THIS PIN IS WITHDRAWN IN FULL — see defect D and the GRADE CARD. It was FACTUALLY WRONG:** EDGAR rolls post-17:30-ET acceptances to the next business day, so the sentence *"a filing whose `filingDate` is 9/4 counts for Letter 1 even if accepted after the close"* describes a case that cannot occur, and the pin would have graded a Fri-19:00 8-K as silence. **Both letters now use ACCEPTANCE DATETIME.** |
 | **iii** | **"by 9/11"** named no cutoff. | **23:59:59 ET on 2026-09-11.** |
 | **iv** | 🔴 **"stock does not gap" in band 2B was a bare unquantified comparative** — the same disease as an unversioned series, one level up. | **"Does not gap" = no single-session close-to-close move exceeding ±15%** on the basis in (i), on any session 9/8–9/11. |
 
@@ -181,7 +238,7 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 | **8/07** | Government **opposed Chu's motion to compel** re mass-marketing emails incl. a March-2020 lender email | ✅ **FIRED** — this is the "motion to compel / privilege dispute" rung |
 | **8/14** | Government to select **20 exemplars for in camera review** | ✅ **FIRED** — the review rung |
 | **8/14** | **Chu's motion to dismiss DENIED**; bill of particulars **granted in part** — government must confirm an exhaustive securitization list for **Counts 7–8 within 14 days** (⇒ **~8/28**) | ✅ **FIRED** — an order resolving a dispute |
-| 8/15 → 9/2 | — | **SEARCH-NOT-FOUND.** No further Tricolor docket item or report located |
+| 8/15 → 9/2 | — | **SEARCH-NOT-FOUND (PRESS ONLY, PACER UNCHECKED).** No case number or ECF numbers were pulled; this is a single-source negative over a docket nobody opened |
 
 **⇒ Ladder 8/7 → 9/4 is CLOSED. The 9/4 row is RETIRED as fired-early-and-unswept, not as missed.**
 
@@ -197,8 +254,8 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 
 | Letter | Grade on | Against |
 |---|---|---|
-| 1 | **Sat 9/5** (or first boot after) | EDGAR CIK 0000799850 `filingDate` 9/3–9/4 + the 9/4 **Nasdaq official unadjusted close** — bases pinned in Amendment 2 |
-| 2 | **Fri 9/11** — NOT before the 9/8 close | EDGAR filing list 9/5–9/11. **Grade BOTH the original bands and Amendment 1** — the amendment is on the record precisely so it can be scored against what it replaced. ⚠️ **GRADE IT COLD.** BROCK asked for this in a **cross-session message dated 2026-09-02** (coordination channel, NOT the inbox packet — the packet at `inbox/processed/2026-09-02_from-BROCK_crmt-preregistration-...md` does not contain the line, so do not go looking for it there): in substance, *not to let his structural confidence substitute for OTTO's calibration.* ⛔ **SCORING, CORRECTED: if 2A fires, the AMENDED 50% was the better number (Brier 0.25 vs 0.36) and BROCK's correction earned its move. If 2A does not fire, the original 40% was closer.** Grade both sets and record which won. |
+| 1 | **Sat 9/5** | ⛔ **SUPERSEDED — USE THE GRADE CARD AT THE TOP.** This row previously instructed the `filingDate` convention that Amendment 3 withdrew. |
+| 2 | **Fri 9/11** — NOT before the 9/8 close | ⛔ **SUPERSEDED — USE THE GRADE CARD AT THE TOP**, which carries the window, the precedence ladder, the two sets to score and the corrected calibration direction. |
 | 3 | **Graded 2026-09-02 (this document).** Next check: the Counts 7–8 securitization list (~8/28, UNVERIFIED) | SDNY docket / Inner City Press |
 
-**Confidence tokens used throughout:** VERIFIED = checked at the artifact · INFERRED = supported, not directly established · SEARCH-NOT-FOUND = query returned nothing · UNKNOWN.
+**Confidence tokens (the card requires one per graded band; earlier sections use them only sporadically):** VERIFIED = checked at the artifact · INFERRED = supported, not directly established · SEARCH-NOT-FOUND = query returned nothing · UNKNOWN.

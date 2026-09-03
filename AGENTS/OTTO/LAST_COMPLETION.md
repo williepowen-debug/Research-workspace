@@ -145,3 +145,19 @@
 🔑 **The finding: three reviewers — me, BROCK, LIQUID — all read this letter tonight and none of us found any of the fourteen, because all three of us were reading it for the thing we had each just been shown.** BROCK checked distribution, LIQUID checked vintage, I checked both. **Nobody read it as a person who simply has to grade it.** The cold reader knew nothing and found everything. That is the strongest argument in this session for the outside check being *structural* rather than *a favour*.
 
 **Propagated to the boot-read surface** (`CATALYSTS.tsv` 9/05 and 9/11 rows now carry the Amendment 3 bands, the windows and the corrected scoring) — the failure BROCK caught on me earlier tonight, deliberately not repeated a third time.
+
+## ADDENDUM 7 — the cold read's SECOND pass, and the structural fix: a self-contained GRADE CARD
+
+**Pass 2 (observation-count frame, per LIQUID's corrected rule) returned 8 new blocking defects. Almost every one was the SAME root cause, for the third time tonight: a correction written into the newest section that never reached the surface a grader actually opens.**
+- **The grading-schedule table — the natural entry point — still instructed the `filingDate` convention Amendment 3 had explicitly withdrawn.**
+- **Letter 2's window was pinned to two different fields sixteen lines apart** (`filingDate` at line 128, acceptance datetime at line 144), so a Fri-19:00 8-K was simultaneously in Letter 1, in Letter 2, and out of Letter 2.
+- **"Qualifying issuer 8-K" was undefined**, which re-opened the very uncovered outcome Amendment 3 existed to close — an extension 8-K with no new date, or an Item 3.01 delisting notice, fell through every band.
+- **The original probability sets were ordered graded against definitions the file withdraws.** A probability cannot be graded apart from its event definition.
+- **Letter 1 was silently RE-PRICED** (1B 70→72, 1F "<5%"→3%, 1G 8% new) by an amendment whose header said it changed only definitions and precedence.
+- Plus: the `$2.23` basis contradicted itself across two lines; **two "corrections" asserted in Amendment 3 had not actually landed in their targets**; NOCP was conflated with the consolidated close; 1F's halt source was never named yet now dominates the 72% modal band.
+
+⛔ **I did not write a fourth amendment. A fourth amendment would have reproduced the defect a fourth time.** Instead: a **self-contained GRADE CARD at the TOP of the file**, sealed 2026-09-02 21:23 ET, that carries every convention, band, window, probability and scoring instruction, and states that **where the card and any other line disagree, the card wins.** Both old entry points are struck through in place and point at it. The card also **discloses the Letter 1 re-pricing** rather than burying it, adds **2G** as the residual band that actually closes the hole, and converts three unreachable instruments (PACER, the five unnamed ACM trust CIKs, the halt file) from *"grades false"* into *"grades SEARCH-NOT-FOUND / UNGRADED"* — because **an unreachable instrument must not silently produce a negative finding.**
+
+🔑 **The lesson, and it is the session's most-repeated one: I fixed the same class of defect three times tonight and reproduced it twice while fixing it.** BROCK caught it on my `CATALYSTS` grade row; the string sweep caught it on three surfaces I never opened; and pass 2 caught it *inside the amendment written to fix it*. **The failure is not carelessness — every individual edit was correct. It is that a correction has no natural mechanism for finding the other places its subject lives.** The structural answer is not more diligence, it is **one authoritative surface that explicitly outranks the rest.**
+
+**Propagated to `CATALYSTS.tsv`** — both grade rows now carry the full card summary and the instruction to read the card and nothing else in that file.
