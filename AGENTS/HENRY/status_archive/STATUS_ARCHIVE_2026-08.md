@@ -2,6 +2,8 @@
 
 **FROZEN ROTATION RECORD — not maintained; `STATUS.md` is canonical, do not cite rows as current.**
 
+**⛔ CLOSED 2026-09-02. TRUE RANGE: rotation blocks moved 2026-08-23 → 2026-08-28. No September block belongs in this file.** The successor rolling target is `STATUS_ARCHIVE_2026-09.md`. **NOT RENAMED** — pointers to this filename exist on HENRY surfaces (DAEDALUS 9/2: *"Do not rename the August file"*).
+
 Created 2026-08-23 under the STATUS two-state PILOT (`AGENTS/DAEDALUS/BLUEPRINTS/STATUS_TWO_STATE_PILOT.md`, WATT · HENRY · CARL). Content is appended **verbatim** from `STATUS.md` and never deleted. Class A = dated session sections already self-labelled GRADED/SUPERSEDED.
 
 ⚠️ This directory is `status_archive/` and is **deliberately NOT** `archive/` — that path is the root-canon >60-day research-retirement destination and was itself deleted by the 2026-06-30 prune.
