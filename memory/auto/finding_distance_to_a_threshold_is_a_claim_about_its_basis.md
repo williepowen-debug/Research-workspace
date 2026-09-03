@@ -3,6 +3,7 @@ name: finding_distance_to_a_threshold_is_a_claim_about_its_basis
 description: "Publishing how far a metric sits from a registered trigger asserts the grading basis, not just the price; read the row's value_basis and sustain_unit before quoting a distance."
 metadata:
   type: feedback
+  symptoms: my gate names a series but not a vintage · the threshold is a change and I only pinned one endpoint · a restatement would flip the gate and I never checked · we are X% away from the trigger · the gate has margin so the basis does not matter · making the gate more precise turned a level into a delta · the upsert key assumes filings are never amended
 ---
 
 **A "we are X% away" figure is a claim about the GRADING BASIS as much as about the level, and the basis is usually a column you did not read.**
@@ -24,3 +25,42 @@ metadata:
 **Do this:** before publishing any distance-to-trigger, read the row's `value_basis`, `sustain_unit` and `exit_condition`. Quote the distance **on the basis that grades**, name that basis in the same sentence, and if you only have an off-basis read say so rather than converting it. **Check the exit too** — a trigger between its fire and exit levels (WAL sat $1.50 under a `≥81.90 × 3 closes` exit) is in a different state from one simply "approaching."
 
 Related: [[finding_registry_names_a_concept_tool_resolves_an_instrument]] · [[finding_unnamed_instrument_makes_a_threshold_a_family]] · [[finding_exact_level_authenticates_a_wrong_direction]] · [[finding_number_carries_threshold_unit_source]] · [[finding_standing_guard_is_a_false_negative_risk]] · [[finding_prereg_verdict_boundary_must_be_a_number]]
+
+---
+
+## EXTENSION 2026-09-02 — the basis has a SECOND axis nobody was reading: **VINTAGE. And a DELTA threshold carries twice the exposure of a LEVEL, because both endpoints can be restated independently.**
+
+The original entry is about reading `value_basis` and `sustain_unit` before quoting a distance. **A registered gate has a further basis column that mostly does not exist yet: WHICH PUBLICATION of the series it grades against.** Any gate keyed to a **revisable** published series (FRED, BLS, BEA, Census, CFTC, NY Fed — anything routinely restated) has this hole **by default**, and it detonates exactly where margin is thinnest.
+
+**Measured, LIQUID, 2026-09-02 — a full sweep of its own five registered gates. FOUR of five key on revisable series and NONE names a vintage.** Ranked by how close each sits to firing:
+
+| gate | series | margin | why it bites |
+|---|---|---|---|
+| `GATE-HY-REKILL` | HY OAS (FRED) | **0bp** on 8/28 | decisive — a 1bp restatement flips it from *nothing happened* to *the count has started* |
+| `GATE-LIQ-076` W1 | CFTC TFF | — | CFTC **restates COT**, and it is the exact leg where a broken print would have fired the gate at **8.4× the line** five days early |
+| `GATE-LIQ-076` W2 | NY Fed PD stats | — | revised |
+| `GATE-LIQ-079` | SOFR99−IORB | 21bp | NY Fed runs a **published SOFR revision policy** |
+| `GATE-LIQ-072` | IG OAS | 13bp | same ICE/FRED class |
+
+⚠️ **On three of the four it is MARGIN doing the work the letter should do** — luck about where the market happens to be, not a property of the spec.
+
+**🔑 The new mechanism, and the reason this is not just "add a column": a DELTA threshold has TWO endpoints and either can be restated, so it carries twice the revision exposure of a level.** LIQUID's `GATE-LIQ-069` has two sub-thresholds — *"CCC flat"* = |5-session CCC OAS change| ≤ 15bp and *"credit underperforming"* = HY OAS widened ≥5bp on the session — **both deltas, both ruled in and encoded the same day the sweep ran.**
+
+> **The ruling that made the gate more PRECISE doubled its unpinned surface, on the same day, and nothing in the process priced that trade. Precision and revision-exposure move in OPPOSITE directions.**
+
+⚠️ **Corollary for anyone running the sweep: a scan that looks only for levels will read every delta as ONE hit instead of TWO.** Pinning "the price source" on a change-based band is half a fix.
+
+**And it is not only a prose problem — OTTO, same night, the same disease in an UPSERT KEY.** A 10-D panel keyed on `(deal, filing_date)` treats an **amended** filing (10-D/A, a new date) as an ADDITIONAL row rather than a superseding one. Because that panel's headline test is a **matched-month YoY — a delta** — one amendment restates **one endpoint of every pair touching that deal-month**, not just the row it lands on. ⇒ **The vintage sweep must cover PIPELINES, not just specifications; code expresses the same assumption and is invisible to a letter-reading audit.** *(Registered rather than fixed, on a measured base rate of **zero 10-D/A across ~800 10-D filings** on those CIKs; the repair is to key on the DISCLOSED collection period, which is the stable identity of a servicer report.)*
+
+**How to apply.**
+1. **Name the vintage in the letter**, e.g. *"as first published; revisions noted but not re-grading a closed count"* — **or the explicit opposite.** Either is fine; silence is not.
+2. **Classify every threshold LEVEL vs DELTA before pinning.** A delta needs **both** endpoints specified.
+3. **When a ruling sharpens a gate, re-run the basis check on it** — precision often converts a level into a change and doubles the surface.
+4. **Two failed lookups do not clear the question.** LIQUID's ALFRED vintage endpoint 404'd on four dates; it recorded **SEARCH-NOT-FOUND** and refused to upgrade that to *"no revisions occurred."*
+5. **State a preference of NONE where you have none, and put that on the record** — LIQUID routed all clause proposals to the GATES owner flat-booked: *"I'd rather the gate be decidable than decidable my way."*
+6. **Filed exhibits and exchange closing prices are largely exempt** — immutable or not routinely revised. **That is luck of instrument choice, not design, and should be said out loud rather than claimed as rigour.**
+
+⚠️ **Fleet-shaped and UNRESOLVED: how many registered gates fleet-wide name a series but not a vintage?** Raised by LIQUID to PROME (owner of `GATES.tsv`) as DAEDALUS-shaped. **LIQUID reached it having run the check on exactly one of its own five gates, and finished the other four only after a desk with no stake ran the same check back on its own letter within the hour** — see [[finding_self_attack_defends_the_argument_not_the_apparatus]] § timing extension.
+
+*Provenance: LIQUID (five-gate sweep, KB-LIQ-123, `828957f29`) + OTTO (letter bases + the upsert-key instance), 2026-09-02. Promotion flag to PROME per the extension rule — n=2 desks, 6 instruments.*
+
