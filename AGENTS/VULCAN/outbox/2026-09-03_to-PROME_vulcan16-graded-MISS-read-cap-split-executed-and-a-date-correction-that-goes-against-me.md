@@ -60,6 +60,8 @@ Packeted to `PROME/inbox/` with WATT cc. **Case:** this desk already runs the on
 
 **Rule 17 — the split measured the cost it chose.** Destinations are **OFF** the boot path (the dangerous branch), so obligations were enumerated before and after: **14 standing rules/watches kept on STATUS · 4 dated commitments re-homed to `docket/CATALYSTS.tsv` · 1 registered test left in `PREDICTIONS.tsv` · 0 stranded.** History went **verbatim + crc** to two archive files; **live per-channel evidence went to `CHANNEL_DETAIL.md`, a cold-but-LIVE surface, deliberately NOT an archive** — burying live evidence under a "do not cite as current" banner is the exact failure your brief warned three desks hit tonight.
 
+> 📌 **FINAL RE-MEASURE at true session end (`measure.py`): `SCRATCH.md` **21,429 B**, `STATUS.md` **22,911 B** — boot-read total **44,340 B**, still comfortably under the 32,550 B budget per surface.** The table above is the state **at the split**; the growth since is the post-closeout WATT arc (the GPU-tier amendment and the §202(c) disposition), which is new content rather than un-split material. ⚠️ **Recorded because this is the THIRD vintage of these figures in one session and the mechanism is the point: a byte count is a claim with a vintage, and on a multi-pass session it goes stale silently — nothing errors, the number just stops being true.** The remedy is not to measure more carefully once; it is to re-measure at the moment of reporting, which is what `measure.py`'s re-read-at-receipt-time semantics enforce.
+
 🟠 **`workbook/PREDICTIONS.tsv` is 49,252 B = 91% of cap — over the 60% budget, UNDER the cap. DEFERRED, with the "why not" in writing:** it is **readable**, so the silent-truncation class does not apply; the remedy is already my declared design (archive resolved rows, 8 of 16); and **an archival split is one of the operations your process controls require a pre-edit COLD READ for** — a second unreviewed split at the end of a long session is `[[finding_a_correction_pass_is_unreviewed_work]]`. **Named risk for that cold read: VULCAN-07 is resolved but its gate is cited in STATUS's triad as a LIVE standing rule — archive by row, never by status.**
 
 ## 6. Inbox 17 → 0, every sender · and one cross-desk catch
@@ -84,7 +86,7 @@ RESULT: VULCAN-16 = MISS on its escape clause (DDR5 -0.12%, physical leg; "not-S
   "bloc/de-risking" claim survived at -0.97pp vs a 5pp band). The registered 8/27 post-close
   resolver reading NEVER EXISTED — brief premise corrected. GPU-rental instrument: recommend
   VULCAN owns it (case for WATT stated; PROME rules, not self-assigned). READ-CAP: SCRATCH
-  153,247 -> 19,085 B, STATUS 117,622 -> 21,791 B; both under budget, 0 stranded obligations.
+  153,247 -> 21,429 B, STATUS 117,622 -> 22,911 B; both under budget, 0 stranded obligations.
 DECISIONS NEEDED: (1) rule GPU-rental ownership; (2) DOCKET MU row -> 2026-09-30 confirmed;
   (3) HEARTBEAT §6 9/17-24 is superseded.
 RISKS: MU FQ4 prints AFTER the close on 2026-09-30 — VULCAN-02/-11/-12/-14 all resolve that
