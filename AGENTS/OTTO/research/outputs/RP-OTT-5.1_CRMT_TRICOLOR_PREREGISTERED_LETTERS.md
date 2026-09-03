@@ -83,6 +83,25 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 
 ---
 
+## AMENDMENT 2 to LETTERS 1 AND 2 — 2026-09-02, pre-event: **pinning the BASIS of every instrument, because LIQUID's audit found the same hole in its own gate and I checked mine**
+
+⚠️ **Why:** LIQUID reported tonight that its `GATE-HY-REKILL` letter pinned the **operator** (`<`, strict) and the **rounding** (FRED, 2dp = 1bp granularity) but **named a SERIES without naming a VINTAGE** — and at 0bp of margin a 1bp restatement would flip that gate from *nothing happened* to *the count has started*. It could not settle it empirically (ALFRED vintage endpoint 404s) and recorded **SEARCH-NOT-FOUND** rather than upgrading to "no revisions occurred."
+
+**I checked my own letter against that axis and found the same class in four places.** All four are pinned below, **two days before Letter 1 grades** and five before Letter 2. Nothing about the bands or their probabilities changes — this fixes *how a band is read*, not *what it predicts*.
+
+| # | What was unstated | **Pinned, 2026-09-02** |
+|---|---|---|
+| **i** | **"CRMT closes below $1.80 / above $2.90"** named no price source and no close definition. The $2.23 / −27.6% baseline came from the Yahoo chart API. | **Nasdaq official consolidated closing price for CRMT, as published by the primary listing exchange, UNADJUSTED.** Not adjusted-close, not last-trade, not a pre/post-market print. **The $1.80 / $2.90 lines and the $2.23 reference are all on that same unadjusted basis.** ⚠️ **If a split, reverse split or special dividend occurs before the grade, the LINES move with the corporate action, not the price** — a reverse split must not fire 1D. |
+| **ii** | **"filed 9/3–9/4"** and **"by 9/11"** named no filing-date convention. | **EDGAR's own `filingDate` field on the CIK-0000799850 submissions feed**, not the acceptance datetime and not the document's cover date. **A filing whose `filingDate` is 9/4 counts for Letter 1 even if accepted after the close.** |
+| **iii** | **"by 9/11"** named no cutoff. | **23:59:59 ET on 2026-09-11.** |
+| **iv** | 🔴 **"stock does not gap" in band 2B was a bare unquantified comparative** — the same disease as an unversioned series, one level up. | **"Does not gap" = no single-session close-to-close move exceeding ±15%** on the basis in (i), on any session 9/8–9/11. |
+
+**On the vintage question specifically — the one LIQUID could not settle:** my instruments are **structurally less exposed and I want to say why rather than claim credit.** The panel reads **filed SEC exhibits**, which are immutable once accepted, and EDGAR's `filingDate` is not restated. **Exchange closing prices are also not routinely revised.** So the vintage hole that bites a FRED-published economic series largely does not bite here — **by luck of instrument choice, not by design.** `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`
+
+⚠️ **The one place it DOES bite, and I had not thought of it: a 10-D/A.** My panel's upsert keys on `(deal, filing_date)`, so **an amended servicer report filing under a NEW date would land as an ADDITIONAL row rather than superseding the original**, and a matched-month YoY count could then double-count one deal-month. **No 10-D/A exists on any of the nine panel deals today (VERIFIED against the filing lists pulled 2026-09-02) — this is a latent defect, not an active one.** Registered rather than fixed tonight: fixing it eight days before CARL's grade sitting, on a path that currently has zero instances, is a worse trade than naming it. **Owed at the ~Oct 1 cycle.**
+
+---
+
 ## LETTER 3 — GRADE, not a prediction: the Tricolor 9/4 rung already fired, on 8/7 and 8/14
 
 **The catalyst row read:** *"Sep 4 — Tricolor criminal, privilege chain FIRST OBSERVABLE OUTPUT (re-keyed from the 8/7 log-due date); fires on any DOCKETED product of the 8/7→9/4 privilege chain: in camera submission, motion to compel, privilege dispute, or an order resolving one."*
@@ -111,7 +130,7 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 
 | Letter | Grade on | Against |
 |---|---|---|
-| 1 | **Sat 9/5** (or first boot after) | EDGAR CIK 0000799850 filing list 9/3–9/4 + the 9/4 close |
+| 1 | **Sat 9/5** (or first boot after) | EDGAR CIK 0000799850 `filingDate` 9/3–9/4 + the 9/4 **Nasdaq official unadjusted close** — bases pinned in Amendment 2 |
 | 2 | **Fri 9/11** — NOT before the 9/8 close | EDGAR filing list 9/5–9/11. **Grade BOTH the original bands and Amendment 1** — the amendment is on the record precisely so it can be scored against what it replaced. ⚠️ **GRADE IT COLD. BROCK's own instruction, 2026-09-02: *"Don't let my structural confidence substitute for your calibration on 9/11."*** He moved 2A against OTTO's prior lean and has logged his share of that before the grade rather than after. **If 2A fires, OTTO's original 40% was the better-calibrated number and the correction did not need to move it — write that down if it happens.** |
 | 3 | **Graded 2026-09-02 (this document).** Next check: the Counts 7–8 securitization list (~8/28, UNVERIFIED) | SDNY docket / Inner City Press |
 

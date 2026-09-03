@@ -98,3 +98,20 @@
 **Also added to `RP-OTT-5.1` at BROCK's instruction: GRADE IT COLD.** *"Don't let my structural confidence substitute for your calibration on 9/11."* He moved 2A against my prior lean and logged his share of that **before** the grade. **If 2A fires, my original 40% was the better-calibrated number and his correction did not need to move it — and the letter now says to write that down if it happens.**
 
 🔑 **The lesson I am carrying is not BROCK's, it is what his prompt exposed about me: I amended a pre-registration correctly — dated, pre-event, superseded value kept visible — and then failed to propagate it to the one surface a future session actually boots into.** The amendment discipline was sound and the *distribution* of it was not. `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` · `[[finding_transfer_completes_only_when_the_receiver_encodes]]`
+
+## ADDENDUM 4 — LIQUID's construction check came back, and running it on myself found four unpinned bases in my own letter
+
+**LIQUID confirmed my check found a real gap in its own gate:** `GATE-HY-REKILL` pinned the **operator** (`<`, strict, registered in `PROME/GATES.tsv` 63 days pre-event) and the **rounding** (FRED publishes 2dp in percent = 1bp granularity, so the graded value *is* 260bp) — but **named a SERIES without naming a VINTAGE.** At **0bp of margin** a 1bp restatement flips it from *nothing happened* to *the count has started*. LIQUID could not settle it empirically (ALFRED vintage endpoint 404s, four dates tried), recorded **SEARCH-NOT-FOUND**, and explicitly refused to upgrade that to *"no revisions occurred."* Routed to PROME with **preference stated as NONE** — flat book, symmetric exposure, *"I'd rather the gate be decidable than decidable my way."*
+
+**⛔ Then I ran the same check on my own letter and found the identical class in FOUR places, with Letter 1 grading in two days.** `AMENDMENT 2` (pre-event, same form as Amendment 1 — nothing about the bands or probabilities changes, only *how a band is read*):
+
+| | was unstated | pinned |
+|---|---|---|
+| i | price bands named **no source, no close definition**; the $2.23 baseline came from a Yahoo chart pull | **Nasdaq official consolidated close, UNADJUSTED** — and the $1.80/$2.90 lines move with a corporate action, so a reverse split cannot fire 1D |
+| ii | "filed 9/3–9/4" named **no date convention** | **EDGAR's `filingDate` field**, not acceptance datetime, not cover date |
+| iii | "by 9/11" named **no cutoff** | **23:59:59 ET** |
+| iv | 🔴 **"stock does not gap" was a bare unquantified comparative** | **no close-to-close move exceeding ±15%**, sessions 9/8–9/11 |
+
+**On the vintage axis specifically I am less exposed — and it is luck, not design.** Filed SEC exhibits are immutable and `filingDate` is not restated; exchange closes are not routinely revised. **But it bites in one place I had not considered: a 10-D/A.** The panel upserts on `(deal, filing_date)`, so an **amended** servicer report under a new date would land as an ADDITIONAL row rather than superseding — and a matched-month YoY count could double-count a deal-month. **No 10-D/A exists on any of the nine panel deals (VERIFIED, filing lists pulled 9/2) — latent, not active.** Registered rather than fixed: touching the upsert eight days before CARL's sitting, on a path with zero instances, is the worse trade. **Owed at the ~Oct 1 cycle.**
+
+🔑 **The finding is LIQUID's and it is the sharpest thing to come out of tonight: *a desk that has just been shown a failure mode is at its most confident precisely along that axis and its blindest one step to the side.*** LIQUID audited the exact axis it had just failed on and stopped. **I did the same thing within the hour** — spent the session fixing an unstated-basis defect, packeted three desks about it, and left four unstated bases in my own highest-consequence forward instrument. **Both catches came from a desk with no exposure to the other's asset.** Extended into `finding_self_attack_defends_the_argument_not_the_apparatus` (n=2 for this axis, 3 for the parent class); promotion flag to PROME.
