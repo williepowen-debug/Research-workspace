@@ -77,3 +77,43 @@ My row said **"Q3 FINAL-RESULTS `SC TO-I/A`."** **No such filing exists or ever 
 ---
 
 *Forward-state: `SCRATCH.md` · `docket/CATALYSTS.tsv` · `NEXUS_BRIEF.md` | **This session's full reasoning → `domain/sources/2026-08-28_SESSION_CATCHUP_ADJUDICATIONS.md`** · **verbatim pre-rotation STATUS → `archive/STATUS_PRE_ROTATION_2026-08-28.md` (`crc32=089f9ff5`, 90,609 B)** | Registers: `workbook/PC_REDEMPTION_REGISTER.tsv` (9 vehicles) | Memos: `BRK32_QUEUE_AMPLITUDE_SPEC_JUL27.md`, `X1_RETEST_ADJUDICATION_JUL27.md`, `CLUSTER_Q2_GRADES_AUG07.md`, `BANK_TO_BDC_READTHROUGH_MAP_JUL09.md` (**REGINALD's half landed 7/25 — STILL UNREAD**) | Predictions: **none DUE this session**; next **BRK-02 9/30** · BRK-30 10/15 · BRK-32 11/30 | board_log: **26 WALTER signals drained 8/28** (total 44) | One source of truth: HY OAS → LIQUID · insurer numbers → SHADE · bank scores → REGINALD · **EU private credit → HANS (Will-ruled 8/28, full depth)** | **X1 NOT MET — wrapper half NOT ARMED (8/28); LIQUID gate CLOSED** | Position: APO Dec $95P HOLD (Will 8/13)*
+
+---
+
+## 2026-09-03 morning — BCRED Q3 letter block (rotated verbatim same day)
+
+## 🔴 2026-09-03 — BCRED Q3 SATISFACTION LETTER, READ AT PRIMARY · BRK-30 GRADED
+*Primary: `SC TO-I/A` acc **`0001213900-26-096935`**, filed **2026-09-03**, Ex-99.(a)(1)(vii) **"Q3 Distribution and Tender Offer Update."** KB-BRK-231→235.*
+
+### ① THE NUMBERS — all transfer-agent **ESTIMATES** as of **9/2/26**, "not yet final"
+
+| | Q2'26 | **Q3'26** |
+|---|---|---|
+| Requested | $4.5bn (~10% sh o/s) | **$4.3bn (~10% sh o/s)** |
+| Fulfilled | ~half (5% cap) | **5% of shares o/s** |
+| **Satisfaction** | ~50% | **~50%** |
+| Backlog carried | **$2.3bn**, *"a significant portion of which were resubmitted in Q3"* | not stated |
+
+**Cap HELD at 5%** — not flexed back to Q1's 7%, **no affiliate offset disclosed this quarter.** **Satisfaction series, all primary: Q1 100% (cap flex + affiliate offset) → Q2 ~50% → Q3 ~50%.** ⛔ **`$1.7bn` stays dead** (Q1 $3.233bn / Q2 $2.204bn); the **$4.3bn is a DEMAND estimate priced at 7/31/26 NAV** (fn.4), **not** a Q3 repurchase value — fn.6 confirms the **final dollar value lands in November** after the 9/30 NAV, exactly as I pre-registered.
+
+### ② 🔑 THE NEW DATUM IS THE BACKLOG — and it is two-sided
+**First time this issuer has quantified an unfulfilled queue in writing.** The compounding-queue mechanism was my inference; it is now BCRED's own written statement. ⚠️ **And the second side cuts against me:** because a significant portion of the $2.3bn was **resubmitted**, the Q3 gross **$4.3bn is not $4.3bn of fresh demand** — fresh Q3 demand is materially lower than the headline. *"A significant portion"* is unquantified, so **the split cannot be computed and I am not estimating it.**
+
+### ③ BRK-30 — **RESOLVED TRUE on its letter, 42 days early.** ⚠️ **And the TRUE is worth ~nothing**
+~50% < 100% at a named Q2 fund ⇒ **letter MET**; robust to the rounding corners (worst case ~53%), which is why early resolution is legitimate. 🔑 **But I registered this defect myself (LESSONS #23):** BRK-30 was priced **65% against the THESIS** while its **letter fires on <100% at any ONE of five funds** — **already true 5-for-5 at its 6/26 Made_Date**, and it fires in a substantially clearing market. **A fired letter + a no-call companion is the DIAGNOSIS, not a contradiction.** ⛔ **Calibration value ≈ zero — do NOT cite this as a 65% forecast coming good.** The companion **BRK-32 is NOT resolvable today**: BCRED's demand leg is ~flat QoQ (~100% of its own Q2, **above** the 86% line) but **BCRED is 46.1% of L2** and the other four named funds have not printed.
+
+### ④ TWO CORRECTIONS AGAINST ME
+- 🔴 **My pre-registered bull counter-data did not verify.** On 9/2 I recorded BX (Gray 7/23, *"down materially"*) and BCRED's own *"decelerated"* as **two independent sources saying Q3 demand should be LOWER**, and wrote *"if Q3 is benign, I said so first."* **Actual: $4.5bn → $4.3bn = −4.4%, and FLAT at ~10% of shares.** ⚠️ **Two limits, both cutting against reading this my way:** the ~10% pair is 2-sig-fig (the "flat" claim rests on the dollar pair, at **different NAV dates**), and per ② the Q3 gross **includes resubmitted backlog** — so guidance about *new* demand may have been right and simply unobservable here. **Logged as calibration against the bull case; NOT converted into a thesis win.**
+- 🔴 **My REGIME BLOCK PIK figure was one quarter stale, in the direction that flattered my thesis.** I carried **"BCRED 7.0%"**; primary Q2'26 is **5.6% of TII, down ~20% since Q1'26** (7.0 × 0.8 = 5.6 — my number was exactly the Q1 vintage). Also NA **2.2% cost / 1.1% FV**, falling, vs a **Raymond James 115-BDC 2006-2026 average of 3.3% at cost**. **Corrected. Vector NOT rescored** — see REGIME line 3 for why the ratio is ambiguous.
+
+### ⑤ INSTRUMENT RE-SPEC — verified 3-for-3, ⚠️ but the DATE proved nothing
+✅ "final amendment reporting the results" box **☐ unchecked** ⇒ **61-for-61** since 2021 · ✅ filed expressly *"pursuant to Rule 13e-4(c)(1)… to file a written communication"* · ✅ exhibit titled exactly **"Q3 Distribution and Tender Offer Update"** at **(a)(1)(vii)**.
+⚠️ **THE DATE DISCRIMINATED NOTHING AND I AM NOT BANKING IT.** Re-anchored expiry model → **8/31–9/6**; the **superseded** offer-date model → **~9/1–9/7**. **Both contain 9/3.** The re-anchor is better reasoned; **this print cannot separate the two anchors** — a differently-spaced quarter is needed. `[[finding_crosscheck_with_free_parameter_validates_nothing]]`
+⚠️ **And the letter's *"75% of requested capital"* is a CUMULATIVE TWO-QUARTER construction** (fn.7: 50% in Q2, then 50% of the remainder) describing **the same investor gated twice.** **Q3 satisfaction is ~50%, not 75%.** Per **LESSONS #25**: this is a **pro-rata FILL RATE paid at 9/30 NAV — not a haircut, not a recovery price.**
+
+### ⑥ LIQUID's condition-(b) question — **RULED: NOT MET.** The definition is mine
+LIQUID routed that my decomposition condition is satisfied (**CCC/BB 6.901 [9/1] = 4th consecutive fresh max of the 786-obs series; HY +5bp 260→265 with the ratio EXPANDING through the move; CCC +23bp vs BB +2bp**) — and said plainly it **arms nothing.** **I rule the decomposition leg NOT MET, against my own interest:** condition (b) is a **modifier on a DOWN-LEG**, not a free-standing observable. **+5bp of two-session drift is not the move the condition contemplates**, and reading the ratio as independently satisfiable **detaches it from its own subject** — metric hit, registered mechanism absent (`[[finding_registered_trigger_can_fire_on_an_unnamed_mechanism]]`). ✅ **The observation is recorded and dated; the leg is not armed.** X1 stays **CLOSED**; HY 266 is still 14bp the wrong way of the >280 leg. ✅ LIQUID's own limit adopted: the tail's **direction** is verified, **why** it widens is **NOT ESTABLISHED** (TRACE/ICE sub-indices terminal-gated).
+
+## 📦 2026-09-02 — BCRED Q3 TENDER CHECK + 3 CORRECTIONS TO MY OWN BOARD
+> **Rotated VERBATIM 2026-09-03 → `archive/STATUS_ROTATED_2026-09-03.md`; SUPERSEDED BY OBSERVATION — the 9/3 letter (§ above) graded what this block was waiting for.** What still stands: the **instrument correction** (no "final-results" amendment exists on this fund; results ride a Rule 13e-4(c)(1) written communication) — **verified 3-for-3 at primary on 9/3**. The **three corrections**: **C1** the first-ever BCRED gate was **5/29 expiry / 6/4 disclosure, NOT 6/26** (I was ~4 weeks late; fatal to timing inferences built on it); **C2 against me** — the 10% distribution cut was **declared 6/22, filed 8-K 6/23**, seven weeks before the 10-Q I found it in: **I found it late and called it "buried."** The cut, the $0.1800 level and the 8/27 payment all STAND; only *"buried"* is withdrawn. **C3** Q1's *"100% fulfilled"* took **BOTH** a Board cap-flex to 7% **AND** a disclosed **affiliate offset** (Blackstone + senior employees subscribing into the feeder) — **both withdrawn in Q2, and neither reappeared in Q3.** ⛔ **"$1.7bn" matches NEITHER completed 2026 tender and remains dead** (Q1 $3.233bn / Q2 $2.204bn).
+

@@ -152,3 +152,15 @@
 
 ## ✅ DELIVERY VERIFIED (PROME, 8/13)
 **Two-witness reproduction PASSED on both load-bearing number sets** — PROME's independent FRED pull reproduces the tranche inversion exactly (**CCC 1020 / BB 160 / HY 271 [8/12]; gap 860, ratio 6.38**) and the APO closes match to the cent (8/10 132.02 · 8/11 140.28 · 8/12 138.61). ⚠️ **PROME marked APO 140.85 intraday against my 140.47 — ordinary intra-session drift, both correctly stamped INTRADAY, no correction owed; do not re-cite either as a close.** **Carry-forwards confirmed by PROME: BCRED 10-Q read = #1 next boot (left deliberately big and visible above) · CCLFX demand-source verification debt STAYS OPEN (debt #3).**
+
+---
+
+## 🔄 2026-09-03 (later) — WQ-158 PULLS EXECUTED; forward state revised
+
+**5-REVISED. ✅ WQ-158 PULLS DISCHARGED — one level survives, one retired.** `≥3 consecutive sub-100% quarters` **SURVIVES** (4-for-4 at BREIT and SREIT) and is **no longer inert: BCRED is at 2, so it goes LIVE on a 3rd consecutive sub-100% print, ~mid-Nov.** `<20% single-quarter satisfaction` **RETIRED** — it sat below the worst quarter of both reference episodes and below my own filing-primary minimum (OCIC 22.82%). ⛔ **ONE THING OWED TO WILL: rule the replacement level. I set no number** — distribution only (BREIT 24.6% / SREIT 40.0%; 8 reference quarters 24.6–59.3%), **and the replacement MUST STATE ITS UNIT** (`<20%` is unreachable quarterly, reachable monthly — that is why it never fired).
+
+**NEW-1. 🟠 OWED, unstarted: verify the remaining PRESS-SOURCED register cells at primary.** Today proved the method pays twice — **OCIC** upgraded to filing-primary (**22.82%** accepted÷tendered, and its dollar corrected **$988M → $963.6M**) and **CCLFX**'s stress framing was withdrawn. **Still press-only: ADS ~43%, Monroe (satisfaction blank), MS-PIF (blank), Partners Group (blank), CCLFX's ~33% 2026Q2 cell.** ⚠️ **Monroe / MS-PIF / PG have NO satisfaction cell at all — their values would be `cap÷requests`, which is an ASSUMPTION, not a measurement. Do not fill them that way.**
+
+**NEW-2. 🟡 BRK-32 basis caveat recorded, NO number moved** (baseline FROZEN; LESSONS #23 forbids re-basing an open prediction). The row measures **DEMAND**, so today's satisfaction work does not touch it — **but its CCLFX demand cell (~17.0%) is press-sourced and the FY2026 N-CSR does NOT disclose requested amounts, so it cannot be verified from that filing.** At resolution: state the CCLFX leg's provenance or exclude it and say so. Same treatment still owed for the L2 re-basing flag ($45.04B → $42.78B).
+
+**NEW-3. 🔴 STILL BROKEN, untouched today (from `OPEN_ITEMS_2026-09-03.md` BRK-B1):** `FLOW.tsv`, `VX.tsv`, `PUBLISHED.tsv` are LIVE ledgers with **no vintage banner and no FROZEN banner**, content last dated 2026-08-28. Root canon allows only FROZEN or LIVE-with-staleness-alert. ⚠️ **When fixing, do NOT write the word "frozen" into any header prose that is not itself the banner** — see `[[finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it]]`; I disarmed the register's own staleness guard that way today and caught it only by re-probing.
