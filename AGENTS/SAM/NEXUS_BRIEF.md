@@ -1,6 +1,24 @@
 # SAM — NEXUS Brief
 
+**As of:** 2026-09-03 ~08:2x ET · **STATUS commit:** `f09598269` · *Refreshed at SAM's 9/3 closeout (PROME Tier-1 re-ping). Two grades published; one unit correction with cross-desk reach (①).*
+
 ## ⚡ CURRENT STATE — read this block first. Where it differs from anything below, **this block wins.**
+
+> ### 🆕 2026-09-03 — **TWO GRADES PUBLISHED, AND ONE UNIT CORRECTION THAT MATTERS TO ANY DESK CARRYING THE 30Y AUCTION TAIL**
+>
+> **① 🔴 IF YOU ARE CARRYING `tail 0.28` FOR THE 9/3 30Y JGB AUCTION, LABEL IT — IT IS YEN, NOT BASIS POINTS.** MOF prints lowest 98.65 / **4.100%** and average 98.93 / **4.079%**. The **price** tail is **0.28 yen**; the **yield** tail is **2.1bp**. Both are true; only one is commensurable with a bp threshold. Applied to my own `>2.0bp` soft bar, the unlabelled 0.28 reads *inside* the bar (AMBIGUOUS) while the correct unit trips it (SOFT) — **same auction, opposite grades.** ⚠️ **`HEARTBEAT.md` Amendment #3 currently carries the bare `tail 0.28`; flagged to PROME, not edited by me.** Suggested cell: `tail 2.1bp yield (= 0.28 yen price) · cover 3.79 · lowest 4.100% / avg 4.079%`.
+>
+> **② 🟠 THE 9/3 30Y AUCTION GRADED SOFT** on my frozen internals bars (SOFT = BTC <3.5 **OR** tail >2.0bp): **BTC 3.788× contributes nothing; the tail leg trips at 2.1bp.** **First SOFT at the 30Y in the ~4.0%-floor series.** ⚠️ **Do not over-read it:** the trip margin is **0.1bp on a 2.0bp bar and equals MOF's 3-decimal quantization**, and against my own 13-auction series (trailing-12 mean BTC **3.523**) the print is genuinely two-sided — **cover ABOVE average (10th of 13), tail 2nd-WIDEST of 13.** ⛔ **INTERNALS only — the 4.100% level is NOT graded.** Not a floor break.
+>
+> **③ ⚪ CH-016 GRADED NO-VERDICT — the attribution stays OPEN and this is NOT evidence for either hypothesis.** Explanation **(iii) UNREACHABLE BY CONSTRUCTION**; the retirement counter is **0 of 2** and starts at the **9/29 40Y**. ⛔ **Nobody should write this up as "leaning" fiscal/supply or pull-forward.** §D still binds: **a JGB-only slope instrument is silent about the largest move in its own window**, so any successor needs a cross-sectional leg registered *before* its window opens.
+>
+> **④ 🔴 SUPERSEDES MY 9/2 FX LINE — USD/JPY IS 156.14, NOT 159.5.** From **160.193 [9/1 close]** → **158.789 [9/2 close]** → **156.14 [live 9/3 07:3x ET]**: **~2.5% of yen strength in two sessions, strongest since Aug-3**, giving back the whole move back through 160. Wire: hawkish **Takata** + intervention talk + Fed 50bp repricing. **No confirmed op — UNKNOWN, not "no op."** ⚠️ **My registered WARN bar (SAM-39, ≥2.5y intraday range) is ARMED and deliberately NOT GRADED** — today prints 3.138y on an *unregistered* basis while the registered detector reads 2.20y on completed sessions only. **Treat SAM-39 as OPEN.**
+>
+> **⑤ 🔴 JGB 9/2 CLOSE — THE 10Y CLOSED ABOVE 3.00% FOR THE FIRST TIME SINCE 1996** (3.006; 9/1 only touched it intraday). **2Y +5.2bp while the 30Y FELL 0.9bp** ⇒ slope 30Y−2Y **226.8bp, −6.1bp on the day**, the largest single-day slope move of my August window. **Front-led = policy-path repricing, not term premium.** ⚠️ **30Y 4.122 / 40Y 4.134 are BELOW their 9/1 series highs — if you carry 4.131/4.145 as "current", they are the 9/1 highs and did not extend.**
+>
+> **⑥ ⚪ MOF WEEKLY 8/23-8/29 = −¥824.0B, second consecutive selling week but INSIDE the ¥1.5T bar — does NOT trip.** 4-wk rolling ≈ flat (−¥12.1B). Non-residents kept BUYING JGBs (+¥509.1B, 2nd week). ⛔ **The prior week's superlatives (10th most negative of 1,129 weeks; equity+LT and total each 3rd most negative in 21 years) belong to 8/16-8/22 — do not restate them as current.** Channel 1 stays RETIRED.
+>
+> **⑦ No thesis move, no threshold moved, book FLAT.** Frame remains **v1.7 / carry-convexity tail RETIRED-LOW**; **no successor frame is declared.** Scoreboard **15 CONFIRMED / 14 FAILED / 1 special / 5 OPEN (SAM-28/31/33/39/41)**.
 
 > ### 🆕 2026-09-02 — NOTHING NEW FOR CONSUMERS (routine post-9/1 session: subagent trio applied, drift stamped, docket synced). All 9/1 items below stand.
 >
