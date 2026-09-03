@@ -1,36 +1,41 @@
 # CRUISE — TRADE
 
-*Last updated: 2026-08-14 (return from 42-day dark; BOTH catalysts fired in absentia — Will-decision items live)*
+*Last updated: 2026-09-02 (19-day dark; the tape moved 13–18% against the complex and the FUEL leg's mechanism failed its own discriminator). Prior: 2026-08-14.*
+
+> ⛔ **No new trade is proposed here and no level is set.** Both rows below were Will-gated on 8/14 and remain Will-gated. What changed is the **evidence**, and in one case the evidence points at the desk's own framing. CRUISE is a leading indicator, not a position book; trade construction is TERRY's.
+
+---
 
 ## Active Recommendations
 
-| # | Trade | Direction | Conviction (1-5) | Domain Rationale | Entry Signal | Status 8/14 | Exit Signal |
-|---|-------|-----------|-------------------|-----------------|-------------|-------------|-------------|
-| 1 | NCLH puts | Bear | 4 (from 3) | Weakest of Big 3 — **relative weakness / de-rating**, now primary-CONFIRMED. NCLH Q2 8-K (7/30, acc 0001171843-26-005050) beat Q2 itself but CUT forward guide: FY26 Adj EPS ~$1.50 (from $1.45-$1.79 range = low-end de-facto cut), Q3 CC yield -8.9% (step-function worse than Q1 -1.0%/Q2 -2.6%), mgmt "still in early stages of turnaround," cites Norwegian brand + Middle East. Balance sheet unchanged (leverage 5.3x, coverage ~2.1x — NOT solvency). | **CATALYST CONFIRMED AT 8-K PRIMARY (CRU-04 CONFIRMED 8/14, CRU-06 CONFIRMED same-day)**. Tape has priced ~2 weeks so entry edge partially spent. **Will-decision: deploy now (accept the ~2-week tape drift) OR wait for a re-test / preannouncement**. | **AWAITING WILL RULING** — follow-up packet 8/14 | NCLH raises FY26 guide at Q3 print OR yields turn positive OR mgmt turnaround shows through |
-| 2 | CCL puts — **ARMED, TRIGGER BREACHED, primary-corroborated** (fuel-convexity) | Bear | 3 (from 2, armed but not deployed) | CCL is **unhedged on fuel per 7/2 STATUS** (⚠ verify at Q3 8-K) → highest-beta cruise expression of a fuel re-spike. NCLH Q2 8-K primary: fuel/mt $888 net of 52% hedges (+35% YoY); RCL $839 net of 58% hedges — CCL should be materially higher on same tape. BRENT v5.6: prompt-premium intact ($93.26 dated vs $88.91 futures). | **TRIGGER BREACHED 7/17** — Brent held in the $85–90 arm-CCL band ~4 weeks with a 7/23 spike to $100.69. NCLH+RCL primaries confirm the operator-P&L effect. **CCL Q3 print (~9/28) is the vehicle** where the fuel drag lands on CCL's own tape (preannouncement base rate <10% per `WATCHLIST_CCL_PREANNOUNCE.md`). | **AWAITING WILL RULING** — packet 8/14 + 8-K follow-ups. ⚠️ **NEW 8/14: CCL received a SECOND investment-grade rating 6/25/26 (KB-CRU-027).** The credit-distress framing that partially rode inside TRADE #2 is DEAD; the fuel-margin thesis SURVIVES on its own but the "$24B debt existential" narrative from the 3/20 boot must be retired. Option may still be cheaper than the ladder assumed — CCL up-drifted through the fuel move because the credit story trumped it. | Brent holds <$80 for 2+ weeks AND HAWK D-tail compresses AND CCL announces fuel hedging AT Q3 |
+| # | Trade | Direction | Conviction (1-5) | Domain rationale — what the 19 dark days did to it | Status 9/2 | Exit signal |
+|---|-------|-----------|------------------|---------------------------------------------------|------------|-------------|
+| 1 | NCLH puts | Bear | **3 (from 4)** — cut on **spent edge, not a broken thesis** | The thesis is intact and got stronger: guide cut holds (FY Adj EPS ~$1.50, Q3 CC yield −8.9%), NCLH is −18.1% since 8/14 and **−37.8% from its 2/26 peak $25.02**, weakest of the Big 3 on every window, and dark-period coverage adds an unverified **~$1.3B funding gap** that could force an equity raise. **But the tape has now travelled ~21% since the 7/30 catalyst.** The de-rating this trade was built to capture has substantially happened. | **AWAITING WILL RULING** — unchanged since 8/14. Conviction cut is CRUISE's own read on entry quality; it is not a recommendation to deploy or to stand down. **Un-priced by CRUISE — options/skew is TERRY's.** | Leverage stays 5.3x or falls at Q3 · guide raised · turnaround shows in yields · **or** the funding gap is refuted at the 8/3 10-Q |
+| 2 | CCL puts — **fuel-convexity framing RECOMMENDED FOR RETIREMENT alongside the 7/2 ladder** | Bear | **2 (from 3)** | ⛔ **The mechanism failed its own discriminator this session.** CCL is verified unhedged (10-K + 10-Q), so a fuel shock should hurt it most — yet 8/14→9/2 **CCL −15.6% fell LESS than NCLH −18.1% (52% hedged) and only 2.7pp more than RCL −12.9% (58% hedged)**. And CCL's own sensitivity table prices a 10% fuel move at **$56M** for 3Q26 versus **$60M for a 1% net-yield move** — fuel is the second lever, not the first. The number this desk had been carrying, "$145–156M per 10% move," was **2.7× too large** and unsourced. | **AWAITING WILL RULING**, and CRUISE's own recommendation is now to **retire the fuel-convexity framing** and let the ladder go with it (memo: `2026-09-02_LADDER_DISPOSITION_MEMO.md`). A cruise bear view is better expressed on the **demand tier**. Any residual CCL view should be graded against **CCL's own $812/mt and $1.35 adj-EPS guide**, not against peer fuel figures. | Q3 fuel/mt at or below $812 · **or** above it with the fuel-attributable EPS hit ≤$0.10 (CRU-08) — either kills convexity and leaves only a cost line |
 
-**Note:** No active (deployed) positions. CRUISE remains a **leading indicator / canary**, not a position book. Both trades are **Will-gated**. TRADE #1's catalyst (NCLH Q2) has fired in the tape; TRADE #2's trigger (Brent >$85–90 sustained) has held for ~4 weeks. Neither was deployed because CRUISE was dark for the entire window — this is a **process gap flagged to PROME, not a thesis change**. Root rule #6 (puts on green days) is a live consideration for TRADE #2 — CCL was slightly red today (−0.44%); a break would require the direct-measurement adjudication test (RISK_RULES.md § "Breaking root rule #6"), which is Will's call.
+**Root rule #6 note (unchanged, and it is TERRY's rule, not mine):** CCL closed **green** on 9/2 (+2.20%) after a 4-month low on 9/1, so a put entry would be rule-#6-compliant on the day-colour proxy. That is a mechanical observation for whoever constructs, not an argument for entry.
 
 ---
 
 ## Domain Catalysts
 
-| Date | Event | Trades Affected | Expected Impact |
+| Date | Event | Trades affected | Expected impact |
 |------|-------|-----------------|-----------------|
-| ~early Aug 2026 | **NCLH & RCL Q2 FY26 earnings** | NCLH puts | The **de-rating catalyst (CRU-04)** — does NCLH's guidance/yield weakness persist vs RCL strength? Deploy trigger. |
-| Done (Jun 23) | ✅ CCL Q2 FY26 | — | Record results but −5.75% on Med/Europe softness. K-shape confirmed (CRU-01). Fuel a non-issue. |
-| Ongoing | Consumer-affordability data (via CARL) | All | Deepening mass-market pullback = value-end pressure. |
-| Ongoing | Gulf war-risk insurance re-hardening (via HAWK) | All | Would re-arm the itinerary channel (currently fading). |
+| **~2026-10-05 (Mon) — NOT company-confirmed** | **CCL Q3 FY26 print** (quarter ended 8/31). ⚠️ Was estimated 9/28-29; three aggregators now say 10/5. Confirming primary = CCL's own conference-call press release, historically ~2 weeks ahead, **not yet issued**. | #2, and #1 by cross-read | **The** event. Graded on five pre-registered questions, all re-based to CCL's own guide: fuel/mt vs **$812**, adj EPS vs **$1.35**, FY net-yield direction vs **+3.2%**, deposits vs the $9.0B record, and whether the Med "reversal of these headwinds" CCL claimed on 6/23 actually shows. |
+| 2026-09-13 | **CRU-05 grade window closes** | — | Graded on the letter. Tracking toward FAILED on a spec defect the desk found and disclosed rather than retuned (see `PREDICTIONS.tsv`). |
+| Ongoing | CARL consumer prints (UMICH August **51.7**, recovery reversed) | All | The K-shape's demand side. VX-CRU-03's upgrade bar is a −20% booking-pace print, still unobserved. |
+| Ongoing | FALCON theater (**CAMPAIGN**, D-branch 65) | #2 via fuel; all via itineraries | ⚠️ Escalating on the **cost/theater** side while **no new cruise-line cancellation** has been announced since 7/2. Cost channel is live; the revenue channel is not. |
+| Unscheduled | NCLH equity raise / revolver draw | #1 | Would confirm the ~$1.3B funding-gap thesis and is the single largest un-priced NCLH risk. |
 
 ---
 
 ## Cross-Agent Dependencies
 
-| Trade | Strengthened By | Weakened By |
-|-------|----------------|-------------|
-| NCLH puts | CARL: mass-market affordability pullback deepens · NCLH Q2 shows continued yield/guidance weakness | BRENT: fuel stays low (margin help) · NCLH raises guidance / yields turn positive |
-| **CCL puts (armed)** | **BRENT: Brent >$85–90 sustained / HAW-15 fires** · **HAWK: D-tail fattens / "second-step" kinetic** · one-sided short book amplifies | BRENT: Brent holds <$75 structural · HAWK: D-tail compresses · CCL announces fuel hedging |
-| Demand thesis (all) | WALTER/CARL: K-shape deepens · RCL-vs-value dispersion widens | Broad consumer re-acceleration · all three guide firm bookings |
+| Trade | Strengthened by | Weakened by |
+|-------|-----------------|-------------|
+| NCLH puts (#1) | CARL: affordability pullback deepens · funding gap confirmed at the 10-Q or by a raise · leverage climbs off 5.3x | Guide raised at Q3 · yields turn positive · the gap is refuted at the 8/3 10-Q |
+| CCL puts (#2) | Q3 fuel/mt materially above $812 **with** an FY yield guide-down beside it — **both legs, or it is just a cost line** | BRENT: front sustained <$75 · CCL's Med "reversal" confirmed at Q3 · deposits set another record |
+| Demand thesis (all) | CARL/WALTER: K-shape deepens · a −20% pace print · RCL's premium leg finally cracking in the GUIDE and not only the tape | Broad consumer re-acceleration · all three operators guide firm bookings at Q3 |
 
 ---
 
@@ -38,5 +43,6 @@
 
 | Trade | Reason |
 |-------|--------|
-| ~~CCL puts (fuel-spike)~~ | **Not rejected — RE-ARMED 7/2** (see Active #2). Downgraded from "always-on bear" to *dormant convexity, deploy-on-trigger* — the acute-spike thesis lapsed (Brent 4-mo low) but the war oscillates and the fuel tail stays wired. |
-| RCL puts | Better hedged, premium customer, near record highs. Lowest-conviction short of Big 3 — now clearly wrong-way; RCL is the *resilient* leg of the K-shape. |
+| **CCL "fuel-convexity" as a standalone mechanism** | **Recommended for retirement 9/2.** Not because fuel is fake — CCL's cost line is genuinely rising (fuel/mt $614→$793 YoY, +29.2%, with no hedges) — but because it **does not discriminate CCL from its peers on the tape**, and the company's own sensitivity table makes it the second-order lever behind yields. Retiring the *framing*, keeping the *cost line* as VX-CRU-02. |
+| CCL "$24B debt existential" credit-distress leg | **DEAD since 8/14**, and now with the agency named: S&P moved CCL to BBB− from BB+ on 6/25 (second IG, behind Fitch ~2025-10-02). Moody's cutting the *unsecured* notes to Ba1 is the mechanical result of collateral falling away, not deterioration. |
+| RCL puts | Called "clearly wrong-way" on 8/14 on the premium-leg logic. ⚠️ **Half-refuted by the tape:** RCL is −12.9% since 8/14 and below its own 3-month mean. The GUIDE logic was right (RCL raised FY26); the TAPE did not respect it. Recorded because it is the kind of miss that reads as a win in hindsight if left unwritten. |

@@ -1,47 +1,42 @@
-# Inbox Processing Receipt — 2026-08-14 Fri (return-from-dark boot)
+# Inbox Processing Receipt — 2026-09-03 02:3x UTC (2026-09-02 ~22:3x ET)
 ## Agent: CRUISE
 
 ### Signals Processed
 | # | Signal File | Action | KB Entries Created | VX/FLOW Changes |
 |---|-------------|--------|-------------------|-----------------|
-| 1 | WALTER/SIG-W-20260709-014.md (Al Jazeera ~half Americans skip summer vacations on airfare/driving) | LOG (corroborates existing K-shape signal — same phenomenon as KB-CRU-001 from a second outlet, adds 7/9 duration point) | KB-CRU-015 | none — VX-CRU-03 already ORANGE and about to upgrade to RED on the tape-signature evidence; SIG-014 is confirmatory, not the driver |
+| 1 | `2026-08-21_from-PROME_re-classed-EVENT-DRIVEN-and-your-ladder-goes-to-retire-or-fresh-levels-not-registration.md` | **INTEGRATE** | KB-CRU-033/034/035 (tape, discriminator, ladder counterfactual) | VX-CRU-01 🟡2 → 🟠3 · VX-CRU-06 **NEW** · FL-CRU-09 **NEW** |
+| 2 | `2026-09-01_from-DAEDALUS_staleness-4-FLOW-tsv-43d-no-banner-no-clock-Hormuz-row-reads-opposite-of-live-theater.md` | **INTEGRATE** | KB-CRU-029 (the 2.7× correction found while refreshing) | FL-CRU-01 sign flipped · FL-CRU-02 re-based to FALCON 9/1 · FL-CRU-06 corrected 2.7× · FL-CRU-08 refreshed |
+| 3 | `2026-09-02_from-DAEDALUS_route-around-WALTER-census-your-canon-instructs-direct-signal-delivery.md` **(arrived 22:06, mid-session)** | **INTEGRATE** | — (process, not domain evidence) | `CLAUDE.md` MAIL SYSTEM re-written two-lane; boundary rule, FILES table and CROSS-AGENT SIGNALS table all fixed |
+| — | `inbox/WALTER/` delivery lane | **DRAINED — EMPTY** | — | `board_log.tsv` created (v0.2 header); §8.1 consume boot-step installed in `CLAUDE.md` |
 
-### Dark-Period Discovery (independent of inbox)
-Beyond the inbox item, this boot found **both live 7/2 catalysts fired while CRUISE was dark 7/3 → 8/14**:
-- **CRU-03 → FAILED**: Brent breached $85 on 7/17, spiked $100.69 on 7/23, held with oscillation (past 45d mean $85.97, 22/50 sessions ≥$85). Trigger for TRADE #2 CCL puts is BREACHED but Will-gated.
-- **CRU-04 → PARTIALLY**: NCLH gap-down 7/29-30 (−11.8% on 36.5M vol) is a bearish-Q2 tape signature. 8-K primary VERIFICATION OWED. Trigger for TRADE #1 NCLH puts has fired in tape but 8-K unread.
+**Packet 1 (PROME) — disposition:** answered in full. The ladder is presented for **RETIREMENT** with the in-band history (47 days) and a priced counterfactual disclosed; **no replacement level proposed**. Memo `AGENTS/CRUISE/2026-09-02_LADDER_DISPOSITION_MEMO.md`; decision packet to `PROME/inbox/`. The re-class to ACTIVE / EVENT-DRIVEN is acknowledged and STATUS now carries a 6-row named wake set with owners, for PROME's BD-02 summons flag to key on.
+
+**Packet 3 (DAEDALUS, route-around census) — disposition:** all three 🔴 DEAD-ROUTER rows fixed, plus a fourth instance it did not flag (the boundary rule at line 83) and the FILES-table rows its ACTION #2 predicted would be missed. **Leg B self-judged and it was dirty:** the CROSS-AGENT SIGNALS table is the OTTO structural form — a recipient-named trigger table that reads as a delivery instruction even though no sentence says so; re-headed *"Interested desk (route via WALTER)"*, and two stale owners fixed while in there (**HAWK → FALCON** for war-risk, **WILL → via PROME**). `walter_route_check.py`: CRUISE moved 3 × DEAD-ROUTER → 2 × MIXED + 2 × PACKET-LANE and is **off `DESKS OWED A PACKET`**. Reply packet sent to `AGENTS/DAEDALUS/inbox/` with instrument feedback: **DAEDALUS's own prescribed wording necessarily scores MIXED**, so MIXED cannot be read as a defect bucket without re-flagging desks that complied. ⚠️ *Process note: this was the third distinct substantive edit to `CLAUDE.md` this session. None corrects another — boot lines, the dead-router rewrite, the leg-B table — but per the two-correction discipline, `CLAUDE.md` is now closed for this session.*
+
+**Packet 2 (DAEDALUS) — disposition:** both its ACTION items executed. `workbook/FLOW.tsv` **REFRESHED** rather than frozen — the correct branch here, because the session generated real content for it and one of its rows turned out to be carrying a figure that was 2.7× wrong. Boot line `3d` added to `CLAUDE.md` wiring `ledger_staleness.py`. DAEDALUS asked for no reply packet and will read the diff at the ~9/15 Production Review; none sent.
 
 ### STATUS.md Changes
-- Full refresh from 7/2 → 8/14 (42-day gap)
-- Prices: CCL $27.91→$28.28 · RCL $296.30→$306.43 · NCLH $19.78→$19.07 · Brent $71.36→$88.26
-- Convergence: ~13/25 → ~17/25 (first 🔴s since 7/2 — K-shape widened, NCLH tape-fired)
-- Added ⚠️ dark-period disclosure banner at the top
-
-### Workbook Changes
-- KB.tsv +5 rows: KB-CRU-015 (WALTER SIG corroboration), KB-CRU-016 (Brent trajectory + trigger breach), KB-CRU-017 (NCLH tape signature), KB-CRU-018 (RCL tape signature), KB-CRU-019 (CCL non-response to fuel)
-- VX.tsv: VX-CRU-01/02/03/05 all updated (VX-CRU-02 YELLOW→ORANGE on trigger breach; VX-CRU-03 now scored 4 with 🔴 on widened tape dispersion; VX-CRU-05 keeps 🟠 pending 8-K confirmation of RE-slash vs miss)
-- PREDICTIONS.tsv: CRU-03 → FAILED (2026-08-14); CRU-04 → PARTIALLY (2026-08-14). Added CRU-05 (30d tape-dispersion forward test) and CRU-06 (NCLH 8-K vs tape confirmation)
-
-### TRADE.md Changes
-- Both trades relabeled: TRADE #1 "CATALYST FIRED IN TAPE — awaiting Will ruling"; TRADE #2 "TRIGGER BREACHED — awaiting Will ruling"
-- TRADE #1 conviction 2→3 (tape catalyst fired)
-- Added root-rule-#6 flag on TRADE #2 (CCL red today)
+- CCL: $28.28 [8/14] → **$23.74** [9/2] · **−15.6%**, 4-mo low $23.23 on 9/1
+- RCL: $306.43 → **$265.60** · NCLH: $19.07 → **$15.57**
+- Brent: $88.26 → **BZX26 $95.23** [9/2 close, contract named]
+- CCL fuel sensitivity: *"$145–156M per 10% move"* (unsourced) → **$56M (3Q26) / $102M (remainder-2026)**, CCL's own table
+- CCL fuel hedging: 7/2 assertion → **VERIFIED UNHEDGED at two primaries**
+- 6/25 second IG: agency unknown → **S&P Global Ratings, BBB− from BB+**
+- CCL Q3 date: ~9/28-29 → **~10/5, ESTIMATED, not company-confirmed**
+- VX-CRU-01 🟡2 → 🟠3 (and its band's basis named for the first time: $33.45, 2026-02-06 close)
+- Convergence: ~18/25 over 5 vectors → **~21/30 over 6**
 
 ### Outbox Signals Written
-- **to-WILL: dark-period triggers both fired** (`2026-08-14_to-WILL_dark-period-triggers-both-fired.md`) — Priority 🟠 — two decision items (fuel-arm ladder ratify/retire/modify; NCLH deploy-on-tape/wait-for-8-K/kill) + one process flag to PROME
+- `outbox/2026-09-02_to-PROME_ladder-retirement-watchlist-sweep-flow-refresh-and-a-27x-figure-correction.md` (delivery memo; copy to `PROME/inbox/`)
+- `PROME/inbox/2026-09-02_from-CRUISE_PROPOSAL-retire-the-arm-CCL-fuel-ladder-no-replacement-level.md` (the Will decision)
+- *(none to other domain agents — no finding this session crossed a boundary in a way the owner didn't already have. FALCON, BRENT and CARL were **read**, not corrected.)*
 
 ### Files Modified
-STATUS.md · TRADE.md · workbook/KB.tsv · workbook/VX.tsv · workbook/PREDICTIONS.tsv · outbox/2026-08-14_to-WILL_dark-period-triggers-both-fired.md · inbox/WALTER/processed/SIG-W-20260709-014.md (via git mv)
+`STATUS.md`, `TRADE.md`, `WATCHLIST_CCL_PREANNOUNCE.md`, `CLAUDE.md`, `board_log.tsv` (new), `2026-09-02_LADDER_DISPOSITION_MEMO.md` (new), `workbook/{FLOW,KB,VX,PREDICTIONS}.tsv`, `inbox/RECEIPT.md`, plus the two `PROME/inbox/` packets and the outbox memo.
 
-### Follow-up (same session, at Will's request)
-- **NCLH Q2 8-K PULLED** (SEC EDGAR primary, acc 0001171843-26-005050, filed 7/30). **CONFIRMS the tape read.** Q2 itself was a BEAT (Adj EPS $0.48 vs $0.38 guide; Adj EBITDA $666M vs $632M; Net Yield -2.6% CC vs -3.6% guide) but FORWARD guide was CUT (FY26 Adj EPS ~$1.50 vs prior range $1.45-$1.79 = low-end de-facto cut; Q3 CC yield **-8.9%** = step-function worse). Bonus primary: fuel/mt **$888 net of 52% hedges** = RED-band on VX-CRU-02.
-- **RCL Q2 8-K PULLED** (SEC EDGAR primary, acc 0000884887-26-000036, filed 7/28). **CONFIRMS the tape read — headline: BEAT + RAISED FY GUIDE.** Q2 Adj EPS $4.21, Net Yield +1.9% rpt / +1.2% CC (above guide), Load Factor 110.2%, Adj EBITDA $1.8B. **FY26 guide RAISED to $17.73-$17.87** (+14% YoY); Q3 CC yield ~flat. Booked at record prices; 2027 pacing ahead of history. Fuel/mt $839 (58% hedged FY26).
-- **Additional workbook changes**: KB +7 rows total (KB-CRU-020/021/022/023 for NCLH; KB-CRU-024/025/026 for RCL); KB-CRU-017 and KB-CRU-018 marked SUPERSEDED (tape→primary); VX-CRU-05 🟠→🔴; VX-CRU-02 🟠→🔴; VX-CRU-03 primary-confirmed both sides (score 4 held, note updated); CRU-04 CONFIRMED, CRU-06 CONFIRMED. Follow-up packets to Will: `outbox/2026-08-14_to-WILL_nclh-q2-8k-confirms.md` + `outbox/2026-08-14_to-WILL_rcl-q2-8k-confirms.md`.
-- **CCL preannouncement watch list BUILT** (at Will's request): pulled CCL 8-K history (30 filings 2025-01→2026-08 → zero pure earnings preannouncements — base rate <10%); Q3 FY26 date estimate ~2026-09-28/29 (~6.5 weeks); 8 surveillance channels + escalation ladder + pre-registered Q3 questions. Written to `WATCHLIST_CCL_PREANNOUNCE.md`. Live doc — check every spawn.
-- **Material CCL discovery** during watch-list work: 8/5 8-K (item 7.01, acc 0000950142-26-002267) disclosed that CCL received a **SECOND investment-grade credit rating on 2026-06-25** — 2029 First-Priority Senior Secured Notes became UNSECURED; $500M called for redemption 8/15 at 103.5%. KB-CRU-027 added. TRADE #2's "$24B debt existential" leg RETIRED (inherited from 3/20 boot); fuel-convexity thesis SURVIVES on its own. Rating-agency identity look-up owed.
-
-### Skipped / Issues (unchanged from earlier)
-- **HAW-15 / HAWK "second-step kinetic" status** — did not re-derive HAWK's read (out of scope per "own domain — go deep, don't drift"). Cited HAWK 8/10 forum outcome ("19 candidates routed to Will") for context only.
-- **Uncommitted SAM files** noted in `git status` (AGENTS/SAM/MAINTENANCE.md, workbook/BOJ_OIS.tsv) — not mine, flagged only, not touched. Orphan check ran clean for CRUISE-owned paths.
-- **No cruise NETWORK_GROUP** in vocabularies — still using CONSUMER + `sub:CRUISE` provisionally (7/2 gap persists).
-- **CRUISE dark-cadence process gap** — 42 days dark while two catalysts fired. Flagged to PROME in the Will packet's Item 3.
+### Skipped / Issues
+- **FRED `DCOILBRENTEU` unreachable from this box** — 3 attempts (HTTP/2 stream error rc 92; timeout rc 28; 120s hard kill). Blocks a Jun–Aug Brent window average, which would give prediction CRU-07 a proper prior. **SEARCH-NOT-FOUND**, path named; BRENT's EIA `RBRTE` pull works.
+- **carnivalcorp.com IR pages return the SPA shell** to direct fetch — this is the real cause of the 8/14 "404". Channel 7 stays open and cannot be closed by fetching harder.
+- **spglobal.com returns HTTP 403** — the S&P rating action was read at two secondaries, hence Conf **C2** not A1 on KB-CRU-032.
+- **Quartr MCP unavailable** (no Pro subscription on this account) — would have been the right instrument for the CCL event calendar.
+- **`inbox/WALTER/` has never received a signal.** Not an error I can fix from this side; flagged to PROME in the delivery memo as worth a WALTER-side check that the lane is wired.

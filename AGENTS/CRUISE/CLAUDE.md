@@ -22,6 +22,18 @@ When spawned with a task:
 3. **Before writing to KB.tsv, read `workbook/SCHEMA.tsv`** — validate all enum fields (Conf, Epistemic, Status) against `allowed_values`. Use `default` values when unsure.
 3b. **Read `AGENTS/VOCABULARIES.tsv`** — use NETWORK_GROUPS for Group field, CANONICAL_ENTITIES for Entity field, SOURCE_TAGS for Source field. If no match exists, use closest term and note the gap.
 3c. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" CRUISE` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
+3d. **Ledger staleness check:** `python3 "$(git rev-parse --show-toplevel)/scripts/ledger_staleness.py" CRUISE` — every workbook ledger must be in one of two states, never the silent middle: **FROZEN** with a first-line banner, or **LIVE** with a `# Last real data refresh: YYYY-MM-DD` header line. A `⚠️ STALE` line is a freeze-or-refresh decision owed **this session**, not a note for later. *(Wired 2026-09-02 after DAEDALUS Staleness Sweep #4 found `workbook/FLOW.tsv` +43d behind STATUS with no banner and no clock, carrying two July-direction rows into September. The 7/4 fleet rollout of this boot line predates this desk — born 7/2, dark 7/3→8/14 — so no alarm had ever printed here.)*
+
+### WALTER signal intake (inbox/WALTER delivery lane)
+
+*Per `AGENTS/WALTER/design/BOARD_CONSUMPTION_SPEC.md` §8.1. Installed 2026-09-02; run at boot, after STATUS.*
+
+1. List `AGENTS/CRUISE/inbox/WALTER/*.md` not yet in `board_log.tsv`.
+2. For each: read it, decide disposition (`acted` / `noted` / `deferred` / `info-only` / `skipped`), append a row to `board_log.tsv` with `source=INBOX_WALTER`, then **`git mv`** the file to `inbox/WALTER/processed/` (bash `mv` leaves the deletion unstaged).
+3. Let `acted` items inform the session.
+
+`board_log.tsv` header (v0.2): `timestamp_read<TAB>signal_id<TAB>disposition<TAB>source<TAB>notes`.
+
 4. **Execute the task**
 5. **Write results back to your files** — update `STATUS.md`, log to workbook (KB/VX/FLOW) when appropriate
 6. **If your findings are relevant to another agent's domain, write to `outbox/`**
@@ -68,30 +80,33 @@ When spawned with a task:
 - Macro employment data (LABOR)
 - Trade execution or portfolio sizing (PROME)
 
-**Boundary rule:** If you encounter signal in another agent's domain, write it to `outbox/` as a signal file. Don't deep-dive it yourself. HERMES (the mail carrier agent) will deliver it.
+**Boundary rule:** If you encounter signal in another agent's domain, don't deep-dive it yourself — hand it off. **A SIGNAL goes to WALTER**, which owns routing judgment across the fleet. **An ANALYSIS or a packet aimed at one named desk** goes direct into that desk's `inbox/`, self-committed under carve-out ①. ⛔ There is no mail carrier: HERMES was retired 2026-06-30.
 
 ---
 
 ## CROSS-AGENT SIGNALS
 
-**You send signals to:**
+> ⚠️ **Read the routing rule in § MAIL SYSTEM before using this table.** The "Interested desk" column says **who cares**, not who you deliver to. **A SIGNAL is routed via WALTER** — WALTER owns dedupe, archive and routing judgment, and owns the semantics of what counts as a signal. Naming a desk here has never been authority to hand it a signal directly. *(Corrected 2026-09-02, DAEDALUS route-around census leg B — the structural form: a recipient-named trigger table reads as a delivery instruction even when no sentence says so.)* **ANALYSIS or a packet aimed at one named desk still goes direct**, self-committed per carve-out ①.*
 
-| Condition | Target Agent | Priority |
-|-----------|-------------|----------|
+**Conditions worth raising, and the desk whose read they change:**
+
+| Condition | Interested desk (route via WALTER) | Priority |
+|-----------|-----------------------------------|----------|
 | Major itinerary cancellation (>10 sailings) | CARL, LABOR | 🔴 |
-| Operator warns on guidance / cash bleed | WILL | 🔴 |
+| Operator warns on guidance / cash bleed | **WILL** — via PROME, never a direct signal | 🔴 |
 | Booking pace drops >20% YoY | CARL | 🟠 |
 | Port city layoff announcements | LABOR | 🟠 |
-| War risk insurance premium doubles | HAWK | 🟠 |
+| War risk insurance premium doubles | **FALCON** *(not HAWK — FALCON owns the theater since the 2026-07-12 spin-out; HAWK is the parent/synthesis desk)* | 🟠 |
 | Fuel surcharge imposed on passengers | CARL | 🟡 |
 
-**You receive signals from:**
+**You receive from:**
 
-| Source Agent | What They Send You |
-|-------------|-------------------|
-| BRENT | Fuel price changes, bunker fuel cost data |
-| HAWK | Gulf route insurance status, conflict escalation affecting maritime |
-| CARL | Consumer discretionary spending trends |
+| Source | What reaches you |
+|--------|------------------|
+| **WALTER** | The delivery lane: `inbox/WALTER/` → log to `board_log.tsv`. ⚠️ As of 2026-09-02 this lane has **never received a signal** — if that persists, flag PROME rather than assuming quiet. |
+| BRENT | Fuel price changes, bunker cost data. ⛔ Every Brent figure NAMES the CONTRACT and BASIS (e.g. `BZX26` = Nov-26 front); `BZ=F` is not a citable identifier and is banned for deltas. |
+| **FALCON** | Hormuz / Gulf theater, war-risk, tanker incidents. *(HAWK = parent synthesis; OSPREY = Russia/Ukraine.)* |
+| CARL | Consumer discretionary and affordability trends |
 | LABOR | Port city employment data |
 
 ---
@@ -137,14 +152,21 @@ See STATUS.md for the live convergence matrix.
 
 ## MAIL SYSTEM
 
+⛔ **HERMES was retired 2026-06-30 — there is no mail carrier.** Everything below was written for one and was corrected 2026-09-02 (DAEDALUS fleet census, 10 desks; CRUISE's three rows were the **DEAD-ROUTER** class — they named a router that had not existed for 64 days, so a signal written per this file would have been delivered to nobody and nothing would have reported the failure).
+
+> ### 🚦 The routing rule, and it has two lanes — do not over-correct in either direction
+> **SIGNALS** — a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on — **route through WALTER.** WALTER owns dedupe, archive and routing judgment, and owns the semantics of what counts as a signal (`MESSAGING/CROSS_SESSION_MESSAGING.md` §2 rule 4; root `CLAUDE.md` § Direct Messaging v1: *"never route signals around WALTER"*).
+> **ANALYSIS and PACKETS** — a memo, a finding, a disposition, an ACTION ask aimed at one named desk — **go direct to that recipient's `inbox/`**, and you **must** self-commit them under root carve-out ①, explicitly path-scoped, recipient named in the subject (`CRUISE -> <RECIPIENT>: <what>`). An uncommitted packet never arrives.
+
 All inter-agent communication lives in `inbox/` and `outbox/`:
 
 ```
 
-  inbox/           ← inbound signals from other agents (delivered by HERMES)
-    processed/     ← signals you've integrated (move here after processing)
-  outbox/          ← outbound signals you write for other agents
-    delivered/     ← signals HERMES has delivered (moved here by HERMES)
+  inbox/           ← inbound packets addressed to CRUISE (each sender commits its own)
+    processed/     ← items you've integrated (git mv here after processing)
+    WALTER/        ← WALTER's signal delivery lane — logged to board_log.tsv, see boot step above
+      processed/
+  outbox/          ← your own outbound memos/packets; copy or write direct to the recipient's inbox/
   RECEIPT.md       ← processing receipt (overwritten each run)
 ```
 
@@ -161,7 +183,7 @@ When you discover something relevant to another agent's domain, write a single `
 **Priority:** 🔴/🟠/🟡
 ```
 
-HERMES sweeps all outboxes twice daily and delivers signals to target agents' `inbox/`. After delivery, HERMES moves the file to `outbox/delivered/`.
+**Delivery is yours — nothing sweeps your outbox.** For a **SIGNAL**, route it to WALTER. For **ANALYSIS or a PACKET**, write the file directly into the recipient's `AGENTS/<THEM>/inbox/`, then `git add` and commit that exact path yourself (carve-out ①). Keep your own copy in `outbox/` so the work exists in your dir too. At packet-commit with an ASK of a named agent, `ListAgents` and doorbell a live recipient (messaging rule 6); recipient DARK → rule 6b.
 
 **When to send:** Threshold breaches, state changes, new evidence that crosses domain boundaries. Don't send routine updates — only things that would change another agent's assessment.
 
@@ -252,6 +274,7 @@ Every STATUS.md must end with a `## BOTTOM LINE` section — 2-4 sentences, plai
 | `workbook/VX.tsv` | Vectors — tracked risk indicators with thresholds and state. |
 | `workbook/FLOW.tsv` | Transmission pathways — how stress travels between domains. |
 | `workbook/PREDICTIONS.tsv` | Falsifiable forecasts with confidence and resolution tracking. |
-| `inbox/` | Inbound signals from other agents. |
-| `outbox/` | Outbound signals for other agents. |
+| `inbox/` | Inbound packets addressed to CRUISE. `inbox/WALTER/` is WALTER's **signal** delivery lane (logged to `board_log.tsv`); the top level is direct analysis/packets from other desks. |
+| `outbox/` | Your own outbound memos and packets. ⛔ Nothing sweeps it — **SIGNALS route via WALTER; ANALYSIS/PACKETS you deliver and commit yourself** (carve-out ①). |
+| `board_log.tsv` | WALTER signal-consumption log (v0.2 header). One row per delivered signal, with its disposition. |
 | `domain/sources/` | Archived research and raw data |
