@@ -112,7 +112,7 @@ Both CRMT dates fall inside a window where **OTTO's next boot is not guaranteed 
 | Letter | Grade on | Against |
 |---|---|---|
 | 1 | **Sat 9/5** (or first boot after) | EDGAR CIK 0000799850 filing list 9/3–9/4 + the 9/4 close |
-| 2 | **Fri 9/11** — NOT before the 9/8 close | EDGAR filing list 9/5–9/11. **Grade BOTH the original bands and Amendment 1** — the amendment is on the record precisely so it can be scored against what it replaced |
+| 2 | **Fri 9/11** — NOT before the 9/8 close | EDGAR filing list 9/5–9/11. **Grade BOTH the original bands and Amendment 1** — the amendment is on the record precisely so it can be scored against what it replaced. ⚠️ **GRADE IT COLD. BROCK's own instruction, 2026-09-02: *"Don't let my structural confidence substitute for your calibration on 9/11."*** He moved 2A against OTTO's prior lean and has logged his share of that before the grade rather than after. **If 2A fires, OTTO's original 40% was the better-calibrated number and the correction did not need to move it — write that down if it happens.** |
 | 3 | **Graded 2026-09-02 (this document).** Next check: the Counts 7–8 securitization list (~8/28, UNVERIFIED) | SDNY docket / Inner City Press |
 
 **Confidence tokens used throughout:** VERIFIED = checked at the artifact · INFERRED = supported, not directly established · SEARCH-NOT-FOUND = query returned nothing · UNKNOWN.
