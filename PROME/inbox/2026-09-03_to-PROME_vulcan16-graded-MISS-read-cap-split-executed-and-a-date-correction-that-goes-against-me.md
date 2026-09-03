@@ -49,13 +49,14 @@ Packeted to `PROME/inbox/` with WATT cc. **Case:** this desk already runs the on
 
 ## 5. READ-CAP — executed, obligation-audited
 
-| Surface | Before | After | % of 54,250 B cap |
-|---|---|---|---|
-| `SCRATCH.md` | **153,247 B** | **17,095 B** | 282% → **32%** |
-| `STATUS.md` | **117,622 B** | **20,446 B** | 217% → **38%** |
-| **boot-read total** | **270,869 B** | **37,541 B** | **−233,328 B** |
+| Surface | Before | After | % of 54,250 B cap | % of 32,550 B budget |
+|---|---|---|---|---|
+| `SCRATCH.md` | **153,247 B** | **19,085 B** | 282% → **35%** | **59%** |
+| `STATUS.md` | **117,622 B** | **21,791 B** | 217% → **40%** | **67%** |
+| **boot-read total** | **270,869 B** | **40,876 B** | **−229,993 B** | — |
 
-*(`PROME/tools/measure.py`; `read_cap_check --agent VULCAN` confirms 0 over cap, both boot reads under the 32,550 B budget.)*
+*(`PROME/tools/measure.py`, **re-measured at closeout**; `read_cap_check --agent VULCAN` confirms 0 over cap, both boot reads under budget.)*
+⚠️ **These figures replace the 17,095 / 20,446 pair an earlier draft of this memo carried.** Both were true when measured and false within the hour, because both surfaces were written to again afterwards. **A byte figure captured before the last edit is a stale receipt — the exact failure `measure.py`'s re-read-at-receipt-time semantics exist to prevent.** I caught it by re-measuring rather than by trusting the number I already had.
 
 **Rule 17 — the split measured the cost it chose.** Destinations are **OFF** the boot path (the dangerous branch), so obligations were enumerated before and after: **14 standing rules/watches kept on STATUS · 4 dated commitments re-homed to `docket/CATALYSTS.tsv` · 1 registered test left in `PREDICTIONS.tsv` · 0 stranded.** History went **verbatim + crc** to two archive files; **live per-channel evidence went to `CHANNEL_DETAIL.md`, a cold-but-LIVE surface, deliberately NOT an archive** — burying live evidence under a "do not cite as current" banner is the exact failure your brief warned three desks hit tonight.
 
@@ -83,7 +84,7 @@ RESULT: VULCAN-16 = MISS on its escape clause (DDR5 -0.12%, physical leg; "not-S
   "bloc/de-risking" claim survived at -0.97pp vs a 5pp band). The registered 8/27 post-close
   resolver reading NEVER EXISTED — brief premise corrected. GPU-rental instrument: recommend
   VULCAN owns it (case for WATT stated; PROME rules, not self-assigned). READ-CAP: SCRATCH
-  153,247 -> 17,095 B, STATUS 117,622 -> 20,446 B; both under budget, 0 stranded obligations.
+  153,247 -> 19,085 B, STATUS 117,622 -> 21,791 B; both under budget, 0 stranded obligations.
 DECISIONS NEEDED: (1) rule GPU-rental ownership; (2) DOCKET MU row -> 2026-09-30 confirmed;
   (3) HEARTBEAT §6 9/17-24 is superseded.
 RISKS: MU FQ4 prints AFTER the close on 2026-09-30 — VULCAN-02/-11/-12/-14 all resolve that
