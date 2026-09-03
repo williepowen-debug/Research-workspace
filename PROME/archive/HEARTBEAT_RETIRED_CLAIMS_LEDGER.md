@@ -23,3 +23,14 @@
 - **Metals:** *"gold cleared $4,340.70 by +4.34% on both bases"* [intraday-converged feed artifact; daily bars closed $51.80 apart — +3.165% GC=F / +4.359% GCZ26] · *"gold settled at $X" from a vendor* [no vendor settle exists; COMEX settles 13:30, the vendor bar is the last Globex trade].
 - **Kernel:** *"a DRAFT activation packet with `revoked_at: null` is live"* [five-leg test: dated non-DRAFT · authorized_by Will · inside the concrete UTC window · revoked_at empty · names you].
 - **Carried from 8/28–8/31 (still bind):** *"HEN-42 DENY = policy channel dead"* [alive] · *"$160B MF wall is Trepp's"* [sponsor quote by co-location; retires 9/4, HOMER publishes].
+
+## 2026-09-03 adds (Am.#3 morning + Am.#4 evening; the hot §Pointers cell is the binding set — this section makes its 9/3 items findable here)
+- *"MU FQ4 9/17–24"* / *"9/22"* — DEAD: issuer-confirmed 9/30 16:30 ET (VULCAN, Am.#3).
+- *"FT-10 0.77 below"* — WITHDRAWN: 0.23 through 9/2 on the CBOE basis (RED e7e6076c0); the 9/3 yfinance 150.63 is provisional, not a grade.
+- *"FT-10 fired"* / *"SKEW crossed 150"* — KILL: CBOE had no 9/3 row at 21:53Z (WALTER SIG-W-20260903-001); sustain is 4; ARMED 0-of-4.
+- *"9/8 = the Canadian auto date"* — KILL: autos sit under a pre-existing measure; 9/8 grades on instrument publication (MARCO c6dbc1bed).
+- *"$160B+ MF wall"* / *"MF wall +50% YoY"* — RETIRED 9/2 (HOMER 95a94ad7c; MBA 2026 all-type $875B, −9%).
+- *"BZX26 $95.22 / $95.15 = the 9/1 close"* — intraday prints; the 9/1 close is $94.65 (BRENT 12045c115).
+- *"D-16 −$882.10 open"* — RESOLVED 8/29 (FORGE activity view).
+- *"~$1,150 = the energy thesis total"* — WRONG LABEL: it is the duration-short total at the 8/28 mirror; energy = $6,899 at 9/3 12:20 (TERRY c8c58a363).
+- *"OPEC+ Sat 9/6"* — 2026-09-06 is a SUNDAY (ANVIL claim_check 9/3).
