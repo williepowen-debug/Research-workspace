@@ -44,3 +44,30 @@
 **P1 — dated, bands already fixed.** **Sat 9/5 grade Letter 1** (CRMT 9/4). **Fri 9/11 grade Letter 2** (CRMT 9/7) — **not before the 9/8 close, 9/7 is Labor Day.** Bands are frozen in RP-OTT-5.1; moving one after the fact is a retrofit. **Poll `docket_id:71483359` first, every session** for ENTRY.
 **P2 — dated.** **CARL's seasoning-basis answer** before his ≤9/10 sitting (doorbell PROME if dark by ~9/8). **Sep 20 OTTO-10 perimeter gate** — first item is the Experian impeachment. **~Oct 1 10-D cycle**, August collection month, first two-tier read after the CRMT decision.
 **P3 — undated.** PREDICTIONS_ARCHIVE post-mortems. `EDGAR_8K_MONITOR` refresh + first FLG check. Fix `predictions_due.py` to key on resolver EVENTS, not only dates — **this session is the second instance of the failure that fix addresses.**
+
+## OBLIGATION DIFF — the split check PROME asked for (ZHAO `1760582bd` failure mode)
+
+**The failure being tested for:** a split moves an owed action VERBATIM into the cold archive while the fresh hot list carries every *other* item forward, so a mostly-closed obligation reads as closed. A byte or line census cannot see this.
+
+**Method.** Recovered the pre-split `STATUS.md` at its own last commit (`015f977cc`, **69,591 B / 261 lines**, crc32 1335642049 — verified against the working copy taken before the split). Enumerated every open obligation in it, then tested each for reachability on a surface OTTO's boot **actually travels**: hot `STATUS.md` (step 1), `LAST_COMPLETION.md` (step 2), `MEMORY.md` (step 3), and `docket/CATALYSTS.tsv` + `thesis/PREDICTIONS.tsv` (steps 4-5 via `boot.py`). **Presence in `STATUS_COLD.md` counts as NOT reachable** — that is the whole point of the test.
+
+**Pass 1 — 20 hand-enumerated obligations:** **0 stranded.** 18 of 20 on hot STATUS, 19 of 20 on CATALYSTS, all 20 boot-reachable.
+
+**Pass 2 — the rigorous version, because a hand list can only find what I thought to look for.** Of 200 pre-split non-blank lines, **119 did not carry verbatim into hot STATUS** (cold-only or deliberately rewritten). **20 of those 119 carry obligation language** (`owed / unswept / next-check / escalate / poll / awaiting / must / state the / refresh / re-run / pending / due`). For each, extracted its discriminating identifiers (OTTO-NN ids, deal names, dates, filenames) and tested whether **every** one is absent from **all** boot-read surfaces.
+⇒ **NONE. Every obligation-bearing line that left hot STATUS is still reachable by at least one identifier on a surface the boot reads.**
+
+**Pass 3 — obligations CREATED tonight**, since a split can also fail by not registering the new ones: **9 of 9 land on at least three boot-read surfaces.** The two you named specifically — **the CARL seasoning-basis ASK** (STATUS timeline + CATALYSTS 9/9 row + LAST_COMPLETION + MEMORY) and **the SHELF_ACTIVITY disposition** (STATUS dashboard row naming the file + the file's own FROZEN/cadence banner + LAST_COMPLETION + MEMORY) — are both carried. Neither exists only in the archive.
+
+**BOOT-READ TOTAL, measured, session-start (`afebc5744`) → now:**
+
+| file | before | after | Δ | role |
+|---|---:|---:|---:|---|
+| `CLAUDE.md` | 38,379 | 38,379 | 0 | auto-loaded |
+| `STATUS.md` | **69,591** | **32,500** | **−37,091** | boot 1, read whole |
+| `LAST_COMPLETION.md` | 7,040 | 11,801 | +4,761 | boot 2, read whole |
+| `MEMORY.md` | 18,803 | 20,717 | +1,914 | boot 3, read whole |
+| **TOTAL** | **133,813** | **103,397** | **−30,416 (−22.7%)** | |
+
+⚠️ **Read the total honestly: STATUS gave up 37,091 B and the other two boot reads took 6,675 B of it back** — including this very check, which is itself ~4,700 B of new boot-read text. The net is still −22.7%, and `STATUS.md` alone went **214% → 100% of the 32,550 B per-surface budget** (`read_cap_check` rc **1 → 0**), but **the budget binds per surface, and two of the three surfaces grew tonight.** `LAST_COMPLETION` and `MEMORY` are at 36% and 64% of budget respectively, so there is headroom — but the direction is worth naming rather than hiding inside a favourable total. `[[finding_anti_ratchet_governs_state_not_prose]]`
+
+**One thing this check does NOT establish.** It proves each obligation is *reachable*, not that it is *prominent*. An item that moved from a STATUS narrative block to a CATALYSTS row is reachable by `boot.py` and will print in the countdown — but it no longer has prose around it explaining why it matters. **That is a real degradation and it is the cost of the split**, not a defect in it. The two most at risk are the **EART 2026-4 FWP escalate-or-retire** (now CATALYSTS-only on the hot side) and the **Bridgecrest 0.117% correction-propagation** (now carried by LAST_COMPLETION/MEMORY rather than the dashboard).
