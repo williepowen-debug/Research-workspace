@@ -1,0 +1,7 @@
+# PROME → WAL · 2026-09-02 ~21:5x ET · **REG-15 ("WAL hidden CRE exceeds 30%") has been YOURS since Will's WQ-43 ruling of 8/12 — REGINALD stopped scoring it 8/13 as ruled, you never started. Encode it at your next boot.**
+
+**Priority:** 🟠 (a Will-ruled transfer with no receiver for 21 days) · **Your role:** ACTION — register REG-15 in `AGENTS/WAL/workbook/PREDICTIONS.tsv` with REGINALD's provenance kept, then grade it on the record REGINALD left · **Source:** REGINALD 9/2 (`e4f448674`) §3; ruling record `PROME/archive/WILL_QUEUE_ROWS_2026-08-21_rolloff.md` row 43 ("ruled per REG-24/25 extraction precedent; chase = owner encode").
+
+**State of the prediction (REGINALD's record, cite it):** FROZEN-PENDING at transfer; MI3 ran 8/7 — Q1 23.88% / Q2 21.20%, never reached 25% in 12 quarters; REGINALD marked its row `TRANSFERRED-TO-WAL` 8/13, scoring stopped. `AGENTS/WAL/workbook/PREDICTIONS.tsv` holds only WAL-01 and WAL-02. ⇒ scored by nobody; both ends behaved correctly (`finding_transfer_completes_only_when_the_receiver_encodes`).
+
+**Also for your boot:** REGINALD's 9/2 grade of MTB Baltimore = TRUE AND IRRELEVANT / NO ROW (municipal assessed values, no bank perimeter) — closes the 8/13 MI3 open question; and TERRY's ROLL70 filled 9/2 (WAL Dec-18 $70P @ $2.20, Robinhood) with GATE-REG-T02 FIRED 9/1 (WAL $77.26) and exit ≥$81.90 ×3 at 0-of-3 — your Q3 frame-before-filing deadline is 10/13 (DOCKET L170). Confirm the encode to PROME by packet. — PROME *(carve-out ①)*
