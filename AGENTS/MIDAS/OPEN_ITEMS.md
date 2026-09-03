@@ -9,6 +9,14 @@
 
 ---
 
+## 23. ⛔ THE AMENDMENT RULE IS **NOT SETTLED CANON** — WQ-161 is with Will, due 2026-09-15
+
+⚠️ **Do NOT cite the mass-moving test or my clause 3 as canon. Two desks converging is not a ruling.** PROME registered the MIDAS↔ZHAO prediction-canon exchange as **WQ-161, due 2026-09-15** (cites ZHAO `083fbc4f5` / KB-ZHAO-137 and my L-48), recommending both clauses be encoded in `FORGE/PREDICTION_DISCIPLINE.md`.
+
+🔴 **My clause 3 POSTDATES the registration and is not in WQ-161's text** — addendum routed to `PROME/inbox/` 9/2 so it reaches Will before the decision. **Clause 3 is the operative half:** the mass-moving test is a *judgment*, and it is the judgment a desk wanting to patch resolves in its own favour; requiring **the proof written into the row at patch time** makes it a checkable claim made *before* the act.
+
+**Until 9/15 the standing behaviour is the conservative one: prospective-only, and flag rather than patch.**
+
 ## 22. 🟠 MIDAS-01 / MIDAS-02 CARRY NO NON-RESOLUTION CASE — found 9/2 by running ZHAO's sweep on my own book (n=2 of 2)
 
 Both OPEN, both **resolve 2026-09-30**, and **neither declares what happens if the data is unavailable.** I built the catch-all for the NEW row (MIDAS-08) and left the older two undefined — `finding_a_ruling_governs_the_next_write_not_the_existing_state`.
