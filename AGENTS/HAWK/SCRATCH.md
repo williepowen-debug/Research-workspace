@@ -1,75 +1,74 @@
-# HAWK SCRATCH — 2026-08-20 (Thu): checkpoint BUILT then CLOSED EARLY (Will-ruled) · HAW-19 twice repaired · MRPL test resolved · FALCON+OSPREY spawned
+# HAWK SCRATCH — 2026-09-02 (Wed): 11-day dark window closed · 53 items drained · MIDAS PGM answered (5th asking) · war_monitor fixed fail-loud · HAW-21 pre-registered · STATUS split hot/cold
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (step 2), rewritten in full at closeout (step 14). Disposable. Persistent learnings → `MEMORY.md` / `LESSONS.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
-## CHANGES SINCE LAST SESSION (8/15 → 8/20)
+## CHANGES SINCE LAST SESSION (8/22 → 9/2, ELEVEN DAYS DARK)
 
-- **5-day gap — and the WHOLE WAR TRIAD was dark.** OSPREY's and FALCON's `NEXUS_BRIEF.md` are both still stamped 8/15 ~15:xx ET. My synthesis inputs are 5 days old and every cross-war read now says so explicitly.
-- **~8/24 CHECKPOINT: BUILT, THEN CLOSED EARLY THE SAME DAY.** (a) `thesis/FALSIFICATION.md` (new). (b) `HAW-19` + `HAW-20`. **Book 0 OPEN → 2 OPEN.** I did not declare it closed; **Will ruled it closed EARLY on his verbatim word — CONDITIONS-MET, so the 8/15 conditional is DISCHARGED, not waived** (record `inbox/processed/2026-08-20_from-PROME_sunset-checkpoint-CLOSED-EARLY...`, commit `1f74f4516`, verified at the artifact before encoding).
-- **`FLOW-HAWK-19` RE-CUT #2** — folded in four evidence legs that had moved since the 7/25 stamp (BRENT's 8/2 Ras Laffan retraction, its 8/3 DEFERRED qualifier, FALCON's 7/30 gas-shock scope, my own 8/15 TRANSIT/LOADING split) plus the 8/12 capability-independent CPC discrimination. **`FLOW-HAWK-20` first-test stamped** — it had read "untested" for 23 days while its own live test had already run and the pathway lost (Ras Laffan FM → no Taipower rationing).
-- **🔴 TWO BAND-SCORING DEFECTS FOUND ON MY OWN BOOK** — `TWN-01` and `FININFRA-01` are both marked 🟠 ORANGE above the conditions their own Orange bands state. Found by writing the gates as explicit "band X → band Y" transitions, i.e. by using the 7/28 TWN-01 lesson's prescribed fix **as a detector**. **Flagged to PROME/Will, NOT re-marked.**
-- **STANDING INSTRUMENT RULING: the Hormuz transit-count family is IMPEACHED and inadmissible** as a falsifier basis for this desk (BRENT internal + Windward ~58%-dark; six readings 0-12 for adjacent days, zero comparable pairs). `HAW-19` LEG B uses CENTCOM's adjudicated disabled/boarded counts instead.
-- **Absorbed from the dark window: the US-Iran MOU expired by term 8/17**, no deal, no extension. Cost `HAW-19` ~15 points of confidence, and it **raises the ~9/8 falsification bar while killing one of the coupling account's discriminators in the same event.**
-- **Closeout 13a executed** (skipped on 8/15) — `CROSS_THEATER_WAR_RISK.md` re-stamped 8/20, no-change pass, both legs now **+29d/+30d** against a 10-day bar.
-- **🔴 `HAW-19` TOOK TWO IN-SESSION REGISTRATION REPAIRS ON ITS FIRST DAY, both found by other desks reading artifacts I had not.** **(i) LEG A(iii)(γ)** named "Kpler **OR** Vortexa" as interchangeable — BRENT's 8/17 discriminator (committed inside my dark window) shows a **2.8× spread** on one asset-week over ~100%-dark cargo. Now requires **BOTH, agreeing within 1.5×**, divergence → NO-VERDICT. **(ii) LEG B** paired a **blockade-wide numerator** with a **route-specific denominator** — the perimeter twin of the stock-vs-flow rule I had used *that same morning* to delete the vessel leg. Now grades on **named, dated, water-body-attributed events in a stated corridor set**. Confidence held at 70% both times: resolvability repairs, not confidence events.
-- **✅ MRPL CLAUSE TEST RESOLVED 8/20, four days early** — zero further adopters, count remains ONE; **HPCL declined the clause in a joint 8/12 tender with MRPL** (matched control). **But MRPL repeated it** ⇒ **persisting, not spreading.** The test measured BREADTH; DURABILITY moved and it was blind to that. **Forward durability test OWED.** `KB-HAWK-274/275`.
-- **FALCON and OSPREY SPAWNED** as named persistent desks on Will's direct word (I declined PROME's relayed "Will-directed" and waited). Both running; deliveries pending.
-- **Tankage instrument CLASSIFIED UNREACHABLE** (WALTER): the satellite/floating-roof-analytics class is **paid and proprietary**, i.e. genuinely-unavailable-to-this-fleet, **not** public-and-unfetched. `KB-HAWK-272` stays at ASSUMPTION as its **correct terminal state**, not as a placeholder for effort I owe.
-- New KB rows: **`KB-HAWK-267..275`**.
+- **PROME-spawned dark-owner drain, Tier 1.** Will's word 19:37 ET. **53 mail items** waited: **18 root + 35 WALTER**, oldest 8/15.
+- **🔑 THE PGM INSTRUMENT ASK IS ANSWERED, 5th asking, as ONE reply to four packets.** The lasting output is not the negative — it is that **MIDAS's own Pt/Pd spread is a COUNTRY DISCRIMINATOR** (SA ~70% of Pt vs Russia ~10%; Russia ~40% of Pd) ⇒ **an SA event is Pt-led, a Russia event is Pd-led with Pt flat**, and MIDAS's 8/28 tape (Pd +4.03σ, **Pt +0.125% not clearing**) **rules South Africa out**. Its 8/04 event splits the OTHER way, which **puts its own n=3 same-pattern premise in question**. Also found a **dated in-window corporate item its sweep called clean** (Northam/Valterra 8/25, suitor named 8/28) that **fails the direction test** — strengthening its disposition rather than breaking it.
+- **✅ DOCKET L202 CLOSED — `war_monitor.py` fixed fail-loud, 9 days past its 8/24 window.** Reuters re-verified DEAD from this box; replaced with Al Jazeera (200/16,957 B). Declared source registry, `reached N/M` every run with each dead source named, **partial coverage suppresses the interpretation entirely**, `--save` gated, rc=2 on partial, `--selftest` added. **Guard falsification-tested:** 5/6 → DEAD printed, read suppressed, write REFUSED, `SCENARIO_HISTORY.tsv` verified byte-unchanged.
+- **✅ `HAW-21` REGISTERED — the 9/8 Canadian read, PRE-REGISTERED SIX DAYS EARLY.** 65%, resolves 9/15, anchor **SOVEREIGN-MOVABLE**. Book **2 OPEN → 3 OPEN**. Artifact: `thesis/2026-09-02_CANADA_9-8_PREREGISTERED_READ.md`.
+- **🔴 REGISTERING IT SURFACED THREE WRONG FLEET FIGURES AT THE CANADIAN SOVEREIGN PRIMARY** (Dept of Finance, canada.ca, pulled 9/2): the **derived-date caveat on DOCKET L225/L234 is DISCHARGED** (*"12:01 a.m., September 8, 2026"* verbatim); **"~$28B" → $27.6B and it is CAD**; **"dollar for dollar" is THREE mirror-matched tiers (15/25/50), not one rate.** Plus the `$25B` resolves: **$25B = cumulative prior support, $7.5B = the new package, neither is tariff value.**
+- **🎯 PERIMETER FINDING, and it is mine not MARCO's:** Canada draws from **§338 AND §232**; the US §338 action **carves §232 out** ⇒ **nearly complementary on the most contested segment.** *"Autos are at 0% in this dispute"* is a fact about **one direction of one action** and will mis-size the 9/8 leg.
+- **✅ READ-CAP REMEDIED — `read_cap_check.py --agent HAWK` now returns `READ-CAP 0`.** `STATUS.md` **46,360 → 32,492 B** via a hot/cold split (8/22 §2/§5b/§7/§8 moved **verbatim, crc32-verified**, to `STATUS_COLD.md`, not boot-read, pointers both ways). `thesis/PREDICTIONS.tsv` (69 KB, **128% of cap**) taken out of the whole-read perimeter by **rewriting boot step 6 to state what is actually read** — two scoped slices, with commands. That is a correct protocol statement, not a workaround; the rows are the permanent calibration record and are not compressible.
+- **KB rows `KB-HAWK-292..299`** · **53 `board_log.tsv` disposition rows** (16 acted / 23 noted / 12 info-only / 2 deferred).
+- **VX.tsv carries a GRADING-DECLARATION header:** this book is **eyeball-graded by design**; `boot.py` re-wiring **REFUSED for cause** (it is the same dead-instrument class `war_monitor.py` was, and the real control is writing gates as explicit band→band transitions, which is what caught D1/D2).
 
 ## WHAT I DID THIS SESSION
 
-1. Registered **`HAW-19`** (70%, IMMOVABLE 9/30) and **`HAW-20`** (65%, IMMOVABLE 10/31) with NO-VERDICT bands, pre-registered non-fires, named instruments, and dated-search-attempt preconditions. Re-totaled the stale scoreboard preamble **without overwriting** the 7/12 line.
-2. Wrote **`thesis/FALSIFICATION.md`** — the successor falsification surface (§1 FLOW-19 kill criteria K1-K4 · §2 FLOW-20 fire criteria · §3 transit decomposition + instrument ruling · §4 per-row dormant gates as band transitions · §5 coupling ladder + the answer to WALTER's 9/8 ask · §7 what it still does NOT cover).
-3. Re-cut `FLOW-HAWK-19`, stamped `FLOW-HAWK-20`, both in `workbook/FLOW.tsv`.
-4. Logged `KB-HAWK-267..270`; compressed STATUS §2/§4/§5/§5b and updated §1/§6/§7/BOTTOM LINE; refreshed `NEXUS_BRIEF.md` with an **external** verification anchor (`PROME/GATES.tsv`/HEARTBEAT) replacing the brief-equals-STATUS check that certified the R3 error on 8/15.
-5. Answered PROME's `catalyst_countdown.py:168` ask: **DISPLAYS, not a gate** — and it is a frozen dead instrument besides.
-6. Four outbox packets: **OSPREY+FALCON** (vessel-leg deviation, objection invited), **BRENT** (KILL-LEG2-TRANSIT is not a cross-check + a CENTCOM-freshness ask), **PROME** (checkpoint built + line-168 + the two band defects + ruled-batch status), **WALTER** (the 9/8 answer).
-7. **Did NOT touch:** the ruled batch items ①②③④⑤ (basis-pair audit still ranks first among cross-desk work), the shadow-fleet enforcement lane, the Marsh primary.
+1. Answered MIDAS (packet to its inbox), covering all four asks with three named, **live-probed** pull paths (Eskom GetStatus 200/1 B forward-only-no-history · Eskom dataportal 200/130,880 B a BUILD · OFAC Recent Actions 200/44,755 B, and its RSS 404s — do not wire it).
+2. Fixed and falsification-tested `scripts/war_monitor.py`; banner-declared its D/C/B constants FROZEN pre-split.
+3. Wrote the 9/8 pre-registered read; registered `HAW-21`; pulled both canada.ca primaries.
+4. Drained both inbox lanes; 51 files `git mv`'d to `processed/`.
+5. Split `STATUS.md` hot/cold; rewrote the hot half; rescoped boot step 6; refreshed `NEXUS_BRIEF.md`.
+6. Packets out: **MIDAS** (PGM), **MARCO** (three figures + perimeter + the line-list route), **ZHAO** (default-branch framing for 11/10), **PROME** (completion).
+7. **Did NOT touch:** the ruled batch ①②③④⑤, the shadow-fleet enforcement lane, the Marsh primary, `CROSS_WAR_SUMMARY.md`/`CROSS_THEATER_WAR_RISK.md` (closeout 13/13a).
 
 ## NEXT SESSION (dated, future-verifiable)
 
 **A · DO FIRST**
-1. 🔴 **⑤ REFINING-OFFLINE BASIS-PAIR AUDIT — I convene, and it is now BLOCKING ANOTHER DESK WITH AN ARMED CHECK ON IT.** **OSPREY's band move is frozen behind this** (PROME ruling 8/20, conflict ②: approved-in-principle, deferred-in-execution, moves by RE-PRESENTATION on the audited basis). PROME has flagged it as HAWK's **must-lead** item. ⚠️ **AND OSPREY HAS ARMED A RUNNABLE TEST AGAINST MY FAILURE, AT MY OWN REQUEST — a future HAWK session should not be surprised by it.** Registered in `AGENTS/OSPREY/SCRATCH.md` as three commands with a pass/fail: (1) does an audit artifact exist in `AGENTS/HAWK/` dated after 2026-08-20; (2) if NO artifact **AND** HAWK has committed to `AGENTS/HAWK/` since 8/20 — i.e. **ran a session and did not deliver** — the condition has occurred; (3) OSPREY then reports it **to HAWK, to PROME, and in its own STATUS — publicly, by my explicit ask.** **It clears when the audit exists AND OSPREY has re-presented the band on its basis.** I asked for this precisely because a self-reported bottleneck never gets reported; it is not a threat and it is not to be argued with — **deliver the audit.** Output = a one-page basis-reconciliation table (measure · unit · denominator · what "offline" means per desk). Inputs are now IN HAND from both desks' 8/20 deliveries. Ruled 8/17, runs FIRST among cross-desk items, and **OSPREY's band re-centre is DEFERRED behind it** — my output unlocks their work. Output = a one-page basis-reconciliation table (measure · unit · denominator · what "offline" means per desk).
-2. **~8/17 CPC rung — now days overdue.** Needs OSPREY's **direct** CPC-status check; absence-of-report is not a sourced negative.
-3. **~8/24 MRPL clause adoption test** — 24 days unchecked, and it is the discriminator for branch (c) turning STRUCTURAL. The most under-maintained instrument I own.
-4. **② GUARD COLUMN INTO `VX.tsv` — RULED, DRAFTED, AND THE LEDGER NUDGE IS NOW POINTING AT IT.** Content exists at `FALSIFICATION.md` §4 (CLOCK/EVENT + a named watch source for all 10 rows); **the column does not exist in `VX.tsv`.** Grep confirms 0 hits for `Guard` in the header. **SAY-WHY-NOT, per the nudge's own third option, recorded rather than silenced:** `VX.tsv` **did** move today (D1/D2 demotions, Will-ruled) and **no other vector changed state**; the dormant clock is 2026-09-24. So the 5-STATUS-writes-behind count is measuring **this session's STATUS churn, not VX staleness** — OSPREY's event-driven-vs-rotting distinction, which it routed to PROME as a first-day field report. ⚠️ **But the Guard column IS genuinely owed and is a SCHEMA change, not a row edit** — it belongs with the ⑤/② batch next session, not squeezed into the tail of a long one. **Do not touch `VX.tsv` merely to clear the flag; that is the lie the file exists to prevent.**
+1. 🔴 **⑤ REFINING-OFFLINE BASIS-PAIR AUDIT — NOW THREE SESSIONS OVERDUE AND STILL BLOCKING OSPREY.** Will-ruled 8/17. **OSPREY's band re-centre is frozen behind it** and **OSPREY has an ARMED PUBLIC TEST against my failure — at my own explicit request** (registered in `AGENTS/OSPREY/SCRATCH.md` as three commands: does an audit artifact dated after 8/20 exist in `AGENTS/HAWK/`; if NO **and** HAWK has committed since 8/20 — i.e. **ran a session and did not deliver** — the condition has occurred, and OSPREY reports it to HAWK, to PROME **and in its own STATUS**). ⚠️ **I HAVE NOW COMMITTED TWICE SINCE 8/20 WITHOUT DELIVERING IT, SO THAT TEST HAS FIRED AND WILL FIRE AGAIN. It is not to be argued with — deliver the audit.** Inputs are IN HAND from both desks' 8/20 deliveries. Output = a one-page basis-reconciliation table (measure · unit · denominator · what "offline" means per desk). **This is the single highest-priority item on this desk and it outranks everything below.**
+2. 🔴 **④ VESSEL/STRIKE COUNTING DICTIONARY — ruled 8/17, and tonight took it to n=3 across three different naming authorities** (`KB-HAWK-294/297`). HAWK drafts; OSPREY + FALCON confirm. Classes: total loss · damaged-not-lost · strike event · claimed-unverified, each desk stating which it counts and why. **Evidence is now embarrassing rather than thin.**
+3. **② `VX.tsv` GUARD COLUMN** — content exists at `FALSIFICATION.md` §4 for all 10 rows; the COLUMN does not exist. **A SCHEMA change, not a row edit.** Do it with ⑤/④, not squeezed into a tail.
+4. **① FILES-table reconciliation vs an actual directory listing** — and `STATUS_COLD.md` is a **new file added tonight**, so the maintenance rule fires: it has a FILES row already, verify nothing else is unlisted.
 
-**B · AWAITING**
-5. ✅ **D1/D2 RULED AND EXECUTED 8/20** — Will's verbatim *"5 lower both marks to yellow"*; `TWN-01` and `FININFRA-01` both 🟠→🟡, **bands unmoved**. Consumer check run: **no live external consumer** carries either mark (all external refs are 7/28 packets already in `inbox/processed/`). **Both of this desk's pending rulings are now closed.**
-6. **Sibling objection on the deleted vessel leg** — `HAW-19` is registered, not settled.
-7. **"Kharg blockade lane" naming** — flagged since 8/15, unresolved.
-8. ✅ **FALCON + OSPREY BOTH DELIVERED AND WENT IDLE.** Both attacked `HAW-19` as asked and **both landed hits**. **`HAW-19` took FOUR structural repairs on its first day** — vessel leg (mine, at registration), LEG B perimeter (WALTER), γ absence-as-evidence (both desks; FALCON's known-positive control), and **the unit-of-analysis defect (OSPREY), which refuted a reachability claim I had ALREADY PUBLISHED.** Confidence held at 70% through all four — each was a resolvability repair or had no establishable net sign. **OSPREY:** OSP-05 FAILED 0-of-2 w/ pre-registered re-open trigger, R3 ruled resolvability-defective, CPC rung graded, two conflicts routed to PROME. **FALCON:** FAL-04 PARTIALLY, Kharg 25-day halt surfaced, its own Kharg veto failed a known-positive control, GATE-TERRY-006 retired. **FAL-05 owed (FALCON's).** All sibling commits verified on origin by `--contains`, not by a push receipt.
+**B · DATED**
+5. **~2026-09-08 (Tue) — `HAW-21` event.** ⚠️ **Grade the INSTRUMENT, never the press.** Pull (1) canada.ca Dept of Finance, (2) Canada Gazette Part II, (3) a CBSA customs notice. **Resolves 9/15.**
+6. **~2026-09-09 — September STEO.** Grade Rule N6 on 2027-Q2 (bar: 2.38 OPEC / 2.35 ME). DECAY vs EXTENSION.
+7. **~end-September — Qatar LNG force-majeure extension decision** (`KB-HAWK-299`), inside the lengthened no-absorber window.
+8. **2026-09-24 — dormant clock.** ⚠️ **`VX-HAWK-TRADE-02` band-text RE-CUT IS DATED HERE** — its limbs separated 8/22 and `HAW-21` adds a third (foreign retaliation) the text does not contain. **Do NOT re-cut it earlier just because a row might fire; that is the D1/D2 defect with a friendlier face.**
+9. **`HAW-19` resolves 9/30 · `HAW-21` 9/15 · `HAW-20` 10/31.**
 
-**C · STANDING**
-9. **~9/9 September STEO** — grade the N6 decay/extension branches on 2027-Q2 (bar: 2.38 OPEC / 2.35 ME).
-10. **~9/8 written/institutional artifact** — the only rung that can falsify the coupling account, and the bar just moved (§5a).
-11. **`HAW-19` resolves 9/30 · `HAW-20` resolves 10/31.** Dormant clock **9/24**.
-12. **SUMED/Sidi Kerir concentration watch** — a chokepoint substituted, not removed.
+**C · OWED, NOT DATED**
+10. **DAEDALUS 8/15 actions 3 + 4 — STILL OWED, FIFTH SKIP.** (3) mechanize-or-demote: a boot check comparing `CROSS_WAR_SUMMARY.md` `Regenerated:` and `CROSS_THEATER_WAR_RISK.md` `Refreshed:` against the siblings' last-commit dates, **failing loud**. (4) propagate `KB-HAWK-238` into `CLAUDE.md` SYNTHESIS DISCIPLINE. ⚠️ **The 100% skip rate on the remembered ritual IS the case for mechanizing it, and I have now skipped it a fifth time — which is the argument, not an excuse.**
+11. **Closeout 13 + 13a NOT RUN THIS SESSION** — `CROSS_WAR_SUMMARY.md` and `CROSS_THEATER_WAR_RISK.md` unrefreshed. **Both war-risk legs now +42d/+43d against a 10-day bar.** See item 10: this is the sixth instance and the reason the mechanism is owed.
+12. **Shadow-fleet ENFORCEMENT lane unbuilt** on a dead instrument (`sanctions_tracker.py`). **MIDAS is now the SECOND desk to hit this hole** — that raises its rank.
+13. **Forward MRPL DURABILITY test** — owed since 8/20; bar: does the clause survive a materially *safer* transit read?
 
 ## OPEN THREADS / WATCHES
 
-- 🔴 **Both war-risk legs dark, +29d/+30d against a 10-day bar; Marsh primary unfetched 30 days** (one named individual carrying both the premium and the capacity arithmetic, 403 at both mirrors).
-- 🔴 **Section 338 (Canada +50%) went live 8/19 inside the dark window** — unconfirmed at primary; autos in-or-out of the annex still unresolved.
-- 🟠 **`KB.tsv` has 10 pre-existing ragged rows** (12/14 fields vs a 13-field schema, historical rows 42-94). Mine are correct; flagged, not rewritten.
-- 🟠 **STATUS is 141 lines vs my own ≤120 cap** (down from 153). ⚠️ **The cap measures the wrong dimension** — this file is long single-line paragraphs, so cutting four sections hard moved the line count ~12. Same shape as the 8/3 `MEMORY.md` lines-vs-bytes finding. Raised with PROME; not changed unilaterally.
-- 🟡 **Shadow-fleet ENFORCEMENT lane still unbuilt** on a dead instrument.
-- 🟡 **Replenishment-trigger gap (VIOLET's generalisable half) applies to me**: my dormant re-sweep clock is CLOCK-based, not content-based, and fired 6 days late on 8/10. No boot-time non-empty-forward-set check exists. Logged as owed, not claimed as done.
-- ✅ Closed this session: checkpoint conditions (a) and (b) · FLOW-19 re-cut · FLOW-20 first-test stamp · closeout 13a · PROME's line-168 ask.
+- 🔴 **`HAW-19` LEG A structurally unfireable** (A.3 ≥45d > window). Deliberately unpatched; **disposition is Will's** — `thesis/HAW-19_CONSOLIDATION.md` §3.
+- 🔴 **Both war-risk premium legs dark, +42d/+43d; Marsh primary unfetched 42 days.** 🆕 **Partially mitigated: the JWC Risk List is a live dated instrument** (`KB-HAWK-296`) — ⚠️ **but a LISTING is a PERIMETER and a PREMIUM is a PRICE; it does not close the gap, it only stops the lane being blind between prints.**
+- 🟠 **`VX-HAWK-SULPHUR-01` is RED on a ~5-month-stale March number with no live acid feed** (DAEDALUS 8/28, accepted as a finding not fixed). FIXED-ON-DRIFTING.
+- 🟠 **`KB.tsv` has 10 pre-existing ragged rows** (12/14 fields vs 13, historical rows 42-94). Mine are correct; flagged, not rewritten.
+- 🟡 **Two packets deliberately LEFT IN THE INBOX** (DAEDALUS 8/15, PROME 8/17 spec batch) — both carry unexecuted owed actions, and moving them to `processed/` would falsely clear them. Disposition `deferred` is recorded in `board_log.tsv`.
+- 🟡 **Replenishment-trigger gap still applies:** the dormant re-sweep clock is CLOCK-based, not content-based. No boot-time non-empty-forward-set check exists.
+- ✅ Closed this session: MIDAS PGM ask (4 packets) · DOCKET L202 · read-cap 🔴/🟠 · ORACLE retraction (NO-OP, verified) · the 8/22→9/8 catalyst handoff.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 
-- **`HAW-19`** OPEN, 70%, resolves **2026-09-30** (IMMOVABLE). **`HAW-20`** OPEN, 65%, resolves **2026-10-31** (IMMOVABLE). Neither is due before the next session.
-- **At Will/PROME:** the checkpoint close itself · D1/D2 · Kharg naming · direct-drop authorization.
+- **`HAW-21`** OPEN, 65%, resolves **2026-09-15** — **the only one due before the next likely session.**
+- **`HAW-19`** OPEN, 70%, **2026-09-30** (IMMOVABLE) · **`HAW-20`** OPEN, 65%, **2026-10-31** (IMMOVABLE).
+- **At Will/PROME:** the `HAW-19` LEG A disposition (three options at `HAW-19_CONSOLIDATION.md` §3, rec = (b)) · direct-drop authorization · the three DOCKET figure corrections routed tonight.
 
-## MAIL STATE (one line per surface)
+## MAIL STATE
 
-- **Inbox (root): 4 PENDING** — DAEDALUS 8/15 (7 actions; #1 and #2 executed this session, #3-#7 owed), DAEDALUS 8/17 (SFG sweep: `feeds.reuters.com` DEAD and `war_monitor.py` hides it), PROME 8/17 (ruled batch), PROME 8/18 (line-168 — **answered**, packet out). **None moved to `processed/`** — I read them for the checkpoint work but did not run a full disposition pass, so `board_log.tsv` has no rows for them. Deliberate, and it is the next inbox session's job.
-- **WALTER lane: 12 PENDING.** Headline-scanned at boot per `LESSONS.md` 7/25; **three consumed in depth** (`-20260818-001` MOU expiry, `-20260817-004` + `-20260819-011` Hormuz instruments) and recorded at `KB-HAWK-269`/`-270`. The other nine are read-not-consumed — SPR (×4), diesel/gasoline cracks (×2), Jazan 4th-strike miscount, IRGC war-planning cable, Bloomberg ECAN.
-- **Outbox: 4 written 8/20**, none delivered — OSPREY+FALCON, BRENT, PROME, WALTER.
+- **Inbox (root): 2 PENDING, both DELIBERATE** — DAEDALUS 8/15 (actions 3+4) and PROME 8/17 (ruled batch ①②③④⑤). Kept in the inbox precisely because they are unexecuted.
+- **WALTER lane: 0 pending.** All 35 dispositioned and moved.
+- **Outbox/packets this session: 4** — MIDAS, MARCO, ZHAO (all direct-dropped into recipient inboxes, carve-out ①), PROME (`PROME/inbox/`).
 
 ## PENDING PUSH / GIT
 
-- Session edits: `STATUS.md`, `SCRATCH.md`, `NEXUS_BRIEF.md`, `thesis/FALSIFICATION.md` (new), `thesis/PREDICTIONS.tsv`, `workbook/FLOW.tsv`, `workbook/KB.tsv`, `domain/war-risk/CROSS_THEATER_WAR_RISK.md`, `outbox/` ×4. Pathspec-scoped to `AGENTS/HAWK/`.
+- Session edits: `STATUS.md`, `STATUS_COLD.md` (new), `SCRATCH.md`, `NEXUS_BRIEF.md`, `CLAUDE.md`, `board_log.tsv`, `workbook/KB.tsv`, `workbook/VX.tsv`, `thesis/PREDICTIONS.tsv`, `thesis/2026-09-02_CANADA_9-8_PREREGISTERED_READ.md` (new), `scripts/war_monitor.py`, `outbox/` + 51 inbox `git mv`s, plus 3 self-authored packets in other desks' inboxes (carve-out ①).

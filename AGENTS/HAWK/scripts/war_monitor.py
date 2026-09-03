@@ -1,13 +1,37 @@
 #!/usr/bin/env python3
 """
-HAWK War Monitor — Daily War Developments & Scenario Tracker
+HAWK War Monitor — news-scan wrapper with FAIL-LOUD source accounting.
 
-Performs web search for latest Iran war news and outputs signal summary
-with scenario probability shifts (D/B/C framework).
+⚠️ SCOPE BANNER (2026-09-02): the D/C/B SCENARIO_BASELINE constants below are
+   FROZEN pre-split (2026-07-12) Iran-scenario content. HAWK does NOT own the
+   Iran/Gulf theater — FALCON does (AGENTS/FALCON/). The scenario block is a
+   historical artifact retained for shape only; DO NOT cite its percentages as
+   a live HAWK read. What this script is good for after 2026-09-02 is the ONE
+   thing it now does honestly: report how much of its declared source set it
+   actually reached.
+
+🔴 FAIL-LOUD CONTRACT (added 2026-09-02, DOCKET L202 / DAEDALUS SFG sweep 8/17):
+   1. Every source is declared in NEWS_SOURCES. Nothing is fetched off-registry.
+   2. Every scan prints `reached N/M` and names every DEAD source with its error.
+   3. Partial coverage SUPPRESSES the interpretation line. A partial scan may
+      not render as "status quo holding" — that was the original defect: a bare
+      `except: return []` made a dead feed byte-identical to a quiet world.
+   4. `--save` is GATED on full coverage. An outage may never write the baseline
+      scenario into SCENARIO_HISTORY.tsv as `auto_scan` — that write is permanent.
+   5. Exit code: 0 only on full coverage; 2 on any partial/zero coverage.
+   6. `--selftest` injects a guaranteed-dead source to prove the guard fires
+      (CHECK_STANDARD §3 / [[finding_test_the_guard_not_just_the_guarded]]).
+
+   Source removed 2026-09-02: `http://feeds.reuters.com/reuters/worldnews` —
+   live-verified DEAD (URLError Errno -2, name does not resolve) on 2026-08-17
+   by DAEDALUS and re-verified DEAD from this box 2026-09-02 19:4x ET.
+   Replacement `https://www.aljazeera.com/xml/rss/all.xml` verified HTTP 200 /
+   16,957 B same run.
 
 Usage:
-  .venv/bin/python3 AGENTS/HAWK/scripts/war_monitor.py
-  .venv/bin/python3 AGENTS/HAWK/scripts/war_monitor.py --save    # write to workbook
+  python3 AGENTS/HAWK/scripts/war_monitor.py
+  python3 AGENTS/HAWK/scripts/war_monitor.py --save      # gated on full coverage
+  python3 AGENTS/HAWK/scripts/war_monitor.py --selftest  # prove the guard fires
 """
 
 import sys
@@ -20,154 +44,111 @@ HAWK_DIR = Path(__file__).resolve().parent.parent
 WORKBOOK = HAWK_DIR / "workbook"
 WORKBOOK.mkdir(exist_ok=True)
 
-# Current scenario baseline
+# ⚠️ FROZEN pre-split constants — historical shape only, NOT a live HAWK read.
 SCENARIO_BASELINE = {"D": 82, "C": 12, "B": 6}
+
+# 🔴 THE DECLARED SOURCE SET. Coverage is measured against this list and nothing
+#    else. Adding a source here without verifying it live is the defect this
+#    registry exists to prevent — probe it, then add it.
+NEWS_SOURCES = [
+    ("GoogleNews:Israel-Iran", "query", "Israel Iran war"),
+    ("GoogleNews:Houthi-RedSea", "query", "Houthi Red Sea"),
+    ("GoogleNews:Hormuz", "query", "Hormuz Strait"),
+    ("BBC-World", "rss", "http://feeds.bbci.co.uk/news/world/rss.xml"),
+    ("AlJazeera-All", "rss", "https://www.aljazeera.com/xml/rss/all.xml"),
+]
+
+# Injected only by --selftest, to prove the partial-coverage guard actually fires.
+SELFTEST_DEAD_SOURCE = (
+    "SELFTEST-DEAD", "rss", "http://feeds.reuters.com/reuters/worldnews")
 CEASEFIRE_START = datetime(2026, 4, 12).date()
 
 
-def run_web_search(query, limit=5):
-    """Run web_search using Google News RSS feeds.
-    
-    Returns search results or empty string on error.
-    Handles API errors gracefully with timeout protection.
+def _fetch(url, timeout=12):
+    """Raw fetch. Returns (ok, bytes_or_None, err_str). NEVER swallows silently."""
+    import urllib.request, urllib.error, ssl
+    try:
+        ctx = ssl.create_default_context()
+        req = urllib.request.Request(
+            url, headers={"User-Agent": "Mozilla/5.0 (compatible; HAWK/1.0; +research)"})
+        with urllib.request.urlopen(req, timeout=timeout, context=ctx) as r:
+            data = r.read()
+            if not data:
+                return False, None, f"HTTP {r.status} but ZERO bytes"
+            return True, data, ""
+    except Exception as e:
+        return False, None, f"{type(e).__name__}: {str(e)[:110]}"
+
+
+def _parse_rss(xml_bytes, limit=5):
+    """Parse RSS items. Returns (ok, [lines], err_str)."""
+    import re
+    from xml.etree import ElementTree as ET
+    try:
+        root = ET.fromstring(xml_bytes.decode("utf-8", errors="ignore"))
+    except Exception as e:
+        return False, [], f"XML parse failed: {type(e).__name__}"
+    items = root.findall(".//item")
+    if not items:
+        return False, [], "parsed OK but ZERO <item> elements (feed shape changed?)"
+    out = []
+    for item in items[:limit]:
+        title = item.find("title")
+        desc = item.find("description")
+        t = title.text if title is not None else ""
+        d = desc.text if desc is not None else ""
+        if d:
+            d = re.sub(r"<[^>]+>", " ", d)
+            d = re.sub(r"\s+", " ", d).strip()
+        if t:
+            out.append(f"{t}: {d[:150]}" if d else t)
+    if not out:
+        return False, [], "items present but none carried a title"
+    return True, out, ""
+
+
+def probe_source(name, kind, target, limit=5):
+    """Fetch ONE declared source. Returns (name, ok, text, err).
+
+    A source counts as REACHED only if it returned parseable, non-empty content.
+    HTTP 200 with an empty body, a shape change, or a parse failure all count as
+    NOT REACHED and are named in the output — a 200 is not evidence of coverage.
     """
-    try:
-        import urllib.request
-        import urllib.parse
-        import ssl
-        import re
-        from xml.etree import ElementTree as ET
-        
-        # Use Google News RSS feed
-        encoded_query = urllib.parse.quote(query)
-        url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
-        
-        ctx = ssl.create_default_context()
-        req = urllib.request.Request(
-            url,
-            headers={
-                'User-Agent': 'Mozilla/5.0 (compatible; HAWK/1.0; +research)'
-            }
-        )
-        
-        with urllib.request.urlopen(req, timeout=10, context=ctx) as response:
-            xml_data = response.read().decode('utf-8', errors='ignore')
-            
-            # Parse RSS XML
-            root = ET.fromstring(xml_data)
-            
-            # Find all items
-            items = root.findall('.//item')
-            
-            results = []
-            for item in items[:limit]:
-                title = item.find('title')
-                description = item.find('description')
-                pub_date = item.find('pubDate')
-                
-                title_text = title.text if title is not None else ""
-                desc_text = description.text if description is not None else ""
-                
-                # Clean HTML from description
-                if desc_text:
-                    desc_text = re.sub(r'<[^>]+>', ' ', desc_text)
-                    desc_text = re.sub(r'\s+', ' ', desc_text).strip()
-                
-                if title_text:
-                    results.append(f"{title_text}: {desc_text[:150]}" if desc_text else title_text)
-            
-            if results:
-                return f"Search: {query}\n" + "\n".join(f"- {r}" for r in results)
-            
-            return ""
-    except urllib.error.URLError:
-        return ""
-    except Exception:
-        return ""
+    import urllib.parse
+    if kind == "query":
+        url = ("https://news.google.com/rss/search?q="
+               + urllib.parse.quote(target) + "&hl=en-US&gl=US&ceid=US:en")
+    else:
+        url = target
+    ok, data, err = _fetch(url)
+    if not ok:
+        return name, False, "", err
+    ok, lines, err = _parse_rss(data, limit=limit)
+    if not ok:
+        return name, False, "", err
+    return name, True, "\n".join(f"- {l}" for l in lines), ""
 
 
-def fetch_rss_feed(url, limit=5):
-    """Fetch and parse an RSS feed directly."""
-    try:
-        import urllib.request
-        import ssl
-        import re
-        from xml.etree import ElementTree as ET
-        
-        ctx = ssl.create_default_context()
-        req = urllib.request.Request(
-            url,
-            headers={
-                'User-Agent': 'Mozilla/5.0 (compatible; HAWK/1.0; +research)'
-            }
-        )
-        
-        with urllib.request.urlopen(req, timeout=10, context=ctx) as response:
-            xml_data = response.read().decode('utf-8', errors='ignore')
-            
-            # Parse RSS XML
-            root = ET.fromstring(xml_data)
-            
-            # Find all items
-            items = root.findall('.//item')
-            
-            results = []
-            for item in items[:limit]:
-                title = item.find('title')
-                description = item.find('description')
-                
-                title_text = title.text if title is not None else ""
-                desc_text = description.text if description is not None else ""
-                
-                # Clean HTML from description
-                if desc_text:
-                    desc_text = re.sub(r'<[^>]+>', ' ', desc_text)
-                    desc_text = re.sub(r'\s+', ' ', desc_text).strip()
-                
-                if title_text:
-                    results.append(f"{title_text}: {desc_text[:150]}" if desc_text else title_text)
-            
-            return results
-    except Exception:
-        return []
+def search_war_news(selftest=False):
+    """Scan the declared source set. Returns (results, coverage).
 
+    coverage = {"attempted": M, "reached": N, "dead": [(name, err), ...]}
+    """
+    sources = list(NEWS_SOURCES)
+    if selftest:
+        sources.append(SELFTEST_DEAD_SOURCE)
 
-def search_war_news():
-    """Search for latest war developments using multiple sources."""
-    results = []
-    
-    # Try Google News RSS for key queries
-    queries = [
-        "Israel Iran war",
-        "Houthi Red Sea",
-        "Hormuz Strait"
-    ]
-    
-    for query in queries:
-        output = run_web_search(query)
-        if output:
-            results.append((query, output))
-    
-    # Also try direct RSS feeds
-    rss_feeds = [
-        ("BBC World", "http://feeds.bbci.co.uk/news/world/rss.xml"),
-        ("Reuters", "http://feeds.reuters.com/reuters/worldnews"),
-    ]
-    
-    for name, url in rss_feeds:
-        feed_results = fetch_rss_feed(url, limit=3)
-        if feed_results:
-            # Filter for relevant keywords
-            relevant = []
-            keywords = ['iran', 'israel', 'gaza', 'houthi', 'yemen', 'red sea', 'hormuz', 'missile', 'strike']
-            for item in feed_results:
-                item_lower = item.lower()
-                if any(kw in item_lower for kw in keywords):
-                    relevant.append(item)
-            if relevant:
-                results.append((name, "\n".join(f"- {r}" for r in relevant)))
-    
-    return results
+    results, dead, reached = [], [], 0
+    for name, kind, target in sources:
+        nm, ok, text, err = probe_source(name, kind, target)
+        if ok:
+            reached += 1
+            results.append((nm, text))
+        else:
+            dead.append((nm, err))
+
+    coverage = {"attempted": len(sources), "reached": reached, "dead": dead}
+    return results, coverage
 
 
 def analyze_signals(news_results):
@@ -280,111 +261,107 @@ def save_scenario_history(scenario):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="HAWK war monitor")
-    parser.add_argument("--save", action="store_true", help="Save to workbook")
+    parser = argparse.ArgumentParser(description="HAWK war monitor (fail-loud)")
+    parser.add_argument("--save", action="store_true",
+                        help="Save to workbook — GATED on full source coverage")
+    parser.add_argument("--selftest", action="store_true",
+                        help="Inject a known-dead source to prove the guard fires")
     args = parser.parse_args()
-    
+
     today = datetime.now()
     today_date = today.date()
     now = today.strftime("%Y-%m-%d %H:%M ET")
-    
-    # Calculate war day and ceasefire day
-    war_start = datetime(2026, 3, 1).date()  # Approximate war start
+
+    war_start = datetime(2026, 3, 1).date()
     war_day = (today_date - war_start).days
     ceasefire_day = (today_date - CEASEFIRE_START).days if today_date >= CEASEFIRE_START else 0
-    
+
     print(f"\n{'='*70}")
     print(f"  HAWK War Monitor — {now}")
+    if args.selftest:
+        print("  ** SELFTEST MODE — a known-dead source is injected on purpose. **")
     print(f"{'='*70}")
-    
+
     print(f"\n  War Day: {war_day} | Ceasefire Day: {ceasefire_day} (Apr 12-13)")
-    print(f"  Baseline Scenario: D {SCENARIO_BASELINE['D']}% / C {SCENARIO_BASELINE['C']}% / B {SCENARIO_BASELINE['B']}%")
-    
-    # Search for news
-    print(f"\n  🔍 Scanning for developments...")
-    news_results = search_war_news()
-    
-    if not news_results:
-        print("  ⚠️  No search results available (network or API issue)")
-        signals = [{
-            "type": "⚠️",
-            "signal": "Search unavailable — manual review required",
-            "impact": "No change",
-            "details": "Network or API error"
-        }]
-    else:
-        signals = analyze_signals(news_results)
-    
-    # Calculate new scenario
-    new_scenario = calculate_scenario_shift(signals)
-    
-    # Output signals
-    print(f"\n  SIGNAL SUMMARY (last 24h)")
+    print("  ⚠️  SCENARIO CONSTANTS ARE FROZEN PRE-SPLIT (2026-07-12) — Iran/Gulf is")
+    print("      FALCON's theater. Do NOT cite the D/C/B figures below as a live read.")
+    print(f"  Frozen baseline: D {SCENARIO_BASELINE['D']}% / C {SCENARIO_BASELINE['C']}% / B {SCENARIO_BASELINE['B']}%")
+
+    print("\n  🔍 Scanning declared source set...")
+    news_results, cov = search_war_news(selftest=args.selftest)
+
+    reached, attempted = cov["reached"], cov["attempted"]
+    full_coverage = (reached == attempted and attempted > 0)
+
+    # ---- SOURCE COVERAGE — printed on EVERY run, before any interpretation ----
+    print(f"\n  SOURCE COVERAGE")
     print(f"  {'-'*60}")
-    
+    mark = "✅" if full_coverage else "🔴"
+    print(f"  {mark} reached {reached}/{attempted} declared sources")
+    for name, err in cov["dead"]:
+        print(f"     🔴 DEAD: {name} — {err}")
+    if not full_coverage:
+        print("  🔴 DEGRADED COVERAGE — this scan CANNOT support a status-quo read.")
+
+    signals = analyze_signals(news_results) if news_results else []
+    new_scenario = calculate_scenario_shift(signals)
+
+    print(f"\n  SIGNAL SUMMARY (last 24h, {reached}/{attempted} sources)")
+    print(f"  {'-'*60}")
     if signals:
         for sig in signals:
             print(f"  {sig['type']} {sig['signal']}")
             print(f"     Impact: {sig['impact']}")
-            if sig.get('details'):
+            if sig.get("details"):
                 print(f"     Details: {sig['details']}")
+    elif full_coverage:
+        print("  🟡 No significant developments across ALL declared sources")
     else:
-        print("  🟡 No significant developments reported")
-    
-    # Scenario shifts
-    print(f"\n  SCENARIO PROBABILITY SHIFTS")
-    print(f"  {'-'*60}")
-    
-    for scenario in ["D", "C", "B"]:
-        old = SCENARIO_BASELINE[scenario]
-        new = new_scenario[scenario]
-        delta = new - old
-        
-        if delta > 0:
-            change = f"↑ +{delta}%"
-        elif delta < 0:
-            change = f"↓ {delta}%"
-        else:
-            change = "→ unchanged"
-        
-        emoji = "🔴" if scenario == "D" else "🟡" if scenario == "C" else "🟢"
-        print(f"  {emoji} {scenario}: {old}% → {new}% ({change})")
-    
-    # Interpretation
+        print("  ⛔ NO SIGNAL VERDICT — coverage is partial; absence here is not evidence.")
+
+    # ---- INTERPRETATION — suppressed entirely unless coverage is full ----
     print(f"\n  INTERPRETATION")
     print(f"  {'-'*60}")
-    
-    if new_scenario["D"] > SCENARIO_BASELINE["D"]:
-        print("  🔴 Escalation risk elevated — monitor for kinetic incidents")
+    if not full_coverage:
+        print("  ⛔ SUPPRESSED. A partial scan is not a reading of the world.")
+        print(f"     {attempted - reached} of {attempted} declared sources did not return content.")
+        print("     Fix the dead source(s) above, or re-run, before interpreting.")
+    elif new_scenario["D"] > SCENARIO_BASELINE["D"]:
+        print("  🔴 Escalation keywords elevated — route to FALCON/OSPREY, not graded here")
     elif new_scenario["B"] > SCENARIO_BASELINE["B"]:
-        print("  🟢 De-escalation momentum — watch for deal framework")
+        print("  🟢 De-escalation keywords elevated — route to FALCON/OSPREY, not graded here")
     else:
-        print("  🟡 Status quo holding — ceasefire fragile but intact")
-    
-    # Alerts
+        print("  🟡 No keyword shift across a FULLY covered scan")
+
     print(f"\n  ALERTS")
     print(f"  {'-'*60}")
-    
     alerts = []
-    if any(s["type"] == "🔴" for s in signals):
-        alerts.append("🔴 Kinetic incident reported — immediate reassessment required")
-    if ceasefire_day >= 25:
-        alerts.append(f"🟡 May 12 checkpoint approaching ({30-ceasefire_day} days)")
-    
+    if not full_coverage:
+        alerts.append(f"🔴 INSTRUMENT DEGRADED — {reached}/{attempted} sources reached")
+    if full_coverage and any(s["type"] == "🔴" for s in signals):
+        alerts.append("🔴 Kinetic keywords present — theater desks own the verdict")
     if alerts:
         for alert in alerts:
             print(f"  {alert}")
     else:
-        print("  ✅ No active alerts")
-    
-    # Save if requested
+        print("  ✅ No active alerts (full coverage)")
+
+    # ---- --save GATE: an outage must never write a baseline into history ----
     if args.save:
-        save_war_log(signals, new_scenario)
-        save_scenario_history(new_scenario)
-        print(f"\n  💾 Logged to workbook/WAR_LOG.md and SCENARIO_HISTORY.tsv")
-    
+        if not full_coverage:
+            print(f"\n  ⛔ --save REFUSED. Coverage {reached}/{attempted} is not full.")
+            print("     Writing on partial coverage would put the BASELINE scenario into")
+            print("     SCENARIO_HISTORY.tsv as `auto_scan`, permanently, on an outage.")
+            print("     Nothing was written.")
+        else:
+            save_war_log(signals, new_scenario)
+            save_scenario_history(new_scenario)
+            print("\n  💾 Logged to workbook/WAR_LOG.md and SCENARIO_HISTORY.tsv (full coverage)")
+
     print()
-    return 0
+    # rc 0 ONLY on full coverage. Partial coverage is a nonzero exit, so a caller
+    # or a boot wrapper cannot mistake a degraded scan for a clean one.
+    return 0 if full_coverage else 2
 
 
 if __name__ == "__main__":
