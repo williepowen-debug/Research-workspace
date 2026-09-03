@@ -7,7 +7,7 @@
 | CRMT/Silver Point weekly liquidity test (tape bands <$1.80 / >$2.90) | PENDING | SELF | 2026-09-04 | `docket/CATALYSTS.tsv` 9/4 · DOCKET L189 |
 | CRMT waiver expiry (Labor Day); only public observable is presence/absence of an 8-K | PENDING | SELF | 2026-09-07 | `docket/CATALYSTS.tsv` · `STATUS.md` §CRMT |
 | CRMT 10-Q ~9/9 ⇒ **grade 9/11, not before the 9/8 close**; my row closes at the 10-Q either way | PENDING | SELF | 2026-09-11 | `STATUS.md` §CRMT |
-| **BRK-02** resolves — name set PROPOSED, **awaiting PROME**; the binding constraint is the resolver, not the evidence | BLOCKED | **PROME** | 2026-09-30 | `workbook/PREDICTIONS.tsv` BRK-02 |
+| **BRK-02** resolves. 🔴 **THIS ROW WAS WRONG AS FIRST PUBLISHED** — I filed it BLOCKED/PROME. **It was RULED 2026-08-13** (six-name set adopted, blind spec = resolver of record, NO-VERDICT fallback), **both sections stamped *Owner: BROCK*. Nothing sits with PROME.** Corrected 9/3 on PROME's catch | **OPEN** (was: BLOCKED) | **SELF** (was: PROME) | 2026-09-30 | `PROME/proposals/2026-08-13_private-credit-batch-RULED.md` §①+§⑤ · `workbook/PREDICTIONS.tsv` BRK-02 |
 | BCRED Q3 **final dollar value** — first non-estimated figure (fn.6: only after 9/30 NAV) | PENDING | SELF | 2026-11-13 | `docket/CATALYSTS.tsv` 11/13 |
 | **BRK-32** queue amplitude — NO-CALL until the other 4 named funds print; L2 weight needs re-basing ($45.04B→$42.78B) | PENDING | SELF | 2026-11-30 | `workbook/PREDICTIONS.tsv` BRK-32 |
 | MFIC Q3 — L116 re-dated 9/2; what was missing is management TONE, not a figure | PENDING | SELF | 2026-11 (early) | `STATUS.md` §L116 |
