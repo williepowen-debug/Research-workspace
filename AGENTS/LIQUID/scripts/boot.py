@@ -91,6 +91,16 @@ def build_credit():
     else:
         bps = v * 100
         hy_bps = bps
+        # crun HOISTED 2026-09-02 (blind cold read, finding B7). It was defined inside the
+        # 260-265 else-block, so the `bps < 260` branch above it had NO RUN CHECK AVAILABLE and
+        # printed a two-close label off a ONE-close observation. See the <260 branch below.
+        # tr is newest-first; count the CURRENT consecutive run only.
+        def crun(lim):
+            c = 0
+            for x in (tr or []):
+                if x * 100 < lim: c += 1
+                else: break
+            return c
         # Label corrected 2026-07-30 (stale-data sweep). THRESHOLD UNCHANGED at >=280 — string only.
         # Two defects in the old label, both load-bearing and printed at EVERY boot:
         #   (1) "X1 MASTER TRIGGER FIRED" violates GATE-LIQ-079 rider R1 — X1 is CONJUNCTIVE
@@ -101,7 +111,21 @@ def build_credit():
         #       i.e. the opposite of a quality-recognition event.
         if bps >= 280:   m, n = "🔴", "HY >=280 LEVEL LEG MET — X1 half ONLY, NOT 'X1 MET' (R1: wrapper-leads leg conjunctive + NOT MET; RED owns sustain) — 7/30 attribution says broad DM beta, NOT credit-recognition"
         elif bps >= 265: m, n = "🟡", f"X1 APPROACH (265-280 band) — {280 - bps:.0f}bps to the 280 master trigger"
-        elif bps < 260:  m, n = "🔴", "BEAR-AXIS KILL (<260 ×2 closes) — credit-thesis invalidation, NOT a stress event"
+        elif bps < 260:
+            # ---- CORRECTED 2026-09-02, BLIND COLD READ FINDING B7. NO THRESHOLD INVENTED OR MOVED. ----
+            # This branch printed "BEAR-AXIS KILL (<260 x2 closes)" off a SINGLE sub-260 print.
+            # It had no run check at all -- crun() was defined below, inside the 260-265 else-block,
+            # and was wired to the 265 and 270 rungs but NOT to the kill line itself. So the
+            # DECLARED "machine primary" for GATE-HY-REKILL implemented a ONE-close condition
+            # wearing a TWO-close label: the exact inverse of KB-LIQ-109's dead-QUIET defect on the
+            # same surface, and the more dangerous direction because it FIRES rather than misses.
+            # Found by a blind reader briefed to GRADE the gate, not review it -- three desks had
+            # read this file the same evening and none of us saw it.
+            r260 = crun(260)
+            if r260 >= 2:
+                m, n = "🔴", f"BEAR-AXIS KILL FIRED — HY <260 on {r260} CONSECUTIVE closes (GATE-HY-REKILL). Credit-thesis invalidation, NOT a stress event. ⚠️ KB-LIQ-105 two-sided guard applies: confirm SUBSTANCE with BROCK before acting; a tape-only compression is a tape-kill"
+            else:
+                m, n = "🟠", f"HY <260 on the LATEST print only ({bps:.0f}) — GATE-HY-REKILL 1-of-2, NOT FIRED. The gate needs TWO CONSECUTIVE closes strictly <260; one print is not a kill"
         else:
             # ---- KILL-SIDE LADDER WIRED 2026-08-28 (KB-LIQ-109). NO THRESHOLD INVENTED HERE. ----
             # This band rendered a flat 🟢 "green (260-265)" while workbook/KILL_MEMO_HY_OAS_260.md
@@ -113,13 +137,7 @@ def build_credit():
             # signal), found live at 263bps [8/27] = 3bp from the kill and with PRE-TRIGGER already
             # satisfied (267 [8/26] -> 263 [8/27]) while this line printed GREEN.
             # Sibling class: KB-LIQ-104 / 106 / 107 (dead bands), but those were dead-LOUD.
-            # tr is newest-first; count the CURRENT consecutive run only.
-            def crun(lim):
-                c = 0
-                for x in (tr or []):
-                    if x * 100 < lim: c += 1
-                    else: break
-                return c
+            # crun() is hoisted above the if-chain (2026-09-02, cold-read B7).
             r265, r270 = crun(265), crun(270)
             if bps < 265 and r265 >= 2:
                 m, n = "🟠", f"TRIGGER A — HY <265 sustained {r265} sessions (KILL_MEMO ladder). Thesis-confidence event; book FLAT so no cut to make. {bps - 260:.0f}bps to the 260 kill"
