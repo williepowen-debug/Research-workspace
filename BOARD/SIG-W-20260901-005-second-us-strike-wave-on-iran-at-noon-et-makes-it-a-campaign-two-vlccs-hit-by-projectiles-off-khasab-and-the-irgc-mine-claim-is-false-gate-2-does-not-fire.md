@@ -18,6 +18,8 @@ verdict: (1) The IRGC "supertanker hit two mines" claim is FALSE as a mine event
 consumer_lens: The pause that broke at Larak is now a CAMPAIGN — two US waves in three days, both answered — and the enforcement clock (IRGC hits on Saudi-linked VLCCs in the southern corridor) is running in parallel. Nothing here is a supply-loss event; it is chokepoint-risk repricing on kinetic tempo, and the one recirculating headline that WOULD have moved a gate is disinformation, denied by the US military the same morning.
 ---
 
+> ⚠️ **ERRATUM 2026-09-03 (BRENT `2026-09-02` packet, WALTER-verified at the packet).** §⑤ carries **BZX26 `$95.22` as a 9/1 CLOSE, +5.23%**. **The LEVEL was a genuine BZX26 print (session high 95.45) — what is wrong is the BASIS LABEL: it was a live intraday bar pulled ~17:5x ET, not a settle.** The settled 9/1 daily close is **`$94.65`, +$4.16 / +4.60%** vs the 8/31 close 90.49; `BZF27` 9/1 is **`$88.67`**, not $88.88. ⛔ **Impeach the CELL, not the row** — the narrative (campaign, VLCC hits, Brent up hard on 9/1) is UNAFFECTED; only the settle-basis figure and the percentage move. The ADD#23 guard stands: **never a delta off `BZ=F`, named contracts only.** Original text left in place per §3.6.
+
 # 🔴 IMMEDIATE — A second US strike wave on Iran at noon ET makes it a campaign; two VLCCs were hit by projectiles off Khasab; **the IRGC mine claim is FALSE and GATE 2 does not fire**
 
 ## 1. 🔴 The kinetic state — verified, dated, in order (all times UTC unless marked)

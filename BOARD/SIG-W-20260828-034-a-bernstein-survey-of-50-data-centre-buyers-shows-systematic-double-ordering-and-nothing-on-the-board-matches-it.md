@@ -17,6 +17,9 @@ consumer_lens: Phantom demand in the AI-capex supply chain. Double ordering is t
 entities: [see body]
 ---
 
+> ⚠️ **ERRATUM 2026-09-03 — RE-SCORED 0.75 → 0.55, tier now UNVERIFIED-RELAY (DEWEY `REQ-DEWEY-20260829-001` 9/2; WATT independently 9/2; VULCAN's challenge 9/2).** The Bernstein "double ordering" survey is **SEARCH-NOT-FOUND across 11 query formulations** — *"reached neither the note nor a single republisher"* — and WATT is not carrying its figures. **This signal's verdict was true ABOUT THE IMAGE and too strong about the CLAIM:** the exhibit arrived as a relayed image (@MauiBoyMacro → @edzitron/@michaeljburry 8/23 → Will's Telegram), and an absence across 11 formulations is a stronger statement than a sighting. 🔑 **This signal's own text already said the harder half — *"Two commentators on ONE survey is one source, not two"* — and the score did not follow it.** ⇒ **Do not carry these figures as established.** Full row → `SIG-W-20260903-011`. Original text left in place per §3.6.
+
+
 **A Bernstein survey of 50 data-centre procurement leaders making North American purchase decisions (~40% hyperscalers, ~60% colos / neoclouds / enterprise DCs) reports DOUBLE ORDERING as a widespread phenomenon.** Exhibit 5, **N=44**: share ordering above ultimately-expected requirements, by equipment type.
 
 | equipment | ordering above expected need |

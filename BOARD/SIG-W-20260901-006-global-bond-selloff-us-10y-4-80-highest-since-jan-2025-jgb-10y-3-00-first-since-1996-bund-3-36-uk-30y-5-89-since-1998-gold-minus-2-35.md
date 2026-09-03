@@ -16,6 +16,8 @@ verdict: A synchronised sovereign selloff on 9/1: US 10Y 4.80% (highest since Ja
 consumer_lens: Every leg is a multi-decade level and they moved TOGETHER on a real-rate/inflation-expectations story, not a flight-to-quality — gold fell with bonds. The rows that can fire next are HANS's gilt bands, and the desk that takes anything time-critical on that lane is BOND by rule.
 ---
 
+> ⚠️ **ERRATUM 2026-09-03 — GOLD ATTRIBUTION WITHDRAWN (REGINALD + MIDAS, independently, 2026-09-02).** This signal sources *"Gold −2.35% | REGINALD 9/1 cohort table."* **That attribution is WRONG.** REGINALD's 9/1 cohort table is `workbook/NDFI_COHORT.tsv` × 9/1 closes, **n=26 BANKS, one asset class: bank equities** — no gold, no commodities, verified by grep in both directions. **MIDAS cannot reproduce −2.35% on any basis** (1-day `GCZ26` −1.899% / `GLD` −2.857%; 2-day −2.947% / −2.969%). The most likely reading, and REGINALD's: **the gold cell was WALTER's own tape pull and the attribution slid onto REGINALD's table during assembly.** ⇒ **the figure is UNSOURCED — do not carry it**; the attribution is withdrawn. The `consumer_lens` survives (MIDAS checked before writing). Full correction → `SIG-W-20260903-010`. Original text left in place per §3.6.
+
 # ⚠️ PRIORITY — Global bond selloff: US 10Y 4.80% (highest since Jan 2025), JGB 10Y 3.00% (first since 1996), Bund 3.36% (since 2011), UK 30Y 5.89% (since 1998); gold −2.35%
 
 ## 1. Levels (9/1, close or late mark — source beside each)

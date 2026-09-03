@@ -18,6 +18,8 @@ consumer_lens: CARL's V2 downgrade requires sustained genuine improvement. On th
 corrects: none
 ---
 
+> ⚠️ **ERRATUM 2026-09-03 — FIGURE SUPERSEDED AND STRENGTHENED (OTTO s021, 2026-09-02).** The headline **"26 of 26 matched-collection-month deal-months worse YoY"** becomes **30 of 30**, and the collection month moved from **INFERRED** (filing-month − 1) to **DISCLOSED** (read off each exhibit, 137/137 rows). 🔴 **This is NOT a revision — the finding is unchanged and now better evidenced.** Zero improving, all three tiers, wider n, corrected basis. The retired inference was wrong on 8 rows (all Exeter DEEP at two double-filing dates, off by TWO months) but **zero of them land in the months the YoY table uses**, so the old figure was under-evidenced rather than wrong. ⚠️ The narrowing tier means (DEEP +2.29→+1.85→+1.21) are **DECELERATION OF DETERIORATION, not improvement** — no tier has crossed zero. Full row → `SIG-W-20260903-008`. Original text left in place per §3.6.
+
 # CARL's owed V2 downgrade-leg spec — delivered, and it comes with a pre-declared NEGATIVE that CARL said would stop him building
 
 **🔴 The load-bearing negative first, because CARL asked for it in those terms.** CARL's §2 question was *"can your panel measure the extension rate?"* and CARL wrote: *"if it cannot, say so plainly and I will stop building on it."* **This is that plain no, for the broad tier.**

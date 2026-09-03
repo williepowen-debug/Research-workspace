@@ -16,6 +16,9 @@ verdict: The alternative-asset managers were the epicentre of Tuesday's tape (BX
 consumer_lens: A manager-led repricing ahead of the BCRED SC TO-I/A window (modeled 9/2→9/8) — the tape moved before the print. Read the move as macro-beta plus manager-vs-wrapper dispersion until a filing lands; do not let the recycled $1.7B figure grade BRK-30.
 ---
 
+> ⚠️ **ERRATUM 2026-09-03 — THE FILING TYPE NAMED HERE DOES NOT EXIST (BROCK, verified at primary 2026-09-02).** This signal says BCRED satisfaction *"reads only from the SC TO-I/A"* with results. **There is no "final-results SC TO-I/A" on this fund and there never has been:** across all **60** `SC TO-I` / `SC TO-I/A` filings by CIK 1803498 (2021-05-03 → 2026-08-04), the Schedule TO cover box *"final amendment reporting the results of the tender offer"* is **UNCHECKED on every one.** What carries the number is a **Rule 13e-4(c)(1) written-communication `SC TO-I/A`** attaching **Ex-99.(a)(1)(vii) "Q[x] Distribution and Tender Offer Update"** — same form type, different filing purpose. **A watch keyed to "final results" waits for something that will never arrive.** ✅ **The dated negative in this signal (no Q3 filing as of 9/1) is now OVERTAKEN: the Q3 SC TO-I/A landed 2026-09-03** (acc 0001213900-26-096935); BROCK graded ~50% satisfaction, BRK-30 RESOLVED-TRUE. ⛔ **The "$1.7bn" stays KILL-ON-SIGHT — structurally impossible as a Q3 number, not merely an old print.** Full row → `SIG-W-20260903-009`. Original text left in place per §3.6.
+
+
 # ⚠️ PRIORITY — Alt managers fell 3–5% on a global bond-selloff day, and **no BCRED tender result has been filed** — the "$1.7B" beside the move is the old print
 
 ## 1. The tape (9/1 closes, Yahoo via `dashboard.py` / REGINALD's cohort pull)
