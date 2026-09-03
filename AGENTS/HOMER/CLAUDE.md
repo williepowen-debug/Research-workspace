@@ -54,7 +54,9 @@ Monitor U.S. housing market stress across the foreclosure pipeline, multifamily 
 - Fannie Mae MF serious DQ (monthly)
 - Freddie Mac MF serious DQ (monthly)
 - CMBS MF delinquency (Trepp, monthly) — **HOMER primary owner post-promotion**
-- MF maturity wall ($160B+ 2026, $270B+ 2026-27)
+- MF maturity wall ⛔ **$160B+ 2026 / $270B+ 2026-27 — RETIRED 2026-09-02, DO NOT CITE EITHER FIGURE.** Never Trepp's: a sponsor quote (Tyler Chesser, CF Capital) in Multifamily Dive 2026-05-12 that acquired a Trepp label by CO-LOCATION with a different Trepp headline figure. CREED verdict 2026-08-28 (`KB-CREED-028`); **re-verified by HOMER at MBA's own release text 2026-09-02** — no multifamily-property-type dollar is published anywhere. ⚠️ **Kill-on-sight: "the $160B MF wall is Trepp's."**
+  > ✅ **REPLACEMENT, PRIMARY-ATTACHED — AND IT IS A SHARE, NOT A DOLLAR: 13% of multifamily-backed mortgage balances mature in 2026.** [MBA *2025 CRE Survey of Loan Maturity Volumes*, released 2026-02-09.] ⚠️ **NOT CONVERTIBLE** — MBA publishes **property type as PERCENT** and **lender type as DOLLARS**; the only multifamily-labelled dollar it prints is **$39B (4%) of GSE/FHA/Ginnie multifamily-AND-HEALTHCARE** balances, a blended agency cut that is not the property-type total. ⭐ **A sourced share beats an unsourced dollar — but say WHICH UNIT you are quoting** (`finding_level_and_rate_look_like_agreement_until_you_name_which`).
+  > ⛔ **AND THE DIRECTION THAT TRAVELLED WITH THE DEAD FIGURE WAS ALSO WRONG.** The retired sentence said **"+50% YoY"**; MBA's own 2026 total is **$875B, a 9% DECREASE from $957B in 2025** ($652B in 2027). **A retirement that kills only the level leaves the trend claim standing** — both are dead. Adjacent live figure, unaffected and now independently primary-verified by me: **REGINALD's $875B all-CRE 2026 (MBA).**
 - Rent growth by metro (Apollo/Slok)
 - Rent late rates (NMHC, apartment list)
 - MF cap rate compression/expansion
