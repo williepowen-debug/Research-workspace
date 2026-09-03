@@ -1,6 +1,7 @@
 ---
 name: finding_spread_metric_blind_to_common_mode
 description: A spread/gap metric built to defeat one masking failure is structurally blind to the symmetric one — a difference cannot see a parallel move, and a ratio can print "improving" while every component worsens
+symptoms: "the spread barely moved but everything widened"; "bifurcation is improving" printed while every tranche worsened; "the metric peaked" on a series whose denominator swung 2x; a dispersion test grading FAILED while the dispersion is visibly intact; both names fell below their own means so the spread test says no
 metadata:
   type: feedback
 ---
@@ -42,3 +43,17 @@ The near-miss is the point: the "decaying" read was one step from being routed f
 - **A ratio cannot carry a trend read on its own.** Before writing "peaked", "building", "decaying" or "plateauing" about any share, plot the numerator. If the denominator's range over the window is more than ~1.5×, the shape verdict is about the denominator and must be stated as such.
 - **Register the component series next to the ratio in the surface itself**, so the next reader cannot obtain one without the other — the same mechanize-don't-remember fix as above.
 - **A composition share is the most seductive case**, because "X% of new defaults are type T" reads as a statement about type T when it is a statement about the *mix*. Type T's absolute volume can double while its share falls.
+
+**⚠️ Extension 2026-09-02 (CRUISE) — the mirror at REGISTRATION time: a DISPERSION claim encoded as two ABSOLUTE per-name conditions grades FALSE on a common-mode move while the dispersion it is about is intact.**
+
+Every entry above is about *reading* a spread and missing the common move. This is the same defect one step earlier — in how the test was **written down** — and it is worse, because the wrong grade is then permanent and dated.
+
+CRUISE pre-registered prediction CRU-05: *"the Big-3 tape dispersion (**RCL ≥ its 3-mo mean** vs **NCLH ≤ its 3-mo mean**) HOLDS."* The subject is dispersion; the encoding is two absolute levels. Then the whole sector de-rated — CCL −15.6%, RCL −12.9%, NCLH −18.1% over 19 days against SPY −1.4% — and **every operator fell below its own 3-month mean at once.** Leg 1 is now FALSE. On the letter the prediction fails. **But the dispersion it was actually about is intact**: value (NCLH) still fell 5.2pp more than premium (RCL), which is the claim. A common-mode move cannot be seen by *either* leg, so it can only push both the same way — and with an AND of two one-sided level conditions, that is a guaranteed FAILED.
+
+**Why it survives review:** each leg reads as a clean, falsifiable, numeric condition. Nothing about `RCL ≥ 3-mo mean` looks like a spread metric, so none of the guidance above fires when you write it. The blindness is inherited silently from the encoding.
+
+**How to apply:**
+- **Encode the claim in the same shape as the claim.** A dispersion/relative claim is registered as a **spread, ratio, or ordering** (`NCLH_return < RCL_return`), never as a conjunction of absolute per-name levels. If you catch yourself writing `A ≥ x AND B ≤ y` to express "A and B are diverging", the spec is already wrong.
+- **Ask of every registered test: what common-mode move makes this grade FALSE while the claim is TRUE?** — and its twin, what makes it grade TRUE while the claim is false. If either has an answer, re-spec **before** the window opens.
+- ⛔ **Do not retune mid-window.** Once a defective spec is live, grade it on the letter, record the defect beside the grade, and pre-register the successor **only after** it resolves. A spec repaired mid-window grades nothing at all, and the repair will always be in the direction you now prefer. Cf. [[finding_definition_change_moves_the_evidence_for_the_level]].
+- **A relative test needs both sides in one expression** — the same requirement as [[finding_relative_threshold_cannot_be_graded_by_a_one_sided_instrument]], reached from the encoding side rather than the instrument side.
