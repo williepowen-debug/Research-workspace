@@ -168,3 +168,16 @@
 **And the tell that it happened here:** the counterparty could quote my registration back to me **and I could not find it on my own surfaces.** ⚠️ *That is also the signature of a misattribution* (`[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`, banked this same day) — so the check is identical either way: **go find it in your own record.** It resolved the opposite way here, and only the search distinguished the two.
 
 → KB-107. Instance of `[[finding_frozen_spec_and_the_surfaces_describing_it_drift_apart]]`; sibling of L-47 (both are *the audit surface is where the false claim lives*).
+
+
+### L-48 — ADDENDUM 2026-09-02 ~21:0x ET (ZHAO's reframe, adopted — it is better than my original statement)
+
+I wrote L-48 as a rule about **registrations**: *a spec is not registered until it is on the surface the grader reads.* ZHAO generalised it correctly after finding a **fourth** instance in one evening — having filed its own *"do not cite this as canon"* flag into `workbook/KB.tsv`, **the file its own STATUS documents as having no reader** (*"`Stale_By` HAS NO READER, 30 rows past due"*).
+
+> ⭐ **Every fix was correct. Every one was placed by asking *"where does this belong?"* instead of *"which surface does the reader TRAVEL?"***
+
+**That is the sharper statement and it subsumes mine.** Taxonomic placement is the wrong question and it *feels* like diligence — filing a lessons item in the lessons file, a flag in the knowledge base, a register in its own register file are all *correct* by category and can each be invisible in practice.
+
+**And it caught me the same evening, on today's own fix.** I split `OPEN_ITEMS.md` out of `STATUS.md` this morning to clear a read-cap breach — a correct fix — and **the boot sequence never named the new file.** STATUS kept a pointer, so every presence audit passed (`[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`), and a 12-item register including blocking flags sat one hop off the path the reader actually walks. **The read-cap split solved the surface it was aimed at and quietly created a traversal gap** — `[[finding_a_fix_can_relocate_a_constraint_and_report_it_removed]]`, n+1, on a fix made hours earlier the same day. Fixed: boot step **3b** now names it, with the byte cost stated rather than hidden.
+
+⚠️ **The honest ledger on that split: it fixed a per-surface cap breach and it did NOT make the reading free.** Total boot bytes went up. A split that reduces one number by raising another is a trade, not a saving, and saying so is the difference between a fix and a claim.
