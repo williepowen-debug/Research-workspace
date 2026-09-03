@@ -25,7 +25,7 @@
 
 ⚠️ **NOT established:** the **RatingDog (ex-Caixin) August private PMI** was unpublished at read time — the state-vs-private divergence (July: NBS 49.2 vs RatingDog **50.9**) is **unresolved for August** and is the single check that could flip the manufacturing read. **Owed pull, early September.**
 
-**→ Full 8/21 JUNE TIC block, verbatim → `archive/STATUS_COLD_20260902.md` §① · session detail → `reports/2026-08-21_JUNE_TIC_SESSION.md` · permanent record KB-ZHAO-119..127.**
+**→ 8/21 JUNE TIC block verbatim → COLD §① · detail → `reports/2026-08-21_JUNE_TIC_SESSION.md` · KB-119..127.**
 
 ---
 
@@ -42,7 +42,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 
 **Credit:** HAWK's 8/22 US-§338 post-mortem — *a dated branch can be **MIS-SHAPED rather than incomplete**: one leg is the **self-executing default**, the others are **overrides**; completeness-testing cannot catch it, and the catching question is **"which branch happens if nobody acts?"*** `[[finding_no_action_ruling_does_not_disarm_an_automatic_mechanism]]`. HAWK left the 11/10 structure **explicitly blank** and warned against importing their base rate rather than their question — so ZHAO read the instrument. **Their operational bar adopted verbatim for branch A: *is there a published instrument with an effective date beyond 2026-11-10?* Everything else is commentary** — on 8/22 a deal was announced, USTR described its coverage, and the tariff went live three days later, because the announcement was never converted into an instrument. ⚠️ **Graded on the DOCUMENT, never the tape:** a 2% equity rally with no instrument is **branch B**. `[[finding_market_ignoring_is_not_market_refuting]]`
 
-**→ FULL LETTER + AMENDMENT 1, and the July TIC letter (ZHA-17): `reports/2026-09-02_PREREGISTRATION_summit-and-july-tic.md`.**
+**→ Full letter + Amendment 1 + ZHA-17: `reports/2026-09-02_PREREGISTRATION_summit-and-july-tic.md`.**
 
 ---
 
@@ -75,13 +75,13 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 ### Domestic Stress
 | Metric | Value | Threshold | Status |
 |--------|-------|-----------|--------|
-| **China Mfg PMI (AUG)** | **49.8** (Jul 49.2; cons. 49.7 — **beat**) | <50 = contraction | 🟠 **2nd month sub-50, rebounding** [CONF] NBS 8/31 — production **50.4** and new orders **50.6** both back in expansion (KB-ZHAO-128) |
+| **China Mfg PMI (AUG)** | **49.8** (Jul 49.2; cons. 49.7 **beat**) | <50 | 🟠 **2nd month sub-50, rebounding** [CONF] NBS 8/31 — production **50.4**, new orders **50.6** back in expansion (KB-128) |
 | 🔴 **China Construction PMI (AUG)** | **46.9** (Jul 47.0) | — | 🔴 **NEW RECORD LOW** [CONF] NBS 8/31 via gov.cn — **2nd consecutive record low; NBS blamed extreme weather for the 2nd straight month.** Expectations index flat 51.8 (KB-ZHAO-128) |
-| **China Non-Mfg / Services (AUG)** | **49.0 / 49.3** (both flat vs Jul) | <50 = contraction | 🔴 **FLAT, NOT RECOVERING** [CONF] NBS 8/31 — the non-weather leg of the broadening read (KB-ZHAO-128) |
-| **China Composite PMI (AUG)** | **49.5** (Jul 49.3) | <50 = contraction | 🔴 **2nd consecutive sub-50** [CONF] NBS 8/31 — the +0.2 is **entirely manufacturing** (KB-ZHAO-128) |
+| **China Non-Mfg / Services (AUG)** | **49.0 / 49.3** (both flat) | <50 | 🔴 **FLAT, NOT RECOVERING** [CONF] NBS 8/31 — the non-weather leg (KB-128) |
+| **China Composite PMI (AUG)** | **49.5** (Jul 49.3) | <50 | 🔴 **2nd consecutive sub-50** [CONF] NBS 8/31 — the +0.2 is **entirely manufacturing** (KB-128) |
 | China High-tech Mfg sub-index (AUG) | **52.9** (held) | — | 🟢 [CONF] NBS 8/31 — the one leg in expansion; VULCAN's supply-side read touches this (KB-ZHAO-128) |
 | RatingDog (ex-Caixin) Mfg PMI (AUG) | ❌ **NOT PUBLISHED at read time** | — | ⚪ **OWED PULL** — July was **50.9 vs NBS 49.2**; the state-vs-private divergence is **unresolved for August** and is the one check that could flip the manufacturing read |
-| China FX reserves / gold | **$3.4163T** end-Jun (−$26B MoM); gold **75.44Moz (~2,346t)**, 20th straight month | — | 🟢 [CONF] SAFE 7/7 — decline is USD-valuation. Gold only **8.8% of reserves** vs ~27% global CB avg ⇒ **too small to be the Treasury-line destination** (KB-ZHAO-109). **Aug print ~9/7** |
+| China FX reserves / gold | **$3.4163T** end-Jun (−$26B MoM); gold **75.44Moz (~2,346t)**, 20th mo | — | 🟢 [CONF] SAFE 7/7 — decline is USD-valuation. Gold **8.8% of reserves** vs ~27% global CB avg ⇒ **too small to be the Treasury-line destination** (KB-109). **Aug ~9/7** |
 | China Q2 GDP | **+4.3% YoY** (vs 4.5% cons.; Q1 5.0%) | <4.5% = miss | 🟠 [CONF] NBS 7/15 (KB-095). H1 real-estate inv. **−18% YoY**; FAI ex-property only **−2.7%**; June IP **+5.3%** — a property-leg miss with the industrial leg accelerating |
 | Debt swap program (2024-26 quota) | **94% utilized** (~1.62T RMB H1'26) | — | 🟢 [CONF] Caixin/NPC Observer 7/16 — hidden debt −65% (14.3T→~5T RMB) since end-2023. **The 6% headroom is the number to watch** (P3 tripwire B4) |
 | PBOC 7d repo / LPR | **1.4%** / **3.00%–3.50%, HELD 14th mo** | <1.0% = RED | 🟠 [CONF] PBOC fixing **7/20** — **restraint not incapacity**: FX room existed, PBOC declined; cited bank NIM + yuan stability (KB-ZHAO-105). **Next fixing ~9/21-22 — verify the date, 20 Sep is a Sunday** |
@@ -151,8 +151,8 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 |------|-------|----------|
 | ✅ Mon Aug 31 | **China August PMI** — **DONE, graded 9/2** (above) | ✅ KB-128 |
 | ~Sep 7 | China Aug trade + SAFE reserves/gold | 🟠 |
-| early Sep | **RatingDog (ex-Caixin) August mfg PMI** — the state-vs-private divergence check (Jul: 50.9 vs NBS 49.2). **OWED PULL** | 🟠 |
-| ~Sep 9-10 | China Aug CPI / PPI — deflation check | 🟡 |
+| ~Sep 8 | **RatingDog (ex-Caixin) Aug mfg PMI** — state-vs-private check (Jul 50.9 vs NBS 49.2). **OWED PULL** | 🟠 |
+| ~Sep 9-10 | China Aug CPI/PPI — deflation check | 🟡 |
 | **~Sep 16** | **July TIC** — the composition arbiter (**ZHA-17**) and the CORRECT arbiter for **ZHA-11** (a 9-July auction cannot be tested by June flows). Also **ZHA-12** resolves | 🔴 |
 | **~Sep 21-22** | China LPR fixing — 15th month of hold? ⚠️ **20 Sep 2026 is a Sunday; verify the exact date before grading** | 🟠 |
 | **🆕 Thu Sep 24** | **XI → WASHINGTON, White House summit with Trump. DATE ANNOUNCED** (Trump, 7/23; ⚠️ no PRC-side confirmation located). Truce-extension venue, 47 days ahead of the 11/10 expiry. **Letter ZHA-16 pre-registered 9/2** | 🔴 |
@@ -166,7 +166,7 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 
 ## PREDICTIONS (status Sep 2)
 
-*(**OPEN rows only** — resolved rows with their full grades and spec-defect notes live in `workbook/PREDICTIONS.tsv`, the permanent record.)*
+*(**OPEN rows only** — resolved rows + spec-defect notes live in `workbook/PREDICTIONS.tsv`.)*
 
 | ID | Prediction | Conf | Status |
 |----|-----------|------|--------|
@@ -193,7 +193,8 @@ Four branches — **A** extension beyond 11/10 · **B** no change · **C** escal
 6. 🟠 **Vector 8 scored 🟠 3 on 7/9 at $76.01 (contract unnamed); BRENT 9/2 settle `BZX26` $95.23.** Not ZHAO's to re-price — routed to BRENT via PROME 9/2. No answer ⇒ mark 🧊 rather than carry it. ⚠️ **Quote levels with contracts, never a delta — `BZ=F` rolls.**
 7. 🟠 **Korea's two unverified caveats** — foreign KOSPI selling not reversed; SK hynix conversion share. Unchecked since 8/3; needed before calling Korea risk closed.
 8. 🟠 **WFE export-control bindingness on Chinese DRAM** — ZHAO's leg of the VULCAN ask, delivered 9/2 as a range with unknowns named. **Enactment watch (BIS Entity-List package · FT 7/21 MOFCOM TSMC/QCOM restriction) is now a DATED re-check row in `docket/CATALYSTS.tsv` (2026-09-16), not this bullet** — it was committed in writing to VULCAN and HAWK while living only in KB and undated prose here, i.e. on zero surfaces `boot.py` travels (KB-ZHAO-136). Publication ⇒ same-session packets **and** ZHA-16 branch C.
-9. 🟡 **Re-register ZHA-03 (Belgium >$500B) for H2** on a mechanism that survives the rho test — not custody migration. · 10. 🟡 **China 10Y / CGB is newly ZHAO's** and carries one stale datum (1.710%, 7/31): establish a refresh path or freeze the row honestly.
+9. 🟡 **Re-register ZHA-03 (Belgium >$500B) for H2** on a mechanism surviving the rho test — not custody migration. · 10. 🟡 **China 10Y / CGB is newly ZHAO's**, one stale datum (1.710%, 7/31): refresh path or freeze honestly.
+11. 🟠 **HK sold $9.33B of Treasuries in June while the peg stayed quiet — ZHAO-owned, self-assigned 8/21 *"log next session"*, still not logged.** ⚠️ **Recovered 9/2 from `archive/STATUS_COLD_20260902.md` §④, where tonight's read-cap split had stranded it** — its three sibling legs (Japan→SAM, France→HANS, Belgium hub→HANS) all closed, and **a mostly-closed item reads as closed** (KB-ZHAO-140).
 
 ---
 
