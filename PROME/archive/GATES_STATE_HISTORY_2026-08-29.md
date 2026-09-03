@@ -151,3 +151,8 @@ LIVE — leg 3 (Yanbu) FIRED 8/15; leg 2 open (owner re-read 8/31: NOT FIRED); 8
 entry-crc32: 1930946190 · bytes: 226 · superseded 2026-09-01
 
 FIRED — owner grade REGINALD 9/1 (WAL $77.26 regular-session close, first fire of cycle 2, 5c94c9622); routing EXECUTED (WAL leg + Will leg = WQ-143 + SIGNALS row); EXIT ≥81.90 ×3 LIVE 0-of-3 · hist→GATES_STATE_HISTORY
+
+## GATE-FERT-G5 — superseded 2026-09-02 (owner grade FERT 9a9e6fff5 replaces the bare registration token)
+entry-crc32: 1704640795 · bytes: 4 · superseded 2026-09-02
+
+LIVE
