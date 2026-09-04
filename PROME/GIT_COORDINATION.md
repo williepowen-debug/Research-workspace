@@ -46,6 +46,7 @@ Someone else's work outside `PROME/` remains strictly off-limits. Root `CLAUDE.m
 
 Example:
 
+**Subject ≤100 chars, receipts in the body (root Git Protocol 4d, WQ-171, 2026-09-03) — `commit_check.py` enforces it.**
 ```bash
 git commit -m "PROME: <subject>" -- PROME/<file>
 ```

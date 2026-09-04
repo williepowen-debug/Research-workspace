@@ -15,6 +15,10 @@ MODES
   verify  [--ref HEAD] [--strict-message]    compare a commit's paths to the manifest
                                              (+ message-named paths); exit 1 on mismatch
 
+CHECKS (commit, pre-flight)
+  0. Commit SUBJECT (first non-empty line of MSG_FILE) ≤100 chars — root Git Protocol 4d
+     (WQ-171, 2026-09-03); refused before the intent manifest is written.
+
 CHECKS (verify)
   1. Every manifest path is in the commit; no commit path is outside the manifest
      (exact string match on repo-relative paths, rename-aware via --name-status).
@@ -146,6 +150,15 @@ def verify(ref: str, strict_message: bool) -> int:
     return rc
 
 def do_commit(msg_file: str, paths: list[str], strict_message: bool, extra_git: list[str]) -> int:
+    # root Git Protocol 4d (WQ-171, 2026-09-03): the SUBJECT names the change, ≤100 chars;
+    # receipts live in the body. Checked before any intent is written so a refusal leaves no trace.
+    try:
+        subject = next((ln for ln in open(msg_file, encoding="utf-8").read().split("\n") if ln.strip()), "")
+    except OSError as e:
+        print(f"  ❌ cannot read message file {msg_file}: {e}"); return 2
+    if len(subject) > 100:
+        print(f"  ❌ commit SUBJECT is {len(subject)} chars (>100, root Git Protocol 4d) — move the receipts to the body and re-run:")
+        print(f"     {subject[:100]}…"); return 1
     rel = write_intent(paths)
     print(f"commit_check · intent written: {len(rel)} path(s) → {MANIFEST.relative_to(ROOT)}")
     # pre-flight: every intended path must actually have something to commit.
