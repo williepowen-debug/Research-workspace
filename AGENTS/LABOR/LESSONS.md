@@ -29,6 +29,38 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
+## L-27 — A two-axis band table must PARTITION on BOTH axes, and the cell it omits is the one your thesis says cannot happen
+
+**Bought 2026-09-04 on the NFP August grade — the most multi-loaded print in the book, on a card frozen ~36h early.**
+
+My card's §3b graded U-3 **jointly with LFPR** (correct — that is L-06, and grading U-3 alone is exactly the failure L-06 exists to stop). The table enumerated:
+
+| U-3 | LFPR | assignment |
+|---|---|---|
+| ≥4.3 | flat or up | 🔴 genuine slack |
+| ≥4.3 | down | ⚠️ NO-SIGNAL on slack, T-06 still fires |
+| 4.2 | any | no band |
+| **≤4.1** | **down** | ⚠️ NO-SIGNAL, denominator effect |
+| ≥5.0 | any | LAB-12 resolves |
+
+**August printed U-3 4.1% with LFPR UP (61.4 → 61.6) and the labor force +683K. That cell does not exist on the card.**
+
+**Why it was omitted, which is the whole lesson:** the `≤4.1 / down` row is written the way it is because my CORE TENSION says a falling U-3 in this regime is a *supply* artifact — U-3 down, LFPR down, labor force shrinking. **The thesis supplied the only branch I bothered to write.** The cell I left out is precisely the one that refutes the tension — and it is the one that printed.
+
+⇒ **The rule: enumerate the band table by CROSS-PRODUCT of its axes, not by walking the branches your thesis expects.** If an axis has 3 states and the other has 2, there are 6 cells; write all 6 or state explicitly which are unreachable and why. **"No band" is a legitimate assignment — an ABSENT cell is not**, because on the day it forces you to either improvise a band (which is what cards exist to prevent) or take no score at all.
+
+**What I did on the day:** took **zero** score movement and logged the defect. That is the conservative default and it was right, but it is a *degraded* outcome — the card was supposed to tell me what the print MEANT and on this axis it told me nothing.
+
+⚠️ **Companion finding from the same grade, and it may be the more transferable of the two: A FROZEN THRESHOLD COMPUTED OFF A REVISABLE SERIES IS NOT ACTUALLY FROZEN.** My card pre-computed freeze-thaw LEG A as **"August ≥ +303K"** from `(20 − 23 + X)/3 ≥ 100`. But June and July were **revised in the same release that carried August** — to +31K and +21K — so the real bar was `(31 + 21 + X)/3 ≥ 100` ⇒ **+248K**. **The frozen number was wrong by 55K before the print was even read**, and only survived as a *correct grade* because the card explicitly ordered the recompute (*"recompute with the revised numbers FIRST, per L-02, before reading August"*).
+
+⇒ **Any pre-registered threshold denominated in a REVISABLE series must ship with its recompute instruction, not just its value.** Write the **formula** as the frozen object and the number as an illustration of it — never the reverse. A card that had frozen only "+303K" would have graded the wrong bar with complete confidence and left no trace of the error.
+
+**Cross-refs:** L-18 (a card's branch set must partition on ONE surface — this is its two-axis generalisation) · L-17 (the branch that "cannot happen" is the one you forgot to enumerate — L-27 names *why* it gets forgotten: the thesis writes the branch list) · L-02 (track the revised series) · L-06 (grade U-3 jointly with LFPR).
+
+**Wired forward:** the `docket/CATALYSTS.tsv` row for **NFP September, 2026-10-02**, carries both requirements — enumerate both LFPR directions at every U-3 level, and RECOMPUTE LEG A on the revised vintage rather than carrying the 9/4 arithmetic forward. Card owed ~2026-09-25.
+
+---
+
 ## L-26 — A modeled catalyst date that slips EARLIER is invisible to every check I own, because every check assumes dates slip LATER
 
 **The instance (2026-09-01).** `CATALYSTS.tsv` carried JOLTS July as **`~2026-09-02`** — modeled, not source-confirmed. **It printed 2026-09-01 at 10:00 ET.** My boot ran that evening and `catalyst_countdown.py` showed it as **upcoming, 1 day out**, in the IMMINENT block. The countdown was working correctly and was reporting a released figure as a future event.
