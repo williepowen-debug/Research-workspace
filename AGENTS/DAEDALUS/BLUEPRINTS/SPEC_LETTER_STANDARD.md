@@ -39,6 +39,7 @@
 | Producibility (SL-4) | `DGS30 daily close has printed to 0.01 since 1977; 5.28 producible` |
 | Tie set (SL-5) | `published to 2dp; strict >12.00; a 12.00 print does NOT fire; base rate computed on strict >; exit leg ≥ audited` |
 | Negative-existence letter (WQ-172, Will 2026-09-03 21:54) | `search attempt INSIDE the resolution window (floor AND ceiling = the resolve date; an attempt after the window = NO-VERDICT, never CONFIRMED); neither limb keyed on the author's own activity — world-state only` → canon `FORGE/PREDICTION_DISCIPLINE.md` L42 (OSPREY §4 origin) |
+| Frozen-on-revisable series (WQ-175, Will 2026-09-04 10:04) | `threshold OBJECT = the FORMULA (e.g. 3-mo avg of first prints ⇒ X ≥ +303K [2026-09-02 vintage — RECOMPUTE on the revised vintage before grading]), never a bare number on a series the issuer restates (payrolls, GDP, JOLTS, QCEW, CPI seasonals); resolving vintage NAMED at registration (FIRST PRINT · THIRD PRINT · BENCHMARKED); the grade records its vintage and registers a REVISION WATCH (a later vintage crossing the bar ⇒ dated annotation, never a re-grade); every first-print figure on a fleet surface brackets its vintage + scheduled revision dates` → canon `FORGE/PREDICTION_DISCIPLINE.md` § Registration, FROZEN-ON-REVISABLE bullet (forward-only; a letter that named no vintage grades AS FIRST PUBLISHED, WQ-162) |
 | Revision policy | per `STRICT_TEXT.md` rule 7 |
 
 ## Enforcement

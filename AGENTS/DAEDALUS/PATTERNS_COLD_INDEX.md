@@ -1,5 +1,5 @@
 # PATTERNS — COLD INDEX (GENERATED — do not hand-edit; regenerate via scripts/regen_patterns_hot.py)
-> Rows older than 45 days and not `[HOT]`-tagged. NOT a boot read — grep by ID or keyword, then pull the full row from `PATTERNS.tsv`. Generated 2026-09-03 · 50 rows.
+> Rows older than 45 days and not `[HOT]`-tagged. NOT a boot read — grep by ID or keyword, then pull the full row from `PATTERNS.tsv`. Generated 2026-09-04 · 50 rows.
 
 - **PAT-001** (2026-06-27, ANTI/B2) — Forcing the market template (KB/VX/FLOW, convergence matrix, TRADE.md) onto a non-market agent produ…
 - **PAT-002** (2026-06-27, ANTI/B2) — "Open-ended ""watch the whole external landscape"" mandates drift and go stale."
