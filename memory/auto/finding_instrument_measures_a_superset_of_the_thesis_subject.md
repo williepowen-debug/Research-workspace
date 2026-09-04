@@ -49,3 +49,21 @@ Here the defect made the kill **EASIER** to fire, so the rail was biased toward 
 
 **Instance (BOND, 2026-09-02, n+1):** TreasuryDirect files 2-Year FLOATING RATE NOTES as `securityType Note · originalSecurityTerm 2-Year` — indistinguishable from nominal 2Y notes on every field BOND's auction grader keyed on; only `floatingRate=Yes` separates them. 43 FRN rows sat in the nominal-2Y benchmark pool for the tool's whole life; the 2Y indirect MIN, dealer MAX and 15th-pctile bar were all set by FRN prints, and the desk had written a rationale for why the 2Y dealer distribution was "genuinely that wide." **Tell that finally surfaced it: the 2Y window filled 12 slots in 5 months while every sibling tenor took 11–12 — a composition anomaly visible only when windows were printed side by side.** Contaminated bars were LOOSER, so every grade cleared them and no verdict changed — the superset failed silent in the direction of no alarm. Fix: filter on the primary's own type flag, with a raise when the flag list is unavailable.
 
+
+**Instance (ORACLE, 2026-09-04, n+2) — the superset is over TIME, not composition, and the error direction is FIXED.**
+
+Two desks were carrying a "September Fed" probability that no September contract ever printed. Prediction venues list **three** different Fed-hike contracts and they are routinely confused:
+
+| contract | 9/1 value | what it prices |
+|---|---:|---|
+| **September MEETING** — *the claim's actual subject* | **54.5%** | a hike **at** that meeting |
+| by-**October** cumulative | **64.5%** | a hike **by** then (Sept **or** Oct) |
+| **2026 aggregate** | **71.5%** | a hike **anywhere** in the year |
+
+BOND STATUS carried *"Sept HIKE ~65–68% priced"* — bracketing the **by-October cumulative**, matching no September contract on either venue. Measured against the instrument distribution: `KL = 0.061 bits`. Every structural check passed: the series was real, live, deep, correctly quoted, freshly dated. **Only the noun was wrong.**
+
+- **⭐ The temporal superset has a FIXED ERROR SIGN, which the composition form does not.** A cumulative by-date contract is `P(event by T₂) ≥ P(event at T₁)` **by construction** — so a cumulative read as point-in-time **always reads too hawkish/too high, never too low.** You do not need a composition pull to know the direction; you need only to notice the preposition. **"by" vs "at" is the entire check.**
+- **It recurred at a second desk three weeks after being ruled at the first.** ORACLE ruled the identical mislabel on NEXUS's board 8/18 (a `71.5%` *aggregate* carried as Sept-specific); NEXUS corrected it in place 8/28. BOND then reproduced the same error class independently on 9/1. **Two desks, same defect, no contact between them ⇒ this is a property of how the numbers are PUBLISHED, not of either desk's care.** Venues name all three contracts "Fed rate hike"; the distinguishing word is a preposition in the question text, which is exactly the part a relay drops.
+- **The contrast case in the same session shows what this defect is NOT.** A separately relayed figure — *"Fed 50bp CUT, CME ~74.5% for September"* — sat `KL = 6.619 bits` from the instrument, **~108× further**, with the sign inverted (both venues priced any-cut at ≤1%). **A superset mislabel is a small-KL error that survives review precisely because it is nearly right; a transcription/direction error is a large-KL error that anyone checking would catch.** Ranking the two in bits is what separated "wrong contract, right story" from "not this universe" — and they need opposite remedies: relabel vs re-verify at source.
+
+> ★ **Extension to the rule: when the instrument is a by-date or cumulative contract, read the PREPOSITION before the number.** "by" ⇒ superset over time ⇒ biased high. State the horizon in the same breath as the figure — *"52.5% at the September meeting"*, never a bare *"52.5% Fed hike"* — because a bare figure has no horizon attached and the next reader will supply the wrong one.

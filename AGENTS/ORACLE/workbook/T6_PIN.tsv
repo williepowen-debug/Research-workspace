@@ -1,9 +1,9 @@
 trading_day	dow	is_session	yes_close	yes_bid_close	yes_ask_close	volume	open_interest	source	capture_ts	note
-2026-08-21	Fri	Y	0.32	0.32	0.33	34347	176424	CANDLE-CLOSE	2026-08-27T14:41:24	exchange daily close, backfilled
-2026-08-22	Sat	N	0.30	0.31	0.32	325	176426	CANDLE-CLOSE	2026-08-27T14:41:24	exchange daily close, backfilled
-2026-08-23	Sun	N	0.34	0.33	0.34	182	176554	CANDLE-CLOSE	2026-08-27T14:41:24	exchange daily close, backfilled
-2026-08-24	Mon	Y	0.34	0.33	0.34	8637	183845	CANDLE-CLOSE	2026-08-27T14:41:24	exchange daily close, backfilled
-2026-08-25	Tue	Y	0.35	0.34	0.35	46786	229746	CANDLE-CLOSE	2026-08-27T14:41:24	exchange daily close, backfilled
-2026-08-26	Wed	Y	0.32	0.32	0.33	10113	230690	CANDLE-CLOSE	2026-08-27T14:41:24	exchange daily close, backfilled
-2026-08-27	Thu	Y	0.32	0.31	0.32	307	230891	LIVE-INTRADAY	2026-08-27T14:41:24	session in progress at capture; not a settled close
-2026-08-28	Fri	Y	NA	NA	NA	NA	NA	PENDING	2026-08-27T14:41:24	future session, not yet reachable
+2026-08-21	Fri	Y	0.32	0.32	0.33	34347	176424	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
+2026-08-22	Sat	N	0.30	0.31	0.32	325	176426	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
+2026-08-23	Sun	N	0.34	0.33	0.34	182	176554	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
+2026-08-24	Mon	Y	0.34	0.33	0.34	8637	183845	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
+2026-08-25	Tue	Y	0.35	0.34	0.35	46786	229746	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
+2026-08-26	Wed	Y	0.32	0.32	0.33	10113	230690	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
+2026-08-27	Thu	Y	0.31	0.30	0.31	796	231123	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
+2026-08-28	Fri	Y	0.48	0.46	0.47	53314	264291	CANDLE-CLOSE	2026-09-04T08:33:44	exchange daily close, backfilled
