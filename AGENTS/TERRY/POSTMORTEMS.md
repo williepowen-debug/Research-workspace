@@ -292,3 +292,24 @@ Design extracted **before** archiving → **`research/PLAYBOOK_flow-trigger-supp
 ### ⚙️ Two process findings from the retirement itself
 - **Reconcile EVERY surface BEFORE archiving.** Archiving removes a card from `ledger_sweep` check A, so the move **ends the only thing that would catch drift.** Doing it in that order caught **two live disagreements** (`TRADE_BOOK` still ARMABLE; a ZONE-3 template arguing with the header) that would otherwise have been frozen into the archive permanently.
 - **`FIRE_CARDS_LADDER.md` failed a THIRD distinct way** — it still read `PRE-BUILT / SHELVED` (19 days stale, corrected on three other surfaces 7/30) **and** *"BLOCKED before ARM: needs a Kharg data source"* (32 days stale — discharged 7/18). `ledger_sweep` flagged **neither**. Prior failures: 007 absent entirely (8/7), 005 SHELVED (8/4). ⚠️ **A registry believed complete is worse than one obviously partial — nobody greps a file they trust.**
+
+---
+
+## 2026-08-21 — **TRY-RESHAPE-BC / the Aug-21 bank-put dust book** — LAPSED, all five legs to `$0`. *(Written back 2026-09-03, 13 days late, off `OPEX_2026-08-21_WRITEBACK_PREREG.md`.)*
+
+**Legs and outcome** — own pulls, 8/21 regular-session closes: `OZK $45P ×4` and `OZK $42.5P ×1` (OZK **49.42**) · `KRE $60P ×3` (KRE **74.86**) · `KELYA $7.5P ×1` (KELYA **17.09**) · `VLY $14P ×1` Robinhood (VLY **14.16**). **All five expired worthless.**
+
+### The graded decision, against a line written BEFORE the outcome
+The card pre-registered: ***"ride beats salvage only if OZK <44.90 (−14.2%) by 8/21."*** **OZK closed 49.42 — up 0.3% on the day.** ⇒ **SALVAGE BEAT RIDE, and the ride cost ≈ `$41.75`.**
+
+⚠️ **Scope of that grade, stated so it is not over-read: only the OZK legs were ever sellable.** `KRE` and `KELYA` **had no bid at any price**, so riding those was **forced, not chosen** — the gradeable decision surface was `$41.75`, and it lost by a wide margin on a variable that needed −14.2% and delivered +0.3%.
+
+### The pre-registered probability resolved — and the NON-FIRE is the record
+`VLY $14P` needed a close **≤ 13.99** to exercise by exception. On 8/20 this desk measured that branch at **`P = 21.1%`** (n=247, 52 days ≤ −0.92%) against PROME's *"known-accepted ~2% tail"* — **an order-of-magnitude correction made before the event.** **It did not fire: VLY closed 14.16, UP +0.28% on expiry day, OTM by $0.16. Brier `(0.211 − 0)² = 0.0445`.**
+★ **Recorded explicitly as a non-fire.** A branch that does not fire is a graded outcome; leaving it unwritten is how a correct low-probability call silently becomes no call at all. **The 21.1% correction stands as the right analysis regardless of the draw** — a 1-in-5 that does not land is exactly what 1-in-5 looks like four times out of five.
+
+### ★ The real lesson is not the $41.75
+**`TRY-RESHAPE-BC` sat at `CONDITIONAL / DECISION-READY` for 13 days after every leg inside it had expired.** That is the phantom-position class — and **the checklist written specifically to prevent it was itself the thing never run.** The guard existed, was pre-registered the session *before* expiry, named `TRY-RESHAPE-BC` as the phantom risk by name, and was correct in every particular. **It simply was not invoked.**
+⇒ **Same class as the `boot.py:93` terminal-filter defect found and fixed the same day: detection was never the gap, INVOCATION was.** A pre-registered checklist with no trigger that fires is a memory aid, and memory is what it was built to replace. **The fix is a dated re-trigger on the file itself, not a firmer intention.**
+
+**Tags:** `GOOD_PROCESS_BAD_OUTCOME` (the VLY probability work) · `MISSED_EXIT` (the OZK $41.75, decided by riding an unsellable pair into a sellable one) · `PROCESS` (13-day write-back lag; phantom state survived it).

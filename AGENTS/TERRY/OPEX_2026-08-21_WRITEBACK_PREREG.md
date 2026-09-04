@@ -1,5 +1,11 @@
 # 8/21 OPEX — PRE-REGISTERED POST-EXPIRY WRITE-BACK CHECKLIST (TERRY surfaces)
 
+> ## ✅ **EXECUTED 2026-09-03 ~20:5x ET — 13 days late, and the lateness is the finding.**
+> **Every leg lapsed worthless 8/21** (own pulls: OZK **49.42** · KRE **74.86** · KELYA **17.09** · VLY **14.16**).
+> **§1's VLY EbE branch — pre-registered `P = 21.1%` on 8/20 — did NOT fire:** 14.16 close vs the ≤13.99 it needed; VLY went **UP +0.28%** on expiry day. **Brier `(0.211 − 0)² = 0.0445`.** ★ **Recorded as a NON-FIRE explicitly, per Step 3's own instruction** — a branch that does not fire is a graded outcome, not a non-event.
+> **§3 Step 4's phantom risk WAS REAL and this file called it:** `TRY-RESHAPE-BC` sat at `CONDITIONAL / DECISION-READY` for **13 days** after every leg in it expired. ⚠️ **The checklist that existed to prevent exactly that was itself the thing not run** — the guard was written, pre-registered and correct, and simply never invoked. *(Same class as `boot.py:93`, fixed the same day: detection was never the gap, invocation was.)*
+> **The graded decision:** the card's own line was *"ride beats salvage only if OZK <44.90 (−14.2%) by 8/21"*. **OZK closed 49.42 (+0.3% on the day) ⇒ SALVAGE BEAT RIDE, cost ≈ $41.75.** Scope stated honestly: only the OZK legs were sellable — **KRE and KELYA had no bid, so riding those was forced, not chosen.**
+
 **Built:** 2026-08-20 Thu 16:5x ET, **the session BEFORE expiry**, at PROME's tasking.
 **Purpose:** make Friday's write-back a **checklist item, not an act of memory.** The phantom-position class (a leg that expires and lives on in a registry) is what this closes — REGINALD pre-registered its KRE $60P write-back yesterday (`dea6d0c99`) after two phantom precedents in its own `LESSONS`.
 
