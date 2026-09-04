@@ -43,6 +43,15 @@ Alecta (Sweden's largest occupational pension manager, ~SEK 1.3T AUM) held ~SEK 
 
 Also refreshed to the 9/2 close: 30Y 5.27 · 10Y 4.79 · 2Y 4.39 · **HY 266** · **CCC 1053 (another fresh 2026 high)** · IG 81 · 30Y run **42 sessions, 58 days in 2026**.
 
+## 🔴 WQ-157 leg ① — RULED MID-SESSION AND ENCODED SAME SESSION (not deferred)
+
+**Will, verbatim 2026-09-04 08:44 ET: *"Approve 157 with your rec."*** Relayed by PROME; **verified at three independent artifacts before acting** — the packet file, commit `b0b68f9fa`, and `PROME/WILL_QUEUE.md` row 157. Record: `PROME/proposals/2026-09-04_wq157-leg1-RULED.md`.
+
+**Operative sentence, now on the kill surface:** **`I'` STANDALONE THROUGH 2026-09-10; PAIRED THEREAFTER — PAIRING INSTRUMENT OWED.** Through the refunding nothing changes and a bare `I'` fire moves nothing; after it the kill is `I'` + a non-auction MECHANISM confirmation. `I'` stays the 🟠 marker permanently; **RETIRE rejected.**
+**Encoded on:** `thesis/THESIS.md` Exit §1 + version (**v1.2.1 → v1.2.2**, H1 and Version field bumped together) · `thesis/CHANGELOG.md` · `STATUS.md` Exit §1 · `docket/CATALYSTS.tsv` (9/18 row) · `KB-BND-233`. PROME's ACTION line said *"at your next boot"* — treated as a floor, not a ceiling, because the window was open.
+
+🔴 **LEG ② feasibility established BEFORE the build, and it found a hard ceiling** (`KB-BND-234`): probing the NY Fed API directly, `PDPOSGSC-G11L21` and `PDPOSGSC-G21` return **ZERO usable rows on SBN2015 and SBN2013**, while `PDPOSGSC-G7L11` returns **365 and 92**. ⇒ **the long-end bucket structure was introduced at the 2022-01-05 series break; the join is bounded at n=243 weekly prints by the ISSUER's reporting, not by tooling.** Workable — it spans the 2022–23 hiking cycle and SVB. **An empty series under a clean 200 is the exact shape of the defect `fr2004_fetch.py` was built to fix, so an unchecked build would have shipped a short reference set and reported it as the full history.** ⚠️ **SBN2022/SBN2024 bucket-definition comparability is STILL UNCHECKED** — same keyids is necessary, not sufficient; the 9/18 deliverable must state that verdict explicitly.
+
 ## Files written
 
 `STATUS.md` (dashboard, gate table, FR2004 block, matrix rows 1 & 3, trade interface, BOTTOM LINE, next-dated) · `monitors/AUCTION_HEALTH.md` (**WQ-162 grading-basis declaration — 13 elements incl. the FRN exclusion rule written ON the bar, STRICT operator, pooled-governs convention**) · `workbook/KB.tsv` (`KB-BND-229/230/231`) · `SCRATCH.md` · this file · 3 outbox packets (ZHAO · PROME · RED), each copied to the recipient inbox.
@@ -55,4 +64,4 @@ Also refreshed to the 9/2 close: 30Y 5.27 · 10Y 4.79 · 2Y 4.39 · **HY 266** �
 - **`MEMORY.md` 31,839 B = 98% of the 32,550 B read budget**; **`STATUS.md` now ~31.2 KB = ~96%.** Both need rotation next session, STATUS newly so.
 - BTP-Bund **48d stale** — refresh before the 9/10 ECB. `^MOVE` not re-pulled. SOFR−IORB re-test still owed.
 
-**Position: TLT puts HOLD, no add. Book untouched. $0. Composite 12/35 — tenth consecutive unchanged session.**
+**Position: TLT puts HOLD, no add. Book untouched. $0. Composite 12/35 — tenth consecutive unchanged session.** *(WQ-157 leg ① changed a SPEC, not a position: nothing moved, and the change TIGHTENS a kill on this desk's own live book after 9/10.)*

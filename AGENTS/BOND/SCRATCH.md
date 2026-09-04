@@ -1,4 +1,4 @@
-# BOND SCRATCH — 2026-09-04 (Fri) ~09:0x ET. Will-spawned boot + PROME doorbell (bond-29). Rewritten clean at closeout.
+# BOND SCRATCH — 2026-09-04 (Fri) ~09:2x ET. Will-spawned boot + PROME doorbell + **WQ-157 leg ① RULED and ENCODED same session** (bond-29). Rewritten clean at closeout.
 
 **Purpose:** ephemeral session handoff. Read at boot, rewritten at closeout. **Durable learnings → `MEMORY.md`; permanent evidence → `workbook/`. This file is disposable and must be executable COLD.**
 
@@ -6,6 +6,8 @@
 > **All BOND work committed. Inbox 4 → 0. No blocked action, no partial edit.**
 > **Position UNCHANGED: TLT puts HOLD, no add. Composite 12/35 (10th consecutive). Book untouched. $0.**
 > 🔴 **ADD-GATE 5bp AWAY — DFII10 2.45 [9/2], the CLOSEST APPROACH OF THE EPISODE.** Three surfaces said 6bp until this session.
+> 🔴🔴 **WQ-157 LEG ① RULED 9/4 08:44 ET (Will: *"Approve 157 with your rec"*) AND ENCODED THIS SESSION — the kill's composition leg is TIME-SPLIT: `I'` STANDALONE THROUGH 2026-09-10; PAIRED THEREAFTER, pairing instrument OWED. Through the refunding NOTHING changes and a bare `I'` fire moves nothing. THESIS v1.2.2.**
+> 🔴 **LEG ② OPEN, BLOCKED ON THIS DESK — the FR2004 weekly join, DATED 9/18 on CATALYSTS (never a silent wait). Ceiling known: long-end buckets don't exist before 2022-01-05 ⇒ max n=243 weekly prints. SBN2022/SBN2024 comparability STILL UNCHECKED and the 9/18 deliverable must state that verdict out loud.**
 > 🔴 **REFUNDING GRADES 9/8–9/10 ON FROZEN BARS — READ them, do not re-derive.** Their full grading basis is now written at `monitors/AUCTION_HEALTH.md` § GRADING BASIS (WQ-162, discharged 9/4).
 > ⛔ **NO `git pull` THIS SESSION** — `AGENTS/SAM/` had 5 uncommitted files; protocol says STOP. **Local HEAD may be behind origin — pull FIRST next session if SAM is clean.**
 
@@ -30,7 +32,7 @@
 0. ⛔ **PULL FIRST** if `AGENTS/SAM/` is clean — this session could not, so local may be behind origin.
 1. 🔴 **9/8 · 9/9 · 9/10 — GRADE THE REFUNDING ON THE FROZEN BARS, DUAL-PRINT BOTH DEFINITIONS, record all three `BND-23` legs individually.** Basis is now written down (§4 above) — READ it, don't re-derive. **An `I'` fire alone is NOT a kill until Will rules on WQ-157 leg ①.** WQ-99: the ADD re-arm is the OLD test.
 2. 🔴 **FROM 9/9 — route the F2 read to RED PER OP** (`RED-FT-11` v1.1 gated on it, RED will not rebuild). Never batch. Ops 9/9 → 11/4, ≥$4bn/op, 10–20y + 20–30y.
-3. 🟠 **Owed to PROME/Will after the refunding: the FR2004 weekly join**, so the PAIR option can be base-rated on a MECHANISM yardstick instead of TLT-5d. **This is the blocker on the kill-leg ruling and I said so.**
+3. 🔴 **9/18 — DELIVER THE FR2004 WEEKLY JOIN** (docketed, `KB-BND-233`/`234`). It is the pairing instrument WQ-157 leg ② is blocked on; **nothing is base-rated on the pairing until it exists.** Ceiling: n=243 weekly prints max (130 SBN2022 + 113 SBN2024), 2022-01-05 forward — the 11-21Y/>21Y buckets DO NOT EXIST earlier at the issuer. ⚠️ **STATE THE SBN2022/SBN2024 COMPARABILITY VERDICT EXPLICITLY — same keyids is necessary, NOT sufficient; if non-comparable, usable n falls to 113 and the join loses the 2022-23 stress period, which is the half that matters.**
 4. 🟠 **`BND-22` is live and at its narrowest margin (5bp).** Resolves on the **9/14** publication of the 9/11 close. Do NOT resolve early.
 5. 🟠 **9/4–9/5 — re-test SOFR−IORB** (+3bp [8/31] was month-end) and **re-run `dm_cross_section.py`** 9/1-inclusive (UK the binding stale leg).
 6. 🟠 **BY 9/11 — hand-verify the `docket_check` BLIND SPAN 9/11→9/25 against the Treasury QRA** (20Y ~9/16 · 10Y TIPS ~9/17 · month-end 2Y/5Y/7Y ~9/22-24 pattern-expected, NOT confirmed). `docket_check` deliberately refuses to adjudicate it.
