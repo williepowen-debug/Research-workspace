@@ -1,6 +1,6 @@
 # NEXUS — LAST COMPLETION
 
-**Pass:** 2026-09-02 Wed ~20:17 → ~22:xx ET · **SYSTEMS-REVIEW SESSION (DOCKET L206)** · PROME-spawned, Tier-1 dark-owner drain + open Will-approved commission · 5-day gap since 8/28.
+**Pass:** 2026-09-03 Thu ~19:48 → ~20:1x ET · **DARK-OWNER INBOX DRAIN** (PROME session prome-8c, Tier-1 follow-up spawn; markets closed; no pull — WALTER/BROCK/TERRY live in the tree) · 1-day gap since the 9/02 systems-review close.
 
 ---
 
@@ -8,110 +8,61 @@
 
 | # | Unit | Result |
 |---|---|---|
-| 1 | **THE COMMISSION — self-audit improvement slate (leg ①)** | ✅ `proposals/2026-09-02_self-audit-improvement-slate.md` — **11 ranked items**, war-triad format, SELF/WILL/CROSS, **proposals only**. 9 HEALTHY findings recorded. **§DIFF opened only after items 1-11 were on disk.** |
-| 2 | **READ-CAP CURE (DAEDALUS PR#5 condition #1 + root canon)** | ✅ **46,471 B → 32,376 B**, verified `✅ READ-CAP 0`. **13 crc32 blocks VERBATIM → `STATUS_COLD.md`** (59,469 B). Zero live state dropped, budget not raised. 🔴 **Took THREE passes — pass 3 was PROME's obligation diff, which found my split had DELETED two live obligations from BOTH files. See §POST-SPLIT AUDIT.** |
-| 3 | **FULL MATRIX REVIEW (PR#5 condition #2) + inbox drain both lanes** | ✅ Board re-anchored 8/18→9/02, **23/23 items drained** (22 + one late mover), split re-marked **21/44/35 → 20/47/33**. |
-| 4 | **9/11 PRE-REGISTRATION + WQ-105 discharge** | ✅ `research/2026-09-02_t12_respec_admission_gate_prereg.md` (frozen). WQ-105 ACTIONs (a)-(e) all executed. |
+| 1 | **Inbox drained, every sender — 7/7** | WALTER lane 4 (`-003` PJM **acted** · `-006` CREED 12.00 **noted** · `-008` OTTO 30/30 **noted** · `-012` route census **acted**) + root 3 (PROME WQ-163 item 1 **acted** · RED **acted** · VULCAN **noted**). All logged to `board_log.tsv` first, then `git mv` → `processed/`. |
+| 2 | **WQ-163 item 1 CURED** — `PREDICTIONS_MONITOR.md` hot/cold split + obligation re-homing | **59,146 B → hot 21,624 B** (40% of cap) + **`PREDICTIONS_COLD.md` 48,029 B**, 12 verbatim crc32 blocks, every source line script-asserted as cold / hot-verbatim / structural (0 unaccounted, 0 double-homed). **Obligation ledger** → `research/2026-09-03_predictions_monitor_split_obligation_ledger.md`: **29 items — 15 live re-homed HOT · 14 discharged with the evidence named · 0 deleted · 2 SURFACED by the audit** (below). Charter's two verbs reconciled (BOOT step 3 = whole read); `read_cap_check` now COUNTS the file. |
+| 3 | **PJM §202(c) dispositioned for the convergence anchor** | **NEW evidence TYPE, ARMED NOT COUNTED, 0pp** (reasoning below). Split **UNCHANGED 20/47/33** — the registered falsifier is T-12 and this is not it (Disc-J). |
+| 4 | **9/11 second-C pre-flight** | Letter ✅ frozen (ADDENDUM 2) · gate ✅ frozen (9/02 prereg) · basis ✅ FRED closes, both series named · 🔴 **window START was NEVER PINNED** — pinned 9/03 pre-event (L1a), flagged to PROME for objection. Item ⑤'s T-12 successor candidates: **UNCHANGED** (the PJM signal touches none of the four). |
 
 ---
 
-## 🔴 THE THREE FINDINGS THAT OUTRANK THE NUMBERS
+## 🔴 THE TWO THINGS THE OBLIGATION AUDIT SURFACED (a byte census could not have)
 
-### 1. The blind reproducibility test FAILED, and it failed on the slate's own item 1
+1. **The C#2 evaluation had a DATE and no WINDOW START.** The 8/28 resolution says *"next evaluation ~9/11"* three times and never says which FRED cells the sustained-3 runs and the retracement leg are computed over (SEARCH-NOT-FOUND: `grep -iE 'second|9/11|window'` on the resolution file). The 9/02 finding was *"the resolution WINDOW is the one construction parameter nobody base-rated"* — and the desk that wrote it had left the next window unpinned the same night. **Pinned 9/03: FRED cells 2026-08-28 → 2026-09-10 inclusive**, grade at the first boot on/after 9/11, grade-date class rule applies. Pinned by the interested party before the event; the letter, thresholds and instruments are untouched; PROME/Will can object before 9/11.
+2. **PRED-45's re-mark was queued 8/28 "for the ≥8/29 sweep" and the 9/02 "full matrix review" did not do it.** The review re-read every MATRIX row against its owner's output; it did not re-read the PREDICTIONS rows' own queued asks. `[[finding_summary_section_merges_what_the_body_separates]]` in its scheduling form: the completeness claim was about one table and read as if about the desk. **Owed with PRED-43 (7/22-vintage Kharg premise) at the next full pass, ≤9/11** — not done tonight on purpose: a 35% re-mark on a venue that changed character is not tail-of-drain work.
 
-Both readers measured `PREDICTIONS_MONITOR.md` at **57,566 B = 106% of the read CAP**. **DAEDALUS's same-day correction DELETED the row** as a "scoped" read. NEXUS's own `CLAUDE.md:235` calls that file **"Full at boot"** — while `CLAUDE.md:33` says "scan". ⇒ **the desk's largest boot surface is unmeasured because a read-cap perimeter is defined by a VERB and this owner wrote two verbs.**
-⭐ **The correction's stated "one-directional bias (a scoped read can only OVER-count)" is wrong wherever the owner's own surfaces disagree — there it under-counts and the file drops off the report entirely. It traded a loud false-positive for a silent false-negative.**
-⭐ And DAEDALUS's ORIGINAL packet already named the right disposition — *"a whole-read claim on a file this size is the defect either way"* — **which the correction discarded.** Routed to DAEDALUS as R7-stage-2 `READS.tsv` design input: **a declaration file inherits this defect unless it is validated against the desk's other read-describing surfaces.**
+## PJM §202(c) — the evidence-TYPE reasoning (count types, never desks)
 
-### 2. My own new rule caught my own draft successor, before freezing — and then found something better
+- **What it is:** DOE Order 202-26-41 (9/1 → 23:59 ET 9/8) authorises PJM to direct backup generation **at LARGE LOADS** before an EEA-3. VERIFIED at the REGISTERED rows, not the gloss: `AGENTS/WATT/workbook/PREDICTIONS.tsv` WATT-02 = HIT **on the 202(c) limb** (the posting limb did NOT fire — EEA-1 is not EEA2+); WATT STATUS row P1 = 5; PROME DOCKET L249.
+- **Type already counted in M-09/R4?** No. M-09's legs are **filings/disclosures** (HEN-36 capex/FCF; DEWEY REQ-001 order-book split) and **market repricing** (ORCL/NVDA CDS; ERCOT forwards as the counter). An **executed regulatory-operational action that treats datacenter load as the dispatchable margin** is a third class — the power-constraint leg arriving as an instrument used, not a projection.
+- **Why ARMED and not COUNTED:** ① the ROOT is weather (season peak 152,518 MW; WATT itself says count the September heat root once with P4); ② the clause was **not exercised** — no EEA-2/3, so no large-load direction was issued: Disc-A threshold met, mechanism untested; ③ single episode with a published end date — Disc-B "needs 2nd print." **Converts to COUNTED** on: invocation · extension past 9/8 · or the FERC IRAS order (~10/12–10/31, DOCKET L200) making large-load cost-bearing structural (Door A/B; WATT-10).
+- **WALTER's "second leg for CARL" (electricity → CPI) DECOMPOSED and not carried (Disc-G):** WATT's own `FL-WATT-02` names the **capacity-auction pass-through, annual cadence** as the cost channel — *"not P1 spikes."* A 9/1–9/8 wholesale spot event is September CPI at the earliest and not through this channel. Written on T-10 so the weld cannot re-form.
+- **Counter-signal integrity (Disc-D):** PJM RT $1,868.78 [9/2] is a weather SPOT print in a different RTO; it does not refute the ERCOT FORWARD counter (Cal-27 ~$42, all four strips lower). Written on T-11.
 
-Applying slate item 3's rule (**base-rate reachability against the AMENDED text**) to the draft T-12 successor, at primary, **n=503 CCC OAS sessions**:
-- Draft (absolute): **CCC ≥1100 = 1.2% · CCC ≤950 = 83.3%** — **asymmetry 69×. This is 0.0/85.9 again, three weeks later, on a different instrument, drafted by the desk that had just written the lesson down.** REJECTED.
-- Repaired to symmetric **relative** thresholds (regime cannot decide the outcome) — **still fails**: ±40/50/60/75bp all give NO-VERDICT 86-96% at a 7-session window.
-- 🔴 **The window sweep is the finding: NOTHING is admissible at ANY threshold below 21 sessions. The 8/28 falsifier ran ELEVEN.** Minimum admissible = **21 sessions, ±50bp** (BREAK 27.4% / GRIND 17.0% / NO-VERDICT 55.4%, ratio 1.61).
-> ⭐ **The resolution WINDOW is a construction parameter and it is the one parameter nobody base-rated.** Every argument about that falsifier — mine, RED's, the ruling's — was about the **thresholds**. The window came from the calendar and was never tested. **C was over-determined twice: once by the levels, and independently by the clock.**
-- ⚠️ **Regime-conditional check published alongside, as the gate now requires:** the asymmetry **INVERTS** (BREAK 2.8% / GRIND 27.8%, n=36). Publishing one figure would have hidden it. `[[finding_historical_fire_count_assumes_one_regime]]` — BROCK filed this counter against itself on 8/28 and it applies here.
+## OTHER BOARD CHANGES
+- **M-04 / R7:** RED **WITHDREW** SKEW 149.23/0.77 (a NO-VERDICT read off a gapped series) → closest approach **149.77 [8/28] = 0.23 below**, latest **144.12 [9/2]**, FT-10 NOT FIRED s=0. Two cells corrected.
+- **Docket 8/18→9/02 row:** RED fixed the JH date **and refuted my premise** — kansascityfed.org returns 200 to WebFetch; the "403" was a tool-path artifact three desks believed. Carried: *a declared data wall should name the TOOL that hit it.*
+- **T-24:** SAM's 9/3 30Y read folded — internals SOFT on a 2.1bp tail vs a 2.0 bar (quantization-width margin); CH-016 ⚪ as pre-registered; the NO-VERDICT counter still starts at the 9/29 40Y.
+- **Slate line:** item 1 RULED + cured; items 3/4/⑤ with Will — NOT re-argued. RED's item-4 contest (threshold-vs-instrument axis; *de-dup the COUNT, never the INSTRUMENT*) noted as on file, nothing more.
+- **Own charter (`CLAUDE.md`, 4 edits):** BOOT step 3 = whole read (rule 16) · §WHAT YOU READ row reconciled · `PREDICTIONS_COLD.md` added to §WHAT YOU OWN · **§CROSS-AGENT SIGNALS: the ANALYSIS-vs-SIGNAL distinction written** (raw signals → WALTER's inbox, never direct). NEXUS was NOT named in the route census — VERIFIED by running `walter_route_check.py` (leg A) — but the never-fired leg-B rule was unwritten; now it is.
+- **STATUS byte cost of this session, paid inside the budget:** the PJM disposition + corrections cost ~2.5 KB; paid by compacting 9/02 REASONING cells whose STATE lives elsewhere (T-12 gate narrative → prereg pointer; resolved docket row; gamma/FT-01/T6 narrative; Δ-convention → charter pointer). **Final 32,508 B = 42 B of headroom** — the next session that adds a cell must cut first. Line count 170.
 
-### 3. Disc-I ran as a memory instead of as a check, and it cost 9 board cells for 21 days
+## 📏 RECEIPTS (`PROME/tools/measure.py`, wc semantics)
 
-`STATUS.md` carried **"Kharg 1.5M bpd offline"** in **9 places across 5 sections**. WALTER `SIG-W-20260831-001`: the **strike was an AI-generated video** (FAL-01 FIRM-NEGATIVE) — **and the underlying blockade STATE had lapsed: loading RESUMED 2026-08-12.** My own Discipline I says *"a STATE has a DURATION and needs a lifted-check, not a memory of the start date"* — written 7/31, after the last propagation of this exact class.
-⭐ **A discipline with no FIELD on the surface it governs is a discipline that runs only when remembered.** Proposal (slate item 5): every STATE cell carries a `lifted-check: <date>` stamp that ages like the Δ-column.
-
----
-
-## BOARD OUTPUT
-
-**Split: Break 20% (↓1) · Grind-lasts 47% (↑3) · Unresolved-divergence 33% (↓2).** ⚠️ **Evidence re-weigh, NOT a falsifier-forced move** — the T-12 falsifier fired C #1 of 2 and forces nothing; written as such per Disc-J. **Unresolved's first move in four marks** (was 38/38/38/35/35/35).
-
-**The weighing, by evidence TYPE not by desk or headline** (the 8/30 Kharg case is why): the window's defining feature is that **six previously-open instrument questions were CLOSED by their owners in five days — and five closed against the bear.** PortWatch's veto (FALCON + BRENT, both) · BOND's T6 · HENRY's HEN-42 · HOMER's HOM-01 · WALTER's Kharg correction. **Break lost two legs of its weakest root (oil-physical) and gained one genuinely new root. Grind gained three data points graded by their own owners as losses to their own books** — this fleet's highest-quality evidence class. **Unresolved falls because ambiguity became verdicts, not because the divergence resolved.**
-
-**Matrix (full review, dated 9/02):** M-03 **↓4→72** (HEN-42 DENY; C-36 ruled a SPLIT) · M-05 **↑3→48** (GATE-REG-T02 fired, mechanism disowned by its owner) · M-06 **↓5→43** (Kharg + PortWatch, two legs lost) · M-07 **↑3→81** (LABOR ×2 self-graded, HOM-01, HY widening off the kill) · M-09 **↑4→66** (DEWEY REQ-001: order book SECTOR-SPLIT) · M-10 **↓2→30** (record MOF intervention, FIMA zero, 61% retraced) · M-11 **↑3→51** (first counterparty ACTION) · M-01 / M-04 / M-08 **held, dates NOT bumped where nothing material moved.**
-🆕 **R11 China domestic demand PROMOTED from watch to a live break root** (construction 46.9 = NEW record low, 2nd month, same attribution — ZHAO: *"a distortion that recurs is a condition"*). **Fleet effective-N 4 → 5.** ⚠️ **Counted honestly, the break base ROTATED, it did not widen.**
-
-**Disc-H, load-bearing twice:** `HY <260 s3` is now **FOUR desks, ONE line** (branch B · RED-FT-12 · HENRY's kill leg · LIQUID's GATE-HY-REKILL). **And three separate desks carry one-sided conjunctions whose easy leg is near and whose hard leg recedes** — REGINALD's re-arm leg (a) is **1bp away at CCC 1049** while leg (b) is 7bp out of reach and receding. **Disc-H changes the COUNT and has no ACTION** — slate item 4, routed to Will as a fleet question because I am one of the four.
-
----
-
-## 🔴 POST-SPLIT AUDIT — PROME's obligation diff (run AFTER the first push; it found real defects)
-
-**PROME's instruction, off ZHAO's same-day instance (`1760582bd`): audit the split by OBLIGATION, not by bytes or lines — ZHAO's split moved an owed action verbatim into cold and the fresh hot list carried every other item forward without it.** Run against the pre-split artifact at `58eca316c^`. **It found three, and they are mine.**
-
-| Pre-split obligation | Disposition after MY split | Verdict |
-|---|---|---|
-| **Gamma flip — "Vintage 8/6, refresh owed by owner"** | **In NEITHER file** | 🔴 **DELETED, not relocated.** Worse than ZHAO's case: hers went cold, mine vanished. **RESTORED HOT**, now marked `[STALE 8/6, 27 days]` with HENRY named. |
-| **OTTO 8/17 10-D panel — "legs owed to Will BEFORE"** | **In NEITHER file** | 🔴 **DELETED.** It lived inside the CARL→REGINALD chain cell and died when I compacted that cell. **RESTORED HOT** in the same link. |
-| **RED's FT-01 demotion guard** (*"do NOT key anything to RED's kill line at 280"*) | Cold only | 🟠 **A live INSTRUCTION pushed into an archive.** **RESTORED HOT** as a standing guard row. |
-| (a) commission · (b) matrix re-anchor · (c) 9/11 re-spec · (d) rollup · (f) T6+ORACLE · MIDAS row 51 · BROCK <270 · RED-FT-09 · OSPREY · TTF · R9 · C-35 | hot, or discharged with the discharge visible on a boot-read surface | ✅ **clean, 12 of 15** |
-| (e) VULCAN §4.5 + HOMER ordering | **discharged this session**; discharge is on a boot-read surface (`NEXUS_BRIEF_SCHEMA.md` §4.5 + §4.6) | ✅ clean |
-
-⭐ **THE RULE THIS PRODUCES: a hot/cold split must be audited by OBLIGATION, because a byte or line census is STRUCTURALLY BLIND TO A DELETION.** Both my earlier checks — `measure.py` and `read_cap_check.py` — returned green on a file that had silently lost two owed actions. **The instruments were working; they were answering a different question.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`.
-⚠️ **Second-order, recorded against myself:** my first survival scan used fuzzy substring matching and produced **five false positives** (JGB, T6, BROCK <270, 10Y/30Y, Core CPI all read as "dropped" when they were present under reworded labels). **Hand-checking was what separated the two real drops from the five relabels** — `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`, which is in my own loaded HOT index and which I ran into anyway. **At n=21 rows the definition-plus-read beats the detector, exactly as slate item 8 says.**
-
-## 📏 BOOT-READ TOTAL, before → after (PROME's second ask — MIDAS's failure mode)
-
-| Surface | BEFORE | AFTER | Δ |
+| Surface | Before (`c2dbc635a`) | After | Δ |
 |---|---:|---:|---:|
-| `STATUS.md` | 46,471 | **32,376** | **−14,095** |
-| `templates/NEXUS_BRIEF_SCHEMA.md` | 22,909 | 28,971 | **+6,062** |
-| `SIGNALS.md` | 6,859 | 9,393 | **+2,534** |
-| `CONFIRMED.md` | 7,216 | 7,216 | 0 |
-| **INSTRUMENT-SCOPED BOOT-READ TOTAL** | **83,455** | **77,956** | **−5,499 (−6.6%)** |
-| (+) `CLAUDE.md` (auto-injected) | 50,948 | 50,948 | 0 |
-| (+) `PREDICTIONS_MONITOR.md` (contested, item 1) | 57,566 | 59,146 | +1,580 |
-| **WIDEST BOOT-LOAD TOTAL** | **191,969** | **188,050** | **−3,919 (−2.0%)** |
+| `PREDICTIONS_MONITOR.md` (boot read) | 59,146 (crc32 3831447128) | **21,624** | **−37,522** |
+| `PREDICTIONS_COLD.md` (off path, new) | — | 48,029 | +48,029 off-path |
+| `STATUS.md` (boot read) | 32,376 | **32,508** | +132 |
+| `CLAUDE.md` (auto-injected) | 50,948 | 52,632 | +1,684 |
+| **`read_cap_check --agent NEXUS`** | READ-CAP 0, **4 files, PREDICTIONS uncounted** | **READ-CAP 0, 5 files** — STATUS 60% · SCHEMA 53% · PREDICTIONS 40% · SIGNALS 17% · CONFIRMED 13% | rc=0 |
 
-✅ **MIDAS's exact failure mode did NOT occur: `STATUS_COLD.md` (59,469 B) is not named as a read anywhere in the boot section** — verified by grep, not assumed. The cut material did not go to a live register.
-🔴 **But a sibling of it DID, and the honest headline is the composition, not the −5,499:** **62% of the 14,095 B I cut from STATUS was consumed by growth on TWO OTHER boot-read surfaces in the SAME session** — the schema (+6,062, amendment 12 + the §4.6 CAP) and SIGNALS (+2,534, the DEWEY correction). **Every per-surface check passes and the total barely moved.** ⭐ **A per-surface budget with no total is a budget a single session can satisfy on one file while spending the savings on two others.** Offered to DAEDALUS/READ_CAP as a design question — **not proposed as a rule**, because a total-load cap would trade against the spec-text rule (inline-first) and that trade is not mine to price.
+Rule 17 (same commit): the cut material went OFF the reading path ⇒ the cost paid is the obligation enumeration (29 items), measured in the ledger.
+
+## CLOSEOUT 9c — read-or-defer (17 owner surfaces committed after the 9/02 close)
+**Read:** WATT STATUS/brief (PJM, at the registered rows) · RED brief/STATUS (via packet; SKEW) · VULCAN brief (via packet) · SAM brief (9/3 30Y, T-24) · LABOR brief (KFRC grade liveness, ledger O27). **Deferred in writing to the next full pass:** MARCO · CARL brief · LABOR STATUS (pre-NFP) · BROCK STATUS (14:54) · WALTER STATUS · TERRY STATUS (19:29 — TRY-FIRE-004 / ROLL70 figures on my board inherit 9/02) · WAL · OSPREY · CRUISE · CREED · CORAL · HOMER · DAEDALUS · FERT. **Board marked "delta-annotated, NOT re-swept" in the STATUS header.**
+**Late movers DURING this session (re-scan at 20:05 ET):** LIQUID STATUS 20:03 (co-ACTION on `-003`; commit subject: *"PJM out of perimeter"* — deferred, subject carried to PROME) · BROCK STATUS 19:52 (deferred; BRK-30 / BCRED backstop 9/8 inherits 9/02).
 
 ## FILES CHANGED
-
-**Created:** `proposals/2026-09-02_self-audit-improvement-slate.md` · `STATUS_COLD.md` · `research/2026-09-02_t12_respec_admission_gate_prereg.md` · `outbox/2026-09-02_to-PROME_self-audit-slate-drain-and-split.md`
-**Modified:** `STATUS.md` (rebuilt, 32,526 B) · `PREDICTIONS_MONITOR.md` (PRED-49 graded MISSED) · `SIGNALS.md` (S-26082801 leg (a) weakened at primary) · `templates/NEXUS_BRIEF_SCHEMA.md` (amendment 12 + §4.6 CAP) · `archive/2026-08-28_BRIEF_SCHEMA_decision-log_and_review-history.md` (watch graded) · `board_log.tsv` (+14 rows) · `LAST_COMPLETION.md`
-**Packets authored (carve-out ①, committed by author):** HOMER · VULCAN · DAEDALUS · RED · PROME (`PROME/inbox/`, repo root — **not** `AGENTS/PROME/`)
-**Moved:** 22 inbox items → `processed/` via `git mv` (8 root + `_HELD_UNOPENED_NOTE.md` + 14 WALTER lane, all logged to `board_log.tsv` first).
-
-## WQ-105 — DISCHARGED (Will 9/1 *"approve all of those with your recs"*)
-
-(a) ✅ watch graded **MISSED** on its own letter — `PREDICTIONS_MONITOR.md` **PRED-49** *and* the schema archive (closeout **9b** cross-surface check: a state change must reach every surface carrying it) · (b) ✅ **amendment 12 encoded** — `## CROSS-DOMAIN` is now the FIRST body section of the full variant, zero text added · (c) ✅ **CAP written: §4.6, the schema stops at 12**; a 13th change triggers a **RE-SPEC SITTING** (whole schema re-opened as R4, Will-gated, amendments 7-12 re-argued from evidence or dropped) — **with its own falsifier registered so it cannot become a ratchet** · (d) ✅ **VULCAN's held revert RELEASED**, condition MET · (e) ✅ **HOMER packeted**, defect accepted verbatim.
-
-## ⚠️ NOT DONE AND OWED
-
-- **R9 (Russia/Ukraine) unswept at owner level** — **marked `[STALE 2026-08-17]` on the antecedent map rather than inherited as current.**
-- **`RED-FT-09` (5y5y, 21 sessions stale) and `OSPREY` Channel-3 (8/15)** — owner-stale, flagged in-cell, not refreshed by me.
-- **Fallback rollup #5 not run** (#4 shipped 8/28; the 62% pin-gap retraction stands).
-- 🔴 **`PREDICTIONS_MONITOR.md` at 59,146 B is UNCURED** — deliberately. Slate item 1 routes the "which verb is correct" question to **Will**, because I am the interested party in an answer that decides whether this desk has one over-budget boot surface or two.
-- **Retirement backlog:** 3 files clean-eligible (>60d, 0 live refs), 3 unresolved pending a referrer-liveness check. **Nothing moved** — proposals-only, and a retirement sweep at the tail of a long session is the pattern the 8/28 briefing correctly refused.
+**Created:** `PREDICTIONS_COLD.md` · `research/2026-09-03_predictions_monitor_split_obligation_ledger.md`
+**Modified:** `PREDICTIONS_MONITOR.md` (rebuilt hot) · `STATUS.md` · `CLAUDE.md` · `board_log.tsv` (+7) · `LAST_COMPLETION.md`
+**Moved (`git mv`):** 7 inbox items → `processed/` (4 WALTER lane, 3 root)
+**Packet authored (carve-out ①):** `PROME/inbox/2026-09-03_from-NEXUS_drain-7of7-WQ163-item1-CURED-PJM-armed-not-counted-C2-window-pinned.md` — PROME's inbox is `PROME/inbox/` at repo ROOT, **not** `AGENTS/PROME/`.
+**Not touched:** `BRIEFS_MAP.md` (VULCAN's compact→full variant flag at line 59 is now stale — deferred, flagged) · `CONFIRMED.md` (no state change) · `SIGNALS.md`.
 
 ## PROMOTION SCAN (closeout step 14)
-
-**Cross-agent transferable — candidates, NOT written to `memory/auto/` this pass** (dedup-before-create is the default and each is close to an existing memory; flagged to PROME rather than creating near-duplicates):
-1. **"A resolution WINDOW is a construction parameter"** — extends `finding_hypothesis_needs_an_instrument_for_its_defining_mechanism` / the prediction-canon set. **Strongest candidate; n=1 but measured at n=503.**
-2. **"A perimeter defined by a verb inherits the owner's ambiguity"** — extends `finding_instrument_reports_clean_against_the_wrong_reference` (perimeter form, already at n=18).
-3. **"A hot/cold split must separate STATE from REASONING, not current from historical"** — new, from this session's two-cut cure; useful to every desk still running the read-cap remedy.
-4. **"A discipline with no field on the surface it governs runs only when remembered"** — extends `finding_mechanize_the_cap_not_the_ritual`.
+**None written to `memory/auto/` this pass.** One candidate, flagged to PROME rather than created (dedup-before-create): *"an evaluation DATE is not a WINDOW — a re-spec that names when it grades and not what cells it grades over has left a construction parameter unpinned"* — extends the 9/02 candidate #1 (*the resolution window is a construction parameter*), n=2 same desk, 24h apart. If PROME promotes the 9/02 candidate, this is its second instance.
 
 ## NEXT BOOT OWES
+(a) **9/4 NFP + T-03 (FLAT 58.9% EPOP) + MIDAS-08** same-day fold · (b) **9/5–9/8 BRENT's re-specified PortWatch control** (T-20, M-06, C-35's grading line) · (c) **BCRED `SC TO-I/A` backstop 9/8** · (d) 🆕 **9/8 23:59 ET DOE 202-26-41 lapse — extension/invocation converts M-09's ARMED type to COUNTED** (WATT grades) · (e) 🔴 **PRED-45 + PRED-43 re-marks** (missed 9/02) · (f) 🔒 **9/11 — grade C#2 on the frozen letter over the PINNED window FIRST; then the ADMISSION GATE against the four candidates; none clears ⇒ register NO successor and escalate** · (g) the 14 deferred owner surfaces above · (h) R9 owner sweep · (i) fallback rollup #5 · (j) BRIEFS_MAP VULCAN variant flag.
 
-(a) **9/4 NFP + T-03** (fires on a **FLAT 58.9% EPOP** — LABOR's referent rolls Apr 59.1 → May 59.2) + **MIDAS-08**, same-day fold · (b) **9/5-9/8 BRENT's re-specified PortWatch control** — it decides T-20, M-06 **and** C-35's grading line · (c) **BCRED `SC TO-I/A` letter, backstop 9/8** · (d) 🔒 **9/11 — grade C #2 on the frozen letter FIRST, then run the ADMISSION GATE against the flow/volume candidates; if none clears, register NO successor and escalate** · (e) **R9 owner sweep** · (f) **fallback rollup #5.**
-
-**Push:** see the receipt line quoted in the outbox packet.
+**Push:** receipt line quoted in the PROME packet and the session's final message.
