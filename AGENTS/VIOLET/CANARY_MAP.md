@@ -47,6 +47,27 @@
 
 A canary is **DARK** when its last pull exceeds 2× its stated cadence (EOD instruments: >2 trading days; weekly COT: >9 days; ad-hoc WALTER rows: exempt but must carry their signal date).
 
+> ## 🔴 **2026-09-04 — THE COT `>9 days` LINE IS MIS-SPECIFIED AND FIRES A FALSE DARK EVERY SINGLE WEEK. Today's RED is that artifact, and I am recording it rather than closing out past it.**
+>
+> `closeout_guard.py` blocked this session on *"COT VIX lev-money: COT_VIX.tsv last row 2026-08-25 = 10d old (contract: DARK >9d, weekly)."* **The measurement is correct. The threshold is wrong.**
+>
+> **Why it is structural, not incidental.** CFTC TFF report dates are **always Tuesdays**, released the **following Friday at 15:30 ET** — a fixed **+3-day publication lag**, verified against every report date in `COT_VIX.tsv` (`07-07 · 07-14 · 07-21 · 07-28 · 08-04 · 08-11 · 08-18 · 08-25`, all Tuesdays). The contract measures the age of the newest **report date**, so the age of a perfectly current ledger cycles:
+>
+> | When | Newest report date | Age | Contract verdict |
+> |---|---|---|---|
+> | Fri 15:30 → Sat | Tuesday, 3d prior | **3d** | 🟢 fresh |
+> | Wed | Tuesday, 8d prior | **8d** | 🟢 fresh |
+> | **Thu** | Tuesday, 9d prior | **9d** | 🟡 exactly on the line |
+> | **Fri, before 15:30** | Tuesday, **10d** prior | **10d** | 🔴 **DARK — every Friday morning, forever** |
+>
+> ⇒ **A fully up-to-date COT ledger is guaranteed to breach this contract once a week.** Today is Friday 9/4; the 9/1-data report releases **today at 15:30 ET**. **Nothing is dark and nothing was missed.**
+>
+> 🔑 **WHY THIS MATTERS MORE THAN THE FALSE ALARM ITSELF: this is the fourth-plus RED on this file, and a guard that cries wolf on a fixed weekly schedule is training its reader to wave the red through** — which is precisely the *"boot printed it and the session did nothing"* failure `closeout_guard.py` was built to end. **A recurring false positive does not merely waste a look; it degrades the instrument's authority for the case where it is right.** `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]` cuts the other way here too: the remedy is **not** to relax the number until the noise stops, because that would silently raise the real-miss threshold as well.
+>
+> **THE CORRECT SPECIFICATION, DERIVED — ZERO FREE PARAMETERS, NOT A NUMBER I PICKED.** The contract's own intent is *"2× stated cadence."* For a series with a fixed publication lag the quantity to compare is **not** report-date age but **whether the most recent report date that has ALREADY BEEN RELEASED is present.** Expected newest report date = *the latest Tuesday whose following-Friday 15:30 release has passed.* DARK ⇔ the ledger's max date is **older than that**. This is self-calibrating, needs no constant, and never fires on schedule alone. *(A crude equivalent, if a scalar is wanted: `>17d` = 7d cadence + 3d lag + one fully missed cycle. Inferior — it hides the lag instead of modelling it.)*
+>
+> ⛔ **NOT FIXED THIS SESSION, AND DELIBERATELY SO.** Changing a live guard's threshold at the end of a session, on the strength of one session's diagnosis, is the ship-then-audit pattern this desk killed `GATE-VIO-RV1` for. **The diagnosis is written here where the next reader meets the red; the code change is queued.** ⚠️ **Until it is made, every Friday-morning boot and closeout will print this RED. That is expected. It is not permission to stop reading them** — the discriminator is the arithmetic in the table above: **age 9d or 10d against a Tuesday report date is the artifact; anything ≥17d, or a Friday-afternoon reading still showing the prior week, is real.** → **KB-VIO-226**
+
 > 🔴 **THIS CONTRACT WAS UNENFORCED FROM v1.0 UNTIL 2026-07-28, AND THE FILE WAS BREACHING IT ON FIVE ROWS** — COT 21d, JPY 11d, OVX 11d, cheap-tail 6d, Tier-3 GEX **18d**. The sentence *"extend `ledger_staleness.py` coverage to this file's Tier-1/2 pull dates = a future small ask"* has sat here since v1.0 and **was never built**, so the only thing enforcing the contract was remembering to. **It wasn't remembered, and the instrument the map exists to protect — a canary going dark unnoticed — went dark inside the map's own text.** *(`finding_mechanize_the_cap_not_the_ritual`; the v1.0 cautionary tale was OVX dark through a war week, and the file then reproduced the failure in its own cells.)*
 >
 > **WHAT CLOSED IT — ✅ BUILT 2026-07-30, `scripts/canary_staleness.py`, boot-wired (this was the design, and it was right):** every Tier-1/2 row already states a pull source and cadence, and every Tier-1 instrument already writes a dated row to a workbook ledger (`VX_DAILY`, `JPY_VOL`, `COT_VIX`, `CHEAP_TAIL`). So the check is **not** a new data pull — it is comparing each row's asserted as-of date against the **max date in its own ledger**, which is a ~20-line addition to the existing boot staleness pass. **The data to enforce this has existed the whole time.**

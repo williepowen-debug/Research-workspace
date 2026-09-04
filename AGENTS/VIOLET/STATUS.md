@@ -1,44 +1,52 @@
 # VIOLET STATUS
 
-> ## 🔴 9/2 ~21:3x ET (Wed, PROME-spawned dark-owner drain — 6 sessions dark since 8/27) — **THE `^SKEW` BASIS QUESTION TURNED OUT TO DECIDE THE GRADE OF MY OWN REGISTERED PREDICTION. 31 inbox items drained both lanes. FOMC 9/16 PRE-REGISTERED — and 9/16 is ALSO the VIX quarterly expiry, which settles FIRST.**
+> ## 🟠 9/4 ~08:3x–09:0x ET (Fri, Will-spawned catch-up after 2 sessions dark) — **THE TAIL BID RELOADED TO ITS FIRST ≥150 WHILE THE FRONT END CHEAPENED INTO IT, AND NFP CAME IN AT 3× CONSENSUS 8 DAYS BEFORE THE FOMC. FT-10 IS 1 OF 4 — NOT FIRED.**
 >
-> **⓪ 🔴 `^SKEW` BASIS RULED — AND THE MISSING BAR WOULD HAVE INVERTED PREDICTION #7 FROM HIT TO MISS.** HEARTBEAT carried *"`^SKEW` sources disagree — 149.23 [9/1] vs 149.77 [8/28]"* three times. **They never disagreed.** Every endpoint (yfinance quote, `previousClose`, history, FORGE `fetch.py`) returns the same value for the same date: 149.23 **is** the 9/1 close, 144.12 **is** the 9/2 close. HEARTBEAT compared a 9/1 history close to a 9/2-dated print — **a vintage compare, not a source conflict.** The real defect underneath: **yfinance's `^SKEW` daily history OMITS the 2026-08-28 bar** (08/27 144.05 → *absent* → 08/31 148.53; 8/28 is a full Friday session). **CBOE's published `SKEW_History.csv` (own pull, HTTP 200, 202,806 B) carries 08/28/2026 = 149.770000** and matches yfinance to the hundredth on every other date. **VERIFIED.** → **KB-VIO-214 / KB-VIO-215**, `research/2026-09-02_skew_endpoint_basis_resolved.md`.
+> **① 🔴 `^SKEW` 150.63 [9/3] IS CBOE-PUBLISHED AND CONFIRMED — RED-FT-10 ADVANCES TO 1 OF 4, ARMED, NOT FIRED.** WALTER's 9/3 dispatch was correct that the print was not gradeable that night (CBOE had no 9/3 row at 21:53Z). **That condition has cleared:** own pull 2026-09-04 ~08:4x ET (HTTP 200, 202,850 B) returns `09/03/2026,150.630000`, matching the mirror to the hundredth. Recorded with its own date per the WQ-162 basis clause. **Earliest possible fire = the 9/9 close** — Labor Day is Mon 9/7, so the consecutive chain is 9/3 · 9/4 · **9/8** · **9/9**, published 9/10, two sessions before CPI. Any bar <150 resets to 0. ⛔ **KILL-ON-SIGHT: "FT-10 fired" / "SKEW crossed 150" as a graded fact.** The band is non-strict, so the registry row reads as FIRED to anyone who never reaches the sustain clause. → **KB-VIO-222**
 >
-> **⓪a 🔑 THE ENDPOINT I GRADE FROM, IN ONE LINE:** **CBOE `SKEW_History.csv` daily close is my grading basis** — publisher of record — and yfinance `^SKEW` is a **same-day convenience mirror that must be gap-checked against the prior session before any streak or sustain claim.** Not a preference: (1) CBOE computes the index, yfinance redistributes it; (2) they are identical to the hundredth on every shared date, so adoption invalidates no prior VIOLET number; (3) yfinance drops bars with **no error and no gap signal**, and streak metrics are exactly the class a silent hole corrupts.
+> **② ⚠️ I WAS WRONG ON 9/2 AND WALTER CAUGHT IT — THE yfinance GAP WAS TRANSIENT, NOT PERSISTENT, AND THAT IS THE WORSE VERSION.** My 9/2 claim that yfinance "OMITS" the 8/28 bar **does not hold today**: it returns 149.77 in `period='5d','10d','15d','20d','1mo','3mo'` — **including `'20d'`, the exact call my own 9/2 pull used**, so this is not a window artifact and not a method difference. Same query, different answer two days apart, no error either time. **What survives, scoped to the cell not the row:** the **CBOE ruling stands** (a governance decision, not an empirical claim about yfinance — no mirror observation can impeach it); the **0.23 FT-10 margin stands**, now confirmed on *both* series; **KB-VIO-220's grade stands**, because it was graded at CBOE and CBOE never had the hole. **What changes is the defect class, and it gets worse:** a permanent hole is caught by re-running later; a **self-healing** one passes every later check, so a grade computed during the gap is silently wrong *and unauditable afterwards*. → **KB-VIO-221**; **KB-VIO-215 → CORRECTED**.
 >
-> **① ✅ PREDICTION #7 GRADED — HENRY'S ~9/1 SKEW CROSS-BACK IS A CLEAN HIT ON THE EXACT SESSION, AND THE REGIME HAS UN-TERMINATED.** 20d avg crossed 140 on **2026-09-01 at 141.13** (CBOE basis). Mechanism isolated: pinning spot at HENRY's 143.31 from 8/24 reproduces his published 7-step projection **to the hundredth** (…139.27 → **140.12**) ⇒ **roll-off ALONE was sufficient**; realised spot ran ~+2.9pts hotter, so actual overshot to 141.13. His falsifier (spot <~140 in the week) never triggered — floor 142.96. 🔴 **On the gapped yfinance series the same 20d mean is 139.96 — it does NOT cross.** The one omitted bar is worth **+1.17** and sits **0.04** the wrong side of the line. **I would have logged a MISS, retired KB-VIO-203 as an anecdote, and denied thesis v4.0's directional-over-level corollary its first live win — on a data hole, not on the world.** → **KB-VIO-220**. ⚠️ **The elevated-SKEW regime I terminated 8/18 at 139.86 has UN-TERMINATED on its own instrument, on the forecast date.**
+> **③ 🔴 THE TAIL AND THE FRONT END WENT OPPOSITE WAYS ON 9/3.** `^SKEW` **+4.52% to 150.63** while **VIX fell to 14.32** (−5.8%), **VVIX fell to 83.80**, and **M1:M2 contango STEEPENED to +12.16%** — `COMPLACENCY_TOP_30PCT`, the richest of this leg. 20d `^SKEW` avg still climbing: 141.13 [9/1] → 141.67 [9/2] → **142.47 [9/3]**. **The un-terminated regime is not just back over 140, it is rising.** → **KB-VIO-223**
 >
-> **② 🔴 RATES VOL LED EQUITY VOL ~4:1 THROUGH THE DARK WEEK.** MOVE **69.44 [8/26] → 77.88 [9/1] = +12.2%**, through F1 (72.41, +5.47) and confirm-3 (75.50, +2.38) — while VIX went 14.70 [8/27] → 15.20 [9/2] = **+3.4%** and VVIX 83.53 → 86.25 = **+3.3%**. **The vol that bid while I was dark was RATES vol, into a 9/16 FOMC the market prices at a coin-flip for a HIKE.** → **KB-VIO-219**.
+> **④ 🟡 AND THE RATES-VOL RUN ROLLED OVER THE SAME SESSION.** MOVE **79.71 [9/2] peak → 74.68 [9/3] = −5.03**, the largest one-day decline in the series — back **below** confirm-3 (75.50, −0.82), still above F1 (72.41, +2.27). ⇒ **The KB-VIO-123 crack-vs-fade tree loses the only leg it had and returns to 0 of 6.** ✅ **This also closes my 9/2 MOVE basis flag:** the brief's 79.71 [9/2] and my 77.88 were never in conflict — adjacent sessions of one series, mine a day older. **No unexplained gap; flag withdrawn.** *(I diagnosed a vintage compare in HEARTBEAT on 9/2 and then committed one myself.)*
 >
-> **③ 📅 `VIO-FOMC-0916` PRE-REGISTERED — the September FOMC lands ~6 hours AFTER the VIX contract that would have priced it expires.** 9/16 is **both** the FOMC (14:00 ET + SEP + dot plot) **and** the September VIX quarterly expiry, and **the expiry comes first** (settlement is the morning SOQ). Derived zero-free-parameter: 3rd Friday Oct 2026 = 10/16 − 30d = **2026-09-16 Wed** (construction reproduces 2015-2025 exactly). ⇒ **The expiring VX/U6 cannot express the FOMC outcome; the event premium sits in October (VX/V6), which becomes M1 that same morning.** 4 graded legs + a whole-map NULL, frozen at authorship → `research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md`, **KB-VIO-216/217/218**. ⛔ **Registered as a READ, NOT a gate** — see ⑤.
+> **⑤ 🔴 AUGUST NFP +162,000 vs +53,000 CONSENSUS — A >3× BEAT, AND THAT IS THE *HAWKISH* OUTCOME.** BLS Employment Situation, released **08:30 ET today** (own fetch): payrolls **+162K**, unemployment **4.1% unchanged**, AHE **+0.3%** m/m vs +0.2% expected. Larger than the headline because July printed **−23K** and May/June were revised down a combined **−103K** — this is a **reversal**, not a continuation. **The reaction function into this meeting is INVERTED: a strong print keeps the HIKE live.** Confirms the 9/2 branch-set correction — **the live question is HIKE vs HOLD; there is no cut branch.** → **KB-VIO-224**
 >
-> **④ ⚠️ THE BRIEFED BRANCH SET WAS INVERTED AND I AM RECORDING THE CORRECTION.** My spawn brief asked for the surface's response to *"hold-with-hawkish-dots vs **a cut**."* **There is no cut branch.** My own `CATALYSTS.tsv` 9/16 row: *"First SEP after the **6/17 hike-signal flip**; tests whether the dot-plot follows through to an **actual hike**"*; the 7/29 row reads *"hike watch"*; HEARTBEAT carries **Kalshi Sept-HIKE 0.48 [8/28 settled]**. The live question is **HIKE vs HOLD**; the dovish tail is *"hold and the dots retreat"*. **A vol read built on the briefed branches would have been wrong in sign on the dominant one.**
->
-> **⑤ ⛔ NO GATE HAS FIRED AND I PROPOSE NOTHING.** VIO-110 LAPSED · VIO-116 RESOLVED 7/16 · **VIO-RV1 RETIRED 8/27**. The cheap-tail window is 🟣 **OPEN 4/4** into a double catalyst (CPI 9/11, FOMC 9/16) — recorded as a **live operator-decision surface**, routed per its own text (PROME → TERRY → Will), **not actioned by me.**
+> **⑥ ⛔ NOTHING FIRED AND I PROPOSE NOTHING.** Cheap-tail 🟣 **OPEN 4/4** into CPI 9/11 (7d) and FOMC 9/16 (8d) — a live **operator-decision surface**, routed PROME → TERRY → Will, **not actioned by me.** FLAT.
 
 ---
 
-## SIGNAL DASHBOARD — **9/2 SETTLE basis** *(post-close boot; source + as-of on every row)*
+## ⚠️ MEASUREMENT NOT YET TAKEN — THE POST-NFP VOL REACTION
 
-> ✅ **BASIS DISCIPLINE:** all vol-surface values are the 2026-09-02 settle from `boot.py` unless dated otherwise. **`^SKEW` is CBOE-published from tonight (KB-VIO-215)** — every prior VIOLET `^SKEW` figure is unchanged by the switch (the two sources agree to the hundredth on every shared date).
+**Cash VIX opens 09:30 ET. Every VIX print available as I write this is pre-open and structurally cannot price an 08:30 release.** The tape read **14.25** at ~08:5x; quoting that as *"VIX fell on the jobs number"* would be a well-formed, correctly-dated, current-looking number that is incapable of containing the event — `[[finding_plausible_stale_value_evades_review]]`.
+
+**I will measure the reaction after the open rather than narrate it now.** Until that measurement exists, **this desk has no post-NFP vol read** and no one should attribute one to it. *(Owed to PROME this session.)*
+
+⚠️ **Kalshi Sept-HIKE 0.48 is [8/28 settled] — it PREDATES the print by a week.** The direction of the update is obvious; I do not hold the post-print number and will not manufacture one.
+
+---
+
+## SIGNAL DASHBOARD — **9/3 SETTLE basis** *(pre-open boot; source + as-of on every row)*
+
+> ✅ **BASIS DISCIPLINE:** vol-surface values are the 2026-09-03 settle unless dated otherwise. **`^SKEW` is CBOE-published** (KB-VIO-215 as corrected by KB-VIO-221). ⚠️ **9/4 rows marked TICK are pre-open intraday, not settles.**
 
 | Metric | Value | As Of | Status | Source |
 |--------|-------|-------|--------|--------|
-| **VIX Spot** | **15.20** (+3.4% vs 14.70 [8/27]) | **9/2 SETTLE** | 🟢 | [CONF A1] boot.py. Band **LOW_VOL**. Path: 14.70 [8/27] · 14.43 [8/28] · **15.20 [9/2]**. Equity vol barely moved while rates vol ran. |
-| **VIX3M / VIX** | **1.1664** (from 1.2007 [8/27]) | 9/2 | 🟡 | Calc — **flattening**, VIX3M 17.73. Front-end firming relative to 3M. Inversion 14.3% away. |
-| **VVIX** | **86.25** (p35.6) | 9/2 | 🟢 | [CONF A1] boot.py. Cheap. **Never confirmed the rates-vol bid.** Far from 120. |
-| **`^SKEW` daily** | **144.12** (−3.42% d/d) | **9/2** | 🟠 | **[CONF] CBOE `SKEW_History.csv`** — basis ruled tonight. Run: 144.05 [8/27] · **149.77 [8/28]** · 148.53 [8/31] · **149.23 [9/1]** · 144.12 [9/2]. **Run high 149.77 = 0.23 below RED's FT-10 line, not 0.77.** |
-| **`^SKEW` 20d avg** | 🔴 **141.13 — RE-CROSSED 140** | **9/1** | 🔴 | **[CONF] own calc, CBOE basis.** **REGIME UN-TERMINATED** on the exact date HENRY forecast 8/23. Gapped-series value would be 139.96 (no cross). → KB-VIO-220 |
-| **★ MOVE (rates vol)** | 🔴 **77.88** (+12.2% off 69.44 [8/26]) | **9/1** | 🔴 | [CONF] move.py, **investing.com PRIMARY**. Through F1 (+5.47) and confirm-3 (+2.38). ⚠️ 9/2 not yet posted at boot. ⚠️ **Unreconciled: spawn brief carries 79.71 [9/2] from another surface — MOVE is my metric, I have NOT adopted it.** |
-| **★ M1:M2 contango (adj)** | **+11.07%** 🟠 | **9/2 settle** (VX/U6 : VX/V6) | 🟠 | [CONF] CBOE VX settle. ⚠️ **BASIS BREAK 9/16 — pair becomes VX/V6 : VX/X6 (KB-VIO-218).** |
-| **VIX9D / VIX** | **0.827** (VIX9D 12.57) | 9/2 | 🟢 | [CONF] thresholds.py. Well below 1.0 — **no front-end event bid yet**, 9 sessions before the FOMC. |
-| **CCC OAS** | **10.49** (+18bp vs 10.31 [8/26]) | **9/1 [FRED]** | 🟠 | [CONF A1] fred_fetch. **BIN-B BLOCK ACTIVE** (10.49 ≥ 9.55). **CCC-BB dispersion 8.97** (from 8.75) — **still widening through the 8.00 line, 5th straight session.** HY 2.65 · BB 1.52 · IG 0.81. |
-| **COT Lev Money NET** | 🔴 **−30,143** / pct3y 42.3 · OI 378,681 | **8/25 report** | 🔴 | [CONF] cftc_cot. **DEEPENED AGAIN: −19,093 [8/18] → −30,143.** Third consecutive deepening. Dealer +51,790 (p76.3) · Asset Mgr −22,888 (p21.8). |
-| **★ JPY vol (canary)** | 🟢 **CALM** — RV10 **5.76%** / p23.8 · USDJPY 160.2 | **9/2** | ⚪ | [CONF] jpy_vol.py. Carry channel quiet. ⚠️ FXY IV leg stale (off-RTH). |
-| **OVX oil-vol (canary)** | **47.77** (p82.0) · ratio **3.14** (p94.2) | **9/2** | 🟠 | [CONF] ovx.py — **WATCH**, ratio through p90 for a 3rd week. Cross-domain color only; not dispositive. |
-| **Implied correlation** | **COR1M 10.58** (−16.3% d/d) · COR3M 10.32 · COR30D 7.53 · constituent-vol **~46.7 [EST]** | **9/2 SETTLE** | 🟠 | [CONF A1] boot.py. **DISPERSED** — index vol suppressed relative to constituents. |
-| **★ Cheap-tail window** | 🟣 **OPEN 4/4** — L1 ✅ · L2 ✅ · L3 ✅ · L4 ✅ | **9/2** | 🟣 | [CONF] cheap_tail.py. VVIX 86.25 ≤90 · VIX 15.2 ≤16 · SKEW 144.12 ≥140 · nearest HIGH/MED **9d (CPI 9/11)**. **Operator-decision surface, live. No proposal from me.** |
-| **VIX options C/P** | 9/16 quarterly dominant | 8/27 | 🟡 | [CONF] vix_options. 3.77M calls / 1.47M puts; 20C OI 355k, 25C 318k; 10/21 60C 328k. **Far-OTM call accumulation is a standing feature, not an event.** |
+| **VIX Spot** | **14.32** settle · **14.25** [9/4 TICK, PRE-OPEN] | **9/3 SETTLE** | 🟢 | [CONF A1] boot.py. Band **COMPLACENCY**. Path: 15.20 [9/2] · **14.32 [9/3]** · 14.25 [9/4 pre-open]. ⚠️ **The TICK cannot price the 08:30 NFP.** |
+| **`^SKEW` daily** | 🔴 **150.63** (+4.52% d/d) | **9/3** | 🔴 | **[CONF] CBOE `SKEW_History.csv`**, own pull 9/4. **First ≥150 of the leg.** Run: 144.05 [8/27] · 149.77 [8/28] · 148.53 [8/31] · 149.23 [9/1] · **144.12 [9/2] ← reset** · **150.63 [9/3]**. |
+| **`^SKEW` 20d avg** | 🔴 **142.47** — rising | **9/3** | 🔴 | [CONF] own calc, CBOE basis. 141.13 [9/1] → 141.67 [9/2] → **142.47**. **Regime UN-TERMINATED and climbing.** |
+| **★ M1:M2 contango (adj)** | 🔴 **+12.16%** | **9/3 settle** (VX/U6 : VX/V6) | 🔴 | [CONF] CBOE VX settle. **`COMPLACENCY_TOP_30PCT`** — richest of the leg, up from +11.07% [9/2]. ⚠️ **BASIS BREAK 9/16** — pair becomes VX/V6 : VX/X6 (KB-VIO-218). |
+| **VVIX** | **83.80** (−2.8%) | 9/3 | 🟢 | [CONF A1] boot.py. **Cheapened INTO the tail bid.** Far from 120. |
+| **★ MOVE (rates vol)** | 🟡 **74.68** (−5.03 vs 79.71 [9/2]) | **9/3** | 🟡 | [CONF] move.py, **investing.com PRIMARY**, `cross_check=agrees`. **Rolled over** — below confirm-3 (75.50, −0.82), above F1 (72.41, +2.27). ✅ **9/2 basis flag CLOSED.** |
+| **VIX3M / VIX** | **1.1664** [9/2, last full curve] | 9/2 | 🟡 | Calc. ⚠️ **[STALE 2 sessions]** — 9/3 and 9/4 curve legs not returned by the pre-open pull. Not refreshed; not presented as live. |
+| **VIX9D / VIX** | **0.827** (VIX9D 12.57) [9/2] | 9/2 | 🟢 | [CONF] thresholds.py. ⚠️ **[STALE 2 sessions]** — same pre-open gap. **No front-end event bid as of 9/2**, 8 days before FOMC. |
+| **CCC OAS** | **10.53** (+4bp vs 10.49) | **9/2 [FRED]** | 🟠 | [CONF A1] fred_fetch. **BIN-B BLOCK ACTIVE** (10.53 ≥ 9.55). **CCC-BB dispersion 9.00** (from 8.97) — **through the 8.00 line, still widening.** |
+| **COT Lev Money NET** | 🔴 **−30,143** / pct3y 42.3 · OI 378,681 | **8/25 report** | 🔴 | [CONF] cftc_cot. Third consecutive deepening. ⚠️ **Canary flags DARK 10d — this is a PUBLICATION-SCHEDULE artifact, not a data failure:** the 9/1 report releases **today 15:30 ET**. Self-clears. |
+| **★ OVX oil-vol (canary)** | 🔴 **FIRE** — 46.41 (p79.1) · ratio **3.24** (p95.3) | **9/3** | 🔴 | [CONF] ovx.py. Flipped WATCH → FIRE. ⚠️ **Fired on the DENOMINATOR:** OVX *fell* 47.77→46.41; VIX fell faster. **Not an oil shock — the same fact as ③.** |
+| **★ JPY vol (canary)** | 🟡 **CALM** but waking — RV10 **9.22%** / **p62.2** · USDJPY **156.58** | **9/4** | 🟡 | [CONF] jpy_vol.py. USDJPY 160.2 [9/2] → **156.58** = −2.3% in 2 sessions; RV10 p23.8 → **p62.2**. Band still CALM (WATCH 13.97%). ⛔ **RV-through-IV leg is UNUSABLE** — 1.0% IV is a 2-strike off-RTH artifact. |
+| **Implied correlation** | **COR1M 9.54** · COR3M 10.12 · COR30D 7.58 · constituent-vol **~46.2 [EST]** | **9/4 TICK** | 🟠 | [CONF A1] boot.py. **DISPERSED** — index vol suppressed vs constituents. |
+| **★ Cheap-tail window** | 🟣 **OPEN 4/4** — L1 ✅ · L2 ✅ · L3 ✅ · L4 ✅ | **9/3** | 🟣 | [CONF] cheap_tail.py. VVIX 83.8 ≤90 · VIX 14.32 ≤16 · SKEW 150.63 ≥140 · nearest HIGH/MED **7d (CPI 9/11)**. **Operator-decision surface. No proposal from me.** |
+| **VIX options C/P** | Fwd C/P OI **2.80** · 9/16 quarterly dominant | **9/4** | 🟠 | [CONF] vix_options. **October tail accumulation is the new feature:** 10/21 **60C +320%** (OI 317,633) · **35C +145%** (325,745) · **30C +110%** (330,924) — **and October becomes M1 on 9/16** (KB-VIO-218). |
 
 ---
 
@@ -46,57 +54,60 @@
 
 | Gate | State | Line | Distance / note |
 |------|-------|------|-----------------|
-| ⛔ **GATE-VIO-RV1** | **RETIRED 2026-08-27** (F2-KILLED) | *(retired)* | Post-2018 n=22 p=0.134. PROME commit `78cd0aa76`. **Not re-litigated.** |
-| ✅ **GATE-VIO-116 (rates-vol shape)** | **RESOLVED 7/16 — F3 fired** | *(resolved; no live legs)* | ⚠️ Its stand-down leg **N2 `SKEW >148`** was satisfied **three straight sessions** (149.77 / 148.53 / 149.23). **FIRES NOTHING** — a resolved row has no live legs. Recorded as a **regime observation**. ⚠️ **`move.py --boot` still prints a "re-open above 71.00" leg for this resolved row** — my tool defect, queued not fixed (KB-VIO-219). |
+| 🔴 **RED-FT-10 (`^SKEW` ≥150 sustain-4)** | **RED-OWNED · ARMED · 1 OF 4** | ≥150 (non-strict), sustain 4 | **9/3 = 150.63 CBOE-confirmed = bar 1.** Chain 9/3 · 9/4 · 9/8 · 9/9 (Labor Day 9/7) ⇒ **earliest fire the 9/9 close, published 9/10.** Any bar <150 resets. ⛔ **NOT FIRED.** → KB-VIO-222 |
+| 🔴 **KB-VIO-123 crack-vs-fade tree** | **FADE verdict — back to 0 of 6** | ①credit ②COT ≥95 ③MOVE ④VVIX 120 ⑤inversion ⑥VIX>20 | ② 42.3 ✗ · **③ 74.68 ✗ — LOST, retreated below confirm-3** · ④ 83.80 ✗ · ⑤ 1.1664 ✗ · ⑥ ✗. **The one leg it held last week is gone.** |
+| ✅ **GATE-VIO-116 (rates-vol shape)** | **RESOLVED 7/16 — F3 fired** | *(resolved; no live legs)* | ⚠️ **`move.py --boot` still prints a "re-open above 71.00" leg for this resolved row** — my tool defect, queued not fixed (KB-VIO-219). |
+| ⛔ **GATE-VIO-RV1** | **RETIRED 2026-08-27** (F2-KILLED) | *(retired)* | Post-2018 n=22 p=0.134. **Not re-litigated.** |
 | ⛔ **GATE-VIO-110** | **LAPSED (Will 7/9)** | *(lapsed)* | Folds into the MOVE-led read. |
-| ⛔ **RED-FT-10 (`^SKEW` ≥150 sustain-4)** | **RED-OWNED · UNFIRED** | ≥150, sustain 4 | **Run max 149.77 [8/28] = 0.23 below** on the CBOE basis (not 0.77 — the closest print is the bar yfinance dropped). Sustain **0/4**; 9/2 closed 144.12, **5.88 below**. **Packeted to RED.** |
-| ⛔ **RED-FT-06** | **FIRED-BANKED (RED-owned)** | Exit: VIX ≥18 sustain-5 | VIX 15.20 — nowhere near. ⚠️ The circulating "spot 18.62" (SIG-W-…-042) is a **VIX FUTURE**, not cash; misreading it would falsely imply this exit. Guard confirmed from my own book. |
-| 🔴 **KB-VIO-123 crack-vs-fade tree** | **FADE verdict — one leg now flipped** | ①credit ②COT ≥95 ③MOVE ④VVIX 120 ⑤inversion ⑥VIX>20 | ② 42.3 ✗ · **③ 77.88 ✅ (confirm-3 75.50 CROSSED)** · ④ 86.25 ✗ · ⑤ 1.1664 ✗ · ⑥ ✗. **1 of 6 — the rates leg, and only the rates leg.** |
-| **T9 self-falsifier (conjunctive)** | **NOT MET — 3 of 4 fail** | COR1M <6.77 **AND** JPY RV<IV **AND** OVX <45 **AND** MOVE <66.00 | COR1M 10.58 ✗ · JPY ✅ · OVX 47.77 ✗ · MOVE 77.88 ✗. Fails decisively. |
-| 📅 **`VIO-FOMC-0916`** | **REGISTERED READ — NOT A GATE** | 4 legs + whole-map NULL | Frozen 9/2. Grade at the **9/16** and **9/23** closes. ⛔ **No action attaches; nothing fires.** |
+| ⛔ **RED-FT-06** | **FIRED-BANKED (RED-owned)** | Exit: VIX ≥18 sustain-5 | VIX 14.32 — nowhere near. ⚠️ The circulating "spot 18.62" is a **VIX FUTURE**, not cash. |
+| **T9 self-falsifier (conjunctive)** | **NOT MET — 3 of 4 fail** | COR1M <6.77 **AND** JPY RV<IV **AND** OVX <45 **AND** MOVE <66.00 | COR1M 9.54 ✗ · JPY ✅ · OVX 46.41 ✗ · MOVE 74.68 ✗. |
+| 📅 **`VIO-FOMC-0916`** | **REGISTERED READ — NOT A GATE** | 4 legs + whole-map NULL | Frozen 9/2, **confirmed unchanged this session.** Grade at the **9/16** and **9/23** closes. ⛔ **Nothing fires.** NFP is the largest input to the branch it grades and **arrived after the freeze — the correct order.** |
 
 ---
 
 ## CONVERGENCE MATRIX
 
-**Convergence Score: 26/55** *(prior 22 [8/27], 29 [8/20], 23 [8/18].)*
+**Convergence Score: 26/55** *(prior 26 [9/2], 22 [8/27], 29 [8/20].)*
 
 | Vector | Score | Read |
 |---|---|---|
-| Rates vol (MOVE) | 🔴 **4** | **Up 2.** 77.88, +12.2% off the 8/26 low, through F1 **and** confirm-3. **The week's whole vol story.** |
-| SKEW / tail bid | 🔴 **4** | **Up 1.** 20d avg **re-crossed 140** (141.13) — regime **UN-TERMINATED**; daily run high 149.77. |
-| Credit | 🟠 3 | CCC 10.49, BIN-B active; **dispersion 8.97 and widening a 5th session.** Never retreated with vol. |
-| Positioning (COT) | 🔴 4 | **Held.** Lev Money −30,143, third consecutive deepening of the short-vol book. |
-| Implied correlation | 🟠 3 | 10.58, DISPERSED. Constituent-vol ~46.7 [EST]. |
-| Cheap-tail window | 🟣 4 | **OPEN 4/4** into CPI 9/11 + FOMC 9/16. |
-| Oil-vol (OVX) | 🟠 3 | 47.77 p82.0, ratio 3.14 p94.2. WATCH, 3rd week. |
-| Front-curve / term structure | 🟡 2 | **Up 1.** VIX3M/VIX 1.1664, flattening from 1.2007. VIX9D/VIX 0.827 — no front-end bid yet. |
-| Vol-of-vol (VVIX) | 🟡 2 | 86.25, cheap. **Has not confirmed anything.** |
-| Equity concentration *(VULCAN-owned)* | 🟡 2 | Mag-7 32.87% falling; RSP−SPY +5.17pp p97.6. Rotation, not concentration event. |
-| JPY carry-vol | ⚪ 1 | CALM p23.8. Channel unloaded. |
+| SKEW / tail bid | 🔴 **5** | **Up 1.** First **≥150** of the leg (150.63), 20d avg 142.47 and rising. **Confirmed firing on its own instrument.** |
+| Rates vol (MOVE) | 🟠 **3** | **DOWN 1.** 74.68, back below confirm-3 after a −5.03 session. Run rolled over; F1 still held. |
+| Credit | 🟠 3 | CCC 10.53, BIN-B active; dispersion **9.00** and widening. Never retreated with vol. |
+| Positioning (COT) | 🔴 4 | **Held.** −30,143, third consecutive deepening. New report **today 15:30 ET**. |
+| Front-curve / term structure | 🟠 **3** | **Up 1.** Contango **+12.16% = COMPLACENCY_TOP_30PCT.** Richest of the leg — complacency, not stress. |
+| Cheap-tail window | 🟣 4 | **OPEN 4/4** into CPI 9/11 (7d) + FOMC 9/16 (8d). |
+| Implied correlation | 🟠 3 | 9.54, DISPERSED. |
+| Oil-vol (OVX) | 🟠 3 | **FIRE on the ratio — but on the denominator.** Held at 3, deliberately **not** upgraded (see below). |
+| Vol-of-vol (VVIX) | 🟡 2 | 83.80 and **cheapening into a tail bid**. Still confirms nothing. |
+| Equity concentration *(VULCAN-owned)* | 🟡 2 | Unchanged; not re-derived here. |
+| JPY carry-vol | 🟡 **2** | **Up 1.** RV10 p23.8 → **p62.2**, USDJPY −2.3% in 2 sessions. Band still CALM. |
 
-> 🔑 **The score rose 4 and EVERY point came from the rates/tail side.** MOVE +2, SKEW +1, term structure +1. **Equity vol contributed nothing** — VVIX, VIX and concentration are unchanged or benign.
-> ⚠️ **THE STANDING TENSION: a record-cheap VVIX (p35.6) sitting beside a rates-vol book through two registered lines, a short-vol futures position that has deepened three reports running, and credit dispersion widening for five sessions.** Three independent channels say "carry on"; one says "pay up for rates convexity." **That is the configuration the FOMC letter is written to grade.**
+> 🔑 **The score is FLAT at 26 and that flatness is the finding, not a non-event.** SKEW +1, term structure +1, JPY +1, **MOVE −1** — the composition rotated completely while the total stood still. **Last week's convergence was rates; this week's is the tail, and the front end is cheapening into it.**
+> ⛔ **OVX was NOT upgraded despite flipping to FIRE, and the reason is a rule, not a judgment call:** the ratio fired because **VIX fell faster than OVX**, not because oil vol rose. That is the *same underlying fact* as the SKEW/VIX divergence already scored above. Counting it again would double-count one observation as two independent channels — `[[finding_spread_metric_blind_to_common_mode]]`.
+> ⚠️ **THE STANDING TENSION, NOW SHARPER AND WITH THE SIDES SWAPPED:** a record-cheap VVIX (83.80) and the **richest contango of the leg** sitting against **the first ≥150 SKEW print**, a short-vol futures book deepened three reports running, and credit dispersion widening. **The market is simultaneously paying up for the far tail and selling the front end harder than it has all leg.**
 
 ---
 
 ## REGIME STATUS
 
-**Regime: LOW_VOL** (VIX 15.20). **Elevated-SKEW regime: UN-TERMINATED as of 9/1** (20d avg 141.13).
+**Regime: COMPLACENCY** (VIX 14.32, contango +12.16% top-30%). **Elevated-SKEW regime: UN-TERMINATED and RISING** (20d avg 142.47 [9/3]).
 
-- **The dominant question is no longer "was the 8/17 bid a regime change."** It died, and the retreat was correctly graded 8/27.
-- **The dominant question is now "why is the vol bid ONLY in rates."** MOVE +12.2% while VVIX +3.3% and VIX +3.4% is not a broad risk repricing — it is a **policy-event repricing**, and it is arriving 10 sessions before a coin-flip hike decision.
-- **⚠️ Principle-9 still does NOT apply.** No terminated ≥60td SKEW regime is in the sample — and the termination that *was* live has now reversed. Do not quote that base rate.
+- **Last week's question — "why is the vol bid only in rates" — has been answered by it going away.** MOVE gave back most of the run in one session. **The bid moved to the tail.**
+- **The dominant question now: why is the far tail bid while the front end is at its cheapest of the leg,** 7 days from CPI and 8 from a coin-flip hike — and with **October VIX call OI building 110–320% at the 30/35/60 strikes**, in the contract that becomes M1 on the morning of the meeting.
+- **⚠️ Principle-9 still does NOT apply.** No terminated ≥60td SKEW regime is in the sample, and the termination that was live has reversed. **Do not quote that base rate.**
 
 ---
 
 ## BOTTOM LINE
 
-**FLAT. Nothing fired, nothing proposed — and the session's most valuable output was a data-integrity finding that changed the verdict on my own registered prediction.** Chasing HEARTBEAT's `^SKEW` "endpoint disagreement" to the publisher of record showed the endpoints never disagreed (a vintage compare) and that yfinance had **silently dropped the 8/28 bar — the high of the run at 149.77.** That single hole is worth **+1.17** on my 20d average and sits **0.04** the wrong side of the 140 line: **graded on the gapped series HENRY's ~9/1 cross-back forecast reads MISS at 139.96; graded at CBOE it reads HIT at 141.13 on the exact forecast session.** The elevated-SKEW regime has un-terminated, KB-VIO-203 upgrades to a mechanism with a computed date confirmed live, and my `^SKEW` grading basis is now CBOE with a mandatory gap check.
+**FLAT, nothing fired, nothing proposed — and the honest headline of this session is that I corrected my own 9/2 finding against myself.** WALTER was right: the yfinance `^SKEW` gap **healed**, and it healed in the exact window my own pull used, so it was never a method difference. The ruling and the 0.23 margin survive untouched because they never depended on the example; what changes is that the defect is **transient**, which is *worse* — a self-healing hole passes every later re-verification, so a grade computed during it is silently wrong **and unauditable afterwards**. That raises the priority of the calendar-completeness check and changes its shape: it cannot be boot-time-only, because a boot **after** the heal passes clean.
 
-**The market read: the vol bid this week is RATES vol and only rates vol** (MOVE +12.2% vs VIX +3.4%), into a 9/16 FOMC priced at a **coin-flip for a HIKE** — not the hold-vs-cut my brief assumed. **And 9/16 is also the VIX September quarterly expiry, which settles that morning, hours BEFORE the 14:00 statement** — so the expiring contract cannot price the event at all and the premium sits in October. That is pre-registered with four graded legs and an explicit whole-map NULL, deliberately as a **READ and not a gate**: the conditioning sample is n=8 with post-2018 n=3, F2 is unrunnable on it, and shipping a level-conditional instrument on a thinner sample six days after GATE-VIO-RV1 died on exactly that test would repeat the pattern the kill was meant to end.
+**The market read: the bid rotated from rates to the tail, and the front end cheapened into it.** `^SKEW` printed **150.63 [9/3]**, the first ≥150 of this leg — CBOE-confirmed this morning, which puts **RED-FT-10 at 1 of 4, ARMED, not fired**, with the earliest possible fire at the **9/9 close**. It did that while **VIX fell to 14.32, VVIX to 83.80, and contango steepened to its richest of the leg (+12.16%, top-30% complacency)** — and while **MOVE gave back 5.03 points in a session**, dropping the crack-vs-fade tree back to 0 of 6. Two vol markets are now saying opposite things about the same eight days.
 
-**Posture: watch. FLAT. No proposal in flight; no stand-downs live.** Cheap-tail 🟣 OPEN 4/4 into CPI 9/11 + FOMC 9/16 — a live operator-decision surface, routed PROME → TERRY → Will, **not actioned by me.** Owed out: packets to RED (FT-10 distance + omitted-bar risk) and PROME (HEARTBEAT correction). Gamma board **UNMEASURED** since the 8/21 OPEX — HENRY's, not re-derived here.
+**And the largest input landed 25 minutes before I booted: August NFP +162K against +53K consensus, unemployment 4.1%, AHE +0.3%** — a >3× beat reversing July's −23K and 103K of downward revisions. Under this meeting's **inverted** reaction function that is the **hawkish** print, and it confirms the branch-set correction I recorded on 9/2: **HIKE vs HOLD, no cut branch.** ⚠️ **I am not claiming a vol reaction to it.** Cash VIX opens 09:30 and every print I hold is pre-open; the measurement is owed, not taken.
+
+**Posture: watch. FLAT. No proposal in flight; no stand-downs live.** Cheap-tail 🟣 OPEN 4/4 into CPI 9/11 + FOMC 9/16 — operator-decision surface, routed PROME → TERRY → Will, **not actioned by me.** `VIO-FOMC-0916` confirmed unchanged and still the letter I would grade on. Owed: the post-open reaction measurement, and the 6-item top-level inbox lane as its own pass.
 
 ---
 
@@ -110,42 +121,44 @@
 
 | To | Signal | Priority |
 |---|---|---|
-| **RED** | 🔴 **FT-10's distance to its line is wrong on the endpoint everyone is quoting, and your grading series just dropped a bar.** Run max is **149.77 [8/28] = 0.23 below 150**, not 149.23 = 0.77 below — the closest print is the bar yfinance omitted. Your 8/27 §3b basis (*"the Yahoo cash daily bar… COMPLETES"*) assumes the bar is **present**. **FT-10 is a sustain-4 counter, and §5 of that same packet credits HENRY for closing exactly the omitted-bar bridging risk.** Packet sent; **FT-10 still UNFIRED** — the margin moved, not the state. | 🔴 |
-| **PROME** | 🔴 **HEARTBEAT's `^SKEW` "endpoints disagree" note is a mis-diagnosis in 4 places** (base line 2 + §Stress + §Levels + §Closest-live-lines). It is a **vintage compare** (9/1 close vs a 9/2 print); no two endpoints ever disagreed on a date. Real defect = a **missing 8/28 bar**, CBOE-verified at 149.77. Also: FT-10's quoted distance should read **0.23**, not 0.77. Packet sent. **I did not edit HEARTBEAT.** | 🔴 |
-| **HENRY** | ✅ **YOUR ~9/1 FORECAST HIT ON THE EXACT SESSION — 141.13 on 2026-09-01.** I reproduced your flat-spot counterfactual independently and it matches your published 7-step projection **to the hundredth**, so roll-off alone was sufficient. **KB-VIO-203 is now a mechanism with a computed date, confirmed live.** ⚠️ **And it only grades as a hit on the CBOE basis** — the gapped yfinance series gives 139.96 and no cross. **Your falsifier never triggered.** → KB-VIO-220 | 🟢 |
-| **PROME** | 📅 **`VIO-FOMC-0916` registered as a READ, not a gate** — so a graded outcome cannot fire into a dark coordination layer (KB-VIO-110 class). 9/16 = FOMC **and** VIX quarterly expiry, expiry first. **No GATES row requested.** | 🟠 |
-| **VULCAN** | ✅ **MU FQ4 settled at your derivation — ~9/29 → 2026-09-22, `date_class` MODELED**, in CATALYSTS.tsv and CALENDAR.md. I hold no confirmed MU IR date, so yours wins. ⚠️ One consequence: at ~9/22 it now lands **inside** VIO-FOMC-0916 leg 2's +5-session grade window (9/16→9/23) — a named confound on that leg. Your 8/21 NVDA −3.7% row honoured as kill-on-sight; not cited. | 🟠 |
-| **LIQUID** | 🟠 **CCC-BB dispersion 8.97 [9/1 FRED], widening a 5th straight session through the 8.00 line while equity vol sat still.** Your level, my comparator — routing measurement only. CCC 10.49 keeps BIN-B blocked. | 🟠 |
-| **DEWEY** | ✅ **REQ-001 consumed, cited not re-derived.** Carrying the base-rate timing line into the Path-B frame: order book peaked **9 months after** the first billings decline, eroded 12+ quarters, peak-to-trough **widening with contract length**. Also consumed your Bernstein SEARCH-NOT-FOUND as a kill on SIG-W-…-034. | 🟢 |
-| **ORACLE** | ✅ **8/27 decoupling integrated and NOT upgraded in the retelling.** NEH record 85.0 with the S&P leg −15.0pp into gold = complacency **narrowing and rotating**, not ending. VX-ORC-09 has **not** fired. It does **not** move my tail-hedge posture — a record-high "nothing breaks" reading is the opposite of tail fear. | 🟡 |
+| **RED** | 🔴 **FT-10 IS 1 OF 4 — CBOE HAS PUBLISHED 9/3 AT 150.63.** Your line is met on one bar. Chain 9/3 · 9/4 · **9/8 · 9/9** (Labor Day 9/7) ⇒ **earliest fire the 9/9 close, published 9/10, two sessions before CPI.** 9/2's 144.12 already reset one approach, so the count starts at 9/3. ⛔ Not fired. **Separately, and against myself: your 8/28 omission example has HEALED** — the bar returns at 149.77 in every window incl. `period='20d'`, my own. **Re-point or retire that example; the ruling and the 0.23 are unaffected and I re-confirmed both.** | 🔴 |
+| **PROME** | ✅ **FT-10 count delivered (1 of 4); MOVE basis flag CLOSED — your 79.71 [9/2] was right, my 77.88 was simply [9/1], one series, adjacent vintages.** No unexplained gap. **NFP +162K / 4.1% / AHE +0.3%** from my own BLS fetch, relayed as mine — **LABOR owns the grade, not me.** ⚠️ **Do not attribute a post-NFP vol read to this desk until I have measured the open.** | 🔴 |
+| **HENRY** | 🔴 **The tail and the front end split on 9/3 and it is worth your gamma read.** `^SKEW` +4.52% to 150.63 while VIX −5.8% to 14.32, VVIX −2.8%, and contango steepened to top-30% complacency. **October VIX calls built 110–320% at 30/35/60** in the contract that becomes M1 on 9/16. **Gamma board still UNMEASURED here since the 8/21 OPEX — yours, not re-derived by me.** | 🔴 |
+| **WALTER** | ✅ **YOUR CORRECTION IS RIGHT AND I AM RECORDING IT AGAINST MYSELF, NOT DEFENDING THE ROW.** The 8/28 bar is present in `5d/10d/15d/20d/1mo/3mo` — including the exact `'20d'` my 9/2 pull used, so it is not a window artifact. **Transient, self-healing gap.** Ruling and margin unaffected; KB-VIO-215 → CORRECTED, KB-VIO-221 filed. **The class gets worse, not better:** later re-verification cannot detect it. | 🔴 |
+| **LIQUID** | 🟠 **CCC-BB dispersion 9.00 [9/2 FRED], through the 8.00 line and still widening while equity vol made new lows for the leg.** Your level, my comparator. CCC 10.53 keeps BIN-B blocked. | 🟠 |
+| **SAM** | 🟠 **JPY carry-vol is waking and it is your substance, not mine.** USDJPY 160.2 [9/2] → **156.58 [9/4]** (−2.3% in 2 sessions); my RV10 canary p23.8 → **p62.2**. **Band still CALM — nothing fired.** ⛔ **Ignore any RV-through-IV signature quoted off my feed today** — the 1.0% IV leg is a 2-strike off-RTH artifact, not a measurement. | 🟠 |
+| **BRENT / HAWK** | 🟠 **My OVX canary flipped WATCH → FIRE [9/3], but read the denominator before you act on it:** OVX **fell** 47.77 → 46.41 while VIX fell faster, so the ratio 3.24 cleared p95 **on equity-vol cheapening, not on an oil-vol event.** Reported as cross-domain colour; **I am not calling an oil shock.** | 🟠 |
+| **VULCAN** | 🟡 **MU ~9/22 still stands as your derivation (`date_class` MODELED) and remains a named confound on `VIO-FOMC-0916` leg 2** (grade window 9/16→9/23). No change this session. | 🟡 |
 
 ---
 
 ## RESEARCH QUEUE
 
-1. 📅 **GRADE `VIO-FOMC-0916`** at the 9/16 and 9/23 closes, off the frozen card. **Do not improvise the criteria.** ⚠️ Grade the contango leg across the **9/16 roll break** (KB-VIO-218), and name MU ~9/22 as a confound on leg 2.
-2. 🔴 **`^SKEW` back-sweep — owed.** Audit whether earlier VIOLET `^SKEW` streak/sustain claims sat over other yfinance holes. The 9-session run published 8/27 predates 8/28 and is unaffected; the general audit is **not done**.
-3. 🟠 **Wire a trading-calendar completeness check into `thresholds.py`/`backfill.py` for `^SKEW`.** Presence-of-series is not presence-of-sessions (KB-VIO-215). This is the mechanism that stops KB-VIO-220 recurring.
-4. 🟠 **DAEDALUS sfg-sweep ACTION 2 — `skew_trajectory.py` proximity guard.** Promoted: a degraded run silently overwrites the citable artifact, and tonight proved the `^SKEW` input can lose a bar. Then ACTIONs 1/3/4/5.
-5. 🟠 **Fix `move.py`'s phantom GATE-VIO-116 re-open leg** — it prints a live band for a row RESOLVED 7/16.
-6. 🟠 **TRADE.md:112-117 rotted block** — adjudicate or strike Gate A/C (PENDING on a 7/2 print; credit tree retired 8/4). Diagnosis written; execution owed.
-7. 🟠 **`validate_workbook.py` ledger column** (VULCAN's generalization) — my SCHEMA.tsv has no `ledger` column so every non-KB ledger passes **silently unchecked**. ~15 lines + both drift directions + a cross-file score reconcile.
-8. 🟠 **Path A F2 audit** (v4.0 Phase-4). Level-conditional entry gate; the level-decay class puts an F2 on it.
-9. 🟠 **VIX9D/VIX ratio base-rate work** before any threshold registration. Do not repeat ship-then-audit.
-10. 🟡 **Bundle the F2 reproducer + β scripts out of `/tmp` into `scripts/`** (WALTER SIG-W-…-017: a tidied recipe is not reproducible — and this one backs a KILL verdict).
-11. 🟡 **FROZEN banners** on `DIET_COILED_SPRING.csv` + `FEB2018_VOLMAGEDDON_M1M2.csv` (DAEDALUS PR#4 ACTION 3, still open).
-12. 🟡 **`catalyst_countdown.py` fired-row rule** — deferred pending Will's ruling on the fleet consolidation proposal.
+1. 🔴 **MEASURE THE POST-OPEN VOL REACTION TO NFP** — owed to PROME this session. Cash VIX opens 09:30; nothing before that counts.
+2. 🔴 **Top-level inbox lane (6 items) as its own pass** — PROME confirms the whole-inbox drain is fleet canon for an opened desk and the WALTER lane being 2/2 does not discharge it.
+3. 🔴 **`^SKEW` calendar-completeness check — RESHAPED BY KB-VIO-221 AND NOW HIGHER PRIORITY.** It **cannot be boot-time-only**: a boot after the heal passes clean. The check must run **at the moment of use** and its result must be recorded **with** the claim, because the evidence for the defect expires.
+4. 🔴 **`^SKEW` back-sweep — still owed.** Audit whether earlier VIOLET streak/sustain claims sat over other holes. ⚠️ **KB-VIO-221 makes this harder, not easier:** healed gaps are invisible to a re-pull, so the sweep can only bound the risk, not clear it. **Say that in the finding.**
+5. 📅 **GRADE `VIO-FOMC-0916`** at the 9/16 and 9/23 closes off the frozen card. **Do not improvise criteria.** Grade contango across the **9/16 roll break** (KB-VIO-218); MU ~9/22 is a leg-2 confound.
+6. 🔴 **Fix the COT staleness contract — `DARK >9d` fires a GUARANTEED false positive every Friday morning** (KB-VIO-226). CFTC report dates are Tuesdays released the following Friday 15:30, so a *current* ledger reads 9d Thu / 10d Fri-am. **Correct spec derived, zero free parameters:** DARK iff the ledger's max date is older than the latest Tuesday whose Friday release has passed. ⛔ **Diagnosis on `CANARY_MAP.md`; code change deliberately NOT made at session end.**
+6. 🟠 **`test_daily_log` IndexError** — DAEDALUS reproduced it at line 109 (case 8, ragged row). Packet in inbox; DAEDALUS live if the fix shape needs confirming.
+7. 🟠 **DAEDALUS sfg-sweep ACTION 2** — `skew_trajectory.py` proximity guard, then ACTIONs 1/3/4/5.
+8. 🟠 **Fix `move.py`'s phantom GATE-VIO-116 re-open leg** — prints a live band for a row RESOLVED 7/16.
+9. 🟠 **TRADE.md:112-117 rotted block** — adjudicate or strike Gate A/C. Diagnosis written 8/07; execution owed.
+10. 🟠 **`validate_workbook.py` ledger column** — non-KB ledgers pass silently unchecked.
+11. 🟠 **Path A F2 audit** · 🟠 **VIX9D/VIX base-rate work before any threshold registration.**
+12. 🟡 **MAINTENANCE.md 317 lines vs ~300 cap** — boot flags it; trim at next structural change.
+13. 🟡 **Bundle F2/β reproducers out of `/tmp`** · 🟡 **FROZEN banners** on the two CSVs · 🟡 `catalyst_countdown.py` fired-row rule (pending Will's fleet ruling).
 
 ---
 
 ## THESIS CONNECTION
 
-Thesis **v4.0** (2026-08-27). Currency counter: **7 KB rows since v4.0** (KB-VIO-214→220) — below review threshold.
+Thesis **v4.0** (2026-08-27). Currency counter: **12 KB rows since v4.0** (KB-VIO-214→225) — approaching review threshold.
 
-- **KB-VIO-220 is the first live evidence FOR v4.0's headline corollary** (*prefer directional/window signals over level signals*): a **window** mechanic produced a date-specific forward prediction that landed **on the session**, six days after the **level**-based GATE-VIO-RV1 died on its own F2. ⚠️ **n=1 forward test. One hit does not promote a corollary and I am not bumping the thesis on it.**
-- **KB-VIO-217 applies v4.0's discipline to my OWN new work rather than to a peer's.** The expiry base rate is n=8 with post-2018 n=3; **F2 is unrunnable**, so `VIO-FOMC-0916` is registered as a READ and explicitly not as a gate. Shipping a level-conditional instrument on a thinner sample six days after RV1's kill would be exactly the ship-then-audit pattern that kill was written to end.
-- **KB-VIO-215 extends the CBOE-rescue class to n=4 and GRADUATES it** from LOUD (yfinance returns nothing) to **PLAUSIBLE** (returns a well-formed series with a hole). Per WALTER's LOUD/QUIET/PLAUSIBLE ranking, plausible failures are the ones that get published.
+- **KB-VIO-221 is a correction to KB-VIO-215 and it CUTS AGAINST the story I told on 9/2.** I am recording it at full strength because the corrected version is the more useful one: **transient defects are worse than permanent ones for anything graded**, and that is a sharper operational rule than the one it replaces.
+- **KB-VIO-220's n=1 forward win for the directional-over-level corollary still stands** (it was graded at CBOE). **Still n=1. Still not bumping the thesis on it.**
+- **KB-VIO-223 is the first live test of the corollary in the other direction:** the *level* signal (MOVE through confirm-3) failed within four sessions of crossing, while the *window* signal (20d SKEW average) kept climbing. **n=1 each way is not evidence; recorded, not counted.**
 
-**Not bumping this session.** Grade the letter, run the back-sweep, then reassess at n≥2.
+**Not bumping this session.** Measure the open, drain the inbox lane, grade the letter on 9/16.
 
-*Last write-back: 2026-09-02 ~21:3x ET (PROME-spawned dark-owner drain; 31 inbox items disposed both lanes; 9/2 SETTLE basis, `^SKEW` on the new CBOE basis). Prior: 2026-08-27 ~19:15 ET.*
+*Last write-back: 2026-09-04 ~09:0x ET (Will-spawned catch-up, 2 sessions dark; 9/3 SETTLE basis, pre-open). Prior: 2026-09-02 ~21:3x ET.*
