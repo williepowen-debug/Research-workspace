@@ -14,7 +14,13 @@ entities: [CENTCOM, Iran, MOU, Abqaiq, Aramco, UAE, Hormuz, Fujairah]
 corrects: SIG-W-20260818-001
 narrative_channel: centcom
 signal_role: cluster_mediating
+status: SUPERSEDED
+status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-09-01T21:45Z (ADDENDUM #23, two US strike waves 8/30 Larak + 9/1 multi-target); SIG-W-20260901-005"
+status_date: 2026-09-03
 ---
+
+> ⚠️ **LIFECYCLE TAG `SUPERSEDED` applied 2026-09-03 (staleness sweep, WALTER adjudication — the sweep generates candidates, it never auto-tags).** The core state-claim — no CENTCOM-confirmed strike inside Iran, a TWENTIETH consecutive night of the pause — was OVERTAKEN 10 days later: wave 1 (8/30 Larak) and wave 2 (9/1 multi-target), each answered by Iranian missiles at Jordan. It is a CAMPAIGN. ⚠️ SUPERSEDED, NOT FALSIFIED, and the distinction is the signal's due: it was CORRECT WHEN WRITTEN and carried FALCON's guard verbatim — 'UNCHANGED IS NOT REVERSED. THIS IS NOT A DE-ESCALATION CALL.' The caveat did its job; the world moved. ⛔ Do not read the pause finding, or the 'strike leg rests on a weaker basis' comparison, as current.
+
 
 # 🔴 The MOU collapse did **not** convert into kinetic escalation — twenty nights, no change on expiry — **and the strike leg rests on a WEAKER basis than the blockade tally, on this desk's own criterion**
 

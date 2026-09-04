@@ -13,7 +13,13 @@ signal_type: catalyst
 confidence: 0.85
 verdict: TEHRAN DENIAL MULTI-SOURCE CONFIRMED — ADDENDUM #8's FALSIFIER PARTIALLY FIRED (the claim-of-agreement is rejected; fire has NOT resumed; the Oman channel is NOT repudiated)
 narrative_channel: mfa
+status: PARTIALLY-SUPERSEDED
+status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-09-01T21:45Z (ADDENDUM #23, two US strike waves 8/30 Larak + 9/1 multi-target); SIG-W-20260901-005"
+status_date: 2026-09-03
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-09-03 (staleness sweep, WALTER adjudication — the sweep generates candidates, it never auto-tags).** SURVIVES: the Tehran denial is multi-source CONFIRMED and the ADDENDUM #8 falsifier's partial fire stands. BROKE: the verdict's parenthetical 'fire has NOT resumed' is now FALSE — US strikes resumed 8/30 and 9/1. TRUE WHEN WRITTEN, false later; sourcing is NOT impugned.
+
 
 # 🔴 TEHRAN HAS ANSWERED, AND THE ANSWER IS DENIAL: Iran on-record rejects that it asked Trump not to strike, that any Hormuz-reopening or "split-control" agreement exists, and that it agreed to end its nuclear program. **Addendum #8's #1 trigger has resolved — against the deal-parameters read.** Meanwhile C-17 flights consistent with INTERCEPTOR RESTOCK are landing in theater: the munitions floor under the last pause is being repaired.
 

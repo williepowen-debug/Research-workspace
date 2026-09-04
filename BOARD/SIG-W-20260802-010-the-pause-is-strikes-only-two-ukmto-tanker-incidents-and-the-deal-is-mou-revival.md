@@ -13,7 +13,13 @@ signal_type: catalyst
 confidence: 0.85
 verdict: BOTH INCIDENTS NEUTRAL-AUTHORITY DOCUMENTED / MY OWN -006 "NO KINETIC EVENTS" SCOPE CORRECTED / THE MEDIATED DEAL IS REPORTEDLY THE JUNE MOU REVIVED
 narrative_channel: potus
+status: SUPERSEDED
+status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-09-01T21:45Z (ADDENDUM #23, two US strike waves 8/30 Larak + 9/1 multi-target); SIG-W-20260901-005"
+status_date: 2026-09-03
 ---
+
+> ⚠️ **LIFECYCLE TAG `SUPERSEDED` applied 2026-09-03 (staleness sweep, WALTER adjudication — the sweep generates candidates, it never auto-tags).** The framing 'THE PAUSE is strikes-only' is overtaken — the pause ended 8/30 with the first US wave and 9/1 established a campaign. The two UKMTO tanker incidents and the MOU-revival read remain historically accurate at their dispatch date; the PAUSE FRAME they sit inside does not.
+
 
 # 🔴 CORRECTION + SYNTHESIS: **the pause is STRIKES-ONLY — IRGC maritime enforcement never stopped.** Two UKMTO-documented tanker incidents in the window I reported as quiet: **8/1, a tanker STRUCK off Lima (engine room damaged, NOT UNDER COMMAND)** and **8/2 2037 UTC, an explosion in close proximity to a tanker 20-21NM NE of Khasab** — ~80 minutes before Trump told reporters *"there's a deal on Hormuz"* 10 minutes ahead of the futures open. **And the mediated deal is reportedly the JUNE MOU REVIVED — Hormuz reopened 60 days WITHOUT FEES, the Memorandum's own clause — which reconciles every contradictory statement of the weekend.**
 

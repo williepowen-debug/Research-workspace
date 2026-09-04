@@ -13,7 +13,13 @@ signal_type: catalyst
 confidence: 0.80
 verdict: SEQUENCE MULTI-WIRE CONFIRMED / THE DEAL ITSELF IS A POTUS-CHANNEL CLAIM TEHRAN HAS NOT CONFIRMED
 narrative_channel: potus
+status: PARTIALLY-SUPERSEDED
+status_ref: "anchors/IRAN_WAR.md verified-as-of 2026-09-01T21:45Z (ADDENDUM #23, two US strike waves 8/30 Larak + 9/1 multi-target); SIG-W-20260901-005"
+status_date: 2026-09-03
 ---
+
+> ⚠️ **LIFECYCLE TAG `PARTIALLY-SUPERSEDED` applied 2026-09-03 (staleness sweep, WALTER adjudication — the sweep generates candidates, it never auto-tags).** SURVIVES: the ordered-then-cancelled strike sequence is multi-wire CONFIRMED, and the caveat that the deal itself is a POTUS-channel claim Tehran never confirmed is still exactly right. BROKE: the 'exchange paused' state in the title — the exchange resumed 8/30 and is now a campaign. TRUE WHEN WRITTEN; sourcing NOT impugned.
+
 
 # 🔴 THE WEEKEND MOVED THE WAR STATE TWICE: Trump ORDERED strikes on Iranian ENERGY SITES for this weekend (WSJ/Axios, 7/31) — the target class both sides have spared all cycle — then CANCELLED them late Saturday on claimed deal "perimeters" including *"Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT."* **No strikes by either side 8/1–8/2 — the daily exchange has PAUSED. Tehran has NOT confirmed Trump's parameters.** This is the cycle's THIRD pause; the last one broke in four days.
 
