@@ -13,4 +13,11 @@ Ten blind Opus cold reads across three artifacts: HEARTBEAT re-base 2 (4 ❌ →
 5. **Cold-reader contract** — every ❌ quotes both sides with line numbers or it is a ⚠️; a contradiction inside a cited rule is the rule's finding; self-describing figures are graded at most ⚠️. → `.claude/agents/coldreader.md` (root + PROME copies, parity held).
 
 ## What it does not do
-No change to root `CLAUDE.md`; no change to the WQ-165 stop rule's wording (the read budget sits beside it and bounds it from above); no retroactive re-reads. Verification of THIS change: one post-edit blind read of the four bullets + the coldreader diff (the plan was Will-approved as prose at 10:2x; per rule 1 that is the plan read).
+No change to root `CLAUDE.md`; no change to the WQ-165 cold-read stop rule (it lives on `PROME/WILL_QUEUE.md` row 165 and in `PROME/CLOSEOUT.md`, not in `PROME/CLAUDE.md`; the read budget bounds it from above) and no change to the WQ-140 two-correction stop's wording — the read budget's third read is declared to BE that stop's required cold read; no retroactive re-reads. Verification of THIS change: one post-edit blind read of the four bullets + the coldreader diff (the plan was Will-approved as prose at 10:2x; per rule 1 that is the plan read).
+
+
+## Result read (10:5x, one blind Opus read of the four bullets + coldreader 3b): 3 ❌, all rule-meaning — fixed in ONE pass
+- ❌ the read budget forbade the very read the two-correction stop demands → the third read IS that read; after it the file closes for the session.
+- ❌ "never iterated live" vs the result-read fix → at most ONE post-result edit of a canon file.
+- ❌ this record cited WQ-165 as if it lived in PROME/CLAUDE.md → corrected above.
+**Declared residue (un-fixed):** the section's own `Updated:` stamp is a self-describing figure (kept — the harness stamp convention predates the rule and is the file's audit trail); coldreader 3b's "one ⚠️" is per figure; "the ambiguity is the RULE's" scores as ⚠️ on the artifact and as a finding in prose. Third read taken per the rule as amended; the file closes for the session after it.
