@@ -1,3 +1,4 @@
+# Status: LIVE. Last real data refresh: 2026-08-28 (content-derived — newest asof cell in the file). Two-clock header per PAT-044; ledger_staleness.py reads THIS line first, never mtime. Added 2026-09-03: this ledger had NO vintage banner and NO dead-banner, i.e. the silent-rot middle root CLAUDE.md forbids — declaring the TRUE vintage puts it in the LIVE-with-staleness-alert state.
 metric	value	asof	note
 # BROCK PUBLISHED.tsv — numbers THIS desk publishes that other desks consume. Read by scripts/consumer_check.py --agent BROCK --from-ledger.
 # Created 2026-08-28 on PROME's ruling (CCC/HY -> REGINALD's VX-REG-18.04, cited never copied; CCC/BB + the CCC-BB gap -> BROCK).
