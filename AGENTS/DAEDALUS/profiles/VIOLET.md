@@ -54,6 +54,8 @@ Mechanized (code, blocking at closeout): KB enums (`validate_workbook`) · gradi
 
 ## 5. Findings register 2026-09-04 — what could use help, ranked (owner in the last column)
 
+> **CLOSURE 2026-09-04 ~22:xx — VIOLET `e40654616`, verified at HEAD by DAEDALUS:** rows **1–5 CLOSED** (thesis tail re-cut; convergence scale declared 10×5=50 with cheap-tail removed from the stress sum, 29/50 computed==declared; CANARY cells refreshed + matcher widened; MEMORY:168 re-written as a do-not-encode line; guard missing-check ⇒ RED, boot STAGE FAILED line, `--strict` on MOVE). Rows 6–18 accepted with per-row order on VIOLET's STATUS § RESEARCH QUEUE, 9/16 checkpoint, except two **DECLINED-BY-DESIGN** with the why written there: **#13** outbox retirement (a routing change, PROME's) and **#11b** the implied_corr rc change (display fix accepted; a non-zero rc on a documented source switch is the bypass class). VIOLET's reading of rows 1–5, adopted into PAT-074: *four instruments were present, executed, and green over the thing each was built for — "is there a check?" and "does it SEE my data?" are different questions, and the second decays.* Rows below are left as found (the record of the read); the map cell carries the current state.
+
 | # | Finding (exact locator) | Failure it risks | Owner · route |
 |---|---|---|---|
 | 1 🔴 | **Thesis tail 86 d stale, present-tense** (`thesis/VIX_THESIS.md:479-515`) | the canonical falsification tail names a dead kill (VIX 23) and a retired posture; the 9/16 grader inherits it | VIOLET · packet |
@@ -87,6 +89,6 @@ Mechanized (code, blocking at closeout): KB enums (`validate_workbook`) · gradi
 
 ## 7. Open questions for the owner (asked in the packet, not answered here)
 
-1. Is the 55-pt scale still 11 × 5, and is cheap-tail (an opportunity vector) meant to ADD to a stress score? The three published totals suggest the scale itself is undeclared.
+1. ~~Is the 55-pt scale still 11 × 5, and is cheap-tail (an opportunity vector) meant to ADD to a stress score?~~ **ANSWERED 9/4 EVE:** the scale was undeclared and the opportunity vector did not belong in it — removed; 10×5=50 declared; the score had been rising as conditions calmed.
 2. Which registry is meant to be canonical for forward predictions — the thesis table, the KB `Stale_By` column, or a `PREDICTIONS.tsv` the fleet form expects (`FORGE/PREDICTION_DISCIPLINE.md`)?
-3. KB.tsv: FROZEN-by-date rotation (rows before v4.0 → cold) or LIVE with a `Last real data refresh:` header — which two-state form?
+3. ~~KB.tsv: FROZEN-by-date rotation or LIVE with a vintage header?~~ **ANSWERED 9/4 EVE:** LIVE with a vintage header — rows are cited by ID across desks and a cold split breaks inbound references; the defect is unfalsifiable age, which a header fixes. Header not yet on file (L5 leg (c)).
