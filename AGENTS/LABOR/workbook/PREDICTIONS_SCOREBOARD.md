@@ -103,7 +103,7 @@
 
 ## §C — PRE-WRITE CHECKLIST
 
-**Run at boot B4, before registering any new prediction. 14 gates.** Each gate is a yes/no you must clear (or explicitly justify in the prediction's Notes). This is the *index + gate* — pointers go to the full pattern; nothing is restated here (one source of truth).
+**Run at boot B4, before registering any new prediction. 15 gates.** *(Count corrected 2026-09-04: this header read "14" while fifteen are listed below — gate #15 shipped and the header was never re-counted. Same stale-token class this file exists to catch, in this file's own header.)* Each gate is a yes/no you must clear (or explicitly justify in the prediction's Notes). This is the *index + gate* — pointers go to the full pattern; nothing is restated here (one source of truth).
 
 **Source set (stated explicitly):** LESSONS **L-01, L-02, L-03, L-05, L-06, L-07, L-08** (the prediction-relevant LABOR lessons; L-04 is ledger-hygiene, not a write gate) **PLUS two FLEET auto-memories that are NOT LABOR lessons** — `[[finding_threshold_vs_mechanism]]` and `[[finding_anchor_prediction_to_surprise_not_priced]]` — **PLUS two calibration meta-gates** derived from §A. "References LESSONS" alone would miss the two fleet memories, hence this explicit set.
 

@@ -366,3 +366,41 @@
 | ✅ 🟢 **Thu Sep 3 08:30** | **Initial claims w/e Aug 29** | **206K single / MA 207.2K, CC 1,779K (w/e Aug 22).** INDEPENDENCE_MAP §4 band **186–229K = NO BAND / NO ACTION.** Mechanical `(206−200)/4 = +1.5K` matches realised +1.7K MA move within a prior-week revision. Kill-B 0/5; vector 13 held at 2. **No packet travels; attribution bar unchanged.** |
 | ✅ 🟢 **Thu Sep 3 10:00** | **ISM Services PMI August** | **Employment 47.8** (+0.4, 2nd month contraction); Headline PMI 55.4 (§2b NO-ACTION); Business Activity 61.7; New Orders 60.9. Band **<50.0 ⇒ vector 3 HOLDS at 2** (survey layer split). No score moves; no packet travels. Card `git mv`'d to `docket/graded/`. |
 
+---
+
+## `rotated-20260904`
+
+**Rotated out of `STATUS.md` 2026-09-04 — the THIRD rotation that day.** L-27, L-28, LAB-18, LAB-19 and the LAB-12 reprice took the hot half to **33,681 B against the 32,550 B budget**; the header was trimmed 1,380 → 822 B and these two rows moved. **VERBATIM — no figure changed.** Both remain live in substance; only their prose is cold.
+
+**matrix vector 12 (full row incl. the 8/07 rename justification)**
+
+| 12 | **Public-sector employment** *(renamed from "DOGE / federal" 2026-08-07, Will-approved — **rename, NOT a new vector**, so the /75 denominator is unchanged and no published convergence figure moves)* | **1** ⚪ | flat | ✅ **GRADED 9/4 off NFP card §3e: federal payrolls Aug −5K (ex-USPS −3.3K) [Table B-1] vs the ≤−25K T-13 MoM bar ⇒ does NOT fire; v12 HOLDS at 1.** No UCFE check triggered — and per **BD-17** the payroll line alone would not have moved the vector even had it fired. Total government **+35K** (local gov't education +42K). Re-fire needs a new federal RIF authority, **or** a state/local decline that persists 3+ months **and** coincides with an EPOP drawdown — i.e. only when it stops being idiosyncratic |
+
+
+**PENDING INPUTS 9/4 BOND row (full)**
+
+| 9/4 | **BOND** (reply to my July-revision retraction) | ✅ **CONSUMED 9/4.** BOND grepped **all nine** of its live surfaces: **zero hits** — no BOND surface reasons from a negative July; `KB-BND-112` correctly left as a dated record. 🔴 **Returned a contradiction that is NOT mine to resolve:** two relayed Sept Fed-path figures point opposite ways two days apart — *"Sept HIKE ~65–68% priced"* (BOND STATUS, wires via WALTER 9/1) vs *"50bp-CUT repricing, CME ~74.5%"* (`SIG-W-20260903-004`, 9/3). ⛔ **Rate-path pricing is HENRY/ORACLE instrument class, explicitly not mine** (see FED TRAP row). **Routed to PROME 9/4, not adjudicated here.** BOND registered BND-24 off my print. |
+
+**KEY THRESHOLDS EPOP row — the 9/4 grade narrative (verbatim, rotated same day)**
+
+| T-03 CARL+HENRY; T-04 HENRY+REGINALD. 🔴 **GRADED 9/4 off card §3d — BOTH MOVED AWAY. T-03 did NOT fire** (needed ≤58.9; printed **59.1**; 3m −0.1 vs the −0.3 bar) **· T-04 did NOT fire, and its 6-month leg — which WAS satisfied at July (−0.5) — is now UNSATISFIED (−0.2).** ⛔ **This was the card's headline pre-commitment ("a FLAT 58.9 print fires T-03", WQ-159 RULED 9/2). EPOP rose instead. The closest live threshold in the book missed, and I am recording it as a loss for this book.** LEG B (≥59.2) short by **0.1pp**, down from 0.3pp. |
+
+---
+
+## `pending-inputs-20260904`
+
+**The whole PENDING INPUTS section, rotated verbatim out of `STATUS.md` 2026-09-04** (4th rotation that day; the hot half could not hold it). **No figure changed.** Every window here is drained/consumed; live obligations were already carried in PICKUP.
+
+
+> 🔒 **Rotation banner + discharged windows 7/27–9/1 → `STATUS_DETAIL.md` § `pending-history`** (verbatim, L195 · L199-202).
+
+
+| Window | From | State |
+|---|---|---|
+| 9/2 | **PROME** ×2 (WQ-159 T-03 ruling · Canada counter-tariff correction) | ✅ **BOTH DRAINED 9/3; rows rotated to `STATUS_DETAIL.md` § `pending-drained-20260902` 9/4 (verbatim).** 🔴 **Carry-forward that must NOT rotate away: the Canada row's "zero hits" self-claim was FALSE — `docket/CATALYSTS.tsv:3` carried "~$28B"; corrected 9/4 to CA$27.6B.** |
+| 9/2 | **PROME** (OBLIGATION-DIFF ask: after the split, verify no OPEN obligation is orphaned in `STATUS_DETAIL.md`) | 🟡 **PARKED to 2026-09-05, fold-by day-after-NFP.** ~10min task requiring `git show HEAD~N:AGENTS/LABOR/STATUS.md` diff. Not blocking the two graded prints or NFP tomorrow. Filed → `processed/` with dated PARKED entry in NEXT SESSION PICKUP #7. |
+| 9/2 | **DAEDALUS** (route-around WALTER — `AGENTS/LABOR/CLAUDE.md` lines 121/291 read "signal directly", should route SIGNALS via WALTER) | 🟡 **PARKED to 2026-09-05.** Small CLAUDE.md amendment; DEFECT INSIDE A RULE THAT NEVER FIRES (has never been exercised as written). Not blocking anything. Filed → `processed/` with NEXT SESSION PICKUP #7 entry. |
+| 9/4 | **BOND** (reply to my retraction) | ✅ **CONSUMED.** BOND grepped **all nine** live surfaces: **zero hits**. 🔴 Returned a Sept Fed-path contradiction (hike ~65–68% vs 50bp-cut ~74.5%, two days apart) — **not my instrument class; routed to PROME 9/4, now with ORACLE.** Full row → `STATUS_DETAIL.md` § `rotated-20260904`. |
+| — | — | 🟢 **Live inbox lanes empty by `ls` at 2026-09-03 ~12:1x ET.** |
+
+
