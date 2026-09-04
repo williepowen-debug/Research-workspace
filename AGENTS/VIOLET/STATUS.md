@@ -16,13 +16,30 @@
 
 ---
 
-## ⚠️ MEASUREMENT NOT YET TAKEN — THE POST-NFP VOL REACTION
+## ✅ POST-NFP VOL REACTION — MEASURED AND GRADED AGAINST A PRE-OPEN CARD
 
-**Cash VIX opens 09:30 ET. Every VIX print available as I write this is pre-open and structurally cannot price an 08:30 release.** The tape read **14.25** at ~08:5x; quoting that as *"VIX fell on the jobs number"* would be a well-formed, correctly-dated, current-looking number that is incapable of containing the event — `[[finding_plausible_stale_value_evades_review]]`.
+> **Graded against `research/2026-09-04_nfp_vol_reaction_prereg.md`, written ~09:1x ET — after the 08:30 print, BEFORE the open and before any post-open number existed.** Baselines were frozen in that card.
 
-**I will measure the reaction after the open rather than narrate it now.** Until that measurement exists, **this desk has no post-NFP vol read** and no one should attribute one to it. *(Owed to PROME this session.)*
+| Metric | Baseline | @09:40 | **@10:00** | **@10:05** | Δ vs baseline |
+|---|---|---|---|---|---|
+| **VIX** | 14.32 [9/3 settle] · 14.16 [pre-open] | 14.03 | **14.15** | **14.11** | **−0.21** vs settle · −0.05 vs pre-open |
+| VVIX | 83.80 [9/3] | 83.80 | 82.64 | **82.51** | **−1.29**, cheapening throughout |
+| SPX | 7,747.71 [9/3] | 7,740.19 | 7,738.64 | **7,736.04** | **−0.15%** |
+| **VIX9D/VIX** | 0.8270 [9/2] | — | 0.8191 | **0.8150** | **−0.0120** — front end cheapened *further, and kept going* |
+| **VIX3M/VIX** | 1.1664 [9/2] | — | 1.2283 | **1.2303** | 🔴 **+0.0639 — material STEEPENING away from inversion** |
+| `^SKEW` | 150.63 [9/3] | 150.63 [9/3] | 150.63 [9/3] | **150.63 [9/3]** | **no 9/4 value exists — 0 intraday bars at every read** |
 
-⚠️ **Kalshi Sept-HIKE 0.48 is [8/28 settled] — it PREDATES the print by a week.** The direction of the update is obvious; I do not hold the post-print number and will not manufacture one.
+> ✅ **TWO INDEPENDENT READS, 25 MINUTES APART, AGREE AND THE TREND EXTENDED.** Between 10:00 and 10:05 **all three structural legs moved the same way** — VVIX cheaper (82.64→82.51), VIX9D/VIX lower (0.8191→0.8150), VIX3M/VIX steeper (1.2283→1.2303). **The widening is not a single-print artifact.**
+
+**⇒ PRIMARY (VIX level) = OUTCOME D, NULL.** −0.21 at the last read sits inside the card's own declared 0.3 noise floor, so **no directional claim is established on the level.**
+**⇒ SECONDARY (term structure) = OUTCOME B, DIVERGENCE PERSISTS AND WIDENED.** +0.0619 on VIX3M/VIX is large against that ratio's own scale and is not a noise move. Outcome A (VIX ≥15.3) not met, not close. Outcome C (VIX <13.9 *and* SKEW <150) not met.
+
+🔑 **The market took a print that keeps a hike live 8 days out and did not bid the front end — it CHEAPENED it.** That **strengthens** the cheap-tail configuration rather than resolving it.
+
+> ⚠️ **A DEFECT IN MY OWN CARD, FOUND BY GRADING IT AND RECORDED RATHER THAN QUIETLY RESOLVED: BANDS B AND D OVERLAP.** B read *"flat-to-lower or up trivially (<+0.5)"*, D read *"|ΔVIX| < 0.3"* — **a −0.17 satisfies both, and the outcome landed exactly in the overlap**, so the card could not discriminate its own two likeliest results. I wrote it 50 minutes before grading it. **Resolution, stated so it is not a free post-hoc choice:** D is the stricter band and a strict subset of B, so **D governs the primary**; B is claimed **only** on the term structure, a different instrument with no such overlap. **Fix next time: declare the noise floor first, define every directional band strictly outside it.**
+>
+> ⛔ **NO CAUSAL ATTRIBUTION TO NFP.** CPI is 7 days out and the FOMC 8; at least three drivers are live and this is 2.5 hours of one session. **What vol did, not why.**
+> ⛔ **FT-10 UNCHANGED AT 1 OF 4.** `^SKEW` returned **zero intraday bars** today (verified at 10:00 — 0 bars while VIX/VVIX/VIX9D/VIX3M all returned them); CBOE does not publish the 9/4 bar until after the close. **The count cannot move today.** → **KB-VIO-233**
 
 ---
 
