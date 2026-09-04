@@ -311,7 +311,16 @@ def segments(text, as_of, only=None):
     A bold header `**THU 9/3:**` / `**8/22 · 8/24-8/29**` sets the context for the
     segments that follow it on the same line (SCRATCH shape); table cells and ` · ` /
     ` — ` splits are the segment boundaries (HEARTBEAT + SCRATCH shapes)."""
+    in_block = False
     for n, line in enumerate(text.splitlines(), 1):
+        # Constraint 1 (2026-09-03, PROME post-flip): the GENERATED block is OUTPUT, never input —
+        # its rendered catalyst text ("Will 9/2 10:57 …") was being read back as dated claims.
+        if BEGIN in line:
+            in_block = True
+        if in_block:
+            if END in line:
+                in_block = False
+            continue
         if only is not None and n not in only:
             continue
         if not (RE_MD.search(line) or RE_ISO.search(line)):
@@ -565,6 +574,11 @@ def selftest():
         # 9e. --ignore mutes and SAYS so
         rc15, out15 = _run(["--check", v1, "--docket", dk, "--ignore", "Colorado"] + asof)
         drill("check: --ignore mutes the segment and prints the muted count", rc15 == 0 and "MUTED by --ignore" in out15, f"rc={rc15}")
+        # 9h. the generated block is skipped by --check (constraint 1: output is never input)
+        v9 = os.path.join(td, "view_gen.md")
+        open(v9, "w", encoding="utf-8").write(BEGIN + "\n**8/25:** AEOLUS Colorado ROD (Will ruled 8/25) (L3)\n" + END + "\nhand line: nothing dated\n")
+        rc17, out17 = _run(["--check", v9, "--docket", dk] + asof)
+        drill("check: dates INSIDE the generated block are skipped (constraint 1), zero claims matched", rc17 == 0 and "ZERO claims matched" in out17, f"rc={rc17}")
         # 10. zero-match surface says so
         v4 = os.path.join(td, "view_none.md")
         open(v4, "w", encoding="utf-8").write("nothing dated relevant 1/1\n")
@@ -573,7 +587,7 @@ def selftest():
     if fails:
         print(f"DOCKET-VIEW SELFTEST ✗ {fails} drill(s) FAILED — do not trust the tool")
         return 1
-    print("DOCKET-VIEW SELFTEST ✓ 23/23 drills behaved")
+    print("DOCKET-VIEW SELFTEST ✓ 24/24 drills behaved")
     return 0
 
 
