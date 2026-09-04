@@ -34,3 +34,22 @@
 - *"D-16 −$882.10 open"* — RESOLVED 8/29 (FORGE activity view).
 - *"~$1,150 = the energy thesis total"* — WRONG LABEL: it is the duration-short total at the 8/28 mirror; energy = $6,899 at 9/3 12:20 (TERRY c8c58a363).
 - *"OPEC+ Sat 9/6"* — 2026-09-06 is a SUNDAY (ANVIL claim_check 9/3).
+
+## 2026-09-04 adds (ELEVENTH re-base, ~09:1x ET; the hot §Pointers cell is the binding set — this section makes its 9/4 items findable here)
+- *"Sept FOMC: 50bp CUT, CME ~74.5%"* — KILL: sign-inverted; WALTER opened the CNBC 9/3 articles at source (`ae471ecf8`): they price a HIKE at 61%, no "50bp"/"cut"/"74.5"; corrected by SIG-W-20260904-002 (FLIPS). Polymarket hike-25 52.5% / Kalshi differenced 57.0% [9/4 12:42Z, ORACLE `ef34a6644`].
+- *"Sept HIKE ~65–68% priced"* — WRONG CONTRACT: a cumulative by-OCTOBER contract relayed as meeting-specific (BOND STATUS, wires 9/1); the error direction is fixed too-hawkish (P(by T₂) ≥ P(at T₁)); second instance in three weeks (NEXUS 71.5%, 8/18).
+- *"Kalshi 'Above 3.75%' 59.0 = P(hike)"* — a cumulative rung; must be differenced (57.0).
+- *"July NFP −23K"* / *"a negative payroll print this cycle"* — REVISED +21K (BLS USDL-26-1435, 9/4); June +31K; no negative print survived (LABOR `51fa1349e`).
+- *"T-03 fired on the August print / routes CARL + HENRY"* — MISSED: EPOP rose 58.9→59.1 (needed ≤58.9).
+- *"LEG A bar +303K"* — RECOMPUTED +248K on the revised vintage (card L-02); 3-mo avg 71.3K failed.
+- *"dealer stock still draining"* / *"long-end drawdown still widening"* — FALSE on the FR2004 8/26 vintage: total long-end $146.3B→$151.8B, drawdown narrowed to −13.3% (BOND 9/4); dealer absorption HOLDS AT 2.
+- *"DGS30 5.27 ties the 2026 max"* — the 2026 max is 5.31 [8/17]; 5.27 is joint-3rd (BOND, n=169 sessions).
+- *"add-gate 6bp away"* — 5bp (DFII10 2.45 [9/2]); three BOND surfaces said 6bp until 9/4.
+- *"yfinance OMITS the 8/28 ^SKEW bar"* — HEALED: 149.77 present on every window incl. period='20d' (VIOLET 9/4); the defect is TRANSIENT, not persistent; the CBOE-as-publisher ruling and the 0.23 margin stand.
+- *"FT-10 fired"* / *"SKEW crossed 150"* — STILL KILL: CBOE 09/03/2026 = 150.63 confirms the mirror ⇒ 1-of-4 ARMED; sustain 4; earliest fire the 9/9 close.
+- *"MOVE 77.88 [9/2]"* — that was the 9/1 print; 9/2 = 79.71, 9/3 = 74.68 (VIOLET basis flag closed).
+- *"NVDA 10-Q: 'procurement of memory'"* — the quote is in NO NVDA primary (WALTER -0904-001 corrects -0903-045; EDGAR nvda-20260726.htm re-opened).
+- *"ORCH_LOG 81 rows = 78 TOUCH + 3 CLOSE / 2 UNKNOWN"* — that was the 9/3-close ledger; 87 = 84 + 3 / 8 UNKNOWN after the 9/4 in-flight rows (DAEDALUS render #2 `b8727369a`).
+- *"WQ-172 SL pointer owed"* — already encoded 9/3 (SPEC_LETTER_STANDARD L41, `efb798978`).
+- *"VIX fell on the jobs number"* (before 09:30 9/4) — a pre-open print cannot price an 08:30 release (VIOLET).
+- **Carried from 9/2–9/3 (still bind):** every item in those two sections; the hot cell repeats the load-bearing few.
