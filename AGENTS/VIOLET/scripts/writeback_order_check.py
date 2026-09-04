@@ -136,7 +136,15 @@ def brief_provenance() -> list[str]:
                    "STATUS this brief stands on.")
     elif m.group(1) == "same-commit":
         if dirty:
-            pass   # cannot be verified before the commit exists; verified next run
+            # ⚠️ v1 passed unconditionally while dirty. A BRIEF-ONLY commit could
+            # then claim `same-commit` and clear closeout on a false marker, caught
+            # only on a later run. If the brief is being written, STATUS must be
+            # too — otherwise they are provably NOT landing together.
+            if not _git("status", "--porcelain", "--", _rel("STATUS.md")):
+                out.append("  🔴 NEXUS_BRIEF claims `same-commit` and is dirty, but STATUS.md "
+                           "is CLEAN — they cannot land in the same commit.\n"
+                           "     Either this is a brief-only commit (the marker is false) or "
+                           "STATUS has not been written yet.")
         elif latest and brief_commit and latest != brief_commit:
             out.append(f"  🔴 NEXUS_BRIEF claims `same-commit` but STATUS's latest commit is "
                        f"`{latest}` while the brief was committed in `{brief_commit}`.\n"
@@ -204,6 +212,49 @@ def brief_provenance() -> list[str]:
     return out
 
 
+# ⚠️ #4 (external review): the stamp check covered NEXUS_BRIEF only, so a future
+# timestamp reappeared on STATUS and CANARY_MAP within one commit of the last fix.
+# A check scoped to one surface teaches the defect to move to the others.
+STAMPED = {
+    "STATUS.md": re.compile(r"Last write-back:\s*(\d{4}-\d{2}-\d{2})\s*~?(\d{1,2}):(\d{2}|\dx|xx)"),
+    "CANARY_MAP.md": re.compile(r"Last refreshed:\s*\*{0,2}(\d{4}-\d{2}-\d{2})\*{0,2}\s*~?(\d{1,2}):(\d{2}|\dx|xx)"),
+}
+
+
+def _floor_minute(mins: str) -> int:
+    if mins.isdigit():
+        return int(mins)
+    if len(mins) == 2 and mins[0].isdigit():
+        return int(mins[0]) * 10
+    return 0
+
+
+def stamp_futures() -> list[str]:
+    """No surface may carry an as-of stamp later than the clock that reads it."""
+    out = []
+    now = datetime.now()
+    for name, rx in STAMPED.items():
+        f = AGENT_DIR / name
+        if not f.exists():
+            continue
+        mo = rx.search(f.read_text(encoding="utf-8"))
+        if not mo:
+            continue
+        try:
+            stamped = datetime.strptime(
+                f"{mo.group(1)} {int(mo.group(2)):02d}:{_floor_minute(mo.group(3)):02d}",
+                "%Y-%m-%d %H:%M")
+        except ValueError:
+            continue
+        drift = (stamped - now).total_seconds() / 60.0
+        if drift > 5:
+            out.append(f"  🔴 {name} is stamped {stamped:%H:%M} but it is {now:%H:%M} — "
+                       f"a stamp {drift:.0f} min in the FUTURE.\n"
+                       f"     Run `date` before every stamp; do not write the hour you "
+                       f"expect to finish in.")
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--quiet", action="store_true")
@@ -228,7 +279,7 @@ def main() -> int:
     if lagging or not a.quiet:
         print("\n".join(lines))
 
-    prov = brief_provenance()
+    prov = brief_provenance() + stamp_futures()
     if prov:
         print("\n  🔴 BRIEF PROVENANCE:")
         for line in prov:

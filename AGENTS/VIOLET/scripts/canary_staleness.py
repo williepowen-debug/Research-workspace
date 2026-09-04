@@ -153,6 +153,73 @@ UNLEDGERED = [
 ]
 
 
+# Canaries whose ledger carries a `state` column AND whose map row names a state.
+# Only these can be compared; the rest are age-checked and say so.
+STATE_LEDGERS = {
+    "Cheap-tail window": ("CHEAP_TAIL.tsv", "state", r"cheap-tail|Cheap-tail"),
+    "OVX/VIX ratio": ("OVX.tsv", "state", r"OVX/VIX"),
+    "JPY vol": ("JPY_VOL.tsv", "state", r"JPY vol"),
+}
+
+
+def check_map_states() -> list[str]:
+    """Compare the STATE CANARY_MAP asserts against the state its ledger holds.
+
+    The promise the old docstring made and never kept. Narrow on purpose: it runs
+    only where a ledger has a `state` column, and it reports a MISMATCH, never a
+    'stale' — the map can be perfectly fresh and affirmatively wrong, which is
+    exactly what happened (`finding_freshness_check_cannot_catch_a_fresh_lie`).
+    """
+    import csv as _csv, re
+    m = VIOLET_DIR / "CANARY_MAP.md"
+    if not m.exists():
+        return ["CANARY_MAP.md missing — cannot compare states."]
+    text = m.read_text()
+    out = []
+    for name, (ledger, col, row_pat) in STATE_LEDGERS.items():
+        f = WB / ledger
+        if not f.exists():
+            out.append(f"{name}: ledger {ledger} missing — CANNOT COMPARE.")
+            continue
+        try:
+            rows = list(_csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"))
+        except OSError:
+            continue
+        rows = [r for r in rows if r.get(col)]
+        if not rows:
+            continue
+        live = rows[-1][col].strip().upper()
+        # the map line that names this canary
+        line = next((l for l in text.splitlines()
+                     if re.search(row_pat, l) and l.lstrip().startswith("|")), None)
+        if line is None:
+            out.append(f"{name}: no CANARY_MAP row matched /{row_pat}/ — the map may have "
+                       f"been renamed out from under this check. CANNOT COMPARE.")
+            continue
+        # ⚠️ ANCHOR ON THE CURRENT CELL, not on the row. A map row also contains
+        # the TRIGGER column ("WATCH p90 ~13.97 / FIRE p95 ~15.21") and a trailing
+        # history clause, both full of state words. v1 took the row's first token
+        # and read the JPY THRESHOLD LABEL as the asserted state — a false positive
+        # on a correct cell, which is the way to get a check switched off.
+        head = re.split(r"\*\(Prior|\*\(This cell read|Prior \[", line, maxsplit=1)[0]
+        anchor = re.search(r"Current\s*\[", head, re.I)
+        if anchor is None:
+            continue                 # no current-reading claim on this row to compare
+        head_states = re.findall(r"\b(DORMANT|ARMING|OPEN|FIRE|CALM|WATCH)\b",
+                                 head[anchor.end():].upper())
+        # ⚠️ Compare the FIRST state token in the head, not membership. v1 asked
+        # `live not in head_states` and was INERT: a refreshed cell legitimately
+        # names the old state in the same clause ("...while the live alert printed
+        # OPEN"), so the live value was almost always present somewhere and the
+        # check never fired. Caught by injecting the exact 31-day defect and
+        # watching it pass.
+        if head_states and head_states[0] != live:
+            out.append(f"{name}: CANARY_MAP asserts {head_states[0]} but {ledger}'s newest "
+                       f"row says {live} — the map is FRESH AND WRONG, which no age "
+                       f"check can see (2026-09-04: DORMANT vs OPEN for 31 days).")
+    return out
+
+
 def check_map_agreement() -> list[str]:
     """AGREEMENT half — added 2026-07-30 PM, hours after the age half, because the
     age half MISSED the very breach it was built to prevent.
@@ -166,11 +233,24 @@ def check_map_agreement() -> list[str]:
     that was fresh and affirmatively wrong (`finding_freshness_check_cannot_catch_a_fresh_lie`).
     Third time this file has carried a stale "current".
 
-    This extracts every `Current [M/D]` / `[M/D] STATE n/4` assertion from
-    CANARY_MAP and compares its DATE against the backing ledger's newest row.
-    It deliberately does NOT try to parse the prose values — matching a date is
-    robust; regexing narrative numbers is not, and a check that breaks on wording
-    is worse than none.
+    ⚠️ **THE DOCSTRING USED TO CLAIM A COMPARISON THIS FUNCTION NEVER MADE**
+    ("compares its DATE against the backing ledger's newest row"). It did no such
+    thing — it flagged recognised dates older than four days and never opened a
+    ledger. External review, 2026-09-04. **A docstring that overstates a check is
+    worse than a missing check: it is the thing a reader trusts INSTEAD of
+    looking.** The age half is now described accurately, and the comparison it
+    promised is implemented below as a separate, narrower pass.
+
+    AGE HALF: extract every `Current [M/D]` / `[M/D] STATE` assertion and flag any
+    older than the EOD contract. It deliberately does NOT parse prose values —
+    matching a date is robust; regexing narrative numbers is not.
+
+    STATE HALF (`check_map_states`): for the canaries whose ledger carries a
+    `state` column, compare the STATE the map asserts against the state the
+    ledger actually holds. This is the half that matters: on 2026-09-04 the map
+    read `DORMANT 1/4` for 31 days while `cheap_tail.py` wrote `OPEN 4/4` to
+    `CHEAP_TAIL.tsv` at every boot. **Both surfaces were fresh enough to pass an
+    age check and they said opposite things.**
     """
     import re
     m = VIOLET_DIR / "CANARY_MAP.md"
@@ -320,6 +400,7 @@ def main(argv=None) -> int:
         print()
 
     stale_cells = check_map_agreement()
+    stale_cells += check_map_states()   # the comparison the docstring used to only promise
     if stale_cells and not a.quiet:
         print("Doc-vs-ledger agreement (the half the age check cannot see):")
         for s in stale_cells:

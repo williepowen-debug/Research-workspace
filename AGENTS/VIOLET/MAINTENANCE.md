@@ -29,89 +29,6 @@ Log material structural changes only — not routine content edits. Template ado
 - ⚠️ **A hand-stamped derived value rots on a schedule its own file cannot see.** Countdowns, unlike dates, are wrong the day after they are written. **Delete the derived column; point at the tool.**
 
 
-## 2026-07-31 — **The grading notes `boot.py` prints at resolution time are unchecked, and 2 of 4 were stale · Phase-2 memory pointers embedded into `CLAUDE.md`**
-
-- **Trigger:** a PROME-spawned scoped grading session (KB-VIO-127 resolved today). The structural finding was incidental to the grade and larger than it.
-- **① `CATALYSTS.tsv` free-text notes are a load-bearing surface with no consistency check** (KB-VIO-169). `boot.py` prints each imminent row's note verbatim, **at the top of the queue, on the day a prediction resolves** — i.e. pre-formatted as an answer at the one moment its content is load-bearing. Nothing validates those notes against the KB rows they cite. **Two of four were stale:** the KB-VIO-127 row asserted *"no >20 settle has occurred at any point in the episode"* (false from 7/29, which would have made the grade right-verdict/wrong-content), and the **8/5 SOQ** row — the *next* prediction due — carried TERRY's **retracted 0.28** forward beta, superseded on 7/30 by my own re-derivation (0.591 @≤10 DTE).
-- **② The twin check has a blind spot with an inverted failure direction.** `CALENDAR.md` ↔ `CATALYSTS.tsv` must not diverge, and my check compares **which rows exist**. They were row-for-row consistent all week and **semantically contradictory** — **and the surface that rotted was the MACHINE feed while the HUMAN twin stayed current**, the reverse of the failure the twin rule was written for (a human file drifting behind the pipeline). **Existence-parity is not agreement.** *Candidate mechanism, NOT built: for every `CATALYSTS` row within N days, assert its note's cited figures still match their KB source. Recorded so it is not re-discovered.*
-- **③ Phase-2 auto-memory restructure consumed** — PROME moved `reference_violet_vol_cheatsheet` and `reference_violet_operating_picture` out of the always-loaded index; embedded both into `CLAUDE.md` as a new **"Will-facing published Artifacts"** block under FILES YOU MAINTAIN, plus an `artifacts/*.html` table row. ⚠️ **Written from the memory FILES, not the packet paraphrase, and they differed materially** — the paraphrase omitted the **repo-source paths** and the **same-URL redeploy mechanism**, which are the two things a session needs in order to act. **Both memory files also still read *"Next scheduled refresh: after FOMC 7/29"* for a refresh completed 7/30** (`dafb97e0`/`dec911c2`) — **a completed instruction still presenting as pending**, corrected in place (hardlinked to the harness path, so edit-in-place, never recreate).
-- **④ `fred_cache/` is a closeout blind spot.** Three files sat dirty from the 7/30 closeout — a **script-written side-effect path that no closeout checklist names**, so it goes dirty on every boot and gets committed only when someone notices the `git status` noise.
-- **Files touched:** `CLAUDE.md` (new Artifacts block + table row) · `workbook/{KB,CATALYSTS}.tsv` · `{STATUS,SCRATCH,CALENDAR,NEXUS_BRIEF,LAST_COMPLETION,MAINTENANCE}.md` · `workbook/fred_cache/` ×3 · `memory/auto/reference_violet_{vol_cheatsheet,operating_picture}.md` (carve-out ③) · PROME packet → `inbox/processed/`.
-- **Boot-impact:** none to the sequence. **`CATALYSTS.tsv` forward surface is now correct** — fired rows pruned (KB-VIO-127, 7/30 earnings), an **8/3 row added** so KB-VIO-126's hook does not leave the forward surface when its triggering catalyst was pruned, and the 8/5 note corrected. Verified with `catalyst_countdown.py`. ⚠️ **Credit gate stage FAILS (timeout) while FRED is unreachable — source-side, not a regression** (KB-VIO-170).
-- **Lessons:** 🔑 **A grading aid decays faster than the thing it grades.** A stale dashboard cell gets sanity-checked; a stale *note* gets believed, because it arrives in the shape of a conclusion. 🔑 **When you prune a fired catalyst, check what obligation was riding on it** — pruning the 7/30 earnings row would have left KB-VIO-126's 8/1 hook held only by SCRATCH. 🔑 **A completed instruction that still reads as pending is the same defect as a stale value, and no freshness check can see either** — third instance for VIOLET (after the `fetch.py` caveat and KB-VIO-151).
-
----
-
-## 2026-08-04 — Inbound backlog cleared, forward feed replenished from the canonical ledger, NEXUS amd-10 adopted
-
-**Trigger:** Will-directed full currency pass ("update your domain with updated data, news, etc."). Three structural items surfaced alongside the analytical work, all rooted in the same defect class: **surfaces that decay because nothing triggers their replenishment.**
-
-**What changed:**
-- **`CLAUDE.md` write-back step 12 — NEXUS Amendment 10 adopted** (ratified 2026-07-31 fleet-wide; reached VIOLET 8/4 via PROME propagation). The brief fold is now specified as the session's **LAST** write-back — after the final STATUS write, immediately before git commit — with the checkable form (brief commit timestamp ≥ last STATUS commit timestamp) written on the line. **This is an ORDERING rule, not a refresh reminder:** the 7/31 fleet audit found 5-of-5 content-stale briefs had refreshed *and then kept working*, and zero had skipped the refresh — so the habit everyone already had does not close the gap.
-- **`workbook/CATALYSTS.tsv` replenished from `PROME/DOCKET.tsv`, not from my own surfaces.** +July CPI **8/12** (date VERIFIED in DOCKET:67), +COT **8/7** (report-date 8/4 — the first post-dating the yen move), +KB-VIO-174's credit discriminator as a dated row. Fired rows pruned (7/31 BOJ, 7/31 COT, 8/3 KB-VIO-126 hook). `CALENDAR.md` twin re-synced and verified with `catalyst_countdown.py`.
-- **Stale grading note corrected in the same session it was written.** The NFP 8/7 row's note (added 8/4 AM) hardcoded *"July CPI is NOT added: no confirmed date found anywhere in the fleet"* — false, and it would have printed at the moment a prediction resolved. This is the **KB-VIO-169 stale-note class, n=4**.
-- **Inbound backlog cleared:** 7 WALTER board signals (backlog to 7/30) logged to `board_log.tsv` with dispositions and `git mv`'d to `inbox/WALTER/processed/`; 4 PROME/DAEDALUS packets consumed to `inbox/processed/`, with their open deliverables transferred to the STATUS RESEARCH QUEUE so consumption does not lose them.
-- **Dead rows retired from the STATUS dashboard:** HENRY's gamma-flip and put/call-wall rows (bands ~7,453/7,465 against spot 7,752 = ~290pts stale, pointing the wrong way), independently confirming WALTER's own SIG-W-20260803-002 self-correction.
-
-**Files touched:** `CLAUDE.md`, `workbook/CATALYSTS.tsv`, `CALENDAR.md`, `STATUS.md`, `board_log.tsv`, `inbox/**` (11 files moved), `workbook/KB.tsv` (+6, 2 closed).
-
-**Boot-impact:** `catalyst_countdown.py` now prints three imminent rows (8/5 SOQ, 8/7 NFP, 8/7 COT) plus July CPI at 6d — **cheap_tail's L4 leg no longer decays to ⬜ after NFP fires**, because CPI 8/12 re-boxes it. No script behaviour changed.
-
-**Lessons:** ⚠️ **I searched my own surfaces and published a scope-negative about the whole fleet.** "No confirmed July CPI date exists anywhere" was false — the canonical ledger had it verified the entire time. **Refusing to invent the date was right and is not what went wrong**; failing to consult `DOCKET.tsv` was. A scope-negative is the claim that stops anyone else looking, so it needs the counterparty standard. **PROME is building a boot-time DOCKET-vs-CATALYSTS diff so replenishment finally gets the trigger it lacks** — until then, treat `PROME/DOCKET.tsv` as consultable, not as someone else's file.
-
----
-
-## 2026-08-04 (PM) — BIN-A demolished, its replacement withdrawn, and the FRED wall removed
-
-**Trigger:** Will ruled the BIN-A re-base as a **split** (relayed via PROME): retire the level lines now, hold the numbers pending re-derivation. Then the re-derivation withdrew the numbers entirely.
-
-**What changed:**
-- **`scripts/fred_fetch.py`** — `BINA_LINES = {}` **by ratified decision**, with ~25 lines of in-code rationale so a future reader cannot mistake it for a bug and "restore" it. Prints `⛔ BIN-A: STUCK` instead of a verdict. ⚠️ **The `KB-VIO-096` Bin-B block is a separate mechanism and was verified still evaluating** after the change — I checked rather than assumed.
-- **`scripts/boot.py`** — credit-gate stage relabelled to stop advertising a retired tree.
-- **`workbook/KB.tsv`** — `KB-VIO-090` → SUPERSEDED with the retirement + permanent scope label; **`KB-VIO-187`** files the long-sample re-derivation.
-- **Surfaces repointed by pattern** (STATUS, NEXUS_BRIEF, CANARY_MAP, TRADE, thesis/CHANGELOG, VIX_THESIS) — ⚠️ **`research/`, `outbox/delivered/` and `reports/` deliberately left alone**: they are records of what was true when written, and editing them would falsify the trail. **The sent proposal got a SUPERSEDED banner rather than a rewrite**, for the same reason.
-- **Both Will-facing Artifacts republished** to their existing URLs (live bands only; design, taxonomy, title, favicon unchanged).
-
-**Boot-impact:** the credit gate no longer emits a BIN-A escalation verdict. **That is the intended state, not a regression** — anything reading for one should read `STUCK`.
-
-**Lessons:** ⚠️ **A stated limitation is not a discount already applied.** I published 2.25× in good faith with the thin-sample caveat on its face; the caveat was right and the number was still wrong. Only a bigger sample corrects a small-sample estimate. ⚠️ **And the null matters more than the sample size:** the naive binomial said p=0.030 and the matched-length random-placement null said p=0.27 — the naive test compared a multi-day episode against a single-day baseline. **Choosing the wrong null would have shipped a threshold the fleet cites.**
-
----
-
-## 2026-08-04 (late) — Thesis v3.8 → v3.9, and a correction to my own framing from six hours earlier
-
-**Trigger:** Will's "anything else open?" sweep surfaced that **v3.8's headline claim was falsified by my own finding the same day** — v3.8 says *"the family closes at five fields"*, and I had spent the afternoon writing that estimator-independence was **a sixth field**.
-
-**What changed:**
-- **`thesis/VIX_THESIS.md` → v3.9** + full `thesis/CHANGELOG.md` entry (old view → new view).
-- ⚠️ **AND THE CORRECTION IS THE FIRST BULLET OF THE BUMP:** calling it a sixth field was **wrong — ESTIMATOR is already field 4 of v3.8's five.** It is a new **failure mode inside an existing field**, not a new field. **A spurious sixth field would have implied v3.8's family was incomplete when it was not.** Corrected on STATUS and NEXUS_BRIEF too, where I had published the wrong framing hours earlier.
-- Version propagated to STATUS, both Artifacts (republished), and the brief.
-
-**Boot-impact:** none — no script or threshold changed. Framework version only.
-
-**Lessons:** **A thesis bump is the closeout step most likely to be skipped, because nothing fires when it is missed** — no ledger goes stale, no boot check reddens, and the framework simply keeps asserting a claim its own agent has already disproved. **It surfaced here only because Will asked a second time.** And the substantive lesson from the bump itself: **an estimator that cannot fail independently of what it measures is uninformative however well the other four fields are specified** — three instances in one session (a derived second condition, a ratio that cannot separate its own numerator from its denominator, and a null that compared a multi-day episode to a single-day baseline).
-
----
-
-## 2026-08-04 (night) — Four mechanisms built; MOVE finally has an owner; and I truncated a ledger and guarded it
-
-**Trigger:** Will — *"can we do those steps outside of the DAEDALUS packet"*, i.e. clear the standing not-built backlog.
-
-**What changed:**
-- **`scripts/move.py` (NEW, boot-wired).** MOVE had **no script at all**. `CANARY_MAP.md` has carried *"investing.com primary; yf ^MOVE unreliable as sole source"* as **prose since 7/30** with nothing implementing it, so every read went through the source the map already called unreliable — and I carried "confirm-3 BROKEN" for five sessions while MOVE was above its line every one of them (KB-VIO-177). Now: investing.com `__NEXT_DATA__` **PRIMARY**, yfinance retained **only to disagree with** (it may flag, never promote), ledger `workbook/MOVE.tsv` (22 sessions on first run), threshold lines printed against every registered level. **Delivered a print I did not have: 77.56 [8/4].**
-- **`scripts/grading_note_check.py` (NEW, boot-wired).** Catalyst notes are what boot prints *at the moment a prediction resolves*; nothing checked them (n=4, one citing a **retracted** forward beta on the next prediction due). Resolves every `KB-VIO-nnn` cited in a note against `KB.tsv` and flags SUPERSEDED/CORRECTED/STALE/missing. ⚠️ **Deliberately not figure-matching** — `consumer_check.py` returned 9-of-9 false positives on bare strings, and a check that cries wolf gets ignored. **Scope stated in-code: closes the citation half of the class, not the prose half.**
-- **`scripts/thesis_bump_check.py` (NEW, boot-wired, ADVISORY).** Counts KB rows since the thesis's own version date, weighted by retractions. Built because **v3.8 asserted "the family closes at five fields" while my own STATUS asserted a sixth, the same day, and no check in this agent could see it** — a missed thesis bump ages nothing and reddens nothing.
-- **`scripts/closeout_guard.py` (NEW).** Aggregates the blocking contracts and **refuses a clean exit while any is RED**; wired into `CLAUDE.md` as write-back step **13b**. ⚠️ **Boot warns, closeout blocks — deliberate.** Built because on 8/4 boot printed `🔴 CANARY_MAP STALE — 2` and the session read it and did nothing, the **fourth** such incident on that one file. The thesis check is **non-blocking on purpose**: blocking on a counter that cannot see a semantic contradiction would train the operator to bypass the guard, and a guard you learn to skip is worse than none.
-- **⚠️ `scripts/vx_history.py` — I TRUNCATED THE LEDGER AND THEN GUARDED IT.** `--build --from-year 2026` reads like "refresh the recent part"; it **rewrites the whole file**, and it replaced **28,555 rows with 1,933** — a 93% loss that exited **rc=0 with a success line**. Recovered from git, rebuilt in full (**28,582 rows, 2013-05-20 → 2026-08-03**), then added a **truncation guard** refusing any build under 90% of the existing row count without `--allow-shrink`, plus a de-trapped docstring. **Verified by re-running the exact destructive command: it now refuses and the ledger survives.**
-
-**Files touched:** `scripts/{move,grading_note_check,thesis_bump_check,closeout_guard,vx_history,boot}.py` · `CLAUDE.md` (step 13b + FILES row) · `CANARY_MAP.md` (MOVE row now names a real instrument) · `workbook/{MOVE.tsv (new),VX_TERM_HISTORY.tsv,FLOW.tsv}` · `STATUS.md` · packet → `AGENTS/LIQUID/inbox/`.
-
-**Boot-impact:** 11 stages → **14**, all green, ~106s. New keyword markers so MOVE and the two checks survive output collapse.
-
-**Lessons:** 🔑 **Every one of tonight's four builds replaces a rule that already existed in prose.** The MOVE source order was written in CANARY_MAP; the grading-note check was named in my own research queue; the closeout blocker was the diagnosis I wrote this morning; the thesis bump is in my CLAUDE.md step 9. **None of them were being done.** `finding_mechanize_the_cap_not_the_ritual` is now the dominant recurring class in this agent, and the tell is always the same: a documented rule with no mechanism is performed as often as someone remembers. ⚠️ **And the truncation is the counter-lesson: a guard's own first run is what fails.** I built four guards tonight and destroyed a ledger with a fifth tool in between — **`if not rows` caught total failure and was blind to the far likelier partial kind.** Guard the quiet failure mode, not the loud one.
-
----
-
 ## 2026-08-18 — CALENDAR gains a RESOLVED section, because a grading obligation was dying with the row that carried it
 
 **Trigger:** The 8/5 VIX SOQ counterfactual — pre-registered before the event, marked 🔴 as SCRATCH's #1 next-session item, cheap to grade — went **13 days unexecuted** and was on track to be **deleted**: a fired catalyst row gets pruned from `CATALYSTS.tsv` at closeout, and the obligation lives only on that row. **Pruning has a trigger (the event fires); grading has none.** Found while reconciling the twin, which had genuinely diverged (`CALENDAR.md` still headed its forward table with *"Aug 5 (tomorrow)"* on 8/18).
@@ -285,3 +202,29 @@ Log material structural changes only — not routine content edits. Template ado
 - **⚠️ The cheap-tail cell is the sharpest instance this desk has produced: `DORMANT 1/4` on the map for 31 days while the live alert printed `OPEN 4/4` every morning.** Both surfaces mine, both read daily, and nothing compared them.
 - **⚠️ The convergence fault was a CATEGORY error wearing an arithmetic disguise.** Summing an opportunity vector into a stress score makes the score rise as conditions get calmer. Three wrong totals are what made me look; the design was the thing that was wrong.
 - **✅ Method worth copying from DAEDALUS: it pre-corrected its own readers** ("the LIQUID and TERRY packets ARE delivered; prediction #7 IS graded") so I did not chase three dead ends. **A multi-reader review that ships its own false positives, labelled, costs the recipient nothing.**
+
+---
+
+## 2026-09-04 (night) — Review round 3: five defects behind a fully green gate; the fix is coverage, not another sweep
+
+**Trigger:** Third Codex review. Its closing line is the finding: *"the remaining defects are specifically outside current test coverage."* Every invoked test passed while five real defects sat where none of them looked.
+
+**What changed:**
+
+1. **NEW `scripts/surface_agreement.py`, BLOCKING (7th contract).** The convergence score was live as **29/50** on STATUS and a **superseded 26/55** in the brief's VIEW and SCRATCH, with LAST_COMPLETION narrating a superseded *"26 → 25"* beside it — **four surfaces, three numbers, guard green.** The new check requires a registered figure to read identically on STATUS · NEXUS_BRIEF · SCRATCH · LAST_COMPLETION. **This is the third recurrence of the summary/body class in one day and the first time it has been mechanized;** the two prior "sweeps" fixed exactly the instances a reviewer quoted.
+2. **`CANARY_MAP` contract body rewritten.** It still **taught** the retracted CFTC model — *"DARK after nine days"*, the Monday→Wednesday report shift, the deleted holiday table, the obsolete one-cycle-is-DARK behaviour — while the code had moved to cadence+grace with one cycle = PENDING. The stale "FIXED" banner was replaced with the three-attempt record.
+3. **`check_map_states()` — the comparison the docstring only promised.** `check_map_agreement`'s docstring claimed it compared each map date against the backing ledger's newest row; **it never opened a ledger.** So the 31-day cheap-tail DORMANT-vs-OPEN defect was **still uncovered after being "fixed."** Now: for canaries whose ledger carries a `state` column, compare the state the **map** asserts against the state the **ledger** holds.
+4. **Multi-surface stamp check.** Future timestamps reappeared **within one commit** of the last fix (18:19 commit, 19:xx labels) because the provenance check covered NEXUS_BRIEF only. Now STATUS and CANARY_MAP too.
+5. **`same-commit` no longer passes open on a dirty closeout** — if the brief is dirty, STATUS must be dirty too, or they provably are not landing together.
+6. **STATUS:87/:97 contradiction closed** ("deepening STOPPED" vs "deepened three reports running").
+
+**Files touched:** `scripts/surface_agreement.py` (new) · `scripts/canary_staleness.py` · `scripts/writeback_order_check.py` · `scripts/closeout_guard.py` · `CANARY_MAP.md` · `STATUS.md` · `SCRATCH.md` · `NEXUS_BRIEF.md` · `LAST_COMPLETION.md` · `workbook/KB.tsv` · `MAINTENANCE.md`.
+
+**Boot impact:** boot 14/14, no failed stages. Closeout now carries **seven** blocking contracts.
+
+**Lessons:**
+- **🔑 "ALL TESTS PASS" IS A STATEMENT ABOUT COVERAGE, NOT CORRECTNESS — AND I QUOTED IT AS THE SECOND, THREE TIMES TODAY.** Three review rounds each found real defects behind a fully green gate. **The gate was never lying; it was answering a narrower question than the one I reported.** ⇒ **When claiming a clean gate, state what it covers.** "Six contracts green" means nothing without "and here is what none of them reads."
+- **⚠️ A FALSE DOCSTRING IS WORSE THAN A MISSING CHECK.** It is what a reader trusts *instead of* looking — and I had read this one twice while auditing its own file.
+- **🔑 THE NEW MAP↔LEDGER CHECK PAID FOR ITSELF ON ITS FIRST REAL RUN, ON A MARKET FACT:** CANARY_MAP and STATUS both said **OVX FIRE** while `OVX.tsv`'s 9/4 settle said **WATCH** (ratio 3.09 vs the p95 line 3.21). **I had published an intraday tick as the state of a canary that grades on the settle.** Both surfaces were fresh; one was wrong. No age check can see that.
+- **⚠️ THREE OF MY NEW CHECKS SHIPPED INERT OR NOISY, AND ONLY FALSIFICATION FOUND IT** — an option strike list (`October 30/35/60 calls`) read as a convergence score; the date `9/4` read as an FT-10 count; a state comparison whose membership test could never fire; a JPY **threshold label** read as an asserted state. **Every one was caught by running the check against the real artifact with the real defect injected. None by reading the code.**
+- **⚠️ And the cross-surface check immediately caught my own new prose** — I restated the retracted 26/55 without a history marker while *describing* the defect. **Writing about a dead number reintroduces it.** Fixed the phrasing, not the check.

@@ -37,6 +37,14 @@ WHAT IT AGGREGATES
   · `grading_note_check.py`— catalyst notes citing retracted KB rows
   · `validate_workbook.py` — KB schema conformance (errors only, not the
                              ACTIVE-past-Stale_By WARN, which is by design)
+  · `surface_agreement.py`  — the SAME figure must read the same on STATUS,
+                             NEXUS_BRIEF, SCRATCH and LAST_COMPLETION. Added
+                             2026-09-04 after the convergence score was live as
+                             29/50 and 26/55 simultaneously across four surfaces
+                             while every other contract passed. A summary block
+                             is rewritten from memory while the body is rewritten
+                             from data, so the summary is where a corrected
+                             number goes to die.
   · `twin_check.py`         — CALENDAR.md vs CATALYSTS.tsv. Added 2026-09-04
                              (KB-VIO-235). It reports divergence and REFUSES to
                              name a winner: the 9/4 incident was a twin "fix"
@@ -71,6 +79,7 @@ BLOCKING = [
     ("Write-back ordering (handoff surfaces vs STATUS)", "writeback_order_check.py", ["--quiet"]),
     ("CALENDAR/CATALYSTS twin consistency", "twin_check.py", ["--quiet"]),
     ("Convergence matrix arithmetic", "convergence_score.py", []),
+    ("Cross-surface figure agreement", "surface_agreement.py", ["--quiet"]),
 ]
 ADVISORY = [
     ("Thesis currency", "thesis_bump_check.py", []),
