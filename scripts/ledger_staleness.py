@@ -677,6 +677,19 @@ def _line_has_marker(line):
     return False
 
 
+# Rule 10's live DECLARATION form is symmetric with the marker form (2026-09-03, same hour —
+# the first cut let a mid-sentence "framework live" in WALTER's June sweep RECORDS rescue two
+# files that declare nothing; a prose "live" is no more a declaration than a prose "frozen"):
+# line-initial LIVE (after # / decoration), or NOT FROZEN, or the Status: LIVE key form.
+HEADER_LIVE_DECL_RE = re.compile(
+    r"^[^A-Z0-9]{0,12}(?:LIVE\b(?!\s+(?:SUCCESSORS?|HOMES?|CANONICAL))|NOT\s+FROZEN\b)")
+
+
+def _line_declares_live(line):
+    u = line.split("\t", 1)[0].upper()
+    return bool(HEADER_LIVE_DECL_RE.match(u) or LIVE_DECL_RE.search(u) or "(NOT FROZEN)" in u)
+
+
 LINE_INITIAL_MARKER_RE = re.compile(
     r"^[^A-Za-z0-9]{0,12}(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED|NOT CURRENT|DO NOT CITE|NOT MAINTAINED)\b", re.IGNORECASE)
 
@@ -719,7 +732,7 @@ def is_frozen(path):
             if "\t" in line and not line.lstrip().startswith("#"):
                 break
             header.append(line)
-        header_live = any(LINE1_LIVE_RE.search(l.upper().split("\t", 1)[0]) for l in header)
+        header_live = any(_line_declares_live(l) for l in header)
         if header_live and not any(_line_initial_marker(l) for l in header):
             return False
         for line in header:
@@ -761,6 +774,8 @@ _SELFTEST = [
      "# LIVE ledger. Last real data refresh: 2026-09-03.\n"
      "# History: FROZEN spec 7/1; RETIRED row policy; NOT CURRENT figures moved; DO NOT CITE the old NAV; NOT MAINTAINED since 8/1; ARCHIVED copy at x; SUPERSEDED by y\n"
      "a\tb\n1\t2\n", False),
+    ("WALTER June sweep RECORD — mid-sentence prose 'framework live' is NOT a declaration; uppercase SUPERSEDED tag-name prose keeps it FROZEN (rule 10 symmetry; classification unchanged vs rule 9)",
+     "# BOARD staleness sweep record 2026-06-10\n# Overrules: Lake Powell EVENT-PASSED -> NO-TAG (framework live); Brent SUPERSEDED -> NO-TAG\na\tb\n1\t2\n", True),
     ("documented RESIDUAL — uppercase RETIRED prose with NO live declaration anywhere still reads FROZEN (mitigation = ask (d): carry 'LIVE ledger' / 'Status: LIVE' in the header)",
      "# predecessor line RETIRED 2026-09-03, SUPERSEDED by GATE-BRK-R2\n# Last real data refresh: 2026-09-03\na\tb\n1\t2\n", True),
     ("genuine — '# FROZEN <date> — not maintained'",
@@ -1048,7 +1063,7 @@ def main():
     ap.add_argument("--abs-floor", action="store_true", help="(c) also flag any live ledger whose absolute content vintage exceeds --abs-days regardless of the relative delta (PAT-092 counter)")
     ap.add_argument("--abs-days", type=int, default=90, help="absolute-age floor in days for --abs-floor (default 90)")
     ap.add_argument("--selftest", action="store_true",
-                    help="run the is_frozen falsification set (19 fixtures, positive+negative controls); exit 1 on any miss")
+                    help="run the is_frozen falsification set (20 fixtures, positive+negative controls); exit 1 on any miss")
     args = ap.parse_args()
     if args.selftest:
         return selftest()
