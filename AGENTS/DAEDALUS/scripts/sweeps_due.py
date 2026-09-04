@@ -56,9 +56,54 @@ def check_self_row(today):
         return f"CANNOT-CERTIFY: FLEET_MAP self-row check failed ({e})"
 
 
+REPO = os.path.normpath(os.path.join(HERE, "..", "..", ".."))
+AGENT_DIR = os.path.normpath(os.path.join(HERE, ".."))   # registry playbook paths are DAEDALUS-relative ("sweeps/X.md")
+
+
+def playbook_exists(pb):
+    """Registry paths are relative to AGENTS/DAEDALUS/ by convention; repo-root is the fallback.
+    (First cut of this guard, 2026-09-03, checked repo-root only and fired on two rows whose
+    playbooks exist — the selftest had used a repo-relative 'present' path, so it certified the
+    wrong base: finding_instrument_reports_clean_against_the_wrong_reference, on a guard 5 min old.)"""
+    return os.path.exists(os.path.join(AGENT_DIR, pb)) or os.path.exists(os.path.join(REPO, pb))
+
+
+def selftest():
+    """Guard drill (CHECK_STANDARD §3): a registry row whose playbook path does not exist must
+    fire PLAYBOOK MISSING (rc 2); a row whose playbook exists must not. Built 2026-09-03 after
+    sweeps/GATE_BASIS_SWEEP.md sat absent for a day behind a row this script read as clean."""
+    import tempfile, subprocess
+    today = datetime.date.today().isoformat()
+    hdr = "task\tcadence_days\tlast_run\tplaybook\tstatus\tresolve_by\tlast_findings\n"
+    fails = 0
+    with tempfile.TemporaryDirectory() as td:
+        reg = os.path.join(td, "R.tsv")
+        open(reg, "w", encoding="utf-8").write(hdr + f"Present\t21\t{today}\tscripts/sweeps_due.py\tactive\t\tx\n"
+                                                    f"Missing\t21\t{today}\tsweeps/NO_SUCH_PLAYBOOK.md\tactive\t\tx\n")
+        p = subprocess.run([sys.executable, os.path.abspath(__file__), "--registry", reg, "--no-profile-clock"],
+                           capture_output=True, text=True)
+        fire = p.returncode == 2 and "PLAYBOOK MISSING" in p.stdout and "Missing" in p.stdout and "Present" not in p.stdout.split("PLAYBOOK MISSING")[1].split("\n")[0]
+        print(f"  {'✓' if fire else '✗'} missing playbook ⇒ rc 2 + PLAYBOOK MISSING names the row (rc={p.returncode})"); fails += not fire
+        open(reg, "w", encoding="utf-8").write(hdr + f"Present\t21\t{today}\tscripts/sweeps_due.py\tactive\t\tx\n"
+                                                    f"PresentRepoRel\t21\t{today}\tscripts/claim_check.py\tactive\t\tx\n")
+        p = subprocess.run([sys.executable, os.path.abspath(__file__), "--registry", reg, "--no-profile-clock"],
+                           capture_output=True, text=True)
+        clean = p.returncode == 0 and "PLAYBOOK MISSING" not in p.stdout
+        print(f"  {'✓' if clean else '✗'} present playbook ⇒ clean, rc 0 (rc={p.returncode})"); fails += not clean
+    print("sweeps_due SELFTEST " + ("✓ 2/2" if not fails else f"✗ {fails}/2 FAILED"))
+    return 1 if fails else 0
+
+
 def main():
+    global REGISTRY
+    if "--selftest" in sys.argv:
+        return selftest()
+    if "--registry" in sys.argv:
+        REGISTRY = sys.argv[sys.argv.index("--registry") + 1]
+    no_pc = "--no-profile-clock" in sys.argv
     today = datetime.date.today()
     due, tracked, skipped = [], 0, []
+    missing_pb = []   # playbook path in the row does not exist (2026-09-03 guard)
     overdue, skipped_rb = [], []   # resolve_by: dated obligations, independent of cadence
     cannot_certify = False
     try:
@@ -76,6 +121,9 @@ def main():
                     skipped.append(task)
                     continue
                 tracked += 1
+                pb_path = (row.get("playbook") or "").strip()
+                if pb_path and not playbook_exists(pb_path):
+                    missing_pb.append((task, pb_path))
                 age = (today - last).days
                 if age >= cad:
                     due.append((task, age, cad, (row.get("playbook") or "").strip()))
@@ -113,6 +161,14 @@ def main():
         print(f"⚠️  sweeps_due: un-parseable resolve_by {rb!r} on '{task}' — that dated obligation is NOT checked")
         cannot_certify = True
 
+    # PLAYBOOK PRESENCE (2026-09-03): a registry row is a POINTER to a procedure; this script read
+    # rows only, so sweeps/GATE_BASIS_SWEEP.md was absent for a day behind a row that printed clean
+    # (finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit). A sweep with no
+    # playbook cannot be run, so it cannot be certified: rc 2, named.
+    for task, pb in missing_pb:
+        print(f"🔴 PLAYBOOK MISSING: '{task}' → {pb} does not exist — the row reads clean over a file that is not there; write the playbook or pause the row")
+        cannot_certify = True
+
     self_row = check_self_row(today)
     if self_row and self_row.startswith("CANNOT-CERTIFY"):
         print(f"🔴 sweeps_due {self_row}")
@@ -138,6 +194,8 @@ def main():
         return 1
     # PROFILE CLOCKS (wired 2026-09-01, PR#5): the cheap half of the profile-staleness trigger.
     # Runs as a child so its rc contract stays its own; a fired clock is a dated obligation → rc 1 here.
+    if no_pc:
+        return 1 if (due or self_row) else 0
     try:
         import subprocess as _sp
         pc = _sp.run([sys.executable, os.path.join(HERE, "profile_clock_check.py"), "--quiet"],
