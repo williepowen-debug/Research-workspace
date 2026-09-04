@@ -36,6 +36,8 @@ Staleness is measured **vs each agent's own STATUS.md** (default 30d threshold).
 | **Scaffold-correct** | 0 trades / honestly-empty (e.g. TERRY TRADE_BOOK) | not rot — skip |
 | **Already-routed** | check BATCH docs + prior run-log rows — **AND the recipient's last SELF-authored commit (dark-recipient gate, run #3 / MARCO)**: a packet into an inbox not drained since the packet's date is UNDELIVERED-IN-EFFECT and the finding stays OPEN, whatever the routing history says. Three MARCO dispatches by three route shapes reached zero sessions | don't re-route the same way; if the recipient is dark, escalate the SPAWN, not the packet |
 
+- **A stale row is where to LOOK for a wrong row** *(CRUISE 2026-09-02, run #4 write-back — PAT-062 n+2)*: the FLOW.tsv refresh found FL-CRU-06 ~2.7× wrong against CCL's own published sensitivity, unsourced since a 3/20 boot thesis — wrong the whole time it was fresh. The staleness clock cannot find this; the REFRESH is the audit. When an owner reports a refresh, ask for the rows whose VALUE changed, not just the stamp.
+
 ### 3. Disposition & authority
 - **Detection is autonomous** (read-only). **All mutations are approval-gated** unless standing pre-approval exists (see below).
 - **Dormant freezes: STANDING PRE-APPROVED (Will, 2026-07-04) — autonomous under the gate below.** idle-verify (`git log`: no *self-authored* commits + STATUS older than cadence) → prepend a `FROZEN` banner **(condition-cited form per the §2 template / PAT-057 — never lifecycle-cited)** → commit by pathspec → **log + report.** Ambiguous idle-verify → fall back to surface-for-approval (don't freeze on a maybe).

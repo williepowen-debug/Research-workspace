@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-09-01.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-09-03.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|---|---|
 | PROME | Meta | L5 | M | 2026-09-01 | Coordinator / chief of staff | L5 CONFIRM at judgment-tail sweep #2 ~9/6 (full 21d window, ZERO new un… |
 | WALTER | Utility | L4 | H | 2026-09-01 | Signal & news routing | L5 on: (a) Will's word on the push binding · (c) re-key the 12(f) handl… |
-| NEXUS | Utility | L4 | H | 2026-09-01 | Cross-agent synthesis | RE-PROMOTE L5 when, in one session: read-cap breach cured (STATUS <32,5… |
+| NEXUS | Utility | L4 | H | 2026-09-01 | Cross-agent synthesis | RE-PROMOTE L5 when, in one session: read-cap breach CURED — 'cured' = t… |
 | RED | Utility | L5 | M | 2026-09-01 | Adversarial red-team | Conf M→H at PR#6 when VX carried-count falls or is re-based AND one clo… |
 | SAM | Market | L4 | H | 2026-09-01 | Japan — BOJ / JGB / carry | L5 on (a)+(b)+(c) + a STATUS byte tier (rotate to <32,550 B). |
 | LIQUID | Market | L4 | H | 2026-09-01 | HY / credit spreads / liquidity | L5 on: THESIS version bump reflecting the 8/23-8/28 rework |

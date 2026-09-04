@@ -64,6 +64,18 @@ NEGATED = re.compile(
     r"|as\s+it\s+should\s+have\s+read|\bFROZEN\b|Deprecated|deprecated\s+—\s+legacy",
     re.I)
 
+# TWO-LANE (2026-09-03, CRUISE instrument feedback): the CORRECT rule necessarily names BOTH lanes
+# in one sentence — "a SIGNAL goes to WALTER … an ANALYSIS or PACKET goes direct" — so the phrase
+# matcher scored every desk that did exactly what the census asked as MIXED, and a MIXED bucket
+# read as owed work would re-flag compliant desks (BRENT/CARL/CORAL/HANS/HENRY/REGINALD/SAM sat
+# there). A line that routes SIGNALS to WALTER and PACKETS/ANALYSIS direct is the two-lane rule,
+# not a mixture: PASS-class, never owed.
+TWO_LANE = re.compile(
+    r"signals?\b[^.;\n]{0,80}\bWALTER\b[^.;\n]{0,160}\b(analys[ei]s|packets?|memo)\b[^.;\n]{0,80}\bdirect"
+    r"|\b(analys[ei]s|packets?|memo)\b[^.;\n]{0,80}\bdirect[^.;\n]{0,160}signals?\b[^.;\n]{0,80}\bWALTER\b"
+    r"|signals?\b[^.;\n]{0,40}(?:→|->|to|via|through)\s*WALTER\b",
+    re.I)
+
 CANON_NAMES = ("CLAUDE.md", "PROTOCOL.md", "CLOSEOUT.md", "BOOT.md")
 
 
@@ -77,7 +89,9 @@ def classify(line):
         return None
     if SIGNALWORD.search(line):
         if WALTERWORD.search(line):
-            return ("MIXED", "signal + direct-to-inbox, but WALTER named on the line")
+            if TWO_LANE.search(line):
+                return ("TWO-LANE", "signals → WALTER and packets/analysis → direct, both lanes on one line (the prescribed form)")
+            return ("MIXED", "signal + direct-to-inbox, but WALTER named on the line — read it: under-specified, or a two-lane rule the matcher missed")
         return ("ROUTE-AROUND", "SIGNAL delivered direct to inbox, WALTER not named")
     if WALTERWORD.search(line):
         return ("MIXED", "direct-to-inbox with WALTER named")
@@ -154,12 +168,12 @@ def main():
     if not rows:
         print("rc=2 CANNOT-CERTIFY: no desk canon files scanned")
         sys.exit(2)
-    order = ["ROUTE-AROUND", "DEAD-ROUTER", "MIXED", "PACKET-LANE", "CORRECT"]
+    order = ["ROUTE-AROUND", "DEAD-ROUTER", "MIXED", "PACKET-LANE", "TWO-LANE", "CORRECT"]
     counts = {k: 0 for k in order}
     for k in order:
         hits = [r for r in rows if r[2] == k]
         counts[k] = len(hits)
-        if not hits or k == "CORRECT":
+        if not hits or k in ("CORRECT", "TWO-LANE"):
             continue
         mark = {"ROUTE-AROUND": "[X]", "DEAD-ROUTER": "[X]",
                 "MIXED": "[!]", "PACKET-LANE": "[i]"}[k]
@@ -170,8 +184,8 @@ def main():
     desks = sorted({r[0].split('/')[0] for r in rows
                     if r[2] in ("ROUTE-AROUND", "DEAD-ROUTER")})
     print(f"CENSUS: {counts['ROUTE-AROUND']} ROUTE-AROUND · "
-          f"{counts['DEAD-ROUTER']} DEAD-ROUTER · {counts['MIXED']} MIXED · "
-          f"{counts['PACKET-LANE']} PACKET-LANE · {counts['CORRECT']} CORRECT")
+          f"{counts['DEAD-ROUTER']} DEAD-ROUTER · {counts['MIXED']} MIXED (read, not owed) · "
+          f"{counts['PACKET-LANE']} PACKET-LANE · {counts['TWO-LANE']} TWO-LANE (pass) · {counts['CORRECT']} CORRECT")
     print(f"DESKS OWED A PACKET ({len(desks)}): {', '.join(desks)}")
     print("PERIMETER: leg A (phrase) only. Leg B (OTTO structural form: recipient-named "
           "trigger table + WALTER-less signal instruction) is NOT covered here and is "

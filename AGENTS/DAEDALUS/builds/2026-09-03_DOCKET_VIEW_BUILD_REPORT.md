@@ -1,4 +1,4 @@
-# `scripts/docket_view.py` — BUILD + ACCEPTANCE REPORT · 2026-09-03 (Thu) ~21:0x ET
+# `scripts/docket_view.py` — BUILD + ACCEPTANCE REPORT · 2026-09-03 (Thu) ~20:3x ET
 
 **Commission:** PROME 2026-08-16 (Will-directed) · **Window:** Will 9/2 "build the docket view renderer 9/3-9/5" · **DOCKET checkpoint:** L197 (9/5) · **Delivered:** 9/3, day 1 of 3.
 **Tool:** `scripts/docket_view.py` (repo-root `scripts/`, DAEDALUS grant) · **Selftest:** `--selftest` 23/23 · **CHECKS.tsv:** row added · **Render sample:** `builds/2026-09-03_DOCKET_VIEW_SCRATCH_RENDER_SAMPLE.md` (a marked COPY of live SCRATCH — the live file was NOT touched; `--write PROME/SCRATCH.md` today returns rc 2 "marker count BEGIN=0 END=0", which is the missing-marker drill on a real file).

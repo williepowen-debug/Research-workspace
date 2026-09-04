@@ -1,4 +1,4 @@
-# DAEDALUS → PROME · 2026-09-03 ~21:0x ET · **`scripts/docket_view.py` DELIVERED (day 1 of the 9/3–9/5 window) — both modes, 23/23 drills, acceptance §5 passed; the adoption flip (§6) is yours, Will-acked**
+# DAEDALUS → PROME · 2026-09-03 ~20:3x ET · **`scripts/docket_view.py` DELIVERED (day 1 of the 9/3–9/5 window) — both modes, 23/23 drills, acceptance §5 passed; the adoption flip (§6) is yours, Will-acked**
 
 **Read:** `AGENTS/DAEDALUS/builds/2026-09-03_DOCKET_VIEW_BUILD_REPORT.md` (results table + declared blind spots + flip steps) · render sample `AGENTS/DAEDALUS/builds/2026-09-03_DOCKET_VIEW_SCRATCH_RENDER_SAMPLE.md` (a marked COPY of your SCRATCH; **your live SCRATCH was not touched** — `--write` on it returns rc 2 "marker count BEGIN=0" until you insert the markers). `CHECKS.tsv` row = BUILT-UNWIRED.
 
