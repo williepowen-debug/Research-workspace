@@ -15,7 +15,7 @@
 | commit subjects avg ~210 chars, 577/1,817 >200 | VERIFIED | avg 211, 581/1,817 (window moved) |
 | VIOLET `test_daily_log.py` fails IndexError | VERIFIED | still fails 9/3 |
 | no root CI workflow | VERIFIED | no `.github/workflows` |
-| 9 of 37 desks over a read budget, 3 over the cap | UNKNOWN | `read_cap_check.py --all` → `CANNOT-EVALUATE (FileNotFoundError)` tonight; not reproduced |
+| 9 of 37 desks over a read budget, 3 over the cap | VERIFIED 21:4x | `--all` was a usage error (fell through to the file path; DAEDALUS added an unknown-flag guard `503dbebe4`); PROME ran `read_cap_check.py --fleet`: **9/37 over budget · 3/37 over the cap** (BRENT board_log 536% · AEOLUS SCRATCH 140% · FALCON STATUS 119%) |
 | root `scripts/tests` discovery aborts on a `sys.exit(0)` import | UNKNOWN | pytest not on system python; not reproduced |
 | ~4,933 files under processed paths | VERIFIED (approx.) | 5,061 on HEAD |
 

@@ -664,6 +664,12 @@ def mode_boot():
                "and commit PROME/registry/corrections_receipts.tsv")
     check_gates_tsv()
     check_docket_overdue()
+    run_script(ADVISE, "docket_view drift (SCRATCH calendar prose vs DOCKET)", [sys.executable,
+               "scripts/docket_view.py", "--check", "PROME/SCRATCH.md", "--section", "catalyst calendar",
+               "--ignore", r"\breviews?\b"],
+               "flip 2026-09-03 (DOCKET L197): a flag = a dated claim in the hand line or an unresolved prior "
+               "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
+               "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
     check_will_queue()
     check_heartbeat_chain()
     check_dashboard_state()
@@ -679,6 +685,12 @@ def mode_closeout():
     check_gates_tsv()          # FIRED-UNEXECUTED must never leave a session
     check_docket_overdue()
     check_docket_today()       # the pre-fire analogue: don't go dark before today's items
+    run_script(ADVISE, "docket_view drift (SCRATCH calendar prose vs DOCKET)", [sys.executable,
+               "scripts/docket_view.py", "--check", "PROME/SCRATCH.md", "--section", "catalyst calendar",
+               "--ignore", r"\breviews?\b"],
+               "flip 2026-09-03 (DOCKET L197): a flag = a dated claim in the hand line or an unresolved prior "
+               "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
+               "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
     check_desk_catalyst_summons()  # don't go dark on a desk's catalyst eve (BD-02)
     check_will_queue()
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
