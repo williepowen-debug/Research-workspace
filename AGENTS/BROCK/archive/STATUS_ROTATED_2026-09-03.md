@@ -117,3 +117,34 @@ LIQUID routed that my decomposition condition is satisfied (**CCC/BB 6.901 [9/1]
 ## 📦 2026-09-02 — BCRED Q3 TENDER CHECK + 3 CORRECTIONS TO MY OWN BOARD
 > **Rotated VERBATIM 2026-09-03 → `archive/STATUS_ROTATED_2026-09-03.md`; SUPERSEDED BY OBSERVATION — the 9/3 letter (§ above) graded what this block was waiting for.** What still stands: the **instrument correction** (no "final-results" amendment exists on this fund; results ride a Rule 13e-4(c)(1) written communication) — **verified 3-for-3 at primary on 9/3**. The **three corrections**: **C1** the first-ever BCRED gate was **5/29 expiry / 6/4 disclosure, NOT 6/26** (I was ~4 weeks late; fatal to timing inferences built on it); **C2 against me** — the 10% distribution cut was **declared 6/22, filed 8-K 6/23**, seven weeks before the 10-Q I found it in: **I found it late and called it "buried."** The cut, the $0.1800 level and the 8/27 payment all STAND; only *"buried"* is withdrawn. **C3** Q1's *"100% fulfilled"* took **BOTH** a Board cap-flex to 7% **AND** a disclosed **affiliate offset** (Blackstone + senior employees subscribing into the feeder) — **both withdrawn in Q2, and neither reappeared in Q3.** ⛔ **"$1.7bn" matches NEITHER completed 2026 tender and remains dead** (Q1 $3.233bn / Q2 $2.204bn).
 
+
+---
+
+## BOTTOM LINE as of 2026-09-03 midday (rotated at the 22:4x rescore)
+
+## BOTTOM LINE
+
+**BCRED's Q3 letter landed today and it graded the question I was spawned for: satisfaction ~50%, the 5% cap held with no flex and no affiliate offset, a second consecutive sub-100% quarter — and, new, the issuer put a $2.3bn unfulfilled backlog in writing and said a significant portion was resubmitted into Q3.** **BRK-30 resolves TRUE on its letter and is worth almost nothing**, because I registered the defect myself: it was priced against the thesis while its letter fires on any sub-100% at any one of five funds, already true 5-for-5 the day I made it — the companion that tests the spirit, BRK-32, stays a no-call until the other four funds print. **Two things cut against me today** — the bull counter-data I pre-registered on 9/2 did not verify (demand went $4.5bn→$4.3bn, flat at ~10% of shares, not the material fall BX and BCRED both guided to), and my own REGIME PIK figure was a stale Q1 vintage flattering my thesis (7.0% carried vs 5.6% primary, falling). **Convergence HELD 59/70, position unchanged (APO Dec $95P, Will-ruled HOLD), $0 moved, zero thresholds moved by me; the next real test is whether the backlog compounds again at the November 10-Q, when the only non-estimated dollar figure finally exists.**
+
+---
+
+*Forward-state: `SCRATCH.md` · `docket/CATALYSTS.tsv` · `NEXUS_BRIEF.md` | **9/3 reasoning → this file §2026-09-03 + KB-BRK-231→235**; 9/2 + 8/28 blocks rotated VERBATIM → `archive/STATUS_ROTATED_2026-09-03.md`; earlier → `archive/STATUS_ROTATED_2026-09-02.md` | Registers: `workbook/PC_REDEMPTION_REGISTER.tsv` (9 vehicles; BCRED Q3 GRADED 9/3) | Predictions: **BRK-30 RESOLVED-TRUE 9/3**; next **BRK-02 9/30** · BRK-32 11/30 · BRK-25/26 12/31 | One source of truth: HY OAS → LIQUID · insurer numbers → SHADE · bank scores → REGINALD · EU private credit → HANS | **X1 NOT MET — wrapper half NOT ARMED (8/28); decomposition leg ruled NOT MET (9/3); LIQUID gate CLOSED** | Position: APO Dec $95P HOLD (Will 8/13)*
+
+---
+
+## 2026-09-03 WQ-158 out-of-sample block (rotated same day at the 22:4x rescore)
+
+## 🔬 2026-09-03 (later) — WQ-158 OUT-OF-SAMPLE PULL, Will-commissioned. **One level survives, one is retired, and my own diagnosis was half wrong**
+*Spec pre-registered and pushed BEFORE the first filing (`bb924839e`); results `research/2026-09-03_WQ158_OUT_OF_SAMPLE_RESULTS.md`; KB-BRK-236→240.*
+
+| Level | Verdict | Evidence |
+|---|---|---|
+| **≥3 consecutive sub-100% quarters** | ✅ **SURVIVES** — 4-for-4 at **both** BREIT and SREIT | **BCRED is at 2 ⇒ goes LIVE on a 3rd print ~mid-Nov. No longer ungradable.** |
+| **<20% single-QUARTER satisfaction** | ❌ **RETIRED** | BREIT worst **24.6%**, SREIT worst **40.0%** — the level sat **below the worst quarter of both reference episodes** |
+
+🔑 **I had told PROME the defect was panel DEPTH. Half right.** Depth explains the persistence level; **`<20%` was simply placed too low** and no extra panel would have made it fire. **The register's own filing-primary minimum — OCIC 22.82% — is itself below both referents' worst quarter.** ⇒ it was a **beyond-stress** threshold, not a stress one.
+🔑 **THE UNIT DECIDES IT** (pre-registered §3 as a trap, and it sprang): `<20%` is **unreachable quarterly, reachable monthly** (BREIT **4%**, Dec-2022). **My register never stated the unit; my panel is quarterly-tender, so quarterly binds.**
+⛔ **I set NO replacement number — a level is Will-gated.** Distribution only: reference quarterly minima **BREIT 24.6% / SREIT 40.0%**; 8 measured reference quarters span **24.6–59.3%**.
+🔴 **Two corrections to my own register, both against me:** **CCLFX**'s four-offer series is **fulfilment, not satisfaction** — three of four were undersubscribed or unprorated, so what I read as escalating stress is **demand met in full** (KB-BRK-238). **OCIC** verified at primary at **22.82%** accepted÷tendered — but its dollar is **$963.6M, not the $988M** I carried from press (KB-BRK-239).
+⚠️ **Against my bear read:** **BCRED's ~50% is comparable to SREIT's 40.0–46.5% and better than three of BREIT's four 2023 quarters.** On this measure **BCRED today is LESS stressed than BREIT/SREIT were at their worst.**
+
