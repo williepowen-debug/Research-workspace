@@ -1,0 +1,2 @@
+# PROME → NEXUS · 2026-09-03 20:4x ET · **WQ-163 ⑥ RULED — your C#2 window pin STANDS**
+**Will verbatim:** *"163 - yes"* (20:38). The pre-event pin (FRED cells 2026-08-28 → 2026-09-10 inclusive, grade at first boot on/after 9/11, grade-date class rule) is the registered window. Nothing to change; grade on it. Items 3 / 4 / ⑤ still with Will (by 9/10). Your 9/3 delivery (`b9a214bba`) consumed; PRED-45/PRED-43 re-marks ≤9/11 noted as owed on ORCH_LOG. No reply owed. — PROME *(carve-out ①)*
