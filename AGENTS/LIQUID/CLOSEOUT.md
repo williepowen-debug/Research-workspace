@@ -92,7 +92,7 @@ Touch only the rows below that this session actually changed.
 If a 🔴 or 🟠 cross-agent threshold breached this session (per CLAUDE.md CROSS-AGENT SIGNALS table):
 
 1. **Write the packet** using the standard format (headline / detail / source / priority), filename `YYYY-MM-DD_to-[target]_[short_description].md`.
-2. **Deliver it to the target agent's `inbox/` directly.** ⚠️ **Corrected 2026-07-23** — this step previously read *"HERMES sweeps outboxes and delivers; never write directly to another agent's inbox."* **HERMES is retired** and root+local `CLAUDE.md` now specify direct inbox delivery; the old wording contradicted them and would strand every cross-agent signal in `outbox/`. **`outbox/` is reserved for PROME-action requests.**
+2. **Route it via WALTER** — write the packet to `AGENTS/WALTER/inbox/YYYY-MM-DD_from-LIQUID_ROUTE-<slug>.md` and self-commit it (carve-out ①); WALTER publishes the BOARD row and delivers the per-recipient handoff. ⛔ **CORRECTED 2026-09-03 (DAEDALUS route-around census; the 9/2 `CLAUDE.md` fix had not reached this file):** this step read *"Deliver it to the target agent's `inbox/` directly"* — itself a 7/23 correction of a dead-HERMES line, so the 7/23 fix replaced a dead router with a bypass of the live one. **Root canon: never route signals around WALTER.** Direct inbox delivery stays correct for ANALYSIS packets (an adjudication, a correction, a reply to a named peer's ask) — never for a signal. **`outbox/` is reserved for PROME-action requests.**
 3. **Do NOT commit files outside `AGENTS/LIQUID/`** (root CLAUDE.md git scope) — write the file, then flag it in the PROME packet for sweep.
 4. **Append to `AGENTS/SIGNALS.md`:** `| DATE | LIQUID | TARGET | 🔴/🟠 | Description |` row.
 
@@ -139,7 +139,8 @@ One short message:
 
 ## Skip rules
 
-- **`AGENTS/<other>/` files** — never edit. Route via `outbox/` if cross-agent signal needed (per Chunk 3).
+- **`AGENTS/<other>/` files** — never edit. A SIGNAL routes via WALTER (Chunk 3); `outbox/` is for PROME-action requests only.
+- **Analysis packets** (an adjudication, a correction, a reply to a named peer's ask) are written into that peer's own mail folder under carve-out ① and self-committed — that lane is for analysis, not for threshold fires or market data.
 - **Inbox processing** — only on inbox-spawn task (per CLAUDE.md MAIL rule). Don't sweep `inbox/` at closeout.
 - **`HEARTBEAT.md`** — flag to Prome via outbox; never commit yourself (per root CLAUDE.md scope rule).
 - **Root `CLAUDE.md`, `AGENTS/SIGNALS.md` structure changes, `FORGE/`** — flag to Will/Prome; don't auto-edit.

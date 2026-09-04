@@ -40,7 +40,7 @@ All mail lives under this agent's directory (paths below are relative to `AGENTS
 - **Inbox:** `inbox/` — inbound signals from other agents (written directly by sender agents; PROME/WALTER route)
 - **Outbox:** `outbox/` — outbound signals you write for other agents
 - **Processed:** `inbox/processed/` — signals you've integrated
-- **Delivered:** `outbox/delivered/` — signals marked delivered (manually — HERMES retired)
+- **Delivered:** `outbox/delivered/` — outbox items marked delivered (manually; HERMES retired 2026-06-30 and routes nothing)
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
@@ -216,4 +216,4 @@ Don't mix categories. A CLO spread doesn't belong in the domestic plumbing dashb
 | `domain/sources/` | Foundational research, resolved playbooks, framework archives. Empirical bedrock under THESIS v2 legs. |
 | `archive/` | Retired files: handoffs, legacy methodology, resolved episodes, prior STATUS snapshots (`status_snapshots/`). |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | PROME-action requests. HERMES retired — cross-agent signals go directly to the target agent's `inbox/`. |
+| `outbox/` | PROME-action requests ONLY. ⛔ **CORRECTED 2026-09-03 (DAEDALUS route-around census, `walter_route_check.py`): this row read *"HERMES retired — cross-agent signals go directly to the target agent's `inbox/`"* — a ROUTE-AROUND instruction that survived the 9/2 prose fix because a table row is where a correction lands last.** **SIGNALS (a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on) → WALTER (`AGENTS/WALTER/inbox/`, self-committed, carve-out ①). ANALYSIS and self-authored PACKETS answering a named peer → direct to that agent's `inbox/`, self-committed per carve-out ①.** |

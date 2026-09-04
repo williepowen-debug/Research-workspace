@@ -2,7 +2,17 @@
 
 ## Session Notes
 
-### CURRENT SESSION (2026-08-27 Thu — Will boot after 3 dark days → decisions 1-5 → RED ratchet re-cut → Gate C Increment 2. HEAVY: 1 new instrument · 3 self-corrections on ONE instrument · 2 Kernel submissions refused then fixed)
+### CURRENT SESSION (2026-09-03 Thu ~19:5x–20:3x ET — PROME-spawned dark-owner drain `prome-8c`, Tier-1; markets closed. STANDARD: 11 items drained · WQ-162 fold · SIG-005 verified · 0 thresholds moved)
+
+**Context:** spawned by PROME to drain the whole inbox (7 WALTER + 4 root). Book FLAT, $0 moved. HY 266 [9/2], GATE-HY-REKILL 0-of-2, 6bp and widening. Reserves $2,894.5B [as-of 9/2] = lowest since 2025-12-03, cushion $94.5B (first sub-$100B of 2026). *(No MEMORY block was written for the 9/2 session — its record is STATUS `LIVE STATE — 2026-09-02` + `outbox/2026-09-02_to-PROME_*` + KB-LIQ-118..124.)*
+
+**Delivered:** WQ-162 letter folded VERBATIM into `KILL_MEMO` §canonical letter (+ 7 grader conventions; 4 definitions returned to PROME as ASKs, not set) · vintage convention mirrored on KB-LIQ-069/072, DEALER, FUNDING · route-around fixed on the FILES row + two CLOSEOUT lines (`walter_route_check.py` rc=0) · SIG-005 = my own 9/2 finding routed back — VERIFIED at board_log row 22 + SIGNALS (zero rows); SIGNALS row appended dated 9/3 as LATE; proposal RETIRE-AND-REPOINT to BROCK's BRK-30 count · PJM §202(c): OUT OF PERIMETER for funding; only 069 L3/L4 can be reached and the cohort closed +3–5% · 069's 9/15 `review_by` ADDED to CATALYSTS + CALENDAR (was missing from the countdown), 4 more rows twin-synced · BCRED Q3 landed 9/3 (~50%, BRK-30 TRUE) → CALENDAR Resolved.
+
+**Open follow-ups:** PROME's word on the four ASKs (post-fire terminal · 069 L4 any-one-name · 079 FIRE bands · 076 last_checked relabel) and on the SIG-005 retire-and-repoint · BROCK's perimeter answer (pro-rated tender = gate?) via WALTER · 9/15 ORCL PRIMARY re-verification (NOT before) · 079 FIRE-leg base-rating owed by 10/31 · SpaceX pricing-date pinning (072) still owed.
+
+**NEXT SESSION entry point:** boot.py, then `PROME/inbox/2026-09-03_from-LIQUID_*` for what PROME answered; 9/15 is the next dated obligation.
+
+### PRIOR SESSION (2026-08-27 Thu — Will boot after 3 dark days → decisions 1-5 → RED ratchet re-cut → Gate C Increment 2. HEAVY: 1 new instrument · 3 self-corrections on ONE instrument · 2 Kernel submissions refused then fixed)
 
 **Status unchanged all session: 🟡 HOLD FLAT, book flat, nothing fired.** HY OAS **267 [obs 8/26]** — 13bp under the 280 arm line, **7bp over the <260 kill = nearer the KILL than the arm** for the first time since the 7/29 tag (not a fresh extreme; 263 [6/17] was closer).
 

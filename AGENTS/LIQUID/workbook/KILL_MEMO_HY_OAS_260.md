@@ -25,7 +25,7 @@
 
 ## Same-kill counting rule (H-2, Will-ruled 2026-08-10 in-session, forum FINAL §5 item 2)
 
-**GATE-HY-REKILL (<260, two consecutive closes, this gate) and HENRY's twin-soft-kill HY leg (<260, sustained 5 sessions, `AGENTS/HENRY/STATUS.md` § INVALIDATION TRIAD) are the SAME KILL — identical FRED series (`BAMLH0A0HYM2`), identical threshold (260), differing only in persistence/latency.** GATE-HY-REKILL fires ~3 sessions earlier by construction; HENRY's leg cannot fire first. **A joint fire is ONE event reported at two latencies — it must never be counted as two independent confirmations in any synthesis, packet, or Will-facing summary.** Confirmed by both owners (`FORUM/2026-08-10_financial-conditions/02_cross-read/01_HENRY_cross-read.md` §4; `03_LIQUID_desk-state.md` §7), ratified in forum synthesis (`04_synthesis/01_HENRY_joint-synthesis.md` §5 item 2), Will-approved same session. This is a **counting rule**, not a threshold change — nothing about either gate's own trigger condition moves.
+**GATE-HY-REKILL (<260 bp, two consecutive published observations, this gate) and HENRY's twin-soft-kill HY leg (<260 bp, sustained 5 sessions, `AGENTS/HENRY/STATUS.md` § INVALIDATION TRIAD) are the SAME KILL — identical FRED series (`BAMLH0A0HYM2`), identical threshold (260 bp = FRED's published 2.60 percent × 100; unit added 2026-09-03 on the WQ-162 cold read's ⑤), differing only in persistence/latency.** GATE-HY-REKILL fires ~3 sessions earlier by construction; HENRY's leg cannot fire first. **A joint fire is ONE event reported at two latencies — it must never be counted as two independent confirmations in any synthesis, packet, or Will-facing summary.** Confirmed by both owners (`FORUM/2026-08-10_financial-conditions/02_cross-read/01_HENRY_cross-read.md` §4; `03_LIQUID_desk-state.md` §7), ratified in forum synthesis (`04_synthesis/01_HENRY_joint-synthesis.md` §5 item 2), Will-approved same session. This is a **counting rule**, not a threshold change — nothing about either gate's own trigger condition moves.
 
 ## Migration joint-read (T11, pre-registered 2026-08-10, Will-ruled same session — forum FINAL §5 item 5 / §4c T11)
 
@@ -39,6 +39,25 @@
 | **Does not fire** | Idiosyncratic legs also stabilize/tighten | Genuinely ambiguous — carry forward. |
 
 **Operative rule: check the AI-credit legs (GATE-LIQ-069 / ORCL_FALLEN_ANGEL_MAP.md) before reading any future <260 print as "credit stress resolved."** Origin: `FORUM/2026-08-10_financial-conditions/03_falsifiers/03_LIQUID_falsifiers.md` §(b); ratified `04_synthesis/01_HENRY_joint-synthesis.md` §4c T11 ("the single most important line in this table"), Will-approved same session.
+
+---
+
+## ★ GATE-HY-REKILL — THE CANONICAL LETTER (WQ-162, Will 2026-09-02 21:29 ET *"Approve WQ-162 with your recs"*; folded here 2026-09-03 — this file is the registry's `definition_surface`)
+
+> **HY OAS (FRED BAMLH0A0HYM2; bp = published percent × 100; each observation taken AS FIRST PUBLISHED — later revisions are noted on this row and never re-grade a closed count) strictly < 260.0 bp on TWO CONSECUTIVE published observations (non-publication days — weekend, holiday, or a missing/NA print — do not break consecutiveness; a day whose print is not yet published is NOT an observation until it publishes; any published observation ≥ 260.0 bp resets the count to zero; a revision arriving before a count closes is also noted, never substituted).**
+
+*Verbatim from the `PROME/GATES.tsv` GATE-HY-REKILL condition cell as committed under WQ-162 (that cell was the ruled canonical home until this fold — GATES header ENVELOPE COLUMNS "RULED EXCEPTION"). Level 260, operator strict-<, count 2, state — all UNCHANGED by the rewrite; only the unit, vintage, consecutiveness and reset were made explicit.*
+
+**History, kept dated:** the letter registered 2026-06-26 and archived 2026-08-22 read, in full, *"HY OAS <260, two consecutive closes"* (35 B, crc32 3984287267, `PROME/archive/GATES_CONDITION_LETTERS_2026-08-22.md`). **It carried NO UNIT against a series that publishes 2.60** — read literally, every observation since registration satisfied it (blind cold read `21ed4e0c0`). That copy is **SUPERSEDED history**; supersession logged in `PROME/archive/GATES_CONDITION_LETTERS_SUPERSESSIONS.md`. **State at the fold: NOT FIRED, 0-of-2 — HY 266 [9/2] ← 265 [9/1] ← 263 [8/31] ← 260 [8/28] (ON the line, not below; 2026 obs strictly <260: ZERO, n=177). Verify live at `scripts/boot.py`.**
+
+**Grader's conventions on this surface (owner-side answers to the 9/2 blind cold read of the GATES diff; none moves a level, count or state):**
+1. **"Closed count":** a count is CLOSED when it reaches 2 (the gate FIRES) or when a published observation ≥260.0 resets it to 0. While a count is OPEN (1-of-2), a revision to the first observation is NOTED beside it and the as-first-published value stands — the count neither restarts nor advances on a revision.
+2. **Pending publication:** `BAMLH0A0HYM2` is T+1. A session whose print has not published is `UNGRADEABLE-PENDING-PUBLICATION` — never `NOT-FIRED`, never an observation.
+3. **Precision / rounding:** FRED is THE series; it publishes to 0.01 percent, i.e. whole bp after ×100, so no rounding rule is needed. A finer-precision source (ICE direct, a terminal) may VERIFY a print but is never the graded observation; on disagreement FRED's as-first-published value grades and the disagreement is noted.
+4. **After a fire:** the gate is TERMINAL — one kill, no re-count, no re-fire; a successor needs a new registration through PROME. ⚠️ **Owner's reading, returned to PROME 2026-09-03 to confirm** (the state token on fire is PROME's; DAEDALUS holds D6). Nothing here relaxes the §TAPE-vs-SUBSTANCE guard: a fire still runs the guard before any kill memo.
+5. **H-2 sibling leg** (HENRY's `<260-sustained-5`) is the same series, same unit (bp = FRED % × 100) — the counting rule §above now says so.
+6. **Vintage verification path: NOT available from this box.** FRED's `fredgraph.csv?...&vintage_date=` returns HTTP 200 and SILENTLY IGNORES the parameter (OTTO `9cdd27494`; n=3 independent failures incl. ALFRED 404s). The as-first-published convention is therefore a rule on what the grader DOES, adopted under SEARCH-NOT-FOUND on whether revisions occur — never a claim that they do or do not. Any future vintage check must carry a NEGATIVE CONTROL on its own retrieval path.
+7. **`boot.py` reads bp:** the run counter compares `x * 100 < 260` on the FRED percent series (L92/L101) — bp, not percent; selftest committed `21ed4e0c0`.
 
 ---
 
