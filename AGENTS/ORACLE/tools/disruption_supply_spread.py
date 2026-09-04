@@ -2,7 +2,29 @@
 """
 ORACLE — Disruption-vs-Supply Spread (Iran/Hormuz axis)
 
-    spread_pp = P(Hormuz transit disruption persists)  -  P(WTI hits $100, war premium)
+    spread_pp = P(PortWatch does NOT print a 7dMA >=60 transits/day by Dec 31)
+              -  P(WTI hits $100, war premium)
+
+  !! LABEL CORRECTED 2026-09-04 (PortWatch war-regime sweep; PROME 8/17 ask). THE MATH AND THE
+     SERIES ARE UNCHANGED -- ONLY THE LABEL WAS WRONG, and it was wrong in a way that mattered.
+     This tool called its first leg "P(Hormuz transit disruption persists)". Read at the primary
+     (Polymarket resolution text, 2026-09-04), the pinned market resolves YES only if
+     "IMF Portwatch publishes a 7-day moving average of transit calls ... equal to or above 60",
+     and the SAME text says "Ships not reported by IMF Portwatch will not be considered" and
+     that a divergence between PortWatch and alternative sources is explicitly NOT grounds for
+     correction. So the leg is a forecast of an INSTRUMENT'S PRINT, not of the strait.
+     That distinction is live, not pedantic: BRENT measured a war-regime coverage defect in
+     PortWatch (n_tanker>0 AND capacity_tanker=0 on 0 of 424 pre-crisis days vs 19 of 113
+     war-regime tanker-days) with external corroboration (a third-party AIS vendor putting ~58%
+     of a week's Hormuz transits DARK). If PortWatch undercounts, P(it prints >=60) is LOWER
+     than P(the strait actually normalises), so this leg -- and therefore the SPREAD -- reads
+     WIDER than the crowd's real disruption-vs-supply split. A wide spread is the reassuring
+     reading ("premium, not shortage"), so THE BIAS POINTS AT THE COMFORTABLE ANSWER.
+     NO REGIME BUMP: the slug, the arithmetic and the comparability are untouched, so old rows
+     remain chartable against new ones. Only the disruption_label column changes text.
+     ASYMMETRY WORTH KNOWING: the SUPPLY leg is a PRICE market and carries no PortWatch
+     exposure at all -- so the two legs of this spread rest on different epistemic bases and
+     only one of them is impeached.
 
 WHAT IT MEASURES
 The crowd is pricing two DIFFERENT things on the Iran/Hormuz axis, and the gap
@@ -206,8 +228,12 @@ def main():
     ts_now = max(disruption["ts"], supply["ts"])
 
     print(f"Disruption-vs-Supply spread — {ts_now}  [{REGIME}]")
-    print(f"  Disruption leg: Hormuz transit disruption persists  {disruption_prob:5.1f}%   "
+    print(f"  Disruption leg: P(PortWatch 7dMA stays <60/day)     {disruption_prob:5.1f}%   "
           f"(= 100 - {normal_prob * 100:.1f}% normal-by-Dec31; liq {_fmt_liq(disruption['liquidity'])})")
+    print("     ^ NOT 'disruption persists' — this leg grades on an IMF PortWatch PRINT, and "
+          "PortWatch's war-regime\n       coverage is impeached (BRENT 8/17, ext. corroboration "
+          "8/20). Undercount ⇒ this leg, and the\n       spread, read WIDE. Do not quote it as a "
+          "throughput or disruption probability.")
     print(f"  Supply leg:     WTI $100 war premium                {supply_prob:5.1f}%   "
           f"(liq {_fmt_liq(supply['liquidity'])}, slug={supply['slug']})")
     print(f"  Spread = {disruption_prob:.1f} - {supply_prob:.1f} = {spread_pp:+.1f}pp")
@@ -231,7 +257,7 @@ def main():
         if write_header:
             w.writerow(OUT_HEADER)
         w.writerow([ts_now, REGIME,
-                    disruption["slug"], "Hormuz transit disruption persists (1 - normal-by-Dec31)",
+                    disruption["slug"], "P(PortWatch 7dMA <60/day) [1 - normal-by-Dec31; resolves on the IMF PortWatch PRINT, not throughput]",
                     f"{disruption_prob:.2f}", disruption["liquidity"],
                     supply["slug"], f"{supply_prob:.2f}", supply["liquidity"],
                     (f"{closure_prob:.2f}" if closure_prob is not None

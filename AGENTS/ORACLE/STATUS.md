@@ -18,7 +18,8 @@ Polymarket `fed-decision-in-september-762` ($88.6M event): **HIKE-25 52.5%** (Δ
 Measured at the instrument at PROME's ask after BOND froze its reasoning. Full working: `domain/sources/2026-09-04_sept-fomc-instrument-adjudication.md`.
 - **BOND's "Sept HIKE ~65–68%" (9/1)** — matches **no** September-meeting contract. On 9/1: Sept leg 54.5% PM / 62.0% Kalshi, **by-Oct cumulative 64.5%**, **2026 aggregate 71.5%**. It is a **cumulative/aggregate contract relayed as meeting-specific** — `KL = 0.061 bits` from the instrument. ⚠️ **Second instance of this exact defect in three weeks** (cf. the 71.5% mislabel ORACLE ruled 8/18, NEXUS corrected 8/28). The error has a **known direction: cumulative-as-specific always reads too hawkish.**
 - **WALTER `SIG-W-20260903-004` "Fed 50bp CUT, CME ~74.5% for September" (CNBC 9/3)** — contradicted by both venues by **~74pp with the sign inverted**. On 9/3 Polymarket priced CUT-50+ at **0.1%**, any-cut 0.6%; Kalshi P(cut) ≈1%. `KL = 6.619 bits` — **~108× further from the instrument than BOND's number.**
-- ⚠️ **CME FedWatch NOT obtained** — `WebFetch` timed out (JS app shell). The "~74.5% CME" figure **could not be checked at its own source**; falsified against Polymarket/Kalshi only. **Re-verification at CME is WALTER's.** → BOND, WALTER, PROME
+- ⚠️ **CME FedWatch NOT obtained by me** — `WebFetch` timed out (JS app shell). **WALTER has since re-verified at source and CONFIRMED the sign-inversion:** neither CNBC 9/3 article contains *"50bp"*, *"cut"* or *"74.5"*; both describe a **hike** (`SIG-W-20260904-002`). → BOND, WALTER, PROME
+⛔ **CORRECTED SAME DAY ~13:4x — my "cumulative contract" diagnosis of BOND's figure is WITHDRAWN as overconfident.** WALTER re-verified at the source I could not reach (`SIG-W-20260904-002`): **CME FedWatch 9/3 had the September MEETING at a hike, 67%→62%**; CNBC's line was *"61% chance of a move."* That is a **meeting-specific figure from a third venue, squarely in BOND's 65–68% range.** ⇒ **two explanations fit and I cannot separate them:** (A) the PM by-October cumulative (64.5% on 9/1), or (B) CME's September meeting — on which BOND made **no error at all**. I asserted (A) on a fit, with (B) invisible because I could not reach CME; **"I couldn't check it" is a reason to hedge, not to conclude** — the same defect I spent the morning flagging in others. **STANDS:** the PM/Kalshi numbers, the differencing caveat, and the sign-inversion of the 50bp-cut relay (**now confirmed at source**). **The NEXUS 8/18 instance is still a confirmed mislabel**, so the class is real at **n=1 confirmed + 1 pending BOND's check**, not n=2. 🆕 **If (B) holds, the better finding is a three-venue spread on one meeting: CME ~62–67% / PM 53.5% / Kalshi 45% on 9/3** — not asserted (CME reaches me only via relay), registered as live. Correction packeted to BOND before its KB hardened.
 
 **3. 🟠 The NFP moved 28pp of probability MASS while barely changing uncertainty — and that shape is invisible to my only anomaly detector.**
 Pre/post from CLOB hourly (pre = 12:00Z bar, post = 12:35Z): HIKE-25 **40.5 → 53.5 (+13.0)**, NO-CHANGE **59.5 → 44.5 (−15.0)**; raw sums 101.4% / 99.2% (coherent both sides). `H 1.0814 → 1.0895 bits, dH +0.0081`; **`KL(post‖pre) = 0.0587 bits`**. The print **did not resolve** September — it **swapped which side of a coin-flip is favoured**.
@@ -29,8 +30,13 @@ All **30** August on-date legs settled **0.0%** except **August 31 at 97.0%** ($
 **This answers my own 8/27 open hypothesis** — the three past-dated legs I flagged as unresolved (8/17 52.4%, 8/24 37.5%, 8/25 32.0%) **all subsequently settled 0.0%**. ⇒ **the daily tempo gauge is a delayed recorder, not a nowcast; cite the date the PRICE MOVED, not the leg's date.**
 **ORACLE owns the crowd read only — HAWK owns whether the attack happened. Verify at primary.** → HAWK, BRENT, FALCON · KB-ORC-077 · VX-ORC-04 🟠
 
-**5. 🟡 The Sept Hormuz ladder re-listed with 5-wide bands where August used 20-wide — a silent comparability break.**
-August: 0–20 / 20–40 / … (top leg settled 0–20 at 99.7%). September: 0–5 / 5–10 / 10–15 / … **Never difference or chart the two.** The finer bands are a net *gain*: they resolve inside the old bucket, and the resolved picture is worse — **0–5 40.5% · 5–10 43.5% · 10–15 8.5% ⇒ ~84% of mass BELOW 10 transits/day** vs a ~88/day pre-crisis baseline. Neither the PINNED-BUT-NOT-FOUND nor the RESOLVED guard can see a re-banding: both numbers are live and plausible. · KB-ORC-078
+**5. 🔴 PortWatch sweep RUN (PROME's 8/17 ask, 6th carry) — every Hormuz transit market I track grades the IMF PORTWATCH PRINT, not the strait. I have been routing them as throughput reads.**
+Verbatim from the resolution text (primary, 2026-09-04): *"Ships not reported by IMF Portwatch will not be considered"* and *"Data integrity issues … do not include cases where IMF Portwatch differs from alternative sources."* ⇒ **the contract cannot be reopened on a divergence from AIS/satellite data — PortWatch IS the definition.** The deep normalization leg ($10.4M) resolves on *"PortWatch publishes a 7dMA ≥ 60"*; the 0-ships leg resolves on a **print** of zero, so **a detection failure and a real stoppage resolve it identically** — which answers PROME's "information or noise?" question: **the contract has no clause that could tell them apart.**
+⛔ **SELF-CORRECTION to Alert 6 below and to this morning's HAWK packet:** *"~84% of mass below 10/day **against a ~88/day pre-crisis baseline**"* — **the mass figure is right, the comparison is not.** It divides a war-regime PortWatch count by a pre-crisis PortWatch baseline across a measured coverage break. ✅ Correct: **"the crowd expects PortWatch to keep printing 0–10/day."** ⛔ Not: *"the strait is at ~10% of normal."*
+🔧 **My derived series was mislabelled and is fixed:** the disruption leg is `1 − P(PortWatch prints ≥60)`, **not** "P(disruption persists)". Undercount ⇒ leg and spread read **WIDE** — and **wide is the reassuring reading**, so the bias favours the comfortable answer. Label corrected in docstring/output/column; **arithmetic, slug and regime untouched** (`--dry-run` reproduces +45.5pp). ✅ The **supply** leg is a price market with **zero** PortWatch exposure. **Undercount factor NOT quantified — I add no number.** → PROME, BRENT, HAWK, FALCON · KB-ORC-079
+
+**6. 🟡 The Sept Hormuz ladder re-listed with 5-wide bands where August used 20-wide — a silent comparability break.**
+August: 0–20 / 20–40 / … (top leg settled 0–20 at 99.7%). September: 0–5 / 5–10 / 10–15 / … **Never difference or chart the two.** The finer bands are a net *gain*: they resolve inside the old bucket, and the resolved picture is worse — **0–5 40.5% · 5–10 43.5% · 10–15 8.5% ⇒ ~84% of mass BELOW 10 transits/day** — ⚠️ **as a PortWatch PRINT; see Alert 5. Do NOT set this against the ~88/day pre-crisis baseline** (cross-regime ratio). Neither the PINNED-BUT-NOT-FOUND nor the RESOLVED guard can see a re-banding: both numbers are live and plausible. · KB-ORC-078
 
 ---
 
@@ -61,9 +67,9 @@ August: 0–20 / 20–40 / … (top leg settled 0–20 at 99.7%). September: 0�
 ### Tier 2 — catalyst / theater
 | Market | Plat | Now | Δ1d | Δ7d | Vol | Note |
 |---|---|---|---|---|---|---|
-| Hormuz normal by Dec 31 | PM | **26.5%** | −1.0 | −5.0 | $10.4M | Δ30d **−34** — the deep leg |
+| Hormuz normal by Dec 31 | PM | **26.5%** | −1.0 | −5.0 | $10.4M | Δ30d −34 — ⚠️ **= P(PortWatch prints 7dMA ≥60)** |
 | WTI $100 (Sep) — war premium | PM | 28.0% | −9.5 | +8.0 | $181.1K | ✅ **no longer thin** (was $1.2K at inception) |
-| Hormuz avg daily transits **end-Sep** | PM | 40.5% *(0–5 band)* | +0.5 | — | $2.4K ⚠️ | ★ rolled — ⚠️ **band width changed** |
+| Hormuz avg daily transits **end-Sep** | PM | 40.5% *(0–5 band)* | +0.5 | — | $2.4K ⚠️ | ★ rolled — ⚠️ band width changed · **grades PortWatch** |
 | Hormuz ships-any-day **by Sep 30** | PM | 63.0% *(≥10)* | −14.0 | — | $12.3K ⚠️ | ★ rolled — ⚠️ title≠slug, read the title |
 | Hormuz ships-transit **wk of 8/31** | PM | 85.5% *(20–39)* | +7.0 | — | $17.0K | ★ rolled; ⏳2d |
 | Iran targets shipping — **8/31 leg** | PM | **97.0%** | **+53.4** | +80.0 | $29.4K | 🔴 see Alert 4 · $16.9K liq |
@@ -90,7 +96,7 @@ August: 0–20 / 20–40 / … (top leg settled 0–20 at 99.7%). September: 0�
 | FL Cat-4 hurricane by 2027 | PM | 16.0% | +0.5 | +0.5 | ⚠️thin → CORAL/AEOLUS |
 | FL Cat-5 hurricane by 2027 | PM | 5.9% | — | −9.0 | ⚠️thin $1.2K — 5.40σ but **not markable** |
 
-**Derived series:** disruption−supply spread **+45.5pp** `[v4-sep-wti-supply-leg]`. ⚠️ **The flat spread (+45.0 → +45.5) HIDES two same-direction moves** — disruption 67.5→73.5 *and* supply 22.5→28.0 both rose. A gap metric is blind to common-mode drift; read the component LEVELS.
+**Derived series:** disruption−supply spread **+45.5pp** `[v4-sep-wti-supply-leg]` — ⚠️ **the disruption leg is `1 − P(PortWatch prints ≥60)`, NOT "disruption persists"** (label corrected today; math unchanged). ⚠️ **The flat spread (+45.0 → +45.5) HIDES two same-direction moves** — disruption 67.5→73.5 *and* supply 22.5→28.0 both rose. A gap metric is blind to common-mode drift; read the component LEVELS.
 
 ---
 

@@ -169,3 +169,31 @@ python3 tools/metrics.py collapse
 ```
 Hourly pre/post reconstruction: CLOB `prices-history` at `fidelity=60`, pre = the 12:00Z bar.
 ⚠️ `polymarket.py history` writes **two rows stamped with today's date** (an intraday bar plus the live point) because `clob_history` maps every point to a date string without deduping. Harmless for trajectory, **wrong if you read the tail as "today's close."** Logged in MAINTENANCE.md.
+
+---
+
+# ⛔ ADDENDUM — SAME-DAY WITHDRAWAL (2026-09-04 ~13:4x ET)
+
+**§2 ① is withdrawn as overconfident. The verdict on the WALTER relay is unchanged and now confirmed at source.**
+
+WALTER `SIG-W-20260904-002` re-verified the CNBC 9/3 articles with browser headers — the source I reported I could not reach:
+
+- ✅ **The sign-inversion is CONFIRMED.** Neither article contains *"50bp"*, *"cut"* or *"74.5"*; both describe a September **hike**.
+- 🔴 **And it surfaced what I could not see: CME FedWatch 9/3 had the September MEETING at a hike, 67% → 62%** (CNBC: *"61% chance of a move"*).
+
+**That is a meeting-specific figure, from a third venue, squarely inside BOND's 65–68%.** So two explanations now fit that number equally well:
+
+| | explanation | implication |
+|---|---|---|
+| **A** *(what I asserted)* | PM **by-October cumulative** (64.5% on 9/1) relayed as meeting-specific | biased hawkish ~10pp; replace it |
+| **B** *(now visible)* | **CME FedWatch's September meeting** | **no mislabel at all** — a venue disagreement |
+
+**I cannot distinguish A from B with my data.** I asserted A on a fit, with B invisible because I could not reach CME — and **"I could not check it" is a reason to hedge, not a licence to conclude.** This is the same defect I spent the morning flagging in other desks' numbers, which is exactly why it is written up rather than quietly amended.
+
+**Withdrawn:** that BOND's figure *is* a cumulative contract; that it carries a ~10pp hawkish bias; that it is an error at all.
+**Stands:** every Polymarket/Kalshi figure in §1; the Kalshi differencing caveat; the WALTER sign-inversion; the horizon rule as **good practice** rather than as a correction to a mistake BOND made; all of §3–§5.
+**Count corrected:** the NEXUS 8/18 mislabel remains confirmed (71.5% matched the aggregate in ORACLE's own `ODDS_LOG` on the date) ⇒ the class is **n=1 confirmed + 1 pending BOND's check**, not n=2.
+
+**🆕 And if B holds, the finding is better than the one I sent.** On 9/3 the same meeting priced **CME ~62–67% · Polymarket 53.5% · Kalshi 45%** — a **17–22pp three-venue spread on one event**, CME systematically most hawkish. **Not asserted:** CME reaches me only through WALTER's relay of icrypex/CNBC, and FedWatch remains unreachable to me directly. Registered as a live question I would want to own.
+
+**BOND can settle it in seconds and I cannot** — it knows what its 9/1 wire cited. Correction packet sent the same day, before its KB hardened.
