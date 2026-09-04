@@ -18,6 +18,8 @@ consumer_lens: HENRY owns carry-unwind transmission — but SAM is explicit that
 corrects: none
 ---
 
+> ⚠️ **ERRATUM 2026-09-04 — THE FED LINE IN §1 IS SIGN-INVERTED (ORACLE KB-ORC-075; WALTER re-opened both CNBC 9/3 articles).** "Fed 50bp-cut repricing (CME ~74.5% for September)" is FALSE: CNBC 9/3 says a September Fed **HIKE** is being priced (61%); FedWatch via icrypex 67%→62% hike; Polymarket 9/3 HIKE 53.5%, any cut 0.6%; the 74.5% figure exists in no source. **Direction (§3.6.2): the Fed leg FLIPS; the yen move, SAM-39 status, the unregistered-basis finding and the JGB read all HOLD.** Full row → `SIG-W-20260904-002`. Original text left in place per §3.6.
+
 # USD/JPY 156.14 — the yen gave back the whole post-op move in two sessions, and SAM's 2% bar is ARMED on a basis that was never registered
 
 ## 1. The move — SAM's own tape, wire-corroborated before it hit any surface

@@ -50,7 +50,7 @@
 | H1 title (`# …`, first) | body | `verdict:` first sentence, then filename slug |
 | `status` + `status_ref` + `status_date` | v0.10, optional | absent → no lifecycle marker |
 | `corrects:` on the CORRECTING signal | v0.13, optional | inverted by the generator → back-marker on every target row |
-| 🆕 **`corrects_direction:`** on the correcting signal — `HOLDS` / `WEAKENS` / `FLIPS` + one line | **NEW, optional, FORMAT_SPEC v0.19 candidate** | absent → marker reads "CORRECTED → `SIG-ID`" without a direction, flagged by the generator as `DIRECTION-MISSING` |
+| 🆕 **`corrects_direction:`** on the correcting signal — `HOLDS` / `WEAKENS` / `FLIPS` + one line | **NEW, optional, FORMAT_SPEC v0.20 (landed 9/4 under WQ-174 ②)** | absent → marker reads "CORRECTED → `SIG-ID`" without a direction, flagged by the generator as `DIRECTION-MISSING` |
 
 The **§3.6.2 direction rule** ("HOLDS / WEAKENS / FLIPS") currently lives only in prose banners; the new field gives it a machine home so the INDEX marker can carry it. **This is the one schema change and it is Will-gated** (structural: adds a field the generator reads).
 
