@@ -1,5 +1,7 @@
 # EVOLUTION rotation archive — 2026-08-21 (audit-driven restructure, Will-approved)
 
+> **CLOSED 2026-09-03.** True range: three rotations executed 2026-08-21 (blocks 1–2) and 2026-08-28 (entry tail), content 2026-06-27 → 2026-08-20 (f). Successor: `EVOLUTION_ARCHIVE_2026-09.md` (month = rotation month, per the 9/2 pilot amendment). Block crcs below are unaffected: this banner sits above block 1's header.
+
 ## block 1 — Phase-era changelog entries 2026-06-27 → 2026-07-12, rotated verbatim 2026-08-21 (crc32 3618051777)
 
 ### 2026-07-12 — DUAL RESTRUCTURE: HAWK war-agent split (OSPREY + FALCON) + HOMER promotion — the standard gains a SPLIT/PROMOTION methodology
