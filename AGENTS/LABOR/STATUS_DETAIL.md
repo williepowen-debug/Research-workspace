@@ -292,7 +292,7 @@
 
 **Header stamp — first 9/2 draft, superseded same session** (`STATUS.md` L2):
 
-**Last Updated:** 2026-09-02 ~20:2x ET *(session LIVE — PROME-spawned, WQ-156 summoned-owner slot for the 9/3–9/4 catalyst cluster; continues the 9/1 WQ-146 session)* · 🔒 **BOOT: `spine_check` PASS (init obs 2026-08-22 == FRED, cont 2026-08-15 == FRED) · B5b: zero unconsumed cards at boot · corrections rc=0 · WALTER lane EMPTY by `ls`.** 📐 **STATUS HOT/COLD SPLIT EXECUTED TODAY (BD-25 discharged): 53,375 B → this file; the cold half is `STATUS_DETAIL.md`, verbatim, census-verified 232/232 lines.** 🔒 **TWO FROZEN CARDS WRITTEN TONIGHT, BEFORE THE FIGURES: `docket/GRADING_CARD_20260903_ISM_SERVICES.md` (Svs employment: >50 ⇒ v3→1 · =50.0 ⇒ HOLD · <50 ⇒ HOLD; boundary case closed) and `docket/GRADING_CARD_20260904_NFP.md` (pre-computed: freeze-thaw LEG A needs Aug **≥+303K** · T-06 U-3 leg needs **≥4.3%** · **T-03 fires on a FLAT EPOP 58.9** because the 3-mo referent rolls to May 59.2 · T-04 at ≤58.8 · LEG B needs ≥59.2 · Kill A CANNOT fire at any value).** 📌 **No score moved today — no labour data printed.** 🔴 **Forward: Thu 9/3 08:30 claims w/e Aug 29 (letter frozen at `docket/INDEPENDENCE_MAP_20260904_NFP.md` §4, roll-off term `(X−200)/4`) + 10:00 ISM Svs · 🔴 Fri 9/4 08:30 NFP August.**
+**Last Updated:** 2026-09-02 ~20:2x ET *(session LIVE — PROME-spawned, WQ-156 summoned-owner slot for the 9/3–9/4 catalyst cluster; continues the 9/1 WQ-146 session)* · 🔒 **BOOT: `spine_check` PASS (init obs 2026-08-22 == FRED, cont 2026-08-15 == FRED) · B5b: zero unconsumed cards at boot · corrections rc=0 · WALTER lane EMPTY by `ls`.** 📐 **STATUS HOT/COLD SPLIT EXECUTED TODAY (BD-25 discharged): 53,375 B → this file; the cold half is `STATUS_DETAIL.md`, verbatim, census-verified 232/232 lines.** 🔒 **TWO FROZEN CARDS WRITTEN TONIGHT, BEFORE THE FIGURES: `docket/GRADING_CARD_20260903_ISM_SERVICES.md` (Svs employment: >50 ⇒ v3→1 · =50.0 ⇒ HOLD · <50 ⇒ HOLD; boundary case closed) and `docket/graded/GRADING_CARD_20260904_NFP.md` (pre-computed: freeze-thaw LEG A needs Aug **≥+303K** · T-06 U-3 leg needs **≥4.3%** · **T-03 fires on a FLAT EPOP 58.9** because the 3-mo referent rolls to May 59.2 · T-04 at ≤58.8 · LEG B needs ≥59.2 · Kill A CANNOT fire at any value).** 📌 **No score moved today — no labour data printed.** 🔴 **Forward: Thu 9/3 08:30 claims w/e Aug 29 (letter frozen at `docket/INDEPENDENCE_MAP_20260904_NFP.md` §4, roll-off term `(X−200)/4`) + 10:00 ISM Svs · 🔴 Fri 9/4 08:30 NFP August.**
 
 **PREDICTIONS — LAB-12 row as it stood 9/1** (`STATUS.md` L99):
 
@@ -308,7 +308,7 @@
 
 **PICKUP item 1, first 9/2 draft** (`STATUS.md` L149):
 
-1. 🔴 **THE SLATE IS FROZEN — grade off the cards, in this order.** Thu 9/3 **08:30 claims w/e Aug 29** → `docket/INDEPENDENCE_MAP_20260904_NFP.md` §4 (compute `(X−200)/4` **before** the level; report roll-off separately). Thu 9/3 **10:00 ISM Services August** → `docket/GRADING_CARD_20260903_ISM_SERVICES.md`. Fri 9/4 **08:30 NFP August** → `docket/GRADING_CARD_20260904_NFP.md`, and read **§1–3 of the independence map first**: grade by the **four evidence TYPES**, never by leg or desk count.
+1. 🔴 **THE SLATE IS FROZEN — grade off the cards, in this order.** Thu 9/3 **08:30 claims w/e Aug 29** → `docket/INDEPENDENCE_MAP_20260904_NFP.md` §4 (compute `(X−200)/4` **before** the level; report roll-off separately). Thu 9/3 **10:00 ISM Services August** → `docket/GRADING_CARD_20260903_ISM_SERVICES.md`. Fri 9/4 **08:30 NFP August** → `docket/graded/GRADING_CARD_20260904_NFP.md`, and read **§1–3 of the independence map first**: grade by the **four evidence TYPES**, never by leg or desk count.
 
 **PICKUP item 4, first 9/2 draft** (`STATUS.md` L152):
 
@@ -341,3 +341,17 @@
 🟠 CARL+HENRY. 🔴 **THIRD consecutive negative month. Base-rated by me at the primary over 308 months (2000-12 → 2026-07): NET ≤0 in 72 = 23.4%; runs of ≥3 consecutive = 6; the previous run ended September 2010 — this is the first 3-month run in ~16 years.** ⚠️ **Honest discounts: the 5 prior runs are 2 episodes (2001–03, 2008–10), and JOLTS is ratio-estimated to CES so this is partly circular with the negative payrolls.** The older conditional row still stands unchanged: gross hires rose in 66 months since 2015 and net was ≤0 in only 2 of them (May+Jun 2026) — **July does NOT join that set, because gross hires FELL**
 
 ---
+
+---
+
+## `pending-drained-20260902`
+
+**Rotated out of `STATUS.md` 2026-09-04 (read-cap: the hot half hit 32,617 B against the 32,550 B budget after the NFP grade). VERBATIM — no figure changed in the move. Both windows were already DRAINED on 9/3; this is discharged history.**
+
+| Window | From | State |
+|---|---|---|
+| 9/2 | **PROME** (WQ-159 RULED: T-03 stands, no retune) | ✅ **DRAINED 9/3.** RULING consumed at boot; nothing to edit — T-03 exactly as registered. Card `docket/graded/GRADING_CARD_20260904_NFP.md` item 4 already states the consequence: FLAT Aug EPOP 58.9 fires T-03 tomorrow. Filed → `processed/`. |
+| 9/2 | **PROME** (Canada counter-tariffs 9/8 corrected at primary: CA$27.6B, three tiers 15/25/50%, §338+§232 perimeter) | ✅ DRAINED 9/3 — 🔴 **but the "zero hits" claim in this cell was FALSE and I caught it 9/4: `docket/CATALYSTS.tsv:3` carried "~$28B" the whole time.** The 9/3 grep evidently did not cover the TSV. **Figure corrected 9/4 to the primary (CA$27.6B, three tiers 15/25/50%).** Lesson: a self-audit that reports ZERO must name the file set it searched — an unstated perimeter reads as "everywhere." My CATALYSTS row for 9/8 is a WATCH only; ag equipment + pulp & paper are my named US-exporter employment lanes. HAW-21 grades the instrument 9/15. Filed → `processed/`. |
+
+> 🔴 **One live carry-forward was deliberately LEFT on the hot half rather than rotated with these rows:** the Canada cell asserted *"No LABOR surface carried '~$28B' … verified by grep, zero hits."* **That was false** — `docket/CATALYSTS.tsv:3` carried it until 2026-09-04, when the figure was corrected to the primary (CA$27.6B, three tiers 15/25/50%). A correction must not rotate to cold in the same breath as the claim it corrects.
+

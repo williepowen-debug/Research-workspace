@@ -12,7 +12,7 @@ PROME packet `b91169e94`. Read-only sweep. **One one-line record correction** (B
 
 | item | class | next move | dated? | artifact |
 |---|---|---|---|---|
-| NFP August print grade off frozen card | PENDING | SELF | 2026-09-04 08:30 | `docket/GRADING_CARD_20260904_NFP.md` + `docket/INDEPENDENCE_MAP_20260904_NFP.md` |
+| NFP August print grade off frozen card | PENDING | SELF | 2026-09-04 08:30 | `docket/graded/GRADING_CARD_20260904_NFP.md` + `docket/INDEPENDENCE_MAP_20260904_NFP.md` |
 | T-03 fires on flat EPOP 58.9 → route CARL+HENRY (routing, not capital) | PENDING | SELF | 2026-09-04 | NFP card §3 + WQ-159 `PROME/WILL_QUEUE.md:159` |
 | Attribution bar (no demand-vs-supply from LABOR before NFP) | PENDING (standing) | SELF | releases 2026-09-04 after grade | INDEPENDENCE_MAP §§1-3 |
 | Vector 8 restore-to-3 needs 2 consecutive prints with net revisions ≥0 | PENDING | SELF | 2026-09-04 (partial, leg 1) | STATUS matrix v8 + PICKUP #5 |
