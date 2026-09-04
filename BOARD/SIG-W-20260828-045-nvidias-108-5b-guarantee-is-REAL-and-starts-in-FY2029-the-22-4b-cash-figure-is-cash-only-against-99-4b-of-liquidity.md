@@ -19,6 +19,8 @@ consumer_lens: A correct number attached to a wrong comparison — and underneat
 entities: [NVDA, Nvidia, OpenAI, SB-Energy, PORTS-Technology-Campus, Blackwell-Ultra, memory]
 ---
 
+> ⚠️ **ERRATUM 2026-09-04 — THE 10-Q QUOTE BELOW IS NOT IN THE FILING (DEWEY `REQ-DEWEY-20260829-001` §2.5, 9/2; WALTER re-opened `nvda-20260726.htm` at EDGAR 9/4: "procurement of memory" = 0 hits).** The filing says the $119B→$279B commitments are for "data center infrastructure systems, **primarily memory and manufacturing facilities**." **Direction (§3.6.2): the $119B→$279B figure, the $108.5B guarantee, the FY2029 phasing and the OpenAI vendor-credit finding all HOLD; the "primarily MEMORY" composition claim WEAKENS** — foundry/CoWoS/packaging sit inside the same undisclosed total, so a memory-only reconciliation overstates the memory claim by an unknown amount. Full row → `SIG-W-20260904-001`. Original text left in place per §3.6.
+
 ## ✅ THE NUMBERS ARE RIGHT — all of them
 
 | Claim | Verified |
