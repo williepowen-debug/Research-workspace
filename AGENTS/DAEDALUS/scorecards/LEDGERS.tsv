@@ -1,0 +1,33 @@
+# LEDGERS.tsv — explicit prediction-ledger REGISTRY for scorecard.py column 2 (`forecasts_resolved`). v1 spec schema req. 5 (RAV 8/28): the renderer reads THIS list, never a recursive glob. A ledger absent here is NOT SEEN and printed as such. Registered 2026-09-04 (DAEDALUS) from a header survey of every AGENTS/**/PREDICTIONS*.tsv at HEAD 6eb5b1b7f.
+# status_col / outcome_col = header names the adapter reads BY NAME. date_col = the resolved-date column, or NONE. date_source ∈ {COLUMN, INLINE-FIRST-ISO}: INLINE-FIRST-ISO = the first YYYY-MM-DD in the outcome cell — an EVENT date and a GRADE date are indistinguishable there, so those rows carry the label INLINE-DATE in provenance. A header that lacks a named column ⇒ rc 2 CANNOT-EVALUATE for that ledger, never a silent skip.
+# Terminal-token → bucket map lives in scorecard.py (TOKEN_MAP); an unmapped terminal token renders in its own UNMAPPED bucket with the token printed.
+path	status_col	date_col	date_source	outcome_col	status
+AGENTS/AEOLUS/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/BOND/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/BRENT/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/BROCK/workbook/PREDICTIONS.tsv	Status	NONE	INLINE-FIRST-ISO	Result	LIVE
+AGENTS/BROCK/workbook/PREDICTIONS_ARCHIVE.tsv	Status	NONE	INLINE-FIRST-ISO	Result	ARCHIVE
+AGENTS/CARL/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/CREED/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/CRUISE/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/FALCON/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/FERT/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/FLG/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/HANS/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/HAWK/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/HENRY/workbook/PREDICTIONS.tsv	Status	Resolution_Date	COLUMN	Outcome_Notes	LIVE
+AGENTS/HOMER/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/LABOR/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/LIQUID/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/MARCO/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/MIDAS/workbook/PREDICTIONS.tsv	status	NONE	INLINE-FIRST-ISO	resolution	LIVE
+AGENTS/OSPREY/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/OTTO/thesis/PREDICTIONS.tsv	Status	NONE	INLINE-FIRST-ISO	Result	LIVE
+AGENTS/OZK/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/RED/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/REGINALD/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/SAM/thesis/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/VULCAN/workbook/PREDICTIONS.tsv	status	NONE	INLINE-FIRST-ISO	resolution	LIVE
+AGENTS/WAL/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
+AGENTS/WATT/workbook/PREDICTIONS.tsv	status	NONE	INLINE-FIRST-ISO	resolution	LIVE
+AGENTS/ZHAO/workbook/PREDICTIONS.tsv	Status	Date_Resolved	COLUMN	Outcome	LIVE
