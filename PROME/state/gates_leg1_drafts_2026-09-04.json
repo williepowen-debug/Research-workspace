@@ -1,88 +1,122 @@
 {
- "_meta": "WQ-176 leg ① PROME-DRAFTED ≤400 B condition summaries (2026-09-04 11:2x). status: DRAFT until the owner confirms (reply 'cut as drafted' or their own ≤400 B text). The pre-cut cell is archived VERBATIM+crc at apply; definition_surface stays the grading surface. HY-REKILL exempt (WQ-162).",
+ "_meta": "WQ-176 leg ① PROME-DRAFTED ≤400 B condition summaries (2026-09-04 11:2x). status: DRAFT until the owner confirms (reply 'cut as drafted' or their own ≤400 B text). The pre-cut cell is archived VERBATIM+crc at apply; definition_surface stays the grading surface. HY-REKILL exempt (WQ-162). CAP RULED 2026-09-04 11:17 (Will 'go with your rec on the cap'): multi-leg letters (≥3 legs or a ≥3-term conjunction) ≤500 B; single-test rows ≤400 B. Per-row cap in the 'cap' field.",
  "GATE-LIQ-069": {
   "owner": "LIQUID",
   "status": "DRAFT",
-  "text": "AI-HY cohort re-arm, ANY ONE of 5: ① BB OAS >220 while CCC flat (|5-session Δ| ≤15bp) · ② CRWV 5Y CDS re-widen >100bp (vendor named or UNGRADED) · ③ AI-infra HY new-issue concessions widening (primary named or UNGRADED) · ④ any ONE of CRWV/IREN/APLD/NBIS −15%/session with HY OAS ≥+5bp (WQ-114/170) · ⑤ ORCL ladder: 2nd agency to IG floor OR any to HY. TWO fired ⇒ discriminator re-run + NEXUS flag. ARMED 1-of-2 (ORCL S&P BBB− 7/9). Vintage WQ-162; obs counts → letter"
+  "text": "AI-HY cohort re-arm, ANY ONE of 5: ① BB OAS >220 while CCC flat (|5-session Δ| ≤15bp) · ② CRWV 5Y CDS re-widen >100bp (vendor named or UNGRADED) · ③ AI-infra HY new-issue concessions widening (primary named or UNGRADED) · ④ any ONE of CRWV/IREN/APLD/NBIS −15%/session with HY OAS ≥+5bp (WQ-114/170) · ⑤ ORCL ladder: 2nd agency to IG floor OR any to HY. TWO fired ⇒ discriminator re-run + NEXUS flag. ARMED 1-of-2 (ORCL S&P BBB− 7/9). Vintage WQ-162; obs counts → letter",
+  "cap": 500,
+  "over": 0
  },
  "GATE-LIQ-072": {
   "owner": "LIQUID",
   "status": "DRAFT",
-  "text": "IG rating-vs-spread mispricing re-arm, ANY: 3rd/4th similar IG issuer at BB-like spreads (source named or UNGRADED) · IG OAS (BAMLC0A0CM, bp) >94 · SpaceX gap fails to compress 4–6wk (pricing-date pinning OWED; two endpoints) · different-sponsor 144A same gap (pricing vs guidance, source named or UNGRADED). Vintage WQ-162 AS FIRST PUBLISHED. Letter → definition_surface"
+  "text": "IG rating-vs-spread mispricing re-arm, ANY: 3rd/4th similar IG issuer at BB-like spreads (source named or UNGRADED) · IG OAS (BAMLC0A0CM, bp) >94 · SpaceX gap fails to compress 4–6wk (pricing-date pinning OWED; two endpoints) · different-sponsor 144A same gap (pricing vs guidance, source named or UNGRADED). Vintage WQ-162 AS FIRST PUBLISHED. Letter → definition_surface",
+  "cap": 500,
+  "over": 0
  },
  "GATE-LIQ-076": {
   "owner": "LIQUID",
   "status": "DRAFT",
-  "text": "Dealer-positioning nexus, 2-of-3 within 2wk: (a) SOFR-3M lev short at/past record OR >300K single-week cover (CFTC TFF) · (b) PD G10>10y <−$12B OR G5L10 <−$800mm ×2 consecutive wks (NY Fed) · (c) MOVE >85 while VIX <20 (same-session closes) ⇒ joint amplification WRITE-UP (a deliverable, NOT a position trigger). ACTION-GATE (8/20). Graded 0-of-3 7/18. Vintage WQ-162. Letter + grades → definition_surface"
+  "text": "Dealer-positioning nexus, 2-of-3 within 2wk: (a) SOFR-3M lev short at/past record OR >300K single-week cover (CFTC TFF) · (b) PD G10>10y <−$12B OR G5L10 <−$800mm ×2 consecutive wks (NY Fed) · (c) MOVE >85 while VIX <20 (same-session closes) ⇒ joint amplification WRITE-UP (a deliverable, NOT a position trigger). ACTION-GATE (8/20). Graded 0-of-3 7/18. Vintage WQ-162. Letter + grades → definition_surface",
+  "cap": 500,
+  "over": 0
  },
  "GATE-LIQ-079": {
   "owner": "LIQUID",
   "status": "DRAFT",
-  "text": "Funding-origin seizure: ARM = SOFR99−IORB ≥+30bp, non-calendar, ≥2 consecutive days (≥4 obs) · FIRE = armed + slow-lead backing (EFFR−IORB / above-IORB borrowing / reserve-demand slope) + dispersion leg — FIRE UNGRADEABLE (not false) until those series + thresholds are named on the definition surface. Deposit-run ANTI-correlated; funding-shock credit lags ~17bd. n=1 true positive — no FP rate citable. X1 riders → consequence cell. Letter → definition_surface"
+  "text": "Funding-origin seizure: ARM = SOFR99−IORB ≥+30bp, non-calendar, ≥2 consecutive days (≥4 obs) · FIRE = armed + slow-lead backing (EFFR−IORB / above-IORB borrowing / reserve-demand slope) + dispersion leg — FIRE UNGRADEABLE (not false) until those series + thresholds are named on the definition surface. Deposit-run ANTI-correlated; funding-shock credit lags ~17bd. n=1 true positive — no FP rate citable. X1 riders → consequence cell. Letter → definition_surface",
+  "cap": 500,
+  "over": 0
  },
  "GATE-FALCON-001": {
   "owner": "FALCON",
   "status": "DRAFT",
-  "text": "Bab el-Mandeb EXECUTION tripwire, ANY of 3: (1) UKMTO/Ambrey/JMIC-confirmed post-7/20 Houthi enforcement attack on a Saudi/commercial hull in the zone [FIRED 7/23] · (2) enforcement-attributable step-down in Bab tanker transits vs prevailing 7dma, ≥2 print-days, TankerMap like-for-like (PortWatch corroborator only) [OPEN] · (3) Yanbu first dark-fleet-capable weekly print w/c ≥7/27 ≤~3.0 mb/d total or ≤~2.55 crude vs frozen 4.7/~4.0 [FIRED 8/15]. Rhetoric never fires. Letter → FRESH_LEG_BASELINE.md"
+  "text": "Bab el-Mandeb EXECUTION tripwire, ANY of 3: (1) UKMTO/Ambrey/JMIC-confirmed post-7/20 Houthi enforcement attack on a Saudi/commercial hull in the zone [FIRED 7/23] · (2) enforcement-attributable step-down in Bab tanker transits vs prevailing 7dma, ≥2 print-days, TankerMap like-for-like (PortWatch = corroborator) [OPEN] · (3) Yanbu first dark-fleet-capable weekly print w/c ≥7/27 ≤~3.0 mb/d total or ≤~2.55 crude vs frozen 4.7/~4.0 [FIRED 8/15]. Letter → FRESH_LEG_BASELINE.md",
+  "cap": 500,
+  "over": 0
  },
  "GATE-OSPREY-001": {
   "owner": "OSPREY",
   "status": "DRAFT",
-  "text": "CPC Channel-2 UPGRADE tripwire, ANY: (a) CPC SPM buoy STRUCTURAL damage confirmed by assessment [OPEN] · (b) loading suspension ≥5 sessions OR Kpler-confirmed liftings drop [FIRED 7/24, branch-1] · (c) Tengiz force majeure declared [OPEN]. (a)/(c) = severity-escalation path; resumption does NOT un-fire (b). CPC = Kazakh barrels, non-countable in the Russian-terminal series. Letter + grades → definition_surface"
+  "text": "CPC Channel-2 UPGRADE tripwire, ANY: (a) CPC SPM buoy STRUCTURAL damage confirmed by assessment [OPEN] · (b) loading suspension ≥5 sessions OR Kpler-confirmed liftings drop [FIRED 7/24, branch-1] · (c) Tengiz force majeure declared [OPEN]. (a)/(c) = severity-escalation path; resumption does NOT un-fire (b). CPC = Kazakh barrels, non-countable in the Russian-terminal series. Letter + grades → definition_surface",
+  "cap": 500,
+  "over": 0
  },
  "GATE-NEXUS-SEAT-01": {
   "owner": "NEXUS/PROME",
   "status": "DRAFT",
-  "text": "FROZEN SPEC (dissent post, zero re-tuning): count Will's decisions 2026-08-08→10-07 whose PROXIMATE input was a NEXUS product — ≥3 the layer pays · 0–1 dissolve into a TERRY-card field + scripts · 2 = NO-VERDICT, non-renewable. PROME builds the candidate list from STABLE KEYS (never phrase search); NEXUS contests symmetrically; Will confirms. NEXUS's registered prediction: 1. Spec → definition_surface"
+  "text": "FROZEN SPEC (dissent post, zero re-tuning): count Will's decisions 2026-08-08→10-07 whose PROXIMATE input was a NEXUS product — ≥3 the layer pays · 0–1 dissolve into a TERRY-card field + scripts · 2 = NO-VERDICT, non-renewable. PROME builds the candidate list from STABLE KEYS (never phrase search); NEXUS contests symmetrically; Will confirms. NEXUS's registered prediction: 1. Spec → definition_surface",
+  "cap": 500,
+  "over": 0
  },
  "GATE-OP-SCALE-01": {
   "owner": "TERRY/PROME",
   "status": "DRAFT",
-  "text": "FROZEN SPEC (dissent post): by 2026-11-07 the agent-proposed book shows N ≥10 CLOSED positions, else a structural-shrink proposal. GUARD v2: N = outcome bound, never quota; distinct closed positions with distinct entry decisions (harvest tranches count ONCE); day-desk/paper/would-fire EXCLUDED; no card may cite this row to fire; loosened-lines log at grading; report N AND R (refusals). Baseline n=2 closed, +$17.26. Spec → definition_surface"
+  "text": "FROZEN SPEC (dissent post): by 2026-11-07 the agent-proposed book shows N ≥10 CLOSED positions, else a structural-shrink proposal. GUARD v2: N = outcome bound, never quota; distinct closed positions with distinct entry decisions (harvest tranches count ONCE); day-desk/paper/would-fire EXCLUDED; no card may cite this row to fire; loosened-lines log at grading; report N AND R (refusals). Baseline n=2 closed, +$17.26. Spec → definition_surface",
+  "cap": 500,
+  "over": 0
  },
  "GATE-BRENT-COT-35B": {
   "owner": "BRENT",
   "status": "DRAFT",
-  "text": "Fuel-spent band 35b (ruled 8/12): crude MM gross shorts vs FROZEN base 122,904 (trailing-8wk median 2026-06-16…08-04; 129,072 = the RETIRED predecessor's base) — Leg-A SPENT ≤113,745, NO-VERDICT deadband 109,165–118,325 · Leg-B OI-share ≤4.909% GATING · BOTH must agree · REVERT semantics (re-read every print, never a latch) · median_unit 9,160 FROZEN (re-basing = new N1 build + Will ruling). Letter → REGISTRY.tsv COT-FUEL-35B"
+  "text": "Fuel-spent band 35b (ruled 8/12): crude MM gross shorts vs FROZEN base 122,904 (trailing-8wk median 2026-06-16…08-04; 129,072 = the RETIRED predecessor's base) — Leg-A SPENT ≤113,745, NO-VERDICT deadband 109,165–118,325 · Leg-B OI-share ≤4.909% GATING · BOTH must agree · REVERT semantics (re-read every print, never a latch) · median_unit 9,160 FROZEN (re-basing = new N1 build + Will ruling). Letter → REGISTRY.tsv COT-FUEL-35B",
+  "cap": 500,
+  "over": 0
  },
  "GATE-FERT-G3": {
   "owner": "FERT",
   "status": "DRAFT",
-  "text": "EVENT GATE (un-base-rateable, n≈2/12mo): China 2026 urea export quota revised DOWN, OR a guidance floor reimposed ABOVE prevailing intl FOB. Instruments: MOFCOM/NDRC relay + CF commentary + Profercy. At registration: quota 3.3 Mt; the $660 floor LIFTED early June (⛔ dead as a live constraint); China offers into India <$400/mt CFR. Will-ratified 8/17. Letter → KB-FERT-006"
+  "text": "EVENT GATE (un-base-rateable, n≈2/12mo): China 2026 urea export quota revised DOWN, OR a guidance floor reimposed ABOVE prevailing intl FOB. Instruments: MOFCOM/NDRC relay + CF commentary + Profercy. At registration: quota 3.3 Mt; the $660 floor LIFTED early June (⛔ dead as a live constraint); China offers into India <$400/mt CFR. Will-ratified 8/17. Letter → KB-FERT-006",
+  "cap": 400,
+  "over": 0
  },
  "GATE-TERRY-007": {
   "owner": "TERRY/BOND",
   "status": "DRAFT",
-  "text": "004 EXIT gate (Will ruling C, 8/19): FIVE CONSECUTIVE official FRED DGS10 closes <4.50% ⇒ TERRY builds an exit proposal → Will [Approve], never self-executed. OFFICIAL closes only — ^TNX/^TYX never substitute or fuse. Ruling B: a SINGLE close <4.50 = arm-#2 counter RESET only. May be MOOT vs the 9/30 expiry — NO-VERDICT if expiry beats it. Counter 0-of-5 (first grade 8/20; window low 4.63). Letter → definition_surface"
+  "text": "004 EXIT gate (Will ruling C, 8/19): FIVE CONSECUTIVE official FRED DGS10 closes <4.50% ⇒ TERRY builds an exit proposal → Will [Approve], never self-executed. OFFICIAL closes only (never ^TNX/^TYX). Ruling B: a SINGLE close <4.50 = arm-#2 counter RESET only. MOOT ⇒ NO-VERDICT if the 9/30 expiry beats it. Counter 0-of-5 (first grade 8/20; window low 4.63). Letter → definition_surface",
+  "cap": 400,
+  "over": 0
  },
  "GATE-REG-T02": {
   "owner": "REGINALD/WAL/Will",
   "status": "DRAFT",
-  "text": "REG-T-02: WAL official CLOSE <$78, sustain 1 — one close fires. Distance quotes re-derived from a NAMED DATED CLOSE only (carried figures kill-on-sight). A close <78 from 2026-08-24 on = first fire of a NEW cycle; later re-entries suppressed. TERRY's ~1-in-5 = an UPPER BOUND (from $79.15; not re-run). TRANSCRIPTION-ONLY (Will 8/23): letter canonical at the owner registry; PROME set no threshold. [FIRED 9/1]"
+  "text": "REG-T-02: WAL official CLOSE <$78, sustain 1 — one close fires. Distances from a NAMED DATED CLOSE only. A close <78 from 2026-08-24 on = first fire of a NEW cycle; later re-entries suppressed. TERRY's ~1-in-5 = an UPPER BOUND (from $79.15; not re-run). TRANSCRIPTION-ONLY (Will 8/23): letter canonical at the owner registry; PROME set no threshold. [FIRED 9/1]",
+  "cap": 400,
+  "over": 0
  },
  "GATE-CORAL-MSI-01": {
   "owner": "CORAL/Will",
   "status": "DRAFT",
-  "text": "MSI supply-side price-discovery leg — breadth + sustain on the Parcl FL-metro Motivated Seller Index (MSI, 0–10 composite) >6.0. ⛔⛔ NOT months-of-supply — a SEPARATE live CORAL metric on the same dashboard (condo 7.8, SF 4.5); the 8/23 mislabel was material. SUMMARY + POINTER ONLY; canonical letter at definition_surface; PROME set no number — condition as Will-ratified 2026-07-23, transcription only"
+  "text": "MSI supply-side price-discovery leg — breadth + sustain on the Parcl FL-metro Motivated Seller Index (MSI, 0–10 composite) >6.0. ⛔⛔ NOT months-of-supply — a SEPARATE live CORAL metric on the same dashboard (condo 7.8, SF 4.5). SUMMARY + POINTER ONLY; canonical letter at definition_surface; PROME set no number — condition as Will-ratified 2026-07-23, transcription only",
+  "cap": 400,
+  "over": 0
  },
  "GATE-FLG-T08": {
   "owner": "FLG/PROME",
   "status": "DRAFT",
-  "text": "NYC RENT FREEZE takes EFFECT 2026-10-01 — instrument = the NYC Rent Guidelines Board order's effective date (published, HARD; RGB voted June 2026, freeze effective October 2026; the bank has already provisioned). Fires ON the effective date. Revision policy: GRADE-AT-PUBLICATION. FLG is print-driven and idle that day — this row exists because an idle desk cannot wake itself"
+  "text": "NYC RENT FREEZE takes EFFECT 2026-10-01 — instrument = the NYC Rent Guidelines Board order's effective date (published, HARD; RGB voted June 2026, freeze effective October 2026; the bank has already provisioned). Fires ON the effective date. Revision policy: GRADE-AT-PUBLICATION. FLG is print-driven and idle that day — this row exists because an idle desk cannot wake itself",
+  "cap": 400,
+  "over": 0
  },
  "GATE-TERRY-ROLL70": {
   "owner": "TERRY/REGINALD/Will",
   "status": "DRAFT",
-  "text": "TRY-WAL-ROLL70 FILL condition: first GREEN WAL day (WAL last > prior official close at fill, on WAL itself) AND Dec-18-2026 $70P ask ≤$2.75 AND REG-T-02 still FIRED (exit count <3) AND live Fidelity book open with the Sep-18 pair ×1/×1. Ask >$2.75 ⇒ NO FILL, back to Will. Registered alt: Nov-20 $70P ≤$2.35 (own [Approve]). Letter → definition_surface (card §1–§8; BE $67.25). [FILLED 9/2 — see state]"
+  "text": "TRY-WAL-ROLL70 FILL condition: first GREEN WAL day (WAL last > prior official close at fill, on WAL itself) AND Dec-18-2026 $70P ask ≤$2.75 AND REG-T-02 still FIRED (exit count <3) AND live Fidelity book open with the Sep-18 pair ×1/×1. Ask >$2.75 ⇒ NO FILL, back to Will. Registered alt: Nov-20 $70P ≤$2.35 (own [Approve]). Letter → definition_surface (card §1–§8; BE $67.25). [FILLED 9/2 — see state]",
+  "cap": 500,
+  "over": 0
  },
  "GATE-TERRY-USO135C": {
   "owner": "TERRY/Will",
   "status": "DRAFT",
-  "text": "TRY-MGMT-USO135C — USO Oct-16-2026 $135C ×2 (Fidelity IRA, basis $1,421.33) management, OR-joined: A HARVEST = resting GTC sell ONE ≥$14.25 (Will's order) · B GIVE-BACK = USO OFFICIAL CLOSE <$135.00 · C TIME STOP = Fri 2026-10-09 unconditional (IRA auto-exercise ≈ $13.5k at the ONE contract left since 9/2). No add, no roll, no new rail. Letter → definition_surface"
+  "text": "TRY-MGMT-USO135C — USO Oct-16-2026 $135C ×2 (Fidelity IRA, basis $1,421.33) management, OR-joined: A HARVEST = resting GTC sell ONE ≥$14.25 (Will's order) · B GIVE-BACK = USO OFFICIAL CLOSE <$135.00 · C TIME STOP = Fri 2026-10-09 unconditional (IRA auto-exercise ≈ $13.5k at the ONE contract left since 9/2). No add, no roll, no new rail. Letter → definition_surface",
+  "cap": 500,
+  "over": 0
  },
  "GATE-BRK-R2": {
   "owner": "BROCK",
   "status": "DRAFT",
-  "text": "PER-VEHICLE redemption escalation: ONE vehicle shows (a) ≥3 CONSECUTIVE sub-100% satisfaction quarters OR (b) single-QUARTER satisfaction <25% (Σaccepted÷Σsubmitted; monthly never graded). Out-of-sample: (a) 4-of-4 at BREIT/SREIT 2023; (b) = the referents' minimum. Filing-primary measures only; CCLFX NOT MEASURABLE. Will-ruled 9/3 (WQ-158). Letter → PC_REDEMPTION_REGISTER.tsv"
+  "text": "PER-VEHICLE redemption escalation: ONE vehicle shows (a) ≥3 CONSECUTIVE sub-100% satisfaction quarters OR (b) single-QUARTER satisfaction <25% (Σaccepted÷Σsubmitted; monthly never graded). Out-of-sample: (a) 4-of-4 at BREIT/SREIT 2023; (b) = the referents' minimum. Filing-primary measures only; CCLFX NOT MEASURABLE. Will-ruled 9/3 (WQ-158). Letter → PC_REDEMPTION_REGISTER.tsv",
+  "cap": 500,
+  "over": 0
  }
 }
