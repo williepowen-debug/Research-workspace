@@ -39,7 +39,10 @@ BOOT_SEQUENCE = [
     # implementing it — so every read went through the source the map already
     # called unreliable, and I carried "confirm-3 BROKEN" for five sessions while
     # MOVE was above its line every one of them (KB-VIO-177). Built 8/4.
-    ("MOVE rates-vol (investing.com PRIMARY; built 8/4)", "move.py", ["--boot"], True),
+    # --strict added 2026-09-04 (DAEDALUS 🔴#5c): without it move.py returns 0
+    # even when the investing.com PRIMARY fails and it falls back to the labelled
+    # cross-check, so a primary outage read as a clean stage on the boot path.
+    ("MOVE rates-vol (investing.com PRIMARY; built 8/4)", "move.py", ["--boot", "--strict"], True),
     ("JPY carry-vol canary (scope 7/11; built 7/16)", "jpy_vol.py", ["--boot"], True),
     ("OVX oil-vol→equity-vol transmission canary (built 7/17)", "ovx.py", ["--boot"], True),
     ("Cheap-tail window alert (operator decision surface; built 7/23)", "cheap_tail.py", ["--boot"], True),
@@ -147,13 +150,24 @@ def main():
         if verbose or not out.strip():
             if out.strip():
                 print(out)
+            elif not ok:
+                # Silent AND failed: the quietest possible failure. Say so.
+                print(f"    ⚠️  STAGE FAILED (non-zero exit) and produced NO OUTPUT")
         else:
             shown = collapse(out)
             if shown:
                 for line in shown:
                     print(f"    {line}")
-            else:
+            elif ok:
                 print(f"    ✓ ran cleanly, no alerts")
+            else:
+                # ⚠️ WAS an unconditional clean line (DAEDALUS 🔴#5b): a stage that
+                # exited non-zero but printed nothing this collapser recognised was
+                # reported as "ran cleanly". A crash with no known marker is the
+                # case most in need of a loud line, and it got the quietest one.
+                print(f"    ⚠️  STAGE FAILED (non-zero exit), no recognised markers "
+                      f"— output not understood by the collapser; re-run this "
+                      f"stage directly before trusting anything downstream of it")
         results.append((label, "OK" if ok else "FAIL", elapsed))
 
     total = time.time() - start

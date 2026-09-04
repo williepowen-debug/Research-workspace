@@ -25,12 +25,13 @@ STATUS = Path(__file__).resolve().parent.parent / "STATUS.md"
 EMOJI_SCORES = [("🔴🔴", 5), ("🔴", 4), ("🟠", 3), ("🟡", 2), ("⚪", 1)]
 
 
-def parse_matrix(text: str) -> list[tuple[str, str, int]]:
-    """Return [(vector, emoji, score)] from the CONVERGENCE MATRIX table."""
+def parse_matrix(text: str) -> tuple[list[tuple[str, str, int]], list[str]]:
+    """Return ([(vector, emoji, score)], problems) from the CONVERGENCE MATRIX."""
     m = re.search(r"## CONVERGENCE MATRIX\n(.*?)(?:\n## |\Z)", text, re.S)
     if not m:
         sys.exit("ERROR: no '## CONVERGENCE MATRIX' section found in STATUS.md")
-    rows = []
+    rows: list = []
+    bad: list[str] = []
     for line in m.group(1).splitlines():
         if not line.startswith("|") or set(line.replace("|", "").strip()) <= {"-", " "}:
             continue
@@ -40,11 +41,24 @@ def parse_matrix(text: str) -> list[tuple[str, str, int]]:
         vector, score_cell = cells[0], cells[1]
         for emoji, score in EMOJI_SCORES:
             if emoji in score_cell:
+                # ⚠️ EMOJI vs DIGIT CROSS-CHECK, added 2026-09-04 (DAEDALUS 🔴#2).
+                # The cells carry BOTH a badge and a number and they can disagree
+                # silently: `🔴 **5**` scored 4 here while a human read 5, which is
+                # one of the three totals that were live on STATUS at once. Neither
+                # is trusted alone any more.
+                m = re.search(r"\*{0,2}(\d)\*{0,2}\s*$", score_cell.strip())
+                if m and int(m.group(1)) != score:
+                    bad.append(f"{vector!r}: badge {emoji} = {score} but the cell "
+                               f"writes {m.group(1)} ({score_cell!r})")
                 rows.append((vector, emoji, score))
                 break
         else:
-            print(f"  ⚠️  no emoji parsed in row: {vector!r} (cell: {score_cell!r})")
-    return rows
+            # FAIL CLOSED. v1 warned and DROPPED the row, which silently changed
+            # both the vector count and the total — the 🟣 cheap-tail row vanished
+            # from a "10 vector" report that should have been 11.
+            bad.append(f"{vector!r}: no recognised badge in cell {score_cell!r} — "
+                       f"row DROPPED from the sum, which changes the denominator")
+    return rows, bad
 
 
 def declared_score(text: str) -> tuple[int, int] | None:
@@ -54,7 +68,12 @@ def declared_score(text: str) -> tuple[int, int] | None:
 
 def main() -> int:
     text = STATUS.read_text()
-    rows = parse_matrix(text)
+    rows, bad = parse_matrix(text)
+    if bad:
+        print("  🔴 MATRIX CELLS UNRELIABLE — refusing to certify a total:")
+        for b_ in bad:
+            print(f"     {b_}")
+        return 1
     total = sum(s for _, _, s in rows)
     denom = 5 * len(rows)
 

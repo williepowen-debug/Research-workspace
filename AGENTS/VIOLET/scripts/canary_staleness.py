@@ -174,12 +174,16 @@ def check_map_agreement() -> list[str]:
     """
     import re
     m = VIOLET_DIR / "CANARY_MAP.md"
+    # ⚠️ WAS `return []` on both branches — a MISSING OR UNREADABLE MAP READ AS
+    # CLEAN (DAEDALUS 🔴#3). Deleting the file this contract exists to police was
+    # the cheapest way to satisfy it. Absent is an UNKNOWN, not a pass.
     if not m.exists():
-        return []
+        return [f"CANARY_MAP.md IS MISSING from {VIOLET_DIR} — the staleness "
+                f"contract cannot be evaluated at all. CANNOT CERTIFY."]
     try:
         text = m.read_text()
-    except OSError:
-        return []
+    except OSError as e:
+        return [f"CANARY_MAP.md unreadable ({e}) — CANNOT CERTIFY."]
     today = date.today()
     out = []
     STATE = r"DORMANT|ARMING|OPEN|FIRE|CALM|WATCH|BIN-A"
@@ -190,8 +194,15 @@ def check_map_agreement() -> list[str]:
     # reported as a live stale cell. Wrong direction is cheap here (noise, not a
     # miss) but a checker that cries wolf gets ignored, which turns it into a miss.
     # Tightened to two PRECISE shapes plus an explicit retrospective exclusion.
-    for mo in re.finditer(r"(Current\s*\[(\d{1,2})/(\d{1,2})\])"          # "Current [7/30]"
-                          rf"|(\[(\d{{1,2}})/(\d{{1,2}})\]\s*\*{{0,2}}(?:{STATE}))",  # "[7/29] DORMANT"
+    # ⚠️ WIDENED 2026-09-04 (DAEDALUS 🔴#3). The bracket was digits-and-slash ONLY,
+    # so every basis-qualified cell this desk actually writes was INVISIBLE:
+    # "[8/4 SETTLE]", "[7/28 report]", "[HENRY 7/28]". The matcher saw 2 of 6 live
+    # CURRENT cells and reported clean while six were 31-38 days stale — a checker
+    # whose blind spot is the desk's own house style. Now: an optional prefix word
+    # inside the bracket, and an optional basis word after the date.
+    DATE_IN_BRACKET = r"\[(?:[A-Za-z]+\s+)?(\d{1,2})/(\d{1,2})(?:\s+[A-Za-z]+)?\]"
+    for mo in re.finditer(rf"(Current\s*{DATE_IN_BRACKET})"
+                          rf"|({DATE_IN_BRACKET}\s*\*{{0,2}}(?:{STATE}))",
                           text, re.I):
         g = mo.groups()
         mon, day = (int(g[1]), int(g[2])) if g[0] else (int(g[4]), int(g[5]))
@@ -202,10 +213,19 @@ def check_map_agreement() -> list[str]:
         window = text[max(0, mo.start() - 160): mo.start() + 160]
         if re.search(r"until \d{1,2}/\d{1,2}|days stale|this cell read|read \"", window, re.I):
             continue
-        try:
-            d = date(today.year, mon, day)
-        except ValueError:
+        # Pick the year that minimises |age| — a "[12/24]" cell read in January is
+        # 11 months old under today.year and 7 days old under the previous one.
+        # v1 assumed today.year and could hand back a NEGATIVE age (a future date),
+        # which silently passed the `age > 4` test.
+        cands = []
+        for yr in (today.year - 1, today.year, today.year + 1):
+            try:
+                cands.append(date(yr, mon, day))
+            except ValueError:
+                pass
+        if not cands:
             continue
+        d = min(cands, key=lambda x: abs((today - x).days))
         age = (today - d).days
         if age > 4:  # same 2x-EOD-cadence contract as the ledger half
             snippet = text[mo.start(): mo.start() + 60].replace("\n", " ")

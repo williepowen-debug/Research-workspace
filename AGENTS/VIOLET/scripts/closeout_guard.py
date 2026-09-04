@@ -70,6 +70,7 @@ BLOCKING = [
     ("KB schema conformance", "validate_workbook.py", []),
     ("Write-back ordering (handoff surfaces vs STATUS)", "writeback_order_check.py", ["--quiet"]),
     ("CALENDAR/CATALYSTS twin consistency", "twin_check.py", ["--quiet"]),
+    ("Convergence matrix arithmetic", "convergence_score.py", []),
 ]
 ADVISORY = [
     ("Thesis currency", "thesis_bump_check.py", []),
@@ -79,7 +80,13 @@ ADVISORY = [
 def run(script: str, args: list[str]) -> tuple[int, str]:
     p = HERE / script
     if not p.exists():
-        return 0, f"  (skipped — {script} not present)"
+        # ⚠️ WAS `return 0` — a MISSING CHECK CERTIFIED THE CLOSEOUT (DAEDALUS 🔴#5a).
+        # Deleting or renaming a guard script was the cheapest way to make this
+        # guard green, and the "(skipped)" line read like an ordinary note. A
+        # check that is absent is an UNKNOWN, and an unknown is not a pass.
+        return 2, (f"  🔴 CANNOT CERTIFY — {script} IS MISSING from {HERE}.\n"
+                   f"     An absent check is an UNKNOWN, not a pass. Restore it or "
+                   f"remove its row from BLOCKING deliberately.")
     try:
         r = subprocess.run([PY, str(p), *args], capture_output=True, text=True, timeout=120)
         return r.returncode, (r.stdout + r.stderr).rstrip()
