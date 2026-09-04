@@ -103,7 +103,9 @@ VIX-linked positions and trade framework.
 
 ---
 
-## LIVE DECISION FRAMEWORK — Gated Tail-Hedge Packet (Will-approved gate, 2026-07-01 ~11:30 PM ET, flat) — **ARMED**
+> ⛔ **RETIRED-SUPERSEDED 2026-07-31** by the rising-vol registration design (DOCKET L163); **stood down by Will 2026-09-04 11:11 ET (WQ-177)**, PROME record `PROME/proposals/2026-09-04_wq177-RULED.md`. History below is **verbatim and unedited**; **nothing in it fires anything.** Gate A/C read PENDING against a **2026-07-02** print and are dead letters — do not adjudicate them. A tail hedge on today’s prints would be a **fresh TERRY ask on live quotes**, not a revival of this gate. *(Origin: my own KB-VIO-230 staleness finding; left untouched until the operator’s word existed.)*
+
+## LIVE DECISION FRAMEWORK — Gated Tail-Hedge Packet (Will-approved gate, 2026-07-01 ~11:30 PM ET, flat) — **RETIRED-SUPERSEDED**
 
 **Authorization scope (exact):** Will approved the GATE on 7/1 ("Approved on the gate — build the packet if it fires"). That authorizes VIOLET to **build and deliver the hedge packet same-session when any gate fires**. It does NOT pre-authorize execution — the packet still goes to Will for [Approve] per standing rule.
 

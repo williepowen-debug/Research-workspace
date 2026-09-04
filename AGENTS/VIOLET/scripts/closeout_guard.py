@@ -37,6 +37,12 @@ WHAT IT AGGREGATES
   · `grading_note_check.py`— catalyst notes citing retracted KB rows
   · `validate_workbook.py` — KB schema conformance (errors only, not the
                              ACTIVE-past-Stale_By WARN, which is by design)
+  · `writeback_order_check.py` — the three handoff surfaces (SCRATCH,
+                             LAST_COMPLETION, NEXUS_BRIEF) must not lag STATUS.
+                             Added 2026-09-04 after a session crashed between the
+                             STATUS commit and the write-back tail and NOTHING
+                             detected it at the next boot. Vintage only — it
+                             cannot see a fresh stamp over a stale body.
   · `thesis_bump_check.py` — ADVISORY ONLY; never blocks (see below)
 
 ⚠️ **The thesis check is deliberately non-blocking.** It is a judgement prompt, not
@@ -57,6 +63,7 @@ BLOCKING = [
     ("CANARY_MAP staleness contract", "canary_staleness.py", ["--strict"]),
     ("Grading-note citations", "grading_note_check.py", ["--strict"]),
     ("KB schema conformance", "validate_workbook.py", []),
+    ("Write-back ordering (handoff surfaces vs STATUS)", "writeback_order_check.py", ["--quiet"]),
 ]
 ADVISORY = [
     ("Thesis currency", "thesis_bump_check.py", []),

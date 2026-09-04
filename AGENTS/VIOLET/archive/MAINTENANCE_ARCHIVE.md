@@ -183,3 +183,58 @@
 **Lessons:** a tool default (`date.today()-1`) silently misaligned data-date vs row-stamp for the series' entire life; the fix is carrying the data's own as-of date through the pipeline, not vigilance. Same family as KB-VIO-085 (a number carries its unit) — a value also carries its *date*.
 
 ---
+
+---
+
+> **Second archival pass 2026-09-04** — `MAINTENANCE.md` hit **317 lines** against its ~300 cap (boot had been flagging it every session). Moved the three oldest live entries (**2026-06-13 · 06-14 · 06-23**) here verbatim; the live log now keeps **2026-07-11 onward**. Cap cleared to 300 with headroom for the entry that triggered the pass.
+
+---
+
+## 2026-06-23 — Credit-gate summary wired into boot.py (closes the boot/credit blind spot)
+
+**Trigger:** At the 6/23 boot (after a 9-day dark gap spanning the BOJ/FOMC catalyst window), VIOLET mis-read the credit gate as "fred_fetch broken / gate UNCONFIRMED." The proximate bug was a read-side glob over a proliferated cache (KB-VIO-103→104, fixed same session), but the deeper gap was that **boot.py never surfaced the credit gate at all** — fred_fetch was a manual session step, so the load-bearing CCC/Bin-B verdict wasn't in the boot brief. Will-approved wiring it in. Also reconciles a doc drift: VIOLET's CLAUDE.md SPAWN step 5 already described boot.py as "live vol surface + **FRED credit** + catalyst countdown," but boot.py did not run FRED.
+
+**What changed:**
+- **`scripts/boot.py`:** added BOOT_SEQUENCE step `("Credit gate (FRED · KB-VIO-090/096)", "fred_fetch.py", ["--summary"], True)` after thresholds. Added markers to KEY_MARKERS (`CREDIT GATE`, `VERDICT`, `CCC`, `Bin-A`, `🟢`) so the gate verdict survives the collapse filter — the `🟢 BLOCK LIFTED` case wasn't a marker before and would have been hidden. Tested: collapsed boot now prints the CCC value, CCC-BB dispersion, and the `VERDICT: 🟢 BLOCK LIFTED / 🟠 BIN-B / 🔴 BIN-A` line; 2.1s cached, non-destructive (VX_DAILY 6/23 SETTLE row untouched).
+- Relies on fred_fetch's `--summary` + freshness-aware cache (KB-VIO-104): boot serves credit from cache when fresh, fetches only when stale.
+
+**Files touched:** scripts/boot.py, CALENDAR.md (Data Refresh row Manual→auto-in-boot + boot-sequence line), MAINTENANCE.md.
+
+**Boot-impact:** boot.py now prints the credit-gate verdict every session (~+2s cached). The CALENDAR "boot.py does NOT call fred_fetch" note is SUPERSEDED; the CLAUDE.md SPAWN-step-5 "FRED credit" description is now accurate (code caught up to the doc). fred_fetch stays runnable standalone (`--force --summary`) for an authoritative refresh.
+
+**Lessons:** a load-bearing input that isn't surfaced at boot is a latent blind spot — the 9-day-gap credit mis-read happened partly because the gate was never in the boot brief. Wire the load-bearing reads into the auto-boot, and keep the docs that *describe* boot in sync with what boot *runs* (the CLAUDE.md description had drifted ahead of the code; now reconciled). A new output line must also clear the output filter — adding the step without the KEY_MARKERS would have run it silently.
+
+---
+
+## 2026-06-14 — m1m2 backfill: warn-and-proceed → hard gate (Orc verification of 6/13 commit)
+
+**Trigger:** Orc cross-container review of the pushed Friday-close work found one real gap: `backfill_m1m2()` printed the convention hazard then fell straight into the fill loop — no early return, no override gate. The skip-if-present guard only protects cells that ALREADY hold a value, so a future session running `backfill.py` (full, default) or `--m1m2-only` would still fill the ~79 blank m1m2 cells with same-day/unstamped values inconsistent with thresholds.py's T-1 series — the warning just scrolls past. The 6/13 docstring/commit said "BLOCKED"; the code only WARNED. Accident-proofing a session that never saw this thread was the whole point of the guardrail.
+
+**What changed:**
+- **`scripts/backfill.py`:** `backfill_m1m2()` now takes `allow: bool=False` and **early-returns (prints `⛔ REFUSING`, returns 0) unless `--allow-m1m2` is passed.** New `--allow-m1m2` CLI flag (default off). `main()` passes `allow=args.allow_m1m2`. Default `backfill.py` run now does spot only; the m1m2 path is genuinely blocked, not warn-only. Docstring + usage corrected to match. Tested: `backfill_m1m2(..., allow=False)` returns 0 and mutates no rows without any network call.
+- **MAINTENANCE 6/13 entry:** "BLOCKED" claim corrected inline (it was aspirational as shipped that day).
+
+**Files touched:** scripts/backfill.py, MAINTENANCE.md, STATUS.md (line-19 vestigial parenthetical dropped + 20d-SKEW-avg recompute — see below; analytical, not structural).
+
+**Boot-impact:** none (backfill.py is not in boot.py). Behavioral: a default/`--m1m2-only` backfill no longer silently injects same-day values; recovery via `--spot-only` is unchanged and still the routine path. The #4 convention decision is still open — `--allow-m1m2` is the deliberate override to be used ONLY after it resolves.
+
+**Lessons:** a documented hazard is not an accident-proof one — "BLOCKED" in a docstring while the code warns-and-proceeds is the gap between intent and enforcement; when the point of a guard is to protect a future unaware session, the guard must REFUSE, not narrate. (Reinforces the 6/13 lesson: surface — and here, *enforce* — the guard before it's relied on.)
+
+---
+
+## 2026-06-13 — Supersede limits surfaced: boot-time stale-TICK guard + m1m2 convention landmine pinned
+
+**Trigger:** Weekend refresh found the VX_DAILY 6/12 row stuck as a stale morning TICK (VIX 19.04 vs 17.68 settle). Root cause (Orc): Friday's session closed 1:40pm, before the 16:15 ET settle, so the EOD `--supersede` never fired — and `--supersede` only ever targets *today's* row (stamps `et_now`), so it can NEVER reach back to repair a prior date; a stale row does not self-heal on re-run. The weekend-skip guard was a red herring (it only blocked the Saturday catch-up). Investigating the repair path surfaced a second landmine: **thresholds.py and backfill.py disagree on the m1m2 convention.**
+
+**What changed:**
+- **`scripts/thresholds.py`:** (a) `append_daily_log` now returns a STATUS CODE (appended/updated/skip-weekend/skip-exists/skip-tick-vs-settle/skip-no-file) instead of a bare bool — the old bool made every skip print the misleading "already has a row" line (which fooled VIOLET herself: the real reason was the weekend guard). Printer states the real reason + points to backfill.py. Bool back-compat preserved for `--json`. (b) New `check_stale_tick()` boot-time guard: emits a `⚠️` (surfaced by boot.py collapse) when the LATEST VX_DAILY row is a TICK dated before today — catches the missed-EOD case at next boot, which is the case that actually failed (a closeout checklist can't catch it; nothing is alive at 16:15 ET close). Tested both branches.
+- **`scripts/backfill.py`:** m1m2 CONVENTION HAZARD pinned — docstring block + runtime `⚠️` print in `backfill_m1m2()`. This path writes SAME-DAY/unstamped m1m2; thresholds.py writes T-1 WITH `m1m2_settle_date`. The two disagree; the ~79 blank m1m2 cells are protected only by the skip-if-present guard. *(NOTE — corrected 6/14: as shipped this day the guard only WARNED-then-proceeded, NOT "BLOCKED" as this line originally claimed; a default `backfill.py` run would still have filled the blank cells. Hard gate added 6/14 — see entry below.)*
+- **Data fixes (not structural, logged for trail):** VX_DAILY 6/12 spot row hand-backfilled to settle then m1m2 reverted to T-1 (6.49/settle_date 6/11) for series consistency; 6/10 skew fixed 141.97→143.08 via `backfill.py --spot-only` (was a dup of 6/09).
+
+**Files touched:** scripts/thresholds.py, scripts/backfill.py, workbook/VX_DAILY.tsv (6/10 + 6/12 rows), MAINTENANCE.md.
+
+**Boot-impact:** boot.py unchanged in structure (thresholds runs inside it); the new stale-TICK `⚠️` now appears in boot output whenever an EOD settle run was missed. **Open decision #4 (NOT done): m1m2 convention — migrate the whole series to same-day (Orc's lean: semantically correct for a "daily closes" ledger; KB-VIO-092-proof) vs document T-1 as canonical + align backfill. ~79-row migration touching both tools; needs the echo-back loop, not a snap. Until resolved: `--spot-only` only.**
+
+**Lessons:** a tool whose write is keyed to "now" (not to the data's own date) cannot repair history — the recovery tool must be date-driven (backfill.py). Two tools touching one column under different conventions are safe only by an undocumented guard; surface the guard before it's relied on. And: a skip/error message must state *which* reason fired — a generic message cost a self-misread.
+
+---

@@ -155,55 +155,6 @@ Log material structural changes only — not routine content edits. Template ado
 
 **Lessons:** the packet sat unconsumed through the exact incident it would have prevented, then through one more full session — an anti-recurrence fix competes for attention like any other task unless something (a sweep, a guard) forces it to the front. Also: apply-some-of-a-packet is worse than apply-none; all 6 landed together so DAEDALUS's tracking reconciles in one ACK.
 
-## 2026-06-23 — Credit-gate summary wired into boot.py (closes the boot/credit blind spot)
-
-**Trigger:** At the 6/23 boot (after a 9-day dark gap spanning the BOJ/FOMC catalyst window), VIOLET mis-read the credit gate as "fred_fetch broken / gate UNCONFIRMED." The proximate bug was a read-side glob over a proliferated cache (KB-VIO-103→104, fixed same session), but the deeper gap was that **boot.py never surfaced the credit gate at all** — fred_fetch was a manual session step, so the load-bearing CCC/Bin-B verdict wasn't in the boot brief. Will-approved wiring it in. Also reconciles a doc drift: VIOLET's CLAUDE.md SPAWN step 5 already described boot.py as "live vol surface + **FRED credit** + catalyst countdown," but boot.py did not run FRED.
-
-**What changed:**
-- **`scripts/boot.py`:** added BOOT_SEQUENCE step `("Credit gate (FRED · KB-VIO-090/096)", "fred_fetch.py", ["--summary"], True)` after thresholds. Added markers to KEY_MARKERS (`CREDIT GATE`, `VERDICT`, `CCC`, `Bin-A`, `🟢`) so the gate verdict survives the collapse filter — the `🟢 BLOCK LIFTED` case wasn't a marker before and would have been hidden. Tested: collapsed boot now prints the CCC value, CCC-BB dispersion, and the `VERDICT: 🟢 BLOCK LIFTED / 🟠 BIN-B / 🔴 BIN-A` line; 2.1s cached, non-destructive (VX_DAILY 6/23 SETTLE row untouched).
-- Relies on fred_fetch's `--summary` + freshness-aware cache (KB-VIO-104): boot serves credit from cache when fresh, fetches only when stale.
-
-**Files touched:** scripts/boot.py, CALENDAR.md (Data Refresh row Manual→auto-in-boot + boot-sequence line), MAINTENANCE.md.
-
-**Boot-impact:** boot.py now prints the credit-gate verdict every session (~+2s cached). The CALENDAR "boot.py does NOT call fred_fetch" note is SUPERSEDED; the CLAUDE.md SPAWN-step-5 "FRED credit" description is now accurate (code caught up to the doc). fred_fetch stays runnable standalone (`--force --summary`) for an authoritative refresh.
-
-**Lessons:** a load-bearing input that isn't surfaced at boot is a latent blind spot — the 9-day-gap credit mis-read happened partly because the gate was never in the boot brief. Wire the load-bearing reads into the auto-boot, and keep the docs that *describe* boot in sync with what boot *runs* (the CLAUDE.md description had drifted ahead of the code; now reconciled). A new output line must also clear the output filter — adding the step without the KEY_MARKERS would have run it silently.
-
----
-
-## 2026-06-14 — m1m2 backfill: warn-and-proceed → hard gate (Orc verification of 6/13 commit)
-
-**Trigger:** Orc cross-container review of the pushed Friday-close work found one real gap: `backfill_m1m2()` printed the convention hazard then fell straight into the fill loop — no early return, no override gate. The skip-if-present guard only protects cells that ALREADY hold a value, so a future session running `backfill.py` (full, default) or `--m1m2-only` would still fill the ~79 blank m1m2 cells with same-day/unstamped values inconsistent with thresholds.py's T-1 series — the warning just scrolls past. The 6/13 docstring/commit said "BLOCKED"; the code only WARNED. Accident-proofing a session that never saw this thread was the whole point of the guardrail.
-
-**What changed:**
-- **`scripts/backfill.py`:** `backfill_m1m2()` now takes `allow: bool=False` and **early-returns (prints `⛔ REFUSING`, returns 0) unless `--allow-m1m2` is passed.** New `--allow-m1m2` CLI flag (default off). `main()` passes `allow=args.allow_m1m2`. Default `backfill.py` run now does spot only; the m1m2 path is genuinely blocked, not warn-only. Docstring + usage corrected to match. Tested: `backfill_m1m2(..., allow=False)` returns 0 and mutates no rows without any network call.
-- **MAINTENANCE 6/13 entry:** "BLOCKED" claim corrected inline (it was aspirational as shipped that day).
-
-**Files touched:** scripts/backfill.py, MAINTENANCE.md, STATUS.md (line-19 vestigial parenthetical dropped + 20d-SKEW-avg recompute — see below; analytical, not structural).
-
-**Boot-impact:** none (backfill.py is not in boot.py). Behavioral: a default/`--m1m2-only` backfill no longer silently injects same-day values; recovery via `--spot-only` is unchanged and still the routine path. The #4 convention decision is still open — `--allow-m1m2` is the deliberate override to be used ONLY after it resolves.
-
-**Lessons:** a documented hazard is not an accident-proof one — "BLOCKED" in a docstring while the code warns-and-proceeds is the gap between intent and enforcement; when the point of a guard is to protect a future unaware session, the guard must REFUSE, not narrate. (Reinforces the 6/13 lesson: surface — and here, *enforce* — the guard before it's relied on.)
-
----
-
-## 2026-06-13 — Supersede limits surfaced: boot-time stale-TICK guard + m1m2 convention landmine pinned
-
-**Trigger:** Weekend refresh found the VX_DAILY 6/12 row stuck as a stale morning TICK (VIX 19.04 vs 17.68 settle). Root cause (Orc): Friday's session closed 1:40pm, before the 16:15 ET settle, so the EOD `--supersede` never fired — and `--supersede` only ever targets *today's* row (stamps `et_now`), so it can NEVER reach back to repair a prior date; a stale row does not self-heal on re-run. The weekend-skip guard was a red herring (it only blocked the Saturday catch-up). Investigating the repair path surfaced a second landmine: **thresholds.py and backfill.py disagree on the m1m2 convention.**
-
-**What changed:**
-- **`scripts/thresholds.py`:** (a) `append_daily_log` now returns a STATUS CODE (appended/updated/skip-weekend/skip-exists/skip-tick-vs-settle/skip-no-file) instead of a bare bool — the old bool made every skip print the misleading "already has a row" line (which fooled VIOLET herself: the real reason was the weekend guard). Printer states the real reason + points to backfill.py. Bool back-compat preserved for `--json`. (b) New `check_stale_tick()` boot-time guard: emits a `⚠️` (surfaced by boot.py collapse) when the LATEST VX_DAILY row is a TICK dated before today — catches the missed-EOD case at next boot, which is the case that actually failed (a closeout checklist can't catch it; nothing is alive at 16:15 ET close). Tested both branches.
-- **`scripts/backfill.py`:** m1m2 CONVENTION HAZARD pinned — docstring block + runtime `⚠️` print in `backfill_m1m2()`. This path writes SAME-DAY/unstamped m1m2; thresholds.py writes T-1 WITH `m1m2_settle_date`. The two disagree; the ~79 blank m1m2 cells are protected only by the skip-if-present guard. *(NOTE — corrected 6/14: as shipped this day the guard only WARNED-then-proceeded, NOT "BLOCKED" as this line originally claimed; a default `backfill.py` run would still have filled the blank cells. Hard gate added 6/14 — see entry below.)*
-- **Data fixes (not structural, logged for trail):** VX_DAILY 6/12 spot row hand-backfilled to settle then m1m2 reverted to T-1 (6.49/settle_date 6/11) for series consistency; 6/10 skew fixed 141.97→143.08 via `backfill.py --spot-only` (was a dup of 6/09).
-
-**Files touched:** scripts/thresholds.py, scripts/backfill.py, workbook/VX_DAILY.tsv (6/10 + 6/12 rows), MAINTENANCE.md.
-
-**Boot-impact:** boot.py unchanged in structure (thresholds runs inside it); the new stale-TICK `⚠️` now appears in boot output whenever an EOD settle run was missed. **Open decision #4 (NOT done): m1m2 convention — migrate the whole series to same-day (Orc's lean: semantically correct for a "daily closes" ledger; KB-VIO-092-proof) vs document T-1 as canonical + align backfill. ~79-row migration touching both tools; needs the echo-back loop, not a snap. Until resolved: `--spot-only` only.**
-
-**Lessons:** a tool whose write is keyed to "now" (not to the data's own date) cannot repair history — the recovery tool must be date-driven (backfill.py). Two tools touching one column under different conventions are safe only by an undocumented guard; surface the guard before it's relied on. And: a skip/error message must state *which* reason fired — a generic message cost a self-misread.
-
----
-
 ## 2026-08-04 — Inbound backlog cleared, forward feed replenished from the canonical ledger, NEXUS amd-10 adopted
 
 **Trigger:** Will-directed full currency pass ("update your domain with updated data, news, etc."). Three structural items surfaced alongside the analytical work, all rooted in the same defect class: **surfaces that decay because nothing triggers their replenishment.**
@@ -315,3 +266,29 @@ Log material structural changes only — not routine content edits. Template ado
 - **A read-cap breach and a read-cap FALSE POSITIVE want opposite remedies, and only one of the three flagged surfaces was a real breach.** Splitting `VIX_THESIS.md` because a heuristic listed it would have restructured a canonical framework doc to satisfy a mis-parse. **Check whether the file is actually read before deciding how to shrink it.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
 - **I logged one drain disposition as "acted — dead path repointed" and then discovered the citing row had not existed since the 8/18 catalyst rebuild.** Corrected in place to `stale`. I wrote the disposition from the *packet's description of my file* instead of from *my file*. `[[finding_record_of_an_action_is_not_the_action]]` — and a "fixed it" row for a structurally impossible fix is worse than no row.
 - **`move.py --boot` prints a live "GATE-VIO-116 re-open" leg for a row the fire-ledger RESOLVED on 7/16** (KB-VIO-219). Found, deliberately **not** fixed — a threshold-surface edit late in a heavy session. Queued as RESEARCH QUEUE #5.
+
+---
+
+## 2026-09-04 — A crash exposed that Amendment 10 was a sentence, not a check; `writeback_order_check.py` built and wired BLOCKING; the 7/1 tail-hedge framework stood down; MAINTENANCE archived to clear its cap
+
+**Trigger:** Will-spawned boot after a session crash — *"We had a crash so we may have some incomplete files ideas from the previous session. Please check."* Three VIOLET sessions ran on 9/4; the second died mid-write-back.
+
+**What changed (structural only — the analytical work of the 10:0x session is in KB-VIO-227→233 and its own commit `ef3e0be9c`):**
+
+1. **NEW `scripts/writeback_order_check.py` — the write-back ordering contract, now code.** The crashed session committed `STATUS.md` (10:06) and `SIGNAL_INTAKE.md` (10:08) and died before its tail, leaving `SCRATCH.md`, `LAST_COMPLETION.md` and `NEXUS_BRIEF.md` at their 08:47 commit — **79 minutes behind STATUS**, each addressed to a consumer who is not VIOLET (my own next boot · PROME · NEXUS). **At the next boot `boot.py` returned 14/14 OK, `ledger_staleness.py` rc=0, `corrections_boot_check.py` rc=0, and `closeout_guard.py` was red only on the pre-existing COT contract. Four checks, all green, over a live breach.** The check computes effective vintage per surface and fails if any handoff surface lags STATUS.
+2. **Wired BLOCKING into `closeout_guard.py`.** Added to `BLOCKING` alongside the CANARY_MAP, grading-note and workbook contracts; docstring records why.
+3. **`TRADE.md` — the Gated Tail-Hedge Packet stood down (WQ-177).** Heading token **ARMED → RETIRED-SUPERSEDED**; a banner above it names the 2026-07-31 supersession (DOCKET L163) and Will's 9/4 11:11 stand-down, and marks Gates A/C dead letters against their 2026-07-02 print. **Body kept verbatim.** KB-VIO-113 → `SUPERSEDED`, KB-VIO-230 → `CONFIRMED`.
+4. **`MAINTENANCE.md` cap cleared, second archival pass.** 317 lines against the ~300 cap (boot had flagged it every session for weeks). The three oldest live entries (2026-06-13 · 06-14 · 06-23) moved verbatim to `archive/MAINTENANCE_ARCHIVE.md` under a dated banner; live log now keeps 2026-07-11 onward. **317 → 268 before this entry.**
+5. **`board_log.tsv` lane closure completed.** `SIG-W-20260904-001` had its disposition row written at 08:46 but the file was never `git mv`'d to `processed/` — the crash split a two-step act. Move completed; WALTER lane empty.
+
+**Files touched:** `scripts/writeback_order_check.py` (new) · `scripts/closeout_guard.py` · `TRADE.md` · `STATUS.md` · `SCRATCH.md` · `LAST_COMPLETION.md` · `NEXUS_BRIEF.md` · `MAINTENANCE.md` · `archive/MAINTENANCE_ARCHIVE.md` · `workbook/KB.tsv` · `inbox/WALTER/processed/`.
+
+**Boot impact:** none at boot — the new check runs at **closeout**, deliberately. Closeout now has **four** blocking contracts instead of three, and a session cannot exit past a lagging handoff surface. No new boot-time whole-read; no read-cap change.
+
+**Lessons:**
+- **🔑 The rule was never missing. It was already written as an arithmetic comparison and nothing computed it for 31 days.** Write-back step 12 states Amendment 10 as *"the brief's commit timestamp ≥ the session's last STATUS commit timestamp"* — two integers. **Third instance in six weeks of this desk's own named class:** KB-VIO-165 (enums "validated" by remembering — 11 rows violating, one for 109 days), KB-VIO-190/226 (a mechanical re-arm line inherited as a fresh judgement call — 3 sessions), now this. **When auditing this desk, do not ask "is there a rule?" — ask "is there a rule stated as an arithmetic comparison that nothing computes?"**
+- **The failure mode has a timing bias that makes "remember to do it" the wrong remedy.** A tail step done from memory fails *precisely when the session ends badly* — crash, interrupt, context exhaustion — **which is exactly the population where the handoff surfaces matter most.** A discipline that holds on every good day and breaks on every bad one is not a control.
+- **Guard correctness and guard wiring were tested separately, and both tests were available for free.** The check was falsified against the live *unfixed* repo state before being trusted (fired 3/3, rc=1), then re-run against the fixed state (rc=0, exercising the dirty-file branch); the wiring was proved by running `closeout_guard.py` and confirming the new contract appears in its RED list. `[[finding_guard_correctness_and_wiring_are_independent]]` · `[[finding_test_the_guard_not_just_the_guarded]]`
+- **Dirty working-tree files count as fresh, and that is a design decision, not a shortcut.** `closeout_guard.py` runs *before* the session's commit, so comparing raw commit timestamps would flag every honest closeout — and **a guard that cries wolf on the correct path is one you learn to bypass**, which is the exact warning already written into `closeout_guard.py` about its non-blocking thesis check.
+- **⚠️ The check compares VINTAGE, never CONTENT, and that limit is written into it.** A brief re-stamped with a fresh `As of:` over a stale body passes green. It catches the surface **left behind**, not the surface **refreshed badly**. `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`
+- **The crashed session's best decision was a refusal, and the crash did not cost it.** It found `TRADE.md` ARMED on a 64-day-old gate whose legs today's tape satisfies and **did not fix it** — standing an authorized gate down is an *authorization* change, not a staleness edit, and PROME relaying a recommendation is not the operator speaking. It wrote that reasoning into its commit message, where the recovery session found it. **Will's word arrived 63 minutes later; the edit took one minute.** `[[finding_relayed_recommendation_is_not_an_approval]]`
