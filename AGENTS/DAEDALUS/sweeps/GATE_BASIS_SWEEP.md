@@ -18,6 +18,9 @@ Prove the retrieval path can distinguish vintages: fetch the same series at two 
 ### 4. Base-rate operator check (SL-5, added 2026-09-03 — one-time leg for run #1, then standing)
 For each gate carrying a base rate: was it computed on the SAME operator the letter carries (strict vs non-strict)? Positive control: RED FT-11 (strict base rate 5.0%/3.8% vs non-strict letter 8.5%/6.2%; tie atom 41% of fires). Mismatch = a dated re-registration ask to the owner, never a retroactive re-grade.
 
+### 5. Revisable-series bare-number check (WQ-175 FROZEN-ON-REVISABLE, added 2026-09-04 — PROME "YES at your cadence" on my proposal; standing from run #1)
+For each in-scope gate keyed to a series the issuer RESTATES (payrolls · GDP · JOLTS · QCEW · CPI seasonals · any series with a published revision schedule): the letter must carry the threshold as a FORMULA with a dated illustration and a recompute instruction (`… ⇒ X ≥ +303K [2026-09-02 vintage — RECOMPUTE on the revised vintage before grading]`), name the resolving vintage (FIRST PRINT · THIRD PRINT · BENCHMARKED), and register a REVISION WATCH. A bare number on such a series with no bracket beside it = `BASIS-UNNAMED (vintage)` and a dated re-registration ask to the owner. Forward-only: a letter registered before 2026-09-04 that named no vintage grades AS FIRST PUBLISHED (WQ-162) and is annotated, never re-graded. Canon: `FORGE/PREDICTION_DISCIPLINE.md` § Registration FROZEN-ON-REVISABLE; form: `BLUEPRINTS/SPEC_LETTER_STANDARD.md` Registration row.
+
 ## Verdict tokens (STATE_VOCABULARY)
 per gate: `BASIS-NAMED` · `BASIS-UNNAMED (<elements>)` · `OPERATOR-MISMATCH` · `NOT GRADED (<reason>)` · retrieval path: `VINTAGE-PATH-VERIFIED` / `CANNOT-CERTIFY`.
 
