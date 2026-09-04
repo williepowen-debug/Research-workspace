@@ -268,9 +268,30 @@ STATIC_BANNER_MARKERS = ["FROZEN", "RETIRED", "NOT CURRENT", "DO NOT CITE", "NOT
 # AGENTS/DAEDALUS/upgrades/LABOR_QC_2026-07-22.md); zero genuine banners lost.
 LIVE_DECL_RE = re.compile(r"STATUS\s*:?\s*\**\s*LIVE\b", re.IGNORECASE)
 MARKER_COL_CAP = 100
+# Rule 9 — MARKERS ARE CASE-SENSITIVE (2026-09-03, BROCK self-caught, PROME-routed): the
+# recognizer UPPERCASED every line before matching, so lowercase prose "spec frozen before
+# the data" on a non-key line 1 (no LIVE token on line 1, col < 100) reclassified a LIVE
+# two-clock register as FROZEN and silenced its alerts. Every genuine banner in the fleet
+# survey writes its token UPPERCASE ("# FROZEN 2026-07-01", "⛔ RETIRED", "NOT CURRENT",
+# "# FROZEN-VINTAGE"); every documented false positive is lowercase prose ("Position
+# frozen:", "GAP: frozen", "ledger frozen at", "the frozen Option-2 window", "permanently
+# frozen", "(not frozen)"). Case IS the form. Matching now runs on the RAW line; only the
+# NOT-negation lookbehind stays case-blind. Validated by fleet diff (491 surfaces, see the
+# scope note below — the first cut lost six genuine phrase banners and was narrowed). The
+# --selftest carries the BROCK repro + the 7/22, 8/7, 8/11, 8/28 cases + the CARL/POP phrase case.
+# Scope of rule 9 — SINGLE-WORD markers only. The fleet diff that validated it flipped six
+# CARL/POP ledgers bannered "# STALE-VINTAGE … do not cite rows as current" to live: the
+# PHRASE markers are canonical banner text in LOWERCASE (root CLAUDE.md Data Hygiene:
+# "FROZEN <date> — not maintained; STATUS is canonical, do not cite rows as current"), and
+# a phrase does not collide with prose the way a common word does. So: FROZEN / RETIRED /
+# ARCHIVED / SUPERSEDED must be uppercase; "not current" / "do not cite" / "not maintained"
+# stay case-blind. Net fleet diff after the split: FLG/TRADE.md and OSPREY PREDICTIONS.tsv
+# (both LIVE, both wrongly exempt before) flip to tracked; zero genuine banners lost.
+_SINGLE_WORD = {"FROZEN", "RETIRED", "ARCHIVED", "SUPERSEDED"}
 MARKER_RES = [
-    re.compile(r"(?<!NOT )(?<![\w/-])" + re.escape(k) + r"(?![\w/-])") if k == "FROZEN"
-    else re.compile(r"(?<![\w/-])" + re.escape(k) + r"(?![\w/-])")
+    re.compile(r"(?<![Nn][Oo][Tt] )(?<![\w/-])" + re.escape(k) + r"(?![\w/-])") if k == "FROZEN"
+    else re.compile(r"(?<![\w/-])" + re.escape(k) + r"(?![\w/-])",
+                    0 if k in _SINGLE_WORD else re.IGNORECASE)
     for k in STATIC_BANNER_MARKERS
 ]
 
@@ -632,17 +653,19 @@ KEY_LINE_RE = re.compile(r"^\s*#\s*(?:Last|Cadence|Status|Source|Owner|Schema|No
                          r"Re-?pull|Refresh|Provenance|Basis|Unit|Units)\b", re.IGNORECASE)
 
 
-def _line_has_marker(u_line):
-    """Un-negated, un-glued banner marker in the pre-tab portion of ONE uppercased
+def _line_has_marker(line):
+    """Un-negated, un-glued UPPERCASE banner marker in the pre-tab portion of ONE RAW
     line, within MARKER_COL_CAP, and not a row-retention policy sentence (rule 6).
-    Rule 8 (2026-08-28): a header KEY line (Last …/Cadence …/Status …) never declares."""
-    scan = u_line.split("\t", 1)[0]
+    Rule 8 (2026-08-28): a header KEY line (Last …/Cadence …/Status …) never declares.
+    Rule 9 (2026-09-03): the marker token must be written UPPERCASE — lowercase is prose."""
+    scan = line.split("\t", 1)[0]
     if KEY_LINE_RE.match(scan):
         return False
-    if ROW_POLICY_RE.search(scan):
+    if ROW_POLICY_RE.search(scan.upper()):
         return False
-    if LINE_INITIAL_QUALIFIED_RE.match(scan):
-        return True
+    q = LINE_INITIAL_QUALIFIED_RE.match(scan.upper())
+    if q and re.search(r"(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED)-[A-Z]$", scan[:q.end()]):
+        return True                      # line-initial, and uppercase in the RAW text
     for rx in MARKER_RES:
         m = rx.search(scan)
         if m and m.start() < MARKER_COL_CAP:
@@ -664,22 +687,81 @@ def is_frozen(path):
         head = "".join(lines).upper()
         if LIVE_DECL_RE.search(head):
             return False
-        u1 = lines[0].upper() if lines else ""
+        l1 = lines[0] if lines else ""
         # Rule 7: line-1 live declaration dominates later markers — unless line 1
         # itself carries a valid marker (same-line conflict → the marker wins).
-        if LINE1_LIVE_RE.search(u1.split("\t", 1)[0]) and not _line_has_marker(u1):
+        if LINE1_LIVE_RE.search(l1.upper().split("\t", 1)[0]) and not _line_has_marker(l1):
             return False
         for line in lines:
-            u = line.upper()
             # Rule 5: banner region ends at the first non-comment line containing
             # a tab (column-header row or first data row).
-            if "\t" in u and not u.lstrip().startswith("#"):
+            if "\t" in line and not line.lstrip().startswith("#"):
                 break
-            if _line_has_marker(u):
+            if _line_has_marker(line):     # rule 9: RAW line, markers case-sensitive
                 return True
         return False
     except OSError:
         return False
+
+
+# --selftest (2026-09-03, PROME ask (b)): the recognizer's shipped falsification set — one
+# fixture per hardening rule, positive AND negative controls (CHECK_STANDARD §14). Each is
+# (name, file text, expected is_frozen). Line 1 of the BROCK fixture is the exact shape that
+# tripped rule 2 on 9/3 (lowercase prose marker, non-key line, LIVE token only on line 2).
+_SELFTEST = [
+    ("BROCK 9/3 — lowercase 'frozen' in line-1 prose, LIVE on line 2",
+     "# WQ-158 RULED 2026-09-03 (PROME): spec frozen before the data at research/PREREG.md\n"
+     "# LIVE ledger. Last real data refresh: 2026-09-03.\nvehicle\tclass\nBCRED\tBDC\n", False),
+    ("fleet vocabulary — 'frozen letter', 'cards frozen 9/2' in prose", 
+     "# Register of frozen letters; cards frozen 9/2 before the print. Last real data refresh: 2026-09-02\na\tb\n1\t2\n", False),
+    ("SAM class — 'Position frozen: 13 shares' at col 2",
+     "# Position frozen: 13 shares — held through the roll\na\tb\n1\t2\n", False),
+    ("OZK 8/28 — key line carrying 'frozen'",
+     "# Last real data refresh: 2026-08-28 re-anchored to the frozen Option-2 window\na\tb\n1\t2\n", False),
+    ("HAWK 7/22 — line-1 '(not frozen)' LIVE declaration",
+     "# LIVE (not frozen) — continues under HAWK after the split\na\tb\n1\t2\n", False),
+    ("TERRY 8/7 — data row 'permanently frozen' below the boundary",
+     "a\tb\tstatus\n1\t2\tpermanently frozen\n", False),
+    ("rule 1 — 'Status: LIVE' overrides a later marker",
+     "# Status: LIVE\n# FROZEN rows kept for history\na\tb\n1\t2\n", False),
+    ("TERRY class — row-retention policy sentence",
+     "# RETIRED rows are kept, never deleted\na\tb\n1\t2\n", False),
+    ("VULCAN/WATT — glued citation 'a FROZEN/NOT-CURRENT banner'",
+     "# see §8: a FROZEN/NOT-CURRENT banner is required on retirement\na\tb\n1\t2\n", False),
+    ("genuine — '# FROZEN <date> — not maintained'",
+     "# FROZEN 2026-07-01 — not maintained; STATUS is canonical, do not cite rows as current\na\tb\n1\t2\n", True),
+    ("genuine — PHAN 8/11 line-initial qualified '# FROZEN-VINTAGE'",
+     "# FROZEN-VINTAGE 2026-07-10 — carried into DOSSIER.md\na\tb\n1\t2\n", True),
+    ("genuine — CARL '⛔ RETIRED' line 1",
+     "⛔ RETIRED 2026-07-04 — successor at workbook/KB.tsv\na\tb\n1\t2\n", True),
+    ("genuine — MARCO mid-line 'NOT CURRENT' at col ~31",
+     "# ⚠️ FEB-VINTAGE snapshot … NOT CURRENT — see STATUS\na\tb\n1\t2\n", True),
+    ("genuine — CARL/POP lowercase PHRASE banner 'do not cite rows as current' (fleet-diff catch)",
+     "# STALE-VINTAGE 2026-04-17 — tagged 2026-07-10; refresh at Jul-24 spawn; do not cite rows as current\na\tb\n1\t2\n", True),
+    ("genuine — root-canon banner text verbatim (lowercase phrases)",
+     "# FROZEN 2026-07-01 — not maintained; STATUS is canonical, do not cite rows as current\na\tb\n1\t2\n", True),
+    ("genuine — '# SUPERSEDED — live at <path>' beats a same-line live token",
+     "# SUPERSEDED — live at AGENTS/X/workbook/NEW.tsv\na\tb\n1\t2\n", True),
+]
+
+
+def selftest():
+    import tempfile
+    fails = 0
+    with tempfile.TemporaryDirectory() as td:
+        for i, (name, text, want) in enumerate(_SELFTEST):
+            fp = os.path.join(td, f"case{i}.tsv")
+            with open(fp, "w", encoding="utf-8") as f:
+                f.write(text)
+            got = is_frozen(fp)
+            ok = got == want
+            fails += not ok
+            print(f"  {'✓' if ok else '✗'} expect {'FROZEN' if want else 'live':6} got {'FROZEN' if got else 'live':6}  {name}")
+    if fails:
+        print(f"LEDGER-STALENESS SELFTEST ✗ {fails}/{len(_SELFTEST)} case(s) FAILED — do not trust is_frozen")
+        return 1
+    print(f"LEDGER-STALENESS SELFTEST ✓ {len(_SELFTEST)}/{len(_SELFTEST)} cases behaved [is_frozen]")
+    return 0
 
 
 def resolve_agent_dir(arg):
@@ -930,7 +1012,11 @@ def main():
     ap.add_argument("--writes-bar", type=int, default=12, help="writes-behind flag threshold for --writes (default 12)")
     ap.add_argument("--abs-floor", action="store_true", help="(c) also flag any live ledger whose absolute content vintage exceeds --abs-days regardless of the relative delta (PAT-092 counter)")
     ap.add_argument("--abs-days", type=int, default=90, help="absolute-age floor in days for --abs-floor (default 90)")
+    ap.add_argument("--selftest", action="store_true",
+                    help="run the is_frozen falsification set (16 fixtures, positive+negative controls); exit 1 on any miss")
     args = ap.parse_args()
+    if args.selftest:
+        return selftest()
 
     if args.nudge:
         if args.all or not args.agent:
