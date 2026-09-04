@@ -10,7 +10,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| PROME | Meta | L5 | M | 2026-09-01 | Coordinator / chief of staff | L5 CONFIRM at judgment-tail sweep #2 ~9/6 (full 21d window, ZERO new un… |
+| PROME | Meta | L5 | M | 2026-09-03 | Coordinator / chief of staff | L5 CONFIRM at judgment-tail sweep #2 (9/6): the sweep RULES whether 'ow… |
 | WALTER | Utility | L4 | H | 2026-09-01 | Signal & news routing | L5 on: (a) Will's word on the push binding · (c) re-key the 12(f) handl… |
 | NEXUS | Utility | L5 | M | 2026-09-03 | Cross-agent synthesis | Conf M→H when, in one session: CONFIRMED.md C-36 row |
 | RED | Utility | L5 | M | 2026-09-03 | Adversarial red-team | Conf M→H on the first post-9/12 commit where `grep -c CARRIED workbook/… |
