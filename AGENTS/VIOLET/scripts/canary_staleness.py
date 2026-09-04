@@ -60,103 +60,88 @@ CANARIES = [
     ("COT VIX lev-money",   "COT_VIX.tsv",   "report_date", "CFTC TFF weekly", None),
 ]
 
-# ── SCHEDULED-PUBLICATION CANARIES (added 2026-09-04, KB-VIO-226) ───────────────
-# A fixed calendar-age threshold is WRONG for any series with a publication lag.
-# CFTC TFF report dates are nominally Tuesdays, released the following Friday at
-# 15:30 ET, so a PERFECTLY CURRENT ledger reads 10d old every Friday morning and a
-# >9d rule fires a guaranteed false DARK once a week, forever.
+# ── SCHEDULED-PUBLICATION CANARIES (KB-VIO-226 · v3, 2026-09-04) ────────────────
+# A fixed calendar-age threshold is wrong for a series with a publication lag: CFTC
+# TFF reports are dated Tuesday and released ~Friday 15:30 ET, so a PERFECTLY
+# CURRENT ledger reads 10d old every Friday morning and a >9d rule false-DARKs
+# weekly. That was v1's bug and it was real.
 #
-# ⚠️ CORRECTION 2026-09-04 (PM), AFTER AN EXTERNAL REVIEW (Codex, routed by Will).
-# The first version of this fix asserted a fixed Tue→Fri+3d lag and called itself
-# "zero free parameters, self-calibrating." **THAT CLAIM WAS WRONG**, and it was
-# wrong in the same direction as the bug it replaced — a false DARK on a schedule
-# I had not modelled. Per CFTC's published release schedule, FEDERAL HOLIDAYS move
-# BOTH ENDS of the window:
+# ⚠️⚠️ I THEN GOT THE REPLACEMENT WRONG TWICE, THE SAME WAY BOTH TIMES.
+#   v2 asserted a fixed Tue-report / Fri+3d-release lag, "zero free parameters".
+#       FALSE: federal holidays can delay a release.
+#   v3 asserted that a MONDAY federal holiday slips the REPORT DATE Tue -> Wed.
+#       ALSO FALSE, and falsified by DATA I ALREADY HAD: `COT_VIX.tsv` contains
+#       2026-05-26 (Tuesday) directly after Memorial Day Mon 2026-05-25. CFTC's
+#       own history shows Tue 2024-09-03 and Tue 2023-09-05, both immediately
+#       after Labor Day. The report date does NOT move to Wednesday — ever. The
+#       only non-Tuesday report dates in this desk's whole ledger are two MONDAYS
+#       (2023-07-03, 2025-11-10), i.e. the opposite direction.
 #
-#   · Monday holiday  → the REPORT DATE moves Tue → Wed (collection slips a day)
-#   · Friday holiday  → the RELEASE moves to the following Monday
+# 🔑 BOTH WRONG VERSIONS PASSED THEIR OWN SELFTESTS, because I wrote the tests
+# from the same synthesized model as the code. A selftest cannot falsify the
+# premise it was derived from. The second time, the falsifying evidence was
+# sitting in the ledger this very module reads.
 #
-# So Juneteenth (Fri 2026-06-19) and Christmas (Fri 2026-12-25) would each have
-# produced a multi-day false DARK under v1 of this "fix". The arithmetic is not
-# self-calibrating; it depends on a FEDERAL HOLIDAY TABLE, which is a maintained
-# input with an expiry — and this module now says so out loud rather than
-# claiming a self-sufficiency it does not have.
+# ⇒ v3 STOPS SYNTHESIZING THE CALENDAR ALTOGETHER. There is no holiday table and
+# no release-date arithmetic here any more, because every version of that I have
+# written has been wrong and each was wrong in the direction of a false alarm.
+# The rule is now derived ONLY from the ledger's own observed dates:
 #
-# 🔑 AND BECAUSE MY MODEL OF THIS SCHEDULE HAS NOW BEEN WRONG ONCE, THE GUARD NO
-# LONGER TRUSTS IT ALONE. When the ledger is exactly ONE report behind and any
-# federal holiday sits in the window, the state is 🟡 PENDING, not 🔴 DARK — an
-# unpublished report is an UNKNOWN, not a failure. Two or more reports behind is
-# DARK regardless, because no single holiday delays two releases.
+#     weekly cadence + a GRACE window wide enough to absorb any documented
+#     holiday slippage, and DARK asserted only when the ledger is far enough
+#     behind that no single delayed release can explain it.
 #
-# ⚠️ FEDERAL holidays are NOT the NYSE holidays in catalyst_countdown.py, and the
-# two tables must not be merged: Good Friday closes the NYSE and is not federal;
-# Columbus Day and Veterans Day are federal and the NYSE trades through them.
-FEDERAL_HOLIDAYS = {
-    # 2026
-    "2026-01-01", "2026-01-19", "2026-02-16", "2026-05-25",
-    "2026-06-19",  # Juneteenth (Fri) — would have false-DARKed v1
-    "2026-07-03",  # Independence Day observed (Jul 4 is a Saturday)
-    "2026-09-07",  # Labor Day (Mon) — moves the report date Tue->Wed
-    "2026-10-12", "2026-11-11", "2026-11-26",
-    "2026-12-25",  # Christmas (Fri) — would have false-DARKed v1
-    # 2027
-    "2027-01-01", "2027-01-18", "2027-02-15", "2027-05-31",
-    "2027-06-18",  # Juneteenth observed (Jun 19 is a Saturday)
-    "2027-07-05",  # Independence Day observed (Jul 4 is a Sunday)
-    "2027-09-06", "2027-10-11", "2027-11-11", "2027-11-25",
-    "2027-12-24",  # Christmas observed (Dec 25 is a Saturday)
-}
-HOLIDAY_COVERAGE = (date(2026, 1, 1), date(2027, 12, 31))
-
+# This trades a few days of detection latency on a WEEKLY instrument for the
+# elimination of a whole class of false alarm — the right trade, since the
+# failure this guard exists to catch (a ledger quietly stopping) persists and
+# gets LOUDER with time, while a false DARK is read once and dismissed.
+# ⚠️ It is deliberately NOT precise about WHEN a report is due. It cannot be:
+# that requires CFTC's published release calendar, which is the honest remedy if
+# precision is ever needed, and which this desk does not currently ingest.
 SCHEDULED = {
     "COT_VIX.tsv": {
-        "nominal_report_weekday": 1,   # Tuesday (Mon=0)
-        "nominal_release_weekday": 4,  # Friday
-        "release_hour_et": 15,
-        "release_minute_et": 30,
-        "label": "CFTC TFF: Tue report date, released Fri 15:30 ET "
-                 "(both shift on federal holidays — see FEDERAL_HOLIDAYS)",
+        "cadence_days": 7,       # observed in the ledger, not assumed
+        "nominal_lag_days": 3,   # report Tue -> release ~Fri; ANNOTATION ONLY
+        "grace_days": 4,         # absorbs a holiday-delayed release (documented max ~2)
+        "label": "CFTC TFF weekly, Tue report date, released ~Fri 15:30 ET "
+                 "(releases can slip on federal holidays — grace applied, "
+                 "no holiday table is used)",
     },
 }
 
 
-def _is_fed_holiday(d: date) -> bool:
-    return d.isoformat() in FEDERAL_HOLIDAYS
+def reports_behind(spec: dict, last: date, today: date) -> int:
+    """Count the scheduled reports after `last` that are provably overdue.
 
+    SEMANTIC, stated first so neither the code nor the tests can quietly drift
+    to match the other (which is how the last two versions of this guard went
+    wrong): report k after `last` is dated ``last + cadence*k``, released about
+    ``+nominal_lag`` after that, and is OVERDUE once ``+grace`` beyond THAT has
+    also passed. `behind` is how many such reports are overdue right now.
 
-def report_and_release(spec: dict, week_monday: date) -> tuple[date, datetime]:
-    """(report_date, release_instant) for the week beginning `week_monday`.
+      0  nothing is provably owed — covers the normal Friday-morning 10d read
+         AND any holiday-delayed release inside the grace window
+      1  one cycle overdue: a delayed release and a missed pull are
+         INDISTINGUISHABLE here, so this is PENDING, never DARK
+      2+ no single delayed release explains it — DARK
 
-    Monday holiday  -> report date slips Tue -> Wed.
-    Release lands on that week's Friday, pushed forward past any holiday/weekend.
+    Counted explicitly rather than by closed form: this is not hot code, and the
+    off-by-one at the grace boundary is exactly the kind of error that has
+    already cost this guard two rewrites.
     """
-    report = week_monday + timedelta(days=spec["nominal_report_weekday"])
-    if _is_fed_holiday(week_monday):
-        report += timedelta(days=1)                      # Tue -> Wed
-    rel_day = week_monday + timedelta(days=spec["nominal_release_weekday"])
-    while _is_fed_holiday(rel_day) or rel_day.weekday() >= 5:
-        rel_day += timedelta(days=1)                     # Fri holiday -> next Mon
-    return report, datetime.combine(
-        rel_day, time(spec["release_hour_et"], spec["release_minute_et"]), tzinfo=ET)
-
-
-def expected_report_date(spec: dict, now_et: datetime) -> date:
-    """Latest report date whose release has ALREADY happened, as of now_et."""
-    wk = now_et.date() - timedelta(days=now_et.date().weekday())   # this Monday
-    for _ in range(60):
-        report, release = report_and_release(spec, wk)
-        if release <= now_et:
-            return report
-        wk -= timedelta(days=7)
-    return report
-
-
-def holiday_in_window(lo: date, hi: date) -> list[str]:
-    return sorted(h for h in FEDERAL_HOLIDAYS if lo.isoformat() <= h <= hi.isoformat())
-
-
-def coverage_ok(d: date) -> bool:
-    return HOLIDAY_COVERAGE[0] <= d <= HOLIDAY_COVERAGE[1]
+    n = 0
+    k = 1
+    while True:
+        overdue_after = last + timedelta(
+            days=spec["cadence_days"] * k + spec["nominal_lag_days"] + spec["grace_days"])
+        if overdue_after < today:
+            n += 1
+            k += 1
+            if k > 500:          # bounded; a decade of silence is already DARK
+                break
+        else:
+            break
+    return n
 
 
 # Rows with a registered threshold but NO backing ledger — they cannot be checked
@@ -269,43 +254,33 @@ def main(argv=None) -> int:
         age = (today - d).days
         spec = SCHEDULED.get(ledger)
         if spec is not None:
-            exp = expected_report_date(spec, now_et)
-            if not coverage_ok(exp) or not coverage_ok(today):
-                rows.append((name, ledger, str(d), f"{age}d", "🟡 UNKNOWN"))
-                dark.append(
-                    f"{name}: federal-holiday table covers {HOLIDAY_COVERAGE[0]}..{HOLIDAY_COVERAGE[1]}; "
-                    f"{exp}/{today} is outside it, so the release schedule cannot be computed. "
-                    f"FAILING CLOSED — extend FEDERAL_HOLIDAYS in canary_staleness.py.")
-            elif d >= exp:
+            behind = reports_behind(spec, d, today)
+            if behind == 0:
                 rows.append((name, ledger, str(d), f"{age}d", "🟢 fresh"))
                 if not a.quiet:
                     sched_notes.append(
-                        f"  ℹ️  {name}: {age}d old and CORRECT — {exp} is the newest report "
-                        f"released as of now ({spec['label']}). A fixed >9d age rule called "
-                        f"this DARK every Friday morning; KB-VIO-226.")
+                        f"  ℹ️  {name}: {age}d old and within contract — {spec['label']}. "
+                        f"Nothing is provably owed until "
+                        f"{d + timedelta(days=spec['cadence_days'] + spec['nominal_lag_days'] + spec['grace_days'])} "
+                        f"(cadence {spec['cadence_days']}d + lag {spec['nominal_lag_days']}d + "
+                        f"grace {spec['grace_days']}d). A fixed >9d age rule called this DARK "
+                        f"every Friday morning; KB-VIO-226.")
+            elif behind == 1:
+                # One cycle late is EXACTLY what a holiday-delayed release looks
+                # like, and this module no longer claims to know which weeks have
+                # holidays. Report it; do not assert failure.
+                rows.append((name, ledger, str(d), f"{age}d", "🟡 PENDING"))
+                sched_notes.append(
+                    f"  🟡 {name}: newest report {d} is {age}d old — ONE cycle past its grace "
+                    f"window. This is what a holiday-delayed release looks like AND what a "
+                    f"missed pull looks like; they are indistinguishable from here. "
+                    f"⚠️ Run `cftc_cot.py --boot`. If it is still behind next week, it is real.")
             else:
-                behind = len([w for w in range(1, 60)
-                              if (exp - timedelta(days=7 * w)) >= d]) or 1
-                hols = holiday_in_window(d, today)
-                if behind <= 1 and hols:
-                    # ⚠️ FAIL SAFE. My model of this schedule has already been wrong
-                    # once (v1 ignored holidays entirely). One report behind WITH a
-                    # holiday in the window is an UNKNOWN, not a failure — an
-                    # unpublished report and a missed pull look identical from here.
-                    rows.append((name, ledger, str(d), f"{age}d", "🟡 PENDING"))
-                    sched_notes.append(
-                        f"  🟡 {name}: newest ledger report {d}, expected {exp} — ONE behind, "
-                        f"and federal holiday(s) {', '.join(hols)} fall in the window. "
-                        f"CFTC shifts BOTH the report date (Mon holiday: Tue->Wed) and the "
-                        f"release (Fri holiday: -> Mon). Treating as PENDING, not DARK. "
-                        f"⚠️ If it is still behind after the next clean week, it is real.")
-                else:
-                    rows.append((name, ledger, str(d), f"{age}d", "🔴 DARK"))
-                    dark.append(
-                        f"{name}: {ledger} newest report {d}, expected {exp} — "
-                        f"{behind} publication(s) behind ({spec['label']})"
-                        + (f"; holidays {', '.join(hols)} in window cannot explain "
-                           f"{behind} missed releases" if hols else ""))
+                rows.append((name, ledger, str(d), f"{age}d", "🔴 DARK"))
+                dark.append(
+                    f"{name}: {ledger} newest report {d} = {age}d old, {behind} publication "
+                    f"cycles behind ({spec['label']}). No single delayed release explains "
+                    f"{behind} cycles.")
             continue
         state = "🔴 DARK" if age > limit else ("🟡 aging" if age > limit // 2 else "🟢 fresh")
         if age > limit:
@@ -355,11 +330,14 @@ def main(argv=None) -> int:
 
 
 def selftest() -> int:
-    """Falsify the schedule rule in BOTH directions before trusting it.
+    """Falsify the cadence rule in BOTH directions.
 
-    A guard that only passes on the case it was built for is untested — this
-    module's own history (the age half MISSED the breach it was built to prevent,
-    2026-07-30) is why this exists as code rather than as a paragraph.
+    ⚠️ AND A STANDING WARNING ABOUT THIS FUNCTION, EARNED THE HARD WAY: the two
+    previous versions of this guard ALSO passed their own selftests, because the
+    tests were written from the same synthesized calendar model as the code. A
+    selftest cannot falsify the premise it was derived from. These checks are
+    therefore keyed ONLY to observed cadence and to the ledger's real dates —
+    there is no calendar model left here to be wrong about.
     """
     spec = SCHEDULED["COT_VIX.tsv"]
     fails = []
@@ -370,83 +348,55 @@ def selftest() -> int:
         else:
             print(f"  ok {label}")
 
-    # ── expected_report_date across the release boundary ────────────────────
-    for label, now, want in [
-        ("Fri pre-release 13:44 -> prior Tue", datetime(2026, 9, 4, 13, 44, tzinfo=ET), date(2026, 8, 25)),
-        ("Fri 15:29, one minute before",       datetime(2026, 9, 4, 15, 29, tzinfo=ET), date(2026, 8, 25)),
-        ("Fri 15:30, the release instant",     datetime(2026, 9, 4, 15, 30, tzinfo=ET), date(2026, 9, 1)),
-        ("Sat after release",                  datetime(2026, 9, 5, 10, 0, tzinfo=ET),  date(2026, 9, 1)),
-        ("Mon holiday (Labor Day)",            datetime(2026, 9, 7, 10, 0, tzinfo=ET),  date(2026, 9, 1)),
-        ("Thu, 9d old and CORRECT",            datetime(2026, 9, 10, 10, 0, tzinfo=ET), date(2026, 9, 1)),
-        # ⚠️ CHANGED 2026-09-04 PM, and NOT to make a red test pass. v1 of this
-        # file asserted 2026-09-08 here. That expectation was WRONG: Labor Day is
-        # Mon 2026-09-07, so CFTC collection slips and the report date is Wed
-        # 09-09. The corrected code produced 09-09, the stale assertion failed,
-        # and the assertion is what was wrong. Tightening, not loosening — the
-        # old value encoded the very bug this pass fixes.
-        ("next Fri post-release rolls on (Labor Day week -> WED 09-09)",
-         datetime(2026, 9, 11, 16, 0, tzinfo=ET), date(2026, 9, 9)),
-    ]:
-        ck(label, expected_report_date(spec, now), want)
+    due = spec["cadence_days"] + spec["nominal_lag_days"] + spec["grace_days"]  # 14
+    ck("grace window is cadence+lag+grace", due, 14)
 
-    # ⚠️ REPLACED 2026-09-04 PM. The old assertion was "every expected date is a
-    # Tuesday" — which is exactly the false invariant this pass removed, so it
-    # necessarily failed once the code became correct. The real invariant is
-    # weaker and is the honest one: a report date is a Tuesday UNLESS that week's
-    # Monday is a federal holiday, in which case it is the Wednesday.
-    def _weekday_ok(d0: date) -> bool:
-        exp = expected_report_date(spec, datetime(d0.year, d0.month, d0.day, 12, 0, tzinfo=ET))
-        wk_mon = exp - timedelta(days=exp.weekday())
-        return exp.weekday() == (2 if _is_fed_holiday(wk_mon) else 1)
+    # ── the weekly false-DARK this guard exists to kill ──────────────────────
+    ck("Fri morning, 10d old, report is current -> not behind",
+       reports_behind(spec, date(2026, 8, 25), date(2026, 9, 4)), 0)
+    ck("Thu, 9d old -> not behind",
+       reports_behind(spec, date(2026, 9, 1), date(2026, 9, 10)), 0)
+    ck("13d old, still inside grace -> not behind",
+       reports_behind(spec, date(2026, 8, 25), date(2026, 9, 7)), 0)
 
-    ck("report date is Tue, or Wed after a Monday federal holiday",
-       all(_weekday_ok(date(2026, 9, d)) for d in range(1, 29)), True)
-    ck("and that exception actually bites in Sep 2026 (Labor Day)",
-       any(expected_report_date(spec, datetime(2026, 9, d, 12, 0, tzinfo=ET)).weekday() == 2
-           for d in range(1, 29)), True)
+    # ── the REAL-WORLD dates that falsified v2 and v3, as regressions ────────
+    # Memorial Day Mon 2026-05-25 -> the ledger's own next report is TUE 05-26.
+    # A guard that expected a Wednesday would have mis-stated the schedule; this
+    # one makes no weekday claim at all, so it is simply unaffected.
+    ck("post-Memorial-Day Tue report, 10d later -> not behind",
+       reports_behind(spec, date(2026, 5, 26), date(2026, 6, 5)), 0)
+    ck("post-Labor-Day Tue report (CFTC 2024-09-03 shape) -> not behind",
+       reports_behind(spec, date(2024, 9, 3), date(2024, 9, 13)), 0)
+    ck("a Monday report date (2025-11-10, real) is handled, not special-cased",
+       reports_behind(spec, date(2025, 11, 10), date(2025, 11, 20)), 0)
 
-    # ── HOLIDAY CASES — the ones v1 of this fix got WRONG (external review) ──
-    # Each of these would have produced a multi-day FALSE DARK under the fixed
-    # Tue->Fri+3d assumption. They are the regression tests for that mistake.
-    ck("Juneteenth Fri 2026-06-19: release slips to Mon 06-22",
-       report_and_release(spec, date(2026, 6, 15))[1].date(), date(2026, 6, 22))
-    ck("  ...so on Fri 06-19 16:00 the 06-16 report is NOT yet expected",
-       expected_report_date(spec, datetime(2026, 6, 19, 16, 0, tzinfo=ET)), date(2026, 6, 9))
-    ck("  ...and after Mon 06-22 15:30 it IS",
-       expected_report_date(spec, datetime(2026, 6, 22, 16, 0, tzinfo=ET)), date(2026, 6, 16))
-    ck("Christmas Fri 2026-12-25: release slips to Mon 12-28",
-       report_and_release(spec, date(2026, 12, 21))[1].date(), date(2026, 12, 28))
-    ck("Labor Day Mon 2026-09-07: REPORT DATE slips Tue->Wed 09-09",
-       report_and_release(spec, date(2026, 9, 7))[0], date(2026, 9, 9))
-    ck("  ...its release is still Fri 09-11",
-       report_and_release(spec, date(2026, 9, 7))[1].date(), date(2026, 9, 11))
-    ck("normal week: report Tue, release Fri",
-       report_and_release(spec, date(2026, 8, 24)), (date(2026, 8, 25),
-       datetime(2026, 8, 28, 15, 30, tzinfo=ET)))
-    ck("holiday_in_window sees Labor Day", holiday_in_window(date(2026, 9, 1), date(2026, 9, 10)),
-       ["2026-09-07"])
-    ck("coverage_ok rejects 2028", coverage_ok(date(2028, 1, 3)), False)
-
-    # ── the DARK path must still fire on a genuinely behind ledger ───────────
-    # THE POINT OF THIS BLOCK: the fix removes a false alarm, and the risk of any
-    # such fix is that it removes the TRUE alarm with it. Fail closed, loudly.
-    now = datetime(2026, 9, 4, 16, 0, tzinfo=ET)   # post-release; expected = 9/1
-    exp = expected_report_date(spec, now)
-    ck("post-release expected is 2026-09-01", exp, date(2026, 9, 1))
-    ck("ledger AT expected -> not dark",      date(2026, 9, 1) < exp, False)
-    ck("ledger ONE report behind -> DARK",    date(2026, 8, 25) < exp, True)
-    ck("ledger THREE reports behind -> DARK", date(2026, 8, 11) < exp, True)
-    ck("3-behind counts 3 publications",      (exp - date(2026, 8, 11)).days // 7, 3)
-    # and the pre-release instant must NOT call the same ledger dark
-    exp_pre = expected_report_date(spec, datetime(2026, 9, 4, 13, 44, tzinfo=ET))
-    ck("SAME ledger pre-release -> not dark", date(2026, 8, 25) < exp_pre, False)
+    # ── and it must still FIRE on a genuinely stalled ledger ─────────────────
+    ck("15d old -> ONE cycle late (PENDING band)",
+       reports_behind(spec, date(2026, 8, 25), date(2026, 9, 9)), 1)
+    # 8/25 + 21d = 9/15. The 9/8 report's release+grace lands ON 9/15, so at that
+    # instant it is not YET overdue — 1, not 2. Derived from the semantic above,
+    # not read off the implementation.
+    ck("21d old -> ONE cycle overdue (grace boundary)",
+       reports_behind(spec, date(2026, 8, 25), date(2026, 9, 15)), 1)
+    ck("22d old -> TWO cycles behind = DARK",
+       reports_behind(spec, date(2026, 8, 25), date(2026, 9, 16)), 2)
+    # 8/25 + 35d = 9/29. Overdue reports are 9/1, 9/8, 9/15 (the 9/22 report's
+    # grace lands ON 9/29) => THREE. I first wrote 4 here by counting cycles
+    # instead of applying the semantic; the semantic is what governs.
+    ck("35d old -> THREE cycles behind = DARK",
+       reports_behind(spec, date(2026, 8, 25), date(2026, 9, 29)), 3)
+    ck("14d = exactly the grace boundary -> still 0",
+       reports_behind(spec, date(2026, 8, 25), date(2026, 9, 8)), 0)
+    ck("DARK band is monotonic in age",
+       [reports_behind(spec, date(2026, 8, 25), date(2026, 8, 25) + timedelta(days=n))
+        for n in (10, 14, 15, 22, 29)], [0, 0, 1, 2, 3])
 
     print()
     if fails:
         print("\n".join(fails))
         print(f"FAILED {len(fails)} check(s)")
         return 1
-    print("all schedule-rule selftests pass")
+    print("all cadence-rule selftests pass")
     return 0
 
 

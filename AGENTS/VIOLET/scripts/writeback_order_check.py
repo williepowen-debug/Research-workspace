@@ -111,8 +111,16 @@ def brief_provenance() -> list[str]:
     rel = _rel("NEXUS_BRIEF.md")
     if not (AGENT_DIR / "NEXUS_BRIEF.md").exists():
         return out
-    if _git("status", "--porcelain", "--", rel):
-        return out                       # being written now; nothing committed to judge
+    # ⚠️ THIRD FAIL-OPEN HOLE, CLOSED 2026-09-04 (external review, second pass).
+    # v1 returned early whenever the brief was dirty. This guard is wired into
+    # `closeout_guard.py`, and AT CLOSEOUT THE BRIEF IS ALWAYS DIRTY — you have
+    # just written it. So the check ran green at boot and was INERT at exactly
+    # the moment it was supposed to block. Correct and wired are independent
+    # properties [[finding_guard_correctness_and_wiring_are_independent]], and I
+    # had tested only the first.
+    # Dirty now means: check everything that does not require the commit to
+    # exist, and say plainly which single assertion is deferred.
+    dirty = bool(_git("status", "--porcelain", "--", rel))
     text = (AGENT_DIR / "NEXUS_BRIEF.md").read_text(encoding="utf-8")
 
     # ① cited STATUS hash must be the current STATUS head, or the brief's own commit
@@ -127,14 +135,26 @@ def brief_provenance() -> list[str]:
         out.append("  🔴 NEXUS_BRIEF has no `STATUS commit:` hash — NEXUS cannot tell which "
                    "STATUS this brief stands on.")
     elif m.group(1) == "same-commit":
-        if latest and brief_commit and latest != brief_commit:
+        if dirty:
+            pass   # cannot be verified before the commit exists; verified next run
+        elif latest and brief_commit and latest != brief_commit:
             out.append(f"  🔴 NEXUS_BRIEF claims `same-commit` but STATUS's latest commit is "
                        f"`{latest}` while the brief was committed in `{brief_commit}`.\n"
                        f"     They did NOT land together — the marker is false.")
     else:
         cited = m.group(1)
-        if latest and not (latest.startswith(cited) or cited.startswith(latest)
-                           or brief_commit.startswith(cited) or cited.startswith(brief_commit)):
+        # ⚠️ HOLE CLOSED 2026-09-04 (external review, second pass): v1 accepted any
+        # sha matching the BRIEF's own commit, even a commit that never touched
+        # STATUS.md — so a brief could cite a commit unrelated to STATUS and pass.
+        # The citation must name a commit that ACTUALLY TOUCHED STATUS.
+        touching = _git("log", "-30", "--format=%h", "--", _rel("STATUS.md")).split()
+        is_status_commit = any(h.startswith(cited) or cited.startswith(h) for h in touching)
+        is_latest = bool(latest) and (latest.startswith(cited) or cited.startswith(latest))
+        if not is_status_commit:
+            out.append(f"  🔴 NEXUS_BRIEF cites `{cited}`, which is NOT among the last 30 commits "
+                       f"that touched STATUS.md.\n"
+                       f"     A hash that names no STATUS revision points NEXUS at nothing.")
+        elif not is_latest and not dirty:
             out.append(f"  🔴 NEXUS_BRIEF cites STATUS commit `{cited}`, but the latest STATUS "
                        f"commit is `{latest}` (brief committed in `{brief_commit}`).\n"
                        f"     A stale hash sends NEXUS to the wrong STATUS while every vintage "
@@ -143,7 +163,15 @@ def brief_provenance() -> list[str]:
     # ② the As-of stamp cannot be later than the commit that published it
     ms = re.search(r"\*\*As of:\*\*\s*(\d{4}-\d{2}-\d{2})\s*\*{0,2}~?(\d{1,2}):(\d{2}|\dx|xx)", text)
     ct = _git("log", "-1", "--format=%ct", "--", rel)
-    if ms and ct:
+    # ⚠️ HOLE CLOSED 2026-09-04 (external review, second pass): v1 SILENTLY SKIPPED
+    # validation when the stamp was missing or malformed — fail-OPEN, so deleting
+    # the stamp was the cheapest way to pass this check. A stamp that cannot be
+    # parsed is not a stamp. [[finding_silent_blank_evades_review]]
+    if not ms:
+        out.append("  🔴 NEXUS_BRIEF has no parseable `**As of:** YYYY-MM-DD HH:MM` stamp — "
+                   "the freshness claim NEXUS reads cannot be checked at all.\n"
+                   "     Absent is not the same as fine; this check fails closed.")
+    if ms:
         # "~14:3x" means 14:30-14:39, so the FLOOR is 30, not 0. The first version
         # fell back to 0 on any non-digit, which made this check untrippable on
         # exactly the fuzzy stamps VIOLET actually writes — a guard that cannot
@@ -162,11 +190,15 @@ def brief_provenance() -> list[str]:
         except ValueError:
             stamped = None
         if stamped is not None:
-            committed = datetime.fromtimestamp(int(ct))
-            drift = (stamped - committed).total_seconds() / 60.0
+            # Reference is the COMMIT when one exists, otherwise NOW — a stamp in
+            # the future is wrong either way, and the dirty case is the one that
+            # actually matters at closeout.
+            ref = datetime.fromtimestamp(int(ct)) if (ct and not dirty) else datetime.now()
+            what = "committed at" if (ct and not dirty) else "checked at"
+            drift = (stamped - ref).total_seconds() / 60.0
             if drift > 5:
-                out.append(f"  🔴 NEXUS_BRIEF is stamped {stamped:%H:%M} but was committed at "
-                           f"{committed:%H:%M} — a stamp {drift:.0f} min in its own FUTURE.\n"
+                out.append(f"  🔴 NEXUS_BRIEF is stamped {stamped:%H:%M} but was {what} "
+                           f"{ref:%H:%M} — a stamp {drift:.0f} min in its own FUTURE.\n"
                            f"     Write timestamps from the clock, not from the narrative "
                            f"[[finding_write_timestamps_from_the_clock_not_the_narrative]].")
     return out
