@@ -19,7 +19,7 @@ USAGE
   python3 scripts/orch_log.py rotate --through YYYY-MM  # L262 (c): move rows dated <= YYYY-MM (not IN-FLIGHT) to PROME/archive/ORCH_LOG_<run-month>.tsv
       # under the writer lock; REFUSES (rc 2, nothing written) on: any IN-FLIGHT candidate · a hot or archive file that
       # fails `check` before or after · broken row conservation · a --through month not strictly before the run month.
-  python3 scripts/orch_log.py --selftest                # 10 core drills + 9 L262 drills (view · append→view · rotate both paths)
+  python3 scripts/orch_log.py --selftest                # 11 core drills (incl. IN-FLIGHT-by-form) + 10 L262 drills (view · append→view · rotate both paths)
 CONTRACT (CHECK_STANDARD §9): rc 0 · 2 CANNOT-CERTIFY / refused. Never pads, never truncates, never repairs.
 
 L262 (PROME-ruled 2026-09-04, DAEDALUS rule-15 input; Will "L262 go ahead" 9/4 ~10:0x). (a) The VIEW is a typed-only
@@ -153,8 +153,21 @@ def append(args, path=LEDGER, view_path=VIEW, window_days=DEFAULT_WINDOW_DAYS):
     return 0 if vrc == 0 else 2
 
 
+# IN-FLIGHT is a STATE TOKEN and is matched by FORM — the LEADING token of the `delivered` cell — never by keyword
+# presence anywhere in the cell. First cut (9/4 morning) was a substring test; PROME found it the same day: the 8/28 MIDAS
+# row, DELIVERED, carried "Gold in-flight 13:37" 842 chars into its prose and rendered as in flight (PAT-059's class,
+# `finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it` inverted: prose ENABLED the state). Every genuine
+# IN-FLIGHT cell in the ledger's history leads with the token (12/12 at 9/4), so the form match loses nothing.
+RE_INFLIGHT = re.compile(r"^\s*IN-FLIGHT\b", re.I)
+
+
+def is_inflight(cell):
+    """True only when the `delivered` cell's LEADING token is IN-FLIGHT (state by form, PAT-059)."""
+    return bool(RE_INFLIGHT.match(cell or ""))
+
+
 def _is_inflight(fields):
-    return "IN-FLIGHT" in (fields[6] or "").upper()
+    return is_inflight(fields[6])
 
 
 def _split_ledger(path):
@@ -343,6 +356,9 @@ def selftest():
         open(p, "w").write(hdr + good.replace("\t1\tt\t", "\t1-RESULT\tt\t") + "\n")
         rc, _ = check(p, quiet=True); drill("retired '1-RESULT' token ⇒ rc 2 (unknown class, never silently counted)", rc == 2)
         drill("TOUCH token forms: 1 · 2b · 2-CLOSEOUT-PING all TOUCH", all(RE_TOUCH.match(t) for t in ("1", "2b", "2-CLOSEOUT-PING")) and not RE_TOUCH.match("CLOSE"))
+        drill("IN-FLIGHT by FORM: leading token (with/without suffix) ⇒ in flight; a prose mention mid-cell in a DELIVERED row ⇒ NOT (PROME 9/4, MIDAS 8/28)",
+              is_inflight("IN-FLIGHT (re-pinged 15:0x)") and is_inflight("IN-FLIGHT") and is_inflight("  in-flight 08:3x")
+              and not is_inflight("✅ DELIVERED touch-1 ~11:0x … Gold in-flight 13:37 …") and not is_inflight("") and not is_inflight("OK — was IN-FLIGHT earlier"))
         # ---------- L262 drills (2026-09-04) — CHECK_STANDARD §3: alert path AND clean path, each watched
         T = datetime.date(2026, 10, 2)
         hot = os.path.join(td, "H.tsv"); vp = os.path.join(td, "V.md"); ad = os.path.join(td, "archive")
@@ -382,7 +398,7 @@ def selftest():
         open(hot, "w").write(ht + r("2026-09-30", "SAM", "3", "2", "OK") + "\n")
         rc = rotate("2026-09", hot, ad, T, vp, 30); rc_a, ar2 = check(arc, quiet=True)
         drill("rotate into an EXISTING archive appends (header once), validates, conservation 5 → 6", rc == 0 and rc_a == 0 and len(ar2) == 6 and open(arc).read().count("\ndate\t") == 1)
-    print("ORCH-LOG SELFTEST " + ("✓ 20/20" if not fails else f"✗ {fails}/20 FAILED")); return 1 if fails else 0
+    print("ORCH-LOG SELFTEST " + ("✓ 21/21" if not fails else f"✗ {fails}/21 FAILED")); return 1 if fails else 0
 
 
 def main():

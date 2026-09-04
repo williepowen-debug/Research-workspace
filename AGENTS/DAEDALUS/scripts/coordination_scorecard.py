@@ -121,9 +121,9 @@ def main():
         rr = [r for r in rows if r["date"] == d]
         known = [as_int(r["drained"]) for r in rr if as_int(r["drained"]) is not None]
         unk = len(rr) - len(known)
-        inflight = sum(1 for r in rr if "IN-FLIGHT" in r["delivered"].upper())
+        inflight = sum(1 for r in rr if orch_log.is_inflight(r["delivered"]))
         deliv = sum(1 for r in rr if r["delivered"].strip()
-                    and "IN-FLIGHT" not in r["delivered"].upper())
+                    and not orch_log.is_inflight(r["delivered"]))
         print(f"| {d} | {len(rr)} | {len({r['desk'] for r in rr})} | {sum(known)} | {unk} | "
               f"{deliv} | {inflight} |")
 
@@ -139,7 +139,7 @@ def main():
         else:
             p["dr"] += v
         p["days"].add(r["date"])
-        if "IN-FLIGHT" in r["delivered"].upper():
+        if orch_log.is_inflight(r["delivered"]):
             p["inflight"] += 1
     print("| Desk | Touches | Days touched | Items drained (known) | `drained` UNKNOWN | IN-FLIGHT rows |")
     print("|---|---|---|---|---|---|")

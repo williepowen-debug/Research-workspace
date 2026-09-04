@@ -1,3 +1,3 @@
 # SCORECARD.tsv — one row per weekly render (re-rendering a week REPLACES its row). DESCRIPTIVE ONLY; no threshold before render #4.
 week_ending	window_start	loops	loops_nosrc	forecasts_resolved	catches_pre	corrections_post	rulings	commits	author_days	touches	zero_capital_aff	prome_only_commits	renderer
-2026-09-04	2026-08-29	16	1	8	22	0	49	721	8	48	47	189	scorecard.py v1.0 (2026-09-04)
+2026-09-04	2026-08-29	26	1	9	28	0	55	804	9	49	48	202	scorecard.py v1.1 (2026-09-04, L262 consumer half: hot + archives)
