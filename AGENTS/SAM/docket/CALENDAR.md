@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-09-03 (**SAM boot, PROME Tier-1 re-ping** — Thu 9/3 row RESOLVED and migrated: the 30Y auction graded 🟠 **SOFT** on the frozen internals bars (tail 2.1bp > 2.0bp; BTC 3.788 contributes nothing) and **CH-016 graded ⚪ NO-VERDICT, (iii) UNREACHABLE BY CONSTRUCTION** — the two-consecutive-NO-VERDICT retirement counter stands at **0 of 2** and starts at the 9/29 40Y. Also: **USD/JPY 156.14 live** (from 160.193 on 9/1) on hawkish Takata + Fed 50bp repricing — **SAM-39 ARMED, deliberately NOT graded** (registered instrument sees completed sessions only). MOF weekly 8/23-8/29 −¥824.0B, second selling week, inside the ¥1.5T bar. No thesis move; book FLAT.) | Prior 2026-09-02 (KOYOMI Run-19)
+**Last Updated:** 2026-09-04 (**SAM boot, Will-directed** — ✅ **SAM-39 RESOLVED CONFIRMED** on a 3.674y 9/3 intraday range, graded **TRUE-IN-LETTER / FALSE-IN-SPIRIT** (it fired without the discrete official action the row's own text names as the bet). ⛔ **NO MATERIAL MOF-LEG INTERVENTION on 9/2 or 9/3** — BOJ forward settlement projections **+¥320B [9/7]** and **−¥410B [9/4]** vs **−¥8,200B / −¥11,420B** for the 7/30-31 ops; sovereign-blind, so a US-Treasury-only op is NOT excluded. ⚪ **CH-016 terminal true-up done:** 9/3 slope 220.2bp = **−14.3bp vs ±15bp, a 0.7bp miss** — verdict unchanged (leg 2 deterministic), over-determination claim retired. 🔧 **NEW ROW: Mon 9/7 — the 9/4 MOF JGB close**, the open-discriminator test (the 9/3 close caught only the Tokyo half of the yen move, with the 2Y FLAT). Prior: 9/3 row resolved and migrated — 30Y auction 🟠 SOFT (tail 2.1bp > 2.0bp), CH-016 ⚪ NO-VERDICT (iii) UNREACHABLE BY CONSTRUCTION, retirement counter **0 of 2** starting at the 9/29 40Y.)
 
 ---
 
@@ -12,6 +12,7 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
+| 🔑 Mon Sep 7 | **9/4 MOF JGB close publishes (~9/5 JST)** | 2Y vs 9/3's 1.850 (flat); whole-curve direction | 🔑 **THE OPEN-DISCRIMINATOR TEST.** The 9/3 close is 15:00 JST and missed ~half the yen move. A front-end move here rescues the hawkish-BOJ-repricing attribution for 9/3; **another flat 2Y leaves BOTH named policy legs (BOJ hike, Fed cut) failing as drivers** — the Fed leg is dollar-supportive and pushes the other way | SAM |
 | 🟡 Tue Sep 8 | Japan Q2 GDP — 2nd prelim (8:50 JST) | Revision vs the Aug-17 1st prelim | Mechanism input to the next-hike path | SAM |
 | 🟡 Fri Sep 11 | US CPI (August data) | Headline/core | Route-4 inflation leg. ⚠️ **Date confirmed via 2 cross-checked SECONDARY sources only** — BLS primary 403'd 7/31 on both WebFetch and curl+UA. **Re-verify at BLS primary when reachable.** | SAM, HENRY |
 | 🟡 Tue Sep 15 | JGB 20Y auction | BTC, tail | Strike-broadening watch. Also the **BOJ pre-meeting blackout T-2** of the Sep 17-18 MPM. | SAM, LIQUID |

@@ -285,3 +285,33 @@ The trip margin is **0.1bp on a 2.0bp bar**. MOF publishes yields to **three dec
 ⛔ **What this does NOT say.** It is not a floor break and not a level call — the 30Y cleared at 4.100%/4.079% and **the level is not graded** (SAM-26). It is a statement about *internals at one auction*. **No thesis version moves (§E.3): v1.7 stands. Book FLAT.**
 
 *Graded by SAM 2026-09-03. Terms above the line remain frozen. Figures read at the MOF primary named above, not relayed.*
+
+---
+
+# 🔒 TERMINAL TRUE-UP — 2026-09-04 (Fri, ~09:1x ET), COMPLETENESS ONLY
+
+**Nothing above this line is altered.** No bar, branch, base, window or explanation changes. This discharges the one item the 9/3 grade left open: the **terminal 9/3 MOF close**, which published ~9/4 AM JST as forecast. ⛔ **The VERDICT was, and remains, ⚪ NO-VERDICT — explanation (iii) UNREACHABLE BY CONSTRUCTION; retirement counter 0-of-2, starting at the 9/29 40Y.** Leg 2 is deterministic and decides it alone; leg 1 could not have changed it.
+
+### Leg 1 — SLOPE, complete series
+
+| 8/14 | 8/17 | 8/18 | 8/19 | 8/20 | 8/21 | 8/24 | 8/25 | 8/26 | 8/27 | 8/28 | 8/31 | 9/1 | 9/2 | **9/3 (terminal)** |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 234.5 | 235.4 | 240.5 | 237.3 | 231.3 | 236.0 | 235.1 | 235.6 | 234.2 | 234.2 | 236.5 | 234.9 | 232.9 | 226.8 | **220.2** |
+
+**9/3 MOF close: 30Y 4.052 · 2Y 1.850 ⇒ 220.2bp. Deviation from base −14.3bp against a ±15bp bar. NOT TRIPPED — by 0.7bp.**
+
+### 🔴 THE OVER-DETERMINATION CLAIM IS NOW DEAD, AND THIS IS THE THIRD TIGHTENING OF IT
+
+| When | Claim made | One-day move a trip required | Deviation reached |
+|---|---|---|---|
+| 9/1 (§A, pre-registration) | *"the null cannot later be presented as a close call"* | **13.4bp** | −1.6bp |
+| 9/2 (§GRADE) | over-determination *"roughly halved"*; a trip needs more than the window max | **7.3bp** vs a 6.1bp window max | −7.7bp |
+| **9/3 (terminal)** | — | **actual move −6.6bp, which BEAT the 6.1bp window max** | **−14.3bp — 0.7bp from the bar** |
+
+⛔ **Leg 1 was never over-determined.** The 9/2 note said a trip was implausible *because* it would need a bigger one-day move than the window had ever produced — and the very next session produced a bigger one-day move than the window had ever produced, and still missed only because it started from a different place. **The inference was right; the reason given for trusting it was wrong, and it was wrong in the direction that flatters the author.**
+
+📌 **What survives, and it is the load-bearing half:** the verdict never rested on leg 1. **Because leg 2 was deterministic, a leg-1 trip would have changed nothing** — both directional branches need BOTH legs. **That is why the grade was publishable on 9/3 with the terminal observation pending, and it is the only reason the margin collapse costs nothing here.** ⚠️ **It would have cost everything in a letter whose legs were OR-shaped rather than AND-shaped.** *(Class: `[[finding_distance_to_a_threshold_is_a_claim_about_its_basis]]` — and, sharper, a "safety margin" quoted from a window's own realized maximum is a claim that the future resembles that window, which is exactly what a regime change denies.)*
+
+### §D stands and is reinforced again — but the COMPOSITION INVERTED
+
+The 9/2 session moved the slope −6.1bp with the **2Y rising 5.2bp** (front-led). **The 9/3 session moved it −6.6bp with the 2Y essentially FLAT (−0.4bp) and the 30Y falling 7.0bp** — a **long-end-led bull flattener**, the opposite composition, two sessions running, on the two largest slope moves of the whole window. ⚠️ **Registered as an observation, not a re-mark:** the 9/3 MOF close is 15:00 JST and roughly half of that session's USD/JPY move landed after it, so this close cannot carry an attribution for the day. **The 9/4 close is the first one that can.**
