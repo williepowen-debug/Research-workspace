@@ -63,3 +63,113 @@ Content is appended **verbatim** from `STATUS.md` and never deleted.
 
 **VERDICT:** the asymmetry is intact. **Blended HY is being pulled tight by the healthy top while the tail sits at its wides — so my own kill line can be reached by COMPOSITION rather than by healing. If it fires, read the tranches before reading the kill.**
 
+---
+
+## ROTATION BLOCK 5 — rotated 2026-09-04 ~09:3x ET · assert: rotation month 2026-09 == file month 2026-09 ✅
+*Source: `STATUS.md` §"9/2 — SESSION" (whole) + the §ACTIVE THRESHOLDS SKEW row as it stood before the 9/4 CBOE 9/3 publication. Verbatim.*
+
+## 9/2 — SESSION *(8/28 session block + the 8/27 credit self-audit rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` block 1)*
+
+**Live tape [`boot.py` 9/2 20:17 ET — post-close pull, these ARE 9/2 closes]:** SPX **7,666.60** (+0.46%) · VIX **15.20** (−6.98%) · VIX9D **12.57** · VIX3M **17.73** · **VVIX 86.25** (−5.48%) · SKEW **144.12** · ^TNX **4.80** · TLT **$81.95** · KRE **$74.24** · WAL **$79.12** · ARES **$138.06** · APO **$132.29** · USD/JPY **158.93** · SPY **$765.16** · QQQ **$709.24** · NVDA **$224.41** (+3.21%). **Brent BZX26 $95.23 [9/2 settle, BRENT's named contract]** — ⛔ never `BZ=F` for a delta (`SIG-W-20260828-012`).
+
+⚠️ **CORRECTION TO A FIGURE I WAS HANDED:** the spawn brief carried **VVIX 88.20** as the 9/2 close; **`boot.py` 20:17 and `fetch.py` 20:2x both return 86.25 (−5.48%)**. Carried 86.25; routed to PROME. `[[finding_verify_reader_before_source]]`
+
+🔴 **THE GAMMA BOARD, RE-MEASURED — AND THE SIGN INVERTED WHILE UNWATCHED.** Figures + fences in § VOL REGIME. **12 days between the 8/21 OPEX and tonight with no measurement, and inside that gap the board crossed from dealers-dampen to dealers-amplify. A SIGN changed and the surface still read the old sign.** `[[finding_dated_carry_item_has_no_expiry_check]]`
+
+**INBOX DRAINED WHOLE, BOTH LANES, 26 → 0** (6 root + 20 WALTER; WQ-84/PROME 9/1). **Every disposition → `board_log.tsv`; what it changed is visible in the rows below, not restated here.** ⚠️ **My own boot triage flagged 2 of the 6 root packets — the four it missed (BOND's C-36 resolution, PROME's WQ-106 ruling, DAEDALUS's archive defect, DEWEY's REQ-001) were every packet that changed a surface tonight.**
+
+**SKEW row, verbatim as of 2026-09-02:**
+
+| **SKEW** | **144.12 [CBOE `SKEW_History.csv` 9/2, own pull at the publisher]** | >145 | >150 | >160 | 🟠 **BACK below yellow by 0.88 — BUT THIS ROW MISSED A THREE-SESSION YELLOW BREACH AND THE REASON IS A DATA HOLE.** CBOE prints **8/28 149.77 · 8/31 148.53 · 9/1 149.23** — three consecutive sessions **through yellow**, unrecorded here. ⛔ **`^SKEW` from yfinance IS MISSING THE 2026-08-28 BAR ENTIRELY** (08/27 144.05 → *absent* → 08/31 148.53), and **the absent bar is the HIGH of the run.** VIOLET caught it; **I verified it at the publisher, and CBOE's 9/2 value matches my 144.12 to the hundredth** — the series returns full, well-formed and in-range with a hole in it, **so every structural check passes.** ✅ **BASIS CHANGED: SKEW now grades from CBOE `SKEW_History.csv`, yfinance as a gap-checked mirror.** ⚠️ **Any HENRY SKEW streak / sustain / rolling-window claim made off yfinance before 9/2 is suspect and must be re-derived on the CBOE basis.** `[[finding_silent_blank_evades_review]]` |
+
+---
+
+## ROTATION BLOCK 6 — rotated 2026-09-04 ~09:4x ET · assert: rotation month 2026-09 == file month 2026-09 ✅
+*Source: `STATUS.md` §INVALIDATION TRIAD — the 260-ladder long form and the 9/2 JOINT RE-READ table, as they stood before the 9/4 compression. Verbatim.*
+
+**260 LADDER (as of 9/2):**
+
+🔴 **THE 260 LADDER — FOUR RUNGS, ONE FRED SERIES, AND WQ-106 SETTLES ITS TOP.** `GATE-HY-REKILL` **2 closes** (registry, LIQUID) = **THE KILL** · LIQUID **1 intraday** · LIQUID **≥3 sessions** · **mine, 5 sessions = the lagging OBSERVABLE.** RED's **`FT-12` (sustain-3)** is a further surface on the same series. **The middle two are on LIQUID's own surfaces — not mine to reconcile.** ⚡ **`FT-12` is NECESSARY-BUT-NOT-SUFFICIENT for my leg, never a countdown to it:** mine is half a **conjunction**, so `FT-12` can fire repeatedly while mine never does — yet mine cannot fire without it. ⛔ **If HY breaks 260, several desks will report a fire and a reader counting agents will see several witnesses where there is ONE SERIES AND ONE EVENT (H-2).** *(Full pre-WQ-106 ladder text → `status_archive/STATUS_ARCHIVE_2026-09.md` block 2.)*
+
+**JOINT table (9/2):**
+
+🟠 **JOINT RE-READ 9/2 — STILL 0 JOINT SESSIONS, AND BOTH LEGS STEPPED BACK.** [FRED `BAMLH0A0HYM2` × `VIXCLS`, own pull]
+
+| | 8/26 | **8/27** | 8/28 | 8/31 | **9/1** | **9/2** |
+|---|---|---|---|---|---|---|
+| VIX close | 15.21 | **14.51** ✓ | 14.43 ✓ | — | 16.34 | **15.20** |
+| HY OAS | 267 | **263** | — | 263 | **265** | *(pub. 9/3)* |
+| **JOINT** | no | **no — HY 3bp short** | no | no | no | **no — BOTH legs unsatisfied** |
+
+⇒ **8/27 remains the closest JOINT approach on record** (VIX satisfied at 14.51 with HY 3bp away) **and it has not been beaten.** **9/2 is the first session in weeks where NEITHER leg is satisfied.** ⚠️ **The count does not move: 0 joint sessions in the window and 0 in the thesis's life, because HY OAS has never once printed below 260.** ⛔ **No superlative on the HY leg alone.**
+
+---
+
+## ROTATION BLOCK 7 — rotated 2026-09-04 ~09:4x ET · assert: rotation month 2026-09 == file month 2026-09 ✅
+*Source: `STATUS.md` §ACTIVE THRESHOLDS rows as they stood at the 9/2 close, before the 9/4 re-mark. Verbatim.*
+
+**ISM row (9/2):**
+
+| **ISM Mfg PMI** | **54.6 [Aug, rel 9/01]** | <50 | <48 | **<47** | **NOT FIRED — 7.6 above red.** **August 54.6 from 55.6, an 8th straight expansion month — the national survey did NOT follow Chicago's collapse to 47.1** [`SIG-W-20260901-007`]. ⚠️ **Every demand leg softened: New Orders 53.7 (−3.0) · Backlog 51.8 (−3.2) · Imports 52.5 (−3.2) · Employment 51.2 (−1.6)**; Supplier Deliveries lengthened to 59.3. Respondents name tariffs, Middle-East petroleum costs, Section 232 metals and an AI-infrastructure supply "crisis". ⛔ **THE GERMAN-PMI LEG OF THIS ROW IS WITHDRAWN BY ITS AUTHOR** (HANS CORRECTION + RETRACTION, both 8/28): the *"capex-led ⇒ weaker lead"* caveat I folded on 8/28 is **UNTESTED — neither confirmed nor refuted.** ✅ **What survives: the German→US manufacturing lead is REAL and DIRECTIONAL (DE→US r=+0.573 at 6mo vs US→DE +0.185); ~2 months is a fine approximation; do not defend a specific lag.** ⇒ **The row now rests on two US prints — ISM 54.6 (my object) and Chicago 47.1 (a US regional, closest to it) — still pointing OPPOSITE ways, neither decisive. Threshold unmoved.** *(Long form + HANS's method note → `status_archive/STATUS_ARCHIVE_2026-09.md` block 3.)* |
+
+**VIX row:**
+
+| VIX | **15.20 [9/2 close]** | >23 | >28 | >30 sust | NOT FIRED — **~7.8 under** the vol-control trigger (was 8.8 on 8/28) |
+
+**SPX row:**
+
+| SPX | **7,666.60 [9/2 close]** | <7,200 | <7,100 | <6,494 | 🔴 **NEGATIVE GAMMA** — flip band **7,689–7,699**, spot **23–33 BELOW**, Net GEX **≈−$16B/1%** [14d + 35d cboe, both horizons agree on sign]. **Dealers AMPLIFY** |
+
+**10Y row:**
+
+| **10Y** | **4.79% [DGS10 9/1]** · ^TNX **4.80** [9/2] | >4.5% | **>4.8%** | **>5.0%** | 🔴 **THROUGH ORANGE — first time.** 4.79 official / 4.80 wire mark = *highest since Jan-2025* on the **9/1 synchronised sovereign selloff**: JGB 10Y **3.00%** (first since 1996), Bund **3.364%** (since Apr-2011), UK 10Y **5.255%**, UK 30Y **5.89%** (since Mar-1998), gold **−2.35%** [`SIG-W-20260901-006`, wire marks RELAYED]. **21bp from the >5.0% red** |
+
+**HY row:**
+
+| HY OAS | **265 [FRED 9/1]** | >320 | >400 | >500 | Well under yellow — **+2bp on the week, away from the 260 observable** |
+
+**CCC row:**
+
+| CCC OAS | **1,049 [FRED 9/1]** | >900 | >1000 | >1100 | 🔴 **ORANGE — every print since 7/28, and +18bp from 1,031 [8/27]. This is genuine tail deterioration, not a BB-compression artifact** |
+
+**USDJPY row:**
+
+| **USD/JPY** | **158.93 [9/2 close]** | *(level ladder RETIRED)* | — | — | **Velocity key: \|Δ\| ≥2%/day either way = escalate. SAM owns the call.** 160.193 [9/1] was the first ≥160 close since 7/29 — **ROUTING-ONLY, no gate** |
+
+**SKEW row (9/2):**
+
+| **SKEW** | **144.12 [CBOE `SKEW_History.csv` 9/2, own pull at the publisher]** | >145 | >150 | >160 | 🟠 **BACK below yellow by 0.88 — BUT THIS ROW MISSED A THREE-SESSION YELLOW BREACH AND THE REASON IS A DATA HOLE.** CBOE prints **8/28 149.77 · 8/31 148.53 · 9/1 149.23** — three consecutive sessions **through yellow**, unrecorded here. ⛔ **`^SKEW` from yfinance IS MISSING THE 2026-08-28 BAR ENTIRELY** (08/27 144.05 → *absent* → 08/31 148.53), and **the absent bar is the HIGH of the run.** VIOLET caught it; **I verified it at the publisher, and CBOE's 9/2 value matches my 144.12 to the hundredth** — the series returns full, well-formed and in-range with a hole in it, **so every structural check passes.** ✅ **BASIS CHANGED: SKEW now grades from CBOE `SKEW_History.csv`, yfinance as a gap-checked mirror.** ⚠️ **Any HENRY SKEW streak / sustain / rolling-window claim made off yfinance before 9/2 is suspect and must be re-derived on the CBOE basis.** `[[finding_silent_blank_evades_review]]` |
+
+**ARES row:**
+
+| ARES/APO | **$138.06 / $132.29 [9/2 closes]** | alts roll-over | — | — | ⚠️ **9/1 was a −2.85% / −3.58% day, but it was a global BOND day, NOT a private-credit catalyst** — no BCRED tender result has been filed [`SIG-W-20260901-001`] |
+
+**KRE row:**
+
+| KRE | **$74.24 [9/2 close]** | <$65 | <$62 | **<$60** | ARMED — ~9.2 above yellow; **+2.23% on 9/2** |
+
+**VIX kill row:**
+
+| **VIX kill leg** | **15.20 [9/2 close]** | <17 | <16 | **<15, 1 session** | 🔴 **NO LONGER SATISFIED — 0.20 above the line.** Last satisfying close **14.51 [`VIXCLS` 8/27]**, the sixth. **Under H-1 none is banked** |
+
+**HY kill row:**
+
+| **HY kill leg** ⚠️ *H-2* ⛔ *observable* | **265 [FRED 9/1]** | <290 | <270 | **<260 sustained 5** | 🟠 **NOT FIRED — 0 OF 5, and 5bp from the line after moving AWAY.** ⛔ **RE-LABELLED A NON-KILL OBSERVABLE (WQ-106, Will 9/1)** — the registry 2-close `GATE-HY-REKILL` is THE kill; this is its lagging confirmation. **n≈122; full series n=787: ONE print <260 — 259 on 2025-01-22, pre-registration** |
+
+---
+
+## ROTATION BLOCK 8 — rotated 2026-09-04 ~09:5x ET · assert: rotation month 2026-09 == file month 2026-09 ✅
+*Source: `STATUS.md` §CATALYST STACK 9/4 row + §ACTIVE PREDICTIONS HEN-42 long row, pre-9/4. Verbatim.*
+
+**9/4 catalyst row:**
+
+| **Fri 9/4** | **August NFP** | ⛔ **FENCE ADOPTED FROM LABOR (`SIG-W-20260901-015`): do NOT cite JOLTS NET −18K beside the −23K NFP as two confirmations.** JOLTS is ratio-estimated to CES, so NET is **partly circular** with NFP, and 5 prior runs = 2 episodes. LABOR owns employment; I hold the same fence. |
+
+**HEN-42 row (long):**
+
+| **HEN-42** | Rates-driver ROTATION: policy-path-led vs term-premium-led | 8/29 | ✅ **RESOLVED-DENY. ROW FLIPPED 9/2 — OWED 8/29, FOUR DAYS LATE, AND THE LATENESS IS THE FINDING.** My own NEXT-SESSION item #1 was *"confirm the row ACTUALLY flipped"* and nobody was spawned to do it — `[[finding_record_of_an_action_is_not_the_action]]` fired on my own file. **Verdict UNCHANGED from the 8/28 freeze.** ✅ **Pending cells CLOSED at the primary: DGS2 +14.0 > DGS10 +6.0 > DGS30 +3.0 (8/28, published 8/31), MONOTONICALLY FRONT-LED** — resolving my pre-registered **branch 1** and NOT flipping the DENY. **BOND ruled C-36 TWO-PART 9/1** (policy-path channel ALIVE and transmitting · term premium drove the July delta); **DOCKET L217 closed; nothing owed back.** *(Full row → `workbook/PREDICTIONS.tsv`; card → `reports/2026-08-28_HEN-42_GRADE_CARD_FROZEN.md`.)* |
+
+**HEN-41 block:**
+
+### 🔴 HEN-41 DEFECT DISPOSITION *(retained — it governs future registrations, and it governed HEN-44 tonight)*  HEN-41's CONFIRM was a disjunction whose second limb (`T10YIE >2.30`) was **already satisfied at registration** — *a threshold already satisfied at registration never tests the world.* **HEN-44 §4.1 demotes its own YoY sub-leg on exactly this ground, before the print.**
+

@@ -76,3 +76,45 @@
 | **HEN-36** | **AI-capex correction is fundamentally grounded (Q2 FCF-cliff + DRAM/HBM source-stress), not a flow air-pocket** | 7/31 | **✅ RESOLVED-CONFIRMED 4-of-4 at primaries** (aggregate Q2 FCF $40.565B → $6.879B, −83.0% YoY) **with the equity-de-rate leg FALSIFIED 2-2**. Successor thesis = the CREDIT face (equity prices demand credibility, credit prices funding structure) — **now substrated by DEWEY DR-1/DR-2 [8/6]:** ORCL $260B off-BS + $3.3B Sep-2026 guarantee; META covenant-free; CRWV constraint = DSCR w/ power re-mark (NOT GPU-depreciation — DEWEY corrected his own headline); depreciation dispersion quantified ($26.8B, two-directional Jan-2025) — HEN-36 untouched, it was built on CASH. ⚠️ Still an UNREGISTERED claim — needs a falsifiable test before it carries weight (carry-forward) |
 | **HEN-41** | **July CPI = oil-shock inverse-feedback test: CONFIRM = headline re-accels on energy AND/OR T10YIE >2.30; DENY = transitory, breakevens anchored, core cooling** | 8/12 | **✅ RESOLVED 8/20 (overdue — desk dark 8/12). CONFIRM-ON-LETTER / DEFECTIVE-TRIGGER** per the 8/10 defect ruling: July headline **+0.1% MoM** (vs June −0.42%) clears "re-accelerates," but that disjunct was ~satisfied at registration ⇒ **does NOT evidence the oil-inverse-feedback mechanism.** The SOUND disjunct (T10YIE >2.30) **DENIED at 2.26 on the 8/12 date** [FRED, ruling ⑤]. **Substance = DENY** (core +0.2% MoM, core YoY cooled **2.5%**, no energy passthrough). ⚠️ Forward: T10YIE since **through 2.30 → 2.34 [8/20]** = 9/11 input, not a July one |
 | **HEN-43** ✅ | **MIGRATING withdrawal test (forum T1): the stress thesis has MIGRATED into ungated channels rather than simply died. 8-row falsifier table; ≥5 of 8 rows printing in the "calm is just calm" column ⇒ HENRY WITHDRAWS the migration read** | **8/24** | ✅ **RESOLVED-NOT-WITHDRAWN — graded 2026-08-27, three days late.** Falsifier NOT met: **2 calm rows maximum vs a line of ≥5** (six not calm, two unscored on stale 8/03–8/07 marks and NOT argued into place). Robust on the four FRED-primary rows I re-pulled myself; identical verdict on the 8/21, 8/24 and 8/26 vintages. ⛔ **NOT a confirmation** — the registration's own asymmetry caveat governs. Rows: ① CCC <1,000 alongside HY ② HY ≤260 ③ CCC−BB <800 ④ Kalshi US-downgrade ≤11.0% ⑤ ORCL 5Y CDS <180bp ⑥ next AI-infra print at/inside talk ⑦ gold re-couples to DFII10 ⑧ 30Y ≤5.05 as hike odds fall. **Cleanest single falsifier = ① + ②: HY reaching 260 WITH CCC below 1,000 ⇒ no K-shape, no migration.** Full row table + the ≥5-of-8 rounding rationale: forum FINAL §4c |
+
+---
+
+### 9/4 SESSION NARRATIVE
+*Moved from `STATUS.md` 2026-09-04 ~09:5x ET under the hot/cold split. Verbatim. Live state stayed on `STATUS.md`.*
+
+🔴 **AUGUST NFP — THE NEGATIVE PRINT I HAD BEEN CARRYING WAS REVISED AWAY.** **+162,000** · U-3 **4.1%** unchanged · LFPR **61.6%** (+0.2) · EPOP **59.1%** (+0.2) · labor force **+683K** · **July −23K → +21K**, June/July **+55K net** [BLS USDL-26-1435, LABOR at the primary 08:30 ET]. **LABOR graded off a frozen card: T-03 did NOT fire (needed EPOP ≤58.9, printed 59.1), T-04's six-month leg went satisfied → unsatisfied, ZERO threshold packets travel.** ⛔ **THE JOLTS FENCE IS NOW MOOT IN THE DIRECTION I ARMED IT:** I adopted it to stop myself pairing JOLTS NET −18K with a −23K NFP as two confirmations — **the −23K no longer exists.** The fence holds as method; its object is gone. ⚠️ **Attribution named by EVIDENCE TYPE, not by leg count: Type-A (CES) = payrolls + revisions + AHE = ONE witness; Type-B (CPS) = U-3 + LFPR + EPOP = ONE witness.** Two, not nine — and the household side moved on a **growing** labor force, so the supply-shrink confound that made June/July uninterpretable is absent.
+
+**AHE superseded 3.2% → 3.1% YoY** ($37.62 → **$37.75**, +0.3% MoM) [LABOR, owed by its own pre-commitment]. ⛔ **A 0.1pp AHE decel is NOT wages rolling over — cite ECI, not AHE.** At Q2, ECI ran **3.4% flat** while AHE ran **3.5% and accelerating**: a **0.4pp wedge**, and the two have disagreed in sign before. Next ECI **2026-10-30**. **No HENRY surface cites AHE as a wage claim; nothing to fix.**
+
+**WALTER LANE DRAINED 8 → 0; 7 root packets read (3 triage-flagged).** Dispositions → `board_log.tsv`. 🔴 **The one that matters: `SIG-W-20260904-002` is a CORRECTION to a signal I was the ACTION recipient of, and it was SIGN-INVERTED** — *"Fed 50bp CUT, CME ~74.5% for September"* was in fact a September **HIKE** at 61% (CNBC 9/3, both articles opened at source), and the **74.5 exists in no 9/3 source.** ✅ **It never reached a HENRY surface — and the honest reason is that my desk was DARK from 9/2 21:3x, not that I caught it.** `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`
+
+⚠️ **A PEER HENRY SESSION WAS SPAWNED ONTO THE SAME DRAIN AT 09:2x AND STOOD DOWN; PROME calls the collision its own error.** I am sole writer. **Its read-only finding "no `149.23` live in STATUS — nothing to fix" was WRONG ON THE SCAN and right on the conclusion:** `149.23` **is** live (§ACTIVE THRESHOLDS SKEW row) as a correctly-sourced CBOE 9/1 daily print; what RED withdrew was the *closest-approach/0.77-margin CLAIM*, never the value. `0.77` is genuinely absent (verified with a positive control). **Taking either desk's framing at face value produces an error in opposite directions — RED's would have had me delete a correct cell.** `[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]`
+
+---
+
+### SUPERSEDED BOTTOM LINE — 2026-09-02
+*Moved from `STATUS.md` 2026-09-04. ⚠️ Superseded by the 9/4 block; do not cite its levels (gamma sign has since re-inverted, HY/CCC re-marked).*
+
+**[9/2] The mechanical layer switched from a brake to an accelerant while nobody was measuring it, the distressed tail made new wides, and my kill line moved away from me.**
+
+**1. 🔴 THE GAMMA BOARD IS NEGATIVE AND THE SIGN INVERTED UNOBSERVED.** Flip band **7,689–7,699**, spot **7,666.60 = 23–33 pts BELOW**, Net GEX **≈ −$16B/1%**, **both horizons agreeing**. On 8/28 it was **+$20.4B with spot 39 ABOVE**. **Dealers now AMPLIFY.** 12 days unmeasured. **The flip is a BOUNDARY, not support** — and **walls are WITHHELD** under the cross-horizon rule (35d put wall == its own call wall).
+**2. Vol and credit still disagree — but the disagreement changed hands.** VIX **15.20** priced for calm; **CCC 1,049 (+18bp) vs BB 152 (−1), gap 897.** ⚠️ **The 8/27 mark widened on BB compressing; this one widened on the TAIL deteriorating. That is the more serious mechanism.**
+**3. 🟠 MY 260 LEG IS NOW AN OBSERVABLE, AND IT MOVED AWAY.** **HY 265 [9/1]**, +2bp from 263. **WQ-106 (Will 9/1): the registry 2-close `GATE-HY-REKILL` is THE kill; my 5-session leg is its lagging confirmation.** Count unchanged at **0**, as it has always been. **VIX 15.20 also un-satisfies its own leg — under H-1 nothing banks.**
+**4. 🔴 10Y THROUGH ORANGE.** **4.79% [DGS10 9/1]** on a synchronised sovereign selloff — JGB 10Y **3.00%** (first since 1996), Bund **3.364%** (since 2011), UK 30Y **5.89%** (since 1998). **30Y 5.27% also through orange.**
+**5. Two letters are frozen before their events, and both were written against my own past defects.** HEN-44 demotes a sub-leg that was already satisfied at registration; HEN-45 refuses a second curve leg and a prediction-market leg. **HEN-42 is closed DENY — four days late, and the lateness is on the record.**
+**6. Watch order:** **Fri 9/4** NFP (JOLTS fence live) · **Wed 9/9** sb0607 begins, curve attribution contaminated after · **🔴 Fri 9/11** August CPI, HEN-44 grades **Leg C first** · **🔴 Wed 9/16** FOMC + dot plot + **VIX quarterly expiry into a negative-gamma board**, HEN-45 grades **Leg 1 first** · **Fri 9/18** SPX quarterly OPEX · **Wed 9/23** T3 first decidable.
+
+---
+
+### BLOCKS DELETED FROM STATUS.md 2026-09-04 (read-cap budget)
+*Verbatim. Still binding as rules; moved because they are stable governance, not live state.*
+
+**HEN-41 DEFECT DISPOSITION block:**
+
+### 🔴 HEN-41 DEFECT DISPOSITION *(retained — it governs future registrations, and it governed HEN-44)* HEN-41's CONFIRM was a disjunction whose second limb (`T10YIE >2.30`) was **already satisfied at registration** — *a threshold already satisfied at registration never tests the world.* **HEN-44 §4.1 demotes its own YoY sub-leg on exactly this ground, before the print.**
+
+**3Fourteen implied-correlation qualifier:**
+
+- **🔑 STANDING QUALIFIER (3Fourteen via WALTER 7/23), still carried:** record-low implied correlations mechanically suppress index vol — a calm VIX understates constituent stress by construction. VIOLET owns the call.
+
+
