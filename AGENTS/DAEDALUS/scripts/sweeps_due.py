@@ -68,6 +68,27 @@ def playbook_exists(pb):
     return os.path.exists(os.path.join(AGENT_DIR, pb)) or os.path.exists(os.path.join(REPO, pb))
 
 
+def selftest_dated(today):
+    """DATED drill (2026-09-04, §3 both paths): a DATED row with a FUTURE resolve_by prints NO ⏰ DUE
+    however old its last_run; the same row with a PAST resolve_by fires RESOLVE_BY PASSED; a DATED row
+    with no resolve_by is reported un-parseable (rc 2), never silently clean."""
+    import subprocess, tempfile
+    hdr = "task\tcadence_days\tlast_run\tplaybook\tstatus\tresolve_by\tlast_findings\n"
+    fut = (today + datetime.timedelta(days=10)).isoformat(); past = (today - datetime.timedelta(days=3)).isoformat()
+    ok_all = True
+    with tempfile.TemporaryDirectory() as td:
+        pb = os.path.join(td, "PB.md"); open(pb, "w").write("x")
+        cases = [("future", f"Dated\tDATED\t2026-01-01\t{pb}\tactive\t{fut}\tx\n", lambda o, rc: "DUE:" not in o and "RESOLVE_BY PASSED" not in o and rc == 0),
+                 ("past", f"Dated\tDATED\t2026-01-01\t{pb}\tactive\t{past}\tx\n", lambda o, rc: "RESOLVE_BY PASSED: Dated" in o and "DUE:" not in o),
+                 ("no-resolve_by", f"Dated\tDATED\t2026-01-01\t{pb}\tactive\t\tx\n", lambda o, rc: "un-parseable" in o and rc == 2)]
+        for name, row, pred in cases:
+            reg = os.path.join(td, name + ".tsv"); open(reg, "w").write(hdr + row)
+            p = subprocess.run([sys.executable, __file__, "--registry", reg, "--no-profile-clock"], capture_output=True, text=True)
+            ok = pred(p.stdout, p.returncode); ok_all &= ok
+            print(f"  {'✓' if ok else '✗'} DATED {name}: rc={p.returncode} · {p.stdout.strip().splitlines()[0][:90] if p.stdout.strip() else '(no output)'}")
+    return ok_all
+
+
 def selftest():
     """Guard drill (CHECK_STANDARD §3): a registry row whose playbook path does not exist must
     fire PLAYBOOK MISSING (rc 2); a row whose playbook exists must not. Built 2026-09-03 after
@@ -90,7 +111,9 @@ def selftest():
                            capture_output=True, text=True)
         clean = p.returncode == 0 and "PLAYBOOK MISSING" not in p.stdout
         print(f"  {'✓' if clean else '✗'} present playbook ⇒ clean, rc 0 (rc={p.returncode})"); fails += not clean
-    print("sweeps_due SELFTEST " + ("✓ 2/2" if not fails else f"✗ {fails}/2 FAILED"))
+    dated_ok = selftest_dated(datetime.date.today())
+    fails += not dated_ok
+    print("sweeps_due SELFTEST " + ("✓ 5/5" if not fails else f"✗ {fails}/5 FAILED"))
     return 1 if fails else 0
 
 
@@ -114,19 +137,38 @@ def main():
                     continue
                 if (row.get("status") or "active").strip().lower() != "active":
                     continue
-                try:
-                    last = datetime.date.fromisoformat((row.get("last_run") or "").strip())
-                    cad = int((row.get("cadence_days") or "").strip())
-                except (ValueError, TypeError):
-                    skipped.append(task)
-                    continue
-                tracked += 1
-                pb_path = (row.get("playbook") or "").strip()
-                if pb_path and not playbook_exists(pb_path):
-                    missing_pb.append((task, pb_path))
-                age = (today - last).days
-                if age >= cad:
-                    due.append((task, age, cad, (row.get("playbook") or "").strip()))
+                # DATED (2026-09-04): a one-shot sweep whose contract is its resolve_by date, not a
+                # cadence. The Wiring Sweep row carried cadence_days=7 as a declared PLACEHOLDER "so
+                # sweeps_due can see it" and fired ⏰ DUE at every boot 7d after its last run while its
+                # real date (resolve_by 9/14) sat ten days out — a false DUE that I reported to Will at
+                # boot as a distinct weekly sweep. A placeholder number is a claim the tool cannot tell
+                # from a real one; the token makes the contract machine-readable and the resolve_by
+                # branch below carries the whole clock. A DATED row with NO resolve_by is un-parseable.
+                cad_raw = (row.get("cadence_days") or "").strip()
+                if cad_raw.upper() == "DATED":
+                    if not (row.get("resolve_by") or "").strip():
+                        skipped.append(task + " [DATED row without resolve_by]")
+                        continue
+                    tracked += 1
+                    cad = None
+                    pb_path = (row.get("playbook") or "").strip()
+                    if pb_path and not playbook_exists(pb_path):
+                        missing_pb.append((task, pb_path))
+                else:
+                    try:
+                        last = datetime.date.fromisoformat((row.get("last_run") or "").strip())
+                        cad = int(cad_raw)
+                    except (ValueError, TypeError):
+                        skipped.append(task)
+                        continue
+                    tracked += 1
+                if cad is not None:
+                    pb_path = (row.get("playbook") or "").strip()
+                    if pb_path and not playbook_exists(pb_path):
+                        missing_pb.append((task, pb_path))
+                    age = (today - last).days
+                    if age >= cad:
+                        due.append((task, age, cad, (row.get("playbook") or "").strip()))
 
                 # ── resolve_by: a DATED OBLIGATION inside a queue row, independent of cadence.
                 # ADDED 2026-08-23, and it exists because of a miss it would have caught.
