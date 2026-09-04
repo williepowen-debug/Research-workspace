@@ -38,6 +38,7 @@
 | Windows | `eligibility 2026-08-10→08-28 · lookback 5 sessions post-fire · grading = eligibility ∪ lookback` |
 | Producibility (SL-4) | `DGS30 daily close has printed to 0.01 since 1977; 5.28 producible` |
 | Tie set (SL-5) | `published to 2dp; strict >12.00; a 12.00 print does NOT fire; base rate computed on strict >; exit leg ≥ audited` |
+| Negative-existence letter (WQ-172, Will 2026-09-03 21:54) | `search attempt INSIDE the resolution window (floor AND ceiling = the resolve date; an attempt after the window = NO-VERDICT, never CONFIRMED); neither limb keyed on the author's own activity — world-state only` → canon `FORGE/PREDICTION_DISCIPLINE.md` L42 (OSPREY §4 origin) |
 | Revision policy | per `STRICT_TEXT.md` rule 7 |
 
 ## Enforcement
