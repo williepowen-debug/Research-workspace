@@ -10,7 +10,7 @@
 | scorecard parser pads/truncates (zip); `as_int` int-only | VERIFIED | `coordination_scorecard.py` load()/as_int() |
 | "63 zero-drain touches" == 63 non-integer `drained` cells | VERIFIED | exact match |
 | brief-defect coverage too thin | VERIFIED | renderer: 2 of 83 scored (prose cell); after v2 typing 41 of 83 carry a count |
-| BOARD/INDEX.md ~1.63 MB; scanner reads signal files | VERIFIED | 1,627,433 B; `board_scan.py` globs `SIG-W-*.md`; INDEX.md readers = WALTER `staleness_sweep.py`, `walter_doctor.py`, PROME `reads_check.py` |
+| BOARD/INDEX.md ~1.63 MB; scanner reads signal files | VERIFIED | 1,627,433 B; `board_scan.py` globs `SIG-W-*.md`. **Readers CORRECTED 21:3x (WALTER caught PROME's `grep -l` reading filename MENTIONS as reads — error #85):** `staleness_sweep.py` and PROME's `reads_check.py` only NAME the file in a docstring/comment; **the sole code reader is `walter_doctor.py` (L232 · L1345 · L1459), and all three sites parse STRUCTURE only** (ToC rows, TOTAL row, `## NAME (N)` headings) — no tool in the repo parses a signal data row ⇒ a generated compact index satisfies every machine consumer with zero reader changes; the design question is what HUMAN readers need (WALTER's back-marker convention included). Cutover test = `walter_doctor` green on the new surface. |
 | KERNEL/README.md L3 "NOT LIVE" while activations + events exist | VERIFIED | 17 accepted events in `shadow/events/2026/09`; IMPLEMENTATION_STATUS stamped 8/26 |
 | commit subjects avg ~210 chars, 577/1,817 >200 | VERIFIED | avg 211, 581/1,817 (window moved) |
 | VIOLET `test_daily_log.py` fails IndexError | VERIFIED | still fails 9/3 |
