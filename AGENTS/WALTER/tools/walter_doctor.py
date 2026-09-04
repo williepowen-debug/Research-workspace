@@ -42,6 +42,7 @@ Checks:
   terry_override_ratio   S1 — TERRY inverted-token override ratio (90d/10%/n≥10) + the 72h revert falsifier
   filed_vs_consumed      S7 — processed/ moves without a consume:<AGENT> declaration are FILED, not CONSUMED (§5.1)
   entities_at_dispatch   `entities:` header present on every signal dated ≥2026-08-19 (FORMAT_SPEC v0.18, never retro)
+  index_generated_fresh  BOARD/INDEX.md rowset sha vs a fresh regeneration (WQ-174; pre-cutover = generator --check soak)
   auto_load_budget       CLAUDE.md's UNCONDITIONAL auto-load cost vs the read cap (read_cap_check cannot see it)
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
@@ -2106,6 +2107,44 @@ def check_auto_load_budget():
         return [(LOW, f"auto-load over budget (under cap) — {detail}")]
     return [(INFO, f"auto-load within budget — {detail}")]
 
+
+def check_index_generated_fresh():
+    """WQ-174 leg 3 (Will "174 - approved" 2026-09-04): BOARD/INDEX.md is a GENERATED projection of
+    signal frontmatter. This check regenerates the row-set in memory at every doctor run and
+    compares its sha256 to the banner the live file carries — a hand edit, a new signal not yet
+    regenerated, or a header change on any signal makes the live file STALE and that is HIGH,
+    because a stale generated index is a false certification (the same class as the
+    FALSIFICATION_TRIGGERS_SCAN banner-sha rule at boot 6b).
+
+    PRE-CUTOVER (live file has no `rowset_sha256=` banner): runs the generator's --check logic
+    read-only and reports LOW on any FAIL (a new hand-only marker, an ID/count mismatch) so the
+    soak is measured every day rather than remembered; INFO on PASS. Never writes.
+    """
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("gen_board_index", HERE / "gen_board_index.py")
+        gbi = importlib.util.module_from_spec(spec); spec.loader.exec_module(gbi)
+    except Exception as e:
+        return [(MED, f"gen_board_index.py could not be imported ({type(e).__name__}: {e}) — index freshness unchecked")]
+    live = (BOARD / "INDEX.md").read_text(errors="replace")
+    m = re.search(r"rowset_sha256=([0-9a-f]{64})", live)
+    sigs, errors = gbi.load_signals()
+    if not m:
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            rc = gbi.check(sigs, errors)
+        tail = [l for l in buf.getvalue().splitlines() if l.startswith(("markers:", "ID SET", "COUNT", "SECTION", "TOTAL", "HARD"))]
+        if rc:
+            return [(LOW, "PRE-CUTOVER soak: gen_board_index --check FAILS vs the hand-maintained INDEX — " + " | ".join(tail)[:400])]
+        return [(INFO, "PRE-CUTOVER soak: gen_board_index --check PASS vs the hand-maintained INDEX (cutover target 2026-09-08) — " + " | ".join(tail)[:300])]
+    if errors:
+        return [(HIGH, f"generated INDEX cannot be re-derived: {len(errors)} signal(s) fail closed — {errors[0]}")]
+    _, sha = gbi.render(sigs, live)
+    if sha != m.group(1):
+        return [(HIGH, f"BOARD/INDEX.md is STALE vs the signal set (banner {m.group(1)[:12]} ≠ current {sha[:12]}) — run `gen_board_index.py --write BOARD/INDEX.md --cutover` and commit; never hand-edit the index")]
+    return [(INFO, f"generated INDEX fresh (rowset {sha[:12]}, {len(sigs)} signals)")]
+
 CHECKS = [
     ("version_drift", check_version_drift),
     ("claude_md_version_drift", check_claude_md_version_drift),
@@ -2138,6 +2177,7 @@ CHECKS = [
     ("filed_vs_consumed", check_filed_vs_consumed),
     ("entities_at_dispatch", check_entities_at_dispatch),
     ("auto_load_budget", check_auto_load_budget),
+    ("index_generated_fresh", check_index_generated_fresh),
 ]
 
 MARK = {HIGH: "✗", MED: "⚠", LOW: "·", INFO: "✓"}
