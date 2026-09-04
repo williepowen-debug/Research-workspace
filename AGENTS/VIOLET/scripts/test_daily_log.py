@@ -17,12 +17,27 @@ sys.path.insert(0, str(Path(__file__).parent))
 from _daily_log import upsert_row, describe  # noqa: E402
 
 COLS = ["date", "val", "state", "note", "stamp_utc"]
+
+# ⚠️ PIN THE CLOCK. `upsert_row`'s TODAY-ONLY GUARD reads the real ET date when
+# `today` is not passed, so any supersede-path assertion against a fixture dated
+# 2026-07-30 passes ONLY on 2026-07-30 and returns `skip-past` every day after.
+# That is exactly how this file broke: test 8 omitted it, went green on the day
+# it was written, and had been failing ever since (DAEDALUS 2026-09-03, 9 days
+# documented in the Codex audit). Tests that deliberately exercise the guard
+# (11, 11b, 11c, 11d) pass their own explicit dates and must NOT use T.
+T = "2026-07-30"
+
 FAILS = []
 
 
 def check(name, got, want):
     if got != want:
-        FAILS.append(f"  ✗ {name}\n      got:  {got!r}\n      want: {want!r}")
+        # Print on failure too. Previously a failing check was silent until the
+        # summary, so a later crash hid every failure before it — which is how
+        # one IndexError masked the rest of the run.
+        line = f"  ✗ {name}\n      got:  {got!r}\n      want: {want!r}"
+        FAILS.append(line)
+        print(line)
     else:
         print(f"  ✓ {name}")
 
@@ -44,7 +59,7 @@ check("1 header written", p.read_text().splitlines()[0], "\t".join(COLS))
 
 # 2 — THE BUG THIS MODULE EXISTS FOR: same date, state escalates. Must supersede
 #     and must surface the state transition, not silently skip.
-st, ch = upsert_row(p, COLS, ["2026-07-30", "15.7", "FIRE", "-", "t2"])
+st, ch = upsert_row(p, COLS, ["2026-07-30", "15.7", "FIRE", "-", "t2"], today=T)
 check("2 escalation -> superseded", st, "superseded")
 check("2 state change reported", ch.get("state"), ("CALM", "FIRE"))
 check("2 value change reported", ch.get("val"), ("1.0", "15.7"))
@@ -52,7 +67,7 @@ check("2 row actually rewritten", rows(p)[0][:3], ["2026-07-30", "15.7", "FIRE"]
 check("2 still exactly one row", len(rows(p)), 1)
 
 # 3 — identical re-run: no churn, no phantom change, stamp still refreshes.
-st, ch = upsert_row(p, COLS, ["2026-07-30", "15.7", "FIRE", "-", "t3"])
+st, ch = upsert_row(p, COLS, ["2026-07-30", "15.7", "FIRE", "-", "t3"], today=T)
 check("3 identical -> skip-identical", (st, ch), ("skip-identical", {}))
 check("3 stamp refreshed in place", rows(p)[0][4], "t3")
 check("3 no duplicate row", len(rows(p)), 1)
@@ -62,7 +77,7 @@ check("3 no duplicate row", len(rows(p)), 1)
 #     have introduced while fixing the first one.
 p2 = fresh()
 upsert_row(p2, COLS, ["2026-07-30", "9.9", "CALM", "iv ok", "t1"])
-st, ch = upsert_row(p2, COLS, ["2026-07-30", None, "CALM", "-", "t2"])
+st, ch = upsert_row(p2, COLS, ["2026-07-30", None, "CALM", "-", "t2"], today=T)
 check("4 null does not overwrite", rows(p2)[0][1], "9.9")
 check("4 dash does not overwrite", rows(p2)[0][3], "iv ok")
 check("4 no change reported", (st, ch), ("skip-identical", {}))
@@ -70,18 +85,18 @@ check("4 no change reported", (st, ch), ("skip-identical", {}))
 # 4b — but a real value DOES replace a stored null (the recovery direction).
 p2b = fresh()
 upsert_row(p2b, COLS, ["2026-07-30", "-", "CALM", "-", "t1"])
-st, ch = upsert_row(p2b, COLS, ["2026-07-30", "9.9", "CALM", "-", "t2"])
+st, ch = upsert_row(p2b, COLS, ["2026-07-30", "9.9", "CALM", "-", "t2"], today=T)
 check("4b null -> value recovers", (rows(p2b)[0][1], st), ("9.9", "superseded"))
 
 # 5 — supersede=False must still REPORT the divergence. A decline to write may
 #     not be silent; that is the failure mode being fixed.
 p3 = fresh()
 upsert_row(p3, COLS, ["2026-07-30", "1.0", "CALM", "-", "t1"])
-st, ch = upsert_row(p3, COLS, ["2026-07-30", "15.7", "FIRE", "-", "t2"])
+st, ch = upsert_row(p3, COLS, ["2026-07-30", "15.7", "FIRE", "-", "t2"], today=T)
 _ = st
 p4 = fresh()
 upsert_row(p4, COLS, ["2026-07-30", "1.0", "CALM", "-", "t1"])
-st, ch = upsert_row(p4, COLS, ["2026-07-30", "15.7", "FIRE", "-", "t2"], supersede=False)
+st, ch = upsert_row(p4, COLS, ["2026-07-30", "15.7", "FIRE", "-", "t2"], supersede=False, today=T)
 check("5 declined write -> skip-exists", st, "skip-exists")
 check("5 divergence still reported", ch.get("state"), ("CALM", "FIRE"))
 check("5 file left untouched", rows(p4)[0][2], "CALM")
@@ -104,14 +119,14 @@ check("7 later row intact", rows(p5)[1][2], "FIRE")
 # 8 — a ragged/short stored row is tolerated, not a crash.
 p6 = fresh()
 p6.write_text("\t".join(COLS) + "\n2026-07-30\t1.0\n", encoding="utf-8")
-st, ch = upsert_row(p6, COLS, ["2026-07-30", "1.0", "FIRE", "-", "t2"])
+st, ch = upsert_row(p6, COLS, ["2026-07-30", "1.0", "FIRE", "-", "t2"], today=T)
 check("8 ragged row tolerated", st, "superseded")
 check("8 ragged row filled", rows(p6)[0][2], "FIRE")
 
 # 9 — a pure stamp change is NOT a data change (else every run reads as churn).
 p7 = fresh()
 upsert_row(p7, COLS, ["2026-07-30", "1.0", "CALM", "-", "t1"])
-st, ch = upsert_row(p7, COLS, ["2026-07-30", "1.0", "CALM", "-", "t999"])
+st, ch = upsert_row(p7, COLS, ["2026-07-30", "1.0", "CALM", "-", "t999"], today=T)
 check("9 stamp-only is not a change", (st, ch), ("skip-identical", {}))
 
 # 10 — describe() must 🔴-flag a state transition and must not dress a declined
