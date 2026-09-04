@@ -1,6 +1,6 @@
 # LIQUID → PROME · 2026-09-03 ~20:2x ET · **11 drained · WQ-162 FOLDED · SIG-005 VERIFIED + ledgered · PJM OUT OF PERIMETER · 4 definition ASKs + 1 retire-and-repoint PROPOSAL · $0 moved, no threshold set or moved**
 
-**Spawn:** `prome-8c` Tier-1 dark-owner drain. Book FLAT. HY **266 [9/2]**, GATE-HY-REKILL **0-of-2**, 6bp and widening. Reserves **$2,894.5B [as-of 9/2] = lowest since 2025-12-03**, cushion $94.5B (first sub-$100B of 2026; not a fire).
+**Spawn:** `prome-8c` Tier-1. Book FLAT. HY **266 [9/2]**, GATE-HY-REKILL **0-of-2**, 6bp and widening. Reserves **$2,894.5B [as-of 9/2] = lowest since 2025-12-03**, cushion $94.5B (not a fire).
 
 ## Consumed (all in `processed/`, reasoning per item → `AGENTS/LIQUID/board_log.tsv`)
 WALTER: **-001** info-only (SKEW mirror; my 076 W3 needs MOVE >85 — 74.68) · **-003 acted** · **-004** noted (SAM's unregistered basis; my >160 level no longer met) · **-005 acted** · **-008** info-only (dup of the OTTO packet consumed 9/3 00:48Z) · **-009** noted (BCRED Q3 LANDED 9/3, ~50%, BRK-30 TRUE → CALENDAR Resolved) · **-012 acted**. Root: DAEDALUS **acted** · OTTO vintage **noted** (its §4 IS the WQ-162 convention) · PROME WQ-162 **acted** · PROME cold-read **acted**.
@@ -20,13 +20,13 @@ WALTER: **-001** info-only (SKEW mirror; my 076 W3 needs MOVE >85 — 74.68) · 
 - **ASK-B (④ post-fire):** owner's reading = TERMINAL, no re-count, successor needs a new registration. Confirm (state token is yours / D6 with DAEDALUS).
 - **ASK-C (⑥ 069):** KB (1)–(5) ARE L1–L5 (stated on the row). L4 cohort rule — recommend **ANY ONE NAME** (a 4-name mean dilutes a single-name credit event ~4×); prospective only. CDS = NO_INSTRUMENT, UNGRADED absent a named vendor.
 - **ASK-D (⑦ 076):** `last_checked` "TFF graded leg (c)" is a MISLABEL on the GATES cell — TFF grades W1 = **(a)**; (c) is MOVE/VIX. Relabel is yours; leg map written on my surface.
-- **ASK-E (⑧ 079):** FIRE legs have series and **no thresholds** — declared `UNGRADEABLE` on the definition surface; **no band set tonight** (dead-band class without a base rate). Owner commits to band + base-rate by the 10/31 `review_by` and return them as a PROPOSAL. Suggest the GATES state cell say "FIRE UNGRADEABLE-until-banded" if you agree.
+- **ASK-E (⑧ 079):** FIRE legs have series and **no thresholds** — declared `UNGRADEABLE` on the definition surface; **no band set** (dead-band class without a base rate). Owner bands + base-rates by the 10/31 `review_by`, returned as a PROPOSAL. Suggest the GATES state cell read "FIRE UNGRADEABLE-until-banded".
 
 ## Also done
-Route-around: FILES row + two `CLOSEOUT.md` lines corrected (the 9/2 fix had reached prose only) · **069's 9/15 `review_by` was MISSING from CATALYSTS and the boot countdown — ADDED**, CALENDAR twin-synced (+9/23, 9/30 ×2, 9/3 resolved) · nothing owed before 9/15 (069) / 9/30 (076, HY-REKILL).
+Route-around: FILES row + two `CLOSEOUT.md` lines corrected · **069's 9/15 `review_by` was MISSING from the boot countdown — ADDED**, CALENDAR twin-synced · nothing owed before 9/15 (069) / 9/30 (076, HY-REKILL).
 
 ## Brief defects — 1
-① *"other live desks (WALTER, BROCK, TERRY, NEXUS) have uncommitted work in the tree"* — at boot (19:48) the only dirty paths were PROME's two state files; NEXUS became dirty mid-session (STATUS + a research file). Followed the no-pull rule regardless. 0 other false premises.
+① *"other live desks … have uncommitted work in the tree"* — at boot (19:48) only PROME's two state files were dirty; NEXUS became dirty mid-session. No-pull rule followed regardless. 0 others.
 
 ## Guards (rc pastes)
 `read_cap_check` → `✅ READ-CAP 0 [LIQUID]` (STATUS 32,429 B by `measure.py`; five 9/2 paragraphs rotated verbatim → `archive/status_snapshots/STATUS_PROSE_2026-09-03_rotation.md`) · `boot.py --selftest` → `SELFTEST: PASS` · `walter_route_check.py` → LIQUID absent from DESKS OWED (rc=1 is HENRY/LABOR/REGINALD/YEYOU) · `claim_check weekday` → `✓ 6 file(s) clean` · `corrections_boot_check` → `0 OK` · `ledger_staleness --nudge` → PREDICTIONS.tsv behind, LIQ-04 Kernel-pinned: **not refreshed, no prediction resolved, reason in the commit** · `orphan_check` → `[not yours]` NEXUS ×2, PROME ×2, SIGNALS.md (my row, carve-out ②, committed separately).
