@@ -18,7 +18,7 @@
 
 ## WHAT I DID
 
-*(Commit hashes filled at closeout — see `git log --oneline -- AGENTS/ORACLE/` for this session's set.)*
+Commits (3 ORACLE-authored, **all confirmed on origin**): `7d1cc025e` session work + memory extension · `705170712` the three packets (BOND / WALTER / HAWK) · plus this SCRATCH hash-fill.
 
 1. **Adjudicated PROME's Tier-1 ask at the instrument** — the two contradictory relayed September-Fed numbers. **Both wrong, differently:** BOND's 65–68% is a cumulative/aggregate contract mislabeled as meeting-specific (`KL 0.061 bits`); the WALTER-relayed "50bp CUT ~74.5%" is **sign-inverted and ~74pp off both venues** (`KL 6.619 bits` — ~108× further). Full working with every timestamp and basis: `domain/sources/2026-09-04_sept-fomc-instrument-adjudication.md`.
 2. **Dated the September FOMC crossover** from daily closes: no-change led through 8/28 (68.5 vs 30.5) → 8/29 **TIE at 49.5/49.5, +19pp in one day** → 8/31 **hike takes the lead** → held 5 straight sessions. Kalshi OI +80% since 8/21 = new money.
@@ -44,7 +44,7 @@
 
 ## CARRY-FORWARD
 
-- **Push state:** see closeout commit + `safe-push.sh` receipt line. Other agents (BOND, SAM, VIOLET) had **uncommitted changes outside my dir at boot**, so per root protocol I did **NOT pull**; `git log HEAD..origin/master` was empty, so nothing was missed.
+- **Push state: NOTHING UNPUSHED.** `safe-push.sh` receipt: `Pushed. CONFIRMED: HEAD 705170712 is on origin/master (fresh fetch).` (This SCRATCH hash-fill commits after it — re-push at close.) Other agents (BOND, SAM, VIOLET) had **uncommitted changes outside my dir at boot**, so per root protocol I did **NOT pull**; `git log HEAD..origin/master` was empty, so nothing was missed.
 - **Coverage sweep run 9/04 → next due ~2026-09-11.** 10 hits, **1 nomination pinned** (Fed no-change, $22.0M — the leg that *lost* the lead, which is exactly the blind spot `coverage` exists for: `movers` ranks by move size and would never have surfaced it).
 - **Kalshi lane LIVE + SIGNED on the desktop. Record lane state PER-BOX, never as a fleet fact.**
 - **`ledger_staleness` still counts HISTORY.tsv in "8 scanned" and prints no row for it** — PROME's tool; documented in the glob file, reported not patched.
