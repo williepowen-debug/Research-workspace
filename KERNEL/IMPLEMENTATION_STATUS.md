@@ -2,11 +2,11 @@
 
 **Owner:** PROME
 
-**Updated:** 2026-08-26
+**Updated:** 2026-09-03 (WQ-171 ②, Will *"Approve WQ-171 ① and ② and WQ-172 with your recs"*: the three status lines below re-derived from the activation / event / closeout records. **The body under them is the build chronology through 2026-08-26 and is HISTORY — its present-tense status lines (the remediation row in § increments, the 'has not been independently reviewed and no activation document … exists' paragraph, the '## Next action' heading, the Gate C row in the final table) are SUPERSEDED by this header and by the records; one leg they name is still true: the adversarial review of the live interface remains OWED.** Archival of the chronology → DOCKET (PROME, next KERNEL doc pass). Prior: 2026-08-26.)
 
-**Latest operator ruling:** Will authorized the bounded live-interface remediation on 2026-08-26 in-session ("approved - go ahead with the build"). The remediation is built and the disposable rehearsal was repeated through the exact new interface; the independent adversarial review is owed before any fresh C7 packet. No activation ruling has been requested.
+**Latest operator ruling:** Will 2026-09-02 10:57 ET (WQ-155, *"Approve 155 with your recs"*, record `GATE_C_C8_RULING_2026-09-02.md`): C8 after Sitting 2 = **CONTINUE** · WQ-149 carrier confirmed = F · scoring vocabulary = three-outcome (a), SPEC-GATED pending the data-and-score contract (DOCKET L247, 2026-09-09). Owed: root carve-out ④ wording (WQ-150, ~2026-09-08). *Prior (2026-08-26): Will authorized the bounded live-interface remediation in-session ("approved - go ahead with the build"); its independent adversarial review remains OWED (`GATE_C_LIVE_INTERFACE_REMEDIATION.md` State line) — the RED (Sitting 1) and DAEDALUS (Sitting 2) C8 reviews are sitting-closeout reviews, a different object.*
 
-**Current mode:** GATE C PLANNING — NOT LIVE — NON-AUTHORITATIVE
+**Current mode:** GATE C — BOUNDED SHADOW PILOT SITTINGS (Will-activated per sitting; NO ACTIVATION CURRENTLY LIVE) — NON-AUTHORITATIVE
 
 **Canonical use:** This file is the live implementation plan and progress tracker. Update it whenever a build increment is completed, blocked, reordered, or newly authorized. The proposal preserves design and ruling history; the audit preserves findings and checkpoint evidence; neither replaces this current-status surface.
 
