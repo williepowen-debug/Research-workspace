@@ -61,62 +61,103 @@ CANARIES = [
 ]
 
 # ── SCHEDULED-PUBLICATION CANARIES (added 2026-09-04, KB-VIO-226) ───────────────
-# A fixed calendar-age threshold is WRONG for any series with a fixed publication
-# lag, and it fails on a schedule you can compute in advance.
+# A fixed calendar-age threshold is WRONG for any series with a publication lag.
+# CFTC TFF report dates are nominally Tuesdays, released the following Friday at
+# 15:30 ET, so a PERFECTLY CURRENT ledger reads 10d old every Friday morning and a
+# >9d rule fires a guaranteed false DARK once a week, forever.
 #
-# CFTC TFF report dates are ALWAYS Tuesdays, released the FOLLOWING FRIDAY at
-# 15:30 ET — a fixed +3-day lag, verified against every report date in
-# COT_VIX.tsv. So the age of a PERFECTLY CURRENT ledger cycles:
+# ⚠️ CORRECTION 2026-09-04 (PM), AFTER AN EXTERNAL REVIEW (Codex, routed by Will).
+# The first version of this fix asserted a fixed Tue→Fri+3d lag and called itself
+# "zero free parameters, self-calibrating." **THAT CLAIM WAS WRONG**, and it was
+# wrong in the same direction as the bug it replaced — a false DARK on a schedule
+# I had not modelled. Per CFTC's published release schedule, FEDERAL HOLIDAYS move
+# BOTH ENDS of the window:
 #
-#     Fri 15:30 -> Sat   Tuesday 3d prior    3d   fresh
-#     Wed                Tuesday 8d prior    8d   fresh
-#     Thu                Tuesday 9d prior    9d   exactly on the old line
-#     Fri, before 15:30  Tuesday 10d prior  10d   DARK under the old >9d rule
+#   · Monday holiday  → the REPORT DATE moves Tue → Wed (collection slips a day)
+#   · Friday holiday  → the RELEASE moves to the following Monday
 #
-# ⇒ THE OLD RULE FIRED A GUARANTEED FALSE DARK EVERY FRIDAY MORNING, FOREVER, on a
-# ledger with nothing wrong with it. It did so on 2026-09-04 at both boot AND
-# closeout, as it had every Friday before.
+# So Juneteenth (Fri 2026-06-19) and Christmas (Fri 2026-12-25) would each have
+# produced a multi-day false DARK under v1 of this "fix". The arithmetic is not
+# self-calibrating; it depends on a FEDERAL HOLIDAY TABLE, which is a maintained
+# input with an expiry — and this module now says so out loud rather than
+# claiming a self-sufficiency it does not have.
 #
-# 🔑 The correct question is not "how old is the newest row" but "IS THE NEWEST
-# REPORT THAT HAS ALREADY BEEN RELEASED PRESENT?" That has zero free parameters:
-# expected = the latest Tuesday whose following-Friday 15:30 ET release has passed.
-# DARK iff the ledger's max date is older than that. Self-calibrating; no constant
-# to tune, and it cannot drift as the calendar moves.
+# 🔑 AND BECAUSE MY MODEL OF THIS SCHEDULE HAS NOW BEEN WRONG ONCE, THE GUARD NO
+# LONGER TRUSTS IT ALONE. When the ledger is exactly ONE report behind and any
+# federal holiday sits in the window, the state is 🟡 PENDING, not 🔴 DARK — an
+# unpublished report is an UNKNOWN, not a failure. Two or more reports behind is
+# DARK regardless, because no single holiday delays two releases.
 #
-# ⚠️ A crude scalar equivalent (>17d = 7d cadence + 3d lag + one missed cycle) was
-# considered and REJECTED: it hides the lag instead of modelling it, and it still
-# cannot tell a late publication from a missed one.
+# ⚠️ FEDERAL holidays are NOT the NYSE holidays in catalyst_countdown.py, and the
+# two tables must not be merged: Good Friday closes the NYSE and is not federal;
+# Columbus Day and Veterans Day are federal and the NYSE trades through them.
+FEDERAL_HOLIDAYS = {
+    # 2026
+    "2026-01-01", "2026-01-19", "2026-02-16", "2026-05-25",
+    "2026-06-19",  # Juneteenth (Fri) — would have false-DARKed v1
+    "2026-07-03",  # Independence Day observed (Jul 4 is a Saturday)
+    "2026-09-07",  # Labor Day (Mon) — moves the report date Tue->Wed
+    "2026-10-12", "2026-11-11", "2026-11-26",
+    "2026-12-25",  # Christmas (Fri) — would have false-DARKed v1
+    # 2027
+    "2027-01-01", "2027-01-18", "2027-02-15", "2027-05-31",
+    "2027-06-18",  # Juneteenth observed (Jun 19 is a Saturday)
+    "2027-07-05",  # Independence Day observed (Jul 4 is a Sunday)
+    "2027-09-06", "2027-10-11", "2027-11-11", "2027-11-25",
+    "2027-12-24",  # Christmas observed (Dec 25 is a Saturday)
+}
+HOLIDAY_COVERAGE = (date(2026, 1, 1), date(2027, 12, 31))
+
 SCHEDULED = {
     "COT_VIX.tsv": {
-        "report_weekday": 1,      # Tuesday (Mon=0)
-        "release_lag_days": 3,    # the Friday after that Tuesday
+        "nominal_report_weekday": 1,   # Tuesday (Mon=0)
+        "nominal_release_weekday": 4,  # Friday
         "release_hour_et": 15,
         "release_minute_et": 30,
-        "label": "CFTC TFF: Tue report date, released Fri 15:30 ET",
+        "label": "CFTC TFF: Tue report date, released Fri 15:30 ET "
+                 "(both shift on federal holidays — see FEDERAL_HOLIDAYS)",
     },
 }
 
 
-def expected_report_date(spec: dict, now_et: datetime) -> date:
-    """Latest report date whose release has ALREADY happened, as of now_et.
+def _is_fed_holiday(d: date) -> bool:
+    return d.isoformat() in FEDERAL_HOLIDAYS
 
-    Walks back from today to the most recent report-weekday, then keeps stepping
-    back a week until that report's release instant is in the past. Returns a
-    date; never guesses forward.
+
+def report_and_release(spec: dict, week_monday: date) -> tuple[date, datetime]:
+    """(report_date, release_instant) for the week beginning `week_monday`.
+
+    Monday holiday  -> report date slips Tue -> Wed.
+    Release lands on that week's Friday, pushed forward past any holiday/weekend.
     """
-    d = now_et.date()
-    # step back to the most recent report weekday (today counts)
-    d -= timedelta(days=(d.weekday() - spec["report_weekday"]) % 7)
-    for _ in range(60):  # bounded; 60 weeks is far past any real gap
-        release = datetime.combine(
-            d + timedelta(days=spec["release_lag_days"]),
-            time(spec["release_hour_et"], spec["release_minute_et"]),
-            tzinfo=ET,
-        )
+    report = week_monday + timedelta(days=spec["nominal_report_weekday"])
+    if _is_fed_holiday(week_monday):
+        report += timedelta(days=1)                      # Tue -> Wed
+    rel_day = week_monday + timedelta(days=spec["nominal_release_weekday"])
+    while _is_fed_holiday(rel_day) or rel_day.weekday() >= 5:
+        rel_day += timedelta(days=1)                     # Fri holiday -> next Mon
+    return report, datetime.combine(
+        rel_day, time(spec["release_hour_et"], spec["release_minute_et"]), tzinfo=ET)
+
+
+def expected_report_date(spec: dict, now_et: datetime) -> date:
+    """Latest report date whose release has ALREADY happened, as of now_et."""
+    wk = now_et.date() - timedelta(days=now_et.date().weekday())   # this Monday
+    for _ in range(60):
+        report, release = report_and_release(spec, wk)
         if release <= now_et:
-            return d
-        d -= timedelta(days=7)
-    return d
+            return report
+        wk -= timedelta(days=7)
+    return report
+
+
+def holiday_in_window(lo: date, hi: date) -> list[str]:
+    return sorted(h for h in FEDERAL_HOLIDAYS if lo.isoformat() <= h <= hi.isoformat())
+
+
+def coverage_ok(d: date) -> bool:
+    return HOLIDAY_COVERAGE[0] <= d <= HOLIDAY_COVERAGE[1]
+
 
 # Rows with a registered threshold but NO backing ledger — they cannot be checked
 # mechanically, which is itself worth surfacing rather than silently passing.
@@ -228,23 +269,43 @@ def main(argv=None) -> int:
         age = (today - d).days
         spec = SCHEDULED.get(ledger)
         if spec is not None:
-            # Schedule-aware: is the newest ALREADY-RELEASED report present?
             exp = expected_report_date(spec, now_et)
-            behind = (exp - d).days // 7 if d < exp else 0
-            if d < exp:
-                state = "🔴 DARK"
+            if not coverage_ok(exp) or not coverage_ok(today):
+                rows.append((name, ledger, str(d), f"{age}d", "🟡 UNKNOWN"))
                 dark.append(
-                    f"{name}: {ledger} newest report {d}, but {exp} was released "
-                    f"{(exp - d).days // 7} publication(s) ago "
-                    f"({spec['label']}) — genuinely behind, not a schedule artifact")
+                    f"{name}: federal-holiday table covers {HOLIDAY_COVERAGE[0]}..{HOLIDAY_COVERAGE[1]}; "
+                    f"{exp}/{today} is outside it, so the release schedule cannot be computed. "
+                    f"FAILING CLOSED — extend FEDERAL_HOLIDAYS in canary_staleness.py.")
+            elif d >= exp:
+                rows.append((name, ledger, str(d), f"{age}d", "🟢 fresh"))
+                if not a.quiet:
+                    sched_notes.append(
+                        f"  ℹ️  {name}: {age}d old and CORRECT — {exp} is the newest report "
+                        f"released as of now ({spec['label']}). A fixed >9d age rule called "
+                        f"this DARK every Friday morning; KB-VIO-226.")
             else:
-                state = "🟢 fresh"
-            rows.append((name, ledger, str(d), f"{age}d", state))
-            if not a.quiet and d >= exp:
-                sched_notes.append(
-                    f"  ℹ️  {name}: {age}d old and CORRECT — {exp} is the newest report "
-                    f"released as of now ({spec['label']}). "
-                    f"A fixed >9d age rule called this DARK every Friday morning; KB-VIO-226.")
+                behind = len([w for w in range(1, 60)
+                              if (exp - timedelta(days=7 * w)) >= d]) or 1
+                hols = holiday_in_window(d, today)
+                if behind <= 1 and hols:
+                    # ⚠️ FAIL SAFE. My model of this schedule has already been wrong
+                    # once (v1 ignored holidays entirely). One report behind WITH a
+                    # holiday in the window is an UNKNOWN, not a failure — an
+                    # unpublished report and a missed pull look identical from here.
+                    rows.append((name, ledger, str(d), f"{age}d", "🟡 PENDING"))
+                    sched_notes.append(
+                        f"  🟡 {name}: newest ledger report {d}, expected {exp} — ONE behind, "
+                        f"and federal holiday(s) {', '.join(hols)} fall in the window. "
+                        f"CFTC shifts BOTH the report date (Mon holiday: Tue->Wed) and the "
+                        f"release (Fri holiday: -> Mon). Treating as PENDING, not DARK. "
+                        f"⚠️ If it is still behind after the next clean week, it is real.")
+                else:
+                    rows.append((name, ledger, str(d), f"{age}d", "🔴 DARK"))
+                    dark.append(
+                        f"{name}: {ledger} newest report {d}, expected {exp} — "
+                        f"{behind} publication(s) behind ({spec['label']})"
+                        + (f"; holidays {', '.join(hols)} in window cannot explain "
+                           f"{behind} missed releases" if hols else ""))
             continue
         state = "🔴 DARK" if age > limit else ("🟡 aging" if age > limit // 2 else "🟢 fresh")
         if age > limit:
@@ -317,13 +378,54 @@ def selftest() -> int:
         ("Sat after release",                  datetime(2026, 9, 5, 10, 0, tzinfo=ET),  date(2026, 9, 1)),
         ("Mon holiday (Labor Day)",            datetime(2026, 9, 7, 10, 0, tzinfo=ET),  date(2026, 9, 1)),
         ("Thu, 9d old and CORRECT",            datetime(2026, 9, 10, 10, 0, tzinfo=ET), date(2026, 9, 1)),
-        ("next Fri post-release rolls on",     datetime(2026, 9, 11, 16, 0, tzinfo=ET), date(2026, 9, 8)),
+        # ⚠️ CHANGED 2026-09-04 PM, and NOT to make a red test pass. v1 of this
+        # file asserted 2026-09-08 here. That expectation was WRONG: Labor Day is
+        # Mon 2026-09-07, so CFTC collection slips and the report date is Wed
+        # 09-09. The corrected code produced 09-09, the stale assertion failed,
+        # and the assertion is what was wrong. Tightening, not loosening — the
+        # old value encoded the very bug this pass fixes.
+        ("next Fri post-release rolls on (Labor Day week -> WED 09-09)",
+         datetime(2026, 9, 11, 16, 0, tzinfo=ET), date(2026, 9, 9)),
     ]:
         ck(label, expected_report_date(spec, now), want)
 
-    ck("every expected date is a Tuesday",
-       all(expected_report_date(spec, datetime(2026, 9, d, 12, 0, tzinfo=ET)).weekday() == 1
+    # ⚠️ REPLACED 2026-09-04 PM. The old assertion was "every expected date is a
+    # Tuesday" — which is exactly the false invariant this pass removed, so it
+    # necessarily failed once the code became correct. The real invariant is
+    # weaker and is the honest one: a report date is a Tuesday UNLESS that week's
+    # Monday is a federal holiday, in which case it is the Wednesday.
+    def _weekday_ok(d0: date) -> bool:
+        exp = expected_report_date(spec, datetime(d0.year, d0.month, d0.day, 12, 0, tzinfo=ET))
+        wk_mon = exp - timedelta(days=exp.weekday())
+        return exp.weekday() == (2 if _is_fed_holiday(wk_mon) else 1)
+
+    ck("report date is Tue, or Wed after a Monday federal holiday",
+       all(_weekday_ok(date(2026, 9, d)) for d in range(1, 29)), True)
+    ck("and that exception actually bites in Sep 2026 (Labor Day)",
+       any(expected_report_date(spec, datetime(2026, 9, d, 12, 0, tzinfo=ET)).weekday() == 2
            for d in range(1, 29)), True)
+
+    # ── HOLIDAY CASES — the ones v1 of this fix got WRONG (external review) ──
+    # Each of these would have produced a multi-day FALSE DARK under the fixed
+    # Tue->Fri+3d assumption. They are the regression tests for that mistake.
+    ck("Juneteenth Fri 2026-06-19: release slips to Mon 06-22",
+       report_and_release(spec, date(2026, 6, 15))[1].date(), date(2026, 6, 22))
+    ck("  ...so on Fri 06-19 16:00 the 06-16 report is NOT yet expected",
+       expected_report_date(spec, datetime(2026, 6, 19, 16, 0, tzinfo=ET)), date(2026, 6, 9))
+    ck("  ...and after Mon 06-22 15:30 it IS",
+       expected_report_date(spec, datetime(2026, 6, 22, 16, 0, tzinfo=ET)), date(2026, 6, 16))
+    ck("Christmas Fri 2026-12-25: release slips to Mon 12-28",
+       report_and_release(spec, date(2026, 12, 21))[1].date(), date(2026, 12, 28))
+    ck("Labor Day Mon 2026-09-07: REPORT DATE slips Tue->Wed 09-09",
+       report_and_release(spec, date(2026, 9, 7))[0], date(2026, 9, 9))
+    ck("  ...its release is still Fri 09-11",
+       report_and_release(spec, date(2026, 9, 7))[1].date(), date(2026, 9, 11))
+    ck("normal week: report Tue, release Fri",
+       report_and_release(spec, date(2026, 8, 24)), (date(2026, 8, 25),
+       datetime(2026, 8, 28, 15, 30, tzinfo=ET)))
+    ck("holiday_in_window sees Labor Day", holiday_in_window(date(2026, 9, 1), date(2026, 9, 10)),
+       ["2026-09-07"])
+    ck("coverage_ok rejects 2028", coverage_ok(date(2028, 1, 3)), False)
 
     # ── the DARK path must still fire on a genuinely behind ledger ───────────
     # THE POINT OF THIS BLOCK: the fix removes a false alarm, and the risk of any

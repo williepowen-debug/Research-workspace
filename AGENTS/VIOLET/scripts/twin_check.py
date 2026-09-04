@@ -134,34 +134,77 @@ def main(argv=None) -> int:
 
     if not a.quiet:
         print(f"TWIN CHECK  •  CALENDAR.md ⇄ CATALYSTS.tsv  •  {today}")
-        print(f"  forward CATALYSTS rows: {len(cats)}   CALENDAR forward rows: {len(cal)}")
+        fwd = [c for c in cats if c.get("date", "") >= today.isoformat()]
+        print(f"  CATALYSTS rows: {len(cats)} ({len(fwd)} forward)   "
+              f"CALENDAR forward-section rows: {len(cal)}")
         print("  ⚠️  This tool reports divergence. It does NOT pick a winner — see the docstring.")
         print("─" * 92)
 
+    # ── ① PAST-DATED ROWS STILL IN THE ACTIVE FORWARD SECTION ────────────────
+    # v1 never checked this and the external review found three August events
+    # sitting under "ACTIVE FORWARD CATALYSTS" while the check returned green.
+    for ln, ld, ltext in cal:
+        if ld < today:
+            problems.append(
+                f"🟠 PAST EVENT STILL IN 'ACTIVE FORWARD' — CALENDAR.md line {ln}: {ld}\n"
+                f"     {ltext[:110].strip()}\n"
+                f"     A fired catalyst under a FORWARD heading is a live-looking dead row.\n"
+                f"     Move it to the RESOLVED section (with its grade) — do not delete it.")
+
+    # ── ①b PAST-DATED ROWS STILL IN CATALYSTS ────────────────────────────────
+    # SYMMETRY, and it was missing: v2 of this file reported past rows on the
+    # CALENDAR side and SILENTLY SKIPPED them on the CATALYSTS side (`if cd <
+    # today: continue`). Both surfaces were carrying the SAME three fired August
+    # rows; the external review saw only the CALENDAR half, and the first
+    # bidirectional run still would not have reported the other. Fixing one
+    # direction of a symmetric check and leaving the other is how a defect
+    # survives its own fix.
     for c in cats:
         try:
             cd = datetime.strptime(c["date"], "%Y-%m-%d").date()
         except ValueError:
             continue
         if cd < today:
-            continue                       # fired rows live in CALENDAR's RESOLVED section
-        ck = key_words(c["event"])
-        # best CALENDAR match by content-word overlap
-        best, score = None, 0
-        for ln, ld, ltext in cal:
-            ov = len(ck & key_words(ltext))
-            if ov > score:
-                best, score = (ln, ld, ltext), ov
-        cls, where = date_class_of(c)
-        src = (c.get("source") or "").strip()
+            problems.append(
+                f"🟠 FIRED ROW STILL IN CATALYSTS.tsv — {cd}  {c['event'][:70]}\n"
+                f"     Write-back step 10 prunes fired rows. Grade it into CALENDAR's\n"
+                f"     RESOLVED section first — pruning has a trigger (the event fires)\n"
+                f"     and grading has none, so an ungraded prune loses the obligation.")
 
-        if best is None or score < 2:
+    # ── ② CATALYSTS → CALENDAR, ONE-TO-ONE ───────────────────────────────────
+    # v1 let ONE CALENDAR row satisfy MANY CATALYSTS rows, so 8 catalysts matched
+    # against 7 calendar rows and still returned green. Each CALENDAR row may now
+    # be claimed at most once, and the claim must be unambiguous.
+    claimed: dict[int, str] = {}
+    for c in cats:
+        try:
+            cd = datetime.strptime(c["date"], "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if cd < today:
+            continue
+        ck = key_words(c["event"])
+        scored = sorted(((len(ck & key_words(t)), ln, ld, t) for ln, ld, t in cal),
+                        key=lambda x: -x[0])
+        best = scored[0] if scored else None
+        if best is None or best[0] < 2:
             problems.append(
                 f"🟠 MISSING FROM CALENDAR — {c['date']}  {c['event'][:70]}\n"
                 f"     CATALYSTS is the source of truth, so the human twin is INCOMPLETE.\n"
                 f"     Add it; do not delete the CATALYSTS row to make them agree.")
             continue
-        ln, ld, _ = best
+        score, ln, ld, _ = best
+        if ln in claimed:
+            problems.append(
+                f"🔴 TWO CATALYSTS ROWS MATCH ONE CALENDAR ROW (line {ln}) — ambiguous twin\n"
+                f"     · {claimed[ln][:80]}\n"
+                f"     · {c['event'][:80]}\n"
+                f"     One CALENDAR row cannot represent two dated obligations. Split it,\n"
+                f"     or this check silently certifies a surface that is missing one.")
+            continue
+        claimed[ln] = c["event"]
+        cls, where = date_class_of(c)
+        src = (c.get("source") or "").strip()
         if ld != cd:
             if cls in HARD:
                 verdict = (
@@ -184,14 +227,29 @@ def main(argv=None) -> int:
                 f"     ⚠️  Recency is NOT a tiebreaker either: on 2026-09-04 the more recently\n"
                 f"     edited surface was the wrong one, twice (KB-VIO-235).")
 
+    # ── ③ CALENDAR → CATALYSTS (the direction v1 never ran) ──────────────────
+    # Without this, a forward CALENDAR row that no catalyst backs is invisible —
+    # and CATALYSTS is the declared source of truth, so an unbacked forward row
+    # is either a missing catalyst or a row that should not be forward.
+    for ln, ld, ltext in cal:
+        if ld < today or ln in claimed:
+            continue
+        problems.append(
+            f"🟠 CALENDAR FORWARD ROW WITH NO CATALYSTS BACKING — line {ln}: {ld}\n"
+            f"     {ltext[:110].strip()}\n"
+            f"     CATALYSTS.tsv is the source of truth and has no matching row.\n"
+            f"     Either add the catalyst or demote this row — an unbacked forward row\n"
+            f"     is a dated obligation nothing machine-readable knows about.")
+
     if problems:
-        for p in problems:
-            print(p)
+        for p_ in problems:
+            print(p_)
             print()
         print(f"🔴 TWIN CHECK — {len(problems)} item(s) need an OPERATOR decision, not an edit.")
         return 1
     if not a.quiet:
-        print(f"  ✅ every forward CATALYSTS row has a matching CALENDAR row on the same date.")
+        print(f"  ✅ {len(claimed)} forward CATALYSTS row(s) matched 1:1 to CALENDAR rows on the")
+        print(f"     same date; no past rows under the forward heading; no unbacked forward rows.")
         print(f"  ⚠️  Consistent ≠ correct — this proves the twins agree, never that either is right.")
     return 0
 

@@ -53,7 +53,8 @@ one behind.
 Exit codes: 0 = ordering holds; 1 = at least one surface lags STATUS.
 """
 from __future__ import annotations
-import argparse, subprocess, sys, time
+import argparse, re, subprocess, sys, time
+from datetime import datetime
 from pathlib import Path
 
 AGENT_DIR = Path(__file__).resolve().parent.parent
@@ -90,6 +91,87 @@ def effective_ts(name: str) -> tuple[int, str]:
     return int(ct), f"committed {when} ({sha})"
 
 
+def brief_provenance() -> list[str]:
+    """Check the two provenance stamps the ORDERING rule cannot see.
+
+    Added 2026-09-04 PM after an external review (Codex, routed by Will) found
+    both wrong on a brief this very check had just passed green:
+
+      · it cited `ef3e0be9c` as its STATUS commit while the latest STATUS commit
+        was `ec5d05b69` — the hash pointed two commits and four hours back
+      · it was stamped "~14:3x ET" and committed at 13:56 ET — a stamp from the
+        FUTURE relative to its own commit
+
+    The ordering rule compares vintages and is blind to both, exactly as this
+    module's docstring warned. That warning was correct and it was not enough:
+    a limitation you have written down is still a limitation. These two stamps
+    are the part of "content" that IS mechanically checkable, so they are checked.
+    """
+    out: list[str] = []
+    rel = _rel("NEXUS_BRIEF.md")
+    if not (AGENT_DIR / "NEXUS_BRIEF.md").exists():
+        return out
+    if _git("status", "--porcelain", "--", rel):
+        return out                       # being written now; nothing committed to judge
+    text = (AGENT_DIR / "NEXUS_BRIEF.md").read_text(encoding="utf-8")
+
+    # ① cited STATUS hash must be the current STATUS head, or the brief's own commit
+    # `same-commit` is a legitimate, VERIFIABLE answer to the chicken-and-egg:
+    # when the brief and STATUS land in one commit the sha cannot be known while
+    # writing. The marker is not a free pass — it asserts something checkable
+    # after the fact (that they really did land together) and is RED if they did not.
+    m = re.search(r"STATUS commit:\*{0,2}\s*`(same-commit|[0-9a-f]{7,40})`", text)
+    latest = _git("log", "-1", "--format=%h", "--", _rel("STATUS.md"))
+    brief_commit = _git("log", "-1", "--format=%h", "--", rel)
+    if not m:
+        out.append("  🔴 NEXUS_BRIEF has no `STATUS commit:` hash — NEXUS cannot tell which "
+                   "STATUS this brief stands on.")
+    elif m.group(1) == "same-commit":
+        if latest and brief_commit and latest != brief_commit:
+            out.append(f"  🔴 NEXUS_BRIEF claims `same-commit` but STATUS's latest commit is "
+                       f"`{latest}` while the brief was committed in `{brief_commit}`.\n"
+                       f"     They did NOT land together — the marker is false.")
+    else:
+        cited = m.group(1)
+        if latest and not (latest.startswith(cited) or cited.startswith(latest)
+                           or brief_commit.startswith(cited) or cited.startswith(brief_commit)):
+            out.append(f"  🔴 NEXUS_BRIEF cites STATUS commit `{cited}`, but the latest STATUS "
+                       f"commit is `{latest}` (brief committed in `{brief_commit}`).\n"
+                       f"     A stale hash sends NEXUS to the wrong STATUS while every vintage "
+                       f"check passes green.")
+
+    # ② the As-of stamp cannot be later than the commit that published it
+    ms = re.search(r"\*\*As of:\*\*\s*(\d{4}-\d{2}-\d{2})\s*\*{0,2}~?(\d{1,2}):(\d{2}|\dx|xx)", text)
+    ct = _git("log", "-1", "--format=%ct", "--", rel)
+    if ms and ct:
+        # "~14:3x" means 14:30-14:39, so the FLOOR is 30, not 0. The first version
+        # fell back to 0 on any non-digit, which made this check untrippable on
+        # exactly the fuzzy stamps VIOLET actually writes — a guard that cannot
+        # fire [[finding_banded_threshold_with_no_metric_surface_is_untrippable]].
+        # Floor is the charitable reading: it under-reports drift, never invents it.
+        mins = ms.group(3)
+        if mins.isdigit():
+            mn = int(mins)
+        elif len(mins) == 2 and mins[0].isdigit():           # "3x" -> 30
+            mn = int(mins[0]) * 10
+        else:                                                 # "xx" -> unknown, floor 0
+            mn = 0
+        try:
+            stamped = datetime.strptime(f"{ms.group(1)} {int(ms.group(2)):02d}:{mn:02d}",
+                                        "%Y-%m-%d %H:%M")
+        except ValueError:
+            stamped = None
+        if stamped is not None:
+            committed = datetime.fromtimestamp(int(ct))
+            drift = (stamped - committed).total_seconds() / 60.0
+            if drift > 5:
+                out.append(f"  🔴 NEXUS_BRIEF is stamped {stamped:%H:%M} but was committed at "
+                           f"{committed:%H:%M} — a stamp {drift:.0f} min in its own FUTURE.\n"
+                           f"     Write timestamps from the clock, not from the narrative "
+                           f"[[finding_write_timestamps_from_the_clock_not_the_narrative]].")
+    return out
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--quiet", action="store_true")
@@ -114,6 +196,17 @@ def main() -> int:
     if lagging or not a.quiet:
         print("\n".join(lines))
 
+    prov = brief_provenance()
+    if prov:
+        print("\n  🔴 BRIEF PROVENANCE:")
+        for line in prov:
+            print(line)
+
+    if lagging or prov:
+        if not lagging:
+            print(f"\n  🔴 {len(prov)} brief-provenance problem(s) — the ordering half is fine, "
+                  f"the stamps are not.")
+            return 1
     if lagging:
         print(f"\n  🔴 WRITE-BACK ORDERING BREACH — {len(lagging)} surface(s) lag {REF}.")
         print("     Each of these is read by someone who is NOT me:")
