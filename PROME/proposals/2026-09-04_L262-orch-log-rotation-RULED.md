@@ -13,4 +13,5 @@
 
 ## Build assignment + clocks
 - **DAEDALUS builds (a) + (c)** as a follow-up inside the approved ORCH_LOG-helper workstream (it authored `orch_log.py` v2 and holds the `scripts/` grant); PROME runs (b) at its monthly closeout via (c). DAEDALUS's consumer half (scorecard reads hot + archives, de-dup on `(date, desk, touch)`) lands before render #3 on 9/11 regardless.
-- **Target:** (a)+(c) built and self-tested by 9/11; first rotation = the first PROME closeout of October (`--through 2026-09`); READS row 104 re-key at the (a) landing touch.
+- **Gate (DAEDALUS 09:2x):** (a)+(c) change a live writer path in shared `scripts/` ⇒ Will-visible under DAEDALUS's scripts grant before landing — DAEDALUS presents it in its own window; the consumer half landed 9/4 (`d3a73b1dc`) without it.
+- **Target:** (a)+(c) built and self-tested by 9/11 once Will's word lands; first rotation = the first PROME closeout of October (`--through 2026-09`); READS row 104 re-key at the (a) landing touch.
