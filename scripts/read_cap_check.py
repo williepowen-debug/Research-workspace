@@ -72,9 +72,15 @@ QUALIFIER_TAIL = 80        # chars AFTER the token in which 'on demand'/'cold'/'
 # scored as whole reads — a scoped read can only OVER-count, never under, so the fleet figure was
 # inflated and rankings shifted. A scope token in the verb→token window or the qualifier tail
 # means a PART is read; the file drops out. READS.tsv will declare scope explicitly.
-SCOPE_MARKERS = ("header", "the top", "top entry", "top of", "top block", "first ", "last ", "head of",
+SCOPE_MARKERS = ("header", "the top", "top entry", "top of", "top block", "head of",
                  "tail of", "section", "block", "table", "tables", "cross-reference", "skim", "spot-check",
                  "consult", "lines ", "rows ", "preamble", "summary", "bottom line", "only the", "just the")
+# 'first '/'last ' were BARE tokens until 2026-09-04 and matched "from last session" in VIOLET's
+# boot step 2 ("Read `SCRATCH.md` — ephemeral handoff from last session"), scoring an 18 KB WHOLE
+# read as SCOPED and dropping it from the perimeter — a false NEGATIVE, the direction this tool
+# must not fail in. A scoping qualifier is "first/last N" or "first/last <unit>"; "last session",
+# "last week", "first boot" are not. Found on the VIOLET profile refresh (DAEDALUS).
+SCOPE_ORDINAL_RE = re.compile(r"\b(?:first|last)\s+(?:\d+|n\b|few\b|entry|entries|row|rows|line|lines|block|blocks|section|sections|item|items|paragraph|paragraphs|page|pages)")
 # Sub-headings nested under a boot heading that are protocols, not boot steps (WAL: a KB.tsv
 # mention inside "Inbox Processing Protocol" under the boot section was scored as a boot read).
 NON_BOOT_SUBHEAD_RE = re.compile(r"\b(inbox|protocol|closeout|mail|output|writing|delivery|escalation)\b", re.I)
@@ -173,7 +179,8 @@ def boot_reads(name):
                 if any(k in before[rp:] or k in after for k in ON_DEMAND_MARKERS):
                     skipped_on_demand += 1
                     continue
-                if any(k in before[rp:] or k in after for k in SCOPE_MARKERS):
+                if (any(k in before[rp:] or k in after for k in SCOPE_MARKERS)
+                        or SCOPE_ORDINAL_RE.search(before[rp:]) or SCOPE_ORDINAL_RE.search(after)):
                     skipped_scoped += 1
                     # READ_CAP rule 8 (WALTER): a scoped read of an over-cap file is a PARTIAL fix —
                     # the read is honest, the file is not lean. Keep it visible, never counted.
