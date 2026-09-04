@@ -355,3 +355,14 @@
 
 > 🔴 **One live carry-forward was deliberately LEFT on the hot half rather than rotated with these rows:** the Canada cell asserted *"No LABOR surface carried '~$28B' … verified by grep, zero hits."* **That was false** — `docket/CATALYSTS.tsv:3` carried it until 2026-09-04, when the figure was corrected to the primary (CA$27.6B, three tiers 15/25/50%). A correction must not rotate to cold in the same breath as the claim it corrects.
 
+---
+
+## `calendar-graded-20260903`
+
+**Rotated out of `STATUS.md` 2026-09-04 (read-cap: the hot half hit 32,667 B against the 32,550 B budget after the BOND pending row). VERBATIM — no figure changed in the move. Both were graded off frozen cards on 9/3 with no score movement, and both are superseded as "latest print" by the 9/4 NFP grade.**
+
+| Date | Item | Action |
+|---|---|---|
+| ✅ 🟢 **Thu Sep 3 08:30** | **Initial claims w/e Aug 29** | **206K single / MA 207.2K, CC 1,779K (w/e Aug 22).** INDEPENDENCE_MAP §4 band **186–229K = NO BAND / NO ACTION.** Mechanical `(206−200)/4 = +1.5K` matches realised +1.7K MA move within a prior-week revision. Kill-B 0/5; vector 13 held at 2. **No packet travels; attribution bar unchanged.** |
+| ✅ 🟢 **Thu Sep 3 10:00** | **ISM Services PMI August** | **Employment 47.8** (+0.4, 2nd month contraction); Headline PMI 55.4 (§2b NO-ACTION); Business Activity 61.7; New Orders 60.9. Band **<50.0 ⇒ vector 3 HOLDS at 2** (survey layer split). No score moves; no packet travels. Card `git mv`'d to `docket/graded/`. |
+
