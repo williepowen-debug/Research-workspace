@@ -5,6 +5,10 @@ ledger_staleness.py — boot-time workbook-ledger staleness alert.
 Enforces the root CLAUDE.md "Data Hygiene" rule: a workbook TSV ledger must be
 in ONE of two states, never the silent-rot middle —
   (a) FROZEN — first line is a banner beginning 'FROZEN' (declared dead; exempt), or
+      ⚠️ FLEET NOTE (2026-09-03, PROME ask (d)): a LIVE ledger whose header MUST mention a
+      dead-marker word (retire-and-point wording: "RETIRED … SUPERSEDED by …") carries an
+      explicit live declaration in its header — `# LIVE ledger.` or `Status: LIVE` — which
+      dominates every marker that is not the first token of its line (rules 1/7/10). Or
   (b) LIVE and within `--days` of the agent's STATUS.md.
 This script reports any LIVE ledger that has fallen behind STATUS, so the gap is
 surfaced at boot instead of rotting silently. (Audit 2026-06-27 found 8 agents
@@ -673,6 +677,16 @@ def _line_has_marker(line):
     return False
 
 
+LINE_INITIAL_MARKER_RE = re.compile(
+    r"^[^A-Za-z0-9]{0,12}(?:FROZEN|RETIRED|SUPERSEDED|ARCHIVED|NOT CURRENT|DO NOT CITE|NOT MAINTAINED)\b", re.IGNORECASE)
+
+
+def _line_initial_marker(line):
+    """A marker as the line's FIRST token (after comment/emoji/emphasis chars) is a declaration."""
+    scan = line.split("\t", 1)[0]
+    return bool(LINE_INITIAL_MARKER_RE.match(scan)) and _line_has_marker(line)
+
+
 def is_frozen(path):
     """True if the banner region declares the surface intentionally static.
     Named is_frozen for call-site compatibility; recognizes the whole dead-banner set.
@@ -692,11 +706,23 @@ def is_frozen(path):
         # itself carries a valid marker (same-line conflict → the marker wins).
         if LINE1_LIVE_RE.search(l1.upper().split("\t", 1)[0]) and not _line_has_marker(l1):
             return False
+        # Rule 10 (2026-09-03, BROCK f59290aa2 via PROME — second trip in three hours): the
+        # retire-and-point wording PROME's own instructions put into LIVE headers ("predecessor
+        # line RETIRED … SUPERSEDED by GATE-BRK-R2") is UPPERCASE prose, so rule 9 cannot see it.
+        # A banner DECLARES: it starts its line (after # / emoji / emphasis). Prose MENTIONS mid-
+        # line. So: a LIVE declaration anywhere in the banner region dominates every marker that
+        # is not LINE-INITIAL; a line-initial banner ("# SUPERSEDED — live at …") still wins.
+        # The 7/22 revert case stays reverted: pointer phrases (LIVE SUCCESSOR/HOME(S)/CANONICAL)
+        # are excluded from what counts as a live declaration by LINE1_LIVE_RE itself.
+        header = []
         for line in lines:
-            # Rule 5: banner region ends at the first non-comment line containing
-            # a tab (column-header row or first data row).
             if "\t" in line and not line.lstrip().startswith("#"):
                 break
+            header.append(line)
+        header_live = any(LINE1_LIVE_RE.search(l.upper().split("\t", 1)[0]) for l in header)
+        if header_live and not any(_line_initial_marker(l) for l in header):
+            return False
+        for line in header:
             if _line_has_marker(line):     # rule 9: RAW line, markers case-sensitive
                 return True
         return False
@@ -728,6 +754,15 @@ _SELFTEST = [
      "# RETIRED rows are kept, never deleted\na\tb\n1\t2\n", False),
     ("VULCAN/WATT — glued citation 'a FROZEN/NOT-CURRENT banner'",
      "# see §8: a FROZEN/NOT-CURRENT banner is required on retirement\na\tb\n1\t2\n", False),
+    ("BROCK 9/3 #2 (f59290aa2) — UPPERCASE 'RETIRED … SUPERSEDED by GATE-BRK-R2' prose, '# LIVE ledger' on line 2",
+     "# WQ-158 predecessor line RETIRED 2026-09-03 and SUPERSEDED by GATE-BRK-R2; see GATES.tsv\n"
+     "# LIVE ledger. Last real data refresh: 2026-09-03.\na\tb\n1\t2\n", False),
+    ("PROME ask (c) — ALL SEVEN markers as prose inside col 100 on a LIVE two-clock ledger",
+     "# LIVE ledger. Last real data refresh: 2026-09-03.\n"
+     "# History: FROZEN spec 7/1; RETIRED row policy; NOT CURRENT figures moved; DO NOT CITE the old NAV; NOT MAINTAINED since 8/1; ARCHIVED copy at x; SUPERSEDED by y\n"
+     "a\tb\n1\t2\n", False),
+    ("documented RESIDUAL — uppercase RETIRED prose with NO live declaration anywhere still reads FROZEN (mitigation = ask (d): carry 'LIVE ledger' / 'Status: LIVE' in the header)",
+     "# predecessor line RETIRED 2026-09-03, SUPERSEDED by GATE-BRK-R2\n# Last real data refresh: 2026-09-03\na\tb\n1\t2\n", True),
     ("genuine — '# FROZEN <date> — not maintained'",
      "# FROZEN 2026-07-01 — not maintained; STATUS is canonical, do not cite rows as current\na\tb\n1\t2\n", True),
     ("genuine — PHAN 8/11 line-initial qualified '# FROZEN-VINTAGE'",
@@ -1013,7 +1048,7 @@ def main():
     ap.add_argument("--abs-floor", action="store_true", help="(c) also flag any live ledger whose absolute content vintage exceeds --abs-days regardless of the relative delta (PAT-092 counter)")
     ap.add_argument("--abs-days", type=int, default=90, help="absolute-age floor in days for --abs-floor (default 90)")
     ap.add_argument("--selftest", action="store_true",
-                    help="run the is_frozen falsification set (16 fixtures, positive+negative controls); exit 1 on any miss")
+                    help="run the is_frozen falsification set (19 fixtures, positive+negative controls); exit 1 on any miss")
     args = ap.parse_args()
     if args.selftest:
         return selftest()

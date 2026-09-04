@@ -1,0 +1,22 @@
+# CLAUDE.md rotation archive — 2026-09 (month = ROTATION month; per-block crc32; verbatim spans cut from the charter to bring it back under the 32,550 B budget — it measured 33,850 B = 104% on 2026-09-03)
+> Each block is the EXACT span removed, recoverable by crc. The charter keeps a compact pointer at each cut site. A rotation is not a discharge: the rules these spans carried are restated in the pointers.
+
+## block 1 — block 1 — closeout-battery read_cap_check invocation note (line 46), rotated 2026-09-03 (crc32 4146631002; 1423 B)
+
+⚠️ **(invocation CORRECTED 2026-09-02 — and the first diagnosis was WRONG, which is the lesson.** This line prescribed `AGENTS/DAEDALUS/scripts/read_cap_check.py` bare. **TWO DIFFERENT TOOLS SHARE THAT ONE NAME:** repo-root `scripts/read_cap_check.py` (15,832 B) is the fleet tool — owns the constants, takes `--agent`/`--fleet` — and `AGENTS/DAEDALUS/scripts/read_cap_check.py` (9,400 B) is a DAEDALUS-local **file-list** checker that takes `[FILE ...]` and **imports** those constants. Not a fork and not stale: a deliberate single-owner-constants split, and good design. **The defect is that the charter's command and `READ_CAP.md`'s documented command name the same file and mean different tools** — run the documented `--agent DAEDALUS` against the local one and it dies `CANNOT-CERTIFY: could not size 2 file(s): --agent, DAEDALUS`, reading the flags as filenames. It fails loud, which is the only reason this was survivable. ⚠️ **I first wrote this note calling the local copy a stale predecessor and had to retract it one command later** — the uncharitable reading of my own tree was as unchecked as a flattering one would have been (`finding_a_charitable_reading_of_your_work_is_the_one_to_check`, inverted). **Standing rule this earns: two tools may not share a basename across `scripts/` and `AGENTS/<NAME>/scripts/` — the invocation site cannot disambiguate them and neither can a grep.**)**
+
+## block 2 — block 2 — STATUS byte-budget constant history (line 156), rotated 2026-09-03 (crc32 3048412124; 412 B)
+
+⚠️ **This line said `48,000 B` for six days after the budget was re-derived** — the constant it names is the one thing a byte rule cannot afford to carry stale, and 48,000 B was **88% of the read cap**, i.e. it licensed a STATUS that could not be read whole. *(The 8/17 basis it replaced was a DENSITY snapshot — 752 B/line × ~64 lines — a constant sized from a proxy that then decayed on both legs.)*
+
+## block 3 — block 3 — STATUS rotation history (line 156), rotated 2026-09-03 (crc32 1538935631; 254 B)
+
+*(Rotations: 8/17 100,051 → 25.6 KB, self-audit F1 — this file violated its own convention by 3.9× the week it shipped; 8/23 twice, the second time because the session's own write-up put it at 99.8% of budget before a line of results was recorded.)*
+
+## block 4 — block 4 — SPAWN step 2 re-homing story (line 37), rotated 2026-09-03 (crc32 4059475864; 702 B)
+
+*(Re-homed 2026-08-23; full record → `EVOLUTION.md` (c). FLEET_MAP was the step-2 read at **121% of the read cap**, truncating every boot for ~6 days — PAT-111 on its third file. Rotation cut it 65,725 → 43,006 B, **not enough**, and closing the rest would have deleted live gap content from the rich rows — so the register went cold and the generated view became the read. **Cold ≠ unwatched:** `sweeps_due.py`'s SELF-ROW line, the Production Review, and the reverse co-registration guard all read it. ⚠️ **Maturity state now lives in two files and the generator is the only thing keeping them honest — never hand-edit `FLEET_DIRECTORY.md`; regenerate on every row change (step 7).**)*
+
+## block 5 — block 5 — SPAWN step 3 hot/cold story (line 39), rotated 2026-09-03 (crc32 3351236551; 761 B)
+
+*(Hot/cold split 2026-08-17, self-audit F37/PAT-111: the boot spine {STATUS+FLEET_MAP+PATTERNS} had grown to 425 KB — past the single-Read cap, so steps 1–3 were silently degrading to fragments every boot. Measure against the READ CAP, not just byte budgets. ⚠️ **This sentence used to end "all three are readable whole; keep them that way" — and `FLEET_MAP.tsv` then sat at 121% of the cap, truncating at every boot, for six days before anything noticed** (opened and closed 2026-08-23, `EVOLUTION.md` (b)/(c); PAT-111 n=2). **A promise to keep N files under a cap decays on whichever leg nobody measures.** That is why the closeout runs `read_cap_check.py` rather than trusting this line: **the guard is the promise; the prose is only its label.**)*
