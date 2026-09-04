@@ -49,7 +49,7 @@ REGISTERED LINES (levels live here; state lives in STATUS)
 ---------------------------------------------------------
   F1  > 72.41   KB-VIO-116 fire condition
   confirm-3 > 75-76  KB-VIO-123 crack-vs-fade tree leg
-  GATE-VIO-116 re-open > 70-72
+  (GATE-VIO-116 re-open — REMOVED 2026-09-04; gate RESOLVED 7/16, KB-VIO-219)
   N1  < 66      stand-down
 
 Exit codes: 0 = primary served a fresh bar; 1 = primary failed AND we fell back
@@ -66,9 +66,18 @@ URL = "https://www.investing.com/indices/ice-bofaml-move-historical-data"
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/125 Safari/537.36"}
 
+# ⛔ "GATE-VIO-116 re-open > 71.00" WAS REMOVED 2026-09-04 (KB-VIO-219).
+# GATE-VIO-116 RESOLVED 2026-07-16 (F3 fired) and holds no live legs — it is not
+# even a row in PROME/GATES.tsv any more. This tool printed a re-open leg for it
+# at every boot for ~7 weeks: a RESOLVED gate rendered as a live threshold, which
+# is the one direction that manufactures work rather than hiding it. Flagged 9/2,
+# carried as a known defect, removed today.
+# ⚠️ F1 (72.41) is a DIFFERENT line and STAYS — it is the live MOVE re-arm
+# referenced by SIGNAL_INTAKE § ACTIVE THRESHOLDS (re-armed 2026-09-01), and it
+# shares the KB-VIO-116 id with the retired gate. The shared id is exactly why
+# the dead leg survived this long: it read as a sibling of a live line.
 LINES = [("F1 (KB-VIO-116)", 72.41, "above"),
          ("confirm-3 (KB-VIO-123)", 75.5, "above"),
-         ("GATE-VIO-116 re-open", 71.0, "above"),
          ("N1 stand-down", 66.0, "below")]
 
 

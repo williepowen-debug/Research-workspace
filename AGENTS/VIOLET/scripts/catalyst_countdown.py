@@ -21,15 +21,67 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 CATALYSTS = SCRIPT_DIR.parent / "workbook" / "CATALYSTS.tsv"
 
 
+# NYSE full-day closures. Added 2026-09-04 (KB-VIO-240): this counter was
+# weekend-only and printed Labor Day (Mon 2026-09-07) as "1 trading day" out from
+# Fri 9/4 — a day that does not exist. Found by adding the Labor Day row, not by
+# the tool. A holiday-blind trading-day count is off by one IN THE DIRECTION OF
+# CALLING AN EVENT EARLY, which is the dangerous direction for a sustain counter
+# or a +N-session grade window (RED-FT-10's chain and every VIO-FOMC-0916 leg
+# cross a holiday this month).
+#
+# ⚠️ HALF-DAYS ARE DELIBERATELY NOT LISTED. A 13:00 early close is a full trading
+# day for a session count; it matters for a SETTLE, and that is a different
+# question this tool does not answer. Listing them here would silently drop real
+# sessions — the same off-by-one in the same dangerous direction.
+NYSE_HOLIDAYS = {
+    # 2026
+    "2026-01-01",  # New Year's Day (Thu)
+    "2026-01-19",  # MLK Jr. Day (3rd Mon)
+    "2026-02-16",  # Washington's Birthday (3rd Mon)
+    "2026-04-03",  # Good Friday
+    "2026-05-25",  # Memorial Day (last Mon)
+    "2026-06-19",  # Juneteenth (Fri)
+    "2026-07-03",  # Independence Day OBSERVED (Jul 4 is a Saturday)
+    "2026-09-07",  # Labor Day (1st Mon)
+    "2026-11-26",  # Thanksgiving (4th Thu)
+    "2026-12-25",  # Christmas (Fri)
+    # 2027
+    "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31",
+    "2027-06-18",  # Juneteenth OBSERVED (Jun 19 is a Saturday)
+    "2027-07-05",  # Independence Day OBSERVED (Jul 4 is a Sunday)
+    "2027-09-06", "2027-11-25",
+    "2027-12-24",  # Christmas OBSERVED (Dec 25 is a Saturday)
+}
+# The table is finite, so say where it ends rather than degrading silently to a
+# weekend-only count — an unmaintained holiday table that keeps answering is the
+# same failure it was built to fix, one year later.
+HOLIDAY_COVERAGE = (date(2026, 1, 1), date(2027, 12, 31))
+
+
+def is_trading_day(d: date) -> bool:
+    return d.weekday() < 5 and d.isoformat() not in NYSE_HOLIDAYS
+
+
+def coverage_warning(target: date, today: date) -> str | None:
+    """Non-empty when a span reaches outside the holiday table's known window."""
+    lo, hi = HOLIDAY_COVERAGE
+    a, b = min(today, target), max(today, target)
+    if a < lo or b > hi:
+        return (f"⚠️  HOLIDAY TABLE COVERS {lo}..{hi} — the span {a}..{b} reaches "
+                f"outside it, so this count is WEEKEND-ONLY there and may run long. "
+                f"Extend NYSE_HOLIDAYS in catalyst_countdown.py.")
+    return None
+
+
 def trading_days_until(target: date, today: date) -> int:
-    """Rough trading-day count excluding weekends. Ignores US holidays."""
+    """Trading-day count excluding weekends AND NYSE full-day closures."""
     if target < today:
         return -1 * trading_days_until(today, target)
     days = 0
     d = today
     while d < target:
         d = d.fromordinal(d.toordinal() + 1)
-        if d.weekday() < 5:
+        if is_trading_day(d):
             days += 1
     return days
 
@@ -65,11 +117,15 @@ def main(argv=None):
     today = date.today()
 
     enriched = []
+    warns: list[str] = []
     for r in rows:
         try:
             ev_date = datetime.strptime(r["date"], "%Y-%m-%d").date()
         except ValueError:
             continue
+        w = coverage_warning(ev_date, today)
+        if w and w not in warns:
+            warns.append(w)
         td = trading_days_until(ev_date, today)
         if td < 0 and not args.all:
             continue
@@ -91,6 +147,8 @@ def main(argv=None):
         return 0
 
     print(f"VIOLET CATALYST COUNTDOWN  •  {today.isoformat()} ({today.strftime('%A')})")
+    for w in warns:
+        print(f"  {w}")
     print("─" * 100)
     print(f"{'Date':<12} {'TD':>4}  {'Status':<18} {'Impact':<7} {'Domain':<18} {'Event'}")
     print("─" * 100)

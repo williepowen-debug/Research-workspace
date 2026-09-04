@@ -131,30 +131,6 @@ Log material structural changes only — not routine content edits. Template ado
 - **Boot-impact:** boot.py now runs cheap_tail.py --boot (slow, ~1.8s) between OVX and catalyst countdown; appends a daily CHEAP_TAIL.tsv row. Boot read-set unchanged.
 - **Lessons:** (1) two pandas reserved-attr bugs at build — `last.skew`/`df.skew` hit the `.skew()` method; bracket-index (`df["skew"]`) any column whose name collides with a DataFrame method. (2) `met = sum(... if ok)` — the counter first shipped without the `if ok` and reported 4/4 always; a validate-against-a-known-case pass (today should be DORMANT, 7/10 should fire) caught it immediately. (3) the design guard against the setup-mandate premium-donation trap is the *catalyst leg* — it event-boxes the tail so the alert can't fire into open-ended theta; the backtest exists to prove that rarity numerically before trusting it.
 
-## 2026-07-11 (late eve) — CANARY_MAP.md v1.0 created (fleet early-warning layer)
-
-**Trigger:** Will approved the round-3 threads-sweep TOP-1 (PROME round-5 spawn): the "which instrument sees each domain's stress first" chain existed only as scattered registered thresholds + three ad-hoc worked instances; nothing routed it.
-
-**What changed:** New standing doc `CANARY_MAP.md` — 3-tier map (Tier 1 owned-live: MOVE, credit tree, VIX3M/VIX, VVIX, SKEW-sustain, COT; Tier 2 owned-scoped/TBD: JPY-vol, OVX, skew-split, NDX-SPX dispersion; Tier 3 referenced: GEX [HENRY], KOSPI 8,200 [NO OWNER — named gap]). All thresholds cited from registered sources (KB rows, thesis predictions, SIGNAL_INTAKE, FLOW COT band, 7/11 scope memo) — none invented. Staleness contract: DARK = last pull >2× stated cadence; dark-at-birth rows flagged (OVX, broad put/call). NEXUS_BRIEF carries the pointer line.
-
-**Files touched:** CANARY_MAP.md (new), NEXUS_BRIEF.md (pointer), CLAUDE.md (FILES table row), MAINTENANCE.md.
-
-**Boot-impact:** none yet (map is a read artifact); future small ask = extend `ledger_staleness.py` to audit Tier-1/2 pull dates. **Review cadence:** thesis version bump + registered-threshold shift + monthly staleness sweep; percentile thresholds (JPY RV) re-derived each calibration pass; two false fires demote a canary to Tier 2.
-
-**Lessons:** the map's value was already paid for — dispersion→Bin-A (6/25), MOVE→auction stress (7/6-8), KOSPI→Path-B (6/23-7/2) each worked but were discovered ad hoc and routed late; pre-registration converts detection wins into routing wins. A map that names its holes (Korea unowned, JPY unbuilt, OVX uncalibrated) is auditable; one that pretends coverage is a new silent-rot surface.
-
-## 2026-07-11 — DAEDALUS L4-firming packet applied (all 6): boot staleness guard + handles + hygiene
-
-**Trigger:** DAEDALUS 7/4 packet (Will-approved 7/4; PROME green-lit execution 7/11 after the domain sweep flagged it 7 days unconsumed). The staleness guard is the direct anti-recurrence fix for the 7/2-7/8 frozen-STATUS gap (KB-VIO-113: Gate A/C fired into a dead dashboard).
-
-**What changed:** **CLAUDE.md** — new BOOT step 5b: two cwd-proof `scripts/ledger_staleness.py VIOLET [--trade] --quiet` lines run at every boot (tested this session, exit 0 both modes); dangling `archive/` footnote fixed (dir deleted in the 2026-06 public-prep prune). **STATUS.md** — `## BOTTOM LINE` handle added (DAEDALUS #1); `Independence` column added to the convergence matrix (#2, 45-pt composite untouched). **workbook/** — `hy_oas_fred.csv` + `combined_vix_credit.csv` FROZEN-bannered (last data 2026-04-09, superseded by fred_cache). **README.md / SIGNAL_INTAKE.md** — dangling archive refs fixed. **TRADE.md** — footer corrected to 7/2 + staleness pointer added (KB-VIO-110 vehicle spec RETIRED per Will 7/9; body rewrite still owed).
-
-**Files touched:** CLAUDE.md, STATUS.md, README.md, SIGNAL_INTAKE.md, TRADE.md, workbook/hy_oas_fred.csv, workbook/combined_vix_credit.csv, MAINTENANCE.md.
-
-**Boot-impact:** every future boot self-flags ledger/TRADE drift — the failure mode that produced the 7-day gap now has a mechanical tripwire. **Open residue:** PAT-032 disposition note to `AGENTS/DAEDALUS/inbox/` not yet sent (session was own-dir-restricted); DAEDALUS MATURITY_MAP won't reconcile until it lands.
-
-**Lessons:** the packet sat unconsumed through the exact incident it would have prevented, then through one more full session — an anti-recurrence fix competes for attention like any other task unless something (a sweep, a guard) forces it to the front. Also: apply-some-of-a-packet is worse than apply-none; all 6 landed together so DAEDALUS's tracking reconciles in one ACK.
-
 ## 2026-08-04 — Inbound backlog cleared, forward feed replenished from the canonical ledger, NEXUS amd-10 adopted
 
 **Trigger:** Will-directed full currency pass ("update your domain with updated data, news, etc."). Three structural items surfaced alongside the analytical work, all rooted in the same defect class: **surfaces that decay because nothing triggers their replenishment.**
@@ -292,3 +268,28 @@ Log material structural changes only — not routine content edits. Template ado
 - **Dirty working-tree files count as fresh, and that is a design decision, not a shortcut.** `closeout_guard.py` runs *before* the session's commit, so comparing raw commit timestamps would flag every honest closeout — and **a guard that cries wolf on the correct path is one you learn to bypass**, which is the exact warning already written into `closeout_guard.py` about its non-blocking thesis check.
 - **⚠️ The check compares VINTAGE, never CONTENT, and that limit is written into it.** A brief re-stamped with a fresh `As of:` over a stale body passes green. It catches the surface **left behind**, not the surface **refreshed badly**. `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`
 - **The crashed session's best decision was a refusal, and the crash did not cost it.** It found `TRADE.md` ARMED on a 64-day-old gate whose legs today's tape satisfies and **did not fix it** — standing an authorized gate down is an *authorization* change, not a staleness edit, and PROME relaying a recommendation is not the operator speaking. It wrote that reasoning into its commit message, where the recovery session found it. **Will's word arrived 63 minutes later; the edit took one minute.** `[[finding_relayed_recommendation_is_not_an_approval]]`
+
+---
+
+## 2026-09-04 (PM) — Five queued tool defects built in one pass; closeout guard now carries five blocking contracts and is green
+
+**Trigger:** Will, after the crash-recovery and inbox sessions: *"Can we work on these"* — the four "code that should exist and doesn't" items I had listed as still hanging.
+
+**What changed:**
+
+1. **`canary_staleness.py` — COT graded on the publication SCHEDULE, not calendar age (KB-VIO-226).** CFTC TFF report dates are always Tuesdays released the *following* Friday 15:30 ET (fixed +3d lag), so a perfectly current ledger reads 10d old every Friday morning and the old `>9d` rule fired a **guaranteed false DARK once a week, forever**. New rule: expected = the latest Tuesday whose following-Friday 15:30 ET release has passed; **DARK iff the ledger's max date is older than that.** Zero free parameters. New `SCHEDULED` table + `expected_report_date()`; a `--selftest` mode with **14 checks in both directions**.
+2. **`catalyst_countdown.py` — NYSE holiday table (2026–2027).** The counter was weekend-only and printed Labor Day (Mon 9/7) as **1 trading day** out from Fri 9/4. Now 0; CPI 9/11 went 5d→4d, FOMC 9/16 8d→7d. `HOLIDAY_COVERAGE` bounds the table and **warns** outside it rather than degrading silently. Half-days deliberately excluded (a 13:00 close is still a full session for a session count).
+3. **`move.py` — phantom `GATE-VIO-116 re-open > 71.00` leg removed (KB-VIO-219).** Printed at every boot for ~7 weeks for a gate **RESOLVED 2026-07-16** that is not even a row in `PROME/GATES.tsv`. **F1 (72.41) stays** — the live MOVE re-arm, which shares the KB-VIO-116 id, and that shared id is why the dead leg survived.
+4. **NEW `scripts/skew_integrity.py` (KB-VIO-241)** — `^SKEW` mirror integrity **at the moment of use**, comparing **values** cell-by-cell against CBOE at |Δ| > 0.005. Detects **both** modes (omission *and* disagreement). Fails **closed** (rc=2) on an unreachable endpoint. Emits a one-line verdict meant to be pasted beside the claim.
+5. **NEW `scripts/twin_check.py` (KB-VIO-235)** — `CALENDAR.md` ⇄ `CATALYSTS.tsv`, and it **refuses to nominate a winner.** Wired **BLOCKING** into `closeout_guard.py`.
+
+**Files touched:** `scripts/canary_staleness.py` · `scripts/catalyst_countdown.py` · `scripts/move.py` · `scripts/skew_integrity.py` (new) · `scripts/twin_check.py` (new) · `scripts/closeout_guard.py` · `CANARY_MAP.md` · `workbook/KB.tsv` · `MAINTENANCE.md`.
+
+**Boot impact:** boot still 14/14 OK and **no longer prints the weekly COT false DARK**; countdown numbers shift by one across Labor Day; `move.py` prints 3 lines not 4. Closeout guard now has **five** blocking contracts (was three this morning) and returned **rc=0 — the first fully green closeout of the day.** `skew_integrity.py` is wired into **neither** boot nor closeout, deliberately (see Lessons).
+
+**Lessons:**
+- **🔑 None of the five needed new analysis.** Every remedy was already derived and written on a surface — the COT spec in full on `CANARY_MAP`, the holiday gap in SCRATCH, the phantom leg in STATUS *with its KB id*, both `^SKEW` modes in packets from RED. They sat as **prose** for between 2 days and 7 weeks. **The gap was never diagnosis; it was the hour of typing.** Same shape as KB-VIO-234, now n=6 in one day.
+- **⚠️ The falsification earned its keep — `twin_check` shipped a bug and the falsification caught it before the commit.** Its first version read `date_class` from free prose, so a row correctly marked **CONFIRMED** was reported as **MODELED** — because its own supersession note read *"CORRECTED from ~9/22 MODELED to 2026-09-30."* **The supersession note contained the superseded token.** Fixed to parse an explicit `date_class` declaration, event field winning over notes, failing toward *unlabelled = not a tiebreaker* (the safe direction: wrongly withholding a tiebreak costs one glance; wrongly granting one propagates an error). `[[finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it]]`
+- **⚠️ Removing a false alarm risks removing the true one, so the COT selftest is CODE, not a run.** It asserts a genuinely-behind ledger still goes DARK (1 behind → DARK; 3 behind → DARK counting 3 publications) alongside the 15:29/15:30 boundary and the 9d-old-and-correct Thursday. A one-off manual check would have proved the alarm was quiet, never that it could still speak.
+- **⛔ `skew_integrity.py` is deliberately NOT boot-wired, and that omission is the design.** Its whole argument is that a check run *before* the work does not bound the work — the defect **heals**, so the gap can open between boot and use. Wiring it to boot would recreate the false assurance it exists to refute. The standing rule lives on `CANARY_MAP`: run it when a `^SKEW` value is **consumed**, and record the verdict **with** the claim.
+- **⚠️ Measurement discipline, because I got it wrong twice today:** `cmd | tail; echo $?` reports **tail's** exit code, not `cmd`'s. I mis-read `closeout_guard` as rc=0 when it was 1, and `skew_integrity` as rc=0 when it was 1. **Both times the tool was right and my measurement was wrong.** Measure exit codes without a pipe, or use `PIPESTATUS`.

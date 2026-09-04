@@ -238,3 +238,33 @@
 **Lessons:** a tool whose write is keyed to "now" (not to the data's own date) cannot repair history — the recovery tool must be date-driven (backfill.py). Two tools touching one column under different conventions are safe only by an undocumented guard; surface the guard before it's relied on. And: a skip/error message must state *which* reason fired — a generic message cost a self-misread.
 
 ---
+
+---
+
+> **Third archival pass 2026-09-04 (PM)** — the same-day tool-build entry pushed `MAINTENANCE.md` to **319** against its ~300 cap. Moved the 2 oldest live entries (**2026-07-11**) here verbatim; the live log now keeps **2026-07-23 onward**.
+
+---
+
+## 2026-07-11 (late eve) — CANARY_MAP.md v1.0 created (fleet early-warning layer)
+
+**Trigger:** Will approved the round-3 threads-sweep TOP-1 (PROME round-5 spawn): the "which instrument sees each domain's stress first" chain existed only as scattered registered thresholds + three ad-hoc worked instances; nothing routed it.
+
+**What changed:** New standing doc `CANARY_MAP.md` — 3-tier map (Tier 1 owned-live: MOVE, credit tree, VIX3M/VIX, VVIX, SKEW-sustain, COT; Tier 2 owned-scoped/TBD: JPY-vol, OVX, skew-split, NDX-SPX dispersion; Tier 3 referenced: GEX [HENRY], KOSPI 8,200 [NO OWNER — named gap]). All thresholds cited from registered sources (KB rows, thesis predictions, SIGNAL_INTAKE, FLOW COT band, 7/11 scope memo) — none invented. Staleness contract: DARK = last pull >2× stated cadence; dark-at-birth rows flagged (OVX, broad put/call). NEXUS_BRIEF carries the pointer line.
+
+**Files touched:** CANARY_MAP.md (new), NEXUS_BRIEF.md (pointer), CLAUDE.md (FILES table row), MAINTENANCE.md.
+
+**Boot-impact:** none yet (map is a read artifact); future small ask = extend `ledger_staleness.py` to audit Tier-1/2 pull dates. **Review cadence:** thesis version bump + registered-threshold shift + monthly staleness sweep; percentile thresholds (JPY RV) re-derived each calibration pass; two false fires demote a canary to Tier 2.
+
+**Lessons:** the map's value was already paid for — dispersion→Bin-A (6/25), MOVE→auction stress (7/6-8), KOSPI→Path-B (6/23-7/2) each worked but were discovered ad hoc and routed late; pre-registration converts detection wins into routing wins. A map that names its holes (Korea unowned, JPY unbuilt, OVX uncalibrated) is auditable; one that pretends coverage is a new silent-rot surface.
+
+## 2026-07-11 — DAEDALUS L4-firming packet applied (all 6): boot staleness guard + handles + hygiene
+
+**Trigger:** DAEDALUS 7/4 packet (Will-approved 7/4; PROME green-lit execution 7/11 after the domain sweep flagged it 7 days unconsumed). The staleness guard is the direct anti-recurrence fix for the 7/2-7/8 frozen-STATUS gap (KB-VIO-113: Gate A/C fired into a dead dashboard).
+
+**What changed:** **CLAUDE.md** — new BOOT step 5b: two cwd-proof `scripts/ledger_staleness.py VIOLET [--trade] --quiet` lines run at every boot (tested this session, exit 0 both modes); dangling `archive/` footnote fixed (dir deleted in the 2026-06 public-prep prune). **STATUS.md** — `## BOTTOM LINE` handle added (DAEDALUS #1); `Independence` column added to the convergence matrix (#2, 45-pt composite untouched). **workbook/** — `hy_oas_fred.csv` + `combined_vix_credit.csv` FROZEN-bannered (last data 2026-04-09, superseded by fred_cache). **README.md / SIGNAL_INTAKE.md** — dangling archive refs fixed. **TRADE.md** — footer corrected to 7/2 + staleness pointer added (KB-VIO-110 vehicle spec RETIRED per Will 7/9; body rewrite still owed).
+
+**Files touched:** CLAUDE.md, STATUS.md, README.md, SIGNAL_INTAKE.md, TRADE.md, workbook/hy_oas_fred.csv, workbook/combined_vix_credit.csv, MAINTENANCE.md.
+
+**Boot-impact:** every future boot self-flags ledger/TRADE drift — the failure mode that produced the 7-day gap now has a mechanical tripwire. **Open residue:** PAT-032 disposition note to `AGENTS/DAEDALUS/inbox/` not yet sent (session was own-dir-restricted); DAEDALUS MATURITY_MAP won't reconcile until it lands.
+
+**Lessons:** the packet sat unconsumed through the exact incident it would have prevented, then through one more full session — an anti-recurrence fix competes for attention like any other task unless something (a sweep, a guard) forces it to the front. Also: apply-some-of-a-packet is worse than apply-none; all 6 landed together so DAEDALUS's tracking reconciles in one ACK.

@@ -37,7 +37,10 @@ from __future__ import annotations
 import argparse
 import csv
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, time, timedelta
+from zoneinfo import ZoneInfo
+
+ET = ZoneInfo("America/New_York")
 from pathlib import Path
 
 VIOLET_DIR = Path(__file__).resolve().parents[1]
@@ -53,8 +56,67 @@ CANARIES = [
     ("JPY vol (carry)",     "JPY_VOL.tsv",   "date",        "EOD daily", 4),
     ("OVX/VIX ratio",       "OVX.tsv",       "date",        "EOD daily", 4),
     ("Cheap-tail window",   "CHEAP_TAIL.tsv","date",        "EOD daily", 4),
-    ("COT VIX lev-money",   "COT_VIX.tsv",   "report_date", "weekly",    9),
+    # COT is NOT a calendar-age row — see SCHEDULED below. `None` marks it.
+    ("COT VIX lev-money",   "COT_VIX.tsv",   "report_date", "CFTC TFF weekly", None),
 ]
+
+# ── SCHEDULED-PUBLICATION CANARIES (added 2026-09-04, KB-VIO-226) ───────────────
+# A fixed calendar-age threshold is WRONG for any series with a fixed publication
+# lag, and it fails on a schedule you can compute in advance.
+#
+# CFTC TFF report dates are ALWAYS Tuesdays, released the FOLLOWING FRIDAY at
+# 15:30 ET — a fixed +3-day lag, verified against every report date in
+# COT_VIX.tsv. So the age of a PERFECTLY CURRENT ledger cycles:
+#
+#     Fri 15:30 -> Sat   Tuesday 3d prior    3d   fresh
+#     Wed                Tuesday 8d prior    8d   fresh
+#     Thu                Tuesday 9d prior    9d   exactly on the old line
+#     Fri, before 15:30  Tuesday 10d prior  10d   DARK under the old >9d rule
+#
+# ⇒ THE OLD RULE FIRED A GUARANTEED FALSE DARK EVERY FRIDAY MORNING, FOREVER, on a
+# ledger with nothing wrong with it. It did so on 2026-09-04 at both boot AND
+# closeout, as it had every Friday before.
+#
+# 🔑 The correct question is not "how old is the newest row" but "IS THE NEWEST
+# REPORT THAT HAS ALREADY BEEN RELEASED PRESENT?" That has zero free parameters:
+# expected = the latest Tuesday whose following-Friday 15:30 ET release has passed.
+# DARK iff the ledger's max date is older than that. Self-calibrating; no constant
+# to tune, and it cannot drift as the calendar moves.
+#
+# ⚠️ A crude scalar equivalent (>17d = 7d cadence + 3d lag + one missed cycle) was
+# considered and REJECTED: it hides the lag instead of modelling it, and it still
+# cannot tell a late publication from a missed one.
+SCHEDULED = {
+    "COT_VIX.tsv": {
+        "report_weekday": 1,      # Tuesday (Mon=0)
+        "release_lag_days": 3,    # the Friday after that Tuesday
+        "release_hour_et": 15,
+        "release_minute_et": 30,
+        "label": "CFTC TFF: Tue report date, released Fri 15:30 ET",
+    },
+}
+
+
+def expected_report_date(spec: dict, now_et: datetime) -> date:
+    """Latest report date whose release has ALREADY happened, as of now_et.
+
+    Walks back from today to the most recent report-weekday, then keeps stepping
+    back a week until that report's release instant is in the past. Returns a
+    date; never guesses forward.
+    """
+    d = now_et.date()
+    # step back to the most recent report weekday (today counts)
+    d -= timedelta(days=(d.weekday() - spec["report_weekday"]) % 7)
+    for _ in range(60):  # bounded; 60 weeks is far past any real gap
+        release = datetime.combine(
+            d + timedelta(days=spec["release_lag_days"]),
+            time(spec["release_hour_et"], spec["release_minute_et"]),
+            tzinfo=ET,
+        )
+        if release <= now_et:
+            return d
+        d -= timedelta(days=7)
+    return d
 
 # Rows with a registered threshold but NO backing ledger — they cannot be checked
 # mechanically, which is itself worth surfacing rather than silently passing.
@@ -155,7 +217,8 @@ def main(argv=None) -> int:
     a = ap.parse_args(argv)
 
     today = date.today()
-    dark, rows = [], []
+    dark, rows, sched_notes = [], [], []
+    now_et = datetime.now(ET)
     for name, ledger, col, cadence, limit in CANARIES:
         d = max_date(WB / ledger, col)
         if d is None:
@@ -163,6 +226,26 @@ def main(argv=None) -> int:
             dark.append(f"{name}: no dated rows in {ledger}")
             continue
         age = (today - d).days
+        spec = SCHEDULED.get(ledger)
+        if spec is not None:
+            # Schedule-aware: is the newest ALREADY-RELEASED report present?
+            exp = expected_report_date(spec, now_et)
+            behind = (exp - d).days // 7 if d < exp else 0
+            if d < exp:
+                state = "🔴 DARK"
+                dark.append(
+                    f"{name}: {ledger} newest report {d}, but {exp} was released "
+                    f"{(exp - d).days // 7} publication(s) ago "
+                    f"({spec['label']}) — genuinely behind, not a schedule artifact")
+            else:
+                state = "🟢 fresh"
+            rows.append((name, ledger, str(d), f"{age}d", state))
+            if not a.quiet and d >= exp:
+                sched_notes.append(
+                    f"  ℹ️  {name}: {age}d old and CORRECT — {exp} is the newest report "
+                    f"released as of now ({spec['label']}). "
+                    f"A fixed >9d age rule called this DARK every Friday morning; KB-VIO-226.")
+            continue
         state = "🔴 DARK" if age > limit else ("🟡 aging" if age > limit // 2 else "🟢 fresh")
         if age > limit:
             dark.append(f"{name}: {ledger} last row {d} = {age}d old (contract: DARK >{limit}d, {cadence})")
@@ -190,6 +273,11 @@ def main(argv=None) -> int:
         print("  ✓ no stale CURRENT assertions in CANARY_MAP")
         print()
 
+    for n in sched_notes:
+        print(n)
+    if sched_notes:
+        print()
+
     if dark or stale_cells:
         if dark:
             print(f"  🔴 CANARY_MAP CONTRACT BREACH — {len(dark)} DARK LEDGER(S):")
@@ -205,5 +293,62 @@ def main(argv=None) -> int:
     return 0
 
 
+def selftest() -> int:
+    """Falsify the schedule rule in BOTH directions before trusting it.
+
+    A guard that only passes on the case it was built for is untested — this
+    module's own history (the age half MISSED the breach it was built to prevent,
+    2026-07-30) is why this exists as code rather than as a paragraph.
+    """
+    spec = SCHEDULED["COT_VIX.tsv"]
+    fails = []
+
+    def ck(label, got, want):
+        if got != want:
+            fails.append(f"  x {label}\n      got  {got!r}\n      want {want!r}")
+        else:
+            print(f"  ok {label}")
+
+    # ── expected_report_date across the release boundary ────────────────────
+    for label, now, want in [
+        ("Fri pre-release 13:44 -> prior Tue", datetime(2026, 9, 4, 13, 44, tzinfo=ET), date(2026, 8, 25)),
+        ("Fri 15:29, one minute before",       datetime(2026, 9, 4, 15, 29, tzinfo=ET), date(2026, 8, 25)),
+        ("Fri 15:30, the release instant",     datetime(2026, 9, 4, 15, 30, tzinfo=ET), date(2026, 9, 1)),
+        ("Sat after release",                  datetime(2026, 9, 5, 10, 0, tzinfo=ET),  date(2026, 9, 1)),
+        ("Mon holiday (Labor Day)",            datetime(2026, 9, 7, 10, 0, tzinfo=ET),  date(2026, 9, 1)),
+        ("Thu, 9d old and CORRECT",            datetime(2026, 9, 10, 10, 0, tzinfo=ET), date(2026, 9, 1)),
+        ("next Fri post-release rolls on",     datetime(2026, 9, 11, 16, 0, tzinfo=ET), date(2026, 9, 8)),
+    ]:
+        ck(label, expected_report_date(spec, now), want)
+
+    ck("every expected date is a Tuesday",
+       all(expected_report_date(spec, datetime(2026, 9, d, 12, 0, tzinfo=ET)).weekday() == 1
+           for d in range(1, 29)), True)
+
+    # ── the DARK path must still fire on a genuinely behind ledger ───────────
+    # THE POINT OF THIS BLOCK: the fix removes a false alarm, and the risk of any
+    # such fix is that it removes the TRUE alarm with it. Fail closed, loudly.
+    now = datetime(2026, 9, 4, 16, 0, tzinfo=ET)   # post-release; expected = 9/1
+    exp = expected_report_date(spec, now)
+    ck("post-release expected is 2026-09-01", exp, date(2026, 9, 1))
+    ck("ledger AT expected -> not dark",      date(2026, 9, 1) < exp, False)
+    ck("ledger ONE report behind -> DARK",    date(2026, 8, 25) < exp, True)
+    ck("ledger THREE reports behind -> DARK", date(2026, 8, 11) < exp, True)
+    ck("3-behind counts 3 publications",      (exp - date(2026, 8, 11)).days // 7, 3)
+    # and the pre-release instant must NOT call the same ledger dark
+    exp_pre = expected_report_date(spec, datetime(2026, 9, 4, 13, 44, tzinfo=ET))
+    ck("SAME ledger pre-release -> not dark", date(2026, 8, 25) < exp_pre, False)
+
+    print()
+    if fails:
+        print("\n".join(fails))
+        print(f"FAILED {len(fails)} check(s)")
+        return 1
+    print("all schedule-rule selftests pass")
+    return 0
+
+
 if __name__ == "__main__":
+    if "--selftest" in sys.argv:
+        raise SystemExit(selftest())
     raise SystemExit(main())

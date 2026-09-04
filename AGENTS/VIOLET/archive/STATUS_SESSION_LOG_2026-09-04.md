@@ -1,0 +1,20 @@
+# VIOLET STATUS — 2026-09-04 session-narrative blocks (ROTATED OUT, VERBATIM)
+
+> **Rotated 2026-09-04 ~14:4x ET** from `STATUS.md` on the READ-CAP budget (33,311 B vs the 32,550 B
+> boot-read budget; the cap itself is 54,250 B and was not reached). **Content below is byte-verbatim.**
+> **crc32 `064361a7` · 3,232 B** — recompute before claiming this matches what was removed.
+>
+> These are the ⓪ PROCESS blocks of 2026-09-04's four sessions (crash recovery · WQ-177 · inbox
+> drain · tool builds). **Nothing analytical was rotated** — the market read, Signal Dashboard,
+> Gate Status and Convergence Matrix all stayed on the live surface. The durable record of this
+> work lives in `MAINTENANCE.md` (structure), `workbook/KB.tsv` KB-VIO-234→241 (findings) and
+> `SCRATCH.md` (handoff); this file exists so the day's narrative is not lost to a byte budget.
+
+---
+
+> **⓪ᵈ 🛠️ FIVE QUEUED TOOL DEFECTS BUILT IN ONE PASS (Will-directed) — CLOSEOUT GUARD NOW CARRIES FIVE BLOCKING CONTRACTS AND IS GREEN.** **① COT staleness is schedule-aware** (expected = latest Tuesday whose Fri-15:30 release has passed; zero free parameters) — the old `>9d` rule fired a **guaranteed false DARK every Friday morning, forever**; 14-check selftest proves a genuinely-behind ledger still goes DARK. **② `catalyst_countdown.py` has a holiday table** — Labor Day was printing as **1 trading day** out from 9/4; now 0, and CPI/FOMC shifted 5d→4d / 8d→7d. **③ `move.py` phantom `GATE-VIO-116 re-open` leg REMOVED** after ~7 weeks of printing a RESOLVED gate as a live threshold. **④ NEW `skew_integrity.py`** — value-level `^SKEW` check that **independently reproduced RED's 2025-12-24 disagreement** (CBOE 161.30 vs yfinance 160.529999); fails **closed** on an unreachable endpoint; **deliberately not boot-wired.** **⑤ NEW `twin_check.py`** — CALENDAR⇄CATALYSTS, **BLOCKING**, and it **refuses to name a winner.** 🔑 **Not one of the five needed new analysis — every remedy was already written down, as prose, for between 2 days and 7 weeks.** → **KB-VIO-240/241**
+>
+> **⓪ 🔧 THE 10:0x SESSION CRASHED BETWEEN ITS STATUS COMMIT AND ITS WRITE-BACK TAIL, AND NOTHING AT THE NEXT BOOT DETECTED IT.** It committed STATUS (10:06) and SIGNAL_INTAKE (10:08), then died — leaving `SCRATCH` · `LAST_COMPLETION` · `NEXUS_BRIEF` **79 minutes behind STATUS**, each describing a superseded state to a consumer who is not me (my own next boot · PROME · NEXUS). `boot.py`, `closeout_guard.py` and `ledger_staleness.py` **all ran clean over it.** 🔑 **The rule was not missing — it was already written in checkable form** (write-back step 12: *"the brief's commit timestamp ≥ the session's last STATUS commit timestamp"*) **and had sat as a sentence for 31 days with nothing computing it.** Built `scripts/writeback_order_check.py`, wired BLOCKING into the closeout guard; **falsified against the live unfixed state before trusting it** (fired 3/3, rc=1) and its wiring proved separately. ⚠️ **It compares VINTAGE, never CONTENT — a fresh stamp over a stale body passes green.** → **KB-VIO-234**
+>
+> **⓪ᵇ ⛔ WQ-177 EXECUTED — THE 7/1 GATED TAIL-HEDGE FRAMEWORK IS STOOD DOWN.** Will verbatim **"Okay approved" 11:11 ET**; `TRADE.md` §LIVE DECISION FRAMEWORK now heads **RETIRED-SUPERSEDED** (was **ARMED**) with a banner naming the 7/31 supersession (DOCKET L163) and the 9/4 stand-down; body kept verbatim. Gate A/C read PENDING against a **2026-07-02** print — **dead letters, do not adjudicate.** A tail hedge on today's prints is a **fresh TERRY ask on live quotes**, never a revival of this gate. 🔑 **The sequencing is the point:** the 10:0x session *found* this (KB-VIO-230) and **deliberately refused to fix it**, because standing an authorized gate down is an **authorization** change, not a staleness edit — and a coordinator relaying a recommendation is not the operator speaking. The word arrived 63 minutes later. KB-VIO-113 → **SUPERSEDED**, KB-VIO-230 → **CONFIRMED/resolved.** `[[finding_relayed_recommendation_is_not_an_approval]]`
+>

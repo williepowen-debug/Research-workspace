@@ -37,6 +37,11 @@ WHAT IT AGGREGATES
   · `grading_note_check.py`— catalyst notes citing retracted KB rows
   · `validate_workbook.py` — KB schema conformance (errors only, not the
                              ACTIVE-past-Stale_By WARN, which is by design)
+  · `twin_check.py`         — CALENDAR.md vs CATALYSTS.tsv. Added 2026-09-04
+                             (KB-VIO-235). It reports divergence and REFUSES to
+                             name a winner: the 9/4 incident was a twin "fix"
+                             that made the accurate surface match the wrong one.
+                             A red here is an OPERATOR decision, not an edit.
   · `writeback_order_check.py` — the three handoff surfaces (SCRATCH,
                              LAST_COMPLETION, NEXUS_BRIEF) must not lag STATUS.
                              Added 2026-09-04 after a session crashed between the
@@ -64,6 +69,7 @@ BLOCKING = [
     ("Grading-note citations", "grading_note_check.py", ["--strict"]),
     ("KB schema conformance", "validate_workbook.py", []),
     ("Write-back ordering (handoff surfaces vs STATUS)", "writeback_order_check.py", ["--quiet"]),
+    ("CALENDAR/CATALYSTS twin consistency", "twin_check.py", ["--quiet"]),
 ]
 ADVISORY = [
     ("Thesis currency", "thesis_bump_check.py", []),

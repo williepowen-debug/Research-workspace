@@ -45,9 +45,26 @@
 
 ## Staleness audit contract
 
+> ## ⚠️ **STANDING RULE — `^SKEW` VALUES MUST BE INTEGRITY-CHECKED AT THE MOMENT OF USE, NOT AT BOOT** *(added 2026-09-04, KB-VIO-241)*
+>
+> **Before quoting or grading any `^SKEW` value, run:** `.venv/bin/python3 AGENTS/VIOLET/scripts/skew_integrity.py --days 30` **and paste its one-line verdict beside the claim.**
+> **Why not a boot check — this is the design, not an oversight.** The mirror's defect **heals** (KB-VIO-221: the 8/28 hole was present 9/2 and gone 9/4, in the same query), so a check that runs *before* the work does not bound the work — the gap can open between boot and use, and a later audit passes clean over a grade that was wrong when computed. **Wiring it into boot would manufacture exactly the false assurance it exists to refute.**
+> **It compares VALUES, not bar counts.** There are **two** defect modes over 253 sessions — an omitted session **and** a value disagreement (2025-12-24: CBOE 161.30 vs yfinance 160.53), rate **2/253 = 0.79%** (RED, KB-VIO-236). **A completeness check catches only the first: a gapped series announces itself, a wrong one does not.**
+> **rc:** 0 clean · 1 defect (grade from CBOE only) · **2 = endpoint unreachable, which FAILS CLOSED — an unreachable publisher is not agreement and must never be quoted as verification.**
+>
+---
+
 A canary is **DARK** when its last pull exceeds 2× its stated cadence (EOD instruments: >2 trading days; weekly COT: >9 days; ad-hoc WALTER rows: exempt but must carry their signal date).
 
-> ## 🔴 **2026-09-04 — THE COT `>9 days` LINE IS MIS-SPECIFIED AND FIRES A FALSE DARK EVERY SINGLE WEEK. Today's RED is that artifact, and I am recording it rather than closing out past it.**
+> ## ✅ **2026-09-04 (PM) — FIXED IN CODE. The section below is kept verbatim as the diagnosis; the defect it describes is closed.**
+>
+> **`scripts/canary_staleness.py` now grades `COT_VIX.tsv` on the publication schedule, not on calendar age** — expected report date = *the latest Tuesday whose following-Friday 15:30 ET release has passed*; **DARK iff the ledger's max date is older than that.** Zero free parameters, self-calibrating, exactly as derived below. **Boot and closeout both read 🟢 on a 10d-old ledger this Friday afternoon, with an `ℹ️` line stating why 10d is correct.**
+> **Falsified in BOTH directions before being trusted, as code that re-runs:** `canary_staleness.py --selftest` — 14 checks including the 15:29 vs 15:30 release boundary, a holiday Monday, the 9d-old-and-correct Thursday, and **a genuinely-behind ledger that must still go DARK** (1 report behind = DARK, 3 behind = DARK counting 3 publications). *The risk of removing a false alarm is removing the true alarm with it; that is what the selftest exists to refuse.*
+> ⚠️ **The discriminator below is now redundant for the tool but is kept for the reader** — if you ever see this row DARK, it is real.
+>
+> ---
+>
+> ## 🔴 **2026-09-04 (AM) — DIAGNOSIS AS WRITTEN AT THE TIME: THE COT `>9 days` LINE IS MIS-SPECIFIED AND FIRES A FALSE DARK EVERY SINGLE WEEK.**
 >
 > `closeout_guard.py` blocked this session on *"COT VIX lev-money: COT_VIX.tsv last row 2026-08-25 = 10d old (contract: DARK >9d, weekly)."* **The measurement is correct. The threshold is wrong.**
 >
@@ -66,7 +83,7 @@ A canary is **DARK** when its last pull exceeds 2× its stated cadence (EOD inst
 >
 > **THE CORRECT SPECIFICATION, DERIVED — ZERO FREE PARAMETERS, NOT A NUMBER I PICKED.** The contract's own intent is *"2× stated cadence."* For a series with a fixed publication lag the quantity to compare is **not** report-date age but **whether the most recent report date that has ALREADY BEEN RELEASED is present.** Expected newest report date = *the latest Tuesday whose following-Friday 15:30 release has passed.* DARK ⇔ the ledger's max date is **older than that**. This is self-calibrating, needs no constant, and never fires on schedule alone. *(A crude equivalent, if a scalar is wanted: `>17d` = 7d cadence + 3d lag + one fully missed cycle. Inferior — it hides the lag instead of modelling it.)*
 >
-> ⛔ **NOT FIXED THIS SESSION, AND DELIBERATELY SO.** Changing a live guard's threshold at the end of a session, on the strength of one session's diagnosis, is the ship-then-audit pattern this desk killed `GATE-VIO-RV1` for. **The diagnosis is written here where the next reader meets the red; the code change is queued.** ⚠️ **Until it is made, every Friday-morning boot and closeout will print this RED. That is expected. It is not permission to stop reading them** — the discriminator is the arithmetic in the table above: **age 9d or 10d against a Tuesday report date is the artifact; anything ≥17d, or a Friday-afternoon reading still showing the prior week, is real.** → **KB-VIO-226**
+> ✅ **FIXED 2026-09-04 PM (Will-directed) — the paragraph below was true when written and is kept as the record of the deferral.** ⛔ **NOT FIXED [AT THE TIME], AND DELIBERATELY SO.** Changing a live guard's threshold at the end of a session, on the strength of one session's diagnosis, is the ship-then-audit pattern this desk killed `GATE-VIO-RV1` for. **The diagnosis is written here where the next reader meets the red; the code change is queued.** ⚠️ **Until it is made, every Friday-morning boot and closeout will print this RED. That is expected. It is not permission to stop reading them** — the discriminator is the arithmetic in the table above: **age 9d or 10d against a Tuesday report date is the artifact; anything ≥17d, or a Friday-afternoon reading still showing the prior week, is real.** → **KB-VIO-226**
 
 > 🔴 **THIS CONTRACT WAS UNENFORCED FROM v1.0 UNTIL 2026-07-28, AND THE FILE WAS BREACHING IT ON FIVE ROWS** — COT 21d, JPY 11d, OVX 11d, cheap-tail 6d, Tier-3 GEX **18d**. The sentence *"extend `ledger_staleness.py` coverage to this file's Tier-1/2 pull dates = a future small ask"* has sat here since v1.0 and **was never built**, so the only thing enforcing the contract was remembering to. **It wasn't remembered, and the instrument the map exists to protect — a canary going dark unnoticed — went dark inside the map's own text.** *(`finding_mechanize_the_cap_not_the_ritual`; the v1.0 cautionary tale was OVX dark through a war week, and the file then reproduced the failure in its own cells.)*
 >
