@@ -43,20 +43,48 @@ import orch_log                                            # the strict schema h
 
 LEDGER = orch_log.LEDGER
 COLS = orch_log.COLS
+# CONSUMER HALF of DOCKET L262 (PROME-ruled 2026-09-04 (b): month rotation → PROME/archive/ORCH_LOG_<YYYY-MM>.tsv,
+# same 13-column schema). Every renderer reads hot + every archive, validates EACH through orch_log.check,
+# and de-duplicates on the explicit key (date, desk, touch) — verified unique across all 87 live rows 9/4.
+# With no archive on disk the merge is a no-op (files == [hot]); the header prints the file set read.
+ARCHIVE_GLOB = os.path.join(ROOT, "PROME", "archive", "ORCH_LOG_*.tsv")
+KEY = ("date", "desk", "touch")
 
 
-def load(path=LEDGER):
-    """Fail closed: any malformed row ⇒ rc 2 and NOTHING rendered (never pad, never truncate)."""
-    rc, fields = orch_log.check(path, quiet=True)
-    if rc:
-        orch_log.check(path)                               # print the named problems
-        print("rc=2 CANNOT-RENDER: ledger does not validate against schema v2 — regenerate, never patch, the report")
-        sys.exit(2)
-    rows = [dict(zip(COLS, f)) for f in fields]
+def ledger_paths(path=LEDGER, archive_glob=ARCHIVE_GLOB):
+    """Archives first (chronological by name), hot LAST — a key seen in an archive and again in hot means a
+    rotation left a copy behind; the archive copy is kept and the duplicate reported, never silently merged."""
+    import glob
+    return (sorted(glob.glob(archive_glob)) if archive_glob else []) + [path]
+
+
+def load_merged(path=LEDGER, archive_glob=ARCHIVE_GLOB):
+    """→ (rows, files_read, cross_file_duplicates). Fail closed on ANY file: a malformed archive ⇒ rc 2, nothing rendered."""
+    rows, seen, dups, files = [], {}, [], []
+    for fp in ledger_paths(path, archive_glob):
+        rc, fields = orch_log.check(fp, quiet=True)
+        if rc:
+            orch_log.check(fp)                             # print the named problems
+            print(f"rc=2 CANNOT-RENDER: {os.path.relpath(fp, ROOT)} does not validate against schema v2 — regenerate, never patch, the report")
+            sys.exit(2)
+        files.append(fp)
+        for f in fields:
+            r = dict(zip(COLS, f))
+            k = tuple(r[c] for c in KEY)
+            if k in seen and seen[k] != fp:
+                dups.append((k, os.path.relpath(seen[k], ROOT), os.path.relpath(fp, ROOT)))
+                continue
+            seen.setdefault(k, fp)
+            rows.append(r)
     if not rows:
         print("rc=2 CANNOT-RENDER: no data rows")
         sys.exit(2)
-    return rows
+    return rows, files, dups
+
+
+def load(path=LEDGER, archive_glob=ARCHIVE_GLOB):
+    """Compatibility wrapper — rows only."""
+    return load_merged(path, archive_glob)[0]
 
 
 def as_int(s):
@@ -66,7 +94,7 @@ def as_int(s):
 
 
 def main():
-    allrows = load()
+    allrows, files, dups = load_merged()
     # POPULATION (2026-09-03 EVE, Codex follow-up): only TOUCH rows are touches. CLOSE_SUMMARY rows are
     # session-close provenance and are excluded from every count below; they are reported once, by count.
     rows = [r for r in allrows if orch_log.event_type([r[c] for c in COLS]) == "TOUCH"]
@@ -76,9 +104,10 @@ def main():
     dates = sorted({r["date"] for r in rows})
     print("# COORDINATION-VALUE SCORECARD — DOCKET L239")
     print(f"\n**Renderer:** `AGENTS/DAEDALUS/scripts/coordination_scorecard.py` · "
-          f"**Source:** `PROME/state/ORCH_LOG.tsv` ({len(allrows)} rows = **{len(rows)} TOUCH** + "
+          f"**Source:** {' + '.join('`' + os.path.relpath(f, ROOT) + '`' for f in files)} ({len(allrows)} rows = **{len(rows)} TOUCH** + "
           f"{len(closes)} CLOSE_SUMMARY (provenance only, excluded from every count below), "
-          f"{dates[0]} → {dates[-1]})")
+          f"{dates[0]} → {dates[-1]}; {len(files) - 1} archive file(s) merged, {len(dups)} cross-file duplicate key(s)"
+          + (" — DUPLICATES: " + " · ".join(f"{k} in {a} and {b}" for k, a, b in dups) if dups else "") + ")")
     print("\n⛔ **DESCRIPTIVE ONLY — no success threshold is set, and none may be set "
           "before >=4 renders exist.** Every figure below is a count of what happened. "
           "None of them says whether an orchestrated touch was WORTH its cost; that "
@@ -181,7 +210,7 @@ def selftest():
         open(p, "w").write(hdr + row("A", "0", "1") + "\n" + row("B", "", "") + "\n" + row("C", "4", "0") + "\n")
         buf = io.StringIO()
         with contextlib.redirect_stdout(buf):
-            rows = load(p)
+            rows = load(p, archive_glob="")
         zd = sum(1 for r in rows if as_int(r["drained"]) == 0); unk = sum(1 for r in rows if as_int(r["drained"]) is None)
         ok1 = zd == 1 and unk == 1
         print(f"  {'✓' if ok1 else '✗'} EMPTY drained ⇒ UNKNOWN bucket (zero={zd}, unknown={unk}; expected 1/1)"); fails += not ok1
@@ -190,7 +219,7 @@ def selftest():
         open(p, "w").write(hdr + row("A", "0", "1") + "\n" + close + "\n")
         buf = io.StringIO()
         with contextlib.redirect_stdout(buf):
-            allr = load(p)
+            allr = load(p, archive_glob="")
         touches = [r for r in allr if orch_log.event_type([r[c] for c in COLS]) == "TOUCH"]
         ok3 = len(allr) == 2 and len(touches) == 1
         print(f"  {'✓' if ok3 else '✗'} CLOSE row loads but is NOT a touch (rows={len(allr)}, touches={len(touches)})"); fails += not ok3
@@ -198,12 +227,34 @@ def selftest():
         buf = io.StringIO(); rc = 0
         with contextlib.redirect_stdout(buf):
             try:
-                load(p)
+                load(p, archive_glob="")
             except SystemExit as e:
                 rc = e.code
         ok2 = rc == 2 and "COORDINATION-VALUE SCORECARD" not in buf.getvalue()
         print(f"  {'✓' if ok2 else '✗'} malformed row ⇒ rc 2 and NOTHING rendered (rc={rc})"); fails += not ok2
-    print("SCORECARD SELFTEST " + ("✓ 3/3" if not fails else f"✗ {fails}/3 FAILED")); return 1 if fails else 0
+        # L262 consumer half (2026-09-04): archive + hot merge, dedup on (date, desk, touch), archive copy kept; no archive ⇒ no-op
+        arc_dir = os.path.join(td, "arc"); os.makedirs(arc_dir)
+        open(os.path.join(arc_dir, "ORCH_LOG_2026-09.tsv"), "w").write(hdr + row("A", "0", "1") + "\n" + row("OLD", "3", "0") + "\n")
+        open(p, "w").write(hdr + row("A", "0", "1") + "\n" + row("C", "4", "0") + "\n")
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            rows4, files4, dups4 = load_merged(p, os.path.join(arc_dir, "ORCH_LOG_*.tsv"))
+        ok4 = len(files4) == 2 and len(rows4) == 3 and len(dups4) == 1 and dups4[0][0][1] == "A"
+        print(f"  {'✓' if ok4 else '✗'} archive+hot merged: 2 files, 3 unique rows, 1 cross-file duplicate reported (files={len(files4)} rows={len(rows4)} dups={len(dups4)})"); fails += not ok4
+        with contextlib.redirect_stdout(buf):
+            rows5, files5, dups5 = load_merged(p, os.path.join(arc_dir, "NO_SUCH_*.tsv"))
+        ok5 = files5 == [p] and len(rows5) == 2 and not dups5
+        print(f"  {'✓' if ok5 else '✗'} no archive on disk ⇒ no-op (files==[hot], rows={len(rows5)})"); fails += not ok5
+        open(os.path.join(arc_dir, "ORCH_LOG_2026-08.tsv"), "w").write(hdr + "2026-08-01\tX\tbad\n")
+        rc5 = 0
+        with contextlib.redirect_stdout(buf):
+            try:
+                load_merged(p, os.path.join(arc_dir, "ORCH_LOG_*.tsv"))
+            except SystemExit as e:
+                rc5 = e.code
+        ok6 = rc5 == 2
+        print(f"  {'✓' if ok6 else '✗'} malformed ARCHIVE ⇒ rc 2, nothing rendered (rc={rc5})"); fails += not ok6
+    print("SCORECARD SELFTEST " + ("✓ 6/6" if not fails else f"✗ {fails}/6 FAILED")); return 1 if fails else 0
 
 
 if __name__ == "__main__":

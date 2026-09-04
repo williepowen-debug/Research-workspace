@@ -48,7 +48,7 @@ sys.path.insert(0, os.path.join(ROOT, "scripts"))
 sys.path.insert(0, HERE)
 import orch_log                                   # strict ORCH_LOG schema helper (single owner of COLS)
 
-VERSION = "scorecard.py v1.0 (2026-09-04)"
+VERSION = "scorecard.py v1.1 (2026-09-04, L262 consumer half: hot + archives)"
 DOCKET = os.path.join(ROOT, "PROME", "DOCKET.tsv")
 WQ = os.path.join(ROOT, "PROME", "WILL_QUEUE.md")
 CORR = os.path.join(ROOT, "AGENTS", "WALTER", "registry", "CORRECTIONS.tsv")
@@ -252,16 +252,22 @@ def col2_forecasts(start, end):
     return results, sorted(found), cannot
 
 
-def orch_window(start, end, path=orch_log.LEDGER):
-    rc, fields = orch_log.check(path, quiet=True)
-    if rc:
-        orch_log.check(path)
-        print("rc=2 CANNOT-EVALUATE: ORCH_LOG does not validate against schema v2")
-        sys.exit(2)
-    rows = [dict(zip(orch_log.COLS, f)) for f in fields]
+def orch_window(start, end, path=orch_log.LEDGER, archive_glob=None):
+    """L262 consumer half (2026-09-04): hot + every PROME/archive/ORCH_LOG_*.tsv, each schema-validated, de-duplicated
+    on (date, desk, touch) — delegated to coordination_scorecard.load_merged so both renderers read ONE way.
+    Returns (touches_in_window, files_read, cross_file_duplicates). An empty ledger set is (), never an exit."""
+    import coordination_scorecard as cs
+    glob_ = cs.ARCHIVE_GLOB if archive_glob is None else archive_glob
+    try:
+        rows, files, dups = cs.load_merged(path, glob_)
+    except SystemExit as e:
+        if e.code == 2 and not any(os.path.getsize(f) and [l for l in open(f) if l.strip() and not l.startswith("#")][1:]
+                                   for f in cs.ledger_paths(path, glob_) if os.path.isfile(f)):
+            return [], cs.ledger_paths(path, glob_), []          # genuinely empty ⇒ NO-TOUCHES-LOGGED upstream
+        raise
     touches = [r for r in rows if orch_log.event_type([r[c] for c in orch_log.COLS]) == "TOUCH"
                and in_window(r["date"], start, end)]
-    return touches
+    return touches, files, dups
 
 
 def col3_catches(touches):
@@ -330,7 +336,7 @@ def render(week_ending, orch_path=orch_log.LEDGER):
 
     loops, loops_nosrc, tomb = col1_loops(start, end)
     ledgers, unregistered, cannot = col2_forecasts(start, end)
-    touches = orch_window(start, end, orch_path)
+    touches, orch_files, orch_dups = orch_window(start, end, orch_path)
     caught, scored_zero, unscored_prose = col3_catches(touches)
     corr_total, corr = col4_corrections(start, end)
     ruled, done, amended, props = col5_rulings(start, end)
@@ -351,7 +357,9 @@ def render(week_ending, orch_path=orch_log.LEDGER):
     lg = subprocess.run(["git", "log", "-1", "--format=%h %ad", "--date=short", "--", orch_path], cwd=ROOT, capture_output=True, text=True).stdout.strip()
     ns = subprocess.run(["git", "diff", "--numstat", "--", orch_path], cwd=ROOT, capture_output=True, text=True).stdout.split()
     dirty = f"+{ns[0]}/−{ns[1]} lines UNCOMMITTED in the working tree (the render reads the tree, not HEAD)" if ns else "working tree == HEAD"
-    P(f"\n**ORCH_LOG vintage:** last commit `{lg or 'NOT-SEEN'}` · {dirty} · {len(touches)} TOUCH rows in window · whole ledger in the appendix.")
+    P(f"\n**ORCH_LOG vintage:** last commit `{lg or 'NOT-SEEN'}` · {dirty} · {len(touches)} TOUCH rows in window · "
+      f"files read: {' + '.join('`' + os.path.relpath(f, ROOT) + '`' for f in orch_files)} ({len(orch_files) - 1} archive(s) merged, "
+      f"{len(orch_dups)} cross-file duplicate key(s){' — ' + ' · '.join(str(k) for k, a, b in orch_dups) if orch_dups else ''}) · whole ledger in the appendix.")
     P("\n⛔ **DESCRIPTIVE ONLY — no success threshold is set, and none may be set before >=4 renders exist.** "
       "Every cell is a count with its query and its source rows printed beside it. Anything the instrument cannot see "
       "is `NOT-SEEN`, never zero. Rulings given in-session or on Telegram and not written to WILL_QUEUE are NOT-SEEN.")
@@ -552,15 +560,19 @@ def selftest():
     with tempfile.TemporaryDirectory() as td:
         p = os.path.join(td, "L.tsv")
         open(p, "w").write("# f\n" + "\t".join(orch_log.COLS) + "\n")
-        t = orch_window("2026-08-29", "2026-09-04", p)
+        t, _f, _d = orch_window("2026-08-29", "2026-09-04", p, archive_glob="")
         chk(t == [], "empty ORCH_LOG ⇒ no touches (renders NO-TOUCHES-LOGGED)")
         row = "\t".join(["2026-09-01", "X", "subagent", "1", "t", "0", "d", "OK", "n", "1 — brief said Y", "", "", "1"])
         row2 = "\t".join(["2026-08-20", "Y", "subagent", "1", "t", "0", "d", "OK", "n", "", "", "", ""])
         open(p, "w").write("# f\n" + "\t".join(orch_log.COLS) + "\n" + row + "\n" + row2 + "\n")
-        t = orch_window("2026-08-29", "2026-09-04", p)
+        t, _f, _d = orch_window("2026-08-29", "2026-09-04", p, archive_glob="")
         chk(len(t) == 1 and t[0]["desk"] == "X", "window filter keeps the in-window touch and drops the 8/20 one")
         caught, z, un = col3_catches(t)
         chk(len(caught) == 1 and caught[0][3] == 1, "typed brief_defect_count=1 ⇒ one catch")
+        arc = os.path.join(td, "arc"); os.makedirs(arc)
+        open(os.path.join(arc, "ORCH_LOG_2026-08.tsv"), "w").write("# f\n" + "\t".join(orch_log.COLS) + "\n" + row2 + "\n" + row.replace("2026-09-01", "2026-08-30") + "\n")
+        t2, f2, d2 = orch_window("2026-08-29", "2026-09-04", p, archive_glob=os.path.join(arc, "ORCH_LOG_*.tsv"))
+        chk(len(f2) == 2 and len(t2) == 2 and len(d2) == 1, f"archive merged into the window: 2 files, 2 in-window touches, the 8/20 row present in BOTH files reported once as a cross-file duplicate (files={len(f2)} touches={len(t2)} dups={len(d2)})")
     chk(bucket("RESOLVED NO — window expired") == "MISS", "`RESOLVED NO — window expired` → MISS (longest prefix beats bare RESOLVED)")
     chk(bucket("HIT (partial — offshore only)") == "PARTIAL", "`HIT (partial …)` → PARTIAL, not HIT")
     chk(bucket("OPEN — re-dated 2026-08-13") is None, "`OPEN — re-dated` → non-terminal")
@@ -577,7 +589,7 @@ def selftest():
         rows = tsv_rows(bad)
         h = rows[0][1]
         chk("Status" not in h, "adapter precondition: a header lacking `Status` is CANNOT-EVALUATE (checked by name, never positionally)")
-    print("SCORECARD SELFTEST " + ("✓ %d/%d" % (12 - fails, 12) if not fails else f"✗ {fails}/12 FAILED"))
+    print("SCORECARD SELFTEST " + ("✓ %d/%d" % (13 - fails, 13) if not fails else f"✗ {fails}/13 FAILED"))
     return 1 if fails else 0
 
 
