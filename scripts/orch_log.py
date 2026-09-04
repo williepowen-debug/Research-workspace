@@ -15,10 +15,10 @@ USAGE
       --brief_defects "..." --inbox_before 5 --inbox_after 2 --brief_defect_count 0
       # validates the NEW row and the EXISTING ledger, then appends atomically (.tmp + os.replace).
       # rc 0 appended · 2 refused (nothing written). Omit a typed flag to record EMPTY (= UNKNOWN).
-  python3 scripts/orch_log.py --selftest                # guard drills: 12-col row refused · bad int refused · EMPTY kept · append round-trip
+  python3 scripts/orch_log.py --selftest                # 10 drills: width · types · non-negative · EMPTY · event classes · append round-trip/refusals
 CONTRACT (CHECK_STANDARD §9): rc 0 · 2 CANNOT-CERTIFY / refused. Never pads, never truncates, never repairs.
 """
-import argparse, os, subprocess, sys, tempfile
+import argparse, fcntl, os, re, subprocess, sys, tempfile
 
 ROOT = subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True).stdout.strip() or "."
 LEDGER = os.path.join(ROOT, "PROME", "state", "ORCH_LOG.tsv")
@@ -26,6 +26,24 @@ COLS = ["date", "desk", "tier", "touch", "trigger", "drained", "delivered", "zer
         "brief_defects", "inbox_before", "inbox_after", "brief_defect_count"]
 TYPED = {"drained", "inbox_before", "inbox_after", "brief_defect_count"}
 N = len(COLS)
+# TOUCH-TOKEN CLASSES (ledger header, 2026-09-03 EVE — Codex follow-up, PROME-verified): the `touch`
+# cell classifies the ROW. Integer or integer+suffix ("1" · "2b" · "2-CLOSEOUT-PING") = TOUCH, the only
+# class touch metrics count; "CLOSE" = CLOSE_SUMMARY (session-close provenance, excluded from touch /
+# delivery / zero-drain counts); "N-RESULT" retired 9/3 (collapsed into the touch rows). Any other
+# token is a validation problem — a row of unknown class must not be silently counted either way.
+RE_TOUCH = re.compile(r"^\d+(?:[A-Za-z-][A-Za-z0-9-]*)?$")
+
+
+def event_type(fields):
+    """'TOUCH' · 'CLOSE_SUMMARY' · None (unknown token) for one 13-field row."""
+    t = fields[3].strip()
+    if t.upper() == "CLOSE":
+        return "CLOSE_SUMMARY"
+    if re.match(r"^\d+-RESULT$", t, re.I):
+        return None                         # retired 9/3 (collapsed into touch rows) — never a TOUCH by suffix accident
+    if RE_TOUCH.match(t):
+        return "TOUCH"
+    return None
 
 
 def int_or_empty(s):
@@ -48,6 +66,10 @@ def validate_line(fields, lineno):
             ok, v = int_or_empty(fields[i])
             if not ok:
                 probs.append(f"L{lineno}: `{name}` = {fields[i][:40]!r} is neither an integer nor EMPTY")
+            elif v is not None and v < 0:
+                probs.append(f"L{lineno}: `{name}` = {v} is NEGATIVE — typed counts are non-negative (a count below zero is a defect, not a value)")
+    if event_type(fields) is None:
+        probs.append(f"L{lineno}: `touch` = {fields[3][:30]!r} is neither a TOUCH token (integer[+suffix]) nor CLOSE — unknown event class")
     if not fields[0].strip() or not fields[1].strip():
         probs.append(f"L{lineno}: date/desk empty")
     return probs
@@ -84,21 +106,31 @@ def check(path=LEDGER, quiet=False):
 
 
 def append(args, path=LEDGER):
-    rc, _ = check(path, quiet=True)
-    if rc:
-        print("ORCH-LOG ✗ rc 2 — refusing to append to a ledger that does not validate (run `check`)"); return 2
+    """Validate the new row and the existing ledger, then ONE O_APPEND write under an exclusive lock.
+    (First cut used a fixed .tmp + os.replace: atomic in visibility, not safe against two concurrent
+    appenders — Codex 9/3. A single small O_APPEND write is atomic per POSIX; the flock makes the
+    validate-then-write sequence exclusive too.)"""
     fields = [(getattr(args, c) or "").replace("\t", " ").replace("\n", " ") for c in COLS]
     probs = validate_line(fields, 0)
     if probs:
         print("ORCH-LOG ✗ rc 2 — new row refused: " + "; ".join(probs)); return 2
-    text = open(path, encoding="utf-8").read()
-    if not text.endswith("\n"):
-        text += "\n"
-    tmp = path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        f.write(text + "\t".join(fields) + "\n")
-    os.replace(tmp, path)
-    print(f"ORCH-LOG ✓ appended 1 row ({fields[0]} {fields[1]} touch {fields[3]}) — ledger now validates")
+    try:
+        fh = open(path, "a+", encoding="utf-8")
+    except OSError as e:
+        print(f"ORCH-LOG ✗ rc 2 — {e}"); return 2
+    with fh:
+        fcntl.flock(fh, fcntl.LOCK_EX)
+        try:
+            rc, _ = check(path, quiet=True)
+            if rc:
+                print("ORCH-LOG ✗ rc 2 — refusing to append to a ledger that does not validate (run `check`)"); return 2
+            fh.seek(0, os.SEEK_END)
+            prefix = "" if (fh.tell() == 0 or open(path, "rb").read()[-1:] == b"\n") else "\n"
+            fh.write(prefix + "\t".join(fields) + "\n")
+            fh.flush(); os.fsync(fh.fileno())
+        finally:
+            fcntl.flock(fh, fcntl.LOCK_UN)
+    print(f"ORCH-LOG ✓ appended 1 row ({fields[0]} {fields[1]} touch {fields[3]}, {event_type(fields)}) — ledger validates")
     return 0
 
 
@@ -124,7 +156,17 @@ def selftest():
         ns.drained = "two"; rc = append(ns, p); drill("append: non-integer drained REFUSED, nothing written", rc == 2 and open(p).read().count("\n") - 2 == 2)
         open(p, "w").write(hdr + good + "\n" + "bad\trow\n"); ns.drained = "1"; rc = append(ns, p)
         drill("append to a malformed ledger REFUSED", rc == 2)
-    print("ORCH-LOG SELFTEST " + ("✓ 6/6" if not fails else f"✗ {fails}/6 FAILED")); return 1 if fails else 0
+        # 9/3 EVE hardenings
+        open(p, "w").write(hdr + good.replace("\t3\t", "\t-3\t") + "\n")
+        rc, _ = check(p, quiet=True); drill("NEGATIVE typed count ⇒ rc 2", rc == 2)
+        close = "\t".join(["2026-08-28", "PROME", "session", "CLOSE", "t", "0", "d", "OK", "n", "", "", "", ""])
+        open(p, "w").write(hdr + good + "\n" + close + "\n")
+        rc, rows = check(p, quiet=True); kinds = [event_type(r) for r in rows]
+        drill("CLOSE row accepted and classified CLOSE_SUMMARY; touch row TOUCH", rc == 0 and kinds == ["TOUCH", "CLOSE_SUMMARY"])
+        open(p, "w").write(hdr + good.replace("\t1\tt\t", "\t1-RESULT\tt\t") + "\n")
+        rc, _ = check(p, quiet=True); drill("retired '1-RESULT' token ⇒ rc 2 (unknown class, never silently counted)", rc == 2)
+        drill("TOUCH token forms: 1 · 2b · 2-CLOSEOUT-PING all TOUCH", all(RE_TOUCH.match(t) for t in ("1", "2b", "2-CLOSEOUT-PING")) and not RE_TOUCH.match("CLOSE"))
+    print("ORCH-LOG SELFTEST " + ("✓ 10/10" if not fails else f"✗ {fails}/10 FAILED")); return 1 if fails else 0
 
 
 def main():

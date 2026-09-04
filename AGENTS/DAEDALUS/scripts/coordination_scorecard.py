@@ -66,11 +66,18 @@ def as_int(s):
 
 
 def main():
-    rows = load()
+    allrows = load()
+    # POPULATION (2026-09-03 EVE, Codex follow-up): only TOUCH rows are touches. CLOSE_SUMMARY rows are
+    # session-close provenance and are excluded from every count below; they are reported once, by count.
+    rows = [r for r in allrows if orch_log.event_type([r[c] for c in COLS]) == "TOUCH"]
+    closes = [r for r in allrows if orch_log.event_type([r[c] for c in COLS]) == "CLOSE_SUMMARY"]
+    if not rows:
+        print("rc=2 CANNOT-RENDER: zero TOUCH rows"); return 2
     dates = sorted({r["date"] for r in rows})
     print("# COORDINATION-VALUE SCORECARD — DOCKET L239")
     print(f"\n**Renderer:** `AGENTS/DAEDALUS/scripts/coordination_scorecard.py` · "
-          f"**Source:** `PROME/state/ORCH_LOG.tsv` ({len(rows)} touch rows, "
+          f"**Source:** `PROME/state/ORCH_LOG.tsv` ({len(allrows)} rows = **{len(rows)} TOUCH** + "
+          f"{len(closes)} CLOSE_SUMMARY (provenance only, excluded from every count below), "
           f"{dates[0]} → {dates[-1]})")
     print("\n⛔ **DESCRIPTIVE ONLY — no success threshold is set, and none may be set "
           "before >=4 renders exist.** Every figure below is a count of what happened. "
@@ -178,6 +185,15 @@ def selftest():
         zd = sum(1 for r in rows if as_int(r["drained"]) == 0); unk = sum(1 for r in rows if as_int(r["drained"]) is None)
         ok1 = zd == 1 and unk == 1
         print(f"  {'✓' if ok1 else '✗'} EMPTY drained ⇒ UNKNOWN bucket (zero={zd}, unknown={unk}; expected 1/1)"); fails += not ok1
+        # CLOSE_SUMMARY rows are excluded from touch counts (9/3 EVE)
+        close = "\t".join(["2026-08-28", "PROME", "session", "CLOSE", "t", "0", "d", "OK", "n", "", "", "", ""])
+        open(p, "w").write(hdr + row("A", "0", "1") + "\n" + close + "\n")
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            allr = load(p)
+        touches = [r for r in allr if orch_log.event_type([r[c] for c in COLS]) == "TOUCH"]
+        ok3 = len(allr) == 2 and len(touches) == 1
+        print(f"  {'✓' if ok3 else '✗'} CLOSE row loads but is NOT a touch (rows={len(allr)}, touches={len(touches)})"); fails += not ok3
         open(p, "w").write(hdr + row("A", "0") + "\n" + "2026-09-03\tX\tbad\n")
         buf = io.StringIO(); rc = 0
         with contextlib.redirect_stdout(buf):
@@ -187,7 +203,7 @@ def selftest():
                 rc = e.code
         ok2 = rc == 2 and "COORDINATION-VALUE SCORECARD" not in buf.getvalue()
         print(f"  {'✓' if ok2 else '✗'} malformed row ⇒ rc 2 and NOTHING rendered (rc={rc})"); fails += not ok2
-    print("SCORECARD SELFTEST " + ("✓ 2/2" if not fails else f"✗ {fails}/2 FAILED")); return 1 if fails else 0
+    print("SCORECARD SELFTEST " + ("✓ 3/3" if not fails else f"✗ {fails}/3 FAILED")); return 1 if fails else 0
 
 
 if __name__ == "__main__":
