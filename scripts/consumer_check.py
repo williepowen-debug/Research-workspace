@@ -406,9 +406,41 @@ def has_current(lines, idx, current, row_oriented=False, csv_mode=False) -> bool
     """
     if current in (None, "?", ""):
         return False
+    if numeric_needle(str(current)) is None:
+        # TEXT needle (a date, a token, a path): line_values() tokenizes NUMBERS only, so this
+        # test is blind to a text --new BY DESIGN. Bare co-presence of an old and a new DATE was
+        # tried on 2026-09-04 and measured in the expensive direction on the first fleet diff:
+        # VULCAN PREDICTIONS.tsv rows carry 2026-09-22 (stale MU date) AND 2026-09-30 because
+        # 9/30 is the prediction's RESOLVE date, and a TERRY gate row cleared off a NEIGHBOUR line.
+        # A text needle clears only on a same-line range/transition form — range_spans() below.
+        return False
     want = normalize(str(current))
     return any(want in line_values(l, csv_mode)
                for l in _context(lines, idx, row_oriented))
+
+
+RANGE_SEP = r"\s*(?:\.\.\.?|…|–|—|→|->|\bto\b)\s*"   # no bare hyphen: ISO dates carry hyphens
+
+
+def range_spans(line: str, hits, current) -> set:
+    """Hits that sit as one bound of a same-line RANGE or TRANSITION whose other bound is
+    `current` (`2026-09-22..2026-09-30`, `A–B`, `A → B`, `A to B`, either order). SAME LINE
+    ONLY, and the ONLY clearing path for a text needle — bare co-presence does not clear.
+
+    Why a separate reason (PROME 2026-09-04, VIOLET-verified): a range cell contains the old
+    needle AND its replacement BY CONSTRUCTION, so a substring test flags a row that is
+    already correct and would flag it identically after any 'fix' — wrong by construction,
+    not by chance. A sweeper acting on that 🔴 would edit a correct deferral row
+    (PROME/DOCKET.tsv L173–175). The reason is printed so the 🟢 bucket says WHY."""
+    if current in (None, "?", ""):
+        return set()
+    cur = re.escape(str(current))
+    out = set()
+    for h in hits:
+        hh = re.escape(str(h))
+        if re.search(hh + RANGE_SEP + cur, line) or re.search(cur + RANGE_SEP + hh, line):
+            out.add(h)
+    return out
 
 
 def surface_of(relpath: str) -> str:
@@ -549,6 +581,16 @@ def scan(workspace: Path, needles, own_dir: Path | None, current=None,
                 handled.append((rel, i + 1, sorted(hits), txt140,
                                 "file-level dead-surface banner (FROZEN class)"))
                 continue
+            # 0. a RANGE cell spanning old..current carries both by construction (2026-09-04)
+            rs = range_spans(line, hits, current)
+            if rs:
+                handled.append((rel, i + 1, sorted(rs), txt140,
+                                f"RANGE/TRANSITION on the same line carries {'/'.join(sorted(rs))} and {current} by construction"))
+                hits = hits - rs
+                num_hits = num_hits & hits
+                txt_hits = txt_hits & hits
+                if not hits:
+                    continue
             # 1. the new value is right here -> this IS the re-base, not a stale copy
             if has_current(lines, i, current, rowish, csvish):
                 handled.append((rel, i + 1, sorted(hits), txt140,
@@ -845,6 +887,57 @@ def report(label, current, olds, stale, cand, mail, handled, show_handled=False)
         print("     ✓ no consumer carries a superseded value.")
 
 
+def _selftest() -> int:
+    """Fixture workspace under a temp dir; calls scan() directly. Built 2026-09-04 off the
+    DOCKET L173–175 false-🔴 (PROME packet, VIOLET-verified): the capable cases are the REAL
+    defect shapes, the clean case proves a genuinely stale text row still fires, and the
+    numeric fixtures prove the change touched no numeric path."""
+    import tempfile
+    fails = 0
+    with tempfile.TemporaryDirectory() as td:
+        ws = Path(td)
+        (ws / "PROME").mkdir(); (ws / "AGENTS" / "X").mkdir(parents=True)
+        (ws / "PROME" / "DOCKET.tsv").write_text(
+            "2026-09-22..2026-09-30\tDEFERRAL range cell — both bounds present by construction\n"
+            "2026-09-22\trow carrying only the old date\n"
+            "2026-09-30\tcurrent row — no hit expected\n"
+            "2026-09-22 → 2026-09-30\ttext arrow re-base record\n"
+            "2026-09-30 to 2026-09-22\treversed range, still a range\n"
+            "typical 2026-09-22 release; resolve date 2026-09-30\tBARE CO-PRESENCE (VULCAN shape) — NOT a clearing form\n")
+        (ws / "AGENTS" / "X" / "STATUS.md").write_text(
+            "MU reports 2026-09-22 after the close.\n\n\n\n\n\n\n"
+            "SPX flip 7,496 [8/20]\n\n\n\n\n\n\n"
+            "SPX flip 7,496 → 7,491 re-based\n\n\n\n\n\n\n"
+            "| GATE-007 deadline | 2026-09-22 |\n"
+            "| other row | 2026-09-30 |\n")
+        def run(needle, current):
+            st, cd, ml, hd = scan(ws, [needle], None, current=current)
+            return ({(r[0], r[1]) for r in st}, {(r[0], r[1]) for r in cd},
+                    {(r[0], r[1]): r[4] for r in hd})
+        st, cd, hd = run("2026-09-22", "2026-09-30")
+        cases = [
+            ("range cell → 🟢 with RANGE reason", ("PROME/DOCKET.tsv", 1) in hd and "RANGE" in hd.get(("PROME/DOCKET.tsv", 1), "")),
+            ("reversed range → 🟢", ("PROME/DOCKET.tsv", 5) in hd),
+            ("text arrow → 🟢 (adjacent current, text form)", ("PROME/DOCKET.tsv", 4) in hd),
+            # a dated TSV row is demoted to 🟠 HISTORY-ROW candidate by the 2026-08-28 line-class rule
+            # (pre-existing, not this fix) — the test is that it stays REPORTABLE, never silently 🟢
+            ("TSV row with only the old date → still reportable (🔴 or 🟠)", ("PROME/DOCKET.tsv", 2) in st | cd and ("PROME/DOCKET.tsv", 2) not in hd),
+            ("STATUS line with only the old date → still 🔴", ("AGENTS/X/STATUS.md", 1) in st),
+            ("current-only row → no hit anywhere", ("PROME/DOCKET.tsv", 3) not in st | cd | set(hd)),
+            ("bare co-presence of old+new on one row (VULCAN shape) → still reportable", ("PROME/DOCKET.tsv", 6) in st | cd and ("PROME/DOCKET.tsv", 6) not in hd),
+            ("old date with the new date on a NEIGHBOUR line (TERRY shape) → still 🔴", ("AGENTS/X/STATUS.md", 22) in st),
+        ]
+        st2, cd2, hd2 = run("7496", "7491")
+        cases += [
+            ("numeric: bare 7,496 → 🔴 or 🟠 (unchanged path)", ("AGENTS/X/STATUS.md", 8) in st2 | cd2),
+            ("numeric: 7,496 → 7,491 → 🟢 (unchanged path)", ("AGENTS/X/STATUS.md", 15) in hd2),
+        ]
+        for name, ok in cases:
+            print(f"  {'✓' if ok else '✗'} {name}"); fails += (not ok)
+    print(f"consumer_check --selftest: {len(cases) - fails}/{len(cases)} " + ("OK" if not fails else "FAILED"))
+    return 1 if fails else 0
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -886,7 +979,12 @@ def main():
                          "The 🟢 bucket is where the 2026-08 marker-drop class hid; "
                          "audit it when a value you KNOW is carried comes back clean.")
     ap.add_argument("--strict", action="store_true", help="exit 1 if any STALE consumer found")
+    ap.add_argument("--selftest", action="store_true",
+                    help="fixture drill (2026-09-04): range cell + text arrow bucket 🟢; a text row "
+                         "carrying only the old value stays 🔴; numeric behaviour unchanged. rc 0/1.")
     args = ap.parse_args()
+    if args.selftest:
+        sys.exit(_selftest())
     if len(args.old) > 1:
         # Advisory, NEVER a block (PROME scoping 38ad4495d): repeated --old is
         # CORRECT for prior vintages of the SAME figure collapsing to one --new
