@@ -29,6 +29,12 @@
 
 **7. ✅ WALTER lane 2 → 0.** SIG-004 USD/JPY 156.14 (`KB-BND-230`, info; SAM owns the level; reusable half is the unregistered-basis finding). SIG-010 gold −2.35% attribution withdrawn (`KB-BND-231`) — **BOND checked its own exposure: no surface carries the withdrawn cell.**
 
+**8. 🆕 VECTOR OPENED AT WILL'S DIRECTION — `VX-BND-20` Benchmark-Driven Structural UST Demand (score 2), channel `FL-BND-14` (LATENT), standing surface `monitors/BENCHMARK_DEMAND.md`, `VX-BND-17` RE-ARMED from DORMANT (score UNCHANGED at 1 — the vector measures MBS STRESS and a price-insensitive index bid is SUPPORTIVE), 2 dated CATALYSTS rows (10/6 review, 2027-01-25 expert group).** **The gap was STRUCTURAL: VX-17 was dormant and VX-13 is auction-shaped, so an announced/mechanical/multi-year object fitted NEITHER and nothing would have caught it.** ⛔ **No prediction registered — no base rate exists and this desk refuses a gate below n=6; a base rate is OWED before any BND- row keys on it.** `KB-BND-241`.
+
+**9. 🔴 THE FED-FIGURE CORRECTION WAS ITSELF CORRECTED, AND THE SETTLEMENT IS 'NEITHER'.** ORACLE withdrew its morning 'wrong contract / hawkish ~10pp' diagnosis (CME FedWatch fits 65-68 equally well) and asked BOND to settle it. **BOND traced its own provenance: `SIG-W-20260901-006` line 42 says 'a Sept-16 hike ~65-68% priced' — meeting-specific by wording, NO VENUE NAMED ANYWHERE.** ⇒ **figure WITHDRAWN as unsourced-as-to-venue; `KB-BND-238` flipped to SUPERSEDED (retained verbatim, not edited); `KB-BND-242` is the settlement.** ★ **RULE SHARPENED: STATE THE VENUE *AND* THE HORIZON — this figure HAD the horizon, so ORACLE's horizon rule would NOT have caught it. And an UNattributed figure survives review that a MIS-attributed one fails.** Cross-venue spread (CME ~62-67 / PM 53.5 / Kalshi 45 = 17-22pp) flagged to ORACLE as THEIRS, not claimed.
+
+**10. 🔴 READ-CAP BREACHED AND FIXED THIS SESSION: STATUS hit 37,436 B (budget 32,550) and is now 32,444 B.** Four rotations, **all verbatim + crc32-stamped, nothing deleted**: 9/2 BOTTOM LINE -> `domain/sources/2026-09-04_STATUS_archive_bottomline_9-2.md` · FR2004 8/19->8/26 essay -> `monitors/DEALER_CAPACITY_9-4_vintage_note.md` · the 9/1 split banner (**it had become part of the byte problem it described**) -> `archive/2026-09-04_STATUS_split-banner_9-1.md` · C-36 narrative -> `domain/sources/2026-09-04_STATUS_archive_C36-ruling-narrative.md` (the ARGUMENT is canonical at THESIS; STATUS was carrying it). ⚠️ **The C-36 rotation netted only -379 B because the POINTER was nearly as long as the block** — a rewrite pass can ADD bytes; the fix that worked was trimming MY OWN new VX-20 block (-1,045 B) and pointing at the monitor.
+
 ## NEXT SESSION (dated, future-verifiable)
 
 0. ⛔ **PULL FIRST** if `AGENTS/SAM/` is clean — this session could not, so local may be behind origin.
@@ -41,7 +47,7 @@
 7. 🟠 **BTP-Bund is 48d stale [83bp, 7/17] — refresh BEFORE the 9/9–10 ECB.** Trigger is >200 sustained.
 8. 🟠 **Patch `grade_auction.py` to print the `I'` line** before the OLD print retires (~9/10).
 9. 🟡 **9/11 — PROME hyperscaler IG share** (approach fixed in `KB-BND-227`). **A second miss ⇒ DECLINE.**
-10. 🔴 **BOTH READ-CAP SURFACES ARE NOW NEAR THE LINE: `MEMORY.md` 31,839 B (98%) AND `STATUS.md` ~31.2 KB (~96%) of 32,550 B.** STATUS crossed into the danger band THIS session. **Rotate both next session** — archive, do not delete.
+10. 🟠 **`MEMORY.md` 31,839 B = 98% of the 32,550 B budget — STILL OWED, rotate next session** (archive, do not delete; flag to PROME, do not compact the fleet index). ✅ **STATUS was fixed THIS session: 37,436 -> 32,444 B, four verbatim crc-stamped rotations.** **STATUS will re-breach quickly — it gained ~6 KB in one day** — so treat rotation as a per-session step, not an event.
 11. 🟠 **OPEN MIRROR DIVERGENCE still flagged, not reconciled:** `VX-BND-05` = 4, `VX-BND-16` = 4 in `VX.tsv` vs matrix 3 / 2 — components HOTTER than the matrix. Untouched a third session.
 12. 🟠 **20 ACTIVE KB rows past `Stale_By`** — read each, don't bulk-flip. 🟡 `^MOVE` not re-pulled. 🟡 LIQUID repo-to-IORB extension still owed. 🟡 duration-neutral cash construction to LIQUID (n=2). 🟡 DAEDALUS ⑰ residue (VX-16 fused cell, VX-10 re-base).
 
