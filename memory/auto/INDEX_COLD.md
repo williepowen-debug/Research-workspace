@@ -415,3 +415,15 @@
 - finding_dated_stamp_is_a_trigger_not_a_shield — a stamp older than last session forces re-pull-or-freeze
 - finding_canonical_surfaces_stale_inbox_carries_live_state — the live fact rides the unprocessed INBOX, not the canonical surface
 - finding_reconcile_mismatch_does_not_say_which_side_is_wrong — adjusting the COUNT destroys the evidence; flags are a LOWER BOUND
+- finding_persistence_threshold_needs_panel_depth_not_just_a_metric — N-period rule on a panel never observed N times; 0 fires is structural
+- finding_gate_calibration_is_a_claim_about_its_remedys_price — cheaper remedy = stale gate; the risky error flips to the SILENT one
+- finding_spec_that_is_both_falsifier_and_trigger_permits_only_disambiguation — rule the definition, escalate the retune; measure direction
+- finding_a_fix_can_relocate_a_constraint_and_report_it_removed — a fix whose precondition is the obstacle's class reads as a solution
+- finding_supersession_marker_suppresses_the_live_value_beside_it — the archival value is what travels; scoring conventions suppress too
+- finding_option_menu_omitting_the_owners_choice_reads_as_silence — a closed menu makes an off-menu disposition invisible (3d early read 30d late)
+- finding_ranked_head_sample_is_not_the_population — a rate off an age-ranked head over-estimates; age correlates with outcome
+- finding_hypothesis_needs_an_instrument_for_its_defining_mechanism — name the instrument for the mechanism the NAME refers to
+- finding_executability_is_a_separate_audit_axis — can the rule be graded AND acted on inside its instruments' window?
+- finding_rejecting_an_instrument_is_an_audit_of_it — ruling a tool out for one question? audit it before setting it aside
+- finding_banded_threshold_with_no_metric_surface_is_untrippable — no metric vector = untrippable threshold; row-counting audits pass clean
+- finding_port_exposes_what_share_propagates — reinvent HIDES defects, share PROPAGATES, port EXPOSES
