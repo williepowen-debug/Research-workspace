@@ -52,6 +52,40 @@
 Ministry of Finance must take a position → **expert group reports 2027-01-25** → NBIM supplies mandate language + implementation plan → *"the adjustment … should be made gradually out of consideration for market impact and transaction costs"* (one-time transition cost ≈ **NOK 750M**).
 ⇒ **ZERO effect on the 9/8–9/10 refunding. No vector re-scored, no trigger fired, frozen `I'` bars and the kill spec untouched.** **A benchmark proposal with a 2027 decision point is not an auction-demand event.**
 
+### 2.3 🔴 THE "TWISTING THE KNIFE" FRAME — tested against NBIM's own reported holdings, and it FAILS
+
+**Frame source located: Bloomberg MLIV, *"Norway Twists The Knife on Treasuries: 3-Minutes MLIV"*, video, 2026-09-04** — a markets-commentary segment, not a news report.
+
+**GPFG's actual UST holdings** *(NBIM annual + half-year reports, via Reuters 2026-01-28; the end-June-2026 figure is NBIM's own 9/1 submission)*:
+
+| | UST held | % of fund |
+|---|---:|---:|
+| 2021 | $100B | 6.9% |
+| 2022 | $104B | 8.0% |
+| 2023 | $132B | 8.4% |
+| 2024 | $158B | 8.7% |
+| Jun-2025 | $181B | 9.2% |
+| **Dec-2025** | **$199B** | **9.4%** |
+| **Jun-2026** | **~$215B** | — |
+
+> **Norway MORE THAN DOUBLED its Treasury holdings in five years, and raised the share of the fund EVERY SINGLE YEAR — including +$18B in H2-2025 alone. Total US assets went 52.4% → 52.9% of the fund over that same half.**
+> **A fund that has been the most consistent incremental UST buyer among large sovereign allocators, right up to the week of the proposal, is not a hostile actor.** What the proposal does is rebalance the **bond index** toward market weights while holding the **USD share at "just over 50%" — unchanged.**
+
+🔴 **The finding is about the COVERAGE, not only the fund: the hostile frame lives at the HEADLINE layer, and the analysis underneath contradicts it.** Both commentary pieces read in full concede the decisive facts —
+- *Modern Diplomacy* 9/4: **"The fund maintains dollar allocation at just over half of currency exposure, so this is reallocation *within* dollar assets rather than abandonment of the currency"** and **"No single actor is dumping Treasuries; each institution has its own math."**
+- *The Globe and Mail* 9/4: **"total U.S. dollar exposure would remain around 50 per cent."**
+
+**The body says rotation; the headline says knife.** `[[finding_summary_section_merges_what_the_body_separates]]` — and worse than a merge: **the headline asserts a MOTIVE the body explicitly denies.**
+
+⚖️ **Stated so the rebuttal is not its own overreach: the proposal WOULD cut ~$80B, and the DIRECTION genuinely reverses a five-year trend. What fails is the MOTIVE reading (political retaliation / de-dollarization) — not the magnitude.**
+
+★ **The one thing the commentary gets right, and it is BOND's lane: NBIM's stated rationale is a TERM-PREMIUM ARGUMENT.** Heavy government debt has stopped being *"a distinctive feature of individual countries"* and become *"a more general characteristic of developed economies"* — so a fund with an unlimited horizon **"should be paid a premium for holding it."** **That is a sovereign allocator saying out loud it wants more term premium to hold DM government duration.** It is an argument about PRICING, not a withdrawal of demand — the honest version of what the knife frame gestures at. Bears on C-36 and `VX-BND-12`. `KB-BND-244`.
+
+### 2.4 Composition lead — the non-government leg is **NOT agency-only** *(C3, NOT a closure)*
+
+Two 9/4 secondaries in near-identical wording: the money leaving Treasuries resurfaces as **"agency MBS, commercial MBS, asset-backed securities and investment-grade corporate credit."** ⇒ **the bid is SPLIT across BOND's MBS lane and credit's, and the split is unquantified.**
+⚠️ **Near-identical wording suggests a SHARED UPSTREAM, i.e. possibly one source presented twice.** **The 2026-10-06 docket row STANDS and must still be closed at the NBIM primary.** **If it holds, BOND's own ~$82B [EST] revises DOWN** — that figure is the whole ~13% index sleeve, and an agency-only subset would be smaller. `KB-BND-245`.
+
 ---
 
 ## 3. Scale reference — the discretionary cluster, for contrast only *(NOT scored here)*
