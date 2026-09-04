@@ -273,6 +273,14 @@ def main(argv):
         return 1 if bad else 0
     # explicit files (legacy form)
     paths = args
+    # UNKNOWN FLAG GUARD (2026-09-03, Codex/PROME: `--all` fell through to this legacy path, was read
+    # as a FILENAME, and died "CANNOT-EVALUATE (FileNotFoundError)" — a usage error dressed as an
+    # instrument failure, which then became "UNKNOWN until this runs" in a fleet audit). Any `--flag`
+    # that is not a mode is a usage error, named, rc 2. Modes: --agent NAME · --fleet · [FILE ...].
+    unknown = [a for a in paths if a.startswith("--")]
+    if unknown:
+        print(f"READ-CAP 2 USAGE: unknown flag(s) {', '.join(unknown)} — modes are `--agent <NAME>`, `--fleet`, or explicit file paths; there is no `--all` (fleet mode is `--fleet`)")
+        return 2
     if not paths:
         print(__doc__); return 2
     rc = 0
