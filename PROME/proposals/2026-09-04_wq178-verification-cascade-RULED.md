@@ -1,0 +1,16 @@
+# WQ-178 — the verification cascade: five process fixes · RULED 2026-09-04 10:46 ET
+
+**Will, verbatim:** *"Ok and you recommend these fixes? If so go ahead and implement"* (session `prome-9a`, DESKTOP, 10:46 ET) — on PROME's five ranked suggestions at 10:2x plus the two mechanical fixes. PROME answered yes and implemented. **The row was registered at the ruling, not before the ask** (the ask was Will's question, answered in prose; registration-before-ask would have been a row about a question).
+
+## The problem (measured this session)
+Ten blind Opus cold reads across three artifacts: HEARTBEAT re-base 2 (4 ❌ → 0) · GATES README 5 (11 → 2 → 2 → 4 → 4 ❌, each pass on NEW items) · PREDICTION_DISCIPLINE bullet 3 (1 → 2 → 5 ❌). The README and canon passes were correction cascades: every tidy pass on ⚠️ items and self-describing figures generated the next pass's flags; two readers reversed each other on one clause because the cited rule was itself ambiguous.
+
+## Ruled + implemented (same sitting)
+1. **Read budget** — one blind read on the PLAN, one on the RESULT; fix ❌ only; ⚠️ → declared residue; a further read only when a ❌ fix changed a rule's meaning; the two-correction stop binds pre-commit passes. → `PROME/CLAUDE.md` § Session Process Controls.
+2. **No live measurements in prose** — name the instrument, never carry a self-describing figure. → same section.
+3. **Canon drafts live in the ruling record, transplanted once.** → same section.
+4. **Desk-spawn preflight** — `ListAgents` in the same minute before any spawn; same desk live ⇒ doorbell; inbox counts from `PROME/tools/inbox_census.py`. → same section + the new tool (files only, lanes separate, `processed/` excluded; first run: BOND 1+1 · VIOLET 6+1 · LABOR 1+0 · SAM 1+0 · HENRY 1+1 · PROME 2).
+5. **Cold-reader contract** — every ❌ quotes both sides with line numbers or it is a ⚠️; a contradiction inside a cited rule is the rule's finding; self-describing figures are graded at most ⚠️. → `.claude/agents/coldreader.md` (root + PROME copies, parity held).
+
+## What it does not do
+No change to root `CLAUDE.md`; no change to the WQ-165 stop rule's wording (the read budget sits beside it and bounds it from above); no retroactive re-reads. Verification of THIS change: one post-edit blind read of the four bullets + the coldreader diff (the plan was Will-approved as prose at 10:2x; per rule 1 that is the plan read).
