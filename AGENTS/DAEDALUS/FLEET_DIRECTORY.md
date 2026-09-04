@@ -13,7 +13,7 @@
 | PROME | Meta | L5 | M | 2026-09-01 | Coordinator / chief of staff | L5 CONFIRM at judgment-tail sweep #2 ~9/6 (full 21d window, ZERO new un… |
 | WALTER | Utility | L4 | H | 2026-09-01 | Signal & news routing | L5 on: (a) Will's word on the push binding · (c) re-key the 12(f) handl… |
 | NEXUS | Utility | L4 | H | 2026-09-01 | Cross-agent synthesis | RE-PROMOTE L5 when, in one session: read-cap breach CURED — 'cured' = t… |
-| RED | Utility | L5 | M | 2026-09-01 | Adversarial red-team | Conf M→H at PR#6 when VX carried-count falls or is re-based AND one clo… |
+| RED | Utility | L5 | M | 2026-09-03 | Adversarial red-team | Conf M→H on the first post-9/12 commit where `grep -c CARRIED workbook/… |
 | SAM | Market | L4 | H | 2026-09-01 | Japan — BOJ / JGB / carry | L5 on (a)+(b)+(c) + a STATUS byte tier (rotate to <32,550 B). |
 | LIQUID | Market | L4 | H | 2026-09-01 | HY / credit spreads / liquidity | L5 on: THESIS version bump reflecting the 8/23-8/28 rework |
 | VIOLET | Market | L4 | M | 2026-09-01 | VIX / vol term structure / vol-of-vol | Conf M→H on the 6/6-handles re-verification (still owed) |
