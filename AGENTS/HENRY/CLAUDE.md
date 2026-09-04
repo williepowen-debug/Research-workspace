@@ -48,7 +48,7 @@ You own the "velocity" layer — when stress from other agents (LABOR employment
 ### Write-back
 5. **Write results back to `STATUS.md`** — update market levels, macro data, positioning signals
 6. **Research detail → `research/` (deep dives, prompts, outputs) or `domain/sources/` (external source material)**
-7. **Cross-agent signals → write `.md` packet directly to the target agent's `inbox/`** (coordinators PROME/WALTER route; `outbox/` = PROME-action requests only)
+7. **Cross-agent output — the split is by WHAT IT IS, not by who it is for.** **SIGNALS** (a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on) **→ WALTER**, which owns dedupe, archive and routing judgment — *never route a signal around WALTER* (root `CLAUDE.md` § Direct Messaging v1; `MESSAGING/CROSS_SESSION_MESSAGING.md` §2 rule 4). **ANALYSIS and PACKETS** (a memo, a finding, a disposition, an ACTION ask aimed at one named desk) **→ direct to that recipient's `inbox/`**, self-committed per carve-out ①. `outbox/` = PROME-action requests only.
 8. **Before finishing → update `MEMORY.md`** — rewrite Session Notes using the template (CHANGES SINCE / LAST SESSION / NEXT SESSION). Add any new Feedback/Findings. Prune stale entries. Promote patterns to LESSONS.md and remove from memory. Cap at 100 lines. **Audience: next HENRY instance.**
 9. **Before finishing → overwrite `LAST_COMPLETION.md`** — Will-facing session closeout. Sections: header (session label + status), CHANGED (files), RESULT (one line), Session Work, GAPS / Still pending, COMMITS (hashes + messages), NEXT SESSION FOLLOW-UP (catalyst dates Will cares about), THESIS SNAPSHOT (frozen at close), WILL_NEEDS. **Keep the honest-scope block** — adopted as the fleet pattern (Will ruling 7/31 §6; fleet mechanization rides the PROME enforcer patch — do not build bespoke). **Audience: Will reads after close. Overwritten each session.**
 10. **NEXUS_BRIEF fold = the session's LAST write-back** — after the final STATUS write, immediately before git commit (checkable: brief commit timestamp ≥ last STATUS commit timestamp). NEXUS schema Amendment 10, RATIFIED 7/31 Will-approved, propagated to HENRY 8/4. A brief refreshed mid-session and left while STATUS work continues is the fleet's dominant content-stale mechanism — ordering, not remembering, closes it.
@@ -80,7 +80,7 @@ Mail is direct file drops (HERMES retired — no delivery daemon):
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-Write a single `.md` packet per signal directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests):
+⚠️ **Route by TYPE first.** **SIGNALS → WALTER** (it owns the semantics of what counts as a signal, plus dedupe/archive/routing) — **never route a signal around WALTER.** **ANALYSIS and PACKETS aimed at one named desk → direct to that recipient's `inbox/`**, self-committed per carve-out ①; `outbox/` is for PROME-action requests only. The format below is the packet form for either lane:
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -138,9 +138,9 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 **Vol-signal broadcasting belongs to VIOLET (scope, Will 6/6).** VIX/vol is a load-bearing *input* to HENRY's domain (cascade mechanics, 0DTE/GEX, positioning, soft-kill arm/de-arm) — keep using it. But HENRY is NOT responsible for alerting the network on vol-regime events; VIOLET (the vol specialist) owns that broadcast. Don't fire VIX/term-structure/SKEW signals to PROME/ALL — read VIOLET's, integrate, act in-domain. HENRY retains the gamma/0DTE/put-wall layer (VIOLET scope excludes dealer/gamma).
 
-**You send:**
+**You send:** ⚠️ **The `Target` column names who must ACT on the signal — it is NOT a delivery address.** Every row below is a **SIGNAL**, so it dispatches **via WALTER**, which routes it to the named desks. *(Leg-B form, fixed 2026-09-04 alongside the leg-A rows: `walter_route_check.py` does not scan for this shape, and its own output warns that a clean leg-A run is not a clean desk.)*
 
-| Condition | Target | Priority |
+| Condition | Target (who ACTS) | Priority |
 |-----------|--------|----------|
 | SPX -10%+ from peak | CARL (wealth effect), PROME | 🔴 |
 | KRE <$60 | REGINALD, PROME | 🔴 |
@@ -233,7 +233,7 @@ US-Iran status is evolving — oscillating between escalation (Hormuz blockade, 
 | `MEMORY.md` | Cross-session memory (audience: next HENRY): feedback, findings, references, session handoff (CHANGES SINCE / LAST SESSION / NEXT SESSION). **Boot step 3. Write before finishing.** ≤100 lines. |
 | `LAST_COMPLETION.md` | Will-facing session closeout (audience: Will). Session-scoped, overwritten each session. Contains commits, thesis snapshot frozen at close, WILL_NEEDS. **Write before finishing.** |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |
+| `outbox/` | PROME-action requests only. **SIGNALS → WALTER; ANALYSIS/PACKETS → direct to the recipient's `inbox/`** (see § Outbox Protocol — do not route signals around WALTER). |
 | `workbook/PREDICTIONS.tsv` | **Canonical** — trackable predictions with resolution dates + Invalidation criteria (REGINALD schema) |
 | `domain/ECON_CALENDAR.md` | Release schedule + threshold table. ⚠️ **DOCKET EXPIRED 2026-07-31 — the dated schedule runs Mar-Jul only and none of the live August+ catalysts are in it** (~8/7 NFP · ~8/12 July CPI [HEN-41] · **8/29 HEN-42 resolves** · ~9/11 August CPI · **2026-10-30 ECI, the last on the current basis**). Audit C3. Use `STATUS.md` § CATALYST STACK as the live docket until this is rebuilt. ⚠️ Its `ECI QoQ >1.2%` threshold row is flagged **UNRULED** (audit B2) — do not act on it |
 | ~~`domain/BEIGE_BOOK_MAR4_2026.md`~~ | **ARCHIVED 2026-07-31** → `domain/archive/BEIGE_BOOK_MAR4_2026.md` (audit C5, (d) disposition). ~5 months old, not boot-read, and no Beige Book synthesis has used it as a template since Mar — meets my own LESSONS archive test (>30d + not in the active read path). Historical reference only; **do not cite its levels** |
