@@ -37,17 +37,27 @@ import re, sys, argparse
 COMPANY_SUFFIX = (r"(?:Inc|LLC|L\.L\.C|Corp|Corporation|Ltd|Limited|L\.?P|LP|BV|B\.V|"
                   r"S\.a\.r\.l|GmbH|PLC|Holdings|Group|Company|Co|AB|AS|NV|N\.V|Trust|Partners)")
 
+# Header wording varies by filer and the FIRST match is often a table-of-contents line,
+# not the schedule. Both bugs found 2026-09-03 on the first reuse (BCRED -> ARCC):
+# ARCC writes "Consolidated SchedulES of Investments" (plural) and its first occurrence
+# is a TOC entry ~126k chars before the real schedule. So: match singular OR plural,
+# case-insensitively, and take the first header actually FOLLOWED BY SCHEDULE COLUMNS.
+COLUMN_WORDS = re.compile(r'(Interest Rate|Maturity|Par Amount|Principal|Fair Value|Acquisition Date)', re.I)
+
 def current_period_segment(t, marker, period):
     """Return (start,end) of the CURRENT-period fund schedule, or None."""
     fn = re.compile(r'\(' + str(marker) + r'\)\s*[^.]{0,140}?' + re.escape(period))
-    hdr = re.compile(r'(?:Consolidated )?Schedule of Investments')
+    hdr = re.compile(r'(?:Consolidated\s+)?Schedules?\s+of\s+Investments', re.I)
     first_fn = fn.search(t)
     if not first_fn:
         return None
-    heads = [m.start() for m in hdr.finditer(t) if m.start() < first_fn.start()]
-    if not heads:
-        return None
-    return (heads[0], first_fn.start())
+    for m in hdr.finditer(t):
+        if m.start() >= first_fn.start():
+            break
+        # a TOC line has no schedule column headers right after it
+        if len(COLUMN_WORDS.findall(t[m.end():m.end() + 600])) >= 2:
+            return (m.start(), first_fn.start())
+    return None
 
 def extract(seg, marker):
     grp = re.compile(r'(?:\(\d{1,2}\)\s*){1,12}')

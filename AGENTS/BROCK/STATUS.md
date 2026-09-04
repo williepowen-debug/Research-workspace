@@ -87,7 +87,7 @@
 | Non-traded BDC redemption gates | **🔴🔴(5)** | — | ⚠️ **at ceiling — BRK-30 SPENT (9/3).** Live instrument = **`GATE-BRK-R2`** (registered 9/3, owner BROCK, review 11/15; definition surface = `workbook/PC_REDEMPTION_REGISTER.tsv` header): **(a)** 3rd consecutive BCRED sub-100% quarter **~mid-Nov** · **(b)** <25% single-QUARTER satisfaction, **prospective from 9/3**. **0 fired.** **DOWNGRADE** on a named fund clearing ≥80% two quarters running | **9/3** |
 | Blue Owl liquidity | 🔴🔴(5) | — | OTF Q3 NII still < div = forced cut | 8/28 |
 | PIK rates | 🔴(4) | — | Industry median >20% sustained | 8/28 |
-| BDC NAV discount | 🔴(4) | — | >35% median sustained; OR big-BDC NA names match the small-fund <50¢ list | 8/28 |
+| BDC NAV discount | 🔴(4) | — | **>35% median sustained** ⟵ the only live leg. 🔴 **2nd leg RUN AND FOUND UNGRADABLE 9/3: "big-BDC NA names match the small-fund <50¢ list" — no small-fund NAME list exists (KB-BRK-169 is an aggregate off an undefined universe), and big-BDC books overlap 1-of-15 so it is ungradable even with one. RE-SPEC/RETIRE recommended; Will's call. No threshold moved by me** (KB-BRK-254/256) | **9/3** |
 | Default rates | 🔴(4) | — | >7% Q2 at a non-CDLI top-tier name; OR CDLI NA breaks >1% | 8/28 |
 | Athene / insurance | 🟠(3) | — | Athene RBC breach; or a named insurer-lender appears on a gated fund's facility | 8/28 |
 | Software sector marks | 🔴🔴(5) | — | Forced sub-90¢ markdown event, US universe | 8/28 |
