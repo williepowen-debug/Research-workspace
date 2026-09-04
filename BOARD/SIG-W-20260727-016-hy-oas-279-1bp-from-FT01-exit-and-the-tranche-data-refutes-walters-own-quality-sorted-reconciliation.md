@@ -13,6 +13,9 @@ info: [HENRY, REGINALD, VIOLET, BOND, PROME]
 signal_type: threshold-proximity
 confidence: 0.90
 verdict: CONFIRMED-PRIMARY (all four series pulled from FRED directly) / SELF-CORRECTION (WALTER's own 7/27 `-005` reconciliation hypothesis is not supported)
+status: PARTIALLY-SUPERSEDED
+status_ref: PROME 2026-07-27 answer at RED registry (§3 overreached; PROME narrower claim adopted) — ADDENDUM in body ~20:0xZ; §1/§2 unchanged
+status_date: 2026-07-27
 ---
 
 # 🟠 HY OAS **279** — 1bp from the RED-FT-01 EXIT, after a **+11bp two-session move off a dead-flat range**. And the tranche data **refutes the reconciliation WALTER itself proposed this morning** for `SIG-W-20260727-005`.

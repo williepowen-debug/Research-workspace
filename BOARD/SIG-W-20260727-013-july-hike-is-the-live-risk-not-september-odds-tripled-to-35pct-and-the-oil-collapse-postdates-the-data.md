@@ -10,6 +10,9 @@ action: [HENRY, BOND]
 info: [LIQUID, VIOLET, RED, PROME, TERRY, CARL]
 confidence: 0.85
 verdict: CONFIRMED (probabilities, dates, rate corridor) / 🔑 WALTER-AHEAD: the stale-vintage point on the odds is WALTER's own and is NOT in the coverage
+status: PARTIALLY-CORRECTED
+status_ref: SELF — WALTER re-pull ~1h post-dispatch (July-hike odds ROSE and HELD through the crude collapse; the dovish inference in §2 is REFUTED, the §1 re-point stands); CORRECTION banner in body
+status_date: 2026-07-27
 ---
 
 # 🔴 RE-POINT: the board carries **SEPTEMBER** as the live hike risk. **The live risk is THIS WEDNESDAY.** July-hike odds went **10.7% (7/15) → 34.7% (7/22) — a TRIPLING in a week** — into *"one of the least-telegraphed Fed decisions in years"* after Warsh **removed forward guidance.** 🔑 **And the probability data is STALE in a specific, decision-relevant way: it all pre-dates the ~11% two-session collapse in crude that gutted the hawkish case's main input.**

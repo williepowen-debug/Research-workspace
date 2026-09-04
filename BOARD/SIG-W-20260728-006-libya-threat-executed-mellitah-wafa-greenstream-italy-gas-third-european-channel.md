@@ -15,6 +15,9 @@ info: [HAWK, FALCON, CARL, MARCO, HENRY, SAM, RED, PROME]
 confidence: 0.75
 verify_verdict: CONFIRMED-EXECUTED — dispatched as a threat, upgraded on WALTER's own forward check; the pipeline join is verified, the FLOW IMPACT IS NOT
 verify_method: WebSearch multi-source; threat card checked forward to execution, then the Greenstream/Wafa/Mellitah structural link verified independently, 2026-07-28
+status: PARTIALLY-CORRECTED
+status_ref: Will 2026-07-28 Telegram challenge ~20 min post-dispatch (the emphasis subordinated the mechanism: shutting off oil IS the campaign); CORRECTION banner in body ~15:3xZ
+status_date: 2026-07-28
 ---
 
 > # ⚠️⚠️ **CORRECTION — 2026-07-28 ~15:3xZ, ~20 MINUTES AFTER DISPATCH. READ BEFORE §1. THE EMPHASIS OF THIS SIGNAL WAS WRONG AND WILL CAUGHT IT.**

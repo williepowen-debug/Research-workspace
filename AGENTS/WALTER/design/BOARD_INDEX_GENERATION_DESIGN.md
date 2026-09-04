@@ -66,7 +66,21 @@ The **§3.6.2 direction rule** ("HOLDS / WEAKENS / FLIPS") currently lives only 
 
 ## 5. The ten hand-annotated rows a regeneration would lose (rule 18 list — must get a header BEFORE step 2)
 
-`SIG-W-20260627-017` · `SIG-W-20260706-008` · `SIG-W-20260716-004` (the known case: verdict lives ONLY as an INDEX annotation, flagged 8/18) · `SIG-W-20260724-006` · `SIG-W-20260725-002` · `SIG-W-20260727-001` · `SIG-W-20260727-013` · `SIG-W-20260727-016` · `SIG-W-20260727-018` · `SIG-W-20260728-006`. Each gets `status:` + `status_ref:` + `status_date:` lifted verbatim from its INDEX annotation, at the ~9/17 staleness sweep or earlier.
+`SIG-W-20260627-017` · `SIG-W-20260706-008` · `SIG-W-20260716-004` (the known case: verdict lives ONLY as an INDEX annotation, flagged 8/18) · `SIG-W-20260724-006` · `SIG-W-20260725-002` · `SIG-W-20260727-001` · `SIG-W-20260727-013` · `SIG-W-20260727-016` · `SIG-W-20260727-018` · `SIG-W-20260728-006`.
+
+**✅ HEADER PASS EXECUTED 2026-09-04 (WQ-174 step 1) — 7 headers written, 3 NO-HEADER with reasons:**
+
+| Signal | Disposition |
+|---|---|
+| `-0706-008` | `PARTIALLY-CORRECTED` 2026-08-17 (PROME at primaries, four defects) **+ banner lifted verbatim from the INDEX row** — the body had no copy |
+| `-0716-004` | `PARTIALLY-SUPERSEDED` 2026-07-24 (LIQUID KB-LIQ-087 via PROME) |
+| `-0724-006` · `-0727-013` · `-0727-018` · `-0728-006` | `PARTIALLY-CORRECTED` 2026-07-27/28 — each body already carried its CORRECTION banner; only the header was missing |
+| `-0727-016` | `PARTIALLY-SUPERSEDED` 2026-07-27 (PROME's narrower claim adopted, ADDENDUM in body) |
+| `-0627-017` | **NO HEADER** — the row text is dispatch-time routing guidance ("route the decomposition, not the headline"), present in the body; not a lifecycle state |
+| `-0725-002` | **NO HEADER** — regex false hit ("ACTIVELY FALSIFIED" is content about DQ data, not a lifecycle tag) |
+| `-0727-001` | **NO HEADER** — the row says another signal's call is superseded; that status already sits on the target `SIG-W-20260725-008` (`status_ref: SIG-W-20260727-001`) |
+
+⇒ After this pass every lifecycle/correction marker on the INDEX has a frontmatter source or an inverted `corrects:`. The generator's `--check` must re-derive this list and report zero hand-only markers before the swap. ⚠️ Lesson re-bought during the pass: a `status_note:` field was written and stripped the same minute — it is not in FORMAT_SPEC (MEMORY 9/3 finding 5). The header pass uses exactly the three v0.10 fields.
 
 ## 6. Considered and rejected
 

@@ -18,6 +18,9 @@ verify_verdict: N/A — primary series, no framing to verify. Explicitly NOT a t
 verify_method: none needed (FRED primary, cross-confirmed against the boot 6c dashboard pull).
 routing_note: **This is NOT a fire and must not be logged as one.** RED-FT-01 (HY-OAS < 280, sustain 3, IMMEDIATE-FALSIFY) **FIRED 2026-06-04 at 275** and remains fired — `registry/FALSIFICATION_FIRED_LOG.tsv` row 1. A level climbing back toward 280 **from the fired side is approaching that trigger's EXIT, not a re-fire.** No `FALSIFICATION_FIRED_LOG` row is appended. **§3.5 pull-complete: RED is exempt from the inbox handoff** (whole-INDEX BOARD-diff at its boot step 1.5) — BOARD + route_log only for RED; LIQUID + HENRY + REGINALD + PROME get delivery handoffs. RED is on the `to:` line because it owns the trigger, not because it needs a push.
 dispatch_note: Routed on trigger-proximity, not on the move's size. 9bp in a day is unremarkable on its own; 9bp that lands 3bp from un-firing a registered falsification trigger is not.
+status: PARTIALLY-CORRECTED
+status_ref: SIG-W-20260727-016 (WALTER at the FRED primaries) + PROME 45d102d9; CORRECTION banner in body 2026-07-27 ~20:0xZ
+status_date: 2026-07-27
 ---
 
 # HY OAS 277 — 3bp from UN-FIRING RED-FT-01, and the widening is PARALLEL, not quality-sorted

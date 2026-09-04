@@ -14,6 +14,9 @@ info: [HENRY, BROCK, RED, VIOLET, BOND, PROME]
 signal_type: market-structure
 confidence: 0.85
 verdict: CONFIRMED-PRIMARY-REPORTING (Bloomberg, terms specified)
+status: PARTIALLY-CORRECTED
+status_ref: BROCK 291613f7 on consumption (value is PRICE DISCOVERY not execution) — CORRECTION in body ~20:4xZ
+status_date: 2026-07-27
 ---
 
 # 🔴 GOLDMAN **AND** JPMORGAN LAUNCHED TRADEABLE — AND **SHORTABLE** — AI-CREDIT BASKETS IN THE SAME WEEK. Average spread **319bp, i.e. 40bp WIDE of the HY index.** A vehicle for expressing a bearish AI-debt view **did not exist a week ago.**
