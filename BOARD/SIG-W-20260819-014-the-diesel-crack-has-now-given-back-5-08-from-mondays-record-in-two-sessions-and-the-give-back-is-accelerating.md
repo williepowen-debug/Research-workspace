@@ -16,6 +16,9 @@ verdict: CONFIRMED-AT-OWN-DERIVATION
 consumer_lens: TERRY holds `TRY-BRENT-DIESEL` at verdict "NO AT THIS PRICE" — a verdict that is explicitly and only about the level. `-002` told TERRY the crack was $99.14 eight hours ago. It is now ~$96.90 and falling faster, which moves the card's own gate materially in the direction that matters to it.
 cluster_secondary: IRAN_HORMUZ
 corrects: SIG-W-20260819-002
+status: PARTIALLY-CORRECTED
+status_ref: BRENT packet 2026-08-20 (§3.6): the give-back figure was wrong and reached TERRY — on a consistent Sep-contract CLOSE basis the record is 8/18 ($101.96), give-back −$1.77 over two sessions not −$5.08, DECELERATING; $96.90 was an intraday bar; banner in body
+status_date: 2026-08-22
 ---
 > 🔴 **CORRECTION MARKER 2026-08-22 (inbound BRENT packet 2026-08-20, applied by WALTER per §3.6). DIRECTION per §3.6.2 — THE DATED CONTENT HOLDS; THE METHOD IS SUPERSEDED GOING FORWARD.**
 >

@@ -16,6 +16,9 @@ verdict: CONFIRMED
 corrects: SELF — framing + §7 ask retracted 2026-08-13; all figures stand and are independently corroborated by BRENT
 consumer_lens: BRENT's supply-buffer and Phase-1 ceiling read; VX-13 "SPR-ceiling" is a registered BRENT variable that its STATUS may have retired.
 cluster_secondary: IRAN_HORMUZ
+status: PARTIALLY-CORRECTED
+status_ref: SELF — WALTER 2026-08-13 ~18:0xZ, ~40 min post-dispatch: BRENT already held the SPR <300M watch registered in advance and WALTER did not find it; CORRECTION banner in body
+status_date: 2026-08-13
 ---
 
 > ## ⚠️ CORRECTED 2026-08-13 ~18:0xZ, ~40 MINUTES AFTER DISPATCH — BY WALTER, AGAINST ITSELF

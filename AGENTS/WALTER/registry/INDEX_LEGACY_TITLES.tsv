@@ -1,0 +1,174 @@
+# GENERATED ONCE 2026-09-04 from the hand-maintained BOARD/INDEX.md at the WQ-174 cutover: the title of each row whose signal file has no H1 (bold title where the row had one, else the first 140 chars of its summary cell). Read by tools/gen_board_index.py as the title source for those rows. Do not extend by hand — new signals carry an H1.
+signal_id	title
+SIG-W-20260410-001	CPI 3.3% YoY hot + UMich 47.6 record low + 1Y inflation exp 4.8% = stagflation lock
+SIG-W-20260411-001	RED pre-registered falsification rule pierced: HY OAS 290 <300 Day 1 of 5 sustained
+SIG-W-20260411-002	FORGE/STATUS.md 17 days stale, refresh request for COP exposure section
+SIG-W-20260414-001	Sen. Lummis (R-WY) admits consumer stress ("record Meals on Wheels, I'm worried") while saying "Golden age"
+SIG-W-20260414-002	TCW Private Credit Fund slashed Red Lobster equity 98% — loan still at par. Mark-to-model fiction confirmation
+SIG-W-20260414-003	SEC approved SR-FINRA-2025-017 — PDT eliminated, intraday margin framework applies to ALL margin accounts
+SIG-W-20260414-004	IMF GFSR Apr 2026: prepare liquidity/funding facilities; equities -8% since Feb, sovereign yields up; NBFI+PC+AI+ME drivers
+SIG-W-20260414-005	ROAD to Housing Act Senate-passed 89-10 stalled in House; Freddie K-098 deep dive (corrected to $1.2B UPB, not $1.4B); drafting errors woul…
+SIG-W-20260414-006	GS Prime: HF short cover fastest since 2020 (not 10yr) — WHIPSAW; covered on ceasefire trigger now dead post-Islamabad
+SIG-W-20260414-007	Mar PPI +4.0% headline / +3.8% core — but core-core only +3.6% decelerating; half of MoM jump = gasoline +15.7% (goods/energy shock, not br…
+SIG-W-20260414-008	DB: Financials positioning at multi-year lows vs consensus +20-40% EPS growth — widest gap since 2020; resolves at OZK Apr 16 / WAL Apr 21
+SIG-W-20260414-009	Baker Hughes rig count flat through 1mo+ elevated oil — supply-response lag intact post-Islamabad, BOJ hike urgency rises (via SAM)
+SIG-W-20260414-010	FT "China Shock 2.0" Part 1/3 — $1T+ 2025 trade surplus; exports EU +21%/SEA +21%/US DOWN Q1'26; CNY REER -16%; OECD: CN subsidies 3-9x ric…
+SIG-W-20260414-011	FT: China export controls tripled (30 vs 11 5yr); Li-Qiang-signed "State Council Supply Chain Security" regs in force Mar 31, announced Apr…
+SIG-W-20260414-012	Seeking Alpha KRE piece (Mar 28 stale) — counter-evidence: KRE YTD -1.94% vs XLF -12.56% (KRE outperforming broad financials ~10pts); FLG 1…
+SIG-W-20260416-001	Ninepoint/Kpler global observable oil inventories — 2026 (red) is steepest destocking in 2017-2026 series; ~8MMbbl/d net draw, currently ~4…
+SIG-W-20260416-002	Viva Energy Geelong (Corio) Refinery fire 2026-04-15 ~11:15pm — 120k bpd capacity (~10% Australia / 50% Victoria fuel); one of only 2 AU re…
+SIG-W-20260416-003	Equity internals: NDX RSI 30→70 in ~3wks (overbought) + SPX closes record >7000 on negative breadth (Bloomberg A/D via ZH) — positioning-wr…
+SIG-W-20260419-001	Tricolor map expands: MTB now 5th named bank (American Banker); Tricolor ABS notes <10¢ = 2nd transmission channel beyond warehouse losses;…
+SIG-W-20260419-002	VIOLET Apr 15 VIX-family refresh: SKEW 149.94 rising while VIX 18.08 / VVIX 98.77 falling (crash-protection bid without spot stress); steep…
+SIG-W-20260419-003	VIOLET POSTURE 🟡→🟠. SKEW-VIX-VVIX divergence is 1% base-rate event — 15/16 (94%) → VIX +15% in 60d; revised P(new VIX event 60d) 30%→66%. C…
+SIG-W-20260419-004	@FinanceLancelot Apr 19: SPX Wyckoff Distribution ("Upthrust After Distribution / We are here") + NDX 25-yr log-scale parabolic w/ dot-com…
+SIG-W-20260419-005	Buffett Indicator (Wilshire 5000 / U.S. GDP) printed 232.6% — VERIFIED ATH (Fortune Apr 19 + 5 corroborators). Surpasses dot-com (~190%) an…
+SIG-W-20260419-006	Trump WH Situation Room Sat Apr 18 on Iran (Barak Ravid/Axios). Treasury Secretary Bessent attended — atypical for pure NatSec, signals fin…
+SIG-W-20260419-007	Kurt Altrichter CFP/CRPS Apr 16 — six-panel CBOE vol indices (VIX/VXD/VXN/RVX crushed, OVX still in crisis zone, GVZ mixed). Equity-vol-vs-…
+SIG-W-20260419-008	Data Driven Stocks Apr 17 — author-asserted "biggest 13-day SPX rally of the century, 0.63% probability / 1-in-160." Methodology caveat: te…
+SIG-W-20260419-009	Mike Zaccardi CFA/CMT Apr 17 — Finviz S&P 500 treemap heatmap of drawdowns from 52-wk highs while index at records. MSFT -24%, NFLX -27%, L…
+SIG-W-20260419-010	CORRECTION via SIG-014: Apr 17 openness was a brief reopening that Iran reversed Apr 18.
+SIG-W-20260419-011	Ryan Detrick CMT Apr 19: SPX stocks above 20-day MA over 80% currently; late-March positive breadth divergence preceded current rally. COUN…
+SIG-W-20260419-012	Neil Sethi/Morningstar Apr 19: US stock vol 2026 YTD through Apr 10 = 15% annualized = long-run average. COUNTER-EVIDENCE to cluster's vol…
+SIG-W-20260419-013	Barchart Apr 19: BRK.A trailing SPY by ~-39pts since Buffett retirement announcement. Quality/defensive proxy NOT participating; rally is b…
+SIG-W-20260419-014	Iran re-closed Strait of Hormuz Apr 18 after brief Apr 17 partial reopening. Transit volumes ~95% below normal since Feb 28 onset. Verified…
+SIG-W-20260419-015	NFIB Small Business Optimism: CapEx-plans index at GFC-area low + Sub-V (small-business) bankruptcies +67% YoY. Forward indicator of NPL fo…
+SIG-W-20260419-016	BofA Global Investment Strategy / EPFR: largest weekly money-market-fund outflow in 2017-2026 series (~-$175bn), 4-wk MA at series-low. Aut…
+SIG-W-20260419-017	Charlie Bilello Apr 18 + Apr 19 combined (same-author/same-theme): VIX -43.7% 3wks = 5th biggest crash in history (avg fwd returns +22%/+48…
+SIG-W-20260419-018	Triple institutional short-squeeze data: GS most-shorted basket +13% wk (best since 2023); S3 Partners $93B short positions covered MTD; UB…
+SIG-W-20260419-019	LTM fund-flow composition chart (unnamed source, BofA/EPFR-style): Bonds $693B / Money Markets $594B / Equities $104B LTM flows. Equity all…
+SIG-W-20260419-020	Completed foreclosures +45%
+SIG-W-20260419-021	Morgan Stanley IM 'The BEAT' Q2 2026 p.17 (Piper Sandler, MSIM Mar 12): 6-row structural comparison 1990/91 oil shock vs 2026. All 6 axes s…
+SIG-W-20260419-022	@neetintel (verified OSINT) Apr 19 3:40PM ET, 167K views: simultaneous/overlapping EAM broadcasts from HFGCS ground stations AND Mercury E-…
+SIG-W-20260419-023	@Barchart Apr 19 2:19AM ET: CBOE Total Put/Call Ratio $CPC at 0.66 — reported most bullish since 2021. Chart visual confirms 0.66 is at 5-y…
+SIG-W-20260419-024	Two-part Iran escalation reposted @TheCoastalJournal: (A) @disclosetv citing CBS — USS Ford + Mahan + Churchill joining Lincoln in N Arabia…
+SIG-W-20260419-025	Daily Chartbook/GS Morgan Prime note: overall L/S ratio ~1.6 = BELOW 10th percentile (2021-2026). Macro/index/ETF short exposure "only mode…
+SIG-W-20260419-026	Combined @axios + @Polymarket: Trump announces US Navy destroyer intercepts Iranian-flagged vessel in Gulf of Oman, now in US custody. Kine…
+SIG-W-20260419-027	@Polymarket citing unnamed US Energy Secretary: "gasoline may remain above $3 or more until next year." Weak sourcing (no primary link), $3…
+SIG-W-20260419-028	@sentdefender/@OSINTdefender (130K views): MarineTraffic playback Apr 17 1200 UTC → Apr 19 1600 UTC — "very few ships transited SoH past 24…
+SIG-W-20260419-029	Verified 0.93 — kabinet-Jetten activates alerteringsfase of Landelijk Crisisplan Olie (LCP-O) effective Mon 2026-04-20. FRAMING CORRECTED:…
+SIG-W-20260419-030	@infraa_ composite verified by sub-agent at 0.97 confidence — Qatar LNG >90% crash is REAL (Mar 2 2026 Iranian drone strikes on Ras Laffan…
+SIG-W-20260420-001	Tuapse refinery + Black Sea port struck by Ukraine, 2nd strike in 4 days — Rosneft-owned. Dual-outlet (Visegrád 24 daytime + BRICS News nig…
+SIG-W-20260420-002	HPCL Rajasthan Refinery (Pachpadra, Barmer) fire reported 07:43 AM Apr 20 day before Modi inauguration. 9 MTPA / 180 kbpd greenfield refine…
+SIG-W-20260420-003	Aggregator compilation: 11 non-Middle-East hydrocarbon/major-energy incidents Mar 1 – Apr 15 2026 (4 Russia war-driven; 3 India; 3 Texas US…
+SIG-W-20260420-004	Blue Owl Co-CEOs Ostrover + Lipschultz (NOT Rees) released >$1.1B in OWL share-pledged personal loans per Schedule 13D/A ~Apr 17; pledged r…
+SIG-W-20260420-005	3-week aggregate of NV HOA-dysfunction headlines = FL 2020-2022 pre-Surfside pattern signature. Pulte Del Webb + Beazer construction-defect…
+SIG-W-20260420-006	12% of total origination — highest since October 2022
+SIG-W-20260420-007	WALTER did NOT verify the EO exists
+SIG-W-20260420-008	Chicago downtown towers sub-$30/sqft
+SIG-W-20260420-009	non-traded perpetual BDC redemption requests +36% QoQ Q1'26
+SIG-W-20260420-010	INDETERMINATE (leaning CONFIRMED-directional)
+SIG-W-20260424-001	above US national for first time in years
+SIG-W-20260424-002	US Treasury OFAC sanctions Hengli Petrochemical (Dalian) Refinery
+SIG-W-20260424-003	Contradictory Iran diplomacy cascade Apr 24
+SIG-W-20260424-004	+$9.7B Nasdaq futures week ending Apr 14 = largest weekly purchase in ≥10 years
+SIG-W-20260424-005	US Office Vacancy Q1 2026 = 20.2% national, every MSA ≥20%.
+SIG-W-20260424-006	Man Group (EMG.L) $6B single-client withdrawal
+SIG-W-20260424-007	NY Fed Consumer Credit Panel / Equifax Q4 2025: credit card 90+ day delinquent BALANCE = ~12.7%
+SIG-W-20260424-008	Corpus Christi tracking Level 1 Water Emergency September 2026
+SIG-W-20260424-009	Ukrainian mass drone + cruise missile attack on Crimea + W Russia tonight Apr 24
+SIG-W-20260424-010	USAF ME airlift surge + 3-carrier CENTCOM posture Apr 24
+SIG-W-20260424-011	Jet-fuel demand-destruction LV transmission
+SIG-W-20260424-012	Bloomberg EXCLUSIVE Apr 22: SoftBank seeks $10B margin loan backed by OpenAI shares
+SIG-W-20260424-013	Gujarat Jhagadia GIDC chemical-unit explosion + fire Apr 24 PM local
+SIG-W-20260426-001	Fed Overton window shifting from supply-driven ample reserves toward demand-driven operating framework
+SIG-W-20260426-002	Residential housing prices weakening — two independent data points combined Phase 1b.
+SIG-W-20260426-003	Major pipeline explosion St. Helena Parish, Louisiana Apr 25 14:00 ET
+SIG-W-20260426-004	AAL Apr 25 disclosure: $4B added fuel costs in 2026
+SIG-W-20260426-005	US Chapter 12 farm bankruptcies +46% YoY 2025
+SIG-W-20260426-006	Goldman Sachs (Mei) Iran oil-shock framework: ~10K US jobs/month payroll-growth slowdown rest of 2026, conditional on Brent ~$105-115 baseline
+SIG-W-20260426-007	USS Pinckney intercepts M/V Sevan (Iranian shadow-fleet supertanker) in Arabian Sea Apr 25 2026
+SIG-W-20260426-008	UMich Consumer Sentiment April 2026 FINAL = 49.8
+SIG-W-20260426-009	Baltimore City CRE crash 2020-fiscal 2026: >$1B commercial property value erased; 4,085 of 14,027 properties (29%) reassessed downward avg 28.7%
+SIG-W-20260426-010	Foreign private investors now own more US Treasuries than foreign central banks for first time in series history
+SIG-W-20260426-011	UKMTO Warning 045-26 — HIJACK
+SIG-W-20260426-012	Bloomberg Apr 11 06:30 ET (Johnson/Lim/Brush/Beyoud): "Fed Seeks Details on US Banks' Exposure to Private Credit Firms"
+SIG-W-20260426-013	Iran delegation Pakistan departure / Trump cancellation, Apr 25-26 — channel disrupted not dead
+SIG-W-20260426-014	Phoenix + Denver multi-family stress signal — magnitude CORRECTED-FRAMING
+SIG-W-20260426-015	NBC News Apr 25: US ME bases suffered far worse damage from Iranian strikes than publicly acknowledged, repair costs in billions
+SIG-W-20260428-001	FRED chart of BIS Real Residential Property Prices for China — index has reverted BELOW its 2005 baseline
+SIG-W-20260428-002	OpenAI CFO Sarah Friar warning on data-center spending sustainability + WSJ revenue/user target miss
+SIG-W-20260428-003	Kentucky Home Life Building Louisville KY — $15M (2021) → $4.67M credit bid (~69% peak-to-credit-bid value erasure)
+SIG-W-20260428-004	Phoenix BTR builder Hancock "entire industry nationwide is shut down" — REGULATORY catalyst (21st Century ROAD to Housing Act), NOT credit-cycle
+SIG-W-20260428-005	Blue Owl investors REJECTED Boaz Weinstein (Saba Capital) cut-price exit offer — pre-OWL-Q1-earnings-Wed two-sided pressure
+SIG-W-20260428-006	Friedrich Merz (German chancellor): US "being humiliated" by Iran + sees "no exit strategy"
+SIG-W-20260428-007	INTC Chief Accounting Officer Gawel resigns abruptly post-earnings
+SIG-W-20260429-001	Brent crude ~$113.99 9am ET 2026-04-29 (+$4.03 d/d), futures cleared $115 intraday; WTI >$102; 8th consecutive session of gains; highest since June 2022
+SIG-W-20260429-002	OCIC/OTIC redemption-cap reactivation pre-OWL Q1 print Apr 30
+SIG-W-20260429-003	Iranian rial record low Apr 29: IRR/USD ~1,810,000 (ISNA wire); +15% in 2 days after weeks of stability
+SIG-W-20260429-004	META + MSFT both report Q1 2026 / Q3 FY26 today AMC — capex-side advisory
+SIG-W-20260429-005	76 House lawmakers letter Apr 22 to Speaker Johnson + Leader Jeffries seeking to strip Section 901 of 21st Century ROAD to Housing Act
+SIG-W-20260505-001	Crude inventory drawdown — IEA / S&P / Citi multi-source primary refinement
+SIG-W-20260505-002	Apr global LNG ~33 Mt 2-year-low + IEA 120 BCM 2026-2030 cumulative loss / 2-year expansion-wave delay
+SIG-W-20260505-003	EIA primary: US gasoline stocks at lowest seasonal level for >10 years
+SIG-W-20260505-004	NEW IRGC sovereign-corridor doctrine — formalizes Iran-vs-Project-Freedom escort confrontation post-5/4-break
+SIG-W-20260505-005	Two USAF refueling-tanker emergency-squawk-7700 events 5/5 — operational-stress not buildup
+SIG-W-20260505-006	ISM Services Apr + JOLTS Mar multi-axis stagflation-soft-landing-stress
+SIG-W-20260505-007	Census M3 Factory Orders March +1.5% MoM beat 0.5% est — counter-evidence to recession/stagflation thesis
+SIG-W-20260505-008	AHLA "FIFA World Cup 2026 Hotel Outlook" report ~5/4: ~80% of US-host-city hoteliers report bookings below projections
+SIG-W-20260505-009	Chevron CEO Mike Wirth on Bloomberg TV at Milken Institute Global Conference 5/4 — physical oil shortages "starting to appear," EU jet fuel "tightening very quickly," US price pass-through coming, "potentially as big as in the 1970s"
+SIG-W-20260505-010	Black Box Intelligence April 2026 restaurant industry: SSS −0.4%, traffic −3.5%, 2nd decline in 3 months — discretionary-demand-destruction tracking lens
+SIG-W-20260505-011	WHO Disease Outbreak News DON599 (issued 4 May 2026): "Hantavirus cluster linked to cruise ship travel, Multi-country."
+SIG-W-20260505-012	Cluster-mediating divergence: Brent intraday 5/5 tape -4% DESPITE today's 5-vector IRAN_HORMUZ confluence
+SIG-W-20260506-001	OPEC April 2026 production = 20.55 mbpd, new 36-year low (lowest since 1990 Iraq-Kuwait era)
+SIG-W-20260506-002	Same-day tape-vs-substance bifurcation #2 in 48 hours — substance HARDER + tape SOFTER vs 5/5
+SIG-W-20260506-003	Luke Gromen — non-monetary gold = single biggest US export 5 of last 6 months; March 2026 ratios stated 1.7× oil / 2× pharma / 2.5× aircraft engines; destination "China or Switzerland (& then on to China)"
+SIG-W-20260506-004	Arbor Data Science (FRB H.4.1 primary): Fed Treasury holdings $4.4T highest since July 2024; +$237B since December 2025; 65.9% of Fed assets — highest since March 2008 (68.5%); total balance sheet $6.7T highest since May 2025; framing claim "Fed propping up Treasury market"
+SIG-W-20260506-005	BBC News graphic on MV Hondius cruise outbreak — 3rd death (May 2 on ship) + JNB air-exposure vector
+SIG-W-20260506-006	Energy Aspects @EnergyAspects / Amrita Sen on CNBC Squawk Box Europe 5/4: '$80-90 floor; 10 mb/d demand-cut needed to balance; OPEC+ 188K bpd hike symbolic = 50× insufficient; need higher prices for demand destruction'
+SIG-W-20260506-007	WHO Van Kerkhove on-record close-contact P2P ('husband/wife, shared cabins') + 'no rats on board' (reported-not-inspected) + Canary Islands REFUSED docking 5/6 + 3 medevac Netherlands + Swiss confirmed Zurich + Case 4 German woman died 2 May aboard
+SIG-W-20260506-008	Bloomberg/IIF Global Debt Monitor 5/6: 'Foreign investors showing signs of diversifying away from US Treasuries as debt levels mount' — 3rd FED_FRAMEWORK vector convergence today; `network_uncertainty_peak` auto-flag TRIGGERED
+SIG-W-20260506-009	ZH/MS Prime Brokerage: HF Mag 7 net exposure 17% (May 1) from peak 24% (Apr); 12-mo low / median over 5yr (%-tile-since-2020 = 55% / %-tile-12M = 7%)
+SIG-W-20260506-010	Barchart: Shiller PE Ratio 41.24 = 93% of Dot Com peak 44.19 (Dec 1999)
+SIG-W-20260506-011	NEXTA: US-Russia fertilizer Mar 2026 = $243.9M record monthly / Q1 = $564.4M / +37% YoY — tariff-paradox + Hormuz-cascade beneficiary
+SIG-W-20260506-012	IRGC drone strikes 5/5-5/6 hit PDKI Girde Chal (N of Erbil) + Komala Sourdash (Sulaymaniyah) — first IRGC kinetic on Iraqi soil since 5/4 ceasefire-break
+SIG-W-20260506-013	Bloomberg: Grosvenor (Duke of Westminster's centuries-old British property group) plans to sell direct US RE holdings ~$954M, pivot to indirect investments
+SIG-W-20260506-014	Bloomberg: Oaktree BDC marks down software loans 3% on AI-tech-disruption; overall PC fund -4%; 26% portfolio AI-risk exposure; "borrowers still paying"
+SIG-W-20260506-015	Dr Hirschson MD hantavirus update 5/6: 8th case Switzerland (disembarked early); French case is contact-only (8wk window); NEJM Argentina precedent 34/11/4-gens H2H; "very low pandemic risk — too deadly + R0 with isolation too low"
+SIG-W-20260506-016	Kobeissi Letter: SPX rises above 7,350 first time in history; +16% since 3/30 low; +$9.4T market cap since 3/30
+SIG-W-20260507-001	John Hudson WaPo CIA assessment: Iran can survive US naval blockade ≥3-4 months before severe economic hardship; retains ~75% pre-war mobile launchers + ~70% missile stockpiles; underground storage reopened + missile-repair active
+SIG-W-20260507-002	Fed G.19 March consumer credit: $24.86B vs ~$12.5B consensus (~2x beat); revolving annual rate 0.3% Feb → 9.1% Mar; Feb prior-month revised down to $8.85B
+SIG-W-20260507-003	MCD Q1 2026: missed US comps 3.9% vs 4.2% consensus (beat global + EPS); CFO Borden flagged April US comps turning NEGATIVE; Kempczinski explicitly tied current consumer weakness to Iran-war gas prices on earnings call
+SIG-W-20260507-004	Sternlicht/Starwood Capital Group $265M loan / 22 hotels / 2,943 keys CMBS transferred to K-Star special servicing JANUARY 2026
+SIG-W-20260508-001	Nightingale 3-CEO synthesis 'Consumers running out of money, CEOs warn' — Cahillane KHC + Bitzer WHR + Kempczinski MCD within 48h confluence; WHR cuts FY guide 50% + suspends dividend + intraday -11.91%
+SIG-W-20260508-002	@gurgavin (rep'd by @MrVIX) 5/7 5:00 PM ET — three concurrent layoff 8-K filings: Cloudflare 20% / Upwork 25% (CORRECTED 24%) / BILL Holdings 30% — aggregate ~2,000 jobs single afternoon, all citing AI displacement primary driver
+SIG-W-20260508-003	PBOC fixes onshore CNY at 6.8502 vs last close 6.8068 — +44 pip / -0.64% yuan-weaker fix; offshore USDCNH=X faded to $6.80 (-0.07%) within ~12-13 hours = market faded the fix back to last-close
+SIG-W-20260508-004	FHA SDQ headline 5.23% Jan 2026 = 92% TPP-rule-change reporting artifact, NOT credit deterioration; distress-adjusted SDQ ~3.70% stable +13bps over 4 months
+SIG-W-20260508-005	WALTER 5-sub-agent parallel Q1 transcript scrape across 41 consumer-facing public companies / 5 sectors — 15 IRAN_EXPLICIT/BOTH CEO/CFO statements is consensus framing on Q1 2026 calls
+SIG-W-20260508-006	NFP April 2026 = Goldilocks-tape masking stagflation-underbelly
+SIG-W-20260508-007	FRED Advance Real Retail and Food Services Sales (CPI-adjusted, golden-source St. Louis Fed) — aggregate retail spending range-bound ~$215K-$227K Millions of 1982-84 CPI-Adjusted Dollars since 2022; most recent 2026 print ~$225K near upper band
+SIG-W-20260508-008	Bloomberg "Japan Has Spent Over $200 Billion Since 2022 to Support Yen — Fed custody holdings + timing of Japan's currency intervention" — Apr 30 2026 fresh intervention (8d ago); USDJPY breached 160 trigger; Fed custody declining $3.0T late-Mar 2026
+SIG-W-20260508-009	UMich Consumer Sentiment May 2026 preliminary = 48.2 fresh record-low on 74-yr series 1952+; down from April final 49.8 record-low
+SIG-W-20260508-010	@FreightWavesCEO Craig Fuller 5h: "Flatbed truckload spot rates to new all-time high. $4.12/mile as industrial freight cranks." + SONAR Flatbed Truckload Index United States chart (FTI.USA): current $4.12 USD vs $2.86 USD average (2023-2026 mean) = ~44% premium; 6-month sharp spike from late-2025 trough $2.50
+SIG-W-20260508-011	Forward Air FWRD Q1 2026 reported AH 5/7 — stock -45% AH / -41.60% intraday tape-validated; top customer (~$250M / ~10% revenue) transitioning "significant portion" of business starting EARLY 2027; loss $(1.09)/sh vs $(0.35) est; revenue $582M -6% miss; strategic-review NO actionable sale bids → non-core asset sales pivot (Intermodal + 2 legacy Omni units, ~$394M revenue)
+SIG-W-20260508-012	WHR first full dividend SUSPENSION in ~55-70 years per WSJ "For 70 years, Whirlpool paid a dividend. Suddenly it can't afford one." (5/8 article via MSN syndication; @unusual_whales 5/8 2:12 PM ET 16K views verbatim quote)
+SIG-W-20260508-013	SPX traded $2.6T notional of calls 5/6 = all-time high per Goldman Sachs Rich Privorotsky (head of One-Delta desk) "spot up vol up chasing" / "semi-irrational chasing" framing — canonical primary; @zerohedge 5/7 7:33 AM ET 1.1M views is downstream amplification not original
+SIG-W-20260828-022	CONFIRMED — Guardian story verified; two screenshot figures NOT verified and stripped.
+SIG-W-20260828-023	CONFIRMED on the print; CORRECTED on the consensus and on one unverifiable claim.
+SIG-W-20260828-024	CONFIRMED as reported. The DENOMINATOR is supplied here rather than left open.
+SIG-W-20260828-025	CONFIRMED as a market print. NOT independently re-priced by WALTER.
+SIG-W-20260828-026	CONFIRMED on the narrow series; the FRAMING is corrected here.
+SIG-W-20260828-027	CONFIRMED as a chart. NO PRECISE PRINT IS LEGIBLE.
+SIG-W-20260828-028	UNVERIFIED — single-channel Iranian state media. Routed FLAGGED, with a resolution path, because it would be material if true.
+SIG-W-20260828-029	CONFIRMED, released 8/25 (3d old), and ENRICHED with the fact the relay omits.
+SIG-W-20260828-030	EVENT CONFIRMED / MECHANISM FALSE. The claim is killed; the event is routed.
+SIG-W-20260828-031	CONFIRMED and materially RE-SCOPED. The headline overstates the breadth.
+SIG-W-20260828-032	CONFIRMED, and the headline framing INVERTS what the market says.
+SIG-W-20260828-033	CONFIRMED as a published chart. The qualifier is load-bearing.
+SIG-W-20260828-034	CONFIRMED as a published survey exhibit. NOT independently verified at Bernstein.
+SIG-W-20260828-035	MECHANISM PLAUSIBLE / HEADLINE NUMBERS UNVERIFIED. Routed with both numbers stripped.
+SIG-W-20260828-036	REPORTED — single outlet, named correspondent, not independently verified.
+SIG-W-20260828-037	CONFIRMED as reported. The DEAL is stale; the COVERAGE GAP is the finding.
+SIG-W-20260828-039	Q2 GDP second estimate confirms +1.5% — and the chart carrying it is a political frame, not a data revision
+SIG-W-20260828-040	UMich August FINAL 51.7 — a green "BEAT" chip on a −6% month, and the damage sits in the no-stock-holding cohort
+SIG-W-20260828-041	Truist and Fifth Third PAUSED selling Delaware Life — two days after TWG said "there has been no fraud"
+SIG-W-20260828-042	An $11.7M OTM VIX call print at "spot 18.62" — and that spot is a FUTURE; VIX cash closed 14.43
+SIG-W-20260828-043	The FHA 11.7% claim is a Q2 print released 8/13, and three public carriers disagree on the FHA leg by an impossible margin
+SIG-W-20260828-044	The Treasury did not confirm crowding-out — BofA estimated it, and the claim is actively CONTESTED
+SIG-W-20260828-045	Nvidia's $108.5B guarantee is REAL and starts in FY2029 — and the $22.4B cash figure is cash-only against $99.4B of liquidity
+SIG-W-20260828-046	Cold storage posts its first negative first-half since 2007 — and the relay drops the bifurcation that changes the read
+SIG-W-20260828-047	The US added $2.432T of debt in 330 days and the arithmetic is internally perfect — the question attached to it is opinion
+SIG-W-20260828-048	A $51M Chicago condo-deconversion default across 137 units and 7 towers, originated by CoreVest
+SIG-W-20260828-049	ERCOT Cal-27 forward power has fallen to roughly $42/MWh — a falling curve is a COUNTER-signal to the datacenter-demand story
+SIG-W-20260828-050	BCA has hyperscaler capex over $1 trillion in 2027 with margins forecast to RISE while D&A runs to 36% of EBITDA
+SIG-W-20260828-051	The yen at 159 and a 30-year-high 10Y are CONFIRMED — but the JP30Y at ~4.1% that carries the argument is NOT

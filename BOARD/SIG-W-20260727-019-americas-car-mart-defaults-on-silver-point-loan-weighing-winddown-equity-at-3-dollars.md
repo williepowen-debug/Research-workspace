@@ -16,8 +16,11 @@ confidence: 0.85
 verdict: CONFIRMED-REPORTING (Bloomberg, terms specified) + LIVE-TAPE-CORROBORATED (equity at $3.45)
 status: PARTIALLY-CORRECTED
 status_ref: SIG-W-20260728-001
-status_note: The headline claim — CRMT 'HAS DEFAULTED on a Silver Point loan' — is REFUTED at the primary. It was a covenant breach WAIVED AND AMENDED under active lender negotiation: no acceleration, no event of default. BROCK pulled the filings; WALTER independently re-checked the load-bearing NEGATIVE by enumerating every 8-K item code CRMT (CIK 0000799850) has filed — there is NO Item 2.04 (the artifact this signal's own body pre-registered as the expected default filing), and the 6/25/26 8-K files under ITEM 1.01 'Entry into a Material Definitive Agreement.' STANDS UNCHANGED: the wind-down consideration, inventory −52%, sales −27%, the equity level, the private-credit-lender-on-the-other-side framing, and the covenant relief expiring EARLY SEPTEMBER.
+status_date: 2026-08-03
 ---
+
+> 🚩 **PARTIALLY-CORRECTED 2026-08-03** (ref: SIG-W-20260728-001) — The headline claim — CRMT 'HAS DEFAULTED on a Silver Point loan' — is REFUTED at the primary. It was a covenant breach WAIVED AND AMENDED under active lender negotiation: no acceleration, no event of default. BROCK pulled the filings; WALTER independently re-checked the load-bearing NEGATIVE by enumerating every 8-K item code CRMT (CIK 0000799850) has filed — there is NO Item 2.04 (the artifact this signal's own body pre-registered as the expected default filing), and the 6/25/26 8-K files under ITEM 1.01 'Entry into a Material Definitive Agreement.' STANDS UNCHANGED: the wind-down consideration, inventory −52%, sales −27%, the equity level, the private-credit-lender-on-the-other-side framing, and the covenant relief expiring EARLY SEPTEMBER.
+> *(Banner added 2026-09-04: this text sat in a non-spec `status_note:` frontmatter field written at the 8/3 sweep; FORMAT_SPEC v0.10 carries only `status`/`status_ref`/`status_date`. Moved verbatim, field removed.)*
 
 # 🔴 **AMERICA'S CAR-MART HAS DEFAULTED ON A SILVER POINT LOAN** and is weighing a wind-down. **Inventory −52%, sales −27%, equity at $3.45.** This is `SIG-W-20260727-003`'s thesis arriving as an **ISSUER FAILURE** rather than a delinquency statistic — and it puts a **private-credit lender** on the other side of it.
 

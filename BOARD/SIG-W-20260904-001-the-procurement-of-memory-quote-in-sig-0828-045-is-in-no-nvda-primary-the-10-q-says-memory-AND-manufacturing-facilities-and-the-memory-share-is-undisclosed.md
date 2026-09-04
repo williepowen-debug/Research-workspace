@@ -13,6 +13,7 @@ info: [DEWEY, NEXUS, HENRY, VIOLET, LIQUID, BOND, RED]
 entities: [NVDA, Nvidia, 10-Q, Note-10, memory, HBM, DRAM, CoWoS, TrendForce, Apple, iPhone-18, Google, TPU, REQ-DEWEY-20260829-001, VULCAN-16, DEWEY-T1]
 signal_type: correction
 corrects: SIG-W-20260828-045
+corrects_direction: WEAKENS on the memory-composition leg — the $119B→$279B figure, the $108.5B guarantee, the FY2029 phasing and the OpenAI vendor-credit finding all HOLD; "primarily memory" softens to "memory and manufacturing facilities", share undisclosed.
 confidence: 0.90
 confidence_language: verified-absence at primary; direction call is WALTER's
 verdict: CORRECTED-FRAMING. SIG-W-20260828-045 quoted the 10-Q as saying the $119B→$279B supply commitments are "primarily related to the procurement of MEMORY." That phrase exists in NO primary document. The filing's words are "data center infrastructure systems, primarily memory AND MANUFACTURING FACILITIES." The $119B→$279B figure HOLDS. The memory-leg conclusion WEAKENS — the memory share is undisclosed, and any reconciliation against memory capacity alone overstates the memory claim by an unknown amount.

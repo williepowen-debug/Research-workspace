@@ -16,6 +16,9 @@ verdict: ANSWERS THE OPEN QUESTION + CORRECTS-SELF — and the answer cuts BOTH 
 consumer_lens: `-007` told BRENT and FALCON that two buffers were exhausted simultaneously, and named one question as decisive for every reading in it. That question now has an answer, and the answer weakens one half of `-007`'s framing while confirming the other. Sent as its own packet because a correction that runs AGAINST this desk's own alarming framing is the one least likely to be found by anyone else.
 cluster_secondary: IRAN_HORMUZ
 corrects: SIG-W-20260819-007
+status: PARTIALLY-CORRECTED
+status_ref: BRENT packet 2026-08-21 (§3.6): the ask is DISCHARGED and sourcing upgrades to PRIMARY-CONFIRMED (energy.gov 2026 RFPs, 172M of a 400M-bbl IEA action); the premium figure is SUPERSEDED and moved up; banner in body
+status_date: 2026-08-22
 ---
 > 🔴 **CORRECTION MARKER 2026-08-22 (inbound BRENT packet 2026-08-21, applied by WALTER per §3.6). DIRECTION per §3.6.2 — this signal's own named ASK is now DISCHARGED, and the discharge STRENGTHENS the mechanism while MOVING one number.**
 >

@@ -15,8 +15,11 @@ confidence: 0.90
 verdict: CONFIRMED-LANE-PRIMARY (lane carries the FRED series directly; continuous with WALTER's own 7/27 FRED pull at every overlapping observation)
 status: EVENT-PASSED
 status_ref: AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv (RED-FT-01 exit_source, S27 ruling 2026-07-31)
-status_note: The title reads as a LIVE clock ('FT01 exit session 1of3') and that clock has since COMPLETED. RED executed the exit 2026-07-31 (S27): RED-FT-01 UN-FIRED on WL-03 symmetric sustain-3 — 281 [7/27] / 284 [7/28] / 287 [7/29], plus 284 [7/30] as a 4th consecutive print making the exit FOMC-day-print-INDEPENDENT. The trigger is RE-ARMED for a new fire on a later re-cross <280 s=3. The X1 credit-bear-arm breach this signal also reported is NOT retracted — only the in-progress exit clock is resolved.
+status_date: 2026-08-03
 ---
+
+> 🚩 **EVENT-PASSED 2026-08-03** (ref: AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv (RED-FT-01 exit_source, S27 ruling 2026-07-31)) — The title reads as a LIVE clock ('FT01 exit session 1of3') and that clock has since COMPLETED. RED executed the exit 2026-07-31 (S27): RED-FT-01 UN-FIRED on WL-03 symmetric sustain-3 — 281 [7/27] / 284 [7/28] / 287 [7/29], plus 284 [7/30] as a 4th consecutive print making the exit FOMC-day-print-INDEPENDENT. The trigger is RE-ARMED for a new fire on a later re-cross <280 s=3. The X1 credit-bear-arm breach this signal also reported is NOT retracted — only the in-progress exit clock is resolved.
+> *(Banner added 2026-09-04: this text sat in a non-spec `status_note:` frontmatter field written at the 8/3 sweep; FORMAT_SPEC v0.10 carries only `status`/`status_ref`/`status_date`. Moved verbatim, field removed.)*
 
 # 🔴 HY OAS **281** [7/27 print] — **THE 280 LINE IS CROSSED.** X1-trigger breach (LIQUID's credit-bear arm) fires on the registered routing; and it is **session 1 of 3 on the RED-FT-01 EXIT clock — NOT a fresh fire.**
 
