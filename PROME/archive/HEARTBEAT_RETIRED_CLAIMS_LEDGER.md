@@ -52,4 +52,5 @@
 - *"ORCH_LOG 81 rows = 78 TOUCH + 3 CLOSE / 2 UNKNOWN"* — that was the 9/3-close ledger; 87 = 84 + 3 / 8 UNKNOWN after the 9/4 in-flight rows (DAEDALUS render #2 `b8727369a`).
 - *"WQ-172 SL pointer owed"* — already encoded 9/3 (SPEC_LETTER_STANDARD L41, `efb798978`).
 - *"VIX fell on the jobs number"* (before 09:30 9/4) — a pre-open print cannot price an 08:30 release (VIOLET).
+- ⚠️ **WITHDRAWN 09:2x (ORACLE `eac82880c`) — the *"Sept HIKE ~65–68% priced = WRONG CONTRACT"* entry above:** CME FedWatch 9/3 had the September MEETING at 62–67% (a third venue, inside BOND's range); cumulative-vs-meeting is OPEN until BOND names its venue. The entry stays for the record; it no longer binds as a kill.
 - **Carried from 9/2–9/3 (still bind):** every item in those two sections; the hot cell repeats the load-bearing few.
