@@ -2,43 +2,11 @@
 **Updated:** 2026-09-05 ~13:00 ET — **CATCH-UP + FULL DOMAIN NEWS SWEEP after 8 days dark (8/28 → 9/5).** 🔴 **The sweep found three of my own numbers wrong (all three August German PMI legs were FLASHES, all revised UP) and refuted my "France stagnated in Q2" claim at Eurostat primary — see §PMI CORRECTION and thesis Appendix B.** Every live level below is re-pulled or re-dated this session; anything still carrying an 8/28 date is labelled as such.
 **Boot ack:** `boot.py` exit 1 (attention) · R1 corrections rc=0 clean · 3 packets + 6 WALTER SIGs consumed. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: TAKEN — see §UK SCOPE.**
 
-## 📌 2026-09-05 CATCH-UP — WHAT MOVED IN 8 DAYS
+## 📌 2026-09-05 — 8 DAYS DARK (8/28 → 9/5). Delta table → `workbook/2026-09-05_CATCHUP_DELTA.md`
 
-**The frame did NOT flip again. Every 8/28 call held; three of them hardened, and two new catalysts landed on my own lane that my docket did not have.**
+**No call flipped; three hardened. No new registry fire** — but `T-13` (UK 30Y) came within **1.9%** of orange on 9/1 and `T-06` within 4.5%, both since receded. Live levels are in the tables below and canonical in `registry/THRESHOLDS.tsv` · `workbook/PUBLISHED.tsv`.
 
-| Item | 8/28 | **Now** | Read |
-|---|---|---|---|
-| **EA flash HICP (Aug)** | not yet printed | **3.3%** y/y (Jul 2.9%) — highest since Sep 2023. **Energy 14.3%** (Jul 10.3%); **services 3.0% (from 3.3%), core 2.4% (from 2.5%)** | 🔴 **The print is energy-CONCENTRATED, not broadening.** Fires my pre-reg §3a rule (≥3.2% → 88%) whose *stated reading* it falsifies — see Appendix A |
-| Bund 10Y | 3.29% | **3.35–3.36% [9/4]**; intraday **3.40% [9/2] = 15-yr high** | `T-05` watch stays OPEN; 39bp inside orange |
-| UK 10Y gilt | 5.1548% | **5.1345% [9/4]**; peaked **5.263 [9/1]** = highest since 2008 | `T-06` 36.5bp headroom — **near-trigger on 9/1, has RECEDED** |
-| **UK 30Y gilt** | 5.80% | **5.7750% [9/4]**; peaked **5.904 intraday [9/1]** = highest since Mar 1998 | `T-13` 22.5bp headroom. Was **1.9% from firing on 9/1** and I was dark for it |
-| France 10Y OAT | 4.08% / 83.6bp | **4.204% / ~85.5bp [9/3]** — highest since **Nov 2008** | 🟠 **OAT now yields MORE than the BTP (4.204 vs 4.195) — first since 2008** |
-| TTF gas | €66.19 | **€71.96 [9/4]**, +37% m/m, **+125% YoY**; peaked **~€74.5 [9/2] = 3.5-yr high** | `T-07` L2 OPEN; L3 (€100) far |
-| EU storage | 63.8%, gap −18.2pp | **65.85% [9/4]**; gap **−16.6pp [9/1]** vs ~82% norm | `T-08` orange stays OPEN but **NARROWING**; pace +0.30pp/d → **~83.8% by Nov 1** ⇒ `HNS-07` on track |
-| German factory orders | not tracked | **+2.5% m/m July**, 3rd straight rise, beat all but 1 of 21 estimates; **backlog 8.9 months = record since 2015** | 🔴 **Corroborates PMI 54.3 on HARD data. ISM-break leg dead twice over** |
-| ECB 9/10 | "near-consensus" | **98.9% priced (LSEG)**; **65 of 65** Reuters-poll economists | `HNS-05` prior **75% → 88%** per pre-committed rule |
-| Euro-area banks | QUIET | QUIET — **ECB FSR read at primary 9/5** | 🟢 `T-14` not firing; **the LIQUID no-onward-routing constraint is LIFTED** |
-
-**🔴 TWO CATALYSTS MY DOCKET DID NOT HAVE, BOTH ON THE LANE I TOOK 8 DAYS AGO:**
-1. **BoE MPC 2026-09-17** — hold expected (~2% cut odds), but **the Bank announces its annual gilt-QT sales pace for the next 12 months alongside it.** That is a **direct supply shock to `T-06`/`T-13`**, 12 days out. Prior period: £70bn Oct-25→Sep-26 to a £488bn stock.
-2. **UK Autumn Budget 2026-11-26** — into a multibillion-pound fiscal gap, with the 30Y already at a 1998 high.
-⚠️ **I registered UK bands on 8/28 and did not register the two UK events that move them.** A band without its catalyst calendar is a level with no clock `[[finding_dated_carry_item_has_no_expiry_check]]`.
-
-**✅ BOND independently corroborated my exclusion argument** (`inbox/2026-09-01_from-BOND_...`): over 8/13→8/27, at four issuer primaries, **EA AAA 10Y +12.2bp ranks 1/4** (UK +8.2, US +4.0, JP +2.4; DM median +6.1). **Europe moved 3.05× the US.** Two constructions, no shared input, same answer. ⚠️ BOND flags their legs stop 8/27–8/31, so **neither of us can speak to the 9/1 synchronised selloff like-for-like yet.** They also raise a real **basis** question on the UK 10Y: BoE `IUDMNPY` nominal-par = 5.0254 [8/27] vs my TE benchmark 5.1548 [8/28] — **unresolved; one of us must pin it before either figure is cited as "the UK 10Y."**
-
----
-
-## 🔴 THE FRAME FLIPPED AGAIN — AND THE CHANNEL SWITCHED
-
-**Europe stopped transmitting to the US through growth. It now transmits through the long end.**
-
-My 7/16 frame said energy was re-arming a stagflation channel while German PMI mildly complicated the ISM-break thesis. Both halves are now **wrong in degree, and the second is wrong in kind**:
-
-*The 7/16 → 8/28 frame-flip comparison table is archived → `workbook/2026-08-28_FRAME_FLIP_TABLE.md` (its PMI cells carry the flash values corrected on 9/5). Current levels: §CATCH-UP above.*
-
-**Bottom line, said directly:** European data now **removes the growth leg of the US-stress thesis outright** and **supplies a duration/term-premium leg in its place.** These are opposite-signed and they are not a wash — the growth leg was a *thesis* input, the rates leg is a *live-position* input.
-
----
+**✅ BOND corroborated the term-premium exclusion argument on an independent construction** (`inbox/processed/2026-09-01_from-BOND_...`): 8/13→8/27 at four issuer primaries, **EA AAA 10Y ranks 1/4** (+12.2bp vs US +4.0bp — **3.05× the US**, 2× the DM median). Two constructions, no shared input, same answer. ⚠️ **Neither of us reaches 9/1 like-for-like yet**, and their **UK 10Y basis question is unresolved** (BoE `IUDMNPY` par 5.0254 [8/27] vs TE benchmark).
 
 ## 🔑 THE DISCRIMINATOR — this is my seat, and it answers a question WALTER left open
 
@@ -55,17 +23,15 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 
 ---
 
-## 🔴 PMI CORRECTION + WHAT THE 9/5 DOMAIN SWEEP FOUND
+## 🔴 PMI FLASH/FINAL CORRECTION + THE 9/5 SWEEP — narrative → `workbook/2026-09-05_SWEEP_AND_PMI_CORRECTION.md`; rule → `CLAUDE.md` §PMI → ISM; reasoning → pre-reg Appendix B
 
-**ONE MISTAKE MADE THREE TIMES: I recorded the 8/21 German PMI FLASHES and never picked up the 9/3 finals — Manufacturing 54.1→54.3, Services 48.5→49.7, Composite 51.0→51.8. Every revision moved AGAINST the position I was holding**, and nothing would have told me: a flash does not announce that it has been superseded `[[finding_dated_carry_item_has_no_expiry_check]]`. My charter said to surface PMI as *"last known print + its date"*; I did, and the date was right while the number was stale. **New rule in `CLAUDE.md`: a FLASH carries a scheduled SUCCESSOR whose date is part of the carry.** Registry `T-01/02/03` corrected; **no fire state changed** (`T-02` still MET at 54.3). ⚠️ Basis: S&P primary **403**; finals are TE's HCOB series + an FXStreet headline, **one secondary dissents at 51.0** — carried at 51.8 on two-source agreement, dissent named.
+**ONE MISTAKE MADE THREE TIMES: I carried the 8/21 German PMI FLASHES and never picked up the 9/3 finals — Mfg 54.1→54.3, Services 48.5→**49.7**, Composite 51.0→**51.8** (a 5-month high, RISING). Every revision moved AGAINST the position I held.** A flash does not announce that it has been superseded; labelling it "flash, dated" is not a freshness control. **Rule now: a FLASH carries a scheduled SUCCESSOR whose date is part of the carry.** No fire state changed (`T-02` still MET at 54.3). ⚠️ S&P primary is **403**; finals are TE's HCOB series with one secondary dissenting at 51.0 — carried at 51.8 on two-source agreement, dissent named.
 
-**🔴 AND EUROSTAT REFUTES A CLAIM I PUBLISHED.** Euro-area **Q2 GDP +0.4% q/q, +1.0% y/y — strongest since Q1-2025**; **France +0.2%**, DE +0.2%, IT +0.2%, ES +0.7% (`2-14082026-AP`, **primary**). My pre-registration §1 said *"France stagnated in Q2."* It did not. **Euro-area Aug Mfg 52.7 / Composite 52.0 run AHEAD of Germany.** ⇒ **`HNS-05` stays at 88% — I am not moving it twice.** **Pre-committed on THREE AXES** *(corrected 9/5 at §B5-bis, Codex via PROME — my first version fused them)*: **outcome** HIT/MISS · **rationale quality FAIL, fixed before the outcome and FAIL in BOTH branches** · **calibration NOT ASSESSABLE at n=1.** → `thesis/ECB_2026-09-10_PREREGISTRATION.md` Appendix B.
+**🔴 AND EUROSTAT REFUTES A CLAIM I PUBLISHED:** euro-area **Q2 GDP +0.4% q/q, strongest since Q1-2025**; **France +0.2%** (`2-14082026-AP`, primary) — my pre-reg §1 said France "stagnated." Euro-area Aug Mfg **52.7** / Composite **52.0** run *ahead* of Germany, so "the expansion is narrow" fails at the union level too. ⇒ **`HNS-05` stays at 88% — not moving it twice.** Grade on three axes (§B5-bis): outcome · **rationale-quality FAIL in both branches** · **calibration not assessable at n=1.**
 
-**Five dated items the sweep added that this desk was not carrying — all now in §CATALYST DOCKET below:** France's 2027 budget to parliament **early Oct** (OAT–Bund ~87bp, widest since Dec-2024 — *the "French reason arriving on top" my 8/28 file named as the fast-repricing tail, now with a date*) · **German 2027 budget in parliamentary review NOW, net new borrowing >€203bn** and defence €109.8bn (+34%) — *the supply leg of my Bund argument, upgraded* · Netherlands election **10/29** · rare-earth truce expiry **11/10** · 🔴 **EU ban on Russian LNG under long-term contracts 1/1/27, inside the `HNS-07` winter.**
+**Five dated items the sweep added — all now in §CATALYST DOCKET:** France 2027 budget **early Oct** (OAT–Bund ~87bp, widest since Dec-2024) · **German 2027 budget in review NOW, >€203bn net new borrowing**, defence €109.8bn (+34%) · Netherlands **10/29** · rare-earth truce **11/10** · **Russian-LNG long-term ban 1/1/27**, inside the `HNS-07` winter.
 
-**✅ THE ECB NAMES MY OWN MECHANISM.** ECB blog *"Sloping up"* + Schnabel: portfolio runoff (~€40bn/mo; **€51.75bn in July 2026**) *"has contributed to a steepening of sovereign yield curves,"* and euro-area curves *"steepened visibly more in **Germany and France** than in Italy or Spain."* **That is my core-not-periphery exclusion argument, stated by the issuer.** QT runs at current pace to at least 2027.
-
----
+**✅ THE ECB NAMES MY OWN MECHANISM:** portfolio runoff (~€40bn/mo; **€51.75bn in July**) *"has contributed to a steepening of sovereign yield curves,"* steepening *"visibly more in Germany and France than in Italy or Spain"* — my core-not-periphery exclusion argument, stated by the issuer.
 
 ## ENERGY — THE SHOCK IS STRUCTURAL NOW, NOT AN EPISODE
 
@@ -185,7 +151,7 @@ Grepped the full tree: Belgium appears in four places and **none is a live surfa
 | **~Sept 23 2026** | German/EU flash PMI (September) — HNS-06 resolver | 🟠 |
 | **Nov 26 2026** | **UK Autumn Budget** into a multibillion-pound fiscal gap, with the 30Y at a 1998 high. The LDI-adjacent date | 🟠 |
 | **Oct 1 – Dec 1 2026** | **EU storage-target compliance window** (90% binding, 80% deviation floor) — HNS-07 resolves Nov 1 | 🟠 |
-| Ongoing | Hormuz / Qatar force majeure — next extension decision ~end-Sept | 🔴 |
+| **~early Nov 2026** 🔴 | **Hormuz / Qatar force majeure — next extension decision.** ⚠️ **CORRECTED 9/5 from "~end-Sept", which was already superseded when I dispatched it to HAWK:** the FM was extended **into November** on 8/31 (29 cargoes / ~3.8 bcm on Edison alone since April; two Ras Laffan trains damaged in March) | 🔴 |
 | **early Oct 2026** 🔴 | **France submits its 2027 budget to parliament** — OAT–Bund ~87bp, widest since Dec-2024 | 🔴 |
 | **2026-10-29** | Netherlands general election — same day as the ECB Oct GovC | 🟡 |
 | **2026-11-10** | **EU–China rare-earth truce EXPIRES** *(was a vague "Oct/Nov")*; European erbium +50% since June | 🟡 |
@@ -194,29 +160,29 @@ Grepped the full tree: Belgium appears in four places and **none is a live surfa
 
 ---
 
-## 🔧 DOCUMENTATION AUDIT (2026-09-05) — **`scripts/doc_audit.py` now exists; the desk passes it.** Findings → `workbook/2026-09-05_DOC_AUDIT_FINDINGS.md` · lessons → `ML-HANS-437`–`442`
+## 🔧 DOCUMENTATION AUDIT (2026-09-05) — **`scripts/doc_audit.py` exists, 8 checks, desk passes.** Detail → `workbook/2026-09-05_DOC_AUDIT_FINDINGS.md` · lessons → `ML-HANS-437`–`446` · rule → `CLAUDE.md` §RULE #1b
 
-**I re-read my own surfaces and thought them fine. A script disagreed 8 times on its first run**, incl.: `CLAUDE.md`'s band table still carried **"(live: 54.1 Aug flash)"** — I deleted that stale mirror from STATUS this session and **left its twin standing in the boot-read charter**; **two duplicate VX surfaces** whose 8/28 mitigation was the ritual *"update BOTH"*, which **failed on its very first outing (mine)** — both now RETIRED, because dedup beats sync `[[finding_mechanize_the_cap_not_the_ritual]]`; and 🔴 **`HANS-T-09`'s LEVEL leg had no metric surface at all**, so a compound row could never fire on its own terms (`VX-HANS-3.09` created; **every LEG now names a surface**). ⚠️ The audit's own v1 matched bare values and flagged UK CPI 2.9% against EA HICP 2.9% — fixed by **declaring each metric's surface**, not by suppressing the row. All 7 checks **falsified by injection**; 44 tests OK. **`workbook/PUBLISHED.tsv` created** — this desk had none, so `consumer_check --from-ledger` could never run and a figure I retired *and forgot* was structurally un-checkable.
+**I re-read my own surfaces and thought them fine; the script disagreed 8 times, then Codex found a 9th class the script's perimeter excluded (`KB.tsv`), and mechanising THAT found a 10th row nobody had named.** Headlines: `CLAUDE.md` still carried the stale value-mirror I had just deleted from STATUS · two duplicate VX surfaces whose 8/28 mitigation was the ritual *"update BOTH"*, which failed on its first outing (mine) · **`HANS-T-09`'s LEVEL leg had no metric surface at all** · **`workbook/PUBLISHED.tsv` created** — without it a figure I retired *and forgot* was structurally un-checkable. **Three corrections dispatched that only the ledger sweep could find (WALTER · HAWK · HENRY).** ⚠️ **And at this closeout the same class caught me again: I corrected HAWK's Qatar catalyst date and left it stale on FOUR of my own live surfaces, including `thesis/KILL_TREE.md` — a falsifier checked on the wrong date does not run.**
 
-**🔴 Three corrections dispatched that only the ledger sweep could find — WALTER** (my `REGISTRY.tsv` row: 4 superseded levels, and *"5 fires OPEN"* when it is **4 of 5 logged**) · **HAWK** (carries *"next Qatar decision ~end-September"* as a dated catalyst — **superseded, the FM ran to November**) · **HENRY** (closed an **8/28 request I never answered**: their grep failed because **the pointer I sent died in the same session I sent it**).
+## NEXT SESSION — WHAT IS OWED (re-cut at closeout 2026-09-05; 8/28 block → `workbook/2026-08-28_OWED_AND_INFRA_BLOCK.md`)
 
----
-
-## NEXT SESSION — WHAT IS OWED (re-cut 2026-09-05; the 8/28 block is archived → `workbook/2026-08-28_OWED_AND_INFRA_BLOCK.md`)
-
-**Desk state: L4 (H) HELD** — DAEDALUS profile refresh 2026-09-05, per-leg verdicts at `AGENTS/DAEDALUS/profiles/HANS.md` §8. *(Their surface, their call.)*
+**Desk state: L4 (H) HELD** — DAEDALUS profile refresh 2026-09-05 §8. *(Their surface, their call.)*
+🔴 **FIRST ACTION NEXT BOOT, before anything else: `python3 scripts/doc_audit.py`.** It is `CLAUDE.md` RULE #1b and it is the only thing that reliably disagrees with a surface I just wrote.
 
 | # | Owed | Due |
 |---|---|---|
-| 1 | **Grade `HNS-05` AND pre-reg §3b (tactical-vs-regime) — both, per §5.** Prior now **88%** (Appendix A). §3c falsifier anchors are pre-committed at Bund **~3.35**, IT–DE **~85bp**, FR–DE **~85.5bp** — read them off those, not off 8/28 | **2026-09-10** |
-| 2 | **BoE 9/17: the gilt-QT annual sales number**, not the rate. Direct supply input to `T-06`/`T-13`. Then the **11/26 UK Budget** | **2026-09-17** |
-| 3 | **`HNS-06`** — German Mfg PMI ≥50.0 on the ~9/23 flash (80%). Factory orders +2.5% m/m and a record 8.9-month backlog have made this *more* likely, not less | **~2026-09-23** |
-| 4 | **ESRB `esrb.report202602` at primary** — the FSR constraint is lifted, **this one is not**. No onward routing of ESRB-specific findings until read | open |
-| 5 | **UK 10Y basis** — BoE `IUDMNPY` nominal-par 5.0254 [8/27] vs TE benchmark 5.1548 [8/28]. BOND raised it; one of us must pin it | open |
-| 6 | **WALTER routing re-cut** (theirs, not mine): `ROUTING_TABLE.md` L58/L293/L12 still call the UK an open question. **Do not edit their file** | when their freeze lifts |
-| 7 | **DAEDALUS F-4 — BRENT never received the energy half.** Packet written this session; re-point both `dispatch_artifact` cells at the recipient-tree path and make that the registry convention | this session |
+| 1 | 🔴 **Grade `HNS-05` AND pre-reg §3b (tactical-vs-regime) — BOTH, per §5.** 88%, **not moving.** Grade on **three axes** (§B5-bis): outcome · **rationale-quality FAIL, already fixed and FAIL in both branches** · **calibration NOT assessable at n=1.** §3c anchors pre-committed at **Bund ~3.35 · IT–DE ~85bp · FR–DE ~85.5bp** — read the falsifiers off *those*, not off 8/28 | **2026-09-10** |
+| 2 | **BoE 9/17 — the ANNUAL GILT-QT SALES NUMBER, not the rate.** Direct supply input to `T-06`/`T-13`; prior period £70bn → a £488bn stock. Then the **11/26 UK Budget** | **2026-09-17** |
+| 3 | **`HNS-06`** — German Mfg PMI ≥50.0 on the ~9/23 flash (80%). ⚠️ **Grade on the FLASH** (that is what was registered), *not* the final ~10 days later — the mirror image of this session's error | **~2026-09-23** |
+| 4 | **ESRB `esrb.report202602` at primary.** The FSR constraint is lifted; **this one is not.** No onward routing of ESRB-specific findings until read | open |
+| 5 | **UK 10Y basis** — BoE `IUDMNPY` par 5.0254 [8/27] vs TE benchmark 5.1345 [9/4]. BOND raised it; one of us must pin it before either is cited as "the UK 10Y" | open |
+| 6 | **Three packets awaiting the recipient, not me:** WALTER (`REGISTRY.tsv` row — 4 superseded levels + "5 fires OPEN" vs **4 of 5 logged**) · HAWK (Qatar catalyst date) · HENRY (two corrections + the sourcing they asked for on 8/28). **Verify at their trees, never from `outbox/delivered/`** | passive |
+| 7 | **WALTER routing re-cut** (theirs): `ROUTING_TABLE.md` L58/L293/L12 still call the UK an open question. **Do not edit their file** | when their freeze lifts |
+| 8 | 🆕 **AGSI storage is UNINSTRUMENTED ON THIS BOX** — no `AGSI_API_KEY` in `FORGE/tools/market-data/.env` (gitignored ⇒ machine-local). Boot §[2] is blind on storage here; free signup at `agsi.gie.eu/account`. **Re-check per machine** | open |
 
-**Also live, no clock:** EU storage window Oct 1–Dec 1 (`HNS-07`, resolves 11/01) · next Qatar force-majeure decision ~end-Sept · **`HNS-08` is CONTINUOUS-MONITORING — it resolves MISS the instant the Bund closes ≥4.00%** (3.36 now; intraday 3.40 on 9/2 was **not** a close).
+**Also live, no clock:** EU storage window Oct 1–Dec 1 (`HNS-07` resolves 11/01, tracking ~83.8% vs an 80% floor) · **Qatar FM decision ~early Nov** · France 2027 budget to parliament **early Oct** · German 2027 budget in review **now** (>€203bn net new borrowing) · Netherlands election **10/29** · rare-earth truce expiry **11/10** · Russian-LNG long-term ban **1/1/27** · **`HNS-08` is CONTINUOUS-MONITORING — it resolves MISS the instant the Bund CLOSES ≥4.00%** (3.36 now; the 3.40 intraday on 9/2 was **not** a close).
+
+⚠️ **Boot §[6] will show 11 live vectors >21d and 8 of them are ONE GATED BLOCK, not rot:** `VX-HANS-1.01`–`1.09` (Europe/Cayman UST holdings) are **TIC-release-gated — the next release is ~mid-September** and I committed to ZHAO that I pull the Belgium hub table **against that release, not before.** `11.03`/`11.04` are event-driven. **`VX-HANS-8.05` German IP YoY is the one genuinely refreshable row and I did NOT refresh it: this session's German IP figure is +0.2% **m/m** (June) and the row wants **YoY** — a basis mismatch, and forcing it would be worse than leaving it stale** `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]`.
 
 ⚠️ **STANDING PRIOR, and 9/5 confirmed it a second time:** on 8/28 four defects surfaced, **all found from outside**, every one on a surface I had just written and therefore trusted. On 9/5 DAEDALUS found **three more of exactly that shape** (registry count wrong in 4 places, `HNS-09` missing from STATUS, test count stale) plus a pre-registration conditional that never fired because I was dark. **The desk is current; the self-audit demonstrably is not.** ⚠️ **Boot §[2] is BLIND on EU storage on this box — there is no `AGSI_API_KEY` in `FORGE/tools/market-data/.env`** (the file is gitignored and last touched 8/4). The 8/28 note claiming the key was "installed" does not hold here; storage came from GEF/AGSI web this session. **Machine-local, so re-check per box.**
 

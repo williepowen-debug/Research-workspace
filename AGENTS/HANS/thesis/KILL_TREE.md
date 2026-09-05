@@ -44,7 +44,7 @@
 | What kills it | Instrument | Status |
 |---|---|---|
 | **Storage misses 80%** → the shock is worse than modelled and curtailment becomes live | **Prediction HNS-07** | Open, resolves 2026-11-01 |
-| **Hormuz reopens / Qatar lifts force majeure** → structural reverts to episodic; TTF round-trips toward €42 | Qatar FM status, TTF | Watch — next FM decision ~end-Sept |
+| **Hormuz reopens / Qatar lifts force majeure** → structural reverts to episodic; TTF round-trips toward €42 | Qatar FM status, TTF | **Watch — next FM decision ~EARLY NOVEMBER.** ⚠️ **Corrected 2026-09-05 from "~end-Sept": the FM was extended INTO NOVEMBER on 8/31.** A falsifier checked on the wrong date is a falsifier that does not run |
 | **TTF breaks L3 (€100)** → I under-called it; genuine ECB stagflation trap | TTF ladder | Not firing (€66.19) |
 
 ⚠️ **My two storage instruments disagree** and I am not hiding it: my 5-day-pace extrapolation says ~83%, DEWEY DR-4's peak-pace model says 77-80%. They **straddle the 80% line.** That disagreement is priced into HNS-07 at 65% rather than 80%.
