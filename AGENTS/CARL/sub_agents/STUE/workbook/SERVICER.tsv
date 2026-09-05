@@ -1,4 +1,4 @@
-# LIVE — Last real data refresh: 2026-09-05 | Staleness sweep (no data): 2026-08-10 | Next: ES-02 3rd/final look at MOHELA notice completion ~2026-10-31
+# LIVE — Last real data refresh: 2026-09-05 | Staleness sweep (no data): 2026-08-10 | Next: ES-02 3rd/final look GRADES ~2026-11-13/16 (Oct-31 is the notice-COMPLETION EVENT, not the grade — the settled boundary runs ~14d behind the pull)
 # 9/5: CFPB re-pull RAN (~16d late, flagged by PROME DOCKET L150 not by STUE). No spike, 2nd DID_NOT_APPEAR. Instrument's 5-6d lag rule found DEFECTIVE -> corrected to locate-the-cliff-empirically. AFT docket route (courtlistener 69090685) now 404s: ACCESS FAILURE, not a quiet-docket finding.
 # 8/13: REAL docket data — full AFT docket recovered free (curl+UA -> courtlistener.com/docket/69090685/). Back-filled the Sep-29-2025 dispositive ruling STUE had never recorded; confirmed quiet through 8/13. No new CFPB pull (instrument still sets ~8/20).
 Servicer	Metric	Value	As_Of	Source	Trend	Status	Notes
