@@ -1,71 +1,74 @@
 # Agent Profile — ZHAO
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** one session since reactivation rewrote canon (8/21) · 55d > 45d. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+**Built by:** DAEDALUS · **Body:** 2026-07-04, **refreshed 2026-09-05** (§4 drift list resolved · §5 amended · §6–7 re-cut; §5's durable items carried and re-verified)
+**Method:** solo read + guards run (`read_cap_check --agent ZHAO`) + each of the six carried drift items re-measured individually + consumption verified at the recipients' trees
+**Staleness:** refresh at the next post-TIC session or >45d → checkpoint **2026-10-20**
 
-**Built by:** DAEDALUS · **Date:** 2026-07-07 · **Comprehension method:** solo direct read (full core: CLAUDE, STATUS, boot.py, NEXUS_BRIEF, TRADE, workbook ×6 TSV, LAST_COMPLETION, inbox/outbox; subagent readers lost to a credit outage — small enough to hold)
-**Sources read:** all of the above + PROME reactivation packet (7/5) + ZHAO's own reactivation outbox (7/4). · **Staleness:** refresh after ZHAO's next 2-3 sessions (freshly reactivated — profile will age fast) or >45d.
-**Context:** reactivated **2026-07-04 after ~2.5mo dormancy** (8 commits: STATUS rewrite, KB-076..087, VX/FLOW/PREDICTIONS refresh, boot.py + NEXUS_BRIEF built). PROME flipped ROSTER dormant→ACTIVE 7/5. Architecture is a **pre-June-buildout vintage** + a high-quality 7/4 self-rehab layer.
+> **📈 PROMOTED L3 → L4 (Conf H) this pass.** Both blockers my map row named are met, and the L4 consumption gate is satisfied twice over at other desks' artifacts. Detail in §6.
 
 ---
 
 ## 1. Identity
-China macro → U.S. transmission: China UST exit (Belgium/Euroclear proxy methodology — its signature analytical asset), PBOC/CNY, property·LGFV·fiscal, HK peg, trade war, Taiwan-econ, Korea contagion node, India oil. **Market** (research/signal agent, no position — self-described). Primary edges: →LIQUID (UST demand hole), →SAM (Korea/Asia), →HAWK/BRENT (energy), →HENRY (10Y), →HANS (Euroclear).
+China macro through the U.S.-market lens — **UST demand / capital flows / Korea**. Market class, ACTIVE. Signature analytical asset: the **Belgium (Euroclear) custody proxy** and its direction-discriminator. Research/signal desk, **no position by design** (`TRADE.md` FROZEN with an explicit unfreeze condition). Korea = ZHAO, Japan = SAM. **Spawnable by:** PROME / Will.
 
-## 2. File anatomy (where the richness lives)
+## 2. State (2026-09-05)
+| | |
+|---|---|
+| Last session | **2026-09-02** — 37-item inbox drain (both lanes), August PMI graded, Xi–Trump summit dated, ZHA-16 registered, July TIC leg |
+| STATUS | 219 ln / **32,534 B = 99.95% of the 32,550 B budget** → 🟡 rotate-tier (F-2) |
+| Ledgers | `PREDICTIONS.tsv` 17 rows (`Resolve_By` + `Anchor_Type` + `Invalidation` cols) · KB · VX · VX_HISTORY · FLOW · SCHEMA |
+| Inbox | **4**, all dated 9/2–9/4 (was 15 unconsumed with a 47-day-old item) |
+| Falsification | STATUS §Thesis Kill (:132) + §Falsification tripwires (:136); VX rows carry usable/falsified verdicts |
+| Archive | `archive/STATUS_COLD_20260902.md` (verbatim §①–⑧ split) + 7 older records |
 
-| File | Holds | Richness? |
+## 3. Per-dimension
+Convergence matrix scored **28/60** with rotation called out beneath a flat total · exit rules **print-counted** (correct for a monthly-data domain) · predictions resolving with dated outcomes (4 resolved 8/21) · dated falsification surface present · routing consumed (§6).
+
+## 4. The 7/04 drift list — **ALL SIX RESOLVED**, re-measured individually 2026-09-05
+| # | Carried defect | Status |
 |---|---|---|
-| STATUS.md (153 ln) | **The thesis lives here** (no thesis/ dir): Jul-4 regime re-frame table (EMERGENCY 43/55 → ELEVATED 27/55), dashboard w/ [CONF]/[EST] tags, 11-vector scored convergence matrix, exit rules + falsification tripwires, calendar, predictions mirror | live state + durable rails, mixed |
-| scripts/boot.py (252 ln, NEW 7/4) | 6-section boot brief: live FX/Brent pull + band check, key-figure age (14d bar), **TIC-release-watch (computes whether a newer print should exist)**, catalyst docket, open predictions, VX staleness — built explicitly to kill the 2.5mo-drift failure mode | **the crown asset** — self-built staleness guard |
-| NEXUS_BRIEF.md (72 ln, NEW 7/4) | Full schema + **RED counter-frame with rebuttal + discriminating test**, honest counter-weight (April record aggregate inflow masks the hole), WAITING-FOR table | exemplary — among the best briefs in fleet |
-| workbook/KB.tsv (87 rows) | 13-col, Admiralty + Epistemic, Stale_By self-dating, → routing tags in Notes | permanent record, accruing |
-| workbook/VX.tsv (33 rows) | 11-col banded vectors, refreshed 7/4 | live |
-| workbook/PREDICTIONS.tsv (10) | Invalidation col + confidence-move audit trails in Notes (ZHA-01 70→55→25%); ZHA-02 CONFIRMED, ZHA-08 FALSIFIED 7/4 *per its stated criterion* | disciplined; no ARCHIVE/scoreboard |
-| workbook/FLOW.tsv (12) | 9-col pathways w/ FIRING/DE-ESCALATED/DORMANT states + re-arm conditions | live |
-| workbook/VX_HISTORY.tsv (5) | Feb-13 seed rows only — append discipline never took | dormant |
-| TRADE.md | **FROZEN 7/4 by DAEDALUS** (dormant-cluster sweep) — banner rationale now stale ("ZHAO dormant"; it reactivated same day) but freeze itself still correct (Mar-9 four-anchor content, superseded thesis, no position) | frozen, banner-wording debt |
-| CLAUDE.md (183 ln) | Identity/scope/routing solid; **carries a rotted layer** — see §4 | operating spec w/ drift |
-| sources/ (RP-ZHAO-1..9 + 2) | Feb-Mar research corpus (Belgium proxy, LGFV, HK peg, Taiwan, insurers) | archival, referenced |
-| inbox/ | 3 stale items (May-9, May-22 HAWK Hormuz — now OBE, Jun-26 PROME triage) + fresh 7/5 PROME synthesis + WALTER SIG 7/6 — dedicated inbox spawn owed (STATUS Next-5) | backlog |
+| 1 | `domain/sources/` referenced ×2, dir absent | ✅ **0 references** remain |
+| 2 | KEY THRESHOLDS `Current` column stale (TIC $683.5B / Belgium $477.3B…) | ✅ **column dropped 2026-07-09** (D2 fix) with a pointer to STATUS instead |
+| 3 | CONVERGENCE MATRIX note stale ("34/50 🔴") | ✅ gone |
+| 4 | MAIL SYSTEM section scrubbed to a literal `"removed:"` ×2 + HERMES/PROTOCOL refs | ✅ **0 occurrences**; WALTER-lane reality documented |
+| 5 | PAT-031: bare root-relative boot invocation | ✅ now `(cd "$(git rev-parse --show-toplevel)" && .venv/bin/python AGENTS/ZHAO/scripts/boot.py)` — **and it preserves the venv interpreter**, which §5.2 requires |
+| 6 | HK AB threshold CLAUDE `<HK$40B` vs STATUS `<$45B` | ✅ both read **`<$45B`** |
 
-## 3. Per-dimension local representation
+**Deliberate/fine (unchanged):** print-counted exits · boot.py's documented in-script CATALYSTS list · research/signal no-position stance.
 
-| Dimension | Where it lives | Form | Rich? |
-|---|---|---|---|
-| Thesis structure | STATUS (re-frame table + nuance block) + CLAUDE Belgium-methodology section | 2-anchor demand-hole frame; growth-vs-capital-account decoupling explicitly argued | ✅ substance / ❌ no thesis/ dir, no version stamp |
-| Convergence | STATUS titled CONVERGENCE MATRIX | 11 vectors, 5-pt, total 27/55 + concentration note | ✅ handle present (no Independence col) |
-| Invalidation / exit | STATUS EXIT RULES + tripwires; TRADE exit signals (5+ sessions); per-prediction Invalidation col | thesis-kill = **print-counted** (2/3 consecutive prints — apt for monthly TIC data) | ✅ adapted |
-| Thresholds | CLAUDE KEY THRESHOLDS (durable) + STATUS dashboard (live) | split exists BUT CLAUDE's `Current` column rotted (see §4) | 🟡 |
-| Predictions | workbook/PREDICTIONS.tsv | 10 made / 2 resolved; confidence-move audit trails; no ARCHIVE, no calibration scoreboard, no failure-synthesis | 🟡 |
-| Cross-agent routing | CLAUDE route-matrix (7 conditions) + NEXUS_BRIEF SENDING/WAITING + outbox w/ "awaiting PROME route" state | ✅ (consumption not yet proven — 3d post-reactivation) |
-| Staleness discipline | boot.py (14d/21d bars, TIC-watch) + KB Stale_By + STATUS self-flags ("do not cite as current") | ✅ exemplary — mechanism, not discipline |
-
-## 4. Deviations from standard (+ why)
-
-**The 7/4 rehab layer is excellent; the CLAUDE.md carries a pre-dormancy rotted layer** — 6 distinct drift instances:
-1. **`domain/sources/` referenced ×2 (L47, L181) — dir doesn't exist** (the PROME-flagged bug; real archive targets: `sources/`, `archive/`).
-2. **KEY THRESHOLDS `Current` column stale** (L105-110: TIC $683.5B / Belgium $477.3B / CNY 6.85 / HIBOR −211bps "AT THRESHOLD") — all superseded by 7/4 STATUS ($651.1B / $454B / 6.80 / −136bps EASED). A boot-loaded durable file contradicting the live read = the BRENT-line-168 class; also violates ZHAO's own "don't maintain stale copies" rule.
-3. **CONVERGENCE MATRIX note stale** (L126: "10 vectors… 34/50 🔴 CRITICAL" vs live 11 vectors, 27/55 🟠).
-4. **MAIL SYSTEM section broken** (L136-150): "All inter-agent communication lives in removed:" — a cleanup scrub left literal "removed" text ×2 (+ FILES row L183), plus refs to HERMES (retired) and PROTOCOL.md/RECEIPT.md (don't exist). Contradicts the live WALTER-lane reality (inbox/WALTER/ exists).
-5. **PAT-031 violation:** SPAWN 1b runnable invocation is bare root-relative (`.venv/bin/python AGENTS/ZHAO/scripts/boot.py`, "from repo root" in prose, no `rev-parse` wrap anywhere in the doc — scanner heuristic would fire). boot.py itself self-locates fine; the *invocation* breaks from an own-dir launch.
-6. **HK AB threshold inconsistency:** CLAUDE <HK$40B vs STATUS dashboard <$45B = 🟡.
-Also: **no MEMORY.md / MAINTENANCE.md / thesis/ / PREDICTIONS_ARCHIVE / board_log.tsv / domain/** (all six self-identified gaps VERIFIED absent). BOTTOM LINE substance sits mid-doc (STATUS L22) — no trailing labeled handle.
-
-**Deliberate/fine:** print-counted exits (monthly-data domain); boot.py's in-script CATALYSTS list (documented as maintained); research/signal no-position stance.
-
-## 5. Load-bearing context / DO NOT TOUCH
-1. **Belgium proxy methodology (CLAUDE L114-121) is the signature analytical asset** — the direction-discriminator (Belgium-flat + China-falling = genuine exit) just carried the 7/4 headline call. Never simplify it away.
-2. **boot.py MUST run under `.venv/bin/python`** (yfinance lives in the venv, not system python3) — its ModuleNotFoundError message documents this; any cwd-proofing fix must preserve the venv interpreter.
-3. **boot.py TIC-release-watch parses the data-month from VX-ZHAO-1.02's Source cell** (regex on "Mon YYYY") — changing that cell's format silently breaks section [3].
-4. **KB enum discipline is schema-enforced** (SCHEMA.tsv allowed_values + AGENTS/VOCABULARIES.tsv) — SPAWN steps 3/3b are load-bearing, don't trim.
-5. **TRADE.md freeze banner is DAEDALUS-authored** (7/4 sweep) — wording update is sanctioned, but *unfreezing* requires a concrete ZHAO position re-emerging, not just reactivation.
+## 5. DO NOT TOUCH — carried, re-verified, **one amended**
+1. ⚠️ **AMENDED 2026-09-05.** Old text: *"the Belgium proxy methodology is the signature analytical asset — never simplify it away."* **The METHOD is the asset; the PROXY it validated is now falsified by ZHAO itself** — `rho = +0.050 (n=41)` against a `rho < −0.5` usability bar, marked 🟢 **PROXY FALSIFIED** on STATUS:58. Preserve the **direction-discriminator method and the falsification record**; do **not** restore the proxy as a live adjustment. *(Related to PAT-148: a preservation instruction can outlive the validity of the thing it preserves. No harm here — a DNT rule binds visitors, and the owner did the killing — but the wording was protecting a dead asset.)*
+2. **`boot.py` MUST run under `.venv/bin/python`** (yfinance is venv-only). Any cwd-proofing must preserve the venv interpreter — ✅ the §4.5 fix did exactly that.
+3. **`boot.py`'s TIC-release watch parses the data-month from `VX-ZHAO-1.02`'s Source cell** (regex on "Mon YYYY") — changing that cell's format silently breaks section [3].
+4. **KB enum discipline is schema-enforced** (`SCHEMA.tsv` allowed_values + `AGENTS/VOCABULARIES.tsv`); SPAWN steps 3/3b are load-bearing, don't trim.
+5. **`TRADE.md` freeze banner is DAEDALUS-authored** (7/4). Wording updates sanctioned; **unfreezing requires a concrete ZHAO position re-emerging**, not just activity.
 6. **Confidence-move audit trails in PREDICTIONS Notes** (70→55→25%) are deliberate history, not clutter.
 
-## 6. Maturity snapshot
-**L3 (Conf H), provisional-L4** — first scan ever (was on the dormant/unscanned list; reactivated 7/4). L2 floor solid (schema-valid accruing ledgers); L3 legs all present (titled scored matrix, print-counted exits + tripwires, predictions resolving incl a clean 7/4 falsification-per-stated-criterion). **L4 gate = consumption evidence**, not structure: the 7/4 LIQUID outbox is written-awaiting-PROME-route, NEXUS_BRIEF is 3 days old — one session post-reactivation is too early to score "signals flowing" (PAT-028/PAT-034: sequencing, not defect). Expect L4 within 2-3 sessions if the loop fires. Work queue → `upgrades/ZHAO_CARD.md`.
+## 6. 📈 PROMOTION L3 → L4 (Conf H) — per-leg verdicts
+| Leg (Market class) | Verdict | Basis |
+|---|---|---|
+| L1–L2 floor | **PASS** | STATUS + BOTTOM LINE; 6 accruing schema-valid ledgers, enum-enforced |
+| L3 convergence matrix | **PASS** | scored 28/60, with the rotation under a flat total called out explicitly |
+| L3 exit rules | **PASS** | print-counted tripwires + §Thesis Kill; ADAPTED for a monthly-data domain |
+| L3 predictions resolving | **PASS** | 17 rows, 4 resolved 8/21, `Resolve_By` + `Anchor_Type` + `Invalidation` populated |
+| L3 dated falsification surface | **PASS** | STATUS §Thesis Kill :132 / §Falsification tripwires :136, and **exercised** — see below |
+| **L4 TRADE feeding proposals** | **ADAPTED-PASS** | research/signal desk, no position **by design**; TRADE.md FROZEN with an explicit unfreeze condition (CARL/LIQUID/MIDAS no-book-by-design precedent) |
+| **L4 signals flowing AND consumed** | **PASS — twice, at the recipients' artifacts** | ① **LIQUID consumed the Belgium falsification 8/23** and acted: every Belgium inference stripped, two derived numbers retired, two level-keyed triggers re-based (recorded on ZHAO STATUS:123). ② **HANS's own STATUS carries a whole `## ZHAO ANSWER — Belgium proxy: NOT CARRIED` section** (`HANS/STATUS.md:174`) plus a cross-agent flag row — a second desk restructuring its book on ZHAO's finding. Artifacts named ZHAO also present in LIQUID(4) · SAM(3) · VULCAN(2) · BOND(2) · HANS(5). |
+| L5 clean closeouts | **FAIL (1 of 2)** | 9/2 closed clean; needs a second consecutive cycle |
+| L5 current | **PASS** | 3 days |
 
-## 7. Open questions / comprehension gaps
-- **Will the reactivation hold?** One excellent session ≠ live cadence (the 2.5mo drift happened once already; boot.py now guards, but only if ZHAO spawns). Boot-cadence watch = PROME/Will lane.
-- Korea coverage (USD/KRW, BoK, NPS) overlaps SAM's Asia lane — scoped OK today (Korea=ZHAO, Japan=SAM) but worth a one-figure reconciliation check next SAM firming.
-- VX_HISTORY: revive append discipline or FROZEN-banner it? ZHAO's call.
-- inbox backlog (3 stale + 2 fresh) — dedicated inbox spawn owed per its own STATUS Next-5.
+**⭐ Why this promotion is well-earned rather than mechanical:** ZHAO **falsified its own signature analytical asset on measurement** — the Belgium proxy the desk was built around — published the refutation, and two downstream desks restructured their books on it. That is the L3 falsification leg and the L4 consumption leg satisfied by the *same act*, and it is the rarest thing a domain desk does.
+
+**⚠️ The "archive/scoreboard" leg from my prior row is STRUCK.** A `PREDICTIONS_ARCHIVE`/scoreboard appears in neither the market-class L3 nor L4 legs — I had appended it to ZHAO's gate as a row-local expectation and then graded against it. Same defect class as the ORACLE Brier finding earlier today (`profiles/ORACLE.md` §7). It survives as a nice-to-have, **not** a gate.
+
+## 7. Findings
+**🟡 F-1 — my map row was materially wrong and would have mis-briefed a reader.** It carried *"dark 11d since 8/21"*, *"inbox 15 unconsumed, oldest 47d"*, *"STATUS 264/250"*, and the six-item CLAUDE.md drift list. **All false as of 9/2:** ZHAO ran 9/2, drained 37 items across both lanes, split STATUS 47,477 B → under budget, and every one of the six drift items is fixed. The row was re-cut 9/1 — one day before the session that invalidated it. *(Not a grading error so much as the profile-clock cost: a 59-day body plus a 4-day-old row can still both be wrong about a desk that had a big session in between.)*
+
+**🟡 F-2 — STATUS regrew to the rotation ceiling in three days — and this is now n=2 today.** `read_cap_check --agent ZHAO`: **32,534 B = 99.95% of budget**, 🟡 rotate-tier, after the 9/2 split took it from 47,477 B. **OTTO shows the identical shape on the identical date** (32,489 B = 99.8%, after a 9/2 split from 69,591 B). Two active desks, both split on 9/2, both back at the ceiling by 9/5 — **the split resets the clock and nothing changes the regrowth rate.** Extends PAT-055 (compress-then-regrow) from ~10 days to **~3 days at an active desk**, n=2 same-day. Both have a cold half already built, so the remedy is cheap; the *pattern* is the finding.
+
+**🟢 F-3 — the venv-preserving cwd fix is the right way to close a PAT-031.** The obvious fix (`python3 AGENTS/ZHAO/scripts/boot.py` wrapped in `rev-parse`) would have satisfied the scanner and **broken the tool** — yfinance is venv-only. ZHAO's fix wraps *and* keeps `.venv/bin/python`. Worth citing wherever PAT-031 is enforced: **a path fix must preserve the interpreter.**
+
+## 8. Open questions
+- Korea coverage (USD/KRW, BoK, NPS) vs SAM's Asia lane — scoped OK (Korea=ZHAO, Japan=SAM); worth one figure reconciliation at the next SAM firming. **Still open.**
+- `VX_HISTORY` — revive append discipline or FROZEN-banner it? ZHAO's call. **Still open.**
+- Cadence: is ZHAO now genuinely on a live cadence (8/21, 9/2 = two real sessions in 12 days) or still episodic? **The spawn-or-reclassify question to PROME can probably be closed YES-ACTIVE at the next session.**

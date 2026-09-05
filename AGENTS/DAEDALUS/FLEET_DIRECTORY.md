@@ -30,7 +30,7 @@
 | BOND | Market | L4 | H | 2026-09-01 | US bond-market structure / auctions / rates | L5 on: STATUS byte tier — rotate to <32,550 B (SHADE's crc-archive form… |
 | CORAL | Market | L3 | H | 2026-09-01 | Florida (whole-state, 10 pillars) | L4 on: the flat-by-design TRADE ruling (Will) |
 | SHADE | Market | L3 | H | 2026-09-01 | Insurer-lender / PE-insurance-captive | L4 on PREDICTIONS.tsv seeded with confidences AT REGISTRATION (one file… |
-| ZHAO | Market | L3 | H | 2026-09-01 | China macro — UST demand / capital flows / Korea | L4 on: inbox drained (VULCAN ×3 first) |
+| ZHAO | Market | L4 | H | 2026-09-05 | China macro — UST demand / capital flows / Korea | L5 on: a SECOND consecutive clean cycle (9/2 was the first) |
 | AEOLUS | Market | L3 | M | 2026-09-01 | Climate → economy (macro; insurance/ag/energy-demand channels) | Conf M→H at the Mode-A profile fan-out (owed since 8/23) |
 | WATT | Market | L3 | H | 2026-09-01 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L4 on: a boot that consumes the AEOLUS seam packets |
 | VULCAN | Market | L4 | M | 2026-09-01 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | Conf M→H on ONE reader-side consumption confirmed at the reader's artif… |
