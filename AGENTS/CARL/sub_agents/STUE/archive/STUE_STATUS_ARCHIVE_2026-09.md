@@ -252,3 +252,20 @@
 
 
 ---
+
+
+## §B9 — CATALYSTS: 7 fired/closed rows (rotated 2026-09-05 PM)
+
+*Verbatim. 2,677 B · CRC32 `cb276a5c`*
+
+---
+
+| ~~**Aug 5 / Aug 13** — Treasury Phase 1 verification~~ | ~~did ~500K accounts transfer?~~ | ⛔ **FIRED + RETIRED 8/13.** Answer: no primary confirms a transfer, and Treasury's own operational page still describes the *assisting* role. Question replaced by two instrumented rows (Fiscal Service page vintage; vendor-award/Hub-launch) |
+| ~~**Aug 14** — AFT v. MOHELA docket check~~ | ~~is there a post-#54 filing?~~ | ⛔ **FIRED 8/13 (run a day early).** ✅ Confirmed quiet — nothing since #54, Jul 17 2026. Recurs event-driven, not on a date |
+| ~~**Tue Aug 4 (modal) — else Tue Aug 11**~~ — NY Fed Q2 HHDC | ~~CRL-04 2nd print; CRL-05 breach window~~ | ⛔ **FIRED Tue Aug 11 — the fallback Tuesday.** Stock 10.60% (CRL-04 holds, 2nd print); flow into 30+/90+ both 7.83% = cohort exhaustion; CC 90+ 12.92% (CARL's grade, CRL-05 85→20) |
+| ~~**NOW – ~Aug 4** — NY Fed media advisory~~ | ~~watch daily~~ | ⛔ **MOOT — the print itself arrived.** ⚠️ *Method note: STUE watched for an advisory that either never posted where it was looked for, or posted and was missed, and the print landed anyway. **An advisory-watch is a nice-to-have; the release page is the instrument.** Next quarter, poll the data URL pattern directly — it is deterministic (`HHD_C_Report_2026Q3.xlsx`) and needs no advisory* |
+| ~~**~Thu Aug 20** — CFPB re-pull (ES-02)~~ | ~~`company=MOHELA`, past the lag~~ | ⛔ **FIRED 2026-09-05, ~16d LATE.** ✅ **No spike — 2nd DID_NOT_APPEAR.** Aug 1–22 settled **21.6/day**; SAVE wave to date **25.6/day**; nearest band 62% above. ⚠️ **STUE did not catch its own overdue instrument — PROME's 9/4 DOCKET reconcile did (L150).** Instrument defect found and fixed (lag rule → locate-the-cliff) |
+| ~~**~Sep** — FSA Data Center release~~ **⇒ RE-DATED: no date, header-triggered** | Next release carries **FY2026 Q3** (quarter ended Jun 30 2026) | ⛔ **CHECKED 2026-09-05: NOT POSTED.** File byte-identical to the 8/13 pull (MD5 `4732c453…`), `last-modified` **Jun 18 2026**. **NOT a signal — absence of a publication is not absence of stress.** ✅ **New trigger: poll the `last-modified` header of `PortfoliobyLoanStatus.xls` weekly; act on the HEADER CHANGING, never on a calendar date or an EA announcement.** ⚠️ **Registered single point of failure now LIVE — this one delayed release blinds ES-01/04/06 and OQ #3/#4/#16 simultaneously** |
+| ~~**~Sep 15** — 9th Cir *Sweet* oral argument~~ | ~~unscheduled, projected~~ | ⛔ **PRUNED 7/31 — never happened and never will. The appeal was DECIDED 7/17/26 without oral argument.** Row was carried on a projection that the event had already overtaken |
+
+---
