@@ -20,7 +20,6 @@
 
 ---
 
-> **Reconciled to `STATUS.md` 2026-07-31.** This file had drifted ~7 weeks behind the dashboard: it carried a pre-correction Treasury Phase-1 scope (~9M, corrected to ~500K on **Jun 9**), a single-cliff SAVE selection window, an already-fired FSA release written as "next", an uncorroborated MOHELA wait-time magnitude, and a superseded Sweet deadline. **Instruction files rot silently because nothing reads them adversarially** — the dashboard gets refreshed, the instructions that shape the next session's priors do not. Re-run this reconcile whenever a STATUS refresh supersedes an anchor named here.
 
 ## Role
 
@@ -70,68 +69,44 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 
 **Standing rule:** if you find yourself about to write *"that's another agent's domain,"* **check that the agent exists and that the row is actually in their file.** Three of the six exclusions above failed that check.
 
-## Key Signals to Monitor
+## Key Signals to Monitor — **RULES AND POINTERS ONLY**
 
-> *Anchors below reconciled to STATUS 2026-07-31. This section had drifted ~7 weeks behind `STATUS.md` (pre-correction Treasury scope, a single-cliff SAVE window, a fired FSA release still written as "next"). **Anchors are pointers, not the dashboard — `STATUS.md` is canonical.***
+> ⛔ **NO LIVE VALUES IN THIS SECTION.** *(Enforced 2026-09-05. This card's own DOC OWNERSHIP table has always said `CLAUDE.md` holds bands, scope, protocol and pointers — **never** values — and this section was violating it with ~13 KB of dashboard figures. One of them, the Fiscal Service page's "Last Updated **May 18 2026**", had already gone stale: it now reads **September 4, 2026**. **That is the exact drift the 7/31 reconcile was supposed to end, recurring because the section still held values at all.** The fix is structural, not another reconcile.)*
+> **Every current figure → `STATUS.md`. Full prior text, verbatim → `CLAUDE_PROVENANCE.md` §P1** (grep it; on grep terms it carries no read-cap claim, `READ_CAP.md` rule-8).
 
-**Delinquency / Default:**
-- FSA Data Center quarterly updates — **Q1 2026 released Jun 23 2026** (EA GENERAL-26-38, data as of Mar 31). **Next: Q2 ~Sep** (2nd default-stock print; settles the 9.0M-vs-9.5M press gap; refreshes the stale 18.6% cut)
-- NY Fed Quarterly Report on Household Debt (HHDC) — **Q2 2026 PRINTED Tue Aug 11 2026** (the *fallback* Tuesday; the band held, the modal Aug-4 point estimate missed). **Base rate now 5 years: Q2 lands on the 1st or 2nd Tuesday of August, 11:00 ET** (Aug 2 '22 · Aug 8 '23 · Aug 6 '24 · Aug 5 '25 · **Aug 11 '26**) — **3 of 5 first Tuesday, so publish the BAND and treat the mode as colour.** ⚠️ **Retrieval, learned the hard way — do not repeat the advisory-watch:** `newyorkfed.org` **403s WebFetch**, but the data files are on a **deterministic URL** and need no advisory at all: `curl` + browser User-Agent → `newyorkfed.org/medialibrary/interactives/householdcredit/data/xls/HHD_C_Report_<YYYY>Q<N>.xlsx`. **Poll that path; do not hunt for a media advisory.** *(STUE spent two sessions watching for an advisory it never found, and the print landed anyway.)*
-  - **Which sheet is canonical** (register **S4** — settled 2026-08-13): **Pg 12** = 90+ *stock* share by loan type · **Pg 13** = new delinquent (30+) by loan type · **Pg 14** = new seriously delinquent (90+) by loan type ⇐ **cite Pg 13/14 for flow.** ⚠️ **Pg 28** (student transition by age, 4Q moving sum) tracked Pg 14 within ±0.01pp for five quarters and then **diverged +0.39pp in 26:Q2** — it is **not** an interchangeable stand-in. **Never silently substitute one for the other.**
-- Default count trajectory — **~9.0M / $220B as of Mar 31 2026** (FSA primary; 6.0M Aug'25 → 7.7M Dec → ~9.0M Mar, **+1.3M QoQ**). The **13M EOY-2026** (TCF) projection needs *acceleration*: current pace implies ~11.6M
-- **Cure channel (track the offset, not just the inflow):** 2.6M gross Q1 DRG transfers vs +1.3M net stock rise ⇒ **~1.3M/qtr exits** (rehab / consolidation / discharge / cure). Durability is an open question
-- Active repayment 31+ DQ rate — 18.6% by dollar, **Dec 2025 [STALE — not restated in the Jun-23 release]**
-- Repayment status — **17.2M recipients (42%) / ~$633B in repayment-or-delinquency; 8.4M (~⅕) / ~$485B in forbearance** (Mar 31 2026, FSA). Forbearance is the reservoir feeding Q3-Q4
+**Delinquency / Default**
+- **FSA Data Center quarterly** — the release, not a calendar month, is the trigger. ⚠️ **Poll `studentaid.gov/sites/default/files/fsawg/datacenter/library/PortfoliobyLoanStatus.xls` and act on its `last-modified` header changing.** Never wait on an EA announcement. **Five perimeters exist — Federally Managed · Direct Loan · ED-Held FFEL · FFEL · DMCS/DRG — and mixing them is the standing error. Name the perimeter on every default figure.**
+- **NY Fed HHDC quarterly.** Q2 prints the **1st or 2nd Tuesday of August, 11:00 ET** (5-yr base rate, 3-of-5 first) ⇒ **publish the BAND, treat the mode as colour.** ⚠️ **Retrieval, learned the hard way:** `newyorkfed.org` **403s WebFetch**; the data sits on a deterministic URL — `curl` + browser UA → `newyorkfed.org/medialibrary/interactives/householdcredit/data/xls/HHD_C_Report_<YYYY>Q<N>.xlsx`. **Poll the path; never hunt a media advisory.**
+  - **Which sheet is canonical (register S4):** **Pg 12** = 90+ *stock* by loan type · **Pg 13** = new delinquent (30+) · **Pg 14** = new seriously delinquent (90+) ⇐ **cite Pg 13/14 for flow.** ⚠️ **Pg 28 is NOT an interchangeable stand-in** — it tracked Pg 14 within ±0.01pp for five quarters, then diverged. **Never silently substitute one for the other.**
+- **Track the CURE channel, not just the inflow** — gross DRG transfers minus net stock change = quarterly exits. Durability is an open question.
 
-**SAVE / RAP Transition (FIRING — launched Jul 1 2026):**
-- ~7–7.5M SAVE borrowers receiving transition notices, **issued in WAVES**
-- ⚠️ **NOT a single cliff.** The 90-day selection clock runs from **each individual borrower's notice**. **~Oct 1 2026 = FIRST-TRANCHE read only (partial N)**; full population resolves ~Q1 2027. Treating Oct 1 as the full-population read is the CRL-09 denominator-mismatch trap
-- **Notice window COMPRESSED ~3mo (7/25):** all notices by **Dec 31 2026** (was Mar 2027) ⇒ last selection deadlines ~end-Mar 2027. MOHELA's own window is tighter: **Jul → Oct 2026**
-- Auto-transition for non-selectors → **Standard**, or **Tiered Standard** for loans first in repayment on/after Jul 1 2026 (MUCH higher payments; $0-70/mo → ~$407/mo avg)
-- RAP enrollment rates and payment adequacy
-- Forbearance-to-repayment conversion wave (Q3-Q4 2026)
+**SAVE / RAP Transition**
+- ⚠️ **NOT a single cliff.** The 90-day selection clock runs from **each borrower's own notice**. **The first-tranche read is a PARTIAL N; the full population resolves later.** Treating the first date as the full-population read is the **CRL-09 denominator-mismatch trap**.
+- Non-selectors auto-transition to **Standard**, or **Tiered Standard** for loans first in repayment on/after Jul 1 2026.
 
-**Servicer Performance:**
-- MOHELA: 2.5M missed bills → 800K delinquent; **280K borrowers overcharged** (wrong calculation guidelines); systematic call-centre "deflection" to self-help channels [AFT amended complaint 1/15/26, via Protect Borrowers / NCLC]
-- **Call metrics — two different instruments, both valid, do not merge them:**
-  - **Abandon / wait level [FSA servicer performance data, cited in 2026 filings]:** ~13 min avg wait, **~14% abandon**, longest of the major federal servicers; no other major peer exceeds ~5%. *Use this for level comparisons.*
-  - **Wait-time RATIO [AFT complaint via PB/NCLC]:** MOHELA borrowers wait **~7×** EdFinancial and **>50×** Aidvantage / CRI / Nelnet. *Plaintiff-sourced and advocacy-framed — attribute it, don't launder it as neutral.*
-  - ⚠️ *Correction to a 7/31 correction: this pass first struck "7x-50x" as uncorroborated, then found the source the same session. It is **sourced**, and it measures **wait time**, where the FSA figure measures **abandon rate** — different quantities, not a contradiction. **"I can't find it in my preferred source" is not "it is unsupported"** — name the source you checked before declaring a claim unsupported.*
-- Nelnet: credit reporting errors, balance duplication
-- Class action (Feb 18, 2026): doubled balances on credit reports *[not re-verified since build — treat as unrefreshed]*
-- State AG investigations (MOHELA) — 9-state CID working group
-- DOE payment withholding ($7.2M penalty) *[not re-verified since build]*
-- **CFPB complaint tell (registered instrument):** `company=MOHELA` daily rate vs the **27-30/day 2026 baseline**.
-  - 🔴 **THE OLD RULE HERE — *"~5-6 day publication lag — never read the trailing week"* — IS RETIRED AS PROVEN FALSE (2026-09-05). Do not reinstate it.** Measured: the settled boundary is a **CLIFF ~14 days back**, not a taper. **Applying the retired rule on 2026-09-05 would have read 3.3/day — a fake 85% collapse.** Backfill was measured, not assumed (a settled window re-pulls +3.2%; settled months <1%) ⇒ it is a publication **BOUNDARY**, not a decay curve.
-  - ✅ **THE RULE: never subtract a fixed N. Print the dailies and locate the boundary with the pre-registered completeness test** ⚠️ **(marked PROVISIONAL — validated IN-SAMPLE on the very cliff it was built to explain.)**
-    - **Out-of-sample test = the NEXT CFPB `company=MOHELA` PULL.** ⚠️ **NOT the FSA `PortfolioByLoanStatus` poll (DOCKET L281)** — that is a `last-modified` header check on a different source and **cannot test a daily-series boundary algorithm at all.** *(Mislabel corrected 2026-09-05; it originated upstream and STUE propagated it without checking that the named test could actually exercise the rule — `[[finding_guard_correctness_and_wiring_are_independent]]`.)*
-    - ⛔ **IF THE TEST AND AN EYEBALL READ DISAGREE, THE ANSWER IS NO VERDICT — not the eyeball.** *(Corrected 2026-09-05: this line first read "believe the eyeball," which **directly contradicted** the NO-VERDICT clause three lines above it, since believing the eyeball IS the analyst-selected cutoff that clause exists to forbid. Both were written the same session, hours apart, in two files.)* **The eyeball's ONLY role is to diagnose and REVISE the algorithm afterwards — never to convert a NO VERDICT into a call in the moment.** in `workbook/EXPECTED_SIGNALS_TRACKER.md` § ES-STUE-02 — same-weekday normalisation (weekends run ~half of weekdays and an un-normalised test reads a Sunday as a cliff); a day is COMPLETE at **ratio ≥ 0.70** of its same-weekday median over the prior 4 weeks; **boundary `D` = the most recent date where `D`, `D−1`, `D−2` are all complete.**
+**Servicer Performance**
+- **Call metrics are TWO different instruments — do not merge them.** *Abandon/wait level* [FSA servicer data] measures **abandon rate**; the *wait-time RATIO* [AFT complaint via PB/NCLC] measures **wait time**, is plaintiff-sourced, and must be attributed rather than laundered as neutral. **Different quantities, not a contradiction.** ⚠️ **And "I can't find it in my preferred source" is not "it is unsupported" — name the source you checked before declaring a claim unsupported.**
+- **CFPB complaint tell (registered instrument):** `company=MOHELA` daily rate vs the registered baseline.
+  - 🔴 **THE OLD RULE — *"~5-6 day publication lag, never read the trailing week"* — IS RETIRED AS PROVEN FALSE (2026-09-05). Do not reinstate it.** The settled boundary is a **CLIFF ~14 days back**, not a taper; applying the retired rule would have read a **fake 85% collapse**. Backfill was measured, not assumed ⇒ a publication **BOUNDARY**, not a decay curve.
+  - ✅ **THE RULE: never subtract a fixed N. Print the dailies and locate the boundary with the pre-registered completeness test in `workbook/EXPECTED_SIGNALS_TRACKER.md` § ES-STUE-02** — same-weekday normalisation (weekends run ~half of weekdays; an un-normalised test reads a Sunday as a cliff); a day is COMPLETE at **ratio ≥ 0.70** of its same-weekday median over the prior 4 weeks; **boundary `D` = the most recent date where `D`, `D−1`, `D−2` are all complete.**
   - ⛔ **NO VERDICT — report no rate at all — if (a) no qualifying `D` exists within 30 days of the pull, or (b) the BAND COLOUR changes when `D` moves ±3 days.** An ambiguous boundary yields **NO VERDICT**, never an analyst-selected cutoff.
-  - ⚠️ **And the caveat that makes this worth fixing rather than noting:** both MOHELA nulls survived this defect on **margin** (~3% bias against 16-40% headroom), **not because the rule was harmless.** A series sitting near its band would have been decided by it.
+  - ⛔ **IF THE TEST AND AN EYEBALL READ DISAGREE, THE ANSWER IS NO VERDICT — not the eyeball.** The eyeball's ONLY role is to diagnose and **REVISE** the algorithm afterwards, never to convert a NO VERDICT into a call. ⚠️ **Marked PROVISIONAL — validated IN-SAMPLE on the very cliff it was built to explain; out-of-sample test = the NEXT CFPB `company=MOHELA` pull** (⚠️ **not** the FSA header poll, which cannot exercise a daily-boundary algorithm at all).
+  - ⚠️ **The caveat that makes this worth FIXING rather than noting:** both MOHELA nulls survived the defect **on margin** (~3% bias vs 16–40% headroom), **not because the rule was harmless.** A series near its band would have been decided by it.
 
-**Treasury Transfer:**
-- ⚠️ **Mar 19 2026 = the ED/Treasury partnership ANNOUNCEMENT, not an operational handoff.** Do not read it as completed
-- **Phase 1 scope = ~500K defaulted accounts (launch wave), NOT all ~9M** — ramps gradually via Fiscal Service CSP [CRS R48962]. *(Scope corrected 2026-06-09; the ~9M framing was wrong.)*
-- ⛔ **Phase 1 execution — QUESTION RETIRED 2026-08-13 as unanswerable.** Four months produced no launch-day primary, and Treasury's Aug-7 framing moved from a discrete batch to an ongoing build-out (a "Default Resolution Hub" + vendor procurement, all future tense), so a clean July yes/no will likely never surface. **Best primary read: NOT transferred** — `fiscal.treasury.gov/debt-management/resources/federal-student-loans` (**Last Updated May 18 2026**) still says Treasury *"**helps** the U.S. Department of Education, Federal Student Aid **collect** defaulted loans"* = the standing assisting role, not custody. ⚠️ Page vintage predates the July wave ⇒ strong negative evidence, not proof.
-  - **The two registered successor instruments** (dated, primary, binary — which press-chasing never gave us): ① does that Fiscal Service page move past **May 18 2026** and change its "helps…collect" language to custody/management? ② do **vendor awards** appear (USAspending / SAM.gov / Fiscal Service procurement) and does a real borrower-facing **"Default Resolution Hub"** exist? → STATUS open question #14.
-  - ⚠️ **THREE TRAPS, all live:** **(a) "Default Resolution HUB" ≠ "Default Resolution GROUP"** — the *Group* is ED/FSA's decades-old default unit with a live phone number on that same page; evergreen explainers about it read exactly like evidence the Hub launched. **(b) "Treasury posted plans to the Federal Register" is NOT SUPPORTED** — it appeared only in **WebSearch-generated summaries**, is absent from the underlying article, and an FR full-text search for the phrase across all of 2026 returns **zero**. *A search summary is not a source, and a fabricated-but-checkable provenance claim is worse than vagueness because it stops people checking.* **(c) Press count creep** — 9.2M (Mar) → 9.5M (Jul) → 10M (Aug 7), while the same Aug-2026 articles still recycle **"$180B / 11%"** (*Dec 2025* figures). **Primary wins: 9.00M / $220.3B / >13%.**
-- ⚠️ **Custody ≠ enforcement.** This is a servicing/collections custody handoff, NOT involuntary-collections resumption. Do not conflate (the enforcement/attribution split originally reasoned through CRL-14 — retired 7/31, superseded by CRL-28 — still governs)
-- Involuntary collections (AWG + Treasury Offset) — **PAUSED since Jan 16 2026, indefinitely.** Reported expectation "late summer or fall," **no ED commitment, no corroborated restart date** → threshold **STUCK**
-- Phase 2: non-defaulted portfolio · Phase 3: full takeover including FAFSA (planned, no public dates)
-- Legal challenges to authority; GOP bill introduced to codify
+**Treasury Transfer**
+- ⚠️ **The Mar 19 2026 IAA is an AGREEMENT, not an operational handoff.** Do not read it as completed.
+- **🔑 The custody event is EXEMPTION REVOCATION:** Treasury revoking Education's **May 11 2001** Cross-Servicing exemption (**31 U.S.C. § 3711(g)(2)(B)**), triggered *"once full operational capacity has been reached"* — **a capability, not a date; the IAA carries no phase dates at all.** Leading indicator = vendor/procurement build-out (USAspending).
+- ⚠️ **Pre-revocation, ED may refer debts DISCRETIONARILY** ⇒ **accounts can move without revocation and without any public-page change. Evidence against CUSTODY is NOT evidence against some accounts having moved.**
+- ⚠️ **Custody ≠ enforcement** — and now at primary: the IAA says Cross-Servicing uses *"only the tools **authorized by Education**."* **The AWG/TOP switch stays with ED after custody moves.**
+- ⚠️ **THREE STANDING TRAPS:** **(a)** "Default Resolution **HUB**" ≠ "Default Resolution **GROUP**" — the *Group* is ED/FSA's decades-old unit; **the IAA says GROUP throughout and "Hub" appears nowhere in it.** **(b)** *"Treasury posted plans to the Federal Register"* is **NOT SUPPORTED** — it exists only in WebSearch-generated summaries; an FR full-text search returns zero. **A search summary is not a source, and a fabricated-but-checkable provenance claim is worse than vagueness because it stops people checking.** **(c) Press count creep** — secondaries drift *up* on borrowers while recycling *older, smaller* dollar figures. **Primary wins; state the perimeter.**
 
-**Borrower Defense / Sweet v. McMahon:**
-- **Jan 28 + Apr 15 2026 deadlines MISSED → auto Full Settlement Relief triggered.** **Jun 15 notice deadline MET** (first one DOE did not miss): **~30-36K** discharge-eligibility emails to non-Exhibit C post-class applicants (Jun 23–Nov 16 2022 filers)
-- DOE 1-year completion deadline → relief delivery **~Jun 2027**; ~271K cumulative relief pipeline (PPSL)
-- 9th Cir appeal **26-1136** — ✅ **DECIDED Fri Jul 17 2026: DOE LOST, unanimous** (Wardlaw/Owens/Bress). Panel affirmed the district court — DOE failed to show the "changed circumstances" needed to modify its own 2022 settlement ⇒ relief for **>170K post-class applicants** stands. No oral argument was ever held. **Only remaining stop is a discretionary SCOTUS cert petition; no stay, discharges proceeding.** ⚠️ **Headlines say "500,000" — that is the WHOLE settlement (≥$23B, >500K borrowers, ~200K original class). This ruling's cohort is the >170K post-class applicants. Do not conflate.**
-- 750K+ total claims filed; pipeline of future applicants from 150+ flagged schools
+**Borrower Defense / *Sweet v. McMahon***
+- ⚠️ **FIGURE-CONFLATION TRAP — four different populations circulate.** The whole settlement, the original class, the post-class applicants covered by the 9th Cir ruling, and the count of class members with *overdue* relief are **four different numbers**. **Headlines quote the largest. Never attach it to the wrong cohort.**
+- **Entitlement and DELIVERY are separate questions** — a favourable ruling does not mean relief was delivered; ED's compliance has been contested in district court.
 
-**Credit Score Destruction:**
-- ⚠️ **SIX score-drop figures exist across STUE and CARL and they measure DIFFERENT COHORTS — read `STATUS.md` § SCORE-DROP RECONCILIATION before citing any of them.** Default to **−62 pts** (FICO Spring 2026, average borrower with a new SL delinquency, H2 2025).
-- **Corrected 2026-07-31:** this line previously read *"superprime borrowers losing −171 pts when payments resume."* The source (**NY Fed Liberty Street, Mar 2025**, per `CASCADE.tsv` Stage 4) gives a **−87 to −171 BAND (760+ → 590)** — this file had **collapsed the range to its worst end and attached it to a named cohort.** It is also the **oldest** figure in the set (~16 months, predating the on-ramp expiry and the Q1-2026 surge) and the **largest**, i.e. the most quotable. **Cite the band with its vintage, or cite −62. Never the bare −171.**
-- 9M+ facing credit score damage
-- Downstream: mortgage qualification, auto loan access, rental applications
-- Payment hierarchy effect: student loan DQ → CC/auto DQ cascade — ⚠️ **but the CC leg is second-order in AGGREGATE (~2% of card balances). The channel with the live evidence is FHA/mortgage — see `STATUS.md` § CHANNEL 5.**
+**Credit Score Destruction**
+- ⚠️ **SIX score-drop figures exist and they measure DIFFERENT COHORTS — read `STATUS.md` § SCORE-DROP RECONCILIATION before citing any.** Default to **−62 pts**. ⛔ **Never cite the bare −171** — it is the top of an **−87 to −171 band**, is the oldest figure in the set, and is the most quotable, which is why it spreads.
+- **Payment-hierarchy cascade:** ⚠️ **the CC leg is second-order in AGGREGATE (~2% of card balances). The channel with live evidence is FHA/mortgage — `STATUS.md` § CHANNEL 5.**
 
 ## Key Thresholds
 
@@ -168,7 +143,8 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 | Surface | OWNS (canonical — edit here first) | Must NOT contain |
 |---|---|---|
 | **`STATUS.md`** | **Every current VALUE.** Dashboard figures, default stock, DQ rates, dates, catalyst list, open questions, transmission channels, the **SCORE-DROP RECONCILIATION** table. ⛔ **THE SIGNAL DASHBOARD HOLDS VALUES AND POINTERS, FULL STOP** *(Will-ruled 2026-09-05).* **A row that explains, argues, quotes a source at length or narrates a docket is BODY — it belongs below `## CATALYSTS` with a pointer from the dashboard row.** *Measured 2026-09-05: two sub-tables reached **58.8%** of the dashboard purely on analysis rows, and they alone are the difference between a bounded head that FITS (0.94× budget) and one that does not (1.31×).* ⚠️ **A values table that absorbs prose defeats the read-mode split SILENTLY — it still reads as "the dashboard," so it keeps being read whole.** | Threshold *bands* → CLAUDE.md · dated event history → TIMELINE.tsv · cascade stage arithmetic → CASCADE.tsv |
-| **`CLAUDE.md`** (this file) | **Threshold BANDS** (yellow/orange/red), domain scope, protocol, source list, provenance pointers | ⚠️ **NO LIVE VALUES.** A number here is a *pointer* to STATUS, never the truth. **This is the rule whose absence caused the 7-week drift** |
+| **`CLAUDE.md`** (this file) | **Threshold BANDS** (yellow/orange/red), domain scope, protocol, source list, provenance **pointers** | ⚠️ **NO LIVE VALUES.** A number here is a *pointer* to STATUS, never the truth. **This is the rule whose absence caused the 7-week drift** |
+| **`CLAUDE_PROVENANCE.md`** | **The incident narrative BEHIND a rule** — why a correction was made, what it cost, the superseded wording. ⛔ **Grep-only.** *(Created 2026-09-05: the card is read WHOLE at boot, so a story that justifies a rule costs the same bytes as the rule itself, every boot, forever.)* | ⛔ **No rules, no bands, no values.** If it tells you what to DO, it is in the wrong file |
 | **`workbook/TIMELINE.tsv`** | **Dated events** — what fired, when, status (FIRED/PROJECTED/STUCK) | Current dashboard values |
 | **`workbook/CASCADE.tsv`** | **Cascade ladder** — stage populations, est. DQ impact, per-stage confidence | Anything not a cascade stage |
 | **`workbook/SERVICER.tsv`** | **Per-servicer metrics** — MOHELA/Nelnet counts, wait/abandon, notice windows | Litigation narrative → STATUS |
@@ -205,7 +181,11 @@ These had **zero fleet coverage** (verified at the counterparty standard). Will 
 ## Key Files
 
 ```
-CLAUDE.md                    # This file — agent instructions
+CLAUDE.md                    # This file — agent instructions (RULES ONLY; no live values)
+CLAUDE_PROVENANCE.md         # ⛔ GREP, never read whole. The STORY behind the card's rules —
+                             #   the full prior Key Signals text, the CARL KB/VX/FLOW id history,
+                             #   and the 7/31 reconcile note. Moved out 2026-09-05 (Will-authorised)
+                             #   when the card hit 1.58x the read-cap budget. Byte+CRC32 stamped.
 STATUS.md                    # Current state dashboard — CANONICAL live state
 workbook/                    # Domain logs (TSV exports)
                              #   SERVICER / CASCADE / TIMELINE = LIVE — each carries a
@@ -301,46 +281,14 @@ Template:
 
 ## Why This Domain Matters
 
-Student loans are **$1.7T across 42.6M recipients** (FSA, Mar 31 2026; federally-managed portfolio 40.9M / >$1.64T) — the second-largest consumer debt category. *(Was written as $1.61T through the build era; restated 7/31 to the Mar-2026 primary.)* The forbearance-to-repayment transition is a one-time mass credit event:
-- ~7-7.5M SAVE borrowers forced into new plans, transition **launched Jul 1 2026**
-- 9M+ facing credit score destruction; **>13% of the federally-managed portfolio already in default**
-- 8.4M in forbearance (~⅕ of recipients) = the reservoir still to convert
-- Servicer failures (MOHELA) converting performing loans to delinquent
-- Treasury transfer creating operational chaos during peak transition
-- Payment hierarchy: student loan stress cascades into CC and auto DQ — **but see the cascade RE-SCOPE below: severe within-cohort, second-order in aggregate**
-
-This is not a monitoring exercise — it's an active stress transmission vector firing into CARL's consumer thesis.
+Student loans are the **second-largest consumer debt category**, and the forbearance-to-repayment transition is a **one-time mass credit event**: millions forced into new plans, credit-score destruction at scale, servicer failures converting performing loans to delinquent, and a custody transfer running during peak transition. ⚠️ **The cascade into CC is second-order in aggregate — see the RE-SCOPE in § CARL Cross-References.** **Current figures → `STATUS.md`; the fuller narrative → `CLAUDE_PROVENANCE.md` §P3.**
 
 ## CARL Cross-References (System of Record)
 
-CARL's workbook holds the canonical student loan entries. STUE is the sub-agent; CARL is the system of record. When spawned, reference these CARL IDs for context:
+⛔ **MOVED 2026-09-05 → `CLAUDE_PROVENANCE.md` §P2.** The KB/VX/FLOW ids and the CRL-04/05/13/28 history are **provenance pointers, not live values** — the section said so itself, which makes it on-demand material by definition. **Grep it when you need an id's origin;** never read it whole at boot.
 
-**KB entries (CARL workbook/KB.tsv)** — *these are PROVENANCE pointers, not live values. Several have been superseded by later primaries; the superseding figure is named inline so a stale KB row is never re-cited as current.*
-- KB-CARL-029: SUPERSEDED — original Feb 12 data, see KB-145+
-- KB-CARL-145: FSA Dec 2025 — 7.7M default, $180B, 18.6% active DQ by $ → **default stock SUPERSEDED by FSA Mar 31 2026: ~9.0M / $220B** (GENERAL-26-38). The 18.6% cut has *not* been restated and remains the latest, stale
-- KB-CARL-146: 25% DQ rate, 13M default projection EOY 2026 → **the 13M projection is now the HIGH case, not the base** — realized pace (+1.3M/qtr) implies ~11.6M
-- KB-CARL-147: SAVE settlement ending, Jul 1, RAP launch → **FIRED on schedule Jul 1 2026**; notices in waves, all issued by Dec 31 2026
-- KB-CARL-148: Treasury transfer Phase 1 → **scope corrected to ~500K launch wave (not ~9M); execution still unconfirmed**
-- KB-CARL-149: Sweet v. McMahon 205K discharges → Apr 15 missed, **Jun 15 MET (~30-36K emails)**; ~271K cumulative pipeline
-- KB-CARL-150: MOHELA failures — 2.5M missed bills, 800K DQ, credit errors
-- KB-CARL-151: Demographic concentration — Black, women, 18-29, Southern
-- KB-CARL-299 / KB-CARL-328: parent-side default-wall + all-age-cohort cross-confirm (7/12–7/18)
+⚠️ **What still governs, and stays here:** **CARL is system of record for CRL-04/05/13/28. STUE keeps NO predictions ledger by design.** **Never mirror a CRL confidence into STUE, and never assume a routed proposal was adopted** — verify against the parent's committed files (boot step 2b). **`CARL workbook/VX.tsv` and `FLOW.tsv` were FROZEN 2026-06-26 — do not cite their rows as live.**
 
-**VX vectors — ⚠️ `CARL workbook/VX.tsv` was FROZEN 2026-06-26 (do NOT cite rows as live).** Canonical current values now live in **CARL `STATUS.md`** (convergence matrix) + `thesis/THESIS.md`. The historical SL vector IDs (VX-CARL-1.06 consolidated; VX-CARL-SL-01…SL-07: 30+/90+ DQ, SAVE, credit-score pop, defaults, Treasury, servicer failure) are retained only for provenance — read STATUS for their present state.
-
-**FLOW entries — ⚠️ `CARL workbook/FLOW.tsv` was FROZEN 2026-06-26 (do NOT cite rows as live).** Payment-hierarchy cascade (Auto > Mortgage > Student > CC) provenance = FLOW-CARL-4.01/4.02; canonical mechanism now in `thesis/THESIS.md`.
-
-**Predictions (CARL thesis/PREDICTIONS.tsv — verify live status there each session):**
-- CRL-04: Student 90+ DQ >10% — **CONFIRMED 2026-05-12** (NY Fed Q1 2026 = 10.3%). *2nd print grades in the Q2 HHDC window*
-- CRL-05: CC 90+ DQ >GFC 13.74% via cascade — OPEN 85% (Q1 2026 = 13.1%). **Breach window = the Q2 HHDC, release date unannounced, window 2026-08-04..08-11.** ⚠️ *not "~mid-Aug"* — see the HHDC warning under Key Signals. **Read the cascade RE-SCOPE below before attributing a breach to us**
-- CRL-13: SAVE non-selection >35% — OPEN 75% (Oct 1 2026 **first-tranche** read → full population Q1 2027)
-- CRL-14: MOHELA-caused defaults >500K — **RETIRED 2026-07-31, SUPERSEDED BY CRL-28** (retire+replace, Will-ruled 7/31 opt-a). ⚠️ **Corrected 2026-08-10 (PROME round-2 audit item 1)** — this line previously read "OPEN 65% ... NOT YET APPLIED," telling a spawned STUE the parent was stale in the **opposite direction from reality** (it had already been applied AND superseded). CRL-28 = MOHELA CFPB-complaint borrower-harm signature (60-day rolling avg, `company=MOHELA`, student-loan products), **THRESHOLD FROZEN at 55/day (absolute)**, window Oct 1 2026 – Sep 30 2027
-
-> ⚠️ **Cascade attribution — RE-SCOPED 2026-07-24 (DEWEY C2). Do not carry the broad claim.**
-> **Survives:** each ~50pt score-band drop ≈ **doubles** the 90+ rate; SL-delinquent borrowers' own CC 90+ went **1.03%→5.96%** (Dec'24→Jun'25).
-> **Does NOT survive:** "the student-loan cascade drives the CC 90+ GFC breach." SL-delinquent borrowers hold only **~2% of US CC balances (~$25B)** ⇒ the cascade closes **~0.12-0.19pp of the 0.62pp gap (≤⅓)**, and **~62% of the Q1 share rise was denominator shrink**. **Expect the breach; do not attribute it to us** — carrying the broad version into the Q2 print contaminates CRL-05's grade.
-
-*STUE keeps no own PREDICTIONS.tsv — its trackable predictions ARE these CARL CRL-* rows (parent is system of record). Due-scan = eyeball these four against CARL's ledger at boot.* **A proposal STUE has routed is not a change STUE can assume**: verify each row's live value in the parent TSV, never mirror a CRL confidence here.
 
 **Domain source (copied to STUE domain/):**
 - `domain/StudentLoan_Data_2026-02.md`: Pre-STUE comprehensive compilation (**Feb 2026 — ~6 months old**). Shadow DQ, credit score impacts, spillover analysis, timeline, transmission pathways. **Structure and transmission pathways are still useful; every LEVEL in it is superseded.** Reference for mechanism, never for a current figure.
