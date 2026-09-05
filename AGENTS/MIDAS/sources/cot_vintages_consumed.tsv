@@ -1,0 +1,19 @@
+# COT VINTAGES CONSUMED BY MIDAS — the ledger boot.py leg 3 grades freshness against.
+# Opened 2026-09-05 by MIDAS, closing DAEDALUS F-2 (2026-09-05 packet): three COT graders shipped
+#   and boot.py called none of them, so STATUS could carry a COT figure that had been superseded at
+#   the source with nothing to say so. It had: STATUS carried net/OI 56.86% [as-of 8/25] while the
+#   2026-09-01 vintage had been public since Fri 9/4 15:30 ET.
+# CONTRACT: COMEX full-size gold, CFTC legacy futures-only, code 088691. Same basis as
+#   cot_gold.py and sources/cot_gold_history_2010_2026.tsv. Micro gold is a DIFFERENT code.
+# WHAT A ROW MEANS: this desk has READ this vintage and written it into a surface — NOT merely that
+#   CFTC published it. boot.py leg 3 compares the LIVE in-row as-of date against the newest row here
+#   and flags REVIEW when the source is ahead. Append one row per vintage AS YOU CONSUME IT.
+# NO CALENDAR ARITHMETIC ANYWHERE: the leg asks the source what the newest vintage is rather than
+#   computing an expected Tuesday, so a holiday-shifted release (e.g. Labor Day 2026-09-07) cannot
+#   produce a false alarm or a false all-clear.
+# Pre-ledger vintages are NOT back-filled beyond the three below, which are each traceable to a
+#   dated artifact in this tree (finding_record_of_an_action_is_not_the_action).
+report_date	open_interest	nc_long	nc_short	net_nc_long	net_over_oi_pct	consumed_on	consumed_by	notes
+2026-08-18	406260	256902	34713	222189	54.6913	2026-08-28	MIDAS	last row of the frozen reference sources/cot_gold_history_2010_2026.tsv; reproduces cot_gold.py exactly on all five fields
+2026-08-25	427957	277159	33825	243334	56.8595	2026-08-28	MIDAS	COT #3 grade — ratchet +2.17pp, CHASED; the frozen MIDAS-08 baseline (letter freezes 56.8600%). analysis/2026-08-28_cot3-grade.md
+2026-09-01	415196	260485	32361	228124	54.9437	2026-09-05	MIDAS	MIDAS-08 TERMINAL GRADE (b) INDETERMINATE, delta -1.9163pp vs the -2.00pp (a) boundary. analysis/2026-09-05_MIDAS-08-GRADE.md

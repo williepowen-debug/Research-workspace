@@ -32,7 +32,7 @@ Each channel is a standing causal line, not a topic. If a channel has no current
 3. **Read `STATUS.md`** — convergence matrix, live channel reads, exit triad, BOTTOM LINE.
 3b. **Read `OPEN_ITEMS.md`** — the standing open-items register, split out of `STATUS.md` 2026-09-02. ⛔ **ADDED TO THE BOOT PATH 2026-09-02 because the split had taken it OFF one:** STATUS carried only a pointer, and *a pointer passes a presence audit while starving the surface it points at*. The register holds the blocking flags (e.g. *"the amendment rule is NOT canon, WQ-161 due 9/15"*) and the standing grader instructions. **Cost named honestly: this raises total boot bytes — the split fixed a per-surface cap breach, it did not make the reading free.**
 
-4. **Run `boot.py`** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/MIDAS/boot.py"` — ledger staleness + predictions-due. rc 0 = quiet · 1 = a prediction is due (REVIEW) · 2 = a leg failed. *(When `metals_watch.py` is built — the priority first increment — boot.py also pulls real-yield + gold/silver/copper/PGM spot + GSR.)*
+4. **Run `boot.py`** — `python3 "$(git rev-parse --show-toplevel)/AGENTS/MIDAS/boot.py"` — **four legs: metals watch · ledger staleness · predictions-due · COT vintage freshness.** rc 0 = quiet · 1 = REVIEW (the verdict line NAMES the leg) · 2 = a leg failed / cannot certify. `metals_watch.py` (leg 0, built 2026-07-12) pulls real-yield + gold/silver/copper/PGM spot + GSR + the M1 divergence classifier. **Leg 3 (wired 2026-09-05, DAEDALUS F-2) asks CFTC whether a gold COT vintage is public that this desk has not consumed** — it imports `cot_gold.py` as a module and grades against `sources/cot_vintages_consumed.tsv`; **clear its flag by APPENDING a row after reading the vintage, never by editing the flag away.** ⛔ `grade_cot3.py`, `grade_midas07.py` and `settle_check.py` are deliberately NOT boot-wired — each is a one-shot instrument bound to a CLOSED question, and running one every boot would re-grade a consumed letter on new data. The rationale is in `boot.py`'s docstring; read it before "fixing" them in.
 4b. **R1 corrections check (fleet-wide — FORUM-6 ruling ①, Will-approved 2026-08-17):** `python3 "$(git rev-parse --show-toplevel)/scripts/corrections_boot_check.py" MIDAS` — §9 rc 0/1/2; **rc=1 = a NAMED correction is unreceipted:** read the pointer, then `--receipt <id> --action <APPLIED|NO-OP|DEFERRED|CONTESTED>` and commit `registry/corrections_receipts.tsv`. *(Wired 2026-08-28, DAEDALUS wiring sweep leg ①, batch Will-approved in-session.)*
 5. **Resolve predictions** — scan `workbook/PREDICTIONS.tsv` for past-trigger rows → mark HIT / MISS / FALSIFIED; log to KB.tsv; never leave OPEN-but-stale.
 6. **Process `inbox/`** — integrate each signal, log a KB.tsv row, move to `inbox/processed/`.
@@ -183,7 +183,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 
 - Pathspec: `AGENTS/MIDAS/` — path-scoped commits only, run from repo root.
 - Auto-push at closeout via `scripts/safe-push.sh` (ff-gated, fails safe). Non-ff abort → `git pull --rebase` + re-push; NEVER force.
-- **Note:** `metals_watch.py` (when built) imports the shared FORGE client (`FORGE/tools/market-data/fetch.py`) by self-location — don't fork it; if you extend `fetch.py`, that's a FORGE edit → flag to PROME.
+- **Note:** `metals_watch.py` (built 2026-07-12, live) imports the shared FORGE client (`FORGE/tools/market-data/fetch.py`) by self-location — don't fork it; if you extend `fetch.py`, that's a FORGE edit → flag to PROME.
 
 ---
 
@@ -195,7 +195,7 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `OPEN_ITEMS.md` | **Standing open-items register — split out of `STATUS.md` 2026-09-02** (read-cap hot/cold split). STATUS carries the live **top-3** inline and points here for the rest. **Not optional reading:** touch an open item, read this file. Consistency rule: a state change updates BOTH surfaces when the item is in the STATUS top-3. |
 | `THESIS.md` | Per-channel transmission-stage tables (where the richness lives). |
 | `TRADE.md` | Domain trade ideas feeding PROME synthesis. FROZEN banner or live mtime alert — never silent-rot (blueprint §8). |
-| `boot.py` | Boot instrument: ledger staleness + predictions-due. cwd-proof; self-locating. (`metals_watch.py` = flagged first increment.) |
+| `boot.py` | Boot instrument, **four legs**: metals watch · ledger staleness · predictions-due · **COT vintage freshness** (leg 3, wired 2026-09-05). cwd-proof; self-locating. Leg 3 is stdlib-only (imports `cot_gold.py` directly) so it does not need `.venv`. |
 | `SCRATCH.md` | Immediate next-session continuity — "pick up here." **Split 2026-08-27:** ONE merged CARRY-FORWARD + the most recent session only. ⚠️ **Keep exactly one forward list** — three divergent copies of the same instruction was an active hazard on a boot-read file. |
 | `analysis/SCRATCH_ARCHIVE_2026-08.md` | **Full verbatim session record, 2026-07-12 → 2026-08-23.** Split from `SCRATCH.md` 2026-08-27 (Will-directed) at 74KB/269 lines. MOVED, never deleted. |
 | `NEXUS_BRIEF.md` | Curated cross-agent sync, written back every closeout (blueprint §6). |
@@ -209,6 +209,9 @@ Outbox filename: `YYYY-MM-DD_to-[target]_[desc].md`. Format: Signal / Detail (2�
 | `inbox/` `outbox/` | Cross-agent messaging. |
 | `board_log.tsv` | WALTER delivery-lane consumption record (BOARD_CONSUMPTION_SPEC §8.1 v0.2). Opened 2026-08-28. Append-only; one row per signal consumed. Pre-ledger signals are enumerated in its header comment and deliberately NOT back-filled with reconstructed dispositions. |
 | `sources/` | Research corpus, briefings. |
+| `cot_gold.py` · `grade_cot3.py` · `settle_check.py` · `grade_midas07.py` | COT puller + three ONE-SHOT graders bound to closed questions. Only `cot_gold.py` is boot-wired (leg 3); the other three are on-demand **by design** — see `boot.py`'s docstring for why. |
+| `sources/cot_vintages_consumed.tsv` | Which gold COT vintages this desk has **read and written into a surface** — the reference boot leg 3 grades freshness against. Append-only, one row per vintage consumed. A row means READ, not merely published. |
+| `sources/cot_gold_history_2010_2026.tsv` | **FROZEN reference distribution** (n=868 levels / 867 WoW deltas, 2010-01-05 → 2026-08-18), frozen 2026-08-28 BEFORE the vintage-#3 print so it cannot be re-fit after a release. Never re-fit it; add a new frozen file if a new window is ever needed. |
 | `sources/SOURCES.md` | Data-access register — per-source access method, cadence, and documented walls (FRED/yfinance/westmetall/CFTC/WGC/FedReg/NBS/PBoC) + the raw-pull golden rule. |
 
 ---
