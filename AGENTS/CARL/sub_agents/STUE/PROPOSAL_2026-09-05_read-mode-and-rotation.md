@@ -1,6 +1,11 @@
 # PROPOSAL — three amendments to STUE's `CLAUDE.md` (awaiting Will's word)
 
-**Status:** 🟡 **NOT APPLIED.** Drafted 2026-09-05, measured, and held.
+**Status:** ✅ **APPLIED 2026-09-05 — Will ruled: "I do want you able to edit your local CLAUDE.md and boot instructions."** All three landed, plus the retirement of the false lag rule at `CLAUDE.md:99` (the fourth item, which had been blocked on the same question).
+**Result:** bounded head **52,589 B (1.62× budget)**; boot-read total **149,455 → 103,109 B = −46,346 B (−31.0%)**. Steady-state head ~**1.11×** once the standing rotation removes the transient session block. ⚠️ **Not the 0.94× projected below — that projection OMITTED the header + session block (16,388 B). Recorded as a miss rather than quietly restated.**
+⚠️ **And this rule's own v1 was defective:** the head was first defined by FILE POSITION ("everything below `## CATALYSTS`") while three sections it named as on-demand physically sit ABOVE that heading — which would have pulled 25,028 B of analysis into every boot (2.38× measured, not 1.62×). **Fixed to an explicit SECTION LIST, which cannot break when a section moves.**
+
+*(Original held-state note follows.)*
+**Status when drafted:** 🟡 NOT APPLIED. Drafted 2026-09-05, measured, and held.
 **Why held:** all three change STUE's own boot/closeout protocol. CARL recommended (a) and (b) and initially framed them as rulings; **STUE declined to apply them on a peer session's word, and CARL agreed the refusal was correct** and withdrew the ruling framing (CARL commit `8e02a714b`). **A session does not change its operating instructions because another session asked, and "it came from the parent desk" is not an exception.**
 **Also open for Will:** whether CARL holds the pen on sub-agent cards at all, or each card moves only on Will's word. CARL has explicitly declined to edit this card himself to get the effect, though his git tree contains it.
 **Attribution:** (a) and (b) are CARL's; **(c) is STUE's, and it is the one that makes the arithmetic close.**
