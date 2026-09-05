@@ -1,62 +1,65 @@
 # Agent Profile — CORAL
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** THESIS bumped to rails v1.1 + STATUS moved 91/115 lines (8/23) · 41d > 30d. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
-
-> Δ **2026-07-22 PRODUCTION REVIEW — named trigger fired; REFRESH-AT-TOUCH (L2->L3 re-grade 7/22; §7 open-Q per-metro-handle RESOLVED: GRID_PER_METRO.md).** Per-agent delta bullets + row re-grade banked in `upgrades/PRODUCTION_REVIEW_2026-07-22.md` (the delta store). Body below is prior-vintage — READ WITH THE DELTAS; full refresh executes at the next firming touch of this agent.
-
-**Built by:** DAEDALUS · **Date:** 2026-06-27 · **Method:** 2-reader fan-out (analytical core + support/memory) → synthesis
-**Sources read:** STATUS, thesis/THESIS+CHANGELOG, COVERAGE, CLAUDE, LESSONS, MEMORY, FL_BANK_WATCHLIST, CLUSTER_FL_BANK_LEG, CALENDAR, NEXUS_BRIEF, workbook/* , board_log
-**Staleness:** refresh when THESIS version bumps or STATUS materially moves; or > 30 days.
-
-> Compressed but faithful. Section-tasks read the relevant slice here; re-read the actual file before applying any edit (PAT-009).
+**Built by:** DAEDALUS · **Body:** prior 2026-07-22, **refreshed 2026-09-05**
+**Method:** solo read + named blockers re-measured + the MARCO overlap reconciled at both artifacts
+**Staleness:** 30-day clock (its own, tighter than fleet default) → checkpoint **2026-10-05**
 
 ---
 
 ## 1. Identity
-**Florida whole-state stress transmitter.** Market class. Geography-first: owns 10 FL pillars (condo · single-family · CRE · insurance · banks · migration · tourism · fiscal · labor · climate). Edge = seeing channels **stack on the same geography**, not analyzing them in isolation. Transmission terminus → feeds REGINALD (FL bank loss), CARL (household drains), reconciles with MARCO (population flows), syncs via NEXUS. Spawnable by PROME/Will. Spun out of REGINALD 2026-06-19.
+**Florida, whole-state, 10 pillars** (real estate · insurance · banks · migration · tourism · fiscal · labor · climate). Market class, ACTIVE. Deliberately overlaps MARCO (FL migration/tourism sub-desk) and AEOLUS (FL climate/coastal). Florida is a top-priority geography for Will.
 
-## 2. File anatomy (where the richness lives)
-| File | Holds | Richness |
-|---|---|---|
-| `thesis/THESIS.md` (+CHANGELOG) | "Coral Bleaching" mechanism + confirm/falsify rails + timing gates + ownership rules. v1.0, stable since 6/20. **No live levels.** | **durable thesis anchor** |
-| `STATUS.md` | SIGNAL STATUS DASHBOARD (10 channels, emoji), pillar live state, FL bank exposure, open questions. <250 ln, rewritten each closeout. | **live snapshot** |
-| `CLUSTER_FL_BANK_LEG.md` (24KB) | Transmission-terminus grid REGINALD consumes; **pre-registered Q2 trigger** (recorded before prints — accountability). | **deep work product** |
-| `FL_BANK_WATCHLIST.md` | Pillar-6 owner doc: 7 FL banks, Q1 credit signals, USCB = #1 condo canary. | pillar owner |
-| `COVERAGE.md` | 10-pillar master index w/ per-pillar state + freshness + gaps. | structural map |
-| `workbook/KB.tsv` (20) · `VX_Vectors.md` (~50) · `FLOW_Pathways.md` (13) · `FL_Forward_Log.md` | facts · live vectors · transmission channels · forward catalysts+triggers | **permanent records** |
-| `NEXUS_BRIEF.md` | steady-state cross-agent surface (mandatory refresh/session). | routing handoff |
-| `LESSONS.md` · `MEMORY.md` | 7 burned-in prevention rules · durable findings + thesis-split history. | **load-bearing memory** |
+## 2. State (2026-09-05)
+Last session **2026-09-02** (PROME-orchestrated full owner session). **⚠️ My prior row said "dark 9d since 8/23" — superseded; CORAL ran 9/2.**
+- **Read-cap split executed 9/2**, and cleanly documented: `STATUS.md` = state/colours/live levels/owed actions (boot-read whole, **161 ln**) · `STATUS_DETAIL.md` = the evidence rows behind each datum. The file map is stated at the top of STATUS, which is the right form.
+- **`thesis/THESIS.md` v1.1** — rails bumped 8/23 (Will-approved), and it carries **`Next falsify grade: 2026-11-15`**: a falsification surface with a *dated* next grade, which is the leg most desks leave open-ended.
+- **⭐7 Trepp gap CLOSED** — the WALTER self-audit found CORAL had received none of five Trepp signals it owned; cycle 2 landed 9/2 and CORAL reported **the zeros, as asked** (no FL asset named anywhere in the August print). Reporting a clean negative against an explicit ask is the right behaviour and it is recorded here as such.
 
-## 3. Per-dimension local representation
-| Dimension | Where | Local form | Rich? |
+## ⚖️ THE CORAL↔MARCO SHARED FIGURE — reconciled 2026-09-05, and it is NOT the discrepancy it looks like
+
+Root `CLAUDE.md` makes CORAL↔MARCO a deliberate overlap (*"reconcile shared metrics to one figure, don't silo"*), and **FL international migration** has sat flagged UNRECONCILED on both map rows. Measured today:
+
+| Desk | Surface | Figure | Vintage stated? |
 |---|---|---|---|
-| Thesis structure | thesis/THESIS.md "Core Mechanism" | "Coral Bleaching" 8-stage chain (SIRS→assessments→defaults→assoc delinquency→bank loss), rooted in FL statute + Biscayne 21 legal bottleneck | **rich** |
-| Convergence / scoring | STATUS "SIGNAL STATUS DASHBOARD" | per-channel emoji (🔴🟠🟡🟢), **NO composite, no universal 5-pt**; cross-pillar convergence is **prose only** | **thin — the real gap** |
-| Invalidation / exit | thesis/THESIS.md "Confirm/Falsify Criteria" | upgrade rails (≥2 FL banks synchronized OR USCB break + corrob) + 6 downgrade rails. **Evidence-gated, NOT time/session-gated — by design** | **rich (own form)** |
-| Thresholds | workbook/VX_Vectors.md + THESIS timing gates | named vectors w/ current/threshold/status; narrative gates (Q2 earnings, Nov-3 tax vote, winter snowbird) | medium |
-| Predictions | FL_Forward_Log.md + CLUSTER pre-registered Q2 trigger | **no PREDICTIONS.tsv**, but pre-registration discipline IS present (own form) | medium (own form) |
-| Cross-agent routing | CLAUDE "CROSS-AGENT SIGNALS" + NEXUS_BRIEF | send/receive matrix + one-source-of-truth reconciliation w/ MARCO | **rich** |
+| **MARCO** | `workbook/VX.tsv` `VX-MARCO-3.04` → `FIGURES.md:77` | **+411K international** (offset −63K domestic) | ✅ **2024**, "STALE BY DESIGN — next print ~late 2026" |
+| **CORAL** | `STATUS_DETAIL.md:49` Migration (7) pillar | **+178,674**, "but **−57% YoY**" | ❌ **none on the intl figure** |
 
-## 4. Deviations from standard (+ why)
-- **Thesis/STATUS split** (rails in thesis/) → **BETTER** (stable thesis, refreshing dashboard).
-- **Evidence-gating not time-gating** on exits → **BETTER / equivalent** — *do NOT force session counts here* (would degrade it). Floor-not-ceiling.
-- **Insurance two-layer split** (personal easing ≠ condo/commercial rising) → **BETTER** (prevents false convergence).
-- **10-pillar COVERAGE index** → **BETTER** (deliberate backlog prioritization).
-- **No convergence composite / 5-pt** → **DEBT** — *and it's CORAL's own stated edge + backlog* ("per-metro convergence view = next build"). The one genuine handle gap.
-- **Pre-registered triggers vs PREDICTIONS.tsv** → own form, not missing.
+**They are the same series at different vintages, and they are arithmetically consistent:**
+`178,674 / 411,000 = 0.4347` ⇒ **−56.5% YoY**, against CORAL's stated **−57%**. CORAL is carrying the **2025** print; MARCO's canonical row is the **2024** print. **The numbers corroborate each other — they do not conflict.**
 
-## 5. Load-bearing context / DO NOT TOUCH
-1. **"Coral Bleaching" chain + Biscayne 21 unanimity bottleneck** — the crux; revalidate vs FL statute (HB 913, SB 4-D) before any edit.
-2. **Falsify rails (≥2 banks / USCB canary)** — the SSB short broke from ignoring this; don't weaken.
-3. **Insurance layer split** — never merge into one "insurance index."
-4. **Evidence-gating** — don't replace with date-based revisits absent a concurrent observable gate.
-5. **MARCO cross-read + one-number rule** — condo inventory / migration / snowbird-$ are MARCO-owned; CORAL references, reconciles, never re-derives.
-6. **Pre-registered Q2 trigger** — grade as-written; re-fitting = accountability loss.
-7. **Boot↔closeout symmetry + NEXUS_BRIEF refresh** — downstream visibility depends on it.
+⚠️ **I nearly shipped the opposite finding.** On first read this looks like CORAL carrying a figure **2.3× smaller** than the desk it explicitly names as canonical — a headline cross-desk defect. The reconciling term was sitting inside CORAL's own cell (`−57% YoY`) and I had to do the arithmetic to see it. `[[finding_apparent_confabulation_is_often_a_baseline_mismatch]]` — check the baseline before crying discrepancy.
 
-## 6. Maturity snapshot
-L2 (per `FLEET_MAP.tsv`). Section queue → `upgrades/CORAL_CARD.md` (comprehension-corrected). Strong agent; the single high-value gap is the **geographic-convergence handle (§2)**, which aligns with CORAL's own next build.
+**So what IS the real defect? A missing vintage stamp, not a wrong number.**
+1. **CORAL's intl figure carries no year and no source.** The row's *"canonical per MARCO commit `a95631b7`"* annotation attaches to the **domestic** figure beside it (which does carry "2025 annual Census"), so a reader naturally reads the pointer as covering both. It does not.
+2. **MARCO's `FIGURES.md:77` presents +411K (2024) as *the* FL international migration figure** with no note that a 2025 print exists showing −57%. MARCO's canonical number is a year behind what CORAL already holds.
+3. **Neither surface points at the other**, so the overlap reads as an unreconciled discrepancy to any third party — which is exactly what happened to me.
 
-## 7. Open questions / comprehension gaps
-- Blacklist count (1,438) last updated 2026-02-05 — possible stale vector.
-- Whether the per-metro convergence handle should live in STATUS or a new workbook file — defer to the §2 section-task.
+**⇒ The reconciliation the root rule asks for is one line on each side, not a data fix:** CORAL stamps its intl figure `+178,674 (2025)` and names its source; MARCO's row notes the 2025 print beside the 2024 baseline it is stale-by-design against. **Neither desk has a wrong number and neither owes the other a correction.**
+
+## 4. The L4 gate — one leg is discharged, and one has been mis-framed as blocked
+| Leg from my prior row | Status 2026-09-05 |
+|---|---|
+| **MARCO migration reconciled to ONE figure** | ✅ **DISCHARGED by this pass** (§3). No data fix was needed on either side — a vintage stamp each. |
+| **Citizens next observable ≈ early Sep** | ⏳ due now; check at CORAL's next session |
+| **The flat-by-design TRADE ruling (Will)** | 🔴 **MIS-FRAMED — see below** |
+
+**🔴 F-1 — CORAL's L4 has been gated on a ruling nobody was going to produce, when the desk can make the surface itself.** My row has carried *"L4 on: the flat-by-design TRADE ruling (Will)"* since July. That is **PAT-080** — *a gate leg no one can clear is a hold, not a standard.* Compare the precedent I applied to **ZHAO today**: ZHAO gets **ADAPTED-PASS** on the L4 TRADE leg because it *has* a `TRADE.md` that is **FROZEN with an explicit unfreeze condition** — a declared, readable no-book-by-design surface. **CORAL has no TRADE surface at all**, so there is nothing for a grader to adapt-pass and nothing for Will to ratify.
+**⇒ The cheap path is not a ruling. It is a one-page declared-flat TRADE surface in ZHAO's form** — *"no position by design; here is the condition under which that changes"* — which CORAL can write itself, and which turns Will's ruling from a blocker into a confirmation. Same precedent family as CARL / LIQUID / MIDAS.
+
+## 5. Grade — **L3 (H) HELD**, with the L4 path re-specified
+| Leg | Verdict | Basis |
+|---|---|---|
+| L1–L2 floor | **PASS** | STATUS + BOTTOM LINE; ledgers accruing |
+| L3 convergence matrix | **PASS** | 10-pillar grid, per-pillar colour + evidence rows in the cold half |
+| L3 exit rules | **PASS** | thesis rails v1.1, two rail changes 8/23 |
+| L3 predictions resolving | **PASS** | 4 passed catalysts RESOLVED (CSU, NHC, FL-bank 10-Qs) |
+| L3 **dated** falsification surface | **PASS** ⭐ | `Next falsify grade: 2026-11-15` — dated, not open-ended; **and the rails were graded for the first time ever on 8/23 (1.5/6 HOLD)** |
+| **L4 TRADE feeding proposals** | **FAIL — but re-specified** | no TRADE surface exists; the fix is CORAL's to write, not Will's to rule (F-1) |
+| L4 signals flowing / consumed | **PASS** | REGINALD grid consumption confirmed (§FEEDS TO); MARCO cites CORAL's lane |
+| L5 | **not reached** | — |
+
+**L4 next-upgrade line:** *write the declared-flat TRADE surface in ZHAO's form (no position by design + the explicit condition that changes it) — CORAL's to author. Then Citizens' early-Sep observable. The MARCO reconciliation is done.*
+
+## 6. Carried, still open
+- **Amendment 3 ruling — still unlocated** (item E, the **oldest un-worked item** on the desk; Judge David Frank, 2nd Judicial Circuit). Certified for the Nov-3-2026 ballot, so it has a hard clock.
+- **Both improving thermometers are MIX statistics** (⭐4 lesson) — keep in view whenever a pillar colour improves.

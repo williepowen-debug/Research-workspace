@@ -1,35 +1,69 @@
-# MARCO — DAEDALUS Comprehension Profile
+# Agent Profile — MARCO
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** 51d > 45d · body 7/10 (VX-MARCO-3.03 leg not adjudicated). Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
-**Built:** 2026-07-10 (firming read, single full-core reader) · **Grade at build:** L4 Conf-H (was L2 Conf-L — 2-level under-rate, PAT-024 #7) · **Class:** Market (FL-economy specialist; CORAL shares FL, one-figure rule) · **Staleness:** refresh when VX-MARCO-3.03 adjudicates (BofA Tier-1) or >45d
+**Built by:** DAEDALUS · **Body:** prior 2026-07-10, **refreshed 2026-09-05** (state + gates re-cut; durable structural knowledge carried)
+**Method:** solo read + each named L5 handle re-measured individually + the CORAL overlap reconciled at both artifacts
+**Staleness:** >45d → checkpoint **2026-10-20**
 
-## Identity in one line
-Florida-economy agent (visitor flows, workforce/migration supply-shock, housing) — **a blueprint DONOR**: market-agent §6 routing + §7 disciplines were sourced FROM MARCO (mechanism-vs-thermometer, EXPECTED_SIGNALS). Never conform its local forms toward the template; the template points at them.
+---
 
-## File anatomy (where the richness lives)
-| Cluster | Files | State |
+## 1. Identity
+**Florida migration / tourism** — Market class, ACTIVE. The FL sub-desk, deliberately overlapping CORAL (whole-state, 10 pillars). Florida is a top-priority geography for Will. **Spawnable by:** PROME / Will.
+
+## 2. State (2026-09-05)
+Last session **2026-09-03** (s25) — *"went to correct three Canada figures and came back having read the Section…"*. STATUS **171 ln**. Substance is strong and unchanged in character: **57-vector VX**, 1,928 probe values re-graded, a self-caught parser twin bug. Rich supporting layer — `FIGURES.md`, `COUPLINGS.md`, `FINDINGS.md`, `DEFERRED.md`, `EXPECTED_SIGNALS.md`, `baselines/`, `sub_agents/`, `handoffs/`, `thesis/PREDICTIONS.tsv` + `scripts/predictions_due.py`.
+
+**⚠️ My prior row said "Dark 10d (8/22)" — false; MARCO ran 9/3.**
+
+## 3. The three named L5 handles — re-measured, and **one of them was never a gate**
+| # | Handle | Measured 2026-09-05 | Verdict |
+|---|---|---|---|
+| 1 | **Labeled BOTTOM LINE** | **0** matches for a labeled heading; the substance sits unlabeled at `Composite :80` / `NET :27` / `Net :146` | **LEGITIMATE GATE — L1 floor** ("Live = STATUS + BOTTOM LINE"). Still unmet. One heading. |
+| 2 | **§2 universal 5-pt + Independence handles** | **0** hits in STATUS or VX | **LEGITIMATE — market-blueprint §2 handle.** Still unmet; additive over existing substance, never a replacement. |
+| 3 | ~~PREDICTIONS_ARCHIVE / calibration scoreboard~~ | `thesis/PREDICTIONS.tsv` + `predictions_due.py` exist; no archive | 🔴 **STRUCK — this was never a ladder leg.** Market L5 is *clean closeouts · zero YEYOU flags · current*; L3 asks only that **predictions resolve**, which MARCO's ledger does. I appended a row-local expectation and then graded MARCO against it as if it were a gate. |
+
+**Third instance of that defect today** — the same append-a-nice-to-have-then-grade-it error appeared on ORACLE (Brier) and ZHAO (archive/scoreboard). See `EVOLUTION.md` (n).
+
+## ⚖️ THE CORAL↔MARCO SHARED FIGURE — reconciled 2026-09-05, and it is NOT the discrepancy it looks like
+
+Root `CLAUDE.md` makes CORAL↔MARCO a deliberate overlap (*"reconcile shared metrics to one figure, don't silo"*), and **FL international migration** has sat flagged UNRECONCILED on both map rows. Measured today:
+
+| Desk | Surface | Figure | Vintage stated? |
+|---|---|---|---|
+| **MARCO** | `workbook/VX.tsv` `VX-MARCO-3.04` → `FIGURES.md:77` | **+411K international** (offset −63K domestic) | ✅ **2024**, "STALE BY DESIGN — next print ~late 2026" |
+| **CORAL** | `STATUS_DETAIL.md:49` Migration (7) pillar | **+178,674**, "but **−57% YoY**" | ❌ **none on the intl figure** |
+
+**They are the same series at different vintages, and they are arithmetically consistent:**
+`178,674 / 411,000 = 0.4347` ⇒ **−56.5% YoY**, against CORAL's stated **−57%**. CORAL is carrying the **2025** print; MARCO's canonical row is the **2024** print. **The numbers corroborate each other — they do not conflict.**
+
+⚠️ **I nearly shipped the opposite finding.** On first read this looks like CORAL carrying a figure **2.3× smaller** than the desk it explicitly names as canonical — a headline cross-desk defect. The reconciling term was sitting inside CORAL's own cell (`−57% YoY`) and I had to do the arithmetic to see it. `[[finding_apparent_confabulation_is_often_a_baseline_mismatch]]` — check the baseline before crying discrepancy.
+
+**So what IS the real defect? A missing vintage stamp, not a wrong number.**
+1. **CORAL's intl figure carries no year and no source.** The row's *"canonical per MARCO commit `a95631b7`"* annotation attaches to the **domestic** figure beside it (which does carry "2025 annual Census"), so a reader naturally reads the pointer as covering both. It does not.
+2. **MARCO's `FIGURES.md:77` presents +411K (2024) as *the* FL international migration figure** with no note that a 2025 print exists showing −57%. MARCO's canonical number is a year behind what CORAL already holds.
+3. **Neither surface points at the other**, so the overlap reads as an unreconciled discrepancy to any third party — which is exactly what happened to me.
+
+**⇒ The reconciliation the root rule asks for is one line on each side, not a data fix:** CORAL stamps its intl figure `+178,674 (2025)` and names its source; MARCO's row notes the 2025 print beside the 2024 baseline it is stale-by-design against. **Neither desk has a wrong number and neither owes the other a correction.**
+
+## 5. Grade — **L4 (H) HELD**
+| Leg | Verdict | Basis |
 |---|---|---|
-| Core state | `STATUS.md` (234 ln, stacked READ-FIRST blocks 7/9→5/31 = layered-correction idiom, don't flatten) · `SCRATCH.md` (canonical handoff) · `MEMORY.md` (characteristic-error log — **best entry point for any section-task**) | LIVE, fresh |
-| Thesis | `thesis/THESIS.md` **v2.6** (5 channels, per-channel conviction, channel-kill vs thesis-kill, counter-signals→RED) + `CHANGELOG.md` (v1.0→v2.6 conviction-delta tables) + `PREDICTIONS.tsv` (17 rows, 9 resolved w/ mechanism-vs-threshold post-mortems in Notes) + `TIMELINE.md` | LIVE |
-| Workbook | `VX.tsv` **57 banded vectors** (NORMAL/ELEVATED/CRITICAL/BREACHED + Conf + Trend + per-row dates) · `KB.tsv` (81 rows, accruing) · `ML.tsv` (FROZEN-by-doc, **no in-file banner**) · `FLOW.tsv` (12 cascades) · `MIGRATION_PROXIES.tsv` (DAEDALUS-built 7/10, direction-tells framing rule in header) | LIVE |
-| Instrumentation | `scripts/boot.py` (catalyst countdown + predictions/ES due-scan w/ free-text Q/H/FY parser + STATUS/VX staleness; cadence-skipped fetchers) · `tools/` (banxico/h2a/slaughter/fl_migration_proxies) | LIVE, cwd-proof (CLAUDE.md:26) |
-| Ops | `docket/CATALYSTS.tsv` (11 rows) + `CALENDAR.md` twin · `EXPECTED_SIGNALS.md` (ES-01..09, APPEARED/DID_NOT_APPEAR/PARTIAL) · `MAINTENANCE.md` (impact-ranked punchlist) · `NEXUS_BRIEF.md` (R3+amd7, commit-hash stamped) | LIVE |
-| Frozen | `sub_agents/` (BORDER/HOUSING/MIGRATION/WORKFORCE FROZEN-bannered 7/2; TOURISM shelved) · `TRADE.md` (Feb-vintage, ⚠️-bannered L3 — compliant; "produces series, not instruments") · `MARCO_SKELETON.md`/RP-docs/`research/` (labeled historical) | clean |
+| L1 STATUS + **labeled** BOTTOM LINE | **FAIL** | substance present, label absent — the one true floor gap |
+| L2 structured record accruing | **PASS** | VX 57 vectors, KB, FLOW, ML (in-file FROZEN banner :1), MIGRATION_PROXIES |
+| L3 convergence matrix | **PASS** | 57-vector VX with graded probes; §2 *handles* absent (row 2 above) |
+| L3 exit rules | **PASS** | present in local form |
+| L3 predictions resolving | **PASS** | `thesis/PREDICTIONS.tsv` + a working due-check |
+| L3 dated falsification surface | **PASS** | thesis layer |
+| L4 signals flowing / consumed | **PASS** | CORAL cites MARCO as canonical by commit hash; handoffs/ + NEXUS_BRIEF live |
+| L5 clean closeouts · current | **PASS** | s24 8/22, s25 9/3 |
+| L5 zero YEYOU flags | **WAIVED** | no live feed (see `profiles/YEYOU.md`) |
 
-## Per-dimension local form (vs market blueprint)
-- **§1 EXCEEDS** — versioned thesis w/ channel-splits *within* channels (Ch1 mechanism-vs-thermometer; Ch2 structural-vs-base-effect); model self-correction discipline (the "2.2M CBO" provenance re-mark, THESIS:19).
-- **§2 substance EXCEEDS, handles MISSING** — convergence lives in VX.tsv 57 vectors + STATUS Composite line (:97); no 5-pt Score / Independence / arithmetic composite.
-- **§3 MEETS+** — durable bands (VX cols + CLAUDE KEY THRESHOLDS :186-194) vs live read (STATUS dashboard, src+date); conjunction triggers (THESIS:63,120).
-- **§4 MEETS** — v1.0 4-condition table honestly scored; sustain counts in **data-cadence units** ("3+ months", "3+ quarters", "$85 2+ wk") not sessions — equivalent, don't "fix."
-- **§5 substance EXCEEDS, archive MISSING** — resolution loop + failure-synthesis feed MEMORY's characteristic-error; no PREDICTIONS_ARCHIVE.md / calibration scoreboard (self-queued twice: SCRATCH:60, MEMORY:34).
-- **§6/§7 EXCEEDS — named blueprint source.**
-- **§8 handle MISSING** — no labeled BOTTOM LINE; "Net:" verdict lines (:19,35,49) + Composite (:97) are the unlabeled equivalents.
+**L5 next-upgrade line:** *two form changes over existing substance — a labeled BOTTOM LINE heading, and the §2 5-pt + Independence handles. Nothing else.* The list is shorter than it was because the third item was mine, not the ladder's.
 
-## DO-NOT-TOUCH
-1. Blueprint-donor forms (§6/§7) — template conforms to MARCO, not vice versa. 2. **2-yr-stack convention** (YoY = base-effect noise) baked into VX-1.01/TOUR-01/predictions. 3. **`scripts/ml_to_kb.py` = LEGACY WIPE RISK** (mode 'w' regen destroys hand-added KB rows — CLAUDE.md:225; never run). 4. PREDICTIONS.tsv 8-col rows positionally tolerated by `predictions_due.py` (Timeframe=field 4) — don't normalize without parser check (MAINTENANCE T1-D). 5. MIGRATION_PROXIES framing rule (direction tells only, never restate +22,517 canonical). 6. boot.py cadence-skip keys on `baselines/*.tsv` mtimes. 7. Closeout ordering: handoff surfaces LAST (MEMORY:29, twice-burned). 8. Stacked READ-FIRST STATUS blocks. 9. "Do NOT process inbox on normal spawns" (CLAUDE.md:47 — dedicated-spawn task). 10. MAR-xx/KB-/VX-/FLOW-/ES- ID schemas = stable cross-referenced APIs.
+## 6. Findings
+**🟡 F-1 — the shared-figure reconciliation above is MARCO's half too:** `FIGURES.md:77` presents **+411K (2024)** as *the* FL international migration figure with no note that a **2025** print exists showing −57%. One line closes it.
+**🟡 F-2 — my prior row carried "Dark 10d (8/22)"**; MARCO ran 9/3. Struck.
+**✅ Confirmed still true from the prior pass:** shared `ledger_staleness` IS wired (`scripts/boot.py:54` + rc contract) · `ML.tsv` HAS an in-file FROZEN banner (:1, 2026-08-11) · `VX.tsv` declares `STATE: LIVE` two-state at :1.
 
-## L4 consumption evidence (the grade leg)
-NEXUS `BRIEFS_MAP.md:17` consumes its brief · LABOR STATUS:47,57 defers supply-side to "MARCO's channel" by name · YEYOU CROSS_SILO:191 "MARCO→CARL/LABOR documented **and verified**" · PROME Tier-2 verify loop consumed+returned (SDL-01 → thesis v2.6) · live Tier-1 thread (BofA corroborator hunt) + MIGRATION_PROXIES now feeds it.
-
-## Owner-lane drift register (MARCO's to fix — routed via card)
-STATUS:231 cites "v2.0" (actual v2.6) · STATUS:234 points at nonexistent `domain/sources/_archive/` · predictions mirror-drift (STATUS #11 75% vs tsv 88%; #14 74% vs 55%) · MEMORY:9 genesis still "2.2M self-deportation" (contradicts its own L15 lesson) · ML.tsv no in-file FROZEN banner; FLOW.tsv outside staleness scope; shared `ledger_staleness.py` unwired (own staleness.py covers STATUS+VX only) · Nov-3 property-tax amendment not yet in docket (self-flagged SCRATCH:58).
+## 7. Open
+- Citizens STATUS-vs-VX vintage split — still UNVERIFIED, still owed a confirm-read.
+- The docket-default-inversion lesson (a proclamation re-setting the effective date in its own operative text) → PROME/DOCKET. Still live.

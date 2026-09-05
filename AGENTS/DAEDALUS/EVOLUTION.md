@@ -81,6 +81,25 @@
 **Also this session:** HANS + ORACLE profiles rewritten whole (both bodies predated a desk rebuild); ORACLE's second owed item — the three-window vocabulary (close-vs-intraday · eligibility window · one-sided vs two-sided), earned from T6 walking PROME into measuring the wrong window — registered as a `CHECK_STANDARD`/`STATE_VOCABULARY` candidate, not yet drafted.
 **Self-row:** L5 unchanged; no ladder leg moved.
 
+### 2026-09-05 (n) — I have been appending nice-to-haves to Next_upgrade cells and then grading agents against them as gates (n=3 in one batch)
+**Found by doing seven profile refreshes back to back**, which put the ladder legs in front of me seven times in one sitting. Three desks were carrying an L-gate that **is not in any blueprint's ladder**:
+
+| Desk | The invented gate | What the ladder actually says |
+|---|---|---|
+| **ORACLE** | "L5 on the Brier scoreboard" | Utility L5 = clean closeouts · zero YEYOU flags · current. The Brier scoreboard is a per-role **Calibration loop** (`utility-agent.md:53`) that **no L-leg reads** — see (m) |
+| **ZHAO** | "L4 on … archive/scoreboard" | Market L4 = TRADE feeding proposals · signals flowing. A `PREDICTIONS_ARCHIVE` appears in neither L3 nor L4 |
+| **MARCO** | "L5 on … PREDICTIONS_ARCHIVE + calibration scoreboard" | Same. L3 asks that predictions **resolve**, which MARCO's ledger does |
+
+**The mechanism, and it is not carelessness.** A `Next_upgrade` cell is free text sitting immediately beside a graded level. Everything written there **inherits the authority of the grade** whether or not it came from a blueprint. So a reasonable observation — *"this desk would be better with a calibration scoreboard"* — becomes, on the next read, a requirement the desk is failing. **I then grade against my own prior cell rather than against the blueprint**, and the invented leg is indistinguishable from a real one because both are in the same cell in the same voice. Every instance here was a *good idea*; none was a *standard*.
+
+**Consequences observed:** ORACLE's L5 line was keyed to a leg the ladder does not contain **for 68 days**; ZHAO's promotion to L4 was gated behind an artifact no blueprint requires; MARCO's L5 list was 3 items when it is 2. **PAT-080 is the sibling** (*a gate leg no one can clear is a hold, not a standard*) — and CORAL is the fourth instance in a different key: its L4 was gated on a **Will ruling** when the desk could simply author the surface itself, which is the same error with an external party standing in for the invented requirement.
+
+**Fix adopted now, no approval needed (it constrains only my own writing):** **a `Next_upgrade` cell states ladder legs and blueprint handles ONLY. Anything else is written as a suggestion and labelled as one** — "nice-to-have, not a gate." Where a genuinely useful expectation is not in the ladder, that is an argument to change the ladder (which is Will's, per (m)), never to enforce it desk-by-desk from a map cell.
+**Retroactive sweep owed:** this batch fixed the three it found. The other ~33 rows have not been audited for invented legs — **registered as a wiring-sweep-#2 leg (9/14)**, because a ruling governs the next write and touches nothing already on disk.
+
+**Also this session:** HANS · ORACLE · YEYOU · OTTO · ZHAO · MARCO · CORAL refreshed (the whole 9/15 batch, ten days early); **ZHAO promoted L3→L4**; **PAT-148** minted (a stale prohibition inverts into the harm it prevents); **PAT-055** extended to n=2 at ~3 days on the byte axis; the **CORAL↔MARCO** shared-figure overlap reconciled — same series, different vintages, arithmetically consistent, and I nearly shipped the opposite finding.
+**Self-row:** L5 unchanged; no ladder leg moved.
+
 *(**Entries 2026-08-28 (d)–(g) rotated verbatim 2026-09-04** → `archive/EVOLUTION_ARCHIVE_2026-09.md` **block 2**, crc32 `2545191367`, 6855 B, round-trip verified from the written file — this file had reached 89% of the 32,550 B budget after entry (n); rotation, never deletion: every ruling in it stands and is citable from the archive.)*
 
 *(Older entries — 2026-08-23 through 2026-08-26, incl. the byte-budget derivation (b) and the boot-spine repair (c) — rotated verbatim 2026-09-03 → `archive/EVOLUTION_ARCHIVE_2026-09.md` block 1, crc32 1967475117. Jun–Aug-20 entries → `archive/EVOLUTION_ARCHIVE_2026-08.md`, CLOSED.)*

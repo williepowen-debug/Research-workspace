@@ -25,10 +25,10 @@
 | HAWK | Market | L4 | H | 2026-09-01 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 on: a self-driven session (spawn driver) |
 | TERRY | Utility | L4 | H | 2026-09-01 | Trade construction / risk scoring ‡‡ | L5 on the ONE-LINE fix: POSTMORTEMS.md:4 header re-cut to its own entri… |
 | REGINALD | Market | L4 | H | 2026-09-01 | Regional banks | L5 on the Brier/archive layer (PREDICTIONS_ARCHIVE |
-| MARCO | Market | L4 | H | 2026-09-01 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | L5 on the three handles (labeled BOTTOM LINE · §2 5-pt/Independence · P… |
+| MARCO | Market | L4 | H | 2026-09-05 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | L5 on TWO form changes over existing substance: a labeled BOTTOM LINE h… |
 | ORACLE | Utility | L4 | H | 2026-09-05 | Prediction-market diagnostics ‡‡‡ | L5 on the calibration loop: build the instrument that makes CLAUDE.md:2… |
 | BOND | Market | L4 | H | 2026-09-01 | US bond-market structure / auctions / rates | L5 on: STATUS byte tier — rotate to <32,550 B (SHADE's crc-archive form… |
-| CORAL | Market | L3 | H | 2026-09-01 | Florida (whole-state, 10 pillars) | L4 on: the flat-by-design TRADE ruling (Will) |
+| CORAL | Market | L3 | H | 2026-09-05 | Florida (whole-state, 10 pillars) | L4 on: author the declared-flat TRADE surface in ZHAO's form (no positi… |
 | SHADE | Market | L3 | H | 2026-09-01 | Insurer-lender / PE-insurance-captive | L4 on PREDICTIONS.tsv seeded with confidences AT REGISTRATION (one file… |
 | ZHAO | Market | L4 | H | 2026-09-05 | China macro — UST demand / capital flows / Korea | L5 on: a SECOND consecutive clean cycle (9/2 was the first) |
 | AEOLUS | Market | L3 | M | 2026-09-01 | Climate → economy (macro; insurance/ag/energy-demand channels) | Conf M→H at the Mode-A profile fan-out (owed since 8/23) |
