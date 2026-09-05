@@ -1006,6 +1006,21 @@ def open_inbox_packets() -> list[tuple[str, str, int | None]]:
     return out
 
 
+def advisory_red_count(pk: list[tuple[str, str, int | None]]) -> int:
+    """How many section-I rows print 🔴 — i.e. are DRAIN FAILURES, not late mail.
+
+    Feeds the verdict line's perimeter clause (DAEDALUS F-1, 2026-09-05). It must
+    count EXACTLY what the section prints in red, or the summary and the body
+    disagree again in the other direction — which is the same defect, mirrored.
+
+    Only `age >= 1` is 🔴: those SURVIVED at least one boot report. An `age == 0`
+    packet landed after today's drain and a `None` age is UNCOMMITTED/in flight or
+    an unparseable date — none of those is a drain failure, and counting them would
+    train the reader to ignore the clause, which is how an advisory dies.
+    """
+    return sum(1 for _rel, _when, age in pk if age is not None and age >= 1)
+
+
 def recent_diff(since: str) -> str:
     try:
         return subprocess.run(
@@ -1302,6 +1317,19 @@ def selftest() -> int:
     ok("I: an uncommitted packet is labelled UNCOMMITTED, never given a fake age",
        _lab and all(w == "UNCOMMITTED" for w in _lab))
 
+    # ---- verdict perimeter clause (DAEDALUS F-1, 2026-09-05)
+    ok("F-1: only age>=1 counts as an advisory 🔴 — a drain failure, not late mail",
+       advisory_red_count([("a", "2026-09-04", 1), ("b", "2026-09-03", 2)]) == 2)
+    ok("F-1: an age-0 packet landed AFTER the drain and is NOT a 🔴",
+       advisory_red_count([("a", "2026-09-05", 0)]) == 0)
+    ok("F-1: UNCOMMITTED/unparseable (age None) is in flight, NOT a 🔴",
+       advisory_red_count([("a", "UNCOMMITTED", None)]) == 0)
+    ok("F-1: mixed section I counts only the red rows",
+       advisory_red_count([("a", "2026-09-04", 1), ("b", "2026-09-05", 0),
+                           ("c", "UNCOMMITTED", None)]) == 1)
+    ok("F-1: a drained inbox adds no clause at all",
+       advisory_red_count([]) == 0)
+
     print(f"\n  {'SELFTEST PASS' if not fails else f'SELFTEST FAIL ({fails})'}")
     return 1 if fails else 0
 
@@ -1436,7 +1464,25 @@ def run_live(since: str) -> int:
         print("  ✓ 0 undrained (inbox/ + inbox/<AGENT>/, excl. WILL drop zone)")
 
     total = len(a) + len(b) + len(c) + len(d) + len(e) + len(f) + len(g) + len(h)
-    print(f"\n{'🔴 ' + str(total) + ' FINDING(S) — sweep before closeout' if total else '✅ CLEAN'}")
+
+    # ---- VERDICT NAMES ITS PERIMETER (DAEDALUS F-1, 2026-09-05)
+    # The verdict sums A–H only, which is CORRECT — check I is advisory by design
+    # (see its docstring: if I blocked, the cheapest remedy would be `git mv` to
+    # processed/ WITHOUT READING, manufacturing a false consumption record). The
+    # defect was the WORD: a bare `✅ CLEAN` printed directly beneath a section I
+    # holding two 🔴 DRAIN FAILURES, so a skim reader — or anything keyed to the
+    # last line — took CLEAN as the whole answer. On 2026-09-05 it did exactly
+    # that over two 9/4 PROME packets, one of them a dated grade due 9/11.
+    # ⛔ The fix is the perimeter, NOT promoting I to a blocker. Naming the
+    # scope of a PASS is the same discipline as
+    # `finding_instrument_reports_clean_against_the_wrong_reference`: a clean
+    # verdict that does not say what it covers is read as covering everything.
+    advisory = advisory_red_count(pk)
+    verdict = (f"🔴 {total} FINDING(S) (A–H) — sweep before closeout" if total
+               else "✅ CLEAN (A–H)")
+    if advisory:
+        verdict += f" · {advisory} advisory 🔴 in section I"
+    print(f"\n{verdict}")
     return 1 if total else 0
 
 
