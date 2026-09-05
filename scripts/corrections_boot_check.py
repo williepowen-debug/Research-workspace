@@ -92,13 +92,22 @@ def read_tsv(path, required, label):
         # header (FALSIFICATION_FIRED_LOG form; CORRECTIONS.tsv ships the same way) — skip
         # every '#' line, then DictReader sees the true header.
         text = "\n".join(l for l in path.read_text().splitlines() if not l.startswith("#"))
-        rows = list(csv.DictReader(io.StringIO(text), delimiter="\t"))
+        reader = csv.DictReader(io.StringIO(text), delimiter="\t")
+        rows = list(reader)
     except Exception as e:
         die2(f"{label} unparseable ({e}) at {path}")
-    if rows:
-        missing = [c for c in required if c not in rows[0]]
-        if missing:
-            die2(f"{label} header missing required column(s) {missing} at {path} — parse is by HEADER NAME")
+    # Validate the header INDEPENDENT of row count (Codex 2026-09-05, DAEDALUS scripts/ grant).
+    # The column check used to be gated on `if rows:`, so a register holding ONLY a header — a
+    # WRONG one, or none at all — skipped validation and returned rc=0 / "0 corrections": the
+    # check passed on empty, the exact class it exists to catch. `reader.fieldnames` is populated
+    # from the header line whether or not any data rows follow, so gate on the header, not the body.
+    header = reader.fieldnames
+    if header is None:
+        die2(f"{label} has no header at {path} — an empty/headerless file cannot be validated; "
+             f"parse is by HEADER NAME")
+    missing = [c for c in required if c not in header]
+    if missing:
+        die2(f"{label} header missing required column(s) {missing} at {path} — parse is by HEADER NAME")
     return rows
 
 
@@ -216,13 +225,54 @@ def cmd_coverage(root, reg_path):
     return 0
 
 
+def cmd_selftest():
+    """Guard-of-the-guard for the 2026-09-05 header-validation fix (CHECK_STANDARD §3: the
+    alert must fire on a capable case AND the clean line print on a clean case). Builds temp
+    register fixtures and asserts read_tsv validates the header INDEPENDENT of row count — the
+    exact defect (wrong/absent header + zero rows) that used to pass rc=0. Rerunnable, no real
+    files touched."""
+    import tempfile
+    header = "\t".join(REQUIRED_COLS)
+
+    def run_check(reg_text):
+        with tempfile.TemporaryDirectory() as td:
+            reg = Path(td) / "reg.tsv"
+            reg.write_text(reg_text)
+            rcpt = Path(td) / "absent.tsv"  # intentionally does not exist
+            try:
+                return cmd_check("DAEDALUS", reg, rcpt, date(2026, 9, 5))
+            except SystemExit as e:
+                return e.code
+
+    cases = [
+        ("capable: WRONG header, NO rows -> 2 (the defect Codex demonstrated)", "foo\tbar\tbaz\n", 2),
+        ("capable: NO header at all (empty file) -> 2", "", 2),
+        ("clean:   CORRECT header, NO rows -> 0 (valid empty register)", header + "\n", 0),
+        ("clean:   '#'-banner + CORRECT header, NO rows -> 0", "# banner\n" + header + "\n", 0),
+        ("regress: WRONG header WITH a data row -> still 2 (pre-existing path holds)", "foo\tbar\n1\t2\n", 2),
+    ]
+    ok = True
+    print("SELFTEST corrections_boot_check.py — header validation is row-count-independent:")
+    for label, txt, want in cases:
+        got = run_check(txt)
+        good = got == want
+        ok = ok and good
+        print(f"  {'PASS' if good else 'FAIL'}  {label}: rc={got} (want {want})")
+    print(f"SELFTEST {'0 PASS' if ok else '1 FAIL'}: {len(cases)}/{len(cases)} cases"
+          if ok else f"SELFTEST 1 FAIL")
+    return 0 if ok else 1
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("agent", nargs="?")
     p.add_argument("--receipt"); p.add_argument("--action"); p.add_argument("--note", default="")
     p.add_argument("--coverage", action="store_true")
+    p.add_argument("--selftest", action="store_true")
     p.add_argument("--register"); p.add_argument("--receipts"); p.add_argument("--today")
     a = p.parse_args()
+    if a.selftest:
+        sys.exit(cmd_selftest())
     reg = Path(a.register) if a.register else ROOT / "AGENTS/WALTER/registry/CORRECTIONS.tsv"
     if a.coverage:
         sys.exit(cmd_coverage(ROOT, reg))
