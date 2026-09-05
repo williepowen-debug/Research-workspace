@@ -106,5 +106,11 @@ if git merge-base --is-ancestor HEAD "$REMOTE/$BRANCH"; then
   exit 0
 fi
 echo "NOT PUSHED: HEAD $(git rev-parse --short HEAD) is NOT on $REMOTE/$BRANCH after the push (git push rc=$push_rc)."
-echo "  Do not read any 'Pushed.' above this line as a receipt. Recipe: git pull --rebase --autostash, then re-run."
+echo "  Do not read any 'Pushed.' above this line as a receipt."
+echo "  RECOVERY — run the DIRTY-PATH OVERLAP CHECK FIRST (root CLAUDE.md session-end step 3):"
+echo "    git fetch origin && git diff --name-only \"\$(git merge-base HEAD origin/master)..origin/master\""
+echo "    ...compare against: git status --porcelain"
+echo "  ANY overlap, or another agent mid-session with uncommitted work => STOP and flag PROME."
+echo "  ⛔ 'git pull --rebase --autostash' STASHES THE WHOLE DIRTY TREE, other agents' work included."
+echo "  Only if the overlap check is clean: git pull --rebase --autostash, then re-run."
 exit 1
