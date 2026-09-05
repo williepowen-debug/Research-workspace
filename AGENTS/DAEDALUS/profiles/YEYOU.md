@@ -1,68 +1,91 @@
 # Agent Profile — YEYOU
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** first live review cycle ran 8/20 (REVIEW_LOG 28 rows) · 59d > 45d · body 7/04. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+**Built by:** DAEDALUS · **Body date:** 2026-09-05 (rewrite; prior body 2026-07-04) · **Method:** solo full-tree read + **boot.py RUN**
+**Sources read:** `CLAUDE.md` · `STATUS.md` · `CLOSEOUT.md` · `SOUL.md` / `IDENTITY.md` · `MEMORY.md` · `reviews/{REVIEW_CHECKLIST,REVIEW_LOG.tsv,STATE.tsv,CROSS_SILO_CONSISTENCY_FINDINGS,YEYOU_PROME_COORDINATION}` · `scripts/boot.py` · `inbox/` · `outbox/` · git log
+**Guard executed:** `scripts/boot.py` → **rc=0**, renders a real queue card with per-finding staleness aging (`⏳ 16d stale`) and a `↻ pushed again` re-check flag
+**Staleness:** refresh at YEYOU's **second** review pass, or on a scheduling ruling, or >45d → checkpoint **2026-10-20**
 
-**Built by:** DAEDALUS · **Date:** 2026-07-04 · **Comprehension method:** solo live read (fast-follow of the 6/28→7/3 utility-cohort firming; promotes `upgrades/UTILITY_FIRMING_2026-07-03.md`'s YEYOU row into DAEDALUS's durable per-agent format, re-verified against current live files rather than assumed)
-**Sources read:** `CLAUDE.md`, `STATUS.md`, `CLOSEOUT.md`, `MEMORY.md`, `SOUL.md`, `IDENTITY.md`, `reviews/REVIEW_CHECKLIST.md`, `reviews/REVIEW_LOG.tsv`, `reviews/STATE.tsv`, `reviews/CROSS_SILO_CONSISTENCY_FINDINGS.md`, `reviews/YEYOU_PROME_COORDINATION.md`, `scripts/boot.py`, `inbox/`/`outbox/` (listing only — `.gitkeep` each), plus `git log`/`git show` on `AGENTS/YEYOU/` for drift verification. **Staleness:** refresh when YEYOU runs its first live review cycle (REVIEW_LOG.tsv accrues a row — the L2→L3 verification event), the OpenClaw/GLM stale-cluster is swept, or > 45 days.
-
-> Durable understanding — section-tasks read THIS, not the raw (heavy) agent. Re-read the actual file before applying any change (PAT-009).
+> ⚠️ **THE 7/04 BODY'S CENTRAL CLAIM INVERTED ON 2026-08-20.** It described the ledgers as *"EMPTY — zero data rows, never accrued"* and the mail loop as *"never exercised."* **YEYOU has since run.** `REVIEW_LOG.tsv` now holds **25 data rows (13 findings + 12 PASS)**; `STATE.tsv` holds **23 per-agent watermark rows**; the outbox delivered a digest to PROME and PROME consumed it. The old "nothing has run yet, not decay" framing is exactly backwards now — what the desk has is **one pass and no second one.**
 
 ---
 
 ## 1. Identity
-Repo-wide per-push conformance reviewer — reads what every domain agent shipped and checks it for **discipline and internal consistency** (protocol followed? files self-consistent? stale data dressed as live?). **Class:** Utility, resolved 2026-06-28 (PAT-027) — read-only, no structure-mutation authority, the **per-push analogue of RED** (RED attacks the thesis; YEYOU checks the work). **Role:** the cheap, wide, always-on first pass of a designed two-reviewer funnel — "GLM catches mechanical problems on every push; Codex/PROME do the deep factual + analytical review" (CLAUDE.md:15) — though the "Codex" half of that funnel is a dangling/stale entity, not a current roster member (see §4). **Transmission:** reads across all `AGENTS/*/` and `PROME/` (explicitly not siloed); writes only to `AGENTS/YEYOU/` + its own `outbox/` → PROME reads directly (Phase 1: digest-only; Phase 2: direct agent-inbox feedback, earned/not-yet; Phase 3: a later always-on "Sentinel" twin job). **Reports to:** PROME. **Runtime:** manual/branch, low cadence, spun up on demand — NOT persistent (CLAUDE.md's header line still claims "GLM (Z.ai) on the VM — persistent," an OpenClaw-era vestige that contradicts both the current model and the fleet's 2026-06-26 all-Claude-Code cutover; see §4/§5). **Spawnable by:** PROME / Will. **What it's for:** "Did the agent follow its own protocol, do its files contradict each other, is stale data presented as live?" — flag, never fix; never rule on a thesis or an external fact (routes those ⚪ NEEDS-VERIFY, up).
+Repo-wide **per-push conformance** reviewer — did the agent follow its own protocol, do its files contradict each other, is stale data dressed as live. **Class: Utility.** The per-push analogue of RED (RED attacks the thesis; YEYOU checks the work). **Flag, never fix.** Never rules on an external fact or a thesis — those route **⚪ NEEDS-VERIFY** up to RAV/DEWEY/PROME. Reads across all `AGENTS/*/` and `PROME/`; writes only to its own dir + outbox. **Reports to PROME.** Runtime: Claude Code, manual/branch, on-demand — **not persistent.** Phase 1 of a 3-phase trust ladder (digest-to-PROME only; direct agent-inbox feedback is Phase 2, unearned).
 
-## 2. File anatomy (where the richness lives)
-| File | Holds | Richness? |
+## 2. File anatomy
+
+| File | Holds | State |
 |---|---|---|
-| `CLAUDE.md` (175 ln) | full symmetric BOOT↔CLOSEOUT pairing table, REVIEW rubric pointer, 4-row SEVERITY SCALE, EXECUTE steps (resume-safety rule), W1–W8 write-back checklist, ESCALATION BUDGET, LOOP CLOSURE lifecycle, 3-phase PHASING trust ladder, BOUNDARIES, FILES table | governing doc; rich — but carries the OpenClaw/GLM stale header (line 4) + dangling "HERMES delivers"/"Codex" refs (§4) |
-| `STATUS.md` (35 ln) | live dashboard: State / Watermark / Open findings / Escalation budget / labeled `BOTTOM LINE` | short **by design** (nothing has run yet, not decay) |
-| `CLOSEOUT.md` (230 ln) | the write-back procedure: Bounce/Light/Standard/Heavy tiers, boot↔closeout mirror table, Write-Back Contract table, Chunk 1–4 sequence, skip rules, cross-session behavioral rules, a full PROME-comparison table | very rich — but headers/refs carry OpenClaw vestiges (line 5 "OpenClaw + Claude Code"; a skip-rule + comparison-table row both reference a `HANDOFF.md` that doesn't exist in the dir) |
-| `reviews/REVIEW_CHECKLIST.md` (54 ln) | **the role rubric** — categories A–H (protocol, doc-ownership, internal consistency, freshness, size/structure, git hygiene, mail loop, cross-refs), severity mapping per item, "always route up" list, output format spec | exemplary — this IS the L3 rubric |
-| `reviews/REVIEW_LOG.tsv` (3 ln: header + 2 comment rows) | the canonical finding ledger — 13-col schema (Finding_ID/Date/Agent/Commit/Severity/Category/File_Line/Rule/Finding/Suggested_Fix/Status/Resolved_Date/Notes), lifecycle states documented in-header | schema exemplary; **EMPTY** — zero data rows, never accrued |
-| `reviews/STATE.tsv` (3 ln: header + 2 comment rows) | per-agent watermark ledger, `*DEFAULT*`-baseline concept documented | schema present; **EMPTY** — matches REVIEW_LOG (never run) |
-| `reviews/CROSS_SILO_CONSISTENCY_FINDINGS.md` (240 ln, dated 6/24) | the one substantive artifact YEYOU has ever produced: a 51-agent, 5-group cross-silo handoff-verification scan (findings + recommendations), merged via PROME-approved commit `ea8f2c17` | permanent record — the sole qualitative proof-of-consumption point; predates the REVIEW_LOG.tsv schema, so it's a one-off scan, not a ledger row |
-| `reviews/YEYOU_PROME_COORDINATION.md` (267 ln, dated 6/24) | founding git/branch coordination protocol negotiated with PROME (commit discipline, push lease model, branch landing, boot/closeout integration, outbox routing) | historical/founding record — largely superseded by root `CLAUDE.md`'s now-universal pathspec-commit + auto-push-except protocol; still useful as documented rationale |
-| `scripts/boot.py` (176 ln) | the mechanical review-queue card: per-agent watermark diff, OPEN-finding re-check with staleness aging (`STALE_OPEN_DAYS=14`), own-inbox count | exemplary tooling; READ-ONLY by design, cwd-proofed 7/1 (`(cd "$(git rev-parse --show-toplevel)" && python3 ...)`) |
-| `IDENTITY.md` (1 ln) | pointer to `SOUL.md` | trivial |
-| `SOUL.md` (42 ln) | identity/vibe layer: core truths (check-work-not-thesis, flag-never-fix, file>verbal, silence-on-clean, don't-flood), boundaries, continuity note | conformant, reinforces `CLAUDE.md` |
-| `inbox/`, `outbox/` | `.gitkeep` only | empty — the mail loop has never been exercised |
+| `CLAUDE.md` (175 ln) | BOOT↔CLOSEOUT pairing table · 4-row severity scale · W1–W8 write-back · **escalation budget** · loop-closure lifecycle · 3-phase trust ladder · boundaries | rich, governing |
+| `reviews/REVIEW_CHECKLIST.md` (54 ln) | **the role rubric** — categories A–H, per-item severity mapping, always-route-up list, output spec | ⭐ exemplary; §F re-scoped 8/20 |
+| `reviews/REVIEW_LOG.tsv` | 13-col finding ledger — **25 data rows**: 13 findings (🔴0 · 🟠3 · 🟡10) + 12 PASS rows. **13 OPEN, 12 CLOSED**, every row dated 2026-08-20 | ⚠️ see §5 F-1 |
+| `reviews/STATE.tsv` | per-agent watermarks — **23 rows**, all `66ba48964`, `*DEFAULT*` `fdb466786` | frozen at 8/20 |
+| `scripts/boot.py` (176 ln) | the mechanical queue card: per-agent watermark diff · OPEN-finding re-check with `STALE_OPEN_DAYS=14` aging · own-inbox count. **READ-ONLY by design, cwd-proofed** | ⭐ works; verified rc=0 |
+| `STATUS.md` (35→~60 ln) | the 8/20 pass write-up — incl. an **explicit "what this pass did NOT do"** block | ⭐ see §4.1 |
+| `CLOSEOUT.md` (230 ln) | Bounce/Light/Standard/Heavy tiers, boot↔closeout mirror, write-back contract | rich |
+| `reviews/CROSS_SILO_CONSISTENCY_FINDINGS.md` (240 ln, 6/24) | 51-agent cross-silo scan — the desk's other substantive artifact | permanent record |
+| `SOUL.md` / `IDENTITY.md` | identity layer: check-work-not-thesis · flag-never-fix · file>verbal · silence-on-clean · don't-flood | conformant |
+| `inbox/` | **3 unread**, incl. PROME's YEY-012 approval and my own 9/2 route-around census | ⚠️ dark since 8/20 |
 
-*The key question this answers: when I grade section X, which file do I actually read? — for YEYOU, almost everything traces to `CLAUDE.md` + `CLOSEOUT.md`; the "structured record" traces to `reviews/*.tsv`, which are schema-only.*
+## 3. Per-dimension local representation
 
-## 3. Per-dimension local representation (utility-class floor)
-| Dimension (utility floor) | Where it lives | Form / local titling | Rich? |
+| Dimension | Where | Form | Rich? |
 |---|---|---|---|
-| **CONTRACT** (produces/consumed-by/proof) | scattered: `CLAUDE.md` IDENTITY + BOUNDARIES + PHASING | NO formal 3-line CONTRACT block (predates blueprint — same cohort-wide gap as WALTER/RED/NEXUS/TERRY, PAT-033). Content present: PRODUCES = review verdicts/flags + finding ledger; CONSUMED BY = PROME (Phase 1, digest + outbox); PROOF = `CROSS_SILO_CONSISTENCY_FINDINGS.md` (PROME-approved merge `ea8f2c17`) | gap (cheap, Sweep A) |
-| **Role rubric** | `reviews/REVIEW_CHECKLIST.md` | A–H categories, severity map, always-route-up list, output-format spec | exemplary (the L3 rubric — blueprint's cited source for "severity scale + escalation budget") |
-| **Structured record (logging)** | `reviews/REVIEW_LOG.tsv` (13-col) + `reviews/STATE.tsv` (watermark) | schema valid, class-aware, **ZERO accrued rows** | schema exemplary; substance **un-accrued** — verification blocker, not defect |
-| **Standing disciplines** | `CLAUDE.md` BOOT↔CLOSEOUT table + `CLOSEOUT.md` tier system | symmetric boot-read↔closeout-write mirror (named pairing table, both files); Bounce/Light/Standard/Heavy tiering + escalation budget as the anti-bias rule; cwd-proof PASS (boot.py wrapped 7/1) | exemplary — richer standing-discipline layer than most utility peers |
-| **Cross-agent routing** | `CLAUDE.md` BOUNDARIES + PHASING + `outbox/` | Phase 1 (digest-to-PROME only) → Phase 2 (direct agent-inbox, earned) → Phase 3 (Sentinel, later); 🔴 BLOCKERs escalate immediately, uncapped | conformant — but "HERMES delivers" (CLAUDE.md:151,169) is dangling (HERMES fleet-wide deprecated — per YEYOU's *own* 6/24 scan, §4) and the mail loop itself is unexercised |
-| **Calibration loop** (the utility truth-loop) | blueprint role table: "flag accuracy / false-positive rate" | `MEMORY.md`'s "False-positive rules" section is the receiving structure (seeded with 3 cross-agent quirks) but holds **zero actual accuracy data** — no findings have ever been made to be accurate or inaccurate about | MISSING substance — sequenced behind ledger accrual, not an independent gap |
-| **Authority/safety** | `CLAUDE.md` BOUNDARIES + `SOUL.md` | explicit read-only boundary: "flag, never fix… never the final word… never edit another agent's files" | exemplary — the blueprint's own named exemplar for §7 (utility-agent.md: "YEYOU: *flag, never fix*") |
-| *DARWIN guard* | n/a | no convergence matrix / TRADE.md / thesis-predictions ledger anywhere in the dir | correctly **absent** — clean N/A-by-design |
+| Role rubric | `REVIEW_CHECKLIST.md` A–H | per-item severity mapping + always-route-up list | ⭐ exemplary |
+| Structured record | `REVIEW_LOG.tsv` + `STATE.tsv` | 13-col findings ledger + watermark ledger, lifecycle documented in-header | ⭐ schema exemplary, **accruing since 8/20** |
+| Standing disciplines | `CLAUDE.md` + `SOUL.md` | **escalation budget** (≤2 direct writes/agent, ≤5 findings/agent) · flag-never-fix · silence-on-clean | ⭐ unusual and good |
+| Cross-agent routing | `outbox/` → PROME | Phase-1 digest only | conformant (exercised once) |
+| **Calibration loop** (`utility-agent.md:53`) | registered as **flag accuracy / false-positive rate** | **not built** — but see §6 | 🟡 |
+| Authority/safety | `CLAUDE.md` BOUNDARIES | read-only, no structure-mutation authority | conformant |
 
-## 4. Deviations from standard (+ why)
-- **Better-than-blueprint:** the boot↔closeout symmetry is doubled down with an entire session-tiering system (Bounce/Light/Standard/Heavy) the rest of the utility cohort doesn't have; the escalation-budget + phase-gated trust ladder is the blueprint's **named source** for YEYOU (`utility-agent.md` SOURCING line: "YEYOU (severity scale + escalation budget + ledger)"); the explicit read-only boundary is the blueprint's **cited example** for §7.
-- **The key nuance (verification, not substance):** `REVIEW_LOG.tsv` + `STATE.tsv` are both schema-valid, well-designed, and **empty**. This is NOT the same shape as ORACLE's missing Brier scoreboard (a genuine unbuilt piece) — it's a **never-launched verification blocker**: YEYOU has run at low cadence since its 6/22 scaffold and has not yet executed a full boot→execute→closeout cycle against a live agent push. Its one real output (`CROSS_SILO_CONSISTENCY_FINDINGS.md`, 6/24, PROME-approved) predates the ledger schema — a one-off ad hoc scan, not a ledger row. So the L2→L3 gate ("role rubric applied consistently") can't be evidenced yet — not because the rubric is weak (it's exemplary), but because it's never been applied a second time to produce a comparable sample. "Hasn't launched," not a design defect.
-- **Debt (real, cheap, and currently HELD):** (1) **No CONTRACT block** — cohort-wide gap (PAT-033), Sweep A. (2) **OpenClaw/GLM stale cluster:** `CLAUDE.md:4` "Runtime: GLM (Z.ai) on the VM — persistent" + "always-on" framing contradicts both manual/branch operation and the fleet's 2026-06-26 all-Claude-Code cutover (root `CLAUDE.md`: "OpenClaw/VPS platform was cut… All agents are Claude Code sessions now"); `CLOSEOUT.md:5` "OpenClaw + Claude Code" is the same vintage. Neither self-corrected because YEYOU runs manual/branch — no boot session has passed over it since the cutover. (3) **Dangling refs:** `HANDOFF.md` is referenced prescriptively in `CLOSEOUT.md`'s skip-rules *and* its PROME-comparison table, but the file does not exist anywhere in `AGENTS/YEYOU/` — a cross-runtime-continuity vestige from the two-runtime (OpenClaw+Claude Code) era. "HERMES delivers" (`CLAUDE.md:151,169`) — HERMES is fleet-wide deprecated (`[[project_messaging_overhaul]]`), a deprecation YEYOU's *own* 6/24 scan flagged fleet-wide without noticing it applied to itself. "Codex" reviewer entity (`CLAUDE.md:15,17,22,52,106`; `REVIEW_CHECKLIST.md:47-48`) — checked against `PROME/ROSTER.md` and root `CLAUDE.md`: **no "Codex" entity currently exists** on the roster. It's an OpenClaw-era second-reviewer concept never carried into the all-Claude-Code fleet.
-- **Disposition:** all stale-cluster items above are **HELD** per the 7/3 utility firming pass — apply only when Will next spins YEYOU up (manual/branch runtime means there's no idle-agent window to edit into the way there was for NEXUS/RED on 7/3; the gate is "next live session," not "idle now").
+## 4. Deviations — two that are better than standard
 
-## 5. Load-bearing context / DO NOT TOUCH
-- **Manual/branch runtime is BY DESIGN, not decay.** Low cadence, a short `STATUS.md`, and a sparse/empty ledger are the *correct* state for an agent spun up rarely — do not "fix" this by forcing a synthetic review cycle just to populate the ledger.
-- **Auto-push EXCEPTION.** YEYOU is one of three fleet exceptions (with TERRY, WALTER) called out in root `CLAUDE.md` — push is Will-coordinated (`CLOSEOUT.md` W8/Chunk 4), *not* auto-push-at-closeout. Canonical per `PROME/ROSTER.md`:62 ("stays manual per Auto-push Decision C") — do NOT "fix" this to match the fleet's now-standard auto-push; it's a ratified exception.
-- **Flag-never-fix, read-only identity is the core contract.** "Not an editor… you never edit another agent's files" (`CLAUDE.md`, `SOUL.md`). Never propose write access to other agents' files as a convenience fix for YEYOU's own findings.
-- **Escalation budget is intentional anti-spam, not a limitation to relax.** Max 5 findings/agent/review, max 2 direct inbox writes/agent/day, 🔴 BLOCKERs escalate uncapped, never re-flag WONTFIX/ACCEPTED. Do not raise these caps "to be more thorough."
-- **Two-reviewer funnel is architecturally sound even though "Codex" is dangling.** When fixing the stale cluster, correct the *name* to whatever the real second-reviewer role is today (PROME, most likely) — don't delete the funnel concept itself; it's load-bearing for the severity-routing design (⚪ NEEDS-VERIFY exists precisely because a cheap first-pass model must hand off, not rule).
-- **PHASING ladder (1→2→3) is a trust-earning gate tied to a track record that doesn't exist yet.** Do not advance YEYOU's phase language until the ledger actually accrues a verifiable low-false-positive record.
-- **`reviews/CROSS_SILO_CONSISTENCY_FINDINGS.md` is the one proof-of-consumption artifact.** Do not archive/delete it even though it predates the REVIEW_LOG.tsv schema — it is the qualitative PROOF line any future CONTRACT block must cite.
+**4.1 — The pass shipped its own coverage limits, unprompted.** `STATUS.md` carries an **"Honest coverage statement — what this pass did NOT do"** block: factual claims not verified · line-by-line prose reading not done on the largest diffs (naming SAM 2,363 insertions, WALTER 682, FALCON 786) · commits after the watermark not reviewed · pre-watermark defects not logged. **This is PAT-100(c) — the expensive half — satisfied voluntarily by a first-ever run.** Most desks ship conclusions and let the coverage limits die with the session; YEYOU published them beside the findings.
 
-## 6. Maturity snapshot
-**L2 (conf H)** — UTILITY class, graded vs `utility-agent.md`, firmed 7/3 (read-only firming: L2, conf M→H), **RE-VERIFIED 7/4 with NO DRIFT** — `REVIEW_LOG.tsv` still empty, no new commits to `AGENTS/YEYOU/` since PROME's 7/1 cwd-proofing pass, working tree clean. **Structurally L3-READY:** the rubric, severity scale, escalation budget, and boot↔closeout symmetry are all high-quality, exemplary-grade design — but the L2→L3 gate ("role rubric applied consistently") cannot be *verified* because the ledger has zero accrued rows. This is a verification blocker ("hasn't launched"), not a design defect. Floor: L0 skeleton ✓, L1 live (STATUS + labeled `BOTTOM LINE`) ✓, L2 logging — schema valid, present ✓, cwd-proof PASS ✓, read-only boundary explicit ✓; missing handle = no CONTRACT block (§2, Sweep A, cohort-wide). HELD stale cluster (OpenClaw/GLM header, dangling `HANDOFF.md`, HERMES, Codex) — apply when Will next spins YEYOU up. Work queue → `upgrades/YEYOU_CARD.md`. Classification per `FLEET_MAP.tsv` row 26 (not restated). Full context: `upgrades/UTILITY_FIRMING_2026-07-03.md`.
+**4.2 — An escalation budget as a first-class discipline.** ≤2 direct inbox writes per agent, ≤5 findings per agent, silence-on-clean. A reviewer's real failure mode is flooding, and YEYOU has a numeric brake on itself. The 8/20 pass recorded `0/2` used and named its worst offender at 3 of 5. **Portable.**
 
-## 7. Open questions / comprehension gaps
-- Who **is** the current second reviewer in the two-reviewer funnel, now that "Codex" is confirmed absent from the roster? PROME doing deep-review directly, or an unbuilt/unnamed role? Needs a design call before the stale-cluster fix can correctly rename "Codex" (vs. simply deleting the reference).
-- Will the L2→L3 verification blocker resolve on its own the next time Will spins YEYOU up for a real review pass, or does it need an explicit "first live run" task packet to force the issue?
-- Is the 6/24 `CROSS_SILO_CONSISTENCY_FINDINGS.md` scan meant as a one-off founding audit, or should YEYOU run periodic cross-silo scans as standing cadence? Affects whether "hasn't launched" is about push-level review only, or a whole review-type YEYOU has never repeated.
-- Is `HANDOFF.md` a planned-but-never-built file (both the `CLOSEOUT.md` skip-rule and the PROME-comparison table reference it prescriptively), or a dead reference to strike outright? Needs a call before the dangling-ref cleanup.
-- Given YEYOU's low cadence, is `boot.py`'s `STALE_OPEN_DAYS=14` threshold realistic for its own review rhythm, or will every finding it ever logs read as "stale" almost immediately once the ledger starts accruing? A potential self-inflicted noise source worth watching after the first live run.
+**4.3 — `boot.py` ages its own open findings.** `STALE_OPEN_DAYS=14`, plus a `↻ pushed again — check if fixed` flag when the agent has committed since the finding. That is a queue card that degrades loudly rather than silently. It is also what makes §5 F-1 visible every single run.
+
+## 5. Findings
+
+**🟠 F-1 — TWO FINDINGS WERE FIXED ON 8/20, BOTH CARRY IN-FILE RECEIPTS, AND BOTH LEDGER ROWS STILL READ `OPEN` 16 DAYS LATER — AND I AM THE ONE WHO FIXED THEM.**
+- **YEY-012** (checklist §F contradicted root carve-out ① → ~15 false 🔴/pass): PROME **approved** 8/20; I applied the fix in `521c5bc40` *"YEYOU checklist (by DAEDALUS, idle-verified)"*. The re-scoped §F is live at `REVIEW_CHECKLIST.md:33–36`.
+- **YEY-013** (stale GLM/HERMES refs): also fixed 8/20 — both named targets now carry explicit in-line receipts: `:40` *"(HERMES reference removed 2026-08-20…)"* and `:50` *"('You are GLM' runtime reference removed…)"*.
+- **`REVIEW_LOG.tsv` Status = `OPEN`, `Resolved_Date` = empty, on both.** `STATE.tsv`'s YEYOU row still reads `Open_Findings 2`. `boot.py` prints them as open, `⏳ 16d stale`, every run.
+**Why it matters beyond bookkeeping:** the desk's queue card is wrong in the direction of **overstating open work** — 2 of its 13 OPEN findings are done — and the "13 OPEN" figure propagates into STATUS, STATE.tsv and my own FLEET_MAP row. **The fix left a receipt in the target file and none in the ledger the boot script reads.** This is my own write-back tail rule failing (SPAWN step 7 — *close the WHOLE chain*), the same shape as the 7/12 self-sweep, on a leg I did not think to check because I was the fixer rather than the owner.
+**Disposition: PROPOSED, NOT EXECUTED.** Closing rows in another desk's canonical ledger is a state change, and YEYOU is dark — packet routed, PROME asked (§7).
+
+**🔴 F-2 — THE INSTRUMENT IS UNSCHEDULED, NOT UNSTAFFED, AND THAT IS A DIFFERENT PROBLEM.** One pass ever (8/20). Watermark frozen at `66ba48964`; every fleet commit since is queued unreviewed. `boot.py` renders the queue correctly and **nothing invokes it**. This is the invocation-not-detection gap: the detection layer works and has no scheduler. **True self-authored commits ALL-TIME = 1** — two of the three `YEYOU`-prefixed commits are DAEDALUS acting on its behalf, so **never read the commit-prefix count as activity here** `[[finding_path_scoped_git_log_measures_inbound_traffic]]`.
+
+**🟡 F-3 — 3 unread inbox items**, including PROME's own YEY-012 approval and my 9/2 route-around census packet. Consistent with dark, not a defect in itself; noted because the approval it never read is the same finding as F-1.
+
+**🟡 F-4 — a count error on MY map row:** it said *"REVIEW_LOG 28 rows"*; the true figure is **25 data rows** (+2 comment rows + header). Corrected this pass.
+
+### ✅ Came back clean
+`boot.py` rc=0 and correct · checklist §F genuinely re-scoped and now consistent with root carve-outs ①–④ · severity scale and escalation budget coherent · the 8/20 findings themselves are well-formed (each names file:line, rule, and suggested fix) · no structure-mutation authority exercised anywhere.
+
+## 6. On grading the calibration loop — do NOT score it yet
+`utility-agent.md:53` registers YEYOU's calibration loop as **flag accuracy / false-positive rate**. It is not built, **and it is not scoreable yet**: flag accuracy needs resolved findings across more than one pass, and there has been one pass whose findings are 13-OPEN-of-which-2-are-actually-closed. **Grading a false-positive rate off a single un-reconciled pass would be the free-parameter cross-check that validates nothing.** Register it as **NOT-ADJUDICATED — insufficient data**, and revisit at pass #2. *(This interacts with the ladder gap in `profiles/ORACLE.md` §7 / EVOLUTION (m): no utility L-leg reads the calibration column at all.)*
+
+## 7. Grade — **L3 (H) HELD.** Per-leg verdicts
+
+| Leg (Utility class) | Verdict | Basis |
+|---|---|---|
+| L1 STATUS + BOTTOM LINE | **PASS** | labeled BOTTOM LINE present |
+| L2 structured record accruing | **PASS** | 25 REVIEW_LOG + 23 STATE rows — **newly true since 8/20** |
+| L3 role rubric applied consistently | **PASS** | checklist A–H applied across 21 agents in one pass, severities mapped per item |
+| L4 output consumed by others | **PARTIAL** | PROME consumed YEY-012 and ruled on it (`243c2b401`). But **12 of the 13 findings have no recorded consumption**, and 4 desks' inbox-backlog findings went nowhere. One consumed finding is a proof point, not a proven contract. |
+| L5 clean closeouts | **NOT-ADJUDICATED** | one closeout ever; a cadence claim needs ≥2 |
+| L5 zero YEYOU flags | **N/A (self)** | it *is* the flagger; its 2 self-findings are F-1 |
+| L5 current | **FAIL** | dark 16d, watermark frozen, queue accruing |
+| Role ceiling — calibration loop | **NOT-ADJUDICATED** | insufficient data, §6 |
+
+**Conf H.** **L3 held; L4 is genuinely close and blocked on one thing** — not more findings, but **evidence that findings land.** The cheapest path to L4 is not a second review pass; it is **reconciling the first one** (close F-1's two rows, then chase the 11 others to a recorded disposition). That converts "13 OPEN forever" into a working loop and produces the consumption evidence L4 wants.
+
+**L4 next-upgrade line:** *reconcile pass #1 to recorded dispositions (F-1's two closes first), then a scheduled pass #2 that moves the watermark. Scheduling is the blocker, and it is not YEYOU's to decide.*
+
+## 8. DO-NOT-TOUCH
+1. **Flag-never-fix.** YEYOU has no structure-mutation authority. Any fix it identifies is routed, never applied — including to its own rubric (it flagged §F rather than silently editing it on its first pass, which was the right call).
+2. **The escalation budget** (≤2 direct writes, ≤5 findings per agent). It is what keeps a wide reviewer from flooding; do not raise it to "get more coverage."
+3. **`*DEFAULT*` watermark semantics** — `fdb466786` is the Will-ruled baseline for agents never individually reviewed. Do not reset watermarks to HEAD to "clear the queue"; that silently discards the unreviewed range.
+4. **The 8/20 honest-coverage block in STATUS.** It is the record of what pass #1 did not cover. ⛔ Never trim it as session narrative — it is the only thing that stops pass #1 reading as complete.
