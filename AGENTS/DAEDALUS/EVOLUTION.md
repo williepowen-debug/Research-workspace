@@ -6,6 +6,15 @@
 
 ## Changelog
 
+### 2026-09-05 (r) — two `utility-agent.md` edits shipped without their pairing entry (PAIRING, LATE — PAT-101 rule ii, n+5 AND n+6, and I named this exact class two days ago)
+**What the two commits changed in the standard, recorded now:**
+1. **`76e49f2c1`** — added the **9/14 adjudication input** to the WQ-180 rider block: the L5 leg **"zero YEYOU flags" is a DEFAULT-ZERO INSTRUMENT** — with no reviewer producing flags it is trivially TRUE for every utility desk forever and **cannot falsify (PAT-060)**. Three options registered (strike · re-point at a live review source · mark `N/A-until-a-reviewer-exists`), **proposed not encoded**, because a ladder change is the same Will-gated class as WQ-180 and the YEYOU-dormancy premise was **unverified at any artifact** (no WILL_QUEUE row, no commit, ROSTER unchanged). *(PROME subsequently self-corrected — it had relayed Will's tentative "consider closed I think?" as ruled; registered as **WQ-181**, and its rec is **re-point or N/A, not strike**.)*
+2. **`41b389be5`** — **re-labelled Rider 2** from *"rides the 9/14 wiring-sweep-#2"* to *"rides the ~33-row pass … the 9/14 LADDER-INTEGRITY sitting"*, because the 9/14 load split moved the **wiring** sweep to 9/12 while the **grading** pass kept the 9/14 anchor. Without the re-label the rider would have pointed at a sitting that no longer contains it — **a label going stale on the same day it was written.**
+
+**The failure, and it is the same one both times:** both were small canon edits made at the end of a long session, riding a commit whose subject was about something else (a retraction; a schedule split). **Entry (m) on 2026-09-03 already named this class in those words — *"the class is 'small canon edit at the end of a long session'"* — and it recurred twice within 48 hours of my naming it.** Naming a class does not install a guard against it; `complete_check` leg (ii) is the guard, and it caught both, at closeout, exactly as designed. **The instrument works and the habit does not** — which is the argument for keeping the check in the battery rather than trusting the lesson.
+**Not amended** (root 4b — amend rewrites whoever holds HEAD). Filed late, as (i)/(k)/(m) were.
+**Self-row:** L5 unchanged; no ladder leg moved.
+
 ### 2026-09-05 (q) — WQ-180 RULED: the utility calibration loop becomes a graded L3 leg (Will, "approve (a) with your riders")
 **Ruling:** Will verbatim **"approve (a) with your riders"**, 2026-09-05 11:38 ET, relayed and recorded at `AGENTS/DAEDALUS/inbox/2026-09-05_from-PROME_WQ-180-RULED-…md` (WILL_QUEUE row 180) off my proposal `PROME/inbox/2026-09-05b_…`. Closes the defect found in (o): the blueprint registered a per-role Calibration loop that **no L-leg read**, so a utility desk could reach L5 with its truth-loop unbuilt while the same requirement is an **L3 floor leg at market class**.
 
