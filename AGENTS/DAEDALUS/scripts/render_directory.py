@@ -41,7 +41,6 @@ GROUP_ORDER = ["ACTIVE", "TIER-2", "DORMANT"]
 # (small, slow-changing set); class/level/missing still render FROM FLEET_MAP. New SPECIAL agent -> add here.
 SPECIAL = {
     "DAEDALUS": "Fleet architect — design / structure / maturity / lifecycle",
-    "YEYOU":    "Repo-wide reviewer (manual / branch model)",
     "RAV":      "Deep factual/analytical reviewer + bounded repair (Codex, Will-driven)",
 }
 SPECIAL_HDR = ("SPECIAL — meta / cross-fleet (on-demand)", "\U0001F535")
@@ -68,7 +67,9 @@ NON_AGENT_SECTIONS = {
     "Coverage notes":       "explicit-unowned gaps",
     "Transmission chain":   "reference prose",
 }
-DROP = {"HERMES"}  # retired (folder removed); directory lists LIVE agents only.
+DROP = {"HERMES",   # retired 2026-06, folder removed
+        "YEYOU"}    # RETIRED 2026-09-05 (Will "retire yeyou" 11:56 ET; WQ-181 (i); ROSTER 1627f77a3).
+                    # Folder LEFT IN PLACE — retirement != archival. The directory lists LIVE agents only.
 
 
 def die(msg):
@@ -159,6 +160,21 @@ def row(agent, klass, lvl, conf, scored, does, missing):
             f"| {md_cell(does)} | {md_cell(missing)} |")
 
 
+def retired_from_roster(path):
+    """Agent names ROSTER marks RETIRED. Reads the '## RETIRED' section AND any bold
+    '**NAME** — RETIRED' line elsewhere, because ROSTER records a retirement both ways
+    (YEYOU 2026-09-05 appeared as both). Name-shaped tokens only: ALLCAPS, >=3 chars."""
+    import re
+    with open(path, encoding="utf-8") as fh:
+        txt = fh.read()
+    names = set()
+    m = re.search(r"^##\s+RETIRED\b(.*?)(?=^##\s|\Z)", txt, re.M | re.S)
+    if m:
+        names |= set(re.findall(r"\*\*([A-Z][A-Z0-9_]{2,})\*\*", m.group(1)))
+    names |= set(re.findall(r"\*\*([A-Z][A-Z0-9_]{2,})\*\*\s*[—-]\s*RETIRED\b", txt))
+    return names
+
+
 def main():
     roster, skipped_sections = parse_roster(ROSTER)
     fleet = parse_fleetmap(FLEETMAP)
@@ -169,6 +185,18 @@ def main():
     if unhandled:
         die(f"unhandled FLEET_MAP-only agent(s) {sorted(unhandled)} — add to SPECIAL map or DROP set "
             f"(guard against a real agent silently vanishing from the directory)")
+
+    # REVERSE guard, added 2026-09-05 after this renderer kept YEYOU in the SPECIAL table for hours
+    # after ROSTER retired it, and exited rc=0. The guard above only catches the OTHER direction
+    # (a live agent missing from the map); a RETIRED agent still hardcoded in SPECIAL was invisible
+    # to it, so the boot-read index kept advertising a retired desk as live. One-directional guard,
+    # the session's recurring class, in my own instrument.
+    retired = retired_from_roster(ROSTER)
+    stale_special = sorted(retired & set(SPECIAL))
+    if stale_special:
+        die(f"ROSTER retires {stale_special} but the SPECIAL map still renders them as live — "
+            f"move to DROP (and drop the FLEET_MAP row or mark it retired). "
+            f"The directory lists LIVE agents only.")
 
     stamp = date.today().isoformat()
     ungraded = []

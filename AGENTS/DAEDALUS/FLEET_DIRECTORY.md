@@ -65,8 +65,7 @@
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
 | DAEDALUS | Meta | L5 | H | 2026-09-01 | Fleet architect — design / structure / maturity / lifecycle | Sustain L5: profile refresh queue (NEXUS→RED→PROME 9/08 |
-| YEYOU | Utility | L3 | H | 2026-09-05 | Repo-wide reviewer (manual / branch model) | L4 on RECONCILING PASS #1, not on running pass #2: close F-1's two rows… |
 | RAV | Meta | L2 | M | 2026-09-01 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST §5 run report in AGENTS/RAV/runs/ (Will-driven |
 
 ---
-*33 active · 4 tier-2 · 2 dormant · 3 special. Dropped (retired): HERMES. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*
+*33 active · 4 tier-2 · 2 dormant · 2 special. Dropped (retired): HERMES, YEYOU. Regenerated each Production Review — `sweeps/PRODUCTION_REVIEW.md`.*

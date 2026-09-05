@@ -1,5 +1,7 @@
 # Agent Profile — YEYOU
 
+> ⚰️ **RETIRED 2026-09-05** — Will's firm word 11:56 ET (*"retire yeyou"*), **WQ-181 ①**, ROSTER SPECIAL→RETIRED at `1627f77a3`. **Folder `AGENTS/YEYOU/` LEFT IN PLACE — retirement ≠ archival.** RAV is now the standing sole-QC; the compose-on-revival path is closed. **This profile is a historical record from here on** — do not grade, task or launch. Body below is the 2026-09-05 state as read hours before the retirement, kept because it is the only comprehension record this desk ever had and because §5 F-1 and §6 are what outlive it: **F-1** two findings I fixed on 8/20 and never closed in the ledger (CLOSED 9/5, receipts cited); **§6** the calibration loop deliberately NOT scored on one un-reconciled pass — which is now permanent. ⚠️ **The consequence that outlives the desk:** the utility L5 leg *"zero YEYOU flags"* is a **default-zero instrument that can never fire** (PAT-060) — WQ-181 ②, re-point-or-N/A at the 9/14 ladder-integrity sitting.
+
 **Built by:** DAEDALUS · **Body date:** 2026-09-05 (rewrite; prior body 2026-07-04) · **Method:** solo full-tree read + **boot.py RUN**
 **Sources read:** `CLAUDE.md` · `STATUS.md` · `CLOSEOUT.md` · `SOUL.md` / `IDENTITY.md` · `MEMORY.md` · `reviews/{REVIEW_CHECKLIST,REVIEW_LOG.tsv,STATE.tsv,CROSS_SILO_CONSISTENCY_FINDINGS,YEYOU_PROME_COORDINATION}` · `scripts/boot.py` · `inbox/` · `outbox/` · git log
 **Guard executed:** `scripts/boot.py` → **rc=0**, renders a real queue card with per-finding staleness aging (`⏳ 16d stale`) and a `↻ pushed again` re-check flag
