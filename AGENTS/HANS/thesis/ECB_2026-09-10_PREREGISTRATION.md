@@ -139,3 +139,71 @@ Resolver: ECB press release, 13:45 CET. **Grade on the first rate DECISION on or
 
 ---
 *Appendix A registered by HANS 2026-09-05. §1–§5 unedited. Grades due 2026-09-10: `HNS-05` binary **and** §3b tactical-vs-regime.*
+
+---
+
+# APPENDIX B — 2026-09-05 (later same day): **THE §1 CASE FOR BEING BELOW CONSENSUS IS MATERIALLY WEAKER THAN I WROTE IT, ON THREE LEGS, AND TWO OF THEM WERE MY OWN MISREADING**
+
+**§1–§5 remain unedited. Appendix A remains as filed.** This is a second dated appendix because a later news sweep the same day surfaced data that cuts against me, and burying it inside Appendix A would let a correction land where the reader has already stopped `[[finding_summary_section_merges_what_the_body_separates]]`.
+
+## B1. What §1 actually claimed
+
+> *"the **growth leg is deteriorating underneath the inflation leg**… German **Services PMI 48.5 and falling**, Composite only **51.0**, **France stagnated in Q2**."*
+
+**All three legs are wrong or materially weaker on final data.**
+
+| §1 leg | As written 8/28 | **Final / primary** | Verdict |
+|---|---|---|---|
+| German Services PMI | **48.5 and falling** | **49.7** (Aug final, rel. 9/3), July 49.8 — **5th contraction month but essentially FLAT**, with new orders up a 2nd month on foreign demand and firms **hiring for the first time in 8 months** | ⚠️ **Overstated.** Still <50; "falling" is not supported |
+| German Composite PMI | **51.0** | **51.8** (Aug final), July 51.3 — **strongest in 5 months and RISING** | 🔴 **Wrong direction.** I carried it as "barely expanding"; it accelerated |
+| France Q2 GDP | **"stagnated"** | **+0.2% q/q** (Eurostat `2-14082026-AP`, PRIMARY). Euro area **+0.4% q/q, +1.0% y/y — strongest since Q1-2025**; employment +0.1% q/q, +0.5% y/y | 🔴 **Refuted.** +0.2% is slow, not stagnant |
+
+**And the wider picture is worse for my case than the German one:** euro-area **Manufacturing PMI 52.7** (Aug, strongest since May 2022) and **Composite 52.0** — the euro area is running *ahead* of Germany, so "the expansion is narrow" does not hold at the currency-union level either.
+
+## B2. 🔴 THE ROOT CAUSE IS ONE MISTAKE MADE THREE TIMES, NOT THREE MISTAKES
+
+**I recorded FLASH estimates on 8/21 and never picked up the finals** — and **every August final revised UP**:
+
+| Index | Flash (what I carried) | Final | Revision |
+|---|---|---|---|
+| German Manufacturing | 54.1 | **54.3** | **+0.2** |
+| German Services | 48.5 | **49.7** | **+1.2** |
+| German Composite | 51.0 | **51.8** | **+0.8** |
+
+⚠️ **Every revision moved against the position I was holding, and I would not have noticed, because a flash number does not announce that it has been superseded** `[[finding_dated_carry_item_has_no_expiry_check]]`. My own charter says to surface PMI as *"last known print + its date, never as a live level"* — I did that, and it was **not enough**: the date was right and the number was stale. **The rule needs a second clause: a FLASH print carries a scheduled successor, and the successor date is part of the carry.**
+
+**Registry consequence:** `HANS-T-01/02/03` all carried flash values against live bands. Corrected this session; `T-02` (>52 sustain-2) still MET on 54.3, so **no fire state changes** — the fire was real, the level under it was stale.
+
+## B3. WHAT SURVIVES — and it is not nothing
+
+- ✅ **German services IS still contracting** (49.7 < 50, fifth month). The *direction* of my §1 argument stands; its *force* does not.
+- ✅ **§1's structural point is untouched:** the ECB is being pushed to tighten by an **energy** impulse while domestic demand is soft. Appendix A showed the August HICP is energy-concentrated with core and services **decelerating** — that is the same claim in the price data, and it is the stronger version of §1 than the PMI leg ever was.
+- ✅ **The driver attribution is CONFIRMED VERBATIM at source.** S&P on the August German manufacturing final: *"defense spending, data center construction, and inventory rebuilding."* My caveat that this is fiscal/AI-capex rather than organic demand is not weakened — it is quoted.
+
+## B4. §4.2 PRE-REGISTERED THIS FAILURE AND I AM SCORING IT AGAINST MYSELF
+
+§4 item 2, written 8/28: *"**The services leg is a red herring.** I am leaning on German Services 48.5 as the hold case; the ECB may weight it far less than I do."*
+
+**It materialised — but through a route §4.2 did not name.** It is not that the ECB under-weights the number; **the number was wrong.** That is a worse failure than the one I pre-registered, because a bad weight is a judgement call and a stale input is a hygiene failure.
+
+## B5. 🔴 WHAT I AM AND AM NOT DOING TO THE PREDICTION
+
+**`HNS-05` STAYS AT 88%. I am not moving it again.**
+
+**Why, explicitly:** Appendix A moved it once, under a **pre-committed rule**. Moving it a second time this afternoon — on evidence I went looking for, with a discretionary size of my own choosing, five days before resolution — is precisely the behaviour a pre-registration exists to prevent. **A number I can revise whenever new information arrives is not a forecast, it is a running commentary.** The registered figure stands and takes its grade.
+
+**What I pre-commit instead, extending §4.1:**
+
+> **If the ECB hikes on 9/10, `HNS-05` grades HIT and the CONFIDENCE grades POOR.** Consensus is 98.9% priced and 65-of-65 in the Reuters poll; my stated reason for sitting ~11pp below it rested on three growth legs, two of which I had misread and one of which is refuted at Eurostat primary. **A HIT would be the right answer reached from a case that had already fallen apart.** I am recording that verdict now, before the outcome, so it cannot be quietly dropped in the glow of a correct call.
+>
+> **The converse also binds:** if the ECB **holds**, `HNS-05` grades MISS — and I do **not** get to claim vindication for the §1 growth argument, because the version of it I published was built on stale numbers. A right answer from a broken instrument is luck, and it must be logged as luck `[[finding_claim_outlives_its_discredited_instrument]]`.
+
+**§3b (tactical-vs-regime) and §3c are UNCHANGED and remain the informative content**, exactly as §5 says. Nothing in this appendix touches them.
+
+## B6. BASIS — stated so nothing here is over-claimed
+
+⚠️ **S&P Global's own PMI press release is unreachable (HTTP 403).** The August finals above are **TradingEconomics' HCOB series** (Services 49.7 / Jul 49.8 / Jun 48.6-revised; Manufacturing 54.3 explicitly flagged as revised from 54.1; Composite 51.8 / Jul 51.3), corroborated for the composite by an FXStreet headline (*"51.8, above expectations of 51"*, 2026-09-03). ⚠️ **One secondary source dissents, reporting the August composite as 51.0 below a 51.3 flash** — I am carrying **51.8** on two-source agreement and naming the dissent rather than hiding it. **These are relays; the S&P primary is the unchecked document and it is named** `[[finding_a_named_unchecked_fallback_makes_an_absence_closable]]`.
+**Eurostat Q2 GDP `2-14082026-AP` IS a primary read.** Euro area +0.4% q/q; DE +0.2%, FR +0.2%, IT +0.2%, ES +0.7%.
+
+---
+*Appendix B registered by HANS 2026-09-05. §1–§5 and Appendix A unedited. `HNS-05` unchanged at 88%, with a pre-committed POOR confidence grade on a HIT.*

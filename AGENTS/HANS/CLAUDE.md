@@ -194,7 +194,7 @@ German Manufacturing PMI leads U.S. ISM Manufacturing by approximately **2 month
 | **`scripts/finding_check.py`** | **SHIP-GATE for empirical findings — `import gate()` into the research script itself.** Gate A: does the robustness check vary something *independent* of the claim? Gate B: auto re-run ex-crisis, fail on sign flip. ⚠️ **Catches 2 of 3 failure modes; does NOT catch construct validity.** Fleet adoption is DAEDALUS's to rule. |
 | `scripts/pmi_ism_lead_test.py` | The German→US lead test + its own verification pass. **Calls `gate()` inline — and it correctly FAILS**, because that finding was retracted. |
 | **`scripts/test_hans.py`** | **36 offline tests, no network/keys.** Regression-first: the falsy-zero staleness bug, the AGSI `trend`-as-string crash, the `country=EU` trap, and the exact claim/robustness pair from the 8/28 retraction. **Run it after touching any script.** |
-| **`registry/THRESHOLDS.tsv`** | **14 rows, canonical.** ⚠️ Only 6 daily-scannable · 3 monthly prints · 1 event · 2 compound · **1 UNINSTRUMENTED and unable to fire — excluded from any clean-board count.** |
+| **`registry/THRESHOLDS.tsv`** | **14 rows, canonical.** ⚠️ **PMI rows take the FINAL, never the flash** — all three Aug-2026 finals revised UP and I had carried flashes (9/5). ⚠️ Only 6 daily-scannable · 3 monthly prints · 1 event · 2 compound · **1 UNINSTRUMENTED and unable to fire — excluded from any clean-board count.** |
 | **`registry/HANS_T_FIRED_LOG.tsv`** | **The single fire record.** Other desks may read it; **never mirror it.** |
 | **`workbook/KB.tsv`** | Knowledge base on ZHAO's schema. **`Stale_By` is CHECKED by boot §[7]** (expired facts set exit 1 — alerting, not blocking) — new facts go here, **not** into `ML.tsv`. |
 | `workbook/VX.tsv` | Vectors. **Live vs FROZEN/RETIRED is load-bearing** — boot excludes parked rows by design. Don't "helpfully" refresh a frozen row; read its named upgrade source first. |
@@ -202,5 +202,6 @@ German Manufacturing PMI leads U.S. ISM Manufacturing by approximately **2 month
 | **`thesis/KILL_TREE.md`** | Falsification surface + apparatus self-challenges. |
 | `thesis/*_PREREGISTRATION.md` | Pre-registered event calls — hypotheses and discriminators written **before** the event. |
 | `research/` · `reports/` | Analytical output · desk-level reports |
-| `STATUS.md` | Live state. **Primary memory.** Cap 250 lines. |
+| `STATUS.md` | Live state. **Primary memory.** Cap 250 lines **AND the 32,550 B read-cap budget — the BYTE budget binds first** (`scripts/read_cap_check.py --agent HANS`). |
+| **`DISPATCH_LOG.md`** | **LIVE cross-agent flag table, hot/cold-split out of STATUS 2026-09-05.** ⚠️ Not a dispatch record — the packet in the RECIPIENT's tree is; verify there. |
 | `inbox/` · `outbox/` | Inbound / outbound. ⚠️ **`outbox/delivered/` is a claim only the RECIPIENT'S tree can verify** — `find AGENTS/<RECIPIENT> -iname "*HANS*"`. `outbox/closed_undelivered/` = written then ruled undeliverable. |
