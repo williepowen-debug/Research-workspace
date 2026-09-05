@@ -349,6 +349,36 @@ class TestDocAudit(unittest.TestCase):
         st = self.da.HANS / "STATUS.md"
         self.assertLessEqual(len(st.read_bytes()), self.da.STATUS_BYTE_BUDGET)
 
+    def test_C8_catches_an_ACTIVE_KB_row_asserting_a_retired_value(self):
+        """THE PERIMETER GAP CODEX FOUND. C2 covered registry+VX and stopped; three KB rows
+        stayed ACTIVE asserting the PMI flashes with Stale_By weeks out, so boot §[7] could
+        not reach them either. Inject a genuine stale ACTIVE row and require the fire."""
+        p = self.da.HANS / "workbook/KB.tsv"
+        txt = p.read_text()
+        lines = txt.split("\n")
+        ci = {n: i for i, n in enumerate(lines[0].split("\t"))}
+        for i, l in enumerate(lines):
+            c = l.split("\t")
+            if c and c[0] == "KB-HANS-017":
+                c[ci["Status"]] = "ACTIVE"
+                lines[i] = "\t".join(c)
+                break
+        else:
+            self.fail("KB-HANS-017 not found — update the test, not the guard")
+        try:
+            p.write_text("\n".join(lines))
+            self.assertIn("C8-KB-STALE", self._codes(self.da.audit()))
+        finally:
+            p.write_text(txt)
+
+    def test_C8_does_NOT_flag_a_historical_QUOTE(self):
+        """Corrected rows quote what they used to say — by design. C8's first version
+        flagged its own corrections (KB-HANS-047 'flash 54.1') and the value+date form
+        ('was 3.29% on 8/28'). Both must pass; a check that punishes correct documentation
+        trains you to document less."""
+        self.assertEqual([m for c, m in self.da.audit() if c == "C8-KB-STALE"], [],
+                         "C8 is flagging a legitimate historical quote")
+
     def test_published_ledger_parses_with_the_FLEET_reader(self):
         """PUBLISHED.tsv must be readable by scripts/consumer_check.py, not just by us —
         it exists so --from-ledger works."""

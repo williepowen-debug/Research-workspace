@@ -194,9 +194,23 @@ Resolver: ECB press release, 13:45 CET. **Grade on the first rate DECISION on or
 
 **What I pre-commit instead, extending §4.1:**
 
-> **If the ECB hikes on 9/10, `HNS-05` grades HIT and the CONFIDENCE grades POOR.** Consensus is 98.9% priced and 65-of-65 in the Reuters poll; my stated reason for sitting ~11pp below it rested on three growth legs, two of which I had misread and one of which is refuted at Eurostat primary. **A HIT would be the right answer reached from a case that had already fallen apart.** I am recording that verdict now, before the outcome, so it cannot be quietly dropped in the glow of a correct call.
->
-> **The converse also binds:** if the ECB **holds**, `HNS-05` grades MISS — and I do **not** get to claim vindication for the §1 growth argument, because the version of it I published was built on stale numbers. A right answer from a broken instrument is luck, and it must be logged as luck `[[finding_claim_outlives_its_discredited_instrument]]`.
+> ~~**If the ECB hikes on 9/10, `HNS-05` grades HIT and the CONFIDENCE grades POOR.**~~ **← WORDING CORRECTED 2026-09-05 (later same day), struck not deleted. See B5-bis below. The substance stands; the label was on the wrong axis.**
+
+### B5-bis — 🔴 CORRECTION TO B5's GRADE WORDING (2026-09-05, via Codex → PROME)
+
+**The flaw:** "the CONFIDENCE grades POOR" **fused three independent axes into one verdict.** Codex's objection is correct and I am adopting it: **a single outcome cannot establish that an 88% probability was poorly calibrated.** Calibration is a property of a **set** of forecasts — whether things I call 88% happen about 88% of the time — and it is not observable at n=1. At n=1 every probability strictly between 0 and 1 survives any outcome.
+
+**The three axes, separated, each with its own verdict:**
+
+| Axis | What it scores | Verdict on 9/10 | Assessable at n=1? |
+|---|---|---|---|
+| **1. Prediction outcome** | Did the stated event happen? | **HIT** if the ECB hikes 25bp to 2.50%; **MISS** on hold or cut | ✅ Yes — that is what a resolver is for |
+| **2. Rationale quality** | Was the published reasoning sound *at the time it was published*? | 🔴 **FAIL — and this is already determined, before the outcome.** §1's case rested on three growth legs: German Services "48.5 and falling" (**flash; final 49.7, flat**), Composite "only 51.0" (**flash; final 51.8, a 5-month high, rising**), and "France stagnated in Q2" (**refuted at Eurostat primary: +0.2% q/q**). Two misread, one refuted. | ✅ Yes — it is independent of the outcome |
+| **3. Calibration** | Do my 88%s come in at ~88%? | ⛔ **NOT ASSESSABLE.** The 88% enters the book and calibration is scored **across resolved predictions**, never on this one. | ❌ **No — n=1 cannot reach it** |
+
+**What survives from B5 unchanged, and it is the part I actually cared about:** **a HIT must not launder a broken rationale.** That is now stated on the axis that can carry it — **rationale quality — instead of borrowed from an axis that cannot.** ⇒ **9/10 hike ⇒ `HNS-05` HIT · rationale-quality FAIL · calibration untouched.** **9/10 hold ⇒ `HNS-05` MISS · rationale-quality FAIL anyway** — I do not get to claim vindication for the §1 growth argument, because **the version of it I published was built on stale numbers, and being right by a route you did not travel is luck** `[[finding_claim_outlives_its_discredited_instrument]]`. **Note the asymmetry that makes this honest: the rationale grade is FAIL in BOTH branches, fixed before the outcome, so no result can move it.**
+
+⚠️ **Why I made the error, recorded because it is the reusable part:** I wanted a penalty attached to a call I no longer trusted, and "confidence" was the nearest available word — so the verdict I had already decided on picked the axis, rather than the axis determining the verdict. **A grading vocabulary that lets one dissatisfaction attach itself to whichever axis is nearest will let a HIT absolve a bad process just as easily as it let a bad process condemn a number.** The fix is that the axes are now enumerated, so a grade has to name which one it is scoring.
 
 **§3b (tactical-vs-regime) and §3c are UNCHANGED and remain the informative content**, exactly as §5 says. Nothing in this appendix touches them.
 
@@ -206,4 +220,4 @@ Resolver: ECB press release, 13:45 CET. **Grade on the first rate DECISION on or
 **Eurostat Q2 GDP `2-14082026-AP` IS a primary read.** Euro area +0.4% q/q; DE +0.2%, FR +0.2%, IT +0.2%, ES +0.7%.
 
 ---
-*Appendix B registered by HANS 2026-09-05. §1–§5 and Appendix A unedited. `HNS-05` unchanged at 88%, with a pre-committed POOR confidence grade on a HIT.*
+*Appendix B registered by HANS 2026-09-05; **§B5 wording corrected the same day at §B5-bis** (Codex via PROME) — original struck, not deleted. §1–§5 and Appendix A unedited. `HNS-05` unchanged at **88%**, with a pre-committed **rationale-quality FAIL in both branches** and **calibration explicitly NOT assessable at n=1**.*

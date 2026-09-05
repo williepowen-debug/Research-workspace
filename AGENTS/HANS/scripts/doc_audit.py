@@ -20,6 +20,7 @@ Checks, each tied to the incident that motivated it:
   C5 TSV            No ragged rows (a short row silently shifts every later column).
   C6 CAPS           STATUS.md within BOTH its line cap and the read-cap BYTE budget.
   C7 PATHS          Every `path/like/this` referenced in a boot-read surface resolves.
+  C8 KB-STALE       No ACTIVE KB fact asserts a value retired for a metric it declares.
 
 Exit 0 clean · 1 findings. Run at closeout and after any edit to a boot-read surface.
 """
@@ -124,6 +125,44 @@ def audit():
         if (r.get('Current_Value') or '').strip() in olds:
             bad('C2-SUPERSEDED', f"VX {r['Vector_ID']}.Current_Value = "
                                  f"{r['Current_Value']!r}, retired for {m}")
+
+    # ---- C8: ACTIVE KB facts asserting a superseded value -------------------
+    # PERIMETER GAP FOUND BY CODEX VIA PROME, 2026-09-05 — not by this script. C2 covered
+    # registry and VX and stopped there, so three KB rows stayed ACTIVE asserting the PMI
+    # flashes and a refuted "France stagnated" AFTER every headline surface was corrected,
+    # with Stale_By dates weeks out so boot §[7] would not reach them either. A checker's
+    # PERIMETER is a claim about where drift can live, and mine was wrong
+    # [[finding_instrument_reports_clean_against_the_wrong_reference]].
+    # Series-qualified the same way C2 is: a KB row is only checked against metrics whose
+    # declared vector it names in its own Vectors cell.
+    for r in tsv('workbook/KB.tsv'):
+        if (r.get('Status') or '').strip().upper() != 'ACTIVE':
+            continue                       # SUPERSEDED/RETIRED rows keep their text BY DESIGN
+        vecs = {v.strip() for v in (r.get('Vectors') or '').split(',') if v.strip()}
+        fact = r.get('Fact') or ''
+        for vid in vecs & set(byvec):
+            m, olds = byvec[vid]
+            for o in olds:
+                for hit in re.finditer(rf'(?<![\d.]){re.escape(o)}(?![\d.])', fact):
+                    # MARKER-ADJACENCY, same discipline as scripts/consumer_check.py: a
+                    # superseded value sitting next to a history word is a QUOTE, not an
+                    # assertion, and quoting what you used to believe is exactly what a
+                    # corrected row SHOULD do. Without this, C8 flags its own corrections.
+                    ctx = fact[max(0, hit.start() - 60): hit.end() + 60].lower()
+                    if re.search(r'flash|was |were |from |prior|previous|superseded|'
+                                 r'corrected|retired|revised|earlier|until|\bold\b|'
+                                 r'no longer|instead of|not \d', ctx):
+                        continue
+                    # DATE-ADJACENCY. "3.29% on 8/28" is a historical quote with no history
+                    # WORD in it. Sound because the value is ALREADY on the superseded list:
+                    # a retired value carrying its own date is by construction a citation of
+                    # when it was true, not a claim that it still is.
+                    tail = fact[hit.end(): hit.end() + 24]
+                    if re.search(r'^\s*%?\s*(on|as of|at)?\s*[\[(]?\s*'
+                                 r'(\d{1,2}/\d{1,2}|\d{4}-\d{2}-\d{2})', tail):
+                        continue
+                    bad('C8-KB-STALE', f"{r['ID']} is ACTIVE and asserts {o!r} "
+                                       f"(retired for {m}, surface {vid})")
 
     # ---- C3: registry vs its metric surface ---------------------------------
     reg = {r['threshold_id']: r for r in tsv('registry/THRESHOLDS.tsv')}
