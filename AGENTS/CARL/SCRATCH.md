@@ -4,6 +4,13 @@
 
 ---
 
+## ⏭️ NEXT SESSION, FIRST TWO THINGS (added at closeout)
+1. **The 9/30 PREDICTION CLUSTER — four resolutions inside 25 days and none touched: CRL-05** (+ its basis question, **6th session carried**), **CRL-08** (window closes ~9/30, gap 35.4¢), **CRL-17**, **CRL-21** (both Q3-2026). ⛔ **Do not let these resolve by expiry.**
+2. **`abs_monitor.py` — a monitor that cannot see its own panel is WORSE than none, because it reports clean.** Confirmed disjoint: it tracks Exeter 2026-1/2025-5/2025-4/2025-3; the registered V2 panel is EART 2022-2/2022-3/2023-1/2024-1.
+*(Read-cap: ROADMAP is fixed. **STATUS 81% is next and takes the same index/detail treatment.** MEMORY 86% / 3 lines from cap — ⛔ **flag to PROME, do NOT compact it yourself.**)*
+
+---
+
 ## PRIORITY-1: **V16's DROP-BACK-TO-3 BRANCH IS LIVE AT 1 OF 2, RESOLVER ~FRI 10/2 — AND IT HAS NEVER BEEN RATIFIED.**
 - **BLS revised July NFP −23K → +21K** on 9/4 (June +20K → +31K, net **+55K**; August **+162K**). **There was no negative payroll print in this cycle.** Verified independently off FRED `PAYEMS` levels — **6 of 6 deltas match** (214/148/63/31/21/162 Mar→Aug).
 - ⛔ **V16 HELD AT 4 AND THE REASONING MUST TRAVEL, because three things had to hold:** ① **WQ-175 ②** — a later vintage crossing the bar is a **dated annotation, never a re-grade**; ② **WQ-162** — a letter naming no vintage **grades as first published**, and V16's named none; ③ **the drop-back letter reads 1 of 2**, and its own *"single-month discipline applies in both directions"* clause is what forbids stepping down on one print — the same clause that held V16 at 3 against June's +57K on 7/2.
@@ -97,12 +104,12 @@
 ## WORKBOOK HEALTH
 | File | Size / rows | Note |
 |---|---|---|
-| **STATUS.md** | **~43.8 KB** | 🔴 **GREW +4,319 B this session — 81% of cap, ~11.2 KB OVER the 32,550 B budget.** Reported, not hidden: the growth is disambiguation prose on the retraction, and **flags and the cap are ONE budget.** **Rotation #11 is owed and must be STRUCTURAL (hot/cold dashboard split)** — tail-trimming is exhausted |
+| **STATUS.md** | **43,794 B** | 🟠 **81% of cap, ~11.2 KB over the 32,550 B budget.** Two rows trimmed by DE-DUPLICATION (−2,430 B) and it still GREW +4,320 net this session. **Next: the same index/detail pattern ROADMAP just got — its dashboard has the same disease** |
 | **MEMORY.md** | **46,494 B / 97 lines** | 🔴 **86% of cap, 3 LINES from the 100-line cap. NOT grown this session — the lesson went to auto-memory instead, which is what the cap rule asks for.** Next session must promote/prune BEFORE adding |
-| **ROADMAP.md** | **~47.4 KB** | 🔴 **grew +6,966 B** — 2 new open threads, 3 open questions, a full resolved block. **Rotation owed** |
+| **ROADMAP.md** | **31,646 B** | ✅ **FIXED STRUCTURALLY — 51,744 → 0.92× budget, first time under in months.** Index/detail split, generated + drift-gated. Detail → `ROADMAP_THREADS.md` (**grep-only**, 25.5 KB, off the boot path) |
 | **NEXUS_BRIEF.md** | 109 lines | Written LAST per NEXUS Amendment 10; carries the STATUS commit ref |
-| board_log.tsv | 61 lines | 8 dispositions appended; vocabulary validated (`filed` → `noted`) |
-| KB.tsv | **421 data rows** | +8 (418-425). All 15-field verified, **no dup IDs** |
+| board_log.tsv | 62 lines | 9 dispositions appended; vocabulary validated | 8 dispositions appended; vocabulary validated (`filed` → `noted`) |
+| KB.tsv | **428 data rows** | +15 this session (KB-CARL-418…432). All 15-field verified, no dup IDs | +8 (418-425). All 15-field verified, **no dup IDs** |
 | PREDICTIONS.tsv | 29 (**15 OPEN**) | ⚠️ **CRLF — binary-mode edits ONLY.** Not touched this session. **+55d behind STATUS on `ledger_staleness` — freeze or refresh next session** |
 | CATALYSTS.tsv | 21 data | 1 fired-and-replaced, **1 ADDED-then-CORRECTED (the 9/10 CVNA row was a fabricated event; relabelled to the internal registration sitting)**, 1 re-dated; **4 past-due rows still lingering, deliberately NOT pruned** |
 
@@ -113,6 +120,34 @@
 - **⚠️ A FORWARD-ONLY RULE PROTECTS THE VERDICT AND LEAVES THE EVIDENCE SENTENCE STANDING.** WQ-175 worked exactly as designed and 7 surfaces still read false in the present tense. **Where a grade RESTS on a revisable figure, stamp the vintage ON THE SURFACE, not only in the changelog.**
 - **⚠️ VINTAGE DISCIPLINE IS AIMED AT HEADLINES; THE CLAIM LIVES ONE LEVEL DOWN.** The sector cut revises ~7× harder and is precisely the cut a thesis desk reaches for — **because it is the only cut that speaks to the thesis.** Prefer the LEVEL series and re-derive the delta yourself; a stored delta keeps its old vintage forever.
 - **⚠️ `open(path,"w")` TRUNCATES BEFORE IT WRITES.** I zeroed STATUS.md with a write that raised on a bad argument. **Build the string, assert a minimum length, write `.tmp`, `os.replace`.** All edit scripts hardened; the pattern is in the scratchpad if needed again.
+
+---
+
+## ADDENDUM 2 (closeout 9/5) — three corrections landed AFTER the main write-up, two of them mine
+
+### ⛔ 1. THE 9/10 CVNA PRINT DOES NOT EXIST — I propagated a fabricated event to 6 surfaces
+PROME's 9/4 reconcile mis-re-dated compound DOCKET L131 from **7/29 → 9/10**; **CVNA Q2 was 2026-07-29 and I graded it 7/31 (KB-CARL-366).** I took the date on trust and reported it as a **DOCKET GAP CLOSED** — it had no row *because the event does not exist*. Codex caught it; PROME owned it. **All 6 surfaces corrected**; 9/10 is now the INTERNAL V2 leg-table registration sitting, and **the real V2 grade moves to ~9/15 broad+Carvana 10-D and the 9/30 deep-tier filing (verdict defers to the later-filing tier ⇒ ~9/30).**
+🔑 **KB-CARL-428 — MY OWN INSTRUMENT FLAGGED IT AND I RESOLVED THE FLAG BACKWARDS.** `claim_check` fired *"Wed 9/10 is a Thursday"* across **5 files**; I wrote *"date right, weekday wrong"* and sed'd Wed→Thu in one pass. **2026-07-29 was a Wednesday** — the **weekday was the surviving true fragment**, the **date was the fabrication**, and my "fix" erased the tell **five times in one pass.** ⇒ **A date/weekday mismatch is the FINGERPRINT OF A TRANSPLANTED DATE, not a typo. Ask which half is the SURVIVOR before editing either.** Promoted to fleet auto-memory by PROME as `[[finding_a_flag_resolved_in_the_wrong_direction_launders_the_defect]]`, whose own addition is sharper than mine: **resolve ONE, confirm at the primary, THEN propagate.**
+
+### ⛔ 2. THE RE-BASED TRADE-DOWN LEG HAS NO OUT-OF-SAMPLE SUPPORT (Codex, accepted in full)
+I retired the employment proxy for a **sign error**, built the replacement signature, then "confirmed" it on **the very DG Q2 print that motivated the re-base**. **In-sample fit, not a test.** I had written *"the leg survives on Tier 2 alone"* — which implies Tier 2 is evidence. **It is not: Tier 2 has ZERO out-of-sample observations.** ⇒ **Tier 1 is 3-of-3 AGAINST and Tier 2 is an in-sample construction, so the leg has NO out-of-sample support on EITHER tier.** It is a **registered hypothesis contributing NOTHING to conviction** until **DG Q3, ~Dec**. **V8 holds 4 on the vector's OTHER evidence, not on this leg.** Also mis-named the output: food-at-home CPI vs a **whole-company** ticket is an **inflation-adjusted ticket proxy (−1.11pp)**, *not* a real basket, *not* units. **KB-CARL-432.**
+⚠️ **Second instance today of the same shape: a correction pass is unreviewed work, and it is MOST unreviewed exactly where it feels most rigorous.** The session that correctly killed one instrument for a spec defect shipped its replacement with a fresh one.
+
+### ✅ 3. ROADMAP FIXED STRUCTURALLY (Will-directed) — 1.57× → 0.92× budget
+**My first assumption was wrong and measuring caught it:** I expected RECENTLY RESOLVED to be the bulk (it was 21%). **OPEN THREADS was 61%, and only 6% of its rows were closed-mis-filed — 28 were genuinely open at ~865 B each**, so rotation could not fix it. Same finding STUE produced on its own surface the same morning.
+**Fix = read-mode:** `ROADMAP.md` is now a **GENERATED index**; the per-thread narrative moved to **`ROADMAP_THREADS.md` (GREP-ONLY)**; `scripts/roadmap_index.py --rebuild` / `--check` (closeout gate, fails closed). ⛔ **Edit threads in THREADS, then rebuild — hand-edits to the index are overwritten by design.**
+**Why a split is safe here and was not for STUE:** I ruled against one on STUE's surface *because no checker reaches a sub-agent*. **CARL has one — and the index is GENERATED from the detail, so the pair cannot drift by construction.** Same pattern as `PREDICTIONS.tsv → PREDICTIONS_MIRROR.md`.
+**28 open rows + 2 closed rows asserted VERBATIM, 0 lost.** 9/02 resolved block rotated to archive, crc32 `3c75e1e1`, round-trip verified. **CLAUDE.md boot step 6 + closeout step 13 wired** *(my own card — flagged to Will plainly, reversible)*.
+
+### 📉 THE AGGREGATE, WHICH IS THE NUMBER THAT GOVERNS
+| | start | close | Δ |
+|---|---|---|---|
+| STATUS | 39,474 | **43,794** | +4,320 |
+| ROADMAP | 40,978 | **31,646** | **−9,332** |
+| SCRATCH | 15,764 | *(this file)* | + |
+| MEMORY | 46,494 | 46,494 | 0 *(lesson went to auto-memory, per the cap rule)* |
+| **BOOT-READ TOTAL** | **~157,147** | **~173,621** | **+16,474 (+10%)** |
+⛔ **ROADMAP IS FIXED; THE SESSION IS NOT.** The structural fix reclaimed **21,347 B** and the session still ended **+16,474 B up.** Over-budget boot surfaces **3 → 2** (MEMORY 86%, STATUS 81%). **Do not report this as a saving.**
 
 ---
 
