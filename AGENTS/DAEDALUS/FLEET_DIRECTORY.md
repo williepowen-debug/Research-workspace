@@ -64,7 +64,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L5 | H | 2026-09-01 | Fleet architect — design / structure / maturity / lifecycle | Sustain L5: profile refresh queue (NEXUS→RED→PROME 9/08 |
+| DAEDALUS | Meta | L5 | H | 2026-09-05 | Fleet architect — design / structure / maturity / lifecycle | Sustain L5: profile refresh queue (NEXUS→RED→PROME 9/08 |
 | RAV | Meta | L2 | M | 2026-09-01 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST §5 run report in AGENTS/RAV/runs/ (Will-driven |
 
 ---
