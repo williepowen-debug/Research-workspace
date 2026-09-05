@@ -6,6 +6,19 @@
 
 ## Changelog
 
+### 2026-09-05 (s) — WQ-180 scope corrected to FIVE desks; WQ-181 ② sharpened to N/A, killing an option I wrote myself (PAIRING, IN THE SAME COMMIT — third blueprint edit today, first one paired on time)
+**Two corrections to `BLUEPRINTS/utility-agent.md`, both from Codex via PROME, both accepted:**
+
+**1. Scope: six desks → FIVE.** `:80` named **WALTER · NEXUS · RED · TERRY · ORACLE · YEYOU**, and **YEYOU was retired the same day** (Will 11:56 ET, WQ-181 ①, ROSTER `1627f77a3`). The adjudication scope named a desk that no longer exists. **Same class as the `render_directory` defect found the same hour** — a retired agent still named as live on a surface nobody re-read. Two instances, two surfaces, one afternoon: **a retirement's blast radius is every surface that enumerates the fleet, and enumerations do not announce themselves.**
+
+**2. WQ-181 ② narrows to ONE option, and it kills option (b), which was mine.** I had offered *strike · **re-point at whatever review source is actually live** · N/A*. Codex's argument: **RAV is Will-driven and on-demand with no cadence any agent controls, so "zero RAV flags" is satisfied by RAV never running — the identical default-zero defect wearing a different name.** A re-point is valid **only to a RECURRING feed, and none exists post-YEYOU.**
+> **The self-indictment worth keeping: I checked that a review source EXISTED and never checked that it RECURS.** That is the same one-directional blindness as everything else today — in an option I authored *specifically to repair a one-directional leg*. Writing the fix does not exempt the fix from the defect it repairs.
+
+**Strike is also out** — it deletes the record that a mechanical seat exists and is vacant, leaving nothing to mark the gap. **⇒ `N/A` explicitly**, in the `WAIVED-with-note` form Rider 1 already establishes, so the leg stops reading as a passed test **and the vacancy stays visible**. Still Will's to rule; recorded as sharpened input, not a decision. **Reasoning verified on its merits; provenance is a relay, not an artifact I read** — stated so the distinction survives.
+
+**Method note:** entries (m) and (r) both recorded this file shipping *without* its pairing entry — "small canon edit at the end of a long session," n+5 and n+6. **This is the third `utility-agent.md` edit today and the first paired in the same commit.** The guard caught the first two; the habit is what changed on the third.
+**Self-row:** L5 unchanged; no ladder leg moved.
+
 ### 2026-09-05 (r) — two `utility-agent.md` edits shipped without their pairing entry (PAIRING, LATE — PAT-101 rule ii, n+5 AND n+6, and I named this exact class two days ago)
 **What the two commits changed in the standard, recorded now:**
 1. **`76e49f2c1`** — added the **9/14 adjudication input** to the WQ-180 rider block: the L5 leg **"zero YEYOU flags" is a DEFAULT-ZERO INSTRUMENT** — with no reviewer producing flags it is trivially TRUE for every utility desk forever and **cannot falsify (PAT-060)**. Three options registered (strike · re-point at a live review source · mark `N/A-until-a-reviewer-exists`), **proposed not encoded**, because a ladder change is the same Will-gated class as WQ-180 and the YEYOU-dormancy premise was **unverified at any artifact** (no WILL_QUEUE row, no commit, ROSTER unchanged). *(PROME subsequently self-corrected — it had relayed Will's tentative "consider closed I think?" as ruled; registered as **WQ-181**, and its rec is **re-point or N/A, not strike**.)*
