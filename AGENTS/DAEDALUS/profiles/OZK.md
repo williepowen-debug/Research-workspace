@@ -1,54 +1,41 @@
-# OZK — DAEDALUS Comprehension Profile
+# Agent Profile — OZK
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** STATUS-stamp lead over build 24d > 21d · body 8/07. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+**Built by:** DAEDALUS · **Body:** 2026-08-07, **refreshed 2026-09-05** · **Method:** solo read + each named L5 item re-measured
+**Staleness:** 21-day clock → checkpoint **2026-09-26**
 
-**Built:** 2026-08-07 (first profile — discharges the "profile owed since first row" debt; Mode-A single-reader full read, 178 files) · **Grade at build:** L4 Conf-H HOLD, legs STRENGTHENED same-day (FLEET_MAP owns it) · **Class:** Market — single-name bank specialist (Bank OZK only: FDIC cert #110, RSSD 107244 verified at the FFIEC primary; NOT CRE-generally — CLAUDE:185-193 hands CRE-market-wide to CREED-via-REGINALD, the multi-bank matrix to REGINALD, WAL to the WAL agent "peer since 7/25, same lifecycle as you") · **Staleness (content-derived):** re-read after the P-OZK-1..5 Will dispositions land, after the ~Oct Q3 print, or when STATUS's stamp leads this build date >21d.
+## 1. Identity
+**Bank OZK specialist** — RESG construction book / classified-migration watch. Market class, ACTIVE, single-name depth desk. **Spawnable by:** PROME / Will.
 
-## Identity in one line
-Single-name FDIC-supervised bank specialist running a **pre-registered, frozen-card, two-stage print-grading contract** on the RESERVOIR v1.5 CRE-recognition thesis — **the best falsification machinery read in the fleet** — catalyst-driven cadence (quarterly print + Aug IQHQ maturity + Oct-1 sub-notes reprice), position book deliberately not managed (Will RIDE ruling 8/4; residual → $0 at 8/21 OPEX; "do not re-open").
+## 2. State
+Last session **2026-08-31** (IQHQ Aug window CLOSED — disclosure sweep RUN, **swept and empty**, inbox drained). STATUS **163 ln**. Still one of the most current desks in the fleet.
 
-## Provenance & the revival-gate story (verified; root-CLAUDE wording imprecise)
-Spun out of REGINALD 2026-04-24 by git mv (the precedent WAL's promotion cites). **Two-stage dormancy — don't conflate:** first revival 7/4 (PROME-pushed re-baselining off a 6/26 REVIVAL PACKET; "71-day cold boot" noted IN-FILE, dated, not silently overwritten). The **registered revival gate lived in PROME's DOCKET, not an OZK file** (DOCKET:50: "revival-gated on this print + live broker book"); OZK woke **7/18** to arm for the 7/21 Q2 print, ROSTER flipped ACTIVE 7/22, root list lagged to 7/25. Dormancy-era conventions worth encoding (how L4 survived 71 dark days): freeze-at-freeze-time + explicit dated re-baseline at revival · "Nothing in your docs was edited by Prome. This is intake." · passed catalysts logged with outcomes, never pruned (CALENDAR §RESOLVED holds explicit negatives — "No public ruling found").
-
-## File anatomy (where the richness lives)
-| Cluster | Files | Notes |
+## 3. The three mechanical L5 items — re-measured
+| # | Item | Status 2026-09-05 |
 |---|---|---|
-| Entry/instructions | `INDEX.md` 180 (cold-boot map, mirrors thesis version + KB counts, drift-checked at spawn) · `CLAUDE.md` 266 — **SPAWNED-MODE boot card :29-36** (the fleet's most complete: cwd-inheritance handling + 2-sec drift check + "do NOT push — PROME sweeps") + **17-row DOC OWNERSHIP table :150-167** | reference-grade |
-| Dashboard | `STATUS.md` 163 ≤ cap — positions · Q2 snapshot · Call Report block · **Signal Dashboard :110-119** (7 rows, the local convergence surface) · catalysts · BOTTOM LINE | LIVE 8/7 |
-| Thesis core | `THESIS.md` 207 (v1.5, version-pinned: "THESIS edit without CHANGELOG entry = incomplete") · `CHANGELOG.md` 285 · `IQHQ_PLAYBOOK.md` 312 (4-scenario tree + **FROZEN Option-2 ruling :218**) · `SEVEN_CREDIT_DEEP_DIVE.md` 303 (**OZK-04's numerator — 4/22 vintage, 2 prints behind**, self-flagged) · `SCENARIOS.md` · `WEAKNESSES.md` C1-C8 (the live bull case; C7 "meter quarterly" — last metered 7/18) | LIVE / watch items |
-| ★ Falsification | `workbook/PREDICTIONS.tsv` 9 preds, 5 RESOLVED w/ Brier (Q2 cycle mean **0.1987**) · `workbook/Q2_2026_SCORING_CARD.md` — **frozen pre-registration contract** (":3 FROZEN 2026-07-18 (pre-print)… only fill the RESULT column") + **adversarial Z1-Z10 addendum** (Z6 = never re-grade off the Call Report · Z10 = "intent never resolves — executed-and-disclosed only") · two-stage grading (Stage-1 7/21 byte-exact primary, Stage-2 7/22 two cross-checked transcripts, aggregators discarded w/ the catch named) | the reason for L4 |
-| ★ NEW 8/7 | `CALL_REPORT_2026Q2_LOG.md` 229 (first-ever FFIEC series; §6 = the kill-§1 adjudication working; §7 = frame-spec check, 2 real instances) · `workbook/CALL_REPORT_SERIES.tsv` 18 qtrs — **ships w/ a PAT-044 two-clock header FROM BIRTH**; 6 BASELINE_CHECK quarters exist solely to prove 37.6% doesn't reproduce | exemplary |
-| KB | `KB.tsv` **222 rows**/33 groups, 13-col schema richer than fleet-typical (Epistemic class + →AGENT routing col) · `KB_INDEX.md` — **🔴 the one true rot: header still "7/22 · 217 rows", off by 5, and it sits OUTSIDE the agent's own boot drift-check** (which compares only INDEX↔THESIS↔STATUS) — textbook partial propagation, self-named as "OZK's dominant doc-rot failure mode" | flagged |
-| Subdomains | LIFE_SCI (the bear case) · GEOGRAPHY · PRIVATE_CREDIT (**sizes the ~$490M debt-on-debt book that printed $42.4M first-ever charge-offs 8/7 — not yet reflected, most consequential lag**) · INSIDERS — each w/ own STATUS, all 7/06-7/18 vintage | pre-Q2 lag |
-| Evidence | `raw/` 16 PDFs (8 qtrs Mgmt Comments + 10-Q + 8-K bundle) · `raw/llm_outputs/` 28 — **provenance discipline: "LLM-output source ⇒ treat Conf one notch worse than labeled"** · `sources/` incl. 2 FFIEC CSVs · `historical/` | deep |
-| Ops/mail | `REGINALD_CHANNEL.md` — dedicated pair channel w/ formal ACK discipline (not inbox/outbox); corrections flow BOTH ways · inbox **0 unprocessed** · outbox 11 undelivered (8 demonstrably consumed — hygiene lag; ⚠️ the 7/23 ozk09-remark file is a LIVE CITATION TARGET from STATUS:120 + the PREDICTIONS row — **re-point before moving, never sweep**) · `scripts/boot.py` v0.1 — 🔴 see flags | mixed |
+| 1 | **KB_INDEX group tables not re-rolled** | 🔴 **STILL OPEN, and now precisely located.** `KB_INDEX.md:3` header was updated **8/28** and explicitly names **+228** and **+229** — but the **group tables inside max out at 227**, while `KB.tsv` runs to **229**. So two KB rows exist in the ledger and appear in **no group table**. The debt is not the span (the header's `218–229` is correct); it is the body the header vouches for. |
+| 2 | **outbox/ root not drained to delivered/** | 🔴 **STILL OPEN and GREW: 10 → 13 files**, oldest **2026-07-18**, and the 7/23 `ozk09-remark-proposal` citation target is still among them. |
+| 3 | **Two-clock headers on KB.tsv + PREDICTIONS.tsv** | ✅ **DONE.** Both carry `# Last real data refresh:` — KB.tsv `2026-08-23 (rows 223-227, MI3 2025Q3 adjudication)`, PREDICTIONS.tsv `2026-07-23`. |
 
-## The kill tree & the 8/7 adjudication (§4 locus — cite as the fleet reference for kill-fire adjudication)
-THESIS:164-188 — 5 criteria, per-criterion state table, load-bearing ranking, each cross-ref'd to its PREDICTIONS row. **Kill-§1 adjudicated CLOSED 8/7** (it had sat FIRED-but-unstamped 17d): literal condition fired on every basis (past-due $465M→$298M supplement / $487.5M→$323.7M Call Report, both <$400M) — but the mechanism did NOT occur: **the entire decline is the 30-89 transit bucket (RCON1406 −88%) while nonaccrual ROSE and OREO nearly doubled — NPA +31.9% QoQ**. Verdict: **FIRED-LITERAL / NON-DISCONFIRMING-ON-MECHANISM; "the criterion is mis-specified, not merely mis-triggered"** — it thresholds a bucket credits pass *through*, so its emptying is ambiguous between cure and progression by construction. Re-spec = **P-OZK-4, Will-gated, NOT applied, criterion text verbatim unchanged** — stated against interest (the candidate bucket-invariant measure reads Q2 −4.0%, converting a false clean kill into a soft caution — "precisely why it goes to Will rather than into the file"). Generalized as **PAT-090**. The stamp records its own rot ("prior stamp read 4/23 None-fired, false since the 7/21 print") — cite fleet-wide as the pattern.
+## 4. Finding
+**🟠 F-1 — item 1 is a textbook header-over-stale-body.** The `KB_INDEX.md` header was edited on 8/28 to announce the two newest rows, which is the edit most easily mistaken for maintenance: **a fresh header over an unrefreshed body certifies the body** `[[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]`. A reader checking currency sees an 8/28 stamp naming 228/229 and stops. **Cost is two group-table rows.**
 
-## §3 Invalidation-surface inventory (PAT-088 rows; kinds per PAT-077)
-| Surface | Kind | Vintage rule | State 8/7 |
-|---|---|---|---|
-| THESIS §WHAT-WOULD-INVALIDATE (5 criteria + state table) | STATE | stamp names date AND the print it reflects | ✅ CURRENT 8/7 (§1 ADJUDICATED · §2 moved AGAINST the kill, NCO 0.69% · §3 "intent, not a cure (Z10)" · §4/§5 not fired) |
-| THESIS §MEMO-3 (the 37.6% MI3 pillar) | STATE | must reproduce from primary on stated basis | 🔴 CONTRADICTED-BY-PRIMARY, banner-flagged, content deliberately preserved — disposition is REGINALD's (P-OZK-2) |
-| PREDICTIONS.tsv | APPEND-ONLY (resolved rows immutable) | Date_Made/Resolved; Z6 forbids Call-Report re-grades | ✅ 5 RESOLVED w/ Brier, 4 OPEN (02/03/04→Feb-27; 09→Aug-26/Q4 window) |
-| Q2_2026_SCORING_CARD + Z1-Z10 | EVENT (frozen contract) | frozen at freeze date, RESULT fill-only | ✅ CLOSED CLEAN, mean Brier 0.1987 |
-| IQHQ Option-2 ruling (:218) | EVENT (frozen ruling) | Will-approved date; frozen until anchor resolves | ✅ FROZEN 7/23; anchor = Aug-26 maturity → counts through Q4'26 print |
-| WEAKNESSES C1-C8 | STATE | C7 "meter quarterly" | 🟡 last metered 7/18 — Q2 + Call Report landed since |
-| Signal Dashboard | STATE | per-cell [date]; price token must match header | 🟡 fundamentals current; price token 7/22 both places (consistent — the documented rot did NOT recur — but 16d old, pre-flagged pull-live) |
-| CALL_REPORT_SERIES.tsv | APPEND-ONLY | two-clock from birth | ✅ next ~Nov-26; **FFIEC JWT expires 2026-11-05, straddles the window** |
+**🟡 F-2 — the outbox debt is now aging past its own usefulness.** Thirteen files, oldest 49 days. `outbox/` root is supposed to signal OPEN loops only; at 13 it signals nothing. Note the delivery-verification rule applies: `delivered/` is a claim only the **recipient's** tree can settle.
 
-## DO-NOT-TOUCH
-1. **Scoring-card resolution rules** (frozen contract — editing post-print destroys the grading basis). 2. **OZK-09's 45% + A30/B45/C8/D17 weights + Option-2 ruling** (Will-approved; ruling annotated "original wording UNALTERED"). 3. **Kill-§1 criterion text** — verbatim pending P-OZK-4. 4. **The 37.6% lines in 4 OZK-local surfaces** — disproved but REGINALD owns the screen; banner-flagged, deleted nothing, by rule ("two agents correcting the same figure separately is how the fleet ends up carrying two"). 5. **P-OZK-1..5 — ALL proposals, NONE applied**; applying one "helpfully" converts a Will-gated decision into a silent edit. 6. TRADE/POSITIONS freeze banners (DAEDALUS-authored, PAT-057-reworded; RIDE ruling makes the position non-re-present). 7. REGINALD_CHANNEL other-agent entries + ACK lines (shared pair surface). 8. CALL_REPORT_SERIES scope comments (the BASELINE_CHECK quarters ARE the 37.6%-refutation's strength). 9. `archive/` — "never read at boot", sweep-exempt.
+## 5. Grade — **L4 (H) HELD**
+| Leg | Verdict | Basis |
+|---|---|---|
+| L1–L2 floor | **PASS** | STATUS + BOTTOM LINE; KB 229 rows, PREDICTIONS, ledgers accruing with two-clock headers |
+| L3 convergence / exit / predictions / dated falsification | **PASS** | P-OZK cards; IQHQ window discharged on its last business day |
+| L4 signals flowing / consumed | **PASS** | BROCK + REGINALD packets delivered; MI3 adjudication consumed |
+| L5 clean closeouts | **PASS** | 8/31 closeout clean, window discharged on time |
+| L5 zero YEYOU flags | **WAIVED** | no live feed |
+| L5 current | **PASS** | 5 days |
+| **L5 structural hygiene** | **FAIL** | items 1 + 2 above — **two mechanical items, one session** |
 
-## Routing restraint (the standout discipline — cite in the blueprint's §6)
-Two disconfirming findings landed on OTHER agents' owned surfaces the same day; OZK routed rather than edited, both times: MI3 37.6% (REGINALD's screen — banner-flag + route, nothing deleted) and RIAD5409 $42.4M (bears on BROCK's pre-registered flip — routed **UNATTRIBUTED**: "the Call Report does not name credits… I have not graded BROCK's condition — that is BROCK's to grade").
+**L5 next-upgrade line:** *re-roll the KB_INDEX group tables through 229 (the header already claims them) + drain outbox/ root to delivered/ verifying at each recipient's tree. Two items, one session. The two-clock headers are done.*
 
-## Owner-lane flags (ranked)
-🔴 `boot.py` rot-with-teeth: still lists the PASSED 7/21 print as upcoming (3 lines), misses Oct/Nov catalysts, **derives staleness from mtime** (direct finding_mtime_is_corrupted_by_git_sync violation — fails false-negative), inbox glob blind to `inbox/WALTER/`; its own docstring names the fix (decompose to CATALYSTS.tsv; wire ledger_staleness to the two-clock header it now has). 🔴 KB_INDEX 217-vs-222 drift + outside its own drift check — **route a packet, don't edit** (OZK is live-ish, 2 commits today). 🟠 PRIVATE_CREDIT/STATUS 7/18 — not yet reflecting the $42.4M charge-offs on the book it sizes. 🟠 outbox→delivered lag (8 consumed files; the 7/23 citation-target caveat). 🟡 SEVEN_CREDIT roster (OZK-04 numerator, 2 prints behind — resolvability caveat vs refresh, Will/PROME Q). 🟡 POSITIONS banner-vs-body (body reconciled to FORGE 8/7, banner still FROZEN — lift/re-word decision). 🟡 subdomain STATUS refresh + insider re-pull (own NEXT-SESSION list). 🟡 NEXUS_BRIEF: none + no documented waiver (unresolved question, not a defect — CREED's waiver is documented, OZK's silence is not).
-
-## In-window queue (8/10-8/21 DOCKET — analytical work DONE 8/7; what remains is a Will decision queue)
-P-OZK-1..5 dispositions — **P-OZK-5 is cheap now and impossible later** (OZK-03 written on RESG-segment NCO, tracked bank-wide, and NO filing carries a RESG NCO rate; resolves Feb-27 — fixing a frame at its grade date is the exact 7/25-packet failure). REGINALD runs/repairs the ML-REG screen (same defect class as WAL's P8, found by two banks the same morning — until then the fleet carries a figure two agents know is wrong). OZK's own self-flagged adversarial check (MI3-collapse-vs-RESERVOIR orthogonality — flagged against itself, not yet run; should run against C7 before P-OZK-2 reaches Will). Nothing position-related (RIDE).
-
-## Open questions
-NEXUS_BRIEF waiver — document or build? Signal-Dashboard-as-sanctioned-§2-variant (with OSPREY's channel model, that's two local forms arguing the blueprint should name a variant class). The 1bp basis note (NCO 0.56% avg-loans vs 0.55% period-end AT the line — logged, not acted on) — worth a blueprint line on basis-pinning kill thresholds.
+## 6. DO NOT TOUCH
+1. **P-OZK card numbering** and the KB-OZK id sequence (cited across STATUS/INDEX/research).
+2. **The frozen Option-2 IQHQ framing** — the Aug window resolves nothing under it; a swept-and-empty result is a real result, not a gap.
+3. **`boot.py` staleness basis is git-commit-first and prints its basis** (:278-292) — resolved 8/07; don't re-key it to mtime.
+4. **The 8/23 retraction inside `KB_INDEX.md:3`** (the false "no 10-Q" note) — it is a correction record, not clutter.

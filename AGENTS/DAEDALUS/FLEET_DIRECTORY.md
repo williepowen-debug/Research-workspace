@@ -23,7 +23,7 @@
 | LABOR | Market | L5 | H | 2026-09-01 | Labor market (claims / JOLTS / NFP) | L5 SUSTAINED-WATCH: STATUS byte tier to <32,550 B (rotation) at next cl… |
 | BROCK | Market | L4 | H | 2026-09-01 | Private credit / BDC / non-traded credit | L5 blocker external; a declared byte-budget block (TERRY form) is the o… |
 | HAWK | Market | L4 | H | 2026-09-01 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 on: a self-driven session (spawn driver) |
-| TERRY | Utility | L4 | H | 2026-09-01 | Trade construction / risk scoring ‡‡ | L5 on the ONE-LINE fix: POSTMORTEMS.md:4 header re-cut to its own entri… |
+| TERRY | Utility | L5 | H | 2026-09-05 | Trade construction / risk scoring ‡‡ | L5 SUSTAIN: keep two consecutive clean cycles |
 | REGINALD | Market | L4 | H | 2026-09-01 | Regional banks | L5 on the Brier/archive layer (PREDICTIONS_ARCHIVE |
 | MARCO | Market | L4 | H | 2026-09-05 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | L5 on TWO form changes over existing substance: a labeled BOTTOM LINE h… |
 | ORACLE | Utility | L4 | H | 2026-09-05 | Prediction-market diagnostics ‡‡‡ | L5 on the calibration loop: build the instrument that makes CLAUDE.md:2… |
@@ -32,13 +32,13 @@
 | SHADE | Market | L3 | H | 2026-09-01 | Insurer-lender / PE-insurance-captive | L4 on PREDICTIONS.tsv seeded with confidences AT REGISTRATION (one file… |
 | ZHAO | Market | L4 | H | 2026-09-05 | China macro — UST demand / capital flows / Korea | L5 on: a SECOND consecutive clean cycle (9/2 was the first) |
 | AEOLUS | Market | L3 | M | 2026-09-01 | Climate → economy (macro; insurance/ag/energy-demand channels) | Conf M→H at the Mode-A profile fan-out (owed since 8/23) |
-| WATT | Market | L3 | H | 2026-09-01 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L4 on: a boot that consumes the AEOLUS seam packets |
-| VULCAN | Market | L4 | M | 2026-09-01 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | Conf M→H on ONE reader-side consumption confirmed at the reader's artif… |
+| WATT | Market | L4 | H | 2026-09-05 | Power/grid — PJM stress → wholesale price → industrial/data-center cost | L5 on two consecutive clean cycles (9/3 was one) |
+| VULCAN | Market | L4 | H | 2026-09-05 | AI-capex / semiconductor / memory cycle → systemic risk (concentration, memory, power-demand, Taiwan chokepoint) | L5 on two consecutive clean cycles |
 | MIDAS | Market | L3 | H | 2026-09-01 | Metals — monetary (gold/silver: debasement, real-rates) + industrial (copper/PGM: growth, China, supply) | L4 on: TRADE.md feeding a proposal (zero capital by design — Will's cal… |
 | OSPREY | Market | L2 | H | 2026-09-01 | Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel, shadow-fleet kinetic strikes, Baltic/Black-Sea ports | L3 on the strike-feed instrument (scripts/ |
 | FALCON | Market | L4 | H | 2026-09-01 | US/Israel/Iran-Gulf war theater — A/B/C/D ladder, Hormuz, Gulf targeting, Bab-al-Mandab/Houthi, Baghdad watch | L5 on: STATUS ≤250 (clears YEY-002) |
 | HOMER | Market | L2 | H | 2026-09-01 | Housing — asset market + housing credit structure (pipeline, GSE+CMBS multifamily, builders, HPI, mortgage-rate surface) | L3 on: (a) a thesis-level kill rail file (dated) |
-| OZK | Market | L4 | H | 2026-09-01 | Bank OZK specialist (RESG construction / classified-migration watch) | L5 on: KB_INDEX re-rolled |
+| OZK | Market | L4 | H | 2026-09-05 | Bank OZK specialist (RESG construction / classified-migration watch) | L5 on TWO mechanical items, one session: re-roll the KB_INDEX group tab… |
 | WAL | Market | L4 | M | 2026-09-01 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.3) | Conf M→H at PR#6 on WAL-01/02 graded-or-voided |
 | FLG | Market | L3 | M | 2026-09-01 | Flagstar Financial specialist (NYC rent-regulated multifamily → CRE concentration → nonaccrual → reserve adequacy; formerly NYCB) | Conf M→H on the first grade 11/06 landing as dated |
 | CRUISE | Market | L3 | M | 2026-09-01 | Cruise-sector event specialist — CCL vehicle; fuel-cost transmission (BRENT → CCL); 8-channel pre-announce watchlist (`WATCHLIST_CCL_PREANNOUNCE.md`, 8/14); Q3 print ~9/28-29. ⚠️ The 7/2 arm-CCL ladder is PROPOSED-NEVER-RATIFIED and 4wk in-band — retire-or-fresh-levels decision staged at next session (row-55 ruling 8/21); do NOT treat its band as a live threshold | DEMOTE L3→L2 if the Q3 print (~9/28) passes with no session |

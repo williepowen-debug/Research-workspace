@@ -1,52 +1,50 @@
-# VULCAN — DAEDALUS Comprehension Profile
+# Agent Profile — VULCAN
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** 25d > 21d day clock (header-date 2026-08-07) · mail snapshot overtaken · promoted L3→L4 M at PR#5. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+**Built by:** DAEDALUS · **Body:** 2026-08-07, **refreshed 2026-09-05** · **Method:** solo read + the consumption leg verified **at each reader's own STATUS**, not by filename count
+**Staleness:** **DATED TRIGGER ADDED** (the prior body had none — it was UNEVALUABLE): refresh at the **MU FQ4 print (~2026-09-30, window opens 9/17)** or **21d** → checkpoint **2026-09-26**
 
-**Built:** 2026-08-07 (first profile — discharges the row's "graded twice with no comprehension layer" debt; Mode-A single-reader full read, 19 own files + all mail, boot.py executed read-only) · **Grade at build:** L3 Conf-H (promoted L2→L3 8/7 — FLEET_MAP owns it; ⚠️ VULCAN's own STATUS:4 still self-reports L2 — the promotion packet sits unprocessed) · **Class:** Market (DAEDALUS-built 7/10, VULCAN_SPEC; MIDAS/WATT wave) · **Staleness (content-derived):** re-read when the author-rail retrofit is consumed, when VULCAN-02/11 resolve (9/30), or when STATUS's Last-Updated leads this build date >21d.
+> **📈 CONFIDENCE M → H this pass.** The single named gate — *"one reader-side consumption confirmed at the reader's artifact"* — is met by **four** readers carrying VULCAN's figures as canonical in their own live state. §3.
 
-## Identity in one line
-Owns *the AI buildout as systemic-risk transmission* — explicitly NOT a semiconductor-earnings desk (CLAUDE:5, L-02 names the DARWIN mode) — supplying the fundamental driver (capex trajectory, memory cycle, compute→MW, chokepoint, financing structure) that VIOLET/HENRY/WATT price but do not own. **Five channels, all core since 8/3** (S5 financing promoted tier-2→CORE, Will-approved): S1 capex-concentration (+2 sub-reads: obsolescence/useful-life, returns-case) · S2 memory cycle (+Korea leg) · S3 capex→MW (→WATT P3) · S4 supply-chain/geopolitics · S5 AI-infra financing. Boundaries enforced: VIOLET keeps the vol expression + KOSPI 2x-ETF amplifier, HENRY the FCF valuation, WATT the power price, LIQUID the spread tells, ZHAO/HAWK the China/Taiwan legs, BROCK private credit.
+## 1. Identity
+**AI-capex / semiconductor / memory cycle → systemic risk** — concentration, memory, power-demand, Taiwan chokepoint. Market class, ACTIVE, L4. Divides labour with WATT by explicit agreement: **"VULCAN sizes MW, WATT prices the grid."** **Spawnable by:** PROME / Will.
 
-## File anatomy
-| Cluster | Files | State |
+## 2. State
+Last session **2026-09-03** (an **amendment to its own GPU-instrument recommendation, filed *before* the Production Review** — a desk correcting itself ahead of the audit rather than at it). STATUS **122 ln**. 11.4k-line build-out: `tools/edgar_watch.py`, `mag7.py`, `scripts/catalyst_countdown.py` (the P3 consolidation donor). Kill rail LIVE at `EXIT_PROTOCOL.md:28-30`, re-read not restated.
+
+## 3. The Conf M→H gate — MET, at four readers' artifacts
+The gate was **one** confirmed reader-side consumption. Found four, each a reader carrying VULCAN's output in **its own STATUS as load-bearing state**, not merely a delivered packet:
+
+| Reader | The citation | Why it counts |
 |---|---|---|
-| Core | `CLAUDE.md` 218 ln — **SPAWNED-MODE BOOT CARD :13-20 w/ count-capex-root-ONCE semantics** (the named cold-spawn failure = triple-counting one earnings catalyst across S1/S3/S5; load-bearing for every PROME spawn) · `STATUS.md` 187 ln, 8/3 (**the richest file**: dated session blocks → matrix :62-71 → channel reads → 2 S1 sub-reads :95-103 → DISCONFIRMING SET :115 → triad :119-131 → adjudication → BOTTOM LINE) · `SCRATCH.md` 175 ln w/ ≥5 preserved-error annotations · `LESSONS.md` L-01..15 (L-08/10/13/14/15 = self-indictments w/ named mechanisms) · `NEXUS_BRIEF.md` 68 ln · `TRADE.md` NO-OPEN-POSITIONS banner-exempt, but forward text describes resolved catalysts (7/12) | LIVE 8/3 |
-| Thesis | `THESIS.md` 143 ln — stage tables w/ state enum; **the frozen 7/12 PRE-PRINT BASELINE table (:20-32) = deliberate pre-registration freeze, NOT rot** (VULCAN-01 was graded against it — refreshing destroys the grade); capex→MW 7-step conversion; S5 5-stage table w/ 3b independence leg. **🔴 S3 section (:92-98) 26d silent-middle AND WRONG** — still carries the "supports the LOW-to-MID 32GW" verdict that VULCAN-06 REVERSED on 7/31 (now supports the 55GW high side, already routed to WATT); about to be superseded a second time by WATT's unprocessed 8/4 FERC corrections | flagged |
-| Workbook | `KB.tsv` 70 rows (S1 31 · S2 13 · S5 9 · S3 8 · S4 6 · cross 3; row 065 malformed confidence cell vs the 3-tier schema) · `PREDICTIONS.tsv` 11 rows (**VULCAN-04 resolve_date cell still 7/23, correction in STATUS/SCRATCH never reached the machine cell** — the row nit, confirmed live) · `VX.tsv` 5 · `FLOW.tsv` 7 · `S2_SERIES.tsv` **n=1** (append-only w/ asof_utc; boot leg-3 nags at 7d → 8/10) | LIVE 8/3 |
-| Instruments | `boot.py` 168 ln — 3 legs, **7/31 rc-fix VERIFIED by execution** (run_alert :42-63 flags on OUTPUT-NONEMPTY never rc; live run rc=0 all legs printed); cwd-proof parents[2] · `tools/semi_watch.py` 257 ln (8/3) — TrendForce range-validated spot + **constituent-level cross-section (3 surfaces say never simplify to SOXX** — 8/3: SOXX −0.55% while constituents split 13-26%); ERR-fail-loud · `SCHEDULED_RUNS.md` — 3 cloud routines ALL SPENT/auto-disabled, correctly closed 8/3 | LIVE |
-| Mail | inbox **4 unprocessed, oldest 8/4**: PROME Amendment-10 ordering · **WATT 8/4 (VULCAN-06 consumed, P3 3🟠→4🔴 on a pre-registered trigger + the shared demand figure verbatim — the reconcile-to-one is DONE on WATT's side and unknown on VULCAN's)** · WATT 8/4b (**8/17 FERC resolver GONE — 90-day abeyance motion; invalidates the KB-064 cost line VULCAN was told to build 8/3**) · DAEDALUS 8/7 author-rail packet · processed/ 17 + WALTER/processed/ 34 · outbox 6, no delivered/ | backlog |
+| **WATT** | `STATUS:38` — *"**32 GW is the firm figure** (PJM's vetted system-coincident peak growth)"*; `STATUS:79` — *"🟡 **Owed to VULCAN:** the hedged-vs-floating share of neocloud load"* | Carries the seam figure **and** an open two-way obligation back |
+| **VULCAN↔WATT seam** | `VULCAN/STATUS:27,51,71` — *"**SEAM CLOSED 8/13 — adopt verbatim, never net or average:** ~55 GW nameplate / ~32 GW firm"* | A **closed, dated, verbatim-adoption** seam with an anti-averaging instruction — the strongest cross-desk form on the fleet |
+| **ZHAO** | `STATUS:18` — *"High-tech mfg 52.9 — held in expansion — **VULCAN's leg**"* | A named lane inside another desk's convergence grid |
+| **VIOLET** | `STATUS:94` — *"Equity concentration **(VULCAN-owned)**"* | Ownership acknowledged in a peer's live matrix |
 
-## Per-dimension vs blueprint
-§1 CONFORMANT split across two files — deviation: the two S1 sub-reads (the FCF-vs-EPS depreciation wedge; the returns-case axis) live only in STATUS, the rewritten file, not THESIS. **§2 = the strongest dimension, exemplary:** universal 5-pt + per-row Independence; composite 15/25 w/ the bolded denominator-change warning ("12/20 and 15/25 are the same reading; S5 adds a channel, not stress" — restated in the brief); capex root counted ONCE across S1/S3/S5; S5 flagged PARTIAL-independent; S2's loss of independence self-discovered (L-04). §3 CONFORMANT (8 banded rows + Routes-to; 2 gaps: KILL_MEMO cited :137 and absent anywhere; Mag-7 weight aggregator-sourced, self-flagged since 7/12, never sharpened). **§4 = THE RETROFIT TARGET — F5 survives, but see the six seeds below.** **§5 = second-strongest:** 11 rows, 7 resolved on their clocks, all w/ conf_tier + if_falsified + criteria + long resolutions; discipline marks: VULCAN-09 taken MISS-DOWNGRADE undefended · VULCAN-05's flattering +67.9% headline REJECTED as base effect, graded on H1 +35.6% · **VULCAN-07's gate held unrewritten after being found mis-specified, interpretation rule + re-test registered IN ADVANCE (L-11 rule (b) applied to its author's own gate)** · VULCAN-02's known wording defect handled the same way w/ SPLIT pre-declared "a spec failure against me"; no ARCHIVE/Brier (acceptable at n=11); HIT-NOFIRE/MISS-DOWNGRADE tokens non-canonical (legacy-grandfathered, machine-read cells — flag don't force). §6 CONFORMANT, unusually well-seamed (LIQUID two-way reconcile-to-one; **WATT PPA double-count guard: capex-implied MW and IPP PPA-MW are two views of one demand, never additive**; confirmed consumption = VULCAN-06 firing WATT's pre-registered P3 upgrade).
+Volume corroborates but does not carry the verdict: 8 VULCAN artifacts in WATT's `processed/`, 7 VIOLET, 4 ZHAO, 4 HENRY, 3 NEXUS.
 
-## The six extractable rail seeds (for the author-rail retrofit — EXTRACT these, don't invent)
-1. **The triad, STATUS:119-131** — 7 rows incl. two LEADING-INDICATOR rows (a fast layer under a slow lagging rule, each labeled "EARLY-WARNING ARMED — not a channel fire"; genuine local invention). Fired-count literal :133: **0 of 5**. Undated as a surface → stamp it.
-2. **The thesis-kill sentence :133 — the weakest link and the highest-value fix:** "dies only if capex re-accelerates AND concentration unwinds cleanly AND memory stays healthy" — a 3-way conjunction with **no levels, no session counts, no from-state, no base rate, never graded** (PAT-072 shape). Give it numbers.
-3. Channel-kill vs thesis-kill migration :133 — correctly stated ("a strong memory quarter kills S2's read, NOT the thesis, which migrates to S1/S3").
-4. **The bidirectional flip :135 — EXPIRED** (named the 7/22-7/29 stack, fully resolved; excellent L-12 amendment; **no successor registered** and the next resolver is ~9/29). Re-register a live one.
-5. **The DISCONFIRMING SET :115** — 3 dated confidence-scored counter-signals w/ the correct framing ("they attack the repricing leg, not the mechanism"). Preserve verbatim.
-6. `if_falsified` on all 11 prediction rows — **the only machine-datable falsification surface VULCAN has** (what the sweep can currently see).
+**⚠️ My prior row said the consumption legs were UNVERIFIED and that "WATT dark."** Both false now — WATT ran 9/3 and is the strongest consumer on the list.
 
-## §3 Invalidation-surface inventory (PAT-088 rows; kinds per PAT-077)
-| Surface | Kind | Vintage rule | State 8/7 |
-|---|---|---|---|
-| STATUS:119-131 triad | STATE | ❌ none of its own (file header + per-cell dates) | LIVE, fired 0/5 — **the F5 gap: not separately datable** |
-| STATUS:133 thesis-kill sentence | STATE | ❌ none | LIVE, conjunctive, ungraded (D2) |
-| STATUS:135 bidirectional flip | STATE | ⚠️ inline 7/22 UPDATE | **EXPIRED, no successor** (D3) |
-| STATUS:115 DISCONFIRMING SET | STATE | ⚠️ folded 7/17, items dated | LIVE, unchallenged since 7/17 |
-| THESIS stage-state enums | STATE | ❌ per-row undated | LIVE; **zero rows ever marked `falsified`** |
-| PREDICTIONS if_falsified + resolution | APPEND-ONLY | ✅ made/resolve_date | LIVE 7/11 resolved — the sweep's one datable surface |
-| CLAUDE:141-146 exit doctrine | STATE | ❌ | doctrine only, no live kill conditions |
-| VULCAN-02 SPLIT rule (KB-057) | EVENT | ✅ KB date 8/3 | pre-registered spec rule, lives in KB not on a rail |
+## 4. Grade — **L4, Conf M → H**
+| Leg | Verdict | Basis |
+|---|---|---|
+| L1–L2 floor | **PASS** | STATUS + BOTTOM LINE; ledgers accruing |
+| L3 convergence / exit / predictions | **PASS** | kill rail LIVE and **re-read, not restated** (the desk caught itself writing "still 1 of 3" into three commit messages without opening the file, fixed the *practice*, then re-evaluated leg-by-leg 8/24 + 8/27 ×2) |
+| L3 dated falsification surface | **PASS** | `EXIT_PROTOCOL.md:28-30`; Falsification sweep #2 graded the rail **the retrofit exemplar** |
+| L4 TRADE feeding proposals | **PASS** | `TRADE.md` present |
+| **L4 signals flowing AND consumed** | **PASS — 4 readers** | §3 |
+| L5 clean closeouts / current | **PARTIAL** | current ✅ (2d); needs a second consecutive clean cycle |
 
-## DO-NOT-TOUCH
-1. **THESIS:20-32 frozen pre-print baseline** — refreshing destroys VULCAN-01's grade. 2. **VULCAN-07's gate wording** — deliberately held unrewritten per L-11(b); never "fix" to make it pass. 3. VULCAN-02's paired wording — same discipline, SPLIT pre-declared against self. 4. **Preserved-error annotations** (≥5 in SCRATCH, STATUS:24 strikethrough, 2 report banners) — the audit trail, not untidiness. 5. STATUS:73 denominator-trap note — anti-misread guard, do not compress. 6. semi_watch constituent-level design + ERR-fail-loud. 7. CLAUDE:17 count-capex-root-ONCE spawn semantics. 8. DISCONFIRMING SET (R-04-ratified steelman). **NOT protected:** PREDICTIONS VULCAN-04 resolve_date — the 8/7 packet asks for exactly that fix.
+**Next-upgrade line:** *L5 on two consecutive clean cycles. The consumption gate is closed; Conf is H.*
 
-## Owner-lane flags (ranked)
-🔴 4-packet inbox incl. **the FERC-resolver-gone correction that invalidates KB-064's cost line** + the WATT reconcile closure + own L3 promotion — VULCAN's files don't know any of it (dark since 8/3). 🔴 THESIS S3 superseded 32GW verdict contradicting a figure already routed to WATT (the fix landed on fast surfaces, missed the slow one — same class as SCRATCH:39's "WALTER named 4 surfaces, I'd fixed 2"). 🟠 Retrofit sequence per this read: **stamp triad → specify thesis-kill → re-register flip** (addendum appended to the 8/7 packet). 🟠 D7/D8 = the two absences causally tied to VULCAN's two worst recorded failures: no inbox-depth boot leg (→L-14: an ACTION-flagged WALTER signal carried both the finding VULCAN "discovered" 3d later AND the correction to the error it then made) + no CATALYSTS.tsv (→L-13: "MU FQ4 ~8/4" survived 22d restated-not-re-derived); both cheap, neither blueprint-mandated, both would have caught a real failure. 🟡 KOSPI mandate (CLAUDE:93) **16d unexecuted — and there is NO figure to reconcile**: VULCAN cites zero KOSPI levels anywhere; semi_watch has no Korean ticker; VIOLET carries KOSPI 8,200 as a live Tier-2 canary. Cheapest fix: one ticker (^KS11/EWY) + a reconcile note at VIOLET's line. 🟡 VULCAN-04 cell · KB-065 malformed cell · S2_SERIES n=1 (nag fires 8/10) · Mag-7 weight sourcing · KILL_MEMO dangling ref · maturity line L2→L3 on packet consumption.
+## 5. Findings
+**🟢 F-1 — the promotable lesson is still promotable and still unregistered:** `STATUS:8` — *"a tripwire dated later than its event cannot catch it"* (an 8/31 tripwire against a 10-Q filed 8/26). This is a clean statement of a real class and it belongs in fleet canon. **Candidate for a PATTERNS row at my next sweep — dedup first against PAT-115** (a resolver dated to an expected event inherits its slip risk), which is the *sibling*, not the same: PAT-115 is about a resolver's date **slipping**; this one is about a tripwire dated **after** the event it watches, which cannot fire at all.
 
-## Reusable fleet artifacts found here
-The 7/17 useful-life read card (227 ln, primary-verified, **written to be executed by a non-VULCAN reader** w/ DEWEY authorized fallback) — candidate pattern for any earnings-window gate the fleet wants substitute-executable. The LEADING-INDICATOR triad rows (fast-layer-under-slow-rule) — blueprint §4 candidate.
+**🟡 F-2 — `S4_SERIES` was 14 STATUS-writes behind** at the last read; owner-confirm still owed. Not re-measured this pass.
 
-## Open questions
-Whether the LEADING-INDICATOR row pattern and the read-card pattern go into the blueprint (both candidates from this read). Whether S1's sub-reads should migrate to THESIS (D9). Consumption datum for the next re-grade: VULCAN-06 fired WATT's pre-registered P3 trigger (stronger than the CRWV leg the row currently names).
+**🟢 F-3 — the profile now has a dated trigger.** The prior body had none, which made its own staleness UNEVALUABLE — a comprehension file that cannot say when it goes stale. Keyed to the MU FQ4 print (~9/30) since that is the desk's own dated rewrite trigger (`STATUS:64`, window opens 9/17).
+
+## 6. DO NOT TOUCH
+1. **The WATT seam figures — `~55 GW nameplate / ~32 GW firm coincident-peak`. "Adopt verbatim, never net or average."** Two quantities, two meanings; averaging them destroys both. This is the seam's own instruction and it binds readers.
+2. **The kill rail is re-read, not restated** — the desk's own hard-won practice after writing rail status from memory three times. Never summarize the rail from a prior commit message.
+3. **`catalyst_countdown.py` is the P3 consolidation donor** — the fleet-wide consolidation reads from here; changing its interface is a fleet change.

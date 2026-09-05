@@ -1,56 +1,49 @@
-# WATT — DAEDALUS Comprehension Profile
+# Agent Profile — WATT
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** 25d > 21d day clock (header-date 2026-08-07; the reader's 'no dated trigger' call was wrong — the 21d clock lives in the trigger line) · 15d dark, AEOLUS seam packets unconsumed. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+**Built by:** DAEDALUS · **Body:** 2026-08-07, **refreshed 2026-09-05** · **Method:** solo read + both L4 legs verified at the artifacts (inbox `processed/` and each reader's own STATUS)
+**Staleness:** **DATED TRIGGER ADDED** (the prior body had none — UNEVALUABLE): refresh at the **PJM 2028/29 Base Residual Auction / FERC action on the Door-B filing (~2026-10-12)** or **21d** → checkpoint **2026-09-26**
 
-**Built:** 2026-08-07 (first profile — build-queue slot serviced; Mode-A single-reader full read, 65 files) · **Grade at build:** L3 Conf-H (promoted L2→L3 8/7 — FLEET_MAP owns it) · **Class:** Market (DAEDALUS-built 7/10, WATT_SPEC; the seat HENRY held provisionally until spinout — power_watch.py docstring records the move and that "HENRY consumes WATT's OUTPUT, no longer runs the instrument") · **Staleness (content-derived):** re-read when STATUS's Last-Updated leads this build date >21d, when WATT-09/FERC resolves, or when the extract-and-stamp retrofit is consumed.
+> **📈 PROMOTED L3 → L4 (Conf H) this pass.** Both named L4 legs are met. §3.
 
-## Identity in one line
-Translates PJM grid/capacity stress into repricing through **four standing channels** (P1 stress→price · P2 structural capacity cost · P3 data-center demand · P4 gas→power coupling; P5 PPA tape tier-2, deliberately unbuilt) — feeding HENRY (HEN-36 FCF line item), AEOLUS (C3 price confirmation), CARL, BRENT, REGINALD, VULCAN. #1 guard in its own words (CLAUDE:21-22): "a channel with no current live read is a **gap to close**, not idle background" — the anti-DARWIN made executable (boot step 7 channel-liveness check, no blueprint counterpart, BETTER).
+## 1. Identity
+**Power / grid** — PJM stress → wholesale price → industrial and data-center cost. Market class, ACTIVE. Explicit division of labour with VULCAN: **"VULCAN sizes MW, WATT prices the grid."** Seam with AEOLUS on climate/hydro. **Spawnable by:** PROME / Will.
 
-## File anatomy
-| Cluster | Files | State |
+## 2. State
+Last session **2026-09-03** — **P1 FIRED 2→5 on a live PJM capacity emergency** (3 consecutive EEA-1 days + a DOE 202(c) order). STATUS **101 ln**.
+**⚠️ My prior row said "one session then 15d dark, 16 inbound packets UNCONSUMED." Both false now:** WATT ran 9/3, its inbox root is down to **2** (one 9/3 VULCAN packet + the WALTER lane) and `processed/` holds **41**.
+
+## 3. 📈 PROMOTION L3 → L4 — both named legs verified
+**Leg 1 — "a boot that consumes the AEOLUS seam packets."** ✅ **MET.** The AEOLUS seam packets are in `inbox/processed/`: the 7/22 cluster (c3-seam-confirmed-mechanism-adopted · live-c3-doe-eea-record-peak · c3-flag-retracted · inbox-renames) and `2026-08-03_from-AEOLUS_glen-canyon-hoover-hydro-leg-colorado-river.md`. The backlog my row described is drained.
+
+**Leg 2 — "one reader-side consumption confirmed at the reader's artifact."** ✅ **MET, twice, and one of them names WATT canonical:**
+| Reader | Citation |
+|---|---|
+| **AEOLUS** | `STATUS:157` — the C3 convergence row (PJM capacity · CPC DJF) reads **"WATT canonical"** · `STATUS:228` routes the **C6 escalation to WATT** with WATT's own figure (Hoover 1,274→382 MW at 1,035 ft) |
+| **VULCAN** | `STATUS:51` — *"**VULCAN sizes MW, WATT prices the grid**"*, and the S3 seam adopts WATT's firm-coincident figure verbatim |
+
+A reader writing **"WATT canonical"** into its own convergence grid is the strongest form of the consumption leg — it is not receipt, it is delegation of authority over a metric.
+
+## 4. Grade — **L3 → L4 (Conf H)** — per-leg verdicts
+| Leg | Verdict | Basis |
 |---|---|---|
-| Core | `CLAUDE.md` 200 ln (2 stale lines: :31/:185 describe power_watch as 3 legs, has run 5 since 7/16 — PAT-052 rot flagged 7/22, open) · `STATUS.md` 87 ln, 8/4 PM-2 (matrix + triad :45-56 + 14-item OPEN + 4-para BOTTOM LINE) · **`THESIS.md` 63 ln — 🔴 THE finding: 26d silent-middle**, no in-content stamp, outside every check's range, contradicts STATUS on 9 load-bearing facts (below) · `TRADE.md` 24 ln — trigger-state table w/ two-clock PAT-044 header + **FIRED-BUT-NOT-ACTED vocabulary (L-27, blueprint §8 candidate)** · `SCRATCH.md` 227 ln (richest narrative surface) · `LESSONS.md` L-01..28 · `NEXUS_BRIEF.md` 53 ln (2 defects: duplicate item-3 numbering; :42 carries the push-deferred claim :35 already struck) | LIVE / THESIS flagged |
-| Workbook | `KB.tsv` 67 rows (28 written 8/4 alone) · `VX.tsv` 4 rows, essay-length notes · `FLOW.tsv` 9 pathways — **⚠️ no date/as_of column at all** (content-vintage underivable, D10) · `PREDICTIONS.tsv` WATT-01..09, 5 resolved (4 HIT/1 MISS)/4 open · `SCHEMA.tsv` | LIVE 8/4 |
-| Scripts | `boot.py` 166 ln — 3 legs (power_watch · ledger staleness `--days 7` · predictions-due); **7/31 rc-fix IN PLACE + verified** (run_alert :53-75, docstring names defect+fix; PAT-074); WATT hardened further 8/4 (`--days 7` w/ L-26 ruling record :122-132); cwd-proof (parents[2], .venv, cwd=ROOT) · `power_watch.py` 442 ln, **5 legs** incl. PJM DM2 official LMP; P4 vintage-mismatch defect deferred-logged (L-17) | LIVE |
-| Mail | inbox **2 unprocessed top-level, oldest 8/4** (both PROME replies; **plus the 8/7 DAEDALUS extract-and-stamp packet — delivered, sitting, un-actioned-not-ignored**; WALTER lane EMPTY of unprocessed, first time since 7/23) · outbox 2 files, no delivered/ convention · `sources/` declared in FILES, **empty since birth 28d** (PAT-088 shape, D4) | good discipline / 3 flags |
-| Reports | 7/12 domain-sweep · 7/16 EEA1-adjudication (frozen event records, correct by kind — holds the season-length-denominator method L-09) | frozen-good |
+| L1–L2 floor | **PASS** | STATUS + BOTTOM LINE; ledgers accruing |
+| L3 convergence matrix | **PASS** | P1–P4 pillar grid, scored, P1 moved 2→5 on live evidence |
+| L3 exit rules | **PASS** | kill rail with a **dated in-content stamp** (`STATUS:65` "Kill rail re-derived: 2026-08-17") |
+| L3 dated falsification surface | **PASS** | as above + `THESIS.md:3` refresh stamp |
+| L4 TRADE feeding proposals | **ADAPTED** | no book by design at this desk; prices an input others trade — CARL/LIQUID/MIDAS/ZHAO precedent family |
+| **L4 signals flowing AND consumed** | **PASS** | §3 leg 2 — AEOLUS names it canonical; VULCAN adopts its figure verbatim |
+| L5 clean closeouts | **FAIL (1 of 2)** | 9/3 clean; needs a second consecutive cycle |
+| L5 current | **PASS** | 2 days |
 
-## Per-dimension vs blueprint
-§1 **structurally RICH, currently ROTTEN** — OTTO stage tables + per-channel confirms/breaks + LIQUID migration stated, but the richness home is the stale file; no thesis version number. §2 **conformant-plus**: all 7 required columns; transparent composite `13/20 (2+5+4+2)`; Independence names the shared heat-dome antecedent P1↔P4 AND the WATT-02↔06 shared root; adds `⚠️ Channel score ≠ agent status color` (STATUS:23) + recomposition tracking `13→13→13 while composition moved` (L-14) — **both blueprint-candidate handles**. §3 RICH on the two-surface split (bands carry no live values); **DEBT: KILL_MEMO declared (CLAUDE:122) and absent; conjunction unregistered per PAT-072** (no base-rate admission, no sessions-armed counter). §4 **the strongest dimension** — see triad below. §5 RICH discipline, THIN machinery: `if_falsified`/`conf_tier` load-bearing (WATT-03's if_falsified APPLIED: P1 4→3→2, migration pre-written); **no ARCHIVE, no Brier/hit-rate aggregate** (resolution cells out-document most archives — arguably better at n=9); no FROZEN cards for scheduled FERC binaries. §6 RICH — addressee+reason routing; brief carries **publisher-side corrections by hand** (BRENT overstated-level retraction); compact NEXUS variant amendment 9, **whose own revert trigger looks MET** (7 recipients, ≥4 two-way edges — owner's call, D5). §7 exercised not decorative (mechanism-vs-thermometer cited in L-01/12/14 + BOTTOM LINE + TRADE rationale).
+**L5 next-upgrade line:** *two consecutive clean cycles, and the metered-vs-DR record-break split carried to ~Sept resolved.*
 
-## The triad (STATUS:45-56 — cite as the local §4 form)
-`Channel | Standing rule | Current state @ level | FIRED?` — P1 EEA2/LMP rule, COLD 19d, NOT-FIRED (season count 2 episodes both retraced; WATT-03 MISS = first resolved falsification through it) · P2 BRA-at-cap rule **FIRED — MAX(5)** (3 consecutive at-cap clears, 2 RTO-wide short) · P3 queue-depth rule NOT-FIRED w/ explicit "score ≠ triad… do not read P3=4 as P3 fired" guard · P4 spark-spread rule NOT-FIRED w/ basis-change guard ("do NOT score that delta against the 'compresses 50%' trigger"). Fired-count **1/4** literal :54; channel-kill-vs-thesis-kill stated AND exercised; bidirectional flip :56 re-pointed to **29/30 BRA (~mid-2027)**. In-cell dates throughout; **no dedicated stamp line — grandfathered; extract-and-stamp packet sits unconsumed**; `grep "Kill rail re-derived"` = 0 hits.
+## 5. Findings
+**🟢 F-1 — the P4 stale-proxy refusal is the behaviour worth keeping.** `STATUS:104`: WATT **refused a stale-proxy spark** and used a **same-vintage primary** (+$48.12) instead. Declining a convenient stale number in favour of a same-vintage one is the discipline most desks skip under time pressure, and it is on the record here.
+**🟡 F-2 — the metered-vs-DR record-break split** is carried to ~Sept and is now due. Not a defect; a dated item coming up.
+**🟢 F-3 — the profile now has a dated trigger** (it had none, making its own staleness unevaluable). Keyed to the PJM Door-B / FERC action ~10/12, which is the desk's own live clock.
 
-## 🔴 THESIS.md — 9 contradictions vs STATUS 8/4 (all verified; fix is owner-lane)
-P2 clears ×2 vs ×3 (28/29 cleared 7/14 @$325=97.5% cap) · P2 shortfalls 1 vs 2 · **:29 flip still names the 28/29 BRA "~Dec-2026" — an auction that RESOLVED 7/14** (a second, undated, unchecked falsification surface disagreeing with the primary) · P1 "DM2 not wired" vs wired-7/16/restored-8/4-instrument-of-record · P1 1 realized episode vs 2 · P3 "55GW not capex-funded" vs VULCAN-06 7/31 resolution (STATUS explicitly supersedes the rd-3 read) · P3 escalation trigger listed live vs FIRED-and-SPENT ("do not re-fire") · P4 heat-rate uncalibrated/+$49.53 vs calibrated/+$29.84 — **the superseded number WATT formally retracted to BRENT still lives in its own thesis file** · P4 ICE proxy as source vs demoted-to-backdrop 8/4.
-
-## §3 Invalidation-surface inventory (PAT-088 rows; kinds per PAT-077)
-| Surface | Kind | Vintage rule | State 8/7 |
-|---|---|---|---|
-| STATUS:45-56 triad | STATE | STATUS Last-Updated + in-cell dates | LIVE 8/4, fired 1/4, exercised (WATT-03 MISS through it); no stamp line — grandfathered, retrofit sitting |
-| STATUS:56 bidirectional flip | STATE | in-line date (~mid-2027) | LIVE 8/4, re-pointed 29/30 ✓; **contradicted by THESIS:29** |
-| PREDICTIONS.tsv | HYBRID (append rows + STATE resolution cells) | max(made); dated verdicts in-cell | LIVE 8/4; **WATT-09 resolve date contingent on a FERC ruling whose answer period closed TODAY 8/7 — live and unwatched since 8/4** |
-| THESIS per-channel confirms/breaks ×4 | STATE | **none in content** | 🔴 STALE 26d AND WRONG (dead flip) |
-| TRADE.md trigger table | STATE | PAT-044 two-clock | LIVE 8/4; 2/4 FIRED, no proposal, deliberately, reason on-surface |
-| VX threshold col | STATE | as_of 8/4T17:37Z | LIVE; carries P3 spent-trigger notice |
-| FLOW state col | STATE | **no vintage field** (D10) | LIVE by inference only |
-| CLAUDE:113-122 bands + KILL_MEMO clause | STATE durable | durable-by-design | bands consistent; **KILL_MEMO absent** |
-| LESSONS | APPEND-ONLY | max(L-NN) | LIVE 8/4 |
-| reports/7-16 EEA1 adjudication | EVENT | fixed date | frozen-correct |
-
-## DO-NOT-TOUCH
-1. **Matrix Key-signal essay cells** (P3 ≈1,400 words: in-place correction + category ruling 32-vs-55GW + use-rule + spent-trigger notice) — edit facts, never reformat. 2. **PREDICTIONS resolution column** — WATT-03's cell carries the whole cross-instrument resolution chain; **this column is why WATT graded L3**; never truncate/archive. 3. Strikethrough receipts (STATUS:85, NEXUS_BRIEF:35/:40) — "WRONG WHEN WRITTEN" honesty artifacts (NEXUS_BRIEF:42 is the exception — a genuine uncorrected contradiction, owner-fix). 4. boot.py :122-132 ruling record + run_alert docstring (the PAT-074 why). 5. power_watch HONEST WALLS + FLAG-NOT-FIRE ("this script never auto-declares a C3/grid-stress event — that call is AEOLUS/HENRY judgment"). 6. **The DOUBLE-COUNT GUARD deliberately repeated in 5 surfaces** — do not dedupe. 7. inbox/WALTER two-tier folder (SIG-W naming, WALTER's convention). 8. TRADE.md trigger-state vocabulary (L-27 documents why "No trigger crossed" was the bug). 9. The 8/4 PM-2 audit blocks (Will-flagged; ruling record for --days 7 + L-26/27).
-
-## Owner-lane flags (ranked) — ⚠️ DATED 8/7 SNAPSHOT, corrected 8/17 (WATT consumer_check flagged 5 cells; per-cell truth below — read the correction table, not the 8/7 cells)
-**8/17 corrections (WATT-supplied, verified plausible at packet):** FERC abeyance STILL unruled 8/17, now THREE motions (Silver Run 8/3; shortened answer period declined twice) · "dark since 8/4" CLOSED (booted 8/17) · AEOLUS El-Niño gate ANSWERED 8/12 + consumed (energy DOWN established; peak no-sign n=2 — the gate held: no "no-EEA-because-El-Niño" registration) · "P1 board empty after 9/7" SPLIT: the BOARD doesn't empty (WATT-10 registered P2 10/31), the P1 LANE does (WATT-02 9/7 trending MISS — that's the real risk) · spark spread 43.86 was the INSTRUMENT'S overstatement, never a market level; same-vintage +$29.84 (8/4), now +$48.31 (8/11-16).
-🔴 THESIS.md 26d silent-middle + 9 contradictions + dead-flip second surface (D1/D6: propagate the two-clock header; the 8/4 audit hardened only what its checker could see — the L-26 class one file further out). 🔴 FERC abeyance ruling became knowable TODAY (8/7 17:00 ET answer deadline) — highest-value item on WATT's own board (SCRATCH next-session #1 ×3), sets WATT-09 resolve 8/17 vs ~11/15; WATT dark since 8/4. 🟠 P1 board goes EMPTY after 9/7 (WATT-02/06 non-independent, both trending MISS, successor gated on the AEOLUS El-Niño answer — 3d unprocessed in AEOLUS's inbox; WATT is NOT the blocker). 🟠 Retrofit packet + stamp line (sitting since 8/7). 🟡 Own-figure split +$43.86 (STATUS/SCRATCH/BRIEF) vs +$43.76 (VX/FLOW) — reconcile-to-one applies to own surfaces first. 🟡 KILL_MEMO authoring or clause removal · FLOW as_of column · CLAUDE 3-legs→5-legs cells · sources/ populate-or-remove · amendment-9 revert call · SIG-009 (Oracle→We-Energies >$7B LC collateral call) channel-scope decision — power↔credit seam runs both ways, decide deliberately.
-
-## Precision notes vs FLEET_MAP (both applied to the row 8/7 PM)
-1. **7/3-EEA2 primary-pull verify: CLOSEABLE — closed.** KB-WATT-034 (EMPIRICAL, 7/22): DOE orders 202-26-32/32A + 202-26-33/33A + PJM Inside Lines 7/3 (~6,000 MW emergency DR = EEA2-class); curtailment parameters VERIFIED VERBATIM from PJM's own filing; source PROME/research/2026-07-16. Residual carried: metered-vs-DR-adjusted record-break split, PJM official ~early Sept. 2. **AEOLUS seam direction: WATT is not the blocker** — both 8/4 WATT packets (Mead-1,035 binding cliff; El-Niño sign-decline) sit unprocessed in AEOLUS's inbox.
-
-## DAEDALUS-side items found riding WATT's unopened inbox (extracted 8/7 — do not wait for WATT's boot)
-PROME's 8/4 reply **GREENLIGHTS the staleness-cadence proposal** ("YES: draft (a) and (b) as a proposal for DAEDALUS to own", (b)-first ordering endorsed) and **routes WATT's 32-ledger fleet backlog to the Staleness Sweep** with CANDIDATES-not-defects framing, naming the queue head (REGINALD +119d, MARCO ×2, CARL). Both now recorded in DAEDALUS STATUS open-debt — the live fact was riding an unprocessed inbox (finding_canonical_surfaces_stale_inbox_carries_live_state, instance 2 today).
-
-## Open questions
-Whether P1's interval-based session count ("2+ intervals") should be blueprint-recognized as the correct local adaptation for sub-hourly feeds. Whether the recomposition-tracking handle (L-14) and score≠color rule (STATUS:23) go into market-agent §2 as required handles (both are blueprint-candidates from this read). `__pycache__/` in-tree — owner .gitignore check.
+## 6. DO NOT TOUCH
+1. **The AEOLUS seam is two-way and load-bearing** — WATT owns the grid-price leg, AEOLUS the hydro/climate driver. AEOLUS's C6 escalation routes *to* WATT; don't collapse the seam into one owner.
+2. **`~32 GW firm coincident-peak` vs `~55 GW nameplate`** — WATT holds the firm side of VULCAN's seam. **"Adopt verbatim, never net or average."**
+3. **A filing is not an order.** `STATUS:43` — PJM filed Door B ~8/13 (IRAS; FERC acceptance requested within 60 days ⇒ **~10/12**), explicitly marked **NOT BANKED**. Do not promote the filing to an outcome.
+4. **The dead 28/29 flip is named at `:42`/`:36`** — a known-dead branch, kept named so it is not rediscovered as live.
