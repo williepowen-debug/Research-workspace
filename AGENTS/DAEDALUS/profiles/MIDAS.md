@@ -1,0 +1,73 @@
+# Agent Profile — MIDAS
+
+**Built by:** DAEDALUS · **Date:** 2026-09-05 (**FIRST BUILD** — the desk was built 2026-07-11 and ran 8 weeks without a comprehension layer)
+**Method:** solo full-tree read + guards RUN (`boot.py` rc=1, `metals_watch.py`/COT grader presence, ledger row counts, CLAUDE.md rot re-measured line by line)
+**Sources read:** `CLAUDE.md` (217 ln) · `STATUS.md` (105) · `THESIS.md` · `TRADE.md` · `LESSONS.md` · `SCRATCH.md` · `OPEN_ITEMS.md` · `NEXUS_BRIEF.md` · `workbook/` (5 TSV + a Kernel companion JSON) · the six top-level scripts · `registry/` · `kernel/` · `analysis/` · `reports/`
+**Staleness:** refresh at the next COT-grade cycle or **>21d** → checkpoint **2026-09-26**
+
+---
+
+## 1. Identity
+**Metals as TWO distinct macro tells** — Market class, ACTIVE, L3 (H). *Monetary* (gold/silver: debasement, real-rates, safe-haven) and *industrial* (copper/PGM: growth, China demand, supply). Built by DAEDALUS 2026-07-11 to spec (`builds/MIDAS_SPEC.md`). Feeds **BOND** (gold ↔ real rates), **ZHAO** (copper ↔ China), **LIQUID** (safe-haven flow), **HAWK** (PGM supply geopol), **HENRY** (growth/inflation tells).
+
+**⭐ The #1 guard is a scope guard, and it is the reason this desk exists rather than DARWIN:** *channels, not commodity-watching.* Each channel is a standing causal line (`event → mechanism → repricing`); **an empty channel is a gap to close, not idle background**; "track commodities broadly" is the named failure mode. Any upgrade proposal that widens coverage is arguing against the charter's founding constraint.
+
+## 2. File anatomy
+| Cluster | Files | Notes |
+|---|---|---|
+| Governing | `CLAUDE.md` 217 ln | channels-first guard · boot sequence · channel definitions |
+| Live state ⭐ | `STATUS.md` 105 ln | **the most label-disciplined live surface on the fleet** — see §4.1 |
+| Thesis / routing | `THESIS.md` · `TRADE.md` | TRADE has been **re-based four times**, the fourth being *"the FIRST band ever COMPUTED rather than derived"* |
+| Record | `workbook/` — `KB.tsv` 107 · `PREDICTIONS.tsv` 8 · `VX.tsv` 5 · `FLOW.tsv` 4 · `SCHEMA.tsv` | small VX/FLOW **by design** (few channels, kept live) |
+| Instruments | `boot.py` · `metals_watch.py` · `cot_gold.py` · `grade_cot3.py` · `grade_midas07.py` · `settle_check.py` | ⚠️ **scripts live at the TOP LEVEL**, not in `scripts/` — unusual; don't "tidy" them into a subdir, the paths are cited |
+| Governance | `registry/corrections_receipts.tsv` · `kernel/staged_submissions/` | Gate-C shadow path (carve-out ④) |
+| Learning | `LESSONS.md` · `OPEN_ITEMS.md` · `SCRATCH.md` · `analysis/` · `reports/` | |
+
+## 3. Per-dimension
+| Dimension | Where | Form |
+|---|---|---|
+| Thesis | `THESIS.md` + STATUS channel reads | two-tell split (monetary M-*/industrial I-*) |
+| Convergence | `VX.tsv` (5) + STATUS composite | **composite scored /20** (e.g. M1 3→4, composite 7/20→8/20) |
+| Exit / kill | THESIS kill-conditions, numbered (`kill-cond #3`) with sustain bars ("full kill needs 3+wk sustain") | |
+| Predictions ⭐ | `workbook/PREDICTIONS.tsv` — id · made · channel · **resolve_date · conf_tier · if_falsified · criteria · resolution** | the `if_falsified` column is a **pre-committed consequence**, not a note — §4.2 |
+| Routing | STATUS flags + `NEXUS_BRIEF` + outbox | BOND adopted a MIDAS carve-out **verbatim** 9/1 |
+
+### §3b. Invalidation-surface inventory
+| Surface | Kills / flips | Stamp | Fired-state |
+|---|---|---|---|
+| `THESIS.md` kill-conditions | the monetary/industrial channel reads | in-content, numbered + sustain bar | "kill-cond #3, fired 8/7" |
+| `PREDICTIONS.tsv` `if_falsified` | the specific channel + the composite score | `resolve_date` per row | `status` + `resolution` |
+| `STATUS.md` ⛔ superseded blocks | prior published marks | ⛔ banner + dated supersede note | struck in place, kept visible |
+| `TRADE.md` re-base banners | the routed band figure | "RE-BASED 2026-08-27" ×4 | each re-base names what it corrected |
+
+## 4. Deviations — two that are better than standard
+
+**4.1 — STATUS labels every mark with its own trustworthiness, and strikes its own claims in place.** Live examples: *"`GC=F` — **thin dying contract, vol 360, O=H bar; DO NOT USE**"* · *"⛔ THE 8/31 GC=F ROLL CLAIM ON THIS PAGE IS SUPERSEDED (KB-099)"* · *"⛔ THE VOLUME DISCRIMINATOR WAS UNAVAILABLE ON THE 9/1 ROW"* (all 7 tickers returned 8/31's volume duplicated into 9/1) · *"verified independently at the primary 23:51Z, **not taken from BOND's packet**"*. The header opens with a **⛔ CITE** instruction telling readers which construction to quote. **A desk that publishes the reliability of each number beside the number is doing the expensive half of the job.**
+
+**4.2 — `if_falsified` is a pre-committed consequence and MIDAS-08 is the exemplar.** It states, before the event: *"IF (c) FIRES: my published line … must be re-read **IN PUBLIC** as too strong … Write it plainly on STATUS and route the correction to BOND, which adopted that carve-out verbatim 9/1. **A falsifier that fails to fire is information about MY FALSIFIER, not a vindication of my read.**"* And the reverse: *"IF (a) FIRES: it does NOT retroactively validate MIDAS-06, does NOT re-open MIDAS-07…"* — both directions pre-bounded. **This is the strongest single prediction row I have read on the fleet** and it should be the fleet exemplar for `if_falsified`.
+
+**Legitimate small ledgers.** `VX` 5 rows, `FLOW` 4 — a *feature* of channels-first, not thinness. Do not grade MIDAS against row counts.
+
+## 5. Findings
+
+**🔴 F-1 — MIDAS-08 is DUE 2026-09-04 and overdue.** `boot.py` rc=1 says so. It is the row that pre-commits to a **public re-read of a published line** and to routing a correction to **BOND, which adopted the carve-out verbatim**. An overdue self-correction is the one kind you cannot quietly let lapse.
+
+**🟠 F-2 — three COT graders shipped and `boot.py` never calls them.** `grep -c -i cot boot.py` = **0**, while `cot_gold.py`, `grade_cot3.py` and `settle_check.py` exist with an 878-row history and COT #3 graded 8/28. **Detection built, invocation missing** — the same shape found today at YEYOU (`boot.py` never invoked), OTTO (shelf monitor, one run) and HANS (built then dark). **Fourth instance in one day; this is a fleet pattern, not a MIDAS defect.**
+
+**🟡 F-3 — PAT-052 instruction rot: one of two instances survives.** `CLAUDE.md:186` still reads *"`metals_watch.py` **(when built)**"* — and `metals_watch.py` exists and is running the kill rail. The `:33` instance is fixed. One line.
+
+**🟠 F-4 — a token collision on "L2".** `STATUS:` reads **"Maturity: L2 (spot/yield/GSR/LME via metals_watch.py; COT via cot_gold.py…)"** — that is MIDAS's own **instrument-coverage** scale, but `L0–L5` is the fleet's **maturity ladder** token, and MIDAS is **L3** on it. Two different scales sharing one token on a surface other desks read. **PAT-075** (a state token is an interface). Fix is one word — *"Instrument coverage: tier 2"* — not a change to either scale.
+
+**✅ Verified clean:** `boot.py` runs and its rc contract is honest (1 = prediction due) · the four self-found defects of the 9/2 session are recorded with the peers who caught them (*"three peers corrected me and all three were right"*) · `registry/corrections_receipts.tsv` present · Kernel submission path is the canonical immutable form.
+
+## 6. DO NOT TOUCH
+1. **Channels-first.** Never propose broadening coverage; "track commodities broadly" is the named DARWIN failure this desk was chartered against.
+2. **Scripts live at the top level, not `scripts/`** — paths are cited in CLAUDE.md and STATUS. Don't tidy.
+3. **The ⛔ superseded blocks in STATUS** are corrections kept visible on purpose. Never delete a struck claim; the strike is the record.
+4. **`GC=F` vs `GCZ26`** — the front/dying-contract distinction is load-bearing and STATUS says which to cite. Never average or silently substitute them.
+5. **`if_falsified` pre-commitments are binding text**, especially MIDAS-08's public-re-read clause. Do not soften one after the outcome.
+6. **The band figure has been re-based four times, each naming what it corrected** — cite the current construction *by name* (univariate 87.7–91.1% vs currency-stripped 90–93%), never a bare percentage.
+
+## 7. Open questions
+- **Does L4 even apply?** The L4 leg is *TRADE.md feeding proposals*; MIDAS is **zero-capital by design** and Will's call is pending. This is the CARL/LIQUID/ZHAO/WATT no-book-by-design family — likely **ADAPTED-PASS** on a declared-flat TRADE surface, which MIDAS already effectively has. **Flag: my map row phrases it as "Will's call whether L4 applies," which risks being another gate nobody can clear.**
+- Is the composite `/20` scale documented anywhere a reader can find it, or only inferable from STATUS?
