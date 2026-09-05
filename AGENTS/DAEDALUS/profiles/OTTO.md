@@ -1,73 +1,83 @@
 # Agent Profile — OTTO
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** STATUS +73/−78 in-window · 56d > 45d · body 7/07. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+**Built by:** DAEDALUS · **Body:** 2026-07-07, **§1–§3 + §6–§8 refreshed 2026-09-05**; **§4–§5 carried forward and RE-VERIFIED item by item** (they were still true — except §5.6, see F-1)
+**Method:** solo read + **guards RUN** — `scripts/boot.py` rc=0 (3.6s) · `scripts/predictions_due.py` rc=0 (11 OPEN, 0 overdue) · `read_cap_check --agent OTTO` · CR-byte count on four TSVs
+**Staleness:** refresh at the next post-CARL-sitting session or >45d → checkpoint **2026-10-20**
 
-**Built by:** DAEDALUS · **Date:** 2026-07-07 · **Comprehension method:** 4-reader Mode-A fan-out (operating layer / thesis+predictions+trade / scripts+workbook code-read / docket+research)
-**Sources read:** CLAUDE.md, STATUS.md, MEMORY.md, MAINTENANCE.md, LESSONS.md, LAST_COMPLETION.md, OUTBOX.md, NEXUS_BRIEF.md, STALE_PUNCHLIST.md, PEER_PARITY_ROADMAP.md, RESEARCH_STATUS.md, EDGAR_8K_MONITOR.md, thesis/* (THESIS, PREDICTIONS.tsv, ARCHIVE, CHANGELOG), TRADE.md, scripts/*.py (all 5), workbook/*.tsv (all 8), docket/* (WINTERKORN spec+memory, CATALYSTS.tsv), research/+sources/ structure, inbox/processed. · **Staleness:** refresh when OTTO's STATUS/THESIS materially changes or >45 days.
-**Read caveat:** performed from a cloud clone with flattened git history (all OTTO files share a 2026-07-06 commit date) — staleness verdicts below are from **in-content dates**, not git/mtime.
-
-> Map of the labyrinth. Section-tasks read the relevant slice of THIS, not the raw agent. Re-read the actual file before applying any change (PAT-009).
+> **Not a whole rewrite, deliberately.** OTTO's §4 (deviations) and §5 (do-not-touch) were still accurate structural knowledge — the upgrade unit is one section, not one agent. What had gone stale is the *state*: three of the four L5 blockers my map row carried are **discharged**, and one do-not-touch instruction has become **actively dangerous**.
 
 ---
 
 ## 1. Identity
-Auto fraud/stress (subprime auto lending — fraud-discovery "Cockroach" pattern + skip-default "Invisible Exit"). **Market, Tier-2 (spawn-on-need)** — tier caps *cadence*, not achievable level. Near-structural-twin of BRENT (boot kit + catalyst-steward sub-agent + thesis/ + calibration). Feeds BROCK (BDC marks), REGINALD (loss realization), LIQUID (funding-stress counter-signal), CARL (credit access). Sub-agent: WINTERKORN (docket steward).
+Auto-industry **fraud & stress** — Market class, **Tier-2** spawn-on-need. Two theses: **"The Cockroach"** (find one fraud, there are more — 4 confirmed cases + 1 alleged carve-out) and **"The Invisible Exit"** (immigrant subprime skip-defaults bypassing the 30→60→90 DQ chain, **criminally charged** Jun 24 2026). **Both systemic transmission legs are self-disconfirmed** (funding Jul 4; bank-contagion Aug 14, OTTO-30 FALSIFIED) — pattern + fraud-recovery magnitude stand. Sub-agent **WINTERKORN** stewards the docket. **Spawnable by:** PROME / Will.
 
-## 2. File anatomy (where the richness lives)
+## 2. File anatomy — what changed since 7/07
+| File | State |
+|---|---|
+| `STATUS.md` | **172 ln / 32,489 B** — was 261 ln / 69,591 B. **Hot/cold split executed 9/2** after a 214%-of-cap breach; cold half → `STATUS_COLD.md` (211 ln / 56,588 B, explicitly *not* a boot read, hot wins on disagreement) |
+| `CLAUDE.md` (558 ln) | edited 9/2 (the SIGNALS.md correction) — ⚠️ **both version stamps untouched since June**, F-2 |
+| `thesis/PREDICTIONS.tsv` | **20 rows, 11 OPEN, 0 overdue.** ⚠️ lives at `thesis/`, **not** `workbook/` — my own map row cited a bare "PREDICTIONS.tsv:6" and I tripped on it this pass |
+| `workbook/` | PANEL_10D (137 rows, `collection_period` 137/137 zero blanks) · KB · VX (partial-FROZEN) · FLOW · ML · SHELF_ACTIVITY (**FROZEN + EVENT-DRIVEN 9/2**) · ABS_ISSUANCE · EXTENSION_PROXY · CROSS_AGENT_LOG · VX_HISTORY |
+| `scripts/` | boot · predictions_due · catalyst_countdown · panel_10d (35 KB) · severity_divergence · shelf_halt_monitor · backfill_collection_period · 2 declared stubs |
+| 3-log taxonomy | `CHANGELOG` analytical · `MAINTENANCE` structural · `STALE_PUNCHLIST` forward — ⚠️ the punchlist is itself stale, F-3 |
 
-| File | Holds | Richness? |
-|---|---|---|
-| STATUS.md (191 ln) | SIGNAL DASHBOARD (~28 rows, 🟢→🔴🔴), ACTIVE VECTORS, CRITICAL TIMELINE, PREDICTIONS mirror, labeled BOTTOM LINE (added 7/4) | live state |
-| thesis/THESIS.md (246 ln, v1.1) | 3-tier thesis (Cockroach / Invisible Exit / Carvana carve-out), 5-leg conviction decomposition, 7-stage transmission table w/ live per-stage status, conjunctive break triad (L188), fresh calibration scoreboard (L211-14), 6-rule failure-pattern synthesis (L216-24) | **the core** — durable rails |
-| thesis/PREDICTIONS.tsv | 17 preds (7 resolved), 9-col w/ Invalidation column; mega Notes cells = deliberate audit trails | predictions engine |
-| thesis/PREDICTIONS_ARCHIVE.md | post-mortems + scoreboard — **STALE Jun-9** (5/5 record; missing OTTO-05/-28 post-mortems; fresh 5/7 scoreboard lives in THESIS) | drifted mirror |
-| thesis/CHANGELOG.md | analytical pivots only (Was→Is+Trigger+Touches), 9 entries to 7/4 | trajectory record |
-| CLAUDE.md (539 ln) | boot/closeout (numbered, mirrored, deliberate cross), evidence-grade tags, banded thresholds, Signal Triggers route-matrix, Doc Ownership table (27 rows) | operating spec |
-| MAINTENANCE.md | **structural** change-log (the version history lives here, not in CLAUDE.md) | unique: only agent w/ both MAINTENANCE + CHANGELOG |
-| scripts/ (5) | boot.py orchestrator; predictions_due (14d window, rc=1 contract); catalyst_countdown (150d horizon, trading-day math, modeled-`~` epistemics); extension_proxy + abs_issuance = **honest stubs** carrying real code-only substance (composite weights .30/.35/.20/.15, 25/50/75 risk ladder, ABS alert ladder tied to OTTO-05/-07) | PAT-037 layer |
-| workbook/ (8 TSVs) | ML.tsv LIVE (183 rows → 7/4); VX+FLOW FROZEN 7/4 (bannered, canonical-successor-named); KB/CROSS_AGENT_LOG/EXTENSION_PROXY/ABS_ISSUANCE content-stale Mar–Apr, boot-alert-tracked backlog; VX_HISTORY dead + name-exempt from scan | ML is the record |
-| docket/ | WINTERKORN spec+memory (2 runs, calibration loop live) + CATALYSTS.tsv (13 rows, Jul-14→Dec-31, zero past-due) | **best-maintained live subsystem** |
-| TRADE.md | FROZEN 7/4 (bannered, rationale + explicit unfreeze condition); Feb-vintage content | correctly two-stated |
-| research/ + sources/ (~38 files, 12.6MB) | Feb-2026 corpus, RP-OTT-N.M system — **frozen archive w/ numbering rot**; WAL/ = spinout-incubation folder (12.4MB) | provenance archive |
+## 3. Per-dimension — unchanged in form
+Convergence substance across 4 local forms (SIGNAL DASHBOARD, stage tables, VX registry, panel) · exit bounds **calendar-dated not session-counted** (defensible: dockets and prints resolve theses, not sessions) · predictions with `Resolve_Date` + `Invalidation` columns and a working due-check · routing via NEXUS_BRIEF + WALTER lane + PROME packets · TRADE lane correctly **FROZEN-dormant with an explicit unfreeze condition**.
 
-## 3. Per-dimension local representation
+## 4. Deviations from standard (+ why) — CARRIED 2026-07-07, re-verified 2026-09-05
+- **Convergence = equivalent-titling case (ruled 7/7):** substance CONFORMANT across 4 local forms; the universal 5-pt + Independence *handles* are the only gap — additive, never replace the dashboard/stage-table (PAT-015/022/038). ✅ still the case.
+- **Calendar-dated (not session-counted) exit bounds** — ADAPTED, not debt.
+- **🔴🔴 double-red severity extension** beyond the root 4-state key — local richness, keep. ✅ live in STATUS.
+- **Boot↔closeout numbering cross is deliberate** (catalysts swept before predictions resolved, CLAUDE L129-33). Not a symmetry defect.
+- **Stub scripts that say so** — `extension_proxy` / `abs_issuance` print "placeholder data" every run; a markdown-only read of "script-generated monitoring series" would OVER-rate them (inverse PAT-037). ✅ both still present and still declared.
+- **Tier-2** = spawn-on-need cadence; structurally uncapped.
 
-| Dimension | Where it lives | Form / local titling | Rich? |
-|---|---|---|---|
-| Thesis structure | thesis/THESIS.md | 3-tier + 4-mechanism decomposition + **7-stage transmission table (blueprint §1's named source)** | ✅ exemplary |
-| Convergence / scoring | THESIS stage-table + STATUS SIGNAL DASHBOARD + CLAUDE composite-severity rule + conviction decomposition | **4 local forms, no universal 5-pt handle, no arithmetic composite, no Independence column** — independence lives in prose ("meter the two magnitude legs separately") | ✅ substance / ❌ handle |
-| Invalidation / exit | THESIS L188 conjunctive triad (a AND b AND c, per-leg attribution, live fired-state) + per-prediction Invalidation col + risk matrix w/ MATERIALIZED row | calendar-dated (18mo / 2+ quarters / Sep-30) — **zero session counts**; channel-kill vs thesis-kill EXECUTED 7/4 (systemic leg killed, fraud leg held, re-open condition set) | ✅ substance / prose not table |
-| Thresholds | CLAUDE.md banded table (🟡/🟠/🔴 ×5 metrics) + Signal Triggers route table; "current values live in STATUS" split done right | conformant; routing in separate table, not a Routes-to col | ✅ |
-| Predictions | thesis/PREDICTIONS.tsv + ARCHIVE + THESIS failure-synthesis | **blueprint §5's named source**: 6 failure-rules each anchored to an OTTO-NN miss; Will-ratified "FALSIFIED-on-window / CONFIRMED-on-substance" convention; 3 lessons promoted to auto-memory | ✅ exemplary (ARCHIVE mirror stale) |
-| Cross-agent routing | NEXUS_BRIEF (Tier-2 opt-in, locked schema, fresh 7/4, named consumers + WAITING-FOR) + WALTER inbox drops + CROSS_AGENT_LOG.tsv + Signal Triggers matrix | live; OUTBOX.md dead (HERMES vestige, honest-empty); CLAUDE L313-18 still says "Append to AGENTS/SIGNALS.md" = dead instruction contradicting WALTER routing | ✅ w/ vestiges |
-| Disciplines | CLAUDE evidence tags [CONF]/[PRESS]/[ALLEG≤40%]/[EST] + [STALE] composition; closeout 7b mirror-consistency check; 3-log taxonomy | exemplary; no live EXPECTED_SIGNALS (archived Jan; absence-is-data function retired) | ✅ |
-
-## 4. Deviations from standard (+ why)
-
-- **Convergence = equivalent-titling case (ruled 7/7):** substance CONFORMANT across 4 local forms; the universal 5-pt + Independence *handles* are the only gap — additive handle-add, never replace the dashboard/stage-table (PAT-015/022/038).
-- **Calendar-dated (not session-counted) exit bounds** — defensible for a docket/event-driven domain (hearings, prints, filings resolve theses, not sessions). ADAPTED, not debt; optional handle.
-- **🔴🔴 double-red severity extension** beyond the root 4-state key — semantic ("systemic"), used in dashboard + CHANGELOG. Local richness, keep.
-- **Boot↔closeout numbering cross is deliberate** (catalysts swept before predictions resolved — "the cross is deliberate", CLAUDE L129-33). Not a symmetry defect.
-- **Stub scripts that say so** — extension_proxy/abs_issuance print "placeholder data" on every run; a markdown-only read of CLAUDE's "script-generated monitoring series" would OVER-rate them (inverse PAT-037).
-- **Tier-2** = spawn-on-need cadence; structurally uncapped (this read: L4).
-
-## 5. Load-bearing context / DO NOT TOUCH
-
-1. **boot.py keyword filter is a coupling contract** (boot.py:104-5): child-script alert lines must contain 🔴/🟠/"OVERDUE"/"IMMINENT"/"OPEN |"/etc. or they're suppressed at boot. Renaming alert strings silently drops them.
-2. **predictions_due rc=1 = "overdue exists," not failure** — boot.py depends on it.
-3. **FROZEN banners are load-bearing + position-sensitive** — ledger_staleness reads only the first lines; VX.tsv's is a *partial* freeze (registry durable, Current_Value dead). VX_HISTORY is name-exempt ("history" substring); renaming it re-arms scanning.
-4. **WINTERKORN ownership boundaries:** CATALYSTS.tsv = WINTERKORN-maintained (OTTO doesn't edit in normal sessions); CALIBRATION section inside WINTERKORN_MEMORY = OTTO-write-only; PENDING = append-by-WINTERKORN/clear-by-OTTO; spec forbids WINTERKORN editing WINTERKORN.md (hence its stale "Last run: none" header — artifact, not neglect). CATALYSTS↔CRITICAL TIMELINE is curated-subset, NOT a mirror.
-5. **OTTO-04 resolution convention is Will-ratified** (stays on blended Fitch index; Sep-30 miss = falsified-on-window/confirmed-on-substance). Don't "fix" the metric.
-6. **TSV convention is CRLF** (deliberate; LF-normalizing "cleanup" recorrupts). Schema locks: predictions_due→thesis/PREDICTIONS.tsv cols; catalyst_countdown→8-col lowercase CATALYSTS header incl date_class.
+## 5. Load-bearing context / DO NOT TOUCH — carried, **item-by-item re-verified 2026-09-05**
+1. **`boot.py` keyword filter is a coupling contract** (boot.py:104-5): child-script alert lines must contain 🔴/🟠/"OVERDUE"/"IMMINENT"/"OPEN |" or they are suppressed at boot. Renaming alert strings silently drops them. ✅ verified — `predictions_due` output still emits `OPEN |`.
+2. **`predictions_due` rc=1 = "overdue exists," not failure** — boot.py depends on it. ✅ verified: rc=0 today with `🔴 0 overdue`, consistent.
+3. **FROZEN banners are load-bearing + position-sensitive** — `ledger_staleness` reads only the first lines. `VX.tsv`'s is a **partial** freeze (registry durable, `Current_Value` dead) — ✅ confirmed at line 1. `VX_HISTORY` is name-exempt ("history" substring); renaming it re-arms scanning.
+4. **WINTERKORN ownership boundaries:** `CATALYSTS.tsv` WINTERKORN-maintained · CALIBRATION inside `WINTERKORN_MEMORY` OTTO-write-only · PENDING append-by-WINTERKORN/clear-by-OTTO · the spec forbids WINTERKORN editing `WINTERKORN.md` (hence its stale "Last run: none" header — **artifact, not neglect**). CATALYSTS↔CRITICAL TIMELINE is a curated subset, **not** a mirror. ✅ all three files present.
+5. **OTTO-04 resolution convention is Will-ratified** (stays on the blended Fitch index; Sep-30 miss = falsified-on-window / confirmed-on-substance). Don't "fix" the metric.
+6. ~~**TSV convention is CRLF**~~ — 🔴 **STRUCK 2026-09-05, see F-1.** Schema locks stand and are unaffected: `predictions_due` → `thesis/PREDICTIONS.tsv` columns; `catalyst_countdown` → 8-col lowercase CATALYSTS header incl. `date_class`.
 7. **INBOX not processed on normal spawns** (separate spawn purpose) — don't import boot-auto-triage.
 8. **NEXUS_BRIEF Tier-2 opt-in, locked schema** — protect CROSS-DOMAIN + CALIBRATION under length pressure.
 9. **3-log taxonomy** (CHANGELOG analytical / MAINTENANCE structural / STALE_PUNCHLIST forward) — don't merge.
 
-## 6. Maturity snapshot
-**L4 (Conf H)** — re-rated 2026-07-07 from L2/Conf-L (2-level under-rate, PAT-024 6th consecutive market firming, 0 downgrades). L3 legs all present (convergence substance ×4 forms; executed channel-kill; 7 predictions resolved fresh). L4 via consumed output + live routing (NEXUS_BRIEF SENDING/WAITING-FOR, WALTER lane, PROME packets actioned same-spawn); trade lane correctly FROZEN-dormant w/ explicit unfreeze condition (CARL/LIQUID no-book-by-design precedent). Work queue → `upgrades/OTTO_CARD.md`. Classification → `PROME/ROSTER.md` (tier-2).
+## 6. Findings
 
-## 7. Open questions / comprehension gaps
-- **WAL/ spinout folder** (12.4MB incl 2×6.2MB .docx): incubation corpus for the WAL promotion (root CLAUDE names WAL next candidate) — lifecycle question for PROME/Will, not OTTO debt. Does it move at spinout?
-- WINTERKORN weekly-Tue cadence slipped once (Jun-9→Jul-4, 25d) — tier-2 spawn-cadence artifact (PAT-034 boot-freshness class), or drop the "weekly" claim to on-demand+T-3?
-- STATUS Outbound Signals rows "📤 QUEUED" (CARL, NEXUS) undated — rotted queue state or genuinely pending?
-- Could not verify git-vintage of the EXPECTED_SIGNALS archiving (flattened history) — inferred from content absorption into CLAUDE Signal Triggers.
+**🔴 F-1 — A DO-NOT-TOUCH INSTRUCTION IN *MY OWN* PROFILE IS FALSE OF THE FILES, AND OBEYING IT WOULD CAUSE THE HARM IT WAS WRITTEN TO PREVENT.**
+Old §5.6 read: *"TSV convention is CRLF (deliberate; LF-normalizing 'cleanup' recorrupts)."* Measured today — **CR bytes = 0** on `thesis/PREDICTIONS.tsv` (21 ln), `workbook/VX.tsv` (89), `docket/CATALYSTS.tsv` (40), `workbook/PANEL_10D.tsv` (138). **Every OTTO TSV is LF.** Either the convention was abandoned or the 7/07 claim was wrong; the git history does not show a normalization commit, which favours the second. **Why this is the dangerous class:** a session obeying the instruction would *add* CRLF to "restore" the convention — the rule inverts into corruption. A stale prohibition is worse than a stale fact, because a fact reads as merely old while a prohibition reads as protective. **STRUCK; schema locks kept** (those are separately true and were the useful half).
+
+**🟠 F-2 — CHARTER VERSION STAMPS ARE 3 MONTHS STALE ON A FILE EDITED THREE DAYS AGO, AND THEY DISAGREE WITH EACH OTHER.** `CLAUDE.md:3` header **`Version: 2.5 | Updated: 2026-06-08`**; `CLAUDE.md:558` footer **`v2.7 | 2026-06-09`**. The file was edited **2026-09-02** (the SIGNALS.md correction, itself well done). This was carried **UNVERIFIED** on my map row since 7/07 — **now VERIFIED live.** Cheap fix, but a booting reader takes the header at face value, and two stamps that disagree mean neither can be trusted.
+
+**🟡 F-3 — `STALE_PUNCHLIST.md` lists a discharged item as DEFERRED.** Its `(b)` — *"delete the dead `AGENTS/SIGNALS.md` append instruction"* — was **fixed 9/2**; `CLAUDE.md:320` now carries a ⛔ CORRECTED banner and `:325` the carve-out-② explanation. The punchlist still shows it deferred. The forward-log has the same rot the desk built it to prevent.
+
+**🟡 F-4 — STATUS regrew to the rotation trigger in three days.** `read_cap_check --agent OTTO`: **32,489 B = 🟡 rotate-tier (≥75% of budget)**, i.e. **99.8% of the 32,550 B budget** — under cap, one edit from over. OTTO fixed a **214%** breach on 9/2 by a verbatim hot/cold split; the hot half is back at the trigger on 9/5. That is the **compress-then-regrow** class (PAT-055) at three days rather than ten. Not a criticism of the split — the split was right — but the split alone only resets the clock, and the cold file is 56,588 B, so there is somewhere to put things.
+
+### ⚠️ Where MY MAP ROW was wrong — three L5 "blockers" are discharged
+- **"dead `Append to AGENTS/SIGNALS.md` instruction (CLAUDE.md:320)"** → **FIXED 9/2.** Struck.
+- **"OTTO-07 re-instrument before 12/31"** → **instrument was REBUILT 7/25** (`scripts/shelf_halt_monitor.py`, after the old one was found default-zero, PAT-060) and the row records it.
+- **"SHELF_ACTIVITY.tsv probe ran once 7/25 — Staleness #4 packet (PAT-095)"** → **ANSWERED, and answered well.** The file now carries `# FROZEN 2026-09-02 — not maintained; STATUS is canonical` **plus a declared EVENT-DRIVEN cadence naming the exact re-run trigger** (OTTO-07 needing a fresh reading, or any reported shelf withdrawal) **and its own reasoning** (*"a re-run of an instrument whose last reading was unanimous buys no decision before the 12/31 resolve"*). That is the declare-and-freeze branch of the two-state rule, chosen explicitly and cited to the sweep that asked. **My row would have carried this as an open gap.**
+- **"STATUS 261, still >250"** → **172 lines.** Line cap met; the byte tier is the live issue (F-4).
+
+## 7. Grade — **L4 (H) HELD**, but the remaining distance is now three small things
+| Leg | Verdict | Basis |
+|---|---|---|
+| L1–L2 floor | **PASS** | STATUS + BOTTOM LINE; 10 accruing ledgers, schemas valid |
+| L3 convergence matrix | **PASS** | substance across 4 local forms (equivalent-titling, ruled 7/7) |
+| L3 exit rules | **PASS** | calendar-dated bounds + executed channel-kill (OTTO-30 FALSIFIED, both systemic legs self-disconfirmed) |
+| L3 predictions resolving | **PASS** | 20 rows / 11 OPEN / 0 overdue; OTTO-07 re-priced 55%→15% **on first real measurement** |
+| L3 dated falsification surface | **PASS** | `Invalidation` column per row + CHANGELOG pivots |
+| L4 TRADE feeding proposals | **ADAPTED-PASS** | TRADE lane FROZEN-dormant **with an explicit unfreeze condition** (CARL/LIQUID no-book-by-design precedent) |
+| L4 signals flowing and consumed | **PASS** | CARL leg-spec packet consumed (`inbox/processed` 8/20); 9/2 packets to CARL + WALTER; panel figures matched CARL's independent pull **to the cent** |
+| L5 clean closeouts | **PASS** | s020 and s021 both closed clean with measured before/after figures |
+| L5 zero YEYOU flags | **FAIL→ (1 open)** | YEY-003 (STATUS 148 vs own ≤120 target) logged 8/20, **still OPEN in YEYOU's ledger** — though see `profiles/YEYOU.md` F-1: that ledger is not being reconciled, so an OPEN row there is weak evidence either way |
+| L5 current | **PASS** | last session 9/2 |
+| Role gap | **FAIL** | §2 universal 5-pt + Independence overlay (punchlist (a)) — the one genuine unmet handle |
+
+**Conf H.** **L5 line is now: §2 overlay + the two version stamps + a byte-tier rotation.** All three are small and none needs a research session. *(The YEYOU leg is noted, not weighted — its ledger has two demonstrably-closed rows still reading OPEN.)*
+
+## 8. Open questions
+- `WAL/` spinout folder (12.4 MB) — lifecycle question for PROME/Will at spinout, not OTTO debt. **Still open.**
+- WINTERKORN "weekly-Tue" cadence claim vs actual on-demand behaviour — drop the weekly claim or restore the cadence?
+- STATUS Outbound Signals "📤 QUEUED" rows (CARL, NEXUS) — dated now, or still undated queue state?

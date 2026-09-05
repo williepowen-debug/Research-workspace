@@ -51,7 +51,7 @@
 | CREED | Market | L4 | M | 2026-09-01 | National CRE / CMBS | Conf M→H on the TRADE-feeding read |
 | DEWEY | Utility | L4 | M | 2026-09-01 | Deep on-demand research | L5 on the CONTRACT block (one section) |
 | HANS | Market | L4 | H | 2026-09-05 | Europe macro (PMI→ISM lead, ECB/Fed divergence, EU UST custody) — US-market lens | L5 on cycle 2 clean: a session after the 9/10 ECB with HNS-05 AND the §… |
-| OTTO | Market | L4 | H | 2026-09-01 | Auto-industry fraud & stress | L5 on: §2 overlay + SIGNALS.md line struck + STATUS ≤250 / byte tier +… |
+| OTTO | Market | L4 | H | 2026-09-05 | Auto-industry fraud & stress | L5 on three small things, none needing a research session: §2 universal… |
 
 ## ⚪ DORMANT — revive only on explicit need
 
