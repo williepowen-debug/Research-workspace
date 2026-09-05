@@ -1,72 +1,110 @@
 # Agent Profile — ORACLE
 
-> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** day clock 64d > 45d (content legs not fired). Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*
+**Built by:** DAEDALUS · **Body date:** 2026-09-05 (whole rewrite; prior body 2026-06-29) · **Method:** solo full-tree read + **the subject's own guards RUN** (UPGRADE_PROTOCOL ★ rule)
+**Sources read:** `CLAUDE.md` · `STATUS.md` (139 ln / 18,395 B) · `SCRATCH.md` · `TRADE.md` · `PREDICTION_MARKET_METRICS.md` · `NEXUS_BRIEF.md` · `MAINTENANCE.md` · `MEMORY.md` · `SIGNAL_INTAKE.md` · `workbook/` (10 files) · `tools/` (4) · `scripts/` (3) · `outbox/` (24) · `BLUEPRINTS/utility-agent.md` §role-ceiling table
+**Guards executed:** `tools/metrics.py verify` → **rc=0**, reproduces every `dH` exactly and marks the retracted σ `UNREACHABLE` at every window · `scripts/test_search_coverage.py` → **rc=1**, failing loud on absent Kalshi creds (this box is the LAPTOP; the signed lane is desktop-only and ORACLE records lane state per-box by rule)
+**Staleness:** refresh when the calibration-loop status changes, the role rubric materially changes, or **>45d** → checkpoint **2026-10-20**
 
-**Built by:** DAEDALUS · **Date:** 2026-06-29 · **Comprehension method:** 1-reader live comprehension (workflow `firm7-profiles-cards`; documents the 6/28 firm-next7 adversarially-confirmed L4)
-**Sources read:** CLAUDE.md, STATUS.md, TRADE.md, NEXUS_BRIEF.md, SCRATCH.md, MEMORY.md, MAINTENANCE.md, SIGNAL_INTAKE.md, PREDICTION_MARKET_METRICS.md, workbook/{SCHEMA,KB,VX,KALSHI_ODDS_LOG,ODDS_LOG(head)}.tsv, watchlist.tsv + kalshi_watchlist.tsv (heads), HISTORY.tsv (row-count only). **Staleness:** refresh when the calibration-loop status changes (Brier scoreboard added), the role rubric (`PREDICTION_MARKET_METRICS.md`) materially changes, or > 45 days.
-
-> Durable understanding — section-tasks read THIS, not the raw (heavy) agent. Re-read the actual file before applying any change (PAT-009).
+> ⚠️ **THE 2026-06-29 BODY PREDATES ~24 SESSIONS OF WORK.** It graded a desk with 19 KB rows, 174 ODDS_LOG rows, one Kalshi pull and a TRADE.md stale since 6/19. Today: **79 KB rows** with a live SUPERSEDED/CORRECTED lifecycle · **1,233** ODDS_LOG · **7,254** HISTORY rows / 42 markets · **272** Kalshi rows · four purpose-built tools · a TRADE.md rebuilt 8/27 under a Will-directed redesign with machine-generated provenance. Its §7 open questions are answered below — that is the substance of this refresh.
 
 ---
 
 ## 1. Identity
-Prediction-market monitoring — real-money crowd-implied odds on thesis/macro/geopolitical events, from **two** sources: **Polymarket** (Gamma/CLOB API, public) + **Kalshi** (CFTC exchange, RSA-PSS signed, read-only). **Class:** Utility (grade vs `BLUEPRINTS/utility-agent.md`, NOT market). **Role:** sentiment gauge / contrarian signal — tracks *where real money agrees with or diverges from* the fleet thesis; the gap between crowd and reality is the edge. **Transmission:** sends to LIQUID/HENRY (Fed), HAWK/BRENT (Iran/oil), RED (divergence), REGINALD/CARL (bank cluster), VIOLET (complacency), PROME (triage), TERRY (tradeability handoff only); consumes WALTER-routed signals + RED/HENRY/HAWK/BROCK thesis inputs. Cedes substance to domain owners (spreads→LIQUID, fundamentals→REGINALD, oil→BRENT) — **owns only the prediction-market read.** **Spawnable by:** PROME / Will. **What it's for:** "What is the crowd pricing, where does it disagree with us, and what moved?"
+Prediction-market diagnostics — real-money crowd-implied odds from **two venues**: Polymarket (Gamma/CLOB, public) + Kalshi (CFTC exchange, RSA-PSS signed, read-only). **Class: Utility** — grade vs `BLUEPRINTS/utility-agent.md`, never the market blueprint. **Role:** sentiment gauge / contrarian signal — *where real money agrees with or diverges from the fleet thesis.* Cedes all substance to domain owners (spreads→LIQUID, fundamentals→REGINALD, oil→BRENT, whether-the-attack-happened→HAWK) and **owns only the crowd read**. Read-only: states probabilities, never sizes or executes — TERRY sizes. **Spawnable by:** PROME / Will.
 
-## 2. File anatomy (where the richness lives) — HEAVY, two layers (docs + workbook)
-| File | Holds | Richness? |
+## 2. File anatomy (where the richness lives)
+
+| Cluster | Files | State |
 |---|---|---|
-| CLAUDE.md (269 ln) | symmetric BOOT/EXECUTE/CLOSEOUT protocol (14-step write-back), domain scope, core-markets tiers, CROSS-AGENT SIGNALS route-matrix, KEY THRESHOLDS, 5-type SIGNAL TAXONOMY, DATA COLLECTION METHOD (both fetchers), **plus vestigial CONVERGENCE MATRIX + EXIT RULES sections** | governing doc; very rich |
-| PREDICTION_MARKET_METRICS.md (272 ln) | **the role rubric** — entropy, KL-bits dislocation score, tradeable-gap discount stack, entropy-collapse anomaly alert (k-σ), signal-fusion, routing table, TERRY handoff packet, Python reference, anti-patterns | exemplary (the L3 rubric) |
-| STATUS.md (122 ln) | live dashboard — Alerts-first, 34-market signal table (live ts), Trajectory table (Δ30/90d), 5-row Convergence Matrix, Maintenance flags, BOTTOM LINE | live state |
-| NEXUS_BRIEF.md (56 ln) | cross-agent surface (NEXUS/peers read in place of raw STATUS) — VIEW/CALIBRATION/CROSS-DOMAIN send+wait tables/tensions/forward catalysts; mandatory every closeout, no marks/P&L | sync surface |
-| SCRATCH.md (40 ln) | canonical session handoff — CHANGES SINCE / WHAT I DID (commit hashes) / NEXT SESSION (priority) / CARRY-FORWARD (push state) / OPEN HYPOTHESES | handoff |
-| workbook/KB.tsv (19 entries, 13-col) | knowledge base — derived claims/divergences, Admiralty digraph conf + EMPIRICAL/ESTIMATE epistemic + ACTIVE/SUPERSEDED/CORRECTED lifecycle w/ DerivedFrom provenance chains | permanent record |
-| workbook/ODDS_LOG.tsv (174 rows, 37 slugs) | Polymarket machine time series (one row/market/pull) | permanent record |
-| workbook/HISTORY.tsv (4,796 rows, 33 mkts) | full **daily** CLOB trajectory backfill — the durable view that survives stale point-in-time baselines | permanent record (large; row-count only) |
-| workbook/KALSHI_ODDS_LOG.tsv (8 rows, 1 pull) | Kalshi native schema (OI + cents); separate shape, do NOT merge into ODDS_LOG | permanent record (new 6/27, sparse) |
-| workbook/VX.tsv (8 rows) | tracked thresholds + state changes (Watch/Alert/Critical + Next_Trigger) | threshold ledger |
-| workbook/SCHEMA.tsv (13-col) | KB schema (network standard) | schema |
-| TRADE.md (28 ln) | "crowd-odds → position implications" routing surface — explicitly NO sizing/execution | thin handoff (**stale 6/19** — see §4) |
-| SIGNAL_INTAKE.md (63 ln) | WALTER subscription spec (priority tiers, keyword patterns, what-not-to-send, active thresholds) | routing spec |
-| MAINTENANCE.md (60 ln) | structural-change log (revival, Kalshi wiring, movers cmd, push-policy) + watchlist-upkeep routine | structural memory |
-| MEMORY.md (28 ln) | durable ORACLE-specific learning (revival audit) | learning |
-| scripts/{polymarket,kalshi}.py | the two fetchers (search/market/event/pull/history/movers; status/series/pull) | tooling |
-| watchlist.tsv (~40 mkts) / kalshi_watchlist.tsv (8) | pinned markets pulled every session | config |
-| domain/sources/, outbox/delivered/ (3 archived 6/18 files) | history | SKIP |
+| **Governing** | `CLAUDE.md` (269 ln) — symmetric BOOT↔CLOSEOUT write-back, CONTRACT block (:14), route matrix, 5-type signal taxonomy, EXIT RULES | LIVE; the boot↔closeout mirror is the fleet **sourcing exemplar** |
+| **Role rubric** ⭐ | `PREDICTION_MARKET_METRICS.md` (272 ln) — entropy, KL-bits dislocation score, tradeable-gap discount stack, k-σ entropy-collapse alert, signal fusion, TERRY handoff packet, anti-patterns | exemplary; far above the utility floor |
+| **Live state** | `STATUS.md` — Alerts-first, 3-tier ~55-market dashboard with per-figure platform/date/volume, Convergence Matrix, Maintenance flags | dense and current (9/4) |
+| **Handoff** ⭐ | `SCRATCH.md` — CARRIED FRAMING / WHAT I DID / NEXT SESSION (dated, priority-flagged) / CARRY-FORWARD / OPEN HYPOTHESES | **the best handoff surface I have read on any desk.** See §4.1 |
+| **Cross-agent** | `NEXUS_BRIEF.md` — mandatory every closeout, `As of:`/`STATUS commit:` stamped | conformant |
+| **Routing** | `TRADE.md` — rebuilt 8/27 (Will-directed): every routed figure carries **its own trajectory**, machine-extracted by `tools/trade_marks.py` → `TRADE_MARKS.tsv` (190 rows), **no vintage hand-typed**, and the tool **refuses to difference across a slug change** (‖) | ⭐ see §4.2 — this is the fix-form for a rot that recurred twice |
+| **Record** | `KB.tsv` 79 (63 ACTIVE / 8 CORRECTED / 5 SUPERSEDED / 2 STALE / 1 RESOLVED, DerivedFrom chains) · `ODDS_LOG.tsv` 1,233 · `HISTORY.tsv` **7,254 daily rows / 42 mkts** · `KALSHI_ODDS_LOG.tsv` 272 (separate schema — ⛔ never merge) · `VX.tsv` 10 · `DISRUPTION_SUPPLY_SPREAD.tsv` 19 · `T6_PIN.tsv` 8 (event-scoped, spent) | exemplary |
+| **Tools** | `scripts/{polymarket,kalshi}.py` (fetchers) · `tools/metrics.py` (entropy/KL/collapse **+ `verify`**) · `trade_marks.py` · `disruption_supply_spread.py` · `t6_pin.py` · `scripts/test_search_coverage.py` | rich; two known limits named in §6 |
 
-## 3. Per-dimension local representation (utility-class floor + vestigial market shapes)
-| Dimension (utility floor) | Where it lives | Form / local titling | Rich? |
+## 3. Per-dimension local representation (utility floor + per-role ceiling)
+
+| Dimension | Where it lives | Form | Rich? |
 |---|---|---|---|
-| **CONTRACT** (produces/consumed-by/proof) | scattered: CLAUDE.md IDENTITY + CROSS-AGENT SIGNALS + NEXUS_BRIEF | NO formal 3-line CONTRACT block (predates blueprint) — content present but unstandardized | gap (cheap) |
-| **Role rubric** | `PREDICTION_MARKET_METRICS.md` | entropy/KL-bits/tradeable-gap-discounts/entropy-collapse/fusion/routing/TERRY packet | exemplary |
-| **Structured record (logging)** | workbook/{KB,ODDS_LOG,HISTORY,VX,KALSHI_ODDS_LOG} | 13-col KB w/ lifecycle + 2 machine time-series + daily trajectory + threshold ledger | exemplary |
-| **Standing disciplines** | CLAUDE.md SPAWN PROTOCOL + discipline overlay | symmetric BOOT(read)↔CLOSEOUT(write-back) mirror map; no-naked-numbers; thin-liq ≥3-day re-check; anchor-to-surprise; `[STALE]`>carry-forward | exemplary (blueprint's named exemplar for boot↔closeout) |
-| **Cross-agent routing** | CLAUDE.md route-matrix + SIGNAL_INTAKE + NEXUS_BRIEF | condition→target→priority; WALTER subscription; mandatory brief writeback; crisis-only outbox | conformant |
-| **Calibration loop** (the utility truth-loop) | EXIT RULES (CLAUDE.md) promise "track accuracy over time" | **NO Brier/resolution scoreboard file exists** — the loop is named, not built | MISSING (the L5 gap) |
-| **Authority/safety** | TRADE.md + METRICS §0 | read-only boundary stated explicitly ("does NOT size or execute; TERRY sizes") | conformant |
-| *Vestigial: convergence "matrix"* | CLAUDE.md + STATUS.md | 5-row table — repurposed to track *which prediction markets are signaling*, NOT thesis-convergence; filled + live (6/27) | EQUIVALENT (see §4) |
-| *Vestigial: TRADE.md* | TRADE.md | "live reads → position implications" + standing rule for downstream agents; explicitly no positions/sizing | EQUIVALENT but stale |
+| **CONTRACT** (produces/consumed-by/proof) | `CLAUDE.md:14` | formal 3-line block — **LANDED** since the old profile flagged it missing | conformant |
+| **Role rubric** | `PREDICTION_MARKET_METRICS.md` | entropy / KL-bits / discount stack / fusion / handoff | ⭐ exemplary |
+| **Structured record** | 8 accruing workbook ledgers, valid schemas | KB lifecycle + two machine time-series + daily trajectory spine | ⭐ exemplary |
+| **Standing disciplines** | `CLAUDE.md` + overlay | no-naked-numbers · thin(<$5K)⚠️-never-marked-on-one-print · ≥3-day re-check · anchor-to-surprise-not-headline · `closed`-field authoritative for resolution · **cite MID on wide books** · **record lane state PER-BOX** | ⭐ exemplary |
+| **Cross-agent routing** | route matrix + `SIGNAL_INTAKE.md` + `NEXUS_BRIEF` + 24-file outbox | condition→target→priority; **retractions routed as first-class packets** | ⭐ strong |
+| **CALIBRATION LOOP** (the blueprint's per-role truth-loop) | registered as **"Brier scoreboard"**, `utility-agent.md:53` | **DOES NOT EXIST** — 0 hits for `brier` anywhere in the tree, and ORACLE never claims one | 🔴 **the gap — §7** |
+| **Authority/safety** | `TRADE.md` + METRICS §0 | read-only boundary stated explicitly | conformant |
 
-## 4. Deviations from standard (+ why)
-- **Better-than-blueprint:** boot↔closeout symmetry is the fleet **sourcing exemplar** (blueprint cites ORACLE for "boot↔closeout + calibration"); `PREDICTION_MARKET_METRICS.md` is a far richer role rubric than the floor requires; **two real-money sources** with cross-platform agreement=confidence / divergence=signal; the `history` daily-trajectory tool caught a real false-reversal (6/27 Fed −14/7d looked like a pivot until the trajectory showed the baseline sat near a ~66% peak → `finding_delta_vs_own_prior_local_extreme`); KB supersede-don't-delete lifecycle with DerivedFrom provenance chains.
-- **The key nuance vs the grounding:** ORACLE *does* carry a **Convergence Matrix (CLAUDE.md + STATUS.md) and a TRADE.md** — market constructs the utility-blueprint DARWIN guard says utility agents do NOT get. They are **NOT DARWIN-dead files:** the "convergence matrix" is repurposed to track which prediction markets are firing (live, scored, 6/27), and TRADE.md is a no-sizing crowd-odds→implications routing surface. So they are **EQUIVALENT (filled, useful), vestigial market-template labels on utility content** — not debt, not gaps. *(Grade them as utility surfaces; do NOT grade ORACLE against the market blueprint for "having" them, and do NOT ding it for them being non-market-shaped.)*
-- **False-negative the old mechanical scan made (per grounding):** a market-blueprint scan would either over-credit ORACLE for its convergence-matrix/TRADE.md or ding it for a "stale TRADE.md / no predictions ledger." Both wrong — ORACLE is utility; its real truth-loop is the **Brier scoreboard, which is the one genuinely-missing piece.** ORACLE is the agent that **surfaced the utility-blueprint gap** (blueprint built 6/28, day after ORACLE's heavy 6/27 session).
-- **Debt (real):** (1) **TRADE.md stale since 6/19** — its "live reads" numbers (enrichment 66.5%, recession 12.5%, no-cuts 81.9%) are 6/19 vintage, superseded by STATUS 6/27 (1.4%, 11%, 79.5%); it is NOT on the closeout write-back loop (CLOSEOUT steps 8–13 omit it) → ledger-drift-behind-STATUS; refresh-or-freeze. (2) **No CONTRACT block** in the blueprint's standardized 3-line form (predates the 6/28 blueprint). (3) **No `POLY`/`KALSHI` SOURCE_TAG in VOCABULARIES.tsv** — KB uses free-text "Polymarket 6/27" (flagged in MEMORY, unresolved).
-- **The L5 gap (headline):** no calibration/resolution **Brier scoreboard** despite EXIT RULES promising accuracy-tracking — the utility analogue of a predictions ledger, and the role's own designated calibration loop.
+## 4. Deviations from standard — three that are better than the standard
 
-## 5. Load-bearing context / DO NOT TOUCH
-- **The DARWIN-guard nuance:** do NOT "fix" the Convergence Matrix or TRADE.md by deleting them as market-construct violations — they are repurposed utility surfaces (live signal-tracking + no-sizing routing). Touch only to rename/clarify or to refresh TRADE.md's stale numbers.
-- **Two-fetcher EXECUTE contract:** every session pulls BOTH `polymarket.py pull --log` AND `kalshi.py pull --log`. Kalshi creds live OUTSIDE the repo (`~/.config/kalshi/`, chmod 600) — **never committed**; KALSHI_ODDS_LOG has a *separate schema* (OI + cents) — do NOT merge into ODDS_LOG (8 mis-shaped rows were appended then scrubbed 6/27).
-- **Symmetric boot↔closeout:** what's read at boot is written back at closeout — breaking the mirror is what previously left SCRATCH/NEXUS_BRIEF broadcasting retracted claims (the 6/22 remediation). NEXUS_BRIEF refresh is MANDATORY every session even on no-change (staleness self-corrects via the `As of:`/`STATUS commit:` stamps).
-- **Discipline overlay (load-bearing analytical conventions):** thin (<$5K liq) markets ⚠️ flagged, never marked on one print (≥3-day re-check); a market price is an *expectation* → anchor predictions to surprise-vs-pricing, not headline outcomes; no naked numbers (platform/market/date/volume on every figure); `closed`-field (not stale `endDate`) is authoritative for resolution (⏮ flag).
-- **Fetcher behaviors:** `history --write` regenerates HISTORY.tsv (the trajectory view that defeats stale baselines); `movers` is the standing discovery sweep (domain-filtered, sports/election-excluded, ⚙ near-resolve flag) — residual Trump-keyword noise is acceptable, do not over-filter.
-- KB lifecycle: mark SUPERSEDED/CORRECTED with DerivedFrom pointer — **never delete** a superseded row.
+**4.1 — The handoff surface carries its corrections ABOVE the text they correct.** `SCRATCH.md` opens with **CARRIED FRAMING — do not re-derive from older text**, and the first entry is ORACLE's own withdrawal of its headline finding of that same session, placed *above* the superseded framing it retracts. A re-reader hits the correction before the claim. This is the fix-form for `[[finding_summary_section_merges_what_the_body_separates]]` — the abstract is where a correction normally lands last, and ORACLE inverted it. **Portable to every desk that keeps a handoff file.**
 
-## 6. Maturity snapshot
-**L4 (conf H)** — UTILITY class, graded vs `utility-agent.md`. **L4 consumption gate satisfied:** NEXUS reads the brief; LIQUID picked up the July-hike figure-check (now in their `processed/`); TERRY handoff packet is a defined surface (designed handoff, qualitative per PAT-028). Floor L0–L2 met (skeleton → live STATUS+BOTTOM LINE → 5 accruing valid-schema logs). L3 met (role rubric `PREDICTION_MARKET_METRICS.md` applied consistently). **Below L5 on:** (a) no Brier calibration scoreboard [the role's truth-loop, named in EXIT RULES but unbuilt], (b) TRADE.md stale-since-6/19 (closeout-hygiene), (c) no formal CONTRACT block, (d) no zero-YEYOU clean bill. Work queue → `upgrades/ORACLE_CARD.md`. Classification per `FLEET_MAP.tsv` (not restated). **No temporal drift:** ORACLE's last commit was 6/27 (`2b74152b`), *before* the 6/28 grading — current state equals the graded state.
+**4.2 — `TRADE.md` answers rot with visibility rather than freshness.** The file rotted twice (I caught it at 21 days; a Will-directed sweep caught it again at 15). The 8/27 rebuild does not just refresh — every figure now carries its own trajectory, machine-extracted from the append-only logs, so **a stale row announces itself** without a reader checking a header. Its own words: *"A refresh alone only resets the clock on the next rot."* Plus a contract-identity guard that **segments on slug change and refuses to difference across the break** — which is precisely the slug-rot defense (three-slug bank-failure "fade" that is not a move; month-stamped WTI-$100 legs that are four separate contracts).
 
-## 7. Open questions / comprehension gaps
-- Is the TERRY-handoff path ever *actually exercised* (a real ORACLE→TERRY tradeability packet sent), or is it purely a designed format never fired? (affects how firmly the L4 consumption gate holds on the TERRY leg specifically).
-- Is TRADE.md meant to be live (refresh on the write-back loop) or should it be FROZEN with a banner? (decides whether the 6/19 staleness is debt or by-design) — resolve before any L5 claim.
-- Kalshi log has a single pull (6/27, 8 rows) — is the second-source loop actually accruing each session, or did it stall after wiring? (the calibration value depends on it building).
-- Will a Brier scoreboard even be tractable given Polymarket slug-rot (markets resolve and drop)? — i.e. is the missing calibration loop a *gap* or a *structural ceiling* (PAT-028)? Needs a design call before grading it as fix-it debt vs ceiling-NOTE.
+**4.3 — `metrics.py verify` is a two-direction guard, which is rare.** It re-derives every published `dH` (all reproduce ✓) **and** sweeps every rolling window to ask whether *any* choice could reproduce the published σ — printing `UNREACHABLE` where none can. It confirms what is right and refuses to re-derive what was wrong, in one run. Three published σ stand retracted on its output (`KB-ORC-064 → CORRECTED`) while the directional findings survive. **This is `CHECK_STANDARD` §3 satisfied by an agent that has never read it.**
+
+**Vestigial-but-live (do NOT "fix"):** the Convergence Matrix and `TRADE.md` are market-template labels on genuinely utility content (which markets are firing; no-sizing routing). They are **EQUIVALENT, not DARWIN-dead** — never delete them as market-construct violations, and never grade ORACLE against the market blueprint for having them.
+
+## 5. DO-NOT-TOUCH
+
+1. **Two-venue EXECUTE contract** — every session pulls BOTH fetchers. Kalshi creds live OUTSIDE the repo (`~/.config/kalshi/`, chmod 600), **never committed**; `KALSHI_ODDS_LOG` has a separate schema (OI + cents) — ⛔ do not merge into `ODDS_LOG` (8 mis-shaped rows were appended then scrubbed 6/27).
+2. **Lane state is PER-BOX, never a fleet fact.** Verified live: this laptop has no `~/.config/kalshi/`, so the signed lane is genuinely dead here while STATUS correctly records it LIVE on the desktop. The discipline is load-bearing, not bookkeeping.
+3. **The 0-ships `⛔RESOLVED` flag is a known FALSE POSITIVE** — row annotated DO-NOT-REPLACE; it fires every session by design. ⛔ Do not "clean up" the warning.
+4. **KB lifecycle:** mark SUPERSEDED/CORRECTED with a DerivedFrom pointer — **never delete** a superseded row.
+5. **`polymarket.py history` writes two rows stamped today** (intraday bar + live point). ⛔ Do **not** one-line-dedupe: those duplicate rows are what made the 9/4 NFP pre/post reconstruction possible. ORACLE's call — *decide which consumer you serve first* — is correct and should be left standing.
+6. **Symmetric boot↔closeout.** Breaking the mirror is what previously left SCRATCH/NEXUS_BRIEF broadcasting retracted claims (the 6/22 remediation).
+7. **The three retracted σ stay retracted.** `metrics.py verify` is the receipt.
+
+## 6. Findings (2026-09-05, all verified at the artifact)
+
+**🟠 F-1 — The registered downgrade trigger has no instrument that can ever fire it.** `CLAUDE.md:201` carries a standing rule: *"If prediction markets consistently wrong (track accuracy over time), reduce signal weight."* Nothing in the tree tracks accuracy over time. This is the **untrippable-band class** — a threshold with no metric surface — and ORACLE is the desk that spent its entire 9/4 session catching that exact defect in *other* desks' instruments. It is the same finding as the missing calibration loop (§7), stated where it actually bites.
+
+**🟡 F-2 — Two carried items are ORACLE-lane and have each slipped twice.** `T6_PIN.tsv` freeze-or-drop from `LEDGER_GLOB` (SCRATCH item 10, "was item 11 last session"; now unambiguous — T6 is graded) · the Sept Iran-shipping on-date re-search (item 4; the Hormuz weekly roll has "run late five consecutive times", which ORACLE itself has already converted into a hard literal-date gate). Not defects — correctly carried, dated and self-diagnosed. Recorded so the next refresh can check whether the hard-date gate worked.
+
+**🟡 F-3 — `t6_pin.py` prints no leg summary after `WIN_END`** (PROME 8/30, reproduced by ORACLE 9/4). Correctly **not fixed** — the test is spent — with the design lesson carried forward instead. Right call.
+
+### ⚠️ Where I was wrong — struck before this shipped
+- **"`test_search_coverage.py` exits 0 on a crash"** — **FALSE, struck.** It exits **rc=1**. My first measurement read `$?` after a pipe into `tail`, so I was scoring `tail`'s status, not the script's. **I flagged a silent-failure defect using a silently-failing measurement**; caught on re-measure. `[[finding_test_the_guard_not_just_the_guarded]]` turned on my own instrument.
+- **"The Brier gap is the same shape as the Meta-L5 roadmap leg I struck on 8/17"** — **FALSE, struck before ruling.** I had the precedent lined up and it does not apply: `utility-agent.md:53` registers the calibration loop **per role, in the blueprint itself**, so it is adjudicated per-agent by construction and the "never adjudicated at any grade in the class" argument is void. A correct-looking precedent nearly produced a wrong ruling. See §7.
+- **Came back clean:** CONTRACT block present (:14) · TRADE.md live (8/27, not stale) · KB lifecycle exercised (8 CORRECTED / 5 SUPERSEDED) · both fetchers accruing · 9/4 commits confirmed on origin · `metrics.py verify` reproduces.
+
+## 7. ⚖️ THE RULING I OWED — Brier scoreboard: gap or ceiling? *(open since 2026-06-29; 68 days)*
+
+**The 2026-06-29 question was a false dichotomy.** It asked whether the Brier scoreboard is *"required at L5-utility or DAEDALUS-row-local."* It is **neither**: `BLUEPRINTS/utility-agent.md:53` registers a **per-agent "Calibration loop" column** — WALTER `delivered_but_unconsumed` · NEXUS brief-vs-peer-brief diff · RED steelman/odds hit-rate · TERRY realized-vs-constructed · YEYOU flag-accuracy · **ORACLE Brier scoreboard** — described in the blueprint's own words as *"the role's truth-loop — the utility analogue of a market predictions ledger."* The blueprint's THIN FLOOR + ROLE CEILING design had already answered it; nobody had gone and read the answer.
+
+**VERDICT: GAP, not a PAT-028 structural ceiling.** The 6/29 tractability objection was Polymarket slug-rot — markets resolve and drop, so can resolution even be scored? That objection is substantially answered by artifacts built *since* it was raised: **`HISTORY.tsv` (7,254 daily rows / 42 markets)** is a spine that survives slug rot · the **`closed`-field-authoritative** resolution rule already exists as discipline · **`TRADE_MARKS.tsv` already segments on slug change and refuses to difference across a break** — that *is* the slug-rot defense, built for a different purpose · and ORACLE demonstrably reads settlement (all 30 August Iran on-date legs settled 0.0% except 8/31 at 97.0%).
+
+**But the ask must be re-scoped, and this is the substantive half.** "Brier scoreboard" is ambiguous between scoring *the crowd* and scoring *ORACLE*, and ORACLE mostly does not publish its own forecasts — it reports the crowd's. The loop its own charter already requires is scoring **the crowd**: `CLAUDE.md:201`. So the ask is not *"build a Brier scoreboard"* but **"build the instrument that makes `CLAUDE.md:201` executable"** — one table: slug · resolution date · outcome · ORACLE's logged probability at N days prior · Brier contribution. Every input already exists in the tree.
+
+⚠️ **A real ceiling NOTE survives, scoped to a SUB-PART, not to the instrument:** only markets that resolve inside the log window can score, so early output will be dominated by short-dated legs (CPI/U3/Fed rungs) and will say little about the long-dated geopolitical book — which is where ORACLE's most-routed reads live. **Declare that limit in the scoreboard's own header** rather than letting a thin early score read as a verdict on the desk.
+
+### 🔴 …and the ruling surfaced a defect on MY surface, not ORACLE's
+**The blueprint requires a calibration loop per role and then grades nothing on it.** The utility L-ladder legs are **L3** role rubric applied consistently · **L4** output consumed by others · **L5** clean closeouts, zero YEYOU flags, current. **None of them reads the Calibration-loop column.** So a utility agent can reach **L5 with its registered truth-loop unbuilt**, purely because no leg looks — while at market class the stated analogue (*"predictions resolving"*) is an **L3** leg. The same requirement is load-bearing at L3 in one class and unreachable by any leg in another.
+**Consequence for ORACLE, stated plainly:** its L4 is honest and its L5 line has been keyed to a leg the ladder does not actually contain. **This is a blueprint change, not a map edit — it is Will's to approve, and I am proposing it, not executing it.** Registered as a DAEDALUS build item; ORACLE is not blocked on it and should build the instrument regardless, because `CLAUDE.md:201` requires it independent of any grade.
+
+## 8. Grade — **L4 (H) HELD.** Per-leg verdicts (UPGRADE_PROTOCOL review-rule 2)
+
+| Leg (Utility class) | Verdict | Basis |
+|---|---|---|
+| L1 STATUS + BOTTOM LINE | **PASS** | 139 ln, alerts-first, BOTTOM LINE present |
+| L2 structured record, valid schema, accruing | **PASS** | 8 ledgers accruing; KB lifecycle exercised (8 CORRECTED / 5 SUPERSEDED) |
+| L3 role rubric applied consistently | **PASS** | `PREDICTION_MARKET_METRICS.md` applied live — entropy/KL scored on the 9/4 NFP event study |
+| L4 output consumed by others | **PASS** | NEXUS via brief; SAM *"your verdict applied in full"* (8aca398ce); PROME routed the 9/4 adjudication onward to HENRY/RED/WALTER + DOCKET L125/L272 |
+| L5 clean closeouts | **PASS** | 9/4 closeout clean, 3 commits confirmed on origin, push receipt in SCRATCH |
+| L5 zero YEYOU flags | **WAIVED** | no YEYOU feed exists fleet-wide (charter-standing waiver, not an ORACLE concession) |
+| L5 current | **PASS** | last session 9/4 = yesterday |
+| **Role ceiling — calibration loop (`utility-agent.md:53`)** | **FAIL** | Brier scoreboard does not exist; `CLAUDE.md:201` has no instrument (§7) |
+| *(ladder-leg coverage of the above)* | **NOT-ADJUDICATED** | no utility L-leg reads the calibration column — the defect is mine, §7 |
+
+**Conf H** — read the artifacts and ran the guards. **L4 held, and the hold is now honest rather than vague:** every generic L5 leg passes; what fails is the per-role calibration ceiling, which the ladder does not currently read. Resolve the blueprint question with Will and ORACLE's grade follows in one step either way.
+
+**L5 next-upgrade line:** *build the instrument that makes `CLAUDE.md:201` executable — crowd-resolution scoring off `HISTORY.tsv` + the `closed` field, with the short-dated-bias limit declared in its own header. Blocked on nothing at ORACLE's end; the ladder-leg question is DAEDALUS's to put to Will.*
+
+## 9. Owed BY DAEDALUS to ORACLE (from its SCRATCH, both agreed and unmoved)
+1. **The three-window vocabulary** — *"a registered trigger should name (a) close-vs-intraday, (b) the eligibility window explicitly, (c) one-sided vs two-sided."* ORACLE's carry-forward says this *"stays with DAEDALUS as agreed."* It is earned from a live failure: T6's tool was built around the 8/21–8/28 pin window while the trigger stayed eligible from 8/10, and **the mismatch walked PROME into measuring the wrong window.** → `CHECK_STANDARD` / `STATE_VOCABULARY` candidate.
+2. **ORACLE's "spec-has-implementation check" prototype** — Tier-2, agreed with Will, not started, to be sent to me. Its declared honest limit: *it cannot catch "code exists but computes it wrong."*
+
+## 10. Cross-check candidate (NOT asserted — outside this batch)
+`NEXUS/CONFIRMED.md` is described in NEXUS's own charter as a *"thesis scorecard (trophy case)"*. A scorecard of confirmations only cannot falsify (**PAT-060**, default-zero instrument). NEXUS is L5 Utility with its own registered calibration loop (brief-vs-peer-brief diff / mined-edges) and was refreshed 9/3, so **this is a question to ask at NEXUS's next touch, not a finding.** Flagged only because §7's ladder gap means a scorecard-shaped calibration loop would never have been graded either way.

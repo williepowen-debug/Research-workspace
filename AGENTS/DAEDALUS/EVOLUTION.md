@@ -69,6 +69,18 @@
 
 
 
+### 2026-09-05 (m) — a per-role requirement that no ladder leg reads: the utility calibration column
+**Found while ruling a question I had owed ORACLE for 68 days** ("is the Brier scoreboard required at L5-utility or DAEDALUS-row-local?"). **The question was a false dichotomy and the blueprint already answered it:** `BLUEPRINTS/utility-agent.md:53` registers a per-agent **Calibration loop** column — WALTER `delivered_but_unconsumed` · NEXUS brief-vs-peer-brief · RED steelman/odds hit-rate · TERRY realized-vs-constructed · YEYOU flag-accuracy · **ORACLE Brier scoreboard** — in the blueprint's own words *"the role's truth-loop — the utility analogue of a market predictions ledger."* THIN FLOOR + ROLE CEILING had the answer; nobody had read it.
+
+**⚠️ THE DEFECT, WHICH IS ON MY SURFACE:** the utility L-ladder legs are **L3** role rubric applied consistently · **L4** output consumed by others · **L5** clean closeouts, zero YEYOU flags, current. **None of them reads the Calibration-loop column.** So a utility agent can reach **L5 with its registered truth-loop unbuilt**, because no leg looks — while at market class the stated analogue (*"predictions resolving"*) is an **L3** leg. **The same requirement is load-bearing at L3 in one class and unreachable by any leg in another.** ORACLE's L5 line has therefore been keyed to a leg the ladder does not contain.
+
+**Status: PROPOSED, NOT EXECUTED — a ladder change is a standard change and is Will's.** Options for the ruling: (a) add a calibration-loop leg to the utility ceiling (which would move grades on more than ORACLE and needs a per-agent adjudication pass first); (b) declare the column advisory and strike the "utility analogue of a predictions ledger" framing, since that framing is what makes it read as a requirement; (c) leave it and say so explicitly, so the next grader does not re-derive the same gap. **No grade moved on this finding** — ORACLE holds L4 on legs that pass or fail independently of it.
+
+**Method note worth keeping (PAT-050 on myself):** I had a precedent lined up — the 8/17 Meta-L5 strike of the "EVOLUTION roadmap live" leg, on the reasoning that a leg never adjudicated at any grade in the class is not a class requirement — and it **does not apply**, because a per-role column is adjudicated per-agent by construction. **A correct-looking precedent nearly produced a wrong ruling**; the check that caught it was reading the blueprint table's own header instead of trusting the summary of it in the old profile. `[[finding_read_the_artifacts_own_header_first]]`.
+
+**Also this session:** HANS + ORACLE profiles rewritten whole (both bodies predated a desk rebuild); ORACLE's second owed item — the three-window vocabulary (close-vs-intraday · eligibility window · one-sided vs two-sided), earned from T6 walking PROME into measuring the wrong window — registered as a `CHECK_STANDARD`/`STATE_VOCABULARY` candidate, not yet drafted.
+**Self-row:** L5 unchanged; no ladder leg moved.
+
 *(**Entries 2026-08-28 (d)–(g) rotated verbatim 2026-09-04** → `archive/EVOLUTION_ARCHIVE_2026-09.md` **block 2**, crc32 `2545191367`, 6855 B, round-trip verified from the written file — this file had reached 89% of the 32,550 B budget after entry (n); rotation, never deletion: every ruling in it stands and is citable from the archive.)*
 
 *(Older entries — 2026-08-23 through 2026-08-26, incl. the byte-budget derivation (b) and the boot-spine repair (c) — rotated verbatim 2026-09-03 → `archive/EVOLUTION_ARCHIVE_2026-09.md` block 1, crc32 1967475117. Jun–Aug-20 entries → `archive/EVOLUTION_ARCHIVE_2026-08.md`, CLOSED.)*

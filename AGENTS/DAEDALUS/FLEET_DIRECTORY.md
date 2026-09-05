@@ -26,7 +26,7 @@
 | TERRY | Utility | L4 | H | 2026-09-01 | Trade construction / risk scoring ‡‡ | L5 on the ONE-LINE fix: POSTMORTEMS.md:4 header re-cut to its own entri… |
 | REGINALD | Market | L4 | H | 2026-09-01 | Regional banks | L5 on the Brier/archive layer (PREDICTIONS_ARCHIVE |
 | MARCO | Market | L4 | H | 2026-09-01 | Florida migration / tourism (FL sub; reconcile w/ CORAL) | L5 on the three handles (labeled BOTTOM LINE · §2 5-pt/Independence · P… |
-| ORACLE | Utility | L4 | H | 2026-09-01 | Prediction-market diagnostics ‡‡‡ | L5 on the Brier scoreboard (decide first whether it is required at L5-u… |
+| ORACLE | Utility | L4 | H | 2026-09-05 | Prediction-market diagnostics ‡‡‡ | L5 on the calibration loop: build the instrument that makes CLAUDE.md:2… |
 | BOND | Market | L4 | H | 2026-09-01 | US bond-market structure / auctions / rates | L5 on: STATUS byte tier — rotate to <32,550 B (SHADE's crc-archive form… |
 | CORAL | Market | L3 | H | 2026-09-01 | Florida (whole-state, 10 pillars) | L4 on: the flat-by-design TRADE ruling (Will) |
 | SHADE | Market | L3 | H | 2026-09-01 | Insurer-lender / PE-insurance-captive | L4 on PREDICTIONS.tsv seeded with confidences AT REGISTRATION (one file… |
