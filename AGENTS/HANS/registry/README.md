@@ -73,3 +73,17 @@ Following CREED's hard-won lesson (WALTER `CLAUDE.md` 6b): **only 6 of the 14 ro
 **Why this is a rule and not a preference:** on 2026-08-28 `HANS-F-003` and `HANS-F-004` both recorded `dispatch_artifact = AGENTS/HANS/STATUS.md`. Both fires read **OPEN-and-dispatched** for eight days while BRENT's tree held nothing at all. This desk's own standing rule is *"verify delivery at the RECIPIENT's tree, never from `outbox/delivered/`"* — and **a sender-tree path can never satisfy that check**, so the cell was structurally incapable of being falsified. Found by DAEDALUS (F-4), not here. `[[finding_record_of_an_action_is_not_the_action]]`
 
 **The check the cell now supports:** `test -f "$(cut -f9 registry/HANS_T_FIRED_LOG.tsv | tail -n +2)"` — a path that does not exist in the recipient's tree is an undelivered fire. **`AGENTS/HANS/STATUS.md` is never a valid value.**
+
+## ⚠️ THE METRIC-SURFACE CHECK MAPS *ROWS*, NOT *LEGS* — CORRECTED 2026-09-05
+
+The standing check above ("every registry row must name a metric surface") **passed on `HANS-T-09` while half of it was uninstrumented.**
+
+`T-09` is **compound**: *spread >200bp **AND** BTP level >5.50*. `VX-HANS-3.01` instrumented the **spread** leg; **the BTP LEVEL leg had no metric surface at all.** The row therefore could never fire on its own stated terms, and a clean scan of the spread leg reported "not met" whether or not the level leg was anywhere near its bar `[[finding_relative_threshold_cannot_be_graded_by_a_one_sided_instrument]]`. **This is the same shape as the 8/28 spread-blind-to-common-mode defect**: an instrument that reports cleanly against a referent that cannot reach the claim.
+
+**Fixed:** `VX-HANS-3.09` (Italy 10Y BTP Yield, LEVEL) created 2026-09-05.
+**Rule now:** *every **LEG** of every registry row names a metric surface.* Enforced by `scripts/doc_audit.py` C3, which compares compound rows **per leg** and fails on a leg-count mismatch. Found by that script on its first run, not by a human re-read.
+
+| Row | Spread surface | Level surface |
+|---|---|---|
+| `HANS-T-09` Italy | `VX-HANS-3.01` | **`VX-HANS-3.09`** *(new 9/5)* |
+| `HANS-T-10` France | `VX-HANS-3.02` | `VX-HANS-3.07` |

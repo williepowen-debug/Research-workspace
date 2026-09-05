@@ -69,14 +69,7 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 
 **🔴 AND EUROSTAT REFUTES A CLAIM I PUBLISHED.** Euro-area **Q2 GDP +0.4% q/q, +1.0% y/y — strongest since Q1-2025**; employment +0.1%. **France +0.2%**, DE +0.2%, IT +0.2%, ES +0.7% (`2-14082026-AP`, **primary**). My pre-registration §1 said *"France stagnated in Q2."* It did not. **Euro-area Aug Manufacturing 52.7 / Composite 52.0 run AHEAD of Germany**, so "the expansion is narrow" fails at the union level too. ⇒ **`HNS-05` stays at 88% and I am NOT moving it again** — a number revisable whenever new information arrives is commentary, not a forecast. **Pre-committed instead: a 9/10 hike grades the row HIT and the CONFIDENCE POOR.** → `thesis/ECB_2026-09-10_PREREGISTRATION.md` Appendix B.
 
-**Five dated items the sweep added that this desk was not carrying:**
-| Date | Item |
-|---|---|
-| **early Oct 2026** | 🔴 **France submits its 2027 budget to parliament.** OAT–Bund ~87bp = widest since Dec-2024; CNBC 8/31 calls France the sovereign-debt "poster child". **This is the "French reason arriving on top" my 8/28 file named as the fast-repricing tail — it now has a date** |
-| **Sept–Dec 2026** | 🔴 **German 2027 budget in parliamentary review NOW: net new borrowing >€203bn** (vs €196.5bn projected in April), **defence €109.8bn (+34%)**, 3.1% of GDP → 3.5% by 2029; Q3 issuance already raised €19bn vs plan. **The supply leg of my Bund argument, upgraded** |
-| **2026-10-29** | Netherlands general election — **same day as the ECB October GovC** |
-| **2026-11-10** | EU–China rare-earth truce **expires** (my docket said a vague "Oct/Nov"). European erbium **+50% since June**; China restricted 14 EU entities in July |
-| **2027-01-01** | 🔴 **EU ban on Russian LNG under LONG-TERM contracts** (short-term already banned since 2026-04-25). **A dated supply subtraction stacked on Qatar, biting INSIDE the winter `HNS-07` is about** |
+**Five dated items the sweep added that this desk was not carrying — all now in §CATALYST DOCKET below:** France's 2027 budget to parliament **early Oct** (OAT–Bund ~87bp, widest since Dec-2024 — *the "French reason arriving on top" my 8/28 file named as the fast-repricing tail, now with a date*) · **German 2027 budget in parliamentary review NOW, net new borrowing >€203bn** and defence €109.8bn (+34%) — *the supply leg of my Bund argument, upgraded* · Netherlands election **10/29** · rare-earth truce expiry **11/10** · 🔴 **EU ban on Russian LNG under long-term contracts 1/1/27, inside the `HNS-07` winter.**
 
 **✅ THE ECB NAMES MY OWN MECHANISM.** ECB blog *"Sloping up"* + Schnabel: portfolio runoff (~€40bn/mo; **€51.75bn in July 2026**) *"has contributed to a steepening of sovereign yield curves,"* and euro-area curves *"steepened visibly more in **Germany and France** than in Italy or Spain."* **That is my core-not-periphery exclusion argument, stated by the issuer.** QT runs at current pace to at least 2027.
 
@@ -209,6 +202,14 @@ Grepped the full tree: Belgium appears in four places and **none is a live surfa
 
 ---
 
+## 🔧 DOCUMENTATION AUDIT (2026-09-05) — **`scripts/doc_audit.py` now exists; the desk passes it.** Findings → `workbook/2026-09-05_DOC_AUDIT_FINDINGS.md` · lessons → `ML-HANS-437`–`442`
+
+**I re-read my own surfaces and thought them fine. A script disagreed 8 times on its first run**, incl.: `CLAUDE.md`'s band table still carried **"(live: 54.1 Aug flash)"** — I deleted that stale mirror from STATUS this session and **left its twin standing in the boot-read charter**; **two duplicate VX surfaces** whose 8/28 mitigation was the ritual *"update BOTH"*, which **failed on its very first outing (mine)** — both now RETIRED, because dedup beats sync `[[finding_mechanize_the_cap_not_the_ritual]]`; and 🔴 **`HANS-T-09`'s LEVEL leg had no metric surface at all**, so a compound row could never fire on its own terms (`VX-HANS-3.09` created; **every LEG now names a surface**). ⚠️ The audit's own v1 matched bare values and flagged UK CPI 2.9% against EA HICP 2.9% — fixed by **declaring each metric's surface**, not by suppressing the row. All 7 checks **falsified by injection**; 44 tests OK. **`workbook/PUBLISHED.tsv` created** — this desk had none, so `consumer_check --from-ledger` could never run and a figure I retired *and forgot* was structurally un-checkable.
+
+**🔴 Three corrections dispatched that only the ledger sweep could find — WALTER** (my `REGISTRY.tsv` row: 4 superseded levels, and *"5 fires OPEN"* when it is **4 of 5 logged**) · **HAWK** (carries *"next Qatar decision ~end-September"* as a dated catalyst — **superseded, the FM ran to November**) · **HENRY** (closed an **8/28 request I never answered**: their grep failed because **the pointer I sent died in the same session I sent it**).
+
+---
+
 ## NEXT SESSION — WHAT IS OWED (re-cut 2026-09-05; the 8/28 block is archived → `workbook/2026-08-28_OWED_AND_INFRA_BLOCK.md`)
 
 **Desk state: L4 (H) HELD** — DAEDALUS profile refresh 2026-09-05, per-leg verdicts at `AGENTS/DAEDALUS/profiles/HANS.md` §8. *(Their surface, their call.)*
@@ -232,5 +233,5 @@ Grepped the full tree: Belgium appears in four places and **none is a live surfa
 Eight dark days changed no call and hardened three: Europe still transmits to the US **through the long end rather than through growth**, and the growth leg is now dead on two independent German instruments — PMI 54.3 plus July factory orders +2.5% m/m with a record 8.9-month backlog — while the Bund at 3.36% (intraday **3.40% on 9/2, a 15-year high**) keeps arriving with tight periphery spreads, a strengthening euro and a named domestic driver, a reading BOND has now **independently corroborated** by ranking the euro area first of four DM sovereigns at issuer primaries. The energy input under all of it got worse, not better — TTF **€71.96 and +125% YoY**, a 3.5-year high on 9/2 — but the storage gap is quietly **narrowing** (−18.2pp → −16.6pp), and the euro-area **credit** channel, now read at ECB primary rather than through secondary relay, remains genuinely quiet: **€62.5bn of private-credit exposure across 12 euro-area banks is 0.2% of total assets**, and the loudest thing the primary says is that nobody — the supervisor included — can see the undrawn half.
 
 ---
-*Prior state archived → `workbook/STATUS_archive_20260716.md` (7/16 energy-ladder frame), `STATUS_archive_20260430.md` (Apr-30 war frame), `STATUS_archive_20260325.md`. Falsification surface → `thesis/KILL_TREE.md`. Vectors `workbook/VX.tsv` · Flows `workbook/FLOW.tsv` · Predictions `workbook/PREDICTIONS.tsv`.*
+*Archives → `workbook/` (STATUS_archive_20260716 / _20260430 / _20260325, plus this session's rotations). Falsification → `thesis/KILL_TREE.md`. Ledgers → `workbook/VX.tsv` · `FLOW.tsv` · `PREDICTIONS.tsv` · `PUBLISHED.tsv`.*
 

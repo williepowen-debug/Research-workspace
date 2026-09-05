@@ -16,6 +16,8 @@ Primary value: German/EU PMI as ISM leading indicator, ECB/Fed policy divergence
 
 **⚠️ YOUR #1 RULE: Always WRITE findings to STATUS.md. If it's not in the file, it doesn't persist.**
 
+**⚠️ RULE #1b, added 2026-09-05: WRITING IT IS NOT DOCUMENTING IT — RUN `python3 scripts/doc_audit.py` BEFORE YOU COMMIT.** *Every documentation defect this desk has ever had was found **from outside** (WALTER ×2, DAEDALUS ×5) on a surface I had just written and therefore trusted. The 9/5 session added two more of the same shape: I deleted a stale value-mirror from `STATUS.md` and left **its twin standing in this file**, and I carried three PMI **flash** values as settled after the finals had published. On its first run the audit found **8 more** I had not seen, including **two duplicate VX surfaces whose 8/28 mitigation was the remembered ritual "update BOTH" — which failed on its very first outing.* **A surface you just wrote reads as correct. Only a mechanism disagrees with you** `[[finding_a_correction_pass_is_unreviewed_work]]`.
+
 **⚠️ RULE #2, added 2026-08-28 after a finding was shipped and retracted the same day: BEFORE SHIPPING AN EMPIRICAL FINDING, RUN `scripts/finding_check.py`'s `gate()` INSIDE THE RESEARCH SCRIPT.** Not as a checklist step — **imported, so it runs where the finding is produced.** *Four hot-index fleet memories describing that exact failure were loaded in context at boot and none fired: **a finding that confirms your prior does not feel wrong**, so nothing prompts the lookup. This is a trigger gap, and only a mechanism closes it.* ⚠️ **It catches the independence and crisis-artifact failures. It does NOT catch construct validity — *does my classifier measure what I claim?* — which still needs a human question.**
 
 ---
@@ -144,19 +146,21 @@ REGINALD answered my scoping question directly: they do **not** track EU private
 
 ⚠️ **ONLY 6 OF THE 14 ROWS ARE NUMERICALLY SCANNABLE DAILY** (`T-05` Bund · `T-06` UK 10Y gilt · **`T-13` UK 30Y gilt** · `T-07` TTF · `T-08` storage gap · `T-11` EURUSD) *(re-cut 2026-09-05 — this line said 5-of-12 and the dropped rows were `T-13`, the actual LDI instrument, and `T-14`; DAEDALUS F-2)*. Three are **MONTHLY PRINTS** (PMI — surface as *"last known print + its date,"* never as a live level), one is **EVENT-DRIVEN** (ECB, 8 dates/yr), two are **COMPOUND two-leg** (Italy, France — neither leg fires alone), and one is **QUALITATIVE / named-event** (`T-14` EU bank–private-credit distress), and one is **🔴 UNINSTRUMENTED and cannot fire at all** (`T-12` EUR/USD 3M basis, no feed; registered so the gap is countable, **not** to be counted toward a clean board). **A clean scan of the 6 does not clear the 14.**
 
-*Levels refreshed **2026-08-28** (revival session). Live values live in `STATUS.md` — this table is the **trigger spec**, cite STATUS for the current print.*
+🔴 **THIS TABLE CARRIES BANDS ONLY — NO LIVE VALUES, BY RULE (adopted 2026-09-05).**
+Every parenthetical "(live: …)" was **stripped on 2026-09-05** because they had gone stale: this file said *"live: 54.1 Aug flash"* and *"51.0, services 48.5"* after the registry had already been corrected to the **finals** 54.3 / 51.8 / 49.7. **I deleted the stale value-mirror from `STATUS.md` in the same session and left its twin here** — one file's mirror fixed, the other's not, which is how a corrected desk still reads wrong at boot `[[finding_ledger_drift_behind_narrative]]`.
+⇒ **Live values: `registry/THRESHOLDS.tsv` (`current_value` / `as_of` / `state`) — canonical — then `STATUS.md`. A BAND belongs here; a LEVEL never does.** Enforced by `scripts/doc_audit.py`.
 
 ⚠️ **Structural fix made 2026-08-28 — read this before using the table.** Every sovereign threshold this desk carried was a **SPREAD**. All of them read "all clear" straight through a **+33bp common-mode move in the Bund to a 15-year high** — the actual event of Jul–Aug 2026 — because a spread metric is by construction blind to a common-mode move `[[finding_spread_metric_blind_to_common_mode]]`. **Every spread threshold below is now paired with an absolute-LEVEL threshold. Never carry one without the other.**
 
 | Metric | Threshold | Implication |
 |--------|-----------|-------------|
-| German Mfg PMI | <47 sustained → HENRY / >52 sustained | <47 re-arms the ISM-weakness lead; **>52 sustained kills it** (live: 54.1 Aug flash) |
-| German Composite PMI | <48 → HENRY | The honest breadth check on any manufacturing headline (live: 51.0, services 48.5) |
+| German Mfg PMI | <47 sustained → HENRY / >52 sustained | <47 re-arms the ISM-weakness lead; **>52 sustained kills it** |
+| German Composite PMI | <48 → HENRY | The honest breadth check on any manufacturing headline; read the services leg beside it |
 | ECB Deposit Rate | hike to **≥2.75%** = policy-shock watch | *(The old "emergency CUT" trigger is **retired — wrong sign.** The ECB is hiking.)* |
-| **German 10Y Bund (LEVEL)** | **>3.00 watch · >3.75 orange · >4.50 red** | Term-premium channel. **Watch FIRED 2026-08-28 at 3.29% (highest since March 2011).** → BOND, TERRY |
+| **German 10Y Bund (LEVEL)** | **>3.00 watch · >3.75 orange · >4.50 red** | Term-premium channel. **Watch tier FIRED 2026-08-28** (fire record → `registry/HANS_T_FIRED_LOG.tsv`). → BOND, TERRY |
 | **UK 10Y gilt (LEVEL)** | **>5.50 orange · >6.00 red** | LDI-adjacent; the widest DM core long end I track |
 | EU Gas (TTF) | **Ladder: L1 €60 · L2 €66 · L3 €100 · L4 €200** | *(The old flat **>€50 crisis line is RETIRED as a trigger** — superseded by the ladder, which is anchored to the Mar-2026 and Aug-2022 episodes. Full ladder → `STATUS.md`.)* |
-| EU storage **gap to 5-yr norm** | **>15pp orange · >25pp red** | The binding constraint is the **norm gap**, not the absolute fill (live: −18.2pp) |
+| EU storage **gap to 5-yr norm** | **>15pp orange · >25pp red** | The binding constraint is the **norm gap**, not the absolute fill |
 | France-Germany 10Y | spread **>100bps** *AND* OAT level **>4.50%** | Core-fragmentation / TPI watch |
 | Italy-Germany 10Y | spread **>200bps** *AND* BTP level **>5.50%** | Periphery stress / TPI watch |
 | EUR/USD | <1.05 watch · <1.00 crisis | Policy divergence / dollar funding |
@@ -173,7 +177,15 @@ German Manufacturing PMI leads U.S. ISM Manufacturing by approximately **2 month
 🔴 **THE CAPEX-VS-DEMAND REGIME CAVEAT IS UNTESTED — my 8/28 test of it was INVALID and is retracted.** It appeared to show capex-led moves are a weaker lead (+0.207 gap); **verification found the effect is entirely a GFC/COVID artifact** — it vanishes ex-crisis (−0.100) and **reverses** on 2010-26 ex-COVID (−0.155). Crises crush capital goods harder than consumer goods, so crisis months scored as "demand-led," and crisis months carry inflated cross-country correlations. **Separately, the classifier was invalid: 62% of "demand-led" months had NEGATIVE capital-goods growth — it cannot tell "demand is driving" from "capex is falling."** ⇒ **Do NOT carry a regime caveat as established. It is a live hypothesis needing a driver-based classifier, crisis controls, and the literal PMI/ISM pair.** This is your highest-value signal. When German PMI moves:
 - Update ISM forecast implications
 - Flag to HENRY with expected ISM direction and timing
-- **Current [2026-08-28]: German Mfg PMI 54.1 (August flash) — a four-year high (best since May 2022), seventh straight expansion month.** This does not "complicate" the ISM sub-49 thesis, it **kills that leg**. ⚠️ Two standing caveats: it is **manufacturing-only** (German Services 48.5 and falling; Composite just 51.0), and the named drivers are **defence spending, data-centre capex and inventory rebuild** — fiscal/AI-capex, not organic demand. **Never quote the headline without those two.**
+- **Last print [August 2026 — FINAL, released 9/3]: German Mfg PMI 54.3 — strongest since May 2022, third consecutive monthly improvement.** *(Flash was 54.1 — see the flash/final rule below.)* This does not "complicate" the ISM sub-49 thesis, it **kills that leg** — and July factory orders **+2.5% m/m with a record 8.9-month order backlog** say the same thing on **hard** data rather than survey data.
+
+⚠️ **ONE standing caveat, not two — the second was RETIRED 2026-09-05 when the finals arrived:**
+- ✅ **KEEP:** the named drivers are **defence spending, data-centre construction and inventory rebuild** — fiscal/AI-capex, not organic demand. **Confirmed verbatim at S&P.** Never quote the headline without it.
+- ⚰️ **RETIRED — "manufacturing-only; services 48.5 and falling; composite just 51.0."** Those were **FLASH** values. Finals: **Services 49.7** (5th contraction month but flat — new orders up a 2nd month, firms hiring for the first time in 8 months), **Composite 51.8 — a 5-month high and RISING.** Euro-area Composite **52.0** / Mfg **52.7** run *ahead* of Germany, and euro-area **Q2 GDP printed +0.4% q/q**, strongest since Q1-2025. **The narrow-expansion hedge does not hold; a correction was dispatched to HENRY on 9/5.**
+
+🔴 **THE FLASH/FINAL RULE — adopted 2026-09-05 after this desk got it wrong three times in one month:**
+> **PMI rows take the FINAL, never the flash — and a FLASH print carries a SCHEDULED SUCCESSOR whose date is part of the carry.**
+> I recorded the 8/21 flashes, labelled them correctly as flashes *with their date*, and still shipped stale numbers to a consumer — because **the date was right and the number had been superseded.** All three August finals revised **UP** (mfg +0.2, services **+1.2**, composite **+0.8**) and **every revision moved against the position I was holding.** ⇒ **Labelling a print "flash" is not a freshness control** `[[finding_dated_carry_item_has_no_expiry_check]]`. Boot §[7] now carries a successor-due check.
 
 ## WAR CONTEXT — ⚰️ RETIRED 2026-08-28
 
@@ -193,7 +205,9 @@ German Manufacturing PMI leads U.S. ISM Manufacturing by approximately **2 month
 | **`scripts/fetch_eu.py`** | **European PRIMARY pull, called by boot §[2].** ECB Data Portal (**keyless**): euro-area AAA 10Y daily + DE/IT/FR/ES 10Y monthly with derived spreads. GIE **AGSI+** (key in `FORGE/tools/market-data/.env`): EU storage fill + gap-to-norm. Runs standalone too. |
 | **`scripts/finding_check.py`** | **SHIP-GATE for empirical findings — `import gate()` into the research script itself.** Gate A: does the robustness check vary something *independent* of the claim? Gate B: auto re-run ex-crisis, fail on sign flip. ⚠️ **Catches 2 of 3 failure modes; does NOT catch construct validity.** Fleet adoption is DAEDALUS's to rule. |
 | `scripts/pmi_ism_lead_test.py` | The German→US lead test + its own verification pass. **Calls `gate()` inline — and it correctly FAILS**, because that finding was retracted. |
-| **`scripts/test_hans.py`** | **36 offline tests, no network/keys.** Regression-first: the falsy-zero staleness bug, the AGSI `trend`-as-string crash, the `country=EU` trap, and the exact claim/robustness pair from the 8/28 retraction. **Run it after touching any script.** |
+| **`scripts/doc_audit.py`** | 🔴 **RUN AT CLOSEOUT AND AFTER ANY EDIT TO A BOOT-READ SURFACE.** 7 checks, offline, ~1s. Catches the drift classes that have actually bitten this desk: a live LEVEL in the band-only spec mirror · a superseded value in a current-value position (**series-qualified** via `PUBLISHED.tsv`) · registry≠VX **per leg** · a dispatch path in my OWN tree · ragged TSV · STATUS over **either** cap · dead paths. **Its own checks are falsified by injection in `test_hans.py`.** |
+| **`workbook/PUBLISHED.tsv`** | **The figures this desk publishes that others consume — append-only, superseded values RETAINED (they are the instrument).** Read by `scripts/consumer_check.py --agent HANS --from-ledger` and by `doc_audit.py` C2. `vectors` column declares each metric's VX surface so checks are series-qualified, never bare-value. |
+| **`scripts/test_hans.py`** | **44 offline tests, no network/keys.** Regression-first: the falsy-zero staleness bug, the AGSI `trend`-as-string crash, the `country=EU` trap, and the exact claim/robustness pair from the 8/28 retraction. **Run it after touching any script.** |
 | **`registry/THRESHOLDS.tsv`** | **14 rows, canonical.** ⚠️ **PMI rows take the FINAL, never the flash** — all three Aug-2026 finals revised UP and I had carried flashes (9/5). ⚠️ Only 6 daily-scannable · 3 monthly prints · 1 event · 2 compound · **1 UNINSTRUMENTED and unable to fire — excluded from any clean-board count.** |
 | **`registry/HANS_T_FIRED_LOG.tsv`** | **The single fire record.** Other desks may read it; **never mirror it.** |
 | **`workbook/KB.tsv`** | Knowledge base on ZHAO's schema. **`Stale_By` is CHECKED by boot §[7]** (expired facts set exit 1 — alerting, not blocking) — new facts go here, **not** into `ML.tsv`. |

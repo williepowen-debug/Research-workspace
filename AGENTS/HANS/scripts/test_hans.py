@@ -263,5 +263,101 @@ class TestExitSemanticsPerimeter(unittest.TestCase):
             self.assertIn(token, src)
 
 
+
+class TestDocAudit(unittest.TestCase):
+    """FALSIFY THE GUARD, don't just run it. doc_audit.py was written 2026-09-05 to catch
+    drift classes that had ALREADY bitten this desk; a checker that passes because it
+    cannot fail is worse than none [[finding_test_the_guard_not_just_the_guarded]].
+    Each test INJECTS the defect and asserts the specific code fires."""
+
+    def setUp(self):
+        import importlib, doc_audit
+        self.da = importlib.reload(doc_audit)
+
+    def _codes(self, findings):
+        return {c for c, _ in findings}
+
+    def test_the_real_desk_is_clean(self):
+        """The live surfaces must pass. If this fails, fix the DESK, not the test."""
+        self.assertEqual(self.da.audit(), [], "live HANS surfaces have doc-audit findings")
+
+    def test_C1_catches_a_live_value_in_the_spec_mirror(self):
+        """The 9/5 defect: CLAUDE.md's band table carried '(live: 54.1 Aug flash)' after
+        the registry had been corrected to the 54.3 final."""
+        real = self.da.HANS / "CLAUDE.md"
+        txt = real.read_text()
+        hit = "| German Mfg PMI | <47 sustained"
+        self.assertIn(hit, txt, "anchor row moved — update this test, not the guard")
+        i = txt.index(hit); j = txt.index("\n", i)
+        try:
+            real.write_text(txt[:i] + txt[i:j] + " (live: 54.1 Aug flash)" + txt[j:])
+            self.assertIn("C1-LIVE-VALUE", self._codes(self.da.audit()))
+        finally:
+            real.write_text(txt)
+
+    def test_C2_is_SERIES_QUALIFIED_not_bare_value(self):
+        """The first version matched bare values and flagged UK CPI 2.9% against EA HICP
+        2.9%. A metric with NO declared vectors must be skipped, never guessed."""
+        pub = self.da.published()
+        self.assertIn("EA_FLASH_HICP_YOY_PCT", pub)
+        cur, olds, vecs = pub["EA_FLASH_HICP_YOY_PCT"]
+        self.assertEqual(cur, "3.3")
+        self.assertIn("2.9", olds)
+        self.assertEqual(vecs, [], "EA HICP declares no VX surface, so C2 must skip it")
+        self.assertEqual([c for c, m in self.da.audit()
+                          if c == "C2-SUPERSEDED" and "4.08" in m], [],
+                         "UK CPI 2.9% must NOT be flagged against EA HICP 2.9%")
+
+    def test_C2_still_catches_a_genuine_supersession(self):
+        """Series-qualifying must not have disarmed the check."""
+        pub = self.da.published()
+        cur, olds, vecs = pub["GERMAN_MFG_PMI"]
+        self.assertEqual(cur, "54.3")
+        self.assertIn("54.1", olds, "the flash MUST be on the ledger as superseded")
+        self.assertIn("VX-HANS-8.06", vecs, "the metric must declare its surface")
+
+    def test_C3_compares_compound_rows_PER_LEG(self):
+        """T-09 is 'spread AND level'. A one-leg comparison silently ignores the leg that
+        had no metric surface at all until 9/5."""
+        self.assertIsInstance(self.da.REG_VX["HANS-T-09"], tuple)
+        self.assertEqual(len(self.da.REG_VX["HANS-T-09"]), 2)
+        self.assertIn("VX-HANS-3.09", self.da.REG_VX["HANS-T-09"],
+                      "the Italy BTP LEVEL surface must be mapped")
+
+    def test_C4_rejects_a_sender_tree_dispatch_path(self):
+        """Two fires read OPEN-and-dispatched for 8 days pointing at HANS's OWN STATUS.md
+        — a record that cannot be falsified [[finding_record_of_an_action_is_not_the_action]]."""
+        import csv
+        p = self.da.HANS / "registry/HANS_T_FIRED_LOG.tsv"
+        txt = p.read_text()
+        rows = list(csv.reader(txt.split("\n")[:2], delimiter="\t"))
+        ci = rows[0].index("dispatch_artifact")
+        r = rows[1]; r[ci] = "AGENTS/HANS/STATUS.md"
+        try:
+            lines = txt.split("\n")
+            lines[1] = "\t".join(r)
+            p.write_text("\n".join(lines))
+            self.assertIn("C4-SELF-DISPATCH", self._codes(self.da.audit()))
+        finally:
+            p.write_text(txt)
+
+    def test_C6_enforces_the_BYTE_budget_not_only_the_line_cap(self):
+        """STATUS passed its 250-line cap at 241 lines while 5,316 B over the read-cap
+        budget. The byte budget binds FIRST."""
+        self.assertEqual(self.da.STATUS_BYTE_BUDGET, 32550)
+        self.assertEqual(self.da.STATUS_LINE_CAP, 250)
+        st = self.da.HANS / "STATUS.md"
+        self.assertLessEqual(len(st.read_bytes()), self.da.STATUS_BYTE_BUDGET)
+
+    def test_published_ledger_parses_with_the_FLEET_reader(self):
+        """PUBLISHED.tsv must be readable by scripts/consumer_check.py, not just by us —
+        it exists so --from-ledger works."""
+        sys.path.insert(0, str(self.da.ROOT / "scripts"))
+        from consumer_check import read_ledger
+        d = read_ledger(self.da.HANS / "workbook/PUBLISHED.tsv")
+        self.assertGreater(len(d), 10)
+        self.assertEqual(d["GERMAN_MFG_PMI"][0], "54.3")
+        self.assertIn("54.1", d["GERMAN_MFG_PMI"][1])
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

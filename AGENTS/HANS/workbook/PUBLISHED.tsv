@@ -1,0 +1,42 @@
+# Status: LIVE. Last real data refresh: 2026-09-05 (content-derived — newest asof cell in this file). Two-clock header per PAT-044; scripts/ledger_staleness.py reads THIS line first, never mtime.
+# HANS PUBLISHED.tsv — the numbers THIS desk publishes that other desks consume. Read by scripts/consumer_check.py --agent HANS --from-ledger.
+# CREATED 2026-09-05. Until today this desk had NO published-figure ledger, so every consumer_check run needed the superseded value passed by hand — which means a figure I retired and forgot was structurally un-checkable. Append-only; NEVER edit or delete a prior row (the superseded values ARE the instrument).
+# `vectors` (added 2026-09-05) declares which VX row is the METRIC SURFACE for each metric. It exists because doc_audit.py C2 matched on the BARE VALUE and flagged VX-HANS-4.08 (UK CPI 2.9%) against EA_FLASH_HICP_YOY_PCT 2.9% — two different series, same digits. An unqualified identifier is a defect waiting for a reader [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]. An EMPTY vectors cell means 'no VX surface declared' and C2 skips the row rather than guessing.
+# Tie-break within a date is APPEND ORDER, so a same-day supersession must be appended below its predecessor.
+metric	value	asof	note	vectors
+GERMAN_MFG_PMI	50.3	2026-07-16	June final; carried until the 8/28 revival	VX-HANS-8.06
+GERMAN_MFG_PMI	54.1	2026-08-21	August FLASH — ⚠️ SHIPPED TO HENRY AS IF SETTLED; superseded by the final	VX-HANS-8.06
+GERMAN_MFG_PMI	54.3	2026-09-03	August FINAL (rel. 9/3). CURRENT. Strongest since May 2022, 3rd straight improvement	VX-HANS-8.06
+GERMAN_SERVICES_PMI	48.5	2026-08-21	August FLASH — ⚠️ shipped as "48.5 and falling"; the final is 1.2 higher and flat	
+GERMAN_SERVICES_PMI	49.7	2026-09-03	August FINAL. CURRENT. 5th contraction month; new orders up, hiring resumed	
+GERMAN_COMPOSITE_PMI	51.0	2026-08-21	August FLASH — ⚠️ shipped as "barely expanding"	
+GERMAN_COMPOSITE_PMI	51.8	2026-09-03	August FINAL. CURRENT. 5-month high and RISING	
+GERMAN_10Y_BUND_PCT	2.96	2026-07-16	Pre-revival	VX-HANS-3.05
+GERMAN_10Y_BUND_PCT	3.29	2026-08-28	Fired HANS-T-05 watch tier	VX-HANS-3.05
+GERMAN_10Y_BUND_PCT	3.36	2026-09-04	CURRENT. Intraday 3.40 on 9/2 = highest since 2011	VX-HANS-3.05
+UK_10Y_GILT_PCT	5.07	2026-08-28	⚠️ WRONG — secondary source, corrected same day	VX-HANS-3.06
+UK_10Y_GILT_PCT	5.1548	2026-08-28T18:00	Corrected. ⚠️ BASIS UNRESOLVED vs BoE IUDMNPY nominal-par 5.0254 [8/27]	VX-HANS-3.06
+UK_10Y_GILT_PCT	5.1345	2026-09-04	CURRENT. Peaked 5.263 on 9/1 = highest since 2008	VX-HANS-3.06
+UK_30Y_GILT_PCT	5.80	2026-08-28	Highest since 1998 at the time	VX-HANS-3.08
+UK_30Y_GILT_PCT	5.7750	2026-09-04	CURRENT. Peaked 5.904 INTRADAY on 9/1 = highest since March 1998	VX-HANS-3.08
+TTF_FRONT_MONTH_EUR_MWH	55.11	2026-07-16	Pre-revival	VX-HANS-8.01
+TTF_FRONT_MONTH_EUR_MWH	66.19	2026-08-28	L2 of the HANS ladder reached	VX-HANS-8.01
+TTF_FRONT_MONTH_EUR_MWH	71.96	2026-09-04	CURRENT. +37.3% m/m, +125.1% YoY; peaked ~74.5 on 9/2 = 3.5-yr high	VX-HANS-8.01
+EU_GAS_STORAGE_FILL_PCT	63.8	2026-08-28	Lowest for the date in the AGSI record	
+EU_GAS_STORAGE_FILL_PCT	65.85	2026-09-04	CURRENT. 744.31 TWh. Still the lowest for the date since 2011	
+EU_STORAGE_GAP_TO_5YR_NORM_PP	-18.2	2026-08-28	HANS-T-08 orange	VX-HANS-8.07
+EU_STORAGE_GAP_TO_5YR_NORM_PP	-16.6	2026-09-01	CURRENT. NARROWING. ⚠️ Cross-source derivation: AGSI fill minus a GEF norm	VX-HANS-8.07
+FRANCE_10Y_OAT_PCT	4.08	2026-08-21		VX-HANS-3.07
+FRANCE_10Y_OAT_PCT	4.204	2026-09-03	CURRENT. Highest since Nov 2008; now yields MORE than the BTP	VX-HANS-3.07
+FRANCE_GERMANY_10Y_SPREAD_BP	83.6	2026-08-21		VX-HANS-3.02
+FRANCE_GERMANY_10Y_SPREAD_BP	85.5	2026-09-03	CURRENT. Reported elsewhere at ~87bp = widest since Dec 2024	VX-HANS-3.02
+ITALY_GERMANY_10Y_SPREAD_BP	83	2026-08-28		VX-HANS-3.01
+ITALY_GERMANY_10Y_SPREAD_BP	85	2026-09-03	CURRENT	VX-HANS-3.01
+ECB_DEPOSIT_RATE_PCT	2.25	2026-07-23	CURRENT. Held at the July GovC (ECB primary mp260723). 9/10 hike to 2.50 is 98.9% priced	VX-HANS-4.01
+BOE_BANK_RATE_PCT	4.50	2026-02-13	⚠️ WRONG — carried 75bp stale for 6.5 months; found by hand 8/28	VX-HANS-4.02
+BOE_BANK_RATE_PCT	3.75	2026-08-28	CURRENT. Held 7/29-30, 6-3 with three voting to HIKE	VX-HANS-4.02
+EURUSD	1.145	2026-06-22		VX-HANS-2.01
+EURUSD	1.16	2026-09-05	CURRENT	VX-HANS-2.01
+EA_FLASH_HICP_YOY_PCT	2.9	2026-07-01	July print	
+EA_FLASH_HICP_YOY_PCT	3.3	2026-09-01	CURRENT. August. Eurostat 2-01092026-AP (PRIMARY). Energy 14.3, core 2.4, services 3.0	
+EU_BANK_PRIVATE_CREDIT_DRAWN_EUR_BN	62.5	2026-09-05	CURRENT. ⚠️ PERIMETER IS THE FIGURE: 12 EURO-AREA banks, 0.2% of total ASSETS, ECB supervisory 2024 data. NOT the 108 (7 largest European, 2.0% of customer loans, S&P) or 122.1 (33 banks, disclosures)	VX-HANS-7.07
