@@ -22,7 +22,7 @@
 - **No trade execution.** Trade rails are verification-required at every fire-time — root rule #4 (live prices, never STATUS marks) **plus** root position-truth canon (live broker book; FORGE is the stale mirror).
 - **External/public sends require approval.**
 - **Push is auto at closeout** via ff-gated `scripts/safe-push.sh` — *not* per-push Will approval. Committing your own `PROME/` files is fine; **shared/root** docs still need Will scope/approval. Non-ff abort = **routine, never force**; the full recovery + escalation protocol lives in root `CLAUDE.md` Git Protocol.
-- **Shared repo coordination:** when YEYOU or another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
+- **Shared repo coordination:** when another agent has local/branch work, use `PROME/GIT_COORDINATION.md` before committing, merging, or pushing.
 - **Multi-agent orchestration:** before spawning >1 agent, apply the **mode-split rule** (`PROME/ORCHESTRATION_PLAYBOOK.md`) — fan-out/Workflow for parallel-identical work, live teams-mode only for the decision spine. Carry the deliver-before-idle contract into every spawn prompt; go quiet to Will while agents work.
 
 ---

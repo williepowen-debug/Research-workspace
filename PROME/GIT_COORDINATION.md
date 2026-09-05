@@ -60,6 +60,8 @@ git commit -m "PROME: <subject>" -- PROME/<newfile>
 
 ### YEYOU
 
+> **RETIRED 2026-09-05** (Will verbatim *"retire yeyou"* 11:56 ET, WQ-181 ①; `PROME/ROSTER.md` RETIRED, folder left in place). No YEYOU session runs; the branch-model exception below is **VOID**. This section and § YEYOU Landing Rail stay verbatim as the record of the 6/25 landing rail — history, not a live grant.
+
 YEYOU is a repo-wide reviewer: read broadly, write narrowly.
 
 YEYOU may write:
@@ -124,7 +126,7 @@ Push is **automated at closeout** via `scripts/safe-push.sh`, predicated on **se
 
 **Non-ff abort (re-based 2026-08-03, CORAL packet + RED 7/31 precedent, Will-approved; prior 2026-07-01 framing said "the other machine"):** = **another SESSION pushed since this clone last fetched — usually a concurrent agent on the SAME box** (verified: same-box committers, zero path overlap; non-ff is a COMMIT-GRAPH property, not a file-path one — separate trees cannot prevent it, only per-agent branches could). Do NOT force; `git pull --rebase --autostash` + re-push — `--autostash` stashes the dirty tree (others' work included), rebases, restores byte-identical (RED-verified); check incoming commits don't touch the dirty paths first. Confirm the literal `Pushed.` line — a log tail is not a push receipt — and note the sweep **rewrites unpushed commit hashes** (verify by subject when a recorded hash goes missing). **Tripwire (escalate to Will, consider per-agent branches):** rebase conflicts outside your own dir, or non-ff **persisting through a completed rebase→re-push cycle** — bare mid-session recurrence is routine concurrent traffic, and the old tripwire's false fire cost an unnecessary escalation (CORAL 8/3). **Post-`git mv` assertion (WALTER 8/3, adopted):** after any commit containing a rename, run `git status --porcelain -- AGENTS/<ME>/ | grep '^ D\|^D '` — a stranded deletion = a FAILED commit, not residue (a rename is TWO paths; typed pathspecs alone don't guarantee both halves).
 
-**YEYOU exception (Decision C, Will 2026-06-26):** YEYOU is a repo-wide reviewer on a branch model — it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews.
+**YEYOU exception (Decision C, Will 2026-06-26) — VOID since 2026-09-05, YEYOU retired (banner at § YEYOU):** YEYOU is a repo-wide reviewer on a branch model — it stays **manual/branch** (commits and branches locally, does **not** auto-push) until Will reviews.
 
 **Other auto-push exceptions (root canon — full list in root `CLAUDE.md` Git Protocol scope note):** **TERRY** (self-sweeps, live) and **WALTER** (architectural, per its `BOARD_CONSUMPTION_SPEC` §7). *(Added 7/11 spine-audit — this doc had drifted to naming YEYOU alone.)*
 
