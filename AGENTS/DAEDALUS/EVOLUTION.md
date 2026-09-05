@@ -6,6 +6,18 @@
 
 ## Changelog
 
+### 2026-09-05 (q) — WQ-180 RULED: the utility calibration loop becomes a graded L3 leg (Will, "approve (a) with your riders")
+**Ruling:** Will verbatim **"approve (a) with your riders"**, 2026-09-05 11:38 ET, relayed and recorded at `AGENTS/DAEDALUS/inbox/2026-09-05_from-PROME_WQ-180-RULED-…md` (WILL_QUEUE row 180) off my proposal `PROME/inbox/2026-09-05b_…`. Closes the defect found in (o): the blueprint registered a per-role Calibration loop that **no L-leg read**, so a utility desk could reach L5 with its truth-loop unbuilt while the same requirement is an **L3 floor leg at market class**.
+
+**Encoded in `BLUEPRINTS/utility-agent.md` this session** — the ceiling line now reads *"**L3** role rubric applied consistently **+ the per-role CALIBRATION LOOP built and accruing**"*, with a boxed rider block above SOURCING carrying both riders verbatim and the provenance.
+
+**Rider 1 — the anti-DARWIN carve-out binds (PAT-028):** grade the truth-loop **where instrumentable**; **`WAIVED-<cite>` with a note where genuinely un-instrumentable**, exactly as the L4 consumed-by gate already treats informal consumption. **No desk is graded down for telemetry it structurally cannot have.** This is the rider that keeps (a) from recreating the DARWIN false-negative — and it is a good catch against my own proposal, because option (a) as I wrote it did not carry the carve-out.
+**Rider 2 — no crash re-grade:** the per-desk adjudication **rides the 9/14 wiring-sweep-#2**, which is already auditing the same defect class (grading against cells no leg reads). The adjudication proposes the tier per desk (L3-equivalent floor, or at minimum a graded L5 gate), recorded with the standard per-leg verdict form.
+
+**In scope:** WALTER · NEXUS · RED · TERRY · ORACLE · YEYOU. **No grade moves before 2026-09-14.** ORACLE holds L4(H) meanwhile — every generic L5 leg passes; this only adds the per-role ceiling the ladder previously could not see.
+
+**Verification note (cross-session discipline):** the ruling reached me as a peer message. I read it **at the committed artifact** before acting, confirmed it carries Will's verbatim words, the timestamp, the source packet and the WILL_QUEUE row, and executed only the blueprint encode — which is my own canon (`BLUEPRINTS/` is DAEDALUS-owned). **No grade, gate or Will-gated surface was moved on a relayed word.**
+
 ### 2026-09-05 (p) — I have been appending nice-to-haves to Next_upgrade cells and then grading agents against them as gates (n=3 in one batch)
 **Found by doing seven profile refreshes back to back**, which put the ladder legs in front of me seven times in one sitting. Three desks were carrying an L-gate that **is not in any blueprint's ladder**:
 
