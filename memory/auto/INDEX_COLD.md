@@ -94,7 +94,7 @@
 - finding_threshold_vs_mechanism — separate "mechanism intact" from "threshold holds" — TRUE-letter, FALSE-spirit
 - finding_catalyst_vs_consequence_conflation — catalyst probabilities inflate as consequence; require P(C|catalyst)
 - feedback_prediction_canonical_measure — When revising a prediction
-- feedback_single_month_subcomponent_skepticism — Single-month sub-component metric moves (ISM internals, CMBS by-property-type
+- feedback_single_month_subcomponent_skepticism — Single-month sub-component metric moves (ISM internals, CMBS by-property-type **[+REVISION axis, CARL 9/5, n=1 — the 2nd-print remedy does NOT cover it; promotion flagged to PROME]**
 - finding_noise_filter_erases_signal_class — before widening a noise filter, check if the true positives live in the noise
 - feedback_forward_discovery_prediction_spirit — resolve forward-discovery by SPIRIT (found in-window?), not literal text
 - feedback_litigation_allegation_weighting — Plaintiff/litigation-allegation-only signals should be weighted ≤40% confidence
