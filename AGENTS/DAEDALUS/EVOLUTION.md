@@ -6,6 +6,37 @@
 
 ## Changelog
 
+### 2026-09-05 (p) — I have been appending nice-to-haves to Next_upgrade cells and then grading agents against them as gates (n=3 in one batch)
+**Found by doing seven profile refreshes back to back**, which put the ladder legs in front of me seven times in one sitting. Three desks were carrying an L-gate that **is not in any blueprint's ladder**:
+
+| Desk | The invented gate | What the ladder actually says |
+|---|---|---|
+| **ORACLE** | "L5 on the Brier scoreboard" | Utility L5 = clean closeouts · zero YEYOU flags · current. The Brier scoreboard is a per-role **Calibration loop** (`utility-agent.md:53`) that **no L-leg reads** — see (o) |
+| **ZHAO** | "L4 on … archive/scoreboard" | Market L4 = TRADE feeding proposals · signals flowing. A `PREDICTIONS_ARCHIVE` appears in neither L3 nor L4 |
+| **MARCO** | "L5 on … PREDICTIONS_ARCHIVE + calibration scoreboard" | Same. L3 asks that predictions **resolve**, which MARCO's ledger does |
+
+**The mechanism, and it is not carelessness.** A `Next_upgrade` cell is free text sitting immediately beside a graded level. Everything written there **inherits the authority of the grade** whether or not it came from a blueprint. So a reasonable observation — *"this desk would be better with a calibration scoreboard"* — becomes, on the next read, a requirement the desk is failing. **I then grade against my own prior cell rather than against the blueprint**, and the invented leg is indistinguishable from a real one because both are in the same cell in the same voice. Every instance here was a *good idea*; none was a *standard*.
+
+**Consequences observed:** ORACLE's L5 line was keyed to a leg the ladder does not contain **for 68 days**; ZHAO's promotion to L4 was gated behind an artifact no blueprint requires; MARCO's L5 list was 3 items when it is 2. **PAT-080 is the sibling** (*a gate leg no one can clear is a hold, not a standard*) — and CORAL is the fourth instance in a different key: its L4 was gated on a **Will ruling** when the desk could simply author the surface itself, which is the same error with an external party standing in for the invented requirement.
+
+**Fix adopted now, no approval needed (it constrains only my own writing):** **a `Next_upgrade` cell states ladder legs and blueprint handles ONLY. Anything else is written as a suggestion and labelled as one** — "nice-to-have, not a gate." Where a genuinely useful expectation is not in the ladder, that is an argument to change the ladder (which is Will's, per (m)), never to enforce it desk-by-desk from a map cell.
+**Retroactive sweep owed:** this batch fixed the three it found. The other ~33 rows have not been audited for invented legs — **registered as a wiring-sweep-#2 leg (9/14)**, because a ruling governs the next write and touches nothing already on disk.
+
+**Also this session:** HANS · ORACLE · YEYOU · OTTO · ZHAO · MARCO · CORAL refreshed (the whole 9/15 batch, ten days early); **ZHAO promoted L3→L4**; **PAT-148** minted (a stale prohibition inverts into the harm it prevents); **PAT-055** extended to n=2 at ~3 days on the byte axis; the **CORAL↔MARCO** shared-figure overlap reconciled — same series, different vintages, arithmetically consistent, and I nearly shipped the opposite finding.
+**Self-row:** L5 unchanged; no ladder leg moved.
+
+### 2026-09-05 (o) — a per-role requirement that no ladder leg reads: the utility calibration column
+**Found while ruling a question I had owed ORACLE for 68 days** ("is the Brier scoreboard required at L5-utility or DAEDALUS-row-local?"). **The question was a false dichotomy and the blueprint already answered it:** `BLUEPRINTS/utility-agent.md:53` registers a per-agent **Calibration loop** column — WALTER `delivered_but_unconsumed` · NEXUS brief-vs-peer-brief · RED steelman/odds hit-rate · TERRY realized-vs-constructed · YEYOU flag-accuracy · **ORACLE Brier scoreboard** — in the blueprint's own words *"the role's truth-loop — the utility analogue of a market predictions ledger."* THIN FLOOR + ROLE CEILING had the answer; nobody had read it.
+
+**⚠️ THE DEFECT, WHICH IS ON MY SURFACE:** the utility L-ladder legs are **L3** role rubric applied consistently · **L4** output consumed by others · **L5** clean closeouts, zero YEYOU flags, current. **None of them reads the Calibration-loop column.** So a utility agent can reach **L5 with its registered truth-loop unbuilt**, because no leg looks — while at market class the stated analogue (*"predictions resolving"*) is an **L3** leg. **The same requirement is load-bearing at L3 in one class and unreachable by any leg in another.** ORACLE's L5 line has therefore been keyed to a leg the ladder does not contain.
+
+**Status: PROPOSED, NOT EXECUTED — a ladder change is a standard change and is Will's.** Options for the ruling: (a) add a calibration-loop leg to the utility ceiling (which would move grades on more than ORACLE and needs a per-agent adjudication pass first); (b) declare the column advisory and strike the "utility analogue of a predictions ledger" framing, since that framing is what makes it read as a requirement; (c) leave it and say so explicitly, so the next grader does not re-derive the same gap. **No grade moved on this finding** — ORACLE holds L4 on legs that pass or fail independently of it.
+
+**Method note worth keeping (PAT-050 on myself):** I had a precedent lined up — the 8/17 Meta-L5 strike of the "EVOLUTION roadmap live" leg, on the reasoning that a leg never adjudicated at any grade in the class is not a class requirement — and it **does not apply**, because a per-role column is adjudicated per-agent by construction. **A correct-looking precedent nearly produced a wrong ruling**; the check that caught it was reading the blueprint table's own header instead of trusting the summary of it in the old profile. `[[finding_read_the_artifacts_own_header_first]]`.
+
+**Also this session:** HANS + ORACLE profiles rewritten whole (both bodies predated a desk rebuild); ORACLE's second owed item — the three-window vocabulary (close-vs-intraday · eligibility window · one-sided vs two-sided), earned from T6 walking PROME into measuring the wrong window — registered as a `CHECK_STANDARD`/`STATE_VOCABULARY` candidate, not yet drafted.
+**Self-row:** L5 unchanged; no ladder leg moved.
+
 ### 2026-09-04 (n) — DESK_HARDENING_PATTERNS.md born (H-1…H-8) off one desk's hardening day; CHECK_STANDARD §3 gains (c) known-defect reproduction + (d) premise-at-publisher; Prose-Remedy Census registered
 
 **What changed:** new blueprint `BLUEPRINTS/DESK_HARDENING_PATTERNS.md` — seven rules in RULE / proven-on / removed / cannot-see form, each citing a VIOLET 2026-09-04 artifact by path + commit (`1dda98e31` · `ec5d05b69` · `ef3e0be9c` · `95ffa70bc`, plus `717c8f9a0`, the external-review commit the commission did not list), an eighth held as a DRAFT gated on WQ-179, and a "not adopted" table. `CHECK_STANDARD.md` §3 gains clauses (c)+(d). New sweep `sweeps/PROSE_REMEDY_SWEEP.md` + REGISTRY row (21d, run #1 by 9/25; candidate grep base-rated at registration: 55 lines / 22 desks, majority false, positive control 3/3). PATTERNS PAT-143…146 minted (four, not six — H-5 extends PAT-053, H-7 is a coordination-layer correction not a design lesson); hot index 97 + cold 50 = 147, conservation checked. **Same sitting, separate packet:** `SPEC_LETTER_STANDARD.md` registration form gains the FROZEN-ON-REVISABLE row (WQ-175, Will 2026-09-04 10:04 *"Ok approved go ahead"*; canon `FORGE/PREDICTION_DISCIPLINE.md` § Registration) beside the WQ-172 row — pointer only, no new STATE_VOCABULARY token; the mechanization PROME invited (a bare number on a revisable series with no formula beside it) is PROPOSED, not built.
@@ -68,37 +99,6 @@
 **Not done, stated:** 27 profiles bannered, 0 refreshed (NEXUS/RED/PROME by 9/08) · READS consumer half, gates_pointer_check v1, P2/P3, registry_chain_check, WQ-111 measurement, WQ-115 wave 1, WQ-117 A library — all dated ~9/14 on the STATUS board.
 
 
-
-### 2026-09-05 (m) — a per-role requirement that no ladder leg reads: the utility calibration column
-**Found while ruling a question I had owed ORACLE for 68 days** ("is the Brier scoreboard required at L5-utility or DAEDALUS-row-local?"). **The question was a false dichotomy and the blueprint already answered it:** `BLUEPRINTS/utility-agent.md:53` registers a per-agent **Calibration loop** column — WALTER `delivered_but_unconsumed` · NEXUS brief-vs-peer-brief · RED steelman/odds hit-rate · TERRY realized-vs-constructed · YEYOU flag-accuracy · **ORACLE Brier scoreboard** — in the blueprint's own words *"the role's truth-loop — the utility analogue of a market predictions ledger."* THIN FLOOR + ROLE CEILING had the answer; nobody had read it.
-
-**⚠️ THE DEFECT, WHICH IS ON MY SURFACE:** the utility L-ladder legs are **L3** role rubric applied consistently · **L4** output consumed by others · **L5** clean closeouts, zero YEYOU flags, current. **None of them reads the Calibration-loop column.** So a utility agent can reach **L5 with its registered truth-loop unbuilt**, because no leg looks — while at market class the stated analogue (*"predictions resolving"*) is an **L3** leg. **The same requirement is load-bearing at L3 in one class and unreachable by any leg in another.** ORACLE's L5 line has therefore been keyed to a leg the ladder does not contain.
-
-**Status: PROPOSED, NOT EXECUTED — a ladder change is a standard change and is Will's.** Options for the ruling: (a) add a calibration-loop leg to the utility ceiling (which would move grades on more than ORACLE and needs a per-agent adjudication pass first); (b) declare the column advisory and strike the "utility analogue of a predictions ledger" framing, since that framing is what makes it read as a requirement; (c) leave it and say so explicitly, so the next grader does not re-derive the same gap. **No grade moved on this finding** — ORACLE holds L4 on legs that pass or fail independently of it.
-
-**Method note worth keeping (PAT-050 on myself):** I had a precedent lined up — the 8/17 Meta-L5 strike of the "EVOLUTION roadmap live" leg, on the reasoning that a leg never adjudicated at any grade in the class is not a class requirement — and it **does not apply**, because a per-role column is adjudicated per-agent by construction. **A correct-looking precedent nearly produced a wrong ruling**; the check that caught it was reading the blueprint table's own header instead of trusting the summary of it in the old profile. `[[finding_read_the_artifacts_own_header_first]]`.
-
-**Also this session:** HANS + ORACLE profiles rewritten whole (both bodies predated a desk rebuild); ORACLE's second owed item — the three-window vocabulary (close-vs-intraday · eligibility window · one-sided vs two-sided), earned from T6 walking PROME into measuring the wrong window — registered as a `CHECK_STANDARD`/`STATE_VOCABULARY` candidate, not yet drafted.
-**Self-row:** L5 unchanged; no ladder leg moved.
-
-### 2026-09-05 (n) — I have been appending nice-to-haves to Next_upgrade cells and then grading agents against them as gates (n=3 in one batch)
-**Found by doing seven profile refreshes back to back**, which put the ladder legs in front of me seven times in one sitting. Three desks were carrying an L-gate that **is not in any blueprint's ladder**:
-
-| Desk | The invented gate | What the ladder actually says |
-|---|---|---|
-| **ORACLE** | "L5 on the Brier scoreboard" | Utility L5 = clean closeouts · zero YEYOU flags · current. The Brier scoreboard is a per-role **Calibration loop** (`utility-agent.md:53`) that **no L-leg reads** — see (m) |
-| **ZHAO** | "L4 on … archive/scoreboard" | Market L4 = TRADE feeding proposals · signals flowing. A `PREDICTIONS_ARCHIVE` appears in neither L3 nor L4 |
-| **MARCO** | "L5 on … PREDICTIONS_ARCHIVE + calibration scoreboard" | Same. L3 asks that predictions **resolve**, which MARCO's ledger does |
-
-**The mechanism, and it is not carelessness.** A `Next_upgrade` cell is free text sitting immediately beside a graded level. Everything written there **inherits the authority of the grade** whether or not it came from a blueprint. So a reasonable observation — *"this desk would be better with a calibration scoreboard"* — becomes, on the next read, a requirement the desk is failing. **I then grade against my own prior cell rather than against the blueprint**, and the invented leg is indistinguishable from a real one because both are in the same cell in the same voice. Every instance here was a *good idea*; none was a *standard*.
-
-**Consequences observed:** ORACLE's L5 line was keyed to a leg the ladder does not contain **for 68 days**; ZHAO's promotion to L4 was gated behind an artifact no blueprint requires; MARCO's L5 list was 3 items when it is 2. **PAT-080 is the sibling** (*a gate leg no one can clear is a hold, not a standard*) — and CORAL is the fourth instance in a different key: its L4 was gated on a **Will ruling** when the desk could simply author the surface itself, which is the same error with an external party standing in for the invented requirement.
-
-**Fix adopted now, no approval needed (it constrains only my own writing):** **a `Next_upgrade` cell states ladder legs and blueprint handles ONLY. Anything else is written as a suggestion and labelled as one** — "nice-to-have, not a gate." Where a genuinely useful expectation is not in the ladder, that is an argument to change the ladder (which is Will's, per (m)), never to enforce it desk-by-desk from a map cell.
-**Retroactive sweep owed:** this batch fixed the three it found. The other ~33 rows have not been audited for invented legs — **registered as a wiring-sweep-#2 leg (9/14)**, because a ruling governs the next write and touches nothing already on disk.
-
-**Also this session:** HANS · ORACLE · YEYOU · OTTO · ZHAO · MARCO · CORAL refreshed (the whole 9/15 batch, ten days early); **ZHAO promoted L3→L4**; **PAT-148** minted (a stale prohibition inverts into the harm it prevents); **PAT-055** extended to n=2 at ~3 days on the byte axis; the **CORAL↔MARCO** shared-figure overlap reconciled — same series, different vintages, arithmetically consistent, and I nearly shipped the opposite finding.
-**Self-row:** L5 unchanged; no ladder leg moved.
 
 *(**Entries 2026-08-28 (d)–(g) rotated verbatim 2026-09-04** → `archive/EVOLUTION_ARCHIVE_2026-09.md` **block 2**, crc32 `2545191367`, 6855 B, round-trip verified from the written file — this file had reached 89% of the 32,550 B budget after entry (n); rotation, never deletion: every ruling in it stands and is citable from the archive.)*
 
