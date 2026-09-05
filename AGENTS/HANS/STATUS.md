@@ -1,6 +1,32 @@
 # HANS STATUS.md
-**Updated:** 2026-08-28 ~14:30 ET — **REVIVAL SESSION.** Desk was dark 43 days (last HANS commit 7/16). Every number below re-pulled live this session; nothing carried forward unverified.
-**Boot ack:** revived 2026-08-28 on Will's word; DAEDALUS revival brief (`inbox/2026-08-28_from-DAEDALUS_...`) consumed. R1 corrections check rc=0 clean. I own **`EUROPE_MACRO`** (WALTER FORMAT_SPEC v0.17, ROUTING_TABLE v0.28; BOND = time-critical backup). **UK leg: TAKEN — see §UK SCOPE.**
+**Updated:** 2026-09-05 ~11:30 ET — **CATCH-UP SESSION after 8 days dark (8/28 → 9/5).** Every live level below is re-pulled or re-dated this session; anything still carrying an 8/28 date is labelled as such.
+**Boot ack:** `boot.py` exit 1 (attention) · R1 corrections rc=0 clean · 3 packets + 6 WALTER SIGs consumed. I own **`EUROPE_MACRO`** (BOND = time-critical backup). **UK leg: TAKEN — see §UK SCOPE.**
+
+## 📌 2026-09-05 CATCH-UP — WHAT MOVED IN 8 DAYS
+
+**The frame did NOT flip again. Every 8/28 call held; three of them hardened, and two new catalysts landed on my own lane that my docket did not have.**
+
+| Item | 8/28 | **Now** | Read |
+|---|---|---|---|
+| **EA flash HICP (Aug)** | not yet printed | **3.3%** y/y (Jul 2.9%) — highest since Sep 2023. **Energy 14.3%** (Jul 10.3%); **services 3.0% (from 3.3%), core 2.4% (from 2.5%)** | 🔴 **The print is energy-CONCENTRATED, not broadening.** Fires my pre-reg §3a rule (≥3.2% → 88%) whose *stated reading* it falsifies — see Appendix A |
+| Bund 10Y | 3.29% | **3.35–3.36% [9/4]**; intraday **3.40% [9/2] = 15-yr high** | `T-05` watch stays OPEN; 39bp inside orange |
+| UK 10Y gilt | 5.1548% | **5.1345% [9/4]**; peaked **5.263 [9/1]** = highest since 2008 | `T-06` 36.5bp headroom — **near-trigger on 9/1, has RECEDED** |
+| **UK 30Y gilt** | 5.80% | **5.7750% [9/4]**; peaked **5.904 intraday [9/1]** = highest since Mar 1998 | `T-13` 22.5bp headroom. Was **1.9% from firing on 9/1** and I was dark for it |
+| France 10Y OAT | 4.08% / 83.6bp | **4.204% / ~85.5bp [9/3]** — highest since **Nov 2008** | 🟠 **OAT now yields MORE than the BTP (4.204 vs 4.195) — first since 2008** |
+| TTF gas | €66.19 | **€71.96 [9/4]**, +37% m/m, **+125% YoY**; peaked **~€74.5 [9/2] = 3.5-yr high** | `T-07` L2 OPEN; L3 (€100) far |
+| EU storage | 63.8%, gap −18.2pp | **65.85% [9/4]**; gap **−16.6pp [9/1]** vs ~82% norm | `T-08` orange stays OPEN but **NARROWING**; pace +0.30pp/d → **~83.8% by Nov 1** ⇒ `HNS-07` on track |
+| German factory orders | not tracked | **+2.5% m/m July**, 3rd straight rise, beat all but 1 of 21 estimates; **order backlog 8.9 months = record since 2015** | 🔴 **Independently corroborates PMI 54.1. The ISM-break leg is dead twice over** |
+| ECB 9/10 | "near-consensus" | **98.9% priced (LSEG)**; **65 of 65** Reuters-poll economists | `HNS-05` prior **75% → 88%** per pre-committed rule |
+| Euro-area banks | QUIET | QUIET — **ECB FSR read at primary 9/5** | 🟢 `T-14` not firing; **the LIQUID no-onward-routing constraint is LIFTED** |
+
+**🔴 TWO CATALYSTS MY DOCKET DID NOT HAVE, BOTH ON THE LANE I TOOK 8 DAYS AGO:**
+1. **BoE MPC 2026-09-17** — hold expected (~2% cut odds), but **the Bank announces its annual gilt-QT sales pace for the next 12 months alongside it.** That is a **direct supply shock to `T-06`/`T-13`**, 12 days out. Prior period: £70bn Oct-25→Sep-26 to a £488bn stock.
+2. **UK Autumn Budget 2026-11-26** — into a multibillion-pound fiscal gap, with the 30Y already at a 1998 high.
+⚠️ **I registered UK bands on 8/28 and did not register the two UK events that move them.** A band without its catalyst calendar is a level with no clock `[[finding_dated_carry_item_has_no_expiry_check]]`.
+
+**✅ BOND independently corroborated my exclusion argument** (`inbox/2026-09-01_from-BOND_...`): over 8/13→8/27, at four issuer primaries, **EA AAA 10Y +12.2bp ranks 1/4** (UK +8.2, US +4.0, JP +2.4; DM median +6.1). **Europe moved 3.05× the US.** Two constructions, no shared input, same answer. ⚠️ BOND flags their legs stop 8/27–8/31, so **neither of us can speak to the 9/1 synchronised selloff like-for-like yet.** They also raise a real **basis** question on the UK 10Y: BoE `IUDMNPY` nominal-par = 5.0254 [8/27] vs my TE benchmark 5.1548 [8/28] — **unresolved; one of us must pin it before either figure is cited as "the UK 10Y."**
+
+---
 
 ## 🔴 THE FRAME FLIPPED AGAIN — AND THE CHANNEL SWITCHED
 
@@ -49,9 +75,9 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 
 | Metric | Latest | My ladder level | Source ✓ |
 |---|---|---|---|
-| **TTF front-month** | **€66.19/MWh (8/28, −3.04% d/d)**; +9.29% m/m; **+109.32% YoY** | **L2 ORANGE (€66) reached** — L1 (€60) breached during Aug | TradingEconomics ✓ 8/28 |
-| EU gas storage | **63.8% (8/28)** vs **82.0% 5-yr norm** — **lowest for the date since AGSI records began (2011)**; 75.7% a year ago | Binding constraint = **norm gap ~18pp**, not the absolute | GEF/AGSI+ ✓ 8/28 |
-| 2026 winter target | **90% binding, 10% deviation flex → 80% floor** (Council of the EU 2025-07-18) | At implied 5-day pace (~+0.29pp/d) → **~83% by Nov 1**, i.e. clears the relaxed floor, misses 90% | GEF ✓ |
+| **TTF front-month** | **€71.96/MWh (9/4)**; **+37.3% m/m**; **+125.1% YoY**; peaked **~€74.5 (9/2) = 3.5-yr high** | **L2 ORANGE (€66) OPEN** — L1 breached in Aug; **L3 (€100) far** | TradingEconomics ✓ 9/4 |
+| EU gas storage | **65.85% (9/4, 744.31 TWh)** vs ~**82% 5-yr norm**; **65.39% / gap −16.6pp (9/1)** — still **lowest for the date since AGSI records began (2011)**; 75.7% a year ago | Norm gap **NARROWING: −18.2pp (8/28) → −16.6pp (9/1)**. Still orange | AGSI+/GEF ✓ 9/4 |
+| 2026 winter target | **90% binding, 10% deviation flex → 80% floor** (Council of the EU 2025-07-18) | Pace holding at **~+0.30pp/d → ~83.8% by Nov 1** (GEF, 9/1) — clears the 80% floor, misses 90%. `HNS-07` **on track** | GEF ✓ 9/1 |
 | Qatar LNG | **Force majeure EXTENDED 8/28**, exports −96% | — | Bloomberg ✓ 8/28 |
 
 **DEWEY's DR-4 (8/12) reconciled:** its storage read (59.32% on 8/11, 13.0pp below 2025) and its LNG-impairment finding (EU send-out −20.4% YoY at only 38.3% utilisation — **cargoes, not capacity**) both hold and are corroborated by my 8/28 pull. **Its projection has aged BETTER than stated**: DR-4 modelled 77–80% by peak; the current 5-day pace implies ~83%. I am carrying **80–83%**, not 90%. ⚠️ **DR-4's inverted-premise warning applies to me too** — my 7/16 file described TTF at €55 as the crisis; it is now €66 and **+109% YoY**. *Nothing in my tree said "European gas prices are falling," but the frame that produced my ladder is a €40-60 world and the market has left it.*
@@ -67,7 +93,8 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 | Metric | Latest | Source ✓ |
 |---|---|---|
 | Deposit / refi / marginal | **2.25% / 2.40% / 2.65%** — **HELD 7/23** (data-dependent, meeting-by-meeting, no pre-commitment) | ECB `mp260723` ✓ **primary** |
-| Next meeting | **Sept 10 2026** — **25bp hike is near-consensus**; markets "almost unanimously" expect it | CNBC/Morningstar ✓ |
+| Next meeting | **Sept 10 2026** — **98.9% priced (LSEG)**; **65 of 65** Reuters-poll economists say +25bp to 2.50%. Lagarde expected to hike **without guiding** | LSEG via WALTER · FXStreet/Reuters ✓ 9/3 |
+| **EA flash HICP (Aug)** 🔴 | **3.3%** (Jul 2.9%) — **energy 14.3%** (10.3%), **services 3.0%** (3.3%), **core 2.4%** (2.5%), NEIG 1.2% (0.9%) | **Eurostat 2-01092026-AP ✓ PRIMARY** |
 | Market-implied path | **2.80% deposit by March 2027** | TradingEconomics ✓ 8/28 |
 | ECB own guidance | Inflation **"well above target until H1-2027"**; Lagarde: longer energy stays elevated, "the more likely they are to drive up broader inflation through indirect and second-round effects" | ECB presser ✓ |
 | July minutes | The pause is **"not the end of the tightening cycle"** | ECB ✓ |
@@ -91,14 +118,14 @@ WALTER's `SIG-W-20260819-004` flagged a **synchronised long-end selloff across f
 
 | Metric | Latest | Threshold (spread) | **Threshold (LEVEL — new)** | Source ✓ |
 |---|---|---|---|---|
-| German 10Y Bund | **3.29%** (8/28) | — | **>3.00 watch ✅FIRED / >3.75 orange / >4.50 red** | TradingEconomics ✓ |
-| Italy–Germany 10Y | **83bp** (8/28) | >200 stress | BTP level **>5.50%** | countryeconomy ✓ |
-| France–Germany 10Y | **83.6bp** (8/21) | >100 core-fragmentation | OAT level **>4.50%** (now 4.08%) | ideal-investisseur ✓ |
-| UK 10Y gilt | **5.1548%** (8/28) | vs Bund ~186.5bp | **>5.50 orange / >6.00 red** | TradingEconomics ✓ |
-| **UK 30Y gilt** 🔴 | **5.80%** (8/28) | **highest since 1998** | **>6.00 orange / >6.50 red** — `HANS-T-13`, the LDI instrument | TradingEconomics ✓ |
+| German 10Y Bund | **3.36%** (9/4); peak **3.40** (9/2) | — | **>3.00 watch ✅FIRED / >3.75 orange / >4.50 red** | TradingEconomics ✓ |
+| Italy–Germany 10Y | **~85bp** (9/3), BTP **4.195** | >200 stress | BTP level **>5.50%** | countryeconomy ✓ |
+| France–Germany 10Y 🟠 | **~85.5bp** (9/3), OAT **4.204 = highest since Nov 2008, ABOVE the BTP** | >100 core-fragmentation | OAT level **>4.50%** (now 4.08%) | ideal-investisseur ✓ |
+| UK 10Y gilt | **5.1345%** (9/4); peak **5.263** (9/1) | vs Bund ~186.5bp | **>5.50 orange / >6.00 red** | TradingEconomics ✓ |
+| **UK 30Y gilt** 🔴 | **5.7750%** (9/4); peak **5.904** intraday (9/1) | **highest since 1998** | **>6.00 orange / >6.50 red** — `HANS-T-13`, the LDI instrument | TradingEconomics ✓ |
 | EUR/USD · DXY | **1.16 · 99.71** | <1.05 watch | — | own `fetch.py` ✓ 8/28 |
 | FEZ (EuroStoxx50) · EWG · EWU | **$71.36 · $44.56 · $48.45** | — | — | own `fetch.py` ✓ 8/28 |
-| European banks | **No stress.** Deutsche Bank record Q2 post-tax profit **€1.9B**, revenues +9% YoY to €8.5B, ROTE 11.9%; sector index has **doubled in two years** on higher-for-longer | contagion → LIQUID/REGINALD | — | Yahoo/STOXX/CreditSights ✓ |
+| European banks | **No stress.** DB record Q2 **€1.9B**, revenues +9% YoY, ROTE 11.9%; sector doubled in 2yr. **ECB FSR May-2026 READ AT PRIMARY 9/5:** private-credit exposure **€62.5bn drawn, 12 euro-area banks = 0.2% of total assets / 2.5% of equity**; *"unlikely to threaten financial stability in the euro area at present"* | contagion → LIQUID/REGINALD | `T-14` NOT firing | ECB `fsrart202605_04` ✓ **primary** |
 
 **Read:** The **credit** channel is quiet and the **rates** channel is loud — and higher-for-longer is *why* the banks are strong, so these are the same fact seen twice. **→ LIQUID: the European bank-contagion channel remains QUIET; my 6/22 and 7/16 calls both hold.** Sovereign spreads benign **in spread terms only** — see the instrument defect above.
 
@@ -112,16 +139,16 @@ The later-session sweep narrative (two self-corrections: **wrong tenor** on the 
 
 **Its live values are in the tables below and in the ledgers** — `registry/THRESHOLDS.tsv` · `workbook/VX.tsv` · `workbook/ML.tsv` `ML-HANS-414`–`417`. *Rotated at closeout because STATUS hit 246/250 lines; the cap was flagged in this file before it was breached, not after.*
 
-## CROSS-AGENT FLAGS (2026-08-28)
+## CROSS-AGENT FLAGS (updated 2026-09-05)
 
 | → Agent | Signal | Pri |
 |---|---|---|
-| **HENRY** | 🔴 **German Mfg PMI 54.1 (Aug flash) — 4-yr high, 7th expansion month.** On the ~2-mo lead this maps to **US ISM Mfg ~Oct holding at/above 50 and rising**. My PMI→ISM signal now argues **against an ISM sub-49 break as hard as it ever has.** ⚠️ **Two caveats that matter:** (1) it is **manufacturing-only** — German Services 48.5 and *falling*, Composite only 51.0, so this is not a broad European recovery; (2) the named drivers are **defence spending, data-centre capex and inventory rebuild** — fiscal/AI-capex, i.e. the same concentration VULCAN tracks, not organic demand. 🔴 **BUT DO NOT INFER A WEAKER LEAD FROM THAT — I tested it 8/28 and RETRACTED the result the same day.** The regime effect was a **GFC/COVID artifact** (vanishes ex-crisis, *reverses* on 2010-26 ex-COVID) and my classifier was invalid (**62% of "demand-led" months had NEGATIVE capex growth**). The capex-weakens-the-lead caveat is **UNTESTED — neither confirmed nor refuted.** ✅ **What IS tested: the lead itself is real and DIRECTIONAL** — DE→US r=+0.573 at 6mo vs US→DE +0.185 — and **the precise peak lag is NOT identifiable** (near-flat lags 0–3). **Use the lead; don't defend a lag; carry no regime story.** → `research/2026-08-28_PMI_ISM_LEAD_REGIME_TEST.md` §VERIFICATION. **Separately: the disinflation read is now contested from Europe** — Spain HICP 4.5%, France 2.7% with energy +16.7%. | 🔴 |
-| **BOND / TERRY** | 🔴 **Bund 10Y 3.29% = highest since March 2011.** Europe is an **independent source** of the global term-premium repricing WALTER's `SIG-W-20260819-004` flagged — three-part discriminator above (tight spreads + stronger euro + domestic ECB/supply driver). **This is a tailwind to both duration-short legs** (`TRY-FIRE-004` 30x TLT Sep-30-26 77P, BE 76.89; TBT). Cross-check at own pull 8/28: **TLT $82.92, ^TYX 5.21, ^TNX 4.73** — TLT is **$6.03 above the 76.89 BE with ~33d to expiry**, so the European tailwind has **not** shown up in the position. **No proposal, no gate call — level statement only.** | 🔴 |
+| **HENRY** | 🔴 **German Mfg PMI 54.1 (Aug flash) — 4-yr high, 7th expansion month.** On the ~2-mo lead this maps to **US ISM Mfg ~Oct holding at/above 50 and rising**. My PMI→ISM signal now argues **against an ISM sub-49 break as hard as it ever has.** ⚠️ **Two caveats that matter:** (1) it is **manufacturing-only** — German Services 48.5 and *falling*, Composite only 51.0, so this is not a broad European recovery; (2) the named drivers are **defence spending, data-centre capex and inventory rebuild** — fiscal/AI-capex, i.e. the same concentration VULCAN tracks, not organic demand. 🔴 **BUT DO NOT INFER A WEAKER LEAD FROM THAT — I tested it 8/28 and RETRACTED the result the same day.** The regime effect was a **GFC/COVID artifact** (vanishes ex-crisis, *reverses* on 2010-26 ex-COVID) and my classifier was invalid (**62% of "demand-led" months had NEGATIVE capex growth**). The capex-weakens-the-lead caveat is **UNTESTED — neither confirmed nor refuted.** ✅ **What IS tested: the lead itself is real and DIRECTIONAL** — DE→US r=+0.573 at 6mo vs US→DE +0.185 — and **the precise peak lag is NOT identifiable** (near-flat lags 0–3). **Use the lead; don't defend a lag; carry no regime story.** → `research/2026-08-28_PMI_ISM_LEAD_REGIME_TEST.md` §VERIFICATION. **Separately: the disinflation read is now contested from Europe** — EA flash HICP **3.3% (Aug)**, energy **14.3%**; Spain 4.5%, France 2.7%. ⚠️ **But core 2.4% and services 3.0% both DECELERATED — the passthrough is energy-concentrated, not broadening.** 🆕 **9/5 ADD, the strongest version of this signal yet: German factory orders +2.5% m/m in July, THIRD straight rise, beating all but one of 21 Bloomberg estimates, order backlog 8.9 months — a record since the series began in 2015.** Hard order data, not a survey, pointing the same way as PMI 54.1. **The ISM-sub-49 leg is now refuted by two independent German instruments.** | 🔴 |
+| **BOND / TERRY** | 🔴 **Bund 10Y 3.29% = highest since March 2011.** Europe is an **independent source** of the global term-premium repricing WALTER's `SIG-W-20260819-004` flagged — three-part discriminator above (tight spreads + stronger euro + domestic ECB/supply driver). **This is a tailwind to both duration-short legs** (`TRY-FIRE-004` 30x TLT Sep-30-26 77P, BE 76.89; TBT). Cross-check at own pull 8/28: **TLT $82.92, ^TYX 5.21, ^TNX 4.73** — TLT is **$6.03 above the 76.89 BE with ~33d to expiry**, so the European tailwind has **not** shown up in the position. 🆕 **9/5: BOND corroborated this on an independent construction** — EA AAA 10Y **ranks 1/4** among DM sovereigns 8/13→8/27 at issuer primaries (+12.2bp vs US +4.0bp; **3.05× the US**, 2× the DM median). Two constructions, no shared input, same answer. ⚠️ **Neither of us reaches 9/1 like-for-like yet** (BOND's legs stop 8/27–8/31) — the day the Bund hit 3.364 and the UK 30Y 5.89. **Bund now 3.36 (9/4); intraday 3.40 (9/2) = 15-yr high.** **No proposal, no gate call — level statement only.** | 🔴 |
 | **WALTER** | ✅ **UK leg ANSWERED: I take it** (gilts/BoE). Charter line lands this session. Your two limits accepted unchanged — **BOND still takes time-critical.** Please update the `EUROPE_MACRO` routing note. | 🟠 |
 | **ZHAO / PROME** | ✅ **Belgium proxy: I do NOT carry it as a live China-position adjustment** — full answer + one dormant threshold retired, see §ZHAO ANSWER. **France −$20.92B June TIC leg accepted.** | 🟠 |
-| **BRENT / HAWK** | 🟠 **EU side: the energy shock is STRUCTURAL, not episodic.** Hormuz ~6 months shut, Jun-17 MOU collapsed in July, **Qatar force majeure extended 8/28 (exports −96%)**. TTF **€66.19, +109% YoY**; EU storage **63.8% vs 82.0% norm = lowest for the date since 2011**. My 6/22 "de-escalation confirmed" call is **fully reversed**. | 🟠 |
-| **LIQUID** | 🟡 European bank-contagion channel **QUIET** — DB record Q2 (€1.9B), sector doubled in 2yr, no CDS stress. The ECB "emergency cut" trigger in my playbook remains **wrong-sign** (ECB hiking; Sept 10 hike near-consensus). | 🟡 |
+| **BRENT / HAWK** | 🟠 **EU side: the energy shock is STRUCTURAL, not episodic.** Hormuz ~6 months shut, Jun-17 MOU collapsed in July, Qatar FM extended 8/28 (exports −96%). **TTF €71.96 (9/4), +37% m/m, +125% YoY, peaked ~€74.5 on 9/2 = a 3.5-year high**; EU storage **65.85% (9/4) vs ~82% norm, still the lowest for the date since 2011** — though the gap is **narrowing** (−18.2pp → −16.6pp). ⚠️ **DAEDALUS F-4 (9/5): BRENT never actually received the 8/28 half.** Both `HANS-F-003`/`F-004` recorded `dispatch_artifact = my own STATUS.md`, which by my own rule can never satisfy a recipient-tree delivery check. **Packet written to `AGENTS/BRENT/inbox/` this session; HAWK's leg was delivered and is confirmed.** | 🟠 |
+| **LIQUID** | 🟠 ✅ **YOUR CONSTRAINT IS DISCHARGED — the ECB FSR May-2026 special article is READ AT PRIMARY (9/5). Onward routing of FSR findings is unblocked.** → `research/2026-09-05_EU_BANK_PRIVATE_CREDIT_PRIMARY_READ.md`. **`VX-HANS-7.07` reclassified NAMED-UNREACHABLE → PARTIALLY INSTRUMENTED / FLOOR-ONLY / SUPERVISOR-BLIND:** the ECB's €62.5bn is *drawn only* and the article **names missing undrawn commitments as its own acknowledged gap** — the supervisor with mandatory collection power says in print that it cannot see the contingent leg. S&P Global (May-26) has **€11bn undrawn at two banks**: a FLOOR, not a level — 2 of 7 banks, and disclosure is not random w.r.t. exposure. ⚠️ **The bigger carry is that three figures are circulating on the same subject — €62.5bn (12 euro-area banks, 0.2% of assets, ECB) / €108bn (7 largest European, 2.0% of customer loans, S&P) / €122.1bn (33 European banks, disclosures, Q1-26) — a 1.95× spread that is entirely perimeter, denominator and vintage.** Channel remains **QUIET**; `T-14` not firing. | 🟠 |
 | **PROME** | 🟠 Docket: **ECB Sept 10** (hike expected) · **EA flash HICP Sept 1** · **German flash PMI ~Sept 23** · **Oct 1–Dec 1 EU storage-target window**. Two 7/16 docket rows graded (below). Retiring my **€50 TTF crisis line** as a trigger — superseded by the L1/L2 ladder. | 🟠 |
 
 ---
@@ -140,6 +167,7 @@ The later-session sweep narrative (two self-corrections: **wrong tenor** on the 
 | **HNS-06** | **German Mfg PMI stays ≥50.0 on the Sept flash** (~Sept 23) | **80%** | ~2026-09-23 | HCOB/S&P flash headline. ≥50.0 = HIT. *Deliberately the OPPOSITE side of the HNS-03 error — I am now betting with the momentum I bet against.* ⚠️ Anchor type: **expected release**, flash dates slip ±2 business days; grade on the first flash print after 9/20. |
 | **HNS-07** | **EU gas storage reaches ≥80% by Nov 1 2026** (clears the relaxed floor, misses the 90% binding target) | **65%** | 2026-11-01 | GIE AGSI+ EU aggregate fill %. ≥80.0% = HIT. Basis: 5-day pace ~+0.29pp/d off 63.8% (8/28) → ~83%; DEWEY DR-4's independent peak-pace model says 77–80%, so **my two instruments straddle the line** — that disagreement is why this is 65% and not 80%. |
 | **HNS-08** | **German 10Y Bund does NOT close ≥4.00% before Dec 31 2026** | **70%** | 2026-12-31 | TradingEconomics / Bundesbank daily close. Any close ≥4.00% = MISS. Basis: 3.29% now, market-implied ECB terminal 2.80% by Mar-27 ⇒ ~120bp of term premium already in the 10Y. A falsifier for "the long-end repricing runs much further." |
+| **HNS-09** | **No large euro-area bank reports a Q3-2026 result with a materially private-credit-driven loss** | **70%** | 2026-11-30 | Q3 results, bank disclosure at primary. ⚠️ **Was OPEN in `PREDICTIONS.tsv` and ABSENT from this table entirely** until DAEDALUS F-3 (9/5) — the only registered instrument on the bank channel Will ruled to full depth on 8/28. Supported by the ECB FSR primary read (9/5): €62.5bn drawn across 12 euro-area banks = **0.2% of total assets**. |
 
 ---
 
@@ -157,23 +185,11 @@ The later-session sweep narrative (two self-corrections: **wrong tenor** on the 
 
 ## KEY THRESHOLDS (rebuilt — spread AND level)
 
-📌 **Now REGISTERED, not prose: `registry/THRESHOLDS.tsv` (HANS-T, 12 rows) + `registry/HANS_T_FIRED_LOG.tsv` (5 fires logged, 4 backdated).** Built 2026-08-28 after WALTER asked whether my new UK bands were registered or informal — the answer was *informal, and so was everything else on this desk.* **FOUR bands are currently in an OPEN FIRED state** *(corrected 2026-08-28 — WALTER counted my ledger and I had said three)*: **`T-05`** Bund watch · **`T-07`** TTF L1+L2 · **`T-08`** storage-gap orange · **`T-02`** German Mfg PMI >52 sustain-2. ⚠️ **`T-02` counts.** I had mentally excluded it because its band was written post-hoc and I had flagged it for evidentiary down-weighting — but **a caveat about a band's WEIGHT is not a decision about whether its fire COUNTS**, and letting one become the other is how a real fire goes missing from a board. The metric genuinely crossed a registered band; the weakness is in the band's predictive claim, not in the fact. ⚠️ Only 5 of the 12 rows are daily-scannable; see the registry README before reading a clean scan as a clear board.
+📌 **Now REGISTERED, not prose: `registry/THRESHOLDS.tsv` (HANS-T, **14 rows**) + `registry/HANS_T_FIRED_LOG.tsv` (5 fires logged, 4 backdated).** Built 2026-08-28 after WALTER asked whether my new UK bands were registered or informal — the answer was *informal, and so was everything else on this desk.* **FOUR bands are currently in an OPEN FIRED state** *(corrected 2026-08-28 — WALTER counted my ledger and I had said three)*: **`T-05`** Bund watch · **`T-07`** TTF L1+L2 · **`T-08`** storage-gap orange · **`T-02`** German Mfg PMI >52 sustain-2. ⚠️ **`T-02` counts.** I had mentally excluded it because its band was written post-hoc and I had flagged it for evidentiary down-weighting — but **a caveat about a band's WEIGHT is not a decision about whether its fire COUNTS**, and letting one become the other is how a real fire goes missing from a board. The metric genuinely crossed a registered band; the weakness is in the band's predictive claim, not in the fact. ⚠️ **14 rows, 6 daily-scannable** *(re-cut 2026-09-05 — the count had said 12/5 in four places and the two rows outside it were `T-13` UK 30Y and `T-14` EU bank/private-credit, the newest and hottest; DAEDALUS F-2)*: **a clean scan of the 6 does not clear the 14.** See the registry README.
 
-| Metric | Current (8/28) | Threshold | State |
-|---|---|---|---|
-| German Mfg PMI | **54.1** | <47 sustained → HENRY | **Not firing — opposite sign, strongest in 4 yrs** |
-| German Composite | **51.0** | <48 → HENRY | Not firing; services 48.5 is the soft leg |
-| ECB deposit rate | **2.25%** | *(old: emergency CUT)* → **replaced: hike to ≥2.75% = policy-shock watch** | Sept 10 hike expected → 2.50% |
-| **German 10Y Bund (NEW)** | **3.29%** | **>3.00 watch / >3.75 orange / >4.50 red** | 🟠 **WATCH FIRED** |
-| **UK 10Y gilt** | **5.1548%** *(corrected from 5.07 same day)* | **>5.50 orange / >6.00 red** | 🟡 35bp headroom |
-| **UK 30Y gilt (NEW `T-13`)** | **5.80%** | **>6.00 orange / >6.50 red** | 🟠 **highest since 1998**; 20bp headroom |
-| **BoE Bank Rate (NEW)** | **3.75%** *(my ledger said 4.50 for 6.5 months)* | hike to ≥4.25 = policy-shock watch | Held 7/30 **6–3, three voting to HIKE** |
-| TTF gas | **€66.19** | **L1 €60 / L2 €66 / L3 €100 / L4 €200** *(€50 line RETIRED)* | 🟠 **L2 reached** |
-| EU storage vs 5-yr norm | **63.8% vs 82.0% (−18.2pp)** | gap >15pp = orange; >25pp = red | 🟠 **ORANGE** |
-| Italy–Germany 10Y | 83bp | >200 spread / BTP >5.50% level | Benign |
-| France–Germany 10Y | 83.6bp | >100 spread / OAT >4.50% level | 🟡 approaching spread line |
-| EUR/USD | 1.16 | <1.05 watch / <1.00 crisis | Far from stress; **strengthening** |
+⚠️ **THE PROSE MIRROR OF THIS TABLE IS DELETED AS OF 2026-09-05.** It carried 8/28 values against live bands and had already drifted once `[[finding_ledger_drift_behind_narrative]]`. **Read `registry/THRESHOLDS.tsv` — `current_value`/`as_of`/`state` were all refreshed this session (9/1–9/5 basis).** Current levels are in §CATCH-UP and the tables above; the registry is the trigger spec.
 
+**Open fires, 4 of 14, unchanged since 8/28:** `T-05` Bund watch · `T-07` TTF L2 · `T-08` storage-gap orange · `T-02` German Mfg PMI >52 sustain-2. **No new fire in the 8 dark days** — but `T-13` (UK 30Y) came within **1.9%** of orange on 9/1 and `T-06` within 4.5%, both since receded.
 ---
 
 ## CATALYST DOCKET
@@ -182,56 +198,38 @@ The later-session sweep narrative (two self-corrections: **wrong tenor** on the 
 |---|---|---|
 | ~~Jul 23~~ | ~~ECB Governing Council~~ — **GRADED: held at 2.25%** (HNS-02 HIT) | ✅ closed |
 | ~~~Jul 24~~ | ~~German flash PMI~~ — **GRADED: 52.2, beat** (HNS-03 MISS) | ✅ closed |
-| **Sept 1 2026** | **Euro-area flash HICP (August)** — France 2.7% / Spain 4.5% already in; this is the aggregate that feeds Sept 10 | 🔴 |
+| ~~Sept 1~~ | ~~EA flash HICP (August)~~ — **PRINTED 3.3%** (energy 14.3%, core 2.4%). Pre-reg §3a applied → `HNS-05` 88% | ✅ closed |
 | **Sept 10 2026** | **ECB Governing Council** — 25bp hike near-consensus (HNS-05). Decision 13:45 CET, presser 14:30 CET | 🔴 |
+| **Sept 17 2026** 🔴 | **BoE MPC — hold expected, but the ANNUAL GILT-QT SALES PACE for the next 12 months is announced alongside.** Direct supply input to `T-06`/`T-13`. Prior: £70bn Oct-25→Sep-26 → £488bn stock | 🔴 |
 | **~Sept 23 2026** | German/EU flash PMI (September) — HNS-06 resolver | 🟠 |
+| **Nov 26 2026** | **UK Autumn Budget** into a multibillion-pound fiscal gap, with the 30Y at a 1998 high. The LDI-adjacent date | 🟠 |
 | **Oct 1 – Dec 1 2026** | **EU storage-target compliance window** (90% binding, 80% deviation floor) — HNS-07 resolves Nov 1 | 🟠 |
 | Ongoing | Hormuz / Qatar force majeure — next extension decision ~end-Sept | 🔴 |
 | ~Oct/Nov 2026 | EU-China rare-earth truce expiry | 🟡 |
 
 ---
 
-## NEXT SESSION — WHAT IS OWED (written 2026-08-28 so the next boot inherits it, not re-derives it)
+## NEXT SESSION — WHAT IS OWED (re-cut 2026-09-05; the 8/28 block is archived → `workbook/2026-08-28_OWED_AND_INFRA_BLOCK.md`)
 
-**Desk state per DAEDALUS FLEET_MAP, ruled 2026-08-28 at the close of this session: L3 → L4, Conf H** *(their surface, their call — recorded here as a ruling received, not as a self-claim)*. Cited basis: signals flowing **and consumed** (HENRY has mine in `processed/`), record accruing, predictions resolving, falsification surface live, FLOW two-state clean. WALTER's liveness cell still reads "33d dark" and was **explicitly treated as a stale mirror its owner cannot write today** — do not re-litigate it here; it self-corrects when WALTER's write freeze lifts.
+**Desk state: L4 (H) HELD** — DAEDALUS profile refresh 2026-09-05, per-leg verdicts at `AGENTS/DAEDALUS/profiles/HANS.md` §8. *(Their surface, their call.)*
 
-**The three L5 legs, in the order they come due:**
-| # | Leg | Due | Notes |
-|---|---|---|---|
-| 1 | **First forward grade — `HNS-05` (ECB hikes 25bp to 2.50%)** | **2026-09-10** | The first prediction this desk resolves since the revival. ⚠️ Anchor is FIXED-CALENDAR-EVENT but grade on **the first rate decision on or before 9/10** — an emergency hike resolves it HIT early. Registry row `HANS-T-04` moves with it. |
-| 2 | **Clean closeouts sustained TWO cycles** | next 2 sessions | The test is FLOW/PREDICTIONS/VX moving **with** STATUS, not after it. `ledger_staleness.py --nudge HANS` at every closeout. |
-| 3 | **WALTER routing re-cut** | when WALTER's write freeze lifts | Owed on **their** side, not mine: `ROUTING_TABLE.md` L58 / L293 / L12 still say the UK is an open question with BOND as default — **that text is FALSE as of 8/28.** Line numbers recorded here so the debt survives if their session doesn't. **Do not edit their file.** |
+| # | Owed | Due |
+|---|---|---|
+| 1 | **Grade `HNS-05` AND pre-reg §3b (tactical-vs-regime) — both, per §5.** Prior now **88%** (Appendix A). §3c falsifier anchors are pre-committed at Bund **~3.35**, IT–DE **~85bp**, FR–DE **~85.5bp** — read them off those, not off 8/28 | **2026-09-10** |
+| 2 | **BoE 9/17: the gilt-QT annual sales number**, not the rate. Direct supply input to `T-06`/`T-13`. Then the **11/26 UK Budget** | **2026-09-17** |
+| 3 | **`HNS-06`** — German Mfg PMI ≥50.0 on the ~9/23 flash (80%). Factory orders +2.5% m/m and a record 8.9-month backlog have made this *more* likely, not less | **~2026-09-23** |
+| 4 | **ESRB `esrb.report202602` at primary** — the FSR constraint is lifted, **this one is not**. No onward routing of ESRB-specific findings until read | open |
+| 5 | **UK 10Y basis** — BoE `IUDMNPY` nominal-par 5.0254 [8/27] vs TE benchmark 5.1548 [8/28]. BOND raised it; one of us must pin it | open |
+| 6 | **WALTER routing re-cut** (theirs, not mine): `ROUTING_TABLE.md` L58/L293/L12 still call the UK an open question. **Do not edit their file** | when their freeze lifts |
+| 7 | **DAEDALUS F-4 — BRENT never received the energy half.** Packet written this session; re-point both `dispatch_artifact` cells at the recipient-tree path and make that the registry convention | this session |
 
-⚠️ **STATUS is at 246 / 250 lines — ONE EDIT FROM BREACHING ITS OWN CAP.** Flagged here rather than left for the next session to hit mid-write `[[finding_mechanize_the_cap_not_the_ritual]]`. **First action next session: archive the §SECOND LIVE SWEEP block to `workbook/` once its corrections are absorbed into the tables** — it is a session narrative, and the tables carry the live values.
+**Also live, no clock:** EU storage window Oct 1–Dec 1 (`HNS-07`, resolves 11/01) · next Qatar force-majeure decision ~end-Sept · **`HNS-08` is CONTINUOUS-MONITORING — it resolves MISS the instant the Bund closes ≥4.00%** (3.36 now; intraday 3.40 on 9/2 was **not** a close).
 
-**Also live, no clock:** ECB Sept 10 · EA flash HICP Sept 1 · German flash PMI ~Sept 23 (`HNS-06`) · EU storage window Oct 1–Dec 1 (`HNS-07`, resolves 11/01) · next Qatar force-majeure decision ~end-Sept · `HNS-08` is **continuous-monitoring** — it resolves MISS the instant the Bund closes ≥4.00%, not at year-end.
-
-**✅ INFRASTRUCTURE BUILT 2026-08-28 (Will approved the recs) — use it, don't rebuild it:**
-- **`.venv/bin/python AGENTS/HANS/scripts/boot.py` is SPAWN PROTOCOL step 0.** 7 sections, ~10s.
-- **`scripts/fetch_eu.py` — European PRIMARY pull, called by boot §[2].** ✅ **Bund proxy (euro-area AAA 10Y, daily) + DE/IT/FR/ES 10Y with derived spreads — ECB Data Portal, NO KEY.** ✅ **EU gas storage fill + gap-to-norm — GIE AGSI+ (key live in `FORGE/tools/market-data/.env`, installed 8/28).**
-  ⚠️ **AGSI query form is `type=EU`, NOT `country=EU`** — the wrong form returns HTTP 200 with an empty array and reads as *"gas day not published yet."* Comment is in the source; don't re-derive it.
-  ⚠️ **The storage GAP is a CROSS-SOURCE derivation** — AGSI fill minus a GEF norm. Script prints the caveat every run. **Follow-up: compute the norm from AGSI history.**
-- ⚠️ **STILL MANUAL and named in boot §[2]: UK 10Y/30Y gilt** (no free daily source), plus the event-driven rows (ECB/BoE decisions, monthly PMI) which have no feed by nature. **A clean §[1]+§[2] is NOT a clear board.**
-- **`workbook/KB.tsv`** — 34 facts on ZHAO's schema; **`Stale_By` is enforced by boot §[7]**. New facts go here, not into `ML.tsv`.
-- **VX is now 40 live / 67 total.** 27 rows are FROZEN or RETIRED **on purpose**; boot excludes them by design. **Do not "helpfully" refresh a frozen row — read its named upgrade source first.**
-- **`thesis/ECB_2026-09-10_PREREGISTRATION.md`** — grade **both** `HNS-05` **and** its §3b tactical-vs-regime read. Reporting only the binary is the failure that document exists to prevent.
-
-- **`scripts/finding_check.py` — RUN `gate()` INSIDE any research script before shipping an empirical finding.** Two gates: INDEPENDENCE (does the robustness check vary something independent of what the claim is *about*?) and SUBSAMPLE STABILITY (auto re-run ex-crisis; fail on sign flip). ⚠️ **It catches 2 of the 3 failure modes that bit this desk on 8/28 — it does NOT catch construct validity** (*does my classifier measure what I claim?*). That one still needs a human question. Fleet adoption is DAEDALUS's to rule; HANS-local until then.
-
-**⚙️ RUN AFTER TOUCHING ANY SCRIPT: `.venv/bin/python AGENTS/HANS/scripts/test_hans.py` — 36 offline tests, ~4s.** Regression-first: the falsy-zero staleness bug · the AGSI `trend`-as-string crash · the `country=EU` silent-empty trap · **every non-green band tier carrying its threshold id** (the severe tiers were the ones missing it) · and that boot **consumes** `fetch_eu`'s return rather than calling it for side effects.
-
-**Standing hygiene bought this session — run these, don't rediscover them:**
-- **Verify delivery at the RECIPIENT's tree**, never from `outbox/delivered/`: `find AGENTS/<RECIPIENT> -iname "*HANS*"`.
-- **Fire counts come from `registry/HANS_T_FIRED_LOG.tsv`, not from prose.** *Did it fire?* and *how much does it tell us?* are two axes — never let a down-weighting caveat drop a row from the count.
-- **Only 5 of 12 registry rows are daily-scannable.** A clean scan of the 5 does not clear the 12; `T-12` is uninstrumented and cannot fire at all.
-
-⚠️ **The session's own verdict on itself:** four separate defects surfaced on 2026-08-28 — no threshold registry at all, a miscounted fire, an `ACTIVE-STALE` third status, and a banner lost to a directory name. **All four were found from outside** (WALTER ×2, DAEDALUS ×2), **every one on a surface I had just written and therefore trusted.** The desk is current; the self-audit demonstrably is not. Treat that as the standing prior at next boot.
-
----
+⚠️ **STANDING PRIOR, and 9/5 confirmed it a second time:** on 8/28 four defects surfaced, **all found from outside**, every one on a surface I had just written and therefore trusted. On 9/5 DAEDALUS found **three more of exactly that shape** (registry count wrong in 4 places, `HNS-09` missing from STATUS, test count stale) plus a pre-registration conditional that never fired because I was dark. **The desk is current; the self-audit demonstrably is not.** ⚠️ **Boot §[2] is BLIND on EU storage on this box — there is no `AGSI_API_KEY` in `FORGE/tools/market-data/.env`** (the file is gitignored and last touched 8/4). The 8/28 note claiming the key was "installed" does not hold here; storage came from GEF/AGSI web this session. **Machine-local, so re-check per box.**
 
 ## TWO-SENTENCE SUMMARY
 
-Europe has stopped being a source of stress **through growth** and become one **through the long end**: German manufacturing PMI at 54.1 is a four-year high that kills the ISM-sub-49 leg of the US thesis outright, while the Bund at 3.29% — the highest since March 2011 — arrives with tight periphery spreads, a *strengthening* euro and an ECB about to hike into a 4.5%-Spain energy passthrough, which together identify it as **genuinely European term premium rather than US fiscal spillover**. The unresolved input under all of it is energy: Hormuz has been shut roughly six months, Qatar's force majeure was extended again on 8/28 with exports down 96%, and EU storage at 63.8% against an 82.0% norm is the thinnest cover for the date in the entire AGSI record.
+Eight dark days changed no call and hardened three: Europe still transmits to the US **through the long end rather than through growth**, and the growth leg is now dead on two independent German instruments — PMI 54.1 plus July factory orders +2.5% m/m with a record 8.9-month backlog — while the Bund at 3.36% (intraday **3.40% on 9/2, a 15-year high**) keeps arriving with tight periphery spreads, a strengthening euro and a named domestic driver, a reading BOND has now **independently corroborated** by ranking the euro area first of four DM sovereigns at issuer primaries. The energy input under all of it got worse, not better — TTF **€71.96 and +125% YoY**, a 3.5-year high on 9/2 — but the storage gap is quietly **narrowing** (−18.2pp → −16.6pp), and the euro-area **credit** channel, now read at ECB primary rather than through secondary relay, remains genuinely quiet: **€62.5bn of private-credit exposure across 12 euro-area banks is 0.2% of total assets**, and the loudest thing the primary says is that nobody — the supervisor included — can see the undrawn half.
 
 ---
 *Prior state archived → `workbook/STATUS_archive_20260716.md` (7/16 energy-ladder frame), `STATUS_archive_20260430.md` (Apr-30 war frame), `STATUS_archive_20260325.md`. Falsification surface → `thesis/KILL_TREE.md`. Vectors `workbook/VX.tsv` · Flows `workbook/FLOW.tsv` · Predictions `workbook/PREDICTIONS.tsv`.*

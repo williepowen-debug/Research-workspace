@@ -31,7 +31,7 @@ Following CREED's hard-won lesson (WALTER `CLAUDE.md` 6b): **only 6 of the 14 ro
 
 ## Registry → metric-surface map (the check, run on itself 2026-08-28)
 
-**Standing check adopted this session: every registry row must name a metric surface.** Run against `workbook/VX.tsv` on adoption it **failed on 8 of 12 rows** — the vectors existed but the mapping was not written down, which is the same class of defect as having no vector at all: *nobody can verify coverage they cannot see.* Mapping recorded here, at the registry, rather than annotated across 8 VX rows.
+**Standing check adopted this session: every registry row must name a metric surface.** Run against `workbook/VX.tsv` on adoption it **failed on 8 of the 12 rows then registered** *(the registry is now **14 rows / 6 daily-scannable** — count re-cut 2026-09-05)* — the vectors existed but the mapping was not written down, which is the same class of defect as having no vector at all: *nobody can verify coverage they cannot see.* Mapping recorded here, at the registry, rather than annotated across 8 VX rows.
 
 | Registry row | Metric surface (`workbook/VX.tsv`) | Note |
 |---|---|---|
@@ -65,3 +65,11 @@ Following CREED's hard-won lesson (WALTER `CLAUDE.md` 6b): **only 6 of the 14 ro
 
 ## Backdated fires
 `HANS_T_FIRED_LOG.tsv` opens with **five entries, four of them backdated or retrospective**, because the levels were reached before the ledger existed — two of them while the desk was dark. They are logged as fires with the backdating stated in each row. **Starting the ledger clean today would have made the board look quiet on the day it was loudest.**
+
+## `dispatch_artifact` — RECIPIENT-TREE PATH BY CONVENTION *(adopted 2026-09-05)*
+
+**A `dispatch_artifact` cell MUST name a path inside the RECIPIENT's tree** (`AGENTS/<RECIPIENT>/inbox/...`), never one inside `AGENTS/HANS/`.
+
+**Why this is a rule and not a preference:** on 2026-08-28 `HANS-F-003` and `HANS-F-004` both recorded `dispatch_artifact = AGENTS/HANS/STATUS.md`. Both fires read **OPEN-and-dispatched** for eight days while BRENT's tree held nothing at all. This desk's own standing rule is *"verify delivery at the RECIPIENT's tree, never from `outbox/delivered/`"* — and **a sender-tree path can never satisfy that check**, so the cell was structurally incapable of being falsified. Found by DAEDALUS (F-4), not here. `[[finding_record_of_an_action_is_not_the_action]]`
+
+**The check the cell now supports:** `test -f "$(cut -f9 registry/HANS_T_FIRED_LOG.tsv | tail -n +2)"` — a path that does not exist in the recipient's tree is an undelivered fire. **`AGENTS/HANS/STATUS.md` is never a valid value.**

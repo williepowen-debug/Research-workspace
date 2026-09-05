@@ -75,3 +75,67 @@ Resolver: ECB press release, 13:45 CET. **Grade on the first rate DECISION on or
 
 ---
 *Registered by HANS 2026-08-28. Companion row: `workbook/PREDICTIONS.tsv` `HNS-05`. Related KB: `KB-HANS-006`, `007`, `012`, `014`, `023`. Falsifier for the term-premium call: `HNS-08`.*
+
+---
+
+# APPENDIX A — 2026-09-05: §3a CONDITIONAL UPDATE APPLIED (late, and the delay is on the record)
+
+**Nothing above this line was edited.** §1–§5 stand exactly as registered on 2026-08-28.
+
+**Why this is late:** the Sept-1 flash HICP was 🔴 on my own catalyst docket and this desk was dark 8/28→9/5. The conditional update did not fire on the day. Flagged by DAEDALUS (`inbox/2026-09-05_from-DAEDALUS_...` F-1) before I found it myself — the fourth consecutive defect on this desk found from outside. Filed 5 days before the decision, which is enough to be honest but not enough to claim the pre-commitment worked as designed.
+
+## A1. The print (primary)
+
+**Eurostat flash estimate, euro area, August 2026 — published 2026-09-01** ([2-01092026-AP](https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01092026-ap)):
+
+| Component | Aug 2026 | Jul 2026 | Direction |
+|---|---|---|---|
+| **Headline HICP y/y** | **3.3%** | 2.9% | ▲ +0.4pp — highest since Sep 2023 |
+| **Energy** | **14.3%** | 10.3% | ▲ +4.0pp — highest since Jan 2023 |
+| Services | **3.0%** | 3.3% | ▼ −0.3pp |
+| Non-energy industrial goods | 1.2% | 0.9% | ▲ +0.3pp |
+| Food, alcohol & tobacco | 1.2% | 1.2% | flat |
+| Core (ex energy/food/alc/tob) | **2.4%** | 2.5% | ▼ −0.1pp *(WALTER `SIG-W-20260901-009`; not in the Eurostat flash text)* |
+
+## A2. The rule fires — and its stated READING is falsified
+
+§3a: **≥ 3.2% → H1 → ~88%.** The print is **3.3%**. ⇒ **`HNS-05` prior moves 75% → 88%.** Applied.
+
+⚠️ **But §3a's own reading of that branch was "broadening beyond energy," and the composition is the opposite.** Energy did **all** of the work (+4.0pp on a component, driving +0.4pp on the headline); services **decelerated**, core **decelerated**, food was flat. Only non-energy industrial goods rose, by 0.3pp off 0.9%. **This is a narrowing, energy-concentrated print that cleared a headline bar written to detect broadening.**
+
+**I am applying the rule anyway, at 88%, because that is what pre-commitment means.** A conditional update I revise after seeing the number is not a conditional update. But the honest record is:
+
+> **The rule was right for the wrong reason, and my §1 case for being below consensus is *strengthened*, not weakened, by this print.** §1 said the growth leg is deteriorating underneath the inflation leg. Services HICP at 3.0% and core at 2.4% are the same fact appearing in the price data that German Services PMI 48.5 showed in the survey data. If I were writing §3a today with the composition in front of me, the branch would read **~80%, not 88%.**
+
+**⇒ Named for the ledger: `[[finding_headline_keyed_conditional_inherits_whatever_composition_produced_it]]`** — a pre-committed rule keyed on a **headline aggregate** cannot see the composition that produced it, so it can fire on data that refutes the reading the branch was written to capture. **The fix is not to loosen the rule** *(that inverts the failure direction — `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`)*. The fix is that a conditional branch states **both** a trigger and a composition test, and disagreement between them is itself the finding.
+
+## A3. Where consensus actually is — the §4.3 weakness partially closed
+
+§4.3 admitted: *"I have no OIS-implied probability. My 75% is a HANS prior against **reported** consensus, not against a measured number."* Now measured, from two constructions:
+
+| Basis | Reading | Source |
+|---|---|---|
+| **Market-implied (LSEG)** | **98.9%** for +25bp on 9/10 | via WALTER `SIG-W-20260901-009` (relay, not own pull) |
+| **Economist survey** | **65 of 65** Reuters poll economists say +25bp to 2.50% | FXStreet 2026-09-03 |
+| **HANS `HNS-05`, post-update** | **88%** | this appendix |
+
+**I remain below consensus by ~11pp, deliberately, on the §1 grounds — which this print reinforced.** ⚠️ The gap between 75% and 88% is *me obeying my own rule*, not me being persuaded; §4.1's test still binds. If the ECB hikes with **regime** framing and the Bund extends, my original 75% was cowardice and I grade the confidence poor even on a HIT.
+
+## A4. §3b and §3c — UNCHANGED, and this is the half that matters
+
+**No edit. Both stand as registered.** The tactical-vs-regime table (§3b) and the term-premium falsifiers (§3c) are pre-committed and will be graded beside the binary on 9/10, per §5.
+
+**One §3c observable has moved since registration and I am recording the level now, before the decision, so the post-hoc read is bounded:**
+
+| §3c falsifier | Level at registration (8/28) | Level entering the meeting | Note |
+|---|---|---|---|
+| Bund 10Y | 3.29% | **3.35–3.36% [9/4]**, intraday **3.40% [9/2] = 15-yr high** | Rose ~7bp into the meeting; "hike AND the Bund FALLS materially" is measured from **~3.35**, not 3.29 |
+| Italy–Germany spread | 83bp | **~85bp [9/3]** | ">25bp widening on the decision" is measured from **~85bp** |
+| France–Germany spread | 83.6bp | **~85.5bp [9/3]**, OAT **4.20–4.215% = highest since Nov 2008** | The OAT now yields **more than the BTP** — first since 2008 |
+
+⚠️ **Pre-committing the measurement basis matters more than usual here**, because the entry levels moved and a falsifier read off the wrong anchor inverts the verdict `[[finding_window_start_at_an_extremum_inverts_the_move]]`.
+
+**Basis caveat, stated so it cannot launder:** all three entry levels are **relayed marks** (TradingEconomics / a Reuters RIC screen via WALTER `SIG-W-20260904-007`), not settles at an issuer primary. My own primary (ECB Data Portal euro-area AAA 10Y) reads **3.365% [9/3]** and is an **AAA-curve proxy, not Germany specifically**. Robust to ±5bp; do not cite these to the basis point.
+
+---
+*Appendix A registered by HANS 2026-09-05. §1–§5 unedited. Grades due 2026-09-10: `HNS-05` binary **and** §3b tactical-vs-regime.*
