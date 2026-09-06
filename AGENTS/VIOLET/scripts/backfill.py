@@ -80,7 +80,34 @@ def determine_regime(vix: float | None) -> str:
     return "CRASH"
 
 
-def backfill_spot(days: int, rows: dict[str, dict]) -> int:
+def backfill_spot(days: int, rows: dict[str, dict],
+                  cboe_hist: dict[str, dict[str, float]] | None = None,
+                  cboe_failed: set[str] | None = None) -> int:
+    """PROVISIONAL spot pass — yfinance. NOT a writer of record for the six columns.
+
+    ⚠️ WRITE AUTHORITY IS SCOPED (2026-09-06, WQ-188 fix ①; Codex HIGH). Before
+    this change this pass ran FIRST and unconditionally, and the CBOE pass that
+    followed could be skipped on a fetch failure while `main` still saved and
+    exited 0. Codex's in-memory case: `skew` 151.58 SETTLE in the ledger,
+    yfinance serving 149.00, CBOE 503 ⇒ 149.00 written, the `SETTLE` stamp
+    RETAINED, rc=0. **The repair could silently undo itself on the next run**,
+    on the ledger every `^SKEW` sustain count is derived from.
+
+    🔑 The fix removes a WRITER rather than adding a CHECKER. A checker would
+    have to run after the damage and be believed; scoping authority means the
+    bad write cannot happen. Per-column rule, evaluated against THIS run:
+
+      · CBOE series FAILED      -> yfinance may not touch that column at all.
+                                   The existing (CBOE-verified) cell is preserved.
+      · CBOE OK, has a value    -> yfinance defers; the CBOE pass writes it.
+      · CBOE OK, has NO value   -> yfinance may write it PROVISIONALLY. This is
+                                   the legitimate residue: today's not-yet-settled
+                                   session, and any date CBOE does not cover.
+                                   Never stamped SETTLE (see backfill_spot_cboe).
+
+    Passing neither `cboe_hist` nor `cboe_failed` restores the old unscoped
+    behaviour and is left only for direct callers/tests; `main` always scopes.
+    """
     import yfinance as yf
     import pandas as pd
 
@@ -117,17 +144,29 @@ def backfill_spot(days: int, rows: dict[str, dict]) -> int:
     if companions:
         df = df[df[companions].notna().any(axis=1)]
 
+    failed = set(cboe_failed or ())
     touched = 0
+    provisional = 0
+    withheld_failed = 0
+    deferred_cboe = 0
     for d, series in df.iterrows():
         d_str = d.isoformat()
         row = rows.get(d_str, {"date": d_str})
         changed = False
         for key in TICKERS:
             if key in hist and not pd.isna(series.get(key)):
+                # --- write-authority gate (WQ-188 fix ①) ---
+                if key in failed:
+                    withheld_failed += 1
+                    continue
+                if cboe_hist is not None and cboe_hist.get(key, {}).get(d_str) is not None:
+                    deferred_cboe += 1
+                    continue
                 val = round(float(series[key]), 4)
                 if str(row.get(key, "")) != str(val):
                     row[key] = val
                     changed = True
+                    provisional += 1
         # Recompute derived columns when we have both
         vix = row.get("vix")
         vix3m = row.get("vix3m")
@@ -152,6 +191,10 @@ def backfill_spot(days: int, rows: dict[str, dict]) -> int:
         if changed:
             rows[d_str] = row
             touched += 1
+    if cboe_hist is not None or failed:
+        print(f"  yfinance (provisional): {provisional} cell(s) written where CBOE "
+              f"publishes nothing, {deferred_cboe} deferred to CBOE, "
+              f"{withheld_failed} WITHHELD (CBOE series failed this run)")
     return touched
 
 
@@ -282,13 +325,27 @@ CBOE_SERIES = {
 CBOE_TOL = 0.005  # cents-level; anything larger is a real disagreement
 
 
-def fetch_cboe_history(sym: str) -> dict[str, float]:
-    """One CBOE daily-prices CSV -> {iso_date: close}. Empty dict on any failure."""
-    r = requests.get(CBOE_HISTORY_URL.format(sym=sym), timeout=30,
-                     headers={"User-Agent": "Mozilla/5.0"})
+def fetch_cboe_history(sym: str) -> tuple[dict[str, float], bool]:
+    """One CBOE daily-prices CSV -> ({iso_date: close}, ok).
+
+    ⚠️ THE SECOND RETURN VALUE IS THE WHOLE POINT (added 2026-09-06, WQ-188 fix ①).
+    This used to return a bare dict and signal failure with `{}` — which is the
+    SAME value a successful fetch of an empty file returns, so the caller could
+    not tell "CBOE says nothing here" from "CBOE did not answer". That ambiguity
+    is what let the run fail OPEN: a 503 looked like an empty result, the pass
+    was skipped, yfinance's values stood, and the run exited 0. `ok` is False
+    ONLY for a transport/HTTP/parse failure — an authoritative empty answer is
+    (`{}`, True). Callers must gate WRITE AUTHORITY on `ok`, never on truthiness.
+    """
+    try:
+        r = requests.get(CBOE_HISTORY_URL.format(sym=sym), timeout=30,
+                         headers={"User-Agent": "Mozilla/5.0"})
+    except requests.RequestException as e:
+        print(f"    ⚠ CBOE {sym}: request FAILED ({type(e).__name__}) — NOT used this run")
+        return {}, False
     if r.status_code != 200:
         print(f"    ⚠ CBOE {sym}: HTTP {r.status_code} — NOT used this run")
-        return {}
+        return {}, False
     out: dict[str, float] = {}
     for row in csv.DictReader(io.StringIO(r.text)):
         d = row.get("DATE") or row.get("Date")
@@ -304,10 +361,30 @@ def fetch_cboe_history(sym: str) -> dict[str, float]:
             out[dd] = round(float(raw), 4)
         except (ValueError, KeyError, TypeError):
             continue
-    return out
+    return out, True
 
 
-def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None) -> dict[str, int]:
+def fetch_all_cboe() -> tuple[dict[str, dict[str, float]], set[str]]:
+    """Fetch all six CBOE series up front. -> (hist_by_column, failed_columns).
+
+    Fetched BEFORE the yfinance pass so that yfinance's write authority can be
+    scoped by what CBOE actually confirmed this run — see backfill_spot().
+    """
+    print("  Fetching CBOE daily-prices CSVs (publisher of record) for "
+          f"{list(CBOE_SERIES.values())}")
+    hist: dict[str, dict[str, float]] = {}
+    failed: set[str] = set()
+    for col, sym in CBOE_SERIES.items():
+        data, ok = fetch_cboe_history(sym)
+        hist[col] = data
+        if not ok:
+            failed.add(col)
+    return hist, failed
+
+
+def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None,
+                       hist: dict[str, dict[str, float]] | None = None,
+                       failed: set[str] | None = None) -> dict[str, int]:
     """AUTHORITATIVE spot pass — CBOE daily-prices CSVs for all six columns.
 
     CBOE is the publisher of record for every index in this ledger, so this pass
@@ -351,17 +428,27 @@ def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None) -> dict[
     """
     if today is None:
         today = date.today().isoformat()
-    print("  Fetching CBOE daily-prices CSVs (publisher of record) for "
-          f"{list(CBOE_SERIES.values())}")
-    hist = {col: fetch_cboe_history(sym) for col, sym in CBOE_SERIES.items()}
-    if not hist.get("vix"):
-        print("  ✗ CBOE VIX history unavailable — CBOE pass SKIPPED (yfinance stands)")
-        return {"filled": 0, "corrected": 0, "agreed": 0, "settle_stamped": 0}
+    if hist is None:
+        hist, fetch_failed = fetch_all_cboe()
+        failed = fetch_failed if failed is None else (set(failed) | fetch_failed)
+    failed = set(failed or ())
+    if failed:
+        # ⚠️ NOT "yfinance stands". A failed series means this column is
+        # UNVERIFIABLE this run, so nothing writes it — the previously verified
+        # value is preserved and `main` exits non-zero. The old branch here
+        # printed "CBOE pass SKIPPED (yfinance stands)", returned zeros, and let
+        # `main` save and exit 0; that is the fail-open Codex found (WQ-188 ①).
+        print(f"  🔴 CBOE INCOMPLETE — {len(failed)} of {len(CBOE_SERIES)} series "
+              f"unavailable: {sorted(failed)}")
+        print("     Those columns are NOT written by anything this run; "
+              "previously verified values are PRESERVED.")
 
     filled = corrected = agreed = settle_stamped = 0
     corrections: list[str] = []
     for d_str, row in rows.items():
         for col in CBOE_SERIES:
+            if col in failed:
+                continue
             ref = hist[col].get(d_str)
             if ref is None:
                 continue
@@ -400,8 +487,12 @@ def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None) -> dict[
             except ValueError:
                 pass
 
-        # A completed session CBOE has published is a SETTLE by construction.
-        if d_str < today and hist["vix"].get(d_str) is not None:
+        # A completed session CBOE has published is a SETTLE by construction —
+        # but ONLY when every column in the row was confirmed by CBOE this run.
+        # `basis` is a ROW-level claim, so a row holding even one unverified
+        # column must not be stamped: that stamp is what made Codex's case
+        # dangerous rather than merely wrong (149.00 carrying a SETTLE label).
+        if not failed and d_str < today and hist["vix"].get(d_str) is not None:
             if str(row.get("basis", "") or "").strip() != "SETTLE":
                 row["basis"] = "SETTLE"
                 settle_stamped += 1
@@ -429,16 +520,22 @@ def main(argv=None):
     header, rows = load_existing()
     print(f"Loaded {len(rows)} existing rows from {DAILY_LOG.name}")
 
+    cboe_failed: set[str] = set()
     if not args.m1m2_only:
-        print(f"\n[1/2] Backfilling spot history ({args.spot_days} days)...")
-        touched = backfill_spot(args.spot_days, rows)
+        # CBOE IS FETCHED FIRST so that yfinance's write authority can be scoped
+        # by what the publisher of record actually confirmed THIS RUN. The old
+        # order (yfinance writes -> CBOE corrects) meant a CBOE failure left
+        # yfinance's writes standing, which is the fail-open (WQ-188 ①).
+        print("\n[1a] Fetching CBOE (publisher of record) BEFORE any write...")
+        cboe_hist, cboe_failed = fetch_all_cboe()
+
+        print(f"\n[1b] yfinance provisional pass ({args.spot_days} days)...")
+        touched = backfill_spot(args.spot_days, rows,
+                                cboe_hist=cboe_hist, cboe_failed=cboe_failed)
         print(f"  touched {touched} rows")
-        # CBOE runs SECOND and WINS. yfinance is the fast recent-history path;
-        # CBOE is the publisher of record and is authoritative on every cell it
-        # publishes. Same precedence pattern this desk already ratified for MOVE
-        # (investing.com PRIMARY, yfinance cross-check only, KB-VIO-177).
-        print("\n[1b] Reconciling spot columns against CBOE (publisher of record)...")
-        backfill_spot_cboe(rows)
+
+        print("\n[1c] Writing spot columns from CBOE (authoritative)...")
+        backfill_spot_cboe(rows, hist=cboe_hist, failed=cboe_failed)
 
     if not args.spot_only:
         print(f"\n[2/2] Backfilling M1:M2 steepness ({args.m1m2_days} trading days)...")
@@ -447,6 +544,18 @@ def main(argv=None):
 
     write_merged(header, rows)
     print(f"\n✓ wrote {len(rows)} rows to {DAILY_LOG}")
+
+    # LOUD, NON-ZERO, AND NAMED. A partial refresh is not a success: the six
+    # spot columns are the basis of every graded ^SKEW sustain claim, so a run
+    # that could not reach the publisher of record must say so in its exit code,
+    # not only in scrollback that nobody reads. Values on disk are the ones CBOE
+    # previously verified — safe, but STALE, and the caller has to know which.
+    if cboe_failed:
+        print(f"\n🔴 BACKFILL INCOMPLETE — CBOE unavailable for "
+              f"{len(cboe_failed)} of {len(CBOE_SERIES)} series: {sorted(cboe_failed)}")
+        print("   Those columns were NOT refreshed and NOT overwritten; "
+              "no basis=SETTLE was stamped this run. Re-run when CBOE is reachable.")
+        return 2
     return 0
 
 

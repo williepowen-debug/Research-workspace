@@ -83,18 +83,80 @@ TSV_COLS = ["date", "vix", "vvix", "skew", "vix_pctile", "vvix_pctile",
             "note", "stamp_utc"]
 
 
-def pull() -> dict:
+CBOE_COLS = {"vix": "VIX", "vvix": "VVIX", "skew": "SKEW"}
+
+
+def _pull_yf(cols: list[str]):
+    """PROVISIONAL fallback only. Returns {col: Series}; a column may be absent."""
     import yfinance as yf
+
+    out = {}
+    for col in cols:
+        try:
+            s = yf.Ticker(f"^{CBOE_COLS[col]}").history(
+                period="max", auto_adjust=False)["Close"].dropna()
+            if len(s):
+                s.index = s.index.tz_localize(None)
+                out[col] = s
+        except Exception as e:  # noqa: BLE001 — a fallback must not mask the primary failure
+            print(f"    ⚠ yfinance ^{CBOE_COLS[col]} fallback also failed: {type(e).__name__}")
+    return out
+
+
+def pull() -> dict:
+    """Read VIX/VVIX/SKEW from CBOE — the PUBLISHER OF RECORD — not from a mirror.
+
+    ⚠️ WHY THIS CHANGED (2026-09-06, WQ-188 fix ②). This function read all three
+    series from yfinance, and it is the input to the ONLY 🟣 OPEN operator-decision
+    surface this desk publishes. Two things made that untenable on the same day:
+
+      · RED's `boot.py` graded RED-FT-10 off yfinance `^SKEW` — the source FT-10's
+        own basis clause disqualifies IN WRITING — and printed a flat red FIRING
+        at every boot 9/3→9/6. 🔑 **It was invisible precisely BECAUSE the two
+        series agreed.** Agreement is not verification; it is the condition under
+        which a wiring defect survives.
+      · yfinance has two measured `^SKEW` defect modes against CBOE — omission and
+        wrong value (RED base-rated 2/253; VIOLET's own 416-row reconcile found
+        the wrong-value instance at 2025-12-24). Repairing VX_DAILY.tsv did NOT
+        protect this read, because `pull()` fetches at RUN TIME and never touches
+        the ledger — the at-the-moment-of-use read is its own exposure.
+
+    CBOE is primary. yfinance survives ONLY as a fallback that MARKS the output
+    PROVISIONAL and says which column it stood in for — never silently. A tool
+    with no trail defaults to OVERSTATING: it displays absence of data as
+    confirmation. `[[finding_adoption_is_not_validation]]`
+    """
     import pandas as pd
 
-    vix = yf.Ticker("^VIX").history(period="max", auto_adjust=False)["Close"].dropna()
-    vvix = yf.Ticker("^VVIX").history(period="max", auto_adjust=False)["Close"].dropna()
-    skew = yf.Ticker("^SKEW").history(period="max", auto_adjust=False)["Close"].dropna()
-    if vix is None or len(vix) < 500:
-        raise RuntimeError(f"^VIX history too short ({0 if vix is None else len(vix)} rows)")
-    for s in (vix, vvix, skew):
-        s.index = s.index.tz_localize(None)
-    df = pd.DataFrame({"vix": vix, "vvix": vvix, "skew": skew}).dropna()
+    sys.path.insert(0, str(SCRIPT_DIR))
+    from backfill import fetch_cboe_history  # noqa: E402 — same-desk publisher path
+
+    series, provisional = {}, []
+    for col, sym in CBOE_COLS.items():
+        data, ok = fetch_cboe_history(sym)
+        if ok and data:
+            s = pd.Series(data)
+            s.index = pd.to_datetime(s.index)
+            series[col] = s.sort_index()
+        else:
+            provisional.append(col)
+
+    if provisional:
+        # LOUD. The value still gets produced — an operator surface that goes
+        # dark on a CDN hiccup is worse than one that is labelled — but it is
+        # labelled at every level: stdout, the returned dict, and the TSV note.
+        print(f"  ⚠️ CHEAP-TAIL PROVISIONAL — CBOE unavailable for {provisional}; "
+              f"falling back to yfinance for those column(s). "
+              f"Do NOT grade or act on a provisional read.")
+        series.update(_pull_yf(provisional))
+
+    missing = [c for c in CBOE_COLS if c not in series]
+    if missing:
+        raise RuntimeError(f"no source served {missing} — CBOE and yfinance both failed")
+    if len(series["vix"]) < 500:
+        raise RuntimeError(f"^VIX history too short ({len(series['vix'])} rows)")
+
+    df = pd.DataFrame(series).dropna()
 
     def pct(series, val):
         return round(float((series <= val).mean() * 100.0), 1)
@@ -105,6 +167,8 @@ def pull() -> dict:
     last = df.iloc[-1]
     return {
         "asof": str(df.index[-1].date()),
+        "source": "yfinance-PROVISIONAL:" + ",".join(provisional) if provisional else "CBOE",
+        "provisional": provisional,
         "vix": round(float(last["vix"]), 2),
         "vvix": round(float(last["vvix"]), 2),
         "skew": round(float(last["skew"]), 2),
@@ -257,6 +321,11 @@ def main() -> int:
         d, cat_days, cat_event, args.vvix, args.vix, args.skew, args.window)
     note = ("window open" if state == "OPEN"
             else f"missing: {', '.join(missing)}" if missing else "-")
+    # The provenance rides ON THE ROW, not only in scrollback. A row read back
+    # next week cannot tell a CBOE-sourced state from a fallback one otherwise,
+    # and this is the ledger behind an operator-decision surface.
+    if d.get("provisional"):
+        note = f"{note} [PROVISIONAL src=yfinance:{','.join(d['provisional'])}]"
     log_note = "" if args.no_log else append_log(d, cat_days, cat_event, met, state, note, supersede=not args.no_supersede)
 
     if args.json:
@@ -267,9 +336,10 @@ def main() -> int:
         return 0
 
     icon = {"OPEN": "🟣", "ARMING": "🟡", "DORMANT": "⚪"}[state]
+    src = "" if d.get("source") == "CBOE" else f" ⚠️ {d.get('source')}"
     print(f"CHEAP-TAIL [{d['asof']}]: {icon} {state} ({met}/4) · "
           f"VIX {d['vix']} · VVIX {d['vvix']} · SKEW {d['skew']} · "
-          f"nearest HIGH/MED catalyst {cat_days}d ({cat_event})")
+          f"nearest HIGH/MED catalyst {cat_days}d ({cat_event}){src}")
     for line in scorecard:
         print(line)
     if state == "OPEN":

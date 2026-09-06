@@ -18,6 +18,8 @@
 >
 > **⑧ ⛔ NOTHING FIRED AND I PROPOSE NOTHING.** Cheap-tail 🟣 **OPEN 4/4** into **CPI 9/11 (4d)** and **FOMC 9/16 (7d)** — operator-decision surface, routed PROME → TERRY → Will, **not actioned by me.** **FLAT.**
 >
+> **⑨ 🔧 AND THE REPAIR IN ③ COULD HAVE UNDONE ITSELF — CODEX FOUND IT THE SAME DAY, WILL RULED WQ-188, BOTH FIXES ARE IN.** `backfill.py` **failed OPEN**: yfinance wrote first, and on a CBOE failure the CBOE pass printed *"yfinance stands"*, **saved, and exited 0** — Codex's case wrote `skew` 149.00 over the verified 151.58 **with the `SETTLE` stamp retained**, rc=0. Fixed by removing a **WRITER**, not adding a checker: CBOE is fetched first and yfinance's authority over the six spot columns is scoped per-column to what CBOE confirmed *this run*; a failed series writes nothing and `main()` exits **2**. Fix ②: `cheap_tail.py` — the 🟣 OPEN 4/4 surface — now reads VIX/VVIX/SKEW from CBOE at run time; **values identical to the cent, state unchanged**. 12-contract regression test built (`test_backfill_authority.py`, rc=0); control run **2,496 cells agreed / 0 corrected**. ⚠️ **Residual, named:** `thresholds.py` still writes the daily row from yfinance, so the six columns are authoritative in **history** and provisional at the **leading edge**. → **KB-VIO-252→255**, `MAINTENANCE.md` 2026-09-06 (PM)
+>
 > 📄 *The 9/4 seven-session narrative is archived verbatim → `archive/STATUS_SESSION_LOG_2026-09-04.md` (crc32 `d6091a4c`). Findings KB-VIO-234→245 stand as written; nothing there is retracted by today.*
 
 ---
@@ -47,7 +49,7 @@
 | **★ OVX oil-vol (canary)** | 🟡 **WATCH** — 44.96 (p76.0) · ratio **3.09** (p93.3) | **9/4 SETTLE** | 🟡 | [CONF] ovx.py. Stood down from FIRE at the 9/4 close; ratio under the p95 line (3.21). ⚠️ Its 9/3 FIRE was on the **DENOMINATOR** (OVX fell, VIX fell faster) — never an independent oil channel. |
 | **★ JPY vol (canary)** | 🟡 **CALM** but waking — RV10 **10.18%** / **p69.6** · USDJPY **156.22** | **9/4** | 🟡 | [CONF] jpy_vol.py. Band still CALM (WATCH 13.97%). ⛔ **RV-through-IV leg UNUSABLE** — off-RTH 2-strike artifact. |
 | **Implied correlation** | **COR1M 8.60** · COR3M 9.53 · COR30D 6.91 · constituent-vol **~49.5 [EST]** | **9/6 TICK** | 🟠 | [CONF A1] boot.py. **DISPERSED** — index vol suppressed vs constituents. ⚠️ Weekend tick; cannot be backfilled (KB-VIO-171). |
-| **★ Cheap-tail window** | 🟣 **OPEN 4/4** — L1 ✅ · L2 ✅ · L3 ✅ · L4 ✅ | **9/4** | 🟣 | [CONF] cheap_tail.py. VVIX 84.42 ≤90 · VIX 14.53 ≤16 · SKEW 151.58 ≥140 · nearest HIGH/MED **4d (CPI 9/11)**. **Operator-decision surface. No proposal from me.** |
+| **★ Cheap-tail window** | 🟣 **OPEN 4/4** — L1 ✅ · L2 ✅ · L3 ✅ · L4 ✅ | **9/4** | 🟣 | [CONF] cheap_tail.py, **CBOE-sourced since 9/6 PM** (was yfinance; values identical to the cent, state unchanged — KB-VIO-254). VVIX 84.42 ≤90 · VIX 14.53 ≤16 · SKEW 151.58 ≥140 · nearest HIGH/MED **4d (CPI 9/11)**. **Operator-decision surface. No proposal from me.** |
 | **VIX options C/P** | Fwd C/P OI **2.80** · 9/16 quarterly dominant | **9/6** | 🟠 | [CONF] vix_options. **October tail accumulation persists:** 10/21 **60C +313%** (OI 317,633) · **35C +141%** (325,745) · **30C +106%** (330,924) — **and October becomes M1 on 9/16** (KB-VIO-218). |
 
 ---
@@ -164,4 +166,4 @@ Thesis **v4.0** (2026-08-27). Currency counter: **38 KB rows since v4.0 (3 retra
 
 **Not bumping this session.** Measure the open, drain the inbox lane, grade the letter on 9/16.
 
-*Last write-back: 2026-09-06 ~10:4x ET (Sunday boot — FT-10 to 2 of 4 verified by own CBOE pull; `VX_DAILY` reconciled and gap-checked; PROME completion-spec re-key executed on Will's word). Basis: **9/4 SETTLE** on every vol row. Prior: 2026-09-04 19:45 ET (DAEDALUS profile refresh — five 🔴 closed; STATUS rotated 4× today on the read-cap budget, all verbatim + crc-verified). Basis: 9/3 SETTLE unless a row says otherwise; 9/4 TICK rows are intraday.*
+*Last write-back: 2026-09-06 ~12:0x ET (WQ-188 — Codex HIGH closed: yfinance stripped of write authority over the six CBOE columns, `cheap_tail.py` re-pointed to the publisher of record; 12-contract regression test; closeout guard 8/8 green. **No market data changed — markets closed; every vol row is still the 9/4 SETTLE.**). Prior: 2026-09-06 ~10:4x ET (Sunday boot — FT-10 to 2 of 4 verified by own CBOE pull; `VX_DAILY` reconciled and gap-checked; PROME completion-spec re-key executed on Will's word). Basis: **9/4 SETTLE** on every vol row. Prior: 2026-09-04 19:45 ET (DAEDALUS profile refresh — five 🔴 closed; STATUS rotated 4× today on the read-cap budget, all verbatim + crc-verified). Basis: 9/3 SETTLE unless a row says otherwise; 9/4 TICK rows are intraday.*
