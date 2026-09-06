@@ -42,7 +42,35 @@ import argparse, re, sys
 from pathlib import Path
 
 AGENT_DIR = Path(__file__).resolve().parent.parent
-SURFACES = ["STATUS.md", "NEXUS_BRIEF.md", "SCRATCH.md", "LAST_COMPLETION.md"]
+REPO = AGENT_DIR.parent.parent
+
+# ⚠️ RE-POINTED 2026-09-06 — the fourth surface was `LAST_COMPLETION.md` until
+# the PROME delivery contract re-keyed (spec 2026-08-13; home fixed to
+# PROME/inbox/ 2026-09-05) to a DATED memo. 🔑 Freezing the old file without
+# re-pointing here would have been WORSE than leaving both alone: a frozen file
+# keeps its last-session figures forever, so this BLOCKING check would have
+# reported a real-looking cross-surface disagreement at every future closeout —
+# a guard manufacturing the exact defect it was built to catch.
+SURFACE_SPECS = [
+    "STATUS.md", "NEXUS_BRIEF.md", "SCRATCH.md", "PROME/inbox/*_from-VIOLET_*.md",
+]
+
+
+def resolve(spec: str) -> Path | None:
+    """Spec -> concrete path; a glob resolves to the NEWEST match (ISO-dated names
+    sort lexically). None means no match — reported as MISSING, which is correct:
+    a closeout that delivered no memo to PROME has an unwritten surface, not an
+    agreeing one."""
+    if "*" in spec:
+        m = sorted(REPO.glob(spec))
+        return m[-1] if m else None
+    return AGENT_DIR / spec
+
+
+# Display label -> resolved path. Labels stay short so the report columns line up.
+SURFACES = [spec.split("/")[-1] if "*" not in spec else "PROME memo"
+            for spec in SURFACE_SPECS]
+RESOLVED = dict(zip(SURFACES, (resolve(s) for s in SURFACE_SPECS)))
 
 # name -> (value regex, REQUIRED CONTEXT within ±CTX chars, human hint)
 # ⚠️ The context requirement is not decoration. v1 matched a bare `N/50|55|60`
@@ -99,8 +127,8 @@ def main(argv=None) -> int:
 
     texts = {}
     for s in SURFACES:
-        p = AGENT_DIR / s
-        if not p.exists():
+        p = RESOLVED.get(s)
+        if p is None or not p.exists():
             print(f"  🔴 {s} IS MISSING — cannot certify cross-surface agreement.")
             return 1
         texts[s] = p.read_text(encoding="utf-8")

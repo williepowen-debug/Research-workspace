@@ -80,6 +80,13 @@ BLOCKING = [
     ("CALENDAR/CATALYSTS twin consistency", "twin_check.py", ["--quiet"]),
     ("Convergence matrix arithmetic", "convergence_score.py", []),
     ("Cross-surface figure agreement", "surface_agreement.py", ["--quiet"]),
+    # 8th contract, added 2026-09-06. The OMISSION half of ledger integrity —
+    # `skew_integrity.py` compares VALUES and is blind to a missing row; this
+    # compares the SET OF SESSIONS and is blind to a wrong value. BLOCKING at
+    # closeout for the usual asymmetry: at boot a gap is information you need to
+    # work; at closeout it is a ledger you shipped with holes in it, and every
+    # `^SKEW` sustain claim is counted from that ledger.
+    ("VX_DAILY session completeness", "vx_daily_gapcheck.py", ["--quiet"]),
 ]
 ADVISORY = [
     ("Thesis currency", "thesis_bump_check.py", []),

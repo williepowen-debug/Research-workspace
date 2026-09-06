@@ -60,12 +60,38 @@ from pathlib import Path
 AGENT_DIR = Path(__file__).resolve().parent.parent
 REPO = AGENT_DIR.parent.parent
 REF = "STATUS.md"
-# surface -> why it lagging matters (the CONSUMER, which is the whole point)
+# surface -> why it lagging matters (the CONSUMER, which is the whole point).
+# A value ending in a repo-relative GLOB tracks the NEWEST match instead of a
+# fixed filename — see `resolve()`.
 TRACKED = {
     "NEXUS_BRIEF.md": "NEXUS reads this IN PLACE OF raw STATUS (Amendment 10 ordering rule)",
     "SCRATCH.md": "my own next boot reads this as the canonical 'where are we'",
-    "LAST_COMPLETION.md": "PROME reads this to update its STATUS/SCRATCH/ACTIVE_DECISIONS",
+    # ⚠️ RE-POINTED 2026-09-06. This tracked `LAST_COMPLETION.md` until the
+    # PROME delivery contract re-keyed (spec 2026-08-13; home fixed to
+    # PROME/inbox/ 2026-09-05) from an overwrite-in-place file to a DATED memo.
+    # 🔑 Freezing the old file WITHOUT re-pointing here would not have removed a
+    # control — it would have inverted one: a frozen file can never catch up to
+    # STATUS, so this BLOCKING check would have gone red at every future closeout
+    # until someone silenced it. The consumer risk did not disappear when the
+    # file moved, it MOVED WITH IT — PROME still reads a surface that can lag.
+    # PROME's flag named CLAUDE.md L52/L164 only; a reviewer's citations are a
+    # sample, not the population [[finding_verify_recommended_fix_not_just_finding]].
+    "PROME/inbox/*_from-VIOLET_*.md": "PROME reads this to update its STATUS/SCRATCH/WILL_QUEUE",
 }
+
+
+def resolve(name: str) -> Path | None:
+    """Tracked-surface name -> concrete path. Globs resolve to the NEWEST match.
+
+    Dated memo filenames start with an ISO date, so lexical max IS newest. A glob
+    with no match returns None, which `effective_ts` reports as MISSING — the
+    right answer at closeout, because a session that wrote no memo delivered
+    nothing to PROME.
+    """
+    if "*" in name:
+        matches = sorted(REPO.glob(name))
+        return matches[-1] if matches else None
+    return AGENT_DIR / name
 
 
 def _git(*args: str) -> str:
@@ -74,14 +100,16 @@ def _git(*args: str) -> str:
 
 
 def _rel(name: str) -> str:
-    return str((AGENT_DIR / name).relative_to(REPO))
+    p = resolve(name)
+    return name if p is None else str(p.relative_to(REPO))
 
 
 def effective_ts(name: str) -> tuple[int, str]:
     """(unix ts, basis) — dirty files count as NOW; see module docstring."""
-    rel = _rel(name)
-    if not (AGENT_DIR / name).exists():
+    p = resolve(name)
+    if p is None or not p.exists():
         return 0, "MISSING"
+    rel = str(p.relative_to(REPO))
     if _git("status", "--porcelain", "--", rel):
         return int(time.time()), "dirty (being written now)"
     out = _git("log", "-1", "--format=%ct|%h|%ad", "--date=format:%m-%d %H:%M", "--", rel)
@@ -272,7 +300,13 @@ def main() -> int:
         lag_min = (ref_ts - ts) / 60.0
         if ts < ref_ts:
             lagging.append((name, lag_min, basis, consumer))
-            lines.append(f"  🔴 LAGS    {name:<20} {basis}  — {lag_min:,.0f} min behind {REF}")
+            # A MISSING surface has ts=0, so "minutes behind" would render as a
+            # ~29,800,000-minute figure measured from the epoch. That is not a
+            # small number, it is a NON-measurement wearing the shape of one
+            # [[finding_output_shape_implies_more_than_the_measurement]] — the
+            # surface was never written, so no interval exists to report.
+            tail = "never written" if basis == "MISSING" else f"{lag_min:,.0f} min behind {REF}"
+            lines.append(f"  🔴 LAGS    {name:<20} {basis}  — {tail}")
         else:
             lines.append(f"  ✓          {name:<20} {basis}")
 

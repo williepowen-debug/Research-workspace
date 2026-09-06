@@ -270,59 +270,150 @@ def backfill_m1m2(days: int, rows: dict[str, dict], pause_s: float = 0.5, allow:
     return touched
 
 
-CBOE_VIX9D_HISTORY = "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX9D_History.csv"
+CBOE_HISTORY_URL = "https://cdn.cboe.com/api/global/us_indices/daily_prices/{sym}_History.csv"
+
+# CBOE daily-prices CSVs — one per index, the PUBLISHER OF RECORD for all six
+# spot columns. Free, complete, no key. Column layouts differ: the OHLC indices
+# carry DATE,OPEN,HIGH,LOW,CLOSE; VVIX and SKEW carry DATE,<NAME>.
+CBOE_SERIES = {
+    "vix": "VIX", "vix9d": "VIX9D", "vix3m": "VIX3M",
+    "vix6m": "VIX6M", "vvix": "VVIX", "skew": "SKEW",
+}
+CBOE_TOL = 0.005  # cents-level; anything larger is a real disagreement
 
 
-def backfill_vix9d_cboe(rows: dict[str, dict]) -> int:
-    """VIX9D fill path — CBOE daily-prices CSV, NOT yfinance.
-
-    Why a separate path: yfinance `^VIX9D`.history() returns exactly ONE row
-    (today), just like `^COR1M` (KB-VIO-171). The 30d-history path used for VIX
-    et al. writes nothing here. CBOE's public daily_prices CSV carries VIX9D
-    back to 2011-01-04 and is fetched the same way as VIX_History.csv.
-
-    Fills only currently-blank vix9d cells (does not overwrite). Also computes
-    vix9d_vix_ratio where vix is available on the same row.
-    """
-    r = requests.get(CBOE_VIX9D_HISTORY, timeout=20,
+def fetch_cboe_history(sym: str) -> dict[str, float]:
+    """One CBOE daily-prices CSV -> {iso_date: close}. Empty dict on any failure."""
+    r = requests.get(CBOE_HISTORY_URL.format(sym=sym), timeout=30,
                      headers={"User-Agent": "Mozilla/5.0"})
     if r.status_code != 200:
-        print(f"  ⚠ CBOE VIX9D CSV: HTTP {r.status_code} — vix9d NOT backfilled")
-        return 0
-    reader = csv.DictReader(io.StringIO(r.text))
-    hist = {}
-    for row in reader:
+        print(f"    ⚠ CBOE {sym}: HTTP {r.status_code} — NOT used this run")
+        return {}
+    out: dict[str, float] = {}
+    for row in csv.DictReader(io.StringIO(r.text)):
         d = row.get("DATE") or row.get("Date")
         if not d:
             continue
+        # OHLC indices expose CLOSE; VVIX/SKEW expose a column named for the index.
+        raw = row.get("CLOSE") or row.get(sym)
         try:
             if "/" in d:
                 dd = datetime.strptime(d, "%m/%d/%Y").date().isoformat()
             else:
                 dd = datetime.strptime(d, "%Y-%m-%d").date().isoformat()
-            hist[dd] = round(float(row["CLOSE"]), 4)
-        except (ValueError, KeyError):
+            out[dd] = round(float(raw), 4)
+        except (ValueError, KeyError, TypeError):
             continue
-    touched = 0
+    return out
+
+
+def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None) -> dict[str, int]:
+    """AUTHORITATIVE spot pass — CBOE daily-prices CSVs for all six columns.
+
+    CBOE is the publisher of record for every index in this ledger, so this pass
+    both FILLS blanks and CORRECTS disagreements, and prints every correction it
+    makes. That is the difference from the VIX9D-only path this replaces, which
+    filled blanks ONLY — and that skip-if-present guard is precisely why nine bad
+    cells survived every prior backfill: a cell that already held a (wrong) value
+    was protected from the source that could fix it. Same shape as the m1m2 hazard
+    already flagged in this module's docstring.
+
+    Two defect mechanisms it repairs, both measured 2026-09-06 against the full
+    416-row ledger:
+
+      ① TICK CONTAMINATION (7 of 9 bad cells). An intraday tick written as the
+         daily row and never superseded by the settle. All seven sat on three of
+         the ledger's five TICK-basis rows (2026-07-31, 08-10, 08-27).
+      ② COLUMN TRANSPOSITION (1 cell, 2026-02-06). VIX3M's close (20.37) was
+         written into BOTH vix and vix3m, yielding vix3m_vix_ratio == 1.0000 —
+         a manufactured FLAT CURVE on a session whose true ratio was 1.147.
+         Inversion is VIOLET's 🔴 peak-marker broadcast to LIQUID/HENRY, so a
+         fill artifact had manufactured a cross-agent trigger reading. The other
+         28 rows at ratio <= 1.05 (incl. the whole March-2026 inversion cluster)
+         reconcile to CBOE EXACTLY — the class is real, this instance was not.
+      (The 9th: skew 2025-12-24, ledger 160.53 vs CBOE 161.30 — the yfinance
+       wrong-value mode RED base-rated at 2/253. See "clears vs bounds" below.)
+
+    🔑 WHY THIS CLEARS THE `^SKEW` BACK-SWEEP RED SCOPED AS "BOUND, NEVER CLEAR":
+    that scoping was correct for the method it described — a completeness/bar-count
+    check over yfinance, which cannot see a WRONG value and cannot see an omission
+    that has since healed. Reconciling against the PUBLISHER OF RECORD is a
+    different operation: it compares every cell to the authority rather than
+    checking the mirror against itself, so both of RED's defect modes fall out of
+    the same pass. The limit that remains is narrower and worth stating — this
+    clears the ledger AS OF THIS RUN against CBOE; it says nothing about a future
+    CBOE revision, and nothing about columns CBOE does not publish (m1m2*).
+
+    `basis` is stamped SETTLE for any completed past session CBOE confirms — the
+    daily-prices CSV *is* the settle, so a row sourced from it is a settle by
+    construction. This is what closes the standing "EOD settle never logged"
+    boot warning on TICK rows that were never superseded.
+    """
+    if today is None:
+        today = date.today().isoformat()
+    print("  Fetching CBOE daily-prices CSVs (publisher of record) for "
+          f"{list(CBOE_SERIES.values())}")
+    hist = {col: fetch_cboe_history(sym) for col, sym in CBOE_SERIES.items()}
+    if not hist.get("vix"):
+        print("  ✗ CBOE VIX history unavailable — CBOE pass SKIPPED (yfinance stands)")
+        return {"filled": 0, "corrected": 0, "agreed": 0, "settle_stamped": 0}
+
+    filled = corrected = agreed = settle_stamped = 0
+    corrections: list[str] = []
     for d_str, row in rows.items():
-        if d_str not in hist:
-            continue
-        v9 = hist[d_str]
-        changed = False
-        if not str(row.get("vix9d", "")).strip():
-            row["vix9d"] = v9
-            changed = True
-        vix = row.get("vix")
-        if vix and row["vix9d"]:
+        for col in CBOE_SERIES:
+            ref = hist[col].get(d_str)
+            if ref is None:
+                continue
+            raw = str(row.get(col, "") or "").strip()
+            if not raw:
+                row[col] = ref
+                filled += 1
+                continue
             try:
-                row["vix9d_vix_ratio"] = round(float(row["vix9d"]) / float(vix), 4)
-                changed = True
-            except (ValueError, ZeroDivisionError):
+                cur = float(raw)
+            except ValueError:
+                row[col] = ref
+                corrected += 1
+                corrections.append(f"     {d_str}  {col:6s} unparseable {raw!r} -> {ref}")
+                continue
+            if abs(cur - ref) <= CBOE_TOL:
+                agreed += 1
+            else:
+                row[col] = ref
+                corrected += 1
+                corrections.append(
+                    f"     {d_str}  {col:6s} {cur:>9.2f} -> {ref:>9.2f}  ({cur - ref:+.2f})")
+
+        # Derived columns follow their inputs, never the other way round.
+        vix = str(row.get("vix", "") or "").strip()
+        for num, out in (("vix3m", "vix3m_vix_ratio"), ("vix9d", "vix9d_vix_ratio")):
+            n = str(row.get(num, "") or "").strip()
+            if vix and n:
+                try:
+                    row[out] = round(float(n) / float(vix), 4)
+                except (ValueError, ZeroDivisionError):
+                    pass
+        if vix:
+            try:
+                row["regime"] = determine_regime(float(vix))
+            except ValueError:
                 pass
-        if changed:
-            touched += 1
-    print(f"  CBOE VIX9D CSV: {len(hist)} historical rows, touched {touched} existing VX_DAILY rows")
-    return touched
+
+        # A completed session CBOE has published is a SETTLE by construction.
+        if d_str < today and hist["vix"].get(d_str) is not None:
+            if str(row.get("basis", "") or "").strip() != "SETTLE":
+                row["basis"] = "SETTLE"
+                settle_stamped += 1
+
+    print(f"  CBOE: {agreed} cell(s) agreed, {filled} blank(s) filled, "
+          f"{corrected} CORRECTED, {settle_stamped} row(s) stamped SETTLE")
+    if corrections:
+        print(f"  🔴 {len(corrections)} VALUE CORRECTION(S) — ledger was wrong, CBOE wins:")
+        for line in corrections:
+            print(line)
+    return {"filled": filled, "corrected": len(corrections),
+            "agreed": agreed, "settle_stamped": settle_stamped}
 
 
 def main(argv=None):
@@ -342,9 +433,12 @@ def main(argv=None):
         print(f"\n[1/2] Backfilling spot history ({args.spot_days} days)...")
         touched = backfill_spot(args.spot_days, rows)
         print(f"  touched {touched} rows")
-        # VIX9D uses CBOE not yfinance (yfinance ^VIX9D has no daily history)
-        print(f"\n[1b] Backfilling VIX9D from CBOE daily-prices CSV...")
-        backfill_vix9d_cboe(rows)
+        # CBOE runs SECOND and WINS. yfinance is the fast recent-history path;
+        # CBOE is the publisher of record and is authoritative on every cell it
+        # publishes. Same precedence pattern this desk already ratified for MOVE
+        # (investing.com PRIMARY, yfinance cross-check only, KB-VIO-177).
+        print("\n[1b] Reconciling spot columns against CBOE (publisher of record)...")
+        backfill_spot_cboe(rows)
 
     if not args.spot_only:
         print(f"\n[2/2] Backfilling M1:M2 steepness ({args.m1m2_days} trading days)...")

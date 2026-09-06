@@ -73,6 +73,31 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-09-06 — CBOE made the authoritative source for all six spot columns; `VX_DAILY` gap check built and wired BLOCKING; PROME completion-spec re-key executed and two guards re-pointed with it
+
+**Trigger:** Will directed two items off the boot report — the `VX_DAILY.tsv` backfill (SCRATCH priority #1: 4 missing sessions inside the live FT-10 window) and the PROME consumer flag on `CLAUDE.md`'s superseded `LAST_COMPLETION.md` instruction.
+
+**What changed:**
+1. **`backfill.py` — CBOE promoted from a one-column workaround to the authoritative pass.** `backfill_vix9d_cboe()` (VIX9D only, **fill-blanks-only**) replaced by `backfill_spot_cboe()` covering all six spot columns. It runs **after** yfinance and **wins**: fills blanks *and* **corrects** disagreements, **printing every correction** rather than silently overwriting, and stamps `basis=SETTLE` for completed sessions CBOE has published. 🔑 **The old fill-blanks-only guard is exactly why nine bad cells survived every prior backfill — a cell holding a wrong value was *protected* from the source that could fix it.** Same shape as the m1m2 hazard already flagged in that module's own docstring. Precedence follows the ratified MOVE pattern (investing.com PRIMARY, yfinance cross-check).
+2. **NEW `scripts/vx_daily_gapcheck.py`** — session completeness. Boot stage (**warns**) + `closeout_guard.py` **8th BLOCKING contract**. Deliberately the complement of `skew_integrity.py`: that compares **values** and is blind to a missing row; this compares the **set of sessions** and is blind to a wrong value. **Uses the orphan-VIX companion rule, not a synthesized calendar** (KB-VIO-243).
+3. **`canary_staleness.py` made cadence-aware.** The blanket `>4d` asserted-current-cell line now reads the row's **own declared cadence** (`weekly` → 10d = 7 + 3 grace; else 4d).
+4. **Completion-spec re-key.** `CLAUDE.md` write-back step 11a + FILES row re-pointed from "Overwrite `LAST_COMPLETION.md`" to the dated `PROME/inbox/{date}_from-VIOLET_{slug}.md` memo; `LAST_COMPLETION.md` **frozen with a banner**; `README.md` map row corrected. **On Will's direct word** — PROME raised it, but a `CLAUDE.md` edit needs the operator's own.
+5. **⚠️ `writeback_order_check.py` and `surface_agreement.py` re-pointed in the same change** — both **tracked the frozen file**. Both now resolve `PROME/inbox/*_from-VIOLET_*.md` by glob (newest wins; ISO names sort lexically) and report MISSING when no memo exists. Ordering check also stopped printing a MISSING surface as a ~29.8-million-minute "lag."
+6. **`CALENDAR.md`** DATA REFRESH row corrected — it claimed `ledger_staleness.py` surfaces gaps; **it measures vintage, not gaps**, and ran rc=0 over all four holes.
+
+**Files touched:** `scripts/backfill.py` · `scripts/vx_daily_gapcheck.py` (new) · `scripts/boot.py` · `scripts/closeout_guard.py` · `scripts/canary_staleness.py` · `scripts/writeback_order_check.py` · `scripts/surface_agreement.py` · `CLAUDE.md` · `README.md` · `CALENDAR.md` · `MEMORY.md` · `LAST_COMPLETION.md` (frozen) · `STATUS.md` · `SCRATCH.md` · `NEXUS_BRIEF.md` · `workbook/{VX_DAILY,KB}.tsv` · `board_log.tsv` · 3 inbox files → `processed/`
+
+**Boot-impact:** one new boot stage (**15 total**) and one new blocking closeout contract (**8 total**). `backfill.py --spot-only` now performs a full CBOE reconcile — slower by ~6 CSV fetches, and it is the only path that repairs a wrong value. `MEMORY.md` gains a CBOE-endpoint entry; the phantom-print caveat is re-attributed.
+
+**Lessons:**
+- **A workaround written for ONE column is evidence about the SOURCE.** The VIX9D CBOE path existed *because yfinance serves no VIX9D daily history* — and `^VIX3M`/`^VIX6M` were equally unserved, which is why **226 of 416 cells were blank** in VIOLET's own core owned metric. Nobody asked what else the better source covered.
+- **An impossibility claim inherits the scope of the method that produced it.** *"Can BOUND, never CLEAR"* was true of a bar-count check over the mirror, false of a reconcile against the authority. One bad `^SKEW` cell in 20 months — the one RED named.
+- **Retiring a surface is an INTERFACE change.** Freezing a file that two BLOCKING guards track would not have removed a control but **inverted** one: always-red ⇒ silenced ⇒ real coverage gone. **Grep for what READS a file before freezing it, and treat scripts as first-class consumers.**
+- **When you retire a bad threshold, grep for its siblings.** The retired COT `>9d` defect was still alive in `canary_staleness.py`'s `>4d` line, on the same instrument.
+- **Falsify, and notice when the TEST is what broke.** My phantom-row test first returned rc=2 because my harness sorted the header out of line 1. The tool failed closed — correct — but the branch stayed untested until I redid it properly.
+
+---
+
 ## 2026-09-04 — A crash exposed that Amendment 10 was a sentence, not a check; `writeback_order_check.py` built and wired BLOCKING; the 7/1 tail-hedge framework stood down; MAINTENANCE archived to clear its cap
 
 **Trigger:** Will-spawned boot after a session crash — *"We had a crash so we may have some incomplete files ideas from the previous session. Please check."* Three VIOLET sessions ran on 9/4; the second died mid-write-back.

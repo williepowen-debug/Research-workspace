@@ -11,7 +11,7 @@
 |------|---------|
 | `STATUS.md` | Live VIX dashboard + convergence matrix (single source for live values) · **~250-line cap, boot-enforced** |
 | `SCRATCH.md` | Session handoff **for VIOLET's own next boot** — CHANGES SINCE / WHAT I DID / NEXT SESSION |
-| `LAST_COMPLETION.md` | **PROME-facing** completion contract (`PROME/COMPLETION_SPEC.md`, ≤10 lines). ⚠️ **Not retired and not a SCRATCH duplicate — different consumer** *(CLAUDE.md had called it retired since 6/01; corrected 7/30)* |
+| ~~`LAST_COMPLETION.md`~~ | ⛔ **FROZEN 2026-09-06 — historical record, not maintained.** The **PROME-facing** completion contract is now a **dated memo** at `PROME/inbox/{date}_from-VIOLET_{slug}.md` ending in the `## COMPLETION` block (`PROME/COMPLETION_SPEC.md`, ≤10 lines), plus the same block in the session response. Still **not a SCRATCH duplicate — different consumer** *(spec re-keyed 8/13, home fixed to `PROME/inbox/` 9/5; frozen here on Will's word 9/6)* |
 | `NEXUS_BRIEF.md` | Cross-agent synthesis brief — NEXUS reads this in place of raw STATUS |
 | `MEMORY.md` | Curated insights, regime principles, metric semantics, session-note trajectory |
 | `MAINTENANCE.md` | Structural-change log (docs/scripts/protocol — why VIOLET is organized this way) · **~300-line cap, boot-enforced** |

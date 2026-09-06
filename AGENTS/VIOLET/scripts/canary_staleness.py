@@ -307,10 +307,30 @@ def check_map_agreement() -> list[str]:
             continue
         d = min(cands, key=lambda x: abs((today - x).days))
         age = (today - d).days
-        if age > 4:  # same 2x-EOD-cadence contract as the ledger half
+
+        # ⚠️ CADENCE-AWARE SINCE 2026-09-06. This was a blanket `age > 4` on every
+        # asserted-current cell — which is the SAME DEFECT this file already
+        # retired once on the ledger half, in a different check. The old COT
+        # `>9 days` line "false-DARKed a perfectly current ledger every Friday
+        # morning"; a blanket 4-day line on a WEEKLY instrument false-flags it
+        # for roughly three days in every seven, forever. It fired on 2026-09-06
+        # against `Current [9/1 report]` when 9/1 was the NEWEST REPORT THAT
+        # EXISTS — next release Fri 9/11. The measurement was right and the
+        # threshold was wrong, exactly as in the retired case.
+        # 🔑 The allowance is read from the row's OWN declared cadence, so no
+        # calendar and no release schedule is synthesized anywhere (KB-VIO-243,
+        # a rule this desk paid for three times).
+        ls = text.rfind("\n", 0, mo.start()) + 1
+        le = text.find("\n", mo.start())
+        row = text[ls: le if le != -1 else len(text)]
+        if re.search(r"\bweekly\b", row, re.I):
+            limit, label = 10, ">10d (weekly cadence + grace)"
+        else:
+            limit, label = 4, ">4d (2x daily EOD cadence)"
+        if age > limit:
             snippet = text[mo.start(): mo.start() + 60].replace("\n", " ")
             out.append(f"CANARY_MAP asserts a CURRENT reading dated {mon}/{day} "
-                       f"({age}d old, contract >4d): …{snippet}…")
+                       f"({age}d old, contract {label}): …{snippet}…")
     return out
 
 

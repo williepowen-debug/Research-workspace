@@ -53,6 +53,13 @@ BOOT_SEQUENCE = [
     # CANARY_MAP staleness contract that went unenforced from v1.0 to 2026-07-28
     # and was breaching on five rows when finally audited by hand (built 7/30).
     ("CANARY_MAP staleness contract (built 7/30)", "canary_staleness.py", ["--quiet"], False),
+    # VX_DAILY session completeness (built 9/6). `ledger_staleness.py` measures
+    # VINTAGE, NOT GAPS — a ledger whose newest row is today passes it with any
+    # number of holes behind that row. On 2026-09-06 four sessions were missing
+    # (8/28 · 8/31 · 9/1 · 9/3), inside the live RED-FT-10 window, past every
+    # green boot check. FT-10 counts CONSECUTIVE bars, so a hole in this ledger
+    # is indistinguishable from a bar that reset the chain.
+    ("VX_DAILY session completeness (built 9/6)", "vx_daily_gapcheck.py", ["--quiet"], False),
     # KB schema conformance. SCHEMA.tsv declared the KB's enums on 2026-04-12 and
     # nothing ever checked them — write-back step 8 said "validate enums against
     # SCHEMA.tsv", a ritual with no mechanism (KB-VIO-165). First run found 11
