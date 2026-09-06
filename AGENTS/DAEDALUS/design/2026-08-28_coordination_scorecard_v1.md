@@ -26,7 +26,7 @@
 | 5 | `operator_burden` | rulings count (WQ rows ruled in window) · Will-minutes NOT SEEN (no instrument) — printed as `rulings=N · minutes=NOT-SEEN` | WQ |
 | 6 | `coordination_burden` | `author_days` (distinct (author,date) in git) · `touches` (ORCH_LOG rows) · `commits` — three counts, no composite | git log + ORCH_LOG |
 | 7 | `decision_yield` | loops_completed ÷ rulings (both printed) | derived |
-| 8 | `correction_efficiency` | catches_pre ÷ (catches_pre + corrections_post) (both printed) | derived |
+| 8 | `correction_efficiency` | ~~catches_pre ÷ (catches_pre + corrections_post)~~ **WITHDRAWN 2026-09-05 (Codex, verified) — catches_pre and corrections_post are different populations (ORCH_LOG brief-defects vs CORRECTIONS+WQ) with no shared event identity; the ratio is a category error. Cols 3 and 4 stand as raw counts; render prints WITHDRAWN.** | ~~derived~~ n/a |
 | 9 | `zero_capital_touches` | ORCH_LOG `zero_capital`=Y count ÷ touches | ORCH_LOG |
 
 ## Build

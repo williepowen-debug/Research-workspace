@@ -375,7 +375,7 @@ def render(week_ending, orch_path=orch_log.LEDGER):
     P(f"| 5 | `operator_burden` | rulings=**{len(ruled)}** · minutes=**NOT-SEEN** | {len({n for n,*_ in ruled})} WQ rows carry {len(ruled)} RULED stamps · {len(done)} DONE stamps · {len(props)} `proposals/*RULED.md` records |")
     P(f"| 6 | `coordination_burden` | author_days=**{len(author_days)}** · touches=**{len(touches) if touches else 'NO-TOUCHES-LOGGED'}** · commits=**{len(commits)}** | desk_days (subject-prefix × date, supplementary)={len(desk_days)} |")
     P(f"| 7 | `decision_yield` | {ratio(len(loops), len(ruled))} | loops ÷ rulings; {len(linked)} rulings explicitly LINKED to an in-window loop by DOCKET line citation |")
-    P(f"| 8 | `correction_efficiency` | {ratio(pre, pre + post)} | pre ÷ (pre + post) |")
+    P(f"| 8 | `correction_efficiency` | **WITHDRAWN — not a ratio** | pre={pre} (col 3, ORCH_LOG brief-defects) and post={post} (col 4, CORRECTIONS+WQ) are DIFFERENT populations, no shared event identity — see §8 |")
     P(f"| 9 | `zero_capital_touches` | {ratio(len(zc_aff), len(touches))} | cell's first token ∈ {{OK, YES, ZERO, N/A}} ÷ touches |")
     P(f"| 10 | `state_maintenance_share` | {ratio(prome_only, len(commits))} | commits whose EVERY path is under `PROME/` ÷ all commits (the commission's ninth measure, absent from the v1 column table) |")
 
@@ -473,8 +473,16 @@ def render(week_ending, orch_path=orch_log.LEDGER):
     if not linked:
         P("- (none)")
     P(f"\nUnlinked rulings: {len(ruled) - len(linked)} of {len(ruled)} — their loops, if any, closed in packets or in-session and are NOT-SEEN by this join.")
-    P("\n## 8. `correction_efficiency` — " + ratio(pre, pre + post))
-    P("\npre ÷ (pre + post). Both terms from columns 3 and 4; the denominator is NOT 'all material defects' — it is the two registers this instrument reads.")
+    P("\n## 8. `correction_efficiency` — WITHDRAWN as a ratio (Codex 2026-09-05, verified at the artifact)")
+    P(f"\nThe v1 ratio `pre ÷ (pre + post)` was a category error and is withdrawn. `pre` ({pre}) counts ORCH_LOG "
+      f"touches carrying a brief defect (col 3); `post` ({post}) counts CORRECTIONS.tsv rows + WQ amendment stamps "
+      f"(col 4) — DIFFERENT UNITS, DIFFERENT COVERAGE, NO SHARED EVENT IDENTITY, and no demonstrated decision-ordering. "
+      f"A brief-defect catch is not the same event as a register correction, and 'pre-decision' is not even established "
+      f"(e.g. the 8/31 MIDAS touch was a briefing correction AFTER the figure reached HEARTBEAT — not prevention before a "
+      f"decision, nor evidence of no earlier propagation). The 1.00 on the 2026-09-04 render is an ARTIFACT of post=0, not "
+      f"a measure of anything; four renders cannot repair a population mismatch. The raw counts stand on their own in "
+      f"columns 3 and 4 with their coverage limits — there is no valid ratio between them. "
+      f"[[finding_cross_entity_comparison_needs_same_perimeter]] · [[finding_normalization_choice_picks_opposite_winners]]")
     P("\n## 9. `zero_capital_touches` — " + ratio(len(zc_aff), len(touches)))
     zc = Counter((r["zero_capital"] or "").strip().upper()[:38] or "(blank)" for r in touches)
     P("\nquery: `zero_capital` cell's first token ∈ {OK, YES, ZERO, N/A} — the cell is free text (values in window: " + " · ".join(f"`{k}` {v}" for k, v in zc.most_common(6)) + ").")
