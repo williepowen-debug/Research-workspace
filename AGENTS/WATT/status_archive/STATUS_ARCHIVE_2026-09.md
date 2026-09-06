@@ -297,3 +297,108 @@ My header carried **"budget 64,000 B — set from measurement (392 B/line), flee
 **THE TWO DOORS (WATT owns the docket).** **DOOR A — cost lands on RATEPAYERS** ⇒ consumer power prices rise across PJM (~65M people, 13 states + DC) = a CPI / consumer-squeeze channel → **CARL, HENRY**. **DOOR B — cost lands on the DATA CENTERS** ⇒ hyperscaler opex rises and AI-capex ROI degrades → **VULCAN S1, HENRY HEN-36**. Same dollar, one door or the other. The backstop caps average cost at **$555/MW-day ≈ $202,575/MW-year** ⇒ **cite $27.21/MWh @85% LF** (ladder + basis: KB-WATT-077, adopted verbatim by VULCAN 8/21). **Basis travels with the number: arithmetic at ASSUMED load factors, not observed utilisation.** 🔑 **Insensitive across the whole band** — even at 60% LF the queue-skip price is **5×–33× below** the $201–1,283/MWh cost of a year of delay (FL-WATT-07). ⚠️ **KEEP THE TWO DOCKETS APART** — capacity backstop ≠ transmission cost allocation.
 
 
+
+---
+
+# ROTATION PASS — 2026-09-06 (eighth session)
+
+**Why:** `STATUS.md` measured **30,858 B = 94% of the 32,550 B read cap** at the 2026-09-06 boot; `boot.py` leg 3 called the rotation. Blocks below were **superseded by a later read** — chiefly the close of the 9/1–9/3 PJM emergency episode — not deleted.
+
+**CRC manifest (this pass)** — source `STATUS.md` @ 30,858 B crc32 3066285840
+
+| block | source lines | bytes | crc32 | why rotated |
+|---|---|---:|---|---|
+| `LEAD_2026-09-03` | 8–8 | 1,048 | 815005748 | session lead blockquote — superseded by the 2026-09-06 lead (episode closed). |
+| `P1_EPISODE_LIVE_READ_2026-09-02` | 29–34 | 3,783 | 391420467 | the live-episode P1 read (postings/order/price/mechanism/9-3 re-read) — the episode CLOSED 9/3; superseded by the 2026-09-06 episode-closed read. |
+| `P1_8-16_PUZZLE_CLOSED_2026-09-02` | 36–36 | 1,021 | 2165859202 | the 8/16 puzzle close-out narrative — resolved; permanent record is KB-WATT-090 + PREDICTIONS.tsv. |
+| `WATT-02_GRADE_AND_READCAP_2026-09-03` | 66–72 | 3,197 | 1560113384 | WATT-02 grade + read-cap retirement session notes — WATT-02 is RESOLVED (graded row in PREDICTIONS.tsv) and the read-cap remedy is EXECUTED; long-form reasoning already archived 9/2. |
+| `OPEN5_WINTER_GATE_2026-09-02` | 78–78 | 883 | 494082341 | winter P1 gate long-form — gate HELD, does not fire until mid-Jan-2027; basis is KB-WATT-076. Pointer retained on STATUS. |
+| `OPEN7_ERCOT_DISCRIMINATOR_2026-09-02` | 80–80 | 814 | 1192047109 | ERCOT Cal-27 discriminator long-form — still INFERRED, unchanged since 9/3. Pointer retained on STATUS. |
+| `BOTTOM_LINE_2026-09-03` | 101–101 | 1,181 | 2557202554 | session BOTTOM LINE — superseded by the 2026-09-06 version. |
+| **TOTAL** | | **11,927** | | |
+
+**Rotation month assert:** every block above rotated **2026-09** == this file's month **2026-09** ✅ (checked per block, at each splice).
+
+---
+
+## LEAD_2026-09-03
+
+*Rotated 2026-09-06 (eighth session) · source `STATUS.md` lines 8–8 · 1,048 B · crc32 815005748 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice).*
+
+> **Seventh session, 2026-09-02 → 09-03.** **P1 went from 2 to 5 in one episode, and for the first time this year it did so with the mechanism CONFIRMED rather than refuted.** PJM ran a **capacity emergency on two consecutive days** (NERC **EEA-1** alerts 9/1 18:03 and 9/2 16:00), **dispatched a Pre-Emergency Load Management Reduction Action** in five zones on 9/1, served a **season-high 152,518 MW**, and **DOE issued §202(c) Order 202-26-41** covering 9/1–9/8. The 5-min tape printed **$1,868.78/MWh @19:30 on 9/2 with EIGHT CONSECUTIVE intervals ≥$1,000.** **My re-specified RED band's every limb is met.** Separately, the 8/16 puzzle **closed exactly as pre-registered** — the verified hourly landed at **$502.38 @19:00 vs my $502.28 forecast, a $0.10 error**, ORANGE not RED, zero hours ≥$1,000 — so **8/16 contributed nothing to this upgrade and remains a transient.** **WATT-02 resolves HIT** on its `§202(c)` limb, and the grading found a defect in my own carry-forward notes (§ WATT-02 below). **Composite 13 → 16/20.**
+
+---
+
+## P1_EPISODE_LIVE_READ_2026-09-02
+
+*Rotated 2026-09-06 (eighth session) · source `STATUS.md` lines 29–34 · 3,783 B · crc32 391420467 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice).*
+
+- **P1 — Stress → price** 🔴🔴 **LIVE EMERGENCY EPISODE, 9/1–9/3+, and it is not over as I write** [boot 2026-09-02 02:47Z + 3 deliberate DM2 range pulls + 2 primary web pulls].
+  **① THE POSTINGS** (full board + IDs → KB-WATT-091). One 48-hour window: 3 DOM local warnings (9/1 15:49–16:18) → **#105472 Pre-Emergency Load Management Reduction ACTION** (9/1 17:15, **AEP BGE COMED DOM PEPCO**) → **#105473 Max Gen Emergency/Load Mgmt Alert–Capacity Emergency–NERC EEA 1** (PJM-RTO, 9/1 18:03) → **#105479 same class again** (9/2 16:00) → 3 more AEP/FE-AP local warnings (9/2 19:18–19:22, **inside the price spike**). 🔑 **The Action at 17:15 preceded the Alert at 18:03** — PJM dispatched load management *before* posting the capacity-emergency alert.
+  **② THE ORDER.** **DOE §202(c) Order No. 202-26-41**, issued **2026-09-01** to PJM, effective **9/1 → 11:59 PM ET 9/8**: *"directs PJM to dispatch specified units and to order their operation as needed to maintain reliability"* and *"authorizes PJM… to direct **backup generation resources** to operate as a last resort before declaring an Energy Emergency Alert (EEA) 3 or during an EEA 3."* [DOE CESER 2026 202(c) order index, VERIFIED; corroborated independently by PJM Inside Lines 9/2: *"PJM requested and received a combined emergency order… to be effective through Sept. 8… for temporary relief from environmental permit restrictions for generating units **and/or to direct backup generation resources at large loads to operate**"*].
+  **③ THE PRICE.** **9/2: max $1,868.78 @19:30 EPT**, **10 intervals ≥$1,000**, **8 of them CONSECUTIVE (19:00, 19:05, 19:10, 19:15, 19:20, 19:25, 19:30, 19:35)** plus an earlier consecutive pair (17:40 $1,093.27 / 17:45 $1,050.64); day mean **$122.64**, n=273 prints. **9/1: max $1,015.61 @19:15**, 2 intervals ≥$1,000 (**not consecutive** — 19:10 printed $949.84), **29 intervals ≥$500** spanning 16:40–20:10, day mean **$150.53**, n=288. [DM2 5-min UNVERIFIED — operational read, not settlement.]
+  **④ THE MECHANISM, AND IT IS THE OPPOSITE OF 8/16's.** **Congestion at the $1,868.78 print = $1.25; day max congestion $2.72** ⇒ **99.85%+ of the price is SYSTEM ENERGY**, RTO-wide scarcity. And unlike 8/16 it is **demand-COUPLED**: 9/1 served a **season-high 152,518 MW** [PJM primary; EIA-930 152,547 MW @9/1 18:00 EPT, reconciles to 29 MW]. ⚠️ **Note what that means and it is the uncomfortable read: July's EEA-1 fired at 159,046 MW; this one fired at 152,518 MW — ~6.5 GW LOWER.** PJM went to emergency on **less** load than in July. September carries heavier planned maintenance, so this is consistent with a thinner available-capacity denominator rather than a bigger numerator — **but I have NOT measured the September outage stack and am not asserting it. [INFERRED, flagged for test.]**
+  **⑤ RE-READ AT 2026-09-03 07:15 ET — THE EPISODE IS INTO ITS THIRD DAY AND HAS NOT ESCALATED.** New since the 9/2 close: **#105485 Max Gen Emergency/Load Management Alert–Capacity Emergency–NERC EEA 1 (PJM-RTO, 9/3 00:01)** — a **third consecutive EEA-1 day** — and **#105486 Synchronized Reserve Event (priority ACTION, PJM-RTO, 9/3 05:33)**. **NO EEA-2, no voltage reduction, no load shed** ⇒ **the KILL_MEMO cascade did NOT trip; P1 holds at 5, it does not go higher.** Overnight demand troughed at **103,879 MW @10Z** and the morning tape is quiet (**DM2 max $66.02 @07:10 EPT**, 87 prints) — as expected; the risk is the **evening** peak against PJM's **152,496 MW forecast for 9/3**, with a Max Gen Alert and a Load Management Alert already issued for the day and **§202(c) Order 202-26-41 in force to 9/8.** **The next session must re-read the board before citing any of this as past tense.**
+
+---
+
+## P1_8-16_PUZZLE_CLOSED_2026-09-02
+
+*Rotated 2026-09-06 (eighth session) · source `STATUS.md` lines 36–36 · 1,021 B · crc32 2165859202 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice).*
+
+- **P1 — the 8/16 puzzle is CLOSED on its own pre-registered terms** [KB-WATT-090; long form → archive]. The verified hourly finally published: **24/24 rows, max $502.38 @19:00 EPT, ZERO hours ≥$1,000, day mean $78.34** — against the estimate registered **8/17, before the data existed** ($502.28 @19:00, zero ≥$1,000, mean $78.41). Errors: **+$0.10 on the max (0.02%), −$0.07 on the mean**, both inside the ±$22.25 validation band ⇒ **estimator confirmed**, and substantively **8/16 was ORANGE, ~2× below the RED bar.** 🔑 **The registered trigger *"8/16 verified hourly ≥$1,000 → P1 2→3"* is NOT MET — 8/16 contributed ZERO to the P1 upgrade above.** The five eliminated explanations stand; 8/16 stays **UNEXPLAINED and closed**. ⚠️ **Do not retro-fit 8/16 to the September event**: 8/16 was the month's lowest-demand day with no posting; 9/2 was near season-peak with an EEA-1 and a §202(c) order. **Same price band, opposite mechanism — they may not borrow evidence from each other.**
+
+---
+
+## WATT-02_GRADE_AND_READCAP_2026-09-03
+
+*Rotated 2026-09-06 (eighth session) · source `STATUS.md` lines 66–72 · 3,197 B · crc32 1560113384 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice).*
+
+## ✅ WATT-02 — RESOLVED **HIT** · ⚠️ READ-CAP — the self-set 64,000 B budget RETIRED
+*(Both records in full: grade → `workbook/PREDICTIONS.tsv` WATT-02 · read-cap reasoning + receipts → `status_archive/STATUS_ARCHIVE_2026-09.md` and this session's commit message. STATUS keeps the verdicts and the lessons.)*
+
+**WATT-02 HIT on its `§202(c)` limb** — criteria verbatim: *">=1 EEA2+ posting **or 202(c) order** in PJM footprint by 9/7"*; **DOE Order 202-26-41**, issued 9/1 to PJM, effective to 9/8. **The postings limb did NOT fire — EEA-1 is not EEA2+.** ⚠️ **It was already a HIT on 2026-07-14** (Order **202-26-35**, PJM, 7/14–7/21) and I called it *"trending MISS"* for seven weeks, because **every carry-forward surface I wrote had dropped the `or 202(c) order` limb** — STATUS *"EEA2+ by Labor Day"*, SCRATCH *"its bar is a **POSTING**"*, and this session's own task brief inherited the compression and handed it back to me as fact. **The registered row was right throughout; four derived surfaces were not.** `[[finding_summary_section_merges_what_the_body_separates]]` — **grade at the registered row, never at the surface that quotes it.** 🔑 **The caveat that caused it is TRUE of the neighbour:** WATT-06's criteria really is posting-only. **A correct caveat migrated to the wrong prediction** (L-40). **Content of the HIT:** recurrence is now **n=3 episodes spanning July AND September** — WATT-06's *"heat-clustered, not a cadence"* read does **not** extend across the season.
+
+**READ-CAP.** The header's *"64,000 B, Will-ratified 2026-08-17"* is **RETIRED**: root `CLAUDE.md` binds every boot-read surface to **32,550 B**, *"binding above any owner-set number… owners choose rotation or hot/cost split, never the number."* **The 8/17 ratification does not survive, and the reason is SCOPE not seniority** — Will ratified the **byte-tier CONVENTION** (set the cap in bytes; a measured B/line beats a default), which is still correct and I keep it. It could not exempt this file from a *physical* limit found later: past **54,250 B** a harness `Read` returns a **partial file with no error**, so a 64,000 B budget authorises a boot that silently reads a fragment while every line-count guard passes. **A budget above the cap is not a looser policy; it is an unenforceable one.** `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` — **no Will ruling is overridden; a narrower one is superseded by a later, wider one, and I am not treating "Will-ratified" as a shield.** Remedies: `SCRATCH.md` **hot/cold split** (62,072 B → lines 54–367 verbatim to `archive/`, body crc32 **1809430476**, round-trip verified); `STATUS.md` **rotation** (41,493 B → 13 blocks verbatim to `status_archive/STATUS_ARCHIVE_2026-09.md`, per-block crc). **Audited BY OBLIGATION** (rule 17): all 12 owed actions/watches enumerated and re-homed **before** the bytes moved — table in `archive/SCRATCH_ARCHIVE_2026-07-08.md`. ⚠️ **The one that nearly went:** the standing **PJM rate limit** (non-member 6 calls/min, never loop) lived only in rotated session notes — an operational constraint, not history. Now in the live `SCRATCH.md` header.
+
+
+---
+
+## OPEN5_WINTER_GATE_2026-09-02
+
+*Rotated 2026-09-06 (eighth session) · source `STATUS.md` lines 78–78 · 883 B · crc32 494082341 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice).*
+
+5. **⚠️ Winter P1 registration is GATED and the gate HELD — full basis KB-WATT-076, do not re-derive.** In one line: **never register "no EEA because El Niño."** AEOLUS established winter **energy/mean DOWN**; winter **PEAK — NO SIGN** (n=2, split), and **2023-24 is decisive** (warmest US winter on record AND PJM still peaked 134,777 MW on 1/17/24, running Cold Weather Advisory → Alert → Conservative Operations → NERC TLR-1). Any winter call must be **peak-based, sign-agnostic, weighted mid-Jan–Feb, not December.** 🔑 **Reinforced this week:** September's episode fired at a **lower** load than July's — **the load level at which PJM goes to emergency is not a constant**, so a peak-based call must not be pinned to a fixed MW threshold. ⚠️ Vintage: ONI is revised as ERSSTv5 updates; **never mix +2.03 and +1.2 in one sentence** (different baselines).
+
+---
+
+## OPEN7_ERCOT_DISCRIMINATOR_2026-09-02
+
+*Rotated 2026-09-06 (eighth session) · source `STATUS.md` lines 80–80 · 814 B · crc32 1192047109 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice).*
+
+7. **🟡 Run the ERCOT discriminator** (WALTER SIG-W-20260828-049): ERCOT North Hub **Cal-27 ~$42/MWh**, all four strips below early July — a **counter-signal** to the data-centre demand story. **WALTER named the discriminator and it is mine: gas-cost story or demand story?** Partial answer leans **demand/supply, not gas** — front Henry Hub *rose* ~12% (2.694 → 3.017) over roughly the window in which Cal-27 fell ~18%, so implied heat rate compressed. ⚠️ **[INFERRED — basis mismatch stated]**: that pairs a **chart-read** Cal-27 level with a **spot** gas move. The clean test needs the ERCOT Cal-27 strip and the Henry Hub Cal-27 strip **on the same date**; I can pull neither free. ⚠️ **Levels are chart-read — never quote as settles or set a threshold on them** (WALTER's caveat, adopted).
+
+---
+
+## BOTTOM_LINE_2026-09-03
+
+*Rotated 2026-09-06 (eighth session) · source `STATUS.md` lines 101–101 · 1,181 B · crc32 2557202554 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice).*
+
+**The channel this desk was built for finally fired, and it fired clean:** PJM ran a capacity emergency on two consecutive days, dispatched load management in five zones, served a season-high **152,518 MW**, and operated under **DOE §202(c) Order 202-26-41**, while the tape printed **$1,868.78/MWh across eight consecutive five-minute intervals** with congestion of **$1.25** — 99.85% system-wide scarcity — so the RED band I hardened two weeks earlier met **every** limb. **P1 2→5, composite 13→16/20, status 🟠→🔴, no deploy-posture change.** What makes the upgrade trustworthy is what it did *not* lean on: the 8/16 mystery closed on its own pre-registered terms at **$502.38 vs a $502.28 forecast** — ORANGE, zero hours ≥$1,000 — so its upgrade trigger did **not** fire and contributed nothing. **The session's uncomfortable finding is in my filing cabinet, not the market:** WATT-02 resolves **HIT** and was already a HIT on **7/14**, because every summary surface I wrote had dropped the *"or 202(c) order"* limb the registered row always carried. **Next:** the episode is live through ~9/8 — re-read the board before citing any of this as past tense.
+
+---
+
+## P3_32_VS_55_GW_BASIS_2026-09-06
+
+*Rotated 2026-09-06 (eighth session, second pass) · 729 B · crc32 1006411970 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice). Stable methodological background for the 32/55 GW split; the LIVE seam state stays on STATUS.*
+
+**32 GW is the firm figure** (PJM's vetted system-**coincident** peak growth, 30 GW data centers); **55 GW is an aggregate of utility-REPORTED forecasts**; the ~23 GW gap is **non-coincidence + self-report duplication**, *not* a vetting haircut (PJM's 2026 trim cut summer-2028 peak 4.4 GW / 2.6%; large loads only **0.7%**) and *not* queue attrition (those stats are **GENERATION**-queue, wrong population). **Curtailability is a RECLASSIFICATION, not a haircut:** NCBL went voluntary, is **NOT in effect**, and 28/29 cleared at cap AND short without it ⇒ **capacity-obligation offset = 0 GW today.** **STANDING DOUBLE-COUNT GUARD:** never add IPP PPA-MW (VST 3,800+2,609, TLN 1,920) or a filer's site MW to capex-implied MW.
+
+
+---
+
+## FIRED_COUNT_CHANNEL_KILL_NARRATIVE_2026-09-06
+
+*Rotated 2026-09-06 (eighth session, third pass) · 1,258 B · crc32 2639500453 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice). The summer channel-kill / L-42 narrative; its live obligation is now discharged by the registered prediction WATT-11, so STATUS keeps the count and the pointer.*
+
+**Fired-count: 2 of 4** *(was 1 of 4 — P1 joins P2)*. **Thesis-kill vs channel-kill:** the summer **killed P1's live read** (4→3→2, WATT-03 MISS, WATT-06 MISS) and **September brought it back at 5** — which is the migration path in reverse and worth naming honestly: **a channel-kill is seasonal, and I said so at the time** (*"a mild summer kills P1's live read for the season, NOT the structural thesis"*). **The channel was not dead; it was out of season.** ⚠️ **The correct lesson is NOT "I was wrong to de-escalate"** — WATT-03 and WATT-06 were graded correctly on their windows, and de-escalating on evidence is what the rail is for. **The lesson is that a channel-kill has an expiry the rail never wrote down** (L-42). ✅ **DISCHARGED 9/6: `WATT-11` writes that expiry down** — zero EEA-class postings and zero new §202(c) orders in the PJM footprint, **9/15 → 11/30**. A quiet autumn confirms the channel is heat-coupled and seasonally dormant; **an autumn emergency with no heat event says the constraint is reserve margin, which is a P2 escalation and a materially bigger read than any single summer episode.** The thesis dies only if the 29/30 BRA clears well below cap **AND** data-center queues drain. Neither is in evidence.

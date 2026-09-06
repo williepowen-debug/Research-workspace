@@ -312,14 +312,58 @@ def read_pjm_onpeak_mean(api_key, days=6, end=None):
     with urllib.request.urlopen(req, timeout=45) as resp:
         payload = json.loads(resp.read().decode("utf-8"))
     items = payload.get("items") or []
-    vals = [float(r["total_lmp_rt"]) for r in items
-            if 8 <= int(r["datetime_beginning_ept"][11:13]) <= 23]
+    onpeak = [r for r in items if 8 <= int(r["datetime_beginning_ept"][11:13]) <= 23]
+    vals = [float(r["total_lmp_rt"]) for r in onpeak]
     if len(vals) < 100:  # ~12 prints/hr x 16 on-peak hrs x 6d ~= 1150; fail loud
         raise ValueError(
             f"DM2 on-peak window {first}..{last} returned only {len(vals)} on-peak "
             f"prints ({len(items)} rows total) — feed gap or query break, refusing "
             f"to compute a spark from a thin window")
-    return sum(vals) / len(vals), first, last, len(vals)
+
+    # COVERAGE assert (added 2026-09-06, L-44). A COUNT check cannot see a window
+    # SHORTER than the one it labels. The unverified 5-min feed retains only ~15
+    # days and returns the surviving slice with NO error: a 8/10-8/23 request on
+    # 9/6 returned 336 rows covering 8/22-8/23 only. That is >100 prints, so the
+    # count guard passes and the caller gets a 2-day mean LABELLED as 14-day.
+    # Same defect class as the unfiltered-pnode truncation: a short read is not
+    # an error here, so the guard has to be about COVERAGE, not volume.
+    got_days = {r["datetime_beginning_ept"][:10] for r in onpeak}
+    want_days = {(first + timedelta(days=i)).isoformat() for i in range(days)}
+    missing = want_days - got_days
+    if missing:
+        raise ValueError(
+            f"DM2 on-peak window {first}..{last} is SHORT: {len(got_days)}/{days} "
+            f"days present, missing {sorted(missing)} — the 5-min feed's ~15-day "
+            f"retention boundary (or a feed gap) fell inside the window. Refusing "
+            f"to label a {len(got_days)}-day mean as a {days}-day one.")
+    thin = sorted(d for d in got_days if sum(
+        1 for r in onpeak if r["datetime_beginning_ept"][:10] == d) < 150)  # 192 = full day
+    if thin:
+        raise ValueError(
+            f"DM2 on-peak window {first}..{last}: day(s) {thin} carry <150 of 192 "
+            f"on-peak prints — partial day at a retention/feed boundary, refusing.")
+
+    # DISPERSION / CONTAMINATION flag (added 2026-09-06, L-44 forward rule). A
+    # trailing window that swallows a scarcity episode manufactures a trend: the
+    # 8/4->9/6 spark series read +$29.84 -> +$48.12 -> +$53.65 -> +$77.02 and then
+    # +$28.98 once measured on a CLEAN window — the rise tracked emergency-days-
+    # in-window (0 -> ? -> 1 -> 4 -> 0), not the spread. The mean alone cannot
+    # show that; the DAILY DISPERSION can. Never silently returns a clean-looking
+    # number for a window one day is dominating.
+    by_day = {}
+    for r in onpeak:
+        by_day.setdefault(r["datetime_beginning_ept"][:10], []).append(
+            float(r["total_lmp_rt"]))
+    dm = sorted((sum(v) / len(v), d) for d, v in by_day.items())
+    med = dm[len(dm) // 2][0]
+    hi_mean, hi_day = dm[-1]
+    note = None
+    if med > 0 and hi_mean > 2.0 * med:
+        note = (f"⚠️ WINDOW CONTAMINATION: {hi_day} on-peak mean ${hi_mean:,.2f} is "
+                f"{hi_mean / med:.1f}x the window median ${med:,.2f} — this mean is a "
+                f"STRESS read, not a baseline. Cite the window composition beside it, "
+                f"and re-measure on a clean window before making any DIRECTION claim.")
+    return sum(vals) / len(vals), first, last, len(vals), note
 
 
 def lmp_band(wtd):
@@ -429,13 +473,15 @@ def main():
             api_key = os.environ.get("PJM_API_KEY")
             if api_key:
                 try:
-                    opk, d0, d1, n = read_pjm_onpeak_mean(api_key, days=6)
+                    opk, d0, d1, n, wnote = read_pjm_onpeak_mean(api_key, days=6)
                     spread = opk - HEAT_RATE_MMBTU_PER_MWH * hh[0]
                     spread_hi = opk - 8.0 * hh[0]
                     print(f"    SAME-VINTAGE (primary): PJM-RTO on-peak mean "
                           f"${opk:,.2f}/MWh (HE08-23 EPT, {d0}..{d1}, n={n:,}) - "
                           f"{HEAT_RATE_MMBTU_PER_MWH} x HH ${hh[0]:.3f} ({hh[1]}) "
                           f"= {'+' if spread >= 0 else ''}${spread:,.2f}/MWh")
+                    if wnote:
+                        print(f"      {wnote}")
                     print(f"      sensitivity @ HR 8.0 (older marginal unit): "
                           f"{'+' if spread_hi >= 0 else ''}${spread_hi:,.2f}/MWh "
                           f"(delta ${spread - spread_hi:,.2f} — low while gas is cheap)")
