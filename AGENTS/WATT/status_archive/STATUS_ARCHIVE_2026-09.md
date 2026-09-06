@@ -424,3 +424,37 @@ My header carried **"budget 64,000 B — set from measurement (392 B/line), flee
 **Consequence, scoped:** a same-vintage spark older than ~15 days is **not re-derivable from the 5-min feed** — but PJM retains longer-lived hourly data (8/12–8/17 came back complete on `rt_hrl_lmps`), so a *comparable* reconstruction exists. Whether the **July EEA-1** comparison can be rebuilt that way is **UNTESTED, not foreclosed.** → **§ CORRECTIONS #10**. **Forward rule: record the window COMPOSITION beside every spark figure at write time.**
 
 ---
+
+---
+
+## P1_EPISODE_CLOSE_DETAIL_2026-09-06
+
+*Rotated 2026-09-06 (eighth session, fifth pass) · 1,636 B · crc32 3999152782 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted per block). The episode closed 9/3; its blow-by-blow is history. STATUS keeps the verdict + the de-escalation clock.*
+
+  **① IT BROKE ON THE 9/3 EVENING PEAK.** PJM forecast **152,496 MW for 9/3** with a Max Gen Alert and a Load Management Alert already issued, and the tape answered: **max $437.15 @18:50, ZERO intervals ≥$500, zero ≥$1,000, day mean $55.20** (n=288). Then **9/4 max $149.05 / mean $44.55**, **9/5 max $157.68 / mean $43.81**, **9/6 max $26.29 @01:10** (latest $18.85 @10:25). Demand today **86,814 MW @9/6 13Z = 71.7%** of a **121,088 MW** 24h peak — against **152,518 MW on 9/1**, the episode's peak *(not a "season high" — July's EEA-1 ran at 159,046 MW; → § CORRECTIONS #6)*.
+  **② NO ESCALATION, AND THE NEGATIVE IS CARRIED PROPERLY.** No EEA-2, no EEA-3, no voltage reduction, no load shed ⇒ **KILL_MEMO cascade C1/C3 never tripped.** Board today: **15 postings, latest 9/4 13:50, all routine local Post Contingency Local Load Relief Warnings + a Hot Weather Alert — zero emergency-class.** ⚠️ **The board is a CURRENT view, not a history** (msg_ids 105484–86 and 105488–89 have already dropped off), **so the board cannot prove the negative** — the *tape* does: a load shed does not happen at a $437 peak. Stating which instrument carries the negative, because the one I looked at first could not.
+  **③ SEASON TOTAL: 3 episodes, all heat-clustered, all closed** — detail in the § Season emergency count line below; the 9/1–9/3 read verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` § `P1_EPISODE_LIVE_READ_2026-09-02`. **④ The 6.5 GW gap (July EEA-1 @159,046 MW vs September @152,518 MW) is still INFERRED, not measured, and the 5-min tape for July has now aged out** — see OPEN #4.
+
+---
+
+## WAKE_SET_FULL_2026-09-06
+
+*Rotated 2026-09-06 (eighth session, sixth pass) · 2,110 B · crc32 2140886012 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted per block). The full 12-row wake set; STATUS keeps the dated near-term rows, and `NEXUS_BRIEF.md` carries the cross-agent routing.*
+
+## WAKE SET — named triggers, dates, owners (for PROME BD-02)
+*Written because this desk has gone 16 days dark twice this summer, and both times a live channel moved while it was dark.*
+
+| # | trigger | date / cadence | who sees it first | why it needs WATT |
+|---|---|---|---|---|
+| 1 | **🔴 PJM EEA-2, EEA-3, voltage reduction, or load shed** | any time; **episode closed 9/3 — none occurred** | WALTER / any boot | KILL_MEMO cascade event — the only P1 state above the current one |
+| 2 | **🔴 §202(c) 202-26-41 EXPIRY / extension** | **11:59pm ET Tue 9/8** | WATT / WALTER | lapse is limb ① of P1's 5→3; an **extension** re-arms P1 |
+| 2b | **P1 de-escalation review** | **9/10** (7 clear days from #105485) | WATT | the dated half of the rule — must not be missed in either direction |
+| 3 | **FERC order on the IRAS petition** (`ER26-3515-000`) | **~10/12, outer bound 10/31** | WATT | resolves **WATT-10**; near-term resolver for WATT-08 |
+| 4 | **FERC ruling on the 3 EL26-67 abeyance motions** | overdue since ~8/07 — **~30 days** | WATT | sets **WATT-09**'s resolve date (8/17-era vs ~mid-Nov) |
+| 4b | **WATT-11 autumn-shoulder window** | **9/15 → 11/30** | WATT / WALTER | the heat-vs-reserve-margin discriminator; **absence is the data** |
+| 5 | **PJM's substantive EL26-67 response** | 8/17 if denied, ~11/15 if granted | WATT | resolves **WATT-09** |
+| 6 | **NERC ride-through enforcement provisions filed** | **by 2026-12-31** (FERC-ordered) | WATT | the un-sized AI-capex compliance cost line |
+| 7 | **PJM 29/30 BRA** | ~mid-2027 | WATT | the clean bidirectional thesis flip |
+| 8 | **Winter P1 window** | **mid-Jan–Feb 2027**, not December | AEOLUS → WATT | the gated registration; peak-based, sign-agnostic |
+| 9 | **GEV Q3'26 10-Q** — does slot GW keep outgrowing firm conversion? | **~Oct 2026** | DEWEY (T2) | WATT's turbine-leg read of the power-equipment order book |
+| 10 | **Mead actual crossing 1,035 ft** | AEOLUS watches; ~10/27 straight-line, bias-adj. later | AEOLUS | **NOT a WATT score** — out of footprint (WECC, not PJM); see the AEOLUS answer |
