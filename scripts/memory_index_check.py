@@ -42,9 +42,34 @@ USAGE
   python3 scripts/memory_index_check.py --strict --slug NAME [--slug NAME ...]
                                                      # EXIT 1 only for the named memories (agent closeout gate)
 
+v3 (2026-09-06, DAEDALUS, PROME Tier-1 packet): THE COLD INDEX IS A FILE SET.
+`memory/auto/INDEX_COLD.md` sits at 93.5% of its 51,200 B hard ceiling and the
+next legal move its own header pre-registers is SHARD BY THEME into sibling
+`memory/auto/INDEX_COLD_<theme>.md` files. This script hardcoded the single path,
+so a sharded slug would have read as UNINDEXED and `--strict --slug <it>` would
+have BLOCKED its owner's closeout on a condition carve-out (3) forbids them to
+fix — the same "gate fails on what the runner cannot fix" failure recorded below
+for bare --strict. The set is now resolved by scripts/memory_index_paths.py
+(base + INDEX_COLD_*.md, sorted; ONE definition, shared with
+memory_citation_census.py so the two guards cannot disagree — the
+harness_caps.env shape, PAT-069). Slugs de-dup across members; a slug in ANY
+member is INDEXED. Self-falsified by `--selftest`.
+
+USAGE (cont.)
+  python3 scripts/memory_index_check.py --selftest   # fixture drills; rc 0 pass / 1 fail
+  python3 scripts/memory_index_check.py --mem-dir D  # fixture override of memory/auto
+
 CONTRACT: advisory, read-only, <5s, no network. Never stages, writes or commits.
 Exit 0 ALWAYS **unless --strict is passed** — the default is unchanged and still
-matches scripts/orphan_check.sh.
+matches scripts/orphan_check.sh — **with ONE v3 exception: rc 2 CANNOT-CERTIFY
+when a cold-index member EXISTS BUT CANNOT BE READ** (permissions, a directory
+wearing a shard's name, a dead symlink). That is not a finding and not an
+internal error; it is the check's own perimeter failing, and it fails CLOSED
+regardless of --strict, naming the path. Silently skipping an unreadable shard
+would report "0 slugs there", which un-indexes every slug inside it and reads
+identically to a shard that is genuinely empty
+`[[finding_fail_loud_on_incomplete_data]]`. rc 2 is a FLAG TO PROME (the shared
+index is not the tripping agent's to repair), same routing as the size flag.
 
 WHY --strict EXISTS (added 2026-07-27 by BROCK, Will-directed). Detection was
 never the problem: on 2026-07-27 this script correctly found SIX distinct
@@ -98,8 +123,16 @@ REPO = subprocess.run(
     capture_output=True, text=True,
 ).stdout.strip() or "."
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from memory_index_paths import (  # noqa: E402  (path shim above is deliberate)
+    cold_index_files, read_cold_indexes, describe as describe_cold_set,
+)
+
 MEM_DIR = os.path.join(REPO, "memory", "auto")
 INDEX = os.path.join(MEM_DIR, "MEMORY.md")
+# Kept as a NAME for the single canonical base file (blame target, refs_check,
+# prose). The SET is resolved at call time by cold_index_files(MEM_DIR) — never
+# assume this one path is the whole cold index (v3).
 INDEX_COLD = os.path.join(MEM_DIR, "INDEX_COLD.md")
 
 # --- shared caps (2026-08-14) -----------------------------------------------
@@ -166,7 +199,12 @@ def sh(args, cwd=REPO):
 
 
 def tracked_files():
-    out = sh(["git", "ls-files", "memory/auto"])
+    # Relative to MEM_DIR, not a hardcoded "memory/auto", so --mem-dir (fixture)
+    # does not silently read the REAL repo's tracked set while claiming to
+    # describe the fixture. A fixture dir outside the repo simply returns {} —
+    # "nothing is committed here", which is true and says so.
+    rel = os.path.relpath(MEM_DIR, REPO)
+    out = sh(["git", "ls-files", rel])
     return {os.path.basename(p) for p in out.splitlines() if p.strip()}
 
 
@@ -182,25 +220,87 @@ def ignored(relpath):
         return False
 
 
-def slugs_in(path):
-    """Every slug referenced by one index file, in first-appearance order.
+def _collect_slugs(text, seen, ordered):
+    """Append first-appearance slugs from `text` into `ordered`, de-duped via `seen`.
 
-    Returns None if the file does not exist. For INDEX_COLD.md that is the
-    NORMAL state until PROME's ~8/1-8/2 migration, and the caller treats it as
-    empty rather than as an error (REQ 1.1).
+    Shared by the single-file (hot) and multi-file (cold set) readers so the two
+    tiers can never diverge on what counts as a slug or on de-dup semantics.
     """
-    if not os.path.exists(path):
-        return None
-    with open(path, encoding="utf-8", errors="replace") as f:
-        text = f.read()
-    seen, ordered = set(), []
     for m in SLUG_RE.finditer(text):
         s = m.group(1)
         if s in SKIP_SLUGS or s in seen:
             continue
         seen.add(s)
         ordered.append(s)
+
+
+def slugs_in(path):
+    """Every slug referenced by ONE index file, in first-appearance order.
+
+    Returns None if the file does not exist. For the cold base that is the
+    NORMAL state until PROME's ~8/1-8/2 migration, and the caller treats it as
+    empty rather than as an error (REQ 1.1). Still the reader for MEMORY.md;
+    the cold tier goes through cold_slugs() because it is a FILE SET (v3).
+    """
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8", errors="replace") as f:
+        text = f.read()
+    seen, ordered = set(), []
+    _collect_slugs(text, seen, ordered)
     return ordered
+
+
+def cold_slugs(mem_dir=None):
+    """The COLD tier read as ONE index across its whole FILE SET (v3).
+
+    Returns (slugs_or_None, files, unreadable):
+      slugs_or_None — first-appearance order, base first then shards sorted,
+                      de-duped ACROSS members; None when no cold file exists at
+                      all (the pre-migration state, not an error).
+      files         — the resolved member list, for reporting. A count printed
+                      without the file list is unauditable.
+      unreadable    — [(path, reason)]; NON-EMPTY MEANS THE CALLER MUST FAIL.
+                      Members that DID read are still returned, so the report can
+                      say what it managed to see — but the partial set may never
+                      be used to conclude a slug is unindexed.
+
+    The set definition lives in scripts/memory_index_paths.py, shared with
+    memory_citation_census.py.
+    """
+    mem_dir = mem_dir or MEM_DIR
+    files = cold_index_files(mem_dir)
+    if not files:
+        return None, [], []
+    texts, unreadable = read_cold_indexes(files)
+    seen, ordered = set(), []
+    for text in texts:
+        _collect_slugs(text, seen, ordered)
+    return ordered, files, unreadable
+
+
+def index_sets(mem_dir=None):
+    """The two tiers exactly as forward_check unions them (hot list, cold list,
+    cold file list, unreadable). Extracted so --selftest exercises the REAL
+    computation rather than a re-implementation of it — a drill against a copy
+    of the logic proves nothing about the logic that ships
+    `[[finding_crosscheck_with_free_parameter_validates_nothing]]`.
+    """
+    mem_dir = mem_dir or MEM_DIR
+    hot = slugs_in(os.path.join(mem_dir, "MEMORY.md"))
+    cold, cold_files, unreadable = cold_slugs(mem_dir)
+    return hot, cold, cold_files, unreadable
+
+
+def cold_perimeter_failure(mem_dir=None):
+    """Fail-closed gate (v3): cold-index members that EXIST but cannot be READ.
+
+    Returns [(path, reason)] — empty is the clean case. Checked BEFORE any
+    verdict is computed, because every downstream verdict (UNINDEXED above all)
+    is a claim about the WHOLE cold set, and a partial read cannot support it.
+    """
+    _, _, unreadable = cold_slugs(mem_dir)
+    return unreadable
 
 
 def hook_length_warning(scope):
@@ -285,37 +385,52 @@ def stale_embed_pendings():
     while nothing has happened. Age comes from `git blame` on the row itself, so
     it cannot be gamed by editing elsewhere in the file.
     """
-    if not os.path.exists(INDEX_COLD):
+    files = cold_index_files(MEM_DIR)
+    if not files:
         return  # normal until the ~8/1-8/2 migration; silent, not an error.
 
-    out = sh(["git", "blame", "--line-porcelain", "--", "memory/auto/INDEX_COLD.md"])
-    if not out:
-        # Untracked or unreadable — report the rows without ages rather than
-        # silently skipping them. A promise with an unknown age is still a promise.
-        with open(INDEX_COLD, encoding="utf-8", errors="replace") as f:
-            rows = [l for l in f if EMBED_PENDING_RE.search(l)]
-        if rows:
-            print(f"\n  [EMBED-PENDING — {len(rows)}]  (INDEX_COLD.md not yet committed; ages unknown)")
-            for r in rows:
-                print(f"      - {r.strip()[:110]}")
-        return
-
-    now, author_time, stale, total = time.time(), None, [], 0
-    for line in out.splitlines():
-        if line.startswith("author-time "):
+    # v3: blame EVERY member of the cold set. A shard is a normal tracked file,
+    # so its embed-pending promises age exactly like the base's — and a promise
+    # that stopped being audited the day it was moved into a shard is the
+    # sharding turning a live check off by accident.
+    now, stale, total, unblamed = time.time(), [], 0, []
+    for path in files:
+        rel = os.path.relpath(path, REPO)
+        out = sh(["git", "blame", "--line-porcelain", "--", rel])
+        if not out:
+            # Untracked or unreadable — report the rows without ages rather than
+            # silently skipping them. A promise with an unknown age is still a promise.
             try:
-                author_time = int(line.split()[1])
-            except (ValueError, IndexError):
+                with open(path, encoding="utf-8", errors="replace") as f:
+                    rows = [l for l in f if EMBED_PENDING_RE.search(l)]
+            except OSError as e:
+                print(f"\n  [EMBED-PENDING]  ⚠ {os.path.basename(path)} unreadable "
+                      f"({e.__class__.__name__}) — ages AND rows unknown for this member.")
+                continue
+            if rows:
+                unblamed.append((os.path.basename(path), rows))
+            continue
+        author_time = None
+        for line in out.splitlines():
+            if line.startswith("author-time "):
+                try:
+                    author_time = int(line.split()[1])
+                except (ValueError, IndexError):
+                    author_time = None
+            elif line.startswith("\t"):  # the content line for the current blame hunk
+                body = line[1:]
+                if EMBED_PENDING_RE.search(body):
+                    total += 1
+                    if author_time:
+                        age = (now - author_time) / 86400.0
+                        if age >= EMBED_STALE_DAYS:
+                            stale.append((age, body.strip()))
                 author_time = None
-        elif line.startswith("\t"):  # the content line for the current blame hunk
-            body = line[1:]
-            if EMBED_PENDING_RE.search(body):
-                total += 1
-                if author_time:
-                    age = (now - author_time) / 86400.0
-                    if age >= EMBED_STALE_DAYS:
-                        stale.append((age, body.strip()))
-            author_time = None
+
+    for basename, rows in unblamed:
+        print(f"\n  [EMBED-PENDING — {len(rows)}]  ({basename} not yet committed; ages unknown)")
+        for r in rows:
+            print(f"      - {r.strip()[:110]}")
 
     if not total:
         return
@@ -343,8 +458,7 @@ def forward_check(quiet=False, scope=None):
     carve-out ③ permits committing only memories that agent authored. It applies
     to every v2 check as well as the v1 ones (BROCK's addendum).
     """
-    hot = slugs_in(INDEX)
-    cold = slugs_in(INDEX_COLD)
+    hot, cold, cold_files, cold_unreadable = index_sets()
     cold_exists = cold is not None
     if hot is None and not cold_exists:
         print(f"memory_index_check: no index at {INDEX} — nothing to check.")
@@ -412,8 +526,14 @@ def forward_check(quiet=False, scope=None):
         print(f"  ⚠ scripts/harness_caps.env MISSING — using root-canon defaults "
               f"({HOT_CAP_BYTES}B / {HOOK_WARN_CHARS}-char hook). The bash guard will FAIL LOUD "
               f"on the same file; restore it.")
-    cold_note = f"{len(cold)} in INDEX_COLD.md" if cold_exists else "INDEX_COLD.md absent (normal pre-migration)"
+    cold_note = describe_cold_set(len(cold), cold_files)
     print(f"  {len(slugs)} slug(s) across both indexes · {len(hot)} in MEMORY.md · {cold_note}")
+    if cold_unreadable:
+        # Belt and braces: main() already gates on this and returns rc 2. If a
+        # future caller reaches forward_check directly, it must still not read a
+        # partial cold set as a complete one.
+        for path, reason in cold_unreadable:
+            print(f"  ⛔ COLD-INDEX MEMBER UNREADABLE: {path} — {reason}")
     print(f"  {ok} resolve to committed files · {len(committed_slugs)} committed memory file(s) on record")
 
     if gitignored:
@@ -500,10 +620,8 @@ def refs_check(slug):
         print(f"\n  ✓ no inbound references. '{slug}' is safe to rename or retire.")
         return
 
-    index_rels = {
-        os.path.join("memory", "auto", "MEMORY.md"),
-        os.path.join("memory", "auto", "INDEX_COLD.md"),
-    }
+    index_rels = {os.path.join("memory", "auto", "MEMORY.md")}
+    index_rels |= {os.path.relpath(p, REPO) for p in cold_index_files(MEM_DIR)}
     foreign = [p for p in hits if p not in index_rels]
 
     print(f"\n  ⚠ {sum(len(v) for v in hits.values())} reference(s) across {len(hits)} file(s).")
@@ -522,9 +640,135 @@ def refs_check(slug):
     print("\n  Before renaming or retiring: re-point every file above, or don't rename.")
 
 
+def selftest():
+    """FIXTURE DRILLS for the v3 shard-aware cold tier (CHECK_STANDARD §3).
+
+    Falsification set. Each drill is watched on a case that CAN fire and on the
+    matching clean case — `py_compile` and rc=0 are not evidence a guard works.
+
+    WHAT A PASS PROVES (PAT-074): that the cold tier resolves to base + shards,
+    that a slug in ANY member reads as INDEXED, that a slug in NO member reads
+    as UNINDEXED, that duplicates across members collapse, and that an
+    unreadable member fails CLOSED at rc 2 end-to-end with its path named.
+    It proves NOTHING about whether a shard split is sensible, whether any row
+    is current, or whether the byte ceilings are respected (that is
+    read_cap_check.py, per FILE — the set is never summed).
+    """
+    import shutil
+    import tempfile
+
+    SLUG = "finding_selftest_shard_probe"
+    OTHER = "finding_selftest_base_resident"
+    results = []
+
+    def check(name, ok, detail):
+        results.append((name, ok, detail))
+        print(f"  {'PASS' if ok else 'FAIL'}  {name}: {detail}")
+
+    tmp = tempfile.mkdtemp(prefix="memidx_selftest_")
+    try:
+        hot_p = os.path.join(tmp, "MEMORY.md")
+        base_p = os.path.join(tmp, "INDEX_COLD.md")
+        shard_p = os.path.join(tmp, "INDEX_COLD_test.md")
+
+        def write(path, *slugs):
+            with open(path, "w", encoding="utf-8") as f:
+                f.write("# fixture\n" + "".join(f"- {x} — hook\n" for x in slugs))
+
+        # DRILL 1 (clean/baseline) — base only, slug in the base ⇒ INDEXED.
+        write(hot_p, "finding_selftest_hot_row")
+        write(base_p, OTHER, SLUG)
+        hot, cold, files, unreadable = index_sets(tmp)
+        indexed = set(hot or []) | set(cold or [])
+        check("drill1_base_only_indexed",
+              SLUG in indexed and len(files) == 1 and not unreadable,
+              f"{SLUG} in indexed={SLUG in indexed}, files={len(files)}, unreadable={len(unreadable)}")
+
+        # DRILL 2 (the shard case) — SAME slug MOVED out of the base into a
+        # shard ⇒ still INDEXED. This is the whole point of v3: pre-change this
+        # read UNINDEXED and would have failed the owner's --strict --slug gate.
+        write(base_p, OTHER)
+        write(shard_p, SLUG)
+        hot, cold, files, unreadable = index_sets(tmp)
+        indexed = set(hot or []) | set(cold or [])
+        check("drill2_moved_to_shard_still_indexed",
+              SLUG in indexed and len(files) == 2 and not unreadable,
+              f"{SLUG} in indexed={SLUG in indexed}, files={[os.path.basename(f) for f in files]}")
+
+        # DRILL 3 (the negative control) — deleted from BOTH ⇒ NOT indexed.
+        # Without this, drill 2 would also pass on a reader that indexes
+        # everything unconditionally `[[finding_adoption_is_not_validation]]`.
+        write(shard_p, "finding_selftest_unrelated")
+        hot, cold, files, unreadable = index_sets(tmp)
+        indexed = set(hot or []) | set(cold or [])
+        check("drill3_absent_from_both_unindexed",
+              SLUG not in indexed and OTHER in indexed,
+              f"{SLUG} absent={SLUG not in indexed}, control {OTHER} still present={OTHER in indexed}")
+
+        # DRILL 4 — a slug in BOTH base and shard counts ONCE (de-dup across
+        # members), and ordering is base-first then shards sorted.
+        write(base_p, OTHER, SLUG)
+        write(shard_p, SLUG, "finding_selftest_shard_only")
+        _, cold, files, _ = index_sets(tmp)
+        check("drill4_dedup_across_members",
+              cold.count(SLUG) == 1 and cold.index(OTHER) < cold.index("finding_selftest_shard_only"),
+              f"count({SLUG})={cold.count(SLUG)}, order base-before-shard="
+              f"{cold.index(OTHER) < cold.index('finding_selftest_shard_only')}")
+
+        # DRILL 5 — an unreadable member is DETECTED, not skipped. A directory
+        # wearing a shard's name is used because it is uid-independent: chmod
+        # 000 is a no-op for root and would silently make this drill vacuous.
+        bad_p = os.path.join(tmp, "INDEX_COLD_broken.md")
+        os.mkdir(bad_p)
+        unreadable = cold_perimeter_failure(tmp)
+        check("drill5_unreadable_member_detected",
+              any(os.path.basename(pth) == "INDEX_COLD_broken.md" for pth, _ in unreadable),
+              f"unreadable={[os.path.basename(pth) for pth, _ in unreadable]}")
+
+        # DRILL 6 (END-TO-END rc) — the same fixture through the real CLI must
+        # exit 2 and NAME the path. A detector that finds the condition and
+        # returns 0 is documentation
+        # `[[finding_a_check_that_only_advises_is_overridden_the_control_is_downstream]]`.
+        r = subprocess.run([sys.executable, os.path.abspath(__file__), "--mem-dir", tmp],
+                           capture_output=True, text=True, timeout=60)
+        check("drill6_unreadable_exits_2_naming_path",
+              r.returncode == 2 and "INDEX_COLD_broken.md" in r.stdout,
+              f"rc={r.returncode}, path named={'INDEX_COLD_broken.md' in r.stdout}")
+
+        # DRILL 7 (the CLEAN end-to-end line, CHECK_STANDARD §3(b)) — remove the
+        # broken member and the SAME CLI must exit 0 with no perimeter line.
+        os.rmdir(bad_p)
+        r = subprocess.run([sys.executable, os.path.abspath(__file__), "--mem-dir", tmp],
+                           capture_output=True, text=True, timeout=60)
+        check("drill7_clean_case_exits_0",
+              r.returncode == 0 and "COLD-INDEX MEMBER UNREADABLE" not in r.stdout,
+              f"rc={r.returncode}, no perimeter line={'COLD-INDEX MEMBER UNREADABLE' not in r.stdout}")
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+    failed = [n for n, ok, _ in results if not ok]
+    print(f"\nSELFTEST {len(results) - len(failed)}/{len(results)} passed"
+          + (f" — FAILED: {', '.join(failed)}" if failed else ""))
+    return 1 if failed else 0
+
+
 def main():
     """Returns the process exit code."""
+    global MEM_DIR, INDEX, INDEX_COLD
     args = sys.argv[1:]
+    if "--selftest" in args:
+        return selftest()
+    if "--mem-dir" in args:
+        i = args.index("--mem-dir")
+        if i + 1 >= len(args):
+            print("usage: memory_index_check.py --mem-dir <dir>")
+            return 2
+        MEM_DIR = os.path.abspath(args[i + 1])
+        INDEX = os.path.join(MEM_DIR, "MEMORY.md")
+        INDEX_COLD = os.path.join(MEM_DIR, "INDEX_COLD.md")
+        print(f"[FIXTURE MODE] memory dir overridden → {MEM_DIR}")
+        print("  git-tracking legs read this repo's index for that path, so an")
+        print("  out-of-repo fixture correctly reports nothing as committed.")
     if "--refs" in args:
         i = args.index("--refs")
         if i + 1 >= len(args):
@@ -532,6 +776,25 @@ def main():
             return 0
         refs_check(args[i + 1].strip().removesuffix(".md"))
         return 0
+
+    # v3 fail-closed perimeter gate, BEFORE any verdict. Every downstream
+    # verdict is a claim about the WHOLE cold set; a partial read cannot carry
+    # one. Independent of --strict: this is not a finding, it is the check
+    # unable to run. rc 2 = CANNOT-CERTIFY (CHECK_STANDARD §9).
+    unreadable = cold_perimeter_failure()
+    if unreadable:
+        print("memory_index_check v3 — ⛔ CANNOT-CERTIFY: cold-index member(s) unreadable")
+        print("=" * 78)
+        for path, reason in unreadable:
+            print(f"  ⛔ COLD-INDEX MEMBER UNREADABLE: {path}")
+            print(f"     {reason}")
+        print("\n  The cold index is a FILE SET (INDEX_COLD.md + INDEX_COLD_*.md). A member")
+        print("  that cannot be read is NOT an empty member: skipping it would report every")
+        print("  slug inside it as UNINDEXED and could fail an owner's closeout on a shard")
+        print("  they never touched. No verdict is issued on a partial read.")
+        print("  → FLAG TO PROME (memory/auto/ is fleet-shared, not the tripping agent's to")
+        print("    repair). Fix the member, then re-run.")
+        return 2
 
     scope = [args[i + 1] for i, a in enumerate(args) if a == "--slug" and i + 1 < len(args)]
     broken = forward_check(quiet="--quiet" in args, scope=scope or None)
@@ -555,4 +818,9 @@ if __name__ == "__main__":
     # and only for sync-breaking conditions — never for an internal error, and
     # never for the HOT-INDEX SIZE flag (that one is PROME's to action, not the
     # tripping agent's — see hot_size_warning()).
+    # v3 adds rc 2 = CANNOT-CERTIFY, --strict or not, for an unreadable member of
+    # the cold FILE SET. It is deliberately NOT folded into the rc-1 findings
+    # class: rc 1 says "the index is broken", rc 2 says "I could not read the
+    # index" — collapsing them would let a perimeter failure be triaged as a
+    # content defect `[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`.
     sys.exit(code)
