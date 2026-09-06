@@ -38,7 +38,8 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | Cluster | Count | Latest signal | Theme |
 |---------|------:|---------------|-------|
 | [IRAN_HORMUZ](#iran_hormuz-155) | 155 | 2026-09-06 · SIG-W-20260906-001 | Iran war / Hormuz chokepoint / GEOPOL_ENERGY supply / sanctions / state-response |
-| [POSITIONING_VALUATION](#positioning_valuation-107) | 107 | 2026-09-06 · SIG-W-20260906-003 | [CONSUMER_STAGFLATION](#consumer_stagflation-133) | 133 | 2026-09-03 · SIG-W-20260903-008
+| [POSITIONING_VALUATION](#positioning_valuation-107) | 107 | 2026-09-06 · SIG-W-20260906-003
+| [CONSUMER_STAGFLATION](#consumer_stagflation-133) | 133 | 2026-09-03 · SIG-W-20260903-008
 | [BANK_COLLATERAL](#bank_collateral-125) | 125 | 2026-09-04 · SIG-W-20260904-004 Distressed CRE / residential housing / office vacancy / regulatory shocks affecting bank collateral / threshold-fire-events |
 | [MISC](#misc-31) | 31 | 2026-09-04 · SIG-W-20260904-008 Singletons / market-structure / adversarial-meta / counter-evidence-without-cluster-home |
 | [CLIMATE_MACRO](#climate_macro-17) | 17 | 2026-09-01 · SIG-W-20260901-011 | Macro climate→economy — ENSO state, energy demand, ag/food, insurance/reinsurance, property/physical, supply-chain (AEOLUS) |
@@ -47,7 +48,8 @@ Sorted by signal count descending. Cluster definitions in [`AGENTS/WALTER/design
 | [FED_FRAMEWORK](#fed_framework-63) | 63 | 2026-09-04 · SIG-W-20260904-007 | Fed operating-framework regime shift / UST-foreign-holder composition / funding plumbing (SOFR-IORB / repo / reserve scarcity / ON-RRP / funding-seizure gates) |
 | [ASIA_CHINA](#asia_china-53) | 53 | 2026-09-04 · SIG-W-20260904-003 China / HK / EM-Asia contagion — trade dynamics / export controls / property collapse / peg fragility / state-level demand destruction / RMB internationalization / Japan BOJ dynamics |
 | [INFLATION_TRANSMISSION](#inflation_transmission-13) | 13 | 2026-08-19 · SIG-W-20260819-014 | Forward goods-CPI / supply-chain cost-push transmission — freight indices, port congestion, pump-pass-through, tariff front-loading, supply-chain disruption with 3-6 month CPI lag |
-| [AI_INFRA_CAPEX](#ai_infra_capex-75) | 75 | 2026-09-06 · SIG-W-20260906-002 | **TOTAL** | **891** | | |
+| [AI_INFRA_CAPEX](#ai_infra_capex-75) | 75 | 2026-09-06 · SIG-W-20260906-002
+| **TOTAL** | **891** | | |
 
 ---
 

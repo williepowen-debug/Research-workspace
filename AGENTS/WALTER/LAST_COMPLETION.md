@@ -1,22 +1,22 @@
 # WALTER — LAST COMPLETION
 
-**Session:** 2026-09-05 **SATURDAY** (boot ~21:3x ET → closed ~23:3x ET). `walter-1f`. Will: *"please boot up"* → Codex review relayed (**three passes**) → *"dispatch FT-10 to RED and VIOLET"* → *"lets close out"*. **1 dispatch · 2 doorbell rows · 3 inbox packets consumed · 6 REGISTRY rows · 1 additive erratum · 0 kills · 0 verify-spawns.** BOARD **887 → 888**. Tier-2 FULL.
+**Session:** 2026-09-06 **SUNDAY** (boot ~09:5x ET → closed ~12:0x ET). `walter-a6`. Will: *"please boot up… report on what we have left hanging"* → *"go ahead with all four"* → three Codex review cycles → *"go ahead and scope the pilot"* → *"we are good to go"* → *"lets close out"*. **3 dispatches · 5 kills · 1 dup · 1 fold · 2 doorbell rows · 1 batch (9/9 CLOSED) · 6 REGISTRY rows · 0 verify-spawns.** BOARD **888 → 891**. Tier-2 FULL.
 
 ## STATUS
-🟢 **GREEN.** Doctor **0 HIGH, 1 MED** (the standing fleet unconsumed backlog). Corrections check rc=0. Claim-check clean. Orphan check clean. Regression suite **38/38, rc 0**. STATUS 24,160 B (against the canonical **32,550 B** budget — the `cap 48,000` this line carried was an owner-set seat figure that READ_CAP rule 2 overrides) · MEMORY 14,045 B · WALTER `CLAUDE.md` 54,222 B. ⚠️ **CORRECTED 9/6 (Codex review, Will-approved): this line said the charter had "28 B of headroom… the one number that is not comfortable." There is no cliff.** `READ_CAP.md:37` exempts `CLAUDE.md` — auto-loaded, not Read; it costs CONTEXT, not truncation, and the rule is *watch, don't rotate*. The 54,250 B figure is the harness SINGLE-READ limit and does not govern an auto-loaded charter. All trains pushed with receipts.
+🟢 **GREEN.** Doctor **0 HIGH, 1 MED** (the standing fleet unconsumed backlog, 27 across 10 agents). Regression suite **67/67** (self-counted — no hand-maintained figure). `gen_board_index --check` **PASS at 891**, hand-only 0. Corrections check rc=0. Claim-check clean. STATUS 22,917 B against the canonical **32,550 B** budget · MEMORY 13,316 B · charter 54,306 B (**a context cost with no ruled threshold — see the withdrawal below**). All trains pushed with receipts.
 
 ## CHANGED
-- **`SIG-W-20260905-001`** PRIORITY → **RED, VIOLET** action / **HENRY, PROME** info. RED-FT-10 (SKEW ≥150 non-strict, s=4) **SATISFIED and COUNTING 2-of-4** at CBOE: **150.63 [9/3] + 151.58 [9/4]**, reset base 144.12 [9/2]. **NOT FIRED.**
-- **`SIG-W-20260903-001`** → `status: SUPERSEDED-IN-PART` + `status_ref` + `status_date` + body banner + **INDEX back-marker**.
-- **NINE false-assurance defects fixed** in `walter_doctor.py` + `reconcile_delivery_log.py` across three Codex passes; **suite rewritten v1 → v3 behavioural** (`test_false_assurance_regressions.py`, 38 assertions, §MUTATION, self-contained fixture).
-- **Boot 9b** repointed to `PROME/state/ORCH_INFLIGHT.md` (PROME DOCKET L262). **REGISTRY** 6 rows. **2 `DOORBELL_LOG` rows.**
+- **`SIG-W-20260906-001`** PRIORITY → **FALCON** action (Sirik wedding strike: US investigation confirmed by Vance, weapons experts read a likely **direct US munition**; casualties move from Iranian-media claim to 4+1 dead / ~70 wounded, still Iranian-official figures. **No gate fires; NOT a third wave.**)
+- **`SIG-W-20260906-002`** ROUTINE → **VULCAN** action (HBM3E spot ~$2,100 vs LTA ~$300–400; Samsung ~70% locked through 2031; the stated 4–5× vs computed 5.25–7× discrepancy **carried, not smoothed**).
+- **`SIG-W-20260906-003`** PRIORITY → **RED** action (**the FT-06 "two instruments" are one source**). Resolved same day: **the fire STANDS** on FRED `VIXCLS`.
+- **FORMAT_SPEC v0.21** (`erratum:`) · **doctor check #33** `status_bottom_line` · **`auto_load_budget` no longer grades** · closeout **12(e)/12(f)** rewritten at source · 9/4 session **reconstructed** into `SESSION_LOG.md`.
 
 ## RESULT
-🔑 **The dispatch is not the session. NINE instruments on this desk were certifying more than they established, and the shape is the whole finding: NOT ONE of them raised a false alarm.** Each returned a clean, confident, wrong answer — `git log --all` proving a fact about **origin** · `except: return True` under the comment *"fail SAFE"* · a consume declaration satisfied by **any** desk's ledger · an index freshness check comparing two signal-derived values and never reading the index's own rows · `_sync_state` ignoring **both** git return codes so a **failing** `git status` returned `on_origin`. **The invariant now on every branch: a positive verdict requires SUCCESSFUL evidence; unavailable evidence stays UNKNOWN through to the final report.**
+🔑 **ONE SHAPE RAN THROUGH THE WHOLE DAY: an instrument whose REFERENCE nobody re-reads.** The `auto_load_budget` check graded an auto-loaded charter against a cap canon exempts it from and manufactured an emergency that reached Will twice. `## BOTTOM LINE` was lost a SECOND time — **absorbed** into a sentence warning against its deletion, so two Tier-2 closeouts re-cut the paragraph over a file with no anchor. RED had **two of twelve** rows whose tool read a source its own card disqualified, **both disclosed on the rows**, one unfixed for 25 days. **None of these produced a wrong-looking output.**
 
-🔴 **THE COSTLIEST FINDING WAS AGAINST MY OWN TEST SUITE.** v1 had 15 assertions, all green. Codex stubbed the history helper to `always True` and the index checker to `always fresh` — **all 15 still passed**, because they asserted on source strings. **It proved the fix TEXT existed and never that the fix WORKED: the exact defect it was written to catch, inside itself.** The ninth defect was **mine** — my v2 twin fix overcorrected so an unpushed filing move retracted an already-proven delivery.
+🔴 **FOUR OF THE DAY'S CORRECTIONS CAME FROM CODEX, NOT FROM ME**, and they rhyme: I repeated the cap error *inside its own withdrawal* ("176% of cap"); I committed 13- and 17-line summaries labelled **"verbatim command logs"**; I claimed the control arm's success proved removed narrative was load-bearing when **the credited sentence was in both arms**; and I published a `3×` maintenance figure computed against a history block **that was never written**. ⇒ **My reviews find defects in the ARTIFACT and not in my CLAIMS ABOUT it — the same two-audits-one-run finding as 9/5, unimproved.**
 
-⚠️ **FOUR of my own claims were corrected tonight and NOT ONE was caught by me.** ⇒ **My review found every defect in the CODE and none in my CLAIMS ABOUT the code. Two different audits; I ran one.**
+⚠️ **AND THE HABIT UNDER ALL FOUR: the fix lands on the OUTPUT while the instruction PRODUCING it goes untouched.** Four consecutive rounds. **The tell is a repair cycle that keeps finding "one more place," each upstream of the last.**
 
 ---
 
@@ -25,51 +25,49 @@
 ## A. NEEDS WILL
 | # | Item | Why it matters |
 |---|---|---|
-| 1 | 🔴 **`WQ-186` — the FT-10 spawn timing, on your slate Monday evening.** | DOCKET L275 is dated **9/9**, so a **Tuesday 9/8** spawn of RED+VIOLET is pre-date and is **your** call, not PROME's. If no word arrives, PROME pre-fetches the 9/8 CBOE bar read-only and spawns both on/after 9/9. **My recommendation stands: touch them before the 9/8 open, separate spawns.** |
-| 2 | 🟡 **`WQ-179` — ruling due 9/11, and WALTER's evidence is NARROWER than this row claimed.** | ⚠️ **WITHDRAWN 9/6: the "28 B of headroom / no mandated line can land" framing was FALSE.** `READ_CAP.md:37` exempts an auto-loaded charter from the read cap (*watch, don't rotate*), and rule 3 forbids the joint-sum comparison that produced the companion "176% of cap" claim. **WQ-179 stays LABOR's whole-read STATUS question**; WALTER contributes evidence about document growth, not a combined-context emergency. What survives: ~5,259 B of the 25,192 B boot section is incident narrative the charter's own header says lives in `BOOT_PROTOCOL.md` — **an ESTIMATE dependent on which passages I classified as history, not an audited figure.** |
-| 3 | 🔴 **Telegram INBOUND is broken; outbound works.** *(carried)* | The Bot API has no history, so a missed inbound is **gone, not queued**. The terminal is the only reliable channel *to* me. |
-| 4 | *(Carried)* Lane scope: an obsolescence/depreciation collection rule? | Obsolescence has zero lane queries; the lane is PROME's surface. |
-| 5 | *(Carried)* Weekend / event-triggered intake — deferred by your order. | The lane is weekday-only and would miss a weekend event. **It did this weekend:** 9 breaches sat from 9/4. |
+| 1 | 🟡 **Adopting the pilot's step-3 rewrite is a SEPARATE DECISION and has not been taken.** | The pilot **passed on the tested exercise** (both arms 4/4, Codex-scored against raw transcripts; revised input 187 B smaller). It establishes **neither superiority nor reliable performance across future sessions.** Step 1 stays out of scope. ⛔ **Do not re-run to force divergence — that changes the objective from "is behaviour preserved?" to "can I find a difference?"** |
+| 2 | 🔴 **RULE 9 verify-spawn verdicts rest on the spawned agent's self-report.** *(NEW)* | The pilot showed two agents, instructed **in bold** to return exact commands, both abbreviated. My verify-spawn log (`CONFIRMED`/`CORRECTED-framing`/`FALSE`/`INDETERMINATE`) is built on that same self-reconstruction. **Recorded as a gap, not fixed.** |
+| 3 | 🔴 **Telegram INBOUND is broken; outbound works.** *(carried)* | No history in the Bot API — a missed inbound is gone, not queued. The terminal is the only reliable channel *to* me. |
+| 4 | *(Carried)* Weekend / event-triggered intake. | Lane is weekday-only. **It bit again**: 9 breaches sat from 9/4 to 9/6. |
+| 5 | *(Carried)* Lane scope: an obsolescence/depreciation collection rule? | Zero lane queries; PROME's surface. |
 | 6 | *(Standing)* Correction-baseline audit — ~30 pre-Aug signals vs §3.6. | No instrument ≠ no defects. |
 
 ## B. WAITING ON ANOTHER DESK
 | Who | What | Dark |
 |---|---|---|
-| **RED** | **The 9/8 FT-10 grade** — 2-of-4, and 9/8 either extends to 3 or resets to 0. Also still owes the 8/28 yfinance-omission example that does not reproduce. | 2d |
-| **VIOLET** | The vol-regime read: SKEW bid two sessions against a **banked** VIX<16 fire (VIXCLS 14.32 [9/3]). | 1d |
-| **BROCK** | One line on `SIG-W-20260903-005`: is a pro-rated tender a "gate"? | 2d |
+| **RED** | The **9/8 FT-10 grade** (2-of-4; extends or resets). Also the 8/28 yfinance-omission example. **RED is in Will's window Tuesday.** | live |
+| **VIOLET** | `thresholds.py` still writes VX_DAILY's leading-edge row from yfinance — the window an FT-10 bar sits in. VIOLET's next session. | live |
+| **BROCK** | One line on `SIG-W-20260903-005`: is a pro-rated tender a "gate"? | 3d |
 | **REGINALD** | CREED's two `REG-T-07` asks — **open since 8/20** | — |
-| **AEOLUS** | **2 ACTION items**, the fleet's oldest unconsumed (45d) | 45d |
+| **AEOLUS** | **2 ACTION items**, the fleet's oldest unconsumed (**46d**) | 46d |
 
 ## C. RESOLVES ON A CLOCK
-- 🔴 **RED-FT-10** SKEW ≥150 s=4 → **151.58 [9/4 CBOE]**, **COUNT 2-of-4**. **9/7 is Labor Day (a non-session, not a break — DOCKET L275). 9/8 extends or resets. 9/9 earliest completion.**
-- **RED-FT-12** HY OAS <260 strict → **265 bp [9/3 FRED]**, 5 bp · **RED-FT-09** T5YIFR >2.55 → **2.33 [9/4]** · **RED-FT-06** VIX<16 **FIRED-BANKED**, VIXCLS **14.32 [9/3]**, exit ≥18×5 · **GATE-TERRY-ROLL70-EXIT** WAL ≥81.90×3 → **$80.95 [9/4]**, moved **away** · **CREED-T-01a** → **exactly 12.00 [Trepp Aug]**, strict `>`, NOT fired · **CREED-T-08a** → **−5.22pp [9/4, PRICE-ONLY, basis undeclared]**.
-- **9/8** DOE §202(c) lapses · **9/9** FT-11 precondition live + L275 · **9/10** ECB · **9/11** read-cap ruling · **9/12** L294 sweep · **9/15** `REQ-DEWEY-002` · **9/16** FOMC · **9/17** staleness sweep · **9/30** leg-3b soak + `stat` all split surfaces.
-- ⛔ **Kill-on-sight:** *"FT-10 FIRED"* · *"FT-10 0.77 below"* · *"WATT-02 trending MISS"* · BCRED *"$1.7bn"* · *"ceasefire"*. ✅ ***"SKEW crossed 150"* RETIRED** — it crossed at the publisher of record on 9/3 and 9/4, and **a kill-list entry that has become TRUE suppresses the real event.**
+- 🔴 **RED-FT-10** SKEW ≥150 s=4 → **151.58 [9/4 CBOE]**, **2-of-4, NOT FIRED.** 9/7 Labor Day (non-session, not a break). **9/8 extends or resets; 9/9 earliest completion.**
+- **RED-FT-06** **FIRED-BANKED, fire re-verified 9/6 on FRED `VIXCLS`** — 08/04 16.50 (reset) then 15.81 · 15.15 · 14.90 · 15.46 · 15.28. Exit ≥18×5.
+- **RED-FT-12** HY OAS <260 strict → 265 bp [9/3 FRED] · **RED-FT-09** T5YIFR → 2.33 [9/4] · **GATE-TERRY-ROLL70-EXIT** WAL ≥81.90×3 → $80.95 [9/4], moved away · **CREED-T-01a** exactly 12.00 [Trepp Aug], strict `>`, NOT fired.
+- **9/7** Iran anchor re-verify DUE · **9/8** DOE §202(c) lapses + FT-10 bar + **INDEX cutover (L273)** · **9/9** FT-11 + L275 · **9/10** ECB · **9/11** WQ-179 · **9/12** L294 · **9/16** FOMC · **9/17** staleness sweep · **9/30** leg-3b soak.
+- ⛔ **Kill-on-sight:** *"FT-10 FIRED"* · *"WATT-02 trending MISS"* · BCRED *"$1.7bn"* · *"ceasefire"* · 🆕 ***"the −23K July payroll"*** as a current figure (**revised to +21K**, BLS USDL-26-1435 — a REVISION, not a retraction) · 🆕 ***"FT-06's fire is impeached"*** (it is not; only the corroboration token was).
 
 ## D. WHAT I'D WANT YOU TO KNOW, not do
-- **Four of my claims were corrected tonight and none by me.** Each was caught by a check that had **published its own limit** — PROME's *"not re-counted"*, Codex's stub, a blind reader's ⚠️. **That is the same invariant as the code fix, applied to prose: don't let "I could not establish this" round to "fine."**
-- **The three-desk defect cluster is ~90 MINUTES, not a week.** Three desks do not author one defect in ninety minutes — **that is the evening a reviewer was pointed at the fleet.** So the cluster measures the **search**, not the world; **n=3 is a floor that reads like a count**, and that is the argument for the 9/12 sweep being behavioural and fleet-wide.
-- **An ask I carefully left to RED was already answered on VIOLET's own STATUS.** Leaving it was right; not grepping the owners first was not.
+- **The 28-B cap emergency I reported to you twice was not real.** `READ_CAP.md:37` exempts an auto-loaded charter — *watch, don't rotate*. I withdrew it, then **repeated the identical error in the same answer** as "176% of cap". The generator was my own doctor check and it is now fixed and behaviourally tested; the withdrawal is worth more than the fix.
+- **A disclosed defect is not a fixed one.** RED's boot.py mismatch was written on the row, with the divergence quantified, on 8/12 — and sat for 25 days. Disclosure feels like resolution and reads like it in an audit.
+- **The pilot's most useful output was not its result.** Both readers ignored a bolded mandatory reporting format. **Preserve tool records directly; a mandated format is a request, not an instrument.**
 
 ## GAPS (WALTER-facing)
-- **9 lane breaches carried** (2 NEW_ALERT + 7 NEW_WATCH from 9/4); `intake_scan --mark` deliberately NOT run, so they re-present.
-- ✅ **The 9/4 session wrote NO state files** — BOARD 879→887 with no STATUS, SESSION_LOG or LAST_COMPLETION entry. Data layer intact; the summary layer skipped a session. **RECONSTRUCTED into `SESSION_LOG.md` at the 9/6 boot** from BOARD + logs + 20 commit subjects (8 dispatches · 8 kills · 3 batches / 37 items · the whole WQ-174 build). ⚠️ **The reconstruction does NOT recover what a contemporaneous closeout would have JUDGED** — filter posture, near-trigger state, what was hard. That is permanently gone. **And the gap had already cost one operator-facing defect** (the `SIG-W-20260716-004` false carry above).
-- **Historical incidence of all nine defects is UNKNOWN.** The tests establish vulnerable behaviour, never how often it fired. Tonight's reconciler run was clean, which is a statement about today's log, not about history.
-- **Work-order item 3 (named-check migration)** untouched a FIFTH session; it still names a `BOOT_PROTOCOL §21` that does not exist. **Re-scope before executing.**
-- ✅ ~~`SIG-W-20260716-004` still carries its verdict only as an INDEX annotation with no `status:` header — flagged 8/18, still open.~~ **FALSE — DISCHARGED 2026-09-04, corrected at the 9/6 boot.** The file carries `status: PARTIALLY-SUPERSEDED` + `status_ref` + `status_date`, added by the WQ-174 step-1 header pass (`1cf28384a`). **It was already fixed when this line was written.** The carry survived because the 9/4 session wrote no state files, so nothing told the 9/5 closeout the flag was dead — and it was then reported to Will as outstanding at the 9/6 boot before being tested. `[[finding_record_of_an_action_is_not_the_action]]` **in its mirror form: the action happened, the record did not, and the flag outlived its own discharge.** *(9/4 reconstructed into `SESSION_LOG.md` at the 9/6 boot.)*
-- Staleness sweep legs 2 and 3 not run (§3.6.1 backfill; row-by-row P1/P3) — reviewed by class only.
-- `consumer_check`: 41 🟠 cross-agent candidates on `144.12`, **zero certified-stale, no packets owed** — and RED's own copies are addressed by the dispatch itself. 3 🔴 on my own surfaces were **2 dated history rows (correctly left) + this file (rewritten)**.
+- **C2 (reference dependence) was never measured** — neither pilot arm could open `BOOT_PROTOCOL §3` because neither was given it. Design fault, recorded as one.
+- **`3×` maintenance was an assertion**, not a measurement; the history block does not exist. To establish it, one realistic rule change requiring coordinated edits is needed.
+- **My INDEX `re.sub` used `[^|]*`, which matches newlines** — it swallowed two ToC rows and put `board_reconcile` at HIGH. Repaired by exact split. **The generator would not have done this**, which argues for the 9/8 cutover.
+- **Iran anchor not re-verified this session** — due ~9/7; `SIG-W-20260906-001` is an input to it, not a substitute.
+- **`MEMORY_PROMOTED.md` unmeasured.** Staleness sweep legs 2 and 3 still not run.
+- **Only WALTER's own BOARD was audited** for the `TWO-INSTRUMENTS` collapse. RED came back clean; other desks unchecked.
 
 ## FOLLOW-UP
-1. 🔴 **FT-10 9/8** — the whole game. `WQ-186` on Will's slate Monday evening.
-2. 🟡 **`CLAUDE.md` growth is a CONTEXT cost to watch — NOT a cap breach.** The 28-B-headroom framing was withdrawn 9/6; `READ_CAP.md:37` exempts auto-loaded charters. The false alarm's generator — `walter_doctor`'s `auto_load_budget` grading against the single-read cap — is fixed and behaviourally tested. Ruling 9/11 is LABOR's question.
-3. **9 lane breaches** — first thing at next boot.
-4. **Iran re-verify ~9/7** or on a third wave / named oil asset / mine detonation / US accept-reject. Anchor verified 2026-09-01T21:45Z (ADD#23).
-5. **Chase, don't re-ask:** RED · VIOLET · BROCK · REGINALD · AEOLUS (§B).
-6. **`L294` 9/12** — keep it behavioural; grep locates candidates and cannot establish correctness.
-7. **Next staleness sweep ~9/17**, carrying the narrower P2 proposal + the row-by-row P1 pass + `SIG-W-20260716-004`.
-8. **9/30:** leg-3b soak (now **2 v3 conversions + 2 DEFERRED-RECOMMEND rows**, a new disposition worth reviewing) · `stat` all split surfaces (anchor re-rotation trigger 24,412 B).
+1. 🔴 **9/8 is the day**: FT-10 bar (RED grades, CBOE-direct) **+ the INDEX cutover** — **re-run `--check` immediately before the swap; do not assume the gate held.**
+2. 🔴 **Iran re-verify ~9/7**, or on a third wave / named oil asset / mine detonation / US accept-reject.
+3. **Chase, don't re-ask:** BROCK · REGINALD · AEOLUS (46d) · RED.
+4. **Do not re-open the pilot to force a divergence.** Adoption is Will's separate call.
+5. **`L294` 9/12** — carries WALTER's "fix lands on the output, not the producing instruction" tell as a sweep form.
+6. **Next staleness sweep ~9/17**, carrying the P2 narrowing + the row-by-row P1 pass.
 
 ## OPEN DESIGN DECISIONS
-**🟢 NONE BLOCKING.** **🟠 NEW:** whether `DEFERRED-RECOMMEND` should be a registered `DOORBELL_LOG` disposition (used twice tonight to keep a passing gate separate from a timing call — PROME kept the split in its queue row, which argues yes) · whether the doctor should gain a self-mutation check, or whether that belongs only in the test suite (I lean: **tests only** — a monitor that grades itself is the defect this session was about). **🟠 CARRIED:** the BOARD/INDEX generate-vs-shard cutover (**9/8**) · staleness-sweep P2 narrowing · spawned-instance drains moving handoffs they acted on · a which-leg column for `DOORBELL_LOG` (now **six** L3a passes, argues yes) · MEMORY trigger-index form as a fleet pattern · `MEMORY_PROMOTED.md` unmeasured · obsolescence lane rule · AI-artefact guard fleet-wide · §3.5.6 pull-complete blind spot · foreign-origin BOARD rows with `SIG-W-` ids · `split_verify` as a closeout gate. **🟠 DEFERRED (unchanged):** DEWEY/RAV cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe · lane entity-class tagging · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
+**🟢 NONE BLOCKING.** **🟠 NEW:** whether the RULE 9 verify-spawn log should capture tool records rather than agent self-reports (item A2 — I lean yes, and it is not free) · whether `erratum:` should also carry a `SELF`/`EXTERNAL` discriminator like `corrects:`. **🟠 CARRIED:** `DEFERRED-RECOMMEND` as a registered `DOORBELL_LOG` disposition (used twice 9/5) · a which-leg column for `DOORBELL_LOG` (now **seven** L3a passes + one L3b) · staleness-sweep P2 narrowing · spawned-instance drains moving handoffs they acted on · MEMORY trigger-index form as a fleet pattern · obsolescence lane rule · AI-artefact guard fleet-wide · §3.5.6 pull-complete blind spot · foreign-origin BOARD rows with `SIG-W-` ids · `split_verify` as a closeout gate. **🟠 DEFERRED (unchanged):** DEWEY/RAV cadence · CLIMATE_MACRO sustain-vs-fold · RESEARCH-INTAKE v2 dedupe · lane entity-class tagging · I4 CROSS_REFS cache · VULCAN 5-axis re-cut · LOOPS.md ownership · B5 scheduled-scan · phone-signal v2 · IMMEDIATE-unconsumed severity carve · batch-manifest `re-send` class.
