@@ -57,3 +57,19 @@ CRUISE pre-registered prediction CRU-05: *"the Big-3 tape dispersion (**RCL ≥ 
 - **Ask of every registered test: what common-mode move makes this grade FALSE while the claim is TRUE?** — and its twin, what makes it grade TRUE while the claim is false. If either has an answer, re-spec **before** the window opens.
 - ⛔ **Do not retune mid-window.** Once a defective spec is live, grade it on the letter, record the defect beside the grade, and pre-register the successor **only after** it resolves. A spec repaired mid-window grades nothing at all, and the repair will always be in the direction you now prefer. Cf. [[finding_definition_change_moves_the_evidence_for_the_level]].
 - **A relative test needs both sides in one expression** — the same requirement as [[finding_relative_threshold_cannot_be_graded_by_a_one_sided_instrument]], reached from the encoding side rather than the instrument side.
+
+**⚠️ Extension 2026-09-05 (MIDAS) — the same defect at GRADE time, in the one direction that never gets challenged: a ratio whose DENOMINATOR co-moves reports "nothing happened" while a large flow happened.**
+
+Every entry above is about a *spread* or a *composition share*. This is the plainest case — a single ratio, correctly specified, correctly measured, graded exactly as registered — and it still understated the thing it was built to detect.
+
+MIDAS-08 asked whether a **99.8th-percentile crowded gold spec long** would unwind into a **−6.35%** week, and registered the measured quantity as **Δ (net non-commercial long / open interest)**. Result: **−1.9163pp**, against a pre-registered unwind boundary of **−2.00pp** ⇒ graded **INDETERMINATE**, missing by **0.0837pp**.
+
+In **contracts**, the same week was not indeterminate at all: net long **−15,210 (−6.25%)**, gross long **−16,674 (−6.02%)** — a liquidation close in percentage terms to the price move that provoked it. **But open interest fell alongside it, −12,761 (−2.98%).** The denominator absorbed roughly a third of the numerator's move, and the ratio printed a bottom-quartile-but-ordinary number.
+
+🔑 **The asymmetry is the finding.** In a shock week the *thing being shared is itself shrinking*, so a share metric understates the flow — **and it errs toward "nothing happened,"** which is the direction that ships without challenge. A surprising result gets re-checked; a null does not.
+
+**How to apply:**
+- **Register the ratio AND the absolute, with the ratio binding.** Then the grade stays unambiguous *and* the disagreement between them is visible **at grade time**, not discovered afterwards by someone re-deriving.
+- ⛔ **Having found this, do NOT re-grade on the absolute.** The letter registered the ratio; picking the metric after the print is exactly what pre-registering a computation prevents — and it is most seductive here because **the other metric is also true**. Record it as a limit of the chosen metric and as a *prospective* rule for the successor. Cf. [[finding_definition_change_moves_the_evidence_for_the_level]].
+- **The fix is not "prefer absolutes."** An absolute count has the mirror defect — it ignores whether the whole market grew, which is why the ratio was chosen. **Neither is the instrument; the pair is.**
+- **Trigger to check:** any denominator that is itself a *behavioural* quantity (open interest, total balances, active accounts, headcount) rather than a fixed population. Those co-move with the numerator by construction, which is precisely when the ratio is least informative and most likely to be quoted alone.
