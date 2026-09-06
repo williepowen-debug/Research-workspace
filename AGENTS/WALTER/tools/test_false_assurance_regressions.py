@@ -508,8 +508,11 @@ def test_bottom_line_guard():
     where an unclosed backtick swallowed the heading while leaving the paragraph.
     Content-level checks cannot see that, which is why the anchor is code.
 
-    The ABSORBED fixture below is the REAL pre-fix line, kept verbatim, so a future
-    change cannot silently undo the repair by re-introducing the exact shape."""
+    The ABSORBED fixture is a MINIMAL REPRODUCTION of the 9/3 line, not a verbatim
+    copy: shortened, preserving the failure shape (an unclosed backtick swallowing
+    the heading, paragraph left standing). The verbatim originals are exercised
+    separately and are in git — `git show 76f353a86:AGENTS/WALTER/STATUS.md` fails
+    this check and `08336d2a9:` passes it, which is the claim that actually matters."""
     print("\n[H] BOTTOM LINE anchor — missing · absorbed · duplicate · empty · valid")
     import walter_doctor as wd, tempfile, pathlib
 
