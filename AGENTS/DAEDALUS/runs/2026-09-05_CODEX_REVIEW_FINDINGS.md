@@ -40,3 +40,20 @@ Codex's own framing, kept honest: *"DAEDALUS is valuable at finding structural f
 | 3c meta | MED | folded into the 9/14 invented-gate audit | 9/14 LADDER-INTEGRITY |
 
 **Priority Codex named, all addressed:** repair the push verifier (done) · withdraw the efficiency ratio (done) · use the scheduled ladder review to separate required from preferred (routed to 9/14). No new review layer.
+
+---
+
+## Codex round 2 (2026-09-05 EVE, on the "is DAEDALUS/the system improving?" exchange) — five tightenings, all ACCEPTED, two verified at the artifact
+
+Codex re-verified the three fixes (push-verifier: two reproduced failures now rc2, fresh-match rc0, commit identity remains a declared heuristic · efficiency ratio withdrawn from renderer AND published report, though `pre_decision`/`post_decision` labels still imply an ordering the inputs cannot establish · MIDAS corrected · FERT deferred). Then it tightened my interpretation. Each accepted:
+
+1. **"Instruments work; failure is downstream" is ONE class, not the whole.** It collapses ≥4 distinct failures with different remedies: (a) BROKEN instrument (verify_push, scorecard) → fix/withdraw; (b) flag resolved BACKWARDS (CARL Wed→Thu) → resolution/direction discipline; (c) valid flag IGNORED (my len=104 commit) → make the check BLOCK; (d) downstream correction UNAPPLIED (HAWK stale copies) → intake/consumer reconciliation. Only (c) is "downstream of a working instrument." The slogan was an oversimplification.
+2. **Coverage/activity ≠ improvement.** More profiles, higher grades, more checks establish coverage and activity, not better decisions or fewer failures at acceptable cost. And my own grading interpretations are under review (the invented-gate class), so promotions cannot independently validate the architecture — a circularity I cited past.
+3. **YEYOU retirement removed a STANDING ROLE + an intermittently-exercised capability, not an operating weekly service.** VERIFIED: the review ledger has one review date (8/20); YEYOU ran once. The operational coverage gap PREDATED 9/5. So the honest statement is "the mechanical-review gap already existed de facto; retirement made it de jure" — NOT "a capability lost this week" (my overstatement in the verbal answer). Reason to assess needed coverage, not auto-restore the seat.
+4. **Intake repair is PARTIAL.** VERIFIED at `CORRECTIONS.tsv` on origin: 7 rows; `COR-20260905-01` (CVNA) is the only 9/5 addition; Qatar and ES-02 remain outside the register (routed to HANS/CARL, not yet emitted). "PROME is closing the gap" is accurate; "fixed tonight" would not be.
+5. **The proposed "act-on-instrument BUILD" is PREMATURE — and it was the over-prescription tendency (finding 3) firing again, one message after Codex named it.** The disciplined move is a BOUNDED ASSESSMENT of existing evidence FIRST, no new code, no reporting obligation, no inferring intent from a warning.
+
+### The re-pointed next step (replaces the premature build) — a bounded flag-disposition assessment
+Using existing git history, checker output, owner artifacts, and the five-case walk, revisit the SAME cases and for each flag establish: (i) did it receive a CORRECT disposition; (ii) did it reach the affected consumers; (iii) did it STAY corrected. **Count justified NO-OPs and FALSE ALARMS separately from IGNORED VALID WARNINGS** — lumping them (which the slogan did) hides that they need different remedies. This tests whether existing evidence is already sufficient before creating any new instrument. Candidate home: standalone bounded pass, or folded into the 9/14 LADDER-INTEGRITY sitting (which already carries the required-vs-preferred charge). NOT a build.
+
+**Codex's judgment, adopted verbatim as the honest verdict:** concrete improvement in correction QUALITY (including removing misleading machinery); sustained improvement in PREVENTION and FOLLOW-THROUGH remains unproven (persist? reduce recurrence? shorten closure time? save attention? — all unknown). The changed artifacts are the evidence; the self-description is not.
