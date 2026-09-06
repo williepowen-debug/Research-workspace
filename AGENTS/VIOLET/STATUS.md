@@ -158,7 +158,7 @@
 
 ## THESIS CONNECTION
 
-Thesis **v4.0** (2026-08-27). Currency counter: **38 KB rows since v4.0 (3 retractions: KB-VIO-215, 240, 242)** — **well over its review threshold**, and the read is still owed. *Recomputed 2026-09-06 from `thesis_bump_check.py`, never restated from memory* — it read 31 this morning and 6 rows were filed today.
+Thesis **v4.0** (2026-08-27). Currency counter: **42 KB rows since v4.0 (3 retractions: KB-VIO-215, 240, 242)** — **well over its review threshold**, and the read is still owed. *Recomputed 2026-09-06 ~11:1x from `thesis_bump_check.py` at closeout, never restated from memory* — 31 at the morning boot, 38 after the AM session's 6 rows, **42 after this session's 4 (KB-VIO-252→255)**. ⚠️ **All four of today's PM rows are INSTRUMENT findings, not market findings** — they raise the counter without moving the thesis's subject matter, which is exactly the distinction the read has to make.
 
 - **KB-VIO-221 is a correction to KB-VIO-215 and it CUTS AGAINST the story I told on 9/2.** I am recording it at full strength because the corrected version is the more useful one: **transient defects are worse than permanent ones for anything graded**, and that is a sharper operational rule than the one it replaces.
 - **KB-VIO-220's n=1 forward win for the directional-over-level corollary still stands** (it was graded at CBOE). **Still n=1. Still not bumping the thesis on it.**
