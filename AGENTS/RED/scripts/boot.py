@@ -56,6 +56,9 @@ TODAY = date.today()
 # which on a sustain counter holds a broken run alive or kills a live one with no visible tell.
 TICKERS = ["^VIX", "SPY", "KRE", "WAL", "OZK", "IWM", "TLT", "HYG", "BZ=F", "JPY=X", "^TNX"]
 FRED_SERIES = [
+    # VIXCLS added to the tape 2026-09-06: the canonical VIX close beside the live ^VIX quote, each
+    # with its own source and date, so the graded value cannot be confused with the indicative one.
+    ("VIXCLS", "VIX close (CBOE/FRED)", 1, ""),
     ("BAMLH0A0HYM2", "HY OAS", 100, "bps"),
     ("BAMLH0A3HYC", "CCC OAS", 100, "bps"),
     ("ICSA", "Initial Claims", 0.001, "K"),
@@ -63,7 +66,13 @@ FRED_SERIES = [
 ]
 # registry metric vocabulary -> live-value resolution (units match registry: bps / K / level)
 METRIC_MAP = {
-    "VIX": ("yf", "^VIX", "price", 1),
+    # ⚠️ RE-POINTED 2026-09-06 (S41) from ("yf","^VIX") to the DECLARED basis. FT-06's card has
+    # said "FRED VIXCLS … only a published VIXCLS observation may COMPLETE a sustain count" since
+    # 8/12, and the mismatch was DISCLOSED on the row that same day and then left unfixed for 25
+    # days — a disclosed defect is not a fixed one. Triggered by WALTER SIG-W-20260906-003, which
+    # found FT-06's fire record claimed TWO instruments where both legs were yfinance. FRED also
+    # gives eval_line a real trail, so the sustain count is COMPUTED instead of "needs judgment".
+    "VIX": ("fred", "VIXCLS", "value", 1),
     "HY-OAS": ("fred", "BAMLH0A0HYM2", "value", 100),
     "CCC-OAS": ("fred", "BAMLH0A3HYC", "value", 100),
     "BRENT-PAPER": ("yf", "BZ=F", "price", 1),
@@ -191,6 +200,11 @@ def eval_line(value, op, thr, sustain, src_type, key, scale, fred):
     # FT-09's 2.55 as ">3" (2026-08-12) — a 24bp-away line reading as 69bp-away. Sub-unit
     # thresholds keep 2dp; bps/K thresholds stay integer so the credit lines read unchanged.
     thr_s = f"{thr:,.2f}" if abs(thr) < 100 and thr != int(thr) else f"{thr:,.0f}"
+    # trail values print at the THRESHOLD's own precision. A '%.0f' here rendered VIXCLS 16.34 as
+    # '16' beside a '<16' line — a value that BREAKS the run displayed as one that sits exactly ON
+    # it. Same class as the S29e formatter defect already noted above: data right, representation
+    # wrong, and the representation is what a consumer acts on. (S41 2026-09-06.)
+    tf = (lambda x: f"{x:,.2f}") if abs(thr) < 100 else (lambda x: f"{x:,.0f}")
     detail = f"live {value:,.2f} vs {op}{thr_s} (dist {dist:+,.2f})"
     if src_type == "cboe":
         # The publisher of record IS the trail, so the sustain count is COMPUTED, never
@@ -210,8 +224,8 @@ def eval_line(value, op, thr, sustain, src_type, key, scale, fred):
     if hit and sustain_n > 1 and src_type == "fred":
         trail = fred_trail(key, scale, fred, sustain_n)
         if len(trail) >= sustain_n and all(cmp_op(t, op, thr) for t in trail):
-            return "FIRING", detail + f" — sustained {sustain_n} obs {['%.0f' % t for t in trail]}"
-        return "FIRING*", detail + f" — condition true, sustain {sustain_n} NOT yet met (trail {['%.0f' % t for t in trail]})"
+            return "FIRING", detail + f" — sustained {sustain_n} obs {[tf(t) for t in trail]}"
+        return "FIRING*", detail + f" — condition true, sustain {sustain_n} NOT yet met (trail {[tf(t) for t in trail]})"
     if hit:
         tag = "" if sustain_n == 1 and str(sustain).isdigit() else f" — sustain '{sustain}' needs trail/judgment"
         return "FIRING", detail + tag
