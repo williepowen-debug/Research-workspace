@@ -1,4 +1,4 @@
-# GATES.tsv condition letters — archived verbatim at the 2026-09-05 WQ-176 leg-① cuts (TERRY ×3 + FERT ×1, owner-confirmed)
+# GATES.tsv condition letters — archived verbatim at the 2026-09-05 WQ-176 leg-① cuts (TERRY ×3, owner-confirmed; GATE-FERT-G3 HELD — the owner's confirm flipped the actor on the prevailing-FOB referent, re-confirm packeted, its live cell untouched)
 **Context:** WQ-176 (Will 9/4) leg ①: `condition` → owner-confirmed summary; the full pre-cut cell is archived here VERBATIM with crc32 (UTF-8, no trailing newline). The canonical letter home is each row's `definition_surface` (the owner's file, never this archive). Rotation-not-deletion.
 
 ## Manifest
