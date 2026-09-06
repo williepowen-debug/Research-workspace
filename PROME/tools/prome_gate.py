@@ -53,9 +53,10 @@ DASH_STALE_HOURS = 72       # dashboard self-declares red past this
 # a frozen card only grades if a session runs, and nothing summons a session on
 # a catalyst date; an external DAEDALUS sweep beat the desk's own boot by 3d).
 # PROME boots regularly — this check reads each registered desk's machine
-# catalyst ledger and surfaces due/past-due rows so PROME can flag Will to
-# spawn the desk. A flag means "this desk needs a session", NEVER an
-# instruction to grade on the owner's behalf. v1 cohort = desks that asked and
+# catalyst ledger and surfaces due/past-due rows. Since WQ-184 (2026-09-05) a
+# flag means "this desk needs a session and L0 says PROME spawns it" (DOCKET-
+# registered rows go through spawn_list.py; this stays for desk-private
+# ledgers), NEVER an instruction to grade on the owner's behalf. v1 cohort = desks that asked and
 # keep the 8-col CATALYSTS schema (date/event/.../priority); add rows HERE.
 SUMMONS_LEDGERS = {
     "LABOR": "AGENTS/LABOR/docket/CATALYSTS.tsv",
@@ -563,7 +564,8 @@ def check_desk_catalyst_summons():
     record(ADVISE, "desk catalyst summons (BD-02)", not detail_bits,
            " · ".join(detail_bits[:4]) + (f" (+{len(detail_bits)-4} more)" if len(detail_bits) > 4 else "")
            if detail_bits else f"{len(SUMMONS_LEDGERS)} desk ledger(s) quiet inside {SUMMONS_WINDOW_DAYS}d",
-           "flag Will to spawn the desk — never grade on the owner's behalf; registry = SUMMONS_LEDGERS above")
+           "WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — "
+           "never grade on the owner's behalf; registry = SUMMONS_LEDGERS above")
 
 
 # ----------------------------------------------------------------------- modes
@@ -676,6 +678,13 @@ def mode_boot():
     check_symmetry()
     check_claude_dir_drift()
     check_desk_catalyst_summons()
+    # WQ-184 L1 (Will 2026-09-05 21:42 "approve WQ-184 with your recs"): the spawn driver. rc=1 = a DARK row —
+    # a registered dated row has arrived and its owner has no self-commit since; under L0 that is a Tier-1
+    # spawn at THIS boot (ListAgents first; cap 4; ACTIVE ⇒ consumer read at the owner's artifact first).
+    run_script(ADVISE, "spawn list — L0 due-row candidates (WQ-184)",
+               [sys.executable, "PROME/tools/spawn_list.py", "--horizon", "0"],
+               "DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; "
+               "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it")
     check_byte_budgets()
 
 
@@ -692,6 +701,13 @@ def mode_closeout():
                "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
                "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
     check_desk_catalyst_summons()  # don't go dark on a desk's catalyst eve (BD-02)
+    # WQ-184 L1 closeout half: what LANDS before the next likely boot (1d weekday, 3d Fri/Sat) and who is there —
+    # pre-spawn under L0 or post the list to Will as a slate (8/27 precedent). Never silence.
+    _gap = "3" if dt.date.today().weekday() in (4, 5) else "1"
+    run_script(ADVISE, f"spawn list — rows landing before the next boot (+{_gap}d, WQ-184)",
+               [sys.executable, "PROME/tools/spawn_list.py", "--horizon", _gap, "--tsv"],
+               "LANDS-IN rows with a dark owner ⇒ pre-spawn now or slate to Will in the closeout report; "
+               "DARK ⇒ act before going dark")
     check_will_queue()
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
