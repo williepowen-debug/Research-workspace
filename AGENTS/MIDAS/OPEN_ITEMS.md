@@ -5,7 +5,7 @@
 > ⛔ **This file is NOT dropped from the boot — `STATUS.md` carries the live top-3 inline and points here for the rest. Read it whenever you touch an open item.**
 > **Consistency rule (both files or neither):** an item that changes state must be updated **here** and, if it is in the STATUS top-3, **there too**. STATUS's pointer names this file by path.
 
-**Last updated:** 2026-09-02 ~15:4x ET.
+**Last updated:** 2026-09-05 ~20:3x ET (Sat) — item 21 CLOSED (MIDAS-08 graded terminal), item 24 OPENED (contract-identity guard).
 
 ---
 
@@ -27,7 +27,34 @@ Both OPEN, both **resolve 2026-09-30**, and **neither declares what happens if t
 
 ⚠️ **STANDING INSTRUCTION TO THE 9/30 GRADER, placed here because this is the surface you read (L-48 applied to itself): if the data is unavailable, record STUCK, not MISS.**
 
-## 21. 🔴 MIDAS-08 — the M1 successor test. REGISTERED 9/2, RESOLVES FRI 9/4
+## 24. 🔴 NEW 2026-09-05 — `metals_watch.py` HAS NO CONTRACT-IDENTITY GUARD, AND ITS SPOT BLOCK PRINTED FIVE DYING CONTRACTS
+
+Verified at the settled **9/4** bars by volume: `GC=F` **16** vs `GCZ26` **209,167** · `SI=F` 57 vs `SIZ26` 41,845 · `HG=F` **890 (= HGU26)** vs `HGZ26` 33,325 · `PL=F` 0 vs `PLV26` 19,047 · `PA=F` **11 (= PAU26)** vs `PAZ26` 4,896. **Level spreads 0.27%–1.30%.** ⛔ Standing warning ② was written as a *gold* fact; it is a property of **every** `=F` pointer this desk quotes. → **KB-112, L-50**
+
+⛔ **DELIBERATELY NOT PATCHED 9/5, and the reason is my own precedent.** A guard needs a **volume** field; FORGE's `fetch.py` `price_fetch` returns price/prev/change only. Two routes: **(i)** a local yfinance volume pull inside `metals_watch.py` — mine to build — or **(ii)** extending `fetch.py`, which is **PROME/FORGE-gated and is the 7th instance of KB-047.** Blind-patching a 28 KB instrument at session end is exactly how the 8/23 fix ended up **certifying** a second contamination (L-45).
+
+**Harm assessment, stated honestly:** **zero to anything graded** — MIDAS-08 is COT data, the M1 kill-rail leg has been graded on **GLD (no-roll arbiter)** since the 9/2 repair, and GSR is basis-robust across the roll (KB-067). **The exposure is the DISPLAY line** — which is the surface a mislabelled figure reached Will from on 8/20. ⇒ real, bounded, and named.
+
+**⚠️ Interim rule until the guard exists:** quote the **explicit contract month** (`GCZ26`/`SIZ26`/`HGZ26`/`PLV26`/`PAZ26`), never the `=F` pointer, and identify a contract from the **prior session's** row — the latest futures row's volume field is stale and self-heals.
+
+---
+
+## 21. ✅ MIDAS-08 — GRADED TERMINAL 2026-09-05: **(b) INDETERMINATE. CLOSED.**
+
+**Δ net/OI = −1.9163pp** (54.9437% [as-of 9/1] vs the frozen 56.8600% [as-of 8/25]) against an (a) boundary of −2.00pp ⇒ **missed by 0.0837pp**. **M1 holds 4; composite 8/20; nothing re-rated.** Graded **as first published** (WQ-162), instrument run twice with totals reconciliation passing both pulls.
+
+⛔ **The 0.0837pp miss was stress-tested BEFORE publication, not after being challenged:** (b) on **all four** defensible boundary conventions (registered −2.0000 · p25 nearest-rank −1.9294 · p25-as-cited −1.9200 · p25 linear −1.9189, tightest miss **0.0026pp**) and on **both** baseline conventions. Every one is a published statistic of the **frozen** reference; none was invented after the print.
+
+🔴 **The `if_falsified` conditional is keyed to (c) and (c) did NOT fire** ⇒ the public re-read of *"a meaningful part of the 8/19 residual is spec flow"* and the correction routed to **BOND** are **NOT owed**. ⚠️ **Nor is that claim re-affirmed** — the week is genuinely indeterminate about it, and its **unquantified-share** limit stands. **BOND was sent an INFO packet** saying exactly this rather than being left waiting on an open row → `AGENTS/BOND/inbox/2026-09-05_from-MIDAS_midas-08-resolved-b-indeterminate-no-correction-owed.md`.
+
+📊 **Calibration, scored against me:** P(b)=0.40 realised; the row pre-committed *"if (b) or (c) fires that departure was wrong"* — **it fired, and the n=7 conditional base rate (14%) beat my shock-adjusted 40%.** The masses were **not** re-tuned after BND-21 (fourth honouring of the freeze); under (b) that cost nothing, and **a costless draw is not evidence the rule is cheap.**
+
+🔑 **New standing finding (L-49):** the registered metric is a **ratio**, and its denominator co-moved — net NC long fell **−15,210 (−6.25%)** while OI fell **−2.98%**, so the ratio moved only −1.92pp. **Not re-graded on the absolute** (choosing the metric after the print is the failure pre-registration prevents); recorded as a limit and as a **prospective** rule for the successor: *register both, ratio binding.*
+
+🔴 **CONSEQUENCE — M1 IS BACK TO SCORED-4-WITH-NO-LIVE-TEST**, the exact gap MIDAS-08 was built to close. ⛔ **A successor is deliberately NOT registered** until *NO-VERDICT vs (d) INDETERMINATE* is ruled (item 4b) and **WQ-161 lands 9/15** — registering before then repeats the defect this row already found in itself. → `analysis/2026-09-05_MIDAS-08-GRADE.md`, **KB-109**
+
+### 21-hist. The registration record, retained (it is the calibration evidence)
+
 
 ⛔ **TWICE OFFERED A MID-FLIGHT IMPROVEMENT, TWICE DECLINED (see §7–§8 of the registration note).** `BND-21` resolving TRUE raised the prior on branch (a) — **P(a) not re-tuned.** ZHAO's **STUCK** design (non-resolution is a *status*, not a mass-bearing branch) is **better than my (d) and I adopted it PROSPECTIVELY only** — retrofitting it would renormalise (a)(b)(c) from sum 0.98 to 1.00 and change the scored masses. **Third honouring of the freeze in three days, in three different currencies: a score (8/31 band fence), calibration credit (BND-21), and now a known-second-best design.**
 

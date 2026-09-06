@@ -60,3 +60,5 @@
 | **L-46** | 2026-09-02 | When the DISCRIMINATOR goes stale the check passes and measures nothing — vendor duplicated futures volume into the 9/1 row; keep a fallback that fails on a different field. |
 | **L-47** | 2026-09-02 | Freezing criteria proves nothing if no probe is MAPPED to each one — my criterion→probe cell claimed coverage a query could never deliver, and the mapping is where the false claim hid. |
 | **L-48** | 2026-09-02 | Sharp spec to the counterparty, vague one on my own book — I graded the book. **Placement test: not "where does this belong?" but "which surface does the reader TRAVEL?"** |
+| **L-49** | 2026-09-05 | A **ratio** metric hides the move when its DENOMINATOR co-moves — net long −6.25% read as −1.92pp because OI fell too. Register ratio AND absolute; ratio binds. |
+| **L-50** | 2026-09-05 | **The correcting claim inherited the exact defect it corrected** — a roll-date re-read off an in-flight bar, fixing a roll-date claim read off an in-flight bar. Sweep the fix. |

@@ -181,3 +181,34 @@ I wrote L-48 as a rule about **registrations**: *a spec is not registered until 
 **And it caught me the same evening, on today's own fix.** I split `OPEN_ITEMS.md` out of `STATUS.md` this morning to clear a read-cap breach — a correct fix — and **the boot sequence never named the new file.** STATUS kept a pointer, so every presence audit passed (`[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`), and a 12-item register including blocking flags sat one hop off the path the reader actually walks. **The read-cap split solved the surface it was aimed at and quietly created a traversal gap** — `[[finding_a_fix_can_relocate_a_constraint_and_report_it_removed]]`, n+1, on a fix made hours earlier the same day. Fixed: boot step **3b** now names it, with the byte cost stated rather than hidden.
 
 ⚠️ **The honest ledger on that split: it fixed a per-surface cap breach and it did NOT make the reading free.** Total boot bytes went up. A split that reduces one number by raising another is a trade, not a saving, and saying so is the difference between a fix and a claim.
+
+
+---
+
+### L-49 — 2026-09-05 — A ratio metric with a co-moving denominator understates the very move the test was registered to detect
+
+**Where it bit.** MIDAS-08 asked whether a 99.8th-percentile crowded gold spec long would unwind into a −6.35% week, and registered the measured quantity as **Δ net non-commercial long / open interest**. It graded **(b) INDETERMINATE at −1.9163pp**, missing the pre-registered (a) boundary of −2.00pp by **0.0837pp**.
+
+**In contracts, the same week was not marginal at all:** net NC long **−15,210 (−6.25%)** and NC long **−16,674 (−6.02%)** — a liquidation close in percentage terms to the price move that provoked it. But **open interest fell alongside, −12,761 (−2.98%)**, so the ratio moved only −1.92pp. **The denominator absorbed roughly a third of the numerator's move.**
+
+**The rule.** A ratio is a *share* claim. In a shock week the thing being shared is itself shrinking, so a share metric systematically understates the flow — and it does so **in the direction of "nothing happened,"** which is the direction that gets published without challenge. ⇒ **register BOTH the ratio and the absolute, with the ratio binding**, so the grade is unambiguous *and* the disagreement between them is visible at grade time rather than discovered afterwards.
+
+⛔ **What this lesson does NOT license, and this is the harder half.** It does **not** license re-grading MIDAS-08 on the absolute. The letter registered net/OI; **choosing the metric after seeing the print is exactly the failure that pre-registering a computation exists to prevent**, and "the other metric tells a better story" is the most seductive form of it because the other metric is *also* true. The finding is recorded as a **limit of the chosen metric** and as a **prospective design note for the successor row** — never retrofitted. *(Same family as the 8/31 band fence and the BND-21 non-retune: the third and fourth times honouring a freeze has cost this desk something.)*
+
+⚠️ **Symmetric caution:** the fix is not "prefer absolutes." An absolute contract count has its own denominator problem — it ignores whether the whole market grew — which is why net/OI was chosen in the first place. **Neither is right alone; the pair is the instrument.**
+
+---
+
+### L-50 — 2026-09-05 — The correcting claim inherited the exact defect it was correcting
+
+**The chain, in three steps.**
+1. **8/31–9/1:** STATUS claimed `GC=F`'s daily series had rolled to `GCZ26` on **8/31** (both $4,497.30). **Wrong.**
+2. **9/2:** that claim was corrected — the roll *"completed 9/2, one session later than recorded"* — on the evidence that the two tickers printed **identical OHLCV on 9/2** (O 4,377.20 H 4,427.00 L 4,329.20 C 4,426.20 V 125,498). Logged as KB-099 / **L-46**.
+3. **9/5:** the settled record refutes step 2. `GC=F` on 9/2 settled **O 4,328.00 C 4,366.30 V 72**; `GCZ26` settled **O 4,377.20 C 4,414.60 V 187,568**. They are not equal, **and neither matches the figures recorded on 9/2**. **`GC=F` has not rolled at all** — it traded **16 lots** on 9/4 against `GCZ26`'s 209,167.
+
+**The mechanism.** The 9/2 correction was read off the **9/2 bar, on 9/2, while 9/2 was still trading** — which is **L-37**, *a bar that can still move is not a close*, the desk's own oldest instrument rule. **The correction of an in-flight-bar error was itself taken from an in-flight bar.**
+
+**Why this is a class and not an incident.** A correction pass feels like the careful part of the work, so it is the part least likely to be swept — and it is written under a *narrative* of having just found the truth, which is the worst possible frame for re-applying a checklist. `[[finding_a_correction_pass_is_unreviewed_work]]`. This desk has now produced **three** roll-date claims about one ticker, two of them wrong, and **the wrong ones were the two written on the day they described.**
+
+**The operational rule, testable:** ⛔ **never assert a roll date, a convergence or a divergence from a bar dated today.** Assert it from a bar at least one session settled — and when the claim is about *which contract a series is on*, the test is **volume**, not price equality.
+⚠️ **And its companion, found the same evening:** the volume field itself is stale on the **latest** futures row and **self-heals** (the 9/1 `GCZ26` volume read 152,216 on 9/2 and 198,560 on 9/5) ⇒ **identify a contract from the PRIOR session's row, which is settled on both fields.** → KB-112
