@@ -66,7 +66,15 @@ DEADBAND_LO = 109165
 DEADBAND_HI = 118325
 LEG_B_BAR_PCT = 4.909
 MEDIAN_UNIT = 9160
-BASE_8WK = 122904
+# DISPLAY-ONLY (never compared against anything below). CORRECTED 2026-09-06: the base is
+# NOT an integer. The trailing-8wk window 2026-06-16..2026-08-04 is EIGHT observations, so its
+# median is the mean of the 4th and 5th sorted values: (122,319 + 123,490) / 2 = 122,904.5.
+# Displaying it truncated as 122,904 is what made the frozen letter fail its own arithmetic
+# check for three independent blind readers (PROME packet 2026-09-03). THE LEVELS WERE ALWAYS
+# RIGHT AND NONE MOVED — carry the .5 and they all reproduce to the contract:
+#   Leg-A bar = base - 1.0*median_unit = 122,904.5 - 9,160 = 113,744.5 -> 113,745 (half up)
+#   deadband  = bar  +/- 0.5*median_unit = 113,744.5 +/- 4,580 -> 109,165 .. 118,325
+BASE_8WK = 122904.5
 
 # disaggregated futures-only column layout (verified 2026-08-21 against the 8/11 print:
 # it reproduced the registry's recorded first grade — shorts 110,638 / OI 1,892,429 /
@@ -154,6 +162,9 @@ def main():
     print(f"\n  Leg A  shorts {shorts:,} vs bar {LEG_A_BAR:,} "
           f"(deadband {DEADBAND_LO:,}-{DEADBAND_HI:,})  => {va}")
     print(f"  Leg B  OI-share {share:.4f}% vs bar {LEG_B_BAR_PCT}%  [GATING]        => {vb}")
+    print("  Leg-A precedence (stated 2026-09-06, changes no grade ever taken): the DEADBAND is")
+    print("  decisive inside its range and 113,745 is its CENTRE, never a decision boundary —")
+    print(f"  <= {DEADBAND_LO-1:,} SPENT | {DEADBAND_LO:,}..{DEADBAND_HI:,} NO-VERDICT | >= {DEADBAND_HI+1:,} NOT-SPENT")
     print(f"\n  === JOINT VERDICT: {v} ===")
     if v == "NO-VERDICT":
         print("  NO-VERDICT IS A REAL ANSWER — sizing DEFAULTS TO THE BASE CASE (conservative).")
