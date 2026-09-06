@@ -100,4 +100,23 @@ Effective OPEC spare **~0.02 mb/d (~20 kb/d)** [EIA STEO `COPS_OPEC` 2026Q3/Q4 =
 
 ---
 
+## 7. GOVERNING LESSONS — `lessons_check.py --spec` run on this file, and one flag is a REAL TENSION
+
+The check named **13 governing lessons, 12 of them NOT CITED.** Most are off-point for a completed event grade. **Four are not, and the silence on the first one was a genuine gap:**
+
+**⚠️ L11 + L16 vs THE DELIVERABILITY GATE — THE TENSION, STATED RATHER THAN LEFT SILENT.**
+**L11:** *"Phase 2 price crash triggers at ANNOUNCEMENT, not delivery… the market is forward-looking. Waiting for barrels means missing 80% of the move."* **L16:** *"exit on announcement, not delivery."*
+**These cut against how §1/§3 read.** The deliverability gate concludes the October hold is *"mostly announcement"* and therefore near-zero — while L11/L16 say **an announcement is exactly what moves price.**
+**⇒ HONOURED, NOT OVERRIDDEN, and the reconciliation is a scope distinction the grade must carry:** the deliverability gate is a claim about **BARRELS**, not about **PRICE**. **"~90% paper" means the physical supply path is unchanged; it does NOT mean the tape cannot react.** L11 governs the price channel and is untouched here. ⇒ ⛔ **Do not read this grade as "the market will ignore it."** It says the **supply thesis** does not move — **the Phase-2 flush timeline is unmoved because no barrels changed hands**, which is a statement about the mechanism, not a forecast of Monday's tape. `[[finding_market_ignoring_is_not_market_refuting]]`
+
+**✅ L17 — CITED AND IT BINDS THIS GRADE HARDER THAN ANY OTHER.** *"The OPEC+ '5-6M bpd spare' narrative is wrong — never accept cartel self-reporting without cross-referencing."* The entire deliverability read rests on **one number from one agency** (EIA STEO `COPS_OPEC`), and **neither the August MOMR nor the August IEA OMR published a spare figure.** **L17's instruction is to pressure-test, and I could not — the cross-reference does not exist this cycle.** ⇒ **the ~0.02 mb/d figure is the weakest load-bearing input in this grade, and the 10/4 successor row requires a fresh pull rather than carrying it forward.**
+
+**✅ L23 — CITED.** *"A continuous front-month ticker (`=F`) silently re-points at the contract roll."* Every crude figure here is a **NAMED contract** (`BZX26`/`BZF27`/`CLX26`/`CLV26`) on **settled daily closes**; `BZ=F` is used nowhere. ⚠️ **And this session found the harder corollary: across a roll the % change may not be computable AT ALL** — expired Brent contracts return **no history** from this desk's instrument, so the honest output is **two levels on separate bases, never a return.**
+
+**✅ L22 — CITED, and it is why the 10/4 successor row is shaped as it is.** *"A pre-registration must name an instrument that actually TRADES and a THRESHOLD."* ⇒ the successor names **the OPEC Secretariat statement text** as its instrument, its exact URL pattern and entry route, three exhaustive outcomes, and a **binding re-pull** of the deliverability figure. **Neither row is registered as a `BRT-xx`** — an event read with a fixed letter is not a probabilistic claim, and inventing a confidence to make it one is the un-base-rated registration **L21/L22 forbid.**
+
+**Deliberately NOT applicable, so the silence is a decision and not an oversight:** **L05 / L08 / L09** (price and EIA-series freshness — no price or inventory level is graded here) · **L15** (option structure — no trade proposed) · **L18 / L19** (rhetorical-vs-operational and the tanker liveness check — those govern a *reopening* announcement, and this is a quota statement with no chokepoint claim in it).
+
+---
+
 *Graded 2026-09-06 at the OPEC Secretariat primary. `$0` moved; no threshold set, moved or graded; no gate flipped; no registry row opened by this grade.*
