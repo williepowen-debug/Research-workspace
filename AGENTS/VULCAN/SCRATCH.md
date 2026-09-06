@@ -17,6 +17,18 @@
 > - **Validator now ENFORCES what the schema declares** — numeric sets/bounds, Float must be FINITE, closed sets retyped `Enum`, new `EnumPrefix` for parameterised tokens (S4 `band`). **Rule: a closed set declares `Enum`; `String` means free text.**
 > - **READ-CAP 0 for the first time** — but STATUS breached its budget **twice today on its own correction text**, and the warning I wrote about that breached it a **third** time. Headroom is **431 B**. **Rotate history in the same pass that writes a correction.**
 >
+> ## 📋 LEDGER-NUDGE DISPOSITION (step 1c-bis — 9 ledgers named, NONE refreshed, and that is the correct answer)
+> **Not one is rotting, and refreshing any of them tonight would be a research defect, not hygiene.**
+> - **`S2_SERIES` · `MAG7_SERIES` · `LAYER_SERIES` — 🔴 DO NOT REFRESH, and this is the load-bearing one.** All three are on **pre-committed cadences** (Fri 9/11 post-close). The S2 re-arm rule counts *"3+ **consecutive readings**"* and mag7 grades a **duration** test, so **whoever picks the run times picks the readings [L-21]. Curing a staleness nudge with an unscheduled reading is exactly the sampling selection the cadence exists to prevent.** Markets are also CLOSED (Sunday) — a "refresh" would restate Friday's tape as a new observation.
+> - **`S4_SERIES` — correctly event-cadenced and the cadence is MONTHLY.** Latest row Jul-2026 **is** the latest month TSMC has published; next 6-K **~9/10**. A refresh today fetches nothing. Owner-confirmed to DAEDALUS 9/6.
+> - **`EDGAR_SEEN` — swept 9/3; boot leg 8 reads 3d fresh** against its derived 3-day bound. Event-cadenced.
+> - **`GPU_SERIES` — ZERO rows DELIBERATELY.** First reading is 9/11 and only after `GPU-PANEL-01` is frozen. Writing a row to satisfy a nudge would hand the series a baseline from an unspecified panel — the precise failure the empty ledger exists to prevent.
+> - **`PREDICTIONS` — rows resolve on DATES; earliest is 9/30.** Nothing is due.
+> - **`FLOW` · `VX` — change rarely by design.** No pathway was created or killed this afternoon (`FL-VULCAN-12` moved LIVE→CANDIDATE in the AM and is logged); no vector state moved because **no market datum was observed**. The validator reconciles VX against the STATUS matrix and returns clean.
+> - ⚠️ **n+3 on a defect ALREADY routed to DAEDALUS: the nudge counts STATUS-WRITES, not elapsed time, so a multi-pass session inflates every count.** FOUR STATUS writes today (AM close · two review passes · PM closeout) are most of the "behind" figures above — `S4_SERIES` reads *22 behind* while being as current as the world allows. **Confirming instance, NOT a new finding — do not re-report it.**
+>
+> ## 🔔 FLAGGED, NOT DONE — `memory/auto/finding_test_the_guard_not_just_the_guarded.md` is dirty in the tree (WATT's n+5 append, uncommitted). **I hold an n+6 instance for it** (a suite written to embody that finding whose own controls could not fail). ⚠️ **NOT appended: it is another desk's uncommitted file and editing it would collide.** Flag to PROME.
+
 > ## ▶ START HERE (unchanged and still the hard clock)
 > 1. 🔴 **`GPU-PANEL-01` FROZEN BEFORE FRI 2026-09-11** or 9/11 is a MISSED READING. **Now with three corrections folded in:** the Silicon Data index is **LIVE NOW** ($2.53/GPU-hr, `SDH100RT`, **NEO-CLOUD** — record the SEGMENT, it is one side of the 3-6x dispersion); full series is **PAID** (a COST blocker, not unreachable); its **reference basis is UNESTABLISHED**, so `term_normalized` + `spread_pct=UNGRADEABLE` pending the reference spec.
 > 2. 🔴 **Fri 9/11 `semi_watch.py` + `mag7.py` POST-CLOSE** — slot 4 of 8, three already lost.
