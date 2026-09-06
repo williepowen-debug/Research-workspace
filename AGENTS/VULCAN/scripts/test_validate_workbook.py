@@ -27,6 +27,10 @@ interrupted run cannot leave a corrupted append-only ledger behind.
 Run after ANY edit to `validate_workbook.py` or to SCHEMA.tsv's type declarations:
     python3 AGENTS/VULCAN/scripts/test_validate_workbook.py
 rc 0 = all cases behaved  ·  rc 1 = at least one case did not
+
+Each case asserts the EXACT expected exit code (2 for an injected defect, 0 for a control).
+An unexpected code — a crash, a warn — FAILS the case loudly rather than passing a control
+by not being 2.
 """
 from __future__ import annotations
 
@@ -148,10 +152,18 @@ def main() -> int:
             s = build_sandbox(case)          # FULL clean state per case, by construction
             apply_case(case, ledger, col, val)
             rc = run(s)
-            ok = (rc == 2) == must_catch
+            # EXACT expected code, not "anything that isn't 2". The first cut read
+            # `ok = (rc == 2) == must_catch`, so a CONTROL passed on ANY non-2 exit —
+            # including rc=1, which is a validator crash or a warn. Injecting rc=1 into all
+            # ten controls still reported "WRONG: 0": this suite's own control check could
+            # not fail  [[finding_test_the_guard_not_just_the_guarded]], in the very file
+            # written to embody that lesson  [[finding_adoption_is_not_validation]].
+            want = 2 if must_catch else 0
+            ok = rc == want
             bad += not ok
-            print(f"  {label:52} rc={rc} {'CATCH' if must_catch else 'PASS ':5} "
-                  f"{'✅' if ok else '❌ WRONG'}")
+            flag = "✅" if ok else ("❌ WRONG" if rc in (0, 2)
+                                   else f"❌ UNEXPECTED EXIT {rc} (want {want})")
+            print(f"  {label:52} rc={rc} {'CATCH' if must_catch else 'PASS ':5} {flag}")
     n_neg = sum(1 for c in CASES if c[4])
     print(f"\n  {len(CASES)} cases — {n_neg} defects injected, "
           f"{len(CASES) - n_neg} real-form controls — WRONG: {bad}")
