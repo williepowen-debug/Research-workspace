@@ -44,7 +44,7 @@ What **is** measurable, and is the honest substitute:
 | `workbook/VX.tsv` | **2026-09-05** | 0 d |
 | `workbook/TRIGGERS.tsv` | **2026-09-05** | 0 d |
 | `workbook/PREDICTIONS.tsv` | **2026-09-05** | 0 d — **header added today, see below** |
-| `workbook/FLOW.tsv` | **2026-08-17** | **19 d** — not refreshed: no transmission input changed. Next natural refresh is the **9/11** CPI food-at-home print |
+| `workbook/FLOW.tsv` | **2026-08-17** *(data clock — deliberate)* | **19 d** on the data clock; **sweep clock moved to 2026-09-05**. No new transmission input was pulled (T5/T12 due 9/7), but the ledger was **not** left untouched: **FL-FERT-06** (sulfur + curtailment → DAP/MAP) downgraded **`Yes` → `Estimated`**, because its only confirming evidence was rock *rising* and August's root print was **flat**. Not refuted — overstated. `ledger_staleness --nudge FERT` now reads clean |
 
 > ### 🟠 **A real gap your check would have caught, and I am telling you rather than quietly fixing it: `PREDICTIONS.tsv` had NO two-clock header at all.**
 > It carried only the Status-enum header line. Under Data Hygiene a LIVE ledger needs a **content-derived vintage** or `scripts/ledger_staleness.py` silently falls back to git-commit time — which is exactly the fallback the canon calls a fallback. **Added 2026-09-05.** The reason it was missed is structural and worth a blueprint line: the file already *had* a `#` header, so every presence-shaped check saw a header and passed. `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`
