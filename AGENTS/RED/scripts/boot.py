@@ -14,6 +14,7 @@ READ-ONLY by design: prints, never writes state. Data sources:
 Mirrors SPAWN PROTOCOL boot steps 3 (DUE-scan, catalysts) + 9 (live anchors).
 """
 import csv
+import io
 import os
 import re
 import sys
@@ -63,12 +64,61 @@ METRIC_MAP = {
     # auto-fire path. CORE-CPI-3MO-ANN (FT-08) stays unmapped by design: a release-derived
     # 3-month compound has no FRED series, and failing loud is correct for it.
     "BREAKEVEN-5Y5Y": ("fred", "T5YIFR", "value", 1),
-    # FT-10 tail-bid-reload line (added 2026-08-20, S32 SKEW ruling). ^SKEW publishes
-    # LAGGED on Yahoo (current-day bar absent intraday) so unlike ^VIX this read is a
-    # COMPLETED session, not a live bar running ahead of a canonical basis (ML-RED-176/177).
-    "SKEW-CBOE": ("yf", "^SKEW", "price", 1),
+    # FT-10 tail-bid-reload line. ⚠️ RE-POINTED 2026-09-06 (S41) FROM yfinance ^SKEW TO THE
+    # CBOE CSV. FT-10's own instrument_basis_operative (declared under WQ-162 on 9/2)
+    # DISQUALIFIES the yfinance mirror: it is "a PROVISIONAL SAME-DAY MIRROR ONLY ... cannot
+    # complete a grade" (measured defect rate 0.79%/session over 253 sessions: the 8/28 bar
+    # omitted AND a 2025-12-24 value disagreement). For four days this tool graded a
+    # registered trigger off the source its own registry forbids, and was correct only
+    # because the two series happened to agree — guard correctness and guard WIRING are
+    # independent properties. Bonus: the CSV is a real trail, so the sustain count is now
+    # COMPUTED rather than deferred to "needs trail/judgment".
+    "SKEW-CBOE": ("cboe", "SKEW", "close", 1),
 }
 NEAR_PCT = 0.03  # within 3% of threshold = NEAR
+
+CBOE_SKEW_URL = "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv"
+_CBOE_CACHE = {}
+
+
+def cboe_skew():
+    """(date_str, value) list, oldest-first, from the PUBLISHER OF RECORD.
+
+    Fails LOUD and returns [] rather than falling back to the yfinance mirror: under
+    FT-10's declared basis a provisional mirror CANNOT complete a grade, so a silent
+    substitution would manufacture a gradeable-looking answer out of a disqualified
+    source. An empty return renders "n/a / no data", which is the correct output.
+    """
+    if "rows" in _CBOE_CACHE:
+        return _CBOE_CACHE["rows"]
+    rows = []
+    try:
+        import urllib.request
+        req = urllib.request.Request(CBOE_SKEW_URL, headers={"User-Agent": "Mozilla/5.0"})
+        txt = urllib.request.urlopen(req, timeout=30).read().decode("utf-8-sig")
+        for r in csv.reader(io.StringIO(txt)):
+            if r and r[0][:1].isdigit():
+                try:
+                    rows.append((r[0], float(r[1])))
+                except (ValueError, IndexError):
+                    pass
+    except Exception as e:                                    # noqa: BLE001
+        print(f"   \u26a0\ufe0f  CBOE SKEW_History.csv UNREACHABLE ({type(e).__name__}) \u2014 FT-10 renders n/a. "
+              f"The yfinance mirror is NOT substituted: it cannot complete a grade.")
+    _CBOE_CACHE["rows"] = rows
+    return rows
+
+
+def cboe_run_length(op, thr):
+    """Consecutive most-recent CBOE bars satisfying op/thr, per FT-10's reset rule."""
+    rows = cboe_skew()
+    n = 0
+    for _, v in reversed(rows):
+        if cmp_op(v, op, thr):
+            n += 1
+        else:
+            break
+    return n, rows
 
 
 def tsv(path):
@@ -85,6 +135,9 @@ def pull_tape():
 
 
 def live_value(src_type, key, field, scale, prices, fred):
+    if src_type == "cboe":
+        rows = cboe_skew()
+        return float(rows[-1][1]) * float(scale) if rows else None
     if src_type == "yf":
         d = prices.get(key, {})
         v = d.get(field if field else "price")
@@ -130,6 +183,21 @@ def eval_line(value, op, thr, sustain, src_type, key, scale, fred):
     # thresholds keep 2dp; bps/K thresholds stay integer so the credit lines read unchanged.
     thr_s = f"{thr:,.2f}" if abs(thr) < 100 and thr != int(thr) else f"{thr:,.0f}"
     detail = f"live {value:,.2f} vs {op}{thr_s} (dist {dist:+,.2f})"
+    if src_type == "cboe":
+        # The publisher of record IS the trail, so the sustain count is COMPUTED, never
+        # deferred. Bar date is printed because this series publishes LAGGED — a value
+        # without its bar date is the exact ambiguity that put "SKEW crossed 150" on the
+        # tape two days before the publisher had spoken (SIG-W-20260903-001).
+        run, rows = cboe_run_length(op, thr)
+        bar = rows[-1][0] if rows else "?"
+        detail = f"live {value:,.2f} [CBOE bar {bar}] vs {op}{thr_s} (dist {dist:+,.2f})"
+        if not hit:
+            return ("NEAR" if near else "clear"), detail + f" — run 0-of-{sustain_n}"
+        if run >= sustain_n:
+            return "FIRING", detail + f" — SUSTAINED {run}-of-{sustain_n}"
+        start = rows[-run][0] if run else "?"
+        return "FIRING*", detail + (f" — SATISFIED but COUNTING {run}-of-{sustain_n} "
+                                    f"(run start {start}); NOT FIRED")
     if hit and sustain_n > 1 and src_type == "fred":
         trail = fred_trail(key, scale, fred, sustain_n)
         if len(trail) >= sustain_n and all(cmp_op(t, op, thr) for t in trail):
