@@ -55,6 +55,8 @@ consumer_lens: RED owns FT-10 and is the only desk that can grade it; the count 
 - **RED-FT-12** (HY OAS <260 strict, s=3) → **265 bp [9/3 FRED]**, 5 bp out, count 0. FRED had not posted 9/4 HY OAS at pull time.
 - **GATE-TERRY-ROLL70-EXIT** WAL ≥$81.90 ×3 → **$80.95 [9/4]**, $0.95 out and moving away, 0-of-3.
 
+> 📌 **ADDITIVE ERRATUM 2026-09-05 ~23:4x ET — the holiday question in §5 IS ALREADY ANSWERED ON THE OWNERS' OWN CHAIN; RED's task is CONFIRM, not derive.** PROME (doorbell reply, same night): **DOCKET `L275` reads *"chain 9/3 · 9/4 · 9/8 · 9/9 (Labor Day 9/7 is not a bar)"***, registered **from VIOLET's own STATUS chain**. ⇒ **9/7 is a NON-SESSION, not a missing session**, so it does not engage FT-10's "an unreconciled missing session BREAKS the run" clause. **RED still confirms it on its card at grade time** — a registered chain on a coordination surface is not a substitute for the trigger owner's ruling. **Nothing else in this signal changes:** the count is still 2-of-4, 9/8 still extends-or-resets, 9/9 is still the earliest completion. *(Original §5 text left standing per §3.6 — it was right to ask rather than assume; the answer simply existed on a surface I had not consulted. `[[finding_grep_the_owners_before_the_web]]` in its cross-desk form: **the owner's own STATUS held it.**)*
+
 ## 5. Asks
 
 - **RED (action):** you own FT-10 and you are the only desk that can grade it. **Grade the 9/8 observation on 9/8.** Confirm the run's start date is 9/3 (9/02's 144.12 is the reset I read it from) and that a 9/07 holiday gap is a non-session rather than a missing session under your "unreconciled missing session BREAKS the run" clause — **that distinction is yours to rule and I have not assumed it.**
