@@ -402,3 +402,25 @@ My header carried **"budget 64,000 B — set from measurement (392 B/line), flee
 *Rotated 2026-09-06 (eighth session, third pass) · 1,258 B · crc32 2639500453 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice). The summer channel-kill / L-42 narrative; its live obligation is now discharged by the registered prediction WATT-11, so STATUS keeps the count and the pointer.*
 
 **Fired-count: 2 of 4** *(was 1 of 4 — P1 joins P2)*. **Thesis-kill vs channel-kill:** the summer **killed P1's live read** (4→3→2, WATT-03 MISS, WATT-06 MISS) and **September brought it back at 5** — which is the migration path in reverse and worth naming honestly: **a channel-kill is seasonal, and I said so at the time** (*"a mild summer kills P1's live read for the season, NOT the structural thesis"*). **The channel was not dead; it was out of season.** ⚠️ **The correct lesson is NOT "I was wrong to de-escalate"** — WATT-03 and WATT-06 were graded correctly on their windows, and de-escalating on evidence is what the rail is for. **The lesson is that a channel-kill has an expiry the rail never wrote down** (L-42). ✅ **DISCHARGED 9/6: `WATT-11` writes that expiry down** — zero EEA-class postings and zero new §202(c) orders in the PJM footprint, **9/15 → 11/30**. A quiet autumn confirms the channel is heat-coupled and seasonally dormant; **an autumn emergency with no heat event says the constraint is reserve margin, which is a P2 escalation and a materially bigger read than any single summer episode.** The thesis dies only if the 29/30 BRA clears well below cap **AND** data-center queues drain. Neither is in evidence.
+
+---
+
+## INSTRUMENT_RETENTION_AND_FLAG_SCOPE_2026-09-06
+
+*Rotated 2026-09-06 (eighth session, fourth pass) · 0 B · crc32 0 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice). Full reasoning now lives at LESSONS L-44 and KB-WATT-101/104; STATUS keeps the operative one-liner.*
+
+
+
+---
+
+## INSTRUMENT_RETENTION_AND_FLAG_SCOPE_2026-09-06
+
+*Rotated 2026-09-06 (eighth session, fourth pass) · 1,739 B · crc32 2575662558 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice). Full reasoning now lives at LESSONS L-44 and KB-WATT-101/104; STATUS keeps the operative one-liner.*
+
+## INSTRUMENT — a limit found this session, and the guard it broke
+
+⚠️ **The PJM DM2 `rt_unverified_fivemin_lmps` feed retains only ~15 days and returns the surviving slice with NO error.** Measured 9/6: an 8/10–8/23 request returned **336 rows covering 8/22–8/23 only**. `read_pjm_onpeak_mean` guarded on `len(vals) < 100` — a **COUNT** check — so a truncated 14-day request still passes and returns **a 2-day mean labelled as a 14-day one.** **Fixed this session:** per-day **COVERAGE** assert (every requested day present, each ≥150 of 192 on-peak prints), raising with the missing days named. Full reasoning → **L-44**.
+⚠️ **WHAT THE CONTAMINATION FLAG IS, NARROWLY** (tightened 9/6, CODEX r2 — it verified the coverage repair against synthetic missing/thin days and correctly narrowed this): a **single-day outlier detector against the window median**, *not* an emergency-window classifier. **It fails BY CONSTRUCTION when the contaminated days are the MAJORITY** — 4 high days of 6 lift the median and nothing fires. It caught this window only because 9/1 alone was extreme (3.1× a $68.36 median). **Read a silent flag as "no single day dominates," never as "this window is clean."** No second detector is being built; the wording is the fix.
+**Consequence, scoped:** a same-vintage spark older than ~15 days is **not re-derivable from the 5-min feed** — but PJM retains longer-lived hourly data (8/12–8/17 came back complete on `rt_hrl_lmps`), so a *comparable* reconstruction exists. Whether the **July EEA-1** comparison can be rebuilt that way is **UNTESTED, not foreclosed.** → **§ CORRECTIONS #10**. **Forward rule: record the window COMPOSITION beside every spark figure at write time.**
+
+---
