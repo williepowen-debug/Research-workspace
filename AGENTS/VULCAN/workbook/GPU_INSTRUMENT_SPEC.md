@@ -38,10 +38,31 @@ This desk has carried the **compute-spot baseline as a registered open item sinc
 
 | Rank | Source | Class | Reconnaissance, 2026-09-06 |
 |---|---|---|---|
-| **①** | **CME / Silicon Data GPU-hour futures + the underlying daily rental index** | `exchange_primary` | **Not live until 2026-10-05.** `cmegroup.com` **TIMED OUT** from this box (2 endpoints) ⇒ **SEARCH-NOT-FOUND: CME spec notice ser-9785, contract codes, settlement method.** Unfetched, **not** unavailable — WATT got a 403 on the same notice. `silicondata.com` root resolves **200** and advertises an API (16 mentions); no public index endpoint found at `/index` (404). |
+| **①a** | **Silicon Data daily GPU rental INDEX** (the underlying) | `index_vendor` | 🔴 **LIVE NOW — CORRECTED 2026-09-06.** ⚠️ **My 9/6 row bundled this with the futures and marked the pair "not live until 2026-10-05." That conflated a CONTRACT LISTING with a PUBLISHED SERIES and it was wrong.** The H100 Rental Price Index publishes **daily**, in **USD per GPU-hour**, and a current level is publicly readable on the product page: **$2.53/GPU-hour, ticker `SDH100RT` (NEO-CLOUD reading)** [silicondata.com/products/silicon-index/h100, read 2026-09-06]. ⚠️ **The full series + history + API are PAID** (7-day trial; "distributed via web and API" behind the portal) ⇒ this is a **COST/ACCESS blocker, not a reachability unknown** — a materially different state from SEARCH-NOT-FOUND. |
+| **①b** | **CME / Silicon Data GPU-hour FUTURES** | `exchange_primary` | **Not listed until 2026-10-05** (planned launch, pending regulatory review). `cmegroup.com` **TIMED OUT** from this box (2 endpoints) ⇒ **SEARCH-NOT-FOUND: CME spec notice ser-9785, contract codes, settlement method.** Unfetched, **not** unavailable — WATT got a 403 on the same notice. |
 | **②** | **ICE / Ornn** — independent second construction | `index_vendor` | `ice.com/products` resolves **200**. Specific Ornn index endpoint **not yet located** — named as unchecked. |
 | **③** | **LLMTK** — fallback only | `secondary` | Not probed. Fallback tier; probing it before ①/② would invert the order. |
 | *(reference)* | **Vast.ai public bundles API** | `marketplace_api` | Resolves **200** and returns real per-GPU-hour asks. ⚠️ **The default endpoint returned 64 offers with n=3 for H100 SXM** — a thin, uncharacterised sample of one marketplace. **That is a candidate panel CELL, never the on-demand tier.** |
+
+---
+
+## 3b. 🔴 SERVICE-CONDITION CORRECTION (2026-09-06, CODEX review — ACCEPTED, mechanism CORRECTED)
+
+**The defect is real and it lands before the freeze, which is the only reason it is cheap.** §5.3 says *"`spot` for on-demand"*, and `price_basis` declares `spot | 1mo | ... | 36mo`. That mapping cannot survive contact with the rank-①a source.
+
+⚠️ **CODEX's mechanism was the opposite of the truth, and the correction matters more than the flag.** CODEX read Silicon Data as *publishing* on-demand, interruptible-spot and reserved as distinct readings — so my single `spot` basis would **merge** three published series. The vendor's own methodology says the reverse: it **tracks** all three and **normalizes them into ONE consolidated benchmark per GPU model**, explicitly because *"a short-duration Spot rental in one region is not economically equivalent to a multi-year Reserved contract in another. Blending them directly creates noise rather than insight."* Observations are *"standardized for rental term length, cluster scale, and interconnect"* [silicondata.com/blog/building-a-robust-gpu-index, read 2026-09-06].
+
+🔑 **So the real consequence is sharper and points the other way: the index is a TERM-NORMALIZED COMPOSITE and therefore has no `price_basis` in my vocabulary at all.**
+- Filing `SDH100RT` as `tier=on_demand, price_basis=spot` would **assert a service condition the index explicitly does not have.**
+- Worse for the instrument's whole purpose: the **spread** would then subtract a *specific 12-month contract* from a *normalized-across-all-terms* composite — so part of the measured spread would be **Silicon Data's normalization**, not the market. That is the composition trap of §2 re-entering through the units instead of the vendor list.
+
+**Resolutions required in `GPU-PANEL-01` before reading 1 — these are ADDITIONS to §5, not replacements:**
+1. **`price_basis` gains `term_normalized`** as a first-class value, and any index-vendor row MUST use it. An index level is not a quoted price and must never borrow one's basis.
+2. **A `term_normalized` row may not be differenced against a single-term row** to produce `spread_*`. If both sides are not on a declared like-for-like basis, `spread_pct` is `UNGRADEABLE` — which is exactly why that column is typed String.
+3. **Segment must be recorded, not just the vendor.** The index publishes **neo-cloud and hyperscaler as separate readings**, and the public ticker is the **NEO-CLOUD** one. §2's 3–6×-for-the-same-silicon dispersion is *already segmented by the vendor* — quoting "Silicon Data" without the segment silently picks one side of the very dispersion this instrument exists to measure.
+4. **The paid-access decision is a panel input, not an afterthought:** the free public figure is a single current level with **no history and no audit trail**, on a marketing page whose format can change. A weekly series built from it is reconstructible only going forward. Decide, in the panel spec, whether that is the source of record or a cross-check.
+
+⚠️ **PROME's ruling para. 3 inherited the same futures-vs-index assumption** (it ranks "CME/Silicon Data" as one `exchange_primary` source available at the 10/05 listing). **Corrected back to PROME by packet 2026-09-06** — the correction has to reach the instruction, not just my copy of it `[[finding_ask_which_surface_the_reader_travels_not_where_the_fact_belongs]]`.
 
 ---
 

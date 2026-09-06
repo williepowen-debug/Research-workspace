@@ -23,8 +23,11 @@ CHECKS
   · header drift        — declared columns vs the ledger's actual header (both directions)
   · ragged rows         — field count != header count
   · required-field population
-  · enum membership     — against SCHEMA `allowed_values`
-  · type shape          — Date/Timestamp/Integer/Float
+  · enum membership     — against SCHEMA `allowed_values` (Enum, and EnumPrefix
+                          for parameterised tokens like S4 `band`)
+  · type shape          — Date/Timestamp/Integer/Float; Float must be FINITE
+  · numeric constraints — declared sets (1|2|3) and bounds (> 0, >= 1) on
+                          Integer/Float are ENFORCED, not just documented
   · id format + uniqueness where an id pattern is declared
   · CROSS-FILE score reconcile — VX.tsv vs STATUS matrix vs STATUS composite arithmetic
   · ERR: sentinels in series ledgers — REPORTED AS A COUNT (they are honest failures,
@@ -39,6 +42,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import math
 import re
 import sys
 from collections import Counter
@@ -51,6 +55,8 @@ DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 TS_RE = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
 DMY_RE = re.compile(r"^\d{2}-[A-Za-z]{3}-\d{4}$")
 ID_PAT = re.compile(r"^([A-Z]+(?:-[A-Z]+)*)-N+$")   # e.g. KB-VULCAN-NNN, FL-VULCAN-NN
+NUM_LIT_RE = re.compile(r"^-?\d+(?:\.\d+)?$")
+BOUND_RE = re.compile(r"^\s*(>=|<=|>|<)\s*(-?\d+(?:\.\d+)?)\s*$")
 
 
 def rows(p):
@@ -92,6 +98,47 @@ def check_enum(val, allowed):
     return val in {a.strip() for a in allowed.split("|") if a.strip()}
 
 
+def check_enum_prefix(val, allowed):
+    """A PARAMETERISED token: the head before '(' must be a declared member.
+
+    S4_SERIES `band` is written `no-stress(cum ticked down 35.1->29.9 ...)` — the
+    band NAME is a closed set, the parenthetical is free-form evidence. A plain
+    membership check would false-alarm on every real row, and the predictable
+    next move is to loosen it back to nothing
+    [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]].
+    """
+    members = "|".join(m.split("(", 1)[0].strip()
+                       for m in allowed.split("|"))
+    return check_enum(val.split("(", 1)[0].strip(), members)
+
+
+def numeric_constraint(val, allowed):
+    """Enforce a declared SET or BOUND on a numeric field. None == satisfied.
+
+    Until 2026-09-06 `allowed_values` on an Integer/Float was DOCUMENTATION ONLY:
+    the validator checked that the cell PARSED and never that it obeyed the
+    constraint printed beside it. `price_usd > 0` accepted -1 and 0; VX `score`
+    declared 1|2|3|4|5 and accepted 9.
+    """
+    a = (allowed or "").strip()
+    if not a:
+        return None
+    if "|" in a:
+        members = {m.strip() for m in a.split("|") if m.strip()}
+        if members and all(NUM_LIT_RE.match(m) for m in members):
+            if val.strip() not in members:
+                return f"not in declared set [{a}]"
+        return None            # prose beside a number is not a constraint
+    m = BOUND_RE.match(a)
+    if m:
+        op, bound = m.group(1), float(m.group(2))
+        x = float(val)
+        if not {">": x > bound, ">=": x >= bound,
+                "<": x < bound, "<=": x <= bound}[op]:
+            return f"violates declared bound `{a}`"
+    return None
+
+
 def type_ok(val, t, allowed):
     if t == "Date":
         return bool(DATE_RE.match(val)) or bool(DMY_RE.match(val))
@@ -101,10 +148,12 @@ def type_ok(val, t, allowed):
         return val.lstrip("-").isdigit()
     if t == "Float":
         try:
-            float(val)
-            return True
+            x = float(val)
         except ValueError:
             return False
+        # nan/inf parse cleanly and then propagate silently through every downstream
+        # calculation. A ledger value must be a NUMBER, not a float-shaped sentinel.
+        return math.isfinite(x)
     return True
 
 
@@ -173,9 +222,17 @@ def validate(only=None):
                                     f"[{f['allowed_values']}]"
                                     + ("  <- ONE FIELD, ONE TOKEN: prose in a machine-read cell"
                                        if len(val) > 24 else ""))
+                elif f["data_type"] == "EnumPrefix" and f["allowed_values"]:
+                    if not check_enum_prefix(val, f["allowed_values"]):
+                        errs.append(f"{ledger}:{i} `{col}` = {val[:58]!r} — token before '(' "
+                                    f"not in [{f['allowed_values']}]")
                 elif not type_ok(val, f["data_type"], f["allowed_values"]):
                     errs.append(f"{ledger}:{i} `{col}` = {val[:40]!r} is not a valid "
                                 f"{f['data_type']}")
+                elif f["data_type"] in ("Integer", "Float"):
+                    why = numeric_constraint(val, f["allowed_values"])
+                    if why:
+                        errs.append(f"{ledger}:{i} `{col}` = {val[:40]!r} {why}")
         if err_sentinels:
             notes.append(f"{ledger}: {err_sentinels} ERR: sentinel(s) — honest failures, "
                          f"NOT schema violations, but a partial run is a FAILED run [L-16/L-20]")

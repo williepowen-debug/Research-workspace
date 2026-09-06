@@ -59,7 +59,7 @@ MAG7_SERIES.tsv	mag7_ex_goog_pct	Float		Yes	THE TRAP VALUE: Alphabet has TWO ind
 MAG7_SERIES.tsv	breadth_rsp_spy_63d_pp	Float		Yes	RSP/SPY 63d relative return, pp. The SECOND leg of S1's RED conjunction
 MAG7_SERIES.tsv	breadth_state	Enum	collapse|no-collapse|UNGRADEABLE	Yes	⚠️ UNGRADEABLE if the breadth leg is unavailable — never a silent downgrade to orange
 MAG7_SERIES.tsv	band	String		Yes	S1 band verdict
-MAG7_SERIES.tsv	validation	String	OK:… | ERR:…	Yes	Zero-free-parameter check. A row is NOT written unless this is OK
+MAG7_SERIES.tsv	validation	String	OK:… | ERR:…	Yes	Zero-free-parameter check. A row is NOT written unless this is OK ⚠️ PATTERN, deliberately String: `OK:`/`ERR:` PREFIX + free-form body, not a closed set.
 MAG7_SERIES.tsv	mag7_pct_normalized	Float		No	Equity-normalized Mag-7 weight (cash removed). ⚠️ Two fetches of the SAME as-of file gave 32.9821 vs 32.9982 — basis noise EXCEEDS the 0.019pp distance to the yellow line, so never claim above-or-below on this basis
 MAG7_SERIES.tsv	nvda_pct	Float		No	NVDA weight — the largest single S&P name
 MAG7_SERIES.tsv	nvda_share_of_group_pct	Float		No	NVDA as % of the Mag-7 group
@@ -76,9 +76,9 @@ S4_SERIES.tsv	mom_pct	Float		Yes	Month-over-month %. ⚠️ NEGATIVES ARE REAL �
 S4_SERIES.tsv	yoy_pct	Float		Yes	Monthly YoY %. ⚠️ Spans 16.9%-67.9% over 20 obs — near-meaningless alone; CITE THE CUMULATIVE
 S4_SERIES.tsv	ytd_yoy_pct	Float		Yes	Cumulative Jan-to-date YoY % — THE citable figure
 S4_SERIES.tsv	decel_run_mo	Integer		Yes	Consecutive months of cumulative-YoY decline. `decel` needs >=2 (base-rated: 1mo fired 50% of the time)
-S4_SERIES.tsv	ytd_is_month	String	YES-january-no-cumulative-block | (blank)	No	January filings carry no cumulative block — marked, never silently synthesised
-S4_SERIES.tsv	band	String	red-decline|orange-flat|yellow-decel(...)|no-stress(...)	Yes	⚠️ red-decline has occurred 0/20 in-sample: REACHABLE but NO base rate — its silence is not stability
-S4_SERIES.tsv	validation	String	OK:… | ERR:…	Yes	Three zero-free-parameter recomputations. Row NOT written on mismatch
+S4_SERIES.tsv	ytd_is_month	Enum	YES-january-no-cumulative-block | (blank)	No	January filings carry no cumulative block — marked, never silently synthesised
+S4_SERIES.tsv	band	EnumPrefix	red-decline|orange-flat|yellow-decel(...)|no-stress(...)	Yes	⚠️ red-decline has occurred 0/20 in-sample: REACHABLE but NO base rate — its silence is not stability
+S4_SERIES.tsv	validation	String	OK:… | ERR:…	Yes	Three zero-free-parameter recomputations. Row NOT written on mismatch ⚠️ PATTERN, deliberately String: `OK:`/`ERR:` PREFIX + free-form body, not a closed set.
 S4_SERIES.tsv	filed	Date	YYYY-MM-DD	No	SEC filing date — ⚠️ NOT the revenue month; ~5-6 weeks apart
 S4_SERIES.tsv	prior_month_ntd_mn	Float		No	Prior month revenue, the MoM denominator
 S4_SERIES.tsv	year_ago_ntd_mn	Float		No	Year-ago month revenue, the YoY denominator
@@ -88,12 +88,12 @@ S4_SERIES.tsv	ytd_yoy_prev_month_pct	Float		No	Prior month's cumulative YoY — 
 S4_SERIES.tsv	source	String		No	Accession-level source attribution
 SCHEMA.tsv	ledger	String	filename	Yes	Which workbook file this row describes. ⚠️ Added 2026-08-21 — this file documented KB.tsv ONLY for its whole life while CLAUDE.md said 'read before writing'
 SCHEMA.tsv	variable_name	String		Yes	Column name as it appears in that ledger's header
-SCHEMA.tsv	data_type	Enum	String|Integer|Float|Date|Timestamp|Enum	Yes	Type
+SCHEMA.tsv	data_type	Enum	String|Integer|Float|Date|Timestamp|Enum|EnumPrefix	Yes	Type
 SCHEMA.tsv	allowed_values	String	pipe-separated	No	Enum members, or format. Blank = free text
 SCHEMA.tsv	required	Enum	Yes|No	Yes	Whether the field must be populated
 SCHEMA.tsv	description	String		Yes	What it means and the trap to avoid
 EDGAR_SEEN.tsv	first_seen_utc	Timestamp	ISO-8601 Z	Yes	When THIS DESK first observed the filing — NOT when it was filed. ⚠️ Never use as the filing vintage: use `filed`. Two clocks, deliberately both kept — the gap between them IS the detection latency this instrument exists to shrink
-EDGAR_SEEN.tsv	tick	String	NVDA|ORCL|CRWV|MU|TSM	Yes	Issuer ticker. Roster + the REASON each issuer is on it lives in edgar_watch.py ISSUERS
+EDGAR_SEEN.tsv	tick	Enum	NVDA|ORCL|CRWV|MU|TSM	Yes	Issuer ticker. Roster + the REASON each issuer is on it lives in edgar_watch.py ISSUERS
 EDGAR_SEEN.tsv	cik	Integer	SEC CIK, unpadded	Yes	SEC Central Index Key. The stable identifier — tickers change, CIKs do not
 EDGAR_SEEN.tsv	form	String	EDGAR form type	Yes	e.g. 8-K, 10-Q, 10-K, 6-K, 4, 144. Free-form by EDGAR's schema — an UNRECOGNISED form is tiered 2 (surfaced), never suppressed
 EDGAR_SEEN.tsv	filed	Date	YYYY-MM-DD	Yes	EDGAR filingDate. CONTENT vintage for boot leg 8 — never mtime [finding_mtime_is_corrupted_by_git_sync]
@@ -102,7 +102,7 @@ EDGAR_SEEN.tsv	accession	String	NNNNNNNNNN-NN-NNNNNN	Yes	SEC accession — the a
 EDGAR_SEEN.tsv	primary_doc	String	filename	No	Primary document filename. ⚠️ NEVER infer a date from it [finding_url_date_inference_has_no_error_signal, n=2]
 EDGAR_SEEN.tsv	items	String	comma-separated 8-K item codes	No	8-K item codes, e.g. '1.01,2.03,7.01'. 🔑 MACHINE-READABLE S5 TRIPWIRE: 1.01 = material definitive agreement, 2.03 = creation of a direct financial obligation, 2.02 = results. The 2026-08-17 $105B guaranty 8-K carries 1.01,2.03,7.01. Empty for non-8-K forms
 EDGAR_SEEN.tsv	tier	Integer	1|2|3	Yes	Surfacing tier, NOT importance. 1=material 2=ownership/structure 3=insider+routine. Controls DISPLAY only — every filing is logged regardless, and suppressed counts are always printed
-EDGAR_SEEN.tsv	channel	String	S1|S2|S4|S5|S5/S1	Yes	Which VULCAN channel this issuer serves. Denormalised from the roster so a ledger row is readable without the tool
+EDGAR_SEEN.tsv	channel	Enum	S1|S2|S4|S5|S5/S1	Yes	Which VULCAN channel this issuer serves. Denormalised from the roster so a ledger row is readable without the tool
 LAYER_SERIES.tsv	asof_utc	Timestamp	ISO-8601 Z	Yes	Run timestamp. ⚠️ NOT a vintage — the vintage is holdings_asof
 LAYER_SERIES.tsv	holdings_asof	Date	DD-Mon-YYYY	Yes	CONTENT vintage: as-of date of the SSGA SPY holdings file. Shares the mag7.py fetch, so a LAYER row and a MAG7 row from one run are provably the same artifact
 LAYER_SERIES.tsv	window_days	Integer	1|5|21|63	Yes	Trailing trading-day window ending at holdings_asof. 21 is the rolling-1mo basis S2/VULCAN-16 grade on; 63 matches the breadth leg
@@ -128,18 +128,18 @@ LAYER_SERIES.tsv	validation	String		Yes	Declared layer members absent from the h
 LAYER_SERIES.tsv	source	String		Yes	Provenance string
 GPU_SERIES.tsv	asof_utc	Timestamp	ISO-8601 Z	Yes	Run timestamp. NOT the vintage — see reading_date.
 GPU_SERIES.tsv	reading_date	Date	YYYY-MM-DD	Yes	The PRE-COMMITTED reading slot this row belongs to. CONTENT vintage. ⚠️ A row whose reading_date is not on the registered cadence is an OFF-CADENCE reading and must say so in notes — whoever chooses the run times chooses the readings [L-21].
-GPU_SERIES.tsv	tier	String	on_demand | contract | spread	Yes	🔴 THE LOAD-BEARING FIELD. The two tiers SIGN-INVERT against each other (WATT 2026-09-03: H100 1-yr contract +40% while on-demand flat-to-down over the same window). NEVER grade one tier alone; PROME's 2026-09-03 ruling registers BOTH plus the spread.
-GPU_SERIES.tsv	instrument	String	futures | rental_index | marketplace_quote | survey | dealer_quote	Yes	What kind of price this is. A settlement price and a marketplace ask are not the same object.
+GPU_SERIES.tsv	tier	Enum	on_demand | contract | spread	Yes	🔴 THE LOAD-BEARING FIELD. The two tiers SIGN-INVERT against each other (WATT 2026-09-03: H100 1-yr contract +40% while on-demand flat-to-down over the same window). NEVER grade one tier alone; PROME's 2026-09-03 ruling registers BOTH plus the spread.
+GPU_SERIES.tsv	instrument	Enum	futures | rental_index | marketplace_quote | survey | dealer_quote	Yes	What kind of price this is. A settlement price and a marketplace ask are not the same object.
 GPU_SERIES.tsv	vendor	String	free text; REQUIRED per cell	Yes	⚠️ NAMED PER CELL, never aggregated away. Hyperscaler H100 medians run $6.26-9.34 vs marketplace $1.95-2.58 — 3-6x for the SAME silicon [WATT]. Vendor identity is most of the dispersion.
-GPU_SERIES.tsv	gpu_model	String	H100_SXM | H100_NVL | H100_PCIE | H200 | B200 | A100 | other	Yes	Model, not family. Cross-model averaging manufactures the composition artifact this instrument exists to detect.
-GPU_SERIES.tsv	unit	String	USD_per_GPU_hour	Yes	Normalised per GPU-hour. A multi-GPU node ask MUST be divided by num_gpus before it enters this column.
+GPU_SERIES.tsv	gpu_model	Enum	H100_SXM | H100_NVL | H100_PCIE | H200 | B200 | A100 | other	Yes	Model, not family. Cross-model averaging manufactures the composition artifact this instrument exists to detect.
+GPU_SERIES.tsv	unit	Enum	USD_per_GPU_hour	Yes	Normalised per GPU-hour. A multi-GPU node ask MUST be divided by num_gpus before it enters this column.
 GPU_SERIES.tsv	price_usd	Float	> 0	Yes	The price. Blank is FORBIDDEN — a failed leg writes an ERR: sentinel, never a blank or a stale carry-forward [L-16].
 GPU_SERIES.tsv	n_observations	Integer	>= 1	Yes	How many quotes the cell aggregates. 🔴 n IS PART OF THE READING, not metadata: a median over n=3 is a level, not a tier.
-GPU_SERIES.tsv	panel_spec_id	String	GPU-PANEL-NN	Yes	🔴 WHICH PANEL DEFINITION PRODUCED THIS ROW. Changing the panel changes the series; a series whose panel silently drifted is measuring its own composition. Any panel change mints a NEW id and the old rows keep the old one.
-GPU_SERIES.tsv	price_basis	String	spot | 1mo | 3mo | 6mo | 12mo | 36mo	Yes	Contract duration the price is struck over. on_demand is 'spot'. ⚠️ Comparing across bases is the same error class as comparing a non-GAAP guide to a GAAP actual.
+GPU_SERIES.tsv	panel_spec_id	String	GPU-PANEL-NN	Yes	🔴 WHICH PANEL DEFINITION PRODUCED THIS ROW. Changing the panel changes the series; a series whose panel silently drifted is measuring its own composition. Any panel change mints a NEW id and the old rows keep the old one. ⚠️ FORMAT `GPU-PANEL-NN`, deliberately String and NOT machine-enforced today — named as a known gap, not an oversight.
+GPU_SERIES.tsv	price_basis	Enum	spot | 1mo | 3mo | 6mo | 12mo | 36mo | term_normalized	Yes	Contract duration the price is struck over. on_demand is 'spot'. ⚠️ Comparing across bases is the same error class as comparing a non-GAAP guide to a GAAP actual. ⚠️ `term_normalized` ADDED 2026-09-06: an INDEX LEVEL is not a quoted price. Silicon Data's H100 index normalizes on-demand/spot/reserved into ONE benchmark ("standardized for rental term length"), so it has no single-term basis and must not borrow `spot`. 🔴 A `term_normalized` row must NOT be differenced against a single-term row — if the two sides are not like-for-like, `spread_pct` is the literal UNGRADEABLE, or the spread measures the vendor's normalization instead of the market.
 GPU_SERIES.tsv	spread_vs_other_tier_usd	Float	free; blank only on tier=on_demand/contract rows	No	Populated on tier=spread rows only. The spread IS the instrument: a flat on-demand read against a +40% contract read is either a genuine leading divergence or a broken panel, and only the spread plus the published panel distinguishes them.
-GPU_SERIES.tsv	spread_pct	String	Float as text, or UNGRADEABLE	No	String, not Float, ON PURPOSE — it holds the literal UNGRADEABLE when either leg is missing or n is below the panel minimum. Coercing that to a number manufactures the false precision the guard exists to prevent (same reasoning as KB.as_of and LAYER_SERIES.*_share_pct).
-GPU_SERIES.tsv	source_class	String	exchange_primary | index_vendor | marketplace_api | secondary	Yes	PROME's registered source ORDER: (1) CME/Silicon Data GPU-hour futures + underlying daily rental index once live, (2) ICE/Ornn as an independent second construction, (3) LLMTK fallback only. A row must say which rank it came from.
-GPU_SERIES.tsv	source_url	String	URL or SEARCH-NOT-FOUND:<what>	Yes	The artifact. An unreachable source is recorded as SEARCH-NOT-FOUND with the exact thing that was unreachable named [finding_a_named_unchecked_fallback_makes_an_absence_closable].
-GPU_SERIES.tsv	validation	String	free text; ERR: prefix on failure	Yes	The zero-free-parameter check this row passed. Fails LOUD.
+GPU_SERIES.tsv	spread_pct	String	Float as text, or UNGRADEABLE	No	String, not Float, ON PURPOSE — it holds the literal UNGRADEABLE when either leg is missing or n is below the panel minimum. Coercing that to a number manufactures the false precision the guard exists to prevent (same reasoning as KB.as_of and LAYER_SERIES.*_share_pct). ⚠️ String ON PURPOSE so it can hold the literal UNGRADEABLE without coercion manufacturing false precision.
+GPU_SERIES.tsv	source_class	Enum	exchange_primary | index_vendor | marketplace_api | secondary	Yes	PROME's registered source ORDER: (1) CME/Silicon Data GPU-hour futures + underlying daily rental index once live, (2) ICE/Ornn as an independent second construction, (3) LLMTK fallback only. A row must say which rank it came from.
+GPU_SERIES.tsv	source_url	String	URL or SEARCH-NOT-FOUND:<what>	Yes	The artifact. An unreachable source is recorded as SEARCH-NOT-FOUND with the exact thing that was unreachable named [finding_a_named_unchecked_fallback_makes_an_absence_closable]. ⚠️ FORMAT: URL or `SEARCH-NOT-FOUND:<what>`; free-form by design.
+GPU_SERIES.tsv	validation	String	free text; ERR: prefix on failure	Yes	The zero-free-parameter check this row passed. Fails LOUD. ⚠️ PATTERN, deliberately String: `ERR:` PREFIX + free-form body, not a closed set.
 GPU_SERIES.tsv	notes	String	free text	No	Caveats, off-cadence declarations, panel-change rationale.
