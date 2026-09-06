@@ -199,7 +199,7 @@ The 8/3 S2 upgrade 2 → 3 rested on **two** stated legs. **One of them has fail
 |---|---|---|
 | Mag-7 weight, vol/dispersion expression, Path-B | **VIOLET** | I own the *mechanism*; VIOLET owns the repricing. Reconcile to ONE figure |
 | AI-credit **spread tells** (HY/IG, CDS, the GS/JPM basket) | **LIQUID** | I own capex/fundamentals + obligations. **Do NOT maintain a parallel spread series** — KB-075's DDTL ladder is routed to LIQUID, not kept as a rival index |
-| PJM/ERCOT power price, firm-vs-nameplate GW | **WATT** | Adopt verbatim: **~55 GW nameplate / ~32 GW firm coincident-peak. Never net, never average** (KB-087) |
+| PJM/ERCOT power price, firm-vs-forecast GW | **WATT** | Adopt verbatim *(wording corrected 2026-09-06)*: **~55 GW = aggregate utility-reported forecast (self-reported, non-coincident, contains duplication) · ~32 GW = firm coincident-peak (PJM-vetted). Never net, never average. Neither is an interconnection-queue nameplate figure — the ~250 GW generation queue is a third population** (KB-087 + KB-146) |
 | China capacity timeline (CXMT, bit output) | **ZHAO** | The number that would move S2's shortage premise; unsized, requested |
 | Taiwan kinetic | **HAWK** | S4's tail; I own only the semiconductor consequence |
 
