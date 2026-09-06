@@ -702,12 +702,12 @@ def mode_closeout():
                "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
     check_desk_catalyst_summons()  # don't go dark on a desk's catalyst eve (BD-02)
     # WQ-184 L1 closeout half: what LANDS before the next likely boot (1d weekday, 3d Fri/Sat) and who is there —
-    # pre-spawn under L0 or post the list to Will as a slate (8/27 precedent). Never silence.
+    # slate them in the closeout report (8/27 precedent); the spawn itself waits for the first boot on/after the date. Never silence.
     _gap = "3" if dt.date.today().weekday() in (4, 5) else "1"
     run_script(ADVISE, f"spawn list — rows landing before the next boot (+{_gap}d, WQ-184)",
                [sys.executable, "PROME/tools/spawn_list.py", "--horizon", _gap, "--tsv"],
-               "LANDS-IN rows with a dark owner ⇒ pre-spawn now or slate to Will in the closeout report; "
-               "DARK ⇒ act before going dark")
+               "LANDS-IN rows with a dark owner ⇒ SLATE them in the closeout report (the spawn waits for the first "
+               "boot on/after the date, or Will's word from the slate); DARK ⇒ act before going dark")
     check_will_queue()
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one

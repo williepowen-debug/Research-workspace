@@ -32,8 +32,8 @@ METHOD (every leg verifiable at the artifact):
   class     DARK        owner's last self-commit is BEFORE the row's start date  → Tier-1 due-row spawn candidate
             ACTIVE      owner committed on/after the row's start date           → consumer read at the OWNER's
                         artifact FIRST (the L115 receipt-gap class: graded 8/7, coordinator row PENDING 29d)
-            LANDS-IN-k  not yet due; printed with the owner's last-commit age so closeout can pre-spawn or
-                        slate what lands in the gap to the next boot
+            LANDS-IN-k  not yet due; printed with the owner's last-commit age so closeout can SLATE what lands
+                        in the gap to the next boot (the spawn waits for the first boot on/after the date)
             PROME-OWNED / WILL-OWNED as above.
   cadence   NOT modelled in v1 — the Class 8 DESK cadence column (STATE_VOCABULARY, Will-approved 8/21,
             "instrument = fleet_triage.py, PROME applies the column") was UNBUILT at 2026-09-05 (VERIFIED:
