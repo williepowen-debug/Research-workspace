@@ -30,6 +30,8 @@
 
 **Net-bear 58 (Stag 32 + Acute 13 + War 13, was 60) · Managed+Rescue 36 (Managed 32 + Rescue 4, unchanged) · Soft 6.** Sum = 100. **The ORACLE re-mark moves mass WITHIN the non-bear side, so net-bear is untouched at 60 — a stale-carry correction is not a thesis move.** **Discipline note: the FT-06 −2 is mechanical with a post-hoc magnitude (flagged, §1); the −4 is discretionary and labelled as such. Neither is netted against RED-21's CORRECT, which is arithmetic and scores nothing.**
 
+**🆕 RECESSION NUMBER — published 9/6, the first RED has ever held (DOCKET L272 / ORACLE's 6/13 ask). P(NBER recession BEGINNING in calendar 2026) = 4–12%; NO point estimate — withheld as an anti-anchoring disclosure, I read the crowd's 7.0% before pulling a series.** ⚠️ **The interval CONTAINS 7.0% ⇒ a net-bear-58 desk does NOT dispute the crowd's recession level.** **The 83-day "silence" was a STRUCTURAL ABSENCE, not a lapse:** RED's six buckets partition transmission **channel**, not GDP **outcome** — `net-bear 58` never was a recession claim. 🔴 **Self-challenge logged unresolved:** projecting the buckets returns **11–20%**, 2–3× the crowd — not what "uninformative about recession" should look like. Panel + the horizon problem ➡️ [`research/2026-09-06_RED_recession_number_L272.md`](research/2026-09-06_RED_recession_number_L272.md)
+
 **Symmetry test I ran on myself before taking the S41 −2 (9/6):** would I have moved Soft to **2** and Stagflation to **36** if August had printed **−100K** with EPOP falling and AHE re-accelerating? **Unambiguously yes.** The move is symmetric, so it is legitimate. ⚠️ **And the part that is mine, not the revision's: "first negative print of the cycle" was FALSE WHEN I WROTE IT** — on the currently-published PAYEMS vintage the cycle carries **six** negative MoM months since 2025-01 (−48 · −20 · −70 · −140 · −17 · **−156 [2026-02]**), the largest **6.8×** the figure now retracted. The retraction *exposed* that error; it did not create it. *(Scoped: that is a claim about the CURRENT VINTAGE's month-over-month levels. Whether each printed negative on release day is a DIFFERENT object and I have not verified it — which is exactly the distinction WQ-175 FROZEN-ON-REVISABLE exists to force.)*
 
 **Symmetry test I ran on myself before taking the −4 (S29 8/12):** would I have taken **+4** if core had printed 0.4% MoM and 5y5y had jumped to 2.6%? **Unambiguously yes.** The move is symmetric, so it is legitimate.
@@ -48,26 +50,25 @@
 
 **The counter I must hold — and it is thinner than last week's.** Credit is priced for none of it (HY 265), disinflation buys no relief from a real-rate grind, **CCC >1000 on every print since 7/27**, and **CHG-028's oil→core test is untouched and unrun until 10/14 + 11/10** — I have not graded my own falsifier early. Two bear reads survive today's print intact: the **added-worker effect** (LFPR up with U-3 flat is also late-cycle household need — discriminator unheld) and **falling real wages** (2.80% AHE vs 3.4% headline). ⚠️ **Independence caution, still binding:** the managed-decline pile leans heavily on one cancelled airstrike (ML-RED-133); count it roughly once.
 
-## COUNTER-SIGNALS (refresh 8/12 — live-pulled this pass unless dated)
+## COUNTER-SIGNALS (🆕 **live-pulled 9/6** — every row restamped; the 8/12 stamp was a month old and was hiding a vector-leg crossing, §OVX)
 
-| Signal | Value | Bull read | Bear read | RED Wt | Δ |
-|---|---|---|---|:--:|:--:|
-| **Core CPI 3-mo ann. 1.61%** (BLS 8/12) | at/below target on every window; 12-mo 2.5 from 2.6 | 3-mo contains Jun 0.0 outlier; on a 0.2/mo run-rate it is 2.4 = still at target | **75/25 bull** | **NEW ROW** |
-| **5y5y breakeven 2.28%** (FRED **8/12**, own pull; 2.31 [8/11]) | **fell 3bp ON the soft CPI print** — expectations never unanchored through either oil shock | a market price, and this book's premise is that the market under-prices; anchors break late and nonlinearly | **70/30 bull** | **NEW ROW** |
-| **30Y 5.23 / 10Y real 2.43** (8/12; DFII10 8/10) | 10Y 4.67, off the highs | **did NOT rally on a soft core print** — real-rate object, not inflation. Disinflation buys no relief | **30/70 bear** | **strongest bear row** |
-| **VIX 14.82** (8/12; 15.28 [8/11]) | **FT-06 FIRED** — sub-16 ×5, managed-decline confirmed | shares the 8/3 de-escalation antecedent with SKEW + HY | **70/30 bull** | **NEW FIRE** |
-| **HY OAS 272** (FRED 8/11; low 270 [8/7,8/10]) | 9 sessions <280; July widening fully round-tripped | WL-03 re-arm at ≥280 is **8bps away** — a re-widen is BEAR evidence now | **70/30 bull** | held |
-| **CCC OAS 1023** (FRED 8/11) | supplied only 13% of the index flow (KB-RED-081) | **>1000 ×12 since 7/27**; CCC−HY 751 vs 749 [7/31] = not decompressing | **45/55 bear** | refreshed |
-| **^SKEW (CBOE equity) 142.93** (8/19; re-cross 8/17 ×3) | reversion to the MODAL state (>140 = 54-65% of sessions; 142-143 is ordinary) — NOT an alarm at this level; VIOLET's 20d-avg regime-termination call (139.86) coexists by arithmetic | tail bid rebuilding off a 2%-rare dismantled state; **FT-10 reload line ≥150 is 7.07 away**, and July ran to 154.82 | **60/40 bull** (was 70/30) | **re-crossed** |
-| **OVX 53.60** (8/12) | off the 67.59 [7/29] high with Brent's fade | **still not crushed** — VX-RED-025's <45 flip leg unmet; oil vol prices a war equity vol dismisses | **40/60 bear** | refreshed |
-| **Brent 88.48** (8/12) | −12% from the 7/23 peak ⚠️ **[basis disputed — §9]** | **+7.9% off the 82.03 [8/7] low — half the fade retraced** while Hormuz stays closed | **50/50** (was 55/45 bull) | **shifted** |
-| **NFP +162K Aug · July −23K → +21K** (BLS USDL-26-1435, 9/4; own FRED verify 9/6) | **🔴 ROW REBUILT — THE OLD ROW IS RETRACTED AT THE ISSUER.** Revised run Mar→Aug **214/148/63/31/21/162**; 3-mo avg **+71K**; labour force **+683K** absorbed with U-3 flat 4.1%, LFPR 61.4→61.6, EPOP 58.9→59.1. Two witnesses (CES + CPS) agree. | **Added-worker read is live**: LFPR rising with U-3 flat is also late-cycle household need (CARL's consumer stress) — discriminator is the prime-age vs 55+/teen split, **which I do not have**. And AHE 3-mo ann **2.80%** against headline 3.4% YoY = **falling real wages** — the same datum is bull for inflation and bear for the consumer. | **65/35 bull** (was 50/50) | **🆕 REBUILT S41** |
-| **WAL 81.51 / OZK 51.79 / KRE 76.90** (8/12) | cohort benign ×7 surfaces since 7/22 | OZK adverse-selection TRUE under a beat; EGBN 2.78% ann NCO | **cohort 70/30 bull · OZK+EGBN bear** | held |
-| **USDJPY 159.22** (8/12) | SAM FLAT | **WL-07 (>160) 0.78 away — nearest live watchline on the board** | **50/50** (was 55/45 bull) | **shifted** |
+| Signal | Value [date] | Bull read | Bear read | RED Wt |
+|---|---|---|---|:--:|
+| **Core CPI 3-mo ann.** | **1.61%** [8/12 — **DATED, no new print until 9/11**] | at/below target on every window | 3-mo contains a Jun 0.0 outlier; 0.2/mo run-rate = 2.4, still at target | **75/25 bull** |
+| **5y5y breakeven** | **2.33%** [FRED 9/4] | expectations never unanchored through either oil shock | a market price, and this book's premise is that the market under-prices; anchors break late and nonlinearly | **70/30 bull** |
+| **30Y / 10Y real** | **5.25 / 2.42** [9/3] | off the highs | **the strongest bear row, and now the ONLY structural one** — disinflation bought no rate relief; a real-rate object, not an inflation one | **30/70 bear** |
+| **VIX** | **14.53** [9/4] | FT-06 fired and stays banked; sub-16 for a month | shares the 8/3 de-escalation antecedent with SKEW + HY (ML-133) — count once | **70/30 bull** |
+| **HY OAS** | **265** [9/3] | credit prices none of the bear case; FT-01 banked | **FT-12 (<260) is 5bp away and widening AWAY** — the nearest live registered line | **70/30 bull** |
+| **CCC OAS** | **1,051** [9/3] | supplied ~13% of index flow (KB-081); bottom-tier, not systemic | **>1000 on every print since 7/27** — the sole dissenting instrument on the whole recession panel | **45/55 bear** |
+| **^SKEW (CBOE)** | **151.58** [9/4] | >140 is the modal state; VIOLET terminated the elevated regime on a 20d average | **FT-10 SATISFIED and COUNTING 2-of-4** — tail bid rebuilding; 9/8 extends or resets | **50/50** (was 60/40 bull) |
+| **OVX** | **44.96** [9/4] | **🆕 crushed at last — first sub-45 print of the cycle**, and this leg had been unmet since June | ⚠️ **VX-RED-025's flip is a 3-leg CONJUNCTION and this is 1-of-3.** `de-escalation AND OVX<45 AND Brent<$85 s=5d` — **Brent 96.28 is 13% ABOVE the $85 leg and moving away.** Vector NOT flipped | **50/50** (was 40/60 bear) |
+| **Brent** | **96.28** [9/4] | −12% from the 7/23 peak | **WL-11 (<95) un-fired, 1.28 above**; Hormuz still closed, spare ≈0 | **50/50** |
+| **NFP** | **+162K Aug; Jul −23K→+21K** [9/4] | **row rebuilt — see the retraction block above.** 3-mo +71K; +683K absorbed at U-3 4.1% | added-worker read live (split unheld); AHE 2.80% vs 3.4% headline = falling real wages | **65/35 bull** |
+| **WAL / OZK / KRE** | **80.95 / 50.43 / 75.27** [9/4] | cohort benign ×7 surfaces since 7/22 | OZK adverse-selection TRUE under a beat; EGBN 2.78% ann NCO | **70/30 bull · OZK+EGBN bear** |
+| **USDJPY** | **156.22** [9/4] | SAM FLAT; WL-07 (>160) 3.78 away, **receded** from 0.78 in August | WL-12 (<155) is now the nearer line at 1.22 | **50/50** |
 
-**Balance:** the inflation pile joined the credit/vol pile on the bull side; the *price-of-money* pile (30Y, real yields) is now carrying the bear alone, alongside levels (CCC ×12, OVX). **Two consecutive sessions in which the bull case won on my own registered instruments.**
+**Balance, restated on 9/6 rather than carried:** the bull owns inflation, vol, credit and — **new this week** — the labour market. **The bear's structural pile is down to two rows: the price of money (30Y 5.25 / real 2.42) and CCC >1000.** ⚠️ **That is a one-and-a-half-channel thesis, and I should say so plainly rather than let a twelve-row table imply breadth.**
 
----
 
 ## FALSIFICATION CRITERIA (registry TSV canonical — pointer only)
 
