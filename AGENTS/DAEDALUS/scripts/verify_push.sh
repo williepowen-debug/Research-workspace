@@ -15,8 +15,20 @@
 # Verify by SUBJECT, not hash: a rebase rewrites unpushed commit hashes, so the
 # hash you recorded pre-sweep may no longer exist on any branch.
 #
+# ⚠️ TWO HIGH BUGS FIXED 2026-09-05 (Codex, cross-vendor review, REPRODUCED in memory), both
+# of which let a stale cached ref certify as fresh work — the guard's OWN failure mode, one
+# more layer in (PAT-050): (1) the `git fetch` rc was IGNORED, so a FAILED fetch fell through
+# to the CACHED origin/master; a match there is not proof of a push. Now: certify only after a
+# fetch actually SUCCEEDS; all-3-attempts-failed is CANNOT-CERTIFY, not a pass. (2) "age" was
+# computed against the BRANCH TIP's timestamp, so a stale ref whose match IS the tip gave
+# AGE 0 and false-greened a week-old commit. Now: age is WALL-CLOCK (`date +%s` − commit time).
+# The 8/23 tip-based age only ever caught "a NEWER tip exists"; it was blind to "the whole ref
+# is stale." RESIDUAL (Codex, acknowledged): subject-substring + age is a HEURISTIC for
+# identity, not a proof — for a load-bearing check add a content check (`git show REF:<path> |
+# md5sum`) and pass a subject unique to THIS commit (the NMATCH>1 warning flags ambiguity).
+#
 # rc contract (CHECK_STANDARD §9): 0 = on origin · 1 = genuinely NOT on origin
-#                                  2 = CANNOT CERTIFY (ref unreadable — NOT proof of failure)
+#                                  2 = CANNOT CERTIFY (fetch failed / ref unreadable — NOT proof of failure)
 #
 # usage: bash verify_push.sh "<commit subject substring>" [ref]
 set -u
@@ -30,9 +42,11 @@ fi
 
 cd "$(git rev-parse --show-toplevel)" || exit 2
 
+FETCH_OK=0
 for attempt in 1 2 3; do
-  git fetch -q origin 2>/dev/null
-  if REF=$(git rev-parse --verify -q "$REFNAME"); then
+  # (1) Codex fix: a FAILED fetch must NOT fall through to the cached ref. Gate on success.
+  if git fetch -q origin 2>/dev/null; then FETCH_OK=1; fi
+  if [ "$FETCH_OK" = 1 ] && REF=$(git rev-parse --verify -q "$REFNAME"); then
     # ⚠️ AGE-SCOPED SINCE 2026-08-23, AFTER THIS GUARD RETURNED A FALSE GREEN ON ITSELF.
     # The old line was `git log --format="%h %s" REF | grep -m1 -F -- "$SUBJ"` over ALL of
     # history, which makes it a SUBSTRING-EXISTENCE test ("has anyone ever committed this
@@ -59,7 +73,7 @@ for attempt in 1 2 3; do
     if [ -n "$HITLINE" ]; then
       HIT=$(printf '%s' "$HITLINE" | cut -f1)
       HITTS=$(printf '%s' "$HITLINE" | cut -f2)
-      NOW=$(git log -1 --format=%ct "$REFNAME" 2>/dev/null || echo "$HITTS")
+      NOW=$(date +%s)   # (2) Codex fix: WALL-CLOCK, not the branch tip — else a stale-ref match at the tip is AGE 0.
       AGE=$(( NOW - HITTS ))
       [ "$AGE" -lt 0 ] && AGE=0
       NMATCH=$(git log --format="%s" "$REFNAME" | grep -c -F -- "$SUBJ")
@@ -82,6 +96,12 @@ for attempt in 1 2 3; do
   sleep 1   # a concurrent session holds the ref; retry rather than cry wolf
 done
 
+if [ "$FETCH_OK" = 0 ]; then
+  echo "⚠️  CANNOT CERTIFY — git fetch origin FAILED on all 3 attempts (offline / remote unreachable)."
+  echo "   origin/master may be STALE; a subject match against the CACHED ref is NOT proof of a push."
+  echo "   Re-run once connectivity returns."
+  exit 2
+fi
 echo "⚠️  CANNOT CERTIFY — $REFNAME unreadable after 3 attempts (concurrent git activity)."
 echo "   This is NOT evidence the push failed. Re-run once the other session settles."
 exit 2
