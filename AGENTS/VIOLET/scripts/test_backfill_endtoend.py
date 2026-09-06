@@ -33,6 +33,10 @@ first three do not reach:
   4. valid CSV with the date        -> control, must be inert
   5. valid CSV, date absent, cell BLANK on a non-SETTLE row -> the provisional
      FILL is allowed, and the row must NOT then be stamped SETTLE.
+  6. THE SAME FIXTURE RUN TWICE -> the stamp must not appear on the second run
+     either (the 2nd-pass guard's per-run memory failed exactly here).
+  7. RECOVERY CONTROL -> once CBOE supplies the series, its value replaces the
+     provisional one and the row MUST be allowed to settle.
 
 ACCEPTANCE, asserted on the file after each run:
   · no Yahoo value ever lands in a row labelled basis=SETTLE
@@ -41,7 +45,8 @@ ACCEPTANCE, asserted on the file after each run:
 Run:  .venv/bin/python3 AGENTS/VIOLET/scripts/test_backfill_endtoend.py
       rc=0 all pass · rc=1 a contract failed
       --falsify  additionally re-runs every case against the PRE-FIX backfill.py
-                 from git HEAD and requires each to FAIL there.
+                 from a PINNED revision (never HEAD) and requires the fixed
+                 cases to FAIL there, with a negative control.
 """
 from __future__ import annotations
 
@@ -247,11 +252,90 @@ def fill_path_case(mod, tag: str) -> bool:
     return ok
 
 
+# ⚠️ AN IMMUTABLE REV, NOT `HEAD`. The 2nd-pass version of this loader read
+# `HEAD:...backfill.py`, which was the pre-fix file AT THE MOMENT I RAN IT and
+# became the FIXED file the instant I committed. Codex's next run therefore
+# compared fixed code against fixed code and reported 6 passed / 3 failed.
+# 🔑 A BASELINE THAT MOVES IS NOT A BASELINE. The experiment was sound and its
+# committed reproduction mechanism was broken by the very commit that shipped it
+# — a test whose correctness depends on WHEN you run it relative to your own
+# commit. Pin the revision; `1e8ae5d00` is the 3-route fix, so `^` is pre-fix.
+# (Independently confirmed by Codex against `1e8ae5d00^`: cases 2/3/5 fail,
+# 1/4 pass — exactly the intended result.)
+PREFIX_REV = "1e8ae5d00^"
+
+
+def two_run_and_recovery(mod, tag: str) -> list[bool]:
+    """[6][7] The SECOND RUN, and the recovery that must still be allowed.
+
+    Codex 3rd pass: the 2nd-pass safeguard remembered provisional writes only for
+    the current run. On run 2 the provisional cell is on disk, the destination
+    gate correctly PRESERVES it, so nothing new is recorded — and the stamp then
+    only asked whether CBOE had `vix`. Run 1 left basis blank; run 2 stamped
+    SETTLE over the mirror value. A guard whose memory is shorter than the state
+    it guards fails on the second run.
+
+    [7] is the negative control that keeps the fix from being merely restrictive:
+    once CBOE supplies SKEW, its value must REPLACE the provisional one and the
+    row must be allowed to settle. A guard that never lets anything settle would
+    pass [6] and be useless.
+    """
+    out = []
+    print(f"\n[6] TWO RUNS, identical responses — the stamp must NOT appear on run 2")
+    row = dict(SETTLE_ROW); row["skew"] = ""; row["basis"] = ""
+    with tempfile.TemporaryDirectory() as td:
+        led = Path(td) / "VX_DAILY.tsv"
+        write_ledger(led, row)
+        old_log, old_get = mod.DAILY_LOG, mod.requests.get
+        mod.DAILY_LOG = led
+        mod.requests.get = make_requests_stub(mod, "missing_date")
+        seen = []
+        try:
+            for _ in range(2):
+                with redirect_stdout(io.StringIO()):
+                    rc = mod.main(["--spot-only"])
+                g = read_ledger(led)["2026-09-04"]
+                seen.append((str(g["skew"]), str(g.get("basis", "")).strip().upper(), rc))
+        finally:
+            mod.DAILY_LOG, mod.requests.get = old_log, old_get
+    ok = all(b != "SETTLE" for _, b, _ in seen)
+    out.append(ok)
+    check(f"{tag} provisional 149.00 never acquires SETTLE across two runs", ok,
+          f"run1={seen[0]} run2={seen[1]}")
+
+    print(f"\n[7] RECOVERY CONTROL — when CBOE supplies SKEW, it replaces the "
+          f"provisional value and the row MAY settle")
+    row = dict(SETTLE_ROW); row["skew"] = ""; row["basis"] = ""
+    with tempfile.TemporaryDirectory() as td:
+        led = Path(td) / "VX_DAILY.tsv"
+        write_ledger(led, row)
+        old_log, old_get = mod.DAILY_LOG, mod.requests.get
+        mod.DAILY_LOG = led
+        try:
+            mod.requests.get = make_requests_stub(mod, "missing_date")
+            with redirect_stdout(io.StringIO()):
+                mod.main(["--spot-only"])
+            mod.requests.get = make_requests_stub(mod, "good")   # CBOE catches up
+            with redirect_stdout(io.StringIO()):
+                rc = mod.main(["--spot-only"])
+            g = read_ledger(led)["2026-09-04"]
+        finally:
+            mod.DAILY_LOG, mod.requests.get = old_log, old_get
+    replaced = abs(float(g["skew"]) - 151.58) < 1e-9
+    settled = str(g.get("basis", "")).strip().upper() == "SETTLE"
+    ok2 = replaced and settled and rc == 0
+    out.append(ok2)
+    check(f"{tag} CBOE's 151.58 replaces the provisional value and the row settles", ok2,
+          f"skew={g['skew']!r} basis={g.get('basis')!r} rc={rc} "
+          f"(replaced={replaced} settled={settled})")
+    return out
+
+
 def load_head_module():
-    """The PRE-FIX backfill.py straight from git HEAD, imported side-by-side."""
+    """The PRE-FIX backfill.py from a PINNED rev, imported side-by-side."""
     root = subprocess.run(["git", "rev-parse", "--show-toplevel"],
                           capture_output=True, text=True, check=True).stdout.strip()
-    src = subprocess.run(["git", "show", "HEAD:AGENTS/VIOLET/scripts/backfill.py"],
+    src = subprocess.run(["git", "show", f"{PREFIX_REV}:AGENTS/VIOLET/scripts/backfill.py"],
                          capture_output=True, text=True, check=True, cwd=root).stdout
     tmp = Path(tempfile.mkdtemp()) / "backfill_head.py"
     tmp.write_text(src)
@@ -270,16 +354,18 @@ def main() -> int:
     print("=" * 70)
     suite(backfill, "FIXED:")
     fill_path_case(backfill, "FIXED:")
+    two_run_and_recovery(backfill, "FIXED:")
 
     if "--falsify" in sys.argv:
         print("\n" + "=" * 70)
-        print("  FALSIFICATION — the same cases against PRE-FIX backfill.py (git HEAD)")
+        print(f"  FALSIFICATION — the same cases against PRE-FIX backfill.py ({PREFIX_REV})")
         print("  A guard whose failure path has never been RUN is an assumption.")
         print("=" * 70)
         head = load_head_module()
         global EXPECT_FAILURES
         EXPECT_FAILURES = True
-        got = suite(head, "HEAD:") + [fill_path_case(head, "HEAD:")]
+        got = (suite(head, "PRE-FIX:") + [fill_path_case(head, "PRE-FIX:")]
+               + two_run_and_recovery(head, "PRE-FIX:"))
         EXPECT_FAILURES = False
         # Cases 1 and 4 were already closed by WQ-188 ①, so they SHOULD pass at HEAD.
         # Cases 2, 3 and 5 are what this fix adds and MUST fail at HEAD.
@@ -288,7 +374,9 @@ def main() -> int:
             check(f"FALSIFIED: case [{i + 1}] FAILS against pre-fix code", not passed,
                   "the test can distinguish fixed from unfixed"
                   if not passed else "⚠️ test is blind — it passes without the fix")
-        check("FALSIFIED: cases [1] and [4] still pass at HEAD (WQ-188 ① held)",
+        check("FALSIFIED: case [6] (two-run stamp) FAILS against pre-fix code",
+              not got[5], "the 3rd-pass defect is reproduced by the pinned baseline")
+        check("FALSIFIED: cases [1] and [4] still pass pre-fix (WQ-188 ① held)",
               got[0] and got[3], "the new suite does not simply fail everything")
 
     print("\n" + "=" * 70)

@@ -82,8 +82,7 @@ def determine_regime(vix: float | None) -> str:
 
 def backfill_spot(days: int, rows: dict[str, dict],
                   cboe_hist: dict[str, dict[str, float]] | None = None,
-                  cboe_failed: set[str] | None = None,
-                  provisional_rows: set[str] | None = None) -> int:
+                  cboe_failed: set[str] | None = None) -> int:
     """PROVISIONAL spot pass — yfinance. NOT a writer of record for the six columns.
 
     ⚠️ WRITE AUTHORITY IS SCOPED (2026-09-06, WQ-188 fix ①; Codex HIGH). Before
@@ -124,10 +123,12 @@ def backfill_spot(days: int, rows: dict[str, dict],
     afterwards, and needs no new token
     [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]].
 
-    `provisional_rows`, when passed, is POPULATED with the dates that received a
-    provisional write, so `backfill_spot_cboe` can refuse to stamp them SETTLE
-    later in the same run (the blank-fill path: a row CBOE confirms for `vix` but
-    not for every column).
+    ⚠️ A `provisional_rows` out-parameter lived here in the 2nd pass so the CBOE
+    pass could refuse to stamp those rows. IT IS REMOVED: per-run memory failed on
+    the SECOND run (the provisional cell is on disk, nothing new is written, the
+    set is empty). `backfill_spot_cboe` now reads the invariant off the row itself
+    and needs no bookkeeping from here. Kept as one guard, not two — a strictly
+    weaker second guard only manufactures the impression of depth.
 
     Passing neither `cboe_hist` nor `cboe_failed` restores the old unscoped
     behaviour and is left only for direct callers/tests; `main` always scopes.
@@ -205,8 +206,6 @@ def backfill_spot(days: int, rows: dict[str, dict],
                     row[key] = val
                     changed = True
                     provisional += 1
-                    if provisional_rows is not None:
-                        provisional_rows.add(d_str)
         # Recompute derived columns when we have both
         vix = row.get("vix")
         vix3m = row.get("vix3m")
@@ -454,8 +453,7 @@ def fetch_all_cboe() -> tuple[dict[str, dict[str, float]], set[str]]:
 
 def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None,
                        hist: dict[str, dict[str, float]] | None = None,
-                       failed: set[str] | None = None,
-                       provisional_rows: set[str] | None = None) -> dict[str, int]:
+                       failed: set[str] | None = None) -> dict[str, int]:
     """AUTHORITATIVE spot pass — CBOE daily-prices CSVs for all six columns.
 
     CBOE is the publisher of record for every index in this ledger, so this pass
@@ -560,31 +558,48 @@ def backfill_spot_cboe(rows: dict[str, dict], today: str | None = None,
                 pass
 
         # A completed session CBOE has published is a SETTLE by construction —
-        # but ONLY when every column in the row was confirmed by CBOE this run.
-        # `basis` is a ROW-level claim, so a row holding even one unverified
-        # column must not be stamped: that stamp is what made Codex's case
-        # dangerous rather than merely wrong (149.00 carrying a SETTLE label).
-        # ⚠️ ...AND NOT ONTO A ROW THIS RUN JUST WROTE A PROVISIONAL CELL INTO
-        # (WQ-188 2nd pass). The `not failed` guard above is a WHOLE-RUN test and
-        # cannot see the blank-fill path: CBOE can succeed on all six series,
-        # confirm `vix` for a past date, and still publish nothing for one column
-        # on that date — yfinance legitimately fills that blank, and the row then
-        # met every condition for a SETTLE stamp while holding a mirror value.
-        # The destination gate in backfill_spot closes the OVERWRITE route; this
-        # closes the FILL route. Both are needed: they are different paths to the
-        # same end state, and the v1 test suite asserted neither.
-        if d_str in (provisional_rows or set()):
-            settle_withheld_provisional += 1
-            continue
+        # but ONLY when EVERY spot column the label covers was confirmed by CBOE
+        # for that date. `basis` is a ROW-level claim, so a row holding even one
+        # unverified column must not be stamped: that stamp is what made Codex's
+        # case dangerous rather than merely wrong (149.00 carrying a SETTLE label).
+        #
+        # ⚠️ THIS TEST IS STATELESS ON PURPOSE, AND THAT IS THE 3RD-PASS FIX.
+        # The 2nd pass gated on `d_str in provisional_rows` — a set built during
+        # THIS run. It held on run 1 and FAILED ON RUN 2 (Codex, reproduced here):
+        # the provisional 149.00 is on disk, the destination gate correctly
+        # PRESERVES it, so no new provisional write is recorded, the set is empty
+        # — and the stamp condition then only asked whether CBOE had `vix`. Result:
+        # run 1 leaves basis blank, run 2 stamps SETTLE over the mirror value.
+        # 🔑 A GUARD WHOSE MEMORY IS SHORTER THAN THE STATE IT GUARDS FAILS ON THE
+        # SECOND RUN. The state (a provisional cell) is PERSISTENT; the evidence
+        # for it was per-run. The fix is not to persist the bookkeeping but to
+        # stop needing it: read the invariant off the ROW ITSELF, which is where
+        # the state actually lives.
+        # ⚠️ AND THE COMMENT ABOVE ALREADY STATED THIS INVARIANT ("every column
+        # ... confirmed by CBOE") WHILE THE CODE CHECKED ONLY `vix` — the second
+        # time in one day that a comment in this file certified what the code did
+        # not do (cf. fetch_cboe_history's "parse failure" docstring).
+        #
+        # Per column: CBOE confirmed it for this date, OR the cell is blank.
+        # A blank is safe — it is the absence of a claim, not a mirror value.
+        # This also gives RECOVERY for free: once CBOE publishes the missing
+        # series, its pass overwrites the provisional value above and every
+        # column becomes confirmed, so the row settles legitimately.
         if not failed and d_str < today and hist["vix"].get(d_str) is not None:
+            unconfirmed = [c for c in CBOE_SERIES
+                           if hist.get(c, {}).get(d_str) is None
+                           and str(row.get(c, "") or "").strip()]
+            if unconfirmed:
+                settle_withheld_provisional += 1
+                continue
             if str(row.get("basis", "") or "").strip() != "SETTLE":
                 row["basis"] = "SETTLE"
                 settle_stamped += 1
 
     print(f"  CBOE: {agreed} cell(s) agreed, {filled} blank(s) filled, "
           f"{corrected} CORRECTED, {settle_stamped} row(s) stamped SETTLE, "
-          f"{settle_withheld_provisional} row(s) NOT stamped (hold a provisional "
-          f"yfinance cell from this run)")
+          f"{settle_withheld_provisional} row(s) NOT stamped (hold an "
+          f"unconfirmed cell)")
     if corrections:
         print(f"  🔴 {len(corrections)} VALUE CORRECTION(S) — ledger was wrong, CBOE wins:")
         for line in corrections:
@@ -617,15 +632,12 @@ def main(argv=None):
         cboe_hist, cboe_failed = fetch_all_cboe()
 
         print(f"\n[1b] yfinance provisional pass ({args.spot_days} days)...")
-        provisional_rows: set[str] = set()
         touched = backfill_spot(args.spot_days, rows,
-                                cboe_hist=cboe_hist, cboe_failed=cboe_failed,
-                                provisional_rows=provisional_rows)
+                                cboe_hist=cboe_hist, cboe_failed=cboe_failed)
         print(f"  touched {touched} rows")
 
         print("\n[1c] Writing spot columns from CBOE (authoritative)...")
-        backfill_spot_cboe(rows, hist=cboe_hist, failed=cboe_failed,
-                           provisional_rows=provisional_rows)
+        backfill_spot_cboe(rows, hist=cboe_hist, failed=cboe_failed)
 
     if not args.spot_only:
         print(f"\n[2/2] Backfilling M1:M2 steepness ({args.m1m2_days} trading days)...")

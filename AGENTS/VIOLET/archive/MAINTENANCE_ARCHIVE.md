@@ -502,3 +502,31 @@
 
 ---
 
+---
+
+*Rotated from `MAINTENANCE.md` 2026-09-06 PM3 on the ~300-line cap, verbatim, crc32 `d4ed7154`.*
+
+## 2026-09-02 — READ-CAP hot/cold split of MEMORY.md; `^SKEW` basis ruled to CBOE; 31-item two-lane inbox drain
+
+**Trigger:** PROME-spawned dark-owner drain (last closeout 8/27, 31 items waiting, oldest 8/05) + DAEDALUS P1 READ-CAP packet (8/28, 🔴, Will "P1 approved go ahead").
+
+**What changed (structural only — analytical changes are in `thesis/CHANGELOG.md` and KB-VIO-214→220):**
+
+1. **`MEMORY.md` hot/cold split (READ-CAP remedy).** MEMORY.md was a boot-step-3 whole-read measuring **42,166 B = 78% of the 54,250 B cap**, over the 32,550 B budget. The `## SESSION NOTES — trajectory log` section (former lines 177–238, **21,363 B**) moved **verbatim** to `archive/MEMORY_SESSION_NOTES_COLD.md` under a provenance banner; a pointer stub replaced it. **Verified byte-identical** (`cksum` 141786895 / 21,363 B on both the pre-split source and the cold body). Hot half now **21,457 B = 40% of cap**. Nothing deleted, nothing reworded.
+2. **`CLAUDE.md` boot/write-back perimeter corrected.** `read_cap_check.py` had flagged `thesis/VIX_THESIS.md` (58,233 B, 107% of cap) and `workbook/VX_DAILY.tsv` (32,552 B) as boot whole-reads. **Both were perimeter false positives** — they are WRITE/append targets on write-back steps 8 and 13, never boot reads. Per the packet's own remedy (*"the fix is to make the boot step say what IS read"*) both lines now carry explicit `WRITE/append target — on-demand, never a boot whole-read` markers, and boot step 3 records the MEMORY split. **`read_cap_check.py --agent VIOLET` now returns rc=0, 4 files, all under budget.** No budget was raised and no file truncated.
+3. **`^SKEW` grading basis changed to CBOE `SKEW_History.csv`** (publisher of record); yfinance demoted to a gap-checked same-day mirror. Recorded in KB-VIO-215. **No script changed yet** — the trading-calendar completeness check is queued as RESEARCH QUEUE #3. This is a *stated basis*, not yet a mechanised one, and that gap is deliberate and named.
+4. **`registry/corrections_receipts.tsv` created** — first receipt filed (COR-20260826-01, NO-OP; the clause was audited 8/27 and never carried).
+5. **`board_log.tsv` gains a second source class.** WALTER-lane rows use `source=INBOX_WALTER` per the BOARD_CONSUMPTION_SPEC; the 16 root-lane packets were logged with `source=INBOX_ROOT` so the whole drain is machine-auditable from one file rather than only narrated in SCRATCH. **Extension of an existing column's value set, not a schema change.**
+6. **Both inbox lanes emptied** — 15 WALTER + 16 root `git mv`'d to their `processed/` dirs.
+
+**Files touched:** `MEMORY.md` · `archive/MEMORY_SESSION_NOTES_COLD.md` (new) · `CLAUDE.md` · `STATUS.md` · `SCRATCH.md` · `LAST_COMPLETION.md` · `NEXUS_BRIEF.md` · `CALENDAR.md` · `workbook/KB.tsv` · `workbook/CATALYSTS.tsv` · `board_log.tsv` · `registry/corrections_receipts.tsv` (new) · `research/2026-09-02_skew_endpoint_basis_resolved.md` (new) · `research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md` (new) · `MAINTENANCE.md` · packets into RED / HENRY / PROME inboxes.
+
+**Boot impact:** boot-time whole-reads drop from 6 files to 4 and from a 🔴-over-cap state to rc=0. A session wanting the pre-8/01 trajectory arc must now open `archive/MEMORY_SESSION_NOTES_COLD.md` explicitly — that is the intended cost of the split and boot step 3 names the file.
+
+**Lessons:**
+- **A read-cap breach and a read-cap FALSE POSITIVE want opposite remedies, and only one of the three flagged surfaces was a real breach.** Splitting `VIX_THESIS.md` because a heuristic listed it would have restructured a canonical framework doc to satisfy a mis-parse. **Check whether the file is actually read before deciding how to shrink it.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
+- **I logged one drain disposition as "acted — dead path repointed" and then discovered the citing row had not existed since the 8/18 catalyst rebuild.** Corrected in place to `stale`. I wrote the disposition from the *packet's description of my file* instead of from *my file*. `[[finding_record_of_an_action_is_not_the_action]]` — and a "fixed it" row for a structurally impossible fix is worse than no row.
+- **`move.py --boot` prints a live "GATE-VIO-116 re-open" leg for a row the fire-ledger RESOLVED on 7/16** (KB-VIO-219). Found, deliberately **not** fixed — a threshold-surface edit late in a heavy session. Queued as RESEARCH QUEUE #5.
+
+---
+

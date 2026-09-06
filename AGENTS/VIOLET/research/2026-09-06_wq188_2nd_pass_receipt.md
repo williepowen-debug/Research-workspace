@@ -22,7 +22,7 @@
 ## Acceptance criteria (Codex's, verbatim) — met
 
 1. **No Yahoo overwrite carrying `SETTLE`** — asserted on the file after every case, all five.
-2. **No false-success exit** — cases 2 and 3 now exit **2**; case 5 exits 0 having written nothing under an authoritative label.
+2. **No false-success exit** — **case 2 (HTML) exits 2**, because that IS a failed fetch. ⚠️ **CORRECTED (Codex 3rd pass): an earlier draft of this line said "cases 2 and 3 exit 2" — case 3 exits 0, as this file's own transcript below shows.** That is correct and not a false success: a valid CSV that simply lacks the target date is **not a failed fetch**, so the run legitimately succeeds having *preserved an existing verified value* rather than written a fallback. Cases 3, 5, 6 and 7 exit 0 with nothing unverified written under an authoritative label. ⚠️ **My summary contradicted the transcript printed directly beneath it** — the transcript was right.
 3. **Actual program path, not source-string assertions** — `backfill.main(["--spot-only"])` is executed; only `requests.get` and the `yfinance` module are stubbed and `DAILY_LOG` is redirected to a temp file.
 
 ## Run output
@@ -119,3 +119,132 @@ The AM suite's **12 green contracts, cited to PROME and on STATUS as assurance t
 ## Scope limit, stated
 
 This covers `backfill.py` only. **`thresholds.py` still writes the leading-edge `VX_DAILY` row from yfinance at every boot** — the six columns are authoritative in *history* and provisional at the *leading edge* (KB-VIO-255/257), which is precisely the window an FT-10 bar is graded in. Deliberately **not** bundled here: re-pointing it is a design question about what a pre-settle row means, not a bug fix.
+
+---
+
+# ADDENDUM — 3rd pass (Codex, same day): the provisional safeguard failed on the SECOND run
+
+**Codex re-ran my own missing-date fixture twice and the guard did not survive it.**
+
+| Run | SKEW | Basis | Exit |
+|---|---|---|---|
+| 1st: blank filled from Yahoo | 149.00 | *(blank / provisional)* | 0 |
+| 2nd: **identical** source responses | 149.00 | **SETTLE** | 0 |
+
+**Reproduced here before changing anything** — `run 1: skew='149.0' basis='' rc=0` → `run 2: skew='149.0' basis='SETTLE' rc=0`.
+
+## Why it failed, and the rule worth keeping
+
+The 2nd-pass safeguard gated on `d_str in provisional_rows` — **a set built during the current run.** On run 2 the provisional value is already on disk, the destination gate correctly **preserves** it, so *no new provisional write is recorded*, the set is empty, and the stamp condition then only asked whether CBOE had `vix`.
+
+🔑 **A GUARD WHOSE MEMORY IS SHORTER THAN THE STATE IT GUARDS FAILS ON THE SECOND RUN.** The state — a provisional cell — is **persistent**; my evidence for it was **per-run**. The fix is not to persist the bookkeeping but to stop needing it: **read the invariant off the row itself**, which is where the state actually lives.
+
+⚠️ **And the comment directly above that code already stated the correct invariant** — *"ONLY when every column in the row was confirmed by CBOE this run"* — **while the code checked only `vix`. That is the second time in one day that a comment in this file certified what the code did not do** (the first was `fetch_cboe_history`'s "parse failure" docstring). A stated invariant is not an implemented one, and writing it down is what stops the next reader checking.
+
+## The fix (Codex's "smallest robust" option, adopted)
+
+Stamp `SETTLE` only when, for **every** one of the six spot columns, either CBOE confirmed the value for that date **or the cell is blank** (a blank is the absence of a claim, not a mirror value). Stateless, no bookkeeping, and **recovery comes free**: once CBOE publishes the missing series its pass overwrites the provisional value, every column becomes confirmed, and the row settles legitimately.
+
+**The now-dead `provisional_rows` plumbing was removed rather than left in place** — a strictly weaker second guard only manufactures the impression of depth, which is the same criticism I levelled at the AM test suite.
+
+## Also fixed this pass
+
+- **`--falsify` was broken by the very commit that shipped it.** The baseline loader read `HEAD:…backfill.py`; HEAD became the *fixed* file the moment I committed, so Codex's run compared fixed code against fixed code (6 passed / 3 failed). **A baseline that moves is not a baseline.** Now pinned to `1e8ae5d00^`. *(Codex independently confirmed that revision reproduces the intended result — 2/3/5 fail, 1/4 pass — so the original experiment stands; only its committed reproduction mechanism was broken.)*
+- **Two live summaries reconciled** — the FT-10 row's *"published 9/10"* (a T+1 assumption my own **KB-VIO-137 retracted**; `^SKEW` publishes same-day ~17:00 ET, and no date is asserted now), and this file's own acceptance line, which contradicted the transcript printed beneath it.
+- **Wording:** three readers *reduce the risk of* reader error; they do not categorically rule it out.
+
+## 3rd-pass run output
+
+### 7 cases, fixed code
+```
+[1] CBOE returns HTTP 503 for SKEW — transport failure
+  ✅ FIXED: verified 151.58 preserved, run exits 2
+       skew='151.58' (want 151.58*) · basis='SETTLE' · rc=2 (want 2) · no-Yahoo-under-SETTLE=True
+
+[2] CBOE returns HTTP 200 whose body is HTML — parse failure
+  ✅ FIXED: verified 151.58 preserved, run exits 2
+       skew='151.58' (want 151.58*) · basis='SETTLE' · rc=2 (want 2) · no-Yahoo-under-SETTLE=True
+
+[3] CBOE returns a VALID CSV that lacks 2026-09-04 — destination gate
+  ✅ FIXED: verified 151.58 preserved (no fallback overwrite)
+       skew='151.58' (want 151.58*) · basis='SETTLE' · rc=0 (want 0) · no-Yahoo-under-SETTLE=True
+
+[4] CONTROL — CBOE valid and complete; the pass must be inert
+  ✅ FIXED: 151.58 unchanged, run exits 0
+       skew='151.58' (want 151.58*) · basis='SETTLE' · rc=0 (want 0) · no-Yahoo-under-SETTLE=True
+
+[5] Provisional FILL into a blank cell must BLOCK the SETTLE stamp
+  ✅ FIXED: blank filled provisionally, row NOT stamped SETTLE
+       skew='149.0' basis='' rc=0 (filled=True not_settle=True)
+
+[6] TWO RUNS, identical responses — the stamp must NOT appear on run 2
+  ✅ FIXED: provisional 149.00 never acquires SETTLE across two runs
+       run1=('149.0', '', 0) run2=('149.0', '', 0)
+
+[7] RECOVERY CONTROL — when CBOE supplies SKEW, it replaces the provisional value and the row MAY settle
+  ✅ FIXED: CBOE's 151.58 replaces the provisional value and the row settles
+       skew='151.58' basis='SETTLE' rc=0 (replaced=True settled=True)
+
+======================================================================
+  7 passed · 0 FAILED
+======================================================================
+```
+
+### `--falsify` against the PINNED pre-fix revision `1e8ae5d00^`
+
+```
+  FALSIFICATION — the same cases against PRE-FIX backfill.py (1e8ae5d00^)
+  A guard whose failure path has never been RUN is an assumption.
+======================================================================
+
+[1] CBOE returns HTTP 503 for SKEW — transport failure
+  ✅ PRE-FIX: verified 151.58 preserved, run exits 2
+       skew='151.58' (want 151.58*) · basis='SETTLE' · rc=2 (want 2) · no-Yahoo-under-SETTLE=True
+
+[2] CBOE returns HTTP 200 whose body is HTML — parse failure
+  ❌ PRE-FIX: verified 151.58 preserved, run exits 2
+       skew='149.0' (want 151.58*) · basis='SETTLE' · rc=0 (want 2) · no-Yahoo-under-SETTLE=False
+
+[3] CBOE returns a VALID CSV that lacks 2026-09-04 — destination gate
+  ❌ PRE-FIX: verified 151.58 preserved (no fallback overwrite)
+       skew='149.0' (want 151.58*) · basis='SETTLE' · rc=0 (want 0) · no-Yahoo-under-SETTLE=False
+
+[4] CONTROL — CBOE valid and complete; the pass must be inert
+  ✅ PRE-FIX: 151.58 unchanged, run exits 0
+       skew='151.58' (want 151.58*) · basis='SETTLE' · rc=0 (want 0) · no-Yahoo-under-SETTLE=True
+
+[5] Provisional FILL into a blank cell must BLOCK the SETTLE stamp
+  ❌ PRE-FIX: blank filled provisionally, row NOT stamped SETTLE
+       skew='149.0' basis='SETTLE' rc=0 (filled=True not_settle=False)
+
+[6] TWO RUNS, identical responses — the stamp must NOT appear on run 2
+  ❌ PRE-FIX: provisional 149.00 never acquires SETTLE across two runs
+       run1=('149.0', 'SETTLE', 0) run2=('149.0', 'SETTLE', 0)
+
+[7] RECOVERY CONTROL — when CBOE supplies SKEW, it replaces the provisional value and the row MAY settle
+  ✅ PRE-FIX: CBOE's 151.58 replaces the provisional value and the row settles
+       skew='151.58' basis='SETTLE' rc=0 (replaced=True settled=True)
+  ✅ FALSIFIED: case [2] FAILS against pre-fix code
+       the test can distinguish fixed from unfixed
+  ✅ FALSIFIED: case [3] FAILS against pre-fix code
+       the test can distinguish fixed from unfixed
+  ✅ FALSIFIED: case [5] FAILS against pre-fix code
+       the test can distinguish fixed from unfixed
+  ✅ FALSIFIED: case [6] (two-run stamp) FAILS against pre-fix code
+       the 3rd-pass defect is reproduced by the pinned baseline
+  ✅ FALSIFIED: cases [1] and [4] still pass pre-fix (WQ-188 ① held)
+       the new suite does not simply fail everything
+
+======================================================================
+  12 passed · 0 FAILED
+======================================================================
+```
+
+### Live control, re-run after the 3rd-pass change
+```
+yfinance (provisional): 0 written, 492 deferred to CBOE, 0/0/0 withheld
+CBOE: 2496 cell(s) agreed, 0 filled, 0 CORRECTED, 0 stamped SETTLE, 0 NOT stamped
+rc=0 · md5 before == after == 8b8b779820bd58d584d3d35948c66c32
+```
+
+**Case [7] is the negative control that matters:** a guard that never let anything settle would pass case [6] and be useless. Recovery still settles, and it passes pre-fix too — the pre-fix code was over-permissive, not under-permissive.

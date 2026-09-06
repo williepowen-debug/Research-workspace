@@ -12,27 +12,29 @@ Log material structural changes only — not routine content edits. Template ado
 
 > 📄 *The **2026-08-18** and **2026-08-20** entries are archived verbatim → `archive/MAINTENANCE_ARCHIVE.md` (crc32 `dfd3e19c`), rotated 2026-09-06 PM2 on the ~300-line cap.*
 
-## 2026-09-02 — READ-CAP hot/cold split of MEMORY.md; `^SKEW` basis ruled to CBOE; 31-item two-lane inbox drain
+> 📄 *The **2026-09-02** entry (READ-CAP hot/cold split of MEMORY.md; `^SKEW` basis ruled to CBOE; 31-item two-lane inbox drain) is archived verbatim → `archive/MAINTENANCE_ARCHIVE.md` (crc32 `d4ed7154`), rotated 2026-09-06 PM3 on the ~300-line cap.*
 
-**Trigger:** PROME-spawned dark-owner drain (last closeout 8/27, 31 items waiting, oldest 8/05) + DAEDALUS P1 READ-CAP packet (8/28, 🔴, Will "P1 approved go ahead").
+## 2026-09-06 (PM3) — Codex 3rd pass: the provisional safeguard failed on the second run; the falsification baseline was broken by its own shipping commit
 
-**What changed (structural only — analytical changes are in `thesis/CHANGELOG.md` and KB-VIO-214→220):**
+**Trigger:** Codex's third pass, run against the committed 2nd-pass code with stubbed sources and temporary ledgers.
 
-1. **`MEMORY.md` hot/cold split (READ-CAP remedy).** MEMORY.md was a boot-step-3 whole-read measuring **42,166 B = 78% of the 54,250 B cap**, over the 32,550 B budget. The `## SESSION NOTES — trajectory log` section (former lines 177–238, **21,363 B**) moved **verbatim** to `archive/MEMORY_SESSION_NOTES_COLD.md` under a provenance banner; a pointer stub replaced it. **Verified byte-identical** (`cksum` 141786895 / 21,363 B on both the pre-split source and the cold body). Hot half now **21,457 B = 40% of cap**. Nothing deleted, nothing reworded.
-2. **`CLAUDE.md` boot/write-back perimeter corrected.** `read_cap_check.py` had flagged `thesis/VIX_THESIS.md` (58,233 B, 107% of cap) and `workbook/VX_DAILY.tsv` (32,552 B) as boot whole-reads. **Both were perimeter false positives** — they are WRITE/append targets on write-back steps 8 and 13, never boot reads. Per the packet's own remedy (*"the fix is to make the boot step say what IS read"*) both lines now carry explicit `WRITE/append target — on-demand, never a boot whole-read` markers, and boot step 3 records the MEMORY split. **`read_cap_check.py --agent VIOLET` now returns rc=0, 4 files, all under budget.** No budget was raised and no file truncated.
-3. **`^SKEW` grading basis changed to CBOE `SKEW_History.csv`** (publisher of record); yfinance demoted to a gap-checked same-day mirror. Recorded in KB-VIO-215. **No script changed yet** — the trading-calendar completeness check is queued as RESEARCH QUEUE #3. This is a *stated basis*, not yet a mechanised one, and that gap is deliberate and named.
-4. **`registry/corrections_receipts.tsv` created** — first receipt filed (COR-20260826-01, NO-OP; the clause was audited 8/27 and never carried).
-5. **`board_log.tsv` gains a second source class.** WALTER-lane rows use `source=INBOX_WALTER` per the BOARD_CONSUMPTION_SPEC; the 16 root-lane packets were logged with `source=INBOX_ROOT` so the whole drain is machine-auditable from one file rather than only narrated in SCRATCH. **Extension of an existing column's value set, not a schema change.**
-6. **Both inbox lanes emptied** — 15 WALTER + 16 root `git mv`'d to their `processed/` dirs.
+**What changed:**
+1. **SETTLE stamping is now STATELESS.** The 2nd-pass guard gated on a per-run `provisional_rows` set: it held on run 1 and stamped `SETTLE` over the provisional 149.00 on run 2, because the value is on disk, the destination gate preserves it, nothing new is recorded, and the stamp then only checked `vix`. Now: stamp only when **every** spot column is CBOE-confirmed for that date **or blank**. **Recovery is preserved and tested as a negative control.** → KB-VIO-267
+2. **Dead plumbing removed** — the `provisional_rows` parameter is gone from both functions rather than left in place beside the stronger guard.
+3. **`--falsify` re-anchored to a pinned revision** (`1e8ae5d00^`). It had loaded `HEAD`, which the shipping commit turned into the fixed file. → KB-VIO-268
+4. **Test cases [6] two-run and [7] recovery control added.** Suite 7/7; `--falsify` 12/12 (2/3/5/6 fail pre-fix, 1/4/7 pass).
+5. **Three summaries reconciled:** `STATUS.md` FT-10 row's *"published 9/10"* withdrawn (a T+1 assumption KB-VIO-137 had already retracted); the receipt's acceptance line corrected against its own transcript (case 3 exits 0); *"rule out"* → *"reduce the risk of"*.
+6. **STATUS restructured rather than shaved** — FT-10 epistemics → KB-VIO-262, WQ-188 narrative → the receipt. Headroom 55 B → **924 B**.
 
-**Files touched:** `MEMORY.md` · `archive/MEMORY_SESSION_NOTES_COLD.md` (new) · `CLAUDE.md` · `STATUS.md` · `SCRATCH.md` · `LAST_COMPLETION.md` · `NEXUS_BRIEF.md` · `CALENDAR.md` · `workbook/KB.tsv` · `workbook/CATALYSTS.tsv` · `board_log.tsv` · `registry/corrections_receipts.tsv` (new) · `research/2026-09-02_skew_endpoint_basis_resolved.md` (new) · `research/2026-09-16_FOMC_VIXEXPIRY_PREREG_LETTER.md` (new) · `MAINTENANCE.md` · packets into RED / HENRY / PROME inboxes.
+**Files touched:** `scripts/backfill.py` · `scripts/test_backfill_endtoend.py` · `STATUS.md` · `SCRATCH.md` · `NEXUS_BRIEF.md` · `research/2026-09-06_wq188_2nd_pass_receipt.md` · `workbook/KB.tsv` (267–268) · this file.
 
-**Boot impact:** boot-time whole-reads drop from 6 files to 4 and from a 🔴-over-cap state to rc=0. A session wanting the pre-8/01 trajectory arc must now open `archive/MEMORY_SESSION_NOTES_COLD.md` explicitly — that is the intended cost of the split and boot step 3 names the file.
+**Boot-impact:** none. Live control re-run after the change: 2,496 cells agreed, 0 corrected, ledger md5 unchanged.
 
 **Lessons:**
-- **A read-cap breach and a read-cap FALSE POSITIVE want opposite remedies, and only one of the three flagged surfaces was a real breach.** Splitting `VIX_THESIS.md` because a heuristic listed it would have restructured a canonical framework doc to satisfy a mis-parse. **Check whether the file is actually read before deciding how to shrink it.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
-- **I logged one drain disposition as "acted — dead path repointed" and then discovered the citing row had not existed since the 8/18 catalyst rebuild.** Corrected in place to `stale`. I wrote the disposition from the *packet's description of my file* instead of from *my file*. `[[finding_record_of_an_action_is_not_the_action]]` — and a "fixed it" row for a structurally impossible fix is worse than no row.
-- **`move.py --boot` prints a live "GATE-VIO-116 re-open" leg for a row the fire-ledger RESOLVED on 7/16** (KB-VIO-219). Found, deliberately **not** fixed — a threshold-surface edit late in a heavy session. Queued as RESEARCH QUEUE #5.
+- **A guard whose memory is shorter than the state it guards fails on the second run.** Persistent state needs a stateless test read off the artifact, not run-scoped bookkeeping.
+- **A baseline that moves is not a baseline.** Any harness referencing "the previous version" must name an immutable revision — a moving ref passes for its author and is already broken for everyone else.
+- **Twice in one day a comment in this file certified what the code did not do.** Implement an invariant in the same edit you write it, or mark it TODO.
+- **Shaving bytes off a capped surface is not capacity work.** I trimmed, then immediately re-spent the headroom on narrative. Move content to its canonical home instead.
 
 ---
 
