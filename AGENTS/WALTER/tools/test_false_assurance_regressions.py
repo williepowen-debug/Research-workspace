@@ -3,6 +3,17 @@
 
 Run:  .venv/bin/python3 AGENTS/WALTER/tools/test_false_assurance_regressions.py
 Exit: 0 all pass · 1 any fail.
+Size: 3 test functions / **15 assertions** (7 + 4 + 4).
+
+⚠️ THE COUNT IS STATED HERE BECAUSE I GOT IT WRONG. Commit dbf8c765c, the PROME
+packet and the report to Will all said "16 cases" — an unreproduced number, in a
+finding whose whole subject is instruments that certify more than they establish.
+PROME docked the sweep (DOCKET L294) recording that it had NOT re-counted it; the
+count is 15. Read it off the runtime output (`grep -cE "^  (PASS|FAIL)"`), never
+off the source: `grep -c "^    check("` returns 10, because four call sites carry
+deeper indentation inside a `with`/`try` block.
+[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]
+[[finding_loadbearing_number_must_be_reproducible]]
 
 WHY THESE EXIST, AND WHY THEY ARE TESTS RATHER THAN A NEW CHECK.
 All four defects are of ONE class: an instrument that certifies MORE than it
