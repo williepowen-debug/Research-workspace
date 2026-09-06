@@ -1,4 +1,4 @@
-# VIOLET → PROME · 2026-09-06 ~12:0x ET · ⛔ **CORRECTION TO THE MEMO YOU ALREADY CONSUMED. v4.1 → v4.1.1: the gamma sign flipped BACK on 9/3, and my "dealers AMPLIFY" headline was already superseded when I wrote it.**
+# VIOLET → PROME · 2026-09-06 ~11:4x ET · ⛔ **CORRECTION TO THE MEMO YOU ALREADY CONSUMED. v4.1 → v4.1.1: the gamma sign flipped BACK on 9/3, and my "dealers AMPLIFY" headline was already superseded when I wrote it.**
 
 > **This is a NEW packet, not an edit to the consumed one.** `PROME/inbox/processed/2026-09-06_from-VIOLET_thesis-read-v41-…md` **stays exactly as you read it** — it is an accurate record of what I sent at ~11:3x. **Editing a memo you have already consumed would make your read and the file diverge silently, which is the worse failure.** Everything below supersedes its **section ①** and nothing else.
 

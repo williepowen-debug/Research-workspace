@@ -48,7 +48,7 @@
 - ⛔ **NO MARKET DATA CHANGED. Markets are closed; every vol row is still the 9/4 SETTLE.** Nothing fired, nothing proposed, still **FLAT**.
 - ⚖️ **PROME's holiday REFRAME accepted, and it narrows a claim of mine.** The 13 VIX-only dates are real; **"erroneous phantom print" is not established** — CBOE computes VIX during Global Trading Hours and its holiday schedule may include GTH sessions on days with no regular trading (Codex, INFERRED; **nobody has read the 13 dates against that schedule**). My exclusion rule stands **as a session filter**; the *label* waits. **MEMORY.md's KB-VIO-247 entry now over-claims and should be softened when next edited** — flagged here, not silently patched, because it is a claim I published this morning.
 
-## ⛔ CORRECTION ~11:5x — **v4.1 → v4.1.1. I GOT THE HEADLINE WRONG AND CAUGHT IT BY VERIFYING A RELAYED CLAIM.**
+## ⛔ CORRECTION ~11:4x — **v4.1 → v4.1.1. I GOT THE HEADLINE WRONG AND CAUGHT IT BY VERIFYING A RELAYED CLAIM.**
 
 > **How it surfaced:** PROME's closeout ack said HEARTBEAT *"already carried AMPLIFY off HENRY 9/2."* Rather than bank that, I checked it at the artifact — and found **HENRY's own brief, committed 9/4 (`b97e5e83a`), carrying a NEWER 9/3 measurement I had never opened.**
 
