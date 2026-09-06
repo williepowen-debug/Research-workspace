@@ -57,7 +57,14 @@ sys.path.insert(0, str(HERE))
 FAILS = []
 
 
+RAN = []
+
+
 def check(name, cond, detail=""):
+    """Counts every assertion as it executes. The suite REPORTS its own total so no
+    commit message has to hand-maintain one — the 9/6 message said 19 new assertions
+    where the section ran 15 (Codex). A restated count is a claim nobody re-measures."""
+    RAN.append(name)
     print(f"  {'PASS' if cond else 'FAIL'}  {name}" + (f" — {detail}" if detail and not cond else ""))
     if not cond:
         FAILS.append(name)
@@ -493,6 +500,71 @@ def test_auto_load_reporting():
           "unconditional auto-load" not in msg4, f"got: {msg4[:220]}")
 
 
+def test_bottom_line_guard():
+    """[H] STATUS `## BOTTOM LINE` anchor guard — regression coverage for the repair.
+
+    The block was lost TWICE by different mechanisms and the second defeated the
+    fix for the first: DELETED 7/23, then ABSORBED 9/3 into an unfinished sentence
+    where an unclosed backtick swallowed the heading while leaving the paragraph.
+    Content-level checks cannot see that, which is why the anchor is code.
+
+    The ABSORBED fixture below is the REAL pre-fix line, kept verbatim, so a future
+    change cannot silently undo the repair by re-introducing the exact shape."""
+    print("\n[H] BOTTOM LINE anchor — missing · absorbed · duplicate · empty · valid")
+    import walter_doctor as wd, tempfile, pathlib
+
+    ABSORBED = ("> 📌 **This `**Updated:**` line was ADDED 2026-08-31.** "
+                "**Do not remove it, and do not let a regeneration eat it** "
+                "— that is exactly how `## BOTTOM LINE")
+
+    cases = [
+        ("valid",     "# S\n\n## BOTTOM LINE\n\nthe state is X\n\n## NEXT\n",      wd.INFO, None),
+        ("missing",   "# S\n\nno anchor anywhere\n\n## NEXT\n",                      wd.MED,  "NO standalone"),
+        ("absorbed",  "# S\n\n" + ABSORBED + "\n\n**the state is X**\n",             wd.MED,  "ABSORBED"),
+        ("duplicate", "# S\n\n## BOTTOM LINE\n\na\n\n## BOTTOM LINE\n\nb\n",     wd.MED,  "2 `## BOTTOM LINE`"),
+        ("empty",     "# S\n\n## BOTTOM LINE\n\n\n## NEXT\n\nbody\n",             wd.MED,  "EMPTY section"),
+        # non-ASCII body: the verdict must not depend on any size arithmetic
+        ("unicode",   "# S\n\n## BOTTOM LINE\n\nrésumé é é\n",                       wd.INFO, None),
+    ]
+    saved = wd.WALTER
+    verdicts = {}
+    try:
+        for name, text, want_sev, want_sub in cases:
+            with tempfile.TemporaryDirectory() as td:
+                d = pathlib.Path(td)
+                (d / "STATUS.md").write_text(text, encoding="utf-8")
+                wd.WALTER = d
+                sev, msg = wd.check_status_bottom_line()[0]
+            verdicts[name] = (sev, msg)
+            check(f"{name}: severity is {'INFO' if want_sev is wd.INFO else 'MED'}",
+                  sev == want_sev, f"got sev={sev}: {msg[:150]}")
+            if want_sub:
+                check(f"{name}: message names the failure ({want_sub!r})",
+                      want_sub in msg, f"got: {msg[:180]}")
+    finally:
+        wd.WALTER = saved
+
+    # the guard must DISCRIMINATE, not just pass on the good case
+    check("absorbed and valid give DIFFERENT verdicts",
+          verdicts["absorbed"][0] != verdicts["valid"][0])
+    check("absorbed is distinguished from plain-missing (it names the absorbing line)",
+          "line(s)" in verdicts["absorbed"][1] and "line(s)" not in verdicts["missing"][1],
+          "the absorbed hint is what makes the 9/3 loss diagnosable")
+    check("no size claim in the success message (len() on str is chars, not bytes)",
+          " B of body" not in verdicts["valid"][1] and " B of body" not in verdicts["unicode"][1],
+          f"got: {verdicts['unicode'][1][:160]}")
+
+    # unreadable STATUS must be LOUD, not a clean pass
+    saved2 = wd.WALTER
+    try:
+        wd.WALTER = pathlib.Path("/nonexistent-walter-xyz")
+        sev, msg = wd.check_status_bottom_line()[0]
+    finally:
+        wd.WALTER = saved2
+    check("unreadable STATUS.md is MED and says UNKNOWN, not clean",
+          sev == wd.MED and "UNKNOWN" in msg, f"got sev={sev}: {msg[:150]}")
+
+
 if __name__ == "__main__":
     print("WALTER false-assurance regressions v2 — BEHAVIOURAL (Codex 2026-09-05, 2nd pass)")
     test_sync_state_returncodes()
@@ -503,8 +575,9 @@ if __name__ == "__main__":
     test_apply_mode_exit_status()
     test_mutation_guard()
     test_auto_load_reporting()
+    test_bottom_line_guard()
     print()
     if FAILS:
-        print(f"✗ {len(FAILS)} FAILED: {', '.join(FAILS)}")
+        print(f"✗ {len(FAILS)} of {len(RAN)} FAILED: {', '.join(FAILS)}")
         sys.exit(1)
-    print("✓ all behavioural cases pass")
+    print(f"✓ all {len(RAN)} behavioural assertions pass")

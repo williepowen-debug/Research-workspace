@@ -44,7 +44,7 @@ Checks:
   filed_vs_consumed      S7 — processed/ moves without a consume:<AGENT> declaration are FILED, not CONSUMED (§5.1)
   entities_at_dispatch   `entities:` header present on every signal dated ≥2026-08-19 (FORMAT_SPEC v0.18, never retro)
   index_generated_fresh  BOARD/INDEX.md rowset sha vs a fresh regeneration (WQ-174; pre-cutover = generator --check soak)
-  auto_load_budget       CLAUDE.md's UNCONDITIONAL auto-load cost vs the read cap (read_cap_check cannot see it)
+  auto_load_budget       CLAUDE.md's UNCONDITIONAL auto-load cost — MEASURED, never graded against the read cap (read_cap_check cannot see it); MED only when a component is unreadable
 
 The two delivery checks mechanize BOARD_CONSUMPTION_SPEC v0.2 §6 (the anti-rot
 safeguard for the WALTER Routing v2 delivery layer). Sync/origin state is derived
@@ -1386,8 +1386,7 @@ def check_status_bottom_line():
     if not any(l.strip() for l in body):
         return [(MED, f"STATUS.md `## BOTTOM LINE` (line {i+1}) has an EMPTY section — "
                       f"the heading exists but answers nothing.")]
-    return [(INFO, f"STATUS.md `## BOTTOM LINE` present (line {i+1}), "
-                   f"{sum(len(l) for l in body):,} B of body")]
+    return [(INFO, f"STATUS.md `## BOTTOM LINE` present (line {i+1}) with a nonempty section")]
 
 
 def check_status_spine_overflow():
