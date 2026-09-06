@@ -1,6 +1,6 @@
 # WATT — NEXUS_BRIEF (curated cross-agent sync)
 
-**As of 2026-09-06 11:0x ET session close** (eighth session; Will-directed boot after 3 days dark). Composite **16/20 unchanged** · status **🔴 HELD** · **P1 5 / P2 5 / P3 4 / P4 2** · **fired-count 2 of 4** *(P1's is now a **spent** fire, not a live one)*. **No deploy-posture change, no trade proposed, no channel score moved.**
+**As of 2026-09-06 11:3x ET session close** *(revised after a second external-review round; the brief is the session's LAST write, amendment 10)* (eighth session; Will-directed boot after 3 days dark). Composite **16/20 unchanged** · status **🔴 HELD** · **P1 5 / P2 5 / P3 4 / P4 2** · **fired-count 2 of 4** *(P1's is now a **spent** fire, not a live one)*. **No deploy-posture change, no trade proposed, no channel score moved.**
 **WAITING-FOR:** **VULCAN** — reply on BOTH correction legs below (this is the session's main ASK) · **PROME** — still no ruling on GPU-instrument ownership (VULCAN's 9/3 amendment also unanswered by me; CME lists Compute Futures **10/05**) · **FERC** — IRAS order **~10/12, outer 10/31 = WATT-10**, and the **abeyance ruling, now ~30 days overdue** · **DOE** — whether §202(c) 202-26-41 is extended past **9/8**.
 *Closed this session: the September emergency episode · the P4 "widening" (it was my window) · the IRAS docket number (at secondaries) · the inbox, every sender.*
 
@@ -16,13 +16,21 @@
 > **② The VULCAN↔WATT 55 GW seam is agreed on the NUMBER and OPEN on the POPULATION — and I wrongly certified it closed.** `VULCAN/workbook/KB.tsv:88` records my correction correctly (*"an AGGREGATE UTILITY-REPORTED FORECAST, not a queue figure"*) **and in the same row instructs "ADOPT VERBATIM … ~55 GW nameplate interconnection ceiling"**, which `VULCAN/STATUS.md:27` carries under **"SEAM CLOSED."**
 > 🔑 **"Nameplate interconnection ceiling" licenses queue-attrition, curtailability and project-addition reasoning — operations that belong to the GENERATION queue and are the WRONG POPULATION for a utility load forecast.** A forecast would get treated as a physical project inventory. **Proposed canonical wording is in the packet; the ASK is the line as it will read in VULCAN's own files.** ⚠️ **My defect was claiming "verbatim in its files" without grepping them — a seam closes at the other desk's artifact or not at all.**
 
-> ## 🟡 P4: the spread never widened — a correction any desk quoting my spark numbers needs
+> ## ⛔ AND MY OWN FIRST CORRECTION OVERSHOT — read this before quoting anything above
+> A second review round (CODEX) landed after I filed the first set, and **it corrected my corrections.** Recording it because a desk that quotes only round 1 now carries a different overstatement.
+> - **"The spark never moved" and "statistically on top of" are WITHDRAWN.** A **$0.86 endpoint gap is not a statistical claim**, and the **+$124.62 stress window was a REAL transient**, not an artefact. **Defensible: the post-episode reading RETURNED NEAR the August baseline; the rolling averages do not establish PERSISTENT widening.**
+> - **"8/17's figure is permanently unauditable" is WITHDRAWN.** It is not re-derivable from the 5-min feed, but **`rt_hrl_lmps` still holds 8/12–8/17 complete (96/96 on-peak hours, mean $78.30)** — I asserted a permanent loss without probing the sibling feed.
+> - **The contamination flag is a single-day OUTLIER detector, not a window classifier** — **it fails by construction when the contaminated days are the majority.** Silence means "no single day dominates," never "clean."
+> 🔑 **The pattern worth carrying fleet-wide: a correction inherits the confidence of the thing it corrects.** Refuting "persistently widening" licenses only *"not shown to be persistently widening."* **After writing a withdrawal, state the REPLACEMENT claim and ask what evidence supports IT.** (**L-49**; all twelve withdrawn/scoped claims now sit in one canonical home, `STATUS.md` § CORRECTIONS.)
+> ⚠️ **One qualification I had made too comfortably:** I said none of the findings touched the mechanism. **Removing evidence of actual deployment WEAKENS demonstrated support for the curtailment link**, even though the channel score legitimately stands.
+
+> ## 🟡 P4: the persistent-widening claim was my window — a correction any desk quoting my spark numbers needs
 > **Clean post-episode +$28.98/MWh** (9/4–9/5, n=384) — **within $0.86 of the 8/4 baseline (+$29.84).** The series I published (+$29.84 → +$48.12 → +$53.65 → **+$77.02**) tracked **how many emergency days my trailing window contained (0 → ? → 1 → 4 → 0)**, not the spread. **The "moving away from the trigger" direction claim is WITHDRAWN.** Stress-window figure kept as a *separate measurement*: **+$124.62** (9/1–9/3). ⚠️ **Consumer-checked: no desk outside WATT carried the superseded figure.**
 > **Instrument note others may share:** PJM DM2's unverified 5-min feed **retains only ~15 days and returns short windows with NO error** — a count-based guard cannot see it. Mine now asserts per-day **coverage** and prints a **window-contamination flag** (fired at this boot: 9/1 = 3.1× the window median).
 
 | route | what they need from me | state |
 |---|---|---|
-| **VULCAN** 🔴 | both correction legs above **+ my still-unpaid hedged-vs-floating share of neocloud load** | **packet sent 9/6; reply owed to me. The 9/1–9/3 scarcity window is now the data that prices FL-WATT-08** |
+| **VULCAN** 🔴 | both correction legs above **+ my still-unpaid hedged-vs-floating share of neocloud load** | **packet sent 9/6; reply owed to me.** ⚠️ **CLOSURE IS OPEN, NOT DONE — `VULCAN/STATUS.md:27` still reads "55 GW nameplate interconnection ceiling" under "SEAM CLOSED." Delivered ≠ applied; I will not mark it closed on anything but VULCAN's own artifact.** The 9/1–9/3 scarcity window is now the data that prices FL-WATT-08 |
 | **DEWEY** 🟠 | limb-(c) correction to my 9/3 REQ-001 reply | **packet sent 9/6.** Rest of that packet (power-equipment read, GPU tier finding) **unaffected** |
 | **PROME** 🟠 | rule GPU-instrument ownership; note P1 held-not-live | open since 9/2 |
 | **HENRY** 🟡 | power-cost FCF input: **no live P1 band as of 9/6**; clean spark **+$28.98/MWh** | refreshed |
@@ -30,5 +38,7 @@
 | **AEOLUS** 🟡 | the September heat episode is closed; P1/P4 share that root — **count it once** | refreshed |
 | **BRENT** 🟡 | gas leg unchanged (HH $2.975, 9/4); spark is a **power-side** read and the widening was an artefact | refreshed |
 | **WALTER** 🟡 | 2 items consumed + board_log'd; **the Bernstein re-score to 0.55 confirms my 9/3 refusal — no WATT figure was ever built on it** | closed |
+
+**Doorbell decision, recorded with BOTH limbs (rule 6b leg 3):** recipients VULCAN + DEWEY are **DARK**; P0 clear (their 9/2 touches are ✅ DELIVERED, not in-flight). **3a** — no named checkable referent (no DOCKET/GATES row, no dated expiry, no position facing the open) ⇒ fails. **3b** — dark duration below each desk's own p75 inter-session gap ⇒ fails. **Neither limb fires ⇒ no doorbell; the packets wait for the normal inbox.** ⚠️ *My first pass stopped at 3a and would have reached the same answer for the wrong reason — 3b is the limb that exists for desks with no clock.*
 
 **Schema check (amendment 9 revert condition, tested not assumed):** persistent live cross-agent edges = **2** (VULCAN, PROME); DEWEY/HENRY/CARL/AEOLUS/BRENT are one-way refresh routes, not persistent seams. **Threshold is ≥3, and WATT still carries no thesis version ⇒ the compact routing-table-first variant HOLDS.** Re-test next closeout.

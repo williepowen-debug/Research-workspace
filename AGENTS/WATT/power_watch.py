@@ -343,26 +343,37 @@ def read_pjm_onpeak_mean(api_key, days=6, end=None):
             f"DM2 on-peak window {first}..{last}: day(s) {thin} carry <150 of 192 "
             f"on-peak prints — partial day at a retention/feed boundary, refusing.")
 
-    # DISPERSION / CONTAMINATION flag (added 2026-09-06, L-44 forward rule). A
-    # trailing window that swallows a scarcity episode manufactures a trend: the
-    # 8/4->9/6 spark series read +$29.84 -> +$48.12 -> +$53.65 -> +$77.02 and then
-    # +$28.98 once measured on a CLEAN window — the rise tracked emergency-days-
-    # in-window (0 -> ? -> 1 -> 4 -> 0), not the spread. The mean alone cannot
-    # show that; the DAILY DISPERSION can. Never silently returns a clean-looking
-    # number for a window one day is dominating.
+    # DISPERSION flag (added 2026-09-06, L-44 forward rule). A trailing window
+    # that swallows a scarcity episode manufactures a trend: the 8/4->9/6 spark
+    # series read +$29.84 -> +$48.12 -> +$53.65 -> +$77.02 and then +$28.98 once
+    # measured on a CLEAN window — each level tracked its emergency-day count
+    # (0 -> ? -> 1 -> 3 -> 0), not the spread. The mean alone cannot show that.
+    #
+    # SCOPE, STATED NARROWLY (tightened 2026-09-06 after an external review built
+    # the counter-example): this is a SINGLE-DAY OUTLIER DETECTOR against the
+    # window median. It is NOT an emergency-window classifier and it FAILS BY
+    # CONSTRUCTION when the contaminated days are the MAJORITY — a 6-day window
+    # with 4 high days lifts the median itself and nothing fires. It caught the
+    # 8/31-9/5 window only because 9/1 alone was extreme (3.1x a $68.36 median).
+    # A SILENT FLAG MEANS "no single day dominates", NEVER "this window is clean."
+    # Deliberately not replaced with a cleverer detector: the honest scope note is
+    # the fix, and a detector trusted past its scope is worse than none.
     by_day = {}
     for r in onpeak:
         by_day.setdefault(r["datetime_beginning_ept"][:10], []).append(
             float(r["total_lmp_rt"]))
     dm = sorted((sum(v) / len(v), d) for d, v in by_day.items())
     med = dm[len(dm) // 2][0]
-    hi_mean, hi_day = dm[-1]
     note = None
-    if med > 0 and hi_mean > 2.0 * med:
-        note = (f"⚠️ WINDOW CONTAMINATION: {hi_day} on-peak mean ${hi_mean:,.2f} is "
-                f"{hi_mean / med:.1f}x the window median ${med:,.2f} — this mean is a "
-                f"STRESS read, not a baseline. Cite the window composition beside it, "
-                f"and re-measure on a clean window before making any DIRECTION claim.")
+    if med > 0:
+        flagged = [(m, d) for m, d in dm if m > 2.0 * med]
+        if flagged:
+            days = " · ".join(f"{d} ${m:,.2f} ({m / med:.1f}x)" for m, d in flagged)
+            note = (f"⚠️ SINGLE-DAY OUTLIER(S) vs the window median ${med:,.2f}: {days}. "
+                    f"This mean is a STRESS read, not a baseline — cite the window "
+                    f"composition beside it and re-measure on a clean window before any "
+                    f"DIRECTION claim. NOTE: median-based, so it CANNOT see contamination "
+                    f"that is the majority of the window; silence != clean.")
     return sum(vals) / len(vals), first, last, len(vals), note
 
 
