@@ -90,20 +90,23 @@ TRACKED = {
 MEMO_DIRS = ("PROME/inbox", "PROME/inbox/processed")
 
 
-def resolve(name: str) -> Path | None:
-    """Tracked-surface name -> concrete path. Globs resolve to the NEWEST match
-    across every candidate directory.
+def resolve(name: str) -> list[Path]:
+    """Tracked-surface name -> every concrete path it names.
 
-    Dated memo filenames start with an ISO date, so lexical max on the FILENAME is
-    newest regardless of which directory it now sits in. No match returns None,
-    which `effective_ts` reports as MISSING — the right answer at closeout, because
-    a session that wrote no memo delivered nothing to PROME.
+    ⚠️ Returns a LIST, and the vintage taken is the NEWEST across it. v1 returned
+    `max(..., key=filename)` and that was wrong the same session it shipped: two
+    memos can share a date, and lexical order then decides by SLUG — the 10:4x
+    `..._addendum-...md` lost to the 10:2x `..._ft10-...md` purely because "a" < "f",
+    so the check graded the OLDER delivery. **A date prefix orders days, never the
+    packets inside one**, and this desk sends more than one packet a day.
+
+    An empty list means no memo exists — reported as MISSING, the right answer at
+    closeout, because a session that wrote none delivered nothing to PROME.
     """
     if "*" not in name:
-        return AGENT_DIR / name
+        return [AGENT_DIR / name]
     pat = name.rsplit("/", 1)[-1]
-    matches = [m for d in MEMO_DIRS for m in (REPO / d).glob(pat)]
-    return max(matches, key=lambda p: p.name) if matches else None
+    return [m for d in MEMO_DIRS for m in (REPO / d).glob(pat)]
 
 
 def _git(*args: str) -> str:
@@ -112,15 +115,11 @@ def _git(*args: str) -> str:
 
 
 def _rel(name: str) -> str:
-    p = resolve(name)
-    return name if p is None else str(p.relative_to(REPO))
+    paths = [p for p in resolve(name) if p.exists()]
+    return name if not paths else str(paths[0].relative_to(REPO))
 
 
-def effective_ts(name: str) -> tuple[int, str]:
-    """(unix ts, basis) — dirty files count as NOW; see module docstring."""
-    p = resolve(name)
-    if p is None or not p.exists():
-        return 0, "MISSING"
+def _one_ts(p: Path) -> tuple[int, str]:
     rel = str(p.relative_to(REPO))
     if _git("status", "--porcelain", "--", rel):
         return int(time.time()), "dirty (being written now)"
@@ -129,6 +128,19 @@ def effective_ts(name: str) -> tuple[int, str]:
         return 0, "never committed"
     ct, sha, when = out.split("|", 2)
     return int(ct), f"committed {when} ({sha})"
+
+
+def effective_ts(name: str) -> tuple[int, str]:
+    """(unix ts, basis) — dirty files count as NOW; see module docstring.
+
+    Across multiple matches the NEWEST wins, graded by COMMIT TIME rather than by
+    filename. Commit time is the only ordering that survives two same-day packets,
+    and it is not mtime — a git sync restamps mtime and would fail false-fresh.
+    """
+    paths = [p for p in resolve(name) if p.exists()]
+    if not paths:
+        return 0, "MISSING"
+    return max((_one_ts(p) for p in paths), key=lambda t: t[0])
 
 
 def brief_provenance() -> list[str]:

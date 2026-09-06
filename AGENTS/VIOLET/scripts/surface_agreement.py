@@ -62,16 +62,23 @@ SURFACE_SPECS = [
 MEMO_DIRS = ("PROME/inbox", "PROME/inbox/processed")
 
 
-def resolve(spec: str) -> Path | None:
-    """Spec -> concrete path; a glob resolves to the NEWEST match across every
-    candidate directory (ISO-dated filenames sort lexically). None means no match —
-    reported as MISSING, which is correct: a closeout that delivered no memo to
-    PROME has an unwritten surface, not an agreeing one."""
+def resolve(spec: str) -> list[Path]:
+    """Spec -> every concrete path it names.
+
+    ⚠️ A glob returns ALL matches and the caller reads them TOGETHER, rather than
+    picking one "newest". Two reasons, and the second is the better one:
+    ① a date prefix cannot order two packets sent the same day (v1 picked by slug,
+      so a 10:4x addendum lost to a 10:2x memo because "a" < "f"); and
+    ② **for THIS check, every delivered memo is in scope anyway** — if an addendum
+      states a different convergence score or FT-10 count from the memo it amends,
+      that is a genuine cross-surface disagreement and exactly what this exists to
+      catch. Reading only the "latest" would hide it.
+    An empty list means no memo — reported as MISSING, which is correct: a closeout
+    that delivered nothing to PROME has an unwritten surface, not an agreeing one."""
     if "*" not in spec:
-        return AGENT_DIR / spec
+        return [AGENT_DIR / spec]
     pat = spec.rsplit("/", 1)[-1]
-    m = [x for d in MEMO_DIRS for x in (REPO / d).glob(pat)]
-    return max(m, key=lambda p: p.name) if m else None
+    return [x for d in MEMO_DIRS for x in (REPO / d).glob(pat)]
 
 
 # Display label -> resolved path. Labels stay short so the report columns line up.
@@ -134,11 +141,14 @@ def main(argv=None) -> int:
 
     texts = {}
     for s in SURFACES:
-        p = RESOLVED.get(s)
-        if p is None or not p.exists():
+        paths = [p for p in RESOLVED.get(s, []) if p.exists()]
+        if not paths:
             print(f"  🔴 {s} IS MISSING — cannot certify cross-surface agreement.")
             return 1
-        texts[s] = p.read_text(encoding="utf-8")
+        # Multiple memos are read TOGETHER — see resolve(). Newest first so the
+        # ±CTX windows never straddle a file boundary.
+        texts[s] = "\n\n".join(
+            p.read_text(encoding="utf-8") for p in sorted(paths, reverse=True))
 
     problems = []
     for name, (rx, ctx, hint) in FIGURES.items():
