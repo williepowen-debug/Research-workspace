@@ -79,19 +79,31 @@ TRACKED = {
     "PROME/inbox/*_from-VIOLET_*.md": "PROME reads this to update its STATUS/SCRATCH/WILL_QUEUE",
 }
 
+# ⚠️ A DELIVERED MEMO DOES NOT STAY IN THE INBOX. PROME consumes its inbox and
+# `git mv`s each packet to `PROME/inbox/processed/` — it did exactly that to the
+# 2026-09-06 memo within one minute of the commit. A glob on the LIVE inbox alone
+# therefore reports MISSING for every successfully delivered memo, i.e. it goes
+# red precisely when the recipient is PROMPT. That is the same inversion this
+# re-point was made to avoid, arriving from the other side: an always-red guard
+# gets silenced, taking its real coverage with it. Delivered-and-filed IS
+# delivered, so both locations count.
+MEMO_DIRS = ("PROME/inbox", "PROME/inbox/processed")
+
 
 def resolve(name: str) -> Path | None:
-    """Tracked-surface name -> concrete path. Globs resolve to the NEWEST match.
+    """Tracked-surface name -> concrete path. Globs resolve to the NEWEST match
+    across every candidate directory.
 
-    Dated memo filenames start with an ISO date, so lexical max IS newest. A glob
-    with no match returns None, which `effective_ts` reports as MISSING — the
-    right answer at closeout, because a session that wrote no memo delivered
-    nothing to PROME.
+    Dated memo filenames start with an ISO date, so lexical max on the FILENAME is
+    newest regardless of which directory it now sits in. No match returns None,
+    which `effective_ts` reports as MISSING — the right answer at closeout, because
+    a session that wrote no memo delivered nothing to PROME.
     """
-    if "*" in name:
-        matches = sorted(REPO.glob(name))
-        return matches[-1] if matches else None
-    return AGENT_DIR / name
+    if "*" not in name:
+        return AGENT_DIR / name
+    pat = name.rsplit("/", 1)[-1]
+    matches = [m for d in MEMO_DIRS for m in (REPO / d).glob(pat)]
+    return max(matches, key=lambda p: p.name) if matches else None
 
 
 def _git(*args: str) -> str:

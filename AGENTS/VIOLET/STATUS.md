@@ -164,4 +164,4 @@ Thesis **v4.0** (2026-08-27). Currency counter: **38 KB rows since v4.0 (3 retra
 
 **Not bumping this session.** Measure the open, drain the inbox lane, grade the letter on 9/16.
 
-*Last write-back: 2026-09-06 ~11:3x ET (Sunday boot — FT-10 to 2 of 4 verified by own CBOE pull; `VX_DAILY` reconciled and gap-checked; PROME completion-spec re-key executed on Will's word). Basis: **9/4 SETTLE** on every vol row. Prior: 2026-09-04 19:45 ET (DAEDALUS profile refresh — five 🔴 closed; STATUS rotated 4× today on the read-cap budget, all verbatim + crc-verified). Basis: 9/3 SETTLE unless a row says otherwise; 9/4 TICK rows are intraday.*
+*Last write-back: 2026-09-06 ~10:2x ET (Sunday boot — FT-10 to 2 of 4 verified by own CBOE pull; `VX_DAILY` reconciled and gap-checked; PROME completion-spec re-key executed on Will's word). Basis: **9/4 SETTLE** on every vol row. Prior: 2026-09-04 19:45 ET (DAEDALUS profile refresh — five 🔴 closed; STATUS rotated 4× today on the read-cap budget, all verbatim + crc-verified). Basis: 9/3 SETTLE unless a row says otherwise; 9/4 TICK rows are intraday.*

@@ -1,4 +1,4 @@
-# VIOLET SCRATCH — September 6, 2026 (Sun ~11:3x ET — **boot session; Will directed the `VX_DAILY` backfill and the `CLAUDE.md` re-key. Both done. The backfill turned out to be the bigger of the two by a wide margin.**)
+# VIOLET SCRATCH — September 6, 2026 (Sun ~10:2x ET — **boot session; Will directed the `VX_DAILY` backfill and the `CLAUDE.md` re-key. Both done. The backfill turned out to be the bigger of the two by a wide margin.**)
 
 > **Scope as given (Will):** *"boot up"* → then *"do the backfill, and yes re-point those CLAUDE.md lines."* No thesis bump, no proposal, no edits outside `AGENTS/VIOLET/` (plus the `PROME/inbox/` memo, carve-out ①).
 > **🔑 The session's shape: I went to fill four missing rows and found the ledger under my highest-profile live claim had been sourced from a mirror for its entire life, while the publisher of record sat imported at the top of the same script.**

@@ -56,15 +56,22 @@ SURFACE_SPECS = [
 ]
 
 
+# ⚠️ See writeback_order_check.py: PROME `git mv`s consumed packets to
+# `PROME/inbox/processed/`, so a glob on the live inbox alone reports MISSING for
+# every memo that was actually DELIVERED. Both locations count.
+MEMO_DIRS = ("PROME/inbox", "PROME/inbox/processed")
+
+
 def resolve(spec: str) -> Path | None:
-    """Spec -> concrete path; a glob resolves to the NEWEST match (ISO-dated names
-    sort lexically). None means no match — reported as MISSING, which is correct:
-    a closeout that delivered no memo to PROME has an unwritten surface, not an
-    agreeing one."""
-    if "*" in spec:
-        m = sorted(REPO.glob(spec))
-        return m[-1] if m else None
-    return AGENT_DIR / spec
+    """Spec -> concrete path; a glob resolves to the NEWEST match across every
+    candidate directory (ISO-dated filenames sort lexically). None means no match —
+    reported as MISSING, which is correct: a closeout that delivered no memo to
+    PROME has an unwritten surface, not an agreeing one."""
+    if "*" not in spec:
+        return AGENT_DIR / spec
+    pat = spec.rsplit("/", 1)[-1]
+    m = [x for d in MEMO_DIRS for x in (REPO / d).glob(pat)]
+    return max(m, key=lambda p: p.name) if m else None
 
 
 # Display label -> resolved path. Labels stay short so the report columns line up.
