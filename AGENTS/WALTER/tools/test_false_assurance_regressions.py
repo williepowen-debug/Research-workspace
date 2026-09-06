@@ -27,6 +27,23 @@ WHAT v2 DOES DIFFERENTLY
   3. §MUTATION runs Codex's own attack as a first-class test: stub the helper to
      lie, re-run the behavioural assertion, and REQUIRE it to fail. A suite that
      survives its own mutation is reporting on nothing.
+
+⛔ DO NOT QUOTE A MUTATION FAILURE COUNT AS A QUALITY MEASURE. I reported "7
+assertions fail under the stubs"; Codex's exact repeat of its own two mutations
+produced 5. Both runs are real — they are DIFFERENT INVOCATIONS (mine also stubbed
+the index verdict helper), and the number moves with what you patch and with how
+many assertions happen to cover it. THE RESULT THAT MATTERS IS BINARY: the suite
+rejects the mutation. Preserve the INVOCATION, never the count:
+
+    import walter_doctor as wd
+    wd._ever_in_git = lambda p: True                                  # mutation 1
+    wd.check_index_generated_fresh = lambda: [(wd.INFO, "generated INDEX fresh")]  # mutation 2
+    # then re-run test_caller_invariant() and test_index_rows_behaviour();
+    # ANY failure = the suite still discriminates. Zero failures = the suite is blind.
+
+That is my fourth corrected claim of the session, and it is the same shape as the
+other three: a number I composed rather than reproduced.
+[[finding_loadbearing_number_must_be_reproducible]]
 ────────────────────────────────────────────────────────────────────────────────
 """
 import subprocess
@@ -151,48 +168,95 @@ def _unusable_ref_returns_none(rdl):
         rdl.REF = saved
 
 
-# ── C. the caller invariant: UNKNOWN must survive to the final report ────────
-def _delivery_verdict(monkey):
-    """Run the REAL check with a monkeypatched helper; return its (sev, msg) list."""
+# ── C. the caller invariant, on a SELF-CONTAINED fixture ────────────────────
+# 🔴 v3 2026-09-05 (Codex third pass): [C] used to run against the PRODUCTION
+# delivery_log and whatever paths happened to exist, so a failure could be caused by
+# changing fleet state rather than by code. The fixture below is a throwaway repo with
+# exactly four rows — one delivered at its ORIGINAL path, one delivered then FILED to
+# processed/ without pushing the move, one that never reached origin at all, and one
+# whose evidence is unavailable — which is the full truth table this check has to get
+# right. Failures are now attributable to the code.
+_FIX_ROWS = ["orig-on-origin", "filed-locally", "never-on-origin", "evidence-unavailable"]
+
+
+def _fixture_repo(tmp: Path):
+    """origin + clone; returns (work, {case: relpath}). Delivery-log rows all say
+    'delivered' — the check's job is to decide whether git agrees."""
     import walter_doctor as wd
-    saved_sync, saved_ever = wd._sync_state, wd._ever_in_git
-    saved_cache = dict(wd._EVER_IN_GIT_CACHE)
+    origin, work = tmp / "origin.git", tmp / "work"
+    subprocess.run(["git", "init", "--bare", "-q", str(origin)], check=True)
+    subprocess.run(["git", "clone", "-q", str(origin), str(work)], check=True, capture_output=True)
+    g = lambda *a: subprocess.run(["git", "-C", str(work), *a], capture_output=True, text=True)
+    g("config", "user.email", "t@t"); g("config", "user.name", "t")
+    inbox = work / "AGENTS" / "AAA" / "inbox" / "WALTER"
+    (inbox / "processed").mkdir(parents=True)
+    rels = {c: f"AGENTS/AAA/inbox/WALTER/{c}.md" for c in _FIX_ROWS}
+    for c in ("orig-on-origin", "filed-locally"):
+        (work / rels[c]).write_text(f"{c}\n")
+    g("add", "-A"); g("commit", "-qm", "handoffs delivered")
+    g("push", "-q", "origin", "HEAD:master"); g("fetch", "-q", "origin")
+    # the ordinary sequence: recipient files it locally, move NOT pushed
+    g("mv", rels["filed-locally"], f"AGENTS/AAA/inbox/WALTER/processed/filed-locally.md")
+    g("commit", "-qm", "recipient filed it")           # committed, deliberately NOT pushed
+    # never-on-origin / evidence-unavailable: rows exist, files never did
+    hdr = "\t".join(["signal_id", "recipient", "role", "precedence",
+                      "handoff_path", "written_state", "timestamp_routed", "x", "y"])
+    lines = [hdr]
+    for i, c in enumerate(_FIX_ROWS):
+        lines.append("\t".join([f"SIG-W-2026010{i}-001", "AAA", "action", "PRIORITY",
+                                 rels[c], "delivered", "2026-01-01T00:00:00Z", "-", "-"]))
+    logp = work / "AGENTS" / "WALTER" / "routed"
+    logp.mkdir(parents=True)
+    (logp / "delivery_log.tsv").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    return work, rels
+
+
+def _run_check_in(work: Path, ever_stub=None):
+    import walter_doctor as wd
+    saved = (wd.REPO, wd.WALTER, wd.BOARD, dict(wd._EVER_IN_GIT_CACHE), wd._ORIGIN_PATHS,
+             wd._ever_in_git)
     try:
-        monkey(wd)
-        return sev_msgs(wd.check_delivery_claim_vs_git())
+        wd.REPO, wd.WALTER, wd.BOARD = work, work / "AGENTS" / "WALTER", work / "BOARD"
+        wd._EVER_IN_GIT_CACHE.clear(); wd._ORIGIN_PATHS = None
+        if ever_stub is not None:
+            wd._ever_in_git = ever_stub
+        return " | ".join(m for _, m in wd.check_delivery_claim_vs_git()), \
+               [s for s, _ in wd.check_delivery_claim_vs_git()]
     finally:
-        wd._sync_state, wd._ever_in_git = saved_sync, saved_ever
-        wd._EVER_IN_GIT_CACHE.clear(); wd._EVER_IN_GIT_CACHE.update(saved_cache)
+        (wd.REPO, wd.WALTER, wd.BOARD, cache, wd._ORIGIN_PATHS, wd._ever_in_git) = saved
+        wd._EVER_IN_GIT_CACHE.clear(); wd._EVER_IN_GIT_CACHE.update(cache)
 
 
 def test_caller_invariant():
-    print("\n[C] delivery verdict: unavailable evidence is reported, never skipped")
+    print("\n[C] delivery verdict on a self-contained 4-row fixture")
     import walter_doctor as wd
+    with tempfile.TemporaryDirectory() as td:
+        work, rels = _fixture_repo(Path(td))
 
-    res = _delivery_verdict(lambda m: setattr(m, "_sync_state", lambda r, o: "unknown"))
-    joined = " | ".join(msg for _, msg in res)
-    check("all-'unknown' sync state produces an explicit unverified report",
-          "could NOT be verified" in joined,
-          f"got: {joined[:200]}")
-    check("all-'unknown' does NOT produce the all-clear",
-          "every 'delivered' delivery_log row is backed" not in joined,
-          "a row nobody could check was announced as backed")
-    check("the unverified report is at least MED",
-          any(s == wd.MED and "could NOT be verified" in m for s, m in res))
+        j, sevs = _run_check_in(work)
+        check("a row delivered at its ORIGINAL path is not flagged",
+              "orig-on-origin" not in j, f"got: {j[:220]}")
+        check("🔴 an UNPUSHED FILING MOVE does not retract established delivery",
+              "filed-locally" not in j,
+              f"the v2 twin check erased proven delivery here — got: {j[:220]}")
+        check("a path that NEVER reached origin is reported",
+              "never-on-origin" in j, f"got: {j[:220]}")
+        check("the never-delivered row is HIGH",
+              any(s == wd.HIGH for s in sevs), f"sevs={sevs}")
 
-    res2 = _delivery_verdict(lambda m: setattr(m, "_sync_state", lambda r, o: "no_origin"))
-    j2 = " | ".join(msg for _, msg in res2)
-    check("'no_origin' is also surfaced, not silently skipped",
-          "could NOT be verified" in j2, f"got: {j2[:200]}")
+        # unavailable evidence: git can answer nothing
+        j2, sevs2 = _run_check_in(work, ever_stub=lambda p: None)
+        check("unavailable evidence -> reported, never a pass",
+              ("could NOT be verified" in j2) or ("UNKNOWN" in j2), f"got: {j2[:220]}")
+        check("unavailable evidence does NOT produce the all-clear",
+              "every 'delivered' delivery_log row is backed" not in j2)
+        check("unavailable evidence is at least MED",
+              any(s in (wd.MED, wd.HIGH) for s in sevs2), f"sevs={sevs2}")
 
-    # a processed/ twin must be proved against origin, not accepted for existing on disk
-    res3 = _delivery_verdict(lambda m: setattr(m, "_ever_in_git", lambda p: False))
-    j3 = " | ".join(msg for _, msg in res3)
-    check("twin/history absent from origin -> NOT silently passed",
-          ("NEVER on" in j3) or ("GONE with no processed/ twin" in j3),
-          f"got: {j3[:200]}")
-    check("with no origin history at all, the all-clear is withheld",
-          "every 'delivered' delivery_log row is backed" not in j3)
+        # sanity: the fixture discriminates — always-True must silence the real orphan
+        j3, _ = _run_check_in(work, ever_stub=lambda p: True)
+        check("always-True stub CHANGES the verdict (fixture discriminates)", j3 != j,
+              "the check is insensitive to its history helper on this fixture")
 
 
 # ── D. consume declaration must belong to the destination owner ──────────────
@@ -309,22 +373,31 @@ def test_mutation_guard():
     print("\n[F] MUTATION — stub each fix to lie; the covering assertion MUST go red")
     import walter_doctor as wd
 
-    # (i) history helper replaced with "always True" — [C]'s twin assertion must break
-    res = _delivery_verdict(lambda m: setattr(m, "_ever_in_git", lambda p: True))
-    j = " | ".join(m for _, m in res)
-    check("stubbing _ever_in_git=True changes the delivery verdict (assertion discriminates)",
-          "NEVER on" not in j,
-          "the always-True stub produced the same output as always-False — [C] proves nothing")
-    res_false = _delivery_verdict(lambda m: setattr(m, "_ever_in_git", lambda p: False))
-    jf = " | ".join(m for _, m in res_false)
-    check("always-True and always-False give DIFFERENT verdicts", j != jf,
-          "the delivery check is insensitive to its own history helper")
+    # (i) Codex's mutation 1, on the controlled fixture: `_ever_in_git` always True.
+    #     The real orphan must stop being reported — i.e. [C] genuinely depends on it.
+    with tempfile.TemporaryDirectory() as td:
+        work, _ = _fixture_repo(Path(td))
+        j_true, _ = _run_check_in(work, ever_stub=lambda p: True)
+        j_false, _ = _run_check_in(work, ever_stub=lambda p: False)
+        j_none, _ = _run_check_in(work, ever_stub=lambda p: None)
+        j_real, _ = _run_check_in(work)
+        check("always-True stub SILENCES the real orphan (so [C] discriminates)",
+              "never-on-origin" not in j_true, f"got: {j_true[:200]}")
+        check("always-True and always-False give DIFFERENT verdicts", j_true != j_false)
+        check("always-None (unavailable) differs from both", j_none not in (j_true, j_false))
+        check("the UNSTUBBED run differs from always-True (real git is consulted)",
+              j_real != j_true)
 
-    # (ii) sync helper replaced with "always on_origin" — [C]'s unknown assertion must break
-    res_ok = _delivery_verdict(lambda m: setattr(m, "_sync_state", lambda r, o: "on_origin"))
-    j_ok = " | ".join(m for _, m in res_ok)
-    res_unk = _delivery_verdict(lambda m: setattr(m, "_sync_state", lambda r, o: "unknown"))
-    j_unk = " | ".join(m for _, m in res_unk)
+    # (ii) sync helper stubbed — the unverified report must depend on it
+    import walter_doctor as wd
+    saved_sync = wd._sync_state
+    try:
+        wd._sync_state = lambda r, o: "on_origin"
+        j_ok = " | ".join(m for _, m in wd.check_delivery_claim_vs_git())
+        wd._sync_state = lambda r, o: "unknown"
+        j_unk = " | ".join(m for _, m in wd.check_delivery_claim_vs_git())
+    finally:
+        wd._sync_state = saved_sync
     check("always-on_origin and always-unknown give DIFFERENT verdicts", j_ok != j_unk,
           "the delivery check is insensitive to its own sync helper")
     check("only the 'unknown' run reports unverified rows",

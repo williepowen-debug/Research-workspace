@@ -993,22 +993,34 @@ def check_delivery_claim_vs_git():
                 # on DISK EXISTENCE ALONE. An UNTRACKED twin — one that never reached
                 # origin — certified the delivery. Existence on this box is not evidence
                 # about origin; verify the twin's history exactly like the primary path.
+                # 🔴 v3 2026-09-05 (Codex third pass, MED — a regression I introduced in v2).
+                # v2 checked the TWIN ONLY when a twin existed, and reported unverified if
+                # the twin had not reached origin. But the ordinary sequence is: handoff is
+                # delivered at its ORIGINAL path, recipient moves it to processed/ locally,
+                # and THAT MOVE IS NOT YET PUSHED. Delivery was already proven at the
+                # original path; v2 erased it because it never looked there. An unpushed
+                # FILING MOVE must not retract an established DELIVERY — they are different
+                # questions. ⇒ ORIGIN EVIDENCE AT EITHER PATH PROVES DELIVERY; check the
+                # original FIRST (it is the one the delivery claim is about), twin second.
+                # Failure direction of the v2 bug was a false ALARM, not a false pass — the
+                # safe side — but a check that cries wolf on the normal workflow gets
+                # ignored, which is how it becomes the other kind.
+                # `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`
                 twin = path.parent / "processed" / path.name
-                if twin.exists():
-                    twin_hist = _ever_in_git(str(twin.relative_to(REPO)))
-                    if twin_hist is True:
-                        continue
-                    if twin_hist is None:
-                        unverified.append(f"{sig}->{rcp} [twin-unverifiable]")
-                        continue
-                    unverified.append(f"{sig}->{rcp} [twin present but NEVER on {DELIVERY_REF}]")
-                    continue
                 on_origin_hist = _ever_in_git(rel)   # NOT `seen` — that name is the dedup set above
                 if on_origin_hist is True:
                     stale_path.append(f"{sig}->{rcp}")
                     continue
-                if on_origin_hist is None:            # git could not answer
+                twin_hist = (_ever_in_git(str(twin.relative_to(REPO)))
+                             if twin.exists() else False)
+                if twin_hist is True:
+                    stale_path.append(f"{sig}->{rcp}")
+                    continue
+                if on_origin_hist is None or twin_hist is None:   # git could not answer
                     unknown_path.append(f"{sig}->{rcp} ({rel})")
+                    continue
+                if twin.exists():
+                    unverified.append(f"{sig}->{rcp} [neither path ever on {DELIVERY_REF}]")
                     continue
                 lost.append(f"{sig}->{rcp} ({rel})")
     except (OSError, csv.Error) as e:
