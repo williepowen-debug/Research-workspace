@@ -14,7 +14,12 @@ signal_type: threshold-crossed
 confidence: 0.90
 verdict: CONFIRMED as a print on the PROVISIONAL mirror; NOT GRADEABLE on the declared basis. `^SKEW` printed **150.63 [9/3]** on yfinance — the first observation at or above the RED-FT-10 band on any basis this leg. **CBOE, the declared publisher of record, has not published a 9/3 bar**, so no count can be advanced today. FT-10 stays **ARMED, 0-of-4**.
 consumer_lens: VIOLET owns the CBOE read and RED owns the grade and the basis. The actionable content is a timing fact, not a level: the CBOE bar lands overnight, and if it confirms at or above 150 it is **1 of 4**, not a fire. The reason this is IMMEDIATE rather than ROUTINE is that the mirror print will circulate as "SKEW crossed 150" before the record publishes, and the band is non-strict — which makes it read like a fire to anyone holding the spec without the basis clause.
+status: SUPERSEDED-IN-PART
+status_ref: SIG-W-20260905-001
+status_date: 2026-09-05
 ---
+
+> ⚠️ **SUPERSEDED IN PART 2026-09-05 by [`SIG-W-20260905-001`](SIG-W-20260905-001-ft10-skew-is-counting-2-of-4-at-the-publisher-of-record.md).** **The GRADEABILITY call below is superseded by publication, NOT refuted:** CBOE has since published the 9/3 bar at **exactly 150.63**, and 9/4 at **151.58**, so `RED-FT-10` is **SATISFIED and COUNTING 2-of-4** — it is no longer `ARMED 0-of-4`. ✅ **WHAT SURVIVES, and it is the load-bearing half:** the rule that a provisional mirror cannot complete a grade is exactly what made this signal correct when written, and it is unchanged. **The sustain-4 caution below also stands — one bar was not a fire and two are not either.**
 
 # `^SKEW` 150.63 [9/3] is the first ≥150 of this leg — and it is NOT a fire, because the publisher of record has not published it
 
