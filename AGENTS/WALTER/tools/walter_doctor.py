@@ -540,6 +540,33 @@ def check_liaison_enum():
 DELIVERY_REF = "origin/master"
 
 
+_EVER_IN_GIT_CACHE = {}
+_ORIGIN_PATHS = None          # None = not built yet; False = build FAILED (=> all UNKNOWN)
+
+
+def _origin_path_set():
+    """Every path `DELIVERY_REF` history has ever named, built ONCE per run.
+
+    Added 2026-09-05 with the twin-verification fix: verifying a processed/ twin as well
+    as the primary path took this check from ~200 `git log` calls to ~2 PER ROW (≈2,000
+    processes, minutes of wall clock). One `git log --name-only` over the whole ref costs
+    ~1.2s and answers every lookup. A MISS still falls back to a precise per-path query,
+    so the set can only ever cost a slower NEGATIVE, never a false POSITIVE — and a build
+    failure returns UNKNOWN for everything rather than a cheap green.
+    """
+    global _ORIGIN_PATHS
+    if _ORIGIN_PATHS is None:
+        try:
+            r = subprocess.run(["git", "-C", str(REPO), "log", DELIVERY_REF,
+                                "--pretty=format:", "--name-only", "--full-history"],
+                               capture_output=True, text=True, timeout=120)
+            _ORIGIN_PATHS = (set(filter(None, r.stdout.splitlines()))
+                             if r.returncode == 0 else False)
+        except (OSError, subprocess.SubprocessError):
+            _ORIGIN_PATHS = False
+    return _ORIGIN_PATHS
+
+
 def _ever_in_git(relpath: str):
     """Was this path EVER in history REACHABLE FROM origin/master?
 
@@ -563,14 +590,23 @@ def _ever_in_git(relpath: str):
     `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`
     `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
     """
-    try:
+    if relpath in _EVER_IN_GIT_CACHE:
+        return _EVER_IN_GIT_CACHE[relpath]
+    paths = _origin_path_set()
+    if paths is False:                    # the one-shot build failed
+        _EVER_IN_GIT_CACHE[relpath] = None
+        return None
+    if relpath in paths:                  # positive: answered from the set
+        _EVER_IN_GIT_CACHE[relpath] = True
+        return True
+    try:                                  # miss: confirm the NEGATIVE precisely
         r = subprocess.run(["git", "-C", str(REPO), "log", DELIVERY_REF, "--oneline", "-1",
                             "--", relpath], capture_output=True, text=True, timeout=10)
-        if r.returncode != 0:
-            return None
-        return bool(r.stdout.strip())
+        val = None if r.returncode != 0 else bool(r.stdout.strip())
     except (OSError, subprocess.SubprocessError):
-        return None   # fail CLOSED: unknown is UNKNOWN, never "delivered"
+        val = None   # fail CLOSED: unknown is UNKNOWN, never "delivered"
+    _EVER_IN_GIT_CACHE[relpath] = val
+    return val
 
 
 _HANDOFF_SCAFFOLD = {"README.md", ".gitkeep", ".gitignore", ".DS_Store"}
@@ -615,11 +651,28 @@ def _origin_ref():
 def _sync_state(relpath: str, origin_ref) -> str:
     """READ-ONLY git derivation of a handoff's delivery/sync state (requirement B).
     Returns: 'uncommitted' / 'ahead' (committed, not on origin) / 'on_origin' /
-    'no_origin' (origin ref missing) / 'unknown' (git error)."""
+    'no_origin' (origin ref missing) / 'unknown' (git error).
+
+    🔴 FIXED 2026-09-05 (Codex second pass, HIGH). Neither `git` invocation checked
+    its RETURN CODE. A failing `git status` (exit 128, empty stdout) fell through the
+    `st.stdout.strip()` test as though the tree were clean; a failing `rev-list` then
+    parsed `int("" or "0") == 0` and the function returned **`on_origin`** — a POSITIVE
+    DELIVERY VERDICT MANUFACTURED OUT OF A GIT FAILURE. Empty output from a broken
+    command is not the same fact as empty output from a working one, and only the exit
+    code separates them.
+
+    THE INVARIANT, now applied on every branch here and in every caller: a POSITIVE
+    delivery verdict requires SUCCESSFUL origin evidence; unavailable evidence stays
+    UNKNOWN all the way through to the final report.
+    `[[finding_lenient_parser_reports_unparseable_as_a_behavior]]`
+    `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`
+    """
     try:
         st = subprocess.run(["git", "-C", str(REPO), "status", "--porcelain", "--",
                              relpath], capture_output=True, text=True, timeout=10)
     except (OSError, subprocess.SubprocessError):
+        return "unknown"
+    if st.returncode != 0:
         return "unknown"
     if st.stdout.strip():
         return "uncommitted"           # untracked or modified
@@ -629,7 +682,9 @@ def _sync_state(relpath: str, origin_ref) -> str:
         rl = subprocess.run(["git", "-C", str(REPO), "rev-list", "--count", "HEAD",
                              "--not", "--remotes=origin", "--", relpath],
                             capture_output=True, text=True, timeout=10)
-        return "ahead" if int(rl.stdout.strip() or "0") > 0 else "on_origin"
+        if rl.returncode != 0 or not rl.stdout.strip():
+            return "unknown"
+        return "ahead" if int(rl.stdout.strip()) > 0 else "on_origin"
     except (OSError, subprocess.SubprocessError, ValueError):
         return "unknown"
 
@@ -896,7 +951,7 @@ def check_delivery_claim_vs_git():
         return [(INFO, "no delivery_log.tsv")]
     origin = _origin_ref()
     today_untracked, prior_untracked, lost, stale_path, ahead = [], [], [], [], 0
-    unknown_path = []
+    unknown_path, unverified = [], []
     seen = set()
     try:
         with log.open(errors="replace") as f:
@@ -920,6 +975,12 @@ def check_delivery_claim_vs_git():
                     if sync == "uncommitted":
                         (today_untracked if ts[:10] == TODAY.isoformat()
                          else prior_untracked).append(f"{sig}->{rcp}")
+                        continue
+                    # 🔴 FIXED 2026-09-05 (Codex second pass): 'unknown' and 'no_origin'
+                    # used to fall through a bare `continue` — SILENTLY SKIPPED, after
+                    # which the all-clear below announced that EVERY delivered row was
+                    # backed. A row we could not check is not a row that passed.
+                    unverified.append(f"{sig}->{rcp} [{sync}]")
                     continue
                 # Gone from the logged path. That is USUALLY success, not failure:
                 #   - recipient moved it to processed/       (the common convention)
@@ -928,8 +989,19 @@ def check_delivery_claim_vs_git():
                 # The only real orphan is a path git has NEVER SEEN. Verified 2026-07-27:
                 # a processed/-twin-only test produced 17 false HIGHs on its first run
                 # (14 dead-PROME-dir + 3 BOND drains) - every one of which WAS delivered.
+                # 🔴 FIXED 2026-09-05 (Codex second pass): a processed/ twin used to pass
+                # on DISK EXISTENCE ALONE. An UNTRACKED twin — one that never reached
+                # origin — certified the delivery. Existence on this box is not evidence
+                # about origin; verify the twin's history exactly like the primary path.
                 twin = path.parent / "processed" / path.name
                 if twin.exists():
+                    twin_hist = _ever_in_git(str(twin.relative_to(REPO)))
+                    if twin_hist is True:
+                        continue
+                    if twin_hist is None:
+                        unverified.append(f"{sig}->{rcp} [twin-unverifiable]")
+                        continue
+                    unverified.append(f"{sig}->{rcp} [twin present but NEVER on {DELIVERY_REF}]")
                     continue
                 on_origin_hist = _ever_in_git(rel)   # NOT `seen` — that name is the dedup set above
                 if on_origin_hist is True:
@@ -967,6 +1039,12 @@ def check_delivery_claim_vs_git():
                          f"and not orphaned: {', '.join(unknown_path[:4])}"
                          f"{' …' if len(unknown_path) > 4 else ''}. Fetch and re-run; do not read "
                          f"unavailable evidence as delivery."))
+    if unverified:
+        out.append((MED, f"{len(unverified)} delivery_log row(s) claim 'delivered' and could NOT "
+                         f"be verified against {DELIVERY_REF} — git failed, the origin ref was "
+                         f"missing, or a processed/ twin exists only on this disk. UNKNOWN is not "
+                         f"a pass: {', '.join(unverified[:4])}"
+                         f"{' …' if len(unverified) > 4 else ''}"))
     if stale_path:
         out.append((INFO, f"{len(stale_path)} row(s) point at a path that no longer exists "
                           f"but WAS in git (consumed-by-delete, or a retired inbox dir) — "

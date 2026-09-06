@@ -153,8 +153,15 @@ def main():
         return 0 if unresolved == 0 else 1
 
     if not flips:
+        # 🔴 FIXED 2026-09-05 (Codex second pass, MED): this returned 0 unconditionally,
+        # so a run holding UNRESOLVED rows exited SUCCESS in --apply mode while the same
+        # fixture exited 1 in dry-run. "Nothing changed" and "verification succeeded" are
+        # DIFFERENT OUTCOMES, and the mode should never decide which one you are told.
         print("\nnothing to do.")
-        return 0
+        if unresolved:
+            print(f"⚠️  but {unresolved} row(s) remain UNRESOLVED "
+                  f"({len(orphans)} orphan / {len(unknowns)} unknown) — exit 1.")
+        return 0 if unresolved == 0 else 1
 
     for i in flips:
         f = body[i].split("\t")
