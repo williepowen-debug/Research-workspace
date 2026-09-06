@@ -1,6 +1,7 @@
 # FERT — Falsification / Exit Protocol
 
 **Kill rail re-derived: 2026-08-17** (first live session under the 2026-08-16 re-charter)
+**Definitions tightened: 2026-09-05** — §0 gained *"pre-break plateau level"* and *"stall ≠ reversal"* after the T11 grade found a STATUS paraphrase of Channel B leg 1 sitting above the letter. **The kill rails themselves are UNCHANGED** — this was a definition repair, not a re-derivation, and it does not reset the clock below.
 **Next mandatory re-derivation: 2026-11-15** — or immediately on any channel state change below.
 
 > This file carries the DURABLE RULES. It deliberately carries **no live values** — the live read lives in `STATUS.md` with `[src M/D]` (anti-drift split, blueprint §3). If you are reading a price here, the file is malformed.
@@ -15,6 +16,8 @@
 | **"Print"** | One published observation of the named instrument at its own cadence (Pink Sheet = monthly edition; DTN = weekly article; BLS = monthly release). A *bid* is never a print for an *award* instrument. |
 | **Missing print** | If the named instrument publishes **no value** for a period (the BLS food-at-home series has a blank at 2025-10), the consecutive-count **pauses — it does not carry across the gap and does not reset**. Gaps are logged, then the count resumes. Stated because a silent blank otherwise makes two non-adjacent months look adjacent. |
 | **Channel-kill vs thesis-kill** | Killing one channel never kills the others. Every kill below names **which channel dies** and **where the work migrates**. |
+| **"Pre-break plateau level"** (Channel B leg 1) | *Added 2026-09-05 because a paraphrase had already loosened it.* The binding referent is **the single flat level the Pink Sheet phosphate-rock series held for the 25 consecutive editions immediately before the break** — not "roughly that level", not the last pre-break-adjacent print, and **not the first month of the break**. The value itself lives in `STATUS.md` per this file's no-live-values rule; what is pinned HERE is the *rule for choosing it*, so no future paraphrase can substitute a nearby number. ⚠️ **Live catch:** a STATUS paraphrase of this leg had drifted to a threshold **$4.40/mt above the letter**, which the very first month of the break would have satisfied — i.e. a *partial retrace to the break's own starting point* would have read as a channel kill. Corrected in STATUS 2026-09-05. `[[finding_frozen_spec_and_the_surfaces_describing_it_drift_apart]]` — the letter cannot drift; the surfaces describing it do, and those are what you read at grade time. |
+| **Stall ≠ reversal** | *Added 2026-09-05.* Every kill leg below tests for **reversal**. A channel can lose all momentum at an elevated level without moving a single kill leg — observed at BOTH ends of Channel B in Aug-2026 (root flat one edition, retail flat four articles). **"Kill not triggered" is therefore never a synonym for "thesis intact."** When a channel stalls, say *level held, momentum stopped* and record it; do not let the un-tripped rail certify the channel. |
 
 ---
 
