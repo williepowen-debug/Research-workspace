@@ -1,0 +1,125 @@
+# Fleet Auto-Memory — COLD INDEX, shard `EMBEDDED` (split from `INDEX_COLD.md` 2026-09-06, PROME flow rule)
+
+> The eight **embedded → canon** census sections — every row here has a canon embed home (BOOT.md · CLOSEOUT.md · ORCHESTRATION_PLAYBOOK.md · COMPLETION_SPEC.md · root CLAUDE.md Git Protocol · FORGE/PREDICTION_DISCIPLINE.md · AGENTS/TERRY/RISK_RULES.md · DEWEY) and is promotion-EXEMPT (Will 8/22). Moved VERBATIM; per-file ceiling **51,200 B** applies to this file too (`read_cap_check.py memory/auto/INDEX_COLD_EMBEDDED.md`). Readers treat `INDEX_COLD.md + INDEX_COLD_*.md` as ONE cold set (memory_index_check · memory_citation_census, shard-aware 9/6). ⛔ Never delete a row; rows move, never vanish.
+
+## Boot / closeout / handoff / revival / sync — embedded → `PROME/BOOT.md` § Boot-class fleet memories (2026-07-31; regrouped 8/29, all 14 slugs still named there)
+- finding_display_filter_gating_safety_net — a forward-section display filter silently gates the past-due safety net too
+- finding_boot_protocol_live_event_override — SPAWN PROTOCOL framing pulls agents to CLOSEOUT mid-event; needs a live override
+- finding_boot_predictions_scan — a boot-time PREDICTIONS due/stale scan catches silently-stale OPEN predictions
+- finding_boot_closeout_hardening_recipe — phased recipe: mirror, strip live-state, audit doc-ownership, punch-list
+- finding_boot_py_cadence_skip_pattern — low-frequency desks: run-at-boot-defensively + mtime cadence-skip, not opt-in
+- finding_boot_sweep_macro_regime_context — boot sweeps should check WHO runs the central banks, not just feeds
+- finding_revival_proxy_pattern — Step 4 of PROME/ORCHESTRAL_LAYER_DESIGN.md
+- finding_revival_boot_doc_sweep — reviving a 30d-stale agent: sweep every boot doc, not just STATUS — it compounds
+- feedback_scan_agent_outboxes_at_boot — at PROME boot scan AGENTS/*/outbox/ too — signals sit outbox-resident
+- feedback_front_load_planning — surface all decisions in a pre-execution pass; Will batch-approves, then execute
+- finding_freshness_audit_vs_caught_up — fresh mtime ≠ caught up — an agent can still be behind inbox AND its own STATUS
+- finding_gitignored_private_drop_boot_surfaced — gitignore hides private drops from git status too — pair with a boot-card line
+- finding_fetch_before_trusting_boot_sync — git ahead/behind reads a stale local ref; fetch before declaring "synced"
+- finding_inbound_lane_is_the_falsification_channel — a lane that can carry a falsifier for a thesis you own is boot-mandatory
+## Closeout-moment rows — embedded → `PROME/CLOSEOUT.md` §Fleet-memory embeds (2026-07-31)
+- finding_a_finding_written_too_abstract_will_not_bind_you — enumerate the STATES; a principle won't bind its own author
+- finding_closeout_as_writeback_tail — codify closeout in the auto-loaded CLAUDE.md, not a standalone doc
+- feedback_intra_day_closeout_discipline — run closeout at EVERY session end, not just end-of-day
+- feedback_handoff_cadence — Will prefers handoffs at natural breakpoints over riding to degradation
+- finding_state_token_sweep_all_surfaces — When a gate/decision state flips (e.g
+- finding_completion_stamp_skip_reads_as_current — a file NAMED for currency that skips a closeout reads as current and wrong
+- finding_derived_surface_fold_is_the_last_writeback — 5-of-5 stale derived surfaces were MID-SESSION writes left behind by later prima
+## Sub-agents, teams & workflow orchestration — embedded → `PROME/ORCHESTRATION_PLAYBOOK.md` §Fleet-memory embeds (2026-07-31)
+- finding_subagent_escalation_mode_discriminator — propose-only spawns: money/irreversible → Will; reversible → default + log
+- feedback_subagent_prompt_discipline — 4 rules to keep research-spawn returns efficient without over-templating
+- finding_subagent_idle_is_not_delivery — idle ≠ report delivered; make the FINAL TURN TEXT the deliverable (n=2)
+- finding_subagent_memory_split — split spawn specs: durable mandate + dated MEMORY half, or spawns can't orient
+- finding_subagent_baseline_audit — a maintain-a-set spec needs a BASELINE audit rubric, not just incremental
+- finding_subagent_naming_identity_over_functional — Multi-agent systems with named sub-agents should prefer identity-naming (unique
+- feedback_subagent_propagation_gap — sub-agent work doesn't rise to the parent; scan spawn KB/STATUS at closeout
+- finding_subagent_prefire_date_verification — re-fetch cadence-derived dates within N days of fire; caught 2-day errors
+- feedback_subagent_web_tools_not_autoloaded — research spawns may load WITHOUT WebSearch/WebFetch and silently return no data
+- finding_subagent_year_verification — confirm the YEAR at the primary source; aggregators quote prior-year prints
+- feedback_parallel_spawn_independent_agents — independent spawns go as multiple Agent calls in ONE message, never sequentially
+- feedback_named_spawn_teams_mode — Naming an Agent spawn via the `name` parameter triggers team-mode (mailbox-based
+- finding_fence_orchestration_live_agent — a directory fence must be ANNOUNCED to the live session and its commits watched
+- finding_teams_mode_domain_agent_spawn — Teams-mode (named-spawn) works for domain agents like BOND
+- finding_draft_only_teams_spawn — teams-mode pattern: draft into proposals/ only, no live-state edits
+- finding_teams_mode_iterative_tasks — SendMessage beats spawn for ITERATIVE work; spawn is fine single-turn
+- feedback_warm_parked_agent_collision — warm named teams agents collide next session; release at closeout or alias them
+- feedback_orchestration_mode_split — split fan-out (Workflow) from live orchestration (teams-mode) before spawning
+- finding_workflow_concurrency_529 — concurrent Workflow runs + live siblings hit account-API 529; cap parallelism
+- finding_workflow_agent_unprompted_commit — workflow spawns have Edit+Bash and commit unprompted; scope them RESEARCH-ONLY
+- finding_investigation_routing_discriminator — route by "do I need the answer THIS session?" — yes→inline verify, no→assign it
+- finding_workflow_subagent_repo_sandbox — Workflow spawns are sandboxed to the repo tree; pass in-repo paths
+- finding_write_behavior_check_before_agent_tool_run — grep another agent's tool for write ops first; a test run can become a write
+- finding_workflow_scratch_crash_recovery — a crashed Workflow leaves spawn output in /tmp scratch; salvage it
+- finding_workflow_rate_limit_resume_recovery — A /deep-research or Workflow killed mid-run by a session rate limit is recoverab
+- finding_teams_mode_no_split_pane — teams mode has no split-pane on WSL2; Agent View is the second pane
+- finding_batch_extraction_fanout_then_route — split mechanical extraction (fan out) from judgment (owner keeps routing)
+- finding_warm_agent_multiround_sweep — keep named spawns resident, re-task in rounds — later rounds are cheap
+- finding_duplicate_the_decision_changing_finding — run the ONE decision-changing finding twice, independent agents
+- finding_warm_agent_proposal_round — After a task wave, a proposal round
+- finding_scheduled_print_spawn_armed_state_report — require an ARMED-STATE report before first idle, else armed looks dropped
+- finding_spawn_packet_seed_premise_verification — Coordinator-authored spawn-packet context claims (current time
+## Spawn delivery contract — embedded → `PROME/COMPLETION_SPEC.md` §Fleet-memory embeds (2026-07-31)
+- finding_two_phase_spawn_grader_contract — waiting on a print? two spawns, a FROZEN grader as the handoff contract
+- finding_terminated_notice_can_precede_delivery — A teammate_terminated notice + an empty disk check does NOT prove a spawned agen
+- finding_idle_notification_is_not_a_result — an idle spawn is not a report; chase the deliverable, check DISK before re-spawn
+- finding_spawned_agents_ship_artifact_skip_writeback — spawns ship the artifact and SKIP their STATUS — put write-back in the contract
+## Git rows verbatim in root canon — embedded → root `CLAUDE.md` Git Protocol (pre-existing text; no edit needed)
+- feedback_agent_git_isolation — never stash/commit other agents' files; scope strictly to your own directory
+- feedback_check_staged_before_commit — run git diff --cached before committing — catches pre-staged files
+- feedback_git_mv_for_inbox_processing — use git mv not bash mv for inbox→processed; bash mv leaves the deletion unstaged
+- feedback_defer_push_coordinate — push is automated at closeout via ff-gated safe-push; non-ff = rebase
+- finding_push_train_pattern — one push ships every agent's unpushed commits; automated at closeout
+- feedback_shared_log_row_author_commits — the author of a row in a shared log commits that row itself (Will-ratified 7/24)
+## Prediction & calibration — embedded → `FORGE/PREDICTION_DISCIPLINE.md` (2026-07-31; hot residue re-based 2026-08-21 pass #5; **2 more embedded + demoted 2026-08-30, see that dated section**) ⚠️ **The "canon file carries the FULL set" claim has now gone FALSE TWICE (9 rows at 8/21, 2 rows at 8/30) — it is a live assertion that decays every time a prediction memory is written. Check it at each flow pass; never inherit it.**
+- finding_widened_scope_needs_rescoped_instrument — widening a prediction's scope with the old base-rate instrument can pre-fail it
+- finding_discovery_instrument_defines_the_claim — press-sampling measures YOUR discovery latency, not the world — name the scan
+- finding_redated_falsifier_inherits_premise — When you re-date a falsifier/prediction because a catalyst moved
+- finding_prereg_dates_the_event_not_the_artifacts_cadence — a prereg resolving on an ARTIFACT is dated by that artifact, not the event
+- finding_lessons_file_cannot_detect_own_contradictions — A prose lessons/LEARNINGS file cannot detect its own contradictions
+- finding_prereg_symmetric_magnitudes_can_hide_an_unreachable_branch — a trigger that CANNOT fire; re-run reachability on the AMENDED text (n=4)
+- finding_pre_register_against_the_carrying_filing — Pre-register a threshold against the FILING/SOURCE that carries the metric
+- finding_anchor_prediction_to_surprise_not_priced — anchor event→reaction to the SURPRISE-vs-pricing, not an already-priced outcome
+- finding_continuation_hits_are_not_calibration — split a prediction book's hit rate by CONTINUATION vs TURN
+- finding_thin_liquidity_prediction_market_discipline — thin prediction-market single prints aren't "holds"; cross-verify (≥3d)
+- finding_calibration_discount_regime_conditional — an earned calibration discount is conditional on its pricing regime
+- feedback_two_way_read_directional_clarity — When presenting a \two-way read\" or scenario branches"
+- feedback_corrected_framing_calibration — verify-research's modal verdict is CORRECTED-FRAMING; keep the direction
+- finding_threshold_vs_mechanism — separate "mechanism intact" from "threshold holds" — TRUE-letter, FALSE-spirit
+- finding_catalyst_vs_consequence_conflation — catalyst probabilities inflate as consequence; require P(C|catalyst)
+- feedback_prediction_canonical_measure — When revising a prediction
+- feedback_single_month_subcomponent_skepticism — Single-month sub-component metric moves (ISM internals, CMBS by-property-type **[+REVISION axis, CARL 9/5, n=1 — the 2nd-print remedy does NOT cover it; promotion flagged to PROME]**
+- finding_noise_filter_erases_signal_class — before widening a noise filter, check if the true positives live in the noise
+- feedback_forward_discovery_prediction_spirit — resolve forward-discovery by SPIRIT (found in-window?), not literal text
+- feedback_litigation_allegation_weighting — Plaintiff/litigation-allegation-only signals should be weighted ≤40% confidence
+- finding_base_rate_vs_mechanism_discriminator — a novel mechanism bypasses discriminators, emitting a confident wrong veto
+- finding_catalyst_path_decoupling — level trigger ≠ path trigger; another upstream path kills the path claim only
+- finding_pre_registration_discipline_through_corroboration — hold a pre-registered mark through interim corroboration; don't fire early
+- finding_level_conditional_probability_remarking — a probability attached to a price level re-marks itself as spot moves
+- finding_sustain_count_role_discriminating_power — a registered trigger needs a stated ROLE; "can't catch that" is an answer
+- finding_delta_vs_own_prior_local_extreme — a Δ against your OWN prior misleads if that prior was a local extreme
+- feedback_dont_retire_dormant_thesis — de-escalated catalyst → dormant/armed convexity + re-arm trigger, don't kill it
+- finding_flow_discriminator_vs_narrative — trust the pre-registered discriminator over the street, after a staleness check
+- finding_seasonal_trough_baseline_resolves_true_on_normal — a falsifier baselined on a seasonal trough resolves TRUE on ordinary recovery
+- finding_sample_size_vs_identification_defect — "more data" fixes a sample-size defect, never an identification one; check which
+- finding_perturb_inputs_to_test_base_rate — reproducing a base rate proves arithmetic; perturb its INPUTS at source instead
+- finding_gate_bias_is_placement_error_compare_to_margin — a threshold bias is a PLACEMENT error; compare it to the realized margin first
+- finding_absence_tell_needs_a_talkative_instrument — "they didn't mention X" needs a source with room and habit to mention it
+## Trade / position / risk discipline — ✅ **embedded → `AGENTS/TERRY/RISK_RULES.md`** (all 13 rows below; TERRY-confirmed 2026-08-04, new section "Durable findings — EMBEDDED FROM AUTO-MEMORY 2026-08-04", above Postmortem Tags). Grouped not flat, at TERRY's judgment — RISK_RULES is a **fire-time** document, and a flat 13 is scanned while a grouped one is found. ⚠️ `finding_profit_zone_needs_its_own_harvest_rule` is labelled there as **NO_HARVEST_RULE** (Will-ruled fleet-wide 7/31) with its cost attached — root cause of this desk's only realized loss, −$111.60 on TRY-VIOLET-VIXCS. **Embedding the finding is NOT adoption of the NO_HARVEST template** (WILL_QUEUE row 11, still open)
+- feedback_deploy_on_trigger_not_calendar — Will deploys fresh capital ONLY on a fired trigger, never on book-maintenance
+- feedback_position_cost_basis_not_authoritative — never cite cost-basis/P&L from state files as authoritative; confirm with Will
+- feedback_put_vs_duration_expression — in a suppressed tape single-name puts bleed; match vehicle to the OPEN channel
+- feedback_exit_recommendations_need_mark_context — surface the execution mark before recommending an exit, else propose a window
+- finding_option_marks_need_live_chain — carried option marks go phantom; pull the live chain at every decision point
+- finding_workbook_demote_by_verification — verify live-consumer + counterparty BEFORE freezing a ledger; triage by Group
+- finding_risk_control_separate_from_sizing — a collapsed AND-leg DISARMS the stop; re-spec is risk control, not sizing
+- finding_registered_killswitch_cost_datum — when a kill-switch fires, hold the verdict, log the cost, never retro-apply
+- finding_vrp_split_rates_vs_singlename — The post-2012 SPX variance-risk-premium collapse does NOT apply uniformly
+- finding_cooldown_gate_differential_main_vs_hedge — A vol/cooldown gate blocks fresh MAIN-arm capital deployment (paying vega on a n
+- finding_fill_in_principle_vs_final_approve_pattern — Two-stage fill approval: Will [Approve in principle] unblocks TERRY's live re-ma
+- finding_profit_zone_needs_its_own_harvest_rule — triggers keyed to a further move leave none that fires on merely profitable
+- finding_grade_execution_only_against_same_timestamp_marks — grading a fill against marks from another time manufactures a fake finding
+## Deep-research method — embed-pending → `AGENTS/DEWEY/CLAUDE.md` (already cited inline there; packet 2026-07-31)
+- finding_a_challenge_that_strengthens_its_target_is_a_success — conclusion survives, evidence replaced IS the finding, not a null
+- finding_deep_research_stale_vintage_headline — the load-bearing headline figure is often a stale VINTAGE; refresh it
+- finding_deep_research_slate_mining — Build deep-research prompt slates by mining agents' SELF-flagged gaps
+- finding_deep_research_primary_pull_owns_three_data_classes — deep research cannot reach paywalled, live-reading, or single-name filings
