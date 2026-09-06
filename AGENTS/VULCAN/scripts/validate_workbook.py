@@ -63,6 +63,31 @@ def raw_widths(p):
         return [len(r) for r in csv.reader(f, delimiter="\t")]
 
 
+def header_of(p):
+    """The ledger's ACTUAL header, read from the file — NOT inferred from row 0.
+
+    ⚠️ FIXED 2026-09-06. This function did not exist; `validate()` took the header
+    from `data[0].keys()`, which is empty for a ledger with a correct header and zero
+    data rows. A brand-new ledger therefore reported EVERY declared column as
+    "SCHEMA declares column(s) the file does not have" — a header-drift ERROR against
+    a header that is perfectly correct.
+
+    That made the right discipline impossible to satisfy cleanly: this desk creates a
+    ledger and pre-commits its cadence BEFORE the first row exists (GPU_SERIES.tsv,
+    PROME ruling 2026-09-03), and an empty ledger is the CORRECT intermediate state,
+    not a defect. The guard could not tell "no header" from "no rows".
+
+    🔑 The class: a check that reads its reference through the DATA cannot evaluate the
+    zero-data case, and it fails toward ERROR on exactly the state a new instrument
+    passes through. Caught by running the validator on a ledger built to spec.
+    [[finding_test_the_guard_not_just_the_guarded]]
+    """
+    with open(p, encoding="utf-8", newline="") as f:
+        for r in csv.reader(f, delimiter="\t"):
+            return r
+    return []
+
+
 def check_enum(val, allowed):
     return val in {a.strip() for a in allowed.split("|") if a.strip()}
 
@@ -99,8 +124,10 @@ def validate(only=None):
             continue
         data = rows(p)
         declared = [f["variable_name"] for f in fields]
-        actual = list(data[0].keys()) if data else []
-
+        actual = header_of(p)          # from the FILE, so an empty ledger is gradeable
+        if not actual:
+            errs.append(f"{ledger}: FILE IS EMPTY — no header row at all")
+            continue
         # header drift, BOTH directions
         missing = [c for c in declared if c not in actual]
         undocumented = [c for c in actual if c not in declared]
@@ -108,6 +135,18 @@ def validate(only=None):
             errs.append(f"{ledger}: SCHEMA declares column(s) the file does not have: {missing}")
         if undocumented:
             warns.append(f"{ledger}: {len(undocumented)} column(s) present but UNDOCUMENTED: {undocumented}")
+
+        # ⚠️ ORDER IS LOAD-BEARING: this note ASSERTS the header conforms, so it must be
+        # emitted AFTER the drift check and only when the drift check is clean. Emitted
+        # before, it printed "header conforms" over a header that did not — a note
+        # certifying the exact thing it had not checked. Caught by injection test 1 on
+        # the same fix that introduced it, 2026-09-06.
+        # [[finding_header_edit_is_the_edit_most_mistaken_for_maintenance]]
+        if not data and not missing and not undocumented:
+            notes.append(
+                f"{ledger}: header conforms, ZERO data rows — an empty ledger is a legitimate "
+                f"state (created before its first pre-committed reading), not a defect"
+            )
 
         # ragged rows
         w = Counter(raw_widths(p))

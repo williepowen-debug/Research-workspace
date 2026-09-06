@@ -1,5 +1,50 @@
 # VULCAN — SCRATCH (next-session pickup)
 
+> # ⛔ 2026-09-06 (Sun) — READ THIS BLOCK FIRST. Will-directed collaborative session, 11:19 ET →. 3 dark days before it (9/3 → 9/6).
+>
+> ## THE ONE-LINE STATE: nothing in the market moved. Composite **15/25, ninth session**, all five channels 3, fired-count **0 of 5**, thesis-kill **1 of 3** (re-read leg by leg, entry in the rail). **No score, band or threshold moved, and no market datum was observed.** This was a correction/consumption pass.
+>
+> ## 🔴 THE HEADLINE IS A CORRECTION I CONTESTED AND WON AT THE PRIMARY — AND ALMOST DIDN'T
+> **WALTER `SIG-W-20260904-001` ruled NVDA's *"primarily related to the procurement of memory"* exists in NO primary. It exists VERBATIM, 1 hit**, in 8-K acc `0001045810-26-000073` → `q2fy27cfocommentary.htm` = **Exhibit 99.2, CFO Commentary of Colette M. Kress**, Item 2.02, filed 8/26. Own EDGAR pull; exhibit identity confirmed in the 8-K body.
+> - **KB-118 IS CORRECT AS WRITTEN — including its "VULCAN own EDGAR pull" source line. Accepting the correction would have STRUCK A CORRECT ROW.** This is the **MU-date episode with the roles reversed, one week later**: on 9/2 reconciling to *my* number would have destroyed VIOLET's correct copy; this week the correct copy was mine.
+> - **HOW THE ERROR HAPPENED, and WALTER's own table discloses it:** the 10-Q row carries **two** independent checks and is **right**; the two 8-K rows carry **one** (DEWEY), and Ex-99.2 is wrong. **One desk's read of one exhibit became "no primary document" in a verdict header.**
+> - 🔑 **WHAT SURVIVES IS BETTER THAN THE DISPUTE: two NVDA documents filed the SAME DAY attribute the SAME $119B→$279B differently** — Ex-99.2 says *"procurement of memory"*, the 10-Q says *"data center infrastructure systems, primarily memory AND MANUFACTURING FACILITIES"*. **And the 8-K says on its face the CFO Commentary is "furnished and shall not be deemed filed" (§18)** ⇒ **the NARROW attribution everyone quoted is in a FURNISHED exhibit; the BROADER wording is in the FILED 10-Q. Prefer the filed wording. Quote the CFO line AS CFO commentary, never as the filing's operative words.**
+> - **Adopted anyway (their direction call is right): the memory SHARE is undisclosed in both ⇒ `FL-VULCAN-12` downgraded LIVE → CANDIDATE — direction intact, CANNOT BE SIZED.** S2 stays 3. [KB-147]
+>
+> ## 🔴 THE MOST UNCOMFORTABLE FINDING IS MINE — A 33-DAY DEFECT INSIDE MY OWN KB CELL
+> **WATT retracted *"~55 GW nameplate interconnection ceiling"* as its own imprecision on 2026-08-04.** I recorded the corrected FACT in **KB-087 on 8/13 and wrote the RETRACTED WORDING into the same cell as the ADOPT-VERBATIM instruction.**
+> - **A correction and the instruction it kills, side by side in one cell. The instruction is the half that travels.** It propagated to **STATUS ×4 · CHANNEL_DETAIL ×2 · THESIS · VX · EXIT_PROTOCOL · NEXUS_BRIEF ×2**, was broadcast to NEXUS, and **DAEDALUS cited it 9/5 as "the strongest cross-desk form I have seen on the fleet"** while it carried a withdrawn population.
+> - 🔑 **WHY EVERY CHECK PASSED: nothing was factually wrong, no number was wrong, and the eight surfaces AGREED WITH EACH OTHER — which is what a PROPAGATED INSTRUCTION produces, and is indistinguishable from corroboration.** It took a **third party (CODEX, reviewing WATT)** to read WATT's retraction against my instruction. WATT's STATUS claimed my files carried its wording *"verbatim"* **without ever grepping them** (its L-46). **Neither desk's own checks could fire.**
+> - **Fixed on all 8 + KB-087 annotated at source + KB-146. Disclosed to DAEDALUS against my own Conf M→H grade.** `[[finding_correction_beside_an_instruction_leaves_two_live_instructions]]` · `[[finding_adoption_is_not_validation]]` at its limit case.
+>
+> ## ✅ WHAT ELSE GOT DONE
+> - **WALTER lane DRAINED 4/4**, all in `board_log.tsv` with reasons (`acted`×3, `noted`×1 **with its reopen condition**).
+> - **VIOLET's 9/4 flag applied** — the *"headroom goes from ~1 day to ~6-13 days"* clause was **INVERTED** by the confirmed 9/30 print and sat live in **VULCAN-02/-11/-12** for 4 days after the date was corrected everywhere else. **A corrected date does not correct the argument built on the old one.** Struck in place, 8/27 block retained verbatim, correction appended. Brief CLOCK rows 243/244 rebuilt.
+> - **HBM3E multiple resolved: carry the STATED 4–5×.** At USD/KRW **1351.1** the LTA range 500-700k won = **$370–518** ⇒ **4.05–5.67×** vs $2,100 spot. WALTER's computed 5.25–7× needs USD/KRW **1,667–2,333**. **FX artifact, not a source disagreement.** ⚠️ **The ~70%-locked figure NOT carried** — "reportedly" in every outlet, UNVERIFIED-RELAY on the same test I applied to Bernstein. [KB-148]
+> - **GPU-RENTAL INSTRUMENT ENCODED** (PROME ruled it mine 9/3): 11th ledger `GPU_SERIES.tsv` + schema + `workbook/GPU_INSTRUMENT_SPEC.md` + **cadence PRE-COMMITTED with ZERO ROWS WRITTEN** + registered in CATALYSTS + **surfacing at boot leg 6 the same session**.
+> - **DAEDALUS answered** — lesson phrasing with a **testable discriminator** against PAT-115 (*"if the guarded event happens at the EARLIEST time it ever has, does this guard still fire before it? If no, it is a miss-detector, not a guard"*), `S4_SERIES` owner-confirm (NOT stale — monthly cadence, latest row IS the latest published month), profile trigger re-dated off the refuted 9/17 window.
+> - **WATT: seam closed AT MY ARTIFACT** with the line quoted back. Its ask ① answered: **`FL-WATT-08` is WATT's row, not mine**, and no VULCAN surface took backup dispatch as observed — **KB-145 already said authorised-not-operated because I adopted WATT's own guard.**
+>
+> ## 🔧 FOUR INSTRUMENT DEFECTS FIXED — THREE IN MY OWN GUARDS
+> 1. **`validate_workbook.py` could not grade an EMPTY ledger** (header taken from `data[0].keys()`) ⇒ a correct header with zero rows reported EVERY column missing. **Blocked the correct discipline.** Fixed; **3 injections, 3/3 fire, no false positive.**
+> 2. **My own fix printed a false certification** — the new note said *"header conforms"* **before** the drift check. Caught by injection 1. **Reordered.** `[[finding_a_correction_pass_is_unreviewed_work]]`, measured on myself inside one session.
+> 3. **`catalyst_countdown.py` had NO holiday calendar** — reported 9/08 as "2d trd" over **Labor Day 9/07**. Every trading-day distance past a holiday overstated, **in the reassuring direction**. Rule-based NYSE calendar added; **10/10 exact match** vs an independently derived 2026 list.
+> 4. **My own `semi_watch.py` cadence was 3-of-8 REGISTERED** — five slots lived only in CLAUDE.md prose. **PAT-063 transport gap on my own rule.** All registered.
+>
+> ## ▶ START HERE NEXT SESSION
+> 1. 🔴 **`GPU-PANEL-01` MUST BE FROZEN BEFORE FRI 2026-09-11 or 9/11 is a MISSED READING and is recorded as one.** Six things it must specify → `workbook/GPU_INSTRUMENT_SPEC.md` §5. **Do NOT write a row from an unspecified panel.**
+> 2. 🔴 **Fri 9/11 `semi_watch.py` post-close — slot 4 of 8, THREE already lost.** Run it regardless of the tape.
+> 3. **9/11 is a FOUR-WAY DAY:** semi_watch + GPU panel/reading 1 + self-grade CHECKS 1-3 (baselines frozen 8/21).
+> 4. **ORCL window opens 9/8 (1 trd) · TSMC August 6-K ~9/10 (3 trd, cite the CUMULATIVE).**
+> 5. **The 9/30 stack is a 10/01 stack.**
+>
+> ## ❌ OPEN / DECISIONS OWED TO WILL
+> - 🔴 **`workbook/PREDICTIONS.tsv` IS NOW OVER THE READ CAP — 57,244 B = 106%**, up from 91% on 9/3. **MY OWN CORRECTIONS PUSHED IT OVER.** The 9/3 deferral rested on *"it is a headroom warning, not a breach"* — **that reasoning has now expired.** The remedy is my own declared design (archive resolved rows; **8 of 16 are resolved**) but it needs a **pre-edit cold read** and the specific trap is known: **STATUS's triad cites VULCAN-07's gate as a LIVE standing rule while the row is RESOLVED — archive by ROW, never by STATUS.** **Will's call.**
+> - 🟠 **`CLAUDE.md` grew 59,354 → 66,071 B this session.** Auto-loaded, so not READ_CAP-bound, but it costs context every boot and I made a watched problem worse. **Watch, don't rotate** — flag to PROME if it keeps growing.
+> - 🟠 **`mag7.py` has NO pre-committed cadence** and it is **thesis-kill leg 2's instrument**, with the yellow band freshly tripped and the series 5 days old. Either pre-commit one or say why not.
+> - **Hyperscaler long-dated-issuance check** (KB-096, one query, carried since 8/13) · **QQQ sector variant** (blocker NAMED: Invesco 406s its domain) · **boot step 8 channel-liveness still has no leg in `boot.py`** (DAEDALUS flag ①, accepted, still queued).
+
+
 > # ⛔ 2026-09-03 CLOSEOUT — READ THIS BLOCK FIRST. Session spanned 2026-09-02 22:47 ET → 2026-09-03 07:1x ET (PROME-orchestrated, 6 dark days before it).
 >
 > ## ✅ THE 8/27 DEBT IS DISCHARGED — VULCAN-16 IS GRADED **MISS**

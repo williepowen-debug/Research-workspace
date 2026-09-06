@@ -154,11 +154,91 @@ def _pick(row, *names):
     return ""
 
 
+def _easter(y):
+    """Anonymous Gregorian algorithm. Good Friday = Easter - 2."""
+    a = y % 19
+    b, c = divmod(y, 100)
+    d, e = divmod(b, 4)
+    g = (8 * b + 13) // 25
+    h = (19 * a + b - d - g + 15) % 30
+    i, k = divmod(c, 4)
+    l = (2 * e + 2 * i - h - k + 32) % 7
+    m = (a + 11 * h + 19 * l) // 433
+    mo = (h + l - 7 * m + 90) // 25
+    day = (h + l - 7 * m + 33 * mo + 19) % 32
+    return date(y, mo, day)
+
+
+def _nth_weekday(y, month, weekday, n):
+    """n-th <weekday> of <month>; n<0 counts from the end."""
+    if n > 0:
+        d = date(y, month, 1)
+        d += timedelta(days=(weekday - d.weekday()) % 7)
+        return d + timedelta(weeks=n - 1)
+    nxt = date(y + (month == 12), (month % 12) + 1, 1)
+    d = nxt - timedelta(days=1)
+    return d - timedelta(days=(d.weekday() - weekday) % 7)
+
+
+def _observed(d):
+    """NYSE shifts a fixed-date holiday off the weekend: Sat -> Fri, Sun -> Mon."""
+    if d.weekday() == 5:
+        return d - timedelta(days=1)
+    if d.weekday() == 6:
+        return d + timedelta(days=1)
+    return d
+
+
+def market_holidays(y):
+    """NYSE full-day closures for year y, computed from the RULES, not a hardcoded list.
+
+    ⚠️ ADDED 2026-09-06. `trading_days_between` counted weekdays only, with no holiday
+    calendar at all — so on Sunday 2026-09-06 it reported 2026-09-08 as "2d trd" while
+    2026-09-07 was Labor Day and the market was closed. EVERY `d trd` figure past the
+    next holiday was overstated, silently and in the reassuring direction (more runway
+    than exists). This desk grades dated obligations on that distance.
+
+    Rule-based on purpose: a hardcoded year list is a dated carry item that goes stale
+    without ever saying so [[finding_dated_carry_item_has_no_expiry_check]].
+
+    ⚠️ NOT MODELLED, and stated rather than hidden: ad-hoc closures (national days of
+    mourning, weather) and half-days (the 1pm closes around Thanksgiving/Christmas/July 4).
+    A half-day IS a trading day, so omitting half-days is correct here; ad-hoc closures
+    are genuinely unpredictable and would make this figure at most 1 day optimistic in a
+    rare year. Both are bounded and named.
+    """
+    hs = {
+        _observed(date(y, 1, 1)),               # New Year's Day
+        _nth_weekday(y, 1, 0, 3),               # MLK — 3rd Monday January
+        _nth_weekday(y, 2, 0, 3),               # Presidents' Day — 3rd Monday February
+        _easter(y) - timedelta(days=2),         # Good Friday
+        _nth_weekday(y, 5, 0, -1),              # Memorial Day — last Monday May
+        _observed(date(y, 6, 19)),              # Juneteenth
+        _observed(date(y, 7, 4)),               # Independence Day
+        _nth_weekday(y, 9, 0, 1),               # Labor Day — 1st Monday September
+        _nth_weekday(y, 11, 3, 4),              # Thanksgiving — 4th Thursday November
+        _observed(date(y, 12, 25)),             # Christmas
+    }
+    # NYSE does NOT observe Jan 1 on the preceding Friday (Dec 31 stays a trading day).
+    return {d for d in hs if not (d.month == 12 and d.day == 31)}
+
+
+_HOLIDAY_CACHE = {}
+
+
+def is_trading_day(d):
+    if d.weekday() >= 5:
+        return False
+    if d.year not in _HOLIDAY_CACHE:
+        _HOLIDAY_CACHE[d.year] = market_holidays(d.year)
+    return d not in _HOLIDAY_CACHE[d.year]
+
+
 def trading_days_between(a, b):
     n, cur = 0, a
     while cur < b:
         cur += timedelta(days=1)
-        if cur.weekday() < 5:
+        if is_trading_day(cur):
             n += 1
     return n
 
