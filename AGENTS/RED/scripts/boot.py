@@ -45,7 +45,16 @@ import fetch  # noqa: E402
 RED = REPO / "AGENTS" / "RED"
 TODAY = date.today()
 
-TICKERS = ["^VIX", "^SKEW", "SPY", "KRE", "WAL", "OZK", "IWM", "TLT", "HYG", "BZ=F", "JPY=X", "^TNX"]
+# ⚠️ ^SKEW REMOVED from the yfinance tape 2026-09-06 (S41), on VIOLET's caveat via PROME.
+# The GRADE path was re-pointed to CBOE earlier the same session, but the TAPE still printed a
+# mirror-derived ^SKEW, unlabelled, directly above a trigger section grading off the publisher —
+# so a reader could take the tape number as the graded one. Today they agree, which is exactly
+# the condition under which the discrepancy is invisible. The tape now prints the CBOE bar with
+# its own date (see section_tape), so tape and grade agree BY CONSTRUCTION rather than by luck.
+# Census behind this: the mirror is defective on 4.31% of 9,221 sessions across three modes, and
+# the dominant silent mode is FORWARD-FILL — it repeats its own prior value while CBOE moves,
+# which on a sustain counter holds a broken run alive or kills a live one with no visible tell.
+TICKERS = ["^VIX", "SPY", "KRE", "WAL", "OZK", "IWM", "TLT", "HYG", "BZ=F", "JPY=X", "^TNX"]
 FRED_SERIES = [
     ("BAMLH0A0HYM2", "HY OAS", 100, "bps"),
     ("BAMLH0A3HYC", "CCC OAS", 100, "bps"),
@@ -223,6 +232,14 @@ def section_tape(prices, fred):
             continue
         chg = d.get("change_pct")
         print(f"   {d.get('name', t):<22} {d.get('price', '?'):>10,.2f}  {('%+.2f%%' % chg) if chg is not None else '':>8}")
+    rows = cboe_skew()
+    if rows:
+        bar, v = rows[-1]
+        prev = rows[-2][1] if len(rows) > 1 else None
+        chg = f" ({v - prev:+.2f})" if prev is not None else ""
+        print(f"   {'^SKEW (CBOE, publisher)':<22} {v:>10,.2f}{chg}  [CBOE bar {bar}]")
+    else:
+        print(f"   {'^SKEW (CBOE, publisher)':<22} {'n/a':>10}  — publisher unreachable; mirror NOT substituted")
     for sid, label, scale, unit in FRED_SERIES:
         obs = fred.get(sid) or []
         if obs and "value" in obs[0]:
