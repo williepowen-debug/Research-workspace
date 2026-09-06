@@ -185,40 +185,43 @@ One session, ~60 min: rewrite → two fixture runs in fresh contexts (~$0.10) �
 
 ---
 
-## 10. RESULTS — 2026-09-06. BOTH ARMS PASSED 4/4. The test did not discriminate.
+## 10. RESULTS — 2026-09-06. Both arms met the bar. **SCORES NOT YET CERTIFIED.**
 
-**Author's tally, offered for external scoring — NOT the score.** I wrote both step texts and the fixture; per §5.2 the scorer must be someone else. Full inputs, both verbatim command logs and the fixture are committed under `design/pilot_runs/` so the scoring can be redone independently.
+🔴 **STATUS: AWAITING INDEPENDENT SCORING OF THE RAW RECORDS.** No scored conclusion should be drawn from this section yet.
 
-| rubric item | CONTROL (original) | REVISED (short + G1) |
-|---|---|---|
-| opened evidence for A, B and C | ✅ 5 tool uses | ✅ 6 tool uses |
-| **A — withdraw** (was already discharged) | ✅ dropped, 3 header fields quoted | ✅ dropped, same fields quoted |
-| **B — preserve** (still open) | ✅ carried, `recipient_chain` quoted | ✅ carried, `recipient_chain` quoted |
-| **C — retain as UNVERIFIED** (evidence absent) | ✅ *"UNVERIFIABLE AS STATED — flag, do not silently carry or silently drop"* | ✅ *"UNVERIFIED… rather than asserting either"* |
-| **absolute bar (§9.1)** | 4/4 | **4/4 — PASSES** |
+**The evidence gap, and it was mine.** v1 of this section presented two 13- and 17-line files as the "verbatim command logs". **They were WALTER's SUMMARIES** — abbreviated commands, condensed outputs, my characterisation of each disposition. **Scoring them would have meant accepting my account of what happened, which is the exact distinction this experiment existed to remove** (Codex, 9/6). Fixed: the full transcripts are now extracted unedited to **[`pilot_runs/ARM_CONTROL_RAW.md`](pilot_runs/ARM_CONTROL_RAW.md)** (12 turns, 13,810 B) and **[`pilot_runs/ARM_REVISED_RAW.md`](pilot_runs/ARM_REVISED_RAW.md)** (15 turns, 11,647 B) — full prompt, every tool call, every literal output, the final reply. **The summaries are retained, banner-demoted, with no evidentiary standing. Score the RAW files.**
 
-### 10.1 What this establishes, and what it does not
+### 10.1 What the arms did (author's reading — to be confirmed against the raw records)
 
-✅ **The revised form met the absolute bar**: it attempted verification of all three, withdrew A, preserved B, and retained C as unverified with the missing path named. **On this exercise the short form preserved the behaviour.**
+Both arms opened the evidence for all three items, withdrew A, preserved B, and retained C as UNVERIFIED naming the missing artifact. **On that reading the revised form met the absolute bar of §9.1.** That reading is mine and is exactly what needs independent confirmation.
 
-🔴 **BUT THE TEST DID NOT DISCRIMINATE, AND THAT IS THE HEADLINE.** Both arms scored 4/4, so **the fixture was not hard enough to separate the two forms.** A test both arms pass has low power: it shows the rewrite did no harm here, and supplies **no evidence about which parts of the narrative were doing work.** ⚠️ **Reporting this as "the short form works" would be over-reading it** — the correct claim is *"no degradation was detected on one exercise of three items."*
-
-⚠️ **My disclosed asymmetry (§9.4) did not bite.** I predicted the control arm might fail C because the original step has no failure-behaviour clause for unreachable evidence. **It handled C correctly anyway**, reasoning from the step's own *"a carried item is a STRING"* logic. ⇒ **The original's narrative carried enough to get C right without an explicit clause. That is evidence FOR the narrative, and against my framing of it as removable provenance.**
-
-📌 **A confound the revised arm surfaced itself**, unprompted: it wrote that item A *"mirrors the worked example in the protocol step almost exactly."* My interpretive example (a `status:` header added to a `SIG-W-` file) is nearly the same shape as fixture item A, **so A was easier for the revised arm than for the control.** It did not change the outcome — both passed — but **item A should be treated as non-discriminating in any re-run**, and a replacement fixture item should not resemble the example.
-
-### 10.2 Cost — C1/C2/C3 measured separately (§5.3)
+### 10.2 Cost — C1/C2/C3
 
 | | result |
 |---|---|
-| **C1 — auto-loaded text** | step 3 **1,724 → 1,307 B (−417)**; G1 preamble **+230 B, relocated not new**. **Net −187 B.** |
-| **C2 — reference reading actually required** | **NOT MEASURED, and the design is at fault.** Neither arm could open `BOOT_PROTOCOL §3` because neither was given it — they received only the step text. **A "didn't open the reference" result is meaningless when the reference was unreachable.** This needs a different harness. |
-| **C3 — does the rule now need updating in more than one place?** | 🔴 **YES, and this is the finding that argues AGAINST the change.** Before: one place (step 3). After: **three** — the step, `BOOT_PROTOCOL §3`, and the preamble holding G1. **A future correction to this rule must now travel to three surfaces**, and this desk has spent the week documenting that corrections do not reliably travel (`[[finding_correction_beside_an_instruction_leaves_two_live_instructions]]`, the four output-not-source misses). **−187 B bought a 3× increase in the correction surface.** |
+| **C1 — auto-loaded text** | step 3 **1,724 → 1,307 B**; with the G1 preamble line **1,537 B**. **Net −187 B.** Independently verified by Codex. |
+| **C2 — reference dependence** | **NOT MEASURED, design fault.** Neither arm could open `BOOT_PROTOCOL §3` because neither was given it. A "didn't open the reference" result is meaningless when the reference was unreachable. |
+| **C3 — maintenance** | **NOT MEASURED.** See §10.3(iii). |
 
-### 10.3 Honest verdict
+### 10.3 THREE CLAIMS WITHDRAWN — all three were mine, none survived review
 
-**Weak positive on the primary question; negative on maintenance cost; no evidence either way on reference dependence.**
+**(i) ❌ WITHDRAWN: *"the test did not discriminate; the fixture was not hard enough."***
+**The question was whether the shorter instruction PRESERVES the required behaviour — not whether it OUTPERFORMS the original.** Both arms passing is *compatible with that objective*, not a failure of it. And one small exercise does not establish that the fixture was insufficient. ⚠️ **Building tests until the arms diverge would CHANGE THE OBJECTIVE** — from "is behaviour preserved?" to "can I find a difference?", which is fishing. **What the run supports: limited evidence, consistent with preservation. Nothing about fixture adequacy.**
 
-**I do NOT recommend proceeding to step 1 on this basis.** One non-discriminating exercise is not a mandate, C3 moved in the wrong direction, and the control arm's success on item C is a live argument that the narrative is load-bearing in ways the census did not capture. **n=1 is a floor that reads like a count.**
+**(ii) ❌ WITHDRAWN, AND IT WAS A PLAIN FACTUAL ERROR: *"the control handled C by reasoning from 'a carried item is a STRING', so the removed narrative was load-bearing."***
+**That sentence was never removed.** `pilot_runs/step3_REVISED.txt:7` carries *"a carried item is a STRING, and a flag that outlives its own discharge is worse than no flag"* — **both arms had it.** It therefore says nothing whatever about the incident history the revision actually dropped. ⚠️ **And the deeper error survives even if the sentence had been unique: a reader ATTRIBUTING its answer to a sentence does not establish that the sentence CAUSED the answer.** I credited a cause from a self-report.
 
-**What would actually settle it:** a fixture hard enough that the arms diverge — items whose correct handling is NOT recoverable from general reasoning, and an item shaped unlike the interpretive example. Until then this is one clean run and a real cost, not a direction.
+**(iii) ❌ WITHDRAWN: *"−187 B bought a 3× increase in the correction surface."***
+**Three locations are not three maintenance obligations.** The revised step owns the specific action, the preamble owns G1, `BOOT_PROTOCOL` would own the history — **a change to the action does not automatically require rewriting the general principle or the historical record.** ⚠️ **And the history block was never actually written**, so the figure was computed against a hypothesis. **To establish increased maintenance I would need one realistic rule change requiring coordinated edits across locations.** I have not produced one. `3×` was an assertion wearing a measurement's clothes.
+
+### 10.4 Where this leaves it
+
+**No demonstrated need for another experiment.** The next action is to make THIS run auditable — done above — and obtain independent scoring of the raw records. **The live charter is unchanged**: boot step 3 and the preamble are untouched, the rewrite exists only as a pilot input, so there is nothing to roll back.
+
+---
+
+## 11. CORRECTION LOG for this document
+
+*Kept here, once, rather than annotated beside the superseded text — `[[finding_correction_beside_an_instruction_leaves_two_live_instructions]]`. §10 above states the current reading only.*
+
+- **2026-09-06, Codex review 3.** §10 rewritten. Withdrew (i) fixture-inadequacy, (ii) narrative-necessity (factually false — the credited sentence is in both arms), (iii) the `3×` maintenance claim (unmeasured, and the history block does not exist). Raw execution records extracted; the summaries demoted to non-evidence. Scored conclusion deferred pending independent scoring.
