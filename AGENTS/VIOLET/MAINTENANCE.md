@@ -73,6 +73,25 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
+## 2026-09-06 (PM, second) — thesis read: a live STATE was living in the MECHANISM box; STATUS ③–⑦ rotated to archive on the read cap
+
+**Trigger:** Will, *"now let's do the thesis read"* — the designated judgement work. Structural findings only here; the analytical content is `thesis/CHANGELOG.md` v4.1.
+
+**What changed (structure):**
+1. **`thesis/VIX_THESIS.md`'s MECHANISM STATUS box no longer carries a live value.** It carried HENRY's 7/2 gamma reading — a **maintained, fast-moving measurement** — inside a **framework file that has no refresh contract and no staleness detector.** It aged 66 days and was **sign-wrong for four** while every live surface disagreed. The box now holds the mechanism, its fences, and **a pointer with an explicit vintage**; the value's home is `STATUS.md` + HENRY's brief. **Rule adopted: a mechanism box may not carry a live state.**
+2. **`STATUS.md` blocks ③–⑦ rotated verbatim** → **NEW** `archive/STATUS_LEDGER_REPAIR_2026-09-06.md` (crc32 `213ba22a`), pointer left in place. STATUS had hit **33,550 B against the 32,550 B read cap** when the thesis section was written in; now **31,035 B**, `read_cap_check` rc=0.
+
+**Files touched:** `thesis/VIX_THESIS.md` · `thesis/CHANGELOG.md` · `workbook/KB.tsv` (258→260) · `STATUS.md` · **NEW** `archive/STATUS_LEDGER_REPAIR_2026-09-06.md` · `SCRATCH.md` · `NEXUS_BRIEF.md`.
+
+**Boot-impact:** none to the sequence. STATUS is ~2.5 KB lighter at boot-step 1; the rotated narrative is **on-demand, never a boot read**. `thesis_bump_check` resets to 0 rows.
+
+**Lessons:**
+- 🔑 **ASK OF ANY FRAMEWORK/SPEC DOC WHICH STATEMENTS ARE *STATE* AND WHICH ARE *STRUCTURE*. Only state rots — and no staleness instrument watches a file that isn't a ledger.** Every check ran green over a sign inversion for four days. → KB-VIO-259
+- ⚠️ **THE 9/4 SWEEP HAD ALREADY BEEN IN THIS FILE and fixed the TAIL, leaving the identical defect in the HEADER.** Flag's scope ≠ defect's scope — **n=3 in seven days** (KB-VIO-250). **Sweep the file's whole CLASS of blocks, not the named block.**
+- ⚠️ **A DETECTOR CAN BE CORRECT AND STILL NOT SEE THE THING.** `thesis_bump_check.py` counts rows; it cannot see a **sign flip**. It correctly said *look*. **The read is the instrument; the counter is only the alarm clock.**
+
+---
+
 ## 2026-09-06 (PM) — WQ-188: yfinance stripped of write authority over the six CBOE columns; `cheap_tail.py` re-pointed to the publisher of record
 
 **Trigger:** Codex reviewed **this morning's own repair** at the artifact and returned one HIGH (routed PROME → VIOLET; Will ruled WQ-188 *"approve WQ-188 with your rec"* 10:58 ET, fixes before the thesis read). `backfill.py` **failed OPEN**: `main()` ran the yfinance pass first, then CBOE; on a CBOE failure the CBOE pass printed *"CBOE pass SKIPPED (yfinance stands)"*, `write_merged()` saved, and the run **exited 0**. Codex's case — ledger `skew` 151.58 `basis=SETTLE`, yfinance 149.00, CBOE 503 ⇒ **149.00 written with the SETTLE stamp retained, rc=0.**
