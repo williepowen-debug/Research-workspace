@@ -1,13 +1,13 @@
 # COMPLETION SPEC — Sub-Agent Report Standard
 
-**Created:** ~2026-05 · **Updated:** 2026-08-13 (delivery method 1 RE-KEYED from overwrite-in-place `LAST_COMPLETION.md` to a DATED outbox memo — BRENT domain-review flag, PROME-lane fix: an overwritten file whose NAME promises currency is the `finding_completion_stamp_skip_reads_as_current` rot mechanism, and it duplicated live state that each agent's own SCRATCH/STATUS canonically holds [BRENT's opened by declaring that conflict]. Dated memos are what live practice already used. Existing `LAST_COMPLETION.md` files: no longer required — owners may freeze/banner their copy at their next closeout [BRENT's freeze Will-approved 8/13]; HENRY's "LAST_COMPLETION block" mixed-vintage banner pattern cited in CLOSEOUT stamp canon is a PATTERN name, unaffected) · Prior: 2026-08-09 (spine-audit #8 — header stamp ADDED per the 8/9 stamp canon [file had none while carrying a 7/31 migration]; §6 routing examples re-based to WAL's 7/25 promotion out of REGINALD)
+**Created:** ~2026-05 · **Updated:** 2026-09-05 (spine audit #12: delivery home = `PROME/inbox/` [method 1] · WILL_NEEDS → a WILL_QUEUE row [step 2] · routing = packets with the Tier-2 carve [step 6] · census figure → words [step 6 format]; covers the 8/29 rule-6 add + §6 re-key that rode under the 8/13 stamp). Prior: 2026-08-13 (delivery method 1 RE-KEYED from overwrite-in-place `LAST_COMPLETION.md` to a DATED outbox memo — BRENT domain-review flag, PROME-lane fix: an overwritten file whose NAME promises currency is the `finding_completion_stamp_skip_reads_as_current` rot mechanism, and it duplicated live state that each agent's own SCRATCH/STATUS canonically holds [BRENT's opened by declaring that conflict]. Dated memos are what live practice already used. Existing `LAST_COMPLETION.md` files: no longer required — owners may freeze/banner their copy at their next closeout [BRENT's freeze Will-approved 8/13]; HENRY's "LAST_COMPLETION block" mixed-vintage banner pattern cited in CLOSEOUT stamp canon is a PATTERN name, unaffected) · Prior: 2026-08-09 (spine-audit #8 — header stamp ADDED per the 8/9 stamp canon [file had none while carrying a 7/31 migration]; §6 routing examples re-based to WAL's 7/25 promotion out of REGINALD)
 **Purpose:** Every spawned sub-agent writes this block at the END of its work. Prome reads it to update live owner files (`PROME/STATUS.md`, `PROME/SCRATCH.md`, `PROME/ACTIVE_DECISIONS.md`, routing inboxes) without parsing the full agent output.
 
 ---
 
 ## Required: TWO delivery methods (belt and suspenders)
 
-**1. Write to file** — a **DATED delivery memo** at `AGENTS/{your-agent-name}/outbox/{YYYY-MM-DD}_to-PROME_{slug}.md` (and, when the work answers a PROME task packet, a copy/packet to `PROME/inbox/`). Never an overwrite-in-place status file: a file whose name promises currency reads as current-and-wrong the first closeout it skips (`finding_completion_stamp_skip_reads_as_current`), and it forks live state your own SCRATCH/STATUS canonically owns. The memo ends with this block:
+**1. Write to file** — a **DATED delivery memo** at **`PROME/inbox/{YYYY-MM-DD}_from-{AGENT}_{slug}.md`** (the SOLE PROME delivery surface — root canon + BOOT step 6; you commit it yourself, carve-out ①), with an optional copy in your own `AGENTS/{AGENT}/outbox/` as the sender's record. Never an overwrite-in-place status file: a file whose name promises currency reads as current-and-wrong the first closeout it skips (`finding_completion_stamp_skip_reads_as_current`), and it forks live state your own SCRATCH/STATUS canonically owns. The memo ends with this block:
 ```
 ## COMPLETION — {agent name} — {date}
 STATUS: ✅ DONE | ⚠️ PARTIAL | ❌ BLOCKED
@@ -51,11 +51,11 @@ FOLLOW-UP: ARESSI data drops Wed — spawn BROCK again to integrate when availab
 ## How Prome Uses This
 
 1. Read COMPLETION block from sub-agent output.
-2. If WILL_NEEDS is not "None" → add the blocker to `PROME/ACTIVE_DECISIONS.md` or `PROME/STATUS.md`, then surface to Will when relevant.
+2. If WILL_NEEDS is not "None" → register a `PROME/WILL_QUEUE.md` row (numbered BEFORE the ask — Will rules by number; the ONLY live Pending-Will list), plus an `ACTIVE_DECISIONS.md` row only if it is also a non-terminal decision.
 3. If FOLLOW-UP is not "None" → capture the next action in the owner file (`PROME/SCRATCH.md` for immediate continuity, `PROME/STATUS.md` for work queue, or an agent inbox for routed domain work).
 4. If the work produced a system/process decision, log it in the appropriate live owner file. Trade/portfolio decisions go to FORGE/TERRY + broker truth *(the legacy `PROME/TRADE_DECISIONS.md` log was archived 2026-06-30)*; non-trade architecture/state decisions go to `PROME/STATUS.md`/`PROME/HANDOFF.md` as appropriate.
 5. If STATUS is ❌ BLOCKED → surface to Will immediately.
-6. **Post-completion routing** — scan RESULT for cross-agent references. If agent A's output names agent B (e.g., "OTTO mapped a Western Alliance exposure chain → **WAL** should integrate" — WAL is its own agent since 2026-07-25, promoted out of REGINALD), write a routing signal to `AGENTS/{B}/inbox/` with the key finding. This is Tier 1 — no proposal needed.
+6. **Post-completion routing** — scan RESULT for cross-agent references. If agent A's output names agent B (e.g., "OTTO mapped a Western Alliance exposure chain → **WAL** should integrate" — WAL is its own agent since 2026-07-25, promoted out of REGINALD), write a task packet to `AGENTS/{B}/inbox/` with the key finding (carve-out ①). Tier 1 when it informs; a route that CHANGES a desk's priority or focus is Tier 2 — propose (`PROME/AUTONOMY.md`).
 
    Examples:
    - OTTO maps First Brands → Barclays → Apollo → WAL → route to **WAL** inbox (WAL promoted out of REGINALD 7/25 — example re-based 8/9)
@@ -63,7 +63,7 @@ FOLLOW-UP: ARESSI data drops Wed — spawn BROCK again to integrate when availab
    - BRENT updates NOPI estimate → route to HENRY inbox (demand destruction)
    - Any agent shifts scenario probability → route to RED inbox
 
-   **Format:** `{YYYY-MM-DD}_from-{SOURCE}_{slug}.md` (the fleet's date-first convention — 538 live files vs 52 on the older `{SOURCE}_ROUTING_{DATE}.md` form, which stays readable but is no longer the spec; re-keyed 8/29 audit #11) — 5 lines max. Signal, source, why it matters to the recipient. Don't duplicate the full output — just the actionable fragment.
+   **Format:** `{YYYY-MM-DD}_from-{SOURCE}_{slug}.md` (the fleet's date-first convention — the overwhelming majority of live inbox files; the older `{SOURCE}_ROUTING_{DATE}.md` form stays readable but is no longer the spec; re-keyed 8/29 audit #11) — 5 lines max. Signal, source, why it matters to the recipient. Don't duplicate the full output — just the actionable fragment.
 
 ---
 
