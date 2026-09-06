@@ -6,6 +6,26 @@ Trigger to log here: any closeout that updates `thesis/VIX_THESIS.md`.
 
 ---
 
+## v4.1.1 — 2026-09-06 (~1h after v4.1) · **CORRECTION: the sign flipped BACK on 9/3 and I missed it — the GEX sign is an OSCILLATOR, and this file now carries no sign at all**
+
+**OLD VIEW (v4.1, one hour earlier):** *"Dealers AMPLIFY. They no longer dampen."* — asserted off HENRY's **9/2** measurement (−$16.7B/1%, flip 7,689–7,699, spot below the band), with a vintage stamp and a 9/18 falsifier.
+
+**NEW VIEW (v4.1.1):**
+
+**① v4.1 ① IS WRONG AS A STATEMENT OF CURRENT STATE.** HENRY re-measured on the **9/3 close**: **flip 7,691–7,695, SPX 7,747.71, spot 53–57 pts ABOVE, +$36.8B/1% — dealers DAMPEN.** Published in HENRY's `NEXUS_BRIEF.md`, **committed 2026-09-04 (`b97e5e83a`)** — available throughout WQ-188 and throughout the thesis read. **I did not open it.**
+
+**② THE SEQUENCE IS THE REAL FINDING: +$20.4B [8/28] → −$16.7B [9/2] → +$36.8B [9/3] — TWICE IN SEVEN DAYS.** HENRY's own instruction, adopted verbatim: *"the SIGN is the fastest-decaying number I own; treat any HENRY gamma sign older than a session or two as unverified"* · *"do not carry a HENRY gamma sign beyond a session or two, and do not build a kill-line on it."* ⇒ **The gamma sign is an OSCILLATOR, not a regime property.** A number with that decay rate **cannot live in a framework file in any direction** — not positive, not negative, not with a vintage stamp. **The MECHANISM STATUS box now carries the mechanism, the fences and a pointer, and records the current sign as UNKNOWN** (last read 9/3, **pre-NFP**, three sessions old, past its author's carry limit, with a >3× hawkish payroll beat inside the window).
+
+**⛔ ③ THE PART THAT IS ACTUALLY ABOUT ME: v4.1 DIAGNOSED "A STALE STATE IS LIVING IN THE FRAMEWORK FILE" AND THEN FIXED IT BY WRITING IN ANOTHER STALE STATE.** The diagnosis was right and the repair reproduced the disease inside the same hour. **The structural rule survives its own author violating it one paragraph later — which is the strongest evidence it could have had, and the reason the fix is now removal rather than refresh.**
+
+**④ MY SOURCE ROW WARNED ME IN WRITING.** `KB-VIO-237` — my own row — records its author publishing *"gamma board UNMEASURED"* on two surfaces **while the measurement sat unread in his inbox**. I built v4.1's headline on that row and **repeated its recorded failure four days later**. ⇒ **RULE ADOPTED: before citing another desk's measurement, read THAT DESK'S CURRENT BRIEF — not the KB row you wrote about it.** A KB row is a dated snapshot of someone else's live number and **cannot update itself**; the freshness of *my* row says nothing about the freshness of *their* measurement. `[[finding_dated_carry_item_has_no_expiry_check]]`
+
+**UNCHANGED FROM v4.1 — none of it depended on the sign:** the thesis **was** carrying a 66-day-old reading whose **flip band was ~250 points stale** either way · **a mechanism box may not carry a live state** · **F2's runnability floor** · the **non-promotion** of the directional-over-level corollary · the **counter calibration** (30 of 44 rows since v4.0 were instrument work).
+
+**CONSUMERS:** PROME had already recorded v4.1 in `HEARTBEAT` Amendment #2 beside §5's *"sign INVERTED"* — **that line is stale too, and PROME was told directly rather than left to find it.** `NEXUS_BRIEF` corrected in place.
+
+---
+
 ## v4.1 — 2026-09-06 · **THE GEX MECHANISM'S STATE INVERTED — DEALERS AMPLIFY · F2 HAS A RUNNABILITY FLOOR · a MECHANISM box may not carry a live STATE**
 
 **OLD VIEW (v4.0):** The GEX-suppression mechanism was **RE-CONFIRMED positive** — *"Net GEX ≈ +$35B POSITIVE, flip band 7,437–7,471, SPX above it — dealers long-gamma/dampening"* (re-confirmed 2026-07-02, carried unchanged on line 5 of the thesis). Four consecutive version entries closed with *"No change to: … the GEX-suppression mechanism."* F2 (pre/post-2018 regime-break separation) was a required SCOPE field with **no stated floor** — the case where a sample is too thin to split was simply not addressed. The directional-over-level corollary stood **provisional at n=1**.
