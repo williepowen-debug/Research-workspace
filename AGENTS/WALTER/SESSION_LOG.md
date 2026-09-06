@@ -1,3 +1,23 @@
+## 2026-09-05 (Sat, ~21:3x → ~22:5x ET) — `walter-1f` · **light-closeout — full deferred** · boot + Codex defect response
+
+**Boot.** Doctor 0 HIGH / 7 MED; **6 of 7 closed in-session** (5 `registry_lag` refreshed — HANS, ORACLE, CARL, FERT, MIDAS + WALTER self; the `intake_liveness` "lane STALE" was a **pre-pull artifact** — after `git pull` the lane reads `last_run 9/4T18:03Z (1d)`, healthy). 3 inbox packets consumed. **PROME L262 applied**: boot 9b(b) now reads `PROME/state/ORCH_INFLIGHT.md` WHOLE, the `ORCH_LOG.tsv` tail read REMOVED. **HANS's correction packet applied in full** — and item 3 returned as ALREADY DISCHARGED 8/28: HANS was citing `ROUTING_TABLE` line numbers that expired at the 8/30 split. **My own CLAUDE.md edit breached the 54,250 B auto-load cap (54,294 B); measured immediately after the edit rather than at closeout, trimmed to 54,222 B — 28 B headroom, flagged to PROME as WQ-179 n=3.**
+
+🔴 **FT-10 IS LIVE.** CBOE published **150.63 [9/3]** and **151.58 [9/4]** — the 9/3 "not gradeable" call is superseded in the confirming direction, count is **2-of-4**, earliest completion **Wed 9/9** (9/7 Labor Day). *"SKEW crossed 150"* retired from kill-on-sight; *"FT-10 fired"* stays.
+
+**EIGHT false-assurance defects fixed across two Codex passes, all verified at the code before acceptance.** Pass 1: `--all` history proving an ORIGIN fact (reconciler + doctor); `except: return True` labelled *"fail SAFE"*; a consume declaration satisfied by ANY desk's ledger; index freshness comparing two signal-derived values and never reading the index's own rows. Pass 2: `_sync_state()` ignoring BOTH git return codes (a failing `git status` + `int("" or "0")` returned **`on_origin`** — a delivery verdict manufactured from a git failure); `unknown`/`no_origin` silently skipped then announced as backed; a `processed/` twin passing on **disk existence alone**; `--apply` returning 0 with unresolved rows while dry-run returned 1.
+
+🔑 **THE COSTLIEST FINDING WAS AGAINST MY OWN TEST SUITE.** v1 had 15 assertions, all green. Codex stubbed the history helper to `always True` and the index checker to `always fresh` — **all 15 still passed**, because they asserted on SOURCE STRINGS. The suite proved the fix TEXT existed, never that the fix WORKED: *the exact defect it was written to catch, inside itself.* **v2 = 34 assertions, 7 sections, zero source-string assertions, plus a §MUTATION section running Codex's attack as a first-class test.** Under those stubs **7 v2 assertions FAIL where 0 v1 did.**
+
+**Two of my own claims withdrawn and corrected in the same session:** the suite size (**16 → 15**, PROME had explicitly declined to bank it), and *"each case fails against the pre-fix logic"* (**FALSE** — fixture checks and positive controls pass either way). **Both corrections were verified by PROME at the artifact rather than relayed.**
+
+**Perf:** twin verification briefly made the doctor ~2,000 git processes; fixed with a lazily-built origin path-set (one `git log --name-only`, ~1.2s) answering positives and a precise per-path query on a MISS — the set can only cost a slower NEGATIVE, never a false POSITIVE. Doctor ~7s.
+
+**Sweep docked as PROME DOCKET L294, 9/12**, at DAEDALUS's TOOLING/WIRING sitting — three instances of the class in one week (DAEDALUS `eb6a80d8c`, mine, PROME's own error #101). **Method note upgraded mid-session: grep demoted to CANDIDATE LOCATION — three of the four second-pass defects are grep-invisible** (a missing `returncode` check, a bare `continue`, an `os.path.exists()`). **Historical incidence remains UNKNOWN throughout.**
+
+**Deferred to Tier-2:** MEMORY findings-block update · LAST_COMPLETION rewrite · NETWORK-AWARENESS regen · STATUS lead re-cut + 12(e) BOTTOM LINE · the 9/4 session's missing state write (BOARD 879→887 with no STATUS/SESSION_LOG/LAST_COMPLETION entry).
+
+---
+
 ## 2026-09-03 (Thu, ~15:0x → ~22:1x ET) — `walter-e5` · **TIER-2 FULL** (Will's *"lets close out"*) · boot + routing + inbox drain + staleness sweep
 
 **12 dispatches · 5 errata · 4 lifecycle tags · 16 inbox packets consumed · 0 kills · 0 verify-spawns.** BOARD **867 → 879**. Three batch manifests, all closed: BM-20260903-01 2/2, BM-20260903-02 16/16.
