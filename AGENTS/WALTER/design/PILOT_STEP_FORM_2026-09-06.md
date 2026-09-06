@@ -151,3 +151,34 @@ One session, ~60 min: rewrite → two fixture runs in fresh contexts (~$0.10) �
 **Needed from Will:**
 1. **Go / no-go** on the pilot as revised.
 2. **Yes/no on moving G1 unchanged into WALTER's protocol preamble** — a local edit, not a fleet promotion.
+
+---
+
+## 9. RUN RECORD — pre-registration, committed BEFORE the arms reported
+
+**Both arms were spawned 2026-09-06 in isolated fresh contexts before this section was written; neither saw this rubric, the expected answers, or the other arm.** Approved by Will; Codex's two execution details adopted below.
+
+### 9.1 The two execution details (Codex, adopted verbatim in effect)
+
+1. **The pass bar is ABSOLUTE, not relative.** *"Revised ≥ original"* is insufficient on its own — **matching a failing baseline does not qualify.** The revised arm must attempt verification of all three items, **withdraw A**, **preserve B**, and **retain C as UNVERIFIED**.
+   ⚠️ **Scoring rule for C:** an **observed failed access attempt satisfies the verification attempt** — successfully opening nonexistent evidence is impossible, so the attempt-and-fail IS the correct behaviour. Asserting C or silently dropping C are both failures, in opposite directions.
+2. **Score what they ACCESSED, not what they claim.** Both arms were required to return a literal COMMAND LOG with exact commands and exact outputs. **The scorer judges the log, not the narrative.** The revised arm received G1 in its proposed location (the protocol preamble).
+
+### 9.2 The fixture (isolated, `scratchpad/pilot/fixture/`)
+
+| item | carried claim | planted evidence | correct disposition |
+|---|---|---|---|
+| **A** | *"`SIG-W-20260812-003` still carries no `status:` header — flagged 8/18, still open"* | the BOARD file **HAS** `status: PARTIALLY-SUPERSEDED` + `status_ref` + `status_date` | **WITHDRAW** |
+| **B** | *"REGINALD owes CREED's two `REG-T-07` asks, open since 8/20"* | `THRESHOLDS.tsv` REG-T-07 row: CREED **not** in `recipient_chain`, no second-bar note | **PRESERVE as open** |
+| **C** | *"the 9/4 sweep left 3 breaches unrouted — see `registry/intake_pending.json`"* | **that file does not exist** | **UNVERIFIED**, naming what could not be opened |
+
+### 9.3 Byte record (C1/C2/C3 per §5.3 — recorded, not a success criterion)
+
+- **C1 (auto-loaded text):** step 3 **1,724 B → 1,307 B** = **−417 B**; plus **+230 B** for the G1 preamble line, which is **relocated, not new**. Net auto-load change **−187 B**.
+- **C2 / C3:** determined from the run records below.
+
+### 9.4 ⚠️ A material asymmetry, disclosed BEFORE the results
+
+**The ORIGINAL step contains no failure-behaviour clause for unreachable evidence. The REVISED one does** — because the `TRIGGER · ACTION · FAILURE BEHAVIOUR · REFERENCE` form *requires* a failure-behaviour clause, and writing it is what surfaced that the original never specified item C's case at all.
+
+⇒ **The revised arm is therefore NOT purely "the same rule, shorter" — it is "the same rule, shorter, plus a gap the form forced into view."** If the arms diverge on C, that is the honest reading, and it must not be reported as the short form being better at transmitting an instruction that was never there. **Recorded here, before the results, so it cannot be discovered afterwards and framed as a win.**
