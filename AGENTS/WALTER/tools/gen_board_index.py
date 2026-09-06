@@ -100,9 +100,16 @@ def load_signals() -> OrderedDict:
             action=action, info=info, confidence=fm.get("confidence", ""),
             title=(h1(fm["__body"], "") or legacy.get(sid) or fm.get("verdict", "").split(". ")[0] or base[19:-3].replace("-", " ")),
             status=fm.get("status", ""), status_ref=fm.get("status_ref", ""), status_date=fm.get("status_date", ""),
+            erratum=fm.get("erratum", "").strip().strip("\"'"),
             corrects=[x for x in re.findall(r"SIG-W-\d{8}-\d{3}", fm.get("corrects", "")) if x != sid],
             corrects_direction=fm.get("corrects_direction", ""),
         )
+    # v0.21: additive and corrective errata are mutually exclusive (FORMAT_SPEC field table).
+    # HARD error, not a preference — a row carrying both is a claim about itself that cannot be true.
+    for sid, s in sigs.items():
+        if s["erratum"] and s["status"] == "PARTIALLY-CORRECTED":
+            errors.append(f"{s['file']}: carries BOTH `erratum:` (additive) and `status: PARTIALLY-CORRECTED` "
+                          f"(corrective) — FORMAT_SPEC v0.21 permits exactly one; decide which it is")
     return sigs, errors
 
 def derive_markers(sigs: OrderedDict) -> dict[str, list[str]]:
@@ -120,6 +127,12 @@ def derive_markers(sigs: OrderedDict) -> dict[str, list[str]]:
     for sid, s in sigs.items():
         if s["status"]:
             marks[sid].append(f"🚩 **{s['status']} {s['status_date']}** — {s['status_ref']}".rstrip(" —"))
+        # v0.21 additive erratum — a marker with no lifecycle change behind it. The corrective twin is
+        # `status: PARTIALLY-CORRECTED` above; carrying both would double-mark the row, so the spec
+        # forbids it and check() enforces that (fail-closed) rather than silently preferring one.
+        if s["erratum"]:
+            date, _, line = s["erratum"].partition("—")
+            marks[sid].append(f"📌 **ADDITIVE ERRATUM {date.strip()}** — {line.strip()}".rstrip(" —"))
     return marks
 
 # ---------------------------------------------------------------- live index

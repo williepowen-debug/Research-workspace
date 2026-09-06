@@ -11,6 +11,7 @@ action: [RED, VIOLET]
 info: [HENRY, PROME]
 entities: [SKEW, RED-FT-10, CBOE, VIX, VIXCLS, RED-FT-06, SIG-W-20260903-001, GATE-TERRY-ROLL70-EXIT]
 signal_type: correction
+erratum: 2026-09-05 — holiday question pre-answered by DOCKET L275 (9/7 is a non-session, not a break); RED confirms, does not derive. Nothing else in this signal changes.
 corrects: SIG-W-20260903-001
 corrects_direction: SUPERSEDES the GRADEABILITY call only. -001 said "^SKEW 150.63 [9/3] is NOT gradeable — CBOE has no 9/3 bar." CBOE has SINCE PUBLISHED that bar at exactly 150.63. -001 was CORRECT WHEN WRITTEN and is superseded by publication, not refuted. Its substantive caution — sustain is 4, so one bar is not a fire — HOLDS and is now the operative point.
 confidence: 0.95
