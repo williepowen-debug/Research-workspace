@@ -673,6 +673,11 @@ def mode_boot():
                "DOCKET instance (㉙ class) — regenerate with `scripts/docket_view.py --write PROME/SCRATCH.md`, "
                "resolve/re-date the DOCKET row, or trim the hand line; never edit inside the markers")
     check_will_queue()
+    run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
+               "PROME/tools/willq_view.py", "--check", "PROME/SCRATCH.md"],
+               "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "
+               "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
+               "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
     check_heartbeat_chain()
     check_dashboard_state()
     check_symmetry()
@@ -709,6 +714,11 @@ def mode_closeout():
                "LANDS-IN rows with a dark owner ⇒ SLATE them in the closeout report (the spawn waits for the first "
                "boot on/after the date, or Will's word from the slate); DARK ⇒ act before going dark")
     check_will_queue()
+    run_script(ADVISE, "willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN)", [sys.executable,
+               "PROME/tools/willq_view.py", "--check", "PROME/SCRATCH.md"],
+               "WQ-185 ② (Will 2026-09-06 10:12): the operator card's Pending-Will line is GENERATED — a flag = the "
+               "queue moved since the last render or a hand copy survives outside the markers; regenerate with "
+               "`python3 PROME/tools/willq_view.py --write PROME/SCRATCH.md`; never edit inside the markers")
     check_heartbeat_chain()    # the ~5-amendment re-base rule, mechanized (was prose-only on 5 surfaces)
     check_dashboard_state()    # Standard+ closeouts regenerate; this catches a skipped one
     check_byte_budgets()       # flow-rule meter: >=75% here means rotate NOW, in this closeout
