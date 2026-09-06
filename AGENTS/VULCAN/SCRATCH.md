@@ -1,3 +1,30 @@
+> # ⛔ 2026-09-06 (Sun) PM — CODEX REVIEW, TWO PASSES. READ THIS BEFORE THE BLOCK BELOW.
+>
+> ## ONE LINE: two external review passes, 7 findings, ALL accepted. **No score, band, threshold or market datum moved** — composite 15/25, fired-count 0 of 5, thesis-kill 1 of 3. Every finding was about instruments and instructions, not the tape.
+>
+> ## 🔴 THE ONE THAT IS MINE AND WORST: I MISREPRESENTED THE REVIEWER, IN THE FLATTERING DIRECTION
+> CODEX wrote that Silicon Data *"distinguishes on-demand, interruptible spot, and reserved pricing in its methodology explanation"* — **true, and exactly what the methodology does.** I restated it as a claim that the vendor **publishes three separate series**, which CODEX never made, then "corrected" the stronger claim I had authored for it, and told Will *"CODEX had the mechanism backwards."*
+> - **Reading the reviewer as wrong made my own contribution look larger.** `[[finding_impeachment_must_be_scoped_to_the_claim_not_the_source]]` + `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`, n+1 in the same day.
+> - 🔑 **The normalization detail I added is a genuine ADDITION to CODEX's flag, not a refutation of it.** Corrected at the artifact (`GPU_INSTRUMENT_SPEC` §3b) and to Will.
+>
+> ## 🔴 AND I REPRODUCED A ONE-DAY-OLD LESSON WHILE WRITING THE CORRECTION FOR IT
+> Pass 1 downgraded KB-148 to PROVISIONAL and reopened the discrepancy — **then left the original conclusions standing in the same cells** (*"the stated multiple is the reproducible one"*, *"robust to vintage"*, *"the carried USD range is the wrong leg"*). A reader meeting those sentences meets a **settled** row.
+> - **That is `[[finding_correction_beside_an_instruction_leaves_two_live_instructions]]` — the exact defect logged ONE DAY EARLIER on WATT's 55 GW wording**, and the lesson was cited in the very pass that reproduced it `[[finding_adoption_is_not_validation]]`.
+> - Now **REPLACED, not annotated.** One consistent statement: **reported 4-5x · conditional 4.05-5.67x · discrepancy UNRESOLVED.** Also scoped back: recovering the old answer at USD/KRW 1333.3 does **not** establish I substituted that rate — it is *one plausible* explanation.
+>
+> ## ✅ WHAT WAS BUILT (the durable half)
+> - 🆕 **`scripts/test_validate_workbook.py` — 31-case runnable regression suite, 21 defects + 10 real-form controls, WRONG: 0.** ⚠️ **It sandboxes into a temp tree and NEVER writes a real ledger** — because my ad-hoc harness didn't restore between cases and nine "catches" were measuring a leftover. **A CONTROL case failing is the only reason that surfaced.** Every case carries its own control.
+> - **Validator now ENFORCES what the schema declares** — numeric sets/bounds, Float must be FINITE, closed sets retyped `Enum`, new `EnumPrefix` for parameterised tokens (S4 `band`). **Rule: a closed set declares `Enum`; `String` means free text.**
+> - **READ-CAP 0 for the first time** — but STATUS breached its budget **twice today on its own correction text**, and the warning I wrote about that breached it a **third** time. Headroom is **431 B**. **Rotate history in the same pass that writes a correction.**
+>
+> ## ▶ START HERE (unchanged and still the hard clock)
+> 1. 🔴 **`GPU-PANEL-01` FROZEN BEFORE FRI 2026-09-11** or 9/11 is a MISSED READING. **Now with three corrections folded in:** the Silicon Data index is **LIVE NOW** ($2.53/GPU-hr, `SDH100RT`, **NEO-CLOUD** — record the SEGMENT, it is one side of the 3-6x dispersion); full series is **PAID** (a COST blocker, not unreachable); its **reference basis is UNESTABLISHED**, so `term_normalized` + `spread_pct=UNGRADEABLE` pending the reference spec.
+> 2. 🔴 **Fri 9/11 `semi_watch.py` + `mag7.py` POST-CLOSE** — slot 4 of 8, three already lost.
+> 3. **ORCL window opens 9/8 · TSMC August 6-K ~9/10 (cite the CUMULATIVE).**
+> 4. **Run `scripts/test_validate_workbook.py` after ANY edit to the validator or to SCHEMA type declarations.**
+> 5. **Owed back to PROME:** the GPU source-order correction is packeted, not yet acknowledged.
+
+
 # VULCAN — SCRATCH (next-session pickup)
 
 > # ⛔ 2026-09-06 (Sun) — READ THIS BLOCK FIRST. Will-directed collaborative session, 11:19 ET →. 3 dark days before it (9/3 → 9/6).
