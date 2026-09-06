@@ -537,19 +537,40 @@ def check_liaison_enum():
 
 
 # ── delivery layer: handoff discovery + git-derived sync state ──────────────
-def _ever_in_git(relpath: str) -> bool:
-    """Did this path EVER exist in git history (any branch)? The discriminator that
-    separates 'consumed / cleaned up after delivery' from 'never delivered at all'.
+DELIVERY_REF = "origin/master"
+
+
+def _ever_in_git(relpath: str):
+    """Was this path EVER in history REACHABLE FROM origin/master?
+
+    True  = origin saw it, it is gone from disk now -> consumed / cleaned up / retired dir.
+    False = origin has NEVER seen it                -> real orphan.
+    None  = git could not answer                    -> UNKNOWN, which is NOT delivery.
+
     A recipient may consume by moving to processed/ OR by DELETING outright (BOND
     drains that way), and a whole inbox dir can be legitimately retired (AGENTS/PROME/
-    was declared dead 2026-07-24). In all those cases the file is gone from disk but
-    WAS delivered. Only a path git has never seen is a real orphan."""
+    was declared dead 2026-07-24). Those are the True cases this discriminator exists for.
+
+    🔴 FIXED 2026-09-05 (Codex finding 2), TWO defects in one function:
+    (a) `--all` included UNPUSHED LOCAL COMMITS, so a handoff that never reached
+        origin read as delivered — while `delivered` is DEFINED as committed AND
+        on origin; and
+    (b) the exception branch returned True with the comment "fail SAFE: unknown ->
+        assume delivered, never cry wolf." That is fail-OPEN, not fail-safe: it
+        converts UNAVAILABLE EVIDENCE into PRESUMED DELIVERY, which is the one
+        direction that never prompts a re-check. Not crying wolf is not a goal a
+        delivery check may trade correctness for.
+    `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`
+    `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
+    """
     try:
-        r = subprocess.run(["git", "-C", str(REPO), "log", "--all", "--oneline", "-1",
+        r = subprocess.run(["git", "-C", str(REPO), "log", DELIVERY_REF, "--oneline", "-1",
                             "--", relpath], capture_output=True, text=True, timeout=10)
+        if r.returncode != 0:
+            return None
         return bool(r.stdout.strip())
     except (OSError, subprocess.SubprocessError):
-        return True   # fail SAFE: unknown -> assume delivered, never cry wolf
+        return None   # fail CLOSED: unknown is UNKNOWN, never "delivered"
 
 
 _HANDOFF_SCAFFOLD = {"README.md", ".gitkeep", ".gitignore", ".DS_Store"}
@@ -875,6 +896,7 @@ def check_delivery_claim_vs_git():
         return [(INFO, "no delivery_log.tsv")]
     origin = _origin_ref()
     today_untracked, prior_untracked, lost, stale_path, ahead = [], [], [], [], 0
+    unknown_path = []
     seen = set()
     try:
         with log.open(errors="replace") as f:
@@ -909,8 +931,12 @@ def check_delivery_claim_vs_git():
                 twin = path.parent / "processed" / path.name
                 if twin.exists():
                     continue
-                if _ever_in_git(rel):
+                on_origin_hist = _ever_in_git(rel)   # NOT `seen` — that name is the dedup set above
+                if on_origin_hist is True:
                     stale_path.append(f"{sig}->{rcp}")
+                    continue
+                if on_origin_hist is None:            # git could not answer
+                    unknown_path.append(f"{sig}->{rcp} ({rel})")
                     continue
                 lost.append(f"{sig}->{rcp} ({rel})")
     except (OSError, csv.Error) as e:
@@ -935,6 +961,12 @@ def check_delivery_claim_vs_git():
     if ahead:
         out.append((INFO, f"{ahead} handoff(s) committed but not yet on origin — "
                           f"written_but_undelivered owns those"))
+    if unknown_path:
+        out.append((MED, f"{len(unknown_path)} delivery_log row(s) could NOT be verified against "
+                         f"{DELIVERY_REF} (git gave no answer) — these are UNKNOWN, not delivered "
+                         f"and not orphaned: {', '.join(unknown_path[:4])}"
+                         f"{' …' if len(unknown_path) > 4 else ''}. Fetch and re-run; do not read "
+                         f"unavailable evidence as delivery."))
     if stale_path:
         out.append((INFO, f"{len(stale_path)} row(s) point at a path that no longer exists "
                           f"but WAS in git (consumed-by-delete, or a retired inbox dir) — "
@@ -2005,7 +2037,7 @@ def check_filed_vs_consumed():
             ct, msg = parts[0], (parts[1] if len(parts) > 1 else "")
         cdate = dt.datetime.fromtimestamp(int(ct), dt.timezone.utc).date().isoformat()
         touched = names.splitlines()
-        tsv_appended = any(re.match(r"[AM]\t.*processed/\.consumed\.tsv$", l) for l in touched)
+        tsv_owners = _consume_ledger_owners(touched)
         for line in touched:
             m = re.match(r"R\d+\t[^\t]+\t(.+)$", line)
             if not m:
@@ -2016,7 +2048,7 @@ def check_filed_vs_consumed():
             if not om:
                 continue
             owner = om.group(1)
-            declared = bool(re.search(rf"consume:{owner}\b", msg, re.I)) or tsv_appended
+            declared = bool(re.search(rf"consume:{owner}\b", msg, re.I)) or owner in tsv_owners
             if declared:
                 consumed += 1
             elif cdate >= S7_TOKEN_ADOPTED:
@@ -2108,6 +2140,35 @@ def check_auto_load_budget():
     return [(INFO, f"auto-load within budget — {detail}")]
 
 
+def _processed_owner(path: str):
+    """The desk that OWNS a `.../processed/...` path, or None if it is not one."""
+    m = (re.match(r"AGENTS/([A-Z]+)/inbox/WALTER/processed/", path) or
+         re.match(r"AGENTS/(WALTER)/inbox/processed/", path))
+    return m.group(1) if m else None
+
+
+def _consume_ledger_owners(touched):
+    """Owners whose OWN `processed/.consumed.tsv` this commit added-or-modified.
+
+    🔴 ADDED 2026-09-05 (Codex finding 3). The caller previously computed a single
+    commit-wide boolean — `any(... processed/.consumed.tsv ...)` over every touched
+    path — so a commit that filed a packet into ALPHA's processed/ while appending
+    only BETA's ledger counted as a DECLARED consumption FOR ALPHA. BOARD_CONSUMPTION_SPEC
+    §432 requires the CONSUMING OWNER's declaration; a receipt written by another desk
+    certifies nothing about this one. Extracted to module level so the regression case
+    can call it directly. `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
+    """
+    owners = set()
+    for line in touched:
+        m = re.match(r"[AM]\t(.+/processed/\.consumed\.tsv)$", line)
+        if not m:
+            continue
+        owner = _processed_owner(m.group(1))
+        if owner:
+            owners.add(owner)
+    return owners
+
+
 def check_index_generated_fresh():
     """WQ-174 leg 3 (Will "174 - approved" 2026-09-04): BOARD/INDEX.md is a GENERATED projection of
     signal frontmatter. This check regenerates the row-set in memory at every doctor run and
@@ -2143,7 +2204,28 @@ def check_index_generated_fresh():
     _, sha = gbi.render(sigs, live)
     if sha != m.group(1):
         return [(HIGH, f"BOARD/INDEX.md is STALE vs the signal set (banner {m.group(1)[:12]} ≠ current {sha[:12]}) — run `gen_board_index.py --write BOARD/INDEX.md --cutover` and commit; never hand-edit the index")]
-    return [(INFO, f"generated INDEX fresh (rowset {sha[:12]}, {len(sigs)} signals)")]
+    # 🔴 ADDED 2026-09-05 (Codex finding 4). The banner comparison above proves only that
+    # the SIGNALS still hash to what the banner claims — BOTH SIDES are derived from the
+    # signal files, and NEITHER reads the rows actually sitting in the live index. A hand
+    # edit to a row (a changed recipient, a moved precedence) left the banner untouched and
+    # this check reported "generated INDEX fresh". A stored hash is not proof that the
+    # content beneath it is intact: hash what is THERE, not what SHOULD be there.
+    # `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
+    marks = gbi.derive_markers(sigs)
+    want = sorted(gbi.render_row(sg, marks) for sg in sigs.values())
+    have = sorted(l.rstrip() for l in live.splitlines() if l.startswith("| SIG-W-"))
+    if have != want:
+        ws, hs = set(want), set(have)
+        drifted = sorted(hs - ws)[:3]
+        missing = len(ws - hs)
+        return [(HIGH, f"BOARD/INDEX.md ROWS have DRIFTED from the generated projection while the "
+                       f"banner still matches the signal set — i.e. the index was hand-edited under "
+                       f"an intact banner ({len(hs - ws)} row(s) present that the generator would not "
+                       f"produce, {missing} row(s) it would produce that are absent). "
+                       f"First drifted: {drifted[0][:160] if drifted else '(none — rows missing only)'} "
+                       f"⇒ regenerate with `gen_board_index.py --write BOARD/INDEX.md --cutover`; never hand-edit.")]
+    return [(INFO, f"generated INDEX fresh (rowset {sha[:12]}, {len(sigs)} signals; "
+                   f"{len(have)} live rows hashed and matched — banner AND content)")]
 
 CHECKS = [
     ("version_drift", check_version_drift),

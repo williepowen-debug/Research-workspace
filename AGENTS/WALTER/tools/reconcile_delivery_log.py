@@ -72,8 +72,25 @@ def tree_paths(ref):
 
 
 def ever_in_git(path):
-    """True if git has EVER tracked this path (consumed-by-delete counts as delivered)."""
-    r = sh(["git", "log", "--all", "--oneline", "-1", "--", path])
+    """Was this path EVER in history REACHABLE FROM `REF` (= origin/master)?
+
+    Returns True (was on origin, now gone -> consumed-by-delete / retired dir),
+    False (origin has never seen it -> real orphan), or None (git could not
+    answer -> UNKNOWN, which is NOT delivered).
+
+    🔴 FIXED 2026-09-05 (Codex finding 1). This was `git log --all`, which
+    includes UNPUSHED LOCAL COMMITS. A handoff committed locally but never
+    pushed therefore flipped to `delivered` — the exact inverse of this log's
+    own definition (`delivered` = committed AND on origin). The window is not
+    hypothetical: after a non-ff push abort (root CLAUDE.md §Git Protocol step 3)
+    HEAD routinely carries commits origin does not have, and this script's whole
+    contract is that it runs AFTER the push. Scope the history to the ref whose
+    tree the primary check already uses, and never let an unusable answer read
+    as delivery. `[[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]`
+    """
+    r = sh(["git", "log", REF, "--oneline", "-1", "--", path])
+    if r.returncode != 0:
+        return None
     return bool(r.stdout.strip())
 
 
@@ -96,7 +113,7 @@ def main():
 
     on_origin = tree_paths(REF)
 
-    flips, orphans, unresolved = [], [], 0
+    flips, orphans, unknowns, unresolved = [], [], [], 0
     cache = {}
     for i, line in enumerate(body):
         if not line.strip() or i == 0:      # header
@@ -110,19 +127,26 @@ def main():
             continue
         if p not in cache:
             cache[p] = ever_in_git(p)
-        if cache[p]:
-            flips.append(i)                 # consumed-by-delete / retired dir
-        else:
+        if cache[p] is True:
+            flips.append(i)                 # was on origin, now gone: consumed-by-delete / retired dir
+        elif cache[p] is False:
             orphans.append((i, p))
+            unresolved += 1
+        else:                               # None -> git could not answer
+            unknowns.append((i, p))
             unresolved += 1
 
     print(f"delivery_log rows: {len(body) - 1}")
-    print(f"  pending -> delivered (git-verified on {REF} or ever-tracked): {len(flips)}")
-    print(f"  REAL ORPHANS (path git has NEVER seen, left untouched):       {unresolved}")
+    print(f"  pending -> delivered (in {REF} tree, or in {REF} HISTORY): {len(flips)}")
+    print(f"  REAL ORPHANS ({REF} has NEVER seen the path, left untouched): {len(orphans)}")
     for i, p in orphans[:20]:
         print(f"    row {i + 1}: {p}")
-    if unresolved > 20:
-        print(f"    … and {unresolved - 20} more")
+    if len(orphans) > 20:
+        print(f"    … and {len(orphans) - 20} more")
+    if unknowns:
+        print(f"  UNKNOWN (git could not answer — NOT flipped, NOT an orphan): {len(unknowns)}")
+        for i, p in unknowns[:20]:
+            print(f"    row {i + 1}: {p}")
 
     if not apply:
         print("\nDRY RUN — nothing written. Re-run with --apply to write.")
@@ -145,8 +169,10 @@ def main():
     out = "\n".join(body) + ("\n" if trailing_nl else "")
     log.write_text(out, encoding="utf-8")
     print(f"\nWROTE {len(flips)} rows -> {DELIVERED}. Field count uniform at {EXPECTED_FIELDS}.")
-    if unresolved:
-        print(f"⚠️  {unresolved} real orphan(s) LEFT AS-IS — investigate, do not sweep.")
+    if orphans:
+        print(f"⚠️  {len(orphans)} real orphan(s) LEFT AS-IS — investigate, do not sweep.")
+    if unknowns:
+        print(f"⚠️  {len(unknowns)} UNKNOWN row(s) LEFT AS-IS — unavailable evidence is not delivery.")
     return 0 if unresolved == 0 else 1
 
 
