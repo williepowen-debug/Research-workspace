@@ -28,7 +28,7 @@
 |---|---|---|---|
 | `walter_doctor.py` (board_reconcile, cluster_review_overdue) | parses ToC rows, `^## NAME (N)$`, `**TOTAL**` | **no** | **yes** (sections move) |
 | `PROME/tools/board_scan.py` (the §3.5 pull) | **never reads INDEX** — globs `BOARD/SIG-W-*.md` | no | no |
-| CARL boot 5 | `grep -oE 'SIG-W-…'` over INDEX vs `board/BOARD_LOG.tsv`; mtime check | no | yes (grep path) |
+| CARL boot 5 | `grep -oE 'SIG-W-…'` over INDEX vs **`AGENTS/CARL/board/BOARD_LOG.tsv`**; mtime check | no | yes (grep path) |
 | RED 1.5 (b1) | reads the cluster ToC (~6 KB) | no | no |
 | REGINALD 9b | pull INDEX + SIG files since last ledger row (ID diff) | no | yes |
 | FALCON / HAWK / OSPREY (b) | grep rows naming the desk on a word boundary | no | yes (glob) |
@@ -57,7 +57,7 @@ The **§3.6.2 direction rule** ("HOLDS / WEAKENS / FLIPS") currently lives only 
 ## 4. Cutover — five steps, each with a check
 
 1. **Obligation audit BEFORE (READ_CAP rule 18):** enumerate every INDEX row with a hand annotation that has no frontmatter source (§5 list of 10) and give each a `status:`/`status_ref:` header **first**. Until this is done the generator would DELETE them. The 39 `status:`-header rows with no marker gain one; the 7 remaining absent back-markers appear.
-2. **Build `tools/gen_board_index.py`** — deterministic, writes a line-0 banner with the row-set sha (RED's `FALSIFICATION_TRIGGERS_SCAN.tsv` pattern), `--check` mode diffs the derived row set against the live file: ID set, per-cluster counts, marker presence per row. First run writes `BOARD/INDEX.generated.md` beside the live file.
+2. **Build `tools/gen_board_index.py`** — deterministic, writes a line-0 banner with the row-set sha (RED's `FALSIFICATION_TRIGGERS_SCAN.tsv` pattern), `--check` mode diffs the derived row set against the live file: ID set, per-cluster counts, marker presence per row. `--write` **would create** `BOARD/INDEX.generated.md` beside the live file. ⚠️ **That file does NOT exist and is not expected to: the soak has run `--check` only, which never writes.** It is the `--write` DEFAULT TARGET, not an artifact — do not read its absence as a missed step. *(Flagged as a dead pointer by PROME's `firetime_check` 2026-09-06; corrected here to describe the path rather than reference it, which is the honest fix — an allowlist entry would have suppressed a true reading.)*
 3. **Parity test:** `walter_doctor.py` pointed at the generated file must reconcile (ToC = sections = files = TOTAL) and every ID present in the hand file must be present in the generated one; every marker in the hand file must be present or explicitly listed as "dropped: no source field" (should be zero after step 1).
 4. **Swap** (one commit, WALTER-owned): generated file replaces INDEX.md; preamble shrinks to a pointer at BOARD_CONSUMPTION_SPEC §2 (the precedence→delivery table is a mirror and goes); the "Cluster activity detail (archived ToC changelog)" section moves to `design/history/`. Boot step 11 changes from "append a row + update the ToC" to "run the generator" — a WALTER `CLAUDE.md` edit, and that file is at **99% of the auto-load cap**, so the step text must get shorter, not longer.
 5. **Doctor check `index_generated_fresh`:** regenerate to memory at every doctor run and fail HIGH on drift, so a hand edit to INDEX.md can never silently survive. Closeout gate unchanged otherwise.
