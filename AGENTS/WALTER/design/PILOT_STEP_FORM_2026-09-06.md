@@ -1,6 +1,6 @@
 # PILOT — does a shorter boot step preserve behaviour? (scope v2, 2026-09-06)
 
-**Status:** SCOPED, NOT STARTED. Codex recommends a **conditional go**; awaiting Will.
+**Status:** 🟢 **CLOSED — PASSED ON THE TESTED EXERCISE, 2026-09-06.** Independently scored by Codex against the raw transcripts. **Broader benefits unresolved; the live charter is UNCHANGED and adopting the candidate remains a separate decision.**
 **Origin:** Codex review 2026-09-06 after the false-cap-alarm repair. Will: *"go ahead and scope the pilot."* **v2 revises v1 on Codex's five points** — the substantive change is that v1 tested COMPREHENSION and v2 tests EXECUTION.
 **Question under test:** *does the shorter instruction preserve reliable behaviour while reducing reading and maintenance?* **File size alone cannot answer it.**
 
@@ -187,13 +187,26 @@ One session, ~60 min: rewrite → two fixture runs in fresh contexts (~$0.10) �
 
 ## 10. RESULTS — 2026-09-06. Both arms met the bar. **SCORES NOT YET CERTIFIED.**
 
-🔴 **STATUS: AWAITING INDEPENDENT SCORING OF THE RAW RECORDS.** No scored conclusion should be drawn from this section yet.
+✅ **INDEPENDENTLY SCORED 2026-09-06 by Codex, against `ARM_CONTROL_RAW.md` and `ARM_REVISED_RAW.md` — the recorded tool calls, outputs and final replies, NOT WALTER's summaries.**
 
 **The evidence gap, and it was mine.** v1 of this section presented two 13- and 17-line files as the "verbatim command logs". **They were WALTER's SUMMARIES** — abbreviated commands, condensed outputs, my characterisation of each disposition. **Scoring them would have meant accepting my account of what happened, which is the exact distinction this experiment existed to remove** (Codex, 9/6). Fixed: the full transcripts are now extracted unedited to **[`pilot_runs/ARM_CONTROL_RAW.md`](pilot_runs/ARM_CONTROL_RAW.md)** (12 turns, 13,810 B) and **[`pilot_runs/ARM_REVISED_RAW.md`](pilot_runs/ARM_REVISED_RAW.md)** (15 turns, 11,647 B) — full prompt, every tool call, every literal output, the final reply. **The summaries are retained, banner-demoted, with no evidentiary standing. Score the RAW files.**
 
-### 10.1 What the arms did (author's reading — to be confirmed against the raw records)
+### 10.1 Independent scoring — Codex, against the raw transcripts
 
-Both arms opened the evidence for all three items, withdrew A, preserved B, and retained C as UNVERIFIED naming the missing artifact. **On that reading the revised form met the absolute bar of §9.1.** That reading is mine and is exactly what needs independent confirmation.
+| required behaviour | CONTROL | REVISED |
+|---|---|---|
+| check evidence for all three items | **Pass** | **Pass** |
+| withdraw resolved item A | **Pass** | **Pass** |
+| preserve open item B | **Pass** | **Pass** |
+| retain C as unverified, naming the missing evidence | **Pass** | **Pass** |
+
+On C: *"the control inspected the directory and established that the file was absent; the revised arm also attempted to open it and received an error. Both preserved the uncertainty rather than declaring the work completed or still pending."*
+
+### 10.1a THE DEFENSIBLE CONCLUSION, in the scorer's words — this is the result of record
+
+> **Both versions satisfied the required behaviours on this fixture. The revised input was 187 bytes smaller, including G1. Reference dependence and maintenance cost remain unmeasured.**
+
+⚠️ **It establishes NEITHER superiority NOR reliable performance across future sessions, and it is no reason to manufacture another test until the arms differ.**
 
 ### 10.2 Cost — C1/C2/C3
 
@@ -214,9 +227,17 @@ Both arms opened the evidence for all three items, withdrew A, preserved B, and 
 **(iii) ❌ WITHDRAWN: *"−187 B bought a 3× increase in the correction surface."***
 **Three locations are not three maintenance obligations.** The revised step owns the specific action, the preamble owns G1, `BOOT_PROTOCOL` would own the history — **a change to the action does not automatically require rewriting the general principle or the historical record.** ⚠️ **And the history block was never actually written**, so the figure was computed against a hypothesis. **To establish increased maintenance I would need one realistic rule change requiring coordinated edits across locations.** I have not produced one. `3×` was an assertion wearing a measurement's clothes.
 
-### 10.4 Where this leaves it
+### 10.4 CLOSED
 
-**No demonstrated need for another experiment.** The next action is to make THIS run auditable — done above — and obtain independent scoring of the raw records. **The live charter is unchanged**: boot step 3 and the preamble are untouched, the rewrite exists only as a pilot input, so there is nothing to roll back.
+**Closed as PASSED on the tested exercise, with broader benefits unresolved.** Step 1 stays out of scope. **The live charter is unchanged** — boot step 3 and the preamble are untouched, the rewrite exists only as a pilot input under `pilot_runs/`, so there is nothing to roll back and **adopting the candidate is a separate decision that has not been taken.**
+
+### 10.5 🔑 THE OBSERVATION THAT OUTLIVES THE PILOT
+
+**Both readers were instructed — in bold, mandatorily — to return exact commands and exact literal outputs. BOTH ABBREVIATED OR OMITTED DETAIL ANYWAY.** The scoring was only possible because the underlying tool records existed independently of the readers' accounts of themselves.
+
+⇒ **PRESERVE TOOL RECORDS DIRECTLY. DO NOT DEPEND ON A MODEL RECONSTRUCTING ITS OWN ACTIVITY** — not even when you mandate the format, and not even when the reconstruction turns out to be substantially accurate. **A mandated reporting format is a request, not an instrument.**
+
+🔴 **This has a live consequence for this desk beyond the pilot.** WALTER **RULE 9** authorises autonomous verify-research spawns, and their verdicts (`CONFIRMED` / `CORRECTED-framing` / `FALSE` / `INDETERMINATE`) are logged **from the spawned agent's own report of what it did.** That is the same self-reconstruction this pilot just showed to be lossy. **The verify-spawn log is therefore built on a substrate weaker than it reads** — recorded here as a known gap, not fixed in this session and not to be quietly forgotten.
 
 ---
 
