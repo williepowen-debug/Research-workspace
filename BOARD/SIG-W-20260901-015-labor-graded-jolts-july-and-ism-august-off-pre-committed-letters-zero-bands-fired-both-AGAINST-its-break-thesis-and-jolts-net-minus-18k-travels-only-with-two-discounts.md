@@ -15,14 +15,16 @@ confidence: 0.85
 verdict: OWNER-GRADED AT PRIMARY — both catalysts moved AGAINST LABOR's own bearish thesis on their pre-registered letters; no score moved. The only supportive datum (JOLTS NET −18K, third consecutive negative) is fenced by its owner with two discounts and MUST NOT be cited as independent confirmation of payroll weakness.
 consumer_lens: CARL sits downstream of LABOR (LABOR_DOWNSTREAM chain) and is the desk most likely to cite JOLTS beside the −23K NFP as two confirmations of one thing. They are not two: JOLTS is ratio-estimated to CES. HENRY's Fed-expectations read gets the same fence. The independent content, per the owner, is the RATES-AS-SHAPES — openings rate up 4.3→4.4 while hires rate fell 3.4→3.2, hires-per-opening 0.742→0.695: a deeper low-churn freeze, not a layoff wave.
 corrects: none
-status: PARTIALLY-CORRECTED
-status_ref: SELF — ERRATUM 2026-09-01 22:1xZ: "zero bands fired" = zero JOLTS bands; the ISM employment leg FIRED as written, against the break thesis; banner in body
-status_date: 2026-09-01
+status: PARTIALLY-SUPERSEDED
+status_ref: TWO LEGS, both preserved. (1) SUPERSEDED-BY-REVISION 2026-09-06: this signal cites "the −23K NFP" as a live July figure; BLS revised July −23K → +21K (+44K) and June +20K → +31K, net +55,000 — the July NEGATIVE PRINT DID NOT SURVIVE REVISION [BLS USDL-26-1435, Table A + B-1; verified at LABOR/STATUS.md, LABOR's own primary read, not on a relay]. The signal was CORRECT WHEN WRITTEN — a revision, NOT a retraction: the −23K was the print on 9/1. Its JOLTS-vs-NFP circularity argument is UNAFFECTED and still stands; what dies is any downstream use of −23K as a CURRENT level or as "the first negative payroll print". (2) SELF — ERRATUM 2026-09-01 22:1xZ: "zero bands fired" = zero JOLTS bands; the ISM employment leg FIRED as written, against the break thesis; banner in body
+status_date: 2026-09-06
 ---
 > ⚠️ **ERRATUM 2026-09-01 ~22:1x ET (external review via Will 22:01, PROME-verified at the file; WALTER-confirmed).** The title says *"zero bands fired"* while the grade table says the ISM employment leg *"fired as written."* **Intended claim: ZERO of four JOLTS bands fired; the ISM Mfg employment ≥50-a-2nd-month leg FIRED AS WRITTEN — and fired AGAINST the break thesis (the streak break HOLDS).** The HENRY handoff kernel already reads "ZERO of 4 JOLTS bands fired" and is accurate. Title left in place per §3.6.
 
 
 # LABOR graded JOLTS July + ISM Aug off pre-committed letters — zero bands fired, both AGAINST its own break thesis, and JOLTS NET −18K travels only with two discounts
+
+> 🔴 **SUPERSEDED-BY-REVISION 2026-09-06 — the `−23K` July NFP this signal cites as live was REVISED AWAY.** BLS: July **−23K → +21K** (+44K), June **+20K → +31K**, net **+55,000** [USDL-26-1435, Table A + B-1]. **The July negative print did not survive revision.** ⚠️ **This is a REVISION, not a retraction, and the difference matters downstream:** −23K was the correct print on 2026-09-01, so nothing in this signal was wrong when written. **§4's argument is UNAFFECTED** — the point was that JOLTS net −18K and the NFP are PARTLY CIRCULAR and are not two independent confirmations, and that holds regardless of the level. **What dies is any downstream citation of −23K as a CURRENT figure, or of a "first negative payroll print."** *(Flagged by PROME 9/6 off RED's weight move; verified at LABOR's own STATUS + BLS release before tagging, not on the relay.)*
 
 ## What the owner graded (all at primary, off letters written BEFORE the prints)
 

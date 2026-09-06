@@ -3,7 +3,7 @@
 **Session:** 2026-09-05 **SATURDAY** (boot ~21:3x ET → closed ~23:3x ET). `walter-1f`. Will: *"please boot up"* → Codex review relayed (**three passes**) → *"dispatch FT-10 to RED and VIOLET"* → *"lets close out"*. **1 dispatch · 2 doorbell rows · 3 inbox packets consumed · 6 REGISTRY rows · 1 additive erratum · 0 kills · 0 verify-spawns.** BOARD **887 → 888**. Tier-2 FULL.
 
 ## STATUS
-🟢 **GREEN.** Doctor **0 HIGH, 1 MED** (the standing fleet unconsumed backlog). Corrections check rc=0. Claim-check clean. Orphan check clean. Regression suite **38/38, rc 0**. STATUS 24,160 B (cap 48,000) · MEMORY 14,045 B · WALTER `CLAUDE.md` **54,222 B against a 54,250 B cap — 28 B of headroom, and that is the one number in this file that is not comfortable.** All trains pushed with receipts.
+🟢 **GREEN.** Doctor **0 HIGH, 1 MED** (the standing fleet unconsumed backlog). Corrections check rc=0. Claim-check clean. Orphan check clean. Regression suite **38/38, rc 0**. STATUS 24,160 B (against the canonical **32,550 B** budget — the `cap 48,000` this line carried was an owner-set seat figure that READ_CAP rule 2 overrides) · MEMORY 14,045 B · WALTER `CLAUDE.md` 54,222 B. ⚠️ **CORRECTED 9/6 (Codex review, Will-approved): this line said the charter had "28 B of headroom… the one number that is not comfortable." There is no cliff.** `READ_CAP.md:37` exempts `CLAUDE.md` — auto-loaded, not Read; it costs CONTEXT, not truncation, and the rule is *watch, don't rotate*. The 54,250 B figure is the harness SINGLE-READ limit and does not govern an auto-loaded charter. All trains pushed with receipts.
 
 ## CHANGED
 - **`SIG-W-20260905-001`** PRIORITY → **RED, VIOLET** action / **HENRY, PROME** info. RED-FT-10 (SKEW ≥150 non-strict, s=4) **SATISFIED and COUNTING 2-of-4** at CBOE: **150.63 [9/3] + 151.58 [9/4]**, reset base 144.12 [9/2]. **NOT FIRED.**
@@ -26,7 +26,7 @@
 | # | Item | Why it matters |
 |---|---|---|
 | 1 | 🔴 **`WQ-186` — the FT-10 spawn timing, on your slate Monday evening.** | DOCKET L275 is dated **9/9**, so a **Tuesday 9/8** spawn of RED+VIOLET is pre-date and is **your** call, not PROME's. If no word arrives, PROME pre-fetches the 9/8 CBOE bar read-only and spawns both on/after 9/9. **My recommendation stands: touch them before the 9/8 open, separate spawns.** |
-| 2 | 🔴 **`WQ-179` n=3 — read-cap ruling due 9/11.** | `AGENTS/WALTER/CLAUDE.md` is at **28 B of headroom** under the 54,250 B auto-load cap. No mandated line can land on that file before a rotation. |
+| 2 | 🟡 **`WQ-179` — ruling due 9/11, and WALTER's evidence is NARROWER than this row claimed.** | ⚠️ **WITHDRAWN 9/6: the "28 B of headroom / no mandated line can land" framing was FALSE.** `READ_CAP.md:37` exempts an auto-loaded charter from the read cap (*watch, don't rotate*), and rule 3 forbids the joint-sum comparison that produced the companion "176% of cap" claim. **WQ-179 stays LABOR's whole-read STATUS question**; WALTER contributes evidence about document growth, not a combined-context emergency. What survives: ~5,259 B of the 25,192 B boot section is incident narrative the charter's own header says lives in `BOOT_PROTOCOL.md` — **an ESTIMATE dependent on which passages I classified as history, not an audited figure.** |
 | 3 | 🔴 **Telegram INBOUND is broken; outbound works.** *(carried)* | The Bot API has no history, so a missed inbound is **gone, not queued**. The terminal is the only reliable channel *to* me. |
 | 4 | *(Carried)* Lane scope: an obsolescence/depreciation collection rule? | Obsolescence has zero lane queries; the lane is PROME's surface. |
 | 5 | *(Carried)* Weekend / event-triggered intake — deferred by your order. | The lane is weekday-only and would miss a weekend event. **It did this weekend:** 9 breaches sat from 9/4. |
@@ -63,7 +63,7 @@
 
 ## FOLLOW-UP
 1. 🔴 **FT-10 9/8** — the whole game. `WQ-186` on Will's slate Monday evening.
-2. 🔴 **`CLAUDE.md` 28 B of headroom** — rotation needed before any mandated line; ruling 9/11.
+2. 🟡 **`CLAUDE.md` growth is a CONTEXT cost to watch — NOT a cap breach.** The 28-B-headroom framing was withdrawn 9/6; `READ_CAP.md:37` exempts auto-loaded charters. The false alarm's generator — `walter_doctor`'s `auto_load_budget` grading against the single-read cap — is fixed and behaviourally tested. Ruling 9/11 is LABOR's question.
 3. **9 lane breaches** — first thing at next boot.
 4. **Iran re-verify ~9/7** or on a third wave / named oil asset / mine detonation / US accept-reject. Anchor verified 2026-09-01T21:45Z (ADD#23).
 5. **Chase, don't re-ask:** RED · VIOLET · BROCK · REGINALD · AEOLUS (§B).

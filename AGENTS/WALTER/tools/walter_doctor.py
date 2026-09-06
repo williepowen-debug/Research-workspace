@@ -33,6 +33,7 @@ Checks:
   dropzone_pending       unprocessed items in the inbox/WILL/ desktop drop-zone (backstops step 7f)
   boot_protocol_xref     every [→ BP §x] pointer resolves to a real BOOT_PROTOCOL section (and back)
   status_spine_overflow  STATUS.md dated-lead count vs the ~5 cap (protocol §12 spine-trim guard)
+  status_bottom_line     STATUS.md `## BOTTOM LINE` is a STANDALONE heading with a body (lost twice: deleted 7/23, ABSORBED into prose 9/3)
   restated_set_drift     prose restatements of a SET/COUNT vs canonical source (3 seeds; see docstring)
   cluster_review_overdue  days since each large cluster's last coherence review (cadence prompt)
   registered_but_unrouted agent has a REGISTRY row but zero ROUTING_TABLE presence
@@ -1334,6 +1335,61 @@ def check_dropzone_pending():
     return out
 
 
+def check_status_bottom_line():
+    """## BOTTOM LINE must exist as a STANDALONE HEADING with a nonempty section.
+
+    Bought TWICE, by two different mechanisms, and that is why this is code and
+    not another sentence in the closeout step:
+
+      · 2026-07-23 — the STATUS spine regeneration DELETED the block (945f201ae).
+        Absent 25 days. Fix (PAT-113, 8/18): name the artifact in the step that
+        regenerates it, as closeout 12(e).
+      · 2026-09-03 — it went missing AGAIN, and 12(e) did not catch it. This time
+        nothing was deleted: the `## BOTTOM LINE` token was ABSORBED into an
+        unfinished sentence in the line-5 provenance note (`... that is exactly
+        how `## BOTTOM LINE`), where an unclosed backtick swallowed the heading.
+        The PARAGRAPH survived, so a session "re-cutting the block" saw content,
+        rewrote it, and moved on. TWO Tier-2 FULL closeouts (9/3, 9/5) ran 12(e)
+        over a file with no heading and neither restored it.
+
+    ⇒ THE GUARD WAS BUILT AGAINST DELETION; THE SECOND LOSS WAS ABSORPTION.
+    Naming the artifact made the step check for the CONTENT, never the ANCHOR.
+    The charter's own boot step 3 states the test that would have caught it:
+    "when a step's verb is 'read' or 'refresh', ask what would happen if the
+    thing were already gone — if the answer is 'nothing', the step is decorative."
+    12(e)'s verb was "re-cut", and the answer was nothing.
+    [[finding_record_of_an_action_is_not_the_action]] · [[finding_mechanize_the_cap_not_the_ritual]]
+
+    Fails on: zero headings (absorbed or deleted), more than one (a regeneration
+    that appended instead of replacing), or a heading with no body under it."""
+    f = WALTER / "STATUS.md"
+    try:
+        lines = f.read_text(encoding="utf-8", errors="replace").split("\n")
+    except OSError:
+        return [(MED, "AGENTS/WALTER/STATUS.md unreadable — BOTTOM LINE state UNKNOWN, not clean")]
+    idx = [i for i, l in enumerate(lines) if l.strip() == "## BOTTOM LINE"]
+    if not idx:
+        stray = [i + 1 for i, l in enumerate(lines) if "BOTTOM LINE" in l and l.strip() != "## BOTTOM LINE"]
+        where = (f" The token DOES appear on line(s) {stray} — likely ABSORBED into prose "
+                 f"(check for an unclosed backtick), which is how it was lost on 2026-09-03.") if stray else ""
+        return [(MED, "STATUS.md has NO standalone `## BOTTOM LINE` heading — closeout 12(e) "
+                      "cannot be satisfied and will not notice." + where)]
+    if len(idx) > 1:
+        return [(MED, f"STATUS.md has {len(idx)} `## BOTTOM LINE` headings (lines "
+                      f"{[i+1 for i in idx]}) — a regeneration appended instead of replacing.")]
+    i = idx[0]
+    body = []
+    for l in lines[i + 1:]:
+        if l.startswith("## "):
+            break
+        body.append(l)
+    if not any(l.strip() for l in body):
+        return [(MED, f"STATUS.md `## BOTTOM LINE` (line {i+1}) has an EMPTY section — "
+                      f"the heading exists but answers nothing.")]
+    return [(INFO, f"STATUS.md `## BOTTOM LINE` present (line {i+1}), "
+                   f"{sum(len(l) for l in body):,} B of body")]
+
+
 def check_status_spine_overflow():
     """STATUS.md keeps only the ~5 most recent dated leads; older ones roll to
     SESSION_LOG.md at closeout (protocol §12). Nothing mechanized the cap, so the
@@ -1517,7 +1573,12 @@ def check_restated_set_drift():
         if not sec:
             out.append((LOW, "BOOT_PROTOCOL §0.5 span didn't parse — re-anchor before trusting"))
         else:
-            listed = set(re.findall(r"^\d+\. \*\*([a-z_]+)\*\*", sec.group(0), re.M))
+            # `\d+[a-z]?\.` — the enumeration uses letter sub-labels (19b.), the same
+            # convention as the charter's 12(e)/7e steps. The old digits-only parse
+            # could only ever produce a FALSE ALARM ("not enumerated" for a row that
+            # plainly was); widening it cannot create a false PASS, because a name
+            # enumerated but absent from CHECKS is still reported as `extra`.
+            listed = set(re.findall(r"^\d+[a-z]?\. \*\*([a-z_]+)\*\*", sec.group(0), re.M))
             if listed and listed != names:
                 miss, extra = names - listed, listed - names
                 bits = []
@@ -2200,8 +2261,34 @@ def check_auto_load_budget():
 
     SCOPE — only AGENTS/WALTER/CLAUDE.md is WALTER's to fix. Root CLAUDE.md and the
     fleet auto-memory index are PROME-owned; they are REPORTED (they are real cost on
-    every WALTER session) but never graded against WALTER, per the flag-don't-commit rule."""
-    cap, budget = 54_250, 32_550
+    every WALTER session) but never graded against WALTER, per the flag-don't-commit rule.
+
+    🔴 2026-09-06 — THIS CHECK WAS RAISING A FALSE CAP ALARM. Corrected after Codex
+    review, on Will's approval. It graded an AUTO-LOADED file against the SINGLE-READ
+    cap (54,250 B) and budget (32,550 B), and summed three surfaces against that same
+    per-surface number. Both are refuted by canon:
+      · READ_CAP.md:37 — `CLAUDE.md` | **No** — auto-loaded into context, not a Read;
+        large charters cost context, not truncation (WATCH, DON'T ROTATE ON THIS RULE).
+      · READ_CAP.md rule 3 — "Per surface, never a joint cap."
+    The cap is derived from the harness SINGLE-READ limit; an auto-loaded charter is
+    not Read and does not truncate. So `n > cap` described no failure that can occur,
+    and `total*100//cap` compared a joint sum to a per-surface limit. The alarm then
+    propagated into LAST_COMPLETION, MEMORY and a report to Will as "28 B of headroom,
+    no mandated line may land" — an urgency canon does not support.
+
+    ⚠️ NOT a false-assurance defect, and the distinction is the point (Codex, 9/6).
+    The nine 9/05 defects reported SUCCESS wrongly — they failed SILENT. This one
+    INVENTS A VIOLATION — it fails LOUD. Opposite directions; do not pool them into
+    that count. Recorded here as mechanism + consequence instead.
+
+    ⚠️ AND THE FIX ITSELF CARRIES THE INVERSE RISK:
+    [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]
+    — relaxing a noisy guard trades loud-and-safe for silent-and-certifying. So this
+    check still FAILS LOUD on the one thing that IS a real defect: an auto-load
+    component it could not measure. An incomplete total is reported as a FLOOR and
+    never as a clean verdict. Unavailable evidence stays UNKNOWN through to the
+    final report — the same invariant as the 9/05 fixes, applied in the other
+    direction. What was removed is the GRADE, not the MEASUREMENT."""
     own = WALTER / "CLAUDE.md"
     others = [(REPO / "CLAUDE.md", "root CLAUDE.md (PROME-owned)"),
               (Path.home() / ".claude/projects/-home-willi-Research-workspace/memory/MEMORY.md",
@@ -2209,25 +2296,29 @@ def check_auto_load_budget():
     try:
         n = own.stat().st_size
     except OSError:
-        return [(LOW, "AGENTS/WALTER/CLAUDE.md unreadable — auto-load cost UNMEASURED, not clean")]
-    parts, total = [], n
+        return [(MED, "AGENTS/WALTER/CLAUDE.md UNREADABLE — auto-load cost UNMEASURED, "
+                      "not clean. No total is reported: a sum missing its largest known "
+                      "component would understate the cost it exists to surface.")]
+    parts, total, unmeasured = [], n, []
     for p, label in others:
         try:
             b = p.stat().st_size
             total += b
             parts.append(f"{label} {b:,} B")
         except OSError:
-            parts.append(f"{label} unreadable")
-    detail = (f"WALTER CLAUDE.md {n:,} B = {n*100//cap}% of the {cap:,} B cap "
-              f"({n*100//budget}% of budget) · unconditional total with "
-              f"{' + '.join(parts)} = {total:,} B = {total*100//cap}% of cap")
-    if n > cap:
-        return [(MED, f"AUTO-LOAD OVER THE CAP — {detail}. This loads on EVERY session before "
-                      f"boot step 0 and no read-cap run will show it. Move incident history to "
-                      f"design/BOOT_PROTOCOL.md; keep action/condition/failure/pointer.")]
-    if n > budget:
-        return [(LOW, f"auto-load over budget (under cap) — {detail}")]
-    return [(INFO, f"auto-load within budget — {detail}")]
+            unmeasured.append(label)
+            parts.append(f"{label} UNREADABLE (not in the total)")
+    floor = " FLOOR, not a total —" if unmeasured else ""
+    detail = (f"WALTER CLAUDE.md {n:,} B (own, the only one WALTER may fix) · "
+              f"unconditional auto-load with {' + '.join(parts)} ={floor} {total:,} B. "
+              f"Reported, NOT graded: an auto-loaded charter is not a Read and does not "
+              f"truncate (READ_CAP.md:37), and the read cap is per surface, never joint "
+              f"(rule 3). There is no ruled auto-load threshold — growth here is a "
+              f"CONTEXT cost to watch, not a violation to clear.")
+    if unmeasured:
+        return [(MED, f"auto-load measurement INCOMPLETE — could not read: "
+                      f"{', '.join(unmeasured)}. {detail}")]
+    return [(INFO, f"auto-load measured — {detail}")]
 
 
 def _processed_owner(path: str):
@@ -2340,6 +2431,7 @@ CHECKS = [
     ("dropzone_pending", check_dropzone_pending),
     ("boot_protocol_xref", check_boot_protocol_xref),
     ("status_spine_overflow", check_status_spine_overflow),
+    ("status_bottom_line", check_status_bottom_line),
     ("cluster_review_overdue", check_cluster_review_overdue),
     ("registered_but_unrouted", check_registered_but_unrouted),
     ("correction_target_declared", check_correction_target_declared),

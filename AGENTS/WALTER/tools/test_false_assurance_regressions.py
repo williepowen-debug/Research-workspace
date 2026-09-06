@@ -414,6 +414,85 @@ def test_mutation_guard():
         wd.check_index_generated_fresh = saved
 
 
+def test_auto_load_reporting():
+    """[G] AUTO-LOAD REPORTING — a FALSE CAP ALARM, the opposite direction to A-F.
+
+    A-F cover false ASSURANCE: verdicts that reported success wrongly, failing
+    SILENT. This one INVENTED a violation, failing LOUD -- it graded an
+    auto-loaded charter against the SINGLE-READ cap that READ_CAP.md:37 exempts
+    it from, and summed three surfaces against a limit rule 3 says is per
+    surface, never joint. Kept in this file because it is the same instrument;
+    labelled here because the failure DIRECTION is opposite and pooling the two
+    would hide that.
+
+    The fix's own risk is over-correction into silence
+    ([[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]),
+    so the assertions below pin BOTH halves: no cap grading, AND still loud on
+    an unmeasurable component."""
+    print("\n[G] AUTO-LOAD — report without grading; stay loud on an INCOMPLETE measurement")
+    import walter_doctor as wd
+
+    sev, msg = wd.check_auto_load_budget()[0]
+
+    # -- half 1: the false alarm is gone -------------------------------------
+    check("verdict is INFO when every component is measurable",
+          sev == wd.INFO, f"got sev={sev}: {msg[:160]}")
+    for banned in ("% of the", "% of cap", "% of budget", "OVER THE CAP", "over budget"):
+        check(f"no cap/budget GRADE in the message: {banned!r} absent",
+              banned not in msg, f"got: {msg[:220]}")
+
+    # -- half 2: it still MEASURES (removing the grade must not remove the number)
+    own = (wd.WALTER / "CLAUDE.md").stat().st_size
+    check("own size still reported", f"{own:,} B" in msg, f"got: {msg[:220]}")
+    check("the joint total is still reported", "unconditional auto-load" in msg)
+
+    # -- half 3: a file OVER the old cap must NOT produce a cap warning -------
+    #    Behavioural, not textual: point the check at a >54,250 B fixture.
+    import tempfile, pathlib
+    saved_walter = wd.WALTER
+    try:
+        with tempfile.TemporaryDirectory() as td:
+            fake = pathlib.Path(td)
+            (fake / "CLAUDE.md").write_bytes(b"x" * 60_000)   # 60,000 > 54,250
+            wd.WALTER = fake
+            sev2, msg2 = wd.check_auto_load_budget()[0]
+        check("a 60,000 B charter (over the OLD cap) is still INFO, not MED",
+              sev2 == wd.INFO, f"got sev={sev2}: {msg2[:200]}")
+        check("...and raises no cap alarm", "OVER THE CAP" not in msg2 and "60,000 B" in msg2,
+              f"got: {msg2[:220]}")
+    finally:
+        wd.WALTER = saved_walter
+
+    # -- half 4: an UNREADABLE component must be LOUD and must not be totalled -
+    #    This is the anti-over-correction pin: silence here would be the defect
+    #    the 9/05 pass was about, arriving from the other side.
+    saved_home = pathlib.Path.home
+    try:
+        pathlib.Path.home = staticmethod(lambda: pathlib.Path("/nonexistent-home-xyz"))
+        sev3, msg3 = wd.check_auto_load_budget()[0]
+    finally:
+        pathlib.Path.home = saved_home
+    check("an unreadable component raises MED, not a clean INFO",
+          sev3 == wd.MED, f"got sev={sev3}: {msg3[:200]}")
+    check("...names what it could not read",
+          "UNREADABLE" in msg3 and "INCOMPLETE" in msg3, f"got: {msg3[:220]}")
+    check("...and reports the number as a FLOOR, never a total",
+          "FLOOR, not a total" in msg3, f"got: {msg3[:220]}")
+
+    # -- half 5: MUTATION -- stub the size lookup to lie; the verdict must move
+    saved_stat = pathlib.Path.stat
+    try:
+        pathlib.Path.stat = lambda self, *a, **k: (_ for _ in ()).throw(OSError("stubbed"))
+        sev4, msg4 = wd.check_auto_load_budget()[0]
+    finally:
+        pathlib.Path.stat = saved_stat
+    check("MUTATION: unreadable OWN file gives a DIFFERENT verdict than the real run",
+          (sev4, msg4) != (sev, msg) and sev4 == wd.MED,
+          f"the check is insensitive to its own size lookup; got sev={sev4}")
+    check("MUTATION: an unreadable own file reports NO total at all",
+          "unconditional auto-load" not in msg4, f"got: {msg4[:220]}")
+
+
 if __name__ == "__main__":
     print("WALTER false-assurance regressions v2 — BEHAVIOURAL (Codex 2026-09-05, 2nd pass)")
     test_sync_state_returncodes()
@@ -423,6 +502,7 @@ if __name__ == "__main__":
     test_index_rows_behaviour()
     test_apply_mode_exit_status()
     test_mutation_guard()
+    test_auto_load_reporting()
     print()
     if FAILS:
         print(f"✗ {len(FAILS)} FAILED: {', '.join(FAILS)}")
