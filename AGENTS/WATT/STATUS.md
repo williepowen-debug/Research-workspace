@@ -55,26 +55,12 @@
 
 ---
 
-## ⛔ CORRECTIONS LEDGER — every claim withdrawn or scoped, in ONE place
-*Canonical home. Cells and live reads carry a one-line flag and point HERE; nothing restates the reasoning. Opened 2026-09-06 after an external review (CODEX, two rounds) plus two self-catches. **Verified at the artifacts by me before acceptance in every row.***
+## ⛔ WITHDRAWN — do not re-assert (full 11-row register → archive)
 
-| # | claim as it stood | status | what is defensible instead | caught by / lesson |
-|---|---|---|---|---|
-| 1 | §202(c) shows backup gen **"operationally relied upon"** / **"LIMB (c) RAN"** | ⛔ **WITHDRAWN** | **authority granted ✅ · deployment observed ❓UNKNOWN · para. E utilisation record ❌.** Kept distinct + still verified: ACTION #105472 (5 zones) **was** dispatched = demand response | CODEX r1 · **L-47** |
-| 2 | 55 GW wording **"agreed with VULCAN, verbatim in its files"** | ⛔ **WITHDRAWN** | Seam agreed on the **number**, **OPEN on the POPULATION**. `VULCAN/STATUS.md:27` still reads "55 GW **nameplate** interconnection ceiling" under "SEAM CLOSED" | CODEX r1 · **L-46** |
-| 3 | P2 + P3 are **"two INDEPENDENT structural roots"** | ⛔ **WITHDRAWN** | **Linked** — PJM's auction reliability requirement is computed FROM the load forecast P3 measures. Complementary, not independent | CODEX r1 · **L-48** |
-| 4 | §202(c) order **"[VERIFIED ×2]"** | ⚠️ **SCOPED** | Two independent publications for the order's **existence/terms**; **one lineage** for the stress narrative (DOE recites PJM's application) | CODEX r1 · **L-48** |
-| 6 | **"season-high 152,518 MW"** (9/1) | ⛔ **WITHDRAWN** | **The episode's peak.** My own text records July's EEA-1 at **159,046 MW** — "season-high" was false on this surface's own numbers | CODEX r1 |
-| 7 | Spark **"widened for a third consecutive read / moving away from the trigger"** | ⛔ **WITHDRAWN** | The **rolling averages do not establish persistent widening** — each window's level tracked its emergency-day count | self, 9/6 · **L-45** |
-| 8 | **"the spark never moved"** *(my own first correction)* | ⛔ **WITHDRAWN** | Adjusted series **+$30.46 → +$41.09 → +$26.33 → +$28.98**: a mid-Aug window sits ~35% above 8/4 **even after excluding 8/16**, and does not persist. **Both "widened for a third read" and "never moved" are withdrawn**; what survives is only *"the reported readings do not establish persistent widening"* | CODEX r2/r5 · **L-49** |
-| 9 | boot window "contains **FOUR** emergency days" | ⚠️ **CORRECTED** | **THREE** (9/1, 9/2, 9/3). Measured per-day on-peak: 8/31 $51.38 · **9/1 $210.35 · 9/2 $157.68 · 9/3 $68.36** · 9/4 $52.49 · 9/5 $47.12 | self, 9/6 |
-| 10 | 8/17's +$48.12 **"permanently unauditable"** | ✅ **WITHDRAWN — reconstruction done, PROVISIONAL** | `rt_hrl_lmps` retains **≥67 days**; all four published sparks reproduce within **$0.62**. Excluding 8/16 lowers the window spark **$7.04 (14.6% of $48.13)**. ⛔ *"contamination", "floor" and the 17% figure (adjusted-value denominator) all WITHDRAWN → #13* | CODEX r2/r5 |
-| 11 | "no doorbell — **no named deadline**" | ⚠️ **REASONING INCOMPLETE** | Rule 6b leg 3 has **TWO** limbs: **3a** named referent **and 3b** cadence (dark duration > the desk's own **p75** inter-session gap, WALTER `BOARD_CONSUMPTION_SPEC` §3.5.7, n≥8 or 3b cannot fire). **Neither fires here**, so the decision stands — but **apply both branches, never stop at 3a**. ⛔ *I then said the reviewer used "a proxy, not the declared estimator" — **WRONG, withdrawn**: `BOARD_CONSUMPTION_SPEC.md:264` defines the statistic AS "calendar days between consecutive **AUTHORED commit-days**," which is exactly what it used, with n=12 (VULCAN) and n=17 (DEWEY), both ≥8 ⇒ **3b was computable and simply did not fire.*** | CODEX r2, r3 |
-*(Rows **#5** BRA cap ratio and **#12** IRAS docket tier are **RESOLVED at primary** and rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` § `CORRECTIONS_ROWS_RESOLVED_2026-09-06`; their live facts sit in the P2 block above.)*
+**13 claims were withdrawn or scoped in the 2026-09-06 review cycle (5 rounds, all verified at artifacts).** Full register verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` § `CORRECTIONS_LEDGER_FULL_2026-09-06`; reasoning → `LESSONS.md` **L-46…L-50**, `workbook/KB.tsv` **KB-103/105/106/107**.
 
-| 13 | The reconstruction write-up: **"de-contaminated"**, **"contamination is a FLOOR"**, **"identifies the gas vintage"**, **"17%"/">100%"** | ⛔ **ALL WITHDRAWN same-day** | **Sensitivity analysis, not error correction** · **no floor** (4 mixed-sign offsets don't bound 8/16; PJM hourly *is* a 5-min average, so smoothing hits peaks not means) · gas $2.690 **INFERRED** (a fit with 2 unknowns that can offset) · **14.6% and 50.6%** — my percentages used the **ADJUSTED value as denominator**, ⚠️ **the same denominator error as the BRA cap, one day later** | CODEX r5 |
-
----
+**The standing do-not-reassert list, in one line each:**
+⛔ backup generation was **authorised, not observed** (authority ✅ · deployment ❓ · utilisation record ❌) · ⛔ the 55 GW seam is agreed on the **number**, and the "nameplate" wording was **my own** imprecision · ⛔ P2 and P3 are **linked**, not independent roots (the auction requirement is computed from P3's forecast) · ⛔ 28/29 cleared at **100% of its own cap**; "97.5%" was PJM's **YoY cap decrease** relabelled as utilisation · ⛔ 9/1 was the **episode's peak**, not a "season high" (July ran 159,046 MW) · ⛔ the spark neither **"widened persistently"** nor **"never moved"** — the readings simply do not establish persistent widening · ⛔ the reconstruction is a **sensitivity analysis**, with **no floor** and an **INFERRED** gas vintage · ⛔ a non-heat autumn emergency **opens an investigation**, it does not establish reserve-margin erosion.
 
 ## EXIT / INVALIDATION (standing-rule-vs-state triad)
 
@@ -110,7 +96,8 @@
 | 3 | 🟠 **IRAS primary pull** — confirm `ER26-3515-000` / accession 20260813-5118 at FERC eLibrary (my fetcher gets a JS shell/403); settle the **EL26-67** relationship, still unestablished after 4 sources | before **10/12** |
 | 4 | 🟠 **The 6.5 GW gap** (July @159,046 vs Sept @152,518 MW) — still INFERRED. 5-min route closed; use the DM2 **generation-outage** series, method per KB-WATT-089 | open |
 | 5 | 🟡 **Predictions: 4 OPEN** — WATT-08 (2027-06-30) · WATT-09 (~11/30, contingent) · WATT-10 (10/31 outer) · **WATT-11 (9/15→11/30)** | — |
-| 6 | ✅ **55 GW WORDING CLOSED — VULCAN committed my text verbatim (`db3d4ae2b`).** ⚠️ **VULCAN corrects my provenance: the "nameplate" phrasing was MY OWN imprecision, retracted 8/4**; VULCAN then wrote it beside the adopt-verbatim instruction, *and the instruction is the half that travels*. **My packet blamed VULCAN's adoption; the origin was mine, 33 days old.** ⛔ Wording only — FL-WATT-08 and hedged-vs-floating stay open | wording ✅ |
+| 6 | ✅ **BOTH VULCAN LEGS NOW CLOSED.** Wording committed verbatim (`db3d4ae2b`) — ⚠️ and VULCAN corrects my provenance: the "nameplate" phrasing was **my own** imprecision from 8/4, which my packet mis-assigned. **Backup-dispatch leg ANSWERED: `FL-WATT-08` never priced limb (c) as observed** — it is dated **four weeks before** the order and carries **no interruption term at all**; its only physical input is a price series. **Nothing to correct.** ⚠️ *And VULCAN had already answered in `db3d4ae2b` — I doorbelled without checking the inbox first.* **Still owed BY ME: hedged-vs-floating** | ✅ closed |
+| 6b | 🔴 **NEW DATED ITEM — the 9/1–9/3 window reaches `FL-WATT-08` by PRICE, not by event, on a ~3-month lag.** The 9/2 tape ($1,868.78, 8 consecutive ≥$1,000) is realized cost feeding the covenant's **trailing-three-month mark, fully populated ~DECEMBER 2026.** 🔑 **Whether it bites is decided by MY owed deliverable:** the covenant marks *Excess **UNHEDGED** Power Costs* — largely hedged ⇒ papered over; largely floating ⇒ September arrives in December. **This upgrades hedged-vs-floating from a courtesy to the switch on a filed mechanical transmission** | **~Dec 2026** |
 | 7 | 🟡 **PROME — GPU-instrument ownership unruled**; VULCAN's 9/3 amendment ("neither tier alone") also unanswered by me. CME Compute Futures list **10/05** = the re-decision date I proposed | **10/05** |
 | 8 | ⚠️ **Winter P1 gate HELD** — basis KB-WATT-076, **do not re-derive**; long form → archive. Never *"no EEA because El Niño"*: **peak-based, sign-agnostic, mid-Jan–Feb.** 🔑 **The MW level at which PJM goes to emergency is not a constant** — no fixed-MW winter call. Never mix ONI +2.03 / +1.2 | mid-Jan–Feb 2027 |
 | 9 | 🟡 **ERCOT Cal-27 discriminator** — unchanged, still INFERRED; leans demand/supply but pairs a **chart-read** level with **spot** gas. ⚠️ **Never quote chart-reads as settles.** Long form → archive | open |
@@ -127,6 +114,7 @@
 | **FERC order on IRAS `ER26-3515-000`** | **~10/12** *(PJM's requested effective date, primary-verified)*, outer 10/31 | resolves **WATT-10** |
 | **FERC ruling, 3 EL26-67 abeyance motions** | overdue since ~8/07 (~30d) | sets **WATT-09**'s resolve date |
 | **WATT-11 autumn-shoulder window** | **9/15 → 11/30** | heat-vs-reserve-margin discriminator; **absence is the data** |
+| **CRWV DSCR trailing-3-month mark absorbs September** | **~Dec 2026** | the 9/1–9/3 scarcity cost reaches a filed covenant ~3 months late; **hedged-vs-floating decides whether it bites** |
 | **NERC ride-through provisions filed** | by **2026-12-31** | the un-sized AI-capex compliance cost line |
 | **Winter P1 window** *(gate HELD)* | **mid-Jan–Feb 2027** | peak-based, sign-agnostic, never "no EEA because El Niño" |
 

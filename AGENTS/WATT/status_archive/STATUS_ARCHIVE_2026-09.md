@@ -469,3 +469,30 @@ My header carried **"budget 64,000 B — set from measurement (392 B/line), flee
 |---|---|---|---|---|
 | 5 | 28/29 cleared at **"97.5% of cap"** | ✅ **RESOLVED at PJM primary** | **$325 IS the 28/29 cap; cleared at 100%.** PJM 7/14 headline: *"Comes in at the Cap of $325, **Down 2.5%**"* — 🔑 **that 2.5% is the YoY cap decrease, relabelled here as within-year utilisation: a real figure with a swapped denominator**, which is why it passed every arithmetic check. WATT-01 HIT unaffected | CODEX r1/r4 + self r3 |
 | 12 | IRAS docket **"not primary-verifiable"** | ✅ **RESOLVED — PRIMARY-VERIFIED** | `ER26-3515-000`, *"…IRAS & a Large Load Registry **to be effective 10/12/2026**"*, filed 8/13/26, acc. 20260813-5118 — **FR/GPO govinfo FR-2026-08-18.** ⛔ **"eLibrary blocked ⇒ primary unreachable" was a false dead end: one blocked door treated as the only door.** ⚠️ EL26-67 absent from *this* notice = scoped negative | CODEX r3 |
+
+---
+
+## CORRECTIONS_LEDGER_FULL_2026-09-06
+
+*Rotated 2026-09-06 (eighth session, eighth pass) · 4,585 B · crc32 3973363341 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted at this splice). The full 11-row withdrawal register from the 5-round external review; the review cycle is CLOSED and every row's lesson lives in `LESSONS.md` L-46…L-50 and `workbook/KB.tsv` KB-103/105/106/107. STATUS keeps a pointer + the standing do-not-reassert list.*
+
+## ⛔ CORRECTIONS LEDGER — every claim withdrawn or scoped, in ONE place
+*Canonical home. Cells and live reads carry a one-line flag and point HERE; nothing restates the reasoning. Opened 2026-09-06 after an external review (CODEX, two rounds) plus two self-catches. **Verified at the artifacts by me before acceptance in every row.***
+
+| # | claim as it stood | status | what is defensible instead | caught by / lesson |
+|---|---|---|---|---|
+| 1 | §202(c) shows backup gen **"operationally relied upon"** / **"LIMB (c) RAN"** | ⛔ **WITHDRAWN** | **authority granted ✅ · deployment observed ❓UNKNOWN · para. E utilisation record ❌.** Kept distinct + still verified: ACTION #105472 (5 zones) **was** dispatched = demand response | CODEX r1 · **L-47** |
+| 2 | 55 GW wording **"agreed with VULCAN, verbatim in its files"** | ⛔ **WITHDRAWN** | Seam agreed on the **number**, **OPEN on the POPULATION**. `VULCAN/STATUS.md:27` still reads "55 GW **nameplate** interconnection ceiling" under "SEAM CLOSED" | CODEX r1 · **L-46** |
+| 3 | P2 + P3 are **"two INDEPENDENT structural roots"** | ⛔ **WITHDRAWN** | **Linked** — PJM's auction reliability requirement is computed FROM the load forecast P3 measures. Complementary, not independent | CODEX r1 · **L-48** |
+| 4 | §202(c) order **"[VERIFIED ×2]"** | ⚠️ **SCOPED** | Two independent publications for the order's **existence/terms**; **one lineage** for the stress narrative (DOE recites PJM's application) | CODEX r1 · **L-48** |
+| 6 | **"season-high 152,518 MW"** (9/1) | ⛔ **WITHDRAWN** | **The episode's peak.** My own text records July's EEA-1 at **159,046 MW** — "season-high" was false on this surface's own numbers | CODEX r1 |
+| 7 | Spark **"widened for a third consecutive read / moving away from the trigger"** | ⛔ **WITHDRAWN** | The **rolling averages do not establish persistent widening** — each window's level tracked its emergency-day count | self, 9/6 · **L-45** |
+| 8 | **"the spark never moved"** *(my own first correction)* | ⛔ **WITHDRAWN** | Adjusted series **+$30.46 → +$41.09 → +$26.33 → +$28.98**: a mid-Aug window sits ~35% above 8/4 **even after excluding 8/16**, and does not persist. **Both "widened for a third read" and "never moved" are withdrawn**; what survives is only *"the reported readings do not establish persistent widening"* | CODEX r2/r5 · **L-49** |
+| 9 | boot window "contains **FOUR** emergency days" | ⚠️ **CORRECTED** | **THREE** (9/1, 9/2, 9/3). Measured per-day on-peak: 8/31 $51.38 · **9/1 $210.35 · 9/2 $157.68 · 9/3 $68.36** · 9/4 $52.49 · 9/5 $47.12 | self, 9/6 |
+| 10 | 8/17's +$48.12 **"permanently unauditable"** | ✅ **WITHDRAWN — reconstruction done, PROVISIONAL** | `rt_hrl_lmps` retains **≥67 days**; all four published sparks reproduce within **$0.62**. Excluding 8/16 lowers the window spark **$7.04 (14.6% of $48.13)**. ⛔ *"contamination", "floor" and the 17% figure (adjusted-value denominator) all WITHDRAWN → #13* | CODEX r2/r5 |
+| 11 | "no doorbell — **no named deadline**" | ⚠️ **REASONING INCOMPLETE** | Rule 6b leg 3 has **TWO** limbs: **3a** named referent **and 3b** cadence (dark duration > the desk's own **p75** inter-session gap, WALTER `BOARD_CONSUMPTION_SPEC` §3.5.7, n≥8 or 3b cannot fire). **Neither fires here**, so the decision stands — but **apply both branches, never stop at 3a**. ⛔ *I then said the reviewer used "a proxy, not the declared estimator" — **WRONG, withdrawn**: `BOARD_CONSUMPTION_SPEC.md:264` defines the statistic AS "calendar days between consecutive **AUTHORED commit-days**," which is exactly what it used, with n=12 (VULCAN) and n=17 (DEWEY), both ≥8 ⇒ **3b was computable and simply did not fire.*** | CODEX r2, r3 |
+*(Rows **#5** BRA cap ratio and **#12** IRAS docket tier are **RESOLVED at primary** and rotated verbatim → `status_archive/STATUS_ARCHIVE_2026-09.md` § `CORRECTIONS_ROWS_RESOLVED_2026-09-06`; their live facts sit in the P2 block above.)*
+
+| 13 | The reconstruction write-up: **"de-contaminated"**, **"contamination is a FLOOR"**, **"identifies the gas vintage"**, **"17%"/">100%"** | ⛔ **ALL WITHDRAWN same-day** | **Sensitivity analysis, not error correction** · **no floor** (4 mixed-sign offsets don't bound 8/16; PJM hourly *is* a 5-min average, so smoothing hits peaks not means) · gas $2.690 **INFERRED** (a fit with 2 unknowns that can offset) · **14.6% and 50.6%** — my percentages used the **ADJUSTED value as denominator**, ⚠️ **the same denominator error as the BRA cap, one day later** | CODEX r5 |
+
+---
