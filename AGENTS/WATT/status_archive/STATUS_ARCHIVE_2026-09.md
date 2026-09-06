@@ -458,3 +458,14 @@ My header carried **"budget 64,000 B — set from measurement (392 B/line), flee
 | 8 | **Winter P1 window** | **mid-Jan–Feb 2027**, not December | AEOLUS → WATT | the gated registration; peak-based, sign-agnostic |
 | 9 | **GEV Q3'26 10-Q** — does slot GW keep outgrowing firm conversion? | **~Oct 2026** | DEWEY (T2) | WATT's turbine-leg read of the power-equipment order book |
 | 10 | **Mead actual crossing 1,035 ft** | AEOLUS watches; ~10/27 straight-line, bias-adj. later | AEOLUS | **NOT a WATT score** — out of footprint (WECC, not PJM); see the AEOLUS answer |
+
+---
+
+## CORRECTIONS_ROWS_RESOLVED_2026-09-06
+
+*Rotated 2026-09-06 (eighth session, seventh pass) · 852 B · crc32 1630399481 · verbatim. Rotation month 2026-09 == file month 2026-09 ✅ (asserted per block). Ledger rows #5 (BRA cap ratio) and #12 (IRAS docket tier) — both RESOLVED at primary; their live facts sit in the P2 block and KB-WATT-032/102. STATUS keeps only rows whose withdrawal is still live guidance.*
+
+| # | claim | status | resolution | caught by |
+|---|---|---|---|---|
+| 5 | 28/29 cleared at **"97.5% of cap"** | ✅ **RESOLVED at PJM primary** | **$325 IS the 28/29 cap; cleared at 100%.** PJM 7/14 headline: *"Comes in at the Cap of $325, **Down 2.5%**"* — 🔑 **that 2.5% is the YoY cap decrease, relabelled here as within-year utilisation: a real figure with a swapped denominator**, which is why it passed every arithmetic check. WATT-01 HIT unaffected | CODEX r1/r4 + self r3 |
+| 12 | IRAS docket **"not primary-verifiable"** | ✅ **RESOLVED — PRIMARY-VERIFIED** | `ER26-3515-000`, *"…IRAS & a Large Load Registry **to be effective 10/12/2026**"*, filed 8/13/26, acc. 20260813-5118 — **FR/GPO govinfo FR-2026-08-18.** ⛔ **"eLibrary blocked ⇒ primary unreachable" was a false dead end: one blocked door treated as the only door.** ⚠️ EL26-67 absent from *this* notice = scoped negative | CODEX r3 |
