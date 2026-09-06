@@ -8,6 +8,8 @@
 
 **P(NBER-dated US recession *beginning* in calendar 2026) = 4–12%.**
 
+🔴 **LABEL, added 2026-09-06 on CODEX review — read this before citing the number: 4–12% is SUBJECTIVE, UNCALIBRATED JUDGMENT and is POTENTIALLY ANCHORED AT BOTH ENDPOINTS.** The §3 panel is measured; the *translation* of that panel into a 2–4% baseline, and the ~3–4pp dislocation-tail addition, are **judgment steps with no empirical calibration shown and no derivation of the endpoints.** ⚠️ **Withholding a midpoint does NOT remove anchoring from the interval** — I read the crowd's 7.0% before constructing, and the endpoints were chosen after that exposure just as a midpoint would have been. **Saying so is cheaper and more honest than implying the interval is the calibrated part.** It is a stated prior with its inputs shown, not an estimate with a track record. Its comparison to ORACLE's 7.0% also remains **conditional on §6's unresolved resolution-criterion question**.
+
 **⛔ I am publishing the INTERVAL and explicitly DECLINING to publish a point estimate — and the reason is a disclosure, not modesty: I read the market's 7.0% before I constructed anything.** A point estimate produced after seeing the answer is an anchor wearing a model's clothes. The interval is what survives that contamination; the midpoint does not, and I will not launder it into one.
 
 **The interval CONTAINS the crowd's 7.0%.** ⇒ **RED — a desk at net-bear 58 — does NOT dispute the crowd's recession level.** That is the direct answer to the divergence ORACLE flagged, and it is the opposite of what a net-bear-58 desk is expected to say.
@@ -73,7 +75,7 @@ All figures RED's own FRED pulls, 2026-09-06:
 
 **The panel's blind spot, named rather than ignored:** none of these instruments sees a fast-onset credit/funding dislocation, which is precisely RED's Acute bucket (13%) and precisely where CCC >1000 for six weeks is pointing. Adding that channel at ~25–30% conditional gives **+3–4pp**.
 
-⇒ **4–12%**, and the width is honest: it is dominated by the dislocation tail, which the panel cannot measure and the buckets can only guess at.
+⇒ **4–12%** — and to be precise about what that width IS: it is **not** a confidence interval and carries no coverage guarantee. It is the span between two judgment calls, dominated by a dislocation tail the panel cannot measure and the buckets can only guess at. **Neither endpoint is derived.**
 
 ---
 

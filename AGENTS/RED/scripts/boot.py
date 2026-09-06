@@ -18,7 +18,7 @@ import io
 import os
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[3]
@@ -127,16 +127,76 @@ def cboe_skew():
     return rows
 
 
+def _us_market_holidays(y):
+    """Standard US equity-market holidays for year y (observed rule for fixed dates)."""
+    def nth(m, wd, k):
+        d = date(y, m, 1); d += timedelta(days=(wd - d.weekday()) % 7)
+        return d + timedelta(weeks=k - 1)
+    def last(m, wd):
+        d = date(y, m, 31) if m != 5 else date(y, 5, 31)
+        while d.weekday() != wd:
+            d -= timedelta(days=1)
+        return d
+    def obs(d):
+        return d - timedelta(days=1) if d.weekday() == 5 else (d + timedelta(days=1) if d.weekday() == 6 else d)
+    a = y % 19; b_ = y // 100; c = y % 100; d_ = b_ // 4; e = b_ % 4
+    f = (b_ + 8) // 25; g = (b_ - f + 1) // 3
+    h = (19 * a + b_ - d_ - g + 15) % 30; i_ = c // 4; k_ = c % 4
+    l = (32 + 2 * e + 2 * i_ - h - k_) % 7; mm = (a + 11 * h + 22 * l) // 451
+    easter = date(y, (h + l - 7 * mm + 114) // 31, ((h + l - 7 * mm + 114) % 31) + 1)
+    out = {obs(date(y, 1, 1)), obs(date(y, 7, 4)), obs(date(y, 12, 25)),
+           nth(1, 0, 3), nth(2, 0, 3), last(5, 0), nth(9, 0, 1), nth(11, 3, 4),
+           easter - timedelta(days=2)}
+    if y >= 2021:
+        out.add(obs(date(y, 6, 19)))
+    return out
+
+
+def _gap_reconciled(d1, d2):
+    """True iff every weekday strictly between two CBOE bars is a market holiday.
+
+    This is FT-10's declared clause made executable: a NON-SESSION (exchange closed)
+    bridges the run; an UNRECONCILED MISSING SESSION breaks it. Weekends and holidays
+    produce no bar and are expected; an unexplained weekday gap means the publisher had
+    a session we cannot see, and the run may not be counted across it.
+    """
+    d = d1 + timedelta(days=1)
+    while d < d2:
+        if d.weekday() < 5 and d not in _us_market_holidays(d.year):
+            return False, d
+        d += timedelta(days=1)
+    return True, None
+
+
 def cboe_run_length(op, thr):
-    """Consecutive most-recent CBOE bars satisfying op/thr, per FT-10's reset rule."""
+    """Consecutive most-recent CBOE bars satisfying op/thr, per FT-10's reset rule.
+
+    ⚠️ REBUILT 2026-09-06 (S41) after CODEX found the v1 walked consecutive ROWS with no
+    date logic at all — so a run of 9/3, 9/4, 9/9, 9/10 with the 9/8 session MISSING
+    counted 4-of-4 and FIRED. That directly violates the clause RED had RULED the same
+    morning ("an unreconciled missing session BREAKS the run, never bridges it"). I ruled
+    the clause, wrote its test onto the card, and then shipped a counter that could not
+    enforce the half I ruled on. Returns (run, rows, break_reason).
+    """
     rows = cboe_skew()
     n = 0
-    for _, v in reversed(rows):
-        if cmp_op(v, op, thr):
-            n += 1
-        else:
+    reason = None
+    prev_date = None
+    for ds, v in reversed(rows):
+        try:
+            cur = datetime.strptime(ds, "%m/%d/%Y").date()
+        except ValueError:
             break
-    return n, rows
+        if prev_date is not None:
+            ok, missing = _gap_reconciled(cur, prev_date)
+            if not ok:
+                reason = f"UNRECONCILED MISSING SESSION {missing.isoformat()} — run may not be counted across it"
+                break
+        if not cmp_op(v, op, thr):
+            break
+        n += 1
+        prev_date = cur
+    return n, rows, reason
 
 
 def tsv(path):
@@ -211,16 +271,17 @@ def eval_line(value, op, thr, sustain, src_type, key, scale, fred):
         # deferred. Bar date is printed because this series publishes LAGGED — a value
         # without its bar date is the exact ambiguity that put "SKEW crossed 150" on the
         # tape two days before the publisher had spoken (SIG-W-20260903-001).
-        run, rows = cboe_run_length(op, thr)
+        run, rows, break_reason = cboe_run_length(op, thr)
         bar = rows[-1][0] if rows else "?"
         detail = f"live {value:,.2f} [CBOE bar {bar}] vs {op}{thr_s} (dist {dist:+,.2f})"
         if not hit:
             return ("NEAR" if near else "clear"), detail + f" — run 0-of-{sustain_n}"
         if run >= sustain_n:
-            return "FIRING", detail + f" — SUSTAINED {run}-of-{sustain_n}"
+            return "FIRING", detail + f" — SUSTAINED {run}-of-{sustain_n}" + (f" ⚠️ {break_reason}" if break_reason else "")
         start = rows[-run][0] if run else "?"
+        gap = f" ⚠️ {break_reason}" if break_reason else ""
         return "FIRING*", detail + (f" — SATISFIED but COUNTING {run}-of-{sustain_n} "
-                                    f"(run start {start}); NOT FIRED")
+                                    f"(run start {start}); NOT FIRED") + gap
     if hit and sustain_n > 1 and src_type == "fred":
         trail = fred_trail(key, scale, fred, sustain_n)
         if len(trail) >= sustain_n and all(cmp_op(t, op, thr) for t in trail):
