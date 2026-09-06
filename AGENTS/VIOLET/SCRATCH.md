@@ -1,4 +1,4 @@
-# VIOLET SCRATCH — September 6, 2026 (Sun — **TWO sessions today. AM: boot + the `VX_DAILY` backfill + the `CLAUDE.md` re-key. PM (~11:0x–12:0x): WQ-188 — Codex reviewed the AM repair and found it could UNDO ITSELF. Both fixes built and falsified. The thesis read is still owed and is still #1.**)
+# VIOLET SCRATCH — September 6, 2026 (Sun — **TWO sessions today. AM: boot + the `VX_DAILY` backfill + the `CLAUDE.md` re-key. PM (~10:5x–11:1x ET): WQ-188 — Codex reviewed the AM repair and found it could UNDO ITSELF. Both fixes built and falsified. The thesis read is still owed and is still #1.**)
 
 > **Scope as given (Will):** *"boot up"* → then *"do the backfill, and yes re-point those CLAUDE.md lines."* No thesis bump, no proposal, no edits outside `AGENTS/VIOLET/` (plus the `PROME/inbox/` memo, carve-out ①).
 > **🔑 The session's shape: I went to fill four missing rows and found the ledger under my highest-profile live claim had been sourced from a mirror for its entire life, while the publisher of record sat imported at the top of the same script.**
