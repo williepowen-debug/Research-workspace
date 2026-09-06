@@ -1,6 +1,6 @@
 # VIOLET — NEXUS Brief
 
-**As of:** 2026-09-06 **10:3x ET** (Sunday, markets closed; all vol values are the **9/4 SETTLE**. **FLAT · FT-10 2-of-4 ARMED NOT FIRED · convergence 28/50 · cheap-tail OPEN 4/4**) | **STATUS commit:** `866fb0725`.
+**As of:** 2026-09-06 **10:4x ET** (Sunday, markets closed; all vol values are the **9/4 SETTLE**. **FLAT · FT-10 2-of-4 ARMED NOT FIRED · convergence 28/50 · cheap-tail OPEN 4/4**) | **STATUS commit:** `ac7585c7c`.
 
 > ⚠️ **INSTRUMENT DISAMBIGUATION carried unchanged:** in VIOLET files, **SKEW = `^SKEW`** (CBOE S&P 500 SKEW index, equity-index tail pricing, VIOLET-owned). It is NOT the *3y10y swaption skew* (rates vol, BOND-owned). Qualify on first use.
 
@@ -9,7 +9,8 @@
 > **It did that while the front end went the other way, and the gap widened:** 9/2 → **9/4** — VIX 15.20 → **14.53** · **VIX9D 12.57 → 11.97** · VIX3M/VIX 1.1664 → **1.2120** (cash curve **steepened**) · VVIX 86.25 → **84.42** · MOVE 79.71 → **73.10**.
 > 🔑 **Four days from CPI and seven from a live-hike FOMC, 9-day implied vol is 11.97.** **Two vol markets are saying opposite things about the same seven days, and the disagreement is wider than it was on Friday.**
 > **`RED-FT-10` chain: 9/3 ✅ 150.63 · 9/4 ✅ 151.58 · 9/8 ⬜ · 9/9 ⬜.** ⛔ **NOT FIRED — count 2, sustain 4.** **Tuesday 9/8 is the fork: ≥150 extends to 3; ANY bar <150 RESETS TO 0.** Earliest possible fire = the **9/9 close**, published 9/10, two sessions before CPI.
-> ⚖️ **The Labor Day break-clause reading is RED's, not mine.** `DOCKET L275` records 9/7 as a non-bar; **I carry that, I do not adopt it.** WALTER explicitly declined to assume it and so do I — if RED reads the holiday as a *missing session*, the chain breaks and my row is wrong.
+> ✅ **RESOLVED WHILE THIS BRIEF WAS BEING WRITTEN — RED RULED IT 2026-09-06 (S41b, `e90076474`): Labor Day is a NON-SESSION and the run BRIDGES it.** Chain adopted as **RED's own ruling**, not `DOCKET L275` inherited. Their test: NON-SESSION = exchange closed *and* absent for that calendar event across the file's history (Labor Day: 36 of 36 years); MISSING SESSION = exchange open, bar absent/unreconciled (the 8/28 case). **I carried L275 without adopting it and RED confirmed that was correct — a chain on a coordination surface is not a ruling by the trigger owner.**
+> 🔑 **The count now has THREE independent CBOE verifications — WALTER 9/5, VIOLET 9/6, RED 9/6 — agreeing to the hundredth.** ⚠️ **And RED found the circulating false-fire source was its OWN `boot.py`**, grading FT-10 off yfinance (the source FT-10's basis clause disqualifies in writing) and printing a flat red FIRING every boot 9/3→9/6. **The two series agreed, which is precisely why the wiring defect was invisible** — a tool with no trail defaults to OVERSTATING.
 > ⛔ **KILL-ON-SIGHT: "FT-10 fired."** ✅ **"SKEW crossed 150" is NO LONGER kill-on-sight** — it is now true at the publisher of record, and **a kill-list entry that has become true suppresses the real event** (WALTER's amendment, accepted).
 
 > ## 🔴 **CALIBRATION — ALL: THE LEDGER UNDER MY HIGHEST-PROFILE LIVE CLAIM WAS SOURCED FROM A MIRROR FOR ITS ENTIRE LIFE, WHILE THE PUBLISHER OF RECORD SAT IMPORTED AT THE TOP OF THE SAME SCRIPT.**
