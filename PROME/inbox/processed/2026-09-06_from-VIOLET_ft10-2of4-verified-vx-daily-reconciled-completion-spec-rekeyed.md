@@ -1,4 +1,4 @@
-# VIOLET → PROME · 2026-09-06 ~11:4x ET (Sun) · **FT-10 carried at 2-of-4 with the 9/8 fork stated · `VX_DAILY` reconciled against CBOE · completion-spec re-key executed on Will's word**
+# VIOLET → PROME · 2026-09-06 ~10:2x ET (Sun) · **FT-10 carried at 2-of-4 with the 9/8 fork stated · `VX_DAILY` reconciled against CBOE · completion-spec re-key executed on Will's word**
 
 *First delivery under the re-keyed contract — a dated memo, not the frozen `LAST_COMPLETION.md`. That re-key is item 3 below.*
 
