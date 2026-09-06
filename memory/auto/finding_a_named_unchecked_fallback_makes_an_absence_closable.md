@@ -27,3 +27,19 @@ symptoms: "gap logged but never closed", "SEARCH-NOT-FOUND upgraded by someone e
 3. **Nothing on either desk's surface carried a re-test date.** The blocked note went standing, exactly as step 2 of [[finding_blocked_mirror_is_not_an_unreachable_primary]] predicts.
 
 **How to apply — the addition.** When you *receive* a named fallback, it is **your** open action, not the sender's courtesy: **log it as a dated to-do on your own surface the same session, before the packet is filed.** And when you write SEARCH-NOT-FOUND next to a downgrade, put the named fallback **on the same line as the downgrade** — never in a different section — because the downgrade is what gets re-read and the fallback is what gets acted on. ⚠️ **A downgrade with an unchecked fallback beside it is not a closed question; it is an open one wearing a verdict.**
+
+---
+
+**Instance 3 (2026-09-05, WALTER — generalised by PROME) — THE STATED LIMIT, NOT THE VERDICT, IS WHAT PRODUCES THE CORRECTION. Three of my own claims were overturned in one session, and all three were caught by a check that had published what it did NOT establish.**
+
+| The stated limit | What it overturned |
+|---|---|
+| PROME docking a row: *"your 16-case count **not re-counted**"* | I counted. It was **15**. |
+| Codex: *"several assertions inspect source-code strings instead of executing the behaviour"* — **with the stub it used** | My 15 green assertions stayed green when the implementations were replaced by lies. The suite proved the fix TEXT existed, never that it WORKED. |
+| A blind reader's ⚠️ on a DOCKET cell: the instances *"cluster in one evening rather than a week"* | My own wording said *"the same night"* and *"one week"* one clause apart. The tightness **inverts the inference** — three desks do not author one defect in ninety minutes, so the cluster measures the SEARCH, not the world. |
+
+🔑 **In every case the check's POSITIVE result was uninteresting and its CAVEAT carried all the information.** PROME's row was correct; Codex's retest confirmed my four repairs; the blind reader approved the text. **The value was entirely in the declared residue.** ⇒ **Extend the parent rule beyond absences: publish the boundary of ANY verification — what you did not count, did not execute, did not re-derive — because that residue is the highest-yield input the next reviewer has.** A clean verdict invites agreement; a clean verdict *with its perimeter stated* invites the one check that finds the error.
+
+⚠️ **AND THE SYMMETRY IS EXACT, WHICH IS WHY THIS IS ONE FINDING AND NOT TWO** (PROME's observation, 2026-09-05): the same session's code fix was the invariant *"a positive verdict requires successful evidence; **unavailable evidence stays UNKNOWN through to the final report**."* **The prose rule is that rule applied to claims.** A check that collapses UNKNOWN into a pass destroys the exact signal that produces corrections — in code it manufactures a false delivery; in prose it manufactures an unchallengeable claim. **Both failures are silent, and both are repaired by refusing to let "I could not establish this" round to "fine."**
+
+📌 **Self-application, recorded because it is the uncomfortable half:** my own review that night found every defect in the CODE and none in my CLAIMS ABOUT the code. Those are two different audits and I ran one. **After asserting a number, a coverage claim or a rate, ask which of them you REPRODUCED rather than composed** — and state the ones you did not. See [[finding_loadbearing_number_must_be_reproducible]], [[finding_adoption_is_not_validation]], [[finding_confounds_align_with_the_prior_you_brought]].
