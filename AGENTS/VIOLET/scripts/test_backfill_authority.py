@@ -92,9 +92,20 @@ def main() -> int:
           f"got {rows['2026-09-04']['skew']!r}")
 
     print("\n[2] CONTRACT (c) — basis=SETTLE is never stamped on an unverified row")
-    check("SETTLE not newly stamped while a series failed",
-          "settle_stamped" not in str(rows) and rows["2026-09-04"]["basis"] == "SETTLE",
-          "pre-existing SETTLE is left alone; the test below proves none is ADDED")
+    # ⚠️ REPAIRED 2026-09-06 PM (WQ-188 2nd pass). This check previously read
+    #   `"settle_stamped" not in str(rows) and ...basis == "SETTLE"`
+    # whose first clause compares a COUNTER NAME against the repr of ledger ROWS,
+    # where it can never appear — A CLAUSE THAT CANNOT FAIL — and whose rationale
+    # ("pre-existing SETTLE is left alone") described as safe the very state Codex
+    # later flagged as dangerous. The label is only safe when NOTHING unverified
+    # was written; assert BOTH halves, and assert the value, not the counter.
+    # [[finding_test_the_guard_not_just_the_guarded]]
+    check("SETTLE row survives a failed series with its VERIFIED value intact",
+          rows["2026-09-04"]["basis"] == "SETTLE"
+          and str(rows["2026-09-04"]["skew"]) == "151.58",
+          "the label is legitimate here precisely because no mirror value landed; "
+          "the overwrite/fill routes are executed end-to-end in "
+          "test_backfill_endtoend.py cases [2][3][5]")
     rows2 = ledger()
     rows2["2026-09-04"]["basis"] = "TICK"
     run_yf_pass(rows2, hist, failed)
@@ -142,6 +153,15 @@ def main() -> int:
           f"{len(printed)} print-literals scanned; docstring history is untouched")
 
     print("\n[6] The gate in THIS test still matches the gate in backfill.py")
+    # ⚠️ SCOPE OF THIS FILE, STATED AFTER IT SHIPPED 12 GREEN CONTRACTS OVER TWO
+    # OPEN HOLES (Codex 2nd pass, 2026-09-06 PM). `run_yf_pass()` above is a HAND
+    # TRANSCRIPTION of backfill_spot's gate and the checks below are SOURCE-STRING
+    # scans, so nothing here executes the shipped write path: this suite cannot,
+    # even in principle, catch a defect in the real gate. It is kept because the
+    # AST/print and structural checks are still worth having — but the ACCEPTANCE
+    # evidence lives in test_backfill_endtoend.py, which runs main() for real.
+    # A transcription agrees with its original by construction.
+    # [[finding_crosscheck_with_free_parameter_validates_nothing]]
     check("backfill_spot withholds on a failed series",
           "if key in failed:" in src and "withheld_failed += 1" in src)
     check("backfill_spot defers to CBOE where CBOE publishes",

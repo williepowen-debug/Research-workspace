@@ -10,44 +10,7 @@ Log material structural changes only — not routine content edits. Template ado
 
 ---
 
-## 2026-08-20 — SKEW disambiguation on cross-agent surfaces · CALENDAR countdowns de-rotted · a blocking checker's id-match limitation
-
-**Trigger:** WALTER `SIG-W-20260819-031` (a second instrument named "SKEW" entered fleet circulation) + the closeout guard's grading-note check going 🔴 + a twin-reconciliation pass.
-
-**What changed:**
-1. **Canonical INSTRUMENT DISAMBIGUATION block added to `NEXUS_BRIEF.md`, `CANARY_MAP.md`, `SIGNAL_INTAKE.md`** — the three surfaces other desks read. In VIOLET files **SKEW = `^SKEW` (CBOE equity index)**; the 3y10y swaption skew is rates vol and BOND's. **Chosen as a header definition rather than 54 inline edits**: audited 62 mentions across those surfaces with only 8 qualified, and every unqualified row is *correct* — the defect materialises at the reader, so one authoritative statement at the top is the fix, and 54 inline edits would have been 54 chances to break a currently-correct row.
-2. **`CALENDAR.md` forward-catalyst day-counts REMOVED, not corrected.** The table carried "(Fri, 3d)/(Wed, 6d)/(Thu, 7d)" stamped on 8/18; by 8/20 those read 1d/4d/5d — **every countdown in the human twin was wrong while the machine feed was exactly right.** A hand-typed countdown is a date that decays every session. Dates kept; countdowns now come only from `scripts/catalyst_countdown.py`, which derives them at run time. **Same lesson the DATA REFRESH SCHEDULE section already learned in July** — second instance in the same file, different column.
-3. **`workbook/CATALYSTS.tsv` NVDA note repaired** (cited a SUPERSEDED KB row; the note prints at the moment NVDA resolves) and the two fired 8/19 rows pruned to CALENDAR's RESOLVED section with grades.
-4. **Ledger repairs:** `VX_DAILY.tsv` gained the missing 8/19 row and its 8/18 TICK partial was superseded to full SETTLE; `IMPLIED_CORR.tsv` gained 8/19. Both recovered from CBOE `prev_day_close`, cross-checked against the History CSVs.
-
-**Files touched:** `NEXUS_BRIEF.md` · `CANARY_MAP.md` · `SIGNAL_INTAKE.md` · `CALENDAR.md` · `workbook/CATALYSTS.tsv` · `workbook/VX_DAILY.tsv` · `workbook/IMPLIED_CORR.tsv` · `board_log.tsv` (+11) · `workbook/KB.tsv` (+6).
-
-**Boot-impact:** none negative — `catalyst_countdown.py`, `grading_note_check.py` and `validate_workbook.py` all verified green after. Boot now has no 8/13→8/20 ledger holes, so `cheap_tail.py` and the COR1M gate read live data instead of a stale cross-section.
-
-**Lessons:**
-- ⚠️ **A checker that matches an ID TOKEN cannot distinguish a citation-as-authority from a disclosure-of-supersession.** Clearing the 🔴 required *not writing* the superseded row's id in canonical form; naming it honestly as SUPERSEDED pinned the row red permanently. **Provenance was kept and the pattern-match broken** (per the `claim_check` convention: reword only to stop the match, never to erase history). **A permanent 🔴 on a BLOCKING check is worse than the defect it names, because it trains the eye to close out past a blocker.**
-- ⚠️ **A hand-stamped derived value rots on a schedule its own file cannot see.** Countdowns, unlike dates, are wrong the day after they are written. **Delete the derived column; point at the tool.**
-
-
-## 2026-08-18 — CALENDAR gains a RESOLVED section, because a grading obligation was dying with the row that carried it
-
-**Trigger:** The 8/5 VIX SOQ counterfactual — pre-registered before the event, marked 🔴 as SCRATCH's #1 next-session item, cheap to grade — went **13 days unexecuted** and was on track to be **deleted**: a fired catalyst row gets pruned from `CATALYSTS.tsv` at closeout, and the obligation lives only on that row. **Pruning has a trigger (the event fires); grading has none.** Found while reconciling the twin, which had genuinely diverged (`CALENDAR.md` still headed its forward table with *"Aug 5 (tomorrow)"* on 8/18).
-
-**What changed:** ① New **`## RESOLVED — fired catalysts and their grades`** section in `CALENDAR.md`, sitting between ACTIVE FORWARD CATALYSTS and WEEKLY MONITORING — fired rows move here **with their outcome** instead of vanishing. Seeded with the four rows pruned this session (8/5 SOQ graded, 8/7 NFP, 8/7 COT, 8/12 CPI). ② `CATALYSTS.tsv` pruned 4 → added 3 (COT 8/21, Aug CPI 9/11, MU ~9/29 flagged **DATE-ESTIMATED**); twin verified with `catalyst_countdown.py`. ③ The Aug-19 expiry row now carries the **pin/roll caveat** against reading the 8/17 front-end bid as fear.
-
-**Files touched:** `CALENDAR.md` (new section + stamp) · `workbook/CATALYSTS.tsv` · `workbook/{VX_DAILY,COT_VIX,KB}.tsv` · `STATUS.md` · `SCRATCH.md` · `NEXUS_BRIEF.md` · `LAST_COMPLETION.md` · `board_log.tsv` (48 → 56).
-
-**Boot-impact:** None — no script or stage changed. `catalyst_countdown.py` reads the same feed; the RESOLVED section is human-side only. **Deliberately not mechanized this session:** the honest fix is a grading-obligation check with a clock, and I built a section instead of a check. **Recorded as a known half-measure** so the next session does not read it as closed.
-
-**Lessons:** 🔑 **This is the SAME structural gap this file's own 8/4 entry documented for macro-row replenishment** — *"pruning has a trigger and replenishment has none"* — hit again on the grading side, 14 days later. **Found twice, fixed neither time.** A defect described in prose in the very file that suffers from it is not a fixed defect. ⚠️ **Counter-lesson from the same session:** I also wrote a *prediction* into STATUS ("a live cheap-tail re-run would print 0/4") by extrapolating from two legs I had watched fail without computing the two I had not — it prints **2/4**. **The finding was right and the inference off it was wrong, and the inference is the part a reader acts on.** Compute the cells you did not watch.
-
----
-
-*Entries dated **2026-06-11 and earlier** live in `archive/MAINTENANCE_ARCHIVE.md` (archived 2026-07-30 on the cap).*
-
-*Created: 2026-06-10. Log structural changes at write-back (CLAUDE.md step 13a). Cap ~300 lines — archive overflow to `archive/MAINTENANCE_ARCHIVE.md`, now **enforced at boot** by `check_maintenance_cap()`.*
-
----
+> 📄 *The **2026-08-18** and **2026-08-20** entries are archived verbatim → `archive/MAINTENANCE_ARCHIVE.md` (crc32 `dfd3e19c`), rotated 2026-09-06 PM2 on the ~300-line cap.*
 
 ## 2026-09-02 — READ-CAP hot/cold split of MEMORY.md; `^SKEW` basis ruled to CBOE; 31-item two-lane inbox drain
 
@@ -70,6 +33,30 @@ Log material structural changes only — not routine content edits. Template ado
 - **A read-cap breach and a read-cap FALSE POSITIVE want opposite remedies, and only one of the three flagged surfaces was a real breach.** Splitting `VIX_THESIS.md` because a heuristic listed it would have restructured a canonical framework doc to satisfy a mis-parse. **Check whether the file is actually read before deciding how to shrink it.** `[[finding_instrument_reports_clean_against_the_wrong_reference]]`
 - **I logged one drain disposition as "acted — dead path repointed" and then discovered the citing row had not existed since the 8/18 catalyst rebuild.** Corrected in place to `stale`. I wrote the disposition from the *packet's description of my file* instead of from *my file*. `[[finding_record_of_an_action_is_not_the_action]]` — and a "fixed it" row for a structurally impossible fix is worse than no row.
 - **`move.py --boot` prints a live "GATE-VIO-116 re-open" leg for a row the fire-ledger RESOLVED on 7/16** (KB-VIO-219). Found, deliberately **not** fixed — a threshold-surface edit late in a heavy session. Queued as RESEARCH QUEUE #5.
+
+---
+
+## 2026-09-06 (PM2) — Codex 2nd pass: the WQ-188 fix closed the transport axis only; a destination gate added, and the AM test suite found unable to fail
+
+**Trigger:** Codex's second pass on `backfill.py`, routed by PROME as a 🟠 HIGH doorbell (`inbox/2026-09-06_from-PROME_Codex-backfill-closure-still-too-broad-...md`) under Will's standing WQ-188 ruling. PROME verified the three code sites; the runtime table is Codex's.
+
+**What changed:**
+1. **`fetch_cboe_history` now validates response STRUCTURE, not just HTTP status.** A 200 whose body is HTML yielded zero `DATE`-keyed rows and returned `({}, True)` — the identical value an authoritative empty answer returns — so the column never entered `failed` and yfinance kept write authority at rc=0. Now: a DATE column plus `CLOSE`/`<SYM>` (verified live against all six endpoints) or it is a **parse failure**, failing closed. ⚠️ **The docstring I wrote that morning already asserted `ok is False ... for a ... parse failure` while no parse check existed** — a guarantee written beside code that does not implement it converts an open hole into a documented closed one. → KB-VIO-264
+2. **A DESTINATION gate added to `backfill_spot`.** v1 scoped authority purely by *what the source said* (column failed / CBOE holds a value); a valid CSV merely **missing the target date** satisfied neither and the fallback landed in a row still labelled `SETTLE`. Now yfinance may fill a blank, **never overwrite**, and **never touch a `SETTLE` row**. → KB-VIO-265
+3. **A third route, not in Codex's table, found and closed:** the same hole also **newly MINTS** a `SETTLE` stamp when a provisional fill lands in a blank cell on a non-SETTLE row — every component behaving correctly, the whole-run `not failed` guard blind because nothing failed. **Ablation-proven load-bearing** (disable the clause, the case goes red). → KB-VIO-265
+4. **`scripts/test_backfill_endtoend.py` built** — runs `backfill.main(["--spot-only"])` for real, stubbing only `requests.get` and the `yfinance` module and redirecting `DAILY_LOG` to a temp file, asserting on the file on disk. 5/5 green; `--falsify` re-runs every case against the pre-fix `backfill.py` from git HEAD and requires 2/3/5 to fail there while 1/4 still pass (9/9, rc=0).
+5. **`test_backfill_authority.py` repaired, not deleted** — its vacuous `"settle_stamped" not in str(rows)` clause replaced, its misleading rationale corrected, and a scope banner added saying it cannot catch a gate defect. → KB-VIO-266
+6. **STATUS rotated twice on the read-cap budget** (33,864 B → 32,495 B): the v4.1/v4.1.1 thesis long-form → `archive/STATUS_THESIS_v41_NARRATIVE_2026-09-06.md` (crc32 `48130641`), the settled RESEARCH QUEUE dispositions → `archive/STATUS_RESEARCH_QUEUE_DISPOSITIONS_2026-09-06.md` (crc32 `2f380602`). Both verbatim; heading inventory asserted identical and the removed span asserted byte-present in the archive.
+
+**Files touched:** `scripts/backfill.py` · `scripts/test_backfill_endtoend.py` (new) · `scripts/test_backfill_authority.py` · `STATUS.md` · `NEXUS_BRIEF.md` · `research/2026-09-06_wq188_2nd_pass_receipt.md` (new) · `workbook/KB.tsv` (264–266) · `board_log.tsv` · this file.
+
+**Boot-impact:** none — no boot stage added or changed. `backfill.py` is on-demand; both test suites are on-demand. Live control run: 2,496 cells agreed, 0 corrected, **ledger md5 unchanged**.
+
+**Lessons:**
+- **A fix scoped to the failure you were SHOWN is not scoped to the failure MODE.** Codex demonstrated a 503; I closed 503-shaped failure. The mode is "the source returned something that is not an answer," and HTTP status is one axis of it.
+- **A write gate must be a claim about the CELL IT LANDS IN, not only about the source it came from.** Scoping authority by provenance alone leaves the destination unguarded.
+- **The suite that certified the AM fix could not have failed.** Its gate was a hand transcription, so the shipped code never ran, and one assertion compared a counter's name against ledger rows. **I wrote the contracts from the fix instead of from the failure mode** — third instance of that shape on this desk in three days. The mechanical cure is now permanent: `--falsify` runs the new tests against the old code, with a negative control so the suite cannot pass by failing everything.
+- **After adding a guard, delete it again and confirm the test goes red.** A guard never observed to be load-bearing is indistinguishable from a decorative one, and both pass.
 
 ---
 
