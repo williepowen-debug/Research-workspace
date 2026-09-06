@@ -22,3 +22,22 @@ symptoms: "check was too noisy so I relaxed the threshold; added fuzzy/near/appr
 ⚠️ **AND THE VALIDATION FAILED THE SAME WAY.** The author tested four cases; a peer re-ran **those same four** and pronounced the tool believable. **Replaying an author's examples tests EXECUTION, not the GUARANTEE** — the peer inherits the author's blind spot wholesale. Only an adversarial case built from *reading the algorithm* found it. When reviewing a guard, construct the input its logic cannot handle; do not re-run its fixtures. See [[finding_adoption_is_not_validation]] and [[finding_test_the_guard_not_just_the_guarded]] (the direction-of-failure half) and [[finding_self_attack_defends_the_argument_not_the_apparatus]].
 
 📌 **Trigger to apply this:** any time you are about to relax a threshold, add fuzzy matching, widen a tolerance, or add an exception because a check is "too noisy" — **first name what the loosened version would now let through, and check whether that thing is louder or quieter than the alarm you are removing.** If it is quieter, you are trading a nuisance for a lie.
+
+---
+
+## n+1 — 2026-09-05, WALTER: **the fail-open branch was LABELLED "fail SAFE", and the label is why it survived review**
+
+`walter_doctor._ever_in_git()` ended:
+
+```python
+except (OSError, subprocess.SubprocessError):
+    return True   # fail SAFE: unknown -> assume delivered, never cry wolf
+```
+
+**That is fail-OPEN.** On a timeout it converts **unavailable evidence into presumed delivery** — the one direction that never prompts a re-check. The parent rule's asymmetry applies exactly: a delivery check that cries wolf is ignored; one that quietly certifies is believed.
+
+🔑 **THE NEW TELL, and it is cheap to grep for: the comment said "SAFE."** Nobody re-reads a branch that has already declared itself the cautious option. **"Never cry wolf" is not a goal a correctness check may trade against** — it is the stated motive of every loosening this memory exists to catch, and here it had been promoted into the identifier for the defect itself.
+
+⇒ **Two additions to the trigger list:** ① when you write or review an `except:` in a verifier, **say out loud what the return value ASSERTS** — `return True` in a function named `_ever_in_git` asserts *"git has seen this,"* which the exception proves you do not know; ② **fail-closed on a correctness check means returning UNKNOWN, not returning False.** Both fixes here made the function tri-state (`True` / `False` / `None`) and gave UNKNOWN its own visible bucket, because collapsing it into either boolean is a lie in one direction or the other. See [[finding_instrument_reports_clean_against_the_wrong_reference]] n+4, where the same review found the sibling defect.
+
+⚠️ **The repair itself shipped broken and running it is what caught that** — a variable in the patched caller collided with an existing name and the check raised `TypeError` on its first run. [[finding_test_the_guard_not_just_the_guarded]], [[finding_a_correction_pass_is_unreviewed_work]].

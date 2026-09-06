@@ -176,3 +176,19 @@ Every form above is about a *check* resolving the wrong thing. This one inverts 
 ⚠️ **Corollary for anyone publishing a machine-read artifact:** when a tool reads a fixed path with no fallback, that path is an **interface**, and desks keeping the same data elsewhere are invisible rather than non-compliant. **Either document the path where the producers will read it, or make the reader search.** The fix cost CARL twenty minutes; finding it took three months and a fourth instance.
 
 **`symptoms:`** grep-bait — "desk X keeps no <artifact>" in a tool's output or comments · a hardcoded `AGENTS/<NAME>/<file>` with no fallback · a telemetry bucket labelled "cannot be tested" that nobody empties · an audit that is clean at the desk and blank at the auditor · the same desk appearing in an exception list for months.
+
+---
+
+## n+4 — 2026-09-05, WALTER, four at once, and a NEW SUB-FORM: **the REF** (Codex read, all four verified at the code before acceptance)
+
+**The sub-form: proving a REMOTE fact against a LOCAL reference.** `reconcile_delivery_log.ever_in_git()` and `walter_doctor._ever_in_git()` both asked `git log --all -- <path>` to establish that a handoff had reached **origin**. `--all` includes **unpushed local commits**, so a handoff committed locally and never pushed answered "yes" — while the ledger's own definition is *`delivered` = committed **AND on origin***. The window is routine, not exotic: after a non-ff push abort HEAD normally carries commits origin lacks, and the tool cannot tell that state from success.
+
+**Two more in the same read, same shape, different referent:**
+- **A hash is not the content it names.** `index_generated_fresh` compared `sha256(rows regenerated from the signal files)` against the banner stored in the index. **Both sides derive from the signal files; neither reads the rows actually in the index.** A hand-edited row under an untouched banner reported *"generated INDEX fresh."* ⇒ **hash what is THERE, not what SHOULD be there** — a stored hash certifies its own provenance, never the integrity of what sits beneath it.
+- **Any ledger vs the OWNER's ledger.** A consume check computed *"was some `processed/.consumed.tsv` touched in this commit?"* once per commit. Filing a packet into ALPHA's `processed/` while appending only **BETA's** ledger counted as ALPHA's declaration. **Another desk's receipt certified this desk's consumption.**
+
+🔑 **What n+4 adds to the rule.** The parent rule says *name the referent a check resolves and test it is the one the claim is about.* These add the two referents nobody thinks to name because they feel like part of the machinery rather than a choice: **WHICH REF** (local vs remote-tracking) and **WHICH SIDE OF A DERIVATION** (if both sides of your comparison descend from the same source, the comparison cannot detect tampering in between). **A check whose two operands share an ancestor is not a check.**
+
+⚠️ **And the cross-desk tell: DAEDALUS shipped the identical shape the same night** (`eb6a80d8c` — *"failed fetch + tip-relative age both false-greened a stale ref"*). Two desks, one week, both proving a remote fact locally. ⇒ **grep-able sweep question for any fleet instrument: does it query a remote-tracking ref, and what does it return when that query FAILS?** Shapes: `git log --all` / `--branches` / bare `HEAD` inside a push-or-delivery proof.
+
+📌 **Incidence remains UNKNOWN and that is part of the finding.** The regression cases establish *vulnerable behaviour*, not how often it fired. A dry-run that is clean today is a statement about today's log, not about history — do not let a clean current run be written up as "no impact."
