@@ -262,6 +262,14 @@ def fill_path_case(mod, tag: str) -> bool:
 # commit. Pin the revision; `1e8ae5d00` is the 3-route fix, so `^` is pre-fix.
 # (Independently confirmed by Codex against `1e8ae5d00^`: cases 2/3/5 fail,
 # 1/4 pass — exactly the intended result.)
+# ⚠️ THIS BASELINE IS PERMANENT. Do NOT move it forward when backfill.py is
+# refactored. It is the HISTORICAL REGRESSION REFERENCE — the last revision that
+# still exhibits the three fail-open routes — and the whole value of --falsify is
+# the CONTRAST between it and current code. A newer baseline silently erases that
+# contrast: the suite would still print green while comparing fixed against
+# fixed, which is exactly the failure that broke the first version of this file.
+# If a future refactor stops this revision importing, ADAPT THE HARNESS (shim the
+# import, pin a vendored copy) — never re-point the baseline.
 PREFIX_REV = "1e8ae5d00^"
 
 

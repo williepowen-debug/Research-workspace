@@ -102,3 +102,34 @@ Also: **`cheap_tail.py` counts CALENDAR days and `catalyst_countdown.py` counts 
 **GAPS:** `thresholds.py` leading-edge yfinance write still open — a design question, deliberately not bundled. Four `^SKEW` readers unswept. `--falsify`'s pinned rev is now a maintenance obligation: re-anchor deliberately if `backfill.py` is restructured, never silently back to `HEAD`.
 **WILL_NEEDS:** Nothing. No proposal, no gate moved, no market call.
 **FOLLOW-UP:** 9/8 CBOE bar (RED grades; I owe the regime read) · `thresholds.py` decision · day-unit labels · 9/16 + 9/23 `VIO-FOMC-0916` grades.
+
+---
+
+# ADDENDUM 2 — 14:17 ET · Codex accepts the backfill repair; one claim of mine was wrong a THIRD time
+
+**Codex re-ran `--falsify` after `813a4112b`: 12/12, exit 0**, including the two-run case, the recovery control and the pinned-baseline contrast. **They recommend accepting the scoped backfill repair and ending the review cycle.** The backfill work is closed.
+
+## The one thing still wrong, and it is worth PROME's attention as a class
+
+**My correction of an unverified timing claim replaced it with a differently-unverified timing claim, and I cited my own KB row as the authority without re-reading what that row actually measured.**
+
+- v1: *"published 9/10"* — a T+1 assumption KB-VIO-137 retracted.
+- v2: *"`^SKEW` publishes SAME-DAY ~17:00 ET"* — cited to KB-VIO-137.
+- **Codex read KB-VIO-137's Source field. I had not.** It is CBOE's **delayed-quote endpoint** (`_SKEW.json`), pulled **2026-07-28 ~03:40 ET — the following morning.** `last_trade_time` is a property of *that* endpoint, **not** a measurement of when the grading source `SKEW_History.csv` became available, and a next-morning pull cannot bound availability at all.
+- ✅ **v3, ratified wording, now on all FOUR carriers** (Codex named two; I swept the class — STATUS, NEXUS_BRIEF, **MEMORY.md**, CALENDAR): *"Same-day availability has been observed. Publication timing is unverified; grade when the required dated CBOE bar becomes available."*
+
+🔑 **A RETRACTION FEELS LIKE THE CAREFUL MOVE, SO THE REPLACEMENT CLAIM GETS THE LEAST SCRUTINY OF ANYTHING WRITTEN THAT DAY** — it arrives wearing the authority of the correction. Both versions were unverified assertions about the same unknown; only the direction changed.
+
+🔑 **AND IT IS KB-VIO-261 TURNED INWARD.** That row says: read the owning desk's *current brief*, not the KB row you wrote about it. Same failure against myself — **I cited my own row's FACT field as authority without reading its SOURCE field.** ⇒ **Before citing your own KB row for a precise figure, read its Source, not its Fact.** A Fact field is a compressed conclusion; only the Source can be checked.
+
+⚠️ **PROPAGATION VECTOR, WORTH A FLEET NOTE: `MEMORY.md` carried the unsupported hour and is BOOT-READ EVERY SESSION.** It taught me the figure at boot and I wrote it onto a live gate row as a *"correction"* hours later. **A boot-read surface does not merely store an error — it re-teaches it on a schedule**, which is how a single over-claim survived its own author correcting the surrounding sentence twice in one day.
+
+⚖️ **Scoped, not over-corrected:** KB-VIO-137's core finding stands untouched and is still valuable — the T+1 lag is not real, three checks sharing a pre-17:00 window are n=1, and same-day *availability* is evidenced at n=1 by my own `VX_DAILY` `source_ts` of 18:30 ET. **Only the recurring hour is withdrawn.** ⚠️ That row's own Notes already warned against asserting an unobserved schedule — **its stated discipline contradicted its own headline, and the headline is the part that travels.** Third instance in two days of a written invariant sitting beside text that violates it. → **KB-VIO-269**
+
+## Codex's maintenance clarification, accepted — it corrects a framing error of mine
+
+I had written that the pinned `--falsify` baseline should be *"re-anchored deliberately"* if a refactor breaks it. **That is wrong.** The pin is the **historical regression reference**, and the harness's entire value is the **contrast** between it and current code. **Moving the baseline forward silently erases the contrast while the suite keeps printing green — the identical silent no-op that broke v1.** Corrected in the harness comment, SCRATCH and KB-VIO-268: **preserve the baseline; adapt the harness** (shim the import, vendor a copy) if it ever stops loading.
+
+**Review cycle closed on Codex's recommendation. `thresholds.py`'s leading-edge policy remains open and separate — these tests do not close it, and I am not claiming they do.**
+
+⛔ **Still FLAT. No market data changed. FT-10 remains 2 of 4, ARMED, NOT FIRED.**
