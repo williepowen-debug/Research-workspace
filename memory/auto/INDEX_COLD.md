@@ -427,3 +427,27 @@
 - finding_rejecting_an_instrument_is_an_audit_of_it — ruling a tool out for one question? audit it before setting it aside
 - finding_banded_threshold_with_no_metric_surface_is_untrippable — no metric vector = untrippable threshold; row-counting audits pass clean
 - finding_port_exposes_what_share_propagates — reinvent HIDES defects, share PROPAGATES, port EXPOSES
+
+## Demoted 2026-09-06 (PROME flow pass at WALTER's 75% flag, 19,323 B → <70%; predictable-trigger / grade- and audit-moment rows; hooks cut to ≤80 chars on the move; slug union conserved — see the commit)
+- finding_definition_change_moves_the_evidence_for_the_level — rule the DEFINITION first; it moves the level's own n= [HOMER 8/22, caught pr…
+- finding_relative_threshold_cannot_be_graded_by_a_one_sided_instrument — a comparative threshold needs BOTH sides; a clean one-sided measure cannot re…
+- finding_registered_trigger_can_fire_on_an_unnamed_mechanism — metric hit, registered CAUSE absent = NOT a fire; re-read the mechanism clause
+- finding_frozen_spec_and_the_surfaces_describing_it_drift_apart — the LETTER cannot drift; the surfaces DESCRIBING it do, and those are what yo…
+- finding_dormant_instrument_is_a_query_plus_unexercised_reading_rules — dormant instrument = query + unexercised reading-rules; "runs?" certifies half
+- finding_verify_loadbearing_before_trade
+- finding_relayed_level_predates_the_event
+- finding_coverage_gap_needs_all_surface_check
+- finding_registered_gate_captures_attention — sweep the un-gated instruments separately
+- finding_bypass_turns_a_flow_proxy_into_a_routing_metric — a bypass turns a flow proxy into a ROUTING metric; meaning moves, instrument…
+- finding_level_published_in_narrative_can_vanish_from_an_edition — a level in a chart/prose can vanish from an EDITION; the re-point recreates it
+- finding_measurement_bias_sign_is_fixed_harm_direction_is_not — a bias's SIGN is fixed; whether it's protective or dangerous belongs to the T…
+- finding_instrument_cadence_cannot_resolve_the_claims_window — samples slower than the window the claim is about; freshness checks are blind
+- finding_cohort_too_small_to_move_the_index — do the WEIGHT arithmetic before blaming a cohort
+- finding_window_start_at_an_extremum_inverts_the_move — a Δ off a local peak measures the EXTREMUM; price the window BEFORE it
+- finding_effect_below_instrument_detection_floor — below the noise floor is no evidence, not weak evidence
+- finding_backup_copy_must_carry_the_predeclared_negative — a pre-declared negative doesn't compress; it insures the wrong half
+- finding_deferral_rule_hides_its_own_cost — a HOLD rule's cost is invisible when you obey it; for a pull-complete recipie…
+- finding_retired_threshold_has_no_publisher — retirement is a side effect nothing announces; readers travel against the links
+- finding_anti_ratchet_governs_state_not_prose — counts rows, never WORDS; a REWRITE pass can ADD bytes (n=2)
+- finding_synthetic_artifact_defeats_provenance_tracing — trace-to-originator INVERTS on generated media; primary for WHAT HE SAID only
+- finding_primary_is_not_one_tier — a contract is WEAK about third-party docs it recites; one source cannot see it
