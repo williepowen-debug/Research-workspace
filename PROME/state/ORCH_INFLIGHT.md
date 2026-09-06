@@ -33,7 +33,7 @@
 | 2026-09-04 | ORACLE | window | 1 | 5 | DELIVERED 08:5x (ef34a6644) + 09:2x (eac | 5 | 0 |
 | 2026-09-02 | OSPREY | subagent | 1 | 9 | ✅ DELIVERED ~22:34 (e82b1f79b · 735cb857 |  |  |
 | 2026-09-02 | OTTO | subagent | 1 | 15 | ✅ DELIVERED ~20:5x (62f658566 · b1e1bc08 |  |  |
-| 2026-09-06 | RED | window | 1 | 3 | DELIVERED 10:5x PARTIAL (53f504c2d + mem | 8 | 5 |
+| 2026-09-06 | RED | window | 1 | 3 | DELIVERED 10:5x PARTIAL (53f504c2d + mem | 0 | 5 |
 | 2026-09-01 | REGINALD | subagent | 1 | 28 | ✅ DELIVERED ~17:15 (5c94c9622 · 5a6a078b |  |  |
 | 2026-09-03 | SAM | subagent | 2 | 3 | ✅ DELIVERED ~08:1x (f09598269 · e532e635 |  |  |
 | 2026-09-05 | TERRY | subagent | 1 | 3 | DELIVERED 19:5x (99348845c TERRY files + | 3 | 0 |
