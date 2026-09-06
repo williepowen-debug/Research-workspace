@@ -182,3 +182,43 @@ One session, ~60 min: rewrite → two fixture runs in fresh contexts (~$0.10) �
 **The ORIGINAL step contains no failure-behaviour clause for unreachable evidence. The REVISED one does** — because the `TRIGGER · ACTION · FAILURE BEHAVIOUR · REFERENCE` form *requires* a failure-behaviour clause, and writing it is what surfaced that the original never specified item C's case at all.
 
 ⇒ **The revised arm is therefore NOT purely "the same rule, shorter" — it is "the same rule, shorter, plus a gap the form forced into view."** If the arms diverge on C, that is the honest reading, and it must not be reported as the short form being better at transmitting an instruction that was never there. **Recorded here, before the results, so it cannot be discovered afterwards and framed as a win.**
+
+---
+
+## 10. RESULTS — 2026-09-06. BOTH ARMS PASSED 4/4. The test did not discriminate.
+
+**Author's tally, offered for external scoring — NOT the score.** I wrote both step texts and the fixture; per §5.2 the scorer must be someone else. Full inputs, both verbatim command logs and the fixture are committed under `design/pilot_runs/` so the scoring can be redone independently.
+
+| rubric item | CONTROL (original) | REVISED (short + G1) |
+|---|---|---|
+| opened evidence for A, B and C | ✅ 5 tool uses | ✅ 6 tool uses |
+| **A — withdraw** (was already discharged) | ✅ dropped, 3 header fields quoted | ✅ dropped, same fields quoted |
+| **B — preserve** (still open) | ✅ carried, `recipient_chain` quoted | ✅ carried, `recipient_chain` quoted |
+| **C — retain as UNVERIFIED** (evidence absent) | ✅ *"UNVERIFIABLE AS STATED — flag, do not silently carry or silently drop"* | ✅ *"UNVERIFIED… rather than asserting either"* |
+| **absolute bar (§9.1)** | 4/4 | **4/4 — PASSES** |
+
+### 10.1 What this establishes, and what it does not
+
+✅ **The revised form met the absolute bar**: it attempted verification of all three, withdrew A, preserved B, and retained C as unverified with the missing path named. **On this exercise the short form preserved the behaviour.**
+
+🔴 **BUT THE TEST DID NOT DISCRIMINATE, AND THAT IS THE HEADLINE.** Both arms scored 4/4, so **the fixture was not hard enough to separate the two forms.** A test both arms pass has low power: it shows the rewrite did no harm here, and supplies **no evidence about which parts of the narrative were doing work.** ⚠️ **Reporting this as "the short form works" would be over-reading it** — the correct claim is *"no degradation was detected on one exercise of three items."*
+
+⚠️ **My disclosed asymmetry (§9.4) did not bite.** I predicted the control arm might fail C because the original step has no failure-behaviour clause for unreachable evidence. **It handled C correctly anyway**, reasoning from the step's own *"a carried item is a STRING"* logic. ⇒ **The original's narrative carried enough to get C right without an explicit clause. That is evidence FOR the narrative, and against my framing of it as removable provenance.**
+
+📌 **A confound the revised arm surfaced itself**, unprompted: it wrote that item A *"mirrors the worked example in the protocol step almost exactly."* My interpretive example (a `status:` header added to a `SIG-W-` file) is nearly the same shape as fixture item A, **so A was easier for the revised arm than for the control.** It did not change the outcome — both passed — but **item A should be treated as non-discriminating in any re-run**, and a replacement fixture item should not resemble the example.
+
+### 10.2 Cost — C1/C2/C3 measured separately (§5.3)
+
+| | result |
+|---|---|
+| **C1 — auto-loaded text** | step 3 **1,724 → 1,307 B (−417)**; G1 preamble **+230 B, relocated not new**. **Net −187 B.** |
+| **C2 — reference reading actually required** | **NOT MEASURED, and the design is at fault.** Neither arm could open `BOOT_PROTOCOL §3` because neither was given it — they received only the step text. **A "didn't open the reference" result is meaningless when the reference was unreachable.** This needs a different harness. |
+| **C3 — does the rule now need updating in more than one place?** | 🔴 **YES, and this is the finding that argues AGAINST the change.** Before: one place (step 3). After: **three** — the step, `BOOT_PROTOCOL §3`, and the preamble holding G1. **A future correction to this rule must now travel to three surfaces**, and this desk has spent the week documenting that corrections do not reliably travel (`[[finding_correction_beside_an_instruction_leaves_two_live_instructions]]`, the four output-not-source misses). **−187 B bought a 3× increase in the correction surface.** |
+
+### 10.3 Honest verdict
+
+**Weak positive on the primary question; negative on maintenance cost; no evidence either way on reference dependence.**
+
+**I do NOT recommend proceeding to step 1 on this basis.** One non-discriminating exercise is not a mandate, C3 moved in the wrong direction, and the control arm's success on item C is a live argument that the narrative is load-bearing in ways the census did not capture. **n=1 is a floor that reads like a count.**
+
+**What would actually settle it:** a fixture hard enough that the arms diverge — items whose correct handling is NOT recoverable from general reasoning, and an item shaped unlike the interpretive example. Until then this is one clean run and a real cost, not a direction.
