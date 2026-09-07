@@ -62,3 +62,31 @@
 **④ Wave count and a flag dispute, recorded so neither drifts.** 9/5 is the **THIRD** US strike action on Iranian assets since 8/30 (Larak 8/30 · southern Iran 9/1 · tankers 9/5) — the "third wave" re-verify trigger registered in my own 9/1 block has **FIRED**. Tempo ≈ every 2–3 days ⇒ **not nightly**, so D-indicator #3's first limb stays unfired. **Flag DISPUTED:** BRENT reads M/T Kylo as **Iranian**-flagged, my sources as **Comoros**-flagged; **immaterial to the grade** (the letter keys on vessel class and outcome, not flag) but logged rather than silently resolved.
 
 **⑤ BRENT's headline-trap warning ADOPTED:** *"off Kharg" is not "Kharg"* is now a standing row on `domain/FALSE_FIRE_REGISTER.md`. It is one letter from a false FAL-01 fire and the fifth Kharg trap on that register.
+
+---
+
+## ADDENDUM 2 — BRENT's SECOND packet (9/7b) NARROWED a claim I had already written to five surfaces (2026-09-07 ~14:2x ET)
+
+`inbox/processed/2026-09-07b_from-BRENT_the-warrisk-split-is-STRUCTURAL-plus-a-reconcile-on-the-number-I-gave-you.md`, committed `72542a875`. **Verified at the artifact before acting.** The correction is accepted in full and I am recording it as a correction, not folding it in silently.
+
+### ⛔ THE CORRECTION — I over-read BRENT's own probe, and BRENT said so before I could harden it
+**What I wrote (Addendum 1 item ②, STATUS item 2c, NEXUS_BRIEF, SCRATCH, and the BRENT reply):** that the JWC re-probe was *"the best evidence in existence"* on the trip's **insurance-shock** leg and that it **points against my own fire.**
+
+**What is actually true:** **the JWC Listed Areas are GEOGRAPHIC — they list AREAS, never flags, owners or trades.** The probe therefore answers exactly one question — *did underwriters re-rate the CORRIDOR?* — and the answer is a clean **no**. **It says nothing about Iranian-linked freight and structurally cannot: an event occurring in a market the instrument does not price cannot move the instrument.**
+
+⇒ **My `SEARCH-NOT-FOUND` on the insurance-shock leg STAYS OPEN and must NOT be upgraded to a verified negative on this probe.** `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]` — **the absence is a fact about the instrument's perimeter, not about the world.** This is the same defect class I spent the morning documenting in `kharg_loadings_watch.py` (*a zero from an instrument that cannot see the class is not a zero*), **arriving in a claim I made about someone else's instrument, four hours later.** I did not catch it; BRENT did.
+
+**What survives, on stronger ground than I had it:** the leg the crude thesis actually rides is **GCC TRANSIT** — the 17–20 mb/d that prices Brent — **and that IS what the probe covers, and it did not move**, priced by underwriters with real capital at risk. So the **corridor half** of the insurance-shock leg is answered **NO**; the **Iranian half is unmeasurable** (below).
+
+### 🔴 THE FINDING BENEATH IT — my §5 ask answered, and it re-specifies my own surface
+**Iranian-linked and GCC-transit war-risk are not two prices. They are two markets, and the first is not written in the West at all.** The **IG P&I Clubs will not cover Iranian-related voyages**; Iran's **NITC + 350-plus-hull shadow fleet** sits outside Western maritime insurance entirely on *"a patchwork of smaller insurers"*, **two of them US-Treasury-sanctioned 2026-07-29** (incl. Persian Gulf Marine Insurance Co., the IRGC Hormuz extortion scheme). ⇒ **There is no Western war-risk quote for an Iranian hull to move**, so the 9/5 campaign produces **≈zero signal in every Western war-risk series either desk holds.**
+
+⚠️ **`workbook/WARRISK.tsv` was built on the premise that a missing figure means nobody published yet. For the Iranian half there is nothing to publish.** The file has been re-specified in its header: **it measures CORRIDOR/GCC transit risk and must never be read as pricing Iranian-linked risk.** Its 46-day corridor staleness is still a genuine gap — **but Marsh/Platts is an irregularly-published PRIMARY, not a series**, BRENT retired its own %-of-hull row 8/07 as unmeasurable and handed the question here, and **neither desk holds the series.** **Registrable instrument gap. Do not close the Iranian half by re-pulling harder.** `KB-FALCON-128`
+
+### ⚑ A NUMBER I RE-MARKED ON, RECONCILED — the 55% stands
+A second relayed figure (**~1.65–1.80 mb/d** crude+condensate, 350-plus-hull shadow fleet) appeared to contradict BRENT's **~220–255 kb/d** by ~7×. **They reconcile on a DATE:** the larger is *"early 2026"* = **pre-blockade**, the smaller is **August** = post-blockade, ~87% decline. **FAL-05's 60%→55% amendment stands.** 🔴 **But the honest state is worse than a number question: NEITHER DESK HOLDS AN IRANIAN-EXPORT INSTRUMENT AT ALL**, so leg B rests on a relayed figure with no primary behind it anywhere. **The row's self-reported instrument hole is now confirmed by a second desk.** `KB-FALCON-129`
+
+### 🎯 AND THE THING THAT CHANGES WHAT WILL SEES — BRENT found the real defect on ITS surface
+**BRENT's pre-stated class and its actual letter disagree.** `TRADE.md`'s carve-out reads *"a confirmed **destroyed-capacity** event"*; `STATUS.md:58` re-describes that as *"confirmed sinking **(GATE 2)**"* — **BRENT's describing surface silently handed BRENT's own capital trigger to MY gate, whose letter has no capacity predicate at all.** `[[finding_frozen_spec_and_the_surfaces_describing_it_drift_apart]]`. **BRENT escalated to Will with a recommendation of NO DEPLOY**, on the carve-out's own class head, which measures zero barrels on four axes — and **explicitly did not re-read its own class to escape my fire.**
+
+⇒ **My PROME memo's WILL_NEEDS framing is OVERTAKEN and an addendum has been sent.** The question in front of Will is no longer *"does a hull loss satisfy BRENT's limb?"* but the sharper and more answerable *"which of BRENT's two disagreeing surfaces is the letter?"* — **and both desks now recommend the same disposition.** ⚠️ **I did not soften my GATE 2 verdict in response. It fired on its letter and it still does; what changed is a defect on BRENT's side, not on mine.**
