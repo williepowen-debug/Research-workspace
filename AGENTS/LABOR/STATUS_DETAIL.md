@@ -404,3 +404,11 @@
 | — | — | 🟢 **Live inbox lanes empty by `ls` at 2026-09-03 ~12:1x ET.** |
 
 
+
+
+<a id="lab08-reprice-path"></a>
+## § `lab08-reprice-path` — rotated from STATUS.md 2026-09-07 (verbatim, no figure changed)
+
+Moved to buy read-cap headroom; the live 4% / as-made 65% stay on STATUS. Row as it stood:
+
+| LAB-08 | BLS benchmark revision >500K downward | 🔧 **4%** *(live diagnostic; **scores AS-MADE at 65%**)* · **Status: `OPEN` — due Q1-2027** | 🔴 **GRADED-BUT-NOT-RESOLVED 2026-08-28 off card §4 BAND E.** Path: **65% as-made (2026-02-18) → 35% (8/07, 21d pre-print, gate #14 unforced arithmetic) → 15% (8/27 11:12, BLS-primary verification) → 4% (8/28, … |  *[carried: −79,000 · 0.61 · 0.95 · 6.33 · 0.275 · 0.65]* |
