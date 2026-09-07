@@ -588,3 +588,58 @@ Rotated for read-cap headroom. All three were GRADED and closed; no figure chang
 
 6d. 🔒 **ALFRED "pre-registered" HAD NO RECEIPT — corrected, forward-only.** `alfred_vintages.py:39` read *"PRE-REGISTERED BEFORE ANY BIAS WAS COMPUTED"*, but the classifier and `PAYROLL_VINTAGES.tsv` ship in **one commit (`e96453b45`)**, so nothing external proves the order. **Pre-registration is a claim about ORDER and only a commit can establish it** — the same defect as *"falsified before adoption"* and *"verified in git"*, third form today. Header + ledger annotated. **Rule: commit the spec in its OWN commit before computing the result.** *(DAEDALUS; the measured figures are unaffected.)*
 
+<a id="pickup-superseded-wq193"></a>
+## § `pickup-superseded-wq193` — PICKUP items superseded by the WQ-193 closeout rewrite (verbatim)
+
+**PICKUP 6:**
+
+6. **Live build debt: BD-19 · BD-23 · BD-26.** ✅ **BD-21 + BD-30 discharged.** `card_partition_check.py` gate is a **production acceptance set** (valid partition passes · known gap fails · known overlap fails · a declared `kind=trigger-ladder` is not judged as a partition — that names a table TYPE, never "trigger logic verified"). Evidence: **23 self-tests · 4000-case membership (scope: integers, precision 1) · 4-case acceptance.** Declared discharged prematurely 3× before this. ⏳ **C6 → the charter batch.**
+
+**PICKUP 6b:**
+
+6b. 🔴 **SIX `NEXUS_BRIEF` SENDING ROWS HAVE NO DELIVERY ARTIFACT.** Correcting my own overstated `sent` receipts (CODEX): a brief commit proves the row was *written*, not *delivered*. Searched every recipient inbox + my outbox **2026-06-25→07-26** — **nothing** for the CARL · CARL/REGINALD · MARCO · REGINALD · HENRY · PROME/FORGE rows. Relabelled `first recorded in brief … ⚠️ delivery NOT established`. **Owed: establish which, and send them if they never went.**
+
+**PICKUP 6c:**
+
+6c. 🔧 **Two of my own claims corrected today, both order/scope claims with no receipt.** (a) I told Will `CLAUDE.md` was untouched — **`082342069` edited it 12:14 today** (+475 B, what took the file OVER the cap); true of my session, false of the day, in a Will-gated packet. **DAEDALUS withdrew C4 and retains the route edit, so no revert is owed — the scope error stands.** (b) **ALFRED's "PRE-REGISTERED" has no receipt** — classifier and results share commit `e96453b45`; header + ledger annotated. **Rule: commit the spec in its OWN commit before computing the result.** 🔒 Both → `STATUS_DETAIL.md` § `review-rounds-20260907`.
+
+**PICKUP 1c:**
+
+1c. 🔴 **PATTERN OF THE DAY — n=8, none self-caught, across FOUR review rounds (CODEX ×3, DAEDALUS ×2).** Every instance: a statement true of the object I checked, presented as a statement about the object the reader cares about. Today's forms: *verified in git* (wrong artifact) · *falsified before adoption* (self-authored suite) · *pre-registered* (no commit receipt) · *nothing has been edited* (my session, not the day) · **and the sharpest, dating rows at `lines 75–81` because a packet said 81–88, without checking which section that is.** ⇒ **A coordinate is not an address, and evidence that an edit happened is not evidence the right thing was edited.** 🔒 → `LESSONS.md` **L-30**; memory **n=26**.
+
+**PICKUP 1b:**
+
+1b. 🔧 **DAEDALUS parity (F1–F12): TEN discharged; TWO open, both Will-gated — ACTION 8 (charter batch, now incl. C6) + ACTION 4's third leg.** 🔒 → `STATUS_DETAIL.md` § `pickup-1b-20260907`.
+
+**PICKUP 1d:**
+
+1d. 🔴 **CHARTER BATCH STILL WILL-GATED — nothing in `CLAUDE.md` has been edited and nothing will be before Will's word.** **F2 = SEVEN contradictions** (the *"8 frameworks vs 10"* item is withdrawn — `:256` reads "8 primary + 2 supplementary" = 10 = `:292`, verified here, not relayed). **ACTION 4's third leg belongs in this batch, not in a unilateral edit**: adding EXIT RULES to C1's sweep list is a `CLAUDE.md` change, and `CLAUDE.md` is **AT the 54,250 B single-read cap** — so the batch must be a hot/cold split, not an append. Proposal owed to Will.
+
+**PICKUP 1:**
+
+1. 🔴 **READ-CAP AT THE WALL — `STATUS.md` 32,481 B = 99.8% of the 32,550 B budget, 69 B of headroom.** Rotating the LAB-08 reprice narrative to `STATUS_DETAIL.md` today bought **82 B** — which is BD-25's own point: the per-session shave is a **tax, not a fix**. **Escalated 9/4; structural answer is WQ-179, ruling 2026-09-11.** ⛔ **Next session: rotate BEFORE writing, and do not shave further pending the ruling.** Never raise the budget — not ours to move.
+
+**PICKUP 1e:**
+
+1e. ✅ **WITHDRAWN — no canon conflict.** WQ-112 specifies BOTH books ⇒ **`0.342` stays, labelled FIRST-CALL CALIBRATION.** 🔴 **Latest-mark scoring is unavailable for the pre-9/7 book: backfilled git dates are reconstructions, not contemporaneous receipts** — and that book would be better than 0.342, which is why I am slow to claim it. Forward-only. 🔒 → `STATUS_DETAIL.md` § `pickup-rotated-20260907b`.
+
+**PICKUP 3:**
+
+3. 🔒 **PRE-REGISTERED, UNTOUCHED:** v4 JOLTS-August NET bands (~Oct 6) — NET >0 ⇒ v4 → 2 · NET ≤0 a 4th month ⇒ v4 → 4 · NET ≤0 but hires rate ≥3.4% ⇒ HOLD 3. **v8 restore-to-3 = leg 1 of 2 BANKED 9/4 (+55K); leg 2 is the Oct 2 print.**
+
+**PICKUP 4:**
+
+4. 🔴 **OWED, carried unchanged — base-rate the CORRECTIVE, not just the original.** The 8/07 reprice cut 65% → 35% citing my 0-for-4 threshold record, and **35/4 = 8.75×** the honest post-print 4% (L-25). Not started.
+
+**PICKUP 5:**
+
+5. 🟡 **PARKED (a) STILL OWED — OBLIGATION-DIFF pass on the BD-25 split** (PROME 9/2 packet), fold-by was 9/5, now 2d late. **(b) route-around fix ✅ DONE 9/7**, `walter_route_check.py` clean on both LABOR rows.
+
+**PICKUP 2:**
+
+2. ✅ **CLOSED — card-partition defect folded to `LESSONS.md` L-27.** Full text → `STATUS_DETAIL.md` § `pickup-rotated-20260907`.
+
+**PICKUP 7:**
+
+7. ✅ **CLOSED — attribution bar lifted 9/4** by TYPE (Type-A CES + Type-B CPS agreed). Full text → `STATUS_DETAIL.md` § `pickup-rotated-20260907`.
+
