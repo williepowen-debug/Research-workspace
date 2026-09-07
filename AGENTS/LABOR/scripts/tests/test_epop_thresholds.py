@@ -100,6 +100,30 @@ d, f = L.assess("EMRATIO", "epop", obs([59.1, 58.9, 59.0, 59.2, 59.1, 59.2, 59.3
 check("live EPOP no fire", f, "🟢")
 check("live EPOP disp reproduces STATUS -0.1 / -0.2", ("3m -0.1" in d and "6m -0.2" in d), True)
 
+print("\n=== BD-28(a) · a SINGLE print must not fire a SUSTAINED trigger ===")
+# Basis proven from STATUS's own arithmetic, not from its wording:
+#   250,000 - 207,250 = 42,750  == "42,750 below T-01 ON MA BASIS"  -> T-01 = MA
+#   300,000 - 206,000 = 94,000  == "94K below T-02"                 -> T-02 = single
+def claims(sid, v):
+    return L.assess(sid, "claims", [("2026-09-05", float(v)), ("2026-08-29", 206000.0)])[1]
+
+# the defect: one band set applied to both series
+check("ICSA 260K -> ARM only, NOT a fire", claims("ICSA", 260_000), "🟠")
+check("ICSA 300K -> still ARM ('>300K' fires at 301K)", claims("ICSA", 300_000), "🟠")
+check("ICSA 301K -> T-02 FIRE", claims("ICSA", 301_000), "🔴")
+check("ICSA 250K -> accelerating, not arm", claims("ICSA", 250_000), "🟠")
+check("ICSA 229K -> drift", claims("ICSA", 229_000), "🟢")
+check("ICSA live 206K -> drift", claims("ICSA", 206_000), "🟢")
+
+check("IC4WSA 251K -> T-01 fires on the MA", claims("IC4WSA", 251_000), "🔴")
+check("IC4WSA 250K -> NOT T-01 ('>250K' is strict)", claims("IC4WSA", 250_000), "🟠")
+check("IC4WSA 260K -> T-01", claims("IC4WSA", 260_000), "🔴")
+check("IC4WSA live 207,250 -> drift", claims("IC4WSA", 207_250), "🟢")
+
+# the conflation itself: at 260K the two series must DISAGREE
+check("260K: single ARMs but MA FIRES - bases differ",
+      (claims("ICSA", 260_000), claims("IC4WSA", 260_000)), ("🟠", "🔴"))
+
 print("\n=== D4 · null latest value is CANNOT-VERIFY, not a pass ===")
 check("newest obs None", L.assess("ICSA", "claims",
       [("2026-09-05", None), ("2026-08-29", 206000.0)])[1], "⚠️")

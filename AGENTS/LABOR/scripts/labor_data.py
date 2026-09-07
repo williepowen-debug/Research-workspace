@@ -112,15 +112,37 @@ def assess(series_id, kind, obs):
 
     # --- threshold logic wired to STATUS KEY THRESHOLDS ---
     if series_id in ("ICSA", "IC4WSA"):
-        # FRED claims are in actual persons (e.g. 225000), not thousands
-        if val >= 300_000:
-            flag = "🔴🔴"  # all ORANGE banks escalate
-        elif val >= 250_000:
-            flag = "🔴"   # consumer conversion accelerates
-        elif val >= 230_000:
-            flag = "🟠"   # drift watch
-        else:
-            flag = "🟢"
+        # FRED claims are in actual persons (e.g. 225000), not thousands.
+        #
+        # ⚠️ BD-28(a), fixed 2026-09-07. Until today BOTH series ran through ONE band
+        # set (>=300K 🔴🔴 / >=250K 🔴 / >=230K 🟠), which CONFLATED a sustained
+        # trigger with a single print: a single 260K raised the same RED as a
+        # sustained MA breach, i.e. the tool would report T-01 fired on evidence
+        # STATUS says only ARMS it provisionally.
+        #
+        # The governing row is ambiguous in its WORDS (">250K sustained 4+wk") but
+        # determinate in its ARITHMETIC, and the arithmetic is what was encoded:
+        #   250,000 - 207,250 = 42,750  == STATUS's "42,750 below T-01 ON MA BASIS"
+        #   300,000 - 206,000 = 94,000  == STATUS's "94K below T-02"
+        # ⇒ T-01 is measured on the 4-WEEK MA; T-02 on the SINGLE print.
+        # Bands are strict per the letter: ">300K" fires at 301K, not at 300K;
+        # "251-300K single" is the ARM; "230-250K" is accelerating (vector 13 -> 3).
+        if series_id == "ICSA":                  # SINGLE weekly print
+            if val > 300_000:
+                flag = "🔴"   # T-02 FIRE -> REGINALD (ORANGE->RED) + HENRY
+            elif val >= 251_000:
+                flag = "🟠"   # ARM T-01 provisional (confirm on a 2nd consecutive >250K)
+            elif val >= 230_000:
+                flag = "🟠"   # accelerating -> vector 13 -> 3
+            else:
+                flag = "🟢"
+        else:                                    # IC4WSA — the 4-week MA, T-01's basis
+            if val > 250_000:
+                flag = "🔴"   # T-01 -> CARL + REGINALD
+            elif val >= 230_000:
+                flag = "🟠"   # accelerating
+            else:
+                flag = "🟢"
         disp = f"{val/1000:,.1f}K"
         if prev is not None:
             disp += f"  (WoW {(val-prev)/1000:+,.1f}K)"
