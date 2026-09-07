@@ -114,3 +114,16 @@
 
 *⚠️ Original watch text, for the record — **Amendment-12 watch opened 2026-08-07.** The standing question from `FORUM/2026-08-07_system-review/02_repair-burden/06_NEXUS_canon-mass-reply.md`: DAEDALUS's discriminator predicts that amendment 11 — the only FORMAT rule in the set — ends its class, while the ten RECOGNITION amendments keep generating successors. **Grade 2026-09-18: if a twelfth amendment is proposed, the prediction fails and the schema is an accreting surface that needs a cap rather than another rule.** The tier's own falsifier runs in parallel: one Will reversal of any self-ruling by 2026-10-06 narrows or kills the tier.*
 
+## §A12 — 2026-09-07 rotation from the HOT schema (verbatim; rotated to hold §§1-5 under the 32,550 B read budget after §4.1-R was added)
+
+*(crc32 139898325, 385 B)*
+
+  - **Measured cost of the gap, this file's own consumer:** SHADE's brief was folded ~11:15 on 8/4 carrying "ARCC pre-reg UNGRADED/overdue" — **five minutes after that grade landed at ~11:10** in the same session. NEXUS read the brief on 8/7 and wrote the stale claim onto its board in two places, where it sat three days as a false accusation against a desk that had done the work.
+
+*(crc32 409567714, 331 B)*
+
+  - Origin: LABOR, flagged **four consecutive sessions** (8/5→8/7); the pin went stale three times in one multi-workstream session on 8/7. Amendment 10 is an ORDERING rule, and ordering alone does not survive a second STATUS write in one session — a distinct, real residual from the 5-of-5 evidence that produced amendment 10.
+
+*(crc32 2715162176, 611 B)*
+
+  - **Origin: HOMER's truncation defect, accepted verbatim.** §1's section-priority list has ranked **CROSS-DOMAIN #1 — "protect this section first"** since R1, and the §2 layout put it **third**. So every truncation, cap-trim, partial read or context-window cut removed **the highest-value section first**, and did so silently. **The schema's own stated priority and its own layout disagreed, and the layout is what executes.** ⭐ `[[finding_a_ruling_governs_the_next_write_not_the_existing_state]]` in its structural form: a priority written in prose is not a priority until it is the order of the file.
