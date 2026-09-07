@@ -20,6 +20,12 @@ WHAT IT REPORTS, per desk (CENSUS, not verdict — the owner reads the two colum
             ⚠️ what this CANNOT see: a constant that STATUS still MENTIONS as retired (LABOR's
             4.7/5.0 case) — presence is not wiring. That leg needs a reader. Stated, not tuned away.
 Exit: 0 census printed, no flags · 1 >=1 flag · 2 CANNOT-VERIFY (no script / no STATUS).
+PRODUCTION ACCEPTANCE SET (CHECK_STANDARD §3(e)):
+  DEFECTIVE real input: AGENTS/LABOR/scripts/labor_data.py + STATUS.md at `f2558c075^` (the 31-day defect) →
+      SERIES-IN-STATUS-NOT-FETCHED EMRATIO · SERIES-NOT-IN-STATUS TEMPHELPS · CONST 1900000 — all three real.
+  CLEAN real input: NONE YET. The reverse leg over-fires on prose fleet-wide (run 2026-09-07, 28 desks), so this
+      tool is a CENSUS and must not name a desk until that leg is scoped to threshold-table rows.
+
 Usage: python3 scripts/wiring_census.py LABOR [WATT ...] | --all
 """
 import sys, re, os, subprocess, argparse

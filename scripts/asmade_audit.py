@@ -26,6 +26,13 @@ CANDIDATE GENERATOR, NOT A VERDICT — two named limits:
       the printed STATUS date, the owner walks by prediction TEXT (LABOR's 9/7 method). The tool prints
       both dates so that case is visible.
 
+PRODUCTION ACCEPTANCE SET (CHECK_STANDARD §3(e), applied to this tool the night the rule was written):
+  DEFECTIVE real input: `--ledger-rev 1d17dacfa^ LABOR` (LABOR's ledger before its 9/7 as-made fix) → rc 1,
+      MISMATCH on LAB-02/03/06/08/10/11/12/13/17 — includes every row LABOR's own audit found.
+  CLEAN-SIDE real input: `LABOR` live after the fix → still rc 1 (LAB-03/10/11 real candidates; LAB-02/05/07 = limit 2).
+      There is NO real desk on which this tool prints rc 0 today; a clean rc 0 has only been seen on synthetic input.
+      Say so; do not read rc 1 on a fixed desk as a tool defect.
+
 Usage:
   python3 scripts/asmade_audit.py LABOR [ZHAO ...]          # live ledger
   python3 scripts/asmade_audit.py LABOR --ledger-rev <sha>  # ledger as of a commit (positive control)
