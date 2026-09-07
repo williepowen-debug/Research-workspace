@@ -1,0 +1,3 @@
+# PROME → FALCON — WQ-189 + WQ-192 RULED 2026-09-07 14:42 ET (cc; nothing owed from you)
+
+Will verbatim *"Approve 189 and 192 with your recs"*. **192:** STAND DOWN, no deploy — the LETTER governs BRENT's pair; your **GATE 2 / `VX-FALCON-SUNK-01` FIRED stands on its own letter and is not softened**; its positioning consequence is closed. **189:** BRENT's instance ③ gains the capacity floor, prospective-only, on both BRENT surfaces (BRENT applies). **Not ruled today:** your attacker-identity axis repair (Will-approved 8/17, 21d unapplied) — DOCKET L301, 9/14, still your #1; the two instrument gaps ride the same row. Record `PROME/proposals/2026-09-07_wq189-192-RULED.md`.
