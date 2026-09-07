@@ -12,7 +12,7 @@
 | date | desk | tier | touch | drained | delivered | inbox_before | inbox_after |
 |---|---|---|---|---|---|---|---|
 | 2026-09-04 | BOND | window | 1 | 4 | DELIVERED 08:4x (packet 047742ed7; encod | 3 | 0 |
-| 2026-09-07 | BRENT | subagent | 1 | 1 | DELIVERED ~13:2x (a2daedfb8 on origin, r | 1 | 0 |
+| 2026-09-07 | BRENT | subagent | 1 | 1 | DELIVERED ~12:2x (a2daedfb8 on origin, r | 1 | 0 |
 | 2026-09-01 | BRENT+FALCON | subagent | 1 | 4 | ✅ DELIVERED ~17:55 (abdf4efe5 · 504a8752 |  |  |
 | 2026-09-03 | BROCK | window | 2 | 4 | ✅ DELIVERED 12:5x 9/3 (eca776b0f grade + |  |  |
 | 2026-09-02 | CARL | subagent | 1 | 9 | ✅ DELIVERED 07:20 9/3 (dc065f2b9 · 0e40b |  |  |
@@ -21,7 +21,7 @@
 | 2026-09-02 | CRUISE | subagent | 1 | 3 | ✅ DELIVERED ~22:34 (c61bed4af · 98210a24 |  |  |
 | 2026-09-02 | DAEDALUS | subagent | 1 | 9 | ✅ DELIVERED ~22:20 (b3084220e + 213ef896 | 10 | 1 |
 | 2026-09-02 | DEWEY | subagent | 1 | 21 | ✅ DELIVERED ~20:0x (4969649ee + e5833e3b |  |  |
-| 2026-09-07 | FALCON | subagent | 1 | 6 | DELIVERED ~13:1x (48f0babf4 on origin, r | 5 | 0 |
+| 2026-09-07 | FALCON | subagent | 1 | 6 | DELIVERED ~12:4x (48f0babf4 on origin, r | 5 | 0 |
 | 2026-09-05 | FERT | subagent | 1 | 3 | DELIVERED 20:0x (5 commits 1f33259ef…0f6 | 3 | 0 |
 | 2026-09-02 | HAWK | subagent | 1 | 52 | ⚠️ DELIVERED-PARTIAL ~20:4x (ee662e24f + |  |  |
 | 2026-09-02 | HENRY | subagent | 1 | 26 | ✅ DELIVERED ~20:4x (70da5719f · 3d0bb872 |  |  |
@@ -30,8 +30,8 @@
 | 2026-09-03 | LIQUID | subagent | 1 | 11 | ✅ DELIVERED 20:2x 9/3 (28a5e3be0 dir · f |  |  |
 | 2026-09-02 | MARCO | subagent | 1 | 33 | ⚠️ DELIVERED PARTIAL 07:21 9/3 (96810da3 |  |  |
 | 2026-09-05 | MIDAS | subagent | 1 | 3 | DELIVERED 20:1x (7 commits 99806c5e0…d1d | 3 | 0 |
-| 2026-09-07 | NEXUS | subagent | 2 | 1 | DELIVERED ~13:4x (1c32d974c on origin, r | 1 | 0 |
-| 2026-09-07 | ORACLE | subagent | 1 | 4 | DELIVERED ~12:4x (47e9175c4 on origin, r | 4 | 0 |
+| 2026-09-07 | NEXUS | subagent | 2 | 1 | DELIVERED ~12:3x (1c32d974c on origin, r | 1 | 0 |
+| 2026-09-07 | ORACLE | subagent | 1 | 4 | DELIVERED ~12:3x (47e9175c4 on origin, r | 4 | 0 |
 | 2026-09-02 | OSPREY | subagent | 1 | 9 | ✅ DELIVERED ~22:34 (e82b1f79b · 735cb857 |  |  |
 | 2026-09-02 | OTTO | subagent | 1 | 15 | ✅ DELIVERED ~20:5x (62f658566 · b1e1bc08 |  |  |
 | 2026-09-06 | RED | window | 1 | 3 | DELIVERED 10:5x PARTIAL (53f504c2d + mem | 0 | 5 |
