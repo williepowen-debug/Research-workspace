@@ -147,30 +147,44 @@ Pre-registered at freeze:
 
 `STATUS.md`: **`>250K sustained 4+wk = T-01`**, measured on the 4-week MA (the same row prices distance as *"42,750 below T-01 on MA basis"* = `250,000 − 207,250`). §2 only ever referenced T-01 through band D's **provisional ARM** on a single print. But the MA itself can cross on **this** print:
 
-`(617,000 + X)/4 > 250,000` ⟺ `617,000 + X > 1,000,000` ⟺ **`X > 383,000`**
+**The FORMULA is the pre-commitment; the number below it is only its value on the frozen vintage.**
 
-`X = 383,000 → MA 250,000` (**not** `>250,000`, so it does **not** fire) · `X = 384,000 → MA 250,250` (**fires**).
+`(W2 + W3 + W4 + X)/4 > 250,000` ⟺ **`X > 1,000,000 − (W2+W3+W4)`**
+
+On §1's frozen window (`W2+W3+W4 = 617,000`): **`X > 383,000`** — `383,000 → MA 250,000` (**not** `>250,000`, does **not** fire) · `384,000 → MA 250,250` (**fires**).
+
+🔴 **REGENERATE THIS BOUND AT THE PRINT, exactly as §3 is regenerated — the same L-02 rule, and A1.2 got it wrong first time.** The bound is a function of the *retained three weeks*, which revise. **If the retained sum revises 617,000 → 618,000, the bound moves to `X > 382,000`, and a 383,000 print then fires T-01 and requires CARL** — the frozen `384,000` would have missed it. ⚠️ **`383,000`/`384,000` are VOID the moment the window revises.** *(CODEX, 2026-09-07: I wrote a revision-regeneration rule for §3 in the same session I hard-coded a revisable bound in A1.2.)*
 
 <!-- partition-axis: column="Initial claims, single print (T-01 MA axis)" -->
 
 | T01 | Initial claims, single print (T-01 MA axis) | Pre-committed assignment |
 |---|---|---|
-| **T01-a** | ≤ 383,000 | 4-wk MA ≤ 250,000 ⇒ **T-01 does NOT fire on the MA basis** |
-| **T01-b** | ≥ 384,000 | 🔴 **T-01 FIRES on the MA basis** → **CARL + REGINALD** — *in addition to* band E's T-02 |
+| **T01-a** | ≤ 383,000 | 4-wk MA ≤ 250,000 ⇒ **T-01 does NOT fire on the MA basis.** Bound recomputed at the print |
+| **T01-b** | ≥ 384,000 | 🔴 **T-01 FIRES on the MA basis** → **CARL + REGINALD** — *in addition to* band E's T-02. Bound recomputed at the print |
 
 🔴 **ROUTING CORRECTION TO §7 BAND E:** §7 routed band E to **REGINALD + HENRY** (T-02's recipients) and **omitted CARL**, who is a required T-01 recipient. **Any print ≥ 384,000 fires BOTH triggers, and the union of recipients is `CARL + REGINALD + HENRY`.** For `301,000 ≤ X ≤ 383,000`, band E's original routing (REGINALD + HENRY) is correct as written.
+
+## A1.2a — §4's revision step now governs TWO derived quantities, not one
+
+⛔ **§4 is frozen text and is NOT edited** — this clause EXTENDS it, which is the only legitimate way to change a frozen card. *(I briefly edited §4 in place while writing this amendment and my own frozen-prefix check caught it; the byte-for-byte original is restored. The card's entire value is that §1–§9 cannot move, so an "improvement" to frozen text is exactly the defect it exists to prevent.)*
+
+§4 orders: *"If the as-published window differs from §1, §3's table is void and is regenerated on the spot."* **Read that as covering BOTH window-derived quantities:**
+1. §3's `ΔMA(X) = (X − R)/4` table, and
+2. **A1.2's T-01 crossing bound `X > 1,000,000 − (W2+W3+W4)`.**
+
+**The BANDS in §2 and A1.1 remain unaffected either way** — they key on fixed levels, not on the window.
 
 ## A1.2b — 🔧 CHECKER SCOPE AFTER THIS AMENDMENT: 1 of 4 tables machine-verified, 3 hand-proved
 
 `card_partition_check.py` reads **one file-global** `partition-axis` declaration (BD-31), so adding two axes took the card from **1-of-2** to **1-of-4** machine-verified tables. **Result: `4 band table(s) — 1 verified, 3 unverified, 0 with defects`.** ⛔ **`0 with defects` is the number that must hold, and it holds. `UNVERIFIED` is the tool refusing to certify what it could not read — it is not a pass, and I am not reporting it as one.**
 
-**Hand proof for all three unverified tables.** Each is a **two-band complementary dichotomy** — the second band is the exact negation of the first — so each covers its axis with no gap and no overlap **at any precision**, which is why hand-proof is sufficient here rather than merely convenient:
+**Hand proof for all three unverified tables.** Each is a **two-band dichotomy**, but ⚠️ **they are not all exhaustive on the same terms and my first statement of this was wrong** — I wrote *"no gap and no overlap **at any precision**"* for all three. **That is false for two of them:** `199,500` falls between `≤199,000` and `≥200,000`, and `383,500` between `≤383,000` and `≥384,000`. Those two are exhaustive **on the whole-thousand grid DOL publishes**, which is the grid the print actually arrives on — a real and sufficient proof, but a narrower one than I claimed. *(CODEX, 2026-09-07.)*
 
 | Table | Bands | Complement holds because |
 |---|---|---|
-| §5 continuing claims | `< 1,750,000` / `≥ 1,750,000` | `<c` and `≥c` are exact complements over the reals |
-| A1.1 vector-13 axis | `≤ 199,000` / `≥ 200,000` | claims print in whole thousands; `≤199,000` and `≥200,000` are adjacent and exhaustive at that granularity |
-| A1.2 T-01 MA axis | `≤ 383,000` / `≥ 384,000` | same — and `383,000` is included deliberately, since `MA = 250,000` is **not** `> 250,000` |
+| §5 continuing claims | `< 1,750,000` / `≥ 1,750,000` | **true complement — exhaustive at any precision.** `<c` and `≥c` partition the reals |
+| A1.1 vector-13 axis | `≤ 199,000` / `≥ 200,000` | **exhaustive on the whole-thousand grid only** — adjacent at 1,000 granularity. `199,500` is uncovered and cannot be printed by DOL |
+| A1.2 T-01 MA axis | `≤ 383,000` / `≥ 384,000` | **whole-thousand grid only**, same caveat. `383,000` is included deliberately: `MA = 250,000` is **not** `> 250,000`. ⚠️ Bounds move on revision — see A1.2 |
 
 🔴 **BD-31 escalated 🟠 → 🔴 on this measurement.** It was opened as a 1-of-2 nuisance; it is now 3-of-4 unchecked on a card that gets graded in three days. **Not fixed in this pass** — Will scoped this session to the card and CODEX's review explicitly said no further partition-checker work was needed for these findings — **but the cost is now measured rather than asserted, which is what should drive the fix.**
 

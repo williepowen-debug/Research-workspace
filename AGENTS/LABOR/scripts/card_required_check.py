@@ -22,8 +22,14 @@ CLASSIFICATION IS EXPLICIT AND FAILS LOUD.
   default is what makes an absence invisible in the first place.
 
 EXIT CODES (repo convention): 0 = nothing owed and missing · 1 = a required card is
-MISSING inside its freeze window · 2 = CANNOT-VERIFY (parse/IO failure). A parse
-failure is never a PASS.
+MISSING inside its freeze window, OR a past print was never carded and is unacknowledged,
+OR a row cannot be classified · 2 = CANNOT-VERIFY (parse/IO failure). A parse failure is
+never a PASS.
+
+SCOPE LIMITS, stated rather than tuned away:
+  * A row PRUNED from CATALYSTS.tsv leaves this check's view, acknowledged or not. The
+    check reports on the calendar it is given; it has no memory of its own.
+  * An event never docketed at all is invisible here (BD-23). This does not close it.
 """
 
 import csv
@@ -42,10 +48,13 @@ GRADED = os.path.join(DOCKET, "graded")
 FREEZE_LEAD_DAYS = 7
 # How far ahead to look. Beyond this a missing card is not yet owed.
 HORIZON_DAYS = 21
-# How far BACK to keep reporting a card that was never written. A miss that stops being
-# reported the day after the print is a miss that never gets recorded: you cannot freeze a
-# card retroactively, so the only honest disposition is an explicit acknowledgement.
-LOOKBACK_DAYS = 30
+# A miss that stops being reported is a miss that never gets recorded. There is therefore
+# NO rolling lookback: an unacknowledged miss is reported for as long as its row is on the
+# calendar. A 30-day window was tried first and was wrong — it alerted on day 30 and went
+# clean on day 31, which does not support "disposed only by acknowledgement" (CODEX,
+# 2026-09-07). The floor is the date this check shipped, so it does not retroactively
+# flag prints from before it existed.
+MISS_EPOCH = dt.date(2026, 9, 7)
 
 # Declared card-owing patterns. event-regex -> (card stem suffix, why it is multi-loaded).
 # Adding a row here is the ONLY way a new event class starts being required.
@@ -88,9 +97,19 @@ def classify(event, notes):
     CODEX 2026-09-07, reproduced before fixing.) Notes may only change the classification
     through an EXPLICIT token — `CARD:` or `NOCARD:` — never through prose.
     """
-    if re.search(r"\bNOCARD\b", notes or ""):
-        return "NO-CARD", None, "explicit NOCARD token in notes"
-    m = re.search(r"CARD:([A-Za-z0-9_.-]+)", notes or "")
+    nt = notes or ""
+    # Both tokens require the COLON, exactly as documented. A BARE word must never
+    # reclassify anything: "Do not use NOCARD for this release. CARD:claims" returned an
+    # all-clear because the bare word matched first (CODEX, 2026-09-07) — the same
+    # prose-disables-the-scanner failure this parser was rewritten to prevent, reintroduced
+    # by the fix for it. `\bCARD:` is word-bounded so it cannot match inside "NOCARD:".
+    has_no = re.search(r"\bNOCARD:", nt)
+    m = re.search(r"\bCARD:([A-Za-z0-9_.-]+)", nt)
+    if has_no and m:
+        # Never silently pick a winner between two explicit, contradictory declarations.
+        return "UNCLASSIFIED", None, "row carries BOTH CARD: and NOCARD: — contradictory, resolve it"
+    if has_no:
+        return "NO-CARD", None, "explicit NOCARD: token in notes"
     if m:
         return "REQUIRED", m.group(1), "explicit CARD: token in notes"
     ev = event or ""
@@ -159,7 +178,7 @@ def main(argv):
             unclassified.append((raw, (r.get("event") or "")[:60], "unparseable date"))
             continue
         days = (d - today).days
-        if days > HORIZON_DAYS or days < -LOOKBACK_DAYS:
+        if days > HORIZON_DAYS or (days < 0 and d < MISS_EPOCH):
             continue
         kind, stem, why = classify(r.get("event", ""), r.get("notes", "") + " " + r.get("what_to_check", ""))
         if kind == "NO-CARD":
@@ -193,6 +212,7 @@ def main(argv):
             print(f"       event: {ev}")
             print(f"       ⛔ A card cannot be frozen retroactively — do NOT write one now.")
             print(f"       Disposition: record the miss, then add MISSED-ACK:{today} to the row's notes.")
+            print(f"       (Reported until acknowledged — there is no rolling window that retires it.)")
     if late:
         rc = 1
         print("\n  🔴 MISSING AND OWED NOW — inside the C2a freeze window")
@@ -231,7 +251,7 @@ def self_test():
     hdr = "date\tevent\twhat_to_check\tthreshold_signal\tpriority\twho_cares\tnotes\tdate_class\n"
     today = dt.date(2026, 9, 7)
 
-    def run(rows, files, want, label):
+    def run(rows, files, want, label, when=None):
         nonlocal fails
         global CATALYSTS, DOCKET, GRADED
         with tempfile.TemporaryDirectory() as td:
@@ -245,7 +265,7 @@ def self_test():
             import io, contextlib
             buf = io.StringIO()
             with contextlib.redirect_stdout(buf):
-                rc = main([f"--today={today}"])
+                rc = main([f"--today={when or today}"])
             ok = rc == want
             if not ok:
                 fails += 1
@@ -266,14 +286,25 @@ def self_test():
     run([], [], 0, "empty calendar must PASS")
 
     # --- the two omissions CODEX reproduced 2026-09-07; both returned rc=0 before the fix ---
-    past = "2026-09-04\tInitial claims w/e Aug 29\tx\ty\tHIGH\tLABOR\tn\tconfirmed\n"
-    past_ack = past.replace("\tn\t", "\tMISSED-ACK:2026-09-07\t")
+    # dated AFTER MISS_EPOCH so the epoch floor does not (correctly) filter it out
+    past = "2026-09-10\tInitial claims w/e Sep 5\tx\ty\tHIGH\tLABOR\tn\tconfirmed\n"
+    past_ack = past.replace("\tn\t", "\tMISSED-ACK:2026-09-11\t")
+    pre_epoch = "2026-08-13\tInitial claims w/e Aug 8\tx\ty\tHIGH\tLABOR\tn\tconfirmed\n"
+    bare_nocard = ("2026-09-10\tInitial claims w/e Sep 5\tx\ty\tHIGH\tLABOR"
+                   "\tDo not use NOCARD for this release. CARD:claims\tconfirmed\n")
+    both_tokens = ("2026-09-10\tInitial claims w/e Sep 5\tx\ty\tHIGH\tLABOR"
+                   "\tNOCARD: skip. CARD:claims\tconfirmed\n")
     noisy = ("2026-09-10\tNFP September + U-3\tx\ty\tHIGH\tLABOR"
              "\tRun READ_CAP before freezing this card\tconfirmed\n")
     freeze_row = ("2026-09-10\tOct-2 NFP grading card FREEZE (C2a ~1 week ahead)\tx\ty"
                   "\tHIGH\tLABOR\tn\tconfirmed\n")
-    run([past], [], 1, "PAST print with no card must stay reported (not skipped)")
-    run([past_ack], [], 0, "explicit MISSED-ACK must dispose of it")
+    run([past], [], 1, "PAST print with no card must stay reported (not skipped)", "2026-09-11")
+    run([past_ack], [], 0, "explicit MISSED-ACK must dispose of it", "2026-09-11")
+    run([past], [], 1, "unacknowledged miss must STILL report 31d later (no rolling window)", "2026-10-11")
+    run([past], [], 1, "...and 6 months later", "2027-03-11")
+    run([pre_epoch], [], 0, "print BEFORE the check shipped must not be flagged retroactively", "2026-09-11")
+    run([bare_nocard], [], 1, "BARE word NOCARD in prose must NOT exempt; CARD:claims governs", "2026-09-11")
+    run([both_tokens], [], 1, "contradictory CARD: + NOCARD: must FAIL loud, not pick a winner", "2026-09-11")
     run([noisy], [], 1, "admin phrase in NOTES must not exempt a required print")
     run([freeze_row], [], 0, "structural exemption in EVENT must beat its own pattern text")
     print("  " + "-" * 68)
