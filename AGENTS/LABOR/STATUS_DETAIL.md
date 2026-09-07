@@ -643,3 +643,28 @@ Rotated for read-cap headroom. All three were GRADED and closed; no figure chang
 
 7. ✅ **CLOSED — attribution bar lifted 9/4** by TYPE (Type-A CES + Type-B CPS agreed). Full text → `STATUS_DETAIL.md` § `pickup-rotated-20260907`.
 
+---
+
+## § `pickup-rotated-20260907c` — PICKUP items closed at the 2026-09-07 card session (verbatim, no figure changed)
+
+1. ✅ **WQ-193 DELIVERED 2026-09-07 — charter split executed, sha `27a5fb87a`.** `CLAUDE.md` **55,019 → 50,485 B** (from 769 B OVER the 54,250 B cap to **3,765 B under**); new on-demand `CHARTER_DETAIL.md`, confirmed outside the boot perimeter. Both censuses clean (text + obligation; 76 clauses all located); the one fix pass caught a stray `**` my own edit introduced. **Due 9/9, met with 2 days spare.** 🔒 Memo → `PROME/inbox/2026-09-07e_from-LABOR_WQ-193-DELIVERED…`.
+
+1b-bis. ✅ **ACTION 4 IS COMPLETE — all three legs.** The STATUS-side legs were done 9/7 (kill-rail date stamp; Kill A run refreshed to **63/31/21/162**), and the third leg — *EXIT RULES named in C1's spine-token sweep list* — **landed in the WQ-193 charter split and is live at `CLAUDE.md:77`** (verified by reading the line, 2026-09-07). 🔧 **This item previously read "half done… WILL-GATED in the charter batch… Do not read ACTION 4 as closed" — that was written before the split and was never updated when the split shipped the edit.** The EXIT RULES banner in § EXIT RULES is therefore no longer the only mechanism carrying the obligation; the charter rule is. *(`[[finding_record_of_an_action_is_not_the_action]]` inverted — here the action happened and the record still said it had not.)*
+
+9. 🔒 **C2-0 SWEEP RE-RUN AT THIS CLOSEOUT, re-derived from `workbook/PREDICTIONS.tsv` — ZERO rows trip it.** Six OPEN: LAB-03 7% · LAB-08 4% · LAB-11 50% · LAB-12 8% · LAB-18 15% · **LAB-19 60%**. ⚠️ **LAB-19 clears the ≥60% bar but FAILS the staleness leg — registered 2026-09-04, three days ago** — so gates #3/#5/#12/#13 have nothing stale to sweep. *(Saying zero, and saying why, per C2-0's own instruction not to read a hardcoded list.)*
+
+---
+
+## § `bottom-line-rotated-20260907c` — BOTTOM LINE narrative from the 2026-09-04 NFP grade, rotated 2026-09-07 (verbatim, no figure changed)
+
+**🟠 AUGUST NFP WAS GRADED OFF TEXT FROZEN ~36 HOURS AHEAD, AND THE CARD'S HEADLINE CALL MISSED. Nothing fired. Score unchanged at 29/75. The value of the session is that the miss is legible: T-03 was pre-committed to fire on a flat 58.9 EPOP, EPOP rose to 59.1, and I am recording that as a loss rather than re-reading the band.**
+
+**The count layer is healing and I have to say so.** August **+162,000**; June **+20K → +31K** and July **−23K → +21K**, net **+55,000** upward. **The negative July print did not survive revision** — which retires "second consecutive negative print" as a live branch. Revised run **214/148/63/31/21/162**, 3-mo avg **71.3K**. LEG A's bar was recomputed on the revised vintage *before* August was read (L-02, as the card ordered): **+303K → +248K**, and **+162K missed by 86K**. Single-month leg met, 3-mo-avg leg failed — a conjunction, unrelaxed.
+
+**The household survey is the real story, and it cuts against this book.** U-3 held **flat at 4.1% while the labor force GREW +683K** (LFPR 61.4 → 61.6, EPOP 58.9 → 59.1, employed +569K, part-time-for-economic-reasons −414K). That is the **mirror image** of the June/July immigration-signature pattern the CORE TENSION is built on — the supply-shrink confound that made those two months uninterpretable is **absent from this print**. Every freeze-thaw leg moved toward firing: LEG B is now 0.1pp away, down from 0.3pp.
+
+**Two witnesses, not nine legs** (INDEPENDENCE_MAP §2). Payrolls + private (+127K derived) + revisions + sector lines + AHE are **ONE Type-A (CES) witness**; U-3 + LFPR + EPOP + LT-share + PTER are **ONE Type-B (CPS) witness**. Type C (UI) and Type D (ISM) did not print today. **Both moved the same direction — toward strength — and it is the first time in this book they have agreed on the strong side.** ⛔ **The attribution bar is now LIFTED**; the attribution that travels is named by TYPE, not desk count.
+
+**Two things held the line honestly.** Long-term unemployed share jumped 25.5% → **27.0%**, landing *exactly on* the >27% restore bar without crossing it — v6 holds at 3, and the conjunction's absent second leg (YoY turning positive) meant the knife-edge never had to be adjudicated. And **card §3b does not partition**: the realized U-3×LFPR cell (≤4.1 with LFPR **up**) was never enumerated, so I took **zero score movement** and logged the defect rather than writing a band on print day (L-17/L-18).
+
+2. ✅ **CLOSED 2026-09-07 — the six undelivered `NEXUS_BRIEF` SENDING rows are DISPOSITIONED, and the answer is SEND NOTHING, on the merits.** Each was assessed against today's state (Will-directed) and **not one should be sent as written**: CARL's L&H −61K is a superseded June figure · **CARL/REGINALD's U-3 point was already delivered by a better packet** (the 8/07 EPOP re-spec is in both recipients' `inbox/processed/`, verified) · MARCO's supply signature is **contested by my own current book** (LF +683K; LAB-19) · HENRY's row **cites a threshold retired 8/07** · REGINALD's and PROME/FORGE's conclusions survive but their figures are three vintages stale. 🔑 **A delivery backlog decays — five of six are wrong to send TODAY for reasons unrelated to whether they went out THEN.** Full table + reasoning → `NEXUS_BRIEF.md` § CROSS-DOMAIN.

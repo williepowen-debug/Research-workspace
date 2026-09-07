@@ -11,6 +11,7 @@ Sequence:
   2. spine_check.py       — B2a gate: STATUS `obs` dates vs newest FRED obs (BD-02)
   3. catalyst_countdown.py — docket/CATALYSTS.tsv countdown (imminent ≤5 trd) + PAST-DUE rows
   4. predictions_due.py   — flag OPEN predictions past/near due-by
+  5. card_required_check.py — B5b's INVERSE: cards CATALYSTS.tsv says should exist but do not
 
 Smart behavior:
   - Each script's exit code captured; failures reported but don't stop the run
@@ -44,6 +45,10 @@ BOOT_SEQUENCE = [
     ("Spine Freshness Gate (B2a)", "spine_check.py", []),
     ("Catalyst Countdown", "catalyst_countdown.py", []),
     ("Predictions Due",    "predictions_due.py",    []),
+    # B5b enumerates the cards that EXIST and asks if each is graded; it cannot see a
+    # card that was never written, so an empty docket reads clean while prep is late
+    # (the 2026-09-10 claims card, found 3 days out). This runs the other direction.
+    ("Required-Card Check", "card_required_check.py", []),
 ]
 
 # lines worth surfacing in collapsed mode
