@@ -60,7 +60,13 @@ print("\n=== D2 · EPOP exact-boundary sweep — THE REGRESSION THAT SHIPPED ===
 # current level, a referent exactly 0.3 higher MUST fire T-03, and exactly 0.2
 # higher must NOT. Under float subtraction ~half of these fail.
 t03_missed, t02_falsefired = [], []
-for i in range(85, 105):                      # EPOP 58.5 .. 60.4
+# ⚠️ 2026-09-07: this loop read `range(85, 105)` with `now = i / 10`, i.e. it swept
+# 8.5-10.4 while its own comment claimed 58.5-60.4. It passed, and the failure demo
+# I published off it printed "missed at EPOP = [8.8, 8.9, 9.3, ...]" -- levels
+# impossible for an employment-population ratio -- which I quoted without noticing.
+# The measurement was real; the DOMAIN was wrong.
+# finding_instrument_reports_clean_against_the_wrong_reference. Caught by CODEX.
+for i in range(585, 605):                     # EPOP 58.5 .. 60.4 (tenths, integer)
     now = i / 10
     d, f = epop(now, round(now + 0.3, 1), round(now + 0.3, 1))
     if f != "🟠":

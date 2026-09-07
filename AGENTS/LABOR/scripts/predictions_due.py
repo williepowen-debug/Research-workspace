@@ -74,20 +74,38 @@ def parse_timeframe(tf):
     # (WQ-175 clause 2). Found by CODEX on LAB-18/LAB-19, 2026-09-07.
     pr = re.search(r"print(?:s|ed)?\b([^)]*)", low)
     if pr and year:
-        # Publication FOLLOWS observation, so a print month EARLIER than the start
-        # of the observation window belongs to the NEXT year. Roll each candidate
-        # BEFORE taking the max — rolling the max instead picks the wrong winner
-        # ("Nov-Dec 2026 obs (prints Dec 4 / Jan 8)" -> Dec 4, when Jan 8 2027 is
-        # the real deadline, because Jan 8 2026 sorts below Dec 4 2026).
-        first_obs = re.search(r"([a-z]{3,9})\s*[-–]", low)
-        obs_start = MONTHS.get(first_obs.group(1)[:3]) if first_obs else None
+        # Year resolution, in strict priority order:
+        #   1. An EXPLICIT year on the release itself ("prints Jan 8 2027") always wins.
+        #      Inferring over a stated year is how "Dec 2026 obs (prints Jan 8 2027)"
+        #      regressed to 2026-01-08 on 2026-09-07 — a date the row plainly gave me.
+        #   2. Otherwise infer: publication FOLLOWS observation, so a release month
+        #      EARLIER than the start of the observation window belongs to year+1.
+        # Roll each candidate BEFORE taking the max — rolling the max picks the wrong
+        # winner ("Nov-Dec 2026 obs (prints Dec 4 / Jan 8)" -> Dec 4, when Jan 8 2027
+        # is the real deadline, because Jan 8 2026 sorts below Dec 4 2026).
+        #
+        # obs_start = the FIRST month named BEFORE the publication clause. Keyed on a
+        # dash-range at first, which silently disabled the rollover for every
+        # single-month window ("Dec 2026 obs (prints Jan 8)"); a scan of the prefix
+        # covers ranges and single months alike.
+        prefix = low[:pr.start()]
+        obs_start = next((MONTHS[m.group(1)[:3]]
+                          for m in re.finditer(r"\b([a-z]{3,9})\b", prefix)
+                          if m.group(1)[:3] in MONTHS), None)
         cands = []
-        for pm in re.finditer(r"([a-z]{3,9})\.?\s+(\d{1,2})\b", pr.group(1)):
+        for pm in re.finditer(r"([a-z]{3,9})\.?\s+(\d{1,2})(?:[,]?\s+(20\d{2}))?\b",
+                              pr.group(1)):
             key = pm.group(1)[:3]
-            if key in MONTHS:
-                mon = MONTHS[key]
-                yr = year + 1 if (obs_start and mon < obs_start) else year
-                cands.append(date(yr, mon, int(pm.group(2))))
+            if key not in MONTHS:
+                continue
+            mon = MONTHS[key]
+            if pm.group(3):                       # explicit release year — honour it
+                yr = int(pm.group(3))
+            elif obs_start and mon < obs_start:   # inferred rollover
+                yr = year + 1
+            else:
+                yr = year
+            cands.append(date(yr, mon, int(pm.group(2))))
         if cands:
             return max(cands), "last registered release"
 

@@ -30,6 +30,17 @@ CASES = [
      "year rollover - a print month before the obs window is NEXT year"),
     ("Sep 2026 obs resolve-by 2026-12-04", date(2026, 12, 4),
      "explicit resolve-by overrides every label heuristic"),
+    # --- year handling: an EXPLICIT release year must never be inferred over ----
+    # Regression introduced 2026-09-07 by the publication-clause parser itself and
+    # caught by CODEX: it read month/day and discarded a year the row stated.
+    ("Dec 2026 obs (prints Jan 8 2027)", date(2027, 1, 8),
+     "explicit release year wins over inference"),
+    ("Q4 2026 (prints Jan 8 2027)", date(2027, 1, 8),
+     "explicit release year, quarter label"),
+    ("Dec 2026 obs (prints Jan 8)", date(2027, 1, 8),
+     "single-month window still rolls over - obs_start must not need a dash"),
+    ("Sep-Nov 2026 obs (prints Oct 2 / Nov 6 / Dec 4 2026)", date(2026, 12, 4),
+     "mixed: explicit year on the last release, inferred on the rest"),
     # --- rows that must NOT move -------------------------------------------
     ("Q2-Q3 2026", date(2026, 9, 30), "LAB-03 unchanged"),
     ("Q3-Q4 2026", date(2026, 12, 31), "LAB-11 / LAB-12 unchanged"),
