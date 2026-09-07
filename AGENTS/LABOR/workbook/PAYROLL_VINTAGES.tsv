@@ -1,5 +1,6 @@
 # ALFRED payroll vintage table — PAYEMS headline (MoM, thousands), reference months 2023-01..2026-08
 # Last real data refresh: 2026-09-07
+# 2026-09-07 (DAEDALUS): the classifier's "pre-registered" claim has NO RECEIPT - spec and these results share commit e96453b45. Order asserted, not evidenced.
 # Built by scripts/alfred_vintages.py (WQ-175 clause 2 / DOCKET L274). Headline = level(M) - level(M-1) computed WITHIN one vintage. Regime from FIRST PRINTS ONLY, pre-registered before any bias was computed. PENDING benchmark rows are excluded from benchmark aggregates, never folded in as 0. MOVES NO THRESHOLD.
 ref_month	regime	stage_flag	first_vintage	first_print	third_vintage	third_available	bench_vintage	benchmarked	bench_status	current_vintage	current	rev_first_to_third	rev_first_to_bench	rev_first_to_current	n_vintages
 2023-01	INSUFFICIENT	OK	20230203	+517	20230407	+472	20240202	+482	BENCHMARKED	20260904	+434	-45	-35	-83	43

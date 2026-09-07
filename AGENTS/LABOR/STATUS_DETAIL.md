@@ -565,3 +565,26 @@ Rotated for read-cap headroom. All three were GRADED and closed; no figure chang
 
 6b. 🔴 **NEW, AND IT IS A REAL GAP NOT A STAMP: six `NEXUS_BRIEF` SENDING rows have NO delivery artifact.** Correcting my own overstated `sent` receipts (CODEX) — a brief-publication commit proves the row was *written*, not *delivered* — I searched every recipient inbox and my outbox across **2026-06-25→07-26** and found **nothing** for the CARL · CARL/REGINALD · MARCO · REGINALD · HENRY · PROME/FORGE rows. **Either they went via a live session that leaves no file, or the SENDING table has been asserting sends that never happened.** Rows relabelled `first recorded in brief … ⚠️ delivery NOT established`. **Owed: resolve which, and if undelivered, actually send them.**
 
+**PICKUP 6 — pre-2026-09-07-17:0x rotation:**
+
+6. **Live build debt: BD-19 · BD-23 · BD-26.** **BD-21 + BD-30 discharged on `card_partition_check.py` v3.1** — declared discharged prematurely THREE times (CODEX broke v1/v2/v3). 🔴 **DAEDALUS then found it RED on every real card with TWO findings FALSE** — root cause broader than their examples: **coverage run over a PARTIAL band set manufactures gaps by construction.** Fixed (`COVERAGE-NOT-RUN`; `= 50.0 exactly` and `+150K to +302K` now parse; a 1-numeric-cell column is no longer an axis). ✅ **First real card now PASSES — ISM 9/3, a genuine partition checked by eye.** Of 9 cards: **1 clean · 4 DEFECT · 4 UNVERIFIED.** 23 self-tests + 4000-case membership (**scope stated: integer boundaries, precision 1 only**).
+
+**PICKUP 1c — pre-2026-09-07-17:0x rotation:**
+
+1c. 🔴 **PATTERN OF THE DAY — n=7 wrong-reference, none self-caught, three review rounds.** Sharpest: told to date six SENDING rows at *lines 81–88*, I dated **75–81 of the reordered file — under `## VIEW`** — then defended it with blob hashes and a diff, all correct and all about the wrong section. ⇒ **A line number is a COORDINATE INTO A VERSION, not an address; and the more evidence you can produce for an edit, the less it tells you WHAT you edited.** 🔒 → `LESSONS.md` **L-30**; memory **n=26**.
+
+<a id="review-rounds-20260907"></a>
+## § `review-rounds-20260907` — PICKUP narrative from the 2026-09-07 review rounds (verbatim)
+
+**PICKUP 6:**
+
+6. **Live build debt: BD-19 · BD-23 · BD-26.** **BD-21 + BD-30 discharged on `card_partition_check.py`** — declared discharged prematurely 3× (CODEX broke v1/v2/v3; DAEDALUS then found it RED on every real card with 2 findings FALSE). 🔑 **Root cause: coverage over a PARTIAL band set manufactures gaps by construction.** ✅ **Gate is now a PRODUCTION ACCEPTANCE SET, not "one card passed"** (DAEDALUS): valid partition passes · known gap fails · known overlap fails · a declared `kind=trigger-ladder` is not judged as a partition at all — **that declaration names a table TYPE and asserts nothing about the trigger logic.** Evidence: **23 self-tests + 4000-case membership (scope: integers, precision 1) + 4-case acceptance**; ISM 9/3 LINT-CLEAN. 🔒 Detail → `STATUS_DETAIL.md` § `pickup-rotated-20260907b`.
+
+**PICKUP 6c:**
+
+6c. 🔧 **CHARTER CLAIM — I told Will `CLAUDE.md` was untouched; `082342069` edited it at 12:14 TODAY** (earlier LABOR session, WALTER route fix, +475 B — what pushed the file from AT-cap to **OVER** the 54,250 B cap). True of my session, **false of the day, in a Will-gated packet** — n=8 of the wrong-reference class. Correction sent (`2026-09-07d`). ✅ **DAEDALUS WITHDREW C4 at ~17:2x and rules the route edit RETAINED** — so the gate question is closed and no revert is owed; **the SCOPE ERROR in my packet stands on its own and is not withdrawn.** ⏳ C6 (`scripts/tests/*.py` `sys.exit` at import breaks `pytest`) is a FILES-table clause ⇒ in the batch.
+
+**PICKUP 6d:**
+
+6d. 🔒 **ALFRED "pre-registered" HAD NO RECEIPT — corrected, forward-only.** `alfred_vintages.py:39` read *"PRE-REGISTERED BEFORE ANY BIAS WAS COMPUTED"*, but the classifier and `PAYROLL_VINTAGES.tsv` ship in **one commit (`e96453b45`)**, so nothing external proves the order. **Pre-registration is a claim about ORDER and only a commit can establish it** — the same defect as *"falsified before adoption"* and *"verified in git"*, third form today. Header + ledger annotated. **Rule: commit the spec in its OWN commit before computing the result.** *(DAEDALUS; the measured figures are unaffected.)*
+

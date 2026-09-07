@@ -209,6 +209,9 @@ def declared_axis(text):
         return {}
     b = m.group("body")
     out = {}
+    k = re.search(r"kind\s*=\s*([a-z-]+)", b)
+    if k:
+        out["kind"] = k.group(1)
     c = re.search(r'column\s*=\s*"([^"]+)"', b)
     p_ = re.search(r"precision\s*=\s*([0-9.]+)", b)
     if c:
@@ -232,6 +235,12 @@ def analyze_table(hdr, rows, decl):
     ncol = max((len(r) for r in rows), default=0)
     if not ncol:
         return out, "NOT-A-BAND-TABLE", ""
+    if decl.get("kind") == "trigger-ladder":
+        # A TRIGGER LADDER is not a partition: its rows are escalating conditions that may
+        # overlap by design (>=24%, >=27%, >=30%). Judging it as a partition reports gaps
+        # that are not defects. ⛔ This declaration names the TABLE TYPE ONLY. It asserts
+        # NOTHING about whether the trigger logic is right, and this tool cannot check that.
+        return out, "NOT-A-BAND-TABLE", "declared kind=trigger-ladder — table TYPE only; trigger logic NOT verified by this tool"
     cand = []
     for ci in range(ncol):
         cells = [(r[0], (r[ci] if len(r) > ci else "")) for r in rows]
@@ -733,6 +742,43 @@ The MA declines for any print below 209,000 - i.e. in bands D and E - purely fro
 ]
 
 
+ACCEPTANCE = [
+    ("valid partition must PASS",
+     "| Band | X | A |\n|---|---|---|\n| A | <=199999 | h |\n| B | 200000-249999 | h |\n| C | >=250000 | f |\n", 0),
+    ("known GAP must FAIL",
+     "| Band | X | A |\n|---|---|---|\n| A | <=199999 | h |\n| B | 210000-249999 | h |\n| C | >=250000 | f |\n", 2),
+    ("known OVERLAP must FAIL",
+     "| Band | X | A |\n|---|---|---|\n| A | <=200000 | h |\n| B | 200000-249999 | h |\n| C | >=250000 | f |\n", 2),
+    ("declared trigger ladder must NOT be judged as a partition",
+     "<!-- partition-axis: kind=trigger-ladder -->\n| Trigger | LT share | A |\n|---|---|---|\n| T-a | >=24% | watch |\n| T-b | >=27% | restore |\n| T-c | >=30% | fire |\n", 2),
+]
+
+
+def acceptance_test():
+    """PRODUCTION ACCEPTANCE SET (DAEDALUS 2026-09-07). The gate for trusting this tool is
+    NOT 'one real card passed' — one pass is a sample of size one. It is: a valid partition
+    passes, a known gap fails, a known overlap fails, and a declared trigger ladder is not
+    judged as a partition at all."""
+    import tempfile, io, contextlib
+    print("=" * 72); print("  PRODUCTION ACCEPTANCE SET"); print("=" * 72)
+    ok = True
+    for nm, md, want in ACCEPTANCE:
+        with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as f:
+            f.write(md); t = f.name
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            rc = check_card(t)
+        os.unlink(t)
+        good = rc == want
+        ok &= good
+        print(f"  {'PASS' if good else 'FAIL'}  {nm:58} rc={rc} (want {want})")
+        if not good:
+            print("        " + buf.getvalue().replace("\n", "\n        ").rstrip())
+    print("-" * 72)
+    print("  " + ("✅ ACCEPTANCE SET PASSES" if ok else "❌ ACCEPTANCE FAILURE — do not rely on this tool"))
+    return 0 if ok else 2
+
+
 def membership_test(trials=4000, seed=20260907):
     """INDEPENDENT MEMBERSHIP CHECK (CODEX's recommendation, 2026-09-07).
 
@@ -845,9 +891,12 @@ def self_test():
 def main(argv):
     if "--membership-test" in argv:
         return membership_test()
+    if "--acceptance" in argv:
+        return acceptance_test()
     if "--self-test" in argv:
         rc = self_test()
-        return max(rc, membership_test())
+        rc = max(rc, membership_test())
+        return max(rc, acceptance_test())
     args = [a for a in argv[1:] if not a.startswith("-")]
     if not args:
         print(__doc__.strip()); return 2

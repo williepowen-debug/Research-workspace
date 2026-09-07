@@ -36,7 +36,13 @@ larger or smaller than they were.
                  Months whose benchmark has not yet happened are marked PENDING and
                  are EXCLUDED from benchmark-bias aggregates — never folded in as 0.
 
-🔒 REGIME CLASSIFIER — PRE-REGISTERED BEFORE ANY BIAS WAS COMPUTED
+⚠️ REGIME CLASSIFIER — DECLARED BEFORE THE BIAS WAS COMPUTED **IN-SESSION**, BUT THERE IS NO RECEIPT.
+   🔧 Corrected 2026-09-07 (DAEDALUS): this header read "PRE-REGISTERED", and pre-registration is a
+   claim about ORDER that only a commit can establish. This file and its results
+   (`workbook/PAYROLL_VINTAGES.tsv`) were committed TOGETHER in `e96453b45`, so nothing external
+   proves the classifier predates the numbers. The claim may be true; it is not EVIDENCED, and an
+   unevidenced order claim is worth what "falsified before adoption" was worth earlier today.
+   ⇒ FORWARD-ONLY RULE: commit the spec in its own commit BEFORE computing the result.
 ------------------------------------------------------------------
 Written and committed before the revision figures were looked at, because a regime
 cut chosen after seeing the bias is fitted, not measured.
@@ -216,7 +222,7 @@ def build():
             "stage_flag": disrupted(ref, first_v) or "OK",
         })
 
-    # --- regime, from FIRST PRINTS ONLY (pre-registered above) -----------------
+    # --- regime, from FIRST PRINTS ONLY (declared above; order NOT receipted) ---
     fp = {r["ref_month"]: r["first_print"] for r in rows}
     order = [r["ref_month"] for r in rows]
     for i, r in enumerate(rows):
@@ -369,7 +375,7 @@ def write_tsv(rows):
         f.write(f"# Last real data refresh: {date.today().isoformat()}\n")
         f.write("# Built by scripts/alfred_vintages.py (WQ-175 clause 2 / DOCKET L274). "
                 "Headline = level(M) - level(M-1) computed WITHIN one vintage. "
-                "Regime from FIRST PRINTS ONLY, pre-registered before any bias was computed. "
+                "Regime from FIRST PRINTS ONLY, declared before the bias was computed in-session — but spec and results share commit e96453b45, so this order claim has NO receipt (DAEDALUS 2026-09-07). "
                 "PENDING benchmark rows are excluded from benchmark aggregates, never folded in as 0. "
                 "MOVES NO THRESHOLD.\n")
         f.write("\t".join(cols) + "\n")
