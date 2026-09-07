@@ -62,6 +62,10 @@
 
 **NONE PROPOSED. `$0` moved. No trade action taken or recommended — and the frame-breaker verdict is the reason, stated at the letter.** **USO 35 sh · USO Oct-16 135C ×2 · USO Sep-18 150/165 ×1 · XLE Sep-30 65C ×2.** `TRADE.md` canonical. ⛔ **MARKS NOT REFRESHED — equity/option markets CLOSED (Labor Day); no chain exists to pull.** Last refresh 9/2 post-close. ⛔ **Position truth is off-repo (Will/broker direct).** **Two legs die inside four weeks and the XLE pair's dated rules fire 9/8–9/9.** ⚠️ **Counterfactual sizing exists in the artifact (`~$500` = `~7.25%` of the `$6,899` energy sleeve, TERRY 9/3 vintage) so nobody derives it at a fill — it is NOT a proposal, and even in the counterfactual my recommendation is a ROLL, never a fifth long-crude leg.**
 
+## 🧾 COMMIT-MESSAGE DEBT (carried forward, per canon 4d/4b — noted, NOT amended)
+
+**`e380bdca3`'s subject is 106 characters against the ≤100 canon** (WQ-171 ①). ⛔ **Not rewritten:** canon 4b forbids `--amend` on a shared HEAD, and *"a damaged message over a correct tree is documentation debt — note it in the next commit, never rewrite."* **This IS that note.** The tree is correct; only the subject is long. ⚠️ **Cause, so it does not repeat: I measured the subject on the two commits where I wrote the message file first, and skipped the check on the third because it felt like a small closing addition. The check is cheap and unconditional — run `git log -1 --pretty=%s | wc -c` BEFORE the commit, not after.** `[[finding_a_correction_pass_is_unreviewed_work]]` — the late, small, "just one more" edit is the one that skips the gate.
+
 ## 📬 MAIL
 
 **Inbox 0** (**2** consumed, 2 logged, 2 archived — reconciles; FALCON's GATE 2 packet arrived mid-session and was drained same-session). **Outbox clear.** **Packets sent: FALCON ×2** (GATE 2 inputs; then the war-risk-split answer + the figure reconcile) · **PROME ×2** (the 13:2x delivery memo + the 14:2x Will-facing state-change memo, carrying the adjudication, the proposed letter amendment for Will, the memory-promotion flag, the calibration disposition and the read-cap figures).
