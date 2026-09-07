@@ -520,3 +520,28 @@ Rotated for read-cap headroom. All three were GRADED and closed; no figure chang
 
 | **Continuing claims** | **1,779K** [w/e Aug 22 · obs 2026-08-22] — **fourth direction-change in six weeks**; range-bound 1,777-1,799K holds | Vector-7 drop-to-2 needs **<1,750K ×4wk** (**29K away**; still no sustained direction, and it needs FOUR consecutive weeks of which there are **ZERO**). … | vector 7 — **kept as a COST/duration gauge, which is what it actually measures; it is not an early-warning instrument and will not be used as one** |
 
+<a id="exit-rules-graded-20260907"></a>
+## § `exit-rules-graded-20260907` — rotated from STATUS.md 2026-09-07 (verbatim, no figure changed)
+
+**freeze-thaw-v2-state:**
+
+  🔴 **v2 live state 2026-09-04 (GRADED on NFP August): NOT FIRED — but EVERY LEG MOVED TOWARD FIRING and the honest read is that this book got weaker today.**
+  > **LEG A ✗ — and the card ORDERED this recompute before reading August (L-02).** The frozen bar was **≥+303K** on the old Jun/Jul vintage; the upward revisions moved it to **`(31 + 21 + X)/3 ≥ 100` ⇒ X ≥ +248K**. August **+162K ⇒ short by 86K**. Single-month leg **met** (162 ≥ 150); **3-mo-avg leg fails** (71.3 < 100). A conjunction, and I am not relaxing it.
+  > **LEG B ✗ — EPOP 59.1 vs the ≥59.2 bar, short 0.1pp** (was 0.3pp away at July).
+  > **LEG C ✗ — JOLTS NET −18K [Jul] / −5K [Jun rev]**, unrefreshed; next test JOLTS August ~Oct 6 on the v4 bands already pre-registered.
+
+**pattern-of-the-day:**
+
+1c. 🔴 **THE PATTERN OF THE DAY, AND IT IS THE SAME ONE — n=6 now, and the sixth was inside my own calibration record.** L-29 (written this morning, n=5): *every defect was in the sentence NAMING what a figure was a figure OF, never in the figure.* **Instance 6, found this session:** `PREDICTIONS_SCOREBOARD.md` verified its as-made confidences against **`PREDICTIONS.tsv`** — a ledger that did not exist until **2026-03-04**, whose `Date_Made` is a bulk-seed placeholder. Every figure in it was correct; the claim *"this is the as-made value"* was not. **4 of 12 rows were scored at a walked-down number. Mean Brier 0.299 → 0.342.** ⇒ `[[finding_instrument_reports_clean_against_the_wrong_reference]]` **n=25**.
+
+<a id="pickup-rotated-20260907b"></a>
+## § `pickup-rotated-20260907b` — PICKUP detail rotated from STATUS.md 2026-09-07 PM (verbatim)
+
+**PICKUP 1e:**
+
+1e. ✅ **WITHDRAWN 2026-09-07 — there was no canon conflict; I mis-read WQ-112 as either/or.** WQ-112 specifies **BOTH** books: the latest dated pre-resolution mark governs *scoring*, and the original `Date_Made` confidence is **retained and reported separately as first-call calibration**. ⇒ **`0.342` is correct and stays — it is the FIRST-CALL CALIBRATION figure**, which is exactly what it measures. 🔴 **The operative half, which I would have got wrong:** WQ-112 (ii) requires a re-mark to have landed in the machine field **with its date**; **today's backfilled dates are git reconstructions, not contemporaneous receipts, so they do NOT retroactively confer latest-mark eligibility on the pre-2026-09-07 book.** That book is unavailable to me — and it would be much better than 0.342, which is why I should be slow to claim it. **Forward-only:** every re-mark from today goes into the field in WQ-112 form at the moment it is made. *(Caught by CODEX; withdrawal packeted to PROME.)*
+
+**PICKUP 6:**
+
+6. **Live build debt: BD-19 · BD-23 · BD-26.** 🔧 **BD-21 and BD-30 REMOVED — discharged 2026-09-07** by `scripts/card_partition_check.py`. ⚠️ **Recorded honestly: BD-21 was first marked discharged on a checker that CODEX then broke 5-for-5** (a single band certified as a partition; strict/inclusive boundary values unowned or double-owned; an unreadable row ignored; a decimal axis blind to a missing 4.2). **It is discharged now on a v2 that carries boundary inclusivity, integer-unit arithmetic, an UNPARSEABLE finding, and a PASS unreachable unless coverage actually ran — with CODEX's five cases as permanent members of the suite (20 tests).** 🔴 **New live card defect the v2 found: `docket/graded/GRADING_CARD_20260828_QCEW.md` bands `450–700K` and `≥700K` BOTH claim 700,000** — the card that carried LAB-08. Frozen card, so it is recorded as a card defect, never edited.
+

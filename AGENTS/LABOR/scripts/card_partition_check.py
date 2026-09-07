@@ -31,19 +31,36 @@ KNOWN LIMITS — stated, not tuned away (loosening a noisy guard inverts its fai
   * Granularity is inferred from the card's own boundaries. A card that mixes "199K" and
     "208,999" in one column drops to granularity 1 and may report sub-1,000 gaps.
 
-FALSIFICATION HISTORY — read this before trusting a PASS:
-  v1 (2026-09-07 AM) shipped with 10 self-tests, all passing, and was recorded as "falsified
-  before adoption". CODEX then wrote 5 independent cases and **ALL FIVE returned a false PASS**:
-  a single band certified as a partition; strict bounds (`<200000` / `200001-...`) leaving
-  200,000 unowned; inclusive bounds (`<=200000` / `200000-...`) double-assigning it; an
-  unreadable band row silently ignored; and a decimal axis whose missing 4.2 was invisible
-  because granularity only ever inferred 1/100/1000.
-  ⛔ **The lesson is about the SUITE, not the parser: ten tests I wrote all passed because I
-  wrote them against the design I had in mind.** `[[finding_self_attack_defends_the_argument_
-  not_the_apparatus]]` — a self-authored test set defends the argument, not the apparatus.
-  v2 carries boundary inclusivity, integer-unit arithmetic at the inferred granularity
-  (including decimals), an UNPARSEABLE finding, and a PASS that is only reachable when
-  coverage actually RAN. All 15 tests pass — CODEX's 5 are permanent members of the suite.
+WHAT THIS TOOL CLAIMS — read before trusting a clean result:
+  It reports **SCOPED LINT**, and it will tell you its scope on every run. It does NOT certify
+  that a card is correct. A clean result means: every band table it could identify had a single
+  resolvable axis, every row on that axis parsed, and coverage ran over all of them with no gap,
+  overlap or open end — plus any prose sentence naming a band set AND a number agreed with its
+  table. Everything else in the card is unexamined.
+
+WHAT IT REPORTS PER TABLE: VERIFIED · DEFECT · UNVERIFIED · NOT-A-BAND-TABLE.
+  UNVERIFIED is not a soft pass. A blank cell, an unreadable cell, fewer than two bands, or two
+  columns that could each be the axis all make a table UNVERIFIED, and any UNVERIFIED table
+  makes the whole run exit 2. Declare the axis to resolve ambiguity, which also removes the
+  precision guess:  <!-- partition-axis: column="X" precision=1000 -->
+
+REVIEW HISTORY — the honest version, because two earlier versions of this note overclaimed:
+  v1  shipped with 10 self-tests, all passing, described as "falsified before adoption".
+      CODEX wrote 5 independent cases; ALL FIVE returned a false PASS (single band certified;
+      strict/inclusive boundary values unowned or double-owned; unreadable row ignored;
+      decimal axis blind to a missing 4.2).
+  v2  fixed those 5 and was described as falsified. CODEX wrote 4 more; ALL FOUR returned a
+      false certification — a blank row ignored, an unbounded upper band swallowing later
+      bands undetected, a valid table certifying a second incomplete table, and a reference
+      column silently standing in for an unreadable axis. **These were SCOPE failures: v2
+      emitted a card-level PASS that one good table could earn.**
+  v3  per-table dispositions, no card-level certification, INF-aware overlap, blank rows
+      counted as unchecked, ambiguous axis reported rather than guessed, optional explicit
+      declaration. 19 self-tests + both CODEX repro sets (5 and 4) pass.
+  ⛔ **The recurring error was never the parser — it was calling a self-authored suite
+  "falsification".** Ten and then fifteen tests I wrote all passed because I wrote them against
+  the design I had in mind. State what was tested and what was not; do not use "falsified" as a
+  certification. `[[finding_self_attack_defends_the_argument_not_the_apparatus]]`
 """
 import sys, re, os
 
@@ -152,80 +169,126 @@ def band_label(cell):
     return m.group(1) if m else None
 
 
-def check_coverage(hdr, rows, lineno, card):
-    """Leg (a): coverage. Returns (findings, coverage_ran).
+AXIS_DECL = re.compile(r"<!--\s*partition-axis:\s*(?P<body>[^>]*?)-->", re.I)
 
-    Works in INTEGER units of the axis granularity, so boundary arithmetic is exact -- a
-    float axis is what produced this repo's own 12-of-20 missed-boundary bug (L-29 #4).
+
+def declared_axis(text):
+    """Optional explicit declaration, which REMOVES the inference:
+       <!-- partition-axis: column="X" precision=1000 bounds=inclusive -->
+    Inference is a guess; a declaration is the card telling the checker what it meant."""
+    m = AXIS_DECL.search(text or "")
+    if not m:
+        return {}
+    b = m.group("body")
+    out = {}
+    c = re.search(r'column\s*=\s*"([^"]+)"', b)
+    p_ = re.search(r"precision\s*=\s*([0-9.]+)", b)
+    if c:
+        out["column"] = c.group(1).strip()
+    if p_:
+        out["precision"] = float(p_.group(1))
+    return out
+
+
+def analyze_table(hdr, rows, decl):
+    """Disposition for ONE table: (findings, status, scope).
+
+    status: VERIFIED | DEFECT | UNVERIFIED | NOT-A-BAND-TABLE
+
+    ⛔ This function may NOT return VERIFIED unless EVERY row of the chosen axis column
+    resolved to an interval and coverage actually ran over them. A table that merely fails
+    to complain is UNVERIFIED, never clean — that distinction is the whole point of the v3
+    rewrite (CODEX found four cases where v2 certified a card it had not checked).
     """
-    out, ran = [], False
+    out = []
     ncol = max((len(r) for r in rows), default=0)
-    best = None
-    # Pick the BAND AXIS by parse FRACTION, not raw count. A prose column ("Card said: ...")
-    # can contain two parseable numbers and would otherwise win on count alone, dragging its
-    # narrative rows in as UNPARSEABLE and burying the real findings under noise.
-    best_score = 0.0
+    if not ncol:
+        return out, "NOT-A-BAND-TABLE", ""
+    cand = []
     for ci in range(ncol):
-        iv = [(r[0], parse_interval(r[ci])) for r in rows if len(r) > ci]
-        if not iv:
-            continue
-        ok = [(l, v) for l, v in iv if v]
-        frac = len(ok) / len(iv)
-        if len(ok) >= 2 and frac >= 0.6 and (frac, len(ok)) > (best_score, len(best[1]) if best else 0):
-            unp = [l for l, v in iv if v is None and re.sub(r"[*`\s]", "", r_cell(rows, l, ci))]
-            best, best_score = (ci, ok, unp), frac
-    if not best:
-        return out, ran
-    ci, iv, unparsed = best
-    lab = lambda t: re.sub(r"[*`]", "", t).strip() or "?"
-    colname = hdr[ci] if ci < len(hdr) else f"col{ci}"
+        cells = [(r[0], (r[ci] if len(r) > ci else "")) for r in rows]
+        parsed = [(l, parse_interval(c)) for l, c in cells]
+        n_ok = sum(1 for _, v in parsed if v)
+        if n_ok:
+            cand.append((ci, cells, parsed, n_ok))
+    if not cand:
+        return out, "NOT-A-BAND-TABLE", ""
 
-    # A row in a band table whose interval cannot be read is UNVERIFIED, never ignored.
-    for l in unparsed:
-        out.append(("UNPARSEABLE", f"{colname}: band {lab(l)} has an unreadable interval — "
-                                   f"coverage for this card is UNVERIFIED, not clean"))
-    gran = granularity([b for _, (lo, _, hi, _) in iv for b in (lo, hi)])
+    name_of = lambda ci: (hdr[ci] if ci < len(hdr) else f"col{ci}").strip() or f"col{ci}"
+    # An explicit declaration wins outright.
+    chosen = None
+    if decl.get("column"):
+        for ci, cells, parsed, n in cand:
+            if name_of(ci).lower() == decl["column"].lower():
+                chosen = (ci, cells, parsed, n)
+    if chosen is None:
+        strong = [c for c in cand if c[3] >= 2]
+        if len(strong) > 1:
+            out.append(("AMBIGUOUS-AXIS",
+                        "two or more columns could be the band axis — "
+                        + " vs ".join(f"'{name_of(c[0])}' ({c[3]} intervals)" for c in strong)
+                        + ". Declare it: <!-- partition-axis: column=\"X\" -->"))
+            return out, "UNVERIFIED", ""
+        chosen = strong[0] if strong else cand[0]
+
+    ci, cells, parsed, n_ok = chosen
+    axis = name_of(ci)
+    lab = lambda t: re.sub(r"[*`]", "", t).strip() or "?"
+
+    # EVERY row must resolve. A blank cell is not "nothing to check" — it is an unchecked row.
+    bad = [(l, c) for (l, c), (_, v) in zip(cells, parsed) if v is None]
+    for l, c in bad:
+        why = "a BLANK interval" if not re.sub(r"[*`\s]", "", c) else "an UNREADABLE interval"
+        out.append(("UNVERIFIED-ROW", f"axis '{axis}': band {lab(l)} has {why} — "
+                                      f"this table is UNVERIFIED, not clean"))
+    iv = [(l, v) for (l, _), (_, v) in zip(cells, parsed) if v]
+    if len(iv) < 2:
+        out.append(("INSUFFICIENT", f"axis '{axis}': only {len(iv)} band(s) parsed — "
+                                    f"a partition cannot be established from fewer than two"))
+        return out, "UNVERIFIED", axis
+
+    gran = decl.get("precision") or granularity([b for _, (lo, _, hi, _) in iv for b in (lo, hi)])
     U = lambda v: v if abs(v) == INF else int(round(v / gran))
-    # closed integer span [a,b] each band actually owns
     spans = []
     for l, (lo, li, hi, hi_i) in iv:
         a = -INF if lo == -INF else (U(lo) if li else U(lo) + 1)
         b = INF if hi == INF else (U(hi) if hi_i else U(hi) - 1)
         if a != -INF and b != INF and a > b:
-            out.append(("EMPTY-BAND", f"{colname}: band {lab(l)} covers nothing"))
+            out.append(("EMPTY-BAND", f"axis '{axis}': band {lab(l)} covers nothing"))
             continue
         spans.append((a, b, lab(l)))
-    spans.sort(key=lambda t: (t[0] == -INF and -1 or 0, t[0] if t[0] != -INF else 0))
-    fmt = lambda u: f"{u * gran:,.10g}"
+    spans.sort(key=lambda t: (0 if t[0] == -INF else 1, 0 if t[0] == -INF else t[0]))
+    fmt = lambda u: ("-inf" if u == -INF else "inf" if u == INF else f"{u * gran:,.10g}")
     for (a1, b1, l1), (a2, b2, l2) in zip(spans, spans[1:]):
-        if b1 == INF or a2 == -INF:
+        if a2 == -INF:
+            continue
+        if b1 == INF:
+            # An unbounded upper band swallows every later band. v2 `continue`d here and
+            # missed `<200000 / >=200000 / >=250000` entirely.
+            out.append(("OVERLAP", f"axis '{axis}': band {l1} is unbounded above and band {l2} "
+                                   f"re-claims {fmt(a2)} onward"))
             continue
         if a2 > b1 + 1:
-            out.append(("GAP", f"{colname}: bands {l1} and {l2} leave "
-                               f"{fmt(b1 + 1)}" + (f" - {fmt(a2 - 1)}" if a2 - 1 > b1 + 1 else "")
-                               + f" in NO BAND (granularity {gran:,.10g})"))
+            out.append(("GAP", f"axis '{axis}': bands {l1} and {l2} leave {fmt(b1 + 1)}"
+                               + (f" - {fmt(a2 - 1)}" if a2 - 1 > b1 + 1 else "")
+                               + f" in NO BAND (precision {gran:,.10g})"))
         elif a2 <= b1:
-            out.append(("OVERLAP", f"{colname}: bands {l1} and {l2} both claim "
-                                   f"{fmt(a2)}" + (f" - {fmt(b1)}" if b1 > a2 else "")))
+            out.append(("OVERLAP", f"axis '{axis}': bands {l1} and {l2} both claim {fmt(a2)}"
+                                   + (f" - {fmt(b1)}" if b1 > a2 else "")))
     if spans:
         if spans[0][0] != -INF:
-            out.append(("OPEN-END", f"{colname}: lowest band starts at {fmt(spans[0][0])} — "
-                                    f"everything below it is unassigned"))
+            out.append(("OPEN-END", f"axis '{axis}': lowest band starts at {fmt(spans[0][0])} — "
+                                    f"everything below is unassigned"))
         if spans[-1][1] != INF:
-            out.append(("OPEN-END", f"{colname}: highest band ends at {fmt(spans[-1][1])} — "
-                                    f"everything above it is unassigned"))
-        ran = True
-    return out, ran
+            out.append(("OPEN-END", f"axis '{axis}': highest band ends at {fmt(spans[-1][1])} — "
+                                    f"everything above is unassigned"))
+    scope = f"axis '{axis}', {len(iv)} bands, precision {gran:,.10g}, bounds as written"
+    if bad:
+        return out, "UNVERIFIED", scope
+    return out, ("DEFECT" if out else "VERIFIED"), scope
 
 
-def r_cell(rows, label, ci):
-    for r in rows:
-        if r and r[0] == label and len(r) > ci:
-            return r[ci]
-    return ""
-
-
-WILDCARD = {"any", "either", "*", "-", "—", "n/a", "all"}
+WILDCARD = {"any", "either", "*", "-", "\u2014", "n/a", "all"}
 
 
 def _norm(x):
@@ -350,37 +413,57 @@ def check_prose(text, tables):
 
 
 def check_card(path):
+    """Return 0 only when EVERY candidate band table in the card was fully verified.
+
+    ⛔ This function reports SCOPED LINT. It never certifies a card as correct — it reports
+    what it checked, what it could not check, and what it found. v2 emitted a card-level
+    "PASS ... partition their axis" that a single good table could earn while a second table,
+    a blank row, or an unreadable axis went unexamined.
+    """
     if not os.path.exists(path):
         print(f"  ⛔ CANNOT-VERIFY: no such file: {path}")
         return 2
     text = open(path, encoding="utf-8").read()
+    decl = declared_axis(text)
     tables = list(parse_tables(text))
-    findings = []
-    coverage_ran = False
-    for hdr, rows, ln in tables:
-        f, ran = check_coverage(hdr, rows, ln, path)
-        findings += f
-        coverage_ran |= ran
-        findings += check_cross(hdr, rows)
-    prose, bands = check_prose(text, tables)
-    findings += prose
     name = os.path.basename(path)
-    if not bands or not coverage_ran:
-        # PASS must mean coverage was CHECKED, not merely that nothing complained. A single
-        # band populated `bands` and returned PASS while coverage never ran at all.
-        why = ("no band table with >=2 parseable intervals" if not bands
-               else "only one band parsed — a partition cannot be established from one interval")
-        print(f"  ⚠️  CANNOT-VERIFY  {name}: {why}. "
-              f"Not a pass — check by hand or fix the card's table.")
+
+    results = []          # (idx, status, scope, findings)
+    for i, (hdr, rows, ln) in enumerate(tables, 1):
+        f, st, scope = analyze_table(hdr, rows, decl)
+        f += check_cross(hdr, rows)
+        if f and st == "VERIFIED":
+            st = "DEFECT"
+        if st != "NOT-A-BAND-TABLE":
+            results.append((i, st, scope, f))
+
+    prose, bands = check_prose(text, tables)
+    verified = [r for r in results if r[1] == "VERIFIED"]
+    unver    = [r for r in results if r[1] == "UNVERIFIED"]
+    defect   = [r for r in results if r[1] == "DEFECT"]
+
+    if not results:
+        print(f"  ⚠️  UNVERIFIED  {name}: no band table found. Not a pass — check by hand.")
         return 2
-    if not findings:
-        print(f"  ✅ PASS  {name}: {len(bands)} bands partition their axis "
-              f"(no gap, no overlap, prose agrees)")
-        return 0
-    print(f"  ❌ DEFECT  {name}: {len(findings)} finding(s) across {len(bands)} bands")
-    for kind, msg in findings:
+
+    head = (f"  {'❌ DEFECT   ' if defect else '⚠️  UNVERIFIED' if unver else '✅ LINT-CLEAN'}  {name}: "
+            f"{len(results)} band table(s) — {len(verified)} verified, "
+            f"{len(unver)} unverified, {len(defect)} with defects"
+            + (f", {len(prose)} prose finding(s)" if prose else ""))
+    print(head)
+    for i, st, scope, f in results:
+        mark = {"VERIFIED": "✓", "DEFECT": "✗", "UNVERIFIED": "?"}[st]
+        print(f"      [{mark}] table {i}: {st}" + (f" — {scope}" if scope else ""))
+        for kind, msg in f:
+            print(f"          [{kind}] {msg}")
+    for kind, msg in prose:
         print(f"      [{kind}] {msg}")
-    return 2
+    if defect or unver or prose:
+        return 2
+    print(f"      scope: {len(verified)} table(s) checked for gaps, overlaps and open ends. "
+          f"Prose claims naming a band set + a number were cross-read against the table. "
+          f"NOT checked: anything outside those tables.")
+    return 0
 
 
 SELF_TESTS = [
@@ -462,7 +545,7 @@ SELF_TESTS = [
 | Band | X | Action |
 |---|---|---|
 | A | >=250000 | hold |
-""", 2, "CANNOT-VERIFY"),
+""", 2, "INSUFFICIENT"),
     ("CODEX 2/5: strict bounds leave 200000 and 250000 unowned", """
 | Band | X | Action |
 |---|---|---|
@@ -484,7 +567,7 @@ SELF_TESTS = [
 | B | 200000-229999 | hold |
 | C | ??? | hold |
 | D | >=230000 | hold |
-""", 2, "UNPARSEABLE"),
+""", 2, "UNVERIFIED-ROW"),
     ("CODEX 5/5: decimal axis omits 4.2", """
 | Band | X | Action |
 |---|---|---|
@@ -492,6 +575,43 @@ SELF_TESTS = [
 | B | 4.3-4.4 | hold |
 | C | >=4.5 | hold |
 """, 2, "GAP"),
+    # ---- CODEX's second independent round, 2026-09-07 PM: SCOPE failures ---------------
+    # v2 passed all 15 of the tests above while failing all four of these. They are scope
+    # failures, not parser bugs: v2 emitted a card-level PASS that one good table could earn.
+    ("CODEX v2 1/4: a blank interval row is an UNCHECKED row", """
+| Band | X | Action |
+|---|---|---|
+| A | <=199999 | hold |
+| B | 200000-249999 | hold |
+| C | >=250000 | fire |
+| D |  | unknown |
+""", 2, "BLANK"),
+    ("CODEX v2 2/4: an unbounded upper band swallows every later band", """
+| Band | X | Action |
+|---|---|---|
+| A | <200000 | hold |
+| B | >=200000 | arm |
+| C | >=250000 | fire |
+""", 2, "OVERLAP"),
+    ("CODEX v2 3/4: a valid table cannot certify an incomplete second table", """
+| Band | X | Action |
+|---|---|---|
+| A | <=199999 | hold |
+| B | 200000-249999 | hold |
+| C | >=250000 | fire |
+
+## Second axis
+| Band | Y | Action |
+|---|---|---|
+| D | >=5 | fire |
+""", 2, "INSUFFICIENT"),
+    ("CODEX v2 4/4: a reference column cannot certify an unreadable axis", """
+| Band | X | Reference |
+|---|---|---|
+| A | <=199999 | <=199999 |
+| B | ??? | 200000-249999 |
+| C | >=250000 | >=250000 |
+""", 2, "AMBIGUOUS-AXIS"),
     ("prose contradicting the table is caught", """
 | Band | X | Assignment |
 |---|---|---|
