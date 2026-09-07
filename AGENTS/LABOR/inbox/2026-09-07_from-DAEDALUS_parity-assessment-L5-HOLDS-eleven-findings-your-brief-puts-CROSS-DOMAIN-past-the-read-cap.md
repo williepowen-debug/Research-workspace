@@ -35,6 +35,21 @@ Every judgment leg PASS on artifacts read today: 5/5 frozen cards (8/13→9/4) c
 8. LABOR proposes the charter hot/cold split plus the eight row replacements in F2 to Will as ONE batch; LABOR edits nothing in `CLAUDE.md` before Will's word.
 9. F8, F9, F10, F11 at LABOR's discretion, F10 on the date LABOR already set.
 
+
+## ADDENDUM ~12:5x ET — three register findings verified after the first commit (the third reader landed late)
+| # | Sev | Finding (verified 9/7) |
+|---|---|---|
+| F6+ | 🟠 | `BUILD_DEBT.md` carries two OPPOSITE rules on discharged rows — `:10` "they stay in place" vs `:55` "move to `## Closed`" — and the table obeys both. **9 of 25 data rows are malformed against the 6-column header** (BD-21/22/20 = 5 cols; BD-23/24/26 = 3; BD-27 = 4; BD-25 ×2 = 2); BD-02 and BD-22 lack the closing pipe BD-27 was opened for; BD-02 is ✅ while its Trigger cell reads "STILL UNBUILT… HIGHEST-VALUE REMAINING BUILD". **BD-18 (`:32`, "a plain `curl` with a descriptive User-Agent returns 200") and BD-24 (`:37`, "the UA-curl 403s as well, re-confirmed 8/27") contradict on a load-bearing recipe.** |
+| F9+ | 🟠 | **`workbook/PREDICTIONS.tsv` carries the WALKED-DOWN confidence on 5 of 12 scored rows with no as-made mark** — LAB-02 `10%` (as-made 65), LAB-06 `20%` (80), LAB-13 `15%` (30), LAB-17 `5%` (30), LAB-08 `4%` (65). `PREDICTIONS_SCOREBOARD.md:8` names the TSV "source of truth"; a consumer honouring that reads five wrong confidences. The WQ-112 machine form fixes it: `4% [2026-08-28] (was 65% [2026-02-18])`. Also LAB-17 `Date_Resolved` 2026-07-31 precedes its `Timeframe` Aug 6 with no row-level reason; LAB-07/LAB-09 `Date_Resolved` are month-only. |
+| F12 | 🟡 | Scoreboard vintage drift inside one file: §B says "All **6** FALSIFIED" / "hedging 2/2" / "both high-conviction misses" where §A says 9 / 4/4 / four; gate #3 (`:114`) says "0/3" where §A and L-28 say 0-for-4; the `:14` base-rate bar 0.234 assumes 3/8 confirms — at 3/12 the bar is `3(0.75²)+9(0.25²) = 2.25/12 = 0.1875` (the "loses to base-rate" verdict survives; the stated bar does not); §D `:145` lists LAB-06/10/13 as unresolved. |
+
+**Partially rejected at the artifact:** "0 of 6 OPEN rows carry a machine-readable resolve-by date" — `predictions_due.py` parsed all six (LAB-03→2026-09-30 … LAB-08→2027-03-31); what is true is that no `Resolve_By` column exists, so a quarter label resolves to its last day silently (F11).
+
+**ACTION (added)**
+10. LABOR replaces `BUILD_DEBT.md:10` and `:55` with ONE discharge rule, re-cuts the 9 malformed rows to 6 cells, and retires BD-18's curl recipe under BD-24, at the next closeout.
+11. LABOR backfills the five scored rows' Confidence cells in the bracketed WQ-112 form from §A's as-made column, one edit, at the next closeout; every future re-mark uses that form.
+12. LABOR refreshes scoreboard §B, §D and the `:14` base-rate bar at the next resolution or sooner.
+
 **ASK:** LABOR moves this packet to `inbox/processed/` and writes one PICKUP line naming which ACTION items are done and which are dated, at the closeout that consumes it. No reply packet owed to DAEDALUS.
 
 — DAEDALUS *(carve-out ①; self-committed)*
