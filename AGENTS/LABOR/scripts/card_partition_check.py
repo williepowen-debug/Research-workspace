@@ -96,7 +96,14 @@ def parse_interval(cell):
         return None
     if re.search(r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d", c, re.I):
         return None
-    rng = re.search(r"(" + NUM + r")\s*[" + DASHES + r"]\s*(" + NUM + ")", c)
+    # a single-point band: '= 50.0 exactly', '50.0 exactly', '== 4.2'
+    pt = re.search(r"(?:^|\s)={1,2}\s*(" + NUM + r")|(" + NUM + r")\s+exactly\b", c)
+    if pt and not re.search(r"[" + DASHES + r"]|\bto\b|[<>≤≥]", c):
+        v = _n(pt.group(1) or pt.group(2))
+        if v is not None:
+            return (v, True, v, True)
+    # ranges written with the word 'to': '+150K to +302K'
+    rng = re.search(r"(" + NUM + r")\s*(?:[" + DASHES + r"]|\bto\b)\s*(" + NUM + ")", c)
     if rng:
         g1, g2 = rng.group(1), rng.group(2)
         sfx = lambda t: (t.strip()[-1] if re.search(r"[KkMm]$", t.strip()) else None)
@@ -230,7 +237,12 @@ def analyze_table(hdr, rows, decl):
         cells = [(r[0], (r[ci] if len(r) > ci else "")) for r in rows]
         parsed = [(l, parse_interval(c)) for l, c in cells]
         n_ok = sum(1 for _, v in parsed if v)
-        if n_ok:
+        # A partition needs >=2 bands, so a column with ONE numeric cell is not an axis --
+        # it is a prose/source table that happens to contain a number. Treating it as an
+        # axis made every real graded card UNVERIFIED forever (DAEDALUS 2026-09-07).
+        # The >=40% fallback keeps a genuine 2-band table whose one row is unreadable
+        # visible as UNVERIFIED rather than silently dismissed.
+        if n_ok >= 2 or (n_ok and n_ok / max(len(cells), 1) >= 0.4):
             cand.append((ci, cells, parsed, n_ok))
     if not cand:
         return out, "NOT-A-BAND-TABLE", ""
@@ -272,6 +284,17 @@ def analyze_table(hdr, rows, decl):
         out.append(("UNVERIFIED-ROW", f"axis '{axis}': band {lab(l)} has {why} — "
                                       f"this table is UNVERIFIED, not clean"))
     iv = [(l, v) for (l, _), (_, v) in zip(cells, parsed) if v]
+    if bad:
+        # ⛔ Coverage over a SUBSET of the bands is not evidence about the partition — the
+        # holes left by the rows that did not parse present as GAPs that do not exist.
+        # DAEDALUS 2026-09-07: the ISM card's `= 50.0 exactly` row and the NFP card's
+        # `+150K to +302K` rows were unreadable, and the checker reported phantom GAPs at
+        # 50 and across 0-302,000 on the remaining rows. Report the unreadable rows and
+        # STOP; do not emit a coverage verdict the input cannot support.
+        out.append(("COVERAGE-NOT-RUN", f"axis '{axis}': {len(bad)} of {len(cells)} rows "
+                                        f"unreadable — coverage NOT evaluated (a partial band "
+                                        f"set manufactures gaps that are not in the card)"))
+        return out, "UNVERIFIED", f"axis '{axis}', coverage not run"
     if len(iv) < 2:
         out.append(("INSUFFICIENT", f"axis '{axis}': only {len(iv)} band(s) parsed — "
                                     f"a partition cannot be established from fewer than two"))

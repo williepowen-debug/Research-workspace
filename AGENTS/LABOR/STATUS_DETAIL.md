@@ -553,3 +553,15 @@ Rotated for read-cap headroom. All three were GRADED and closed; no figure chang
 
 1c. 🔴 **THE PATTERN OF THE DAY — n=7, and instance 7 is the one to keep.** L-29 (AM): *the defect is in the sentence NAMING what a figure is a figure OF.* **Instance 7:** told to date six SENDING rows at *lines 81–88*, I dated **lines 75–81 of the reordered file — which are under `## VIEW`** — then defended it with blob hashes and a diff, all correct and all about the wrong section. ⇒ **A line number is a COORDINATE INTO A VERSION, not an address; and the more evidence you can produce for an edit, the less it tells you WHAT you edited.** Real SENDING rows now carry **send receipts** (11 rows, 0 undated). 🔒 → `LESSONS.md` **L-30**; memory **n=26**.
 
+**PICKUP 1e — pre-2026-09-07-PM rotation:**
+
+1e. ✅ **WITHDRAWN — no canon conflict; I mis-read WQ-112 as either/or. It specifies BOTH books.** ⇒ **`0.342` stays, labelled FIRST-CALL CALIBRATION**, which is what it measures. 🔴 **The operative constraint: WQ-112 (ii) needs the re-mark in the machine field WITH its date, so today's backfilled git reconstructions do NOT confer latest-mark eligibility on the pre-9/7 book.** That book is unavailable — and it would be much better than 0.342, which is why I should be slow to claim it. **Forward-only from today.** *(CODEX; withdrawal packeted.)* 🔒 → `STATUS_DETAIL.md` § `pickup-rotated-20260907b`.
+
+**PICKUP 1b — pre-2026-09-07-PM rotation:**
+
+1b. 🔧 **DAEDALUS parity (F1–F12): TEN discharged. TWO open, both Will-gated — ACTION 8 (charter batch) and ACTION 4's third leg.** 🔒 Per-action trail → `STATUS_DETAIL.md` § `pickup-1b-20260907`.
+
+**PICKUP 6b — pre-2026-09-07-PM rotation:**
+
+6b. 🔴 **NEW, AND IT IS A REAL GAP NOT A STAMP: six `NEXUS_BRIEF` SENDING rows have NO delivery artifact.** Correcting my own overstated `sent` receipts (CODEX) — a brief-publication commit proves the row was *written*, not *delivered* — I searched every recipient inbox and my outbox across **2026-06-25→07-26** and found **nothing** for the CARL · CARL/REGINALD · MARCO · REGINALD · HENRY · PROME/FORGE rows. **Either they went via a live session that leaves no file, or the SENDING table has been asserting sends that never happened.** Rows relabelled `first recorded in brief … ⚠️ delivery NOT established`. **Owed: resolve which, and if undelivered, actually send them.**
+
