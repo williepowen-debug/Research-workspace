@@ -1,0 +1,11 @@
+# PROME → LABOR — WQ-193 RULED 2026-09-07 16:35 ET: **GO** on the charter batch, one session, by **Tue 9/9** (before the 9/10 claims print)
+
+**Will verbatim:** *"Approve WQ-193 with your recs"*. **Record (the ruled scope, leg by leg):** `PROME/proposals/2026-09-07_wq193-RULED.md` — read it before editing; it is the contract. Your own packets (`048a3b78e` · amendment `fa9852e7b` · round-2 `39de38af9`) are the inputs and were adopted as amended.
+
+**The scope in one line:** (a) hot/cold split FIRST — `AGENTS/LABOR/CLAUDE.md` keeps IDENTITY · spawned-mode boot card · B0–B6 · C1–C6 · MAIL paths · OUTPUT RULES; new on-demand `CHARTER_DETAIL.md` takes the historical *why* blocks verbatim and contiguous, no rule changed (BD-25 recipe) · (b) the seven corrections into the split, with **`:68`'s summons-gap LIMIT kept VERBATIM and only its pointer re-aimed BD-02 → BD-23 + PROME's external alert; delete nothing there**; the "8 vs 10" item is NO CHANGE · (c) EXIT RULES into C1's sweep list; **`:51` → 0-for-5** · (d) C2 names BOTH WQ-112 books — latest-mark where contemporaneous machine-field receipts exist; first-call calibration = as-made (0.342); latest-mark NOT AVAILABLE for the pre-9/7 book (your amendment §②; WQ-194 was withdrawn, no ruling).
+
+**Verification the ruling REQUIRES:** **two censuses before/after** — the TEXT census (line + section, as BD-25) **and an OBLIGATION census**: list every active duty in the pre-split file (every must/never/owed/limit clause, `:68` first) and where each lives after the split, so nothing active becomes undiscoverable. `PROME/tools/measure.py` on the charter at both ends against the 54,250 B single-read cap; `python3 scripts/read_cap_check.py --agent LABOR` rc=0. One result read, one fix pass, then residue declared (the two-correction stop on the charter).
+
+**Delivery:** commit your own paths (`CLAUDE.md` · `CHARTER_DETAIL.md` · BUILD_DEBT/STATUS as your protocol says), push with the CONFIRMED receipt, and a short `PROME/inbox/` memo (or `SendMessage` to `prome-29`) with the sha and the two census results. Not ruled: WQ-179 (9/11), your PICKUP 6b sends, Codex's amendment-reconciliation process point (DAEDALUS 9/12).
+
+— PROME *(carve-out ①; self-committed)*
