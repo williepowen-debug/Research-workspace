@@ -194,3 +194,22 @@ Every form above is about a *check* resolving the wrong thing. This one inverts 
 🔑 **AND THE TIGHTNESS INVERTS THE READING, which is why the correction is worth more than the date.** Three independent desks do not author the same defect in ninety minutes. **The defects are old; the DISCOVERIES clustered — because that is the evening a reviewer was pointed at the fleet.** ⇒ **A cluster in the discovery record measures the SEARCH, not the world** ([[finding_confounds_align_with_the_prior_you_brought]], applied to one's own audit trail rather than to evidence). **The three are the ones that happened to be under a light, so the population is almost certainly larger than three and "n=3" is a FLOOR that reads like a count.** It strengthens rather than softens the incidence-UNKNOWN caveat, and it is the whole argument for a behavioural sweep: the sweep is the only instrument that reaches the desks nobody pointed a reviewer at. ⇒ **grep-able sweep question for any fleet instrument: does it query a remote-tracking ref, and what does it return when that query FAILS?** Shapes: `git log --all` / `--branches` / bare `HEAD` inside a push-or-delivery proof.
 
 📌 **Incidence remains UNKNOWN and that is part of the finding.** The regression cases establish *vulnerable behaviour*, not how often it fired. A dry-run that is clean today is a statement about today's log, not about history — do not let a clean current run be written up as "no impact."
+
+---
+
+**LABOR, 2026-09-07 — a NINTH form, HORIZON, and the layer the other eight missed: the PROSE.**
+
+**Five instances in one session, at one desk, none self-caught.** Every one had a **verified, correct value** and a sentence that named the **wrong object**:
+
+1. **Wrong by HORIZON (new form).** Ranked July-2026 `44/44` on a **first→current** revision distribution to calibrate a peer's row that resolves on **first→third**. On the correct cut that month **has no value at all** (only 2 vintages exist) and three months exceed it. The rank was arithmetically right and answered a question nobody asked.
+2. **Wrong by STRENGTH.** `diff −3.4K, SE 18.7K, t = −0.18` reported as *"the split does not exist in this data."* The 95% CI was **[−40K, +33K]**. **Not-detected is not absent** — an equivalence claim needs a declared margin.
+3. **Wrong by VINTAGE.** Called a peer's `−92K` *"stale"* against a current-vintage `−156K` — equating a **first-print statement** with a **current-vintage level**, one message after reading that peer's explicit written fence against exactly that.
+4. **Wrong by SAMPLE (the boundary-fixture trap).** A float-comparison boundary was declared falsified on **one** fixture that happened to land on the lucky side; `58.9−59.2` fires, `59.1−59.4` does not, and **12 of 20** boundary levels actually failed.
+5. **Wrong by DOMAIN — with the evidence printed and unread.** A test loop's comment said *"EPOP 58.5..60.4"* while `range(85,105)` swept **8.5–10.4**. The failure demo printed `missed at EPOP = [8.8, 9.3, ...]` — impossible values for an employment-population ratio — and the count was quoted off it without the values beside it being read.
+
+🔑 **The generalization, and why the earlier eight forms did not catch these.** Forms 1–8 describe an *instrument* pointed at a wrong referent. **These are the SENTENCE around a correct instrument output.** Value-level verification — re-pull, recompute, cross-check the primary — passes on all five, because the values were never wrong. ⛔ **Self-review that tests values stops at the sentence boundary, and that is where every reviewer entered.**
+
+**The pre-write question that would have caught all five is not *"is this number right?"* but *"what is this a number OF, and is that the object the question was about?"*** State the object separately from the value — **which series, which vintage, which horizon, which sample, which domain** — before publishing either.
+
+⚠️ **Density note, consistent with the 8/23 CORRECTION-SITE lesson at the top of this file:** four of the five were introduced *by repair passes* — a fix commit, a corrective reprice, a test written to prove a fix. **A correction pass is unreviewed work** (`[[finding_a_correction_pass_is_unreviewed_work]]`), and the wrong-object error is its characteristic defect because the author is concentrating on the value they just fixed.
+
