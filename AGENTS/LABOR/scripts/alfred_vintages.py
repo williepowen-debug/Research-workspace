@@ -77,12 +77,19 @@ FIRST_REF = "2023-01"
 OBS_START = "2022-06-01"
 RT_START = "2023-02-01"          # first vintage that can contain 2023-01
 
-# (published headline in thousands) — graded at the primary by LABOR
+# Validation anchors, PINNED TO EXPLICIT VINTAGE DATES.
+# ⚠️ These were originally written as ("2026-07", "current", 21) — a fixed number
+# compared against WHATEVER IS CURRENT WHEN THE SCRIPT RUNS. Because the fetch runs
+# through 9999-12-31, the next legitimate revision to July would have made the gate
+# exit 2 and blocked the build. A validation anchor must name a FIXED historical
+# release; "current" is not a fixed object. (CODEX review, 2026-09-07.)
+# (ref_month, vintage_date, published headline in thousands)
 ANCHORS = [
-    ("2026-07", "first", -23),
-    ("2026-07", "current", 21),
-    ("2026-06", "current", 31),
-    ("2026-08", "first", 162),
+    ("2026-07", "20260807", -23),    # July first print, as published 2026-08-07
+    ("2026-07", "20260904", 21),     # July as revised at the Aug release
+    ("2026-06", "20260904", 31),     # June as revised at the Aug release
+    ("2026-08", "20260904", 162),    # August first print
+    ("2026-06", "20260702", 57),     # June first print — a second FIRST-stage anchor
 ]
 
 
@@ -158,6 +165,33 @@ def build():
     refs = sorted(r for r in pay if r >= FIRST_REF)
     all_vintages = sorted({v for vs in pay.values() for v in vs})
 
+    # --- RELEASE-STAGE INTEGRITY -------------------------------------------
+    # `vs[2]` is the THIRD AVAILABLE VINTAGE, which equals BLS's THIRD ESTIMATE only
+    # when the publication schedule was normal. It was not in late 2025: the 2025-10
+    # and 2025-11 reference months BOTH first appear in the SAME 2025-12-16 vintage,
+    # and 2025-09 first appears 2025-11-20 (~7 weeks late) — the lapse-in-
+    # appropriations disruption. For those months the first AVAILABLE observation is
+    # not BLS's first estimate, so "first→third available" and "first→third estimate"
+    # are DIFFERENT MEASUREMENTS and must not be pooled silently.
+    # Detection is structural, not a hardcoded date list:
+    #   (a) a vintage that introduces MORE THAN ONE reference month, or
+    #   (b) a first vintage landing >45 days after the reference month ends.
+    # Flagged months are reported SEPARATELY and excluded from the headline
+    # first→third aggregate. (CODEX review, 2026-09-07.)
+    introduces = {}
+    for ref in refs:
+        vs = list(pay[ref].keys())
+        if vs:
+            introduces.setdefault(vs[0], []).append(ref)
+
+    def disrupted(ref, first_v):
+        if len(introduces.get(first_v, [])) > 1:
+            return "MULTI-MONTH-RELEASE"
+        y, m = int(ref[:4]), int(ref[5:7])
+        eom = date(y + (m == 12), 1 if m == 12 else m + 1, 1)
+        fv = date(int(first_v[:4]), int(first_v[4:6]), int(first_v[6:8]))
+        return "LATE-FIRST-RELEASE" if (fv - eom).days > 45 else ""
+
     rows = []
     for ref in refs:
         vs = list(pay[ref].keys())
@@ -173,12 +207,13 @@ def build():
             "first_vintage": first_v,
             "first_print": headline(pay, ref, first_v),
             "third_vintage": third_v or "",
-            "third_print": headline(pay, ref, third_v) if third_v else None,
+            "third_available": headline(pay, ref, third_v) if third_v else None,
             "bench_vintage": bench_v or "",
             "benchmarked": headline(pay, ref, bench_v) if bench_v else None,
             "current_vintage": cur_v,
             "current": headline(pay, ref, cur_v),
             "n_vintages": len(vs),
+            "stage_flag": disrupted(ref, first_v) or "OK",
         })
 
     # --- regime, from FIRST PRINTS ONLY (pre-registered above) -----------------
@@ -194,8 +229,8 @@ def build():
 
     for r in rows:
         r["rev_first_to_third"] = (
-            None if r["third_print"] is None or r["first_print"] is None
-            else r["third_print"] - r["first_print"])
+            None if r["third_available"] is None or r["first_print"] is None
+            else r["third_available"] - r["first_print"])
         r["rev_first_to_current"] = (
             None if r["current"] is None or r["first_print"] is None
             else r["current"] - r["first_print"])
@@ -207,19 +242,16 @@ def build():
 
 
 def validate(pay, rows):
-    by = {r["ref_month"]: r for r in rows}
     bad = []
-    for ref, which, want in ANCHORS:
-        r = by.get(ref)
-        got = None if r is None else round(r["first_print"] if which == "first" else r["current"])
-        if got != want:
-            bad.append(f"{ref} {which}: reconstructed {got}, BLS published {want}")
-    print("  VALIDATION GATE — reconstruction vs BLS-published headlines")
-    for ref, which, want in ANCHORS:
-        r = by.get(ref)
-        got = None if r is None else round(r["first_print"] if which == "first" else r["current"])
+    print("  VALIDATION GATE — reconstruction vs BLS headlines, at PINNED vintages")
+    for ref, vintage, want in ANCHORS:
+        h = headline(pay, ref, vintage)
+        got = None if h is None else round(h)
         mark = "✅" if got == want else "❌"
-        print(f"    {mark} {ref} {which:8} reconstructed {got:>+6}K   published {want:>+6}K")
+        print(f"    {mark} {ref} @ vintage {vintage}  reconstructed {got if got is None else format(got,'+')}K"
+              f"   published {want:+}K")
+        if got != want:
+            bad.append(f"{ref} @ {vintage}: reconstructed {got}, BLS published {want}")
     if bad:
         print("\n  ❌ VALIDATION FAILED — the table does not reproduce published headlines:")
         for b in bad:
@@ -252,7 +284,8 @@ def summarize(rows):
     print(f"    {'cut':<28} {'n':>4} {'mean':>9} {'median':>8} {'SD':>7} {'SE':>7} {'neg/n':>9} {'min':>7} {'max':>7}")
     print(f"    {'-'*94}")
     cuts = [
-        ("ALL · first→third", lambda r: True, "rev_first_to_third"),
+        ("first→third (stage OK)", lambda r: r["stage_flag"] == "OK", "rev_first_to_third"),
+        ("first→third INCL disrupted", lambda r: True, "rev_first_to_third"),
         ("ALL · first→current", lambda r: True, "rev_first_to_current"),
         ("ALL · first→benchmarked", lambda r: r["bench_status"] == "BENCHMARKED", "rev_first_to_bench"),
         ("ACCELERATING · first→third", lambda r: r["regime"] == "ACCELERATING", "rev_first_to_third"),
@@ -279,22 +312,45 @@ def summarize(rows):
             diff = acc[1] - dec[1]
             se_d = (acc[6] ** 2 + dec[6] ** 2) ** 0.5
             t = diff / se_d if se_d else float("nan")
-            verdict = "INDISTINGUISHABLE" if abs(t) < 2 else "separated"
-            print(f"\n    REGIME TEST {lbl}: ACC {acc[1]:+.1f}K vs DEC {dec[1]:+.1f}K  "
-                  f"⇒ diff {diff:+.1f}K, SE(diff) {se_d:.1f}K, t = {diff:+.1f}/{se_d:.1f} = {t:+.2f}"
-                  f"  ⇒ {verdict}")
+            lo, hi = diff - 1.96 * se_d, diff + 1.96 * se_d
+            # ⚠️ WORDING IS THE FINDING. "no difference detected" != "no difference
+            # exists". n=13 vs 24 with an interval this wide leaves economically
+            # large effects unresolved; an equivalence claim would need a declared
+            # margin and precision enough to exclude it. Earlier drafts of this
+            # build said "the split does not exist in this data" — withdrawn.
+            verdict = ("NOT DETECTED (not the same as absent)" if abs(t) < 2
+                       else "separated")
+            print(f"\n    REGIME TEST {lbl}: ACC {acc[1]:+.1f}K (n={acc[0]}) vs DEC {dec[1]:+.1f}K (n={dec[0]})"
+                  f"  ⇒ diff {diff:+.1f}K, SE {se_d:.1f}K, t = {diff:+.1f}/{se_d:.1f} = {t:+.2f}"
+                  f"\n      95% interval on the difference ≈ [{lo:+.0f}K, {hi:+.0f}K]  ⇒ {verdict}")
 
     # RED-23 asked for exactly this distribution and declared its own confidence
     # UNCALIBRATED for want of it. July-2026's place in it is the answer.
+    # ⚠️ RED-23 resolves on August's THIRD PRINT, so the relevant distribution is
+    # first→THIRD. An earlier version of this block ranked July on first→CURRENT and
+    # reported "44/44, the most upward-revised month" as if it calibrated RED-23.
+    # That mixes horizons: older months have absorbed annual revisions July has not,
+    # and JULY HAS NO first→third VALUE AT ALL (only 2 vintages exist). On the
+    # correct cut, +74K (2023-12), +67K (2024-12) and +49K (2023-07) all exceed
+    # July's +44K. Corrected 2026-09-07 (CODEX review) — the packet built on the
+    # wrong version went to RED and was retracted.
     jul = next((r for r in rows if r["ref_month"] == "2026-07"), None)
-    ft = sorted(r["rev_first_to_current"] for r in rows if r["rev_first_to_current"] is not None)
-    if jul and jul["rev_first_to_current"] is not None:
+    ft3 = sorted(r["rev_first_to_third"] for r in rows
+                 if r["rev_first_to_third"] is not None and r["stage_flag"] == "OK")
+    cur = sorted(r["rev_first_to_current"] for r in rows if r["rev_first_to_current"] is not None)
+    if jul:
+        print(f"\n    RED-23 / 2026-07 — REPORTED ON BOTH CUTS, LABELLED:")
         v = jul["rev_first_to_current"]
-        rank = sum(1 for x in ft if x <= v)
-        print(f"\n    RED-23 / 2026-07: first {jul['first_print']:+.0f}K → current "
-              f"{jul['current']:+.0f}K = {v:+.0f}K, rank {rank}/{len(ft)} "
-              f"({rank/len(ft)*100:.0f}th pct) — the MOST UPWARD-revised month in the sample."
-              f" A 60% confidence resting on n=1 rests on the opposite tail from the systematic bias.")
+        rank = sum(1 for x in cur if x <= v)
+        print(f"      first→CURRENT: {jul['first_print']:+.0f}K → {jul['current']:+.0f}K = {v:+.0f}K, "
+              f"rank {rank}/{len(cur)} — largest upward move on THIS cut, but July sits at its "
+              f"2nd estimate while older months carry annual revisions. NOT RED's horizon.")
+        if jul["rev_first_to_third"] is None:
+            top = sorted(ft3, reverse=True)[:3]
+            print(f"      first→THIRD (RED's horizon): 2026-07 HAS NO VALUE — only "
+                  f"{jul['n_vintages']} vintages exist; its third estimate is unpublished.")
+            print(f"      Upward tail on that cut exceeds July's +44K: "
+                  f"{', '.join(f'{x:+.0f}K' for x in top)} (n={len(ft3)}, stage-OK only).")
 
     pend = sum(1 for r in rows if r["bench_status"] == "PENDING")
     print(f"\n    PENDING benchmark (excluded from the benchmark cut, never counted as 0): {pend}")
@@ -302,9 +358,9 @@ def summarize(rows):
 
 
 def write_tsv(rows):
-    cols = ["ref_month", "regime", "first_vintage", "first_print", "third_vintage",
-            "third_print", "bench_vintage", "benchmarked", "bench_status",
-            "current_vintage", "current", "rev_first_to_third",
+    cols = ["ref_month", "regime", "stage_flag", "first_vintage", "first_print",
+            "third_vintage", "third_available", "bench_vintage", "benchmarked",
+            "bench_status", "current_vintage", "current", "rev_first_to_third",
             "rev_first_to_bench", "rev_first_to_current", "n_vintages"]
     OUT_TSV.parent.mkdir(parents=True, exist_ok=True)
     with open(OUT_TSV, "w") as f:

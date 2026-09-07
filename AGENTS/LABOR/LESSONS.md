@@ -32,6 +32,26 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
+## L-29 — Every defect found in me on 2026-09-07 was in the sentence NAMING what a figure was a figure OF, never in the figure
+
+**n=5 in one session, across two domains (analysis and tooling), all caught by reviewers, none by me.**
+
+| # | The figure | The sentence around it |
+|---|---|---|
+| 1 | July 2026 `−23K → +21K = +44K`, rank 44/44 — **correct** | Offered as calibration for **RED-23, which resolves on first→THIRD**. On that cut July **has no value at all** (2 vintages) and +74K/+67K/+49K beat it. I named the right cut one paragraph earlier. |
+| 2 | `diff −3.4K, SE 18.7K, t = −0.18` — **correct** | Reported as *"the split does not exist in this data."* The 95% CI is **[−40K, +33K]**. **Not detected ≠ absent.** |
+| 3 | Feb-2026 current vintage `−156K` — **correct** | Called HAWK's `−92K` *"stale by 64K"* — equating a **first-print** statement with a **current-vintage** level, one message after reading RED's explicit written fence against exactly that. |
+| 4 | `58.9 − 59.2 <= −0.3` passes — **correct** | Reported as *"the boundary is falsified."* It was **one fixture on the lucky side of a float comparison**; `59.1 − 59.4` fails, and **12 of 20** boundary levels missed T-03. |
+| 5 | `range(85,105)`, 20 levels, all pass — **correct** | Comment said *"EPOP 58.5 .. 60.4."* It tested **8.5–10.4**. I then published a failure count off it and printed `missed at EPOP = [8.8, 9.3, …]` — impossible values for this series — without reading them. |
+
+**The rule I am taking from it:** a verified number does not verify the claim it is embedded in. **Before publishing a figure, state the object separately from the value** — *which series, which vintage, which horizon, which domain, which sample* — and check the object against the question actually asked. My verification discipline runs on values and stops at the sentence boundary; every reviewer this session entered through that gap.
+
+⚠️ **Why it will recur without a mechanism.** All five passed my own checks *because my checks test values*. Four came from outside review and one from a peer's fence I had already read and quoted. **Self-review at the value layer cannot catch a wrong-object claim** — the value is right. → the pre-write question is now **"what is this a number OF, and is that what was asked?"**, not "is this number right?"
+
+🔗 Extends **L-25** (a corrective inherits the anchor it corrects) and the 2026-08-28 `~7×` rule in `CLAUDE.md` § OUTPUT RULES — *"the figures were fine; the prose about them was not."* **That was n=1 and a rule. This is n=5 in a day and a measured pattern.** Related: `[[finding_instrument_reports_clean_against_the_wrong_reference]]` · `[[finding_level_and_rate_look_like_agreement_until_you_name_which]]` · `[[finding_float_precision_empties_the_tie_set_and_voids_the_operator]]`.
+
+---
+
 ## L-28 — A claim can do every job a prediction does without ever being one; then no gate runs on it and no scoreboard ever sees it
 
 **Bought 2026-09-04, and not by any check I own — by Will asking "why did we believe the headline call originally?"**

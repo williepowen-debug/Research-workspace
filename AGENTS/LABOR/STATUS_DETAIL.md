@@ -412,3 +412,27 @@
 Moved to buy read-cap headroom; the live 4% / as-made 65% stay on STATUS. Row as it stood:
 
 | LAB-08 | BLS benchmark revision >500K downward | 🔧 **4%** *(live diagnostic; **scores AS-MADE at 65%**)* · **Status: `OPEN` — due Q1-2027** | 🔴 **GRADED-BUT-NOT-RESOLVED 2026-08-28 off card §4 BAND E.** Path: **65% as-made (2026-02-18) → 35% (8/07, 21d pre-print, gate #14 unforced arithmetic) → 15% (8/27 11:12, BLS-primary verification) → 4% (8/28, … |  *[carried: −79,000 · 0.61 · 0.95 · 6.33 · 0.275 · 0.65]* |
+
+
+<a id="pickup-rotated-20260907"></a>
+## § `pickup-rotated-20260907` — PICKUP items rotated from STATUS.md 2026-09-07 (verbatim, no figure changed)
+
+Rotated for read-cap headroom; items 2 and 7 were CLOSED, item 5(b) completed 9/7. Text as it stood:
+
+2. 🔴 **CARD-DESIGN DEFECT, L-18 class, logged not fixed:** NFP card §3b's U-3×LFPR table does not PARTITION — the realized cell (U-3 ≤4.1 with LFPR **UP**) had no pre-committed assignment, and the card's ≤4.1 row assumed LFPR *down*. Zero score was taken. **Every future card's band set must be checked for exhaustion on the axis it grades, not just for the branches the thesis expects** (L-17: the branch that "cannot happen" is the one you forgot to enumerate). Fold into `LESSONS.md` as L-27 next session.
+
+5. 🟡 **PARKED, fold-by 2026-09-05 (tomorrow):** (a) **OBLIGATION-DIFF pass** on the BD-25 split per PROME 9/2 packet; (b) **DAEDALUS route-around fix** — amend `CLAUDE.md` L121/L291 to route SIGNALS via WALTER, then re-run `walter_route_check.py` for rc=0. Both deliberately deferred past the NFP window; **the window is now closed, so these are due.**
+
+7. 🟢 **Attribution bar LIFTED 9/4** (card §6) — released by TYPE: two independent witnesses (Type-A CES, Type-B CPS) agreed on strength, household side on a **growing** labor force.
+
+
+<a id="calendar-graded-20260907"></a>
+## § `calendar-graded-20260907` — MONITORING CALENDAR graded rows rotated from STATUS.md 2026-09-07 (verbatim)
+
+Rotated for read-cap headroom. All three were GRADED and closed; no figure changed in the move.
+
+| ✅ 🟡 **Wed Sep 2** | **OPM RIF final rule effective** (FR 2026-15665) | 🔒 **PRE-COMMITTED 9/1, held 9/2: MECHANISM change, not a threshold. Vector 12 does NOT move on the rule, nor on a federal payroll line alone (BD-17) — only if separations also appear in UCFE.** Test frozen on the NFP card §3e. *Full row → `STATUS_DETAIL.md` § `session-superseded-20260902`.* |
+
+| ✅ 🟢 **Thu Sep 3** ×2 | **Initial claims w/e Aug 29 · ISM Services PMI August** | **206K / MA 207.2K, CC 1,779K** → NO-ACTION band; **ISM Svs Emp 47.8** → v3 HOLDS at 2. Both graded off frozen cards, both NO score movement. **Full rows → `STATUS_DETAIL.md` § `calendar-graded-20260903`** (rotated 9/4, verbatim). |
+
+| ✅ 🔴 **Fri Sep 4 08:30** | **NFP August** — **GRADED off `docket/graded/GRADING_CARD_20260904_NFP.md`** (frozen 9/2, ~36h ahead) | **+162,000 · U-3 4.1% unchanged · LFPR 61.6% (+0.2) · EPOP 59.1% (+0.2) · LF +683K · Jun/Jul revised +55,000 net (Jul −23K → +21K).** Card §3a band **+150K–302K ⇒ NO VECTOR MOVES.** **NOTHING FIRED**: Kill A 0/3 · T-06 both legs ✗ · **T-03 ✗ (needed ≤58.9, printed 59.1)** · T-04 ✗ · T-08 ✗ · T-13 ✗ · LAB-12 unresolved. **Moved: v8 restore counter 0→1 of 2** (net revisions ≥0). **Score 29/75 UNCHANGED.** Both questions the row asked are answered — **−23K did NOT survive revision, and the labor force STOPPED shrinking (+683K).** |
