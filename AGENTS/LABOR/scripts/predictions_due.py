@@ -55,6 +55,42 @@ def parse_timeframe(tf):
     year_m = re.search(r"(20\d{2})", s)
     year = int(year_m.group(1)) if year_m else None
 
+    # --- explicit override, highest priority -------------------------------
+    # `resolve-by YYYY-MM-DD` anywhere in the Timeframe wins over every label
+    # heuristic below. This is the unambiguous machine field; use it on new rows.
+    ov = re.search(r"resolve[-\s]?by\s*[:=]?\s*(20\d{2})-(\d{2})-(\d{2})", low)
+    if ov:
+        return date(int(ov.group(1)), int(ov.group(2)), int(ov.group(3))), "explicit resolve-by"
+
+    # --- PUBLICATION clause beats the OBSERVATION label --------------------
+    # A row like "Sep-Nov 2026 obs (prints Oct 2 / Nov 6 / Dec 4)" names an
+    # OBSERVATION window and, separately, the RELEASES that resolve it. The month
+    # -range branch below reads only the label and returns 2026-11-30 — four days
+    # BEFORE the final registered release. On Dec 1 the scanner then prints
+    # "OVERDUE — resolve this session" for a row that cannot be resolved yet,
+    # and the unparsed bucket cannot help because the string parses FINE, just to
+    # the wrong object. Confusing an observation month with a publication date is
+    # the same class as grading a revisable series without naming its vintage
+    # (WQ-175 clause 2). Found by CODEX on LAB-18/LAB-19, 2026-09-07.
+    pr = re.search(r"print(?:s|ed)?\b([^)]*)", low)
+    if pr and year:
+        # Publication FOLLOWS observation, so a print month EARLIER than the start
+        # of the observation window belongs to the NEXT year. Roll each candidate
+        # BEFORE taking the max — rolling the max instead picks the wrong winner
+        # ("Nov-Dec 2026 obs (prints Dec 4 / Jan 8)" -> Dec 4, when Jan 8 2027 is
+        # the real deadline, because Jan 8 2026 sorts below Dec 4 2026).
+        first_obs = re.search(r"([a-z]{3,9})\s*[-–]", low)
+        obs_start = MONTHS.get(first_obs.group(1)[:3]) if first_obs else None
+        cands = []
+        for pm in re.finditer(r"([a-z]{3,9})\.?\s+(\d{1,2})\b", pr.group(1)):
+            key = pm.group(1)[:3]
+            if key in MONTHS:
+                mon = MONTHS[key]
+                yr = year + 1 if (obs_start and mon < obs_start) else year
+                cands.append(date(yr, mon, int(pm.group(2))))
+        if cands:
+            return max(cands), "last registered release"
+
     # "Mon D YYYY"  e.g. "Jun 6 2026"
     m = re.search(r"([A-Za-z]{3,9})\.?\s+(\d{1,2})[,]?\s+(20\d{2})", s)
     if m and m.group(1).lower()[:3] in MONTHS:

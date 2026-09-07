@@ -96,6 +96,7 @@ def main():
     print(f"#{'':^70}#")
     print(f"{'#'*72}")
 
+    ledger_alert = False
     # --- Live ledger staleness check (frozen ledgers excluded; VX/FLOW are archived) ---
     # KB.tsv REVIVED to LIVE 2026-07-10 (Will-approved) — state (b) per fleet Data Hygiene
     # doctrine requires this boot-time mtime alert so it can't silently rot again (the L-04 trap).
@@ -129,11 +130,21 @@ def main():
         )
         if out_ls and out_ls.strip():
             print(out_ls.rstrip())
+        # ⚠️ 2026-09-07 (CODEX review): rc_ls was CAPTURED AND NEVER USED. The ledger
+        # check printed its verdict and boot returned 0 regardless — so a stale-ledger
+        # alert was advisory text that no exit code carried. A check that only PRINTS
+        # gets overridden: finding_a_check_that_only_advises_is_overridden_the_control_
+        # is_downstream. It must reach the aggregate the same way a sub-script does.
+        if rc_ls not in (0,):
+            ledger_alert = True
     except Exception as exc:  # fail LOUD, never silently "fresh"
         print(f"  ⚠️  LEDGER STALENESS CANNOT-VERIFY: {exc} — treat ledgers as UNKNOWN, not fresh")
+        # CANNOT-VERIFY is not a pass. Before 2026-09-07 this branch printed and the
+        # run still exited 0 — the exact fail-open the message text warns against.
+        ledger_alert = True
 
     results = []
-    alert = False
+    alert = ledger_alert
 
     for label, script_name, args in BOOT_SEQUENCE:
         script_path = SCRIPTS_DIR / script_name
@@ -163,6 +174,13 @@ def main():
             status = "FAIL"
         elif stderr_warned:
             status = "WARN"
+        elif rc == 2:
+            # 2026-09-07 (CODEX review): rc==2 IS this repo's alert convention, and it
+            # fell through to "OK" here. So a STALE spine gate — the one condition B2a
+            # exists to raise — printed "✅ Spine Freshness Gate  OK" in the summary
+            # while boot returned 2. The aggregate was right and the row LIED, which is
+            # worse than a silent failure: the reader checks the row, not the exit code.
+            status = "ALERT"
         else:
             status = "OK"
         results.append((label, status, elapsed))
@@ -173,7 +191,7 @@ def main():
     print(f"\n  {'Script':<24} {'Status':>8} {'Time':>8}")
     print(f"  {'-'*42}")
     for label, status, elapsed in results:
-        icon = "✅" if status == "OK" else "❌"
+        icon = {"OK": "✅", "ALERT": "🔴", "WARN": "⚠️ ", "FAIL": "❌"}.get(status, "❌")
         print(f"  {icon} {label:<22} {status:>6} {elapsed:>6.1f}s")
 
     print(f"\n  Total boot time: {time.time()-start_time:.1f}s | {now.strftime('%Y-%m-%d %A')}")

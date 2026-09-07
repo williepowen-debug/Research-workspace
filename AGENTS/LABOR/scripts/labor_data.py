@@ -90,8 +90,8 @@ def fetch_series(series_id, periods=4):
 def fmt_value(kind, val):
     if val is None:
         return "n/a"
-    if kind == "rate":
-        return f"{val:.1f}%"
+    if kind in ("rate", "epop"):   # 'epop' added 2026-09-07 — without it the verbose
+        return f"{val:.1f}%"       # history block printed EPOP 59.4 as "59K" (CODEX #4)
     # claims + level series are in thousands in FRED
     return f"{val:,.0f}K"
 
@@ -149,18 +149,36 @@ def assess(series_id, kind, obs):
         # so a FLAT print can fire one. Referents are obs[3] (3-mo) and obs[6] (6-mo);
         # verified 2026-09-07 against STATUS: 59.1 - 59.2 = -0.1pp (3m, May referent)
         # and 59.1 - 59.3 = -0.2pp (6m, Feb referent), reproducing both published values.
-        d3 = (val - obs[3][1]) if len(obs) > 3 and obs[3][1] is not None else None
-        d6 = (val - obs[6][1]) if len(obs) > 6 and obs[6][1] is not None else None
-        if d3 is None or d6 is None:
+        # ⚠️ EXACT ARITHMETIC IN INTEGER TENTHS — NOT float subtraction.
+        # EPOP is published to ONE decimal, and these triggers compare to exact
+        # boundaries (-0.3, -0.5). Binary float makes that comparison VALUE-DEPENDENT:
+        #     59.1 - 59.4 = -0.29999999999999716  -> <= -0.3 is FALSE  (T-03 missed)
+        #     58.9 - 59.2 = -0.30000000000000426  -> <= -0.3 is TRUE   (T-03 fires)
+        # Same -0.3pp move, opposite verdicts, and BOTH display as "-0.3" — so the
+        # printed evidence contradicted the verdict on exactly half the boundary.
+        # This shipped on 2026-09-07 and my own 8 guard tests PASSED, because the
+        # fixture I chose (58.9/59.2) happened to land on the lucky side.
+        # ⇒ finding_float_precision_empties_the_tie_set_and_voids_the_operator.
+        # A single boundary fixture is a SAMPLE, not a proof, when the operator is
+        # float. Integer tenths removes the class rather than sampling it.
+        # Found by CODEX review; regression fixtures in tests/test_epop_thresholds.py
+        # sweep the WHOLE boundary class, not one pair.
+        def tenths(x):
+            return int(round(x * 10))
+        t_now = tenths(val)
+        t3 = tenths(obs[3][1]) if len(obs) > 3 and obs[3][1] is not None else None
+        t6 = tenths(obs[6][1]) if len(obs) > 6 and obs[6][1] is not None else None
+        if t3 is None or t6 is None:
             # A short/gappy history cannot demonstrate the ABSENCE of a decline.
             # Fail loud: never let insufficient data print as 🟢.
             disp = f"{val:.1f}%  (Δ unavailable — history short)"
             return disp, "⚠️"
-        disp = f"{val:.1f}%  (3m {d3:+.1f} · 6m {d6:+.1f})"
-        if d6 <= -0.5 and d3 <= -0.3:
-            flag = "🔴"   # T-04
-        elif d3 <= -0.3:
-            flag = "🟠"   # T-03
+        d3, d6 = t_now - t3, t_now - t6          # integer tenths of a pp
+        disp = f"{val:.1f}%  (3m {d3/10:+.1f} · 6m {d6/10:+.1f})"
+        if d6 <= -5 and d3 <= -3:
+            flag = "🔴"   # T-04: >=0.5pp over 6m AND >=0.3pp over 3m
+        elif d3 <= -3:
+            flag = "🟠"   # T-03: >=0.3pp over 3m
         else:
             flag = "🟢"
     elif series_id == "PAYEMS" and prev is not None:
