@@ -7,6 +7,16 @@ Pulls the LABOR-domain FRED series via the shared market-data tool
 flags wired to STATUS.md KEY THRESHOLDS. Self-contained under AGENTS/LABOR/;
 no shared-file edits required (fetch.py accepts arbitrary FRED series).
 
+WIRING BASIS: STATUS.md § KEY THRESHOLDS as of 2026-09-07.
+⚠️ This claim rots silently. Between 2026-08-07 (BD-15 demoted U-3 to a reported
+gauge and moved T-03/T-04 to EPOP) and 2026-09-07, this file kept firing the
+RETIRED U-3 level bars and did not fetch EMRATIO at all — so for 31 days the boot
+could raise a 🔴 on a trigger that no longer existed while the live gauge was
+invisible, and the docstring above asserted it was wired the whole time.
+A guard being CORRECT and a guard being WIRED TO THE DECLARED REFERENCE are
+independent properties (finding_guard_correctness_and_wiring_are_independent).
+⇒ When a KEY THRESHOLDS row changes, re-date this line and diff the branches below.
+
 Usage:
   .venv/bin/python3 AGENTS/LABOR/scripts/labor_data.py
   .venv/bin/python3 AGENTS/LABOR/scripts/labor_data.py --verbose   # show history rows
@@ -35,7 +45,8 @@ LABOR_SERIES = [
     ("IC4WSA",    "Initial Claims 4-wk MA",      "claims",    "DOL"),
     ("CCSA",      "Continuing Claims (1wk lag)",  "claims",    "DOL"),
     ("PAYEMS",    "NFP total (MoM Δ)",            "level_mom", "BLS"),
-    ("UNRATE",    "U-3 unemployment",             "rate",      "BLS"),
+    ("EMRATIO",   "EPOP ratio (T-03/T-04)",       "epop",      "BLS"),
+    ("UNRATE",    "U-3 (reported gauge only)",     "rate",      "BLS"),
     ("U6RATE",    "U-6 underemployment",          "rate",      "BLS"),
     ("CIVPART",   "Labor force participation",    "rate",      "BLS"),
     ("JTSJOL",    "JOLTS openings (MoM Δ)",       "level_mom", "BLS"),
@@ -44,6 +55,12 @@ LABOR_SERIES = [
     ("JTSLDL",    "JOLTS layoffs/disch (MoM Δ)",  "level_mom", "BLS"),
     ("TEMPHELPS", "Temp help svcs (MoM Δ)",       "level_mom", "BLS"),
 ]
+
+# Series needing deeper history than the default fetch window.
+# EMRATIO carries T-03 (3-month Δ) and T-04 (6-month Δ), so it needs the current
+# observation plus 6 prior months = 7. A short fetch cannot be allowed to look
+# like "no decline" — assess() reports CANNOT-VERIFY rather than a 🟢 if it is short.
+MIN_PERIODS = {"EMRATIO": 7}
 
 
 def fetch_series(series_id, periods=4):
@@ -111,10 +128,39 @@ def assess(series_id, kind, obs):
         disp = f"{val/1000:,.0f}K"
         flag = "🟢" if val < 1_900_000 else "🟠"
     elif series_id == "UNRATE":
-        if val >= 5.0:
-            flag = "🔴"   # structural bid break
-        elif val >= 4.7:
-            flag = "🟠"
+        # ⛔ NO FLAG BY DESIGN. U-3 was DEMOTED TO A REPORTED GAUGE on 2026-08-07
+        # (BD-15); STATUS § KEY THRESHOLDS: "It no longer carries a trigger."
+        # The retired bars were `>=4.7 -> T-03` and `>=5.0 -> T-04`; measured
+        # 1990-2026, a 4.7% LEVEL bar fired in 65.4% of ALL months and separated
+        # recession from non-recession by only +12.9pp. Both moved to EPOP below.
+        # This branch printed 🔴/🟠 off those retired bars until 2026-09-07 and fed
+        # the rc=2 path, i.e. the boot could raise a RED on a trigger that no longer
+        # exists while the live gauge was not fetched at all.
+        # ⚠️ Do NOT restore a flag here without a STATUS KEY THRESHOLDS row to wire it to.
+        flag = ""
+        disp = f"{val:.1f}%  (no trigger)"
+    elif series_id == "EMRATIO":
+        # LIVE trigger gauge since 2026-08-07 (BD-15), replacing the retired U-3 bars.
+        # STATUS § KEY THRESHOLDS:
+        #   T-03 🟠 = EPOP fell >=0.3pp over 3 months          -> CARL + HENRY
+        #   T-04 🔴 = EPOP fell >=0.5pp over 6 months AND >=0.3pp over 3 months
+        #                                                      -> HENRY + REGINALD
+        # Both are Δ-over-a-WINDOW, not level bars: the far end of the window rolls,
+        # so a FLAT print can fire one. Referents are obs[3] (3-mo) and obs[6] (6-mo);
+        # verified 2026-09-07 against STATUS: 59.1 - 59.2 = -0.1pp (3m, May referent)
+        # and 59.1 - 59.3 = -0.2pp (6m, Feb referent), reproducing both published values.
+        d3 = (val - obs[3][1]) if len(obs) > 3 and obs[3][1] is not None else None
+        d6 = (val - obs[6][1]) if len(obs) > 6 and obs[6][1] is not None else None
+        if d3 is None or d6 is None:
+            # A short/gappy history cannot demonstrate the ABSENCE of a decline.
+            # Fail loud: never let insufficient data print as 🟢.
+            disp = f"{val:.1f}%  (Δ unavailable — history short)"
+            return disp, "⚠️"
+        disp = f"{val:.1f}%  (3m {d3:+.1f} · 6m {d6:+.1f})"
+        if d6 <= -0.5 and d3 <= -0.3:
+            flag = "🔴"   # T-04
+        elif d3 <= -0.3:
+            flag = "🟠"   # T-03
         else:
             flag = "🟢"
     elif series_id == "PAYEMS" and prev is not None:
@@ -152,9 +198,10 @@ def main():
     print(f"  {'-'*78}")
 
     red_fired = []
+    cannot_verify = []
     fetch_failures = 0
     for series_id, label, kind, src in LABOR_SERIES:
-        obs, err = fetch_series(series_id, periods)
+        obs, err = fetch_series(series_id, max(periods, MIN_PERIODS.get(series_id, 0)))
         if err or not obs:
             print(f"  {label:<30} {'ERROR: ' + (err or 'no data'):>26}  ⚠️")
             fetch_failures += 1
@@ -164,6 +211,15 @@ def main():
         print(f"  {label:<30} {disp:>26}  {flag:<4} {asof:<11} [{src}]")
         if "🔴" in flag:
             red_fired.append((label, disp, asof))
+        elif "⚠️" in flag:
+            # The fetch SUCCEEDED but the series cannot be assessed (newest value
+            # null, or history too short for a windowed trigger). Root canon and
+            # spine_check.py both hold that a failure to verify is CANNOT-VERIFY,
+            # never a pass — so this must suppress the all-clear exactly as a
+            # network failure does. Before 2026-09-07 it did not: `fetch_failures`
+            # only counted `err`, so a null latest value printed ⚠️ on its own row
+            # and "✅ No RED thresholds breached this sweep" underneath it.
+            cannot_verify.append((label, asof))
         if verbose and len(obs) > 1:
             for d, v in obs[1:]:
                 print(f"      {'':28} {fmt_value(kind, v):>26}  {'':4} {d}")
@@ -172,22 +228,28 @@ def main():
     print(f"\n  {'-'*78}")
     print("  THRESHOLD NOTES (wired to STATUS KEY THRESHOLDS):")
     print("    • Initial claims: >300K single → FIRE 🔴 (CARL/REGINALD/HENRY; all ORANGE→RED); 251-300K single → ARM provisional (confirm 2nd consecutive >250K); 230-250K → accelerating — apply premortem for the action")
-    print("    • U-3  >5.0% → HENRY structural bid break")
+    print("    • EPOP T-03 🟠 = fell ≥0.3pp over 3mo → CARL+HENRY · T-04 🔴 = fell ≥0.5pp over 6mo AND ≥0.3pp over 3mo → HENRY+REGINALD")
+    print("    • U-3  NO TRIGGER — demoted to a reported gauge 2026-08-07 (BD-15); triggers live on EPOP above")
     print("    • NFP  ≥200K x3 consecutive → Kill A (bull falsification of bearish thesis)")
     print("    • DOGE >400K → manual (not FRED); see STATUS dashboard")
 
     if fetch_failures:
         print(f"\n  ⚠️  {fetch_failures}/{len(LABOR_SERIES)} series FAILED to fetch — "
               f"sweep INCOMPLETE; do NOT read as all-clear (check venv/FRED/network).")
+    if cannot_verify:
+        print(f"\n  ⚠️  {len(cannot_verify)} series CANNOT-VERIFY (fetched, not assessable) — "
+              f"sweep INCOMPLETE; do NOT read as all-clear:")
+        for label, asof in cannot_verify:
+            print(f"     • {label} (latest obs {asof})")
     if red_fired:
         print(f"\n  🔴 {len(red_fired)} RED threshold flag(s) fired:")
         for label, disp, asof in red_fired:
             print(f"     • {label}: {disp} ({asof})")
-    elif not fetch_failures:
+    elif not fetch_failures and not cannot_verify:
         print("\n  ✅ No RED thresholds breached this sweep.")
 
     print(f"\n  → Report refreshed levels to Will before analysis.\n")
-    return 2 if (red_fired or fetch_failures) else 0
+    return 2 if (red_fired or fetch_failures or cannot_verify) else 0
 
 
 if __name__ == "__main__":
