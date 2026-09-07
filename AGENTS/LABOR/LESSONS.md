@@ -5,10 +5,12 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
-> 🔒 **HOT / COLD SPLIT 2026-08-28** (DAEDALUS P1 read-cap, Will-ruled). This file was **81,816 B = 251% of the 32,550 B budget** and is a **boot-mandated B3 read**, so it was **returning a partial file with no error**. **ROTATION 2 — 2026-09-04:** L-27 and L-28 were added the same day and pushed this file to **35,155 B, over the 32,550 B budget**; per the standing convention the three oldest full sections (**L-18, L-19, L-20**) were demoted to the index, **rules retained verbatim**, worked cases moved to `archive/LESSONS_ARCHIVE_2026-09-04_L18-L20_worked_cases.md`. **The 8 most recent lessons stay in FULL below. Every older lesson KEEPS ITS RULE, one line, in the index — only its worked case moved.** Full pre-split file, byte-for-byte, CRC32 `671ad173` re-hashed and verified: `archive/LESSONS_ARCHIVE_2026-08-28_pre-split.md`.
+> 🔒 **HOT / COLD SPLIT 2026-08-28** (DAEDALUS P1 read-cap, Will-ruled). This file was **81,816 B = 251% of the 32,550 B budget** and is a **boot-mandated B3 read**, so it was **returning a partial file with no error**. **ROTATION 3 — 2026-09-07:** L-30 added (the as-made audit); **L-21 and L-22** demoted to the index with their rules retained verbatim, worked cases → `archive/LESSONS_ARCHIVE_2026-09-07_L21_worked_case.md`. **ROTATION 2 — 2026-09-04:** L-27 and L-28 were added the same day and pushed this file to **35,155 B, over the 32,550 B budget**; per the standing convention the three oldest full sections (**L-18, L-19, L-20**) were demoted to the index, **rules retained verbatim**, worked cases moved to `archive/LESSONS_ARCHIVE_2026-09-04_L18-L20_worked_cases.md`. **The 8 most recent lessons stay in FULL below. Every older lesson KEEPS ITS RULE, one line, in the index — only its worked case moved.** Full pre-split file, byte-for-byte, CRC32 `671ad173` re-hashed and verified: `archive/LESSONS_ARCHIVE_2026-08-28_pre-split.md`.
 
 ## COLD INDEX — rules retained; worked cases in the archive
 
+- **L-22** — A figure you hand a peer in a PACKET is a publication with one consumer and no ledger row, and nothing in the closeout sweep watches it: `consumer_check` scans YOUR files, so a number that rots in someone else's tree is invisible — add the row to `PUBLISHED.tsv` with the recipient in `consumers` *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L21_worked_case.md`)*
+- **L-21** — The pathspec rule survives every commit that HAS files and dies on the one that doesn't: `--allow-empty` with no pathspec is functionally `git commit -a` on a shared index — the pathspec is the guard, not the target *(worked case → `archive/LESSONS_ARCHIVE_2026-09-07_L21_worked_case.md`)*
 - **L-18** — A frozen card's branch set must PARTITION on ONE surface, or your post-hoc judgment picks the winner *(generalised to two axes by L-27)*
 - **L-20** — A "what did I miss?" sweep is the query shape most vulnerable to date-inference failure
 - **L-19** — A CONSERVATIVE restatement gets no exemption from the check you would apply to the claim itself
@@ -29,6 +31,32 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 - **L-03** — DOGE/government YoY comps are base-effect-poisoned
 - **L-02** — Track the *revised* NFP series, not just the first print
 - **L-01** — Company-tier revenue ≠ industry employment
+
+---
+
+## L-30 — "Verified in git" names an ARTIFACT, and the artifact I verified against did not exist when the value I was verifying was set
+
+**Bought 2026-09-07, on my own calibration record, while sourcing a routine backfill.**
+
+`PREDICTIONS_SCOREBOARD.md` §A scores every prediction at its **as-made** confidence, says so in bold, explains *why* in three sentences, and states that the as-made was **"verified in git … not read off the current ledger value."** All of that was true. **Four of twelve rows were still scored at a walked-down number**, and the book's headline Brier was **0.299 when it should have been 0.342**.
+
+| | |
+|---|---|
+| **What I verified against** | `workbook/PREDICTIONS.tsv` |
+| **When that file was created** | **2026-03-04**, by a fleet-wide bulk seeding for 24 agents |
+| **What the seeding stamped** | `Date_Made = 2026-02-18` on **seven** LABOR rows at once |
+| **When six of those rows were actually live** | **2026-02-02**, in `STATUS.md`, at their true as-made values |
+| **What a walk-down between 2/02 and 3/04 does** | it is captured by the seeding **as if it were the registration value** |
+
+**So the verification could not have failed.** The ledger is downstream of the registration surface, and every later commit of it agrees with the first — which is what "verified across commits `b50c6ada`/`0838327f`" actually measured: **agreement among vintages that all postdate the event.** Corrections: **LAB-02 65→70 · LAB-05 55→70 · LAB-07 65→60 · LAB-13 30→55.**
+
+⇒ **The rule: "verified" is a two-part claim — the METHOD and the ARTIFACT — and only the method gets stated.** Before writing *verified*, name the artifact and ask **"did this artifact exist, in this form, at the moment the value I am checking was set?"** If it was created later, agreement inside it is not evidence about the event.
+
+⚠️ **The three second-order costs, because the number was never the worst of it.** (1) It changed **sentences about my own conduct**: LAB-05 at a walked-down 55% read as *"mild overconfidence on a coin-flip call"*; at its as-made 70% it is a high-conviction single-firm miss. (2) It **manufactured a finding**: "LAB-17 and LAB-13 are two consecutive correctly-hedged threshold calls" was the one genuinely new positive result in two months, and **LAB-13 was never a hedge**. (3) It **understated the book's central regularity** — 0-for-4 at ≥60%, not 0-for-5 — *in the very sentence used to justify a reprice*, which is L-25 one level down.
+
+🔒 **Mechanical fix, installed the same day** (a rule alone is what already failed): as-made comes from the **earliest `STATUS.md` blob** carrying the row's confidence cell — never the TSV for any row with `Date_Made` ≤ 2026-03-04, never a later commit of the TSV for any row. Written into `PREDICTIONS_SCOREBOARD.md` §A and §D.
+
+**Cross-refs:** L-29 (same shape, one day earlier — the figure is right and the sentence naming what it is a figure OF is wrong; **this is instance 6**) · L-25 (the corrective inherits its anchor) · `[[finding_instrument_reports_clean_against_the_wrong_reference]]` **n=25** · `[[finding_adoption_is_not_validation]]` · `[[finding_crosscheck_with_free_parameter_validates_nothing]]` — *a check whose reference postdates the event has a free parameter and cannot fail.*
 
 ---
 
@@ -62,7 +90,7 @@ For two sessions my sharpest published line was: **"T-03 fires on a FLAT EPOP pr
 
 ### The three things that follow, and they are all structural
 
-1. **No §C gate ever ran on it.** Every gate fires at *registration* (boot B4, *"before writing any NEW prediction"*). An unregistered claim is invisible to all fifteen. Gate **#3** — threshold-vs-mechanism — is the one that mattered: this was a **threshold** call, and my record is **0-for-4 at ≥60% on thresholds against 3-for-3 on mechanisms**. The single gate built for exactly this failure mode never saw it.
+1. **No §C gate ever ran on it.** Every gate fires at *registration* (boot B4, *"before writing any NEW prediction"*). An unregistered claim is invisible to all fifteen. Gate **#3** — threshold-vs-mechanism — is the one that mattered: this was a **threshold** call, and my record is **0-for-5 at ≥60% on thresholds against 3-for-3 on mechanisms** *(🔧 2026-09-07: was 0-for-4 here; the as-made audit moved LAB-05 into the ≥60% bucket)*. The single gate built for exactly this failure mode never saw it.
 2. **It cannot reach the calibration record.** `PREDICTIONS_SCOREBOARD.md` §A scores rows. The miss is real, public, and **invisible to my Brier** — so the book cannot learn from its most-published claim of the month.
 3. **The escalation asked the wrong question.** WQ-159 put *"should T-03 be retuned?"* to Will — a question about the threshold's **letter**. Nobody, me included, was ever asked **"how likely is it to fire?"** A claim can pass all the way to the operator and back without anyone attaching a number to it.
 
@@ -140,7 +168,7 @@ My card's §3b graded U-3 **jointly with LFPR** (correct — that is L-06, and g
 
 ## L-25 — A corrective is anchored to the number it is correcting, and no gate in this book ever re-grades the correction
 
-**The instance (2026-08-28, LAB-08).** On 2026-08-07 I repriced LAB-08 **65% → 35%**, 21 days before its gate, under §C gate #14. The reprice was *good* work by every process test it was built to pass: declared pre-print with a commit receipt, unforced (no new data — pure arithmetic nobody had run), symmetric, and it **explicitly cited LABOR's 0-for-4 record at ≥60% on threshold calls as its reason (c)**. Then the print landed at **−79,000**, card §4 **Band E**, whose pre-committed assignment is **4%**.
+**The instance (2026-08-28, LAB-08).** On 2026-08-07 I repriced LAB-08 **65% → 35%**, 21 days before its gate, under §C gate #14. The reprice was *good* work by every process test it was built to pass: declared pre-print with a commit receipt, unforced (no new data — pure arithmetic nobody had run), symmetric, and it **explicitly cited LABOR's 0-for-4 record at ≥60% on threshold calls as its reason (c)** *(quoted as cited; the record on corrected as-made values was already 0-for-5 — see the scoreboard §A audit 2026-09-07)*. Then the print landed at **−79,000**, card §4 **Band E**, whose pre-committed assignment is **4%**.
 
 🔴 **35% was still ~8.75× the honest number *(corrected 8/28: 35/4 = 8.75, not the asserted ~7)*. The corrective that was made *specifically because my threshold calls run too hot* was itself too hot, by the same failure mode, in the same direction.**
 
@@ -170,24 +198,3 @@ My card's §3b graded U-3 **jointly with LFPR** (correct — that is L-06, and g
 
 ---
 
-## L-22 — A figure you hand a peer in a PACKET is a publication with one consumer and no ledger row, and nothing in the closeout sweep watches it
-
-**The instance (2026-08-27).** At **10:53** I sent RED a correction: my live `LAB-08` was **35%**, not the 65% they had asked about. RED filed it at 10:57 and registered `RED-22` partly against it. At **11:12 — nineteen minutes later — `LAB-08` moved to 15%, and RED was never told.** The next boot found it, an hour on, only because three of RED's packets were still sitting unfiled in `inbox/` and I read them.
-
-**Why every existing guard missed it.** `consumer_check.py` scans **files** for a superseded value; the 35% never entered `PUBLISHED.tsv`, so there was no ledger row to check and no surface of mine carried it. `orphan_check.sh` was clean — the packet was committed and correctly delivered. **Delivery succeeded; the figure then rotted in someone else's tree.** The whole publisher-side apparatus is keyed on my own files, and a packet is the one publication that lives entirely in someone else's.
-
-**What made the cost real rather than cosmetic.** RED had pre-registered *"if A or B fires, LABOR was better calibrated and I will record that against my own scorecard"* — written believing I was **27pp above** them. At 15% vs their A+B of 40% **the credit ran the opposite way**, and it would have been recorded wrong on an event grading the next morning.
-
-**How to apply.** When a packet carries a **figure of mine** (not just an argument), treat sending it as publishing: add the row to `PUBLISHED.tsv` with the recipient named in `consumers`, so the closeout `consumer_check` can see it. And when a number moves, **re-read what I told people about it today before assuming my own files are the whole exposure** — the question is *"who did I hand this to?"*, not *"where does this appear?"* ⚠️ **Filing hygiene is load-bearing here and that is the non-obvious part:** the only reason this was caught is that RED's packets sat unfiled and forced a re-read. **Work done ≠ item closed** (L-16 again) — but this time the sloppiness paid, which is the least reliable way to catch anything.
-
----
-
-## L-21 — The pathspec rule survives every commit that HAS files, and dies on the one that doesn't
-**Pattern (2026-08-27, at my own closeout, ~15 minutes after writing L-19 about insufficient self-scrutiny).** I recorded a note-only commit as `git commit --allow-empty -F msg.txt` — **no pathspec.** TERRY had a rename staged in the shared `.git/index`. **My commit swept it up and pushed it**, so their archive move is permanently recorded under a LABOR message about ledger nudges.
-**The mechanism:** *"empty for me"* is not *"empty for the index."* **`--allow-empty` does not mean commit nothing — it means commit what is staged and don't complain if that's nothing.** With concurrent sessions on one index, **`--allow-empty` with no pathspec is functionally `git commit -a`.**
-**Why it failed exactly here:** every normal commit names files, so the pathspec gets written automatically. **A note-only commit has no files to name — so the parameter that carries the safety has nothing to hold, and omitting it feels grammatical rather than risky.** The rule was obeyed on all six pathspec'd commits I made today and skipped on the one where it was invisible.
-**Fix:** (1) **keep the pathspec even when it matches nothing** — `git commit --allow-empty -- AGENTS/LABOR/ -F msg`; **the pathspec is the guard, not the target.** (2) **Better: stop using empty commits for notes.** Append the note to a file I own and commit that by path — a note nobody can `git show --stat` is weak documentation anyway. (3) **`git show --stat HEAD` after any commit I did not pathspec.**
-**⛔ What NOT to do, and I didn't:** no `--amend` (root rule 4b; it was already pushed), no `reset` (rule 4, global unstage on a shared index), no revert-and-redo into TERRY's tree. **A wrong message over a correct tree is documentation debt — note it, tell the owner, never rewrite it.** TERRY and PROME both notified same session; the file content was untouched (pure rename, 0/0).
-**The RECEIVING end (TERRY, same incident, cited with permission) — because I only wrote the sender half:** the victim **cannot see this in `git status`.** It presents as ***"my staged work vanished without a commit of mine,"*** which reads like a **lost stash**. What exposed it was `git ls-tree HEAD` showing the file already moved while `git diff --cached` showed nothing staged — **present in HEAD, absent from the index, is the signature.** ⚠️ **The reflex cure for a lost stash — re-stage and re-commit — would have produced a DUPLICATE.** If staged work disappears, check `git log -- <path>` for someone ELSE's commit first.
-**TERRY's generalisation, stronger than my `--allow-empty` framing:** *"I have nothing staged"* is **never establishable by introspection** on a shared index. **The pathspec does not describe your intent — it bounds what the index may hand you.**
-**First seen:** 2026-08-27 closeout, commit `60eb91827`; TERRY annotated the same debt from their end at `543f36a74`, so `git log` on the affected path has a pointer either way. **Annotate from both ends.** Partner: `[[finding_pathspec_commit_race_safety]]`.

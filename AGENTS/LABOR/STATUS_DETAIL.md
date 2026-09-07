@@ -436,3 +436,64 @@ Rotated for read-cap headroom. All three were GRADED and closed; no figure chang
 | ✅ 🟢 **Thu Sep 3** ×2 | **Initial claims w/e Aug 29 · ISM Services PMI August** | **206K / MA 207.2K, CC 1,779K** → NO-ACTION band; **ISM Svs Emp 47.8** → v3 HOLDS at 2. Both graded off frozen cards, both NO score movement. **Full rows → `STATUS_DETAIL.md` § `calendar-graded-20260903`** (rotated 9/4, verbatim). |
 
 | ✅ 🔴 **Fri Sep 4 08:30** | **NFP August** — **GRADED off `docket/graded/GRADING_CARD_20260904_NFP.md`** (frozen 9/2, ~36h ahead) | **+162,000 · U-3 4.1% unchanged · LFPR 61.6% (+0.2) · EPOP 59.1% (+0.2) · LF +683K · Jun/Jul revised +55,000 net (Jul −23K → +21K).** Card §3a band **+150K–302K ⇒ NO VECTOR MOVES.** **NOTHING FIRED**: Kill A 0/3 · T-06 both legs ✗ · **T-03 ✗ (needed ≤58.9, printed 59.1)** · T-04 ✗ · T-08 ✗ · T-13 ✗ · LAB-12 unresolved. **Moved: v8 restore counter 0→1 of 2** (net revisions ≥0). **Score 29/75 UNCHANGED.** Both questions the row asked are answered — **−23K did NOT survive revision, and the labor force STOPPED shrinking (+683K).** |
+
+<a id="payroll-revision-bias"></a>
+## § `payroll-revision-bias` — rotated from STATUS.md 2026-09-07 (verbatim, no figure changed)
+
+📐 **PAYROLL REVISION BIAS — MEASURED 2026-09-07, MOVES NO THRESHOLD** (ALFRED build, WQ-175 ② / DOCKET L274; ledger `workbook/PAYROLL_VINTAGES.tsv`, 44 ref months 2023-01→2026-08; reconstruction validated **5/5** at PINNED vintages). Will's *"consistently revised lower"* is **CONFIRMED with a sign and a size:** first→current mean **−66.0K**, `−66.0/10.3 = −6.4` t, **35/44 = 79.5% DOWN** (sign P=5.3e-05); **first→third −33.5K** (`−33.5/8.8 = −3.8`, 28/39, **stage-OK only** — 2025-09/10/11 excluded, the lapse-disrupted releases where the 3rd AVAILABLE vintage ≠ BLS's 3rd ESTIMATE). ⚠️ **BY REGIME: NOT DETECTED — which is NOT the same as absent.** first→third `diff −3.4K / SE 18.7 ⇒ t = −0.18`, 95% CI **[−40K, +33K]**; first→current CI **[−61K, +34K]**. **n=13 vs 24 leaves economically large effects unresolved — say "this sample did not detect one," never "there is none."**
+
+<a id="pickup-1b-20260907"></a>
+## § `pickup-1b-20260907` — PICKUP 1b as it stood before the 2026-09-07 discharge session (verbatim)
+
+1b. 🆕 **DAEDALUS parity packet 2026-09-07 consumed (F1–F12).** DONE: **F1** brief reordered to schema amendment 12 (CROSS-DOMAIN byte 55,629 → **2,953**, verbatim, byte-multiset conserved) · **F5** both 9/25 obligations docketed · **F10** route-around leg A closed. ⏳ **DATED CARRY-FORWARD, next closeout:** ACTION 3 (6 undated SENDING rows + footer pin at `NEXUS_BRIEF.md:149`) · **4** (EXIT RULES kill-rail date stamp + Kill A run → 63/31/21/162, add EXIT RULES to C1's sweep) · **6** (BD-21 re-book n≥3, build the pre-freeze band-exhaustion check **before the 9/25 Oct-2 card freeze**) · **7** (strip ✅ from BD-14/BD-26, re-date 5 passed triggers) · **10** (`BUILD_DEBT.md` has TWO opposite discharge rules at `:10` and `:55`; 9 of 25 rows malformed vs the 6-col header) · **11** (**4 SCORED** `PREDICTIONS.tsv` rows carry the WALKED-DOWN confidence with no as-made mark — LAB-02/06/13/17 — **plus the OPEN row LAB-08**; five cells, four scored. *DAEDALUS COR-20260907-01 corrected its own "5 of 12 scored"; verified here — LAB-08 prints `OPEN`.*) · **12** (scoreboard §B/§D vintage drift). **F2 charter batch is WILL-GATED — propose as ONE batch; edit nothing in `CLAUDE.md` first.** ⚠️ **F2 is SEVEN contradictions, not eight** — the *"8 frameworks vs 10"* item is **withdrawn** (`:256` reads "8 primary + 2 supplementary" = 10 = `:292`; verified here, not relayed). **Drop it before proposing.**
+
+<a id="open-prediction-basis"></a>
+## § `open-prediction-basis` — LAB-12 / LAB-18 / LAB-19 derivations rotated from STATUS.md 2026-09-07 (verbatim, no figure changed)
+
+**LAB-12 — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| LAB-12 | U-3 ≥5.0% Q3-Q4 | 🔧 **8%** *(live; **scores AS-MADE 60%**)* | Q3-Q4 | 🔴 **REPRICED 30% → 8% on 9/4, gate #13-driven, ~2h after I held it at 30%.** Needs 4.1% → ≥5.0% = **0.9pp in ~4 prints**; base rate `11/302 = 3.64%` ex-covid 2000+ (4.78% incl covid) ⇒ **30/3.64 = 8.2×**. I wrote *"mechanism cuts both ways"* on the row and left the number — **gate #13's unpriced-update pattern, committed while quoting gate #13.** Conditioning worsens it: U-3 flat on LF **+683K** = absorption. 8% = base rate + the one genuine bull leg (a re-expanding LF is the denominator condition letting U-3 rise if hiring stalls). **L-25 echo — trigger was Will asking, not a check of mine.** |
+
+**LAB-18 — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| **LAB-18** 🆕 | **T-03 fires (EPOP 3-mo decline ≥0.3pp) on ≥1 of the 2026 prints** | **15%** | Sep–Nov obs | 🔒 **Registered 9/4 because the miss exposed that this call was NEVER a prediction** (L-28). **THRESHOLD call ⇒ capped far below 60 per gate #3** (0-for-4 zone). N=3, bars ROLL: **Sep ≤58.7 · Oct ≤58.6 · Nov ≤58.8** (referents Jun 59.0 / Jul 58.9 / Aug 59.1) = moves of −0.4/−0.5/−0.3 from 59.1. EPOP recent \|MoM\| mean **0.113**, max 0.3 ⇒ the firing move is **3–4× typical**; ≤−0.4 is **0/23** recent, `8/318 = 2.52%` since 2000. `0.85^(1/3) = 0.947` ⇒ ~5.3%/draw, and overlapping windows make 15% if anything generous. **Defeat: EPOP ≥58.9 through Nov.** |
+
+**LAB-19 — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| **LAB-19** 🆕 | **The Jun/Jul LF contraction REVERSED, not paused: LF MoM >0 in ≥2 of the 3 remaining 2026 prints** | **60%** | Sep–Nov obs | 🔒 **MECHANISM call (3-for-3 zone) — the deliberate counterpart to LAB-18, and it tests MY OWN CORE TENSION in the direction that would refute it.** Base rate `P(LF MoM>0)`: `203/317 = 64.0%` (2000+), **`11/22 = 50.0%` last 23mo**; ≥2-of-3 at p=.50 ⇒ 50%, at p=.64 ⇒ `0.64³+3(0.64²)(0.36) = 70.4%`. **60% sits between** — +683K is the largest LF gain in the sample and real regime evidence, but it is **one** observation. ⚠️ **≥2-of-3 is not survive-all — gate #12's per-draw cap does not bind here.** 🔴 **If TRUE, my CORE TENSION needs rewriting, said at registration.** |
+
+<a id="matrix-graded-20260907"></a>
+## § `matrix-graded-20260907` — CONVERGENCE MATRIX graded narrative rotated from STATUS.md 2026-09-07 (verbatim, no figure changed, no score changed)
+
+**Vector 6 — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| 6 | Long-term unemployed / duration | **3** 🟠 | flat | ✅ **GRADED 9/4 off NFP card §3e.** Aug LT share **27.0%** (1.9M) [BLS USDL-26-1435], up from Jul 25.5% — a **+1.5pp jump that lands EXACTLY ON the >27% restore bar without crossing it.** ⛔ **v6 HOLDS at 3**: `27.0` is not `>27`, and the conjunction's second leg (YoY comparison turning positive, re-established from BLS's own text) is **absent from the release** — so the knife-edge never had to be adjudicated. **Not rounding up.** Drop-to-2 (<24% ×2) nowhere near. |
+
+**Vector 8 — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| 8 | BLS data degradation | **2** 🟡 | flat | ✅ **GRADED 9/4 off NFP card §3c: net revisions Jun+Jul = +55,000 ≥ 0 ⇒ restore-to-3 counter 0 → 1 OF 2.** Score HOLDS at 2 (restore needs TWO consecutive; leg 2 is the Oct 2 print). 🔒 **Restore-to-3 (unchanged, pre-committed): two consecutive prints with net revisions ≥0.** Restore-to-4 would need the Feb-2027 FINAL to come in … |  *[carried: −79,000 · −178,000 · +99,000 · −154.6 · +135.1 · +87K · 4% · 2.0%]*
+
+**Vector 12 — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| 12 | **Public-sector employment** *(renamed 8/07; rename NOT a new vector — /75 unchanged. Basis → `STATUS_DETAIL.md` § `rotated-20260904`)* | **1** ⚪ | flat | ✅ **GRADED 9/4 off NFP card §3e: federal payrolls Aug −5K (ex-USPS −3.3K) [Table B-1] vs the ≤−25K T-13 MoM bar ⇒ does NOT fire; v12 HOLDS at 1.** No UCFE check triggered — and per **BD-17** the payroll line alone would not have moved the vector even had it fired. Total government **+35K** (local gov't education +42K). Re-fire needs a new federal RIF authority, **or** a state/local decline that persists 3+ months **and** coincides with an EPOP drawdown — i.e. only when it stops being idiosyncratic |
+
+<a id="claim-retraction-20260805"></a>
+## § `claim-retraction-20260805` — the 7/6 half-retracted ISM/WARN claim, rotated from the STATUS.md header 2026-09-07 (verbatim)
+
+🔴 **[7/6 CLAIM — HALF RETRACTED 2026-08-05]** This line read: *"ISM Services employment **47.4** (sub-50, ~4th straight mo...) + an 8-firm big-tech WARN wave now corroborate the freeze on the **survey AND hard-filing layers**."* …
+
+<a id="thresholds-retired-basis"></a>
+## § `thresholds-retired-basis` — KEY THRESHOLDS rows rotated from STATUS.md 2026-09-07 (verbatim, no figure changed, no band changed)
+
+**U-3 — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| 🔴 **U-3 — DEMOTED TO A REPORTED GAUGE 2026-08-07 (BD-15). It no longer carries a trigger.** | **4.1%** [Aug · obs 2026-08-01, BLS USDL-26-1435] — **UNCHANGED**, on **LFPR 61.6% (+0.2pp) and a labor force that GREW +683K to 169,777K** | ~~≥4.7% = T-03~~ · ~~≥5.0% = T-04~~ **BOTH RETIRED.** Measured 1990-2026: a U-3 **level** bar at 4.7% fired in **65.4% of ALL months** and separated recession from non-recession by only **+12.9pp**; at 5.0%, … | **Still reported** because the Fed and the market watch it — but LABOR fires nothing off it. Triggers moved to **EPOP**, below |
+
+**EPOP — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| 🆕 **EPOP (employment-population ratio) — the trigger gauge as of 8/7** | **59.1%** [Aug · obs 2026-08-01, Summary Table A] — **ROSE +0.2pp**; **3m −0.1pp** (vs May 59.2) **· 6m −0.2pp** (vs Feb 59.3) | **T-03 🟠 = EPOP fell ≥0.3pp over 3 months** (base 11.7%, in-rec 64.5%, out 7.6% = **+56.9pp**) · **T-04 🔴 = EPOP fell ≥0.5pp over 6m AND ≥0.3pp over … | T-03 CARL+HENRY; T-04 HENRY+REGINALD. 🔴 **GRADED 9/4 — BOTH MOVED AWAY, and this was the card's headline call. T-03 ✗** (needed ≤58.9, printed **59.1**) **· T-04 ✗, its 6-month leg went SATISFIED (−0.5) → UNSATISFIED (−0.2).** Next bars roll: **Sep ≤58.7 · Oct ≤58.6 · Nov ≤58.8** → now registered as **LAB-18, 15%**. Loss recorded, not re-read. Narrative → `STATUS_DETAIL.md` § `rotated-20260904`. |
+
+**JOLTS-layoffs-rate — as it stood in STATUS.md before the 2026-09-07 rotation:**
+
+| 🆕 **JOLTS layoffs & discharges rate** *(added 8/5 — the card called this "the most important bear signal of the week and the one my dashboard under-weights," and it was right that it was missing)* | **1.0%** (1,666K) [July, BLS 9/1] — **DOWN from 1.1%**, and now at the **bottom** of the 1.0–1.2% range it has held all year | **≥1.2% = the firing side waking → escalate CARL + REGINALD same-day.** One of only **two** live revival paths for the break thesis. 🔴 **9/1: it moved AWAY — `1.2 − 1.0 = 0.2pp` of distance, up from 0.1pp. I am recording this as a loss for my own book, because that is what it is** | 🔴 CARL+REGINALD |  *[carried: 250K]*
+

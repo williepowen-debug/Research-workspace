@@ -213,3 +213,19 @@ Every form above is about a *check* resolving the wrong thing. This one inverts 
 
 ⚠️ **Density note, consistent with the 8/23 CORRECTION-SITE lesson at the top of this file:** four of the five were introduced *by repair passes* — a fix commit, a corrective reprice, a test written to prove a fix. **A correction pass is unreviewed work** (`[[finding_a_correction_pass_is_unreviewed_work]]`), and the wrong-object error is its characteristic defect because the author is concentrating on the value they just fixed.
 
+
+---
+
+**LABOR, 2026-09-07 (same day, later) — instance 6 of the HORIZON/prose cluster, and it is the sharpest available case because the wrong reference was a FILE THAT DID NOT YET EXIST.**
+
+A calibration scoreboard scored 12 resolved predictions at their **as-made** confidence, stated that convention in bold, explained why, and recorded that the values were **"verified in git … not read off the current ledger value."** **Four of the twelve were nevertheless scored at a walked-down number**, and the published headline Brier was **0.299 when it should have been 0.342**.
+
+**The mechanism, which is the transferable part:** the ledger it verified against was created **30 days after** the values were set, by a bulk seeding that stamped one placeholder `Date_Made` on seven rows at once. Any confidence walked down between registration and seeding was captured **as if it were the registration value**. Every later commit of that ledger agrees with the first — so "verified across commits" measured **agreement among vintages that all postdate the event.**
+
+🔑 **The check could not have failed, and that is the tell.** This is `[[finding_crosscheck_with_free_parameter_validates_nothing]]` in its time dimension: **a reference that postdates the event is a free parameter.** Ask of any verification: *did this artifact exist, in this form, at the moment the value I am checking was set?* If it was created later, agreement inside it is evidence about the artifact, not about the event.
+
+⚠️ **"Verified" is a two-part claim — METHOD and ARTIFACT — and only the method ever gets written down.** "Verified in git" names a *tool*. It does not name *which file*, and the file is where this failed.
+
+🔴 **Three second-order costs, none of them the number:** (a) it rewrote **sentences about the author's own conduct** — a walked-down 55% read as *"mild overconfidence on a coin-flip call"* where the as-made 70% is a high-conviction miss (the missing mirror in `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`, arriving as an unearned *flattering* reading); (b) it **manufactured a positive finding** — "two consecutive correctly-hedged threshold calls," the desk's only new good news in two months, where one of the two was never a hedge; (c) it **understated the desk's central regularity** (0-for-4 rather than 0-for-5) *inside the sentence used to justify a reprice*, which is `[[finding_corrective_inherits_the_anchor_it_corrects]]` one level down.
+
+⇒ **Sweep shape for any desk holding a calibration or scoring record: for every row, compare the artifact you verify against to the row's own event date. Any row whose reference artifact is younger than its event is UNGRADED, not verified.** Here that was 7 of 12 rows and it caught 4 real defects.
