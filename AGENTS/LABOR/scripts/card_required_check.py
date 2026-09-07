@@ -42,6 +42,10 @@ GRADED = os.path.join(DOCKET, "graded")
 FREEZE_LEAD_DAYS = 7
 # How far ahead to look. Beyond this a missing card is not yet owed.
 HORIZON_DAYS = 21
+# How far BACK to keep reporting a card that was never written. A miss that stops being
+# reported the day after the print is a miss that never gets recorded: you cannot freeze a
+# card retroactively, so the only honest disposition is an explicit acknowledgement.
+LOOKBACK_DAYS = 30
 
 # Declared card-owing patterns. event-regex -> (card stem suffix, why it is multi-loaded).
 # Adding a row here is the ONLY way a new event class starts being required.
@@ -73,16 +77,30 @@ NO_CARD = [
 
 
 def classify(event, notes):
-    """-> (kind, stem, why). kind in REQUIRED | NO-CARD | UNCLASSIFIED."""
+    """-> (kind, stem, why). kind in REQUIRED | NO-CARD | UNCLASSIFIED.
+
+    ⛔ PRECEDENCE IS LOAD-BEARING, and it is the order below, not the order that reads
+    naturally. The exemption list is matched against the EVENT FIELD ONLY. It used to be
+    matched against event+notes, which meant **any ordinary sentence in `notes` could
+    exempt a required print** — a row whose notes merely said "run READ_CAP before
+    freezing" classified as NO-CARD and the missing NFP card reported clean.
+    (`[[finding_marker_word_in_prose_disables_the_scanner_that_reads_for_it]]`; found by
+    CODEX 2026-09-07, reproduced before fixing.) Notes may only change the classification
+    through an EXPLICIT token — `CARD:` or `NOCARD:` — never through prose.
+    """
+    if re.search(r"\bNOCARD\b", notes or ""):
+        return "NO-CARD", None, "explicit NOCARD token in notes"
     m = re.search(r"CARD:([A-Za-z0-9_.-]+)", notes or "")
     if m:
         return "REQUIRED", m.group(1), "explicit CARD: token in notes"
-    hay = f"{event} {notes}"
+    ev = event or ""
+    # EVENT-scoped only. A structural exemption ("...grading card FREEZE") must beat the
+    # pattern its own text contains ("NFP"), so NO_CARD is tested before PATTERNS.
     for rx, why in NO_CARD:
-        if re.search(rx, hay, re.I):
+        if re.search(rx, ev, re.I):
             return "NO-CARD", None, why
     for rx, stem, why in PATTERNS:
-        if re.search(rx, event or "", re.I):
+        if re.search(rx, ev, re.I):
             return "REQUIRED", stem, why
     return "UNCLASSIFIED", None, "matched no declared pattern"
 
@@ -132,7 +150,7 @@ def main(argv):
         print("  ⛔ CANNOT-VERIFY: CATALYSTS.tsv missing a 'date' column")
         return 2
 
-    late, upcoming, unclassified, ok = [], [], [], []
+    late, upcoming, unclassified, ok, missed = [], [], [], [], []
     for r in rows:
         raw = (r.get("date") or "").strip().lstrip("~")
         try:
@@ -141,7 +159,7 @@ def main(argv):
             unclassified.append((raw, (r.get("event") or "")[:60], "unparseable date"))
             continue
         days = (d - today).days
-        if days < 0 or days > HORIZON_DAYS:
+        if days > HORIZON_DAYS or days < -LOOKBACK_DAYS:
             continue
         kind, stem, why = classify(r.get("event", ""), r.get("notes", "") + " " + r.get("what_to_check", ""))
         if kind == "NO-CARD":
@@ -154,12 +172,27 @@ def main(argv):
         rec = (d, days, stem, names[0], found, why, (r.get("event") or "")[:70])
         if found:
             ok.append(rec)
+        elif days < 0:
+            # The print has happened and no card was ever written. This cannot be fixed by
+            # writing one now — a card frozen after its print grades nothing. It stays
+            # reported until the row carries an explicit MISSED-ACK:<date>.
+            if not re.search(r"MISSED-ACK:\d{4}-\d{2}-\d{2}", r.get("notes", "") or ""):
+                missed.append(rec)
         elif days <= FREEZE_LEAD_DAYS:
             late.append(rec)
         else:
             upcoming.append(rec)
 
     rc = 0
+    if missed:
+        rc = 1
+        print("\n  ⛔ MISSED PREPARATION — the print has PASSED and no card was ever written")
+        print("  " + "-" * 68)
+        for d, days, stem, name, _f, why, ev in sorted(missed):
+            print(f"  {d} ({-days}d ago)  NO CARD EVER WRITTEN  expected docket/{name}")
+            print(f"       event: {ev}")
+            print(f"       ⛔ A card cannot be frozen retroactively — do NOT write one now.")
+            print(f"       Disposition: record the miss, then add MISSED-ACK:{today} to the row's notes.")
     if late:
         rc = 1
         print("\n  🔴 MISSING AND OWED NOW — inside the C2a freeze window")
@@ -231,6 +264,18 @@ def self_test():
     run([admin], [], 0, "admin re-trigger must not demand a card")
     run([weird], [], 1, "unclassifiable row must FAIL, never default to 'no card'")
     run([], [], 0, "empty calendar must PASS")
+
+    # --- the two omissions CODEX reproduced 2026-09-07; both returned rc=0 before the fix ---
+    past = "2026-09-04\tInitial claims w/e Aug 29\tx\ty\tHIGH\tLABOR\tn\tconfirmed\n"
+    past_ack = past.replace("\tn\t", "\tMISSED-ACK:2026-09-07\t")
+    noisy = ("2026-09-10\tNFP September + U-3\tx\ty\tHIGH\tLABOR"
+             "\tRun READ_CAP before freezing this card\tconfirmed\n")
+    freeze_row = ("2026-09-10\tOct-2 NFP grading card FREEZE (C2a ~1 week ahead)\tx\ty"
+                  "\tHIGH\tLABOR\tn\tconfirmed\n")
+    run([past], [], 1, "PAST print with no card must stay reported (not skipped)")
+    run([past_ack], [], 0, "explicit MISSED-ACK must dispose of it")
+    run([noisy], [], 1, "admin phrase in NOTES must not exempt a required print")
+    run([freeze_row], [], 0, "structural exemption in EVENT must beat its own pattern text")
     print("  " + "-" * 68)
     print("  ✅ SELF-TEST PASSES" if not fails else f"  ❌ {fails} SELF-TEST FAILURE(S)")
     return 0 if not fails else 2

@@ -122,3 +122,61 @@ Pre-registered at freeze:
 ## §9 — GRADE (written 2026-09-10 off this frozen card — never re-read a band)
 
 *Blank until print. At grade time: recompute §3 on the as-published vintage FIRST (§4), then assign the band, then write the outcome into `STATUS.md` (KEY THRESHOLDS + calendar row) and `git mv` this card to `docket/graded/`.*
+
+---
+
+# 🔧 AMENDMENT 1 — 2026-09-07, PRE-PRINT (CODEX review of `e1f37d79b`)
+
+> ⛔ **NOTHING ABOVE THIS LINE IS EDITED.** §1–§9 stand exactly as frozen at 17:5x ET. This amendment is **additive and pre-print**, so every band and assignment here is still committed before the outcome is known.
+> 🔑 **These are EXISTING decision rules that §2's bands omitted — not new thresholds and not a re-read.** Both already live in `STATUS.md`; the card simply failed to enumerate them, which is the L-18/L-27 partition defect in its cross-axis form: **§2 partitions the single-print axis correctly and is silent on two OTHER axes that the same print moves.**
+
+## A1.1 — Vector 13's `<200,000` counter is a SEPARATE AXIS and cuts across bands A and B
+
+`STATUS.md` vector 13 carries: **`<200K ×4 → drop to 1`** (count now **0 of 4**, reset at w/e Aug 1's revision to 200K). **The boundary is 200,000, which is not a §2 band edge** — it splits band B and sits above all of band A. So a **197,000** print is band **B / "NO ACTION"** on the single-print axis **and simultaneously starts the vector-13 counter at 1 of 4**. Labelling it NO ACTION alone is wrong.
+
+<!-- partition-axis: column="Initial claims, single print (vector-13 axis)" -->
+
+| V13 | Initial claims, single print (vector-13 axis) | Pre-committed assignment |
+|---|---|---|
+| **V13-a** | ≤ 199,000 | **vector-13 counter 0 → 1 of 4** (and, if also ≤185,000, band A's Kill B leg — the two are independent and BOTH apply) |
+| **V13-b** | ≥ 200,000 | counter **stays 0 of 4** — `200,000` is not `<200,000`, and the streak must be consecutive |
+
+⚠️ **Grade §2 and A1.1 as two separate readings of the same number.** A print can be "NO ACTION" on one axis and state-changing on the other; that is not a contradiction and must not be resolved by picking one.
+
+## A1.2 — T-01 is an **MA-basis** trigger, so it can fire on this print, and its routing includes CARL
+
+`STATUS.md`: **`>250K sustained 4+wk = T-01`**, measured on the 4-week MA (the same row prices distance as *"42,750 below T-01 on MA basis"* = `250,000 − 207,250`). §2 only ever referenced T-01 through band D's **provisional ARM** on a single print. But the MA itself can cross on **this** print:
+
+`(617,000 + X)/4 > 250,000` ⟺ `617,000 + X > 1,000,000` ⟺ **`X > 383,000`**
+
+`X = 383,000 → MA 250,000` (**not** `>250,000`, so it does **not** fire) · `X = 384,000 → MA 250,250` (**fires**).
+
+<!-- partition-axis: column="Initial claims, single print (T-01 MA axis)" -->
+
+| T01 | Initial claims, single print (T-01 MA axis) | Pre-committed assignment |
+|---|---|---|
+| **T01-a** | ≤ 383,000 | 4-wk MA ≤ 250,000 ⇒ **T-01 does NOT fire on the MA basis** |
+| **T01-b** | ≥ 384,000 | 🔴 **T-01 FIRES on the MA basis** → **CARL + REGINALD** — *in addition to* band E's T-02 |
+
+🔴 **ROUTING CORRECTION TO §7 BAND E:** §7 routed band E to **REGINALD + HENRY** (T-02's recipients) and **omitted CARL**, who is a required T-01 recipient. **Any print ≥ 384,000 fires BOTH triggers, and the union of recipients is `CARL + REGINALD + HENRY`.** For `301,000 ≤ X ≤ 383,000`, band E's original routing (REGINALD + HENRY) is correct as written.
+
+## A1.2b — 🔧 CHECKER SCOPE AFTER THIS AMENDMENT: 1 of 4 tables machine-verified, 3 hand-proved
+
+`card_partition_check.py` reads **one file-global** `partition-axis` declaration (BD-31), so adding two axes took the card from **1-of-2** to **1-of-4** machine-verified tables. **Result: `4 band table(s) — 1 verified, 3 unverified, 0 with defects`.** ⛔ **`0 with defects` is the number that must hold, and it holds. `UNVERIFIED` is the tool refusing to certify what it could not read — it is not a pass, and I am not reporting it as one.**
+
+**Hand proof for all three unverified tables.** Each is a **two-band complementary dichotomy** — the second band is the exact negation of the first — so each covers its axis with no gap and no overlap **at any precision**, which is why hand-proof is sufficient here rather than merely convenient:
+
+| Table | Bands | Complement holds because |
+|---|---|---|
+| §5 continuing claims | `< 1,750,000` / `≥ 1,750,000` | `<c` and `≥c` are exact complements over the reals |
+| A1.1 vector-13 axis | `≤ 199,000` / `≥ 200,000` | claims print in whole thousands; `≤199,000` and `≥200,000` are adjacent and exhaustive at that granularity |
+| A1.2 T-01 MA axis | `≤ 383,000` / `≥ 384,000` | same — and `383,000` is included deliberately, since `MA = 250,000` is **not** `> 250,000` |
+
+🔴 **BD-31 escalated 🟠 → 🔴 on this measurement.** It was opened as a 1-of-2 nuisance; it is now 3-of-4 unchecked on a card that gets graded in three days. **Not fixed in this pass** — Will scoped this session to the card and CODEX's review explicitly said no further partition-checker work was needed for these findings — **but the cost is now measured rather than asserted, which is what should drive the fix.**
+
+## A1.3 — What this amendment does NOT do
+
+- **No threshold moved.** T-01, T-02, Kill B and vector 13 keep the values `STATUS.md` already carried; the card now enumerates them.
+- **No band in §2 changed.** The single-print partition A–E stands and re-verified after this amendment.
+- **The §3 mechanical term is untouched** — `(X − 212,000)/4`, still recomputed on the as-published vintage before the level is read (§4).
+- ⚠️ **Three independent boundaries now sit inside band B — `200,000` (vector 13), `212,000` (MA zero-change) and the band's own edges.** That is the standing argument against reading any single-print band as the whole verdict, and it is why the template carries all three axes from now on.

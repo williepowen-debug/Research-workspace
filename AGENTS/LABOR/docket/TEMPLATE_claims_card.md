@@ -25,10 +25,12 @@ Then fill the six variables below and run the pre-freeze check:
 | `CC_cur` | continuing claims, level + obs week | `CCSA` newest |
 | `n_kb` | Kill B count (`≤185,000` clean sessions, needs 5) | STATUS § KEY THRESHOLDS |
 | `n_v7` | vector-7 count (`CC <1,750,000` consecutive weeks, needs 4) | STATUS § KEY THRESHOLDS |
+| `n_v13` | vector-13 count (`<200,000` consecutive weeks, needs 4) | STATUS § CONVERGENCE MATRIX vector 13 |
 
 **Derived, never copied:**
 - `MA_next(X) = (W2 + W3 + W4 + X) / 4`
 - **`ΔMA(X) = (X − R) / 4`** ← the mechanical term. **Sign flips at `X = R`.**
+- **Solve the T-01 MA bound:** `X > 1,000,000 − (W2+W3+W4)` — it moves every week with the window.
 - **Write out the division** in the card (root OUTPUT RULES (a)): `(X − 212)/4`, with `R` substituted, not `(X − R)/4`.
 
 ```bash
@@ -69,6 +71,31 @@ Bands are keyed to `STATUS.md` § KEY THRESHOLDS. **They must PARTITION the axis
 | **C** | 230,000 – 250,000 | **Accelerating** — vector 13: 2 → 3 |
 | **D** | 251,000 – 300,000 | **ARM T-01 provisional** (confirm on a 2nd consecutive `>250,000`) |
 | **E** | ≥ 301,000 | 🔴 **T-02 FIRE** → REGINALD (all ORANGE→RED) + HENRY |
+
+---
+
+## §2b — THE OTHER TWO AXES THE SAME PRINT MOVES *(added 2026-09-07 from CODEX review — carry ALWAYS)*
+
+🔴 **§2 partitions the SINGLE-PRINT axis. It is not the whole verdict.** At least two other decision rules key on the same number at boundaries that are **not** §2 band edges, so a card listing only §2 will label a state-changing print "NO ACTION". **Grade all three axes independently; a print can be quiet on one and state-changing on another, and that is not a contradiction to be resolved by picking one.**
+
+<!-- partition-axis: column="Initial claims, single print (vector-13 axis)" -->
+
+| V13 | Initial claims, single print (vector-13 axis) | Assignment |
+|---|---|---|
+| **V13-a** | ≤ 199,000 | vector-13 `<200,000 ×4` counter `n_v13` → `n_v13+1` of 4 (**independent of** band A's Kill B leg — both can apply to one print) |
+| **V13-b** | ≥ 200,000 | counter **resets to 0 of 4** — the streak must be consecutive, and `200,000` is not `<200,000` |
+
+**T-01 is an MA-basis trigger and can fire on THIS print.** Solve it every week — the crossing point moves with the window:
+`(W2 + W3 + W4 + X)/4 > 250,000` ⟺ **`X > 1,000,000 − (W2+W3+W4)`**. Write the solved number into the card.
+
+| T01 | Initial claims, single print (T-01 MA axis) | Assignment |
+|---|---|---|
+| **T01-a** | ≤ *(solved bound)* | 4-wk MA ≤ 250,000 ⇒ T-01 does not fire on the MA basis |
+| **T01-b** | ≥ *(solved bound + 1,000)* | 🔴 **T-01 FIRES on the MA basis → CARL + REGINALD**, *in addition to* whatever §2 band the print lands in |
+
+⚠️ **ROUTING UNION:** a print can fire T-01 **and** T-02. T-02 routes REGINALD + HENRY; T-01 routes **CARL** + REGINALD. **Take the union — omitting CARL from a joint fire is the §7 defect Amendment 1 of the 9/10 card had to correct.**
+
+🔧 **Checker scope:** each added axis is another band table, and `card_partition_check.py` reads **one file-global declaration** (BD-31), so expect `1 verified, N unverified, **0 with defects**`. **`0 with defects` is the gate.** Hand-prove each unverified table on the card — two-band ones are complementary dichotomies, exhaustive at any precision.
 
 ---
 
