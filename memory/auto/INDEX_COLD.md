@@ -11,7 +11,7 @@
 - **LABOR:** project_labor_standing_nexus_brief — LABOR keeps a standing NEXUS_BRIEF.md refreshed every closeout [embedded→LABOR]
 - **BRENT:** project_energy_strike_ledger — HAWK keeps ONE cross-theater strike ledger, not silos [embedded→BRENT]
 - **HENRY:** feedback_henry_macro_focus_not_positions — macro + market trends, NOT trade-position management · feedback_henry_vol_broadcast_to_violet — VIOLET owns vol-regime broadcast · reference_henry_operating_dashboard — LIVING Artifact, refresh the SAME URL · *all 3 embedded → AGENTS/HENRY/CLAUDE.md*
-- **RED:** feedback_red_edge — always present the best counter-case, honest and realistic, not contrarian
+- **RED:** feedback_red_edge — always present the best counter-case, honest and realistic, not contrarian [embedded→RED — confirmed 2026-08-02 (RED OUTBOX item 4), PROME-verified at AGENTS/RED/CLAUDE.md 2026-09-07]
 - **WALTER:** project_walter_cop_direction — RESOLVED/tombstoned — shipped as WALTER's BOARD; design against BOARD_CONSUMPTION_SPEC · project_walter_image_signal_intake — WALTER owns image/screenshot intake · feedback_walter_autonomous_verify — may spawn verify-research without asking · feedback_walter_no_kill_on_lede — read the body before classifying · finding_walter_refactor_pattern — sequenced-pass structural refactor recipe · project_telegram_plugin_scope — plugin config at AGENTS/WALTER/.claude/settings.json · feedback_telegram_reply_required — Telegram asks get Telegram replies · *all 7 embedded → AGENTS/WALTER/CLAUDE.md*
 - **CARL:** feedback_carl_kb_architecture — keep CARL KB thesis-level; push domain data to sub-agent KBs [embedded→CARL]
 - **TERRY:** project_terry_daytrading_review_system — standing day-trading review loop; Will wants trades tracked · reference_terry_desk_dashboard — LIVING desk dashboard Artifact · *both embedded → AGENTS/TERRY/CLAUDE.md*
@@ -27,9 +27,9 @@
 
 ## Tool gotchas — embed-pending → tool headers
 - finding_crlf_textmode_tsv_flip — two silent whole-file TSV rewrites; guard = git diff --stat *(n=3)*
-- finding_printf_format_tsv_append_corruption — shell printf corrupts a TSV/log row when the data contains (embed-pending)
+- finding_printf_format_tsv_append_corruption — shell printf corrupts a TSV/log row when the data contains [embedded→scripts/tsv_append.py — DEWEY-verified 2026-08-02, PROME-verified 2026-09-07]
 - finding_market_data_venv_invocation — market-data scripts need repo .venv python; system python3 fails (embed-pending)
-- finding_subdir_launch_hooks_dont_fire — root .claude/settings.json hooks do NOT fire for subdir-launched sessions
+- finding_subdir_launch_hooks_dont_fire — root .claude/settings.json hooks do NOT fire for subdir-launched sessions [embedded→PROME/BOOT.md step 0 — cited by slug; DEWEY-verified 2026-08-02, PROME-verified 2026-09-07]
 - finding_truncated_read_is_not_a_verification — truncation drops the TAIL, where the exculpatory half lives
 
 ## Rare infra findings (Tier-3 COLD)

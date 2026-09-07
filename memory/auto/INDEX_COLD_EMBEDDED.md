@@ -118,7 +118,7 @@
 - finding_fill_in_principle_vs_final_approve_pattern — Two-stage fill approval: Will [Approve in principle] unblocks TERRY's live re-ma
 - finding_profit_zone_needs_its_own_harvest_rule — triggers keyed to a further move leave none that fires on merely profitable
 - finding_grade_execution_only_against_same_timestamp_marks — grading a fill against marks from another time manufactures a fake finding
-## Deep-research method — embed-pending → `AGENTS/DEWEY/CLAUDE.md` (already cited inline there; packet 2026-07-31)
+## Deep-research method — EMBEDDED → `AGENTS/DEWEY/CLAUDE.md` (packet 2026-07-31; DEWEY confirmed 2026-08-02 — two of the three slugs had to be ADDED, the packet's 'already cited' premise was wrong; PROME-verified at the artifact 2026-09-07, `grep -c` = 1 each)
 - finding_a_challenge_that_strengthens_its_target_is_a_success — conclusion survives, evidence replaced IS the finding, not a null
 - finding_deep_research_stale_vintage_headline — the load-bearing headline figure is often a stale VINTAGE; refresh it
 - finding_deep_research_slate_mining — Build deep-research prompt slates by mining agents' SELF-flagged gaps
