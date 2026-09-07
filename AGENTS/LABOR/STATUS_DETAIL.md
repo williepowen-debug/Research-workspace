@@ -497,3 +497,26 @@ Rotated for read-cap headroom. All three were GRADED and closed; no figure chang
 
 | 🆕 **JOLTS layoffs & discharges rate** *(added 8/5 — the card called this "the most important bear signal of the week and the one my dashboard under-weights," and it was right that it was missing)* | **1.0%** (1,666K) [July, BLS 9/1] — **DOWN from 1.1%**, and now at the **bottom** of the 1.0–1.2% range it has held all year | **≥1.2% = the firing side waking → escalate CARL + REGINALD same-day.** One of only **two** live revival paths for the break thesis. 🔴 **9/1: it moved AWAY — `1.2 − 1.0 = 0.2pp` of distance, up from 0.1pp. I am recording this as a loss for my own book, because that is what it is** | 🔴 CARL+REGINALD |  *[carried: 250K]*
 
+<a id="thresholds-rotated-20260907b"></a>
+## § `thresholds-rotated-20260907b` — further KEY THRESHOLDS rows rotated from STATUS.md 2026-09-07 (verbatim, no figure or band changed)
+
+**JOLTS-NET — as it stood in STATUS.md before the 2026-09-07 (second) rotation:**
+
+| 🆕 **JOLTS NET (hires − separations)** | **−18K** [July: `5,054 − 5,072`]; **Jun −5K** (revised, was −3K); May **−8K**; Apr +177K, Mar +158K | **>0 in both of the 2 most recent reference months = freeze-thaw v2 LEG C** — ✗ **not met, and it moved FURTHER away**: both of the two most recent months are negative and July is the most negative of the three | 🟠 CARL+HENRY. 🔴 **THIRD consecutive negative month.** Base-rate, discounts and the 66-month conditional → `STATUS_DETAIL.md` § `jolts-net-basis` — **licensed use: a rare run, partly circular with CES; the rates-as-shapes are the independent content.** |  *[carried: 2.0% · 1.1%]*
+
+**JOLTS-GROSS — as it stood in STATUS.md before the 2026-09-07 (second) rotation:**
+
+| JOLTS hires **(GROSS — demoted 8/7, read beside NET below, never alone)** | **5,054K / rate 3.2%** [July, BLS 9/1] | <5.0M sustained 2+ mo = T-10 — **NOT met, and the distance is small: `5,054 − 5,000 = 54K` above the arm line, on a print that fell 278K.** A single further month of this size crosses it · ~~>5,500K = freeze-thaw leg 3~~ **RETIRED 8/7 — leg 3 is now JOLTS NET, see below** · ~~>5,300K = card I-1 condition~~ retired with the card | 🟠 CARL+HENRY. ⚠️ **A gross flow cannot speak to net employment — do not cite this row without the NET row** |
+
+**ECI — as it stood in STATUS.md before the 2026-09-07 (second) rotation:**
+
+| **🆕 ECI (composition-controlled wage gauge)** | **Civilian comp 3.4% / private wages 3.1%** [Q2, BLS 7/31] | **≥3.6% = wage-pressure premise REAL** (supply-artifact framing weakens) · **≤3.4% flat-or-down while AHE accelerates = COMPOSITION** (supply-shrink corroborated) · **3.5% = INDETERMINATE** ⚠️ *(this middle … | **DENY branch FIRED 7/31.** Feeds FED TRAP, LAB-12, → CARL (real-income) + HENRY (policy-path). … |  *[carried: 2026-10-30]*
+
+**NFP — as it stood in STATUS.md before the 2026-09-07 (second) rotation:**
+
+| NFP (revised series, L-02) | **+162K** [Aug, USDL-26-1435]; revised run 214/148/63/**31**/**21**/**162**; **3-mo avg +71.3K** `(31+21+162)/3 = 214/3`. 🔴 **Jul revised −23K → +21K (+44K) and Jun +20K → +31K (+11K): the July NEGATIVE PRINT DID NOT SURVIVE REVISION.** | ≥200K ×3 consecutive = **Kill A** (dead — zero of last 3) · **<100K + U-3 jump ≥0.2pp = T-06** | Kill A → PROME/FORGE; T-06 🟠 CARL+REGINALD+HENRY. ✅ **GRADED 9/4: Kill A 0 of 3 (31/21/162) — cannot fire · T-06 BOTH LEGS FAIL** (NFP +162K ≥100K ✗; U-3 4.1% vs the ≥4.3% bar ✗). Card §3a band **+150K–302K ⇒ NO VECTOR MOVES; single-month leg alone met.** … |
+
+**CC — as it stood in STATUS.md before the 2026-09-07 (second) rotation:**
+
+| **Continuing claims** | **1,779K** [w/e Aug 22 · obs 2026-08-22] — **fourth direction-change in six weeks**; range-bound 1,777-1,799K holds | Vector-7 drop-to-2 needs **<1,750K ×4wk** (**29K away**; still no sustained direction, and it needs FOUR consecutive weeks of which there are **ZERO**). … | vector 7 — **kept as a COST/duration gauge, which is what it actually measures; it is not an early-warning instrument and will not be used as one** |
+

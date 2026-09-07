@@ -31,18 +31,19 @@ KNOWN LIMITS — stated, not tuned away (loosening a noisy guard inverts its fai
   * Granularity is inferred from the card's own boundaries. A card that mixes "199K" and
     "208,999" in one column drops to granularity 1 and may report sub-1,000 gaps.
 
-FALSIFIED BEFORE ADOPTION (10 self-tests, `--self-test`): fires on a gap, an overlap, a missing
-two-axis cell and a prose/table contradiction; stays quiet on a clean partition, a correctly
-written prose set, a date column, and an abbreviated "186-199K" range; returns CANNOT-VERIFY
-rather than PASS when there is no table. Four parser defects were found BY the self-test and by
-running it against real cards — a sentence splitter that broke on "i.e.", band letters scraped
-out of the word "AND", dates read as ranges, and a unit written once on a two-endpoint range —
-each of which had made the check silently return PASS or invent findings.
-
-USAGE
-  python3 AGENTS/LABOR/scripts/card_partition_check.py <card.md> [<card.md> ...]
-  python3 AGENTS/LABOR/scripts/card_partition_check.py --self-test
-Run from anywhere; paths are taken as given.
+FALSIFICATION HISTORY — read this before trusting a PASS:
+  v1 (2026-09-07 AM) shipped with 10 self-tests, all passing, and was recorded as "falsified
+  before adoption". CODEX then wrote 5 independent cases and **ALL FIVE returned a false PASS**:
+  a single band certified as a partition; strict bounds (`<200000` / `200001-...`) leaving
+  200,000 unowned; inclusive bounds (`<=200000` / `200000-...`) double-assigning it; an
+  unreadable band row silently ignored; and a decimal axis whose missing 4.2 was invisible
+  because granularity only ever inferred 1/100/1000.
+  ⛔ **The lesson is about the SUITE, not the parser: ten tests I wrote all passed because I
+  wrote them against the design I had in mind.** `[[finding_self_attack_defends_the_argument_
+  not_the_apparatus]]` — a self-authored test set defends the argument, not the apparatus.
+  v2 carries boundary inclusivity, integer-unit arithmetic at the inferred granularity
+  (including decimals), an UNPARSEABLE finding, and a PASS that is only reachable when
+  coverage actually RAN. All 15 tests pass — CODEX's 5 are permanent members of the suite.
 """
 import sys, re, os
 
@@ -64,42 +65,67 @@ def _n(tok):
 
 
 def parse_interval(cell):
-    """Return (lo, hi) closed-ish interval from a band cell, or None if not an interval."""
+    """Return (lo, lo_inc, hi, hi_inc) or None.
+
+    Boundary INCLUSIVITY is carried, not discarded. Dropping it was the defect that let
+    `<200,000` + `200,001-249,999` certify as a partition (200,000 owned by nobody) and
+    `<=200,000` + `200,000-250,000` certify as disjoint (200,000 owned twice).
+    """
     c = re.sub(r"[*`]", "", cell).strip()
     if not c:
         return None
-    # A date is not an interval. "2026-07-04" reads as the range 7-2026 through the hyphen
-    # branch below and manufactured 6 phantom OVERLAP/OPEN-END findings on the 8/13 card's
-    # week-ending column — noise that trains the reader to ignore real ones.
     if re.search(r"\d{4}-\d{2}-\d{2}|\b\d{1,2}/\d{1,2}(?:/\d{2,4})?\b", c):
         return None
     if re.search(r"\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d", c, re.I):
         return None
-    # 'X >= 250,000' / '>= 250,000' / 'X > 250,000'
-    m = re.search(r"(?:[≥>]=?|≥)\s*(" + NUM + ")", c)
-    m2 = re.search(r"(?:[≤<]=?|≤)\s*(" + NUM + ")", c)
     rng = re.search(r"(" + NUM + r")\s*[" + DASHES + r"]\s*(" + NUM + ")", c)
     if rng:
         g1, g2 = rng.group(1), rng.group(2)
-        # "186-199K" means 186K-199K: in an abbreviated range the unit is written once, on the
-        # SECOND endpoint, and applies to both. Reading it literally gives lo=186, hi=199,000 —
-        # which manufactured 10 phantom OVERLAP findings across the 7/30 and 8/3-8/7 cards.
-        suf = lambda t: (re.search(r"[KkMm]$", t.strip()) or [None])[0] if re.search(r"[KkMm]$", t.strip()) else None
-        s1, s2 = suf(g1), suf(g2)
+        sfx = lambda t: (t.strip()[-1] if re.search(r"[KkMm]$", t.strip()) else None)
+        s1, s2 = sfx(g1), sfx(g2)
         if s2 and not s1:
             g1 = g1.strip() + s2
         elif s1 and not s2:
             g2 = g2.strip() + s1
         lo, hi = _n(g1), _n(g2)
         if lo is not None and hi is not None:
-            return (min(lo, hi), max(lo, hi))
-    if m and not m2:
-        v = _n(m.group(1))
-        return (v, INF) if v is not None else None
-    if m2 and not m:
-        v = _n(m2.group(1))
-        return (-INF, v) if v is not None else None
+            return (min(lo, hi), True, max(lo, hi), True)
+    ge = re.search(r"(≥|>=)\s*(" + NUM + ")", c)
+    gt = re.search(r">(?!=)\s*(" + NUM + ")", c)
+    le = re.search(r"(≤|<=)\s*(" + NUM + ")", c)
+    lt = re.search(r"<(?!=)\s*(" + NUM + ")", c)
+    if (ge or gt) and not (le or lt):
+        v = _n((ge.group(2) if ge else gt.group(1)))
+        return (v, bool(ge), INF, False) if v is not None else None
+    if (le or lt) and not (ge or gt):
+        v = _n((le.group(2) if le else lt.group(1)))
+        return (-INF, False, v, bool(le)) if v is not None else None
     return None
+
+
+def granularity(bounds):
+    """Smallest value the axis can PRINT, inferred from the card's own boundaries.
+
+    Decimal axes were previously unreachable: granularity was 1/100/1000 only, so a
+    `<=4.1` / `4.3-4.4` table had no integer strictly between 4.1 and 4.3 and the missing
+    4.2 went unreported.
+    """
+    fin = [b for b in bounds if abs(b) != INF]
+    if not fin:
+        return 1.0
+    dp = 0
+    for b in fin:
+        t = f"{b!r}"
+        if "." in t:
+            frac = t.split(".")[1].rstrip("0")
+            dp = max(dp, len(frac))
+    if dp:
+        return 10.0 ** (-dp)
+    if all(b % 1000 == 0 for b in fin):
+        return 1000.0
+    if all(b % 100 == 0 for b in fin):
+        return 100.0
+    return 1.0
 
 
 def parse_tables(text):
@@ -127,50 +153,76 @@ def band_label(cell):
 
 
 def check_coverage(hdr, rows, lineno, card):
-    """Leg (a): find an interval column; report gaps/overlaps. Returns list of findings."""
-    out = []
+    """Leg (a): coverage. Returns (findings, coverage_ran).
+
+    Works in INTEGER units of the axis granularity, so boundary arithmetic is exact -- a
+    float axis is what produced this repo's own 12-of-20 missed-boundary bug (L-29 #4).
+    """
+    out, ran = [], False
     ncol = max((len(r) for r in rows), default=0)
     best = None
+    # Pick the BAND AXIS by parse FRACTION, not raw count. A prose column ("Card said: ...")
+    # can contain two parseable numbers and would otherwise win on count alone, dragging its
+    # narrative rows in as UNPARSEABLE and burying the real findings under noise.
+    best_score = 0.0
     for ci in range(ncol):
-        got = [(r[0], parse_interval(r[ci])) for r in rows if len(r) > ci]
-        iv = [(lab, v) for lab, v in got if v]
-        if len(iv) >= 3 and (best is None or len(iv) > len(best[1])):
-            best = (ci, iv)
+        iv = [(r[0], parse_interval(r[ci])) for r in rows if len(r) > ci]
+        if not iv:
+            continue
+        ok = [(l, v) for l, v in iv if v]
+        frac = len(ok) / len(iv)
+        if len(ok) >= 2 and frac >= 0.6 and (frac, len(ok)) > (best_score, len(best[1]) if best else 0):
+            unp = [l for l, v in iv if v is None and re.sub(r"[*`\s]", "", r_cell(rows, l, ci))]
+            best, best_score = (ci, ok, unp), frac
     if not best:
-        return out
-    ci, iv = best
-    lab = lambda s: re.sub(r"[*`]", "", s).strip() or "?"
-    iv = sorted(iv, key=lambda t: t[1][0])
+        return out, ran
+    ci, iv, unparsed = best
+    lab = lambda t: re.sub(r"[*`]", "", t).strip() or "?"
     colname = hdr[ci] if ci < len(hdr) else f"col{ci}"
-    bounds = [b for _, (a, b) in iv for b in (a, b) if abs(b) != INF]
-    gran = 1000 if bounds and all(b % 1000 == 0 for b in bounds) else (
-           100 if bounds and all(b % 100 == 0 for b in bounds) else 1)
-    for (l1, (a1, b1)), (l2, (a2, b2)) in zip(iv, iv[1:]):
+
+    # A row in a band table whose interval cannot be read is UNVERIFIED, never ignored.
+    for l in unparsed:
+        out.append(("UNPARSEABLE", f"{colname}: band {lab(l)} has an unreadable interval — "
+                                   f"coverage for this card is UNVERIFIED, not clean"))
+    gran = granularity([b for _, (lo, _, hi, _) in iv for b in (lo, hi)])
+    U = lambda v: v if abs(v) == INF else int(round(v / gran))
+    # closed integer span [a,b] each band actually owns
+    spans = []
+    for l, (lo, li, hi, hi_i) in iv:
+        a = -INF if lo == -INF else (U(lo) if li else U(lo) + 1)
+        b = INF if hi == INF else (U(hi) if hi_i else U(hi) - 1)
+        if a != -INF and b != INF and a > b:
+            out.append(("EMPTY-BAND", f"{colname}: band {lab(l)} covers nothing"))
+            continue
+        spans.append((a, b, lab(l)))
+    spans.sort(key=lambda t: (t[0] == -INF and -1 or 0, t[0] if t[0] != -INF else 0))
+    fmt = lambda u: f"{u * gran:,.10g}"
+    for (a1, b1, l1), (a2, b2, l2) in zip(spans, spans[1:]):
         if b1 == INF or a2 == -INF:
             continue
-        if a2 > b1:
-            # A gap only matters if a value the series can actually PRINT falls in it.
-            # Granularity is inferred from the card's own boundaries: a card written in
-            # 1,000s ("186-199K") has no printable value between 185,000 and 186,000, so
-            # reporting a 999-value gap there is noise. A card written in full units
-            # ("200,000-208,999") drops granularity to 1 and 209,000 IS printable.
-            hits = [v for v in (b1 + k * gran for k in range(1, 3)) if b1 < v < a2]
-            if hits:
-                out.append(("GAP", f"{colname}: bands {lab(l1)} and {lab(l2)} leave "
-                                   f"{hits[0]:,.0f}"
-                                   + (f" - {a2 - gran:,.0f}" if a2 - gran > hits[0] else "")
-                                   + f" in NO BAND (granularity {gran:,.0f})"))
-        elif a2 < b1:
-            out.append(("OVERLAP", f"{colname}: bands {lab(l1)} and {lab(l2)} both claim "
-                                   f"{a2:,.0f} - {b1:,.0f}"))
-    lo_end, hi_end = iv[0][1][0], iv[-1][1][1]
-    if lo_end != -INF:
-        out.append(("OPEN-END", f"{colname}: lowest band starts at {lo_end:,.0f} — "
-                                f"values below it are unassigned"))
-    if hi_end != INF:
-        out.append(("OPEN-END", f"{colname}: highest band ends at {hi_end:,.0f} — "
-                                f"values above it are unassigned"))
-    return out
+        if a2 > b1 + 1:
+            out.append(("GAP", f"{colname}: bands {l1} and {l2} leave "
+                               f"{fmt(b1 + 1)}" + (f" - {fmt(a2 - 1)}" if a2 - 1 > b1 + 1 else "")
+                               + f" in NO BAND (granularity {gran:,.10g})"))
+        elif a2 <= b1:
+            out.append(("OVERLAP", f"{colname}: bands {l1} and {l2} both claim "
+                                   f"{fmt(a2)}" + (f" - {fmt(b1)}" if b1 > a2 else "")))
+    if spans:
+        if spans[0][0] != -INF:
+            out.append(("OPEN-END", f"{colname}: lowest band starts at {fmt(spans[0][0])} — "
+                                    f"everything below it is unassigned"))
+        if spans[-1][1] != INF:
+            out.append(("OPEN-END", f"{colname}: highest band ends at {fmt(spans[-1][1])} — "
+                                    f"everything above it is unassigned"))
+        ran = True
+    return out, ran
+
+
+def r_cell(rows, label, ci):
+    for r in rows:
+        if r and r[0] == label and len(r) > ci:
+            return r[ci]
+    return ""
 
 
 WILDCARD = {"any", "either", "*", "-", "—", "n/a", "all"}
@@ -279,12 +331,12 @@ def check_prose(text, tables):
         for b in named:
             if b not in bands:
                 bad.append(f"band {b}: no such band in any table"); continue
-            lo, hi = bands[b]
+            lo, _li, hi, _hi = bands[b]
             v = verdict(lo, hi)
             if v:
                 bad.append(f"band {b} [{lo:,.0f}, {hi:,.0f}] is {v} {num:,.0f}")
         # the converse: a band that DOES satisfy the relation but was left out of the set
-        omitted = [b for b, (lo, hi) in sorted(bands.items())
+        omitted = [b for b, (lo, _a, hi, _b) in sorted(bands.items())
                    if b not in named and verdict(lo, hi) is None]
         if bad:
             out.append(("PROSE", f"\"{sent.strip()[:100]}...\"\n          names bands "
@@ -304,14 +356,21 @@ def check_card(path):
     text = open(path, encoding="utf-8").read()
     tables = list(parse_tables(text))
     findings = []
+    coverage_ran = False
     for hdr, rows, ln in tables:
-        findings += check_coverage(hdr, rows, ln, path)
+        f, ran = check_coverage(hdr, rows, ln, path)
+        findings += f
+        coverage_ran |= ran
         findings += check_cross(hdr, rows)
     prose, bands = check_prose(text, tables)
     findings += prose
     name = os.path.basename(path)
-    if not bands:
-        print(f"  ⚠️  CANNOT-VERIFY  {name}: no band table with >=3 parseable intervals. "
+    if not bands or not coverage_ran:
+        # PASS must mean coverage was CHECKED, not merely that nothing complained. A single
+        # band populated `bands` and returned PASS while coverage never ran at all.
+        why = ("no band table with >=2 parseable intervals" if not bands
+               else "only one band parsed — a partition cannot be established from one interval")
+        print(f"  ⚠️  CANNOT-VERIFY  {name}: {why}. "
               f"Not a pass — check by hand or fix the card's table.")
         return 2
     if not findings:
@@ -394,6 +453,44 @@ SELF_TESTS = [
 | A | X >= 210,000 | fire |
 | B | 200,000 - 208,999 | hold |
 | C | X <= 199,999 | drop |
+""", 2, "GAP"),
+    # ---- the five cases from CODEX's independent review, 2026-09-07 ----------------
+    # My own ten self-tests all passed while ALL FIVE of these returned PASS. They are
+    # permanent: an adversarial set written by someone else is the only part of this suite
+    # that was not designed around the implementation it tests.
+    ("CODEX 1/5: a single band cannot establish a partition", """
+| Band | X | Action |
+|---|---|---|
+| A | >=250000 | hold |
+""", 2, "CANNOT-VERIFY"),
+    ("CODEX 2/5: strict bounds leave 200000 and 250000 unowned", """
+| Band | X | Action |
+|---|---|---|
+| A | <200000 | hold |
+| B | 200001-249999 | hold |
+| C | >250000 | hold |
+""", 2, "GAP"),
+    ("CODEX 3/5: inclusive bounds double-assign 200000 and 250000", """
+| Band | X | Action |
+|---|---|---|
+| A | <=200000 | hold |
+| B | 200000-250000 | hold |
+| C | >=250000 | hold |
+""", 2, "OVERLAP"),
+    ("CODEX 4/5: an unreadable band row is UNVERIFIED, not ignored", """
+| Band | X | Action |
+|---|---|---|
+| A | <=199999 | hold |
+| B | 200000-229999 | hold |
+| C | ??? | hold |
+| D | >=230000 | hold |
+""", 2, "UNPARSEABLE"),
+    ("CODEX 5/5: decimal axis omits 4.2", """
+| Band | X | Action |
+|---|---|---|
+| A | <=4.1 | hold |
+| B | 4.3-4.4 | hold |
+| C | >=4.5 | hold |
 """, 2, "GAP"),
     ("prose contradicting the table is caught", """
 | Band | X | Assignment |

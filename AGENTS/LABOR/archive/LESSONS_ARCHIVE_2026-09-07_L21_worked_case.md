@@ -27,3 +27,21 @@
 
 ---
 
+
+
+---
+
+# L-23 worked case, demoted from `LESSONS.md` 2026-09-07 (verbatim, rule retained in the cold index)
+
+## L-23 — Evidence about an UPSTREAM quantity must move a DOWNSTREAM-graded instrument LESS, not more, when the mapping adds a step the evidence never touches
+
+**The instance (2026-08-27, caught by RED within the hour, conceded on both limbs).** Berger's QCEW claim — verified at the BLS primary — is a finding about the **PRELIMINARY** benchmark. RED grades `RED-22` on the preliminary and moved **52 → 40 (12pp)**. I grade `LAB-08` on the **FINAL**, reached from the preliminary through a **0.76** shrinkage ratio, and moved **35 → 15 (20pp)**. **I moved further on the instrument further from the evidence.**
+
+**Why that is backwards.** The final is the preliminary passed through an extra, independent step. Nothing in the seasonality work or the primary pull says anything about that 0.76. An independent step the evidence is silent on **adds variance and therefore DAMPS the transmitted update** — the downstream number should be the *less* responsive of the two in absolute pp, not the more. My band re-weighting is where it surfaced: `P(≥700K) 0.375 → 0.12` and **`P(<450K-or-up) 0.275 → 0.65`** — a figure that *more than doubled* on a directional finding carrying no magnitude at all.
+
+**The second limb, and it is the worse one: a counterfactual conditioned on an OUTCOME may not be cashed on a DIRECTION.** My 15% was pre-registered as *"if Band E LANDS, my 35% should have been ~15%."* **Band E did not land.** What arrived was evidence *pointing* at Band E. Pre-registration protected me from the chase and then I mis-spent it — the discipline was in the timing, not in the sizing, and I read the first as covering the second. **The evidence's own author had fenced it**: RED's limit (b) states current `PAYNSA` already embeds the Mar-2025 benchmark, so `+211K` is a post-benchmark residual that **cannot be mapped to a job count.** I took a calibrated number off a finding explicitly marked non-calibratable.
+
+**How to apply.** Before moving a prediction on someone else's finding, ask two questions in order: **(1) Does my instrument grade the SAME object the finding is about?** If it grades a downstream object, name the intervening step and ask whether the evidence speaks to it — if it does not, my move should be *smaller* than the upstream desk's, and I should be able to say why. **(2) Is the number I am taking conditioned on an OUTCOME that has not occurred?** Direction is not outcome. A pre-registered counterfactual is licensed only when its condition fires; short of that, the honest update is a fraction of it, and the fraction needs an argument. ⚠️ **Corollary on deadlines:** "I have already moved twice today" is a reason not to move *again tonight*, **not** a reason to carry a number I believe is mis-derived indefinitely. `RED-22` graded the next morning so RED holding was right; `LAB-08` resolves Feb-2027, so the correct disposition was **annotate now, re-derive off the PRINTED figure** — a number, not an argument. Partners with `[[finding_rederived_signal_loses_the_senders_caveats]]` (the sender's fence is the first thing lost in transmission — here I lost it on evidence handed to me directly, in the same conversation).
+
+---
+
