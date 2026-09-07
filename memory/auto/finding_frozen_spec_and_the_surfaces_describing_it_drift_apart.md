@@ -39,3 +39,20 @@ Related: [[finding_prereg_branch_label_can_contradict_its_condition]] (label vs 
 
 ### Instance 2026-09-02/03 — the SPAWN BRIEF as a describing surface (n+7 in one night; PROME)
 Thirteen desk briefs were written off each desk's own STATUS/SCRATCH gloss instead of its registered row, and seven carried a stale premise the desk then corrected at the letter: WATT-02's bar was summarised as "a posting" on the desk's own STATUS while the registered criteria read *"≥1 EEA2+ posting **or 202(c) order**"* — the second limb had dropped off every derived surface, and the row had been a HIT since 7/14 while four surfaces said "trending MISS"; FERT's TRIGGERS "last checked 8/20" was a `Next_Check` cell read as a read (last read 8/12); VULCAN's "8/27 post-close reading now exists" — never taken; CORAL's "3 named storms" (5); DAEDALUS's owed WQ-140/117C (encoded 9/1, its own board stale); "CA$27.6B" (currency inferred at the primary); "CARL keeps no board_log" (760 rows at a non-canonical path). **The describing surface here was the desk's own summary, and the reader was PROME writing on its behalf.** Rule adopted for briefs: read the REGISTERED ROW (the letter, the ledger cell, the TSV) and quote it; a STATUS caveat is a gloss, and a correct gloss about the NEIGHBOURING row (WATT-06 really is posting-only) migrates one row and becomes a wrong rule. Detection: the ORCH_LOG `brief_defects` column, filled at delivery-consume — 8 of 13 briefs scored ≥1, every one this class.
+
+### Instance 2026-09-06 (BRENT) — n+1 in the SAME direction, and the describing surface was a ROUNDED NUMBER
+
+**The narrowest, cheapest version of this class yet: the describing surface was not a paragraph, it was a DISPLAY.**
+
+`GATE-BRENT-COT-35B` is a frozen band over CFTC COT managed-money gross shorts. **Three independent blind readers each found it off by one contract and each concluded the spec was broken. Nothing was wrong with the band.** The trailing-8-week base is an **even-n median** — n=8 ⇒ `(122,319 + 123,490) / 2 = 122,904.5`, a **half-integer** — and it had been published **truncated to `122,904`**. Carry the `.5` and all three levels reproduce to the contract; drop it and none of them do.
+
+**A second defect surfaced in the same fix and it is the sharper one:** the published bar `≤113,745` was written as a decision boundary. **It is the deadband's CENTRE.** The real letter is `≤109,164 SPENT | 109,165–118,325 NO-VERDICT | ≥118,326 NOT-SPENT`. **The code and every graded vintage had always done the right thing. Only the sentence describing them was wrong.** Grades affected by either defect: **n=0**, falsified by re-running the grader after the fix and getting the identical verdict on every vintage.
+
+**What this adds to the class:** the other instances have a *prose* surface drifting from a letter. Here the drifting surface is **a number's rendering**, which nobody classifies as a surface at all — so it inherits none of the doc-hygiene suspicion that a stale paragraph gets.
+
+**Three mechanical rules, all cheap:**
+- **Publish a derived level at the precision it was DERIVED at, never at the precision it reads nicely at.** Rounding a load-bearing number is a silent edit to it. Even-n medians are the common trap: they end in `.5` by construction.
+- **A spec that publishes a BASE must publish its MULTIPLIERS too, or it cannot be checked at all.** Without them a reviewer can only compare two numbers and guess which is wrong; with them the level reproduces and the disagreement resolves in one line.
+- **Say whether a published number is a BOUNDARY or a CENTRE.** Identical digits, opposite instructions.
+
+⚠️ **And the three-reviewer agreement was NOT corroboration.** All three read the *same published sentence* — one measurement read three times, not three measurements. `[[finding_crosscheck_with_free_parameter_validates_nothing]]`; the shared input was the free parameter. **The direction was the dangerous one: the reviewers were about to get a CORRECT band re-based**, moving a live level across three graded vintages. What held it at zero was reproducing the level from base × multipliers *before* touching anything.
