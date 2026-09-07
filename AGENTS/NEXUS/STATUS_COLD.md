@@ -277,3 +277,191 @@ Historical confirmed convergences in `CONFIRMED.md`. **C-36: OWNER-RULED 9/1 —
 
 ---
 
+---
+
+## §H7 — 2026-09-07 ROTATION (verbatim from `STATUS.md`; state stays hot, evidence moves here)
+
+*Rotated at the 9/07 falsifier-grade closeout to hold `STATUS.md` under the 32,550 B read cap. Verbatim, unedited.*
+
+### H7a NARRATIVE GAP 9/02
+*crc32 1558577175, 1867 B*
+
+## NARRATIVE GAP · full text + the 9/02 edge question → `STATUS_COLD.md` §H6
+
+- **Consensus/tape:** *"Inflation beaten, credit fine, labour stabilising not cracking, housing re-accelerating, the AI order book is real."* Newly strengthened: the Chair-designate called labour *"consistent with full employment"* and Sept-odds went **0.31 → 0.48**.
+- **Agent-data:** a bear case whose evidence improved in **QUALITY** while its instruments failed in **QUANTITY** — credit's tail at maximum separation, China non-manufacturing **flat with construction at a record low on a re-used attribution**, every JGB tenor at a series high with the driver **unadjudicated** — against a chain head that graded itself down twice, accelerating HPI, and a physical-war fact that had **lapsed 8/12**.
+- **Market-verdict counter-signal** *(Disc-D, mandatory)*: **LABOR grading BOTH its own 9/1 catalysts as losses** · **HOM-01 MISSED, HPI +2.31%** · **HY strict-miss then widening AWAY from the kill** · Sept-odds 0.31→0.48 · **ERCOT all four strips lower** · **the record MOF intervention 61% retraced.** *(Bear: CCC 1049 / ratio 3.958 · construction 46.9 · JGB tenors · GATE-REG-T02 · commitments/COGS 1.45×→2.90×.)* **Count-once: C1's three live clauses; LABOR's two prints are ONE window.**
+- **Gap size + direction:** **NARROWER — and for the first time the narrowing is not mostly price.** Four of the five things that closed it were **owner verdicts against their own books.** The bear's case is now concentrated in **composition** and **the price of money**, and has **lost the physical-war leg almost entirely.**
+- **Closing catalysts:** 9/3 30Y JGB → **9/4 NFP + T-03 + MIDAS-08** → **9/5-9/8 BRENT's Hormuz control** + BCRED backstop 9/8 → 🔴 **9/11 CPI** → 9/15-18 Fed+BOJ → 9/29 40Y JGB → 9/30 CARL + ZHAO tripwire.
+
+---
+
+## CONFIRMED
+
+### H7b LAST RUN 9/02
+*crc32 1792054243, 461 B*
+
+**9/02 SYSTEMS-REVIEW session (5-day gap; DOCKET L206).** Slate delivered (11 items; §DIFF the headline). Read-cap **CURED in two cuts**. Matrix reviewed **9/02**: M-03 ↓4 · M-05 ↑3 · M-06 ↓5 · M-07 ↑3 · M-09 ↑4 · M-10 ↓2 · M-11 ↑3 · M-01/M-04/M-08 held and dated honestly. **R11 PROMOTED** (effective-N 4→5). Split **20/47/33**. T-12 **ADMISSION GATE pre-registered and base-rated at n=503 before the window**. Inbox **22/22 drained**.
+
+
+### H7c docket 8/18-9/02
+*crc32 996179196, 481 B*
+
+| **2026-08-18 → 09-02** | ✅ **SWEPT AND CLOSED** — 13 owner-graded outcomes consumed, each into its matrix row. 🔴 My prior docket's **"8/21 Jackson Hole" never existed** (8/27-29, keynote 8/28) — RED fixed its brief 9/2 **and refuted MY premise: kansascityfed.org does NOT 403** (HTTP 200 to WebFetch; JH dates VERIFIED at primary). The "403" was a tool-path artifact three desks believed — a declared data wall should name the TOOL that hit it. | ✅ **RESOLVED** |
+
+### H7d M-06 evidence 9/02
+*crc32 2685792817, 1959 B*
+
+| **M-06** | Energy/stagflation — **TWO physical legs LOST** | R2+R9 | **43%** | **↓5pp** | 2026-09-02 | ① 🔴 **Kharg: the strike was an AI-GENERATED VIDEO (FAL-01 FIRM-NEGATIVE) and the blockade STATE had lapsed — loading RESUMED 8/12.** (9-cell, 21-day own-goal — slate item 5). ② 🔴 **PortWatch control FAILED at both desks** — 0 t / 0 calls on **8/12, a day a VLCC loaded ~2M bbl** ⇒ **POSITIVE-DETECTOR-ONLY: a ZERO carries NO information.** 🔑 **~59 transits/day = 1.7× THROUGH the >35/day kill bar** ⇒ `KILL-LEG2-TRANSIT` may be **structurally unfireable**. 🆕 **9/05 US–IRAN DIRECT EXCHANGE — NEW EVIDENCE TYPE, ARMED NOT COUNTED, 0pp** (IRGC missiles at a US carrier; US sank 1 Iranian tanker, disabled 2). ⚠️ **RELAYED VIA PROME'S TASK PACKET, NOT VERIFIED AT PRIMARY BY NEXUS** (Disc-G) — after the 9/02 Kharg own-goal this desk does not bank a war fact it has not opened; **BRENT + FALCON are spawned on it and OWN the verification.** Why ARMED and not counted, five reasons: ① the TYPE is genuinely new for R2 — belligerent-command-confirmed kinetic action, not a flow read and not a media strike claim (the class that survives FAL-01's failure mode); ② **every R2 instrument that could COUNT it is impeached** — PortWatch positive-detector-only, the transit kill bar structurally unfireable, war-risk premium `[STALE 7/23]`; ③ **3 hulls against ~59 transits/day is not a throughput event**; ④ **Disc-D cannot be satisfied — there IS no market verdict:** last close 9/4 PRE-DATES the event and 9/7 is a holiday, so **the first tradeable close is 9/8**; ⑤ Disc-B, single episode. **COUNTS when:** an owner grade from FALCON/BRENT attaches a measurable flow or war-risk step · OR `WARRISK.tsv` refreshes off 7/23 and shows one · OR a 2nd independent kinetic episode inside 14d (campaign, not incident) · OR BRENT's re-specified control proves the series can see VLCCs and then shows a step. |
+
+### H7e M-09 evidence 9/02
+*crc32 1931403935, 1705 B*
+
+| **M-09** | AI concentration → capex-correction, CREDIT face | R4+R7 — SCORE-ONCE | **66%** | **↑4pp** | 2026-09-02 | **DEWEY `REQ-001` (9/2) — strongest new evidence-TYPE of the window.** ⛔ **The AI order book is NOT ONE book:** semis clean at the contracted core, **power equipment is a queue-position market**; **4 of 7 clean-book tests failed, clustered in power equipment.** ★ **The base rate INVERTS the obvious instrument list** — backlog/book-to-bill led in **0 of 3** episodes, 9-27 months late; the leader was **the price of the marginal UNCONTRACTED unit.** $119B→$279B = horizon-extension **AND** near-term **+45%/qtr**; commitments/COGS **1.45×→2.90× in one quarter**. ⛔ **Two relayed legs died at primary** (Bernstein 75% SEARCH-NOT-FOUND; "procurement of memory" **VERIFIED absent**). Counter: **ERCOT Cal-27 ~$42/MWh, all four strips lower.** 🆕 **9/03 PJM §202(c) — NEW evidence TYPE, ARMED NOT COUNTED (0pp):** DOE Order 202-26-41 (9/1→9/8) authorises PJM to direct backup generation **at LARGE LOADS** = the power-constraint leg arriving as an *executed regulatory-operational action*, a class M-09 had not held (its legs were filings/disclosures + market repricing). ⛔ The ROOT is WEATHER (season peak 152,518 MW; WATT: count the heat root once), the clause was **NOT exercised** (no EEA-2/3 ⇒ no large-load direction issued), and the order lapses 9/8 — Disc-A threshold-only, Disc-B single episode. **Counts when the mechanism prints:** the clause invoked · an extension past 9/8 · or the FERC IRAS order (~10/12, DOCKET L200) making large-load cost-bearing STRUCTURAL. WATT P1 2→5 / WATT-02 HIT (202(c) limb) VERIFIED at the registered rows. |
+
+### §H7f — 2026-09-07 rotation, settled/stale tension + threshold rows (verbatim)
+
+**| **T-21** |** *(crc32 2501965303, 162 B)*
+
+| **T-21** | R/T | ✅ **RESOLVED 9/1 (BOND C-36): SPLIT — channel ALIVE, term premium drove the July delta.** Retained only for the Warsh triple-count guard. |
+
+**| **T-24** |** *(crc32 1876246021, 586 B)*
+
+| **T-24** | R | **Japan long-end driver.** ⚪ **8/20 20Y AMBIGUOUS ⇒ NO-VERDICT** (BTC 3.982 misses 4.0 by 0.018 AND the tail 1.5bp fails independently — 0.018 is not "nearly FIRM"); cleared +8.7bp above 7/14 orderly ⇒ *"floor MOVED UP, not held or broken."* **9/3 30Y ⚪ UNREACHABLE-BY-CONSTRUCTION — does NOT count toward "two consecutive NO-VERDICTs"; that counter starts at the 9/29 40Y** (SAM 9/3: internals SOFT on a 2.1bp tail vs a 2.0 bar — a quantization-width margin; CH-016 ⚪ as pre-registered). ⛔ **Do NOT bank the JGB move as an M-03 term-premium vote.** |
+
+**| **T-10** |** *(crc32 2176226548, 450 B)*
+
+| **T-10** | R/T | Stagflation-trap, pass-through pending. Bear: diesel $5.440 · 301+338 live · **ISM prices paid 71.1**. Tape: core at target every horizon. → **9/11 CPI = first full-301 + partial-338 month, in blackout** · ⛔ PJM's $1,868 spot is NOT a CPI input: WATT's own `FL-WATT-02` names the capacity-auction pass-through (annual cadence) as the cost channel, *"not P1 spikes"* — WALTER's "CARL leg" decomposed (Disc-G), not carried |
+
+**| ⚠️ ~~**FT-01 re-arm ≥280 (s=3)**~~** *(crc32 4018523261, 354 B)*
+
+| ⚠️ ~~**FT-01 re-arm ≥280 (s=3)**~~ **DEMOTED BY ITS OWNER** *(guard restored 9/02)* | — | RED (S36d 8/27) | ⛔ **Standing guard:** RED — *"IT IS NO LONGER A FALSIFIER — read its fires as `SUSTAINED-CALM-COUNTER-SIGNAL`"* (48.3% vs 21.8% published). **Do NOT key anything to "RED's kill line at 280."** Full text → `STATUS_COLD.md` §A. |
+
+**| **MIDAS M1 kill-cond #3** |** *(crc32 3218548969, 496 B)*
+
+| **MIDAS M1 kill-cond #3** | ✅ **`MIDAS-06` TERMINAL 8/31 — (a) DIVERGE PERSISTS; YES verified in Kernel 9/2** (MIDAS proposed, **RED verified**) | MIDAS / KERNEL | **DFII10 2.42 [8/28] cleared ≥2.40 by +2bp**; gold cleared on **both** bases ⇒ **M1 3→4, composite 7/20→8/20.** 🎯 **MIDAS honoured a fence against itself** (2.42 sits inside both NO-VERDICT bands drafted 3 days earlier; bands are prospective). ⛔ **A score on the DIVERGE test, not a clean bill on composition.** |
+
+**| **BOND T6 — Sept-odds <25%** |** *(crc32 243184826, 361 B)*
+
+| **BOND T6 — Sept-odds <25%** | ✅ **`NO-VERDICT`, GRADED 2026-08-30** (not 9/2) | closed | Min close **0.25 [8/14] = EXACTLY ON the line**, never crossed (strict <); **the intraday low 0.23 WOULD have fired, and the close basis was adopted 8/27 — 13 days after the breach** ⇒ a **BASIS-CONVENTION OUTCOME** that scores neither desk. ⭐ Slate item 3. |
+
+### §H7g — 2026-09-07 rotation, header banner + antecedent-map cells (verbatim)
+
+**H7g read-cap cure banner** *(crc32 367306765, 569 B)*
+
+✅ **READ-CAP CURED, both surfaces:** STATUS 9/02 (46,471 → 32,376 B → `STATUS_COLD.md`) · **`PREDICTIONS_MONITOR.md` 9/03, WQ-163 item 1** (59,146 → 21,624 B hot + `PREDICTIONS_COLD.md`; **29-item obligation ledger** → `research/2026-09-03_predictions_monitor_split_obligation_ledger.md`: 15 live re-homed, 14 discharged with evidence, **0 deleted, 2 surfaced** — an UNPINNED C#2 window start; a PRED-45 re-mark the 9/02 review missed). ⭐ A split is audited by OBLIGATION, not bytes — the 9/02 first cut had deleted two live obligations; restored HOT.
+
+
+**H7g antecedent map 9/02** *(crc32 1505908049, 2185 B)*
+
+| Root | State 9/02 (Δ this window in-cell) |
+|---|---|
+| **R1 USD/Fed** | Policy-path channel **ALIVE AND TRANSMITTING** (C-36 ruling 9/1); Sept-odds **0.31→0.48 [8/28]**. ⚠️ **Warsh is NOT an independent labour witness — he READS LABOR's instruments**; "QCEW benign + Chair says stable + claims low" is **triple-counting one chain.** |
+| **R2 Iran/Hormuz** | 🔴 **RE-BASED TWICE:** strike synthetic · blockade **state lapsed 8/12** · veto **structurally non-functional** · flows **1.7× through** the kill bar. |
+| **R9 Russia/Ukraine + Red Sea** | Unswept at owner level. **Marked `[STALE 2026-08-17]` rather than re-asserted.** |
+| **R3 Credit fundamental** | **Max separation EXTENDED**: CCC 1049 / ratio 3.958 run high vs index 265 after a 260.0 strict miss. |
+| **R4 AI/factor positioning** | 🆕 **SECTOR-SPLIT established**; leading instrument re-identified as **the marginal uncontracted unit**, not backlog. |
+| **R6 Japan/BOJ** | **EVERY TENOR AT A SERIES HIGH [MOF 9/1]:** 2Y 1.802 · 5Y 2.280 · **10Y 2.987 (touched 3.00%, first since 1996)** · 20Y 3.859 · **30Y 4.131 (8 closes >4.00)** · 40Y 4.145. ⛔ **The 4.096 [8/18] figure is DEAD.** Driver **still CONTESTED** — 8/20 auction ⚪ AMBIGUOUS. |
+| **R7 Concentration/leverage** | Dampening intact; SKEW 144.12 [9/2] (closest 149.77 [8/28]; 149.23 WITHDRAWN by RED). |
+| **R8 Foreign-official UST** | Counter-mechanism **strengthened on a record month** (¥15.4T, FIMA zero, 61% retraced). |
+| **R10 Recognition-perimeter** | 🆕 first **counterparty-action** datum. ⛔ **HOMER revokes realtor.com median list price as a 60-90d HPI lead — 0-for-2, wrong direction** (specify $/sqft mix-controlled, never the median). |
+| 🆕 **R11 China domestic demand** *(PROMOTED from watch)* | 🔴 **Aug NBS: composite 49.5 (2nd sub-50) · mfg 49.8 · CONSTRUCTION 46.9 = NEW RECORD LOW**, on the **same weather attribution a second month** — ZHAO: *"a distortion that recurs is a condition"*; *"strip manufacturing and China's non-manufacturing economy did not move at all in August."* Vector 5 Property 4→5, 5b 4→3, **total 28/60 UNCHANGED — a rotation concealed by a flat score.** |
+
+**C1 —
+
+### §H7h — 2026-09-07 rotation, BREACHED table pre-compression (verbatim)
+
+**H7h BREACHED table 9/02-9/03** *(crc32 3887004080, 2514 B)*
+
+| 🆕 **`GATE-REG-T02` WAL close <$78** | **FIRED 9/1 @ $77.26** | REGINALD (`REG_T02_EXIT_LOG.tsv`) | **LEVEL fire, mechanism UNCHANGED, ρ +0.253 wrong sign.** WAL $79.12 [9/2] **NOT an un-fire**; exit **0-of-3**. Now guards a live position. |
+| **CCC/HY ratio >3.6×** | **≈3.958 [9/1] NEW RUN HIGH** (~24 sessions) | REGINALD / FRED, NEXUS-derived | ⚠️ **Attribution BASELINE-SENSITIVE, 3rd consecutive grade — name the baseline or don't cite it.** |
+| **CCC >1000** | **1049 [9/1]**, +18bp since 8/27 | FRED `BAMLH0A3HYC` (n=503: min 690 / med 879 / max 1137) | **Tail widened +18bp while the index widened +2bp.** |
+| 🆕 **JGB — EVERY TENOR AT A SERIES HIGH** | 30Y **4.131** (8 closes >4.00) · 40Y **4.145** · 10Y **2.987** (touched 3.00%) [MOF 9/1] | SAM | ⛔ **The 4.096 [8/18] figure is DEAD.** A floor **MOVED UP**, not a stress trigger fired — **grade auction INTERNALS, never the level.** |
+| **30Y UST >5%** | DGS30 **5.19 [8/27]**, never above 5.28 in-window | BOND | Run-length form. DFII10 2.47 = **post-2023 high, NOT a series high**. |
+| **Gas $4.00 (CARL V5)** | **$4.070 [8/15]** `[STALE]` | CARL | DOWNGRADE watch answering NO. |
+| **MIDAS M1 kill-cond #3** | ✅ **`MIDAS-06` TERMINAL 8/31 — (a) DIVERGE PERSISTS; YES verified in Kernel 9/2** | MIDAS / KERNEL | **DFII10 2.42 [8/28] cleared ≥2.40 by +2bp**; gold cleared on **both** bases ⇒ **M1 3→4, composite 7/20→8/20.** ⛔ **A score on the DIVERGE test, not a clean bill on composition.** 📦 → §H7f. |
+| **Hormuz throughput** | ⚠️ **NON-FUNCTIONAL for its registered purpose** | FALCON / BRENT | 🔴 **POSITIVE-DETECTOR-ONLY: a nonzero print is trustworthy; a ZERO carries NO information.** ⛔ Never let a zero carry an absence or duration claim. |
+| ⚠️ **Gamma flip** *(restored 9/02)* | POSITIVE, spot above — **`[STALE 8/6, 28 days]`** | HENRY (CBOE) | 🔴 **REFRESH OWED BY OWNER — HENRY: 28 days old and M-04 rests on it.** *(Row DELETED by my first 9/02 split-pass, restored by PROME's obligation check — the split failure mode.)* |
+| ⚠️ ~~**FT-01 re-arm ≥280 (s=3)**~~ **DEMOTED BY ITS OWNER** | — | RED (S36d 8/27) | ⛔ **Standing guard: RED — *"IT IS NO LONGER A FALSIFIER — read its fires as `SUSTAINED-CALM-COUNTER-SIGNAL`"*** (48.3% vs 21.8% published). **Do NOT key anything to "RED's kill line at 280."** Full text → `STATUS_COLD.md` §A. |
+| **TTF >€50** | €59.07 `[STALE 7/31]` | BRENT → SAM | Feed handed to SAM (gas instrument; ρ vs Brent ~0). |
+
+### §H7i — 2026-09-07 rotation, M-07/M-08/M-10/M-11 evidence cells (verbatim)
+
+**| **M-07** |** *(crc32 470848342, 532 B)*
+
+| **M-07** | Bull-counter tape cluster | Med — ~4 classes | **81%** | **↑3pp** | 2026-09-02 | **Every addition is an owner grading against its own book.** LABOR 9/1: **layoffs 1.0%** (distance to its escalation line **widened 0.1→0.2pp**) + **ISM Mfg employment ≥50 ×2**; **zero bands fired, 29/75 unchanged** — reported by LABOR as losses to its own book. **HOM-01 MISSED** (+2.31% SA, basis-robust). **HY 260.0 [8/28] STRICT MISS → 265 [9/1].** ⚠️ **Disc-H: LABOR's two prints are ONE 9/1 window — one vote.** |
+
+**| **M-08** |** *(crc32 2101071683, 721 B)*
+
+| **M-08** | R3 credit K-split — **separation EXTENDED** | 1 root, multi-instrument | **68%** | **—** | 2026-09-02 | **HELD 68 — both legs moved, opposite ways, THIRD consecutive grade; that is now the row's characteristic.** Tail **CCC 1031→1049 [9/1]**, ratio **≈3.958 = NEW run high** (~24 sessions >3.60×). Index **263→260.0 strict miss→265**. ⛔ LIQUID: *"DO NOT read 263 as credit improving"* — CCC/BB 6.739 + CCC/HY 3.920 = **MAXIMUM of the 787-obs series**. **BROCK: BCRED expired 8/31, nothing filed, BRK-30 NOT graded** — 🔴 **the docket watched the WRONG instrument** (no "final results" amendment in 60 SC TO filings since 2021); re-anchored to an `SC TO-I/A` letter, **backstop 9/8.** |
+
+**| **M-10** |** *(crc32 1354958802, 560 B)*
+
+| **M-10** | UST foreign-official — **counter-mechanism strengthened on a record** | R8 | **30%** | **↓2pp** | 2026-09-02 | **MOF intervention is OFFICIAL and a RECORD: ¥15,399.3B ≈ $96B (Jul-30→Aug-26), 1.31× the prior window.** ⛔ **Does NOT imply USTs were sold — FIMA take-up ZERO across four vintages.** ⛔ Japan-side only, aggregate only; **any ¥/day figure incl. SAM's own is a DERIVATION off a Bloomberg estimate.** 🔑 **61% already given back** — USD/JPY **160.193 [9/1]**, first ≥160 since 7/29. Split waits on **FRBNY 11/13**. |
+
+**| **M-11** |** *(crc32 3991027237, 660 B)*
+
+| **M-11** | Insurer/PC recognition — **first counterparty ACTION** | Med — 3-agent guard = ONE vote | **51%** | **↑3pp** | 2026-09-02 | **Truist AND Fifth Third both PAUSED distribution of Delaware Life 8/28** — two independent carriers, SDNY + SEC probe, **two days after TWG said "there has been no fraud."** Every prior M-11 grade was a **disclosure** test; this is a **distribution counterparty ACTING** — the first datum not dependent on the issuer's own reporting. ⛔ **STRIPPED:** "regulatory margin call" / "flows going the wrong way" are in no carrier. ⛔ **Do NOT reintroduce the RETRACTED 12× leverage figure (5.1× on the filing).** |
+
+### §H7d/e/j — 2026-09-07 rotation, M-06 · M-09 · split rationale (verbatim)
+
+**| **M-06** |** *(crc32 1572510523, 1651 B)*
+
+| **M-06** | Energy/stagflation — **TWO physical legs LOST** | R2+R9 | **43%** | **↓5pp** | 2026-09-02 🔴 **Kharg strike = AI-GENERATED VIDEO (FAL-01 FIRM-NEGATIVE); blockade STATE lapsed, loading RESUMED 8/12; PortWatch control FAILED at BOTH desks ⇒ POSITIVE-DETECTOR-ONLY, a ZERO carries NO information; ~59 transits/day = 1.7× THROUGH the >35/day bar ⇒ `KILL-LEG2-TRANSIT` may be structurally unfireable.** 📦 9/02 evidence → `STATUS_COLD.md` §H7d. 🆕 **9/05 US–IRAN DIRECT EXCHANGE — NEW EVIDENCE TYPE, ARMED NOT COUNTED, 0pp** (IRGC missiles at a US carrier; US sank 1 Iranian tanker, disabled 2). ⚠️ **RELAYED via PROME's task packet, NOT verified at primary by NEXUS** (Disc-G) — after the Kharg own-goal this desk does not bank an unopened war fact; **BRENT + FALCON are spawned and OWN the verification.** **Why ARMED, not counted:** the TYPE is new for R2 (belligerent-command-confirmed kinetic action — the class that survives FAL-01's failure mode), but **every R2 instrument that could COUNT it is impeached** (above; war-risk premium `[STALE 7/23]`), **3 hulls vs ~59 transits/day is not a throughput event**, it is a **single episode** (Disc-B), and 🔴 **Disc-D cannot be satisfied — there IS no market verdict: last close 9/4 PRE-DATES the event and 9/7 is a holiday ⇒ first tradeable close is 9/8.** **COUNTS when:** a FALCON/BRENT owner grade attaches a measurable flow or war-risk step · OR `WARRISK.tsv` refreshes off 7/23 and shows one · OR a 2nd independent episode inside 14d (campaign, not incident) · OR BRENT's re-specified control proves the series sees VLCCs and then shows a step. |
+
+**| **M-09** |** *(crc32 1512259999, 1488 B)*
+
+| **M-09** | AI concentration → capex-correction, CREDIT face | R4+R7 — SCORE-ONCE | **66%** | **↑4pp** | 2026-09-02 **DEWEY `REQ-001` (9/2) — strongest new evidence-TYPE of the window.** ⛔ **The AI order book is NOT ONE book:** semis clean at the contracted core, **power equipment is a queue-position market**; **4 of 7 clean-book tests failed, clustered in power equipment.** ★ **Base rate INVERTS the obvious instrument list** — backlog/book-to-bill led in **0 of 3** episodes; the leader was **the price of the marginal UNCONTRACTED unit.** Commitments/COGS **1.45×→2.90× in one quarter**. ⛔ **Two relayed legs died at primary** (Bernstein 75% SEARCH-NOT-FOUND; "procurement of memory" **VERIFIED absent** — WALTER `SIG-W-20260904-001` re-confirms at EDGAR: the filing says *"primarily memory AND MANUFACTURING FACILITIES"*, memory share **undisclosed**; **$119B→$279B HOLDS**, the memory-leg conclusion weakens). Counter: **ERCOT Cal-27 ~$42/MWh, all four strips lower.** 🆕 **9/03 PJM §202(c) — NEW evidence TYPE, ARMED NOT COUNTED (0pp):** DOE Order 202-26-41 (9/1→9/8) authorises PJM to direct backup generation **at LARGE LOADS**. ⛔ ROOT is WEATHER (count the heat root once), the clause was **NOT exercised**, and it lapses 9/8 — Disc-A threshold-only, Disc-B single episode. **The 9/8 check is pre-registered in the docket below; a QUIET LAPSE closes the row as evidence AGAINST, not neutral.** 📦 9/02 detail → `STATUS_COLD.md` §H7e. |
+
+**H7j why-it-moved 9/02** *(crc32 3716860948, 681 B)*
+
+> **Why it moved — and it is not the credit tape.** The window's defining feature: **six previously-open instrument questions were CLOSED by their owners** (PortWatch's veto ×2 desks · BOND's T6 · HENRY's HEN-42 · HOMER's HOM-01 · WALTER's Kharg correction) and **five of the six closed against the bear.** Break lost two legs of its weakest root (oil-physical) and gained one genuinely new root (**R11 China property**). Grind gained three data points **graded by their own owners as losses to their own books** — this fleet's highest-quality evidence class. **Unresolved falls because the window converted ambiguity into verdicts, not because the divergence resolved.**
+
+**H7k antecedent-map cells, 9/07 pre-compression** *(crc32 443420317, 1669 B)*
+
+| **R1 USD/Fed** | Policy-path channel **ALIVE AND TRANSMITTING** (C-36 ruling 9/1); Sept-odds **0.31→0.48 [8/28]**. ⚠️ **Warsh is NOT an independent labour witness — he READS LABOR's instruments.** |
+| **R2 Iran/Hormuz** | 🔴 **RE-BASED TWICE** (strike synthetic · blockade lapsed 8/12 · veto non-functional · flows 1.7× through the bar). 🆕 **9/05 exchange ARMED, not counted — see M-06.** |
+| **R9 Russia/Ukraine + Red Sea** | Unswept at owner level. **`[STALE 2026-08-17]` rather than re-asserted.** |
+| **R3 Credit fundamental** | **Max separation EXTENDED**: CCC **1051 [9/3]** / ratio **≈3.966** run high vs HY **265 [9/3]** after a 260.0 strict miss. |
+| **R4 AI/factor positioning** | **SECTOR-SPLIT established**; leading instrument = **the marginal uncontracted unit**, not backlog. |
+| **R6 Japan/BOJ** | **EVERY TENOR AT A SERIES HIGH [MOF 9/1]** — 30Y 4.131 · 40Y 4.145 · 10Y 2.987. ⛔ **The 4.096 [8/18] figure is DEAD.** Driver **still CONTESTED**. |
+| **R7 Concentration/leverage** | Dampening intact; SKEW 144.12 [9/2] (closest 149.77 [8/28]; 149.23 WITHDRAWN by RED). |
+| **R8 Foreign-official UST** | Counter-mechanism **strengthened on a record month** (¥15.4T, FIMA zero, 61% retraced). |
+| **R10 Recognition-perimeter** | First **counterparty-action** datum. ⛔ **HOMER revokes realtor.com median list price as an HPI lead — 0-for-2, wrong direction.** |
+| **R11 China domestic demand** | 🔴 **Aug NBS: composite 49.5 · CONSTRUCTION 46.9 = NEW RECORD LOW**, same weather attribution a 2nd month — *"a distortion that recurs is a condition"*; **total 28/60 UNCHANGED — a rotation concealed by a flat score.** |
+
+### §H7l — 2026-09-07, M-01 · M-04 · T-01 pre-compression (verbatim)
+
+**| **M-01** |** *(crc32 4022002890, 386 B)*
+
+| **M-01** | Substance / tape divergence | High | **66%** | **—** | 2026-08-12 | **HELD, reviewed not re-marked.** +2 specimens: LABOR layoffs *rate* 1.1→1.0% while **JOLTS NET −18K, 3rd consecutive negative**; ZHAO composite flat **28/60** while construction hit a **record low 46.9**. −1: **HOM-01 MISSED — nominal HPI ACCELERATING +2.31%**, so housing refuses in no unit. |
+
+**| **M-04** |** *(crc32 3954447242, 513 B)*
+
+| **M-04** | Vol/gamma — crack candidate at its weakest | Med | **20%** | **—** | 2026-08-12 | **HELD; date deliberately NOT bumped.** SKEW: RED **WITHDREW** the 149.23/0.77 read (a NO-VERDICT off a gapped series) — closest approach **149.77 [8/28] = 0.23 below** the ≥150 line, latest **144.12 [9/2]**, FT-10 NOT FIRED s=0; drift **re-reviewed NOT re-cut**. ⚠️ Guard: `SIG-W-…-042`'s "spot 18.62" is a **VIX FUTURE**; VIX cash **14.43 [8/28]** — misreading it falsely trips RED-FT-06's 18-exit. |
+
+**| **T-01** |** *(crc32 3955657919, 240 B)*
+
+| **T-01** | R | Substance vs tape, LEVELS vs FLOWS. Bear: CCC 1049 · ratio 3.958 · **construction 46.9** · JOLTS NET −18K ×3. Tape: HY 265 · **layoffs 1.0%** · **ISM emp ≥50 ×2** · **HPI +2.31%**. → 9/4 NFP → **9/11 CPI** |
+
+### §H7m — 2026-09-07, tension rows T-15/T-20/T-21/T-23/T-24 (verbatim)
+
+*(crc32 592190628, 189 B)*
+
+| **T-15** | R | Measured-in-the-wrong-unit. 🆕 **BRK-30 RE-ANCHORED to an `SC TO-I/A` letter, 8/31-9/6, backstop 9/8** — the prior watch was on a form BCRED has **never once filed.** |
+
+*(crc32 1244665916, 248 B)*
+
+| **T-20** | R | Deal-vs-throughput — **instrument CLOSED as underpowered.** → **BRENT's re-specified control publishes ~9/5-9/8:** `capacity_tanker` **≥~500k ⇒ the series CAN see VLCCs; <250k ⇒ coverage defect CONFIRMED**, hulls named. |
+
+*(crc32 4250058948, 176 B)*
+
+| **T-21** | R | ✅ **RESOLVED 9/1 (BOND C-36): SPLIT** — channel ALIVE, term premium drove the July delta. Retained only for the Warsh triple-count guard. 📦 → §H7f. |
+
+*(crc32 3213917122, 199 B)*
+
+| **T-23** | R | Policy-path vs credibility — **BOND OWNS IT.** No threshold until a base rate exists (honest state). ⛔ ORACLE boards price policy path ONLY — never read them as "rates calm." |
+
+*(crc32 4105015354, 369 B)*
+
+| **T-24** | R | **Japan long-end driver.** ⚪ **8/20 20Y AMBIGUOUS ⇒ NO-VERDICT**; floor **MOVED UP, not held or broken**. **9/3 30Y ⚪ UNREACHABLE-BY-CONSTRUCTION — does NOT count toward "two consecutive NO-VERDICTs"; that counter starts at the 9/29 40Y.** ⛔ **Do NOT bank the JGB move as an M-03 term-premium vote.** 📦 detail → `STATUS_COLD.md` §H7f. |
