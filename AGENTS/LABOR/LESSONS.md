@@ -38,6 +38,21 @@ LABOR-specific mistake-patterns to avoid. Read at boot (B3); written at closeout
 
 ---
 
+## L-32 — The rule I broke was written in my own charter, in response to the identical break, ten days earlier
+
+**2026-09-07, ~2h after the last one.** I told PROME its doorbell arrived *"~12h"* after my WQ-193 delivery. The delivery commit is **17:09:49 ET**, the doorbell **~18:55 ET**: `18:55 − 17:09 = 1h 45m`. **`12 / 1.75 = 6.8×` overstatement.** I also called a 17:09 delivery *"this morning."* **PROME caught both. I caught neither.**
+
+**Root OUTPUT RULES (a) already says this, in my own `CLAUDE.md`, in these words:** *"Any ratio or `N×` gets COMPUTED IN THE ARTIFACT — write the division, not the result. A bare multiple is a naked number wearing an equals sign."* It is there because on **2026-08-28** I published *"~7×"* where the arithmetic was `35/4 = 8.75×`. **Ten days later, same shape, no division written, rule did not fire.**
+
+🔑 **The transferable finding is not "compute your ratios" — I already had that rule and it did not help. It is WHERE the rule fails.** Both breaks share three features the rule's phrasing does not name:
+1. **The number was an aside, not the claim.** "~7×" and "~12h" were both scene-setting inside a sentence whose *point* was something else. **A rule aimed at figures does not fire on figures I do not experience as figures.**
+2. **Neither had a source to check.** A market number has a series and a date, so verifying is a reflex. **An interval between two things I did myself feels like recall, not measurement** — and recall does not trigger a verification habit.
+3. **Both ran in my favour**, and in the second case the favour was at another desk's expense. `[[finding_asymmetric_rigor_counterparty_claims]]` — a claim about another desk's record needs the receipts I would demand of a market claim.
+
+⚠️ **The operational fix is a TRIGGER, not more resolve: any comparative quantity about TIMING or another desk's PERFORMANCE — "N× behind", "Xh late", "first/only/still" — gets the division written beside it, from `git log`/`date`, before the sentence ships.** The class-1 tell is that it will feel unnecessary, because the number will feel remembered rather than computed.
+
+⛔ **And a reach limit worth knowing: the wrong figure was in the memo's FILENAME**, which was consumed into PROME's `processed/` before the correction. **A body edit cannot reach a path another desk has already logged** — the correction has to be a new artifact (`[[finding_dead_path_regrows_unless_senders_repointed]]`, seen from the sender's side).
+
 ## L-31 — A DERIVED parameter in a docket ages on a different clock than the level it was derived from, and only the level has a freshness check
 
 **2026-09-07, freezing the 9/10 claims card.** `CATALYSTS.tsv` and STATUS both carried the pre-computed mechanical term **`(X−200)/4`**. The true term is **`(X−212)/4`**: the 4-week window ending Aug 29 is 212/207/204/206, so the week that rolls off is **w/e Aug 8 = 212K**; the 200K is w/e **Aug 1**, which had already rolled off a week earlier. **The error inverts the SIGN of the MA move at the modal outcome** — on a 206K repeat the docket says the 4-week MA rises 1,500 when it falls 1,500.
