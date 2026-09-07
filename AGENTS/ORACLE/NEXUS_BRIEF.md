@@ -43,7 +43,7 @@
 | Fri 9/11 | Coverage sweep due (last 9/04) | `polymarket.py coverage` | weekly cadence |
 | **Tue–Wed 9/15–16** | **FOMC decision 2:00pm ET 9/16** | PM hike/no-change pair + Kalshi ladder **differenced** | **a coin flip on both venues.** Pin the day before; read same-day |
 | **Fri 9/18** | ⚠️ **v4 supply leg's underlying switches OCT→NOV WTI** | `will-wti-reach-100-in-september-2026` | **mechanical level shift, no risk content.** Disclose beside every quote |
-| Thu 9/18 | BOJ September MPM | PM 98.2% / Kalshi 97.0% (top leg) | → SAM |
+ | Fri 9/18 | BOJ September MPM (decision day; MPM runs 9/17–9/18) | PM 98.2% / Kalshi 97.0% (top leg) | → SAM |
 | **~Mon 9/28** | **v4 OCTOBER ROLL — the real succession deadline** | search for an October WTI $100 market | ⚠️ **not yet searched — the roll assumes it will list** |
 | Wed 9/30 | Sept Hormuz ladders + Brent Sep30 rungs resolve | | |
 | Thu 10/1 | `will-wti-reach-100-in-september-2026` ends | | |
