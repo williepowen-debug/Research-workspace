@@ -54,3 +54,20 @@
 - *"VIX fell on the jobs number"* (before 09:30 9/4) — a pre-open print cannot price an 08:30 release (VIOLET).
 - ⚠️ **WITHDRAWN 09:2x (ORACLE `eac82880c`) — the *"Sept HIKE ~65–68% priced = WRONG CONTRACT"* entry above:** CME FedWatch 9/3 had the September MEETING at 62–67% (a third venue, inside BOND's range); cumulative-vs-meeting is OPEN until BOND names its venue. The entry stays for the record; it no longer binds as a kill.
 - **Carried from 9/2–9/3 (still bind):** every item in those two sections; the hot cell repeats the load-bearing few.
+
+## 2026-09-07 adds (TWELFTH re-base, ~13:3x ET, Labor Day; the hot §Pointers cell is the binding set — this section makes the 9/5–9/7 items findable here)
+- *"frame-breaker MET / deploy on leg (b)"* — BRENT 9/7: NOT MET at the letter's head clause (*"confirmed DESTROYED-CAPACITY event"* — cargo · production · marginal export · Gulf transit all 0; the hull was UNLADEN); the limb is met ON ITS FACE only through BRENT's own STATUS:58 re-description binding it to FALCON's GATE 2 ⇒ the deploy question is Will's (WQ-192), never a desk's; BRENT's own rec STAND DOWN.
+- *"GATE 2 not fired"* — FIRED 2026-09-05 (FALCON, `VX-FALCON-SUNK-01` class (iii), M/T Kylo, CENTCOM video); the letter has no attacker-identity axis (Will-approved repair 8/17, unapplied 21d — DOCKET L301).
+- *"BZX26 $95.23 = the 9/2 close / $95.82 = the 9/3 close"* — basis mismatch vs the owner's settled series: 94.65 · 95.63 · 95.52 · 96.28 [9/1–9/4, BRENT 9/6 yfinance re-pull]; the hot file carries the owner's series from this base.
+- *"the ORACLE supply leg DIED 9/1 / no September WTI market"* — ORACLE 9/7: the leg ROLLED 8/27 to will-wti-reach-100-in-september-2026 (option A ran de facto); DOCKET L172 SUPERSEDED by L299; Will's word = WQ-190.
+- *"Sept FOMC hike-favoured 52.5–57.0%"* — the 9/4 12:42Z vintage; UN-CROSSED at 9/7 ~16:10Z (PM 50.5 hike / 49.5 hold · Kalshi differenced 50.0 / 47.0, ORACLE).
+- *"BOND's A-vs-B venue question OPEN"* — SETTLED NEITHER (unsourced as to venue) by ORACLE 9/7 on BOND's 9/4b packet; the 9/4 WITHDRAWN entry above closes.
+- *"add-gate 5bp"* — 8bp at the 9/3 official (DFII10 2.42); 5bp was the 9/2 vintage.
+- *"VIX 15.30 [9/7]"* — a Labor Day GTH print on yfinance (VIOLET's session-semantics question), never a close; the last close is 9/4.
+- *"gamma sign INVERTED [HENRY 9/2]"* — SUPERSEDED by HENRY's 9/3 read (DAMPEN, +$36.8B/1%); the sign is an OSCILLATOR and is carried UNKNOWN until the 9/18 OPEX re-measure (VIOLET v4.1.1).
+- *"the 9/9 close publishes 9/10"* / *"~18:00–23:00 ET window"* — both RED withdrawals (`bce611e0a` · `84a65dad9`); same-day availability OBSERVED once, schedule UNVERIFIED; grade the dated bar, a failed fetch = UNKNOWN.
+- *"C#2 grades on the CPI print"* — NEXUS 9/7: the pinned window is 8/28→9/10 and the 9/11 cell is OUTSIDE it; a non-C verdict needs the 9/8 AND 9/9 cells both ≥280 or both <260, else C locks 9/9.
+- *"NFP retracted"* — a REVISION (−23K → +21K); only current-level citations of the −23K die.
+- *"OPEC+ 9/6 decides Q4"* — month-by-month; October held, next 10/4 (L297).
+- *"one wrong ^SKEW value in 20 months"* · *"phantom-holiday VIX = CBOE defect"* · *"FT-11 4/68/8"* · *"WALTER 28 B headroom"* — the 9/6 weekend adds, carried into the binding cell.
+- **Carried from 9/2–9/4 (still bind):** every item in those sections; the hot cell repeats the load-bearing few.
