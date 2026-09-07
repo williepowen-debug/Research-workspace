@@ -118,7 +118,7 @@ Mail is direct file drops (HERMES retired — no delivery daemon):
 6. **Mark processed** — move signal file to `inbox/processed/`
 
 ### Outbox Protocol
-When you need to signal another agent, write a single .md packet directly to the target agent's `inbox/` (`outbox/` only for PROME-action requests). **Check the destination against the RECIPIENT PATHS table above first — `PROME/inbox/`, never `AGENTS/PROME/`.**
+🔴 **ROUTE BY WHAT IT IS, NOT BY WHO NEEDS IT.** **SIGNALS → WALTER** (a registered threshold firing, a cross-agent trip, a market/news datum another desk must act on) — **ANALYSIS and PACKETS** → direct to the recipient's `inbox/`, self-committed per carve-out ①. `outbox/` is for PROME-action requests only. WALTER owns dedupe, archive and routing judgment (root `CLAUDE.md` § Direct Messaging v1; `MESSAGING/CROSS_SESSION_MESSAGING.md` §2 rule 4). **Check the destination against the RECIPIENT PATHS table above first — `PROME/inbox/`, never `AGENTS/PROME/`.** *(History: BD-29.)*
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -128,7 +128,7 @@ When you need to signal another agent, write a single .md packet directly to the
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- **Write a signal when:** a threshold fires, a prediction resolves, or analysis produces an actionable insight
+- **Write when:** a threshold fires (**→ WALTER**), a prediction resolves (**→ direct**), or analysis produces an actionable insight (**→ direct**)
 - **Do NOT write for:** routine STATUS updates or data that only affects your own vectors
 
 If a cross-agent threshold breaches during your work, also append to `AGENTS/SIGNALS.md`:
@@ -288,7 +288,7 @@ When analyzing a new layoff event, apply these frameworks rather than reasoning 
 | `workbook/SCHEMA.tsv` | 13-col schema for `workbook/KB.tsv`. Static; referenced from C3. |
 | `TRADE.md` | Position ideas (KELYA puts) |
 | `inbox/` | Inbound signals from other agents. Process when spawned for it. |
-| `outbox/` | PROME-action requests only. Signals to other agents → write directly to their `inbox/`. |
+| `outbox/` | PROME-action requests only. **SIGNALS → WALTER** (threshold firing / cross-agent trip / market datum). **ANALYSIS + packets → direct to the recipient's `inbox/`.** See Outbox Protocol. |
 | `sources/` | **Stable framework / reference docs** — the 10 frameworks cited in RESEARCH TOOLKIT (LAYOFF_EVENT_STUDY, INSIDER_SELLING_PRELAYOFF, WARN_ACT_LEADING_INDICATOR, …) + vintage analyst notes. Read-mostly; distinct from `domain/sources/` (session pack-outs). |
 | `domain/sources/` | Research archives, deep dives, dated STATUS/TRADE snapshots, retired one-off docs. |
 | `archive/` | Retired March-era artifacts (pre-freeze STATUS/framework docs, superseded KB_old_11col.tsv). Read-only; C5 retirement checklist targets this dir. |
