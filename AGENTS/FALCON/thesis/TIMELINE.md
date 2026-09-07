@@ -162,7 +162,8 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 | **WC Saudi war-risk (0.1%)** | Flat → premium read intact | **Rises materially → transit-to-origin migration = P→R conversion** | 🟢 Flat — *cheapest early warning* |
 | **Bypass integrity** (Fujairah+Sohar) | Holds ≥ the **ROLLING** floor (30% of trailing-60d mean) — ⚠️ **NOT a constant: 15,684 → 16,224 → 20,105 in 14 days; read it from a live `bypass_watch.py` run, never from a doc, because a stale LOW floor fails FALSE-NEGATIVE** | Collapse **with** transits still down → premium becomes supply-loss | 🟢 **HOLDING** — **100,068 t/d vs a 20,105 floor** [thru 7/24, re-run 7/30] |
 | **A FIFTH belligerent axis** | — | Re-registration trigger (clause carried into **FAL-04**); **not an exculpation** | 🟢 Four axes live |
-| **Vessel SUNK / mine detonation on a hull** | — | Hard gate, unfired all war in-theater | 🟢 Unfired |
+| **Vessel SUNK / mine detonation on a hull** | — | Hard gate, unfired all war in-theater | 🔴 **FIRED 2026-09-05 — M/T Kylo (crude tanker, UNLADEN, crew evacuated first) SANK in the Gulf of Oman after a US strike; CENTCOM-confirmed with published video.** `VX-FALCON-SUNK-01` class-(iii) met ⇒ **D→75 trip (a) fires as registered**; confirmed hostile-action total losses **1 → 2**. ⚠️ Every mitigating fact — empty hull, no casualties, sanctioned Iranian shadow-fleet asset, **US** attacker — is **absent from the letter**, because the attacker-identity repair (Will-approved 8/17) was never applied. `KB-FALCON-122` · `VI-2026-0024` |
+| **US target set crosses into ENERGY** | Military-only across 13 nights + the resumption | D-indicator #3 second limb | 🔴 **FIRED 2026-09-05** — three Iranian crude oil TANKERS struck, CENTCOM rationale *"impose an even higher economic cost."* ⚠️ **Mobile export-LOGISTICS assets, NOT fixed production/export infrastructure — which is why this fires and GATE 1 / FAL-01-class does NOT** (Kharg terminal intact, loading 9/2). `KB-FALCON-123` |
 
 ---
 
@@ -227,3 +228,11 @@ Ceasefire holding at Day 8. No mine clearance, no insurance reinstatement, no re
 ---
 
 *Living document. Update when events resolve, branch points are reached, or a new belligerent axis appears. Chronology lives here; interpretation lives in `THESIS.md`; marks live in `STATUS.md`.*
+
+---
+
+## ⚠️ FORWARD NOTE — 2026-09-07 (this file's narrative still ends at War Day 149; the table above is current, the PROSE is not)
+
+**The prose phases below/above stop at ~2026-08-10. Three phases have happened since and are NOT written here:** the **~32-night pause** (7/29 → 8/30, closed and broken at Larak); the **campaign** (Larak 8/30 · southern Iran 9/1, each answered by Iranian missiles at Jordan; two laden Saudi-crude VLCCs hit off Khasab 8/31); and the **tanker war** (9/5 — IRGC ballistic missiles at a US **aircraft carrier** and destroyer, both evaded; US strikes on three Iranian crude tankers, **M/T Kylo sunk**). **9/5 is the THIRD US strike action since 8/30 ⇒ tempo ≈ every 2–3 days, still NOT nightly.**
+
+⚠️ **This note exists so a reader cannot mistake the prose's end date for the war's state** — the failure this file's own 7/27 rewrite was written to prevent. **A narrative rewrite through 2026-09-07 is OWED**; the current state lives in `STATUS.md` and `reports/2026-09-07_gate2-kylo-adjudication.md`.
