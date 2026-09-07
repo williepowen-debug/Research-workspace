@@ -20,7 +20,7 @@
 | BRENT | Market | L5 | M | 2026-09-01 | Oil — Brent / WTI | Conf M→H at PR#6 on a SECOND clean cycle + RULINGS.md touched or frozen. |
 | HENRY | Market | L4 | H | 2026-09-01 | Macro velocity / market trends | L5 on the §2 handle (or a ruling that the local form satisfies it) |
 | CARL | Market | L4 | H | 2026-09-01 | Consumer & credit-transmission macro | L5 on: boot.py whitelist widened to surface plain ERROR lines (one edit) |
-| LABOR | Market | L5 | H | 2026-09-07 | Labor market (claims / JOLTS / NFP) | L5 SUSTAIN — at LABOR's next closeout (packet 9/7): brief reorder to am… |
+| LABOR | Market | L5 | H | 2026-09-07 | Labor market (claims / JOLTS / NFP) | L5 SUSTAIN — before the 9/25 Oct-2 card freeze: card_partition_check pa… |
 | BROCK | Market | L4 | H | 2026-09-01 | Private credit / BDC / non-traded credit | L5 blocker external; a declared byte-budget block (TERRY form) is the o… |
 | HAWK | Market | L4 | H | 2026-09-01 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 on: a self-driven session (spawn driver) |
 | TERRY | Utility | L5 | H | 2026-09-05 | Trade construction / risk scoring ‡‡ | L5 SUSTAIN: keep two consecutive clean cycles |
