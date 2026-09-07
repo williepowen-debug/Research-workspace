@@ -1,6 +1,6 @@
 # FLEET DIRECTORY — what every agent is, does, and is missing
 
-> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-09-05.
+> **GENERATED — DO NOT EDIT.** Rendered from `PROME/ROSTER.md` (existence · domain · status) + `AGENTS/DAEDALUS/FLEET_MAP.tsv` (class · maturity · missing/next) by `AGENTS/DAEDALUS/scripts/render_directory.py`. Edit the **sources**, then regenerate — hand-edits are overwritten. Generated 2026-09-07.
 
 > ⚑ **THIS IS THE BOOT-READ HOT INDEX (SPAWN PROTOCOL step 2, re-homed 2026-08-23).** `FLEET_MAP.tsv` is the COLD full register — it holds the complete Gaps/Next_upgrade text and is read PER-AGENT on demand (`grep -P '^AGENT\t' FLEET_MAP.tsv`) or whole at a Production Review. Why: FLEET_MAP hit **121% of the harness single-read token cap** and had been truncating at every boot for ~6 days (PAT-111 recurring on its third file). Rotating the accumulated Gaps narrative to `FLEET_MAP_HISTORY.tsv` cut it 65,725 → 43,006 B, which is **not enough** — squeezing it under the budget would have meant deleting live gap content from the rich rows. So the register went cold and this generated view became the read, the same hot/cold split `PATTERNS_HOT.md` uses. ⛔ Never answer a cap breach by raising the budget: the read cap is not ours to move.
 
@@ -20,7 +20,7 @@
 | BRENT | Market | L5 | M | 2026-09-01 | Oil — Brent / WTI | Conf M→H at PR#6 on a SECOND clean cycle + RULINGS.md touched or frozen. |
 | HENRY | Market | L4 | H | 2026-09-01 | Macro velocity / market trends | L5 on the §2 handle (or a ruling that the local form satisfies it) |
 | CARL | Market | L4 | H | 2026-09-01 | Consumer & credit-transmission macro | L5 on: boot.py whitelist widened to surface plain ERROR lines (one edit) |
-| LABOR | Market | L5 | H | 2026-09-01 | Labor market (claims / JOLTS / NFP) | L5 SUSTAINED-WATCH: STATUS byte tier to <32,550 B (rotation) at next cl… |
+| LABOR | Market | L5 | H | 2026-09-07 | Labor market (claims / JOLTS / NFP) | L5 SUSTAIN — at LABOR's next closeout (packet 9/7): brief reorder to am… |
 | BROCK | Market | L4 | H | 2026-09-01 | Private credit / BDC / non-traded credit | L5 blocker external; a declared byte-budget block (TERRY form) is the o… |
 | HAWK | Market | L4 | H | 2026-09-01 | Geopolitical synthesis (cross-war reconciliation, oil-decoupling thesis, war-risk/shipping) + dormant book (Taiwan/Venezuela/trade/chokepoints/defense/sanctions) — theaters split out 7/12††† ‡ | L5 on: a self-driven session (spawn driver) |
 | TERRY | Utility | L5 | H | 2026-09-05 | Trade construction / risk scoring ‡‡ | L5 SUSTAIN: keep two consecutive clean cycles |
