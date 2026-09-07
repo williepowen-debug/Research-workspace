@@ -94,7 +94,7 @@
 
 ---
 
-## H-8 (DRAFT, GATED — not ruled). Hot STATUS carries tokens + pointer; grade narrative goes cold on the day (WQ-179 rec (c))
+## H-8 (RULED 2026-09-07 as part of the harvest batch, Will verbatim "Go ahead with the batch" — desk-wide write mode; canon = `READ_CAP.md` rule 19; PROME closes WQ-179 against it). Hot STATUS carries tokens + pointer; grade narrative goes cold on the day (WQ-179 rec (c))
 
 > ⛔ **Pending Will's word on WQ-179** (`PROME/SCRATCH.md` "Pending Will" list, 9/4; origin `PROME/inbox/2026-09-04_from-LABOR_ESCALATION-read-cap-is-now-the-binding-constraint-BD-25-budget-gone-in-2-days.md`: a 9/2 hot/cold split consumed in 2 days, 4 rotations in one session). **Do not cite as canon.** If ruled: a print-driven desk writes the grade NARRATIVE straight to its cold surface (`STATUS_DETAIL` class) at the moment of grading; the hot file gains only the state token and a pointer. The fleet template lands here as H-8 on the ruling; until then this block is the draft PROME asked for.
 

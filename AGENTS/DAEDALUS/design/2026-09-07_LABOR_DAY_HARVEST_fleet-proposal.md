@@ -1,4 +1,6 @@
-# HARVEST — what 2026-09-07 at LABOR taught the fleet, and where each lesson applies · DAEDALUS proposal for Will (one word on the batch)
+# HARVEST — what 2026-09-07 at LABOR taught the fleet, and where each lesson applies · DAEDALUS proposal for Will
+
+> ✅ **RULED 2026-09-07 ~18:2x ET — Will verbatim: *"Go ahead with the batch"* (in the DAEDALUS session, on this file as presented). Execution log at the foot of this file.** Ownership at execution: my own canon (BLUEPRINTS · UPGRADE_PROTOCOL · repo-root `scripts/`) edited directly; `FORGE/PREDICTION_DISCIPLINE.md` (PROME-owned) → line + ruling packeted to PROME to commit; other desks' files never edited — sweep outputs go as packets.
 
 **Source:** `runs/2026-09-07_LABOR_PARITY_ASSESSMENT.md` + `runs/2026-09-07_LABOR_SAME_DAY_CHANGES_REVIEW.md` + LABOR L-29/L-30 + two Codex reviews. Perimeters measured 16:5x at the artifacts. **Nothing here is applied yet** — every item touches other desks' files or fleet canon, so it is one batched changelist under AUTHORITY rule 1. Detection legs are read-only and autonomous; dispositions are the desks' own, by packet.
 
@@ -19,3 +21,17 @@
 
 ## What I am asking
 One word on the batch (go / go-minus-items / hold). Detection sweeps H1 and H2 are read-only and I can run them without approval; **I will not** edit another desk's files, `FORGE/PREDICTION_DISCIPLINE.md`, or the blueprints' binding lines before the word. Reader claims in this doc are mine, verified at the artifacts listed; perimeters are counts, not audits.
+
+## Execution log (2026-09-07 18:2x → 20:2x ET)
+| # | Done | Where | Receipt |
+|---|---|---|---|
+| H1 | `scripts/wiring_census.py` BUILT + fleet run (28 desks) | `runs/2026-09-07_H1_WIRING_CENSUS_fleet.md`; CHECKS.tsv row (UNWIRED → validate_all 9/10) | positive control on LABOR `f2558c075^` = EMRATIO NOT-FETCHED + 2 real; **reverse leg too noisy → NO per-desk packets** (§3(e) applied to my own tool) |
+| H2 | `scripts/asmade_audit.py` BUILT + 11-desk run + 11 packets | `runs/2026-09-07_H2_ASMADE_AUDIT_fleet.md`; REGISTRY row (DATED 9/14); CHECKS.tsv row | positive control LABOR `@1d17dacfa^` fires on every self-found row; two limits stated; HENRY NO-CONF separate packet |
+| H3 | SL-5 remedy line | `BLUEPRINTS/SPEC_LETTER_STANDARD.md` | integer units; fixture sweeps the class |
+| H4 | line drafted for PROME to commit (FORGE-owned) | PROME packet §1 | pending PROME |
+| H5 | deferred to LABOR's acceptance set | LABOR packet 9/7e | lift to `scripts/` after |
+| H6 | STRICT_TEXT 6b | `BLUEPRINTS/STRICT_TEXT.md` | object beside value |
+| H7 | READ_CAP rule 19 + market-agent §8 + H-8 RULED | three files | PROME asked to close WQ-179 against it |
+| H8 | CHECK_STANDARD §3(e) | `BLUEPRINTS/CHECK_STANDARD.md` | production acceptance set |
+| H9 | UPGRADE_PROTOCOL review rule 4 | `UPGRADE_PROTOCOL.md` | review concentration |
+**Not done tonight, named:** H1 reverse-leg scope fix (threshold-table rows only) before it names a desk; H2 text-walk for pre-ID rows; per-desk H1 packets. Root `CLAUDE.md` Data Hygiene mirror of rule 19 = PROME/Will (not mine).
