@@ -45,3 +45,13 @@
 
 ---
 
+
+
+---
+
+# L-24 (already-compressed section), demoted from `LESSONS.md` 2026-09-07 (verbatim, rule retained in the cold index)
+
+## L-24 — A reachability probe grades the moment it ran; it is not a property of the wall — and the wall is a HOST, not the object
+
+> 🔧 **L-24 COMPRESSED 2026-08-28 — it had grown to 16,008 B (20% of the file) because I corrected it THREE TIMES in one session.** **The settled rule is above. The full sequence — four mechanism claims, three peer challenges, ~46 probes, and the two self-audit corrections that followed — is in `archive/LESSONS_ARCHIVE_2026-08-28_pre-split.md`.** **Settled mechanism:** `bls.gov` runs a **UA DENYLIST nothing rescues** (`curl`/`Wget`/`python-requests`/empty) **plus a browser-impersonation completeness check**; three passing paths — honest non-browser UA alone · browser UA + full header set · browser UA + a genuine contact token. **Working recipe:** `curl -sS -A "research-bot/1.0 (contact <email>)" <url>`. **The durable half is not about BLS: a reachability probe grades the moment it ran, and a recipe published in TIDIED form is not reproducible until the PUBLISHED form is run.**
+

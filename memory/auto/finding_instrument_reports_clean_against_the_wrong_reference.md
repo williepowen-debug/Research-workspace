@@ -229,3 +229,19 @@ A calibration scoreboard scored 12 resolved predictions at their **as-made** con
 🔴 **Three second-order costs, none of them the number:** (a) it rewrote **sentences about the author's own conduct** — a walked-down 55% read as *"mild overconfidence on a coin-flip call"* where the as-made 70% is a high-conviction miss (the missing mirror in `[[finding_a_charitable_reading_of_your_work_is_the_one_to_check]]`, arriving as an unearned *flattering* reading); (b) it **manufactured a positive finding** — "two consecutive correctly-hedged threshold calls," the desk's only new good news in two months, where one of the two was never a hedge; (c) it **understated the desk's central regularity** (0-for-4 rather than 0-for-5) *inside the sentence used to justify a reprice*, which is `[[finding_corrective_inherits_the_anchor_it_corrects]]` one level down.
 
 ⇒ **Sweep shape for any desk holding a calibration or scoring record: for every row, compare the artifact you verify against to the row's own event date. Any row whose reference artifact is younger than its event is UNGRADED, not verified.** Here that was 7 of 12 rows and it caught 4 real defects.
+
+---
+
+**LABOR, 2026-09-07 (third round) — instance 7: a STALE COORDINATE, and it is the form that survives the most evidence.**
+
+Task: *"date the six undated SENDING rows"*; the source packet located them at **lines 81–88**. The edit was applied to **lines 75–81 of the current file** and confirmed with a `git diff`. **Those lines sit under `## VIEW`. The target table was at lines 16–28.** The packet's numbers were written against the **pre-reorder** version of the file and had moved when a section was promoted to the front — **by the same agent, hours earlier, the same morning.**
+
+🔑 **Why this form outlives every check.** A line number *looks* like an address and is actually a **coordinate into a version**. When the file changes, the coordinate still resolves — to whatever now occupies it — so nothing errors, the edit lands, the diff is clean, and the blob hash changes. **Every verification available confirms an edit happened; none of them ask WHAT was edited.**
+
+⛔ **The escalation is the lesson.** Challenged on it, the author produced parent/child blob hashes, a `git diff` with a `grep -c` of the added lines, and a before/after of the changed line — **all correct, all about the wrong section** — and wrote that the disagreement was probably *"two correct readings of different objects."* **It was. They were the one reading the wrong object.**
+
+⇒ **The more evidence you can produce for an edit, the less it tells you what you edited.** A diff proves you changed something. It never proves you changed the right thing.
+
+✅ **Cheap, mechanical fix — do this before acting on any `file:line` from a packet, an audit or a review:** re-locate the target **by content or by section heading**, and print the nearest heading ABOVE the line you are about to touch (`awk 'NR<=N && /^#|^\*\*[A-Z]/{h=$0;n=NR} END{print n, h}'`). One command. It catches the whole family.
+
+⚠️ **And check the stamp's KIND, not just its placement:** the rows needed a **send receipt** (when it went out), not an **observation date** (when the datum was read). A correctly-targeted edit carrying the wrong kind of date is still wrong — the wrong-object error has a units twin.

@@ -62,7 +62,8 @@ REVIEW HISTORY — the honest version, because two earlier versions of this note
   the design I had in mind. State what was tested and what was not; do not use "falsified" as a
   certification. `[[finding_self_attack_defends_the_argument_not_the_apparatus]]`
 """
-import sys, re, os
+import sys, re, os, math
+from fractions import Fraction
 
 INF = float("inf")
 DASHES = "–—−-"          # en, em, minus, hyphen
@@ -118,6 +119,26 @@ def parse_interval(cell):
         v = _n((le.group(2) if le else lt.group(1)))
         return (-INF, False, v, bool(le)) if v is not None else None
     return None
+
+
+def lo_unit(lo, inclusive, gran):
+    """Smallest PRINTABLE unit index this band owns, given its lower bound and operator."""
+    k = Fraction(str(lo)) / Fraction(str(gran))
+    a = math.ceil(k)
+    if not inclusive and a == k:
+        a += 1                      # strict '>' excludes the boundary itself
+    return int(a)
+
+
+def hi_unit(hi, inclusive, gran):
+    """Largest PRINTABLE unit index this band owns. Rounding to NEAREST was the defect:
+    at precision 1,000, `<=199,999` rounded to unit 200 and collided with `200,000-…`,
+    manufacturing an overlap in a valid partition."""
+    k = Fraction(str(hi)) / Fraction(str(gran))
+    b = math.floor(k)
+    if not inclusive and b == k:
+        b -= 1
+    return int(b)
 
 
 def granularity(bounds):
@@ -221,6 +242,15 @@ def analyze_table(hdr, rows, decl):
         for ci, cells, parsed, n in cand:
             if name_of(ci).lower() == decl["column"].lower():
                 chosen = (ci, cells, parsed, n)
+        if chosen is None:
+            # A declaration that cannot be honored must FAIL, never fall back. Falling back
+            # silently substitutes a different axis for the one the card named and then
+            # reports VERIFIED about it.
+            out.append(("BAD-DECLARATION",
+                        f"declared axis column=\"{decl['column']}\" is not a readable band "
+                        f"column in this table (candidates: "
+                        + ", ".join(f"'{name_of(c[0])}'" for c in cand) + ")"))
+            return out, "UNVERIFIED", ""
     if chosen is None:
         strong = [c for c in cand if c[3] >= 2]
         if len(strong) > 1:
@@ -248,39 +278,52 @@ def analyze_table(hdr, rows, decl):
         return out, "UNVERIFIED", axis
 
     gran = decl.get("precision") or granularity([b for _, (lo, _, hi, _) in iv for b in (lo, hi)])
-    U = lambda v: v if abs(v) == INF else int(round(v / gran))
     spans = []
     for l, (lo, li, hi, hi_i) in iv:
-        a = -INF if lo == -INF else (U(lo) if li else U(lo) + 1)
-        b = INF if hi == INF else (U(hi) if hi_i else U(hi) - 1)
+        a = -INF if lo == -INF else lo_unit(lo, li, gran)
+        b = INF if hi == INF else hi_unit(hi, hi_i, gran)
         if a != -INF and b != INF and a > b:
             out.append(("EMPTY-BAND", f"axis '{axis}': band {lab(l)} covers nothing"))
             continue
         spans.append((a, b, lab(l)))
-    spans.sort(key=lambda t: (0 if t[0] == -INF else 1, 0 if t[0] == -INF else t[0]))
+    # -INF-starting bands sort first, ordered by their upper edge, so two overlapping lower
+    # tails (<=199999 and <=249999) become adjacent and are compared instead of skipped.
+    spans.sort(key=lambda t: (0 if t[0] == -INF else 1,
+                              0 if t[0] == -INF else t[0],
+                              0 if t[1] == INF else t[1]))
     fmt = lambda u: ("-inf" if u == -INF else "inf" if u == INF else f"{u * gran:,.10g}")
-    for (a1, b1, l1), (a2, b2, l2) in zip(spans, spans[1:]):
-        if a2 == -INF:
-            continue
-        if b1 == INF:
-            # An unbounded upper band swallows every later band. v2 `continue`d here and
-            # missed `<200000 / >=200000 / >=250000` entirely.
-            out.append(("OVERLAP", f"axis '{axis}': band {l1} is unbounded above and band {l2} "
-                                   f"re-claims {fmt(a2)} onward"))
-            continue
-        if a2 > b1 + 1:
-            out.append(("GAP", f"axis '{axis}': bands {l1} and {l2} leave {fmt(b1 + 1)}"
-                               + (f" - {fmt(a2 - 1)}" if a2 - 1 > b1 + 1 else "")
-                               + f" in NO BAND (precision {gran:,.10g})"))
-        elif a2 <= b1:
-            out.append(("OVERLAP", f"axis '{axis}': bands {l1} and {l2} both claim {fmt(a2)}"
-                                   + (f" - {fmt(b1)}" if b1 > a2 else "")))
-    if spans:
-        if spans[0][0] != -INF:
-            out.append(("OPEN-END", f"axis '{axis}': lowest band starts at {fmt(spans[0][0])} — "
+    # COVERAGE BY SWEEP, not by adjacent pairs. Adjacency is only correct for a set of
+    # disjoint, ordered bands — the very thing being tested. With a NESTED or overlapping
+    # band (`<7`, `4-6`, `3-10`) the sorted neighbour is not the relevant one, and the old
+    # code reported a phantom GAP and read the wrong band as the highest. Found by the
+    # membership test, not by any example: it is a whole family, not a case.
+    order = sorted(spans, key=lambda t: ((0 if t[0] == -INF else 1),
+                                         (0 if t[0] == -INF else t[0])))
+    run_end, run_lab = None, None
+    for a, b, l in order:
+        if run_end is not None and a <= run_end:
+            hi_ov = b if (run_end == INF or (b != INF and b < run_end)) else run_end
+            out.append(("OVERLAP", f"axis '{axis}': bands {run_lab} and {l} both claim "
+                                   f"{fmt(a)}" + (f" - {fmt(hi_ov)}" if hi_ov != a else "")))
+        if run_end is None or b == INF or (run_end != INF and b > run_end):
+            run_end, run_lab = b, l
+    merged = []
+    for a, b, l in order:
+        if merged and (merged[-1][1] == INF or a <= merged[-1][1] + 1):
+            if merged[-1][1] != INF and (b == INF or b > merged[-1][1]):
+                merged[-1][1] = b
+        else:
+            merged.append([a, b])
+    for (a1, b1), (a2, b2) in zip(merged, merged[1:]):
+        out.append(("GAP", f"axis '{axis}': {fmt(b1 + 1)}"
+                           + (f" - {fmt(a2 - 1)}" if a2 - 1 > b1 + 1 else "")
+                           + f" is in NO BAND (precision {gran:,.10g})"))
+    if merged:
+        if merged[0][0] != -INF:
+            out.append(("OPEN-END", f"axis '{axis}': coverage starts at {fmt(merged[0][0])} — "
                                     f"everything below is unassigned"))
-        if spans[-1][1] != INF:
-            out.append(("OPEN-END", f"axis '{axis}': highest band ends at {fmt(spans[-1][1])} — "
+        if merged[-1][1] != INF:
+            out.append(("OPEN-END", f"axis '{axis}': coverage ends at {fmt(merged[-1][1])} — "
                                     f"everything above is unassigned"))
     scope = f"axis '{axis}', {len(iv)} bands, precision {gran:,.10g}, bounds as written"
     if bad:
@@ -637,6 +680,80 @@ The MA declines for any print below 209,000 - i.e. in bands D and E - purely fro
 ]
 
 
+def membership_test(trials=4000, seed=20260907):
+    """INDEPENDENT MEMBERSHIP CHECK (CODEX's recommendation, 2026-09-07).
+
+    Instead of adding more hand-picked examples — which only ever cover the cases I already
+    thought of — enumerate a small declared grid, count how many bands own each value from
+    the INTERVAL TEXT ITSELF, and require the checker's verdict to agree with that count:
+
+        some value owned by 0 bands  <=>  the checker must report a GAP or an OPEN-END
+        some value owned by 2+ bands <=>  the checker must report an OVERLAP
+
+    Ground truth is computed by enumeration, not by the checker, so this covers whole
+    FAMILIES of boundary cases (strict/inclusive x unbounded/bounded x precision) rather
+    than a handful of familiar ones.
+    """
+    import random, itertools, tempfile, io, contextlib
+    rng = random.Random(seed)
+    # The oracle grid must extend BEYOND the range band endpoints are drawn from, or it
+    # cannot see an unbounded end. A band set covering [0, inf) leaves everything below 0
+    # unassigned — the checker says OPEN-END and a 0..10 grid calls that a false positive.
+    # The first version of this test had that defect; the mismatch was in the ORACLE, and
+    # tuning the checker to it would have deleted a correct finding.
+    GRID = list(range(-3, 15))         # endpoints are drawn from 0..10; sentinels either side
+    OPS = ["<=", "<", ">=", ">", "range"]
+    bad = []
+    for t in range(trials):
+        nb = rng.randint(2, 4)
+        specs = []
+        for _ in range(nb):
+            op = rng.choice(OPS)
+            if op == "range":
+                a = rng.randint(0, 9); b = rng.randint(a, 10)
+                specs.append((f"{a}-{b}", lambda v, a=a, b=b: a <= v <= b))
+            elif op == "<=":
+                a = rng.randint(0, 10); specs.append((f"<={a}", lambda v, a=a: v <= a))
+            elif op == "<":
+                a = rng.randint(0, 10); specs.append((f"<{a}",  lambda v, a=a: v < a))
+            elif op == ">=":
+                a = rng.randint(0, 10); specs.append((f">={a}", lambda v, a=a: v >= a))
+            else:
+                a = rng.randint(0, 10); specs.append((f">{a}",  lambda v, a=a: v > a))
+        counts = [sum(1 for _, f in specs if f(v)) for v in GRID]
+        truth_gap = any(c == 0 for c in counts)
+        truth_ovl = any(c >= 2 for c in counts)
+        md = ("<!-- partition-axis: column=\"X\" precision=1 -->\n"
+              "| Band | X | Action |\n|---|---|---|\n"
+              + "".join(f"| {chr(65+i)} | {txt} | hold |\n" for i, (txt, _) in enumerate(specs)))
+        with tempfile.NamedTemporaryFile("w", suffix=".md", delete=False, encoding="utf-8") as fh:
+            fh.write(md); tmp = fh.name
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            check_card(tmp)
+        out = buf.getvalue()
+        os.unlink(tmp)
+        said_gap = ("[GAP]" in out) or ("[OPEN-END]" in out)
+        said_ovl = "[OVERLAP]" in out
+        if said_gap != truth_gap or said_ovl != truth_ovl:
+            bad.append((md, counts, truth_gap, truth_ovl, said_gap, said_ovl))
+            if len(bad) >= 3:
+                break
+    print("=" * 72)
+    print(f"  MEMBERSHIP TEST — {trials} random band sets over a 0..10 grid, "
+          f"ground truth by enumeration")
+    print("=" * 72)
+    if not bad:
+        print(f"  ✅ checker verdict matched enumerated ownership on all {trials} cases")
+        return 0
+    for md, counts, tg, to, sg, so in bad:
+        print(f"  ❌ MISMATCH  truth(gap={tg}, overlap={to})  checker(gap={sg}, overlap={so})")
+        print("     ownership per value 0..10:", counts)
+        print("     " + md.replace("\n", "\n     "))
+    print(f"  ❌ {len(bad)} mismatch(es) — the checker disagrees with enumerated membership")
+    return 2
+
+
 def self_test():
     import tempfile
     print("=" * 72)
@@ -663,8 +780,11 @@ def self_test():
 
 
 def main(argv):
+    if "--membership-test" in argv:
+        return membership_test()
     if "--self-test" in argv:
-        return self_test()
+        rc = self_test()
+        return max(rc, membership_test())
     args = [a for a in argv[1:] if not a.startswith("-")]
     if not args:
         print(__doc__.strip()); return 2
@@ -677,8 +797,11 @@ def main(argv):
     for p in args:
         worst = max(worst, check_card(p))
     print("-" * 72)
-    print("  " + ("✅ ALL CARDS PASS" if worst == 0 else
-                  "❌ DEFECT or CANNOT-VERIFY — fix before freezing the card"))
+    print("  " + ("✅ LINT-CLEAN across all cards — every band table identified was checked "
+                  "for gaps, overlaps and open ends. This is NOT a certification that the "
+                  "cards are correct; see each card's scope line."
+                  if worst == 0 else
+                  "❌ DEFECT or UNVERIFIED — resolve before freezing the card"))
     return worst
 
 
