@@ -655,6 +655,36 @@ SELF_TESTS = [
 | B | ??? | 200000-249999 |
 | C | >=250000 | >=250000 |
 """, 2, "AMBIGUOUS-AXIS"),
+    # ---- CODEX round 3, 2026-09-07 PM. Kept HERE, in the repo, not in /tmp: a review
+    # ---- case that lives in a scratch file is not a regression test.
+    ("CODEX v3 1/4: an unhonourable axis declaration must FAIL, not fall back", """<!-- partition-axis: column="MISSING" precision=1 -->
+| Band | X | Action |
+|---|---|---|
+| A | <=199999 | hold |
+| B | 200000-249999 | hold |
+| C | >=250000 | fire |
+""", 2, "BAD-DECLARATION"),
+    ("CODEX v3 2/4: overlapping lower tails", """
+| Band | X | Action |
+|---|---|---|
+| A | <=199999 | hold |
+| B | <=249999 | arm |
+| C | >=250000 | fire |
+""", 2, "OVERLAP"),
+    ("CODEX v3 3/4: precision 1000 must not invent overlaps on a valid partition", """<!-- partition-axis: column="X" precision=1000 -->
+| Band | X | Action |
+|---|---|---|
+| A | <=199999 | hold |
+| B | 200000-249999 | hold |
+| C | >=250000 | fire |
+""", 0, None),
+    ("CODEX v3 4/4: nested band must not produce a phantom gap", """<!-- partition-axis: column="X" precision=1 -->
+| Band | X | Action |
+|---|---|---|
+| A | <7 | hold |
+| B | 4-6 | hold |
+| C | 3-10 | hold |
+""", 2, "OVERLAP"),
     ("prose contradicting the table is caught", """
 | Band | X | Assignment |
 |---|---|---|
@@ -691,8 +721,18 @@ def membership_test(trials=4000, seed=20260907):
         some value owned by 2+ bands <=>  the checker must report an OVERLAP
 
     Ground truth is computed by enumeration, not by the checker, so this covers whole
-    FAMILIES of boundary cases (strict/inclusive x unbounded/bounded x precision) rather
-    than a handful of familiar ones.
+    FAMILIES of boundary cases rather than a handful of familiar ones — it is what found the
+    adjacent-pair coverage bug that no example test reached.
+
+    ⛔ SCOPE, stated because a strong test is the easiest thing to over-credit:
+      COVERS      randomized INTEGER boundaries at PRECISION 1, over <=, <, >=, >, and ranges,
+                  for gap / open-end / overlap detection on a single declared axis.
+      DOES NOT COVER  decimal parsing · precisions other than 1 · axis DECLARATION handling
+                  (honoured, unhonourable, ambiguous) · unit suffixes (186-199K) · date
+                  rejection · the two-axis cross-product leg · any prose interpretation.
+    Those are covered only by the named self-tests above, which are examples and therefore
+    only reach the cases someone thought of. **This test supports the interval-sweep repair;
+    it does not validate the checker as a whole.**
     """
     import random, itertools, tempfile, io, contextlib
     rng = random.Random(seed)
