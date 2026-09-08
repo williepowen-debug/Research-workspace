@@ -132,10 +132,25 @@ def standing_rows(text):
     out = []
     for ln in seg.split("\n"):
         t = ln.strip()
-        if not t.startswith("| **"):      # table rows only; skips the |---| separator
+        if not t.startswith("|"):
             continue
-        label = t[2:120].split("|")[0].strip().strip("*").strip()
-        out.append((label, ln))
+        # ⛔ WIDENED 2026-09-08 (CODEX closeout verification). This required `startswith("| **")`,
+        # so a standing row that merely LOST ITS BOLD was SKIPPED — not flagged — and the guard
+        # then certified the remaining rows green. FORMATTING CONTROLLED SUPERVISION: an
+        # un-bolded row is still a live claim about current state, and the one edit most likely
+        # to drop the bold is someone tidying the table.
+        # ★ Same shape as the status-token class this desk logged the same night: the guard's
+        # scope was a PRESENTATION detail, not the fact being tracked.
+        # [[finding_status_token_membership_test_desupervises_improved_rows]]
+        # Now: any pipe row that is not a separator/blank-header counts, and an unrecognised one
+        # fails LOUD rather than vanishing.
+        cells = [c.strip() for c in t.strip("|").split("|")]
+        if not any(len(c) > 3 for c in cells):        # `| | |` header
+            continue
+        if all(set(c) <= set("-: ") for c in cells):  # `|---|---|` separator
+            continue
+        label = cells[0].strip("*").strip() or "(unlabelled row)"
+        out.append((label[:120], ln))
     return out
 
 
@@ -189,13 +204,21 @@ def check_standing():
     # newest date at which ANY catalyst became known (grade date if declared, else event date)
     known = []
     for d, approx, event, pri, dclass in load():
-        g = GRADED_RE.search(event)
-        if g:
+        # ⛔ findall+max, NOT search, since 2026-09-08 (CODEX closeout verification). `search`
+        # returned the FIRST "GRADED <date>" in the cell, so appending a LATER re-grade
+        # ("...GRADED 2026-09-06 ... re-graded 2026-09-08") left the guard comparing against
+        # the ORIGINAL grade and passing a reconciliation dated before the re-grade.
+        # A catalyst cell is append-only prose; the newest date in it is the one that matters.
+        # [[finding_dated_carry_item_has_no_expiry_check]]
+        gs = []
+        for gm in GRADED_RE.findall(event):
             try:
-                known.append((datetime.strptime(g.group(1), "%Y-%m-%d").date(), d, "graded"))
-                continue
+                gs.append(datetime.strptime(gm, "%Y-%m-%d").date())
             except ValueError:
                 pass
+        if gs:
+            known.append((max(gs), d, "graded"))
+            continue
         if re.search(r"\bFIRED\b|\bGRADED\b", event, re.IGNORECASE):
             known.append((d, d, "fired"))
     behind = []
