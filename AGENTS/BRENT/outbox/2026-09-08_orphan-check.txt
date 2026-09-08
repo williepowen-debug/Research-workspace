@@ -1,0 +1,15 @@
+⚠️  uncommitted files outside AGENTS/BRENT/:
+     [likely YOURS] AGENTS/AEOLUS/inbox/2026-09-08_from-BRENT_owner-market-catchup.md
+     [likely YOURS] AGENTS/FALCON/inbox/2026-09-08_from-BRENT_owner-market-catchup.md
+     [likely YOURS] AGENTS/HAWK/inbox/2026-09-08_from-BRENT_owner-market-catchup.md
+     [likely YOURS] AGENTS/HENRY/inbox/2026-09-08_from-BRENT_owner-market-catchup.md
+     [likely YOURS] AGENTS/OSPREY/inbox/2026-09-08_from-BRENT_owner-market-catchup.md
+     [likely YOURS] AGENTS/TERRY/inbox/2026-09-08_from-BRENT_owner-market-catchup.md
+     [likely YOURS] AGENTS/WALTER/inbox/2026-09-08_from-BRENT_owner-market-catchup.md
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "BRENT -> <recipient>: <what>"

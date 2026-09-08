@@ -1,0 +1,30 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BRENT/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── September 1 BZX26-BZF27 curve · superseded 6.98 → current 5.98
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (14)
+        AGENTS/REGINALD/STATUS.md:179  [6.98]  (no unit/series context on line)
+           | VIX | n/a | **15.20** [**Wed 9/2 CLOSE**, **−6.98%** vs 16.34 (9/1)] | 🟡 **The 9/1 vol bid gave most of itself back the next session** (14
+        AGENTS/MIDAS/NEXUS_BRIEF.md:123  [6.98]  (no unit/series context on line)
+           | **HAWK** | 🟡 **ASK: any SA/Russia event 8/3–8/4 below my news-search floor?** | 🟡 | A **3.11σ joint PGM repricing** with no PGM-specific n
+        AGENTS/CORAL/sources/SBCF_Research_Feb2026/FL_Bank_Concentration_Rankings.md:84  [6.98]  (no unit/series context on line)
+           | Residential Mortgage | $6.98 Billion | \~55.0% | $3.84 Billion |
+        AGENTS/WALTER/routed/route_log.tsv:203  [6.98]  (no unit/series context on line)
+           2026-05-11T22:30:00Z	SIG-W-20260511-039	WALTER image-batch 2026-05-11 — Calculated Risk-style chart; verify via Fannie + Freddie monthly sum
+        AGENTS/MIDAS/workbook/KB.tsv:63  [6.98]  (no unit/series context on line)
+           KB-MIDAS-063	2026-08-27	I2	THE 8/4 PGM SESSION IS A GENUINE JOINT TAIL EVENT WITH NO DATED CATALYST -- AND PALLADIUM LED, WHICH KILLS MY PUB
+        AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-08.md:28  [6.98]  (no unit/series context on line)
+           8. **✅ CLOSED 2026-08-27 — THE "TWO UNEXPLAINED PT SURGES" WERE NEVER TWO, AND THE REAL ONE IS NOT PLATINUM'S.** → **`reports/2026-08-27_pgm
+        AGENTS/MIDAS/analysis/STATUS_ARCHIVE_2026-08.md:182  [6.98]  (no unit/series context on line)
+           | **I2** | PGMs (platinum / palladium) | **2 🟡** | 🔴 **RE-BASED 8/27 — the "two unexplained Pt surges" framing is RETRACTED (KB-062/063/064,
+        AGENTS/MIDAS/analysis/SCRATCH_ARCHIVE_2026-08.md:263  [6.98]  (no unit/series context on line)
+           4. **🔴 8/4 IS THE ONE REAL ANOMALY AND IT IS JOINT PGM, Pd-LED.** Pt residual **+6.26% = 3.11σ (rank 8/666, top 1.20%)**; Pd **+6.72% = 2.69
+        … +6 more 🟠 hit(s) on [6.98] across 12 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟢 cleared: marker-adjacent / next to new value / frozen file (10)  [--show-handled to audit]
+
+  🟠 14 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

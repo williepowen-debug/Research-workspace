@@ -1,0 +1,62 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BRENT/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── Sidi Kerir MTD versus full-August · superseded 2.3 → current 2.139
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (15)
+        AGENTS/WALTER/SESSION_LOG.md:672  [2.3]
+           **🔴🔴 POINTER RE-STAMPED 2026-08-13 (S2). NO ADDENDUM WRITTEN TODAY — nothing met the bar: the two candidate state-changes both verified as 1
+        AGENTS/WALTER/SESSION_LOG.md:707  [2.3]
+           **2026-08-13 (Thu, markets OPEN throughout — SESSION 2, 16:35Z boot on Will's "Hi WALTER please boot up", SEVEN MINUTES after the S1 Tier-2 
+        AGENTS/WALTER/SESSION_LOG.md:1218  [2.3]
+           > **📊 DISPATCHES. `-009`** ROUTINE SAM → BOND, LIQUID — Goldman (**Karen Fishman**): Japan's **~$1T** reserves leave *"plenty of capacity"*,
+        AGENTS/HAWK/STATUS_COLD.md:52  [2.3]
+           | **TRANSIT** (route choice for crude already loaded) | **REROUTING, confirmed** | Hormuz redirects **12→55→64** (8/17) while the kinetic le
+        AGENTS/WALTER/routed/route_log.tsv:735  [2.3]
+           2026-08-13T17:55:00Z	SIG-W-20260813-013	Will-Telegram 10-image ARCHIVE-FLUSH batch 2026-08-13 ~17:00Z item 2 (Bloomberg headline, ~7/28 vint
+        AGENTS/WALTER/routed/delivery_log.tsv:1597  [2.3]
+           2026-08-13T17:55:00Z	SIG-W-20260813-013	BRENT	action	claude-code	PRIORITY	AGENTS/BRENT/inbox/WALTER/SIG-W-20260813-013-saudi-bab-el-mandeb-e
+        AGENTS/WALTER/routed/delivery_log.tsv:1598  [2.3]
+           2026-08-13T17:55:00Z	SIG-W-20260813-013	FALCON	action	claude-code	PRIORITY	AGENTS/FALCON/inbox/WALTER/SIG-W-20260813-013-saudi-bab-el-mandeb
+        AGENTS/CARL/board/BOARD_LOG.tsv:733  [2.3]
+           SIG-W-20260813-013	2026-08-13	OIL_ENERGY	PRIORITY	REFERRED		2026-08-15	Saudi Bab el-Mandeb exports -90%, Sidi Kerir doubled to ~2.3mb/d. Lea
+        AGENTS/HAWK/thesis/FALSIFICATION.md:81  [2.3]
+           **🔴 Standing concentration watch (not a falsifier — a vulnerability):** a chokepoint has been **substituted, not removed**. Saudi Bab export
+        BOARD/SIG-W-20260813-013-saudi-bab-el-mandeb-exports-down-90pct-while-sidi-kerir-more-than-doubled-to-2-3-mbpd-the-barrels-are-rerouted-not-lost.md:20  [2.3]
+           # 🔴 **Saudi exports through Bab el-Mandeb are down ~90% while Sidi Kerir has MORE THAN DOUBLED to ~2.3 mb/d. The "partly routing-attributabl
+        BOARD/SIG-W-20260813-013-saudi-bab-el-mandeb-exports-down-90pct-while-sidi-kerir-more-than-doubled-to-2-3-mbpd-the-barrels-are-rerouted-not-lost.md:34  [2.3]
+           | **Sidi Kerir (Egypt, Mediterranean) exports** | **~1.0 mb/d in July → ~2.3 mb/d in August — MORE THAN DOUBLED** [Kpler via CNBC 8/12] |
+        BOARD/SIG-W-20260813-013-saudi-bab-el-mandeb-exports-down-90pct-while-sidi-kerir-more-than-doubled-to-2-3-mbpd-the-barrels-are-rerouted-not-lost.md:51  [2.3]
+           **~90% down through Bab el-Mandeb, with Sidi Kerir more than doubling to 2.3 mb/d, is a REROUTING signature, not a supply-loss signature.** 
+        BOARD/SIG-W-20260813-013-saudi-bab-el-mandeb-exports-down-90pct-while-sidi-kerir-more-than-doubled-to-2-3-mbpd-the-barrels-are-rerouted-not-lost.md:77  [2.3]
+           **BRENT (action):** ① **SUMED capacity vs 2.3 mb/d** — is the substitute chokepoint near its limit? ② **§6's double-count question**: do Yan
+        BOARD/SIG-W-20260813-015-ship-insurers-restricted-war-cover-for-saudi-red-sea-cargoes-on-7-24-which-is-the-mechanism-under-the-rerouting.md:24  [2.3]
+           **`SIG-W-20260813-013`, dispatched ~90 minutes ago, established the EFFECT:** Saudi Bab el-Mandeb volumes **−~90%** while Sidi Kerir **more 
+        BOARD/SIG-W-20260813-015-ship-insurers-restricted-war-cover-for-saudi-red-sea-cargoes-on-7-24-which-is-the-mechanism-under-the-rerouting.md:33  [2.3]
+           | **8/12** | Kpler volumes confirm the shift — Sidi Kerir ~1.0 → ~2.3 mb/d |
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (766)
+        AGENTS/SELF_RULINGS.tsv:19  [2.3]  (no unit/series context on line)
+           2026-08-20	WAL	Retire the v2.1 MI3 calibration table's IMPLICATION column? (P9)	RETIRED, struck-not-deleted, verbatim preserved. Its <24% ro
+        AGENTS/_INDEX.md:59  [2.3]  (no unit/series context on line)
+           | WAL | [`WAL/`](./WAL/) | Credit (Western Alliance single-name specialist — thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc;
+        AGENTS/_CREDIT.md:15  [2.3]  (no unit/series context on line)
+           | WAL | [`WAL/`](./WAL/) | Western Alliance (WAL) focused surface — thesis v2.3, frozen-frame print grading, FRAUD/ litigation arc; promoted
+        AGENTS/CORAL/CLUSTER_FL_BANK_LEG.md:38  [2.3]  (no unit/series context on line)
+           | **AMTB** Amerant — Coral Gables $9.9B, **21/23 centers S-FL = most FL-pure** | $24.96 | ~late Jul | consumer + CRE-condo/HFS + C&I (CORAL)
+        AGENTS/CORAL/FL_BANK_WATCHLIST.md:48  [2.3]  (no unit/series context on line)
+           | 🟠 ELEVATED | **Amerant** | AMTB | Coral Gables | $9.9B | 21 of 23 banking centers in South Florida; CRE→held-for-sale transfers; $300M she
+        AGENTS/DAEDALUS/FLEET_DIRECTORY.md:42  [2.3]  (no unit/series context on line)
+           | WAL | Market | L4 | M | 2026-09-01 | Western Alliance Bancorp specialist (Office/B1-migration/MI3 idiosyncratic bear; thesis-of-record v2.
+        AGENTS/DAEDALUS/PATTERNS.tsv:69  [2.3]  (no unit/series context on line)
+           PAT-067	2026-07-28	A SEEDED HANDLE CAN COLLAPSE OPPOSITE-SIGNED SUB-MECHANISMS INTO ONE NUMBER — a standup-drafted composite score, defensib
+        AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv:37  [2.3]  (no unit/series context on line)
+           WAL	2026-08-17	PROMOTED from AGENTS/REGINALD/WAL by DAEDALUS 2026-07-25 (Will-approved 7/22, all 5 rulings; review builds/wal_promotion/PROM
+        … +758 more 🟠 hit(s) on [2.3] across 400 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (61: BOND, BROCK, CARL, CORAL, CREED, DAEDALUS, DEWEY, HENRY, LIQUID, MARCO, MIDAS, ORACLE, OTTO, REGINALD, SAM, SHADE, VULCAN, WAL, WATT, ZHAO)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (126)  [--show-handled to audit]
+
+  🔴 15 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

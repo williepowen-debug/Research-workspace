@@ -1,0 +1,380 @@
+
+########################################################################
+#                                                                      #
+#                         BRENT BOOT SEQUENCE                          #
+#                                                                      #
+#                  Tuesday, September 08, 2026  18:18                #
+#                                                                      #
+########################################################################
+
+  ⏳ Threshold Monitor...
+
+========================================================================
+  BRENT Threshold Monitor — 2026-09-08 18:18
+========================================================================
+
+  Fetching market data...
+  Fetching FRED data...
+
+  ✅ No threshold breaches or warnings.
+
+  CRUDE & FUTURES
+  ----------------------------------------------------------------
+
+  POSITIONS
+  ----------------------------------------------------------------
+
+  ENERGY SECTOR
+  ----------------------------------------------------------------
+
+  TANKERS (proxy for VLCC/LR2/MR rates)
+  ----------------------------------------------------------------
+
+  FRED LATEST VALUES
+  ----------------------------------------------------------------
+  Dated Brent                     ERROR  keyed: <urlopen error [Errno -3] Temporary failure
+  WTI Spot                        ERROR  keyed: <urlopen error [Errno -3] Temporary failure
+  HY Total OAS (%)                ERROR  keyed: <urlopen error [Errno -3] Temporary failure
+  Henry Hub Gas                   ERROR  keyed: <urlopen error [Errno -3] Temporary failure
+  US Retail Gas                   ERROR  keyed: <urlopen error [Errno -3] Temporary failure
+
+  MACRO CONTEXT
+  ----------------------------------------------------------------
+
+  ⚠️  UNGRADED — 22 registered threshold(s) COULD NOT BE GRADED
+  ----------------------------------------------------------------
+      ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  BZ=F                 [market] Brent FUTURES (ICE front-month, BZ=F con
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  CL=F                 [market] WTI >$100 — Phase 1 broad
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  CL=F                 [market] WTI <$70 — US decoupling stress
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  LNG                  [market] Cheniere analyst PT range — LNG beat ter
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  VG                   [market] VG benefitting from spot LNG windfall
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  NG=F                 [market] Natgas >$4 — Atlantic basin competition
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  NG=F                 [market] Natgas >$5 — US gas market tight
+          reason: no price returned (fetch failed, or symbol dead)
+      ⚠️  DCOILBRENTEU         [fred  ] Dated Brent PHYSICAL SPOT (FRED DCOILBRE
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  DCOILBRENTEU         [fred  ] Dated Brent PHYSICAL SPOT (FRED DCOILBRE
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  DCOILBRENTEU         [fred  ] Dated Brent PHYSICAL SPOT (FRED DCOILBRE
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  DCOILWTICO           [fred  ] WTI >$100 — broad Phase 1
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  BAMLH0A0HYM2         [fred  ] HY OAS >450bps — credit dislocation
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  BAMLH0A0HYM2         [fred  ] HY OAS >350bps — stress threshold
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  BAMLH0A0HYM2         [fred  ] HY OAS >300bps — elevated (currently)
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  DHHNGSP              [fred  ] Henry Hub >$4 — gas market tight
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  GASREGW              [fred  ] Retail >$4.50 — next CARL breakpoint
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⚠️  GASREGW              [fred  ] Retail >$4.00 — behavioral breakpoint (C
+          reason: keyed: <urlopen error [Errno -3] Temporary failure in name resolution>
+      ⛔ These are NOT known to be un-breached — they were never evaluated.
+         A clean board above is clean ONLY over the thresholds that graded.
+
+
+
+  ⏳ EIA Weekly Monitor...
+
+========================================================================
+  BRENT EIA Weekly Monitor — 2026-09-08 18:18
+========================================================================
+
+  Source: 🟠 LOCAL (eia_2026-09-02.md, 6d old)
+  Week ending:   unknown
+  Released:      unknown
+
+  HEADLINE METRICS
+  ----------------------------------------------------------------
+  🔴 Refinery util:      98.0%                     — >95.0% — crack spread squeeze territory
+
+  PATH B TRIGGER STATUS (demand destruction)
+  ----------------------------------------------------------------
+  Trigger #2 (Gas YoY ≤ -5%):  ⚪ not fired
+  Cushing < 20M:               ⚪ UNGRADED — no Cushing reading in this pull. NOT a 'not breached': the datum is absent, so no verdict exists.
+  NOTE: LOCAL parse. Live needs EIA_API_KEY in FORGE/.env (then drop --local).
+
+
+
+  ⏳ Catalyst Countdown...
+
+========================================================================
+  BRENT Catalyst Countdown — 2026-09-08 18:18  (60-day horizon)
+  ~ prefix = modeled/projected date (not source-confirmed; may revise)
+========================================================================
+
+  🔴 IMMINENT (≤5 trading days)
+  --------------------------------------------------------------------
+  🔴 ~2026-09-08 (Tue)   0d cal /  0d trd  🔴 DOCKET L198 MIRROR — discriminator forward checks ①② RE-DATED (window 8/20–8/31 was OVERDUE-UNANNOTATED; dispositioned 9/1 at the combined touch)
+       ↳ check: ① SIDI KERIR LAG TEST — RUN 9/1, DIRECTION ONLY: Kpler (Matt Smith via CNBC 8/12 / Enterprise 8/17) Sidi Kerir port-total exports ~2.3 mb/d Aug-to-date vs ~1.0 Jul, Saudi barrels most of the increase; southbound Bab −~90% (11M bbl wk-3-Jul → 1.3M bbl wk-1-Aug). NO LAGGED FALL — Sidi Kerir ROSE ~2.3× => the w/c-8/3 Yanbu ≤3.0 print reads as WESTBOUND REROUTING / imputation-artefact, NOT a real-westbound-constraint; 2.3 vs the 2.17 total-liftings benchmark = +6% (same perimeter: port-total, all destinations — FALCON 670-kbpd Asia-only trap avoided). Caveats: month-to-date pace, tracker-sourced, one relay chain. RE-READ ~9/8 on a full-August Kpler/Vortexa figure if one relays. ② PORTWATCH KNOWN-POSITIVE CONTROL — as specified UNDERPOWERED and CLOSED (own pull 8/12–8/16 n_tanker 1·2·2·1·1, max capacity_tanker 8/12–8/23 = 78,587 dwt on 8/19 — no VLCC-class signature, but loaded-at-Juaymah ≠ transited-in-window). RE-SPECIFIED on a CLEAN known positive: VLCCs Sidr + Senegal Prosperity (~300k dwt each) UKMTO-confirmed IN THE STRAIT 8/31 19:52Z/20:00Z (FALCON VESSELS VI-2026-0020/0021). When the 8/31 (or 9/1 local) chokepoint6 print publishes (~9/5–9/8): capacity_tanker ≥ ~500k => the series CAN see VLCCs; < 250k => coverage defect CONFIRMED against a NAMED known positive. ③ EIA de-impairment audit DONE 8/13 (STEO COPS_OPEC_R05 100.0% ME).
+       ↳ signal: ② resolves on the 8/31 print: ≥~500k dwt = series sees VLCCs; <250k = coverage defect confirmed. ① direction-only, no level, no BRT-xx.
+       ↳ send to: BRENT · FALCON (VESSELS rows, leg-3) · PROME (DOCKET L198 sync)
+  🔴 ~2026-09-09 (Wed)   1d cal /  1d trd  🔴 SPR EXCHANGE WINDOW TEST — the first EIA prints covering SEPTEMBER, i.e. AFTER the 'primarily April-August 2026' delivery window closes
+       ↳ check: SPR weekly level (EIA WCSSTUS1 / boot line 5) for weeks ending ~9/4 and ~9/11. Base: 293.426M (wk-8/14), run-rate ~-5 to -6M/wk across 12+ consecutive draws, ZERO builds.  ⚑ EXTENDED 2026-09-02 (supersedes: none — SAME INSTRUMENT, same print, second question): THE SAME wk-9/4 WPSR IS THE FIRST INSTRUMENTED READ OF THE TROPICAL-STORM-EDOUARD GULF RUN-CUT. Landfall was 9/1 (Johnson Bayou LA, ~15mi SSE of Port Arthur) — the wk-8/28 print released 9/2 covers the week BEFORE it, so nothing about Edouard is in the record yet. CHECK on the wk-9/4 print: (a) refinery utilization vs the 98.0% leg high set wk-8/28 — a run-cut should SHOW here or the reported outage was immaterial; (b) PADD 3 gross inputs; (c) distillate/gasoline stocks vs the >$100 diesel crack. ESTABLISHED 9/2 at the primary: Valero Port Arthur (385 kb/d) partial blackout Tue night, smaller AVU-147 CDUs SHUT and larger AVU-146 at MINIMUM runs [Reuters via TradingView/oedigital + qcintel]; Motiva (656.4 kb/d, LARGEST US refinery), Exxon Beaumont and TotalEnergies Port Arthur (238 kb/d) ALL NORMAL. ⇒ PRE-REGISTERED EXPECTATION, so the read cannot be fitted after the fact: ONE partial plant out of a ~2.5 mb/d hub is SMALL — if utilization falls MORE than ~1pp, something happened that was not reported on 9/2 and the outage was under-disclosed; if it is flat-to-down-1pp, the narrow read was RIGHT and Edouard is a non-event for the crude balance.
+       ↳ signal: DISCRIMINATING FALSIFIER, PRE-REGISTERED WITH A NUMBER AND A NO-VERDICT BAND (tightened 2026-08-21 after lessons_check --spec flagged L21/L22: 'stops or sharply decelerates' was a WORD, not a threshold - finding_prereg_verdict_boundary_must_be_a_number). MEASURE: mean weekly SPR change across the FIRST TWO EIA prints whose survey weeks fall entirely in September (w/e ~9/4 and ~9/11). BASELINE: -5.27M/wk (wk-8/14), 12+ consecutive draws, zero builds. BRANCH A (contracted-schedule CONFIRMED, i.e. the window closed): mean weekly change >= -2.0M/wk (draw shrinks 60%+, or flips to a build). BRANCH B (emergency-consumption reading PARTIALLY RECOVERS): mean weekly change <= -4.0M/wk. NO-VERDICT BAND: strictly between -4.0M and -2.0M/wk - declare NO VERDICT and re-read at the next two prints; do NOT pick a side inside the band. Both branches read the SAME series over the SAME two survey weeks, so no post-hoc grader discretion is restored.
+       ↳ send to: BRENT, FALCON, HENRY, PROME
+
+  📅 UPCOMING (within 60 days)
+  --------------------------------------------------------------------
+  🔴  2026-09-18 (Fri)   10d cal /   8d trd  USO Sep-18 150/165 call debit spread — EXPIRY
+  🟡  2026-09-30 (Wed)   22d cal /  16d trd  XLE $65C expiry
+  🟠  2026-10-01 (Thu)   23d cal /  17d trd  🟠 EU STORAGE 80% FLOOR — DECISION DATE (bindi...
+  🟠  2026-10-04 (Sun)   26d cal /  18d trd  🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the N...
+  🟠 ~2026-10-10 (Sat)   32d cal /  23d trd  🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d a...
+  🟠 ~2026-11-01 (Sun)   54d cal /  38d trd  🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the t...
+
+  🔴 HIGH PRIORITY in horizon: 3
+     • Tue Sep 08 (0d) — 🔴 DOCKET L198 MIRROR — discriminator forward checks ①② RE-DATED (window 8/20–8/31 was OVERDUE-UNANNOTATED; dispositioned 9/1 at the combined touch)
+     • Wed Sep 09 (1d) — 🔴 SPR EXCHANGE WINDOW TEST — the first EIA prints covering SEPTEMBER, i.e. AFTER the 'primarily April-August 2026' delivery window closes
+     • Fri Sep 18 (10d) — USO Sep-18 150/165 call debit spread — EXPIRY
+
+
+
+  ⏳ Predictions-Due Scan...
+  ⏳ Predictions-Due Scan...
+      ⚪ EVENT-CONDITIONAL (skipped BY DESIGN — a precondition gates these, not a calendar). Listed so the exclusion is never silent:
+      ⚪ BRT-07  timeframe='Within 7 days of Hormuz reopening'  ⚠️ carries OUTER BOUND 2027-03-06 in its STATUS cell, which this scanner does not read — check it by hand
+      ✅ no OPEN predictions past (or within 7d of) their timeframe
+
+
+  ⏳ Lesson-Conflict Check...
+
+  LESSON-CONFLICT CHECK — 26 lessons indexed
+  ✅ no unresolved contradictions
+
+
+
+  ⏳ Instrument Check...
+
+  INSTRUMENT CHECK — 31 registered tests
+  --------------------------------------------------------------------------
+
+  🔴 BLOCKING — these tests cannot be graded as written (31):
+     🔴 MKT-BZ-F-ABOVE-140 [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-ABOVE-140 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-ABOVE-120 [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-ABOVE-120 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-ABOVE-100 [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-ABOVE-100 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-BELOW-85 [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-BELOW-85 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-BELOW-75 [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-BELOW-75 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-BELOW-70 [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-BZ-F-BELOW-70 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-CL-F-ABOVE-100 [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-CL-F-ABOVE-100 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-CL-F-BELOW-70 [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-CL-F-BELOW-70 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-LNG-ABOVE-285 [threshold] DEAD: instrument did not return usable data — probe error: TypeError: 'NoneType' object is not subscriptable
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-LNG-ABOVE-285 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-VG-ABOVE-15 [threshold] DEAD: instrument did not return usable data — probe error: TypeError: 'NoneType' object is not subscriptable
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-VG-ABOVE-15 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-NG-F-ABOVE-4 [threshold] DEAD: instrument did not return usable data — probe error: TypeError: 'NoneType' object is not subscriptable
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-NG-F-ABOVE-4 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-NG-F-ABOVE-5 [threshold] DEAD: instrument did not return usable data — probe error: TypeError: 'NoneType' object is not subscriptable
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 MKT-NG-F-ABOVE-5 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DCOILBRENTEU-ABOVE-140 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DCOILBRENTEU-ABOVE-140 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DCOILBRENTEU-ABOVE-120 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DCOILBRENTEU-ABOVE-120 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DCOILBRENTEU-ABOVE-100 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DCOILBRENTEU-ABOVE-100 [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DCOILWTICO-ABOVE-100 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DCOILWTICO-ABOVE-100 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-BAMLH0A0HYM2-ABOVE-4.5 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-BAMLH0A0HYM2-ABOVE-4.5 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-BAMLH0A0HYM2-ABOVE-3.5 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-BAMLH0A0HYM2-ABOVE-3.5 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-BAMLH0A0HYM2-ABOVE-3 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-BAMLH0A0HYM2-ABOVE-3 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DHHNGSP-ABOVE-4 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-DHHNGSP-ABOVE-4 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-GASREGW-ABOVE-4.5 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-GASREGW-ABOVE-4.5 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-GASREGW-ABOVE-4 [threshold] DEAD: instrument did not return usable data — unreachable on BOTH paths — keyed: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>; keyless: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>. ⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 FRED-GASREGW-ABOVE-4 [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 10d budget
+         → spec: thesis/THESIS.md §KEY THRESHOLDS
+     🔴 KILL-LEG2-JWC-LISTING [falsifier] DEAD: instrument did not return usable data — unreachable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution> — ⚠️ if this is a HANG rather than an HTTP error, check the User-Agent first (L25)
+         → spec: setups/2026-08-21_kill-leg2-transit-respec-PROPOSAL-jwc-listing.md
+     🔴 BRT-26-RIGS [prediction] DEAD: instrument did not return usable data — listing unreachable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution> — ⚠️ a 403 here is the HEADER SHAPE, not a usage ban: check BROWSER_HEADERS first, a bare User-Agent 403s on this host by design
+         → spec: thesis/PREDICTIONS.tsv
+     🔴 THESIS-BRENT [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: THESIS.md §KEY THRESHOLDS
+     🔴 THESIS-BRENT [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         → spec: THESIS.md §KEY THRESHOLDS
+     🔴 THESIS-WTI-BRENT [threshold] DEAD: instrument did not return usable data — probe error: DNSError: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+         → spec: THESIS.md §KEY THRESHOLDS
+     🔴 THESIS-WTI-BRENT [threshold] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget
+         → spec: THESIS.md §KEY THRESHOLDS
+     🔴 CUSHING-20M [threshold] DEAD: instrument did not return usable data — API error: <urlopen error [Errno -3] Temporary failure in name resolution>
+         → spec: THESIS.md §KEY THRESHOLDS; AGENTS/WALTER/ROUTING_TABLE.md:446 (Boundary #3 routing prose)
+     🔴 CUSHING-20M [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         → spec: THESIS.md §KEY THRESHOLDS; AGENTS/WALTER/ROUTING_TABLE.md:446 (Boundary #3 routing prose)
+     🔴 COT-FUEL-35B [threshold] DEAD: instrument did not return usable data — unreachable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+         → spec: setups/2026-08-12_35b-COT-successor-band-N1-build.md
+     🔴 DIESEL-CRACK [falsifier] DEAD: instrument did not return usable data — probe error: TypeError: 'NoneType' object is not subscriptable
+         → spec: setups/ diesel card
+     🔴 DIESEL-CRACK [falsifier] STALE: newest datapoint 2026-08-04 is 35d old vs a 4d budget  [gate/falsifier ⇒ blocking, not advisory]
+         → spec: setups/ diesel card
+     🔴 EU-STORAGE [threshold] DEAD: instrument did not return usable data — unreachable: URLError: <urlopen error [Errno -3] Temporary failure in name resolution>
+         → spec: STATUS 8/2 banner; instrument wired 2026-08-13
+     🔴 EU-STORAGE [threshold] STALE: newest datapoint 2026-08-13 is 26d old vs a 10d budget
+         → spec: STATUS 8/2 banner; instrument wired 2026-08-13
+     🔴 TANKER-LIVENESS [gate] DEAD: instrument did not return usable data — probe error: TypeError: 'NoneType' object is not subscriptable
+         → spec: LESSONS #18 box / STAGE-A v5
+     🔴 TANKER-LIVENESS [gate] STALE: newest datapoint 2026-08-05 is 34d old vs a 4d budget  [gate/falsifier ⇒ blocking, not advisory]
+         → spec: LESSONS #18 box / STAGE-A v5
+
+  🟠 INCIDENTS.tsv — 12 ACTIVE rows past the 60d re-verify budget (ACTIVE is a PRESENT-TENSE claim; re-verify or downgrade):
+     🟠 RF-004 South Pars / Asaluyeh                  last verified 2026-03-19 (173d)
+     🟠 RF-009 Kirishi (KINEF)                        last verified 2026-03-26 (166d)
+     🟠 RF-013 Ufa                                    last verified 2026-04-02 (159d)
+     🟠 RF-014 Mina Al-Ahmadi                         last verified 2026-04-03 (158d)
+     🟠 RF-015 Ruwais                                 last verified 2026-04-05 (156d)
+     🟠 RF-016 Habshan (gas processing)               last verified 2026-04-05 (156d)
+     🟠 RF-017 Nizhny Novgorod (Kstovo)               last verified 2026-04-05 (156d)
+     🟠 RF-030 Ras Laffan LNG / Shell GTL             last verified 2026-04-07 (154d)
+     … and 4 more (run with --json or read the ledger)
+     ⚠️  Flags only — never auto-edits. Downgrading on a timer would fabricate a restart nobody observed.
+     ⛔ NO AGGREGATE OVER INCIDENTS.tsv IS QUOTABLE — event record, not a capacity measure (Will-ruled fleet-wide 2026-08-12).
+
+  🟠 INCIDENTS.tsv — 6 row(s) in PRESENT-TENSE statuses the 60d budget does NOT cover, also stale (DISCLOSURE, not a budget — no threshold, gates nothing):
+     🟠 RF-005 Bazan (Haifa)                    PARTIAL_RESTART last verified 2026-03-20 (172d)
+     🟠 RF-010 Corpus Christi metro (water)     MONITORING      last verified 2026-03-26 (166d)
+     🟠 RF-018 Satorp (Jubail)                  PARTIAL_RESTART last verified 2026-04-14 (147d)
+     🟠 RF-008 Port Arthur                      PARTIAL_RESTART last verified 2026-04-16 (145d)
+     🟠 RF-031 Mangalore (MRPL)                 DISPUTED        last verified 2026-04-17 (144d)
+     🟠 RF-032 Vadinar                          MONITORING      last verified 2026-04-17 (144d)
+     ⚠️  Here because re-classifying a row OUT of ACTIVE silently removes it from the re-verify queue — accuracy must not buy invisibility.
+
+  ✅ INCIDENTS.tsv — 2 row(s) in PERMANENT_CLOSURE (TERMINAL: deliberately OUTSIDE the 60d re-verify budget, listed so the exclusion is never silent):
+     ✅ RF-028 Wilmington (LA)                        re-verified 2026-08-21
+     ✅ RF-029 Benicia (SF Bay)                       re-verified 2026-08-21
+     ⚠️  These are NOT restarts and NOT resolutions — the capacity is gone, permanently. They re-enter ACTIVE only on a REPORTED restart or sale-and-restart, never on a clock. Each row names that condition in its notes.
+
+  --------------------------------------------------------------------------
+  Probed 31 of 31 rows over the network; the rest are manual/none/unprobeable.
+  ⚠️  This checks the INSTRUMENT, never whether the THRESHOLD LEVEL is still meaningful.
+      A permanently-breached line (gasoline crack >$30) probes perfectly GREEN.
+
+  STDERR: Failed to get ticker 'BZ=F' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to get ticker 'CL=F' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to get ticker 'LNG' reason: Failed to perform, curl: (6) Could not resolve host: guce.yahoo.com. See https://curl.se/libcurl/c/libcurl-
+
+  ⏳ Ledger Staleness...
+
+[BRENT]  (ledger age relative to STATUS.md; + = older than STATUS)
+  ok          +5d  AGENTS/BRENT/TRADE.md
+  ok          -1d  AGENTS/BRENT/board_log.tsv
+  ok          -1d  AGENTS/BRENT/docket/CATALYSTS.tsv
+  ⚠️ STALE   +16d  AGENTS/BRENT/refinery_damage/INCIDENTS.tsv
+  FROZEN     +67d  AGENTS/BRENT/workbook/FLOW.tsv
+  FROZEN     +53d  AGENTS/BRENT/workbook/GROUP_MAP.tsv
+  FROZEN     +67d  AGENTS/BRENT/workbook/KB.tsv
+  ⚠️ STALE   +11d  AGENTS/BRENT/workbook/LESSONS_INDEX.tsv
+  ok          -1d  AGENTS/BRENT/workbook/REGISTRY.tsv
+  FROZEN     +67d  AGENTS/BRENT/workbook/VX.tsv
+  → 2 stale: freeze (add 'FROZEN <date> — ...' banner) or refresh at closeout.
+  perimeter [BRENT]: 11 ledger(s) scanned; 3 TSV(s) NOT scanned by this pass: registry/corrections_receipts.tsv, scripts/data/refiner_ratios.tsv, thesis/PREDICTIONS.tsv
+
+
+  ⏳ Ledger Nudge...
+⚠️  nudge: [BRENT] STATUS moving without ledgers — 6 ledger(s) behind: INCIDENTS.tsv (35 STATUS-writes behind), LESSONS_INDEX.tsv (27 STATUS-writes behind), CATALYSTS.tsv (6 STATUS-writes behind), REGISTRY.tsv (6 STATUS-writes behind), TRADE.md (5 STATUS-writes behind), board_log.tsv (4 STATUS-writes behind) — freeze-or-refresh EACH, or say why not in the commit
+
+
+  ⏳ Derived Views...
+✅ CALENDAR: STATUS block matches docket/CATALYSTS.tsv (19 events)
+✅ STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-09-06).
+
+
+========================================================================
+  BOOT SUMMARY
+========================================================================
+
+  Script                           Status     Time
+  --------------------------------------------------
+  🔴 Threshold Monitor            FINDINGS    0.9s
+  ✅ EIA Weekly Monitor               OK   42.1s
+  ✅ Catalyst Countdown               OK    0.0s
+  ✅ Predictions-Due Scan             OK    0.0s
+  ✅ Lesson-Conflict Check            OK    0.0s
+  🔴 Instrument Check             FINDINGS    6.6s
+  🔴 Ledger Staleness             FINDINGS    0.3s
+  🔴 Ledger Nudge                 FINDINGS    0.2s
+  ✅ Derived Views                    OK    0.0s
+
+  Total boot time: 50.2s
+  Date: 2026-09-08 | Day: Tuesday
+
+  🔴 4 check(s) reported BLOCKING FINDINGS (script ran fine — the SPEC is the problem):
+     • Threshold Monitor
+     • Instrument Check
+     • Ledger Staleness
+     • Ledger Nudge
+
+  🔴 BOOT COMPLETED WITH 4 BLOCKING FINDING(S). Scripts all RAN — the SPEC/state is the problem. rc=2.
+     ⛔ This is NOT a clean boot. Do not read the run as green.
+
+  Tip: run with --verbose to see full output for each script.

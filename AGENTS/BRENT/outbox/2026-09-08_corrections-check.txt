@@ -1,0 +1,1 @@
+CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for BRENT (register 12 row(s), 0 ALL-warn, 0 dead-at-cap; receipts on file: 1) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv, nothing else

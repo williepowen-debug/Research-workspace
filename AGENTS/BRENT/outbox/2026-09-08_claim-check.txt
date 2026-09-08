@@ -1,0 +1,9 @@
+CLAIM-CHECK ⚠️  2 flag(s) across 6 file(s)
+
+[weekday]
+  AGENTS/BRENT/STATUS.md:121
+      “Sun Jan 31” — 2026-01-31 is a Saturday, not Sun
+  AGENTS/BRENT/docket/CATALYSTS.tsv:9
+      “7/31 sat” — 2026-07-31 is a Friday, not sat
+
+Advisory — nothing blocked, nothing edited. A flag is a prompt to LOOK, not an instruction to find-replace.

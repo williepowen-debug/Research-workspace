@@ -1,0 +1,37 @@
+{
+  "portwatch_latest": {
+    "url": "https://services9.arcgis.com/weJ1QsnbMYJlCHdG/arcgis/rest/services/Daily_Chokepoints_Data/FeatureServer/0/query?where=portid%3D%27chokepoint6%27&outFields=date%2Cn_tanker%2Ccapacity_tanker%2Cn_total&orderByFields=date+DESC&resultRecordCount=5&f=json&returnGeometry=false",
+    "observed_utc": "2026-09-08T22:18:51.322870+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "government": {
+    "url": "https://government.ru/docs/59723/",
+    "observed_utc": "2026-09-08T22:18:51.323553+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "BZX26.NYM": {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZX26.NYM?range=1mo&interval=1d",
+    "observed_utc": "2026-09-08T22:18:51.324075+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "BZZ26.NYM": {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZZ26.NYM?range=1mo&interval=1d",
+    "observed_utc": "2026-09-08T22:18:51.324533+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "BZF27.NYM": {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZF27.NYM?range=1mo&interval=1d",
+    "observed_utc": "2026-09-08T22:18:51.325223+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "CLV26.NYM": {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLV26.NYM?range=1mo&interval=1d",
+    "observed_utc": "2026-09-08T22:18:51.325829+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  },
+  "CLX26.NYM": {
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/CLX26.NYM?range=1mo&interval=1d",
+    "observed_utc": "2026-09-08T22:18:51.326333+00:00",
+    "error": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+  }
+}

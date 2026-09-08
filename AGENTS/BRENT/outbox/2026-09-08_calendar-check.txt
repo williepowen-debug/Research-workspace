@@ -1,0 +1,2 @@
+✅ CALENDAR: STATUS block matches docket/CATALYSTS.tsv (18 events)
+✅ STANDING STATE: all 8 row(s) stamped and reconciled at or after the newest graded catalyst (2026-09-06).

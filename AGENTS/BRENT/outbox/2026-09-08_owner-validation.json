@@ -1,0 +1,58 @@
+{
+  "before_image_checksums": true,
+  "catalyst_shape": true,
+  "frozen_threshold_5": true,
+  "frozen_threshold_7": true,
+  "frozen_threshold_15": true,
+  "calendar_holiday": true,
+  "Q1_registered_date_unchanged": true,
+  "prediction_context_only": true,
+  "registry_unmodified": true,
+  "no_index_changes": true,
+  "active_inbox_after": [],
+  "inbox_before": {
+    "top": 2,
+    "WALTER": 0,
+    "MSG": 0,
+    "other": 0,
+    "total": 2
+  },
+  "inbox_moves": [
+    {
+      "name": "2026-09-08_from-PROME_market-reader-results.md",
+      "sha256": "4bb2193907e79467489947faa0cfc8d510a575b9b731ce754042a80a517743e5",
+      "unchanged": true,
+      "acted_rows": 1
+    },
+    {
+      "name": "2026-09-08_from-TERRY_XLE-exit-selected-USO-rules.md",
+      "sha256": "16f7f24cabc83172ebc98d829ccd4874c827b0be83d565b5e2e92231703d8160",
+      "unchanged": true,
+      "acted_rows": 1
+    }
+  ],
+  "inbox_pass": true,
+  "source_arithmetic": {
+    "proxy": 1.37,
+    "sep1_curve": 5.98,
+    "sidi_percent": -1.4286
+  },
+  "byte_sizes": {
+    "STATUS.md": 25272,
+    "SCRATCH.md": 5778,
+    "TRADE.md": 156190,
+    "LESSONS.md": 48705,
+    "NEXUS_BRIEF.md": 7585
+  },
+  "weekly_grades_unchanged": "No new weekly primary grade this session; source failures UNKNOWN.",
+  "captured_utc": "2026-09-08T22:43:44.548563+00:00",
+  "sidi_original_amendment_applied": true,
+  "brief_folded_after_domain": true,
+  "weekday_check_review": [
+    "New prose check passes",
+    "Generated Sun Jan 31 is 2027-01-31, not checker default 2026",
+    "7/31 sat five sessions off is verb sat, not Saturday",
+    "Historical Thu Jul 24 corrected to Fri Jul 24, 2026"
+  ],
+  "consumer_review": "Self 95.22/6.98 carriers qualified. Cross 95.22 and Sidi packets sent to WALTER/HAWK; historical observations and unrelated candidates left unchanged. FALCON gets control and source-basis qualification."
+}

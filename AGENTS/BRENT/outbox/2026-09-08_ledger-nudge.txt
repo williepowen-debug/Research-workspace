@@ -1,0 +1,1 @@
+⚠️  nudge: [BRENT] STATUS moving without ledgers — 6 ledger(s) behind: INCIDENTS.tsv (35 STATUS-writes behind), LESSONS_INDEX.tsv (27 STATUS-writes behind), CATALYSTS.tsv (6 STATUS-writes behind), REGISTRY.tsv (6 STATUS-writes behind), TRADE.md (5 STATUS-writes behind), board_log.tsv (4 STATUS-writes behind) — freeze-or-refresh EACH, or say why not in the commit

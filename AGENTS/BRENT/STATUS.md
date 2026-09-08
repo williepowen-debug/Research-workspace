@@ -1,11 +1,24 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-07 Mon ~12:2x–12:3x ET** (LIVE CRUDE ONLY; equity levels are the **Fri 9/4 close**, root rule #4) · **GASREGW `$4.071` (8/31, newest print that exists)** · **Surface written: 2026-09-08 Tue ~12:2x ET — closeout of an ARCHITECTURE session that ran through the 9/8 open. ⛔ NO market data pulled, NO marks refreshed since 9/2 post-close, NO thesis change, `$0` moved. TODAY'S DOCKET (L198 ①②, L252 XLE close) IS UNWORKED AND OWED.** ⚑ **STANDING STATE reconciled 2026-09-07; `render_calendar.py --check` enforces it at boot.** 📖 *Session record: commits `a6c4145dd`…`55669cd02` + [`archive/STATUS_DETAIL_2026-09.md`](archive/STATUS_DETAIL_2026-09.md) § REPAIRS.*
+**Last real data refresh: 2026-09-08 — scoped owner evidence read.** EIA physical primary and WPSR schedule freshly opened; named-contract vendor bars re-parsed from PROME captures; official matched settlement UNKNOWN. **Surface written: 2026-09-08 — authorized owner catch-up complete to available evidence.** Option marks remain September 2 vintage; broker execution UNKNOWN. Standing weekly grades below retain their own September 6/7 reconciliation dates. [Source record](setups/2026-09-08_market-docket-owner-read.md).
 
 ---
 
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
+
+## September 8 owner result — current docket integrated
+
+| Obligation | Owner result and next source |
+|---|---|
+| L198① Sidi Kerir | Full-August **2.139 mb/d** provisional Kpler via September 8 Reuters relays, versus existing **2.17** port-total benchmark (about **−1.4%**), direction only. Supersedes MTD 2.3 / +6% comparison; Vortexa weekly benchmark versus Kpler monthly relay: different trackers AND windows. Existing August 21 same-series weekly lag test **NOT RUNNABLE — NO-VERDICT**; −1.4% is contextual arithmetic, no grade. No independent tracker primary or Saudi production-loss inference. |
+| L198② PortWatch | **UNKNOWN / PENDING PUBLICATION** in parent's successful September 8 capture ending August 30. Required August 31–September 1 window absent. Exact owner retry blocked by web access / host DNS; current endpoint freshness not independently established. No substitute August 30 grade and no counter increment. Same query next boot, frozen control unchanged. |
+| L140 Q1/Q2/Q3 | **Q1 UNKNOWN-AT-PRIMARY.** GARANT/ConsultantPlus transcribe No.1097 amending No.954: September 1→October 1, August 31→September 30. Official text/publication and original amended scope remain missing. October 1 is transcribed only, no imported clock change. Q2 remains OSPREY diesel/gasoil flow; Q3 fresh matched crack UNKNOWN and separate. First read completed; full registered read October 1. |
+| Physical / paper | EIA September 1 **96.02** minus Yahoo BZX26 September 1 daily **94.65** = **1.37 vendor-close proxy ONLY**. Official matched benchmark UNKNOWN. Archived intraday 95.22 retired from live use. September 8 BZX26 99.29 is a LIVE snapshot at 20:40:01Z, not settlement. Named-contract daily curve corrected: September 1 **5.98**, September 2 **6.65**, September 3 **7.20**, September 4 **7.13**; no close-counter increment from September 8 snapshots. |
+| Next physical release | **Thursday September 10, noon ET**, WPSR week ending September 4, confirmed at EIA holiday schedule. Corrects September 9. SPR two-print bands and Edouard observation rule unchanged. Named survey weeks preserved; contradictory “entirely in September” wording and secondary-only DOE-window premise flagged to PROME, no letter rewrite. |
+| Owner action state | **WQ-189/192 STAND DOWN.** No deploy/arm, new thresholds, band/probability edits or new proposals. Registered weekly grades carried, not falsely refreshed by failed boot probes. |
+
+**Positions / implementation:** [TRADE.md](TRADE.md#positions-live) owns the corrected holding/rule mirror; TERRY tracks the already-selected September 9 open XLE exit and Will executes after live broker checks. Execution receipt remains UNKNOWN.
 
 ## 📌 STANDING STATE — *current values, live rules and active obligations. Read this; it is the hot half.*
 
@@ -35,7 +48,7 @@
 > - 🔴 **FALCON GATE 2 FIRED on its own letter** and was not softened. My limb is met on its face; **the LETTER governs my pair** and this surface is DESCRIPTIVE — it carries no capital trigger (Will-ruled WQ-192).
 > - ⚖️ **BRT-30 CHECKED, NOT GRADED** — resolves on a DATE (2026-10-26), baseline `JWLA-034`.
 > - 📋 **DOCKET L198 ①② dispositioned; WQ-112 applied to BRT-26 (scoring mark `58%` [7/28]).**
-> - 📅 **Russia diesel producer-direct carve-out: Q1 read `UNKNOWN-AT-PRIMARY`, reported NEGATIVE** — first real read owed, decree text unopened (403×2).
+> - 📅 **Russia diesel producer-direct carve-out: Q1 read `UNKNOWN-AT-PRIMARY`, reported NEGATIVE** — September 8 first read COMPLETE to available evidence: amendment transcriptions reached, official authentication/publication and original scope still missing. See current docket result above; no imported date change.
 
 
 > ⚠️ **A FIRING GATE CARRIES ZERO THESIS INFORMATION** (TERRY, adopted onto the spec): leg (a) fires because OVX *decayed*, leg (b) eased because USO *fell*. **Both legs open as the market prices LESS of this thesis.** The case rests on the curve, the physical leg and the tolled-corridor reading — never on a cheap entry. **THE CLOCK IS NOT EVIDENCE.**
@@ -89,28 +102,27 @@
 | Date | Release | Priority |
 |------|---------|----------|
 | **~Mon Aug 17** ⌁*modeled* | 🟠 CPC / non-Russian-tanker understanding — FALSIFIER DATE | 🟠 |
-| **Fri Aug 21** | ✅ CFTC COT as-of Tue 2026-08-18 — FIRED ~15:30 ET AND GRADED SAME PRINT, ZERO LATENCY | ✅ |
-| **Fri Aug 21** | ✅ BAKER HUGHES rig count — FIRED 2026-08-21 ~13:00 ET. GRADED: 452 oil rigs, NOT BREACHED, distance 2 -> 5 | ✅ |
 | **Mon Aug 24** | 🔴 BESSENT TREASURY PRESS CONFERENCE — the operational mechanics of 'Economic D-Day' / Operation Economic Fury sanctions on Iran | 🔴 |
-| **Fri Aug 28** | ✅ BAKER HUGHES rig count — FIRED 2026-08-28 ~13:0x ET. GRADED: 447 oil rigs (-5), NOT BREACHED, distance 5 -> 10 | ✅ |
-| **Fri Aug 28** | ✅ CFTC COT vintage #3 as-of Tue 2026-08-25 — FIRED ~15:30 ET AND GRADED SAME PRINT, ZERO LATENCY | ✅ |
 | **~Sun Aug 30** ⌁*modeled* | JAZAN REFINERY - restart date REVISED 8/15 -> 8/30 (400 kb/d, shut 7/27) | 🟠 |
-| **Tue Sep 1** | 🔴 RUSSIA DIESEL BAN — PRODUCER-DIRECT CARVE-OUT TAKES EFFECT | 🔴 |
+| **Tue Sep 1** | RUSSIA producer-direct carve-out — September 8 Q1 read UNKNOWN-AT-PRIMARY | 🔴 |
 | **Fri Sep 4** | ✅ FRIDAY PAIR — FIRED 2026-09-04, BOTH LEGS GRADED 2026-09-06 (2d latency, desk dark Fri; no stack — graded before the 9/11 prints) | 🔴 |
 | **Sun Sep 6** | ✅ OPEC+ MEETING — FIRED 2026-09-06. GRADED SAME DAY AT THE SECRETARIAT PRIMARY: OUTCOME (3) DEFERRED AGAIN | 🔴 |
-| **~Tue Sep 8** ⌁*modeled* | 🔴 DOCKET L198 MIRROR — discriminator forward checks ①② RE-DATED (window 8/20–8/31 was OVERDUE-UNANNOTATED; dispositioned 9/1 at the combined touch) | 🔴 |
-| **~Wed Sep 9** ⌁*modeled* | 🔴 SPR EXCHANGE WINDOW TEST — the first EIA prints covering SEPTEMBER, i.e. AFTER the 'primarily April-August 2026' delivery window closes | 🔴 |
+| **~Tue Sep 8** ⌁*modeled* | L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION | 🔴 |
+| **Wed Sep 9** | XLE approved exit — OPEN; receipt pending | 🔴 |
+| **Thu Sep 10** | SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule) | 🔴 |
+| **Fri Sep 11** | Friday pair — Baker Hughes / COT as-of September 8 | 🔴 |
 | **Fri Sep 18** | USO Sep-18 150/165 call debit spread — EXPIRY | 🔴 |
-| **Wed Sep 30** | XLE $65C expiry | 🟡 |
+| **Wed Sep 30** | XLE September 30 expiry — residual check only after selected September 9 exit | 🟡 |
 | **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
 | **Sun Oct 4** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the November 2026 production decision (successor to the 9/6 row) | 🟠 |
+| **Fri Oct 9** | USO October 135C remainder — approved before-close time stop | 🔴 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Jan 31** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |
 
-*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 6 of 19 rows are modeled.*
+*`~` + ⌁*modeled* = `date_class=modeled` in the record: a PROJECTED date, not a published one — do not grade a row against a modeled date as though it were confirmed. 5 of 18 rows are modeled.*
 
-*19 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
+*18 event(s), generated from `docket/CATALYSTS.tsv` — the canonical forward-state record. Full graded text lives there and is deliberately not restated. Regenerate with `scripts/render_calendar.py --write`; verify with `--check` at closeout.*
 
 <!-- CALENDAR:END -->
 **✅ FIRED & GRADED (full graded text retained in `docket/CATALYSTS.tsv`, not restated here):** Jul 22 EIA wk-7/17 · Jul 24 CPC leg-(b) · Jul 24 COT+Baker Hughes · Jul 28 OPEC JMMC · Jul 29 EIA wk-7/24 · Jul 29 FOMC · Jul 31 COT as-of 7/28 · Jul 31 Russia diesel-ban expiry · Aug 2 OPEC+ September quotas · Aug 3 the frozen behavioral settle test · Aug 5 EIA wk-7/31 · Aug 7 COT as-of 8/4.
@@ -119,18 +131,10 @@
 
 ## SUMMARY FOR WILL
 
-> ⚑ **REWRITTEN 2026-09-07 (DAEDALUS P1 ACTION 6).** This section had been a **rotation stub since 8/27** — a pointer to an archived summary, i.e. the one section addressed to you carried no summary. Restored as standing content, and it is the last thing rotated, not the first.
+The September 8 market docket is integrated. PortWatch and the official Russian instrument remain source-gated UNKNOWN; the physical/paper spread is a vendor proxy. Full evidence and exact missing limbs are in [the owner read](setups/2026-09-08_market-docket-owner-read.md).
 
-**Where the book stands:** four live oil expressions — **USO 35 sh · USO Oct-16 135C ×2 · USO Sep-18 150/165 ×1 · XLE Sep-30 65C ×2**. `TRADE.md` is canonical for marks and money; **position truth is off-repo (broker direct)**. **`$0` moved on 9/7.**
+Position state and existing execution rules are in [TRADE.md](TRADE.md#positions-live). TERRY owns the selected September 9 open XLE exit; live broker checks and the fill receipt remain outstanding. No new decision is requested here.
 
-**The one thing that decides the next two weeks:** **two legs die inside four weeks** — **Sep-18 150/165 spread** and **XLE Sep-30 65C**. Brent is `~$97.3–97.7` and `$100` is **~$2.3–2.7 away**, the closest approach of the campaign. **`>$100` already fired 7/23; the next registered rung is `$120` and needs a new class.**
+STAND DOWN remains binding. Next dated work: September 10 noon ET WPSR (first September 4 survey read, no premature two-print verdict), September 11 Baker Hughes/COT, September 18 spread expiry, September 30 prediction windows and residual XLE receipt check. Existing source/spec and stale-incident audit gaps go to PROME; they are not new Will proposals.
 
-**What is armed and what is not:** ⛔ **NO LIVE DEPLOY GATE EXISTS** (v2 retired 7/30, v3 retired by Will 8/07, TRY-FIRE-006 retired 8/18). **Re-arming needs a fresh Will ruling.** The FRAME-BREAKER carve-out, Stage-A and the OFF-RAMP playbook SURVIVE. **BRT-29 is now ARMED** — its premise graded **MET 6/6** on 9/7; legs (M) and (T) resolve **9/30**.
-
-**What I owe you, dated:** **Tue 9/8** DOCKET L198 ①② + Russia decree first real read · **Wed 9/9** WPSR wk-9/4, the first instrumented read of Edouard · **Fri 9/11** the Friday pair (Baker Hughes + COT) — ⛔ **do not let grades stack** · **Fri 9/18** USO spread EXPIRY · **Wed 9/30** XLE expiry + BRT-12/26/29 resolve.
-
-**Open on your desk, not mine:** the FRED/EIA credential is **NOT** one of them — that was my error, withdrawn 9/7. **INCIDENTS.tsv has 12 ACTIVE rows past their 60-day re-verify budget** (oldest 172d) and needs your call: scoped batch re-verify, or an explicit stated-boundary acceptance.
-
----
-
-*Archives: `workbook/STATUS_archive_*`. Operational dashboard: `demand_destruction/TRACKER.md`. Canonical forward-state: `docket/CATALYSTS.tsv`. Trade surface: `TRADE.md`. EIA synthesis: `demand_destruction/data/`.*
+*Operational series: demand_destruction/TRACKER.md. Forward-state record: docket/CATALYSTS.tsv. Full before-image with checksums: archive/2026-09-08_owner-writeback-before.json.*

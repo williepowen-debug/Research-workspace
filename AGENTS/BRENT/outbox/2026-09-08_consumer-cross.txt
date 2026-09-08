@@ -1,0 +1,33 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/BRENT/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── September 1 BZX26 intraday mislabel · superseded 95.22 → current 94.65
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (4)
+        AGENTS/WALTER/SESSION_LOG.md:271  [95.22]
+           **WALTER is GREEN and the theater is HOT. Tuesday 9/1: a SECOND US strike wave on Iran (CENTCOM, 12:00 ET) after two laden VLCCs were hit by
+        BOARD/SIG-W-20260901-005-second-us-strike-wave-on-iran-at-noon-et-makes-it-a-campaign-two-vlccs-hit-by-projectiles-off-khasab-and-the-irgc-mine-claim-is-false-gate-2-does-not-fire.md:17  [95.22]
+           verdict: (1) The IRGC "supertanker hit two mines" claim is FALSE as a mine event — single-source IRGC, vessel unnamed, CENTCOM on the record
+        BOARD/SIG-W-20260901-005-second-us-strike-wave-on-iran-at-noon-et-makes-it-a-campaign-two-vlccs-hit-by-projectiles-off-khasab-and-the-irgc-mine-claim-is-false-gate-2-does-not-fire.md:48  [95.22]
+           Nov Brent (**BZX26**): Mon close ~$88–90 → **$91.44 (05:00 GMT) / $92.31 (08:45 GMT)** on the tanker hits + Trump "hit them hard" → **$94.36
+        BOARD/SIG-W-20260901-001-alt-managers-fell-3-to-5pct-on-a-global-bond-selloff-day-and-no-bcred-tender-result-has-been-filed-the-circulating-1-7bn-is-the-old-print.md:38  [95.22]
+           | Brent BZX26 | **$95.22, +5.23%** | named contract; never `BZ=F` |
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (5)
+        AGENTS/WALTER/anchors/IRAN_WAR.md:83  [95.22]  (no unit/series context on line)
+           **⑤ TAPE — named contract, no settle.** BZX26: $91.44 (05:00Z) / $92.31 (08:45Z) on the hits → **$94.36 +3.8% (13:36 ET)** on the strikes → 
+        AGENTS/WALTER/routed/route_log.tsv:866  [95.22]  (dated TSV row (2026-09-01) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-01	SIG-W-20260901-005	WALTER Tuesday boot verify-research return (rule-9 spawn `verify-hormuz-0901`, ~21:45Z) on the IRGC "supertank
+        AGENTS/WALTER/registry/DOORBELL_LOG.tsv:47  [95.22]  (dated TSV row (2026-09-01) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-01	FALCON	SIG-W-20260901-005	OPEN-2026-09-02 (anchor re-verify trigger FIRED — second US strike wave 9/1 12:00 ET; GATE 1 target-lis
+        AGENTS/WALTER/registry/DOORBELL_LOG.tsv:48  [95.22]  (dated TSV row (2026-09-01) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-01	BRENT	SIG-W-20260901-005	OPEN-2026-09-02 (Brent BZX26 +5.23% TE late mark with NO ICE settle located; BRT-30 regime verdict regis
+        PROME/state/ORCH_LOG.tsv:6  [95.22]  (dated TSV row (2026-09-01) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-09-01	BRENT+FALCON	subagent	1	WALTER rule-6b doorbell SIG-W-20260901-005: CENTCOM wave 2 (campaign), two VLCCs hit off Khasab 8/31, IRG
+     🟡 in MAIL, point-in-time — usually no action (1: SHADE)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (5)  [--show-handled to audit]
+
+  🔴 4 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

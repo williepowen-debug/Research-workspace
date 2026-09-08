@@ -1,0 +1,13 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 223 files under AGENTS/BRENT/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── September 1 BZX26 intraday mislabel · superseded 95.22 → current 94.65
+     🟡 in MAIL, point-in-time — usually no action (9: BRENT)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (9)  [--show-handled to audit]
+
+  ✓ clean — no surface under AGENTS/BRENT/ carries the superseded value unqualified. (Scanned the whole dir, not just STATUS/THESIS.)
+==================================================================
+

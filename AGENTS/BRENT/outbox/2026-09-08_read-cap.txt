@@ -1,0 +1,7 @@
+READ-CAP [BRENT] — cap 54,250 B · budget 32,550 B (60%) · perimeter: 3 boot section(s) in CLAUDE.md, 31 'read' line(s) scanned (0 on-demand/grep + 0 SCOPED-read token(s) excluded by marker), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  🔴 TRADE.md                            156,190 B   288% of cap  OVER THE CAP — cannot be read whole  (boot-step line 26)
+  🟠 LESSONS.md                           48,705 B    90% of cap  over budget (readable, no headroom)  (boot-step line 30)
+  🟡 STATUS.md                            25,272 B    47% of cap  rotate-tier (≥75% of budget)  (boot-step line 26)
+  ✅ domain/REFERENCE_TABLES.md           10,075 B    19% of cap    (boot-step line 31)
+  ✅ SCRATCH.md                            5,778 B    11% of cap    (boot-step line 27)
+⚠️  READ-CAP 1 [BRENT]: 2 boot-mandated read(s) over budget, 1 over the CAP itself. Remedy = two-state rotation (verbatim, crc-stamped, to archive/) or hot/cold split — per surface, owner's choice of HOW. ⛔ Never raise the budget: the read cap is not ours to move.

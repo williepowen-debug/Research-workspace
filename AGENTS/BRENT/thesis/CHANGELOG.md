@@ -902,3 +902,10 @@ These entries are reconstructed from git history and research outputs to establi
 ---
 
 *Future entries: Add above the PRIOR section. Include: date, which doc changed, what changed, why, old view to new view. Tag THESIS changes with version number.*
+
+
+## 2026-09-08 — evidence/carrier reconciliation, no version or calibration change
+
+Old: September 8 market integration owed; MTD Sidi comparison, conflicting daily/intraday paper carriers and September 9 WPSR estimate. New: owner dated L198/Q1 UNKNOWN outcomes with improved mirror evidence, full-August direction-only comparator, named-contract vendor-proxy reconciliation and official September 10 noon publication date. No new primary threshold/counter grade, prediction resolution, band or probability edit. See `../setups/2026-09-08_market-docket-owner-read.md`.
+
+Source-basis check: the Sidi 2.17 benchmark is Vortexa w/c August 3, not Kpler/full-month. Applied existing August 21 amendment: Kpler full-August is direction-only context; formal same-series weekly lag test NOT RUNNABLE — NO-VERDICT. No band or protocol edit.
