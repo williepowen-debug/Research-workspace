@@ -1,5 +1,5 @@
 {
- "built": "2026-09-07 19:21",
+ "built": "2026-09-07 23:29",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -45,6 +45,7 @@
   "2026-09-14 FALCON kinetic-resumption ladder: NOTHING IS REGISTERED ABOV",
   "2026-09-14 LADDER-INTEGRITY sitting: the ~33-row invented-gate audit + ",
   "2026-09-15 GATE-FERT-G3 standing re-read \u2014 China quota/floor state at M",
+  "2026-09-15 PREDICTION_DISCIPLINE canon ENCODE \u2014 WQ-163 item 3 (an amend",
   "2026-09-15 REQ-DEWEY-20260829-002 DEADLINE (Will-directed, WALTER-commi",
   "2026-09-15 September FOMC (decision Wed 9/16, 2:00 PM ET) \u2014 carries the",
   "2026-09-16 LABOR four-instrument COMMISSION (Will 9/7 brainstorm, Codex",
@@ -72,7 +73,7 @@
  ],
  "fleet": {
   "AEOLUS": "elev",
-  "BOND": "ok",
+  "BOND": "watch",
   "BRENT": "ok",
   "BROCK": "watch",
   "CARL": "ok",
@@ -82,7 +83,7 @@
   "FERT": "ok",
   "FLG": "elev",
   "HAWK": "watch",
-  "HENRY": "ok",
+  "HENRY": "watch",
   "HOMER": "watch",
   "LABOR": "ok",
   "LIQUID": "watch",
@@ -95,7 +96,7 @@
   "PROME": "ok",
   "RED": "ok",
   "REGINALD": "watch",
-  "SAM": "ok",
+  "SAM": "watch",
   "SHADE": "elev",
   "TERRY": "ok",
   "VIOLET": "ok",
