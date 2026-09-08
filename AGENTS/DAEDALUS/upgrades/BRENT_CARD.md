@@ -1,6 +1,6 @@
 # Upgrade Card — BRENT (work queue; read-only assessment, no agent files touched)
 
-**By:** DAEDALUS · **Re-cut:** 2026-09-07 Mon ~21:2x ET (Will-directed architecture review; record `BRENT_ARCHITECTURE_REVIEW_2026-09-07.md`; profile refreshed same night) · **Prior card:** 2026-06-29 / closed 2026-07-12 — superseded whole (git `git show 1cac226eb^:AGENTS/DAEDALUS/upgrades/BRENT_CARD.md` for the June queue; every item on it is CLOSED: threshold drift fixed 7/12, Independence column 7/10, LAST_COMPLETION archived 7/21, board/BOARD_LOG frozen 7/21, ledger_staleness shipped fleet-wide 8/17).
+**By:** DAEDALUS · **Re-cut:** 2026-09-07 Mon ~21:2x ET, **amended ~22:1x on Codex review** (four remedies changed — record §8) (Will-directed architecture review; record `BRENT_ARCHITECTURE_REVIEW_2026-09-07.md`; profile refreshed same night) · **Prior card:** 2026-06-29 / closed 2026-07-12 — superseded whole (git `git show 1cac226eb^:AGENTS/DAEDALUS/upgrades/BRENT_CARD.md` for the June queue; every item on it is CLOSED: threshold drift fixed 7/12, Independence column 7/10, LAST_COMPLETION archived 7/21, board/BOARD_LOG frozen 7/21, ledger_staleness shipped fleet-wide 8/17).
 **Class:** Market · **Grade:** L5 (Conf M) HOLDS — per-leg verdicts in the record §4; dated demote trigger at PR#6 (9/15).
 
 ## §-grades vs `BLUEPRINTS/market-agent.md` (9/7)
@@ -19,12 +19,12 @@
 | # | Item | Effort | Depends on | Status |
 |---|---|---|---|---|
 | 1 | **P1 — rule 19 on STATUS**: `## STANDING STATE` (retained rows 78–84) + dated blocks + cold `archive/STATUS_DETAIL_2026-09.md`; write a real SUMMARY FOR WILL; fix `:119` → v5.8 | M | rule 19 (ruled 9/7) | OPEN — packet 9/7 |
-| 2 | **P2 — TRADE.md split, audit-first** (every live clause in the four dated containers → `setups/SPECS_*.md` by section name; dated → `archive/TRADE_*`; TRADE <32 KB) | L | 1 (form), the audit | OPEN — packet 9/7 |
+| 2 | **P2 — TRADE.md split, audit-first**: an OBLIGATION INVENTORY (clause · from · to · reached-by-step) → `setups/SPECS_*.md` by section name; dated → `archive/TRADE_*`; TRADE <32 KB | L | 1 (form), the inventory | OPEN — packet 9/7 (amended) |
 | 3 | **P3 — charter edit**: C1–C9 + six rationale spans → RULINGS.md + NETWORK table → `_NETWORK.md` pointer | S | — | OPEN — packet 9/7 |
 | 4 | **P4 — RULINGS.md write step** (closeout 13, EXTENDS, supersedes: none) | XS | — | OPEN |
-| 5 | **P5 — twin-diff leg** in `catalyst_countdown.py` + **version-sweep** line; put 9/18 on the STATUS calendar today | S + S | §3(e) sets exist (today's divergences) | OPEN — grade-bearing |
-| 6 | **P6 — LESSONS hot/cold** (index-driven, ≤45 d or [HOT] hot) | S | — | OPEN |
-| 7 | **P7 — INCIDENTS state change** (rows >60 d → UNVERIFIED-<date>, or a re-verify pass) | S (judgment) | — | OPEN — BRENT's call |
+| 5 | **P5 — GENERATED calendar views** from `CATALYSTS.tsv` (STATUS + TRADE; twin-diff = migration only) + **designated-pointer check** (`canonical, currently vX.Y` lines only, or delete the copy); put 9/18 on the STATUS calendar today | S + S | §3(e) sets exist (today's divergences) | OPEN — grade-bearing (amended) |
+| 6 | **P6 — LESSONS split by KIND** (rules stay, explanations cold) + `lessons_check.py --prose` moved in the same commit | S | — | OPEN (amended; age-keyed form RETRACTED) |
+| 7 | **P7 — INCIDENTS evidence-freshness column** (`evidence_state`/`verify_due` the checks read; `status` stays the world-claim; overdue re-verifies as dated tasks) — ~~relabel to UNVERIFIED~~ RETRACTED: it silences I-2/I-9 | S (judgment) | — | OPEN — BRENT's call (amended) |
 | 8 | **P8 — PREDICTIONS step-8 pass** (12 rows → ARCHIVE) · one archive home · retirement `git mv` (JOINT_PROPOSAL · BUILD_PLAN · GROUP_MAP · SCHEMA · root loose) · FASTOW note-or-retire | S | — | OPEN |
 | 9 | Brief: amendment-12 order + schema section names + strike the 100-line cite | XS | NEXUS rollout (reply 9/12) | OPEN |
 | 10 | Step 2b → all three routine files | XS | — | OPEN |
