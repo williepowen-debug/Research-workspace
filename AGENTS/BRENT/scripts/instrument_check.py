@@ -286,26 +286,89 @@ def probe_fred(series):
     ⚠️ ADDED DURING THE 2026-08-04 CONSOLIDATION, and it was NOT cosmetic: folding the FRED
     threshold rows into the shared registry put 10 rows in front of a checker that had no
     fred: prober, so they all reported 🔴 DEAD on a source that works perfectly. Ten false
-    positives would have been worse than no check — it is exactly the "a structural edit can
-    silently change operational meaning" failure RAV flagged when approving this work.
+    positives would have been worse than no check.
+
+    ⛔⛔ KEYLESS FALLBACK ADDED 2026-09-07 (Will-approved). supersedes: the key-only path, which
+    returned ok=None -> AMBER "NO_PROBER" whenever FRED_API_KEY was absent. THAT SHRUG IS THE
+    DEFECT. "I have no configured way in" was rendered as "this cannot be probed", and the desk
+    then carried it onto its own surfaces as "the evidence is unavailable" for FIVE cycles.
+
+    ★ WHAT IT ACTUALLY COST, measured 2026-09-07: BRT-29's arming premise (GASREGW >= $4.00 in
+    >= 4 of 6 weekly prints, 7/27-8/31) was reported to the operator as UNREADABLE and its
+    prediction as ungradeable, 23 days from resolution. It was neither. All six prints clear the
+    line (4.096 / 4.079 / 4.006 / 4.049 / 4.085 / 4.071) => premise MET 6/6, verified on two
+    independent lineages: this keyless endpoint AND the EIA primary workbook
+    (EMM_EPMR_PTE_NUS_DPGw.xls, HTTP 200, 127,488 B), agreeing to the mil.
+
+    ⚠️ AND THE ENVIRONMENT TRAP THAT MADE IT STICK, because this is the transferable half:
+    FORGE/tools/market-data/.env is GITIGNORED (.gitignore:19). The Monday/Wednesday routines run
+    in the CLOUD off a fresh checkout, so THEY genuinely have no key and their env_doctor FAIL is
+    TRUE — for the cloud. That verdict was then copied onto this desk's surfaces as "no FRED
+    credential on this box." On Will's box the key is present and the KEYED path works. A true
+    statement about one environment became a false statement about another.
+    [[finding_rederived_signal_loses_the_senders_caveats]]
+
+    ⇒ The fallback is what fixes the CLOUD side, which is the environment that really lacks the
+    key. Order: keyed API first (documented, gives value AND date), then the public CSV endpoint,
+    which needs no credential. Verified keyless 2026-09-07 for every series this registry uses:
+    GASREGW, DCOILBRENTEU, DCOILWTICO, DHHNGSP, BAMLH0A0HYM2 — 5 of 5.
+
+    ⛔ NOT A LICENCE TO DROP THE KEY: the keyed API is still tried first and is still the
+    documented contract. The fallback is a floor, not a replacement.
+
+    ⚠️ RBRTE IS NOT A FRED SERIES and never was — it is an EIA series id. It 404s keylessly
+    because it does not exist there; the FRED Brent series is DCOILBRENTEU. "RBRTE blocked" was a
+    WRONG-IDENTIFIER bug wearing a credential bug's clothes for five cycles.
+    [[finding_unqualified_identifier_is_a_defect_waiting_for_a_reader]]
+
+    Returns (True/False, last_dt, detail). NEVER None any more: there is always a way to probe,
+    so "no prober" would itself be the false claim this rewrite exists to kill.
     """
+    def _keyless():
+        url = ("https://fred.stlouisfed.org/graph/fredgraph.csv"
+               f"?id={urllib.parse.quote(series)}")
+        h = dict(BROWSER_HEADERS)
+        h["Accept"] = "text/csv,*/*"
+        req = urllib.request.Request(url, headers=h)
+        with urllib.request.urlopen(req, timeout=45) as resp:
+            if resp.status != 200:
+                raise RuntimeError(f"HTTP {resp.status}")
+            text = resp.read().decode("utf-8", errors="replace")
+        rows = [r for r in csv.reader(io.StringIO(text)) if len(r) == 2][1:]
+        rows = [r for r in rows if r[1] not in (".", "")]
+        if not rows:
+            raise RuntimeError("200 but no non-missing observations in the CSV")
+        return rows[-1][0], rows[-1][1]
+
     key = _fred_key()
-    if not key:
-        return None, None, "FRED_API_KEY not found (env or FORGE/tools/market-data/.env)"
-    url = ("https://api.stlouisfed.org/fred/series/observations"
-           f"?series_id={series}&api_key={key}&file_type=json&sort_order=desc&limit=1")
+    keyed_err = None
+    if key:
+        url = ("https://api.stlouisfed.org/fred/series/observations"
+               f"?series_id={series}&api_key={key}&file_type=json&sort_order=desc&limit=1")
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "BRENT-instrument-check/1.0"})
+            with urllib.request.urlopen(req, timeout=20) as resp:
+                obs = json.loads(resp.read()).get("observations", [])
+            if obs:
+                d, val = obs[0].get("date"), obs[0].get("value")
+                return True, datetime.fromisoformat(d), f"last observation {d} = {val} [keyed API]"
+            keyed_err = "no observations returned"
+        except Exception as e:
+            keyed_err = f"{type(e).__name__}: {e}"
+    else:
+        keyed_err = "FRED_API_KEY not found (env or FORGE/tools/market-data/.env)"
+
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "BRENT-instrument-check/1.0"})
-        with urllib.request.urlopen(req, timeout=20) as resp:
-            obs = json.loads(resp.read()).get("observations", [])
-        if not obs:
-            return False, None, "no observations returned"
-        d = obs[0].get("date")
-        val = obs[0].get("value")
-        last = datetime.fromisoformat(d)
-        return True, last, f"last observation {d} = {val}"
+        d, val = _keyless()
+        return True, datetime.fromisoformat(d), (
+            f"last observation {d} = {val} [KEYLESS public CSV — the keyed path did not serve "
+            f"this: {keyed_err}. Data is REAL and current; this is a note about the ACCESS PATH, "
+            f"never about the evidence.]")
     except Exception as e:
-        return False, None, f"unreachable: {type(e).__name__}: {e}"
+        return False, None, (
+            f"unreachable on BOTH paths — keyed: {keyed_err}; keyless: {type(e).__name__}: {e}. "
+            f"⚠️ Only NOW is it fair to say the evidence is unavailable. If the series id is the "
+            f"suspect, check it EXISTS on FRED first (RBRTE does not — it is an EIA id).")
 
 
 def probe_http(url):
