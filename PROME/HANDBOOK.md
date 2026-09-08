@@ -4,7 +4,7 @@
 
 ## Top priorities
 - **September8 close:** XLE64.77 selects the existing September9-open sale of both recorded65C; verify current broker holdings/orders, execute and return fill truth. TLT85P requires current Activity & Orders and actual count before replacement2.60 limit.
-- **Owner follow-through:** WALTER cutover/corrections, TERRY management and HAWK Canada grade are committed. BRENT is finishing source-limited oil write-back. Details and caveats: `PROME/reports/2026-09-08_owner-orchestration-completion.md`.
+- **Owner follow-through:** WALTER cutover/corrections, TERRY management and HAWK Canada grade are committed. BRENT completed source-limited oil write-back. Details and caveats: `PROME/reports/2026-09-08_owner-orchestration-completion.md`.
 - **Observation dates matter:** TERRY007 official grades endSeptember4, counter0/5/no add;September8 unpublished. CboeSeptember8 and PJM post23:59 outcome remain ungraded. EIA weekly petroleum moves toSeptember10 noonET for Labor Day.
 - **Existing rulings:** stand-down remains binding. Do not re-ask WQ-167 USO sale price or WAL GTC. Current open decisions come from the generated queue; prior closed rows are not fresh requests.
 

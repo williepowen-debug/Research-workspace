@@ -1,0 +1,34 @@
+
+======================================================================
+  PROME GATE · CLOSEOUT · ✅ PASS (6 blocking / 18 advisory)
+======================================================================
+  ✅ [BLOCKING] position_agreement: rc=0
+  ✅ [BLOCKING] GATES fired-unexecuted: none
+  ✅ [BLOCKING] GATES token vocabulary: 20 rows all lead with enumerated tokens
+  ✅ [advisory] GATES consumed_by (consumer passed / cell empty): all LIVE rows have live consumers or declared NONE
+  ✅ [BLOCKING] GATES review_by passed — LIVE INSTRUMENT rows: no live INSTRUMENT row past its review date
+  ✅ [advisory] GATES review_by passed — LIVE JUDGEMENT rows: no live JUDGEMENT row past its review date
+  ✅ [advisory] GATES last_checked blank on LIVE INSTRUMENT rows: every live INSTRUMENT row carries a last_checked
+  ✅ [advisory] DOCKET overdue-unannotated: every past-dated PENDING row carries an OVERDUE annotation
+  ✅ [BLOCKING] DOCKET lands-today dispositioned: nothing PENDING lands today
+  ✅ [advisory] docket_view drift (SCRATCH calendar prose vs DOCKET): rc=0
+  ⚠️  [advisory] desk catalyst summons (BD-02): LABOR 2026-09-08 [MED] Canadian counter-tariffs on CA$27.6B of US go (TODAY) · LABOR 2026-09-10 [HIGH] Initial claims w/e Sep 5 (+ continuing claims (in 2d)
+       → WQ-184 L0 applies: a due desk-ledger row with a dark owner is a Tier-1 spawn (ListAgents first) — never grade on the owner's behalf; registry = SUMMONS_LEDGERS above
+  ⚠️  [advisory] spawn list — rows landing before the next boot (+1d, WQ-184): rc=1 · G:GATE-TERRY-007	2026-09-09	-1	TERRY	LANDS-IN-1d	owner last self-commit 2026-09-05 (3d ago, c9c381f62)	review_
+       ↳ ⚠️ D:L189	2026-09-07	1	BROCK	DARK	last self-commit 2026-09-03 (5d ago, 76852a29f) < row start 2026-09-07	CRMT / Silver P
+       → LANDS-IN rows with a dark owner ⇒ SLATE them in the closeout report (the spawn waits for the first boot on/after the date, or Will's word from the slate); DARK ⇒ act before going dark
+  ✅ [advisory] WILL_QUEUE fresh + nothing due/passed/aging: stamp current; nothing due today, passed, aging, misfiled, or overdue for roll-off
+  ✅ [advisory] willq_view drift (SCRATCH Pending-Will block vs WILL_QUEUE OPEN): rc=0
+  ✅ [advisory] HEARTBEAT amendment chain (<4): chain at 1 amendment(s) (header-declared count agrees)
+  ✅ [BLOCKING] dashboard panels nonempty: one-liner/channels/levels populated
+  ✅ [advisory] dashboard vintage ≤72h: built 2026-09-08 18:48 (0h ago)
+  ✅ [advisory] dashboard content assertions (PAT-105): one-liner sane · split populated · tile floor met · grid agrees with freshness
+  ✅ [advisory] byte budgets (flow-rule meter): STATUS.md 68% · ACTIVE_DECISIONS.md 59% · HEARTBEAT.md 70% · SCRATCH.md 68% · MEMORY.md 69%
+  ✅ [advisory] .claude/{agents,skills} root↔PROME parity: 7 agent/skill definition(s) identical
+  ✅ [advisory] orphan_check (advisory by design): rc=0
+  ✅ [advisory] MANUAL: memory_index_check: if you wrote/edited an auto-memory: scripts/memory_index_check.py --strict --slug <name> (root step 1d)
+  ✅ [advisory] MANUAL: consumer_check: if you superseded a published number: scripts/consumer_check.py --old <v> --new <v> (root step 1c); canon/threshold change ⇒ add --mirror-map (T1-b)
+  ✅ [advisory] queue-parser selftest (gate vs will_brief): rc=0
+======================================================================
+  ✅ all blocking gates pass — advisories above are judgment calls, read them.
+

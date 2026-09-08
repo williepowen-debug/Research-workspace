@@ -3,7 +3,7 @@
 **Status:** 🟠 Market docket integrated; source-gated UNKNOWNs remain. WQ-189/192 STAND DOWN.
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
-**As of:** 2026-09-08 18:45 ET | STATUS commit: 756f745dd (last committed STATUS). **This brief summarizes UNCOMMITTED September 8 owner write-back; PROME must repin after committing STATUS.**
+**As of:** 2026-09-08 18:45 ET | STATUS commit: 028bb6fd1 (September 8 owner write-back committed; PROME verified and repinned per owner handoff).
 
 C6 scoped verification: fresh EIA physical/schedule web read and legal transcriptions; parent PortWatch/named-contract artifacts independently read; TERRY approved rules reconciled. Prior weekly grades/calibration checked against owner records but not refreshed at source. No option marks, broker receipt, new JWC grade or energy-credit measurement. Final fold rechecked against STATUS/TRACKER and TRADE after source-context, historical-weekday and Sidi tracker/cadence corrections. Former brief preserved verbatim with hashes in archive/2026-09-08_owner-writeback-before.json.
 
