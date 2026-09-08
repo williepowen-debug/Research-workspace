@@ -46,6 +46,7 @@ Usage:
 import argparse
 import csv
 import json
+import io
 import re
 import sys
 import urllib.parse
@@ -76,6 +77,36 @@ ACTION_CLOSE_ET = {"_default": "16:00", "SPY": "16:15", "QQQ": "16:15", "IWM": "
 # ⚠️ CAVEAT: keyless-via-browser-UA is undocumented publisher behavior and can tighten without notice.
 BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
               "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")
+
+# ⚑ ADDED 2026-09-07. supersedes: none — EXTENDS BROWSER_UA, does not replace it.
+#
+# ⛔ THE FINDING THAT FORCED THIS, AND IT CORRECTS A RECORDED ONE: the 2026-09-06 SCRATCH
+# diagnosed the Baker Hughes 403 as "usage-triggered WAF, NOT a header defect." That is WRONG,
+# and it was wrong in the direction that costs a grade. Falsified 2026-09-07 on rigcount
+# .bakerhughes.com, back to back, same box, same minute:
+#     BROWSER_UA alone ................. HTTP 403 Forbidden
+#     BROWSER_UA + the headers below ... HTTP 200, 27,016 B
+# The gate is the HEADER SHAPE — a real browser sends Sec-Fetch-*/Accept-Language/Accept, and
+# the WAF checks for them. A UA is necessary and NOT sufficient. The 9/6 note reached "not a
+# header defect" because it only ever varied the UA, so the one axis that mattered was held
+# fixed across every trial. [[finding_crosscheck_with_free_parameter_validates_nothing]]
+#
+# ⚠️ SCOPED DELIBERATELY: used by probe_bhrigs ONLY. The other probes keep bare BROWSER_UA
+# because they are GREEN on it today, and widening a working probe's request shape to match a
+# broken one's is an untested change to a passing check. If another probe starts 403ing, this
+# is the first thing to try — that is why it is module-level and not local.
+BROWSER_HEADERS = {
+    "User-Agent": BROWSER_UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "identity",          # identity: we parse bytes, never a gzip stream
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Connection": "keep-alive",
+}
 
 RED, AMBER, GREEN = "🔴", "🟠", "✅"
 
@@ -458,6 +489,144 @@ def probe_gie(spec):
         return False, None, f"unreachable: {type(e).__name__}: {e}"
 
 
+def probe_bhrigs(spec):
+    """Baker Hughes North America rig count — grammar: `bhrigs:<listing-url>|<link-text>`.
+
+    Grades BRT-26 (US OIL rig count vs the frozen 457 line). supersedes: the `http:` probe on
+    the BRT-26-RIGS registry row, which is RETIRED by this — it pinned a /static-files/<uuid>
+    that no longer exists on the page (verified 2026-09-07: the registered uuid
+    3acfe9c4-cdbf-4e4d-b8b2-71535396f8b1 is absent from all 10 uuids the listing now serves).
+
+    ⛔ THREE DEFECTS THIS REPLACES, each measured 2026-09-07 rather than reasoned about:
+
+    1. HEADER SHAPE. Bare BROWSER_UA gets 403; BROWSER_HEADERS gets 200. See that constant.
+
+    2. A PINNED UUID IS A DEAD INSTRUMENT ON A TIMER. Baker Hughes re-issues the weekly file
+       under a NEW uuid, so any registry row naming one grades fine until the week it silently
+       cannot. We resolve the uuid AT RUN TIME from the listing page's own anchor text. The
+       registry therefore stores a QUESTION ("the link called 'New Report'"), never an ANSWER.
+       [[finding_dated_carry_item_has_no_expiry_check]]
+
+    3. THE DECOY. The listing carries year-stale archives alongside the live weekly. Picking by
+       link text alone would have grabbed one silently, so the print date parsed out of
+       Content-Disposition is asserted FRESH below — a wrong file fails LOUD, never quietly.
+
+    ⚠️ ONE DOWNLOAD PER RUN, BY CONSTRUCTION. The file is ~7 MB. Selection happens on the free
+    HTML; exactly one static-file GET follows. Do not "check them all" — ~10 rapid downloads is
+    what trips this WAF, which is the grain of truth in the 9/6 note.
+
+    ⚠️ GET, NEVER HEAD. HEAD is 403 on this host under every header shape tried.
+
+    ⚖️ L25 GOVERNS AND IS HONOURED ("a source that HANGS is not a source that is DOWN — a WAF
+    tarpitting your User-Agent"). This host shows BOTH signatures and they mean different things,
+    which is why the error strings below distinguish them:
+        bare BROWSER_UA .................. HTTP 403, immediate  -> WRONG HEADER SHAPE
+        "BRENT-instrument-check/1.0" ..... TimeoutError, hangs  -> TARPIT (the L25 case)
+    A self-identifying UA does not get refused here, it gets STRUNG ALONG — so a naive read of the
+    timeout as "Baker Hughes is down" is the exact L25 error, and it is available to make on this
+    host today. Both signatures observed 2026-09-07. (L25 was already cited elsewhere in this
+    FILE, by probe_jwc — which is why the file-level --spec sweep reported it satisfied while THIS
+    function was silent on it. Cited here, where it actually governs.)
+    [[finding_instrument_reports_clean_against_the_wrong_reference]]
+
+    ⚑ RECONCILED WITH A STANDING INSTRUCTION THAT THIS APPEARS TO CONTRADICT, so nobody has to
+    guess whether it was overlooked. The 2026-09-06 grade note (CATALYSTS.tsv 9/4 row, and the
+    BRT-26 row in PREDICTIONS.tsv) says: "pick by the DATE in content-disposition, NEVER by link
+    text (the index also lists a YEAR-STALE archive whose link ALSO says 'New Report')." That
+    warning is CORRECT and it is HONOURED here, because the two jobs are split:
+        SELECTION  is by link text — it is the only signal available for FREE, off HTML we
+                   already hold. Picking by date would mean downloading every candidate to read
+                   its header, which is the ~10-download pattern that trips the WAF.
+        VALIDATION is by the Content-Disposition date, which is AUTHORITATIVE and always runs.
+    So link text never DECIDES anything on its own: a mislabelled or relabelled link fails the
+    freshness assert. Both halves are exercised, not assumed —
+        T2 wrong label      -> "matched 0 anchors, need exactly 1" (fails loud)
+        T5 the real decoy   -> "newest file is 2025-08-29 (374d old) ... Do NOT grade off this"
+    The decoy the note warns about is literally the file T5 catches. Falsified 2026-09-07.
+    [[finding_test_the_guard_not_just_the_guarded]]
+    """
+    parts = spec.split("|")
+    if len(parts) != 2:
+        return False, None, f"bad bhrigs grammar (want listing-url|link-text): {spec!r}"
+    listing, want = parts[0].strip(), parts[1].strip()
+
+    def _get(url, extra=None, timeout=60):
+        h = dict(BROWSER_HEADERS)
+        h.update(extra or {})
+        return urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=timeout)
+
+    try:
+        with _get(listing, timeout=40) as resp:
+            if resp.status != 200:
+                return False, None, f"listing HTTP {resp.status}"
+            html = resp.read().decode("utf-8", errors="replace")
+    except Exception as e:
+        return False, None, (f"listing unreachable: {type(e).__name__}: {e} — ⚠️ a 403 here is "
+                             f"the HEADER SHAPE, not a usage ban: check BROWSER_HEADERS first, "
+                             f"a bare User-Agent 403s on this host by design")
+
+    links = {}
+    for m in re.finditer(r'<a[^>]*href="([^"]*static-files/([0-9a-f-]{36})[^"]*)"[^>]*>(.*?)</a>',
+                         html, re.S | re.I):
+        txt = " ".join(re.sub(r"<[^>]+>", "", m.group(3)).split())
+        links[txt] = m.group(2)
+    if not links:
+        return False, None, ("listing HTTP 200 but NO /static-files/ anchors — reachable-but-"
+                             "not-readable (navigation shell). Treat as FAILURE, not 'no change'.")
+    hit = [(t, u) for t, u in links.items() if want.lower() in t.lower()]
+    if len(hit) != 1:
+        return False, None, (f"link text {want!r} matched {len(hit)} anchors, need exactly 1 — "
+                             f"the page relabelled its links. Available: {sorted(links)}")
+    label, uuid = hit[0]
+
+    try:
+        with _get(f"https://rigcount.bakerhughes.com/static-files/{uuid}",
+                  extra={"Accept": "*/*", "Referer": listing, "Sec-Fetch-Dest": "empty",
+                         "Sec-Fetch-Mode": "cors", "Sec-Fetch-Site": "same-origin"}) as resp:
+            if resp.status != 200:
+                return False, None, f"static-file HTTP {resp.status}"
+            disp = resp.headers.get("Content-Disposition") or ""
+            blob = resp.read()
+    except Exception as e:
+        return False, None, f"static-file unreachable: {type(e).__name__}: {e}"
+
+    dm = re.search(r"(\d{2})-(\d{2})-(\d{4})", disp)
+    if not dm:
+        return False, None, (f"no print date in Content-Disposition ({disp!r}) — the freshness "
+                             f"assertion is the decoy guard; without it this probe is blind")
+    mm, dd, yy = dm.groups()
+    print_dt = datetime(int(yy), int(mm), int(dd))
+    age = (datetime.now() - print_dt).days
+    if age > 14:
+        return False, None, (f"🔴 newest file is {print_dt.date()} ({age}d old) — Baker Hughes "
+                             f"prints WEEKLY, so >14d means we grabbed an ARCHIVE (the decoy) or "
+                             f"publication stopped. Do NOT grade off this file.")
+
+    try:
+        import openpyxl
+        wb = openpyxl.load_workbook(io.BytesIO(blob), read_only=True, data_only=True)
+        if "NAM Summary" not in wb.sheetnames:
+            return False, None, (f"no 'NAM Summary' sheet (have: {wb.sheetnames}) — the grade "
+                                 f"locator in REGISTRY.tsv names that sheet; workbook reshaped")
+        ws = wb["NAM Summary"]
+        oil = None
+        for row in ws.iter_rows(min_row=1, max_row=60, values_only=True):
+            cells = [c for c in row if c is not None]
+            if len(cells) >= 2 and str(cells[0]).strip().lower() == "oil":
+                oil = int(cells[1])
+                break            # FIRST 'Oil' row is the U.S. Breakout; Canada's is below it
+    except Exception as e:
+        return False, None, f"workbook unreadable: {type(e).__name__}: {e}"
+
+    if oil is None:
+        return False, None, ("'NAM Summary' has no 'Oil' row in its first 60 — the U.S. Breakout "
+                             "block moved. Fail loud: a missing row must never read as 0.")
+    return True, print_dt, (f"US OIL rig count {oil} (print {print_dt.date()}, {label!r}, "
+                            f"uuid {uuid[:8]}…) — BRT-26 line is 457, "
+                            f"{'BELOW ✅ claim holds' if oil < 457 else '🔴 AT/ABOVE THE LINE'}, "
+                            f"headroom {457 - oil}")
+
+
 def probe_jwc(spec):
     """JWC Listed-Areas CHANGE DETECTOR — the circular NUMBER, not the page's reachability.
 
@@ -603,6 +772,8 @@ def evaluate(row, quick=False):
             ok, last_dt, detail = _cached(probe, lambda: probe_eia(probe[4:]))
         elif probe.startswith("gie:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_gie(probe[4:]))
+        elif probe.startswith("bhrigs:"):
+            ok, last_dt, detail = _cached(probe, lambda: probe_bhrigs(probe[7:]))
         elif probe.startswith("jwc:"):
             ok, last_dt, detail = _cached(probe, lambda: probe_jwc(probe[4:]))
         elif probe.startswith("chain:"):

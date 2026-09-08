@@ -82,7 +82,7 @@ BOOT_SEQUENCE = [
     # actually rot. Wiring it on the default would have produced a check that reports CLEAN
     # because it is not looking. workbook/LEDGER_GLOB now declares the real set (9 ledgers,
     # verified by running it, not by reading it).
-    ("Ledger Staleness",      "scripts/ledger_staleness.py", ["BRENT"], False),
+    ("Ledger Staleness",      "scripts/ledger_staleness.py", ["BRENT", "--days", "7"], False),
 
     # ⚑ ADDED 2026-08-21 (file audit, Will-directed "fix all"). EXTENDS the age check above;
     # supersedes: none. Retirement ratchet satisfied -- this is a second READING of an already
@@ -94,12 +94,48 @@ BOOT_SEQUENCE = [
     # 30 -- a number with no BRENT base rate behind it.
     # [[finding_inherited_default_threshold_is_a_silent_decision]]
     #
-    # ⛔ WHY THE FIX IS NOT "SET --days TO SOMETHING": picking a number without a base rate is
-    # the un-base-rated threshold L21/L22 forbid, and I would be inventing it under time pressure
-    # on audit day. DAEDALUS confirmed 2026-08-21 that per-glob-entry --days is deliberately
-    # queued into the Staleness #4 ~9/1 manifest design, and that the labelled-INERT interim
-    # state is correct. So the age row KEEPS the inherited 30 -- now DECLARED here rather than
-    # silent, which is the half of the defect that was actually mine to fix.
+    # ⛔⛔ SUPERSEDED 2026-09-07 (Will-approved in-session, housekeeping pass). This block used to
+    # read "WHY THE FIX IS NOT 'SET --days TO SOMETHING'" and kept the inherited 30. The age row
+    # above now passes --days 7. The old text is REPLACED, not annotated beside, because the code
+    # now does the thing it said not to do and two live rules is the worse failure.
+    # [[finding_correction_beside_an_instruction_leaves_two_live_instructions]]
+    #
+    # WHY THE 8/21 REASONING NO LONGER HOLDS -- it named its own discharge condition and that
+    # condition is met. It deferred on exactly two grounds:
+    #   (1) "picking a number without a base rate is the un-base-rated threshold L21/L22 forbid."
+    #       ✅ DISCHARGED: the base rate was MEASURED 2026-09-07 before the number was chosen.
+    #       Basis: 90d of git history, gap from each STATUS.md write-day back to the most recent
+    #       prior write of each glob ledger (a COMMIT-DATE proxy for the content-vintage the
+    #       script actually reads -- stated so the basis can be attacked). Pooled n=178 over 6
+    #       live ledgers: median 0d, p90 8d, max 17d. Flag rates:
+    #           --days  3 -> 26.4% of boot-days    --days 10 ->  5.6%
+    #           --days  5 -> 19.1%                 --days 14 ->  3.4%
+    #           --days  7 -> 11.2%                 --days 30 ->  0.0%
+    #   (2) "per-glob-entry --days is queued into the Staleness #4 ~9/1 manifest design."
+    #       ⛔ NOT SHIPPED. Verified 2026-09-07: ledger_staleness.py still exposes only a single
+    #       global --days (argparse default=30) and LEDGER_GLOB parses globs only, no directives.
+    #       17 days past its own ~9/1 date. A blanket --days on MY invocation is the only lever
+    #       this desk owns -- the script is shared fleet code outside AGENTS/BRENT/, same
+    #       consumer-side-mapping posture as the FINDINGS_MARKERS rc contract below.
+    #
+    # ★ THE NUMBER THAT DECIDES IT: --days 30 flags 0/178 boot-days across EVERY ledger over 90
+    # days. The inherited default is not "conservative" -- it is provably incapable of firing on
+    # this desk's real history. That is a check that certifies clean by construction, which is
+    # the silent-fallback-green class this whole file exists to kill.
+    #
+    # WHY 7 AND NOT 10/14: 7 sits just under the pooled p90 (8d), i.e. it flags the top decile and
+    # nothing else. 10 and 14 sit ABOVE p90 and start reproducing the inert problem -- at 14 the
+    # only ledger that can still fire is INCIDENTS.tsv; TRADE.md, board_log.tsv and REGISTRY.tsv
+    # become unflaggable, which is where the 8/21 defect came from in the first place.
+    #
+    # ⚠️ KNOWN AND ACCEPTED, not hidden: INCIDENTS.tsv supplies 8 of the 20 flags at --days 7 and
+    # is ALSO reported by instrument_check's 60d per-ROW re-verify budget. That is genuine double
+    # reporting. It is accepted because the two measure different things -- this is whole-FILE
+    # vintage vs STATUS, that is per-row re-verification age -- and suppressing one to quiet the
+    # other is [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]].
+    #
+    # ⚠️ RE-MEASURE THE BASE RATE BEFORE MOVING THIS NUMBER AGAIN. It is a measured constant with
+    # a dated basis, not a preference; if the desk's write cadence changes, 7 rots silently.
     #
     # ✅ WHY --nudge IS THE RIGHT SECOND READER: it is THRESHOLDLESS. It counts STATUS-writes a
     # ledger is behind, so it invents no constant and cannot rot. It already existed and was
