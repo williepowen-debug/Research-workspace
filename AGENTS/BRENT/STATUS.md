@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-07 Mon ~12:2x-12:3x ET** (LIVE CRUDE ONLY — `BZX26` two-source web read Oilprice/TradingEconomics; ⛔ **US equity + bond markets CLOSED, Labor Day** ⇒ every equity level on this surface is a **Fri 9/4 close**, root rule #4; ⛔ **yfinance returned NO Monday bar on any named contract**; JWC/IUA primary own curl 200/79,916 B; CENTCOM adjudicated at relaying primaries, centcom.mil 403) · **Surface written: 2026-09-07 Mon ~13:0x ET (PROME-orchestrated Tier-1 follow-up spawn, WQ-184 L0 — FRAME-BREAKER ADJUDICATION vs the M/T Kylo sinking: ⛔ NOT MET, `$0` moved, nothing armed; BRT-30 JWC re-checked not graded; inbox 1→0).** · *(prior stamp 2026-09-02 rotated with its section 2026-09-07 → [`archive/STATUS_dated_2026-09-02.md`](archive/STATUS_dated_2026-09-02.md); earlier stamps → [`archive/STATUS_header_history_thru_2026-09-02.md`](archive/STATUS_header_history_thru_2026-09-02.md).)*
+**Last real data refresh: 2026-09-07 Mon ~12:2x–12:3x ET** (LIVE CRUDE ONLY; equity levels are the **Fri 9/4 close**, root rule #4) · **GASREGW `$4.071` (8/31, newest print that exists)** · **Surface written: 2026-09-08 Tue ~00:0x ET — closeout; no market data pulled, no thesis change, `$0` moved.** ⚑ **STANDING STATE reconciled 2026-09-07; `render_calendar.py --check` enforces it at boot.** 📖 *Session record: commits `a6c4145dd`…`55669cd02` + [`archive/STATUS_DETAIL_2026-09.md`](archive/STATUS_DETAIL_2026-09.md) § REPAIRS.*
 
 ---
 
