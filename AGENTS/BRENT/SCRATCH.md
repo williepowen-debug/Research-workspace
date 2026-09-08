@@ -28,7 +28,7 @@
 | `3bbf6a1db` | **Rule 19 first application:** STATUS 75,158 → 22,338 B · calendar GENERATED from `CATALYSTS.tsv` |
 | `55669cd02` | P3 completed 9/9 · reconciliation guard's two false greens fixed · repair stories moved to the cold record |
 
-**Read cap (2026-09-08):** STATUS `23,785` (44%) ✅ · SCRATCH `8,995` (17%) ✅ · charter `31,421` (**1,129 B headroom** — it sat at 19 B before the step-10 rationale moved out; a file with no slack fails on the next honest sentence) · **`TRADE.md` 337% 🔴** · `LESSONS.md` 90% 🟠.
+**Read cap:** ⛔ **no byte figures are copied here — run `python3 scripts/read_cap_check.py --agent BRENT`.** A copied measurement is stale the moment the file it measures is edited: this line carried its own size as `8,995 B` and was wrong inside the same commit that wrote it. **State: `TRADE.md` is OVER THE CAP (the P2 target) and `LESSONS.md` is over budget (ACTION 16); everything else is under.**
 
 ---
 
