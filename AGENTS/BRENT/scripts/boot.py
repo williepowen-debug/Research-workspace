@@ -158,7 +158,17 @@ BOOT_SEQUENCE = [
     # docket's own 1-week retention. A rule saying "must not diverge" is not a mechanism.
     # ★ GRADE-BEARING: the dated demote trigger names "twin calendar event set" disagreement at
     # the cycle closing the 9/11 Friday pair. This check is what makes that unfailable.
-    ("Calendar Twin",         "scripts/render_calendar.py",  ["--check"], False),
+    # ⛔ PATH FIXED 2026-09-07 (CODEX P1 verification). Registered as "scripts/render_calendar.py"
+    # and boot resolved it to WORKSPACE/scripts/ (repo root) — see the dispatch at the bottom of
+    # this file: a name CONTAINING "/" resolves against the REPO, a BARE name against
+    # AGENTS/BRENT/scripts/. Only ledger_staleness.py lives at the repo root; I used the Ledger
+    # Nudge line as my template and inherited a prefix that exists for SHARED FLEET scripts.
+    # Result: "SKIP: render_calendar.py not found" -> FAIL at every boot.
+    # ★ AND HOW I SHIPPED IT: I falsified the CHECK (injected drift -> rc=1, restored -> rc=0)
+    # and never re-ran BOOT after wiring it. Testing the guard is not testing the wiring — the
+    # two are independent and I have the memory for exactly this.
+    # [[finding_guard_correctness_and_wiring_are_independent]]
+    ("Derived Views",        "render_calendar.py",          ["--check"], False),
 ]
 
 
