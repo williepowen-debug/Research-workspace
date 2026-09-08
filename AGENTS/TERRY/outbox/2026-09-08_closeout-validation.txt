@@ -1,0 +1,260 @@
+# Validation chronology — initial checks precede the parent retry; FINAL block below governs closeout.
+
+$ python3 AGENTS/TERRY/scripts/ledger_sweep.py
+TERRY ledger sweep
+==================
+
+D. READ SANITY — did every surface actually parse?
+  ✓ every surface returned rows (a zero here would be a parser defect, not a clean ledger)
+
+C. CARD HEADER vs ITS OWN BODY — 14 card(s)
+  ✓ every card header matches its latest in-body verdict
+
+A. STATE AGREEMENT — 21 setup_ids across 17 surfaces
+  ✓ all surfaces agree
+
+B. SUPERSEDED-VALUE DRIFT — 4 corrected value(s) since '2 days ago': VIX3M/VIX min=1.0888, beta=0.28, beta=0.53, session high=18.71
+  ✓ no naked superseded values
+
+E. FUTURE-DATED STAMPS — 47 surface(s) (ledgers + cards), clock now 2026-09-08 17:35
+  ✓ no stamp claims a time that has not happened yet
+
+F. UNREADABLE STATE CLAIMS — is a surface silently dropping out of check A?
+  ✓ every non-empty claim parsed — check A's ✓ means COMPARED, not merely unread
+
+G. STRUCTURE FINGERPRINT — strikes/expiry, where the STATE token agrees but the trade may not
+  ✓ no surface disagrees with another on strikes or expiry
+
+H. CONTRACT COUNT vs OPEN REAL PAPER ROWS — 2 live reference(s): TRY-FIRE-004=25×, TRY-WAL-ROLL70=1×
+  🔴 CONTRACT-COUNT DRIFT  TRY-FIRE-004  SETUPS.tsv claims [10, 30]× but the OPEN lane=real paper row(s) hold 25 live.
+      -> a count is not a state token, so check A cannot see this; reconcile the surface to the live book (history may keep the old count beside it — the live count just has to be PRESENT).
+
+I. INBOX AT CLOSEOUT (advisory — never blocks) — 1 undrained packet(s)
+  📬 inbox/2026-09-08_from-PROME_parent-option-fetch-success.md
+       UNCOMMITTED — a peer wrote it and has not committed; IN FLIGHT
+  → consume it, or state the disposition in the commit message. ⛔ Do NOT git mv to processed/ just to clear this line — an unread packet filed as consumed is worse than one left visible.
+
+🔴 1 FINDING(S) (A–H) — sweep before closeout
+
+EXIT_CODE=1
+
+$ python3 scripts/read_cap_check.py --agent TERRY
+READ-CAP [TERRY] — cap 54,250 B · budget 32,550 B (60%) · perimeter: 1 boot section(s) in CLAUDE.md, 10 'read' line(s) scanned (0 on-demand/grep + 1 SCOPED-read token(s) excluded by marker), 7 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  ✅ SETUPS.tsv                           24,274 B    45% of cap    (boot-step line 153)
+  ✅ RISK_RULES_CONSTRUCTION.md           22,584 B    42% of cap    (boot-step line 152)
+  ✅ RISK_RULES.md                        19,179 B    35% of cap    (boot-step line 143)
+  ✅ TRADE_BOOK.md                        18,129 B    33% of cap    (boot-step line 153)
+  ✅ STATUS.md                            16,100 B    30% of cap    (boot-step line 142)
+  ✅ RISK_SCORING.md                      10,134 B    19% of cap    (boot-step line 144)
+  ✅ TRADE_CARD_TEMPLATE.md                4,418 B     8% of cap    (boot-step line 152)
+✅ READ-CAP 0 [TERRY]: every boot-mandated read this check found is under budget (7 file(s)).
+
+EXIT_CODE=0
+
+$ python3 scripts/ledger_staleness.py --nudge TERRY
+⚠️  nudge: [TERRY] STATUS moving without ledgers — 3 ledger(s) behind: LEDGER.tsv (23 STATUS-writes behind), SIGNALS.tsv (5 STATUS-writes behind), SETUPS.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit
+
+EXIT_CODE=1
+
+$ python3 scripts/corrections_boot_check.py TERRY
+CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for TERRY (register 11 row(s), 0 ALL-warn, 0 dead-at-cap; receipts on file: 1) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv, nothing else
+
+EXIT_CODE=0
+
+$ python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/TERRY/STATUS.md AGENTS/TERRY/setups/XLE65C_approved-exit-tracking_2026-09-08.md AGENTS/TERRY/setups/TLT85P_approved-exit-tracking_2026-09-08.md AGENTS/TERRY/setups/WAL_dec18-70P-duration-roll_2026-09-01.md AGENTS/TERRY/setups/USO-135C_rule20-management_2026-09-01.md
+CLAIM-CHECK ✓ 8 file(s) clean [weekday]
+
+EXIT_CODE=0
+
+$ git diff --check -- AGENTS/TERRY
+
+EXIT_CODE=0
+
+BOOT RECHECK rc=0
+⏰ WALL CLOCK: 2026-09-08 17:35:08 (Tuesday)
+  actionable/open rows: 7
+  - TRY-EXIT-USO35 USO 35 shares (linear, no expiry, no theta) Exit rule, not an entry. Leg A = PROFIT-KEYED ratchet (PRIMARY); Leg B = THESIS-BREAK (BACKSTOP). OR-joined, never AND. | CONDITIONAL - SCAFFOLD ONLY: structure complete, LEVELS BLOCKED. Built 2026-08-23 Sun with no live tape (Sunday; last print Fri 8/21), so commission requirement #1 (live marks at build) could not be met. Not yet ratifiable. | CONDITIONAL | Design finding (TERRY): BRENT's B-1 base rate (n=2,887; 38% of war days at/below the pre-war-normal bar; 25 consecutive td to -3.27 ending 3d before the war's highest print) REFUTED B-1 as a trigger and proved a confirmation-keyed exit on a premium position fires LATE BY CONSTRUCTION. => reallocate: PROFIT-KEYED leg is PRIMARY (zero latency, no forecast content), thesis-break is BACKSTOP. Leg A RATCHETS not targets - shares cannot expire worthless, the failure mode is round-tripping a gain, and roll yield (n=67 mo, mean +1.12pp/mo, 2026 YTD +3.05pp/mo) pays to let it run. BINDING REFUSALS: A2 give-back width NOT named without its own base rate + bar count (RISK_RULES #19); B-2 NOT promoted by default (unmeasured, not better); B-1/B-2 never AND-joined; roll-yield worst month -3.42 NOT usable as a downside bound (bad state is UNOBSERVED/empty-in-regime, and the 2020 -49.62 row is a different instrument); 60-90 DTE band scoped OUT (options thread, BRENT's fence honoured). Sleeve context: 95.9% USO-linked, N_eff=1 - this is the only de-risking rail on a sleeve with effective sample size one. Scope-fenced from the USO Oct-16 135C pair; do NOT couple the legs. || Verdict word is CONDITIONAL, not SCAFFOLD, deliberately: ledger_sweep check F flagged the invented word as an unreadable state claim, and the tool's own doctrine forbids widening STATES to clear a check-F finding (two recorded regressions). Fixed the SURFACE, not the vocabulary. || Check A then caught a SECOND surface defect from the same session: the prose phrase 'markets CLOSED' in the INDEX and SETUPS cells resolved as the CLOSED state token, which outranks CONDITIONAL - so both registry surfaces claimed this live scaffold was a closed card. Reworded to 'no live tape'. A state word written as ordinary prose is indistinguishable from a state claim to any keyed reader.
+🔴 Inbox: 1 UNPROCESSED packet(s) — consume or file to processed/ this session
+Will drop zone (inbox/WILL/): 0 file(s) awaiting review
+
+INBOX: PASS exact sha256 for all 3 moved packets; active substantive 3 -> 0, administrative 3 -> 3, raw WILL drops 0 -> 0.
+[
+  {
+    "from": "AGENTS/TERRY/inbox/2026-09-06_from-PROME_cheap-tail-4-of-4-OPEN-caveat-VIOLET-run-time-SKEW-read-is-the-yfinance-mirror-until-fixed.md",
+    "to": "AGENTS/TERRY/inbox/processed/2026-09-06_from-PROME_cheap-tail-4-of-4-OPEN-caveat-VIOLET-run-time-SKEW-read-is-the-yfinance-mirror-until-fixed.md",
+    "sha256": "883a93ca779094b53a8b154e8d9c575258edf7364dc118ced612244bf327764d"
+  },
+  {
+    "from": "AGENTS/TERRY/inbox/2026-09-08_from-PROME_orchestration-position-review.md",
+    "to": "AGENTS/TERRY/inbox/processed/2026-09-08_from-PROME_orchestration-position-review.md",
+    "sha256": "57a275b6b5e489b663c9e7bdd320e3ba3f3af13e991b25e45d22133b3a7db10f"
+  },
+  {
+    "from": "AGENTS/TERRY/inbox/2026-09-08_from-PROME_owed-market-checks.md",
+    "to": "AGENTS/TERRY/inbox/processed/2026-09-08_from-PROME_owed-market-checks.md",
+    "sha256": "e0cb3dddd304c8444f5c4dc457eb256bfac7d27c9d88b39a72ad00969998b3c2"
+  }
+]
+
+SOURCE PRESERVATION: PASS original PROME evidence sha256 unchanged.
+
+TSV SHAPE: PASS SETUPS.tsv, 8 rows.
+
+TSV SHAPE: PASS PAPER_BOOK.tsv, 7 rows.
+
+PAPER PRESERVATION: PASS all 7 row identities, quantities, fills, basis, marks/dates, statuses and P/L unchanged. Management/attention notes only. No current quote falsely restamped.
+
+ROTATIONS: PASS STATUS and MEMORY contiguous original blocks preserved verbatim; headers record byte counts/CRC32. Current obligations written forward.
+
+CONSUMER CHECK: cross 4 candidates; self 6 candidates; no certified-stale. Inspected: VULCAN is different units/series; other occurrences are dated $212.50 marks/risk, not basis. Corrected 2 mislabeled basis comparisons on full duration card. No blanket numeric replacement or candidate-only packets.
+
+ORPHAN CHECK: self-authored REGINALD/BRENT/BOND packets in intended list; WALTER/HAWK/BOARD/PROME and other-desk dirty files observed, untouched. No broad staging.
+
+CAPABILITY GAP: git mv failed .git/index.lock Read-only file system. Filesystem renames kept exact payloads; PROME must stage old AND new paths. No staging/commit/push/pull/stash/reset by TERRY.
+
+DATA GAP: local chains fail curl(6) guce.yahoo.com DNS. paper dry-run 0 marked / 4 UNMARKED; 0 stale does NOT mean current. Web contract fallbacks returned no usable quote. Intraday harvest history UNKNOWN.
+
+LEDGER NUDGE DISPOSITION: daytrading/LEDGER.tsv remains LIVE, no raw WILL drop; no invented data or freeze. SIGNALS.tsv remains prior dated context; full domain-signal refresh outside this position catch-up. SETUPS management observations refreshed 9/8; no broker/option freshness claimed.
+
+COMMAND RESULTS
+[
+  {
+    "command": [
+      "python3",
+      "AGENTS/TERRY/scripts/ledger_sweep.py"
+    ],
+    "rc": 1
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/read_cap_check.py",
+      "--agent",
+      "TERRY"
+    ],
+    "rc": 0
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/ledger_staleness.py",
+      "--nudge",
+      "TERRY"
+    ],
+    "rc": 1
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/corrections_boot_check.py",
+      "TERRY"
+    ],
+    "rc": 0
+  },
+  {
+    "command": [
+      "python3",
+      "scripts/claim_check.py",
+      "--check",
+      "weekday",
+      "PROME/DOCKET.tsv",
+      "PROME/GATES.tsv",
+      "PROME/WILL_QUEUE.md",
+      "AGENTS/TERRY/STATUS.md",
+      "AGENTS/TERRY/setups/XLE65C_approved-exit-tracking_2026-09-08.md",
+      "AGENTS/TERRY/setups/TLT85P_approved-exit-tracking_2026-09-08.md",
+      "AGENTS/TERRY/setups/WAL_dec18-70P-duration-roll_2026-09-01.md",
+      "AGENTS/TERRY/setups/USO-135C_rule20-management_2026-09-01.md"
+    ],
+    "rc": 0
+  },
+  {
+    "command": [
+      "git",
+      "diff",
+      "--check",
+      "--",
+      "AGENTS/TERRY"
+    ],
+    "rc": 0
+  },
+  {
+    "command": [
+      "python3",
+      "AGENTS/TERRY/scripts/boot.py"
+    ],
+    "rc": 0
+  }
+]
+
+
+FINAL VALIDATION after parent mark receipt and fourth inbox disposition
+
+$ python3 AGENTS/TERRY/scripts/ledger_sweep.py
+TERRY ledger sweep
+==================
+
+D. READ SANITY — did every surface actually parse?
+  ✓ every surface returned rows (a zero here would be a parser defect, not a clean ledger)
+
+C. CARD HEADER vs ITS OWN BODY — 14 card(s)
+  ✓ every card header matches its latest in-body verdict
+
+A. STATE AGREEMENT — 21 setup_ids across 17 surfaces
+  ✓ all surfaces agree
+
+B. SUPERSEDED-VALUE DRIFT — 4 corrected value(s) since '2 days ago': VIX3M/VIX min=1.0888, beta=0.28, beta=0.53, session high=18.71
+  ✓ no naked superseded values
+
+E. FUTURE-DATED STAMPS — 47 surface(s) (ledgers + cards), clock now 2026-09-08 17:38
+  ✓ no stamp claims a time that has not happened yet
+
+F. UNREADABLE STATE CLAIMS — is a surface silently dropping out of check A?
+  ✓ every non-empty claim parsed — check A's ✓ means COMPARED, not merely unread
+
+G. STRUCTURE FINGERPRINT — strikes/expiry, where the STATE token agrees but the trade may not
+  ✓ no surface disagrees with another on strikes or expiry
+
+H. CONTRACT COUNT vs OPEN REAL PAPER ROWS — 2 live reference(s): TRY-FIRE-004=25×, TRY-WAL-ROLL70=1×
+  ✓ every registry surface carries the live contract count
+
+I. INBOX AT CLOSEOUT (advisory — never blocks) — 0 undrained packet(s)
+  ✓ 0 undrained (inbox/ + inbox/<AGENT>/, excl. WILL drop zone)
+
+✅ CLEAN (A–H)
+EXIT_CODE=0
+
+$ python3 scripts/read_cap_check.py --agent TERRY
+READ-CAP [TERRY] — cap 54,250 B · budget 32,550 B (60%) · perimeter: 1 boot section(s) in CLAUDE.md, 10 'read' line(s) scanned (0 on-demand/grep + 1 SCOPED-read token(s) excluded by marker), 7 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  🟡 SETUPS.tsv                           24,582 B    45% of cap  rotate-tier (≥75% of budget)  (boot-step line 153)
+  ✅ RISK_RULES_CONSTRUCTION.md           22,584 B    42% of cap    (boot-step line 152)
+  ✅ RISK_RULES.md                        19,179 B    35% of cap    (boot-step line 143)
+  ✅ TRADE_BOOK.md                        18,246 B    34% of cap    (boot-step line 153)
+  ✅ STATUS.md                            16,723 B    31% of cap    (boot-step line 142)
+  ✅ RISK_SCORING.md                      10,134 B    19% of cap    (boot-step line 144)
+  ✅ TRADE_CARD_TEMPLATE.md                4,418 B     8% of cap    (boot-step line 152)
+✅ READ-CAP 0 [TERRY]: every boot-mandated read this check found is under budget (7 file(s)).
+EXIT_CODE=0
+
+$ python3 scripts/ledger_staleness.py --nudge TERRY
+⚠️  nudge: [TERRY] STATUS moving without ledgers — 3 ledger(s) behind: LEDGER.tsv (23 STATUS-writes behind), SIGNALS.tsv (5 STATUS-writes behind), SETUPS.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit
+EXIT_CODE=1
+
+$ python3 scripts/corrections_boot_check.py TERRY
+CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for TERRY (register 11 row(s), 0 ALL-warn, 0 dead-at-cap; receipts on file: 1) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv, nothing else
+EXIT_CODE=0
+
+$ python3 scripts/claim_check.py --check weekday PROME/DOCKET.tsv PROME/GATES.tsv PROME/WILL_QUEUE.md AGENTS/TERRY/STATUS.md AGENTS/TERRY/setups/XLE65C_approved-exit-tracking_2026-09-08.md AGENTS/TERRY/setups/TLT85P_approved-exit-tracking_2026-09-08.md AGENTS/TERRY/setups/WAL_dec18-70P-duration-roll_2026-09-01.md AGENTS/TERRY/setups/USO-135C_rule20-management_2026-09-01.md
+CLAIM-CHECK ✓ 8 file(s) clean [weekday]
+EXIT_CODE=0
+
+$ git diff --check -- AGENTS/TERRY
+EXIT_CODE=0
+
+FINAL INBOX: PASS initial 3 + 1 arrival = 4 consumed; 0 active substantive; administrative 3; no WILL raw drop. All four packet sha256 hashes preserved.
+
+FINAL PAPER/TSV: PASS 8 SETUPS rows / 7 PAPER rows; 4 mark+date pairs exactly match parent receipt, other marks unchanged. All holdings/entry/fill/status/P&L fields unchanged. Parent source and original PROME evidence hashes unchanged.
+
+NUDGE DISPOSITION: SIGNALS full context sweep and daytrading data remain unchanged for lack of new authorized input; no false refresh or freeze. SETUPS current 9/8 management refresh is physically present and boot/ledger parsers read it; nudge uses committed-history lag and awaits serialized commit. No source gap waived.
+
+No tools/scripts were changed; existing live validation used, no redundant implementation-mirroring tests added. Initial count-token findings were fixed on the surfaces (25x TLT), never by weakening the checker.

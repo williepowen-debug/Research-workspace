@@ -1,0 +1,28 @@
+TERRY paper-book mark
+=====================
+PAPER — card-quality shadow book, NOT an endorsed P&L. PAPER_BOOK.tsv
+OPEN rows: 4 of 7 | stale-bar: 2 business days
+
+  PB-0001  TLT Sep-30 77P x45     mark=  0.035 asof=2026-09-05 19:57 local [UNMARKED (FETCH-ERROR:DNSError)]
+  PB-0002b TLT Sep-30 77P x25 (REMAINING TRANCHE — open child of the PB-0002 split, RULING D) mark=  0.035 asof=2026-09-05 19:57 local [UNMARKED (FETCH-ERROR:DNSError)]
+  PB-0004  KRE Dec-18 68P x2 (~8-12% OTM per card ZONE-1) mark=  1.625 asof=2026-09-05 19:57 local [UNMARKED (FETCH-ERROR:DNSError)]
+  PB-0006  WAL Dec-18-2026 70P x1 (duration roll of the Sep-18 70P leg, same strike; close-leg HELD in Fidelity, not sold) mark=  1.875 asof=2026-09-05 19:57 local [UNMARKED (FETCH-ERROR:DNSError)]
+
+Marked: 0 | Stale (>2bd): 0 | Unmarked: 4
+  ⚠ UNMARKED PB-0001 TLT Sep-30 77P x45 — FETCH-ERROR:DNSError (prior mark kept, not fabricated)
+  ⚠ UNMARKED PB-0002b TLT Sep-30 77P x25 (REMAINING TRANCHE — open child of the PB-0002 split, RULING D) — FETCH-ERROR:DNSError (prior mark kept, not fabricated)
+  ⚠ UNMARKED PB-0004 KRE Dec-18 68P x2 (~8-12% OTM per card ZONE-1) — FETCH-ERROR:DNSError (prior mark kept, not fabricated)
+  ⚠ UNMARKED PB-0006 WAL Dec-18-2026 70P x1 (duration roll of the Sep-18 70P leg, same strike; close-leg HELD in Fidelity, not sold) — FETCH-ERROR:DNSError (prior mark kept, not fabricated)
+
+Phase-2 volume gate: would-fire (90d) 4/6 distinct events [6 rows; splits/twins dedup to events] (un-tripped; Phase 1 shadow-only)
+
+Scoring gate (PAPER_BOOK_DESIGN.md 5b — CONJUNCTIVE, both must hold):
+  lane=paper  closed 1/10 · distinct antecedents 1/5 → CLOSED (N-too-small (and independence unmet))
+           antecedents: oil-hormuz
+  lane=real   closed 2/10 · distinct antecedents 2/5 → CLOSED (N-too-small (and independence unmet))
+           antecedents: equity-vol, rates-duration
+  → no Brier/calibration scoring and no decision acts on this record until a lane shows ★ OPEN.
+
+--dry-run: no write.
+
+Scoring is gated on N>=10 CLOSED rows per lane — this tool only logs+marks.

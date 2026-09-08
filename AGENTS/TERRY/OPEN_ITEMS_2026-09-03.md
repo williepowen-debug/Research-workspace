@@ -1,5 +1,7 @@
 # TERRY — OPEN · PENDING · OWED · BROKEN · BLOCKED (2026-09-03, swept 14:4x–14:5x ET)
 
+> **HISTORICAL inventory — superseded 2026-09-08 for live obligations by STATUS.md and the completion receipt.** WQ-167 rows below are permanently UNKNOWN, not pending ANVIL/Will facts; neither is re-asked. The September 4 placement date is elapsed; WQ-169 requires current broker truth. The 9/2 official and 8/21 OPEX write-back were completed September 3. This snapshot is preserved as history, not a current task queue.
+
 **Read-only inventory** (Will's ask via PROME 14:46). **Nothing was fixed.** No new thresholds, no grades, no trades, `$0` moved. Rows cite the registered artifact, not my STATUS gloss.
 
 ## Guard rcs — pasted, not summarised

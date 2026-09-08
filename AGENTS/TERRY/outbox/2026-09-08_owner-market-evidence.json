@@ -1,0 +1,90 @@
+{
+  "recorded_at": "2026-09-08T17:27:10-04:00",
+  "fresh_read_date": "2026-09-08",
+  "method": "Transcription of web tool publisher responses; original PROME market capture preserved unchanged. FRED and H.15 are two publication surfaces of the same underlying data, not independent evidence.",
+  "official_rates": {
+    "registered_instrument": "FRED DGS10",
+    "fred_source_grade": "MIRROR (registered official series)",
+    "primary_crosscheck": "https://www.federalreserve.gov/releases/h15/",
+    "primary_locator": "H.15 release September 8, 2026; Treasury constant maturities, Nominal 10-year and Inflation indexed 10-year; columns September 1, 2, 3, 4, 7*",
+    "fred_urls": [
+      "https://fred.stlouisfed.org/series/DGS10",
+      "https://fred.stlouisfed.org/series/DFII10"
+    ],
+    "fred_updated": "2026-09-08 15:16 CDT",
+    "observations": [
+      {
+        "date": "2026-09-01",
+        "DGS10_percent": 4.79,
+        "DFII10_percent": 2.44
+      },
+      {
+        "date": "2026-09-02",
+        "DGS10_percent": 4.79,
+        "DFII10_percent": 2.45
+      },
+      {
+        "date": "2026-09-03",
+        "DGS10_percent": 4.77,
+        "DFII10_percent": 2.42
+      },
+      {
+        "date": "2026-09-04",
+        "DGS10_percent": 4.78,
+        "DFII10_percent": 2.43
+      }
+    ],
+    "2026-09-07": "HOLIDAY; H.15 explicitly marks markets closed; neither counts nor resets",
+    "2026-09-08": "UNPUBLISHED in available official surfaces; UNKNOWN, ungraded and still owed; next release September 9"
+  },
+  "close_capture": {
+    "path": "PROME/reports/2026-09-08_owed-market-checks_evidence.json",
+    "sha256": "e0680a1479f930ceb9744d46c04c84f31be2438c7c7817e449c59714592cbb3d",
+    "retrieved_utc": "2026-09-08T20:21:41.570747+00:00",
+    "source_grade": "Yahoo MIRROR, regular-market metadata agrees with unadjusted daily bar",
+    "XLE_2026_09_08": 64.77,
+    "USO_2026_09_08": 146.03,
+    "WAL": {
+      "2026-09-03": 81.0,
+      "2026-09-04": 80.95,
+      "2026-09-08": 79.94
+    },
+    "XLE_regularMarketTime_ET": "2026-09-08T16:00:00-04:00"
+  },
+  "option_quotes": {
+    "status": "PARTIAL \u2014 parent supplied dated TLT77P/WAL70P and paper KRE68P mids; raw executable chains and USO135C/TLT85P quotes UNKNOWN",
+    "local_failures": "paper_book_mark --dry-run: 0 marked, 4 UNMARKED/FETCH-ERROR:DNSError; chain_fetch TLT Sep30 77/85P, WAL Dec18 70P, USO Oct16 135C: curl (6) Could not resolve host guce.yahoo.com",
+    "web_attempts": {
+      "https://finance.yahoo.com/quote/TLT260930P00077000/": "tool returned non-retryable safe-open error; no usable quote",
+      "https://finance.yahoo.com/quote/WAL261218P00070000/": "tool returned non-retryable safe-open error; no usable quote",
+      "https://finance.yahoo.com/quote/USO261016C00135000/": "tool returned non-retryable safe-open error; no usable quote"
+    },
+    "interpretation": "Initial local/web attempts established no usable current quote. The later parent_mark_retry below supersedes that mark gap only for its four dated vendor mids; raw executable bid/ask, IV, liquidity and intraday harvest history remain UNKNOWN. All other prior marks retain their original timestamps. No fill inferred."
+  },
+  "parent_mark_retry": {
+    "path": "PROME/reports/2026-09-08_terry-parent-option-mark-retry.txt",
+    "sha256": "2b85f4f39a679098eaf4def0db7cbbfa2cf63db0dcf820545c8f12c63b2925cd",
+    "retrieved_asof": "2026-09-08 17:32 local (ET)",
+    "completed_by_utc": "2026-09-08T21:33:39.244576+00:00",
+    "source_grade": "Yahoo MIRROR; parent read-only paper_book_mark.py --dry-run output, artifact verified by TERRY",
+    "basis": "post-close vendor mids; tool stamp is mark-retrieval time, not bid/ask exchange timestamp. No raw bid/ask, spread, IV/OI or quote-sanity details supplied; not executable marks or proof of fills",
+    "marks": {
+      "PB-0001": 0.035,
+      "PB-0002b": 0.035,
+      "PB-0004": 1.675,
+      "PB-0006": 2.05
+    },
+    "last_trade_caveat": {
+      "PB-0004": "no trade since 2026-09-03 12:22",
+      "PB-0006": "no trade since 2026-09-04 13:49"
+    },
+    "historical_pre_update_marks": {
+      "PB-0001": 0.035,
+      "PB-0002b": 0.035,
+      "PB-0004": 1.625,
+      "PB-0006": 1.875
+    },
+    "historical_pre_update_asof": "2026-09-05 19:57 local",
+    "management_screen": "TLT 0.035 < 0.3469; WAL 2.05 < 4.40: harvest thresholds not met at the retrieved sample. Entire-day harvest history and fills remain UNKNOWN."
+  }
+}
