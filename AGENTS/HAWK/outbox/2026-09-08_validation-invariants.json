@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "Prediction IDs unchanged",
+    "HAW-01..20 preserved byte-for-byte, including frozen rows and HAW19/20",
+    "HAW21 original ID/date/letter/confidence/timeframe/invalidation unchanged",
+    "Original preregistration full-byte prefix preserved",
+    "Calibration archive historical prefix preserved",
+    "All frozen KB rows through223 preserved including known duplicate IDs",
+    "KB302..311 ten unique additions",
+    "New KB rows have13 columns",
+    "New KB Conf enum valid",
+    "New KB Epistemic enum valid",
+    "New KB Status enum valid",
+    "AGENTS/HAWK/workbook/VX.tsv unchanged; no mark/threshold/freshness edit",
+    "AGENTS/HAWK/scripts/thresholds.py unchanged; no mark/threshold/freshness edit",
+    "All15 initial inbox original bytes preserved",
+    "Active inbox census exactly matches17 disposition records",
+    "Final physical inbox17:14 root,3 WALTER"
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,18 @@
+# Refining-offline basis-pair audit — HAWK, 2026-09-08
+
+**Result:** the two desks measure different objects. Neither observation establishes destroyed crude-production capacity. This delivers the overdue documentary comparison under the August 17 batch, without implementing the proposed OSPREY band re-centre. OSPREY's September 2 public failure test was correctly FIRED against HAWK's prior non-delivery; this artifact does not erase that history.
+
+| Measure | Unit / numerator | Denominator and observation window | Meaning of offline | Source and limitation |
+|---|---|---|---|---|
+| OSPREY Russian refinery runs | 3.6 million barrels processed per day, July 2026 average | Seasonal norm 5.3–5.6 mb/d, 2020–2025 | Runs shortfall, including potentially reversible economics, feedstock routing, repair and export-policy effects | `AGENTS/OSPREY/workbook/KB.tsv` KB-OSPREY-029, August 10; EA Analytics → Bloomberg → Moscow Times August 3. Not a damage census. |
+| OSPREY published band | Approximately 30%, range 25–35% | National seasonal-runs comparison, not refinery nameplate | Proxy for refining impairment; not physically destroyed capacity | September 2 NEXUS_BRIEF retains band. Re-centre ~33% approved-in-principle but execution frozen pending audited re-presentation. |
+| FALCON Jazan | 400 thousand barrels/day of refinery nameplate associated with a shutdown from July 27 | One named Saudi refinery; no contemporaneous national runs denominator | Facility shut, not 400 kbpd of crude extraction lost, and not necessarily 400 kbpd of realized lost throughput | `GI-20260725-JAZAN`; IIR via Reuters July 28. August 20 report moved tentative restart to August 30. No fresh restart observation in this audit: current operation UNKNOWN. |
+| Cross-war crude supply claim | Productive/export capacity, not refining throughput | HAW-19's frozen legs/windows | Destroyed crude capacity requires its own asset/duration evidence | Refineries are explicit non-fires. No band or prediction repair performed here. |
+
+Arithmetic: `(5.3−3.6)/5.3 = 32.075%`; `(5.6−3.6)/5.6 = 35.714%`. Rounded range **32.1–35.7% runs below norm**. This is the reproducible evidence behind the candidate re-centre, not authority to replace the canonical 25–35% band. The rough one-third label conceals a denominator range; no weighted capacity-loss percentage can be derived without plant-level realized throughput and outage attribution.
+
+**Transmission:** reduced refining can constrain products and free crude feedstock for export. Damage, runs, product yields and export availability require separate measurements. Do not add Russia's national percentage to Jazan's plant nameplate, or call either destroyed crude-production barrels.
+
+**Oil-on-water correction:** OSPREY's September 2 packet supplies ~94M bbl (week to August 16) then ~83M (week to August 23), published August 18/25, from Bloomberg tanker-tracking. Those stocks replace the mid-June ~120M comparison for the stated vintages. They do not establish the stock is stationary floating storage. Falling at-sea stocks alongside falling exports permit several mechanisms; without matched onshore tankage, departures and runs, the saturation scenario's evidence is UNKNOWN. The former inference from rising ~120M is withdrawn as current support. HAWK's pre-split KB-187 and SUMMARY are frozen history, explicitly superseded for present use by KB-311 and this audit; their original text is preserved.
+
+**ACTION:** OSPREY reviews this comparison before any band re-presentation. FALCON confirms the facility-versus-throughput distinction from its current source record. PROME retains the band execution gate. Review due September 11; no new source feed or architecture is commissioned.

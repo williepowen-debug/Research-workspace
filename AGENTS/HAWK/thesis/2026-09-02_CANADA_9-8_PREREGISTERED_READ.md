@@ -98,3 +98,8 @@ Named in the primaries: **steel · dairy · appliances · agricultural equipment
 - ⛔ No threshold moved, no band moved, no mark moved.
 - ⛔ No market or price read. Sizing is the consumers'; I hold no book.
 - ⚠️ **P1/P2 were read via a fetch-and-summarise path, not eyeball-on-page.** The quoted effective-time sentence and the 15/25/50 + §338/§232 language are direct quotes returned from the canada.ca documents; **a consumer sizing anything material should re-read P2 itself.**
+
+
+## DATED OUTCOME ADDENDUM — 2026-09-08
+
+HAW-21 CONFIRMED on its registered letter, confidence unchanged at 65%. See `2026-09-08_HAW-21_ADJUDICATION.md`: P.C.2026-0785/0786 and primary-indexed CBSA26-23 application statement; independent 629-item Finance/order scope-rate equality. SOR identifiers/dates remain UNKNOWN; operative conclusion rests on the permitted notice alternative plus matched schedules. CAD is inferred, not quoted; existing auto counter-tariffs are not a new September 8 exposure. Importer remission/exceptions apply. TRADE-02 unchanged. Original pre-event text above is preserved as written.

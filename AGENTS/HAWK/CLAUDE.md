@@ -261,3 +261,6 @@ Every STATUS.md update must end with a `## BOTTOM LINE` section: 2-4 sentences. 
 > - **`templates/`, `design/`, `memory/`** — one-purpose files named in the protocol sections above.
 >
 > **🔴 MAINTENANCE RULE, and the reason it exists: this table must be reconciled against an actual directory listing whenever files are added, and at any banner sweep.** *Root cause found 2026-08-10: the 2026-07-01→07-09 FROZEN-banner sweep was keyed to THIS TABLE, so it was structurally blind to anything the table did not name — and it missed **five dead surfaces**, one of them a prescriptive exit protocol. The precise hole was that `audits/`, `research/` and `domain/sources/` had **glob** coverage while **`workbook/` was listed file-by-file**, so six workbook files fell through the gap.* **A scan keyed on naming reads local form as absence** (`[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`). ⇒ **When adding a file to `workbook/`, add a row here in the same commit, or extend a class rule to cover it.**
+
+
+**2026-09-08 FILES additions (actual tree enumerated):** `workbook/CATALYSTS.tsv` = existing dated observation obligations; `registry/corrections_receipts.tsv` = owner R1 receipts. Dated `audits/`, `thesis/`, `outbox/` and `domain/sources/2026-09-08_*` files are catch-up evidence/receipts, source snapshots and the offline Canada verifier; no live feed.

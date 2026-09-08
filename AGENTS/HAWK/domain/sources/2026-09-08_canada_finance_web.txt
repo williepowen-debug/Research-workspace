@@ -1,0 +1,163 @@
+List of products from the United States subject to counter-tariffs effective September 8, 2026 - Canada.ca (https://www.canada.ca/en/department-finance/news/2026/08/list-of-products-from-the-united-states-subject-to-counter-tariffs-effective-september-8-2026.html)
+citeturn4view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn0view2","lineno":0}); Total lines: 816
+L0:   * cite0†Skip to main content L1:   * cite1†Skip to "About government" L2: 
+L3: ## Language selection
+L4: 
+L5:   * cite2†fr (Français) L6: 
+L7: cite3†/ Gouvernement du Canada L8: 
+L9: ## Search
+L10: 
+L11: Search FIN [Input: Search FIN]
+L12: 
+L13: Search
+L14: 
+L15: * * *
+L16: 
+L17: ## Menu
+L18: 
+L19: Main Menu
+L20: 
+L21: ## You are here:
+L22: 
+L23: # List of products from the United States subject to counter-tariffs effective September 8, 2026
+L24: 
+L25: From: cite4†Department of Finance Canada L26: ## Backgrounder
+L27: 
+L28: Effective September 8, 2026, Canada will impose 15, 25, and 50 per cent tariffs on products drawn from those targeted by U.S. Section 338 and Section 232 tariffs, with individual product rates based on the matching U.S. rate for the same goods.
+L29: 
+L30: As a result of the United States' (U.S.) decision to impose a 50 per cent tariff on $27.6 billion of Canadian goods effective August 22, the Government of Canada will match the U.S. Section 338 tariffs – dollar for dollar.
+L31: Effective September 8, 2026, Canada will impose 15, 25, and 50 per cent tariffs on products  drawn from those targeted by U.S. Section 338 and Section 232 tariffs, with individual product rates based on the matching U.S. rate for the same goods.
+L32: 
+L33: Canada's counter tariffs will apply to products covering $27.6 billion in imports from the U.S. and will focus on sectors such as steel, dairy, appliances, agricultural equipment, pulp and paper, and electronics, that are most impacted by U.S. tariffs.
+L34: These tariffs only apply to goods originating from the U.S., which shall be considered as those goods eligible to be marked as a good of the U.S. in accordance with the cite5†Determination of Country of Origin for the Purpose of Marking Goods (CUSMA Countries) Regulations†laws-lois.justice.gc.ca .
+L35: 
+L36: These countermeasures will be effective as of 12:01 a.m., September 8, 2026.
+L37: Canada's countermeasures do not apply to U.S. goods that are in transit to Canada on the day on which they come into force. Additional details on the administration of these tariffs will be available on the Canada Border Services Agency website: cite6†Customs Notices (cbsa-asfc.gc.ca)†www.cbsa-asfc.gc.ca .
+L38: 
+L39: The list of products outlined at the tariff item level in the table below should be read in conjunction with the Schedule to cite7†Canada's Customs Tariff†cbsa-asfc.gc.ca .
+L40: List updated as of August 26, 2026
+L41: List of Goods Subject to Surtax – Effective September 8, 2026
+L42: Tariff item
+L43:  | Harmonized System (HS) Heading  | Indicative description  | Tariff rate
+L44: --- | --- | --- | ---
+L45: 0402.10.10  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: Within access commitment  | 50
+L46: 0402.10.20  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - In powder, granules or other solid forms, of a fat content, by weight, not exceeding 1.5%: Over access commitment  | 50
+L47: 0402.21.11  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: Not containing added sugar or other sweetening matter: Milk: Within access commitment  | 50
+L48: 0402.21.12  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: Not containing added sugar or other sweetening matter: Milk: Over access commitment  | 50
+L49: 0402.21.21  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: Not containing added sugar or other sweetening matter: Cream: Within access commitment  | 50
+L50: 0402.21.22  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - In powder, granules or other solid forms, of a fat content, by weight, exceeding 1.5%: Not containing added sugar or other sweetening matter: Cream: Over access commitment  | 50
+L51: 0402.91.10  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - Other: Not containing added sugar or other sweetening matter: Within access commitment  | 50
+L52: 0402.91.20  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - Other: Not containing added sugar or other sweetening matter: Over access commitment  | 50
+L53: 0402.99.10  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - Other: Other: Within access commitment  | 50
+L54: 0402.99.20  | Milk and cream, concentrated or containing added sugar or other sweetening matter.  | - Other: Other: Over access commitment  | 50
+L55: 0404.10.10  | Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included.  | - Whey and modified whey, whether or not concentrated or containing added sugar or other sweetening matter: Whey protein concentrate  | 50
+--------------------------------------------------------------------------------
+List of products from the United States subject to counter-tariffs effective September 8, 2026 - Canada.ca (https://www.canada.ca/en/department-finance/news/2026/08/list-of-products-from-the-united-states-subject-to-counter-tariffs-effective-september-8-2026.html)
+citeturn4view1 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn0view2","lineno":200}); Total lines: 816
+L192: 5702.39.00  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, of pile construction, not made up: Of other textile materials  | 25
+L193: 5702.41.00  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, of pile construction, made up: Of wool or fine animal hair  | 25
+L194: 5702.42.00  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, of pile construction, made up: Of man-made textile materials  | 25
+L195: 5702.49.00  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, of pile construction, made up: Of other textile materials  | 25
+L196: 5702.50.10  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, not of pile construction, not made up: Of straw, hemp, flax tow or jute  | 25
+L197: 5702.50.90  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, not of pile construction, not made up: Other  | 25
+L198: 5702.91.00  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, not of pile construction, made up: Of wool or fine animal hair  | 25
+L199: 5702.92.00  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, not of pile construction, made up: Of man-made textile materials  | 25
+L200: 5702.99.10  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, not of pile construction, made up: Of other textile materials: Of straw, hemp, flax tow or jute  | 25
+L201: 5702.99.90  | Carpets and other textile floor coverings, woven, not tufted or flocked, whether or not made up, including "Kelem", "Schumacks", "Karamanie" and similar hand-woven rugs.  | - Other, not of pile construction, made up: Of other textile materials: Other  | 25
+L202: 5703.10.10  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of wool or fine animal hair: Machine tufted  | 25
+L203: 5703.10.90  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of wool or fine animal hair: Other  | 25
+L204: 5703.21.00  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of nylon or other polyamides: Turf  | 25
+L205: 5703.29.10  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of nylon or other polyamides: Other: Machine tufted  | 25
+L206: 5703.29.90  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of nylon or other polyamides: Other: Other  | 25
+L207: 5703.31.00  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of other man-made textile materials: Turf  | 25
+L208: 5703.39.10  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of other man-made textile materials: Other: Machine tufted  | 50
+L209: 5703.39.90  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of other man-made textile materials: Other: Other  | 50
+L210: 5703.90.10  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of other textile materials: Machine tufted  | 25
+L211: 5703.90.90  | Carpets and other textile floor coverings (including turf), tufted, whether or not made up.  | - Of other textile materials: Other  | 25
+L212: 5704.10.00  | Carpets and other textile floor coverings, of felt, not tufted or flocked, whether or not made up.  | - Tiles, having a maximum surface area of 0.3 m²  | 25
+L213: 5704.20.00  | Carpets and other textile floor coverings, of felt, not tufted or flocked, whether or not made up.  | - Tiles, having a maximum surface area exceeding 0.3 m² but not exceeding 1 m²  | 25
+L214: 5704.90.00  | Carpets and other textile floor coverings, of felt, not tufted or flocked, whether or not made up.  | - Other  | 25
+L215: 5705.00.00  | Other carpets and other textile floor coverings, whether or not made up.  |  | 25
+L216: 6104.43.00  | Women's or girls' suits, ensembles, jackets and blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted.  | - Dresses: Of synthetic fibres  | 50
+L217: 6104.63.00  | Women's or girls' suits, ensembles, jackets and blazers, dresses, skirts, divided skirts, trousers, bib and brace overalls, breeches and shorts (other than swimwear), knitted or crocheted.  | - Trousers, bib and brace overalls, breeches and shorts: Of synthetic fibres  | 50
+L218: 6109.10.00  | T-shirts, singlets and other vests, knitted or crocheted.  | - Of cotton  | 50
+L219: 6110.20.00  | Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted.  | - Of cotton  | 50
+L220: 6110.30.00  | Jerseys, pullovers, cardigans, waistcoats and similar articles, knitted or crocheted.  | - Of man-made fibres  | 50
+L221: 6116.93.00  | Gloves, mittens and mitts, knitted or crocheted.  | - Other: Of synthetic fibres  | 50
+L222: 6201.40.10  | Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading 62.03.  | - Of man-made fibres: Overcoats, raincoats, car-coats, capes, cloaks and similar articles  | 50
+L223: 6201.40.90  | Men's or boys' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading 62.03.  | - Of man-made fibres: Other  | 50
+L224: 6202.40.00  | Women's or girls' overcoats, car-coats, capes, cloaks, anoraks (including ski-jackets), wind-cheaters, wind-jackets and similar articles, other than those of heading 62.04.  | - Of man-made fibres  | 50
+L225: 6203.11.00  | Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear).  | - Suits: Of wool or fine animal hair  | 50
+L226: 6203.31.00  | Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear).  | - Jackets and blazers: Of wool or fine animal hair  | 50
+L227: 6203.41.00  | Men's or boys' suits, ensembles, jackets, blazers, trousers, bib and brace overalls, breeches and shorts (other than swimwear).  | - Trousers, bib and brace overalls, breeches and shorts: Of wool or fine animal hair  | 50
+--------------------------------------------------------------------------------
+List of products from the United States subject to counter-tariffs effective September 8, 2026 - Canada.ca (https://www.canada.ca/en/department-finance/news/2026/08/list-of-products-from-the-united-states-subject-to-counter-tariffs-effective-september-8-2026.html)
+citeturn4view2 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn0view2","lineno":400}); Total lines: 816
+L391: 7304.41.00  | Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel.  | - Other, of circular cross-section, of stainless steel: Cold-drawn or cold-rolled (cold-reduced)  | 50
+L392: 7304.49.00  | Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel.  | - Other, of circular cross-section, of stainless steel: Other  | 50
+L393: 7304.51.00  | Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel.  | - Other, of circular cross-section, of other alloy steel: Cold-drawn or cold-rolled (cold-reduced)  | 50
+L394: 7304.59.00  | Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel.  | - Other, of circular cross-section, of other alloy steel: Other  | 50
+L395: 7304.90.00  | Tubes, pipes and hollow profiles, seamless, of iron (other than cast iron) or steel.  | - Other  | 50
+L396: 7305.11.00  | Other tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel.  | - Line pipe of a kind used for oil or gas pipelines: Longitudinally submerged arc welded  | 50
+L397: 7305.12.00  | Other tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel.  | - Line pipe of a kind used for oil or gas pipelines: Other, longitudinally welded  | 50
+L398: 7305.19.00  | Other tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel.  | - Line pipe of a kind used for oil or gas pipelines: Other  | 50
+L399: 7305.20.00  | Other tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel.  | - Casing of a kind used in drilling for oil or gas  | 50
+L400: 7305.31.00  | Other tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel.  | - Other, welded: Longitudinally welded  | 50
+L401: 7305.39.00  | Other tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel.  | - Other, welded: Other  | 50
+L402: 7305.90.00  | Other tubes and pipes (for example, welded, riveted or similarly closed), having circular cross-sections, the external diameter of which exceeds 406.4 mm, of iron or steel.  | - Other  | 50
+L403: 7306.11.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Line pipe of a kind used for oil or gas pipelines: Welded, of stainless steel  | 50
+L404: 7306.19.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Line pipe of a kind used for oil or gas pipelines: Other  | 50
+L405: 7306.21.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Casing and tubing of a kind used in drilling for oil or gas: Welded, of stainless steel  | 50
+L406: 7306.29.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Casing and tubing of a kind used in drilling for oil or gas: Other  | 50
+L407: 7306.30.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Other, welded, of circular cross-section, of iron or non-alloy steel  | 50
+L408: 7306.40.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Other, welded, of circular cross-section, of stainless steel  | 50
+L409: 7306.50.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Other, welded, of circular cross-section, of other alloy steel  | 50
+L410: 7306.61.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Other, welded, of non-circular cross-section: Of square or rectangular cross-section  | 50
+L411: 7306.69.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Other, welded, of non-circular cross-section: Of other non-circular cross-section  | 50
+L412: 7306.90.00  | Other tubes, pipes and hollow profiles (for example, open seam or welded, riveted or similarly closed), of iron or steel.  | - Other  | 50
+L413: 7307.21.00  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other, of stainless steel: Flanges  | 50
+L414: 7307.22.00  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other, of stainless steel: Threaded elbows, bends and sleeves  | 50
+L415: 7307.23.00  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other, of stainless steel: Butt welding fittings  | 50
+L416: 7307.29.10  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other, of stainless steel: Other: To be employed in pneumatically breaking down the working face of a mine in mining, quarrying or developing mineral deposits  | 50
+L417: 7307.29.20  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other, of stainless steel: Other: For installation between the wellhead assembly or surface oil pumping unit and the field marketing valve at oil or natural gas wells  | 50
+L418: 7307.29.91  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other, of stainless steel: Other: Other: Not further worked than forged or bent to shape  | 50
+L419: 7307.29.99  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other, of stainless steel: Other: Other: Other  | 50
+L420: 7307.91.00  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other: Flanges  | 50
+L421: 7307.92.00  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other: Threaded elbows, bends and sleeves  | 50
+L422: 7307.93.00  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other: Butt welding fittings  | 50
+L423: 7307.99.00  | Tube or pipe fittings (for example, couplings, elbows, sleeves), of iron or steel.  | - Other: Other  | 50
+--------------------------------------------------------------------------------
+List of products from the United States subject to counter-tariffs effective September 8, 2026 - Canada.ca (https://www.canada.ca/en/department-finance/news/2026/08/list-of-products-from-the-united-states-subject-to-counter-tariffs-effective-september-8-2026.html)
+citeturn4view3 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn0view2","lineno":600}); Total lines: 816
+L591: 8205.59.90  | Hand tools (including glaziers' diamonds), not elsewhere specified or included; blow lamps; vices, clamps and the like, other than accessories for and parts of, machine-tools or water-jet cutting machines; anvils; portable forges; hand or pedal-operated grinding wheels with frameworks.  | - Other hand tools (including glaziers' diamonds): Other: Other  | 50
+L592: 8205.70.10  | Hand tools (including glaziers' diamonds), not elsewhere specified or included; blow lamps; vices, clamps and the like, other than accessories for and parts of, machine-tools or water-jet cutting machines; anvils; portable forges; hand or pedal-operated grinding wheels with frameworks.  | - Vices, clamps and the like: Clamps for use with the following surgical, dental, veterinary or diagnostic articles:
+L593: Instruments;
+L594: Sterilizers;
+L595: Cobalt therapy units;
+L596: Anaesthesia, surgical suction or oxygen administering apparatus  | 25
+L597: 8205.70.20  | Hand tools (including glaziers' diamonds), not elsewhere specified or included; blow lamps; vices, clamps and the like, other than accessories for and parts of, machine-tools or water-jet cutting machines; anvils; portable forges; hand or pedal-operated grinding wheels with frameworks.  | - Vices, clamps and the like: Precision clamps and vices, for toolmakers, machinists or metal workers  | 25
+L598: 8205.70.90  | Hand tools (including glaziers' diamonds), not elsewhere specified or included; blow lamps; vices, clamps and the like, other than accessories for and parts of, machine-tools or water-jet cutting machines; anvils; portable forges; hand or pedal-operated grinding wheels with frameworks.  | - Vices, clamps and the like: Other  | 25
+L599: 8207.20.00  | Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools.  | - Dies for drawing or extruding metal  | 15
+L600: 8207.30.00  | Interchangeable tools for hand tools, whether or not power-operated, or for machine-tools (for example, for pressing, stamping, punching, tapping, threading, drilling, boring, broaching, milling, turning or screw driving), including dies for drawing or extruding metal, and rock drilling or earth boring tools.  | - Tools for pressing, stamping or punching  | 15
+L601: 8211.10.10  | Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor.  | - Sets of assorted articles: Table cutlery  | 25
+L602: 8211.10.90  | Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor.  | - Sets of assorted articles: Other  | 25
+L603: 8211.91.10  | Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor.  | - Other: Table knives having fixed blades: Carving knives  | 25
+L604: 8211.91.90  | Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor.  | - Other: Table knives having fixed blades: Other  | 25
+L605: 8211.92.00  | Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor.  | - Other: Other knives having fixed blades  | 25
+L606: 8211.93.00  | Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor.  | - Other: Knives having other than fixed blades  | 25
+L607: 8211.94.90  | Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor.  | - Other: Blades: Other  | 25
+L608: 8211.95.11  | Knives with cutting blades, serrated or not (including pruning knives), other than knives of heading 82.08, and blades therefor.  | - Other: Handles of base metal: Of table knives having fixed blades: Of carving knives  | 25
+L609: 8215.10.10  | Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware.  | - Sets of assorted articles containing at least one article plated with precious metal: Containing spoons, knives and forks, of a kind used at the table  | 25
+L610: 8215.10.90  | Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware.  | - Sets of assorted articles containing at least one article plated with precious metal: Other  | 25
+L611: 8215.20.10  | Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware.  | - Other sets of assorted articles: Containing spoons, knives and forks, of a kind used at the table  | 25
+L612: 8215.20.90  | Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware.  | - Other sets of assorted articles: Other  | 25
+L613: 8215.91.10  | Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware.  | - Other: Plated with precious metal: Spoons or forks, of a kind used at the table  | 25
+L614: 8215.91.90  | Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware.  | - Other: Plated with precious metal: Other  | 25
+L615: 8215.99.10  | Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware.  | - Other: Other: Spoons or forks, of a kind used at the table  | 25
+L616: 8215.99.90  | Spoons, forks, ladles, skimmers, cake-servers, fish-knives, butter-knives, sugar tongs and similar kitchen or tableware.  | - Other: Other: Other  | 25
+L617: 8302.10.00  | Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal; automatic door closers of base metal.  | - Hinges  | 25
+L618: 8302.41.10  | Base metal mountings, fittings and similar articles suitable for furniture, doors, staircases, windows, blinds, coachwork, saddlery, trunks, chests, caskets or the like; base metal hat-racks, hat-pegs, brackets and similar fixtures; castors with mountings of base metal; automatic door closers of base metal.  | - Other mountings, fittings and similar articles: Suitable for buildings: Bar or rod type door exit devices, for commercial, institutional or industrial applications;
+L619: For use in the manufacture or repair of rotary gear window operators;
+L620: Rotary gear window operators;
+L621: Snub-guides, lever-lock operators, torsion bars and centre hooks for lever-lock or rotary gear window operators, sash locks (excluding peg locks) and keepers for key-operated security locks or sash locks (excluding peg-locks), for use in the manufacture of casement or awning windows  | 25
+

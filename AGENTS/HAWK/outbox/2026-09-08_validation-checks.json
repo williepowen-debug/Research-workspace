@@ -1,0 +1,82 @@
+[
+  {
+    "name": "owner_census",
+    "chunk_id": "70955d",
+    "wall_time_seconds": 0.00000198,
+    "exit_code": 0,
+    "original_token_count": 54,
+    "output": "{\"items\": 629, \"rates\": {\"50\": 413, \"25\": 195, \"15\": 21}, \"missing_each_direction\": 0, \"rate_mismatches\": 0, \"scope\": \"owner re-extraction, commodity schedules only; not remission, import weights or registration\"}\n"
+  },
+  {
+    "name": "prome_census",
+    "chunk_id": "3ad8aa",
+    "wall_time_seconds": 0.00000451,
+    "exit_code": 0,
+    "original_token_count": 42,
+    "output": "{\"commodity_items\": 629, \"rates\": {\"15\": 21, \"25\": 195, \"50\": 413}, \"missing_each_direction\": 0, \"rate_mismatches\": 0, \"scope\": \"commodity item/rate equality only\"}\n"
+  },
+  {
+    "name": "corrections",
+    "chunk_id": "2c9f50",
+    "wall_time_seconds": 0.00000253,
+    "exit_code": 0,
+    "original_token_count": 61,
+    "output": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for HAWK (register 12 row(s), 0 ALL-warn, 0 dead-at-cap; receipts on file: 2) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv, nothing else\n"
+  },
+  {
+    "name": "readcap",
+    "chunk_id": "66853f",
+    "wall_time_seconds": 0.00000242,
+    "exit_code": 0,
+    "original_token_count": 273,
+    "output": "READ-CAP [HAWK] — cap 54,250 B · budget 32,550 B (60%) · perimeter: 2 boot section(s) in CLAUDE.md, 23 'read' line(s) scanned (0 on-demand/grep + 4 SCOPED-read token(s) excluded by marker), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)\n  🟡 LESSONS.md                           26,932 B    50% of cap  rotate-tier (≥75% of budget)  (boot-step line 43)\n  ✅ STATUS.md                            10,204 B    19% of cap    (boot-step line 41)\n  ✅ SCRATCH.md                            6,552 B    12% of cap    (boot-step line 42)\n  ✅ NEXUS_BRIEF.md                        6,535 B    12% of cap    (boot-step line 44)\n  ✅ workbook/SCHEMA.tsv                   1,829 B     3% of cap    (boot-step line 45)\n  ℹ️ board_log.tsv                       108,515 B   200% of cap  scoped read on an OVER-CAP file — honest read, not lean (READ_CAP rule 8: partial fix; not counted)  (boot-step line 55)\n✅ READ-CAP 0 [HAWK]: every boot-mandated read this check found is under budget (5 file(s)).\n"
+  },
+  {
+    "name": "weekday",
+    "chunk_id": "dec3d8",
+    "wall_time_seconds": 0.0761002,
+    "exit_code": 0,
+    "original_token_count": 11,
+    "output": "CLAIM-CHECK ✓ 6 file(s) clean [weekday]\n"
+  },
+  {
+    "name": "ledger_nudge",
+    "chunk_id": "f05f82",
+    "wall_time_seconds": 0.1711875,
+    "exit_code": 1,
+    "original_token_count": 50,
+    "output": "⚠️  nudge: [HAWK] STATUS moving without ledgers — 2 ledger(s) behind: FLOW.tsv (3 STATUS-writes behind), VX.tsv (1 STATUS-write behind) — freeze-or-refresh EACH, or say why not in the commit\n"
+  },
+  {
+    "name": "measure",
+    "chunk_id": "3cd69d",
+    "wall_time_seconds": 0.00000275,
+    "exit_code": 0,
+    "original_token_count": 331,
+    "output": "[\n  {\n    \"path\": \"AGENTS/HAWK/CLAUDE.md\",\n    \"bytes\": 36165,\n    \"lines\": 266,\n    \"crc32\": 122877886,\n    \"crc32_no_final_nl\": 811194152\n  },\n  {\n    \"path\": \"AGENTS/HAWK/STATUS.md\",\n    \"bytes\": 10204,\n    \"lines\": 66,\n    \"crc32\": 4012519482,\n    \"crc32_no_final_nl\": 4031406191\n  },\n  {\n    \"path\": \"AGENTS/HAWK/SCRATCH.md\",\n    \"bytes\": 6552,\n    \"lines\": 54,\n    \"crc32\": 3606453493,\n    \"crc32_no_final_nl\": 802516364\n  },\n  {\n    \"path\": \"AGENTS/HAWK/LESSONS.md\",\n    \"bytes\": 26932,\n    \"lines\": 58,\n    \"crc32\": 3717988175,\n    \"crc32_no_final_nl\": 2582246979\n  },\n  {\n    \"path\": \"AGENTS/OSPREY/NEXUS_BRIEF.md\",\n    \"bytes\": 6938,\n    \"lines\": 43,\n    \"crc32\": 2257449357,\n    \"crc32_no_final_nl\": 1363749372\n  },\n  {\n    \"path\": \"AGENTS/FALCON/NEXUS_BRIEF.md\",\n    \"bytes\": 66502,\n    \"lines\": 190,\n    \"crc32\": 1658402132,\n    \"crc32_no_final_nl\": 188939120\n  },\n  {\n    \"path\": \"AGENTS/VOCABULARIES.tsv\",\n    \"bytes\": 6760,\n    \"lines\": 130,\n    \"crc32\": 1651848184,\n    \"crc32_no_final_nl\": 2806273904\n  },\n  {\n    \"path\": \"AGENTS/HAWK/workbook/SCHEMA.tsv\",\n    \"bytes\": 1829,\n    \"lines\": 14,\n    \"crc32\": 34641745,\n    \"crc32_no_final_nl\": 1919822831\n  },\n  {\n    \"path\": \"AGENTS/HAWK/NEXUS_BRIEF.md\",\n    \"bytes\": 6535,\n    \"lines\": 56,\n    \"crc32\": 4044940688,\n    \"crc32_no_final_nl\": 3278742269\n  }\n]\n"
+  },
+  {
+    "name": "consumer_self",
+    "chunk_id": "4c3fa2",
+    "wall_time_seconds": 0.00865755,
+    "exit_code": 0,
+    "original_token_count": 393,
+    "output": "\n==================================================================\n  CONSUMER CHECK  ·  who still carries a number you superseded?\n==================================================================\n  SELF mode: 121 files under AGENTS/HAWK/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.\n\n  ── value · superseded END-SEPTEMBER → current early-November\n     🔴 STALE ON A LIVE SURFACE — send the owner a packet (3)\n        AGENTS/HAWK/board_log.tsv:225  [END-SEPTEMBER]\n           2026-09-02T20:20:00-04:00\tHANS-20260828-eu-energy-fires-current-in-place-of-a-close\tacted\tINBOX_AGENT\tTwo registered EU thresholds fired 8/2\n        AGENTS/HAWK/domain/sources/2026-09-08_STATUS_before_owner_catchup.md:121  [END-SEPTEMBER]\n           - 🆕 🟡 **QATAR LNG FORCE MAJEURE EXTENDED AGAIN 8/28 — next decision ~END-SEPTEMBER, inside the no-absorber window.** Exports **−96%**, ~$24B\n        AGENTS/HAWK/workbook/KB.tsv:303  [END-SEPTEMBER]\n           KB-HAWK-299\t2026-09-02\tENERGY\tEU gas / Qatar LNG force majeure\tQatar extended its LNG force majeure AGAIN on 2026-08-28 (exports -96%, ~$24B\n     🟡 in MAIL, point-in-time — usually no action (2: HAWK)\n\n  🔴 3 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).\n==================================================================\n\n"
+  },
+  {
+    "name": "consumer_cross",
+    "chunk_id": "f3a35e",
+    "wall_time_seconds": 1.158839,
+    "exit_code": 0,
+    "original_token_count": 369,
+    "output": "\n==================================================================\n  CONSUMER CHECK  ·  who still carries a number you superseded?\n==================================================================\n  own dir excluded: AGENTS/HAWK/   (processed/ + archive/ excluded everywhere — historical by design)\n\n  ── value · superseded END-SEPTEMBER → current early-November\n     🔴 STALE ON A LIVE SURFACE — send the owner a packet (1)\n        PROME/proposals/2026-09-05_correction-closure-verification-RECORD.md:96  [END-SEPTEMBER]\n           | **HANS Qatar date** (stale on 4 of HANS's own surfaces after correcting HAWK — HANS closeout 9/5; **downstream INCOMPLETE:** HAWK `STATUS.\n     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)\n        AGENTS/WALTER/routed/route_log.tsv:627  [END-SEPTEMBER]  (dated TSV row (2026-07-28) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)\n           2026-07-28\tSIG-W-20260728-004\tWill-Telegram 10-image batch 7/28 (First Squawk headline card) -- identified, verified and substantially exten\n     🟢 cleared: marker-adjacent / next to new value / frozen file (1)  [--show-handled to audit]\n\n  🔴 1 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.\n==================================================================\n\n"
+  },
+  {
+    "name": "final_measure",
+    "chunk_id": "29c530",
+    "wall_time_seconds": 0.00000429,
+    "exit_code": 0,
+    "original_token_count": 331,
+    "output": "[\n  {\n    \"path\": \"AGENTS/HAWK/CLAUDE.md\",\n    \"bytes\": 36165,\n    \"lines\": 266,\n    \"crc32\": 122877886,\n    \"crc32_no_final_nl\": 811194152\n  },\n  {\n    \"path\": \"AGENTS/HAWK/STATUS.md\",\n    \"bytes\": 10189,\n    \"lines\": 65,\n    \"crc32\": 174447890,\n    \"crc32_no_final_nl\": 1780041122\n  },\n  {\n    \"path\": \"AGENTS/HAWK/SCRATCH.md\",\n    \"bytes\": 6943,\n    \"lines\": 56,\n    \"crc32\": 3111560607,\n    \"crc32_no_final_nl\": 521922138\n  },\n  {\n    \"path\": \"AGENTS/HAWK/LESSONS.md\",\n    \"bytes\": 26932,\n    \"lines\": 58,\n    \"crc32\": 3717988175,\n    \"crc32_no_final_nl\": 2582246979\n  },\n  {\n    \"path\": \"AGENTS/OSPREY/NEXUS_BRIEF.md\",\n    \"bytes\": 6938,\n    \"lines\": 43,\n    \"crc32\": 2257449357,\n    \"crc32_no_final_nl\": 1363749372\n  },\n  {\n    \"path\": \"AGENTS/FALCON/NEXUS_BRIEF.md\",\n    \"bytes\": 66502,\n    \"lines\": 190,\n    \"crc32\": 1658402132,\n    \"crc32_no_final_nl\": 188939120\n  },\n  {\n    \"path\": \"AGENTS/VOCABULARIES.tsv\",\n    \"bytes\": 6760,\n    \"lines\": 130,\n    \"crc32\": 1651848184,\n    \"crc32_no_final_nl\": 2806273904\n  },\n  {\n    \"path\": \"AGENTS/HAWK/workbook/SCHEMA.tsv\",\n    \"bytes\": 1829,\n    \"lines\": 14,\n    \"crc32\": 34641745,\n    \"crc32_no_final_nl\": 1919822831\n  },\n  {\n    \"path\": \"AGENTS/HAWK/NEXUS_BRIEF.md\",\n    \"bytes\": 6535,\n    \"lines\": 56,\n    \"crc32\": 3556693902,\n    \"crc32_no_final_nl\": 659096907\n  }\n]\n"
+  }
+]

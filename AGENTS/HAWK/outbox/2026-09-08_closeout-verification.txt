@@ -1,0 +1,159 @@
+HAWK closeout 2026-09-08T21:48:41.283794+00:00
+
+COMMAND git diff --check -- <50 exact manifest paths>
+rc=0
+
+
+COMMAND python3 scripts/read_cap_check.py --agent HAWK
+rc=0
+READ-CAP [HAWK] — cap 54,250 B · budget 32,550 B (60%) · perimeter: 2 boot section(s) in CLAUDE.md, 23 'read' line(s) scanned (0 on-demand/grep + 4 SCOPED-read token(s) excluded by marker), 5 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  🟡 LESSONS.md                           26,932 B    50% of cap  rotate-tier (≥75% of budget)  (boot-step line 43)
+  ✅ STATUS.md                            10,189 B    19% of cap    (boot-step line 41)
+  ✅ SCRATCH.md                            6,943 B    13% of cap    (boot-step line 42)
+  ✅ NEXUS_BRIEF.md                        6,535 B    12% of cap    (boot-step line 44)
+  ✅ workbook/SCHEMA.tsv                   1,829 B     3% of cap    (boot-step line 45)
+  ℹ️ board_log.tsv                       108,515 B   200% of cap  scoped read on an OVER-CAP file — honest read, not lean (READ_CAP rule 8: partial fix; not counted)  (boot-step line 55)
+✅ READ-CAP 0 [HAWK]: every boot-mandated read this check found is under budget (5 file(s)).
+
+
+COMMAND python3 scripts/corrections_boot_check.py HAWK
+rc=0
+CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for HAWK (register 12 row(s), 0 ALL-warn, 0 dead-at-cap; receipts on file: 2) — PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv, nothing else
+
+
+PASS final physical inbox17; all17 dispositions;14 moves pending;3 deferred.
+
+PASS completion receipt and own copy byte-identical; all50 manifest paths exist.
+
+PASS all changed/new HAWK-owned non-inbox files covered by exact manifest; incoming author packets excluded.
+
+Staged names for exact authored paths: (none)
+
+Orphan check rc=0; read-only shared working-tree review.
+⚠️  uncommitted files outside AGENTS/HAWK/:
+     [likely YOURS] AGENTS/DAEDALUS/inbox/2026-09-08_from-HAWK_catchup-structural-and-asmade-dispositions.md
+     [likely YOURS] AGENTS/FALCON/inbox/2026-09-08_from-HAWK_hull-count-refining-and-insurance-receipt.md
+     [likely YOURS] AGENTS/LABOR/inbox/2026-09-08_from-HAWK_canada-product-remission-employment-perimeter.md
+     [likely YOURS] AGENTS/MARCO/inbox/2026-09-08_from-HAWK_canada-product-remission-exposure.md
+     [likely YOURS] AGENTS/OSPREY/inbox/2026-09-08_from-HAWK_refining-audit-and-owner-corrections-receipt.md
+     [likely YOURS] AGENTS/WALTER/inbox/processed/2026-09-08_from-HAWK_Qatar-COR-20260908-04-applied-receipt.md
+     [likely YOURS] AGENTS/WALTER/inbox/processed/2026-09-08_from-HAWK_corrections-and-canada-owner-receipt.md
+     [likely YOURS] PROME/inbox/2026-09-08_from-HAWK_codex-owner-catchup-completion.md
+     [not yours]    AGENTS/BOND/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/DEWEY/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20260908-002.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20260908-003.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20260908-008.md
+     [not yours]    AGENTS/HENRY/inbox/WALTER/SIG-W-20260908-010.md
+     [not yours]    AGENTS/LABOR/inbox/WALTER/SIG-W-20260908-006.md
+     [not yours]    AGENTS/LABOR/inbox/WALTER/SIG-W-20260908-009.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20260908-005.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20260908-008.md
+     [not yours]    AGENTS/LIQUID/inbox/WALTER/SIG-W-20260908-010.md
+     [not yours]    AGENTS/MARCO/inbox/WALTER/SIG-W-20260908-006.md
+     [not yours]    AGENTS/NEXUS/inbox/2026-09-08_from-WALTER_checksum-and-cutover-implemented-NOTE.md
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/SIG-W-20260908-005.md
+     [not yours]    AGENTS/NEXUS/inbox/WALTER/SIG-W-20260908-007.md
+     [not yours]    AGENTS/REGINALD/inbox/WALTER/SIG-W-20260908-008.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20260908-002.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20260908-003.md
+     [not yours]    AGENTS/VIOLET/inbox/WALTER/SIG-W-20260908-010.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20260908-002.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20260908-003.md
+     [not yours]    AGENTS/VULCAN/inbox/WALTER/SIG-W-20260908-004.md
+     [not yours]    AGENTS/WALTER/CLAUDE.md
+     [not yours]    AGENTS/WALTER/LAST_COMPLETION.md
+     [not yours]    AGENTS/WALTER/MEMORY.md
+     [not yours]    AGENTS/WALTER/REGISTRY.tsv
+     [not yours]    AGENTS/WALTER/SESSION_LOG.md
+     [not yours]    AGENTS/WALTER/STATUS.md
+     [not yours]    AGENTS/WALTER/anchors/IRAN_WAR.md
+     [not yours]    AGENTS/WALTER/anchors/IRAN_WAR_HISTORY.md
+     [not yours]    AGENTS/WALTER/design/BOARD_INDEX_GENERATION_DESIGN.md
+     [not yours]    AGENTS/WALTER/design/STATE.md
+     [not yours]    AGENTS/WALTER/design/history/BOARD_INDEX_TOC_CHANGELOG_PRE_CUTOVER_2026-09-08.md
+     [not yours]    AGENTS/WALTER/filtered/kill_log.tsv
+     [not yours]    AGENTS/WALTER/inbox/2026-09-06_from-RED_your-8-28-question-answered-as-far-as-evidence-permits-plus-a-full-history-census-that-supersedes-my-0-79pct.md
+     [not yours]    AGENTS/WALTER/inbox/2026-09-06_from-VULCAN_CONTESTED-the-procurement-of-memory-quote-IS-at-a-primary-8-K-Ex-99-2-1-hit-and-your-direction-call-survives-on-a-better-reason.md
+     [not yours]    AGENTS/WALTER/inbox/2026-09-06_from-VULCAN_I-answered-your-HBM-question-more-confidently-than-the-evidence-supported-KB-148-downgraded.md
+     [not yours]    AGENTS/WALTER/inbox/2026-09-07_from-NEXUS_copy-kill-falsifier-found-a-dead-cwd-relative-path-INSIDE-your-6b-staleness-guard.md
+     [not yours]    AGENTS/WALTER/inbox/2026-09-07_from-PROME_WQ-191-S1-owner-unconsumed-line-LAPSED-your-veto-stands-re-open-condition-registered-L304.md
+     [not yours]    AGENTS/WALTER/inbox/2026-09-08_from-PROME_orchestration-results.md
+     [not yours]    AGENTS/WALTER/inbox/2026-09-08_from-PROME_owed-market-checks.md
+     [not yours]    AGENTS/WALTER/inbox/processed/.consumed.tsv
+     [not yours]    AGENTS/WALTER/inbox/processed/2026-09-06_from-RED_your-8-28-question-answered-as-far-as-evidence-permits-plus-a-full-history-census-that-supersedes-my-0-79pct.md
+     [not yours]    AGENTS/WALTER/inbox/processed/2026-09-06_from-VULCAN_CONTESTED-the-procurement-of-memory-quote-IS-at-a-primary-8-K-Ex-99-2-1-hit-and-your-direction-call-survives-on-a-better-reason.md
+     [not yours]    AGENTS/WALTER/inbox/processed/2026-09-06_from-VULCAN_I-answered-your-HBM-question-more-confidently-than-the-evidence-supported-KB-148-downgraded.md
+     [not yours]    AGENTS/WALTER/inbox/processed/2026-09-07_from-NEXUS_copy-kill-falsifier-found-a-dead-cwd-relative-path-INSIDE-your-6b-staleness-guard.md
+     [not yours]    AGENTS/WALTER/inbox/processed/2026-09-07_from-PROME_WQ-191-S1-owner-unconsumed-line-LAPSED-your-veto-stands-re-open-condition-registered-L304.md
+     [not yours]    AGENTS/WALTER/inbox/processed/2026-09-08_from-PROME_orchestration-results.md
+     [not yours]    AGENTS/WALTER/inbox/processed/2026-09-08_from-PROME_owed-market-checks.md
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_board-index-cutover-receipt.json
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_closeout-validation.json
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_codex-owner-catchup-completion.md
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_codex-owner-progress.md
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_consumer-cross.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_consumer-self.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_consumer-skew-self.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_consumer-skew.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_created-paths.json
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_diff-hygiene.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_doctor-results.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_inbox-dispositions.tsv
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_intake-after.json
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_intake-dispositions.tsv
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_intake-inputs.json
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_intended-git-paths.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_previous-completion-carry.md
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_read-cap-results.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_registry-header-receipt.json
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_regression-results.txt
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_source-and-consumer-receipt.md
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_verify-intake-memory.md
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_verify-intake-other.md
+     [not yours]    AGENTS/WALTER/outbox/2026-09-08_version-drift-results.txt
+     [not yours]    AGENTS/WALTER/registry/BATCH_MANIFEST.tsv
+     [not yours]    AGENTS/WALTER/registry/CORRECTIONS.tsv
+     [not yours]    AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv
+     [not yours]    AGENTS/WALTER/registry/intake_seen.json
+     [not yours]    AGENTS/WALTER/routed/delivery_log.tsv
+     [not yours]    AGENTS/WALTER/routed/route_log.tsv
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20260908-002.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20260908-003.md
+     [not yours]    AGENTS/WATT/inbox/WALTER/SIG-W-20260908-007.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20260908-001.md
+     [not yours]    AGENTS/ZHAO/inbox/WALTER/SIG-W-20260908-004.md
+     [not yours]    BOARD/INDEX.md
+     [not yours]    BOARD/SIG-W-20260903-001-skew-150-63-is-the-first-150-of-this-leg-and-it-is-NOT-gradeable-cboe-has-not-published-9-3.md
+     [not yours]    BOARD/SIG-W-20260904-001-the-procurement-of-memory-quote-in-sig-0828-045-is-in-no-nvda-primary-the-10-q-says-memory-AND-manufacturing-facilities-and-the-memory-share-is-undisclosed.md
+     [not yours]    BOARD/SIG-W-20260906-001-us-opens-an-investigation-into-the-sirik-wedding-strike-and-weapons-experts-read-it-as-a-direct-us-munition-hit.md
+     [not yours]    BOARD/SIG-W-20260906-002-hbm3e-spot-is-4-to-7x-the-contract-price-and-samsung-has-locked-70pct-of-capacity-to-ltas-through-2031.md
+     [not yours]    BOARD/SIG-W-20260908-001-ERRATUM-nvda-cfo-memory-wording-exists-share-undisclosed.md
+     [not yours]    BOARD/SIG-W-20260908-002-CORRECTION-hbm-ratio-unresolved-samsung-lock-unverified.md
+     [not yours]    BOARD/SIG-W-20260908-003-memory-research-revenue-not-price-smartphone-pull-forward.md
+     [not yours]    BOARD/SIG-W-20260908-004-cxmt-lpddr6-package-die-primary-upgrade.md
+     [not yours]    BOARD/SIG-W-20260908-005-hy-fred-september7-observation-exists.md
+     [not yours]    BOARD/SIG-W-20260908-006-canada-operative-cbsa-countermeasure.md
+     [not yours]    BOARD/SIG-W-20260908-007-pjm-expiry-interim-outcome-pending.md
+     [not yours]    BOARD/SIG-W-20260908-008-september8-market-close-wal-exit-not-reached.md
+     [not yours]    BOARD/SIG-W-20260908-009-trinity-it-outsourcing-qualified-labor-lead.md
+     [not yours]    BOARD/SIG-W-20260908-010-skew-census-correction-dated-bars-pending.md
+     [not yours]    PROME/inbox/2026-09-08_from-WALTER_codex-owner-catchup-completion.md
+     [not yours]    PROME/state/ORCH_LOG.tsv
+
+🔴 THE FLAGGED FILES LOOK LIKE PACKETS YOU AUTHORED.
+   If you do not commit them they never reach the recipient, and the recipient
+   is never told anything was sent. Committing files you authored into another
+   agent's inbox is the ONE sanctioned exception to the pathspec rule.
+
+   git add <paths> && git commit <paths> -m "HAWK -> <recipient>: <what>"
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.
+
