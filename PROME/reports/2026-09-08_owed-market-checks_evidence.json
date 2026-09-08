@@ -1,0 +1,370 @@
+{
+  "retrieved_utc": "2026-09-08T20:21:41.570747+00:00",
+  "fred": {
+    "DGS10": [
+      {
+        "date": "2026-09-04",
+        "value": "4.78"
+      },
+      {
+        "date": "2026-09-03",
+        "value": "4.77"
+      },
+      {
+        "date": "2026-09-02",
+        "value": "4.79"
+      },
+      {
+        "date": "2026-09-01",
+        "value": "4.79"
+      },
+      {
+        "date": "2026-08-31",
+        "value": "4.75"
+      },
+      {
+        "date": "2026-08-28",
+        "value": "4.73"
+      },
+      {
+        "date": "2026-08-27",
+        "value": "4.67"
+      },
+      {
+        "date": "2026-08-26",
+        "value": "4.66"
+      },
+      {
+        "date": "2026-08-25",
+        "value": "4.64"
+      },
+      {
+        "date": "2026-08-24",
+        "value": "4.7"
+      },
+      {
+        "date": "2026-08-21",
+        "value": "4.74"
+      },
+      {
+        "date": "2026-08-20",
+        "value": "4.69"
+      }
+    ],
+    "DFII10": [
+      {
+        "date": "2026-09-04",
+        "value": "2.43"
+      },
+      {
+        "date": "2026-09-03",
+        "value": "2.42"
+      },
+      {
+        "date": "2026-09-02",
+        "value": "2.45"
+      },
+      {
+        "date": "2026-09-01",
+        "value": "2.44"
+      },
+      {
+        "date": "2026-08-31",
+        "value": "2.44"
+      },
+      {
+        "date": "2026-08-28",
+        "value": "2.42"
+      },
+      {
+        "date": "2026-08-27",
+        "value": "2.34"
+      },
+      {
+        "date": "2026-08-26",
+        "value": "2.34"
+      },
+      {
+        "date": "2026-08-25",
+        "value": "2.32"
+      },
+      {
+        "date": "2026-08-24",
+        "value": "2.38"
+      },
+      {
+        "date": "2026-08-21",
+        "value": "2.4"
+      },
+      {
+        "date": "2026-08-20",
+        "value": "2.35"
+      }
+    ],
+    "BAMLH0A0HYM2": [
+      {
+        "date": "2026-09-07",
+        "value": "2.68"
+      },
+      {
+        "date": "2026-09-04",
+        "value": "2.68"
+      },
+      {
+        "date": "2026-09-03",
+        "value": "2.65"
+      },
+      {
+        "date": "2026-09-02",
+        "value": "2.66"
+      },
+      {
+        "date": "2026-09-01",
+        "value": "2.65"
+      },
+      {
+        "date": "2026-08-31",
+        "value": "2.63"
+      },
+      {
+        "date": "2026-08-28",
+        "value": "2.6"
+      },
+      {
+        "date": "2026-08-27",
+        "value": "2.63"
+      },
+      {
+        "date": "2026-08-26",
+        "value": "2.67"
+      },
+      {
+        "date": "2026-08-25",
+        "value": "2.7"
+      },
+      {
+        "date": "2026-08-24",
+        "value": "2.69"
+      },
+      {
+        "date": "2026-08-21",
+        "value": "2.7"
+      }
+    ]
+  },
+  "quotes": {
+    "XLE": {
+      "metadata": {
+        "regularMarketTime": 1788897600,
+        "regularMarketPrice": 64.77,
+        "exchangeTimezoneName": "America/New_York",
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1788854400,
+            "end": 1788874200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1788874200,
+            "end": 1788897600,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1788897600,
+            "end": 1788912000,
+            "gmtoffset": -14400
+          }
+        }
+      },
+      "bars": [
+        {
+          "date": "2026-09-01 00:00:00-04:00",
+          "close": 64.7699966430664
+        },
+        {
+          "date": "2026-09-02 00:00:00-04:00",
+          "close": 65.0999984741211
+        },
+        {
+          "date": "2026-09-03 00:00:00-04:00",
+          "close": 64.62000274658203
+        },
+        {
+          "date": "2026-09-04 00:00:00-04:00",
+          "close": 64.05999755859375
+        },
+        {
+          "date": "2026-09-08 00:00:00-04:00",
+          "close": 64.7699966430664
+        }
+      ]
+    },
+    "WAL": {
+      "metadata": {
+        "regularMarketTime": 1788897602,
+        "regularMarketPrice": 79.94,
+        "exchangeTimezoneName": "America/New_York",
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1788854400,
+            "end": 1788874200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1788874200,
+            "end": 1788897600,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1788897600,
+            "end": 1788912000,
+            "gmtoffset": -14400
+          }
+        }
+      },
+      "bars": [
+        {
+          "date": "2026-09-01 00:00:00-04:00",
+          "close": 77.26000213623047
+        },
+        {
+          "date": "2026-09-02 00:00:00-04:00",
+          "close": 79.12000274658203
+        },
+        {
+          "date": "2026-09-03 00:00:00-04:00",
+          "close": 81.0
+        },
+        {
+          "date": "2026-09-04 00:00:00-04:00",
+          "close": 80.94999694824219
+        },
+        {
+          "date": "2026-09-08 00:00:00-04:00",
+          "close": 79.94000244140625
+        }
+      ]
+    },
+    "USO": {
+      "metadata": {
+        "regularMarketTime": 1788897600,
+        "regularMarketPrice": 146.03,
+        "exchangeTimezoneName": "America/New_York",
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1788854400,
+            "end": 1788874200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1788874200,
+            "end": 1788897600,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1788897600,
+            "end": 1788912000,
+            "gmtoffset": -14400
+          }
+        }
+      },
+      "bars": [
+        {
+          "date": "2026-09-01 00:00:00-04:00",
+          "close": 141.0
+        },
+        {
+          "date": "2026-09-02 00:00:00-04:00",
+          "close": 141.14999389648438
+        },
+        {
+          "date": "2026-09-03 00:00:00-04:00",
+          "close": 142.08999633789062
+        },
+        {
+          "date": "2026-09-04 00:00:00-04:00",
+          "close": 141.9600067138672
+        },
+        {
+          "date": "2026-09-08 00:00:00-04:00",
+          "close": 146.02999877929688
+        }
+      ]
+    },
+    "TLT": {
+      "metadata": {
+        "regularMarketTime": 1788897600,
+        "regularMarketPrice": 82.2,
+        "exchangeTimezoneName": "America/New_York",
+        "currentTradingPeriod": {
+          "pre": {
+            "timezone": "EDT",
+            "start": 1788854400,
+            "end": 1788874200,
+            "gmtoffset": -14400
+          },
+          "regular": {
+            "timezone": "EDT",
+            "start": 1788874200,
+            "end": 1788897600,
+            "gmtoffset": -14400
+          },
+          "post": {
+            "timezone": "EDT",
+            "start": 1788897600,
+            "end": 1788912000,
+            "gmtoffset": -14400
+          }
+        }
+      },
+      "bars": [
+        {
+          "date": "2026-09-01 00:00:00-04:00",
+          "close": 81.87000274658203
+        },
+        {
+          "date": "2026-09-02 00:00:00-04:00",
+          "close": 81.94999694824219
+        },
+        {
+          "date": "2026-09-03 00:00:00-04:00",
+          "close": 82.06999969482422
+        },
+        {
+          "date": "2026-09-04 00:00:00-04:00",
+          "close": 82.20999908447266
+        },
+        {
+          "date": "2026-09-08 00:00:00-04:00",
+          "close": 82.19999694824219
+        }
+      ]
+    }
+  },
+  "skew": {
+    "source": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+    "retrieved_date": "2026-09-08",
+    "tail": [
+      "08/27/2026,144.050000",
+      "08/28/2026,149.770000",
+      "08/31/2026,148.530000",
+      "09/01/2026,149.230000",
+      "09/02/2026,144.120000",
+      "09/03/2026,150.630000",
+      "09/04/2026,151.580000"
+    ]
+  },
+  "walter_parity": {
+    "command": "python3 AGENTS/WALTER/tools/gen_board_index.py --check",
+    "stdout": "ID set: 891 identical\nmarkers: live rows with a marker 53 \u00b7 derivable 111 \u00b7 HAND-ONLY (would be LOST) 0 \u00b7 derivable-but-unmarked-live (would be GAINED) 65\nCHECK PASS\n"
+  }
+}
