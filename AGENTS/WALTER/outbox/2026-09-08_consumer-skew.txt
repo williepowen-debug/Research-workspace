@@ -1,0 +1,56 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded 0.79 → current 0.40
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (12)
+        AGENTS/VIOLET/LAST_COMPLETION.md:17  [0.79]
+           **RESULT:** ① **WQ-177 DISCHARGED** on Will's verbatim "Okay approved" 11:11 — `TRADE.md` §LIVE DECISION FRAMEWORK **ARMED → RETIRED-SUPERSE
+        AGENTS/VIOLET/board_log.tsv:108  [0.79]
+           2026-09-04T13:33:50-04:00	RED-20260902-ft10basis	acted	INBOX_ROOT	FT-10 NOW GRADES ON CBOE; RED RE-VERIFIED MY FINDING AT THE PUBLISHER RATH
+        AGENTS/RED/NEXUS_BRIEF.md:7  [0.79]
+           > **① `RED-FT-10` GRADING BASIS DECLARED under WQ-162, and the margin four desks quote is WITHDRAWN.** The row now grades on **CBOE `SKEW_Hi
+        AGENTS/DAEDALUS/profiles/RED_REFRESH_2026-09-03_READER_REPORT.md:197  [0.79]
+           | D-2 | 🟠 | `scripts/boot.py:69` `"SKEW-CBOE": ("yf","^SKEW",…)` | boot.py evaluates FT-10 from the mirror the FT-10 letter disqualifies (c1
+        AGENTS/DAEDALUS/profiles/VIOLET_REFRESH_2026-09-04_READER_A.md:72  [0.79]
+           2. 🟠 **The 9/4 `^SKEW` two-mode defect is absent from `## Known data caveats` (`:164-173`)** — omission 8/28 + value disagreement 2025-12-24
+        AGENTS/DAEDALUS/profiles/VIOLET_REFRESH_2026-09-04_READER_B.md:67  [0.79]
+           **The `^SKEW` defect touches no graded leg** — it appears only in the frozen state table at CBOE basis (`:82`). **But the exposure moved rat
+        AGENTS/VIOLET/workbook/KB.tsv:109  [0.79]
+           KB-VIO-108	2026-07-01	VOL	SKEW	"SKEW RAMP TO TOP-DECILE + HEDGE-STRUCTURE ROTATION - THE VIX PRINT IS PARTLY AN ARTIFACT. Official CBOE clos
+        AGENTS/VIOLET/workbook/KB.tsv:237  [0.79]
+           KB-VIO-236	2026-09-04	META	SKEW	THE ^SKEW MIRROR HAS TWO DEFECT MODES OVER 253 SESSIONS, NOT ONE, AND THE COMPLETENESS CHECK I PROPOSED AS T
+        AGENTS/RED/workbook/ML.tsv:211  [0.79]
+           ML-RED-210	2026-09-02	S40	Self/VIOLET/instrument-audit	METHODOLOGY	WHEN A MIRROR IS FOUND DEFECTIVE, BASE-RATE ITS DEFECT MODES OVER A LONG 
+        AGENTS/RED/research/2026-09-02_FT10_GRADING_BASIS_DECLARED.md:68  [0.79]
+           > 8. **MIRROR, NOT BASIS.** Yahoo `^SKEW` / `FORGE/tools/market-data/fetch.py` is retained as a **same-day PROVISIONAL mirror only**. It **c
+        AGENTS/RED/reports/2026-09-03_S40_status_header_narrative.md:9  [0.79]
+           **Last Updated:** 2026-09-02 ~23:0x ET [`date`-verified] — **S40 (PROME wave-4 spawn on Will's word 22:43 "Spawn the next six"): TWO GRADING
+        PROME/proposals/2026-07-29_HEARTBEAT_AMENDMENT4_DRAFT.md:34  [0.79]
+           SPX **7,316.15 [7/29 close, −1.52%]** · VIX **20.66 settle [7/29, +13.45%; high 20.88]** · VIX3M/VIX **1.041 [7/29]** · SKEW **139.55 [7/29,
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (85)
+        AGENTS/SELF_RULINGS.tsv:21  [0.79]  (no unit/series context on line)
+           2026-08-21	MIDAS	L-12: does M1 v2 kill-cond #3's "sustained 3+ weeks" require the gold-up/real-yields-up conjunction to hold CONTINUOUSLY, o
+        AGENTS/DAEDALUS/PATTERNS.tsv:122  [0.79]  (no unit/series context on line)
+           PAT-119	2026-08-20	A FALSIFIER DEFINED AS 'THE EXTREME STATE RELAXES' FIRES ON THE POPULATION'S DEFAULT STATE — AND RAISING THE LEVEL MAKES 
+        AGENTS/VIOLET/NEXUS_BRIEF.md:33  [0.79]  (no unit/series context on line)
+           > ⚠️ **AMENDED 11:1x, AND THE CORRECTION IS RED'S, ARRIVING AFTER I HAD PUBLISHED THIS.** Their full-history census (**9,221 sessions**) rec
+        AGENTS/VIOLET/CANARY_MAP.md:52  [0.79]  (no unit/series context on line)
+           > **It compares VALUES, not bar counts.** There are **two** defect modes over 253 sessions — an omitted session **and** a value disagreement
+        AGENTS/MIDAS/THESIS.md:63  [0.79]  (no unit/series context on line)
+           > | Weekly-continuous (3-of-3) | 9 | **0.79%** | GLD 10 / 0.88% — **24× harder** |
+        AGENTS/HENRY/board_log.tsv:205  [0.79]  (no unit/series context on line)
+           2026-08-23T19:00	SIG-W-20260819-004	acted	INBOX_WALTER	GLOBAL LONG-END CROSS-SECTION, consumed as CONTESTED not as confirmation -- and the c
+        AGENTS/HENRY/board_log.tsv:210  [0.79]  (no unit/series context on line)
+           2026-08-23T19:00	SIG-W-20260820-003	acted	INBOX_WALTER	'THE INTERVENTION FAILED' vs 'THE ANNOUNCEMENT'S EFFECT DECAYED' -- only the second i
+        AGENTS/RED/OUTBOX.md:107  [0.79]  (no unit/series context on line)
+           3. **🆕 A second defect VIOLET's packet did not carry.** Over **253 trailing sessions** the yfinance mirror has **two defect modes**: the omi
+        … +77 more 🟠 hit(s) on [0.79] across 60 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (5: BOND, CORAL, RED, TERRY)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (40)  [--show-handled to audit]
+
+  🔴 12 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

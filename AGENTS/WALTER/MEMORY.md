@@ -63,28 +63,18 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION (2026-09-06 Sun — TIER-2 FULL; boot ~09:5x → close ~12:0x ET, `walter-a6`)
-
-- **3 dispatches · 5 kills · 1 dup · 1 fold · 2 doorbell rows · 6 REGISTRY rows.** BOARD **888 → 891**. Doctor 0 HIGH / 1 MED. Suite **67/67**.
-- **The 9/8 L273 cutover gate was RED at boot and my own 9/5 signal was the blocker.** Fixed at the class — FORMAT_SPEC **v0.21** `erratum:` for ADDITIVE errata; both-fields is a HARD ERROR; mutation-tested. Gate GREEN, parity PASS at 891.
-- **Lane backlog cleared 9/9.** The kill that mattered was a **DATE TRAP** — a 10-week-stale Bloomberg piece whose move was credit STRENGTH, which routed on its keyword would have reached LIQUID stale AND sign-inverted.
-- **False cap alarm killed at its generator** (doctor + 12(f) + 12(e)); **`## BOTTOM LINE` mechanized** as check #33 after a SECOND loss by absorption; **`SIG-W-20260906-003`** challenged my own record and RED closed it same-day — **the FT-06 fire STANDS on FRED VIXCLS**.
-- **Pilot CLOSED, passed on the tested exercise**, independently scored by Codex; **three of my claims withdrawn**. Live charter unchanged.
-
-### NEW FINDINGS THIS SESSION (candidates; owning surface named)
-
-1. 🔴 **A CORRECTION PLACED BESIDE AN INSTRUCTION DOES NOT REPLACE IT** — both stay readable and the surface teaches two contradictory things; a reader stopping at the bold lead complies with the retracted rule. Distinct from the byte-cost finding: the defect is CONTRADICTION, size is a side effect. → promoted `[[finding_correction_beside_an_instruction_leaves_two_live_instructions]]` (Codex).
-2. 🔴 **PRESERVE TOOL RECORDS DIRECTLY — A MANDATED REPORTING FORMAT IS A REQUEST, NOT AN INSTRUMENT.** Two readers told *in bold* to return exact commands both abbreviated; I then committed summaries labelled "verbatim". → `[[finding_record_of_an_action_is_not_the_action]]` **n=16**. 🔴 **Live gap: RULE 9 verify-spawn verdicts rest on the spawned agent's self-report.**
-3. 🔴 **A GUARD BUILT AGAINST DELETION DOES NOT CATCH ABSORPTION.** `## BOTTOM LINE` was named in the regenerating step (PAT-113) and lost anyway, swallowed by an unclosed backtick in the sentence warning against its deletion. **Naming the artifact made the step check the CONTENT, never the ANCHOR.** → doctor #33 + BP §0.5 19b.
-4. **THE FIX LANDS ON THE OUTPUT WHILE THE INSTRUCTION PRODUCING IT IS UNTOUCHED** — caught in me four consecutive rounds. **The tell is a repair cycle that keeps finding "one more place," each upstream of the last.** Ask at the FIRST fix: what wrote this, and does it still say the old thing? → in DAEDALUS's L294 sweep packet.
-5. **A FALSE ALARM IS NOT A FALSE-ASSURANCE DEFECT** — one fails LOUD by inventing a violation, the other SILENT by reporting success. Pooling them hides the direction the family is about. And **fixing a false alarm carries the inverse risk**, so the repair must pin the loud branch that remains. → `check_auto_load_budget` docstring.
-6. **`[^|]*` MATCHES NEWLINES.** My INDEX regex ran past two row ends and swallowed two ToC rows; `board_reconcile` went HIGH. **A table-row edit must be anchored to the line, not to the next delimiter.** → repaired by exact split; the generator would not have done it, which argues for the 9/8 cutover.
+### CHANGES SINCE LAST SESSION — 2026-09-08 Tier-2 owner implementation
+- SEC CFO primary disproves our no-primary claim;001 corrected original recipients and live carriers. Undisclosed memory share holds. HBM002 consumes VULCAN retraction; FX diagnosis and Samsung lock remain unverified.
+- WQ174/L273 INDEX cutover IMPLEMENTED, not just dry-run; archive and hashed receipt filed. Step11 regenerates;§6b checksum pointer now cwd-safe.
+- Inbox7+2late HAWK consumed/filed; intake15/15 closed, including3watch hits; source/novelty/date errors corrected.10dispatches,1kill,4dup,2fold; one verifier/two assignments. No new projects.
+- HAWK Canada owner adjudication received; Qatar correction registeredCOR-20260908-04. Iran anchor reconciled to ownerKylo/total-loss2; broader primary sweep partial.
+- RED census0.79 withdrawn;010 carries0.40 window/4.31 full. REGINALD REGT07 asks and RED omission question removed from open carry because original artifacts already answered them.
+- Commit/push pending PROME serialized Git; packets written, not delivered. No trades, Telegram/external messages or threshold/probability changes.
 
 ### NEXT SESSION
-1. 🔴 **FT-10: the 9/8 CBOE bar.** 2-of-4; extends or resets; **RED grades it in Will's window** and the path is CBOE-direct on both sides. 9/9 earliest completion.
-2. 🔴 **9/8 BOARD/INDEX CUTOVER (L273)** — gate is GREEN, parity PASS at 891, hand-only 0. **Re-check `--check` immediately before the swap; do not assume it held.**
-3. **Iran anchor re-verify DUE ~9/7 (tomorrow)** — last verified 2026-09-01T21:45Z (ADD#23). `SIG-W-20260906-001` is an INPUT to it, not a substitute.
-4. **Adoption of the pilot candidate is a SEPARATE DECISION, not taken.** Step 1 out of scope. Do not re-run the pilot to force divergence — that changes the objective.
-5. **Owed by others:** BROCK `-0903-005` · REGINALD CREED's two `REG-T-07` asks (since 8/20) · AEOLUS 2 ACTION, fleet's oldest (46d) · RED the 8/28 yfinance-omission example.
-6. **Dated:** **9/8** DOE §202(c) lapses + FT-10 bar + INDEX cutover · **9/9** FT-11 precondition + L275 · **9/10** ECB · **9/11** WQ-179 (LABOR's question — WALTER's evidence WITHDRAWN as a second instance) · **9/12** L294 · **9/16** FOMC · **9/17** staleness sweep · **9/30** leg-3b soak.
-7. **`MEMORY_PROMOTED.md` still unmeasured; `MEMORY.md` re-rotation trigger 24,412 B.** Next mandatory check 9/30.
+1. After parent commit/push, reconcile delivery_log via existing tool; collect owner correction receipts. Do not repeat source asks already answered by VULCAN/RED/REGINALD.
+2. FT10 September8 Cboe bar remains UNKNOWN here; check actual dated source, never grade missing. PJM postSeptember8 23:59ET outcome still owed to WATT; no premature seven-clear-day grade.
+3. BROCKSeptember9 hold; FT11/L275September9; ECBSeptember10; WQ179September11; L294September12; FOMCSeptember16; staleness sweepSeptember17; leg3bSeptember30.
+4. Full Iran primary re-verification owed before next Iran dispatch; do not confuse owner-artifact reconciliation with broad source verification. HANS storage gap and exact UK30Y/TTF close bases remain partial.
+5. Pilot step3 adoption remains a separate Will decision. Keep standing open-design list in LAST_COMPLETION; none newly approved by whole-inbox drain. No rerun to force divergence.
+6. Verify-spawn verdict record still relies on self-report; current reports include source/tool locators but this does not resolve the structural gap. MEMORY_PROMOTED coverage still unmeasured. Preserve scope on read-cap and validation claims.

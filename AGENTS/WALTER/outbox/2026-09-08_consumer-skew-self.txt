@@ -1,0 +1,22 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 106 files under AGENTS/WALTER/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded 0.79 → current 0.40
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (4)
+        AGENTS/WALTER/filtered/kill_log.tsv:479  [0.79]  (no unit/series context on line)
+           2026-08-15	RESEARCH-INTAKE lane news.json 2026-08-14, NEW_ALERT (SAM-tagged). BM-20260815-01 item 6.	Reuters: 'Japan may see more yen interv
+        AGENTS/WALTER/routed/route_log.tsv:140  [0.79]  (no unit/series context on line)
+           2026-05-08T16:20:00Z	SIG-W-20260508-006	BLS Employment Situation Report April 2026 released 2026-05-08 12:30 UTC (8:30 AM ET) — golden-sourc
+        AGENTS/WALTER/routed/route_log.tsv:215  [0.79]  (no unit/series context on line)
+           2026-05-13T17:46:00Z	SIG-W-20260513-006	LSEG Datastream + Yardeni Research + Standard & Poors weekly Relative Forward P/E Ratios chart (May 
+        AGENTS/WALTER/routed/route_log.tsv:793  [0.79]  (no unit/series context on line)
+           2026-08-20	SIG-W-20260820-003	Will-Telegram 6-image batch 2026-08-20 ~14:2xZ, declared BM-20260820-01 BEFORE triage per step 10.5. Cluster: 
+     🟡 in MAIL, point-in-time — usually no action (18: WALTER)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (15)  [--show-handled to audit]
+
+  🟠 4 CANDIDATE(s), zero certified-stale. A 🟠 is a prompt to LOOK, never a packet: confirm same series AND unit at the hit, then re-run with --unit/--series for the 🔴 verdict.
+==================================================================
+

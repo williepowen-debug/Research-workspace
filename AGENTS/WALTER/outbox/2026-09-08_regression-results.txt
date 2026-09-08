@@ -1,0 +1,101 @@
+WALTER false-assurance regressions v2 — BEHAVIOURAL (Codex 2026-09-05, 2nd pass)
+
+[A] _sync_state: a failing git command is UNKNOWN, never on_origin
+  PASS  git exit 128 + empty stdout -> 'unknown'
+  PASS  git exit 128 does NOT produce 'on_origin'
+  PASS  clean status + FAILING rev-list -> 'unknown'
+  PASS  clean status + EMPTY rev-list output -> 'unknown' (no silent 0)
+
+[B] _ever_in_git: tri-state, fails closed
+  PASS  origin path-set build failure -> None (UNKNOWN)
+  PASS  path present in origin history -> True
+  PASS  path absent from origin history -> False (confirmed per-path)
+  PASS  reconciler: never-pushed path -> False (not 'delivered')
+  PASS  reconciler: pushed path -> True
+  PASS  reconciler: unusable ref -> None (UNKNOWN)
+
+[C] delivery verdict on a self-contained 4-row fixture
+  PASS  a row delivered at its ORIGINAL path is not flagged
+  PASS  🔴 an UNPUSHED FILING MOVE does not retract established delivery
+  PASS  a path that NEVER reached origin is reported
+  PASS  the never-delivered row is HIGH
+  PASS  unavailable evidence -> reported, never a pass
+  PASS  unavailable evidence does NOT produce the all-clear
+  PASS  unavailable evidence is at least MED
+  PASS  always-True stub CHANGES the verdict (fixture discriminates)
+
+[D] a consume declaration must belong to the destination owner
+  PASS  BETA's ledger does NOT declare ALPHA's filing
+  PASS  BETA's own ledger still declares BETA
+  PASS  ALPHA's own ledger DOES declare ALPHA (no false negative)
+  PASS  WALTER's own inbox shape still recognised
+
+[E] index freshness: exercises the real post-cutover branch
+  PASS  an INTACT generated index passes
+  PASS  fixture actually contains generated rows
+  PASS  the tamper changed the text
+  PASS  a CHANGED RECIPIENT under an intact banner is caught
+  PASS  and it is HIGH, not a note
+  PASS  a DELETED row under an intact banner is caught
+
+[E2] reconciler --apply must not return 0 while rows are UNRESOLVED
+delivery_log rows: 1
+  pending -> delivered (in origin/master tree, or in origin/master HISTORY): 0
+  REAL ORPHANS (origin/master has NEVER seen the path, left untouched): 1
+    row 2: AGENTS/X/inbox/WALTER/never-pushed-xyz.md
+
+DRY RUN — nothing written. Re-run with --apply to write.
+delivery_log rows: 1
+  pending -> delivered (in origin/master tree, or in origin/master HISTORY): 0
+  REAL ORPHANS (origin/master has NEVER seen the path, left untouched): 1
+    row 2: AGENTS/X/inbox/WALTER/never-pushed-xyz.md
+
+nothing to do.
+⚠️  but 1 row(s) remain UNRESOLVED (1 orphan / 0 unknown) — exit 1.
+  PASS  dry-run with an unresolved row exits 1
+  PASS  --apply with the SAME unresolved row also exits 1 (not 0)
+  PASS  both modes agree on the verdict
+
+[F] MUTATION — stub each fix to lie; the covering assertion MUST go red
+  PASS  always-True stub SILENCES the real orphan (so [C] discriminates)
+  PASS  always-True and always-False give DIFFERENT verdicts
+  PASS  always-None (unavailable) differs from both
+  PASS  the UNSTUBBED run differs from always-True (real git is consulted)
+  PASS  always-on_origin and always-unknown give DIFFERENT verdicts
+  PASS  only the 'unknown' run reports unverified rows
+  PASS  an always-fresh index stub does NOT report drift (so [E] discriminates)
+
+[G] AUTO-LOAD — report without grading; stay loud on an INCOMPLETE measurement
+  PASS  verdict is INFO when every component is measurable
+  PASS  no cap/budget GRADE in the message: '% of the' absent
+  PASS  no cap/budget GRADE in the message: '% of cap' absent
+  PASS  no cap/budget GRADE in the message: '% of budget' absent
+  PASS  no cap/budget GRADE in the message: 'OVER THE CAP' absent
+  PASS  no cap/budget GRADE in the message: 'over budget' absent
+  PASS  own size still reported
+  PASS  the joint total is still reported
+  PASS  a 60,000 B charter (over the OLD cap) is still INFO, not MED
+  PASS  ...and raises no cap alarm
+  PASS  an unreadable component raises MED, not a clean INFO
+  PASS  ...names what it could not read
+  PASS  ...and reports the number as a FLOOR, never a total
+  PASS  MUTATION: unreadable OWN file gives a DIFFERENT verdict than the real run
+  PASS  MUTATION: an unreadable own file reports NO total at all
+
+[H] BOTTOM LINE anchor — missing · absorbed · duplicate · empty · valid
+  PASS  valid: severity is INFO
+  PASS  missing: severity is MED
+  PASS  missing: message names the failure ('NO standalone')
+  PASS  absorbed: severity is MED
+  PASS  absorbed: message names the failure ('ABSORBED')
+  PASS  duplicate: severity is MED
+  PASS  duplicate: message names the failure ('2 `## BOTTOM LINE`')
+  PASS  empty: severity is MED
+  PASS  empty: message names the failure ('EMPTY section')
+  PASS  unicode: severity is INFO
+  PASS  absorbed and valid give DIFFERENT verdicts
+  PASS  absorbed is distinguished from plain-missing (it names the absorbing line)
+  PASS  no size claim in the success message (len() on str is chars, not bytes)
+  PASS  unreadable STATUS.md is MED and says UNKNOWN, not clean
+
+✓ all 67 behavioural assertions pass

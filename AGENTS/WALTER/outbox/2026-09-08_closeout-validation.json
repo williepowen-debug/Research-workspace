@@ -1,0 +1,116 @@
+{
+  "checks": [
+    {
+      "name": "index parity",
+      "command": [
+        "python3",
+        "AGENTS/WALTER/tools/gen_board_index.py",
+        "--check"
+      ],
+      "rc": 0,
+      "stdout": "ID set: 901 identical\nmarkers: live rows with a marker 115 \u00b7 derivable 114 \u00b7 HAND-ONLY (would be LOST) 0 \u00b7 derivable-but-unmarked-live (would be GAINED) 0\nCHECK PASS\n",
+      "stderr": ""
+    },
+    {
+      "name": "version drift",
+      "command": [
+        "python3",
+        "AGENTS/WALTER/tools/version_drift_check.py"
+      ],
+      "rc": 0,
+      "stdout": "spec                                     spec-header  STATE \u00a71  status\n--------------------------------------------------------------------------\ndesign/SIGNAL_FORMAT_SPEC.md                   v0.21     v0.21  ok\ndesign/ROUTING_TABLE.md                        v0.31     v0.31  ok\ndesign/FILTER_SPEC.md                           v0.7      v0.7  ok\ndesign/SIGNAL_PROCESSING_CHECKLIST.md          v0.40     v0.40  ok\ndesign/CLUSTER_TAXONOMY.md                      v0.7      v0.7  ok\ndesign/BOARD_CONSUMPTION_SPEC.md               v0.22     v0.22  ok\n--------------------------------------------------------------------------\ndesign/ROUTING_CARVEOUTS.md                    v0.31     v0.31  ok (lockstep with design/ROUTING_TABLE.md)\n--------------------------------------------------------------------------\n\n\u2713 STATE.md \u00a71 matches every spec header; companions in lockstep.\n",
+      "stderr": ""
+    },
+    {
+      "name": "read cap",
+      "command": [
+        "python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "WALTER"
+      ],
+      "rc": 0,
+      "stdout": "READ-CAP [WALTER] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 perimeter: 2 boot section(s) in CLAUDE.md, 58 'read' line(s) scanned (9 on-demand/grep + 0 SCOPED-read token(s) excluded by marker), 9 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \ud83d\udfe1 design/ROUTING_TABLE.md              31,764 B    59% of cap  rotate-tier (\u226575% of budget)  (boot-step line 62)\n  \ud83d\udfe1 REGISTRY.tsv                         24,497 B    45% of cap  rotate-tier (\u226575% of budget)  (boot-step line 60)\n  \u2705 anchors/IRAN_WAR.md                  17,813 B    33% of cap    (boot-step line 57)\n  \u2705 MEMORY.md                            11,043 B    20% of cap    (boot-step line 58)\n  \u2705 STATUS.md                             9,794 B    18% of cap    (boot-step line 57)\n  \u2705 LAST_COMPLETION.md                    7,289 B    13% of cap    (boot-step line 59)\n  \u2705 design/EVENT_WINDOW_STATE.md          6,157 B    11% of cap    (boot-step line 73)\n  \u2705 registry/FALSIFICATION_FIRED_LOG.tsv    1,924 B     4% of cap    (boot-step line 68)\n  \u2705 registry/REG_THRESHOLDS_FIRED_LOG.tsv    1,792 B     3% of cap    (boot-step line 68)\n\u2705 READ-CAP 0 [WALTER]: every boot-mandated read this check found is under budget (9 file(s)).\n",
+      "stderr": ""
+    },
+    {
+      "name": "correction intake",
+      "command": [
+        "python3",
+        "scripts/corrections_boot_check.py",
+        "WALTER"
+      ],
+      "rc": 0,
+      "stdout": "CORRECTIONS-CHECK 0 OK: 0 unreceipted NAMED rows for WALTER (register 12 row(s), 0 ALL-warn, 0 dead-at-cap; receipts on file: 0) \u2014 PASS covers the register at /home/willi/Research-workspace/AGENTS/WALTER/registry/CORRECTIONS.tsv, nothing else\n",
+      "stderr": ""
+    },
+    {
+      "name": "batch reconciliation",
+      "command": [
+        "python3",
+        "AGENTS/WALTER/tools/batch_manifest.py",
+        "--status"
+      ],
+      "rc": 0,
+      "stdout": "\u2713 BM-20260901-01  CLOSED  18/18  RESEARCH-INTAKE lane sweep 2026-09-01 ~21:14Z \u2014 3 NEW_ALERT \n\u2713 BM-20260901-02  CLOSED  10/10  Will-requested news sweep 2026-09-01 ~22:1xZ \u2014 10 WebSearch \n\u2713 BM-20260902-01  CLOSED  2/2  PROME relay of Will's word 2026-09-01 21:25 ET \u2014 routing pas\n\u2713 BM-20260903-01  CLOSED  2/2  PROME cross-session 9/3 close prints (^SKEW 150.63 provision\n\u2713 BM-20260903-02  CLOSED  16/16  WALTER inbox drain 2026-09-03 ~18:2x ET (Will: 'process inbo\n\u2713 BM-20260904-01  CLOSED  27/27  RESEARCH-INTAKE 9/3 sweep carried to 9/4 boot: 8 NEW_ALERT +\n\u2713 BM-20260904-02  CLOSED  5/5  Will-terminal 5-image batch 2026-09-04 ~09:4x ET (Barchart B\n\u2713 BM-20260904-03  CLOSED  5/5  Will-terminal 5-image batch #2 2026-09-04 ~10:1x ET (Economi\n\u2713 BM-20260906-01  CLOSED  9/9  RESEARCH-INTAKE lane 9/4 carried breaches (2 NEW_ALERT + 7 N\n\u2713 BM-20260908-01  CLOSED  15/15  RESEARCH-INTAKE 2026-09-08: 12 NEW_WATCH + 3 NEW_WATCH_HIT; \n",
+      "stderr": ""
+    },
+    {
+      "name": "claim check new dispatch/state",
+      "command": [
+        "python3",
+        "scripts/claim_check.py",
+        "BOARD/SIG-W-20260908-001-ERRATUM-nvda-cfo-memory-wording-exists-share-undisclosed.md",
+        "BOARD/SIG-W-20260908-002-CORRECTION-hbm-ratio-unresolved-samsung-lock-unverified.md",
+        "BOARD/SIG-W-20260908-003-memory-research-revenue-not-price-smartphone-pull-forward.md",
+        "BOARD/SIG-W-20260908-004-cxmt-lpddr6-package-die-primary-upgrade.md",
+        "BOARD/SIG-W-20260908-005-hy-fred-september7-observation-exists.md",
+        "BOARD/SIG-W-20260908-006-canada-operative-cbsa-countermeasure.md",
+        "BOARD/SIG-W-20260908-007-pjm-expiry-interim-outcome-pending.md",
+        "BOARD/SIG-W-20260908-008-september8-market-close-wal-exit-not-reached.md",
+        "BOARD/SIG-W-20260908-009-trinity-it-outsourcing-qualified-labor-lead.md",
+        "BOARD/SIG-W-20260908-010-skew-census-correction-dated-bars-pending.md",
+        "AGENTS/WALTER/STATUS.md",
+        "AGENTS/WALTER/MEMORY.md",
+        "AGENTS/WALTER/LAST_COMPLETION.md"
+      ],
+      "rc": 0,
+      "stdout": "CLAIM-CHECK \u2713 13 file(s) clean [hash,pointer,units,weekday]\n",
+      "stderr": ""
+    },
+    {
+      "name": "doctor",
+      "command": [
+        "python3",
+        "AGENTS/WALTER/tools/walter_doctor.py"
+      ],
+      "rc": 1,
+      "stdout": "WALTER doctor \u2014 2026-09-08\n========================================================================\n\n[version_drift]\n  \u2713 INFO all core specs match STATE.md \u00a71\n\n[claude_md_version_drift]\n  \u2713 INFO KEY-DESIGN-FILES version claims match spec headers (1 claim(s) checked across 2 file(s))\n\n[restated_set_drift]\n  \u2713 INFO restated sets match canon (pull-complete = {CARL, PROME, RED, TERRY}; clusters = 12; checks = 33)\n\n[board_reconcile]\n  \u2713 INFO BOARD reconciles: 901 signals (ToC = sections = files = TOTAL)\n\n[log_reconcile]\n  \u2713 INFO route_log reconciles with BOARD (901 signals)\n  \u2713 INFO delivery_log: all 610 delivered SIG-ids have a BOARD file (post-6/17 coverage)\n\n[cron_liveness]\n  \u2713 INFO FORGE/tools/news-sweep/latest.md: 114d stale \u2014 known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input\n  \u2713 INFO FORGE/tools/filing-watch/latest.md: 124d stale \u2014 known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input\n  \u2713 INFO SIGNALS/inbound.md: 98d stale \u2014 known-dark, superseded by RESEARCH-INTAKE lane (7e); not a live input\n\n[intake_liveness]\n  \u2713 INFO lane live (last_run 2026-09-08T18:17:18Z, 0d / 0 missed weekday run(s), 6 feeds ok); gate via boot-7e intake_scan.py\n\n[cushing_capability]\n  \u2713 INFO EIA key present (Cushing/Boundary-#3 scan live)\n\n[outbox_age]\n  \u2713 INFO 2026-08-28_to-DAEDALUS_P1-read-cap-measured-live-cost.md: 11d old (staged draft)\n  \u2713 INFO 2026-09-08_board-index-cutover-receipt.json: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_codex-owner-progress.md: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_consumer-cross.txt: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_consumer-self.txt: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_consumer-skew-self.txt: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_consumer-skew.txt: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_created-paths.json: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_doctor-results.txt: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_inbox-dispositions.tsv: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_intake-after.json: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_intake-dispositions.tsv: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_intake-inputs.json: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_previous-completion-carry.md: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_read-cap-results.txt: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_registry-header-receipt.json: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_regression-results.txt: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_source-and-consumer-receipt.md: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_verify-intake-memory.md: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_verify-intake-other.md: 0d old (staged draft)\n  \u2713 INFO 2026-09-08_version-drift-results.txt: 0d old (staged draft)\n  \u2713 INFO VERIFY-20260831-iran-weekend-claims.md: 8d old (staged draft)\n\n[registry_staleness]\n  \u00b7 LOW  Tier-1 registry-date >14d (1): YEYOU (19d) \u2014 see registry_lag to tell dormant from lagging\n\n[registry_lag]\n  \u00b7 LOW  HENRY: registry 2026-09-02 < last commit 2026-09-04 (4d ago, +2d) \u2192 refresh row\n  \u00b7 LOW  BOND: registry 2026-09-02 < last commit 2026-09-04 (4d ago, +2d) \u2192 refresh row\n  \u00b7 LOW  TERRY: registry 2026-09-03 < last commit 2026-09-05 (3d ago, +2d) \u2192 refresh row\n  \u2713 INFO dormant \u2014 registry accurate, not lagging (3): ATHENA (178d), SENTRY (122d), YEYOU (19d)\n  \u2713 INFO no STATUS.md \u2014 dir-fallback unreliable (may be cross-agent commits), NOT flagged: DARWIN (dir +71d vs 2026-02-18), DEWEY (dir +8d vs 2026-08-29), RAV (dir +3d vs 2026-08-02)\n  \u2713 INFO incidental STATUS touch, not a real lag (2): MARCO (commit 2026-09-03 but STATUS hdr 2026-09-02 \u2264 reg 2026-09-02), REGINALD (commit 2026-09-02 but STATUS hdr 2026-09-01 \u2264 reg 2026-09-01)\n\n[registry_self_lag]\n  \u2713 INFO WALTER self REGISTRY row is current vs STATUS.md header\n\n[liaison_enum]\n  \u2713 INFO LIAISON files (2): CARL 126d \u00b7 RED 94d\n\n[delivered_but_unconsumed]\n  \u00b7 LOW  CONSUMED but never filed to processed/ \u2014 the recipient's OWN board_log records these, so they are filing hygiene, NOT a consume-gap: HAWK 1 \u2014 excluded from the unconsumed count below (they were being counted)\n  \u26a0 MED  41 unconsumed >2d across 13 agents (of 78 in flight \u2014 the rest are within the grace period, NOT evidence they are consumed), oldest 51d \u2014 7 ACTION / 34 INFO: REGINALD 8(2A/6I); AEOLUS 3(2A/1I); BROCK 6(1A/5I); HOMER 2(1A/1I); ZHAO 2(1A/1I); LIQUID 6; SHADE 5; DEWEY 3; BOND 2; CREED 1; MARCO 1; HENRY 1; FLG 1 [age from delivery_log.timestamp_routed, 2 on mtime (no delivery_log row)] \u2014 ACTION items are the risk; install recipient consume boot-step (CC self-apply set) to clear\n\n[written_but_undelivered]\n  \u00b7 LOW  BOND: SIG-W-20260908-001.md written, uncommitted (mid-session)\n  \u00b7 LOW  DEWEY: SIG-W-20260908-001.md written, uncommitted (mid-session)\n  \u00b7 LOW  HAWK: SIG-W-20260908-006.md written, uncommitted (mid-session)\n  \u00b7 LOW  HENRY: SIG-W-20260908-008.md written, uncommitted (mid-session)\n  \u00b7 LOW  HENRY: SIG-W-20260908-010.md written, uncommitted (mid-session)\n  \u00b7 LOW  HENRY: SIG-W-20260908-003.md written, uncommitted (mid-session)\n  \u00b7 LOW  HENRY: SIG-W-20260908-001.md written, uncommitted (mid-session)\n  \u00b7 LOW  HENRY: SIG-W-20260908-002.md written, uncommitted (mid-session)\n  \u00b7 LOW  LABOR: SIG-W-20260908-006.md written, uncommitted (mid-session)\n  \u00b7 LOW  LABOR: SIG-W-20260908-009.md written, uncommitted (mid-session)\n  \u00b7 LOW  LIQUID: SIG-W-20260908-008.md written, uncommitted (mid-session)\n  \u00b7 LOW  LIQUID: SIG-W-20260908-005.md written, uncommitted (mid-session)\n  \u00b7 LOW  LIQUID: SIG-W-20260908-010.md written, uncommitted (mid-session)\n  \u00b7 LOW  LIQUID: SIG-W-20260908-001.md written, uncommitted (mid-session)\n  \u00b7 LOW  MARCO: SIG-W-20260908-006.md written, uncommitted (mid-session)\n  \u00b7 LOW  NEXUS: SIG-W-20260908-005.md written, uncommitted (mid-session)\n  \u00b7 LOW  NEXUS: SIG-W-20260908-007.md written, uncommitted (mid-session)\n  \u00b7 LOW  NEXUS: SIG-W-20260908-001.md written, uncommitted (mid-session)\n  \u00b7 LOW  REGINALD: SIG-W-20260908-008.md written, uncommitted (mid-session)\n  \u00b7 LOW  VIOLET: SIG-W-20260908-010.md written, uncommitted (mid-session)\n  \u00b7 LOW  VIOLET: SIG-W-20260908-003.md written, uncommitted (mid-session)\n  \u00b7 LOW  VIOLET: SIG-W-20260908-001.md written, uncommitted (mid-session)\n  \u00b7 LOW  VIOLET: SIG-W-20260908-002.md written, uncommitted (mid-session)\n  \u00b7 LOW  VULCAN: SIG-W-20260908-004.md written, uncommitted (mid-session)\n  \u00b7 LOW  VULCAN: SIG-W-20260908-003.md written, uncommitted (mid-session)\n  \u00b7 LOW  VULCAN: SIG-W-20260908-001.md written, uncommitted (mid-session)\n  \u00b7 LOW  VULCAN: SIG-W-20260908-002.md written, uncommitted (mid-session)\n  \u00b7 LOW  WATT: SIG-W-20260908-007.md written, uncommitted (mid-session)\n  \u00b7 LOW  WATT: SIG-W-20260908-003.md written, uncommitted (mid-session)\n  \u00b7 LOW  WATT: SIG-W-20260908-001.md written, uncommitted (mid-session)\n  \u00b7 LOW  WATT: SIG-W-20260908-002.md written, uncommitted (mid-session)\n  \u00b7 LOW  ZHAO: SIG-W-20260908-004.md written, uncommitted (mid-session)\n  \u00b7 LOW  ZHAO: SIG-W-20260908-001.md written, uncommitted (mid-session)\n\n[delivery_claim_vs_git]\n  \u2713 INFO 2274 row(s) point at a path that no longer exists but WAS in git (consumed-by-delete, or a retired inbox dir) \u2014 delivery confirmed, path stale; log hygiene, not a gap\n\n[deep_research_pending_overdue]\n  \u2713 INFO no overdue deep-research flags (2 open)\n\n[dewey_handoff_liveness]\n  \u2713 INFO inbox/DEWEY/ clear \u2014 no unprocessed DEWEY handoffs\n\n[staleness_sweep_overdue]\n  \u2713 INFO staleness sweep 5d ago (last 2026-09-03, \u226414d)\n\n[dropzone_pending]\n  \u2713 INFO inbox/WILL/ drop-zone empty\n\n[boot_protocol_xref]\n  \u2713 INFO boot-protocol xref clean (16 pointers \u2194 16 sections)\n\n[status_spine_overflow]\n  \u2713 INFO STATUS.md spine at 1 lead(s) (\u22645)\n\n[status_bottom_line]\n  \u2713 INFO STATUS.md `## BOTTOM LINE` present (line 5) with a nonempty section\n\n[cluster_review_overdue]\n  \u2713 INFO AI_INFRA_CAPEX (79) reviewed 8d ago (AI_CAPEX_AXIS_CHECK_2026-08-31.md) \u2014 within the 30d window\n  \u2713 INFO large clusters never coherence-reviewed (9, >=25 signals): IRAN_HORMUZ 155 \u00b7 CONSUMER_STAGFLATION 134 \u00b7 BANK_COLLATERAL 126 \u00b7 POSITIONING_VALUATION 109 \u00b7 PC_STRESS 69 \u00b7 FED_FRAMEWORK 63 \u00b7 ASIA_CHINA 53 \u00b7 HYDROCARBON_INFRA 50 \u00b7 MISC 31 \u2014 informational, not a backlog; review is cheap and on-demand\n\n[registered_but_unrouted]\n  \u00b7 LOW  Tier-2 registered but unrouted (7): ATHENA, BARON, CRUISE, DARWIN, HERMES, ORACLE, SENTRY \u2014 expected if spawn-on-demand; confirm it is intentional.\n\n[correction_target_declared]\n  \u2713 INFO all 61 correction signal(s) declare a resolvable target (SIG-ID / SELF / EXTERNAL)\n\n[batch_manifest_open]\n  \u2713 INFO no OPEN batch manifests \u2014 NOTE: cannot see an UNDECLARED batch; green here is not evidence that no input was dropped\n\n[action_line_rule]\n  \u00b7 LOW  SIG-W-20260828-040-umich-august-FI...: HENRY is on `info:` but the body carries ask-language -- \u201cHENRY should\u201d. \u00a73.5.4 says an ask aimed at a named recipient goes on `action:`. Verify, then re-dispatch to HENRY on action if it is a real ask.\n  \u2713 INFO scanned 108 signal(s) over 14d\n\n[terry_override_ratio]\n  \u2713 INFO TERRY override ratio 3/16 over the trailing 90d window (SIG-W-20260811-002, SIG-W-20260820-003, SIG-W-20260822-002) \u2014 lane CLOSED by the \u00a73.5.5 revert 2026-08-26; log read at revert; rolls off with the window\n\n[filed_vs_consumed]\n  \u00b7 LOW  FILED not CONSUMED: 2026-08-28_from-DAEDALUS_r1-boot-line-not-applied-tree-pleas moved into WALTER's processed/ (3402f91c1) with no consume:WALTER declaration \u2014 if a live WALTER session really consumed it, append to processed/.consumed.tsv\n  \u00b7 LOW  FILED not CONSUMED: 2026-08-28_from-LABOR_CORRECTION-2-of-2-sig012-section5-mech moved into WALTER's processed/ (3402f91c1) with no consume:WALTER declaration \u2014 if a live WALTER session really consumed it, append to processed/.consumed.tsv\n  \u00b7 LOW  FILED not CONSUMED: 2026-08-28_from-LABOR_RESOLVED-sig014-we-tested-different-us moved into WALTER's processed/ (0fbce1fc9) with no consume:WALTER declaration \u2014 if a live WALTER session really consumed it, append to processed/.consumed.tsv\n  \u00b7 LOW  FILED not CONSUMED: 2026-08-28_from-LABOR_CORRECTION-bls-403-is-a-user-agent-gat moved into WALTER's processed/ (bdc5d1561) with no consume:WALTER declaration \u2014 if a live WALTER session really consumed it, append to processed/.consumed.tsv\n  \u00b7 LOW  FILED not CONSUMED: 2026-08-26_from-DAEDALUS_R1-boot-leg-LIVE-two-parser-semanti moved into WALTER's processed/ (b75c00747) with no consume:WALTER declaration \u2014 if a live WALTER session really consumed it, append to processed/.consumed.tsv\n  \u00b7 LOW  FILED not CONSUMED: 2026-08-27_from-CREED_SIG-019-carries-CREED-T-01b-sustain-1- moved into WALTER's processed/ (b75c00747) with no consume:WALTER declaration \u2014 if a live WALTER session really consumed it, append to processed/.consumed.tsv\n  \u00b7 LOW  FILED not CONSUMED: 2026-08-27_from-PROME_pointer-two-more-untracked-OTTO-drops- moved into WALTER's processed/ (b75c00747) with no consume:WALTER declaration \u2014 if a live WALTER session really consumed it, append to processed/.consumed.tsv\n  \u00b7 LOW  FILED not CONSUMED: 2026-08-27_from-PROME_two-UNTRACKED-otto-signals-sit-in-your moved into WALTER's processed/ (b75c00747) with no consume:WALTER declaration \u2014 if a live WALTER session really consumed it, append to processed/.consumed.tsv\n  \u00b7 LOW  ...and 10 more undeclared post-2026-08-20 moves\n\n[entities_at_dispatch]\n  \u00b7 LOW  SIG-W-20260828-016-RESOLVED-the-bls-gate...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18\n  \u00b7 LOW  SIG-W-20260828-017-a-recipe-published-in...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18\n  \u00b7 LOW  SIG-W-20260828-018-a-truncating-read-is-...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18\n  \u00b7 LOW  SIG-W-20260828-019-rank-recipes-by-failu...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18\n  \u00b7 LOW  SIG-W-20260828-020-the-operative-test-is...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18\n  \u00b7 LOW  SIG-W-20260828-021-CORRECTION-the-trunca...: no `entities:` header on a post-2026-08-19 signal \u2014 mandatory at dispatch per FORMAT_SPEC v0.18\n\n[auto_load_budget]\n  \u2713 INFO auto-load measured \u2014 WALTER CLAUDE.md 54,393 B (own, the only one WALTER may fix) \u00b7 unconditional auto-load with root CLAUDE.md (PROME-owned) 22,633 B + fleet auto-memory index (PROME-owned) 17,731 B = 94,757 B. Reported, NOT graded: an auto-loaded charter is not a Read and does not truncate (READ_CAP.md:37), and the read cap is per surface, never joint (rule 3). There is no ruled auto-load threshold \u2014 growth here is a CONTEXT cost to watch, not a violation to clear.\n\n[index_generated_fresh]\n  \u2713 INFO generated INDEX fresh (rowset c807e1bffb1f, 901 signals; 901 live rows hashed and matched \u2014 banner AND content)\n\n========================================================================\n\u2717 1 item(s) need attention (HIGH/MED). See punch-list above.\n",
+      "stderr": ""
+    }
+  ],
+  "original_board_bodies_preserved": [
+    "SIG-W-20260903-001",
+    "SIG-W-20260904-001",
+    "SIG-W-20260906-001",
+    "SIG-W-20260906-002"
+  ],
+  "handoffs": 33,
+  "dispositions": 15,
+  "changelog_hash": "b0fe43f98826f2245bd068f9b29f34628439ff6155e283785ee591d0cd3f3ca5",
+  "commit": "pending parent serialization",
+  "final_memo_claim_check": {
+    "rc": 1,
+    "stdout": "CLAIM-CHECK \u26a0\ufe0f  4 flag(s) across 2 file(s)\n\n[hash]\n  AGENTS/WALTER/outbox/2026-09-08_codex-owner-catchup-completion.md:22\n      `4a6884a` resolves to no commit in this repo (rebased away, GC'd, or foreign). Cite a path.\n  AGENTS/WALTER/outbox/2026-09-08_codex-owner-catchup-completion.md:23\n      `4a6884a` resolves to no commit in this repo (rebased away, GC'd, or foreign). Cite a path.\n  PROME/inbox/2026-09-08_from-WALTER_codex-owner-catchup-completion.md:22\n      `4a6884a` resolves to no commit in this repo (rebased away, GC'd, or foreign). Cite a path.\n  PROME/inbox/2026-09-08_from-WALTER_codex-owner-catchup-completion.md:23\n      `4a6884a` resolves to no commit in this repo (rebased away, GC'd, or foreign). Cite a path.\n\nAdvisory \u2014 nothing blocked, nothing edited. A flag is a prompt to LOOK, not an instruction to find-replace.\n",
+    "disposition": "Foreign-repository intake revision verified by git -C /home/willi/Research-Intake rev-parse --short HEAD from shared Git root; clean4a6884a. Not a Research-workspace commit. No source or date discrepancy."
+  },
+  "final_inbox": {
+    "initial": 7,
+    "late": 2,
+    "consumed": 9,
+    "active": 0
+  },
+  "exact_path_count": 110,
+  "diff_check_rc": 0,
+  "original_tsv_record_formatting": "Preserved all unchanged records; route10new+1additive,delivery33new,deep-research1additive."
+}

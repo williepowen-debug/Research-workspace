@@ -1,0 +1,11 @@
+READ-CAP [WALTER] — cap 54,250 B · budget 32,550 B (60%) · perimeter: 2 boot section(s) in CLAUDE.md, 58 'read' line(s) scanned (9 on-demand/grep + 0 SCOPED-read token(s) excluded by marker), 9 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)
+  🟡 design/ROUTING_TABLE.md              31,764 B    59% of cap  rotate-tier (≥75% of budget)  (boot-step line 62)
+  🟡 REGISTRY.tsv                         24,497 B    45% of cap  rotate-tier (≥75% of budget)  (boot-step line 60)
+  ✅ anchors/IRAN_WAR.md                  17,813 B    33% of cap    (boot-step line 57)
+  ✅ MEMORY.md                            11,043 B    20% of cap    (boot-step line 58)
+  ✅ STATUS.md                             9,794 B    18% of cap    (boot-step line 57)
+  ✅ LAST_COMPLETION.md                    7,289 B    13% of cap    (boot-step line 59)
+  ✅ design/EVENT_WINDOW_STATE.md          6,157 B    11% of cap    (boot-step line 73)
+  ✅ registry/FALSIFICATION_FIRED_LOG.tsv    1,924 B     4% of cap    (boot-step line 68)
+  ✅ registry/REG_THRESHOLDS_FIRED_LOG.tsv    1,792 B     3% of cap    (boot-step line 68)
+✅ READ-CAP 0 [WALTER]: every boot-mandated read this check found is under budget (9 file(s)).

@@ -20,6 +20,9 @@ verdict: CORRECTED-FRAMING. SIG-W-20260828-045 quoted the 10-Q as saying the $11
 consumer_lens: VULCAN and ZHAO were told on 8/28 that the memory composition was "the leg to work." It still is a leg to work — but the instrument is the composition question and the phasing table, not a memory-only reconciliation, which the filing does not make computable. Since then TrendForce prints (9/2–9/3) show contract-side memory prices still rising while the first DDR5 spot decline graded VULCAN-16 MISS: that is the contract-vs-spot SPREAD the commission named as the hoarding tell.
 ---
 
+> **CORRECTION 2026-09-08 → [SIG-W-20260908-001](SIG-W-20260908-001-ERRATUM-nvda-cfo-memory-wording-exists-share-undisclosed.md): FLIPS the no-primary/source-absence verdict; HOLDS $119B→$279B and memory-share undisclosed.** See the corrective erratum before using the historical source/verdict below. Original substance retained.
+
+
 > 📌 **This is a correction to a WALTER-authored signal. The defect is mine: `-045`'s source line says "via multiple carriers," and I quoted a carrier's paraphrase as the filing's words.** `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]` — a named source authenticates the sentence beside it, and nothing downstream can fail loudly on it.
 
 # The "procurement of memory" quote in `SIG-W-20260828-045` is in no NVDA primary. The 10-Q says "memory AND manufacturing facilities," and the memory share is undisclosed.

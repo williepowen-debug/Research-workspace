@@ -1,0 +1,53 @@
+{
+  "health": [
+    [
+      "OK",
+      "last_run 2026-09-08T18:17:18Z (0d)"
+    ]
+  ],
+  "new": [],
+  "suppressed": [
+    {
+      "feed": "fred",
+      "key": "fred:PSAVERT:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "CARL"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "PSAVERT Personal savings rate %=3.0 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "fred",
+      "key": "fred:MORTGAGE30US:orange",
+      "band": "orange",
+      "gate": "INFO",
+      "owners": [
+        "PROME"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "MORTGAGE30US 30yr mortgage rate %=6.71 [orange]",
+      "label": "",
+      "onset": false
+    },
+    {
+      "feed": "newsweep",
+      "key": "news:NEW_WATCH:data/2026-09-08/news.json",
+      "band": null,
+      "gate": "INFO",
+      "owners": [
+        "(per-item agents field)"
+      ],
+      "info_cc": [],
+      "precedence": "ROUTINE",
+      "raw": "12 NEW_WATCH item(s) \u2014 read data/2026-09-08/news.json",
+      "label": "12 NEW_WATCH",
+      "onset": false
+    }
+  ]
+}

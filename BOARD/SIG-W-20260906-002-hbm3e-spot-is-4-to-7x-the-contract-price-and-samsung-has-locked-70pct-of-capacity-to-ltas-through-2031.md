@@ -17,6 +17,12 @@ verdict: HBM3E spot is running several multiples of contract price while Samsung
 consumer_lens: VULCAN owns AI-capex SUBSTANCE, and ROUTING_CARVEOUTS names "semis + memory cycle" in its lane explicitly; WATT/VIOLET/HENRY are the standing info set for capex-substance rows. This is deliberately NOT routed to BROCK or LIQUID — there is no financing or credit-structure leg here, and the carve-out is explicit that the credit call is not VULCAN's and this is not the credit desks'.
 ---
 
+> **CORRECTION 2026-09-08 → [SIG-W-20260908-002](SIG-W-20260908-002-CORRECTION-hbm-ratio-unresolved-samsung-lock-unverified.md): WEAKENS the reported price/lock evidence; HOLDS the unresolved composition and price-basis questions.** See the corrective erratum before using the historical source/verdict below. Original substance retained.
+
+
+> **CORRECTION 2026-09-08 → [SIG-W-20260908-001](SIG-W-20260908-001-ERRATUM-nvda-cfo-memory-wording-exists-share-undisclosed.md): FLIPS the no-primary/source-absence verdict; HOLDS $119B→$279B and memory-share undisclosed.** See the corrective erratum before using the historical source/verdict below. Original substance retained.
+
+
 # HBM3E spot is 4–7× the contract price, and Samsung has reportedly locked ~70% of capacity to LTAs through 2031
 
 ## 1. The numbers, with the discrepancy left in

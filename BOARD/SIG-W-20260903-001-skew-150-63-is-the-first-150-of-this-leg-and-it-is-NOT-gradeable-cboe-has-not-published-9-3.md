@@ -19,6 +19,9 @@ status_ref: SIG-W-20260905-001
 status_date: 2026-09-05
 ---
 
+> **CORRECTION 2026-09-08 → [SIG-W-20260908-010](SIG-W-20260908-010-skew-census-correction-dated-bars-pending.md): §3’s0.79% defect rate is withdrawn;0.40% on the253-session window,4.31% on full history. Cboe basis and missing-bar rule hold.**
+
+
 > ⚠️ **SUPERSEDED IN PART 2026-09-05 by [`SIG-W-20260905-001`](SIG-W-20260905-001-ft10-skew-is-counting-2-of-4-at-the-publisher-of-record.md).** **The GRADEABILITY call below is superseded by publication, NOT refuted:** CBOE has since published the 9/3 bar at **exactly 150.63**, and 9/4 at **151.58**, so `RED-FT-10` is **SATISFIED and COUNTING 2-of-4** — it is no longer `ARMED 0-of-4`. ✅ **WHAT SURVIVES, and it is the load-bearing half:** the rule that a provisional mirror cannot complete a grade is exactly what made this signal correct when written, and it is unchanged. **The sustain-4 caution below also stands — one bar was not a fire and two are not either.**
 
 # `^SKEW` 150.63 [9/3] is the first ≥150 of this leg — and it is NOT a fire, because the publisher of record has not published it

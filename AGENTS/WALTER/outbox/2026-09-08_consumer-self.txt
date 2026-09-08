@@ -1,0 +1,21 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 103 files under AGENTS/WALTER/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded NO primary → current CFO memory wording exists; share undisclosed
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (2)
+        AGENTS/WALTER/handoff_BRENT/route_log_brent_slice.tsv:15  [NO primary]
+           2026-04-19T23:25:00Z	SIG-W-20260419-027	X.com @Polymarket (verified) Apr 19 11:37 AM ET 110K views (Will Telegram PM-6 batch image #4)	"@Pol
+        AGENTS/WALTER/routed/route_log.tsv:47  [NO primary]
+           2026-04-19T23:25:00Z	SIG-W-20260419-027	X.com @Polymarket (verified) Apr 19 11:37 AM ET 110K views (Will Telegram PM-6 batch image #4)	"@Pol
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/WALTER/registry/DEEP_RESEARCH_FLAGGED_LOG.tsv:33  [NO primary]  (dated TSV row (2026-08-29) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-08-29	REQ-DEWEY-20260829-001	T-convergence: TWO independent arrivals of the same mechanism in ONE day from unrelated supply chains (SIG
+     🟡 in MAIL, point-in-time — usually no action (1: WALTER)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (1)  [--show-handled to audit]
+
+  🔴 2 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

@@ -93,7 +93,7 @@
 |-------|-------|
 | Location | Repo root: `/BOARD/` (relocated from `AGENTS/WALTER/signals/` on 2026-04-14 via `git mv`) |
 | Owner | WALTER (all writes); pull point for all agents |
-| Index | `/BOARD/INDEX.md` — discovery table, one row per dispatched signal, chronological |
+| Index | `/BOARD/INDEX.md` — GENERATED in place from BOARD headers by `tools/gen_board_index.py --write BOARD/INDEX.md --cutover`; WQ-174/L273 implemented 2026-09-08. Changelog archived; receipt `outbox/2026-09-08_board-index-cutover-receipt.json`. Commit/push pending PROME serialization. |
 | Current count | See `STATUS.md` lead paragraph — live count is the canonical source (this file would go stale if it stored the count). |
 | Filename pattern | `SIG-W-YYYYMMDD-NNN-slug.md` |
 | Append-only | Yes — never delete, never rename |

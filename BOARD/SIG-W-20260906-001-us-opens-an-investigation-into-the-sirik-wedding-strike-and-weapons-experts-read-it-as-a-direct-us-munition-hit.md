@@ -15,7 +15,13 @@ confidence: 0.75
 confidence_language: multiple independent outlets on the US statement; the munition attribution is a third-party expert read of imagery, not an official finding
 verdict: The Sirik wedding casualties this desk recorded on 9/1 as IRANIAN-MEDIA CLAIMS are now the subject of a US investigation Vance has confirmed, and named weapons experts reading imagery call it a likely DIRECT HIT by a US munition. The claim's evidentiary status has moved; the US has NOT accepted responsibility, and NO GATE FIRES.
 consumer_lens: FALCON owns the US/Israel/Iran-Gulf theater and adjudicates FAL-01 (ROUTING_CARVEOUTS war-theater rule — Iran kinetic → FALCON action, HAWK info synthesis, BRENT info oil transmission). This is the escalation-politics leg, not the supply leg. CARL is deliberately NOT on this line: the Iran-cluster CARL-info override admits a kinetic event only with a SUPPLY-DISRUPTION mechanism, and a wedding strike is posture/politics, not supply.
+status: PARTIALLY-CORRECTED
+status_ref: SELF
+status_date: 2026-09-08
 ---
+
+> **CORRECTIVE ERRATUM 2026-09-08 (SELF): the historical total-loss1 / Gate2-not-fired context below is superseded. FALCON’s September7 owner adjudication records the September5 unladen Kylo sinking, Gate2 fired and total losses2. Gate1 remains production-asset-specific negative. Sirik investigation/casualty attribution remains unchanged.** Sources: `AGENTS/FALCON/reports/2026-09-07_gate2-kylo-adjudication.md` and HAWK’s September8 owner receipt, consumed by WALTER. This is owner-artifact reconciliation, not independent primary war verification; see WALTER anchor’s PARTIAL verification scope. No probability/band change.
+
 
 # US opens an investigation into the Sirik wedding strike, and weapons experts read it as a likely direct US munition hit
 

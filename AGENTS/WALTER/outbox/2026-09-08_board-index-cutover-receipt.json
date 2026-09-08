@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-08T21:19:34.722718+00:00",
+  "authority": "PROME/proposals/2026-09-04_wq174-RULED.md",
+  "docket": "L273",
+  "precheck": "ID set: 891 identical\nmarkers: live rows with a marker 53 \u00b7 derivable 111 \u00b7 HAND-ONLY (would be LOST) 0 \u00b7 derivable-but-unmarked-live (would be GAINED) 65\nCHECK PASS\n",
+  "write": "wrote BOARD/INDEX.md 461302 B rowset_sha256=14d7fb6c1d14d702681a34930e0a0d51ba0cd14de1c578865f39ccdb5a425e9a\n",
+  "old_bytes": 1639073,
+  "new_bytes": 461302,
+  "old_sha256": "0b6f6783e8a46d3f2a7f9b8bc16b7f5fa1f6d2eaeea56555c6f408ecf74acb6e",
+  "new_sha256": "39e91421dee39ac3dac5e71225542b29de0497707ab9ad016d6b1dca0258cf1d",
+  "changelog_archive": "AGENTS/WALTER/design/history/BOARD_INDEX_TOC_CHANGELOG_PRE_CUTOVER_2026-09-08.md",
+  "changelog_bytes": 71840,
+  "changelog_sha256": "b0fe43f98826f2245bd068f9b29f34628439ff6155e283785ee591d0cd3f3ca5",
+  "changelog_byte_identical": true,
+  "commit_status": "UNCOMMITTED \u2014 PROME serialization required",
+  "final_after_routing": {
+    "timestamp": "2026-09-08T21:47:24.069476+00:00",
+    "signals": 901,
+    "bytes": 465351,
+    "sha256": "332f4915e944326934ba473689fc42eed71b4bca4297d89f52e5a9c3725c6738",
+    "rowset_sha256": "c807e1bffb1fe3a36677f9ca24977b2da9ba64df873f1bcd9231ca9d4016ea18",
+    "parity": "PASS:901IDs;hand-only0;derivable-but-unmarked0",
+    "validation": "AGENTS/WALTER/outbox/2026-09-08_closeout-validation.json",
+    "regression": "67/67 behavioral assertions PASS"
+  }
+}

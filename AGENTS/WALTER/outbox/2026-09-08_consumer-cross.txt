@@ -1,0 +1,47 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/WALTER/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded NO primary → current CFO memory wording exists; share undisclosed
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (13)
+        AGENTS/HENRY/NEXUS_BRIEF.md:21  [NO primary]
+           > **⑤ VULCAN / WATT / BROCK — THREE INDEPENDENT READS NOW CONVERGE ON THE POWER LEG, NOT THE SEMI LEG.** DEWEY REQ-001: **"the AI order book
+        AGENTS/HENRY/board_log.tsv:307  [NO primary]
+           2026-09-04T09:2x	SIG-W-20260904-001	acted	INBOX_WALTER	NVDA 10-Q CORRECTION: "primarily related to the procurement of MEMORY" exists in NO p
+        AGENTS/NEXUS/STATUS_COLD.md:134  [NO primary]
+           | **M-09** | AI concentration-leverage → capex-correction on the CREDIT face | HENRY, VIOLET, BROCK, **DEWEY**, VULCAN, CREED, LIQUID, WATT 
+        AGENTS/NEXUS/SIGNALS.md:26  [NO primary]
+           | **S-26082801** 🆕 | 2026-08-28 | WALTER `SIG-W-20260828-034` (Bernstein, action VULCAN/WATT) **+** `SIG-W-20260828-035` (Yale/UT via a stri
+        AGENTS/NEXUS/board_log.tsv:54  [NO primary]
+           2026-09-02T21:4x-04:00	SIG-W-20260828-045	noted	INBOX_WALTER	M-09 input, and DOWNGRADED BY DEWEY THE SAME WEEK. NVDA $108.5B guarantees are 
+        AGENTS/VULCAN/SCRATCH.md:47  [NO primary]
+           > **WALTER `SIG-W-20260904-001` ruled NVDA's *"primarily related to the procurement of memory"* exists in NO primary. It exists VERBATIM, 1 
+        AGENTS/DEWEY/scripts/BACKLOG.md:40  [NO primary]
+           | 2026-07-24 | 🏨 **STR-market data WALL — NO primary source exists; all commercial scrapers.** The Will-directed Airbnb/STR thread (metrics 
+        AGENTS/FERT/workbook/KB.tsv:17  [NO primary]
+           KB-FERT-013	2026-08-17	QATAR	QatarEnergy Ras Laffan	CORRECTION of March record: Qatar LNG capacity offline = 12.8 mtpa (Trains 4 and 6, Ras 
+        AGENTS/FERT/workbook/PREDICTIONS.tsv:11  [NO primary]
+           FERT-08	2026-03-20	Qatar 77 mtpa LNG offline = fertilizer capacity physically destroyed	(scored 4/5 as convergence vector 3)	3-5 years	2026-
+        AGENTS/FERT/workbook/FLOW.tsv:4  [NO primary]
+           FL-FERT-01	Gulf gas/LNG disruption	Fertilizer production loss	Gas -> ammonia/urea feedstock	Immediate	REFUTED as written	Qatar damage is 12.
+        AGENTS/OZK/workbook/KB_MIGRATION_LOG.md:35  [NO primary]
+           6. **Maturity wall underrepresented**: Originally only 2 rows. Added 3 more (KB-OZK-061-063) on Mar 25. Two key claims ($13.8B vintage, DBRS
+        AGENTS/VULCAN/workbook/KB.tsv:148  [NO primary]
+           KB-VULCAN-147	2026-09-06	S2	🔴 I CONTESTED A CORRECTION AGAINST ME AND THE PRIMARY UPHELD MY ROW — NVDA's 'primarily related to the procureme
+        BOARD/SIG-W-20260904-001-the-procurement-of-memory-quote-in-sig-0828-045-is-in-no-nvda-primary-the-10-q-says-memory-AND-manufacturing-facilities-and-the-memory-share-is-undisclosed.md:19  [NO primary]
+           verdict: CORRECTED-FRAMING. SIG-W-20260828-045 quoted the 10-Q as saying the $119B→$279B supply commitments are "primarily related to the pr
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (3)
+        AGENTS/HENRY/status_archive/STATUS_ARCHIVE_2026-09.md:43  [NO primary]  (STATUS_ARCHIVE_2026-09.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           - **AI→credit conduit — SUBSTRATE UPGRADED 9/2 (DEWEY REQ-001, cite, do not re-derive):** ⛔ **"the AI order book" is NOT one order book.** S
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md:295  [NO primary]  (STATUS_ARCHIVE_2026-08.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           **FSA PRIMARY (GENERAL-26-38, data as of Mar 31 2026): ~9.0M borrowers / $220B in default — >13% of the $1.64T federally-managed portfolio, 
+        PROME/DOCKET.tsv:149  [NO primary]  (dated TSV row (2026-08-05) — HISTORY-ROW candidate: a time-series capture holds the value AS OF its date; a refresh would corrupt the series)
+           2026-08-05	Treasury Phase 1 first-batch VERIFICATION — did ~500K defaulted student-loan accounts actually transfer?	CARL/STUE	SUPERSEDED · P
+     🟡 in MAIL, point-in-time — usually no action (3: DEWEY, LIQUID, ZHAO)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (4)  [--show-handled to audit]
+
+  🔴 13 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+
