@@ -1,7 +1,9 @@
-# BRENT SCRATCH — Tue Sep 8, 2026 ~00:0x ET
+# BRENT SCRATCH — Tue Sep 8, 2026 ~12:2x ET
 
 **Purpose:** ephemeral session handoff — canonical "where are we / what next". Read at boot (step 2), rewritten at closeout (step 11).
 
+> ⛔⛔ **TODAY'S DOCKET IS UNWORKED AND STILL OWED. THIS SESSION DID ARCHITECTURE, NOT MARKET WORK.** It ran from 9/7 through **9/8 ~12:2x ET** — i.e. straight through the 9/8 open — and **touched none of the dated items below.** `$0` moved, no tape pulled since the 9/7 12:2x crude read, **no equity/option marks refreshed since the 9/2 post-close chain pull.** ⚠️ **`DOCKET L198 ①②` was due at 0d and is now LATE. `L252/WQ-168 ⑦ leg 1` grades on TODAY'S XLE CLOSE (16:00) — if you are reading this before the close it is still catchable; after it, grade from the settled close and say the read was late.** **Do the docket FIRST next session — mechanical before creative (root rule #8).**
+>
 > ⚑ **WRITE MODE (rule 19, and this file is the test):** this handoff carries STATE and NEXT ACTIONS only. Every "why" from the 9/7 session is in the commit bodies (`git log 3bbf6a1db..55669cd02`), `archive/STATUS_DETAIL_2026-09.md` § REPAIRS, and `RULINGS.md`. **Do not re-tell it here.** Previous SCRATCH was 19,693 B and read like a session transcript.
 
 ---
@@ -27,6 +29,7 @@
 | `df83fa757` | 4 CODEX defects: Cushing trigger unbound from `util` · prediction scanner (4 of 5 OPEN rows were unscanned) · boot rc contract · STNG container label |
 | `3bbf6a1db` | **Rule 19 first application:** STATUS 75,158 → 22,338 B · calendar GENERATED from `CATALYSTS.tsv` |
 | `55669cd02` | P3 completed 9/9 · reconciliation guard's two false greens fixed · repair stories moved to the cold record |
+| `ccac63155`…`3c3f44ded` | 3 more charter contradictions · 2 more guard false greens (unbolded row · first-match grade date) · charter headroom 19 → 1,129 B · **P2 inventory started, `workbook/TRADE_OBLIGATIONS.md`, 16 rows** · tranche-2 rotation BLOCKED |
 
 **Read cap:** ⛔ **no byte figures are copied here — run `python3 scripts/read_cap_check.py --agent BRENT`.** A copied measurement is stale the moment the file it measures is edited: this line carried its own size as `8,995 B` and was wrong inside the same commit that wrote it. **State: `TRADE.md` is OVER THE CAP (the P2 target) and `LESSONS.md` is over budget (ACTION 16); everything else is under.**
 

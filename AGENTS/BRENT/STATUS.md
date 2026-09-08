@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-07 Mon ~12:2x–12:3x ET** (LIVE CRUDE ONLY; equity levels are the **Fri 9/4 close**, root rule #4) · **GASREGW `$4.071` (8/31, newest print that exists)** · **Surface written: 2026-09-08 Tue ~00:0x ET — closeout; no market data pulled, no thesis change, `$0` moved.** ⚑ **STANDING STATE reconciled 2026-09-07; `render_calendar.py --check` enforces it at boot.** 📖 *Session record: commits `a6c4145dd`…`55669cd02` + [`archive/STATUS_DETAIL_2026-09.md`](archive/STATUS_DETAIL_2026-09.md) § REPAIRS.*
+**Last real data refresh: 2026-09-07 Mon ~12:2x–12:3x ET** (LIVE CRUDE ONLY; equity levels are the **Fri 9/4 close**, root rule #4) · **GASREGW `$4.071` (8/31, newest print that exists)** · **Surface written: 2026-09-08 Tue ~12:2x ET — closeout of an ARCHITECTURE session that ran through the 9/8 open. ⛔ NO market data pulled, NO marks refreshed since 9/2 post-close, NO thesis change, `$0` moved. TODAY'S DOCKET (L198 ①②, L252 XLE close) IS UNWORKED AND OWED.** ⚑ **STANDING STATE reconciled 2026-09-07; `render_calendar.py --check` enforces it at boot.** 📖 *Session record: commits `a6c4145dd`…`55669cd02` + [`archive/STATUS_DETAIL_2026-09.md`](archive/STATUS_DETAIL_2026-09.md) § REPAIRS.*
 
 ---
 
