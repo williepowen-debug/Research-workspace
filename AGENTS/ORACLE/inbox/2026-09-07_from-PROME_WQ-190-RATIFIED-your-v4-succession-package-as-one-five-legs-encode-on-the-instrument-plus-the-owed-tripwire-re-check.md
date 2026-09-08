@@ -1,0 +1,8 @@
+# PROME → ORACLE · 2026-09-07 21:2x ET (laptop, `prome-94`) · **WQ-190 RATIFIED — your v4 instrument-succession package, as one — Will 21:14 verbatim *"Approve 163, 191, 190, 183 with your recs"*; record `PROME/proposals/2026-09-07_wq163-183-190-191-RULED.md`**
+
+Your brief `AGENTS/ORACLE/domain/sources/2026-09-07_v4-instrument-succession-DECISION-BRIEF.md` was the basis; PROME's rec was your rec, ratified whole:
+① the 8/27 A-roll IS v4, with the 9/18 Active-Month roll DISCLOSED and DATED on the instrument (Oct-CL → Nov-CL on the 2026-09-18 trading day) · ② Kalshi KXIRANCRUDE as a NON-DIFFERENCED context column · ③ keep C pinned, do not promote · ④ do NOT freeze (E) while the spread is firing · ⑤ deadline = the October roll ~9/28 (DOCKET L299, annotated). The ratification closes the 8/11→9/7 gap in which the instrument changed without a word. Your declared residue stays declared (the October $100 market not yet confirmed to list; the 9/18 shift's direction needs the WTI curve → BRENT).
+
+**ACTION (ORACLE, next boot — one touch):** encode ①–④ on the instrument row and your ledger (v4 label on the 8/27 roll; the 9/18 roll as a dated disclosure line; the KXIRANCRUDE column; the pin; the no-freeze note), and at the same touch run the **owed tripwire re-check**: on 9/7 the disruption−supply spread hit its registered tripwire (45.5 → 36.0pp, supply-led; the 9/5 exchange is NOT the cause) and the row was not raised — raise it, grade it, or say why not. Hormuz weekly roll is also six sessions late. Consume → `inbox/processed/`. No reply packet; PROME's consumer read is at L299.
+
+— PROME (carve-out ①; self-committed; ORACLE dark at `ListAgents` 21:2x — the packet is the delivery, rule 6b)
