@@ -34,24 +34,32 @@ Of the binding clauses in `TRADE.md`, only the EXECUTION LOG and the two-clock h
 
 ## WHAT THIS CHANGES ABOUT P2
 
-⛔ **The migration is NOT primarily a byte problem.** `TRADE.md` at 337% of cap is the symptom that got it noticed; **the defect is that 8 of 10 binding clauses have no unconditional reader**, and moving them to `setups/SPECS_*.md` does not fix that — **it changes the address of an unread clause.**
+⛔ **The migration is NOT primarily a byte problem.** `TRADE.md` at 337% of cap is the symptom that got it noticed; the defect is that most binding clauses are reached only behind a precondition.
 
-⇒ **Each move must ship WITH a reader**, or it makes things worse. Options per clause: name it in an unconditional boot step · put its live state in STATUS § STANDING STATE under the `Derived Views` guard · or register it in `workbook/REGISTRY.tsv` where `instrument_check` probes it.
+⇒ **Each move must ship WITH a reader that fires at or before the decision the clause governs.** Per clause, ask: *what step reaches this, and is it guaranteed to run before the decision?* Acceptable answers include a pre-fill checklist for a fill-time rule, or a named step in the proposal path — **not necessarily a boot read.** ⚠️ **An unconditional boot read is the WRONG default remedy: it inflates the read burden on the very surface whose size started this work.**
+
+⛔ **`instrument_check` and `Derived Views` are NOT candidate readers and must not be offered as such.** The first verifies INSTRUMENT HEALTH, the second RECORDED RECONCILIATION TIMING. **Neither establishes that the deciding agent read and applied a clause.** A clause placed under either is monitored, not read.
+
+> ⚑ **This section REPLACES the tranche-1 text that stood here** (*"8 of 10 binding clauses have no unconditional reader"* + those two checks offered as replacement readers). **Replaced, not annotated:** tranche 2 added corrections at the top of this file and LEFT THE SUPERSEDED GUIDANCE LIVE BELOW THEM, so the document issued two conflicting instructions — the exact failure mode this desk has a memory for and cited twice in the same session. `[[finding_correction_beside_an_instruction_leaves_two_live_instructions]]`
 
 ## 🔴🔴 TRANCHE 2 — ROTATION IS **NOT** JUSTIFIED. LIVE OBLIGATIONS SIT INSIDE THE "HISTORICAL" SECTIONS.
 
 ⛔ **Tranche 1 proposed rotating three dated sections (`70,739` UTF-8 B = 38.7% of the file) as "dated RECORD, not binding clauses." THAT WAS WRONG, and it is the original defect recurring inside its own remedy:** a superseded SECTION HEADING does not establish that every clause inside it is superseded. `[[finding_live_claim_in_a_closed_container_is_invisible]]`
 
-**Measured 2026-09-08: 33 live/binding marker lines across the three ranges.** Named survivors requiring individual reconciliation BEFORE anything moves:
+**Measured 2026-09-08: 33 live/binding marker lines across the three ranges.**
 
-| # | surviving obligation | at | why it is LIVE, not historical |
-|---|---|---|---|
-| 11 | **The sharpest-limit caveat** — *"this regime has produced ZERO genuine physical reopenings … THIS SPEC IS OPTIMISED AGAINST A PROFITABLE TRADE, NOT A VERIFIED REOPENING"* | L595 | **Will-directed 2026-07-31 to carry VERBATIM into the live spec and to SURVIVE EVERY FUTURE EDIT.** By its own text it binds Stage-A **v5**, not v4. Rotating it would delete a clause whose whole purpose is to outlive edits. |
+⛔⛔ **THE ROWS BELOW ARE RECONCILIATION CANDIDATES, NOT VERIFIED LIVE OBLIGATIONS — tranche 2 called them "six named survivors" and that was itself an unverified classification, asserted from a MARKER SCAN.** Reconciling two of them found two errors immediately (rows 15 and 16 below). **A marker scan produces a DISCOVERY LIST; only per-clause reconciliation produces a verdict.** 16 rows and 33 markers do not establish completeness. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
+
+**Status key: 🟡 CANDIDATE (unreconciled) · ✅ LIVE (reconciled, evidence attached) · ⛔ RETIRED (superseding evidence attached) · ❓ UNRESOLVED (classification itself open).**
+
+| # | candidate obligation | at | status + reconciliation evidence |
+| 11 | **The sharpest-limit caveat** — *"this regime has produced ZERO genuine physical reopenings … THIS SPEC IS OPTIMISED AGAINST A PROFITABLE TRADE, NOT A VERIFIED REOPENING"* | L595 | 🟡 **CANDIDATE.** **Will-directed 2026-07-31 to carry VERBATIM into the live spec and to SURVIVE EVERY FUTURE EDIT.** By its own text it binds Stage-A **v5**, not v4. Rotating it would delete a clause whose whole purpose is to outlive edits. |
 | 12 | **SIZING — HALF/HALF, Will-ruled 2026-07-31** · TRANCHE 1 (day 0, on (i)+(T)) · TRANCHE 2 (remainder on Leg C resolution, only if Leg C passes AND day-0 close-basis Leg T passes — tightened Will-ruled 2026-08-05) · **fenced ~$500 max-loss UNCHANGED** | L599–604 | Live sizing rules for a gate that can still fire. Not superseded by v5 — v5 changed the ENTRY legs, not the tranche construction. |
 | 13 | **UNRESOLVED CLOCK INTERACTION** — H1 says exit ≤8 trading sessions after entry; two tranches = two entries ⇒ tranche 1 stops day+9, tranche 2 day+10 | L604 | **Flagged "so it is not discovered in a live trade" and carries an INTERIM reading, not a ruling.** An open question with a provisional answer is the most dangerous thing to archive. |
 | 14 | **§0a UNRESOLVED, NOT EXPLAINED** (7/30 analogue tanker figures do not reconcile) | L597 | Explicitly labelled unresolved. |
-| 15 | **STAGE B — PERSISTENCE** (per-leg windows: transits 10 td · war-risk 25 td · P&I 25 td) + **THE KILL TEST** | L668+ | **Post-entry monitoring and exit rules — they grade a position AFTER it is on.** ⚠️ Some instruments have LATER retirement/successor records (the Worldscale/war-risk leg was retired 7/31 for having no feed) ⇒ **each leg needs individual reconciliation against its successor, not a section-level verdict.** |
-| 16 | **Harvest-rule interaction** (*"must not be buried"*) · **35a modifier `REVERSE`, Will-ruled 2026-08-11** (governs SIZE-IF-FIRED) | L735 · L743–749 | Dated Will rulings inside the "knowingly-open" block; both still govern a fire. |
+| 15 | **STAGE B — PERSISTENCE** (transits 10 td · war-risk 25 td · P&I 25 td) + **THE KILL TEST** | L668+ | 🟡 **CANDIDATE, and tranche 2 CONFLATED TWO INSTRUMENTS.** It said *"the Worldscale/war-risk leg was retired 7/31"* — those are **two different retirements**: the **VLCC/Worldscale** threshold went 2026-07-31 (F3, no feed), while **`WAR-RISK-HALVES`** carries **RETIRED 2026-08-07** in `workbook/REGISTRY.tsv` (flagged 3 consecutive sessions). ⇒ **Each Stage-B leg needs its own reconciliation against its own successor record; a section-level or instrument-family verdict is what failed here.** |
+| 16a | **35a modifier — `REVERT` / NON-LATCHING** (Will-ruled 2026-08-11, encoded 8/12) | L743–749 | ❓ **UNRESOLVED — SPLIT FROM A WRONG ROW.** ⛔ Tranche 2 wrote **`REVERSE`**; the ruling says **`REVERT`** — I misquoted a Will ruling's own operative term. ⛔ Tranche 2 also called the modifier *"still governing a fire"*: **L738–740 explicitly RETIRES the incumbent band** (*"the band in that sentence is the INCUMBENT and it is RETIRED"*, graded the 8/11 vintage once more and UN-FIRED at `110,638` vs a ≤`104,072` bar) **and names `COT-FUEL-35B` as successor** (registered 8/14, `supersedes: COT-FUEL`). ⇒ **The THRESHOLD is retired with evidence. Whether the NON-LATCHING PRINCIPLE survives its retired threshold is a SEPARATE question needing its own evidence — not inheritable from the ruling that set the band.** |
+| 16b | **Harvest-rule interaction** (*"must not be buried"*) | L735 | 🟡 **CANDIDATE** — not yet reconciled against the 8/7 gate retirement or the 8/21→8/27 harvest rulings. |
 
 ⇒ **NOTHING IN THESE RANGES ROTATES UNTIL EACH ROW ABOVE HAS ITS OWN IDENTITY, TRIGGER, DESTINATION AND VERIFIED READER, AND ANYTHING CLASSIFIED RETIRED CARRIES ITS SUPERSEDING EVIDENCE.** A section-level verdict is exactly the instrument that failed here.
 
