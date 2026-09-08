@@ -47,6 +47,7 @@ import argparse
 import csv
 import json
 import io
+import math
 import re
 import sys
 import urllib.parse
@@ -325,6 +326,20 @@ def probe_fred(series):
     so "no prober" would itself be the false claim this rewrite exists to kill.
     """
     def _keyless():
+        """⛔ VALIDATES, does not merely parse (CODEX review 2026-09-07).
+
+        The first version of this shipped earlier the SAME DAY accepted (a) a CSV whose header
+        named a DIFFERENT series and (b) a value of `nan`. Both are "HTTP 200 and rows exist",
+        and both would have been reported as a live measurement. ★ A RETRIEVAL THAT SUCCEEDS IS
+        NOT A MEASUREMENT THAT IS VALID — and `nan` is the nastier of the two because it is a
+        legal float that makes every downstream `<`/`>` comparison silently False, i.e. it
+        reads as "threshold not breached" forever.
+        [[finding_lenient_parser_reports_unparseable_as_a_behavior]]
+        ⚠️ Caught by review, NOT by my own falsification pass: I tested this fallback for
+        REACHABILITY (5/5 series green) and for the missing-series case, and never once fed it
+        a malformed 200. Testing that a guard fires on ABSENCE is not testing that it fires on
+        CORRUPTION. [[finding_test_the_guard_not_just_the_guarded]]
+        """
         url = ("https://fred.stlouisfed.org/graph/fredgraph.csv"
                f"?id={urllib.parse.quote(series)}")
         h = dict(BROWSER_HEADERS)
@@ -334,11 +349,31 @@ def probe_fred(series):
             if resp.status != 200:
                 raise RuntimeError(f"HTTP {resp.status}")
             text = resp.read().decode("utf-8", errors="replace")
-        rows = [r for r in csv.reader(io.StringIO(text)) if len(r) == 2][1:]
-        rows = [r for r in rows if r[1] not in (".", "")]
+        rows = [r for r in csv.reader(io.StringIO(text)) if len(r) == 2]
         if not rows:
-            raise RuntimeError("200 but no non-missing observations in the CSV")
-        return rows[-1][0], rows[-1][1]
+            raise RuntimeError("200 but no 2-column rows — not a FRED CSV")
+        header = [c.strip().upper() for c in rows[0]]
+        # GUARD 1 — the payload must be the series we ASKED for.
+        if series.upper() not in header:
+            raise RuntimeError(f"CSV header {header!r} does not name {series} — WRONG SERIES "
+                               f"(a 200 for someone else's data is not this instrument)")
+        for d, v in reversed(rows[1:]):
+            if v in (".", ""):
+                continue
+            # GUARD 2 — a real ISO date.
+            try:
+                datetime.strptime(d.strip(), "%Y-%m-%d")
+            except ValueError:
+                continue
+            # GUARD 3 — a FINITE number. nan/inf parse as floats; they must not pass.
+            try:
+                f = float(v)
+            except ValueError:
+                continue
+            if not math.isfinite(f):
+                continue
+            return d.strip(), v.strip()
+        raise RuntimeError("200 but no valid (ISO date, finite value) observation in the CSV")
 
     key = _fred_key()
     keyed_err = None

@@ -23,7 +23,9 @@
 
 ---
 
-## POSITIONS (live)
+## POSITIONS (live) — ⚠️ **4 LIVE ROWS. ONE STRUCK ROW (`~~STNG~~`) IS *NOT* A POSITION AND IS RETAINED ONLY AS THE RECORD OF AN ERROR.**
+
+> ⛔ **CONTAINER LABEL ADDED 2026-09-07 (CODEX review, Will-approved).** CODEX read this table and reported *"STNG still appears under POSITIONS"* — **and that is a fair read of the CONTAINER even though the ROW is emphatically correct.** The row says `DOES NOT EXIST — REMOVED 2026-08-04` in bold with a strikethrough; the HEADING said `POSITIONS (live)` with nothing to warn that a dead row lives inside it. **Container status wins both ways, and this desk has the lesson already: `[[finding_live_claim_in_a_closed_container_is_invisible]]` — here in its mirror form, a DEAD row inside a LIVE container.** ⛔ **THE ROW IS DELIBERATELY NOT DELETED:** it is the permanent record of STNG being carried as a live position from **7/21 to 8/4**, through STATUS, this table, `CLAUDE.md` domain scope and every `N_eff` count used to argue against adding size. Deleting it would tidy away the evidence of the error. **Live count is FOUR: `USO 35 sh` · `USO Oct-16 135C ×2` · `USO Sep-18 150/165 ×1` · `XLE Sep-30 65C ×2`.** ⚠️ **STNG remains a TRACKED TICKER** (a leg of the Stage-A tanker-liveness composite). **Tracking ≠ owning.** ⚑ **NOT MINE TO FIX, FLAGGED:** `FORGE/STATUS.md` still carries STNG as open discrepancy **D-17** with owner **Will** — that is PROME/ANVIL's surface and is correctly a DISCREPANCY row, not a holding; I am not editing it.
 
 | Position | Type | Status | Note |
 |----------|------|--------|------|

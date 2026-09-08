@@ -66,13 +66,35 @@ def parse_end_date(tf):
         yr, mm = int(y), MONTHS[m]
         cands.append(date(yr, mm, _last_day(yr, mm)))
 
+    # ⛔ ADDED 2026-09-07 (CODEX review, Will-approved). ISO `YYYY-MM-DD` had NO pattern here,
+    # so the MOST EXPLICIT timeframe form was the one the parser could not read: `By 2026-09-30`
+    # (BRT-29) and `By 2026-10-26` (BRT-30) both returned None and were silently skipped, while
+    # the FUZZY form `By end-Q3 2026` (BRT-26) parsed fine. A scanner that handles "end-Q3 2026"
+    # and not "2026-09-30" is inverted: precision was being punished.
+    # supersedes: none — EXTENDS parse_end_date.
+    for y, mo, d in re.findall(r"(\d{4})-(\d{2})-(\d{2})", s):
+        try:
+            cands.append(date(int(y), int(mo), int(d)))
+        except ValueError:
+            pass
+
     return max(cands) if cands else None
+
+
+# Event-conditional timeframes are gated by a PRECONDITION, not a calendar — the docstring says
+# they are skipped BY DESIGN. Separating them from genuinely-unparseable rows matters: a guard
+# that reports a deliberate design choice as a defect cries wolf every single boot, and a guard
+# that is always red is read as noise and then ignored — which would re-create the blindness
+# this scanner exists to remove. [[finding_loosening_a_check_to_kill_a_false_alarm_inverts_the_failure_direction]]
+EVENT_CONDITIONAL_RE = re.compile(
+    r"within\s+\d+|within\s+(?:days|weeks|months)|ongoing|of\s+\w+ing\b|upon\b|when\b|if\b",
+    re.IGNORECASE)
 
 
 def scan(today=None, debug=False):
     today = today or date.today()
     soon = today + timedelta(days=7)
-    due, upcoming = [], []
+    due, upcoming, unparsed, event_cond = [], [], [], []
     with io.open(PRED, "r", encoding="utf-8", newline="\n") as f:
         for ln in f:
             if ln.startswith("#") or ln.startswith("Pred_ID"):
@@ -81,25 +103,63 @@ def scan(today=None, debug=False):
             if len(fx) < 6 or not fx[0].startswith("BRT-"):
                 continue
             pid, tf, status = fx[0], fx[4], fx[5]
-            if status != "OPEN":
+            # ⛔⛔ FIXED 2026-09-07 (CODEX review). THIS READ `if status != "OPEN": continue` —
+            # an EXACT string match. Every OPEN row that had been ANNOTATED was therefore
+            # dropped: BRT-07 ("OPEN — re-dated 2026-08-13; OUTER BOUND 2027-03-06") and BRT-12
+            # ("OPEN — re-dated, resolves 2026-09-30") never reached the parser at all.
+            # ★ THE INVERSION IS THE POINT: annotating a status to make it MORE informative —
+            # exactly what closeout step 8 tells this desk to do when it re-dates a row —
+            # REMOVED that row from the backstop scan. The better-documented rows were the
+            # invisible ones. Combined with the ISO-date gap above, 4 of 5 OPEN predictions
+            # were unscanned while boot printed "✅ ran cleanly, no alerts".
+            # [[finding_scan_keyed_on_naming_reads_local_form_as_absence]]
+            if not status.upper().startswith("OPEN"):
                 continue
             end = parse_end_date(tf)
             if debug:
                 print(f"    {pid}: tf={tf!r} -> end={end}")
             if end is None:
+                # ⛔ WAS a bare `continue` — an unparseable timeframe on an OPEN prediction
+                # vanished with no signal, which is the precise shape of the miss this whole
+                # script exists to prevent. Now it is reported.
+                if EVENT_CONDITIONAL_RE.search(tf):
+                    event_cond.append((pid, tf, status))
+                else:
+                    unparsed.append((pid, tf, status))
                 continue
             if end <= today:
                 due.append((pid, tf, end))
             elif end <= soon:
                 upcoming.append((pid, tf, end))
-    return due, upcoming
+    return due, upcoming, unparsed, event_cond
 
 
 def main():
     debug = "--debug" in sys.argv
     print("  ⏳ Predictions-Due Scan...")
-    due, upcoming = scan(debug=debug)
+    due, upcoming, unparsed, event_cond = scan(debug=debug)
+    # ⛔ UNPARSED IS REPORTED BEFORE THE CLEAN VERDICT, and it BLOCKS the clean verdict. An OPEN
+    # prediction whose timeframe this parser cannot read is NOT evidence of "no alerts" — it is
+    # evidence that the backstop did not cover that row. Printing ✅ over it is the silent-green
+    # class. [[finding_lenient_parser_reports_unparseable_as_a_behavior]]
+    if event_cond:
+        print("      ⚪ EVENT-CONDITIONAL (skipped BY DESIGN — a precondition gates these, not a"
+              " calendar). Listed so the exclusion is never silent:")
+        for pid, tf, status in event_cond:
+            ob = re.search(r"OUTER BOUND\s+(\d{4}-\d{2}-\d{2})", status)
+            extra = f"  ⚠️ carries OUTER BOUND {ob.group(1)} in its STATUS cell, which this"
+            extra += " scanner does not read — check it by hand" if ob else ""
+            print(f"      ⚪ {pid}  timeframe={tf!r}{extra if ob else ''}")
+    if unparsed:
+        print("      🔴 UNPARSEABLE TIMEFRAME on an OPEN prediction — the scan DID NOT COVER these:")
+        for pid, tf, status in unparsed:
+            print(f"      🔴 {pid}  timeframe={tf!r}  status={status[:40]!r}")
+        print("         ⇒ fix the Timeframe cell or extend parse_end_date. Until then these rows"
+              " can NEVER come due, exactly like the STUCK-row blindness the boot doc warns of.")
     if not due and not upcoming:
+        if unparsed:
+            print("      ⚠️  no DUE/SOON rows AMONG THE ROWS THAT PARSED — scope stated, not a clean bill.")
+            return 2
         print("      ✅ no OPEN predictions past (or within 7d of) their timeframe")
         return 0
     if due:
@@ -110,7 +170,7 @@ def main():
         print("      🟠 SOON (≤7d) — pre-stage resolution:")
         for pid, tf, end in upcoming:
             print(f"      🟠 {pid}  (timeframe {tf!r} ends {end})")
-    return 0
+    return 2 if (due or unparsed) else 0
 
 
 if __name__ == "__main__":

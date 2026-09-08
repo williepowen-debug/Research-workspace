@@ -435,10 +435,32 @@ def main():
     print(f"\n  PATH B TRIGGER STATUS (demand destruction)")
     print(f"  {'-'*64}")
     gas_trigger = yoy is not None and yoy <= GAS_YOY_PHASE2
-    cushing_trigger = val is not None and m.get("cushing", 100) < CUSHING_MIN
+
+    # ⛔⛔ FIXED 2026-09-07 (CODEX review, Will-approved). THIS LINE READ:
+    #     cushing_trigger = val is not None and m.get("cushing", 100) < CUSHING_MIN
+    # `val` is REASSIGNED down this whole print block and holds m.get("util") by the time it
+    # reaches here (line ~429). So the Cushing trigger was gated on REFINERY UTILIZATION: if
+    # util was missing, cushing_trigger went False NO MATTER WHAT CUSHING DID, and the board
+    # printed "⚪ not breached" over a real breach.
+    # ⚠️ SEVERITY: Cushing <20M is not decorative — it is the registered CUSHING-20M threshold
+    # that RE-ACTIVATES Routing Boundary #3 (WALTER IMMEDIATE -> LIQUID/HENRY/RED). A live
+    # routing trigger was suppressible by an unrelated absent field.
+    # ★ WHY IT SURVIVED: `val is not None` LOOKS like the right guard and reads as deliberate
+    # care. Nothing about the line is syntactically odd; only the BINDING is wrong, and a
+    # reused loop-style variable makes the wrong binding invisible at the point of use.
+    # [[finding_guard_pointed_at_another_desks_surface_inherits_its_workflow]] (same class:
+    # a guard that names the wrong referent), [[finding_silent_blank_evades_review]].
+    cushing_val = m.get("cushing")
+    cushing_trigger = cushing_val is not None and cushing_val < CUSHING_MIN
 
     print(f"  Trigger #2 (Gas YoY ≤ -5%):  {'🔴 FIRED' if gas_trigger else '⚪ not fired'}")
-    print(f"  Cushing < 20M:               {'🔴 BREACHED' if cushing_trigger else '⚪ not breached'}")
+    if cushing_val is None:
+        # Fail LOUD. The old default of 100 made a MISSING reading indistinguishable from a
+        # comfortable one — "not breached" is a claim, and we cannot make it without the datum.
+        print(f"  Cushing < 20M:               ⚪ UNGRADED — no Cushing reading in this pull. "
+              f"NOT a 'not breached': the datum is absent, so no verdict exists.")
+    else:
+        print(f"  Cushing < 20M:               {'🔴 BREACHED' if cushing_trigger else '⚪ not breached'}")
 
     if source.startswith("🟢"):
         print(f"\n  NOTE: LIVE pull via EIA v2 API (FORGE eia_fetch). Cross-check Cushing vs the FORGE dashboard.")

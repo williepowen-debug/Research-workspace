@@ -41,6 +41,8 @@ import sys
 import urllib.request
 import urllib.parse
 from datetime import datetime
+import io
+import math
 
 try:
     import yfinance as yf
@@ -197,24 +199,112 @@ WARN_PCT = 0.05  # 5% proximity warning
 # FRED fetcher (urllib)
 # ---------------------------------------------------------------------------
 
+# Full browser header set — the FRED public CSV endpoint needs the SHAPE, not just a UA.
+# Mirrors instrument_check.BROWSER_HEADERS; duplicated deliberately rather than imported,
+# because this script must stand alone in a cloud checkout with no sibling on sys.path.
+_KEYLESS_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"),
+    "Accept": "text/csv,*/*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "identity",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+}
+
+
+def _fred_fetch_keyless(series_id, limit=3):
+    """FRED's public CSV endpoint — no credential. Raises on anything it cannot VALIDATE.
+
+    ⛔ VALIDATES, DOES NOT JUST PARSE (CODEX review 2026-09-07). An earlier version of the
+    sibling fallback in instrument_check accepted a CSV whose header named a DIFFERENT series,
+    and accepted a non-finite value. Both are "HTTP 200 + rows exist" and both are wrong.
+    A retrieval that succeeds is not a measurement that is valid.
+    [[finding_lenient_parser_reports_unparseable_as_a_behavior]]
+    """
+    url = ("https://fred.stlouisfed.org/graph/fredgraph.csv?id="
+           + urllib.parse.quote(series_id))
+    req = urllib.request.Request(url, headers=_KEYLESS_HEADERS)
+    with urllib.request.urlopen(req, timeout=45) as resp:
+        if resp.status != 200:
+            raise RuntimeError(f"HTTP {resp.status}")
+        text = resp.read().decode("utf-8", errors="replace")
+    rows = [r for r in _csv.reader(io.StringIO(text)) if len(r) == 2]
+    if not rows:
+        raise RuntimeError("200 but no 2-column rows — not a FRED CSV")
+    header = [h.strip().upper() for h in rows[0]]
+    # GUARD 1: the payload must be the series we ASKED for.
+    if series_id.upper() not in header:
+        raise RuntimeError(f"CSV header {header!r} does not name {series_id} — WRONG SERIES")
+    out = []
+    for d, v in reversed(rows[1:]):
+        if v in (".", ""):
+            continue
+        # GUARD 2: the date must be a real ISO date.
+        try:
+            datetime.strptime(d.strip(), "%Y-%m-%d")
+        except ValueError:
+            continue
+        # GUARD 3: the value must be a FINITE number. "nan"/"inf" parse as floats and would
+        # otherwise sail through every downstream comparison as a silent False.
+        try:
+            f = float(v)
+        except ValueError:
+            continue
+        if not math.isfinite(f):
+            continue
+        out.append({"date": d.strip(), "value": v.strip()})
+        if len(out) >= limit:
+            break
+    if not out:
+        raise RuntimeError("200 but no valid (date, finite value) observations")
+    return out
+
+
 def fred_fetch(series_id, limit=3):
-    """Fetch latest observations from FRED. Returns list of {date, value}."""
-    params = {
-        "series_id": series_id,
-        "api_key": FRED_API_KEY,
-        "file_type": "json",
-        "sort_order": "desc",
-        "limit": limit,
-    }
-    url = f"{FRED_BASE}?{urllib.parse.urlencode(params)}"
+    """Fetch latest observations from FRED. Returns list of {date, value}.
+
+    ⛔⛔ KEYLESS FALLBACK ADDED 2026-09-07 (CODEX review, Will-approved). supersedes: the
+    key-only path. WHY IT MATTERS AND WHY probe_fred WAS NOT ENOUGH: instrument_check's
+    probe_fred was given this fallback earlier the same day, and BRENT then wrote into
+    demand_destruction/TRACKER.md — a RUN-TIME CONTRACT the cloud routines read — that the
+    cloud "no longer needs the key." THAT WAS NOT YET TRUE. probe_fred answers "is the
+    instrument reachable"; THIS function is what actually GRADES. Verified 2026-09-07: with no
+    credential, all 10 FRED rows in REGISTRY.tsv went UNGRADED — including GASREGW > $4.00 and
+    DCOILBRENTEU > $100/$120/$140. Repairing the probe and announcing the grading fixed is
+    [[finding_record_of_an_action_is_not_the_action]] — the fix landed one layer off the claim.
+    ⚠️ Keyed API stays FIRST: it is the documented contract. The fallback is a floor.
+    """
+    keyed_err = None
+    if FRED_API_KEY:
+        params = {
+            "series_id": series_id,
+            "api_key": FRED_API_KEY,
+            "file_type": "json",
+            "sort_order": "desc",
+            "limit": limit,
+        }
+        url = f"{FRED_BASE}?{urllib.parse.urlencode(params)}"
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "BRENT-Monitor/1.0"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read())
+            obs = data.get("observations", [])
+            got = [{"date": o["date"], "value": o["value"]} for o in obs if o["value"] != "."]
+            if got:
+                return got
+            keyed_err = "no observations"
+        except Exception as e:
+            keyed_err = str(e)
+    else:
+        keyed_err = "FRED_API_KEY not found"
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": "BRENT-Monitor/1.0"})
-        with urllib.request.urlopen(req, timeout=15) as resp:
-            data = json.loads(resp.read())
-        obs = data.get("observations", [])
-        return [{"date": o["date"], "value": o["value"]} for o in obs if o["value"] != "."]
+        return _fred_fetch_keyless(series_id, limit=limit)
     except Exception as e:
-        return [{"error": str(e)}]
+        return [{"error": f"keyed: {keyed_err}; keyless: {e}"}]
 
 
 # ---------------------------------------------------------------------------

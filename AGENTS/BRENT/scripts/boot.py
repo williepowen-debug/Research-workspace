@@ -342,10 +342,26 @@ def main():
     else:
         # "All scripts completed successfully" is TRUE about the scripts and MISLEADING
         # about the state of the world when a check just reported blocking findings.
+        #
+        # ⛔⛔ EXIT CODE FIXED 2026-09-07 (CODEX review, Will-approved). This returned 0
+        # UNCONDITIONALLY, so boot exited SUCCESS while printing "🔴 N check(s) reported
+        # BLOCKING FINDINGS" — and it led with a ✅ line. Two defects in one block:
+        #   (1) a ✅ GLYPH leading the summary when the state is red. The qualifier after the
+        #       dash is real, but the eye takes the glyph, and the glyph said fine.
+        #   (2) exit 0 on blocking findings. Nothing gates on boot's rc TODAY, which is exactly
+        #       why it was free to be wrong — the first thing that ever wraps this script in a
+        #       hook, a CI step or an && chain would have silently inherited a green.
+        # ★ THIS IS THE SAME CLASS THIS FILE ALREADY FIXED ONCE, in FINDINGS_MARKERS: a script
+        # that "returns 0 EVEN WHEN IT FINDS STALE LEDGERS". Boot enforced that contract on its
+        # CHILDREN and then broke it itself. [[finding_guard_correctness_and_wiring_are_independent]]
+        # rc contract: 0 = clean · 2 = ran fine, blocking findings · 1 = a script broke.
         if findings:
-            print(f"\n  ✅ All scripts RAN successfully — but see the blocking findings above.")
-        else:
-            print(f"\n  ✅ All scripts completed successfully.")
+            print(f"\n  🔴 BOOT COMPLETED WITH {len(findings)} BLOCKING FINDING(S). "
+                  f"Scripts all RAN — the SPEC/state is the problem. rc=2.")
+            print(f"     ⛔ This is NOT a clean boot. Do not read the run as green.")
+            print(f"\n  Tip: run with --verbose to see full output for each script.")
+            return 2
+        print(f"\n  ✅ All scripts completed successfully.")
         print(f"\n  Tip: run with --verbose to see full output for each script.")
         return 0
 
