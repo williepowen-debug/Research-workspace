@@ -123,7 +123,7 @@ All mail lives under this agent's directory:
 
 **Primary cross-agent surface = `NEXUS_BRIEF.md` CROSS-DOMAIN tables** (Will, Jun 7). NEXUS reads BRENT's brief at its boot (its BOOT step 6) and does the routing/synthesis — this works around degraded HERMES. **`outbox/` = 🔴 acute signals AND PROME-action requests**; steady-state cross-agent signal flows through the brief's SENDING/WAITING-FOR tables, not per-signal outbox files. Keep those tables fresh at closeout (step 12) — that IS the cross-agent comms now.
 
-Write a single `.md` file to `outbox/` per signal (acute 🔴 only, per above):
+Write a single `.md` file to `outbox/` per signal (🔴 acute **or** a PROME-action request, per above):
 - **Filename:** `YYYY-MM-DD_to-[target]_[short_description].md`
 - **Format:**
 ```
@@ -154,7 +154,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**Brent $90** | [CONF] ICE Mar 6` or `**~$95** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `BRT-xx` (e.g., `BRT-01`, `BRT-04`). No bare numbers.
 - **Don't maintain stale copies.** If another agent owns a data point (HAWK owns military ops, HENRY owns VIX), reference their value with `[CONF HAWK Mar 6]` rather than keeping your own copy that drifts. One source of truth per metric.
-- ⛔ **STATUS.md is bounded by the READ-CAP BYTE BUDGET, not a line count** (`scripts/read_cap_check.py --agent BRENT`). Archive overflow to **`workbook/STATUS_archive_*.md`** (the pattern actually in use) or `research/`. *(Corrected 2026-07-30: this line pointed at `domain/sources/`, which **does not exist and never has** — `domain/` holds only `REFERENCE_TABLES.md` and `HORMUZ_TRANSIT_BASELINE.md`. A boot instruction naming a nonexistent path is a silent no-op: the archive step reads as covered and isn't. DAEDALUS flagged it 7/28.)*
+- ⛔ **STATUS.md is bounded by the READ-CAP BYTE BUDGET, not a line count** (`scripts/read_cap_check.py --agent BRENT`). Archive overflow to **`archive/`** — the destination actually in use since the 2026-09-07 rule-19 rotation (`archive/STATUS_DETAIL_YYYY-MM.md` for dated detail, `archive/STATUS_dated_*.md` for whole blocks), verbatim + crc. ⚠️ **`workbook/STATUS_archive_*.md` is the HISTORICAL set — 11 files, still linked from STATUS; leave them where they are, do not add to them.** *(Corrected 2026-07-30: this line pointed at `domain/sources/`, which **does not exist and never has** — `domain/` holds only `REFERENCE_TABLES.md` and `HORMUZ_TRANSIT_BASELINE.md`. A boot instruction naming a nonexistent path is a silent no-op: the archive step reads as covered and isn't. DAEDALUS flagged it 7/28.)*
 - Separate FACTS (what happened) from ASSESSMENT (what it means for price/positioning).
 - Price levels always include: spot, structure (contango/backwardation), and key spreads.
 

@@ -28,13 +28,14 @@
 | `3bbf6a1db` | **Rule 19 first application:** STATUS 75,158 → 22,338 B · calendar GENERATED from `CATALYSTS.tsv` |
 | `55669cd02` | P3 completed 9/9 · reconciliation guard's two false greens fixed · repair stories moved to the cold record |
 
-**Read cap:** STATUS 45% ✅ · SCRATCH ✅ · charter 32,513 B ✅ · **`TRADE.md` 337% 🔴** · `LESSONS.md` 90% 🟠.
+**Read cap (2026-09-08):** STATUS `23,785` (44%) ✅ · SCRATCH `8,995` (17%) ✅ · charter `31,421` (**1,129 B headroom** — it sat at 19 B before the step-10 rationale moved out; a file with no slack fails on the next honest sentence) · **`TRADE.md` 337% 🔴** · `LESSONS.md` 90% 🟠.
 
 ---
 
 ## ⏳ NEXT SESSION — FIRST TASK IS ASSIGNED
 
-**🔴 P2 — the TRADE.md obligation inventory.** One row per binding clause: `clause · from (section) · to (file § section) · reached by (which boot/closeout/decision step reads it)`. **A clause archived without a reader is lost operationally.** Then the binding-letter moves to `setups/SPECS_*.md` and the dated rotation to `archive/TRADE_*.md`. ASK-2 (self vs one RAV slot) needs no answer — DAEDALUS marks it optional.
+**🔴 P2 — the TRADE.md obligation inventory.** One row per binding clause: `clause · from (section) · to (file § section) · reached by (which boot/closeout/decision step reads it)`. **A clause archived without a reader is lost operationally.**
+> ⛔⛔ **VERIFY EACH READER PATH — DO NOT JUST FILL THE `reached-by` COLUMN.** A pointer in that column records **intended** access; it is not evidence of access. For every row, OPEN the named step and confirm it actually travels to the clause — the step exists, it is not conditional on something that never fires, and the path resolves after the move. ⚠️ **A filled column passes every presence audit while the obligation is unreachable** `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`, and this desk has already shipped that exact failure THREE times in two days: the calendar check registered at a path boot could not resolve · the standing guard that counted stamps instead of rows · `board_log.tsv` scored as a boot read because it was NAMED on a read line. **The inventory is only worth building if each row is a checked claim.** `[[finding_record_of_an_action_is_not_the_action]]` Then the binding-letter moves to `setups/SPECS_*.md` and the dated rotation to `archive/TRADE_*.md`. ASK-2 (self vs one RAV slot) needs no answer — DAEDALUS marks it optional.
 
 | when | what |
 |---|---|
