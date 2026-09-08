@@ -1,5 +1,7 @@
 # September 8 catch-up orchestration
 
+**Subsequent owner implementation:** [September8 actual owner follow-through](2026-09-08_owner-orchestration-completion.md) supersedes this reader-wave record’s pending-integration and launch-limit statements.
+
 Prepared 2026-09-08 16:55 ET, on Will's “Can you spawn agents and orchestrate?” Three Codex subagents delivered TERRY, BRENT and HAWK domain reviews; TERRY received a second publication check. PROME independently reviewed WALTER, verified load-bearing findings and filed owner packets. This completes the bounded research wave, not every desk's daily catch-up.
 
 ## Results and immediate priorities

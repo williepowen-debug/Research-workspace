@@ -1,5 +1,5 @@
 {
- "built": "2026-09-07 23:29",
+ "built": "2026-09-08 18:27",
  "channels": {
   "AI capex": "elev",
   "Credit": "crit",
@@ -15,14 +15,9 @@
   "2026-09-01 FSA Data Center Q2 update (quarterly cadence; Q1 posted 6/23",
   "2026-09-01 Xi -> Washington White House summit with Trump (exact date u",
   "2026-09-03 \ud83d\udd34 PJM CAPACITY EMERGENCY \u2014 LIVE (WATT P1 FIRED 2\u21925 on its 8/",
-  "2026-09-07 CRMT / Silver Point covenant-relief waiver EXPIRES (date har",
   "2026-09-08 BRENT discriminator forward checks (own-dated, registered fr",
   "2026-09-08 DEFERRAL (Forum-4 N10, Will-ruled 8/11): ORACLE v3 instrumen",
   "2026-09-08 Russia diesel producer-direct carve-out takes effect (OSP-02",
-  "2026-09-08 WALTER BOARD/INDEX generator CUTOVER (WQ-174 \u2462, ruled 9/4 08",
-  "2026-09-08 XLE $65C Sep-30 \u00d72 \u2014 WQ-168 row \u2466 DATED EXIT, leg 1: did XLE",
-  "2026-09-08 \ud83d\udd34 CANADIAN COUNTER-TARIFFS take effect \u2014 \"dollar for dollar\"",
-  "2026-09-08 \ud83d\udd34 CANADIAN COUNTER-TARIFFS ~$28B \"dollar-for-dollar\" take ef",
   "2026-09-09 FERT DTN weekly retail-price article \u2192 GATE-FERT-G5 graded r",
   "2026-09-09 KERNEL three-outcome projection vocabulary (WQ-155 \u2462, Will 9",
   "2026-09-09 KERNEL/IMPLEMENTATION_STATUS.md chronology \u2192 archive (Codex ",
@@ -69,7 +64,8 @@
   "2026-09-25 Coordination-value scorecard RENDER #4 (DAEDALUS weekly Frid",
   "2026-09-25 \u2605 IRAN-OMAN PERMANENT-ROUTE WINDOW \u2014 the 8/26 finalised INTE",
   "2026-09-26 FORUM-6 WITHDRAWAL CHECKPOINT (binding on the verdict): grad",
-  "2026-09-28 ORACLE v4 supply-leg OCTOBER ROLL + Active-Month disclosure "
+  "2026-09-28 ORACLE v4 supply-leg OCTOBER ROLL + Active-Month disclosure ",
+  "2026-09-29 SAVE\u2192RAP FIRST-TRANCHE non-selection read \u2014 CRL-13 partial N"
  ],
  "fleet": {
   "AEOLUS": "elev",
@@ -82,7 +78,7 @@
   "FALCON": "ok",
   "FERT": "ok",
   "FLG": "elev",
-  "HAWK": "watch",
+  "HAWK": "ok",
   "HENRY": "watch",
   "HOMER": "watch",
   "LABOR": "ok",
@@ -92,7 +88,7 @@
   "NEXUS": "ok",
   "ORACLE": "ok",
   "OSPREY": "watch",
-  "OZK": "watch",
+  "OZK": "elev",
   "PROME": "ok",
   "RED": "ok",
   "REGINALD": "watch",

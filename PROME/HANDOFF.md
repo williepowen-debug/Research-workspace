@@ -4,6 +4,8 @@
 
 **Archive:** older entries → `PROME/archive/HANDOFF_*.md` (one file per rotated block; each file's header carries its own entry-crc32; `ls PROME/archive/HANDOFF_*.md` is the index — no hand-maintained index exists by design). The 49-pointer paragraph that lived here through 8/28 (frozen snapshot, nothing appends to it) → `PROME/archive/HANDOFF_ARCHIVE_POINTERS_2026-08-28.md` (crc32 3088833333). Rotation recipe → `PROME/CLOSEOUT.md` Chunk 1.
 
+**Current handoff (September8):** actual Codex owner implementations and verified Git receipts → [owner follow-through](reports/2026-09-08_owner-orchestration-completion.md); next entry point → SCRATCH. Five prior session records below are history.
+
 ---
 
 ## 2026-09-07 NIGHT (Mon, Labor Day, **THE MACHINE-SWITCH EVENING** — **LAPTOP** [`WilliePOwen`]; **Fable 5.1**; session `prome-94`, boot 20:18 on *"Hi Prome please boot up"* → STANDARD closeout ~23:3x on *"Okay lets close out"*; DAEDALUS `daedalus-52` + BRENT `brent-e3` in Will's windows; markets closed)

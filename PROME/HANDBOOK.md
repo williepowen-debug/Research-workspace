@@ -3,26 +3,20 @@
 **Owner:** PROME. Rendered by `PROME/tools/will_handbook.py` (regenerated at Standard+ closeouts alongside the brief and dashboard). The live sections on the page — Waiting on you · The clock — are GENERATED from WILL_QUEUE/DOCKET via the brief's own parsers and are never written here. **This file is the manual + the curated priorities. Plain language; every claim dated; update when a convention changes, not per-session.**
 
 ## Top priorities
-- **★ THE EVENING'S FIVE WORDS [9/7 20:37–21:14, laptop]:** you cleared a blocked pull (another desk's orphaned memory file, committed in its name), closed the read-cap escalation (the write mode — hot files carry state and pointers, the story goes cold the day it is written — is now fleet canon), confirmed the harvest batch (its one prediction-canon line: a pre-registration is a timing claim only when its spec is committed before its result; two blind reads, residue declared), and ruled four queue rows in one word — the oil-prediction desk's rolled instrument ratified, the forum's owner-unconsumed line lapsed with a dated re-open check, the sub-agent's read mode approved with the parent holding the pen, and the systems-review slate's three open items (no data-feed spend; the desk runs its gate Friday on what exists). Your 9/10–9/11 cluster is clear.
-- **★ THE FIRST CONFIRMED SINKING, RULED [9/7 14:42]:** the war-theater desk fired its hull-loss gate on the Kylo and moved its mark to 75; the oil desk read its own letter and found an empty hull in a blockaded trade destroys no capacity, then found its own status line had handed its capital trigger to the other desk's gate. **You ruled stand down, the letter governs, and "vessel SUNK" now carries a capacity floor** — applied by the oil desk on all three of its surfaces within the hour. $0 moved.
-- **★ THE OIL INSTRUMENT ROLLED WITHOUT A WORD [ORACLE 9/7 → row 190, by 9/11]:** the question the docket carried since 8/11 was aimed at a death that never happened — the supply leg rolled to the September WTI-$100 market on 8/27 as maintenance. Ratify it, with the 9/18 contract switch disclosed. Its spread tripwire fired (45.5→36.0) and the desk did not raise the row; a full session re-check is owed.
-- **★ THE LABOR DESK'S DAY [9/7]:** the revision bias you keep describing is now measured — first print to current averages −66K a month, 35 of 44 months revised down; its boot sweep had fired retired triggers for 31 days; its charter was over the read cap and was split on your word (row 193, delivered 17:09). Four rounds of outside review, every defect confirmed at the artifact. **Row 191 (by 9/11):** let the S1 build lapse as superseded by the spawn rule.
-- **★ ONE PROCESS DEFECT WORTH A RULE [Codex 9/7]:** an amendment read for one correction did not update a second decision derived from the original packet — the coordinator registered a question the desk had already withdrawn. Amendments should name the queue items they affect; consumption should reconcile each. Saturday's spine audit carries it.
-- **★ THE MARKET LINE [9/4 closes; 9/3 officials; Monday electronic prints as stamped]:** Brent ~$97.5 live Monday, five sessions up, curve lifting together, $100 not a threshold · SKEW 151.58 [9/4 CBOE], 2 of 4, Tuesday extends or resets, Wednesday's close is the earliest fire · HY 265 [9/3], 5 bp from the re-kill line, 15 from the re-arm; **the convergence desk's second read can lock Wednesday, two days before the CPI it is named after** · DGS10 4.77, the exit gate 27 bp away · WAL 80.95, the exit line 95 cents above.
-- **Your queue by date:** **187 (9/12, the digest — 15 minutes by hand)** · 133 (9/12, PROME's) · 181 ② (9/14) · 161 (9/15) · 160 (9/29) · 182 (9/30) · 31 (11/1) · 98 · 74 · 169. **By hand:** the TLT 85P sell at the broker's count Tuesday · the three broker facts · the expired Robinhood put · the systemic-risk desk's charter word in its window.
-- **Rules that came out of today:** two desks on one event, on different letters, produce a better question than either verdict — the disagreement locates the defect · a gate held under a counterparty's finding deserves less scrutiny than one relaxed · when you replace a state because a string is matchable, the provenance note must not contain the string · message timestamps are UTC; stamp from the clock, never the narrative.
+- **September8 close:** XLE64.77 selects the existing September9-open sale of both recorded65C; verify current broker holdings/orders, execute and return fill truth. TLT85P requires current Activity & Orders and actual count before replacement2.60 limit.
+- **Owner follow-through:** WALTER cutover/corrections, TERRY management and HAWK Canada grade are committed. BRENT is finishing source-limited oil write-back. Details and caveats: `PROME/reports/2026-09-08_owner-orchestration-completion.md`.
+- **Observation dates matter:** TERRY007 official grades endSeptember4, counter0/5/no add;September8 unpublished. CboeSeptember8 and PJM post23:59 outcome remain ungraded. EIA weekly petroleum moves toSeptember10 noonET for Labor Day.
+- **Existing rulings:** stand-down remains binding. Do not re-ask WQ-167 USO sale price or WAL GTC. Current open decisions come from the generated queue; prior closed rows are not fresh requests.
 
 ## Spawn queue
 *(Format contract for the renderer: `- **NAME** · when · why` — one desk per line, decay order.)*
-- **LABOR** · Fri 9/4 after 08:30 · grade payrolls off the frozen card (T-03 fires on a flat print → CARL + HENRY); idle in your window — reopen it or PROME re-pings
-- **REGINALD** · Fri 9/4 after the close, only if WAL ≥ $81.90 · it owns the December put's exit grade (0 of 3) and has been dark since 9/1; also holds HOMER's wall retraction and WAL's REG-15 refutation
-- **BRENT** · Fri 9/4 · the crude positioning print grades its COT gate; letter defects from three reads are in its inbox; OSPREY's diesel reconcile
-- **OTTO** · Fri 9/4 → Mon 9/7 · CRMT's weekly liquidity test, the covenant waiver expiring Labor Day, CARL's L1 answer
-- **DAEDALUS** · 9/4–9/5 · scorecard first render, renderer checkpoint; six PROME packets waiting (the claim-check blind spot, two ledger-staleness marker packets, tie-sets, WQ-163 cc)
-- **HAWK** · this week · basis-pair audit 17 days overdue, blocking OSPREY's band; Canada 9/8 owner
-- **CARL** · by Tue 9/8 · V2 sitting prep (≤9/10), WQ-151 first application ~9/15
-- **NEXUS · LIQUID** · ≤9/11 · both closed out tonight; NEXUS owes two missed re-marks and the 9/11 grade, LIQUID encodes any-one-name and the retire-and-repoint
-- **AEOLUS · VULCAN · CORAL · FERT · CRUISE · WAL · MARCO** · dated per DOCKET · MSI second reading 9/13 · FERT G5 9/9 · MU 9/30
+- **BROCK** · September9 · registered CRMT read; September8 launch held
+- **FERT** · September9 · registered weekly work
+- **HANS** · September9 · existing ECB prefetch slate
+- **REGINALD** · next owner pickup · newer WAL close grades requested by TERRY; ongoing exit monitoring after the entry row resolved
+- **HAWK** · September9 documentary retry · SOR/direct CBSA evidence remains incomplete; operative grade already complete
+- **BRENT** · September10 noonET weekly publication · SPR/Edouard observation on the EIA holiday calendar; remaining source work at owner receipt
+- **NEXUS · LIQUID** · by September11 · existing instrument windows and owner reviews, per DOCKET/GATES
 
 ## Runs itself — no window needed from you
 - **The registry review brief is already written** [in the remediation record] — the reviewer lane needs no design work from you, only a session.
