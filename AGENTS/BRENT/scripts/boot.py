@@ -146,6 +146,19 @@ BOOT_SEQUENCE = [
     # renders OK on today's tree while --nudge reports "2 ledger(s) behind" -- so this line
     # changes boot's verdict TODAY, on real state, rather than being a no-op that looks prudent.
     ("Ledger Nudge",          "scripts/ledger_staleness.py", ["--nudge", "BRENT"], False),
+
+    # ⚑ ADDED 2026-09-07 (DAEDALUS architecture review ACTION 8, Will-approved). supersedes: the
+    # hand-maintained STATUS calendar AND the twin-diff that policed it — the packet says a
+    # twin-diff is a MIGRATION instrument that retires when the generator lands.
+    #
+    # WHY IT IS WIRED AT BOOT AND NOT LEFT AS A CLOSEOUT HABIT: the calendar and CATALYSTS.tsv
+    # were declared "must not diverge in event SET" on 2026-08-10 and had diverged BOTH WAYS by
+    # 2026-09-07 — 4 events missing from STATUS (incl. 2026-09-08, IMMINENT, and the 2026-09-18
+    # USO 150/165 EXPIRY, a dated capital event) and ~7 fired August rows retained past the
+    # docket's own 1-week retention. A rule saying "must not diverge" is not a mechanism.
+    # ★ GRADE-BEARING: the dated demote trigger names "twin calendar event set" disagreement at
+    # the cycle closing the 9/11 Friday pair. This check is what makes that unfailable.
+    ("Calendar Twin",         "scripts/render_calendar.py",  ["--check"], False),
 ]
 
 
