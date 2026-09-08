@@ -66,3 +66,35 @@ Of the binding clauses in `TRADE.md`, only the EXECUTION LOG and the two-clock h
 ## MEASUREMENT CORRECTION
 
 Tranche 1 said the three ranges were **"69,221 B"**. That figure is **CHARACTERS** — it came from `len(line)+1` on `str`, which counts code points, not bytes. **UTF-8 bytes: `70,739`** (share unchanged at 38.7%; this file is emoji-dense, so char≠byte throughout). ⚠️ **Every byte figure this desk quotes must come from `len(s.encode())` or `wc -c`, never `len(s)`.** `[[finding_loadbearing_number_must_be_reproducible]]`
+
+---
+
+# 📋 P2 EXECUTION PLAN — carried into the next session (Will-relayed, 2026-09-08)
+
+> **Authorization:** BRENT executes steps 1–6 under the existing architecture-work authorization. **Will's judgment is needed ONLY where the records cannot resolve a SUBSTANTIVE POLICY choice** — e.g. *changing* the holding-clock interpretation is a ruling. ⚠️ **An existing unresolved question can MIGRATE INTACT** with its interim instruction, its owner, and its decision boundary; **it does not block the restructuring.**
+
+> ## ✅ DEFINITION OF DONE — read this before starting, not at the end
+> **P2 is finished when the rules are ACCOUNTED FOR, their READERS WORK, and TRADE IS SMALL ENOUGH.** ⛔ **NOT when the inventory has more rows.** A longer discovery list is not progress toward any of the three.
+> **Out of scope, with their own completion criteria:** `LESSONS.md` restructuring (ACTION 16) and `INCIDENTS.tsv` re-verification. **Separate workstreams — do not let them ride on P2's authorization or its acceptance test.**
+
+### 1 · Finish the inventory across the WHOLE file
+Read every section **including the dated blocks**. Give each distinct obligation a **stable ID**. **Split entries wherever conditions or authority differ** — first-tranche entry, second-tranche entry, maximum loss, and holding-period rules are FOUR obligations, not one sizing rule. ⛔ **A marker search finds candidates; it cannot establish completeness** — the current 16 rows / 33 markers are a discovery list.
+
+### 2 · Determine what GOVERNS NOW
+For each clause, locate its **original ruling and every subsequent amendment**. Record **LIVE / SUPERSEDED / UNRESOLVED, with evidence attached to the classification.** Priority cases, all four already known to be contested:
+- the **mandatory calibration caveat** (L595, "must survive every future edit");
+- **half/half sizing** and the **two-entry holding clock** (L599–604);
+- **each Stage-B monitoring and exit condition** separately (L668+) — per leg, per successor;
+- the **retired COT threshold** vs any **surviving `REVERT` principle** (L738–749) — the threshold's retirement does not settle the principle.
+
+### 3 · Assign a destination AND the moment it must be read
+Each live clause needs a canonical home **and a specific consumer**. Entry rules belong on the **proposal / pre-fill path**; holding and exit rules on **position-review paths**. ⛔ **Include a mandatory read for the case that has no reader today: an initially unrelated session that BECOMES trade-relevant mid-session** — boot step 1's condition was already evaluated false by then. ⛔⛔ **A timestamp check or a healthy instrument DOES NOT satisfy this requirement** — `Derived Views` checks stamp timing, `instrument_check` checks instrument health; neither is a reader of a clause.
+
+### 4 · Move the rules and update their readers TOGETHER
+Create the smaller spec files (**they do not exist yet — `setups/SPECS_*.md` is a proposed destination, not a place**). **Preserve binding wording and every attached caveat.** Update charter steps, `TRACKER.md` references and any other consumer **in the same change**. ✅ **Then VERIFY the actual step reaches the COMPLETE clause after the move** — not that a pointer exists.
+
+### 5 · Archive the remaining historical material
+Only once **every** obligation in a proposed range has a disposition. Move dated narrative **verbatim, with byte counts and checksums** (bytes = `len(s.encode())`/`wc -c`, never `len(s)`). Leave `TRADE.md` holding **current positions · current state · actionable obligations · precise pointers**. ⛔ **PRESERVE THE LATEST VERIFIED FIGURES — do not leave older figures standing as the apparent current state.** *(This is the exact P1 failure: the rotation moved the 9/6 BRT-26 grade to cold and left the 8/28 vintage hot.)*
+
+### 6 · Run the acceptance checks
+① every inventoried clause has a **disposition** · ② every required **reader works** · ③ **current views agree** with their canonical records · ④ **TRADE plus any newly required reads fit their budgets** (`read_cap_check --agent BRENT`). Then **exercise representative scenarios end-to-end: a PROPOSAL, a MID-SESSION ESCALATION, and a POSITION REVIEW** — each must reach the clauses that govern it. ⑤ Finally, **measure the next ordinary closeout for renewed growth**; that is the only check that distinguishes a one-time tidy from a changed write mode.
