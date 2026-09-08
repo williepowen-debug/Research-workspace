@@ -1,43 +1,35 @@
-# Upgrade Card — BRENT (read-only assessment, no agent files touched)
+# Upgrade Card — BRENT (work queue; read-only assessment, no agent files touched)
 
-**By:** DAEDALUS · **Date:** 2026-06-29 · **Class:** Market (oil & energy macro — Brent/WTI structure, OPEC+, storage, tankers, energy HY)
-**Method:** `UPGRADE_PROTOCOL.md` (one section at a time) · graded vs `BLUEPRINTS/market-agent.md` · comprehension in `profiles/BRENT.md`
-**Verdict: L4 (conf H), adversarially verified 6/28 — STRENGTHENED 6/29.** BRENT is among the most complete market agents in the fleet — **conformant or exemplary on 7 of 8 sections**, and is the blueprint's *named source* for §4 (bidirectional-flip exit). The 6/28 mechanical scan under-rated it two levels (L2→L4, PAT-024). Every proposal below is an *added handle* or a *staleness refresh*, never a rewrite (PAT-015 floor-not-ceiling). Nothing applied — this is the queue.
+**By:** DAEDALUS · **Re-cut:** 2026-09-07 Mon ~21:2x ET (Will-directed architecture review; record `BRENT_ARCHITECTURE_REVIEW_2026-09-07.md`; profile refreshed same night) · **Prior card:** 2026-06-29 / closed 2026-07-12 — superseded whole (git `git show 1cac226eb^:AGENTS/DAEDALUS/upgrades/BRENT_CARD.md` for the June queue; every item on it is CLOSED: threshold drift fixed 7/12, Independence column 7/10, LAST_COMPLETION archived 7/21, board/BOARD_LOG frozen 7/21, ledger_staleness shipped fleet-wide 8/17).
+**Class:** Market · **Grade:** L5 (Conf M) HOLDS — per-leg verdicts in the record §4; dated demote trigger at PR#6 (9/15).
 
-**↳ BATCH cross-ref (the ONE BRENT item already routed — now OBSOLETE):** BATCH_02 §B item 7 = *"BRENT TRADE.md — FROZEN banner or refresh (111d stale, no banner = textbook PAT-023)."* **That item is now OBSOLETE and should be DROPPED from BATCH_02.** BRENT committed a wholesale TRADE.md **migration on 2026-06-29** (commit ~`6b4f99ef`): the Mar-vintage stale surface was rewritten to the live v5.0 surface, explicitly stamped **`LIVE surface (not frozen)`**, and **wired into boot/closeout.** Re-read confirms it (dated `2026-06-29 Mon PM ET`, full live positions + convex-arm trade plan + execution log). **The PAT-023 staleness debt is RESOLVED.** A FROZEN banner would now be *wrong* — a live, closeout-refreshed trade surface must NOT be frozen. → **PROME action: strike BATCH_02 item 7; no replacement needed.**
-
----
-
-| § | Blueprint section | BRENT current state | Applies? | Gap type | Proposed minimal handle | Priority |
-|---|---|---|---|---|---|---|
-| 1 | **Thesis structure** | THESIS v5.0: two-phase model (squeeze→demand-destruction) + asymmetry-flip reframe + **TIMED-RACE** core (deficit-close clock vs buffer-exhaust clock) + **4 named Transmission Channels** + full vX.Y CHANGELOG audit trail | ✅ APPLIES | conformant (exemplary) | None — the 4-channel decomposition + two-clock frame exceed the OTKO stage-table floor | 0 |
-| 4 | **Invalidation / exit** | THESIS EXIT PROTOCOL: Path-A 7-criteria gate + Path-B 3-trigger table + SHORT PLAYBOOK + TRADE.md tiered arm/disarm w/ literal session counts (">$75 into 2 consecutive closes"); **"thesis break REDEFINED" bidirectional flip** (same <$75 print = "break" v4 → "decoupling" v5; symmetric up-arm vs down-revival) | ✅ APPLIES | conformant (exemplary) | None — **BRENT is the blueprint's NAMED source for §4**; among the strongest exit rails in the fleet | 0 |
-| 5 | **Predictions** | `thesis/PREDICTIONS.tsv` (54 rows, 10-col, BRT-xx) + `PREDICTIONS_ARCHIVE.md` post-mortems + **calibration scoreboard splitting accuracy by prediction-CLASS** (chokepoint UNDER-confident 80-95% / industrial-transmission OVER-confident 40-55%) + DIRECTIONAL-FAILURES log + 3-Q **PRE-FLIGHT CHECK** gating the next prediction. 10-col carries an `Invalidation` field. | ✅ APPLIES | conformant (exemplary) | **None required — best-in-fleet, EXCEEDS blueprint; DO-NOT-TRIM (BATCH_02).** *Optional only:* add an `If-Falsified ACTION` column linking each prediction to its TRADE.md arm/disarm consequence (→arm Tier-1 / disarm / −Npp). Low value; the calibration loop is already richer than the floor. | 3 |
-| 6 | **Cross-agent routing** | CLAUDE NETWORK CONNECTIONS route-matrix + THESIS CROSS-AGENT LINKS + `NEXUS_BRIEF.md` SENDING/WAITING-FOR (the live steady-state surface) + **outbox reserved 🔴-acute-only**; one-source-of-truth cessions (HAWK=scenario%/kinetic, LIQUID=HY-OAS, HENRY=CPI) | ✅ APPLIES | conformant | None — domain-owner discipline + crisis-only outbox both present | 0 |
-| 7 | **Standing disciplines** | mechanism-vs-thermometer present (TIMED-RACE: "price is the LAGGING tell; leading tells = reopening 2nd-deriv + P&I resumption + floating-storage builds"); leading-tells frame serves EXPECTED_SIGNALS; matrix carries trend arrows (↓) + "unch vs Jun-26"; CLAUDE symmetric boot↔closeout | ✅ APPLIES | conformant | None material. *Optional:* formalize a literal `EXPECTED_SIGNALS` absence-is-data list (the leading-tells already serve it informally). Low value. | 3 |
-| 8 | **BOTTOM LINE** | STATUS (223 ln <250 cap) ends with labeled **`## SUMMARY FOR WILL (Mon Jun 29)`** — plain-language, updated every session, the big-call + what-happened + caveat + positions + needs-from-you (richer than 2-4 sentences) | ✅ APPLIES | conformant | None (richer than floor — OK per floor-not-ceiling). *Trivial-optional:* alias/sub-label as `BOTTOM LINE` for fleet-scan consistency — but it ALREADY is a labeled trailing synthesis, so unlike REGINALD/CARL no handle is owed. | 3 |
-| 3 | **Thresholds** | durable-vs-live split present: THESIS **KEY THRESHOLDS (live)** + CLAUDE.md **KEY THRESHOLDS (durable)** w/ level/significance/status-emoji. Structure conformant. **BUT the durable copy DRIFTED** — see L4→L5 #1. | ✅ APPLIES | conformant (structure) | None structural — handle present. The durable copy is **thesis-contradicting stale** → routed to L4→L5 #1 (correctness refresh, not a missing handle). | 0 |
-| 2 | **Convergence matrix** | STATUS 14-vector matrix, **5-pt score (emoji+number 1-5 +↓ trend arrows)** + transparent composite **47/70** (both handles present). Columns = `Vector \| Score \| State`. **✅ `Independence` column APPLIED 2026-07-10** (`AGENTS/BRENT/STATUS.md:178-182`, BATCH_03 item 1) — closure note added 2026-07-12 per DAEDALUS self-sweep. | ✅ APPLIED 7/10 | closed | Done — no further action. | — |
-
-### Separately — the real L4→L5 work (staleness / correctness / builds, not section-handle gaps)
-| # | Item | Why | Effort |
+## §-grades vs `BLUEPRINTS/market-agent.md` (9/7)
+| § | Section | State | Gap |
 |---|---|---|---|
-| 1 | **Fix CLAUDE.md KEY THRESHOLDS drift (line 168)** | Durable rule still reads `Brent \| <$75 \| Thesis break — squeeze failed` — **directly contradicts v5.0** (sub-$75 = structural *decoupling*, not break; STATUS holds Brent $73.53 sub-$75 as thesis-CONFIRMING). A thesis-contradicting instruction in the boot-loaded file is the highest-value fix here. **The single highest-value NET-NEW item.** | S |
-| 2 | **Refresh PREDICTIONS.tsv scoreboard date-stamp** | Preamble stamped `As of 2026-06-20` (~9d stale; BRT-08 DUE Jul-1) — calibration math lags. BRENT's own closeout work after BRT-08 resolves. | S |
-| 3 | **Update CLAUDE.md DOMAIN SCOPE stale positions** | Profile flags stale "USO 2sh + STNG 2sh" position lines; TRADE.md now owns position truth (post-6/29 migration) → CLAUDE shouldn't restate stale strikes. | S |
-| 4 | **Archive retired `LAST_COMPLETION.md`** | May-04 file, explicitly RETIRED (SCRATCH is its successor) but still un-archived in the dir → `git mv` to `archive/`. Closeout hygiene (root Data Hygiene retirement rule). | S |
-| 5 | **Freeze-or-confirm `board/BOARD_LOG.tsv`** | `board/BOARD_LOG.tsv` (57 rows, May-05) dormant vs the live `board_log.tsv` (Jun-29, WALTER lane) = textbook silent-rot-middle → (a) FROZEN banner or (b) confirm live. Resolve before any L5 claim. | S |
-| 6 | **Resolve missing `scripts/ledger_staleness.py`** | CLAUDE boot step 5a calls it; file absent (STATUS+SCRATCH already flag it to PROME). **Ties to BATCH_02 §D** (DAEDALUS lane: promote a fleet-shared `ledger_staleness.py` — REGINALD's works; HAWK item 9 + BRENT both ref a missing copy). Cross-ref, don't double-propose. | S (fleet-shared, DAEDALUS lane) |
-| 7 | **Clear / obtain a YEYOU clean bill** | L5 requires zero YEYOU flags + current. | n/a (YEYOU-side) |
+| 1 | Thesis structure | ✅ exemplary (v5.8 timed race, 4 channels, vX.Y trail) | 33 KB version-bump preamble above the core — cold it |
+| 2 | Convergence matrix | ⚠️ local form (REGISTRY.tsv, 31 live tests graded at boot); composite archived 8/13, no successor | ladder question → 9/14 |
+| 3 | Thresholds | ✅ one home (REGISTRY) since 8/4 | — |
+| 4 | Invalidation / exit | ✅ exemplary (blueprint's named source; 9/7 adjudication by the letter) | the letters sit past TRADE.md's read cap (F2) |
+| 5 | Predictions | ✅ best-in-fleet discipline | 12 heavy rows; ARCHIVE stale since 6/20 (F11) |
+| 6 | Cross-agent routing | ✅ strong (loops closed at recipients) | charter NETWORK table diverged from `_NETWORK.md` (C7); brief schema drift (F4) |
+| 7 | Standing disciplines | ✅ (retirement ratchet · falsify-a-new-guard · base-rate-first) | INCIDENTS guards advisory-overridden (F10) |
+| 8 | BOTTOM LINE + byte tier | ❌ SUMMARY FOR WILL is a rotation stub since 8/27; STATUS 137% of cap; no byte tier in the charter | **P1 (rule 19)** |
 
----
+## The queue (ranked; owner = BRENT unless marked)
+| # | Item | Effort | Depends on | Status |
+|---|---|---|---|---|
+| 1 | **P1 — rule 19 on STATUS**: `## STANDING STATE` (retained rows 78–84) + dated blocks + cold `archive/STATUS_DETAIL_2026-09.md`; write a real SUMMARY FOR WILL; fix `:119` → v5.8 | M | rule 19 (ruled 9/7) | OPEN — packet 9/7 |
+| 2 | **P2 — TRADE.md split, audit-first** (every live clause in the four dated containers → `setups/SPECS_*.md` by section name; dated → `archive/TRADE_*`; TRADE <32 KB) | L | 1 (form), the audit | OPEN — packet 9/7 |
+| 3 | **P3 — charter edit**: C1–C9 + six rationale spans → RULINGS.md + NETWORK table → `_NETWORK.md` pointer | S | — | OPEN — packet 9/7 |
+| 4 | **P4 — RULINGS.md write step** (closeout 13, EXTENDS, supersedes: none) | XS | — | OPEN |
+| 5 | **P5 — twin-diff leg** in `catalyst_countdown.py` + **version-sweep** line; put 9/18 on the STATUS calendar today | S + S | §3(e) sets exist (today's divergences) | OPEN — grade-bearing |
+| 6 | **P6 — LESSONS hot/cold** (index-driven, ≤45 d or [HOT] hot) | S | — | OPEN |
+| 7 | **P7 — INCIDENTS state change** (rows >60 d → UNVERIFIED-<date>, or a re-verify pass) | S (judgment) | — | OPEN — BRENT's call |
+| 8 | **P8 — PREDICTIONS step-8 pass** (12 rows → ARCHIVE) · one archive home · retirement `git mv` (JOINT_PROPOSAL · BUILD_PLAN · GROUP_MAP · SCHEMA · root loose) · FASTOW note-or-retire | S | — | OPEN |
+| 9 | Brief: amendment-12 order + schema section names + strike the 100-line cite | XS | NEXUS rollout (reply 9/12) | OPEN |
+| 10 | Step 2b → all three routine files | XS | — | OPEN |
+| — | `boot.py --days 7` on a measured base rate · TRADE two-clock stamp | — | — | **LIVE-ADDRESSED 9/7 21:07 (BRENT)** |
+| — | `read_cap_check` board_log false positive (mine) | — | — | **DONE 9/7 21:2x (DAEDALUS)** |
+| — | per-glob `--days` design (mine): retire in favor of `--nudge` + per-desk measured `--days` | — | 9/12 tooling sitting | DAEDALUS-owed |
 
-## The queue
-1. **§ FLEET_MAP / BATCH_02 reconciliation (DAEDALUS's own files):** mark BATCH_02 §B item 7 **OBSOLETE** (TRADE.md migrated to LIVE 6/29, PAT-023 RESOLVED) and update FLEET_MAP next_upgrade to the L4→L5 path. Pure additive, no concurrency risk. *(net-new)*
-2. **CLAUDE.md threshold-drift fix (L4→L5 #1)** — ✅ **FIXED 2026-07-12, direct by DAEDALUS** (Will-directed; line now at `CLAUDE.md:158`, no longer contradicts v5.0). *(Closed 2026-07-12.)*
-3. **§2 Independence column (+ optional Upgrade Trigger)** — ✅ **APPLIED 7/10** (`BRENT/STATUS.md:178-182`, BATCH_03 item 1). *(Closed 2026-07-12.)*
-4. **Closeout-hygiene sweep:** scoreboard date-stamp (#2) + DOMAIN SCOPE positions (#3) + archive LAST_COMPLETION (#4) + freeze-or-confirm board/BOARD_LOG (#5) — all S, all BRENT's own-domain closeout work; route as one task-packet. *(net-new)*
-5. **ledger_staleness.py (#6)** — do NOT solve per-agent; fold into the BATCH_02 §D fleet-shared-script proposal. *(already in BATCH_02 §D — reference, don't re-propose)*
-6. **Optional / low-value (defer):** §5 if-falsified ACTION column, §7 EXPECTED_SIGNALS list, §8 BOTTOM-LINE alias — all priority-3, floor already met; only if a fleet-wide consistency pass wants them. *(net-new, optional)*
-
-> **Note for application:** verify BRENT idle before any edit to its files (AUTHORITY — permission + idle-check both). The CLAUDE.md threshold fix + §2 Independence col touch BRENT's files → gate on approval + fresh idle-check, or route a task-packet. Items #2/#3/#4 are BRENT's own-domain closeout work — prefer a task-packet to its inbox over editing live. **DO-NOT-TOUCH (profile §5):** keep PREDICTIONS calibration scoreboard intact (best-in-fleet); KB/VX/FLOW FROZEN banners are the fleet model — leave as-is; TRADE.md is LIVE — never freeze-banner it; preserve the v5.0 SKEW-not-direction guardrail and the bidirectional-exit semantics.
+> **Application note:** BRENT was LIVE at 21:07 on 9/7 — every item above is packet-routed (AUTHORITY: permission + idle). **DO-NOT-TOUCH (profile §5):** TRADE.md is LIVE — never freeze; the retained set + 17 sentinels move, never delete; SKEW-vs-DIRECTION; bidirectional exit; REGISTRY semantics; COT-35B base `122,904.5`.

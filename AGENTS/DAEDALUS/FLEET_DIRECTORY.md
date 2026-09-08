@@ -17,7 +17,7 @@
 | SAM | Market | L4 | H | 2026-09-01 | Japan — BOJ / JGB / carry | L5 on (a)+(b)+(c) + a STATUS byte tier (rotate to <32,550 B). |
 | LIQUID | Market | L4 | H | 2026-09-01 | HY / credit spreads / liquidity | L5 on: THESIS version bump reflecting the 8/23-8/28 rework |
 | VIOLET | Market | L4 | H | 2026-09-04 | VIX / vol term structure / vol-of-vol | Conf stays H while the profile clock holds (→ 9/25) |
-| BRENT | Market | L5 | M | 2026-09-01 | Oil — Brent / WTI | Conf M→H at PR#6 on a SECOND clean cycle + RULINGS.md touched or frozen. |
+| BRENT | Market | L5 | M | 2026-09-07 | Oil — Brent / WTI | P1 rule-19 STATUS restructure (<32,550 B |
 | HENRY | Market | L4 | H | 2026-09-01 | Macro velocity / market trends | L5 on the §2 handle (or a ruling that the local form satisfies it) |
 | CARL | Market | L4 | H | 2026-09-01 | Consumer & credit-transmission macro | L5 on: boot.py whitelist widened to surface plain ERROR lines (one edit) |
 | LABOR | Market | L5 | H | 2026-09-07 | Labor market (claims / JOLTS / NFP) | L5 SUSTAIN — before the 9/25 Oct-2 card freeze: card_partition_check pa… |
