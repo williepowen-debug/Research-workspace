@@ -3,7 +3,7 @@
 
 ## ★ NEXT SESSION — START HERE
 
-**9/8 16:24 ET — CODEX/PROME consumer update (supersedes older market-check carry below):** [Owed-check record](reports/2026-09-08_owed-market-checks.md). XLE 9/8 close **$64.77** ⇒ WQ-168 approved **9/9-open exit**, L252 resolved / L253 broker execution pending. DGS10 **4.78%**, DFII10 **2.43%** [9/4 officials]; HY **268 bp [9/4 + 9/7]**. NEXUS's “9/7 no observation” premise is contradicted by FRED; owner verification routed. WALTER parity PASS, cutover unverified. PJM post-23:59 outcome + Cboe 9/8 SKEW bar still UNKNOWN. Fleet presence tools unavailable; no desk spawned. Detailed evidence and pending-owner list are in the record.
+**9/8 CODEX/PROME update:** [Market checks](reports/2026-09-08_owed-market-checks.md) supersede older levels below; [orchestration results](reports/2026-09-08_orchestration-summary.md) supersede the earlier no-spawn carry. Three Codex readers delivered; owner grades/inbox consumption remain pending. XLE64.77 selects the approved9/9-open exit; TLT needs broker reconciliation. Canada instruments found; NVDA source correction applied to HEARTBEAT. Cboe9/8 and PJM23:59 outcome still UNKNOWN. Full clocks, evidence and follow-ups are in the linked records.
 
 **0. ⚠️ CHECK THE BOX.** `hostname` — `DESKTOP-BC6EF81` = desktop (FRED/FFIEC present) · `WilliePOwen` = LAPTOP (FFIEC creds ABSENT; env_doctor rc=1 is the expected gap, accepted 9/7 — dated, not standing). **Take the clock from the `NOW:` line or `date` before EVERY stamp; a check's time is when it RAN** (#121, #124).
 

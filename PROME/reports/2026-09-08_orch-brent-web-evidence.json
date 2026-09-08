@@ -1,0 +1,38 @@
+{
+  "observed_date": "2026-09-08",
+  "web_sources": [
+    {
+      "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+      "observation_date": "2026-09-01",
+      "value": 96.02,
+      "release_date": "2026-09-02",
+      "next_release": "2026-09-10"
+    },
+    {
+      "url": "https://www.garant.ru/products/ipo/prime/doc/414729929/",
+      "document": "1097",
+      "document_date": "2026-08-28",
+      "basis": "legal publisher transcription, official host not reached",
+      "amends": "954/2026-07-30 paragraphs4,5",
+      "dates": "Sept1 becomes Oct1; Aug31 becomes Sept30"
+    },
+    {
+      "url": "https://www.consultant.ru/document/cons_doc_LAW_543093/",
+      "basis": "agreeing legal publisher transcription"
+    },
+    {
+      "url": "https://profit.pakistantoday.com.pk/2026/09/08/why-is-oil-still-below-dollar100-despite-a-7-million-bpd-drop-in-middle-east-shipments",
+      "basis": "Kpler provisional data via Reuters relay",
+      "published": "2026-09-08",
+      "observation": "August2026 Sidi Kerir port-total exports2.139million b/d"
+    },
+    {
+      "url": "https://www.ice.com/products/219/Brent-Crude-Futures/data",
+      "outcome": "opened; no settlement table exposed"
+    },
+    {
+      "url": "https://www.cmegroup.com/markets/energy/crude-oil/brent-crude-oil-last-day.settlements.html",
+      "outcome": "opened; no settlement table exposed"
+    }
+  ]
+}

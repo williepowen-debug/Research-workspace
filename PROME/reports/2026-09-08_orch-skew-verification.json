@@ -1,0 +1,47 @@
+{
+  "retrieval_completed_by_utc": "2026-09-08T20:50:28.046605+00:00",
+  "source": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+  "method": "curl -fsSL --max-time 25; direct HTTPS publisher download; exit 0",
+  "artifact": "PROME/reports/2026-09-08_orch-skew-history.csv",
+  "sha256": "ef5468bb75703ca3511bbeb80c9776799f10433a5b72f8269f03b40dc485da92",
+  "data_rows": 9221,
+  "target_date": "2026-09-08",
+  "target_rows": [],
+  "latest_rows": [
+    {
+      "DATE": "08/26/2026",
+      "SKEW": "142.960000"
+    },
+    {
+      "DATE": "08/27/2026",
+      "SKEW": "144.050000"
+    },
+    {
+      "DATE": "08/28/2026",
+      "SKEW": "149.770000"
+    },
+    {
+      "DATE": "08/31/2026",
+      "SKEW": "148.530000"
+    },
+    {
+      "DATE": "09/01/2026",
+      "SKEW": "149.230000"
+    },
+    {
+      "DATE": "09/02/2026",
+      "SKEW": "144.120000"
+    },
+    {
+      "DATE": "09/03/2026",
+      "SKEW": "150.630000"
+    },
+    {
+      "DATE": "09/04/2026",
+      "SKEW": "151.580000"
+    }
+  ],
+  "status": "UNKNOWN",
+  "owner_grade": "NOT_PERFORMED",
+  "prior_count": "2/4 preserved; no owner state changed"
+}
