@@ -23,6 +23,12 @@ them; never restate them elsewhere):
                           dangerous direction. Re-measure on any new truncation.
   => cap 54,250 B · budget 32,550 B (60%) · rotation trigger 75% of budget · target <70%.
 
+PRODUCTION ACCEPTANCE SET (CHECK_STANDARD §3(e), added 2026-09-07 — re-run at every edit of a regex
+in this file): DEFECTIVE input = AGENTS/BRENT/CLAUDE.md:26 ("Read `STATUS.md`" → STATUS.md 74,061 B,
+must print 🔴 OVER THE CAP); CLEAN input = AGENTS/BRENT/CLAUDE.md:52 ("log every consumed item to
+`board_log.tsv`" → a write target, must NOT appear in the table). Both live paths, both watched
+2026-09-07 21:2x on the real files.
+
 WHAT A PASS PROVES (PAT-074 / PAT-129): rc 0 = every file THIS CHECK FOUND in the desk's boot
 protocol is under budget. The perimeter is a HEURISTIC and is printed: a `.md`/`.tsv` token on
 a boot-step line containing "read" (any case) inside the charter's SPAWN/BOOT section, plus
@@ -64,7 +70,13 @@ FILE_TOKEN_RE = re.compile(r"`([^`\s]+?\.(?:md|tsv))`")
 READ_VERB_RE = re.compile(r"\bre-?read\b(?!\s*-?\s*(?:cap|window|set|tool|instrument))"
                           r"|\bread\b(?!\s*-?\s*(?:cap|window|set|tool|instrument))"
                           r"|\bscan\b|\bconsume\b")
-WRITE_VERB_RE = re.compile(r"\b(append|write|update|log a row|git mv|regenerate|commit)\b")
+# "log <items> to FILE" is a WRITE whose target sits inside the read-verb window of the same
+# sentence ("… decide *consume now* … log every consumed item to `board_log.tsv`") — sixth live
+# correction (BRENT 2026-09-07): board_log.tsv (308 KB) was scored a whole read on BRENT's
+# CLAUDE.md:52 and shipped in two packets. Bare `log` is NOT a write verb (a noun in "read the
+# log"); the lookahead requires a "to" within 40 chars, which is the write form.
+WRITE_VERB_RE = re.compile(r"\b(append|write|update|log a row|git mv|regenerate|commit"
+                           r"|log\b(?=[^`]{0,40}\bto\b))\b")
 OBJECT_WINDOW = 160        # chars between the read verb and the file token it governs
 QUALIFIER_TAIL = 80        # chars AFTER the token in which 'on demand'/'cold'/'grep' still qualifies it
 # SCOPED READS ARE NOT WHOLE READS (fifth correction, WAL 2026-08-28, one-directional bias): "the
