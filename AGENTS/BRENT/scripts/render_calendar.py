@@ -115,58 +115,106 @@ def current_block(text):
 
 
 RECONCILED_RE = re.compile(r"✓ \*\*reconciled `(\d{4}-\d{2}-\d{2})`")
+# "GRADED 2026-09-06" / "graded 2026-09-06" inside a catalyst's own text.
+GRADED_RE = re.compile(r"\bGRADED\s+(\d{4}-\d{2}-\d{2})", re.IGNORECASE)
+STANDING_HDR = "## 📌 STANDING STATE"
+
+
+def standing_rows(text):
+    """Every table row INSIDE the STANDING STATE section. Bounded by its own heading and the
+    next `## `, so a stamp anywhere else in STATUS.md cannot satisfy this check."""
+    if STANDING_HDR not in text:
+        return None
+    seg = text[text.index(STANDING_HDR):]
+    nxt = seg.find("\n## ", 1)
+    if nxt != -1:
+        seg = seg[:nxt]
+    out = []
+    for ln in seg.split("\n"):
+        t = ln.strip()
+        if not t.startswith("| **"):      # table rows only; skips the |---| separator
+            continue
+        label = t[2:120].split("|")[0].strip().strip("*").strip()
+        out.append((label, ln))
+    return out
 
 
 def check_standing():
     """Acceptance test ③, second half: do STANDING STATE values agree with their records?
 
-    ⛔ WHY THIS EXISTS (CODEX P1 verification, 2026-09-07). The P1 rotation left the BRT-26
-    ladder at its 8/28 vintage (447 rigs, distance 10, 4 prints) and the COT-FUEL-35B base at
-    the TRUNCATED `122,904` — while the canonical records carried 449/8/3 and `122,904.5`,
-    corrected at the 9/6 grade. Rotation therefore moved the FRESHER value to the cold file and
-    left the STALER one hot: the hot surface became the least current.
-
-    ★ AND MY OWN ③ CHECK PASSED OVER IT, which is the part worth keeping: I verified the two
-    things I had just fixed (calendar agreement, version pointer) and reported "③ AGREEMENT ✅".
-    A check scoped to what you just changed cannot find what you did not.
-    [[finding_gate_pass_is_not_evidence_it_found_the_best_reason]]
-
-    Mechanism: every STANDING STATE row carries TWO different dates and they are NOT
-    interchangeable:
-        as-of      = the DATA VINTAGE the value describes (COT vintage #4 is legitimately
-                     as-of 9/1 and does not become stale by the calendar turning).
-        reconciled = when a human last CHECKED this row against its canonical record.
-    The check reads `reconciled` ONLY. Comparing `as-of` against grade dates was the first
-    version of this guard and it fired a FALSE POSITIVE immediately: it flagged a correctly-
-    current COT row because the 9/4 catalyst that GRADED the 9/1 vintage post-dated the
-    vintage. A guard that compares two different units produces confident nonsense.
+    ⛔ REWRITTEN 2026-09-07 (CODEX verification #2). The FIRST version was a FALSE GREEN in two
+    independent ways, both demonstrated against it:
+      (a) IT COUNTED STAMPS, NOT ROWS. It took min() over every `reconciled` date found
+          ANYWHERE in STATUS.md. Delete BRT-26's stamp -> still passed. Delete ALL standing
+          stamps and drop one into an unrelated history section -> still passed. It answered
+          "does a stamp exist?" while claiming to answer "is each standing row reconciled?"
+          [[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]
+      (b) IT COMPARED AGAINST THE WRONG DATE. It used the catalyst's EVENT date. The 2026-09-04
+          Friday pair was GRADED 2026-09-06 — so `reconciled 2026-09-05` passed while the grade
+          that invalidated it landed the NEXT DAY.
+    ★ THERE ARE FOUR DISTINCT DATES HERE and I collapsed them twice in a row:
+        event date  — when the thing happened (catalyst row's date column)
+        as-of       — the DATA VINTAGE a standing value describes
+        GRADE date  — when the print was actually adjudicated (often days after the event)
+        reconciled  — when a human last checked the standing row against its record
+    Version 1 confused as-of with grade date. Version 2 fixed that and confused EVENT date with
+    grade date. Naming two of four is not naming them.
     [[finding_level_and_rate_look_like_agreement_until_you_name_which]]
 
-    A GRADED catalyst dated after `reconciled` means a print has landed since anyone last
-    verified the row: not proven wrong, proven UNVERIFIED — the state that must never be
-    silent. Flags for review; never auto-edits (a standing value is a judgement, not a render).
+    Now: EVERY row in the STANDING STATE section must carry `✓ **reconciled `<ISO>`` `, and each
+    is compared against the newest GRADE date (falling back to the event date only when a
+    catalyst declares none). Flags for review; never auto-edits — a standing value is a
+    judgement, not a render.
     """
     t = STATUS.read_text(encoding="utf-8")
-    stamps = RECONCILED_RE.findall(t)
-    if not stamps:
-        print("🔴 STANDING STATE: no `✓ reconciled` stamps found — the freshness check is INERT. "
-              "Every standing row must carry one, or this guard silently certifies nothing.")
+    rows = standing_rows(t)
+    if rows is None:
+        print(f"🔴 STANDING STATE: section {STANDING_HDR!r} not found in STATUS.md — the guard "
+              f"cannot locate what it is supposed to supervise. Treat as FAILURE.")
         return 1
-    oldest = min(datetime.strptime(x, "%Y-%m-%d").date() for x in stamps)
-    graded = []
+    if not rows:
+        print("🔴 STANDING STATE: section present but contains NO table rows — inert guard.")
+        return 1
+
+    unstamped = [lbl for lbl, ln in rows if not RECONCILED_RE.search(ln)]
+    if unstamped:
+        print(f"🔴 STANDING STATE: {len(unstamped)} of {len(rows)} row(s) carry NO "
+              f"`✓ reconciled` stamp — they are UNSUPERVISED, not verified:")
+        for lbl in unstamped:
+            print(f"     🔴 {lbl[:96]}")
+        print("     ⇒ every standing row is a claim about current state; an unstamped one is a "
+              "claim nobody has checked. Re-read against its canonical record and stamp it.")
+        return 1
+
+    # newest date at which ANY catalyst became known (grade date if declared, else event date)
+    known = []
     for d, approx, event, pri, dclass in load():
-        if re.search(r"\bGRADED\b|\bFIRED\b", event, re.IGNORECASE):
-            graded.append(d)
-    newer = sorted(x for x in graded if x > oldest)
-    if newer:
-        print(f"🟠 STANDING STATE may be BEHIND: oldest `reconciled` stamp is {oldest}, but "
-              f"{len(newer)} graded catalyst(s) are dated after it "
-              f"({', '.join(str(x) for x in newer[-3:])}). "
-              f"⇒ RE-READ each standing row against its canonical record and re-stamp. "
-              f"NOT auto-fixed: a standing value is a judgement, not a render.")
+        g = GRADED_RE.search(event)
+        if g:
+            try:
+                known.append((datetime.strptime(g.group(1), "%Y-%m-%d").date(), d, "graded"))
+                continue
+            except ValueError:
+                pass
+        if re.search(r"\bFIRED\b|\bGRADED\b", event, re.IGNORECASE):
+            known.append((d, d, "fired"))
+    behind = []
+    for lbl, ln in rows:
+        rec = datetime.strptime(RECONCILED_RE.search(ln).group(1), "%Y-%m-%d").date()
+        newer = [k for k in known if k[0] > rec]
+        if newer:
+            behind.append((lbl, rec, max(newer)))
+    if behind:
+        print(f"🟠 STANDING STATE: {len(behind)} of {len(rows)} row(s) reconciled BEFORE a "
+              f"catalyst was graded — proven UNVERIFIED, not proven wrong:")
+        for lbl, rec, (kd, ed, kind) in behind:
+            print(f"     🟠 {lbl[:72]} — reconciled {rec}, but the {ed} catalyst was "
+                  f"{kind} {kd}")
+        print("     ⇒ RE-READ each against its canonical record and re-stamp. NOT auto-fixed.")
         return 2
-    print(f"✅ STANDING STATE: {len(stamps)} stamped row(s), oldest as-of {oldest}; "
-          f"no graded catalyst is newer.")
+    newest = max((k[0] for k in known), default=None)
+    print(f"✅ STANDING STATE: all {len(rows)} row(s) stamped and reconciled at or after the "
+          f"newest graded catalyst ({newest}).")
     return 0
 
 

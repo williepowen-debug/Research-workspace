@@ -25,15 +25,15 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
 1. **Read `STATUS.md`** — price levels, storage timelines, phase thesis, convergence matrix. **And read `TRADE.md`** (canonical trade surface: positions, active trade plans, arm triggers, execution log) if the task touches positions/trades.
 2. **Read `SCRATCH.md`** — ephemeral handoff from last session (CHANGES SINCE / what was done / NEXT SESSION action items). The canonical "where are we" file.
-2b. **Read the NEWEST `demand_destruction/data/monday_*.md`** *(added 2026-08-17, Will-approved; supersedes: none — EXTENDS the step-2 read phase).* **The Monday AUTONOMOUS routine writes a full market + geopolitical pull there and SELF-COMMITS it, on a schedule that does not coincide with your session.** ⛔ **If its run date is NEWER than your boot, IT WINS ON TAPE — reconcile before writing any level to STATUS.** ✅ **It also runs an independent alert check against the registered lines — a free second opinion.**
-   > 📖 *Why this step exists — the measured 2026-08-17 cost — is in the dated decision record (§ R-2026-08-17-2b), which is NOT a boot read.* ⚠️ *(Deliberately NOT hyperlinked: `read_cap_check` attributes every file NAMED on a boot-read line, so a pointer here scored that record as a boot whole-read. One global pointer already exists at the end of § STANDING RULES.)*
+2b. **Read the NEWEST scheduled-routine output in `demand_destruction/data/` — `monday_*` · `friday_*` · `eia_*`, WHICHEVER IS NEWEST** *(added 2026-08-17, Will-approved; supersedes: none — EXTENDS the step-2 read phase).* **The Monday AUTONOMOUS routine writes a full market + geopolitical pull there and SELF-COMMITS it, on a schedule that does not coincide with your session.** ⛔ **If its run date is NEWER than your boot, IT WINS ON TAPE — reconcile before writing any level to STATUS.** ✅ **It also runs an independent alert check against the registered lines — a free second opinion.**
+   > 📖 *Rationale: decision record § R-2026-08-17-2b (not a boot read; unlinked deliberately).*
 3. **Read `LESSONS.md`** if it exists — mistake patterns to avoid
 4. **Read `domain/REFERENCE_TABLES.md`** if task involves fundamentals — breakevens, OPEC quotas, storage capacities
 5. **Run `scripts/boot.py`** — the ONE command. ~45s.
    ```
    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/BRENT/scripts/boot.py)
    ```
-   **It runs six checks for you: thresholds · EIA weekly · catalyst countdown · predictions-due · lesson-conflict · instrument-check.** Read its output. `--verbose` for full detail.
+   ****It runs every check in `boot.py`'s `CHECKS` list — READ THE SUMMARY TABLE IT PRINTS. ⛔ No count is written here; one was, and it rotted.**** Read its output. `--verbose` for full detail.
    **Statuses: `OK` · `FINDINGS` (the check RAN and found real problems — read them) · `FAIL` (the check itself broke).** Those three are never interchangeable.
    **Web-search only for narrative/headline catalysts the kit does not cover.** Also eyeball OPEN rows in `thesis/PREDICTIONS.tsv` whose Timeframe has passed — the auto-scan intentionally skips event-conditional rows ("Within X of <event>"), **and it is structurally blind to rows marked STUCK, which can therefore never come due.**
 
@@ -68,7 +68,7 @@ Oil markets are 24/7 and data-rich. EIA weekly, Baker Hughes, OPEC meetings, tan
     > **(a) CONTENT RE-VERIFY** — read the brief against the surface it summarises (`TRADE.md` for specs/positions, `STATUS.md` for levels) and confirm each claim still holds; **or**
     > **(b) an EXPLICIT MIXED-VINTAGE / SCOPED-PARTIAL ANNOTATION** naming **which sections were re-verified and which were not**, so a consumer sees the boundary rather than inferring freshness from the stamp.
     > **⚠️ "I didn't change anything" is not (a). The brief goes stale when the SPEC moves, not when the brief is edited.** Material STATUS change → brief content updates the same session.
-    > **Protect CROSS-DOMAIN + CALIBRATION-divergence under any length pressure; compress upward from FORWARD CATALYSTS/VIEW** (provisional 100-line cap). **Reference canonical sources, never restate.** Cross-agent tensions line REQUIRED (`None active this cycle` if empty). **No P/L or marks** — structural position refs only. *(NEXUS reads this at its boot in place of raw STATUS.)*
+    > **Protect CROSS-DOMAIN + CALIBRATION-divergence under any length pressure; compress upward from FORWARD CATALYSTS/VIEW** (⛔ **no enforced line cap — the READ-CAP byte budget is the bound**; a provisional `100` sat here while the brief ran 145). **Reference canonical sources, never restate.** Cross-agent tensions line REQUIRED (`None active this cycle` if empty). **No P/L or marks** — structural position refs only. *(NEXUS reads this at its boot in place of raw STATUS.)*
 13. **Promotion scan** — if this session produced something bigger than SCRATCH: thesis-level finding → `thesis/THESIS.md` + CHANGELOG; transferable cross-agent lesson → auto-memory (`~/.claude/projects/-home-willi-Research-workspace/memory/` + one-line index in its `MEMORY.md`); BRENT-specific durable learning → local `MEMORY.md`. **Remove from local `MEMORY.md` after promotion to auto-memory** — auto-memory loads at every boot via the harness, so duplication just bloats local MEMORY.md and creates drift risk. Cross-agent signals → `outbox/` per the Outbox Protocol below (messaging degraded — see that section). ⚑ **RULINGS (added 2026-09-07, DAEDALUS P4/ACTION 12, Will-authorised; supersedes: none — EXTENDS this step): a RULING received this session → a DATED entry in [`RULINGS.md`](RULINGS.md). ⛔ The BINDING LETTER stays in the surface it binds, cited by SECTION NAME, never moved here — `RULINGS.md` holds WHY a rule says what it says, never the rule itself.** ⚠️ **A letter that lives only in the decision record is a rule nobody executes** `[[finding_ask_which_surface_the_reader_travels_not_where_the_fact_belongs]]`.
 13a. **📬 MAIL ARCHIVE SWEEP — both directions:**
    - **Inbound:** every packet consumed this session is logged in `board_log.tsv` **and** `git mv`'d to `inbox/processed/`. **Reconcile: moved-file count == ledger-row count.**
@@ -113,7 +113,7 @@ All mail lives under this agent's directory:
 
 ### Inbox Processing Protocol (when spawned for it)
 1. **Read each signal** in `inbox/` — who sent it, what's the data, what priority (🔴/🟠)?
-2. **Cross-reference workbook** — check VX.tsv, KB.tsv, FLOW.tsv, PREDICTIONS.tsv for related vectors. Does this connect to something you already track?
+2. **Cross-reference** — `thesis/PREDICTIONS.tsv` · `workbook/REGISTRY.tsv` · `STATUS.md` § STANDING STATE. ⛔ **NOT `KB.tsv`/`VX.tsv`/`FLOW.tsv` — FROZEN.**
 3. **Assess thesis impact** — does this change any prediction, threshold, or position view?
 4. **Update STATUS.md** if warranted (new data, changed levels, adjusted confidence)
 5. **Reply via outbox** only if: (a) you have new information the sender doesn't have, (b) their signal contains an error you can correct, or (c) it triggers a cross-agent threshold. Do NOT reply just to acknowledge — silence means "received and integrated."
@@ -133,7 +133,7 @@ Write a single `.md` file to `outbox/` per signal (acute 🔴 only, per above):
 **Source:** [data release / own analysis]
 **Priority:** 🔴/🟠/🟡
 ```
-- HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route); reserve `outbox/` for PROME-action requests
+- HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (PROME/WALTER route). **`outbox/` = 🔴 ACUTE signals AND PROME-action requests; steady-state flow goes via `NEXUS_BRIEF.md`'s SENDING/WAITING-FOR tables.**
 - **🔴 DELIVERY-PATH TABLE — PROME IS THE EXCEPTION AND IT HAS BITTEN ME TWICE (2026-07-30).** Domain agents live under `AGENTS/`, so their surface is **`AGENTS/<NAME>/inbox/`**. **PROME DOES NOT** — it is a top-level directory, so its ONLY delivery surface is **`PROME/inbox/`**.
   - ⛔ **`AGENTS/PROME/inbox/` IS DEAD** (killed 2026-07-24; a re-created `AGENTS/PROME/` dir = sender regression, and PROME deletes it again). On 2026-07-30 I wrote **two** packets there — the Cushing confirm and the #21(a) ruling — and **both sat unseen for ~3 hours** until TERRY noticed the path. **Nothing errors: the write succeeds, the directory springs into existence, and the packet is simply never read.** That is the whole danger — a delivery failure with no failure signal.
   - **Root cause was a knowledge gap, not a typo:** I generated `AGENTS/PROME/inbox/` from the correct-for-everyone-else pattern. My four other deliveries the same session (FALCON, HAWK, OSPREY, TERRY) were all correct.
@@ -154,7 +154,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 - **Source tags on all data points.** Every value must include: `[CONF]` for confirmed data with source + date, `[EST]` for estimates. Example: `**Brent $90** | [CONF] ICE Mar 6` or `**~$95** | [EST] model-implied`. No naked numbers.
 - **Prediction ID format:** All predictions use `BRT-xx` (e.g., `BRT-01`, `BRT-04`). No bare numbers.
 - **Don't maintain stale copies.** If another agent owns a data point (HAWK owns military ops, HENRY owns VIX), reference their value with `[CONF HAWK Mar 6]` rather than keeping your own copy that drifts. One source of truth per metric.
-- STATUS.md stays under 250 lines. Archive overflow to **`workbook/STATUS_archive_*.md`** (the pattern actually in use) or `research/`. *(Corrected 2026-07-30: this line pointed at `domain/sources/`, which **does not exist and never has** — `domain/` holds only `REFERENCE_TABLES.md` and `HORMUZ_TRANSIT_BASELINE.md`. A boot instruction naming a nonexistent path is a silent no-op: the archive step reads as covered and isn't. DAEDALUS flagged it 7/28.)*
+- ⛔ **STATUS.md is bounded by the READ-CAP BYTE BUDGET, not a line count** (`scripts/read_cap_check.py --agent BRENT`). Archive overflow to **`workbook/STATUS_archive_*.md`** (the pattern actually in use) or `research/`. *(Corrected 2026-07-30: this line pointed at `domain/sources/`, which **does not exist and never has** — `domain/` holds only `REFERENCE_TABLES.md` and `HORMUZ_TRANSIT_BASELINE.md`. A boot instruction naming a nonexistent path is a silent no-op: the archive step reads as covered and isn't. DAEDALUS flagged it 7/28.)*
 - Separate FACTS (what happened) from ASSESSMENT (what it means for price/positioning).
 - Price levels always include: spot, structure (contango/backwardation), and key spreads.
 
@@ -207,7 +207,7 @@ If a cross-agent threshold breaches during your work, append to `AGENTS/SIGNALS.
 
 ## DIRECT MESSAGING V1 — FIRST COHORT (WILL-APPROVED 2026-07-14)
 
-This is a narrow exception to the legacy **“do not process inbox on normal spawns”** rule. At normal boot, process **top-level `inbox/MSG-*.md`** Direct Messaging v1 files addressed to **BRENT**. Do not generalize this exception to other inbox traffic.
+⚑ **This lane is NARROWER than boot step 6b, not an exception to it: validated, receipted `MSG-*` only.** At normal boot, process **top-level `inbox/MSG-*.md`** Direct Messaging v1 files addressed to **BRENT**. Do not generalize this exception to other inbox traffic.
 
 1. From the repository root, validate the message:
    ```bash

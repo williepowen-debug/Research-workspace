@@ -253,3 +253,37 @@ Born from a live position that sat **mis-stated as un-filled for three days** [7
 ### R-2026-08-04-positions · the charter Positions bullet (dollar-total staleness + the STNG error)
 
 - **Positions:** **USO 35 shares** (the book's large undefended oil leg) · **USO Oct-16 135C ×2** · **USO Sep-18 150/165 spread** · **XLE Sep-30 65C ×2** — **5 live oil expressions, ~$5,131 at market** `[broker-verified 2026-08-04, Fidelity + Robinhood, Will-confirmed complete]` ⛔ **THAT DOLLAR FIGURE IS AN 8/4 BROKER VINTAGE AND IS NO LONGER THE BOOK — DO NOT QUOTE IT** (2026-09-06; PROME 9/2 packet §2 established it is HERE, in my own file, and VERIFIED-ABSENT from root `CLAUDE.md`, so it was mine to fix all along). **Own post-close chain pull 2026-09-02 put the four option/share legs at `$7,829.95` — ~$2,700 above this line.** ⇒ **`TRADE.md` is canonical for the money; this line carries the LEG SET only.** The five expressions named above are the durable fact; the dollar total is not, and a figure that must be re-verified to be quoted does not belong in a boot-loaded file. ⚠️ **Position truth is off-repo (Will/broker direct) — neither figure is a broker mark today.**. ⛔ **STNG IS NOT A POSITION — removed 8/4 after being carried in error 7/21→8/4.** It stays a **TRACKED TICKER** (a leg of the Stage-A tanker-liveness composite). **Tracking ≠ owning.** **`TRADE.md` is canonical; refresh here only when the broker record moves.**
+
+
+### C1–C9 · charter corrections applied 2026-09-07 (DAEDALUS P3 / ACTION 10), superseded text
+
+> ⚠️ **Each entry is the text AS I FIRST WROTE THE CORRECTION — verbose, with its own story attached.** That is the defect CODEX flagged the same evening: I spent the session applying READ_CAP rule 19 (*analysis goes to the cold record, never first into the hot file*) and wrote every repair's rationale straight into the charter and STATUS, pushing the charter 1,186 B BACK OVER budget. The rule was not hard to understand; it was hard to APPLY WHILE FIXING SOMETHING ELSE. Third recurrence in one session. `[[finding_a_correction_pass_is_unreviewed_work]]`
+
+**C-a boot check count**
+
+> **It runs every check registered in `boot.py`'s `CHECKS` list (9 as of 2026-09-07) — read the SUMMARY table it prints; do not trust a count written here, which is what went stale (said `six` at nine).**
+
+**C-b the retired 250-line STATUS bar**
+
+> ⛔ **STATUS.md is bounded by the READ-CAP BYTE BUDGET (32,550 B), not by a line count — the old `250 lines` bar was superseded and is retired 2026-09-07; verify with `scripts/read_cap_check.py --agent BRENT`.** Archive overflow to
+
+**C-c frozen ledgers cited as live cross-reference targets**
+
+> 2. **Cross-reference** — check `thesis/PREDICTIONS.tsv`, `workbook/REGISTRY.tsv` and `STATUS.md` § STANDING STATE for related vectors. ⛔ **NOT `KB.tsv`/`VX.tsv`/`FLOW.tsv` — all three are FROZEN (closeout step 8); citing them here contradicted that and is retired 2026-09-07.**
+
+**C-e the obsolete 'do not process inbox' exception framing**
+
+> ⚑ **Scope note (corrected 2026-09-07): this is NOT an exception to a “do not process inbox” rule — that rule was AMENDED 2026-07-28 and inbox TRIAGE is now boot step 6b. This lane is narrower than 6b: it is the VALIDATED, RECEIPTED `MSG-*` protocol.**
+
+**C-f step 2b read only monday_*, hiding the friday/eia routines**
+
+> 2b. **Read the NEWEST scheduled-routine output in `demand_destruction/data/` (`monday_*` · `friday_*` · `eia_*` — whichever is newest; ⛔ the step said `monday_*` ONLY until 2026-09-07 and the other routines were invisible to boot)**
+
+**C-g the unenforced 100-line brief cap**
+
+> (⛔ the `100-line` figure was provisional and is BREACHED at 145 lines as of 2026-09-07 — treat the READ-CAP byte budget as the real bound and re-cut at the next re-pin; do not cite 100 as if it were enforced)
+
+**C-d two conflicting rules for outbox/**
+
+> - HERMES is retired: deliver a signal by writing the `.md` packet directly to the target agent's `inbox/` (coordinators PROME/WALTER route). ⛔ **RECONCILED 2026-09-07 — this line and the §Outbox-Protocol opener gave two different rules for the SAME directory** (*"reserve `outbox/` for PROME-action requests"* vs *"Outbox is reserved for 🔴 acute, time-sensitive signals only"*). **ONE RULE, both cases: `outbox/` is for 🔴 ACUTE signals AND for PROME-action requests. Steady-state cross-agent flow goes through `NEXUS_BRIEF.md`'s SENDING/WAITING-FOR tables, never per-signal files.**
+
