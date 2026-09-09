@@ -1,6 +1,6 @@
 # BRENT STATUS
 
-**Last real data refresh: 2026-09-09 — retail September 7 observation; delayed option capture 10:26–10:27 ET; futures/equity capture 09:58 ET.** Weekly physical data remain August 28. September STEO published by 12:07 ET; full comparison pending (August baseline retained). Broker execution receipt UNKNOWN. [Approved review, sources and release worksheets](research/2026-09-09_squeeze-review/REPORT.md).
+**Last real data refresh: 2026-09-09 — retail September 7 observation; delayed option capture 10:26–10:27 ET; futures/equity capture 09:58 ET.** Weekly physical data remain August 28. September STEO published by 12:07 ET; full comparison pending (August baseline retained). USO October call CLOSED on PROME receipt; XLE receipt pending. [Approved review, sources and release worksheets](research/2026-09-09_squeeze-review/REPORT.md).
 
 ---
 
@@ -9,7 +9,7 @@
 
 ## September 9 file-health audit
 
-Quote freshness, EIA completeness/fallback, retired runtime wording and release coverage need repair. Network boot rc=2; 12 existing tests pass but targeted probes expose uncovered defects. Three composite monitors remain partial; source/spec obligations remain open. Keep the main folder structure. [Prioritized audit, reproductions and build inventory](audits/2026-09-09_file-health/REPORT.md). No runtime repair, market re-grade or execution receipt in this pass.
+Quote freshness, EIA completeness/fallback, retired runtime wording and release coverage need repair. Network boot rc=2; 12 existing tests pass but targeted probes expose uncovered defects. Three composite monitors remain partial; source/spec obligations remain open. Keep the main folder structure. [Prioritized audit, reproductions and build inventory](audits/2026-09-09_file-health/REPORT.md). No runtime repair or market re-grade; late USO closure receipt reconciled to TRADE.
 
 ## September 9 approved review — before STEO publication
 
@@ -145,6 +145,7 @@ Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified l
 | **Sun Sep 6** | ✅ OPEC+ MEETING — FIRED 2026-09-06. GRADED SAME DAY AT THE SECRETARIAT PRIMARY: OUTCOME (3) DEFERRED AGAIN | 🔴 |
 | **~Tue Sep 8** ⌁*modeled* | L198 September 8 owner read — Sidi Kerir direction-only updated; PortWatch UNKNOWN / PENDING PUBLICATION | 🔴 |
 | **Wed Sep 9** | XLE approved exit — OPEN; receipt pending | 🔴 |
+| **Wed Sep 9** | USO October 135C — CLOSED; October 9 time stop discharged | 🟡 |
 | **Wed Sep 9** | EIA retail gasoline/diesel — READ: September 7 observation | 🟠 |
 | **Wed Sep 9** | EIA September STEO — PUBLISHED; comparison pending | 🟠 |
 | **Thu Sep 10** | SPR / Edouard — WPSR week ending September 4, September 10 NOON ET (Labor Day schedule) | 🔴 |
@@ -153,7 +154,6 @@ Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified l
 | **Wed Sep 30** | XLE September 30 expiry — residual check only after selected September 9 exit | 🟡 |
 | **Thu Oct 1** | 🟠 EU STORAGE 80% FLOOR — DECISION DATE (binding 1 Oct-1 Dec window OPENS) | 🟠 |
 | **Sun Oct 4** | 🟠 OPEC+ SEVEN-COUNTRY MONTHLY MEETING — the November 2026 production decision (successor to the 9/6 row) | 🟠 |
-| **Fri Oct 9** | USO October 135C remainder — approved before-close time stop | 🔴 |
 | **~Sat Oct 10** ⌁*modeled* | 🟠 IRAN-OMAN PERMANENT-ROUTE WINDOW — 30-60d after 8/26 interim framework | 🟠 |
 | **~Sun Nov 1** ⌁*modeled* | 🟠 EU GAS STORAGE — RESOLVED 2026-08-13: the target, the DATE and the pace are now all verified | 🟠 |
 | **Sun Jan 31** | RUSSIA FUEL EXPORT BAN — full expiry (gasoline all-participants + non-producer diesel) | 🟡 |

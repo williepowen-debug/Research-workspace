@@ -2,11 +2,11 @@
 
 ## CHANGES SINCE LAST SESSION
 
-The autonomous September 9 EIA routine correctly recorded no new WPSR: holiday release remains September 10. September STEO published during the audit, confirmed at the primary by 12:07 ET (forecast completed September 3); full comparison remains pending. The morning retail, futures and delayed-option observations retain their original dates/times; no audit-boot quote adopted. No XLE execution receipt arrived.
+The autonomous September 9 EIA routine correctly recorded no new WPSR: holiday release remains September 10. September STEO published during the audit, confirmed at the primary by 12:07 ET (forecast completed September 3); full comparison remains pending. The morning retail, futures and delayed-option observations retain their original dates/times; no audit-boot quote adopted. No XLE execution receipt arrived. Final sync inspection found PROME commit 7a6b05a58, recorded during this audit: Will sold the remaining USO October call. Reconciled to TRADE; zero contracts remain and B/C are discharged.
 
 ## WHAT I DID THIS SESSION
 
-Audited the file tree, active readers, registry, trade obligations, scripts and recent work. Authorized-network boot rc=2; twelve existing tests pass; nine offline observations expose quote/EIA/deadline defects and confirm correct COT boundaries. Audit and repair/build inventory: audits/2026-09-09_file-health/REPORT.md. Kept the main directory layout; rotated one older dated STATUS block verbatim with checksum to make room. Updated publication state and continuity only; runtime repairs remain pending. No new grade, threshold, thesis probability or rule. Earlier approved research and preserved baselines remain in research/2026-09-09_squeeze-review/REPORT.md.
+Audited the file tree, active readers, registry, trade obligations, scripts and recent work. Authorized-network boot rc=2; twelve existing tests pass; nine offline observations expose quote/EIA/deadline defects and confirm correct COT boundaries. Audit and repair/build inventory: audits/2026-09-09_file-health/REPORT.md. Kept the main directory layout; rotated one older dated STATUS block verbatim with checksum to make room. Updated publication state, continuity and the late-arriving recorded USO closure; runtime repairs remain pending. No new grade, threshold, thesis probability or rule. Earlier approved research and preserved baselines remain in research/2026-09-09_squeeze-review/REPORT.md.
 
 ## NEXT SESSION (dated, future-verifiable)
 
@@ -17,7 +17,7 @@ Audited the file tree, active readers, registry, trade obligations, scripts and 
 5. **BRT-29 next research:** three further eligible carriers remain unestablished. AF-KLM one group; Ryanair Sep2 outside M window; Norse distinct post-baseline announcement unestablished. Do not multiply subsidiaries, count old cuts or relabel airspace-only causes. M explicitly unresolved after Aug31; T requires <=-3.0 by Sep25 observation, final Sep30. No final grade from incomplete search.
 6. **BRT-12 before September 30:** original historical contract IDs/roll rules and dated refiner/upstream E&P credit history. Archived March narratives and fixed-November diagnostic do not establish ordering; broad HY is not upstream. No missing-data-to-neither inference.
 7. **Source follow-ups retained:** exact PortWatch August 31–September 1 query in setups/2026-09-08_market-docket-owner-read.md; Vortexa weekly Sidi; official No.1097/publication/original No.954. No target or Q1/Q2/Q3 clock substitution; OSPREY October 1 retiming not adopted. September 15 OSPREY objection window remains, with owner downgrade/channel review before consuming new marks.
-8. **Later dates:** Sep18 spread expiry; Sep25 final in-window rig/threshold week; Sep30 resolutions; Oct1 full owner read; Oct4 OPEC November decision; Oct9 USO time stop; Oct26 BRT-30. TRADE/CATALYSTS own exact letters.
+8. **Later dates:** Sep18 spread expiry; Sep25 final in-window rig/threshold week; Sep30 resolutions; Oct1 full owner read; Oct4 OPEC November decision; Oct26 BRT-30. TRADE/CATALYSTS own exact letters.
 
 ## OPEN THREADS / WATCHES
 
@@ -32,7 +32,7 @@ Audited the file tree, active readers, registry, trade obligations, scripts and 
 
 ## POSITION DECISIONS PENDING
 
-XLE execution receipt only. TRADE holds corrected 37-share mirror and current rules. USO October call first-sale price permanently UNKNOWN/no re-ask; no second 14.25 target. Spread HOLD through expiry; current Robinhood position not in Fidelity capture. Share scaffold unratified; TERRY's August 23 scaffold still says 35, while its newer call-management card and broker mirrors say 37. Consumer note/NEXUS record this owner follow-up; no external packet sent. No new proposal.
+XLE execution receipt only. TRADE holds corrected 37-share mirror and USO October call CLOSED on the September 9 PROME receipt. October 9 time stop/B close management discharged; no trigger claimed fired. USO October call first-sale price permanently UNKNOWN/no re-ask; no second 14.25 target. Spread HOLD through expiry; current Robinhood position not in Fidelity capture. Share scaffold unratified; TERRY's August 23 scaffold still says 35, while its newer call-management card and broker mirrors say 37. Consumer note/NEXUS record this owner follow-up; no external packet sent. No new proposal. TERRY’s older October-call card still shows one held; PROME receipt supersedes that state, owner reconciliation pending.
 
 ## MAIL STATE
 

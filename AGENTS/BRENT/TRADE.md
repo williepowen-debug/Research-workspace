@@ -1,6 +1,6 @@
 # BRENT TRADE.md — domain trade surface
 
-**Updated: 2026-09-09 — delayed option quotes captured 10:26–10:27 ET; holding mirror reconciled to September 3/9 broker transcriptions.** No direct broker session, current open-order check or fill receipt. [Evidence, quote times and existing-rule assessment](research/2026-09-09_squeeze-review/REPORT.md). Historical states remain dated; current executable bids are UNKNOWN.
+**Updated: 2026-09-09 — remaining October call sale reconciled to Will’s receipt recorded by PROME; delayed quote capture remains 10:26–10:27 ET.** No direct broker session or current open-order check. XLE fill receipt remains pending. [Evidence, quote times and existing-rule assessment](research/2026-09-09_squeeze-review/REPORT.md). Historical states remain dated; current executable bids are UNKNOWN.
 
 ## CURRENT STANCE (v5.8 reference)
 
@@ -8,16 +8,16 @@ Thesis and calibration: `thesis/THESIS.md`. **WQ-189/192 STAND DOWN; no live dep
 
 ## POSITIONS (live)
 
-Broker truth remains off-repo. Four recorded oil expressions pending the selected XLE exit; new delayed marks are in the evidence report, not broker valuations. This table supersedes the former October-call ×2 and XLE LAPSE live rows. The former STNG phantom record is retained in the before-image and RULINGS; STNG is tracked, never owned. CF June 18 130C expired worthless, historical only.
+Broker truth remains off-repo. Three recorded open oil expressions pending the selected XLE exit; new delayed marks are in the evidence report, not broker valuations. This table supersedes the former October-call ×2 and XLE LAPSE live rows. The former STNG phantom record is retained in the before-image and RULINGS; STNG is tracked, never owned. CF June 18 130C expired worthless, historical only.
 
 | Position | Type | Status | Existing rule / source |
 |---|---|---|---|
 | USO 37 shares | Shares | HELD in newer broker mirrors; direct broker not rechecked | Corrects stale 35 from PROME September 3 transcription and September 9 screenshot review; not a new purchase. See evidence report. Share risk scaffold remains UNRATIFIED. |
-| USO Oct-16 135C ×1 | One remaining call | One sold September 2 per Will's direct confirmation, mirrored by TERRY | WQ-145/167: A NO-VERDICT; no second 14.25 target. First-sale price permanently UNKNOWN, no re-ask. B official USO close <135 -> next-open exit of remainder. September 8 vendor close 146.03 does not select B on available mirror evidence; not newly exchange-authenticated. C unconditional October 9 before-close time stop. No roll. |
+| USO Oct-16 135C ×0 | CLOSED September 9 | Remaining ×1 sold by Will at $17.55; net $1,754.30; settlement September 10 | [PROME receipt](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md). B/C discharged because no contract remains; neither trigger claimed fired. First September 2 sale price permanently UNKNOWN/no re-ask. No roll or replacement; resting-order cancellation unverified. |
 | USO Sep-18 150/165 ×1 | Call debit spread | HOLD through expiry | WQ-168 §3, Will-approved. Former disposition question is closed. |
 | XLE Sep-30 65C ×2 | Calls | September 9 OPEN EXIT SELECTED; fill UNKNOWN | September 8 regular-session vendor close 64.77 <66.50 selects approved WQ-168 §7 exit of both at bid next open, including red open; rebound does not replace the September 8 test. TERRY implementation; Will live broker holdings/orders/bid check and execution. L253 receipt pending. |
 
-Implementation sources: `../TERRY/setups/XLE65C_approved-exit-tracking_2026-09-08.md` and `../TERRY/setups/USO-135C_rule20-management_2026-09-01.md`. No fresh order or fill claimed by BRENT. Refiners fill status remains UNKNOWN; no re-ask.
+Implementation sources: `../TERRY/setups/XLE65C_approved-exit-tracking_2026-09-08.md` and `../TERRY/setups/USO-135C_rule20-management_2026-09-01.md`. September 9 USO closure is established by the PROME receipt; other owner-card history retains its date. Refiners fill status remains UNKNOWN; no re-ask.
 
 Current execution receipts are in §EXECUTION LOG below.
 
@@ -38,8 +38,9 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 
 | Date | Action | Detail |
 |---|---|---|
+| 2026-09-09 | Final USO October 135C sold | Will’s receipt via [PROME](../../PROME/reports/2026-09-09_USO135C-sale-receipt.md): ×1 at $17.55, net $1,754.30 after $0.70 costs, settles September 10; zero remains. Execution time/account field absent from receipt; no order-cancellation inference. B/C discharged. |
 | 2026-09-08 | XLE exit selected for September 9 open | PENDING live broker check / execution / receipt. Reaffirmed September 9 approved review: TERRY card STAGED; PROME records Will intention to sell, not fill. Receipt requested; no broker quantity/price/time received or inferred. |
-| 2026-09-02 | One USO October 135C sold | One remains. Sale price permanently UNKNOWN under WQ-167; no re-ask. |
+| 2026-09-02 | First USO October 135C sold | One remained after this sale; final contract closed September 9 above. First-sale price permanently UNKNOWN under WQ-167; no re-ask. |
 | 2026-07-24 | USO September 150/165 spread filled | Recorded ~$300 net debit; historical fill basis, not a live quote. Current holding instruction is HOLD through expiry. |
 | 2026-06-18 | CF June 130C expired worthless | Historical closed leg. |
 | 2026-09-08 | Convex-arm stand down | WQ-189/192 unchanged; no deployment. |

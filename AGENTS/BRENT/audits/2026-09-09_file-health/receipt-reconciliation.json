@@ -1,0 +1,23 @@
+{
+  "before_commit": "94d4cad79515b0d222d3f10fd397a474d596d42f",
+  "receipt_owner_commit": "7a6b05a58",
+  "before": {
+    "TRADE.md": "f2bae9039124a86d1f923887667f12eca689608b75005f412fe04b35543af2c0",
+    "CLAUDE.md": "800691e90797fa2b1bbba69c992465f3ef1d832b15d3a323e54612e20e786cf5",
+    "STATUS.md": "9ee1c51ab12002ab01fd05637587ca991c758bc77d28c428342821f934e365ef",
+    "SCRATCH.md": "713d47191ec512078710917864a2fcc8e41ef164e2e570c8b43bc5e59d58e2a7",
+    "NEXUS_BRIEF.md": "e3b39b4145d63c23f58df33ced1350eaf3144261e72f292341578635b2aadc30",
+    "workbook/TRADE_OBLIGATIONS.md": "67a8185a673b7752921c1d28960971e67b269c216d506650cb9bc55e6595bdfa",
+    "docket/CATALYSTS.tsv": "7323ed4f5b480e0a948e4de0b396f5d6feecbd8765b9256ddb079bcd97853aef",
+    "demand_destruction/TRACKER.md": "db6c7d534343ea234f3fffcba6a69e20ebeba73446efd14372556334c52367ea",
+    "audits/2026-09-09_file-health/REPORT.md": "e12b48876087ac16f9b1c224750592d38b1793992295705a470817fef4a6699b"
+  },
+  "validation": {
+    "local_links_missing": [],
+    "calendar_check": "20 events, matches; October9 management replaced by September9 completed receipt event",
+    "quantity": "TRADE October call 0; shares37 and spread1 unchanged; XLE2 pending",
+    "trade_read_path": "TRADE, complete SPECS_TRADE_RULES and TERRY management card read; newer PROME execution receipt supersedes held-call state",
+    "consumer_scan": "exact named-position self scan clean; DAEDALUS dated render sample historical; PROME SCRATCH has dated September3 book figure; TERRY live card stale by direct read. Preserve historical figures; owner follow-up noted in NEXUS, no packet sent.",
+    "scope": "No runtime code, frozen spec or prediction grade changed. Receipt does not establish resting-order cancellation."
+  }
+}

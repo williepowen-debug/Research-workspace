@@ -2,7 +2,7 @@
 
 BRENT needs targeted maintenance. Keep the existing main directory structure; prioritize data integrity, release coverage and unresolved evidence over moving historical files.
 
-Scope: inventory of 730 files / 34,056,030 bytes, excluding bytecode and this audit directory; close reading of active operating surfaces, scripts, registry, obligation inventory and recent research; execution of boot, existing tests and bounded offline probes. This is not a line-by-line semantic review of every historical attachment. Snapshot base: `2860b2615`. Counts and findings below are [CONF, local inspection September 9]; recommendations are assessments. No runtime repair or new trading rule is implemented by this report. Supersedes: none; this dated audit extends the existing September 8 reconciliation evidence, without adding a standing protocol.
+Scope: inventory of 730 files / 34,056,030 bytes, excluding bytecode and this audit directory; close reading of active operating surfaces, scripts, registry, obligation inventory and recent research; execution of boot, existing tests and bounded offline probes. This is not a line-by-line semantic review of every historical attachment. BRENT audit start: `2860b2615`; concurrent PROME commits advanced shared HEAD to `7a6b05a58` before writeback (exact before-image hashes in the closeout manifest). Counts and findings below are [CONF, local inspection September 9]; recommendations are assessments. No runtime repair or new trading rule is implemented by this report. Supersedes: none; this dated audit extends the existing September 8 reconciliation evidence, without adding a standing protocol.
 
 ## Repair priorities
 
@@ -38,6 +38,8 @@ These are not all software defects. Missing receipts, insufficient source covera
 | Legal / physical flow | Official Russian No.1097 publication and original No.954 scope; exact August 31–September 1 PortWatch target; same-series Vortexa Sidi window; exact SPR contract/current authority remain open. New relays do not substitute for these requirements. |
 | Mail | One top-level OSPREY packet remains explicitly DEFERRED; September 15 objection window persists. WALTER and outbound Markdown lanes were empty in the audit inventory. Historical processed mail is not an unprocessed backlog. No new packet was consumed or sent. |
 
+**Late closeout correction:** final shared-HEAD inspection found PROME commit `7a6b05a58`, recorded while the audit was running: Will supplied the final USO October-call sale receipt. BRENT’s held-call mirror was now stale. Reconciled TRADE, its holdings summary/inventory and forward reminders: zero contracts remain; B/C discharged without claiming either trigger fired. XLE remains pending; shares and the separate spread are unchanged. TERRY’s older card still needs its owner’s update. The receipt does not establish resting-order cancellation. [Owner receipt](../../../../PROME/reports/2026-09-09_USO135C-sale-receipt.md). Earlier audit statements of no receipt refer to the initial read, not this final disposition.
+
 Five prediction rows remain open (BRT-07/12/26/29/30). No final row deadline is currently overdue; the internal BRT-29 M deadline is the important exception to what a row-only scan tells us. No prediction, probability or frozen threshold was changed by this audit.
 
 ## Built, partial, unbuilt and intentionally retired
@@ -59,7 +61,7 @@ Keep `AGENTS/BRENT/` flat at the agent level, with the existing workbook, setups
 
 Use `workbook/README.md` as the existing navigation home. If root navigation needs improvement, add a short pointer rather than another mutable summary of facts. Retain already-linked workbook archives. Large append-only history files (CHANGELOG ~150 KB, TRACKER ~146 KB, board_log ~312 KB) need purposeful readership, not automatic deletion. A later TRACKER split should separate the current runtime block from history only after all routine readers are reconciled.
 
-This closeout makes only a bounded STATUS history rotation to accommodate the audit handoff. Wider archive consolidation, runtime repairs and scheduler changes remain recommendations.
+This closeout makes a bounded STATUS history rotation to accommodate the audit handoff, and reconciles the execution receipt described below. Wider archive consolidation, runtime repairs and scheduler changes remain recommendations.
 
 ## Validation and limits
 

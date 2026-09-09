@@ -55,7 +55,7 @@ Source line ranges below refer only to the archived before-image, never to a shi
 | BE-01b | Alternate no-deal transit trigger, UNRESOLVED | Entry spec BE-01b, before proposal | Original line 499 OR branch; no repaired live measurement path established |
 | BS-01 | Current stance / frame-breaker stand down, LIVE | TRADE Current stance; all decision routes | Current before-image lines 5–8; WQ-189/192 |
 | BS-02 | USO shares 37, no scaffold ratification, LIVE | TRADE Positions; review | September 9 correction from newer September 3/9 broker mirrors; research/2026-09-09_squeeze-review/REPORT.md |
-| BS-03 | October 135C ×1, sale-price UNKNOWN/no re-ask, A/B/C and NO ROLL, LIVE | TRADE Positions; review | WQ-145/167/168, before-image current mirror |
+| BS-03 | October 135C CLOSED September 9; B/C discharged; first-sale price UNKNOWN/no re-ask | TRADE Positions / execution log | Final ×1 sale receipt recorded by PROME; current TRADE reader governs. No trigger inferred fired or replacement authorized. |
 | BS-04 | September 150/165 spread ×1 HOLD to expiry, LIVE | TRADE Positions; review | WQ-168 §3, before-image current mirror |
 | BS-05 | XLE ×2 selected September 9 open exit, receipt PENDING, LIVE | TRADE Positions and execution log; step 6c + review | WQ-168 §7, before-image current mirror; no broker action inferred |
 | BS-06 | Reaffirm pending rows; execution evidence differs from a handoff, LIVE | CLAUDE step 6c → TRADE execution log | July 27 hygiene adoption, original lines 820–822; existing guard retained |
