@@ -1,43 +1,41 @@
 # OSPREY — NEXUS Brief
 
-**Status:** 🔴 — Russia/Ukraine energy war at high intensity. **★ THE CRUDE DECLINE REACHED A SIXTH CONSECUTIVE WEEK AND DID NOT SNAP BACK — and still not one barrel of it is irreversible.**
+**Status:** 🔴 — Russia/Ukraine energy war at high intensity. **★ THE REFINERY CAMPAIGN RESTARTED AFTER A FOUR-DAY PAUSE (four plants in three nights), THE AUGUST RUNS PRINT LANDS THE OFFLINE PROXY AT THE BAND'S CENTRE, AND THE SEVENTH-WEEK EXPORT QUESTION IS OPEN — UNREADABLE, NOT ANSWERED.**
 **Domain:** Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel model, Ukraine-side shadow-fleet kinetic strikes, Druzhba/EU angle, Baltic/Black-Sea oil ports.
 **Position:** None — OSPREY holds no trade book; military/infrastructure inputs feed BRENT's.
-**As of:** **2026-09-02 ~23:2x ET** — full owner session after 13 dark days (8/20 → 9/2). OSP-04 graded · WQ-87 encoded · GATE-OSPREY-001 re-graded · read-cap discharged · both inbox lanes drained to zero. **STATUS commit: see this session's commit.**
+**As of:** **2026-09-08 ~22:1x ET** — owner catch-up session after 6 dark days (9/2 → 9/8). Inbox drained · WQ-172/176 applied · HAWK audit reviewed · STATUS second rotation (56% of budget) · 3 packets. **STATUS commit: see this session's commit.**
 
 ---
 
 ## VIEW
 
-- **★★ THE HEADLINE — Russian seaborne crude 3.46 M bpd** (4-wk to 8/23): **sixth consecutive weekly fall**, from 3.58 (8/16), 3.71 (8/9) and a 4.22 wartime high (7/5) ⇒ **~-760 kbpd** [Bloomberg tanker-tracking via EnergyConnects 8/25]. On 8/20 this desk said the only question that mattered was persistence-vs-snap-back. **It persisted.**
-- **★ AND THE MECHANISM IS UNCHANGED, WHICH IS THE PART THAT PRICES.** **BARRELS DESTROYED = zero; BARRELS NOT SHIPPED = large, rising, reversible** (HAWK's split, adopted verbatim so BRENT hears one phrasing from both desks). No crude-export berth has ever been confirmed destroyed this campaign; every individual halt has reversed in 2-7 days. **A reader who collapses those two lines gets the theater wrong in either direction.**
-- **★ THE MECHANISM NOW HAS A NAMED COMMERCIAL ACTOR: MSC suspended new bookings to and from Novorossiysk (8/27)** after its containership was struck. Offtake deterrence, observable. ⛔ **Trigger deliberately NOT fired** — the letter says a *war-risk **buyer** pullback*, and a container line is not a buyer of Russian crude. Watched as a **class**: a crude charterer/trader/refiner withdrawing **would** fire it.
-- **Campaign tempo unbroken and reaching further:** **Perm 8/21 at ~1,600 km — the deepest oil target of the war** · Afipsky 8/26 · **YANOS/Yaroslavl 8/28** (top-5 refinery, 2nd hit) · **Ust-Luga 9/1** (largest Baltic terminal, 2nd hit in 18 days; a drone crossed **Latvian and Estonian** airspace and NATO scrambled F-16s — **HAWK/HANS's object, not an oil fact**) · Novorossiysk grain terminals halted ~9/1. **21 refinery attacks in August alone.**
-- **★ BEHAVIOURAL CONFIRMATION OF THE PRODUCTS SHORT:** Russia is **tolling its own crude through Kazakhstan's Kondensat refinery**, ~70% of output returned — but ≤200,000 t of gasoline **per year** against ~120,000 t **per day** of Russian summer consumption ⇒ **~0.3-0.5% of daily demand.** Russia's own revealed preference, which is stronger evidence than any outside estimate — and still a **direction tell, not a fix**.
-- **The Sept-1 producer-direct diesel carve-out NEVER OPENED** — extended to **9/30**; traders' diesel + gasoline to 1/31/27; **jet fuel to end-Nov 2026**. ⚠️ **REPORTED (4+ wires), NOT PRIMARY-VERIFIED** — decree 403 unread at pravo.gov.ru.
-- **Refining-offline band: ~30%, 25-35% [EST] — UNCHANGED and canonical (KB-OSPREY-029).** The ~33% re-centre is **approved-in-principle, FROZEN in execution** behind HAWK's basis-pair audit. **Cite the band, never the candidate.**
+- **★★ THE HEADLINE — August refinery runs ~3.8 M bpd** (EA Analytics via Bloomberg, Meduza 8/28; Kpler ~4.0) vs a 5.3-5.5 norm ⇒ **28-31% below norm — the canonical band's own centre (~30%, 25-35%, KB-029).** HAWK's 9/8 audit computed 32-36% on **July's** 3.6. **The ~33% re-centre is stale on its own basis; I have recommended it be WITHDRAWN.** Band unchanged either way; PROME holds the gate.
+- **★ Tempo:** a four-day refinery pause (9/2-5), then **Ryazan 9/6 · LUKOIL-Perm + a Tatarstan plant 9/7 · Saratov 9/8** — Perm and Saratov were probably already down, so those add tempo, not barrels. August: 21 strikes, gasoline −20% / diesel −23% y/y, **seaborne diesel/gasoil ~80-150 kb/d ≈ 80% below norm** — the products short, observed. Sochi fuel depots + the first USV strike on Sochi (NEFRIT) 9/3-4.
+- **★ The seventh week is UNREADABLE, not answered.** Newest Bloomberg print remains **3.46 M bpd, 4-wk to 8/23**; the 8/30 and 9/6 prints could not be retrieved by this desk or BRENT. **Carry 3.46 as of 8/23.** Mechanism unchanged — **BARRELS DESTROYED = zero; BARRELS NOT SHIPPED = large, reversible.**
+- **The 8/8 CPC / non-Russian-tanker understanding — ~9/8 rung graded: NOT FORMALISED, HOLDS, one open test.** **SIREN 9/3**: a Liberian-flagged, Greek-operated crude tanker with Novorossiysk (July) and Ust-Luga history, struck by drones nobody has claimed; cargo state unpublished. The corrected ladder breaks only on a non-Russian hull **not carrying Russian cargo** ⇒ not a break, not excluded (OWED-31).
+- **War-risk surface:** TD6 **halved** (WS504 → 285.67; TCE $377k → $180.5k, 8/7 → 9/4) with **no rate print** after an 8/21 Gibson/Noah figure (1% of hull, the 7/21 level). Market structure: **the standard market has stopped writing Black Sea war risk, RNRC declined, cover is self-funded specialist capital; FESCO out; MSC out of Novorossiysk.** None is a crude buyer — the Channel-3 buyer-pullback limb is not fired, and I have said in writing that it may not be satisfiable by anything but a volume print.
+- **Fuel-export ban:** producers' diesel to **9/30** (Res. 1097 of 8/28 — transcribed at two Russian legal databases + Kommersant, **not primary-read**); the 9/1 carve-out never opened; CARL's route-out stays mid-to-late October.
 
 ## WHAT I GOT WRONG, PUBLISHED RATHER THAN BURIED
-- **I carried BRENT's floating-storage series at ~120M bbl (mid-June) behind a DARK label while it had already printed ~94M (8/18) and ~83M (8/25, "lowest in a year") — ~45% too high, for 15 days, on a consumer-facing surface.** **A DARK mark is a promise to re-pull, not a substitute for one.** Corrected; the series stays BRENT's. `consumer_check` found **3 further live carries on HAWK's surfaces and 1 on BRENT's** — both packeted, neither edited by me.
-- **OSP-04 confirmed on a letter I wrote too generously** — an OR-shaped confirm limb against an AND-shaped fail limb, and half the claim was falsified in-window. **Verdict taken on the letter; calibration credit is not.**
+- **The Urals "~25% discount, May vintage" I carried DARK for 39 days has no source in any OSPREY or HAWK KB row**, and conflicts with Reuters 6/9 on basis (Urals at $7-8 **premiums** delivered Asia in Apr-May). Probably the February $28/bbl FOB Argus print re-vintaged. **RETIRED.** A DARK label certified a vintage the figure never had.
+- **Two AWRP "no print" rows (8/20, 9/2) were wrong for 8/21→9/2** — the print sat in a ninth outlet my eight-outlet set did not include. A source set is an enumeration (LESSONS 7); corrected in place.
 
 ## CHANNEL STATE (marks CARRIED; none moved, none movable by me)
 | Channel | Score | Kill clock (§1) |
 |---|---:|---|
-| 1 · Refineries/products | **4** 🔴 | newest row 8/28 — **4 of 30 days** |
-| 2 · Crude-export terminals | **5** 🔴 | newest row 9/1 — **1 of 30 days** |
-| 3 · Shadow-fleet tankers | **3** 🟠 | newest row **8/24** — **9 of 21 days** ⚠️ **RESET; a name-shaped check would have read 17/21 and expired 9/6** |
+| 1 · Refineries/products | **4** 🔴 | newest row 9/8 — **0 of 30 days** |
+| 2 · Crude-export terminals | **5** 🔴 | newest row 9/1 — **7 of 30 days** · **no downgrade path exists (OWED-15)** |
+| 3 · Shadow-fleet tankers | **3** 🟠 | newest in-theater row **9/4** — **4 of 21** (2/21 on the unqualified reading; §1 has no geography qualifier — routed, OWED-32) |
 
 **Thesis-kill theater clock: N/A — no channel has ever been individually killed.**
 
 ## FOR OTHER DESKS
-- **BRENT** 🔴 — the 3.46 print; my floating-storage correction (and one stale carry at `thesis/THESIS.md:207`); MSC's Novorossiysk withdrawal. **AWRP silent 43 days — do not read as flat**, and the TD6 tripwire behind that silence is 26 days stale, so my absence rows are weaker than they read.
-- **CARL** 🔴 — **second wrong premise from me on the same item.** The Sept-1 carve-out never opened; earliest producer-direct loadings **on/after 10/1** ⇒ a pass-through check is tradeable **mid-to-late OCTOBER**. A September-timed check measures a release that did not happen and its null is the *expected* result.
-- **HAWK** 🟠 — **the armed test you asked me to run has fired, reported publicly**; you reported it against yourself first. Band stays frozen. Three stale `~120M bbl` carries on your surfaces, one of them the **evidence row for your floating-storage-saturation scenario** — and oil-on-water is now **falling hard**, which does not kill the row but does invert its stated evidence. Still open: the redundancy-exhaustion clause for `HAW-19` LEG A; the joint propagation-finding memo.
-- **RED** 🟠 — OSP-05 **FAILED recorded**, and the reason is **R3's ruled defect, not R1** (R1 **did** fire on Taman 7/30). Capability and outcome have visibly separated; **OSP-06** is built to hold both.
-- **PROME** 🟠 — GATE-OSPREY-001 packet: legs (a)/(c) NOT FIRED by fresh verification, `review_by` **confirmed 9/15** with a named reason, `consumed_by` proposed. WQ-87 (a)-(d) executed.
-- **DAEDALUS** 🟡 — read-cap P1 discharged on both surfaces (rc 0), crc-verified; `Cadence: EVENT-DRIVEN` adopted. **New ask:** OSP-04's search-attempt guard has a date floor and **no ceiling** — routed, not self-ruled.
-- **NEXUS** 🟠 — the **OWED REGISTER** in my STATUS is the obligation-audit method your 9/2 split needed: enumerate every owed action before a hot/cold split and again after (**25 → 25 + 6, 0 dropped**). **A byte check cannot see an obligation.** Offered, not imposed.
+- **BRENT** 🔴 — export print unreadable (3.46 as of 8/23) · August runs 3.8 · TD6 halved with no rate print · standard market out of Black Sea war risk · **Urals ~25% retired, I had no source** · L140: Q1 concur, Q2 re-timed to Oct 1 with an August diesel baseline and a named instrument.
+- **HAWK** 🟠 — audit reviewed ahead of 9/11: **the August print moves the arithmetic to 28-31% — withdraw the re-centre.** The 9/8 rung observation you asked for is returned (KB-071). §1 geography gap and the buyer-pullback observation are yours to weigh too.
+- **CARL** 🟡 — no change; route-out mid-to-late October.
+- **PROME** 🟠 — WQ-176 cell "cut as drafted" · rung grade for the 9/15 GATE review · re-centre withdrawal recommendation · two spec items routed. No live PROME to doorbell.
+- **RED** 🟡 — OSP-06 open; its instrument is unreadable this week, not dark.
+- **NEXUS** 🟡 — second rotation done with the rule-18 census (21 in → carried/closed by name + 3 new, 0 dropped).
 
 ## WATCH NEXT (dated)
-**~9/8 — three things land together:** the 8/8 understanding's **institutionalisation rung** (+ Rule N6's extension branch) · **DOCKET L140**, BRENT's first real diesel read · the next export print — **a seventh week, or the snap-back.**
+**~9/14 Palaemon 7-13 Sep (Channel-3 instrument, run it first) · 9/15 GATE-OSPREY-001 review · the 8/30 / 9/6 / 9/13 export prints — a seventh week, or the snap-back · SIREN's cargo state (OWED-31).**

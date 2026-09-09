@@ -1,55 +1,59 @@
-# OSPREY SCRATCH — 2026-09-02
+# OSPREY SCRATCH — 2026-09-08
 
 **Purpose:** Ephemeral session handoff — the canonical "where are we / what next" file. Read at boot (SPAWN PROTOCOL step 2), rewritten in full at closeout. Disposable. Persistent learnings → `MEMORY.md`; cross-agent twin → `NEXUS_BRIEF.md`.
 
 ---
 
 ## CURRENT MARKS (one line)
-- Channels: refineries/products **4 🔴** · crude-export terminals **5 🔴** · shadow-fleet tankers **3 🟠**. **ALL CARRIED — nothing moved this session, and nothing may be moved by me.**
-- Thesis-kill theater clock: **N/A** — no channel individually killed. C1 8/28 (4/30) · C2 9/1 (1/30) · **C3 8/24 (9/21 — RESET, was about to read 17/21)**.
+- Channels: refineries/products **4 🔴** · crude-export terminals **5 🔴** · shadow-fleet tankers **3 🟠**. **ALL CARRIED — nothing moved this session, and nothing may be moved by me.** Brent: defer to BRENT.
+- Thesis-kill theater clock: **N/A** — no channel individually killed. C1 9/8 (0/30) · C2 9/1 (7/30) · C3 9/4 (4/21 in-theater; 9/6 ⇒ 2/21 on the unqualified reading — spec gap routed, OWED-32).
 
-## CHANGES SINCE LAST SESSION (8/20 → 9/2, **13 dark days**)
-- **★ SIXTH CONSECUTIVE WEEKLY DECLINE: 3.46 M bpd** 4-wk to 8/23 [Bloomberg via EnergyConnects 8/25], from 3.58 (8/16). **The question I named on 8/20 as the only one that mattered is answered: it extended, it did not snap back.** ~-760 kbpd off the 7/5 high. Mechanism unchanged — **barrels destroyed = zero.**
-- **⛔ THE SEPT-1 PRODUCER-DIRECT DIESEL CARVE-OUT NEVER OPENED.** Producers' diesel/marine/gasoil extended to **9/30**; traders' diesel + gasoline to 1/31/27; **jet fuel to end-Nov 2026** (new leg). REPORTED, **not primary-verified** — decree 403 unread at pravo.gov.ru.
-- **★ FLOATING STORAGE CAME BACK TO LIFE AND I MISSED IT FOR 15 DAYS.** ~94M bbl (wk to 8/16, pub 8/18) → **~83M bbl** (wk to 8/23, pub 8/25, "lowest in a year"). **I was carrying ~120M mid-June — ~45% high.**
-- **★ CHANNEL-3 CLOCK RESET TO 8/24** — two shadow-fleet hulls struck; found by a **dated-window maritime bulletin** after name searches returned a false quiet. Off the 8/16 row the clock expired **9/6**.
-- **MSC suspended Novorossiysk bookings 8/27** after MSC Ulsan III was struck — offtake deterrence with a named actor. **Trigger deliberately NOT fired** (container line ≠ crude buyer).
-- Strikes: **Perm 8/21 (~1,600 km, range record)** · Afipsky 8/26 · **YANOS 8/28** (2nd hit) · **Ust-Luga 9/1** (2nd in 18 days) · Novorossiysk grain terminals halted ~9/1. **21 refinery attacks in August alone.** Russia **tolling crude through Kazakhstan's Kondensat** (~0.3-0.5% of daily demand — a direction tell, not a fix).
-- **AWRP: 43-day gap, 5th empty window.** TD6 still not re-pulled (26 days) — so the absence rows are weaker than they read.
+## CHANGES SINCE LAST SESSION (9/2 → 9/8, **6 dark days**)
+- **Refinery campaign restarted after a four-day pause (9/2-9/5):** Ryazan 9/6 · Perm + a Tatarstan plant 9/7 · Saratov 9/8 = four in three nights; Sochi fuel depots 9/4. No capacity-offline figure for any.
+- **★ AUGUST RUNS PRINTED: ~3.8 M bpd** (EA via Bloomberg, Meduza 8/28; Kpler ~4.0) ⇒ runs proxy **28-31% below norm = the canonical band's centre.** The ~33% re-centre was built on July's 3.6 — **recommended WITHDRAWN** to HAWK + PROME. Band unchanged.
+- **~9/8 institutionalisation rung GRADED: NOT FORMALISED, HOLDS, one open test** — **SIREN 9/3**, a Liberian-flagged crude tanker with Novorossiysk/Ust-Luga history, struck by unclaimed drones; cargo state unpublished (OWED-31).
+- **Seventh-week export print: SEARCH-NOT-FOUND** (8/30 and 9/6 Bloomberg weeklies paywalled; BRENT also not-found). Carry 3.46 **as of 8/23**.
+- **Vessels:** Omskiy-107 9/1 · Baryon 9/2 · SIREN 9/3 · NEFRIT USV strike in Sochi 9/3-4 (first) · Mediterranean strikes on Russian-flagged hulls 9/5-6 (LADY MARIIA — outside the channel's geography).
+- **OWED-28 CLOSED:** the 8/27 sinking was PROGRESS IV, a sugar carrier — Channel-3 limb 1 not fired, by evidence.
+- **TD6 halved:** WS285.67 / TCE $180.5k on 9/4 vs WS504 / $377k on 8/7 (OWED-9 discharged). AWRP: an 8/21 Gibson/Noah print (1% of hull, same level as 7/21) found — **missed by the 8/20 and 9/2 canvasses**; standard market stopped writing Black Sea war risk, RNRC declined, FESCO out.
+- **Correction, mine:** the Urals "~25%, May vintage" DARK carry has **no source** and conflicts with Reuters 6/9 on basis — **RETIRED** (KB-076).
+- Res. 1097 (8/28) transcribed at Kommersant/Alta/GARANT/ConsultantPlus — still not primary-read. Peace track: Putin 9/3 "a chance"; no ceasefire.
 
 ## WHAT I DID THIS SESSION
-- **OSP-04 GRADED CONFIRMED on the letter, credit DISCOUNTED.** Search-attempt guard satisfied at named sources (KB-057/058). **Two construct defects recorded against my own row:** the OR-shaped confirm limb vs the AND-shaped fail limb, and the guard's date FLOOR with no CEILING (I cured it 2 days after the window closed). **Ceiling fix ROUTED to DAEDALUS/PROME, not self-ruled** — it is the registration-time question the 8/10 ruling declined.
-- **WQ-87 all four ACTIONs executed.** R1 reconciled — **STATUS survives, my 8/20 packet SUPERSEDED**, and I kept the reading that makes the record **worse** for me (R1 **fired**, so FAILED rests entirely on R3's defect). OSP-05 FAILED recorded with the 9/1 record; re-open trigger **extinguished**. **OSP-06 registered** — grades an OUTCOME not a mechanism list, **names its instrument at registration**, carries the ceiling OSP-04 lacked.
-- **GATE-OSPREY-001 legs (a)/(c) re-graded NOT FIRED** *by fresh verification*, not by absence. `review_by` **CONFIRMED 9/15** with a named reason (one week after the ~9/8 rung). Packet to PROME.
-- **READ-CAP P1 DISCHARGED, rc 0.** STATUS 53,261 → **27,150 B** (hot/cold split; whole file archived verbatim, **crc 2766344202 recomputed and verified**). PREDICTIONS 33,286 → **22,486 B** (post-mortem cells only; **registered letters untouched**; 6/6 cells crc-verified). **Obligation audit: 25 in → 25 carried + 6 new, 0 dropped** — now the standing **OWED REGISTER** in STATUS.
-- **BOTH INBOX LANES DRAINED TO ZERO** — 9 items (4 root + 5 WALTER), all logged to `board_log.tsv`, all `git mv`'d to `processed/`.
-- **`ANALYSIS_2026-09-02.md` regenerated** — six weeks of interpretation debt discharged. **LESSONS item 8 written.** WARRISK `Cadence: EVENT-DRIVEN` declared. **11 KB rows (057-067), 8 STRIKES rows, sweep mark → 9/2.**
-- **HAWK's armed test FIRED and was reported publicly**, as HAWK required — and HAWK reported it against itself first.
-- **5 packets:** PROME (gate) · BRENT 🔴 · CARL 🔴 · HAWK · DAEDALUS.
+- Boot: no pull needed (origin behind by 0; WALTER's local commit unpushed). BRENT/SAM dirty in the tree + BRENT renames staged in the shared index ⇒ every commit pathspec-scoped.
+- Sweep 9/3→9/8 per LESSONS 8 (bulletin first) + LESSONS 7 (name-free port queries). **+11 STRIKES rows, 1 resolved in place; mark → 9/8. +16 KB rows (068-083).**
+- **Both inbox lanes drained to zero** — 6 root packets + 1 WALTER signal, all logged in `board_log.tsv`, all `git mv`'d.
+- **WQ-172 applied:** OSP-06's guard has an author-activity clause; letter frozen, note appended in PREDICTIONS Notes. **WQ-176:** GATE-OSPREY-001 cell confirmed "cut as drafted" (419 B).
+- **HAWK basis-pair audit reviewed** ahead of 9/11 — the August print is the addition that changes the disposition.
+- **WARRISK:** data clock → 8/21 (level-corroboration), re-pull → 9/8, prior absence rows corrected in place, Gibson/Noah added to the set, +4 rows. VX/FLOW re-pull clocks → 9/8 (no state change; data clocks held, said why in the commit).
+- **STATUS second rotation:** 27,150 → 18,341 B (56% of budget); 9/2 file archived verbatim, crc32 928851426; rule-18 census 21 in → carried/closed by name + 3 new.
+- `ANALYSIS_2026-09-08.md` regenerated. **3 packets:** PROME · HAWK · BRENT. **No live recipient to doorbell** (ListAgents: only FALCON live).
 
 ## NEXT SESSION (dated, future-verifiable)
-1. **★ ~9/8 — TWO THINGS LAND THE SAME DAY.** (a) the **institutionalisation rung** of the 8/8 CPC understanding — grade it against the corrected ladder AND Rule N6's extension branch (formalised/extended = a distinct DURABILITY step at its own date, never absorbed into "still holding"); (b) **DOCKET L140** — BRENT's first real diesel read. Also the ~9/8 export print: **does the decline reach a SEVENTH week?**
-2. **OWED-28 — one query: the Dominican-flagged vessel that SANK in Romania's EEZ 8/27.** Name and cargo unreported. The Channel-3 trigger's first limb is *"a named crude tanker sunk/total-loss"*. **Do not exclude it by silence.**
-3. **OWED-9 — TD6 re-pull.** 26 days owed, carried unrun through three sessions now. It is the tripwire behind every AWRP absence row.
-4. **SECOND STATUS ROTATION IS DUE** — it sits at 83% of budget, above the 75% tier, and the archive banner says so in writing.
-5. **OWED-15 — the Channel-2 DOWNGRADE path.** Channel 2 is at **5 🔴 with no downgrade trigger in existence**, 13 days now. Largest spec hole on this desk.
-6. **HAWK's basis-pair audit** — HAWK named it next session's first item. If it lands, **re-present the band on the audited basis**; until then KB-029 (~30%, 25-35%) is canonical.
+1. **~9/14-15 — Palaemon 7-13 Sep publishes:** run it FIRST (Channel-3 clock is 4/21 today; do not grade any quiet off name searches).
+2. **9/15 — GATE-OSPREY-001 review (PROME holds the row):** apply the WQ-172 window test; input = the 9/8 rung grade (KB-071). Legs (a)/(c): re-verify at named sources, not by default.
+3. **OWED-31 — SIREN:** one targeted query (cargo state at the strike; any Ukrainian claim). Also the 9/7 "Black Sea target" and the 9/7 Tatarstan facility.
+4. **Export print:** retry the 4-wk to 8/30, 9/6 and 9/13 (pub ~9/15) — Bloomberg weekly, EnergyConnects, Moscow Times, Yahoo relays. If still unreadable by 9/22, tell BRENT the series has been unreadable to this desk for a month; OSP-06's VOID path still does not arm (Bloomberg publishes).
+5. **Band:** if HAWK/PROME act on the withdrawal, update KB-029's anchor sentence to cite July 3.6 + August 3.8. If September prints ~4.2 (EA projection, ~early Oct), that is a **re-derivation** trigger for the lower edge — not a re-centre.
+6. **OWED-15 downgrade path** — Channel 2 at 5 🔴 with no way down, 19 days. Still the largest spec hole; still blocked on BRENT+HAWK semantics.
+7. **Decree text (OWED-17):** one more primary attempt at `government.ru/docs/59723` and `publication.pravo.gov.ru` for No. 1097 — both failed here and at BRENT.
 
 ## OPEN THREADS / WATCHES
-- 🔴 **Seventh week or snap-back?** Fast-reversible supply loss prices differently from attrition.
+- 🔴 **Seventh week or snap-back?** Unreadable this session — the question is open, not answered.
 - 🔴 **OWED-15 downgrade path** — a 5 🔴 mark with no way down.
-- 🟠 **Channel-3 clock 9/21** — and the near-miss is now a *pattern*, not an anecdote (3 instances).
-- 🟠 **MSC-class watch (OWED-30):** if a **crude** charterer/trader/refiner withdraws, the Channel-3 trigger's second limb **fires**.
-- 🟠 **AWRP 43-day gap** with a stale tripwire behind it.
-- 🟡 EU/Druzhba still thin · un-rowed residual unchanged (Kstovo 6/24; Tuymazy; Rostov 7/27) · DAEDALUS actions 4 & 7 open.
+- 🟠 **SIREN (OWED-31)** — the open cell in the 8/8 understanding's grade.
+- 🟠 **§1 geography qualifier (OWED-32)** — routed; clock published both ways until ruled.
+- 🟠 **Buyer-pullback limb (OWED-30)** — three adjacent withdrawals, none a buyer; spec observation routed.
+- 🟠 **AWRP** — 18-day gap from the corrected 8/21 baseline; TD6 halved with no print.
+- 🟡 EU/Druzhba still thin · un-rowed residual extended (Saratov 8/2-vs-8/9; Tatarstan 9/7; Black Sea target 9/7) · DAEDALUS actions 4 & 7 open · counter-campaign taxonomy awaiting Will.
 
 ## PREDICTIONS DUE / DECISIONS PENDING
-- **OSP-06 — the only OPEN row.** Window Sep 2 → **Oct 15**, 45%. ⚠️ **Its own guard has a CEILING: a CONFIRMED needs a dated KB search for the named Bloomberg series logged WITHIN the window and no earlier than 2026-10-08.** Do not repeat OSP-04's floor-with-no-ceiling.
-- **AWAITING WILL/PROME:** band re-centre (frozen behind HAWK) · downgrade path (build, needs BRENT+HAWK semantics) · OSP-04 guard-ceiling design question · counter-campaign taxonomy.
+- **OSP-06 — the only OPEN row.** Window Sep 2 → **Oct 15**, 45%. Newest readable print 3.46 (8/23). WQ-172 note appended; the world-state test governs; ceiling 10/8-10/15 stands.
+- **AWAITING WILL/PROME:** band re-centre — now recommended WITHDRAWN (PROME holds the gate) · downgrade path · §1 geography qualifier · buyer-pullback limb observation · counter-campaign taxonomy.
 
 ## MAIL STATE
-- **Root inbox: 0 pending. WALTER lane: 0 pending.** All 9 dispositioned + archived; `board_log.tsv` +9 rows.
-- Outbox: 1 new delivery memo + 5 packets routed. ⚠️ **`delivered/` tail STILL never run** (DAEDALUS action 7, 12+ packets) — OWED-22.
+- **Root inbox: 0 pending. WALTER lane: 0 pending.** 7 items dispositioned + archived; `board_log.tsv` +7 rows.
+- Outbox: 3 packets routed (PROME, HAWK, BRENT) via carve-out ①. ⚠️ `delivered/` tail still never run (DAEDALUS action 7) — OWED-22.
 
 ## PENDING PUSH / GIT
-- Committed path-scoped inside `AGENTS/OSPREY/` plus carve-out ① packets (PROME, BRENT, HAWK, CARL, DAEDALUS inboxes). **Six other desks committing concurrently — a non-ff on push is routine; recover per root Git Protocol session-end step 3, never force.**
+- Committed path-scoped inside `AGENTS/OSPREY/` + carve-out ① packets. BRENT and SAM have uncommitted work in the tree (a concurrent BRENT session was live earlier today) — never swept, never stashed. Push receipt in the session's last line.
