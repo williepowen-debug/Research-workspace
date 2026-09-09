@@ -1,51 +1,44 @@
 # WALTER — LAST COMPLETION
 
-Session: 2026-09-08 Tuesday; authorized Codex owner implementation under PROME. Tier-2 FULL. No staged changes, commit or push by WALTER; parent serializes exact paths.
-
-## Evening boot continuation — September 8
-
-Earlier pending-commit statements below are historical: implementation 7291317ec is on origin/master and the 33 delivery rows are reconciled. FT10 September 8 is now published: 148.86, reset to 0/4, NOT FIRED. Current boot evidence and scope limits: `outbox/2026-09-08_evening-boot.md`. This is a startup continuation; existing design decisions remain unchanged.
-
-## Approved follow-through — September8 21:11ET
-
-Will prioritizes first three next steps; older backlog approved but deferred. HAWK011/022/023 consumption verified at owner STATUS and board_log despite unmoved inbox files. SAM012 disposition not found; courtesy existing-task pointer queued (live cross-session messaging unavailable here). FALCON/BRENT next-owner sequence and required evidence table prepared in `outbox/2026-09-08_energy-and-yen-follow-through.md`. No duplicate owner sessions launched. PJM belongsWATT and23:59ET deadline is still future at check; PPI/CPI remain future releases. Foreign BRENT work dirty; local-only follow-up commit.
-
-## Evening news continuation — Tier1 light
-
-Will requested a fleet news catch-up. Briefing: `outbox/2026-09-08_news-catchup.md`; headline audit records every166 feed item and explicitly separates body-verified evidence from held leads. Supplemental batch4/4.13 new BOARD signals011–023,42 create-only handoffs; BOARD914. Three verifier workers handled five bounded subject reports. No external messages, owner grades or trade changes. Local changes await a clean coordinated push; foreign PROME work prevents sync. Full design carry below retained.
-
-Follow-up specific to this continuation: recipient integration of011–023; FALCON/BRENT asset-level Saudi loss; OSPREY Saratov restart/incremental loss; broad Iran primary sweep; WATT post23:59ET authority outcome. Runtime live/dark state unavailable, no doorbell inference. Signal019 closes missing September8 SKEW bar, and010 is PARTIALLY-SUPERSEDED only on that watch; census correction survives.
+Session: 2026-09-08 evening ET, Codex WALTER. Tier-2 FULL file audit requested by Will; clears the three preceding light-closeout deferrals. Audit changes committed locally at close; push deferred while HAWK/OSPREY/SAM have concurrent dirty work. See commit history for the exact revision.
 
 ## STATUS
-IMPLEMENTED IN WORKING TREE; durability and recipient integration pending. BOARD891→901,10dispatches (3new correction signals),33dispatch handoffs plus2implementation NOTES. Initial active inbox7+2lateHAWK=9 consumed/filed, all lanes empty at census (scaffolds excluded). Intake BM-20260908-01 CLOSED15/15:4DISPATCH inputs→3signals,4DUP,2FOLD,4NO-ACTION(including1held/paywalled),1KILL. One verifier with2bounded assignments; verification advice consumed, not mistaken for routing. No trades/external sends/new thresholds/probability/band changes.
+
+File sweep complete within the recorded perimeter. BOARD 914; September 8 signals 001–023 and 75 dispatch handoffs are on origin. The 42 evening rows formerly pending push now read delivered, verified by the existing origin-history reconciler. Delivery is not blanket recipient consumption. This audit dispatched no signals, spawned no agents, and refreshed no market prices.
 
 ## CHANGED
--001NVDA corrective erratum: CFO Ex99.2 memory wording DOES exist,10-Q memory AND facilities,119→279B total and undisclosed share hold. Original BOARD banners, route/deep-research carriers, original-recipient and downstream packets, COR01.
--002HBM retraction: stated/computed multiple mismatch remains; causalFX diagnosis withdrawn, Samsung lock unverified; COR02.010SKEW rate correction:0.40% window,4.31% full, old0.79 withdrawn; COR03. September6Sirik loss1 context SELF-corrected against owner artifacts.
--003TrendForce revenue/price + smartphone-pull-forward research;004CXMT16GBpackage/16Gbdie;005FREDSeptember7HY268;006Canada effective notice;007PJMinterim;008WAL79.94;009Trinity qualified IT outsourcing. Each source scope/inference separated.
--WQ174/L273 BOARD INDEX cutover executed with pre-swap891-ID parity, archived changelog, generation step wired and receipt. Later901-ID parity passes, no hand-only markers. §6b checksum path corrected and tested from actual cwd.
--REGISTRY owner headers refreshed; potash triage-only role repaired; STATUS/MEMORY/SESSION_LOG regenerated. Iran owner-state reconciliation applied, broader primary sweep PARTIAL. HAWK’s late Canada owner verdict recorded; HANS→HAWKQatar correction registeredCOR04, ID NOTE returned.
+
+- Replaced stale CREED boot threshold copies with row-level canonical reads; removed generic sustain defaults. Marked the old BOOT_PROTOCOL quotation historical. Clarified near-trigger display versus the existing actionability rule; no new band or grade.
+- Reconciled 42 delivery states; repaired STATUS Updated header, missing liaison manifest, retired COP mission wording, and stale STATUS/MEMORY/closeout routing and push claims.
+- Refreshed SAM/OSPREY/FALCON registry dates and WALTER focus. SAM 012 acted / 021 noted is verified in its own board_log; the old awaiting-SAM statement is superseded.
+- Repaired archived proposal/liaison pointers, BRENT subscription state, and stale design rollout claims. Outbox diagnostic now reports artifacts and mtime without assuming an unspawned draft.
+- Prepared exact READS amendments and a self-authored PROME maintenance packet. Shared manifest remains unmodified and its stale attestation remains visible.
 
 ## RESULT
-67/67 behavioral assertions PASS. Doctor0HIGH/1MED at recorded run: standing41unconsumed>2d across13owners,7ACTION/34INFO,oldest51d (delivery timestamp basis;2mtime fallbacks). Fresh901-row generated INDEX content+banner check passes. Four registries counted12/8/11/14. Intake liveclean4a6884a,September8run18:17:18Z; no stale-collector claim. Initial+late inbox dispositions are recorded individually, not blanket historical implementation. Full final validation and exact path list travel with outbox/2026-09-08_codex-owner-catchup-completion.md.
+
+Existing behavioral regressions: 67/67 pass. Core spec versions and routing carve-out lockstep pass. Doctor: 0 HIGH / 1 MED (standing 41 older handoffs, 7 ACTION / 34 INFO). BOARD/route reconciliation and generated 914-row index freshness pass. Delivery reconciliation: 42 repaired, zero origin orphans. Corrections check: zero unreceipted named rows in the 12-row register. Initial Markdown-link scan: no unresolved candidates across 36 active Markdown files; backtick references required separate semantic triage. Exact perimeter and limitations: `outbox/2026-09-08_file-sweep.md`.
 
 ## GAPS
--Commit/push is explicitly withheld for PROME serialization;33handoffs remain written_not_delivered_pending_push. After push run existing delivery reconciler; recipient consumption needs recipient receipts. No manufactured Claude authorship for Codex work.
--RESOLVED Cboe9/8 retrieval at evening boot:148.86 resetsFT10to0/4; signal019 prepared for owners. PJM final post9/8 23:59ET outcome still pending; WATT’s7clear-day rule not graded early.
--HANS6daily scan has quote/settle and storage-gap limits; no14-rowall-clear. Broad Iran primary re-verification remains owed before Iran dispatch; owner-artifact reconciliation is not a full sweep. New premiums/transit/cargo-loss not established.
--TrinityWARNprimary/date conflicts and AppleNAND/Citi contract details inaccessible; paywalled historicalABS held, no new project. CanadaSORregistration unknown; notice-based owner verdict is not a registration-ID receipt.
--ExistingLOW historical consume-declaration gaps are not retro-certified by this session; legacy entity gaps and stale roster-date hints retained. Read-cap check has heuristic perimeter, not exhaustive READS coverage.
--Verify-spawn self-report limitation remains; reports carry source/tool locators but no new verification-log architecture adopted. C2reference-dependence not measured;3×maintenance claim remains withdrawn. MEMORY_PROMOTED footprint unmeasured; staleness sweep legs2/3 not run. Other desks’ TWO-INSTRUMENTS language not globally audited.
+
+- Audit commit is local; no pull/push while foreign writers are dirty. Earlier implementation/news delivery is already on origin, so do not revive the old 33/42 pending-delivery claims.
+- READS remains UNKNOWN: August 31 attestation predates boot changes; RED whole-read and receipt-path declarations are stale. PROME owns applying proposed shared rows; WALTER owes a fresh complete enumeration/reader attestation. Do not clear it by merely changing a date. ROUTING_TABLE is at 31,764 B, 98% of budget; rotation is the next maintenance priority. CHECKLIST scoped-read ambiguity remains a separate protocol issue.
+- Historical consumption-declaration and legacy entities gaps remain uncertified. Lifecycle tool returned 195 candidates, not 195 adjudications; no lifecycle rows or sweep clock changed. Last adjudication September 3; next due September 17. Two open deep-research flags are not overdue.
+- Broad Iran primary re-verification and Saudi/Saratov incremental-loss evidence remain incomplete. Named assets, pre-attack status, outage duration and restart evidence must come from owner work; no nameplate-as-loss inference. HANS storage gap and UK30Y/TTF quote-versus-settlement scope remain partial.
+- Trinity WARN/date conflicts, Apple NAND/Citi contract details and historical paywalled ABS remain held. Canada notice-based adjudication does not supply a registration-ID receipt. No new research build follows automatically from these gaps.
+- Verify-spawn evidence still relies partly on self-reports; source locators do not close the architecture gap. C2 reference-dependence is unmeasured; the old 3× maintenance claim remains withdrawn. MEMORY_PROMOTED coverage/cost measurement and a fleet-wide TWO-INSTRUMENTS audit were not performed. Staleness P2/P3 review remains carried.
 
 ## WILL_NEEDS
-No additional approval required for this bounded implementation. Existing separate decisions remain: pilotstep3 adoption; verify-spawn evidence-record design; weekend/event intake; obsolescence collection scope; pre-Augcorrection baseline audit. TelegramINBOUND was reported broken previously and was not retested here; external outbound is prohibited for this session. These are carried, not new requests or permission gates.
+
+No new approval needed for completed maintenance. Older backlog follow-through stays deferred behind the first three approved workstreams. Separate carried decisions remain: pilot step 3 adoption, verify-spawn evidence-record design, weekend/event intake, obsolescence collection scope, and pre-August correction baseline audit. Telegram inbound's previously reported fault was not retested; no external message was sent.
 
 ## FOLLOW-UP
-1.RESOLVED at evening boot: parent committed implementation 7291317ec, verified as ancestor of origin/master; 33 delivery rows reconciled using the existing tool. New boot changes are local; push deferred for foreign dirty work.
-2.RECIPIENTS: correction001/002/010 andCOR04 dispositions; HAWK already adjudicatedHAW21 in its own artifact, structuredCOR04 APPLIED receipt verified at WALTERclose. NEXUS calendar correction and WATT finalPJM check remain owner actions.
-3.BROCK: preserve September9hold on pro-rated-tender definition; no repeat ask today. AEOLUS2ACTION and remaining7ACTION backlog go to parent priorities; no external doorbell. REGINALDREGT07 CREEDinfo/two-bars asks CLOSED already encoded. REDAugust28omission question CLOSED to evidence limit, original9/2frame unrecoverable. VIOLET leading-edge writer concern remains its owner’s pending work, source consumption alone not a fix.
-4.Clocks:9/9FT11+L275;9/10ECB;9/11WQ179 and existingCOR0828cap;9/12L294;9/16FOMC;9/17staleness sweep;9/30leg3bsoak+memorysizecheck. No early grades.
-5.Keep pilotstep1outside scope; no rerun to force divergence. Historical architecture proposals receive DEFERRED/UNCHANGED dispositions below, not automatic implementation.
+
+1. Maintenance: apply the prepared READS amendments through PROME; WALTER re-enumerates current boot obligations and re-attests. Rotate ROUTING_TABLE under the existing read-cap process; resolve CHECKLIST read-scope ambiguity without deleting authoritative rules. Report: `outbox/2026-09-08_file-sweep.md`.
+2. Approved energy sequence: collect FALCON's Saudi asset/event evidence, OSPREY's Saratov prior-operating/restart evidence, BRENT's incremental supply assessment, and HAWK synthesis. HAWK 011/022/023 consumption is verified. FALCON/OSPREY are operator-reported Claude Code sessions, with September 8 owner updates present; do not duplicate their launches. Existing work brief: `outbox/2026-09-08_energy-and-yen-follow-through.md`.
+3. SAM: 012 disposition is now received, so no duplicate ping or September 4 JGB ask. Its causal attribution, fresh settlement and post-move positions remain open in owner work. Correction 001/002/010 and COR04 owner integration still follows actual receipts; HAWK COR04 APPLIED is already verified. NEXUS calendar correction and WATT's final PJM authority check remain owner actions.
+4. BROCK September 9 hold remains. Older 7-ACTION backlog, including AEOLUS and REGINALD, stays deferred per Will. REGINALD REGT07 asks and RED August 28 omission question are CLOSED to their documented evidence limits. VIOLET's leading-edge writer concern remains owner-pending; reading the source does not prove a fix.
+5. Clocks: PJM September 8 23:59 ET outcome belongs to WATT and was still future at this audit; no premature seven-clear-day grade. September 9 FT11/L275; September 10 ECB and PPI; September 11 CPI/WQ179/COR0828 cap; September 12 L294; September 16 FOMC; September 17 lifecycle sweep; September 30 leg-3b soak and memory-size review. Use the registered calendar at execution, not this dated carry as a new outcome.
+6. Keep pilot step 1 outside scope; no rerun to force divergence. Historical architecture proposals remain DEFERRED/UNCHANGED below; WQ191-S1 stays LAPSED absent its registered reopen condition. Preserve every open design item at the next closeout.
 
 ## OPEN DESIGN DECISIONS
 **September8 disposition:** every item in the preserved list below remains DEFERRED/UNCHANGED; none is required for this catch-up or newly authorized by inbox drain. WQ191-S1 specifically LAPSED; reopens only on its registered measured30-day condition/L304, not adopted. No new broad design/research build initiated.

@@ -1,0 +1,20 @@
+{
+  "date_ET": "2026-09-08",
+  "checks": {
+    "existing_behavioral_assertions": "67/67 PASS",
+    "versions_and_carveout": "PASS",
+    "delivery_diff": "42 states only; no other cells changed",
+    "delivery_reconcile_final": "0 pending flips; 0 orphans",
+    "open_design_conservation": "exact section preserved",
+    "repaired_liaison_paths": "all exist",
+    "corrections_register": "0 unreceipted among 12 named register rows",
+    "doctor": "0 HIGH / 1 MED; existing deferred backlog",
+    "board": "914 reconciled; generated content and banner match",
+    "readcap": "0 over budget in 9 heuristic whole-read files; ROUTING_TABLE at rotation tier",
+    "READS": "UNKNOWN; stale attestation and obsolete RED whole-read declaration",
+    "weekday_claim_check": "4 paths PASS",
+    "ledger_nudge": "no live workbook TSV ledgers, nothing to nudge",
+    "consumer_scope": "ID-only consumer run is not a valid superseded-value test; its 17 red hits are NOT 17 confirmed stale figures. Canonical CREED sustain=2 verified; dated August19 BOARD sustain=1 predates amendment and was already adjudicated dated-is-dated in August28 owner exchange. No new stale-owner packet justified."
+  },
+  "limitations": "File audit, not whole historical corpus reading or a new market/owner-grade sweep. READS full re-attestation and shared application outstanding."
+}

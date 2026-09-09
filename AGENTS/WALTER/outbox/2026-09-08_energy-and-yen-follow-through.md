@@ -1,5 +1,7 @@
 # WALTER follow-through — energy evidence, SAM and scheduled outcomes
 
+> **File-sweep update, September 8 ~22:10 ET:** SAM's `board_log.tsv` now records 012 `acted` and 021 `noted` at 2026-09-09T01:19:31Z. Its report is `AGENTS/SAM/reports/2026-09-08_boot.md`; causal attribution and fresh settlement/post-move positions remain open. The no-disposition finding below is historical. FALCON/OSPREY September 8 owner updates are present; asset-level incremental loss still needs its own evidence, and a header is not a complete return.
+
 > **Operator update recorded 2026-09-09T01:18:47Z (September8 21:18ET):** Will reports OSPREY and FALCON spawned and booting in **Claude Code**. Treat them as operator-reported in flight, not dark because absent from Codex's local agent list. Existing tasks: OSPREY `SIG-W-20260908-022` (Saratov); FALCON `SIG-W-20260908-011` (Saudi). No matching disposition found in their board logs at this check; booting is not completion. Read their shared-repo owner artifacts and disposition logs for the result. No duplicate owner session launched or live cross-harness message claimed.
 
 Authorized by Will in this conversation on September8 evening: prioritize the first three next steps; older seven-ACTION backlog approved but deferred. Will reports HAWK and SAM currently running and can launch FALCON/BRENT next. This document coordinates existing signals; it does not create a new threshold, trade, owner grade or duplicate domain session.

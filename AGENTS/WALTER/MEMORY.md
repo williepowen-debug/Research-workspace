@@ -63,18 +63,14 @@
 - **Market data:** `.venv/bin/python3 FORGE/tools/market-data/dashboard.py`.
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION — 2026-09-08 Tier-2 owner implementation
-- SEC CFO primary disproves our no-primary claim;001 corrected original recipients and live carriers. Undisclosed memory share holds. HBM002 consumes VULCAN retraction; FX diagnosis and Samsung lock remain unverified.
-- WQ174/L273 INDEX cutover IMPLEMENTED, not just dry-run; archive and hashed receipt filed. Step11 regenerates;§6b checksum pointer now cwd-safe.
-- Inbox7+2late HAWK consumed/filed; intake15/15 closed, including3watch hits; source/novelty/date errors corrected.10dispatches,1kill,4dup,2fold; one verifier/two assignments. No new projects.
-- HAWK Canada owner adjudication received; Qatar correction registeredCOR-20260908-04. Iran anchor reconciled to ownerKylo/total-loss2; broader primary sweep partial.
-- RED census0.79 withdrawn;010 carries0.40 window/4.31 full. REGINALD REGT07 asks and RED omission question removed from open carry because original artifacts already answered them.
-- Commit/push pending PROME serialized Git; packets written, not delivered. No trades, Telegram/external messages or threshold/probability changes.
+### CHANGES SINCE LAST SESSION — 2026-09-08 Tier-2 file sweep
+- September 8 now totals 23 signals / 75 dispatch handoffs, BOARD 914; earlier implementation and evening news are on origin. The 42 late delivery states are reconciled.
+- Stale CREED boot classifier/sustain copies removed in favor of canonical row fields. STATUS header/liaison manifest, design pointers and retired COP language repaired; pre-audit continuity preserved verbatim in `research/2026-09-08_file-sweep/continuity-before.md`.
+- SAM 012 acted / 021 noted verified. FALCON/OSPREY September 8 owner headers refreshed. Do not infer runtime darkness or consumption from Codex roster visibility or inbox location alone.
+- Audit report: `outbox/2026-09-08_file-sweep.md`. Audit commit local while foreign work is dirty; prior news delivery is not pending.
 
 ### NEXT SESSION
-1. Evening boot: parent implementation verified on origin and 33 delivery rows reconciled. Collect owner correction receipts. Do not repeat source asks already answered by VULCAN/RED/REGINALD.
-2. FT10 September8 Cboe bar now verified 148.86 at publisher: reset to 0/4, NOT FIRED. Source/hash in evening boot receipt. PJM postSeptember8 23:59ET outcome still owed to WATT; no premature seven-clear-day grade.
-3. BROCKSeptember9 hold; FT11/L275September9; ECBSeptember10; WQ179September11; L294September12; FOMCSeptember16; staleness sweepSeptember17; leg3bSeptember30.
-4. Full Iran primary re-verification owed before next Iran dispatch; do not confuse owner-artifact reconciliation with broad source verification. HANS storage gap and exact UK30Y/TTF close bases remain partial.
-5. Pilot step3 adoption remains a separate Will decision. Keep standing open-design list in LAST_COMPLETION; none newly approved by whole-inbox drain. No rerun to force divergence.
-6. Verify-spawn verdict record still relies on self-report; current reports include source/tool locators but this does not resolve the structural gap. MEMORY_PROMOTED coverage still unmeasured. Preserve scope on read-cap and validation claims.
+1. Use LAST_COMPLETION FOLLOW-UP + OPEN DESIGN DECISIONS as the complete obligation list. Energy owner returns remain prioritized; older 7-ACTION backlog stays deferred.
+2. READS known amendments are prepared for PROME; WALTER full enumeration/reattestation still owed. ROUTING_TABLE is near budget and needs rotation; scoped CHECKLIST ambiguity remains open. Do not report a global read-cap all-clear.
+3. FT10 September 8 print 148.86 reset to 0/4, NOT FIRED; re-read source for a new observation. PJM final authority and registered September 9–30 clocks are carried, not graded early.
+4. Broad Iran primary verification and HANS basis/storage limits remain open. C2 measurement, MEMORY_PROMOTED coverage and verify-spawn record limitations are not resolved by this file audit.

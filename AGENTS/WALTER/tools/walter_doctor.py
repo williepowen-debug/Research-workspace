@@ -392,10 +392,10 @@ def check_intake_liveness():
 
 # ── outbox queue age (boot step 9) ──────────────────────────────────────────
 def check_outbox_age():
-    """ALL staged outbox files, not just REQ-*.md — the REQ-only glob made staged
+    """All outbox artifacts, not just REQ-*.md — the REQ-only glob made staged
     drafts (e.g. DEWEY prompts) invisible and mis-reported the outbox as "empty"
     while items sat there. REQ-* keep the >14d retry/escalate semantics; other
-    staged drafts surface informationally (LOW only if very stale)."""
+    artifacts surface informationally (LOW only if very stale). Age is filesystem mtime, not proof of an unresolved request."""
     files = sorted(p for p in (WALTER / "outbox").glob("*")
                    if p.is_file() and p.name != ".gitkeep" and not p.name.startswith("."))
     if not files:
@@ -409,8 +409,8 @@ def check_outbox_age():
                             + (" — retry/escalate (>14d)" if age > 14 else "")))
         else:
             sev = LOW if age > 30 else INFO
-            out.append((sev, f"{p.name}: {age}d old (staged draft)"
-                            + (" — >30d unspawned, review/clear?" if age > 30 else "")))
+            out.append((sev, f"{p.name}: {age}d since mtime (outbox artifact; disposition not inferred)"
+                            + (" — >30d since mtime; review disposition" if age > 30 else "")))
     return out
 
 

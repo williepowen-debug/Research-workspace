@@ -43,7 +43,7 @@ Schema v2 with `trigger_type: THRESHOLD_CROSS | EVENT_PRINT | DISCRETE_ANNOUNCEM
 
 ## Cross-references
 
-- **Spec source:** `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md` §2 (WALTER side) + `AGENTS/RED/design/JOINT_PROPOSAL_2026-05-06_red_sections.md` §1 (RED context)
+- **Spec source:** `AGENTS/WALTER/design/history/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md` §2 (WALTER side) + `AGENTS/RED/design/JOINT_PROPOSAL_2026-05-06_red_sections.md` §1 (RED context)
 - **WALTER spawn protocol:** `AGENTS/WALTER/CLAUDE.md` step 6b (read FALSIFICATION_TRIGGERS at boot) + step 11.5 implicit at dispatch session-end (Phase 2 step 7 in CHECKLIST)
 - **CHECKLIST step:** `AGENTS/WALTER/design/SIGNAL_PROCESSING_CHECKLIST.md` Phase 2 step 7 (v0.10)
 - **ROUTING_TABLE rule:** `AGENTS/WALTER/design/ROUTING_TABLE.md` By Tag/By Verdict, falsification_trigger row (v0.7)

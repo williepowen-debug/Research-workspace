@@ -1,3 +1,7 @@
+# 2026-09-08 evening — Tier-2 FULL file sweep
+
+Clears the preceding three light-closeout deferrals. Boot CREED copy corrected to canonical reads; 42 delivered rows reconciled; STATUS/registry/design/liaison/closeout stale state repaired; SAM 012 disposition verified. Existing 67 behavioral assertions pass; doctor 0 HIGH / 1 MED, the standing deferred backlog. READS amendments prepared, shared application and reader re-attestation remain open. Complete report: `outbox/2026-09-08_file-sweep.md`. Pre-audit STATUS/MEMORY/LAST_COMPLETION preserved verbatim in `research/2026-09-08_file-sweep/continuity-before.md`. Audit commit local while foreign work is dirty; earlier news is on origin.
+
 September8 21:11ET — light-closeout — full deferred: HAWK3dispositions verified; SAM existing012 coordination pointer queued, no live message transport; energy owner sequence prepared; old backlog deferred per Will. See outbox/2026-09-08_energy-and-yen-follow-through.md.
 
 September8 evening — light-closeout — full deferred: Will-requested166-headline+4supplement catch-up,13signals011–023,42handoffs,BOARD914;5boundedverification reports; both batches CLOSED. Local only while foreign work dirty; report outbox/2026-09-08_news-catchup.md.

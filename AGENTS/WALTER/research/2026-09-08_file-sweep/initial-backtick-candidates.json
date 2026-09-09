@@ -1,0 +1,350 @@
+[
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 76,
+    "target": "design/JOINT_PROPOSAL_2026-05-06_red_walter.md",
+    "context": "| WALTER \u2194 RED | **2026-06-06 (Turn 7 WALTER re-engagement sent \u2014 light substance + 2 open questions"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 659,
+    "target": "scripts/boj_ois.py",
+    "context": "**\ud83d\udd34 THE METHOD NOTE THAT MATTERS THIS TIME IS NOT COMMIT-CONTAMINATION \u2014 IT IS THAT I TALKED TO MOST"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 725,
+    "target": "registry/phone_seen.json",
+    "context": "**Updated:** 2026-07-27 (Mon ~4:49 PM ET boot \u2192 ~5:1xZ / **US MARKETS CLOSED ~1h**; Will-Telegram \"p"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 934,
+    "target": "inbox/SIG-OTTO-WALTER-20260522-firstbrands-ch7-in-motion.md",
+    "context": "| 2026-05-22 Fri AM (~14:00-14:40 UTC, **Will-Telegram boot msg 1941 + claims/Tokyo CPI primary-sour"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 939,
+    "target": "AGENTS/PROME/inbox/SIG-WALTER-PROME-20260521-bull-counter-tier-rec.md",
+    "context": "| 2026-05-21 Thu AM (~14:08-15:30 ET, **light-closeout checkpoint after 4d gap**; **0 BOARD dispatch"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 940,
+    "target": "AGENTS/WALTER/outbox/REQ-BROCK-20260514-ndfi-scope-correction-128b-to-1.4t.md",
+    "context": "| 2026-05-14 Thu + 2026-05-17 Sun (**multi-session arc, ~9hr active total**; 5/14 14:23 UTC Will-pag"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 944,
+    "target": "AGENTS/PROME/inbox/SIG-WALTER-PROME-20260510-edgar-filing-radar-phase1-completion.md",
+    "context": "| 2026-05-10 PM \u2192 2026-05-11 PM (Sun ~21:10 UTC \u2192 Mon ~13:45 UTC, **~16hr multi-thread session**; 4 "
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 944,
+    "target": "AGENTS/REGINALD/design/JOINT_PROPOSAL_2026-05-11_reginald_sections.md",
+    "context": "| 2026-05-10 PM \u2192 2026-05-11 PM (Sun ~21:10 UTC \u2192 Mon ~13:45 UTC, **~16hr multi-thread session**; 4 "
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 949,
+    "target": "AGENTS/RED/inbox/SIG-WALTER-RED-20260508-network-uncertainty-peak-second-fire.md",
+    "context": "| 2026-05-08 PM extension + 2026-05-09 boot-up + closeout + discipline-fix (5/8 ~17:30-22:30 UTC two"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 974,
+    "target": "design/JOINT_PROPOSAL_2026-05-06_red_walter.md",
+    "context": "**5-of-5 RED+WALTER 2-way joint-proposal batch:** SHIPPED end-to-end same calendar day (RED side + W"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 984,
+    "target": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md",
+    "context": "| 2026-05-06 mid-day (Wed \u2014 **second WALTER session today**; Will-triggered RED LIAISON channel sess"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 985,
+    "target": "design/history/hawk_proxy_synthesis_2026-05-05.md",
+    "context": "| 2026-05-06 early morning (Wed \u2014 Will-triggered BRENT LIAISON channel session, 5-turn convergence, "
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 985,
+    "target": "design/JOINT_PROPOSAL_2026-05-06_walter_carl_brent.md",
+    "context": "| 2026-05-06 early morning (Wed \u2014 Will-triggered BRENT LIAISON channel session, 5-turn convergence, "
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 985,
+    "target": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md",
+    "context": "| 2026-05-06 early morning (Wed \u2014 Will-triggered BRENT LIAISON channel session, 5-turn convergence, "
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 986,
+    "target": "design/BRENT_LIAISON_PREP.md",
+    "context": "| 2026-05-05 evening (Tue \u2014 Will-driven heavy image-intake session, 4 batches, 12 dispatches, 8 kill"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 987,
+    "target": "design/cluster_assignment_v1.tsv",
+    "context": "| 2026-05-05 PM (Tue \u2014 BOARD INDEX 3-pass cluster-organization refactor + sub-agent verification, 0 "
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 1000,
+    "target": "design/FILTER_V2_PLAN.md",
+    "context": "| 2026-04-20 (Mon evening \u2014 Filter v2 Seg A) | **Filter v1\u2192v2 review launched and Segment A executed"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 1065,
+    "target": "design/FILTER_V2_PLAN.md",
+    "context": "| \ud83d\udfe2 | **Filter v2 \u2014 Segments A+B+C COMPLETE (Apr 20).** A: FORMAT_SPEC v0.5, ROUTING_TABLE v0.5, FIL"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 1075,
+    "target": "design/FILTER_V2_PLAN.md",
+    "context": "*v0.17 \u2014 April 20, 2026 (Mon evening \u2014 Filter v2 Seg A) \u2014 Filter v1\u2192v2 review launched. Empirical di"
+  },
+  {
+    "file": "AGENTS/WALTER/SESSION_LOG.md",
+    "line": 1125,
+    "target": "scripts/boot.py",
+    "context": "**[Prior] Updated:** 2026-08-11 (Tue **post-close routing session** ~21:53Z / 5:53 PM ET boot on Wil"
+  },
+  {
+    "file": "AGENTS/WALTER/CLAUDE.md",
+    "line": 67,
+    "target": "registry/CREED_T_FIRED_LOG.tsv",
+    "context": "   - **`AGENTS/CREED/registry/THRESHOLDS.tsv` (CREED-T, 11 rows).** **ACTION \u2014** read them; **\u26d4 NEVE"
+  },
+  {
+    "file": "AGENTS/WALTER/CLAUDE.md",
+    "line": 84,
+    "target": "registry/phone_seen.json",
+    "context": "   \u26a0\ufe0f **DELIBERATE SPEC DEVIATION (Will-approved 7/27): consumed signals are recorded in `registry/p"
+  },
+  {
+    "file": "AGENTS/WALTER/CLAUDE.md",
+    "line": 84,
+    "target": "inbox/2026-07-05_from-PROME_phone-signal-ingestion-design.md",
+    "context": "   \u26a0\ufe0f **DELIBERATE SPEC DEVIATION (Will-approved 7/27): consumed signals are recorded in `registry/p"
+  },
+  {
+    "file": "AGENTS/WALTER/CLAUDE.md",
+    "line": 89,
+    "target": "registry/corrections_receipts.tsv",
+    "context": "9a. **R1 corrections check (fleet-wide \u2014 FORUM-6 ruling \u2460, Will-approved 2026-08-17):** `python3 \"$("
+  },
+  {
+    "file": "AGENTS/WALTER/design/PHONE_PART_A_CARD.md",
+    "line": 102,
+    "target": "registry/phone_seen.json",
+    "context": "**Deliberate design note:** consumed signals are recorded on *my* side (`registry/phone_seen.json`),"
+  },
+  {
+    "file": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md",
+    "line": 29,
+    "target": "AGENTS/DOC/CLAUDE.md",
+    "context": "2. **Dead `/home/moltbot/.openclaw/workspace` paths \u2014 broken on the desktop right now:** `dashboard/"
+  },
+  {
+    "file": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md",
+    "line": 65,
+    "target": "AGENTS/DOC/CLAUDE.md",
+    "context": "- Migrate the 9 `/home/moltbot` paths in `AGENTS/DOC/CLAUDE.md` (route to DOC's owner). *(OTHER-AGEN"
+  },
+  {
+    "file": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md",
+    "line": 84,
+    "target": "PROME/CLAUDE_CODE_PROME.md",
+    "context": "- `PROME/CLAUDE_CODE_PROME.md` \u2014 retire (fold principles into `PROME/CLAUDE.md`) or rewrite; if reti"
+  },
+  {
+    "file": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md",
+    "line": 86,
+    "target": "PROME/COMM_PLAN.md",
+    "context": "- **Retire the Prome-to-Prome mailbox** `PROME/COMM_PLAN.md` + `PROME/COMM/` (TO_OPENCLAW/TO_CLAUDE_"
+  },
+  {
+    "file": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_PLAN.md",
+    "line": 110,
+    "target": "scripts/AUTOMATION_PLAN.md",
+    "context": "- **Critic adds:** `docs/AUTO_MEMORY.md` (\"Working with two machines\" L101-114 + cross-machine confl"
+  },
+  {
+    "file": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_ROOT_PROME_SIGNOFF.md",
+    "line": 40,
+    "target": "PROME/CLAUDE_CODE_PROME.md",
+    "context": "| `PROME/CLAUDE_CODE_PROME.md` | Retire (fold principles into `PROME/CLAUDE.md`) **or** rewrite to d"
+  },
+  {
+    "file": "AGENTS/WALTER/design/OPENCLAW_CUTOVER_ROOT_PROME_SIGNOFF.md",
+    "line": 42,
+    "target": "PROME/COMM_PLAN.md",
+    "context": "| `PROME/COMM_PLAN.md` + `PROME/COMM/` | **Retire** the Prome-to-Prome mailbox (TO_OPENCLAW / TO_CLA"
+  },
+  {
+    "file": "AGENTS/WALTER/design/STATE.md",
+    "line": 86,
+    "target": "design/COP_TEMPLATE.md",
+    "context": "| Files | `/COP.md` \u2192 archived `design/history/COP_RETIRED_2026-06-28.md`; `design/COP_TEMPLATE.md` "
+  },
+  {
+    "file": "AGENTS/WALTER/design/STATE.md",
+    "line": 126,
+    "target": "AGENTS/BRENT/board/BOARD_LOG.tsv",
+    "context": "| BRENT | \ud83d\udfe0 \u2705 exists `AGENTS/BRENT/board/BOARD_LOG.tsv` (9-col schema, 57 data rows) \u2014 **DORMANT sin"
+  },
+  {
+    "file": "AGENTS/WALTER/design/STATE.md",
+    "line": 140,
+    "target": "AGENTS/REGINALD/handoff_WALTER/LIAISON.md",
+    "context": "| WALTER \u2194 REGINALD | \u2705 ACTIVE `AGENTS/REGINALD/handoff_WALTER/LIAISON.md` (5-turn convergence locke"
+  },
+  {
+    "file": "AGENTS/WALTER/design/STATE.md",
+    "line": 141,
+    "target": "AGENTS/BRENT/handoff_WALTER/CLOSED/LIAISON.md",
+    "context": "| WALTER \u2194 BRENT | \u2705 CLOSED `AGENTS/BRENT/handoff_WALTER/CLOSED/LIAISON.md` (5-turn thread converged"
+  },
+  {
+    "file": "AGENTS/WALTER/design/STATE.md",
+    "line": 155,
+    "target": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md",
+    "context": "| `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md` | WALTER's drafted sections of"
+  },
+  {
+    "file": "AGENTS/WALTER/design/STATE.md",
+    "line": 155,
+    "target": "design/JOINT_PROPOSAL_2026-05-05.md",
+    "context": "| `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md` | WALTER's drafted sections of"
+  },
+  {
+    "file": "AGENTS/WALTER/design/STATE.md",
+    "line": 157,
+    "target": "AGENTS/WALTER/design/BRENT_LIAISON_PREP.md",
+    "context": "| `AGENTS/WALTER/design/BRENT_LIAISON_PREP.md` | One-shot prep doc \u2014 boot-ready handle for next-sess"
+  },
+  {
+    "file": "AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md",
+    "line": 358,
+    "target": "AGENTS/LIQUID/inbox/SIG-WALTER-LIQUID-20260407-hy-oas-spike.md",
+    "context": "- `AGENTS/LIQUID/inbox/SIG-WALTER-LIQUID-20260407-hy-oas-spike.md` \u2192 precedence: IMMEDIATE, to: LIQU"
+  },
+  {
+    "file": "AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md",
+    "line": 359,
+    "target": "AGENTS/BROCK/inbox/SIG-WALTER-BROCK-20260407-hy-oas-spike.md",
+    "context": "- `AGENTS/BROCK/inbox/SIG-WALTER-BROCK-20260407-hy-oas-spike.md` \u2192 precedence: PRIORITY, to: BROCK ("
+  },
+  {
+    "file": "AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md",
+    "line": 360,
+    "target": "AGENTS/SHADE/inbox/SIG-WALTER-SHADE-20260407-hy-oas-spike.md",
+    "context": "- `AGENTS/SHADE/inbox/SIG-WALTER-SHADE-20260407-hy-oas-spike.md` \u2192 precedence: PRIORITY, to: SHADE ("
+  },
+  {
+    "file": "AGENTS/WALTER/design/SIGNAL_FORMAT_SPEC.md",
+    "line": 361,
+    "target": "AGENTS/REGINALD/inbox/SIG-WALTER-REGINALD-20260407-hy-oas-spike.md",
+    "context": "- `AGENTS/REGINALD/inbox/SIG-WALTER-REGINALD-20260407-hy-oas-spike.md` \u2192 precedence: PRIORITY, to: R"
+  },
+  {
+    "file": "AGENTS/WALTER/design/DEEP_RESEARCH_FLAG_PROPOSAL.md",
+    "line": 169,
+    "target": "AGENTS/WALTER/inbox/2026-07-24_from-PROME_dewey-process-v2-template-changes-kill-condition-and-impact-readback.md",
+    "context": "*Provenance: DEWEY process-v2 memo `AGENTS/DEWEY/outbox/2026-07-24_to-PROME_research-process-improve"
+  },
+  {
+    "file": "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+    "line": 88,
+    "target": "inbox/2026-07-19_from-PROME_dewey-routing-backstop-A.md",
+    "context": "**AMENDED 2026-07-19 \u2014 Constrained-B + backstop-A (Will-approved; PROME packet `inbox/2026-07-19_fro"
+  },
+  {
+    "file": "AGENTS/WALTER/design/BOOT_PROTOCOL.md",
+    "line": 88,
+    "target": "AGENTS/DEWEY/inbox/2026-07-19_from-PROME_constrained-B-routing-change.md",
+    "context": "**AMENDED 2026-07-19 \u2014 Constrained-B + backstop-A (Will-approved; PROME packet `inbox/2026-07-19_fro"
+  },
+  {
+    "file": "AGENTS/WALTER/design/PILOT_STEP_FORM_2026-09-06.md",
+    "line": 173,
+    "target": "registry/intake_pending.json",
+    "context": "| **C** | *\"the 9/4 sweep left 3 breaches unrouted \u2014 see `registry/intake_pending.json`\"* | **that f"
+  },
+  {
+    "file": "AGENTS/WALTER/design/BOARD_INDEX_GENERATION_DESIGN.md",
+    "line": 60,
+    "target": "BOARD/INDEX.generated.md",
+    "context": "2. **Build `tools/gen_board_index.py`** \u2014 deterministic, writes a line-0 banner with the row-set sha"
+  },
+  {
+    "file": "AGENTS/WALTER/design/BOARD_INDEX_GENERATION_DESIGN.md",
+    "line": 85,
+    "target": "BOARD/INDEX.generated.md",
+    "context": "**\u2705 STEP 2 BUILT 2026-09-04 \u2014 `tools/gen_board_index.py`:** `--check` PASS (881 IDs identical \u00b7 per-"
+  },
+  {
+    "file": "AGENTS/WALTER/design/SCOUT_BUILD_PLAN.md",
+    "line": 23,
+    "target": "scripts/fetch_feeds.py",
+    "context": "| **SENTRY** | `.github/workflows/feeds.yml` \u2192 `scripts/fetch_feeds.py` \u2192 `SIGNALS/inbound.md` | Git"
+  },
+  {
+    "file": "AGENTS/WALTER/design/PHONE_SIGNAL_INGESTION.md",
+    "line": 5,
+    "target": "registry/phone_seen.json",
+    "context": "**v1.2 (2026-08-03) \u2014 receiving half RE-PROVEN + a test-isolation defect FIXED.** Re-verified agains"
+  },
+  {
+    "file": "AGENTS/WALTER/design/PHONE_SIGNAL_INGESTION.md",
+    "line": 13,
+    "target": "registry/phone_seen.json",
+    "context": "**SHIPPED INSTEAD:** consumed signals are recorded in **`registry/phone_seen.json` on WALTER's side*"
+  },
+  {
+    "file": "AGENTS/WALTER/design/ROUTING_CARVEOUTS.md",
+    "line": 218,
+    "target": "inbox/2026-08-16_from-DAEDALUS_fert-rechartered-routing-update.md",
+    "context": "**Filed:** Aug 17 2026 \u2014 DAEDALUS packet `inbox/2026-08-16_from-DAEDALUS_fert-rechartered-routing-up"
+  },
+  {
+    "file": "AGENTS/WALTER/design/ROUTING_CARVEOUTS.md",
+    "line": 264,
+    "target": "inbox/2026-07-25_from-DAEDALUS_wal-agent-routing-add.md",
+    "context": "**WAL promoted out of REGINALD to a standalone agent 2026-07-25** (`git mv AGENTS/REGINALD/WAL \u2192 AGE"
+  },
+  {
+    "file": "AGENTS/WALTER/design/V0_9_STACK.md",
+    "line": 14,
+    "target": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md",
+    "context": "1. **FORMAT_SPEC v0.8 lands.** v0.8 stack is the 3-way CARL/BRENT/WALTER joint proposal at `AGENTS/W"
+  },
+  {
+    "file": "AGENTS/WALTER/design/V0_9_STACK.md",
+    "line": 109,
+    "target": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md",
+    "context": "- **JOINT_PROPOSAL \u00a75 spec (canonical):** `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red"
+  },
+  {
+    "file": "AGENTS/WALTER/design/V0_9_STACK.md",
+    "line": 111,
+    "target": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.md",
+    "context": "- **v0.8 stack pending sign-off:** `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-05_walter_sections.m"
+  },
+  {
+    "file": "AGENTS/WALTER/registry/README.md",
+    "line": 46,
+    "target": "AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md",
+    "context": "- **Spec source:** `AGENTS/WALTER/design/JOINT_PROPOSAL_2026-05-06_walter_red_sections.md` \u00a72 (WALTE"
+  }
+]

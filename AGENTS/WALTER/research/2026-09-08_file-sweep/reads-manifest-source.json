@@ -1,0 +1,6 @@
+{
+  "source": "PROME/registry/READS.tsv",
+  "sha256": "24e93e652992fed6910e6d482b7aca297c0c7c095b482369fa8563ef4615198f",
+  "existing_WALTER_READ_rows": 34,
+  "scope": "Three proposed rows replace two old rows. Not a complete re-attestation; retain stale-attestation warning until reader enumerates the current full perimeter."
+}

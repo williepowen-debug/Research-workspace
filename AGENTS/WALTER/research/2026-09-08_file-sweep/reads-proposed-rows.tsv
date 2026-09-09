@@ -1,0 +1,4 @@
+row_kind	reader	path	mode	source_boot_step	declared_by	declared_on	notes
+READ	WALTER	AGENTS/RED/registry/FALSIFICATION_TRIGGERS_SCAN.tsv	whole	WALTER:6b	WALTER	2026-09-08	Replacement boot whole read, charter 6b since September 3. Generated view must match the canonical SHA; canonical rows govern fires, citations and rulings.
+READ	WALTER	AGENTS/RED/registry/FALSIFICATION_TRIGGERS.tsv	scoped	WALTER:6b	WALTER	2026-09-08	Conditional: read canonical load-bearing rows for a fire, citation or ruling; if generated view hash is stale, read canon and flag RED. Preserve read-cap scope and disclose any truncation.
+READ	WALTER	AGENTS/WALTER/registry/corrections_receipts.tsv	grep	WALTER:9a	WALTER	2026-09-08	Conditional read-to-append on corrections_boot_check rc=1, charter 9a. Created only when needed; absence without a receipt obligation is not a broken link.
