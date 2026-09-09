@@ -1,5 +1,7 @@
 # Agent Profile — OTTO
 
+**Profile vintage:** 2026-09-05 (metadata clarified 2026-09-08: the existing 9/5 record below covers refreshed §§1–3/6–8 and item-by-item re-verification of §§4–5; no new content review or clock reset).
+
 **Built by:** DAEDALUS · **Body:** 2026-07-07, **§1–§3 + §6–§8 refreshed 2026-09-05**; **§4–§5 carried forward and RE-VERIFIED item by item** (they were still true — except §5.6, see F-1)
 **Method:** solo read + **guards RUN** — `scripts/boot.py` rc=0 (3.6s) · `scripts/predictions_due.py` rc=0 (11 OPEN, 0 overdue) · `read_cap_check --agent OTTO` · CR-byte count on four TSVs
 **Staleness:** refresh at the next post-CARL-sitting session or >45d → checkpoint **2026-10-20**

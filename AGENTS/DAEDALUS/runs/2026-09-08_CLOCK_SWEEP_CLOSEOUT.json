@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-08",
+  "checks": [
+    {
+      "argv": [
+        "python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "DAEDALUS"
+      ],
+      "rc": 0,
+      "stdout": "READ-CAP [DAEDALUS] — cap 54,250 B · budget 32,550 B (60%) · perimeter: 1 boot section(s) in CLAUDE.md, 7 'read' line(s) scanned (2 on-demand/grep + 1 SCOPED-read token(s) excluded by marker), 4 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic — READS.tsv replaces it)\n  ✅ STATUS.md                            21,215 B    39% of cap    (boot-step line 37)\n  ✅ PATTERNS_HOT.md                      16,501 B    30% of cap    (boot-step line 39)\n  ✅ sweeps/REGISTRY.tsv                  15,038 B    28% of cap    (boot-step line 41)\n  ✅ FLEET_DIRECTORY.md                   10,148 B    19% of cap    (boot-step line 38)\n✅ READ-CAP 0 [DAEDALUS]: every boot-mandated read this check found is under budget (4 file(s)).\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "AGENTS/DAEDALUS/scripts/complete_check.py"
+      ],
+      "rc": 0,
+      "stdout": "· pair-by-pointer: upgrades/PROME_SWEEP_RUN1_2026-08-16_READER_REPORTS.md (synthesis named in its header)\n· pair-by-pointer: upgrades/SAM_BRENT_REVIEW_2026-08-17_READER_REPORTS.md (synthesis named in its header)\n· pair-by-pointer: upgrades/SFG_SWEEP_2026-08-17_READER_REPORTS.md (synthesis named in its header)\n· CLAIM AGENTS/DAEDALUS/design/2026-09-08_DESK_CADENCE_SPEC.md:14: | EVENT-DRIVEN | No elapsed-time classification | Registered event/due-row governs; absent a dated event, cannot infer overdue work |\n· CLAIM AGENTS/DAEDALUS/design/2026-09-08_DESK_CADENCE_SPEC.md:15: | ON-DEMAND | No elapsed-time classification | Operator/registered work governs; never overdue by age alone |\n· CLAIM AGENTS/DAEDALUS/design/2026-09-08_DESK_CADENCE_SPEC.md:23: 3. Calculate a separate cadence annotation. Keep registered due obligations visible even when the owner is within cadence. A recent commit o\n· CLAIM AGENTS/DAEDALUS/design/2026-09-08_DESK_CADENCE_SPEC.md:37: | EVENT-DRIVEN with overdue registered row | Row remains visible despite no age clock |\n· CLAIM AGENTS/DAEDALUS/design/2026-09-08_OSPREY_STRIKE_FEED_INTAKE.md:3: **QUEUED for September 12 tooling review; implementation awaits a direct item-specific authorization.** OSPREY's inbound spec and `AGENTS/OS\n✅ complete_check: 3 commit(s) since 2026-09-08 · pairing checked on 1 standards commit(s), 0 violation(s) · 10 READER_REPORTS pair(s) checked · 5 side-effect claim line(s) ADDED this range across 2 doc(s) — WALK THE CLAIM LIST before closeout; leg (i) is enumeration, not verification\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "PROME/DOCKET.tsv",
+        "PROME/GATES.tsv",
+        "PROME/WILL_QUEUE.md",
+        "AGENTS/DAEDALUS/STATUS.md"
+      ],
+      "rc": 0,
+      "stdout": "CLAIM-CHECK ✓ 4 file(s) clean [weekday]\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "git",
+        "-c",
+        "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+        "diff",
+        "--check",
+        "--",
+        "AGENTS/DAEDALUS"
+      ],
+      "rc": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+        "--as-of",
+        "2026-09-08",
+        "--quiet"
+      ],
+      "rc": 2,
+      "stdout": "PROFILE-CLOCK perimeter as-of 2026-09-08: 38 profile(s) attempted (includes retired); 29 dated clocks evaluated; 6 NO-DATED-CLOCK; 3 CANNOT-EVALUATE\nExcluded non-profile filenames: NEXUS_REFRESH_2026-09-03_READER_REPORT.md, PROME_REFRESH_2026-09-03_READER_REPORT.md, RED_REFRESH_2026-09-03_READER_REPORT.md, VIOLET_REFRESH_2026-09-04_READER_A.md, VIOLET_REFRESH_2026-09-04_READER_B.md, VIOLET_REFRESH_2026-09-04_READER_C.md, VIOLET_REFRESH_2026-09-04_READER_D.md, _TEMPLATE.md\nNOT certified: content/event triggers, owner STATUS-relative clocks, or truth of declared refresh work. No git-date fallback.\nNO-DATED-CLOCK (agent-judged): AEOLUS: body 2026-08-17, age 22d [Built: 2026-08-17]\nNO-DATED-CLOCK (agent-judged): DEWEY: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): FALCON: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): HAWK: body 2026-08-07, age 32d [FULLY REBUILT: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): WAL: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): WALTER: body 2026-08-26, age 13d [Date: 2026-08-26]\nPROFILE-CLOCK 1: 6 PAST own day clock — DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0\n  ALERT BOND: body 2026-06-29, age 71d [Date: 2026-06-29]; 71d > 45d\n  ALERT BROCK: body 2026-06-28, age 72d [Date: 2026-06-28]; 72d > 45d\n  ALERT CARL: body 2026-07-10, age 60d [REFRESHED 2026-07-10]; 60d > 45d\n  ALERT LIQUID: body 2026-08-07, age 32d [REFRESHED (rewrite): 2026-08-07]; 32d > 30d\n  ALERT SAM: body 2026-07-10, age 60d [Built: 2026-07-10]; 60d > 45d\n  ALERT SHADE: body 2026-06-28, age 72d [Date: 2026-06-28]; 72d > 45d\nPROFILE-CLOCK 2 CANNOT-EVALUATE — DAEDALUS: verify metadata or compare named owner stamp before certifying\n  HENRY: HENRY: body 2026-08-07, age 32d [FULLY REWRITTEN: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n  HOMER: HOMER: body 2026-08-07, age 32d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n  OSPREY: OSPREY: body 2026-08-07, age 32d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n",
+      "stderr": ""
+    }
+  ],
+  "conservation": "Non-target FLEET_MAP/CHECKS/REGISTRY rows byte-identical; original FLEET_MAP_HISTORY/CHECKS_HISTORY bytes retained as prefixes; original STATUS and all modified registry/profile before-images saved. Assertions executed successfully.",
+  "consumer_disposition": "Numeric old population45→38 scans produced5 peer and23 self red candidates. All28 reread at exact lines: different units (days/percent/times/prices/composites/line numbers/hash) or dated historical evidence. No actual stale population consumer established; no packets. Full raw results and per-hit source context in CLOCK_SWEEP_CONSUMERS.json. Grade tokens are outside numeric consumer_check; own map/directory/status/PROME profile reconciled manually.",
+  "nudge_disposition": "CHECKS updated in this commit; SURFACES unchanged because no new shared surface; PATTERNS unchanged because PAT-105/PAT-069 already describe these recurrences. Nudge counts reflect committed STATUS writes, not whether the current working diff contains ledger updates.",
+  "memory": "No auto-memory written; conditional memory checks not applicable.",
+  "sync": "Deferred per root Before pulling2: active peer dirty files (BRENT/SAM at final check). No pull/push or origin claim.",
+  "new_inbox": "One OSPREY built-feed review request remains queued for9/12; original17-packet drain remains completed as its own cohort.",
+  "walk_list": "This sitting changes own code/registers/status/map/profiles and creates review/evidence artifacts. Does not change peer code, send packets, publish pages, grade market gates, approve grants or perform queued future reviews."
+}

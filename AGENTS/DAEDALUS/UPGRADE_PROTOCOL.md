@@ -2,6 +2,8 @@
 
 > Note (2026-07-22): profiles may carry a **Δ refresh-at-touch banner** (Production Review playbook path) — deltas banked in the review report, full refresh deferred to the next firming touch. A Δ-bannered profile is NOT a Step-0 violation; read profile + banked deltas together.
 
+> Profile clock clarification (2026-09-08, Will-approved repair): `Profile vintage: YYYY-MM-DD` records the last whole-profile build/refresh, including an explicit re-verification of every carried section. A receipt, partial Δ, checkpoint, source publication, or git commit does not reset it. Legacy labeled build/body/refresh fields remain readable; ambiguous declarations return CANNOT-EVALUATE. STATUS-stamp-relative triggers require the named owner-stamp comparison and are not wall-clock certifications. This is the cheap calendar check only; a valid Δ disposition remains valid even when the old body's calendar clock still alerts. Template and checker use this same contract; no mass date reset.
+
 **Owner:** DAEDALUS · **Created:** 2026-06-27 (Will: "the job is too big to upgrade a whole agent in one go — one section at a time")
 
 > **The upgrade unit is `one agent × one blueprint section` — never a whole agent at once.** A whole-agent rewrite is a giant diff: hard to review, hard to approve, impossible to roll back cleanly, and it fights every principle we set (batch-approval, additive handles, floor-not-ceiling). A "CORAL upgrade" is not one job — it's a *queue* of small section-tasks, done independently, in priority order.

@@ -1,0 +1,278 @@
+{
+  "as_of": "2026-09-08",
+  "head": "b8efe1068d7aaefbf4b7a3b11eb5a2d62cbf2eb6",
+  "rc": 1,
+  "stdout": "PROFILE-CLOCK perimeter: 45 profile(s) read \u00b7 24 with a DATED day-clock/floor \u00b7 21 NO-DATED-CLOCK (content-only trigger, agent-judged, NOT certified here): AEOLUS(16d), BRENT(-44d), CORAL(-27d), DEWEY(32d), FALCON(24d), HAWK(0d), NEXUS(-16d), NEXUS_REFRESH_2026-09-03_READER_REPORT(5d), OZK(-18d), PROME(-16d), PROME_REFRESH_2026-09-03_READER_REPORT(5d), RED(-16d), RED_REFRESH_2026-09-03_READER_REPORT(5d), TERRY(-18d), VIOLET(-17d), VIOLET_REFRESH_2026-09-04_READER_A(4d), VIOLET_REFRESH_2026-09-04_READER_D(4d), VULCAN(-22d), WAL(32d), WALTER(13d), WATT(-34d)\n\u23f0 PROFILE-CLOCK 1: 1 profile(s) PAST their own day clock \u2192 refresh or banner (UPGRADE_PROTOCOL step 0):\n   \ud83d\udd34 BROCK: 48d > 45d [header-date 2026-07-22]\n   \u2705 BOND: 19d \u2264 45 [header-date 2026-08-20]\n   \u2705 CARL: 7d \u2264 45 [git-date 2026-09-01]\n   \u2705 CREED: -17d \u2264 floor 2026-09-25 [header-date 2026-09-25]\n   \u2705 CRUISE: -20d \u2264 21 [header-date 2026-09-28]\n   \u2705 FERT: -18d \u2264 21 [header-date 2026-09-26]\n   \u2705 FLG: -59d \u2264 21 [header-date 2026-11-06]\n   \u2705 HANS: -42d \u2264 45 [header-date 2026-10-20]\n   \u2705 HENRY: 7d \u2264 21 [git-date 2026-09-01]\n   \u2705 HOMER: 17d \u2264 21 [header-date 2026-08-22]\n   \u2705 LABOR: -29d \u2264 30 [header-date 2026-10-07]\n   \u2705 LIQUID: 7d \u2264 30 [git-date 2026-09-01]\n   \u2705 MARCO: -42d \u2264 45 [header-date 2026-10-20]\n   \u2705 MIDAS: -18d \u2264 21 [header-date 2026-09-26]\n   \u2705 ORACLE: -42d \u2264 45 [header-date 2026-10-20]\n   \u2705 OSPREY: 0d \u2264 21 [header-date 2026-09-08]\n   \u2705 OTTO: -42d \u2264 45 [header-date 2026-10-20]\n   \u2705 REGINALD: 7d \u2264 45 [git-date 2026-09-01]\n   \u2705 SAM: 22d \u2264 45 [git-date 2026-08-17]\n   \u2705 SHADE: -7d \u2264 45 [header-date 2026-09-15]\n   \u2705 VIOLET_REFRESH_2026-09-04_READER_B: 4d \u2264 9 [header-date 2026-09-04]\n   \u2705 VIOLET_REFRESH_2026-09-04_READER_C: 4d \u2264 4 [header-date 2026-09-04]\n   \u2705 YEYOU: -42d \u2264 45 [header-date 2026-10-20]\n   \u2705 ZHAO: -42d \u2264 45 [header-date 2026-10-20]\n",
+  "profiles": {
+    "AEOLUS.md": {
+      "vintage": "2026-08-23",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "BOND.md": {
+      "vintage": "2026-08-20",
+      "basis": "header-date",
+      "days": 45,
+      "floor": null
+    },
+    "BRENT.md": {
+      "vintage": "2026-10-22",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "BROCK.md": {
+      "vintage": "2026-07-22",
+      "basis": "header-date",
+      "days": 45,
+      "floor": null
+    },
+    "CARL.md": {
+      "vintage": "None",
+      "basis": "git-date",
+      "days": 45,
+      "floor": null
+    },
+    "CORAL.md": {
+      "vintage": "2026-10-05",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "CREED.md": {
+      "vintage": "2026-09-25",
+      "basis": "header-date",
+      "days": null,
+      "floor": "2026-09-25"
+    },
+    "CRUISE.md": {
+      "vintage": "2026-09-28",
+      "basis": "header-date",
+      "days": 21,
+      "floor": null
+    },
+    "DEWEY.md": {
+      "vintage": "2026-08-07",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "FALCON.md": {
+      "vintage": "2026-08-15",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "FERT.md": {
+      "vintage": "2026-09-26",
+      "basis": "header-date",
+      "days": 21,
+      "floor": null
+    },
+    "FLG.md": {
+      "vintage": "2026-11-06",
+      "basis": "header-date",
+      "days": 21,
+      "floor": null
+    },
+    "HANS.md": {
+      "vintage": "2026-10-20",
+      "basis": "header-date",
+      "days": 45,
+      "floor": null
+    },
+    "HAWK.md": {
+      "vintage": "2026-09-08",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "HENRY.md": {
+      "vintage": "None",
+      "basis": "git-date",
+      "days": 21,
+      "floor": null
+    },
+    "HOMER.md": {
+      "vintage": "2026-08-22",
+      "basis": "header-date",
+      "days": 21,
+      "floor": null
+    },
+    "LABOR.md": {
+      "vintage": "2026-10-07",
+      "basis": "header-date",
+      "days": 30,
+      "floor": null
+    },
+    "LIQUID.md": {
+      "vintage": "None",
+      "basis": "git-date",
+      "days": 30,
+      "floor": null
+    },
+    "MARCO.md": {
+      "vintage": "2026-10-20",
+      "basis": "header-date",
+      "days": 45,
+      "floor": null
+    },
+    "MIDAS.md": {
+      "vintage": "2026-09-26",
+      "basis": "header-date",
+      "days": 21,
+      "floor": null
+    },
+    "NEXUS.md": {
+      "vintage": "2026-09-24",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "NEXUS_REFRESH_2026-09-03_READER_REPORT.md": {
+      "vintage": "2026-09-03",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "ORACLE.md": {
+      "vintage": "2026-10-20",
+      "basis": "header-date",
+      "days": 45,
+      "floor": null
+    },
+    "OSPREY.md": {
+      "vintage": "2026-09-08",
+      "basis": "header-date",
+      "days": 21,
+      "floor": null
+    },
+    "OTTO.md": {
+      "vintage": "2026-10-20",
+      "basis": "header-date",
+      "days": 45,
+      "floor": null
+    },
+    "OZK.md": {
+      "vintage": "2026-09-26",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "PROME.md": {
+      "vintage": "2026-09-24",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "PROME_REFRESH_2026-09-03_READER_REPORT.md": {
+      "vintage": "2026-09-03",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "RED.md": {
+      "vintage": "2026-09-24",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "RED_REFRESH_2026-09-03_READER_REPORT.md": {
+      "vintage": "2026-09-03",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "REGINALD.md": {
+      "vintage": "None",
+      "basis": "git-date",
+      "days": 45,
+      "floor": null
+    },
+    "SAM.md": {
+      "vintage": "None",
+      "basis": "git-date",
+      "days": 45,
+      "floor": null
+    },
+    "SHADE.md": {
+      "vintage": "2026-09-15",
+      "basis": "header-date",
+      "days": 45,
+      "floor": "2026-09-15"
+    },
+    "TERRY.md": {
+      "vintage": "2026-09-26",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "VIOLET.md": {
+      "vintage": "2026-09-25",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "VIOLET_REFRESH_2026-09-04_READER_A.md": {
+      "vintage": "2026-09-04",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "VIOLET_REFRESH_2026-09-04_READER_B.md": {
+      "vintage": "2026-09-04",
+      "basis": "header-date",
+      "days": 9,
+      "floor": null
+    },
+    "VIOLET_REFRESH_2026-09-04_READER_C.md": {
+      "vintage": "2026-09-04",
+      "basis": "header-date",
+      "days": 4,
+      "floor": null
+    },
+    "VIOLET_REFRESH_2026-09-04_READER_D.md": {
+      "vintage": "2026-09-04",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "VULCAN.md": {
+      "vintage": "2026-09-30",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "WAL.md": {
+      "vintage": "2026-08-07",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "WALTER.md": {
+      "vintage": "None",
+      "basis": "git-date",
+      "days": null,
+      "floor": null
+    },
+    "WATT.md": {
+      "vintage": "2026-10-12",
+      "basis": "header-date",
+      "days": null,
+      "floor": null
+    },
+    "YEYOU.md": {
+      "vintage": "2026-10-20",
+      "basis": "header-date",
+      "days": 45,
+      "floor": null
+    },
+    "ZHAO.md": {
+      "vintage": "2026-10-20",
+      "basis": "header-date",
+      "days": 45,
+      "floor": null
+    }
+  }
+}

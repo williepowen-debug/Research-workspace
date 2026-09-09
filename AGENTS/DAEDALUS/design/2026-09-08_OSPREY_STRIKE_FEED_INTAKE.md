@@ -1,5 +1,7 @@
 # OSPREY strike-feed spec intake — 2026-09-08
 
+> **Late receipt 2026-09-08:** OSPREY reports the strike feed BUILT on Will’s direct word; the earlier build/authorization framing below is historical. New packet `inbox/2026-09-08_from-OSPREY_strike-feed-BUILT-by-OSPREY-on-Wills-word-your-spec-packet-is-now-a-REVIEW-request.md` requests review of false-match risk, ignored-output retention and missing feed sources. Queued for September 12. No independent implementation acceptance or new feed fetch in this sitting.
+
 **QUEUED for September 12 tooling review; implementation awaits a direct item-specific authorization.** OSPREY's inbound spec and `AGENTS/OSPREY/PLAN_2026-09-08_remediation.md` Phase 1.1 explicitly distinguish permission to submit the proposal from permission to build. Current evidence is a design request, not a build grant. No OSPREY file changed.
 
 The fetch-and-diff concept fits the reported gap. Before implementation, resolve these contract questions in the design:

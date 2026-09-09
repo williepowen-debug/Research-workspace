@@ -1,0 +1,36 @@
+{
+  "captured": "2026-09-08",
+  "head": "3bd1c227952b07eb357929e260aa5b61a904674a",
+  "files": [
+    {
+      "source": "AGENTS/DAEDALUS/profiles/FERT.md",
+      "fixture": "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/FERT.md",
+      "sha256": "278daf6bc6b771f01b886deffabf4452f9b7ce6d53c44e396f2ecf3466204b95"
+    },
+    {
+      "source": "AGENTS/DAEDALUS/profiles/BROCK.md",
+      "fixture": "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/BROCK.md",
+      "sha256": "9cf6d4ef0ecbd58bf13644e760c2596de3c58755ba33cee06193583910bccc67"
+    },
+    {
+      "source": "AGENTS/DAEDALUS/profiles/OSPREY.md",
+      "fixture": "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/OSPREY.md",
+      "sha256": "82f902591966543b34fcf03843b7da4ad11588c8629a0e42c8a8c9911f082334"
+    },
+    {
+      "source": "AGENTS/DAEDALUS/profiles/BRENT.md",
+      "fixture": "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/BRENT.md",
+      "sha256": "bc43bbd2ebc606893546970c07e8a3bf89b1bc9e699f447de01076f468e94180"
+    },
+    {
+      "source": "AGENTS/DAEDALUS/profiles/CORAL.md",
+      "fixture": "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CORAL.md",
+      "sha256": "ccca3a1a6c6a30e74b726a620bc6296ba2de6211a9b2f6943e312c8f03b1e287"
+    },
+    {
+      "source": "AGENTS/DAEDALUS/profiles/CARL.md",
+      "fixture": "AGENTS/DAEDALUS/scripts/tests/fixtures/profile_clock/CARL.md",
+      "sha256": "c3b155be02f91ff425883ae4394ac478af79cbdd9a0e9ad3a78d6f5c567028aa"
+    }
+  ]
+}

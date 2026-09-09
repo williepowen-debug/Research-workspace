@@ -1,0 +1,356 @@
+{
+  "as_of": "2026-09-08",
+  "profiles": {
+    "AEOLUS.md": {
+      "sha256": "cc8b7a6023ef2dd283aba788ec7fef15c890b6e1562bb68d23e286eb4cf2ee4f",
+      "vintage": "2026-08-17",
+      "basis": "Built: 2026-08-17",
+      "days": null,
+      "floor": null,
+      "status_relative": false
+    },
+    "BOND.md": {
+      "sha256": "48c8e7a5c32f73ed0d5a0ed42b09f72f34ade313d9ea0383c0c170f8c8840631",
+      "vintage": "2026-06-29",
+      "basis": "Date: 2026-06-29",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "BRENT.md": {
+      "sha256": "bc43bbd2ebc606893546970c07e8a3bf89b1bc9e699f447de01076f468e94180",
+      "vintage": "2026-09-07",
+      "basis": "FULL REFRESH: 2026-09-07",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "BROCK.md": {
+      "sha256": "9cf6d4ef0ecbd58bf13644e760c2596de3c58755ba33cee06193583910bccc67",
+      "vintage": "2026-06-28",
+      "basis": "Date: 2026-06-28",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "CARL.md": {
+      "sha256": "c3b155be02f91ff425883ae4394ac478af79cbdd9a0e9ad3a78d6f5c567028aa",
+      "vintage": "2026-07-10",
+      "basis": "REFRESHED 2026-07-10",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "CORAL.md": {
+      "sha256": "ccca3a1a6c6a30e74b726a620bc6296ba2de6211a9b2f6943e312c8f03b1e287",
+      "vintage": "2026-09-05",
+      "basis": "Body refreshed 2026-09-05",
+      "days": 30,
+      "floor": null,
+      "status_relative": false
+    },
+    "CREED.md": {
+      "sha256": "8e1770cb65330f355bbb11b9ea1e12f5ce79ffe8a7bf73ed70c4298b01c3e0ed",
+      "vintage": "2026-06-28",
+      "basis": "Date: 2026-06-28",
+      "days": null,
+      "floor": "2026-09-25",
+      "status_relative": false
+    },
+    "CRUISE.md": {
+      "sha256": "64b3b5a960f0f49f6f40e4c2fdaa755fab05334fb1c28497438b437a2398f056",
+      "vintage": "2026-09-05",
+      "basis": "Date: 2026-09-05",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "DEWEY.md": {
+      "sha256": "5e31de7c0ba6a0d4816aa01681eb25ce6fba16908f348f6eccde61a72c16721f",
+      "vintage": "2026-08-07",
+      "basis": "Built: 2026-08-07",
+      "days": null,
+      "floor": null,
+      "status_relative": false
+    },
+    "FALCON.md": {
+      "sha256": "d6f5623dddacdfe9eac6143f3e3cdcdfbbb7b9afc1a83941e908af92025ed9eb",
+      "vintage": "2026-08-07",
+      "basis": "Built: 2026-08-07",
+      "days": null,
+      "floor": null,
+      "status_relative": false
+    },
+    "FERT.md": {
+      "sha256": "278daf6bc6b771f01b886deffabf4452f9b7ce6d53c44e396f2ecf3466204b95",
+      "vintage": "2026-09-05",
+      "basis": "Date: 2026-09-05",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "FLG.md": {
+      "sha256": "853b4b063fbd2563ef258f043183111e2e54b50dea5f85c641f8363fe1a73d82",
+      "vintage": "2026-09-05",
+      "basis": "Date: 2026-09-05",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "HANS.md": {
+      "sha256": "3bd7223290d6c6ee188a37b83b7ea8193eaa1bb06bc370346f1606fae92aabb7",
+      "vintage": "2026-09-05",
+      "basis": "Body date: 2026-09-05",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "HAWK.md": {
+      "sha256": "1bd9460b762860d5a31fa6e7e47595cd4664b41a1ce3aa7961e298f3fcc9eb45",
+      "vintage": "2026-08-07",
+      "basis": "FULLY REBUILT: 2026-08-07",
+      "days": null,
+      "floor": null,
+      "status_relative": false
+    },
+    "HENRY.md": {
+      "sha256": "7d6f1e7c35adfc5f8a0588e0d0ba51f5f382dfcd94632169bf9c328d1fe5052b",
+      "vintage": "2026-08-07",
+      "basis": "FULLY REWRITTEN: 2026-08-07",
+      "days": 21,
+      "floor": null,
+      "status_relative": true
+    },
+    "HOMER.md": {
+      "sha256": "0d9800b975c726c1c5a16db47f74a5e91d3e6b2762e2f63fc3b5029df4aa4f09",
+      "vintage": "2026-08-07",
+      "basis": "Built: 2026-08-07",
+      "days": 21,
+      "floor": null,
+      "status_relative": true
+    },
+    "LABOR.md": {
+      "sha256": "cd45824f713ab41ecd2e39fabda4b9469acc57139aac98eb669d71c5bab0b46c",
+      "vintage": "2026-09-07",
+      "basis": "REFRESHED (parity assessment, 3-reader fan-out + artifact re-verification): 2026-09-07",
+      "days": 30,
+      "floor": null,
+      "status_relative": false
+    },
+    "LIQUID.md": {
+      "sha256": "be8d346343529fe58035a8e56d5f1e8f13e978fe2f58033860dab3b5bbb1e736",
+      "vintage": "2026-08-07",
+      "basis": "REFRESHED (rewrite): 2026-08-07",
+      "days": 30,
+      "floor": null,
+      "status_relative": false
+    },
+    "MARCO.md": {
+      "sha256": "358c613b0d541f07da0e85227a804c56c6df6e0308e9cd6b0f48466077588650",
+      "vintage": "2026-09-05",
+      "basis": "Body refreshed 2026-09-05",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "MIDAS.md": {
+      "sha256": "e7794514d98ef003a9b7629bf0643a1f40c4d6cd014bb748d476fb1f24d481a9",
+      "vintage": "2026-09-05",
+      "basis": "Date: 2026-09-05",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "NEXUS.md": {
+      "sha256": "5fc4915bf7380c619836025a9b612e8ae4c19682948a8688b1615d7c22c29fa2",
+      "vintage": "2026-09-03",
+      "basis": "Body vintage: 2026-09-03",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "ORACLE.md": {
+      "sha256": "32361a5b99b506a62bda3d0d9ebe50576a3ef04b119a19e8f8ec8d9664ddda3f",
+      "vintage": "2026-09-05",
+      "basis": "Body date: 2026-09-05",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "OSPREY.md": {
+      "sha256": "82f902591966543b34fcf03843b7da4ad11588c8629a0e42c8a8c9911f082334",
+      "vintage": "2026-08-07",
+      "basis": "Built: 2026-08-07",
+      "days": 21,
+      "floor": null,
+      "status_relative": true
+    },
+    "OTTO.md": {
+      "sha256": "0d451943f46f6d4105f67342759669eafb5df85af6692476c2db6fea62e5e0f6",
+      "vintage": "2026-09-05",
+      "basis": "Profile vintage: 2026-09-05",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "OZK.md": {
+      "sha256": "3ef5469e6c1806534a90bb1c61ec5f947de168e2bed3462eead91f92ee594b1d",
+      "vintage": "2026-09-05",
+      "basis": "Body refreshed 2026-09-05",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "PROME.md": {
+      "sha256": "f25e14e8e652dc50249c2284edd90793631b0ba35a8772ec6a65e319f0b9a6ae",
+      "vintage": "2026-09-03",
+      "basis": "Body vintage: 2026-09-03",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "RED.md": {
+      "sha256": "3538dde43e1ecd3af56651ae8fafec3dec0aa8203d989b2391e533532582ef33",
+      "vintage": "2026-09-03",
+      "basis": "Body vintage: 2026-09-03",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "REGINALD.md": {
+      "sha256": "2aa3266d8eec13da63035d63519e4e94a4fc02a01b97af5ac0e21e91d4f0a59d",
+      "vintage": "2026-08-07",
+      "basis": "FULLY REWRITTEN: 2026-08-07",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "SAM.md": {
+      "sha256": "6a398319827c4c7f7885bb2e45556609dd2b1aaba56da66a00dfe90ea79a61d4",
+      "vintage": "2026-07-10",
+      "basis": "Built: 2026-07-10",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "SHADE.md": {
+      "sha256": "61a113b8f82ff20b6e342acc0106bd7ee9a4166663c6489371348da5992b6201",
+      "vintage": "2026-06-28",
+      "basis": "Date: 2026-06-28",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "TERRY.md": {
+      "sha256": "3cc361621df2c6c9427c6f94b3f097a573af8310104b889ee1f6913881f60c17",
+      "vintage": "2026-09-05",
+      "basis": "Body refreshed 2026-09-05",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "VIOLET.md": {
+      "sha256": "963956e2a976ba56661170ddcedfc2da9dd23641775e1c33abcec7c67b7b63d1",
+      "vintage": "2026-09-04",
+      "basis": "Body vintage: 2026-09-04",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "VULCAN.md": {
+      "sha256": "4d16cc6cdfd7db094ef3578fe0c038fc2cd98c3dabb9bfec9f12c5c0173f93f5",
+      "vintage": "2026-09-05",
+      "basis": "Body refreshed 2026-09-05",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "WAL.md": {
+      "sha256": "9459060361b8270db8c405b7b2c9779ff4a2e152c08d6a307c2ba1c1348a28dc",
+      "vintage": "2026-08-07",
+      "basis": "Built: 2026-08-07",
+      "days": null,
+      "floor": null,
+      "status_relative": false
+    },
+    "WALTER.md": {
+      "sha256": "6993fa69d825add5c32257bbe9cf9bca7f11523c4a4d29ec144b0ef43e573f05",
+      "vintage": "2026-08-26",
+      "basis": "Date: 2026-08-26",
+      "days": null,
+      "floor": null,
+      "status_relative": false
+    },
+    "WATT.md": {
+      "sha256": "bd53853344853ad85c3950840ee19ac9342bb03f4224823e7621bc19a119bf85",
+      "vintage": "2026-09-05",
+      "basis": "Body refreshed 2026-09-05",
+      "days": 21,
+      "floor": null,
+      "status_relative": false
+    },
+    "YEYOU.md": {
+      "sha256": "7d3e47c2577c0fb72f1081ea432988b391ed303ed648f07ae054b744e457b2e4",
+      "vintage": "2026-09-05",
+      "basis": "Body date: 2026-09-05",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    },
+    "ZHAO.md": {
+      "sha256": "9ed2542bdd4c33bc7d795fd76be0a508e80b5773829d7cb6bd71a76720968a4b",
+      "vintage": "2026-09-05",
+      "basis": "Body refreshed 2026-09-05",
+      "days": 45,
+      "floor": null,
+      "status_relative": false
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+        "--as-of",
+        "2026-09-08"
+      ],
+      "rc": 2,
+      "stdout": "PROFILE-CLOCK perimeter as-of 2026-09-08: 38 profile(s) attempted (includes retired); 29 dated clocks evaluated; 6 NO-DATED-CLOCK; 3 CANNOT-EVALUATE\nExcluded non-profile filenames: NEXUS_REFRESH_2026-09-03_READER_REPORT.md, PROME_REFRESH_2026-09-03_READER_REPORT.md, RED_REFRESH_2026-09-03_READER_REPORT.md, VIOLET_REFRESH_2026-09-04_READER_A.md, VIOLET_REFRESH_2026-09-04_READER_B.md, VIOLET_REFRESH_2026-09-04_READER_C.md, VIOLET_REFRESH_2026-09-04_READER_D.md, _TEMPLATE.md\nNOT certified: content/event triggers, owner STATUS-relative clocks, or truth of declared refresh work. No git-date fallback.\nNO-DATED-CLOCK (agent-judged): AEOLUS: body 2026-08-17, age 22d [Built: 2026-08-17]\nNO-DATED-CLOCK (agent-judged): DEWEY: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): FALCON: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): HAWK: body 2026-08-07, age 32d [FULLY REBUILT: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): WAL: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): WALTER: body 2026-08-26, age 13d [Date: 2026-08-26]\nPROFILE-CLOCK 1: 6 PAST own day clock — DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0\n  ALERT BOND: body 2026-06-29, age 71d [Date: 2026-06-29]; 71d > 45d\n  ALERT BROCK: body 2026-06-28, age 72d [Date: 2026-06-28]; 72d > 45d\n  ALERT CARL: body 2026-07-10, age 60d [REFRESHED 2026-07-10]; 60d > 45d\n  ALERT LIQUID: body 2026-08-07, age 32d [REFRESHED (rewrite): 2026-08-07]; 32d > 30d\n  ALERT SAM: body 2026-07-10, age 60d [Built: 2026-07-10]; 60d > 45d\n  ALERT SHADE: body 2026-06-28, age 72d [Date: 2026-06-28]; 72d > 45d\n  OK BRENT: body 2026-09-07, age 1d [FULL REFRESH: 2026-09-07]; inside declared window (days=45, floor=None)\n  OK CORAL: body 2026-09-05, age 3d [Body refreshed 2026-09-05]; inside declared window (days=30, floor=None)\n  OK CREED: body 2026-06-28, age 72d [Date: 2026-06-28]; inside declared window (days=None, floor=2026-09-25)\n  OK CRUISE: body 2026-09-05, age 3d [Date: 2026-09-05]; inside declared window (days=21, floor=None)\n  OK FERT: body 2026-09-05, age 3d [Date: 2026-09-05]; inside declared window (days=21, floor=None)\n  OK FLG: body 2026-09-05, age 3d [Date: 2026-09-05]; inside declared window (days=21, floor=None)\n  OK HANS: body 2026-09-05, age 3d [Body date: 2026-09-05]; inside declared window (days=45, floor=None)\n  OK LABOR: body 2026-09-07, age 1d [REFRESHED (parity assessment, 3-reader fan-out + artifact re-verification): 2026-09-07]; inside declared window (days=30, floor=None)\n  OK MARCO: body 2026-09-05, age 3d [Body refreshed 2026-09-05]; inside declared window (days=45, floor=None)\n  OK MIDAS: body 2026-09-05, age 3d [Date: 2026-09-05]; inside declared window (days=21, floor=None)\n  OK NEXUS: body 2026-09-03, age 5d [Body vintage: 2026-09-03]; inside declared window (days=21, floor=None)\n  OK ORACLE: body 2026-09-05, age 3d [Body date: 2026-09-05]; inside declared window (days=45, floor=None)\n  OK OTTO: body 2026-09-05, age 3d [Profile vintage: 2026-09-05]; inside declared window (days=45, floor=None)\n  OK OZK: body 2026-09-05, age 3d [Body refreshed 2026-09-05]; inside declared window (days=21, floor=None)\n  OK PROME: body 2026-09-03, age 5d [Body vintage: 2026-09-03]; inside declared window (days=21, floor=None)\n  OK RED: body 2026-09-03, age 5d [Body vintage: 2026-09-03]; inside declared window (days=21, floor=None)\n  OK REGINALD: body 2026-08-07, age 32d [FULLY REWRITTEN: 2026-08-07]; inside declared window (days=45, floor=None)\n  OK TERRY: body 2026-09-05, age 3d [Body refreshed 2026-09-05]; inside declared window (days=21, floor=None)\n  OK VIOLET: body 2026-09-04, age 4d [Body vintage: 2026-09-04]; inside declared window (days=21, floor=None)\n  OK VULCAN: body 2026-09-05, age 3d [Body refreshed 2026-09-05]; inside declared window (days=21, floor=None)\n  OK WATT: body 2026-09-05, age 3d [Body refreshed 2026-09-05]; inside declared window (days=21, floor=None)\n  OK YEYOU: body 2026-09-05, age 3d [Body date: 2026-09-05]; inside declared window (days=45, floor=None)\n  OK ZHAO: body 2026-09-05, age 3d [Body refreshed 2026-09-05]; inside declared window (days=45, floor=None)\nPROFILE-CLOCK 2 CANNOT-EVALUATE — DAEDALUS: verify metadata or compare named owner stamp before certifying\n  HENRY: HENRY: body 2026-08-07, age 32d [FULLY REWRITTEN: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n  HOMER: HOMER: body 2026-08-07, age 32d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n  OSPREY: OSPREY: body 2026-08-07, age 32d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "AGENTS/DAEDALUS/scripts/tests/test_profile_clock_check.py"
+      ],
+      "rc": 0,
+      "stdout": "",
+      "stderr": "test_boundary_strict_greater_and_floor (__main__.ProfileClockTests.test_boundary_strict_greater_and_floor) ... ok\ntest_cannot_does_not_hide_real_alert_even_quiet (__main__.ProfileClockTests.test_cannot_does_not_hide_real_alert_even_quiet) ... ok\ntest_companions_excluded_visibly_and_empty_not_clean (__main__.ProfileClockTests.test_companions_excluded_visibly_and_empty_not_clean) ... ok\ntest_explicit_vintage_and_partial_scope (__main__.ProfileClockTests.test_explicit_vintage_and_partial_scope) ... ok\ntest_frozen_production_provenance (__main__.ProfileClockTests.test_frozen_production_provenance) ... ok\ntest_future_vintage_malformed_floor_and_unreadable_encoding_fail (__main__.ProfileClockTests.test_future_vintage_malformed_floor_and_unreadable_encoding_fail) ... ok\ntest_missing_directory_and_undated_perimeter (__main__.ProfileClockTests.test_missing_directory_and_undated_perimeter) ... ok\ntest_real_checkpoint_forms_and_metadata_after_delta_heading (__main__.ProfileClockTests.test_real_checkpoint_forms_and_metadata_after_delta_heading) ... ok\ntest_real_clean_fert_receipt_and_checkpoint_do_not_redate (__main__.ProfileClockTests.test_real_clean_fert_receipt_and_checkpoint_do_not_redate) ... ok\ntest_real_defect_brock_alerts_from_build_not_partial_delta (__main__.ProfileClockTests.test_real_defect_brock_alerts_from_build_not_partial_delta) ... ok\ntest_real_osprey_receipt_cannot_clear_owner_relative_clock (__main__.ProfileClockTests.test_real_osprey_receipt_cannot_clear_owner_relative_clock) ... ok\ntest_unknown_vintage_has_no_git_fallback (__main__.ProfileClockTests.test_unknown_vintage_has_no_git_fallback) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.017s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "-B",
+        "AGENTS/DAEDALUS/scripts/sweeps_due.py"
+      ],
+      "rc": 2,
+      "stdout": "⏰ DUE: PROME Spine & Will-Facing Surfaces (judgment tail) — last run 22d ago (cadence 21d, +1d over) → sweeps/PROME_SWEEP.md\nPROFILE-CLOCK perimeter as-of 2026-09-08: 38 profile(s) attempted (includes retired); 29 dated clocks evaluated; 6 NO-DATED-CLOCK; 3 CANNOT-EVALUATE\nExcluded non-profile filenames: NEXUS_REFRESH_2026-09-03_READER_REPORT.md, PROME_REFRESH_2026-09-03_READER_REPORT.md, RED_REFRESH_2026-09-03_READER_REPORT.md, VIOLET_REFRESH_2026-09-04_READER_A.md, VIOLET_REFRESH_2026-09-04_READER_B.md, VIOLET_REFRESH_2026-09-04_READER_C.md, VIOLET_REFRESH_2026-09-04_READER_D.md, _TEMPLATE.md\nNOT certified: content/event triggers, owner STATUS-relative clocks, or truth of declared refresh work. No git-date fallback.\nNO-DATED-CLOCK (agent-judged): AEOLUS: body 2026-08-17, age 22d [Built: 2026-08-17]\nNO-DATED-CLOCK (agent-judged): DEWEY: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): FALCON: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): HAWK: body 2026-08-07, age 32d [FULLY REBUILT: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): WAL: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): WALTER: body 2026-08-26, age 13d [Date: 2026-08-26]\nPROFILE-CLOCK 1: 6 PAST own day clock — DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0\n  ALERT BOND: body 2026-06-29, age 71d [Date: 2026-06-29]; 71d > 45d\n  ALERT BROCK: body 2026-06-28, age 72d [Date: 2026-06-28]; 72d > 45d\n  ALERT CARL: body 2026-07-10, age 60d [REFRESHED 2026-07-10]; 60d > 45d\n  ALERT LIQUID: body 2026-08-07, age 32d [REFRESHED (rewrite): 2026-08-07]; 32d > 30d\n  ALERT SAM: body 2026-07-10, age 60d [Built: 2026-07-10]; 60d > 45d\n  ALERT SHADE: body 2026-06-28, age 72d [Date: 2026-06-28]; 72d > 45d\nPROFILE-CLOCK 2 CANNOT-EVALUATE — DAEDALUS: verify metadata or compare named owner stamp before certifying\n  HENRY: HENRY: body 2026-08-07, age 32d [FULLY REWRITTEN: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n  HOMER: HOMER: body 2026-08-07, age 32d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n  OSPREY: OSPREY: body 2026-08-07, age 32d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n🔴 sweeps_due CANNOT-CERTIFY: profile_clock_check rc 2 (see line above)\n",
+      "stderr": ""
+    }
+  ],
+  "final_after_targeted_annotations": {
+    "argv": [
+      "python3",
+      "-B",
+      "AGENTS/DAEDALUS/scripts/profile_clock_check.py",
+      "--as-of",
+      "2026-09-08",
+      "--quiet"
+    ],
+    "rc": 2,
+    "stdout": "PROFILE-CLOCK perimeter as-of 2026-09-08: 38 profile(s) attempted (includes retired); 29 dated clocks evaluated; 6 NO-DATED-CLOCK; 3 CANNOT-EVALUATE\nExcluded non-profile filenames: NEXUS_REFRESH_2026-09-03_READER_REPORT.md, PROME_REFRESH_2026-09-03_READER_REPORT.md, RED_REFRESH_2026-09-03_READER_REPORT.md, VIOLET_REFRESH_2026-09-04_READER_A.md, VIOLET_REFRESH_2026-09-04_READER_B.md, VIOLET_REFRESH_2026-09-04_READER_C.md, VIOLET_REFRESH_2026-09-04_READER_D.md, _TEMPLATE.md\nNOT certified: content/event triggers, owner STATUS-relative clocks, or truth of declared refresh work. No git-date fallback.\nNO-DATED-CLOCK (agent-judged): AEOLUS: body 2026-08-17, age 22d [Built: 2026-08-17]\nNO-DATED-CLOCK (agent-judged): DEWEY: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): FALCON: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): HAWK: body 2026-08-07, age 32d [FULLY REBUILT: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): WAL: body 2026-08-07, age 32d [Built: 2026-08-07]\nNO-DATED-CLOCK (agent-judged): WALTER: body 2026-08-26, age 13d [Date: 2026-08-26]\nPROFILE-CLOCK 1: 6 PAST own day clock — DAEDALUS: refresh/banner under UPGRADE_PROTOCOL step 0\n  ALERT BOND: body 2026-06-29, age 71d [Date: 2026-06-29]; 71d > 45d\n  ALERT BROCK: body 2026-06-28, age 72d [Date: 2026-06-28]; 72d > 45d\n  ALERT CARL: body 2026-07-10, age 60d [REFRESHED 2026-07-10]; 60d > 45d\n  ALERT LIQUID: body 2026-08-07, age 32d [REFRESHED (rewrite): 2026-08-07]; 32d > 30d\n  ALERT SAM: body 2026-07-10, age 60d [Built: 2026-07-10]; 60d > 45d\n  ALERT SHADE: body 2026-06-28, age 72d [Date: 2026-06-28]; 72d > 45d\nPROFILE-CLOCK 2 CANNOT-EVALUATE — DAEDALUS: verify metadata or compare named owner stamp before certifying\n  HENRY: HENRY: body 2026-08-07, age 32d [FULLY REWRITTEN: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n  HOMER: HOMER: body 2026-08-07, age 32d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n  OSPREY: OSPREY: body 2026-08-07, age 32d [Built: 2026-08-07]; STATUS-stamp-relative >21d trigger needs owner-stamp comparison; wall-clock age is NOT that trigger\n",
+    "stderr": ""
+  }
+}

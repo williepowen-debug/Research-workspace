@@ -1,0 +1,527 @@
+{
+  "head": "3bd1c227952b07eb357929e260aa5b61a904674a",
+  "artifacts": {
+    "HEARTBEAT.md": {
+      "sha256": "99f16dbee0b4c3945ded9d9ae622f85a336db7fa3cd64a7ca28cdeba7c164363",
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "# HEARTBEAT.md"
+        },
+        {
+          "line": 2,
+          "text": "**Base:** 2026-09-07 (Mon ~13:3x ET, Labor Day — PROME, TWELFTH re-base under the 2026-08-23 Cadence rule: current-state rewrite from the 9/4 base + Amendments #1–#3 (bodies → `PROME/HEARTBEAT_COLD.md` §A5–§A7) + the 9/7 slate (BRENT · FALCON · NEXUS · ORACLE, all delivered and verified at the artifacts) + the five audit-#12 residue fixes + the BZX26 basis reconcile. Prior base → snapshot (§Pointers). **HOT = this file; long-forms → COLD, never a boot read. Size clock: re-check at any append or on 2026-10-07, whichever first** (READ_CAP rule 7; budget 32,550 B, rotate ≥75%, stop <70%; the Cadence rule's ~2-week / >~5-amendment re-base clock runs separately). **Posture → §Skip (re-cut at every amendment).**)"
+        },
+        {
+          "line": 3,
+          "text": "**Amendments append below this line; re-base per the Cadence rule. Chain: 2.** *(Block format the gate counts: a line beginning `> **AMENDMENT #N` — anything else reads as zero blocks and trips the chain check.)*"
+        },
+        {
+          "line": 4,
+          "text": ""
+        },
+        {
+          "line": 5,
+          "text": "> **AMENDMENT #1 — 2026-09-07 14:4x ET Mon** (ruling only — no data, no level; body → cold §A8, crc 1702841613; record `PROME/proposals/2026-09-07_wq189-192-RULED.md`). ① **WQ-192 RULED 14:42 — STAND DOWN, NO DEPLOY**: the LETTER governs BRENT's pair; the Kylo is NOT MET; FALCON's GATE 2 stands; $0 moved — the §1 / one-liner *\"deploy question sits with Will\"* is CLOSED. ② **WQ-189 RULED** — instance ③ gains a capacity floor, prospective-only; BRENT applied it on three surfaces (`29afe5a26`). ③ Stamp note: this base's header *\"~13:3x\"* was written ~12:5x ET (error #121) — declared, not edited."
+        },
+        {
+          "line": 6,
+          "text": ""
+        },
+        {
+          "line": 7,
+          "text": "> **AMENDMENT #2 — 2026-09-08 evening ET** (consumer data pickup only; evidence → `PROME/reports/2026-09-08_evening-market-checks.md`). **Cboe9/8 SKEW148.86 breaks the prior >=150 run: consumer0/4, NOT FIRED;9/9 is no longer its earliest fourth bar.** RED/VIOLET owner integration pending, WALTER SIG-W-20260908-019 routed. **XLE64.77 [9/8 vendor close] <66.50 selects the already-approved9/9-open SELL BOTH Sep30 65C×2**; Will checks current broker holdings/orders, execution unverified. WAL79.94 [9/8 vendor close] below81.90, REGINALD grade owed; USO146.03 above135. Latest retrieved officials: DGS10 4.78%, DFII10 2.43% [9/4], HY268bp [9/7];9/8 officials UNKNOWN. PJM/DOE no successor found at pre-expiry read; post23:59ET outcome remains future/UNKNOWN, WATT owns. Supersedes older corresponding levels/next-action prose below; other levels keep their vintages. No new threshold, probability or trade authority."
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "> **DERIVED SURFACE:** command compression, NOT ground truth. Canonical truth = owner files and ledgers — `PROME/GATES.tsv` (fire-ledger) · `PROME/DOCKET.tsv` (catalysts) · `PROME/WILL_QUEUE.md` (Will's items) · owner KBs/STATUS · Will's rulings. On any conflict the owner surface wins; cells cite their owners. **§Stress dashboard is the CANONICAL level table for every figure no amendment re-states; a figure an AMENDMENT re-states outranks the dashboard until the next re-base folds it in.** A section may repeat a level for comprehension. Each channel below is ONE current-state paragraph; `→ cold §N` is where its evidence lives."
+        },
+        {
+          "line": 10,
+          "text": ""
+        },
+        {
+          "line": 11,
+          "text": "**One-liner:** The weekend's direct US–Iran exchange (IRGC missiles at a US carrier 9/5; US sank the Iranian tanker **M/T Kylo**, UNLADEN, and disabled two more, CENTCOM-confirmed) produced the war's first confirmed sinking: **FALCON's GATE 2 FIRED and D moved to 75**, BRENT's frame-breaker read **NOT MET at its head clause**, and **the deploy question sits with Will (WQ-189 + WQ-192; $0 moved by either desk)**. Brent front **~$97.3–97.7 live Mon** (BRENT, two web sources; 9/4 close **$96.28** on the owner's settled series, +$1.63 over four closes with one down day, 9/3), the whole curve lifting in parallel, **$100 ~$2.5 away and NOT a threshold**. The **Sept FOMC crossover UN-CROSSED at the instrument** (PM hike 50.5 / hold 49.5 [9/7 ~16:10Z]); recession 7.0% unmoved. **FT-10 2-of-4** on CBOE bars (150.63 · 151.58); 9/8 extends or resets; earliest fire the 9/9 close. Credit between its lines (**HY 265 [9/3]**, re-kill 5bp, re-arm 15bp) and **C#2 is not a CPI event — C can lock on 9/9**. The bank roll is live (WAL 80.95 [9/4], exit line 81.90 ×3, 0-of-3). NEXUS **20/47/33** [re-affirmed 9/7]."
+        },
+        {
+          "line": 24,
+          "text": ""
+        },
+        {
+          "line": 25,
+          "text": "**5. Equity-vol — 🟡 asleep at the front, reloading at the tail: FT-10 is 2-of-4 on the publisher's bars and Tuesday decides whether the run survives.**"
+        },
+        {
+          "line": 26,
+          "text": "**`^SKEW` 150.63 [9/3] · 151.58 [9/4], both CBOE-verified (RED + VIOLET) ⇒ RED-FT-10 ≥150 = 2-of-4 COUNTING, NOT FIRED; Labor Day = non-session (RED-ruled); chain 9/3·9/4·9/8·9/9; 9/8 extends or resets; earliest fire the 9/9 close — grade on the dated CBOE bar, a failed fetch = UNKNOWN, never a reset.** ⛔ *\"FT-10 fired\"*. VVIX 84.42 · MOVE 73.10 [9/4]; VIX ~14.5 [9/4] — ⛔ **yfinance's \"VIX 15.30 [9/7]\" is a holiday GTH print (VIOLET's session-semantics question), never a close.** **Gamma sign: UNKNOWN** — an oscillator (+20.4 [8/28] → −16.7 [9/2] → +36.8 [9/3], HENRY `b97e5e83a`); HENRY re-measures at the 9/18 OPEX. SPY 770.19 · QQQ 718.96 [9/4]. → cold §5 (+ §5.1 · §5.2)."
+        },
+        {
+          "line": 27,
+          "text": ""
+        }
+      ]
+    },
+    "PROME/BRIEF.md": {
+      "sha256": "467e4d24216c73effa7ee8f40240e86c09113f29f11fd7a4da46645c1776061b",
+      "excerpts": [
+        {
+          "line": 5,
+          "text": "**Content contract (re-specced 2026-08-16 S4 — Will's ruling in-session: \"Rewire with the re-spec\"; design input = DAEDALUS `8f0ba7711`; supersedes the 8/3 contract and retires the 8/16 STALE banner):**"
+        },
+        {
+          "line": 6,
+          "text": "1. **The page answers the operator's question, in order:** ① decisions waiting on you (generated from WILL_QUEUE — never hand-written here) → ② what changed since you last looked (generated feed) → ③ state of the world (this file). **One page, one job: if the top section says nothing needs you, you're done** — the Fleet-Ops dashboard is the instrument panel; this page is the default read."
+        },
+        {
+          "line": 7,
+          "text": "2. **Auto-rebuild + republish at EVERY PROME closeout** (wired into `PROME/CLOSEOUT.md` Chunk 1, 8/16 S4 — staleness is what killed v2: dead 8/4→8/16 carrying four superseded directives, because no closeout step owned it). The narrative below is REWRITTEN only at picture-changing closeouts; the page stamps this file's vintage separately, so an old story reads as old, never as current."
+        },
+        {
+          "line": 23,
+          "text": ""
+        },
+        {
+          "line": 24,
+          "text": "## FALSIFIER"
+        },
+        {
+          "line": 25,
+          "text": "September8's official Treasury observation is unpublished in the retained owner check and cannot be counted. The Cboe file still lacked September8 at16:50:28ET, preserving2/4. The PJM order's post23:59ET outcome remains ungraded. Canada's SOR identifiers and direct CBSA receipt remain missing even though the registered alternative supports the operative verdict. Russian decree authentication and the required PortWatch publication window remain source gaps, not negative test results."
+        }
+      ]
+    },
+    "PROME/HANDBOOK.md": {
+      "sha256": "d0ff434fbdbb7bdca9573bba85e0884a22827900a3fa41fd8d59796f387b263b",
+      "excerpts": [
+        {
+          "line": 60,
+          "text": "- **`PROME/DOCKET.tsv`** — every dated catalyst the fleet is watching."
+        },
+        {
+          "line": 61,
+          "text": "- **`PROME/GATES.tsv`** — the fire-ledger: registered triggers and their state."
+        },
+        {
+          "line": 62,
+          "text": "- **`HEARTBEAT.md`** — the market-regime memo (PROME-written, your-word-gated)."
+        },
+        {
+          "line": 63,
+          "text": "- **Everything on your two pages is DERIVED** — command compression built from the canon files above; on any conflict the owner file wins [the same banner sits atop the market memo itself since 8/22]."
+        }
+      ]
+    },
+    "PROME/CLOSEOUT.md": {
+      "sha256": "23dea32ad38385df78a3b2d84ecbf477e301a943ea3e99eda52da8732043dccf",
+      "excerpts": [
+        {
+          "line": 3,
+          "text": "**Created:** 2026-05-18 · **Updated:** 2026-09-05 (spine audit #12 fix round: non-ff recovery → pointer at root step 3 with the overlap-check-first clause [Auto-push + Pre-closeout 2] · bounce recipe → the wrapper form · STATUS/AD flow-rule instrument → `measure.py` · TODAY.md one-way row deleted [BOOT carries no mention] · enumerate-or-no-op rule homed in the Chunk-1 GATES/DOCKET bullet; also covers 7c864f271's WQ-165 stop-rule add of 9/3, which rode under the 9/3 stamp). Prior: 2026-09-03 (`docket_view.py --write` step added to the Chunk-1 GATES/DOCKET bullet — the DOCKET L197 adoption flip, Will-acked at delivery; the SCRATCH calendar is now a GENERATED block between markers). Prior: 2026-08-29 (four material adds, each dated inline at site: PROME commit form + message-file rule [Chunk 4] · receipt string re-keyed to safe-push [Auto-push] · GATES/DOCKET named in Chunk 1 + Standard+ MANDATORY surfaces in the tier note + regenerate-LAST [symmetry rows] · the mechanical tail moved to LAST-before-commit [this block]. REV caught the 8/22 stamp riding under all four.) Prior: 2026-08-22 (stamp bump, audit #10 — n=2 of the ride-under class this stamp's own history records: covers the 8/21 HELM/brief-retirement row + the 8/22 ACTIVE_DECISIONS flow rule + blind-reader rule, each dated inline at site). Prior: 2026-08-16 S4 (stamp re-based, DAEDALUS sweep-1 item 9 — the 8/9 stamp's \"zero rule-content changes except as named\" had ridden over FOUR later material rule-adds: 8/12 hot-index flow rule [step 1d-bis] · 8/16 STATUS byte flow rule [Chunk 1] · 8/16 S4 STATUS headline convention [Chunk 1] · 8/16 S4 will_brief mandatory rebuild row [Write-Back table, Will-ruled]. Each is dated inline at its own site; this stamp now covers them.) Prior: 2026-08-09 (**T2-a spine prune, Will-approved batch: 287→~160 lines.** Scope manifest: Chunk-4 git prose demoted to root-canon pointers [root `CLAUDE.md` is auto-injected — the full protocol is always in context]; File-ownership table MERGED into the Write-Back Contract; claim-check narrative compressed; mention-registry block retired [`check_symmetry()` v1 anchors on `Read`-directive lines now — one `TODAY.md` one-way row survives because it rides BOOT step 2's Read line]; auto-push rationale de-triplicated. ADDED: stamp canon + deferred-decision write-back row [governance batch]. Zero rule-content changes except as named. Prior stamp history → `git log` on this file.)"
+        },
+        {
+          "line": 88,
+          "text": "**Stamp canon (adopted 8/9, governance batch):** an `Updated:` stamp carries a **scope manifest** — what this update covers, not only when. Material section-adds bump the stamp by default (two consecutive stamp misses on material adds, 7/28 + 8/3). A peer-facing surface synced only **partially** carries a **mixed-vintage banner** naming which sections are current (HENRY `LAST_COMPLETION` block = the adopted pattern)."
+        },
+        {
+          "line": 120,
+          "text": "**PROME commit form (since 2026-08-29):** every commit goes through the intent-checked wrapper — `cd \"$(git rev-parse --show-toplevel)\" && python3 PROME/tools/commit_check.py commit -F <msgfile> -- <exact paths>` (pre-commit intent, refuse-if-no-change, post-commit path verify; born of `6704cfc37`'s overclaim). The block below shows the underlying git the wrapper drives; the `-- <paths>` tail is identical. **Message text:** write it to a file — the Write tool or a quoted heredoc (`cat > <file> <<'EOF'`), both fine — never inline in the Bash argument: the PreToolUse git guard (`PROME/.claude/`) reads command-like prose there as a command and refuses the call. The same applies to any prose that QUOTES a git command (DOCKET/WILL_QUEUE row text, packet bodies)."
+        },
+        {
+          "line": 121,
+          "text": "**Subject drafting target ≤70 chars (added 2026-09-06, PROME errors #102/#105–#110):** the wrapper's check 0 refuses a subject >100 chars, and PROME overshot it FIVE times in one session by drafting to ~100 and losing the count to punctuation — draft the subject to ≤70 chars BY CONSTRUCTION, measure it (`head -1 <msgfile> | wc -c`) before calling the wrapper, and treat ≥101 as a STOP-and-rewrite, never a trim-at-the-guard. ⚠️ Plain `git commit` bypasses the wrapper's intent manifest and post-commit verify (no git hook enforces them — PROME error #111, 9/6: sixteen commits in one session outside the wrapper); the wrapper form above is the only commit form."
+        }
+      ]
+    },
+    "PROME/GIT_COORDINATION.md": {
+      "sha256": "d9dd3fa18a04f98ccce50d0f63c4f6f76c92e529ba0ffe805d6d31adf974855b",
+      "excerpts": [
+        {
+          "line": 49,
+          "text": "**Subject ≤100 chars, receipts in the body (root Git Protocol 4d, WQ-171, 2026-09-03) — `commit_check.py` enforces it.**"
+        },
+        {
+          "line": 50,
+          "text": "```bash"
+        },
+        {
+          "line": 51,
+          "text": "git commit -m \"PROME: <subject>\" -- PROME/<file>"
+        },
+        {
+          "line": 52,
+          "text": "```"
+        },
+        {
+          "line": 53,
+          "text": ""
+        },
+        {
+          "line": 54,
+          "text": "For new files:"
+        },
+        {
+          "line": 55,
+          "text": ""
+        },
+        {
+          "line": 56,
+          "text": "```bash"
+        },
+        {
+          "line": 57,
+          "text": "git add -- PROME/<newfile>"
+        },
+        {
+          "line": 58,
+          "text": "git commit -m \"PROME: <subject>\" -- PROME/<newfile>"
+        },
+        {
+          "line": 90,
+          "text": "**Default from 2026-08-29 (RAV review, Will-endorsed): commit through `PROME/tools/commit_check.py`** — `python3 PROME/tools/commit_check.py commit -F <msg.txt> -- <exact paths>` writes an intent manifest, REFUSES before git runs if any intended path has no change (the d3915f75d / 6704cfc37 overclaim shape — a script died, the file was unchanged, the message was written anyway), commits by pathspec, then verifies HEAD against the manifest and against paths named in the message (advisory; `--strict-message` to block). A mismatch is fixed by a follow-up commit, never `--amend` (root 4b). The recipes below remain valid as the underlying git; the wrapper is the checked path."
+        }
+      ]
+    },
+    "PROME/tools/fleet_dashboard.py": {
+      "sha256": "593c3d19ea9fe54ce51f46466c26c2b2ce678acb7d16af33ba5e8a28374d5520",
+      "excerpts": [
+        {
+          "line": 237,
+          "text": "def parse_heartbeat():"
+        },
+        {
+          "line": 238,
+          "text": "    text = read(\"HEARTBEAT.md\")"
+        },
+        {
+          "line": 239,
+          "text": "    one = \"\""
+        },
+        {
+          "line": 240,
+          "text": "    m = re.search(r\"^\\*\\*One-liner:?\\*\\*:?\\s*(.*)$\", text, re.M)"
+        },
+        {
+          "line": 241,
+          "text": "    if m:"
+        },
+        {
+          "line": 242,
+          "text": "        # 8/16 (DAEDALUS sweep-1 URGENT-1): prefer-any-quoted-phrase rendered the"
+        },
+        {
+          "line": 243,
+          "text": "        # single word \"SPENT\" — an incidental quoted token in the 8/14 one-liner,"
+        },
+        {
+          "line": 244,
+          "text": "        # and a kill-on-sight claim INVERTED against canon — for 6 builds/3 days."
+        },
+        {
+          "line": 245,
+          "text": "        # A quote wins only when it carries most of the line (the 7/24 fully-"
+        },
+        {
+          "line": 246,
+          "text": "        # quoted-one-liner class); incidental tokens fall through to the full"
+        },
+        {
+          "line": 247,
+          "text": "        # cleaned sentence."
+        },
+        {
+          "line": 248,
+          "text": "        full = md_clean(m.group(1))"
+        },
+        {
+          "line": 249,
+          "text": "        q = re.search(r'[“\"]([^”\"]+)[”\"]', m.group(1))"
+        },
+        {
+          "line": 250,
+          "text": "        one = q.group(1) if (q and len(q.group(1)) >= 0.6 * len(full)) else full"
+        },
+        {
+          "line": 251,
+          "text": "    split = \"\""
+        },
+        {
+          "line": 252,
+          "text": "    # 8/16 (DAEDALUS sweep-1 item 4): NEXUS writes the split with either \"/\" or"
+        },
+        {
+          "line": 253,
+          "text": "    # \"·\" — the /-only regex left the panel blank for 17d (~25 builds) after the"
+        },
+        {
+          "line": 254,
+          "text": "    # 7/30 re-anchor switched separators."
+        },
+        {
+          "line": 255,
+          "text": "    m = re.search(r\"Break \\d+ [/·] Grind \\d+ [/·] Unresolved \\d+\", text)"
+        },
+        {
+          "line": 256,
+          "text": "    if m:"
+        },
+        {
+          "line": 257,
+          "text": "        split = m.group(0)"
+        },
+        {
+          "line": 258,
+          "text": "    else:"
+        },
+        {
+          "line": 259,
+          "text": "        # 8/21 (PAT-105 second instance): the 8/20 HEARTBEAT re-base writes the"
+        },
+        {
+          "line": 260,
+          "text": "        # split COMPACT — \"NEXUS 21/44/35 [8/12]\" — with no Break/Grind words at"
+        },
+        {
+          "line": 261,
+          "text": "        # all. Same separator-drift class as the 8/16 fix one branch above; parse"
+        },
+        {
+          "line": 262,
+          "text": "        # the compact form and render it in the worded shape the panel expects."
+        },
+        {
+          "line": 263,
+          "text": "        m2 = re.search(r\"NEXUS (\\d+)/(\\d+)/(\\d+)\", text)"
+        },
+        {
+          "line": 264,
+          "text": "        if m2:"
+        },
+        {
+          "line": 265,
+          "text": "            split = f\"Break {m2.group(1)} / Grind {m2.group(2)} / Unresolved {m2.group(3)}\""
+        },
+        {
+          "line": 266,
+          "text": "    channels = []"
+        },
+        {
+          "line": 267,
+          "text": "    # tolerate the number inside OR outside the bold (\"1. **X**\" and \"**1. X**\"):"
+        },
+        {
+          "line": 268,
+          "text": "    # a HEARTBEAT re-base is a breaking format change to this parser (PAT-069)"
+        },
+        {
+          "line": 269,
+          "text": "    for m in re.finditer(r\"^\\*{0,2}\\d+\\.\\s*\\*{0,2}(.+?)\\*\\*(.*)$\", text, re.M):"
+        },
+        {
+          "line": 270,
+          "text": "        head = m.group(1)"
+        },
+        {
+          "line": 271,
+          "text": "        name = md_clean(head.split(\"—\")[0])"
+        },
+        {
+          "line": 272,
+          "text": "        cls = status_class(head, \"none\")"
+        },
+        {
+          "line": 273,
+          "text": "        headline = trunc(md_clean(head.split(\"—\", 1)[1] if \"—\" in head else head), 64)"
+        },
+        {
+          "line": 274,
+          "text": "        body = m.group(2)"
+        },
+        {
+          "line": 275,
+          "text": "        if not body.strip():"
+        },
+        {
+          "line": 276,
+          "text": "            # whole-line-bold heading: body starts on the next line"
+        },
+        {
+          "line": 277,
+          "text": "            after = text[m.end():].lstrip(\"\\n\").split(\"\\n\", 1)[0]"
+        },
+        {
+          "line": 278,
+          "text": "            if not re.match(r\"^\\*{0,2}\\d+\\.\\s*\\*{0,2}|^#|^>\", after):"
+        },
+        {
+          "line": 279,
+          "text": "                body = after"
+        },
+        {
+          "line": 280,
+          "text": "        body = trunc(md_clean(body), 230)"
+        },
+        {
+          "line": 281,
+          "text": "        channels.append({\"name\": name, \"cls\": cls, \"headline\": headline, \"body\": body})"
+        }
+      ]
+    },
+    "PROME/proposals/2026-08-23_heartbeat-gate-RULED.md": {
+      "sha256": "b0ec6211fef2fb8ef6f7f942e6723d740b52955013b271b59a8e626d2c20cea8",
+      "excerpts": [
+        {
+          "line": 1,
+          "text": "# HEARTBEAT commit-gate — RULED: REMOVED"
+        },
+        {
+          "line": 2,
+          "text": "**Ruled:** 2026-08-23, Will in-session, verbatim **\"free it\"** · **Owner:** PROME · **Status:** EXECUTED same sitting"
+        },
+        {
+          "line": 3,
+          "text": ""
+        },
+        {
+          "line": 4,
+          "text": "---"
+        },
+        {
+          "line": 5,
+          "text": ""
+        },
+        {
+          "line": 6,
+          "text": "## The ask"
+        },
+        {
+          "line": 7,
+          "text": "Will, unprompted: *\"Is there an argument to be made for just allowing PROME to edit HEARTBEAT freely?\"* — then, decisively: *\"if approved - does this make the system simpler? Or does it create more work?\"*"
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "## Disclosure recorded at the top of the analysis"
+        },
+        {
+          "line": 10,
+          "text": "PROME flagged **before** presenting that it is structurally compromised on this question — it was being asked to adjudicate its own authority — and committed to measuring rather than reasoning from priors. **That disclosure is part of the record precisely because the analysis then walked PROME toward the option it benefits from most.** Any future citation of this ruling must carry the disclosure with it."
+        }
+      ]
+    },
+    "PROME/proposals/2026-09-07_wq189-192-RULED.md": {
+      "sha256": "4593f909e01e8d7d009586090501fbc8922309776425e6142d7f886b420210be",
+      "excerpts": [
+        {
+          "line": 7,
+          "text": "| Row | Ruled | What executes | Where |"
+        },
+        {
+          "line": 8,
+          "text": "|---|---|---|---|"
+        },
+        {
+          "line": 9,
+          "text": "| **192 — deploy question** | **STAND DOWN — NO DEPLOY.** The surface-precedence question on BRENT's pair is ruled: **the letter governs** (`TRADE.md` §DEPLOY GATE v3 HARD RULES, *\"a confirmed DESTROYED-CAPACITY event\"*); the 9/1 pre-statement (formerly `STATUS.md:58`, *\"confirmed sinking (GATE 2)\"*) is a DESCRIBING surface and does not carry the capital trigger. Against the letter's head clause the M/T Kylo sinking (9/5, unladen, US strike, JWC listing byte-identical) is **NOT MET** — cargo · production · marginal export · Gulf transit all 0. FALCON's GATE 2 / `VX-FALCON-SUNK-01` FIRED stands on its own letter and is not softened by this ruling; its positioning consequence is closed. $0 moved by anyone. | PROME: queue row → DONE; HEARTBEAT Am.#1; this record. BRENT: consume; no ticket. TERRY: nothing (no construction). | `PROME/WILL_QUEUE.md` 192 · `HEARTBEAT.md` Am.#1 |"
+        },
+        {
+          "line": 10,
+          "text": "| **189 — amend instance ③** | **APPROVED, PROSPECTIVE-ONLY from 14:42 ET 9/7; never re-grades the 9/5 event.** Instance ③ of the frame-breaker carve-out becomes: *\"vessel **SUNK** — **with confirmed loss of cargo or of Gulf export/transit throughput; an unladen hull, or a hull in a trade already interdicted, is not a destroyed-capacity event**.\"* **The amendment lands on BOTH of BRENT's surfaces** — `TRADE.md` HARD RULES (the letter) and the 9/1 pre-statement in `STATUS.md` (the describing surface must re-point at the letter's head clause, never at another desk's gate). A laden-hull loss in the corridor, an FAL-01-class hit, or a JWC re-rate remains a live frame-breaker under the amended text. | **BRENT applies** (owner's files; PROME never edits them) — doorbelled `brent-0907` + packet (carve-out ①); FALCON cc'd (GATE 2 unchanged; its L301 repair is separate). | `AGENTS/BRENT/inbox/2026-09-07_from-PROME_WQ-189-192-RULED-…md` |"
+        },
+        {
+          "line": 11,
+          "text": ""
+        }
+      ]
+    },
+    "PROME/reports/2026-09-08_evening-market-checks.md": {
+      "sha256": "f36c1d8998cf3a085f1afe34904f43e93b58da11e0dd8e7ae17eaff482c57408",
+      "excerpts": [
+        {
+          "line": 7,
+          "text": "FRED still returns DGS10 4.78% and DFII10 2.43% dated September 4; HY 268 bp dated September 7. September 8 official observations remain UNKNOWN. No proxy or holiday rule substitutes for a published observation. Registered series: [DGS10](https://fred.stlouisfed.org/series/DGS10), [DFII10](https://fred.stlouisfed.org/series/DFII10), [HY](https://fred.stlouisfed.org/series/BAMLH0A0HYM2)."
+        },
+        {
+          "line": 8,
+          "text": ""
+        },
+        {
+          "line": 9,
+          "text": "The first [Cboe SKEW CSV](https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv) retrieval ended September 4. **Superseded by the later recheck:** WALTER's SIG-W-20260908-019 identified the newly published September 8 bar, and PROME independently retrieved **148.86** from Cboe. This breaks the prior >=150 run (consumer count 0/4, NOT FIRED); September 9 can no longer be its fourth bar. RED/VIOLET retain owner grading/integration. Receipt: `2026-09-08_evening-skew-recheck.json`. The earlier UNKNOWN was correct for that retrieval, not the current state."
+        },
+        {
+          "line": 10,
+          "text": ""
+        }
+      ]
+    },
+    "PROME/AUTONOMY.md": {
+      "sha256": "97e37ddc9bfa5ad3acf22bc29d0723f7bc183a6ed826df8fbab2818a928fc86a",
+      "excerpts": [
+        {
+          "line": 95,
+          "text": "| 2026-08-27 | **Gate C Kernel custody — PROME is the sole ACTIVE acceptance custodian** under an operator-approved activation packet; owner text = root `CLAUDE.md` Git Protocol, the custody paragraph after carve-outs ①–④ (reconciled at Sitting C8). Exact-pathspec, additions-only commits of accepted events · rejected receipts · the four registered views · the sitting's governance records; a substitute custodian gets no standing grant; CI never a writer; no timeout transfers custody. Carve-out ④ (desk submissions) is activation-gated and INACTIVE between windows. | ➡️ Ownership (custody, activation-bounded) | *Row logged 2026-09-06 (audit #12 residue) — the grant lived in root canon and the `SYSTEM.md` Mirror Map but not in this log: the 7/30 FORGE class again.* Basis: the Kernel runbook + Will's per-window activation packets (`KERNEL/GATE_C_*_ACTIVATION_*.json`); every activation to date revoked (HEARTBEAT §KERNEL). |"
+        }
+      ]
+    },
+    "memory/2026-09-06.md": {
+      "sha256": "faa8580b8fa9f2bf1dbc6e00654c6a36aa276daae18b107954bdd27e53c28415",
+      "excerpts": [
+        {
+          "line": 21,
+          "text": "105/107/108/109/110. **Commit subjects over 100 B measured AFTER writing, FIVE times** (105 · 105 · 104 · 105 · 105) — the guard held each time; the waste was mine; drafting to ~100 and losing the count to punctuation. Fix: draft ≤70 by construction (now in the CLOSEOUT recipe). 106. **L295's artifact cell carried prose + a future output path** — firetime parsed it as a path (UNREADABLE); corrected (DOCKET correction #1 of the session); the review's output path lives in the record, not the row, with an expiry-dated allowlist row. 109. **Census item 8 attributed to RED** (\"your own 9/4 FT-11 note\") — it was BOND's to-RED ack; attribution from a filename glance (RED-caught). 112. **Asserted HEARTBEAT current on the gamma sign without opening HENRY's brief** — told VIOLET no correction was needed; HENRY's 9/3 read (sign flipped BACK, +$36.8B) had been on origin since 9/4; VIOLET verified my ack at the artifact and issued v4.1.1 (sign UNKNOWN, an oscillator). Same shape as #109: a claim from the row I held, not the owner's current surface. 111. **Sixteen commits outside the intent-checked wrapper** (plain `git commit`; no hook enforces the wrapper; my manual subject check covered check 0 only) — wrapper from the L296 commit on. 113. **Consumer half of RED's withdrawn \"~9/10\" — an INFERRED claim written as a date on four rails.** RED's OUTBOX-040 §3 carried *\"earliest grade ~9/10 (Inferred from 3 observations, not systematically measured)\"*; PROME's SCRATCH (×2), HANDOFF and WQ-186 carried \"published in CBOE's 9/10 file\" — the caveat did not survive the hop (`finding_rederived_signal_loses_the_senders_caveats`; whether the doorbell message itself carried it is outside this post-/clear context — the ARTIFACT did, and rule 2 reads the artifact). RED withdrew it 12:04 (`bce611e0a`); corrected 12:1x on all four + the L275 notes cell. 114. **Cited a receipt I had read as verifying a schedule it only observed once.** In the #113 correction I wrote \"CBOE publishes SAME-DAY EVENING (~18:00–23:00 ET, RED's VERIFIED 9/2 receipt)\" on five rails + the memory extension; the receipt verifies ONE availability (the 9/2 bar at a 22:5x pull) and the window's two observations sit on different days. RED withdrew it 12:1x (`84a65dad9`); corrected 12:2x. #113 one level down — a correction pass carrying its own unsupported inference (`finding_a_correction_pass_is_unreviewed_work`). Two-correction stop TRIPPED on all six files; closed for the session. 115. **A \"cc:\" in a packet header with no copy written to the cc'd inboxes.** The 9/3 GPU-instrument ruling (ff2efeeff) says \"cc: WATT, DEWEY\"; neither AGENTS/WATT/inbox/ nor AGENTS/DEWEY/inbox/ received a copy of it (verified 12:2x: listing + grep, both empty). WATT carried \"unruled\" on its STATUS row 7 for three days and re-asked on 9/6 (f0ba68720); VULCAN's 9/3 amendment sat unanswered at WATT for the same reason. Delivered 12:3x by pointer packets to both (f113492fb; VULCAN's parallel notice to DEWEY 892dda92a landed a minute earlier). Class: finding_delivery_check_is_not_a_knowledge_check + finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit. Proposed rule for the next flow pass: a cc is delivered only when a file exists in the cc'd inbox — write the copy or drop the word. 116. **\"HEARTBEAT never carried 9/10\" claimed off a TRUNCATED grep.** At 12:1x the grep output was cut at 400 chars per line; HEARTBEAT Amendment #2 ③ carries \"the 9/9 close publishes 9/10\" past that cut, and HEARTBEAT_COLD §A6 carries \"publishes in CBOE's 9/10 file\" — a second phrasing the same pattern could not match (found by the 13:1x cold read). The underlying claim was withdrawn twice by RED in RED's own files (bce611e0a · 84a65dad9); the two HEARTBEAT copies are PROME's and are retired by Amendment #3 plus a §A6 supersession line at 13:1x. Class: finding_scan_keyed_on_naming_reads_local_form_as_absence — the read window AND the pattern set both failed; the same shape as RED's ML-RED-229, minutes apart, on the desk that routed it."
+        }
+      ]
+    },
+    "memory/2026-09-03.md": {
+      "sha256": "5aa06d1967a0411a58ef65d8d39c19b201a303996dcff50a14e7329b915d0f4f",
+      "excerpts": [
+        {
+          "line": 18,
+          "text": "- **HEARTBEAT Amendment #4 18:22** (9/3 closes · 9/2 officials · the reconcile · PJM no EEA-2/3) under FOUR blind reads on Opus (4 → 4 → 3 → 3 ❌; reads 3+4 basis-and-pointer only ⇒ WQ-165 stop); Am.#3 body + the 9/2 intraday line + §K body + §5 long-form rotated to cold with crc; retired-claims ledger 9/3 section; hot 24,448 B = 75.1% ⇒ **DOCKET L257: eleventh re-base owed 9/4**. TERRY 19:26: three read-cap/guard fixes (boot.py terminal filter, STATUS rotation, SETUPS split). **Then the session ended without a closeout** — the continuity surfaces carried the 08:3x morning state for eleven hours while nine rulings/deliveries sat only in commits."
+        },
+        {
+          "line": 38,
+          "text": "- **PROME errors #85–88:** grep -l mentions as readers · dated-only listing as \"every document\" · inference as fact · bare `git commit -F` instead of the wrapper all evening. **Closeout:** STATUS 9/2 headlines rotated (crc 2257684703) · HANDOFF 9/1 NIGHT rotated (crc 263661284) · SCRATCH full rewrite (block regenerated) · BRIEF + HANDBOOK rewritten · both pages republished · WQ-173 registered."
+        }
+      ]
+    },
+    "/tmp/prome-inbox-fleet-dashboard.html": {
+      "sha256": "6d471e04fdc4766ea6263d7725cf0dd299a9a0ebfab2e62b2a68848d63c69b8a",
+      "excerpts": [
+        {
+          "line": 140,
+          "text": "  <span class=\"stamp mono\">2026-09-08 23:09 ET · HEARTBEAT base 2026-09-07 · <a href=\"https://claude.ai/code/artifact/ee088d08-bf26-48ab-bad2-7ee9155da12a\">the Helm →</a></span>"
+        },
+        {
+          "line": 157,
+          "text": "  <div class=\"oneliner\">“The weekend&#x27;s direct US–Iran exchange (IRGC missiles at a US carrier 9/5; US sank the Iranian tanker M/T Kylo, UNLADEN, and disabled two more, CENTCOM-confirmed) produced the war&#x27;s first confirmed sinking: FALCON&#x27;s GATE 2 FIRED and D moved to 75, BRENT&#x27;s frame-breaker read NOT MET at its head clause, and the deploy question sits with Will (WQ-189 + WQ-192; $0 moved by either desk). Brent front ~$97.3–97.7 live Mon (BRENT, two web sources; 9/4 close $96.28 on the owner&#x27;s settled series, +$1.63 over four closes with one down day, 9/3), the whole curve lifting in parallel, $100 ~$2.5 away and NOT a threshold. The Sept FOMC crossover UN-CROSSED at the instrument (PM hike 50.5 / hold 49.5 [9/7 ~16:10Z]); recession 7.0% unmoved. FT-10 2-of-4 on CBOE bars (150.63 · 151.58); 9/8 extends or resets; earliest fire the 9/9 close. Credit between its lines (HY 265 [9/3], re-kill 5bp, re-arm 15bp) and C#2 is not a CPI event — C can lock on 9/9. The bank roll is live (WAL 80.95 [9/4], exit line 81.90 ×3, 0-of-3). NEXUS 20/47/33 [re-affirmed 9/7].”<span class=\"split\">Break 20 / Grind 47 / Unresolved 33</span></div>"
+        },
+        {
+          "line": 158,
+          "text": "  <div class=\"cards\"><div class=\"card crit\"><div class=\"nm\">Energy</div><div class=\"hd chip crit\">🔴 the first confirmed sinking of the war fired FALCON&#x27;s gate</div><div class=\"bd\">M/T Kylo SUNK 9/5 (US strike, Gulf of Oman, CENTCOM video; unladen), two more disabled; IRGC 9/6 counter-claim uncorroborated. FALCON GATE 2 FIRED on its letter — B 3 / C 22 / D 75 (Will&#x27;s absolute), losses 1→2, zero crude …</div></div><div class=\"card crit\"><div class=\"nm\">Rates</div><div class=\"hd chip crit\">🔴 the jobs reaction function stays inverted into the FOMC, b</div><div class=\"bd\">Officials [9/3]: DGS10 4.77 (GATE-TERRY-007 &lt;4.50 ×5, 0-of-5, 27bp; streak must BEGIN by 9/22, L267) · DFII10 2.42 (004 add-gate 2.50 = 8bp, NO-ADD; ⛔ *&quot;5bp&quot;* is the 9/2 vintage) · DGS30 5.25 (2026 max 5.31 [8/17]) · DGS2 4.34. …</div></div><div class=\"card crit\"><div class=\"nm\">Credit</div><div class=\"hd chip crit\">🔴 the bank roll is live; HY sits between its lines; C#2 can </div><div class=\"bd\">GATE-REG-T02 FIRED 9/1 · ROLL70 FILLED 9/2 @ $2.20 (Robinhood) — live object GATE-TERRY-ROLL70-EXIT ≥$81.90 ×3 official closes, WAL 80.95 [9/4], 0-of-3, REGINALD grades (dark). HY OAS 265 [9/3] (re-kill &lt;260 ×2 = 5bp, 0-of-2 …</div></div><div class=\"card elev\"><div class=\"nm\">Japan / carry</div><div class=\"hd chip elev\">🟠 a record intervention month; USD/JPY keeps retracing and t</div><div class=\"bd\">MOF Jul30–Aug26 = ¥15,399.3B, a record (primary). USD/JPY 154.29 [9/7, dashboard.py basis — FX trades the holiday] from 160.19 [9/1, same basis] = the second ≥160 close; the count lives on THAT basis only (never difference across …</div></div><div class=\"card watch\"><div class=\"nm\">Equity-vol</div><div class=\"hd chip watch\">🟡 asleep at the front, reloading at the tail: FT-10 is 2-of-</div><div class=\"bd\">^SKEW 150.63 [9/3] · 151.58 [9/4], both CBOE-verified (RED + VIOLET) ⇒ RED-FT-10 ≥150 = 2-of-4 COUNTING, NOT FIRED; Labor Day = non-session (RED-ruled); chain 9/3·9/4·9/8·9/9; 9/8 extends or resets; earliest fire the 9/9 close …</div></div><div class=\"card elev\"><div class=\"nm\">AI capex</div><div class=\"hd chip elev\">🟠 frame unchanged; the tape is buying it again.</div><div class=\"bd\">NVDA 230.36 [9/4]; Q2 FY27 [8/26] rev $96.2B · DC $89.0B · guide $108B; OpenAI guarantee book $3.5B → $108.5B (31×). VULCAN-16 graded MISS 9/3; MU FQ4 = 9/30 16:30 ET, issuer-confirmed. Source correction 9/8 16:50 ET …</div></div><div class=\"card crit\"><div class=\"nm\">War theaters + tariffs + housing</div><div class=\"hd chip crit\">🔴 a live PJM emergency with its 9/8 test pre-registered …</div><div class=\"bd\">PJM: WATT P1 FIRED 2→5; DOE §202(c) Order 202-26-41 through 23:59 9/8 — an extension past 9/8, an EEA-2/3, a load shed or a large-load direction converts NEXUS&#x27;s PJM type ARMED→COUNTED; a quiet lapse counts AGAINST the …</div></div><div class=\"card crit\"><div class=\"nm\">Metals</div><div class=\"hd chip crit\">🔴 MIDAS-06 is the first live RESOLVED + VERIFIED question …</div><div class=\"bd\">Branch (a) DIVERGE PERSISTS (gold ≥ $4,340.70 AND DFII10 ≥ 2.40), graded on the 8/28 vintage — accepted 9/2 under LIVE-2026-0012; WQ-155 ③ RULED (a): three-outcome projection, build 9/9 (L247). MIDAS-08 (b) INDETERMINATE (9/5 …</div></div></div>"
+        }
+      ]
+    },
+    "/tmp/prome-inbox-handbook.html": {
+      "sha256": "f6872262fe4ab7fc24bf5a532bcf6f0328e5f74b7bbcd4b588ad3fc8c632e226",
+      "excerpts": [
+        {
+          "line": 225,
+          "text": "<li class='' data-date='2026-09-09'><span class='when'>Wed 9/9</span><span>KERNEL three-outcome projection vocabulary (WQ-155 ③, Will 9/2 10:57 opti… <details class='more'><summary>+4 more</summary><div class='alsorow'>XLE $65C Sep-30 ×2</div><div class='alsorow'>FERT DTN weekly retail-price article → GATE-FERT-G5 graded read (the gate…</div><div class='alsorow'>KERNEL/IMPLEMENTATION_STATUS.md chronology → archive (Codex rec 7 + WQ-17…</div><div class='alsorow'>RED-FT-10 published-bar owner follow-up: September8 Cboe 148.86 broke the…</div></details></span><span class='in'>tomorrow</span></li>"
+        },
+        {
+          "line": 238,
+          "text": "<div class='falsify'><div class='lead'>This is wrong if <span class='vint'>[as written 2026-09-08 after the market close — PROME on Codex/Astra. Scope: verified owner catch-up and immediate action calendar; source dates stated below.]</span></div><div class='prose'><p>September8&#x27;s official Treasury observation is unpublished in the retained owner check and cannot be counted. The Cboe file still lacked September8 at16:50:28ET, preserving2/4. The PJM order&#x27;s post23:59ET outcome remains ungraded. Canada&#x27;s SOR identifiers and direct CBSA receipt remain missing even though the registered alternative supports the operative verdict. Russian decree authentication and the required PortWatch publication window remain source gaps, not negative test results.</p></div></div>"
+        }
+      ]
+    }
+  }
+}

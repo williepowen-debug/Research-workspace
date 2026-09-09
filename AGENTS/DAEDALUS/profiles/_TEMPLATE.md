@@ -1,5 +1,7 @@
 # Agent Profile — [AGENT]
 
+**Profile vintage:** YYYY-MM-DD (last whole-profile build, refresh, or refresh plus explicit re-verification of all carried sections; receipt/checkpoint dates do not belong here).
+
 **Built by:** DAEDALUS · **Date:** [date] · **Comprehension method:** [solo read / N-reader fan-out]
 **Sources read:** [files] · **Staleness:** refresh when the agent's STATUS/thesis materially changes or > [N] days.
 

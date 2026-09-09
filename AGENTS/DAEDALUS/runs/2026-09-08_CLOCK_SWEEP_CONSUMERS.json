@@ -1,0 +1,299 @@
+[
+  {
+    "argv": [
+      "python3",
+      "scripts/consumer_check.py",
+      "--agent",
+      "DAEDALUS",
+      "--label",
+      "profile population",
+      "--old",
+      "45",
+      "--new",
+      "38",
+      "--series",
+      "profile"
+    ],
+    "rc": 0,
+    "stdout": "\n==================================================================\n  CONSUMER CHECK  ·  who still carries a number you superseded?\n==================================================================\n  own dir excluded: AGENTS/DAEDALUS/   (processed/ + archive/ excluded everywhere — historical by design)\n\n  ── profile population · superseded 45 → current 38\n     🔴 STALE ON A LIVE SURFACE — send the owner a packet (5)\n        AGENTS/WAL/SCENARIOS.md:52  [45]\n           | **Base 40% → 45% (+5)** | The disconfirmation is **positive information about the risk profile**, not merely absent bad news: the hidden-C\n        AGENTS/WAL/CHANGELOG.md:25  [45]\n           | Base | 40% | **45%** | +5 | Disconfirmation is positive information about the risk profile |\n        AGENTS/HENRY/research/outputs/cluster_3_counter_thesis/Local Update and Activity Suggestions (1).md:31  [45]\n           At 12:45 PM, the meteorological profile of West Palm Beach represents the quintessential \"Florida Winter\" asset—a climatic commodity that se\n        AGENTS/CARL/workbook/KB.tsv:151  [45]\n           KB-CARL-154\t2026-04-05\tK-SHAPE\tPlasma_Industry_Convergence\tUS plasma donation industry = $4.7B (2025), 75M donations, 200K/day, 1,200+ cente\n        AGENTS/OZK/raw/llm_outputs/FL_PARADOX_claude_deep_research.md:15  [45]\n           The GFC precedent is instructive but not perfectly analogous. When Miami's condo market collapsed, **22,000 units sat unsold** and inventory\n     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (2467)\n        AGENTS/WALTER/SESSION_LOG.md:73  [45]  (no unit/series context on line)\n           🔴 **RE-VERIFIED 2026-09-01T21:45Z (ADDENDUM #23) on the anchor's own trigger — a SECOND US strike wave.** Two waves (8/30 Larak · 9/1 multi-\n        AGENTS/WALTER/SESSION_LOG.md:174  [45]  (no unit/series context on line)\n           3. **Iran anchor re-verify DUE ~9/7 (tomorrow)** — last verified 2026-09-01T21:45Z (ADD#23). `SIG-W-20260906-001` is an INPUT to it, not a s\n        AGENTS/WALTER/SESSION_LOG.md:348  [45]  (no unit/series context on line)\n           ## 2026-08-31 (Mon, 11:45 ET → ~18:0x ET) — `walter-09` boot in Will's window · **TIER-2 FULL closeout**\n        AGENTS/WALTER/SESSION_LOG.md:541  [45]  (no unit/series context on line)\n           **⑫ ✅ PACKET → PROME, ADOPTED IN ~30 MINUTES.** Root cause was a **stalled Phase-2 rollout**, not a defect: SPEC §8 has WALTER define the co\n        AGENTS/WALTER/SESSION_LOG.md:695  [45]  (no unit/series context on line)\n           - **2026-08-20 (Thu — ALL-DAY, boot 12:3xZ on Will-terminal \"Hi WALTER please boot up\"; closed on \"okay lets do the tier 2 close out\"). TIER\n        AGENTS/WALTER/SESSION_LOG.md:744  [45]  (no unit/series context on line)\n           - **2026-07-31 (Fri ~23:36Z Will-Telegram \"please boot up\" → 8/1 ~03:00Z, **TIER-2 FULL** on Will's \"lets close out here\"; four waves: boot+\n        AGENTS/WALTER/SESSION_LOG.md:768  [45]  (no unit/series context on line)\n           **Updated:** 2026-07-23 (Thu ~6:35 PM → ~9:45 PM ET / 01:45Z 7/24 — Will-Telegram boot → **Telegram plugin DIED mid-session (boot reply msg-\n        AGENTS/WALTER/SESSION_LOG.md:859  [45]  (no unit/series context on line)\n           | 2026-06-28 Sun (~3-6 PM ET, **Will-Telegram boot #2 → BOOT-DOC THREAD (hygiene + quick-wins + protocol-split), COMPLETE**; **0 dispatch / \n        … +2459 more 🟠 hit(s) on [45] across 958 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series\n     🟡 in MAIL, point-in-time — usually no action (187: AEOLUS, BOND, BRENT, BROCK, CARL, CORAL, CREED, CRUISE, DEWEY, FALCON, FERT, FLG, HANS, HAWK, HENRY, LABOR, LIQUID, MARCO, MIDAS, NEXUS, ORACLE, OSPREY, OTTO, OZK, RED, REGINALD, SAM, TERRY, VIOLET, VULCAN, WAL, WALTER, WATT, ZHAO)\n     🟢 cleared: marker-adjacent / next to new value / frozen file (543)  [--show-handled to audit]\n\n  🔴 5 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.\n==================================================================\n\n",
+    "stderr": "",
+    "parent_verification": [
+      {
+        "file": "AGENTS/WAL/SCENARIOS.md",
+        "line": 52,
+        "text": "| **Base 40% → 45% (+5)** | The disconfirmation is **positive information about the risk profile**, not merely absent bad news: the hidden-CRE concentration the bear premised is **not there at the scale claimed**, and on the legitimate cross-bank basis (v1a) the `>20%` screen catches **nobody** in a 14-bank cohort. That supports the *compounder proceeding normally*, which is Base. Base takes the larger share because MI3 speaks to **risk**, not to upside catalysts. |",
+        "contexts": [
+          "| **Base 40% → 45% (+5)** | The disconfirmation is **positive "
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/WAL/CHANGELOG.md",
+        "line": 25,
+        "text": "| Base | 40% | **45%** | +5 | Disconfirmation is positive information about the risk profile |",
+        "contexts": [
+          "| Base | 40% | **45%** | +5 | Disconfirmation is positive inform"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/HENRY/research/outputs/cluster_3_counter_thesis/Local Update and Activity Suggestions (1).md",
+        "line": 31,
+        "text": "At 12:45 PM, the meteorological profile of West Palm Beach represents the quintessential \"Florida Winter\" asset—a climatic commodity that serves as a primary driver for the region's economic engine. The current conditions are characterized by thermal stability and high visibility, fostering an environment conducive to both executive mobility and leisure activities.",
+        "contexts": [
+          "At 12:45 PM, the meteorological profile of West Palm "
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/CARL/workbook/KB.tsv",
+        "line": 151,
+        "text": "KB-CARL-154\t2026-04-05\tK-SHAPE\tPlasma_Industry_Convergence\tUS plasma donation industry = $4.7B (2025), 75M donations, 200K/day, 1,200+ centers (more than Costco). Collections +30% since 2022, +8.4% YoY 2025, +11% projected 2026. 70% of global supply from US ($6.2B exported 2024). CRITICAL K-SHAPE SIGNAL: formerly middle-class now selling — NBC profiles $87K earner (laid off 2024, now $16.11/hr), $120K couple in Idaho, $75K paralegal who left workforce. Compensation $45-$65/session. Research: new plasma centers → increased grocery foot traffic + declining payday loan interest + reduced crime = plasma payments funding BASIC NECESSITIES. Convergence evidence: top-40% K-shape cohort engaging in desperation income strategies previously confined to bottom-60%.\tNBC News Feb 2026 / La Voce di New York Feb 12 2026 / NPR Dec 26 2025\tA2\tEMPIRICAL\tACTIVE\t2026-09-01\t\tVX-CARL-K-01\tStrongest K-shape convergence signal since Dollar Tree +6.5M HH from >$100K. Monitor: plasma center openings, quarterly industry reports.\t\t",
+        "contexts": [
+          " who left workforce. Compensation $45-$65/session. Research: new plasma centers → "
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/OZK/raw/llm_outputs/FL_PARADOX_claude_deep_research.md",
+        "line": 15,
+        "text": "The GFC precedent is instructive but not perfectly analogous. When Miami's condo market collapsed, **22,000 units sat unsold** and inventory reached **52 months of supply**. Building-level data reveals staggering non-closing rates: Onyx on the Bay saw only **45% of units close**; Wind by Neo managed roughly **11%**; Icon Brickell was **4.9% occupied** by 2009. Downtown prices fell **41.8%**. Today's 23-month inventory is alarming but not yet catastrophic. The buyer profile has shifted decisively — **78–83% of transactions above $2,000/SF are all-cash**, versus the speculative flippers who dominated pre-2008 sales. OZK management's claim that 11 of 14 Miami condo loans have presales covering full loan repayment provides meaningful but unverifiable comfort.",
+        "contexts": [
+          " rates: Onyx on the Bay saw only **45% of units close**; Wind by Neo managed rough"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      }
+    ]
+  },
+  {
+    "argv": [
+      "python3",
+      "scripts/consumer_check.py",
+      "--agent",
+      "DAEDALUS",
+      "--label",
+      "profile population",
+      "--old",
+      "45",
+      "--new",
+      "38",
+      "--series",
+      "profile",
+      "--self"
+    ],
+    "rc": 0,
+    "stdout": "\n==================================================================\n  CONSUMER CHECK  ·  who still carries a number you superseded?\n==================================================================\n  SELF mode: 322 files under AGENTS/DAEDALUS/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.\n\n  ── profile population · superseded 45 → current 38\n     🔴 STALE ON A LIVE SURFACE — send the owner a packet (23)\n        AGENTS/DAEDALUS/CHECKS.tsv:34  [45]\n           AGENTS/DAEDALUS/scripts/profile_clock_check.py\tDAEDALUS\tProfiles (profiles/<AGENT>.md) past their OWN named day-clock/floor — the cheap half\n        AGENTS/DAEDALUS/FLEET_MAP.tsv:7  [45]\n           BROCK\tMarket\tL4\tH\tROSTER:active\t2026-09-01\tL5 blocker external (YEYOU waived-dormant) — unchanged. STATUS 167 ln / 32,535 B after a 90,609 B\n        AGENTS/DAEDALUS/FLEET_MAP.tsv:8  [45]\n           LABOR\tMarket\tL5\tH\tROSTER:active\t2026-09-07\tL5 HOLDS — parity assessment 2026-09-07 (runs/2026-09-07_LABOR_PARITY_ASSESSMENT.md; 3-reader fan\n        AGENTS/DAEDALUS/FLEET_MAP.tsv:47  [45]\n           FLG\tMarket\tL3\tM\tROSTER:active\t2026-09-05\t📘 PROFILE BUILT 2026-09-05 (first ever; desk built by DAEDALUS 8/20, first live session 8/28 — a NI\n        AGENTS/DAEDALUS/STATUS.md:14  [45]\n           Blueprint variant set + CHECK_STANDARD §1–§14 + **SPEC_LETTER_STANDARD SL-1…SL-5** (SL-5 tie-set 9/3) + **READ_CAP rules 1–18** (rule 18 obl\n        AGENTS/DAEDALUS/SURFACES.tsv:13  [45]\n           scripts/\tDAEDALUS\tWill-ruled 2026-07-31 ~14:45 ET in PROME's session (packet 004a9f91) — grant basis: fleet architect owns build standards +\n        AGENTS/DAEDALUS/profiles/CREED.md:5  [45]\n           > Δ **2026-08-20 (spot edits, CREED consumer_check packet):** conv 23/45→**25/45** + VX 31→**32** + FIRED_LOG row folded into §2 (verified a\n        AGENTS/DAEDALUS/profiles/HAWK.md:5  [45]\n           > ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** EXIT_PROTOCOL.md gained a stamp (🧊 FROZEN 2026-08-10) = the named trigger · 45\n        AGENTS/DAEDALUS/runs/2026-08-28_WIRING_SWEEP/RUN_RECORD.md:56  [45]\n           | ⑪ hardcoded catalyst list in boot | grep literal ISO dates in 23 `boot.py` | **OZK `boot.py:32-40`** — 8 inlined rows, two already past (7\n        AGENTS/DAEDALUS/runs/2026-09-08_BOOT_CATCHUP.md:8  [45]\n           | Profile clock | BROCK 48 days against 45; OSPREY 24 against 21. Other content-only triggers are not certified by this check. |\n        AGENTS/DAEDALUS/runs/2026-09-08_PROFILE_CLOCK_REPAIR.md:22  [45]\n           `Profile vintage: YYYY-MM-DD` is the explicit whole-body declaration. Existing labeled build/body/refresh metadata remains supported. Partia\n        AGENTS/DAEDALUS/upgrades/BRENT_REVIEW_2026-08-17.md:46  [45]\n           - **`profiles/BRENT.md` is materially stale and its OWN refresh trigger has fired.** It says *\"refresh when TRADE.md, THESIS version (curren\n        AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md:485  [45]\n           | **D-10** | `profiles/ORACLE.md` | **MED** | 45d clock expired 8/13 — flagged by DAEDALUS's own registry row and not serviced | REGISTRY ro\n        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md:137  [45]\n           - **profiles/VIOLET.md** — clock expires 8/18; body 26d; wrong: STATUS 113→210 ln/46KB; 9-vector/45-pt → **12-vector /55**; TRADE ok-claim =\n        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md:138  [45]\n           - **profiles/HENRY.md** (8/07 rewrite, holds up): PUBLISHED.tsv lag FIXED/discharged; VX 45d→55d + false-green compound; inbox 4→22; **its l\n        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md:23  [45]\n           | **YEYOU** (`AGENTS/YEYOU/`) | **3 / 2 — but true self = 1** | **2026-08-20** (`STATUS.md:3`) — **12 days** | **HOLD L3.** Its L4 gate is p\n        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md:58  [45]\n           | **VIOLET** | 16/39 (55) | banner 8/27 ~19:15; footer `STATUS.md:150` 8/27 ~14:20 | **HOLD** — L3 falsification is exemplary (`STATUS.md` ⓪\n        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md:91  [45]\n           | **BROCK** | 14 self / 33 inbound (47 total; WALTER 18, DAEDALUS 3, PROME/NEXUS/HANS 2 ea.) | **2026-08-28 ~21:0x ET** (`AGENTS/BROCK/STATU\n        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md:94  [45]\n           | **REGINALD** | 66 self / 57 inbound (123 total; WALTER 17, CREED 7, DAEDALUS 6, TERRY 5) — highest volume | **2026-09-01 at the settled cl\n        AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md:95  [45]\n           | **MARCO** | 36 self / 32 inbound (68 total; WALTER 20, DAEDALUS 7, AEOLUS 2) | **2026-08-22 ~17:2x ET** (`STATUS.md:2`) — **10d dark**, ti\n        AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_tools_findings.md:24  [45]\n           | 10 | PROME/tools/spine_audit.workflow.js | 35–42 | 🟠 | **Spine set omits a boot-read file, contradicting its own comment.** Comment: *\"Kee\n        AGENTS/DAEDALUS/upgrades/VIOLET_CARD.md:46  [45]\n           > **DO-NOT-TOUCH (comprehension preserved — full list in `profiles/VIOLET.md §5`):** the 45-pt composite (blueprint-endorsed local scale — 5\n        AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15_READER_REPORTS.md:95  [45]\n           **Read in full:** `profiles/HAWK.md` · `AGENTS/HAWK/STATUS.md` · `NEXUS_BRIEF.md` · `workbook/EXIT_PROTOCOL.md` · `domain/war-risk/CROSS_THE\n     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (152)\n        AGENTS/DAEDALUS/BLUEPRINTS/STATE_VOCABULARY.md:5  [45]  (no unit/series context on line)\n           **Governing rule: where a machine or a cross-agent reader parses the token, the token is an INTERFACE (PAT-069).** Every synonym is a future\n        AGENTS/DAEDALUS/BLUEPRINTS/market-agent.md:37  [45]  (no unit/series context on line)\n           **Required handle: a universal 5-point score, ADDED alongside (never replacing) your richer local representation.** The 5-pt is the comparab\n        AGENTS/DAEDALUS/CHECKS.tsv:36  [45]  (no unit/series context on line)\n           scripts/orch_log.py\tDAEDALUS (built 2026-09-03 off the Codex workspace audit, PROME ask; file owner = PROME)\t\"PROME/state/ORCH_LOG.tsv schem\n        AGENTS/DAEDALUS/CLAUDE.md:39  [45]  (no unit/series context on line)\n           3. **Read `PATTERNS_HOT.md`** — the generated one-line index of design lessons dated within a **rolling 45-day window** (+ `[HOT]`-tagged ro\n        AGENTS/DAEDALUS/CLAUDE.md:105  [45]  (no unit/series context on line)\n           - Pathspec: `AGENTS/DAEDALUS/` **+ repo-root `scripts/` (ownership GRANTED, Will-ruled 2026-07-31 ~14:45 via PROME)** — path-scoped commits \n        AGENTS/DAEDALUS/FLEET_MAP_HISTORY.tsv:29  [45]  (no unit/series context on line)\n           HERMES\t2026-08-17\t**RETIRED 2026-08-11 (Will-ruled in-session, sweep #3 W3).** Mail-carrier, deprecated by [[project_messaging_overhaul]] (W\n        AGENTS/DAEDALUS/PATTERNS.tsv:17  [45]  (no unit/series context on line)\n           PAT-015\t2026-06-27\tA standard is a FLOOR (required comparable interface), never a CEILING (cap on local expression). Add comparable handles \n        AGENTS/DAEDALUS/PATTERNS.tsv:81  [45]  (no unit/series context on line)\n           PAT-078\t2026-08-07\t\"A SCAN KEYED ON SURFACE NAMING READS \"\"SURFACE I CANNOT SEE\"\" AS \"\"NO SURFACE\"\" — and \"\"no datable surface\"\" must never \n        … +144 more 🟠 hit(s) on [45] across 71 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series\n     🟢 cleared: marker-adjacent / next to new value / frozen file (51)  [--show-handled to audit]\n\n  🔴 23 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).\n==================================================================\n\n",
+    "stderr": "",
+    "parent_verification": [
+      {
+        "file": "AGENTS/DAEDALUS/CHECKS.tsv",
+        "line": 34,
+        "text": "AGENTS/DAEDALUS/scripts/profile_clock_check.py\tDAEDALUS\tProfiles (profiles/<AGENT>.md) past their OWN named day-clock/floor — the cheap half of the profile-staleness trigger (wiring-sweep leg ㉕); content legs stay agent-judged\tsweeps_due.py child at every DAEDALUS boot (SPAWN step 5) — no charter edit (CLAUDE.md at 99.7% of budget)\tWIRED-SINGLE-INVOKER\trc0 = evaluated calendar clocks inside declared windows only; content/event/STATUS-relative predicates and truth of refresh work NOT certified. Population and excluded companions named. rc1 = overdue calendar clock; rc2 = unreadable/ambiguous/future metadata or unsupported owner-relative comparison; known alerts still print.\t2026-09-08 repair: 12/12 tests, six frozen real profiles with source hashes. Real FERT rc0; BROCK rc1 (72>45); OSPREY rc2 (body8/7, owner-relative). Fleet before/after: runs/2026-09-08_PROFILE_CLOCK_{BEFORE,AFTER}.json. sweeps_due rc2 propagation watched retaining six alerts.\tHENRY/HOMER/OSPREY require owner STATUS-stamp comparison (rc2, no false wall-clock pass). No assertion that content triggers or declared full-refresh work are verified. Six overdue body reviews remain.\tBody vintage from explicit Profile vintage or legacy labeled author metadata, never receipt/git/checkpoint dates. Partial Δ does not reset whole-body clock; ambiguous section updates refuse certification. Prior complete row in CHECKS_HISTORY; contract in UPGRADE_PROTOCOL and template.\tDAEDALUS: rc1 refresh/banner under UPGRADE_PROTOCOL step0; rc2 verify declared metadata or named owner stamp. Do not change dates merely to silence alert.",
+        "contexts": [
+          "shes. Real FERT rc0; BROCK rc1 (72>45); OSPREY rc2 (body8/7, owner-relative). Flee"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+        "line": 7,
+        "text": "BROCK\tMarket\tL4\tH\tROSTER:active\t2026-09-01\tL5 blocker external (YEYOU waived-dormant) — unchanged. STATUS 167 ln / 32,535 B after a 90,609 B rotation (STATUS:5) — the 266/250 regression RESOLVED; byte budget cited (54,250 cap + 'never raise') but no declared budget block. Matrix 59/70, all 14 vectors dated ≤8/28 with an anti-double-count ruling (STATUS:109); TRADE.md FROZEN 7/27 condition-cited (exemplar). 'I cite, I do not copy' fence on LIQUID/REGINALD inputs (STATUS:7). Profile NOT FIRED (matrix/position unchanged, 41d ≤ 45). Dark since 8/28. In BROCK's words the period's fleet lesson: 15 days of boots read FRAGMENTS while every line-count guard passed (STATUS:5).\tL5 blocker external; a declared byte-budget block (TERRY form) is the one cheap self-leg.\t→ HISTORY",
+        "contexts": [
+          " (matrix/position unchanged, 41d ≤ 45). Dark since 8/28. In BROCK's words the peri"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+        "line": 8,
+        "text": "LABOR\tMarket\tL5\tH\tROSTER:active\t2026-09-07\tL5 HOLDS — parity assessment 2026-09-07 (runs/2026-09-07_LABOR_PARITY_ASSESSMENT.md; 3-reader fan-out, every claim re-verified at the artifact, 2 reader claims rejected): all judgment legs PASS; L3 dated-falsification leg FAIL-grandfathered (EXIT RULES has no kill-rail stamp — retrofit at next closeout); L4 TRADE leg WAIVED-cite (input agent, 7/25); L5 YEYOU leg NOT-ADJUDICATED (no LABOR row in YEYOU's single run). TRUE NOW (16:3x same-day re-read, runs/2026-09-07_LABOR_SAME_DAY_CHANGES_REVIEW.md): F1 brief REORDERED (CROSS-DOMAIN byte 3,697) but 88,772 B · F2 CLAUDE.md 55,019 B now OVER the 54,250 B cap, 7 contradictions, Will-gated (WQ-193) · F3 checker BUILT (v3.1) but red on all 6 real cards, 2 of them FALSE (equality band; trigger ladder) — no real clean case yet · F4 CLOSED (Kill rail re-derived 2026-09-04; run 63/31/21/162) · F5 CLOSED (9/25 docketed; ALFRED delivered e96453b45) · F6 discharge rule unified · F9 8 cells in WQ-112 form, with `[<=date]` bounds (canon question) · F10 CLOSED · STATUS 98.7% / LESSONS 98.3% / BUILD_DEBT +16 KB in one day — byte accretion on every surface (WQ-179 9/11). As-made audit: Brier 0.299→0.342, 0-for-5 at ≥60% (self-found). Holds: 5/5 frozen cards with pre-print git receipts, append-only post-print; 0 overdue predictions; PUBLISHED status column; RECIPIENT PATHS; spine gate automated; every ledger two-state.\tL5 SUSTAIN — before the 9/25 Oct-2 card freeze: card_partition_check parses `= X exactly` + trigger-ladder declaration + one REAL card PASS watched; WQ-179 (c) applied to the desk's write mode (STATUS/LESSONS/BUILD_DEBT/brief), not one file; charter hot/cold = WQ-193 (Will). Conf H holds while the profile clock holds (→ 2026-10-07).\t→ HISTORY",
+        "contexts": [
+          " docketed; ALFRED delivered e96453b45) · F6 discharge rule unified · F9 8 cells in"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/FLEET_MAP.tsv",
+        "line": 47,
+        "text": "FLG\tMarket\tL3\tM\tROSTER:active\t2026-09-05\t📘 PROFILE BUILT 2026-09-05 (first ever; desk built by DAEDALUS 8/20, first live session 8/28 — a NINE-WEEK-OLD desk and its grade should be read as such). boot.py RUN rc=1, filing-window logic correct. ⭐ F-1 FLG RETRACTED ITS OWN FINDING TWICE IN ONE SESSION and the second retraction is the valuable one (5f8d18eb1 -> 7ef1410f9): it filed a read-cap truncation finding against MY perimeter, FAILED ITS OWN POSITIVE CONTROL, then retracted in full on finding READ_CAP.md:23 had already ruled it. Its own commit names the lesson: 'audited an instrument without reading the blueprint that defines its perimeter.' I am the counterparty and the retraction was correct. ⭐ K-4 carries a MEASURED BASE RATE — 'comparator >=6.0% base rate, 0-of-5 at the artifact'. A kill leg that states how often its condition has historically occurred, and reports zero of five, is doing base-rating older desks skip. Protect it under any compression. 🟡 F-2 the L4 consumption leg is UNTESTED, not failed — one session total; PAT-028/034 sequencing, and it should NOT be written as a gap until a second session has had the chance to route. 🟠 F-4 maturity_scan's 'exit rules lack session counts' is a MECHANICAL HINT AGAINST A LOCAL FORM and should not be actioned literally: FLG's rails are event- and filing-window-keyed (quarterly 10-Q, ~45d window in boot.py), which is the right clock for a single-name bank desk — same disposition already ruled for OTTO's calendar-dated bounds. Recorded so the hint is not re-raised each scan. 3 quarterly ledgers correctly declared EXPECTED-STALE. Ledgers: KB 56, NONACCRUAL_FLOW 33, MATURITY_WALL 20, MI3_FLG 19, TRIGGERS 16, RGB_GUIDELINES 10, PREDICTIONS 9.\tConf M->H on the first grade 2026-11-06 landing as dated — this one is a REAL leg ('predictions resolving' is L3/market and FLG's is dated-but-unobserved), but it is 63 days out and must not become the reason nothing else is looked at. L4 on a TRADE surface + one signal consumed at REGINALD's or CREED's artifact — and per today's CORAL finding, the TRADE-surface question is FLG's to decide, not Will's to rule. Profile clock -> 2026-09-26.\t→ HISTORY",
+        "contexts": [
+          "ing-window-keyed (quarterly 10-Q, ~45d window in boot.py), which is the right cloc"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/STATUS.md",
+        "line": 14,
+        "text": "Blueprint variant set + CHECK_STANDARD §1–§14 + **SPEC_LETTER_STANDARD SL-1…SL-5** (SL-5 tie-set 9/3) + **READ_CAP rules 1–18** (rule 18 obligation-audit 9/3) · **PATTERNS through PAT-146 (147 rows)**, boot reads `PATTERNS_HOT.md` = **rolling 45-day window (97 hot) + `PATTERNS_COLD_INDEX.md` (50 cold, grep on demand)** (conservation 97+50==147) · **FLEET_MAP 40 rows, COLD**; boot reads generated `FLEET_DIRECTORY.md` · **17 registered sweeps/queues** (Prose-Remedy Census + GATE_BASIS §5 leg added 9/4) + `profile_clock_check` at boot · **CHECKS.tsv 31 rows** (root `read_cap_check.py` row added 9/4 — the local namesake had the only row; **memory_index_check + memory_citation_census rows re-cut 9/6 for the shard-aware contract**) · **`scripts/memory_index_paths.py` NEW 9/6** — the shared cold-index FILE-SET definition, per-file ceiling never summed · SURFACES.tsv · 34 profiles (**4 refreshed 9/3–9/4: NEXUS · RED · PROME · VIOLET**; 23 bannered) · `archive/` live (STATUS · EVOLUTION · CLAUDE containers).",
+        "contexts": [
+          "eads `PATTERNS_HOT.md` = **rolling 45-day window (97 hot) + `PATTERNS_COLD_INDEX.m"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/SURFACES.tsv",
+        "line": 13,
+        "text": "scripts/\tDAEDALUS\tWill-ruled 2026-07-31 ~14:45 ET in PROME's session (packet 004a9f91) — grant basis: fleet architect owns build standards + registration gates; PAT-074 same-day break-fix cited as the precedent. PROME retains PROME/tools/ only; per-script authorship provenance unchanged\tPer-script only; no registry of what exists or who maintains it\tOWNED\tnone open — registry EXISTS: CHECKS.tsv (born 8/3, 23 rows incl. On_FAIL column since 8/17); this cell claimed 'no registry' for 14d after CHECKS.tsv shipped (self-audit F9) | 2026-09-01 PR#5: CHECKS.tsv 29 rows after the 9/1 register pass (one duplicate row for corrections_boot_check merged → CHECKS_HISTORY; fetch_feeds RETIRED; profile_clock_check ADDED); 10 scripts changed since 8/17, all carried rows (Q1 clean); UNWIRED load-bearing = 0 (Q2 clean).\t2026-09-05\tREVIEWED + EDITED 2026-09-05: safe-push.sh recovery advice fixed. The script never pulls or stashes (verified by reading it — fetch/log/push only), but its PUSH-FAILED abort printed 'Recipe: git pull --rebase --autostash' with NO dirty-tree caveat while the NON-FF abort correctly warned 'do NOT auto-pull a shared working tree' — one abort path guarded, the other not. Live risk at the time: HANS had uncommitted work in the shared tree. Advice now carries root session-end step 3 in full (overlap check first; STOP on overlap or another agent mid-session; autostash sweeps other agents' work). Message text only, behaviour unchanged; advice block EXECUTED not simulated, script live-run after. CHECKS.tsv row updated in the same commit. || Owner DAEDALUS (Will-ruled 7/31 via PROME — break-fix + standards for closeout-critical tooling; behavior changes stay Will-visible). Prior Notes carried a contradictory pre-7/31 'UNASSIGNED' tail — resolved: the 7/31 grant superseded the 8/2 docket entry. | 2026-08-23 (owner session): `consumer_check.py` gained a **path-class demotion** for HISTORY/ARCHIVE-class files (built to LABOR's verified spec — post-pass over ALL of `stale` so it is NOT numeric-only, matching the file STEM because `_excluded()` matches components and misses `*_HISTORY` FILES). **Demote-and-say-why, never suppress (PAT-118).** ⚠️ **Stated limit, deliberately not widened:** it does NOT cover historical references living INSIDE live files — verified same session, all 5 of my own `48000` self-hits were correct historical text in live docs, and **no path rule can reach that class.** Nor a dated preprint (vintage in the filename) or a RESOLVED DOCKET row (state token on the row).",
+        "contexts": [
+          "DAEDALUS\tWill-ruled 2026-07-31 ~14:45 ET in PROME's session (packet 004a9f91) — gr"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/profiles/CREED.md",
+        "line": 5,
+        "text": "> Δ **2026-08-20 (spot edits, CREED consumer_check packet):** conv 23/45→**25/45** + VX 31→**32** + FIRED_LOG row folded into §2 (verified at CREED's artifacts; T-02 first fire + the registry-row-without-vector lesson recorded at the registry row). ⚠️ **The 8/11 banner below is now DATED in two claims: CREED is NOT dark (live 8/13 + 8/20 sessions) and the L3-read trigger HAS FIRED (first prediction-grading pass ran ~8/13, PREDICTIONS Status moved).** Full refresh = the L3 grading read, now DUE at next CREED-idle profile slot (queue after AEOLUS/WALTER per the work-volume key); hard floor 2026-09-25 unchanged.",
+        "contexts": [
+          " consumer_check packet):** conv 23/45→**25/45** + VX 31→**32** + FIRED_LOG row fol",
+          "r_check packet):** conv 23/45→**25/45** + VX 31→**32** + FIRED_LOG row folded into"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/profiles/HAWK.md",
+        "line": 5,
+        "text": "> ⚠️ **STALE — TRIGGER FIRED, unserviced (PR#5 2026-09-01):** EXIT_PROTOCOL.md gained a stamp (🧊 FROZEN 2026-08-10) = the named trigger · 45d dormant-book re-sweep due · body 8/07. Read the FLEET_MAP row (re-cut 2026-09-01) and `upgrades/PRODUCTION_REVIEW_2026-09-01.md` before this body. Refresh checkpoint: **2026-09-15**. *(Bannered by `scripts/profile_clock_check.py` + the PR#5 readers; a banner is a warning, not a fix — PAT-085.)*",
+        "contexts": [
+          " 2026-08-10) = the named trigger · 45d dormant-book re-sweep due · body 8/07. Read"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/runs/2026-08-28_WIRING_SWEEP/RUN_RECORD.md",
+        "line": 56,
+        "text": "| ⑪ hardcoded catalyst list in boot | grep literal ISO dates in 23 `boot.py` | **OZK `boot.py:32-40`** — 8 inlined rows, two already past (7/21, 7/31), the file's own comment `:43-45` says it \"silently lags\"; its 8/7 profile flagged the same. HENRY's 2 literals are self-test fixture dates (benign, and `finding_frozen_fixture_control_is_blind_to_resolution_faults` applies). **n=1 live / 23** (ZHAO's fixed 8/21) | OZK packet: replace with a `docket/CATALYSTS.tsv` read (ZHAO form + VULCAN owner-field fix) |",
+        "contexts": [
+          "7/31), the file's own comment `:43-45` says it \"silently lags\"; its 8/7 profile fl"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/runs/2026-09-08_BOOT_CATCHUP.md",
+        "line": 8,
+        "text": "| Profile clock | BROCK 48 days against 45; OSPREY 24 against 21. Other content-only triggers are not certified by this check. |",
+        "contexts": [
+          "file clock | BROCK 48 days against 45; OSPREY 24 against 21. Other content-only tr"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/runs/2026-09-08_PROFILE_CLOCK_REPAIR.md",
+        "line": 22,
+        "text": "`Profile vintage: YYYY-MM-DD` is the explicit whole-body declaration. Existing labeled build/body/refresh metadata remains supported. Partial Δs, receipt banners, future checkpoints, source dates and git commits do not reset the body clock. The parser reads anchored metadata across the file so a preceding Δ section cannot hide it; clock extraction reads named staleness/clock fields, not arbitrary prose mentions. Existing `45 d →`, `30-day clock`, `Day clock: 21d` and `or 21d` forms now work. Invalid or ambiguous metadata returns rc2; known other alerts remain visible. An unknown format is not certified as a day clock; NO-DATED-CLOCK remains an explicit coverage limitation.",
+        "contexts": [
+          "rbitrary prose mentions. Existing `45 d →`, `30-day clock`, `Day clock: 21d` and `"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/BRENT_REVIEW_2026-08-17.md",
+        "line": 46,
+        "text": "- **`profiles/BRENT.md` is materially stale and its OWN refresh trigger has fired.** It says *\"refresh when TRADE.md, THESIS version (currently v5.1), or the convergence matrix materially changes, or >45 days.\"* **All three fired:** THESIS v5.1 → **v5.6**; TRADE ~160 → **822 lines**; the convergence matrix was **archived**. It also still lists positions as *\"USO 2sh, STNG 2sh\"* — STNG was removed **8/04** as never-held. Only 20 days old, so the calendar leg is clean; the content legs are not.",
+        "contexts": [
+          "nce matrix materially changes, or >45 days.\"* **All three fired:** THESIS v5.1 → *"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/DAEDALUS_SELF_AUDIT_2026-08-17_READER_REPORTS.md",
+        "line": 485,
+        "text": "| **D-10** | `profiles/ORACLE.md` | **MED** | 45d clock expired 8/13 — flagged by DAEDALUS's own registry row and not serviced | REGISTRY row 14; ORACLE.md 6/29; 70 commits |",
+        "contexts": [
+          "| `profiles/ORACLE.md` | **MED** | 45d clock expired 8/13 — flagged by DAEDALUS's "
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md",
+        "line": 137,
+        "text": "- **profiles/VIOLET.md** — clock expires 8/18; body 26d; wrong: STATUS 113→210 ln/46KB; 9-vector/45-pt → **12-vector /55**; TRADE ok-claim = the false-green above; THESIS v3.9 two POV bumps behind; BOTTOM LINE gone; missing: 8/04 four-mechanisms session, 8/10 forum registrations (COR1M ≥8.43×2 · T9 · MOVE retire/re-arm · SKEW WITHDRAWN→RED), CANARY_MAP.md, artifacts/. Still no workbook/PREDICTIONS.tsv.",
+        "contexts": [
+          ": STATUS 113→210 ln/46KB; 9-vector/45-pt → **12-vector /55**; TRADE ok-claim = the"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-08-17_READER_REPORTS.md",
+        "line": 138,
+        "text": "- **profiles/HENRY.md** (8/07 rewrite, holds up): PUBLISHED.tsv lag FIXED/discharged; VX 45d→55d + false-green compound; inbox 4→22; **its lead-based staleness rule cannot fire on a dark agent — PAT-092 n=3.**",
+        "contexts": [
+          "ISHED.tsv lag FIXED/discharged; VX 45d→55d + false-green compound; inbox 4→22; **i"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md",
+        "line": 23,
+        "text": "| **YEYOU** (`AGENTS/YEYOU/`) | **3 / 2 — but true self = 1** | **2026-08-20** (`STATUS.md:3`) — **12 days** | **HOLD L3.** Its L4 gate is proof-of-consumption and there is a partial receipt but no second pass. Evidence: `AGENTS/YEYOU/STATUS.md` Watermark — all rows at `66ba48964`, DEFAULT still `fdb466786`, unchanged since 8/20. | \"L4 consumed-by-others NOT-ADJUDICATED; W4 digest sits at PROME unconsumed\" — **PARTLY RESOLVED**: PROME consumed one finding — commit `243c2b401` (8/20) \"PROME → YEYOU: YEY-012 sF qualifier APPROVED.\" Digest-level consumption still unbooked. \"13 commits post-`66ba48964` stay queued\" **TRUE and much worse** — queue is now ~2 weeks of fleet commits, watermark unmoved. \"per-push seat staffed in intent, not in fact\" **TRUE** — `reviews/REVIEW_LOG.tsv` = 28 lines, every row dated **2026-08-20**; nothing has mechanically reviewed any desk's pushes in the 12 days since. | \"L4 on PROOF OF CONSUMPTION (YEY-004 TERRY-cap the live candidate)\" — **PARTIAL** (YEY-012 approved, not YEY-004). \"next pass cadence = PROME/Will call\" — **no call made in the period**. | **FIRED, NOT SERVICED.** `profiles/YEYOU.md:4`: refresh \"when YEYOU runs its first live review cycle (REVIEW_LOG.tsv accrues a row — the L2→L3 verification event)… or > 45 days.\" It ran 8/20 and REVIEW_LOG accrued 28 rows; profile last commit **2026-07-04** = **59 days**. Both legs fired. DAEDALUS names YEYOU in its own expired-clock list (`AGENTS/DAEDALUS/STATUS.md:3` area, \"7 of 25 profile day-clocks EXPIRED… YEYOU\"). | **Routing caveat worth flagging:** 2 of YEYOU's 3 \"self-prefixed\" commits were written *by DAEDALUS* on YEYOU's behalf (`521c5bc40`, `208614239` — subjects say \"by DAEDALUS, idle-verified\"). YEYOU has authored exactly **one** commit ever. Any grade that reads the commit count as agent activity is reading DAEDALUS. | **A manual-cadence reviewer with no scheduler is a one-shot instrument.** YEYOU fired once, proved it works, and stopped — because nothing owns \"when does it run again.\" Compare RAV below: same failure, different mechanism. |",
+        "contexts": [
+          "he L2→L3 verification event)… or > 45 days.\" It ran 8/20 and REVIEW_LOG accrued 28"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md",
+        "line": 58,
+        "text": "| **VIOLET** | 16/39 (55) | banner 8/27 ~19:15; footer `STATUS.md:150` 8/27 ~14:20 | **HOLD** — L3 falsification is exemplary (`STATUS.md` ⓪: \"GATE-VIO-RV1 F2-KILLED… retired by its own registered pre-deployment kill, before a live trade\"), but L4 trade surface is 28d cold and thinnest self-commit count after CARL | no PREDICTIONS.tsv: **TRUE NOW** (`find . -iname PREDICTIONS*` → empty). VIX_THESIS 6/10 vintage: **RESOLVED** — `thesis/VIX_THESIS.md:1` now **v4.0**, written 8/27. consumer_check --self 3-of-3 FALSE: **UNVERIFIED** — `scripts/consumer_check.py` is a repo-root fleet script, no VIOLET-local run record found | BOTTOM LINE restored: **RESOLVED** (`STATUS.md:97`); write-back step now names it (`CLAUDE.md:7`); CSV freeze: **UNVERIFIED**; Independence pointer: **TRUE NOW** (only hit is a prose use at `STATUS.md:145`); TRADE footer: **TRUE NOW / worse** — `TRADE.md` last commit 2026-08-04, footer stamp 2026-07-28 = 34d; two-clock defect **RESOLVED** (both clocks 8/27) | \">45 days or L1–L4 / Path-A/B re-mark\" → **FIRED** (VIX_THESIS v3.9→v4.0 8/27 is a framing re-mark; profile body 7/22-vintage) | WALTER 22; TERRY — β publisher-side correction **owed**; HENRY ~9/1 cross-back forecast is VIOLET's own n=2 test (`STATUS.md` #5); DAEDALUS ratchet packet unanswered since 8/4 (`TRADE.md:112–117`) | *An estimator must fail independently of what it measures; the NULL is part of the spec* — and the desk applied it to kill its own first-ever armed gate |",
+        "contexts": [
+          "*RESOLVED** (both clocks 8/27) | \">45 days or L1–L4 / Path-A/B re-mark\" → **FIRED*"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md",
+        "line": 91,
+        "text": "| **BROCK** | 14 self / 33 inbound (47 total; WALTER 18, DAEDALUS 3, PROME/NEXUS/HANS 2 ea.) | **2026-08-28 ~21:0x ET** (`AGENTS/BROCK/STATUS.md:3`) — 4d stale | **L4 HOLD** (promote blocked externally, not structurally). Matrix 59/70 with all 14 vectors dated ≤8/28 and an explicit anti-double-count ruling (`STATUS.md:109`). | \"SOLE L5 blocker: no YEYOU bill — external\" **TRUE NOW / UNVERIFIED at desk**: zero \"YEYOU\" hits in BROCK's STATUS or CLAUDE — nothing local to grade; waivable-dormant stands. \"Structure otherwise exemplary (TRADE.md two-stated 7/27, PAT-023)\" **TRUE**: `trade/TRADE.md:1` FROZEN 2026-07-27 with a *condition-not-lifecycle* rationale naming why it is the file most likely to be cited into a trade. | ① STATUS 266/250 regressed → **RESOLVED**: 167 ln / 32,535 B after the 90,609 B rotation (`STATUS.md:5`). ② byte budget undeclared → **PARTLY RESOLVED / still TRUE as a *declared cap***: BROCK cites the 54,250 B read cap and \"⛔ Never raise the budget\" (`STATUS.md:5`) but carries no TERRY-style declared budget/soft-cap block. | **NOT FIRED.** Trigger = TRADE.md position layer or convergence matrix materially changes, or >45d (`profiles/BROCK.md:4`). Matrix HELD 59/70, position UNCHANGED (APO Dec $95P), TRADE.md frozen. Profile ~25d old. | Consumes LIQUID (HY OAS) and REGINALD (CCC/HY) with an explicit \"I cite, I do not copy\" fence (`STATUS.md:7`); SHADE's clean-close read corrected BROCK's own basis-mismatch estimate by ~4× (commit 8/28). | **Silent-truncation-by-byte**: BROCK's own line — 15 days of boots read *fragments* while every line-count guard passed (`STATUS.md:5`). Same root as LABOR/TERRY/REGINALD rotations; this is the period's fleet-wide lesson. |",
+        "contexts": [
+          "nce matrix materially changes, or >45d (`profiles/BROCK.md:4`). Matrix HELD 59/70,"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md",
+        "line": 94,
+        "text": "| **REGINALD** | 66 self / 57 inbound (123 total; WALTER 17, CREED 7, DAEDALUS 6, TERRY 5) — highest volume | **2026-09-01 at the settled close ~17:0x EDT** (`STATUS.md:6`) — current | **L4 → PROMOTE-CANDIDATE.** Live threshold graded by the owner at the registered instrument, with the *attribution* honestly separated from the fire: \"a LEVEL fire on a SECTOR day, not a mechanism fire\" (`STATUS.md:2`). That is L5 behaviour. | ① MI3/ML-REG screen REFUTED and carried on 15+ surfaces → **RESOLVED**: repair executed basis-first 8/13, 169-row cohort, >20% flag retired base-rated, matrix banner struck (`profiles/REGINALD.md:3`, PR#4 Δ). ② \"THESIS v1.4 own trigger expired\" → **RESOLVED by retirement, not refresh**: `thesis/THESIS.md:1` is now `⛔ RETIRED 2026-08-13 … pointer stub`, STATUS canonical, Will-ruled. ③ \"Brier/archive absent, 7 OPEN predictions 165d untouched\" — **SPLIT: Brier/archive TRUE NOW** (`MEMORY.md:134` still lists it as aged-unchanged, DAEDALUS-standing since 6/29); **\"untouched\" REFUTED** — rows expiry-swept 8/13, 2 given tracking reads 8/27, REG-06 deliberately re-marked 50→10% *before* submission (`workbook/PREDICTIONS.tsv:1`, commits `3ae52ac59`/`17fc6891f`). ④ \"three-way STATUS-internal macro contradiction\" **UNVERIFIED** — file is 254 ln with a ~15,000-char single line; I read the head, BOTTOM-LINE stamps and diff, not every section. ⑤ \"F1 UNDER-SCOPED 7→15\" **UNVERIFIED** at this depth. | ① THESIS v1.4 refresh → RESOLVED (retired). ② BOTTOM LINE re-stamp lag +19d → **RESOLVED**: stamp and prior stamp both dated, 9/1 and 8/28 (`STATUS.md:6`). ③ Brier/archive layer → **still TRUE**, the sole surviving L5 leg. ④ \"fence-② rides P-OZK-2 (unruled)\" → **UNVERIFIED**. Also: VX.tsv +126d stale → **RESOLVED**, refresh line now 2026-08-23 (`workbook/VX.tsv:1`). | **FIRED and SERVICED.** Trigger: matrix/EXIT RULES change, THESIS off v1.4, **the MI3 re-derivation lands**, or >45d (`profiles/REGINALD.md:5`). MI3 landed 8/13 and THESIS left v1.4 by retirement; profile was Δ-updated 8/17 for PR#4 but not since the 9/1 fire. | Feeds TERRY (card built off the fire), BOND (PNC headroom is the *named candidate instrument* for a peer's threshold **design**, explicitly \"not tripping a peer's threshold\"), CREED, HOMER, WAL, PROME (V1V3-ACCELERATE routed). | **`finding_banded_threshold_with_no_metric_surface_is_untrippable`** — BOND's \"advance-depletion narrative\" leg names no instrument/series/level: a threshold *family*, arguable and never gradeable (`STATUS.md:4`). Directly checkable fleet-wide against every registered trigger. |",
+        "contexts": [
+          "the MI3 re-derivation lands**, or >45d (`profiles/REGINALD.md:5`). MI3 landed 8/13"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/PRODUCTION_REVIEW_2026-09-01_READER_REPORTS.md",
+        "line": 95,
+        "text": "| **MARCO** | 36 self / 32 inbound (68 total; WALTER 20, DAEDALUS 7, AEOLUS 2) | **2026-08-22 ~17:2x ET** (`STATUS.md:2`) — **10d dark**, tied most stale | **L4 HOLD.** Substance is strong (57-vector VX, 1,928 probe values re-graded, self-caught parser twin bug) but the three handle-level L5 blockers are unmoved and the desk has been dark 10d. | ① \"no labeled BOTTOM LINE\" **TRUE NOW** — `Composite` at `STATUS.md:80`, `NET:` at `:27`, `Net:` at `:146`; no `## BOTTOM LINE`. ② \"§2 universal 5-pt + Independence handles absent\" **TRUE NOW** — zero grep hits for `independence`/`5-pt`/`universal` in STATUS. ③ \"no PREDICTIONS_ARCHIVE / calibration scoreboard\" **TRUE NOW** — no archive/scoreboard/calibration file anywhere under `AGENTS/MARCO/`. ④ \"shared ledger_staleness unwired\" **REFUTED** — `scripts/boot.py:54` registers the workspace-shared `scripts/ledger_staleness.py` with `[\"MARCO\"]`, plus the revised 8/17 rc contract at `:143,:222` and a mirrored regex at `tsvutil.py:221`. ⑤ \"ML.tsv has no in-file FROZEN banner\" **REFUTED** — `workbook/ML.tsv:1` opens `FROZEN 2026-08-11 — founding-research log … do not cite rows as current values`. | 8/21 write-back CLOSED-VERIFIED **TRUE** (FLOW-ENR-01, MIGRATION_PROXIES, boot.py ALERT/INFO split). Remaining: three L5 blockers **HOLD** (①②③ above). VX.tsv two-clock header **PARTLY MOVED** — `workbook/VX.tsv:1` now declares `STATE: LIVE (two-state rule (b): live WITH a boot-time staleness alert)`, i.e. a two-state declaration landed without breaking the positional parsers; the deliberate parser block still stands and I did **not** verify the parsers moved. STATUS-vs-VX Citizens vintage split **UNVERIFIED** (Citizens appears at `STATUS.md:141`, 7/25-vintage; I did not diff against VX). | **NOT FIRED / borderline.** Trigger: VX-MARCO-3.03 adjudicates or >45d (`profiles/MARCO.md:2`). Profile built 7/10 = **53d**, so the >45d leg **has fired and is unserviced**; VX-MARCO-3.03 not adjudicated in-window. | MARCO↔HAWK (S338 autos resolved, kill-on-sight routing both directions); MARCO→LABOR (construction-employment evidence that cut LABOR's vector 11 against LABOR's own book); CORAL FL one-figure rule. | **Docket-default-inversion**: \"my own docket had the DEFAULT BACKWARDS\" — a proclamation re-set the effective date in its own operative text, so \"tariff goes live\" needed no affirmative act (`STATUS.md:6`). Generalizes to every docketed \"pause expires\" row in the fleet. Worth routing to PROME/DOCKET. |",
+        "contexts": [
+          "ger: VX-MARCO-3.03 adjudicates or >45d (`profiles/MARCO.md:2`). Profile built 7/10",
+          "file built 7/10 = **53d**, so the >45d leg **has fired and is unserviced**; VX-MAR"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/PROME_AUDIT_2026-07-28_readers/reader_tools_findings.md",
+        "line": 24,
+        "text": "| 10 | PROME/tools/spine_audit.workflow.js | 35–42 | 🟠 | **Spine set omits a boot-read file, contradicting its own comment.** Comment: *\"Keep in sync with PROME/BOOT.md's boot sequence\"* — but `PROME/HANDOFF.md` is **BOOT.md step 1** (`45:1. **Read PROME/HANDOFF.md**`) and is absent from `GROUPS`. It's a 40KB append-on-top prose doc — exactly the rot profile its own L90 names (*\"append-on-top docs rot in the body while the header stays current\"*). All 10 listed files + all 6 CANON anchor paths verified to EXIST. | Add HANDOFF.md (pair w/ ROSTER.md → 6 readers), or state why excluded. |",
+        "contexts": [
+          "ANDOFF.md` is **BOOT.md step 1** (`45:1. **Read PROME/HANDOFF.md**`) and is absent"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/VIOLET_CARD.md",
+        "line": 46,
+        "text": "> **DO-NOT-TOUCH (comprehension preserved — full list in `profiles/VIOLET.md §5`):** the 45-pt composite (blueprint-endorsed local scale — 5-pt already added alongside, never flatten); SIGNAL_INTAKE.md kept ACTIVE THRESHOLDS (documented divergence from CARL); the three-way memory partition (MAINTENANCE structural / CHANGELOG analytical / SCRATCH ephemeral); CALENDAR↔CATALYSTS \"human twin\"; KB-VIO-### IDs (don't renumber) + KB Admiralty≠Epistemic axes; M1:M2 T-1 convention + `--allow-m1m2` gate + TICK/SETTLE basis; fred_fetch merge-on-write cache (don't glob); `final_5d_change`≠`20d slope`; episode-% must name its anchor; outbox 🔴-only by design. **A rich quant agent — do NOT impose skeleton scaffolding.**",
+        "contexts": [
+          "in `profiles/VIOLET.md §5`):** the 45-pt composite (blueprint-endorsed local scale"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      },
+      {
+        "file": "AGENTS/DAEDALUS/upgrades/WAR_TRIAD_REVIEW_2026-08-15_READER_REPORTS.md",
+        "line": 95,
+        "text": "**Read in full:** `profiles/HAWK.md` · `AGENTS/HAWK/STATUS.md` · `NEXUS_BRIEF.md` · `workbook/EXIT_PROTOCOL.md` · `domain/war-risk/CROSS_THEATER_WAR_RISK.md` (first 45 of ~120 ln) · the full uncommitted diff · commit metadata + diffstats for all 8/15 HAWK commits · `AGENTS/FALCON/STATUS.md:4,23,58` and `PROME/GATES.tsv` GATE-FALCON-001 (for the R3 cross-check).",
+        "contexts": [
+          "/CROSS_THEATER_WAR_RISK.md` (first 45 of ~120 ln) · the full uncommitted diff · co"
+        ],
+        "disposition": "Different metric/unit or explicitly dated history; not the profile population."
+      }
+    ]
+  }
+]

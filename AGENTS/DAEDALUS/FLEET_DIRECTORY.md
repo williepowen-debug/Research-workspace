@@ -10,7 +10,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| PROME | Meta | L5 | M | 2026-09-03 | Coordinator / chief of staff | L5 CONFIRM at judgment-tail sweep #2 (9/6): the sweep RULES whether 'ow… |
+| PROME | Meta | L4 | M | 2026-09-08 | Coordinator / chief of staff | PROME repairs O1/O2/O3/S1/S2 with source→render verification and suppor… |
 | WALTER | Utility | L4 | H | 2026-09-01 | Signal & news routing | L5 on: (a) Will's word on the push binding · (c) re-key the 12(f) handl… |
 | NEXUS | Utility | L5 | M | 2026-09-03 | Cross-agent synthesis | Conf M→H when, in one session: CONFIRMED.md C-36 row |
 | RED | Utility | L5 | M | 2026-09-03 | Adversarial red-team | Keep L5/M pending post-9/12 row-level VX currency read and joint vocabu… |
@@ -64,7 +64,7 @@
 
 | Agent | Class | Lvl | Cf | Scored | What it does | Missing / next |
 |---|---|---|---|---|---|---|
-| DAEDALUS | Meta | L5 | H | 2026-09-05 | Fleet architect — design / structure / maturity / lifecycle | Sustain L5: profile refresh queue (NEXUS→RED→PROME 9/08 |
+| DAEDALUS | Meta | L4 | M | 2026-09-08 | Fleet architect — design / structure / maturity / lifecycle | Recover sustain evidence: service six overdue profiles and three owner-… |
 | RAV | Meta | L2 | M | 2026-09-01 | Deep factual/analytical reviewer + bounded repair (Codex, Will-driven) | L3 on the FIRST §5 run report in AGENTS/RAV/runs/ (Will-driven |
 
 ---
