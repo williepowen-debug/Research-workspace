@@ -1,43 +1,56 @@
-# OSPREY THESIS — v0.1 (spinout-seed, 2026-07-12)
+# OSPREY THESIS — v1.0 (2026-09-08)
 
-> ⚠️ **STALENESS BANNER, added 2026-08-15; DATED TRIGGER ADDED 2026-08-20 (DAEDALUS action 8) — this file is materially out of date and a v0.2 pass is still OWED, not done here.**
->
-> **📅 v0.2 OWED BY 2026-09-05.** *A banner with no clock is a warning, not a fix (`finding_banner_is_a_warning_not_a_fix`) — that is why this date exists and why it is a DATE rather than "next session."* Date chosen so v0.2 is written **after** the two open dependencies that would otherwise force an immediate rewrite: HAWK's refining-offline **basis-pair audit** (which gates the ~33% band re-centre) and the **persistence question** on the 3.58 M bpd export decline (~8/25 weekly print). **Reported to PROME 2026-08-20 for a registered row** — PROME has been expecting this date. If 9/5 passes without v0.2, that is a hygiene defect to flag, not a date to quietly extend.
->
-> ⚠️ **Superseded-in-substance since this banner went up:** Channel 2 was **upgraded 4 → 5** on 2026-08-20 (Will's word) and the decoupling read below is contradicted by a **3.58 M bpd** export print. **Do not cite this file's channel scores or Brent range as current.** The "decoupling read" below cites **"Brent has stayed ~$76-79"** — as of this session, Brent has run **$86-100+ since ~7/23** (per BRENT and CLAUDE.md EXIT RULES §3's own >$85 rail), so that specific sentence is FALSE as written and must not be cited as current. The three-channel framework and cross-agent links below remain the live model (STATUS.md is the current instance); only the **price anchor and the "decoupling" framing built on it** are known-stale. Do not silently patch — this banner exists so the next real pass fixes the whole "decoupling read" paragraph against current levels rather than a single number.
-
-
-
-**Status: v0.1 SPINOUT-SEED.** Built at OSPREY's creation from HAWK's existing STATUS/SUMMARY/outbox content only — not a fresh research pass. Owner firms this up at first live sessions. Unlike FALCON (which inherits a mature, versioned THESIS.md wholesale from HAWK — HAWK's thesis corpus was 100% Iran-theater), OSPREY has no equivalent inherited document: HAWK's Russia coverage lived as an "off-core" STATUS paragraph + the energy-strike ledger's analysis layer, not a standalone thesis file. This is that content promoted to a first thesis document, not new research.
+**Status: v1.0 — first owner-written version.** Supersedes the v0.1 spinout-seed (2026-07-12) whose staleness banner set a v0.2 due date of **2026-09-05**; this file lands **9/8, three days late — recorded as the hygiene defect the banner said it would be**, not quietly extended. Written after the two dependencies the banner named resolved: HAWK's basis-pair audit landed 9/8 and the export-decline persistence question printed a sixth week (8/25). **Live state is `STATUS.md`; this file is the model.** Falsification lives in `CLAUDE.md` § EXIT RULES (single home; this file only points).
 
 ---
 
-## CORE THESIS
+## 1. Core thesis
 
-Russia's war-economy energy exposure runs through **two parallel channels, not a sequential switch**: (1) the **refinery/products campaign** (Ukraine strikes on Russian refining capacity — Omsk/Saratov/Tatarstan/Bashkortostan and others), which degrades Russian *domestic fuel* supply but structurally **FREES crude for export** (bearish-to-neutral for Brent); and (2) the **crude-export-terminal/tanker campaign** (Baltic/Black-Sea port strikes + the newer shadow-fleet tanker campaign), which — if it escalates past "shot at, limited damage" into sustained loadings halts or confirmed berth destruction — would be Brent-bid (a genuine crude-supply-side shock).
+Ukraine's campaign against Russian oil runs through **three parallel, independently scored channels** — not a sequential switch and not a scenario ladder:
 
-**As of 2026-07-12, both channels are active in parallel** (corrected same-day from HAWK's earlier read that channel 2 was dormant — see `domain/energy-strikes/ANALYSIS_2026-07-12.md` Pattern ①). Channel 1 is well-evidenced and quantified (~1/3 of Russian primary refining capacity offline, crude exports at a 2026-high 3.83M bpd). Channel 2 has re-activated (Primorsk, NOVATEK-Ust-Luga, Vysotsk, Kavkaz, St-Petersburg strikes 6/20-7/10) but damage so far is **limited and fast-repair** — the valve is being shot at, not closed. A third dimension — **industrial-scale Ukrainian KINETIC strikes on Russian shadow-fleet tankers** (Sea of Azov + Black Sea, 7/6-12 ongoing) — adds a maritime leg that is itself MIXED: crude tankers (world-market relevant) vs. Azov fuel tankers resupplying occupied Crimea (military logistics, not world crude).
+1. **Refineries / products.** Strikes on refining capacity degrade Russian *domestic* fuel supply. In the first phase of the campaign (spring–mid-July 2026) this **freed crude for export** — a products/crack story, bearish-to-neutral for Brent.
+2. **Crude-export terminals.** Baltic (Primorsk, Ust-Luga, Vysotsk) and Black Sea / Azov (Sheskharis-Novorossiysk, Tuapse, Taman, CPC) loading infrastructure. The Brent-relevant channel *if* barrels actually stop leaving.
+3. **Shadow-fleet tankers and the port perimeter.** Kinetic strikes on hulls in the Russian trade — Russian-flagged, "shadow", and (since August) Western-managed tonnage — plus Russia's counter-strikes on Ukrainian-port shipping.
 
-**The decoupling read:** Brent has stayed ~$76-79 through all of this because the market is correctly pricing that the crude-supply channel, while now actively targeted, has not yet delivered a measurable world-crude disruption. The refining-offline headline (~1/3 capacity) is a product/crack story, not a Brent story, and the market discounts it accordingly.
+**What the campaign has actually done to world crude (the finding that reorganised the model on 8/20):** it has removed barrels **without destroying any capacity**. No crude-export berth has been confirmed destroyed; every individual halt reversed in 2–7 days. Yet Russian seaborne crude fell from a wartime high of **4.22 M bpd (4-wk to 7/5) to 3.46 (to 8/23), six consecutive weekly falls, ~-760 kbpd** [Bloomberg tanker-tracking]. The mechanism is **deterrence of offtake at the perimeter** (`FLOW-OSPREY-03`): a credible threat at or near a berth → charterers, owners and insurers decline → loadings stop → shore tanks fill → the terminal stops accepting pipeline deliveries → upstream cuts. It is observable at every step except the last and it is **symmetrically fast to reverse**. HAWK's sentence, adopted verbatim so consumers hear one phrasing: **BARRELS DESTROYED = zero; BARRELS NOT SHIPPED = large, rising, reversible.**
 
-## THREE CHANNELS (working framework — NOT an A/B/C/D scenario ladder)
+**The products side is the durable half.** Refinery runs printed **3.6 M bpd in July and ~3.8 in August** against a 5.3–5.5 norm [EA Analytics via Bloomberg] — roughly **30% below norm on the runs proxy**, which is the canonical refining-offline band (**~30%, 25–35% [EST], KB-OSPREY-029**). Seaborne diesel/gasoil exports ran ~80–150 kb/d in August, ~80% below the seasonal norm [Vortexa via Bloomberg]; producers' diesel exports are banned to 9/30, traders' diesel and gasoline to 1/31/27, jet to end-November. Russia is tolling its own crude through a Kazakh refinery. **This half is not reversible in days; it is reversible in repair cycles of 2–3 weeks per plant against a strike cadence of ~20 refinery hits a month.**
 
-Per the HAWK split spec (§2), OSPREY's framework is the **crude-vs-products channel model + flip-triggers**, not a scenario ladder (that construct is FALCON's Iran-war tool). The three channels:
+## 2. What prices, and who owns the price
 
-1. **Refineries/products** — degrades domestic fuel, frees crude for export. Currently FIRING (~1/3 offline). Bearish/neutral Brent.
-2. **Crude-export terminals** — Baltic (Primorsk, Ust-Luga) + Black Sea (Novorossiysk) crude-loading infrastructure. Flip-trigger #2 (SUMMARY/ANALYSIS Watch table) FIRED 2026-07-12 but damage limited. Bullish-Brent IF it escalates to sustained disruption.
-3. **Shadow-fleet tankers** — the newest channel (surfaced 7/12): kinetic destruction of Russian oil tankers, MIXED crude-world-market vs. Crimea-fuel-logistics. Tracked forward via OSP-01.
+The channel model's market-relevance premise is that **the crude channel prices on Brent and the products channel prices on cracks, and the two must not be merged.** OSPREY owns the *inputs* — strike rows, loading status, the export series as an observable, the offline band — and **BRENT owns every price** (Brent, cracks, freight, floating storage, Urals). A Brent move is attributed by BRENT/FALCON; the 7/23 $100 print and the 9/1 move were Iran-primary, with this theater a named secondary driver at most (theater-attribution guard). The model would be **falsified** by a confirmed physical crude disruption out of this theater that Brent does not reprice (EXIT RULES §2, model-falsification clause) — that has not been tested, because no disruption here has yet been *physical*.
 
-## Cross-agent links
+## 3. The diplomatic overlay
 
-- **BRENT** — owns oil price/fundamentals; OSPREY feeds military/infrastructure inputs (per OIL-HANDOFF banner, inherited from HAWK). Two 7/12 outbox packets to BRENT (crude-terminal flip-trigger correction + tanker-campaign notice) are the freshest theater reads as of this writing — see STATUS.md.
-- **HAWK (synthesis)** — routine reads route through HAWK's cross-war reconciliation; acute 🔴 signals go direct to BRENT with HAWK cc'd (per build spec §5/§6).
-- **RED** — steelman backstop on any OSPREY read that leans decisively one direction, same discipline HAWK applied fleet-wide.
+On **8/8** a US-brokered understanding had Ukraine agree not to strike **CPC infrastructure** or **non-Russian tankers not carrying Russian cargo, not Russian-owned, not under Ukrainian sanctions**. It removed the campaign's most-instrumented target (the CPC gate, `GATE-OSPREY-001`) by diplomacy rather than attrition, and it is **fragile by construction**: unacknowledged by Kyiv, holding on observed behaviour only, a restraint free to grant and free to revoke. It has survived one clean test (Skiros 8/16 — a non-Russian hull *carrying Russian crude*, the carve-out exercised) and carries one open test (SIREN 9/3 — cargo state unpublished). It **has not been formalised or extended** as of the ~9/8 rung. It also shaped the campaign: since 8/8 Ukraine's perimeter strikes have concentrated on Russian hulls and Russian-trade hulls, and the Russian terminals themselves (Ust-Luga twice, Sheskharis, Taman) rather than CPC.
 
-## What would change this thesis
+## 4. What the model has gotten wrong, and what changed because of it
 
-See CLAUDE.md EXIT RULES (Russia-coded, **v1.0 as of 2026-07-12 PM** — firmed from thin-at-launch in round 2 of the first live session) for the full falsification layer: two-leg channel-kill conditions with measurable resolvers, thesis-kill (incl. a model-falsification clause — a genuine world-crude event WITHOUT Brent repricing breaks the channel model's market-relevance premise), prediction-retirement paths for OSP-01/02/03, and time-based review triggers. CLAUDE.md is the single home for these rules; this section deliberately stays a pointer to avoid drafting the same content twice inconsistently.
+- **OSP-01 FAILED (7/31):** the tanker campaign *did* reach a named Russian crude terminal (Sheskharis) — while this desk's attention sat on the registered CPC gate (LESSONS 5).
+- **OSP-05 FAILED on a construct defect (8/20):** a mechanism-enumerating test (destroyed capacity / sustained interdiction) graded 0-of-2 in the week the outcome it was built for arrived by an unenumerated route. **Every N-leg test now carries an outcome-measuring leg**, and `OSP-06` names its instrument at registration.
+- **Two ledger-completeness failures found late** (Taman 7/30 after 21 days; the Yanina sinking 8/1 after 38 days): a sweep anchored on a facility list or an object class certifies coverage it cannot deliver. **The Channel-3 instrument is now a dated-window maritime bulletin run first**, before any name query (LESSONS 7, 8).
+- **Two label failures (9/2, 9/8):** a DARK mark licensed a ~45%-stale floating-storage figure, and an uncited June table cell travelled as a "May-vintage" Urals discount. **A label is not provenance**; this desk now carries no figure it cannot trace to a KB row.
+
+## 5. Channel state and what to watch (as of 2026-09-08 — `STATUS.md` is canonical)
+
+| Channel | Mark | What would move it |
+|---|---|---|
+| Refineries/products | **4 🔴** | Up: sustained runs <3 M bpd or an independent >40% offline aggregate. **No downgrade path exists** (OWED-15). |
+| Crude-export terminals | **5 🔴** (Will, 8/20, liftings limb) | **No downgrade path exists** — the largest spec hole on the desk. A snap-back print (≥3.9 M bpd, OSP-06's bar) is the evidence a downgrade would need. |
+| Shadow-fleet / perimeter | **3 🟠** | Up: a named crude tanker sunk/total-loss, or a war-risk *buyer* pullback (three adjacent withdrawals — MSC, FESCO, the standard war-risk market — none a buyer). |
+
+**The single most important observable is the weekly Bloomberg seaborne-crude print: a seventh week, or the snap-back.** Second: any strike on CPC infrastructure or a non-Russian hull without Russian cargo (the understanding breaking). Third: the September runs print (~4.2 expected) — if it lands, the band's *lower* edge, not its centre, becomes the question.
+
+## 6. Known holes in the model, written down so they are distinguishable from blind spots
+
+- **No downgrade path for any channel** (approved to build; blocked on BRENT+HAWK score semantics).
+- **Channel-3 kill letter has no geography qualifier** (Mediterranean strikes on Russian hulls, 9/5-6) — routed, not self-ruled.
+- **Gas/LNG** is represented (`VX-OSPREY-GAS-01`, `FLOW-OSPREY-01`) but thinly swept; **vol/credit** transmission (`FLOW-OSPREY-02`) is seeded and has never had an own-theater observation.
+- **Druzhba / EU** remains a pointer, not a tracked series.
+- The **war-risk rate** is event-driven observable and has printed twice in seven weeks; the TD6 freight proxy is a tripwire, not a level.
+
+## 7. What would change this thesis
+→ `CLAUDE.md` § EXIT RULES (v1.0, firmed 7/12; §2 sequencing repair 8/10; §3 attribution clause 8/15; re-read 9/8). Not duplicated here.
 
 ## Provenance
-
-Seeded 2026-07-12 from: HAWK `STATUS.md` line-49 off-core Russia paragraph (3-channel frame), `domain/energy-strikes/SUMMARY.md` (ported to `ANALYSIS_2026-07-12.md`), and HAWK outbox packets `2026-07-12_to-BRENT_crude-terminal-flip-trigger-fired-CORRECTION.md` + `2026-07-12_to-BRENT_ukraine-tanker-campaign.md`. No new research was performed to write this file — mark v0.1 until OSPREY's first live session does an independent pass.
+v0.1 seeded 2026-07-12 from HAWK's STATUS/SUMMARY/outbox content. v1.0 written 2026-09-08 from OSPREY's own record: `STRIKES.tsv` (98 rows, swept-complete 9/8), `KB.tsv` (KB-OSPREY-001..090), `PREDICTIONS.tsv` (OSP-01..06), the dated `ANALYSIS_*.md` series, and `FLOW-OSPREY-03`. Prior version preserved in git history (`git log -p -- AGENTS/OSPREY/thesis/THESIS.md`).

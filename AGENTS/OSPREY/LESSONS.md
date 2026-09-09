@@ -76,6 +76,7 @@ Not originally a LESSONS.md item (it lived in HAWK's `domain/energy-strikes/SUMM
 1. **HAW-15 (7/12, the founding lesson)** — searched the prediction's **named terminals** instead of the mechanism. Wrong twice in one day.
 2. **8/16 (*Skiros*)** — a **hull-class** check ("is it shadow-fleet?") would have declared a channel kill on a false quiet; §1's letter says *"vessel-strike incident"*, unqualified.
 3. **8/24 (this session)** — a **vessel-name / keyword** check returned a false quiet on a 21-day clock four days from expiry.
+4. **8/1 YANINA, found 9/8 (38 days late)** — the 8/1-8/10 sweep was anchored on an OBJECT CLASS ("ALL refinery-class") and missed a confirmed **sinking** of a Russian container ship 130 nm off Novorossiysk; Windward's dated vessel list surfaced it, not any query of mine. Same shape as 1-3, one level up: a class anchor is a name anchor with a wider net and the same hole.
 
 Each time the fix has been *narrow the gap in the name list*; each time the list was not the problem. **Adding another vessel name is the same error with one more name.**
 

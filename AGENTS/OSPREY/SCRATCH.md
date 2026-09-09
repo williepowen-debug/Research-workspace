@@ -28,11 +28,12 @@
 - **WARRISK:** data clock → 8/21 (level-corroboration), re-pull → 9/8, prior absence rows corrected in place, Gibson/Noah added to the set, +4 rows. VX/FLOW re-pull clocks → 9/8 (no state change; data clocks held, said why in the commit).
 - **STATUS second rotation:** 27,150 → 18,341 B (56% of budget); 9/2 file archived verbatim, crc32 928851426; rule-18 census 21 in → carried/closed by name + 3 new.
 - `ANALYSIS_2026-09-08.md` regenerated. **3 packets:** PROME · HAWK · BRENT. **No live recipient to doorbell** (ListAgents: only FALCON live).
+- **SECOND PASS (same day, Will: "get OSPREY's files caught up"):** residual sweep → **4 backfill rows** (Kstovo 6/24 · **YANINA SUNK 8/1** · BOURDA 8/1 · Saratov 8/2) + 3 rows corrected (Tuymazy operator confirmed; Rostov 7/27 reclassified non-oil; Tatarstan 9/7 stripped of a July item, trap #14) · **KB Stale_By sweep: 32 rows dispositioned by ID** (DAEDALUS action 4 closed) · Urals provenance FOUND (HAWK's uncited June SUMMARY cell; KB-076 corrected by KB-088) · SIREN on the War & Sanctions portal (KB-089) · **VX/FLOW content refreshed** (FLOW data clock → 9/8 on position moves; VX bands unchanged, clock held) · **THESIS v1.0** written (v0.2 was owed 9/5 — 3 days late, recorded) · CLAUDE.md pointers repaired (§4 OSP-06 path, §5 re-centre update, kill-rail re-read stamp, FILES table) · SOURCES +2 sections · MEMORY +3 · LESSONS 8 instance 4 · auto-memory instance 3 · **outbox `delivered/` sweep (16)** and research-file retirement (DAEDALUS action 7 + root Data Hygiene) · KB-084..090.
 
 ## NEXT SESSION (dated, future-verifiable)
 1. **~9/14-15 — Palaemon 7-13 Sep publishes:** run it FIRST (Channel-3 clock is 4/21 today; do not grade any quiet off name searches).
 2. **9/15 — GATE-OSPREY-001 review (PROME holds the row):** apply the WQ-172 window test; input = the 9/8 rung grade (KB-071). Legs (a)/(c): re-verify at named sources, not by default.
-3. **OWED-31 — SIREN:** one targeted query (cargo state at the strike; any Ukrainian claim). Also the 9/7 "Black Sea target" and the 9/7 Tatarstan facility.
+3. **OWED-31 — SIREN:** one targeted query (cargo state at the strike; any Ukrainian claim). Also the 9/7 "Black Sea target", the 9/7 Tatarstan facility, and **the first IMS-managed tanker struck in early August** (Splash247: Skiros was "the second") — a possible fifth gap in the 8/1-8/10 window.
 4. **Export print:** retry the 4-wk to 8/30, 9/6 and 9/13 (pub ~9/15) — Bloomberg weekly, EnergyConnects, Moscow Times, Yahoo relays. If still unreadable by 9/22, tell BRENT the series has been unreadable to this desk for a month; OSP-06's VOID path still does not arm (Bloomberg publishes).
 5. **Band:** if HAWK/PROME act on the withdrawal, update KB-029's anchor sentence to cite July 3.6 + August 3.8. If September prints ~4.2 (EA projection, ~early Oct), that is a **re-derivation** trigger for the lower edge — not a re-centre.
 6. **OWED-15 downgrade path** — Channel 2 at 5 🔴 with no way down, 19 days. Still the largest spec hole; still blocked on BRENT+HAWK semantics.
@@ -45,7 +46,7 @@
 - 🟠 **§1 geography qualifier (OWED-32)** — routed; clock published both ways until ruled.
 - 🟠 **Buyer-pullback limb (OWED-30)** — three adjacent withdrawals, none a buyer; spec observation routed.
 - 🟠 **AWRP** — 18-day gap from the corrected 8/21 baseline; TD6 halved with no print.
-- 🟡 EU/Druzhba still thin · un-rowed residual extended (Saratov 8/2-vs-8/9; Tatarstan 9/7; Black Sea target 9/7) · DAEDALUS actions 4 & 7 open · counter-campaign taxonomy awaiting Will.
+- 🟡 EU/Druzhba still thin (nothing after the 4/22 resumption; checked 9/8) · un-rowed residual now 3 items (Tatarstan 9/7 facility; Black Sea target 9/7; first IMS hull early Aug) · DAEDALUS actions 4/6/7 ALL closed · counter-campaign taxonomy awaiting Will · **LESSONS.md sits at ~82% of the read budget (rotate-tier) — a hot/cold split is owed, not done here.**
 
 ## PREDICTIONS DUE / DECISIONS PENDING
 - **OSP-06 — the only OPEN row.** Window Sep 2 → **Oct 15**, 45%. Newest readable print 3.46 (8/23). WQ-172 note appended; the world-state test governs; ceiling 10/8-10/15 stands.

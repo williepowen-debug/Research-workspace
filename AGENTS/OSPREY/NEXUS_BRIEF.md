@@ -19,6 +19,7 @@
 ## WHAT I GOT WRONG, PUBLISHED RATHER THAN BURIED
 - **The Urals "~25% discount, May vintage" I carried DARK for 39 days has no source in any OSPREY or HAWK KB row**, and conflicts with Reuters 6/9 on basis (Urals at $7-8 **premiums** delivered Asia in Apr-May). Probably the February $28/bbl FOB Argus print re-vintaged. **RETIRED.** A DARK label certified a vintage the figure never had.
 - **Two AWRP "no print" rows (8/20, 9/2) were wrong for 8/21→9/2** — the print sat in a ninth outlet my eight-outlet set did not include. A source set is an enumeration (LESSONS 7); corrected in place.
+- **The ledger missed the campaign's first confirmed SINKING of a Russian commercial ship for 38 days:** YANINA (FESCO/Rosatom container ship) sunk by naval drones 130 nm off Novorossiysk on 8/1, plus the Greek Aframax BOURDA struck near Taman the same day — both inside a sweep window headed "ALL refinery-class". Backfilled 9/8 (KB-084/085); no trigger fires (not a tanker), no clock changes. Same-session second pass also backfilled Kstovo 6/24 and a separate Saratov 8/2 halt, and found the Urals ~25% figure's origin: an uncited cell in HAWK's frozen June SUMMARY table.
 
 ## CHANNEL STATE (marks CARRIED; none moved, none movable by me)
 | Channel | Score | Kill clock (§1) |
@@ -27,7 +28,7 @@
 | 2 · Crude-export terminals | **5** 🔴 | newest row 9/1 — **7 of 30 days** · **no downgrade path exists (OWED-15)** |
 | 3 · Shadow-fleet tankers | **3** 🟠 | newest in-theater row **9/4** — **4 of 21** (2/21 on the unqualified reading; §1 has no geography qualifier — routed, OWED-32) |
 
-**Thesis-kill theater clock: N/A — no channel has ever been individually killed.**
+**Thesis-kill theater clock: N/A — no channel has ever been individually killed.** `thesis/THESIS.md` is now **v1.0** (9/8) — the model as it has actually operated; STATUS stays canonical for state.
 
 ## FOR OTHER DESKS
 - **BRENT** 🔴 — export print unreadable (3.46 as of 8/23) · August runs 3.8 · TD6 halved with no rate print · standard market out of Black Sea war risk · **Urals ~25% retired, I had no source** · L140: Q1 concur, Q2 re-timed to Oct 1 with an August diesel baseline and a named instrument.
