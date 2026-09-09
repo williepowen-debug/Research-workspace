@@ -1,0 +1,111 @@
+# SAM MEMORY archive
+
+Cold history; not a boot read.
+
+
+## 2026-09-09 — Complete handoff before boot corrections
+
+Snapshot SHA256: `504c26c292e466cf7412d3d309b1198e6c2a1ca36f9adf0404b4223e33e4c01f`. Historical instructions below are superseded by the active file.
+
+# SAM MEMORY
+
+*Curated cross-session memory. Read at boot, write before finishing. Cap at 100 lines — promote to thesis or auto-memory, never just accumulate.*
+
+---
+
+## Feedback
+- [2026-03-31] **Will values boot transparency** — wants to know what SAM read, in what order, and whether the process is working. Don't orient silently; confirm orientation. · **Thinks long-term about infrastructure** — address scaling and durability, not just immediate need.
+- [2026-04-02] When explaining complex financial mechanics, **Will needs the simplified version first.** Plain-English punchline, then layer in detail only if asked.
+- [2026-04-11] **Script-defined alert thresholds MUST match THESIS scenario bucket definitions** — not invented independently.
+- [2026-04-11] Will prefers intellectually honest corrections over doubling down. One data point rarely justifies 15-25pp probability shifts.
+- [2026-05-25/28] **Will wants a gap-check before writebacks** — he asks "any other searches?", which surfaces what the synthesis missed; build a "what's still missing?" beat into multi-file passes. · **He likes flag-then-fetch for big refreshes** — flag stale items first (review), THEN fetch tier-by-tier.
+- [2026-06-04] **Subagent-trio habit run pays off immediately** — first parallel-spawn (METSUKE+KOYOMI+KURA, teams-mode) caught a TRADE:246 Rule #3 propagation gap I missed, primary-source verified Sato characterization, surfaced KURA-KOYOMI dependency pattern. Consistency-over-yield validated even on low-watermark days (KURA Run 4 was "low-yield" but produced KB-185 + 2 auto-memory candidates). Codified pattern. **[RE-VALIDATED 2026-07-02 at the opposite (high-watermark) extreme** — trio caught the modal-band contradiction, the Sep-18 window-end/BOJ-MPM coincidence, the 2025-base CPI discontinuity, and cleared the FLOW deadline breach. Performance review → MAINTENANCE 2026-07-02 entry. **Spawn guidance:** routine KOYOMI/KURA syncs run clean on cheaper model tiers (KOYOMI Runs 8-11 spanned Opus/Sonnet/Fable, all clean) — reserve the big model for post-pivot METSUKE runs + audit-heavy KOYOMI runs. METSUKE now has a named `verify-pass` mode (spawn same-session as any SAM inline sync); KURA default is now `full`.]**
+
+## Findings
+- [2026-05-12] **Read intraday extremes, not just closes.** Add intraday-range alert when single-day range >2.5y (Apr 30 intervention misread = misattribution to Tokyo session).
+- [2026-05-29] **Boot-slimming wins only when content is DORMANT or SETTLED, not merely duplicated.** Test before cutting: "is this content load-bearing for the *current* thesis story?" If yes, leave it even if duplicated.
+- [2026-06-04] **Sato verify pattern — agent-claimed characterizations need primary-source confirm BEFORE propagation into multiple docs.** Rule #3 instance: news-sweep verify agent claimed "Sato joins Jun 16" → I propagated to 4 docs; KOYOMI Run 6 primary-source verify caught the date error (actual Jun 30) + confirmed the rest. **Default: when an agent-output drives multi-doc cascade, primary-source verify the load-bearing facts BEFORE the cascade, not after.**
+- [2026-06-09] **boot.py "Days since touch: X → Nd, MOF Y" — parse carefully.** "Nd" = days since LAST touch of level X, NOT consecutive days above X. "MOF Y" = the most recent MOF op that pushed below the prior level (labels now MonYYYY after Jun-10 script fix). **Default: never propagate script-derived counts/dates without re-reading the script's source semantics; verify price history independently before claiming "Nth consecutive day" or "N days above X."**
+- *(Promoted to auto-memory Jun 10-21, full text there, indexed at `~/.claude/projects/-home-willi-Research-workspace/memory/MEMORY.md`: [[feedback_suspect_fresh_pull_over_curated_record]] · [[finding_ohlc_verify_before_session_claims]] · [[finding_pre_registration_discipline_through_corroboration]] · [[finding_boot_sweep_macro_regime_context]] · [[finding_comprehensive_grep_over_sampling]] · [[finding_risk_control_separate_from_sizing]].)*
+
+*Calibration / process lessons live in auto-memory: see [[finding_threshold_vs_mechanism]], [[feedback_audit_behavioral_ranking]], [[feedback_doc_routing_data_drops]], [[finding_followup_audit_pass]], [[finding_shallow_clone_false_fork]], [[feedback_position_cost_basis_not_authoritative]], [[finding_thin_liquidity_prediction_market_discipline]], [[finding_subagent_baseline_audit]], [[finding_teams_mode_iterative_tasks]].*
+
+## References
+- Primary data sources + scripts → `CLAUDE.md` boot step 7 (canonical list). · Vol/options: CME CVOL (JPVL) license-gated; FXY proxies auto-pulled (caveat KB-183 — **read sign, not level**).
+
+## Session Notes
+
+### September 9 boot correction design
+
+Will requested a design. [Correction proposal](proposals/2026-09-09_boot-corrections.md) specifies six bounded changes, fixtures and delivery order; implementation pending. CFTC legacy storage is intentional, live display is wrong. Reproduced condensed boot false-success wording and CFTC 9.5%/10% trigger mismatch offline. No new market assessment. Local commit only while PROME has dirty work; publication deferred.
+
+### September 9 startup orientation
+
+Starting documents and September 8 integration loaded; [boot record](reports/2026-09-09_orientation.md). 13/14 scripts passed after authorized network retry. BOJ changed-image review remains outstanding; prior 98% is historical. Old threshold-script labels are not current thesis judgments. Three OPEN predictions unchanged. WALTER courtesy pointer already satisfied by the prior owner report; archived. Inherited research backlog below remains pending.
+
+### CHANGES SINCE LAST SESSION / LAST SESSION — September 8 integration
+
+- Approved catch-up is integrated into THESIS, JGB supply/demand, insurer tracker, MOF playbook and KB-209. File map: `reports/2026-09-08_integration.md`; market research: `reports/2026-09-08_catchup-assessment.md`. Before-images preserved in the integration evidence package.
+- Replaced contradictory current claims with conditional demand and evidence-specific interpretation. Retired carry frame stays LOW; no successor, trade or historical prediction regrade. Company profiles were not refreshed from sector aggregates.
+- BOJ source replacement shipped in `bfaea9825`: reviewed Totan image, separate meeting-OIS ledger, date/hash/term/arithmetic guards. Ten tests and live ingestion pass; repeat writes zero. New publisher image appeared during verification; source vintage is in STATUS. New chart decoding still requires SAM visual review.
+- KB quote-only repair `c922e355b` fixes 169/197/209 so strict TSV parsing succeeds; 209's analytical consolidation is separate. FLOW/VX stay frozen. Boot inventory no longer treats regression tests as market tools.
+- Local commits only while peers have dirty work. No messages sent, no peer files modified. Refresh NEXUS after final STATUS; deferred operator eval re-baseline remains outstanding (no simulated pass).
+
+### NEXT SESSION
+
+**⚡ TIER 0 — DATED:**
+0a. **Sep-9/10:** BOJ Sep-9 actuals / Sep-10 forecast plus independent pre-BOJ broker baseline; Sep-8 U.S. funding and EIA outlook. **Sep-11:** first post-rally CFTC + CPI. Cause remains OPEN; all available-data results in report. **Before Sep-14:** validated new futures pair; old pair expires and monitor stops.
+0b. 🟠 **9/29 40Y — retirement counter's FIRST tick (0-of-2), inheriting a known instrument defect.** The SOFT tail bar (>2.0bp) has a trip margin equal to MOF's 3-decimal quantization; 9/3 tripped it by exactly 0.1bp. **Rule the bar's precision BEFORE that window opens, never inside it.**
+0c. 🔴 **~9/18 — INFRA_AGENDA AUTO-RETIRES.** Per-item adopt/defer owed. **Still the item most likely to expire silently.**
+0d. **Sep-15/16 FOMC dots**, **Sep-17/18 BOJ**, **Sep-18 CPI + SAM-28/31 grading**. No authenticated current Fed probability; Totan BOJ vintage in STATUS. Original prediction conditions unchanged.
+
+**⚡ TIER 1 — OWED / MINE TO RULE:**
+1z. **Norway packet consumed:** JGB 4.6%→7.4% proposed, not a flow or specific superlong bid. Prior “nothing lands in 2026” inference withdrawn; Jan-25 expert report is not a mandatory implementation ordering. BOND ~$18B estimate remains distinct from primary weights. Report §7.
+
+1a. 🔴 **AUTO-MEMORY OWED, and it is the sharpest thing this desk produced today:** a retired figure does not merely get re-cited — it gets **RE-LABELLED onto a different subject**, where a DO-NOT list keyed to the original subject has zero coverage. (74.5: a dead Kalshi **BOJ** quote, published by me as a **CME Fed** figure.) Pairs with `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`.
+1b. **BOJ chart refresh:** replacement script is usable for reviewed images. If boot returns UNAVAILABLE on a changed image, visually review the new table, preserve its timestamp/terms/hash, add the reviewed JSON, then run validation and ingestion per `workbook/BOJ_OIS_README.md`. Unattended image decoding remains an enhancement; never restore the old feed.
+1c. 🆕 **SAM-39 successor spec** — if an intervention-character row is re-opened, it needs a **SHAPE** leg (max single-hour move, or hours-to-half-the-move), not only a daily range. **Register the spec BEFORE any window opens.**
+1d. **METSUKE.md spec edit** (Run-18 E1): publisher-side monitor rule for STATUS-canonical figure re-bases.
+1e. **KB cleanup:** KB-209 consolidation DONE (official aggregate plus unresolved funding/account split). FRBNY Q3 ~11/13 remains the U.S. split adjudicator, not a completed funding answer. KB-051/197 substantive cleanup remains owed; quote repair alone did not resolve their analytical history.
+1f. 🆕 **2 auto-memory routings from KURA Run-14, approved:** NEW `finding_rank_is_a_property_of_a_sovereign_window_pair` · EXTEND `finding_synthetic_artifact_defeats_provenance_tracing` w/ the Kharg 8/31 AI-video.
+1g. 🔧 **CFTC weekly deadband successor** — KB-SAM-231 named the class; register the successor spec BEFORE the next window. **Do NOT re-tune inside a live window.**
+1h. **WALTER charter edit is MINE** (`2026-08-18` lane notice) — carried since 8/20, still owed.
+1i. **`jgb_yields.py --backfill-from` scope decision**; **boot step 6 has no instrument** (add `predictions_due()` to `boot.py`).
+1j. 🆕 **KOYOMI escalations awaiting my ruling:** (i) baseline-audit trigger-vs-convention conflict (execute first-Oct); (ii) INFRA_AGENDA class question; (iii) KOYOMI_MEMORY Run-16 verify block rollable via `subagent_memory_roll.py --apply`.
+1k. **STATUS read cap:** prior full version preserved, cold historical pointer prose compressed this closeout. Keep live thresholds and pending decisions; cap 32,550B unchanged.
+
+**⚡ TIER 2 — the successor question, still OPEN:**
+2a. ⚰️ **v2.0 KILLED. ⛔ NO SUCCESSOR FRAME — v1.7 stands.** Re-opens as **v1.8's** question.
+2b. **Current evidence:** cross-pair yen rally, modest broad-market stress; September 1 short build predates most of move. BOJ funding residual does not identify an op. Read latest report rather than old claims that the move was “unbought.”
+2c. **Research backlog (Will Jun-15):** fiscal/Takaichi + JGB supply · digital deficit · Taiwan/China→Japan tail · Japan semis/AI capex.
+
+**⚡ SUB-AGENT CLOSEOUT — standing.** After any sub-agent run: **① `subagent_memory_roll.py`** · **② after any KURA run, `kura_proposal_roll.py`**. ⚠️ **`--all` IS THE WRONG SCOPE WHILE ANY SUB-AGENT IS LIVE** (Critical Rule #2). 🔑 **They propose, I apply. Move never delete. Unmarked = LIVE.**
+
+**⛔ DO NOT:** rearm on retired -153K/85%; cite retired 180K denominator (true R188,077); cite `boj_ois.py` or old BOJ/Fed probabilities as current; label proposed Norway/GPIF allocations as purchases; label MOF trust accounts as pensions/GPIF; infer UST sales from foreign-debt aggregates or reserve-stock changes; call the CME residual true basis; compare continuous oil contracts across rolls. Historical 30Y series high remains 4.131 [Sep-1].
+
+## Tooling — how to find out what exists
+
+**Never assume, and never trust a hand-written list. Run:** `.venv/bin/python3 AGENTS/SAM/scripts/boot.py --tools`
+Generated from `scripts/` at run time (name · boot-wired? · purpose), so it cannot go stale. Every boot also prints a tool count and **flags drift in both directions**. **Check it before building any script or doing a pull by hand** — the 8/4 BOJ-OIS failure was, at root, not knowing what already existed. *(12 tools, all boot-wired, as of 2026-08-04 — that count is a fact about that date, not a maintained figure; ask the command.)*
+
+*(The pre-8/7 tiered block — settle Friday-vs-Monday execution · pre-compute the non-fuel re-pencil · drain the legacy inbox · verify the OIS cumulative basis · the 8/6 triple · run the resolver on the letter — is **fully spent** and was pruned 2026-08-10. Every Tier-1 item executed; full text in git history. Its one still-open infra item is carried forward as TIER 3 above.)*
+
+**Owed / deferred:** ✅ **PROME dispositioned BOTH 8/4 asks (packet 8/4 ~17:0x, processed).** `MACHINE_LOCAL.md` recipe now carries `MESSAGING/requirements.txt` ✅; **the `env_doctor` scoping call went to DAEDALUS, not PROME** — DAEDALUS owns repo-root `scripts/` since 7/31 (Will-ruled), so **don't chase PROME for it.** 🔧 **`ESTAT_APPID` CORRECTED 2026-08-17 — the old "recorded PRESENT" note was a LAPTOP fact read as a fleet fact.** Verified on **`DESKTOP-BC6EF81`** (this box today): `.env` exists, **key ABSENT** ⇒ **`cpi_japan.py` cannot pull here** (see TIER-0a). The desktop column was ❓UNKNOWN and is now **MISSING**; `.env` is gitignored so **no restore travels between boxes.** ⚠️ **This is the second time a per-box fact got generalised** — the PyYAML gap was also `DESKTOP-BC6EF81`, written "laptop" repeatedly on 8/4 and **backwards**. **STATE IT BY HOSTNAME, NEVER NICKNAME, AND NEVER WITHOUT ONE.** *(`env_doctor` scoping went to **DAEDALUS**, not PROME — DAEDALUS owns repo-root `scripts/` since 7/31, Will-ruled; don't chase PROME.)* · `catalyst_countdown.py` 2027 holidays (guard is loud, dates need *sourcing*) · Aug-21 National July CPI = first **2025-BASE** print (re-baseline first; read `cpi_japan.py`'s **PAIRED** line, never **LEAD**, as "the gap") · KB-202 (KURA autonomous) · KB-152 → route Q2-actuals to BROCK/HANS · Japan-LNG/JKM · Batch-3 P3-Asia · May TIC · evals re-baseline · TB ~L394 cites a pruned "CALENDAR Jun-17 row" (provenance only).
+
+---
+
+### PRIOR SESSIONS — compressed (narratives → `thesis/timeline/TIMELINE.md` + STATUS pointers + git history)
+
+- **9/1 (Tue, dark-owner PROME-scoped Tier-1 session after ~5 days dark) — compressed 9/2; narratives → `STATUS_ARCHIVE.md` 9/1 block, TIMELINE Aug 8-27, MEMORY 9/1 body in git history:** 🔴 **carried the 9/3 CH-016 discriminator for 12 days on three surfaces as if it were live** — the frozen letter pins its auction leg to the 8/20 20Y (graded AMBIGUOUS ⇒ both branches unreachable from 8/20); named the type (iii) UNREACHABLE-BY-CONSTRUCTION off PROME's menu, pre-registered NO-VERDICT-over-determined before the print, ruled the definition and verified safe (alternative reading returns the same grade). Real script defect found only because dark across a month boundary: `jgb_yields.py` reads current-month CSV only, silently lost 8/27/8/28/8/31; propagated to `RATE_DIFFERENTIAL.tsv` (SAM-41's instrument) with no defect of its own — the QUIET failure class named; fix falsified against reproduction, byte-identical. Over-reached on BOND's "Japan moved LAST of four" cross-section (8/13→8/27), caught 30 min later by re-running the tool: rank is horizon-unstable, 8/20→9/1 window INVERTS it (JP rank 1/4). Standing: quote horizon in same sentence as any rank. Independent BOND corroboration on 9/1 selloff (US TIPS real/breakeven ~100% real, textbook policy-path front-led). STATUS split 90,976 → 53,455 B, rotation rule instituted. Inbox drained 23→0. GPIF "30 writes behind" ruled cadence artifact not defect (LEDGER_CADENCE.md declares next-expected per file).
+- **8/17 (curve-shape flip + trio + three peer reviews) — compressed 8/20; narratives → STATUS compressed block, `thesis/CURVE_ATTRIBUTION_2026-08-17_PREREGISTRATION.md`:** re-opened the curve attribution and **deliberately did not re-mark** (8/10+8/13 had read hike PULL-FORWARD off front-led flattening; 8/17's long-end-led steepener on a WEAK GDP print broke that), naming the **symmetric-discipline** reason — *8/13 used the full stretch to dismiss a steepener; using it again would be motivated window-choice*. Froze a discriminator with a base-rated **±15bp = p75** bar and a **NO-VERDICT modal branch**. **Basis discipline held under pressure** (refused a MOF-basis series-high claim off Investing.com's different basis — **and the refusal was vindicated on 8/20**). 🔴 **The day's lesson was a reasoning defect hit THREE times: reading a CAPABILITY as EVIDENCE OF USE** (retracted "FIMA-funded"; retracted "`cpi_japan.py` cannot pull" when `ESTAT_APPID` was in the repo-root `.env` all along, the *second* location `load_env()` searches, declared dead **without ever running the script**; a fallback's existence reported as its firing). ⛔ **Guard: before claiming a silent fallback FIRED, EXECUTE the path and show the degraded output.** **Three peer reviews all found what my own process structurally cannot** — MIDAS (my 449-week CFTC window was a **SUBSET labelled the POPULATION**), DAEDALUS (**THESIS, the OWNER, was the stale surface while every derived one was current — the INVERSE of the drift `RECONCILIATION.md` sweeps for**; → HENRY read MED-HIGH for ten days), RED (SAM-33 silently activated; rails CH-016/CH-017). Trio closed (KOYOMI 16 · METSUKE 15 · KURA 11); **two of three corrected a FALSE PREMISE in my own brief** because I drafted from MEMORY instead of checking artifacts. 4 scripts hardened; FLOW/VX FROZEN.
+- **8/7 (THE PRINT DAY) + 8/10 (first boot after) — compressed 8/17; narratives → TIMELINE Aug 1-7, STATUS compressed block, `research/outputs/US_INTERVENTION_FUNDING_ESF_SOMA_FIMA.md`, CHANGELOG:** frame broke, **SAM-29 + SAM-40 FAILED**, v1.6.11 → **v1.7**, book FLAT and $0 at risk. **The calibration lesson is not "I missed it":** SAM-22's mechanism (intervention → mass cover) was named **in writing on 8/2 and 8/4** as one of two ways the grade could die, then priced at **~25%** while holding a MED-HIGH grade the same document called **PROVISIONAL** — *naming a risk and then under-weighting it is a distinct error from not seeing it.* Near-miss the same day: the v1.8 candidate FILE was left untracked while six surfaces shipped pointers to it. **Then 8/10: SAM published a "US intervention balance-sheet ceiling" at ~16:3x and REFUTED IT at ~18:0x the same session** — three failure modes worth carrying: ① **read one column of a two-column table** *(having already checked the mirror-image error and stopped there — verifying the hypothesis I HAD did not surface the one I didn't)*; ② **relayed a substitution framing without testing it** ("FIMA vs ESF" is a **category error**, different sovereigns, killed by one sentence of the Fed's own facility page — and SAM routed it to BOND as "the highest-value open item" **without reading that page**); ③ **let a plausible constraint stand because it was flagged CANDIDATE — a flag is not a substitute for the check.** Retractions sent same-session.
+
+- **7/16 – 7/31 (compressed 8/02, re-compressed 8/17 — narratives → TIMELINE Jul 11-23 + Jul 24-31 + `thesis/BOJ_2026-07-31_PREREGISTRATION.md`):** the **7/31 live BOJ decision watch** was the marquee session — MPM graded off the primary statement ~35 min after publication, **SAM-38 CONFIRMED at FULL-C** + **SAM-34 CONFIRMED** (3rd straight calibrated BOJ binary), MOF monthly **¥0** hard-confirming the 7/2 no-strike, buckets → 5/19/29 (v1.6.10). **Process that worked and is reusable: curl monitor caught publication within a minute; PDFs pdfminer-extracted; graded against FROZEN branches with zero re-derivation.** **Contamination clause CLEAN *and it paid*** (circulating pre-dated content said GDP 0.8%, actual FY2026 was 0.6 ⇒ fabricated-wrong, not leaked) — routed to WALTER and **generalized into its `SIGNAL_PROCESSING_CHECKLIST.md` v0.30 guard**. Same session **METSUKE Run-12 (9 flags + 3 escalations, apply deferred BY DESIGN → still owed)**; KURA failed mid-run (API error, zero partial writes). Also: 7/30 yen **+2.7% intraday** on the suspected MOF op with **equity vol never transmitting** (VIX −17.3% ⇒ evidence against an Aug-2024 replay), VIOLET canary first-ever FIRE→WATCH; BOJ 4-branch pre-registration frozen; SAM-35/37 CONFIRMED; Brent through $100; June TB Phase-1 inversion.
+
+**Research backlog (Tier 2/3 un-pulled, Will Jun-15 brainstorm — still open):** ~~GPIF/pension flows~~ ✅ BUILT 7/9 (`gpif_flows.py`); fiscal/Takaichi trajectory + JGB supply; digital deficit; BIS yen carry (beyond CFTC); Taiwan/China→Japan tail; Japan semis/AI capex.
+
+**⏸️ DEFERRED:** Layer B cross-agent (BROCK/HANS PC-cascade pull); KB cleanup tier-2; insurer profiles audit; Japanese-source pipeline retire; SIGNAL_INTAKE archive. *(NFP AHE MoM exact print unpinned — BLS 403s bots; curl w/ User-Agent per [[finding_edgar_403_user_agent_header]] next session if needed.)*
+
+### NEXT INFRA SESSION (script build queue)
+
+**Historical build queue was empty on 2026-08-04; current BOJ image-decoding enhancement remains open under item 1b** — the last open item (`boj_swap_pricing.py`) shipped as `boj_ois.py`. `trade_balance_japan.py` ✅ 6/10 · `gpif_flows.py` ✅ 7/9 · `boj_ois.py` ✅ 8/4. **Before proposing any new script, run `boot.py --tools`** — it lists what already exists, generated from disk. Still-deferred, non-script: `insurer_quartr.py` (Quartr watcher, needs auth), `mof_flows.py` NISA retail-flow tripwire, `boj_events.py` (SoO/speeches/minutes).

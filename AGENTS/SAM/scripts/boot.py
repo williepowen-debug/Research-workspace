@@ -10,21 +10,28 @@ Smart behavior:
   - Scripts are run in order of priority (threshold breaches first).
   - Each script's exit code is captured; failures are reported in the summary
     but do not stop the boot sequence.
-  - FXY options runs weekly (skipped if FXY_OPTIONS.tsv already has today's date).
+  - FXY options checked daily (skipped if today has all four expiry rows).
   - JGB auctions auto-probe the last few business days for recent results.
 
 Usage:
   .venv/bin/python3 AGENTS/SAM/scripts/boot.py
-  .venv/bin/python3 AGENTS/SAM/scripts/boot.py --quick    # skip options + auction lookback
+  .venv/bin/python3 AGENTS/SAM/scripts/boot.py --quick    # skip options only
   .venv/bin/python3 AGENTS/SAM/scripts/boot.py --verbose  # don't collapse script output
 """
 
+import argparse
+import csv
+import json
+import uuid
 import subprocess
 import re
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
+
+# Explicit context modes must not create __pycache__ during their local import.
+sys.dont_write_bytecode = True
 
 SCRIPTS_DIR = Path(__file__).resolve().parent
 SAM_DIR = SCRIPTS_DIR.parent
@@ -36,17 +43,20 @@ FXY_OPTIONS_TSV = WORKBOOK / "FXY_OPTIONS.tsv"
 
 
 def _has_today_row(tsv_path):
-    """Check if a TSV has a row for today's date in the first column."""
+    """Four unique future expiries are required; a partial snapshot cannot skip."""
     if not tsv_path.exists():
         return False
-    today = datetime.now().strftime("%Y-%m-%d")
-    with open(tsv_path) as f:
-        next(f, None)
-        for line in f:
-            parts = line.strip().split("\t")
-            if parts and parts[0] == today:
-                return True
-    return False
+    today = datetime.now().strftime('%Y-%m-%d')
+    try:
+        with tsv_path.open() as f:
+            reader = csv.DictReader(f, delimiter='\t')
+            if not {'Date', 'Expiry'}.issubset(reader.fieldnames or []):
+                return False
+            expiries = {datetime.strptime(r['Expiry'], '%Y-%m-%d').date().isoformat()
+                        for r in reader if r['Date'] == today and r['Expiry'] >= today}
+        return len(expiries) >= 4
+    except (OSError, csv.Error, KeyError, TypeError, ValueError):
+        return False
 
 
 # Boot sequence: (label, script_name, args, section_header, slow)
@@ -69,30 +79,79 @@ BOOT_SEQUENCE = [
 
 
 def run_script(name, script_path, args, timeout=60):
-    """Run a script and capture output. Returns (success, output, elapsed_seconds)."""
+    """Preserve both output streams, exit code and partial timeout output."""
+    start = time.monotonic()
+    result = dict(label=name, script=script_path.name, exit_code=None, stdout='', stderr='',
+                  elapsed=0.0, success=False, reason='')
     if not script_path.exists():
-        return False, f"  SKIP: {script_path.name} not found", 0
-
-    start = time.time()
+        result['reason'] = f'Missing script: {script_path}'
+        return result
     try:
-        result = subprocess.run(
-            [str(VENV_PYTHON), str(script_path)] + args,
-            capture_output=True,
-            text=True,
-            timeout=timeout,
-            cwd=str(WORKSPACE),
-        )
-        elapsed = time.time() - start
-        output = result.stdout
-        if result.returncode != 0 and result.stderr:
-            output += f"\n  STDERR: {result.stderr[:500]}"
-        return result.returncode == 0, output, elapsed
-    except subprocess.TimeoutExpired:
-        elapsed = time.time() - start
-        return False, f"  TIMEOUT after {elapsed:.0f}s", elapsed
-    except Exception as e:
-        elapsed = time.time() - start
-        return False, f"  ERROR: {e}", elapsed
+        child = subprocess.run([str(VENV_PYTHON), str(script_path)] + args,
+                               capture_output=True, text=True, timeout=timeout, cwd=str(WORKSPACE))
+        result.update(exit_code=child.returncode, stdout=child.stdout, stderr=child.stderr,
+                      success=child.returncode == 0,
+                      reason='' if child.returncode == 0 else f'Child exited {child.returncode}')
+    except subprocess.TimeoutExpired as exc:
+        def decoded(value):
+            return value.decode('utf-8', errors='replace') if isinstance(value, bytes) else value or ''
+        result.update(stdout=decoded(exc.stdout), stderr=decoded(exc.stderr), reason=f'Timeout after {timeout}s')
+    except OSError as exc:
+        result['reason'] = str(exc)
+    result['elapsed'] = time.monotonic()-start
+    return result
+
+
+# Helpers imported/executed directly by the orchestrator are also boot wiring.
+CONTEXT_MODULE = SCRIPTS_DIR / 'lib/boot_context.py'
+LEDGERS = {
+    'usdjpy.py': 'USDJPY.tsv', 'jgb_yields.py': 'JGB_YIELDS.tsv',
+    'jgb_auctions.py': 'JGB_AUCTIONS.tsv', 'boj_ois.py': 'BOJ_MEETING_OIS.tsv',
+    'cftc_jpy.py': 'CFTC_JPY.tsv', 'rate_differential.py': 'RATE_DIFFERENTIAL.tsv',
+    'mof_flows.py': 'MOF_FLOWS.tsv', 'xccy_basis.py': 'XCCY_BASIS.tsv',
+    'gpif_flows.py': 'GPIF_FLOWS.tsv', 'trade_balance_japan.py': 'TRADE_BALANCE.tsv',
+    'cpi_japan.py': 'CPI.tsv', 'fxy_options.py': 'FXY_OPTIONS.tsv',
+}
+
+
+def stored_vintage(script):
+    name = LEDGERS.get(script)
+    if not name:
+        return 'Freshness unverified here; consult explicit source clocks in child output.'
+    try:
+        with (WORKBOOK/name).open() as f:
+            reader = csv.DictReader(f, delimiter='\t')
+            column = next((c for c in ('quote_as_of', 'Date', 'date') if c in (reader.fieldnames or [])), None)
+            if column is None:
+                return f'{name}: no recognized observation-date column; freshness unverified.'
+            stamps = [r[column] for r in reader if r.get(column)]
+        if not stamps:
+            return f'{name}: no dated rows; freshness unverified.'
+        return f'{name}: latest stored {column}={max(stamps)}; execution success does not certify source freshness.'
+    except (OSError, csv.Error, KeyError, TypeError):
+        return f'{name}: cannot read observation dates; freshness unverified.'
+
+
+def display_result(result, verbose=False):
+    output = result['stdout'] + ('\nSTDERR:\n'+result['stderr'] if result['stderr'] else '')
+    if not result['success']:
+        print('FAIL: '+result['reason'])
+        # A failure never travels through the success/no-matched-lines branch.
+        if output.strip():
+            lines = output.strip().splitlines()
+            diagnostic = [line for line in lines if any(k in line.upper() for k in ('ERROR','ALERT','UNAVAILABLE','FAIL'))]
+            print(output if verbose else '\n'.join((diagnostic or lines[-5:])[:8]))
+        else:
+            print('No child diagnostic output; see exit/reason and raw report.')
+    elif verbose:
+        print(output)
+    else:
+        markers = ('BREACH', 'WARNING', 'UNAVAILABLE', 'ALERT', 'ERROR', 'SHORT COVER',
+                   'Latest', 'LATEST', 'As of:', 'Data as of', 'IMMINENT', 'VOL PROXY',
+                   'source quote', 'as_of=', 'NOT EVALUATED', 'UNKNOWN', '⚠️', '🔴', '🟠')
+        lines = [line for line in output.splitlines() if any(k in line for k in markers)]
+        print('\n'.join(lines) if lines else 'Completed; see detailed output. Freshness unverified here.')
+    print(result.get('stored_vintage', 'Freshness unverified here.'))
 
 
 # ---------------------------------------------------------------------------
@@ -189,6 +248,8 @@ def tool_inventory():
     manual = [n for n in unwired if n in declared]
     orphans = [n for n in unwired if n not in declared]
     missing = sorted(wired - set(on_disk))
+    if not CONTEXT_MODULE.is_file():
+        missing.append('lib/boot_context.py')
     return rows, orphans, missing, manual
 
 
@@ -207,6 +268,8 @@ def print_tool_inventory(full=True):
         print(f"\n  {len(rows)} tool(s); {sum(1 for r in rows if r[1])} boot-wired"
               f"{f'; {len(manual)} manual-only by design (M)' if manual else ''}.")
         print("  Run any of them directly: .venv/bin/python3 AGENTS/SAM/scripts/<name>")
+        print("  Context helper: lib/boot_context.py (imported by boot; missing file is drift).")
+        print("  Read-only modes: boot.py --orient [--part N], --predictions, --tools.")
         if manual:
             print(f"\n  ℹ️  {len(manual)} manual-only BY DESIGN, per CLAUDE.md — not drift:")
             for n in manual:
@@ -226,107 +289,81 @@ def print_tool_inventory(full=True):
     return orphans, missing
 
 
-def main():
-    quick = "--quick" in sys.argv
-    verbose = "--verbose" in sys.argv
-
-    # Inventory-only mode: what tooling exists, no network, no writes.
-    if "--tools" in sys.argv:
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument('--tools', action='store_true')
+    mode.add_argument('--orient', action='store_true', help='Read-only orientation index; use --part N to read every part')
+    mode.add_argument('--predictions', action='store_true', help='Read-only OPEN prediction reminders')
+    parser.add_argument('--part', type=int, help='Orientation part number; requires --orient')
+    parser.add_argument('--quick', action='store_true', help='Monitoring: skip options only')
+    parser.add_argument('--verbose', action='store_true')
+    parser.add_argument('--report', type=Path, help='New raw JSONL report file for monitoring')
+    args = parser.parse_args(argv)
+    if args.part is not None and not args.orient:
+        parser.error('--part requires --orient')
+    if (args.orient or args.predictions or args.tools) and (args.quick or args.report):
+        parser.error('Read-only modes cannot use --quick or --report')
+    if args.tools:
         orphans, missing = print_tool_inventory(full=True)
-        print()
-        return 1 if (orphans or missing) else 0
-
-    start_time = time.time()
-    now = datetime.now()
-
-    print(f"\n{'#'*72}")
-    print(f"#{'':^70}#")
-    print(f"#{'SAM BOOT SEQUENCE':^70}#")
-    print(f"#{'':^70}#")
-    print(f"#  {now.strftime('%A, %B %d, %Y  %H:%M %Z'):^66}#")
-    print(f"#{'':^70}#")
-    print(f"{'#'*72}")
-
-    results = []
-
-    for label, script_name, args, section_header, is_slow in BOOT_SEQUENCE:
-        # Smart skip: FXY options only if TSV doesn't already have today's data
-        if script_name == "fxy_options.py":
-            if _has_today_row(FXY_OPTIONS_TSV):
-                print(f"\n  ⏩ Skipping {label} — TSV already has today's snapshot")
-                results.append((label, "SKIP", 0))
-                continue
-            if quick:
-                print(f"\n  ⏩ Skipping {label} (--quick)")
-                results.append((label, "SKIP", 0))
-                continue
-
-        script_path = SCRIPTS_DIR / script_name
-
-        print(f"\n  ⏳ {label}...", flush=True)
-        success, output, elapsed = run_script(label, script_path, args)
-
-        if verbose or not output:
-            if output.strip():
-                print(output)
-        else:
-            # Collapse: show only lines that contain key markers
-            key_markers = (
-                "🔴", "🟠", "🟡", "🟢", "⚠️",
-                "BREACH", "CRISIS", "STRESS", "ELEVATED",
-                "ALERT", "SHORT BUILD", "SHORT COVER",
-                "BUYER STRIKE", "Quality problem",
-                "IMMINENT", "HIGH PRIORITY",
-                "Latest", "LATEST", "NEW:",
-                "VOL PROXY", "ATM IV", "25d RR",  # surface the FXY vol read
-                "🎯", "IN-WINDOW", "unpriced", "Data as of",  # surface the BOJ OIS read
-            )
-            lines = output.splitlines()
-            shown = False
-            # Always show the script's own section header line for context
-            for line in lines:
-                if any(marker in line for marker in key_markers):
-                    print(f"    {line}")
-                    shown = True
-            if not shown:
-                # Show a 1-line "ok" result
-                print(f"    ✓ ran cleanly, no alerts")
-
-        status = "OK" if success else "FAIL"
-        results.append((label, status, elapsed))
-
-    # Summary
-    total_time = time.time() - start_time
-    print(f"\n{'='*72}")
-    print(f"  BOOT SUMMARY")
-    print(f"{'='*72}")
-    print(f"\n  {'Script':<30} {'Status':>8} {'Time':>8}")
-    print(f"  {'-'*50}")
-    for label, status, elapsed in results:
-        icon = "✅" if status == "OK" else "⏩" if status == "SKIP" else "❌"
-        print(f"  {icon} {label:<28} {status:>6} {elapsed:>6.1f}s")
-
-    print(f"\n  Total boot time: {total_time:.1f}s")
-    print(f"  Date: {now.strftime('%Y-%m-%d')} | Day: {now.strftime('%A')}")
-
-    # Tooling visibility: one always-on line so a future boot knows the full toolset
-    # exists and how to list it, plus loud drift warnings (silent when clean).
-    inv_rows, _, _, inv_manual = tool_inventory()
-    print(f"  Tools: {len(inv_rows)} in scripts/ "
-          f"({sum(1 for r in inv_rows if r[1])} boot-wired"
-          f"{f', {len(inv_manual)} manual-only by design' if inv_manual else ''}) — "
-          f"full list: boot.py --tools")
-    print_tool_inventory(full=False)
-
-    failures = [r for r in results if r[1] == "FAIL"]
-    if failures:
-        print(f"\n  ⚠️  {len(failures)} script(s) failed — check output above (try --verbose).")
+        return int(bool(orphans or missing))
+    # No network/script execution or writes on either context path.
+    try:
+        from lib.boot_context import ContextError, emit_orientation, prediction_report
+    except ImportError as exc:
+        print(f'ERROR: missing context reader: {exc}')
         return 1
-    else:
-        print(f"\n  ✅ All scripts completed successfully.")
-        print(f"\n  Tip: run with --verbose to see full output for each script.")
-        return 0
+    if args.orient or args.predictions:
+        try:
+            if args.orient:
+                return emit_orientation(SAM_DIR, args.part)
+            report, issues = prediction_report(SAM_DIR)
+            print(report)
+            return int(bool(issues))
+        except (ContextError, OSError, ValueError) as exc:
+            print(f'ERROR: context reader could not evaluate: {exc}')
+            return 1
+    now = datetime.now(timezone.utc)
+    started = time.monotonic()
+    path = args.report or SAM_DIR/'reports/boot-runs'/(now.strftime('%Y%m%dT%H%M%SZ')+'_'+uuid.uuid4().hex[:8]+'.jsonl')
+    try:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        log = path.open('x', encoding='utf-8')
+    except OSError as exc:
+        print(f'ERROR: cannot create raw boot report {path}: {exc}; no monitoring started')
+        return 1
+    print(f'SAM monitoring started {now.isoformat()} | raw report: {path.resolve()}')
+    results=[]
+    with log:
+        log.write(json.dumps({'started_at': now.isoformat(), 'mode': 'quick' if args.quick else 'monitor'})+'\n')
+        for label, script_name, child_args, section_header, is_slow in BOOT_SEQUENCE:
+            if script_name == 'fxy_options.py' and (args.quick or _has_today_row(FXY_OPTIONS_TSV)):
+                reason='--quick' if args.quick else 'four unique future expiry rows already stored today'
+                print(f'SKIP {label}: {reason}; snapshot quality not recertified.')
+                log.write(json.dumps(dict(label=label, skipped=True, reason=reason))+'\n');log.flush()
+                continue
+            print(f'\nRunning {label}...', flush=True)
+            result=run_script(label,SCRIPTS_DIR/script_name,child_args)
+            result['stored_vintage']=stored_vintage(script_name)
+            results.append(result)
+            log.write(json.dumps(result,ensure_ascii=False)+'\n');log.flush()
+            display_result(result,args.verbose)
+        try:
+            report,issues=prediction_report(SAM_DIR)
+        except (ContextError,OSError,ValueError) as exc:
+            report=f'ERROR: prediction reader could not evaluate: {exc}';issues=[report]
+        print('\n'+report)
+        log.write(json.dumps(dict(prediction_report=report,issues=issues),ensure_ascii=False)+'\n')
+        orphans,missing=print_tool_inventory(full=False)
+        failed=sum(not r['success'] for r in results)
+        print(f'\nBOOT SUMMARY: {len(results)-failed}/{len(results)} executed scripts completed; {failed} failed.')
+        print(f'Prediction reader: {"FAIL" if issues else "OK"}; inventory: {"FAIL" if orphans or missing else "OK"}.')
+        print(f'Elapsed {time.monotonic()-started:.1f}s | Raw stdout/stderr and diagnostics: {path.resolve()}')
+        print('Completion counts measure execution, not market freshness or analytical approval.')
+        code=int(bool(failed or issues or orphans or missing))
+        log.write(json.dumps(dict(exit_code=code,failed_scripts=failed,orphans=orphans,missing=missing))+'\n')
+    return code
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     sys.exit(main())

@@ -40,8 +40,8 @@ Appends to workbook/JGB_YIELDS.tsv (one row per date).
 
 Checks thresholds:
   🔴 10Y ≥ 2.40% (stress crossover)
-  🔴 30Y ≥ 4.00% (severe insurer stress)
-  🔴 40Y ≥ 4.00% (extreme long-end stress)
+  🔴 30Y ≥ 4.00% (conditional demand-floor test; auction and institution evidence required)
+  🔴 40Y ≥ 4.00% (long-end context; no mechanism grade from level alone)
 
 Appends to workbook/JGB_YIELDS.tsv (one row per date).
 
@@ -82,8 +82,8 @@ TRACKED_TENORS = ["2Y", "5Y", "10Y", "20Y", "30Y", "40Y"]
 # Threshold levels (from THESIS.md KEY THRESHOLDS table)
 THRESHOLDS = {
     "10Y": (2.40, "Stress crossover"),
-    "30Y": (4.00, "Severe insurer stress"),
-    "40Y": (4.00, "Extreme long-end stress"),
+    "30Y": (4.00, "Conditional demand-floor test; auction and institution evidence required"),
+    "40Y": (4.00, "Long-end context; no mechanism grade from level alone"),
 }
 
 TSV_HEADER = "Date\t2Y\t5Y\t10Y\t20Y\t30Y\t40Y\tSource\n"

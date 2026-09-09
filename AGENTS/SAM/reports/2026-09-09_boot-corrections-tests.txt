@@ -1,0 +1,57 @@
+COMMAND: .venv/bin/python3 -m unittest discover -s AGENTS/SAM/scripts/tests -v
+EXIT: 0
+
+test_bad_download_creates_no_package (test_boj_ois.PreparationTests.test_bad_download_creates_no_package) ... ok
+test_evidence_bytes_manifest_and_blank_draft_cannot_validate (test_boj_ois.PreparationTests.test_evidence_bytes_manifest_and_blank_draft_cannot_validate) ... ok
+test_prepare_cli_does_not_ingest_or_mark_current (test_boj_ois.PreparationTests.test_prepare_cli_does_not_ingest_or_mark_current) ... ok
+test_repeated_preparation_preserves_bytes_and_original_retrieval (test_boj_ois.PreparationTests.test_repeated_preparation_preserves_bytes_and_original_retrieval) ... ok
+test_arithmetic_nonfinite_and_incomplete_rows_rejected (test_boj_ois.PricingTests.test_arithmetic_nonfinite_and_incomplete_rows_rejected) ... ok
+test_boot_failure_never_writes_or_uses_old_quote (test_boj_ois.PricingTests.test_boot_failure_never_writes_or_uses_old_quote) ... ok
+test_changed_image_or_error_html_rejected (test_boj_ois.PricingTests.test_changed_image_or_error_html_rejected) ... ok
+test_duplicate_and_overlapping_terms_rejected (test_boj_ois.PricingTests.test_duplicate_and_overlapping_terms_rejected) ... ok
+test_idempotency_and_same_vintage_revision_preserve_bytes (test_boj_ois.PricingTests.test_idempotency_and_same_vintage_revision_preserve_bytes) ... ok
+test_methodology_and_image_layout_drift_rejected (test_boj_ois.PricingTests.test_methodology_and_image_layout_drift_rejected) ... ok
+test_no_write_success_and_network_failure (test_boj_ois.PricingTests.test_no_write_success_and_network_failure) ... ok
+test_policy_date_expiry_even_if_quote_recent (test_boj_ois.PricingTests.test_policy_date_expiry_even_if_quote_recent) ... ok
+test_saved_primary_image_curve_and_units (test_boj_ois.PricingTests.test_saved_primary_image_curve_and_units) ... ok
+test_stale_and_future_dates_rejected (test_boj_ois.PricingTests.test_stale_and_future_dates_rejected) ... ok
+test_failure_cannot_print_clean (test_boot_corrections.BootTests.test_failure_cannot_print_clean) ... ok
+test_inventory_drift_fails_normal_boot_and_log_preserves_stderr (test_boot_corrections.BootTests.test_inventory_drift_fails_normal_boot_and_log_preserves_stderr) ... ok
+test_partial_options_snapshot_does_not_skip (test_boot_corrections.BootTests.test_partial_options_snapshot_does_not_skip) ... ok
+test_raw_streams_preserved_including_success_stderr (test_boot_corrections.BootTests.test_raw_streams_preserved_including_success_stderr) ... ok
+test_timeout_and_missing_script (test_boot_corrections.BootTests.test_timeout_and_missing_script) ... ok
+test_cover_boundary_and_invalid_denominator (test_boot_corrections.CftcTests.test_cover_boundary_and_invalid_denominator) ... ok
+test_legacy_append_and_idempotency (test_boot_corrections.CftcTests.test_legacy_append_and_idempotency) ... ok
+test_main_cover_alert_uses_same_prior_denominator_as_display (test_boot_corrections.CftcTests.test_main_cover_alert_uses_same_prior_denominator_as_display) ... ok
+test_reference_and_net_long (test_boot_corrections.CftcTests.test_reference_and_net_long) ... ok
+test_chunking_preserves_multibyte_text_and_rejects_oversized_line (test_boot_corrections.ContextTests.test_chunking_preserves_multibyte_text_and_rejects_oversized_line) ... ok
+test_malformed_schedule_is_visible_without_losing_open_rows (test_boot_corrections.ContextTests.test_malformed_schedule_is_visible_without_losing_open_rows) ... ok
+test_missing_or_duplicate_required_heading_fails_before_output (test_boot_corrections.ContextTests.test_missing_or_duplicate_required_heading_fails_before_output) ... ok
+test_missing_schedule_and_changed_condition_reported (test_boot_corrections.ContextTests.test_missing_schedule_and_changed_condition_reported) ... ok
+test_open_set_and_due_boundaries_without_grading (test_boot_corrections.ContextTests.test_open_set_and_due_boundaries_without_grading) ... ok
+test_orientation_all_content_chunk_bounds_no_mutation_or_network (test_boot_corrections.ContextTests.test_orientation_all_content_chunk_bounds_no_mutation_or_network) ... ok
+test_unknown_status_and_malformed_row_fail (test_boot_corrections.ContextTests.test_unknown_status_and_malformed_row_fail) ... ok
+test_boundary_strictness_and_all_classes_render (test_boot_corrections.MonitorTests.test_boundary_strictness_and_all_classes_render) ... ok
+test_crossing_is_observation_without_trade_instructions (test_boot_corrections.MonitorTests.test_crossing_is_observation_without_trade_instructions) ... ok
+test_jgb_labels_and_comparators (test_boot_corrections.MonitorTests.test_jgb_labels_and_comparators) ... ok
+test_partial_coverage_is_visible_and_nonzero (test_boot_corrections.MonitorTests.test_partial_coverage_is_visible_and_nonzero) ... ok
+test_previous_close_and_undated_quote_cannot_cross (test_boot_corrections.MonitorTests.test_previous_close_and_undated_quote_cannot_cross) ... ok
+test_retrieval_clock_follows_each_download (test_boot_corrections.MonitorTests.test_retrieval_clock_follows_each_download) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.082s
+
+OK
+
+COMMAND: .venv/bin/python3 -m unittest discover -s AGENTS/SAM/scripts -p test_xccy_basis.py -v
+EXIT: 0
+
+test_empty_single_and_future_samples_are_rejected (test_xccy_basis.SnapshotGuardTests.test_empty_single_and_future_samples_are_rejected) ... ok
+test_expired_pair_is_rejected_even_with_recent_prices (test_xccy_basis.SnapshotGuardTests.test_expired_pair_is_rejected_even_with_recent_prices) ... ok
+test_holiday_weekend_is_allowed (test_xccy_basis.SnapshotGuardTests.test_holiday_weekend_is_allowed) ... ok
+test_old_hardcoded_cutoff_is_rejected (test_xccy_basis.SnapshotGuardTests.test_old_hardcoded_cutoff_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

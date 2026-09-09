@@ -9,10 +9,10 @@ Release: Fridays ~3:30pm ET, reflects positions through the prior Tuesday.
 Extracts JPY non-commercial (speculative) long, short, and net position.
 Compares vs:
   - Prior week (delta from CFTC's built-in change columns)
-  - July 2024 carry-unwind peak: -180,000 contracts
+  - Ratified historical reference: -188,077 contracts (2007-06-26; reviewed August 2026)
 Alerts:
-  🔴 Shorts closing >10% WoW (early unwind signal — shorts buying to cover)
-  🟠 Net position approaching -150,000 (near Jul 2024 peak, max fuel for unwind)
+  Shorts declining >10% WoW, measured against prior shorts
+  Net below -150,000: descriptive position-size watch, no automatic rearm
 
 Appends to workbook/CFTC_JPY.tsv.
 
@@ -54,6 +54,7 @@ JPY_NAME = "JAPANESE YEN - CHICAGO MERCANTILE EXCHANGE"
 #
 # ⛔ NEVER cite this column's output as "% of peak" in prose. It is legacy-basis.
 JUL_2024_PEAK_NET = -180000   # RETIRED BASIS — see BASIS NOTE above; true R = -188,077
+REFERENCE_NET = -188077  # display only; do not rebase the legacy TSV column
 WARN_NET = -150000            # SAM alert level
 
 TSV_HEADER = "Date\tOI\tNoncomm_Long\tNoncomm_Short\tNoncomm_Net\tChange_Long\tChange_Short\tChange_Net\tPct_of_Jul24_Peak\n"
@@ -189,6 +190,19 @@ def append_tsv(data):
     return True
 
 
+def short_cover_pct(current_short, change_short):
+    prior = current_short - change_short
+    if current_short < 0 or prior <= 0:
+        raise ValueError('Invalid current/prior gross shorts')
+    return -change_short / prior * 100
+
+
+def reference_description(net):
+    if net > 0:
+        return 'NET LONG; short-reference percentage not applicable'
+    return f'Net short magnitude: {net / REFERENCE_NET * 100:.1f}% of the ratified historical reference'
+
+
 def main():
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
     print(f"\n{'='*70}")
@@ -209,9 +223,6 @@ def main():
     if not data:
         print("\n  ERROR: JPY row parse failed.")
         return 1
-
-    # Compute derived metrics
-    pct_peak = (data["nc_net"] / JUL_2024_PEAK_NET * 100) if JUL_2024_PEAK_NET else 0
 
     print(f"\n  As of:             {data['date']}")
     print(f"  Open Interest:     {data['oi']:>10,}")
@@ -236,29 +247,29 @@ def main():
         if cn is not None:
             print(f"  Net   Δ:           {cn:>+10,}  {arrow(cn)}")
 
-        # Interpret direction
-        print(f"\n  INTERPRETATION")
-        print(f"  {'-'*60}")
-        if cs < -0.1 * data["nc_short"]:
-            pct_cover = abs(cs) / (data["nc_short"] - cs) * 100
-            print(f"  🔴 SHORT COVER: shorts down {pct_cover:.1f}% WoW — early unwind signal")
-        elif cs > 0 and cl < 0:
-            print(f"  🔴 SHORT BUILD: longs exiting, shorts adding — bearish for JPY (bullish crowded)")
+        print("\n  OBSERVED POSITION CHANGES")
+        try:
+            pct_cover = short_cover_pct(data['nc_short'], cs)
+        except ValueError as exc:
+            print(f"  ERROR: {exc}; short-cover percentage NOT EVALUATED")
+            return 1
+        if pct_cover > 10:
+            print(f"  SHORT COVER: gross shorts down {pct_cover:.1f}% versus prior week (>10% watch)")
+        elif cs < 0:
+            print(f"  Gross shorts down {pct_cover:.1f}% versus prior week (no >10% watch)")
         elif cs > 0:
-            print(f"  🟠 SHORT ADD: shorts growing — more fuel for eventual unwind")
-        elif cs < 0 and cl > 0:
-            print(f"  🟢 SENTIMENT FLIP: shorts covering, longs adding — unwind underway")
+            print("  SHORT ADD: gross shorts increased")
         else:
-            print(f"  ⚪ Mixed / sideways")
+            print("  Gross shorts unchanged")
+        print("  Gross longs increased" if cl > 0 else "  Gross longs decreased" if cl < 0 else "  Gross longs unchanged")
+        print("  Position changes alone do not establish forced liquidation.")
 
-    # Comparison to Jul 2024 peak
-    print(f"\n  REFERENCE: JUL 2024 CARRY UNWIND PEAK")
-    print(f"  {'-'*60}")
-    print(f"  Jul 2024 peak net:     {JUL_2024_PEAK_NET:>+10,}")
-    print(f"  Current net:           {data['nc_net']:>+10,}")
-    print(f"  % of peak:             {pct_peak:>9.1f}%")
-    if data["nc_net"] < WARN_NET:
-        print(f"  🟠 Net position approaching Jul 2024 peak — max fuel for unwind")
+    print("\n  REFERENCE: -188,077 contracts on 2007-06-26; ratified from the record reviewed August 2026")
+    print(f"  Current net: {data['nc_net']:+,}")
+    print("  "+reference_description(data['nc_net']))
+    print("  Historical storage: Pct_of_Jul24_Peak retains legacy -180,000 basis; not the current reference.")
+    if data['nc_net'] < WARN_NET:
+        print("  Net below -150,000 position-size watch; retired entry conditions do not rearm.")
 
     # TSV append
     appended = append_tsv(data)

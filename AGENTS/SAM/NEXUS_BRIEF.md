@@ -1,6 +1,6 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-09 17:15 ET documentation design. **STATUS provenance:** same commit; SHA256 `c0fac25b911f1261c826d7fecb3807c1161e0c8af3259d83a9bc9cfe312a0f85`. [Boot correction proposal](proposals/2026-09-09_boot-corrections.md) ready; implementation pending. Market observations unchanged from Sep-9 startup; source clocks below. Current BOJ quote remains unavailable.
+**As of:** 2026-09-09 17:42 ET boot-correction implementation. **STATUS provenance:** same commit; SHA256 `4aa8530abff86e8e169595c6a3d8b0d21bbc36d89199cc767bee98053ca03c5c`. [Implementation record](reports/2026-09-09_boot-corrections-implementation.md): tooling and handoff fixes complete; default CLAUDE startup candidate awaits fresh-session eval. Forty script tests pass; historical ledgers and prediction terms unchanged. Market observations remain from Sep-9 startup; source clocks below. Current BOJ quote remains unavailable.
 
 ## VIEW
 

@@ -6,7 +6,7 @@
 
 ## SEPTEMBER — forward event set synchronized with CATALYSTS.tsv
 
-September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at close. The estimated INFRA_AGENDA expiry is a separate administrative item. SAM-33 remains OPEN through December 31 in the prediction ledger; no new docket row or grading term is introduced here.
+September 18 read order: National CPI → BOJ decision → SAM-28/31 grading at close. The estimated INFRA_AGENDA disposition review is a separate administrative item; exact expiry provenance remains unverified. SAM-33 remains OPEN through December 31 in the prediction ledger; no new docket row or grading term is introduced here.
 
 Tokyo September CPI is RELEASES-confirmed for **October 2** and remains the carried October-audit boundary obligation. Liquidity-enhancement auctions Sep-10/25 remain out-of-universe. Existing monthly-audit deferral is recorded in KOYOMI memory for SAM.
 
@@ -23,7 +23,7 @@ Tokyo September CPI is RELEASES-confirmed for **October 2** and remains the carr
 | 🟠 Fri Sep 18, 08:30 JST | Japan National CPI, August | Headline / core / core-core on 2025 base | Morning input to BOJ decision. Parallel 2020/2025 publication continues through December; specify base. | SAM |
 | 🔴 Fri Sep 18, decision time not fixed | BOJ MPM day 2 decision (Sep 17-18; no Outlook Report) | Rate, guidance, vote split | Macro watch. Current reviewed Totan OTC source: `../workbook/BOJ_MEETING_OIS.tsv` and `../workbook/BOJ_OIS_README.md`; old futures ledger frozen. New images require SAM review. No pricing percentage copied. | ALL |
 | 🔴 🔧 Fri Sep 18, close | SAM-28 / SAM-31 grading at close; retired frame has no entry deadline | Grade eligible tail-route and genuine risk-off yen-haven tests on frozen terms | Both OPEN; no early grading. SAM-39 resolved Sep-4. Frame retired Aug-7; no fuel-retirement test or entry gate. Canonical terms: `../thesis/PREDICTIONS.tsv`. | SAM, PROME |
-| 🟡 🔧 ~Fri Sep 18 | AGENTS/SAM/INFRA_AGENDA.md auto-retirement deadline (per-item disposal check) | Has SAM adopted/deferred all four numbered items? | Four weeks of silence auto-retires agenda; ~Sep-18 is SAM estimate, not a verified timestamp. SAM-only reminder per KOYOMI.md Aug-27 ruling. Separate from analytical stack. | SAM |
+| 🟡 🔧 ~Fri Sep 18 | AGENTS/SAM/INFRA_AGENDA.md disposition review (estimated reminder) | Has SAM adopted/deferred all four numbered items? | Per-item adopt/defer owed; trace the original Will ruling before automatic retirement. ~Sep-18 is an estimated reminder, not a verified expiry timestamp. SAM-only reminder per KOYOMI.md Aug-27 ruling. Separate from analytical stack. | SAM |
 | 🟠 Tue Sep 29 | JGB 40Y auction | SAM must rule tenor-appropriate terms prospectively before next relevant test; 40Y BTC available, tail undefined | First 40Y since Jul-22. Conditional, mixed sponsorship; no inferred buyers. KB-SAM-175: uniform-price 40Y has no yield or price tail. Do not apply the 20Y/30Y tail bar. Counter stays 0-of-2; next scheduled adjudicator requires SAM instrument-applicability ruling. Historical Sep-3 SOFT grade unchanged. | SAM, LIQUID, BOND |
 | 🟡 Wed Sep 30 | JGB 2Y auction | BTC, tail versus Aug-28 workbook result | Front-end demand; no pricing restatement. | SAM, LIQUID |
 

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "source": "thesis/PREDICTIONS.tsv",
+  "predictions": {
+    "SAM-28": {
+      "due_date": "2026-09-18",
+      "timezone": "America/New_York",
+      "boundary_rule": "At September 18 close after the BOJ decision. Close has no exact timestamp in the original terms; SAM reviews after the boundary.",
+      "condition_sha256": "e2b1e50a9e40bb3b3a71a5d228b850a720530abd49d3787edf711e77f784f179"
+    },
+    "SAM-31": {
+      "due_date": "2026-09-18",
+      "timezone": "America/New_York",
+      "boundary_rule": "At September 18 close after the BOJ decision. Close has no exact timestamp in the original terms; SAM reviews after the boundary.",
+      "condition_sha256": "3a8b5b24cd1d0261714d6b970d37253abaeafbba17a4a371222359156934e6ff"
+    },
+    "SAM-33": {
+      "due_date": "2026-12-31",
+      "timezone": "America/New_York",
+      "boundary_rule": "Through the named date; exact cutoff not specified in the original row. SAM reviews; no automatic grade.",
+      "condition_sha256": "c5ffa000132f4ff4e86f34f6172787ad92fc9c2c87eac8b6449d975d6ced08ca"
+    }
+  }
+}

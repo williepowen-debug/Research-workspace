@@ -8,6 +8,14 @@ Distinct from `thesis/CHANGELOG.md`, which logs **analytical** changes (thesis-v
 
 ---
 
+## 2026-09-09 — Approved boot corrections implemented
+
+Neutral monitor semantics, corrected CFTC live normalization and cover denominator, complete raw child reports/failure handling, options completeness check, BOJ review-evidence preparation, and read-only orientation/prediction modes. See `scripts/README.md` and `reports/2026-09-09_boot-corrections-implementation.md`. The 36 affected tests plus 4 existing funding tests pass; saved actual test output and hash manifest accompany the report. All 19 workbook TSVs plus THESIS, TRADE and PREDICTIONS remain byte-identical. No market refresh, historical regrade or peer write in this pass.
+
+STATUS 31,742→18,210 bytes; MEMORY 22,088→12,164 bytes/79 lines. Complete snapshots are appended to adjacent archives and verified against before-image hashes. Feedback/Findings/auto-memory references and the existing memory template are retained; all open work remains in the handoff, including METSUKE Run-12. Reconciled 40Y no-tail applicability, estimated infrastructure review provenance, and already-completed auto-memory/class rulings. Owner read-cap/weekday, inventory, patch and whitespace checks pass. External section-name redirects survive. Ledger nudge is documentation-only: stored source vintages and frozen histories were deliberately not refreshed.
+
+Default CLAUDE boot/threshold changes are a reviewable candidate patch, not promoted. `evals/BOOT_CORRECTIONS_2026-09-09_RUN_PROMPT.md` records the required fresh-session process and case-applicability issue; results.tsv unchanged. Explicit new commands are available now; the existing live startup protocol remains until valid operator checks pass.
+
 ## 2026-09-08 — BOJ source replacement and KB quoting repair
 +
 +`boj_ois.py` now ingests visually reviewed Totan meeting-OIS images after live hash/date/term/arithmetic validation. New `BOJ_MEETING_OIS.tsv` keeps incremental 25bp equivalents and cumulative expected counts separate; old `BOJ_OIS.tsv` is frozen unchanged. Same boot slot; successful and failed reads both surface in collapsed boot output. Tool inventory now excludes regression-test modules (`test_*.py`), which had falsely flagged the prior funding test as an unwired operational tool. No automatic image decoder: a new chart requires a new SAM visual review, and failures write no current quote. Source contract and refresh recipe: `workbook/BOJ_OIS_README.md`. Ten regression tests plus live validation/ingestion passed. Code before-image is retained with the integration audit package; no historical prediction files changed.

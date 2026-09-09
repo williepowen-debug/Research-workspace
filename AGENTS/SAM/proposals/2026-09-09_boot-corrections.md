@@ -1,8 +1,14 @@
 # SAM boot corrections — proposed design
 
-September 9, 2026. Requested by Will following the [startup review](../reports/2026-09-09_orientation.md). Design complete; implementation pending. No production script, prediction term, historical grade or trading instruction changes in this proposal.
+September 9, 2026. Requested by Will following the [startup review](../reports/2026-09-09_orientation.md). Approved for implementation by Will. Scripts and data-layer handoff corrections implemented September 9; default CLAUDE startup/label changes prepared as a candidate patch pending the owner-required fresh-session eval. Prediction terms, historical grades and trade records are unchanged.
 
 The first objective is a boot that reports observations and missing evidence accurately. The second is faster recovery of current context. Both can ship within SAM's directory without adopting the broader state-rendering architecture in INFRA_AGENDA.
+
+## Delivery status — September 9
+
+Steps 1–4 and 6 are implemented in scripts; step 5's handoff cleanup and explicit read-only orientation mode are available. [Usage](../scripts/README.md), [implementation record](../reports/2026-09-09_boot-corrections-implementation.md), [default-startup candidate](2026-09-09_boot-protocol.patch), [operator eval packet](../evals/BOOT_CORRECTIONS_2026-09-09_RUN_PROMPT.md). Live `CLAUDE.md` remains unchanged pending that check. Existing Feedback/Findings/auto-memory references and the handoff template remain intact; settled narratives have complete adjacent before-image archives.
+
+One delivery refinement: orientation emits a small index followed by individually requested ≤14KB content parts, instead of one truncation-prone packet. Each part has source/content hashes and an end marker. Calendar selection uses its explicit owner-maintained forward section; it does not infer new schedule terms. No newly published BOJ chart was graded in this implementation pass.
 
 ## 1. Correct the monitor's interpretation
 

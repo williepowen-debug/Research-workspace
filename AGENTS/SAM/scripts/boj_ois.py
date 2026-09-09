@@ -179,10 +179,52 @@ def append_rows(rows, path=LEDGER):
     return len(new)
 
 
+def prepare_review(html, image, url, now, root=None):
+    """Save ungraded evidence and a blank transcription; never ingest quotes."""
+    root = root or SAM / 'research/outputs/boj-review'
+    require(now.tzinfo is not None, 'Preparation clock needs timezone')
+    require(image.startswith(b'\x89PNG\r\n\x1a\n'), 'Expected PNG, not error HTML')
+    digest = hashlib.sha256(image).hexdigest()
+    matches = list(root.glob(f'*_{digest}/manifest.json')) if root.exists() else []
+    require(len(matches) <= 1, 'Duplicate evidence packages for image hash')
+    if matches:
+        manifest = json.loads(matches[0].read_text())
+        folder = matches[0].parent
+        require(manifest['image_url'] == url and manifest['image_sha256'] == digest,
+                'Existing evidence URL/hash mismatch')
+        require(hashlib.sha256((folder/'table.png').read_bytes()).hexdigest() == digest,
+                'Existing image evidence changed')
+        require(hashlib.sha256((folder/'source.html').read_bytes()).hexdigest() == manifest['page_sha256'],
+                'Existing page evidence changed')
+        require((folder/'review-draft.json').exists(), 'Existing transcription template missing')
+        return folder
+    folder = root / (now.astimezone(timezone.utc).strftime('%Y-%m-%d')+'_'+digest)
+    folder.mkdir(parents=True, exist_ok=False)
+    manifest = dict(source_url=SOURCE_URL, image_url=url, image_sha256=digest,
+                    page_sha256=hashlib.sha256(html).hexdigest(), retrieved_at=now.isoformat(),
+                    purpose='Unreviewed evidence only; no current quote validated')
+    draft = dict(schema_version=1, source_url=SOURCE_URL, image_url=url, image_sha256=digest,
+                 evidence_path=str(folder/'table.png'), quote_as_of=None,
+                 timezone_basis='JST assumed from Japanese publisher; image has no zone',
+                 review_method='PENDING visual transcription',
+                 quote_kind='indicative OTC meeting-to-meeting OIS median',
+                 valid_until=None, decision_date_source=None, step_pct=None, reviewed_row_count=None,
+                 rows=[dict(meeting_month=None, term_start=None, term_end=None, ois_pct=None,
+                            difference_pct=None, incremental_25bp_equivalent_pct=None,
+                            cumulative_expected_hikes=None)])
+    (folder/'source.html').write_bytes(html)
+    (folder/'table.png').write_bytes(image)
+    (folder/'manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')
+    (folder/'review-draft.json').write_text(json.dumps(draft, indent=2)+'\n')
+    return folder
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--no-write', action='store_true')
-    parser.add_argument('--history', action='store_true')
+    modes = parser.add_mutually_exclusive_group()
+    modes.add_argument('--no-write', action='store_true')
+    modes.add_argument('--history', action='store_true')
+    modes.add_argument('--prepare-review', action='store_true', help='Save unreviewed evidence and a blank template; no quote ingestion')
     args = parser.parse_args(argv)
     try:
         if args.history:
@@ -192,12 +234,21 @@ def main(argv=None):
                       row['cumulative_expected_hikes'])
             return 0
         now = datetime.now(timezone.utc)
-        url = table_url(fetch(SOURCE_URL).decode('utf-8'))
+        html = fetch(SOURCE_URL)
+        url = table_url(html.decode('utf-8'))
         image = fetch(url)
+        if args.prepare_review:
+            folder = prepare_review(html, image, url, now)
+            print(f'BOJ evidence saved/reused: {folder}')
+            print(f'Open image: {folder / "table.png"}')
+            print(f'Complete transcription: {folder / "review-draft.json"}; then save under workbook/boj_ois_reviews/.')
+            print('Run --no-write to validate against the current publisher image before ingestion.')
+            print('Evidence preparation only: no current quote validated and no ledger rows written.')
+            return 0
         digest = hashlib.sha256(image).hexdigest()
         reviews = [json.loads(p.read_text()) for p in sorted(REVIEWS.glob('*.json'))]
         matches = [r for r in reviews if r.get('image_sha256') == digest and r.get('image_url') == url]
-        require(len(matches) == 1, f'Unreviewed/ambiguous chart {url} SHA256 {digest}; visual review required')
+        require(len(matches) == 1, f'Unreviewed/ambiguous chart {url} SHA256 {digest}; visual review required; run boj_ois.py --prepare-review')
         rows = validate(matches[0], image, url, now)
         print(f"Latest Totan OIS — source quote {rows[0]['quote_as_of']}; checked {now.isoformat()}")
         print(f"Latest nearest meeting {rows[0]['meeting_month']}: "

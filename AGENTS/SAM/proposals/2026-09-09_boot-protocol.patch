@@ -1,0 +1,58 @@
+--- a/AGENTS/SAM/CLAUDE.md
++++ b/AGENTS/SAM/CLAUDE.md
+@@ -19,19 +19,24 @@
+ 
+ ### Boot (read phase — this order matters)
+ 0. **`git pull`** — sync from GitHub before reading anything. Follow pull protocol in root CLAUDE.md. GitHub is the source of truth.
+-1. **`thesis/THESIS.md` — read the HEADER + the channel/threshold SECTIONS, not the whole file** (67 KB, over the read cap; a whole-file Read returns a silent PARTIAL). Map it with `grep -n "^#" ` first, then read the sections you need: core thesis, transmission channels, conviction, thresholds. ⚠️ **This step says SECTIONS deliberately — see the READ-CAP note under FILES.**
+-2. **`STATUS.md` — read the HEADER + the TOP (most recent) session block + the `LIVE MARKET DATA`, `KEY THRESHOLDS`, `WHAT TO WATCH` and `PREDICTIONS` sections.** Not the whole file (over cap). ⚠️ **A truncating read drops the TAIL, and older compressed blocks live there — but the LIVE state is the top block plus those four tables, which is why this order is specified.**
+-3. **`docket/CALENDAR.md` — read the FORWARD rows only** (undated/past rows are pruned at closeout, not read at boot): upcoming dates, auctions, data releases, signal thresholds.
+-4. **`thesis/timeline/TIMELINE.md` — read the LAST TWO dated blocks only** (96 KB, the largest surface here and 176% of cap; a whole read is impossible, not merely wasteful). Older narrative is reference-only; `thesis/timeline/ARCHIVE.md` is cold and never a boot read.
+-5. **Read `MEMORY.md` whole** — this one IS a whole read and must stay under budget; it ends on the handoff (CHANGES SINCE + NEXT SESSION action items). ⚠️ **If it exceeds ~32,550 B, compress it at closeout rather than reading it partially** — a partial read of this file silently drops the NEXT SESSION list, which is the half the next instance is booting for.
+-6. **`thesis/PREDICTIONS.tsv` — read the calibration PREAMBLE + grep the OPEN rows**; do not read the file whole (74 KB, 137% of cap). Flag any prediction due for resolution or gone stale. The preamble (RESOLVED-special, FAILED with lessons, CONFIRMED, failure-pattern synthesis) is a load-bearing calibration warning before writing any new prediction. See auto-memory `[[finding_threshold_vs_mechanism]]`. (Closed-prediction post-mortems live in `thesis/PREDICTIONS_ARCHIVE.md` — cold, never a boot read; each closed row keeps a one-line lesson + `#sam-NN` anchor inline.) ⚠️ **This step has NO INSTRUMENT** (DAEDALUS 8/28, confirmed): zero scripts read the file, so a 70-row scan runs by eye every boot. A `predictions_due()` leg in `boot.py` is queued.
++1. **Recover context with the bounded orientation reader**, from repository root:
++   ```bash
++   .venv/bin/python3 AGENTS/SAM/scripts/boot.py --orient
++   .venv/bin/python3 AGENTS/SAM/scripts/boot.py --orient --part 1
++   ```
++   The first command is an INDEX ONLY. Read **every** numbered part separately, with enough output allowance for 14,000 content bytes plus metadata. Verify each end marker and match source/content hashes to the index. If a source changes mid-read, regenerate the index and re-read its affected parts. Never claim orientation complete from the index alone. Exact coverage and limits → `scripts/README.md`.
++2. **Verify state:** retired v1.7 frame / no successor, position, dated market observations and missing sources, intervention limitations, upcoming decisions and all open obligations. Distinguish source vintage from retrieval and documentation time. This command does no market refresh or inbox action.
++3. **Fallback if the reader fails:** report the failure, map headings with `rg -n '^#'`, and read bounded sections: THESIS current header/pillars/channels/method/oil/thresholds; STATUS header/latest session/live tables/position/intervention limits; CALENDAR forward rows; latest two TIMELINE dated blocks; whole MEMORY in bounded chunks; prediction calibration warning and original OPEN rows. Do not silently skip a missing section or truncate a long one. Never load eval rubrics or gated RED bodies at boot.
++4. **Historical context is demand-driven.** Archives, closed-row narratives and older timeline blocks are reference-only. Preserve current calibration, mechanism caveats and open obligations even when duplicated.
++5. **End context recovery on the MEMORY handoff and outstanding actions.** Keep whole MEMORY under the binding 32,550-byte cap; archive settled narrative next to the active document. Do not restructure auto-memory references or the memory template without the owner eval protocol.
++6. **Prediction review:** the orientation packet and `boot.py --predictions` derive OPEN rows from `thesis/PREDICTIONS.tsv` and check reminder dates against condition hashes in `docket/PREDICTION_SCHEDULE.json`. Missing schedules or changed conditions are visible gaps. These are reminders, not grades; original terms control. Read the calibration warning before writing a prediction, and honor unresolved cutoff times rather than inventing them.
+ 7. **Market refresh** — Update STATUS.md market data table before any analysis. Report refreshed levels to Will.
+ 
+-   **Preferred (one command, ~15s):**
++   **Market monitoring (network and workbook writes; latency varies):**
+    ```
+    (cd "$(git rev-parse --show-toplevel)" && .venv/bin/python3 AGENTS/SAM/scripts/boot.py)
+    ```
+-   Runs the full automated sweep — thresholds, USDJPY history, JGB yields (MOF authoritative), JGB auctions, **BOJ OIS hike pricing**, CFTC JPY, MOF weekly flows, GPIF portfolio/flows, Japan trade balance, Japan CPI, catalyst countdown, and FXY options (weekly, auto-skipped if today's snapshot exists). Produces a consolidated brief with all critical alerts highlighted. Add `--verbose` for full output, `--quick` to skip options snapshot.
++   Runs the full automated sweep — thresholds, USDJPY history, JGB yields (MOF authoritative), JGB auctions, **BOJ OIS hike pricing**, CFTC JPY, MOF weekly flows, GPIF portfolio/flows, Japan trade balance, Japan CPI, catalyst countdown, and FXY options (daily completeness check; skipped only with four unique future expiry rows already stored today). Preserves full child stdout/stderr in a new raw JSONL report and reports failures independently of successful output. Any child failure, prediction-reader gap or inventory drift makes the run nonzero; execution success is not a freshness verdict. Add `--verbose` for full output. `--quick` skips ONLY options; other market writers still run. Read-only context recovery alone never satisfies a requested market refresh.
+ 
+    **What tooling exists — never assume, ask the boot:**
+    ```
+@@ -215,17 +220,17 @@
+ 
+ ## KEY THRESHOLDS
+ 
+-Reference levels only. **Current values live in `STATUS.md`** (avoid same-data-in-two-docs).
++Reference levels only; observations do not establish mechanisms or authorize trades. **Current values live in `STATUS.md`**; THESIS owns scenario interpretation. Historical entry gates remain retired.
+ 
+ | Metric | Threshold | Implication |
+ |--------|-----------|-------------|
+-| USDJPY | <147 | Forced carry unwind |
++| USDJPY | <147 | Forced-unwind investigation level; verify funding, positioning and transmission |
+ | USDJPY | >160 | MOF intervention risk |
+-| USDJPY | <130-135 | Mechanical insurer selling (unhedged avg entry zone) |
++| USDJPY | <130-135 | Historical insurer-exposure watch; named exposures and sales require evidence |
+ | Carry Unwind Prob | >75% | Escalate to PROME |
+-| JGB 30Y | >4.0% | Severe insurer stress / J-ICS lifer long-end abandonment zone |
++| JGB 30Y | >4.0% | Conditional demand-floor test; auction and institution evidence required |
+ | JGB 10Y | >2.40% | Stress crossover |
+-| BOJ Rate | >0.75% | Takaichi mortgage ceiling — political collision zone |
++| BOJ Rate | >0.75% | Historical political threshold already exceeded; no binding ceiling inferred |
+ | MOF weekly LT-debt net | >¥1.5T selling | Stress flow at weekly level |
+ 
+ *Oil/yen mechanism, Phase 1/Phase 2 dynamics, and supply-destruction-inverted-Phase-1 framing live in `thesis/THESIS.md` § OIL-IN-YEN STRUCTURAL DYNAMIC. Do not duplicate here — read THESIS for the current operating framing.*

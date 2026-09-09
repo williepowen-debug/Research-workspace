@@ -1,0 +1,177 @@
+{
+  "checked_at": "2026-09-09T21:41:29.686811+00:00",
+  "unchanged": {
+    "AGENTS/SAM/thesis/PREDICTIONS.tsv": {
+      "before": "970faed60cd17ca3844be23aed030b696bd9db178e7e0e0fd2742320294d3297",
+      "after": "970faed60cd17ca3844be23aed030b696bd9db178e7e0e0fd2742320294d3297"
+    },
+    "AGENTS/SAM/thesis/THESIS.md": {
+      "before": "7697108c5fa80b9697dd88d419f11d1145d3dce8165239535e7c92dbea9640c5",
+      "after": "7697108c5fa80b9697dd88d419f11d1145d3dce8165239535e7c92dbea9640c5"
+    },
+    "AGENTS/SAM/TRADE.md": {
+      "before": "d73b3455c4c847ac217e8014b4b7137d8f5ea0bf693088594052942838be3cfa",
+      "after": "d73b3455c4c847ac217e8014b4b7137d8f5ea0bf693088594052942838be3cfa"
+    },
+    "AGENTS/SAM/workbook/BIS_GLI.tsv": {
+      "before": "dae961d821e9a0bd9aa94ab3e369fd2737aada37ded99f07f5d9e13faa2c60f1",
+      "after": "dae961d821e9a0bd9aa94ab3e369fd2737aada37ded99f07f5d9e13faa2c60f1"
+    },
+    "AGENTS/SAM/workbook/BOJ_MEETING_OIS.tsv": {
+      "before": "869c644dc089789ead41e18b848dd1a2e582b42e0de054ae8bdf8d91090073f5",
+      "after": "869c644dc089789ead41e18b848dd1a2e582b42e0de054ae8bdf8d91090073f5"
+    },
+    "AGENTS/SAM/workbook/BOJ_OIS.tsv": {
+      "before": "e6405700e2aafbbba5d8334ae56ef7f5ca42f5ebb1af027fd4a8e717c0b00848",
+      "after": "e6405700e2aafbbba5d8334ae56ef7f5ca42f5ebb1af027fd4a8e717c0b00848"
+    },
+    "AGENTS/SAM/workbook/CFTC_JPY.tsv": {
+      "before": "e3cf4e5e5ecb338429fd70895e2caec7816f0a01189942e2a7dc0282e7abb635",
+      "after": "e3cf4e5e5ecb338429fd70895e2caec7816f0a01189942e2a7dc0282e7abb635"
+    },
+    "AGENTS/SAM/workbook/CPI.tsv": {
+      "before": "7f9a4c181647285953ee0bb36eb2a1c49657d4ed7688a751636fbcbccc0ef0be",
+      "after": "7f9a4c181647285953ee0bb36eb2a1c49657d4ed7688a751636fbcbccc0ef0be"
+    },
+    "AGENTS/SAM/workbook/FLOW.tsv": {
+      "before": "1544cf034b693942d9d89df4c3b63f8f6ab785c60c8ad360f66d7135dbdc1b7d",
+      "after": "1544cf034b693942d9d89df4c3b63f8f6ab785c60c8ad360f66d7135dbdc1b7d"
+    },
+    "AGENTS/SAM/workbook/FLOW_ARCHIVE.tsv": {
+      "before": "a2a92c57e63f600f0c11b0d016937d1a3cfe19b666e67f70f0a6e40622a7181a",
+      "after": "a2a92c57e63f600f0c11b0d016937d1a3cfe19b666e67f70f0a6e40622a7181a"
+    },
+    "AGENTS/SAM/workbook/FXY_OPTIONS.tsv": {
+      "before": "55d37090ccaa024cd4c2769266b898e1679c88ddae0cf2dfcb418044472db44e",
+      "after": "55d37090ccaa024cd4c2769266b898e1679c88ddae0cf2dfcb418044472db44e"
+    },
+    "AGENTS/SAM/workbook/GPIF_FLOWS.tsv": {
+      "before": "7227055bf8a2985c21701a33cbc065da50200f2666e7f872701fa79f756553d1",
+      "after": "7227055bf8a2985c21701a33cbc065da50200f2666e7f872701fa79f756553d1"
+    },
+    "AGENTS/SAM/workbook/JGB_AUCTIONS.tsv": {
+      "before": "acf28f473c34dbbceeea7c6f6d8c1fdac5dc67e1dfbcfcaa4fac50f74d701636",
+      "after": "acf28f473c34dbbceeea7c6f6d8c1fdac5dc67e1dfbcfcaa4fac50f74d701636"
+    },
+    "AGENTS/SAM/workbook/JGB_YIELDS.tsv": {
+      "before": "5f533f679a9b90793034fb37b363c56fe166fbfd26b0fd2d92d4a5da0033bd5b",
+      "after": "5f533f679a9b90793034fb37b363c56fe166fbfd26b0fd2d92d4a5da0033bd5b"
+    },
+    "AGENTS/SAM/workbook/KB.tsv": {
+      "before": "27841d1b6b44d3f30d80e2f9081859fcf609c68fa24c3df07977dc487c2216b9",
+      "after": "27841d1b6b44d3f30d80e2f9081859fcf609c68fa24c3df07977dc487c2216b9"
+    },
+    "AGENTS/SAM/workbook/KB_ARCHIVE.tsv": {
+      "before": "96a1e5b1bd23ec5a0a8b23a3d7404c6cdeec5df4442cf311a720228ac10c1dfa",
+      "after": "96a1e5b1bd23ec5a0a8b23a3d7404c6cdeec5df4442cf311a720228ac10c1dfa"
+    },
+    "AGENTS/SAM/workbook/MOF_FLOWS.tsv": {
+      "before": "9bc8d6f72f6832dcb6196215fe6229ee4cc0ab40add8ca24ca5d3927ed83ea82",
+      "after": "9bc8d6f72f6832dcb6196215fe6229ee4cc0ab40add8ca24ca5d3927ed83ea82"
+    },
+    "AGENTS/SAM/workbook/RATE_DIFFERENTIAL.tsv": {
+      "before": "00a04e55b3148226ee7fd024cfc6297a8e429106e06bff56aa42cd340f524c1e",
+      "after": "00a04e55b3148226ee7fd024cfc6297a8e429106e06bff56aa42cd340f524c1e"
+    },
+    "AGENTS/SAM/workbook/TRADE_BALANCE.tsv": {
+      "before": "52073ba4976ed260d1256cff45b0275af268ad38f6b634807b9c71c450c7b971",
+      "after": "52073ba4976ed260d1256cff45b0275af268ad38f6b634807b9c71c450c7b971"
+    },
+    "AGENTS/SAM/workbook/USDJPY.tsv": {
+      "before": "6b9f2c7dcd8651557e258be20e07ce64e9406850ad2960b1b8738591e0b8504c",
+      "after": "6b9f2c7dcd8651557e258be20e07ce64e9406850ad2960b1b8738591e0b8504c"
+    },
+    "AGENTS/SAM/workbook/VX.tsv": {
+      "before": "a2416a9b2083fbd916c3af5780c0a8e6207a8bf728be7f41e9f2d7ed93e1797e",
+      "after": "a2416a9b2083fbd916c3af5780c0a8e6207a8bf728be7f41e9f2d7ed93e1797e"
+    },
+    "AGENTS/SAM/workbook/XCCY_BASIS.tsv": {
+      "before": "4fcf5dd1f163303d83944dfd479a4d9f65c9b1b0acc51d61b5cf720291975635",
+      "after": "4fcf5dd1f163303d83944dfd479a4d9f65c9b1b0acc51d61b5cf720291975635"
+    }
+  },
+  "archives": {
+    "STATUS": {
+      "before_bytes": 31742,
+      "after_bytes": 18210,
+      "before_sha256": "c0fac25b911f1261c826d7fecb3807c1161e0c8af3259d83a9bc9cfe312a0f85"
+    },
+    "MEMORY": {
+      "before_bytes": 22088,
+      "after_bytes": 12164,
+      "before_sha256": "504c26c292e466cf7412d3d309b1198e6c2a1ca36f9adf0404b4223e33e4c01f"
+    }
+  },
+  "orientation": {
+    "parts": 21,
+    "content_bytes": 60075,
+    "max_part_bytes": 12164,
+    "schedule_sha256": "8a4baaf1db766aebacf18597f6ececbc5baad3b425401aec93e3dba68c235223",
+    "index_is_not_completed_orientation": true
+  },
+  "tests": {
+    "affected": 36,
+    "existing_xccy": 4,
+    "passed": 40
+  },
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "scripts/read_cap_check.py",
+        "--agent",
+        "SAM"
+      ],
+      "exit_code": 0,
+      "stdout": "READ-CAP [SAM] \u2014 cap 54,250 B \u00b7 budget 32,550 B (60%) \u00b7 perimeter: 3 boot section(s) in CLAUDE.md, 18 'read' line(s) scanned (2 on-demand/grep + 0 SCOPED-read token(s) excluded by marker), 2 whole-read file(s) found; boot.py-internal reads and prose outside the boot section NOT seen (heuristic \u2014 READS.tsv replaces it)\n  \u2705 STATUS.md                            18,210 B    34% of cap    (STATUS.md \u2014 universal boot read (root canon))\n  \u2705 MEMORY.md                            12,164 B    22% of cap    (boot-step line 26)\n\u2705 READ-CAP 0 [SAM]: every boot-mandated read this check found is under budget (2 file(s)).\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/claim_check.py",
+        "--check",
+        "weekday",
+        "AGENTS/SAM/docket/CATALYSTS.tsv",
+        "AGENTS/SAM/docket/CALENDAR.md",
+        "AGENTS/SAM/STATUS.md"
+      ],
+      "exit_code": 0,
+      "stdout": "CLAIM-CHECK \u2713 3 file(s) clean [weekday]\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "apply",
+        "--check",
+        "AGENTS/SAM/proposals/2026-09-09_boot-protocol.patch"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        ".venv/bin/python3",
+        "AGENTS/SAM/scripts/boot.py",
+        "--tools"
+      ],
+      "exit_code": 0,
+      "stdout": "\n========================================================================\n  SAM TOOL INVENTORY  (generated from scripts/ \u2014 not a maintained list)\n========================================================================\n\n  Script                    Boot   Purpose\n  --------------------------------------------------------------------\n  bis_gli.py                M      YEN CREDIT TO NON-RESIDENTS.\n  boj_ois.py                \u2713      SAM reviews each new chart into workbook/boj_ois_reviews/*.json. Boot verifies\n  catalyst_countdown.py     \u2713      Reads docket/CATALYSTS.tsv and shows trading-day countdown to each event.\n  cftc_jpy.py               \u2713      Fetches CFTC Commitments of Traders (futures-only short report) for JPY.\n  cpi_japan.py              \u2713      Fetches Japan CPI (National + Tokyo Ku-area) via the e-Stat API and emits\n  fxy_options.py            \u2713      Pulls FXY options chains via yfinance for the next 4 expiries.\n  gpif_flows.py             \u2713      Tracks Japan's Government Pension Investment Fund (GPIF) \u2014 the world's\n  grade_8_14_branch.py      M      2026-08-14 COT branch grader (forum-4 frozen letter).\n  jgb_auctions.py           \u2713      Fetches and parses MOF JGB auction result pages.\n  jgb_yields.py             \u2713      Fetches daily JGB yield curve from MOF's authoritative CSV.\n  kura_proposal_roll.py     M      WHY THIS EXISTS (2026-08-27, Will-directed)\n  mof_exceedance.py         M      observations AND de-clustered episodes), each side of the median quoted separa\n  mof_flows.py              \u2713      Fetches Japan MOF's weekly \"International Transactions in Securities\" CSV.\n  rate_differential.py      \u2713      the SAM-41 bar, mechanized.\n  subagent_memory_roll.py   M      WHY THIS EXISTS (2026-08-20, Will-directed)\n  thresholds.py             \u2713      Crossings are observations, not mechanism grades or position instructions.\n  trade_balance_japan.py    \u2713      Phase 1 stability lag-test feed\n  usdjpy.py                 \u2713      Fetches USDJPY=X daily OHLC from Yahoo Finance, maintains workbook/USDJPY.tsv\n  xccy_basis.py             \u2713      CIP residual from CME JPY futures.\n\n  19 tool(s); 14 boot-wired; 5 manual-only by design (M).\n  Run any of them directly: .venv/bin/python3 AGENTS/SAM/scripts/<name>\n  Context helper: lib/boot_context.py (imported by boot; missing file is drift).\n  Read-only modes: boot.py --orient [--part N], --predictions, --tools.\n\n  \u2139\ufe0f  5 manual-only BY DESIGN, per CLAUDE.md \u2014 not drift:\n       bis_gli.py\n       grade_8_14_branch.py\n       kura_proposal_roll.py\n       mof_exceedance.py\n       subagent_memory_roll.py\n     (allowlist is parsed from CLAUDE.md's MANUAL-ONLY row, so removing\n      a script from that row makes this gate go loud again.)\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "judgment_eval": "PENDING; live CLAUDE unchanged",
+  "live_market_refresh": false
+}

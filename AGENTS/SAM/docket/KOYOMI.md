@@ -62,6 +62,8 @@ Run-18 added the first `INFRA_AGENDA.md` auto-retirement row and asked whether t
 1. **It has a date at which its state changes WITHOUT anyone acting.** (An auto-retirement, an expiry, a lapse, a grant that ends. Not "a thing I should get around to.")
 2. **No other instrument already counts down to that date.** (If a script gates it, the script is the guard — a docket row is duplication that will drift.)
 
+**September 9 provenance rider:** the class ruling below remains adopted, but its INFRA_AGENDA example assumed an expiry that has not been traced to an exact source timestamp. Current CALENDAR/CATALYSTS carry an estimated September 18 **disposition review**, not authority to auto-retire. Verify the original Will ruling before applying its state-changing consequence; do not reopen the already answered class question.
+
 **Why `INFRA_AGENDA` passes:** it auto-retires at ~9/18 whether or not anyone looks, and nothing else counts down to it. **`MEMORY.md` carries it, but MEMORY is read as PROSE at boot step 5, while the docket prints DAYS-TO-GO in the boot sweep.** The countdown is the thing that actually fires; prose is the thing that gets read past. *(That distinction is the whole finding — a dated obligation living only in prose is not scheduled, it is merely written down.)*
 
 **Guards on the class, so it cannot become a dumping ground:**

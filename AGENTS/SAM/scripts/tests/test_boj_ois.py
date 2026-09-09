@@ -3,6 +3,7 @@ import contextlib
 import copy
 import importlib.util
 import io
+import hashlib
 import json
 import tempfile
 import unittest
@@ -108,6 +109,51 @@ class PricingTests(unittest.TestCase):
              patch.object(m, 'append_rows') as writer, contextlib.redirect_stderr(io.StringIO()):
             self.assertEqual(m.main([]), 2)
             writer.assert_not_called()
+
+
+class PreparationTests(unittest.TestCase):
+    def test_evidence_bytes_manifest_and_blank_draft_cannot_validate(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            folder=m.prepare_review(HTML.encode(),IMAGE,REVIEW['image_url'],NOW,Path(tmp))
+            self.assertEqual((folder/'source.html').read_bytes(),HTML.encode())
+            self.assertEqual((folder/'table.png').read_bytes(),IMAGE)
+            manifest=json.loads((folder/'manifest.json').read_text())
+            self.assertEqual(manifest['image_sha256'],hashlib.sha256(IMAGE).hexdigest())
+            self.assertEqual(manifest['retrieved_at'],NOW.isoformat())
+            draft=json.loads((folder/'review-draft.json').read_text())
+            self.assertIsNone(draft['quote_as_of'])
+            self.assertIsNone(draft['step_pct'])
+            with self.assertRaisesRegex(m.SourceError,'review method'):
+                m.validate(draft,IMAGE,REVIEW['image_url'],NOW)
+
+    def test_repeated_preparation_preserves_bytes_and_original_retrieval(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            first=m.prepare_review(HTML.encode(),IMAGE,REVIEW['image_url'],NOW,root)
+            before={p.name:p.read_bytes() for p in first.iterdir()}
+            again=m.prepare_review(HTML.encode(),IMAGE,REVIEW['image_url'],datetime.fromisoformat('2026-09-10T03:30:00+00:00'),root)
+            self.assertEqual(again,first)
+            self.assertEqual(before,{p.name:p.read_bytes() for p in again.iterdir()})
+            (first/'table.png').write_bytes(IMAGE+b'tampered')
+            with self.assertRaisesRegex(m.SourceError,'evidence changed'):
+                m.prepare_review(HTML.encode(),IMAGE,REVIEW['image_url'],NOW,root)
+
+    def test_bad_download_creates_no_package(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(m.SourceError):
+                m.prepare_review(HTML.encode(),b'error html',REVIEW['image_url'],NOW,Path(tmp))
+            self.assertEqual(list(Path(tmp).iterdir()),[])
+
+    def test_prepare_cli_does_not_ingest_or_mark_current(self):
+        prepare=m.prepare_review
+        with tempfile.TemporaryDirectory() as tmp, \
+             patch.object(m,'fetch',side_effect=[HTML.encode(),IMAGE]), \
+             patch.object(m,'prepare_review',side_effect=lambda html,image,url,now: prepare(html,image,url,now,Path(tmp))), \
+             patch.object(m,'append_rows') as writer, \
+             contextlib.redirect_stdout(io.StringIO()) as out:
+            self.assertEqual(m.main(['--prepare-review']),0)
+            writer.assert_not_called()
+            self.assertIn('no current quote validated',out.getvalue())
 
 
 if __name__ == '__main__':
