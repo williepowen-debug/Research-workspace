@@ -72,8 +72,8 @@
 - Commit/push pending PROME serialized Git; packets written, not delivered. No trades, Telegram/external messages or threshold/probability changes.
 
 ### NEXT SESSION
-1. After parent commit/push, reconcile delivery_log via existing tool; collect owner correction receipts. Do not repeat source asks already answered by VULCAN/RED/REGINALD.
-2. FT10 September8 Cboe bar remains UNKNOWN here; check actual dated source, never grade missing. PJM postSeptember8 23:59ET outcome still owed to WATT; no premature seven-clear-day grade.
+1. Evening boot: parent implementation verified on origin and 33 delivery rows reconciled. Collect owner correction receipts. Do not repeat source asks already answered by VULCAN/RED/REGINALD.
+2. FT10 September8 Cboe bar now verified 148.86 at publisher: reset to 0/4, NOT FIRED. Source/hash in evening boot receipt. PJM postSeptember8 23:59ET outcome still owed to WATT; no premature seven-clear-day grade.
 3. BROCKSeptember9 hold; FT11/L275September9; ECBSeptember10; WQ179September11; L294September12; FOMCSeptember16; staleness sweepSeptember17; leg3bSeptember30.
 4. Full Iran primary re-verification owed before next Iran dispatch; do not confuse owner-artifact reconciliation with broad source verification. HANS storage gap and exact UK30Y/TTF close bases remain partial.
 5. Pilot step3 adoption remains a separate Will decision. Keep standing open-design list in LAST_COMPLETION; none newly approved by whole-inbox drain. No rerun to force divergence.

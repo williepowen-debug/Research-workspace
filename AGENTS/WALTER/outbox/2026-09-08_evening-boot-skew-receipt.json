@@ -1,0 +1,15 @@
+{
+  "retrieved_at_utc": "2026-09-09T00:34:29.987659Z",
+  "url": "https://cdn.cboe.com/api/global/us_indices/daily_prices/SKEW_History.csv",
+  "sha256": "5f015317523fbc259cca09d3e197903a383989e3dd4a80a28c5d0893aeead1a4",
+  "rows": 9222,
+  "latest": {
+    "DATE": "09/08/2026",
+    "SKEW": "148.860000"
+  },
+  "entry_run": 0,
+  "prior_run": 2,
+  "threshold": ">=150 for 4 published observations",
+  "verdict": "NOT FIRED; run reset to 0/4",
+  "canon_sha256": "ad03ba17e5341c39efaedfd331563215fa2228cb5a735534c50bb4461a3f27cc"
+}

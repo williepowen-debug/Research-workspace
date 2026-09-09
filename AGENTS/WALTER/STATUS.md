@@ -1,19 +1,19 @@
 # WALTER STATUS
 
-**Updated:** 2026-09-08 (Tue) — Codex owner implementation, Tier-2 full. BOARD891→901;10 dispatches (3 new correction signals),1 kill,4 duplicates,2 folds,1 batch15/15 CLOSED. One Phase1.5 verifier, two bounded assignments,15/15 inputs covered. Initial inbox7 plus2 late HAWK packets consumed/filed; active0 at this write. Commit/push PENDING PROME serialization; no external sends.
+**Updated:** 2026-09-08 (Tue) — Codex owner implementation, Tier-2 full. BOARD891→901;10 dispatches (3 new correction signals),1 kill,4 duplicates,2 folds,1 batch15/15 CLOSED. One Phase1.5 verifier, two bounded assignments,15/15 inputs covered. Initial inbox7 plus2 late HAWK packets consumed/filed; active0 at this write. Earlier implementation committed on origin; evening boot reconciliation saved locally, push deferred while foreign work is dirty. No external sends.
 
 ## BOTTOM LINE
 
-Owner catch-up is implemented in the working tree: SEC NVDA source-absence claim corrected, HBM retraction consumed, BOARD INDEX cutover executed, intake reconciled and dated owner state refreshed. Delivery and recipient integration remain separate: packets are written, not yet on origin. FT10’s September8 bar and PJM’s post23:59ET outcome remain UNKNOWN. No missing dated observation, probability or threshold was graded or changed.
+WALTER booted in Codex on September 8 evening. BOARD 901 reconciles. Earlier owner implementation is committed on origin (7291317ec); 33 pending delivery rows reconciled to delivered, recipient integration still unverified. Cboe September 8 SKEW 148.86 resets FT-10 to 0/4, NOT FIRED. Intake current with zero new breaches. PJM's post-23:59 ET outcome and broader Iran primary re-verification remain pending. Boot receipt: outbox/2026-09-08_evening-boot.md.
 
 ## LIVE LEVELS AND OWNER CARRIES
 
 - NVDA CFO Ex99.2 DOES contain procurement-of-memory wording;10-Q says memory AND manufacturing facilities;119B→279B total holds and memory share remains undisclosed.001 corrects original recipients and downstream absence carriers.
 - HBM stated4–5× versus computed5.25–7× remains unresolved; causal FX diagnosis withdrawn; Samsung70% lock is UNVERIFIED-RELAY.002 consumed VULCAN retraction.
-- FT10 last established Cboe150.63[9/3],151.58[9/4]=2/4,NOT FIRED.9/8 unverified due publisher-access limits; no advance/reset.010 also corrects mirror census0.79%→0.40% window;4.31% full history.
+- FT10: Cboe 148.86 [9/8], publisher CSV retrieved September 8 evening; run RESET 2/4→0/4, NOT FIRED. Near-trigger watch: 1.14 index points below 150, computed from the 9/8 print. Source snapshot and hash: outbox/2026-09-08_evening-boot-skew-receipt.json. Earlier 010 census correction remains valid.
 - HY268bp[9/4 and9/7 FRED],FT12 strict<260 not met. September7 holiday does not erase a published FRED observation;005 requests NEXUS/LIQUID correction. FT06 remains banked; VIXCLS15.30[9/7] below18 exit.
 - WAL79.94[9/8 Yahoo saved response],below81.90×3 exit,0/3; priorREGT02 fire holds. XLE64.77 selects existing9/9-open branch; execution pending Will, no new order.008 sent to registered owners.
-- DGS104.78/DFII102.43/T5YIFR2.33[9/4];9/8 observations absent from retrieved pages, not substituted. CREED office12.00[Aug] equals rather than exceeds strict12 threshold; no new fire. HANS6daily scope/source limits in source receipt;14-row all-clear not claimed.
+- DGS10 4.78 / DFII10 2.43 [prior 9/4 observations]; T5YIFR now 2.34 [9/8 FRED web pull], below FT09 >2.55. No newer DGS10/DFII10 grade asserted here. CREED office12.00[Aug] equals rather than exceeds strict12 threshold; no new fire. HANS6daily scope/source limits in source receipt;14-row all-clear not claimed.
 - PJM007 is interim only; final9/8 23:59ET expiry/extension pending WATT. Canada006 candidate now HAWK-owner CONFIRMED by its late packet; no probability change. HANS→HAWK Qatar date correction registeredCOR-20260908-04; HAWK APPLIED receipt verified.
 - Iran state lives in anchors/IRAN_WAR.md: owner-artifact reconciliation completed, broader primary sweep PARTIAL and owed before Iran dispatch. No Iran-cluster signal newly dispatched.
 
@@ -49,7 +49,7 @@ Receiving state: parent preflight accepted; WALTER live here; HAWK/TERRY show co
 
 Registry dated before August25: YEYOU 2026-08-20, RAV 2026-08-02, ATHENA 2026-03-14, DARWIN 2026-02-18, SENTRY 2026-06-02. Dormant/special membership remains ROSTER-owned; no launches or roster edits. BROCK held to9/9; AEOLUS oldACTION stays a parent priority, not a new unapproved project. REGINALD REGT07 two asks already encoded; RED August28 omission question answered to evidentiary limit, both closed from carry.
 
-Routing pressure: internal writes complete; delivery/owner-integration pending serialized Git. Bifurcation signals today0; no network_uncertainty_peak flag.
+Routing pressure: earlier deliveries verified on origin; recipient integration remains unverified. Evening boot record is local, push deferred for foreign dirty work. Bifurcation signals today0; no network_uncertainty_peak flag.
 
 ## FILTER POSTURE
 

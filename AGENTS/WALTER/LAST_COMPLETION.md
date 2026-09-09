@@ -2,6 +2,10 @@
 
 Session: 2026-09-08 Tuesday; authorized Codex owner implementation under PROME. Tier-2 FULL. No staged changes, commit or push by WALTER; parent serializes exact paths.
 
+## Evening boot continuation — September 8
+
+Earlier pending-commit statements below are historical: implementation 7291317ec is on origin/master and the 33 delivery rows are reconciled. FT10 September 8 is now published: 148.86, reset to 0/4, NOT FIRED. Current boot evidence and scope limits: `outbox/2026-09-08_evening-boot.md`. This is a startup continuation; existing design decisions remain unchanged.
+
 ## STATUS
 IMPLEMENTED IN WORKING TREE; durability and recipient integration pending. BOARD891→901,10dispatches (3new correction signals),33dispatch handoffs plus2implementation NOTES. Initial active inbox7+2lateHAWK=9 consumed/filed, all lanes empty at census (scaffolds excluded). Intake BM-20260908-01 CLOSED15/15:4DISPATCH inputs→3signals,4DUP,2FOLD,4NO-ACTION(including1held/paywalled),1KILL. One verifier with2bounded assignments; verification advice consumed, not mistaken for routing. No trades/external sends/new thresholds/probability/band changes.
 
@@ -27,7 +31,7 @@ IMPLEMENTED IN WORKING TREE; durability and recipient integration pending. BOARD
 No additional approval required for this bounded implementation. Existing separate decisions remain: pilotstep3 adoption; verify-spawn evidence-record design; weekend/event intake; obsolescence collection scope; pre-Augcorrection baseline audit. TelegramINBOUND was reported broken previously and was not retested here; external outbound is prohibited for this session. These are carried, not new requests or permission gates.
 
 ## FOLLOW-UP
-1.PROME: review and commit exact manifest paths with WALTER/Codex provenance, then push under serialized protocol. No other owner canon belongs to this commit. Reconcile delivery states only after origin verification.
+1.RESOLVED at evening boot: parent committed implementation 7291317ec, verified as ancestor of origin/master; 33 delivery rows reconciled using the existing tool. New boot changes are local; push deferred for foreign dirty work.
 2.RECIPIENTS: correction001/002/010 andCOR04 dispositions; HAWK already adjudicatedHAW21 in its own artifact, structuredCOR04 APPLIED receipt verified at WALTERclose. NEXUS calendar correction and WATT finalPJM check remain owner actions.
 3.BROCK: preserve September9hold on pro-rated-tender definition; no repeat ask today. AEOLUS2ACTION and remaining7ACTION backlog go to parent priorities; no external doorbell. REGINALDREGT07 CREEDinfo/two-bars asks CLOSED already encoded. REDAugust28omission question CLOSED to evidence limit, original9/2frame unrecoverable. VIOLET leading-edge writer concern remains its owner’s pending work, source consumption alone not a fix.
 4.Clocks:9/9FT11+L275;9/10ECB;9/11WQ179 and existingCOR0828cap;9/12L294;9/16FOMC;9/17staleness sweep;9/30leg3bsoak+memorysizecheck. No early grades.
