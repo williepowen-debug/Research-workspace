@@ -20,6 +20,5 @@ Commands are quoted here only where they are stable interfaces, copied verbatim 
 6. **FINAL gate — after every write in 3–5 and after the two pages regenerate, immediately before the commit** → CLOSEOUT.md "⚡ Mechanical tail in one shot" (it certifies the SHIPPED state; BLOCKING fails here are fixed before anything is committed; the parity line covers the skill trees):
    `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py closeout`
 7. **Git + push** → CLOSEOUT.md Chunk 4 in full — root steps 1b–1e, "PROME commit form" (the wrapper + the message-file rule), the command block including its pre-commit and post-push `git status` checks and the `memory/` commits, "Auto-push" for the receipt:
-   `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/commit_check.py commit -F <msgfile> -- <exact paths>`
-   `cd "$(git rev-parse --show-toplevel)" && bash scripts/safe-push.sh`
+   `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/commit_check.py commit --stage --push -F <msgfile> -- <exact paths>`
 8. **Report to Will** → CLOSEOUT.md Chunk 4 "Session summary to Will".

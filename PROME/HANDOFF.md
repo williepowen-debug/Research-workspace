@@ -1,5 +1,7 @@
 # PROME HANDOFF
 
+**September 9 boot hardening:** [Implementation and validation](reports/2026-09-09_boot-hardening.md). BOOT now points to bounded reads and a reusable gate-attempt receipt; all check output is retained. Due rows carry scoped session evidence, with incomplete host visibility UNKNOWN. Closeout uses a literal-path stage → commit → verify → push pipeline that stops on failure. Manual-window inventory comparison remains pending; no new launch authority.
+
 **September 9 closeout:** [SCRATCH — next session](SCRATCH.md) and [closeout evidence](reports/2026-09-09_closeout.md). Saved at Will's request. Due-day owner work remains unverified and unmonitored where no live coverage was established; the final gate receipt states the actual verdict. No market-close sweep or overall fleet regrade.
 
 **September 9 dashboards:** [Repair](reports/2026-09-09_dashboard-repair.md) and [attention additions](reports/2026-09-09_dashboard-attention.md). Local pages repaired, tested and independently reviewed; eight ruled queue decisions reconciled. Management mappings require source review on hash mismatch. Hosted Artifact tabs still need republication. Remaining implementation flags are declared in those reports.

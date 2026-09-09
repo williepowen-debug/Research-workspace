@@ -103,7 +103,7 @@ class SessionPanelTests(unittest.TestCase):
         self.path.write_text('{}')
         output, state = self.root / "output.html", self.root / "state.json"
         def fixture_build(today, stamp, sessions_json=None):
-            return dashboard.render_session_panel(sessions_json, self.reference), {"fixture": True}
+            return dashboard.render_session_panel(sessions_json, self.reference), {"fixture": True, "heartbeat_errors": []}
         with mock.patch.object(dashboard, "build", side_effect=fixture_build) as build, \
              mock.patch.object(dashboard, "STATE_PATH", str(state)), \
              mock.patch("sys.argv", ["fleet_dashboard.py", "--sessions-json", str(self.path), "-o", str(output)]), \
@@ -111,7 +111,7 @@ class SessionPanelTests(unittest.TestCase):
             self.assertEqual(dashboard.main(), 0)
         self.assertEqual(build.call_args.args[2], str(self.path))
         self.assertIn("runtime-sessions", output.read_text())
-        self.assertEqual(json.loads(state.read_text()), {"fixture": True})
+        self.assertEqual(json.loads(state.read_text()), {"fixture": True, "heartbeat_errors": []})
 
 
 if __name__ == "__main__":

@@ -40,7 +40,8 @@ import argparse, os, re, subprocess, sys
 from pathlib import Path
 
 def sh(*args: str, check: bool = True) -> str:
-    r = subprocess.run(["git", *args], capture_output=True, text=True)
+    r = subprocess.run(["git", "--literal-pathspecs", *args], capture_output=True, text=True,
+                       cwd=globals().get("ROOT"))
     if check and r.returncode != 0:
         sys.stderr.write(r.stderr)
         raise SystemExit(2)
@@ -55,6 +56,12 @@ MANIFEST = GITDIR / "prome_commit_intent.txt"
 def norm(p: str) -> str:
     """repo-relative, forward-slash, no leading ./"""
     q = Path(p)
+    if not p or any(c in p for c in "\n\r\t") or q.is_dir() or q.is_symlink():
+        sys.stderr.write(f"✗ exact file required (no directory, symlink or control separators): {p!r}\n")
+        raise SystemExit(2)
+    # Refuse symlinked parents too: resolve() must not silently select another file.
+    if any(parent.is_symlink() for parent in q.absolute().parents):
+        sys.stderr.write(f"✗ symlinked parent path refused: {p!r}\n"); raise SystemExit(2)
     if q.is_absolute():
         try:
             q = q.resolve().relative_to(ROOT.resolve())
@@ -84,19 +91,18 @@ def read_intent() -> list[str]:
 
 def commit_paths(ref: str) -> dict[str, str]:
     """{path: status} for a commit; renames contribute BOTH old and new paths."""
-    out = sh("show", "--name-status", "--format=", "-M", ref)
+    out = sh("show", "--name-status", "-z", "--format=", "-M", ref)
     res: dict[str, str] = {}
-    for line in out.splitlines():
-        if not line.strip():
-            continue
-        parts = line.split("\t")
-        st = parts[0]
-        if st.startswith(("R", "C")) and len(parts) >= 3:
-            res[parts[1]] = st; res[parts[2]] = st
-        elif len(parts) >= 2:
-            res[parts[1]] = st
-        else:
-            sys.stderr.write(f"✗ unparseable name-status line: {line!r}\n"); raise SystemExit(2)
+    fields = out.rstrip("\0").split("\0") if out else []
+    i = 0
+    while i < len(fields):
+        st = fields[i]
+        count = 2 if st.startswith(("R", "C")) else 1
+        if i + count >= len(fields) or not re.fullmatch(r"[A-Z][0-9]*", st):
+            sys.stderr.write("✗ unparseable name-status receipt\n"); raise SystemExit(2)
+        for p in fields[i + 1:i + count + 1]:
+            res[p] = st
+        i += count + 1
     return res
 
 PATH_RE = re.compile(r"`([^`\s]+/[^`\s]+|[^`\s]+\.(?:md|py|tsv|sh|json|js|txt|yml|yaml))`")
@@ -149,13 +155,15 @@ def verify(ref: str, strict_message: bool) -> int:
     print("  → rc", rc, "(0 clean · 1 mismatch — fix by a FOLLOW-UP commit, never --amend [root 4b])" if rc else "")
     return rc
 
-def do_commit(msg_file: str, paths: list[str], strict_message: bool, extra_git: list[str]) -> int:
+def do_commit(msg_file: str, paths: list[str], strict_message: bool, extra_git: list[str], stage=False) -> int:
     # root Git Protocol 4d (WQ-171, 2026-09-03): the SUBJECT names the change, ≤100 chars;
     # receipts live in the body. Checked before any intent is written so a refusal leaves no trace.
     try:
         subject = next((ln for ln in open(msg_file, encoding="utf-8").read().split("\n") if ln.strip()), "")
     except OSError as e:
         print(f"  ❌ cannot read message file {msg_file}: {e}"); return 2
+    if not subject:
+        print("  ❌ empty commit message — refusing"); return 2
     if len(subject) > 100:
         print(f"  ❌ commit SUBJECT is {len(subject)} chars (>100, root Git Protocol 4d) — move the receipts to the body and re-run:")
         print(f"     {subject[:100]}…"); return 1
@@ -166,8 +174,11 @@ def do_commit(msg_file: str, paths: list[str], strict_message: bool, extra_git: 
     # unusual filenames or renames. v2 -z entries: "1 <xy> ... <path>" (changed),
     # "2 <xy> ... <path>\0<origpath>" (rename/copy — BOTH paths count as dirty),
     # "? <path>" (untracked), "! <path>" (ignored).
-    raw = subprocess.run(["git", "status", "--porcelain=v2", "-z", "--untracked-files=all", "--", *rel],
-                         capture_output=True, cwd=ROOT).stdout
+    status = subprocess.run(["git", "--literal-pathspecs", "status", "--porcelain=v2", "-z", "--untracked-files=all", "--", *rel],
+                            capture_output=True, cwd=ROOT)
+    if status.returncode:
+        print("  ❌ git status failed — no staging, commit or push"); return 2
+    raw = status.stdout
     fields = raw.split(b"\0")
     dirty, untracked = set(), set()
     i = 0
@@ -189,19 +200,24 @@ def do_commit(msg_file: str, paths: list[str], strict_message: bool, extra_git: 
             i += 1
         else:
             print(f"  ❌ unparseable porcelain-v2 entry {f[:40]!r} — refusing (unknown state)"); return 2
-    staged = set(sh("diff", "--cached", "--name-only", "--", *rel).splitlines())
+    staged = set(sh("diff", "--cached", "--name-only", "-z", "--", *rel).split("\0"))
     nothing = [p for p in rel if p not in dirty and p not in staged and p not in untracked]
     if nothing:
         print(f"  ❌ {len(nothing)} intended path(s) have NO change to commit — refusing before git runs "
               f"(this is the overclaim, caught early):")
         for p in nothing: print(f"     - {p}")
         return 1
+    if stage:
+        added = subprocess.run(["git", "--literal-pathspecs", "add", "--", *rel], cwd=ROOT)
+        if added.returncode:
+            print("  ❌ git add failed — no commit or push; inspect the index, never reset it"); return 1
+        staged = set(sh("diff", "--cached", "--name-only", "-z", "--", *rel).split("\0"))
     still_untracked = [p for p in rel if p in untracked and p not in staged]
     if still_untracked:
         print(f"  ❌ {len(still_untracked)} intended path(s) are UNTRACKED — `git add <exact paths>` first (root recipe 2), then re-run:")
         for p in still_untracked: print(f"     - {p}")
         return 1
-    r = subprocess.run(["git", "commit", *extra_git, "-F", msg_file, "--", *rel], cwd=ROOT)
+    r = subprocess.run(["git", "--literal-pathspecs", "commit", *extra_git, "-F", str(Path(msg_file).resolve()), "--", *rel], cwd=ROOT)
     if r.returncode != 0:
         print("  ❌ git commit failed — nothing verified"); return 1
     return verify("HEAD", strict_message)
@@ -213,13 +229,18 @@ def main() -> int:
     v = sub.add_parser("verify"); v.add_argument("--ref", default="HEAD"); v.add_argument("--strict-message", action="store_true")
     c = sub.add_parser("commit"); c.add_argument("-F", "--file", required=True, help="message file (quoted-heredoc; root 4b)")
     c.add_argument("--strict-message", action="store_true")
+    c.add_argument("--stage", action="store_true", help="Stage only exact files; failure stops commit and push")
+    c.add_argument("--push", action="store_true", help="Run safe-push only after successful commit AND verification")
     c.add_argument("paths", nargs="+", help="exact paths (put `--` before them)")
     args = ap.parse_args()
     if args.mode == "intent":
         rel = write_intent(args.paths); print(f"intent: {len(rel)} path(s) → {MANIFEST}"); return 0
     if args.mode == "verify":
         return verify(args.ref, args.strict_message)
-    return do_commit(args.file, args.paths, args.strict_message, [])
+    rc = do_commit(args.file, args.paths, args.strict_message, [], stage=args.stage)
+    if rc or not args.push:
+        return rc
+    return subprocess.run(["bash", "scripts/safe-push.sh"], cwd=ROOT).returncode
 
 if __name__ == "__main__":
     sys.exit(main())

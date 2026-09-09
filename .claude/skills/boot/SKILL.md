@@ -11,9 +11,9 @@ This file is an **index in execution order**, nothing more. Every rule, threshol
 Commands are quoted here only where they are stable interfaces; they are copied from BOOT.md verbatim, including the repo-root `cd` (PROME launches from `PROME/`, where a bare `PROME/tools/…` path does not resolve).
 
 0. **Repo state + the clock** → BOOT.md step 0 (the banner, the no-banner rule, the repo-state checks + pull-if-safe, the `NOW:` stamp).
-1. **Reads, in owner order** → `USER.md` at the repo root (per `PROME/CLAUDE.md` Boot step 1) · BOOT.md steps 1–4 (`HANDOFF` → `SCRATCH` → `ACTIVE_DECISIONS` **with `GATES.tsv`** → `STATUS`) · step 4b (§ Boot-class fleet memories) · BOOT.md step 5's non-gate items (the `HEARTBEAT.md` read and weekend rule, dashboard-before-levels).
+1. **Reads, in owner order** → BOOT.md context-injection paragraph and “Bounded reads” · `USER.md` at the repo root (per `PROME/CLAUDE.md` Boot step 1) · BOOT.md steps 1–4 (`HANDOFF` → `SCRATCH` → `ACTIVE_DECISIONS` **with `GATES.tsv`** → `STATUS`) · step 4b (§ Boot-class fleet memories) · BOOT.md step 5's non-gate items (the `HEARTBEAT.md` read and weekend rule, dashboard-before-levels).
 2. **One-shot gate** → BOOT.md step 5 "⚡ ONE-SHOT GATE", run ONCE:
-   `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/prome_gate.py boot`
+   `cd "$(git rev-parse --show-toplevel)" && python3 PROME/tools/boot_session.py --run-dir /tmp/prome-boot-<session-id>`
    BOOT.md step 5 owns the gate's meaning; step 6 owns the board-scan re-run rule.
 3. **Declare boot state** → BOOT.md step 7.
 4. **Flag top issues + the owed-items question to Will** → BOOT.md step 8 (the wording, the "choice not mention" rule, and the third-boot disposition all live there). Ask before any directed work.

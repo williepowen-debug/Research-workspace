@@ -2,6 +2,8 @@
 
 Status: tested first slice, not fleet-wide activation. Evidence and rollout limits: [September 8 capability report](../reports/2026-09-08_session-pilot-results.md). Existing roster, orchestration, completion and messaging rules remain authoritative.
 
+Boot integration (2026-09-09): `boot_session.py` runs the gate once per chosen run directory and saves all check output. The gate's `session_presence.py` view pairs every due row with scoped runtime evidence, keeping Git activity separate. Read the complete view at its printed log path. Without `--sessions-json`, inventory uses the calling runtime's visible namespace. Supply a host-captured JSON only when captured within the preceding minute on this host; stale, future, malformed and wrong-host snapshots stay UNKNOWN. Codex endpoint observations must independently meet the same age limit. No empty inventory authorizes a desk launch. BOOT.md step 5 owns the procedure; [implementation record](../plans/2026-09-09_boot-hardening.md) records its limits.
+
 From the repository root, capture metadata with:
 
 ```bash

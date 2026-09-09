@@ -40,9 +40,12 @@ import json
 import re
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
+LOG_DIR = None
+SESSION_JSON = None
 
 GATES_STATES = ("LIVE", "FIRED-UNEXECUTED", "RESOLVED", "LAPSED", "RETIRED")
 # GATES_AGE_DAYS retired 8/9 — the >5d raw-age rule was RETIRED by the 8/7
@@ -74,17 +77,25 @@ def record(severity, name, ok, detail, owner):
 
 
 def run_script(severity, name, cmd, owner, ok_rc=(0,)):
-    """Shell out to an independently-runnable check; capture rc + tail."""
+    """Keep complete evidence on disk; summarize without silently dropping flags."""
+    global LOG_DIR
+    if LOG_DIR is None:
+        LOG_DIR = Path(tempfile.mkdtemp(prefix="prome-gate-checks-"))
+    log = LOG_DIR / f"{len(results):02d}-{re.sub(r'[^a-z0-9]+', '-', name.lower())[:70]}.txt"
     try:
-        p = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True, timeout=120)
+        with log.open("x", encoding="utf-8") as output:
+            p = subprocess.run(cmd, cwd=ROOT, stdout=output, stderr=subprocess.STDOUT, timeout=120)
         ok = p.returncode in ok_rc
-        tail = (p.stdout + p.stderr).strip().split("\n")
+        tail = log.read_text(encoding="utf-8", errors="replace").strip().split("\n")
         detail = f"rc={p.returncode}" + ("" if ok else f" · {tail[-1][:110]}" if tail else "")
         if not ok:  # 8/29: name the flagged artifacts — a bare "1 flag(s)" cannot satisfy BOOT.md's re-read rule
-            flagged = [l.strip()[:120] for l in tail if l.lstrip().startswith(("❌", "⚠️"))][:3]
-            detail += "".join(f"\n       ↳ {l}" for l in flagged)
+            flagged = [l.strip() for l in tail if l.lstrip().startswith(("❌", "⚠️"))]
+            detail += "".join(f"\n       ↳ {l[:120]}{'… [preview]' if len(l) > 120 else ''}" for l in flagged[:3])
+            if len(flagged) > 3:
+                detail += f"\n       ↳ {len(flagged) - 3} additional flag(s); read full log"
     except Exception as e:
         ok, detail = False, f"{type(e).__name__}: {str(e)[:100]}"
+    detail += f"\n       full output: {log}"
     record(severity, name, ok, detail, owner)
     return ok
 
@@ -690,6 +701,11 @@ def mode_boot():
                [sys.executable, "PROME/tools/spawn_list.py", "--horizon", "0"],
                "DARK ⇒ ListAgents same minute → Tier-1 spawn (cap 4/boot) or doorbell a live desk; "
                "ACTIVE ⇒ read the owner's artifact first (receipt gap); WILL ⇒ queue; PROME ⇒ do it")
+    presence_cmd = [sys.executable, "PROME/tools/session_presence.py"]
+    if SESSION_JSON:
+        presence_cmd += ["--sessions-json", str(SESSION_JSON)]
+    run_script(ADVISE, "session evidence beside ALL due rows — fleet presence UNKNOWN",
+               presence_cmd, "read full output; snapshot is NOT native spawn preflight or proof of absence")
     check_byte_budgets()
 
 
@@ -742,9 +758,19 @@ def mode_closeout():
 
 
 def main():
+    global LOG_DIR, SESSION_JSON
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[1])
     ap.add_argument("mode", choices=["boot", "closeout"])
+    ap.add_argument("--log-dir", type=Path, help="New directory for complete child-check output")
+    ap.add_argument("--sessions-json", type=Path, help="Optional fresh same-host inventory for boot")
     args = ap.parse_args()
+    results.clear()
+    if args.log_dir:
+        args.log_dir.mkdir(parents=True, exist_ok=False)
+        LOG_DIR = args.log_dir.resolve()
+    else:
+        LOG_DIR = Path(tempfile.mkdtemp(prefix="prome-gate-checks-"))
+    SESSION_JSON = args.sessions_json.resolve() if args.sessions_json else None
 
     (mode_boot if args.mode == "boot" else mode_closeout)()
 

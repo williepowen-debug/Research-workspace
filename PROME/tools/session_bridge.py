@@ -342,8 +342,13 @@ def codex_inventory(rpc):
     threads, cursor, seen = [], None, set()
     while True:
         result = rpc.call("thread/loaded/list", {"cursor": cursor, "limit": 100})
+        if (not isinstance(result, dict) or not isinstance(result.get("data"), list)
+                or any(not isinstance(tid, str) or not tid for tid in result["data"])):
+            raise BridgeError("Malformed loaded-thread inventory; coverage UNKNOWN")
         for tid in result["data"]:
             thread = rpc.call("thread/read", {"threadId": tid, "includeTurns": False})["thread"]
+            if not isinstance(thread, dict) or thread.get("id") != tid:
+                raise BridgeError("Inventory thread identity mismatch; coverage UNKNOWN")
             threads.append({k: thread.get(k) for k in (
                 "id", "sessionId", "parentThreadId", "cwd", "source", "status", "canAcceptDirectInput")})
         cursor = result.get("nextCursor")
@@ -358,7 +363,8 @@ def codex_inventory(rpc):
 
 def inventory():
     result = {"observed_at": now(), "host": socket.gethostname(), "processes": [],
-              "coverage": "Visible PID namespace only; turn activity and native helpers UNKNOWN"}
+              "coverage": "Visible PID namespace only; turn activity and native helpers UNKNOWN",
+              "codex": {"state": "UNKNOWN", "reason": "No explicit app-server endpoint supplied"}}
     try:
         result["pid1"] = Path("/proc/1/comm").read_text().strip()
         for p in Path("/proc").iterdir():
@@ -382,10 +388,10 @@ def inventory():
         if run.returncode:
             raise BridgeError("Claude inventory failed")
         rows = json.loads(run.stdout)
-        if not isinstance(rows, list):
-            raise BridgeError("Claude inventory is not an array")
+        if not isinstance(rows, list) or any(not isinstance(row, dict) for row in rows):
+            raise BridgeError("Claude inventory is not an array of objects")
         result["claude"] = [{k: row.get(k) for k in (
-            "id", "sessionId", "cwd", "kind", "pid", "state", "status", "waitingFor")} for row in rows]
+            "id", "sessionId", "parentThreadId", "cwd", "kind", "pid", "state", "status", "waitingFor")} for row in rows]
     except (OSError, ValueError, BridgeError, subprocess.TimeoutExpired) as exc:
         result["error"] = type(exc).__name__
     return result

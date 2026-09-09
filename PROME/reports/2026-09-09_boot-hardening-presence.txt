@@ -1,0 +1,16 @@
+Session evidence beside due obligations — metadata snapshot; current fleet presence UNKNOWN.
+Missing sightings NEVER prove absence. Native ListAgents in the same minute remains required.
+Git DARK/ACTIVE describes self-commit history; loaded sessions and processes do not prove active turns.
+snapshot: {"observed_at": "2026-09-09T21:16:05.814747+00:00", "host": "DESKTOP-BC6EF81", "coverage": "Visible PID namespace only; turn activity and native helpers UNKNOWN", "gaps": [{"pid": "65697", "state": "UNKNOWN"}], "error": null}
+Codex coverage: {"state": "UNKNOWN", "reason": "No explicit app-server endpoint supplied"}
+key	due	owner	git_class	runtime_evidence
+D:L189	2026-09-07	BROCK	DARK	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+D:L253	2026-09-09	TERRY	DARK	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+D:L266	2026-09-09	FERT	DARK	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+D:L275	2026-09-09	RED	DARK	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+D:L249	2026-09-08	WATT	ACTIVE	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+G:GATE-FERT-G5	2026-09-09	FERT	ACTIVE	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+G:GATE-TERRY-007	2026-09-09	TERRY	ACTIVE	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+D:L247	2026-09-09	PROME	PROME-OWNED	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+D:L268	2026-09-09	PROME	PROME-OWNED	{"sessions_observed": [], "processes_observed": [], "current_presence": "UNKNOWN", "spawn_authorized": false}
+Full due-row view complete; source/coverage gaps remain UNKNOWN.

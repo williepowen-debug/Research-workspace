@@ -87,6 +87,8 @@ git commit -m "YEYOU: <subject>" -- AGENTS/YEYOU/<newfile>
 
 ## Commit cookbook
 
+**Fail-stop batch (2026-09-09):** prefer `python3 PROME/tools/commit_check.py commit --stage --push -F <msg.txt> -- <exact paths>`. Stage, commit and verification must each pass before push; omit `--push` for intermediate batches. On any failure stop dependent commands and inspect state. Literal filenames only; directory and symlink scopes are refused. The shared intent file and moving HEAD still require the existing coordination protocol; this wrapper is not transaction isolation. Manual rules and closeout receipt: `PROME/CLOSEOUT.md` Chunk 4. Approval/review: `PROME/plans/2026-09-09_boot-hardening.md`.
+
 **Default from 2026-08-29 (RAV review, Will-endorsed): commit through `PROME/tools/commit_check.py`** — `python3 PROME/tools/commit_check.py commit -F <msg.txt> -- <exact paths>` writes an intent manifest, REFUSES before git runs if any intended path has no change (the d3915f75d / 6704cfc37 overclaim shape — a script died, the file was unchanged, the message was written anyway), commits by pathspec, then verifies HEAD against the manifest and against paths named in the message (advisory; `--strict-message` to block). A mismatch is fixed by a follow-up commit, never `--amend` (root 4b). The recipes below remain valid as the underlying git; the wrapper is the checked path.
  (PROME pathspec)
 
