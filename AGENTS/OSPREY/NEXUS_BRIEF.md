@@ -9,6 +9,7 @@
 
 ## VIEW
 
+- **★★ LATE, FEED-SURFACED: a Novorossiysk oil terminal was set ablaze overnight 9/8-9** (ASTRA; mayor confirms; terminal unnamed; no loading statement) — Channel-2 clock 0/30, Sheskharis fifth-episode watch armed. And **Kstovo/NORSI (4th-largest refinery) was struck 8/26 and shut down** — missed by this desk for 13 days, found by the new strike feed in its first hour.
 - **★★ THE HEADLINE — August refinery runs ~3.8 M bpd** (EA Analytics via Bloomberg, Meduza 8/28; Kpler ~4.0) vs a 5.3-5.5 norm ⇒ **28-31% below norm — the canonical band's own centre (~30%, 25-35%, KB-029).** HAWK's 9/8 audit computed 32-36% on **July's** 3.6. **The ~33% re-centre is stale on its own basis; I have recommended it be WITHDRAWN.** Band unchanged either way; PROME holds the gate.
 - **★ Tempo:** a four-day refinery pause (9/2-5), then **Ryazan 9/6 · LUKOIL-Perm + a Tatarstan plant 9/7 · Saratov 9/8** — Perm and Saratov were probably already down, so those add tempo, not barrels. August: 21 strikes, gasoline −20% / diesel −23% y/y, **seaborne diesel/gasoil ~80-150 kb/d ≈ 80% below norm** — the products short, observed. Sochi fuel depots + the first USV strike on Sochi (NEFRIT) 9/3-4.
 - **★ The seventh week is UNREADABLE, not answered.** Newest Bloomberg print remains **3.46 M bpd, 4-wk to 8/23**; the 8/30 and 9/6 prints could not be retrieved by this desk or BRENT. **Carry 3.46 as of 8/23.** Mechanism unchanged — **BARRELS DESTROYED = zero; BARRELS NOT SHIPPED = large, reversible.**
@@ -36,7 +37,8 @@
 - **CARL** 🟡 — no change; route-out mid-to-late October.
 - **PROME** 🟠 — WQ-176 cell "cut as drafted" · rung grade for the 9/15 GATE review · re-centre withdrawal recommendation · two spec items routed. No live PROME to doorbell.
 - **RED** 🟡 — OSP-06 open; its instrument is unreadable this week, not dark.
-- **PROME / DAEDALUS** 🟠 — Will approved starting the remediation plan 9/8: strike-feed build spec + downgrade-path semantics + three batched rulings + a cadence ask are in PROME's inbox (build spec cc'd to DAEDALUS). `PLAN_2026-09-08_remediation.md` is the record.
+- **BRENT / HAWK** 🟠 — **Will ruled 9/8 ("all approved go ahead"): a channel DOWNGRADE path is now in force** (two consecutive reversing prints on the same instrument + 14 days without an in-channel row ⇒ one step down; Channel 2's test = two Bloomberg prints ≥ 3.9). **You have until 9/15 to object.** Also ruled: the ~33% re-centre is WITHDRAWN (band unchanged); the Channel-3 kill letter gains a Black Sea/Azov/Baltic qualifier; the buyer-pullback limb is retired from Channel 3 and pointed at Channel 2 (insurer/carrier withdrawals = offtake-deterrence evidence, not double-counted). A strike feed is built and running (`scripts/strike_feed.py`, 4-week acceptance test).
+- **PROME / DAEDALUS** 🟡 — the 9/8 asks packet is superseded by Will's direct ruling; a record packet follows. DAEDALUS: the spec in your inbox is now a REVIEW request, not a build.
 - **NEXUS** 🟡 — second rotation done with the rule-18 census (21 in → carried/closed by name + 3 new, 0 dropped).
 
 ## WATCH NEXT (dated)

@@ -14,7 +14,7 @@
 | 0.2 | **LESSONS.md hot/cold split** | At ~82% of the read budget. Keep each item's headline + "what happened" (one line) + **Rule** hot; move corollaries and narrative to `archive/LESSONS_ARCHIVE_<date>.md` verbatim with a crc32 receipt. Self-check: every Rule sentence survives; item numbering unchanged (cited by number). Target ≤ 16 KB hot. | read_cap_check shows LESSONS ≤ 50% of budget; archive crc recorded in the commit body. |
 | 0.3 | **Draft the downgrade-path semantics** so the ruling has text to rule on (see 1.2). | Draft in a packet, not applied. |
 
-## Phase 1 — one packet to PROME for Will's word [WILL] — **PACKET SENT 2026-09-08** on Will's in-session word *"please begin with your recommendations"* (this authorises the ASKS to be put; each ruling still needs Will's own word on the item). Build spec cc'd to DAEDALUS.
+## Phase 1 — **RULED DIRECTLY BY WILL 2026-09-08 ~23:0x ET, in-session, verbatim *"all approved go ahead"*** — 1.1 built by OSPREY the same night (DAEDALUS reviews, not builds) · 1.2 in force as EXIT RULES §1b (BRENT/HAWK objection window to 9/15) · 1.3 all three ruled: re-centre WITHDRAWN, geography qualifier ADDED, buyer-pullback limb RETIRED to Channel 2 (OSPREY's pick, reason in STATUS OWED-30) · 1.4 cadence Tue/Fri APPROVED. The earlier packet to PROME is superseded by the direct ruling; a record packet follows.
 
 | # | Ask | Proposed text / spec | Cost & risk |
 |---|---|---|---|
@@ -27,9 +27,9 @@
 
 | # | Item | Depends on |
 |---|---|---|
-| 2.1 | Integrate the feed into boot steps 5b and 7; run manual + feed in parallel for 4 weeks; record recall in KB. | 1.1 approved and built |
-| 2.2 | Write the ruled downgrade text into `CLAUDE.md` EXIT RULES as §1b; back-test against 8/20→today (no ≥3.9 print since 8/2 ⇒ would not have fired — the rule is not trivially loose). | 1.2 ruled |
-| 2.3 | Apply (a)-(c) from 1.3 to STATUS/CLAUDE.md as ruled; withdraw OWED-6/30/32. | 1.3 ruled |
+| 2.1 | **STARTED 9/8:** feed integrated into boot step 5b(iv); manual + feed in parallel 9/8 → 10/6; recall recorded in KB at week 4. | done |
+| 2.2 | **DONE 9/8:** §1b written with the back-test; objection window to 9/15. | done |
+| 2.3 | **DONE 9/8:** applied; OWED-6/30/32 closed. | done |
 | 2.4 | If BRENT's terminal covers the weekly report, register BRENT as the print's owner-of-access and stop the relay searches; if not, 0.1's fallback becomes standing. | BRENT's reply |
 
 ## Phase 3 — dated calendar (already in SCRATCH; repeated here so the plan is self-contained)
