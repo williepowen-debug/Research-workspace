@@ -1,11 +1,13 @@
 # BRENT — NEXUS Brief
 
-**Status:** 🟠 Local maintenance implemented; remote activation and source gaps remain open. September STEO published, comparison pending. WQ-189/192 STAND DOWN.
+**Status:** 🟠 September STEO comparison complete: Q4 draw higher, OECD stock base higher, spare recovery date unchanged. Remote activation/source gaps open. WQ-189/192 STAND DOWN.
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
-**As of:** 2026-09-09 scheduler-host decision closeout | STATUS commit: cd06439c0
+**As of:** 2026-09-09 STEO comparison closeout | STATUS commit: 3a447fd08
 
-C6 SCOPED-PARTIAL scheduler-host decision: Will selected keeping existing Claude routines. Their files can serve Astra/Fable BRENT sessions; no migration or routine-model change adopted. Prepared timing/publication repair remains NOT INSTALLED. Re-read current plan and local configuration mirror; no remote verification, fresh market/source evidence, receipt or grade. Next substantive work: September STEO comparison and protected release reads, then original measurements and source gaps.
+C6 SCOPED-PARTIAL STEO boundary: re-verified archived September workbook/report against preserved August baseline, source hashes, seven same-series balances and PDF table values. Forecast cutoff September 3. Q4 draw 0.6257 → 1.7091 mb/d; smaller Q3 draw and higher OECD stock base qualify tighter Q4. April 2027 spare return unchanged. No weekly/market, incident, legal/flow, calibration or broker re-verification; dated material below retains its original scope. Boot rc=2 source/obligation findings; incidental quotes not adopted. [Completed comparison and limits](research/2026-09-09_steo-comparison/REPORT.md). Existing Claude routines retained, timing repair uninstalled.
+
+Prior C6 SCOPED-PARTIAL scheduler-host decision: Will selected keeping existing Claude routines. Their files can serve Astra/Fable BRENT sessions; no migration or routine-model change adopted. Prepared timing/publication repair remains NOT INSTALLED. That decision pass re-read plan/local mirror only; its September STEO next-work item is now completed above.
 
 Prior C6 SCOPED-PARTIAL planning boundary: re-read existing scheduler instructions, handoff and complete BRT-12 grading note; [remaining-work plan](audits/2026-09-09_maintenance/REMAINING_PLAN.md) now orders the work and defines completion. No routine activated and no new data/source/receipt verification, prediction grade or thesis change. Dated software checks and market evidence below retain their previous scope/vintage.
 
@@ -21,6 +23,7 @@ Prior C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced c
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
+| HAWK / HENRY / CARL / TERRY | September STEO: smaller Q4 supply recovery, higher draw; April 2027 spare path unchanged | P2 | Conditional Q4 relief more limited, product inventory forecast lower. Higher OECD stock base and smaller Q3 draw are counterevidence. Forecast cutoff September 3; no observed reopening, facility loss or trade signal. See comparison report; no outbound packet. |
 | PROME / HAWK | CPC dated partial restart verified; current Jazan/unit state and earlier incident gaps unresolved | P2 | Old ACTIVE does not establish current capacity loss; no aggregate is quotable. Current follow-up in research/2026-09-08_catchup/REPORT.md; prior eleven gaps still in refinery_damage/REVERIFICATION_2026-09-08.md. |
 | PROME / FALCON / HAWK | Full-August Sidi Kerir replaces MTD interpretation; PortWatch control UNKNOWN | P2 | Northern rerouting is not independent Saudi capacity confirmation; absent target rows cannot confirm coverage defect. |
 | OSPREY / TERRY / HENRY | Q1 improved transcriptions, official instrument/publication missing; Q2 flow and Q3 crack separate | P2 | Policy timing cannot establish recovered diesel supply or unwind product costs. |
@@ -37,12 +40,14 @@ Prior C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced c
 | Official Russian publication / OSPREY | No.1097/publication and original No.954 scope; specified diesel/gasoil windows | Next access; full read October 1 | Policy permission differs from recovery | Q1 independent of Q2/Q3; no clock reset. |
 | Official exchange / named-contract source | Authenticated matched settlements and BRT-12 original historical crack construction | Next accessible source | Live/daily vendor quotes do not certify settlement | Upgrade only on dated matched contracts; no continuous-roll delta. |
 | TERRY / Will | XLE broker check/execution receipt | September 9 open | Selection is not fill | Close pending execution only on receipt. |
-| BRENT research / EIA workbooks | September STEO comparison; issue now published | September 9 next research read | August projected sharp Q4 draw slowdown through supply recovery | Compare preserved seven-series baseline with same definitions/months; forecast revision is not observed recovery. |
+| EIA | Next STEO vintage | October 6, primary overview schedule | September baseline now archived and compared | Same IDs/months; numeric 2027 build timing and narrative mismatch retained until new source resolves it. |
 | EIA | WPSR week ending September 4 | September 10 noon ET | Existing SPR/Edouard read | Frozen observations; first print cannot decide two-print test. |
 | Baker Hughes / CFTC | Friday pair, COT as-of September 8 | September 11 ~13:00 / ~15:30 ET | Registered rig/positioning tests | Existing letters; prior grades carried until release. |
 | LIQUID | Energy-credit/systemic amplification evidence | Event-driven, no new deadline | No independent energy HY OAS here | Distinguish commodity stress from systemic transmission. |
 
 ## VIEW
+
+- September forecast raises Q4 draw on a supply cut, partly offset by weaker demand. OECD stock levels are revised higher; spare path unchanged. Product tightness persists in the forecast, but neither a new probability nor confirmed physical loss follows. Full decomposition and source wording differences are in the new report.
 
 - Evidence remains consistent with prompt tightness and northern rerouting. Full-August Kpler is direction-only context against a Vortexa weekly benchmark. Existing same-series weekly lag test NOT RUNNABLE — NO-VERDICT; no authenticated new Saudi loss.
 - Amendment transcription improves Q1 evidence but does not finish authentication. Flow and matched crack remain separate discriminators.
@@ -61,7 +66,7 @@ Prior C6 SCOPED-PARTIAL workbook boundary: registry ownership/paths, displaced c
 
 ## NEXT DECISION POINT
 
-USO October call is CLOSED on the September 9 receipt recorded by PROME; October 9 management reminder discharged. XLE receipt belongs to TERRY/Will; current owner intent does not confirm a fill. Next research checkpoint: compare the now-published September STEO with the preserved August baseline, then September 10 noon/later-file WPSR. Retail review and baseline preparation are complete; WPSR remains future and no unattended monitor was installed. Local maintenance is implemented; remote routine activation and source-dependent composite construction remain open in the maintenance report. PortWatch required target, decree authentication, BRT-29 count and BRT-12 history retain their gaps. Missing evidence remains UNKNOWN. [Pre-release findings and exact next comparisons](research/2026-09-09_squeeze-review/REPORT.md).
+September STEO read is complete. Next physical checkpoint: September 10 noon/14:00 ET WPSR, intended September 4 observation; use the saved worksheet and unchanged two-print SPR test. Next research block: original BRT-12 construction and overdue BRT-29 evidence. USO October call remains CLOSED on prior PROME receipt; XLE execution still needs TERRY/Will receipt. Remote timing repair is uninstalled. PortWatch target, decree authentication and current incident status retain their gaps. [Completed STEO comparison](research/2026-09-09_steo-comparison/REPORT.md) · [WPSR worksheet](research/2026-09-09_squeeze-review/REPORT.md).
 
 ## WATCH (next 2–4 weeks)
 
