@@ -58,7 +58,8 @@
 
 ## MAIL STATE
 - **Root inbox: 0 pending. WALTER lane: 0 pending.** 7 items dispositioned + archived; `board_log.tsv` +7 rows.
-- Outbox: 3 packets routed (PROME, HAWK, BRENT) via carve-out ①. ⚠️ `delivered/` tail still never run (DAEDALUS action 7) — OWED-22.
+- Outbox: **8 packets routed tonight** via carve-out ① — PROME ×2 (asks, then the RECORD that supersedes it), DAEDALUS ×2 (build spec, then review request), BRENT ×2 (L140; downgrade path + Novorossiysk late add), HAWK ×2 (audit review; downgrade path + late add). No live recipient to doorbell at any commit (ListAgents: only FALCON live). `outbox/delivered/` sweep done (OWED-22 closed).
 
 ## PENDING PUSH / GIT
-- Committed path-scoped inside `AGENTS/OSPREY/` + carve-out ① packets. BRENT and SAM have uncommitted work in the tree (a concurrent BRENT session was live earlier today) — never swept, never stashed. Push receipt in the session's last line.
+- **Clean.** Every commit path-scoped; 15 commits this session (desk files, packets, one auto-memory under carve-out ③); every push carried the `Pushed. CONFIRMED` receipt. Other desks' dirty files (BRENT, SAM, HAWK, FALCON) were never swept or stashed.
+- ⚠️ **STATUS is at 23.5 KB = 72% of the read budget** — under the 75% rotate tier but close; next session trims before it adds (the OWED register's CLOSED rows can go to the archive banner).

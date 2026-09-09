@@ -1,6 +1,6 @@
 # OSPREY STATUS
 **Agent:** OSPREY (Russia/Ukraine War Theater — Energy-Strike Campaign, Crude-vs-Products Channel Model) · spun out of HAWK 2026-07-12; historical record frozen under `AGENTS/HAWK/`.
-**Last Updated:** 2026-09-08 ~23:2x ET — owner catch-up session after **6 dark days** (9/2 → 9/8), plus a same-day **second pass** (residuals, backfills, slow-surface refresh, THESIS v1.0).
+**Last Updated:** 2026-09-09 ~00:1x ET — owner catch-up session after **6 dark days** (9/2 → 9/8) in four passes: sweep · residuals/backfills/THESIS v1.0 · open-item research · **Will's five rulings + the strike feed's first run**.
 **⚠️ SECOND ROTATION EXECUTED 2026-09-08** under the fleet READ-CAP rule: the 9/2 file (27,150 B = 83% of the 32,550 B budget, above the 75% rotate tier) is archived **verbatim, crc32 928851426**, at `archive/STATUS_ARCHIVE_2026-09-08.md`. Obligation census before/after (READ_CAP rule 18): **21 open in → each carried or closed BY NAME + 3 new, 0 dropped** — the OWED REGISTER below is the census. Byte receipt in the commit body.
 **Evidence + reasoning:** `domain/energy-strikes/ANALYSIS_2026-09-08.md` (regenerated; supersedes ANALYSIS_2026-09-02). **This file carries live state and verdicts only.**
 
