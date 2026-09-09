@@ -1,7 +1,9 @@
 # SCRATCH.md — Ephemeral Session State
-**Last Updated:** 2026-09-08 · Codex/PROME owner catch-up; older sections retain their stated vintages.
+**Last Updated:** 2026-09-08 · fresh-window workflow checkpoint + owner catch-up; older sections retain their stated vintages.
 
 ## ★ NEXT SESSION — START HERE
+
+**FRESH-WINDOW TASK:** Will requested work on all six mixed-agent improvements; start with [implementation plan](plans/2026-09-08_mixed-agent-workflow.md). Preserve direct Will access AND PROME orchestration of the same desk; shared helper capacity; inbox content + doorbell coordination. First prove messaging/completion notices and actual session discovery, then automate capacity, formats, context lifecycle and selective worktrees. Research only so far; cross-runtime bridge and hardware limits UNVERIFIED. Existing market obligations below remain due.
 
 **9/8 CODEX/PROME update:** [Owner follow-through](reports/2026-09-08_owner-orchestration-completion.md) supersedes the earlier reader-only results and owner-pending claims below. WALTER cutover/corrections, TERRY management and HAWK Canada grade are committed; BRENT completed source-limited write-back. XLE64.77 selects the approved9/9-open exit; Will verifies holdings/orders and executes. TLT85P needs current broker reconciliation. TERRY007 graded through9/4,9/8 unpublished. Cboe9/8 and PJM post23:59 outcome UNKNOWN; BROCK remains9/9. [Market evidence](reports/2026-09-08_owed-market-checks.md) keeps observation dates.
 

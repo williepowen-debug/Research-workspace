@@ -4,7 +4,7 @@
 
 **Archive:** older entries → `PROME/archive/HANDOFF_*.md` (one file per rotated block; each file's header carries its own entry-crc32; `ls PROME/archive/HANDOFF_*.md` is the index — no hand-maintained index exists by design). The 49-pointer paragraph that lived here through 8/28 (frozen snapshot, nothing appends to it) → `PROME/archive/HANDOFF_ARCHIVE_POINTERS_2026-08-28.md` (crc32 3088833333). Rotation recipe → `PROME/CLOSEOUT.md` Chunk 1.
 
-**Current handoff (September8):** actual Codex owner implementations and verified Git receipts → [owner follow-through](reports/2026-09-08_owner-orchestration-completion.md); next entry point → SCRATCH. Five prior session records below are history.
+**Current handoff (September8):** Will requested all six mixed-agent workflow improvements in a fresh window → [implementation plan](plans/2026-09-08_mixed-agent-workflow.md), surfaced first in SCRATCH. Direct Will conversations coexist with PROME orchestration; manual sessions and nested helpers share capacity. Product research/local CLI checks are complete; integration implementation and pilot remain. Actual Codex owner catch-up and verified Git receipts → [owner follow-through](reports/2026-09-08_owner-orchestration-completion.md); preserve its market obligations. Five prior session records below are history.
 
 ---
 
@@ -54,4 +54,3 @@
 **④ PROME'S OWN:** #99 (four batches of over-long commit subjects — the guard held each time) · #100 · #101; memory extended (`finding_record_of_an_action_is_not_the_action` n=15, the receipt-gap form and my own push claim). **The structural finding is the SPAWN DRIVER:** three desks held dated work and nothing ran them until Will typed a word — Codex, DAEDALUS's packet ⑤ and the ORCH_LOG say the same thing; PROME-owned, undated, top of the structure list.
 
 **Open for Will at reboot:** **WQ-183 · WQ-179 (both by 9/11)** · WQ-163 items 3/4/⑤ (9/10) · WQ-181 ② (9/14) · WQ-182 (9/30) · WQ-160 (9/29) · WQ-133 (9/12) · 98 · 74 · 31 · by hand: D-43/D-44/D-45 (the Activity view) · the TLT 85P sell at the broker's count · the QQQ 715P disposition. **Owed by PROME:** the spawn-driver design · Tue 9/8: L262 · WQ-150 root batch (+ the two YEYOU lines) · the first market-day HEARTBEAT amendment (audit residue + tonight's grades) · Wed 9/9: L268 · L247 · Sat 9/12: spine audit #13 · the SYSTEM/AUTONOMY residue pass · nine owners' WQ-176 leg-① confirms. Entry point → `PROME/SCRATCH.md` ★ NEXT SESSION.
-
