@@ -5,6 +5,8 @@
 **Thesis version:** v5.8, unchanged.
 **As of:** 2026-09-09 STEO comparison closeout | STATUS commit: 3a447fd08
 
+C6 SCOPED-PARTIAL boot check 2026-09-09T20:51:06Z: re-read desk continuity, latest saved routine, pending XLE owner card and BRT-29 letter/note; ran full network boot (rc=2), corrections (PASS). Source/quote freshness, instrument and ledger findings remain. No new broker, legal/flow, incident, STEO or prediction verification; all prior evidence retains its vintage. [Boot record](audits/2026-09-09_boot/REPORT.md).
+
 C6 SCOPED-PARTIAL STEO boundary: re-verified archived September workbook/report against preserved August baseline, source hashes, seven same-series balances and PDF table values. Forecast cutoff September 3. Q4 draw 0.6257 → 1.7091 mb/d; smaller Q3 draw and higher OECD stock base qualify tighter Q4. April 2027 spare return unchanged. No weekly/market, incident, legal/flow, calibration or broker re-verification; dated material below retains its original scope. Boot rc=2 source/obligation findings; incidental quotes not adopted. [Completed comparison and limits](research/2026-09-09_steo-comparison/REPORT.md). Existing Claude routines retained, timing repair uninstalled.
 
 Prior C6 SCOPED-PARTIAL scheduler-host decision: Will selected keeping existing Claude routines. Their files can serve Astra/Fable BRENT sessions; no migration or routine-model change adopted. Prepared timing/publication repair remains NOT INSTALLED. That decision pass re-read plan/local mirror only; its September STEO next-work item is now completed above.

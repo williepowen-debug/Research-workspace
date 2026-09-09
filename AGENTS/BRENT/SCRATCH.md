@@ -1,15 +1,15 @@
-# BRENT SCRATCH — September 9 STEO comparison
+# BRENT SCRATCH — September 9 boot
 
 ## CHANGES SINCE LAST SESSION
 
-September STEO is fully compared with saved August inputs. September 3 cutoff precedes later attacks. Q4 world draw rises 0.6257 → 1.7091 mb/d as supply recovery slows; Q3 draw falls 3.8454 → 2.9846 and year-end OECD stocks rise 91.4133M. April 2027 spare-capacity step unchanged. September U.S. distillate stocks projected at 99.4153M. These are EIA forecasts/estimates, not observed reopening or new market marks. Latest autonomous file remains eia_2026-09-09.md: no new WPSR before September 10. No new broker receipt verified.
+Boot-only activation; prior September STEO comparison remains the latest analytical work. Full network checks report stale quote/weekly coverage and existing evidence obligations, not a new thesis verdict. No new broker receipt verified in inspected TRADE/XLE owner surfaces.
 
 ## WHAT I DID THIS SESSION
 
-- Saved September workbook, archived report and overview with URLs/timestamps/SHA-256. Two local narrative-page downloads are HTTP-200 error pages; classified as failures, archived PDF used instead.
-- Reproduced seven original series/August baseline; added explicitly identified price/distillate-stock context. Checked 24-month coverage, balances, revision decomposition and PDF quarterly values. Simple-mean ladder and day-weighted published quarters kept separate. Numeric 2027 builds start January despite narrative H2 wording; mismatch disclosed.
-- Completed [STEO report](research/2026-09-09_steo-comparison/REPORT.md); updated STATUS, thesis evidence/CHANGELOG, source map, docket, plan and continuity. v5.8 probabilities/horizons/falsifiers, prediction grades and WQ-189/192 STAND DOWN unchanged. No new instrument, gate, proposal or broker action.
-- Required boot rc=2: stale August 28 EIA observations, unresolved BRT-29 M, Baker Hughes timeout and ledger nudge. All scripts ran; no incidental quote adopted. Corrections check passed. Existing Claude routines retained; timing repair NOT INSTALLED, no routine-control tool. Do not repeat scheduler discovery.
+- Synced repository and loaded BRENT instructions, continuity, latest scheduled output, lessons and thesis context.
+- Completed network boot: nine scripts ran, five FINDINGS, rc=2. Corrections and derived views passed. [Full results and scope](audits/2026-09-09_boot/REPORT.md).
+- Read complete BRT-29 letter/note; M remains unresolved, final September 30 window unchanged. Read holding rules/XLE card and reaffirmed receipt PENDING.
+- Re-triaged OSPREY packet DEFERRED; no WALTER/MSG intake, mail moves or sends. Updated boot-health/continuity annotations only. Prior research results, grades and bindings retain their dates.
 
 ## NEXT SESSION (dated, future-verifiable)
 
@@ -37,4 +37,4 @@ Inbox: existing OSPREY September 8 downgrade/rulings packet remains DEFERRED in 
 
 ## WORKBOOK HEALTH
 
-Comparison assertions PASS; hashes and saved August reproduction verified. Boot rc=2 is not green; full diagnostics in new report. CATALYSTS updated for completed read/next release; calendar generated from it. LESSONS_INDEX unchanged (no new lesson), INCIDENTS unchanged (no facility verification), board_log unchanged (no mail), TRADE unchanged (no receipt/decision), REGISTRY unchanged (no instrument/numeric change). Nudge reasons retained in report/commit. Frozen ledgers/specs and grades untouched. Prior maintenance 41-test receipt is historical, not rerun here. New analysis reproducibility and affected calendar/read-cap checks are this session's verification.
+Boot rc=2; full diagnostics and ledger-nudge dispositions in audits/2026-09-09_boot/REPORT.md. No new lesson, facility verification, consumed mail, receipt or measurement/spec revision: LESSONS_INDEX, INCIDENTS, board_log, TRADE and REGISTRY deliberately unchanged. CATALYSTS unchanged; derived view matches. Prior maintenance tests and STEO reproduction are historical receipts. This boot's read-cap and calendar checks pass. Weekday advisory misreads generated January 31 as 2026; docket is 2027-01-31 (Sunday), so no date correction. Frozen ledgers and grades untouched.

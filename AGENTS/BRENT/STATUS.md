@@ -7,6 +7,10 @@
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
+## September 9 boot check
+
+Boot completed with FINDINGS (rc=2); all scripts ran. Quote/weekly freshness, BRT-29 M, instrument coverage and ledger-nudge findings remain explicit. Corrections and derived views passed. No new market synthesis or grade. [Boot record](audits/2026-09-09_boot/REPORT.md).
+
 ## September 9 remaining-work plan
 
 **STEO read COMPLETED September 9:** [EST EIA September versus August workbooks; simple monthly means] Q4 world draw **0.6257 → 1.7091 mb/d**: supply revision **−1.5077**, partly offset by consumption **−0.4243**. Q3→Q4 supply recovery **3.9962 → 1.8963 mb/d**. Counterevidence: Q3 draw **3.8454 → 2.9846** and year-end OECD stocks **2,476.9002 → 2,568.3135M**. OPEC spare path unchanged: **0.020 mb/d H2 2026**, **0.030 Q1 2027**, **2.380 from April**; single-agency forecast, not observed recovery. September U.S. distillate stocks **104.7256 → 99.4153M**. Product-pressure case persists, but higher starting stocks prevent a blanket faster-depletion claim. Model cutoff September 3 excludes later attacks. Numeric table already builds from January 2027 despite later narrative wording; source mismatch retained. v5.8 calibration/falsifiers and STAND DOWN unchanged. [Sources, calculations and limits](research/2026-09-09_steo-comparison/REPORT.md). Next physical read: September 10 WPSR; original BRT-12 and overdue BRT-29 evidence remain open.
