@@ -38,7 +38,7 @@ Read the COMPLETE named spec, including caveats and unresolved clauses. A health
 
 | Date | Action | Detail |
 |---|---|---|
-| 2026-09-08 | XLE exit selected for September 9 open | PENDING live broker check / execution / receipt. Reaffirmed at cleanup: no later receipt supplied or inferred. |
+| 2026-09-08 | XLE exit selected for September 9 open | PENDING live broker check / execution / receipt. Reaffirmed September 9 startup after the open: read TERRY card remains STAGED/unconfirmed; no later broker receipt supplied or inferred. |
 | 2026-09-02 | One USO October 135C sold | One remains. Sale price permanently UNKNOWN under WQ-167; no re-ask. |
 | 2026-07-24 | USO September 150/165 spread filled | Recorded ~$300 net debit; historical fill basis, not a live quote. Current holding instruction is HOLD through expiry. |
 | 2026-06-18 | CF June 130C expired worthless | Historical closed leg. |

@@ -7,6 +7,10 @@
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
+## September 9 startup — scoped boot receipt
+
+Boot at 09:49 ET: eight checks OK, instrument WARNINGS; corrections register has no unreceipted named row. Live retrieval reproduced August 28 EIA weekly data; Cushing freshness, partial paired measurements and incident-source warnings remain. Monitor price labels are diagnostic, not a named-contract settlement/curve update. XLE open has elapsed and receipt remains PENDING at the read TERRY card. OSPREY late terminal-fire claims deferred for owner/source review. Thesis v5.8 and WQ-189/192 STAND DOWN unchanged. [Boot evidence and limits](research/2026-09-09_boot.md). Header above retains the prior comprehensive evidence vintage.
+
 ## September 8 workbook reconciliation
 
 Workbook navigation and live/history ownership are now explicit in [workbook/README.md](workbook/README.md). Registry source paths and consumer fields repaired; saved LMA/SPR/FRED corrections integrated without changing thresholds or observation dates. Three component-only probes now disclose PARTIAL_COVERAGE; a working single leg cannot certify a paired/composite measurement. Rule excerpts and lesson/index agreement checked. Frozen historical ledgers unchanged; evidence gaps and scheduled releases remain in their existing readers. [Measured checks](workbook/RECONCILIATION_2026-09-08.json). This is structural/source-record reconciliation, not a fresh market grade or broker receipt.
