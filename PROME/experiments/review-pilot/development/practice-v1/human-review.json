@@ -1,0 +1,543 @@
+[
+  {
+    "task": "sd_p01",
+    "documents": [
+      {
+        "id": "sd_p01_a",
+        "text": "2031-01-02. Amber workshop collection A: inspectors examined 20 tiles and found 8 chipped edges. This is an original inspection of a randomly selected tile batch."
+      },
+      {
+        "id": "sd_p01_b",
+        "text": "2031-01-03. Workshop digest: 40 percent of 20 tiles were chipped. Every observation here comes from sd_p01_a; no additional tiles were examined."
+      },
+      {
+        "id": "sd_p01_c",
+        "text": "2031-01-04. Collection B: a different team independently selected 25 other tiles from the same workshop and found 10 chipped edges. This team did not use the observations in sd_p01_a."
+      },
+      {
+        "id": "sd_p01_d",
+        "text": "2031-01-05. Poster: two inspection teams found chipped-edge rates above 30 percent. The poster summarizes sd_p01_b and sd_p01_c, without collecting data."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that at least 30 percent of tiles tested in the Amber workshop have a chipped edge. Count underlying independently collected datasets, not publications. Report each field from the available evidence.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Number of independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Document IDs identifying those roots; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "first_sample_size",
+        "description": "Number of tiles in the first collection, sd_p01_a; integer decimal string."
+      },
+      {
+        "id": "first_chipped_count",
+        "description": "Chipped tiles in the first collection, sd_p01_a; integer decimal string."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_p01_a",
+            "sd_p01_b",
+            "sd_p01_c",
+            "sd_p01_d"
+          ],
+          "value": "2"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_p01_a",
+            "sd_p01_c"
+          ],
+          "value": "sd_p01_a;sd_p01_c"
+        },
+        {
+          "field": "first_sample_size",
+          "source_ids": [
+            "sd_p01_a"
+          ],
+          "value": "20"
+        },
+        {
+          "field": "first_chipped_count",
+          "source_ids": [
+            "sd_p01_a"
+          ],
+          "value": "8"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_p01_a",
+            "sd_p01_c"
+          ],
+          "value": "MULTIPLE_ROOTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-001"
+  },
+  {
+    "task": "sd_p01",
+    "documents": [
+      {
+        "id": "sd_p01_a",
+        "text": "2031-01-02. Amber workshop collection A: inspectors examined 20 tiles and found 8 chipped edges. This is an original inspection of a randomly selected tile batch."
+      },
+      {
+        "id": "sd_p01_b",
+        "text": "2031-01-03. Workshop digest: 40 percent of 20 tiles were chipped. Every observation here comes from sd_p01_a; no additional tiles were examined."
+      },
+      {
+        "id": "sd_p01_c",
+        "text": "2031-01-04. Collection B: a different team independently selected 25 other tiles from the same workshop and found 10 chipped edges. This team did not use the observations in sd_p01_a."
+      },
+      {
+        "id": "sd_p01_d",
+        "text": "2031-01-05. Poster: two inspection teams found chipped-edge rates above 30 percent. The poster summarizes sd_p01_b and sd_p01_c, without collecting data."
+      }
+    ],
+    "question": "Assess independent observational support for the claim that at least 30 percent of tiles tested in the Amber workshop have a chipped edge. Count underlying independently collected datasets, not publications. Report each field from the available evidence.",
+    "fields": [
+      {
+        "id": "root_count",
+        "description": "Number of independent observational roots supporting the claim; integer decimal string."
+      },
+      {
+        "id": "root_ids",
+        "description": "Document IDs identifying those roots; semicolon-separated, sorted lexicographically, no spaces."
+      },
+      {
+        "id": "first_sample_size",
+        "description": "Number of tiles in the first collection, sd_p01_a; integer decimal string."
+      },
+      {
+        "id": "first_chipped_count",
+        "description": "Chipped tiles in the first collection, sd_p01_a; integer decimal string."
+      },
+      {
+        "id": "support",
+        "description": "Exact enum: SINGLE_ROOT, MULTIPLE_ROOTS, or UNSUPPORTED."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "root_count",
+          "source_ids": [
+            "sd_p01_a",
+            "sd_p01_b",
+            "sd_p01_c",
+            "sd_p01_d"
+          ],
+          "value": "2"
+        },
+        {
+          "field": "root_ids",
+          "source_ids": [
+            "sd_p01_a",
+            "sd_p01_c"
+          ],
+          "value": "sd_p01_a;sd_p01_c"
+        },
+        {
+          "field": "first_sample_size",
+          "source_ids": [
+            "sd_p01_a"
+          ],
+          "value": "20"
+        },
+        {
+          "field": "first_chipped_count",
+          "source_ids": [
+            "sd_p01_a"
+          ],
+          "value": "8"
+        },
+        {
+          "field": "support",
+          "source_ids": [
+            "sd_p01_a",
+            "sd_p01_c"
+          ],
+          "value": "MULTIPLE_ROOTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-002"
+  },
+  {
+    "task": "su_p01",
+    "documents": [
+      {
+        "id": "su_p01_a",
+        "text": "2031-03-01. Provisional release for the 2031-02-28 inspection of Maple Hall stools: 12 repaired stools."
+      },
+      {
+        "id": "su_p01_b",
+        "text": "2031-03-02. Schedule note: the Maple Hall stool count refers to the inspection on 2031-02-28; a finalized release is still pending."
+      },
+      {
+        "id": "su_p01_c",
+        "text": "2031-03-02. Newsletter repeats the provisional count of 12 from su_p01_a."
+      },
+      {
+        "id": "su_p01_d",
+        "text": "2031-03-03. Final release replaces the provisional count in su_p01_a: 14 Maple Hall stools were repaired as of the same 2031-02-28 inspection. The population and inspection date are unchanged."
+      }
+    ],
+    "question": "Maintain the current accepted count of repaired stools and the originally published count for the same inspection. A correction changes current truth but not what was originally published.",
+    "fields": [
+      {
+        "id": "current_count",
+        "description": "Current accepted repaired-stool count; integer decimal string."
+      },
+      {
+        "id": "original_published_count",
+        "description": "Count in the original publication su_p01_a, even if later corrected; integer decimal string."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Inspection date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal MAPLE_HALL_STOOLS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PROVISIONAL or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_count",
+          "source_ids": [
+            "su_p01_d"
+          ],
+          "value": "14"
+        },
+        {
+          "field": "original_published_count",
+          "source_ids": [
+            "su_p01_a"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "su_p01_a",
+            "su_p01_d"
+          ],
+          "value": "2031-02-28"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_p01_a",
+            "su_p01_d"
+          ],
+          "value": "MAPLE_HALL_STOOLS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_p01_d"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-003"
+  },
+  {
+    "task": "ca_p01",
+    "documents": [
+      {
+        "id": "ca_p01_a",
+        "text": "2031-04-01. Signed inspection of east shelf objects: 8 damaged objects among 20 inspected objects."
+      },
+      {
+        "id": "ca_p01_b",
+        "text": "2031-04-02. Transcription note: the task-local canonical record and summary copied the damaged count as 6. The signed inspection ca_p01_a is the authoritative count."
+      },
+      {
+        "id": "ca_p01_c",
+        "text": "2031-04-02. Summary specification: the summary covers the same 20 east shelf objects as the canonical record, and its damage percentage is damaged count divided by sample size times 100."
+      },
+      {
+        "id": "ca_p01_d",
+        "text": "2031-04-03. Inspection custodian confirms the east shelf inspection remains unchanged: 8 damaged objects out of 20."
+      }
+    ],
+    "question": "Reconcile a canonical shelf record and its downstream summary with the inspection evidence. Return the actual values on both surfaces and preserve the unaffected population and sample size.",
+    "fields": [
+      {
+        "id": "canonical_damaged_count",
+        "description": "Damaged-object count on the canonical record; integer decimal string."
+      },
+      {
+        "id": "summary_damaged_count",
+        "description": "Damaged-object count in the downstream summary; integer decimal string."
+      },
+      {
+        "id": "summary_damaged_percent",
+        "description": "Damaged-object percentage in the downstream summary; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Number of inspected objects; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal EAST_SHELF_OBJECTS."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_damaged_count",
+          "source_ids": [
+            "ca_p01_a",
+            "ca_p01_b",
+            "ca_p01_d"
+          ],
+          "value": "8"
+        },
+        {
+          "field": "summary_damaged_count",
+          "source_ids": [
+            "ca_p01_a",
+            "ca_p01_b",
+            "ca_p01_d"
+          ],
+          "value": "8"
+        },
+        {
+          "field": "summary_damaged_percent",
+          "source_ids": [
+            "ca_p01_c",
+            "ca_p01_d"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_p01_a",
+            "ca_p01_c",
+            "ca_p01_d"
+          ],
+          "value": "20"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_p01_a",
+            "ca_p01_c",
+            "ca_p01_d"
+          ],
+          "value": "EAST_SHELF_OBJECTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-004"
+  },
+  {
+    "task": "su_p01",
+    "documents": [
+      {
+        "id": "su_p01_a",
+        "text": "2031-03-01. Provisional release for the 2031-02-28 inspection of Maple Hall stools: 12 repaired stools."
+      },
+      {
+        "id": "su_p01_b",
+        "text": "2031-03-02. Schedule note: the Maple Hall stool count refers to the inspection on 2031-02-28; a finalized release is still pending."
+      },
+      {
+        "id": "su_p01_c",
+        "text": "2031-03-02. Newsletter repeats the provisional count of 12 from su_p01_a."
+      },
+      {
+        "id": "su_p01_d",
+        "text": "2031-03-03. Final release replaces the provisional count in su_p01_a: 14 Maple Hall stools were repaired as of the same 2031-02-28 inspection. The population and inspection date are unchanged."
+      }
+    ],
+    "question": "Maintain the current accepted count of repaired stools and the originally published count for the same inspection. A correction changes current truth but not what was originally published.",
+    "fields": [
+      {
+        "id": "current_count",
+        "description": "Current accepted repaired-stool count; integer decimal string."
+      },
+      {
+        "id": "original_published_count",
+        "description": "Count in the original publication su_p01_a, even if later corrected; integer decimal string."
+      },
+      {
+        "id": "inspection_date",
+        "description": "Inspection date; exact YYYY-MM-DD."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal MAPLE_HALL_STOOLS."
+      },
+      {
+        "id": "release_status",
+        "description": "Exact enum: PROVISIONAL or FINAL."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "current_count",
+          "source_ids": [
+            "su_p01_d"
+          ],
+          "value": "14"
+        },
+        {
+          "field": "original_published_count",
+          "source_ids": [
+            "su_p01_a"
+          ],
+          "value": "12"
+        },
+        {
+          "field": "inspection_date",
+          "source_ids": [
+            "su_p01_a",
+            "su_p01_d"
+          ],
+          "value": "2031-02-28"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "su_p01_a",
+            "su_p01_d"
+          ],
+          "value": "MAPLE_HALL_STOOLS"
+        },
+        {
+          "field": "release_status",
+          "source_ids": [
+            "su_p01_d"
+          ],
+          "value": "FINAL"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-005"
+  },
+  {
+    "task": "ca_p01",
+    "documents": [
+      {
+        "id": "ca_p01_a",
+        "text": "2031-04-01. Signed inspection of east shelf objects: 8 damaged objects among 20 inspected objects."
+      },
+      {
+        "id": "ca_p01_b",
+        "text": "2031-04-02. Transcription note: the task-local canonical record and summary copied the damaged count as 6. The signed inspection ca_p01_a is the authoritative count."
+      },
+      {
+        "id": "ca_p01_c",
+        "text": "2031-04-02. Summary specification: the summary covers the same 20 east shelf objects as the canonical record, and its damage percentage is damaged count divided by sample size times 100."
+      },
+      {
+        "id": "ca_p01_d",
+        "text": "2031-04-03. Inspection custodian confirms the east shelf inspection remains unchanged: 8 damaged objects out of 20."
+      }
+    ],
+    "question": "Reconcile a canonical shelf record and its downstream summary with the inspection evidence. Return the actual values on both surfaces and preserve the unaffected population and sample size.",
+    "fields": [
+      {
+        "id": "canonical_damaged_count",
+        "description": "Damaged-object count on the canonical record; integer decimal string."
+      },
+      {
+        "id": "summary_damaged_count",
+        "description": "Damaged-object count in the downstream summary; integer decimal string."
+      },
+      {
+        "id": "summary_damaged_percent",
+        "description": "Damaged-object percentage in the downstream summary; integer decimal string without percent sign."
+      },
+      {
+        "id": "sample_size",
+        "description": "Number of inspected objects; integer decimal string."
+      },
+      {
+        "id": "population",
+        "description": "Exact literal EAST_SHELF_OBJECTS."
+      }
+    ],
+    "final_answer": {
+      "answers": [
+        {
+          "field": "canonical_damaged_count",
+          "source_ids": [
+            "ca_p01_a",
+            "ca_p01_b",
+            "ca_p01_d"
+          ],
+          "value": "8"
+        },
+        {
+          "field": "summary_damaged_count",
+          "source_ids": [
+            "ca_p01_b",
+            "ca_p01_c",
+            "ca_p01_d"
+          ],
+          "value": "8"
+        },
+        {
+          "field": "summary_damaged_percent",
+          "source_ids": [
+            "ca_p01_c",
+            "ca_p01_d"
+          ],
+          "value": "40"
+        },
+        {
+          "field": "sample_size",
+          "source_ids": [
+            "ca_p01_c",
+            "ca_p01_d"
+          ],
+          "value": "20"
+        },
+        {
+          "field": "population",
+          "source_ids": [
+            "ca_p01_a",
+            "ca_p01_c",
+            "ca_p01_d"
+          ],
+          "value": "EAST_SHELF_OBJECTS"
+        }
+      ]
+    },
+    "human_grade": null,
+    "output_id": "OUTPUT-006"
+  }
+]

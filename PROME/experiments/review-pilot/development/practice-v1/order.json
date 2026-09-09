@@ -1,0 +1,32 @@
+[
+  {
+    "task": "su_p01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "su_p01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_p01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "ca_p01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "task": "sd_p01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "task": "sd_p01",
+    "rep": 1,
+    "condition": "self"
+  }
+]

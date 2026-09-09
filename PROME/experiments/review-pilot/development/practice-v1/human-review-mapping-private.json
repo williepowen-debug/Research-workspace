@@ -1,0 +1,44 @@
+[
+  {
+    "output_id": "OUTPUT-001",
+    "sequence": 4,
+    "task": "sd_p01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-002",
+    "sequence": 5,
+    "task": "sd_p01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-003",
+    "sequence": 0,
+    "task": "su_p01",
+    "rep": 1,
+    "condition": "self"
+  },
+  {
+    "output_id": "OUTPUT-004",
+    "sequence": 2,
+    "task": "ca_p01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-005",
+    "sequence": 1,
+    "task": "su_p01",
+    "rep": 1,
+    "condition": "separate"
+  },
+  {
+    "output_id": "OUTPUT-006",
+    "sequence": 3,
+    "task": "ca_p01",
+    "rep": 1,
+    "condition": "self"
+  }
+]

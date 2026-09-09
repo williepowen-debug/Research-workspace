@@ -1,0 +1,19 @@
+{
+  "frozen_at": "2026-09-09T01:59:21.110821+00:00",
+  "evaluation_started": false,
+  "git_parent": "7c0bc83b2ee4f937c7de6d2ff94e9fb83b3cc397",
+  "cli_observed": "codex-cli 0.153.4",
+  "sha256": {
+    "PLAN.md": "a620281deb7bc7b6d34b6bcc7af88220eb8b744a1f84751fdfe1838fd5d40d9c",
+    "PROTOCOL.md": "42aa977dad2a8dcb28d0d88c50c65b6393181754aeaf3afeec07255e65c74ab1",
+    "README.md": "4f9451731bdc2bfa77505205e2643c2ec05756d61c80cf9e69bfb54ec5d01d7c",
+    "runner.py": "5cd45b87828d20b193e0263afd353d18cac86a2b2d994f639b3f31d21ff4c213",
+    "analyze.py": "9d6378ed348ab1ae31e38fb6acddcbc79bda4ffab8456045cd33ef9f78d592d5",
+    "settings.json": "17a66120f07ffc681d0be0980517dad8b2a2782ac3badf076d7831ae2479a9e0",
+    "corpus.json": "8b92f6991d16872b20802046048364601e5e1f58587831d8b4d9ded65cdefcc8",
+    "KEY_REVIEW.md": "1494e61b83bc56228292fbf7823f4128d0cd78952998138ecc8c9323bc0b0b46",
+    "test_runner.py": "13a6334c3fb212c7f70021fc65599a1d2d31cc472d2961bb9bc8e5f2dfc542e9",
+    "../../tools/session_bridge.py": "71800984c5a0eb8aed0a91a5d97d81d3e1002c24e81a1fc9abb4836a84a835f9"
+  },
+  "registration": "Local Git pre-evaluation freeze; not external registration or public publication"
+}

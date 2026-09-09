@@ -1,0 +1,11 @@
+{
+  "citation_replacements": 88,
+  "all_key_values_unchanged": true,
+  "ambiguous_field_reworded": "sd_e02.population_scope",
+  "practice_completed": 6,
+  "practice_peak_tokens": 26956,
+  "threshold_formula": "ceil(2*practice_peak_tokens / 10000)*10000",
+  "threshold_tokens": 60000,
+  "practice_is_development": "uncommitted driver changed during development; full experiment-visible requests/responses retained; not evaluation evidence",
+  "human_validation": "PENDING"
+}

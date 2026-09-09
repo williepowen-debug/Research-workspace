@@ -1,0 +1,7 @@
+task,family,control,condition,repetition,status,turns,first_acceptable,final_acceptable,final_values_correct,final_citations_correct,fields,repaired_fields,introduced_errors,valid_flags,invalid_flags,valid_acted_on,valid_ignored,input_tokens,cached_input_tokens,output_tokens,reasoning_output_tokens,total_tokens,known_token_lower_bound,usage_complete,measured_turns,seconds,charges_usd,human_validation
+su_p01,supersession,False,self,1,COMPLETED,3,True,True,5,5,5,2,0,2,0,2,0,26420,7424,342,0,26762,26762,True,3,18.910949508000158,UNAVAILABLE,PENDING
+su_p01,supersession,False,separate,1,COMPLETED,3,True,True,5,5,5,2,0,2,0,2,0,25620,7424,342,0,25962,25962,True,3,24.02556932600055,UNAVAILABLE,PENDING
+ca_p01,correction_application,False,separate,1,COMPLETED,3,True,True,5,5,5,0,0,0,0,0,0,25626,7552,335,16,25961,25961,True,3,21.707206187998963,UNAVAILABLE,PENDING
+ca_p01,correction_application,False,self,1,COMPLETED,3,True,True,5,5,5,0,0,0,0,0,0,26327,7552,317,0,26644,26644,True,3,19.24521522699979,UNAVAILABLE,PENDING
+sd_p01,source_dependence,False,separate,1,COMPLETED,3,True,True,5,5,5,0,0,0,0,0,0,25900,7552,316,18,26216,26216,True,3,21.971849382000983,UNAVAILABLE,PENDING
+sd_p01,source_dependence,False,self,1,COMPLETED,3,True,True,5,5,5,0,0,0,0,0,0,26640,7552,316,18,26956,26956,True,3,20.756299499000306,UNAVAILABLE,PENDING

@@ -1,0 +1,148 @@
+{
+  "started": "2026-09-09T01:44:54.886886+00:00",
+  "fixture": "/tmp/review-practice-runtime-tqwruhjl",
+  "config": {
+    "features": {
+      "shell_tool": false,
+      "apply_patch_freeform": false,
+      "multi_agent": false,
+      "apps": false
+    },
+    "web_search": "disabled",
+    "project_doc_max_bytes": 0,
+    "mcp_servers": {}
+  },
+  "cases": [
+    {
+      "request": "Return {\"check\":\"practice-one\"}.",
+      "completed": {
+        "threadId": "01a083d6-ea7a-7f01-b69b-37ee4da41e99",
+        "turn": {
+          "id": "01a083d6-eab9-76b2-8359-e399260386b6",
+          "items": [
+            {
+              "type": "agentMessage",
+              "id": "msg_0245c4567e580c7d016aa0ba1acc1487d09df4dce2503c52ce",
+              "text": "{\"check\":\"practice-one\",\"second\":false}",
+              "phase": "final_answer",
+              "memoryCitation": null,
+              "delivery": null,
+              "questions": null
+            }
+          ],
+          "itemsView": "summary",
+          "status": "completed",
+          "error": null,
+          "startedAt": 1788918295,
+          "completedAt": 1788918299,
+          "durationMs": 4149
+        }
+      },
+      "seconds": 4.159734275000119,
+      "usage": [
+        {
+          "totalTokens": 7214,
+          "inputTokens": 7194,
+          "cachedInputTokens": 0,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 20,
+          "reasoningOutputTokens": 0
+        }
+      ]
+    },
+    {
+      "request": "Recall the prior check and return {\"check\":\"practice-one\",\"second\":true}.",
+      "completed": {
+        "threadId": "01a083d6-ea7a-7f01-b69b-37ee4da41e99",
+        "turn": {
+          "id": "01a083d6-faf6-7c10-be0b-d3a86a0aa4a0",
+          "items": [
+            {
+              "type": "agentMessage",
+              "id": "msg_0245c4567e580c7d016aa0ba1ce61087d0b417111a3da104ed",
+              "text": "{\"check\":\"practice-one\",\"second\":true}",
+              "phase": "final_answer",
+              "memoryCitation": null,
+              "delivery": null,
+              "questions": null
+            }
+          ],
+          "itemsView": "summary",
+          "status": "completed",
+          "error": null,
+          "startedAt": 1788918299,
+          "completedAt": 1788918301,
+          "durationMs": 1804
+        }
+      },
+      "seconds": 1.8125944660005189,
+      "usage": [
+        {
+          "totalTokens": 8555,
+          "inputTokens": 8535,
+          "cachedInputTokens": 7040,
+          "cacheWriteInputTokens": 0,
+          "outputTokens": 20,
+          "reasoningOutputTokens": 0
+        }
+      ]
+    }
+  ],
+  "initialize": {
+    "userAgent": "prome_session_pilot/0.153.4 (Ubuntu 24.4.0; x86_64) WindowsTerminal (prome_session_pilot; 0.1)",
+    "codexHome": "/home/willi/.codex",
+    "platformFamily": "unix",
+    "platformOs": "linux"
+  },
+  "thread_start": {
+    "thread": {
+      "id": "01a083d6-ea7a-7f01-b69b-37ee4da41e99",
+      "extra": null,
+      "sessionId": "01a083d6-ea7a-7f01-b69b-37ee4da41e99",
+      "forkedFromId": null,
+      "parentThreadId": null,
+      "preview": "",
+      "ephemeral": true,
+      "section": null,
+      "sectionEnteredAt": null,
+      "projectId": null,
+      "historyMode": "legacy",
+      "modelProvider": "openai",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "createdAt": 1788918295,
+      "updatedAt": 1788918295,
+      "recencyAt": 1788918295,
+      "status": {
+        "type": "idle"
+      },
+      "path": null,
+      "cwd": "/tmp/review-practice-runtime-tqwruhjl",
+      "cliVersion": "0.153.4",
+      "source": "vscode",
+      "canAcceptDirectInput": true,
+      "threadSource": null,
+      "agentNickname": null,
+      "agentRole": null,
+      "gitInfo": null,
+      "name": null,
+      "turns": []
+    },
+    "model": "gpt-6-astra",
+    "modelProvider": "openai",
+    "serviceTier": null,
+    "cwd": "/tmp/review-practice-runtime-tqwruhjl",
+    "runtimeWorkspaceRoots": [],
+    "instructionSources": [],
+    "approvalPolicy": "on-request",
+    "approvalsReviewer": "user",
+    "sandbox": {
+      "type": "readOnly",
+      "networkAccess": false
+    },
+    "activePermissionProfile": null,
+    "reasoningEffort": "high",
+    "multiAgentMode": "explicitRequestOnly"
+  },
+  "finished": "2026-09-09T01:45:01.204898+00:00"
+}
