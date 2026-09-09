@@ -4,6 +4,8 @@
 
 **Archive:** older entries → `PROME/archive/HANDOFF_*.md` (one file per rotated block; each file's header carries its own entry-crc32; `ls PROME/archive/HANDOFF_*.md` is the index — no hand-maintained index exists by design). The 49-pointer paragraph that lived here through 8/28 (frozen snapshot, nothing appends to it) → `PROME/archive/HANDOFF_ARCHIVE_POINTERS_2026-08-28.md` (crc32 3088833333). Rotation recipe → `PROME/CLOSEOUT.md` Chunk 1.
 
+**September 8 inbox follow-through:** [Receiver disposition](reports/2026-09-08_inbox-disposition.md); WQ195 ruled via FALCON; WQ196–199 pending. Rung armed/unfired, marks preserved. Manual-session/helper pilot remains next.
+
 **Current handoff (September 8 context restart):** Will’s next implementation priority is the approved [one-manual-session-plus-one-helper pilot](plans/2026-09-08_manual-session-helper-pilot.md). Preserve his direct access and PROME coordination of the same owner; discover current sessions before any launch. [First infrastructure results](reports/2026-09-08_session-pilot-results.md) establish the tested baseline and remaining transport/visibility/recovery gaps. The [review-quality experiment](experiments/review-pilot/RESULTS.md) is complete; human validation remains pending and is separate from the next runtime pilot. [Evening market evidence](reports/2026-09-08_evening-market-checks.md) supersedes older market statements below; due obligations remain on their existing ledgers. Context-restart checkpoint only; other manually opened agents keep working. Five prior session records below are history.
 
 ---

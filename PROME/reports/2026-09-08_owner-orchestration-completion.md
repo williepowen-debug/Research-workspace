@@ -6,10 +6,10 @@ All four owner sessions use `codex exec --cd` at their canonical desk directorie
 
 | Owner | Verified implementation | Delivery |
 |---|---|---|
-| TERRY | Existing WQ-167/168/169 management reconciled; official007 grades throughSept4, counter0/5, no add; Sept8 unpublished. Four dated vendor mids, no new fills/quantities. Four inbox packets consumed. | `5591d1ab7`; `PROME/inbox/2026-09-08_from-TERRY_codex-owner-catchup-completion.md` |
-| WALTER | NVDA/HBM/SKEW corrections and consumer packets;15/15 intake dispositioned; BOARD index cutover retains891 prior IDs and901 current rows reconcile. Nine inbox packets consumed. | `7291317ec`; `PROME/inbox/2026-09-08_from-WALTER_codex-owner-catchup-completion.md` |
-| HAWK | HAW-21 CONFIRMED at unchanged65%; independent owner extraction and parent comparison match629 commodity items/rates. Qatar/ORACLE/FALCON corrections applied; original forecasts/bands preserved. | `548ba44e7`; `PROME/inbox/2026-09-08_from-HAWK_codex-owner-catchup-completion.md` |
-| BRENT | L140 UNKNOWN at primary; L198 formal Sidi test NOT RUNNABLE (monthly Kpler vs weekly Vortexa), PortWatch target unavailable. Curve/source labels and existing positions reconciled; EIA September10 calendar corrected; inbox2→0. | `028bb6fd1`; `PROME/inbox/2026-09-08_from-BRENT_codex-owner-catchup-completion.md` |
+| TERRY | Existing WQ-167/168/169 management reconciled; official007 grades throughSept4, counter0/5, no add; Sept8 unpublished. Four dated vendor mids, no new fills/quantities. Four inbox packets consumed. | `5591d1ab7`; `PROME/inbox/processed/2026-09-08_from-TERRY_codex-owner-catchup-completion.md` |
+| WALTER | NVDA/HBM/SKEW corrections and consumer packets;15/15 intake dispositioned; BOARD index cutover retains891 prior IDs and901 current rows reconcile. Nine inbox packets consumed. | `7291317ec`; `PROME/inbox/processed/2026-09-08_from-WALTER_codex-owner-catchup-completion.md` |
+| HAWK | HAW-21 CONFIRMED at unchanged65%; independent owner extraction and parent comparison match629 commodity items/rates. Qatar/ORACLE/FALCON corrections applied; original forecasts/bands preserved. | `548ba44e7`; `PROME/inbox/processed/2026-09-08_from-HAWK_codex-owner-catchup-completion.md` |
+| BRENT | L140 UNKNOWN at primary; L198 formal Sidi test NOT RUNNABLE (monthly Kpler vs weekly Vortexa), PortWatch target unavailable. Curve/source labels and existing positions reconciled; EIA September10 calendar corrected; inbox2→0. | `028bb6fd1`; `PROME/inbox/processed/2026-09-08_from-BRENT_codex-owner-catchup-completion.md` |
 
 HAWK dispositioned17 packets. Parent completed its14 exact requested Git moves after committing WALTER's two new authored arrivals; every payload hash matched. Three structural/scoring packets remain explicitly deferred. The two HAWK-authored receipts WALTER had already processed were committed once with WALTER, excluded from HAWK's resolved commit manifest. Filing proof: `2026-09-08_hawk-parent-inbox-filing.json`.
 

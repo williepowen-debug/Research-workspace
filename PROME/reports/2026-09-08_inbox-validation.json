@@ -1,0 +1,50 @@
+{
+  "all_packet_payloads": "VERIFIED byte conserved; no stranded source",
+  "scratch_before_archive": "VERIFIED exact",
+  "gate_only_condition": "VERIFIED GATE-OSPREY-001; archive and draft exact",
+  "docket_existing_identity": "VERIFIED only L225,L234,L273,L300,L301; append L306,L307",
+  "existing_queue_rows": "VERIFIED prior OPEN rows byte-identical; WQ195 done,196\u2013199 open",
+  "measure_py_receipts": [
+    {
+      "path": "PROME/SCRATCH.md",
+      "bytes": 23316,
+      "lines": 55,
+      "crc32": 2903118999,
+      "crc32_no_final_nl": 1660330310
+    },
+    {
+      "path": "PROME/HANDOFF.md",
+      "bytes": 22558,
+      "lines": 58,
+      "crc32": 3441605273,
+      "crc32_no_final_nl": 4208360153
+    },
+    {
+      "path": "PROME/STATUS.md",
+      "bytes": 22342,
+      "lines": 71,
+      "crc32": 3391299271,
+      "crc32_no_final_nl": 2528525789
+    },
+    {
+      "path": "PROME/archive/GATES_OSPREY_CONDITION_2026-09-08.txt",
+      "bytes": 468,
+      "lines": 0,
+      "crc32": 2135544891,
+      "crc32_no_final_nl": 2135544891
+    },
+    {
+      "path": "PROME/reports/2026-09-08_osprey-condition-summary.txt",
+      "bytes": 419,
+      "lines": 0,
+      "crc32": 3137181739,
+      "crc32_no_final_nl": 3137181739
+    }
+  ],
+  "declared_residue": [
+    "Generated DOCKET view exceeds soft block budget; file below hot-file cap.",
+    "Existing historical firetime pointer missing; spine audit13 carries it.",
+    "Proposed strike_feed.py is intentionally not yet implemented; firetime checker flags its proposed path.",
+    "External session identity/consumption UNKNOWN unless owner receipt explicitly says otherwise."
+  ]
+}
