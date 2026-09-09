@@ -52,10 +52,10 @@
     },
     {
       "path": "AGENTS/HAWK/NEXUS_BRIEF.md",
-      "bytes": 7571,
+      "bytes": 7599,
       "lines": 58,
-      "crc32": 736515405,
-      "crc32_no_final_nl": 1566945174
+      "crc32": 1185227600,
+      "crc32_no_final_nl": 3287767427
     },
     {
       "path": "AGENTS/HAWK/thesis/FALSIFICATION.md",
@@ -230,5 +230,11 @@
     ],
     "new_vs_historical_snapshot": [],
     "filename_fallbacks": []
-  }
+  },
+  "brief_pin": {
+    "checked_at": "2026-09-09T01:03:14+00:00",
+    "status_commit": "a0763c0cdc455405e25a9eaddd93cc864f2ddaed",
+    "matches_status_head": true
+  },
+  "measurements_checked_at": "2026-09-09T01:03:14+00:00"
 }
