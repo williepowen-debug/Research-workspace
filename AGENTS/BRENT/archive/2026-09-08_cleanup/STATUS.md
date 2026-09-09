@@ -7,14 +7,6 @@
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
-## September 8 BRENT cleanup — operating state
-
-Trade and lesson history separated from current rules; TRADE’s complete decision paths now cover proposals, position reviews and mid-session escalation. Retired v3 runtime wording removed. Existing H1 clock is announcement day+9; persistence applicability remains explicitly unresolved at its reader. [Inventory](workbook/TRADE_OBLIGATIONS.md).
-
-Incident review: 18 stale rows researched, seven sourced updates/corrections and eleven current-state gaps retained. No summed outage estimate or September-wide freshness claim. [Per-row evidence](refinery_damage/REVERIFICATION_2026-09-08.md). Prediction claims/confidences/grades unchanged; long history moved with mandatory grading-note readers. Boot reports advisories separately and checks both incident quantity fields. [Validation and remaining work](setups/2026-09-08_cleanup-report.md).
-
-Late WALTER packets triaged: Saudi/Saratov reports establish no new quantified loss; Dangote expansion is a future target/attributed forecast; Panama advisory is owner-domain awareness. Source follow-up on the two action items remains September 9. No gate, thesis or capacity grade from these relays.
-
 ## September 8 owner result — current docket integrated
 
 | Obligation | Owner result and next source |

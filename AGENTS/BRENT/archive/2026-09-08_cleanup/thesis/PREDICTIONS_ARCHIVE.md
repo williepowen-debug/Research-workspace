@@ -1,7 +1,3 @@
-# September 8 archive navigation
-
-Additional exact closed-row Notes: [BRT-16](prediction_notes/BRT-16.md), [BRT-17](prediction_notes/BRT-17.md), [BRT-21](prediction_notes/BRT-21.md). Full original TSV including calibration preamble: [before-image](../archive/2026-09-08_cleanup/thesis/PREDICTIONS.tsv). Current scoring conventions remain in PREDICTIONS.tsv.
-
 # BRENT Predictions — Calibration Archive
 
 Full post-mortems for **closed** predictions (CONFIRMED + FAILED + NOT-FIRED-PRECONDITION + RESOLVED-special + PARTIAL + RETIRED). Reference-only — NOT loaded at boot. The live record (date, confidence, status, outcome, one-line lesson) stays in [`PREDICTIONS.tsv`](PREDICTIONS.tsv); the one-line calibration warnings live in that file's scoreboard preamble. This file holds the blow-by-blow that would otherwise bloat the per-row `Notes` column.

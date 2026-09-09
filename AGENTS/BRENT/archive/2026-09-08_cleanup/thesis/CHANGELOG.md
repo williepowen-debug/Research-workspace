@@ -1,7 +1,3 @@
-# 2026-09-08 — Prediction history cleanup (no thesis or grade change)
-
-Historical preamble and long Notes moved to dated evidence; all 30 rows retain their first nine fields exactly. Required per-row notes carry original text, current amendment precedence and source limitations. September 7 scoring conventions remain on the TSV. No confidence or prediction claim changed.
-
 # BRENT CHANGELOG
 
 Tracks all changes to THESIS.md and TIMELINE.md. Reverse chronological. Each entry documents what changed, why, and the old view to new view. This is the audit trail.

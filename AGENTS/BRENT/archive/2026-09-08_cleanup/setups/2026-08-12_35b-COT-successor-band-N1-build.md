@@ -2,8 +2,8 @@
 
 **BRENT · 2026-08-12 Wed ~17:0x ET · live session (PROME-directed)**
 **Authority:** Will RULED 8/11 — *"yes we should rebase with up to date info"* → re-base AUTHORIZED. Relayed via `inbox/processed/2026-08-11_from-PROME_rows-35a-35b-RULED-revert-plus-rebase.md`.
-**HISTORICAL BUILD, reconciled 2026-09-08:** successor registration subsequently landed August 14. The LIVE frozen letter and current grade are the complete `COT-FUEL-35B` row in [REGISTRY.tsv](../workbook/REGISTRY.tsv). Read it before sizing; the proposal below is provenance, not today’s spec. It predates the frozen-window and September base/deadband wording corrections. No current numerical threshold is changed by this banner.
-**Historical August 12 state (superseded by August 14 registration): the INCUMBENT band was untouched by this build. It grades the 8/11 vintage (posts Fri 8/14 ~15:30 ET) ONE FINAL TIME under REVERT semantics (35a, encoded in `TRADE.md` today), then dies on its own do-not-carry-past date.**
+**⛔ STATUS OF THIS DOCUMENT: PROPOSAL + DIAGNOSTICS. NOTHING HERE IS REGISTERED. NOTHING HERE IS LIVE. The successor numbers return to Will for the register — one touch, and this file is the packet.**
+**⛔ The INCUMBENT band is untouched by this file. It grades the 8/11 vintage (posts Fri 8/14 ~15:30 ET) ONE FINAL TIME under REVERT semantics (35a, encoded in `TRADE.md` today), then dies on its own do-not-carry-past date.**
 
 **Data:** CFTC disaggregated futures-only, `publicreporting.cftc.gov/resource/72hh-3qpy`, market `WTI-PHYSICAL - NEW YORK MERCANTILE EXCHANGE`. **n = 235 weekly rows, 2022-02-08 → 2026-08-04.** Own pull 2026-08-12 ~16:5x ET. **Median |WoW| move in MM gross shorts = 9,160 contracts.**
 *(⚠️ The carried figure was 9,264 on n=159 weeks. Re-measured here on the full available series. The difference is immaterial to every conclusion — recorded so the two numbers do not become a third instance of the "two values for one figure" class.)*
@@ -105,10 +105,4 @@
 2. **Leg B gating or advisory?** — my recommendation: **gating** (accept the 33.6% non-call rate).
 3. **Effective when?** — my recommendation: **register AFTER the 8/14 grade**, so the incumbent completes its final graded print and the two never run concurrently on the same vintage.
 
-**Historical request, now superseded:** registration followed the August 14 incumbent grade. Current applicability and frozen numbers are in REGISTRY.tsv; the questions above are not pending requests.
-
-## Cleanup reconciliation — 2026-09-08
-
-This is historical construction evidence; the complete registered COT-FUEL-35B letter in REGISTRY.tsv governs. L21/L22: retain the registered instrument, frozen windows and threshold definitions; no new grade or rule is introduced here. L08/L09: observation vintage and measurement limits remain mandatory; this COT build does not establish storage or demand conditions. L11/L16/L18: a sizing input supplies no announcement-entry or physical-retention authority; the current entry and holding specs govern those decisions. L23: no continuous futures ticker is substituted for the registered COT series.
-
-L06/L10/L17: COT positioning supplies no crack-spread, actual production or deliverable spare-capacity measurement. L19: a positioning grade cannot certify an operational reopening or a tanker-direction forecast. L25: a hung endpoint is an acquisition failure, not proof the registered series has stopped printing. L05: a positioning observation supplies no current price or option mark. L15: no option structure or tenor is amended by the historical sizing build.
+**Nothing is applied until Will rules. The incumbent governs through 8/14.**

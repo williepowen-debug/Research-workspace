@@ -1,100 +1,102 @@
-# TRADE.md — OBLIGATION INVENTORY (P2, tranches 1–2 in progress)
+# Trade obligations — September 8 migration record
 
-**Started 2026-09-08.** DAEDALUS architecture review P2 / ACTION 13. **One row per binding clause: `clause · from · to · reached by`.** ⛔ **A clause archived without a reader is lost operationally** — so this is built BEFORE any clause moves, not after.
+Will approved the BRENT cleanup in this session. Supersedes the unfinished tranches/plan in the [before-image](../archive/2026-09-08_cleanup/workbook/TRADE_OBLIGATIONS.md). Original TRADE: 156,190 UTF-8 bytes, preserved unchanged with SHA-256 and CRC32 in the [archive manifest](../archive/2026-09-08_cleanup/manifest.json).
 
-> ## ⛔ THE RULE THIS FILE IS BUILT UNDER
-> **`reached by` is a VERIFIED path, never a filled cell.** A pointer records *intended* access; only opening the named step establishes that the obligation is reachable. Every row below was checked by reading the step, not by grepping the filename.
->
-> ★ **AND THE CHECK EARNED ITS KEEP ON THE FIRST PASS.** `grep -rl "TRADE.md" scripts/` returns **`boot.py`, `render_calendar.py`, `cot_grade.py`** — and **all three mention it ONLY IN COMMENTS.** No code path reads the file. A `reached-by` column filled from that grep would have recorded three readers that do not exist, with the authority of an audit. `[[finding_required_field_satisfied_by_a_pointer_passes_every_presence_audit]]`
+The inventory separates rule identity, disposition and decision-time reader. A script checking feed health or a timestamp is not a reader of trading rules. The actual human route is CLAUDE step 1 → TRADE Decision read paths → complete relevant spec(s); it explicitly applies when a session becomes trade-relevant after boot. Step 6c independently reaffirms pending execution rows. TRACKER points routines to the surviving frame-breaker; routines record/flag and cannot approve.
 
-## 🔴 THE FINDING — STATED MORE CAREFULLY THAN IN TRANCHE 1
+## Preserved binding excerpts
 
-Of the binding clauses in `TRADE.md`, only the EXECUTION LOG and the two-clock header have a reader that fires without a precondition. Everything else is reached through boot step 1's conditional read — *"read `TRADE.md` … **if** the task touches positions/trades."*
+Source line ranges below refer only to the archived before-image, never to a shifting live file. The [machine inventory](TRADE_CLAUSES.json) records exact excerpt SHA-256, source range and destination. LIVE means its stated scope; dated examples and retired-gate evidence caveats do not become current market observations.
 
-> ⛔ **CORRECTED 2026-09-08 — "NO UNCONDITIONAL READER" IS NOT "NO ADEQUATE READER", AND TRANCHE 1 CONFLATED THEM.** A pre-fill disclosure rule read *before a fill proposal* is adequately read; that is the moment it governs. **The real requirement is RELIABLE ACCESS BEFORE EVERY RELEVANT DECISION** — which includes the case tranche 1 missed: **a session that becomes trade-relevant AFTER boot**, when step 1's condition was already evaluated as false. ⚠️ **And making every clause an unconditional boot read is the WRONG remedy** — it inflates the read burden on the exact surface whose size started this work. The test is per-clause: *is there a step that reaches this clause at or before the decision it governs?*
+| ID | Obligation | Disposition | Source lines | Destination / complete reader | Authority / reconciliation |
+|---|---|---|---|---|---|
+| BG-01 | Retirement and surviving authority | LIVE | 217–225 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); proposal | Will retirement 2026-08-07; WQ-189/192 2026-09-07 |
+| BG-02 | Frame-breaker, prospective capacity floor and constraints | LIVE | 251–256 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); proposal | WQ-189/192; PROME/proposals/2026-09-07_wq189-192-RULED.md |
+| BG-03 | Leg (b) economics | LIVE | 245–245 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); proposal | 2026-08-07 survival; WQ-189 untouched leg (b) |
+| BG-04 | Tenor purpose and dated eligibility example | LIVE | 159–163 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); proposal | 2026-08-03 tenor ruling; 2026-08-21 scope amendment |
+| BG-05 | Roll scope and guard | LIVE | 165–175 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); proposal | Will 2026-08-21; existing October holding NO ROLL overrides permission to propose |
+| BG-06 | Pre-fill disclosure and instrument terms | UNRESOLVED | 258–263 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); proposal | 2026-08-04 disclosure; trigger names retired leg (a) |
+| BG-07 | Premise control and binding caveats | LIVE | 265–271 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); proposal | TERRY adoption 2026-08-04; v3 retirement preserves record |
+| BG-08 | Live conversion rule | LIVE | 470–470 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); proposal and position-review | DM-v1 vehicle ruling 2026-08-07; corrected 2026-08-12 |
+| BG-09 | Surviving gap watches | LIVE | 870–870 | [setups/SPECS_GATES.md](../setups/SPECS_GATES.md); monitoring and proposal | Explicit retirement rider 2026-08-10: watches only, no gate |
+| BE-01 | Hardened trigger | LIVE | 499–499 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-07-29 trigger; v5 amendment 2026-07-31 |
+| BE-02 | Day+2 admission limit | LIVE | 505–510 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-08-07 |
+| BE-03 | Signature plus paired T/C entry | LIVE | 512–514 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Stage-A v5 2026-07-31 |
+| BE-04 | T and C frozen definitions | LIVE | 528–531 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | 2026-07-31 v5; 2026-08-05 v6 measurement |
+| BE-05 | Measurement basis and its limits | LIVE | 550–554 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | 2026-08-07 re-derivation |
+| BE-06 | T1 one grade per session | LIVE | 557–557 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-08-05 |
+| BE-07 | T2 close-basis veto of remainder | LIVE | 558–558 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-08-05 |
+| BE-08 | Intraday evidence limits | LIVE | 560–560 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-08-05 |
+| BE-09 | Frozen boundaries and pairing | LIVE | 563–567 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-07-31 |
+| BE-10 | Mandatory calibration caveat | LIVE | 569–573 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-07-31 carry-verbatim instruction |
+| BE-11 | First tranche | LIVE | 576–576 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-07-31; 2026-08-05 measurement |
+| BE-12 | Second tranche | LIVE | 577–577 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-07-31; 2026-08-05 T2 |
+| BE-13 | Maximum loss | LIVE | 578–578 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will half/half sizing 2026-07-31 |
+| BE-14 | Vehicle, tenor, strikes and execution window | LIVE | 665–666 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-07-30 Option B |
+| BE-15 | Proposal authority and interaction | LIVE | 786–790 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | Will 2026-07-21; arm retired 2026-08-07 |
+| BE-16 | Molecule scope of the premise | LIVE | 497–497 | [setups/SPECS_OFFRAMP_ENTRY.md](../setups/SPECS_OFFRAMP_ENTRY.md); proposal | 2026-07-30 scope correction |
+| BH-01 | Harvest precedence | LIVE | 670–670 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); position-review | Will Option B 2026-07-30 |
+| BH-02 | H1 announcement clock | LIVE | 674–675 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); position-review | TRADE explicit Will 2026-07-31 anchor amendment supersedes original line 580 |
+| BH-03 | H2 profit harvest | LIVE | 676–676 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); position-review | Will 2026-07-30 |
+| BH-04 | H3 reversal exit | LIVE | 677–677 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); position-review | Will 2026-07-30 |
+| BH-05 | Harvest calibration limitation | LIVE | 681–681 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); position-review | Will 2026-07-30 |
+| BH-07 | Original persistence letters awaiting applicability reconciliation | UNRESOLVED | 645–659 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); proposal and position-review | Original 7/29 and 7/31 letters; WAR-RISK-HALVES retired 8/7; Will 8/21 successor is prompt-only |
+| BH-10 | Dated mark-monitoring rider | UNRESOLVED | 58–58 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); position-review | 8/27 standing mark watch; later holding-specific WQ-145/167/168 takes precedence |
+| BH-12 | Do not blend transit series | LIVE | 369–369 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); all trade-relevant evidence | HORMUZ_TRANSIT_BASELINE standing basis rule |
+| BH-13 | Retired source exclusions | LIVE | 372–372 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); all trade-relevant evidence | July 21 source retirement, reiterated August 3 |
+| BH-14 | AIS undercoverage caveat | LIVE | 378–378 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); all trade-relevant evidence | August 3 disclosure, strengthened by August 17 instrument impeachment |
+| BH-15 | Single-outlet source restriction | LIVE | 419–419 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); all trade-relevant evidence | August 3 source correction; sole-source restriction retained |
+| BH-16 | Historical verification debt | UNRESOLVED | 310–310 | [setups/SPECS_TRADE_RULES.md](../setups/SPECS_TRADE_RULES.md); before reusing the historical grade | No inspected completion receipt for the specific August 3 OVX second-witness ask |
 
-> ⛔ **THE PROPOSED REPLACEMENT READERS WERE NOT EQUIVALENT, AND TRANCHE 1 OVERSOLD THEM.** `instrument_check` verifies **instrument health** — that a level's data source is reachable and fresh. `Derived Views` verifies **recorded reconciliation timing** — that a standing row was stamped after the newest grade. **NEITHER establishes that the deciding agent READ AND APPLIED the binding clause.** They supervise inputs and bookkeeping, not application. A clause moved under either one is monitored, not read.
+## Additional dispositions
 
-⚠️ **Still true and still the point:** on 2026-09-07 the frame-breaker letter was reached because a cloud routine quoted it and a live session went looking — not because a step travels there. And `TRACKER.md:19`'s **non-canonical mirror** is read unconditionally by three cloud routines while the canonical clause is not.
+| ID | Obligation / disposition | Current home and reader | Evidence |
+|---|---|---|---|
+| BE-01b | Alternate no-deal transit trigger, UNRESOLVED | Entry spec BE-01b, before proposal | Original line 499 OR branch; no repaired live measurement path established |
+| BS-01 | Current stance / frame-breaker stand down, LIVE | TRADE Current stance; all decision routes | Current before-image lines 5–8; WQ-189/192 |
+| BS-02 | USO shares 35, no scaffold ratification, LIVE | TRADE Positions; review | Before-image current position mirror retained exactly |
+| BS-03 | October 135C ×1, sale-price UNKNOWN/no re-ask, A/B/C and NO ROLL, LIVE | TRADE Positions; review | WQ-145/167/168, before-image current mirror |
+| BS-04 | September 150/165 spread ×1 HOLD to expiry, LIVE | TRADE Positions; review | WQ-168 §3, before-image current mirror |
+| BS-05 | XLE ×2 selected September 9 open exit, receipt PENDING, LIVE | TRADE Positions and execution log; step 6c + review | WQ-168 §7, before-image current mirror; no broker action inferred |
+| BS-06 | Reaffirm pending rows; execution evidence differs from a handoff, LIVE | CLAUDE step 6c → TRADE execution log | July 27 hygiene adoption, original lines 820–822; existing guard retained |
+| BS-07 | Option observation date separate from rule update, LIVE | TRADE header → existing ledger freshness reader | Original two-clock header retained exactly; no option mark refreshed |
+| BH-06a | WAR-RISK-HALVES RETIRED | Holding spec BH-06, before proposal/review | REGISTRY retirement August 7; not the July 31 Worldscale retirement |
+| BH-06b | STAGE-A-AIS RETIRED | Holding spec BH-06, before proposal/review | REGISTRY August 7, feed did not exist |
+| BH-06c | KILL-LEG2-TRANSIT RETIRED; JWC successor prompt-only LIVE | Holding spec BH-06, before proposal/review | Will August 21 ruling linked there; instrument failure, premise not refuted |
+| BH-06d | P&I observation retained; compound institutional exit applicability UNRESOLVED | Holding spec BH-06/BH-07, before proposal/review | Original 25-session letter preserved; no inspected amendment independently retires P&I |
+| BH-08 | COT successor sizing-only, both legs gating, per-print NO-VERDICT base case, LIVE | Holding spec BH-08 → full REGISTRY COT-FUEL-35B row, before sizing | August 14 registration and own per-print default; old COT-FUEL numerical REVERT test RETIRED |
+| BH-09 | Exposure facts vs TERRY sizing; dated concentration is not current valuation, LIVE | Holding spec BH-09, review | Original lines 28–149; current one-call quantity supersedes old two-call marks |
+| BH-11a | Spread receipt approximate, exact fill unestablished, UNRESOLVED | Holding spec BH-11 + TRADE, review | Original line 820; no new receipt supplied; current owner instructions prevail |
+| BH-11b | Pre-trigger convex starter remains declined, LIVE restriction | Holding spec BH-11, before proposal | June 29 decision at original line 829; reopen only if Will requests |
+| BX-01 | v1/v2/v3 arm mechanics, tiers, clock, re-ratchet SUPERSEDED | Provenance archive; surviving BG-01–03 govern | August 7 retirement; no current OVX release condition |
+| BX-02 | Old per-tranche H1 rider SUPERSEDED | BE-13 note and BH-02 govern | Later explicit July 31 announcement day+9 anchor at original lines 674–675 |
+| BX-03 | Unverified tanker tally UNRESOLVED evidence; cannot cite | BE-10; full entry read | Original line 573; no new calculation fabricated |
+| BX-04 | Directional/dispersion/v4 entry and transit entry SUPERSEDED | BE-03–12 govern | v5 July 31 and v6 August 5 amendments |
+| BX-05 | July tail-rider ticket completed; old order menus SUPERSEDED | Current holding and BH-11 govern | July 24 fill; WQ-168 §3; old green-day approval not repeat authority |
+| BX-06 | Second manual calendar SUPERSEDED | TRADE pointer → canonical docket / generated STATUS | September 7 generator plus this approved cleanup; FASTOW repointed |
+| BX-07 | July fresh-leg re-arm reader SUPERSEDED with retired arm | Archive line 476; BG-01 governs | Arm retirement August 7. Any re-arm needs its own registration, not reuse by implication |
 
-## INVENTORY — tranche 1 (binding clauses; dated narrative not yet inventoried)
+## Whole-file accounting
 
-| # | clause | from (TRADE.md §) | to (destination) | reached by — **VERIFIED** |
-|---|---|---|---|---|
-| 1 | **FRAME-BREAKER carve-out** (survives the 8/7 retirement; instance ③ amended 9/7 WQ-189 — cargo/throughput floor) | § DEPLOY GATE v3 HARD RULES, L271–276 | → `setups/SPECS_GATES.md` (P2) | 🟠 **CONDITIONAL ONLY** — boot step 1 `if the task touches positions/trades`. Mirrored (prose, non-canonical) in `demand_destruction/TRACKER.md:19`, which IS read unconditionally by three cloud routines. **The mirror is better-read than the letter.** |
-| 2 | **STAGE-A v5 — LIVE ENTRY GATE** (Will-ratified 2026-07-31) | § STAGE-A v5, L527–560 | → `setups/SPECS_GATES.md` | 🔴 **NO UNCONDITIONAL READER.** Conditional boot step 1 only. |
-| 3 | **HARVEST RULE** (mandatory, Will-ratified 7/30 Option B) | L692–708 | → `setups/SPECS_TRADE_RULES.md` | 🔴 **NO UNCONDITIONAL READER.** |
-| 4 | **OFF-RAMP ROUND-TRIP PLAYBOOK** (pre-registered; re-spec v2 ratified 7/29) | L517–526 | → `setups/SPECS_TRADE_RULES.md` | 🔴 **NO UNCONDITIONAL READER.** |
-| 5 | **BINDING WILL RULINGS** — incl. the two 8/3 rulings and the **ROLL scope guard** (*"a scope ruling is broader than an exception and needs one"*) | § BINDING WILL RULINGS, L174–208 | → `RULINGS.md` (dated) + letter stays | 🔴 **NO UNCONDITIONAL READER.** ⚠️ Closeout step 13 now routes NEW rulings to `RULINGS.md`; it does not make the EXISTING ones read. |
-| 6 | **MANDATORY PRE-FILL DISCLOSURE** (direction-neutral; adds information, never permission) | L282 | → `setups/SPECS_GATES.md` | 🔴 **NO UNCONDITIONAL READER** — and it binds only AT a fill, which is the moment it must already have been read. |
-| 7 | **BINDING CAVEATS** (*"carried ON the spec so they cannot die with a proposal doc"*) | L288 | → travels with clause 2/6 | 🔴 **NO UNCONDITIONAL READER.** ⚠️ The caveat's own text says it was placed to survive a proposal doc dying — it now has the same exposure one level up. |
-| 8 | **EXECUTION LOG rows** | L868–880 | stays in `TRADE.md` | ✅ **VERIFIED READER: boot step 6c**, unconditional. ⚠️ **SCOPE-LIMITED: it reaches only rows marked `PENDING`/⏳.** A terminal row that is WRONG is not read by anything. |
-| 9 | **`Updated:` / `Last real data refresh:` two-clock header** | L3 | stays | ✅ **VERIFIED READER: `workbook/LEDGER_GLOB` → `ledger_staleness.py`**, unconditional at boot, `--days 7`. ⚠️ Reads the STAMP only, never agreement. |
-| 10 | **CURRENT STANCE (v5.0)** · **CONCENTRATION ARITHMETIC** | L18–25 · L52–67 | → STATUS § STANDING STATE? (open) | 🔴 **NO UNCONDITIONAL READER.** Candidate for promotion to STANDING STATE, where the `Derived Views` guard would supervise them. |
+Every section, including the dated containers, was reviewed. The archive is provenance, not a source of new standing orders. Surviving source restrictions, unresolved verification debt and the mark-watch rider were extracted as well as obvious trade gates.
 
-## WHAT THIS CHANGES ABOUT P2
+| Original range | Disposition after extraction |
+|---|---|
+| 1–27 | Current stance/holdings/header retained in TRADE; stale valuation context retired |
+| 28–149 | Dated concentration/marks archived; current quantity wins; exposure obligations BH-09, mark-watch BH-10 |
+| 150–184 | Binding tenor/roll BG-04/BG-05; old expiry eligibility dated only |
+| 185–272 | Retirements/survivors BG-01–07; original arm mechanics superseded |
+| 273–492 | Dated pre-fill/behavioral/vehicle history archived; tenor duplicated in BG-04; conversion BG-08; source restrictions BH-12–15; outstanding historical verification BH-16; old re-arm pointer BX-07 |
+| 493–502 | Hardened trigger BE-01; molecule scope BE-16; old rhetorical/three-day basket superseded |
+| 503–793 | Entry BE-02–15; persistence BH-06/07; harvest BH-01–05; sizing successor BH-08. Prior clock and v4 contradictions expressly superseded; calibration caveat retained verbatim |
+| 794–833 | Filled rider/old menus history; current spread holding governs; receipt/starter restrictions BH-11 |
+| 834–843 | Cross-agent arm matrix historical with retired arm; current owner boundaries stay in CLAUDE/NEXUS |
+| 844–858 | Current pending state retained; old execution/mark rows archived |
+| 859–873 | Calendar replaced by pointer; surviving gap watches BG-09 |
+| 874–end | Historical archive navigation retained in before-image |
 
-⛔ **The migration is NOT primarily a byte problem.** `TRADE.md` at 337% of cap is the symptom that got it noticed; the defect is that most binding clauses are reached only behind a precondition.
+## Acceptance and remaining boundaries
 
-⇒ **Each move must ship WITH a reader that fires at or before the decision the clause governs.** Per clause, ask: *what step reaches this, and is it guaranteed to run before the decision?* Acceptable answers include a pre-fill checklist for a fill-time rule, or a named step in the proposal path — **not necessarily a boot read.** ⚠️ **An unconditional boot read is the WRONG default remedy: it inflates the read burden on the very surface whose size started this work.**
+See [CLEANUP_VERIFICATION.json](CLEANUP_VERIFICATION.json) for snapshot checks and byte budgets, and [cleanup report](../setups/2026-09-08_cleanup-report.md) for live checks. Representative routes: structural proposal reads BG + BH; off-ramp proposal reads BE + BH; mid-session frame-breaker reads BG + BH; position review reads holdings + BH and the relevant owner card. Each complete named file fits the 32,550-byte budget. This verifies reachability and retained content, not that a future agent will obey it.
 
-⛔ **`instrument_check` and `Derived Views` are NOT candidate readers and must not be offered as such.** The first verifies INSTRUMENT HEALTH, the second RECORDED RECONCILIATION TIMING. **Neither establishes that the deciding agent read and applied a clause.** A clause placed under either is monitored, not read.
-
-> ⚑ **This section REPLACES the tranche-1 text that stood here** (*"8 of 10 binding clauses have no unconditional reader"* + those two checks offered as replacement readers). **Replaced, not annotated:** tranche 2 added corrections at the top of this file and LEFT THE SUPERSEDED GUIDANCE LIVE BELOW THEM, so the document issued two conflicting instructions — the exact failure mode this desk has a memory for and cited twice in the same session. `[[finding_correction_beside_an_instruction_leaves_two_live_instructions]]`
-
-## 🔴🔴 TRANCHE 2 — ROTATION IS **NOT** JUSTIFIED. LIVE OBLIGATIONS SIT INSIDE THE "HISTORICAL" SECTIONS.
-
-⛔ **Tranche 1 proposed rotating three dated sections (`70,739` UTF-8 B = 38.7% of the file) as "dated RECORD, not binding clauses." THAT WAS WRONG, and it is the original defect recurring inside its own remedy:** a superseded SECTION HEADING does not establish that every clause inside it is superseded. `[[finding_live_claim_in_a_closed_container_is_invisible]]`
-
-**Measured 2026-09-08: 33 live/binding marker lines across the three ranges.**
-
-⛔⛔ **THE ROWS BELOW ARE RECONCILIATION CANDIDATES, NOT VERIFIED LIVE OBLIGATIONS — tranche 2 called them "six named survivors" and that was itself an unverified classification, asserted from a MARKER SCAN.** Reconciling two of them found two errors immediately (rows 15 and 16 below). **A marker scan produces a DISCOVERY LIST; only per-clause reconciliation produces a verdict.** 16 rows and 33 markers do not establish completeness. `[[finding_scan_keyed_on_naming_reads_local_form_as_absence]]`
-
-**Status key: 🟡 CANDIDATE (unreconciled) · ✅ LIVE (reconciled, evidence attached) · ⛔ RETIRED (superseding evidence attached) · ❓ UNRESOLVED (classification itself open).**
-
-| # | candidate obligation | at | status + reconciliation evidence |
-| 11 | **The sharpest-limit caveat** — *"this regime has produced ZERO genuine physical reopenings … THIS SPEC IS OPTIMISED AGAINST A PROFITABLE TRADE, NOT A VERIFIED REOPENING"* | L595 | 🟡 **CANDIDATE.** **Will-directed 2026-07-31 to carry VERBATIM into the live spec and to SURVIVE EVERY FUTURE EDIT.** By its own text it binds Stage-A **v5**, not v4. Rotating it would delete a clause whose whole purpose is to outlive edits. |
-| 12 | **SIZING — HALF/HALF, Will-ruled 2026-07-31** · TRANCHE 1 (day 0, on (i)+(T)) · TRANCHE 2 (remainder on Leg C resolution, only if Leg C passes AND day-0 close-basis Leg T passes — tightened Will-ruled 2026-08-05) · **fenced ~$500 max-loss UNCHANGED** | L599–604 | Live sizing rules for a gate that can still fire. Not superseded by v5 — v5 changed the ENTRY legs, not the tranche construction. |
-| 13 | **UNRESOLVED CLOCK INTERACTION** — H1 says exit ≤8 trading sessions after entry; two tranches = two entries ⇒ tranche 1 stops day+9, tranche 2 day+10 | L604 | **Flagged "so it is not discovered in a live trade" and carries an INTERIM reading, not a ruling.** An open question with a provisional answer is the most dangerous thing to archive. |
-| 14 | **§0a UNRESOLVED, NOT EXPLAINED** (7/30 analogue tanker figures do not reconcile) | L597 | Explicitly labelled unresolved. |
-| 15 | **STAGE B — PERSISTENCE** (transits 10 td · war-risk 25 td · P&I 25 td) + **THE KILL TEST** | L668+ | 🟡 **CANDIDATE, and tranche 2 CONFLATED TWO INSTRUMENTS.** It said *"the Worldscale/war-risk leg was retired 7/31"* — those are **two different retirements**: the **VLCC/Worldscale** threshold went 2026-07-31 (F3, no feed), while **`WAR-RISK-HALVES`** carries **RETIRED 2026-08-07** in `workbook/REGISTRY.tsv` (flagged 3 consecutive sessions). ⇒ **Each Stage-B leg needs its own reconciliation against its own successor record; a section-level or instrument-family verdict is what failed here.** |
-| 16a | **35a modifier — `REVERT` / NON-LATCHING** (Will-ruled 2026-08-11, encoded 8/12) | L743–749 | ❓ **UNRESOLVED — SPLIT FROM A WRONG ROW.** ⛔ Tranche 2 wrote **`REVERSE`**; the ruling says **`REVERT`** — I misquoted a Will ruling's own operative term. ⛔ Tranche 2 also called the modifier *"still governing a fire"*: **L738–740 explicitly RETIRES the incumbent band** (*"the band in that sentence is the INCUMBENT and it is RETIRED"*, graded the 8/11 vintage once more and UN-FIRED at `110,638` vs a ≤`104,072` bar) **and names `COT-FUEL-35B` as successor** (registered 8/14, `supersedes: COT-FUEL`). ⇒ **The THRESHOLD is retired with evidence. Whether the NON-LATCHING PRINCIPLE survives its retired threshold is a SEPARATE question needing its own evidence — not inheritable from the ruling that set the band.** |
-| 16b | **Harvest-rule interaction** (*"must not be buried"*) | L735 | 🟡 **CANDIDATE** — not yet reconciled against the 8/7 gate retirement or the 8/21→8/27 harvest rulings. |
-
-⇒ **NOTHING IN THESE RANGES ROTATES UNTIL EACH ROW ABOVE HAS ITS OWN IDENTITY, TRIGGER, DESTINATION AND VERIFIED READER, AND ANYTHING CLASSIFIED RETIRED CARRIES ITS SUPERSEDING EVIDENCE.** A section-level verdict is exactly the instrument that failed here.
-
-## MEASUREMENT CORRECTION
-
-Tranche 1 said the three ranges were **"69,221 B"**. That figure is **CHARACTERS** — it came from `len(line)+1` on `str`, which counts code points, not bytes. **UTF-8 bytes: `70,739`** (share unchanged at 38.7%; this file is emoji-dense, so char≠byte throughout). ⚠️ **Every byte figure this desk quotes must come from `len(s.encode())` or `wc -c`, never `len(s)`.** `[[finding_loadbearing_number_must_be_reproducible]]`
-
----
-
-# 📋 P2 EXECUTION PLAN — carried into the next session (Will-relayed, 2026-09-08)
-
-> **Authorization:** BRENT executes steps 1–6 under the existing architecture-work authorization. **Will's judgment is needed ONLY where the records cannot resolve a SUBSTANTIVE POLICY choice** — e.g. *changing* the holding-clock interpretation is a ruling. ⚠️ **An existing unresolved question can MIGRATE INTACT** with its interim instruction, its owner, and its decision boundary; **it does not block the restructuring.**
-
-> ## ✅ DEFINITION OF DONE — read this before starting, not at the end
-> **P2 is finished when the rules are ACCOUNTED FOR, their READERS WORK, and TRADE IS SMALL ENOUGH.** ⛔ **NOT when the inventory has more rows.** A longer discovery list is not progress toward any of the three.
-> **Out of scope, with their own completion criteria:** `LESSONS.md` restructuring (ACTION 16) and `INCIDENTS.tsv` re-verification. **Separate workstreams — do not let them ride on P2's authorization or its acceptance test.**
-
-### 1 · Finish the inventory across the WHOLE file
-Read every section **including the dated blocks**. Give each distinct obligation a **stable ID**. **Split entries wherever conditions or authority differ** — first-tranche entry, second-tranche entry, maximum loss, and holding-period rules are FOUR obligations, not one sizing rule. ⛔ **A marker search finds candidates; it cannot establish completeness** — the current 16 rows / 33 markers are a discovery list.
-
-### 2 · Determine what GOVERNS NOW
-For each clause, locate its **original ruling and every subsequent amendment**. Record **LIVE / SUPERSEDED / UNRESOLVED, with evidence attached to the classification.** Priority cases, all four already known to be contested:
-- the **mandatory calibration caveat** (L595, "must survive every future edit");
-- **half/half sizing** and the **two-entry holding clock** (L599–604);
-- **each Stage-B monitoring and exit condition** separately (L668+) — per leg, per successor;
-- the **retired COT threshold** vs any **surviving `REVERT` principle** (L738–749) — the threshold's retirement does not settle the principle.
-
-### 3 · Assign a destination AND the moment it must be read
-Each live clause needs a canonical home **and a specific consumer**. Entry rules belong on the **proposal / pre-fill path**; holding and exit rules on **position-review paths**. ⛔ **Include a mandatory read for the case that has no reader today: an initially unrelated session that BECOMES trade-relevant mid-session** — boot step 1's condition was already evaluated false by then. ⛔⛔ **A timestamp check or a healthy instrument DOES NOT satisfy this requirement** — `Derived Views` checks stamp timing, `instrument_check` checks instrument health; neither is a reader of a clause.
-
-### 4 · Move the rules and update their readers TOGETHER
-Create the smaller spec files (**they do not exist yet — `setups/SPECS_*.md` is a proposed destination, not a place**). **Preserve binding wording and every attached caveat.** Update charter steps, `TRACKER.md` references and any other consumer **in the same change**. ✅ **Then VERIFY the actual step reaches the COMPLETE clause after the move** — not that a pointer exists.
-
-### 5 · Archive the remaining historical material
-Only once **every** obligation in a proposed range has a disposition. Move dated narrative **verbatim, with byte counts and checksums** (bytes = `len(s.encode())`/`wc -c`, never `len(s)`). Leave `TRADE.md` holding **current positions · current state · actionable obligations · precise pointers**. ⛔ **PRESERVE THE LATEST VERIFIED FIGURES — do not leave older figures standing as the apparent current state.** *(This is the exact P1 failure: the rotation moved the 9/6 BRT-26 grade to cold and left the 8/28 vintage hot.)*
-
-### 6 · Run the acceptance checks
-① every inventoried clause has a **disposition** · ② every required **reader works** · ③ **current views agree** with their canonical records · ④ **TRADE plus any newly required reads fit their budgets** (`read_cap_check --agent BRENT`). Then **exercise representative scenarios end-to-end: a PROPOSAL, a MID-SESSION ESCALATION, and a POSITION REVIEW** — each must reach the clauses that govern it. ⑤ Finally, **measure the next ordinary closeout for renewed growth**; that is the only check that distinguishes a one-time tidy from a changed write mode.
+Unresolved applicability/evidence stays explicit at the deciding reader; it is not treated as permission. Cleanup grants no capital authority. The next ordinary closeout remains the future test of renewed growth: update current action state and receipts in TRADE, put dated reasoning in evidence notes, and compare sizes before/after. This session can establish a baseline, not claim a future pass.

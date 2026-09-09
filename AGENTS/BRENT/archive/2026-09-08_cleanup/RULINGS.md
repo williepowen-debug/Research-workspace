@@ -10,14 +10,6 @@
 > ⚠️ **THE DISCRIMINATOR, and it is the one thing to get right when moving a block here: does it CONSTRAIN A FUTURE ACTION (stays live) or RECORD A PAST ONE (moves here)?** **Do NOT sweep by "has a date."** Several dated blocks are *binding limits Will ruled must travel on the live spec* — e.g. *"this regime has produced ZERO genuine physical reopenings"* and TERRY's *"a firing gate carries zero thesis information."* **Those stay on the spec. Moving them here would be the exact failure this restructure could cause.**
 > ⚠️ **This file has no length cap and needs none — it is cold. But it must never acquire an instruction.** If you find yourself writing "always do X" here, X belongs in `CLAUDE.md` or `TRADE.md`.
 
-
-## R-2026-09-08 — BRENT cleanup approved and implemented
-
-Will approved the six cleanup items in this session ("okay I approve these"). The cleanup separates current rules from history, repairs their decision-time readers and exposes advisory boot findings. No trading permission or numerical gate changed. The binding letters now live in TRADE’s linked SPECS_GATES / SPECS_OFFRAMP_ENTRY / SPECS_TRADE_RULES; [inventory](workbook/TRADE_OBLIGATIONS.md) records each disposition and the full before-image checksum.
-
-Existing July 31 H1 announcement anchor resolves the stale per-tranche question. August 7/21 instrument retirements leave some persistence applicability unresolved; those letters travel intact with that limitation, rather than being silently applied or discarded. LESSONS and its index were reconciled together. Prediction first nine fields and scoring conventions were preserved. The incident pass records sourced corrections separately from unsuccessful current-state verification; old source dates remain old. The I-8 extension catches typed-field impossibility missed by the legacy-only check. Full validation and residual evidence debt: [cleanup report](setups/2026-09-08_cleanup-report.md).
-
-
 ---
 
 ## 2026-08-05 — LEG T v6: THE MEASUREMENT MOMENT MOVED (Will-ruled) {#legT-v6}

@@ -25,9 +25,9 @@ Modes:
   (default) print the rendered block to stdout.
 
 ⚠️ SCOPE: renders the EVENT SET and its dates from the canonical record. It does NOT invent
-priority glyphs or prose — those come from CATALYSTS' own columns. As of the September 8
-cleanup, TRADE.md links the canonical docket and generated STATUS calendar; its obsolete
-hand-maintained calendar is retired. There is no second TRADE render to synchronize.
+priority glyphs or prose — those come from CATALYSTS' own columns. The TRADE.md catalysts
+table is the second render and is NOT yet wired (P2); until it is, it stays hand-maintained
+and is the remaining divergence risk. Stated so the gap is not mistaken for covered.
 """
 import csv
 import io

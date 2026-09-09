@@ -3,11 +3,9 @@
 **Status:** 🟠 Market docket integrated; source-gated UNKNOWNs remain. WQ-189/192 STAND DOWN.
 **Domain:** Oil/energy physical balance, price structure and stress transmission.
 **Thesis version:** v5.8, unchanged.
-**As of:** 2026-09-08 cleanup closeout | Prior market STATUS commit: 028bb6fd1; this cleanup has a separate commit.
+**As of:** 2026-09-08 18:45 ET | STATUS commit: 028bb6fd1 (September 8 owner write-back committed; PROME verified and repinned per owner handoff).
 
-C6 cleanup boundary: rule/read-path reconciliation, seven incident corrections and four-packet triage only. All market levels and weekly grades retain their previous vintages; no broker receipt or new thesis/prediction grade. [Cleanup evidence](setups/2026-09-08_cleanup-report.md).
-
-Prior owner-session C6 scoped verification: fresh EIA physical/schedule web read and legal transcriptions; parent PortWatch/named-contract artifacts independently read; TERRY approved rules reconciled. Prior weekly grades/calibration checked against owner records but not refreshed at source. No option marks, broker receipt, new JWC grade or energy-credit measurement. Final fold rechecked against STATUS/TRACKER and TRADE after source-context, historical-weekday and Sidi tracker/cadence corrections. Former brief preserved verbatim with hashes in archive/2026-09-08_owner-writeback-before.json.
+C6 scoped verification: fresh EIA physical/schedule web read and legal transcriptions; parent PortWatch/named-contract artifacts independently read; TERRY approved rules reconciled. Prior weekly grades/calibration checked against owner records but not refreshed at source. No option marks, broker receipt, new JWC grade or energy-credit measurement. Final fold rechecked against STATUS/TRACKER and TRADE after source-context, historical-weekday and Sidi tracker/cadence corrections. Former brief preserved verbatim with hashes in archive/2026-09-08_owner-writeback-before.json.
 
 ## CROSS-DOMAIN
 
@@ -15,7 +13,6 @@ Prior owner-session C6 scoped verification: fresh EIA physical/schedule web read
 
 | To | Signal | Priority | Mechanism it triggers in recipient's domain |
 |---|---|---|---|
-| PROME / HAWK | Incident maintenance: seven sourced corrections, eleven unresolved current-state questions | P2 | Old ACTIVE does not establish current capacity loss; no aggregate is quotable. Per-row evidence in refinery_damage/REVERIFICATION_2026-09-08.md. |
 | PROME / FALCON / HAWK | Full-August Sidi Kerir replaces MTD interpretation; PortWatch control UNKNOWN | P2 | Northern rerouting is not independent Saudi capacity confirmation; absent target rows cannot confirm coverage defect. |
 | OSPREY / TERRY / HENRY | Q1 improved transcriptions, official instrument/publication missing; Q2 flow and Q3 crack separate | P2 | Policy timing cannot establish recovered diesel supply or unwind product costs. |
 | TERRY / PROME | XLE exit selected; BRENT holdings/rules reconciled | P1 | September 9 receipt is next position obligation. TERRY implementation/Will execution; structural positions in TRADE.md. |

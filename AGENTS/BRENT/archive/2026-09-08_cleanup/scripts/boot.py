@@ -235,7 +235,6 @@ def run_script(script_path, args, timeout=60, findings_markers=(), findings_rcs=
 
     Returns (status, output, elapsed) where status is one of:
       "OK"       — exit 0
-      "WARNINGS" — exit 0 with instrument advisory findings; no authority change
       "FINDINGS" — exit 2: the script RAN CORRECTLY and reported real problems
       "FAIL"     — any other non-zero, a timeout, or a crash: the SCRIPT is broken
 
@@ -268,11 +267,6 @@ def run_script(script_path, args, timeout=60, findings_markers=(), findings_rcs=
             hay = (output or "") + (result.stderr or "")
             if any(m in hay for m in findings_markers):
                 status = "FINDINGS"
-        # Supersedes the rc-only instrument summary. Match the explicit advisory
-        # result, not the permanent cautionary prose every healthy run prints.
-        if status == "OK" and script_path.name == "instrument_check.py":
-            if "BRENT_INSTRUMENT_SUMMARY: WARNINGS" in output:
-                status = "WARNINGS"
         return status, output, elapsed
     except subprocess.TimeoutExpired:
         elapsed = time.time() - start
@@ -340,12 +334,9 @@ def main():
                     print(f"    {line}")
                     shown = True
             if not shown:
-                if success == "OK":
-                    print("    ✓ ran cleanly, no alerts")
-                else:
-                    print(f"    {success}: {output.strip() or 'no diagnostic output'}")
+                print(f"    ✓ ran cleanly, no alerts")
 
-        status = success  # run_script returns the explicit status directly
+        status = success  # run_script now returns the tri-state directly
         results.append((label, status, elapsed))
 
     # Summary
@@ -356,7 +347,7 @@ def main():
     print(f"\n  {'Script':<30} {'Status':>8} {'Time':>8}")
     print(f"  {'-'*50}")
     for label, status, elapsed in results:
-        icon = {"OK": "✅", "WARNINGS": "🟠", "FINDINGS": "🔴", "SKIP": "⏩"}.get(status, "❌")
+        icon = {"OK": "✅", "FINDINGS": "🔴", "SKIP": "⏩"}.get(status, "❌")
         print(f"  {icon} {label:<28} {status:>6} {elapsed:>6.1f}s")
 
     print(f"\n  Total boot time: {total_time:.1f}s")
@@ -364,10 +355,6 @@ def main():
 
     findings = [r for r in results if r[1] == "FINDINGS"]
     failures = [r for r in results if r[1] == "FAIL"]
-    warnings = [r for r in results if r[1] == "WARNINGS"]
-    if warnings:
-        print(f"\n  🟠 {len(warnings)} check(s) reported advisory warnings; inspect the dated evidence. "
-              "Warnings do not block or authorize a trade.")
     if findings:
         print(f"\n  🔴 {len(findings)} check(s) reported BLOCKING FINDINGS (script ran fine — the SPEC is the problem):")
         for label, _, _ in findings:
@@ -397,10 +384,7 @@ def main():
             print(f"     ⛔ This is NOT a clean boot. Do not read the run as green.")
             print(f"\n  Tip: run with --verbose to see full output for each script.")
             return 2
-        if warnings:
-            print("\n  🟠 BOOT COMPLETED WITH ADVISORY WARNINGS. rc=0; not an all-clear.")
-        else:
-            print(f"\n  ✅ All scripts completed successfully.")
+        print(f"\n  ✅ All scripts completed successfully.")
         print(f"\n  Tip: run with --verbose to see full output for each script.")
         return 0
 

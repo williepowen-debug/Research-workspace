@@ -1,0 +1,102 @@
+{
+  "TRADE.md": {
+    "bytes": 156190,
+    "sha256": "cac83406e54c4b17b6c587f06193a638b31d9693b3b433fcc0ba5a7402bf80ef",
+    "crc32": "835a0704"
+  },
+  "LESSONS.md": {
+    "bytes": 48705,
+    "sha256": "5774755fe26c18b308318ab42c3a76ce84ba7ba60bb4d8a80b9870072d47e5a3",
+    "crc32": "7e1e706a"
+  },
+  "CLAUDE.md": {
+    "bytes": 31538,
+    "sha256": "5f6e8ea51f796dd212fc7430bcc0265bd48d92123e5c61433425e40e37ae215f",
+    "crc32": "22feb34d"
+  },
+  "STATUS.md": {
+    "bytes": 25272,
+    "sha256": "1915ecbcbec2d989f708a8ce906ad7d116ba60a150eff58d379312c25a89b6ff",
+    "crc32": "c02ff537"
+  },
+  "SCRATCH.md": {
+    "bytes": 5778,
+    "sha256": "a8df93053d8e4f0baad9ed484e9eacbf61beea12728a1f4f19c284c44a73434d",
+    "crc32": "e0d7a804"
+  },
+  "NEXUS_BRIEF.md": {
+    "bytes": 7539,
+    "sha256": "fe12a42f20d82e336e9c85457900f93046c35127b3419e304306da1367cc755c",
+    "crc32": "05935c77"
+  },
+  "RULINGS.md": {
+    "bytes": 47151,
+    "sha256": "d247e9b8a80e98f67ac64d7393dc5ff31575f9a1d858d1777453a143ab9c7507",
+    "crc32": "44e5f560"
+  },
+  "workbook/TRADE_OBLIGATIONS.md": {
+    "bytes": 16845,
+    "sha256": "6569245aaff334c8c67ecb6261d213571f9c038ee18d84fac99870ffc458d8cd",
+    "crc32": "208be582"
+  },
+  "workbook/LESSONS_INDEX.tsv": {
+    "bytes": 11323,
+    "sha256": "29ab5e5b4d248642a260ef525c34faf67dd3ff93e529d792511f6657b9fa1310",
+    "crc32": "44cfdd96"
+  },
+  "workbook/REGISTRY.tsv": {
+    "bytes": 74885,
+    "sha256": "c971eba1df31cc32a32d2234d49735e17d74f771709788cb1e6e7798507fd339",
+    "crc32": "5f7a6afc"
+  },
+  "thesis/PREDICTIONS.tsv": {
+    "bytes": 116966,
+    "sha256": "e42677e1e40db9ab4dff7abc48c0a16da97a828808b0a21a619c03ab8520f076",
+    "crc32": "f0604e85"
+  },
+  "thesis/PREDICTIONS_ARCHIVE.md": {
+    "bytes": 26019,
+    "sha256": "b4614ac03ff81e6663b50302b4d093f703c5ec4f3f6f03f7fafbdb8a29bcb2ac",
+    "crc32": "866386d3"
+  },
+  "thesis/CHANGELOG.md": {
+    "bytes": 145529,
+    "sha256": "409803d6d7b716f530021b7efe1b2972400c54a34f3893dc1866f61c041bcd29",
+    "crc32": "9a0fbc63"
+  },
+  "demand_destruction/TRACKER.md": {
+    "bytes": 147086,
+    "sha256": "42df8a1a348a6ffd761b34916675a0afe9aa11bce32ada65fbd18c6bba0f44e0",
+    "crc32": "800ab0df"
+  },
+  "refinery_damage/INCIDENTS.tsv": {
+    "bytes": 69515,
+    "sha256": "6b925e6dbb73f9c80dacfc19fa25a908930db1ed1f66a539dd99723e657f3168",
+    "crc32": "1ce22046"
+  },
+  "docket/FASTOW.md": {
+    "bytes": 18705,
+    "sha256": "06f30e46032a70aa3d1dac05a03086319058a81cebec76dcb09a537bf32092ec",
+    "crc32": "961e145b"
+  },
+  "scripts/boot.py": {
+    "bytes": 22889,
+    "sha256": "9c78f9747b24bc1d68ca7345e6799a91eee083fbfc3cf984df0dc3c914fab679",
+    "crc32": "a4df69eb"
+  },
+  "scripts/instrument_check.py": {
+    "bytes": 71736,
+    "sha256": "0ff7f8c11b78e686b59be4d0b46f47add3348f771063c7cd8176c7ac4e5cc5b1",
+    "crc32": "ef35ea30"
+  },
+  "scripts/render_calendar.py": {
+    "bytes": 13481,
+    "sha256": "c4a5c3626d54a6be6e65b3fd78ddd9b5b6069dd6b99d65530cfe5bb380b7c7b5",
+    "crc32": "1ba48ae8"
+  },
+  "setups/2026-08-12_35b-COT-successor-band-N1-build.md": {
+    "bytes": 9287,
+    "sha256": "6cad6f14c897939bff0b02d5ff1d1f59ef9379668109d986a3d169a569f9d911",
+    "crc32": "9ce66ebc"
+  }
+}

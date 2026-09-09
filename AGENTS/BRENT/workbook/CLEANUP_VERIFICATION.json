@@ -1,0 +1,83 @@
+{
+  "review_date": "2026-09-08",
+  "scope": "BRENT approved cleanup; source vintage is independent of review date",
+  "before_images_verified": 20,
+  "exact_trade_excerpts_verified": 37,
+  "trade_holding_mirror_first_22_lines": "unchanged",
+  "prediction_rows_first_nine_fields_unchanged": 30,
+  "prediction_notes_preserved_verbatim": [
+    "BRT-07",
+    "BRT-12",
+    "BRT-16",
+    "BRT-17",
+    "BRT-21",
+    "BRT-26",
+    "BRT-29",
+    "BRT-30"
+  ],
+  "registry_bytes": "unchanged",
+  "whole_read_budget_bytes": 32550,
+  "whole_read_sizes": {
+    "CLAUDE.md": 32068,
+    "STATUS.md": 26468,
+    "SCRATCH.md": 5315,
+    "LESSONS.md": 10261,
+    "TRADE.md": 6781,
+    "NEXUS_BRIEF.md": 8074,
+    "domain/REFERENCE_TABLES.md": 10075,
+    "setups/SPECS_GATES.md": 14980,
+    "setups/SPECS_OFFRAMP_ENTRY.md": 17063,
+    "setups/SPECS_TRADE_RULES.md": 17286,
+    "setups/2026-08-12_35b-COT-successor-band-N1-build.md": 10818,
+    "thesis/prediction_notes/BRT-07.md": 3409,
+    "thesis/prediction_notes/CALIBRATION.md": 2062,
+    "thesis/prediction_notes/BRT-16.md": 4319,
+    "thesis/prediction_notes/BRT-17.md": 2911,
+    "thesis/prediction_notes/BRT-12.md": 3049,
+    "thesis/prediction_notes/BRT-30.md": 3057,
+    "thesis/prediction_notes/BRT-29.md": 2063,
+    "thesis/prediction_notes/BRT-26.md": 4036,
+    "thesis/prediction_notes/BRT-21.md": 3633
+  },
+  "spec_checks": [
+    {
+      "command": ".venv/bin/python3 AGENTS/BRENT/scripts/lessons_check.py --spec AGENTS/BRENT/setups/SPECS_GATES.md",
+      "exit_code": 0,
+      "all_detected_lessons_cited": true
+    },
+    {
+      "command": ".venv/bin/python3 AGENTS/BRENT/scripts/lessons_check.py --spec AGENTS/BRENT/setups/SPECS_OFFRAMP_ENTRY.md",
+      "exit_code": 0,
+      "all_detected_lessons_cited": true
+    },
+    {
+      "command": ".venv/bin/python3 AGENTS/BRENT/scripts/lessons_check.py --spec AGENTS/BRENT/setups/SPECS_TRADE_RULES.md",
+      "exit_code": 0,
+      "all_detected_lessons_cited": true
+    },
+    {
+      "command": ".venv/bin/python3 AGENTS/BRENT/scripts/lessons_check.py --spec AGENTS/BRENT/setups/2026-08-12_35b-COT-successor-band-N1-build.md",
+      "exit_code": 0,
+      "all_detected_lessons_cited": true
+    }
+  ],
+  "other_checks": {
+    "regression_tests": "8 passed",
+    "lesson_index_prose": "26/26 passed",
+    "calendar": "18 events and 8 standing rows passed",
+    "corrections": "0 unreceipted NAMED rows",
+    "live_boot_precommit": "rc=2: Instrument WARNINGS, ledger age and nudge FINDINGS; no script FAIL",
+    "future_ordinary_closeout_growth_test": "pending next ordinary closeout; current TRADE baseline 6781 bytes"
+  },
+  "incident_review": {
+    "reviewed": 18,
+    "sourced_updates_or_corrections": 7,
+    "unresolved_current_state": 11
+  },
+  "limitations": [
+    "Semantic rule reconciliation is documented in TRADE_OBLIGATIONS.md; excerpt hashes alone do not prove it.",
+    "Shared read-cap check discovers only five boot reads; additional mandatory and conditional documents were measured explicitly here.",
+    "Commit-based ledger age/nudge output predates committing actual changes; REGISTRY is deliberately not stamped or edited.",
+    "No new market grade, capital approval or execution receipt."
+  ]
+}

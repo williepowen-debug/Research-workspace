@@ -34,11 +34,11 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 2. `AGENTS/BRENT/STATUS.md` — current state, what's resolved, live levels, the 📅 CATALYST CALENDAR section (human twin of the TSV — must not diverge)
 3. `AGENTS/BRENT/thesis/THESIS.md` — current thesis framing + any catalyst-relevant phase transitions
 4. `AGENTS/BRENT/thesis/CHANGELOG.md` — recent thesis pivots (so you know if framing in CATALYSTS notes is stale)
-5. `AGENTS/BRENT/thesis/PREDICTIONS.tsv` and current STATUS resolution evidence — verify completion before pruning. TIMELINE is frozen history, not a current completion source.
+5. `AGENTS/BRENT/thesis/TIMELINE.md` — recently resolved events (so you know what to prune)
 6. `AGENTS/BRENT/docket/CATALYSTS.tsv` — the file you reconcile (you must read before editing)
 7. Run `.venv/bin/python3 AGENTS/BRENT/scripts/catalyst_countdown.py` — current countdown view + runway + visual confirmation that `~` prefix renders on modeled rows
 
-**Date verification order:** when a CATALYSTS.tsv row's date isn't corroborated by STATUS/THESIS/dated resolution evidence, check the recurring-release universe table in § BASELINE AUDIT first (cadence rules). Only WebSearch if that can't resolve it — and only to confirm a **date**, never to form a view on what an event will mean (that's analysis).
+**Date verification order:** when a CATALYSTS.tsv row's date isn't corroborated by STATUS/THESIS/TIMELINE, check the recurring-release universe table in § BASELINE AUDIT first (cadence rules). Only WebSearch if that can't resolve it — and only to confirm a **date**, never to form a view on what an event will mean (that's analysis).
 
 ## OWNED WRITE-SET (you exclusively own these for your run; touch nothing else)
 
@@ -55,14 +55,14 @@ You do maintenance, not analysis. If a task requires a judgment call about the t
 
 - **`CATALYSTS.tsv` is source-of-truth for the dated-event SET** — *which* events exist, their `YYYY-MM-DD` dates, priority, who_cares routing, and date_class (confirmed vs modeled).
 - **STATUS owns live spot.** The TSV's `what_to_check` and `threshold_signal` columns hold **structural thresholds + significance only** (e.g. "Cushing <20M = WTI dislocation"), never current levels. If you find a live price/level sitting in a TSV cell, **remove it** and leave the threshold — do not refresh it.
-- **STATUS’s calendar is generated from the entire CATALYSTS.tsv event set** by `scripts/render_calendar.py` (adopted September 7; supersedes the curated-subset convention). Every TSV change requires regeneration by BRENT, including routine weekly rows. FASTOW remains docket-only: report every change; BRENT runs `--write`, then `--check`. Never hand-edit the generated STATUS block.
+- **STATUS's 📅 CATALYST CALENDAR is a CURATED LOAD-BEARING SUBSET of TSV, NOT a 1:1 mirror** (clarified post-Run-2 META-REVIEW Finding #1, 2026-06-07). TSV holds the full event SET; STATUS calendar holds the high-priority + thesis-load-bearing + position-expiry subset that warrants dashboard attention. **Inclusion rules for STATUS calendar:** all 🔴 rows; all position expiries; 🟠 rows that are uniquely thesis-load-bearing (not routine weekly telemetry like single-print COT/BH). **Excluded from STATUS by convention:** rolling weekly recurring releases (the countdown view shows them; STATUS doesn't need to re-enumerate). **FASTOW's job:** when FASTOW's TSV edits affect an event that WOULD be in the curated subset (any 🔴 add/remove, any date change on a 🔴 row, any position-expiry add), flag in the return block "STATUS sync needed?" line so BRENT propagates to STATUS at closeout. Pure rolling-weekly edits don't require STATUS sync.
 
 ---
 
 ## THE JOB
 
 0. **Read `FASTOW_MEMORY.md`** — load `## LAST RUN` (what was done last sync), `## PENDING` (open items from prior runs BRENT hasn't yet resolved), `## STANDING MONITORS`, `## NEXT RUN HINTS`. Then write `## CHANGES SINCE LAST RUN` based on what's moved in the read-set since the previous sync.
-1. **Prune resolved events.** An event whose date is past today AND has been recorded in STATUS/dated resolution evidence as resolved gets removed. **Retention rule:** rows tagged `— FIRED` (in the event name) may linger ONE WEEK past the event date as a recently-resolved marker; then delete. Do NOT delete a resolved row early just because it's resolved — honor the 1-week rule (matches KOYOMI/SAM convention).
+1. **Prune resolved events.** An event whose date is past today AND has been recorded in STATUS/TIMELINE as resolved gets removed. **Retention rule:** rows tagged `— FIRED` (in the event name) may linger ONE WEEK past the event date as a recently-resolved marker; then delete. Do NOT delete a resolved row early just because it's resolved — honor the 1-week rule (matches KOYOMI/SAM convention).
 2. **Add upcoming events.** Pull dated catalysts forward from THESIS, STATUS "live TODOs" / "key open items", and the recurring-release universe in § BASELINE AUDIT. **Verify each date via the recurring-release table first** (cadence rules + official sources); WebSearch only if that can't resolve it.
 2a. **Baseline scope audit — fire on either of these triggers:**
     (i) **Monthly:** the first FASTOW run of a new calendar month → full baseline audit (covers the new month + the following month).
@@ -157,7 +157,7 @@ FASTOW docket sync — [date]
 - Refreshed:[rows whose framing was stale, old → new]
 - Modeled-date revisions: [rows whose date_class=modeled shifted, ID old → new + reason]
 - Pre-fire date verification: [N rows scanned in 7d window; revisions ROW old→new + source; or "no candidates in window"]
-- STATUS sync needed?: [YES for ANY TSV edit — BRENT runs render_calendar.py --write then --check] / [NO if TSV unchanged]
+- STATUS sync needed?: [YES if any 🔴 add/remove/date-change OR position-expiry add was made — list rows for BRENT to propagate] / [NO if only rolling-weekly edits]
 - Runway:   [days to furthest event]; [N] events in next 14d
 - BASELINE AUDIT: [trigger fired: monthly/post-miss/none] — [clean: N checked, 0 gaps] OR [proposed delta: N gaps; written to PENDING; excluded M declined-class events per CALIBRATION]
 - ⚠️ ESCALATIONS: [anything analytical you noticed but did NOT act on — e.g. "STATUS calendar diverges from TSV on Jun 7 OPEC+ priority; BRENT should reconcile"]  (or "none")

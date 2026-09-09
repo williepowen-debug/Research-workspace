@@ -1064,7 +1064,7 @@ def check_incident_impossible(today=None):
         for line in fh:
             if line.startswith("#") or not line.strip():
                 continue
-            f = line.rstrip("\r\n").split("\t")
+            f = line.rstrip("\n").split("\t")
             if hdr is None:
                 hdr = f
                 continue
@@ -1073,17 +1073,11 @@ def check_incident_impossible(today=None):
                 continue
             if (r.get("offline_unit") or "").strip() != "BPD":
                 continue
-            # Extend I-8 to both representations. The August repair changed the
-            # legacy field but left typed offline_qty=415000 > capacity_qty=380000.
-            # No fallback between representations: that can hide the bad half.
-            for cap_field, off_field in (("capacity_bpd", "bpd_offline_est"),
-                                         ("capacity_qty", "offline_qty")):
-                cap = (r.get(cap_field) or "").strip()
-                off = (r.get(off_field) or "").strip()
-                if cap.isdigit() and off.isdigit() and int(off) > int(cap):
-                    bad.append((r.get("id", "?"), r.get("facility", "?"),
-                                int(cap), int(off), (r.get("status") or "?").strip()))
-                    break
+            cap = (r.get("capacity_bpd") or "").strip()
+            off = (r.get("bpd_offline_est") or "").strip()
+            if cap.isdigit() and off.isdigit() and int(off) > int(cap):
+                bad.append((r.get("id", "?"), r.get("facility", "?"),
+                            int(cap), int(off), (r.get("status") or "?").strip()))
     return bad
 
 
@@ -1225,7 +1219,7 @@ def main():
                 aged = f"{age}d" if age is not None else f"unparseable last_verified {lv!r}"
                 print(f"     {AMBER} {rid} {fac[:38]:38s} last verified {lv} ({aged})")
             if len(inc) > 8:
-                print(f"     … and {len(inc)-8} more (read the ledger; --json covers registry tests only)")
+                print(f"     … and {len(inc)-8} more (run with --json or read the ledger)")
             print(f"     ⚠️  Flags only — never auto-edits. Downgrading on a timer would "
                   f"fabricate a restart nobody observed.")
             print(f"     ⛔ NO AGGREGATE OVER INCIDENTS.tsv IS QUOTABLE — event record, "
@@ -1277,10 +1271,6 @@ def main():
               f"{' (0 — --quick)' if args.quick else ''}; the rest are manual/none/unprobeable.")
         print(f"  ⚠️  This checks the INSTRUMENT, never whether the THRESHOLD LEVEL is still meaningful.")
         print(f"      A permanently-breached line (gasoline crack >$30) probes perfectly GREEN.")
-        # Existing advisory scope and rc contract unchanged; boot now sees it.
-        summary = "FINDINGS" if blocking or imp else "WARNINGS" if warn or inc or unb else "OK"
-        print(f"  BRENT_INSTRUMENT_SUMMARY: {summary}; registry_warnings={len(warn)}; "
-              f"stale_active={len(inc)}; stale_other={len(unb)}; impossible={len(imp)}")
 
     # ⛔ I-8 MUST REACH THE EXIT CODE, NOT JUST THE SCREEN (added 2026-08-21, same edit as I-8).
     # boot.py renders this script's SUMMARY line from its rc, and prints the body separately.
