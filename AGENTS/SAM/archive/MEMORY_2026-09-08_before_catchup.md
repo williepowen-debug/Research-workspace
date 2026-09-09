@@ -26,27 +26,29 @@
 
 ## Session Notes
 
-### CHANGES SINCE LAST SESSION / LAST SESSION — September 8 catch-up
+### CHANGES SINCE LAST SESSION / LAST SESSION — Sep-8 evening boot
 
-- Approved full research pass complete through available releases: `reports/2026-09-08_catchup-assessment.md`, raw sources/calculations under `research/outputs/2026-09-08_catchup/`. Boot receipt remains separate.
-- Payroll candidate corrected; Totan September 8 15:15 chart gives dated 97% BOJ 25bp equivalent. GDP/wages read. New reserve-stock decline informs but does not identify securities/UST funding. No systemic unwind established from cross-pairs, VIX, credit and lagged funding.
-- MOF August investor-type flows primary-read: life insurer LT sales -¥137.3B; trust-account buying +¥2.3326T (not synonymous with pensions). Norway proposal and China DCS primary scope verified. No named-institution or transaction inference.
-- Fixed xccy cutoff bug repaired, four tests and live run pass. Freshness ≠ real basis; September 14 fixed-pair expiry guarded. KB-209 rider and KB-232 updated; frozen FLOW untouched.
-- Thesis LOW/retired, no successor, no prediction rescore, no trade. Payroll/Norway research packets consumed; unrelated audit/architecture mail remains pending. Own files only; peer dirty state defers pull/push, local commit only.
+- Booted as SAM for Will; root/local rules and ordered orientation loaded. Standard boot 14/14 OK after authorized network retry, but BOJ-pricing quality-none and stale xccy input are NOT green data. Report: `reports/2026-09-08_boot.md`; raw receipt alongside.
+- Measured 155 FX crossing and completed Sep-4 JGB discriminator: no hawkish front-end confirmation. Broader FX attribution OPEN; old Sep-2/3 settlement exclusion cannot be extended to Sep-7/8. No post-move CFTC/cohort measurement, no current VIX regime test, no probability or thesis re-mark. Last recorded book FLAT.
+- WALTER 012 acted on FX/JGB observations with driver follow-up carried; 021 noted as peer-sourced context. No MSG files; named corrections check PASS. Legacy mail remains pending, including Sep-6 payroll-premise correction; do not use its old NFP premise.
+- Removed resolved SAM-39 from the Sep-18 grading task; correct OPEN pair is SAM-28/31. Full Sep-4 STATUS and brief preserved in archive before refreshing. NEXUS stale historical core replaced with current synthesis; no other agent files touched.
+- Git pull/push deferred under dirty-peer rule; SAM-only local commit. Other agents' staged work must not be swept.
+
+- Will requested catch-up priorities: `reports/2026-09-08_catchup-priorities.md`. BLS revision primary-verified; annotate candidate labor premise next. Investigations remain open; no re-mark.
 
 ### NEXT SESSION
 
 **⚡ TIER 0 — DATED:**
-0a. **Sep-9/10:** BOJ Sep-9 actuals / Sep-10 forecast plus independent pre-BOJ broker baseline; Sep-8 U.S. funding and EIA outlook. **Sep-11:** first post-rally CFTC + CPI. Cause remains OPEN; all available-data results in report. **Before Sep-14:** validated new futures pair; old pair expires and monitor stops.
+0a. **COMPLETED Sep-8:** Sep-4 JGB discriminator failed front-end confirmation. **NEXT:** fresh Sep-7/8 settlement/Tanshi evidence + post-move CFTC + valid BOJ pricing and VIX/cross-pairs; driver OPEN. GDP Sep-8 primary read also pending.
 0b. 🟠 **9/29 40Y — retirement counter's FIRST tick (0-of-2), inheriting a known instrument defect.** The SOFT tail bar (>2.0bp) has a trip margin equal to MOF's 3-decimal quantization; 9/3 tripped it by exactly 0.1bp. **Rule the bar's precision BEFORE that window opens, never inside it.**
 0c. 🔴 **~9/18 — INFRA_AGENDA AUTO-RETIRES.** Per-item adopt/defer owed. **Still the item most likely to expire silently.**
-0d. **Sep-15/16 FOMC dots**, **Sep-17/18 BOJ**, **Sep-18 CPI + SAM-28/31 grading**. No authenticated current Fed probability; Totan BOJ vintage in STATUS. Original prediction conditions unchanged.
+0d. **9/15-16 FOMC dots** (route-4 tripwire — and note the sign: a September HIKE is priced 57-66%, so the tripwire is moving AWAY) · **9/17-18 BOJ MPM** (macro watch, NOT an entry catalyst) · **Fri 9/18 SAM-28 and SAM-31 grading** (SAM-39 now closed).
 
 **⚡ TIER 1 — OWED / MINE TO RULE:**
-1z. **Norway packet consumed:** JGB 4.6%→7.4% proposed, not a flow or specific superlong bid. Prior “nothing lands in 2026” inference withdrawn; Jan-25 expert report is not a mandatory implementation ordering. BOND ~$18B estimate remains distinct from primary weights. Report §7.
+1z. 🟠 **UNPROCESSED INBOX PACKET — TRIAGED, NOT CONSUMED (deliberate).** `inbox/2026-09-04_to-SAM_Norway-GPFG-...md` (BOND, `KB-BND-236`): NBIM proposes lifting the **JGB index weight 4.6% → 7.4%** (JPY currency share ~5% → ~8%), **≈ +$18B phased** — a large, price-INSENSITIVE buyer proposed into the exact tenors Pillar 2 turns on, and it **cuts AGAINST the "investors are fleeing sovereign duration" read** (buys JGBs while selling USTs). ⛔ **A PROPOSAL: expert group reports 2027-01-25, then mandate, then "gradually." NOTHING LANDS IN 2026, no 2026 trigger** — which is why I docketed the date (CALENDAR beyond-horizon + CATALYSTS 2027-01-25) and left the packet in `inbox/` for a dedicated processing spawn rather than half-consuming it at closeout. ⚠️ **The +$18B is BOND's ESTIMATE off a derived ~$630B bond index; the WEIGHTS are the confirmed primary, the dollar figure is not** — do not propagate the dollar number as sourced.
 
 1a. 🔴 **AUTO-MEMORY OWED, and it is the sharpest thing this desk produced today:** a retired figure does not merely get re-cited — it gets **RE-LABELLED onto a different subject**, where a DO-NOT list keyed to the original subject has zero coverage. (74.5: a dead Kalshi **BOJ** quote, published by me as a **CME Fed** figure.) Pairs with `[[finding_attribution_authenticates_a_figure_its_named_source_never_produced]]`.
-1b. **BOJ pricing automation still owed:** manual source gap resolved via public Totan ICAP September 8 chart (97%, indicative 25bp assumptions). `boj_ois.py` remains unusable. Automated source must capture quote vintage/reference period and distinguish incremental from cumulative. No silent reuse after this date.
+1b. 🔴 **`boj_ois.py` TFX rewire — now blocking a live cell.** There is currently **NO citable BOJ-Sep figure**: ~92% is 3 days old and 9/4 sources disperse across 63% / "fully priced" / 84%. Absorb ORACLE's three defects + a last-TRADED stamp; decide whether centralbank.watch stays a source at all.
 1c. 🆕 **SAM-39 successor spec** — if an intervention-character row is re-opened, it needs a **SHAPE** leg (max single-hour move, or hours-to-half-the-move), not only a daily range. **Register the spec BEFORE any window opens.**
 1d. **METSUKE.md spec edit** (Run-18 E1): publisher-side monitor rule for STATUS-canonical figure re-bases.
 1e. **KB palimpsests owed** (KURA-drafted, my ruling): **KB-051/197** (dead-Brent figures + third $90 crossing) · **KB-209 two-legged** (size leg A2→A1 via ¥15.4T; funding UNRESOLVED; FRBNY Q3 ~11/13 = split adjudicator). 🆕 **KB-SAM-209's funding leg gains a datum today:** the BOJ settlement instrument is confirmed sovereign-blind at n=3.
@@ -55,16 +57,16 @@
 1h. **WALTER charter edit is MINE** (`2026-08-18` lane notice) — carried since 8/20, still owed.
 1i. **`jgb_yields.py --backfill-from` scope decision**; **boot step 6 has no instrument** (add `predictions_due()` to `boot.py`).
 1j. 🆕 **KOYOMI escalations awaiting my ruling:** (i) baseline-audit trigger-vs-convention conflict (execute first-Oct); (ii) INFRA_AGENDA class question; (iii) KOYOMI_MEMORY Run-16 verify block rollable via `subagent_memory_roll.py --apply`.
-1k. **STATUS read cap:** prior full version preserved, cold historical pointer prose compressed this closeout. Keep live thresholds and pending decisions; cap 32,550B unchanged.
+1k. 🔴 **STATUS read-cap is now a structural problem, escalated to PROME 9/3 and unresolved.** Rotation + TWO hot/cold splits landed it at 96.2%. **Do not fix it by archiving live tables or raising the number.**
 
 **⚡ TIER 2 — the successor question, still OPEN:**
 2a. ⚰️ **v2.0 KILLED. ⛔ NO SUCCESSOR FRAME — v1.7 stands.** Re-opens as **v1.8's** question.
-2b. **Current evidence:** cross-pair yen rally, modest broad-market stress; September 1 short build predates most of move. BOJ funding residual does not identify an op. Read latest report rather than old claims that the move was “unbought.”
+2b. 🔴 **The question got sharper today, not vaguer.** Carry positioning is **REBUILDING** (24.2% of R at the break → 33.7%, with OI rising and shorts adding) **while a record ¥15.4T ($96B) official bid failed to hold the level — and then 9/3 covered more ground in ONE DAY, unbought, than that ¥15.4T achieved in a month** (FXStreet's framing, and it is the right one). **Watch, do not re-mark.**
 2c. **Research backlog (Will Jun-15):** fiscal/Takaichi + JGB supply · digital deficit · Taiwan/China→Japan tail · Japan semis/AI capex.
 
 **⚡ SUB-AGENT CLOSEOUT — standing.** After any sub-agent run: **① `subagent_memory_roll.py`** · **② after any KURA run, `kura_proposal_roll.py`**. ⚠️ **`--all` IS THE WRONG SCOPE WHILE ANY SUB-AGENT IS LIVE** (Critical Rule #2). 🔑 **They propose, I apply. Move never delete. Unmarked = LIVE.**
 
-**⛔ DO NOT:** rearm on retired -153K/85%; cite retired 180K denominator (true R188,077); cite `boj_ois.py` or old BOJ/Fed probabilities as current; label proposed Norway/GPIF allocations as purchases; label MOF trust accounts as pensions/GPIF; infer UST sales from foreign-debt aggregates or reserve-stock changes; call the CME residual true basis; compare continuous oil contracts across rolls. Historical 30Y series high remains 4.131 [Sep-1].
+**⛔ DO NOT:** re-arm on a CFTC re-build through −153K/85% (**void**) · cite `Pct_of_Jul24_Peak` as "% of peak" (true R = **−188,077**) · cite **`boj_ois.py`** (55.9%) · cite **~73%, ~87.5%, ~72-77%, or 74.5** for BOJ-Sep — 🔴 **and 74.5 is now ALSO forbidden as a FED figure, which is how it got published in the first place; there is currently NO citable BOJ-Sep number at all** · say **"Fed cut repricing"** — 🔴 **the September Fed is priced as a HIKE (57-66%), and it is a HEADWIND to yen strength, not a driver** · cite **$86.36 or $87.30** for Brent (→ $87.84 [8/26], $89.70 [8/27], named contracts; **never `BZ=F`**) · cite **30Y 4.096** as the series high (→ **4.131 [9/1]**) · treat `ledger_staleness` STATUS-write counts as staleness for a **quarterly** source.
 
 ## Tooling — how to find out what exists
 

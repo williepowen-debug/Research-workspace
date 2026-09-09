@@ -1,0 +1,7 @@
+⚠️  uncommitted files outside AGENTS/SAM/:
+     [not yours]    AGENTS/BRENT/archive/2026-09-08_thesis-reconciliation/
+     [not yours]    AGENTS/BRENT/research/2026-09-08_catchup/
+     [not yours]    PROME/experiments/review-pilot/HUMAN_REVIEW_GUIDE.md
+
+ℹ️  The [not yours] entries are someone else's work — do NOT commit them.
+   Flag to PROME (or Will) rather than sweeping them into your commit.

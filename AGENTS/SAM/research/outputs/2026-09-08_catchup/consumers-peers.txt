@@ -1,0 +1,132 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  own dir excluded: AGENTS/SAM/   (processed/ + archive/ excluded everywhere — historical by design)
+
+  ── value · superseded −23K → current +21K
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (50)
+        AGENTS/WALTER/SESSION_LOG.md:725  [−23K]
+           **2026-08-07 (Fri, post-close — Tier-2 FULL).** BOARD 663→667 = 4 DISPATCH (1 IMMEDIATE) / 6 kills / 18 handoffs / 10-packet inbox DRAINED. 
+        AGENTS/HENRY/MEMORY.md:57  [−23K]
+           - **🔴 AUG NFP +162,000; JULY −23K REVISED TO +21K (+55K net).** U-3 4.1% on a **growing** labor force. ⇒ **The JOLTS fence I adopted 9/2 is 
+        AGENTS/HENRY/STATUS.md:3  [−23K]
+           **Signal Status:** 🟢→🔴 **9/4: THE GAMMA SIGN INVERTED BACK TO POSITIVE — SECOND INVERSION IN SEVEN DAYS.** SPX **7,747.71 [9/3 close]** is *
+        AGENTS/CARL/SCRATCH.md:47  [−23K]
+           4. **A forward-only rule protects the VERDICT and leaves the EVIDENCE SENTENCE standing.** WQ-175 correctly kept the grade — but 7 surfaces 
+        AGENTS/RED/MEMORY.md:43  [−23K]
+           - **A pre-registered rule only proves itself in the session it CHARGES you** (S28) — the FT-01 symmetry paid +2 on 7/31 and took it back on 
+        AGENTS/RED/MAINTENANCE.md:154  [−23K]
+           **What changed — a disposition rule, not just an edit pass.** The 33 decomposed into three populations (ML-RED-181): **(a) 12 terminal-statu
+        AGENTS/RED/OUTBOX.md:87  [−23K]
+           **7. Correction routed back to LABOR (packeted).** Their retraction states *"There was no negative payroll print in this cycle."* It fails o
+        AGENTS/RED/OUTBOX.md:369  [−23K]
+           3. **Phase 1 of the review-debt burn-down closed: KB past-`Stale_By` 33 → 9.** The 33 was three populations wearing one number (ML-181): 12 
+        AGENTS/RED/OUTBOX.md:373  [−23K]
+           5. **FYI to LABOR, with thanks and a defect against RED:** RED consumed LABOR's KFRC Q2 grade (8-K primary 7/27 — Tech Flex +4.0% YoY from +
+        AGENTS/RED/OUTBOX.md:537  [−23K]
+           6. **Final weights: Stag 34 · Managed 34 (co-modal, first time since S20) · Acute 13 · War 13 · Soft 4 · Rescue 2 = 100. HOLD 70→69, net-bea
+        AGENTS/RED/OUTBOX.md:596  [−23K]
+           5. **NFP −23K logged at full weight and DELIBERATELY NOT NETTED** against the two mechanical debits. LABOR's count-vs-realization decomposit
+        AGENTS/RED/NEXUS_BRIEF.md:84  [−23K]
+           | ✅ **Fri 9/4 — RESOLVED** | **August NFP** | **Both legs resolved AGAINST the bear.** −23K did not survive revision (**+21K**); the labour 
+        AGENTS/RED/NEXUS_BRIEF.md:101  [−23K]
+           - **What:** (1) **the FT-11 v1.0 partition reconciliation before 9/9 go-live** — registered 4/68/8 does not reproduce under either tie conve
+        AGENTS/RED/STATUS.md:122  [−23K]
+           4. **✅ RESOLVED 9/4 (graded 9/6) — August NFP.** **−23K did NOT survive revision (→ +21K); the labour force did NOT stop shrinking — it GREW
+        AGENTS/RED/CALENDAR.md:5  [−23K]
+           **Last Updated:** 2026-08-20 (**Session 32** — catch-up boot after 8 dark days + the SKEW ruling. **NO WEIGHT MOVED: HOLD 69 / net-bear 60.*
+        AGENTS/RED/CALENDAR.md:11  [−23K]
+           **[Prior] Last Updated:** 2026-08-07 (**Session 28** — 7-day catch-up; three pre-registered clocks adjudicated, **two fired against my own b
+        AGENTS/RED/CALENDAR.md:27  [−23K]
+           **Top imminent (8/20 vintage) → `docket/CATALYSTS.tsv` is canonical.** **🟡 Fri 8/21 Jackson Hole (Warsh) + OZK/KRE Aug puts expire** → **🟠 Q
+        AGENTS/NEXUS/STATUS_COLD.md:181  [−23K]
+           | LABOR → CARL | 🔴 **Graded 9/1 by its owner AGAINST its own thesis, both catalysts.** JOLTS layoffs 1.1→1.0%; ISM Mfg employment ≥50 ×2. **
+        AGENTS/NEXUS/STATUS_COLD.md:207  [−23K]
+           | **T-22** | R | Negative count vs closed channel | NFP −23K + revisions · JOLTS NET −18K ×3 | Claims low · layoffs 1.0% | **9/4 NFP** — and
+        AGENTS/LABOR/BUILD_DEBT.md:34  [−23K]
+           | ✅ **BD-11** | **Freeze-thaw gate spec revision** — the bull-side kill in STATUS § EXIT RULES (*payrolls ≥+150K ×2 consecutive revised, LFP
+        AGENTS/LABOR/NEXUS_BRIEF.md:123  [−23K]
+           - **What:** 🔴 **The Aug 3–7 cluster is CLOSED — all six prints graded. The next decision point is Fri Aug 28, 10:00 ET: the QCEW preliminary
+        AGENTS/LABOR/NEXUS_BRIEF.md:146  [−23K]
+           | 🔴 **Fri Sep 4** | **NFP August + U-3** | **The re-test of the −23K.** 🔴 **READ THE INDEPENDENCE MAP FIRST — nine legs are FOUR evidence ty
+        AGENTS/LABOR/NEXUS_BRIEF.md:163  [−23K]
+           | 🔴 **Fri Sep 4** | **NFP August** [CONF verbatim in USDL-26-1291] | **The re-test:** does −23K survive revision? Does the labor force stop 
+        AGENTS/LABOR/TRADE.md:26  [−23K]
+           | T-06 | NFP + slack | **NFP <100K AND (U-3 rose ≥0.2pp OR EPOP fell ≥0.3pp over 3 months)** *(re-specced 2026-08-07, BD-15)*. The OR-leg ex
+        AGENTS/REGINALD/NEXUS_BRIEF.md:24  [−23K]
+           - **Labor: the headline turned, the firing layer did not.** NFP July −23K (first negative of cycle; May+Jun −103K revisions) with **financia
+        AGENTS/REGINALD/STATUS_DASHBOARD.md:27  [−23K]
+           | Initial Claims | **203K** [FRED ICSA w/e **8/22**, refreshed 8/27 off LABOR's spine packet + own FRED pull — ⚠️ **MY "DIRECTION TURNED" FR
+        AGENTS/REGINALD/CALENDAR.md:11  [−23K]
+           | Weekly (Thu) | Initial claims | DOGE layoff acceleration | >300K = all ORANGE banks → RED. (Latest: **203K** [FRED ICSA w/e **8/22**, refr
+        AGENTS/MARCO/NEXUS_BRIEF.md:20  [−23K]
+           - **🔴 CHANNEL 1 — quantity HIGH and citable; transmission UNDEMONSTRATED, and that is now structural.** A **fourth** pre-registered transmis
+        AGENTS/CARL/thesis/THESIS.md:2  [−23K]
+           **Version:** 2.6.6 | **Updated:** 2026-08-27 | **Status:** ACTIVE — convergence **53/70 (76%)**, Path C ACTIVE-RED (provisional pending coun
+        AGENTS/CARL/thesis/THESIS.md:277  [−23K]
+           ## Convergence Score: 53/70 *(rescaled, expanded, architecturally aligned v2.5; V16 4→3 v2.5.2 Jun 6; V12 4→5 + V5 4→3 paired v2.6 Jun 22; V
+        AGENTS/CARL/thesis/THESIS.md:302  [−23K]
+           | 16 | **Employment Structural Rot** *(NEW v2.5)* | — | **4** ⬆️ *(3→4 Aug 10, v2.6.5 — re-arm EXECUTED, Will-approved; ARMED Jul 2 v2.6.1; 
+        AGENTS/CARL/thesis/THESIS.md:315  [−23K]
+           Critical vectors (1-12 + 16): avg 3.92. Supporting vectors (13-14): avg 3.0. Spread: 0.92. The score still discriminates. *(**v2.6.5 Aug 10:
+        AGENTS/CARL/thesis/THESIS.md:340  [−23K]
+           The thesis is still CRITICAL. **v2.6 (Jun 22):** V12 Stagflation/Fed-Locked is now the lone vector at **5** (Fed-locked fully fired — FOMC f
+        AGENTS/CARL/thesis/THESIS.md:345  [−23K]
+           - ~~V16 → 4 (re-arm) — ARMED, pending July NFP (~Aug 7)~~ **✅ EXECUTED 2026-08-10 (v2.6.5, Will-approved)** *(⛔ evidence retracted at the is
+        AGENTS/CARL/thesis/CHANGELOG.md:141  [−23K]
+           **V16 Employment Structural Rot 3→4 (Will-approved live in-session).** The Jul-2 re-arm (v2.6.1, ARMED with resolver *"July NFP negative OR 
+        AGENTS/CARL/docket/CALENDAR.md:2  [−23K]
+           **Updated:** 2026-09-05 (**Sat catch-up — 1 row FIRED-and-REPLACED, 1 ADDED, 1 RE-DATED.** **FIRED:** the 9/4 NFP row — and it fired AGAINST
+        AGENTS/RED/thesis/CHANGELOG.md:292  [−23K]
+           **⑦ Two buckets deliberately NOT moved, for opposite reasons.** **Policy Rescue held at 2% and flagged as possibly stale** — it rests on ORA
+        AGENTS/RED/thesis/CHANGELOG.md:314  [−23K]
+           **⑤ NFP −23K logged at full weight, deliberately NOT netted.** First negative payroll of the cycle; May/June revised −103K net; 3-mo avg +20
+        AGENTS/RED/research/QCEW_FRAMEWORK_2026-08-28.md:78  [−23K]
+           **G3 — 🔴 INDEPENDENCE, AND THIS IS THE BINDING ONE (ML-133 class).** The **−23K July print**, the **−103K of revisions behind it**, and **th
+        AGENTS/RED/research/QCEW_FRAMEWORK_2026-08-28.md:141  [−23K]
+           **① THE CATCH IS LABOR'S AND IT IS G3 POINTED BACK AT ME.** I wrote G3 this morning — *the −23K, the −103K and this benchmark are not three 
+        AGENTS/DAEDALUS/profiles/LABOR.md:9  [−23K]
+           84 own commits 8/7→9/4 (peaks 8/27 ×19, 8/28 ×18 — the orchestrated QCEW/Warsh/BLS-403 week). **Thesis:** matrix 32→31 (8/23, v11 on MARCO e
+        AGENTS/LABOR/docket/graded/GRADING_CARD_20260904_NFP.md:32  [−23K]
+           1. **Kill A (bull falsification: NFP ≥+200K ×3 consecutive, revised).** Jun **+20K**, Jul **−23K**. ⇒ ⛔ **Kill A CANNOT FIRE on 9/4 at any A
+        AGENTS/LABOR/docket/graded/GRADING_CARD_20260813_claims.md:57  [−23K]
+           - ⛔ **It does not speak to the payroll count.** July printed **−23K with claims at 199K**; the shadow gap is at its cycle-widest. **Another 
+        AGENTS/TERRY/setups/FLOW-TRIGGER_carry-convexity-FXY-call-v2.md:264  [−23K]
+           | **3** | yen-haven re-couple (SAM-31) | ❌ **UNFIRED.** 8/7 is fresh counter-evidence: **VIX 14.97 (−1.2%) with equities rallying** on a −23
+        AGENTS/MARCO/docket/CALENDAR.md:23  [−23K]
+           **🔴 ✅ Aug 8 BLS July NFP (read 8/11)** — **−23K, the first negative print of the cycle**; June revised **+57K → +20K**; **UR 4.1% FELL while
+        FORGE/PREDICTION_DISCIPLINE.md:6  [−23K]
+           - **FROZEN-ON-REVISABLE — the third threshold kind, and the vintage a letter resolves on — RATIFIED Will 2026-09-04 10:04 ET (WQ-175, verbat
+        BOARD/SIG-W-20260813-001-ism-manufacturing-employment-crossed-50-after-33-months-of-contraction-and-the-fleet-has-zero-ism-coverage.md:41  [−23K]
+           **LABOR's STATUS lead currently reads:** *"HIRING INTENTIONS THAWED; THE REALIZED COUNT DID NOT FOLLOW. THE FIRING LAYER IS STILL ASLEEP — T
+        BOARD/SIG-W-20260901-015-labor-graded-jolts-july-and-ism-august-off-pre-committed-letters-zero-bands-fired-both-AGAINST-its-break-thesis-and-jolts-net-minus-18k-travels-only-with-two-discounts.md:16  [−23K]
+           consumer_lens: CARL sits downstream of LABOR (LABOR_DOWNSTREAM chain) and is the desk most likely to cite JOLTS beside the −23K NFP as two c
+        BOARD/SIG-W-20260901-015-labor-graded-jolts-july-and-ism-august-off-pre-committed-letters-zero-bands-fired-both-AGAINST-its-break-thesis-and-jolts-net-minus-18k-travels-only-with-two-discounts.md:47  [−23K]
+           - **(b) JOLTS is ratio-estimated to CES** (LABOR's frozen independence map §2) — so NET is **partly circular with the −23K NFP it looks like
+        BOARD/SIG-W-20260901-015-labor-graded-jolts-july-and-ism-august-off-pre-committed-letters-zero-bands-fired-both-AGAINST-its-break-thesis-and-jolts-net-minus-18k-travels-only-with-two-discounts.md:58  [−23K]
+           - **CARL (action):** before citing JOLTS beside NFP in any consumer-stress read this week, apply the owner's two discounts; treat NET −18K a
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (32)
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-09.md:90  [−23K]  (STATUS_ARCHIVE_2026-09.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           **Total: 53/70 (76%) → 🔴🔴 CRITICAL** *(**v2.6.5 Aug 10, Will-approved: V16 Employment 3→4 EXECUTED — the Jul-2 re-arm resolved on its own le
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-09.md:144  [−23K]  (STATUS_ARCHIVE_2026-09.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           | **NFP July** | **−23K = FIRST NEGATIVE PRINT (cons +83-95K) + −103K prior revisions (May 129→63K −66K, June 57→20K −37K).** V16 re-arm res
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-09.md:482  [−23K]  (STATUS_ARCHIVE_2026-09.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           **NOT comparable to NFP; do NOT net 51.2 against LABOR's −23K** (LABOR's own fence, `SIG-W-20260901-015`). ⚠️SOURCING: **ismworld.org is log
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md:26  [−23K]  (STATUS_ARCHIVE_2026-08.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           Prior 2026-08-20 (**Thu — WILL-DIRECTED DATA SWEEP after a 5-day dark gap. Three dated items resolved, one counter-evidence gap closed, two 
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md:32  [−23K]  (STATUS_ARCHIVE_2026-08.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           Prior **⬆️ +1 ON 8/10: V16 Employment 3→4 EXECUTED** (Will-approved in-session; the Jul-2 re-arm resolved on its own letter — **July NFP −23
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md:38  [−23K]  (STATUS_ARCHIVE_2026-08.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           | **NOW (Aug 20)** | **THREE DATED ITEMS FIRED WHILE I WAS DARK AND ALL THREE RESOLVED AGAINST A CLEAN STORY. ① V5 downgrade watch → NO** (A
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md:173  [−23K]  (STATUS_ARCHIVE_2026-08.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           **🔴 The thing Will needs from me, not the other way round: the registered full-thesis kill rule is one print from firing.** *"Claims <220K s
+        AGENTS/CARL/status_archive/STATUS_ARCHIVE_2026-08.md:185  [−23K]  (STATUS_ARCHIVE_2026-08.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           **Convergence 53/70 (76%) — 🔴🔴 CRITICAL; thesis v2.6.5; V16 3→4 EXECUTED 8/10** (July NFP −23K + −103K revisions, both registered branches, 
+        … +24 more 🟠 hit(s) on [−23K] across 10 file(s) — display capped at 8/needle, count is complete; a bare needle this common certifies nothing — re-run with --unit/--series
+     🟡 in MAIL, point-in-time — usually no action (5: HENRY, MIDAS, RED, WALTER)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (53)  [--show-handled to audit]
+
+  🔴 50 stale consumer reference(s). Send each owner a packet with the refreshed value — do NOT edit their files.
+==================================================================
+

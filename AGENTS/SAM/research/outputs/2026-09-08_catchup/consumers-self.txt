@@ -1,0 +1,27 @@
+
+==================================================================
+  CONSUMER CHECK  ·  who still carries a number you superseded?
+==================================================================
+  SELF mode: 178 files under AGENTS/SAM/ (processed/ + archive/ still excluded — historical by design). Nothing outside your own dir is scanned.
+
+  ── value · superseded −23K → current +21K
+     🔴 STALE ON A LIVE SURFACE — send the owner a packet (5)
+        AGENTS/SAM/NEXUS_BRIEF.md:45  [−23K]
+           **Sep-8 catch-up priorities:** FX driver → contagion → Fed/BOJ surprise scenarios, with energy costs alongside, then JGB flows. `reports/202
+        AGENTS/SAM/docket/KOYOMI_MEMORY.md:182  [−23K]
+           - **Sep 15-16 FOMC route-4 "COLD" characterization** — today's NFP (−23K, −103K net revisions; Sep Fed hike odds 57%→43.9%) may bear on this
+        AGENTS/SAM/thesis/REPENCIL_2026-08-07_PREPRINT.md:130  [−23K]
+           | NFP −23K | **private +30K · government −53K** | **The private sector ADDED jobs.** Local-government education alone was −50K. A government
+        AGENTS/SAM/thesis/V18_CANDIDATE_PILLAR1.md:11  [−23K]
+           **Labor premise revised:** BLS September 4 reports July **+21K**, revised from **−23K**; June **+31K**, revised from +20K; August **+162K**,
+        AGENTS/SAM/thesis/timeline/TIMELINE.md:42  [−23K]
+           - **Aug 7 (AM) — SAM independently corroborates BOJ pricing off the primary instrument.** Sep 17-18 cumulative repriced **39.7% → 45.6%**; d
+     🟠 CANDIDATE — series NOT certified; confirm same series AND unit, then re-run with --unit/--series. NO packet on a 🟠. (1)
+        AGENTS/SAM/STATUS_ARCHIVE.md:159  [−23K]  (STATUS_ARCHIVE.md is a HISTORY/ARCHIVE-class file — a dated RECORD is expected to hold superseded values; verify before treating as stale)
+           **(4) 🟢 US July CPI (8/12) — route 4's binding leg HELD.** Headline +0.1% m/m / **3.4% y/y**, core +0.2% / **2.5% y/y**, in line (CNBC/BLS).
+     🟡 in MAIL, point-in-time — usually no action (1: SAM)
+     🟢 cleared: marker-adjacent / next to new value / frozen file (3)  [--show-handled to audit]
+
+  🔴 5 stale reference(s) on YOUR OWN surfaces. You are the owner: fix them in place this session — no packet, nobody else to tell. Fix by PATTERN, not by the line list above (a line-targeted sweep left a hit on the highest-blast-radius surface three times in one night).
+==================================================================
+

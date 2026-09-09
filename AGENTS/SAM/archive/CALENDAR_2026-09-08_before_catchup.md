@@ -1,6 +1,6 @@
 # SAM CALENDAR
 
-**Last Updated:** 2026-09-08 catch-up. GDP/wages and monthly flows read; CPI date primary-confirmed. Settlement, U.S. funding and post-move CFTC follow-ups below. Full prior calendar preserved in `../archive/CALENDAR_2026-09-08_before_catchup.md`.
+**Last Updated:** 2026-09-08 — Sep-4 JGB discriminator measured: 2Y −2bp, no hawkish confirmation; removed from forward rows. Sep-8 GDP primary read pending. Sep-18 grading is SAM-28/31; SAM-39 already closed. Prior update: 2026-09-04 (**SAM boot, Will-directed** — ✅ **SAM-39 RESOLVED CONFIRMED** on a 3.674y 9/3 intraday range, graded **TRUE-IN-LETTER / FALSE-IN-SPIRIT** (it fired without the discrete official action the row's own text names as the bet). ⛔ **NO MATERIAL MOF-LEG INTERVENTION on 9/2 or 9/3** — BOJ forward settlement projections **+¥320B [9/7]** and **−¥410B [9/4]** vs **−¥8,200B / −¥11,420B** for the 7/30-31 ops; sovereign-blind, so a US-Treasury-only op is NOT excluded. ⚪ **CH-016 terminal true-up done:** 9/3 slope 220.2bp = **−14.3bp vs ±15bp, a 0.7bp miss** — verdict unchanged (leg 2 deterministic), over-determination claim retired. 🔧 **NEW ROW: Mon 9/7 — the 9/4 MOF JGB close**, the open-discriminator test (the 9/3 close caught only the Tokyo half of the yen move, with the 2Y FLAT). Prior: 9/3 row resolved and migrated — 30Y auction 🟠 SOFT (tail 2.1bp > 2.0bp), CH-016 ⚪ NO-VERDICT (iii) UNREACHABLE BY CONSTRUCTION, retirement counter **0 of 2** starting at the 9/29 40Y.)
 
 ---
 
@@ -12,13 +12,10 @@
 
 | Date | Event | What to Check | Threshold / Signal | Who Cares |
 |------|-------|---------------|-------------------|-----------|
-| 🟠 Sep 9–10 JST | BOJ September 9 actuals / September 10 forecast | Fiscal factors and independently timestamped broker baseline | Current forecasts captured; no intervention size from gross drain | SAM |
-| 🟠 Wed Sep 9 ET | EIA September outlook; September 8 SOFR distribution | Recovery assumptions and funding tails | Publish-lag follow-up, no earlier-data substitution | SAM |
-| 🟠 Thu Sep 10 | MOF weekly flows; EIA petroleum noon ET | Subsequent foreign-bond selling and physical products | Sources and periods separate | SAM |
-| 🟠 Mon Sep 14 | Fixed CME proxy near contract expires | Validate replacement pair | Existing monitor stops; no silent roll | SAM |
-| 🟡 Fri Sep 11 | US CPI August, 08:30 ET; CFTC September 8 positions | Inflation; gross longs/shorts/OI | BLS primary date confirmed September 8; first post-rally CFTC release | SAM, HENRY |
+| ⚠️ Pending primary read: Sep 8 | Japan Q2 GDP — 2nd prelim (8:50 JST) | Revision vs the Aug-17 1st prelim | Mechanism input to the next-hike path | SAM |
+| 🟡 Fri Sep 11 | US CPI (August data) | Headline/core | Route-4 inflation leg. ⚠️ **Date confirmed via 2 cross-checked SECONDARY sources only** — BLS primary 403'd 7/31 on both WebFetch and curl+UA. **Re-verify at BLS primary when reachable.** | SAM, HENRY |
 | 🟡 Tue Sep 15 | JGB 20Y auction | BTC, tail | Strike-broadening watch. Also the **BOJ pre-meeting blackout T-2** of the Sep 17-18 MPM. | SAM, LIQUID |
-| 🔴 Wed Sep 16 | FOMC decision September 15–16 | Dots versus June 17 path | Actual walk-back remains the named tripwire. August 7 payroll premise superseded by BLS September 4 revisions; no current Fed probability authenticated. | ALL |
+| 🔴 Wed Sep 16 | **FOMC decision (Sep 15-16) — SEP meeting** | Dot plot; any walk-back of the Jun-17 +40bp dot revision | **Route-4 tripwire** — a dot walk-back is the named Fed-side eligible trigger *inside* the locked window. 🔧 **Route re-rated COLD → LIVE-but-UNFIRED 2026-08-07 (~7-8%/60d)** after the 8/7 NFP weakened the labor blocker. Warsh HIKE regime still intact (3 hawkish dissents 7/29) and **no dot walk-back has occurred — this meeting IS the test.** ⚠️ Note it sits in the **same week** as the Sep 17-18 BOJ MPM: the route that went UP and the route that went DOWN are 2 days apart, both inside the locked window. | ALL |
 | 🟡 Wed Sep 16 | Japan trade balance, August (provisional) | Balance; export vs import legs | Monthly universe class; oil-in-yen Phase-1 read | SAM |
 | 🟠 Fri Sep 18 (8:30 JST) | **Japan National CPI, August** | Core / core-core on the 2025 base | Second National print on the new base; **morning-of input to the same-day BOJ decision** | SAM |
 | 🔴 Fri Sep 18 (~midday JST) | **BOJ MPM day 2 decision** (Sep 17-18; no Outlook Report) | Rate; guidance; vote split (Takada dissented for 1.25% in July) | ⚠️ **MACRO WATCH, not an entry catalyst** (the frame is retired). 🔧 **NO PRICING FIGURE IS RESTATED IN THIS ROW, BY RULE — live pricing lives in `workbook/BOJ_OIS.tsv` and nowhere else.** That number went stale on **four separate surfaces** through 8/10 and repriced a **third** time on 8/12; the fix was **deleting the restatements, not refreshing them**. Sep unpriced is a **BAND**, never a point estimate, and the **Sep/Oct split is NOT cleanly identified** — the blend caveat travels on every citation. ⚠️ **A wire quoting "~75-80% for September" is usually quoting something nearer the OCTOBER cumulative** — verified 8/13. **SIGN unchanged (CH-004):** the route pays on **surprise**, so a higher priced probability **SHRINKS** the edge. | ALL |
@@ -33,7 +30,7 @@
 
 | Date | Event | Why it is registered this far out |
 |------|-------|-----------------------------------|
-| 🟠 **Mon Jan 25 2027** | NBIM/GPFG expert-group report due | JGB weight 4.6% → 7.4% proposed; no mandate decision, implementation date or tenor-specific purchase established. Earlier “nothing lands in 2026” inference withdrawn. ~$18B remains BOND estimate. Primary read complete; report §7. |
+| 🟠 **Mon Jan 25 2027** | 🆕 **NBIM/GPFG bond-index restructure — expert-group report due** (JGB index weight 4.6% → 7.4%; JPY currency share ~5% → ~8%) | **A large, price-INSENSITIVE, phased JGB buyer proposed into the tenors Pillar 2 turns on.** ⛔ **A PROPOSAL, not a flow** — MoF must respond, expert group reports 2027-01-25, then mandate language, then *"gradually."* **Nothing lands in 2026; there is no 2026 trigger.** 🔑 **Registered because it cuts AGAINST the simple "global investors are fleeing sovereign duration" read** — this fund proposes BUYING JGBs while SELLING USTs (index-representativeness, not sovereign credit). Bears on the demand-vacuum thesis and the Meiji ~4.0% floor. Sizing **≈ +$18B is BOND's ESTIMATE** off a derived ~$630B bond index; **the WEIGHTS are the confirmed primary, the dollar figure is not.** Source: NBIM submission 2026-09-01, read at primary by BOND 9/4 (`KB-BND-236`) |
 | 🟠 **~Mon Nov 9 2026** | 🆕 **MOF quarterly FX-intervention per-operation disclosure (Jul-Sep 2026 / Q3)** | **THE JAPANESE-side definitive per-op record of the 7/30-31 ops** — MOF's own `feio/quarter/` release gives the exact date + yen amount of every intervention operation in the window (own-verified this run at `feio/quarter/2026_2Qe.html`, which lists Apr-30/May-4/May-6 by date and yen amount, ¥11,734.9B total — matching STATUS's already-known MOF-monthly-sourced aggregate exactly, closing a PENDING date-pin task open since 2026-06-03). **Cadence measured, not guessed:** Q1(Jan-Mar)→published May-12 (+42d) · Q2(Apr-Jun)→published Aug-7 (+38d, own-verified) ⇒ applying +38-42d to the Sep-30 quarter-end gives **~Nov-7 to Nov-11**; this row uses the midpoint. **Lands within days of the FRBNY row below** — two independent primaries (Japan MOF + US NY-Fed), converging on the same window, for the same op. ⚠️ Estimate, not announced — re-confirm at the `feio/quarter/` index in early Nov. |
 | 🔴 **~Fri Nov 13 2026** | **FRBNY Q3-2026 FX Operations quarterly (Jul-Sep)** | **THE definitive public record of the 7/30-31 US intervention** — Table 1 *"Net Purchases and Sales"* gives the **US-leg SIZE by account**, Table 2 the post-op ESF/SOMA composition, the narrative the currencies sold and whether **warehousing** was used. **Settles the only question left open on the funding file: was the US leg Treasury/ESF-ONLY, or joint ESF+SOMA?** ⚠️ **Capacity is NOT the question** — there is no balance-sheet ceiling at the $5-10B scale (SAM 8/10, `research/outputs/US_INTERVENTION_FUNDING_ESF_SOMA_FIMA.md`). **Participation is.** A SOMA leg above $5B would have required a **full-FOMC direction** (Foreign Authorization ¶3.A; ≤$5B = Subcommittee); the ESF has no such gate. ⚠️ Date is the **cadence estimate**, not announced — re-confirm at the index page in early Nov. |
 
@@ -67,18 +64,30 @@
 
 | Indicator | Threshold | Significance |
 |---|---|---|
-| JGB 30Y | **4.0% = demand FLOOR with a named bid under it** (Meiji Yasuda) — not a clean disorderly trigger | SAM-26 trap / CH-014. Floor confirmed REAL FLOW (7/7 30Y BTC 4.55×, 7/22 40Y BTC 2.83×). **Next: Sep-15 20Y, Sep-29 40Y; rule prospective precision before 40Y.** |
+| JGB 30Y | **4.0% = demand FLOOR with a named bid under it** (Meiji Yasuda) — not a clean disorderly trigger | SAM-26 trap / CH-014. Floor confirmed REAL FLOW (7/7 30Y BTC 4.55×, 7/22 40Y BTC 2.83×). **Next test: the Aug-6 JGB 30Y auction.** |
 | JGB 30Y | **4.5% disorderly** | v1.6.7 J-GAAP statutory-impairment **TAIL** — mid-cap Fukoku/Asahi bifurcation watch; precursor only, not an entry trigger |
 | JGB 10Y | >2.40% = stress crossover | Running well above the threshold |
 | Lifer long-end demand | absence = J-ICS amplifier active | DOMESTIC mechanism; **not** transmitting to foreign-asset selling — that is the whole reason Ch1 retired |
-| MOF ITS weekly | >¥1.5T selling = stress (**stress line UNCHANGED and still live**) | 🔧 **BND-11 RULING 2026-08-07 — the 3-week durable/transient test is SPENT and INCONCLUSIVE, and the single-week form is STOOD DOWN, not re-termed.** It could not have resolved: the registered **≥+¥500B bar sits at 0.49σ** of the weekly series' own dispersion (σ ≈ ¥1.02T, n=26), i.e. **inside noise** — 4 sign flips in the last 8 weeks; the 7/16 DURABLE call rested on a single +¥1.090T week and was overturned by the next two. **Setting fresh single-week terms would repeat the defect.** SAM proposes a **4-week rolling-sum** replacement; **BND-11 is BOND's gate, so BOND ratifies the terms** — routed with the dispersion table. That historical August 7 reading was **+¥33B ≈ FLAT; current weekly data live in STATUS**, which is what the 3-week test was groping toward. *(Class: calibrate a threshold against the instrument's own dispersion before writing its event table.)* |
+| MOF ITS weekly | >¥1.5T selling = stress (**stress line UNCHANGED and still live**) | 🔧 **BND-11 RULING 2026-08-07 — the 3-week durable/transient test is SPENT and INCONCLUSIVE, and the single-week form is STOOD DOWN, not re-termed.** It could not have resolved: the registered **≥+¥500B bar sits at 0.49σ** of the weekly series' own dispersion (σ ≈ ¥1.02T, n=26), i.e. **inside noise** — 4 sign flips in the last 8 weeks; the 7/16 DURABLE call rested on a single +¥1.090T week and was overturned by the next two. **Setting fresh single-week terms would repeat the defect.** SAM proposes a **4-week rolling-sum** replacement; **BND-11 is BOND's gate, so BOND ratifies the terms** — routed with the dispersion table. On the better instrument the honest current reading is **+¥33B ≈ FLAT: no signal either way**, which is what the 3-week test was groping toward. *(Class: calibrate a threshold against the instrument's own dispersion before writing its event table.)* |
 | **Next Ch1 re-test window** | H2 FY2026 plans (Oct-Nov 2026) or FY2026 ESR (May 2027) | Reactivation requires a new shock **plus** the direct foreign-SALES print above |
 
 ---
 
-## ENERGY / RISK-OFF WATCH — September 8 assessment
+## PHASE 2 WATCH (8/2: oil-in-yen **Phase-1 pressure UNWINDING**; Phase-2 risk-off yen-BID still **UNFIRED**)
 
-Oil-in-yen remains a net headwind over the matched September 4/8 window (+1.36%). Direct physical-delivery/freight evidence remains separate. The old MED-HIGH convexity/entry-trigger narrative is retired; original text remains in the pre-catch-up calendar snapshot. SAM-31 is an OPEN prediction, not an entry authorization. VIX 15.72 does not establish a systemic unwind. Forward checks: EIA September 9 outlook; September 10 noon ET weekly petroleum; September 11 CFTC. Report §3–4.
+*Brent round-tripped from the 7/23 high back to the $90 line. Weekend 8/1-8/2: US strikes on Iranian energy sites **ordered then cancelled**; the daily exchange is **PAUSED** (3rd pause of the cycle — the 7/24 one broke in 4 days); **Tehran has not confirmed.** SAM read: a genuine de-escalation unwinds Phase-1 yen pressure = **yen-POSITIVE via the oil channel, NOT the Phase-2 haven bid.***
+
+*Live levels (Brent, USD/JPY, CFTC net) live in `STATUS.md` — this table holds thresholds + significance only.*
+
+| Indicator | Threshold | Significance |
+|---|---|---|
+| Brent | **<$90 = headwind resolved · >$115 = Phase-1 reasserts** | 🟡 **Sitting ON the $90 line** after the round-trip. The "nearing $115" framing is **dead**; $120 (Kharg-scenario shock) is far off. De-escalation headlines are downside risk to the oil leg. Live → STATUS. |
+| Iran / Hormuz | Verification leg of the Jun-17 deal | 🔴 **Verification leg FAILED** — MOU repudiated ~7/13, Hormuz formally closed 7/11-12, tanker strikes 7/22. Now cross-cut by the 8/1-8/2 de-escalation signals above (unconfirmed). Narrative → GEOPOLITICAL WATCH + TIMELINE. |
+| USD/JPY 3-session sub-155 test | hard trigger condition | Not met — **but direction has reversed toward it** for the first time this cycle (was direction-away all July). |
+| **CFTC short positioning** | −75K cover · **−108K = leg-1 invalidation (SAM-29)** · −140K = DE-LOAD line · **−153K/85% = the convexity flip-condition** | 🔴 **FLIP-CONDITION FIRED on the Jul-28 data (graded 8/2)** → amplifier +5pp → **+8-10pp**, convexity-tail MEDIUM → **MED-HIGH**. ⚠️ **PROVISIONAL by construction:** the Jul-28 vintage **predates** both the 7/30 op and the 7/31 hold. **Fri 8/7 (Aug-4 data) is the attribution print AND the pre-registered entry resolver** (terms on the Aug-7 row above). Named reversion paths: SAM-22 (intervention → mass cover) and the 7/10 <12h whipsaw. Live net → STATUS. |
+| **Yen-haven re-couple (SAM-31)** | VIX spike **with** a yen bid | Still **DECOUPLED**. 7/30 is the cleanest counter-evidence yet: yen +2.7% while VIX fell hard — **equity vol never transmitted**, i.e. evidence against an Aug-2024 replay. Re-couple is a registered entry trigger; watch it on the next risk-off event. |
+
+---
 
 ## RETAIL / NISA FLOW MONITOR (added 2026-06-15 — structural counter-flow + latent carry-unwind amplifier; KB-SAM-193 / THESIS § STRUCTURAL COUNTER-FLOW)
 
@@ -86,7 +95,7 @@ Oil-in-yen remains a net headwind over the matched September 4/8 window (+1.36%)
 
 | Indicator | Threshold / Signal | Significance |
 |---|---|---|
-| **MOF monthly investment-trust foreign-equity flow** | First month of net foreign-equity **SELLING** | 🟢 **REGIME-CHANGE TELL** — retail repatriation flips the counter-flow to a tailwind. August net buying +¥1,345.8B (released Sep-8); no retail-repatriation signal from this print. ⚠️ Do NOT misread the aggregate BoP "trust account" line (institutional rebalancing / equity→bond rotation ≠ retail exodus). **Automated monthly integration pending; current source read in catch-up report §6.** |
+| **MoF weekly "investment-trust mgmt cos" foreign-equity flow** | First month of net foreign-equity **SELLING** | 🟢 **REGIME-CHANGE TELL** — retail repatriation flips the counter-flow to a tailwind. None yet thru early 2026. ⚠️ Do NOT misread the aggregate BoP "trust account" line (institutional rebalancing / equity→bond rotation ≠ retail exodus). **boot.py integration pending — see MEMORY infra queue.** |
 | Monthly NISA / Toshin net foreign buying | Run-rate vs ~¥1T/mo; sustained deceleration | 🟢 A sustained slowdown = early softening of the headwind. |
 | USDJPY sensitivity (unhedged book) | Sharp yen appreciation | 🟢 Most potent reversal trigger — FX loss on unhedged foreign holdings = self-reinforcing selling. **The 7/30-31 ~6-yen reversal is the first move of this cycle large enough to be worth checking against.** |
 
@@ -111,8 +120,6 @@ Oil-in-yen remains a net headwind over the matched September 4/8 window (+1.36%)
 ---
 
 ## ✅ RECENTLY RESOLVED (pruned next update)
-
-- **September 8 GDP/wages:** GDP +0.4% q/q / +1.4% annualized; domestic-demand contribution -0.1pp. July scheduled pay +4.1% YoY. Primaries read; report §5. Removed from forward TSV after countdown verified that resolved same-day rows otherwise remain imminent.
 
 | Date | Event | Outcome |
 |---|---|---|

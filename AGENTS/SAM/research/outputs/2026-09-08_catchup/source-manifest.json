@@ -1,0 +1,397 @@
+[
+  {
+    "file": "raw/BAMLC0A0CM.json",
+    "bytes": 660,
+    "sha256": "3a98a65e799c5b5a87f0828e52f360132711e1167210b8d90be6d19bce4c3398",
+    "series": "BAMLC0A0CM",
+    "retrieved_utc": "2026-09-09T01:59:34.432581+00:00",
+    "source": "https://fred.stlouisfed.org/series/BAMLC0A0CM",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/BAMLH0A0HYM2.json",
+    "bytes": 659,
+    "sha256": "8e0a2a8a680337df60e0034d009f37c54f0b921f524cca1265e8d85d71fd9141",
+    "series": "BAMLH0A0HYM2",
+    "retrieved_utc": "2026-09-09T01:59:32.049713+00:00",
+    "source": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/IORB.json",
+    "bytes": 662,
+    "sha256": "f71d171a34962662b42a017c8225d919f3f494b506b26242f9d43747aaa87744",
+    "series": "IORB",
+    "retrieved_utc": "2026-09-09T01:59:35.579888+00:00",
+    "source": "https://fred.stlouisfed.org/series/IORB",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/SOFR.json",
+    "bytes": 662,
+    "sha256": "43d0b32df4fdee6d98ccf9741c35682571cdb1af6f09c5003deda514edb4a097",
+    "series": "SOFR",
+    "retrieved_utc": "2026-09-09T01:59:34.726278+00:00",
+    "source": "https://fred.stlouisfed.org/series/SOFR",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/SOFR99.json",
+    "bytes": 662,
+    "sha256": "6c87077e4f8b78ad17c9b0e45b7c981e45bf0b7a57b49821b0cf289a310dca60",
+    "series": "SOFR99",
+    "retrieved_utc": "2026-09-09T01:59:35.020240+00:00",
+    "source": "https://fred.stlouisfed.org/series/SOFR99",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/audjpy-1d.csv",
+    "bytes": 1715,
+    "sha256": "25f55fa3fa3f6cf679b54b772a9d682386a405420e543b98cf415df49fdbb31d",
+    "symbol": "AUDJPY=X",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.052618+00:00",
+    "rows": 13,
+    "last": "2026-09-09 00:00:00+01:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/audjpy-1h.csv",
+    "bytes": 37061,
+    "sha256": "074dd6d441fd44951c01fc545fad34ff978801566bee6398b2881d8796ba2ed6",
+    "symbol": "AUDJPY=X",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:31.172739+00:00",
+    "rows": 286,
+    "last": "2026-09-08 23:00:00+01:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/boj-jd20260907.xlsx",
+    "bytes": 18578,
+    "sha256": "065a63e0a584dc1a77373573f648f313522dedaa8c6b1b9f71a4437e02dd3f3c",
+    "source": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jd/2026/jd20260907.xlsx",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/boj-jd20260908.xlsx",
+    "bytes": 18572,
+    "sha256": "71fffe38fcd93cbc38cb4ca6f1c7d701c19932213e24431c7f3d4bc7a397c3a0",
+    "source": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jd/2026/jd20260908.xlsx",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/boj-jp20260909.xlsx",
+    "bytes": 18337,
+    "sha256": "cbf9c2ab7f3a6e7dd638e4d5332f7cd363250e5fbb0f343707a87519e83ba67b",
+    "source": "https://www.boj.or.jp/en/statistics/boj/fm/juq/d_release/jp/2026/jp20260909.xlsx",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/brent-nov-1d.csv",
+    "bytes": 1461,
+    "sha256": "c25709cbb58abdfdc0994608c31038ca680ab2ec7438c6059a9600fb2f946e66",
+    "symbol": "BZX26.NYM",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.642493+00:00",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/brent-nov-1h.csv",
+    "bytes": 30744,
+    "sha256": "e68fde74047c6abf9ada318066fd28c419772359e3f6de4aebea0f86d02ee4cb",
+    "symbol": "BZX26.NYM",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:31.757682+00:00",
+    "rows": 245,
+    "last": "2026-09-08 21:00:00-04:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/dxy-1d.csv",
+    "bytes": 1393,
+    "sha256": "0edb0370f2e85bbf9766a0d532a095407e5f06be7fd83b9e3d9da1df2fdf6eaa",
+    "symbol": "DX-Y.NYB",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.269209+00:00",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/eurjpy-1d.csv",
+    "bytes": 1678,
+    "sha256": "d201914a5fbe763b7d33074d36045b450a3f27139802588292c3744c8da7aa80",
+    "symbol": "EURJPY=X",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:30.698602+00:00",
+    "rows": 13,
+    "last": "2026-09-09 00:00:00+01:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/eurjpy-1h.csv",
+    "bytes": 36812,
+    "sha256": "c5b74bc962591956d8f976826138e5e36ee53bf677774c579f71f2e5a0cbf481",
+    "symbol": "EURJPY=X",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:30.789258+00:00",
+    "rows": 286,
+    "last": "2026-09-08 23:00:00+01:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/gbpjpy-1d.csv",
+    "bytes": 1681,
+    "sha256": "bfaca161aac5081a29664074a23e2246e95fe5bba0231494c72968f241412352",
+    "symbol": "GBPJPY=X",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:30.956245+00:00",
+    "rows": 13,
+    "last": "2026-09-09 00:00:00+01:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/gdp.pdf",
+    "bytes": 387714,
+    "sha256": "a18adf851b7f93634b22e1f131d1ec376ad7bac3664237196032600df21019f8",
+    "source": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe262_2/pdf/gaiyou2622_e.pdf",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/hy-oas-failed.html",
+    "bytes": 87182,
+    "sha256": "8fdb20cc33eb304ca54ecb8e8cbc919bc517577ac564726e625dc0dc3264d9e4",
+    "source": "https://fred.stlouisfed.org/graph/?g=1&cosd=2026-08-01&coed=2026-09-08&id=BAMLH0A0HYM2&fq=Daily&fam=avg&fgst=lin&fgsnd=2020-02-01&line_index=1&line_id=BAMLH0A0HYM2&cosd=2026-08-01&coed=2026-09-08&mode=fred&fq=Daily&graph_id=1&file_format=csv",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific",
+    "usable": false,
+    "note": "Failed CSV attempt, HTML; final usable HY data in BAMLH0A0HYM2.json"
+  },
+  {
+    "file": "raw/market-fetch-manifest.json",
+    "bytes": 3576,
+    "sha256": "0d88e367cb8b71f9fa984bffc2e5045fb4f366a1b5a3f1c26f5a4682253720ef",
+    "source": "Local metadata generated during retrieval",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/mof-flows-index.html",
+    "bytes": 22434,
+    "sha256": "f4458b71efb700d76ed2214bec0aff6b1194f66490d63e8bf0d3d3153849da9c",
+    "source": "https://www.mof.go.jp/english/policy/international_policy/reference/itn_transactions_in_securities/index.htm",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/mof-month-equity.csv",
+    "bytes": 95971,
+    "sha256": "65fe8627cd062a7ffa917e7813f356485168b2f2ef85d5e5a5f22e6be3d964f0",
+    "source": "https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/monthb2.csv",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/mof-month-lt.csv",
+    "bytes": 113517,
+    "sha256": "37df1bb85a1e68a0b1f08e36af8744b2c7c7e9a022ede9c08bbd6e6d0de784a3",
+    "source": "https://www.mof.go.jp/policy/international_policy/reference/itn_transactions_in_securities/monthb3.csv",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/mof-month.pdf",
+    "bytes": 146239,
+    "sha256": "82f1d2c17ce7bc5fd78424c911cd9bbaaa5bbd85d4640467e7a283459c4115cf",
+    "source": "https://www.mof.go.jp/english/policy/international_policy/reference/itn_transactions_in_securities/monthEng.pdf",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/mof-reserves-aug.html",
+    "bytes": 33974,
+    "sha256": "133d7a4183890f99b716577f14ed35214c22ff18bf0527ac2940ba91bf730c96",
+    "source": "https://www.mof.go.jp/english/policy/international_policy/reference/official_reserve_assets/e0808.html",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/mof-reserves-jul.html",
+    "bytes": 33947,
+    "sha256": "c6551fe3e85f9a8071dc1b7c557a982360a523433cda58dd4f79e80502a7ed70",
+    "source": "https://www.mof.go.jp/english/policy/international_policy/reference/official_reserve_assets/e0807.html",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/mofcom-dcs.html",
+    "bytes": 32735,
+    "sha256": "2c4a1cb4e3cdf4424acb87b38cd14079b4d92fa1acd77e1ca09c3133fce282b1",
+    "source": "https://cacs.mofcom.gov.cn/cacscms/article/jkdc?articleId=189166&type=11",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/move-1d.csv",
+    "bytes": 1399,
+    "sha256": "ab0902c77797e971c81ba9a6d0f7a200ff0003fb9ba57ff28d14ee967531176c",
+    "symbol": "^MOVE",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.361522+00:00",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/nbim.pdf",
+    "bytes": 945520,
+    "sha256": "b23ee2fff8826647ae30bb87b9268ffaf7f1a0d3a3715bdf8118262764f52a7c",
+    "source": "https://www.nbim.no/contentassets/09b541c3964541649a3906e215ffbf97/analyses-and-assessments-of-the-investment-strategy-for-bonds/",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/spx-1d.csv",
+    "bytes": 1450,
+    "sha256": "58b31d79dcfb9692d19a098c719a923eb32126bb29b88493ef7b27a56ef6bc21",
+    "symbol": "^GSPC",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.456077+00:00",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/spx-1h.csv",
+    "bytes": 9477,
+    "sha256": "b384a1c9c5cc23af8d71352c013b572751d65cfc8668f8856ac958ca44e87b32",
+    "symbol": "^GSPC",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:31.543097+00:00",
+    "rows": 77,
+    "last": "2026-09-08 15:30:00-04:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/totan-cumulative.png",
+    "bytes": 159494,
+    "sha256": "2229130f96a53a330f58a502126b8d5bd9106307fbd0b54991a5011929efdf86",
+    "source": "https://www.tokyotanshi.co.jp/wp-content/uploads/image-1982-1030x673.png",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/totan-daily-a.html",
+    "bytes": 52259,
+    "sha256": "b8a731d1c5a0a186ec30d253840566dbd3977024488a41ede35e46002c32c29c",
+    "source": "https://www.totan.com/market_report/daily_a.html",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/totan-daily-b.html",
+    "bytes": 53489,
+    "sha256": "7e3f3b6fa63e5156c31a9df37d8d229d494aa3efb7993691484a4c5d8b02c91e",
+    "source": "https://www.totan.com/market_report/daily_b.html",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/totan-home.html",
+    "bytes": 61833,
+    "sha256": "799399fd3765961994b2e6757be9b5ed3774dac77924d0e64ddf9926b040d8d8",
+    "source": "https://www.totan.com/",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/totan-ois.png",
+    "bytes": 70022,
+    "sha256": "fd4455cdd691819011aa1010a455c4fabebd5a2b8e7f9a34c418ef8ff488565a",
+    "source": "https://www.tokyotanshi.co.jp/wp-content/uploads/image-1981-1030x320.png",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/totan-pricing.html",
+    "bytes": 55788,
+    "sha256": "cfae187041dc4f3b5da192463ebbda1930e2c9b694c8da79cd1e3129ae073f71",
+    "source": "https://www.totan.com/archives/15647",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/usdjpy-1d.csv",
+    "bytes": 1704,
+    "sha256": "79b45273d1d7015d7efb2780dbfb9e30dba4b499a5f18b1f34143145c4553723",
+    "symbol": "USDJPY=X",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:30.104677+00:00",
+    "rows": 13,
+    "last": "2026-09-09 00:00:00+01:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/usdjpy-1h.csv",
+    "bytes": 36506,
+    "sha256": "ed1fc4c9e344197170d2a73bb784ab792700f80d719c5df85951bfdaa60c7903",
+    "symbol": "USDJPY=X",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:30.591162+00:00",
+    "rows": 284,
+    "last": "2026-09-08 23:00:00+01:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/ust-2026.csv",
+    "bytes": 14042,
+    "sha256": "6c26fbaba604a98dc315575f2e0c19ba9ddcef3fbc8376d3a2a0c45126eef0c4",
+    "source": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/vix.csv",
+    "bytes": 472411,
+    "sha256": "111324adb843ad253de9351a2a80b649a3eba5a5350f0617ea51f38897241607",
+    "source": "https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/wages.pdf",
+    "bytes": 256325,
+    "sha256": "4bff2f4a9d356b35e43f17e7abf0ec504c4875474ee717583637ad279d20516f",
+    "source": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2607p/dl/houdou2607p.pdf",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/xccy-monitor-snapshot.tsv",
+    "bytes": 2506,
+    "sha256": "0dea14c5092efa84503dd9a897e870a5dd4bd89690cda3763d0edafe379229dc",
+    "source": "SAM/scripts/xccy_basis.py live verification; same-commit workbook/XCCY_BASIS.tsv",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/yen-dec-1d.csv",
+    "bytes": 1665,
+    "sha256": "080397941cd193d904620433832729d52077fdbfbcd19bc60d862612e95757e5",
+    "symbol": "6JZ26.CME",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.962789+00:00",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  },
+  {
+    "file": "raw/yen-sep-1d.csv",
+    "bytes": 1683,
+    "sha256": "78c37190cd9cd1c16ad12ba4afabbc6b6a682542a52a019805038fb105e2f902",
+    "symbol": "6JU26.CME",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.865828+00:00",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00",
+    "source": "Yahoo Finance via yfinance",
+    "retrieval_window_utc": "2026-09-09 01:49 to 02:15 UTC; observation dates remain source-specific"
+  }
+]

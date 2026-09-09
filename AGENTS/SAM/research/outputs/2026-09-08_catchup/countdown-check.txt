@@ -1,0 +1,48 @@
+
+======================================================================
+  SAM Catalyst Countdown — 2026-09-08 22:18  (45-day horizon)
+======================================================================
+
+  🔴 IMMINENT (≤5 trading days)
+  ------------------------------------------------------------------
+  🟠    2026-09-09 (Wed)   1d cal /  1d trd  BOJ September 9 actuals; EIA September outlook; September 8 U.S. funding
+       ↳ check: Source-specific publication clocks
+       ↳ signal: Close evidence lags; no size from gross fiscal drain; validate EIA recovery assumption.
+       ↳ send to: SAM
+  🟠    2026-09-10 (Thu)   2d cal /  2d trd  BOJ September 10 forecast; MOF weekly flows; EIA weekly petroleum noon ET
+       ↳ check: Independent broker fiscal baseline; weekly foreign bond and physical flows
+       ↳ signal: Intervention attribution remains OPEN; U.S. petroleum holiday schedule is noon ET.
+       ↳ send to: SAM
+  🟡    2026-09-11 (Fri)   3d cal /  3d trd  US CPI (August data)
+       ↳ check: Headline/core, 8:30 ET
+       ↳ signal: Route-4 inflation leg; date/time primary-confirmed September 8 at BLS September 2026 release calendar.
+       ↳ send to: SAM,HENRY
+  🟠    2026-09-11 (Fri)   3d cal /  3d trd  CFTC positions as of September 8
+       ↳ check: Gross longs, shorts, open interest and cohorts
+       ↳ signal: First post-rally positioning observation; do not infer covering from September 1.
+       ↳ send to: SAM
+  🟠    2026-09-14 (Mon)   6d cal /  4d trd  Fixed CME yen proxy near contract expires
+       ↳ check: Validated next fixed contract pair if monitoring continues
+       ↳ signal: Current monitor stops on expiry; no silent continuous roll.
+       ↳ send to: SAM
+  🟡    2026-09-15 (Tue)   7d cal /  5d trd  JGB 20Y auction
+       ↳ check: BTC ratio, tail
+       ↳ signal: Strike-broadening watch continues. Also BOJ pre-meeting blackout T-2 of the Sep 17-18 MPM
+       ↳ send to: SAM,LIQUID
+
+  📅 UPCOMING (within 45 days)
+  ------------------------------------------------------------------
+  🔴    2026-09-16 (Wed)    8d cal /   6d trd  FOMC decision (Sep 15-16) — SEP meeting
+  🟡    2026-09-16 (Wed)    8d cal /   6d trd  Japan trade balance, August (provisional)
+  🔴    2026-09-18 (Fri)   10d cal /   8d trd  BOJ MPM day 2 decision (Sep 17-18; no Outl...
+  🔴 🔧 2026-09-18 (Fri)   10d cal /   8d trd  SAM-28 / SAM-31 grading at close; retired ...
+  🟠    2026-09-18 (Fri)   10d cal /   8d trd  Japan National CPI, August
+  🟡 🔧 2026-09-18 (Fri)   10d cal /   8d trd  AGENTS/SAM/INFRA_AGENDA.md auto-retirement...
+  🟠    2026-09-29 (Tue)   21d cal /  12d trd  JGB 40Y auction
+  🟡    2026-09-30 (Wed)   22d cal /  13d trd  JGB 2Y auction
+
+  🔴 HIGH PRIORITY in horizon: 3
+     • Wed Sep 16 (8d) — FOMC decision (Sep 15-16) — SEP meeting
+     • Fri Sep 18 (10d) — BOJ MPM day 2 decision (Sep 17-18; no Outlook Report)
+     • Fri Sep 18 (10d) — SAM-28 / SAM-31 grading at close; retired frame has no entry deadline
+

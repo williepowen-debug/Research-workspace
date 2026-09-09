@@ -1,61 +1,65 @@
 # SAM — NEXUS Brief
 
-**As of:** 2026-09-08 evening ET. **STATUS provenance:** same SAM catch-up commit as this brief; source prices retrieved ~21:13 ET. This brief was written after the final STATUS edit. Earlier brief preserved verbatim at `archive/NEXUS_BRIEF_2026-09-04_before_boot.md` (history, not current instructions).
+**As of:** September 8, 2026 catch-up closeout, evening ET. **STATUS provenance:** same commit as this brief; final STATUS SHA256 `7fcd12784650b0f002533edf1c300895db040f79d48221651d1345381a6a56e7`. Written after final STATUS. Observation clocks differ; use the [assessment](reports/2026-09-08_catchup-assessment.md) and its saved sources.
 
 ## VIEW
 
-**v1.7: carry-convexity tail RETIRED/LOW; no successor declared.** Last recorded book FLAT, not newly broker-reconciled. No entry recommendation or trade.
+**v1.7 carry-convexity tail remains RETIRED/LOW; no successor.** Last recorded book FLAT, not newly broker-reconciled. No trade or prediction regrade.
 
-USDJPY has crossed 155. BOJ Sep-8 primary gives 152.90 intraday and 153.80–82 at 17:00 JST; latest pulled Yahoo quote ~153.71. **A crossed level does not establish forced liquidation.** Sep-1 CFTC net shorts grew to 92,227, but that observation predates the Sep-3/8 rally.
+Yen strength has a Japan-specific component: matched September 2/8 hourly endpoints show USDJPY −3.17%, EURJPY −2.85%, AUDJPY −2.48%; all three share a large September 7 hourly decline. Policy repricing and stop/flow explanations remain plausible. Official participation is unresolved. The BOJ's September 8 fiscal forecast miss and September 9 gross drain cannot identify intervention size without an independent broker baseline.
 
-The overdue Sep-4 JGB discriminator is measured: 2Y **1.830%, down 2.0bp**, 30Y down 8.7bp. It does not corroborate the proposed hawkish repricing; the broader FX driver remains OPEN. Sep-8 curve: 30Y 3.961%, 40Y 3.965%, below 4 again. Current US–JP gaps 5Y 2.312pp / 10Y 1.904pp widened beyond both SAM-41 bars.
+**Systemic liquidation is not established.** VIX 15.72 September 8; HY 268bp/IG 81bp September 7; latest SOFR−IORB 0bp and 99th−IORB +8bp September 4. Japan overnight funding also orderly. Offshore basis unavailable; CFTC September 1 predates most of the rally. These lags prevent a blanket no-stress conclusion.
 
-**Recent thesis pivot:** Aug-7 frame retirement still governs; v2.0 candidate killed Aug-20/27. v1.8 remains a candidate requiring a separately registered FX condition, RED review and Will sign-off. SAM-41 historical confirmation does not supply those conditions. Channel 1 remains retired; JGB domestic demand and UST repatriation must not be conflated.
+**Policy surprise is asymmetric.** Totan ICAP September 8 15:15 indicative chart gives a 97% September 25bp-hike equivalent under stated assumptions. Wages strengthened; GDP's upgrade still has weak domestic demand. Current 5Y/10Y US–Japan gaps exceed the candidate bars. The payroll premise is revised in the candidate; no current Fed probability was authenticated.
+
+**Energy remains a headwind:** matched September 4/8 November Brent × USDJPY increased 1.36%. Physical supply, freight and insurance are separate witnesses; no aggregate landed-cost estimate.
 
 ## CALIBRATION
 
-- 16 CONFIRMED / 14 FAILED / 1 special / **3 OPEN: SAM-28, SAM-31, SAM-33**. SAM-39 closed Sep-4: range threshold true, official-action mechanism not established by that detector.
-- No new prediction or probability change. August-7 decomposed estimates ~3/8/13 retain their original vintage; they are not a freshly assessed rolling forecast.
-- Correct CFTC normalization is **49.0% of R=188,077**; boot's 51.2% uses the retired denominator. No rearm at historical −153K.
-- No citable BOJ-September probability; boot parsed no meetings. The xccy proxy remains Aug-27. Current VIX precondition for SAM-31 was not checked. These are explicit data gaps, not no-event findings.
-- Main calibration warning remains threshold versus mechanism. Cash-yield directions can fail a proposed confirmation without identifying the true FX driver.
+- OPEN SAM-28/31 due September 18; SAM-33 through December 31. Historical SAM-39/41 grades unchanged. Old 7/30/60-day probabilities are dated August 7, not fresh rolling forecasts.
+- CFTC normalization remains 49.0% of the corrected 188,077 record. Retired −153K/85% condition rearms nothing.
+- Funding proxy freshness fixed and tested; its futures/bill/assumed-policy residual is not true basis. Current fixed pair stops September 14. Automatic BOJ pricing ingestion remains pending despite the manual source discovery.
+- Main uncertainty is mechanism identification. A gross fiscal drain, reserve-stock decline, sector flow or meeting agenda is not a named transaction.
 
 ## CROSS-DOMAIN
 
-**SENDING — available here for in-place consumption; no new peer message sent:**
+**SENDING — in-place findings only; no new peer messages sent:**
 
-| To | Finding | Priority | Recipient implication |
+| Consumers | Finding | Implication |
+|---|---|---|
+| LIQUID / BOND | August reserve securities −$87.773B; deposits −$6.868B | Securities-funding hypothesis stronger; valuation/FX/window differences prevent identifying UST sales. Cash capacity alone does not explain the funding. |
+| LIQUID / HENRY | Available funding/credit/volatility do not establish a cascade | Recheck September 8 U.S. funding and September 8 CFTC when published; don't cite September 1 as covering evidence. |
+| BOND | August insurers foreign LT −¥137.3B, trust accounts +¥2.3326T | Mixed sponsorship, not proven institution-specific UST liquidation. Trust accounts ≠ GPIF/pensions. |
+| BOND / NEXUS | Norway proposal confirmed; timing/tenor claims narrowed | No approved flow or specific superlong bid. “Nothing lands in 2026” was an unsupported sequencing inference and is withdrawn. |
+| BRENT / NEXUS | Yen cushions oil but matched yen-oil proxy still +1.36% | Quantity loss and freight/insurance remain separate; no double-counting price structure. |
+| ZHAO / NEXUS | China provisional DCS deposits primary-verified | Product-specific exposure; neither a general chip ban nor a quantified global production loss. |
+
+**WAITING FOR — source dependencies, no new requests issued:**
+
+| Source | Input | Timing | Decision effect |
 |---|---|---|---|
-| LIQUID / HENRY | 155 crossed; pre-move CFTC shorts rebuilt, post-move covering unmeasured | Elevated | Watch transmission; neither systemic carry liquidation nor an entry gate is confirmed. |
-| BOND | Sep-4 front fell; Sep-8 super-long below 4 again | Monitoring | Do not explain the full yen rally with hawkish front-end repricing from these observations. Domestic auction demand is distinct from foreign-bond selling. |
-| All consumers | Prior Sep-2/3 settlement evidence cannot exclude Sep-7/8 intervention | Elevated | Current intervention attribution OPEN; no fresh broker-gap comparison. A BOJ-only instrument also cannot exclude US-only action. |
+| BOJ / independently dated money broker | September 9 actuals, September 10 projection and pre-BOJ fiscal expectation | September 9–10 JST | Narrow intervention attribution; gross drain alone is insufficient. |
+| NY Fed / ICE / CFTC | September 8 funding/credit and positions | Next publication / September 11 CFTC | Close the post-rally measurement lag. |
+| EIA / Japanese trade sources | Outlook, petroleum balance, August trade | September 9/10/16 | Test physical recovery and import-cost consequences. |
+| GPIF / Norway MOF | Approved allocation and implementation details | Publication-dependent | Separate proposals from actual flows. |
+| MOF / FRBNY | Q3 transaction disclosures | Estimated November cadence | Separate Japanese operation detail from U.S. account participation. |
 
-**WAITING FOR — standing dependencies, no new requests issued:**
-
-| From | Input | Expected by | Why it matters | Effect |
-|---|---|---|---|---|
-| SAM primary sources | Fresh settlement/Tanshi comparison, valid BOJ pricing, post-move positioning | Next mechanism pass | Identify the Sep-3/8 FX move | Could distinguish policy repricing, covering and official action; none yet established. |
-| SAM / HENRY existing research | Dated cross-pair and genuine VIX-spike episode | Sep-18 grading horizon | SAM-31 precondition | Grade the original prediction; never revive retired conviction automatically. |
-| BROCK / HANS existing research | US-credit cascade evidence, if any | Open | Fed-side route context | A policy walk-back needs direct evidence; no old payroll premise adopted here. |
-
-**Cross-agent tensions:** peer short-covering attribution lacks a post-move CFTC observation; the cash front-end test does not corroborate hawkish repricing. WALTER 012's measured FX leg independently verified. WALTER 021 noted as peer-sourced trade-policy context only. Legacy payroll-premise correction and confidence-audit packets remain pending under normal-boot mail scope.
+**Cross-agent tensions:** Read BRENT's current limitations, not its older numeric snapshots. LIQUID's brief retains older vintages; this assessment independently refreshed selected funding series. Broad payroll consumer-scan matches include dated records and correction notices; they are not adjudicated forecast errors. No peer files changed.
 
 ## NEXT DECISION POINT
 
-**Sep-8 catch-up priorities:** FX driver → contagion → Fed/BOJ surprise scenarios, with energy costs alongside, then JGB flows. `reports/2026-09-08_catchup-priorities.md`. BLS primary confirms July +21K (revised from −23K), August +162K and current net revisions +55K; candidate labor-premise repair remains pending. No route re-mark.
+September 9–10 publication checks, then September 11 CPI and first post-rally CFTC. The full approved research pass is complete through available evidence; unresolved measurements are named in the report. No automatic thesis promotion from a priced BOJ hike.
 
-No entry decision. Complete the outstanding FX-mechanism evidence, then grade SAM-28/31 on their frozen terms. Sep-8 GDP revision still needs its primary read. The 40Y tail precision issue must be ruled before Sep-29; INFRA_AGENDA per-item disposition remains due around Sep-18.
-
-## FORWARD CATALYSTS (next 2–6 weeks)
+## FORWARD CATALYSTS
 
 | Date | Event | Check |
 |---|---|---|
-| Sep-11 | US CPI, carried docket date | Primary calendar verification still owed before use. |
-| Sep-15 | JGB 20Y auction | Internals and demand breadth. |
-| Sep-16 | FOMC / Japan trade balance | Registered Fed-route test; oil-in-yen monthly input. |
-| Sep-17/18 | BOJ MPM / National CPI | Macro watch; no citable BOJ-pricing number. |
-| Sep-18 close | SAM-28 / SAM-31 | Grade after BOJ decision; SAM-39 already closed. |
-| Around Sep-18 | INFRA_AGENDA | Per-item disposition. |
-| Sep-29 / Sep-30 | 40Y / 2Y auctions | Frozen internals; tail precision ruled before the 40Y window. |
+| September 9–10 | Settlement / EIA / U.S. funding / MOF weekly | Independent baseline and source clocks. |
+| September 11 | U.S. CPI 08:30 ET, primary-confirmed; CFTC | Inflation and gross positioning. |
+| Before September 14 | Fixed futures pair expiry | Validate successor measurement; no silent roll. |
+| September 15–16 | 20Y auction / FOMC / Japan trade | Demand internals; actual dots; import costs. |
+| September 17–18 | BOJ / National CPI / SAM-28 and SAM-31 | Original prediction conditions; no early grade. |
+| Around September 18 | INFRA_AGENDA | Separate administrative disposition still owed. |
+| September 29–30 | 40Y / 2Y auctions | Prospective precision ruling before 40Y. |
 
-Sources and full limitations: `reports/2026-09-08_boot.md`; raw boot receipt alongside. Dates carried from `docket/CALENDAR.md`; verify at primary sources before event grading. Git sync deferred under the dirty-peer rule; SAM-only local commit pending normal shared-repo sync.
+Full source links and limits: [assessment](reports/2026-09-08_catchup-assessment.md). Shared pull/push deferred while peer work is dirty; commit only SAM paths. Schema sections follow `AGENTS/NEXUS/templates/NEXUS_BRIEF_SCHEMA.md` §4.1.

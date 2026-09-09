@@ -1,0 +1,63 @@
+{
+  "usdjpy": {
+    "sep2_22utc": 158.78900146484375,
+    "sep8_22utc": 153.7480010986328,
+    "return_pct": -3.1746533574159574,
+    "largest_hourly_fall_bar_utc": "2026-09-07 08:00:00+00:00",
+    "largest_hourly_fall_pct": -0.7001263129146396
+  },
+  "eurjpy": {
+    "sep2_22utc": 183.9770050048828,
+    "sep8_22utc": 178.73399353027344,
+    "return_pct": -2.849818907786994,
+    "largest_hourly_fall_bar_utc": "2026-09-07 08:00:00+00:00",
+    "largest_hourly_fall_pct": -0.7229099912244297
+  },
+  "audjpy": {
+    "sep2_22utc": 113.79499816894533,
+    "sep8_22utc": 110.9729995727539,
+    "return_pct": -2.47989686857919,
+    "largest_hourly_fall_bar_utc": "2026-09-07 08:00:00+00:00",
+    "largest_hourly_fall_pct": -0.7521751992647818
+  },
+  "energy": {
+    "bar_start_utc": [
+      "2026-09-04 19:00Z",
+      "2026-09-08 19:00Z"
+    ],
+    "brent_Nov_USD": [
+      96.08999633789062,
+      98.81999969482422
+    ],
+    "USDJPY": [
+      156.2310028076172,
+      153.9810028076172
+    ],
+    "JPY_per_barrel_proxy": [
+      15012.236487648915,
+      15216.402650457458
+    ],
+    "oil_return_pct": 2.84109008323179,
+    "fx_return_pct": -1.4401750994139428,
+    "yen_oil_return_pct": 1.3599983118872228,
+    "break_even_USDJPY": 151.9149618904036
+  },
+  "mof-month-lt.csv_net_billion_yen": {
+    "all": -143.0,
+    "banks_banking": -1314.9,
+    "trust_banks_banking": -364.4,
+    "banks_trust_accounts": 2332.6,
+    "financial_instruments_firms": -413.4,
+    "life_insurers": -137.3,
+    "investment_trusts": -30.1
+  },
+  "mof-month-equity.csv_net_billion_yen": {
+    "all": 1298.3,
+    "banks_banking": -524.2,
+    "trust_banks_banking": -178.6,
+    "banks_trust_accounts": 567.1,
+    "financial_instruments_firms": -117.0,
+    "life_insurers": 24.9,
+    "investment_trusts": 1345.8
+  }
+}

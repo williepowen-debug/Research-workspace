@@ -4,6 +4,18 @@
 **Current live thesis:** `THESIS.md` **v1.7** — carry-convexity tail **RETIRED to LOW**, **no successor declared**.
 **This document does not change that**, and must not be cited as if it had.
 
+## Current assessment — September 8, 2026
+
+**CANDIDATE ONLY.** SAM-41 was historically confirmed (August 19 completion, August 27 adjudication); current September 8 gaps are 5Y **2.312pp** and 10Y **1.904pp**, above both bars. Historical confirmation is not a current regime or promotion. A separately registered FX co-condition, RED review and Will sign-off are still required.
+
+**Labor premise revised:** BLS September 4 reports July **+21K**, revised from **−23K**; June **+31K**, revised from +20K; August **+162K**, unemployment **4.1%**. Current June/July net revisions **+55K**. The earlier −103K revision total belongs to a different release window. The original July print was revised, not retracted. This weakens the old weak-labor support for Fed easing; an actual dot walk-back is still unobserved. [BLS](https://www.bls.gov/news.release/archives/empsit_09042026.htm).
+
+**BOJ pricing:** Totan ICAP September 8 15:15 chart supplies an indicative **97%** September 25bp-hike equivalent under its stated assumptions; the older percentages below are historical. Current Treasury 5Y/10Y legs were verified at primary; source timing remains asynchronous. [Full current assessment](../reports/2026-09-08_catchup-assessment.md).
+
+**Reading rule:** Sections 1–8 below retain the August 7 argument, numerical vintages and original conditions. Their “today”, “zero progress”, weak-labor and probability language is historical, superseded for current use by this rider. Prediction conditions and resolved grades have not been rewritten.
+
+---
+
 > ## ⛔ READ THIS BEFORE USING ANYTHING BELOW
 >
 > This file exists because Will asked the question directly and the analysis was worth preserving — **not because
@@ -14,7 +26,7 @@
 > - **Nothing in this file is an entry trigger.** There is no vehicle, no size, no stop, no gate.
 > - **It is promoted to v1.8 only by a separate, deliberate session** that (a) grades the bar in § THE BAR
 >   against fresh data, (b) survives a RED adversarial pass, and (c) gets Will's explicit sign-off.
-> - **Current verdict, stated up front so nobody reads the mechanism and skips the measurement:**
+> - **Historical August 7 verdict (current assessment is above):**
 >   **PROMISING MECHANISM, ZERO ACHIEVED PROGRESS.**
 
 ---
@@ -71,8 +83,7 @@ own MOF primary (`workbook/JGB_YIELDS.tsv`).**
 2. **🟢 The BOJ move is a PULL-FORWARD, not a re-rating.** Own TFX 3m-TONA primary derivation (8/7): the curve
    shift is concentrated in **26.09 / 26.12 / 27.03 and dies past 27.06**, terminal unchanged. **Same
    destination, sooner** — which compresses the *near* differential, exactly the segment that prices carry.
-3. **🟢 The US labour blocker weakened.** THESIS wrote route 4 as blocked on *"labor/inflation too firm."* NFP
-   **−23K** with **−103K** net revisions; AHE decelerating to **+3.2%**.
+3. **SUPERSEDED September 8 — historical August 7 labor argument.** The original −23K July payroll print and earlier −103K revision window supported the then-current weak-labor case. July is now +21K; current June/July revisions +55K. Use the dated rider above; retain the old print only as as-published history.
 4. **🟢🟢 STRUCTURAL, AND THE STRONGEST POINT: Pillar 1 does not need a crowd.** It is a valuation-and-flow
    argument, not a positioning one. **The exact thing that killed the convexity frame — the crowd leaving — does
    no damage to this one at all.** That independence is the main reason this candidate outranks the other one.

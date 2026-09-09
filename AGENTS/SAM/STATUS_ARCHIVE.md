@@ -262,3 +262,18 @@
 **⑥ 📊 NO THESIS MOVE — v1.7 stands, no successor. No threshold set or moved. Book FLAT.** Rotation held (9/3 block → archive before this was written) **plus** a second hot/cold split (CONFIRMATION LADDER), STATUS 50,981 B → under cap. ⛔ **The archived 9/3 block keeps its sign-inverted Fed phrase VERBATIM — it is the audit record of what was believed that day, and the THESIS 8/17 standing-correction precedent is explicit that rewriting history to fix a label is the wrong repair. The LIVE row was corrected in place, which is the other half of that precedent.**
 
 ---
+
+
+## 2026-09-08 — SAM boot: yen below 155; JGB discriminator resolved
+
+**Catch-up agenda:** `reports/2026-09-08_catchup-priorities.md` — FX cause, contagion, policy, oil, JGB flows. BLS revision verified; candidate labor-leg repair pending.
+
+**Measured:** BOJ Sep-8 intraday low **152.90**, 17:00 JST **153.80–82**; current pulled FX ~153.71. **155 watch level crossed; this alone does not prove forced carry liquidation.** No entry gate rearmed.
+
+**Overdue discriminator:** MOF Sep-4 2Y **1.830% vs 1.850% Sep-3 (−2.0bp)**; 30Y **3.965% (−8.7bp)**. The front fell rather than repricing hawkishly. This does not rescue that explanation of the Sep-3 yen move; broader attribution remains **OPEN**, not disproved by a single cash-yield leg. Sep-2/3 settlement evidence does not exclude Sep-7/8 intervention; fresh settlement/Tanshi work remains pending.
+
+**State:** v1.7 RETIRED/LOW; no successor, no probability re-mark, no trade. Three OPEN predictions remain SAM-28/31/33; SAM-39 already closed. Sep-1 CFTC is pre-move fuel, not a Sep-3/8 covering observation. Report and source clocks: `reports/2026-09-08_boot.md`.
+
+**Boot quality:** 14/14 process exits OK after network rerun, but no citable BOJ pricing; xccy proxy ends Aug-27. Two WALTER signals consumed; legacy mail retained for dedicated processing. Shared pull/push deferred while peers have dirty work; changes local to SAM.
+
+---

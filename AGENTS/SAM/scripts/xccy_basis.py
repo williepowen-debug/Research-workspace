@@ -16,16 +16,18 @@ proven (MOF's JGB curve starts at 1Y; JBA TIBOR and FRED are both unreachable fr
     chosen over spot-vs-front precisely to avoid [[finding_continuous_front_ticker_rolls_so_deltas_lie]]);
   * the USD leg is the Treasury 3m par yield (a BILL yield, not OIS -- a real substitution);
   * the JPY leg is an ASSUMPTION (BOJ policy rate), not a measurement.
+The access failures above describe the initial Aug-27 build, not permanent source availability.
 ⇒ The LEVEL printed here carries the JPY-leg assumption and the bill-vs-OIS substitution and
   is worth AT BEST an order of magnitude. Do not quote it as "the basis".
-⇒ The CHANGES are the usable part: a wrong-but-CONSTANT JPY assumption cancels in first
-  differences, which is why this file reports d(residual) and grades on it.
+⇒ The CHANGES are diagnostic only: a CONSTANT assumed JPY rate cancels in first
+  differences, but actual JPY policy-path changes, bill/OIS spreads and futures pricing
+  still contaminate the residual. Its descriptive grades are not funding-stress verdicts.
 ⇒ If it cannot discriminate the test dates, SAY SO rather than dress it up. That is the whole
   reason the instrument exists.
 """
 import sys, csv, urllib.request, warnings
 from pathlib import Path
-from datetime import datetime, date
+from datetime import datetime, date, timedelta, timezone
 warnings.filterwarnings("ignore")
 
 SAM = Path(__file__).resolve().parent.parent
@@ -41,6 +43,17 @@ LEG_DAYS = (FAR_EXP - NEAR_EXP).days
 BOJ_POLICY = 1.00      # ASSUMPTION for the JPY leg -- not a measurement
 TEST_DATES = ["2026-08-07", "2026-08-19"]      # RED's two named days
 
+def snapshot_error(dates, as_of):
+    """Reject expired instruments and stale/empty intersections before overwriting evidence."""
+    if as_of >= NEAR_EXP:
+        return "fixed near contract expired; select and validate a new pair before use"
+    if len(dates) < 2:
+        return "fewer than two matched observations"
+    last = date.fromisoformat(max(dates))
+    if last > as_of or (as_of - last).days > 4:
+        return f"matched observation {last} is future-dated or over four calendar days old"
+    return None
+
 def ust_3m(years):
     out = {}
     for yr in years:
@@ -55,9 +68,15 @@ def ust_3m(years):
 
 def main():
     import yfinance as yf
+    as_of = datetime.now(timezone.utc).date()
+    if as_of >= NEAR_EXP:
+        print("  🔴 Fixed near contract expired — NO VERDICT; existing history preserved")
+        return 1
     px = {}
     for sym in (NEAR, FAR):
-        h = yf.Ticker(sym).history(start="2026-07-01", end="2026-08-28")
+        # Yahoo end is exclusive. Never leave a fixed historical cutoff in a live monitor.
+        h = yf.Ticker(sym).history(start="2026-07-01", end=(as_of + timedelta(days=1)).isoformat())
+        h = h.dropna(subset=["Close"])
         if h.empty:
             print(f"  🔴 {sym} returned NO DATA — NO VERDICT (never substitute the continuous front)"); return 1
         px[sym] = {d.strftime("%Y-%m-%d"): float(c) for d, c in zip(h.index, h["Close"])}
@@ -67,6 +86,10 @@ def main():
         print(f"  🔴 US leg fetch FAILED ({type(e).__name__}) — NO VERDICT"); return 1
 
     dates = sorted(set(px[NEAR]) & set(px[FAR]) & set(us))
+    error = snapshot_error(dates, as_of)
+    if error:
+        print(f"  🔴 {error} — NO VERDICT; existing history preserved")
+        return 1
     rows = []
     for d in dates:
         n, f = px[NEAR][d], px[FAR][d]

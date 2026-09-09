@@ -1,0 +1,147 @@
+[
+  {
+    "symbol": "USDJPY=X",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:30.104677+00:00",
+    "file": "usdjpy-1d.csv",
+    "rows": 13,
+    "last": "2026-09-09 00:00:00+01:00"
+  },
+  {
+    "symbol": "USDJPY=X",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:30.591162+00:00",
+    "file": "usdjpy-1h.csv",
+    "rows": 284,
+    "last": "2026-09-08 23:00:00+01:00"
+  },
+  {
+    "symbol": "EURJPY=X",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:30.698602+00:00",
+    "file": "eurjpy-1d.csv",
+    "rows": 13,
+    "last": "2026-09-09 00:00:00+01:00"
+  },
+  {
+    "symbol": "EURJPY=X",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:30.789258+00:00",
+    "file": "eurjpy-1h.csv",
+    "rows": 286,
+    "last": "2026-09-08 23:00:00+01:00"
+  },
+  {
+    "symbol": "GBPJPY=X",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:30.956245+00:00",
+    "file": "gbpjpy-1d.csv",
+    "rows": 13,
+    "last": "2026-09-09 00:00:00+01:00"
+  },
+  {
+    "symbol": "AUDJPY=X",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.052618+00:00",
+    "file": "audjpy-1d.csv",
+    "rows": 13,
+    "last": "2026-09-09 00:00:00+01:00"
+  },
+  {
+    "symbol": "AUDJPY=X",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:31.172739+00:00",
+    "file": "audjpy-1h.csv",
+    "rows": 286,
+    "last": "2026-09-08 23:00:00+01:00"
+  },
+  {
+    "symbol": "DX-Y.NYB",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.269209+00:00",
+    "file": "dxy-1d.csv",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00"
+  },
+  {
+    "symbol": "^MOVE",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.361522+00:00",
+    "file": "move-1d.csv",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00"
+  },
+  {
+    "symbol": "^GSPC",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.456077+00:00",
+    "file": "spx-1d.csv",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00"
+  },
+  {
+    "symbol": "^GSPC",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:31.543097+00:00",
+    "file": "spx-1h.csv",
+    "rows": 77,
+    "last": "2026-09-08 15:30:00-04:00"
+  },
+  {
+    "symbol": "BZX26.NYM",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.642493+00:00",
+    "file": "brent-nov-1d.csv",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00"
+  },
+  {
+    "symbol": "BZX26.NYM",
+    "interval": "1h",
+    "retrieved_utc": "2026-09-09T01:59:31.757682+00:00",
+    "file": "brent-nov-1h.csv",
+    "rows": 245,
+    "last": "2026-09-08 21:00:00-04:00"
+  },
+  {
+    "symbol": "6JU26.CME",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.865828+00:00",
+    "file": "yen-sep-1d.csv",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00"
+  },
+  {
+    "symbol": "6JZ26.CME",
+    "interval": "1d",
+    "retrieved_utc": "2026-09-09T01:59:31.962789+00:00",
+    "file": "yen-dec-1d.csv",
+    "rows": 11,
+    "last": "2026-09-08 00:00:00-04:00"
+  },
+  {
+    "series": "BAMLH0A0HYM2",
+    "retrieved_utc": "2026-09-09T01:59:32.049713+00:00",
+    "file": "BAMLH0A0HYM2.json"
+  },
+  {
+    "series": "BAMLC0A0CM",
+    "retrieved_utc": "2026-09-09T01:59:34.432581+00:00",
+    "file": "BAMLC0A0CM.json"
+  },
+  {
+    "series": "SOFR",
+    "retrieved_utc": "2026-09-09T01:59:34.726278+00:00",
+    "file": "SOFR.json"
+  },
+  {
+    "series": "SOFR99",
+    "retrieved_utc": "2026-09-09T01:59:35.020240+00:00",
+    "file": "SOFR99.json"
+  },
+  {
+    "series": "IORB",
+    "retrieved_utc": "2026-09-09T01:59:35.579888+00:00",
+    "file": "IORB.json"
+  }
+]
