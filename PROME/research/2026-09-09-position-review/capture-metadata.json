@@ -1,0 +1,8 @@
+{
+  "source": "Yahoo via FORGE/tools/market-data/fetch.py",
+  "command": "python3 FORGE/tools/market-data/fetch.py price AAPL GLD USO TBT TLT APD QQQ HBAN KRE WAL APO --history 3 --json",
+  "capture_file_modified_utc": "2026-09-09T14:10:34.890744+00:00",
+  "per_quote_timestamp": "UNKNOWN; wrapper retains dates only",
+  "basis": "September 9 close fields are partial-session values, NOT official closes. Historical wrapper uses yfinance default adjustment. September 8 is the completed session.",
+  "option_quote_status": "Not refreshed; earlier public chain failed quote validation. Screenshot marks are dated to supplied image, not executable."
+}

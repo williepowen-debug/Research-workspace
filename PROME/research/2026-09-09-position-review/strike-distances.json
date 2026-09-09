@@ -1,0 +1,58 @@
+[
+  {
+    "symbol": "QQQ",
+    "expiry": "2026-09-10",
+    "put_strike": 715,
+    "partial_session_underlying": 719.13,
+    "pct_change_to_strike": -0.5743050630623081
+  },
+  {
+    "symbol": "TLT",
+    "expiry": "2026-09-30",
+    "put_strike": 77,
+    "partial_session_underlying": 82.21,
+    "pct_change_to_strike": -6.337428536674361
+  },
+  {
+    "symbol": "TLT",
+    "expiry": "2026-10-16",
+    "put_strike": 82,
+    "partial_session_underlying": 82.21,
+    "pct_change_to_strike": -0.2554433767181563
+  },
+  {
+    "symbol": "HBAN",
+    "expiry": "2026-10-16",
+    "put_strike": 16,
+    "partial_session_underlying": 16.7,
+    "pct_change_to_strike": -4.191616766467066
+  },
+  {
+    "symbol": "KRE",
+    "expiry": "2026-12-18",
+    "put_strike": 60,
+    "partial_session_underlying": 73.71,
+    "pct_change_to_strike": -18.599918599918595
+  },
+  {
+    "symbol": "WAL",
+    "expiry": "2026-09-18",
+    "put_strike": 67.5,
+    "partial_session_underlying": 79.03,
+    "pct_change_to_strike": -14.58939643173478
+  },
+  {
+    "symbol": "WAL",
+    "expiry": "2026-09-18",
+    "put_strike": 70,
+    "partial_session_underlying": 79.03,
+    "pct_change_to_strike": -11.42604074402126
+  },
+  {
+    "symbol": "APO",
+    "expiry": "2026-12-18",
+    "put_strike": 95,
+    "partial_session_underlying": 129.7,
+    "pct_change_to_strike": -26.75404780262143
+  }
+]

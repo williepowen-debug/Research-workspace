@@ -1,0 +1,75 @@
+{
+  "basis": "Supplied positions screenshot; capture timestamp/account header not visible. Values are displayed marks, not executable quotes.",
+  "cash": "17489.02",
+  "account_total": "38510.00",
+  "invested_value": "21020.98",
+  "groups": {
+    "Cash": {
+      "value": "17489.02",
+      "basis": "17489.02",
+      "gain": "0",
+      "weight_pct": "45.41423007011165930927031940"
+    },
+    "Apple": {
+      "value": "4739.17",
+      "basis": "354.67",
+      "gain": "4384.50",
+      "weight_pct": "12.30633601661905998441963126"
+    },
+    "Energy": {
+      "value": "7563.21",
+      "basis": "5690.28",
+      "gain": "1872.93",
+      "weight_pct": "19.63960010386912490262269540"
+    },
+    "Gold": {
+      "value": "6484.16",
+      "basis": "5977.50",
+      "gain": "506.66",
+      "weight_pct": "16.83760062321474941573617242"
+    },
+    "Short Treasuries": {
+      "value": "1100.38",
+      "basis": "1360.92",
+      "gain": "-260.54",
+      "weight_pct": "2.857387691508699039210594651"
+    },
+    "APD": {
+      "value": "592.06",
+      "basis": "589.57",
+      "gain": "2.49",
+      "weight_pct": "1.537418852246169826019215788"
+    },
+    "QQQ tactical": {
+      "value": "240.00",
+      "basis": "254.66",
+      "gain": "-14.66",
+      "weight_pct": "0.6232147494157361724227473384"
+    },
+    "Credit and banks": {
+      "value": "302.00",
+      "basis": "4740.06",
+      "gain": "-4438.06",
+      "weight_pct": "0.7842118930148013502986237341"
+    }
+  },
+  "options_value": "3172.00",
+  "options_basis": "7036.83",
+  "options_gain": "-3864.83",
+  "options_value_pct": "8.236821604777979745520643989",
+  "options_by_sep30_value": "997.00",
+  "options_by_sep30_contracts": "33",
+  "remaining_sep_value_after_three_hypothetical_sales": "92.00",
+  "hypothetical_cash_after_XLE_TLT85_QQQ_sold_at_image_marks": "18394.02",
+  "hypothetical_cash_weight_pct": "47.76426902103349779278109582",
+  "energy_gold_apple_pct_invested": "89.37042897143710711869760592",
+  "day_energy_gain": "347.10",
+  "share_only_stress_10pct_down": {
+    "AAPL": "-473.9170",
+    "GLD": "-648.4160",
+    "USO": "-549.9210"
+  },
+  "uso_call_intrinsic_at_image_underlying": "13.6275",
+  "uso_call_extrinsic_at_image_underlying": "3.1725",
+  "verification": "PASS: all displayed row P/L, price x quantity within one cent, total, aggregate open P/L and daily P/L reconcile."
+}

@@ -1,0 +1,19 @@
+position,symbol,type,expiry,strike,quantity,display_price,value,basis,open_gain,daily_gain,group
+AAPL shares,AAPL,shares,,,15,315.945,4739.17,354.67,4384.50,-4.13,Apple
+USO shares,USO,shares,,,37,148.6275,5499.21,4524.27,974.94,96.10,Energy
+USO 135 call,USO,call,2026-10-16,135,1,16.80,1680.00,710.66,969.34,165.00,Energy
+GLD shares,GLD,shares,,,16,405.26,6484.16,5977.50,506.66,88.64,Gold
+TBT shares,TBT,shares,,,14,38.17,534.38,484.82,49.56,-0.14,Short Treasuries
+TLT 85 put,TLT,put,2026-09-30,85,1,2.81,281.00,251.67,29.33,-2.00,Short Treasuries
+APD shares,APD,shares,,,2,296.03,592.06,589.57,2.49,-3.36,APD
+QQQ 715 put,QQQ,put,2026-09-10,715,1,2.40,240.00,254.66,-14.66,-16.00,QQQ tactical
+XLE 65 call,XLE,call,2026-09-30,65,2,1.92,384.00,455.35,-71.35,86.00,Energy
+TLT 82 put,TLT,put,2026-10-16,82,2,1.05,210.00,335.35,-125.35,2.00,Short Treasuries
+HBAN 16 put,HBAN,put,2026-10-16,16,2,0.20,40.00,191.34,-151.34,-8.00,Credit and banks
+TLT 77 put,TLT,put,2026-09-30,77,25,0.03,75.00,289.08,-214.08,0.00,Short Treasuries
+KRE December 60 put lot 2,KRE,put,2026-12-18,60,2,0.35,70.00,513.34,-443.34,-22.00,Credit and banks
+KRE September 60 put,KRE,put,2026-09-30,60,2,0.01,2.00,453.35,-451.35,0.00,Credit and banks
+WAL 67.5 put,WAL,put,2026-09-18,67.5,1,0.10,10.00,750.67,-740.67,0.00,Credit and banks
+WAL 70 put,WAL,put,2026-09-18,70,1,0.05,5.00,768.67,-763.67,-5.00,Credit and banks
+KRE December 60 put lot 3,KRE,put,2026-12-18,60,3,0.35,105.00,878.02,-773.02,-33.00,Credit and banks
+APO 95 put,APO,put,2026-12-18,95,1,0.70,70.00,1184.67,-1114.67,-25.00,Credit and banks
