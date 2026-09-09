@@ -1,5 +1,25 @@
 # September 9 morning priorities after the XLE decision
 
+## Update after USO call sale — September 9, 12:37 ET review
+
+Will requested suggested next steps for PROME. The [remaining USO call sale](2026-09-09_USO135C-sale-receipt.md) is reconciled and its gate resolved; references to that call being held in the earlier morning brief below are historical. BRENT's latest STATUS acknowledges the closure. No other fill has been confirmed here.
+
+Recommended order:
+
+1. **Finish the immediate broker decision list.** Will is already handling it: the pictured QQQ September 10 $715 put needs a disposition before expiry; reconcile XLE and TLT September $85 put fills/orders when evidence arrives. USO closure supplies no evidence about those instruments. PROME's deliverable is an accurate remaining-action list, without repeated approval requests.
+2. **Finish management of the 37 USO shares.** Consume BRENT's September outlook comparison, then complete the already-commissioned TERRY exit proposal with measured pullback tolerance, profit protection and thesis invalidation. No arbitrary trailing percentage or automatic application of the retired call's $135 trigger. Return concrete terms for Will's decision.
+3. **Make TLT October $82 puts plus TBT the next substantive position review.** Compare expected yield moves, the remaining option window, actual bid/ask and TBT's daily compounding. Deliver a hold/exit assessment and explicit management proposal, rather than a general macro narrative. This work can proceed while BRENT finishes the oil review; no duplicate BRENT session.
+4. **Repair PROME's misleading outputs.** Complete the approved dashboard amendment-precedence and stale Helm narrative fixes first, then the HANDBOOK/Git cookbook/closeout wording repairs. Reconcile already-ruled OSPREY queue items to owner evidence. Acceptance is correct operator-facing output and a truthful queue, not just passing parsers.
+5. **Close today's operating obligations and prepare tomorrow.** Consume owner results for credit, fertilizer, power and volatility; separate genuinely unfinished work from delivered results missing in PROME. Resolve the disposition of the due Kernel specification/archive work. Prepare the September 10 claims/ECB/EIA slate with owners and evidence required; do not claim future work completed.
+
+**New primary evidence:** [September EIA STEO](https://www.eia.gov/outlooks/steo/) is published. Its inputs were finalized September 3, so later market events are outside its modeled information set. BRENT's full August-to-September comparison remains pending in its latest STATUS; publication alone does not complete that work. BRENT is also modifying its runtime scripts in the shared workspace; PROME leaves those files to their owner.
+
+Suggested PROME starting task: rates-position review while the operator resolves broker items and BRENT completes the energy comparison, followed by the approved dashboard repairs. This is a prioritized work recommendation, not a new trade approval, launch or delivered analysis. Earlier operational findings: [boot audit](2026-09-09_boot-outstanding-audit.md).
+
+---
+
+## Earlier morning brief
+
 Will: **“ok will sell it. What else needs our attention this morning.”** This reconfirms the existing XLE September 30 $65C pair exit. **Execution remains UNKNOWN**; do not book proceeds, remove holdings or close DOCKET L253 without a fill receipt.
 
 ## Immediate operator attention
