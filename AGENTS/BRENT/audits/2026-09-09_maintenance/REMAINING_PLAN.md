@@ -1,0 +1,39 @@
+# Plan for remaining maintenance and evidence work
+
+September 9, 2026 — requested by Will after the maintenance explanation. Proposed execution order; writing this plan does not activate a routine, verify a source, grade a prediction or create a new recurring obligation. Extends the existing maintenance report and SCRATCH queue; supersedes their unsequenced backlog description. Canonical rules and scoring dates remain unchanged.
+
+## Order and completion tests
+
+| Order | Work | First pass | Completion evidence |
+|---|---|---|---|
+| 1 | Establish scheduler access and protect upcoming releases | Budget about 15 minutes to identify an authenticated Claude routines interface/session with actual control capability. Read current configuration before applying the already prepared update. If this session still cannot control it, provide the exact installation handoff and proceed with research; do not keep rediscovering the same missing tool. | Re-fetched configuration confirms timezone/next runs and prompt text; local mirror matches. First actual run confirms intended observation, missing-release handling and no duplicate weekly count. Configured and first-run-verified remain separate milestones. |
+| 2 | Recover the BRT-12 measurement definition | One focused 60–90 minute archive/Git/source pass. Trace original March registration, March 27 baseline and June recomputation to their saved inputs/scripts. Recover crude/product contracts, units, price field, roll rule, frequency and what originally counted as a warning. Separately identify the actual refiner-credit/upstream E&P credit measurements, provider definitions and observation/release dates. | A source-backed measurement description with exact missing fields identified. Recovery of a formula alone is not proof that the historical warning definition existed. |
+| 3 | Reconstruct and validate the BRT-12 comparison | Proceed after identity is established. Retrieve original inputs, reproduce a documented baseline and a second documented date at source precision, then build the relevant daily/event history through the latest available date. Check source coverage, roll discontinuities and announcement availability before comparing event order. | Reproducible dated evidence supports the two signal histories and their ordering, or a precise statement of which history/definition remains unavailable and why. No invented trigger level, broad-HY substitution, equity-price substitution for credit spreads or fixed-November substitution for the original rolled series. |
+| 4 | Resolve evidence gaps by decision deadline | Begin with BRT-29's overdue carrier-count determination and the SPR interpretation needed for the next weekly read. Then bounded exact-target checks for PortWatch/Vortexa and original Russian legal texts. Finally refresh incident status in order of relevance to the current physical-balance judgment. | Each existing owner record states verified result, source/date, effect on the claim, and any remaining missing input/next read. An access failure and a source confirming absence receive different dispositions. |
+| 5 | Close the work in the actual readers | Update the existing prediction notes, registry metadata, incident rows, source notes and continuity surfaces only when supporting evidence warrants it. Run affected checks; add recurring automation only after the measurement is established and an existing reader needs it. | Next BRENT session can distinguish completed work from pending publication, unavailable evidence and an unresolved definition without repeating the investigation. |
+
+Effort estimates are planning budgets, not promises that external evidence will be found. At each first-pass limit, record exactly what was searched and the most useful next dependency; do not start another identical search under a new filename.
+
+## Release work interrupts archival work
+
+These are the already recorded owner checkpoints, not newly installed unattended tasks. Verify publisher timing and intended observation at execution:
+
+- September 9: complete the already-approved comparison of published September STEO with the preserved August baseline. Do this in the next substantive research block; scheduler access cannot hold it up.
+- September 10: WPSR noon ET and later supporting files at 14:00, intended week ending September 4. Preserve named SPR observation weeks/bands. If scheduler activation is not verified, the read requires an attended BRENT session.
+- September 11: Baker Hughes and COT after publication; COT intended as-of September 8. The planned Friday routine is 16:15 ET. A missed or delayed release remains explicit and is not replaced with the previous print.
+
+Exact prepared scheduler changes and installation procedure: [ROUTINE_UPDATE.md](ROUTINE_UPDATE.md). Existing Wednesday 11:00 ET primary retained; Thursday 14:15 fallback added; Friday moved to 16:15; Monday remains 09:45; use America/New_York if supported and verify platform behavior. This session has no exposed RemoteTrigger/routine-control tool. Repo edits alone cannot install these changes, and an attended-read plan is not an automatic reminder.
+
+## Source work: finite questions
+
+1. **BRT-29 M:** for each plausible carrier event, establish announcement date, distinct carrier/group, actual capacity cut and cited fuel/war economics. Reuse the reviewed issuer list; pursue the unresolved candidates. Exclude post-August-31 events, duplicate subsidiaries and airspace-only suspensions. Keep jet-versus-gasoline leadership separate. A tally short of three after incomplete searching is not by itself a final failure. Read complete BRT-29 notes and row before any disposition; final September 30 window is unchanged.
+2. **SPR:** locate the exact applicable exchange contract/current authority and delivery provisions behind the carried timeline. A statutory provision applying to one authority does not establish a universal floor. Keep the registered two-print test unchanged while documenting interpretation limits.
+3. **PortWatch/Vortexa:** request the exact August 31–September 1 target observations and the specified same-series Sidi window. Record publication/coverage rather than substituting a newer convenient window or a different tracker. Stop a repeated query when its coverage is unchanged; name the next publication check.
+4. **Russian policy:** authenticate No.1097 publication, amended No.954 and applicable scope. Policy text, actual product flows and matched crack observations are separate legs; finding one does not settle the other two.
+5. **Incidents:** use operator statements, filings or port/other relevant primary records to verify current status of the named facility/unit, beginning with CPC/Jazan and the largest decision-relevant stale claims. Port reopening is not refinery restart. Retain unknown quantities and avoid summing historical capacities into a current outage total.
+
+## If BRT-12 cannot be reconstructed
+
+Deliver a short evidence-limit memo showing recovered facts, unavailable fields, searched sources and the narrowest remaining access/definition requirement. Read the complete August 13 ruling in [BRT-12 notes](../../thesis/prediction_notes/BRT-12.md): its September 30 neither-signal VOID branch requires evidence that neither appeared; missing observations do not establish that branch. Do not assign a grade or invent a new retrospective threshold to force closure. If a new prospective measurement is useful, present it separately for a concrete decision after documenting the original limitation.
+
+No subscription purchase, outbound packet, trade proposal or capital action is part of this plan. Existing XLE receipt and owner reconciliation remain in SCRATCH; research cannot infer execution.

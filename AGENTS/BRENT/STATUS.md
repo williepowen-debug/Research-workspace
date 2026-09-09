@@ -7,6 +7,10 @@
 # ⚡ CURRENT STATE — *read this first. Everything below is dated history, newest first.*
 
 
+## September 9 remaining-work plan
+
+[Ordered work and completion tests](audits/2026-09-09_maintenance/REMAINING_PLAN.md): scheduler access, protected release reads, original BRT-12 measurements and prioritized source gaps. Planning only; no market/source refresh, activation or grade.
+
 ## September 9 maintenance — implemented locally
 
 Quote readers now require dated recent observations; EIA reports preserve metric dates, incomplete coverage and the last numerical local report. Retired runtime wording and the refiner CLI are corrected. Tanker diagnostics measure all three equities; paired futures diagnostics require explicit matched contracts. Deadline/weekday reporting repaired. Remote schedule activation and original crack/credit construction remain open. No market or prediction re-grade. [Maintenance results, validation and remaining work](audits/2026-09-09_maintenance/REPORT.md).

@@ -10,6 +10,8 @@ Implemented audit A1–A4 and A7–A9; extended A6 with complete STNG/FRO/DHT di
 
 ## NEXT SESSION (dated, future-verifiable)
 
+**September 9 planning addendum:** execution order and completion tests are in [remaining-work plan](audits/2026-09-09_maintenance/REMAINING_PLAN.md). Brief scheduler-access pass, release reads at their windows, BRT-12 definition/history recovery, then prioritized source gaps. Plan only; no activation or new evidence this turn.
+
 1. **September 9 XLE receipt pending:** user was asked for actual quantity, price and time; no response yet. Keep selected exit pending until receipt. TERRY/Will own broker checks/execution. Never infer fill from intention, quote or screenshot.
 2. **September 9 STEO PUBLISHED; comparison pending:** retrieve September workbooks and compare saved August baseline in research/2026-09-09_squeeze-review/august-steo-baseline.json. Key question: Q3→Q4 supply recovery/draw slowdown and 2027 effective-spare recovery date. Same IDs/units/months; flows simple monthly means, stock quarter-end. August issue August 11, forecast August 6. September issue dated September 9, forecast completed September 3; no full September revision comparison yet measured.
 3. **September 10 noon / later file batch 14:00 ET WPSR:** verify each file covers September 4. Worksheet in integrated report; baseline Cushing 22.508M, SPR 286.604M, utilization 98.0%, PADD3 gross inputs 9.662 mb/d. Preserve September 4/11 SPR weeks/bands and wording/premise gap. One print cannot resolve two-print test. Reuse paired EIA 52-week method; current pandas/xlrd versions require direct xlrd for legacy xls, as in the new analysis script.
