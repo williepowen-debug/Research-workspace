@@ -1,0 +1,1180 @@
+{
+  "integrity": {
+    "XLE": {
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "observations": 923,
+      "largest_abs_adjusted_daily_return_pct": 9.199899457448769
+    },
+    "XOM": {
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "observations": 923,
+      "largest_abs_adjusted_daily_return_pct": 7.195595051545467
+    },
+    "CVX": {
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "observations": 923,
+      "largest_abs_adjusted_daily_return_pct": 8.22442548245126
+    },
+    "SPY": {
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "observations": 923,
+      "largest_abs_adjusted_daily_return_pct": 10.501937798947614
+    },
+    "USO": {
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "observations": 923,
+      "largest_abs_adjusted_daily_return_pct": 12.93738905651216
+    }
+  },
+  "statistics": [
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 1,
+      "regime": "all",
+      "first_end": "2023-01-04",
+      "last_end": "2026-08-28",
+      "all": {
+        "n": 886,
+        "xle_mean_pct": 0.06585164177622771,
+        "xle_median_pct": 0.16430830276711328,
+        "xle_up_pct": 55.191873589164786,
+        "oil_mean_pct": 0.04025662290338141
+      },
+      "oil_up": {
+        "n": 449,
+        "xle_mean_pct": 0.659561504365041,
+        "xle_median_pct": 0.6698546854463583,
+        "xle_up_pct": 73.2739420935412,
+        "oil_mean_pct": 1.8219896514554523
+      },
+      "oil_up_spy_down": {
+        "n": 205,
+        "xle_mean_pct": 0.48323676648855207,
+        "xle_median_pct": 0.4089466140302589,
+        "xle_up_pct": 66.34146341463415,
+        "oil_mean_pct": 1.9575665118469674
+      },
+      "oil_up_at_least_5pct": {
+        "n": 24,
+        "xle_mean_pct": 1.4316586487390668,
+        "xle_median_pct": 1.2658922786904614,
+        "xle_up_pct": 87.5,
+        "oil_mean_pct": 7.673908167877612
+      },
+      "nonoverlap_oil_up": {
+        "n": 449,
+        "xle_mean_pct": 0.659561504365041,
+        "xle_median_pct": 0.6698546854463583,
+        "xle_up_pct": 73.2739420935412,
+        "oil_mean_pct": 1.8219896514554523
+      },
+      "nonoverlap_all": {
+        "n": 886,
+        "xle_mean_pct": 0.06585164177622771,
+        "xle_median_pct": 0.16430830276711328,
+        "xle_up_pct": 55.191873589164786,
+        "oil_mean_pct": 0.04025662290338141
+      },
+      "oil_correlation": 0.5262189379730925,
+      "regression_oil_beta": 0.29311777126474403,
+      "regression_spy_beta": 0.5196278787086535,
+      "xle_price_quantiles_pct": {
+        "0.1": -1.6549987061703741,
+        "0.25": -0.7716619936570829,
+        "0.5": 0.15374840499658982,
+        "0.75": 0.9178733959008534,
+        "0.9": 1.6067436476175923
+      },
+      "xle_total_return_minus_price_mean_pp": 0.013027624504740966
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 1,
+      "regime": "before_2026_02_27",
+      "first_end": "2023-01-04",
+      "last_end": "2026-02-26",
+      "all": {
+        "n": 763,
+        "xle_mean_pct": 0.05917050887631481,
+        "xle_median_pct": 0.1544452428126286,
+        "xle_up_pct": 55.04587155963303,
+        "oil_mean_pct": 0.004624316899086155
+      },
+      "oil_up": {
+        "n": 387,
+        "xle_mean_pct": 0.6181147997812745,
+        "xle_median_pct": 0.6153491192165461,
+        "xle_up_pct": 72.60981912144703,
+        "oil_mean_pct": 1.48383318812715
+      },
+      "oil_up_spy_down": {
+        "n": 168,
+        "xle_mean_pct": 0.34431981968346453,
+        "xle_median_pct": 0.31074340197261296,
+        "xle_up_pct": 62.5,
+        "oil_mean_pct": 1.4148638743706596
+      },
+      "oil_up_at_least_5pct": {
+        "n": 4,
+        "xle_mean_pct": 2.4513578203071207,
+        "xle_median_pct": 1.9727506606192824,
+        "xle_up_pct": 100.0,
+        "oil_mean_pct": 7.2096600368005195
+      },
+      "nonoverlap_oil_up": {
+        "n": 387,
+        "xle_mean_pct": 0.6181147997812745,
+        "xle_median_pct": 0.6153491192165461,
+        "xle_up_pct": 72.60981912144703,
+        "oil_mean_pct": 1.48383318812715
+      },
+      "nonoverlap_all": {
+        "n": 763,
+        "xle_mean_pct": 0.05917050887631481,
+        "xle_median_pct": 0.1544452428126286,
+        "xle_up_pct": 55.04587155963303,
+        "oil_mean_pct": 0.004624316899086155
+      },
+      "oil_correlation": 0.549576821270344,
+      "regression_oil_beta": 0.35457685654530413,
+      "regression_spy_beta": 0.5760205064226365,
+      "xle_price_quantiles_pct": {
+        "0.1": -1.6142288950477444,
+        "0.25": -0.7445743877622646,
+        "0.5": 0.1438181815419437,
+        "0.75": 0.882217710137223,
+        "0.9": 1.5649595033908312
+      },
+      "xle_total_return_minus_price_mean_pp": 0.013316536392385947
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 1,
+      "regime": "since_2026_02_27",
+      "first_end": "2026-03-02",
+      "last_end": "2026-08-28",
+      "all": {
+        "n": 122,
+        "xle_mean_pct": 0.09522195202310586,
+        "xle_median_pct": 0.28296701346209874,
+        "xle_up_pct": 55.73770491803278,
+        "oil_mean_pct": 0.26732358064846934
+      },
+      "oil_up": {
+        "n": 62,
+        "xle_mean_pct": 0.9182691603959706,
+        "xle_median_pct": 1.0254975133860977,
+        "xle_up_pct": 77.41935483870968,
+        "oil_mean_pct": 3.932740479004695
+      },
+      "oil_up_spy_down": {
+        "n": 37,
+        "xle_mean_pct": 1.1139947952251656,
+        "xle_median_pct": 1.2462612100310855,
+        "xle_up_pct": 83.78378378378379,
+        "oil_mean_pct": 4.421729838766421
+      },
+      "oil_up_at_least_5pct": {
+        "n": 20,
+        "xle_mean_pct": 1.2277188144254558,
+        "xle_median_pct": 1.0271052538118997,
+        "xle_up_pct": 85.0,
+        "oil_mean_pct": 7.766757794093031
+      },
+      "nonoverlap_oil_up": {
+        "n": 62,
+        "xle_mean_pct": 0.9182691603959706,
+        "xle_median_pct": 1.0254975133860977,
+        "xle_up_pct": 77.41935483870968,
+        "oil_mean_pct": 3.932740479004695
+      },
+      "nonoverlap_all": {
+        "n": 122,
+        "xle_mean_pct": 0.09522195202310586,
+        "xle_median_pct": 0.28296701346209874,
+        "xle_up_pct": 55.73770491803278,
+        "oil_mean_pct": 0.26732358064846934
+      },
+      "oil_correlation": 0.6029792458359035,
+      "regression_oil_beta": 0.16301151799336683,
+      "regression_spy_beta": -0.2952575742074768,
+      "xle_price_quantiles_pct": {
+        "0.1": -1.8208469362213593,
+        "0.25": -0.9030301139014374,
+        "0.5": 0.2829700850326522,
+        "0.75": 1.1288915098956243,
+        "0.9": 1.7576681267705574
+      },
+      "xle_total_return_minus_price_mean_pp": 0.011327536086456693
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 5,
+      "regime": "all",
+      "first_end": "2023-01-10",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 884,
+        "xle_mean_pct": 0.3149145353962779,
+        "xle_median_pct": 0.5906402453936588,
+        "xle_up_pct": 56.90045248868778,
+        "oil_mean_pct": 0.2603077755324498
+      },
+      "oil_up": {
+        "n": 443,
+        "xle_mean_pct": 1.961630308205498,
+        "xle_median_pct": 2.0612414608567997,
+        "xle_up_pct": 80.1354401805869,
+        "oil_mean_pct": 4.377522747895165
+      },
+      "oil_up_spy_down": {
+        "n": 157,
+        "xle_mean_pct": 1.7264274213248547,
+        "xle_median_pct": 1.9975208733657324,
+        "xle_up_pct": 77.07006369426752,
+        "oil_mean_pct": 5.461247558542884
+      },
+      "oil_up_at_least_5pct": {
+        "n": 142,
+        "xle_mean_pct": 3.2273829940888135,
+        "xle_median_pct": 3.337370422550223,
+        "xle_up_pct": 90.84507042253522,
+        "oil_mean_pct": 9.021967239860478
+      },
+      "nonoverlap_oil_up": {
+        "n": 86,
+        "xle_mean_pct": 1.6563712269803417,
+        "xle_median_pct": 1.8703393046848538,
+        "xle_up_pct": 77.90697674418605,
+        "oil_mean_pct": 4.389362868779305
+      },
+      "nonoverlap_all": {
+        "n": 175,
+        "xle_mean_pct": 0.2624666598349146,
+        "xle_median_pct": 0.4851114922740818,
+        "xle_up_pct": 54.85714285714286,
+        "oil_mean_pct": 0.2481620888685393
+      },
+      "oil_correlation": 0.6167324008768101,
+      "regression_oil_beta": 0.34270407561952965,
+      "regression_spy_beta": 0.4546740995180135,
+      "xle_price_quantiles_pct": {
+        "0.1": -3.778122543930533,
+        "0.25": -1.811106869251025,
+        "0.5": 0.5355716138124023,
+        "0.75": 2.427652717089029,
+        "0.9": 4.0710151857158206
+      },
+      "xle_total_return_minus_price_mean_pp": 0.06348962526827986
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 5,
+      "regime": "before_2026_02_27",
+      "first_end": "2023-01-10",
+      "last_end": "2026-02-26",
+      "all": {
+        "n": 760,
+        "xle_mean_pct": 0.2461052858531976,
+        "xle_median_pct": 0.49660310107026984,
+        "xle_up_pct": 56.57894736842105,
+        "oil_mean_pct": 0.04206357663134401
+      },
+      "oil_up": {
+        "n": 379,
+        "xle_mean_pct": 1.7714105075195643,
+        "xle_median_pct": 1.7893261595602672,
+        "xle_up_pct": 78.10026385224275,
+        "oil_mean_pct": 3.3916823622186865
+      },
+      "oil_up_spy_down": {
+        "n": 117,
+        "xle_mean_pct": 1.2703627423342188,
+        "xle_median_pct": 1.5571741163937558,
+        "xle_up_pct": 71.7948717948718,
+        "oil_mean_pct": 3.345295993688196
+      },
+      "oil_up_at_least_5pct": {
+        "n": 93,
+        "xle_mean_pct": 3.3902675277366034,
+        "xle_median_pct": 3.498923017252986,
+        "xle_up_pct": 91.39784946236558,
+        "oil_mean_pct": 7.137807722105241
+      },
+      "nonoverlap_oil_up": {
+        "n": 72,
+        "xle_mean_pct": 1.4476436678403497,
+        "xle_median_pct": 1.3735001718172213,
+        "xle_up_pct": 75.0,
+        "oil_mean_pct": 3.3175977206556198
+      },
+      "nonoverlap_all": {
+        "n": 149,
+        "xle_mean_pct": 0.1782120232961991,
+        "xle_median_pct": 0.37320583550526365,
+        "xle_up_pct": 53.691275167785236,
+        "oil_mean_pct": -0.014108566430257806
+      },
+      "oil_correlation": 0.6633630797857558,
+      "regression_oil_beta": 0.4421218240404513,
+      "regression_spy_beta": 0.5024128315140939,
+      "xle_price_quantiles_pct": {
+        "0.1": -3.755545163729802,
+        "0.25": -1.7766152224265586,
+        "0.5": 0.478521133237797,
+        "0.75": 2.236644748422467,
+        "0.9": 3.9209191287804916
+      },
+      "xle_total_return_minus_price_mean_pp": 0.06475125947673784
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 5,
+      "regime": "since_2026_02_27",
+      "first_end": "2026-03-06",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 119,
+        "xle_mean_pct": 0.6591757225303089,
+        "xle_median_pct": 1.1052616678417948,
+        "xle_up_pct": 57.14285714285714,
+        "oil_mean_pct": 1.1489923602272858
+      },
+      "oil_up": {
+        "n": 60,
+        "xle_mean_pct": 3.1105027042350253,
+        "xle_median_pct": 3.362897825950928,
+        "xle_up_pct": 91.66666666666666,
+        "oil_mean_pct": 9.840261030567127
+      },
+      "oil_up_spy_down": {
+        "n": 37,
+        "xle_mean_pct": 3.1036811508164184,
+        "xle_median_pct": 3.3633817899527685,
+        "xle_up_pct": 91.8918918918919,
+        "oil_mean_pct": 11.082808571524254
+      },
+      "oil_up_at_least_5pct": {
+        "n": 45,
+        "xle_mean_pct": 2.9330227366686246,
+        "xle_median_pct": 3.3624138619490873,
+        "xle_up_pct": 88.88888888888889,
+        "oil_mean_pct": 12.309420660038919
+      },
+      "nonoverlap_oil_up": {
+        "n": 13,
+        "xle_mean_pct": 2.754761370734381,
+        "xle_median_pct": 2.7216843130741797,
+        "xle_up_pct": 92.3076923076923,
+        "oil_mean_pct": 9.480090205140842
+      },
+      "nonoverlap_all": {
+        "n": 25,
+        "xle_mean_pct": 0.678895615348766,
+        "xle_median_pct": 1.6501663504869812,
+        "xle_up_pct": 60.0,
+        "oil_mean_pct": 1.206141751564728
+      },
+      "oil_correlation": 0.6579528854342369,
+      "regression_oil_beta": 0.18220580101525277,
+      "regression_spy_beta": -0.48762641639195037,
+      "xle_price_quantiles_pct": {
+        "0.1": -4.057190023989583,
+        "0.25": -2.2874674129926387,
+        "0.5": 1.105265031781122,
+        "0.75": 3.5668707538321076,
+        "0.9": 4.686362269035
+      },
+      "xle_total_return_minus_price_mean_pp": 0.05809971283219745
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 15,
+      "regime": "all",
+      "first_end": "2023-01-25",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 874,
+        "xle_mean_pct": 0.9202143139821952,
+        "xle_median_pct": 1.128507150268998,
+        "xle_up_pct": 58.924485125858126,
+        "oil_mean_pct": 0.7095612227405442
+      },
+      "oil_up": {
+        "n": 425,
+        "xle_mean_pct": 3.941647006055234,
+        "xle_median_pct": 3.8133305016206043,
+        "xle_up_pct": 84.70588235294117,
+        "oil_mean_pct": 7.614362855184993
+      },
+      "oil_up_spy_down": {
+        "n": 117,
+        "xle_mean_pct": 4.318083619750522,
+        "xle_median_pct": 4.506187595316136,
+        "xle_up_pct": 82.05128205128204,
+        "oil_mean_pct": 12.582413648361934
+      },
+      "oil_up_at_least_5pct": {
+        "n": 200,
+        "xle_mean_pct": 5.575874272980958,
+        "xle_median_pct": 5.927158810422739,
+        "xle_up_pct": 92.0,
+        "oil_mean_pct": 13.547057304544433
+      },
+      "nonoverlap_oil_up": {
+        "n": 26,
+        "xle_mean_pct": 3.838036812312816,
+        "xle_median_pct": 4.092353692169248,
+        "xle_up_pct": 80.76923076923077,
+        "oil_mean_pct": 8.341048682159977
+      },
+      "nonoverlap_all": {
+        "n": 59,
+        "xle_mean_pct": 0.9374010805905603,
+        "xle_median_pct": 1.4171257168560825,
+        "xle_up_pct": 62.71186440677966,
+        "oil_mean_pct": 0.7010472066207343
+      },
+      "oil_correlation": 0.6103660298305673,
+      "regression_oil_beta": 0.3154399076763046,
+      "regression_spy_beta": 0.4000197789789012,
+      "xle_price_quantiles_pct": {
+        "0.1": -5.649157050782401,
+        "0.25": -2.3969489909808237,
+        "0.5": 0.8195749092223314,
+        "0.75": 4.1531962631300825,
+        "0.9": 7.299027872659098
+      },
+      "xle_total_return_minus_price_mean_pp": 0.19281906739920496
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 15,
+      "regime": "before_2026_02_27",
+      "first_end": "2023-01-25",
+      "last_end": "2026-02-26",
+      "all": {
+        "n": 750,
+        "xle_mean_pct": 0.7327533392007126,
+        "xle_median_pct": 0.8876863202062379,
+        "xle_up_pct": 57.599999999999994,
+        "oil_mean_pct": -0.05759922753570027
+      },
+      "oil_up": {
+        "n": 354,
+        "xle_mean_pct": 3.695075265808069,
+        "xle_median_pct": 3.4062728545560916,
+        "xle_up_pct": 83.89830508474576,
+        "oil_mean_pct": 5.25424158888227
+      },
+      "oil_up_spy_down": {
+        "n": 81,
+        "xle_mean_pct": 3.211302438564433,
+        "xle_median_pct": 1.9312681206950622,
+        "xle_up_pct": 74.07407407407408,
+        "oil_mean_pct": 4.542768803984602
+      },
+      "oil_up_at_least_5pct": {
+        "n": 152,
+        "xle_mean_pct": 5.621975511173279,
+        "xle_median_pct": 5.9481100223745305,
+        "xle_up_pct": 92.76315789473685,
+        "oil_mean_pct": 9.169265602105854
+      },
+      "nonoverlap_oil_up": {
+        "n": 22,
+        "xle_mean_pct": 3.4599733901318483,
+        "xle_median_pct": 2.9950338241291785,
+        "xle_up_pct": 77.27272727272727,
+        "oil_mean_pct": 5.666007911540627
+      },
+      "nonoverlap_all": {
+        "n": 50,
+        "xle_mean_pct": 0.7211157332157825,
+        "xle_median_pct": 1.1724671882310855,
+        "xle_up_pct": 62.0,
+        "oil_mean_pct": -0.08369272863059263
+      },
+      "oil_correlation": 0.686975787630561,
+      "regression_oil_beta": 0.5069695168013447,
+      "regression_spy_beta": 0.37816414470438503,
+      "xle_price_quantiles_pct": {
+        "0.1": -5.227134111422381,
+        "0.25": -2.3936330853029766,
+        "0.5": 0.5434090825372939,
+        "0.75": 3.75257966433008,
+        "0.9": 7.0574504231830915
+      },
+      "xle_total_return_minus_price_mean_pp": 0.1982516717767154
+    },
+    {
+      "series": "DCOILBRENTEU",
+      "horizon_sessions": 15,
+      "regime": "since_2026_02_27",
+      "first_end": "2026-03-20",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 109,
+        "xle_mean_pct": 1.6218006417017883,
+        "xle_median_pct": 1.9992974052900347,
+        "xle_up_pct": 62.38532110091744,
+        "oil_mean_pct": 1.5762914723053598
+      },
+      "oil_up": {
+        "n": 56,
+        "xle_mean_pct": 5.164594596482302,
+        "xle_median_pct": 6.055724100123838,
+        "xle_up_pct": 85.71428571428571,
+        "oil_mean_pct": 15.795759502563783
+      },
+      "oil_up_spy_down": {
+        "n": 22,
+        "xle_mean_pct": 7.921825590728108,
+        "xle_median_pct": 8.231041475122414,
+        "xle_up_pct": 100.0,
+        "oil_mean_pct": 27.94151125262177
+      },
+      "oil_up_at_least_5pct": {
+        "n": 34,
+        "xle_mean_pct": 5.5827780560817555,
+        "xle_median_pct": 6.251202968969793,
+        "xle_up_pct": 85.29411764705883,
+        "oil_mean_pct": 24.30053568267299
+      },
+      "nonoverlap_oil_up": {
+        "n": 3,
+        "xle_mean_pct": 6.551160844348243,
+        "xle_median_pct": 6.302308089048925,
+        "xle_up_pct": 100.0,
+        "oil_mean_pct": 21.822231266615695
+      },
+      "nonoverlap_all": {
+        "n": 8,
+        "xle_mean_pct": 1.9043521362332645,
+        "xle_median_pct": 3.0334025426991706,
+        "xle_up_pct": 62.5,
+        "oil_mean_pct": 2.3497529674668076
+      },
+      "oil_correlation": 0.7421131391146151,
+      "regression_oil_beta": 0.2123528567911492,
+      "regression_spy_beta": -0.24059596233836833,
+      "xle_price_quantiles_pct": {
+        "0.1": -7.18849321460798,
+        "0.25": -4.016879439856935,
+        "0.5": 1.9992974052900347,
+        "0.75": 6.255585258755447,
+        "0.9": 8.92558482434048
+      },
+      "xle_total_return_minus_price_mean_pp": 0.1819735233275107
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 1,
+      "regime": "all",
+      "first_end": "2023-01-04",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 906,
+        "xle_mean_pct": 0.06631772673504921,
+        "xle_median_pct": 0.16534464749488054,
+        "xle_up_pct": 55.40838852097131,
+        "oil_mean_pct": 0.05629641532188285
+      },
+      "oil_up": {
+        "n": 473,
+        "xle_mean_pct": 0.7097338447764459,
+        "xle_median_pct": 0.7208301692903429,
+        "xle_up_pct": 75.47568710359408,
+        "oil_mean_pct": 1.7505864616669329
+      },
+      "oil_up_spy_down": {
+        "n": 212,
+        "xle_mean_pct": 0.6097833647962364,
+        "xle_median_pct": 0.6073228483002291,
+        "xle_up_pct": 71.69811320754717,
+        "oil_mean_pct": 1.9953070859977777
+      },
+      "oil_up_at_least_5pct": {
+        "n": 21,
+        "xle_mean_pct": 1.73029146286287,
+        "xle_median_pct": 1.7438390012741722,
+        "xle_up_pct": 100.0,
+        "oil_mean_pct": 6.8435247930889105
+      },
+      "nonoverlap_oil_up": {
+        "n": 473,
+        "xle_mean_pct": 0.7097338447764459,
+        "xle_median_pct": 0.7208301692903429,
+        "xle_up_pct": 75.47568710359408,
+        "oil_mean_pct": 1.7505864616669329
+      },
+      "nonoverlap_all": {
+        "n": 906,
+        "xle_mean_pct": 0.06631772673504921,
+        "xle_median_pct": 0.16534464749488054,
+        "xle_up_pct": 55.40838852097131,
+        "oil_mean_pct": 0.05629641532188285
+      },
+      "oil_correlation": 0.5773627345046098,
+      "regression_oil_beta": 0.3321595973318834,
+      "regression_spy_beta": 0.5180935003875506,
+      "xle_price_quantiles_pct": {
+        "0.1": -1.6549987061703741,
+        "0.25": -0.7508667356101201,
+        "0.5": 0.15556416067997736,
+        "0.75": 0.9123342399472989,
+        "0.9": 1.5983903043286563
+      },
+      "xle_total_return_minus_price_mean_pp": 0.012740039141276029
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 1,
+      "regime": "before_2026_02_27",
+      "first_end": "2023-01-04",
+      "last_end": "2026-02-26",
+      "all": {
+        "n": 777,
+        "xle_mean_pct": 0.05280466822264273,
+        "xle_median_pct": 0.15304133034537148,
+        "xle_up_pct": 54.95495495495496,
+        "oil_mean_pct": 0.005762268480092359
+      },
+      "oil_up": {
+        "n": 401,
+        "xle_mean_pct": 0.6761904189730172,
+        "xle_median_pct": 0.6767102432182259,
+        "xle_up_pct": 75.06234413965088,
+        "oil_mean_pct": 1.4824009650890653
+      },
+      "oil_up_spy_down": {
+        "n": 170,
+        "xle_mean_pct": 0.46222318788785455,
+        "xle_median_pct": 0.42278520870268066,
+        "xle_up_pct": 67.64705882352942,
+        "oil_mean_pct": 1.4817660011538372
+      },
+      "oil_up_at_least_5pct": {
+        "n": 6,
+        "xle_mean_pct": 2.2833855582290785,
+        "xle_median_pct": 1.9474410340729942,
+        "xle_up_pct": 100.0,
+        "oil_mean_pct": 5.851159268835726
+      },
+      "nonoverlap_oil_up": {
+        "n": 401,
+        "xle_mean_pct": 0.6761904189730172,
+        "xle_median_pct": 0.6767102432182259,
+        "xle_up_pct": 75.06234413965088,
+        "oil_mean_pct": 1.4824009650890653
+      },
+      "nonoverlap_all": {
+        "n": 777,
+        "xle_mean_pct": 0.05280466822264273,
+        "xle_median_pct": 0.15304133034537148,
+        "xle_up_pct": 54.95495495495496,
+        "oil_mean_pct": 0.005762268480092359
+      },
+      "oil_correlation": 0.6079358215956051,
+      "regression_oil_beta": 0.39125837709755307,
+      "regression_spy_beta": 0.5571351914662255,
+      "xle_price_quantiles_pct": {
+        "0.1": -1.6213696976706093,
+        "0.25": -0.7442467471425851,
+        "0.5": 0.14248672277108465,
+        "0.75": 0.8590205915536719,
+        "0.9": 1.5521426732845889
+      },
+      "xle_total_return_minus_price_mean_pp": 0.013076596873585545
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 1,
+      "regime": "since_2026_02_27",
+      "first_end": "2026-03-02",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 128,
+        "xle_mean_pct": 0.13651761733336365,
+        "xle_median_pct": 0.31721684835120945,
+        "xle_up_pct": 57.8125,
+        "oil_mean_pct": 0.34117286574571287
+      },
+      "oil_up": {
+        "n": 71,
+        "xle_mean_pct": 0.8869207377012432,
+        "xle_median_pct": 0.9665194797448207,
+        "xle_up_pct": 77.46478873239437,
+        "oil_mean_pct": 3.2496826269098786
+      },
+      "oil_up_spy_down": {
+        "n": 41,
+        "xle_mean_pct": 1.197945200038444,
+        "xle_median_pct": 1.2664127113635182,
+        "xle_up_pct": 87.8048780487805,
+        "oil_mean_pct": 4.103603394591064
+      },
+      "oil_up_at_least_5pct": {
+        "n": 15,
+        "xle_mean_pct": 1.5090538247163865,
+        "xle_median_pct": 1.5684353573719667,
+        "xle_up_pct": 100.0,
+        "oil_mean_pct": 7.240471002790186
+      },
+      "nonoverlap_oil_up": {
+        "n": 71,
+        "xle_mean_pct": 0.8869207377012432,
+        "xle_median_pct": 0.9665194797448207,
+        "xle_up_pct": 77.46478873239437,
+        "oil_mean_pct": 3.2496826269098786
+      },
+      "nonoverlap_all": {
+        "n": 128,
+        "xle_mean_pct": 0.13651761733336365,
+        "xle_median_pct": 0.31721684835120945,
+        "xle_up_pct": 57.8125,
+        "oil_mean_pct": 0.34117286574571287
+      },
+      "oil_correlation": 0.6106064543744992,
+      "regression_oil_beta": 0.18275285374081224,
+      "regression_spy_beta": -0.24306653329563985,
+      "xle_price_quantiles_pct": {
+        "0.1": -1.7161226193740104,
+        "0.25": -0.8439045403816181,
+        "0.5": 0.31721807307284466,
+        "0.75": 1.1462947306097704,
+        "0.9": 1.7687062968398857
+      },
+      "xle_total_return_minus_price_mean_pp": 0.010796570702795421
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 5,
+      "regime": "all",
+      "first_end": "2023-01-10",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 902,
+        "xle_mean_pct": 0.32568959687687604,
+        "xle_median_pct": 0.611163638697565,
+        "xle_up_pct": 57.3170731707317,
+        "oil_mean_pct": 0.2613939095379663
+      },
+      "oil_up": {
+        "n": 466,
+        "xle_mean_pct": 2.0755987649622205,
+        "xle_median_pct": 2.235015220775771,
+        "xle_up_pct": 82.18884120171673,
+        "oil_mean_pct": 4.173030494982005
+      },
+      "oil_up_spy_down": {
+        "n": 163,
+        "xle_mean_pct": 1.9555904156089785,
+        "xle_median_pct": 2.1855658519070564,
+        "xle_up_pct": 80.98159509202453,
+        "oil_mean_pct": 4.873380418134319
+      },
+      "oil_up_at_least_5pct": {
+        "n": 137,
+        "xle_mean_pct": 3.3649175148217867,
+        "xle_median_pct": 3.427020216328236,
+        "xle_up_pct": 92.7007299270073,
+        "oil_mean_pct": 8.911358769137236
+      },
+      "nonoverlap_oil_up": {
+        "n": 95,
+        "xle_mean_pct": 1.8928563679485162,
+        "xle_median_pct": 2.15886449201641,
+        "xle_up_pct": 83.15789473684211,
+        "oil_mean_pct": 3.8740280223821153
+      },
+      "nonoverlap_all": {
+        "n": 183,
+        "xle_mean_pct": 0.3225168639346808,
+        "xle_median_pct": 0.49609519942914737,
+        "xle_up_pct": 55.73770491803278,
+        "oil_mean_pct": 0.239268800603877
+      },
+      "oil_correlation": 0.6424747710600371,
+      "regression_oil_beta": 0.36781583727280087,
+      "regression_spy_beta": 0.40266096261330864,
+      "xle_price_quantiles_pct": {
+        "0.1": -3.812618713729823,
+        "0.25": -1.8158261354040501,
+        "0.5": 0.5471807353359059,
+        "0.75": 2.4660124931311977,
+        "0.9": 4.071404405017409
+      },
+      "xle_total_return_minus_price_mean_pp": 0.06410502371889999
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 5,
+      "regime": "before_2026_02_27",
+      "first_end": "2023-01-10",
+      "last_end": "2026-02-26",
+      "all": {
+        "n": 773,
+        "xle_mean_pct": 0.2705220084457631,
+        "xle_median_pct": 0.5178322951332914,
+        "xle_up_pct": 57.17981888745148,
+        "oil_mean_pct": 0.051038044857471855
+      },
+      "oil_up": {
+        "n": 397,
+        "xle_mean_pct": 1.9441745096513183,
+        "xle_median_pct": 2.004588817775632,
+        "xle_up_pct": 81.10831234256926,
+        "oil_mean_pct": 3.346691932530314
+      },
+      "oil_up_spy_down": {
+        "n": 124,
+        "xle_mean_pct": 1.59787037087556,
+        "xle_median_pct": 1.9326098118751411,
+        "xle_up_pct": 77.41935483870968,
+        "oil_mean_pct": 3.2181586408471565
+      },
+      "oil_up_at_least_5pct": {
+        "n": 90,
+        "xle_mean_pct": 3.597069192255046,
+        "xle_median_pct": 3.4383093626090933,
+        "xle_up_pct": 95.55555555555556,
+        "oil_mean_pct": 7.251532329053608
+      },
+      "nonoverlap_oil_up": {
+        "n": 82,
+        "xle_mean_pct": 1.7625039911246703,
+        "xle_median_pct": 1.799652500402582,
+        "xle_up_pct": 81.70731707317073,
+        "oil_mean_pct": 3.086002132472421
+      },
+      "nonoverlap_all": {
+        "n": 157,
+        "xle_mean_pct": 0.25250007707051086,
+        "xle_median_pct": 0.39054835132021903,
+        "xle_up_pct": 54.77707006369427,
+        "oil_mean_pct": 0.009583747960459302
+      },
+      "oil_correlation": 0.7079520880886695,
+      "regression_oil_beta": 0.47054835285869734,
+      "regression_spy_beta": 0.46266816174662256,
+      "xle_price_quantiles_pct": {
+        "0.1": -3.731970981691308,
+        "0.25": -1.768814395040863,
+        "0.5": 0.48728745553070496,
+        "0.75": 2.277124362328875,
+        "0.9": 3.9168033628544316
+      },
+      "xle_total_return_minus_price_mean_pp": 0.06585881627915305
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 5,
+      "regime": "since_2026_02_27",
+      "first_end": "2026-03-06",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 124,
+        "xle_mean_pct": 0.5786772805935048,
+        "xle_median_pct": 0.978778626512844,
+        "xle_up_pct": 56.451612903225815,
+        "oil_mean_pct": 1.1030566901389942
+      },
+      "oil_up": {
+        "n": 64,
+        "xle_mean_pct": 2.851394110625759,
+        "xle_median_pct": 3.3278856801601253,
+        "xle_up_pct": 87.5,
+        "oil_mean_pct": 8.69452570774836
+      },
+      "oil_up_spy_down": {
+        "n": 35,
+        "xle_mean_pct": 3.1757088831785603,
+        "xle_median_pct": 3.9074282387274506,
+        "xle_up_pct": 91.42857142857143,
+        "oil_mean_pct": 9.798615246831986
+      },
+      "oil_up_at_least_5pct": {
+        "n": 43,
+        "xle_mean_pct": 2.936046285967706,
+        "xle_median_pct": 3.48162013217006,
+        "xle_up_pct": 86.04651162790698,
+        "oil_mean_pct": 11.839005393148545
+      },
+      "nonoverlap_oil_up": {
+        "n": 12,
+        "xle_mean_pct": 2.7408620055524016,
+        "xle_median_pct": 3.2553905477542,
+        "xle_up_pct": 91.66666666666666,
+        "oil_mean_pct": 8.397429579263166
+      },
+      "nonoverlap_all": {
+        "n": 25,
+        "xle_mean_pct": 0.678895615348766,
+        "xle_median_pct": 1.6501663504869812,
+        "xle_up_pct": 60.0,
+        "oil_mean_pct": 1.1228083907325233
+      },
+      "oil_correlation": 0.6018870822746645,
+      "regression_oil_beta": 0.17590402310575992,
+      "regression_spy_beta": -0.6104964494552398,
+      "xle_price_quantiles_pct": {
+        "0.1": -4.446400141764931,
+        "0.25": -2.4951526580247547,
+        "0.5": 0.9760895019799043,
+        "0.75": 3.530899269896959,
+        "0.9": 4.66463425265351
+      },
+      "xle_total_return_minus_price_mean_pp": 0.05575694115205906
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 15,
+      "regime": "all",
+      "first_end": "2023-01-25",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 892,
+        "xle_mean_pct": 0.9271207317095763,
+        "xle_median_pct": 1.1408123631543532,
+        "xle_up_pct": 58.856502242152466,
+        "oil_mean_pct": 0.6050817137211268
+      },
+      "oil_up": {
+        "n": 437,
+        "xle_mean_pct": 3.9223966559742016,
+        "xle_median_pct": 4.016816756568109,
+        "xle_up_pct": 84.43935926773455,
+        "oil_mean_pct": 7.163995916661639
+      },
+      "oil_up_spy_down": {
+        "n": 122,
+        "xle_mean_pct": 3.835618998705797,
+        "xle_median_pct": 4.544168637082812,
+        "xle_up_pct": 78.68852459016394,
+        "oil_mean_pct": 10.988189686034415
+      },
+      "oil_up_at_least_5pct": {
+        "n": 211,
+        "xle_mean_pct": 5.921617563614112,
+        "xle_median_pct": 6.167806164797307,
+        "xle_up_pct": 95.260663507109,
+        "oil_mean_pct": 12.256548631385076
+      },
+      "nonoverlap_oil_up": {
+        "n": 29,
+        "xle_mean_pct": 3.6487435361630434,
+        "xle_median_pct": 4.016060004187816,
+        "xle_up_pct": 82.75862068965517,
+        "oil_mean_pct": 7.1117702335839335
+      },
+      "nonoverlap_all": {
+        "n": 61,
+        "xle_mean_pct": 0.9558399618957323,
+        "xle_median_pct": 1.4171257168560825,
+        "xle_up_pct": 62.295081967213115,
+        "oil_mean_pct": 0.6969181824533194
+      },
+      "oil_correlation": 0.6380457505213301,
+      "regression_oil_beta": 0.35862505662267063,
+      "regression_spy_beta": 0.34392694536913376,
+      "xle_price_quantiles_pct": {
+        "0.1": -5.687342435510088,
+        "0.25": -2.4351367900889374,
+        "0.5": 0.8558021618422895,
+        "0.75": 4.1566734504289045,
+        "0.9": 7.373720687988122
+      },
+      "xle_total_return_minus_price_mean_pp": 0.19569015123930122
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 15,
+      "regime": "before_2026_02_27",
+      "first_end": "2023-01-25",
+      "last_end": "2026-02-26",
+      "all": {
+        "n": 763,
+        "xle_mean_pct": 0.7409929680393996,
+        "xle_median_pct": 0.9130024918967417,
+        "xle_up_pct": 57.536041939711666,
+        "oil_mean_pct": -0.1165934693496999
+      },
+      "oil_up": {
+        "n": 362,
+        "xle_mean_pct": 3.625991600057974,
+        "xle_median_pct": 3.56476411978931,
+        "xle_up_pct": 83.14917127071824,
+        "oil_mean_pct": 5.187662285891413
+      },
+      "oil_up_spy_down": {
+        "n": 84,
+        "xle_mean_pct": 2.5292468741418923,
+        "xle_median_pct": 1.9218994449932025,
+        "xle_up_pct": 69.04761904761905,
+        "oil_mean_pct": 4.700364283984994
+      },
+      "oil_up_at_least_5pct": {
+        "n": 148,
+        "xle_mean_pct": 5.881981845003855,
+        "xle_median_pct": 6.183149591070269,
+        "xle_up_pct": 93.91891891891892,
+        "oil_mean_pct": 9.201130521566132
+      },
+      "nonoverlap_oil_up": {
+        "n": 24,
+        "xle_mean_pct": 3.3429609000671467,
+        "xle_median_pct": 2.9950338241291785,
+        "xle_up_pct": 79.16666666666666,
+        "oil_mean_pct": 5.1216572963332405
+      },
+      "nonoverlap_all": {
+        "n": 52,
+        "xle_mean_pct": 0.7510646265689566,
+        "xle_median_pct": 1.1724671882310855,
+        "xle_up_pct": 61.53846153846154,
+        "oil_mean_pct": -0.05905715741296724
+      },
+      "oil_correlation": 0.6999030239390582,
+      "regression_oil_beta": 0.5209502815438201,
+      "regression_spy_beta": 0.3563649389090765,
+      "xle_price_quantiles_pct": {
+        "0.1": -5.4007152794519175,
+        "0.25": -2.3967127536234534,
+        "0.5": 0.5492018124472198,
+        "0.75": 3.7518731080063317,
+        "0.9": 7.192715345222369
+      },
+      "xle_total_return_minus_price_mean_pp": 0.20189345410662204
+    },
+    {
+      "series": "DCOILWTICO",
+      "horizon_sessions": 15,
+      "regime": "since_2026_02_27",
+      "first_end": "2026-03-20",
+      "last_end": "2026-09-01",
+      "all": {
+        "n": 114,
+        "xle_mean_pct": 1.611298438565535,
+        "xle_median_pct": 2.1115600441048654,
+        "xle_up_pct": 62.28070175438597,
+        "oil_mean_pct": 1.0576313398322796
+      },
+      "oil_up": {
+        "n": 60,
+        "xle_mean_pct": 5.392539056088839,
+        "xle_median_pct": 6.1328355496351294,
+        "xle_up_pct": 88.33333333333333,
+        "oil_mean_pct": 12.410145584604301
+      },
+      "oil_up_spy_down": {
+        "n": 24,
+        "xle_mean_pct": 7.694527392629781,
+        "xle_median_pct": 7.833725342196085,
+        "xle_up_pct": 100.0,
+        "oil_mean_pct": 18.502479117223945
+      },
+      "oil_up_at_least_5pct": {
+        "n": 48,
+        "xle_mean_pct": 6.270874099741622,
+        "xle_median_pct": 6.278944709779233,
+        "xle_up_pct": 97.91666666666666,
+        "oil_mean_pct": 14.921681479547436
+      },
+      "nonoverlap_oil_up": {
+        "n": 4,
+        "xle_mean_pct": 5.39161023573223,
+        "xle_median_pct": 5.235477734599803,
+        "xle_up_pct": 100.0,
+        "oil_mean_pct": 12.614410008320442
+      },
+      "nonoverlap_all": {
+        "n": 8,
+        "xle_mean_pct": 1.9043521362332645,
+        "xle_median_pct": 3.0334025426991706,
+        "xle_up_pct": 62.5,
+        "oil_mean_pct": 1.589882460809032
+      },
+      "oil_correlation": 0.7831569684250631,
+      "regression_oil_beta": 0.28953622076026586,
+      "regression_spy_beta": -0.3792182951430788,
+      "xle_price_quantiles_pct": {
+        "0.1": -7.060035786853065,
+        "0.25": -4.0030661822939075,
+        "0.5": 2.111558419102033,
+        "0.75": 6.242547498844275,
+        "0.9": 8.768199329750512
+      },
+      "xle_total_return_minus_price_mean_pp": 0.1799202841266156
+    }
+  ],
+  "recent_equity_returns_pct": [
+    {
+      "sessions": 1,
+      "start": "2026-09-04",
+      "end": "2026-09-08",
+      "XLE": 1.108334548129264,
+      "XOM": 0.7462233851489808,
+      "CVX": 0.5752621827090021,
+      "SPY": -0.5492125910932955,
+      "USO": 2.8669990651896127
+    },
+    {
+      "sessions": 5,
+      "start": "2026-08-31",
+      "end": "2026-09-08",
+      "XLE": 1.2664127113635182,
+      "XOM": -0.18017601219717516,
+      "CVX": 1.775494165589464,
+      "SPY": -0.14209840788195205,
+      "USO": 9.222140697451064
+    },
+    {
+      "sessions": 15,
+      "start": "2026-08-17",
+      "end": "2026-09-08",
+      "XLE": 3.4995122210510266,
+      "XOM": -0.49548062584658936,
+      "CVX": 4.40600227029444,
+      "SPY": -0.8684122699095687,
+      "USO": 12.080747796645497
+    }
+  ],
+  "realized_annualized_vol_pct": {
+    "20": 15.386745623900426,
+    "60": 21.902536192833843,
+    "126": 23.671856239504493
+  },
+  "conditional_option_model": {
+    "conditional_spot": 65.81,
+    "screenshot_reference_premium": 1.92,
+    "observed_executable_bid": null,
+    "observed_valid_xle_iv": null,
+    "assumed_dividend": 0.385,
+    "scheduled_ex_date": "2026-09-21",
+    "rate_proxy": 0.0379,
+    "rate_date": "2026-09-04",
+    "conditional_fitted_escrowed_stock_iv": 0.24989620628721693,
+    "pair_one_calendar_day_decay_fixed_spot_iv": -8.711803488899328,
+    "pair_delta_dollars_per_one_dollar_spot_approx": 120.76208615620466,
+    "pair_vega_dollars_per_one_vol_point_approx": 11.842081767376289,
+    "dividend_sensitivity_per_option_fixed_iv": {
+      "0.3": 1.9463760261969933,
+      "0.385": 1.9199999999991617,
+      "0.5": 1.8883333980722545
+    },
+    "steps_convergence": {
+      "400": 1.9192486320202586,
+      "600": 1.9199999999991617,
+      "1200": 1.9196234097264382
+    },
+    "expiry_equal_value_spot": 66.92,
+    "expiry_required_gain_pct": 1.6866737577875712
+  },
+  "verification": "PASS: equity grids, dates, positive prices; expiry payoffs, model monotonicity, convergence"
+}

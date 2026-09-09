@@ -1,0 +1,75 @@
+{
+  "started_utc": "2026-09-09T13:42:02.915841+00:00",
+  "sources": {
+    "XLE": {
+      "retrieved_utc": "2026-09-09T13:42:03.869430+00:00",
+      "file": "XLE.csv",
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "basis": "Yahoo Close and Adj Close retained; auto_adjust=False; actions=True"
+    },
+    "XOM": {
+      "retrieved_utc": "2026-09-09T13:42:04.216658+00:00",
+      "file": "XOM.csv",
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "basis": "Yahoo Close and Adj Close retained; auto_adjust=False; actions=True"
+    },
+    "CVX": {
+      "retrieved_utc": "2026-09-09T13:42:04.534549+00:00",
+      "file": "CVX.csv",
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "basis": "Yahoo Close and Adj Close retained; auto_adjust=False; actions=True"
+    },
+    "SPY": {
+      "retrieved_utc": "2026-09-09T13:42:04.873896+00:00",
+      "file": "SPY.csv",
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "basis": "Yahoo Close and Adj Close retained; auto_adjust=False; actions=True"
+    },
+    "USO": {
+      "retrieved_utc": "2026-09-09T13:42:05.109281+00:00",
+      "file": "USO.csv",
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "basis": "Yahoo Close and Adj Close retained; auto_adjust=False; actions=True"
+    },
+    "BZX26.NYM": {
+      "retrieved_utc": "2026-09-09T13:42:05.334853+00:00",
+      "file": "BZX26-NYM.csv",
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "basis": "Yahoo Close and Adj Close retained; auto_adjust=False; actions=True"
+    },
+    "BZF27.NYM": {
+      "retrieved_utc": "2026-09-09T13:42:05.548298+00:00",
+      "file": "BZF27-NYM.csv",
+      "first": "2023-01-03",
+      "last": "2026-09-08",
+      "basis": "Yahoo Close and Adj Close retained; auto_adjust=False; actions=True"
+    },
+    "DCOILBRENTEU": {
+      "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
+      "retrieved_utc": "2026-09-09T13:43:07.747578+00:00",
+      "file": "DCOILBRENTEU.csv",
+      "transport": "official FRED observations API; prior CSV endpoint 404"
+    },
+    "DCOILWTICO": {
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "retrieved_utc": "2026-09-09T13:43:08.041846+00:00",
+      "file": "DCOILWTICO.csv",
+      "transport": "official FRED observations API; prior CSV endpoint 404"
+    },
+    "DGS1MO": {
+      "url": "https://fred.stlouisfed.org/series/DGS1MO",
+      "retrieved_utc": "2026-09-09T13:43:08.363120+00:00",
+      "file": "DGS1MO.csv",
+      "transport": "official FRED observations API; prior CSV endpoint 404"
+    }
+  },
+  "errors": {},
+  "finished_utc": "2026-09-09T13:42:07.068003+00:00",
+  "fred_retry_finished_utc": "2026-09-09T13:43:08.363155+00:00"
+}
