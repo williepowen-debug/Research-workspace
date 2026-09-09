@@ -3,7 +3,7 @@
 **Status:** 🔴 — Russia/Ukraine energy war at high intensity. **★ THE REFINERY CAMPAIGN RESTARTED AFTER A FOUR-DAY PAUSE (four plants in three nights), THE AUGUST RUNS PRINT LANDS THE OFFLINE PROXY AT THE BAND'S CENTRE, AND THE SEVENTH-WEEK EXPORT QUESTION IS OPEN — UNREADABLE, NOT ANSWERED.**
 **Domain:** Russia/Ukraine war theater — energy-strike campaign, crude-vs-products channel model, Ukraine-side shadow-fleet kinetic strikes, Druzhba/EU angle, Baltic/Black-Sea oil ports.
 **Position:** None — OSPREY holds no trade book; military/infrastructure inputs feed BRENT's.
-**As of:** **2026-09-09 ~00:1x ET** — owner catch-up session after 6 dark days (9/2 → 9/8), four passes. Inbox drained · WQ-172/176 applied · HAWK audit reviewed · six ledger-completeness failures repaired · **Will ruled five remediation items ("all approved go ahead")** · strike feed built · THESIS v1.0 · 8 packets. **STATUS commit: see this session's final commit.**
+**As of:** **2026-09-08 ~23:2x ET** (clock-read) — owner catch-up session after 6 dark days (9/2 → 9/8), four passes. Inbox drained · WQ-172/176 applied · HAWK audit reviewed · six ledger-completeness failures repaired · **Will ruled five remediation items ("all approved go ahead")** · strike feed built · THESIS v1.0 · 8 packets. **STATUS commit: see this session's final commit.**
 
 ---
 

@@ -62,4 +62,5 @@
 
 ## PENDING PUSH / GIT
 - **Clean.** Every commit path-scoped; 15 commits this session (desk files, packets, one auto-memory under carve-out ③); every push carried the `Pushed. CONFIRMED` receipt. Other desks' dirty files (BRENT, SAM, HAWK, FALCON) were never swept or stashed.
+- ⚠️ Timestamp discipline: the last two stamps of the session were written from the narrative ("past midnight") and read 9/9 00:1x when the clock said 9/8 23:21 — corrected in STATUS/NEXUS/KB-099. Packet headers carry approximate minutes ("~23:3x") that run ~20-40 min ahead of the clock; date correct, left as is. `finding_write_timestamps_from_the_clock_not_the_narrative` applies: `date` before EVERY stamp, not once per batch.
 - ⚠️ **STATUS is at 23.5 KB = 72% of the read budget** — under the 75% rotate tier but close; next session trims before it adds (the OWED register's CLOSED rows can go to the archive banner).
