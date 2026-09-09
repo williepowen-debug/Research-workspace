@@ -1,12 +1,12 @@
-# FALCON THESIS — v2.1
+# FALCON THESIS — v2.2
 
-**Version:** 2.1 (2026-07-30 — v2.0 structure intact; the CORE CLAIM narrowed on a molecule axis it never had). v2.0 was the first FALCON-authored thesis, superseding inherited HAWK v1.2 of 2026-04-20 wholesale.
-**Last Updated:** 2026-07-30
-**Status:** 🔴 ACTIVE WAR. ⚠️ **THE REGIME CALL IS NOW MOLECULE-SPLIT (v2.1, 2026-07-30): risk-premium for CRUDE; SUPPLY-LOSS already realized for GAS (Ras Laffan FM, since 2026-03-24) and REFINED PRODUCT (Jazan, shut 7/27).** The unqualified *"premium, not supply-loss"* claim is RETIRED — do not re-export it. The theater also contains **two counter-moving wars** (US-Iran vs Saudi-Houthi/Iraqi-militia).
-**Conviction:** MEDIUM-HIGH on the regime call · MEDIUM on the marks
-**Scenario ladder:** **B 5 / C 35 / D 60** · **Convergence 43/50** · **P 23/25 · K 15/20 · R 13/20** *(re-marked 2026-07-30 on the resumed war + the first confirmed outage; **R1 1→3 and R2 1→4 — both OFF the floor, and R2 was NEVER correctly at 1.** Only R3 remains at the floor.)* ⚠️ **STATUS.md is canonical for marks — on conflict STATUS wins.**
+**Version:** 2.2 (2026-09-08 — v2.1's molecule-split core claim intact; a FOURTH transmission channel added, the attacker axis named, and the ladder's rail cap recorded). v2.1 (7/30) narrowed the claim on the molecule axis; v2.0 (7/27) was the first FALCON-authored thesis, superseding inherited HAWK v1.2 of 2026-04-20 wholesale.
+**Last Updated:** 2026-09-08 (staleness sweep — v2.1's own rewrite trigger, *"FAL-04 resolving either way"*, fired 2026-08-20 and went unactioned for 19 days; this is the discharge, and the footer trigger is re-dated)
+**Status:** 🔴 ACTIVE WAR, **War Day 193.** ⚠️ **THE REGIME CALL IS MOLECULE-SPLIT (v2.1): risk-premium for CRUDE — 193 days, zero confirmed crude-production barrels offline, and it survived the 9/5–9/8 TANKER WAR; SUPPLY-LOSS already realized for GAS (Ras Laffan FM, since 2026-03-24) and REFINED PRODUCT (Jazan, shut 7/27, struck again 9/7 and 9/8, restart never confirmed).** The unqualified *"premium, not supply-loss"* claim is RETIRED — do not re-export it. **v2.2 addition: the war has opened a channel that runs through HULLS rather than facilities or chokepoints — the US is destroying the Iranian export tanker fleet under a declared tit-for-tat rule — and the scenario ladder has NO RUNG ABOVE D 75 to record it.**
+**Conviction:** MEDIUM-HIGH on the regime call · MEDIUM on the marks · **LOW on the ladder's ability to record further escalation until Will rules on the rung (DOCKET L300)**
+**Scenario ladder:** **B 3 / C 22 / D 75** · **Convergence 43/50** · **P 23/25 · K 15/20 · R 13/20** *(re-marked 2026-09-07 on the registered D→75 trip — `VX-FALCON-SUNK-01` class-(iii) fired on the M/T Kylo sinking; 75 is Will's ABSOLUTE destination of 8/6; **HELD 2026-09-08 as a RAIL CAP** — nothing is registered above 75. R3 remains at the floor.)* ⚠️ **STATUS.md is canonical for marks — on conflict STATUS wins.**
 
-> **⚠️ WHY v2.0 IS A MAJOR VERSION.** v1.2 was a *deadline* thesis — it modelled the Apr 21 ceasefire-expiry clock, used a 4-tier A/B/C/D ladder, and priced everything off one binary event. All of that is dead. This document is built on a different question entirely: **not "does the war escalate?" but "does the war's damage ever become lost barrels?"** Every number below is live as of 2026-07-27 and reconciled against `STATUS.md`.
+> **⚠️ WHY v2.0 IS A MAJOR VERSION.** v1.2 was a *deadline* thesis — it modelled the Apr 21 ceasefire-expiry clock, used a 4-tier A/B/C/D ladder, and priced everything off one binary event. All of that is dead. This document is built on a different question entirely: **not "does the war escalate?" but "does the war's damage ever become lost barrels?"**
 >
 > **`STATUS.md` remains canonical for marks and the convergence matrix.** This file holds the *structure* — the channels, the regime call, the falsification. Where they conflict, STATUS wins and this file is stale.
 
@@ -14,158 +14,147 @@
 
 ## CORE THESIS
 
-**This is a war that has comprehensively failed to take CRUDE off the market — and that qualifier is the whole of what changed on 2026-07-30.**
+**This is a war that has comprehensively failed to take CRUDE off the market — for 193 days, through a 13-night campaign, a 32-night pause, a resumed campaign, a tanker war and five strikes on one Aramco refinery — and that qualifier is the whole of what changed on 2026-07-30.**
 
-⚠️ **v2.0 stated this claim WITHOUT a molecule qualifier, and in that form it was false — it had been false since March.** Scoped properly:
-
-| Molecule | Regime | Evidence |
+| Molecule | Regime | Evidence (2026-09-08) |
 |---|---|---|
-| **CRUDE / condensate** | ✅ **PREMIUM — holds** | **Zero** confirmed crude-production barrels offline. Petroline **operational**, ~5 mb/d export capacity available [AGBI 7/28]. Yanbu loading ~3.3 mb/d. Brent **$90.21** [own pull 7/30] — ~10% *below* the 7/23 $100.69 peak, *through* a heavy US strike wave *and* a shut refinery. |
-| **NATURAL GAS / LNG** | 🔴 **SUPPLY-LOSS since 2026-03-24** | QatarEnergy force majeure, ~12.8 Mtpa ≈ **17% of Qatar's LNG export capacity**, **3-5 year** repair, extended to **Asian** buyers 7/28. **Lengthening, not healing.** |
-| **REFINED PRODUCT** | 🔴 **SUPPLY-LOSS since 2026-07-27** | **Jazan SHUT, 400 kbpd**, restart tentatively 8/15 [Reuters/IIR]. |
+| **CRUDE / condensate** | ✅ **PREMIUM — holds** | **Zero** confirmed crude-production barrels of market supply offline in **193 war-days**; the crude-scoped ledger zero is **152 days old** (Apr 10 → Sep 8, `ANALYSIS_2026-09-08.md`). Petroline **operational** (last verified AGBI 7/28); Gulf-coast loadings restarted 8/12–16 (Kpler/Vortexa). Brent **$99.45** [own pull 9/8] — a seven-week high, **on the tanker war and the Saudi salvo, not on lost barrels.** |
+| **NATURAL GAS / LNG** | 🔴 **SUPPLY-LOSS since 2026-03-24** | QatarEnergy force majeure, ~12.8 Mtpa ≈ **17% of Qatar's LNG export capacity**, **3-5 year** repair, extended to **Asian** buyers 7/28. 🆕 Qatar's FM spokesman 9/8: *"industrial catastrophe"* if Hormuz stays closed — a state-level ceiling claim on the remaining ~83%, unquantified. |
+| **REFINED PRODUCT** | 🔴 **SUPPLY-LOSS since 2026-07-27** | **Jazan SHUT, 400 kbpd** — restart slated 8/15 then 8/30 by IIR, **never confirmed**; struck again **9/7** (FT) and **9/8** (Saudi MoE: *"temporary halt in some operations"*). **Five strike events, ONE loss, zero increment.** Product-distribution sites hit 9/8 (Jazan Bulk, Abha, Najran). |
 
-Since **April 10** the theater has been struck at least six times on production/refining/export assets — VTTI Fujairah (5/4), the KOC platform (7/12), Mangaf (7/18), **Aramco's 400 kbpd Jazan refinery (7/25)** and **Abqaiq (7/27, HIT — fire confirmed, no capacity loss)** — and produced **zero confirmed CRUDE-production losses**, against an acute-phase record of **11 operational-class events in 41 days**. **The crude record is real and it survived the 7/29 resumption. The all-molecule version of it never was.**
+Since **April 10** the theater has been struck repeatedly on production/refining/export assets — VTTI Fujairah (5/4), the KOC platform (7/12), Mangaf (7/18), Jazan (7/25 · 8/9 · 8/13 claim · 9/7 · 9/8), Abqaiq (7/27, fire, no capacity loss), Berri gas plant (8/9) — and produced **zero confirmed CRUDE-production losses**, against an acute-phase record of **11 operational-class events in 41 days**. **The crude record is real, correctly instrumented since 7/30, and it survived everything since.**
 
-What *is* priced is **willingness to move a hull**. War-risk premia across four legs of the *same war, same belligerents* span **75-100×** — 7.5-10% of hull value through Hormuz, >1% southern Red Sea, ~0.5% Bab, **0.1% West Coast Saudi** — differing purely by which water the hull crosses. That is a **transit-risk market**, not a production-risk market.
+What *is* priced is **willingness to move a hull**. War-risk premia across four legs of the *same war, same belligerents* span **75-100×** — 7.5-10% of hull value through Hormuz, >1% southern Red Sea, ~0.5% Bab, **0.1% West Coast Saudi** — differing purely by which water the hull crosses. ⚠️ **Those figures are 48 days old (Marsh/Platts 7/22) and no newer primary exists; and the Iranian half of the market is structurally unwritten** — the IG P&I Clubs will not cover Iranian voyages, so a campaign that destroys Iranian hulls produces **zero signal** in every Western series (`KB-FALCON-128`). That is a **transit-risk market for GCC and third-party hulls**, not a production-risk market.
 
-**One-liner:** The war reprices freight, not **crude** barrels — it has already taken **gas** and **product** barrels — and **FAL-04 is the dated test of the crude leg.**
+**One-liner:** The war reprices freight, not **crude** barrels — it has already taken **gas** and **product** barrels — **it is now destroying Iranian export HULLS at a rate Iran sets by shooting at US warships** — and **FAL-05 is the dated test of the crude leg.**
 
-### The second structural fact: two counter-moving wars in one theater
+### The second structural fact: counter-moving wars in one theater, and they have both re-lit
 
-As of 7/24-27 the theater is no longer one conflict:
-
-| | Direction | Evidence |
+| | Direction (9/8) | Evidence |
 |---|---|---|
-| **US-Iran** | 🔴 **RE-ESCALATING** *(was DE-ESCALATING in v2.0 — reversed within four days)* | The 7/24 pause **died 7/28** (IRGC ballistics at a US base in Jordan); **CENTCOM "heavy wave" vs dozens of IRGC targets 7/29**; Iran launching daily; **KUWAIT struck 7/30, the exchange's FIRST FATALITY**. ⚠️ But the mediation track did **NOT** collapse — Iran hosted Hormuz calls with **Saudi + Oman** 7/28. |
-| **Saudi-Houthi** | 🔴 **ESCALATING** | Four-year truce **broken**; Jazan **shut**; Bab traffic **−56%** |
-| **Iraqi militias** | 🔴 **ACTIVE, and the loop closed** | Abqaiq drones from Iraqi territory 7/27 → **US *and Saudi* struck Iraq 7/29** |
+| **US-Iran** | 🔴 **TANKER WAR** *(paused 7/29→8/30 for 32 nights; resumed at Larak 8/30; campaign 8/30 · 9/1 · 9/5 · 9/8)* | IRGC ballistic missiles at US warships **9/5, 9/6, 9/7** (all evaded) → CENTCOM destroyed/disabled **8 Iranian export tankers** (Kylo **SUNK** 9/5; seven afloat). Rubio 9/8: *"every time Iran tries to hit US Navy ships, it will lose tankers."* Iran declares a Hormuz **"restricted zone"** (9/6), doubles a gasoline price it fears (9/8), and warns tankers **in Kuwaiti/Bahraini ports** to evacuate (9/8-9). **The FIXED energy complex on both sides is still spared.** |
+| **Saudi-Houthi** | 🔴 **RE-IGNITED on LAND** | 121 Saudi airstrikes 9/5–9/7 → Houthi salvo on **four Saudi cities** 9/8 (73 civilians injured; Aramco product sites burning) after a Jazan hit 9/7; ROYG offensives in Hudaydah/Taiz. **Product assets, not the crude spine; Yanbu/Petroline unfired.** |
+| **Iraqi militias** | 🟡 **QUIET on oil targets since 7/29** | CTP-ISW 9/7 *"nothing significant."* **Dated catalyst: the US withdrawal deadline 2026-09-30.** |
 
-> ⚠️ **v2.0 read the pause as de-escalation four days before it died. HAW-06's deferral-dynamic anchor was the right guard and it should have been weighted harder: this conflict produces armed pauses, not clean breaks — and the same anchor now cuts against reading the resumption as permanent.**
+> ⚠️ **HAW-06's deferral-dynamic anchor was right twice — the 7/24 pause died in four days, and the 7/29 "resumption" became a 32-night pause.** It now cuts against reading the tanker war as a permanent state exactly as hard as it cut against reading either pause as an ending. **Hold the marks loosely; hold the rails firmly.**
 
-**A single convergence scalar cannot express this** — the composite *fell* 2 points in the week the theater took its first Aramco production-class hit since 2022. That is the direct reason the **P/R split** is now published alongside it.
+**A single convergence scalar cannot express this** — 43/50 has been UNCHANGED since 7/30 across a sinking, a five-hull strike and a four-city salvo, because **seven of ten vectors sit at ceiling.** That is why the **P/K/R split** is published alongside it, and why v2.2 says plainly that the composite is structurally blind to this month.
 
 ---
 
-## THREE TRANSMISSION CHANNELS
+## FOUR TRANSMISSION CHANNELS
 
-*(These replace v1.2's channels entirely. v1.2's Channel 1 was a deadline; Channel 2 has decayed into ⓶ below; Channel 3's accidental-escalation ladder is folded into ⓷ as one actor axis among four.)*
+*(v2.0 had three. v2.2 adds ⓸ because the 9/5–9/8 campaign had no representable route on this surface — the same "unrepresentable, not unnoticed" defect that produced `VX-FALCON-GASLNG-01`.)*
 
 ### ⓵ LIVE — Premium channel: willingness-to-move-a-hull → freight/insurance/routing → price
 
-**This is the channel that has actually been transmitting all year.** Mechanism: kinetic risk → war-risk premia and routing avoidance → freight cost and transit collapse → oil price *without any crude barrel being destroyed*. Hormuz transits run at **10/88 (11%)** of the pre-war baseline [PortWatch, newest print 7/23] while the bypass carries the volume.
+**The channel that has transmitted all year.** Mechanism: kinetic risk → war-risk premia and routing avoidance → freight cost and transit collapse → oil price *without any crude barrel being destroyed*. Hormuz transits run at **6/88 (7%)** of the pre-war baseline [PortWatch, newest print 8/30, own pull 9/8 — DEEPENING] while the bypass carries the volume; Kpler counts ~10 commodity ships/day (a different denominator).
 
-**Status: near-saturated. P = 23/25 (92% of ceiling)** — only 2 points of headroom left. Routes: `FLOW-HAWK-01` (Hormuz→oil), `FLOW-HAWK-12` (mining→insurance lag).
+**Status: saturated. P = 23/25** — only macro (LIQUID's) has headroom. Routes: `FLOW-HAWK-01` (Hormuz→oil), `FLOW-HAWK-12` (mining→insurance lag).
 
-**⚠️ The non-hermetic caveat is load-bearing: a collapsed transit count is NOT a collapsed export volume.** The Oman-hugging southern route runs, STS transfers continue at Fujairah/Sohar, and the bypass gauge reads **HOLDING — 100,068 t/d vs a 20,105 floor** [thru 7/24]. **Throughput ROSE ~43% in seven days of data**, so the bypass is not merely holding but absorbing materially more. **This is the reconciler between an 11% transit print and zero lost crude barrels** — drop it and the whole thesis reads as a contradiction. ⚠️ **Do not hardcode the floor: it is 30% of a rolling 60d mean and moved 15,684 → 16,224 → 20,105 in 14 days; a stale LOW floor fails FALSE-NEGATIVE.**
+**⚠️ The non-hermetic caveat is load-bearing: a collapsed transit count is NOT a collapsed export volume.** The Oman-hugging southern route runs **with US assistance** (CTP-ISW 9/7), STS transfers continue at Fujairah/Sohar, and the bypass gauge reads **HOLDING — 85,916 t/d vs a 25,095 run-time floor** [print 8/28, own run 9/8]. **This is the reconciler between a 7% transit print and zero lost crude barrels.** ⚠️ **Do not hardcode the floor: it is 30% of a rolling 60d mean and has moved 15,684 → 16,224 → 20,105 → 25,095 since July; a stale LOW floor fails FALSE-NEGATIVE. Read it from a live `bypass_watch.py` run.** 🆕 Iran's **restricted zone** (9/6) is an attempt to re-price this channel by decree — a sanctions list for non-coordinated transits — and is **unenforced as of 9/8**.
 
-### ⓶ 🔴 ACTIVATED (was "DORMANT" in v2.0) — Supply-loss channel: physical damage → confirmed barrels offline → price
+### ⓶ 🔴 ACTIVATED — Supply-loss channel: physical damage → confirmed barrels offline → price
 
-⚠️ **NO LONGER DORMANT — THIS CHANNEL HAS FIRED, ON TWO MOLECULES, AND ONE OF THEM FIRED IN MARCH.** Mechanism: facility destruction → capacity offline → FM/export interruption → structural repricing. Routes: `FLOW-HAWK-06` (Gulf production shutdown → global supply, **still unfired — this is the CRUDE leg**), **`FLOW-FALCON-01`** (LNG trains → force majeure → Asian/European winter inventory, **FIRED since March**), **`FLOW-FALCON-02`** (refinery outage → product cracks, **FIRED 7/27**).
+**Fired on two molecules; the CRUDE leg has not fired in 193 days.** Mechanism: facility destruction → capacity offline → FM/export interruption → structural repricing. Routes: `FLOW-HAWK-06` (Gulf production shutdown → global supply, **still unfired — the CRUDE leg**), `FLOW-FALCON-01` (LNG trains → force majeure, **FIRED since March**), `FLOW-FALCON-02` (refinery outage → product cracks, **FIRED 7/27**, reinforced 9/7–9/8 without increment).
 
-**Status: R = 13/20 (was 8).** R1 confirmed barrels offline **3/5** (400 kbpd of *refining*; confirmed *crude production* offline is still **ZERO**) · R2 active FM **4/5** (Ras Laffan, live since March — **it was NEVER correctly at 1/5**) · R3 export interruption **1/5** · R4 physical damage **5/5**.
+**Status: R = 13/20, unchanged since 7/30.** R1 confirmed barrels offline **3/5** (400 kbpd of *refining*; confirmed *crude production* offline **ZERO**) · R2 active FM **4/5** (Ras Laffan) · R3 export interruption **1/5** (Will-ruled HOLD 8/15) · R4 physical damage **5/5**.
 
-> **🔑 R3 IS THE LAST FLOOR ROW STANDING, AND IT IS EFFECTIVELY THE WHOLE SURVIVING THESIS.** v2.0 said *"R1/R2/R3 are all at the absolute floor."* That was wrong on R2 the day it was written and is now wrong on R1 too. **The reason the error survived: every FALCON instrument counts KINETIC STRIKES on OIL — a force majeure is not a strike and LNG is not oil, so a four-month supply loss was unrepresentable, not merely unnoticed.** Fixed structurally: `VX-FALCON-GASLNG-01` + `FLOW-FALCON-01`.
+> **🔑 R3 IS THE LAST FLOOR ROW STANDING, AND IT IS EFFECTIVELY THE WHOLE SURVIVING THESIS.** ⚠️ **And R is GCC-market-scoped by construction: it cannot see the Iranian export chain** — 8 hulls destroyed, August Kharg loadings 251 kb/d, floating stock outside the blockade 90M→29M bbl (Kpler). That lives on ⓸, not here. **Do not re-scope R mid-event.**
 
-**⚠️ Dormant ≠ safe. Two things make this channel violent if it activates:**
-1. **OPEC spare capacity is 0.02 mb/d, Middle East 0.00** — there is no buffer under the next event.
-2. **P is nearly exhausted**, so the composite would *under-state* an R-regime. **Grade R directly.**
+**⚠️ Two things make this channel violent if the crude leg activates:** OPEC spare capacity **0.02 mb/d (Middle East 0.00)** — no buffer; and **P is exhausted**, so the composite would *under-state* an R-regime. **Grade R directly.**
 
-### ⓷ THE CHANNEL v1.2 DIDN'T HAVE — Actor proliferation: new belligerents reach the asset class
+### ⓷ Actor proliferation: new belligerents reach the asset class
 
-**This is the lesson FAL-01 was killed to teach, promoted to a first-class channel.** FAL-01 priced *US-Iran* mutual restraint around the energy complex at 70%. **That restraint held to the very end.** The prediction failed because a **third belligerent pair never modelled** could reach the same asset class.
+**The lesson FAL-01 was killed to teach, promoted to a first-class channel** — a prediction written over an ASSET CLASS is exposed to every belligerent who can reach that class. **Four live axes as of 9/8:** (a) US→Iran [**TANKER WAR**, hulls not facilities] · (b) Iran→Gulf allies [Jordan salvos 8/31 · 9/1 · 9/8; UAE missiles 8/18; **threat to tankers in Kuwaiti/Bahraini ports 9/8-9** — the class the ladder cannot yet record] · (c) **Houthi→Saudi** [re-ignited 9/7–9/8, product assets] · (d) **Iraqi militias→Gulf** [quiet since 7/29; 9/30 deadline]. Israel→Iran energy: **dormant, re-verified 9/8** (`KB-FALCON-146`). **A fifth actor is a re-registration trigger, not an exculpation** — clause carried into FAL-05.
 
-> **A prediction — or a thesis — written over an ASSET CLASS is exposed to every belligerent who can reach that class, not just the ones whose behaviour justified the confidence.**
+> ⚠️ **AND THE AXIS THAT KILLED FAL-03 WAS A MOLECULE, AND THE AXIS THAT MADE GATE 2 AMBIGUOUS WAS THE ATTACKER.** Closing the axis that just failed is necessary and not sufficient — it is the axis least likely to fail next. v2.2 names the attacker axis explicitly: `VX-FALCON-SUNK-01` now splits **(iii-A)** Iran/proxy attacker on a non-Iranian hull (the insurance-shock + capacity-destruction event the D→75 trip was priced on; **n=0, under explicit IRGC threat**) from **(iii-B)** US attacker on a sanctioned-Iranian hull (**n=1**, export-chain interdiction). Base rate `KB-FALCON-142`: Iran/proxy attacks have sunk **0 of ≥17** non-Iranian tankers hit; the US has sunk **1 of 9** Iranian hulls. **Two different generating processes.**
 
-**Four live axes, ALL ACTIVE as of 7/30:** (a) US/Israel→Iran [**RESUMED 7/29**] · (b) Iran→Gulf allies [**ACTIVE — daily launches; Kuwait fatality 7/30**] · (c) **Houthi→Saudi** [the axis that broke FAL-01] · (d) **Iran-aligned Iraqi militias→Saudi/Gulf** [Abqaiq 7/27; US+Saudi retaliated into Iraq 7/29]. **A fifth actor is a re-registration trigger, not an exculpation** — clause carried into FAL-04.
+### ⓸ 🆕 v2.2 — Export-chain interdiction: US strikes on Iranian export HULLS → sanctioned barrels leave the market
 
-> ⚠️ **AND THE AXIS THAT ACTUALLY KILLED FAL-03 WAS NOT AN ACTOR AT ALL — IT WAS A MOLECULE.** This channel was promoted to first-class because FAL-01 died on the actor axis, and the fix was implemented correctly. It did not help: the next failure came through a dimension nobody had named. **Closing the axis that just failed is necessary and is not sufficient — it is the axis least likely to fail next.**
+**The channel the 9/5–9/8 campaign opened, and the first in this war by which the CRUDE premium regime could become a supply-loss regime without a facility being touched.** Mechanism: IRGC launch at a US warship → CENTCOM destroys/disables Iranian export tankers (crews evacuated first) → shadow-fleet hull count falls → Iranian liftings constrained → sanctioned barrels leave the market (crude-**bullish**) → *and separately* a repricing of **Iranian-linked** freight that **no Western war-risk series can see**. Route: `FLOW-FALCON-03` (LIVE-ESCALATING; 8 hulls by 9/8).
+
+**Three properties that bound it:** ① **it is RATE-driven by Iran** — three IRGC launches in three days produced three then five hulls under a rule Rubio stated aloud; ② **hulls-to-barrels is unquantified by anyone** — nobody holds an Iranian export-hull census, my Kharg AIS instrument is impeached, and TankerTrackers-class satellite routes are relayed, not held; ③ **the barrels it competes to remove are already ~87% gone under the blockade** (Kpler: afloat-outside-blockade 90M→29M since mid-July, ~1 mb/d still delivering to China from stock, exhaustion ~mid-October; August Kharg loadings 251 kb/d) — so its marginal effect on Brent is smaller than its headline, and its *signal* value (declared US economic-cost doctrine against energy assets) is larger than its barrel value. **FAL-05 tests this channel too:** hull losses alone do not fire it, but a ≥72h crude-loading suspension at Kharg on two dark-immune routes (route c, new initiating cause 9/8 — the Derya was struck AT Kharg) would.
 
 ---
 
-## KEY THRESHOLDS
+## KEY THRESHOLDS (re-graded 2026-09-08)
 
-> ⚠️ **UPDATED 2026-07-30 — THE FIRST TWO ROWS WERE WRONG, AND ROW 2 WAS WRONG WHEN WRITTEN. FAL-03 IS DEAD; ITS SUCCESSOR IS FAL-04 (crude/condensate ONLY, NEW-cause ONLY).** The thesis's core claim is now **MOLECULE-SPLIT**: PREMIUM regime holds for **CRUDE**; SUPPLY-LOSS regime already obtains for **GAS** (Ras Laffan, since March) and **REFINED PRODUCT** (Jazan, since 7/27). Full post-mortem → `PREDICTIONS.tsv` FAL-03 Outcome + `KB-FALCON-063`.
-
-| Level | Significance | Status (2026-07-30) |
+| Level | Significance | Status (2026-09-08) |
 |---|---|---|
-| **Jazan damage assessment** | Converts ⓶ from dormant to live | ✅ **EXISTS — and it converted ⓶.** Aramco **SHUT** the 400 kbpd refinery **7/27**; restart tentatively **8/15** [Reuters/IIR 7/28]. The new watch item is **whether it restarts on schedule**. |
-| **Any Gulf/Iran force majeure** | FAL-03 route (a) → now FAL-04 route (a) | 🔴 **FIRED — AND IT WAS NEVER 🟢.** QatarEnergy FM on LNG **live since 2026-03-24**, ~17% of Qatar's export capacity, **3-5 year** repair, extended to **Asian** buyers 7/28. I wrote "None current" without checking whether it had been **lifted** — a March **event** treated as a closed **state**. ⚠️ **FAL-04 route (a) is CRUDE/CONDENSATE-only and NEW-cause-only, so this row does NOT pre-fire it.** |
-| **≥100k bpd offline ≥7 days** | FAL-03 route (b) → now FAL-04 route (b) | 🔴 **FIRED on FAL-03** (Jazan 400 kbpd, from 7/27). ⚠️ **Does NOT fire FAL-04**, which is crude-only and requires the 7 days to actually **elapse**. |
-| **Loadings suspended ≥72h, named terminal** | FAL-03 route (c) → now FAL-04 route (c) | 🟢 **Unfired** — Yanbu −23-32% is a **decline, not a stop**; Bab −56% is P-attributable routing |
-| **WC Saudi war-risk 0.1% rising** | 🎯 Transit→origin migration = **P→R conversion** | 🟢 Flat — *cheapest early warning on the board* |
-| **Bypass < the ROLLING floor** (30% of trailing-60d mean) | Shuttle breakage | 🟢 **HOLDING** — **100,068 t/d vs a 20,105 floor** [thru 7/24, re-run 7/30]. ⚠️ **DO NOT HARDCODE THE FLOOR — IT MOVES, AND A STALE ONE FAILS FALSE-NEGATIVE.** It has gone **15,684 (7/10 data) → 16,224 (7/17) → 20,105 (7/24) = +28% in 14 days** as the bypass absorbs more traffic. This table carried **16,224** until 7/30. A throughput of ~18,000 would read *above* the stale floor (no alarm) and *below* the true floor (alarm) — **the stale direction is the one that misses the event.** Always read the floor from a live `bypass_watch.py` run, never from a document. |
-| **US strikes resume** | Pause is munitions-constrained, not intent | 🟡 3 nights held |
-| **Dated Oman framework** | B flip-up (needs framework **+ a date**) | 🟡 Talks progressing; **no date** |
-| **Second, larger salvo at Yanbu** | Frame-breaker — 92% of Saudi seaborne crude | 🟢 Unfired; defence is *consumable* |
-| **Vessel confirmed SUNK / mine detonation on a hull** | Hard gate | 🟢 Unfired in-theater |
+| **Jazan restart confirmed by Aramco** | Product leg reverts; R1 re-bases | ❌ **Never confirmed** — IIR's 8/15 then 8/30 estimates lapsed; struck again 9/7 + 9/8. **Five events, one loss.** |
+| **Any Gulf/Iran crude/condensate FM** | FAL-05 route (a) | 🟢 **Unfired** — the live FMs are GAS (Ras Laffan, March) and continuation-class, expressly excluded. |
+| **≥100k bpd of CRUDE production/export capacity offline ≥7 elapsed days** | FAL-05 route (b) | 🟢 **Unfired** — Jazan is refining; hull losses are hulls; Kpler's floating-stock drawdown is a blockade effect (pre-window cause). |
+| **CRUDE loadings suspended ≥72h at a NAMED terminal, two independent routes** | FAL-05 route (c) | 🟢 **Unfired — WATCH KHARG** after the Derya strike (9/8, new cause); grade only on dark-immune routes. |
+| **WC Saudi war-risk 0.1% rising** | 🎯 Transit→origin migration = **P→R conversion** | ⚠️ **UNGRADED 48 days** — no primary since 7/23; the registered falsifier leg is blind until one prints. |
+| **Bypass < the ROLLING floor** | Shuttle breakage | 🟢 **HOLDING — 85,916 t/d vs 25,095** [run 9/8, print 8/28]. Floor MOVES; read it from the run. |
+| **US strike tempo NIGHTLY / target set into ENERGY** | D-indicator #3 | ✅ **ENERGY limb FIRED 9/5** (tankers, reinforced ×5 on 9/8) · ❌ nightly limb unfired (every 2–4 days). |
+| **Vessel confirmed SUNK / mine detonation on a hull** | Hard gate | ✅ **FIRED 9/5 — M/T Kylo** (class-(iii-B): US attacker, empty sanctioned hull). Total losses 2. No second sinking as of 9/8. |
+| **A class-(iii-A) sinking — Iran/proxy sinks a NON-Iranian tanker** | The event GATE 2 was priced on | 🟢 **n=0 — and under explicit threat** (Kuwait/Bahrain in-port warning 9/8-9). ⚠️ **No rung registered to receive it** (DOCKET L300). |
+| **IRGC/proxy hit on a merchant hull IN a GCC port or anchorage** | Gulf-state-territory targeting of third-party shipping | 🟢 **Zero precedent in 193 days; class NAMED by the IRGC 9/8-9.** Proposed D→85 trigger (c). |
+| **Dated Oman framework** | B flip-up (needs framework **+ a date**) | 🟡 INTERIM framework 8/26 (temporary ~7-mile corridor + mine clearance); permanent-route window **9/25–10/26** (DOCKET L229); **no date**; Rezaei: *"under Iran's management."* |
+| **Second, larger salvo at YANBU / the Petroline** | Frame-breaker — 92% of Saudi seaborne crude | 🟢 Unfired — the 9/7–9/8 salvos hit Jazan/Abha/Najran, ~700 km south. |
+| **A rung above D 75** | The ladder's ability to record any of the above | ⛔ **NOT REGISTERED.** D→85 PROPOSED 9/8 with four base-rated triggers + non-triggers (`reports/2026-09-08_theater-catchup-and-ladder-proposal.md` §3). **Will's word registers it.** |
 
 ---
 
 ## SCENARIO FRAMEWORK — 3-tier (B/C/D)
 
-**⚠️ v1.2's 4-tier A/B/C/D ladder is RETIRED.** The live regime has no "Scenario A" and **D is a re-escalation *ceiling*, not a discrete collapse/nuclear tier.** Anyone still citing a 4-tier ladder for FALCON is reading a superseded document.
+**⚠️ v1.2's 4-tier A/B/C/D ladder is RETIRED.** The live regime has no "Scenario A" and **D is a re-escalation *ceiling*, not a discrete collapse/nuclear tier** — **and as of 9/8 the ceiling is literal: nothing is registered above D 75.**
 
-### B — Deal / Verified Reopen — **10%**
-Strikes halted (two-sided, 3 nights) and Oman-Iran Hormuz talks progressing. **Only 10 because the registered band needs BOTH legs and there is no framework with a date** — half-met, half-credit. The channel is **mediated, not bilateral** (Iran MFA 7/27: no negotiations with the US).
-**Flip up (→≥20):** dated framework + verified reopening steps. **Flip down (→≤5):** strikes resume.
+### B — Deal / Verified Reopen — **3%**
+Registered flip-down (*"strikes resume"*) fired 7/29 (10→5) and the 9/7 trip took another 2. The Oman track is alive — interim framework 8/26, permanent-route window opens 9/25 — but Rezaei now frames the corridor as *"under Iran's management"*, and there is **no date**. **Flip up (→≥15):** dated framework + verified Hormuz reopening steps.
 
-### C — Grind / Armed Stalemate — **40%**
-The registered flip ("strikes halt 72h + framework lands") is **half-met**, and the current picture *is* the C definition: oscillating conflict, intercepted salvos, talks alive but stuck, blockade running. Iran's halt is explicitly conditional — *"attack for attack."*
+### C — Grind / Armed Stalemate — **22%**
+*"Oscillating, mostly-intercepted salvos with talks alive but stuck"* is still partly descriptive — every IRGC launch has been evaded, every Jordan salvo intercepted, no US casualty — and less so each day the tanker war converts launches into hulls. C absorbed 8 of the 9/7 trip's −10.
 
-### D — Full Re-escalation / Damage Regime — **50%**
-**Down 15 from 65 — but its composition changed rather than simply draining.** A physical gate FIRED (Jazan), the Saudi-Houthi truce broke, Iraqi militias entered, war-risk is at war-highs, and the **blockade remains in FULL EFFECT** (the pause covers strikes only).
-**⚠️ The pause's cause is a MUNITIONS constraint, not intent** — Adm. Cooper: target list "nearly exhausted"; CJCS Caine on Patriot/Tomahawk strain. **Reading intent into a supply constraint is the most available mistake in this theater**, and it implies the next move is a **step change**, not a resumed tempo.
-**Not lower because:** zero spare capacity means the next event transmits at full force.
+### D — Full Re-escalation / Damage Regime — **75%**
+**75 is Will's ABSOLUTE destination (ruled 8/6) for a class-(iii) hull loss, reached 9/7 on the Kylo sinking. It is HELD at 75 on 9/8 as a RAIL CAP, not as a judgement that escalation stopped** — eight hulls, a four-city Saudi salvo, a third Jordan salvo, an in-port tanker threat, a declared restricted zone and Brent at $99 produced zero registered movement because the ladder has no headroom and seven of ten convergence vectors are at ceiling. **The desk did not invent a rung mid-event; it base-rated one and proposed it.** Why 85 and not more: with B 3 / C 22, an 85 leaves C ≥12 while the Oman window breathes; above 85 the ladder would be measuring the supply-loss regime, which is FAL-05's and the thesis-kill table's job.
 
 ---
 
 ## CONVICTION
 
-**MEDIUM-HIGH on the regime call** (premium-not-supply-loss). It is quantified, reproducible from my own ledger, and has survived a broken truce plus a burning Aramco refinery.
+**MEDIUM-HIGH on the regime call** (premium-not-supply-loss, crude-scoped). Quantified, reproducible from the ledger (152-day crude zero), and it has now survived a broken truce, five refinery strikes, a 32-night pause, a resumed campaign and an eight-hull tanker war.
 
-**MEDIUM on the marks.** The 15-point D cut rests on three quiet nights caused by an ammunition shortage, in the week the theater took its first production hit since 2022 and gained a third belligerent. **That is the weakest joint in the read**, and I hold it as such — it is why D stopped at 50 rather than lower, and why the munitions cause is written *into* the mark rather than around it.
+**MEDIUM on the marks.** The −10 split of the 9/7 trip (8 from C, 2 from B) is the desk's; the 75 is not. The weakest joint is that C at 22 still credits *"talks alive"* on a track Iran has begun describing as its own to manage.
 
-**⚠️ HAW-06 DEFERRAL-DYNAMIC ANCHOR applies at full force: this conflict produces armed pauses, not clean breaks.** It cuts against reading the pause as an ending exactly as hard as it cuts against reading Jazan as a beginning.
+**LOW on the ladder as an instrument above 75 — and that is a statement about the apparatus, not the world.** Until Will rules on the rung, a class-(iii-A) sinking or an in-port hull hit would be graded, recorded, and unable to move the mark. **That is the desk's binding defect and it is on the docket (L300).**
 
 ### Thesis break condition — pre-registered, and it is a live prediction
 
-> **FAL-04 (62%, Jul 30 – Aug 20): no NEW confirmed loss of Gulf-ally or Iranian CRUDE/CONDENSATE supply to market** — product/LPG/LNG **expressly excluded**; **NEW** = initiating cause on/after 7/30; route (b)'s 7 days must **actually elapse**. FM declared / ≥100k bpd offline ≥7 days / loadings suspended ≥72h at a named terminal.
+> **FAL-05 (55%, 2026-09-07 → 2026-10-07): no NEW confirmed loss of Gulf-ally or Iranian CRUDE/CONDENSATE supply to market** — product/LPG/LNG expressly excluded; NEW = initiating cause on/after 9/7; **no attacker exemption** (Iranian sanctioned barrels are market supply and a US-caused loss counts); **hull losses alone do not fire it** — only routes (a) FM / (b) ≥100k bpd offline ≥7 elapsed days / (c) ≥72h suspension at a named terminal on two independent routes; third resolvability branch carried (*outage persists AND is affirmatively confined to excluded molecules ⇒ contributes to CONFIRMED*).
 
-⚠️ **FAL-03 — the v2.0 version of this test — ALREADY FIRED, on 2026-07-30, and partly because it was TRUE THE DAY IT WAS WRITTEN** (a QatarEnergy LNG force majeure live since 2026-03-24). **⓶ has ALREADY ACTIVATED on gas and refined product; what FAL-04 now tests is the CRUDE leg alone.** **If FAL-04 FIRES, the crude leg is broken too**, the P→R conversion is complete, and every cross-agent read-through resting on "zero confirmed **CRUDE** barrels offline" needs revision **simultaneously** — that is the correlated-failure node, and it now has a tripwire instead of a vibe. **If it expires CONFIRMED**, the regime call survives a broken truce, a burning refinery and a third belligerent axis, and becomes considerably more robust.
-
-**Registered text in `thesis/PREDICTIONS.tsv` is canonical** (HAW-10 discipline — reference it, don't restate it). Derivation: `thesis/FAL-01_REREGISTRATION_SCAFFOLD.md`.
+**Lineage:** FAL-03 (58%) FAILED 7/30 on day 4 — already true at registration (LNG FM) + Jazan; FAL-04 (62%) resolved **PARTIALLY** 8/20 — no route fired, the crude claim held, capped by its own closed-menu resolvability guard. **If FAL-05 FIRES, the crude leg is broken, the P→R conversion is complete, and every cross-agent read resting on "zero confirmed CRUDE barrels offline" needs revision simultaneously** — the correlated-failure node, with a tripwire. **If it expires CONFIRMED**, the regime call has survived the tanker war and the southern salvo and is considerably more robust. **Registered text in `thesis/PREDICTIONS.tsv` is canonical** (HAW-10 — reference it, don't restate it).
 
 ---
 
-## CROSS-AGENT LINKS
+## CROSS-AGENT LINKS (9/8)
 
-- **→ BRENT** *(oil levels are BRENT's, per the OIL HANDOFF banner — I supply military inputs only)*: Jazan is a **refinery** = crude-**bearish**/product-bullish; **Yanbu is the artery** = the frame-breaker. Clean instrument is **cracks and diesel, not flat crude**. Adopt **92%** for Yanbu's share of Saudi seaborne crude (retire >70%). **Stop using the Abqaiq 2019 base rate** — it fails on magnitude, asset class *and* buffer. Your $110-118 tail-rider is **R-driven**, and P has ~2 points left.
-- **→ HENRY:** vol catalyst cut **both ways in 72h** — campaign paused (−) vs first Aramco hit since 2022 + Iraqi militias entering (+).
-- **→ LIQUID / REGINALD:** I carry **no** credit level. The tape repriced hard *downward* this week — the "no stress beneath it" read needs a fresh look in the opposite direction.
-- **→ SAM:** Japan exposure remains **premium, not physical shortfall** — transits at 17%, Bab −56%, but the bypass runs and Brent is *falling*.
-- **→ CARL:** crude base for the 2-3wk pass-through lag is **$90.21** [7/30] — but **400 kbpd of refining is now offline**, so this transmits through **product cracks**, not flat crude (`FLOW-FALCON-02`).
-- **→ HAWK:** cross-war synthesis via `NEXUS_BRIEF.md`. The "severity legs unfired while willingness/premium legs fire" shape holds in **both** theaters.
-- **→ SAM:** 🔴 **correction owed and delivered** — "premium, not physical shortfall" was **wrong on the molecule that matters most to Japan**. ~17% of Qatar's LNG capacity has been offline since March on a 3-5yr horizon, extended to **Asian** buyers 7/28. ⚠️ The gas **price** leg is SAM's, not mine — and if JKM/TTF absorbed it without repricing, that cuts the other way.
-- **→ PROME / RED:** P/R split **implemented and vindicated** (R +5 vs composite +3 on 7/30). ⚠️ **RED's red-team of FAL-03's derivation is OVERTAKEN — that row is dead and died of a defect neither of us named. The live target is FAL-04's 62%: is crude-only scoping rigour, or a retreat to a claim I can win?**
+- **→ BRENT** *(oil levels are BRENT's — I supply military inputs only)*: the crude frame survives; **your exposure is ⓸** — eight Iranian export hulls, rate-driven by IRGC launches, unquantified in barrels, and bounded by your own Kpler floating-stock series. **The IRGC's in-port threat to tankers in Kuwait/Bahrain is the first class your corridor war-risk instruments would actually price.** Saudi 9/7–9/8 is product-side: cracks, not flat crude. Yanbu is still the artery (92%); the Abqaiq 2019 base rate still fails on magnitude, asset class and buffer.
+- **→ HAWK:** cross-war synthesis via `NEXUS_BRIEF.md`. Shadow-fleet/enforcement synthesis is yours — ⓸ sits in your lane; **your view on the (iii-A)/(iii-B) split is asked before Will rules on L300.**
+- **→ HENRY:** catalysts stacked and none priced by my composite (eight hulls, in-port threat, a Saudi salvo with 73 injured, $99 Brent, VIX 15.72 on 9/8 — the number and the duration are yours).
+- **→ SAM:** the Qatar LNG shortfall is **physical** (since March); Qatar's own FM now says *"industrial catastrophe"* — a state-level ceiling claim on the remaining ~83%. JKM/TTF is yours; if Asian gas has absorbed a 17% outage without repricing, that is itself a finding.
+- **→ CARL:** crude base for the pass-through lag is **$99.45** [9/8]; the product leg widened (Jazan again + three distribution sites) — cracks carry it.
+- **→ LIQUID / REGINALD:** no credit level carried here; an in-port hull hit on Gulf-state territory is a different risk-off class from a transit hit.
+- **→ PROME / RED:** the desk's binding defect is the **rail cap**; L301 discharged, **L300 proposal shipped with base rates**. RED: attack the L300 trigger set, especially (c) — zero precedent, which is both why it matters and why its base rate is weakest.
 
 ---
 
-## EXIT PROTOCOL STATUS
+## EXIT PROTOCOL STATUS (summary — canonical detail in `workbook/EXIT_PROTOCOL.md`; do not maintain a second copy)
 
-**Canonical detail → `workbook/EXIT_PROTOCOL.md` (Iran-coded, FALCON's live rail). Summary only here — do not maintain a second copy.**
-
-| # | Criterion | Status |
+| # | Criterion | Status 2026-09-08 |
 |---|---|---|
-| 1 | Ceasefire credible hold | ❌ **PAUSE, not ceasefire** — 3 nights, munitions-constrained, blockade still in full effect |
-| 2 | Hormuz reopened + verified | ❌ Talks progressing, **no dated framework**; transits **10/88** [PortWatch, newest print 7/23] |
-| 3 | Mine clearance complete | ❌ Mines present, clearance ongoing, **no detonation on a hull** [UKMTO/JMIC 067/068/073/074] |
-| 4 | Insurance reinstatement | ❌ **Opposite direction** — Hormuz 7.5-10%/hull, at war-highs |
-| 5 | Brent normalization <$80 | ❌ **$88.19** — fell hard, but not through the level |
-| 6 | Infrastructure repair timelines | ❌ No Jazan assessment at 3 days |
+| 1 | Ceasefire credible hold | ❌ **Tanker war** — IRGC launches 9/5–9/7, US strikes 9/5 + 9/8; blockade in full effect |
+| 2 | Hormuz reopened + verified | ❌ Interim Oman framework 8/26, **no dated permanent route**; transits **6/88** [PortWatch 8/30]; Iranian "restricted zone" declared |
+| 3 | Mine clearance complete | ❌ Lanes cleared late Aug (CENTCOM); Larak minelaying party struck 8/30; **no detonation on a hull** |
+| 4 | Insurance reinstatement | ❌ **Opposite direction and unmeasured 48 days** — Hormuz 7.5-10%/hull [7/22]; Iranian half structurally unwritten |
+| 5 | Brent normalization <$80 | ❌ **$99.45** [9/8] — the 8/4–8/5 excursion below $80 was two sessions, not sustained |
+| 6 | Infrastructure repair timelines | ❌ Jazan restart never confirmed; struck again 9/7 + 9/8 |
 | 7 | Emergency-facility override (BTFP 2.0 class) | 🟢 N/A — not invoked |
 
-**Progress: 0/7.** *(v1.2 also read 0/7 — but for the opposite reason: then the war was escalating into a deadline; now criteria fail because a pause is not a resolution.)*
+**Progress: 0/7.** *(A sunk tanker is a hull, not a barrel; eight disabled hulls are not barrels either.)*
 
 ---
 
-*Living document. **Next rewrite trigger:** **FAL-04** resolving either way, a fifth belligerent axis, or a dated Oman framework — any of which changes the structure, not just the numbers. Routine mark moves belong in `STATUS.md`, not here.*
+*Living document. **Next rewrite trigger (DATED — read this line at every closeout step 11; the v2.1 trigger fired 8/20 and sat unread 19 days):** FAL-05 resolving (2026-10-07) · a fifth belligerent axis · a dated Iran-Oman PERMANENT-corridor framework (window opens 2026-09-25) · Will registering a rung above D 75 (DOCKET L300) · a second class-(iii) hull loss · or **2026-10-07**, whichever first. Routine mark moves belong in `STATUS.md`, not here.*

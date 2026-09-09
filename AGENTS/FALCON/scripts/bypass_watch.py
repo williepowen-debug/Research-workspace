@@ -9,7 +9,7 @@ non-hermetic. This is the first quantitative gauge of the single most important
 FALCON transmission tell:
 
   "If the shuttle trade breaks, THAT is how risk-premium becomes supply-loss"
-  (STATUS / NEXUS_BRIEF). A holding bypass => premium-only (D~65). A COLLAPSING
+  (STATUS / NEXUS_BRIEF). A holding bypass => premium-only read (the MARK lives in STATUS.md, not in this script). A COLLAPSING
   bypass while Hormuz transits stay collapsed => barrels genuinely not moving
   => premium becoming supply-loss => D toward 75.
 
@@ -39,7 +39,7 @@ domain/BYPASS_INTEGRITY_BASELINE.md for the full characterization):
 
 ALARM DIRECTION IS INVERTED vs a normal watcher — here the alarm is a COLLAPSE:
   rc 0 = bypass HOLDING/absorbing (trailing throughput at/above the floor) —
-         premium-only read, FALCON's registered most-likely. NOT an alarm.
+         premium-only read intact. NOT an alarm. (No scenario mark is printed here — marks live in STATUS.md.)
   rc 1 = bypass THROUGHPUT COLLAPSED below the floor — REVIEW: possible
          premium->supply-loss transmission; disposition is FALCON's call.
   rc 2 = fetch/parse failure (fail LOUD; never fabricate).
@@ -157,7 +157,7 @@ def main():
               "hub traffic vs Iran-bypass) before firing; disposition is FALCON's.")
         return 1
     print("→ Bypass HOLDING/absorbing (throughput at/above floor) — premium-only "
-          "read intact (D~65, FALCON's registered most-likely). Not an alarm.")
+          "read intact. Not an alarm. Mark lives in STATUS.md, not here.")
     return 0
 
 

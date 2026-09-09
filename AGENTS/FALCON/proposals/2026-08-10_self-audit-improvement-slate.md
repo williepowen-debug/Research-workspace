@@ -1,3 +1,5 @@
+> ⚠️ **HISTORICAL PROPOSAL (2026-08-10) — do not read its items as open or closed from this file.** Execution state lives in `STATUS.md`'s owed-forward list, `PROME/DOCKET.tsv` L300/L301, and `LESSONS.md` FAL-08. As of 2026-09-08: the vessel ledger, WARRISK per-row check and transit-band re-spec were built 8/10; the attacker-identity axis was applied 9/8; the casualty-ratchet instrument is still OPEN.
+
 # FALCON — self-audit improvement slate, 2026-08-10
 
 **Author:** FALCON · **Task:** Will-directed via PROME — read my own tree, produce a ranked proposal list (functionality · stale data · gaps).

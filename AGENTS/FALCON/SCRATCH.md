@@ -21,6 +21,7 @@
 - **DOCKET L301 DISCHARGED:** attacker-identity axis APPLIED to `VX-FALCON-SUNK-01` (Red cell split (iii-A)/(iii-B), prospective; 9/5 fire stands per Will 9/7). **DOCKET L300 ANSWERED as a PROPOSAL:** D→85 rung, four triggers with base rates + explicit non-triggers (report §3) — NOT self-registered.
 - `FLOW-FALCON-03` → LIVE-ESCALATING (8 hulls); `EXIT_PROTOCOL.md` touched (§2 D75→higher row, §3 #2/#3/#4/#6/#8, §5 reviewed-and-held); `WARRISK.tsv` attempt clock 9/8 (search-not-found, 48d — data clock NOT advanced); false-fire register +4 rows; KB-130..144.
 - HAWK audit ACTION **CONFIRMED** (packet); BRENT 9/8 catch-up noted; inbox 3/3 drained + `git mv`'d.
+- **STALENESS SWEEP (second touch, Will-directed):** THESIS v2.2 · TIMELINE → War Day 193 · VX 8/9 rows re-verified · EXIT_PROTOCOL §1/§4 re-graded · KB 68 expired rows dispositioned + KB-145/146 · PREDICTIONS FAL-03/04 rotated · FRESH_LEG / BYPASS baseline / bypass_watch.py / IRAQ review / SOURCES / MEMORY / CLAUDE.md cells refreshed. Nothing mark-, gate- or threshold-affecting.
 - STATUS rewritten (9/7 block, 7/30 B/C/D subsections and 9/7+9/1 BOTTOM LINEs archived verbatim → `domain/sources/STATUS_archive_2026-09-08_rotation.md`); packets → PROME (L300/L301), BRENT (🔴 direct, HAWK cc), HAWK (receipt + split question).
 
 ## NEXT SESSION (dated, future-verifiable)
@@ -28,11 +29,12 @@
 2. **Any day — the Kuwait/Bahrain in-port class:** a NAMED hull hit at Mina al-Ahmadi/Shuaiba/Sitra (operator/UKMTO/state confirmation) = proposed trigger (c) → same-day memo to PROME + BRENT even though no rung is registered; log to VESSELS with `theater=GULF_STATE_PORT`.
 3. **Any day — Kharg after the Derya strike:** a ≥72h crude-loading suspension evidenced on two dark-immune routes (TankerTrackers / Kpler / Windward) = **FAL-05 route (c) candidate with a NEW initiating cause (9/8)** — grade against the registered text, not memory. `kharg_loadings_watch.py` carries NOTHING.
 4. **Any day — a confirmed SINKING of any of the five 9/8 hulls** = second class-(iii) = EXIT_PROTOCOL §5 rewrite trigger + memo; total losses 2→3; (iii-B), no mark move pending L300.
-5. **2026-09-10 (Wed) noon ET** — EIA week-ending 9/4 (BRENT's; tape row only).
+5. **2026-09-10 (Thu) noon ET** — EIA week-ending 9/4 (BRENT's; tape row only; a Thursday because of the Labor Day holiday schedule — claim_check caught my 'Wed').
 6. **2026-09-25 → 10/26** — Iran-Oman PERMANENT-corridor window (DOCKET L229); Rezaei's *"under Iran's management"* framing is the thing to grade when it lands (B flip-up needs a DATE + verified reopening steps).
 7. **2026-09-30 (Wed)** — US withdrawal deadline from Iraq (Rudaw): the PMF disarmament standoff's dated catalyst; read CTP-ISW + Shafaq that week, not the embassy feed.
 8. **2026-10-07** — FAL-05 resolves; EXIT_PROTOCOL rewrite trigger.
-9. **Owed builds, ranked:** casualty-ratchet instrument (approved 8/17; third live demand 9/8) · `bypass_watch.py` empty-series guard · dark-immune Kharg instrument · WARRISK re-pull on any print · Petroline throughput · DAEDALUS rail-repair bundle · ~~STATUS to ≤60% of the read cap~~ ✅ DONE 9/8 (31,503 B = 58%; keep it there — every session block must be paid for by an archive rotation).
+9. **Hygiene cadence (new, from the sweep):** VX rows get a `[MonDD]` check block whenever a session touches STATUS marks — a stamp older than 14 days means nobody checked; KB currency pass (expired ACTIVE rows → SUPERSEDED / CONFIRMED / STALE) at every FULL session; THESIS/EXIT_PROTOCOL footer triggers are DATED — compare to today at closeout step 11.
+10. **Owed builds, ranked:** casualty-ratchet instrument (approved 8/17; third live demand 9/8) · `bypass_watch.py` empty-series guard · dark-immune Kharg instrument · WARRISK re-pull on any print · Petroline throughput · DAEDALUS rail-repair bundle · ~~STATUS to ≤60% of the read cap~~ ✅ DONE 9/8 (31,503 B = 58%; keep it there — every session block must be paid for by an archive rotation).
 
 ## OPEN THREADS / WATCHES
 - 🔴 **Kuwait/Bahrain in-port tanker threat** (`KB-132`) — daily: any named hull incident in those ports; Kuwaiti/Bahraini/US responses (none found 9/8 22:00 ET).

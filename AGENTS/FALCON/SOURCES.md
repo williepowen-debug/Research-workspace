@@ -121,7 +121,7 @@ Key accounts for real-time military tracking:
 > ⚠️ **This file had not been touched since spinout (2026-07-12) while the sourcing base changed materially.** Every entry below was load-bearing in a real adjudication — several resolved or killed a registered prediction — and none of them was findable here. **An un-updated source index quietly re-routes the next session back to the sources that were already failing.**
 
 **Refinery / plant outage status (the gap that mattered most)**
-- **IIR Energy (via Reuters)** — refinery outage and restart data. **This is the source that produced the Jazan shutdown** (400 kbpd, shut 7/27, restart tent. 8/15) after Aramco itself stayed silent and did not reply to Reuters. **Registered in FAL-04 route (b) as an acceptable "named-source trade primary."** ⚠️ It is a *trade primary, not the operator* — cite it as such.
+- **IIR Energy (via Reuters)** — refinery outage and restart data. **This is the source that produced the Jazan shutdown** (400 kbpd, shut 7/27, restart tent. 8/15) after Aramco itself stayed silent and did not reply to Reuters. **Registered in FAL-04 route (b) (carried into FAL-05 route (b)) as an acceptable "named-source trade primary."** ⚠️ It is a *trade primary, not the operator* — cite it as such.
 - **Aramco direct** — has issued **no** statement on Jazan. **Operator silence is the norm here, which is exactly why the resolvability guard exists** (silence must never auto-confirm a negative prediction).
 
 **LNG / gas — the molecule with no coverage before 7/30**
@@ -142,3 +142,26 @@ Key accounts for real-time military tracking:
 
 **Insurance**
 - **Marcus Baker, Marsh (global head of marine) via S&P Global Platts** — the anchor Hormuz hull-premium quote. ⚠️ **Publishes infrequently: re-pulled 7/30 and the 7/22 figure was still the newest in existence.** See `workbook/WARRISK.tsv`'s three-clock header — *old because nothing newer was published* ≠ *old because nobody looked.*
+
+
+---
+
+## ADDED 2026-09-08 — primaries that carried decision-weight in the 9/5–9/8 tanker war and the 9/7–9/8 Saudi salvo
+
+**Vessel strikes / shadow fleet**
+- **CENTCOM public releases via NBC / CBS / ABC live blogs** — `centcom.mil` still 403s from this box (documented since 9/1); the three networks relay the release text within the hour. ⚠️ **Grade the OPERATIVE phrase** ("rendered inoperable") not the headline verb ("destroyed") — see the false-fire register.
+- **TankerTrackers.com** (via search-layer relays) — dark-immune hull identification and laden state (Derya empty; Kylo empty; the five 9/8 hulls' export history). **The only route that saw the 8/12 Kharg loading my AIS instrument missed.** Primary not directly reachable; relays cite it by name.
+- **Kpler via WSJ / Reuters** — Iranian crude afloat outside the blockade (90M→29M), Kharg monthly loadings (251 kb/d Aug), Hormuz commodity-ship counts (~10/day). BRENT's lane; cite, never maintain. ⚠️ Three different denominators in one week (Kpler ships/day · PortWatch 88 · Reuters 130-140 norm) — never blend.
+- **IRNA via Malay Mail / Middle East Eye / Al Bawaba** — IRGC Navy statements verbatim (the Kuwait/Bahrain in-port warning). Iranian state media = D-tier for INTENT, B-tier for the FACT that a statement was issued.
+
+**Saudi strikes**
+- **Saudi Ministry of Energy statements via Al Arabiya English / Arab News / Al Jazeera** — the operator-of-record voice for "fires… temporary halt in some operations"; **never names units, durations or volumes** — the absence is structural, not a gap to close by re-pulling. Reuters (streetinsider mirror) 403s and `apnews.com` is unfetchable from this box.
+- **The War Zone (TWZ) + NASA FIRMS** — thermal-anomaly geolocation at facility resolution (Jazan refinery vs Jazan Bulk Plant vs King Abdullah Airport). Claimant-independent.
+- **Shafaq News relaying the FT** — the only route to the FT's 9/7 Jazan report from this box (FT paywalled).
+- **Houthi Yahya Saree statements (Telegram, via relays)** — target list + weapon class; claim-tier only.
+
+**Iran internal / diplomacy**
+- **CTP-ISW Iran Update (daily)** — now also the primary read on the RESTRICTED ZONE, the blockade's economic bite (gasoline price, floating-stock drawdown) and Iranian decision-maker statements (Rezaei, Qalibaf, Khatam al-Anbiya HQ). Iraq section stays the PMF primary.
+- **Iran International / AP (via Asharq Al-Awsat, Africanews)** — gasoline price hike and security deployment. **NCRI / Shabtabnews = advocacy** (opposition-aligned); flag, do not make load-bearing.
+
+**Unreachable / trap notes this week:** CNN returns HTTP 451 to this box; Kurdistan24's "three F-35s destroyed" item is 7/30-vintage and surfaces beside 9/8 Jordan claims (register row); Wikipedia's ship-attack list stops in July and explicitly flags its September gap.

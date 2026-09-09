@@ -59,4 +59,12 @@ De-escalation-relevant (the standoff resolving the *other* way): the disarmament
 - **Discriminator RETAINED at meaningful weight** (not downgraded to noise) — because an independent route gives it real signal.
 - **Sourcing PRIMARY switched** embassy-feed → CTP Iran Update + Shafaq; embassy `baghdad_watch.py` demoted to positive-alert backstop, **silence ≠ evidence.**
 - **Current state:** UNFIRED, genuinely restrained; **watch item = the disarmament standoff**, not embassy alerts.
-- **Boot integration (deferred to Monday):** replace/augment boot step 5b so the discriminator is read off CTP, not the dead feed. Left as a next-session item — no boot-doc edit tonight.
+- **Boot integration: DONE** — `CLAUDE.md` boot step 5b now names CTP/ISW + Shafaq as the PRIMARY read and the embassy feed as a positive-alert backstop only.
+
+
+---
+
+> ## 🟡 UPDATE 2026-09-08 — QUIET ON OIL TARGETS SINCE 7/29; THE NEXT DATED CATALYST IS THE 9/30 US WITHDRAWAL DEADLINE
+> **State since the 7/30 update (verified 9/8 on the PRIMARY route):** CTP-ISW Iran Update 2026-09-07, Iraq section: *"Nothing significant to report."* No Iraq-origin kinetic act against US forces, Gulf energy or Saudi territory located in the 8/1–9/8 window on ISW/Shafaq; the actor-axis fire of 7/27 (Abqaiq drones from Iraqi territory) and the 7/29 US+Saudi strikes into Iraq have had **no damaging follow-on**. D-indicator #4 stays **NOT FIRED** on its "damaging follow-on" limb. `baghdad_watch.py` 9/8: rc 0, last embassy alert 9/1 — **backstop only, silence is not evidence.** `KB-FALCON-140`
+> **Context that matters for the next 30 days:** several Iranian-backed militias publicly accepted state control of weapons in June (LWJ, June 2026) while Kataib Hezbollah, Harakat al-Nujaba and Kataib Sayyid al-Shuhada refused Hegseth's 7/14 disarmament demand (§4 above); **the US is to meet a 30 September 2026 deadline for withdrawing from Iraq** (Rudaw via JPost). A withdrawal-deadline week is exactly when a militia has both the incentive to claim credit and the cover to strike — **read CTP-ISW + Shafaq daily 9/24–10/3.**
+> **Re-review trigger (dated):** any Iraq-origin kinetic event, or **2026-09-30**, whichever first. *(The 7/30 trigger, 2026-08-13, lapsed unactioned — this file has no boot staleness gate; the SCRATCH watch list now carries the date.)*
